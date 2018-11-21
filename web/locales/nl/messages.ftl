@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Ja, stuur mij e-mailberichten. Ik wil graag op de hoogte blijven over het Common Voice-project.
-stayintouch = Bij Mozilla bouwen we een gemeenschap rond stemtechnologie. We willen graag contact met u houden met updates, nieuwe gegevensbronnen, en om te horen hoe u deze gegevens gebruikt.
+stayintouch = Bij Mozilla bouwen we een gemeenschap rond spraaktechnologie. We blijven graag met u in contact met updates, nieuwe gegevensbronnen, en om te horen hoe u deze gegevens gebruikt.
 privacy-info = We beloven uw gegevens met zorg te behandelen. Lees meer in onze <privacyLink>Privacyverklaring</privacyLink>.
 return-to-cv = Terug naar Common Voice
 email-input =
@@ -123,10 +123,10 @@ logout = Afmelden
 
 home-title = Het Common Voice-project is een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
 home-cta = Laat uw stem horen, draag hier bij!
-wall-of-text-start = Stem is natuurlijk, stem is menselijk. Daarom zijn we gefascineerd in het maken van een bruikbare stemtechnologie voor onze machines. Maar voor het maken van stemsystemen is een extreem grote hoeveelheid stemgegevens nodig.
+wall-of-text-start = Spraak is natuurlijk, spraak is menselijk. Daarom zijn we gefascineerd in het maken van een bruikbare spraaktechnologie voor onze machines. Maar voor het maken van spraaksystemen is een extreem grote hoeveelheid stemgegevens nodig.
 wall-of-text-more-mobile = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Project Common Voice gestart, een project dat spraakherkenning voor iedereen beschikbaar helpt te maken.
 wall-of-text-more-desktop = U kunt nu uw stem doneren om ons te helpen een opensource-stemdatabase te bouwen die iedereen kan gebruiken om innovatieve apps voor apparaten en het web te maken.<lineBreak></lineBreak>Lees een zin op om machines te helpen leren hoe echte mensen spreken. Controleer het werk van andere donateurs om de kwaliteit te verbeteren. Zo eenvoudig is het!
-wall-of-text-first = Stem is natuurlijk, stem is menselijk. Daarom zijn we enthousiast over het maken van bruikbare stemtechnologie voor onze machines. Maar om stemsystemen te maken, hebben ontwikkelaars een extreem grote hoeveelheid stemgegevens nodig.
+wall-of-text-first = Spraak is natuurlijk, spraak is menselijk. Daarom zijn we enthousiast over het maken van een bruikbare spraaktechnologie voor onze machines. Maar voor het maken van spraaksystemen hebben ontwikkelaars een extreem grote hoeveelheid stemgegevens nodig.
 wall-of-text-second = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Common Voice gestart, een project dat helpt spraakherkenning voor iedereen open en toegankelijk te maken.
 show-wall-of-text = Meer lezen
 help-us-title = Help ons zinnen te valideren!
@@ -136,7 +136,7 @@ vote-yes = Ja
 vote-no = Nee
 toggle-play-tooltip = Druk op { shortcut-play-toggle } om de afspeelmodus in/uit te schakelen
 speak-subtitle = Doneer uw stem
-speak-paragraph = Het opnemen van stemfragmenten is een integraal onderdeel van het bouwen van onze open gegevensset; volgens sommigen is het ook het leuke deel.
+speak-paragraph = Het opnemen van spraakfragmenten is een integraal onderdeel van het bouwen van onze open gegevensset; volgens sommigen is het ook het leuke deel.
 speak-goal-text = Opgenomen fragmenten
 listen-subtitle = Help ons stemmen te valideren
 listen-paragraph = Validatie van gedoneerde fragmenten is net zo belangrijk als de missie van Common Voice. Luister eens en help ons kwalitatief hoogwaardige opensource-stemgegevens te creëren.
@@ -239,7 +239,6 @@ why-profile-title = Waarom een profiel?
 why-profile-text = Door wat informatie over uzelf te geven, zijn de door u bij Common Voice ingediende audiogegevens nuttiger voor spraakherkenningsengines die deze gegevens gebruiken om hun nauwkeurigheid te verbeteren.
 dashboard = Dashboard
 build-profile = Profiel opbouwen
-profile = Profiel
 avatar = Avatar
 preferences = Voorkeuren
 edit-profile = Profiel bewerken
@@ -284,7 +283,7 @@ faq-important-a = Spraak is natuurlijk, spraak is menselijk. Het is de eenvoudig
 faq-get-q = Hoe krijg ik toegang tot Common Voice-gegevens?
 faq-get-a = De gegevensset is nu beschikbaar op onze <downloadLink>downloadpagina</downloadLink> onder de <licenseLink>CC-0</licenseLink>-licentie.
 faq-mission-q = Waarom is Common Voice onderdeel van de Mozilla-missie?
-faq-mission-a = Mozilla wijdt zich aan het voor iedereen open en toegankelijk houden van het internet. Om dit te doen, moeten we webmakers middelen geven met projecten als Common Voice. Omdat stemtechnologieën steeds meer worden toegepast, geloven we dat ze alle gebruikers ten dienste moeten staan. We zien dat er behoefte is aan meer talen, accenten en bevolkingsverschillen bij het testen van stemtechnologieën. Mozilla wil een gezond en opwindend internet zien. Dat betekent nieuwe makers toegang geven tot stemgegevens, zodat ze nieuwe, buitengewone projecten kunnen bouwen. Common Voice wordt een publieke bron die Mozilla-teams en ontwikkelaars over de hele wereld zal helpen.
+faq-mission-a = Mozilla wijdt zich aan het voor iedereen open en toegankelijk houden van het internet. Om dit te doen, moeten we webmakers middelen geven met projecten als Common Voice. Omdat spraaktechnologieën steeds meer worden toegepast, geloven we dat ze alle gebruikers ten dienste moeten staan. We zien dat er behoefte is aan meer talen, accenten en bevolkingsverschillen bij het testen van spraaktechnologieën. Mozilla wil een gezond en opwindend internet zien. Dat betekent nieuwe makers toegang geven tot spraakgegevens, zodat ze nieuwe, buitengewone projecten kunnen bouwen. Common Voice wordt een publieke bron die Mozilla-teams en ontwikkelaars over de hele wereld zal helpen.
 faq-native-q = Ik ben een niet-moedertaalspreker van het { $lang } en ik spreek met een accent, willen jullie toch mijn stem?
 faq-native-a = Ja, we willen zeker uw stem! Onderdeel van het doel van Common Voice is om zo veel mogelijk verschillende accenten te verzamelen, zodat computers <bold>iedereen</bold> beter kunnen begrijpen wanneer zij spreken.
 faq-firefox-q = Zal spraak-naar-tekst, via Common Voice, ooit onderdeel worden van Firefox?
@@ -315,9 +314,9 @@ data-download-deny = Nee
 data-download-license = Licentie: <licenseLink>CC-0</licenseLink>
 data-download-modal = U staat op het punt een download ter grootte van <size>{ $size } GB</size> te starten, doorgaan?
 data-subtitle = We bouwen een open en openbaar toegankelijke gegevensset van stemmen, die iedereen kan gebruiken om spraakgestuurde toepassingen te trainen.
-data-explanatory-text = We denken dat grote en openbare stemgegevenssets voor innovatie en gezonde commerciële competitie zorgen in spraaktechnologie op basis van machineleren. Dit is een wereldwijde inspanning, en we nodigen iedereen uit om deel te nemen. Ons doel is om te helpen ervoor te zorgen dat spraaktechnologie breder wordt, waarmee de diversiteit aan stemmen over de wereld wordt weergegeven.
+data-explanatory-text = We denken dat grote en openbare spraakgegevenssets voor innovatie en gezonde commerciële competitie zorgen in spraaktechnologie op basis van machineleren. Dit is een wereldwijde inspanning, en we nodigen iedereen uit om deel te nemen. Ons doel is om te helpen ervoor te zorgen dat spraaktechnologie breder wordt, waarmee de diversiteit aan stemmen over de wereld wordt weergegeven.
 data-get-started = <speechBlogLink>Beginnen met spraakherkenning</speechBlogLink>
-data-other-title = Andere stemgegevenssets…
+data-other-title = Andere spraakgegevenssets…
 data-other-goto = Naar { $name }
 data-other-download = Gegevens downloaden
 data-other-librispeech-description = LibriSpeech is een pakket met circa 1000 uur aan 16 kHz gesproken Engels, afgeleid van opgelezen audioboeken uit het LibriVox-project.
@@ -344,7 +343,7 @@ review-delete-recordings = Mijn opnamen verwijderen
 ## Download Modal
 
 download-title = Uw download is gestart.
-download-helpus = Help ons een gemeenschap rond stemtechnologie te bouwen, blijf op de hoogte via e-mail.
+download-helpus = Help ons een gemeenschap rond spraaktechnologie te bouwen, blijf op de hoogte via e-mail.
 download-form-email =
     .label = Voer uw e-mailadres in
     .value = Bedankt, we houden contact.
@@ -431,3 +430,12 @@ listen-last-time-instruction = <playIcon></playIcon> De laatste!
 nothing-to-validate = Er is niets in deze taal te valideren; help ons de rij te vullen.
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
+
+## Dashboard
+
+you = U
+everyone = Iedereen
+contribution-activity = Medewerkersactiviteit
+top-contributors = Topmedewerkers
+recorded-clips = Opgenomen fragmenten
+validated-clips = Gevalideerde fragmenten
