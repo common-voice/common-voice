@@ -266,7 +266,7 @@ export default class API {
           headers['content-type'] +
           ';base64,' +
           body.toString('base64');
-        if (avatarURL.length > 2500) {
+        if (avatarURL.length > 3000) {
           error = 'too_large';
         }
         break;
@@ -277,7 +277,7 @@ export default class API {
     }
 
     if (!error) {
-      await UserClient.updateAvatarURL(user.id, avatarURL);
+      await UserClient.updateAvatarURL(user.emails[0].value, avatarURL);
     }
 
     response.json(error ? { error } : {});

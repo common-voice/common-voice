@@ -249,7 +249,7 @@ const UserClient = {
   },
 
   async updateAvatarURL(sso_id: string, url: string) {
-    await db.query('UPDATE user_clients SET avatar_url = ? WHERE sso_id = ?', [
+    await db.query('UPDATE user_clients SET avatar_url = ? WHERE email = ?', [
       url,
       sso_id,
     ]);
