@@ -13,7 +13,7 @@ import { User } from '../../../../stores/user';
 import { SettingsIcon } from '../../../ui/icons';
 import { LinkButton, LabeledInput } from '../../../ui/ui';
 
-import './preferences.css';
+import './settings.css';
 
 const Section = ({
   title,
@@ -27,7 +27,7 @@ const Section = ({
   className?: string;
   children?: React.ReactNode;
 }) => (
-  <section className={'user-preference ' + className} {...props}>
+  <section className={'user-setting ' + className} {...props}>
     <div className="section-title">
       <h2>{title}</h2>
       {titleAction}
@@ -48,7 +48,7 @@ interface PropsFromDispatch {
 
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
-class Preferences extends React.Component<Props> {
+class Settings extends React.Component<Props> {
   componentDidMount() {
     const { pathname, search } = location;
     if (search.includes('success=false')) {
@@ -156,4 +156,4 @@ export default connect<PropsFromState, PropsFromDispatch>(
     addNotification: Notifications.actions.add,
     refreshUser: User.actions.refresh,
   }
-)(withLocalization(Preferences));
+)(withLocalization(Settings));

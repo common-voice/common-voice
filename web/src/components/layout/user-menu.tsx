@@ -60,9 +60,9 @@ class UserMenu extends React.Component<PropsFromState> {
                   id: 'profile',
                 },
                 {
-                  route: URLS.PROFILE_PREFERENCES,
+                  route: URLS.PROFILE_SETTINGS,
                   icon: <ToggleIcon />,
-                  id: 'preferences',
+                  id: 'settings',
                 },
               ].map(({ route, icon, id }) => (
                 <li key={route}>

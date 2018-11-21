@@ -3,7 +3,7 @@
 .profile {
     &.info,
     &.avatar,
-    &.preferences {
+    &.settings {
         & #content {
             padding: 0;
             max-width: none;

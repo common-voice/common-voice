@@ -17,7 +17,7 @@ import { CameraIcon, ToggleIcon, UserIcon, UserPlusIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import AvatarSetup from './avatar-setup/avatar-setup';
 import InfoPage from './info/info';
-import Preferences from './preferences/preferences';
+import Settings from './settings/settings';
 
 import './layout.css';
 
@@ -60,7 +60,7 @@ interface Props extends LocalePropsFromState, PropsFromState {}
 const Layout = ({ toLocaleRoute, user }: Props) => {
   const infoRoute = toLocaleRoute(URLS.PROFILE_INFO);
   const avatarRoute = toLocaleRoute(URLS.PROFILE_AVATAR);
-  const prefRoute = toLocaleRoute(URLS.PROFILE_PREFERENCES);
+  const prefRoute = toLocaleRoute(URLS.PROFILE_SETTINGS);
   return (
     <div className="profile-layout">
       <div className="profile-nav">
@@ -73,7 +73,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
                 : { icon: <UserPlusIcon />, id: 'build-profile' }),
             },
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
-            { route: prefRoute, icon: <ToggleIcon />, id: 'preferences' },
+            { route: prefRoute, icon: <ToggleIcon />, id: 'settings' },
           ].map(({ route, icon, id }) => (
             <NavLink key={route} to={route}>
               {icon}
@@ -110,7 +110,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             exact
             path={prefRoute}
             render={props =>
-              user.account ? <Preferences /> : <Redirect to={infoRoute} />
+              user.account ? <Settings /> : <Redirect to={infoRoute} />
             }
           />
         </Switch>

@@ -112,7 +112,7 @@ router.get(
       if (!success) {
         session.passport.user = old_user;
       }
-      response.redirect('/profile/preferences?success=' + success.toString());
+      response.redirect('/profile/settings?success=' + success.toString());
     } else {
       response.redirect('/login-success');
     }
