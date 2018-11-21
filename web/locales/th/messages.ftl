@@ -117,12 +117,16 @@ logout = ออกจากระบบ
 
 ## Home Page
 
+home-title = Common Voice เป็นเครื่องมือที่ Mozilla สร้างขึ้นเพื่อช่วยสอนให้เครื่องจักรเข้าใจคำพูดของมนุษย์
 home-cta = พูดคุย, ร่วมให้ข้อมูลที่นี่!
 show-wall-of-text = อ่านเพิ่มเติม
 help-us-title = ช่วยเราตรวจสอบประโยค!
 help-us-explain = กดปุ่ม เล่น ฟัง และบอกเรา: พวกเขาพูดประโยคด้านล่างนี้ถูกต้องหรือไม่?
+no-clips-to-validate = ดูเหมือนว่าไม่มีคลิปให้ฟังในภาษานี้ ช่วยเราเพิ่มด้วยการบันทึกเลย
 vote-yes = ใช่
 vote-no = ไม่
+toggle-play-tooltip = กด { shortcut-play-toggle } เพื่อสลับโหมดการเล่น
+speak-subtitle = บริจาคเสียงของคุณ
 hours-recorded = ชั่วโมงที่บันทึก
 all-languages = ภาษาทั้งหมด
 today = วันนี้
@@ -192,7 +196,6 @@ female = หญิง
 # Gender
 other = อื่น ๆ
 why-profile-title = ทำไมถึงต้องมีโปรไฟล์?
-profile = โปรไฟล์
 edit-profile = แก้ไขโปรไฟล์
 profile-create = สร้างโปรไฟล์
 profile-create-success = สำเร็จ สร้างโปรไฟล์แล้ว!
@@ -294,3 +297,6 @@ record-abort-submit = ส่งคลิป
 record-abort-continue = เสร็จสิ้นการอัดเสียง
 record-abort-delete = ออกและลบคลิป
 record-button-label = อัดเสียงของคุณ
+
+## Dashboard
+
