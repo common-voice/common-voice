@@ -117,8 +117,6 @@ share-title = 다른 사람들이 목소리를 기부할 수 있게 도와주세
 share-text = 실제로 사람들이 말하는 방식을 프로그램에 추가하고, 자신의 목소리를 { $Link }에 기부해주세요
 link-copied = 링크 복사됨
 back-top = 처음으로 돌아가기
-contribution-banner-button = 살펴보기
-report-bugs-link = 버그 신고
 logout = 로그아웃
 
 ## Home Page
@@ -230,7 +228,9 @@ female = 여자
 other = 그외
 why-profile-title = 왜 사용자 정보가 필요한가요?
 why-profile-text = 사용자에 대한 정보를 제공함으로써 Common Voice에 제출하는 오디오 데이터는 이 데이터를 사용하여 정확성을 향상시키는 음성 인식 엔진에 더 유용하게 사용됩니다.
-profile = 프로필
+dashboard = 대시보드
+build-profile = 프로필 만들기
+avatar = 아바타
 edit-profile = 프로필 고치기
 profile-create = 프로필 만들기
 profile-create-success = 성공, 프로필이 만들어졌습니다!
@@ -244,6 +244,7 @@ keep-me-posted =
     .label = 나는 Common Voice에서 일어나는 일에 대한 최신 정보를 얻고 싶습니다.
 accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
 login-identity = 로그인 정보
+login-signup = 로그인 / 회원가입
 edit = 수정
 email-subscriptions = 이메일 구독
 download-profile = 내 데이타 다운로드
@@ -251,6 +252,13 @@ contribution-experience = 기여 경험
 skip-submission-feedback = 제출 피드백 건너뛰기
 off = 꺼짐
 on = 켜짐
+add-avatar-title = 프로필에 아바타 추가
+browse-file-title = 이미지 파일 업로드
+connect-gravatar = Gravatar에 연결하기
+gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
+file_too_large = 선택한 파일이 너무 큽니다.
+manage-subscriptions = 구독 관리
+email-already-used = 다른 계정에 이미 이메일이 사용되었습니다.
 
 ## FAQ
 
@@ -371,6 +379,7 @@ contribute = 기여하기
 listen = 듣기
 skip = 건너뛰기
 shortcuts = 바로 가기
+clips-with-count = <bold>{ $count }</bold>클립
 goal-help-recording = 방금 오늘 Common Voice 일간 녹음 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 goal-help-validation = 방금 오늘 Common Voice 일간 검증 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 contribute-more =
@@ -410,3 +419,7 @@ listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
 nothing-to-validate = 해당 언어에 더 이상 검증할 목소리가 없습니다. 새로운 목소리를 추가해 주세요.
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
+
+## Dashboard
+
+contribution-activity = 기여 활동
