@@ -249,9 +249,8 @@ why-profile-title = Wêrom in profyl?
 why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
 dashboard = Dashboerd
 build-profile = Profyl opbouwe
-profile = Profyl
 avatar = Avatar
-preferences = Foarkarren
+settings = Ynstellingen
 edit-profile = Profyl bewurkje
 profile-create = Profyl oanmeitsje
 profile-create-success = Profyl mei sukses oanmakke!
@@ -441,3 +440,12 @@ listen-last-time-instruction = <playIcon></playIcon> De lêste!
 nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús de rige te foljen.
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
+
+## Dashboard
+
+you = Jo
+everyone = Elkenien
+contribution-activity = Meiwurkersaktiviteit
+top-contributors = Topmeiwurkers
+recorded-clips = Opnommen fragminten
+validated-clips = Falidearre fragminten
