@@ -20,6 +20,7 @@ import InfoPage from './info/info';
 import Settings from './settings/settings';
 
 import './layout.css';
+import NotFoundPage from '../not-found';
 
 function downloadData(account: UserClient) {
   const text = [
@@ -112,6 +113,9 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             render={props =>
               user.account ? <Settings /> : <Redirect to={infoRoute} />
             }
+          />
+          <Route
+            render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}
           />
         </Switch>
       </div>
