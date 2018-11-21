@@ -2,7 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import { CheckIcon, MicIcon } from '../../ui/icons';
+import { CheckIcon, MicIcon, OldPlayIcon } from '../../ui/icons';
 import { Avatar } from '../../ui/ui';
 
 import './leaderboard.css';
@@ -19,6 +19,7 @@ const apiConnector = connect<PropsFromState>(({ api }: StateTree) => ({
 
 interface Props extends PropsFromState {
   locale: string;
+  type: 'clip' | 'vote';
 }
 
 const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
@@ -31,22 +32,24 @@ interface State {
   rows: { position: number; [key: string]: any }[];
 }
 
-export const RecordingsLeaderboard = apiConnector(
-  class extends React.Component<Props, State> {
+export default apiConnector(
+  class Leaderboard extends React.Component<Props, State> {
     state: State = {
       rows: [],
     };
 
     async componentDidMount() {
-      const { api, locale } = this.props;
+      const { api, locale, type } = this.props;
       this.setState({
-        rows: await api.forLocale(locale).fetchClipsLeaderboard(),
+        rows: await api.forLocale(locale).fetchLeaderboard(type),
       });
     }
 
     async fetchMore(cursor: [number, number]) {
-      const { api, locale } = this.props;
-      const newRows = await api.forLocale(locale).fetchClipsLeaderboard(cursor);
+      const { api, locale, type } = this.props;
+      const newRows = await api
+        .forLocale(locale)
+        .fetchLeaderboard(type, cursor);
       this.setState(({ rows }) => {
         const allRows = [...newRows, ...rows];
         allRows.sort((r1, r2) => (r1.position > r2.position ? 1 : -1));
@@ -87,7 +90,11 @@ export const RecordingsLeaderboard = apiConnector(
               {row.username || '???'}
             </div>
             <div className="total">
-              <MicIcon />
+              {this.props.type == 'clip' ? (
+                <MicIcon />
+              ) : (
+                <OldPlayIcon className="play" />
+              )}
               {row.total}
             </div>
             <div className="valid">

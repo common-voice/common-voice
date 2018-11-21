@@ -72,6 +72,10 @@
             & svg {
                 margin-right: 5px;
                 height: 17px;
+
+                &.play {
+                    height: 12px;
+                }
             }
 
             & path {

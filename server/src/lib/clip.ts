@@ -61,6 +61,7 @@ export default class Clip {
     router.get('/daily_count', this.serveDailyCount);
     router.get('/stats', this.serveClipsStats);
     router.get('/leaderboard', this.serveClipLeaderboard);
+    router.get('/votes/leaderboard', this.serveVoteLeaderboard);
     router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('*', this.serveRandomClips);
@@ -220,7 +221,22 @@ export default class Clip {
     response: Response
   ) => {
     response.json(
-      await this.model.getClipLeaderboard({
+      await this.model.getLeaderboard({
+        type: 'clip',
+        client_id,
+        cursor: query.cursor ? JSON.parse(query.cursor) : null,
+        locale: params.locale,
+      })
+    );
+  };
+
+  serveVoteLeaderboard = async (
+    { client_id, params, query }: Request,
+    response: Response
+  ) => {
+    response.json(
+      await this.model.getLeaderboard({
+        type: 'vote',
         client_id,
         cursor: query.cursor ? JSON.parse(query.cursor) : null,
         locale: params.locale,

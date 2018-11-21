@@ -238,29 +238,34 @@ export default class Model {
     20 * MINUTE
   );
 
-  private getFullLeaderboard = lazyCache(async (locale?: string) => {
-    return (await this.db.getClipLeaderboard(locale)).map((row, i) =>
-      omit(
-        {
-          position: i,
-          rate: Number((row.valid / (row.validated || 1)).toFixed(2)),
-          ...row,
-        },
-        'validated'
-      )
-    );
+  private getFullClipLeaderboard = lazyCache(async (locale?: string) => {
+    return (await this.db.getClipLeaderboard(locale)).map((row, i) => ({
+      position: i,
+      ...row,
+    }));
   }, 10 * MINUTE);
 
-  getClipLeaderboard = async ({
+  private getFullVoteLeaderboard = lazyCache(async (locale?: string) => {
+    return (await this.db.getVoteLeaderboard(locale)).map((row, i) => ({
+      position: i,
+      ...row,
+    }));
+  }, 10 * MINUTE);
+
+  getLeaderboard = async ({
+    type,
     client_id,
     cursor,
     locale,
   }: {
+    type: 'clip' | 'vote';
     client_id: string;
     cursor?: [number, number];
     locale: string;
   }) => {
-    const leaderboard = await this.getFullLeaderboard(locale);
+    const leaderboard = await (type == 'clip'
+      ? this.getFullClipLeaderboard
+      : this.getFullVoteLeaderboard)(locale);
     if (cursor) {
       return omitClientId(leaderboard.slice(cursor[0], cursor[1]));
     }

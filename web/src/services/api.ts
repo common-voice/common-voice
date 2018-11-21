@@ -240,9 +240,10 @@ export default class API {
     }).then(body => JSON.parse(body));
   }
 
-  fetchClipsLeaderboard(cursor?: [number, number]) {
+  fetchLeaderboard(type: 'clip' | 'vote', cursor?: [number, number]) {
     return this.fetch(
       this.getClipPath() +
+        (type == 'clip' ? '' : '/votes') +
         '/leaderboard' +
         (cursor ? '?cursor=' + JSON.stringify(cursor) : '')
     );

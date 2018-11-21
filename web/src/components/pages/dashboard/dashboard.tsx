@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { UserClient } from '../../../../../common/user-clients';
 import StateTree from '../../../stores/tree';
 import ContributionActivity from './contribution-activity';
-import { RecordingsLeaderboard } from './leaderboards';
+import Leaderboard from './leaderboard';
 import ProgressCard from './progress-card';
 import StatsCard from './stats-card';
 
@@ -129,9 +129,11 @@ class Dashboard extends React.Component<Props, State> {
               title="top-contributors"
               tabs={{
                 'recorded-clips': ({ locale }) => (
-                  <RecordingsLeaderboard key={locale} locale={locale} />
+                  <Leaderboard key={'c' + locale} locale={locale} type="clip" />
                 ),
-                'validated-clips': ({ locale }) => null,
+                'validated-clips': ({ locale }) => (
+                  <Leaderboard key={'v' + locale} locale={locale} type="vote" />
+                ),
               }}
             />
           </div>
