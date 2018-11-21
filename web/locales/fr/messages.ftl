@@ -438,5 +438,6 @@ share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 you = Vous
 everyone = Tout le monde
 contribution-activity = Activité de contribution
+top-contributors = Principaux contributeurs
 recorded-clips = Échantillons enregistrés
 validated-clips = Échantillons validés
