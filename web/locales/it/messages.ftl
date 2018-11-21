@@ -117,9 +117,6 @@ share-title = Aiutaci a trovare altri donatori di voce!
 share-text = Aiutaci a insegnare alle macchine come le persone parlano nella vita reale, dona la tua voce su { $link }
 link-copied = Link copiato
 back-top = Torna in alto
-contribution-banner-text = È disponibile una nuova esperienza di contribuzione
-contribution-banner-button = Dai un’occhiata
-report-bugs-link = Aiutaci segnalando bug
 logout = Disconnetti
 
 ## Home Page
@@ -238,10 +235,10 @@ female = Femmina
 other = Altro
 why-profile-title = Perché registrare un profilo?
 why-profile-text = Se fornisci queste informazioni insieme alle tue registrazioni vocali, esse verranno usate per migliorare la precisione dei motori di riconoscimento vocali.
+dashboard = Pannello
 build-profile = Crea il tuo profilo
-profile = Profilo
 avatar = Avatar
-preferences = Preferenze
+settings = Impostazioni
 edit-profile = Modifica profilo
 profile-create = Crea un profilo
 profile-create-success = Profilo creato con successo
@@ -255,6 +252,7 @@ keep-me-posted =
     .label = Mi piacerebbe ricevere aggiornamenti su Common Voice.
 accept-privacy = Acconsento al trattamento dei dati come indicato nell’<privacyLink>informativa sulla privacy</privacyLink> di Mozilla
 login-identity = Identità di accesso
+login-signup = Accedi / Registrati
 edit = Modifica
 email-subscriptions = Sottoscrizioni a email
 download-profile = Scarica i miei dati
@@ -264,6 +262,8 @@ skip-submission-description = Dopo aver premuto Invia durante l’invio del cont
 skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
 off = Disattiva
 on = Attiva
+add-avatar-title = Aggiungi un avatar al tuo profilo
+browse-file-title = Carica un’immagine
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
 connect-gravatar = Connetti Gravatar
 gravatar_not_found = Nessun profilo Gravatar associato alla tua email
@@ -427,3 +427,9 @@ listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 nothing-to-validate = Non sono presenti registrazioni da convalidare in questa lingua, aiutaci registrando qualche frase.
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci
+
+## Dashboard
+
+you = Tu
+everyone = Tutti
+top-contributors = Collaboratori principali
