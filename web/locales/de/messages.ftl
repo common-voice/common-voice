@@ -236,7 +236,7 @@ female = Weiblich
 # Gender
 other = Sonstiges
 why-profile-title = Warum ein Profil?
-why-profile-text = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil sie mit den Informationen ihre Genauigkeit erhöhen können.
+why-profile-text = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil diese mit den Informationen ihre Genauigkeit erhöhen können.
 dashboard = Übersicht
 build-profile = Profil erstellen
 avatar = Profilbild
@@ -299,7 +299,7 @@ faq-source-a2 = Sie können sich die verwendeten Sätze in <dataLink>diesem GitH
 ## Profile
 
 profile-why-title = Warum ein Profil?
-profile-why-content = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil sie mit den Informationen ihre Genauigkeit erhöhen können.
+profile-why-content = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil diese mit den Informationen ihre Genauigkeit erhöhen können.
 
 ## NotFound
 
