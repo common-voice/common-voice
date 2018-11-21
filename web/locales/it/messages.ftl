@@ -263,7 +263,6 @@ skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascol
 off = Disattiva
 on = Attiva
 add-avatar-title = Aggiungi un avatar al tuo profilo
-browse-file-title = Carica un’immagine
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
 connect-gravatar = Connetti Gravatar
 gravatar_not_found = Nessun profilo Gravatar associato alla tua email
