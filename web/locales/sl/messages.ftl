@@ -251,9 +251,8 @@ other = Drugo
 why-profile-title = Zakaj ustvariti profil?
 why-profile-text = S tem, da dodate nekaj podatkov o sebi, bodo glasovni podatki, ki jih pošljete projektu Common Voice, uporabnejši za razpoznavo govora, saj se lahko uporabijo za zagotavljanje večje natančnosti.
 build-profile = Ustvari profil
-profile = Profil
 avatar = Avatar
-preferences = Nastavitve
+settings = Nastavitve
 edit-profile = Uredi profil
 profile-create = Ustvari profil
 profile-create-success = Uspelo je, profil je ustvarjen!
@@ -448,3 +447,6 @@ listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
 nothing-to-validate = Trenutno ni ničesar za preveriti v tem jeziku. Pomagaj nam zapolniti čakalno vrsto.
 record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
+
+## Dashboard
+
