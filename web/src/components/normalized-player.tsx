@@ -79,4 +79,7 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
   stop() {
     this.bufSource.stop();
   }
+  close() {
+    this.audioCtx.close();
+  }
 }

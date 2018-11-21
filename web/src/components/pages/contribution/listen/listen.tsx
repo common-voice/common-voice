@@ -92,6 +92,7 @@ class ListenPage extends React.Component<Props, State> {
 
   componentWillUnmount() {
     clearInterval(this.playedSomeInterval);
+    this.audioPlayer.close();
   }
 
   private getClipIndex() {
