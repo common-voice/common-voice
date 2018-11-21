@@ -240,7 +240,7 @@ why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’
 dashboard = Pano
 build-profile = Profil oluştur
 avatar = Avatar
-preferences = Tercihler
+settings = Ayarlar
 edit-profile = Profili düzenle
 profile-create = Profil oluştur
 profile-create-success = Profil başarıyla oluşturuldu!
@@ -439,3 +439,7 @@ share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 
 you = Siz
 everyone = Herkes
+contribution-activity = Katkı Etkinliği
+top-contributors = En Çok Katkıda Bulunanlar
+recorded-clips = Kaydedilen ses
+validated-clips = Doğrulanan ses
