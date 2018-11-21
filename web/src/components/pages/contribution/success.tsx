@@ -164,7 +164,10 @@ class Success extends React.Component<Props, State> {
 
         {hasAccount && (
           <Localized id="edit-profile">
-            <LocaleLink className="secondary" to={URLS.PROFILE} />
+            <LocaleLink
+              className="secondary"
+              to={user.account ? URLS.PROFILE_INFO : URLS.PROFILE}
+            />
           </Localized>
         )}
       </div>
