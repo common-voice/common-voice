@@ -258,6 +258,8 @@ export default class Server {
     for (const locale of [null].concat(contributableLocales)) {
       await this.model.getClipsStats(locale);
       await this.model.getVoicesStats(locale);
+      await this.model.getFullVoteLeaderboard(locale);
+      await this.model.getFullClipLeaderboard(locale);
     }
     this.print(`took ${getElapsedSeconds(start)}s to warm up caches`);
   }
