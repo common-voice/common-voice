@@ -4,6 +4,7 @@ import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from 'common/user-clients';
 import { getConfig } from '../config-helper';
+import getGoals from './model/goals';
 import UserClient from './model/user-client';
 import Model from './model';
 import Clip from './clip';
@@ -75,6 +76,9 @@ export default class API {
       this.saveAvatar
     );
     router.put('/users/:id', this.saveUser);
+
+    router.get('/user_client/goals', this.getGoals);
+    router.get('/user_client/:locale/goals', this.getGoals);
 
     router.get('/:locale/sentences', this.getRandomSentences);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
@@ -292,5 +296,12 @@ export default class API {
         ? this.model.db.getContributionStats(locale, client_id)
         : this.model.getContributionStats(locale))
     );
+  };
+
+  getGoals = async (
+    { client_id, params: { locale } }: Request,
+    response: Response
+  ) => {
+    response.json(await getGoals(client_id, locale));
   };
 }
