@@ -250,6 +250,7 @@ female = Ženski
 other = Drugo
 why-profile-title = Zakaj ustvariti profil?
 why-profile-text = S tem, da dodate nekaj podatkov o sebi, bodo glasovni podatki, ki jih pošljete projektu Common Voice, uporabnejši za razpoznavo govora, saj se lahko uporabijo za zagotavljanje večje natančnosti.
+dashboard = Nadzorna plošča
 build-profile = Ustvari profil
 avatar = Avatar
 settings = Nastavitve
@@ -276,6 +277,7 @@ skip-submission-description = Med oddajo prispevka bodo povratne informacije pre
 skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
 off = Izklopljeno
 on = Vklopljeno
+add-avatar-title = Dodajte avatar svojemu profilu
 browse-file-title = Naložite slikovno datoteko
 browse-file = Povlecite in spustite ali <browseWrap>prebrskajte</browseWrap>
 connect-gravatar = Poveži z Gravatarjem
@@ -450,3 +452,9 @@ share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 
 ## Dashboard
 
+you = Vi
+everyone = Vsi
+contribution-activity = Dejavnost
+top-contributors = Naj sodelavci
+recorded-clips = Shranjeni posnetki
+validated-clips = Potrjeni posnetki
