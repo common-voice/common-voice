@@ -263,11 +263,13 @@ skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascol
 off = Disattiva
 on = Attiva
 add-avatar-title = Aggiungi un avatar al tuo profilo
+browse-file-title = Carica un’immagine
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
 connect-gravatar = Connetti Gravatar
 gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
 manage-subscriptions = Gestisci le sottoscrizioni
+email-already-used = Questa email è già in uso per un altro account
 
 ## FAQ
 
@@ -431,4 +433,7 @@ share-title-new = <bold>Aiutaci</bold> a trovare altre voci
 
 you = Tu
 everyone = Tutti
+contribution-activity = Contributi
 top-contributors = Collaboratori principali
+recorded-clips = Registrazioni immesse
+validated-clips = Registrazioni convalidate
