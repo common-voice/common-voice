@@ -119,7 +119,7 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
   return rows;
 }
 
-const HOUR = 1000 * 60 * 60;
+const CACHE_TIME_MS = 1000 * 60 * 20;
 
 function omitClientId(rows: any[]) {
   return rows.map(row => omit(row, 'client_id'));
@@ -133,7 +133,7 @@ export const getFullClipLeaderboard = lazyCache(
       ...row,
     }));
   },
-  HOUR
+  CACHE_TIME_MS
 );
 
 export const getFullVoteLeaderboard = lazyCache(
@@ -144,7 +144,7 @@ export const getFullVoteLeaderboard = lazyCache(
       ...row,
     }));
   },
-  HOUR
+  CACHE_TIME_MS
 );
 
 export default async function getLeaderboard({
