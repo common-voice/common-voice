@@ -10,7 +10,6 @@ import {
 } from './model/split';
 import { getConfig } from '../config-helper';
 import lazyCache from './lazy-cache';
-import omit = require('lodash.omit');
 
 const locales = require('locales/all.json') as string[];
 const contributableLocales = require('locales/contributable.json') as string[];
@@ -47,10 +46,6 @@ function fetchLocalizedPercentagesByLocale() {
       {}
     )
   );
-}
-
-function omitClientId(rows: any[]) {
-  return rows.map(row => omit(row, 'client_id'));
 }
 
 function clipCountToHours(count: number) {
@@ -237,51 +232,4 @@ export default class Model {
     (locale?: string) => this.db.getContributionStats(locale),
     20 * MINUTE
   );
-
-  getFullClipLeaderboard = lazyCache(async (locale?: string) => {
-    return (await this.db.getClipLeaderboard(locale)).map((row, i) => ({
-      position: i,
-      ...row,
-    }));
-  }, 60 * MINUTE);
-
-  getFullVoteLeaderboard = lazyCache(async (locale?: string) => {
-    return (await this.db.getVoteLeaderboard(locale)).map((row, i) => ({
-      position: i,
-      ...row,
-    }));
-  }, 60 * MINUTE);
-
-  getLeaderboard = async ({
-    type,
-    client_id,
-    cursor,
-    locale,
-  }: {
-    type: 'clip' | 'vote';
-    client_id: string;
-    cursor?: [number, number];
-    locale: string;
-  }) => {
-    const leaderboard = await (type == 'clip'
-      ? this.getFullClipLeaderboard
-      : this.getFullVoteLeaderboard)(locale);
-    if (cursor) {
-      return omitClientId(leaderboard.slice(cursor[0], cursor[1]));
-    }
-
-    const userIndex = leaderboard.findIndex(row => row.client_id == client_id);
-    const userRegion =
-      userIndex == -1 ? [] : leaderboard.slice(userIndex - 1, userIndex + 2);
-    const partialBoard = [
-      ...leaderboard.slice(0, 2 + Math.max(0, 3 - userRegion.length)),
-      ...userRegion,
-    ];
-    return omitClientId(
-      partialBoard.filter(
-        ({ position }, i) =>
-          i == partialBoard.findIndex(row => row.position == position)
-      )
-    );
-  };
 }

@@ -6,6 +6,7 @@ const PromiseRouter = require('express-promise-router');
 import { getConfig } from '../config-helper';
 import { AWS } from './aws';
 import Model from './model';
+import getLeaderboard from './model/leaderboard';
 import Bucket from './bucket';
 import { ClientParameterError } from './utility';
 
@@ -221,7 +222,7 @@ export default class Clip {
     response: Response
   ) => {
     response.json(
-      await this.model.getLeaderboard({
+      await getLeaderboard({
         type: 'clip',
         client_id,
         cursor: query.cursor ? JSON.parse(query.cursor) : null,
@@ -235,7 +236,7 @@ export default class Clip {
     response: Response
   ) => {
     response.json(
-      await this.model.getLeaderboard({
+      await getLeaderboard({
         type: 'vote',
         client_id,
         cursor: query.cursor ? JSON.parse(query.cursor) : null,

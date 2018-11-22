@@ -7,6 +7,10 @@ require('source-map-support').install();
 const contributableLocales = require('locales/contributable.json');
 import { importLocales } from './lib/model/db/import-locales';
 import Model from './lib/model';
+import {
+  getFullClipLeaderboard,
+  getFullVoteLeaderboard,
+} from './lib/model/leaderboard';
 import API from './lib/api';
 import Logger from './lib/logger';
 import { getElapsedSeconds, ClientError, APIError } from './lib/utility';
@@ -258,8 +262,8 @@ export default class Server {
     for (const locale of [null].concat(contributableLocales)) {
       await this.model.getClipsStats(locale);
       await this.model.getVoicesStats(locale);
-      await this.model.getFullVoteLeaderboard(locale);
-      await this.model.getFullClipLeaderboard(locale);
+      await getFullVoteLeaderboard(locale);
+      await getFullClipLeaderboard(locale);
     }
     this.print(`took ${getElapsedSeconds(start)}s to warm up caches`);
   }
