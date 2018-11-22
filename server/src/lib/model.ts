@@ -163,57 +163,70 @@ export default class Model {
     }
   }
 
-  getValidatedHours = lazyCache(async () => {
-    const english = (await this.db.getValidClipCount(['en']))[0];
-    return clipCountToHours(english ? english.count : 0);
-  }, DAY);
+  getValidatedHours = lazyCache(
+    'validated-hours',
+    async () => {
+      const english = (await this.db.getValidClipCount(['en']))[0];
+      return clipCountToHours(english ? english.count : 0);
+    },
+    DAY
+  );
 
-  getLanguageStats = lazyCache(async (): Promise<LanguageStats> => {
-    const inProgressLocales = locales.filter(
-      locale => !contributableLocales.includes(locale)
-    );
-
-    function indexCountByLocale(
-      rows: { locale: string; count: number }[]
-    ): { [locale: string]: number } {
-      return rows.reduce(
-        (obj: { [locale: string]: number }, { count, locale }: any) => {
-          obj[locale] = count;
-          return obj;
-        },
-        {}
+  getLanguageStats = lazyCache(
+    'language-stats',
+    async (): Promise<LanguageStats> => {
+      const inProgressLocales = locales.filter(
+        locale => !contributableLocales.includes(locale)
       );
-    }
 
-    const [
-      localizedPercentages,
-      sentenceCounts,
-      validClipsCounts,
-      speakerCounts,
-    ] = await Promise.all([
-      fetchLocalizedPercentagesByLocale(),
-      this.db
-        .getSentenceCountByLocale(inProgressLocales)
-        .then(indexCountByLocale),
-      this.db.getValidClipCount(contributableLocales).then(indexCountByLocale),
-      this.db.getSpeakerCount(contributableLocales).then(indexCountByLocale),
-    ]);
+      function indexCountByLocale(
+        rows: { locale: string; count: number }[]
+      ): { [locale: string]: number } {
+        return rows.reduce(
+          (obj: { [locale: string]: number }, { count, locale }: any) => {
+            obj[locale] = count;
+            return obj;
+          },
+          {}
+        );
+      }
 
-    return {
-      inProgress: inProgressLocales.map(locale => ({
-        locale,
-        localizedPercentage: localizedPercentages[locale] || 0,
-        sentencesCount: sentenceCounts[locale] || 0,
-      })),
-      launched: contributableLocales.map(locale => ({
-        locale,
-        seconds: Math.floor((validClipsCounts[locale] || 0) * AVG_CLIP_SECONDS),
-        speakers: speakerCounts[locale] || 0,
-      })),
-    };
-  }, 20 * MINUTE);
+      const [
+        localizedPercentages,
+        sentenceCounts,
+        validClipsCounts,
+        speakerCounts,
+      ] = await Promise.all([
+        fetchLocalizedPercentagesByLocale(),
+        this.db
+          .getSentenceCountByLocale(inProgressLocales)
+          .then(indexCountByLocale),
+        this.db
+          .getValidClipCount(contributableLocales)
+          .then(indexCountByLocale),
+        this.db.getSpeakerCount(contributableLocales).then(indexCountByLocale),
+      ]);
+
+      return {
+        inProgress: inProgressLocales.map(locale => ({
+          locale,
+          localizedPercentage: localizedPercentages[locale] || 0,
+          sentencesCount: sentenceCounts[locale] || 0,
+        })),
+        launched: contributableLocales.map(locale => ({
+          locale,
+          seconds: Math.floor(
+            (validClipsCounts[locale] || 0) * AVG_CLIP_SECONDS
+          ),
+          speakers: speakerCounts[locale] || 0,
+        })),
+      };
+    },
+    20 * MINUTE
+  );
 
   getClipsStats = lazyCache(
+    'clips-stats',
     async (locale: string) =>
       (await this.db.getClipsStats(locale)).map(stat => ({
         ...stat,
@@ -224,11 +237,13 @@ export default class Model {
   );
 
   getVoicesStats = lazyCache(
+    'voice-stats',
     (locale: string) => this.db.getVoicesStats(locale),
     20 * MINUTE
   );
 
   getContributionStats = lazyCache(
+    'contribution-stats',
     (locale?: string) => this.db.getContributionStats(locale),
     20 * MINUTE
   );

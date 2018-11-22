@@ -125,19 +125,27 @@ function omitClientId(rows: any[]) {
   return rows.map(row => omit(row, 'client_id'));
 }
 
-export const getFullClipLeaderboard = lazyCache(async (locale?: string) => {
-  return (await getClipLeaderboard(locale)).map((row, i) => ({
-    position: i,
-    ...row,
-  }));
-}, HOUR);
+export const getFullClipLeaderboard = lazyCache(
+  'clip-leaderboard',
+  async (locale?: string) => {
+    return (await getClipLeaderboard(locale)).map((row, i) => ({
+      position: i,
+      ...row,
+    }));
+  },
+  HOUR
+);
 
-export const getFullVoteLeaderboard = lazyCache(async (locale?: string) => {
-  return (await getVoteLeaderboard(locale)).map((row, i) => ({
-    position: i,
-    ...row,
-  }));
-}, HOUR);
+export const getFullVoteLeaderboard = lazyCache(
+  'vote-leaderboard',
+  async (locale?: string) => {
+    return (await getVoteLeaderboard(locale)).map((row, i) => ({
+      position: i,
+      ...row,
+    }));
+  },
+  HOUR
+);
 
 export default async function getLeaderboard({
   type,

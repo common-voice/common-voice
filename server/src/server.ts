@@ -221,7 +221,7 @@ export default class Server {
     await this.ensureDatabase();
 
     this.listen();
-
+    await this.warmUpCaches();
     const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
 
     if (!ENVIRONMENT || ENVIRONMENT === 'default') {
