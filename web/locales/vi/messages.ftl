@@ -235,9 +235,8 @@ why-profile-title = Tại sao phải tạo một hồ sơ?
 why-profile-text = Bằng cách cung cấp một số thông tin về bản thân bạn, dữ liệu âm thanh mà bạn gửi tới Common Voice sẽ hữu ích hơn đối với công cụ Nhận dạng giọng nói và cũng để cải thiện độ chính xác của chúng.
 dashboard = Bảng điều khiển
 build-profile = Xây dựng hồ sơ
-profile = Hồ sơ
 avatar = Ảnh đại diện
-preferences = Tùy chỉnh
+settings = Thiết lập
 edit-profile = Chỉnh sửa hồ sơ
 profile-create = Tạo hồ sơ
 profile-create-success = Thành công, hồ sơ đã được tạo!
@@ -430,3 +429,12 @@ listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
 nothing-to-validate = Chúng tôi không có gì để xác thực của ngôn ngữ này. Hãy giúp chúng tôi điền nó vào danh sách.
 record-button-label = Ghi âm giọng nói của bạn
 share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
+
+## Dashboard
+
+you = Bạn
+everyone = Mọi người
+contribution-activity = Hoạt động đóng góp
+top-contributors = Những người đóng góp hàng đầu
+recorded-clips = Clip đã ghi
+validated-clips = Clip đã xác thực
