@@ -238,19 +238,19 @@ export default class Model {
     20 * MINUTE
   );
 
-  private getFullClipLeaderboard = lazyCache(async (locale?: string) => {
+  getFullClipLeaderboard = lazyCache(async (locale?: string) => {
     return (await this.db.getClipLeaderboard(locale)).map((row, i) => ({
       position: i,
       ...row,
     }));
-  }, 10 * MINUTE);
+  }, 60 * MINUTE);
 
-  private getFullVoteLeaderboard = lazyCache(async (locale?: string) => {
+  getFullVoteLeaderboard = lazyCache(async (locale?: string) => {
     return (await this.db.getVoteLeaderboard(locale)).map((row, i) => ({
       position: i,
       ...row,
     }));
-  }, 10 * MINUTE);
+  }, 60 * MINUTE);
 
   getLeaderboard = async ({
     type,
