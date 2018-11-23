@@ -236,7 +236,9 @@ other = অন্যান্য
 why-profile-title = প্রোফাইল কেন তৈরী করবেন?
 why-profile-text = আপনার সম্পর্কে কিছু তথ্য প্রদান করলে সেটি, Common Voice এ জমাকৃত আপনার অডিও ডাটা ব্যবহার করে কণ্ঠস্বর চেনার প্রযুক্তিকে আরও বেশি নির্ভুল করতে, কাজে লাগবে।
 dashboard = ড্যাশবোর্ড
+build-profile = প্রোফাইল তৈরি করুন
 avatar = অবতার
+goals = লক্ষ্য
 settings = সেটিং
 edit-profile = প্রোফাইল সম্পাদনা করুন
 profile-create = প্রোফাইল তৈরী করুন
@@ -422,9 +424,26 @@ share-title-new = <bold>আমাদের সাহায্য করুন</b
 
 ## Goals
 
+days =
+    { $count ->
+        [one] দিন
+       *[other] দিন
+    }
+recordings =
+    { $count ->
+        [one] রেকর্ডিং
+       *[other] রেকর্ডিং
+    }
+validations =
+    { $count ->
+        [one] যাচাই
+       *[other] যাচাই
+    }
 
 ## Dashboard
 
+toward-next-goal = পরবর্তী লক্ষ্যের দিকে
+stats = পরিসংখ্যান
 you = আপনি
 everyone = সকলে
 contribution-activity = অবদান কর্মকান্ড
