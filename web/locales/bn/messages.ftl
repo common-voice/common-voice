@@ -254,9 +254,13 @@ contribution-experience = অবদান অভিজ্ঞতা
 skip-submission-feedback = প্রতিক্রিয়া জমা উপেক্ষা করুন
 off = বন্ধ
 on = চালু
+add-avatar-title = আপনার প্রোফাইলে একটি অবতার যুক্ত করুন
+browse-file-title = একটি ছবি ফাইল আপলোড করুন
 connect-gravatar = Gravatar সঙ্গে সংযোগ করুন
 gravatar_not_found = আপনার ইমেইল জন্য কোন gravatar পাওয়া যায় নি
 file_too_large = নির্বাচিত ফাইল আকারে খুব বড়
+manage-subscriptions = সাবস্ক্রিপশন ব্যবস্থাপনা
+email-already-used = ইমেইলটি ইতিমধ্যে ভিন্ন অ্যাকাউন্টের জন্য ব্যবহৃত হয়েছে
 
 ## FAQ
 
@@ -416,5 +420,14 @@ nothing-to-validate = এই ভাষাটি যাচাই করার জ
 record-button-label = আপনার ভয়েস রেকর্ড করুন
 share-title-new = <bold>আমাদের সাহায্য করুন</bold> আরো কন্ঠ খুঁজে পেতে
 
+## Goals
+
+
 ## Dashboard
 
+you = আপনি
+everyone = সকলে
+contribution-activity = অবদান কর্মকান্ড
+top-contributors = শীর্ষ অবদানকারী
+recorded-clips = রেকর্ডকৃত ক্লিপ
+validated-clips = যাচাইকৃত ক্লিপ
