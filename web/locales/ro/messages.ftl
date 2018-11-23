@@ -243,10 +243,10 @@ why-profile-title = De ce un profil?
 why-profile-text =
     Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele 
     de recunoaștere a vorbirii care folosesc aceste date pentru a le îmbunătăți precizia.
+dashboard = Panou de control
 build-profile = Construiește profilul
-profile = Profil
 avatar = Avatar
-preferences = Preferințe
+settings = Setări
 edit-profile = Editează profilul
 profile-create = Creează un profil
 profile-create-success = Succes, profil creat!
@@ -260,6 +260,7 @@ keep-me-posted =
     .label = Aș dori actualizări și să fiu la curent cu ce se întâmplă pe Common Voice.
 accept-privacy = Sunt de acord să gestionați aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla
 login-identity = Identitate de autentificare
+login-signup = Autentificare / Înregistrare
 edit = Editează
 email-subscriptions = Abonamente e-mail
 download-profile = Descarcă-mi datele
@@ -269,11 +270,14 @@ skip-submission-description = În timpul colaborării, se va sări peste feedbac
 skip-submission-note = Obs: Tot va trebui să selectezi Vorbește sau Ascultă pentru a modifica tipul de colaborare.
 off = Dezactivat
 on = Activat
+add-avatar-title = Adaugă un avatar la profilul tău
+browse-file-title = Încarcă un fișier de imagine
 browse-file = Trage și plasează sau <browseWrap>Navighează</browseWrap>
 connect-gravatar = Conectează-te cu Gravatar
 gravatar_not_found = Nu s-a găsit niciun gravatar pentru e-mailul tău
 file_too_large = Fișierul selectat este prea mare
 manage-subscriptions = Gestionează abonamentele
+email-already-used = Adresa de e-mail este deja utilizată pentru alt cont
 
 ## FAQ
 
@@ -437,3 +441,12 @@ listen-last-time-instruction = <playIcon></playIcon>Ultima!
 nothing-to-validate = Nu avem nimic de validat în această limbă. Ajută-ne să umplem acest gol.
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
+
+## Dashboard
+
+you = Tu
+everyone = Toată lumea
+contribution-activity = Activitate de contribuții
+top-contributors = Colaboratori de top
+recorded-clips = Clipuri înregistrate
+validated-clips = Clipuri validate
