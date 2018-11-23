@@ -21,6 +21,7 @@ ar = Arabe
 as = Assames
 ast = Asturiano
 az = Azeri
+bg = aj Bulgaria
 bn = Bengali
 br = Breton
 bxr = Buriato
@@ -38,6 +39,7 @@ en = Q'anchi'
 eo = Esperanto
 es = Kaxlan tzij
 et = Estonio
+eu = aj Pais Vasco
 fa = aj Persia
 fi = Finlandes
 fo = Feroes
@@ -114,9 +116,6 @@ share-title = ¡Kojato' richin yojapon kik'in ch'aqa' chik winaqi', ri nikajo' n
 share-text = Kato'on richin nak'üt chi kiwäch ri ch'ich'b'äl rub'eyal yech'o ri winaqi', tasipaj ach'ab'äl pa { $link }
 link-copied = Xwachib'ëx Ximonel
 back-top = Titzolin pa Rutikirib'al
-contribution-banner-text = K'ab'a' tiqelesaj jun k'ak'a' rutijb'al to'ïk
-contribution-banner-button = Taya' jun atzub'al
-report-bugs-link = Kato'on rik'in kitzijol sachoj
 
 ## Home Page
 
@@ -306,21 +305,6 @@ data-bundle-button = Tiqasäx Pisaj Kiyakb'al Tzij
 data-bundle-description = Kitzij Common Voice rik'in ronojel ri taq kiyakb'al kitzij ch'ab'äl xe'ik'o.
 license = Ya'öl Q'ij: <licenseLink>{ $license }</licenseLink>
 license-mixed = Tunuj
-
-## Record Page
-
-record-platform-not-supported = Niqamäy, xa xe chi man koch'el ta ri anuk'uche'el wakami.
-record-platform-not-supported-desktop = Pa kematz'ib' yatikïr naqasaj ri ruk'isib'äl ruwäch:
-record-platform-not-supported-ios = <bold>iOS</bold> okisanela' yetikïr nikiqasaj ri sipan qachokoy:
-record-must-allow-microphone = K'o chi naya' q'ij nokisäx ri q'asäy ch'ab'äl.
-record-retry = Titojtob'ëx chik
-record-no-mic-found = Majun q'asäy ch'ab'äl xilitäj.
-record-error-too-short = Yalan ko'öl xub'än ri yakoj.
-record-error-too-long = Yalan nïm raqän xub'än ri yakoj.
-record-error-too-quiet = Yalan tz'iran xub'än ri yakoj.
-record-submit-success = ¡Ütz xtaq! ¿La nawajo' chik yayakon?
-record-help = Tapitz'a' ri rupitz'b'al richin nayäk, k'a ri' köw tasik'ij ri b'ab'.
-record-cancel = Tiq'a' Ruyakik-chik
 review-terms = Toq nokisäx ri Common Voice, nanimaj ri <termsLink>Qojqanem</termsLink> chuqa' <privacyLink>Ichinan Qatzijol</privacyLink>
 terms-agree = Ütz k'a
 terms-disagree = Man ütz ta nintz'ët
@@ -395,6 +379,15 @@ contribute-more =
        *[other] ¿Xab'än rutzil richin nab'än { $count } chik?
     }
 record-cta = Titikirisäx ruyakik
+record-platform-not-supported = Niqamäy, xa xe chi man koch'el ta ri anuk'uche'el wakami.
+record-platform-not-supported-desktop = Pa kematz'ib' yatikïr naqasaj ri ruk'isib'äl ruwäch:
+record-platform-not-supported-ios = <bold>iOS</bold> okisanela' yetikïr nikiqasaj ri sipan qachokoy:
+record-must-allow-microphone = K'o chi naya' q'ij nokisäx ri q'asäy ch'ab'äl.
+record-no-mic-found = Majun q'asäy ch'ab'äl xilitäj.
+record-error-too-short = Yalan ko'öl xub'än ri yakoj.
+record-error-too-long = Yalan nïm raqän xub'än ri yakoj.
+record-error-too-quiet = Yalan tz'iran xub'än ri yakoj.
+record-cancel = Tiq'a' Ruyakik-chik
 record-instruction = { $actionType }<recordIcon></recordIcon> k'a ri' köw tasik'ij ri b'ab'
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> toq xtak'ïs
 record-three-more-instruction = ¡K'a k'o na oxi'!
@@ -418,3 +411,9 @@ listen-last-time-instruction = <playIcon></playIcon>¡Ri ruk'isib'äl!
 nothing-to-validate = Majun qatob'al richin niqajunamaj re ch'ab'äl re', ¡kojato'!
 record-button-label = Tayaka' ach'ab'äl
 share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
+
+## Goals
+
+
+## Dashboard
+
