@@ -6,7 +6,6 @@ import {
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from '../../../../../../common/user-clients';
-import API from '../../../../services/api';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -38,12 +37,11 @@ const Section = ({
 
 interface PropsFromState {
   account: UserClient;
-  api: API;
 }
 
 interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.add;
-  refreshUser: typeof User.actions.refresh;
+  saveAccount: typeof User.actions.saveAccount;
 }
 
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
@@ -72,11 +70,10 @@ class Settings extends React.Component<Props> {
   syncSkipSubmissionFeedback = async (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    const { api, refreshUser } = this.props;
-    await api.saveAccount({
+    const { saveAccount } = this.props;
+    saveAccount({
       skip_submission_feedback: event.target.checked,
     });
-    refreshUser();
   };
 
   render() {
@@ -150,10 +147,9 @@ class Settings extends React.Component<Props> {
 export default connect<PropsFromState, PropsFromDispatch>(
   ({ api, user }: StateTree) => ({
     account: user.account,
-    api,
   }),
   {
     addNotification: Notifications.actions.add,
-    refreshUser: User.actions.refresh,
+    saveAccount: User.actions.saveAccount,
   }
 )(withLocalization(Settings));

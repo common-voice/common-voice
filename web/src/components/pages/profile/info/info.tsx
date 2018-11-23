@@ -52,7 +52,7 @@ interface PropsFromState {
 interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.add;
   addUploads: typeof Uploads.actions.add;
-  refreshUser: typeof User.actions.refresh;
+  saveAccount: typeof User.actions.saveAccount;
 }
 
 interface Props
@@ -159,23 +159,23 @@ class ProfilePage extends React.Component<Props, State> {
       addUploads,
       api,
       getString,
-      refreshUser,
       user,
+      saveAccount,
     } = this.props;
     this.setState({ isSaving: true, isSubmitted: true }, () => {
       addUploads([
         async () => {
-          await Promise.all([
-            api.saveAccount({
-              ...pick(this.state, 'username', 'age', 'gender', 'locales'),
-              visible: JSON.parse(this.state.visible.toString()),
-              client_id: user.userId,
-            }),
+          if (
             !(user.account && user.account.basket_token) &&
-              this.state.sendEmails &&
-              api.subscribeToNewsletter(user.userClients[0].email),
-          ]);
-          refreshUser();
+            this.state.sendEmails
+          ) {
+            await api.subscribeToNewsletter(user.userClients[0].email);
+          }
+          saveAccount({
+            ...pick(this.state, 'username', 'age', 'gender', 'locales'),
+            visible: JSON.parse(this.state.visible.toString()),
+            client_id: user.userId,
+          });
           this.setState({ isSaving: false });
           addNotification(getString('profile-form-submit-saved'));
         },
@@ -360,6 +360,6 @@ export default connect<PropsFromState, PropsFromDispatch>(
   {
     addUploads: Uploads.actions.add,
     addNotification: Notifications.actions.add,
-    refreshUser: User.actions.refresh,
+    saveAccount: User.actions.saveAccount,
   }
 )(withLocalization(withRouter(ProfilePage)));

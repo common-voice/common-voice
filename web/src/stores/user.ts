@@ -137,6 +137,24 @@ export namespace User {
         state: { account, userClients, isFetchingAccount: false },
       });
     },
+
+    saveAccount: (data: UserClient) => async (
+      dispatch: Dispatch<UpdateAction>,
+      getState: () => StateTree
+    ) => {
+      const { api } = getState();
+      dispatch({
+        type: ActionType.UPDATE,
+        state: { isFetchingAccount: true },
+      });
+      dispatch({
+        type: ActionType.UPDATE,
+        state: {
+          account: await api.saveAccount(data),
+          isFetchingAccount: false,
+        },
+      });
+    },
   };
 
   export function reducer(state = getDefaultState(), action: Action): State {
