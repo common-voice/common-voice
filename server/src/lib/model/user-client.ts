@@ -70,7 +70,7 @@ const UserClient = {
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
-        WHERE (u.client_id = ? OR email = ?) AND sso_id IS NULL
+        WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
       [client_id || null, email || null]
     );
@@ -102,7 +102,7 @@ const UserClient = {
         LEFT JOIN locales on accents.locale_id = locales.id
         LEFT JOIN clips on u.client_id = clips.client_id
         LEFT JOIN votes on u.client_id = votes.client_id
-        WHERE u.email = ? AND sso_id IS NOT NULL
+        WHERE u.email = ? AND has_login
         GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
       `,
@@ -138,15 +138,11 @@ const UserClient = {
   },
 
   async saveAccount(
-    sso_id: string,
     email: string,
     { client_id, locales, ...data }: UserClient
   ): Promise<UserClient> {
-    const [[[account]], [clients]] = await Promise.all([
-      db.query(
-        'SELECT client_id FROM user_clients WHERE email = ? AND sso_id IS NOT NULL',
-        [email]
-      ),
+    let [accountClientId, [clients]] = await Promise.all([
+      UserClient.findClientId(email),
       email
         ? db.query('SELECT client_id FROM user_clients WHERE email = ?', [
             email,
@@ -154,12 +150,14 @@ const UserClient = {
         : [],
     ]);
 
-    const accountClientId = account ? account.client_id : client_id;
+    if (!accountClientId) {
+      accountClientId = client_id;
+    }
     const clientIds = clients.map((c: any) => c.client_id).concat(client_id);
 
     const userData = await Promise.all(
       Object.entries({
-        sso_id,
+        has_login: true,
         email,
         ...pick(
           data,
@@ -197,11 +195,11 @@ const UserClient = {
 
   async save({ client_id, email, age, gender }: any): Promise<boolean> {
     const [[row]] = await db.query(
-      'SELECT sso_id FROM user_clients WHERE client_id = ?',
+      'SELECT has_login FROM user_clients WHERE client_id = ?',
       [client_id]
     );
 
-    if (row && row.sso_id) return false;
+    if (row && row.has_login) return false;
 
     if (row) {
       await db.query(
@@ -227,14 +225,10 @@ const UserClient = {
     ]);
   },
 
-  async updateSSO(
-    old_email: string,
-    new_sso_id: string,
-    email: string
-  ): Promise<boolean> {
+  async updateSSO(old_email: string, email: string): Promise<boolean> {
     const [[row]] = await db.query(
-      'SELECT 1 FROM user_clients WHERE email = ? OR sso_id = ?',
-      [email, new_sso_id]
+      'SELECT 1 FROM user_clients WHERE email = ? AND has_login',
+      [email]
     );
 
     if (row) {
@@ -242,22 +236,22 @@ const UserClient = {
     }
 
     await db.query(
-      'UPDATE user_clients SET sso_id = ?, email = ? WHERE email = ? AND sso_id IS NOT NULL',
-      [new_sso_id, email, old_email]
+      'UPDATE user_clients SET email = ? WHERE email = ? AND has_login',
+      [email, old_email]
     );
     return true;
   },
 
-  async updateAvatarURL(sso_id: string, url: string) {
+  async updateAvatarURL(email: string, url: string) {
     await db.query('UPDATE user_clients SET avatar_url = ? WHERE email = ?', [
       url,
-      sso_id,
+      email,
     ]);
   },
 
   async findClientId(email: string): Promise<null | string> {
     const [[row]] = await db.query(
-      'SELECT client_id FROM user_clients WHERE email = ? AND sso_id IS NOT NULL',
+      'SELECT client_id FROM user_clients WHERE email = ? AND has_login',
       [email]
     );
     return row ? row.client_id : null;
@@ -266,7 +260,7 @@ const UserClient = {
   async hasSSO(client_id: string): Promise<boolean> {
     return Boolean(
       (await db.query(
-        'SELECT 1 FROM user_clients WHERE client_id = ? AND sso_id IS NOT NULL',
+        'SELECT 1 FROM user_clients WHERE client_id = ? AND has_login',
         [client_id]
       ))[0][0]
     );

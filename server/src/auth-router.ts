@@ -106,7 +106,6 @@ router.get(
       );
       const success = await UserClient.updateSSO(
         old_email,
-        user.id,
         user.emails[0].value
       );
       if (!success) {

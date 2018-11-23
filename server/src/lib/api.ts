@@ -202,9 +202,7 @@ export default class API {
     if (!user) {
       throw new ClientParameterError();
     }
-    response.json(
-      await UserClient.saveAccount(user.id, user.emails[0].value, body)
-    );
+    response.json(await UserClient.saveAccount(user.emails[0].value, body));
   };
 
   getAccount = async ({ user }: Request, response: Response) => {
