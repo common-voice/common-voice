@@ -246,6 +246,7 @@ why-profile-text =
 dashboard = Panou de control
 build-profile = Construiește profilul
 avatar = Avatar
+goals = Obiective
 settings = Setări
 edit-profile = Editează profilul
 profile-create = Creează un profil
@@ -442,8 +443,32 @@ nothing-to-validate = Nu avem nimic de validat în această limbă. Ajută-ne s�
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
 
+## Goals
+
+streaks = Contribuții constante
+days =
+    { $count ->
+        [one] zi
+        [few] zile
+       *[other] de zile
+    }
+recordings =
+    { $count ->
+        [one] înregistrare
+        [few] înregistrări
+       *[other] de înregistrări
+    }
+validations =
+    { $count ->
+        [one] validare
+        [few] validări
+       *[other] de validări
+    }
+
 ## Dashboard
 
+toward-next-goal = Spre obiectivul următor
+stats = Statistici
 you = Tu
 everyone = Toată lumea
 contribution-activity = Activitate de contribuții
