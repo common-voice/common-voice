@@ -238,6 +238,7 @@ why-profile-text = 語音識別引擎將可使用您提供給我們的資訊，�
 dashboard = 儀錶板
 build-profile = 建立個人資料
 avatar = 頭像
+goals = 目標
 settings = 設定
 edit-profile = 編輯帳號資料
 profile-create = 註冊帳號
@@ -429,8 +430,25 @@ nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助�
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
 
+## Goals
+
+streaks = 連續第
+days =
+    { $count ->
+       *[other] 天
+    }
+recordings =
+    { $count ->
+       *[other] 錄音
+    }
+validations =
+    { $count ->
+       *[other] 驗證
+    }
+
 ## Dashboard
 
+stats = 統計
 you = 您自己
 everyone = 所有人
 contribution-activity = 貢獻紀錄
