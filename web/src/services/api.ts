@@ -1,6 +1,6 @@
-import { AllGoals } from '../../../common/goals';
-import { LanguageStats } from '../../../common/language-stats';
-import { UserClient } from '../../../common/user-clients';
+import { AllGoals } from 'common/goals';
+import { LanguageStats } from 'common/language-stats';
+import { UserClient } from 'common/user-clients';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';

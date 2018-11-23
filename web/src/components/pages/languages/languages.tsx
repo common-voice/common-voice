@@ -10,7 +10,7 @@ import {
   BaseLanguage,
   InProgressLanguage,
   LaunchedLanguage,
-} from '../../../../../common/language-stats';
+} from 'common/language-stats';
 import { NATIVE_NAMES } from '../../../services/localization';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';

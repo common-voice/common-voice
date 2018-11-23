@@ -5,7 +5,7 @@ import {
 } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { UserClient } from '../../../../../../common/user-clients';
+import { UserClient } from 'common/user-clients';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';

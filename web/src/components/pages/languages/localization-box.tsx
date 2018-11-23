@@ -3,10 +3,7 @@ import { RouteComponentProps, withRouter } from 'react-router';
 import * as React from 'react';
 import ContentLoader from 'react-content-loader';
 import { connect } from 'react-redux';
-import {
-  InProgressLanguage,
-  LaunchedLanguage,
-} from '../../../../../common/language-stats';
+import { InProgressLanguage, LaunchedLanguage } from 'common/language-stats';
 import URLS from '../../../urls';
 import { createCrossLocaleBundleGenerator } from '../../../services/localization';
 import { Locale } from '../../../stores/locale';

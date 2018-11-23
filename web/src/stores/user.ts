@@ -1,7 +1,7 @@
 const pick = require('lodash.pick');
 import { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import { UserClient } from '../../../common/user-clients';
+import { UserClient } from 'common/user-clients';
 import { DEFAULT_LOCALE } from '../services/localization';
 import { generateGUID } from '../utility';
 import { AGES, SEXES } from './demographics';

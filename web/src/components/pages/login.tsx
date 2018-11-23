@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
-import { UserClient } from '../../../../common/user-clients';
 import URLS from '../../urls';
 import { Notifications } from '../../stores/notifications';
 import StateTree from '../../stores/tree';
