@@ -246,6 +246,7 @@ why-profile-text = Azáltal, hogy megad néhány adatot magáról, a hangminták
 dashboard = Vezérlőpult
 build-profile = Összeállítási profil
 avatar = Avatár
+goals = Célok
 settings = Beállítások
 edit-profile = Profil szerkesztése
 profile-create = Profil létrehozása
@@ -437,8 +438,29 @@ nothing-to-validate = Még nincs semmit ellenőrizni ezen a nyelven, segítsen f
 record-button-label = Rögzítse a hangját
 share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
 
+## Goals
+
+streaks = Sorozatok
+days =
+    { $count ->
+        [one] Nap
+       *[other] Nap
+    }
+recordings =
+    { $count ->
+        [one] Rögzítés
+       *[other] Rögzítés
+    }
+validations =
+    { $count ->
+        [one] Ellenőrzés
+       *[other] Ellenőrzés
+    }
+
 ## Dashboard
 
+toward-next-goal = A következő cél felé
+stats = Statisztika
 you = Ön
 everyone = Mindenki
 contribution-activity = Közreműködési tevékenység
