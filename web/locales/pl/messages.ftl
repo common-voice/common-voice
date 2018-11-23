@@ -244,6 +244,7 @@ why-profile-text = Podając pewne informacje o sobie, dane dźwiękowe wysyłan
 dashboard = Panel
 build-profile = Zbuduj profil
 avatar = Awatar
+goals = Cele
 settings = Ustawienia
 edit-profile = Edytuj profil
 profile-create = Utwórz profil
@@ -435,8 +436,32 @@ nothing-to-validate = Nie mamy nic do zweryfikowania w tym języku, pomóż nam
 record-button-label = Nagraj swój głos
 share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
 
+## Goals
+
+streaks = Pod rząd
+days =
+    { $count ->
+        [one] dzień
+        [few] dni
+       *[other] dni
+    }
+recordings =
+    { $count ->
+        [one] nagranie
+        [few] nagrania
+       *[other] nagrań
+    }
+validations =
+    { $count ->
+        [one] sprawdzone nagranie
+        [few] sprawdzone nagrania
+       *[other] sprawdzonych nagrań
+    }
+
 ## Dashboard
 
+toward-next-goal = Do następnego celu
+stats = Statystyki
 you = Ty
 everyone = Wszyscy
 contribution-activity = Aktywność
