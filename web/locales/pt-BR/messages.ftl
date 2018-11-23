@@ -114,9 +114,6 @@ share-title = Ajude-nos a encontrar outros doadores de voz!
 share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz em { $link }
 link-copied = Link copiado
 back-top = Voltar para o início
-contribution-banner-text = Lançamos uma nova experiência para contribuição
-contribution-banner-button = Dê uma olhada
-report-bugs-link = Ajude reportando problemas
 logout = Sair
 
 ## Home Page
@@ -143,6 +140,16 @@ read-terms-q = Você leu nossos Termos?
 ready-to-record = Pronto para doar sua voz?
 all-languages = Todos os idiomas
 today = Hoje
+x-weeks-short =
+    { $count ->
+        [one] semana
+       *[other] { $count } semanas
+    }
+x-months-short =
+    { $count ->
+        [one] mês
+       *[other] { $count } meses
+    }
 x-years-short =
     { $count ->
         [one] { $count } ano
@@ -204,8 +211,12 @@ profile-form-age =
     .label = Idade
 profile-form-gender =
     .label = Gênero
+leaderboard-visibility =
+    .label = Visibilidade do quadro de líderes
 hidden = Oculto
 visible = Visível
+native-language =
+    .label = Idioma nativo
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
 profile-keep-data = Manter dados
@@ -216,9 +227,10 @@ female = Feminino
 other = Outro
 why-profile-title = Por que um perfil?
 why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviou ao Common Voice serão mais úteis aos mecanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
-profile = Perfil
+dashboard = Painel
 avatar = Avatar
-preferences = Preferências
+goals = Objetivos
+settings = Configurações
 edit-profile = Editar perfil
 profile-create = Criar um perfil
 profile-create-success = Perfil criado com sucesso!
@@ -228,6 +240,11 @@ profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gra
 thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir seu perfil.
 why-demographic = Por que isto é importante?
 edit = Editar
+connect-gravatar = Conectar com Gravatar
+gravatar_not_found = Não foi encontrado um Gravatar para seu email
+file_too_large = O arquivo selecionado é grande demais
+manage-subscriptions = Gerenciar inscrições
+email-already-used = Este e-mail já está sendo usado em uma conta diferente
 
 ## FAQ
 
@@ -348,6 +365,7 @@ contribute = Contribua
 listen = Ouvir
 skip = Pular
 shortcuts = Atalhos
+clips-with-count = <bold>{ $count }</bold> clipes
 goal-help-recording = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de gravações!
 goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de validações!
 contribute-more = Pronto para fazer mais { $count }?
@@ -384,3 +402,32 @@ listen-last-time-instruction = <playIcon></playIcon> Última!
 nothing-to-validate = Não temos nada para validar neste idioma, ajude-nos a preencher a fila.
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
+
+## Goals
+
+days =
+    { $count ->
+        [one] dia
+       *[other] dias
+    }
+recordings =
+    { $count ->
+        [one] Gravação
+       *[other] Gravações
+    }
+validations =
+    { $count ->
+        [one] Validação
+       *[other] Validações
+    }
+
+## Dashboard
+
+toward-next-goal = Rumo ao próximo objetivo
+stats = Estatísticas
+you = Você
+everyone = Todos
+contribution-activity = Atividade de contribuição
+top-contributors = Principais contribuidores
+recorded-clips = Clipes gravados
+validated-clips = Clipes validados
