@@ -248,6 +248,7 @@ why-profile-text = Dajće nam někotre informacije wo sebi, zo bychu awdiodaty, 
 dashboard = Přehlad
 build-profile = Profil natwarić
 avatar = Awatar
+goals = Cile
 settings = Nastajenja
 edit-profile = Profil wobdźěłać
 profile-create = Profil załožić
@@ -445,8 +446,34 @@ nothing-to-validate = Nimamy ničo, kotrež móžemy w tutej rěči přepruwowa�
 record-button-label = Nahrajće swój hłós
 share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
 
+## Goals
+
+days =
+    { $count ->
+        [one] dźeń
+        [two] dnjej
+        [few] dny
+       *[other] dnjow
+    }
+recordings =
+    { $count ->
+        [one] natočenje
+        [two] natočeni
+        [few] natočenja
+       *[other] natočenjow
+    }
+validations =
+    { $count ->
+        [one] přepruwwowanje
+        [two] přepruwowani
+        [few] přepruwowanja
+       *[other] přepruwowanjow
+    }
+
 ## Dashboard
 
+toward-next-goal = K přichodnemu cilej
+stats = Statistika
 you = Wy
 everyone = Kóždy
 contribution-activity = Sobudźěłowa aktiwita
