@@ -13,14 +13,20 @@ import {
   LocaleLink,
   LocalePropsFromState,
 } from '../../locale-helpers';
-import { CameraIcon, ToggleIcon, UserIcon, UserPlusIcon } from '../../ui/icons';
+import {
+  BarChartIcon,
+  CameraIcon,
+  ToggleIcon,
+  UserIcon,
+  UserPlusIcon,
+} from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import AvatarSetup from './avatar-setup/avatar-setup';
+import Goals from './goals/goals';
 import InfoPage from './info/info';
 import Settings from './settings/settings';
 
 import './layout.css';
-import NotFoundPage from '../not-found';
 
 function downloadData(account: UserClient) {
   const text = [
@@ -61,6 +67,7 @@ interface Props extends LocalePropsFromState, PropsFromState {}
 const Layout = ({ toLocaleRoute, user }: Props) => {
   const infoRoute = toLocaleRoute(URLS.PROFILE_INFO);
   const avatarRoute = toLocaleRoute(URLS.PROFILE_AVATAR);
+  const goalsRoute = toLocaleRoute(URLS.PROFILE_GOALS);
   const prefRoute = toLocaleRoute(URLS.PROFILE_SETTINGS);
   return (
     <div className="profile-layout">
@@ -74,6 +81,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
                 : { icon: <UserPlusIcon />, id: 'build-profile' }),
             },
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
+            { route: goalsRoute, icon: <BarChartIcon />, id: 'goals' },
             { route: prefRoute, icon: <ToggleIcon />, id: 'settings' },
           ].map(({ route, icon, id }) => (
             <NavLink key={route} to={route}>
@@ -107,6 +115,14 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
               user.account ? <AvatarSetup /> : <Redirect to={infoRoute} />
             }
           />
+          <Route
+            exact
+            path={goalsRoute}
+            render={props =>
+              user.account ? <Goals /> : <Redirect to={infoRoute} />
+            }
+          />
+
           <Route
             exact
             path={prefRoute}

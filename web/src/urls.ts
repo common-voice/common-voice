@@ -7,6 +7,7 @@ export default Object.freeze({
   PROFILE: PROFILE_ROOT,
   PROFILE_INFO: PROFILE_ROOT + '/info',
   PROFILE_AVATAR: PROFILE_ROOT + '/avatar',
+  PROFILE_GOALS: PROFILE_ROOT + '/goals',
   PROFILE_SETTINGS: PROFILE_ROOT + '/settings',
   DASHBOARD: '/dashboard',
   DATA: '/data',

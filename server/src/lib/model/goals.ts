@@ -1,3 +1,4 @@
+import { AllGoals } from '../../../../common/goals';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 
@@ -11,7 +12,10 @@ const ONE_DAY = 24 * 60 * 60 * 1000;
 const daysBetween = (date1: Date, date2: Date) =>
   Math.floor((date1.getTime() - date2.getTime()) / ONE_DAY);
 
-export default async function getGoals(client_id: string, locale?: string) {
+export default async function getGoals(
+  client_id: string,
+  locale?: string
+): Promise<AllGoals> {
   const [rows] = await db.query(
     `
       SELECT type, created_at

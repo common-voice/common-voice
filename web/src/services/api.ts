@@ -1,3 +1,4 @@
+import { AllGoals } from '../../../common/goals';
 import { LanguageStats } from '../../../common/language-stats';
 import { UserClient } from '../../../common/user-clients';
 import { Locale } from '../stores/locale';
@@ -246,6 +247,12 @@ export default class API {
         (type == 'clip' ? '' : '/votes') +
         '/leaderboard' +
         (cursor ? '?cursor=' + JSON.stringify(cursor) : '')
+    );
+  }
+
+  fetchGoals(locale?: string): Promise<AllGoals> {
+    return this.fetch(
+      API_PATH + '/user_client' + (locale ? '/' + locale : '') + '/goals'
     );
   }
 }

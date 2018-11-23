@@ -207,7 +207,7 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Next Goal: { $goal }
+status-goal = Next Goals: { $goal }
 english = English
 
 ## ProfileForm
@@ -244,6 +244,7 @@ why-profile-text =
 dashboard = Dashboard
 build-profile = Build Profile
 avatar = Avatar
+goals = Goals
 settings = Settings
 edit-profile = Edit Profile
 profile-create = Create a profile
@@ -432,7 +433,24 @@ nothing-to-validate = We don't have anything to validate in this language, help 
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 
+## Goals
+streaks = Streaks
+days = { $count ->
+  [one] Day
+  *[other] Days
+}
+recordings = { $count ->
+  [one] Recording
+  *[other] Recordings
+}
+validations = { $count ->
+  [one] Validation
+  *[other] Validations
+}
+
+
 ## Dashboard
+stats = Stats
 you = You
 everyone = Everyone
 contribution-activity = Contribution Activity

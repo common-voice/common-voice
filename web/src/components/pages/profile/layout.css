@@ -3,7 +3,14 @@
 .profile {
     &.info,
     &.avatar,
+    &.goals,
     &.settings {
+        & header {
+            @media (--lg-up) {
+                max-width: var(--wide-desktop-width);
+            }
+        }
+
         & #content {
             padding: 0;
             max-width: none;
@@ -129,9 +136,10 @@
 
     & .content {
         box-sizing: border-box;
-        max-width: 785px;
+        max-width: 905px;
         width: 100%;
         min-height: 500px;
+        overflow: auto;
 
         @media (--sm-down) {
             padding: 20px 20px 0;
