@@ -16,6 +16,8 @@ interface PropsFromState {
 interface Props extends PropsFromState {
   type: 'speak' | 'listen';
   locale: string;
+  personalCurrent?: number;
+  personalGoal?: number;
 }
 
 interface State {
@@ -36,21 +38,21 @@ class ProgressCard extends React.Component<Props, State> {
   }
 
   render() {
-    const { type } = this.props;
+    const { personalCurrent, personalGoal, type } = this.props;
     const { overallCurrent } = this.state;
 
-    const personalCurrent = 5;
-    const personalGoal = 20;
     const overallGoal = DAILY_GOAL[type];
     const isSpeak = type == 'speak';
     return (
       <div className={'progress-card ' + type}>
         <div className="personal">
           <div className="numbers">
-            <div className="current">{personalCurrent}</div>
+            <div className="current">
+              {typeof personalCurrent == 'number' ? personalCurrent : '?'}
+            </div>
             <div className="total">
               {' / '}
-              {personalGoal}
+              {personalGoal || '?'}
             </div>
           </div>
           <div className="description">
@@ -73,7 +75,10 @@ class ProgressCard extends React.Component<Props, State> {
                 className="current"
                 style={{
                   width:
-                    Math.min((100 * personalCurrent) / personalGoal, 100) + '%',
+                    Math.min(
+                      (100 * (personalCurrent || 0)) / (personalGoal || 1),
+                      100
+                    ) + '%',
                 }}
               />
             </div>

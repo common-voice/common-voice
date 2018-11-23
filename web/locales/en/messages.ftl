@@ -450,6 +450,7 @@ validations = { $count ->
 
 
 ## Dashboard
+toward-next-goal = Toward next goal
 stats = Stats
 you = You
 everyone = Everyone

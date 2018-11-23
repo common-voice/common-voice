@@ -1,7 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { AllGoals, Goal } from '../../../../../../common/goals';
+import { AllGoals, Goal } from 'common/goals';
 import API from '../../../../services/api';
 import StateTree from '../../../../stores/tree';
 import { ALL_LOCALES } from '../../../language-select/language-select';
@@ -103,23 +103,27 @@ class GoalsPage extends React.Component<PropsFromState, State> {
           onLocaleChange={this.handleLocaleChange}
         />
         {allGoals &&
-          Object.entries(allGoals).map(([type, goals]: [string, Goal[]]) => (
-            <React.Fragment>
-              <Localized
-                id={({ clips: 'speak', votes: 'listen' } as any)[type] || type}>
-                <h2 />
-              </Localized>
-              <div className="goal-boxes">
-                {goals.map((goal, i) => (
-                  <GoalBox
-                    {...goal}
-                    type={type}
-                    isNext={(goals[i - 1] || ({} as any)).date}
-                  />
-                ))}
-              </div>
-            </React.Fragment>
-          ))}
+          Object.entries(allGoals).map(
+            ([type, [current, goals]]: [string, [number, Goal[]]]) => (
+              <React.Fragment>
+                <Localized
+                  id={
+                    ({ clips: 'speak', votes: 'listen' } as any)[type] || type
+                  }>
+                  <h2 />
+                </Localized>
+                <div className="goal-boxes">
+                  {goals.map((goal, i) => (
+                    <GoalBox
+                      {...goal}
+                      type={type}
+                      isNext={(goals[i - 1] || ({} as any)).date}
+                    />
+                  ))}
+                </div>
+              </React.Fragment>
+            )
+          )}
       </div>
     );
   }

@@ -1,5 +1,9 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { connect } from 'react-redux';
+import { AllGoals } from 'common/goals';
+import API from '../../../services/api';
+import StateTree from '../../../stores/tree';
 import { ALL_LOCALES } from '../../language-select/language-select';
 import LanguagesBar from '../../languages-bar/languages-bar';
 import ContributionActivity from './contribution-activity';
@@ -9,20 +13,37 @@ import StatsCard from './stats-card';
 
 import './dashboard.css';
 
+interface PropsFromState {
+  api: API;
+}
+
 interface State {
+  allGoals: AllGoals;
   locale: string;
 }
 
-class Dashboard extends React.Component<State> {
-  state: State = { locale: ALL_LOCALES };
+class Dashboard extends React.Component<PropsFromState, State> {
+  state: State = { allGoals: null, locale: ALL_LOCALES };
 
-  handleLocaleChange = (locale: string) => {
+  async componentDidMount() {
+    await this.fetchGoals(this.state.locale);
+  }
+
+  handleLocaleChange = async (locale: string) => {
     this.setState({ locale });
+    await this.fetchGoals(locale);
+  };
+
+  fetchGoals = async (locale: string) => {
+    this.setState({
+      allGoals: await this.props.api.fetchGoals(
+        locale == ALL_LOCALES ? null : locale
+      ),
+    });
   };
 
   render() {
-    const { locale } = this.state;
-
+    const { allGoals, locale } = this.state;
     return (
       <div className="dashboard-page">
         <div className="inner">
@@ -35,8 +56,24 @@ class Dashboard extends React.Component<State> {
           </LanguagesBar>
 
           <div className="cards">
-            <ProgressCard key={'s' + locale} type="speak" locale={locale} />
-            <ProgressCard key={'l' + locale} type="listen" locale={locale} />
+            {['speak', 'listen'].map(type => {
+              const [current, goals] = allGoals
+                ? allGoals[type == 'speak' ? 'clips' : 'votes']
+                : [null, null];
+              return (
+                <ProgressCard
+                  key={type + locale}
+                  type={type as any}
+                  locale={locale}
+                  personalCurrent={allGoals ? current : null}
+                  personalGoal={
+                    allGoals
+                      ? (goals.find(g => !g.date) || { goal: Infinity }).goal
+                      : null
+                  }
+                />
+              );
+            })}
           </div>
           <div className="cards">
             <StatsCard
@@ -74,4 +111,6 @@ class Dashboard extends React.Component<State> {
   }
 }
 
-export default Dashboard;
+export default connect<PropsFromState>(({ api }: StateTree) => ({ api }))(
+  Dashboard
+);

@@ -1,4 +1,4 @@
-import { AllGoals } from '../../../../common/goals';
+import { AllGoals } from 'common/goals';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 
@@ -37,6 +37,7 @@ export default async function getGoals(
     }
   );
 
+  let maxStreak = 0;
   let streakDates: string[] = [];
   for (let i = 0; i < rows.length - 1; i++) {
     const dateTime1 = new Date(rows[i].created_at);
@@ -45,6 +46,7 @@ export default async function getGoals(
       const dateTime2 = new Date(rows[j].created_at);
 
       const streakDays = daysBetween(dateTime2, dateTime1);
+      maxStreak = Math.max(maxStreak, streakDays);
       if (lastDateTime && daysBetween(dateTime2, lastDateTime) >= 1) {
         break;
       } else if (streakDays >= STREAK_THRESHOLDS[streakDates.length]) {
@@ -73,17 +75,26 @@ export default async function getGoals(
   }
 
   return {
-    streaks: STREAK_THRESHOLDS.map((goal, i) => ({
-      goal,
-      date: streakDates[i] || null,
-    })),
-    clips: THRESHOLDS.map((goal, i) => ({
-      goal,
-      date: clipGoalDates[i] || null,
-    })),
-    votes: THRESHOLDS.map((goal, i) => ({
-      goal,
-      date: voteGoalDates[i] || null,
-    })),
+    streaks: [
+      maxStreak,
+      STREAK_THRESHOLDS.map((goal, i) => ({
+        goal,
+        date: streakDates[i] || null,
+      })),
+    ],
+    clips: [
+      clipCount,
+      THRESHOLDS.map((goal, i) => ({
+        goal,
+        date: clipGoalDates[i] || null,
+      })),
+    ],
+    votes: [
+      voteCount,
+      THRESHOLDS.map((goal, i) => ({
+        goal,
+        date: voteGoalDates[i] || null,
+      })),
+    ],
   };
 }

@@ -4,7 +4,7 @@ export interface Goal {
 }
 
 export interface AllGoals {
-  streaks: Goal[];
-  clips: Goal[];
-  votes: Goal[];
+  streaks: [number, Goal[]];
+  clips: [number, Goal[]];
+  votes: [number, Goal[]];
 }
