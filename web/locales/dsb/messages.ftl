@@ -248,7 +248,8 @@ why-profile-text = Dajśo nam někotare informacije wó sebje, aby awdiodaty, k�
 dashboard = Pśeglěd
 build-profile = Profil natwariś
 avatar = Awatar
-preferences = Nastajenja
+goals = Cele
+settings = Nastajenja
 edit-profile = Profil wobźěłaś
 profile-create = Profil załožyś
 profile-create-success = Profil jo se wuspěšnje załožył!
@@ -445,8 +446,34 @@ nothing-to-validate = Njamamy nico, kótarež móžomy w toś tej rěcy pśekont
 record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
 
+## Goals
+
+days =
+    { $count ->
+        [one] Źeń
+        [two] Dnja
+        [few] Dny
+       *[other] Dnjow
+    }
+recordings =
+    { $count ->
+        [one] Nagraśe
+        [two] Nagraśi
+        [few] Nagraśa
+       *[other] Nagraśow
+    }
+validations =
+    { $count ->
+        [one] Pśeglědanje
+        [two] Pśeglědani
+        [few] Pśeglědanja
+       *[other] Pśeglědanjow
+    }
+
 ## Dashboard
 
+toward-next-goal = K pśiducemu celoju
+stats = Statistika
 you = Wy
 everyone = Kuždy
 contribution-activity = Sobuźěłowa aktiwita
