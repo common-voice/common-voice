@@ -253,6 +253,7 @@ why-profile-text = S tem, da dodate nekaj podatkov o sebi, bodo glasovni podatki
 dashboard = Nadzorna plošča
 build-profile = Ustvari profil
 avatar = Avatar
+goals = Cilji
 settings = Nastavitve
 edit-profile = Uredi profil
 profile-create = Ustvari profil
@@ -450,8 +451,12 @@ nothing-to-validate = Trenutno ni ničesar za preveriti v tem jeziku. Pomagaj na
 record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 
+## Goals
+
+
 ## Dashboard
 
+stats = Statistika
 you = Vi
 everyone = Vsi
 contribution-activity = Dejavnost
