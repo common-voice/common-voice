@@ -117,9 +117,6 @@ share-title = დაგვეხმარეთ ხალხის მოძი�
 share-text = დაგვეხმარეთ, რომ შევასწავლოთ მანქანებს, თუ როგორ საუბრობენ ადამიანები, მოგვაწოდეთ თქვენი ხმის ჩანაწერები შემოწირულობის სახით { $link }
 link-copied = ბმული დაკოპირებულია
 back-top = დასაწყისში დაბრუნება
-contribution-banner-text = ჩვენ ეს-ესაა გავუშვით ახალი შესაძლებლობა მოხალისეებისთვის
-contribution-banner-button = გადახედეთ
-report-bugs-link = დაგვეხმარეთ ხარვეზების აღმოჩენაში
 logout = გასვლა
 
 ## Home Page
@@ -242,10 +239,10 @@ female = მდედრობითი
 other = სხვა
 why-profile-title = რა საჭიროა პროფილი?
 why-profile-text = თქვენ შესახებ გარკვეული ინფორმაციის მოწოდებით, თქვენ მიერ გადმოგზავნილი ჩანაწერები Common Voice-ში, მეტად გამოსადეგი იქნება იმ ხმოვანი ამოცნობის სისტემებისთვის, რომლებიც ამ მონაცემებს სიზუსტის გასაუმჯობესებლად იყენებს.
+dashboard = მონაცემების გვერდი
 build-profile = პროფილის შექმნა
-profile = პროფილი
 avatar = გამოსახულება
-preferences = პარამეტრები
+settings = პარამეტრები
 edit-profile = პროფილის ჩასწორება
 profile-create = პროფილის შექმნა
 profile-create-success = პროფილი წარმატებით შეიქმნა!
@@ -259,6 +256,7 @@ keep-me-posted =
     .label = მსურს განახლებების მიღება, Common Voice-სთან დაკავშირებული ამბებისთვის თვალის მისადევნებლად.
 accept-privacy = თანახმა ვარ, რომ Mozilla-მ ჩემი მონაცემები გამოიყენოს, <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
 login-identity = შესვლის ანგარიში
+login-signup = შესვლა / რეგისტრაცია
 edit = ჩასწორება
 email-subscriptions = გამოწერები ელფოსტით
 download-profile = ჩემი მონაცემების ჩამოტვირთვა
@@ -268,11 +266,14 @@ skip-submission-description = წვლილის შეტანისას 
 skip-submission-note = შენიშვნა: თქვენ მაინც უნდა მიუთითოთ ჩაწერასა და მოსმენას შორის რომელიმე, იმისდა მიხედვით, თუ რა სახის წვლილის შეტანა გსურთ.
 off = გამორთ.
 on = ჩართ.
+add-avatar-title = პროფილზე გამოსახულების დამატება
+browse-file-title = ატვირთეთ სურათის ფაილი
 browse-file = გადმოიტანეთ და მოათავსეთ ან <browseWrap>მოიძიეთ</browseWrap>
 connect-gravatar = Gravatar-თან დაკავშირება
 gravatar_not_found = თქვენი ელფოსტისთვის არ არის ნაპოვნი gravatar
 file_too_large = შერჩეული ფაილი ზედმეტად დიდია
 manage-subscriptions = გამოწერების მართვა
+email-already-used = ელფოსტა უკვე გამოყენებულია სხვა ანგარიშზე
 
 ## FAQ
 
@@ -431,3 +432,12 @@ listen-last-time-instruction = <playIcon></playIcon> ბოლო!
 nothing-to-validate = ამ ენაზე შესამოწმებელი არაფერია, დაგვეხმარეთ მასალების შევსებაში.
 record-button-label = ჩაწერეთ თქვენი ხმა
 share-title-new = <bold>დაგვეხმარეთ</bold> ხმების მოძიებაში
+
+## Dashboard
+
+you = თქვენ
+everyone = ყველა
+contribution-activity = შეტანილი წვლილი
+top-contributors = მხურვალე მოხალისეები
+recorded-clips = ჩანაწერები
+validated-clips = დამოწმებული ჩანაწერები
