@@ -255,13 +255,14 @@ keep-me-posted =
     .label = Ninwajo' yek'ul taq k'exoj richin ninwetamaj ri ruk'iyirisaxik Common Voice.
 accept-privacy = Ütz ninwak'axaj rub'eyal nokisäx re etamab'äl re' achi'el nitzijöx pa <privacyLink>Richinanem Na'ojil</privacyLink> richin Mozilla
 login-identity = Rub'anikil Rutikirisaxik Molojri'ïl
-login-signup = Titikirisäx Molojri'ïl / Titz'ib'äx b'i'aj
+login-signup = Titikirisäx Molojri'ïl / Titz'ib'äx B'i'aj
 edit = Tinuk'
 email-subscriptions = Tz'ib'axïk B'i'aj pa Taqoya'l
 download-profile = Keqasäx taq nutzij
 contribution-experience = Retamab'al to'ïk
 off = Tichup
 on = Titzij
+manage-subscriptions = Kenuk'samajïx taq Tz'ib'anïk B'i'aj
 
 ## FAQ
 
@@ -427,6 +428,23 @@ share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Q'ij
+       *[other] Taq Q'ij
+    }
+recordings =
+    { $count ->
+        [one] Niyak
+       *[other] Yeyak
+    }
+validations =
+    { $count ->
+        [one] Nijikib'äx
+       *[other] Yejikib'äx
+    }
 
 ## Dashboard
 
+you = Rat
+everyone = Ri ch'aqa' chik
