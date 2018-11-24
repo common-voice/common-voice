@@ -238,7 +238,8 @@ why-profile-text = Dengan menyediakan informasi mengenai diri Anda, data audio y
 dashboard = Dasbor
 build-profile = Bangun Profil
 avatar = Avatar
-preferences = Preferensi
+goals = Capaian
+settings = Setelan
 edit-profile = Ubah Profil
 profile-create = Buat profil
 profile-create-success = Berhasil, profil telah dibuat!
@@ -429,8 +430,25 @@ nothing-to-validate = Kami tidak memiliki apa pun untuk divalidasi dalam bahasa 
 record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
 
+## Goals
+
+days =
+    { $count ->
+       *[other] Hari
+    }
+recordings =
+    { $count ->
+       *[other] Rekaman
+    }
+validations =
+    { $count ->
+       *[other] Validasi
+    }
+
 ## Dashboard
 
+toward-next-goal = Menuju capaian selanjutnya
+stats = Statistik
 you = Anda
 everyone = Semua orang
 contribution-activity = Aktivitas Kontribusi
