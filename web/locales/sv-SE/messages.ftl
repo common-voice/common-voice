@@ -459,6 +459,7 @@ validations =
 
 ## Dashboard
 
+stats = Statistik
 you = Du
 everyone = Alla
 contribution-activity = Bidragsaktivitet
