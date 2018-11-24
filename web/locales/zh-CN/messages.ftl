@@ -430,6 +430,7 @@ share-title-new = <bold>请帮助我们</bold>找到更多声音
 
 ## Goals
 
+streaks = 连续第
 days =
     { $count ->
        *[other] 天
