@@ -236,6 +236,7 @@ why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Com
 dashboard = 面板
 build-profile = 创建个人资料
 avatar = 头像
+goals = 目标
 settings = 设置
 edit-profile = 编辑用户资料
 profile-create = 创建用户资料
@@ -429,9 +430,23 @@ share-title-new = <bold>请帮助我们</bold>找到更多声音
 
 ## Goals
 
+days =
+    { $count ->
+       *[other] 天
+    }
+recordings =
+    { $count ->
+       *[other] 录音
+    }
+validations =
+    { $count ->
+       *[other] 验证
+    }
 
 ## Dashboard
 
+toward-next-goal = 距离下一个目标
+stats = 统计
 you = 您自己
 everyone = 所有人
 contribution-activity = 贡献记录
