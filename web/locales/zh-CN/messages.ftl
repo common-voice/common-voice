@@ -123,8 +123,8 @@ logout = 退出
 
 home-title = Common Voice 项目是 Mozilla 的倡议，旨在帮助训练机器像真人一样说话。
 home-cta = 大胆发声，为此献声！
-wall-of-text-start = 语音应该是自然、人性的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
-wall-of-text-more-mobile = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别对所有人的开放。
+wall-of-text-start = 语音应该是自然、人性化的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
+wall-of-text-more-mobile = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别技术对每个人的开放。
 wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 朗读一个句子以帮助计算机学习真人说话。复查其他贡献者的工作以提高质量。就这么简单!
 wall-of-text-first = 语音应该是自然、人性的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-second = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别对所有人的开放。
@@ -426,6 +426,9 @@ listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 nothing-to-validate = 我们没有这个语言可供验证的录音，请帮助我们多录一些。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
+
+## Goals
+
 
 ## Dashboard
 
