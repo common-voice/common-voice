@@ -441,6 +441,7 @@ share-title-new = <bold>Hjälp oss</bold> hitta mer röster
 
 ## Goals
 
+streaks = Antal dagar i rad
 days =
     { $count ->
         [one] Dag
@@ -459,6 +460,7 @@ validations =
 
 ## Dashboard
 
+toward-next-goal = Till nästa mål
 stats = Statistik
 you = Du
 everyone = Alla
