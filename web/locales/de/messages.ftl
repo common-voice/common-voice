@@ -240,6 +240,7 @@ why-profile-text = Wenn Sie einige Informationen über sich selbst angeben, werd
 dashboard = Übersicht
 build-profile = Profil erstellen
 avatar = Profilbild
+goals = Ziele
 settings = Einstellungen
 edit-profile = Profil bearbeiten
 profile-create = Ein Profil erstellen
@@ -431,8 +432,29 @@ nothing-to-validate = Es gibt momentan nichts mehr in dieser Sprache, was Sie be
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
 
+## Goals
+
+streaks = Serien
+days =
+    { $count ->
+        [one] Tag
+       *[other] Tage
+    }
+recordings =
+    { $count ->
+        [one] Aufnahme
+       *[other] Aufnahmen
+    }
+validations =
+    { $count ->
+        [one] Bestätigung
+       *[other] Bestätigungen
+    }
+
 ## Dashboard
 
+toward-next-goal = Zum nächsten Ziel
+stats = Statistiken
 you = Sie
 everyone = Alle
 contribution-activity = Aktivität der Mitwirkenden
