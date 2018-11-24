@@ -448,6 +448,7 @@ validations =
 
 ## Dashboard
 
+toward-next-goal = 距離下一個目標
 stats = 統計
 you = 您自己
 everyone = 所有人
