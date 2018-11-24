@@ -448,6 +448,7 @@ share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
 
 ## Goals
 
+streaks = Smuhi
 days =
     { $count ->
         [one] dźeń
