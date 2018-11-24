@@ -125,7 +125,7 @@ home-title = Common Voice cu Mozilla kampani nih a tuah mi, zeitiin dah Laiholh 
 home-cta = Na Aw Rak Tun Ve!
 wall-of-text-start = Aw le holh cu a sunglawi tuk. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren tun kan herh.
 wall-of-text-more-mobile = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hman khawh an si lo. Cucu ṭhanchonak le chaw lehthalnak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawhnak ding caah kan tuah mi a si.
-wall-of-text-more-desktop = Laiholh in computer a ngah khawhnak ding caah na aw rak tun ve. <lineBreak></lineBreak> Laiholh in computer a ngahkhawhnak ding caah biatlang pawl na rel hna lai. Midang nih an chimcia zong chek ṭhan hna. A fawi te!
+wall-of-text-more-desktop = Laiholh in computer a ngah khawhnak ding caah na aw rak tun ve. <lineBreak></lineBreak> Laiholh in computer a ngah khawhnak ding caah biatlang pawl na rel hna lai. Midang nih an chimcia zong chek ṭhan hna. A fawi te!
 wall-of-text-first = Aw le holh cu a sunglawi tuk. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren tun kan herh.
 wall-of-text-second = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hman khawh an si lo. Cucu ṭhanchonak le chaw lehthalnak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawhnak ding caah kan tuah mi a si.
 show-wall-of-text = Rel Chap
@@ -239,6 +239,7 @@ why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW tth
 dashboard = Innpi
 build-profile = Profile Sernak
 avatar = Hmanthlak
+goals = Tinhmi
 settings = Settings
 edit-profile = Profile remhnak
 profile-create = Profile sernak
@@ -435,8 +436,27 @@ nothing-to-validate = Zeihmanh hi holh in tunmi kan ngei rih lo, na aw rak tuun 
 record-button-label = Na aw tuun
 share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
 
+## Goals
+
+days =
+    { $count ->
+        [one] Ni
+       *[other] Ni
+    }
+recordings =
+    { $count ->
+        [one] Tun liomi
+       *[other] Tun liomi
+    }
+validations =
+    { $count ->
+        [one] Chek cangmi
+       *[other] Chek cangmi
+    }
+
 ## Dashboard
 
+toward-next-goal = Hmailei tinhmi
 you = Nangmah
 everyone = Bawmtu dihlak
 contribution-activity = Bawmtu Cawlcanghnak
