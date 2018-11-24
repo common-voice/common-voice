@@ -237,10 +237,11 @@ female = naine
 other = muu
 why-profile-title = Milleks profiil?
 why-profile-text = Teades andmeid sinu kohta, saab sinu poolt Common Voice projekti lisatud helifaile paremini kasutada kõnetuvastusprogrammide arendamiseks.
+dashboard = Töölaud
 build-profile = Loo profiil
-profile = Profiil
 avatar = Avatar
-preferences = Eelistused
+goals = Eesmärgid
+settings = Sätted
 edit-profile = Muuda profiili
 profile-create = Profiili loomine
 profile-create-success = Suurepärane, profiil on loodud!
@@ -254,6 +255,7 @@ keep-me-posted =
     .label = Saadetakse teavitusi ja infot Common Voice projektiga toimuvast.
 accept-privacy = Olen nõus selle info käsitsemiseks Mozilla <privacyLink>privaatsusreeglitest</privacyLink> lähtuvalt
 login-identity = Kasutajatunnus
+login-signup = Logi sisse / registreeru
 edit = Muuda
 email-subscriptions = E-kirjade tellimused
 download-profile = Laadi oma andmed alla
@@ -263,11 +265,14 @@ skip-submission-description = Panuse ära saatmisel jäetakse tagasiside andmine
 skip-submission-note = Märkus: panustamise tüübi muutmiseks tuleb valida "räägi" või "kuula".
 off = Väljas
 on = Sees
+add-avatar-title = Lisa oma profiilile avatar
+browse-file-title = Laadi üles pilt
 browse-file = Lohista siia või <browseWrap>sirvi faile</browseWrap>
 connect-gravatar = Ühenda Gravatariga
 gravatar_not_found = Selle e-posti aadressiga pole seotud ühtki gravatari
 file_too_large = Valitud fail on liiga suur
 manage-subscriptions = Halda tellimusi
+email-already-used = See e-posti aadress on juba kasutuses teise konto jaoks
 
 ## FAQ
 
@@ -430,3 +435,30 @@ listen-last-time-instruction = <playIcon></playIcon> Viimane!
 nothing-to-validate = Meil pole midagi kontrollida selles keeles, aita meil järjekorda täita.
 record-button-label = Salvesta oma hääl
 share-title-new = <bold>Aita meil</bold> leida rohkem hääli
+
+## Goals
+
+days =
+    { $count ->
+        [one] päev
+       *[other] päeva
+    }
+recordings =
+    { $count ->
+        [one] Salvestis
+       *[other] Salvestised
+    }
+validations =
+    { $count ->
+        [one] kontrollimine
+       *[other] kontrollimist
+    }
+
+## Dashboard
+
+stats = Statistika
+you = Sina
+everyone = Kõik
+contribution-activity = Panustamise aktiivsus
+top-contributors = Panustajate edetabel
+recorded-clips = Salvestatud salvestisi
