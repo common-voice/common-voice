@@ -243,6 +243,7 @@ why-profile-text = Genom att ge lite information om dig själv kan det ljud du g
 dashboard = Översikt
 build-profile = Bygg profil
 avatar = Avatar
+goals = Mål
 settings = Inställningar
 edit-profile = Redigera profil
 profile-create = Skapa en profil
@@ -437,6 +438,24 @@ listen-last-time-instruction = <playIcon></playIcon> Sista!
 nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
+
+## Goals
+
+days =
+    { $count ->
+        [one] Dag
+       *[other] Dagar
+    }
+recordings =
+    { $count ->
+        [one] Inspelning
+       *[other] Inspelningar
+    }
+validations =
+    { $count ->
+        [one] Validering
+       *[other] Valideringar
+    }
 
 ## Dashboard
 
