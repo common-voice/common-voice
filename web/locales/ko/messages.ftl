@@ -128,6 +128,7 @@ wall-of-text-more-mobile = 큰 기업에서 사용하는 대부분의 데이터�
 wall-of-text-more-desktop =
     이제 기기와 웹을 위한 혁신적인 앱을 누구나 만들 수 있도록 오픈 소스 음성 데이터베이스를 만드는 데에 기여할 수 있습니다.<lineBreak></lineBreak>
     문장을 읽어서 기계가 실제 사람들이 어떻게 말하는지를 배울 수 있게 해 주세요. 다른 기여자의 작업을 확인하고 품질을 높여주세요. 아주 간단하답니다!
+wall-of-text-first = 목소리는 자연적이고 사람을 나타냅니다. 그래서 우리는 기계를 위한 사용할 만한 음성 기술을 만들고자 하게 되었습니다. 하지만 음성 시스템을 만들기 위해서 개발자는 매우 많은 양의 데이타가 필요합니다.
 show-wall-of-text = 더 알아보기
 help-us-title = 문장을 확인하는 것을 도와주세요!
 help-us-explain = 재생 버튼을 누르고, 듣고, 말해주기: 아래의 문장을 정확히 읽었나요?
@@ -419,6 +420,9 @@ listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
 nothing-to-validate = 해당 언어에 더 이상 검증할 목소리가 없습니다. 새로운 목소리를 추가해 주세요.
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
+
+## Goals
+
 
 ## Dashboard
 
