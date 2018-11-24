@@ -240,6 +240,7 @@ why-profile-text = Door wat informatie over uzelf te geven, zijn de door u bij C
 dashboard = Dashboard
 build-profile = Profiel opbouwen
 avatar = Avatar
+goals = Doelen
 settings = Instellingen
 edit-profile = Profiel bewerken
 profile-create = Een profiel aanmaken
@@ -431,8 +432,29 @@ nothing-to-validate = Er is niets in deze taal te valideren; help ons de rij te 
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
 
+## Goals
+
+streaks = Reeksen
+days =
+    { $count ->
+        [one] dag
+       *[other] dagen
+    }
+recordings =
+    { $count ->
+        [one] opname
+       *[other] opnamen
+    }
+validations =
+    { $count ->
+        [one] validatie
+       *[other] validaties
+    }
+
 ## Dashboard
 
+toward-next-goal = Naar het volgende doel
+stats = Statistieken
 you = U
 everyone = Iedereen
 contribution-activity = Medewerkersactiviteit
