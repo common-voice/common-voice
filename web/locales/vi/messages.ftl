@@ -430,8 +430,24 @@ nothing-to-validate = Chúng tôi không có gì để xác thực của ngôn n
 record-button-label = Ghi âm giọng nói của bạn
 share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 
+## Goals
+
+days =
+    { $count ->
+       *[other] Ngày
+    }
+recordings =
+    { $count ->
+       *[other] Bản ghi
+    }
+validations =
+    { $count ->
+       *[other] Xác thực
+    }
+
 ## Dashboard
 
+stats = Thống kê
 you = Bạn
 everyone = Mọi người
 contribution-activity = Hoạt động đóng góp
