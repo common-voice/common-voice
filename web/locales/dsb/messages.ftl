@@ -448,6 +448,7 @@ share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
 
 ## Goals
 
+streaks = Smugi
 days =
     { $count ->
         [one] Źeń
