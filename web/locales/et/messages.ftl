@@ -462,3 +462,4 @@ everyone = Kõik
 contribution-activity = Panustamise aktiivsus
 top-contributors = Panustajate edetabel
 recorded-clips = Salvestatud salvestisi
+validated-clips = Kontrollitud salvestisi
