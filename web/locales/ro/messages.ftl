@@ -243,7 +243,7 @@ why-profile-title = De ce un profil?
 why-profile-text =
     Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele 
     de recunoaștere a vorbirii care folosesc aceste date pentru a le îmbunătăți precizia.
-dashboard = Panou de control
+dashboard = Tablou de bord
 build-profile = Construiește profilul
 avatar = Avatar
 goals = Obiective
