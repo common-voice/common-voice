@@ -240,6 +240,7 @@ why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣu
 dashboard = Tafelwit n usenqed
 build-profile = Bnu amaɣnu
 avatar = Avataṛ
+goals = Iswiyen
 settings = Iɣewwaṛen
 edit-profile = Ẓreg amaɣnu
 profile-create = Rnu amaɣnu
@@ -435,8 +436,28 @@ nothing-to-validate = Ula kra ara nsentem deg tutlayt-a, mudd-aɣ-d afus ad neč
 record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 
+## Goals
+
+days =
+    { $count ->
+        [one] Ass
+       *[other] Ussan
+    }
+recordings =
+    { $count ->
+        [one] Asekles
+       *[other] Iseklas
+    }
+validations =
+    { $count ->
+        [one] Asentem
+       *[other] Isentam
+    }
+
 ## Dashboard
 
+toward-next-goal = Ɣer iswi i d-iteddun
+stats = Addaden
 you = Kečč
 everyone = Yal yiwen
 contribution-activity = Armud n uttekki
