@@ -243,9 +243,9 @@ why-profile-title = Зачем нужен профиль?
 why-profile-text = Предоставив некоторые данные о себе, вы сделаете аудио данные, отправляемые в Common Voice, более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
 dashboard = Панель
 build-profile = Построить профиль
-profile = Профиль
 avatar = Аватар
-preferences = Настройки
+goals = Цели
+settings = Настройки
 edit-profile = Редактировать профиль
 profile-create = Создать профиль
 profile-create-success = Отлично, профиль создан!
@@ -440,3 +440,36 @@ listen-last-time-instruction = <playIcon></playIcon> Последний!
 nothing-to-validate = У нас нет ничего для проверки на этом языке, помогите нам заполнить очередь.
 record-button-label = Запишите свой голос
 share-title-new = <bold>Помогите нам</bold> найти больше голосов
+
+## Goals
+
+streaks = Дней подряд
+days =
+    { $count ->
+        [one] день
+        [few] дня
+       *[other] дней
+    }
+recordings =
+    { $count ->
+        [one] запись
+        [few] записи
+       *[other] записей
+    }
+validations =
+    { $count ->
+        [one] проверка
+        [few] проверки
+       *[other] проверок
+    }
+
+## Dashboard
+
+toward-next-goal = Следующая цель
+stats = Статистика
+you = Вы
+everyone = Все пользователи
+contribution-activity = Вклад помощника
+top-contributors = Топ помощников
+recorded-clips = Озвучено
+validated-clips = Проверено
