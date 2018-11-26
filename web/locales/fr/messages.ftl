@@ -433,8 +433,12 @@ nothing-to-validate = Nous n’avons rien à valider dans cette langue, aidez-no
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 
+## Goals
+
+
 ## Dashboard
 
+stats = Statistiques
 you = Vous
 everyone = Tout le monde
 contribution-activity = Activité de contribution
