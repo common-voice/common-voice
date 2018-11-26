@@ -250,6 +250,7 @@ why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo b
 dashboard = Dashboerd
 build-profile = Profyl opbouwe
 avatar = Avatar
+goals = Doelen
 settings = Ynstellingen
 edit-profile = Profyl bewurkje
 profile-create = Profyl oanmeitsje
@@ -441,8 +442,29 @@ nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús de
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
 
+## Goals
+
+streaks = Rigen
+days =
+    { $count ->
+        [one] dei
+       *[other] dagen
+    }
+recordings =
+    { $count ->
+        [one] opname
+       *[other] opnamen
+    }
+validations =
+    { $count ->
+        [one] falidaasje
+       *[other] falidaasjes
+    }
+
 ## Dashboard
 
+toward-next-goal = Nei it folgjende doel
+stats = Statistiken
 you = Jo
 everyone = Elkenien
 contribution-activity = Meiwurkersaktiviteit
