@@ -239,9 +239,9 @@ why-profile-title = Perque un profilo?
 why-profile-text = Per fornir alcun informationes circa te mesme, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
 dashboard = Quadro de controlo
 build-profile = Crear le profilo
-profile = Profilo
 avatar = Avatar
-preferences = Preferentias
+goals = Propositos
+settings = Parametros
 edit-profile = Rediger le profilo
 profile-create = Crear un profilo
 profile-create-success = Profilo create con successo
@@ -435,3 +435,15 @@ listen-last-time-instruction = <playIcon></playIcon>Ultimo!
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
 record-button-label = Registra tu voce
 share-title-new = <bold>Adiuta nos</bold> a trovar altere voces
+
+## Goals
+
+days =
+    { $count ->
+        [one] Die
+       *[other] Dies
+    }
+
+## Dashboard
+
+you = Tu
