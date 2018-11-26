@@ -75,7 +75,6 @@ export default class API {
       bodyParser.raw({ type: 'image/*' }),
       this.saveAvatar
     );
-    router.put('/users/:id', this.saveUser);
 
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/:locale/goals', this.getGoals);
@@ -134,15 +133,6 @@ export default class API {
 
     console.log('clip demographic written to s3', demographicFile);
     response.json(client_id);
-  };
-
-  saveUser = async (request: Request, response: Response) => {
-    await this.model.syncUser(
-      request.params.id,
-      request.body,
-      request.header('Referer')
-    );
-    response.json('user synced');
   };
 
   getRandomSentences = async (request: Request, response: Response) => {

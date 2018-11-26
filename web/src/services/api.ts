@@ -89,31 +89,12 @@ export default class API {
   }
 
   async syncUser(): Promise<void> {
-    const {
-      age,
-      accents,
-      email,
-      gender,
-      hasDownloaded,
-      sendEmails,
-      userId,
-    } = this.user;
+    const { age, accents, gender, userId } = this.user;
 
     await Promise.all([
       this.fetch(API_PATH + '/user_clients/' + userId, {
         method: 'PUT',
         body: { accents, age, gender },
-      }),
-      this.fetch(`${API_PATH}/users/${userId}`, {
-        method: 'PUT',
-        body: {
-          age,
-          accents,
-          email,
-          gender,
-          has_downloaded: hasDownloaded,
-          send_emails: sendEmails,
-        },
       }),
     ]);
   }
