@@ -20,6 +20,7 @@ ar = Arabisk
 as = Assamesisk
 ast = Asturisk
 az = Aserbajdsjansk
+bg = Bulgarsk
 bn = Bengalsk
 br = Bretonsk
 bxr = Burjatisk
@@ -37,6 +38,8 @@ en = Engelsk
 eo = Esperanto
 es = Spansk
 et = Estisk
+eu = Baskisk
+fa = Persisk
 fi = Finsk
 fo = Færøsk
 fr = Fransk
@@ -57,6 +60,7 @@ ko = Koreansk
 kpv = Komi
 kw = Cornisk
 ky = Kirgisisk
+mdf = Moksha
 mk = Makedonsk
 mn = Mongolsk
 myv = Erzya
@@ -68,10 +72,10 @@ oc = Occitansk
 or = Oriya
 pl = Polsk
 pt-BR = Portugisisk (Brasilien)
-rm = Rætoromansk
 ro = Rumænsk
 ru = Russisk
 sah = Yakut
+sc = Sardisk
 sk = Slovakisk
 sl = Slovensk
 sq = Albansk
@@ -111,9 +115,7 @@ share-title = Hjælp os med at finde andre, der kan bidrage med deres stemme!
 share-text = Hjælp med at lære maskiner, hvordan mennesker taler - bidrag med din stemme på { $link }
 link-copied = Link kopieret
 back-top = Tilbage til toppen
-contribution-banner-text = Vi har netop lanceret et nyt interface til at bidrage
-contribution-banner-button = Tag et kig
-report-bugs-link = Hjælp med at rapportere fejl
+logout = Log ud
 
 ## Home Page
 
@@ -187,6 +189,8 @@ profile-form-age =
     .label = Alder
 profile-form-gender =
     .label = Køn
+hidden = Skjult
+visible = Synlig
 profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
 profile-keep-data = Behold data
@@ -197,12 +201,20 @@ female = Kvinde
 other = Andet
 why-profile-title = Hvorfor oprette en profil?
 why-profile-text = Ved at give nogle oplysninger om dig selv, vil de lyddata, du indsender til Common Voice være mere brugbare til talegenkendelses-systemerne, der skal bruge disse data til at forbedre deres nøjagtighed.
+avatar = Avatar
+goals = Mål
+settings = Indstillinger
 edit-profile = Rediger profil
 profile-create = Opret en profil
 profile-create-success = Profil oprettet!
 profile-close = Luk
 profile-clear-modal = Når du rydder dine profil-data vil denne demografiske information ikke længere blive sendt til Common Voice sammen med dine lydoptagelser.
 profile-explanation = Hold styr på din fremgang med en profil, samtidig med at du gør vores stemme-data mere præcist.
+edit = Rediger
+add-avatar-title = Tilføj en avatar til din profil
+connect-gravatar = Forbind med Gravatar
+file_too_large = Den valgte fil er for stor
+manage-subscriptions = Håndter abonnementer
 
 ## FAQ
 
@@ -259,21 +271,6 @@ data-bundle-button = Hent datasæt-samling
 data-bundle-description = Data fra Common Voice  samt alle andre stemme-datasæt ovenfor.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
-
-## Record Page
-
-record-platform-not-supported = Vi beklager, men din platform er i øjeblikket ikke understøttet.
-record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
-record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gratis app:
-record-must-allow-microphone = Du skal tillade mikrofon-adgang.
-record-retry = Prøv igen
-record-no-mic-found = Ingen mikrofon fundet.
-record-error-too-short = Optagelsen var for kort.
-record-error-too-long = Optagelsen var for lang.
-record-error-too-quiet = Optagelsen var for stille.
-record-submit-success = Indsendt! Vil du lave en ny optagelse?
-record-help = Klik for at starte optagelsen, og læs så sætningen ovenfor højt.
-record-cancel = Afbryd genindspilningen
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
 terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke
@@ -343,6 +340,15 @@ goal-help-recording = Du har hjulpet Common Voice med at nå <goalPercentage></g
 goal-help-validation = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for validering!
 contribute-more = Klar til at lave { $count } mere?
 record-cta = Start optagelse
+record-platform-not-supported = Vi beklager, men din platform er i øjeblikket ikke understøttet.
+record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
+record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gratis app:
+record-must-allow-microphone = Du skal tillade mikrofon-adgang.
+record-no-mic-found = Ingen mikrofon fundet.
+record-error-too-short = Optagelsen var for kort.
+record-error-too-long = Optagelsen var for lang.
+record-error-too-quiet = Optagelsen var for stille.
+record-cancel = Afbryd genindspilningen
 record-instruction = { $actionType } <recordIcon></recordIcon> og læs så sætningen højt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er færdig
 record-three-more-instruction = Tre tilbage!
@@ -366,3 +372,21 @@ listen-last-time-instruction = <playIcon></playIcon>Den sidste!
 nothing-to-validate = Vi har ikke noget klar til at validere på dette sprog. Hjælp os med at fylde køen op!
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
+
+## Goals
+
+days =
+    { $count ->
+        [one] Dag
+       *[other] Dage
+    }
+recordings =
+    { $count ->
+        [one] Optagelse
+       *[other] Optagelser
+    }
+
+## Dashboard
+
+you = Dig
+everyone = Alle
