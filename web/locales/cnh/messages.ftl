@@ -314,7 +314,7 @@ data-download-deny = Dawnlok Hlah
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
 data-download-modal = A tu dawnlok na timh mi hi <size>{ $size }GB</size> a si, na dawnlok lai maw?
 data-subtitle = Holh thiamnak he pehtlaih in mipi caah a sunglawi mi Aw phunkip laak in mipi caah data lianpi kan ser.
-data-explanatory-text = Mipi caah sunglawi  ngai le ṭha ngai in Aw lei pumhmi data nih hin a ngandam mi chawleh thalnak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna.  Kan vawlei pi ah Aw sunglawi in holh phunkip a um mi hi i tal dih hna sih ti hi kan saduh thah a si.
+data-explanatory-text = Mipi caah sunglawi ngai le ṭha ngai in Aw lei pumhmi data nih hin a ngandam mi chawleh thalnak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna. Kan vawlei pi ah Aw sunglawi in holh phunkip a um mi hi i tal dih hna sih ti hi kan saduh thah a si.
 data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
 data-other-title = Awdang Pumhmi Data
 data-other-goto = { $name } hin kal
@@ -371,7 +371,7 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 
 ## Languages Overview
 
-language-section-in-progress = Tuah lio mi
+language-section-in-progress = Tuah liomi
 language-section-in-progress-description = Tuah lio cuahmah mi holhphun hna cu anmah ram le miphun cio nih bawmhnak in ser an si; An ṭhanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
 language-section-launched = Thlah cangmi
 language-section-launched-new-description = Hi thlah cangmi holhphun hna caah cun tlamtling tein website hi an mah le holh cio in leh piak dih an si cang, cun biatlang zong a zatawk tein <italic> Chim</italic> le <italic> Ngaih</italic> khawhnak caah an khomh khawh cang.
