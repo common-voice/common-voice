@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = A si, ca ka kua ko. Common Voice Project kong theih ka duh.
-stayintouch = Holh phunkip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu a si. Zei tiin dah hihi na hman timi le thilthar pawl kan ngeih tik ah in chimh ve kan duh.
+stayintouch = Holh phunkip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu a si. Zei tiin dah hihi na hman timi le thilthar pawl kan ngeih tikah in chimh ve kan duh.
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
 email-input =
@@ -373,7 +373,7 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 
 language-section-in-progress = Tuah lio mi
 language-section-in-progress-description = Tuah lio cuahmah mi holhphun hna cu anmah ram le miphun cio nih bawmhnak in ser an si; An ṭhanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
-language-section-launched = Thlah cang mi
+language-section-launched = Thlah cangmi
 language-section-launched-new-description = Hi thlah cangmi holhphun hna caah cun tlamtling tein website hi an mah le holh cio in leh piak dih an si cang, cun biatlang zong a zatawk tein <italic> Chim</italic> le <italic> Ngaih</italic> khawhnak caah an khomh khawh cang.
 languages-show-more = Tam deuh zoh
 languages-show-less = Tawm deuh zoh
