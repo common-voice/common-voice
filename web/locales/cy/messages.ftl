@@ -258,6 +258,7 @@ why-profile-text = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, by
 dashboard = Bwrdd Gwaith
 build-profile = Adeiladu Proffil
 avatar = Afatar
+goals = Nodau
 settings = Gosodiadau
 edit-profile = Golygu Proffil
 profile-create = Creu proffil
@@ -449,8 +450,41 @@ nothing-to-validate = Nid oes gennym unrhyw beth i ddilysu'r iaith hon, helpwch 
 record-button-label = Recordio eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 
+## Goals
+
+streaks = Ymgyrchoedd
+days =
+    { $count ->
+        [zero] Diwrnodau
+        [one] Diwrnod
+        [two] Ddiwrnod
+        [few] Diwrnod
+        [many] Diwrnod
+       *[other] Diwrnod
+    }
+recordings =
+    { $count ->
+        [zero] Recordiadau
+        [one] Recordiad
+        [two] Recordiad
+        [few] Recordiad
+        [many] Recordiad
+       *[other] Recordiad
+    }
+validations =
+    { $count ->
+        [zero] Dilysiadau
+        [one] Dilysiad
+        [two] Dilysiad
+        [few] Dilysiad
+        [many] Dilysiad
+       *[other] Dilysiad
+    }
+
 ## Dashboard
 
+toward-next-goal = Ymlaen i'r nod nesaf
+stats = Ystadegau
 you = Chi
 everyone = Pawb
 contribution-activity = Gweithgaredd Cyfrannu
