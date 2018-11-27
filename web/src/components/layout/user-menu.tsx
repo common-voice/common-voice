@@ -9,7 +9,7 @@ import {
   DashboardIcon,
   DownIcon,
   LogoutIcon,
-  ToggleIcon,
+  CogIcon,
   UserIcon,
 } from '../ui/icons';
 import { Avatar, Hr } from '../ui/ui';
@@ -61,7 +61,7 @@ class UserMenu extends React.Component<PropsFromState> {
                 },
                 {
                   route: URLS.PROFILE_SETTINGS,
-                  icon: <ToggleIcon />,
+                  icon: <CogIcon />,
                   id: 'settings',
                 },
               ].map(({ route, icon, id }) => (

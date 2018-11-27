@@ -18,6 +18,10 @@
 
         background: transparent;
 
+        & .avatar-wrap {
+            margin-right: 10px;
+        }
+
         & .name {
             margin-right: 10px;
             max-width: 100%;

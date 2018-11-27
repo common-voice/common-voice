@@ -6,6 +6,7 @@ import { LOCALES, NATIVE_NAMES } from '../../services/localization';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
+import URLS from '../../urls';
 import {
   getItunesURL,
   isIOS,
@@ -14,8 +15,15 @@ import {
   isSafari,
   replacePathLocale,
 } from '../../utility';
-import { MenuIcon, MicIcon, OldPlayIcon } from '../ui/icons';
-import { LabeledSelect, LinkButton } from '../ui/ui';
+import { LocaleNavLink } from '../locale-helpers';
+import {
+  CogIcon,
+  DashboardIcon,
+  MenuIcon,
+  MicIcon,
+  OldPlayIcon,
+} from '../ui/icons';
+import { Avatar, LabeledSelect, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
 import LocalizationSelect from './localization-select';
@@ -208,7 +216,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               id="hamburger-menu"
               onClick={this.toggleMenu}
               className={isMenuVisible ? 'active' : ''}>
-              <MenuIcon className={isMenuVisible ? 'active' : ''} />
+              {user.account ? (
+                <Avatar url={user.account.avatar_url} />
+              ) : (
+                <MenuIcon className={isMenuVisible ? 'active' : ''} />
+              )}
             </button>
           </div>
         </header>
@@ -226,20 +238,50 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
           <Nav>
-            {!user.account && LOCALES.length > 1 && (
-              <LabeledSelect
-                className="localization-select"
-                value={locale}
-                onChange={(event: any) =>
-                  this.selectLocale(event.target.value)
-                }>
-                {LOCALES_WITH_NAMES.map(([code, name]) => (
-                  <option key={code} value={code}>
-                    {name}
-                  </option>
-                ))}
-              </LabeledSelect>
-            )}
+            <div className="user-nav">
+              {LOCALES.length > 1 && (
+                <LabeledSelect
+                  className="localization-select"
+                  value={locale}
+                  onChange={(event: any) =>
+                    this.selectLocale(event.target.value)
+                  }>
+                  {LOCALES_WITH_NAMES.map(([code, name]) => (
+                    <option key={code} value={code}>
+                      {name}
+                    </option>
+                  ))}
+                </LabeledSelect>
+              )}
+
+              {user.account && (
+                <div>
+                  <LocaleNavLink className="user-nav-link" to={URLS.DASHBOARD}>
+                    <DashboardIcon />
+                    <Localized id="dashboard">
+                      <span />
+                    </Localized>
+                  </LocaleNavLink>
+                  <LocaleNavLink
+                    className="user-nav-link"
+                    to={URLS.PROFILE_SETTINGS}>
+                    <CogIcon />
+                    <Localized id="settings">
+                      <span />
+                    </Localized>
+                  </LocaleNavLink>
+                </div>
+              )}
+              {user.account ? (
+                <Localized id="logout">
+                  <LinkButton rounded href="/logout" />
+                </Localized>
+              ) : (
+                <Localized id="login-signup">
+                  <LinkButton rounded href="/login" />
+                </Localized>
+              )}
+            </div>
           </Nav>
         </div>
       </div>

@@ -12,7 +12,7 @@ import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
 import {
   BarChartIcon,
   CameraIcon,
-  ToggleIcon,
+  CogIcon,
   UserIcon,
   UserPlusIcon,
 } from '../../ui/icons';
@@ -78,7 +78,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             },
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
             { route: goalsRoute, icon: <BarChartIcon />, id: 'goals' },
-            { route: prefRoute, icon: <ToggleIcon />, id: 'settings' },
+            { route: prefRoute, icon: <CogIcon />, id: 'settings' },
           ].map(({ route, icon, id }) => (
             <NavLink key={route} to={route}>
               {icon}
