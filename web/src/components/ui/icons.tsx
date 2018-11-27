@@ -29,7 +29,6 @@ export const BarChartIcon = () => (
       <mask id="bar-b" fill="#fff">
         <use xlinkHref="#bar-a" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#bar-a" />
       <g fill="#4A4A4A" mask="url(#bar-b)">
         <path d="M-1-2h24v24H-1z" />
       </g>
@@ -49,7 +48,6 @@ export const CameraIcon = () => (
       <mask id="camera-b" fill="#fff">
         <use xlinkHref="#camera-a" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#camera-a" />
       <g fill="#4A4A4A" mask="url(#camera-b)">
         <path d="M0 0h24v24H0z" />
       </g>
@@ -112,7 +110,6 @@ export const CogIcon = uniqueIcon(id => (
       <mask id={'cog-b' + id} fill="#fff">
         <use xlinkHref={'#cog-a' + id} />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref={'#cog-a' + id} />
       <g fill="#4A4A4A" mask={`url(#cog-b${id})`}>
         <path d="M0 0h24v24H0z" />
       </g>
@@ -500,7 +497,6 @@ export const UserIcon = uniqueIcon(id => (
       <mask id={'user-b' + id} fill="#fff">
         <use xlinkHref={'#user-a' + id} />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref={'#user-a' + id} />
       <g fill="#4A4A4A" mask={'url(#user-b' + id + ')'}>
         <path d="M-3-2h24v24H-3z" />
       </g>
@@ -520,7 +516,6 @@ export const UserPlusIcon = uniqueIcon(id => (
       <mask id={'user-p-b' + id} fill="#fff">
         <use xlinkHref={'#user-p-a' + id} />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref={'#user-p-a' + id} />
       <g fill="#4A4A4A" mask={'url(#user-p-b' + id + ')'}>
         <path d="M0 0h24v24H0z" />
       </g>
