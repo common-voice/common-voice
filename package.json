@@ -24,6 +24,9 @@
   "engines": {
     "node": ">=8.10.0"
   },
+  "resolutions": {
+    "event-stream": "3.3.4"
+  },
   "scripts": {
     "build": "concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",
     "import-locales": "node scripts/import-locales",
