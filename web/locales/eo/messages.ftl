@@ -142,6 +142,7 @@ listen-paragraph = Validigi voĉregistrojn estas same grava por la misio de Comm
 listen-goal-text = Validigitaj voĉregistrojn
 hours-recorded = Horoj registritaj
 hours-validated = Horoj validigitaj
+todays-progress = Hodiaŭa progreso
 read-terms-q = Ĉu vi legis niajn kondiĉojn?
 ready-to-record = Ĉu vi pretas donaci vian voĉon?
 all-languages = Ĉiuj lingvoj
@@ -219,6 +220,8 @@ profile-form-gender =
     .label = Sekso
 leaderboard-visibility =
     .label = Publika montro
+hidden = Kaŝita
+visible = Videbla
 native-language =
     .label = Denaska lingvo
 profile-form-submit-save = Konservi
@@ -231,6 +234,11 @@ female = Ina
 other = Alia
 why-profile-title = Kial krei profilon?
 why-profile-text = Se vi donas al ni kelkajn informojn pri vi, viaj sonregistraĵoj en Common Voice, estos pli utilaj por voĉrekoniloj kiuj uzas tiujn informojn por plibonigi la precizecon.
+dashboard = Panelo
+build-profile = Krei profilon
+avatar = Profila bildo
+goals = Celoj
+settings = Agordoj
 edit-profile = Modifi profilon
 profile-create = Krei profilon
 profile-create-success = Sukceso, profilo kreita!
@@ -244,6 +252,7 @@ keep-me-posted =
     .label = Mi ŝatus ricevi ĝisdatigojn kaj novaĵojn pri Common Voice.
 accept-privacy = Mi konsentas kun via pritrakto de tiu ĉi informo, laŭ via priskribo en la <privacyLink>privateca politiko</privacyLink> de Mozilla
 login-identity = Idento de seanco
+login-signup = Komenci seancon / Krei konton
 edit = Redakti
 email-subscriptions = Retpoŝtaj abonoj
 download-profile = Elŝuti miajn datumojn
@@ -251,6 +260,8 @@ contribution-experience = Kontribua sperto
 skip-submission-feedback = Ignori la sendon de opinio
 off = Malŝaltita
 on = Ŝaltita
+add-avatar-title = Aldoni bildon al via profilo
+browse-file-title = Alŝuti bildon
 
 ## FAQ
 
@@ -419,3 +430,7 @@ share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
 
 ## Dashboard
 
+you = Vi
+everyone = Ĉiuj
+contribution-activity = Kontribuoj
+top-contributors = Ĉefaj kontribuantoj
