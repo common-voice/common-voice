@@ -78,6 +78,54 @@
         }
     }
 
+    & .email-section {
+        display: flex;
+        flex-direction: column;
+
+        @media (--md-up) {
+            flex-direction: row;
+
+            & > * {
+                max-width: 400px;
+                width: 50%;
+            }
+        }
+
+        & label {
+            color: var(--near-black);
+            opacity: 0.5;
+        }
+
+        & input {
+            align-self: flex-start;
+        }
+
+        & a {
+            color: var(--blue);
+            text-decoration: underline;
+        }
+
+        & .privacy-and-terms {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            & svg {
+                margin-right: 5px;
+                flex-shrink: 0;
+                width: 16px;
+
+                & path {
+                    fill: var(--warm-grey);
+                }
+            }
+        }
+
+        & .terms {
+            font-weight: 600;
+        }
+    }
+
     & .manage-subscriptions {
         display: flex;
         flex-direction: row;

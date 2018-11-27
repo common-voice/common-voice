@@ -9,8 +9,10 @@ import { UserClient } from 'common/user-clients';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
-import { SettingsIcon } from '../../../ui/icons';
-import { LinkButton, LabeledInput } from '../../../ui/ui';
+import URLS from '../../../../urls';
+import { LocaleLink } from '../../../locale-helpers';
+import { InfoIcon, SettingsIcon } from '../../../ui/icons';
+import { LinkButton, LabeledInput, LabeledCheckbox } from '../../../ui/ui';
 
 import './settings.css';
 
@@ -111,8 +113,27 @@ class Settings extends React.Component<Props> {
                 </Localized>
                 <SettingsIcon />
               </a>
-            }
-          />
+            }>
+            <div className="email-section">
+              <Localized id="keep-me-posted" attrs={{ label: true }}>
+                <LabeledCheckbox disabled={true} checked={true} />
+              </Localized>
+              <div className="privacy-and-terms">
+                <InfoIcon />
+                <div>
+                  <Localized
+                    id="email-opt-in-privacy"
+                    privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                    <div />
+                  </Localized>
+                  <br />
+                  <Localized id="read-terms-q">
+                    <LocaleLink to={URLS.TERMS} className="terms" blank />
+                  </Localized>
+                </div>
+              </div>
+            </div>
+          </Section>
         )}
 
         <Section title={getString('contribution-experience')} className="box">
