@@ -15,7 +15,7 @@
     "@types/node": "^10.3.0",
     "@types/passport": "^0.4.3",
     "@types/request-promise-native": "^1.0.14",
-    "aws-sdk": "^2.67.0",
+    "aws-sdk": "^2.362.0",
     "body-parser": "^1.18.2",
     "common": "*",
     "commonmark": "^0.28.1",
