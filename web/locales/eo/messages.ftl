@@ -15,11 +15,13 @@ loading = Ŝargado…
 
 ## Languages
 
+ace = Aĉea
 an = Aragona
 ar = Araba
 as = Asama
 ast = Astura
 az = Azerbajĝana
+bg = Bulgara
 bn = Bengala
 br = Bretona
 bxr = Burjata
@@ -37,6 +39,8 @@ en = Angla
 eo = Esperanto
 es = Hispana
 et = Estona
+eu = Eŭska
+fa = Persa
 fi = Finna
 fo = Feroa
 fr = Franca
@@ -57,6 +61,7 @@ ko = Korea
 kpv = Komiziriana
 kw = Korniŝa
 ky = Kirgiza
+mdf = Mokŝa
 mk = Makedona
 mn = Mongola
 myv = Erzja
@@ -68,10 +73,10 @@ oc = Okcitana
 or = Odia
 pl = Pola
 pt-BR = Portugala (Brazilo)
-rm = Romanĉa
 ro = Rumana
 ru = Rusa
 sah = Jakuta
+sc = Sarda
 sk = Slovaka
 sl = Slovena
 sq = Albana
@@ -111,9 +116,7 @@ share-title = Helpu nin trovi aliajn, kiuj volos donaci siajn voĉojn!
 share-text = Helpu instrui al maŝinoj, kiel veraj homoj parolas, donacu vian voĉon ĉe { $link }
 link-copied = Ligilo kopiita
 back-top = Reen al la supro
-contribution-banner-text = Ni ĵus lanĉis novan kontribuan sperton
-contribution-banner-button = Provi
-report-bugs-link = Raporti erarojn
+logout = Fini seancon
 
 ## Home Page
 
@@ -253,7 +256,7 @@ on = Ŝaltita
 
 faq-title = Oftaj demandoj
 faq-what-q = Kio estas Common Voice?
-faq-what-a = Teknikologio por rekoni voĉon povus tute ŝanĝi la manieron, kiel ni interagas kun maŝinoj. Sed la nune disponeblaj sistemas estas kaj multekostaj kaj nelibera. Common Voice estas projekto kiu celas igi la voĉrekonan teknikologion facile alirebla de ĉiuj. Personoj donacas siajn voĉojn al grandega datumbazo, kiu permesos al ĉiuj rapide kaj facile trejni programojn, kiuj kapablas uzi voĉon. Ĉiuj datumoj estos disponeblaj por la programistoj.
+faq-what-a = Teknologio por rekoni voĉon povus tute ŝanĝi la manieron, kiel ni interagas kun maŝinoj. Sed la nune disponeblaj sistemoj estas kaj multekostaj kaj malliberaj. Common Voice estas projekto kiu celas igi la voĉrekonan teknikologion facile alirebla de ĉiuj. Personoj donacas siajn voĉojn al grandega datumbazo, kiu permesos al ĉiuj rapide kaj facile trejni programojn, kiuj kapablas uzi voĉon. Ĉiuj datumoj estos disponeblaj por la programistoj.
 faq-important-q = Kial tio gravas?
 faq-important-a = Voĉo estas natura, voĉo estas homa. Estas la plej facila kaj plej natura maniero komunikiĝi. Ni volas ke programistoj povu krei ravajn projektojn, ĉu samtempajn tradukistojn, ĉu administrajn helpantojn kapablaj uzi voĉon. Sed nuntempe ne ekzistas sufiĉe publike disponeblaj datumoj por krei tiajn projektojn. Ni esperas ke Common Voice donos al programistoj tion, kion ili bezonas por krei novajn aferojn.
 faq-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
@@ -304,21 +307,6 @@ data-bundle-button = Elŝuti kolekto da datumaroj
 data-bundle-description = Datumoj de Common Voice kaj ĉiuj aliaj supraj voĉaj datumaroj.
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
-
-## Record Page
-
-record-platform-not-supported = Bedaŭrinde via sistemo ne estas subtenata.
-record-platform-not-supported-desktop = En komputiloj sribotablaj, vi povas elŝuti la lastajn:
-record-platform-not-supported-ios = Uzantoj de <bold>iOS</bold> povas elŝuti nian senpagan programon:
-record-must-allow-microphone = Vi devas permesi aliron al la mikrofono.
-record-retry = Reprovi
-record-no-mic-found = Neniu mikrofono trovita.
-record-error-too-short = La registro estis tro mallonga.
-record-error-too-long = La registro estis tro longa.
-record-error-too-quiet = La registro estis tro silenta.
-record-submit-success = Sendo sukcesa! Ĉu vi volas fari alian registron?
-record-help = Bonvolu tuŝeti por registri, kaj poste legu laŭte la supran frazon.
-record-cancel = Nuligi reregistron
 review-terms = Per la uzo de Common Voice vi akceptas niajn <termsLink>kondiĉojn</termsLink> kaj <privacyLink>privatecan rimarkon</privacyLink>
 terms-agree = Mi akceptas
 terms-disagree = Mi ne akceptas
@@ -393,6 +381,15 @@ contribute-more =
        *[other] Ĉu vi pretas fari { $count }  pli?
     }
 record-cta = Komenci registron
+record-platform-not-supported = Bedaŭrinde via sistemo ne estas subtenata.
+record-platform-not-supported-desktop = En komputiloj sribotablaj, vi povas elŝuti la lastajn:
+record-platform-not-supported-ios = Uzantoj de <bold>iOS</bold> povas elŝuti nian senpagan programon:
+record-must-allow-microphone = Vi devas permesi aliron al la mikrofono.
+record-no-mic-found = Neniu mikrofono trovita.
+record-error-too-short = La registro estis tro mallonga.
+record-error-too-long = La registro estis tro longa.
+record-error-too-quiet = La registro estis tro silenta.
+record-cancel = Nuligi reregistron
 record-instruction = { $actionType }<recordIcon></recordIcon> kaj poste legu la frazon laŭte
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kiam vi finos
 record-three-more-instruction = Restas nur tri!
@@ -416,3 +413,9 @@ listen-last-time-instruction = <playIcon></playIcon>Lasta!
 nothing-to-validate = Ni ne havas ion ajn por validigi en tiu ĉi lingvo, helpu nin aldoni kelkajn registrojn al la atendovico.
 record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
+
+## Goals
+
+
+## Dashboard
+
