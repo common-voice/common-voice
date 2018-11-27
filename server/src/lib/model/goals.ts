@@ -23,7 +23,8 @@ export default async function getGoals(
         SELECT client_id, created_at, 'clip' AS type
         FROM clips
         ${locale ? 'WHERE locale_id = :locale_id' : ''}
-        UNION SELECT votes.client_id, votes.created_at, 'vote' AS type
+        UNION ALL
+        SELECT votes.client_id, votes.created_at, 'vote' AS type
         FROM votes
         LEFT JOIN clips on votes.clip_id = clips.id
         ${locale ? 'WHERE locale_id = :locale_id' : ''}
