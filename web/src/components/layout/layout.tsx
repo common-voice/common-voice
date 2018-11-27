@@ -140,6 +140,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       isMenuVisible,
       showStagingBanner,
     } = this.state;
+    const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
 
     const pathParts = location.pathname.split('/');
     const className = pathParts[2] ? pathParts.slice(2).join(' ') : 'home';
@@ -193,7 +194,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               <React.Fragment>
                 {user.account ? (
                   <UserMenu />
-                ) : (
+                ) : isBuildingProfile ? null : (
                   <Localized id="login-signup">
                     <LinkButton
                       className="login"
@@ -272,14 +273,18 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                   </LocaleNavLink>
                 </div>
               )}
-              {user.account ? (
-                <Localized id="logout">
-                  <LinkButton rounded href="/logout" />
-                </Localized>
-              ) : (
-                <Localized id="login-signup">
-                  <LinkButton rounded href="/login" />
-                </Localized>
+              {isBuildingProfile && (
+                <React.Fragment>
+                  {user.account ? (
+                    <Localized id="logout">
+                      <LinkButton rounded href="/logout" />
+                    </Localized>
+                  ) : (
+                    <Localized id="login-signup">
+                      <LinkButton rounded href="/login" />
+                    </Localized>
+                  )}
+                </React.Fragment>
               )}
             </div>
           </Nav>
