@@ -8,6 +8,7 @@ email-input =
     .label = E-bost
 submit-form-action = Cyflwyno
 loading = Llwytho…
+email-opt-in-privacy = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -491,3 +492,4 @@ contribution-activity = Gweithgaredd Cyfrannu
 top-contributors = Prif Gyfrannwyr
 recorded-clips = Clipiau wedi'u Recordio
 validated-clips = Clipiau wedi'u Dilysu
+total-approved = Cyfanswm Cymeradwy
