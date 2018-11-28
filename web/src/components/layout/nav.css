@@ -293,7 +293,8 @@ header {
 }
 
 #hamburger-menu {
-    width: calc(0.3 * var(--header-height));
+    min-width: 20px;
+    min-height: 20px;
     border: none;
     padding: 0;
 

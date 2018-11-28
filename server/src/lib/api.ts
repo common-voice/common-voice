@@ -258,7 +258,8 @@ export default class API {
           headers['content-type'] +
           ';base64,' +
           body.toString('base64');
-        if (avatarURL.length > 3000) {
+        console.log(avatarURL.length);
+        if (avatarURL.length > 8000) {
           error = 'too_large';
         }
         break;

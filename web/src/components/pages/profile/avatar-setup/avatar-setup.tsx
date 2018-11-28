@@ -86,7 +86,7 @@ class AvatarSetup extends React.Component<Props> {
   async saveFileAvatar(files: FileList) {
     const { addNotification, api, getString, refreshUser } = this.props;
     this.setState({ isSaving: true });
-    const image = await resizeImage(files.item(0), 36);
+    const image = await resizeImage(files.item(0), 80);
     const { error } = await api.saveAvatar('file', image);
     if (['too_large'].includes(error)) {
       addNotification(getString('file' + error));
