@@ -449,6 +449,7 @@ top-contributors = Top Contributors
 recorded-clips = Recorded Clips
 validated-clips = Validated Clips
 total-approved = Total Approved
+overall-accuracy = Overall Accuracy
 
 
 ## Profile Delete

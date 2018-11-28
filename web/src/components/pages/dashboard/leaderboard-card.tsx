@@ -195,7 +195,7 @@ export default class extends React.Component<{}, { showInfo: boolean }> {
                     { Icon: MicIcon, label: 'speak-goal-text' },
                     { Icon: PlayOutlineIcon, label: 'listen-goal-text' },
                     { Icon: FilledCheckIcon, label: 'total-approved' },
-                    { Icon: Percentage, label: 'vote-yes' },
+                    { Icon: Percentage, label: 'overall-accuracy' },
                   ].map(({ Icon, label }) => (
                     <li key={label}>
                       <div className="icon">
