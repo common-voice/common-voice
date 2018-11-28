@@ -459,5 +459,5 @@ contribution-activity = Contribution Activity
 top-contributors = Top Contributors
 recorded-clips = Recorded Clips
 validated-clips = Validated Clips
-
+total-approved = Total Approved
 

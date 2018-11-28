@@ -7,7 +7,7 @@ import StateTree from '../../../stores/tree';
 import { ALL_LOCALES } from '../../language-select/language-select';
 import LanguagesBar from '../../languages-bar/languages-bar';
 import ContributionActivity from './contribution-activity';
-import Leaderboard from './leaderboard';
+import LeaderboardCard from './leaderboard-card';
 import ProgressCard from './progress-card';
 import StatsCard from './stats-card';
 
@@ -92,18 +92,7 @@ class Dashboard extends React.Component<PropsFromState, State> {
                 {}
               )}
             />
-            <StatsCard
-              key="leaderboard"
-              title="top-contributors"
-              tabs={{
-                'recorded-clips': ({ locale }) => (
-                  <Leaderboard key={'c' + locale} locale={locale} type="clip" />
-                ),
-                'validated-clips': ({ locale }) => (
-                  <Leaderboard key={'v' + locale} locale={locale} type="vote" />
-                ),
-              }}
-            />
+            <LeaderboardCard />
           </div>
         </div>
       </div>

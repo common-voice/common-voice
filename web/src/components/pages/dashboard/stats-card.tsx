@@ -8,13 +8,13 @@ import './stats-card.css';
 
 export default class StatsCard extends React.Component<{
   title: string;
-  icons?: React.ReactNode;
+  iconButtons?: React.ReactNode;
   tabs: { [label: string]: (props: { locale: string }) => any };
 }> {
   state = { locale: ALL_LOCALES, selectedTab: Object.keys(this.props.tabs)[0] };
 
   render() {
-    const { title, icons, tabs } = this.props;
+    const { title, iconButtons, tabs } = this.props;
     const { selectedTab, locale } = this.state;
 
     return (
@@ -23,7 +23,7 @@ export default class StatsCard extends React.Component<{
           <Localized id={title}>
             <h2 />
           </Localized>
-          {icons}
+          {iconButtons}
         </div>
         <div className="filters">
           <div className="tabs">

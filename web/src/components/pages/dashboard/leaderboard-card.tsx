@@ -3,8 +3,15 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import { CheckIcon, MicIcon, OldPlayIcon } from '../../ui/icons';
+import {
+  CheckIcon,
+  InfoIcon,
+  MicIcon,
+  OldPlayIcon,
+  PlayOutlineIcon,
+} from '../../ui/icons';
 import { Avatar } from '../../ui/ui';
+import StatsCard from './stats-card';
 
 import './leaderboard.css';
 
@@ -33,7 +40,7 @@ interface State {
   rows: { position: number; [key: string]: any }[];
 }
 
-export default apiConnector(
+const Leaderboard = apiConnector(
   class Leaderboard extends React.Component<Props, State> {
     state: State = {
       rows: [],
@@ -155,3 +162,72 @@ export default apiConnector(
     }
   }
 );
+
+const FilledCheckIcon = () => (
+  <div className="filled-check">
+    <CheckIcon />
+  </div>
+);
+
+const Percentage = () => <div className="percent">%</div>;
+
+export default class extends React.Component<{}, { showInfo: boolean }> {
+  state = { showInfo: false };
+
+  hideInfo = () => this.setState({ showInfo: false });
+  showInfo = () => this.setState({ showInfo: true });
+
+  render() {
+    const { showInfo } = this.state;
+    return (
+      <StatsCard
+        key="leaderboard"
+        title="top-contributors"
+        iconButtons={
+          <div
+            className="leaderboard-info"
+            onMouseEnter={this.showInfo}
+            onMouseLeave={this.hideInfo}>
+            {showInfo && (
+              <div className="info-menu">
+                <ul>
+                  {[
+                    { Icon: MicIcon, label: 'speak-goal-text' },
+                    { Icon: PlayOutlineIcon, label: 'listen-goal-text' },
+                    { Icon: FilledCheckIcon, label: 'total-approved' },
+                    { Icon: Percentage, label: 'vote-yes' },
+                  ].map(({ Icon, label }) => (
+                    <li key={label}>
+                      <div className="icon">
+                        <Icon />
+                      </div>{' '}
+                      <Localized id={label}>
+                        <span />
+                      </Localized>
+                    </li>
+                  ))}
+                </ul>
+                <div style={{ height: 10 }}>
+                  <div className="triangle" />
+                </div>
+              </div>
+            )}
+            <button
+              className={showInfo ? 'active' : ''}
+              onClick={() => this.setState({ showInfo: !showInfo })}>
+              <InfoIcon />
+            </button>
+          </div>
+        }
+        tabs={{
+          'recorded-clips': ({ locale }) => (
+            <Leaderboard key={'c' + locale} locale={locale} type="clip" />
+          ),
+          'validated-clips': ({ locale }) => (
+            <Leaderboard key={'v' + locale} locale={locale} type="vote" />
+          ),
+        }}
+      />
+    );
+  }
+}

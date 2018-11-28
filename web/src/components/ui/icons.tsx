@@ -201,7 +201,6 @@ export const InfoIcon = uniqueIcon(id => (
       <mask id={'info-b' + id} fill="#fff">
         <use xlinkHref={'#info-a' + id} />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref={'#info-a' + id} />
       <g fill="#4A4A4A" mask={'url(#info-b' + id + ')'}>
         <path d="M-1-1h24v24H-1z" />
       </g>

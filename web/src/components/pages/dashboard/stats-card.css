@@ -10,8 +10,33 @@
         background: #f9f9f8;
     }
 
+    & .title-and-icon {
+        padding: 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        & button {
+            border: none;
+
+            &:hover {
+                opacity: 0.5;
+            }
+
+            & path {
+                fill: var(--warm-grey);
+            }
+
+            &.active path {
+                fill: var(--black);
+            }
+        }
+    }
+
     & h2 {
         padding: 20px;
+        padding-left: 0;
     }
 
     & .filters {
