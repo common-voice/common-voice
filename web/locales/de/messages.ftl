@@ -8,6 +8,8 @@ email-input =
     .label = E-Mail-Adresse
 submit-form-action = Absenden
 loading = Wird geladen…
+email-opt-in-privacy = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung<privacyLink> von Mozilla verarbeitet.
+indicates-required = * Pflichtfeld
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -209,8 +211,6 @@ english = Englisch
 
 ## ProfileForm
 
-profile-form-cancel = Formular schließen
-profile-form-delete = Profil löschen
 profile-form-username =
     .label = Benutzername
 profile-form-language =
@@ -229,8 +229,6 @@ native-language =
     .label = Muttersprache
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
-profile-keep-data = Daten behalten
-profile-delete-data = Daten löschen
 male = Männlich
 female = Weiblich
 # Gender
@@ -243,10 +241,8 @@ avatar = Profilbild
 goals = Ziele
 settings = Einstellungen
 edit-profile = Profil bearbeiten
-profile-create = Ein Profil erstellen
 profile-create-success = Geschafft, Profil erstellt!
 profile-close = Schließen
-profile-clear-modal = Wenn Sie Ihre Profildaten löschen, werden Ihre demografischen Informationen fortan nicht mehr zusammen mit Ihren Aufzeichnungen an Common Voice übertragen.
 profile-explanation = Mit einem Profil können Sie Ihren Fortschritt im Auge behalten und unsere Sprachdaten noch genauer machen.
 thanks-for-account = Danke für die Bestätigung Ihres Kontos, Sie können jetzt Ihr Profil erstellen.
 why-demographic = Warum sind diese Angaben relevant?
@@ -296,11 +292,6 @@ faq-hours-a = Dies ist ungefähr die Anzahl an Stunden, die notwendig ist, um ei
 faq-source-q = Wo kommen die ursprünglichen Texte her?
 faq-source-a1 = Die aktuellen Sätze wurden von Mitwirkenden beigesteuert, sowie aus Dialogen gemeinfreier Filmdrehbücher wie <italic>It’s a Wonderful Life</italic> entnommen.
 faq-source-a2 = Sie können sich die verwendeten Sätze in <dataLink>diesem GitHub-Ordner</dataLink> ansehen.
-
-## Profile
-
-profile-why-title = Warum ein Profil?
-profile-why-content = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil diese mit den Informationen ihre Genauigkeit erhöhen können.
 
 ## NotFound
 
@@ -461,3 +452,14 @@ contribution-activity = Aktivität der Mitwirkenden
 top-contributors = Aktivste Mitwirkende
 recorded-clips = Aufgenommene Aufzeichnungen
 validated-clips = Überprüfte Aufzeichnungen
+total-approved = Angenommene Aufzeichnungen
+overall-accuracy = Gesamtgenauigkeit
+
+## Profile Delete
+
+delete-q = Sollen auch Ihre Stimmaufzeichnungen gelöscht werden, oder sollen diese im Common-Voice-Datensatz verbleiben?
+keep = Behalten
+remove = Entfernen
+keep-info = Ihre anonymen Stimmaufzeichnungen verbleiben im Common-Voice-Datensatz. Nachdem Sie Ihr Profil gelöscht haben, können Sie die Löschung Ihrer Aufzeichnungen aus dem Datensatz nicht mehr beantragen.
+remove-info = Wir werden Ihre Anfrage zur Löschung Ihrer Stimmaufzeichnungen aus dem Datensatz prüfen. Wenn Ihrer Anfrage stattgegeben wird, kontaktieren wir diejenigen, die den Datensatz heruntergeladen haben und fordern diese auf, Ihre Stimmaufzeichnungen ebenfalls zu entfernen.
+profile-form-delete = Profil löschen
