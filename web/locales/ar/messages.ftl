@@ -8,6 +8,7 @@ email-input =
     .label = البريد الإلكتروني
 submit-form-action = أرسِل
 loading = يُحمّل…
+email-opt-in-privacy = اشتراكك في خدمة تلقّي البريد تعني بأنك لا تُمانع بأن تتعامل موزيلا مع هذه البيانات كما هو موضّح في <privacyLink>سياسة الخصوصية</privacyLink>.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -227,7 +228,6 @@ english = الإنجليزيّة
 ## ProfileForm
 
 profile-form-cancel = اخرج من الاستمارة
-profile-form-delete = احذف الملف الشخصي
 profile-form-username =
     .label = اسم المستخدم
 profile-form-language =
@@ -469,3 +469,8 @@ contribution-activity = نشاط المساهمة
 top-contributors = أعلى المساهمين
 recorded-clips = المقاطع المسجّلة
 validated-clips = المقاطع المتحقّق منها
+total-approved = إجمالي الموافق عليه
+
+## Profile Delete
+
+profile-form-delete = احذف الملف الشخصي
