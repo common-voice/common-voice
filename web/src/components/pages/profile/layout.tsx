@@ -12,6 +12,7 @@ import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
 import {
   BarChartIcon,
   CameraIcon,
+  CloudIcon,
   CogIcon,
   TrashIcon,
   UserIcon,
@@ -97,19 +98,15 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
               </Localized>
             </NavLink>
           ))}
+          {user.account && (
+            <a onClick={() => downloadData(user.account)} href="#">
+              <CloudIcon />
+              <Localized id="download-profile">
+                <span className="text" />
+              </Localized>
+            </a>
+          )}
         </div>
-
-        {user.account && (
-          <div className="buttons">
-            <Localized id="download-profile">
-              <Button
-                rounded
-                outline
-                onClick={() => downloadData(user.account)}
-              />
-            </Localized>
-          </div>
-        )}
       </div>
       <div className="content">
         <Switch>
@@ -137,6 +134,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
     </div>
   );
 };
+
 export default connect<PropsFromState>(({ user }: StateTree) => ({ user }))(
   localeConnector(Layout)
 );

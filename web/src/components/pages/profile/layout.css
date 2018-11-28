@@ -74,11 +74,18 @@
 
             @media (--md-up) {
                 flex-direction: column;
+                margin: 0 auto;
+                width: 100%;
+                max-width: var(--wide-desktop-width);
+                position: absolute;
+                left: 0;
+                right: 0;
             }
 
             & a {
                 border-radius: 40px;
                 padding: 18px 40px;
+                max-width: 200px;
 
                 display: flex;
 
@@ -118,19 +125,9 @@
                     }
                 }
             }
-        }
-
-        & .buttons {
-            display: none;
-
-            @media (--md-up) {
-                display: block;
-            }
 
             & .button {
-                min-height: 57px;
-                max-width: 207px;
-                min-width: auto;
+                width: fit-content;
             }
         }
     }
