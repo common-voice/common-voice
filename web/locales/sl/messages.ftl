@@ -443,6 +443,7 @@ share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 
 ## Goals
 
+streaks = Nizi
 
 ## Dashboard
 
