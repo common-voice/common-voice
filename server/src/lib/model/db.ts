@@ -63,24 +63,6 @@ export default class DB {
     return email.toLowerCase();
   }
 
-  /**
-   * Insert or update user client row.
-   */
-  async updateUser(client_id: string, fields: any): Promise<any> {
-    let { age, accents, email, gender } = fields;
-    email = this.formatEmail(email);
-    await Promise.all([
-      email &&
-        this.user.update({
-          email,
-          ...pick(fields, 'send_emails', 'has_downloaded', 'basket_token'),
-        }),
-      UserClient.save({ client_id, email, age, gender }),
-    ]);
-    accents && (await this.saveAccents(client_id, accents));
-    return this.getUser(email);
-  }
-
   async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
     const localeId = await getLocaleId(locale);
 
@@ -294,10 +276,7 @@ export default class DB {
   }): Promise<string> {
     try {
       sentenceId = sentenceId || hash(sentence);
-      const [localeId] = await Promise.all([
-        getLocaleId(locale),
-        this.saveUserClient(client_id),
-      ]);
+      const localeId = await getLocaleId(locale);
       const bucket = await this.getOrSetUserBucket(
         client_id,
         locale,

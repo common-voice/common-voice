@@ -30,7 +30,6 @@ const GoalPercentage = ({
 
 interface PropsFromState {
   api: API;
-  hasEnteredInfo: boolean;
   user: User.State;
 }
 
@@ -84,13 +83,13 @@ class Success extends React.Component<Props, State> {
   };
 
   render() {
-    const { hasEnteredInfo, onReset, type, user } = this.props;
+    const { onReset, type, user } = this.props;
     const { contributionCount, currentCount } = this.state;
     const finalPercentage = Math.ceil(
       (100 * (contributionCount || 0)) / DAILY_GOAL[type]
     );
 
-    const hasAccount = hasEnteredInfo || user.account;
+    const hasAccount = user.account;
 
     const ContributeMoreButton = (props: { children: React.ReactNode }) =>
       hasAccount ? (
@@ -177,6 +176,5 @@ class Success extends React.Component<Props, State> {
 
 export default connect<PropsFromState>(({ api, user }: StateTree) => ({
   api,
-  hasEnteredInfo: User.selectors.hasEnteredInfo(user),
   user,
 }))(Success);

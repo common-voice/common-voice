@@ -116,10 +116,6 @@ class DataPage extends React.Component<Props, State> {
 
     trackDataset(`download-${info.nick}`);
 
-    if (!user.hasDownloaded) {
-      this.props.updateUser({ hasDownloaded: true });
-    }
-
     this.setState({
       showModalFor:
         user.hasDownloaded || user.sendEmails ? 'download-starting' : 'email',

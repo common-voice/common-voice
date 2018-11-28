@@ -320,7 +320,7 @@ class SpeakPage extends React.Component<Props, State> {
       refreshUser,
     } = this.props;
 
-    if (!hasAgreed && !user.privacyAgreed) {
+    if (!hasAgreed && !(user.privacyAgreed || user.account)) {
       this.setState({ showPrivacyModal: true });
       return false;
     }

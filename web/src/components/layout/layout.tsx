@@ -190,21 +190,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </div>
           <div>
             {this.renderTallies()}
-            {!isProduction() && (
-              <React.Fragment>
-                {user.account ? (
-                  <UserMenu />
-                ) : isBuildingProfile ? null : (
-                  <Localized id="login-signup">
-                    <LinkButton
-                      className="login"
-                      href="/login"
-                      rounded
-                      outline
-                    />
-                  </Localized>
-                )}
-              </React.Fragment>
+            {user.account ? (
+              <UserMenu />
+            ) : isBuildingProfile ? null : (
+              <Localized id="login-signup">
+                <LinkButton className="login" href="/login" rounded outline />
+              </Localized>
             )}
             {LOCALES.length > 1 && (
               <LocalizationSelect

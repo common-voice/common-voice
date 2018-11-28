@@ -39,6 +39,8 @@ export default class API {
           if (await UserClient.hasSSO(client_id)) {
             response.sendStatus(401);
             return;
+          } else {
+            await this.model.db.saveUserClient(client_id);
           }
           request.client_id = client_id;
         } else if (request.user) {
@@ -66,7 +68,6 @@ export default class API {
       next();
     });
 
-    router.put('/user_clients/:id', this.saveUserClient);
     router.get('/user_clients', this.getUserClients);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
@@ -108,35 +109,8 @@ export default class API {
     return router;
   }
 
-  saveUserClient = async (
-    { client_id, body, params }: Request,
-    response: Response
-  ) => {
-    const demographic = body;
-
-    if (!client_id || !demographic) {
-      throw new ClientParameterError();
-    }
-
-    // Where is the clip demographic going to be located?
-    const demographicFile = client_id + '/demographic.json';
-
-    await this.model.db.updateUser(client_id, demographic);
-
-    await AWS.getS3()
-      .putObject({
-        Bucket: getConfig().BUCKET_NAME,
-        Key: demographicFile,
-        Body: JSON.stringify(demographic),
-      })
-      .promise();
-
-    console.log('clip demographic written to s3', demographicFile);
-    response.json(client_id);
-  };
-
   getRandomSentences = async (request: Request, response: Response) => {
-    const { client_id, headers, params } = request;
+    const { client_id, params } = request;
     const sentences = await this.model.findEligibleSentences(
       client_id,
       params.locale,

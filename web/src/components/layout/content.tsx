@@ -15,7 +15,6 @@ const DataPage = React.lazy(() => import('../pages/data/data'));
 const LanguagesPages = React.lazy(() => import('../pages/languages/languages'));
 const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
 const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
-const ProfilePage = React.lazy(() => import('../pages/profile'));
 
 export default localeConnector(
   ({ locale, toLocaleRoute }: LocalePropsFromState) => (
@@ -57,7 +56,7 @@ export default localeConnector(
           <Route
             exact
             path={toLocaleRoute(URLS.PROFILE)}
-            component={ProfilePage}
+            render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}
           />
           <Route
             path={toLocaleRoute(URLS.PROFILE + '/')}

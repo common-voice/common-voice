@@ -213,7 +213,6 @@ status-goal = Next Goals: { $goal }
 english = English
 
 ## ProfileForm
-profile-form-cancel = Exit Form
 profile-form-username =
     .label = User Name
 profile-form-language =
@@ -232,8 +231,6 @@ native-language =
     .label = Native Language
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
-profile-keep-data = Keep Data
-profile-delete-data = Delete Data
 male = Male
 female = Female
 # Gender
@@ -248,12 +245,8 @@ avatar = Avatar
 goals = Goals
 settings = Settings
 edit-profile = Edit Profile
-profile-create = Create a profile
 profile-create-success = Success, profile created!
 profile-close = Close
-profile-clear-modal =
-  Clearing your profile data means this demographic information will no longer be submitted to Common Voice with your
-  clip recordings.
 profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
 thanks-for-account = Thanks for confirming your account, now let's build your profile.
 why-demographic = Why does this matter?
@@ -302,10 +295,6 @@ faq-hours-a = This is approximately the number of hours required to train a prod
 faq-source-q = Where does the source text come from?
 faq-source-a1 = The current sentences come from contributor donations, as well as dialogue from public domain movie scripts like <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = You can view our source sentences in <dataLink>this GitHub folder</dataLink>.
-
-## Profile
-profile-why-title = Why a profile?
-profile-why-content = By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech Recognition engines that use this data to improve their accuracy.
 
 ## NotFound
 notfound-title = Not found
