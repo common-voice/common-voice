@@ -1,3 +1,4 @@
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
@@ -78,7 +79,7 @@ export default apiConnector(
               }
             />
           ) : null,
-          <li key={row.position} className="row">
+          <li key={row.position} className={'row ' + (row.you ? 'you' : '')}>
             <div className="position">
               {row.position < 9 && '0'}
               {row.position + 1}
@@ -88,6 +89,15 @@ export default apiConnector(
             </div>
             <div className="username" title={row.username}>
               {row.username || '???'}
+              {row.you && (
+                <React.Fragment>
+                  {' ('}
+                  <Localized id="you">
+                    <span />
+                  </Localized>
+                  )
+                </React.Fragment>
+              )}
             </div>
             <div className="total">
               {this.props.type == 'clip' ? (
@@ -104,7 +114,7 @@ export default apiConnector(
             <div className="rate">
               <div className="exact">{row.rate}</div>
               <div className="rounded">({Math.round(row.rate)}</div>
-              <div>{'%'}</div>
+              <div className="percent">{'%'}</div>
               <div className="rounded">)</div>
             </div>
           </li>,

@@ -174,9 +174,11 @@ export default async function getLeaderboard({
     ...userRegion,
   ];
   return omitClientId(
-    partialBoard.filter(
-      ({ position }, i) =>
-        i == partialBoard.findIndex(row => row.position == position)
-    )
+    partialBoard
+      .filter(
+        ({ position }, i) =>
+          i == partialBoard.findIndex(row => row.position == position)
+      )
+      .map(row => ({ ...row, you: row.client_id == client_id }))
   );
 }

@@ -58,7 +58,7 @@
         }
 
         & .total,
-        & .valid {
+        & .rate {
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -83,36 +83,62 @@
             }
         }
 
-        & .rate {
+        & .valid {
+            padding: 0 20px;
+            min-width: 45px;
+            height: 44px;
             display: flex;
-            font-weight: 600;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--white);
+            background: var(--blue);
+
+            & svg {
+                width: 17px;
+            }
+
+            & path {
+                fill: var(--white);
+            }
+
+            @media (--sm-down) {
+                padding: 0 10px;
+            }
+        }
+
+        & .rate {
+            padding: 0 10px;
+            min-width: 65px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
 
             & .exact,
             & .rounded {
                 display: none;
             }
 
-            @media (--sm-down) {
-                color: var(--blue);
+            & .percent {
+                color: var(--warm-grey);
+                font-weight: normal;
+                opacity: 0.5;
+            }
 
+            @media (--sm-down) {
                 & .rounded {
                     display: block;
                 }
             }
 
-            @media (--sm-up) {
-                padding: 0 10px;
-                min-width: 60px;
-                height: 44px;
-                justify-content: space-between;
-                align-items: center;
-                color: var(--white);
-                background: var(--blue);
-
+            @media (--md-up) {
                 & .exact {
                     display: block;
                 }
             }
+        }
+
+        &.you .username {
+            color: var(--blue);
         }
     }
 }
