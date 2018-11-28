@@ -51,6 +51,7 @@ const Leaderboard = apiConnector(
     youRow: { current: HTMLLIElement | null } = React.createRef();
 
     async componentDidMount() {
+      return;
       const { api, locale, type } = this.props;
       this.setState(
         {
