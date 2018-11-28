@@ -262,7 +262,7 @@ button.card-action:focus.focus-visible path {
     font-family: var(--base-font-family);
 }
 
-.toggle {
+.toggle-input {
     box-sizing: border-box;
     border-radius: 25px;
     padding: 0 var(--toggle-padding);
