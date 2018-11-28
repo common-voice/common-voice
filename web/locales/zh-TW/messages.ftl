@@ -8,7 +8,8 @@ email-input =
     .label = 電子郵件地址
 submit-form-action = 送出
 loading = 載入中…
-email-opt-in-privacy = 若同意接受游見，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊。
+email-opt-in-privacy = 若同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊。
+indicates-required = * 表示必填欄位
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -208,8 +209,6 @@ english = 英語
 
 ## ProfileForm
 
-profile-form-cancel = 離開表單
-profile-form-delete = 刪除帳號
 profile-form-username =
     .label = 使用者名稱
 profile-form-language =
@@ -228,8 +227,6 @@ native-language =
     .label = 母語
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-profile-keep-data = 保留資料
-profile-delete-data = 刪除資料
 male = 男性
 female = 女性
 # Gender
@@ -242,10 +239,8 @@ avatar = 頭像
 goals = 目標
 settings = 設定
 edit-profile = 編輯帳號資料
-profile-create = 註冊帳號
 profile-create-success = 帳號建立成功！
 profile-close = 關閉
-profile-clear-modal = 清除您的帳號資料後，就代表您錄音時，不會再一同傳送人口統計資料給 Common Voice。
 profile-explanation = 保留您的專案紀錄，並幫助增加我們的語音資料準確度。
 thanks-for-account = 感謝您確認帳號資訊，接下來請提供您的基本資料。
 why-demographic = 這有什麼重要的？
@@ -295,11 +290,6 @@ faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
 faq-source-q = 原文文字都來自哪裡？
 faq-source-a1 = 目前是透過貢獻者捐贈語料給我們，還有公開領域的電影（例如 <italic>It’s a Wonderful Life.</italic>）的腳本台詞。
 faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我們的語句原始碼。
-
-## Profile
-
-profile-why-title = 為什麼需要註冊帳號？
-profile-why-content = 使用您送出給 Common Voice 的語音資料的語音識別引擎，若能得到一些關於您的資訊，運作時將能夠更加準確。
 
 ## NotFound
 
@@ -458,3 +448,12 @@ top-contributors = 頂尖貢獻者
 recorded-clips = 錄製的片段
 validated-clips = 驗證的片段
 total-approved = 總批准數
+
+## Profile Delete
+
+delete-q = 您想要一同刪除語音，或是要將語音保留在 Common Voice 資料集中？
+keep = 保留
+remove = 移除
+keep-info = 您的錄音將匿名保留在 Common Voice 資料集。刪除個人資料後，就無法再要求從資料集刪除
+remove-info = 我們將審核您從資料集中刪除錄音的請求。如果您的請求獲得批准，我們將會聯絡已下載資料集的使用者，並請他們也刪除您的錄音。
+profile-form-delete = 刪除帳號
