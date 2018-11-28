@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { AllGoals } from 'common/goals';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import { isProduction } from '../../../utility';
 import { ALL_LOCALES } from '../../language-select/language-select';
 import LanguagesBar from '../../languages-bar/languages-bar';
 import ContributionActivity from './contribution-activity';
@@ -76,8 +75,9 @@ class Dashboard extends React.Component<PropsFromState, State> {
               );
             })}
           </div>
-          {!isProduction() && (
-            <div className="cards">
+
+          <div className="cards">
+            {false && (
               <StatsCard
                 key="contribution"
                 title="contribution-activity"
@@ -94,9 +94,9 @@ class Dashboard extends React.Component<PropsFromState, State> {
                   {}
                 )}
               />
-              <LeaderboardCard />
-            </div>
-          )}
+            )}
+            <LeaderboardCard />
+          </div>
         </div>
       </div>
     );

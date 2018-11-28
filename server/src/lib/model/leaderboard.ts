@@ -15,49 +15,29 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
              valid,
              ROUND(100 * COALESCE(valid / validated, 0), 2) AS rate
       FROM (
-        SELECT
-          user_clients.*,
-          (
-            SELECT COUNT(*)
-            FROM clips
-            WHERE clips.client_id = user_clients.client_id
-            ${locale ? 'AND clips.locale_id = :locale_id' : ''}
-          ) AS total,
-          (
-            SELECT COUNT(*)
-            FROM (
-              SELECT clips.client_id,
-                     SUM(votes.is_valid) AS upvotes,
-                     SUM(!votes.is_valid) AS downvotes
-              FROM clips
-              LEFT JOIN votes ON clips.id = votes.clip_id
-              ${locale ? 'WHERE clips.locale_id = :locale_id' : ''}
-              GROUP BY clips.id
-              HAVING upvotes >= 2 AND upvotes > downvotes
-            ) t
-            WHERE t.client_id = user_clients.client_id
-          ) AS valid,
-          (
-            SELECT COUNT(*)
-            FROM (
-              SELECT clips.client_id,
-                     SUM(votes.is_valid) AS upvotes,
-                     SUM(!votes.is_valid) AS downvotes
-              FROM clips
-              LEFT JOIN votes ON clips.id = votes.clip_id
-              ${locale ? 'WHERE clips.locale_id = :locale_id' : ''}
-              GROUP BY clips.id
-              HAVING (upvotes >= 2 OR downvotes >= 2) AND upvotes <> downvotes
-            ) t
-            WHERE t.client_id = user_clients.client_id
-          ) AS validated
-        FROM user_clients
-        WHERE visible
-        GROUP BY user_clients.client_id
+        SELECT user_clients.*,
+               COUNT(clip_id) AS total,
+               COALESCE(SUM(upvotes >= 2 AND upvotes > downvotes), 0) AS valid,
+               COALESCE(SUM(
+                 (upvotes >= 2 OR downvotes >= 2) AND upvotes <> downvotes
+               ), 0) AS validated
+        FROM (
+          SELECT user_clients.*,
+                 clips.id AS clip_id,
+                 SUM(votes.is_valid) AS upvotes,
+                 SUM(!votes.is_valid) AS downvotes
+          FROM user_clients
+          LEFT JOIN clips ON user_clients.client_id = clips.client_id
+          LEFT JOIN votes ON clips.id = votes.clip_id
+          WHERE visible
+          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+          GROUP BY user_clients.client_id, clips.id
+        ) user_clients
+        GROUP BY client_id
         HAVING total > 0
       ) t
       ORDER BY valid DESC, rate DESC, total DESC
-      `,
+    `,
     { locale_id: locale ? await getLocaleId(locale) : null }
   );
   return rows;
@@ -73,49 +53,32 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
              valid,
              ROUND(100 * COALESCE(valid / validated, 0), 2) AS rate
       FROM (
-        SELECT
-          user_clients.*,
-          COUNT(votes.id) AS total,
-          (
-            SELECT COUNT(*)
-            FROM (
-              SELECT votes.client_id,
-                     SUM(votes.is_valid = all_votes.is_valid) AS agree_count,
-                     SUM(votes.is_valid <> all_votes.is_valid) AS disagree_count
-              FROM votes
-              LEFT JOIN clips ON votes.clip_id = clips.id
-              LEFT JOIN votes all_votes ON clips.id = all_votes.clip_id
-               AND all_votes.id <> votes.id
-              ${locale ? 'WHERE clips.locale_id = :locale_id' : ''}
-              GROUP BY votes.client_id, votes.clip_id
-              HAVING agree_count > disagree_count
-            ) t
-            WHERE t.client_id = user_clients.client_id
-          ) AS valid,
-          (
-            SELECT COUNT(*)
-            FROM (
-              SELECT votes.client_id,
-                     SUM(all_votes.is_valid) AS upvotes,
-                     SUM(!all_votes.is_valid) AS downvotes
-              FROM votes
-              LEFT JOIN clips ON votes.clip_id = clips.id
-              LEFT JOIN votes all_votes ON all_votes.clip_id = clips.id
-              ${locale ? 'WHERE clips.locale_id = :locale_id' : ''}
-              GROUP BY votes.client_id, votes.clip_id
-              HAVING (upvotes >= 2 OR downvotes >= 2) AND upvotes <> downvotes
-            ) t
-            WHERE t.client_id = votes.client_id
-          ) AS validated
-        FROM user_clients
-        LEFT JOIN votes on user_clients.client_id = votes.client_id
-        LEFT JOIN clips on votes.clip_id = clips.id
-        WHERE visible ${locale ? 'AND clips.locale_id = :locale_id' : ''}
-        GROUP BY user_clients.client_id
-        HAVING total > 0 
+        SELECT user_clients.*,
+               COUNT(vote_id) AS total,
+               COALESCE(SUM(agree_count > disagree_count), 0) AS valid,
+               COALESCE(SUM(
+                 (agree_count >= 1 OR disagree_count >= 2)
+                 AND agree_count <> disagree_count
+               ), 0) AS validated
+        FROM (
+          SELECT user_clients.*,
+                 votes.id AS vote_id,
+                 SUM(votes.is_valid = other_votes.is_valid) AS agree_count,
+                 SUM(votes.is_valid <> other_votes.is_valid) AS disagree_count
+          FROM user_clients
+          LEFT JOIN votes ON user_clients.client_id = votes.client_id
+          LEFT JOIN clips ON votes.clip_id = clips.id
+          LEFT JOIN votes other_votes ON clips.id = other_votes.clip_id
+            AND other_votes.id <> votes.id
+          WHERE visible
+          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+          GROUP BY user_clients.client_id, votes.id
+        ) user_clients
+        GROUP BY client_id
+        HAVING total > 0
       ) t
-      ORDER BY valid DESC, rate DESC, total DESC  
-      `,
+      ORDER BY valid DESC, rate DESC, total DESC
+    `,
     { locale_id: locale ? await getLocaleId(locale) : null }
   );
 
