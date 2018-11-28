@@ -8,6 +8,7 @@ email-input =
     .label = Elektronski naslov
 submit-form-action = Pošlji
 loading = Nalaganje …
+indicates-required = * Označuje zahtevano polje
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -223,7 +224,6 @@ english = angleščina
 ## ProfileForm
 
 profile-form-cancel = Zapri obrazec
-profile-form-delete = Izbriši profil
 profile-form-username =
     .label = Uporabniško ime
 profile-form-language =
@@ -463,3 +463,9 @@ contribution-activity = Dejavnost
 top-contributors = Naj sodelavci
 recorded-clips = Shranjeni posnetki
 validated-clips = Potrjeni posnetki
+
+## Profile Delete
+
+keep = Obdrži
+remove = Odstrani
+profile-form-delete = Izbriši profil
