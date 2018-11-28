@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { AllGoals } from 'common/goals';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
+import { isProduction } from '../../../utility';
 import { ALL_LOCALES } from '../../language-select/language-select';
 import LanguagesBar from '../../languages-bar/languages-bar';
 import ContributionActivity from './contribution-activity';
@@ -75,25 +76,27 @@ class Dashboard extends React.Component<PropsFromState, State> {
               );
             })}
           </div>
-          <div className="cards">
-            <StatsCard
-              key="contribution"
-              title="contribution-activity"
-              tabs={['you', 'everyone'].reduce(
-                (o: any, from: any) => ({
-                  ...o,
-                  [from]: ({ locale }: { locale: string }) => (
-                    <ContributionActivity
-                      key={locale + from}
-                      {...{ from, locale }}
-                    />
-                  ),
-                }),
-                {}
-              )}
-            />
-            <LeaderboardCard />
-          </div>
+          {!isProduction() && (
+            <div className="cards">
+              <StatsCard
+                key="contribution"
+                title="contribution-activity"
+                tabs={['you', 'everyone'].reduce(
+                  (o: any, from: any) => ({
+                    ...o,
+                    [from]: ({ locale }: { locale: string }) => (
+                      <ContributionActivity
+                        key={locale + from}
+                        {...{ from, locale }}
+                      />
+                    ),
+                  }),
+                  {}
+                )}
+              />
+              <LeaderboardCard />
+            </div>
+          )}
         </div>
       </div>
     );

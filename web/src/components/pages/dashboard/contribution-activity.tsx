@@ -21,7 +21,6 @@ class ContributionActivity extends React.Component<Props> {
   state: State = { data: [] };
 
   async componentDidMount() {
-    return;
     const { api, from, locale } = this.props;
     await this.setState({
       data: await api.fetchContributionActivity(from, locale),
