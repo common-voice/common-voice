@@ -8,6 +8,7 @@ email-input =
 submit-form-action = Submit
 loading = Loading…
 email-opt-in-privacy = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy<privacyLink>.
+indicates-required = * Indicates required field
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -213,7 +214,6 @@ english = English
 
 ## ProfileForm
 profile-form-cancel = Exit Form
-profile-form-delete = Delete Profile
 profile-form-username =
     .label = User Name
 profile-form-language =
@@ -461,3 +461,11 @@ recorded-clips = Recorded Clips
 validated-clips = Validated Clips
 total-approved = Total Approved
 
+
+## Profile Delete
+delete-q = Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?
+keep = Keep
+remove = Remove
+keep-info = Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset
+remove-info = We will review your request to remove your voice recordings from the dataset. If your request is approved, we will contact those who have downloaded the dataset and request they remove your voice recordings as well.
+profile-form-delete = Delete Profile

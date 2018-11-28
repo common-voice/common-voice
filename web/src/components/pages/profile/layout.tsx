@@ -13,11 +13,13 @@ import {
   BarChartIcon,
   CameraIcon,
   CogIcon,
+  TrashIcon,
   UserIcon,
   UserPlusIcon,
 } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import AvatarSetup from './avatar-setup/avatar-setup';
+import DeleteProfile from './delete/delete';
 import Goals from './goals/goals';
 import InfoPage from './info/info';
 import Settings from './settings/settings';
@@ -61,10 +63,13 @@ interface PropsFromState {
 interface Props extends LocalePropsFromState, PropsFromState {}
 
 const Layout = ({ toLocaleRoute, user }: Props) => {
-  const infoRoute = toLocaleRoute(URLS.PROFILE_INFO);
-  const avatarRoute = toLocaleRoute(URLS.PROFILE_AVATAR);
-  const goalsRoute = toLocaleRoute(URLS.PROFILE_GOALS);
-  const prefRoute = toLocaleRoute(URLS.PROFILE_SETTINGS);
+  const [infoRoute, avatarRoute, goalsRoute, prefRoute, deleteRoute] = [
+    URLS.PROFILE_INFO,
+    URLS.PROFILE_AVATAR,
+    URLS.PROFILE_GOALS,
+    URLS.PROFILE_SETTINGS,
+    URLS.PROFILE_DELETE,
+  ].map(r => toLocaleRoute(r));
   return (
     <div className="profile-layout">
       <div className="profile-nav">
@@ -79,6 +84,11 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
             { route: goalsRoute, icon: <BarChartIcon />, id: 'goals' },
             { route: prefRoute, icon: <CogIcon />, id: 'settings' },
+            {
+              route: deleteRoute,
+              icon: <TrashIcon />,
+              id: 'profile-form-delete',
+            },
           ].map(({ route, icon, id }) => (
             <NavLink key={route} to={route}>
               {icon}
@@ -104,28 +114,21 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
       <div className="content">
         <Switch>
           <Route exact path={infoRoute} component={InfoPage} />
-          <Route
-            exact
-            path={avatarRoute}
-            render={props =>
-              user.account ? <AvatarSetup /> : <Redirect to={infoRoute} />
-            }
-          />
-          <Route
-            exact
-            path={goalsRoute}
-            render={props =>
-              user.account ? <Goals /> : <Redirect to={infoRoute} />
-            }
-          />
-
-          <Route
-            exact
-            path={prefRoute}
-            render={props =>
-              user.account ? <Settings /> : <Redirect to={infoRoute} />
-            }
-          />
+          {[
+            { route: avatarRoute, Component: AvatarSetup },
+            { route: goalsRoute, Component: Goals },
+            { route: prefRoute, Component: Settings },
+            { route: deleteRoute, Component: DeleteProfile },
+          ].map(({ route, Component }) => (
+            <Route
+              key={route}
+              exact
+              path={route}
+              render={props =>
+                user.account ? <Component /> : <Redirect to={infoRoute} />
+              }
+            />
+          ))}
           <Route
             render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}
           />

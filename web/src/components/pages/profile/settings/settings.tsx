@@ -12,7 +12,12 @@ import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
 import { InfoIcon, PenIcon, SettingsIcon } from '../../../ui/icons';
-import { LinkButton, LabeledInput, LabeledCheckbox } from '../../../ui/ui';
+import {
+  LinkButton,
+  LabeledInput,
+  LabeledCheckbox,
+  Toggle,
+} from '../../../ui/ui';
 
 import './settings.css';
 
@@ -142,19 +147,12 @@ class Settings extends React.Component<Props> {
           <Localized id="skip-submission-feedback">
             <h3 className="feedback-toggle-title" />
           </Localized>
-          <div className="feedback-toggle">
-            <input
-              type="checkbox"
-              onChange={this.syncSkipSubmissionFeedback}
-              defaultChecked={account.skip_submission_feedback}
-            />
-            <Localized id="off">
-              <div />
-            </Localized>
-            <Localized id="on">
-              <div />
-            </Localized>
-          </div>
+          <Toggle
+            offText="off"
+            onText="on"
+            defaultChecked={account.skip_submission_feedback}
+            onChange={this.syncSkipSubmissionFeedback}
+          />
           <Localized id="skip-submission-description">
             <p className="skip-submission-description" />
           </Localized>

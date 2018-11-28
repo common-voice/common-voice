@@ -1,3 +1,9 @@
+@import url('../vars.css');
+
+:root {
+    --toggle-padding: 10px;
+}
+
 .avatar-wrap {
     flex-shrink: 0;
     border-radius: 100%;
@@ -254,4 +260,52 @@ button.card-action:focus.focus-visible path {
     border: none;
     background: none;
     font-family: var(--base-font-family);
+}
+
+.toggle {
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 0 var(--toggle-padding);
+    width: fit-content;
+    height: 36px;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    color: var(--white);
+    background: #9b9b9b;
+
+    & input {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        appearance: none;
+        cursor: pointer;
+
+        &::before {
+            content: '';
+            border-radius: 25px;
+            position: absolute;
+            left: 0;
+            width: calc(50% + var(--toggle-padding));
+            height: 100%;
+            background: var(--valid-green);
+            transform: translateX(0%);
+            transition: transform var(--easing) var(--transition-duration);
+        }
+
+        &:checked::before {
+            transform: translateX(calc(100% - 2 * var(--toggle-padding)));
+        }
+    }
+
+    & div {
+        z-index: var(--middle-z-index);
+        pointer-events: none;
+        margin: 0 25px;
+    }
 }

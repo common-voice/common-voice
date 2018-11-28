@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { LocaleLink } from '../locale-helpers';
+import { Localized } from 'fluent-react/compat';
+import { HTMLProps } from 'react';
 
 export const Avatar = ({ url }: { url?: string }) => (
   <div className="avatar-wrap">
@@ -144,4 +146,20 @@ export class Spinner extends React.Component<
 
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />
+);
+
+export const Toggle = ({
+  offText,
+  onText,
+  ...props
+}: { offText: string; onText: string } & HTMLProps<HTMLInputElement>) => (
+  <div className="toggle">
+    <input type="checkbox" {...props} />
+    <Localized id={offText}>
+      <div />
+    </Localized>
+    <Localized id={onText}>
+      <div />
+    </Localized>
+  </div>
 );
