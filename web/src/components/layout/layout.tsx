@@ -273,7 +273,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                   </LocaleNavLink>
                 </div>
               )}
-              {isBuildingProfile && (
+              {!isBuildingProfile && (
                 <React.Fragment>
                   {user.account ? (
                     <Localized id="logout">
