@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Cyflwyno
 loading = Llwytho…
 email-opt-in-privacy = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
+indicates-required = Mae * yn dynodi maes angenrheidiol
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -228,8 +229,6 @@ english = Saesneg
 
 ## ProfileForm
 
-profile-form-cancel = Gadael y Ffurflen
-profile-form-delete = Dileu Proffil
 profile-form-username =
     .label = Enw Defnyddiwr
 profile-form-language =
@@ -248,8 +247,6 @@ native-language =
     .label = Mamiaith
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
-profile-keep-data = Cadw Data
-profile-delete-data = Dileu Data
 male = Gwryw
 female = Benyw
 # Gender
@@ -262,10 +259,8 @@ avatar = Afatar
 goals = Nodau
 settings = Gosodiadau
 edit-profile = Golygu Proffil
-profile-create = Creu proffil
 profile-create-success = Llwyddiant, wedi creu proffil!
 profile-close = Cau
-profile-clear-modal = Bydd clirio data eich proffil yn golygu na fydd y wybodaeth ddemograffig yma'n cael ei chyflwyno i Common Voice gyda'ch clipiau recordio.
 profile-explanation = Cadw golwg o'ch cynnydd gyda phroffil a helpu'n data llais i fod yn fwy cywir.
 thanks-for-account = Diolch am gadarnhau eich cyfrif, nawr ymlaen i greu eich proffil.
 why-demographic = Pam fod hyn o bwys?
@@ -315,11 +310,6 @@ faq-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch sy
 faq-source-q = O ble ddaw'r testun ffynhonnell?
 faq-source-a1 = Mae'r brawddegau cyfredol yn dod o roddion gan gyfrannwr, yn ogystal â deialogau ffilmiau parth cyhoeddus fel <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Gallwch weld ein brawddegau ffynhonnell yn <dataLink>y ffolder GitHub yma</dataLink>.
-
-## Profile
-
-profile-why-title = Pam cael proffil?
-profile-why-content = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i wella eu cywirdeb.
 
 ## NotFound
 
@@ -493,3 +483,13 @@ top-contributors = Prif Gyfrannwyr
 recorded-clips = Clipiau wedi'u Recordio
 validated-clips = Clipiau wedi'u Dilysu
 total-approved = Cyfanswm Cymeradwy
+overall-accuracy = Cywirdeb Cyffredinol
+
+## Profile Delete
+
+delete-q = Hoffech chi ofyn am gael dileu eich recordiadau llais hefyd, neu a yw'n well gennych eu cadw yn set ddata Common Voice?
+keep = Cadw
+remove = Tynnu
+keep-info = Bydd eich recordiadau llais dienw yn parhau yn set ddata Common Voice. Ar ôl i chi ddileu eich proffil, ni fyddwch bellach yn gallu cyflwyno cais i ddileu eich recordiadau o'r set ddata
+remove-info = Byddwn yn adolygu'ch cais i gael gwared â'ch recordiadau llais o'r set ddata. Os bydd eich cais yn cael ei gymeradwyo, byddwn yn cysylltu â'r rhai sydd wedi llwytho'r set ddata i lawr a gofyn iddyn nhw gael gwared â'ch recordiadau llais hefyd.
+profile-form-delete = Dileu Proffil
