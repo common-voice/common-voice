@@ -22,14 +22,15 @@ export default async function getGoals(
       FROM (
         SELECT client_id, created_at, 'clip' AS type
         FROM clips
-        ${locale ? 'WHERE locale_id = :locale_id' : ''}
+        WHERE client_id = :client_id
+        ${locale ? 'AND locale_id = :locale_id' : ''}
         UNION ALL
         SELECT votes.client_id, votes.created_at, 'vote' AS type
         FROM votes
         LEFT JOIN clips on votes.clip_id = clips.id
-        ${locale ? 'WHERE locale_id = :locale_id' : ''}
+        WHERE votes.client_id = :client_id
+        ${locale ? 'AND locale_id = :locale_id' : ''}
       ) dates
-      WHERE client_id = :client_id
       ORDER BY created_at ASC
     `,
     {
