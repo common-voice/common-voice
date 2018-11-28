@@ -43,6 +43,7 @@
 
     & .inner {
         margin: 0 auto;
+        padding: 0 16px;
         max-width: var(--wide-desktop-width);
         box-sizing: border-box;
 
