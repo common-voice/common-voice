@@ -77,24 +77,22 @@ class Dashboard extends React.Component<PropsFromState, State> {
           </div>
 
           <div className="cards">
-            {false && (
-              <StatsCard
-                key="contribution"
-                title="contribution-activity"
-                tabs={['you', 'everyone'].reduce(
-                  (o: any, from: any) => ({
-                    ...o,
-                    [from]: ({ locale }: { locale: string }) => (
-                      <ContributionActivity
-                        key={locale + from}
-                        {...{ from, locale }}
-                      />
-                    ),
-                  }),
-                  {}
-                )}
-              />
-            )}
+            <StatsCard
+              key="contribution"
+              title="contribution-activity"
+              tabs={['you', 'everyone'].reduce(
+                (o: any, from: any) => ({
+                  ...o,
+                  [from]: ({ locale }: { locale: string }) => (
+                    <ContributionActivity
+                      key={locale + from}
+                      {...{ from, locale }}
+                    />
+                  ),
+                }),
+                {}
+              )}
+            />
             <LeaderboardCard />
           </div>
         </div>

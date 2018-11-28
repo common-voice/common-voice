@@ -92,8 +92,8 @@ export default class API {
       this.clip.getRouter()
     );
 
-    // router.get('/contribution_activity', this.getContributionActivity);
-    // router.get('/:locale/contribution_activity', this.getContributionActivity);
+    router.get('/contribution_activity', this.getContributionActivity);
+    router.get('/:locale/contribution_activity', this.getContributionActivity);
 
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
