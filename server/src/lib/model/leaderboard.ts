@@ -50,7 +50,6 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
         LEFT JOIN clips ON user_clients.client_id = clips.client_id ${
           locale ? 'AND locale_id = :locale_id' : ''
         }
-        WHERE visible
         GROUP BY user_clients.client_id
         HAVING total > 0
       ) t
@@ -170,7 +169,7 @@ export default async function getLeaderboard({
   const userRegion =
     userIndex == -1 ? [] : leaderboard.slice(userIndex - 1, userIndex + 2);
   const partialBoard = [
-    ...leaderboard.slice(0, 2 + Math.max(0, 3 - userRegion.length)),
+    ...leaderboard.slice(0, 3 + Math.max(0, 3 - userRegion.length)),
     ...userRegion,
   ];
   return omitClientId(

@@ -39,11 +39,22 @@ export default apiConnector(
       rows: [],
     };
 
+    scroller: { current: HTMLUListElement | null } = React.createRef();
+    youRow: { current: HTMLLIElement | null } = React.createRef();
+
     async componentDidMount() {
       const { api, locale, type } = this.props;
-      this.setState({
-        rows: await api.forLocale(locale).fetchLeaderboard(type),
-      });
+      this.setState(
+        {
+          rows: await api.forLocale(locale).fetchLeaderboard(type),
+        },
+        () => {
+          const row = this.youRow.current;
+          if (!row) return;
+
+          this.scroller.current.scrollTop = row.getBoundingClientRect().top;
+        }
+      );
     }
 
     async fetchMore(cursor: [number, number]) {
@@ -79,7 +90,10 @@ export default apiConnector(
               }
             />
           ) : null,
-          <li key={row.position} className={'row ' + (row.you ? 'you' : '')}>
+          <li
+            key={row.position}
+            className={'row ' + (row.you ? 'you' : '')}
+            ref={row.you ? this.youRow : null}>
             <div className="position">
               {row.position < 9 && '0'}
               {row.position + 1}
@@ -134,7 +148,11 @@ export default apiConnector(
         ];
       });
 
-      return <ul className="leaderboard">{items}</ul>;
+      return (
+        <ul className="leaderboard" ref={this.scroller}>
+          {items}
+        </ul>
+      );
     }
   }
 );
