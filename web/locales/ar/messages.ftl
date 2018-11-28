@@ -227,7 +227,6 @@ english = الإنجليزيّة
 
 ## ProfileForm
 
-profile-form-cancel = اخرج من الاستمارة
 profile-form-username =
     .label = اسم المستخدم
 profile-form-language =
@@ -246,8 +245,6 @@ native-language =
     .label = اللغة الأم
 profile-form-submit-save = احفظ
 profile-form-submit-saved = حُفظت
-profile-keep-data = أبقِ البيانات
-profile-delete-data = احذف البيانات
 male = ذكر
 female = أنثى
 # Gender
@@ -260,10 +257,8 @@ avatar = الصورة
 goals = الأهداف
 settings = الإعدادات
 edit-profile = حرِّر الملف الشخصي
-profile-create = أنشئ ملفا شخصيا
 profile-create-success = نجحنا، أُنشئ الملف الشخصي!
 profile-close = أغلِق
-profile-clear-modal = يعني مسح بيانات الملف الشخصي بأن هذه البيانات لن تُرسل إلى «الصوت للعموم» مع التسجيلات المرسلة.
 profile-explanation = تابِع عملك بإنشاء ملف شخصي وساعِدنا لتكون البيانات الصوتية أكثر دقة.
 thanks-for-account = شكرًا لتأكيد حسابك، لنبدأ الآن ببناء حسابك الشخصي.
 why-demographic = ما أهمية هذا؟
@@ -313,11 +308,6 @@ faq-hours-a = هذا هو عدد الساعات المطلوب تقريبًا ل
 faq-source-q = ما هو مصدر النصوص؟
 faq-source-a1 = تأتي الجمل الحالية من تبرّعات المساهمين، إضافة إلى حوارات سيناريوهات الأفلام (ملكيتها عامة) مثل ”It’s a Wonderful Life“.
 faq-source-a2 = يمكنك مشاهدة الجمل المصدرية في <dataLink>مجلد غِت‌هَب</dataLink>.
-
-## Profile
-
-profile-why-title = لماذا أحتاج ملفا شخصيا؟
-profile-why-content = بتقديمك بعض المعلومات الخاصة عنك تكون البيانات الصوتية التي تُرسلها إلى «الصوت للعموم» أكثر فائدة لمحركات التعرف على النطق والتي ستستخدم هذه البيانات لتحسين دقة التعرف.
 
 ## NotFound
 
