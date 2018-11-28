@@ -8,6 +8,7 @@ email-input =
     .label = E-mail
 submit-form-action = Elküldés
 loading = Betöltés…
+indicates-required = * Kötelező mezőt jelez
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -215,8 +216,6 @@ english = Angol
 
 ## ProfileForm
 
-profile-form-cancel = Űrlap bezárása
-profile-form-delete = Profil törlése
 profile-form-username =
     .label = Felhasználónév
 profile-form-language =
@@ -235,8 +234,6 @@ native-language =
     .label = Anyanyelv
 profile-form-submit-save = Mentés
 profile-form-submit-saved = Mentve
-profile-keep-data = Adat megtartása
-profile-delete-data = Adat törlése
 male = Férfi
 female = Nő
 # Gender
@@ -249,10 +246,8 @@ avatar = Avatár
 goals = Célok
 settings = Beállítások
 edit-profile = Profil szerkesztése
-profile-create = Profil létrehozása
 profile-create-success = Profil sikeresen létrehozva!
 profile-close = Bezárás
-profile-clear-modal = A profiladatok törlése azt jelenti, hogy ezek a demográfiai információk többé már nem lesznek beküldve a Common Voice-ba a hangrögzítéseivel.
 profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
 thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
 why-demographic = Miért számít ez?
@@ -302,11 +297,6 @@ faq-hours-a = Megközelítőleg ennyi óra hanganyagra van szükség egy működ
 faq-source-q = Honnan származik a forrásszöveg?
 faq-source-a1 = A jelenlegi mondatok közreműködők hozzájárulásaiból származnak, valamint olyan közkincset képező filmekből, mint <italic>Az élet csodaszép.</italic>
 faq-source-a2 = Megnézheti a forrásmondatainkat <dataLink>ebben a GitHub könyvtárban</dataLink>.
-
-## Profile
-
-profile-why-title = Miért kell a profil?
-profile-why-content = Azáltal, hogy megad néhány adatot magáról, a hangminták, amiket a Common Voice részére beküld hasznosabbak lesznek a hangfelismerő rendszerek számára, melyek a pontosságuk javítására használják a hangmintákat.
 
 ## NotFound
 
@@ -467,3 +457,11 @@ contribution-activity = Közreműködési tevékenység
 top-contributors = Legjobb közreműködők
 recorded-clips = Rögzített klipek
 validated-clips = Ellenőrzött klipek
+total-approved = Összes jóváhagyott
+overall-accuracy = Összesített pontosság
+
+## Profile Delete
+
+keep = Megtartás
+remove = Eltávolítás
+profile-form-delete = Profil törlése
