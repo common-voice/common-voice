@@ -8,6 +8,7 @@ email-input =
     .label = 電子郵件地址
 submit-form-action = 送出
 loading = 載入中…
+email-opt-in-privacy = 若同意接受游見，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -456,3 +457,4 @@ contribution-activity = 貢獻紀錄
 top-contributors = 頂尖貢獻者
 recorded-clips = 錄製的片段
 validated-clips = 驗證的片段
+total-approved = 總批准數
