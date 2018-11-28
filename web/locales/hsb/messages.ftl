@@ -477,6 +477,9 @@ overall-accuracy = Cyłkowna dokładnosć
 
 ## Profile Delete
 
+delete-q = Chceće, zo so waše hłosowe nahraća tež zhašeja, abo chceće je radšo w datowej sadźbje Common Voice wobchować?
 keep = Wobchować
 remove = Wotstronić
+keep-info = Waše anonymne hłosowe nahraća wostanu w datowej sadźbje Common Voice. Hdyž swój profil zhašeće, njemóžeće hižo naprašowanje wotpósłać, zo byšće swoje nahraća z datoweje sadźby wotstronił
+remove-info = Budźemy waše naprašowanje, waše hłosowe nahraća z datoweje sadźby wotstronić, přepruwować. Jeli so waše naprašowanje schwali,  budźemy so z tymi do zwiska stajć, kotřiž datowu sadźbu sćahnyli, a prosymy jich, zo bychu waše hłosowe nahraća tež wotstronili.
 profile-form-delete = Profil zhašeć
