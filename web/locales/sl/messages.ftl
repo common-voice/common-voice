@@ -223,7 +223,6 @@ english = angleščina
 
 ## ProfileForm
 
-profile-form-cancel = Zapri obrazec
 profile-form-username =
     .label = Uporabniško ime
 profile-form-language =
@@ -242,8 +241,6 @@ native-language =
     .label = Materni jezik
 profile-form-submit-save = Shrani
 profile-form-submit-saved = Shranjeno
-profile-keep-data = Ohrani podatke
-profile-delete-data = Izbriši podatke
 male = Moški
 female = Ženski
 # Gender
@@ -256,10 +253,8 @@ avatar = Avatar
 goals = Cilji
 settings = Nastavitve
 edit-profile = Uredi profil
-profile-create = Ustvari profil
 profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
-profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice.
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
 thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja vašega profila.
 why-demographic = Zakaj je to pomembno?
@@ -309,11 +304,6 @@ faq-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v 
 faq-source-q = Od kod izvirajo besedila?
 faq-source-a1 = Obstoječi stavki so prispevki sodelavcev ter dialogi iz scenarijev filmov v javni domeni, npr. <italic>Čudovito življenje</italic>.
 faq-source-a2 = Izvorne stavke si lahko ogledate v <dataLink>mapi na GitHubu</dataLink>.
-
-## Profile
-
-profile-why-title = Zakaj ustvariti profil?
-profile-why-content = Objavljeni govorni podatki bodo s pomočjo vaših osebnih podatkov bolj uporabni pri projektu Common Voice, saj bodo uporabljeni za zagotavljanje večje natančnosti pri učenju razpoznave govora.
 
 ## NotFound
 
