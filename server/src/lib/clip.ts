@@ -61,8 +61,8 @@ export default class Clip {
     router.get('/validated_hours', this.serveValidatedHoursCount);
     router.get('/daily_count', this.serveDailyCount);
     router.get('/stats', this.serveClipsStats);
-    router.get('/leaderboard', this.serveClipLeaderboard);
-    router.get('/votes/leaderboard', this.serveVoteLeaderboard);
+    // router.get('/leaderboard', this.serveClipLeaderboard);
+    // router.get('/votes/leaderboard', this.serveVoteLeaderboard);
     router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('*', this.serveRandomClips);
