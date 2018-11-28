@@ -15,7 +15,7 @@ import {
   isSafari,
   replacePathLocale,
 } from '../../utility';
-import { LocaleNavLink } from '../locale-helpers';
+import { LocaleLink, LocaleNavLink } from '../locale-helpers';
 import {
   CogIcon,
   DashboardIcon,
@@ -296,19 +296,21 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private renderTallies() {
     const { user } = this.props;
     return (
-      <div className="tallies">
+      <LocaleLink
+        className="tallies"
+        to={user.account ? URLS.DASHBOARD : URLS.SPEAK}>
         <div className="record-tally">
-          <MicIcon className="icon" />
+          <MicIcon />
           <div>
             {user.account ? user.account.clips_count : user.recordTally}
           </div>
         </div>
         <div className="divider" />
         <div className="validate-tally">
-          <OldPlayIcon className="icon" />
+          <OldPlayIcon />
           {user.account ? user.account.votes_count : user.validateTally}
         </div>
-      </div>
+      </LocaleLink>
     );
   }
 }

@@ -127,9 +127,8 @@ export default apiConnector(
             </div>
             <div className="rate">
               <div className="exact">{row.rate}</div>
-              <div className="rounded">({Math.round(row.rate)}</div>
+              <div className="rounded">{Math.round(row.rate)}</div>
               <div className="percent">{'%'}</div>
-              <div className="rounded">)</div>
             </div>
           </li>,
           nextPosition &&

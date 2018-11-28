@@ -242,6 +242,10 @@ header {
         margin-left: 1rem;
     }
 
+    &:hover {
+        opacity: 0.8;
+    }
+
     & > * {
         padding: 0 3px;
         width: 100%;
@@ -264,18 +268,14 @@ header {
         }
     }
 
-    & .icon {
-        margin-right: 15px;
-        height: 15px;
-    }
-
     & .record-tally {
         color: var(--red);
 
         & svg {
+            margin-right: -10px;
             position: relative;
-            right: 8px;
-            height: 19px;
+            right: 10px;
+            height: 15px;
         }
 
         & path {
@@ -285,6 +285,11 @@ header {
 
     & .validate-tally {
         color: var(--valid-green);
+
+        & svg {
+            margin-right: 5px;
+            height: 13px;
+        }
 
         & path {
             fill: var(--valid-green);
