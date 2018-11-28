@@ -50,6 +50,7 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
         LEFT JOIN clips ON user_clients.client_id = clips.client_id ${
           locale ? 'AND locale_id = :locale_id' : ''
         }
+        WHERE visible
         GROUP BY user_clients.client_id
         HAVING total > 0
       ) t
