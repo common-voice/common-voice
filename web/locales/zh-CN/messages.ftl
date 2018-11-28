@@ -9,6 +9,7 @@ email-input =
 submit-form-action = 提交
 loading = 加载中…
 email-opt-in-privacy = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
+indicates-required = * 表示必填字段
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -206,8 +207,6 @@ english = 英语
 
 ## ProfileForm
 
-profile-form-cancel = 退出表单
-profile-form-delete = 删除用户资料
 profile-form-username =
     .label = 用户名
 profile-form-language =
@@ -226,8 +225,6 @@ native-language =
     .label = 母语
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
-profile-keep-data = 保留数据
-profile-delete-data = 删除数据
 male = 男
 female = 女
 # Gender
@@ -240,10 +237,8 @@ avatar = 头像
 goals = 目标
 settings = 设置
 edit-profile = 编辑用户资料
-profile-create = 创建用户资料
 profile-create-success = 成功，用户资料已创建！
 profile-close = 关闭
-profile-clear-modal = 清除您的用户资料后，您提交给 Common Voice 的录音将不再标注上人口统计学特征。
 profile-explanation = 通过使用个人资料跟踪您的进度，以帮助我们的语音数据更准确。
 thanks-for-account = 感谢您确认账户信息，接下来请提供您的个人资料。
 why-demographic = 为什么这很重要？
@@ -293,11 +288,6 @@ faq-hours-a = 这是训练出可供利用的 STT 系统所需的大约小时数�
 faq-source-q = 原始文本来自何处？
 faq-source-a1 = 目前是通过贡献者捐赠语料给我们，我们也会利用来自公有领域电影剧本的对话（如 <italic>It’s a Wonderful Life</italic>）。
 faq-source-a2 = 您可以在<dataLink>这个 GitHub 文件夹</dataLink>参考我们的语料源码。
-
-## Profile
-
-profile-why-title = 为什么要创建用户资料？
-profile-why-content = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
 
 ## NotFound
 
@@ -456,3 +446,9 @@ top-contributors = 杰出贡献者
 recorded-clips = 录制的片段
 validated-clips = 验证的片段
 total-approved = 总核准数
+
+## Profile Delete
+
+keep = 保留
+remove = 移除
+profile-form-delete = 删除用户资料
