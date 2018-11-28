@@ -129,6 +129,7 @@ wall-of-text-more-desktop =
     이제 기기와 웹을 위한 혁신적인 앱을 누구나 만들 수 있도록 오픈 소스 음성 데이터베이스를 만드는 데에 기여할 수 있습니다.<lineBreak></lineBreak>
     문장을 읽어서 기계가 실제 사람들이 어떻게 말하는지를 배울 수 있게 해 주세요. 다른 기여자의 작업을 확인하고 품질을 높여주세요. 아주 간단하답니다!
 wall-of-text-first = 목소리는 자연적이고 사람을 나타냅니다. 그래서 우리는 기계를 위한 사용할 만한 음성 기술을 만들고자 하게 되었습니다. 하지만 음성 시스템을 만들기 위해서 개발자는 매우 많은 양의 데이타가 필요합니다.
+wall-of-text-second = 큰 기업에서 사용하는 대부분의 데이터는 일반 사람들이 사용할 수 없습니다. 이는 혁신을 저지하는 것입니다. 그래서 우리는 모두에게 열려있는 Common Voice 프로젝트를 시작했습니다.
 show-wall-of-text = 더 알아보기
 help-us-title = 문장을 확인하는 것을 도와주세요!
 help-us-explain = 재생 버튼을 누르고, 듣고, 말해주기: 아래의 문장을 정확히 읽었나요?
@@ -144,6 +145,9 @@ listen-paragraph = 기부된 클립의 유효성을 확인하는 것도 Common V
 listen-goal-text = 클립 검증완료
 hours-recorded = 시간 기록완료
 hours-validated = 시간 검증완료
+voices-online = 현재 온라인인 보이스
+todays-progress = 오늘의 성과
+help-reach-goal = { $goal }를 달성하도록 도와주세요.
 read-terms-q = 약관을 읽어보셨나요?
 ready-to-record = 목소리를 기부할 준비가 되셨나요?
 all-languages = 모든 언어
@@ -217,6 +221,8 @@ profile-form-gender =
     .label = 성별
 leaderboard-visibility =
     .label = 리더 보드 공개 설정
+hidden = 숨김
+visible = 보이기
 native-language =
     .label = 모국어
 profile-form-submit-save = 저장
@@ -232,6 +238,8 @@ why-profile-text = 사용자에 대한 정보를 제공함으로써 Common Voice
 dashboard = 대시보드
 build-profile = 프로필 만들기
 avatar = 아바타
+goals = 목표
+settings = 설정
 edit-profile = 프로필 고치기
 profile-create = 프로필 만들기
 profile-create-success = 성공, 프로필이 만들어졌습니다!
@@ -251,10 +259,13 @@ email-subscriptions = 이메일 구독
 download-profile = 내 데이타 다운로드
 contribution-experience = 기여 경험
 skip-submission-feedback = 제출 피드백 건너뛰기
+skip-submission-description = '제출'을 클릭하면 기여 제출 피드백이 생략됩니다. 기여는 다음 다섯 가지 기록 또는 검증과 함께 계속됩니다.
+skip-submission-note = 참고: Speak(말하기) 또는 Listen(듣기) 중 하나를 선택해야 합니다.
 off = 꺼짐
 on = 켜짐
 add-avatar-title = 프로필에 아바타 추가
 browse-file-title = 이미지 파일 업로드
+browse-file = 끌어 놓기 또는 <browseWrap>둘러보기</browseWrap>
 connect-gravatar = Gravatar에 연결하기
 gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
 file_too_large = 선택한 파일이 너무 큽니다.
@@ -360,6 +371,7 @@ request-language-success-content = 곧 언어를 Common Voice에 추가하는 �
 language-section-in-progress = 진행중
 language-section-in-progress-description = 진행 중인 언어는 현재 우리 커뮤니티의 기여로 만들어지고 있습니다. 진행 상태는 웹 사이트의 지역화와 문장 수집을 종합하여 반영합니다.
 language-section-launched = 출시됨
+language-section-launched-new-description = 이러한 런칭된 언어의 경우 웹사이트가 성공적으로 지역화되었으며 지속적인 <italic>말하기</italic>와 <italic>듣기</italic> 기여가 가능하도록 충분한 문장이 수집되었습니다.
 languages-show-more = 더 보기
 languages-show-less = 접기
 language-speakers = 말한 사람
@@ -423,7 +435,27 @@ share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
 
 ## Goals
 
+streaks = 목표
+days =
+    { $count ->
+       *[other] 일
+    }
+recordings =
+    { $count ->
+       *[other] 녹음
+    }
+validations =
+    { $count ->
+       *[other] 검증
+    }
 
 ## Dashboard
 
+toward-next-goal = 다음 목표를 향해
+stats = 통계
+you = 나
+everyone = 모두
 contribution-activity = 기여 활동
+top-contributors = 상위 공헌자
+recorded-clips = 녹음된 클립
+validated-clips = 검증된 클립
