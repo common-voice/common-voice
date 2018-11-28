@@ -11,7 +11,7 @@ import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
-import { InfoIcon, SettingsIcon } from '../../../ui/icons';
+import { InfoIcon, PenIcon, SettingsIcon } from '../../../ui/icons';
 import { LinkButton, LabeledInput, LabeledCheckbox } from '../../../ui/ui';
 
 import './settings.css';
@@ -88,13 +88,15 @@ class Settings extends React.Component<Props> {
             <LabeledInput value={account.email} disabled />
           </Localized>
 
-          <Localized id="edit">
-            <LinkButton
-              outline
-              className="edit-button"
-              href={location.origin + '/login?change_email'}
-            />
-          </Localized>
+          <LinkButton
+            outline
+            className="edit-button"
+            href={location.origin + '/login?change_email'}>
+            <PenIcon />
+            <Localized id="edit">
+              <span />
+            </Localized>
+          </LinkButton>
         </Section>
 
         {account.basket_token && (

@@ -72,9 +72,16 @@
     }
 
     & .edit-button {
+        padding: 13px 25px;
+
         @media (--md-up) {
             flex: 0;
             min-width: 134px;
+        }
+
+        & svg {
+            margin-right: 20px;
+            width: 18px;
         }
     }
 

@@ -302,6 +302,25 @@ export const OldRedoIcon = (props: any) => (
   </svg>
 );
 
+export const PenIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id="pen-a"
+        d="M19.7 5.3l-5-5c-.4-.4-1-.4-1.4 0l-13 13c-.2.2-.3.4-.3.7v5c0 .6.4 1 1 1h5c.3 0 .5-.1.7-.3l13-13c.4-.4.4-1 0-1.4zM5.6 18H2v-3.6l12-12L17.6 6l-12 12z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(2 2)">
+      <mask id="pen-b" fill="#fff">
+        <use xlinkHref="#pen-a" />
+      </mask>
+      <g fill="#4A4A4A" mask="url(#pen-b)">
+        <path d="M-2-2h24v24H-2z" />
+      </g>
+    </g>
+  </svg>
+);
+
 export const PlayOutlineIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
@@ -341,8 +360,6 @@ export const RedoIcon = uniqueIcon(id => (
     </g>
   </svg>
 ));
-
-export const RecordIcon = Icon('/img/record.svg', 'record');
 
 export const SearchIcon = Icon('/img/search.svg', 'search');
 
