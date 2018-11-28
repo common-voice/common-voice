@@ -8,6 +8,8 @@ email-input =
     .label = E-mail
 submit-form-action = Trimite
 loading = Se încarcă…
+email-opt-in-privacy = Prin optarea pentru primirea de mesaje pe e-mail, declari că ești de acord ca Mozilla să gestioneze aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate<privacyLink> Mozilla.
+indicates-required = * Indică un câmp obligatoriu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -213,8 +215,6 @@ english = Engleză
 
 ## ProfileForm
 
-profile-form-cancel = Ieși din formular
-profile-form-delete = Șterge profilul
 profile-form-username =
     .label = Nume de utilizator
 profile-form-language =
@@ -233,8 +233,6 @@ native-language =
     .label = Limba nativă
 profile-form-submit-save = Salvează
 profile-form-submit-saved = Salvate
-profile-keep-data = Păstrează datele
-profile-delete-data = Șterge datele
 male = Bărbat
 female = Femeie
 # Gender
@@ -249,10 +247,8 @@ avatar = Avatar
 goals = Obiective
 settings = Setări
 edit-profile = Editează profilul
-profile-create = Creează un profil
 profile-create-success = Succes, profil creat!
 profile-close = Închide
-profile-clear-modal = Ștergerea datelor tale de profil înseamnă că aceste informații demografice nu vor mai fi trimise la Common Voice împreună cu secvențele tale audio.
 profile-explanation = Urmărește progresul tău cu un profil și ajută ca datele noastre vocale să fie mai precise.
 thanks-for-account = Îți mulțumim pentru confirmarea contului. Acum, să îți construim profilul.
 why-demographic = De ce contează?
@@ -302,11 +298,6 @@ faq-hours-a = Acesta este aproximativ numărul de ore necesar pentru a antrena u
 faq-source-q = De unde provine textul sursă?
 faq-source-a1 = Propozițiile actuale provin de la colaboratori, dar și dialoguri din scenarii de filme din domeniul public, precum <italic>La vita è bella (Viața e frumoasă)</italic>.
 faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = De ce un profil?
-profile-why-content = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date pentru a le îmbunătăți precizia.
 
 ## NotFound
 
@@ -475,3 +466,14 @@ contribution-activity = Activitate de contribuții
 top-contributors = Colaboratori de top
 recorded-clips = Clipuri înregistrate
 validated-clips = Clipuri validate
+total-approved = Total aprobate
+overall-accuracy = Acuratețe generală
+
+## Profile Delete
+
+delete-q = Ai dori să soliciți și ștergerea înregistrărilor tale de voce sau ai prefera să le păstrezi în setul de date Common Voice?
+keep = Păstrează
+remove = Elimină
+keep-info = Înregistrările tale anonime de voce vor rămâne în setul de date Common Voice. Odată șters profilul, nu vei mai putea să depui o cerere pentru eliminarea lor din setul de date
+remove-info = Îți vom analiza cererea de eliminare a înregistrărilor tale de voce din setul de date. Dacă cererea va fi aprobată, îi vom contacta pe cei care au descărcat setul de date și le vom cere să îți elimine și ei înregistrările de voce.
+profile-form-delete = Șterge profilul
