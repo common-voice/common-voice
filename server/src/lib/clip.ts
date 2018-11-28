@@ -181,10 +181,6 @@ export default class Clip {
     { client_id, params, query }: Request,
     response: Response
   ): Promise<void> => {
-    if (!client_id) {
-      throw new ClientParameterError();
-    }
-
     const clips = await this.bucket.getRandomClips(
       client_id,
       params.locale,
