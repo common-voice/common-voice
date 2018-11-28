@@ -8,6 +8,8 @@ email-input =
     .label = E-mejlowa adresa
 submit-form-action = Wotpósłać
 loading = Čita so…
+email-opt-in-privacy = Jeli chceće e-mejlki dóstać, dyrbiće do wobchadźenja Mozilla z tymi informacijemi zwolić, kotrež so w <privacyLink>prawidłach priwatnosće<privacyLink> Mozilla rozjasnjeja.
+indicates-required = * Woznamjenja trěbne polo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -217,8 +219,6 @@ english = Jendźelšćina
 
 ## ProfileForm
 
-profile-form-cancel = Formular začinić
-profile-form-delete = Profil zhašeć
 profile-form-username =
     .label = Wužiwarske mjeno
 profile-form-language =
@@ -237,8 +237,6 @@ native-language =
     .label = Maćeršćina
 profile-form-submit-save = Składować
 profile-form-submit-saved = Składowany
-profile-keep-data = Daty wobchować
-profile-delete-data = Daty zhašeć
 male = Muski
 female = Źónski
 # Gender
@@ -251,10 +249,8 @@ avatar = Awatar
 goals = Cile
 settings = Nastajenja
 edit-profile = Profil wobdźěłać
-profile-create = Profil załožić
 profile-create-success = Profil je so wuspěšnje załožił!
 profile-close = Začinić
-profile-clear-modal = Hdyž swoje profilowe daty zhašeće, so tute demografiske informacije hižo na Common Voice hromadźe z natočenjemi njepósćelu.
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
 thanks-for-account = Dźakujemy so, zo sće swoje konto wobkrućił, chcemy nětko waš profil zarjadować.
 why-demographic = Čehodla je to wažne?
@@ -304,11 +300,6 @@ faq-hours-a = To je přibližnje ličba hodźin, kotrež su trěbne, zo by produ
 faq-source-q = Zwotkel žórłowy tekst přińdźe?
 faq-source-a1 = Aktualne sady su so wot sobuskutkowarjow přinošowali, kaž tež dialog z  filmowych scenarijow, kotrež su zhromadne swójstwo, kaž <italic>It¨s a Wonderful Life.</italic>
 faq-source-a2 = Móžeće sej naše žórłowe sady w <dataLink>tutym rjadowaku GitHub</dataLink> wobhladać.
-
-## Profile
-
-profile-why-title = Čehodla profil?
-profile-why-content = Zdźělće někotre informacije wo sebi, zo bychu awdiodaty, kotrež na Common Voice sćeleće, su wužitniše za systemy hłosoweho spóznaća, kotrež tute daty wužiwaja, zo bychu swoju dokładnosć polěpšili.
 
 ## NotFound
 
@@ -481,3 +472,11 @@ contribution-activity = Sobudźěłowa aktiwita
 top-contributors = Najaktiwniši sobuskutkowarjo
 recorded-clips = Natočene klipy
 validated-clips = Přepruwowane klipy
+total-approved = Schwalene dohromady
+overall-accuracy = Cyłkowna dokładnosć
+
+## Profile Delete
+
+keep = Wobchować
+remove = Wotstronić
+profile-form-delete = Profil zhašeć
