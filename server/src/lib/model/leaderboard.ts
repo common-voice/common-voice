@@ -17,7 +17,12 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
       FROM (
         SELECT
           user_clients.*,
-          COUNT(clips.id) AS total,
+          (
+            SELECT COUNT(*)
+            FROM clips
+            WHERE clips.client_id = user_clients.client_id
+            ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+          ) AS total,
           (
             SELECT COUNT(*)
             FROM (
@@ -47,9 +52,6 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
             WHERE t.client_id = user_clients.client_id
           ) AS validated
         FROM user_clients
-        LEFT JOIN clips ON user_clients.client_id = clips.client_id ${
-          locale ? 'AND locale_id = :locale_id' : ''
-        }
         WHERE visible
         GROUP BY user_clients.client_id
         HAVING total > 0
