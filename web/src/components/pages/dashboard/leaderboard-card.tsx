@@ -14,6 +14,7 @@ import { Avatar } from '../../ui/ui';
 import StatsCard from './stats-card';
 
 import './leaderboard.css';
+import { trackDashboard } from '../../../services/tracker';
 
 const FETCH_SIZE = 5;
 
@@ -66,6 +67,7 @@ const Leaderboard = apiConnector(
 
     async fetchMore(cursor: [number, number]) {
       const { api, locale, type } = this.props;
+      trackDashboard('leaderboard-load-more');
       const newRows = await api
         .forLocale(locale)
         .fetchLeaderboard(type, cursor);

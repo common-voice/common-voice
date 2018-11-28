@@ -6,6 +6,7 @@ import {
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../../services/api';
+import { trackProfile } from '../../../../services/tracker';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -91,6 +92,7 @@ class AvatarSetup extends React.Component<Props> {
     if (['too_large'].includes(error)) {
       addNotification(getString('file' + error));
     }
+    trackProfile('give-avatar');
     refreshUser();
     this.setState({ isSaving: false });
   }

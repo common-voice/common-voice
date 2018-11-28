@@ -8,6 +8,7 @@ import { MicIcon, OldPlayIcon } from '../../ui/icons';
 import { LinkButton } from '../../ui/ui';
 
 import './progress-card.css';
+import { trackDashboard } from '../../../services/tracker';
 
 interface PropsFromState {
   api: API;
@@ -29,7 +30,11 @@ class ProgressCard extends React.Component<Props, State> {
 
   async componentDidMount() {
     let { api, locale, type } = this.props;
-    api = api.forLocale(locale == 'all-languages' ? null : locale);
+    const isAllLanguages = locale == 'all-languages';
+    if (!isAllLanguages) {
+      trackDashboard('change-language');
+    }
+    api = api.forLocale(isAllLanguages ? null : locale);
     this.setState({
       overallCurrent: await (type === 'speak'
         ? api.fetchDailyClipsCount()
@@ -99,7 +104,13 @@ class ProgressCard extends React.Component<Props, State> {
             Today's Common Voice progress on clips{' '}
             {isSpeak ? 'recorded' : 'validated'}
           </div>
-          <LinkButton rounded outline to={isSpeak ? URLS.SPEAK : URLS.LISTEN}>
+          <LinkButton
+            rounded
+            outline
+            to={isSpeak ? URLS.SPEAK : URLS.LISTEN}
+            onClick={() =>
+              trackDashboard(isSpeak ? 'speak-cta' : 'listen-cta')
+            }>
             Help us get to {overallGoal}
           </LinkButton>
         </div>

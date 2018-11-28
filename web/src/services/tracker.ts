@@ -6,12 +6,12 @@ function track(
   category:
     | 'Home'
     | 'Home-New'
-    | 'Navigation'
     | 'Recording'
     | 'Listening'
     | 'Profile'
     | 'Data'
-    | 'Sharing',
+    | 'Sharing'
+    | 'Dashboard',
   action: string,
   locale?: string
 ) {
@@ -69,6 +69,7 @@ export function trackProfile(
     | 'give-accent'
     | 'give-age'
     | 'give-gender'
+    | 'give-avatar'
 ) {
   track('Profile', action);
 }
@@ -84,10 +85,16 @@ export function trackDataset(
   track('Data', action);
 }
 
-export function trackNavigation(action: 'progress-to-record') {
-  track('Navigation', action);
-}
-
 export function trackSharing(channel: 'facebook' | 'twitter' | 'link') {
   track('Sharing', channel);
+}
+
+export function trackDashboard(
+  action:
+    | 'speak-cta'
+    | 'listen-cta'
+    | 'change-language'
+    | 'leaderboard-load-more'
+) {
+  track('Dashboard', action);
 }
