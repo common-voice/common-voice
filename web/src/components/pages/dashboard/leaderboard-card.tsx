@@ -33,7 +33,9 @@ interface Props extends PropsFromState {
 
 const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
   <li className="more">
-    <button {...props}>...</button>
+    <button {...props}>
+      <div>...</div>
+    </button>
   </li>
 );
 

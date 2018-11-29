@@ -101,13 +101,20 @@
     }
 
     & .more button {
+        border: none;
         padding: 5px 0;
         width: 100%;
-        border: none;
+        height: 44px;
+        font-size: var(--font-size-lg);
         background: none;
 
         &:hover {
             background: var(--light-grey);
+        }
+
+        & > div {
+            position: relative;
+            bottom: 7px;
         }
     }
 
