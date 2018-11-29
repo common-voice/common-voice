@@ -301,7 +301,9 @@ class ProfilePage extends React.Component<Props, State> {
         </div>
 
         <Button className="add-language" outline onClick={this.addLocale}>
-          <span>Add Language</span>
+          <Localized id="add-language">
+            <span />
+          </Localized>
           <span>+</span>
         </Button>
 
