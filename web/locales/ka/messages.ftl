@@ -8,6 +8,8 @@ email-input =
     .label = ელფოსტა
 submit-form-action = გადაგზავნა
 loading = იტვირთება...
+email-opt-in-privacy = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არაფერი გაქვთ საწინააღმდეგო, Mozilla-მ ეს მონაცემები გამოიყენოს, <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
+indicates-required = * მიუთითებს აუცილებელ ველს
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -143,8 +145,8 @@ speak-goal-text = ჩანაწერები გაკეთებული�
 listen-subtitle = დაგვეხმარეთ ჩანაწერების გადამოწმებაში
 listen-paragraph = ჩანაწერების გადამოწმება ასევე მეტად მნიშვნელოვანია, Common Voice-ის მთავარი მიზნის შესრულებისთვის. მოუსმინეთ და დაგვეხმარეთ ხარისხიანი ღია წყაროს მქონე ხმოვანი მონაცემების შექმნაში.
 listen-goal-text = ჩანაწერები გადამოწმებულია
-hours-recorded = სთ ჩაწერილია
-hours-validated = სთ დამოწმებულია
+hours-recorded = ჩაწერილი საათები
+hours-validated = დამოწმებული საათები
 voices-online = ხმები ამჟამად
 todays-progress = დღევანდელი წინსვლა
 help-reach-goal = დაგვეხმარეთ { $goal } მიზნის შესრულებაში
@@ -211,8 +213,6 @@ english = ინგლისური
 
 ## ProfileForm
 
-profile-form-cancel = დახურვა
-profile-form-delete = პროფილის წაშლა
 profile-form-username =
     .label = მომხმარებლის სახელი
 profile-form-language =
@@ -231,8 +231,6 @@ native-language =
     .label = მშობლიური ენა
 profile-form-submit-save = შენახვა
 profile-form-submit-saved = შენახულია
-profile-keep-data = მონაცემების დატოვება
-profile-delete-data = მონაცემების წაშლა
 male = მამრობითი
 female = მდედრობითი
 # Gender
@@ -245,10 +243,8 @@ avatar = გამოსახულება
 goals = მიზანი
 settings = პარამეტრები
 edit-profile = პროფილის ჩასწორება
-profile-create = პროფილის შექმნა
 profile-create-success = პროფილი წარმატებით შეიქმნა!
 profile-close = დახურვა
-profile-clear-modal = პროფილის მონაცემების გასუფთავების შედეგად, თქვენი შესახებ მითითებული მონაცემები აღარ გადაიგზავნება Common Voice-ში, თქვენს ხმოვან ჩანაწერთან ერთად.
 profile-explanation = თვალი ადევნეთ თქვენ მიერ შეტანილ წვლილსა და დაგვეხმარეთ ხმოვანი მონაცემების სიზუსტის გაუმჯობესებაში, პროფილის შექმნით.
 thanks-for-account = გმადლობთ ანგარიშის დამოწმებისთვის, ახლა კი შეგიძლიათ დაიწყოთ პროფილის შედგენა.
 why-demographic = რისთვისაა ეს საჭირო?
@@ -275,6 +271,7 @@ gravatar_not_found = თქვენი ელფოსტისთვის ა
 file_too_large = შერჩეული ფაილი ზედმეტად დიდია
 manage-subscriptions = გამოწერების მართვა
 email-already-used = ელფოსტა უკვე გამოყენებულია სხვა ანგარიშზე
+add-language = ენის დამატება
 
 ## FAQ
 
@@ -298,11 +295,6 @@ faq-hours-a = ესაა მიახლოებითი ოდენობ�
 faq-source-q = მოცემული ტექსტები საიდანაა აღებული?
 faq-source-a1 = წინადადებები მოგვაწოდეს მოხალისეებმა, ასევე გამოყენებულია საუბრის მონაკვეთები, საყოველთაო საკუთრებაში არსებული ფილმებიდან, როგორიცაა მაგალითად <italic>„ეს მშვენიერი ცხოვრება“.</italic>
 faq-source-a2 = მოცემული წინადადებების წყაროები, შეგიძლიათ იხილოთ ჩვენს <dataLink>GitHub საქაღალდეში</dataLink>.
-
-## Profile
-
-profile-why-title = რა საჭიროა პროფილი?
-profile-why-content = თქვენ შესახებ გარკვეული ინფორმაციის მოწოდებით, თქვენ მიერ გადმოგზავნილი ჩანაწერები Common Voice-ში, მეტად გამოსადეგი იქნება იმ ხმოვანი ამოცნობის სისტემებისთვის, რომლებიც ამ მონაცემებს სიზუსტის გასაუმჯობესებლად იყენებს.
 
 ## NotFound
 
@@ -463,3 +455,14 @@ contribution-activity = შეტანილი წვლილი
 top-contributors = მხურვალე მოხალისეები
 recorded-clips = ჩანაწერები
 validated-clips = დამოწმებული ჩანაწერები
+total-approved = სულ დამოწმებული
+overall-accuracy = საერთო სიზუსტე
+
+## Profile Delete
+
+delete-q = გსურთ, რომ თქვენი ხმის ჩანაწერებიც წაიშალოს, თუ ამჯობინებთ მათ დატოვებას Common Voice-ის მონაცემთა კრებულში?
+keep = დატოვება
+remove = მოცილება
+keep-info = თქვენი ხმოვანი ჩანაწერები, ვინაობის მონაცემების გარეშე დარჩება Common Voice-ის მონაცემთა კრებულში. პროფილის წაშლის შემდეგ, აღარ შეგეძლებათ თქვენი ჩანაწერების კრებულიდან მოცილების მოთხოვნა.
+remove-info = ჩვენ გადავხედავთ თქვენს მოთხოვნას ხმის ჩანაწერების კრებულიდან მოცილების თაობაზე. თუ თქვენი მოთხოვნა დადასტურდება, ჩვენ დავუკავშირდებით მათ, ვინც უკვე ჩამოტვირთა ეს მონაცემთა კრებული და მათაც მოვთხოვთ ამოშალონ თქვენი ჩანაწერები.
+profile-form-delete = პროფილის წაშლა
