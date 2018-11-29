@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { AllGoals } from 'common/goals';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
+import { User } from '../../../stores/user';
 import { ALL_LOCALES } from '../../language-select/language-select';
 import LanguagesBar from '../../languages-bar/languages-bar';
 import ContributionActivity from './contribution-activity';
@@ -15,6 +16,7 @@ import './dashboard.css';
 
 interface PropsFromState {
   api: API;
+  user: User.State;
 }
 
 interface State {
@@ -26,6 +28,9 @@ class Dashboard extends React.Component<PropsFromState, State> {
   state: State = { allGoals: null, locale: ALL_LOCALES };
 
   async componentDidMount() {
+    if (!this.props.user.account) {
+      window.location.href = '/';
+    }
     await this.fetchGoals(this.state.locale);
   }
 
@@ -101,6 +106,7 @@ class Dashboard extends React.Component<PropsFromState, State> {
   }
 }
 
-export default connect<PropsFromState>(({ api }: StateTree) => ({ api }))(
-  Dashboard
-);
+export default connect<PropsFromState>(({ api, user }: StateTree) => ({
+  api,
+  user,
+}))(Dashboard);

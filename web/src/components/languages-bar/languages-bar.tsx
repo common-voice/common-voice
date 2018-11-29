@@ -44,7 +44,7 @@ const LanguagesBar = class LanguagesBar extends React.Component<Props, State> {
     const { showTitleBarLocales } = this.state;
 
     const locales = [ALL_LOCALES].concat(
-      account.locales.map(({ locale }) => locale)
+      (account ? account.locales : []).map(({ locale }) => locale)
     );
     const titleBarLocales = showTitleBarLocales
       ? locales.slice(0, TITLE_BAR_LOCALE_COUNT)
