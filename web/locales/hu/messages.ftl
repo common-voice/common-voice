@@ -8,6 +8,7 @@ email-input =
     .label = E-mail
 submit-form-action = Elküldés
 loading = Betöltés…
+email-opt-in-privacy = Azzal hogy az e-mailek fogadását kéri, kijelenti hogy beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben<privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -274,6 +275,7 @@ gravatar_not_found = Nem található gravatar az e-mail címéhez
 file_too_large = A kiválasztott fájl túl nagy
 manage-subscriptions = Feliratkozások kezelése
 email-already-used = Az e-mail már használatban van egy másik fiókban
+add-language = Nyelv hozzáadása
 
 ## FAQ
 
@@ -462,6 +464,8 @@ overall-accuracy = Összesített pontosság
 
 ## Profile Delete
 
+delete-q = Kéri, hogy a hangfelvételei is törlésre kerüljenek, vagy megtartja őket a Common Voice adatbázisában?
 keep = Megtartás
 remove = Eltávolítás
+keep-info = A névtelen hangfelvételei megmaradnak a Common Voice adatbázisában. A profilja törlése után már nem fogja tudni a felvételek eltávolítását kérni.
 profile-form-delete = Profil törlése
