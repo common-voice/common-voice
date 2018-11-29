@@ -8,6 +8,8 @@ email-input =
     .label = E-mailowa adresa
 submit-form-action = Wótpósłaś
 loading = Cyta se…
+email-opt-in-privacy = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći<privacyLink> Mozilla rozjasnjuju.
+indicates-required = * Wóznamjenijo trěbne pólo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -217,8 +219,6 @@ english = Engelšćina
 
 ## ProfileForm
 
-profile-form-cancel = Formular zacyniś
-profile-form-delete = Profil wulašowaś
 profile-form-username =
     .label = Wužywarske mě
 profile-form-language =
@@ -237,8 +237,6 @@ native-language =
     .label = Mamina rěc
 profile-form-submit-save = Składowaś
 profile-form-submit-saved = Skłaźony
-profile-keep-data = Daty wobchowaś
-profile-delete-data = Daty wulašowaś
 male = Muski
 female = Žeńscyny
 # Gender
@@ -251,10 +249,8 @@ avatar = Awatar
 goals = Cele
 settings = Nastajenja
 edit-profile = Profil wobźěłaś
-profile-create = Profil załožyś
 profile-create-success = Profil jo se wuspěšnje załožył!
 profile-close = Zacyniś
-profile-clear-modal = Gaž swóje profilowe daty wulašujośo, se toś te demografiske informacije na Common Voice gromaźe z nagraśami wěcej njepósćelu.
 profile-explanation = Z profilom móžośo swój póstup we wócyma wobchowaś a pomagaś, naše głosowe daty dokradnjejše cyniś.
 thanks-for-account = Źěkujomy se, až sćo wobkšuśił swójo konto, comy něnto waš profil zarědowaś.
 why-demographic = Cogodla jo to wažne?
@@ -281,6 +277,7 @@ gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
 file_too_large = Wubrana dataja jo pśewjelika
 manage-subscriptions = Abonementy zastojaś
 email-already-used = E-mailowa adresa se južo za druge konto wužywa
+add-language = Rěc pśidaś
 
 ## FAQ
 
@@ -304,11 +301,6 @@ faq-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby prod
 faq-source-q = Wótkul žrědłowy tekst pśiźo?
 faq-source-a1 = Aktualne sady su se wót sobustatkujucych pśinosowali, ako teke dialog z filmowych scenariskich knigłow, kótarež su zgromadne swójstwo, ako <italic>It's a Wonderful Life.</italic>
 faq-source-a2 = Móžośo se naše žrědłowe sady w <dataLink>toś tom zarědniku GitHub</dataLink> woglědaś.
-
-## Profile
-
-profile-why-title = Cogodla profil?
-profile-why-content = Dajśo někotare informacije wó sebje k wěsći, aby awdiodaty, kótarež na Common Voice sćelośo, su wužytnjejše za systemy głosowego spóznaśa, kótarež toś te daty wužywaju, aby swóju dokradnosć pólěpšyli.
 
 ## NotFound
 
@@ -481,3 +473,13 @@ contribution-activity = Sobuźěłowa aktiwita
 top-contributors = Nejaktiwnjejše sobustatkujuce
 recorded-clips = Nagrate klipy
 validated-clips = Pśeglědane klipy
+total-approved = Pśizwólone dogromady
+overall-accuracy = Cełkowna dokradnosć
+
+## Profile Delete
+
+delete-q = Cośo, až se waše głosowe nagraśa teje wulašuju, abo cośo je lubjej w datowej sajźbje Common Voice wobchowaś?
+keep = Wobchowaś
+remove = Wótwónoźeś
+keep-info = Waše anonymne głosowe nagraśa wóstanu w datowej sajźbje Common Voice. Gaž swój profil wulašujośo, njamóžośo wěcej napšašowanje wótpósłaś, aby swóje nahraśa z datoweje sajźby wótwónoźeł
+profile-form-delete = Profil wulašowaś
