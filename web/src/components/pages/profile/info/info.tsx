@@ -61,12 +61,14 @@ interface Props
     PropsFromDispatch,
     RouteComponentProps<any> {}
 
+type Locales = { locale: string; accent: string }[];
+
 interface State {
   username: string;
   visible: number | string;
   age: string;
   gender: string;
-  locales: { locale: string; accent: string }[];
+  locales: Locales;
   sendEmails: boolean;
 
   isSaving: boolean;
@@ -85,20 +87,27 @@ class ProfilePage extends React.Component<Props, State> {
       props.history.push('/');
     }
 
+    let locales: Locales = [];
+    if (!account) {
+      locales = userClients.reduce(
+        (locales, u) => locales.concat(u.locales || []),
+        []
+      );
+      locales = locales.filter(
+        (l1, i) => i == locales.findIndex(l2 => l2.locale == l1.locale)
+      );
+    }
+
     this.state = {
       sendEmails: account ? Boolean(account.basket_token) : true,
       visible: 0,
-      locales: [],
+      locales,
       ...pick(props.user, 'age', 'username', 'gender'),
       ...(account
         ? pick(account, 'age', 'username', 'gender', 'locales', 'visible')
         : {
             age: userClients.reduce((init, u) => u.age || init, ''),
             gender: userClients.reduce((init, u) => u.gender || init, ''),
-            locales: userClients.reduce(
-              (locales, u) => locales.concat(u.locales || []),
-              []
-            ),
           }),
 
       isSaving: false,
