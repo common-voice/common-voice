@@ -148,8 +148,8 @@ class Success extends React.Component<Props, State> {
             <Localized id="profile-explanation">
               <p />
             </Localized>
-            <Localized id="profile-create">
-              <LinkButton rounded to={URLS.PROFILE} />
+            <Localized id="login-signup">
+              <LinkButton rounded href="/login" />
             </Localized>
           </div>
         )}
@@ -163,10 +163,7 @@ class Success extends React.Component<Props, State> {
 
         {hasAccount && (
           <Localized id="edit-profile">
-            <LocaleLink
-              className="secondary"
-              to={user.account ? URLS.PROFILE_INFO : URLS.PROFILE}
-            />
+            <LocaleLink className="secondary" to={URLS.PROFILE_INFO} />
           </Localized>
         )}
       </div>
