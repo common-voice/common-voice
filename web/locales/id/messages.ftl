@@ -8,6 +8,8 @@ email-input =
     .label = Surel
 submit-form-action = Kirim
 loading = Memuat…
+email-opt-in-privacy = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
+indicates-required = * Bertanda wajib diisi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -207,8 +209,6 @@ english = Bahasa Inggris
 
 ## ProfileForm
 
-profile-form-cancel = Tutup Formulir
-profile-form-delete = Hapus Profil
 profile-form-username =
     .label = Nama Pengguna
 profile-form-language =
@@ -227,8 +227,6 @@ native-language =
     .label = Bahasa Ibu
 profile-form-submit-save = Simpan
 profile-form-submit-saved = Disimpan
-profile-keep-data = Simpan Data
-profile-delete-data = Hapus Data
 male = Laki-Laki
 female = Perempuan
 # Gender
@@ -241,10 +239,8 @@ avatar = Avatar
 goals = Capaian
 settings = Setelan
 edit-profile = Ubah Profil
-profile-create = Buat profil
 profile-create-success = Berhasil, profil telah dibuat!
 profile-close = Tutup
-profile-clear-modal = Data demografis ini tidak akan dikumpulkan bersama dengan rekaman berikutnya jika Anda menghapus data profil Anda dari Common Voice.
 profile-explanation = Pantau progres Anda dengan sebuah profil dan bantu data suara kami semakin akurat.
 thanks-for-account = Terima kasih telah mengkonfimasi akun, sekarang mari buat profil Anda.
 why-demographic = Mengapa ini berpengaruh?
@@ -294,11 +290,6 @@ faq-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem
 faq-source-q = Di mana sumber teks berasal ?
 faq-source-a1 = Kalimat-kalimat ini berasal dari donasi kontributor serta percakapan dari naskah film yang terbuka untuk umum seperti <italic>It's a Wonderful Life</italic>
 faq-source-a2 = Anda dapat meninjau sumber kalimat-kalimat kami di <dataLink>folder GitHub ini</dataLink>.
-
-## Profile
-
-profile-why-title = Mengapa sebuah profil?
-profile-why-content = Dengan memberikan beberapa informasi tentang diri Anda, data suara yang Anda sampaikan ke Common Voice akan lebih berguna untuk mesin Pengenalan Ucapan yang memanfaatkan data ini untuk meningkatkan akurasi mereka.
 
 ## NotFound
 
@@ -432,6 +423,7 @@ share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
 
 ## Goals
 
+streaks = Capaian
 days =
     { $count ->
        *[other] Hari
@@ -455,3 +447,14 @@ contribution-activity = Aktivitas Kontribusi
 top-contributors = Kontributor Teratas
 recorded-clips = Klip Terekam
 validated-clips = Klip Tervalidasi
+total-approved = Jumlah yang Disetujui
+overall-accuracy = Akurasi Keseluruhan
+
+## Profile Delete
+
+delete-q = Apakah Anda ingin meminta rekaman suara Anda dihapus juga, atau apakah Anda lebih memilih untuk menyimpannya dalam kumpulan data Common Voice?
+keep = Simpan
+remove = Hapus
+keep-info = Rekanan suara anonim Anda akan tetap tersimpan di dalam kumpulan data Common Voice. Setelah menghapus profil, Anda tidak dapat memohon pemintaan untuk menghapus rekaman Anda dari kumpulan data.
+remove-info = Kami akan meninjau permintaan untuk menghapus rekaman suara Anda dari kumpulan data. Jika permintaan Anda disetujui, kami akan menghubungi mereka yang telah mengunduh kumpulan data dan meminta mereka menghapus rekaman suara Anda juga.
+profile-form-delete = Hapus Profil
