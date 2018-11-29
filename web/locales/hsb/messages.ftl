@@ -277,6 +277,7 @@ gravatar_not_found = Njeje so žadyn gravatar za wašu e-mejl namakał
 file_too_large = Wubrana dataja je přewulka
 manage-subscriptions = Abonementy rjadować
 email-already-used = E-mejlowa adresa so hižo za druhe konto wužiwa
+add-language = Rěč přidać
 
 ## FAQ
 
