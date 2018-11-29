@@ -449,6 +449,7 @@ export default class DB {
           SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
           FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
         ) date_alias
+        ORDER BY date ASC
       `,
       {
         locale_id: locale ? await getLocaleId(locale) : null,
