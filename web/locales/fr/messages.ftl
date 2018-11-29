@@ -270,6 +270,7 @@ gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse
 file_too_large = Le fichier sélectionné est trop volumineux
 manage-subscriptions = Gérer vos abonnements
 email-already-used = Cette adresse électronique est déjà utilisée par un compte différent
+add-language = Ajouter une langue
 
 ## FAQ
 
@@ -426,6 +427,21 @@ share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Jour
+       *[other] Jours
+    }
+recordings =
+    { $count ->
+        [one] Enregistrement
+       *[other] Enregistrements
+    }
+validations =
+    { $count ->
+        [one] Validation
+       *[other] Validations
+    }
 
 ## Dashboard
 
@@ -437,7 +453,12 @@ contribution-activity = Activité de contribution
 top-contributors = Principaux contributeurs
 recorded-clips = Échantillons enregistrés
 validated-clips = Échantillons validés
+total-approved = Total approuvé
+overall-accuracy = Précision globale
 
 ## Profile Delete
 
+delete-q = Souhaitez-vous également demander la suppression de vos enregistrements vocaux ou préférez-vous les conserver dans le jeu de données Common Voice ?
+keep = Les conserver
+remove = Les supprimer
 profile-form-delete = Supprimer le profil
