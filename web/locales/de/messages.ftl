@@ -457,9 +457,7 @@ overall-accuracy = Gesamtgenauigkeit
 
 ## Profile Delete
 
-delete-q = Sollen auch Ihre Stimmaufzeichnungen gelöscht werden, oder sollen diese im Common-Voice-Datensatz verbleiben?
 keep = Behalten
-remove = Entfernen
 keep-info = Ihre anonymen Stimmaufzeichnungen verbleiben im Common-Voice-Datensatz. Nachdem Sie Ihr Profil gelöscht haben, können Sie die Löschung Ihrer Aufzeichnungen aus dem Datensatz nicht mehr beantragen.
 remove-info = Wir werden Ihre Anfrage zur Löschung Ihrer Stimmaufzeichnungen aus dem Datensatz prüfen. Wenn Ihrer Anfrage stattgegeben wird, kontaktieren wir diejenigen, die den Datensatz heruntergeladen haben und fordern diese auf, Ihre Stimmaufzeichnungen ebenfalls zu entfernen.
 profile-form-delete = Profil löschen
