@@ -209,8 +209,6 @@ english = anglese
 
 ## ProfileForm
 
-profile-form-cancel = Exir del formulario
-profile-form-delete = Deler le profilo
 profile-form-username =
     .label = Nomine de usator
 profile-form-language =
@@ -229,8 +227,6 @@ native-language =
     .label = Lingua native
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvate
-profile-keep-data = Retener le datos
-profile-delete-data = Deler le datos
 male = Viro
 female = Femina
 # Gender
@@ -243,10 +239,8 @@ avatar = Avatar
 goals = Propositos
 settings = Parametros
 edit-profile = Rediger le profilo
-profile-create = Crear un profilo
 profile-create-success = Profilo create con successo
 profile-close = Clauder
-profile-clear-modal = Clarar tu datos de profilo significa que iste informationes demographic non sera plus inviate a Common Voice con le registrationes de tu clip.
 profile-explanation = Mantene tracia de tu progresso con un profilo e adjuta nostre datos de voce a ser plus accurate.
 thanks-for-account = Gratias pro le confirma de tu conto, ora que nos crea tu profilo.
 why-demographic = Perque isto es relevante?
@@ -296,11 +290,6 @@ faq-hours-a = Isto es circa le numero del horas requirite pro maestrar un system
 faq-source-q = De ubi veni le texto fonte?
 faq-source-a1 = Le phrases actual veni ab le donationes de collaboratores, tam ben como dialogos ex scriptos de pelliculas de dominio public como <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Tu pote vider nostre phrases fonte in <dataLink>iste dossier GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = Perque un profilo?
-profile-why-content = Per fornir alcun informationes circa te mesme, le datos de audio que tu invia pro Common Voice essera plus utile pro motores de recognition de voce que usa iste datos pro meliorar lor precision.
 
 ## NotFound
 
@@ -443,7 +432,18 @@ days =
         [one] Die
        *[other] Dies
     }
+validations =
+    { $count ->
+        [one] Validation
+       *[other] Validationes
+    }
 
 ## Dashboard
 
 you = Tu
+top-contributors = Principal collaboratores
+
+## Profile Delete
+
+remove = Remover
+profile-form-delete = Deler le profilo
