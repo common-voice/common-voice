@@ -99,7 +99,7 @@ class ProfilePage extends React.Component<Props, State> {
     }
 
     this.state = {
-      sendEmails: account ? Boolean(account.basket_token) : true,
+      sendEmails: account && Boolean(account.basket_token),
       visible: 0,
       locales,
       ...pick(props.user, 'age', 'username', 'gender'),
