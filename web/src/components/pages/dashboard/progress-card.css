@@ -45,7 +45,7 @@
 
     & .personal,
     & .overall {
-        padding: 41px 20px 41px 123px;
+        padding: 41px 20px 41px 68px;
 
         @media (--lg-down) {
             padding-left: 30px;
@@ -63,6 +63,12 @@
             border-right: 1px solid var(--desert-storm);
             margin-right: 20px;
             padding-right: 20px;
+        }
+
+        & .infinity {
+            position: relative;
+            bottom: 8px;
+            font-size: 28px;
         }
 
         & .description {
@@ -115,12 +121,14 @@
     }
 
     & .overall {
+        margin-top: -24px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         background: #f9f9f8;
 
         & > * {
+            margin-top: 24px;
             margin-right: 30px;
 
             &:last-child {
@@ -141,10 +149,7 @@
 
         & .button {
             flex-grow: 100;
-
-            @media (max-width: 1390px) {
-                margin-top: 24px;
-            }
+            min-width: auto;
         }
     }
 

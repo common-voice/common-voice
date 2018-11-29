@@ -57,7 +57,11 @@ class ProgressCard extends React.Component<Props, State> {
             </div>
             <div className="total">
               {' / '}
-              {personalGoal || '?'}
+              {(personalGoal == Infinity ? (
+                <div className="infinity">∞</div>
+              ) : (
+                personalGoal
+              )) || '?'}
             </div>
           </div>
           <div className="description">
