@@ -8,6 +8,7 @@ email-input =
     .label = Adresse électronique
 submit-form-action = Envoyer
 loading = Chargement…
+indicates-required = * indique un champ obligatoire
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -211,8 +212,6 @@ english = Anglais
 
 ## ProfileForm
 
-profile-form-cancel = Quitter le formulaire
-profile-form-delete = Supprimer le profil
 profile-form-username =
     .label = Nom d’utilisateur
 profile-form-language =
@@ -230,9 +229,7 @@ visible = Visible
 native-language =
     .label = Langue maternelle
 profile-form-submit-save = Enregistrer
-profile-form-submit-saved = Enregistrer
-profile-keep-data = Conserver les données
-profile-delete-data = Supprimer les données
+profile-form-submit-saved = Enregistré
 male = Masculin
 female = Féminin
 # Gender
@@ -242,12 +239,11 @@ why-profile-text = Les informations que vous fournissez à votre sujet rendent p
 dashboard = Tableau de bord
 build-profile = Créer un profil
 avatar = Avatar
+goals = Objectifs
 settings = Paramètres
 edit-profile = Modifier le profil
-profile-create = Créer un profil
 profile-create-success = Bravo, votre profil est créé !
 profile-close = Fermer
-profile-clear-modal = Si vous effacez les données de votre profil, ces informations démographiques ne seront plus transmises à Common Voice avec vos enregistrements sonores.
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 why-demographic = Pourquoi est-ce important ?
@@ -297,11 +293,6 @@ faq-hours-a = C’est à peu près la quantité de données nécessaire pour êt
 faq-source-q = Quelle est la provenance des textes ?
 faq-source-a1 = Les phrases actuelles proviennent de contributions individuelles ainsi que des dialogues de certains films dans le domaine public comme <italic>La vie est belle</italic>.
 faq-source-a2 = Les phrases sources sont accessibles <dataLink>dans ce dossier</dataLink> sur GitHub.
-
-## Profile
-
-profile-why-title = Pourquoi créer un profil ?
-profile-why-content = En nous communiquant quelques informations à votre sujet, les données audio que vous partagez avec Common Voice seront plus utiles pour les moteurs de reconnaissance vocale, qui les utilisent afin d’améliorer leur précision.
 
 ## NotFound
 
@@ -438,6 +429,7 @@ share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 
 ## Dashboard
 
+toward-next-goal = Vers le prochain objectif
 stats = Statistiques
 you = Vous
 everyone = Tout le monde
@@ -445,3 +437,7 @@ contribution-activity = Activité de contribution
 top-contributors = Principaux contributeurs
 recorded-clips = Échantillons enregistrés
 validated-clips = Échantillons validés
+
+## Profile Delete
+
+profile-form-delete = Supprimer le profil
