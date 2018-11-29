@@ -430,6 +430,7 @@ share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 
 ## Goals
 
+streaks = Ijerriḍen
 days =
     { $count ->
         [one] Ass
