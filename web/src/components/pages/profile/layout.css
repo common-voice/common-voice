@@ -137,6 +137,7 @@
         max-width: 905px;
         width: 100%;
         min-height: 500px;
+        z-index: var(--middle-z-index);
         overflow: auto;
 
         @media (--sm-down) {
