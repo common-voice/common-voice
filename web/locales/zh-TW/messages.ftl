@@ -448,6 +448,7 @@ top-contributors = 頂尖貢獻者
 recorded-clips = 錄製的片段
 validated-clips = 驗證的片段
 total-approved = 總批准數
+overall-accuracy = 總體準確度
 
 ## Profile Delete
 
