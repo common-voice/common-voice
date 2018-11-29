@@ -8,6 +8,8 @@ email-input =
     .label = Imayl
 submit-form-action = Azen
 loading = Asali…
+email-opt-in-privacy = Ma tferneḍ armas n yimaylen, ad tqebleḍ d akken Mozilla ad tesseqdec talɣut-a akken i tettwasegza deg <privacyLink>Tasertit Tabaḍnit <privacyLink> n Mozilla.
+indicates-required = * yemmal-d urti ilaqen
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -209,8 +211,6 @@ english = Taglizit
 
 ## ProfileForm
 
-profile-form-cancel = Ffeɣ si tferkit
-profile-form-delete = Kkes amaɣnu
 profile-form-username =
     .label = Isem n useqdac:
 profile-form-language =
@@ -229,8 +229,6 @@ native-language =
     .label = Tutlayt tayemat
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
-profile-keep-data = Eǧǧ Isefka
-profile-delete-data = Kkes Isefka
 male = Amalay
 female = Unti
 # Gender
@@ -243,10 +241,8 @@ avatar = Avataṛ
 goals = Iswiyen
 settings = Iɣewwaṛen
 edit-profile = Ẓreg amaɣnu
-profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
 profile-close = Mdel
-profile-clear-modal = Ma tsefḍeḍ isefka n umaɣnu-ik, talɣut-agi ɣeg isefka n tdimugrafit ur ttwaznen ara ar Common Voice s yikalasen-ik n taɣect.
 profile-explanation = Sers allen-ik ɣef usfari s tmerna n umaɣnu sakin muddaɣ-d afus ad nerr isefka n taɣect d usdiden.
 thanks-for-account = Tanemmirt ɣimi tsentmeḍ amiḍan-ik, tura rnu kra n talɣut ɣer umaɣnu-inek.
 why-demographic = Ayɣer aya isεa azal?
@@ -273,6 +269,7 @@ gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
 file_too_large = Afaylu ittwafernen meqqer aṭas
 manage-subscriptions = Sefrekajerred
 email-already-used = Imayl ittuseqdec yakan i umiḍan nniḍen
+add-language = Rnu tutlayt
 
 ## FAQ
 
@@ -296,11 +293,6 @@ faq-hours-a = Hatan meḥsub d amḍan n yisefka ilaqen ad yili akken ad nheggi 
 faq-source-q = Ansa i d-ekkan iḍrisen i usekles n taɣect?
 faq-source-a1 = Tifyar akka tura kkant-d seg uttekki n yal yiwen akked idiwenniyen n yisura izuyaz am <italic>Tudert tecbeḥ</italic>.
 faq-source-a2 = Tifyar tiɣbula ad ten-tafeḍ <dataLink>deg ukaram-agi</dataLink> di GitHub.
-
-## Profile
-
-profile-why-title = Iwacu-t umaɣnu?
-profile-why-content = S umuddu n kra n talɣut fell-ak, isefka imeslawen ara tebḍuḍ d Common Voice ad lhun i yimseddayen n uɛqal n taɣect ara ten-yesqedcen akken ad snernin tiseddi-nwen.
 
 ## NotFound
 
@@ -464,3 +456,14 @@ contribution-activity = Armud n uttekki
 top-contributors = Imttekkiyen ifazen
 recorded-clips = Tukkisin ittwaskelsen
 validated-clips = Tukkisin yettwasentmen
+total-approved = Amḍan yettwaqeblen
+overall-accuracy = Tiseddi tamatut
+
+## Profile Delete
+
+delete-q = Tebɣiḍ ad tessutreḍ ikalasen-ik n taɣect akken ad ttwakksen daɣen, neɣ tebɣiḍ ad ten-teǧǧeḍ deg taffa n yisefka n Common Voice?
+keep = Ḥrez
+remove = Kkes
+keep-info = Ikalsen-ik n taɣect udrigen ad qqimen deg taffa n yisefka n Common Voice. Ticki tekkseḍ amaɣnu-ik ur tettizmireḍ ara ad tazneḍ asuter akken ad ttwakksen ikalasen-ik seg taffa n yisefka
+remove-info = Ad nwali asuter-ik n tukksa n yikalasen-ik n taɣect seg taffa n yisefka. Ma yella asuter-ik yettwaqbel, ad nennermes wid yessidren taffa n yisefka sakin ad sen-nessuter ad kksen ikalasen-ik n taɣect.
+profile-form-delete = Kkes amaɣnu
