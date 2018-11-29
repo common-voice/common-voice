@@ -3,7 +3,6 @@ import {
   Localized,
   withLocalization,
 } from 'fluent-react/compat';
-const pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
@@ -26,6 +25,9 @@ import {
 } from '../../../ui/ui';
 
 import './info.css';
+
+const pick = require('lodash.pick');
+const { Tooltip } = require('react-tippy');
 
 const Options = withLocalization(
   ({
@@ -193,7 +195,7 @@ class ProfilePage extends React.Component<Props, State> {
   };
 
   render() {
-    const { user } = this.props;
+    const { getString, user } = this.props;
     const {
       username,
       sendEmails,
@@ -312,9 +314,14 @@ class ProfilePage extends React.Component<Props, State> {
         {!(user.account && user.account.basket_token) && (
           <React.Fragment>
             <div className="signup-section">
-              <Localized id="email-input" attrs={{ label: true }}>
-                <LabeledInput value={user.userClients[0].email} disabled />
-              </Localized>
+              <Tooltip
+                arrow
+                html={getString('change-email-setings')}
+                theme="grey-tooltip">
+                <Localized id="email-input" attrs={{ label: true }}>
+                  <LabeledInput value={user.userClients[0].email} disabled />
+                </Localized>
+              </Tooltip>
 
               <div className="checkboxes">
                 <Localized id="keep-me-posted" attrs={{ label: true }}>
