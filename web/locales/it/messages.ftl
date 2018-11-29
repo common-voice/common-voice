@@ -207,8 +207,6 @@ english = Inglese
 
 ## ProfileForm
 
-profile-form-cancel = Chiudi modulo
-profile-form-delete = Elimina profilo
 profile-form-username =
     .label = Nome utente
 profile-form-language =
@@ -227,8 +225,6 @@ native-language =
     .label = Lingua madre
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salva
-profile-keep-data = Mantieni i dati
-profile-delete-data = Elimina i dati
 male = Maschio
 female = Femmina
 # Gender
@@ -238,12 +234,11 @@ why-profile-text = Se fornisci queste informazioni insieme alle tue registrazion
 dashboard = Pannello
 build-profile = Crea il tuo profilo
 avatar = Avatar
+goals = Obiettivi
 settings = Impostazioni
 edit-profile = Modifica profilo
-profile-create = Crea un profilo
 profile-create-success = Profilo creato con successo
 profile-close = Chiudi
-profile-clear-modal = Cancellare i dati del tuo profilo significa che le informazioni demografiche non saranno più inviate a Common Voice con le tue registrazioni.
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
 thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
 why-demographic = Perché è importante?
@@ -293,11 +288,6 @@ faq-hours-a = Perché questo è approssimativamente il numero di ore necessario 
 faq-source-q = Da dove provengono i testi?
 faq-source-a1 = I testi utilizzati provengono da frasi condivise dai collaboratori volontari e da dialoghi tratti dai copioni di film di pubblico dominio come <italic>La vita è meravigliosa.</italic>
 faq-source-a2 = Puoi trovare i testi in <dataLink>questa cartella GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = A cosa serve un profilo?
-profile-why-content = Se fornisci queste informazioni insieme alle tue registrazioni vocali, esse verranno usate per migliorare la precisione dei motori di riconoscimento vocali.
 
 ## NotFound
 
@@ -429,11 +419,32 @@ nothing-to-validate = Non sono presenti registrazioni da convalidare in questa l
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci
 
+## Goals
+
+streaks = Tracce
+days =
+    { $count ->
+        [one] Giorno
+       *[other] Giorni
+    }
+recordings =
+    { $count ->
+        [one] Registrazione
+       *[other] Registrazioni
+    }
+
 ## Dashboard
 
+toward-next-goal = Verso il prossimo obiettivo
+stats = Statistiche
 you = Tu
 everyone = Tutti
 contribution-activity = Contributi
 top-contributors = Collaboratori principali
 recorded-clips = Registrazioni immesse
 validated-clips = Registrazioni convalidate
+
+## Profile Delete
+
+keep = Mantieni
+profile-form-delete = Elimina profilo
