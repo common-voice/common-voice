@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Kua
 loading = Thunlio...
+indicates-required = * aherh mi a um
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -208,8 +209,6 @@ english = Mirang
 
 ## ProfileForm
 
-profile-form-cancel = Chuaknak Catlap
-profile-form-delete = Profile hlonhnak
 profile-form-username =
     .label = User Name
 profile-form-language =
@@ -228,8 +227,6 @@ native-language =
     .label = Chuahkehnak Holh
 profile-form-submit-save = Khumh
 profile-form-submit-saved = Khumh
-profile-keep-data = Hlonh hlah
-profile-delete-data = Hlonh ko
 male = Pa
 female = Nu
 # Gender
@@ -242,10 +239,8 @@ avatar = Hmanthlak
 goals = Tinhmi
 settings = Settings
 edit-profile = Profile remhnak
-profile-create = Profile sernak
 profile-create-success = A tlamtling, profile na ser khawh cang!
 profile-close = Phit
-profile-clear-modal = Na profile na hlonh ahcun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai.
 profile-explanation = Na tuahcia mi vialte zoh ṭhan hna law, aw kan lak ciami vialte a ṭhat khawhnak chungin kan bawm.
 thanks-for-account = Na account na fehter caah kan i lawm, atucu profile sersiam cang sih.
 why-demographic = Zei ruangah dah biapi a si?
@@ -295,11 +290,6 @@ faq-hours-a = Hihi STT timi computer nih Laiholh cawnnak ding ah a herh mi suimi
 faq-source-q = Khoi ka in dah biafang le biatlang hi an rat?
 faq-source-a1 = Hi biatlang hna hi bawmchantu in siseh, mipi holhnak in, cun caṭial mi,<italic> Kenneth Van Bik Dictionary </italic>, ti bantuk in kan lak mi a si.
 faq-source-a2 = Hi ka hin <dataLink>biatlang kan laknak na zoh khawh.  </dataLink> GitHub ah kan chiah.
-
-## Profile
-
-profile-why-title = Zei ruangah dah keimah kong cu a herh?
-profile-why-content = Nangmah kong kan theih deuhnak thawngin Common Voice nih na Aw hi ṭha deuh le hman deuh in computer a chimh khawh lai.
 
 ## NotFound
 
@@ -463,3 +453,10 @@ contribution-activity = Bawmtu Cawlcanghnak
 top-contributors = Bawmtu Ṭhawngcem
 recorded-clips = Tun cangmi
 validated-clips = Check cangmi
+
+## Profile Delete
+
+delete-q = Na tuncia mi aw hlonh chih na duh maw, siloah Common Voice caah um ko seh ti na duh?
+keep = Chia
+remove = Hlonh
+profile-form-delete = Profile hlonhnak
