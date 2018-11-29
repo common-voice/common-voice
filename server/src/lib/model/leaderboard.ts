@@ -1,7 +1,9 @@
+import { SHA256 } from 'crypto-js';
 import omit = require('lodash.omit');
 import { getLocaleId } from './db';
-import { getMySQLInstance } from './db/mysql';
+import { getConfig } from '../../config-helper';
 import lazyCache from '../lazy-cache';
+import { getMySQLInstance } from './db/mysql';
 
 const db = getMySQLInstance();
 
@@ -29,7 +31,6 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
           FROM user_clients
           LEFT JOIN clips ON user_clients.client_id = clips.client_id
           LEFT JOIN votes ON clips.id = votes.clip_id
-          WHERE visible
           ${locale ? 'AND clips.locale_id = :locale_id' : ''}
           GROUP BY user_clients.client_id, clips.id
         ) user_clients
@@ -87,10 +88,6 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
 
 const CACHE_TIME_MS = 1000 * 60 * 20;
 
-function omitClientId(rows: any[]) {
-  return rows.map(row => omit(row, 'client_id'));
-}
-
 export const getFullClipLeaderboard = lazyCache(
   'clip-leaderboard',
   async (locale?: string) => {
@@ -124,15 +121,19 @@ export default async function getLeaderboard({
   cursor?: [number, number];
   locale: string;
 }) {
+  const prepareRows = (rows: any[]) =>
+    rows.map(row => ({
+      ...omit(row, 'client_id'),
+      clientHash: SHA256(row.client_id + getConfig().SECRET).toString(),
+      you: row.client_id == client_id,
+    }));
+
   const leaderboard = await (type == 'clip'
     ? getFullClipLeaderboard
     : getFullVoteLeaderboard)(locale);
+
   if (cursor) {
-    return omitClientId(
-      leaderboard
-        .slice(cursor[0], cursor[1])
-        .map(row => ({ ...row, you: row.client_id == client_id }))
-    );
+    return prepareRows(leaderboard.slice(cursor[0], cursor[1]));
   }
 
   const userIndex = leaderboard.findIndex(row => row.client_id == client_id);
@@ -142,12 +143,10 @@ export default async function getLeaderboard({
     ...leaderboard.slice(0, 3 + Math.max(0, 3 - userRegion.length)),
     ...userRegion,
   ];
-  return omitClientId(
-    partialBoard
-      .filter(
-        ({ position }, i) =>
-          i == partialBoard.findIndex(row => row.position == position)
-      )
-      .map(row => ({ ...row, you: row.client_id == client_id }))
+  return prepareRows(
+    partialBoard.filter(
+      ({ position }, i) =>
+        i == partialBoard.findIndex(row => row.position == position)
+    )
   );
 }

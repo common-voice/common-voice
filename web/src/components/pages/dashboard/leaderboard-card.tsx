@@ -39,12 +39,14 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
 
 interface State {
   rows: { position: number; [key: string]: any }[];
+  isAtEnd: boolean;
 }
 
 const Leaderboard = apiConnector(
   class Leaderboard extends React.Component<Props, State> {
     state: State = {
       rows: [],
+      isAtEnd: false,
     };
 
     scroller: { current: HTMLUListElement | null } = React.createRef();
@@ -72,21 +74,27 @@ const Leaderboard = apiConnector(
         .forLocale(locale)
         .fetchLeaderboard(type, cursor);
       this.setState(({ rows }) => {
-        const allRows = [...newRows, ...rows];
+        const allRows = [
+          ...newRows,
+          ...rows.filter(
+            r1 => !newRows.find((r2: any) => r1.clientHash == r2.clientHash)
+          ),
+        ];
         allRows.sort((r1, r2) => (r1.position > r2.position ? 1 : -1));
         return {
           rows: allRows,
+          isAtEnd: newRows.length == 0,
         };
       });
     }
 
     render() {
-      const { rows } = this.state;
+      const { rows, isAtEnd } = this.state;
 
       const items = rows.map((row, i) => {
         const prevPosition = i > 0 ? rows[i - 1].position : null;
         const nextPosition =
-          i < rows.length - 1 ? rows[i + 1].position : Infinity;
+          i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
         return [
           prevPosition && prevPosition + 1 < row.position ? (
             <FetchRow
