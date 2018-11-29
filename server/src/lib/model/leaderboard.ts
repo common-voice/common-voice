@@ -128,7 +128,11 @@ export default async function getLeaderboard({
     ? getFullClipLeaderboard
     : getFullVoteLeaderboard)(locale);
   if (cursor) {
-    return omitClientId(leaderboard.slice(cursor[0], cursor[1]));
+    return omitClientId(
+      leaderboard
+        .slice(cursor[0], cursor[1])
+        .map(row => ({ ...row, you: row.client_id == client_id }))
+    );
   }
 
   const userIndex = leaderboard.findIndex(row => row.client_id == client_id);
