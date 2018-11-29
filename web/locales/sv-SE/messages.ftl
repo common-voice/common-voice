@@ -272,6 +272,7 @@ gravatar_not_found = Ingen gravatar hittades för din e-postadress
 file_too_large = Den valda filen är för stor
 manage-subscriptions = Hantera prenumerationer
 email-already-used = E-postadress används redan för ett annat konto
+add-language = Lägg till språk
 
 ## FAQ
 
