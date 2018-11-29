@@ -446,7 +446,7 @@ top-contributors = 杰出贡献者
 recorded-clips = 录制的片段
 validated-clips = 验证的片段
 total-approved = 总核准数
-overall-accuracy = 总体准确性
+overall-accuracy = 总体准确度
 
 ## Profile Delete
 
