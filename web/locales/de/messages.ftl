@@ -269,6 +269,7 @@ gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
 file_too_large = Die ausgewählte Datei ist zu groß
 manage-subscriptions = Abonnements verwalten
 email-already-used = E-Mail-Adresse wird bereits durch ein anderes Konto verwendet
+add-language = Sprache hinzufügen
 
 ## FAQ
 
