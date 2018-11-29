@@ -281,6 +281,7 @@ gravatar_not_found = Za vaš e-poštni naslov ne obstaja Gravatar
 file_too_large = Izbrana datoteka je prevelika
 manage-subscriptions = Upravljaj z naročninami
 email-already-used = E-poštni naslov je že v uporabi za drug račun
+add-language = Dodaj jezik
 
 ## FAQ
 
