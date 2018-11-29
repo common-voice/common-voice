@@ -212,8 +212,6 @@ english = Engelska
 
 ## ProfileForm
 
-profile-form-cancel = Avsluta formulär
-profile-form-delete = Ta bort profil
 profile-form-username =
     .label = Användarnamn
 profile-form-language =
@@ -232,8 +230,6 @@ native-language =
     .label = Modersmål
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
-profile-keep-data = Behåll data
-profile-delete-data = Ta bort data
 male = Man
 female = Kvinna
 # Gender
@@ -246,10 +242,8 @@ avatar = Avatar
 goals = Mål
 settings = Inställningar
 edit-profile = Redigera profil
-profile-create = Skapa en profil
 profile-create-success = Profil skapad!
 profile-close = Stäng
-profile-clear-modal = Att rensa din profildata innebär att din demografiska information inte längre kommer att skickas till Common Voice med dina inspelningar.
 profile-explanation = Håll reda på dina framsteg med en profil och hjälp vår röstdata att bli mer exakt.
 thanks-for-account = Tack för att du har bekräftat ditt konto, nu bygger vi din profil.
 why-demographic = Vad innebär det?
@@ -299,11 +293,6 @@ faq-hours-a = Det är ungefär det antal timmar som krävs för att träna ett r
 faq-source-q = Var kommer källtexten ifrån?
 faq-source-a1 = De nuvarande meningarna kommer från bidragsgivare samt från dialoger från filmer som är "public domain" som till exempel filmen <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub-mapp</dataLink>
-
-## Profile
-
-profile-why-title = Varför en profil?
-profile-why-content = Genom att ge lite information om dig själv kan det inspelade datan du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
 
 ## NotFound
 
@@ -468,3 +457,9 @@ contribution-activity = Bidragsaktivitet
 top-contributors = Bästa bidragare
 recorded-clips = Inspelade klipp
 validated-clips = Validerade klipp
+
+## Profile Delete
+
+keep = Behåll
+remove = Ta bort
+profile-form-delete = Ta bort profil
