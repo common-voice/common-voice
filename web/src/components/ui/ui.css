@@ -149,15 +149,6 @@ button.card-action:focus.focus-visible path {
     flex-direction: column;
     box-sizing: border-box;
 
-    &.disabled .label {
-        background: linear-gradient(
-            to bottom,
-            var(--white) 50%,
-            var(--white) 50%,
-            var(--light-grey) 50%
-        );
-    }
-
     & :required,
     & :valid {
         box-shadow: none;
@@ -190,7 +181,7 @@ button.card-action:focus.focus-visible path {
         }
 
         &:disabled {
-            background-color: var(--light-grey);
+            color: var(--warm-grey);
         }
     }
 
