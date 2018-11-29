@@ -274,6 +274,7 @@ file_too_large = The selected file is too large
 manage-subscriptions = Manage Subscriptions
 email-already-used = Email is already used for a different account
 add-language = Add Language
+change-email-setings = Change your email via Settings under Login Identity
 
 ## FAQ
 faq-title = Frequently Asked Questions
