@@ -8,6 +8,7 @@ email-input =
     .label = E-mailadres
 submit-form-action = Yntsjinje
 loading = Lade…
+indicates-required = * jout fereaske fjild oan
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -219,8 +220,6 @@ english = Ingelsk
 
 ## ProfileForm
 
-profile-form-cancel = Formulier ferlitte
-profile-form-delete = Profyl fuortsmite
 profile-form-username =
     .label = Brûkersnamme
 profile-form-language =
@@ -239,8 +238,6 @@ native-language =
     .label = Memmetaal
 profile-form-submit-save = Bewarje
 profile-form-submit-saved = Bewarre
-profile-keep-data = Gegevens bewarje
-profile-delete-data = Gegevens fuortsmite
 male = Man
 female = Frau
 # Gender
@@ -253,10 +250,8 @@ avatar = Avatar
 goals = Doelen
 settings = Ynstellingen
 edit-profile = Profyl bewurkje
-profile-create = Profyl oanmeitsje
 profile-create-success = Profyl mei sukses oanmakke!
 profile-close = Slute
-profile-clear-modal = It wiskjen fan jo profylgegevens betsjut dat dizze demografyske gegevens net mear tegearre mei jo opnamen by Common Voice yntsjinne wurde.
 profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
@@ -306,11 +301,6 @@ faq-hours-a = Dit is ûngefear it tal oeren nedich om in produksje-STT-systeem t
 faq-source-q = Wêr komt de boarnetekst fan ôf?
 faq-source-a1 = De aktuele stimmen komme fan donaasjes fan dielnimmers, en ek dialogen út filmskripts fan it publike domein lykas <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Jo kinne ús boarnesinnen besjen yn <dataLink>dizze GitHub-map</dataLink>.
-
-## Profile
-
-profile-why-title = Wêrom in profyl?
-profile-why-content = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
 
 ## NotFound
 
@@ -471,3 +461,10 @@ contribution-activity = Meiwurkersaktiviteit
 top-contributors = Topmeiwurkers
 recorded-clips = Opnommen fragminten
 validated-clips = Falidearre fragminten
+overall-accuracy = Algemiene sekuerens
+
+## Profile Delete
+
+keep = Behâlde
+remove = Fuortsmite
+profile-form-delete = Profyl fuortsmite
