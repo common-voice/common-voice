@@ -482,4 +482,5 @@ delete-q = Cośo, až se waše głosowe nagraśa teje wulašuju, abo cośo je lu
 keep = Wobchowaś
 remove = Wótwónoźeś
 keep-info = Waše anonymne głosowe nagraśa wóstanu w datowej sajźbje Common Voice. Gaž swój profil wulašujośo, njamóžośo wěcej napšašowanje wótpósłaś, aby swóje nahraśa z datoweje sajźby wótwónoźeł
+remove-info = Buźomy wašo napšašowanje, waše głosowe nagraśa z datoweje sajźby wótwónoźeś, pśeglědowaś. Jolic se wašo napšašowanje pśizwólijo,  buźomy se z tymi do zwiska stajiś, kótarež su ześěgnuli datowu sajźbu, a pšosymy jich, aby waše głosowe nagraśa teke wótwónoźeli.
 profile-form-delete = Profil wulašowaś
