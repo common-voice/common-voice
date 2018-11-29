@@ -15,7 +15,6 @@
         font-style: italic;
         letter-spacing: 0.8px;
         line-height: 1.5;
-        text-transform: lowercase;
 
         & ul {
             margin: 0;
