@@ -221,11 +221,11 @@ export default class Server {
     await this.ensureDatabase();
 
     this.listen();
-    await this.warmUpCaches();
     const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
 
     if (!ENVIRONMENT || ENVIRONMENT === 'default') {
       await this.performMaintenance(options.doImport);
+      // await this.warmUpCaches();
       return;
     }
 
@@ -253,7 +253,7 @@ export default class Server {
 
     lock.acquire();
 
-    await this.warmUpCaches();
+    // await this.warmUpCaches();
   }
 
   async warmUpCaches() {
