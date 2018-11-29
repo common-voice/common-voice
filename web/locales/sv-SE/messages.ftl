@@ -8,6 +8,8 @@ email-input =
     .label = E-post
 submit-form-action = Skicka in
 loading = Laddar…
+email-opt-in-privacy = Genom att ta emot e-postmeddelanden godkänner du Mozillas hantering av denna information som förklaras i Mozillas <privacyLink>sekretesspolicy<privacyLink>.
+indicates-required = * Indikerar obligatoriska fält
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -457,9 +459,14 @@ contribution-activity = Bidragsaktivitet
 top-contributors = Bästa bidragare
 recorded-clips = Inspelade klipp
 validated-clips = Validerade klipp
+total-approved = Totalt godkända
+overall-accuracy = Övergripande noggrannhet
 
 ## Profile Delete
 
+delete-q = Vill du begära att dina röstinspelningar tas bort också, eller föredrar du att behålla dem i Common Voice datamängd?
 keep = Behåll
 remove = Ta bort
+keep-info = Dina anonyma röstinspelningar förblir i Common Voice datamängd. När du har raderat din profil kan du inte längre skicka in en begäran om att ta bort dina inspelningar från datamängden
+remove-info = Vi kommer att granska din begäran om att ta bort dina röstinspelningar från datamängden. Om din förfrågan godkänns kontaktar vi dem som har laddat ner datamängden och begär att de även tar bort dina röstinspelningar.
 profile-form-delete = Ta bort profil
