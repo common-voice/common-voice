@@ -8,6 +8,8 @@ email-input =
     .label = E-mailadres
 submit-form-action = Indienen
 loading = Laden…
+email-opt-in-privacy = Door u in te schrijven voor het ontvangen van e-mailberichten, verklaart u dat u akkoord gaat met het verwerken van deze informatie door Mozilla in overeenstemming met Mozilla’s <privacyLink>Privacybeleid<privacyLink>.
+indicates-required = * Geeft verplicht veld aan
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -209,8 +211,6 @@ english = Engels
 
 ## ProfileForm
 
-profile-form-cancel = Formulier afsluiten
-profile-form-delete = Profiel verwijderen
 profile-form-username =
     .label = Gebruikersnaam
 profile-form-language =
@@ -229,8 +229,6 @@ native-language =
     .label = Moedertaal
 profile-form-submit-save = Opslaan
 profile-form-submit-saved = Opgeslagen
-profile-keep-data = Gegevens behouden
-profile-delete-data = Gegevens verwijderen
 male = Mannelijk
 female = Vrouwelijk
 # Gender
@@ -243,10 +241,8 @@ avatar = Avatar
 goals = Doelen
 settings = Instellingen
 edit-profile = Profiel bewerken
-profile-create = Een profiel aanmaken
 profile-create-success = Gelukt, profiel aangemaakt!
 profile-close = Sluiten
-profile-clear-modal = Het wissen van uw profielgegevens betekent dat deze demografische gegevens niet meer samen met uw fragmentopnamen bij Common Voice worden ingediend.
 profile-explanation = Houd uw voortgang bij met een profiel en help onze stemgegevens nauwkeuriger te zijn.
 thanks-for-account = Bedankt voor het bevestigen van uw account, nu gaan we uw profiel opbouwen.
 why-demographic = Waarom is dit belangrijk?
@@ -273,6 +269,7 @@ gravatar_not_found = Geen gravatar voor uw e-mailadres gevonden
 file_too_large = Het geselecteerde bestand is te groot
 manage-subscriptions = Abonnementen beheren
 email-already-used = E-mailadres wordt al voor een andere account gebruikt
+add-language = Taal toevoegen
 
 ## FAQ
 
@@ -296,11 +293,6 @@ faq-hours-a = Dit is ongeveer het aantal benodigde uren om een operationeel spra
 faq-source-q = Waar komt de brontekst vandaan?
 faq-source-a1 = De huidige zinnen komen van medewerkersdonaties, alsmede van dialogen uit openbare filmscripts zoals <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = U kunt onze bronzinnen bekijken in <dataLink>deze GitHub-map</dataLink>.
-
-## Profile
-
-profile-why-title = Waarom een profiel?
-profile-why-content = Door wat informatie over uzelf te geven, zijn de door u bij Common Voice ingediende audiogegevens nuttiger voor spraakherkenningsengines die deze gegevens gebruiken om hun nauwkeurigheid te verbeteren.
 
 ## NotFound
 
@@ -461,3 +453,14 @@ contribution-activity = Medewerkersactiviteit
 top-contributors = Topmedewerkers
 recorded-clips = Opgenomen fragmenten
 validated-clips = Gevalideerde fragmenten
+total-approved = Totaal goedgekeurd
+overall-accuracy = Algemene nauwkeurigheid
+
+## Profile Delete
+
+delete-q = Wilt u ook dat uw stemopnamen worden verwijderd, of wilt u deze in de gegevensset van Common Voice behouden?
+keep = Behouden
+remove = Verwijderen
+keep-info = Uw anonieme stemopnamen blijven in de gegevensset van Common Voice aanwezig. Zodra u uw profiel verwijdert, kunt u geen verzoek meer indienen om uw opnamen uit de gegevensset te verwijderen.
+remove-info = We zullen uw verzoek om uw stemopnamen uit de gegevensset te verwijderen beoordelen. Als uw verzoek wordt goedgekeurd, nemen we contact op met de partijen die de gegevensset hebben gedownload en vragen we hen ook uw stemopnamen te verwijderen.
+profile-form-delete = Profiel verwijderen
