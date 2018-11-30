@@ -10046,7 +10046,7 @@ Espirazione colla bocca.
 Terminando è possibile anche affermare che il nuoto è certamente importante.
 Poichè la stessa superficie terrestre è circa per il 70% costituita da acqua.
 Potremmo parlare a lungo della qualità della connessione.
-come anche della qualità dei servizi offerti al cittadino di tipo digitale.
+Come anche della qualità dei servizi offerti al cittadino di tipo digitale.
 Quando si parla di servizi al cittadino, di software e di licenze.
 La politica può essere lasciata da parte ampiamente dal mio punto di vista.
 Cioè addirittura un forum pubblico dove ti rispondono quelli del team!
@@ -10083,11 +10083,11 @@ Riprendiamoci la libertà!
 Internet è una risorsa pubblica globale che deve rimanere aperta e accessibile.
 Internet deve arricchire la vita di ogni essere umano.
 L’efficacia di Internet come risorsa pubblica dipende dal suo carattere di interoperabilità.
-decentralizzata a livello mondiale.
+Decentralizzata a livello mondiale.
 La partecipazione commerciale allo sviluppo di Internet è in grado di apportare numerosi benefici.
 È fondamentale un equilibrio tra profitto commerciale e benefici pubblici.
 La valorizzazione degli aspetti di pubblica utilità di Internet rappresenta un obiettivo importante.
-che merita tempo, attenzione ed impegno.
+Che merita tempo, attenzione ed impegno.
 L’obiettivo di Mozilla è quello di aiutare chiunque a leggere, scrivere e partecipare nel web in modo informato.
 Il Diritto d’autore o CopyRight serve a tutelare l’autore e fornire una remunerazione per un lasso di tempo.
 Definisce la tutela dopo i 50 anni dalla morte dell’autore.
@@ -10108,8 +10108,8 @@ Conteggio dei tentativi e delle carte trovate.
 8 Immagini inserite casualmente.
 Sito in multilingua.
 Ambientazione della locandina.
-ricerca di un equilibro del contenuto.
-il dolce del giorno.
+Ricerca di un equilibro del contenuto.
+Il dolce del giorno.
 Si installano nativamente sul proprio sistema.
 Implementare le funzionalità che abbiamo visto è molto semplice!
 In vendita ufficiale in oltre 30 paesi.
@@ -10440,7 +10440,7 @@ Le libertà essenziali che definiscono il "free software" sono garantite a chiun
 Diventano diritti inalienabili.
 Il kernel è come il "cuore" del sistema operativo.
 Si occupa di gestire l'utilizzo delle risorse hardware.
-da parte dei singoli programmi che essendo in esecuzione.
+Da parte dei singoli programmi che essendo in esecuzione.
 Era uno studente ventenne di informatica dell’università di Helsinki.
 Nel 1990, Linus Benedict Torvalds, iniziò a scrivere per fini di studio un kernel.
 Si basò su Minix.
@@ -10669,7 +10669,7 @@ Il primo prodotto che nasce dall'accordo con IBM viene annunciato nell'agosto 19
 In base a tale accordo Bill Gates avrebbe dovuto mettere da parte il sistema operativo Windows per lo sviluppo di OS/2.
 In occasione del Comdex del 1989 a Las Vegas.
 Gates smentisce le affermazioni in proposito fatte dal manager dell'IBM.
-Il 22 maggio verrà presentata la versione 3.0 di Windows
+Il 22 maggio verrà presentata la versione 3.0 di Windows.
 Con una teleconferenza mondiale da tre milioni di dollari.
 Mobiliterà seimila giornalisti con grandi schermi installati a Londra, Madrid, Milano, Parigi, Singapore e Stoccolma.
 La nuova versione di Windows è costata quasi 10 milioni di dollari.
@@ -10774,7 +10774,7 @@ Il procedimento si concluderà dopo due anni, senza conseguenze, ma darà lo spu
 Il cosiddetto "Content Decree", volto a ridurre la portata d'azione della Microsoft mediante lo smembramento della stessa.
 Nel 1995 un giudice federale invaliderà il decreto.
 Nel 1997 viene ricontestato a Microsoft l'accordo del 1994.
-la nuova accusa individua in Internet Explorer l'arma d'offesa monopolistica.
+La nuova accusa individua in Internet Explorer l'arma d'offesa monopolistica.
 Il browser sarebbe stato incluso in Windows allo scopo di scalzare il concorrente Netscape Navigator.
 Alla società viene imposto di consentire ai rivenditori la possibilità di non preinstallare Explorer.
 Dopo una serie di ricorsi Microsoft riuscirà ad evitare la sanzione.
@@ -10805,7 +10805,7 @@ Perché un brevetto sia valido questo deve presentare i requisiti di originalit�
 Descrivere accuratamente l'invenzione.
 Apportare vantaggi nella realizzazione di un prodotto materiale o nel processo produttivo.
 Per la tutela del software è sempre stata applicata la disciplina del diritto d'autore.
-il software non può essere considerato un'opera letteraria.
+Il software non può essere considerato un'opera letteraria.
 La disciplina del diritto d'autore non permette la copia di parti di codice di un programma software.
 Permette di raggiungere lo stesso risultato di un software già in commercio applicando procedimenti diversi.
 Si pensi a quanti programmi esistano per l'elaborazione e la visualizzazione di testi e immagini digitali.
@@ -10839,7 +10839,7 @@ Come si evince anche dalla lettera, l'Ufficio Brevetti Europeo è andato concede
 Finora questi brevetti non hanno avuto alcun effetto pratico poiché sono fuori legge.
 La maggior parte dei brevetti depositati appartiene a multinazionali statunitensi e giapponesi.
 Multinazionali statunitensi e giapponesi sperano di poterli sfruttare per acquisire una forte posizione nel mercato europeo.
-le royalties per un brevetto possono gravare di diversi punti percentuali sul costo totale del prodotto.
+Le royalties per un brevetto possono gravare di diversi punti percentuali sul costo totale del prodotto.
 Un'azienda che dovesse pagare la concorrente per un brevetto chiave partirebbe immediatamente svantaggiata.
 Inoltre solo aziende di gradi dimensioni hanno la possibilità di sostenere le spese per l'ottenimento di un brevetto.
 Il panorama europeo del settore software è composto da un'innumerevole quantità di piccole aziende.
@@ -10911,10 +10911,10 @@ Il Parlamento francese ha effettuato la migrazione di un migliaio di postazioni 
 Il comune di Monaco di Baviera nel maggio 2003 ha effettuato la migrazione a Linux di 14000 sistemi desktop.
 In Francia il Ministero della Difesa ha adottato la soluzione FreeBSD sui suoi sistemi IT.
 Il Ministero della Giustizia e il "Casier Judiciaire National" usano applicazioni basate su soluzioni open source.
-il Ministero dell'Economia, Finanza e Industria, stanno migrando server e workstation su piattaforma Red Hat.
+Il Ministero dell'Economia, Finanza e Industria, stanno migrando server e workstation su piattaforma Red Hat.
 La decisione è stata presa dal Parlamento solo dopo aver ascoltato il parere della società di consulenza Atos Origin.
 In Spagna il Ministero della Pubblica Amministrazione ha deciso di migrare verso un sistema operativo open source.
-la scelta è caduta sulla distribuzione Linux Debian, giudicata adatta per l'affidabilità e la sicurezza.
+La scelta è caduta sulla distribuzione Linux Debian, giudicata adatta per l'affidabilità e la sicurezza.
 Esistono numerosi progetti di implementazione di software open source.
 In Inghilterra il governo ha emanato nel 2002 linee guida che prevedono di considerare le soluzioni open source.
 In Olanda il governo ha stabilito il 2008 come anno di migrazione dei propri sistemi informatici verso software open source.
@@ -10925,7 +10925,7 @@ Il risparmio annuo stimato ammonta a 8,8 milioni di euro.
 Il software open source deve essere considerato alla pari del software proprietario.
 Tutto il software da adottare deve essere valutato sulla base del rapporto tra costi e benefici.
 In Italia il CNIPA rappresenta un punto di riferimento per le iniziative in materia di software libero a livello statale.
-in particolare il CNIPA si occupa di monitorare l'offerta di software open source sul mercato italiano.
+In particolare il CNIPA si occupa di monitorare l'offerta di software open source sul mercato italiano.
 L'avvicinamento della Pubblica Amministrazione italiana al software libero inizia nel giugno 2002.
 Va fatta un'approfondita valutazione sulla strategia open source per la Pubblica Amministrazione.
 Caratteristiche intrinseche derivanti dalle stesse modalità di sviluppo e di evoluzione.
@@ -10933,7 +10933,7 @@ I prodotti open source determinano vantaggi in termini di contenimento dei prezz
 I prodotti open source determinano vantaggi in termini di non dipendenza da un singolo fornitore e elevata riusabilità.
 I prodotti open source determinano vantaggi in termini di accessibilità per le piccole realtà di sviluppo.
 Economie locali.
-la Pubblica Amministrazione può immediatamente rivolgersi al mercato dei prodotti open source.
+La Pubblica Amministrazione può immediatamente rivolgersi al mercato dei prodotti open source.
 Prodotti open source per ridurre in modo consistente e rapido i costi di acquisizione e gestione di applicazioni software.
 Le piattaforme per servizi web.
 Ambienti operativi dai computer ai sistemi centrali, a molti strumenti di produttività individuale.
@@ -10970,7 +10970,7 @@ Veniva tenuta in conto la possibilità di commissionare lo sviluppo di software 
 Acquisizione di software di tipo proprietario.
 Acquisizione effettuata quindi mediante l'acquisto di licenze di utilizzo.
 Il fornitore non fosse più in grado di fornire supporto.
-le Pubbliche Amministrazioni dovevano contrattualmente assicurarsi che il codice sorgente venisse reso disponibile.
+Le Pubbliche Amministrazioni dovevano contrattualmente assicurarsi che il codice sorgente venisse reso disponibile.
 Dovevano essere privilegiate le soluzioni che assicurassero l'interoperabilità.
 Dovevano essere privilegiate le soluzioni che non rendessero i sistemi informatici dipendenti da un unico fornitore.
 Dovevano essere privilegiate le soluzioni che non rendessero i sistemi informatici dipendenti da un'unica tecnologia.
@@ -11023,7 +11023,7 @@ Le soluzioni messe in pratica possono essere utilizzate da altre sedi o da altre
 Non dvrà più essere studiata una soluzione, ma semplicemente ne verrà ricalcata una esistente dopo averne valutato la bontà.
 Dal punto di vista "formativo" risulta invece importante la verificabilità del software.
 Verificabilità del software permessa dalla possibilità di accesso al codice sorgente.
-La verificabilità permette di migliorare la sicurezza del software
+La verificabilità permette di migliorare la sicurezza del software.
 Procedure che permettono di far compiere determinate azioni al computer.
 Motivazioni culturali.
 Il modello di "condivisione del sapere".
