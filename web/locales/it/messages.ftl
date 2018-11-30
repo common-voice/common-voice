@@ -265,6 +265,7 @@ gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
 manage-subscriptions = Gestisci le sottoscrizioni
 email-already-used = Questa email è già in uso per un altro account
+add-language = Aggiungi una lingua
 
 ## FAQ
 
@@ -443,8 +444,10 @@ contribution-activity = Contributi
 top-contributors = Collaboratori principali
 recorded-clips = Registrazioni immesse
 validated-clips = Registrazioni convalidate
+overall-accuracy = Precisione complessiva
 
 ## Profile Delete
 
 keep = Mantieni
+remove = Rimuovi
 profile-form-delete = Elimina profilo
