@@ -287,6 +287,7 @@ gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
 file_too_large = Mae'r ffeil yma'n rhy fawr
 manage-subscriptions = Rheoli Tanysgrifiadau
 email-already-used = Mae'r e-bost yn cael ei ddefnyddio yn barod ar gyfer cyfrif gwahanol
+add-language = Ychwanegu Iaith
 
 ## FAQ
 
