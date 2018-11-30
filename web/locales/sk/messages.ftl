@@ -20,6 +20,7 @@ ar = arabčina
 as = asámčina
 ast = astúrčina
 az = azerbajdžančina
+bg = bulharčina
 bn = bengálčina
 br = bretónčina
 bxr = buriatčina
@@ -37,6 +38,7 @@ en = angličtina
 eo = esperanto
 es = španielčina
 et = estónčina
+eu = baskičtina
 fa = perzština
 fi = fínčina
 fo = faerčina
@@ -73,6 +75,7 @@ pt-BR = portugalčina (Brazília)
 ro = rumunčina
 ru = ruština
 sah = jakutčina
+sc = sardínčina
 sk = slovenčina
 sl = slovinčina
 sq = albánčina
@@ -112,9 +115,6 @@ share-title = Pomôžte nám nájsť ďalších, ktorí prispejú svojím hlasom
 share-text = Pomôžte strojom pochopiť ľudskú reč. Prispejte svojím hlasom na { $link }
 link-copied = Odkaz bol skopírovaný
 back-top = Návrat hore
-contribution-banner-text = Práve sme spustili nové prostredie pre prispievateľov
-contribution-banner-button = Pozrite sa naň
-report-bugs-link = Nahláste nám chyby
 logout = Odhlásiť sa
 
 ## Home Page
@@ -153,6 +153,7 @@ listen-goal-text = Počet overených nahrávok
 hours-recorded = Počet nahraných hodín
 hours-validated = Počet overených hodín
 todays-progress = Dnešný pokrok
+help-reach-goal = Pomôžte nám dostať sa na { $goal }
 read-terms-q = Čítali ste naše podmienky používania?
 ready-to-record = Ste pripravení darovať svoj hlas?
 all-languages = Všetky jazyky
@@ -220,8 +221,6 @@ english = Angličtina
 
 ## ProfileForm
 
-profile-form-cancel = Zavrieť formulár
-profile-form-delete = Odstrániť profil
 profile-form-username =
     .label = Používateľské meno
 profile-form-language =
@@ -238,22 +237,19 @@ native-language =
     .label = Materinský jazyk
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložený
-profile-keep-data = Ponechať údaje
-profile-delete-data = Odstrániť údaje
 male = Muž
 female = Žena
 # Gender
 other = Iné
 why-profile-title = Prečo chcete profil?
 why-profile-text = Tým, že nám o sebe poskytnete nejaké informácie, budú údaje, ktoré odošlete do Common Voice, užitočnejšie pre systémy rozpoznávania reči, ktoré tieto údaje využívajú na zvýšenie presnosti.
-profile = Profil
+dashboard = Nástenka
 avatar = Avatar
-preferences = Nastavenia
+goals = Ciele
+settings = Nastavenia
 edit-profile = Upraviť profil
-profile-create = Vytvorenie profilu
 profile-create-success = Profil bol úspešne vytvorený!
 profile-close = Zavrieť
-profile-clear-modal = Odstránenie údajov profilu znamená, že tieto demografické údaje už nebudú naďalej odosielané s vašimi nahrávkami.
 profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spresniť naše hlasové údaje.
 thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
 why-demographic = Prečo na tom záleží?
@@ -271,6 +267,8 @@ off = Vypnutá
 on = Zapnutá
 file_too_large = Vybraný súbor je príliš veľký
 manage-subscriptions = Spravovať odbery
+email-already-used = E-mailová adresa sa už používa pre iný účet
+add-language = Pridať jazyk
 
 ## FAQ
 
@@ -294,11 +292,6 @@ faq-hours-a = Je to približný počet hodín potrebných na natrénovanie produ
 faq-source-q = Odkiaľ pochádza zdrojový text?
 faq-source-a1 = Súčasné vety pochádzajú z darov prispievateľov a z dialógov verejných filmových scenárov, ako napríklad <italic>Život je krásny.</italic>
 faq-source-a2 = Zdrojové vety si môžete pozrieť v <dataLink>tomto priečinku na GitHube</dataLink>.
-
-## Profile
-
-profile-why-title = Prečo potrebujete profil?
-profile-why-content = Tým, že nám o sebe poskytnete nejaké informácie, budú údaje, ktoré odošlete do Common Voice, užitočnejšie pre systémy rozpoznávania reči, ktoré tieto údaje využívajú na zvýšenie presnosti.
 
 ## NotFound
 
@@ -434,3 +427,14 @@ listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
 nothing-to-validate = Pre váš jazyk nemáme čo overiť. Pomôžte nám to zmeniť.
 record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+remove = Odstrániť
+profile-form-delete = Odstrániť profil
