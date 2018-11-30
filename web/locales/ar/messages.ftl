@@ -9,6 +9,7 @@ email-input =
 submit-form-action = أرسِل
 loading = يُحمّل…
 email-opt-in-privacy = اشتراكك في خدمة تلقّي البريد تعني بأنك لا تُمانع بأن تتعامل موزيلا مع هذه البيانات كما هو موضّح في <privacyLink>سياسة الخصوصية</privacyLink>.
+indicates-required = * يعني أن الحقل مطلوب
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -463,4 +464,9 @@ total-approved = إجمالي الموافق عليه
 
 ## Profile Delete
 
+delete-q = أتريد أيضا حذف تسجيلاتك الصوتية كذلك، أم أنك تفضّل إبقائها في مجموعة بيانات «الصوت للعموم»؟
+keep = أبقِها
+remove = أزِلها
+keep-info = ستبقى تسجيلاتك الصوتية في مجموعة بيانات «الصوت للعموم» بطريقة مجهّلة. لن تقدر على إرسال طلب لحذف تسجيلاتك من مجموعة البيانات ما إن تحذف ملفك الشخصي.
+remove-info = سنراجع طلبك بإزالة تسجيلاتك الصوتية من مجموعة البيانات. إن جرت الموافقة عليه فسنراسل مَن نزّل مجموعة البيانات ونطلب منهم حذف تسجيلاتك الصوتية من نسخهم أيضا.
 profile-form-delete = احذف الملف الشخصي
