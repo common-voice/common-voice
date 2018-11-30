@@ -8,6 +8,8 @@ email-input =
     .label = Email
 submit-form-action = Gửi
 loading = Đang tải...
+email-opt-in-privacy = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật<privacyLink> của Mozilla.
+indicates-required = * Trường được yêu cầu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -205,8 +207,6 @@ english = Tiếng Anh
 
 ## ProfileForm
 
-profile-form-cancel = Thoát biểu mẫu
-profile-form-delete = Xóa hồ sơ
 profile-form-username =
     .label = Tên đăng nhập
 profile-form-language =
@@ -225,8 +225,6 @@ native-language =
     .label = Tiếng mẹ đẻ
 profile-form-submit-save = Lưu
 profile-form-submit-saved = Đã lưu
-profile-keep-data = Giữ dữ liệu
-profile-delete-data = Xóa dữ liệu
 male = Nam
 female = Nữ
 # Gender
@@ -236,12 +234,11 @@ why-profile-text = Bằng cách cung cấp một số thông tin về bản thâ
 dashboard = Bảng điều khiển
 build-profile = Xây dựng hồ sơ
 avatar = Ảnh đại diện
+goals = Mục tiêu
 settings = Thiết lập
 edit-profile = Chỉnh sửa hồ sơ
-profile-create = Tạo hồ sơ
 profile-create-success = Thành công, hồ sơ đã được tạo!
 profile-close = Đóng
-profile-clear-modal = Xóa dữ liệu hồ sơ của bạn có nghĩa là thông tin cá nhân này sẽ không còn được gửi tới Common Voice với bản ghi âm của bạn nữa.
 profile-explanation = Theo dõi tiến trình của bạn với một hồ sơ và giúp dữ liệu giọng nói của chúng tôi chính xác hơn.
 thanks-for-account = Cảm ơn bạn đã xác nhận tài khoản của mình, giờ hãy tạo hồ sơ của bạn.
 why-demographic = Vì sao điều này quan trọng?
@@ -268,6 +265,7 @@ gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tệp đã chọn quá lớn
 manage-subscriptions = Quản lý các mục đăng kí
 email-already-used = Email đã được sử dụng cho tài khoản khác
+add-language = Thêm ngôn ngữ
 
 ## FAQ
 
@@ -291,11 +289,6 @@ faq-hours-a = Đây là số giờ cần thiết để đào tạo sản xuất 
 faq-source-q = Văn bản gốc được lấy từ đâu?
 faq-source-a1 = Các câu hiện tại được lấy từ các đóng góp của nhiều người, và cũng từ lời thoại các kịch bản phim của cộng đồng, ví dụ như phim <italic>It's A Wonderful Life.</italic>
 faq-source-a2 = Bạn có thể xem nguồn các câu của chúng tôi trong <dataLink>thư mục GitHub này</dataLink>.
-
-## Profile
-
-profile-why-title = Tại sao phải tạo một hồ sơ?
-profile-why-content = Bằng cách cung cấp một số thông tin về bản thân bạn, dữ liệu âm thanh mà bạn gửi tới Common Voice sẽ hữu ích hơn đối với công cụ Nhận dạng giọng nói và cũng để cải thiện độ chính xác của chúng.
 
 ## NotFound
 
@@ -432,6 +425,7 @@ share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 
 ## Goals
 
+streaks = Đóng góp
 days =
     { $count ->
        *[other] Ngày
@@ -447,6 +441,7 @@ validations =
 
 ## Dashboard
 
+toward-next-goal = Hướng tới mục tiêu tiếp theo
 stats = Thống kê
 you = Bạn
 everyone = Mọi người
@@ -454,3 +449,14 @@ contribution-activity = Hoạt động đóng góp
 top-contributors = Những người đóng góp hàng đầu
 recorded-clips = Clip đã ghi
 validated-clips = Clip đã xác thực
+total-approved = Tổng số được chấp nhận
+overall-accuracy = Độ chính xác tổng thể
+
+## Profile Delete
+
+delete-q = Bạn có muốn yêu cầu bản ghi âm giọng nói của bạn bị xóa quá hay bạn muốn giữ chúng trong bộ dữ liệu Common Voice?
+keep = Giữ
+remove = Xóa
+keep-info = Bản ghi âm ẩn danh của bạn sẽ vẫn còn trong bộ dữ liệu Thoại thông thường. Khi bạn xóa tiểu sử của mình, bạn sẽ không còn có thể gửi yêu cầu xóa bản ghi của mình khỏi tập dữ liệu nữa
+remove-info = Chúng tôi sẽ xem xét yêu cầu xóa bản ghi âm của bạn khỏi tập dữ liệu. Nếu yêu cầu của bạn được chấp thuận, chúng tôi sẽ liên hệ với những người đã tải xuống tập dữ liệu và yêu cầu họ xóa bản ghi âm của bạn.
+profile-form-delete = Xóa hồ sơ
