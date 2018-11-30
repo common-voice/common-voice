@@ -45,4 +45,10 @@ resource "consul_keys" "config" {
     value  = "${aws_iam_access_key.clips_bucket.secret}"
     delete = true
   }
+
+  key {
+    path   = "${module.consul.config_prefix}/Cache/Endpoint"
+    value  = "${module.cache.endpoint}"
+    delete = true
+  }
 }

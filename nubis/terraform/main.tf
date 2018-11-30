@@ -93,3 +93,13 @@ module "clips" {
     },
   ]
 }
+
+# Add elastic cache (memcache)
+module "cache" {
+  source                 = "github.com/nubisproject/nubis-terraform//cache?ref=v2.3.1"
+  region                 = "${var.region}"
+  environment            = "${var.environment}"
+  account                = "${var.account}"
+  service_name           = "${var.service_name}"
+  client_security_groups = "${module.worker.security_group}"
+}
