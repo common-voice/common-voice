@@ -267,6 +267,7 @@ gravatar_not_found = Tidak ditemukan gravatar untuk surel Anda
 file_too_large = Berkas yang dipilih terlalu besar
 manage-subscriptions = Kelola Langganan
 email-already-used = Surel telah digunakan untuk akun yang berbeda
+add-language = Tambah Bahasa
 
 ## FAQ
 
