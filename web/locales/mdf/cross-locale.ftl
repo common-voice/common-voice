@@ -11,3 +11,6 @@ get-involved-opt-in = Пара мяльса, кучеда тейне э-сёрм
 get-involved-submit = Сувафтомс
 get-involved-stayintouch = Mozilla-са минь пуроптама оцю полга вайгяль текнологиянь коряс. Ёратама сяда тов содамс одкстопнематнень, од лисьмотнень колга, тага кода сёрматфсь тевс нолдави.
 get-involved-privacy-info = Макстама вал ванфтомс информацияце лац. Морафтк сяда тов <privacyLink>"Информациянь ванфтома"</privacyLink> пяльксса.
+get-involved-success-title = Тон сувафат { $language }нь кялень тевса лездоманди. Сюкпря.
+get-involved-success-text = Карматама сяда тов тонь содафтома од информациянь мархта кодак сон эвондай.
+get-involved-return-to-languages = Меки Кяльхненди.
