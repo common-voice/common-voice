@@ -8,6 +8,8 @@ email-input =
     .label = E-mail
 submit-form-action = Wyślij
 loading = Wczytywanie…
+email-opt-in-privacy = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności<privacyLink>.
+indicates-required = * wskazuje pole obowiązkowe
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -213,8 +215,6 @@ english = angielski
 
 ## ProfileForm
 
-profile-form-cancel = Wyjdź z formularza
-profile-form-delete = Usuń profil
 profile-form-username =
     .label = Nazwa użytkownika
 profile-form-language =
@@ -233,8 +233,6 @@ native-language =
     .label = Język ojczysty
 profile-form-submit-save = Zapisz
 profile-form-submit-saved = Zapisane
-profile-keep-data = Zachowaj dane
-profile-delete-data = Usuń dane
 male = Mężczyzna
 female = Kobieta
 # Gender
@@ -247,10 +245,8 @@ avatar = Awatar
 goals = Cele
 settings = Ustawienia
 edit-profile = Edytuj profil
-profile-create = Utwórz profil
 profile-create-success = Pomyślnie utworzono profil.
 profile-close = Zamknij
-profile-clear-modal = Wyczyszczenie danych profilu oznacza, że te informacje demograficzne nie będą już wysyłane do projektu Common Voice razem z nagraniami.
 profile-explanation = Kontroluj swój postęp za pomocą profilu i pomóż zwiększyć dokładność naszych danych.
 thanks-for-account = Dziękujemy za potwierdzenie konta. Zbudujmy teraz Twój profil.
 why-demographic = Dlaczego to ważne?
@@ -277,6 +273,7 @@ gravatar_not_found = Nie odnaleziono awatara Gravatar dla tego adresu e-mail
 file_too_large = Wybrany plik jest za duży
 manage-subscriptions = Zarządzaj subskrypcjami
 email-already-used = Adres e-mail jest już używany przez inne konto
+add-language = Dodaj język
 
 ## FAQ
 
@@ -300,11 +297,6 @@ faq-hours-a = Jest to przybliżona liczba godzin wymagana do uruchomienia system
 faq-source-q = Skąd pochodzi tekst źródłowy?
 faq-source-a1 = Rozróżniamy dwa źródła tekstów. Cześć z nich jest tworzona przez użytkowników i udostępniana w ramach współpracy nad projektem. Pozostałe z kolei pochodzą ze źródeł należących do domeny publicznej.
 faq-source-a2 = Możesz zobaczyć teksty źródłowe <dataLink>w tym repozytorium GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = Po co profil?
-profile-why-content = Dodając informację o sobie, dane zbierane w projekcie Common Voice będą bardziej użyteczne dla systemów rozpoznawania mowy, co może poprawić dokładność wyników.
 
 ## NotFound
 
@@ -468,3 +460,14 @@ contribution-activity = Aktywność
 top-contributors = Najaktywniejsi
 recorded-clips = Nagrane
 validated-clips = Sprawdzone nagrania
+total-approved = Razem zatwierdzone
+overall-accuracy = Ogólna dokładność
+
+## Profile Delete
+
+delete-q = Czy chcesz poprosić o usunięcie także Twoich nagrań, czy wolisz zachować je w zestawie danych Common Voice?
+keep = Zachowaj
+remove = Usuń
+keep-info = Twoje anonimowe nagrania pozostaną w zestawie danych Common Voice. Po usunięciu profilu nie będzie już można wysłać prośby o ich usunięcie
+remove-info = Zweryfikujemy Twoją prośbę o usunięcie nagrań z zestawu danych. Jeśli zostanie zatwierdzona, skontaktujemy się z tymi, którzy pobrali zestaw i poprosimy ich o usunięcie Twoich nagrań.
+profile-form-delete = Usuń profil
