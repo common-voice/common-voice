@@ -17,6 +17,7 @@ ar = Arabi
 as = Assamés
 ast = Asturian
 az = Azèri
+bg = Bulgar
 bn = Bengali
 br = Breton
 bxr = Burma
@@ -27,11 +28,13 @@ cv = Chuvash
 cy = Gallés
 da = Danés
 de = Alemand
+dsb = Sèrbe bas
 el = Grèc
 en = Anglés
 eo = Esperanto
 es = Castelhan
 et = Estonian
+eu = Basc
 fa = Pèrse
 fi = Finés
 fo = Faroés
@@ -39,6 +42,7 @@ fr = Francés
 fy-NL = Frison
 ga-IE = Irlandés
 he = Ebrieu
+hsb = Sèrbe naut
 hu = Ongrés
 ia = Interlingua
 id = Indonesian
@@ -58,6 +62,7 @@ nn-NO = Norvegian Nynorsk
 oc = Occitan
 or = Odia
 pl = Polonés
+pt-BR = Portugués (Brasil)
 ro = Romanés
 ru = Rus
 sk = Eslovac
@@ -74,6 +79,9 @@ uk = Ucraïnian
 ur = Ordo
 uz = Uzbec
 vi = Vietnamian
+zh-CN = Mandarin (China)
+zh-HK = Mandarin (Hong Kong)
+zh-TW = Mandarin (Taiwan)
 
 # [/]
 
@@ -96,9 +104,6 @@ share-title = Ajudatz-nos a trobar mai de personas per donar lo votz !
 share-text = Ajudatz las maquinas a aprendre a parlar coma de vertadièras personas en donar vòstra votz sus { $link }
 link-copied = Ligam copiat
 back-top = Naut de la pagina
-contribution-banner-text = Avèm ajustat una nòva interfàcia de collaboracion
-contribution-banner-button = L’ensajar
-report-bugs-link = Senhalar de problèmas
 logout = Desconnexion
 
 ## Home Page
@@ -145,19 +150,13 @@ native-language =
 profile-form-submit-save = Enregistrar
 # Gender
 other = Autre
-profile = Perfil
 edit-profile = Modificar lo perfil
-profile-create = Crear un perfil
 profile-close = Tampar
 edit = Modificar
 
 ## FAQ
 
 faq-what-q = Qu’es aquò Common Voice ?
-
-## Profile
-
-profile-why-title = Perqué cal un perfil ?
 
 ## NotFound
 
@@ -212,3 +211,12 @@ shortcuts = Acorchis
 record-no-mic-found = Cap de microfòn pas trobat.
 record-button-label = Enregistrar vòstra votz
 share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
