@@ -8,7 +8,7 @@ email-input =
     .label = E-mail
 submit-form-action = Odeslat
 loading = Načítání…
-email-opt-in-privacy = Rozhodnutím se přijímat emaily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů<privacyLink> společnosti Mozilla.
+email-opt-in-privacy = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů<privacyLink> společnosti Mozilla.
 indicates-required = * označuje povinná pole
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -389,5 +389,5 @@ everyone = Všichni
 
 keep = Zachovat
 remove = Odebrat
-keep-info = Vaše anonymní hlasové záznamy zůstanou v databázi Common Voice. Po odstranění profilu již nebudete moci zadat žádost o odstranění Vašich záznamů z databáze
+keep-info = Vaše anonymní hlasové záznamy zůstanou v databázi Common Voice. Po odstranění profilu již nebudete moci zadat žádost o odstranění vašich záznamů z databáze
 profile-form-delete = Smazat profil
