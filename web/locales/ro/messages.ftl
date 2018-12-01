@@ -273,6 +273,7 @@ gravatar_not_found = Nu s-a găsit niciun gravatar pentru e-mailul tău
 file_too_large = Fișierul selectat este prea mare
 manage-subscriptions = Gestionează abonamentele
 email-already-used = Adresa de e-mail este deja utilizată pentru alt cont
+add-language = Adaugă o limbă
 
 ## FAQ
 
