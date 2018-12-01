@@ -108,10 +108,13 @@ logout = Desconnexion
 
 ## Home Page
 
+home-cta = Parlatz fòrt, contribuissètz aquí !
 show-wall-of-text = Legir la seguida
+help-us-title = Ajudatz-nos a validar las frasas !
 vote-yes = Òc
 vote-no = Non
 speak-subtitle = Donatz vòstra votz
+listen-subtitle = Nos ajudar a validar las voses
 hours-recorded = Oras enregistradas
 hours-validated = Oras validadas
 read-terms-q = Avètz legit las condicions d’utilizacion ?
@@ -124,9 +127,11 @@ today = Uèi
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Lectura/Arrèst
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Enregistrar/Arrestar
 request-language-text = Trobatz pas encara vòstra lenga sus Common Voice ?
 request-language-button = Demandar una lenga
 
@@ -145,11 +150,22 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Atge
+hidden = Amagat
+visible = Visible
 native-language =
     .label = Lenga mairala
 profile-form-submit-save = Enregistrar
+profile-form-submit-saved = Enregistrat
+male = Òme
+female = Femna
 # Gender
 other = Autre
+why-profile-title = Perqué un perfil ?
+dashboard = Tablèu de bòrd
+build-profile = Crear un perfil
+avatar = Avatar
+goals = Objectius
+settings = Paramètres
 edit-profile = Modificar lo perfil
 profile-close = Tampar
 edit = Modificar
@@ -214,9 +230,27 @@ share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Jorn
+       *[other] Jorns
+    }
+recordings =
+    { $count ->
+        [one] Enregistrament
+       *[other] Enregistraments
+    }
+validations =
+    { $count ->
+        [one] Validacion
+       *[other] Validacions
+    }
 
 ## Dashboard
 
 
 ## Profile Delete
 
+keep = Gardar
+remove = Levar
+profile-form-delete = Suprimir lo perfil
