@@ -117,9 +117,6 @@ share-title = Sikourit ac'hanomp da gavout tud all da reiñ o mouezh!
 share-text = Sikourit ar mekanikoù da gompren penaos e komz an dud wirion, roit ho mouezh da { $link }
 link-copied = Liamm eilet
 back-top = Distreiñ d'ar c'hrec'h
-contribution-banner-text = Emaomp o paouez ouzhpennañ un doare nevez da gemer-perzh
-contribution-banner-button = Esaeit 'ta
-report-bugs-link = Skoazellit da zanevelliñ beugoù
 logout = Digevreañ
 
 ## Home Page
@@ -224,8 +221,6 @@ english = Saozneg
 
 ## ProfileForm
 
-profile-form-cancel = Kuitaat ar furmskrid
-profile-form-delete = Dilemel ar profil
 profile-form-username =
     .label = Anv implijer
 profile-form-language =
@@ -244,8 +239,6 @@ native-language =
     .label = Yezh c'henidik
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
-profile-keep-data = Mirout ar roadennoù
-profile-delete-data = Dilemel ar roadennoù
 male = Paotr
 female = Plac'h
 # Gender
@@ -253,14 +246,10 @@ other = All
 why-profile-title = Perak ur profil?
 why-profile-text = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
 build-profile = Sevel ar profil
-profile = Profil
 avatar = Avatar
-preferences = Gwellvezioù
 edit-profile = Aozañ ar profil
-profile-create = Krouiñ ur profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
-profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù son.
 profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
 thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
 why-demographic = Perak e vez pouezus?
@@ -306,11 +295,6 @@ faq-hours-a = Ar c'hementad goulennet eo mui pe vui evit bezañ gouest da seveni
 faq-source-q = Eus pelec'h e teu an testennoù?
 faq-source-a1 = Ar frazennoù a zo anezho evit ar mare a zeu eus roadennoù ar perzhidi, met ivez eus eskemmoù filmoù 'zo hag a zo en domani foran evel <italic>It's a Wonderful Life.</italic>.
 faq-source-a2 = Gallout a rit gwelet mammennoù hor frazennoù en teuliad <dataLink>Github-mañ</dataLink>.
-
-## Profile
-
-profile-why-title = Perak ur profil?
-profile-why-content = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
 
 ## NotFound
 
@@ -405,8 +389,8 @@ listen = Selaou
 skip = Mont hebioù
 shortcuts = Berradurioù
 clips-with-count = <bold>{ $count }</bold> a glipoù
-goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal enrollañ pemdeziek { $goalValue }!
-goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal gwiriañ pemdeziek { $goalValue }!
+goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue }  a frazennoù enrollet bemdez!
+goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue }  a frazennoù gwiriet bemdez!
 contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Enrollañ
 record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
@@ -441,3 +425,13 @@ listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
 nothing-to-validate = N'eus mann da wiriañ evit ar yezh-mañ, skoazellit ac'hanomp da leuniañ ar steudad-c'hortoz.
 record-button-label = Enrollit ho mouezh
 share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Dilemel ar profil
