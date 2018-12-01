@@ -247,6 +247,8 @@ why-profile-title = Perak ur profil?
 why-profile-text = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
 build-profile = Sevel ar profil
 avatar = Avatar
+goals = Palioù
+settings = Arventennoù
 edit-profile = Aozañ ar profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
@@ -258,6 +260,7 @@ keep-me-posted =
     .label = C'hoant em befe tennañ gounit eus an hizivadurioù ha bezañ gouzout penaos ez a war-raok ar raktres Common Voice.
 accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e-barzh <privacyLink>Politikerezh Buhez Prevez</privacyLink> Mozilla
 login-identity = Identelezh kevreañ
+login-signup = Kevreañ / Lakaat e anv
 edit = Aozañ
 email-subscriptions = Koumanantoù d'ar roll-bosteloù
 download-profile = Pellgargañ ma roadennoù
@@ -267,11 +270,14 @@ skip-submission-description = E-pad ar gasadenn gendaolañ, graet e vo fae ouzh 
 skip-submission-note = Notennit eta: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
 off = Lazhet
 on = Enaouet
+add-avatar-title = Ouzhpennañ un avatar d'ho profil
+browse-file-title = Pellgasit ur restr skeudenn
 browse-file = Rinklañ-leuskel pe <browseWrap>Verdeit</browseWrap>
 connect-gravatar = Kevreañ gant Gravatar
 gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
 manage-subscriptions = Merañ ar c'houmanantoù
+add-language = Ouzhpennañ ur yezh
 
 ## FAQ
 
@@ -428,9 +434,28 @@ share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Deiz
+        [two] Deiz
+        [few] Deiz
+        [many] a zeizioù
+       *[other] Deiz
+    }
+recordings =
+    { $count ->
+        [one] Enrolladenn
+        [two] Enrolladenn
+        [few] Enrolladenn
+        [many] a enrolladennoù
+       *[other] Enrolladenn
+    }
 
 ## Dashboard
 
+stats = Stats
+you = C'hwi
+everyone = An holl
 
 ## Profile Delete
 
