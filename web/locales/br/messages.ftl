@@ -8,6 +8,7 @@ email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
+indicates-required = * A ziskouez ar maeziennoù rekizet
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -245,6 +246,7 @@ female = Plac'h
 other = All
 why-profile-title = Perak ur profil?
 why-profile-text = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
+dashboard = Taolenn-stur
 build-profile = Sevel ar profil
 avatar = Avatar
 goals = Palioù
@@ -277,6 +279,7 @@ connect-gravatar = Kevreañ gant Gravatar
 gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
 manage-subscriptions = Merañ ar c'houmanantoù
+email-already-used = Ar postel a zo implijet dija evit ur gont all
 add-language = Ouzhpennañ ur yezh
 
 ## FAQ
@@ -434,6 +437,7 @@ share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
 
 ## Goals
 
+streaks = Rezennoù
 days =
     { $count ->
         [one] Deiz
@@ -450,13 +454,24 @@ recordings =
         [many] a enrolladennoù
        *[other] Enrolladenn
     }
+validations =
+    { $count ->
+        [one] Gadarnadenn
+        [two] Gadarnadenn
+        [few] Kadarnadenn
+        [many] a gadarnadennoù
+       *[other] Kadarnadenn
+    }
 
 ## Dashboard
 
+toward-next-goal = Betek ar pal da zont
 stats = Stats
 you = C'hwi
 everyone = An holl
 
 ## Profile Delete
 
+keep = Mirout
+remove = Dilemel
 profile-form-delete = Dilemel ar profil
