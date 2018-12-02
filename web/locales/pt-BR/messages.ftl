@@ -69,12 +69,14 @@ nb-NO = Norueguês (Bokmål)
 ne-NP = Nepalês
 nl = Holandês
 nn-NO = Novo norueguês
+oc = Occitânico
 or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
 ro = Romeno
 ru = Russo
 sah = Sakha
+sc = Sardo
 sk = Eslovaco
 sl = Esloveno
 sq = Albanês
@@ -199,8 +201,6 @@ english = Inglês
 
 ## ProfileForm
 
-profile-form-cancel = Sair do formulário
-profile-form-delete = Excluir perfil
 profile-form-username =
     .label = Usuário
 profile-form-language =
@@ -219,8 +219,6 @@ native-language =
     .label = Idioma nativo
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
-profile-keep-data = Manter dados
-profile-delete-data = Excluir dados
 male = Masculino
 female = Feminino
 # Gender
@@ -232,14 +230,20 @@ avatar = Avatar
 goals = Objetivos
 settings = Configurações
 edit-profile = Editar perfil
-profile-create = Criar um perfil
 profile-create-success = Perfil criado com sucesso!
 profile-close = Fechar
-profile-clear-modal = Limpar seus dados de perfil significa que esta informação demográfica não será mais enviada ao Common Voice com suas gravações.
 profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gravações sejam cada vez mais precisas.
 thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir seu perfil.
 why-demographic = Por que isto é importante?
+login-identity = Identidade de acesso
+login-signup = Entrar / Inscrever-se
 edit = Editar
+email-subscriptions = Inscrições de e-mails
+download-profile = Baixar meus dados
+contribution-experience = Experiência de colaboração
+skip-submission-feedback = Ignorar comentários de envio
+off = Desligar
+on = Ligar
 connect-gravatar = Conectar com Gravatar
 gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
@@ -268,11 +272,6 @@ faq-hours-a = Esse é o número aproximado de horas necessário para treinar um 
 faq-source-q = De onde vem o texto fonte?
 faq-source-a1 = As frases atualmente vêm de doações de contribuidores, assim como diálogos de roteiros de filmes em domínio público como <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Você pode ver nossas frases <dataLink>nessa pasta no GItHub</dataLink>.
-
-## Profile
-
-profile-why-title = Por que um perfil?
-profile-why-content = Ao fornecer algumas informações sobre você, os dados de áudio que enviar ao Common Voice serão úteis ao mecanismo de Reconhecimento de Fala que usa esses dados para melhorar a precisão.
 
 ## NotFound
 
@@ -405,6 +404,7 @@ share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 
 ## Goals
 
+streaks = Metas
 days =
     { $count ->
         [one] dia
@@ -431,3 +431,11 @@ contribution-activity = Atividade de contribuição
 top-contributors = Principais contribuidores
 recorded-clips = Clipes gravados
 validated-clips = Clipes validados
+total-approved = Total aprovado
+overall-accuracy = Precisão geral
+
+## Profile Delete
+
+keep = Manter
+remove = Remover
+profile-form-delete = Excluir perfil
