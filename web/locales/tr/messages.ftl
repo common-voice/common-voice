@@ -209,8 +209,6 @@ english = İngilizce
 
 ## ProfileForm
 
-profile-form-cancel = Formdan çık
-profile-form-delete = Profilimi sil
 profile-form-username =
     .label = Kullanıcı adı
 profile-form-language =
@@ -229,8 +227,6 @@ native-language =
     .label = Anadili
 profile-form-submit-save = Kaydet
 profile-form-submit-saved = Kaydedildi
-profile-keep-data = Verileri tut
-profile-delete-data = Verileri sil
 male = Erkek
 female = Kadın
 # Gender
@@ -240,12 +236,11 @@ why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’
 dashboard = Pano
 build-profile = Profil oluştur
 avatar = Avatar
+goals = Hedefler
 settings = Ayarlar
 edit-profile = Profili düzenle
-profile-create = Profil oluştur
 profile-create-success = Profil başarıyla oluşturuldu!
 profile-close = Kapat
-profile-clear-modal = Profil verilerinizi silerseniz bu demografik bilgiler artık ses kayıtlarınızla birlikte Common Voice'a gönderilmeyecektir.
 profile-explanation = Profil oluşturarak hem ilerlemenizi takip edebilir hem de ses verilerimizin daha verimli olmasını sağlayabilirsiniz.
 thanks-for-account = Hesabınızı onayladığınız için teşekkür ederiz. Şimdi profilinizi oluşturalım.
 why-demographic = Bu neden önemli?
@@ -272,6 +267,7 @@ gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
 manage-subscriptions = Abonelikleri yönet
 email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
+add-language = Dil ekle
 
 ## FAQ
 
@@ -295,11 +291,6 @@ faq-hours-a = Bu süre, işe yarar bir STT (konuşmayı metne dönüştürme) si
 faq-source-q = Kaynak metinler nereden geliyor?
 faq-source-a1 = Mevcut cümleler gönüllülerimizden ve <italic>It’s a Wonderful Life</italic> gibi telif hakkı sona ermiş filmlerdeki konuşmalardan geliyor.
 faq-source-a2 = Kaynak cümlelerimizi <dataLink>bu GitHub klasöründe</dataLink> bulabilirsiniz.
-
-## Profile
-
-profile-why-title = Neden profil oluşturmalıyım?
-profile-why-content = Kendiniz hakkında biraz bilgi verirseniz, Common Voice’a gönderdiğiniz ses verileri, doğruluğu artırmak için bu verileri kullanan Konuşma Tanıma motorlarının daha fazla işine yarayacaktır.
 
 ## NotFound
 
@@ -435,11 +426,19 @@ nothing-to-validate = Bu dilde doğrulanacak bir şey kalmamış. Kuyruğu doldu
 record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 
+## Goals
+
+
 ## Dashboard
 
+stats = İstatistikler
 you = Siz
 everyone = Herkes
 contribution-activity = Katkı Etkinliği
 top-contributors = En Çok Katkıda Bulunanlar
 recorded-clips = Kaydedilen ses
 validated-clips = Doğrulanan ses
+
+## Profile Delete
+
+profile-form-delete = Profilimi sil
