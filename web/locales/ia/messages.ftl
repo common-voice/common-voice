@@ -8,6 +8,8 @@ email-input =
     .label = Email
 submit-form-action = Inviar
 loading = Cargamento…
+email-opt-in-privacy = Si ti opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
+indicates-required = * indica un campo obligatori
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -267,6 +269,7 @@ gravatar_not_found = Nulle gravatar trovate pro tu email
 file_too_large = Le file seligite es troppo grande
 manage-subscriptions = Gerer le subscriptiones
 email-already-used = Iste email es jam utilisate pro un conto differente
+add-language = Adder un lingua
 
 ## FAQ
 
@@ -427,10 +430,16 @@ share-title-new = <bold>Adiuta nos</bold> a trovar altere voces
 
 ## Goals
 
+streaks = Tracias
 days =
     { $count ->
         [one] Die
        *[other] Dies
+    }
+recordings =
+    { $count ->
+        [one] Registration
+       *[other] Registrationes
     }
 validations =
     { $count ->
@@ -440,10 +449,16 @@ validations =
 
 ## Dashboard
 
+toward-next-goal = Verso le proxime objectivo
+stats = Statistica
 you = Tu
+everyone = Totes
+contribution-activity = Activate de collaboration
 top-contributors = Principal collaboratores
+total-approved = Total approbate
 
 ## Profile Delete
 
+keep = Retener
 remove = Remover
 profile-form-delete = Deler le profilo
