@@ -17,7 +17,8 @@ footer {
         height: 9.3rem;
     }
 
-    & a, & button {
+    & a,
+    & button {
         box-sizing: border-box;
         text-align: center;
         width: 10rem;
@@ -29,7 +30,7 @@ footer {
         }
 
         &:hover {
-            opacity: .6;
+            opacity: 0.6;
         }
     }
 
@@ -85,6 +86,7 @@ footer {
 
     & .logo-container {
         display: flex;
+        flex: 1;
         flex-direction: row;
         justify-content: space-between;
         margin-top: 4rem;
@@ -101,7 +103,8 @@ footer {
             padding-right: 4rem;
         }
 
-        & .main-logo, & .main-mozilla-logo {
+        & .main-logo,
+        & .main-mozilla-logo {
             height: 2.5rem;
             max-height: 2.5rem;
 
@@ -111,7 +114,7 @@ footer {
         }
 
         & .license {
-            font-size: .7rem;
+            font-size: 0.7rem;
 
             @media (--md-up) {
                 margin-top: 1.5rem;
@@ -126,6 +129,7 @@ footer {
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
+        flex: 1;
         justify-content: space-between;
 
         @media (--md-up) {
@@ -168,7 +172,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255,255,255,.1);
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1);
 
     & .title {
         margin-bottom: 1rem;
@@ -188,5 +193,43 @@ footer {
         & > * {
             margin: 0 21px;
         }
+    }
+}
+
+#email-subscription {
+    //border: 1px solid white;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+    //width: 500px;
+
+    & .title {
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 0.95rem;
+        font-weight: normal;
+        font-family: sans-serif;
+        color: var(--warm-grey);
+    }
+
+    & .submission {
+        height: 45px;
+        display: flex;
+
+        //justify-content: space-around;
+
+        /* & > * {
+          margin: 0 21px;
+      } */
+    }
+
+    & .input {
+        width: 100%;
+    }
+
+    & .submit {
+        width: 45px;
+        background-color: orange;
     }
 }
