@@ -615,6 +615,8 @@ export const UserPlusIcon = uniqueIcon(id => (
   </svg>
 ));
 
+export const CautionIcon = Icon('/img/exclamation.svg', 'exclamation');
+
 const FONT_ICONS = {
   chrome: '',
   facebook: '',

@@ -6,6 +6,7 @@ footer {
 }
 
 #help-links {
+    margin-top: calc(2 * var(--standard-margin));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +45,7 @@ footer {
 
     & .divider {
         display: none;
-        border-inline-end: 2px solid darkgrey;
+        border-right: 2px solid darkgrey;
         height: 2.5rem;
 
         @media (--md-up) {
@@ -85,6 +86,7 @@ footer {
 
     & .logo-container {
         display: flex;
+        flex: 1;
         flex-direction: row;
         justify-content: space-between;
         margin-top: 4rem;
@@ -92,13 +94,13 @@ footer {
         @media (--md-up) {
             flex-direction: column;
             min-width: 9rem;
-            margin-inline-end: 8rem;
+            margin-right: 8rem;
             margin-top: 0;
         }
 
         & .main-logo {
             font-size: 1rem;
-            padding-inline-end: 4rem;
+            padding-right: 4rem;
         }
 
         & .main-logo,
@@ -127,11 +129,12 @@ footer {
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
+        flex: 1;
         justify-content: space-between;
 
         @media (--md-up) {
             max-width: 18rem;
-            margin-inline-end: 4rem;
+            margin-right: 4rem;
             margin-top: 0;
             padding: 0;
         }
@@ -169,6 +172,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
     background-color: rgba(255, 255, 255, 0.1);
 
     & .title {
@@ -189,5 +193,16 @@ footer {
         & > * {
             margin: 0 21px;
         }
+    }
+}
+
+#email-subscription {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    flex: 1.5;
+
+    @media (--md-up) {
+        padding: 1.5rem 2rem;
     }
 }

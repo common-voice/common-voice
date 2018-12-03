@@ -6,18 +6,19 @@ import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
 import ShareButtons from '../share-buttons/share-buttons';
 import {
-  localeConnector,
-  LocaleLink,
-  LocalePropsFromState,
-} from '../locale-helpers';
-import {
   ContactIcon,
   DiscourseIcon,
   GithubIcon,
   SupportIcon,
 } from '../ui/icons';
 import { TextButton } from '../ui/ui';
+import {
+  localeConnector,
+  LocaleLink,
+  LocalePropsFromState,
+} from '../locale-helpers';
 import Logo from './logo';
+import SubscribeNewsletter from './subscribe-newsletter';
 
 import './footer.css';
 
@@ -105,6 +106,7 @@ const Footer = React.memo(({ locale }: LocalePropsFromState) => {
             <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
           </div>
         </div>
+
         <div id="sharing">
           <Localized id="share-title">
             <span className="title" />
@@ -114,6 +116,11 @@ const Footer = React.memo(({ locale }: LocalePropsFromState) => {
             <ShareButtons />
           </div>
         </div>
+
+        <div id="email-subscription">
+          <SubscribeNewsletter />
+        </div>
+
         <Localized id="back-top">
           <TextButton
             className="back-top"

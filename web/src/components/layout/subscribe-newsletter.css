@@ -1,0 +1,91 @@
+@import url('../vars.css');
+
+.subscribe-newsletter {
+    display: flex;
+    font-family: var(--base-font-family);
+    font-size: var(--font-size-xs);
+    letter-spacing: 0.4px;
+
+    & label {
+        flex: 1;
+    }
+
+    & .title {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: var(--warm-grey);
+    }
+
+    & input,
+    & button {
+        height: 42px;
+        box-sizing: border-box;
+    }
+
+    & input {
+        flex: 6;
+        border: none;
+        width: 100%;
+        padding: 15px;
+        font-size: var(--font-size);
+        background: transparent;
+
+        &:focus {
+            outline: none !important;
+        }
+
+        &:focus,
+        &.has-value {
+            background: var(--white);
+        }
+
+        &::placeholder {
+            color: var(--warm-grey);
+        }
+    }
+
+    & button {
+        align-self: flex-end;
+        border: none;
+        outline: none;
+        width: 45px;
+        position: relative;
+        transition: all 300ms;
+    }
+
+    & .submit-button {
+        background-color: var(--blue);
+
+        & .icon {
+            height: 12px;
+        }
+    }
+
+    & .success-button {
+        background-color: var(--valid-green);
+
+        & .icon {
+            height: 25px;
+        }
+    }
+
+    & .error-button {
+        background-color: var(--red);
+
+        & .icon {
+            height: 24px;
+        }
+    }
+
+    & .icon {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        & path {
+            fill: white;
+        }
+    }
+}
