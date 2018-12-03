@@ -8,6 +8,7 @@ email-input =
     .label = Corréu
 submit-form-action = Unviar
 loading = Cargando...
+indicates-required = * indica que ye un campu riquíu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +39,7 @@ en = Inglés
 eo = Esperantu
 es = Español
 et = Estoniu
+eu = Vascu
 fa = Persa
 fi = Finlandés
 fo = Feroés
@@ -75,6 +77,7 @@ rm-sursilv = Romanche surselvu
 ro = Rumanu
 ru = Rusu
 sah = Sakha
+sc = Sardu
 sk = Eslovacu
 sl = Eslovenu
 sq = Albanés
@@ -114,9 +117,7 @@ share-title = ¡Ayúdanos a alcontrar a xente que nos empreste la so voz!
 share-text = Enséña-yos a les máquines cómo falen los humanos. Empresta la to voz en { $link }
 link-copied = Copióse l'enllaz
 back-top = Volver a arriba
-contribution-banner-text = Tamos acabante de llanzar una esperiencia nueva de collaboración
-contribution-banner-button = Écha-y un güeyu
-report-bugs-link = Ayuda a informar de fallos
+logout = Zarrar sesión
 
 ## Home Page
 
@@ -158,6 +159,7 @@ listen-paragraph = Validar los clips ye tamién importante pa la misión de Comm
 listen-goal-text = Clips validaos
 hours-recorded = Hores grabaes
 hours-validated = Hores validaes
+todays-progress = Progresu de güei
 read-terms-q = ¿Lleesti los nuesos términos?
 ready-to-record = ¿Preparáu pa emprestar la to voz?
 all-languages = Toles llingües
@@ -221,8 +223,6 @@ english = Inglés
 
 ## ProfileForm
 
-profile-form-cancel = Colar del formulariu
-profile-form-delete = Desaniciar perfil
 profile-form-username =
     .label = Nome d'usuariu
 profile-form-language =
@@ -235,12 +235,11 @@ profile-form-gender =
     .label = Xéneru
 leaderboard-visibility =
     .label = Visibilidá de la tabla de líderes
+visible = Visible
 native-language =
     .label = Llingua nativa
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardóse
-profile-keep-data = Caltener datos
-profile-delete-data = Desaniciar datos
 male = Masculín
 female = Femenín
 # Gender
@@ -249,11 +248,11 @@ why-profile-title = ¿Por qué un perfil?
 why-profile-text =
     Apurriendo dellos datos tocante a ti, los datos d'audiu qu'unvies a Common Voice van ser más útiles pa los motores de
     reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
+avatar = Avatar
+goals = Metes
 edit-profile = Editar perfil
-profile-create = Creación d'un perfil
 profile-create-success = ¡Creóse'l perfil con ésitu!
 profile-close = Zarrar
-profile-clear-modal = Llimpiar el perfil significa qu'esta información demográfica yá nun va unviase a Common Voice xunto coles tos grabaciones.
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa esto?
@@ -295,11 +294,6 @@ faq-source-q = ¿D'ónde vien el testu fonte?
 faq-source-a1 = Les frases actuales vienen de donaciones de collaboradores, tamién de guiones de películes de dominiu públicu como <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Pues ver l'orixe de les nueses frases <dataLink>nesta carpeta de GitHub</dataLink>.
 
-## Profile
-
-profile-why-title = ¿Por qué un perfil?
-profile-why-content = Apurriendo dellos datos tocante a ti, los datos d'audiu qu'unvies a Common Voice van ser más útiles pa los motores de reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
-
 ## NotFound
 
 notfound-title = Nun s'alcontró
@@ -327,21 +321,6 @@ data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
-
-## Record Page
-
-record-platform-not-supported = Sentímoslo pero anguaño nun se sofita la to plataforma.
-record-platform-not-supported-desktop = N'ordenadores, pues baxar:
-record-platform-not-supported-ios = Los usuarios d'<bold>iOS</bold> puen baxar la nuesa aplicación de baldre:
-record-must-allow-microphone = Has permitir l'accesu al micrófonu.
-record-retry = Retentar
-record-no-mic-found = Nun s'alcontró'l micrófonu.
-record-error-too-short = La grabación foi percurtia.
-record-error-too-long = La grabación foi perllarga.
-record-error-too-quiet = La grabación foi persilenciosa.
-record-submit-success = ¡L'unviu tuvo ésitu! ¿Quies grabar de nueves?
-record-help = Calca pa grabar, darréu llei n'alto la fras d'enriba
-record-cancel = Encaboxar grabación
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>noticia de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Nun aceuto
@@ -416,6 +395,15 @@ contribute-more =
        *[other] ¿Quies facer { $count } más?
     }
 record-cta = Aniciar grabación
+record-platform-not-supported = Sentímoslo pero anguaño nun se sofita la to plataforma.
+record-platform-not-supported-desktop = N'ordenadores, pues baxar:
+record-platform-not-supported-ios = Los usuarios d'<bold>iOS</bold> puen baxar la nuesa aplicación de baldre:
+record-must-allow-microphone = Has permitir l'accesu al micrófonu.
+record-no-mic-found = Nun s'alcontró'l micrófonu.
+record-error-too-short = La grabación foi percurtia.
+record-error-too-long = La grabación foi perllarga.
+record-error-too-quiet = La grabación foi persilenciosa.
+record-cancel = Encaboxar grabación
 record-instruction = { $actionType }<recordIcon></recordIcon> y llei la fras n'alto
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cuando termines
 record-three-more-instruction = ¡Tres p'acabar!
@@ -439,3 +427,13 @@ listen-last-time-instruction = <playIcon></playIcon>¡La última!
 nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a enllenar la cola.
 record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Desaniciar perfil
