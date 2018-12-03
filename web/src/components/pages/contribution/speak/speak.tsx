@@ -327,6 +327,8 @@ class SpeakPage extends React.Component<Props, State> {
 
     const clips = this.state.clips.filter(clip => clip.recording);
 
+    removeSentences(clips.map(c => c.sentence.id));
+
     this.setState({ clips: [], isSubmitted: true });
 
     addUploads([
@@ -365,8 +367,6 @@ class SpeakPage extends React.Component<Props, State> {
         );
       },
     ]);
-
-    removeSentences(clips.map(c => c.sentence.id));
 
     return true;
   };
