@@ -60,3 +60,15 @@ export const PlayLink = (props: any) => (
     <OldPlayIcon />
   </PrimaryButton>
 );
+
+export const SubmitButton = (props: any) => (
+  <PrimaryButton>
+    <OldPlayIcon />
+  </PrimaryButton>
+);
+
+export const SentButton = (props: any) => (
+  <PrimaryButton>
+    <MicIcon />
+  </PrimaryButton>
+);
