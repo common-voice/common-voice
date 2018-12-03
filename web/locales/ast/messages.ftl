@@ -22,6 +22,7 @@ ar = Árabe
 as = Asamés
 ast = Asturianu
 az = Azerbaixanu
+bg = Búlgaru
 bn = Bengalí
 br = Bretón
 bxr = Buriatu
@@ -159,6 +160,7 @@ listen-paragraph = Validar los clips ye tamién importante pa la misión de Comm
 listen-goal-text = Clips validaos
 hours-recorded = Hores grabaes
 hours-validated = Hores validaes
+voices-online = Voces en llinia anguaño
 todays-progress = Progresu de güei
 read-terms-q = ¿Lleesti los nuesos términos?
 ready-to-record = ¿Preparáu pa emprestar la to voz?
@@ -250,6 +252,7 @@ why-profile-text =
     reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
 avatar = Avatar
 goals = Metes
+settings = Axustes
 edit-profile = Editar perfil
 profile-create-success = ¡Creóse'l perfil con ésitu!
 profile-close = Zarrar
@@ -261,6 +264,7 @@ keep-me-posted =
     .label = Prestaríame tar al día, con anovamientos, pa saber lo último de Common Voice.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 login-identity = Identidá del aniciu de sesión
+login-signup = Aniciar sesión / rexistrase
 edit = Editar
 email-subscriptions = Soscripciones per corréu
 download-profile = Baxar los mios datos
@@ -270,6 +274,7 @@ skip-submission-description = Nel unviu de les collaboraciones van saltase los c
 skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
 off = NON
 on = SÍ
+file_too_large = El ficheru esbilláu ye perllargu
 
 ## FAQ
 
@@ -307,7 +312,7 @@ data-download-deny = Non
 data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
 data-subtitle = Tamos construyendo un conxuntu de datos de voz públicu y disponible que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
-data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y disponibles públicamente dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a tol mundu a que participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
+data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y disponibles públicamente dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a que tol mundu participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
 data-get-started = <speechBlogLink>Entamar cola reconocencia de voz</speechBlogLink>
 data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
@@ -430,10 +435,36 @@ share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Día
+       *[other] Díes
+    }
+recordings =
+    { $count ->
+        [one] Grabación
+       *[other] Grabaciones
+    }
+validations =
+    { $count ->
+        [one] Validación
+       *[other] Validaciones
+    }
 
 ## Dashboard
 
+stats = Estadístiques
+you = Tú
+everyone = Tol mundu
+recorded-clips = Clips grabaos
+validated-clips = Clips validaos
+overall-accuracy = Precisión xeneral
 
 ## Profile Delete
 
+delete-q = ¿Prestaríate solicitar que tamién se desanicien les tos grabaciones o prefieres calteneles nel conxuntu de datos de Common Voice?
+keep = Caltener
+remove = Desaniciar
+keep-info = Les tos grabaciones de voz anónimes van siguir nel conxuntu de datos de Common Voice. Nel momentu que desanicies el to perfil, yá nun vas ser a unviar un solicitú pa desaniciar les tos grabaciones del conxuntu de datos
+remove-info = Vamos revisar la solicitú pa desaniciar les tos grabaciones del conxuntu de datos. Si la solicitú s'aprueba, vamos contautar colos que baxaron el conxuntu de datos y solicita-yos que desanicien tamién les tos grabaciones.
 profile-form-delete = Desaniciar perfil
