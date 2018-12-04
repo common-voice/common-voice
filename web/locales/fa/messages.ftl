@@ -209,6 +209,10 @@ data-download-license = مجوز: <licenseLink>CC-0</licenseLink>
 data-other-title = دیگر مجموعه داده‌های صوتی…
 data-other-goto = برو به { $name }
 data-other-download = دریافت داده‌ها
+license-mixed = درهم
+terms-agree = موافقم
+terms-disagree = موافق نیستم
+review-submit-title = مرور و ارسال
 
 ## Download Modal
 
@@ -222,6 +226,8 @@ contact-form-message =
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = زبان
 
 ## Languages Overview
 
