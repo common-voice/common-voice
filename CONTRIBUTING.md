@@ -8,7 +8,10 @@ By participating in this project, you're agreeing to uphold the [Mozilla Communi
 ## How Can I Contribute?
 
 ### Add More Sentences
-Help us add more sentences for other volunteers to read. See [issue 341](https://github.com/mozilla/voice-web/issues/341) for details.
+
+Help us add more sentences for other volunteers to read.
+
+Right now we have a huge backlog of submitted sentences and work on a tool to let volunteers submit and review sentences. See [discourse](https://discourse.mozilla.org/t/we-want-your-feedback-improving-the-sentence-collection/30358) for details and progress.
 
 ### Bug Fixes and Feature Enhancements
 All of our current issues can be found here on GitHub. Anything with a [help wanted](https://github.com/mozilla/voice-web/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) tag is up for grabs.
