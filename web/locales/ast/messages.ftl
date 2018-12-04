@@ -277,9 +277,11 @@ skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa 
 off = NON
 on = SÍ
 add-avatar-title = Amiestu d'una imaxe al perfil
+browse-file-title = Xuba d'un ficheru
 browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
 connect-gravatar = Coneutar con Gravatar
 file_too_large = El ficheru esbilláu ye perllargu
+manage-subscriptions = Xestión de les soscripciones
 email-already-used = El corréu yá s'usa nuna cuenta diferente
 add-language = Amestar llingua
 
@@ -442,6 +444,7 @@ share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
 
 ## Goals
 
+streaks = Raches
 days =
     { $count ->
         [one] Día
@@ -460,9 +463,12 @@ validations =
 
 ## Dashboard
 
+toward-next-goal = Pa la meta próxima
 stats = Estadístiques
 you = Tú
 everyone = Tol mundu
+contribution-activity = Actividá de les collaboraciones
+top-contributors = Collaboradores destacaos
 recorded-clips = Clips grabaos
 validated-clips = Clips validaos
 total-approved = Total d'aprobaos
