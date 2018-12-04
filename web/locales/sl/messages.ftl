@@ -8,7 +8,7 @@ email-input =
     .label = Elektronski naslov
 submit-form-action = Pošlji
 loading = Nalaganje …
-indicates-required = * Označuje zahtevano polje
+indicates-required = * Zahtevano polje
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -445,6 +445,20 @@ share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 ## Goals
 
 streaks = Nizi
+days =
+    { $count ->
+        [one] dan
+        [two] dni
+        [few] dni
+       *[other] dni
+    }
+recordings =
+    { $count ->
+        [one] posnetek
+        [two] posnetka
+        [few] posnetki
+       *[other] posnetkov
+    }
 
 ## Dashboard
 
