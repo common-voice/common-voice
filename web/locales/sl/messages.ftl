@@ -8,6 +8,7 @@ email-input =
     .label = Elektronski naslov
 submit-form-action = Pošlji
 loading = Nalaganje …
+email-opt-in-privacy = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti<privacyLink>.
 indicates-required = * Zahtevano polje
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -459,9 +460,17 @@ recordings =
         [few] posnetki
        *[other] posnetkov
     }
+validations =
+    { $count ->
+        [one] preverjanje
+        [two] preverjanji
+        [few] preverjanja
+       *[other] preverjanj
+    }
 
 ## Dashboard
 
+toward-next-goal = Do naslednjega cilja
 stats = Statistika
 you = Vi
 everyone = Vsi
@@ -469,9 +478,13 @@ contribution-activity = Dejavnost
 top-contributors = Naj sodelavci
 recorded-clips = Shranjeni posnetki
 validated-clips = Potrjeni posnetki
+total-approved = skupaj potrjenih
+overall-accuracy = natančnost
 
 ## Profile Delete
 
+delete-q = Zahtevate tudi izbris glasovnih posnetkov, ali jih želite obdržati v podatkovni bazi Common Voice?
 keep = Obdrži
 remove = Odstrani
+keep-info = Vaši anonimni glasovni posnetki bodo ostali v podatkovni bazi Common Voice. Ko izbrišete profil, ne boste več mogli zahtevati izbrisa vaših posnetkov iz podatkovne baze
 profile-form-delete = Izbriši profil
