@@ -1723,7 +1723,7 @@ Si appollaiano alquanto grottescamente sulla cima degli alberi.
 È alto circa 1,2 metri.
 Uccelli acquatici molto grandi, adattati al nuoto, ma goffi sulla terraferma.
 I pellicani hanno un lungo becco fornito di una tasca espansibile attaccata alla mascella inferiore flessibile.
-Le zampe corti e potenti sono poste molto indietro sul corpo.
+Le zampe corte e potenti sono poste molto indietro sul corpo.
 Posizione ideale per un rapido nuoto.
 Ma questa caratteristica rende la deambulazione difficoltosa.
 Stranamente sono tutti magnifici volatori, capaci di percorrere lunghe distanze.
@@ -1802,7 +1802,7 @@ La specie è caratterizzata dai richiami, perché hanno sviluppato una loro voca
 Se il pericolo si trova in basso emettono un urlo verso l'alto.
 Se il pericolo si trova in alto emettono un richiamo differente verso il basso.
 Vivono in zone fredde.
-Nelle montagne del Giappone presso le sorgenti vulcaniche dove le acque della pozza sono scaldate del magma.
+Nelle montagne del Giappone presso le sorgenti vulcaniche dove le acque della pozza sono scaldate dal magma.
 Che passa in prossimità di esse per questo vivono a terra.
 Il sedere rosso è un modo di comunicare, più è rosso più e in forma l'animale per l'accoppiamento.
 Non hanno la coda vivendo a terra.
@@ -3149,7 +3149,7 @@ Mamnor lo trovò.
 Esattamente in quella posizione.
 Lo toccò sulla spalla, e fu sorpreso della reattività del giovane.
 Di solito, doveva buttarlo giù dal letto, o buttare del ghiaccio su di lui.
-Quella notte, invece, bastò una leggere spinta per destarlo.
+Quella notte, invece, bastò una leggera spinta per destarlo.
 Il principe si mise a sedere.
 Affondando le mani nei suoi capelli ribelli.
 Cercando di pulire dal viso i segni della notte.
@@ -3245,7 +3245,7 @@ Che era diventato il territorio di uno dei più grandi stati del mondo.
 Come il giorno prima, furono svegliati un'ora prima del tramonto.
 Dalmor, dopo essersi rinfrescato ad una fonte alle spalle della stazione, salì sul tetto di questa.
 Guardandosi attorno.
-Ad ovest non vi era che rocce e monti, e la via per la quale erano giunti lì era celata alla vista.
+Ad ovest non vi erano che rocce e monti, e la via per la quale erano giunti lì era celata alla vista.
 A Nord e Sud la vista era occultata dalle montagne, che si alzavano quasi verticalmente.
 Raggiungendo picchi elevati ed innevati nei cieli.
 Nulla di diverso vi era guardando ad Est.
@@ -4591,7 +4591,7 @@ Si poteva scegliere tra un tour storico nella vecchia città medievale, oppure, 
 Personalmente ho scelto il tour storico medievale.
 Personalmente è stata una esperienza grandiosa accompagnata da persone fantastiche.
 Contribuire al prossimo Mozilla Festival per me non solo è fantastico, ma è una grande opportunità per aiutare la Fondazione.
-Auitare Mozilla a perseguire gli ideali di libertà, uguaglianza e inclusività nel web.
+Aiutare Mozilla a perseguire gli ideali di libertà, uguaglianza e inclusività nel web.
 Nei prossimi giorni verranno pubblicati sul sito ufficiale del summit le registrazione dei talk e le note delle sessioni.
 Sono estremamente contento di questa esperienza.
 Conoscere altre persone che hanno passioni simili alle mie, che portano avanti degli obiettivi attraverso delle community.
@@ -4907,7 +4907,7 @@ Dalle onde, a grande distanza dai moli.
 Subito l'albero coricato su la coperta si rialzò.
 Venne spiegata 1a piccola vela e poichè spirava vento favorevole.
 In breve tempo il curioso battello.
-Navigando alla superficie.
+Navigando sulla superficie.
 Ritornò presso lo scalo.
 Roberto Fulton venne ammesso alla presenza del Primo Console.
 Era, in quel tempo, un bell'uomo su i trentacinque anni, robusto, con la faccia aperta e intelligente.
@@ -8386,7 +8386,7 @@ Pieno di fiducia e di coraggio, ritornò alla villa e cercò subito Magda per me
 La giovane polacca si trovava nel salone.
 Udendolo venire, aveva sussultato ma si era subito rimessa, non appena aveva veduto Carlo sorgere dall'ombra del corridoio.
 Mi avete fatto paura!
-– mormorò con voce bianca e girò il commutatore illuminando la sala.
+Mormorò con voce bianca e girò il commutatore illuminando la sala.
 Carlo fece un gesto di meraviglia, vedendo l'abbigliamento di Magda.
 Un magnifico abito da sera, di laminato d'oro metteva in rilievo le sue forme armoniose.
 Al collo e alle braccia aveva brillanti e gioielli di inestimabile valore.
@@ -8561,7 +8561,7 @@ Il gangster teneva le mani in tasca e zufolava pian piano, fissando ironicamente
 Il colosso bruno gli stava a fianco.
 I suoi occhi chiari, stranamente chiari sotto le sopracciglia folte e nere, erano spalancati dallo stupore.
 Un quintale di carne!
-– disse a voce alta, in inglese, quasi con rispetto.
+Disse a voce alta, in inglese, quasi con rispetto.
 De Vincenzi con gli occhi cercava l'arma.
 Possibile che Kid Tiger avesse sparato e poi l'avesse gettata via o se la fosse rimessa in tasca?
 Sì, possibile, poichè rivoltelle in giro non se ne vedevano.
@@ -10082,15 +10082,15 @@ C'è un pezzo di noi.
 Riprendiamoci la libertà!
 Internet è una risorsa pubblica globale che deve rimanere aperta e accessibile.
 Internet deve arricchire la vita di ogni essere umano.
-L'efficacia di Internet come risorsa pubblica dipende dal suo carattere di interoperabilità.
+L’efficacia di Internet come risorsa pubblica dipende dal suo carattere di interoperabilità.
 Decentralizzata a livello mondiale.
 La partecipazione commerciale allo sviluppo di Internet è in grado di apportare numerosi benefici.
 È fondamentale un equilibrio tra profitto commerciale e benefici pubblici.
 La valorizzazione degli aspetti di pubblica utilità di Internet rappresenta un obiettivo importante.
 Che merita tempo, attenzione ed impegno.
-L'obiettivo di Mozilla è quello di aiutare chiunque a leggere, scrivere e partecipare nel web in modo informato.
-Il Diritto d'autore o CopyRight serve a tutelare l'autore e fornire una remunerazione per un lasso di tempo.
-Definisce la tutela dopo i 50 anni dalla morte dell'autore.
+L’obiettivo di Mozilla è quello di aiutare chiunque a leggere, scrivere e partecipare nel web in modo informato.
+Il Diritto d’autore o CopyRight serve a tutelare l’autore e fornire una remunerazione per un lasso di tempo.
+Definisce la tutela dopo i 50 anni dalla morte dell’autore
 Il diritto è tutelato nei paesi che fanno parte della convenzione.
 Ultima revisione del 1971.
 Amministrata oggi da Organizzazione mondiale per la proprietà intellettuale dell'ONU.
