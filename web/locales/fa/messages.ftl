@@ -101,26 +101,96 @@ vote-no = خیر
 speak-subtitle = صدای خود را اهدا کنید
 all-languages = همه‌ی زبان‌ها
 today = امروز
+x-weeks-short =
+    { $count ->
+        [one] هفته
+       *[other] { $count }هفته
+    }
+x-months-short =
+    { $count ->
+        [one] ماه
+       *[other] { $count }ماه
+    }
+x-years-short =
+    { $count ->
+        [one] سال
+       *[other] { $count }سال
+    }
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = پخش/توقف
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ضبط/توقف
+request-language-text = زبان خود را در «صدای مشترک» مشاهده نمی‌کنید؟
+request-language-button = درخواست یک زبان
 
 ## ProjectStatus
 
+status-title = وضعیت کلی پروژه: ببینید پیشرفت ما تا چه حدی بوده است!
+status-contribute = صدای خود را اهدا کنید
+status-hours =
+    { $hours ->
+        [one] تاکنون یک ساعت اعتبارسنجی شده
+       *[other] تاکنون { $hours } ساعت اعتبارسنجی شده
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = هدف‌های بعدی: { $goal }
+english = انگلیسی
 
 ## ProfileForm
 
+profile-form-username =
+    .label = نام کاربری
+profile-form-language =
+    .label = زبان
+profile-form-accent =
+    .label = لهجه
+profile-form-age =
+    .label = سن
+profile-form-gender =
+    .label = جنسیت
+hidden = پنهان
+visible = قابل مشاهده
+native-language =
+    .label = زبان مادری
+profile-form-submit-save = ذخیره
+profile-form-submit-saved = ذخیره شد
+male = مرد
+female = زن
+# Gender
+other = ‏‏سایر
+goals = هدف‌ها
+settings = تنظیمات
+profile-close = بستن
+why-demographic = چرا این موضوع اهمیت دارد؟
 edit = ویرایش
 email-subscriptions = اشتراک ایمیلی
 download-profile = دریافت داده‌های من
 contribution-experience = تجربه مشارکت
+off = خاموش
 on = روشن
+add-language = افزودن زبان
 
 ## FAQ
 
@@ -128,11 +198,17 @@ faq-title = سوالات متداول
 
 ## NotFound
 
+notfound-title = پیدا نشد
+notfound-content = من نگرانم و نمی دانم شما به دنبال چه هستید.
 
 ## Data
 
 data-download-yes = بله
 data-download-deny = خیر
+data-download-license = مجوز: <licenseLink>CC-0</licenseLink>
+data-other-title = دیگر مجموعه داده‌های صوتی…
+data-other-goto = برو به { $name }
+data-other-download = دریافت داده‌ها
 
 ## Download Modal
 
