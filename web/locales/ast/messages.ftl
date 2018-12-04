@@ -237,6 +237,7 @@ profile-form-gender =
     .label = Xéneru
 leaderboard-visibility =
     .label = Visibilidá de la tabla de líderes
+hidden = Anúbrese
 visible = Visible
 native-language =
     .label = Llingua nativa
@@ -259,7 +260,7 @@ profile-close = Zarrar
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa esto?
-why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun va asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
+why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
 keep-me-posted =
     .label = Prestaríame tar al día, con anovamientos, pa saber lo último de Common Voice.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
@@ -274,7 +275,11 @@ skip-submission-description = Nel unviu de les collaboraciones van saltase los c
 skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
 off = NON
 on = SÍ
+browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
+connect-gravatar = Coneutar con Gravatar
 file_too_large = El ficheru esbilláu ye perllargu
+email-already-used = El corréu yá s'usa nuna cuenta diferente
+add-language = Amestar llingua
 
 ## FAQ
 
