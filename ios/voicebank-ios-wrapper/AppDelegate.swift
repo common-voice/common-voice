@@ -37,6 +37,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+	func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+		// Respond to user tapping authorization URL in their email
+		if userActivity.activityType == NSUserActivityTypeBrowsingWeb {
+			let viewController = UIApplication.shared.keyWindow!.rootViewController as! ViewController
+			let url = userActivity.webpageURL
+			let request = URLRequest(url: url!)
+			viewController.webView?.load(request)
+		}
+		
+		return true
+	}
 }
 

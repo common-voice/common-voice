@@ -53,6 +53,7 @@
 		3E42BC781ECA43B8002E3CDA /* Recorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
 		3EC11D901EF45B6D00589896 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		3EE991BB1ED8B81800432FC5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FCC0561721B60DDE00C44C75 /* voicebank-ios-wrapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "voicebank-ios-wrapper.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 		3E0027CC1EC3C7860050B4AC /* voicebank-ios-wrapper */ = {
 			isa = PBXGroup;
 			children = (
+				FCC0561721B60DDE00C44C75 /* voicebank-ios-wrapper.entitlements */,
 				3E0027CD1EC3C7860050B4AC /* AppDelegate.swift */,
 				3E0027CF1EC3C7860050B4AC /* ViewController.swift */,
 				3E0027D11EC3C7870050B4AC /* Main.storyboard */,
@@ -428,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EL6XVK58NU;
+				CODE_SIGN_ENTITLEMENTS = "voicebank-ios-wrapper/voicebank-ios-wrapper.entitlements";
 				INFOPLIST_FILE = "voicebank-ios-wrapper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -443,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EL6XVK58NU;
+				CODE_SIGN_ENTITLEMENTS = "voicebank-ios-wrapper/voicebank-ios-wrapper.entitlements";
 				INFOPLIST_FILE = "voicebank-ios-wrapper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
