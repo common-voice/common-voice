@@ -8,6 +8,7 @@ email-input =
     .label = E-mailadres
 submit-form-action = Yntsjinje
 loading = Lade…
+email-opt-in-privacy = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied<privacyLink>.
 indicates-required = * jout fereaske fjild oan
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -278,6 +279,7 @@ gravatar_not_found = Foar jo e-mailadres waard gjin Gravatar fûn
 file_too_large = It selektearre bestân is te grut
 manage-subscriptions = Abonneminten beheare
 email-already-used = E-mailadres wurdt al foar in oar account brûkt
+add-language = Taal tafoegje
 
 ## FAQ
 
@@ -461,10 +463,14 @@ contribution-activity = Meiwurkersaktiviteit
 top-contributors = Topmeiwurkers
 recorded-clips = Opnommen fragminten
 validated-clips = Falidearre fragminten
+total-approved = Totaal goedkard
 overall-accuracy = Algemiene sekuerens
 
 ## Profile Delete
 
+delete-q = Wolle jo ek dat jo stimopnamen fuortsmiten wurde, of wolle jo dizze yn de gegevensset fan Common Voice behâlde?
 keep = Behâlde
 remove = Fuortsmite
+keep-info = Jo anonime stimopnamen bliuwe yn de gegevensset fan Common Voice oanwêzich. Sa gau as jo jo profyl fuortsmite, kinne jo gjin fersyk mear yntsjinje om jo opnamen út de gegevensset fuort te smiten.
+remove-info = Wy sille jo fersyk om jo stimopnamen út de gegevensset fuort te smiten beoardiele. As jo fersyk goedkard wurdt, nimme wy kontakt op mei de partijen dy't de gegevensset download hawwe en freegje wy harren ek jo stimopnamen fuort te smiten.
 profile-form-delete = Profyl fuortsmite
