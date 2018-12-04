@@ -32,6 +32,19 @@
 
     & .submit {
         width: 45px;
-        background-color: orange;
+        background-color: blue;
     }
+}
+
+/* .icon svg {
+    height: 22px;
+    background: orange;
+
+    & path {
+        fill: green;
+    }
+} */
+
+.icon path {
+    fill: white;
 }

@@ -577,6 +577,15 @@ export const UserPlusIcon = uniqueIcon(id => (
   </svg>
 ));
 
+export const CautionIcon = uniqueIcon(id => (
+  <svg width="32" height="32" viewBox="0 0 32 32">
+    <path
+      id="caution-a"
+      d="M16 3c-3.472 0-6.737 1.352-9.192 3.808s-3.808 5.72-3.808 9.192c0 3.472 1.352 6.737 3.808 9.192s5.72 3.808 9.192 3.808c3.472 0 6.737-1.352 9.192-3.808s3.808-5.72 3.808-9.192c0-3.472-1.352-6.737-3.808-9.192s-5.72-3.808-9.192-3.808zM16 0v0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16zM14 22h4v4h-4zM14 6h4v12h-4z"
+    />
+  </svg>
+));
+
 const FONT_ICONS = {
   chrome: '',
   facebook: '',

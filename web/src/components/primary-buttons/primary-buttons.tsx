@@ -1,7 +1,7 @@
 import * as React from 'react';
 import URLS from '../../urls';
 import { LocaleLink } from '../locale-helpers';
-import { MicIcon, OldPlayIcon, StopIcon } from '../ui/icons';
+import { MicIcon, OldPlayIcon, StopIcon, CheckIcon } from '../ui/icons';
 
 import './primary-buttons.css';
 
@@ -58,17 +58,5 @@ export const PlayButton = ({
 export const PlayLink = (props: any) => (
   <PrimaryButton className="play" to={URLS.LISTEN} {...props}>
     <OldPlayIcon />
-  </PrimaryButton>
-);
-
-export const SubmitButton = (props: any) => (
-  <PrimaryButton>
-    <OldPlayIcon />
-  </PrimaryButton>
-);
-
-export const SentButton = (props: any) => (
-  <PrimaryButton>
-    <MicIcon />
   </PrimaryButton>
 );
