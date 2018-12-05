@@ -1,57 +1,37 @@
 @import url('../vars.css');
 
-#email-subscription {
-    padding: 1.5rem 2rem;
+.submission {
+    height: 45px;
+    //width: 100%;
     display: flex;
-    flex-direction: column;
-    flex: 1.5;
+}
 
-    & .title {
-        margin-bottom: 1rem;
-        text-align: left;
-        font-size: 0.95rem;
-        font-weight: normal;
-        font-family: sans-serif;
-        color: var(--warm-grey);
-    }
+input {
+    padding: 15px;
+    font-size: var(--font-size);
+    border: none;
+    flex: 6;
+}
 
-    & .submission {
-        height: 45px;
-        display: flex;
+.submit-button {
+    width: 45px;
+    transition: all 300ms;
+    background-color: var(--blue);
+    position: relative;
+}
 
-        //justify-content: space-around;
+.success-button {
+    width: 45px;
+    transition: all 300ms;
+    background-color: var(--valid-green);
+    position: relative;
+}
 
-        /* & > * {
-          margin: 0 21px;
-      } */
-    }
-
-    & input {
-        padding: 15px;
-        font-size: var(--font-size);
-        border: none;
-    }
-
-    & .submit-button {
-        width: 45px;
-        transition: all 300ms;
-        background-color: var(--blue);
-        position: relative;
-    }
-
-    & .success-button {
-        width: 45px;
-        transition: all 300ms;
-        background-color: var(--valid-green);
-        position: relative;
-    }
-
-    & .error-button {
-        width: 45px;
-        transition: all 300ms;
-        background-color: var(--red);
-        position: relative;
-    }
+.error-button {
+    width: 45px;
+    transition: all 300ms;
+    background-color: var(--red);
+    position: relative;
 }
 
 .icon {

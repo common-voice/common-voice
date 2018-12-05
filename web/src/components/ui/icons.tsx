@@ -577,14 +577,24 @@ export const UserPlusIcon = uniqueIcon(id => (
   </svg>
 ));
 
-export const CautionIcon = uniqueIcon(id => (
-  <svg width="32" height="32" viewBox="0 0 32 32">
-    <path
-      id="caution-a"
-      d="M16 3c-3.472 0-6.737 1.352-9.192 3.808s-3.808 5.72-3.808 9.192c0 3.472 1.352 6.737 3.808 9.192s5.72 3.808 9.192 3.808c3.472 0 6.737-1.352 9.192-3.808s3.808-5.72 3.808-9.192c0-3.472-1.352-6.737-3.808-9.192s-5.72-3.808-9.192-3.808zM16 0v0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16zM14 22h4v4h-4zM14 6h4v12h-4z"
-    />
+export const CautionIcon = (props: any) => (
+  <svg width="32" height="32" viewBox="0 0 32 32" {...props}>
+    <defs>
+      <path
+        id="check-path"
+        d="M16 3c-3.472 0-6.737 1.352-9.192 3.808s-3.808 5.72-3.808 9.192c0 3.472 1.352 6.737 3.808 9.192s5.72 3.808 9.192 3.808c3.472 0 6.737-1.352 9.192-3.808s3.808-5.72 3.808-9.192c0-3.472-1.352-6.737-3.808-9.192s-5.72-3.808-9.192-3.808zM16 0v0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16zM14 22h4v4h-4zM14 6h4v12h-4z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd">
+      <mask id="check-mask" fill="#fff">
+        <use xlinkHref="#check-path" />
+      </mask>
+      <g fill="#4A4A4A" mask="url(#check-mask)">
+        <path d="M-1-1h24v24H-1z" />
+      </g>
+    </g>
   </svg>
-));
+);
 
 const FONT_ICONS = {
   chrome: '',

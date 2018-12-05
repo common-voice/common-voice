@@ -195,3 +195,23 @@ footer {
         }
     }
 }
+
+#email-subscription {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    flex: 1.5;
+
+    @media (--md-up) {
+        padding: 1.5rem 2rem;
+    }
+
+    & .title {
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 0.95rem;
+        font-weight: normal;
+        font-family: sans-serif;
+        color: var(--warm-grey);
+    }
+}

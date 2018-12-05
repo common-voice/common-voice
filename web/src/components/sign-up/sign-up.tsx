@@ -63,21 +63,16 @@ class SignUp extends React.Component<PropsFromState, State> {
     const { api } = this.props;
 
     return (
-      <div id="email-subscription">
-        <Localized id="email-subscription-title">
-          <span className="title" />
-        </Localized>
-        <span className="submission">
-          <input
-            type="email"
-            value={this.state.email}
-            onChange={this.handleChange}
-          />
-          <div className={this.state.buttonStyle} onClick={this.setButtonState}>
-            {this.state.buttonHtml}
-          </div>
-        </span>
-      </div>
+      <span className="submission">
+        <input
+          type="email"
+          value={this.state.email}
+          onChange={this.handleChange}
+        />
+        <div className={this.state.buttonStyle} onClick={this.setButtonState}>
+          {this.state.buttonHtml}
+        </div>
+      </span>
     );
   }
 }

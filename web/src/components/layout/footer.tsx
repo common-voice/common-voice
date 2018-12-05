@@ -37,6 +37,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
         {this.state.showContactModal && (
           <ContactModal onRequestClose={this.toggleContactModal} />
         )}
+
         <div id="help-links">
           <LocaleLink id="help" to={URLS.FAQ}>
             <SupportIcon />
@@ -68,6 +69,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
             </Localized>
           </TextButton>
         </div>
+
         <div id="moz-links">
           <div className="logo-container">
             <Logo reverse />
@@ -85,6 +87,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
               </Localized>
             </p>
           </div>
+
           <div className="links">
             <div>
               <Localized id="privacy">
@@ -106,6 +109,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
               </Localized>
             </div>
           </div>
+
           <div id="sharing">
             <Localized id="share-title">
               <span className="title" />
@@ -116,7 +120,12 @@ class Footer extends React.PureComponent<{}, FooterState> {
             </div>
           </div>
 
-          <SignUp />
+          <div id="email-subscription">
+            <Localized id="email-subscription-title">
+              <span className="title" />
+            </Localized>
+            <SignUp />
+          </div>
 
           <Localized id="back-top">
             <TextButton
