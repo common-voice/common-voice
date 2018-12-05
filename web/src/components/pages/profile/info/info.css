@@ -1,0 +1,133 @@
+@import url('../../../vars.css');
+
+.profile-info {
+    color: var(--near-black);
+
+    & h2 {
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    & .demographic-info {
+        border-left: 2px solid var(--blue);
+        margin: 30px 0;
+        padding-left: 12px;
+
+        & button {
+            outline: none;
+            border: none;
+            padding: 0;
+            font-family: var(--base-font-family);
+            font-size: var(--font-size);
+            font-weight: 600;
+            color: var(--blue);
+            background: none;
+
+            & svg {
+                margin-left: 10px;
+                transition: transform var(--easing) var(--transition-duration);
+
+                & polygon {
+                    fill: var(--blue);
+                }
+            }
+        }
+
+        & .explanation {
+            margin-top: 10px;
+            display: none;
+        }
+
+        &.expanded {
+            & svg {
+                transform: rotate(180deg);
+            }
+
+            & .explanation {
+                display: block;
+            }
+        }
+    }
+
+    & .form-fields {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        & > * {
+            box-sizing: border-box;
+            margin-bottom: 30px;
+
+            @media (--sm-down) {
+                width: 100%;
+            }
+
+            @media (--md-up) {
+                width: calc(50% - (var(--profile-column-margin) / 2));
+
+                &:nth-child(2n + 1) {
+                    margin-right: var(--profile-column-margin);
+                }
+            }
+        }
+    }
+
+    & .add-language {
+        display: flex;
+        justify-content: center;
+
+        & :first-child {
+            margin-right: 25px;
+        }
+
+        & :nth-child(2) {
+            font-family: initial;
+            font-size: var(--font-size-lg);
+            color: var(--near-black);
+        }
+    }
+
+    & .signup-section {
+        display: flex;
+
+        @media (--sm-down) {
+            flex-direction: column;
+        }
+
+        @media (--md-up) {
+            flex-direction: row;
+
+            & > * {
+                box-sizing: border-box;
+                width: 50%;
+
+                &:nth-child(2n + 1) {
+                    margin-right: 30px;
+                }
+            }
+        }
+
+        & .checkboxes > * {
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        & a {
+            color: var(--blue);
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    & .save {
+        margin: 0 auto;
+        text-transform: none;
+        min-height: 57px;
+    }
+}

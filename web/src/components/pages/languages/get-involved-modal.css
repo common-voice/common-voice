@@ -1,0 +1,52 @@
+.ReactModal__Content .inner.get-involved-modal {
+    max-height: 100vh;
+    box-sizing: border-box;
+    max-width: 25rem;
+    overflow-y: auto;
+    text-align: start;
+
+    & p {
+        color: var(--near-black);
+
+        & a {
+            color: var(--link-color);
+        }
+    }
+
+    & h2 {
+        font-weight: bold;
+    }
+
+    & .title-and-action {
+        border-top: .5rem solid var(--lighter-grey);
+        margin: 0 -2rem -3rem;
+        padding: 2rem;
+    }
+
+    & .signup-success {
+        & img {
+            margin: 2rem auto 2.5rem;
+            width: 50px;
+            display: block;
+        }
+
+        & button {
+            width: 100%;
+        }
+    }
+
+    & h4 {
+        margin-bottom: 1.5rem;
+        font-family: var(--base-font-family);
+        font-weight: normal;
+    }
+
+    & .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    & .labeled-form-control {
+        margin-bottom: 1rem;
+    }
+}

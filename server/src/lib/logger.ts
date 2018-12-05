@@ -1,4 +1,7 @@
-const os = require('os');
+import * as os from 'os';
+import { getConfig } from '../config-helper';
+
+const RandomName = require('node-random-name');
 
 const NAME = 'voice';
 const LEVEL_LOG = 'log';
@@ -6,15 +9,18 @@ const LEVEL_ERROR = 'error';
 
 interface MessageFields {
   name: string;
+  nickname: string;
   level: string;
   hostname: string;
   pid: number;
   msg: string;
   time: string;
+  release_version?: string;
 }
 
 export default class Logger {
   name: string;
+  nickname: string;
   hostname: string;
   pid: number;
   boundLog: Function;
@@ -22,6 +28,7 @@ export default class Logger {
 
   constructor() {
     this.name = NAME;
+    this.nickname = RandomName({ last: true });
     this.hostname = os.hostname();
     this.pid = process.pid;
     this.boundLog = null;
@@ -29,17 +36,19 @@ export default class Logger {
   }
 
   private getDateString() {
-    return new Date().toISOString()
+    return new Date().toISOString();
   }
 
   private getMessageFields(level: string, msg: string): MessageFields {
     return {
       msg: msg,
       name: this.name,
+      nickname: this.nickname,
       level: level,
       hostname: this.hostname,
       pid: this.pid,
-      time: this.getDateString()
+      time: this.getDateString(),
+      release_version: getConfig().RELEASE_VERSION,
     };
   }
 
@@ -57,11 +66,11 @@ export default class Logger {
     }
   }
 
-  log(...args) {
+  log(...args: any[]) {
     this.printFields(this.getMessageFields(LEVEL_LOG, args.join(', ')));
   }
 
-  error(...args) {
+  error(...args: any[]) {
     this.printFields(this.getMessageFields(LEVEL_ERROR, args.join(', ')));
   }
 
@@ -73,14 +82,14 @@ export default class Logger {
 
     // Override console.log to user our json logger.
     this.boundLog = console.log.bind(console);
-    console.log = (...args) => {
+    console.log = (...args: any[]) => {
       this.log(...args);
-    }
+    };
 
     // Override console.error to user our json logger.
     this.boundError = console.error.bind(console);
-    console.error = (...args) => {
+    console.error = (...args: any[]) => {
       this.error(...args);
-    }
+    };
   }
 }

@@ -1,0 +1,319 @@
+Coding without a mouse?
+Easy, just use any decent text editor.
+But coding without a mouse or a keyboard?
+That's where things get interesting.
+About three years ago, I set up Dragon Naturally Speaking on my home computer. 
+I give my hands a chance to heal from RSI (Repetitive Strain Injury) on the weekends.
+I mostly used it for web browsing and occasionally writing emails.
+It was a great relief
+Finally I didn't have to feel guilty for using my computer on weekends.
+But it was also very limited, especially when it came to coding.
+I'm a professional software engineer, and I liked my job, but I also wanted to work on side projects.
+I tried one of the leading Dragon extensions to help with this, Voice Code. 
+After a few hours I decided it was too frustrating and slow, and the software just wasn't there yet.
+A couple years later I watched a great talk by Tavis Rudd, Using Python to Code by Voice.
+I was put to shame.
+Not only did he manage to do it, he did it professionally!
+He managed to cure his RSI completely over several months, but he never stopped using his voice.
+He was even faster using both voice and keyboard than keyboard alone.
+I decided to give it another try, using the Dragonfly library that Tavis recommended.
+Unlike VoiceCode, which is a complete solution, Dragonfly is just an improved Python API to Dragon.
+It doesn't come with too many built-in commands, but it's extremely easy to extend.
+With a powerful Python API to Dragon in hand, I started experimenting with different commands.
+There are grammars to use in Emacs and elsewhere.
+For the first time I started to see that it was possible to become productive.
+This was good timing, because my RSI was only getting worse.
+About six months ago, I decided it was time to start using my voice environment at work.
+At first I was very slow.
+It took a lot of mental effort to do the most basic things.
+I definitely had moments where I questioned whether I would ever become efficient.
+But with each week I got faster and faster.
+And something else changed, I started having fun!
+Adding new features was building my future.
+Getting faster was gaining freedom.
+I felt like Bruce Wayne building his Batcave!
+I'm not Batman yet, but I think it's time I start to share what I've learned to help others do the same.
+I could just publish my code, but that wouldn't reveal all the little lessons I learned along the way.
+You will need to know to build your own custom environment.
+I'm also hoping to hear from others, so please post your own ideas in the comments and tell me what I could do better!
+A hands-free coding environment has a lot of moving parts, which can be overwhelming at first.
+This post will teach you how to set up the basic voice recognition environment.
+I also use eye tracking, but I'll cover that in a separate post.
+Sadly, it's only available for Windows, so you'll have to do Linux development using a virtual machine or remote access.
+I recommend Windows 7, because there are still a lot of bugs in Windows 8.1.
+Dragon 13 only supports select-and-say in particular apps, which is a huge limitation.
+I used Dragon 13 for several months before downgrading thanks to readers' advice in the comments.
+I don't miss a single feature.
+Any edition is fine, and I use the premium edition.
+I recommend investing in a good microphone.
+It's not cheap, but it matters a lot.
+Dragon is pretty frustrating, so you want to do everything you can to minimize that.
+Next, install an extension that makes it possible to add custom Python commands.
+Follow the instructions here.
+If everything works, you'll see a window pop up after starting.
+It's common to run into problems, so read the instructions carefully.
+For your first installation, I highly recommend using their prepackaged version of Python to avoid trouble.
+Finally, install Dragonfly, a cleaner Python interface to NatLink.
+The prepackaged binaries are several years out of date, so I recommend cloning their git repository.
+It's just a Python library, so if it worked you should now be able to import dragonfly from Python.
+You can check out the original repository of examples or modules mentioned in the docs.
+For voice coding purposes, you'll want to familiarize yourself with the multiedit module.
+Just drop a module into your MacroSystem directory, turn your microphone off and on, and it will attempt to load it.
+If it's not working, check the messages window to see if there are any error messages.
+Of course, this is just the beginning.
+The interesting part is writing your own to support a full-featured voice coding environment.
+I'll cover that in future posts!
+You can do a lot just using your voice, but there are still a few times you'll find yourself reaching for a mouse.
+It's often for the silliest little things, like clicking in the empty space within a webpage to change the keyboard context.
+If you're serious about not using your hands, you can use an eye tracker to eliminate these last few cases.
+This post will teach you how to get started.
+Make sure you've read my introductory post on voice coding, since we will be building upon that.
+Eye trackers used to cost several thousand dollars, but now you can grab a cheap one for less than a couple hundred bucks.
+Its major competitor is the $100 Eye Tribe dev kit, a kickstarter-funded project.
+I haven't played around with that yet, but I'd love to hear if you have in the comments.
+The basic idea behind eye tracker interaction is that you look somewhere on the screen.
+Then use some other method for clicking or "activating" the item you're looking at.
+It's generally too distracting to have the pointer follow wherever you're looking.
+So usually a keypress instead of a click is used.
+For our purposes, of course, we'll want to use a voice command.
+The tricky part is integrating it with Dragonfly.
+It really ought to be easy, except that right now there's an outstanding bug.
+Their software does not listen for virtual keypresses.
+There's a thread in their forums complaining about this.
+But it sounds like it won't be fixed until the consumer version, which doesn't have a release date yet.
+The workaround is surprisingly elaborate, but the good news is I've already done the heavy lifting.
+The basic idea is that we will call into their C API from Python.
+The raw API is extremely complicated for our needs, so I wrote a simple wrapper DLL.
+It has a few basic functions to connect to the eye tracker, get position data, and activate the current gaze point.
+You can get the source code and binary distribution of the wrapper from my GitHub repository.
+It's useful to have separate commands for moving the pointer and clicking.
+The eye tracker accuracy isn't always perfect.
+Foot pedals are another alternative to voice commands.
+I often use a voice command to move the mouse based on my gaze point, then use my foot to click.
+I recommend the Omni pedal Quad.
+These are also great for scrolling, which is pretty awkward with dictation.
+There's a lot more you can do with a tighter integration with the eye tracking API.
+The major shortcoming of my simple approach is that it doesn't work well with small click targets.
+The full API lets the application describe all the click targets.
+The closest one will be automatically picked.
+Of course, this usually requires access to the application source code (or at least an extension).
+It's less generic and harder to get up and running.
+Please post in the comments if you come up with something!
+To be an efficient hands-free coder, you'll need to learn how to move the cursor around a file quickly.
+There are two challenges.
+First, since you can't use a mouse, you can't just click to the location to move to.
+You can try using an eye tracker to accomplish this, but the precision isn't quite high enough.
+Second, with a keyboard you can hold a movement key and release when you reach your location.
+But this doesn't translate well to voice control, which has too much latency.
+Although you might try measuring the latency and adjusting for it.
+Beginner's note: to get started, check out the multiedit grammar for dragonfly.
+This gives you commands to start with and a nice framework for repeating commands quickly.
+One approach to movement is to search within the file, for example using Emacs incremental search.
+This works well if you need to jump somewhere offscreen.
+The trouble with using this for all onscreen movement is that recognition accuracy isn't always perfect.
+That identifier might be repeated several times.
+This would work better if there were an Emacs extension that numbered incremental search results.
+It's easy to jump to a particular one.
+Let's break the problem down.
+Every location onscreen is at a particular line and column.
+If we can navigate to each of these quickly, we can jump to anywhere quickly.
+Let's start with jumping to a particular line.
+Any decent editor can show you line numbers and let you jump to a specific line.
+But try editing a file with several hundred lines, and you'll find that this is pretty clunky.
+There are a couple ways to improve on this.
+You can show line numbers relative to your current position, or you can show the numbers.
+For example, if you never have more than 100 lines on screen at once, you could just show the last two digits.
+Personally, I prefer to use relative line numbers such as "up ten" or "down five".
+Also, the number of syllables scales nicely with the amount of movement.
+The main advantage to using modulo is that you can chain together successive commands easily.
+Select between line X and line Y.
+Next, we have to jump to a particular column.
+This is a bit trickier because it is awkward to number every column in an editor.
+I suppose you could write the numbers vertically.
+In the meantime, I use a few different approaches.
+But the key advantage we can exploit is that you generally want to jump to the boundaries of symbols and words.
+This means that relative motion commands that move by a symbol or word often work well unless the line is long.
+In Emacs, familiarize yourself with subword mode.
+I bind commands for moving across an entire symbol and across a single subword.
+When the line is long, I use a different strategy where I name the character at the beginning or end.
+Searching for a character instead of a full word greatly improves recognition accuracy.
+Especially so when dealing with unusual words.
+See the Emacs lisp for this at the bottom of the post.
+Note that the Emacs extension "Ace jump mode" works similarly to this.
+But I prefer my approach because I don't have to wait for an overlay to appear before issuing my command.
+Voice dictation latency is high enough that it's almost always an advantage to accomplish everything in a single command.
+I also use a few more commands for quick movement to frequently visited places.
+I use the directions North, South, West, and East to move to the top or bottom of a file and left or right within a line.
+I use the mark ring in Emacs to jump to previous locations.
+It registers to save locations and jump to them quickly later.
+And of course I use page up and down to scroll through the file, although I prefer to use foot pedals for this.
+Finally, as promised, here is my code for jumping within a line.
+One of the best ways to get started writing Dragonfly macros is to set up web browsing by voice.
+Thanks to the extensibility of modern browsers, this works surprisingly well.
+Note that it does have built-in support for web browsing, although I find it doesn't work very well.
+The extension tends to cause pages to hang, and it requires that you speak the link you want to click on.
+This introduces ambiguities and doesn't work well for all clickable elements.
+And of course, it's not very customizable.
+I do recommend you try it first to see if it works for you.
+Think about what you would like to improve in your custom version.
+To begin with, you'll want to decide between Firefox and Chrome.
+Both of these support the extensions you'll need, so it is really a matter of personal preference.
+Firefox is probably the easiest to get started with, although I prefer Chrome.
+First, you need to install an extension that labels clickable elements on the page.
+You can speak a label to click on an element.
+I recommend Mouseless Browsing for Firefox and Vimium for Chrome.
+If you are using Firefox, try out this sample module.
+Since you'll be using these a lot, make them as terse as possible.
+I use "links" for the former and I simply speak the number for the latter.
+To make it even faster, I only allow one-syllable numbers to be used in labels.
+I also recommend binding the shortcuts that let you quickly open a bookmark.
+Next, you'll want to enumerate tabs so you can quickly jump between them.
+I think the Firefox extension already does this, and I created one for Chrome, Tab Namer.
+The last extension I rely on is Keyboard Shortcuts to Reorder Tabs.
+The Linux version of Chrome binds these shortcuts by default, but not the Windows version.
+When you are ready for even faster browsing, check out my post on Custom web commands with WebDriver.
+When I first started using Dragon, I was bummed to be restricted to Windows.
+Fortunately, there are lots of ways to work around this limitation and use it with whatever operating system you want.
+I'll cover the method I use and describe some alternatives.
+My home set up is simplest, because I cheat to provide a UNIX-like environment.
+This lets me launch GUI Emacs to write code and edit my macro files which have to live on Windows.
+I highly recommend starting with this approach, since it gives you many of the niceties of a Linux environment.
+But you also benefit from the estimable built-in support such as contexts, task switching, and window management.
+For task switching in particular, though, I don't use the built-in commands.
+Instead, since I almost always run the same set of apps, I pin each of these to the taskbar.
+This gives me full control over the naming of the apps.
+It is generally less error-prone than using the built-in "switch to" command.
+My work setup is necessarily more complicated.
+The software I develop has to build and run on a special company-specific installation of Ubuntu.
+To do Linux development, I rely on NX, a remote desktop solution.
+The huge advantage of NX is that it supports "rootless" mode.
+This makes the remote Ubuntu windows look like native Windows applications, each with a named pinnable taskbar button.
+This solution also works well if you want to install a Linux distro on Windows via virtualization.
+I've done this before with VirtualBox with good results.
+VirtualBox provides its own rootless mode.
+When I tried it about a year ago it didn't work nearly as well as using it on my local machine.
+The trick to setting this up is to configure port forwarding within Virtual Box.
+Then connect to localhost within Windows.
+The process is a bit complicated due to recent changes that have limited the free feature set in version 4.
+You can also try open source clients, but make sure to choose one that supports rootless mode.
+The final component of my setup is to use Putty for SSH port tunneling.
+As I will describe in another post, I run an HTTP server.
+I can send contextual information to it from other apps.
+Thanks to reverse port tunneling, I can expose this HTTP server running on Windows to my Linux machine.
+I also use standard port forwarding when I want to expose servers running on my Linux machine.
+There are plenty of guides available online that explain how to set this up.
+The solution I've described is to use Windows as your host, and Linux as your guest.
+If you just read the code, you'll miss out on why I made certain decisions.
+You won't know about all the stuff I tried and deleted.
+And you won't know how I actually use all the commands in combination.
+I decided to go ahead and make it available on GitHub.
+You can find it here, or linked from the navigation sidebar on every page.
+While I'm laying down disclaimers, I should also mention that the code is a work in progress.
+I decided it was better to just get the code out there and improve it later.
+If you make improvements, please send me pull requests!
+Once you've gotten used to the basic commands and extensions to control Google Chrome, you may start to hunger for a faster way.
+Some sites have keyboard shortcuts you can bind easily, but others don't.
+Selenium WebDriver provides a powerful but simple API to control webpages.
+It is used primarily for automated testing, but it will work perfectly for our needs, with a few tweaks.
+This is great for sandboxed web testing.
+Fortunately, you can configure Chrome to set up a debugging server.
+Then go ahead and bind these functions to voice commands and try them out.
+This technique doesn't work perfectly when multiple windows are open, but it works most of the time.
+Navigating to Google isn't terribly exciting, so let's add something more useful.
+Of course, this is just the start of what you can do.
+You can also execute sequences of commands, even waiting for particular elements to appear in the page.
+If you'd like to see how I integrate this with my voice commands, please check out my GitHub repository.
+Hi, I'm James, and I created handsfreecoding.org to share techniques and software that allow me to code without using my hands.
+There are a lot of powerful tools and libraries out there.
+It can be overwhelming to learn how to put all the pieces together.
+I've been at it for over two years and I'm still discovering new ideas.
+I hope this blog will be useful to newcomers and experts alike.
+To read more about my story, check out my first post, Adventures in Hands-Free Coding.
+If you want to send me private feedback, please fill out the following form.
+For a site titled Hands-Free Coding, I haven't written much about How To Actually Write The Code.
+It turns out this is easier than you might expect.
+Before reading this post, please familiarize yourself with my getting started guide and how to move around a file quickly.
+There are two basic approaches to dictating code: using custom grammars or using VoiceCode.
+Voice Code is much more powerful out-of-the-box, but is also harder to extend and more restrictive.
+It is more concise but not quite as flexible.
+The multi-edit module is a good place to start.
+For example, I can say "score test word" to print "test word", or "camel test word" to print "testWord".
+I use short made-up words to dictate common symbols.
+I made these words up over time, but if I were starting new I would probably use a standard language such as Short Talk.
+I use templates in my text editor to quickly generate boilerplate syntax, such as the skeleton of a for loop.
+I rely on automatic formatting in my text editor to keep the code neat.
+Most importantly, I structure my grammar so that I can dictate continuously.
+Instead of having to stop and start after every keyword or symbol.
+This is the hardest part of my setup.
+There are many trade-offs between supporting continuous commands and keeping performance high.
+If you follow these basic techniques, the biggest problem that remains is misrecognized words.
+You can avoid this in your own code by preferring easily recognized identifiers.
+But it's much harder when working with someone else's code or library.
+I find that the best way to combat this issue is to use the built-in Vocabulary Editor.
+The moment you find yourself spelling out a word, stop right away and add this word to the Vocabulary Editor.
+If the problem is a variable or function with multiple misrecognized words, add the whole phrase to your vocabulary.
+I have also experimented with a fancier solution to this problem.
+Unfortunately, I haven't found a way to seamlessly integrate this into my vocabulary.
+So it's not quite as powerful as you might expect, and most of the time I rely on the built-in vocabulary.
+That covers the basics.
+But much of the challenge of writing code is editing code you or someone else has already written.
+As you build on your grammars over time, you start to run into all kinds of problems.
+Commands get confused with each other, latency increases, and your grammars become giant disorganized blobs.
+It gives you the power to repeat commands in a single utterance, but leaves it up to you structure your grammar accordingly.
+I'll discuss the techniques I use to wrangle my grammars.
+If you are a beginner and don't mind pausing after each command, you can stop reading now.
+Use the following simple patterns: flat grammars, one grammar per file, one file per application.
+One of the first problems you'll run into is recognition errors, particularly with any command that allows raw dictation.
+The trouble is that this grammar allows raw dictation to be mixed with any other commands.
+The downside of this approach is that you will have to remember to pause between commands of these two different classes.
+It does impose some constraints on command ordering, but this isn't a big problem.
+Of course, this only reduces the severity of the problem.
+I avoid this entirely, but I don't force the commands to be in a separate utterance.
+This isn't exactly cheap, but it is scalable if we assume hierarchical contexts.
+If I want to dictate variable or function names from code, I just use "cap", "no caps",  and "no space" to help.
+This way I can keep dictating without any pauses.
+Note that the "Show all" button is helpful for expanding ellipses in commands.
+It costs $40 after a 15-day trial, so I will help you decide whether it is worth the money.
+It supports three different styles of overlays, although I prefer the circles.
+You can turn the microphone on and off using only your voice.
+Is much less sensitive to spurious awakenings than the sleep mode.
+You can even require a second confirmation when turning the microphone on, but I haven't needed that.
+Once you get familiar with it you will want to use it for everything.
+I use it to track my personal to do list, which is full of everything from boring chores to exciting new things I want to try.
+In the past I've had trouble prioritizing stuff in this list.
+It's hard to compare something necessary and mundane with something I'm excited about.
+What I realized a few months ago is that I don't have to.
+At different times of the week I have different motivations.
+Sometimes I just want to relax, sometimes I want to take care of business.
+Other times I want to do something good for the world.
+So I simply structure my list around my motivations and situations.
+I also have categories for close friends containing stuff I want to do with them or tell them about.
+With this kind of organization, I find it's much easier to prioritize within a category.
+Not related to coding, but hands-free coders need to have some fun too.
+Hopefully I didn't just set the voice coding community back by a few months!
+If you know of other games that play well with hands-free control, please post in the comments.
+It arrived just a few days after I ordered it, and came with a complementary USB extension cable.
+I got used to the bright red lights, but I'm happy to not have those blaring at me all the time anymore.
+The new lights are primarily using infrared wavelength, although you will still see a red glow.
+This is supposed to reduce host CPU load and makes it possible to use USB 2.0 instead of 3.0.
+Also, USB 3.0 doesn't work with standard USB hubs.
+Of course, the most important question is whether it actually works better than the old eye tracker.
+After performing calibration, the precision is noticeably better.
+It has always been a mystery to me why this bias cannot be fixed by calibration, because it is so consistent.
+For this reason, I would still recommend sticking with a screen of up to 24 inches.
+The other improvement is in the tracking area.
+That is no longer a problem, indicating a major improvement.
+Overall I'm happy with the new device, enough that I ordered one for both home and work.
+My biggest complaint at this point remains the error when looking towards the sides of my screen.
+Seems like it ought to be fixable in software.
+I learned about a couple very exciting new developments this week in open source speech recognition, both coming from Mozilla.
+A year and a half ago, Mozilla quietly started working on an open source, TensorFlow-based DeepSpeech implementation.
+DeepSpeech is a state-of-the-art deep-learning-based speech recognition system.
+Currently, Mozilla's implementation requires that users train their own speech models.
+This is a resource-intensive process that requires expensive closed-source speech data to get a good model.
+But that brings me to Mozilla's more recent announcement: Project Common Voice.
+Their goal is to crowd-source collection of 10,000 hours of speech data and open source it all.
+Once this is done, DeepSpeech can be used to train a high-quality open source recognition engine.
+This is a Big Deal for hands-free coding.
+To accelerate progress towards this new world of end-to-end open source hands-free coding.
+I encourage everyone to contribute their voice to Project Common Voice.

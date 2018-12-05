@@ -1,0 +1,81 @@
+@import url('../vars.css');
+
+.primary-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 18px;
+
+    @media(--md-up) {
+        margin: 0 40px;
+    }
+
+    & .background {
+        position: absolute;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        filter: blur(7.6px);
+        transition: opacity var(--transition-duration) linear;
+
+        @media (--md-up) {
+            width: 109px;
+            height: 109px;
+        }
+    }
+
+    & button, & a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        z-index: var(--top-z-index);
+        border: none;
+        border-radius: 50%;
+        width: 65px;
+        height: 65px;
+        background: var(--white);
+
+        @media (--md-up) {
+            width: 88px;
+            height: 88px;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+
+        & svg {
+            height: 24px;
+
+            @media (--md-up) {
+                height: 28px;
+            }
+        }
+    }
+
+    &.play svg {
+        height: 22px;
+
+        & path {
+            fill: var(--valid-green);
+        }
+    }
+
+    &.record .background, &.play .background {
+        opacity: 0.5;
+        background: linear-gradient(to left, #88d1f1, #b1b5e5);
+    }
+
+    &.stop .background {
+        opacity: 0.7;
+        background: linear-gradient(to right, #f89096, #b1b4e5);
+    }
+
+    &:hover .background {
+        opacity: 1 !important;
+    }
+}

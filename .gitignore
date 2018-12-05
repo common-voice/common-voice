@@ -1,11 +1,15 @@
 node_modules
+config.json
 web/dist/
+web/index.html
 server/js/
 server/upload/
-.ignore/
+xcuserdata/
+.ignore
+.ignored_files/
 .DS_Store
 .vscode/
-.idea
+ZZidea
 
 # Nubis
 nubis/librarian-puppet.tar.gz

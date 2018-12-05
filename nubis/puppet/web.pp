@@ -1,4 +1,7 @@
 class { 'nubis_apache':
+  tags => [
+    'metrics',
+  ],
 }
 
 # Add modules
@@ -30,18 +33,27 @@ apache::vhost { $project_name:
     AddOutputFilterByType DEFLATE application/x-font-ttf
 
     # Deflate JavaScript
-    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/javascript application/javascript
+
+    # Deflate CSS
+    AddOutputFilterByType DEFLATE text/css
+
+    # Deflate SVG images
+    AddOutputFilterByType DEFLATE image/svg+xml
 
     # Sane expires defaults
     ExpiresActive On
     ExpiresDefault none
 
     # Assets
-    ExpiresByType image/*  'now plus 30 minutes'
-    ExpiresByType text/css 'now plus 30 minutes'
+    AddType image/ico .ico
+    ExpiresByType image/*  'access plus 60 days'
+    ExpiresByType text/javascript 'access plus 1 hour'
+    ExpiresByType application/javascript 'access plus 1 hour'
+    ExpiresByType text/css 'access plus 1 hour'
 
     # Fonts
-    ExpiresByType application/x-font-ttf 'now plus 6 hours'
+    ExpiresByType application/x-font-ttf 'access plus 60 days'
       ",
       }
     ],
@@ -76,6 +88,8 @@ apache::vhost { $project_name:
       'set X-XSS-Protection "1; mode=block"',
       'set X-Frame-Options "DENY"',
       'set Strict-Transport-Security "max-age=31536000"',
+      # media-src blob: is required for recording audio.
+      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'unsafe-inline\' https://fonts.googleapis.com https://optimize.google.com; img-src \'self\' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src \'self\' \'unsafe-eval\' \'sha256-yybRmIqa26xg7KGtrMnt72G0dH8BpYXt7P52opMh3pY=\' \'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=\' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com; font-src \'self\' https://fonts.gstatic.com; connect-src \'self\' https://pontoon.mozilla.org/graphql https://www.gstatic.com https://www.google-analytics.com https://*.amazonaws.com; frame-src https://optimize.google.com;"'
     ],
     rewrites           => [
       {

@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "${var.region}"
-}
-
 resource "aws_iam_user" "clips_bucket" {
   name = "${var.service_name}-${var.environment}-clips_bucket"
   path = "/applicaton/${var.service_name}/"

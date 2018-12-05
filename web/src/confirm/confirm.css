@@ -1,0 +1,42 @@
+.confirm-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: var(--top-z-index);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity var(--transition-duration);
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & label {
+        display: block;
+        margin-bottom: 1rem;
+        font-size: larger;
+    }
+
+    & button {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        min-width: 10rem;
+    }
+
+    &.visible {
+        pointer-events: all;
+        opacity: 1;
+    }
+
+    & .main-section {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+        background: var(--white);
+        width: 100%;
+        max-width: 30rem;
+    }
+}

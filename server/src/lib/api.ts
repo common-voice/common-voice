@@ -1,157 +1,270 @@
-import * as http from 'http';
-import WebHook from './webhook';
+import * as bodyParser from 'body-parser';
+import { MD5 } from 'crypto-js';
+import { NextFunction, Request, Response, Router } from 'express';
+import * as sendRequest from 'request-promise-native';
+import { UserClient as UserClientType } from 'common/user-clients';
+import { getConfig } from '../config-helper';
+import getGoals from './model/goals';
+import UserClient from './model/user-client';
+import Model from './model';
+import Clip from './clip';
+import Prometheus from './prometheus';
+import { AWS } from './aws';
+import { ClientParameterError } from './utility';
 
-const path = require('path');
-const fs = require('fs');
-const Promise = require('bluebird');
-const Random = require('random-js');
-
-const SENTENCE_FOLDER = '../../data/';
+const PromiseRouter = require('express-promise-router');
 
 export default class API {
-  sentencesCache: String[];
-  webhook: WebHook;
-  randomEngine: any
+  model: Model;
+  clip: Clip;
+  metrics: Prometheus;
 
-  constructor() {
-    this.webhook = new WebHook();
-    this.getSentences();
-    this.randomEngine = Random.engines.mt19937();
-    this.randomEngine.autoSeed();
+  constructor(model: Model) {
+    this.model = model;
+    this.clip = new Clip(this.model);
+    this.metrics = new Prometheus();
   }
 
-  private getSentenceFolder() {
-    return path.join(__dirname, SENTENCE_FOLDER);
-  }
+  getRouter(): Router {
+    const router = PromiseRouter();
 
-  private getRandomSentences(count: number): Promise<string[]> {
-    return this.getSentences().then(sentences => {
-      let randoms = [];
-      for (var i = 0; i < count; i++) {
-        let distribution = Random.integer(0, sentences.length - 1);
-        let randomIndex = distribution(this.randomEngine);
-        randoms.push(sentences[randomIndex]);
+    router.use(bodyParser.json());
+
+    router.use(
+      async (request: Request, response: Response, next: NextFunction) => {
+        this.metrics.countRequest(request);
+
+        const client_id = request.headers.client_id as string;
+        if (client_id) {
+          if (await UserClient.hasSSO(client_id)) {
+            response.sendStatus(401);
+            return;
+          } else {
+            await this.model.db.saveUserClient(client_id);
+          }
+          request.client_id = client_id;
+        } else if (request.user) {
+          request.client_id = await UserClient.findClientId(
+            request.user.emails[0].value
+          );
+        }
+
+        next();
       }
-      return randoms;
+    );
+
+    router.get('/metrics', (request: Request, response: Response) => {
+      this.metrics.countPrometheusRequest(request);
+
+      const { registry } = this.metrics;
+      response
+        .type(registry.contentType)
+        .status(200)
+        .end(registry.metrics());
     });
-  }
 
-  private getFilesInFolder(folderpath) {
-    return new Promise((res, rej) => {
-      fs.readdir(folderpath, (err, files) => {
-        if (err) {
-          rej(err);
-          return;
-        }
-
-        res(files);
-      });
+    router.use((request: Request, response: Response, next: NextFunction) => {
+      this.metrics.countApiRequest(request);
+      next();
     });
-  }
 
-  private getFileContents(filepath) {
-    return new Promise((res, rej) => {
-      fs.readFile(filepath, {
-        contents: 'utf8'
-      }, (err, data) => {
-        if (err) {
-          rej(err);
-          return;
-        }
+    router.get('/user_clients', this.getUserClients);
+    router.get('/user_client', this.getAccount);
+    router.patch('/user_client', this.saveAccount);
+    router.post(
+      '/user_client/avatar/:type',
+      bodyParser.raw({ type: 'image/*' }),
+      this.saveAvatar
+    );
 
-        res(data.toString());
-      });
+    router.get('/user_client/goals', this.getGoals);
+    router.get('/user_client/:locale/goals', this.getGoals);
+
+    router.get('/:locale/sentences', this.getRandomSentences);
+    router.post('/skipped_sentences/:id', this.createSkippedSentence);
+
+    router.use(
+      '/:locale?/clips',
+      (request: Request, response: Response, next: NextFunction) => {
+        this.metrics.countClipRequest(request);
+        next();
+      },
+      this.clip.getRouter()
+    );
+
+    router.get('/contribution_activity', this.getContributionActivity);
+    router.get('/:locale/contribution_activity', this.getContributionActivity);
+
+    router.get('/requested_languages', this.getRequestedLanguages);
+    router.post('/requested_languages', this.createLanguageRequest);
+
+    router.get('/language_stats', this.getLanguageStats);
+
+    router.post('/newsletter/:email', this.subscribeToNewsletter);
+
+    router.use('*', (request: Request, response: Response) => {
+      response.sendStatus(404);
     });
-  }
-  /**
-   * Is this request directed at the api?
-   */
-  isApiRequest(request: http.IncomingMessage) {
-    return request.url.includes('/api/');
+
+    return router;
   }
 
-  /**
-   * Give api response.
-   */
-  handleRequest(request: http.IncomingMessage,
-                response: http.ServerResponse) {
+  getRandomSentences = async (request: Request, response: Response) => {
+    const { client_id, params } = request;
+    const sentences = await this.model.findEligibleSentences(
+      client_id,
+      params.locale,
+      parseInt(request.query.count, 10) || 1
+    );
 
-    // Most often this will be a sentence request.
-    if (request.url.includes('/sentence')) {
-      let parts = request.url.split('/');
-      let index = parts.indexOf('sentence');
-      let count = parts[index + 1] && parseInt(parts[index + 1], 10);
-      this.returnRandomSentence(response, count);
-    // Webhooks from github.
-    } else if (this.webhook.isHookRequest(request)) {
-      this.webhook.handleWebhookRequest(request, response);
+    response.json(sentences);
+  };
 
-    // Unrecognized requests get here.
-    } else {
-      console.error('unrecongized api url', request.url);
-      response.writeHead(404);
-      response.end('I\'m not sure what you want.');
+  getRequestedLanguages = async (request: Request, response: Response) => {
+    response.json(await this.model.db.getRequestedLanguages());
+  };
+
+  createLanguageRequest = async (request: Request, response: Response) => {
+    await this.model.db.createLanguageRequest(
+      request.body.language,
+      request.client_id
+    );
+    response.json({});
+  };
+
+  createSkippedSentence = async (request: Request, response: Response) => {
+    const {
+      client_id,
+      params: { id },
+    } = request;
+    await this.model.db.createSkippedSentence(id, client_id);
+    response.json({});
+  };
+
+  getLanguageStats = async (request: Request, response: Response) => {
+    response.json(await this.model.getLanguageStats());
+  };
+
+  getUserClients = async ({ client_id, user }: Request, response: Response) => {
+    if (!user) {
+      response.json([]);
+      return;
     }
-  }
 
-  getSentences() {
-    if (this.sentencesCache) {
-      return Promise.resolve(this.sentencesCache);
+    const email = user.emails[0].value;
+    const userClients: UserClientType[] = [
+      { email },
+      ...(await UserClient.findAllWithLocales({
+        email,
+        client_id,
+      })),
+    ];
+    response.json(userClients);
+  };
+
+  saveAccount = async ({ body, user }: Request, response: Response) => {
+    if (!user) {
+      throw new ClientParameterError();
+    }
+    response.json(await UserClient.saveAccount(user.emails[0].value, body));
+  };
+
+  getAccount = async ({ user }: Request, response: Response) => {
+    response.json(
+      user ? await UserClient.findAccount(user.emails[0].value) : null
+    );
+  };
+
+  subscribeToNewsletter = async (request: Request, response: Response) => {
+    const { BASKET_API_KEY, PROD } = getConfig();
+    if (!BASKET_API_KEY) {
+      response.json({});
+      return;
     }
 
-    return this.getFilesInFolder(this.getSentenceFolder())
-      .then(files => {
-        return Promise.all(files.map(filename => {
-
-          // Only parse the top-level text files, not any sub folders.
-          if (filename.split('.').pop() !== 'txt') {
-            return null;
-          }
-
-          let filepath = path.join(this.getSentenceFolder(), filename);
-          return this.getFileContents(filepath);
-        }));
-      })
-
-
-      // Chop the array of content strings into an array of sentences.
-      .then((values) => {
-        let sentences = [];
-        let sentenceArrays = values.map(fileContents => {
-          if (!fileContents) {
-            return [];
-          }
-
-          // Remove any blank line sentences.
-          let fileSentences = fileContents.split('\n');
-          return fileSentences.filter(sentence => { return !!sentence; });
-        });
-
-        sentences = sentences.concat.apply(sentences, sentenceArrays);
-        console.log('sentences found', sentences.length);
-        this.sentencesCache = sentences;
-      })
-      .catch(err => {
-        console.error('could not retrieve sentences', err);
-      });
-  }
-
-  /**
-   * Load sentence file (if necessary), pick random sentence.
-   */
-  returnRandomSentence(response: http.ServerResponse, count: number) {
-    count = count || 1;
-
-    this.getSentences().then((sentences: String[]) => {
-      return this.getRandomSentences(count);
-    }).then(randoms => {
-      response.setHeader('Content-Type', 'text/plain');
-      response.writeHead(200);
-      response.end(randoms.join('\n'));
-    }).catch((err: any) => {
-      console.error('Could not load sentences', err);
-      response.writeHead(500);
-      response.end('No sentences right now');
+    const { email } = request.params;
+    const basketResponse = await sendRequest({
+      uri: 'https://basket.mozilla.org/news/subscribe/',
+      method: 'POST',
+      form: {
+        'api-key': BASKET_API_KEY,
+        newsletters: 'common-voice',
+        format: 'H',
+        lang: 'en',
+        email,
+        source_url: request.header('Referer'),
+        sync: 'Y',
+      },
     });
-  }
+    await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    response.json({});
+  };
+
+  saveAvatar = async (
+    { body, headers, params, user }: Request,
+    response: Response
+  ) => {
+    let avatarURL;
+    let error;
+    switch (params.type) {
+      case 'default':
+        avatarURL = null;
+        break;
+
+      case 'gravatar':
+        try {
+          avatarURL =
+            'https://gravatar.com/avatar/' +
+            MD5(user.emails[0].value).toString() +
+            '.png?s=24';
+          await sendRequest(avatarURL + '&d=404');
+        } catch (e) {
+          if (e.name != 'StatusCodeError') {
+            throw e;
+          }
+          error = 'not_found';
+        }
+        break;
+
+      case 'file':
+        avatarURL =
+          'data:' +
+          headers['content-type'] +
+          ';base64,' +
+          body.toString('base64');
+        console.log(avatarURL.length);
+        if (avatarURL.length > 8000) {
+          error = 'too_large';
+        }
+        break;
+
+      default:
+        response.sendStatus(404);
+        return;
+    }
+
+    if (!error) {
+      await UserClient.updateAvatarURL(user.emails[0].value, avatarURL);
+    }
+
+    response.json(error ? { error } : {});
+  };
+
+  getContributionActivity = async (
+    { client_id, params: { locale }, query }: Request,
+    response: Response
+  ) => {
+    response.json(
+      await (query.from == 'you'
+        ? this.model.db.getContributionStats(locale, client_id)
+        : this.model.getContributionStats(locale))
+    );
+  };
+
+  getGoals = async (
+    { client_id, params: { locale } }: Request,
+    response: Response
+  ) => {
+    response.json(await getGoals(client_id, locale));
+  };
 }

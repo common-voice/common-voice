@@ -1,0 +1,37 @@
+@import url('../vars.css');
+
+.notification-pill {
+    border-radius: 29px;
+    margin-top: 10px;
+    padding: 7px 20px;
+
+    display: flex;
+    align-items: center;
+
+    color: var(--white);
+    opacity: 1;
+    transition: opacity linear var(--transition-duration);
+    animation: fade-in var(--transition-duration-slow);
+
+    &.success {
+        background: var(--valid-green);
+    }
+
+    &.error {
+        background: var(--red);
+    }
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    & .icon,
+    & svg {
+        font-size: 9px;
+        margin-right: 10px;
+
+        & path {
+            fill: var(--white);
+        }
+    }
+}

@@ -1,0 +1,474 @@
+@import url('../../../node_modules/react-tippy/dist/tippy.css');
+
+@import url('vars.css');
+@import url('ui/ui.css');
+
+@import url('alert/alert.css');
+@import url('contact-modal/contact-modal.css');
+@import url('modal/modal.css');
+@import url('pages/data/data.css');
+@import url('pages/languages/languages.css');
+@import url('pages/languages/get-involved-modal.css');
+@import url('progress-bar/progress-bar.css');
+@import url('request-language-modal/request-language-modal.css');
+
+/* Define our icon font. */
+@font-face {
+    font-family: Icons;
+    src: url('/font/icomoon.ttf');
+}
+
+html {
+    font-family: var(--base-font-family);
+    font-size: var(--font-size);
+    color: var(--black);
+    background-color: var(--white);
+    overflow: auto;
+}
+
+@media (--md-down) {
+    html {
+        overflow: hidden;
+    }
+}
+
+html,
+body,
+#main {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--strong-font-family);
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover {
+    opacity: 0.8;
+    text-decoration: none !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+a:active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button {
+    background: none;
+    cursor: pointer;
+}
+
+.staging-banner {
+    position: sticky;
+    top: var(--header-height);
+    padding: 0.5rem;
+    color: var(--white);
+    background: var(--red);
+    text-align: center;
+    z-index: 5;
+
+    @media (--md-up) {
+        top: 0;
+    }
+
+    & a {
+        color: var(--white);
+        text-decoration: underline;
+    }
+
+    & button {
+        border: none;
+        background: var(--grey);
+    }
+}
+
+.js-focus-visible :focus:not(.focus-visible),
+.js-focus-visible :focus-within:not(.focus-visible) {
+    outline: none;
+}
+
+.js-focus-visible .focus-visible {
+    outline: 1px solid black;
+}
+
+/* Icon font element. */
+[data-icon]:before {
+    font-family: Icons;
+    font-size: 200%;
+    content: attr(data-icon);
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.strong {
+    font-family: var(--strong-font-family);
+    font-weight: bold;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#main {
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--white);
+    animation: fadein var(--transition-duration-slow) linear;
+}
+
+#scroller {
+    position: fixed;
+    top: var(--header-height);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    @media (--md-up) {
+        position: relative;
+        top: initial;
+        bottom: initial;
+        left: initial;
+        right: initial;
+        overflow: initial;
+    }
+}
+
+body:not(.focus) #scroller {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+
+    @media (--md-up) {
+        -webkit-overflow-scrolling: initial;
+        scroll-behavior: initial;
+    }
+}
+
+#scrollee {
+    position: relative;
+}
+
+.profile #content,
+.datasets #content {
+    margin: 0 auto;
+    max-width: var(--old-desktop-width);
+}
+
+.privacy #content,
+.terms #content {
+    & h1 {
+        margin: 1rem 0;
+        text-decoration: underline;
+    }
+
+    & h2 {
+        margin: 1.5rem 0 0.5rem;
+    }
+
+    & a {
+        color: var(--link-color);
+    }
+}
+
+#install-app {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--black);
+    height: 3rem;
+    line-height: 3rem;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+    color: var(--white);
+    font-weight: bold;
+    z-index: var(--top-z-index);
+    transform: translateY(0);
+    transition: transform var(--transition-duration) linear;
+    font-family: var(--base-font-family);
+}
+
+#install-app.hide {
+    transform: translateY(3rem);
+}
+
+#install-app a {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 3rem;
+    color: var(--white);
+}
+
+/**
+ * We have two different page transition types:
+ * one for desktop and one for mobile.
+ */
+@keyframes slide-fade-in {
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.1;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#profile-container,
+#record-container,
+#faq-container {
+    animation: slide-fade-in var(--transition-duration) var(--easing);
+}
+
+#content {
+    position: relative;
+    min-height: 80vh;
+
+    @media (--md-up) {
+        position: unset;
+        flex: 1 1 100%;
+        padding: 0 var(--page-margin);
+    }
+
+    & > div {
+        box-sizing: border-box;
+        transition: opacity var(--transition-duration-slow) var(--easing);
+        max-width: var(--desktop-width);
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 100%;
+        padding: 0 var(--page-margin);
+
+        @media (--md-up) {
+            min-height: auto;
+            padding: 0;
+        }
+    }
+}
+
+.main-logo {
+    @media (--md-up) {
+        margin-right: var(--standard-margin);
+        width: 10rem;
+    }
+
+    @media (--lg-up) {
+        margin-right: 4rem;
+    }
+
+    &,
+    & .main-mozilla-logo {
+        height: 100%;
+    }
+}
+
+#content > #faq-container,
+#content > #profile-container {
+    margin-top: var(--standard-margin);
+    text-align: left;
+}
+
+.loading {
+    animation: loading 2.5s ease infinite;
+    background-size: 600% 600%;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#faq-container h3 {
+    margin: 1.5rem 0 0.5rem;
+}
+
+#faq-container p {
+    margin-bottom: 1rem;
+}
+
+#faq-container a {
+    color: var(--link-color);
+}
+
+@keyframes spin {
+    50% {
+        border-radius: 0;
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.focus #donate {
+    padding-bottom: 1rem;
+}
+
+.title-and-action {
+    margin-bottom: var(--standard-margin);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & a,
+    & button {
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        text-decoration: underline;
+    }
+}
+
+.opt-in {
+    display: flex;
+    font-size: var(--font-size-xs);
+
+    & input {
+        margin: 0.1rem 0.3rem 0.1rem 0.1rem;
+        // mobile Safari needs this
+        width: 100%;
+        max-width: 0.8rem;
+        height: 0.8rem;
+    }
+}
+
+.opt-in input:checked {
+    background: black;
+}
+
+.small {
+    font-size: var(--font-size-xs);
+    color: var(--near-black);
+}
+
+a.small,
+.small a,
+.text-button.small {
+    text-decoration: underline;
+}
+
+.with-down-arrow::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/img/down-arrow.svg') no-repeat right 15px center;
+    background-size: 13px 9px;
+    pointer-events: none;
+}
+
+.tippy-popper {
+    & .tippy-tooltip.grey-tooltip-theme {
+        color: var(--black);
+        letter-spacing: initial;
+        background: var(--darker-grey);
+        font-style: normal;
+
+        & .arrow-regular {
+            border-top-color: var(--darker-grey) !important;
+        }
+    }
+
+    & .tippy-tooltip {
+        border-radius: 20px;
+        padding: 9px 25px;
+        max-width: 140px;
+        line-height: 1.5;
+        font-size: var(--font-size-xs);
+        font-style: italic;
+        letter-spacing: 0.8px;
+        background: var(--near-black);
+        color: var(--white);
+    }
+
+    & .arrow-regular {
+        border-top-color: var(--near-black) !important;
+    }
+}
+
+@keyframes move-background {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.upload-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    z-index: var(--middle-z-index);
+    background: linear-gradient(270deg, #e5868b, #a2a4d1);
+    background-size: 400% 400%;
+    animation: move-background 2s ease infinite;
+    transition: width var(--transition-duration-slow) var(--easing),
+        opacity var(--transition-duration-slow) linear
+            var(--transition-duration-slow),
+        background var(--transition-duration) linear;
+}
+
+.notifications {
+    position: fixed;
+    top: 60px;
+    z-index: var(--override-z-index);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

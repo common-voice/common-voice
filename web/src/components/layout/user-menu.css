@@ -1,0 +1,114 @@
+@import url('../vars.css');
+
+.user-menu {
+    margin: 0 20px;
+
+    @media (--sm-up) {
+        max-width: 200px;
+    }
+
+    & .toggle {
+        outline: none;
+        border: none;
+        padding: 0;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+
+        background: transparent;
+
+        & .avatar-wrap {
+            margin-right: 10px;
+        }
+
+        & .name {
+            margin-right: 10px;
+            max-width: 100%;
+            font-family: var(--base-font-family);
+            font-weight: 600;
+            font-size: var(--font-size-xs);
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            @media (--xs-down) {
+                display: none;
+            }
+        }
+
+        & svg {
+            margin-left: auto;
+            margin-right: 11px;
+            transition: transform var(--easing) var(--transition-duration);
+        }
+    }
+
+    & .menu-wrap {
+        position: relative;
+    }
+
+    & .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        box-sizing: border-box;
+        flex-direction: column;
+        display: none;
+
+        & .triangle {
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 10px solid var(--white);
+            margin-left: auto;
+            margin-right: 10px;
+            padding-top: 15px;
+            display: inline-block;
+        }
+
+        & ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background: var(--white);
+            box-shadow: 0 2px 5px 0 var(--light-grey);
+        }
+
+        & li:hover {
+            background: var(--desert-storm);
+
+            & hr {
+                visibility: hidden;
+            }
+        }
+
+        & a {
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            & svg {
+                margin-right: 12px;
+                height: 16px;
+            }
+        }
+
+        & hr {
+            margin: 0 auto;
+            width: calc(100% - 40px);
+        }
+    }
+
+    &.active {
+        & .toggle svg {
+            transform: rotateX(180deg);
+        }
+
+        & .menu {
+            display: flex;
+        }
+    }
+}

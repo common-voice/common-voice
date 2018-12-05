@@ -1,0 +1,21 @@
+const PROFILE_ROOT = '/profile';
+export default Object.freeze({
+  ROOT: '',
+  RECORD: '/record',
+  SPEAK: '/speak',
+  LISTEN: '/listen',
+  PROFILE: PROFILE_ROOT,
+  PROFILE_INFO: PROFILE_ROOT + '/info',
+  PROFILE_AVATAR: PROFILE_ROOT + '/avatar',
+  PROFILE_GOALS: PROFILE_ROOT + '/goals',
+  PROFILE_SETTINGS: PROFILE_ROOT + '/settings',
+  PROFILE_DELETE: PROFILE_ROOT + '/delete',
+  DASHBOARD: '/dashboard',
+  DATA: '/data',
+  DATASETS: '/datasets',
+  FAQ: '/faq',
+  PRIVACY: '/privacy',
+  TERMS: '/terms',
+  NOTFOUND: '/not-found',
+  LANGUAGES: '/languages',
+});

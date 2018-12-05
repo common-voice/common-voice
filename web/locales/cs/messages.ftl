@@ -1,0 +1,413 @@
+## General
+
+yes-receive-emails = Ano, posílejte mi e-maily. Rád bych zůstal o projektu Common Voice informován.
+stayintouch = V Mozille budujeme komunitu okolo hlasových technologií. Rádi bychom zůstali v kontaktu s novinkami, novými zdroji dat a rádi bychom se dozvěděli, jak tato data používáte.
+privacy-info = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>zásadách ochrany osobních údajů</privacyLink>.
+return-to-cv = Návrat do Common Voice
+email-input =
+    .label = E-mail
+submit-form-action = Odeslat
+loading = Načítání…
+email-opt-in-privacy = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů<privacyLink> společnosti Mozilla.
+indicates-required = * označuje povinná pole
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
+
+
+## Languages
+
+an = Aragonština
+ar = Arabština
+as = Azamština
+ast = Asturština
+az = Ázerbájdžánština
+bg = Bulharština
+bn = Bengálština
+br = Bretonština
+bxr = Burjatština
+ca = Katalánština
+cak = Kaqchikel
+cs = Čeština
+cv = Čuvaština
+cy = Velština
+da = Dánština
+de = Němčina
+dsb = Dolnolužická srbština
+el = Řečtina
+en = Angličtina
+eo = Esperanto
+es = Španělština
+et = Estonština
+eu = Baskičtina
+fa = Perština
+fi = Finština
+fo = Faerština
+fr = Francouzština
+fy-NL = Fríština
+ga-IE = Irština
+he = Hebrejština
+hsb = Hornosrbština
+hu = Maďarština
+ia = Interlingua
+id = Indonéština
+is = Islandština
+it = Italština
+ja = Japonština
+ka = Gruzínština
+kab = Kabylština
+kk = Kazaština
+ko = Korejština
+kw = Kornština
+ky = Kyrgyzština
+mk = Makedonština
+mn = Mongolština
+nb-NO = Norština (Bokmål)
+ne-NP = Nepálština
+nl = Nizozemština
+nn-NO = Nynorsk
+oc = Okcitánština
+or = Udijština
+pl = Polština
+pt-BR = Portugalština (Brazílie)
+ro = Rumunština
+ru = Ruština
+sah = Jakutština
+sc = Sardinština
+sk = Slovenština
+sl = Slovinština
+sq = Albánština
+sr = Srbština
+sv-SE = Švédština
+ta = Tamilština
+te = Telugština
+th = Thajština
+tr = Turečtina
+tt = Tatarština
+uk = Ukrajinština
+ur = Urdština
+uz = Uzbečtina
+vi = Vietnamština
+zh-CN = Čínština (Čína)
+zh-HK = Čínština (Hong Kong)
+zh-TW = Čínština (Taiwan)
+
+# [/]
+
+
+## Layout
+
+speak = Mluvte
+speak-now = Nyní mluvte
+datasets = Datasety
+languages = Jazyky
+profile = Profil
+help = Nápověda
+contact = Kontakt
+privacy = Soukromí
+terms = Podmínky
+cookies = Cookies
+faq = FAQ
+content-license-text = Obsah je dostupný pod <licenseLink>licencí Creative Commons</licenseLink>
+share-title = Pomozte nám najít další, kteří darují svůj hlas!
+share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }
+link-copied = Odkaz byl zkopírován
+back-top = Zpět nahoru
+logout = Odhlásit se
+
+## Home Page
+
+home-title = Projekt Common Voice je iniciativa Mozilly, která pomáhá strojům učit se, jak mluví skuteční lidé.
+home-cta = Mluvte a přispějte zde!
+wall-of-text-start = Hlas je přirozený a lidský. Proto chceme vytvořit použitelnou hlasovou technologii pro naše stroje. Abychom ji ale mohli vytvořit, potřebujeme spoustu hlasových dat.
+wall-of-text-more-mobile = Většina dat používaných velkými společnostmi nejsou dostupná pro většinu lidí. Myslíme si, že to zdržuje inovace. Proto jsme spustili Common Voice, projekt, který udělá rozpoznávání hlasu dostupné pro všechny.
+wall-of-text-more-desktop = Teď můžete darovat svůj hlas a pomoct nám vytvořit open-source databázi hlasu, kterou může kdokoli použít k tomu, aby vytvářel inovativní aplikace pro zařízení a web.<lineBreak></lineBreak>Čtěte věty a pomozte strojům porozumět, jak mluví skuteční lidé. Kontrolujte práci ostatních dobrovolníků a zlepšujte jejich kvalitu. Tak jednoduché to je!
+wall-of-text-first = Hlas je přirozený a lidský. Proto nás tolik zajímá tvorba použitelné hlasové technologie pro naše zařízení. Aby ji ale vývojáři mohli vytvořit, potřebují spoustu hlasových dat.
+wall-of-text-second = Většina dat používaných velkými společnostmi nejsou dostupná pro většinu lidí. Myslíme si, že to zdržuje inovace. Proto jsme spustili projekt Common Voice, projekt, který udělá rozpoznávání hlasu dostupné pro všechny.
+show-wall-of-text = Přečíst si více
+help-us-title = Pomozte nám ověřovat věty!
+help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
+no-clips-to-validate = Vypadá to, že v tomto jazyce nejsou k poslechu žádné nahrávky. Pomozte nám nějakou nahrát.
+vote-yes = Ano
+vote-no = Ne
+toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
+speak-subtitle = Darujte svůj hlas
+hours-recorded = Hodin nahráno
+hours-validated = Hodin ověřeno
+todays-progress = Dnešní pokrok
+help-reach-goal = Pomozte nám dostat se na { $goal }
+all-languages = Všechny jazyky
+today = Dnes
+x-weeks-short =
+    { $count ->
+        [one] { $count } týden
+        [few] { $count } týdny
+       *[other] { $count } týdnů
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } měsíc
+        [few] { $count } měsíce
+       *[other] { $count } měsíců
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } rok
+        [few] { $count } roky
+       *[other] { $count } let
+    }
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Přehrát/Zastavit
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Nahrát/Zastavit
+request-language-text = Nevidíte svůj jazyk na Common Voice?
+request-language-button = Požádat o jazyk
+
+## ProjectStatus
+
+status-title = Celkový stav projektu: podívejte se, jak jsme daleko!
+status-contribute = Přispějte svým hlasem
+status-hours =
+    { $hours ->
+        [one] Zatím jedna ověřená hodina!
+        [few] Zatím { $hours } ověřené hodiny!
+       *[other] Zatím { $hours } ověřených hodin!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Další cíl: { $goal }
+english = Angličtina
+
+## ProfileForm
+
+profile-form-username =
+    .label = Uživatelské jméno
+profile-form-language =
+    .label = Jazyk
+profile-form-accent =
+    .label = Přízvuk
+profile-form-age =
+    .label = Věk
+profile-form-gender =
+    .label = Pohlaví
+hidden = Skrytý
+visible = Viditelný
+native-language =
+    .label = Rodný jazyk
+profile-form-submit-save = Uložit
+profile-form-submit-saved = Uloženo
+male = Muž
+female = Žena
+# Gender
+other = Ostatní
+why-profile-title = Proč mít profil?
+why-profile-text = Tím, že nám o sobě poskytnete nějaké informace budou data, která odešlete do Common Voice, více užitečná pro systémy pro prozpoznávání řeči, které tato data využívají ke zvýšení přesnosti.
+dashboard = Nástěnka
+avatar = Avatar
+goals = Cíle
+settings = Nastavení
+edit-profile = Upravit profil
+profile-create-success = Profil byl úspěšně vytvořen!
+profile-close = Zavřít
+profile-explanation = Sledujte svůj pokrok díky profilu a pomozte zpřesnit naše hlasová data.
+why-demographic = Proč na tomhle záleží?
+login-identity = Identita pro přihlášení
+login-signup = Přihlásit / Zaregistrovat se
+edit = Upravit
+download-profile = Stáhnout má data
+off = Vypnuto
+on = Zapnuto
+browse-file-title = Nahrát obrázek
+connect-gravatar = Propojit s Gravatarem
+file_too_large = Zvolený soubor je příliš velký
+email-already-used = E-mail je již používán pro jiný účet
+add-language = Přidat jazyk
+
+## FAQ
+
+faq-title = Často kladené otázky
+faq-what-q = Co je Common Voice?
+faq-what-a = Technologie rozpoznávání hlasu by mohla udělat revoluci v tom, jakým způsobem komunikujeme se stroji, ale současné systémy jsou drahé a proprietární. Common Voice je projekt, který dělá rozpoznávání hlasu snadno dostupné pro všechny. Lidé darují jejich hlasy do obrovské databáze, která umožní komukoli rychle naučit aplikace pro rozpoznávání hlasu. Všechna hlasová data budou dostupná vývojářům.
+faq-important-q = Proč je to důležité?
+faq-important-a = Hlas je přirozený a lidský. Je to nejjednoduší a nejpřirozenější způsob komunikace. Chceme umožnit vývojářům, aby mohli vytvářet úžasné věci od překladačů v reálném čase po hlasové asistenty. V současné chvíli není dostatek veřejných dat k tomu, aby mohli takové aplikace vytvářet. Doufáme, že Common Voice dá vývojářům to, co potřebují k inovacím.
+faq-get-q = Jak můžu získat data Common Voice?
+faq-get-a = Dataset je nyní k dispozici na naší <downloadLink>stahovací stránce</downloadLink> pod licencí <licenseLink>CC-0</licenseLink>.
+faq-mission-q = Proč je Common Voice součástí mise Mozilly?
+faq-mission-a = Mozilla se věnuje udržování webu otevřeným a dostupným pro všechny. Abychom to mohli dělat, potřebujeme podporovat tvůrce webu přes projekty jako Common Voice. Jelikož se hlasové technologie dostávají do spousty aplikací, věříme, že by měly sloužit stejně všem uživatelům. Vidíme potřebu zahrnout více jazyků, přízvuků a demografie při tvorbě a testování hlasových teechnologií. Mozilla chce vidět zdravý a vitální internet. To znamená dávat tvůrcům přístup k hlasovým datům, aby mohli vytvořet nové, mimořádné projekty. Common Voice bude veřejný zdroj který pomůže týmům Mozilly a vývojářům po celém světě.
+faq-native-q = Nejsem rodilý mluvčí jazyka { $lang } a mluvím s přízvukem, chcete i tak můj hlas?
+faq-native-a = Ano, určitě chceme váš hlas! Součástí cílů projektu Common Voice je získat tolik přízvuků, kolik jen jde, aby mohly počítače lépe rozumět <bold>každému</bold>, když mluví.
+faq-firefox-q = Bude převod řeči na text díky Common Voice někdy součástí Firefoxu?
+faq-firefox-a = Common Voice má neomezený potenciál a my zkoumáme rozhraní pro řeč ve spoustě produktů Mozilly včetně Firefoxu.
+faq-quality-q = Jaká je potřebná kvalita zvuku, aby mohl být použit?
+faq-quality-a = Chceme zvuk v takové kvalitě, která odpovídá kvalitě, se kterou se bude systém převodu řeči na text běžně setkávat. To znamená, že chceme rozdílnou kvalitu. To naučí systém převodu řeči na text porozumět v různých situacích — při mluvení v pozadí, hluku aut, hluku větráků — a to bez chyb.
+faq-hours-q = Proč je 10 000 hodin náš cíl pro zaznamenávání zvuku?
+faq-hours-a = Je to počet hodin potřebných k natrénování produkčního systému pro převod hlasu na text.
+faq-source-q = Odkud pochází zdrojové texty?
+faq-source-a1 = Současné věty pochází od darů přispěvatelů a z dialogů otevřených filmových scénářů, jako je <italic>It's a Wonderful Life</italic>.
+faq-source-a2 = Zdrojové věty si můžete prohlédnout v <dataLink>této GitHub složce</dataLink>.
+
+## NotFound
+
+notfound-title = Nenalezeno
+notfound-content = Obávám se, že nevím, co hledáte.
+
+## Data
+
+data-download-button = Stáhnout data Common Voice
+data-download-yes = Ano
+data-download-deny = Ne
+data-download-license = Licence: <licenseLink>CC-0</licenseLink>
+data-download-modal = Chystáte se zahájit stahování <size>{ $size } GB</size>, chcete pokračovat?
+data-subtitle = Vytváříme otevřený a veřejně dostupný dataset hlasu, který může kdokoli použít k trénování jeho hlasových aplikací.
+data-explanatory-text = Věříme, že rozsáhlé a veřejně dostupné hlasové datasety podporují inovace a zdravou obchodní soutěž v technologii řeči založené na strojovém učení. Jde o celosvětové úsilí a zveme všechny, aby se zapojili. Naším cílem je pomoci technologiím využívajícím řeč, aby byly otevřenější a odrážely rozmanitost hlasů z celého světa.
+data-get-started = <speechBlogLink>Začínáme s rozpoznáváním hlasu</speechBlogLink>
+data-other-title = Další hlasové datasety…
+data-other-goto = Přejít na { $name }
+data-other-download = Stáhnout data
+data-other-librispeech-description = LibriSpeech je korpus přibližně 1 000 hodin 16 kHz čtené angličtiny odvozený od čtených audioknih z projektu LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Korpus TED-LIUM je tvořen zvukem přednášek a jejich přepisů dostupných na webu TED.
+data-other-voxforge-description = VoxForge byl vytvořen pro sběr přepsaných řečí pro použití ve zdarma dostupných a open-source systémech pro rozpoznávání řeči.
+data-other-tatoeba-description = Tatoeba je rozsáhlá databáze vět, překladů a mluveného slova pro použití při studiu jazyků. Tento obsah obsahuje všechnu mluvenou angličtinu nahranou jejich komunitou.
+data-bundle-button = Stáhnout balík datasetů
+data-bundle-description = Data Common Voice a data všech ostatních datasetů výše.
+license = Licence: <licenseLink>{ $license }</licenseLink>
+license-mixed = Kombinovaná
+review-terms = Používáním Common Voice souhlasíte s našimi <termsLink>Podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink>
+terms-agree = Souhlasím
+terms-disagree = Nesouhlasím
+review-aborted = Nahrávání bylo zrušeno. Chcete smazat vaše nahrávky?
+review-submit-title = Kontrola a odeslání
+review-submit-msg = Děkujeme za nahrávky!<lineBreak></lineBreak>Teď je níže zkontrolujte a odešlete.
+review-recording = Zkontrolovat
+review-rerecord = Nahrát znovu
+review-cancel = Zrušit odeslání
+review-keep-recordings = Uchovat nahrávky
+review-delete-recordings = Smazat nahrávky
+
+## Download Modal
+
+download-title = Vaše stahování bylo spuštěno.
+download-helpus = Pomozte nám vybudovat komunitu okolo hlasových technologií, zůstaňte v kontaktu přes e-mail.
+download-form-email =
+    .label = Zadejte váš e-mail
+    .value = Děkujeme, budeme ve spojení
+download-back = Zpět na datasety Common Voice
+download-no = Ne, děkuji
+
+## Contact Modal
+
+contact-title = Kontaktní formulář
+contact-form-name =
+    .label = Jméno
+contact-form-message =
+    .label = Zpráva
+contact-required = *vyžadováno
+
+## Request Language Modal
+
+request-language-title = Požádat o jazyk
+request-language-form-language =
+    .label = Jazyk
+request-language-success-title = Žádost o jazyk byla odeslána. Děkujeme vám.
+request-language-success-content = Velmi brzy vám dáme vědět, jak můžete přidat váš jazyk do Common Voice.
+
+## Languages Overview
+
+language-section-in-progress = Spouští se
+language-section-launched = Spuštěno
+languages-show-more = Zobrazit více
+languages-show-less = Zobrazit méně
+language-speakers = Mluvčí
+language-meter-in-progress = Postup
+language-total-progress = Celkem
+language-search-input =
+    .placeholder = Hledat
+language-speakers = Mluvčí
+localized = Přeloženo
+sentences = Věty
+total-hours = Ověřené hodiny
+
+## New Contribution
+
+action-click = Klikněte
+action-tap = Klepněte
+contribute = Přispět
+listen = Poslouchejte
+skip = Přeskočit
+shortcuts = Zkratky
+contribute-more =
+    { $count ->
+        [one] Jste připraveni udělat ještě { $count }?
+        [few] Jste připraveni udělat ještě { $count }?
+       *[other] Jste připraveni udělat ještě { $count }?
+    }
+record-cta = Spustit nahrávání
+record-platform-not-supported = Je nám líto, ale vaše platforma zatím není podporovaná.
+record-platform-not-supported-desktop = Na počítačích si můžete stáhnout nejnovější:
+record-platform-not-supported-ios = Uživatelé <bold>iOS</bold> si mohou zdarma stáhnout naši aplikaci:
+record-must-allow-microphone = Musíte povolit přístup k mikrofonu.
+record-no-mic-found = Mikrofon nebyl nalezen.
+record-error-too-short = Nahrávka byla příliš krátká.
+record-error-too-long = Nahrávka byla příliš dlouhá.
+record-error-too-quiet = Nahrávka byla příliš tichá.
+record-cancel = Zrušit opakovaný záznam
+record-instruction = { $actionType } <recordIcon></recordIcon> a přečtěte nahlas větu
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> až budete hotovi
+record-three-more-instruction = Ještě tři!
+record-again-instruction = Skvělé! <recordIcon></recordIcon> Nahrajte váš další klip
+record-again-instruction2 = Jen tak dál, pokračujte v nahrávání <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Poslední!
+unable-speak = Nemůžete teď mluvit?
+clips-uploaded = Nahraných klipů
+record-abort-text = Když nyní odejdete, přijdete o dosavadní postup
+record-abort-submit = Odeslat nahrávky
+record-abort-continue = Dokončit nahrávání
+record-abort-delete = Odejít a smazat nahrávky
+listen-instruction = { $actionType } <playIcon></playIcon> byla věta nahrána přesně?
+listen-last-time-instruction = <playIcon></playIcon>Poslední!
+record-button-label = Nahrajte svůj hlas
+share-title-new = <bold>Pomozte nám</bold> najít další hlasy
+
+## Goals
+
+days =
+    { $count ->
+        [one] den
+        [few] dny
+       *[other] dnů
+    }
+
+## Dashboard
+
+stats = Statistiky
+you = Vy
+everyone = Všichni
+
+## Profile Delete
+
+keep = Zachovat
+remove = Odebrat
+keep-info = Vaše anonymní hlasové záznamy zůstanou v databázi Common Voice. Po odstranění profilu již nebudete moci zadat žádost o odstranění vašich záznamů z databáze
+profile-form-delete = Smazat profil

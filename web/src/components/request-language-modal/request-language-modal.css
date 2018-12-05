@@ -1,0 +1,27 @@
+.ReactModal__Content .inner.request-language-modal {
+    max-width: 25rem;
+
+    &.left-align {
+        text-align: start;
+    }
+}
+
+.request-language-modal {
+    & h2 {
+        font-weight: bold;
+    }
+
+    & .success {
+        width: 50px;
+        margin-bottom: 2.5rem;
+    }
+
+    & .actions {
+        display: flex;
+        justify-content: center;
+    }
+
+    & .labeled-form-control {
+        margin-bottom: 1rem;
+    }
+}

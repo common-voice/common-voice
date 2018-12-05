@@ -1,17 +1,7 @@
 # Install dependencies
 
 class { 'nodejs':
-  repo_url_suffix => '6.x',
-}
-
-package { 'gulp':
-  ensure   => '3.9.1',
-  provider => 'npm',
-}
-
-package { 'forever':
-  ensure   => '0.15.3',
-  provider => 'npm',
+  repo_url_suffix => '8.x',
 }
 
 # Needed for binary compilation (i.e. bcrypt)s
@@ -30,57 +20,80 @@ package { 'libpq-dev':
   ensure => 'latest',
 }
 
+# Install yarn
+exec { 'install yarn':
+  command   => 'npm install -g yarn',
+  logoutput => true,
+  cwd       => "/var/www/${project_name}",
+  path      => [ '/bin', '/usr/bin', '/usr/local/bin' ],
+  require   => [
+    Class['Nodejs'],
+  ],
+}
+
 # Install service dependencies
 exec { 'install deps':
-  command => 'npm install --unsafe-perm',
-  cwd     => "/var/www/${project_name}",
-  path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
-  require => [
+  command   => 'yarn',
+  logoutput => true,
+  cwd       => "/var/www/${project_name}",
+  path      => [ '/bin', '/usr/bin', '/usr/local/bin' ],
+  require   => [
     Class['Nodejs'],
-    Package['gulp'],
     Package['libmysqlclient-dev'],
+    Exec['install yarn'],
   ],
 }
 
 # Prepare Node for runtime, build assets and precompile
 exec { 'build':
-  command => 'gulp build',
-  cwd     => "/var/www/${project_name}",
-  path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
-  require => [
+  command   => 'yarn build',
+  logoutput => true,
+  cwd       => "/var/www/${project_name}",
+  path      => [ '/bin', '/usr/bin', '/usr/local/bin' ],
+  require   => [
     Class['Nodejs'],
-    Package['gulp'],
     Package['libmysqlclient-dev'],
     Exec['install deps'],
   ],
 }
 
-# Create the service with upstart
-include 'upstart'
+systemd::unit_file { "${project_name}.service":
+  content => @("EOT")
+[Unit]
+Description=Mozilla Common Voice
+Wants=basic.target
+After=basic.target network.target
 
-upstart::job { $project_name:
-    description    => 'Mozilla Common Voice',
+[Service]
+Restart=on-failure
+RestartSec=10s
+User=${project_name}-data
+Group=${project_name}-data
+WorkingDirectory=/var/www/${project_name}
 
-    # let confd start us up
-    service_ensure => 'stopped',
-    service_enable => false,
+Environment=HOME=/var/www/${project_name}
 
-    # Never give up
-    respawn        => true,
-    respawn_limit  => 'unlimited',
-    start_on       => '(local-filesystems and net-device-up IFACE!=lo)',
-    chdir          => "/var/www/${project_name}",
-    env            => {
-      'HOME' => "/var/www/${project_name}",
-    },
-    user           => "${project_name}-data",
-    group          => "${project_name}-data",
-    script         => "
-  if [ -r /etc/profile.d/proxy.sh ]; then
-    echo 'Loading Proxy settings'
-    . /etc/profile.d/proxy.sh
-  fi
+# Ensure logfile has proper permissions
+PermissionsStartOnly=true
 
-  exec /usr/bin/forever --workingDir /var/www/${project_name} --minUptime 1000 --spinSleepTime 1000 /usr/bin/gulp run
-",
+ExecStartPre=/bin/touch /var/log/voice.log
+ExecStartPre=/bin/chown ${project_name}-data:${project_name}-data /var/log/voice.log
+
+ExecStart=/bin/bash -c '. /etc/profile.d/proxy.sh && /usr/bin/yarn start:prod | tee >(/usr/bin/rotatelogs -t /var/log/voice.log 86400)'
+
+[Install]
+WantedBy=multi-user.target
+
+EOT
+} ~> service { $project_name:
+  ensure => 'stopped',
+  enable => true,
+}
+
+file { "/etc/nubis.d/${project_name}":
+    ensure => file,
+    owner  => root,
+    group  => root,
+    mode   => '0755',
+    source => 'puppet:///nubis/files/startup',
 }

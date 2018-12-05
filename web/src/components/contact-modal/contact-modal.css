@@ -1,0 +1,34 @@
+.ReactModal__Content .inner.contact-modal {
+    max-width: 35rem;
+    text-align: start;
+
+    & textarea {
+        resize: none;
+    }
+
+    & .labeled-form-control {
+        margin-bottom: 1rem;
+    }
+}
+
+.contact-modal .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > * {
+        flex: 1;
+    }
+
+    & button {
+        width: 100%;
+        min-width: unset;
+        max-width: 12rem;
+        font-weight: normal;
+    }
+
+    & div {
+        font-size: var(--font-size-xs);
+        font-style: italic;
+    }
+}

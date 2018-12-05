@@ -1,18 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "amd",
-    "noImplicitAny": false,
-    "noEmitOnError": true,
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "sourceMap": true,
     "jsx": "react",
-    "jsxFactory": "h",
-    "lib": ["es2015", "dom"],
-    "outFile": "bundle.js",
-    "types": [
-      "preact"
-    ]
+    "lib": ["es2017", "dom", "esnext.asynciterable"]
   },
-  "files": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }
