@@ -483,8 +483,8 @@ overall-accuracy = natančnost
 
 ## Profile Delete
 
-delete-q = Zahtevate tudi izbris glasovnih posnetkov, ali jih želite obdržati v podatkovni bazi Common Voice?
+delete-q = Zahtevate tudi izbris glasovnih posnetkov, ali jih želite obdržati v naboru podatkov Common Voice?
 keep = Obdrži
 remove = Odstrani
-keep-info = Vaši anonimni glasovni posnetki bodo ostali v podatkovni bazi Common Voice. Ko izbrišete profil, ne boste več mogli zahtevati izbrisa vaših posnetkov iz podatkovne baze
+keep-info = Vaši anonimni glasovni posnetki bodo ostali v naboru podatkov Common Voice. Ko izbrišete profil, ne boste več mogli zahtevati izbrisa vaših posnetkov iz nabora podatkov
 profile-form-delete = Izbriši profil
