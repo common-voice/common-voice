@@ -456,6 +456,7 @@ everyone = Totes
 contribution-activity = Activate de collaboration
 top-contributors = Principal collaboratores
 total-approved = Total approbate
+overall-accuracy = Precision general
 
 ## Profile Delete
 
