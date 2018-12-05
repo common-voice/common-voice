@@ -1,10 +1,10 @@
+@import url('../vars.css');
+
 #email-subscription {
-    //border: 1px solid white;
     padding: 1.5rem 2rem;
     display: flex;
     flex-direction: column;
     flex: 1.5;
-    //width: 500px;
 
     & .title {
         margin-bottom: 1rem;
@@ -26,25 +26,44 @@
       } */
     }
 
-    & .input {
-        width: 100%;
+    & input {
+        padding: 15px;
+        font-size: var(--font-size);
+        border: none;
     }
 
-    & .submit {
+    & .submit-button {
         width: 45px;
-        background-color: blue;
+        transition: all 300ms;
+        background-color: var(--blue);
+        position: relative;
+    }
+
+    & .success-button {
+        width: 45px;
+        transition: all 300ms;
+        background-color: var(--valid-green);
+        position: relative;
+    }
+
+    & .error-button {
+        width: 45px;
+        transition: all 300ms;
+        background-color: var(--red);
+        position: relative;
     }
 }
 
-/* .icon svg {
-    height: 22px;
-    background: orange;
-
+.icon {
+    height: 18px;
+    width: 18px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     & path {
-        fill: green;
+        fill: white;
     }
-} */
-
-.icon path {
-    fill: white;
 }

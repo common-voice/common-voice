@@ -3,16 +3,8 @@ import { Localized } from 'fluent-react/compat';
 import StateTree from '../../stores/tree';
 import API from '../../services/api';
 import { connect } from 'react-redux';
-import {
-  CheckIcon,
-  PlayIcon,
-  ChevronRight,
-  OldPlayIcon,
-  CrossIcon,
-  CautionIcon,
-} from '../ui/icons';
-
 import './sign-up.css';
+import { CheckIcon, OldPlayIcon, CautionIcon } from '../ui/icons';
 
 interface PropsFromState {
   api: API;
@@ -20,8 +12,8 @@ interface PropsFromState {
 
 interface State {
   email: string;
-  isSubmitted: boolean;
-  isValidEmail: boolean;
+  buttonStyle: string;
+  buttonHtml: any;
 }
 
 class SignUp extends React.Component<PropsFromState, State> {
@@ -30,37 +22,41 @@ class SignUp extends React.Component<PropsFromState, State> {
     const { api } = this.props;
     this.state = {
       email: '',
-      isSubmitted: false,
-      isValidEmail: true,
+      buttonStyle: 'submit-button',
+      buttonHtml: <OldPlayIcon className="icon" />,
     };
     this.handleChange = this.handleChange.bind(this);
-    this.isValidEmailAddress = this.isValidEmailAddress.bind(this);
   }
 
   handleChange(event: any) {
     this.setState({ email: event.target.value });
+    if (this.state.buttonStyle != 'submit-button') {
+      this.setState({ buttonStyle: 'submit-button' });
+      this.setState({ buttonHtml: <OldPlayIcon className="icon" /> });
+    }
   }
 
   private isValidEmailAddress() {
     let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    this.setState({
-      isValidEmail: re.test(this.state.email),
-    });
     return re.test(this.state.email);
-    console.log(this.state.isValidEmail);
   }
 
-  private subscribeToNewsletter = () => {
-    console.log('?');
+  private setButtonState = () => {
     if (this.isValidEmailAddress()) {
-      this.props.api
-        .subscribeToNewsletter('test@mailinator.com')
-        .then(result => {
-          console.log(result);
-          this.setState({ isSubmitted: true });
-          this.setState({ email: 'Submitted' });
-        });
+      this.subscribeToNewsletter();
+    } else {
+      this.setState({ buttonStyle: 'error-button' });
+      this.setState({ buttonHtml: <CautionIcon className="icon" /> });
     }
+  };
+
+  private subscribeToNewsletter = () => {
+    this.props.api.subscribeToNewsletter('test@mailinator.com').then(result => {
+      console.log(result);
+      this.setState({ email: 'Submitted' });
+      this.setState({ buttonStyle: 'success-button' });
+      this.setState({ buttonHtml: <CheckIcon className="icon" /> });
+    });
   };
 
   render() {
@@ -76,18 +72,9 @@ class SignUp extends React.Component<PropsFromState, State> {
             type="email"
             value={this.state.email}
             onChange={this.handleChange}
-            onBlur={() => {
-              this.setState({ isSubmitted: false });
-            }}
           />
-          <div className="submit" onClick={this.subscribeToNewsletter}>
-            {this.state.isSubmitted ? (
-              <CheckIcon className="icon" />
-            ) : this.state.isValidEmail ? (
-              <OldPlayIcon className="icon" />
-            ) : (
-              <CautionIcon className="icon" />
-            )}
+          <div className={this.state.buttonStyle} onClick={this.setButtonState}>
+            {this.state.buttonHtml}
           </div>
         </span>
       </div>
