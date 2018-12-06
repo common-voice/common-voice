@@ -210,8 +210,7 @@ footer {
         margin-bottom: 1rem;
         text-align: left;
         font-size: 0.95rem;
-        font-weight: normal;
-        font-family: sans-serif;
+        font-family: var(--base-font-family);
         color: var(--warm-grey);
     }
 }

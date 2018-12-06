@@ -2,7 +2,6 @@
 
 .submission {
     height: 45px;
-    //width: 100%;
     display: flex;
 }
 
@@ -18,6 +17,9 @@ input {
     transition: all 300ms;
     background-color: var(--blue);
     position: relative;
+    & .icon {
+        height: 16px;
+    }
 }
 
 .success-button {
@@ -25,6 +27,9 @@ input {
     transition: all 300ms;
     background-color: var(--valid-green);
     position: relative;
+    & .icon {
+        height: 25px;
+    }
 }
 
 .error-button {
@@ -32,11 +37,12 @@ input {
     transition: all 300ms;
     background-color: var(--red);
     position: relative;
+    & .icon {
+        height: 24px;
+    }
 }
 
 .icon {
-    height: 18px;
-    width: 18px;
     margin: 0;
     position: absolute;
     top: 50%;

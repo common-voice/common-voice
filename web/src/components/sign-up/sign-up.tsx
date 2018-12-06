@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { Localized } from 'fluent-react/compat';
 import StateTree from '../../stores/tree';
 import API from '../../services/api';
 import { connect } from 'react-redux';
-import './sign-up.css';
 import { CheckIcon, OldPlayIcon, CautionIcon } from '../ui/icons';
+
+import './sign-up.css';
 
 interface PropsFromState {
   api: API;
@@ -51,12 +51,18 @@ class SignUp extends React.Component<PropsFromState, State> {
   };
 
   private subscribeToNewsletter = () => {
-    this.props.api.subscribeToNewsletter('test@mailinator.com').then(result => {
-      console.log(result);
-      this.setState({ email: 'Submitted' });
-      this.setState({ buttonStyle: 'success-button' });
-      this.setState({ buttonHtml: <CheckIcon className="icon" /> });
-    });
+    this.props.api
+      .subscribeToNewsletter(this.state.email)
+      .then(result => {
+        this.setState({ email: 'Submitted' });
+        this.setState({ buttonStyle: 'success-button' });
+        this.setState({ buttonHtml: <CheckIcon className="icon" /> });
+      })
+      .catch(err => {
+        this.setState({ buttonStyle: 'error-button' });
+        this.setState({ buttonHtml: <CautionIcon className="icon" /> });
+        throw new Error(err.message);
+      });
   };
 
   render() {
