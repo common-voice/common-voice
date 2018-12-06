@@ -99,6 +99,11 @@ show-wall-of-text = بیشتر بخوانید
 vote-yes = بله
 vote-no = خیر
 speak-subtitle = صدای خود را اهدا کنید
+voices-online = صداهای آنلاین حال حاضر
+todays-progress = پیشرفت امروز
+help-reach-goal = به ما کمک کنید تا به { $goal } برسیم
+read-terms-q = آیا شرایط ما را خوانده‌اید؟
+ready-to-record = آیا آماده اهدای صدای خود هستید؟
 all-languages = همه‌ی زبان‌ها
 today = امروز
 x-weeks-short =
@@ -180,21 +185,42 @@ male = مرد
 female = زن
 # Gender
 other = ‏‏سایر
+why-profile-title = چرا یک نمایه؟
+dashboard = داشبورد
+build-profile = ساختن نمایه
+avatar = تصویر نمایه
 goals = هدف‌ها
 settings = تنظیمات
+edit-profile = ویرایش نمایه
+profile-create-success = نمایه با موفقیت ایجاد شد!
 profile-close = بستن
+profile-explanation = پیشرفت‌های خود را با استفاده از یک نمایه پیگیری کنید و به دقت بیشتر داده‌های صوتی ما کمک کنید.
+thanks-for-account = با تشکر از تایید حساب خود، اکنون اجازه دهید نمایه شما را بسازیم.
 why-demographic = چرا این موضوع اهمیت دارد؟
+login-identity = شناسه ورود
+login-signup = ورود / ثبت‌نام
 edit = ویرایش
 email-subscriptions = اشتراک ایمیلی
 download-profile = دریافت داده‌های من
 contribution-experience = تجربه مشارکت
 off = خاموش
 on = روشن
+add-avatar-title = تصویری به نمایه خود اضافه کنید
+browse-file-title = یک تصویر بارگذاری کنید
+browse-file = کشیدن و رها کردن یا <browseWrap>مرور</browseWrap>
+connect-gravatar = اتصال به Gravatar
+gravatar_not_found = هیچ گراواتاری برای ایمیل شما یافت نشد
+file_too_large = پرونده انتخاب شده خیلی بزرگ است
+manage-subscriptions = مدیریت اشتراک‌ها
+email-already-used = ایمیل پیش از این برای حساب دیگری استفاده شده است
 add-language = افزودن زبان
 
 ## FAQ
 
 faq-title = سوالات متداول
+faq-what-q = صدای مشترک چیست؟
+faq-important-q = چرا مهم است؟
+faq-source-q = این متن‌ها از کجا می‌آیند؟
 
 ## NotFound
 
@@ -203,12 +229,14 @@ notfound-content = من نگرانم و نمی دانم شما به دنبال �
 
 ## Data
 
+data-download-button = دریافت داده‌های صدای مشترک
 data-download-yes = بله
 data-download-deny = خیر
 data-download-license = مجوز: <licenseLink>CC-0</licenseLink>
 data-other-title = دیگر مجموعه داده‌های صوتی…
 data-other-goto = برو به { $name }
 data-other-download = دریافت داده‌ها
+data-other-ted-name = مجموعه نوشته‌های TED-LIUM
 license-mixed = درهم
 terms-agree = موافقم
 terms-disagree = موافق نیستم
