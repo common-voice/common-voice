@@ -267,6 +267,7 @@ gravatar_not_found = Na email ah hmanthlak kan hmu lo
 file_too_large = Na thimmi a lian tuk
 manage-subscriptions = Cakuat Zohkhenhnak
 email-already-used = Na email cu midang nih an hman cang
+add-language = Holhphun Chapnak
 
 ## FAQ
 
@@ -361,7 +362,6 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 
 ## Languages Overview
 
-language-section-in-progress = Tuah liomi
 language-section-in-progress-description = Tuah lio cuahmah mi holhphun hna cu anmah ram le miphun cio nih bawmhnak in ser an si; An ṭhanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
 language-section-launched = Thlah cangmi
 language-section-launched-new-description = Hi thlah cangmi holhphun hna caah cun tlamtling tein website hi an mah le holh cio in leh piak dih an si cang, cun biatlang zong a zatawk tein <italic> Chim</italic> le <italic> Ngaih</italic> khawhnak caah an khomh khawh cang.
@@ -454,11 +454,12 @@ top-contributors = Bawmtu Ṭhawngcem
 recorded-clips = Tun cangmi
 validated-clips = Check cangmi
 total-approved = Lungtlinmi Dihlak
+overall-accuracy = Ṭha tein Hmantlak
 
 ## Profile Delete
 
 delete-q = Na tuncia mi aw hlonh chih na duh maw, siloah Common Voice caah um ko seh ti na duh?
-keep = Chia
+keep = Chiah
 remove = Hlonh
 keep-info = Min hngalh loin na tun mi vialte cu Common Voice pumh mi data ah chiah an si lai. Na profile na hlonh hnu in cun aw hlonh fialnak cakuat a ngah ti lai lo.
 remove-info = Na aw data chungin tunmi hlonh dingin ca na kan kuat ahcun kan in zoh piak lai.  Hlonh awkah a tlak ko kan ti ahcun kan data a dawnlok tu vialte na aw hlonh dingin ca kan kuat chih hna lai.

@@ -8,6 +8,7 @@ email-input =
     .label = Corréu
 submit-form-action = Unviar
 loading = Cargando...
+indicates-required = * indica que ye un campu riquíu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,6 +22,7 @@ ar = Árabe
 as = Asamés
 ast = Asturianu
 az = Azerbaixanu
+bg = Búlgaru
 bn = Bengalí
 br = Bretón
 bxr = Buriatu
@@ -38,6 +40,7 @@ en = Inglés
 eo = Esperantu
 es = Español
 et = Estoniu
+eu = Vascu
 fa = Persa
 fi = Finlandés
 fo = Feroés
@@ -75,6 +78,7 @@ rm-sursilv = Romanche surselvu
 ro = Rumanu
 ru = Rusu
 sah = Sakha
+sc = Sardu
 sk = Eslovacu
 sl = Eslovenu
 sq = Albanés
@@ -114,9 +118,7 @@ share-title = ¡Ayúdanos a alcontrar a xente que nos empreste la so voz!
 share-text = Enséña-yos a les máquines cómo falen los humanos. Empresta la to voz en { $link }
 link-copied = Copióse l'enllaz
 back-top = Volver a arriba
-contribution-banner-text = Tamos acabante de llanzar una esperiencia nueva de collaboración
-contribution-banner-button = Écha-y un güeyu
-report-bugs-link = Ayuda a informar de fallos
+logout = Zarrar sesión
 
 ## Home Page
 
@@ -141,7 +143,7 @@ wall-of-text-first =
     de voz.
 wall-of-text-second =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
-    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a
+    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar a
     facer que la reconocencia de voz seya abierta y accesible pa tol mundu.
 show-wall-of-text = Llei más
 help-us-title = ¡Ayúdanos a validar les frases!
@@ -151,13 +153,15 @@ vote-yes = Sí
 vote-no = Non
 toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reproducción
 speak-subtitle = Empresta la to voz
-speak-paragraph = La grabación de clips de voz ye una parte esencial de la fechura del nuesu conxuntu abiertu de datos. Tamién ye la parte más divertida.
+speak-paragraph = La grabación de clips de voz ye una parte esencial pa la fechura del nuesu conxuntu abiertu de datos. Tamién ye la parte más divertida.
 speak-goal-text = Clips grabaos
 listen-subtitle = Ayúdanos a validar voces
 listen-paragraph = Validar los clips ye tamién importante pa la misión de Common Voice. Sienti y ayúdanos a crear datos de voz llibres y calidables.
 listen-goal-text = Clips validaos
 hours-recorded = Hores grabaes
 hours-validated = Hores validaes
+voices-online = Voces en llinia anguaño
+todays-progress = Progresu de güei
 read-terms-q = ¿Lleesti los nuesos términos?
 ready-to-record = ¿Preparáu pa emprestar la to voz?
 all-languages = Toles llingües
@@ -221,8 +225,6 @@ english = Inglés
 
 ## ProfileForm
 
-profile-form-cancel = Colar del formulariu
-profile-form-delete = Desaniciar perfil
 profile-form-username =
     .label = Nome d'usuariu
 profile-form-language =
@@ -235,12 +237,12 @@ profile-form-gender =
     .label = Xéneru
 leaderboard-visibility =
     .label = Visibilidá de la tabla de líderes
+hidden = Anúbrese
+visible = Visible
 native-language =
     .label = Llingua nativa
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardóse
-profile-keep-data = Caltener datos
-profile-delete-data = Desaniciar datos
 male = Masculín
 female = Femenín
 # Gender
@@ -249,19 +251,22 @@ why-profile-title = ¿Por qué un perfil?
 why-profile-text =
     Apurriendo dellos datos tocante a ti, los datos d'audiu qu'unvies a Common Voice van ser más útiles pa los motores de
     reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
+dashboard = Panel
+avatar = Avatar
+goals = Metes
+settings = Axustes
 edit-profile = Editar perfil
-profile-create = Creación d'un perfil
 profile-create-success = ¡Creóse'l perfil con ésitu!
 profile-close = Zarrar
-profile-clear-modal = Llimpiar el perfil significa qu'esta información demográfica yá nun va unviase a Common Voice xunto coles tos grabaciones.
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
-why-demographic = ¿Por qué importa esto?
-why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun va asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
+why-demographic = ¿Por qué importa?
+why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
 keep-me-posted =
     .label = Prestaríame tar al día, con anovamientos, pa saber lo último de Common Voice.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 login-identity = Identidá del aniciu de sesión
+login-signup = Aniciar sesión / rexistrase
 edit = Editar
 email-subscriptions = Soscripciones per corréu
 download-profile = Baxar los mios datos
@@ -271,6 +276,14 @@ skip-submission-description = Nel unviu de les collaboraciones van saltase los c
 skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
 off = NON
 on = SÍ
+add-avatar-title = Amiestu d'una imaxe al perfil
+browse-file-title = Xuba d'un ficheru
+browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
+connect-gravatar = Coneutar con Gravatar
+file_too_large = El ficheru esbilláu ye perllargu
+manage-subscriptions = Xestión de les soscripciones
+email-already-used = El corréu yá s'usa nuna cuenta diferente
+add-language = Amestar llingua
 
 ## FAQ
 
@@ -295,11 +308,6 @@ faq-source-q = ¿D'ónde vien el testu fonte?
 faq-source-a1 = Les frases actuales vienen de donaciones de collaboradores, tamién de guiones de películes de dominiu públicu como <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Pues ver l'orixe de les nueses frases <dataLink>nesta carpeta de GitHub</dataLink>.
 
-## Profile
-
-profile-why-title = ¿Por qué un perfil?
-profile-why-content = Apurriendo dellos datos tocante a ti, los datos d'audiu qu'unvies a Common Voice van ser más útiles pa los motores de reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
-
 ## NotFound
 
 notfound-title = Nun s'alcontró
@@ -313,7 +321,7 @@ data-download-deny = Non
 data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
 data-subtitle = Tamos construyendo un conxuntu de datos de voz públicu y disponible que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
-data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y disponibles públicamente dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a tol mundu a que participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
+data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y disponibles públicamente dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a que tol mundu participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
 data-get-started = <speechBlogLink>Entamar cola reconocencia de voz</speechBlogLink>
 data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
@@ -327,21 +335,6 @@ data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
-
-## Record Page
-
-record-platform-not-supported = Sentímoslo pero anguaño nun se sofita la to plataforma.
-record-platform-not-supported-desktop = N'ordenadores, pues baxar:
-record-platform-not-supported-ios = Los usuarios d'<bold>iOS</bold> puen baxar la nuesa aplicación de baldre:
-record-must-allow-microphone = Has permitir l'accesu al micrófonu.
-record-retry = Retentar
-record-no-mic-found = Nun s'alcontró'l micrófonu.
-record-error-too-short = La grabación foi percurtia.
-record-error-too-long = La grabación foi perllarga.
-record-error-too-quiet = La grabación foi persilenciosa.
-record-submit-success = ¡L'unviu tuvo ésitu! ¿Quies grabar de nueves?
-record-help = Calca pa grabar, darréu llei n'alto la fras d'enriba
-record-cancel = Encaboxar grabación
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>noticia de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Nun aceuto
@@ -416,6 +409,15 @@ contribute-more =
        *[other] ¿Quies facer { $count } más?
     }
 record-cta = Aniciar grabación
+record-platform-not-supported = Sentímoslo pero anguaño nun se sofita la to plataforma.
+record-platform-not-supported-desktop = N'ordenadores, pues baxar:
+record-platform-not-supported-ios = Los usuarios d'<bold>iOS</bold> puen baxar la nuesa aplicación de baldre:
+record-must-allow-microphone = Has permitir l'accesu al micrófonu.
+record-no-mic-found = Nun s'alcontró'l micrófonu.
+record-error-too-short = La grabación foi percurtia.
+record-error-too-long = La grabación foi perllarga.
+record-error-too-quiet = La grabación foi persilenciosa.
+record-cancel = Encaboxar grabación
 record-instruction = { $actionType }<recordIcon></recordIcon> y llei la fras n'alto
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cuando termines
 record-three-more-instruction = ¡Tres p'acabar!
@@ -439,3 +441,44 @@ listen-last-time-instruction = <playIcon></playIcon>¡La última!
 nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a enllenar la cola.
 record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
+
+## Goals
+
+streaks = Raches
+days =
+    { $count ->
+        [one] Día
+       *[other] Díes
+    }
+recordings =
+    { $count ->
+        [one] Grabación
+       *[other] Grabaciones
+    }
+validations =
+    { $count ->
+        [one] Validación
+       *[other] Validaciones
+    }
+
+## Dashboard
+
+toward-next-goal = Pa la meta próxima
+stats = Estadístiques
+you = Tú
+everyone = Tol mundu
+contribution-activity = Actividá de les collaboraciones
+top-contributors = Collaboradores destacaos
+recorded-clips = Clips grabaos
+validated-clips = Clips validaos
+total-approved = Total d'aprobaos
+overall-accuracy = Precisión xeneral
+
+## Profile Delete
+
+delete-q = ¿Prestaríate solicitar que tamién se desanicien les tos grabaciones o prefieres calteneles nel conxuntu de datos de Common Voice?
+keep = Caltener
+remove = Desaniciar
+keep-info = Les tos grabaciones de voz anónimes van siguir nel conxuntu de datos de Common Voice. Nel momentu que desanicies el perfil, yá nun vas ser a unviar un solicitú pa desaniciar les tos grabaciones del conxuntu de datos
+remove-info = Vamos revisar la solicitú pa desaniciar les tos grabaciones del conxuntu de datos. Si la solicitú s'aprueba, vamos contautar colos que baxaron el conxuntu de datos y solicita-yos que desanicien tamién les tos grabaciones.
+profile-form-delete = Desaniciar perfil

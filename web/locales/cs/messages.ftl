@@ -132,10 +132,30 @@ vote-yes = Ano
 vote-no = Ne
 toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
 speak-subtitle = Darujte svůj hlas
+hours-recorded = Hodin nahráno
+hours-validated = Hodin ověřeno
 todays-progress = Dnešní pokrok
 help-reach-goal = Pomozte nám dostat se na { $goal }
 all-languages = Všechny jazyky
 today = Dnes
+x-weeks-short =
+    { $count ->
+        [one] { $count } týden
+        [few] { $count } týdny
+       *[other] { $count } týdnů
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } měsíc
+        [few] { $count } měsíce
+       *[other] { $count } měsíců
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } rok
+        [few] { $count } roky
+       *[other] { $count } let
+    }
 
 ## Speak & Listen Shortcuts
 

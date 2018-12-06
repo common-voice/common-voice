@@ -427,6 +427,7 @@ share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 
 ## Goals
 
+streaks = Périodes record
 days =
     { $count ->
         [one] Jour
