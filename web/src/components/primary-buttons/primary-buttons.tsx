@@ -1,7 +1,7 @@
 import * as React from 'react';
 import URLS from '../../urls';
 import { LocaleLink } from '../locale-helpers';
-import { MicIcon, OldPlayIcon, StopIcon, CheckIcon } from '../ui/icons';
+import { MicIcon, OldPlayIcon, StopIcon } from '../ui/icons';
 
 import './primary-buttons.css';
 
