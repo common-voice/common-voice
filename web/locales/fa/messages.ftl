@@ -99,6 +99,7 @@ show-wall-of-text = بیشتر بخوانید
 vote-yes = بله
 vote-no = خیر
 speak-subtitle = صدای خود را اهدا کنید
+listen-goal-text = کلیپ‌های اعتبارسنجی شده
 voices-online = صداهای آنلاین حال حاضر
 todays-progress = پیشرفت امروز
 help-reach-goal = به ما کمک کنید تا به { $goal } برسیم
@@ -315,13 +316,42 @@ record-error-too-long = ضبط خیلی طولانی بود.
 record-error-too-quiet = ضبط خیلی کم صدا بود.
 record-cancel = لغو ضبط دوباره
 record-instruction = { $actionType }<recordIcon></recordIcon> سپس جمله را بلند بخوانید
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> وقتی انجام شد
+record-three-more-instruction = سه تا باقی مانده!
+unable-speak = اکنون نمی‌توانید صحبت کنید؟
+review-instruction = در صورت لزوم، کلیپ‌ها را بازبینی و دوباره ضبط کنید
+clips-uploaded = کلیپ‌های بارگذاری شده
+record-abort-title = ابتدا ضبط کردن را تمام کنیم؟
+record-abort-text = اکنون خارج شدن از اینجا بدان معنی است که پیشرفت خود را از دست خواهید داد
+record-abort-continue = پایان ضبط
+record-abort-delete = خروج و حذف کلیپ‌ها
+listen-instruction = { $actionType }<playIcon></playIcon> آیا دقیقا این جمله را می‌گویند؟
+record-button-label = صدای خود را ضبط کنید
 share-title-new = برای یافتن صداهای بیشتر <bold>به ما کمک کنید</bold>
 
 ## Goals
 
+days =
+    { $count ->
+        [one] روز
+       *[other] روزها
+    }
+recordings =
+    { $count ->
+        [one] در حال ضبط
+       *[other] ضبط شده‌ها
+    }
 
 ## Dashboard
 
+toward-next-goal = به سوی هدف بعدی
+you = شما
+top-contributors = مشارکت کنندگان برتر
+total-approved = مجموع تایید شده
+overall-accuracy = دقت کلی
 
 ## Profile Delete
 
+keep = نگاه داشتن
+remove = حذف
+profile-form-delete = حذف نمایه
