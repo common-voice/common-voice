@@ -466,4 +466,5 @@ delete-q = Voleu demanar que també se suprimeixin els vostres enregistraments d
 keep = Conserva
 remove = Elimina
 keep-info = Els vostres enregistraments anònims es conservaran al conjunt de dades del Common Voice. Un cop suprimit el vostre perfil, ja no podreu sol·licitar eliminar els vostres enregistraments del conjunt de dades
+remove-info = Revisarem la vostra sol·licitud per a eliminar els enregistraments de veu del conjunt de dades. Si s'aprova la sol·licitud, ens posarem en contacte amb qui hagi baixat el conjunt de dades i els demanarem que també eliminin els vostres enregistraments de veu.
 profile-form-delete = Suprimeix el perfil
