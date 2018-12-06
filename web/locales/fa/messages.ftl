@@ -237,32 +237,84 @@ data-other-title = دیگر مجموعه داده‌های صوتی…
 data-other-goto = برو به { $name }
 data-other-download = دریافت داده‌ها
 data-other-ted-name = مجموعه نوشته‌های TED-LIUM
+data-other-ted-description = مجموعه نوشته‌های TED-LIUM از گفتگو‌های صوتی و رونوشت‌های آن‌ها که در وب سایت TED در دسترس هستند، ساخته شده است.
+data-other-voxforge-description = VoxForge برای جمع آوری سخنرانی‌های رونوشت شده برای استفاده در موتورهای شناسایی گفتار آزاد و متن باز طراحی شده است.
 license-mixed = درهم
 terms-agree = موافقم
 terms-disagree = موافق نیستم
 review-submit-title = مرور و ارسال
+review-recording = مرور
+review-rerecord = ضبط دوباره
+review-cancel = لغو ارسال
+review-keep-recordings = ضبط را نگه دارید
+review-delete-recordings = ضبط‌های من را حذف کن
 
 ## Download Modal
 
+download-title = دریافت شما آغاز شد
+download-form-email =
+    .label = ایمیل خود را وارد کنید
+    .value = ممنون، با شما در تماس خواهیم بود
+download-back = بازگشت به مجموعه داده‌های صدای مشترک
+download-no = نه ممنون
 
 ## Contact Modal
 
+contact-title = فرم تماس
 contact-form-name =
     .label = نام
 contact-form-message =
     .label = پیام
+contact-required = *ضروری
 
 ## Request Language Modal
 
+request-language-title = درخواست زبان
 request-language-form-language =
     .label = زبان
+request-language-success-title = درخواست زبان با موفقیت ارسال شد، متشکرم
+request-language-success-content = خیلی زود با اطلاعات بیشتری در مورد چگونگی افزودن زبان شما به صدای مشترک در تماس خواهیم بود.
 
 ## Languages Overview
 
+language-section-in-progress = در حال پیشرفت
+language-section-launched = منتشر شده
+languages-show-more = مشاهده بیشتر…
+language-speakers = گویندگان
+language-meter-in-progress = پیشرفت
+language-total-progress = مجموع
+language-search-input =
+    .placeholder = جست‌وجو
+language-speakers = گویندگان
+localized = محلی شده
+sentences = جمله‌ها
+total-hours = ساعت اعتبارسنجی شده
 
 ## New Contribution
 
 action-click = کلیک
+action-tap = ضربه زدن
+contribute = مشارکت
+listen = گوش کردن
+skip = رد کردن
+shortcuts = میانبرها
+clips-with-count = <bold>{ $count }</bold> کلیپ‌ها
+contribute-more =
+    { $count ->
+        [one] برای انجام { $count } عدد بیشتر آماده‌اید؟
+       *[other] برای انجام { $count } عدد بیشتر آماده‌اید؟
+    }
+record-cta = شروع ضبط
+record-platform-not-supported = متاسفیم، اما پلتفرم شما در حال حاضر پشتیبانی نمی شود.
+record-platform-not-supported-desktop = در کامپیوترهای رومیزی، می‌توانید آخرین‌ها را دریافت کنید:
+record-platform-not-supported-ios = کاربران <bold>iOS</bold> می‌توانند برنامه آزاد ما را دریافت کنند:
+record-must-allow-microphone = شما باید مجوز دسترسی به میکروفون را صادر کنید.
+record-no-mic-found = هیچ میکروفونی یافت نشد
+record-error-too-short = ضبط خیلی کوتاه بود.
+record-error-too-long = ضبط خیلی طولانی بود.
+record-error-too-quiet = ضبط خیلی کم صدا بود.
+record-cancel = لغو ضبط دوباره
+record-instruction = { $actionType }<recordIcon></recordIcon> سپس جمله را بلند بخوانید
 share-title-new = برای یافتن صداهای بیشتر <bold>به ما کمک کنید</bold>
 
 ## Goals
