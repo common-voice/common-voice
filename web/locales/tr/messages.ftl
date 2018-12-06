@@ -8,6 +8,7 @@ email-input =
     .label = E-posta
 submit-form-action = Gönder
 loading = Yükleniyor…
+indicates-required = * Gerekli alanları gösterir
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -428,6 +429,21 @@ share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Gün
+       *[other] Gün
+    }
+recordings =
+    { $count ->
+        [one] Kayıt
+       *[other] Kayıt
+    }
+validations =
+    { $count ->
+        [one] Doğrulama
+       *[other] Doğrulama
+    }
 
 ## Dashboard
 
@@ -441,4 +457,6 @@ validated-clips = Doğrulanan ses
 
 ## Profile Delete
 
+keep = Tut
+remove = Sil
 profile-form-delete = Profilimi sil
