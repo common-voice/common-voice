@@ -8,6 +8,7 @@ email-input =
     .label = Е-пошта
 submit-form-action = Відправити
 loading = Завантаження…
+indicates-required = * поля, обов'язкові для заповнення
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -117,9 +118,6 @@ share-title = Допоможіть нам знайти інших бажаючи
 share-text = Допоможіть навчити машини розуміти мову людей. Запишіть свій голос тут { $link }
 link-copied = Посилання скопійовано
 back-top = Нагору
-contribution-banner-text = Ми щойно запустили нові можливості для помічників
-contribution-banner-button = Погляньте
-report-bugs-link = Допоможіть звітувати про помилки
 logout = Вийти
 
 ## Home Page
@@ -226,8 +224,6 @@ english = Англійська
 
 ## ProfileForm
 
-profile-form-cancel = Закрити форму
-profile-form-delete = Видалити профіль
 profile-form-username =
     .label = Ім’я користувача
 profile-form-language =
@@ -246,23 +242,20 @@ native-language =
     .label = Рідна мова
 profile-form-submit-save = Зберегти
 profile-form-submit-saved = Збережено
-profile-keep-data = Зберегти дані
-profile-delete-data = Видалити дані
 male = Чоловіча
 female = Жіноча
 # Gender
 other = Інше
 why-profile-title = Нащо потрібен профіль?
 why-profile-text = Надаючи деяку інформацію про себе, аудіо дані, які ви відправляєте в Common Voice, будуть більш корисні для систем розпізнавання мови, що використовують ці дані для вдосконалення їхньої точності.
+dashboard = Панель
 build-profile = Створити профіль
-profile = Профіль
 avatar = Аватар
-preferences = Налаштування
+goals = Цілі
+settings = Налаштування
 edit-profile = Змінити профіль
-profile-create = Створити профіль
 profile-create-success = Профіль успішно створено!
 profile-close = Закрити
-profile-clear-modal = Очищення даних вашого профілю означає, що ця інформація більше не буде відправлятися в Common Voice разом з вашими записами голосу.
 profile-explanation = Спостерігайте за прогресом, користуючись профілем, і сприяйте покращенню точності наших голосових даних.
 thanks-for-account = Дякуємо, що підтвердили свій обліковий запис, тепер створімо ваш профіль.
 why-demographic = Чому це важливо?
@@ -271,6 +264,7 @@ keep-me-posted =
     .label = Я бажаю бути в курсі останніх новин про Common Voice.
 accept-privacy = Я погоджуюся з тим, як ви поводитеся з цією інформацією, як це описано в <privacyLink>Політиці приватності</privacyLink> Mozilla
 login-identity = Запис для входу
+login-signup = Увійти / Зареєструватися
 edit = Змінити
 email-subscriptions = Підписки електронною поштою
 download-profile = Завантажити мої дані
@@ -280,11 +274,15 @@ skip-submission-description = Після натискання кнопки "По
 skip-submission-note = Примітка: Вам все одно необхідно буде обрати між записом і прослуховуванням для зміни типу допомоги.
 off = Вимкнено
 on = Увімкнено
+add-avatar-title = Додати аватар у свій профіль
+browse-file-title = Завантажити файл зображення
 browse-file = Перетягніть або <browseWrap>Огляд</browseWrap>
 connect-gravatar = З'єднатися з Gravatar
 gravatar_not_found = Для вашої електронної пошти не знайдено gravatar
 file_too_large = Обраний файл надто великий
 manage-subscriptions = Керувати підписками
+email-already-used = Електронна пошта уже використовується для іншого облікового запису
+add-language = Додати мову
 
 ## FAQ
 
@@ -308,11 +306,6 @@ faq-hours-a = Це приблизна кількість годин, що нео
 faq-source-q = Звідки береться текст для озвучення?
 faq-source-a1 = Наявні речення ми отримуємо від наших помічників, а також діалоги від загальнодоступного домену сценаріїв з фільмів, як от <italic>Це дивовижне життя.</italic>
 faq-source-a2 = Ви можете переглянути наші речення в <dataLink>цій теці GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = Нащо потрібен профіль?
-profile-why-content = Надаючи деяку інформацію про себе, відправлені вами в Common Voice аудіо-дані будуть більш корисними для засобів розпізнавання мови, що використовують їх для вдосконалення своєї точності.
 
 ## NotFound
 
@@ -443,3 +436,45 @@ listen-last-time-instruction = <playIcon></playIcon> Останній!
 nothing-to-validate = У нас немає нічого для перевірки цією мовою, допоможіть нам заповнити чергу.
 record-button-label = Запишіть свій голос
 share-title-new = <bold>Допоможіть нам</bold> знайти більше голосів
+
+## Goals
+
+streaks = Днів поспіль
+days =
+    { $count ->
+        [one] день
+        [few] дні
+       *[other] днів
+    }
+recordings =
+    { $count ->
+        [one] запис
+        [few] записи
+       *[other] записів
+    }
+validations =
+    { $count ->
+        [one] перевірка
+        [few] перевірки
+       *[other] перевірок
+    }
+
+## Dashboard
+
+toward-next-goal = Наступна ціль
+stats = Статистика
+you = Ви
+everyone = Усі користувачі
+contribution-activity = Активність помічників
+recorded-clips = Озвучено
+validated-clips = Перевірено
+overall-accuracy = Загальна точність
+
+## Profile Delete
+
+delete-q = Ви хочете, щоб ваші голосові записи також були видалені, або ви хочете залишити їх в наборі даних Common Voice?
+keep = Залишити
+remove = Видалити
+keep-info = Ваші анонімні записи голосу залишаться в наборі даних Common Voice. Після видалення вашого профілю ви більше не зможете відправити запит на видалення ваших записів з набору даних
+remove-info = Ми розглянемо ваш запит на видалення ваших голосових записів з набору даних. Якщо ваш запит буде схвалений, ми зв'яжемося з тими, хто завантажив цей набір даних, і попросимо їх видалити ваші записи голосу.
+profile-form-delete = Видалити профіль
