@@ -58,7 +58,7 @@ class HomePage extends React.Component<PropsFromState, State> {
               <div className="heroes">
                 {['speak', 'listen'].map((type: HeroType) => (
                   <Hero
-                    key={type}
+                    key={type + locale}
                     type={type}
                     status={
                       activeHero === type
