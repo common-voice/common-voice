@@ -1,11 +1,14 @@
 ## General
 
 yes-receive-emails = بله، برام ایمیل بفرست. علاقه‌مندم از پروژه صدای مشترک اطلاع کسب کنم.
+stayintouch = ما در موزیلا در حال ایجاد یک جامعه حول فن‌آوری صوتی هستیم. ما دوست داریم با به‌روزرسانی‌ها، منابع داده جدید در دسترس باشیم و بیشتر بدانیم که چگونه از این داده‌ها استفاده می‌کنید.
+privacy-info = ما قول می‌دهیم که اطلاعات شمارا با دقت اداره کنیم. در  <privacyLink>Privacy Notice</privacyLink> بیشتر بخوانید.
 return-to-cv = بازگشت به صدای مشترک
 email-input =
     .label = ایمیل
 submit-form-action = ارسال
 loading = در حال بارگیری...
+email-opt-in-privacy = با انتخاب دریافت رایانامه‌ها، شما اعلام می‌کنید که با دسترسی موزیلا به این اطلاعات مشکلی ندارید، همان‌طور که در <privacyLink> خط‌مشی رازداری<privacyLink> توضیح داده‌شده است.
 indicates-required = * فیلد الزامی را مشخص می‌کند
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -14,6 +17,7 @@ indicates-required = * فیلد الزامی را مشخص می‌کند
 
 ## Languages
 
+ace = Acehnese
 an = آراگونی
 ar = عربی
 as = آسامی
@@ -25,10 +29,13 @@ br = برتانیایی
 bxr = بوریاتی
 ca = کاتالونیایی
 cak = کاقچیکل
+cnh = هاخا چین
 cs = چکی
+cv = چاوشی
 cy = ویلزی
 da = دانمارکی
 de = آلمانی
+dsb = Sorbian, Lower
 el = یونانی
 en = انگلیسی
 eo = اسپرانتو
@@ -37,9 +44,12 @@ et = استونیایی
 eu = باسکی
 fa = فارسی
 fi = فنلاندی
+fo = فارویی
 fr = فرانسوی
+fy-NL = فریزی
 ga-IE = ایرلندی
 he = عبری
+hsb = صربی، بالا
 hu = مجاری
 id = اندونزیایی
 is = ایسلندی
@@ -49,20 +59,33 @@ ka = گرجی
 kab = Kabyle
 kk = قزاقی
 ko = کره‌ای
+kpv = Komi-Zyrian
+kw = کرنوالی
 ky = قرقیزی
+mdf = Moksha
 mk = مقدونی
 mn = مغولی
+myv = Erzya
+nb-NO = نروژی Bokmål
 ne-NP = نپالی
 nl = هلندی
+nn-NO = نروژی Nynorsk
+oc = Occitan
+or = Odia
 pl = لهستانی
 pt-BR = پرتغالی (برزیل)
+rm-sursilv = Romansh Sursilvan
 ro = رومانیایی
 ru = روسی
+sah = Sakha
+sc = Sardinian
 sk = اسلوواکی
 sl = اسلوونيايی
 sq = آلبانیایی
 sr = صربی
 sv-SE = سوئدی
+ta = Tamil
+te = Telugu
 th = تایلندی
 tr = ترکی
 tt = تاتاری
@@ -79,6 +102,7 @@ zh-TW = چینی (تایوان)
 
 ## Layout
 
+speak = صحبت
 speak-now = اکنون صحبت کنید
 datasets = مجموعه‌ی داده‌ها
 languages = زبان‌ها
@@ -90,6 +114,7 @@ terms = شرایط
 cookies = کوکی‌ها
 faq = پرسش‌های متداول
 content-license-text = محتوا تحت یک<licenseLink>مجوز Creative Commons</ licenseLink> در دسترس است
+share-title = به ما کمک کنید تا افراد دیگری را که مایل به اهدای صدای خود هستند بیابیم!
 back-top = بازگشت به بالا
 logout = خروج از سیستم
 
