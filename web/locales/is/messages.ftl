@@ -455,7 +455,21 @@ validations =
 
 ## Dashboard
 
+toward-next-goal = Að næsta markmiði
+stats = Tölfræði
+you = Þú
+everyone = Allir
+top-contributors = Virkustu þátttakendur
+recorded-clips = Skráðar upptökur
+validated-clips = Staðfestar upptökur
+total-approved = Samtals samþykkt
+overall-accuracy = Almenn nákvæmni
 
 ## Profile Delete
 
+delete-q = Vilt þú fara fram á að þínum raddgögnum verði líka eytt, eða viltu frekar halda þeim í gagnasafni Samróms?
+keep = Halda
+remove = Fjarlægja
+keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar prófíl hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn honum tengd verði fjarlægð úr gagnasafninu.
+remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa halað niður gagnasafninu og þeir líka beðnir um að eyða út raddgögnunum þínum.
 profile-form-delete = Eyða prófíl
