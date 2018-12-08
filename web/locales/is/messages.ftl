@@ -8,6 +8,8 @@ email-input =
     .label = Tölvupóstur
 submit-form-action = Senda inn
 loading = Hleður...
+email-opt-in-privacy = Með því að kjósa að fá tölvupóst frá okkur samþykkir þú að Mozilla notist við þær upplýsingar eins og lýst er í <privacyLink>Meðferð persónuupplýsinga<privacyLink>.
+indicates-required = * táknar nauðsynlegan reit
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -117,9 +119,6 @@ share-title = Hjálpið til við að finna aðra til að deila raddprufum!
 share-text = Hjálpið að kenna vélum hvernig alvöru fólk talar, gefðu raddprufu á { $link }
 link-copied = Hlekkur afritaður
 back-top = Til baka
-contribution-banner-text = Við höfum nýlega sett nýja upplifun af stað
-contribution-banner-button = Skoða
-report-bugs-link = Tilkynna tæknivillur
 logout = Útskrá
 
 ## Home Page
@@ -219,8 +218,6 @@ english = Enska
 
 ## ProfileForm
 
-profile-form-cancel = Útgönguskjal
-profile-form-delete = Eyða prófíl
 profile-form-username =
     .label = Notendanafn
 profile-form-language =
@@ -239,23 +236,20 @@ native-language =
     .label = Móðurmál
 profile-form-submit-save = Vista
 profile-form-submit-saved = Vistað
-profile-keep-data = Halda gögnum
-profile-delete-data = Eyða gögnum
 male = Karlkyns
 female = Kvenkyns
 # Gender
 other = Annað
 why-profile-title = Hvers vegna prófíl?
 why-profile-text = Með því að útvega einhverjar upplýsingar um sjálfan þig, þá verða hljóðgögnin sem þú sendir inn í Samróm gagnlegri í talgreiningarvélar sem nota þessi gögn til þess að bæta á nákvæmni.
+dashboard = Skjáborð
 build-profile = Búa til prófíl
-profile = Prófíll
 avatar = Prófílmynd
-preferences = Stillingar
+goals = Markmið
+settings = Stillingar
 edit-profile = Breyta prófíl
-profile-create = Búa til prófíl
 profile-create-success = Gerð prófíls tókst!
 profile-close = Loka
-profile-clear-modal = Að hreinsa prófílgögnin merkir að samfélagsfræðilegum upplýsingum úr þeim verður ekki framar beitt í þágu Samróms með hljóðdæmunum þínum.
 profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpaðu okkur að auka á heilindi raddgagnanna.
 thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
 why-demographic = Hvers vegna skiptir þetta máli?
@@ -264,6 +258,7 @@ keep-me-posted =
     .label = Ég þigg fréttir og stöðuuppfærslur af framgangi Samróms.
 accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar, líkt og útskýrt er í <privacyLink>friðhelgisstefnu</privacyLink> Mozilla.
 login-identity = Innskráningarauðkenni
+login-signup = Innskrá sig / Skrá sig
 edit = Breyta
 email-subscriptions = Tölvupóstáskrift
 download-profile = Sækja gögnin mín
@@ -273,11 +268,15 @@ skip-submission-description = Endurgjöf er meðan raddgögn eru lögð fram, en
 skip-submission-note = Athugið: Maður verður samt að velja á milli tals eða hlustunar til að breyta tegund inntaks.
 off = Af
 on = Ǻ
+add-avatar-title = Hlaða inn prófílmynd
+browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
 gravatar_not_found = Enginn gravatar fannst fyrir netfangið þitt
 file_too_large = Myndin sem var valin er of stór
 manage-subscriptions = Stjórna áskriftum
+email-already-used = Netfang er þegar í notkun á öðrum reikningi
+add-language = Bæta við tungumáli
 
 ## FAQ
 
@@ -301,11 +300,6 @@ faq-hours-a = Þetta er áætlaður fjöldi klst. til þess að þjálfa STT-fra
 faq-source-q = Hver er uppruni textans?
 faq-source-a1 = Setningar í notkun eru framlög frá notendum, auk þess sem notuð eru gögn úr almenningssöfnum á borð við samtöl úr kvikmyndum eins og <italic>Lífið er yndislegt.</italic>
 faq-source-a2 = Þú getur skoðað upprunalegu setningarnar í <dataLink>þessari GitHub möppu</dataLink>.
-
-## Profile
-
-profile-why-title = Til hvers er aðgangur?
-profile-why-content = Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar sem nýta sér þessi gögn til að bæta nákvæmni sína.
 
 ## NotFound
 
@@ -440,3 +434,28 @@ listen-last-time-instruction = <playIcon></playIcon> Síðasta!
 nothing-to-validate = Ekkert er fyrir hendi um þetta tungumál, hjálpaðu okkur að fylla í röðina.
 record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
+
+## Goals
+
+days =
+    { $count ->
+        [one] Dagur
+       *[other] Dagar
+    }
+recordings =
+    { $count ->
+        [one] Upptaka
+       *[other] Upptökur
+    }
+validations =
+    { $count ->
+        [one] Staðfesting
+       *[other] Staðfestingar
+    }
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Eyða prófíl
