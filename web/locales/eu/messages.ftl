@@ -7,6 +7,7 @@ email-input =
     .label = E-posta
 submit-form-action = Bidali
 loading = Kargatzen…
+indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -20,6 +21,7 @@ ar = Arabiera
 as = Assamera
 ast = Asturiera
 az = Azerbaijanera
+bg = Bulgariera
 bn = Bengaliera
 br = Bretoiera
 bxr = Buriatera
@@ -37,6 +39,7 @@ en = Ingelesa
 eo = Esperantoa
 es = Gaztelania
 et = Estoniera
+eu = Euskara
 fa = Pertsiera
 fi = Suomiera
 fo = Faroera
@@ -74,6 +77,7 @@ rm-sursilv = Sursilvana
 ro = Errumaniera
 ru = Errusiera
 sah = Sakha
+sc = Sardiniera
 sk = Eslovakiera
 sl = Esloveniera
 sq = Albaniera
@@ -112,9 +116,7 @@ share-title = Lagun gaitzazu beraien ahotsak utziko dituzten boluntario gehiago 
 share-text = Lagundu makinei irakasten benetako pertsonek nola hitz egiten duten, utzi zure ahotsa hemen: { $link }
 link-copied = Lotura kopiatuta
 back-top = Itzuli gora
-contribution-banner-text = Laguntzeko esperientzia berri bat martxan jarri berri dugu
-contribution-banner-button = Bota begirada bat
-report-bugs-link = Lagun iezaguzu arazoen berri ematen
+logout = Itxi saioa
 
 ## Home Page
 
@@ -182,8 +184,6 @@ english = Ingelesa
 
 ## ProfileForm
 
-profile-form-cancel = Irten inprimakitik
-profile-form-delete = Ezabatu profila
 profile-form-username =
     .label = Erabiltzaile-izena
 profile-form-language =
@@ -196,19 +196,21 @@ profile-form-gender =
     .label = Sexua
 leaderboard-visibility =
     .label = Sailkapenaren ikusgaitasuna
+hidden = Ezkutuan
+visible = Ikusgai
 native-language =
     .label = Ama-hizkuntza
 profile-form-submit-save = Gorde
 profile-form-submit-saved = Gordeta
-profile-keep-data = Mantendu datuak
-profile-delete-data = Ezabatu datuak
 male = Gizonezkoa
 female = Emakumezkoa
 # Gender
 other = Bestelakoa
 why-profile-title = Zergatik profila?
+dashboard = Arbela
+build-profile = Eraiki profila
+avatar = Avatarra
 edit-profile = Editatu profila
-profile-create = Sortu profila
 profile-create-success = Profila ondo sortu da!
 profile-close = Itxi
 why-demographic = Zergatik da garrantzitsua?
@@ -238,10 +240,6 @@ faq-hours-a = Ekoizpeneko STT sistema bat entrenatzeko, gutxi gora behera, ordu 
 faq-source-q = Testu-iturria nondik dator?
 faq-source-a2 = Gure jatorrizko esaldiak <dataLink>GitHub karpeta honetan</dataLink> ikus ditzakezu.
 
-## Profile
-
-profile-why-title = Zergatik profila?
-
 ## NotFound
 
 notfound-title = Ez da aurkitu
@@ -262,19 +260,6 @@ data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
-
-## Record Page
-
-record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
-record-platform-not-supported-ios = <bold>iOS</bold> erabiltzaileek gure app librea deskarga dezakete:
-record-must-allow-microphone = Mikrofonoa erabiltzeko baimena eman behar duzu.
-record-retry = Saiatu berriro
-record-no-mic-found = Ez da mikrofonorik aurkitu.
-record-error-too-short = Grabaketa laburregia izan da.
-record-error-too-long = Grabaketa luzeegia izan da.
-record-error-too-quiet = Grabaketa baxuegi entzuten da.
-record-submit-success = Ondo bidali da! Berriro grabatu nahi duzu?
-record-cancel = Ezeztatu berriro grabatzea
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
 review-aborted = Igotzea bertan behera geratu da. Zure grabaketak ezabatu nahi al dituzu?
@@ -346,6 +331,14 @@ contribute-more =
        *[other] { $count } gehiago egiteko prest?
     }
 record-cta = Hasi grabazioa
+record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
+record-platform-not-supported-ios = <bold>iOS</bold> erabiltzaileek gure app librea deskarga dezakete:
+record-must-allow-microphone = Mikrofonoa erabiltzeko baimena eman behar duzu.
+record-no-mic-found = Ez da mikrofonorik aurkitu.
+record-error-too-short = Grabaketa laburregia izan da.
+record-error-too-long = Grabaketa luzeegia izan da.
+record-error-too-quiet = Grabaketa baxuegi entzuten da.
+record-cancel = Ezeztatu berriro grabatzea
 record-instruction = { $actionType }<recordIcon></recordIcon> esaldia altuan irakurtzeko
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> egindakoan
 record-three-more-instruction = Bagoaz!
@@ -369,3 +362,13 @@ listen-last-time-instruction = <playIcon></playIcon> Azkena!
 nothing-to-validate = Ez daukagu ezer balioztatzeko hizkuntza honetan, lagun gaitzazu ilara betetzen.
 record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Ezabatu profila
