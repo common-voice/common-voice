@@ -8,6 +8,7 @@ email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
+email-opt-in-privacy = En ur asantiñ d'ar fet da resevout posteloù, e tiskouezit bezañ a-du war ar fet ma verfe Mozilla an titouroù-mañ evel ma vez displeget e-barzh <privacyLink>Politikerezh Prevezded<privacyLink> Mozilla.
 indicates-required = * A ziskouez ar maeziennoù rekizet
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -474,6 +475,7 @@ top-contributors = Perzhidi pennañ
 recorded-clips = Klipoù enrollet
 validated-clips = Klipoù gwiriekaet
 total-approved = Hollad asantet
+overall-accuracy = Spisder hollek
 
 ## Profile Delete
 
