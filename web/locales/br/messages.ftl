@@ -469,6 +469,11 @@ toward-next-goal = Betek ar pal da zont
 stats = Stats
 you = C'hwi
 everyone = An holl
+contribution-activity = Oberiantiz ar c'hemer-perzh
+top-contributors = Perzhidi pennañ
+recorded-clips = Klipoù enrollet
+validated-clips = Klipoù gwiriekaet
+total-approved = Hollad asantet
 
 ## Profile Delete
 
