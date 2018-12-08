@@ -113,6 +113,7 @@ back-top = Gisa u Ateueh
 ## Home Page
 
 vote-yes = Nyo
+vote-no = H'an
 today = Uroë Nyoë
 
 ## Speak & Listen Shortcuts
@@ -130,7 +131,6 @@ english = Bahsa Inggrèh
 
 ## ProfileForm
 
-profile-form-delete = Sampôh Profil
 profile-form-language =
     .label = Bahsa
 profile-form-submit-save = Keubah
@@ -140,22 +140,16 @@ profile-close = Tôp
 ## FAQ
 
 
-## Profile
-
-
 ## NotFound
 
 
 ## Data
 
 data-download-yes = Nyo
+data-download-deny = H‘an
 data-download-license = Lisènsi: <licenseLink>CC-0</licenseLink>
 data-other-ted-name = Korpus TED-LIUM
 license = Lisènsi: <licenseLink>{ $license }</licenseLink>
-
-## Record Page
-
-record-retry = Ci Lom
 
 ## Download Modal
 
@@ -176,3 +170,14 @@ request-language-form-language =
 ## New Contribution
 
 clips-with-count = <bold>{ $count }</bold> Klip
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+remove = Sampôh
+profile-form-delete = Sampôh Profil
