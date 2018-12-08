@@ -225,8 +225,13 @@ skip-submission-feedback = Saltatu feedback bidalketa
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
+add-avatar-title = Gehitu avatar bat zure profilari
 browse-file-title = Igo irudi-fitxategi bat
 connect-gravatar = Konektatu Gravatarrera
+gravatar_not_found = Ez da gravatarrik aurkitu zure e-postarako
+file_too_large = Hautatutako fitxategia handiegia da
+manage-subscriptions = Kudeatu harpidetzak
+email-already-used = E-posta hori dagoeneko erabili da beste kontu batean
 add-language = Gehitu hizkuntza
 
 ## FAQ
@@ -379,6 +384,11 @@ recordings =
     { $count ->
         [one] grabaketa
        *[other] grabaketa
+    }
+validations =
+    { $count ->
+        [one] baliozkotze
+       *[other] baliozkotze
     }
 
 ## Dashboard
