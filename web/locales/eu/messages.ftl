@@ -227,6 +227,7 @@ off = Itzalita
 on = Piztuta
 add-avatar-title = Gehitu avatar bat zure profilari
 browse-file-title = Igo irudi-fitxategi bat
+browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
 connect-gravatar = Konektatu Gravatarrera
 gravatar_not_found = Ez da gravatarrik aurkitu zure e-postarako
 file_too_large = Hautatutako fitxategia handiegia da
