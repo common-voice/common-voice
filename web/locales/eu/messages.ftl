@@ -210,11 +210,13 @@ why-profile-title = Zergatik profila?
 dashboard = Arbela
 build-profile = Eraiki profila
 avatar = Avatarra
+settings = Hobespenak
 edit-profile = Editatu profila
 profile-create-success = Profila ondo sortu da!
 profile-close = Itxi
 why-demographic = Zergatik da garrantzitsua?
 login-identity = Saioa hasteko identitatea
+login-signup = Hasi saioa / Eman izena
 edit = Editatu
 email-subscriptions = E-posta harpidetzak
 download-profile = Deskargatu nire datuak
@@ -223,6 +225,9 @@ skip-submission-feedback = Saltatu feedback bidalketa
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
+browse-file-title = Igo irudi-fitxategi bat
+connect-gravatar = Konektatu Gravatarrera
+add-language = Gehitu hizkuntza
 
 ## FAQ
 
@@ -365,10 +370,27 @@ share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
 
 ## Goals
 
+days =
+    { $count ->
+        [one] egun
+       *[other] egun
+    }
+recordings =
+    { $count ->
+        [one] grabaketa
+       *[other] grabaketa
+    }
 
 ## Dashboard
 
+stats = Estatistikak
+you = Zu
+everyone = Guztiok
+contribution-activity = Laguntza-jarduera
+top-contributors = Laguntzaile gogotsuenak
 
 ## Profile Delete
 
+keep = Mantendu
+remove = Kendu
 profile-form-delete = Ezabatu profila
