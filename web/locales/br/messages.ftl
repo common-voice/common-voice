@@ -479,6 +479,8 @@ overall-accuracy = Spisder hollek
 
 ## Profile Delete
 
+delete-q = Ha fellout a ra deoc'h goulenn ivez ma vefe dilamet hoc'h enrolladennoù, pe mod-all e kavit gwelloc'h e vefent miret e-barzh diaz-roadennoù Common Voice?
 keep = Mirout
 remove = Dilemel
+keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh diaz-roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest kas ur goulenn dilemel ken war hoc'h enrolladennoù diwar an diaz-roadennoù
 profile-form-delete = Dilemel ar profil
