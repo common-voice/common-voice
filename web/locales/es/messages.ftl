@@ -8,6 +8,8 @@ email-input =
     .label = Correo
 submit-form-action = Enviar
 loading = Cargando…
+email-opt-in-privacy = Aceptando recibir correos entendemos que das permiso a Mozilla para utilizar la información tal y como se explica en la <privacyLink>Política de Privacidad<privacyLink> de Mozilla.
+indicates-required = * Indica un campo obligatorio
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Cargando…
 
 ## Languages
 
+ace = achenés
 an = Aragonés
 ar = Árabe
 as = Asamés
 ast = Asturiano
 az = Azerí
+bg = búlgaro
 bn = Bengalí
 br = Bretón
 bxr = Buriato
@@ -37,6 +41,7 @@ en = Inglés
 eo = Esperanto
 es = Español
 et = Estonio
+fa = persa
 fi = Finlandés
 fo = Feroés
 fr = Francés
@@ -57,15 +62,19 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
 ky = Kirguís
+mdf = moksha
 mk = Macedonio
+mn = mongol
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepalí
 nl = Neerlandés
 nn-NO = Noruego Nynorsk
+oc = occitano
 or = Odia
 pl = Polaco
 pt-BR = Portugués (Brasil)
+rm-sursilv = romanche sursilvano
 ro = Rumano
 ru = Ruso
 sah = Yakuto
@@ -107,9 +116,6 @@ share-title = ¡Ayudanos a llegar a más personas que quieran donar su voz!
 share-text = Ayuda a enseñarles a las máquinas cómo hablan las personas, dona tu voz en { $link }
 link-copied = Enlace copiado
 back-top = Volver al inicio
-contribution-banner-text = Acabamos de lanzar una nueva experiencia de colaboración
-contribution-banner-button = Echa un vistazo
-report-bugs-link = Ayuda a informar de errores
 
 ## Home Page
 
@@ -183,8 +189,6 @@ english = Inglés
 
 ## ProfileForm
 
-profile-form-cancel = Salir del formulario
-profile-form-delete = Eliminar perfil
 profile-form-username =
     .label = Nombre de usuario
 profile-form-language =
@@ -201,8 +205,6 @@ native-language =
     .label = Lengua materna
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardado
-profile-keep-data = Conservar datos
-profile-delete-data = Eliminar datos
 male = Hombre
 female = Mujer
 # Gender
@@ -210,10 +212,8 @@ other = Otro
 why-profile-title = ¿Por qué un perfil?
 why-profile-text = Al entregarnos un poco de información sobre ti, los datos de audio que envíes a Common Voice serán más útiles para los motores de reconocimiento de voz que los usen mejorando su precisión.
 edit-profile = Editar perfil
-profile-create = Crear un perfil
 profile-create-success = Hecho, ¡perfil creado!
 profile-close = Cerrar
-profile-clear-modal = Limpiar los datos del perfil implica que tu información demográfica ya no será enviada a Common Voice junto con tus grabaciones.
 profile-explanation = Ve tu progreso con un perfil y ayuda a nuestros datos de voz a ser más precisos.
 thanks-for-account = Gracias por confirmar tu cuenta, ahora vamos a crear tu perfil
 why-demographic = ¿Por qué es esto importante?
@@ -250,11 +250,6 @@ faq-source-q = ¿De dónde viene el texto fuente?
 faq-source-a1 = Las oraciones actuales provienen de donaciones de contribuidores, junto a diálogos de textos de películas de dominio público como <italic>¡Que bello es vivir!</italic>.
 faq-source-a2 = Puedes ver nuestras oraciones fuente en <dataLink>esta carpeta de GitHub</dataLink>.
 
-## Profile
-
-profile-why-title = ¿Por qué un perfil?
-profile-why-content = Al entregar un poco de información sobre ti, los datos de audio que envíes a Common Voice serán aún más útiles para los motores de reconocimiento de voz que usen estos datos para mejorar su precisión.
-
 ## NotFound
 
 notfound-title = No encontrado
@@ -282,21 +277,6 @@ data-bundle-button = Descargar paquete de archivo de datos
 data-bundle-description = Datos de Common Voice junto con todos los archivos de datos de voz anteriores.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
-
-## Record Page
-
-record-platform-not-supported = Lo sentimos, pero tu plataforma actualmente no está soportada.
-record-platform-not-supported-desktop = En computadores de escritorio, puedes descargar la última versión:
-record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
-record-must-allow-microphone = Debe permitir acceso al micrófono.
-record-retry = Reintentar
-record-no-mic-found = No se encontró ningún micrófono.
-record-error-too-short = La grabación fue muy corta.
-record-error-too-long = La grabación fue muy larga.
-record-error-too-quiet = La grabación fue muy silenciosa.
-record-submit-success = ¡Envío exitoso! ¿Quieres volver a grabar?
-record-help = Por favor, toca el botón para grabar y luego lee la oración anterior en voz alta.
-record-cancel = Cancelar regrabación
 review-terms = Al usar Common Voice, aceptas nuestros <termsLink>Términos de uso</termsLink> y la <privacyLink>Política de privacidad</privacyLink>
 terms-agree = Estoy de acuerdo
 terms-disagree = Estoy en desacuerdo
@@ -367,6 +347,15 @@ goal-help-recording = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPer
 goal-help-validation = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de validación del { $goalValue }!
 contribute-more = ¿Listo para hacer { $count } más?
 record-cta = Empezar a grabar
+record-platform-not-supported = Lo sentimos, pero tu plataforma actualmente no está soportada.
+record-platform-not-supported-desktop = En computadores de escritorio, puedes descargar la última versión:
+record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
+record-must-allow-microphone = Debe permitir acceso al micrófono.
+record-no-mic-found = No se encontró ningún micrófono.
+record-error-too-short = La grabación fue muy corta.
+record-error-too-long = La grabación fue muy larga.
+record-error-too-quiet = La grabación fue muy silenciosa.
+record-cancel = Cancelar regrabación
 record-instruction = { $actionType } <recordIcon> </recordIcon> y después lee la frase en alto
 record-stop-instruction = { $actionType } <stopIcon> </stopIcon> cuando acabes
 record-three-more-instruction = ¡Quedan tres!
@@ -390,3 +379,13 @@ listen-last-time-instruction = <playIcon></playIcon> ¡La última!
 nothing-to-validate = No contamos con ningún recurso para validar este idioma, ¡ayúdanos!
 record-button-label = Grabar tu voz
 share-title-new = <bold>Ayúdanos</bold> a encontrar más voces.
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Eliminar perfil
