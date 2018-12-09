@@ -3,10 +3,7 @@ import { RouteComponentProps, withRouter } from 'react-router';
 import * as React from 'react';
 import ContentLoader from 'react-content-loader';
 import { connect } from 'react-redux';
-import {
-  InProgressLanguage,
-  LaunchedLanguage,
-} from '../../../../../common/language-stats';
+import { InProgressLanguage, LaunchedLanguage } from 'common/language-stats';
 import URLS from '../../../urls';
 import { createCrossLocaleBundleGenerator } from '../../../services/localization';
 import { Locale } from '../../../stores/locale';
@@ -127,7 +124,7 @@ interface PropsFromState {
 }
 
 type Props = PropsFromState &
-  RouteComponentProps<any> & {
+  RouteComponentProps<{}> & {
     localeMessages: string[][];
   } & (
     | (InProgressLanguage & { type: 'in-progress' })
@@ -231,8 +228,6 @@ class LocalizationBox extends React.PureComponent<Props, State> {
   }
 }
 
-export default withRouter(
-  connect<PropsFromState>(({ locale }: StateTree) => ({
-    globalLocale: locale,
-  }))(LocalizationBox)
-);
+export default connect<PropsFromState>(({ locale }: StateTree) => ({
+  globalLocale: locale,
+}))(withRouter(LocalizationBox));

@@ -4,11 +4,93 @@ yes-receive-emails = Po, dërgomëni email-e. Do të doja të jem në dijeni rre
 stayintouch = Ne në Mozilla po ndërtojmë një bashkësi rreth teknologjish që lidhen me zërin. Do të donin të ruanim lidhjet me ju, përmes përditësimesh, burimesh të reja zëri dhe të mësojmë se si po i përdorni këto të dhëna.
 privacy-info = Premtojmë t’i trajtojmë me kujdes të dhënat tuaja. Lexoni më tepër te <privacyLink>Shënimi ynë mbi Privatësinë</privacyLink>.
 return-to-cv = Kthehuni te Common Voice
+email-input =
+    .label = Email
+submit-form-action = Parashtroje
+loading = Po ngarkohet…
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
+
+
+## Languages
+
+an = Aragoneze
+ar = Arabisht
+as = Asameze
+ast = Asturiase
+az = Azerbajxhane
+bg = Bullgarisht
+bn = Bengaleze
+br = Bretone
+ca = Katalane
+cs = Çeke
+cv = Çuvashe
+da = Daneze
+de = Gjermane
+el = Greqisht
+en = Anglisht
+eo = Esperanto
+es = Spanjisht
+et = Estonisht
+eu = Baske
+fa = Persisht
+fi = Finlandisht
+fo = Faroeze
+fr = Frëngjisht
+fy-NL = Frisiane
+ga-IE = Irlandisht
+he = Hebraisht
+hu = Hungarisht
+ia = Interlingua
+id = Indonezisht
+is = Islandisht
+it = Italisht
+ja = Japonisht
+ka = Gjeorgjiane
+kab = Kabile
+kk = Kazake
+ko = Koreane
+ky = Kirgize
+mk = Maqedonisht
+mn = Mongolisht
+nb-NO = Norvegjisht Bokmål
+ne-NP = Nepaleze
+nl = Holandisht
+nn-NO = Norvegjisht Nynorsk
+oc = Oçitane
+pl = Polonisht
+pt-BR = Portugalisht (Brazil)
+ro = Rumanisht
+ru = Rusisht
+sc = Sardinisht
+sk = Sllovakisht
+sl = Sllovenisht
+sq = Shqip
+sr = Serbisht
+sv-SE = Suedisht
+ta = Tamileze
+te = Telugu
+th = Tajlandeze
+tr = Turqisht
+tt = Tatare
+uk = Ukrainase
+ur = Urdu
+uz = Uzbeke
+vi = Vietnamisht
+zh-CN = Kineze (Kinë)
+zh-HK = Kineze (Hong Kong)
+zh-TW = Kineze (Tajvan)
+
+# [/]
+
 
 ## Layout
 
 speak = Flisni
+speak-now = Flisni tani
 datasets = Grupe të dhënash
+languages = Gjuhë
 profile = Profil
 help = Ndihmë
 contact = Kontakt
@@ -18,6 +100,13 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Lëndë e përdorshme sipas një <licenseLink>licence Creative Commons</licenseLink>
 share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
+share-text = Ndihmoni t’u mësohet makinave se si flasin njerëzit e njëmendtë, dhuroni zërin tuaj te { $link }
+link-copied = Lidhja u Kopjua
+back-top = Mbrapsht te Kreu
+contribution-banner-text = Sapo kemi hedhur në qarkullim një rrugë të re dhënieje ndihmese
+contribution-banner-button = Hidhini një sy
+report-bugs-link = Ndihmoni të raportohen të metat
+logout = Dilni
 
 ## Home Page
 
@@ -28,42 +117,144 @@ wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk je
 wall-of-text-more-desktop =
     Tani mund të dhuroni zërin tuaj për të na ndihmuar të krijojmë një bazë të dhënash me burim të hapur që mund ta përdorë kushdo për të sjellë aplikacione risore për pajisje dhe web.<lineBreak></lineBreak>
     Lexoni një sentencë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
+wall-of-text-first = Zëri është natyror, zëri është njerëzor. Kjo është arsyeja pse jemi të ngazëllyer nga krijimi teknologjish të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri, zhvilluesve u duhen sasi zëri tejet të mëdha.
+wall-of-text-second = Shumica e të dhënave të përdorura nga kompani të mëdha nuk jepen për shumicën e njerëzve. Mendojmë që kjo e mbyt novacionin. Ndaj filluam Common Voice, një projekt për të ndihmuar që njohja e zërit të bëhet e hapur dhe e përdorshme nga kushdo.
 show-wall-of-text = Lexoni Më Tepër
 help-us-title = Ndihmonani të vleftësojmë fjali!
 help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalinë më poshtë?
-request-language-text = S’e ende shihni gjuhën tuaj te Common Voice?
+no-clips-to-validate = Duket se nuk ka copëza për dëgjuar për këtë gjuhë. Ndihmonani duke incizuar disa të tilla që tani.
+vote-yes = Po
+vote-no = Jo
+speak-subtitle = Dhuroni zërin tuaj
+speak-paragraph = Incizimi i copëzave zanore është pjesë integrale e krijimit të grupit tonë të hapur të të dhënave; ndokush mund të thosh se është edhe pjesa zbavitëse.
+speak-goal-text = Copëza të incizuara
+listen-subtitle = Ndihmonani të vleftësojmë zëra
+listen-paragraph = Vleftësimi i copëzave të dhuruara është po aq e rëndësishme për misionin e Common Voice-it. Bëni një dëgjim dhe ndihmonani të krijojmë të dhëna zanore cilësore me burim të hapur.
+listen-goal-text = Copëza të vleftësuara
+hours-recorded = Orë Incizim
+hours-validated = Orë të Vleftësuara
+voices-online = Zëra Në Linjë Tani
+todays-progress = Ecuria Sot
+help-reach-goal = Ndihmonani të arrijmë { $goal }
+read-terms-q = I keni lexuar Kushtet tona?
+ready-to-record = Gati të dhuroni zërin tuaj?
+all-languages = Krejt Gjuhët
+today = Sot
+x-weeks-short =
+    { $count ->
+        [one] Javë
+       *[other] { $count } javë
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }m
+       *[other] { $count }m
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }v
+       *[other] { $count }v
+    }
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = f
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = d
+shortcut-play-toggle-label = Luaje/Ndale
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = p
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = j
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = i
+shortcut-record-toggle-label = Incizo/Ndale
+request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
 request-language-button = Kërkoni një Gjuhë
 
 ## ProjectStatus
 
 status-title = Gjendje e projektit në përgjithësi: shihni deri ku kemi mbërritur!
 status-contribute = Kontribuoni Me Zërin Tuaj
-loading = Po ngarkohet…
 status-hours =
     { $hours ->
         [one] Një orë e vlerësuar deri këtu!
-       *[other] { hours } orë të vlerësuara deri këtu!
+       *[other] { $hours } orë të vlerësuara deri këtu!
     }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Objektivi i Ardhshëm: { $goal }
-status-more-soon = Më tepër gjuhë së shpejti!
+english = Anglisht
 
 ## ProfileForm
 
-email-input =
-    .label = Email
+profile-form-cancel = Dil Nga Formulari
+profile-form-delete = Fshini Profil
 profile-form-username =
     .label = Emër Përdoruesi
 profile-form-language =
     .label = Gjuhë
-profile-form-more-languages = Më tepër gjuhë së shpejti!
 profile-form-accent =
     .label = Theksim
 profile-form-age =
     .label = Moshë
 profile-form-gender =
     .label = Gjini
+hidden = I fshehur
+visible = I dukshëm
+native-language =
+    .label = Gjuhë Amtare
+profile-form-submit-save = Ruaje
+profile-form-submit-saved = U ruajt
+profile-keep-data = Mbaji të Dhënat
+profile-delete-data = Fshiji të Dhënat
+male = Mashkull
+female = Femër
+# Gender
+other = Tjetër
+why-profile-title = Ç’duhet profili?
+why-profile-text = Duke dhënë ca të dhëna rreth vetes, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për mekanizma Kuptimi të Folure që i përdorin këto të dhëna për përmirësimin e saktësisë së tyre.
+build-profile = Krijoje Profilin
+profile = Profil
+avatar = Avatar
+preferences = Parapëlqime
+edit-profile = Përpunoni Profil
+profile-create = Krijoni profil
+profile-create-success = Sukses, profili u krijua!
+profile-close = Mbylle
+profile-clear-modal = Pastrimi i të dhënave të profilit tuaj do të thotë që të dhënat demografike nuk do t’i parashtrohet më Common Voice-it me copëzat e incizuara prej jush.
+profile-explanation = Ndiqni ecurinë tuaj, përmes një profili, dhe ndihmoni që të dhënat tona zanore të jenë më të sakta.
+thanks-for-account = Faleminderit që ripohuat llogarinë tuaj, tani le të krijojmë profilin tuaj.
+why-demographic = Pse ka rëndësi kjo?
+why-demographic-explanation = Të dhëna të anonimizuara përdoruesish, të tilla si mosha, gjinia dhe theksi ndihmojnë të përmirësohen të dhënat audio e përdorura për të stërvitur mekanizmat e kuptimit të të folurës në pikëpamje të saktësisë. Emri juaj i përdoruesit dhe email nuk do të përshoqërohen kurrë me të dhënat e parashtruara prej jush, dhe mund të zgjidhni bërjen publik të emrit tuaj të përdoruesit ose anonimitetin.
+keep-me-posted =
+    .label = Do të doja përditësime dhe të jem në dijeni se ç’po ndodh me Common Voice.
+accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu siç e shpjegoni <privacyLink>Rregulla Privatësie</privacyLink> të Mozilla-s
+login-identity = Identitet Hyrjesh
+edit = Përpunoni
+email-subscriptions = Pajtime Me Email
+download-profile = Shkarkoji të dhënat e mia
+skip-submission-feedback = Anashkalo Përshtypje mbi Parashtrimet
+skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e përshtypjeve do të anashkalohet, pas klikimit të 'Parashtroje. Kontributi do të vazhdojë drejtpërsëdrejti me grupin pasues të 5 incizimeve apo vleftësimeve.
+skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
+off = Off
+on = On
+browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
+connect-gravatar = Lidhuni përmes Gravatari
+gravatar_not_found = S’u gjet gravatar për email-in tuaj
+file_too_large = Kartela e përzgjedhur është shumë e madhe
+manage-subscriptions = Administroni Pajtime
 
 ## FAQ
 
@@ -98,35 +289,11 @@ profile-why-content = Duke furnizuar disa të dhëna mbi veten, të dhënat audi
 notfound-title = S’u gjet
 notfound-content = Kam frikë s’e nuk di se ç’po kërkoni.
 
-## Privacy
-
-privacy-title = Shënim Privatësie për Common Voice
-privacy-policy = Kur Mozilla (domethënë ne), merr të dhëna nga ju, <policy>Rregullat e Privatësisë në Mozilla</policy> përshkruajnë se si i trajtojmë ato të dhëna.
-privacy-data-demographic = <name>Të dhëna demografike.</name> Mundet, nëse doni, të na dërgoni të dhëna të tilla si theksi juaj, mosha, dhe gjinia. Këto na ndihmojnë ne dhe kërkues të tjerë të krijojmë dhe përmirësojmë teknologji dhe mjete për shndërrim të të folurës në tekst.
-privacy-data-account = <name>Të dhëna llogarie.</name> Nëse doni, mund të krijoni një llogari, dhe kjo na dërgon email-in tuaj. Kjo përshoqërohet me të dhënat tuaja demografike dhe ato të ndërveprimit me ne, por ajo nuk i jepet publikut.
-privacy-data-recordings = <name>Incizime Zanore.</name> Incizimet Zanore, tok me çfarëdo të dhënash demografike përshoqëruar atyre, mund të jepen te baza e të dhënave Common Voice për përdorim dhe konsum publik.
-privacy-data-interaction = <name>Të dhëna ndërveprimi.</name> Për të kuptuar më mirë se si ndërveproni me aplikacioni ose sajtin Common Voice, ne përdorim Google Analytics. Për shembull, këtu përfshihen numri i incizimeve që bëni ose dëgjoni, ndërveprimet me butona dhe menu, kohëzgjatje sesionesh.
-privacy-data-technical = <name>Të dhëna teknike.</name> Duke përdorur Google Analytics, grumbullojmë URL dhe tituj faqesh Common Voice që vizitoni. Grumbullojmë shfletuesin tuaj, madhësinë e skenës ku e mbani hapur, dhe qartësi ekrani. Grumbullojmë gjithashtu vendndodhjen tuaj, dhe rregullime gjuhe në shfletuesin tuaj.
-privacy-more = <more>Mësoni më tepër</more>
-
-## Terms
-
-terms-title = Terma Ligjore mbi Common Voice
-terms-eligibility-content = Duhet të jeni mbi 13 vjeç ose të keni miratimin dhe mbikëqyrjen e një prindi ose kujdestari të pjesëmarrjes tuaj në projektin tonë.
-terms-privacy-title = Privatësi
-terms-privacy-content = <privacyLink>Shënimi ynë mbi Privatësinë</privacyLink> shpjegon se si i grumbullojmë dhe trajtojmë të dhënat tuaja.
-terms-contributions-title = Kontributet Tuaja dhe Heqja Dorë Nga të Drejtat
-terms-contributions-content = Duke parashtruar incizimet tuaj, hiqni dorë nga krejt të drejtat e kopjimit dhe të drejta të tjera që mund të keni mbi to, dhe pajtoheni me hedhjen në qarkullim publik të tyre sipas kushteve të licencës <licenseLink>CC-0</licenseLink>. Kjo do të thotë se jeni dakord të hiqni dorë nga krejt të drejtat mbi incizimet kudo në botë sipas ligjesh të drejtash kopjimi dhe bazash të dhënash, përfshi të drejta morale dhe publiciteti dhe nga krejt të dhënat e afërta dhe fqinje me to.
-terms-communications-title = Komunikime
-terms-communications-content = Nëse pajtoheni te buletinet tanë ose regjistroni një llogari për te Common Voice, mund të merrni prej nesh email-e lidhur me llogarinë tuaj (për shembull, njoftime lidhur me privatësinë, anë ligjore dhe sigurinë).
-terms-general-title = Të përgjithshme
-terms-general-updates = Përditësime: Mozilla mund t’i përditësojë herë pas here këto Kushte, për trajtimin e një veçorie të re të Shërbimit ose për të qartësuar ndonjë hollësi. Kushtet e përditësuara do të botohen në internet. Nëse ndryshimet janë thelbësore, përditësimin do ta bëjmë të ditur përmes kanaleve të zakonshëm të Mozilla-s -për njoftime të tilla, si postime blogjesh dhe forumesh. Vazhdimi i përdorimit të Shërbimeve pas hyrjes në fuqi të ndryshimeve përbën pranimin tuaj të ndryshimeve të tilla. Për ta bërë më të volitshëm shqyrtimin tuaj të tyre, do të postojmë një datë hyrjeje në fuqi në krye të kësaj faqeje.
-terms-general-termination = Përfundim: Mund ta pezullojmë ose përfundojmë hyrjen tuaj në Shërbimet në çfarëdo kohe, për çfarëdo arsyeje, do të bëjmë përpjekje të arsyeshme t’ju njoftojmë përmes adresës email përshoqëruar llogarisë tuaj ose herës tjetër që provoni të hyni te Shërbimet. Pavarësisht nga çfarëdo përfundimi, krejt incizimet që parashtroni te Mozilla do të vazhdojnë të jenë të përdorshme publikisht.
-terms-general-law = Kuadër Ligjor i Zbatueshëm: Këto Kushte Ligjore përbëjnë marrëveshjen e plotë mes jush dhe Mozilla-s lidhur me Common Voice dhe u nënshtrohen ligjeve të shtetit të Kalifornisë, ShBA.
-
 ## Data
 
 data-download-button = Shkarkoni të Dhëna Common Voice
+data-download-yes = Po
+data-download-deny = Jo
 data-download-license = Licencë: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ju ndan një hap nga fillimi i shkarkimit të <size>{ $size }GB</size>, të vazhdohet?
 data-subtitle = Po krijojmë një grup të dhënash zanore me burim të hapur dhe publike të cilat mund t’i përdorë gjithkush për stërvitje aplikacionesh që funksionojnë përmes të folurës.
@@ -143,26 +310,18 @@ data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash
 data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
-
-## Record Page
-
-record-platform-not-supported = Na ndjeni, por platforma juaj nuk mbulohet ende.
-record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri:
-record-platform-not-supported-ios = Përdorues të <bold>iOS</bold> mund të shkarkojnë aplikacionin tonë falas:
-record-must-allow-microphone = Duhet të lejoni përdorimin e mikrofonit.
-record-error-too-short = Incizimi qe shumë i shkurtër.
-record-error-too-long = Incizimi qe shumë i gjatë.
-record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
-record-submit-success = Parashtrim i suksesshëm! Doni të incizoni sërish?
-record-help = Ju lutemi,prekeni që të incizoni, mandej lexojeni me zë fjalinë e mësipërme.
-record-cancel = Anuloje Ri-incizimin
+license-mixed = Të përziera
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
+terms-agree = Pajtohem
+terms-disagree = Nuk pajtohem
 review-aborted = Ngarkimi dështoi. Doni të fshihen incizimet?
 review-submit-title = Shqyrtojini & Parashtrojini
 review-submit-msg = Faleminderit për incizimin!<lineBreak></lineBreak>Tani shqyrtoni dhe parashtroni copëzat tuaja më poshtë.
 review-recording = Shqyrtojeni
 review-rerecord = Ri-incizojeni
 review-cancel = Anuloje Parashtrimin
+review-keep-recordings = Mbaji incizimet
+review-delete-recordings = Fshiji incizimet e mia
 
 ## Download Modal
 
@@ -177,19 +336,84 @@ download-no = Jo, Faleminderit
 ## Contact Modal
 
 contact-title = Formular Kontaktesh
-contact-cancel = Anuloje
 contact-form-name =
     .label = Emër
 contact-form-message =
     .label = Mesazh
 contact-required = *e domosdoshme
-submit-form-action = Parashtroje
 
 ## Request Language Modal
 
 request-language-title = Kërkesë Gjuhe
-request-language-cancel = Dilni Nga Formulari
 request-language-form-language =
     .label = Gjuhë
 request-language-success-title = Kërkesa për gjuhë u parashtrua me sukses, ju faleminderit.
-request-language-success-text = Do të lidhemi me ju me më tepër të dhëna rreth gjuhës tuaj kur kjo të jetë e mundshme.
+request-language-success-content = Shumë shpejt do të lidhemi me ju me më tepër të dhëna rreth se si të shtoni gjuhën tuaj te Common Voice.
+
+## Languages Overview
+
+language-section-in-progress = Në Ecuri
+language-section-in-progress-description = Gjuhët e karakterizuara si Në Ecuri janë duke u përgatitur për kontribut nga bashkësitë tona; ecuria për to pasqyron fazën ku gjenden me përkthimin e sajtit dhe të grumbullimit të fjalive.
+language-section-launched = E filluar
+language-section-launched-new-description = Për gjuhët e filluara, sajti është përkthyer me sukses, dhe janë grumbulluar një numër i mjaftueshëm fjalish, për të lejuar  kontribute të vazhdueshëm të llojit <italic>Flisni</italic> dhe <italic>Dëgjoni</italic>.
+languages-show-more = Shihni Më Tepër
+languages-show-less = Shihni Më Pak
+language-speakers = Folës
+language-meter-in-progress = Ecuri
+language-total-progress = Gjithsej
+language-search-input =
+    .placeholder = Kërko
+language-speakers = Folës
+localized = E përkthyer
+sentences = Fjali
+total-hours = Orë të vleftësuara
+
+## New Contribution
+
+action-click = Klikoni
+action-tap = Prekeni
+contribute = Jepni Ndihmesë
+listen = Dëgjoni
+skip = Anashkaloje
+shortcuts = Shkurtore
+clips-with-count = <bold>{ $count }</bold> Copëza
+goal-help-recording = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të pikësynimit tonë ditor të incizimit të { $goalValue } fjalive!
+goal-help-validation = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të pikësynimit tonë ditor të vleftësimit të { $goalValue } fjalive!
+contribute-more =
+    { $count ->
+        [one] Gati për të bërë edhe { $count } tjetër?
+       *[other] Gati për të bërë edhe { $count } të tjera?
+    }
+record-cta = Filloni incizimin
+record-platform-not-supported = Na ndjeni, por platforma juaj nuk mbulohet ende.
+record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri:
+record-platform-not-supported-ios = Përdorues të <bold>iOS</bold> mund të shkarkojnë aplikacionin tonë falas:
+record-must-allow-microphone = Duhet të lejoni përdorimin e mikrofonit.
+record-no-mic-found = S’u gjet mikrofon.
+record-error-too-short = Incizimi qe shumë i shkurtër.
+record-error-too-long = Incizimi qe shumë i gjatë.
+record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
+record-cancel = Anuloje Ri-incizimin
+record-instruction = { $actionType }<recordIcon></recordIcon> mandej lexojeni me zë fjalinë
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> kur të keni përfunduar
+record-three-more-instruction = Edhe tre!
+record-again-instruction = Bukur!<recordIcon></recordIcon> Incizoni copëzën tuaj pasuese
+record-again-instruction2 = Vazhdoni kështu, incizoni sërish <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> I fundit!
+review-tooltip = Shqyrtoni & ri-incizoni këtu copëza, dora-dorës
+unable-speak = S’jeni në gjendje të flitni tani?
+review-instruction = Shqyrtoni & ri-incizoni copëza, në u dashtë
+record-submit-tooltip = { $actionType } parashtrojeni, kur të jeni gati
+clips-uploaded = Copëzat U Ngarkuan
+record-abort-title = Të përfundohet incizimi së pari?
+record-abort-text = Braktisja në këtë çast do të thotë se do të keni humbje në ecuri
+record-abort-submit = Parashtroni copëza
+record-abort-continue = Përfundo incizimin
+record-abort-delete = Dil & Fshiji copëzat
+listen-instruction = { $actionType }<playIcon></playIcon> e shqiptuan saktë fjalinë?
+listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur të jeni gati
+listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>E fundit!
+nothing-to-validate = S’kemi ndonjë gjë për vleftësim në këtë gjuhë, ndihmonani të plotësojmë radhën.
+record-button-label = Incizoni zërin tuaj
+share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra

@@ -10,7 +10,7 @@ import {
   BaseLanguage,
   InProgressLanguage,
   LaunchedLanguage,
-} from '../../../../../common/language-stats';
+} from 'common/language-stats';
 import { NATIVE_NAMES } from '../../../services/localization';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
@@ -121,12 +121,11 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     }
 
     inProgress.sort(
-      presortLanguages(
-        (l1, l2) =>
-          l1.sentencesCount < l2.sentencesCount ||
-          l1.localizedPercentage < l2.localizedPercentage
-            ? 1
-            : -1
+      presortLanguages((l1, l2) =>
+        l1.sentencesCount < l2.sentencesCount ||
+        l1.localizedPercentage < l2.localizedPercentage
+          ? 1
+          : -1
       )
     );
     launched.sort(
@@ -187,7 +186,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       selectedSection:
         filteredInProgress.length == 0
           ? 'launched'
-          : filteredLaunched.length == 0 ? 'in-progress' : selectedSection,
+          : filteredLaunched.length == 0
+          ? 'in-progress'
+          : selectedSection,
     });
   };
 

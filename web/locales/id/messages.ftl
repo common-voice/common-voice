@@ -8,6 +8,8 @@ email-input =
     .label = Surel
 submit-form-action = Kirim
 loading = Memuat…
+email-opt-in-privacy = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
+indicates-required = * Bertanda wajib diisi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Memuat…
 
 ## Languages
 
+ace = Bahasa Aceh
 an = Bahasa Aragon
 ar = Bahasa Arab
 as = Bahasa Assam
 ast = Bahasa Asturia
 az = Bahasa Azeri
+bg = Bahasa Bulgaria
 bn = Bahasa Bengali
 br = Bahasa Breton
 bxr = Bahasa Buryat
@@ -37,6 +41,8 @@ en = Bahasa Inggris
 eo = Bahasa Esperanto
 es = Bahasa Spanyol
 et = Bahasa Estonia
+eu = Bahasa Basque
+fa = Bahasa Farsi
 fi = Bahasa Finlandia
 fo = Bahasa Faroe
 fr = Bahasa Perancis
@@ -57,6 +63,7 @@ ko = Bahasa Korea
 kpv = Bahasa Komi-Zyrian
 kw = Bahasa Kornish
 ky = Bahasa Kirgiz
+mdf = Bahasa Moksha
 mk = Bahasa Makedonia
 mn = Mongolia
 myv = Bahasa Erzya
@@ -68,10 +75,11 @@ oc = Bahasa Oksitan
 or = Bahasa Oriya
 pl = Bahasa Polandia
 pt-BR = Bahasa Portugis (Brasil)
-rm = Bahasa Romansh
+rm-sursilv = Bahasa Romansh Sursilvan
 ro = Bahasa Rumania
 ru = Bahasa Rusia
 sah = Bahasa Sakha
+sc = Bahasa Sardinia
 sk = Bahasa Slowakia
 sl = Bahasa Slovenia
 sq = Bahasa Albania
@@ -111,9 +119,7 @@ share-title = Bantu kami menemukan yang lain untuk menyumbangkan suara mereka!
 share-text = Bantu ajari mesin bagaimana manusia berbicara, sumbangkan suara Anda di { $link }
 link-copied = Tautan Disalin
 back-top = Kembali ke Atas
-contribution-banner-text = Kami baru saja meluncurkan pengalaman kontribusi yang baru
-contribution-banner-button = Lihatlah
-report-bugs-link = Bantu laporkan kutu
+logout = Keluar
 
 ## Home Page
 
@@ -141,6 +147,9 @@ listen-paragraph = Memvalidasi klip donasi sama pentingnya bagi misi Common Voic
 listen-goal-text = Klip divalidasi
 hours-recorded = Jam Terekam
 hours-validated = Jam Tervalidasi
+voices-online = Suara Daring Saat Ini
+todays-progress = Perkembangan Hari Ini
+help-reach-goal = Bantu kami mencapai { $goal }
 read-terms-q = Sudahkah Anda membaca Ketentuan kami?
 ready-to-record = Siap menyumbangkan suara Anda?
 all-languages = Semua Bahasa
@@ -200,8 +209,6 @@ english = Bahasa Inggris
 
 ## ProfileForm
 
-profile-form-cancel = Tutup Formulir
-profile-form-delete = Hapus Profil
 profile-form-username =
     .label = Nama Pengguna
 profile-form-language =
@@ -214,23 +221,26 @@ profile-form-gender =
     .label = Jenis Kelamin
 leaderboard-visibility =
     .label = Visibilitas Papan Pimpinan
+hidden = Tersembunyi
+visible = Tampak
 native-language =
     .label = Bahasa Ibu
 profile-form-submit-save = Simpan
 profile-form-submit-saved = Disimpan
-profile-keep-data = Simpan Data
-profile-delete-data = Hapus Data
 male = Laki-Laki
 female = Perempuan
 # Gender
 other = Lainnya
 why-profile-title = Untuk apa profil?
 why-profile-text = Dengan menyediakan informasi mengenai diri Anda, data audio yang Anda kirimkan ke Common Voice akan lebih berguna bagi mesin Pengenal Ucapan yang memanfaatkan data ini untuk meningkatkan akurasinya.
+dashboard = Dasbor
+build-profile = Bangun Profil
+avatar = Avatar
+goals = Capaian
+settings = Setelan
 edit-profile = Ubah Profil
-profile-create = Buat profil
 profile-create-success = Berhasil, profil telah dibuat!
 profile-close = Tutup
-profile-clear-modal = Data demografis ini tidak akan dikumpulkan bersama dengan rekaman berikutnya jika Anda menghapus data profil Anda dari Common Voice.
 profile-explanation = Pantau progres Anda dengan sebuah profil dan bantu data suara kami semakin akurat.
 thanks-for-account = Terima kasih telah mengkonfimasi akun, sekarang mari buat profil Anda.
 why-demographic = Mengapa ini berpengaruh?
@@ -239,6 +249,7 @@ keep-me-posted =
     .label = Saya ingin menerima pembaruan & terus diberitahu berita terbaru tentang Common Voice.
 accept-privacy = Saya setuju Mozilla mengelola infomasi saya sesuai yang tertera pada <privacyLink>Kebijakan Privasi</privacyLink>
 login-identity = Identitas Masuk
+login-signup = Masuk / Daftar
 edit = Ubah
 email-subscriptions = Langganan Surel
 download-profile = Unduh data saya
@@ -248,6 +259,15 @@ skip-submission-description = Selama pengajuan kontribusi, saran akan dilewati s
 skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Dengarkan untuk mengubah jenis kontribusi.
 off = Nonaktif
 on = Aktif
+add-avatar-title = Tambahkan avatar ke profil Anda
+browse-file-title = Unggah berkas gambar
+browse-file = Seret dan lepas atau <browseWrap>Telusuri</browseWrap>
+connect-gravatar = Sambungkan ke Gravatar
+gravatar_not_found = Tidak ditemukan gravatar untuk surel Anda
+file_too_large = Berkas yang dipilih terlalu besar
+manage-subscriptions = Kelola Langganan
+email-already-used = Surel telah digunakan untuk akun yang berbeda
+add-language = Tambah Bahasa
 
 ## FAQ
 
@@ -271,11 +291,6 @@ faq-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem
 faq-source-q = Di mana sumber teks berasal ?
 faq-source-a1 = Kalimat-kalimat ini berasal dari donasi kontributor serta percakapan dari naskah film yang terbuka untuk umum seperti <italic>It's a Wonderful Life</italic>
 faq-source-a2 = Anda dapat meninjau sumber kalimat-kalimat kami di <dataLink>folder GitHub ini</dataLink>.
-
-## Profile
-
-profile-why-title = Mengapa sebuah profil?
-profile-why-content = Dengan memberikan beberapa informasi tentang diri Anda, data suara yang Anda sampaikan ke Common Voice akan lebih berguna untuk mesin Pengenalan Ucapan yang memanfaatkan data ini untuk meningkatkan akurasi mereka.
 
 ## NotFound
 
@@ -304,21 +319,6 @@ data-bundle-button = Unduh Bundel Himpunan Data
 data-bundle-description = Data Common Voice dan seluruh himpunan data suara lain di atas.
 license = Lisensi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Campuran
-
-## Record Page
-
-record-platform-not-supported = Maaf, platform Anda saat ini belum mendukung.
-record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
-record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
-record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
-record-retry = Coba Lagi
-record-no-mic-found = Tidak mendeteksi mikrofon
-record-error-too-short = Rekaman Anda terlalu pendek.
-record-error-too-long = Rekaman Anda terlalu panjang.
-record-error-too-quiet = Rekaman terlalu sunyi.
-record-submit-success = Rekaman berhasil diunggah! Ingin merekam lagi?
-record-help = Ketuk untuk merekam, lalu baca kalimat di atas dengan lantang.
-record-cancel = Batal Merekam Ulang
 review-terms = Dengan menggunakan Common Voice, berarti Anda menyetujui <termsLink>Persyaratan</termsLink> dan <privacyLink>Pemberitahuan Privasi</privacyLink> kami
 terms-agree = Saya setuju
 terms-disagree = Saya tidak setuju
@@ -389,6 +389,15 @@ goal-help-recording = Anda telah membantu Common Voice mencapai <goalPercentage>
 goal-help-validation = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target validasi harian kami { $goalValue }!
 contribute-more = Siap melanjutkan { $count } sisanya?
 record-cta = Mulai merekam
+record-platform-not-supported = Maaf, platform Anda saat ini belum mendukung.
+record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
+record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
+record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
+record-no-mic-found = Tidak mendeteksi mikrofon
+record-error-too-short = Rekaman Anda terlalu pendek.
+record-error-too-long = Rekaman Anda terlalu panjang.
+record-error-too-quiet = Rekaman terlalu sunyi.
+record-cancel = Batal Merekam Ulang
 record-instruction = { $actionType } <recordIcon></recordIcon> kemudian baca kalimatnya dengan lantang
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> jika sudah selesai
 record-three-more-instruction = Tiga lagi!
@@ -412,3 +421,41 @@ listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
 nothing-to-validate = Kami tidak memiliki apa pun untuk divalidasi dalam bahasa ini, bantu kami mengisi antreannya.
 record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
+
+## Goals
+
+streaks = Capaian
+days =
+    { $count ->
+       *[other] Hari
+    }
+recordings =
+    { $count ->
+       *[other] Rekaman
+    }
+validations =
+    { $count ->
+       *[other] Validasi
+    }
+
+## Dashboard
+
+toward-next-goal = Menuju capaian selanjutnya
+stats = Statistik
+you = Anda
+everyone = Semua orang
+contribution-activity = Aktivitas Kontribusi
+top-contributors = Kontributor Teratas
+recorded-clips = Klip Terekam
+validated-clips = Klip Tervalidasi
+total-approved = Jumlah yang Disetujui
+overall-accuracy = Akurasi Keseluruhan
+
+## Profile Delete
+
+delete-q = Apakah Anda ingin meminta rekaman suara Anda dihapus juga, atau apakah Anda lebih memilih untuk menyimpannya dalam kumpulan data Common Voice?
+keep = Simpan
+remove = Hapus
+keep-info = Rekanan suara anonim Anda akan tetap tersimpan di dalam kumpulan data Common Voice. Setelah menghapus profil, Anda tidak dapat memohon pemintaan untuk menghapus rekaman Anda dari kumpulan data.
+remove-info = Kami akan meninjau permintaan untuk menghapus rekaman suara Anda dari kumpulan data. Jika permintaan Anda disetujui, kami akan menghubungi mereka yang telah mengunduh kumpulan data dan meminta mereka menghapus rekaman suara Anda juga.
+profile-form-delete = Hapus Profil

@@ -63,24 +63,6 @@ export default class DB {
     return email.toLowerCase();
   }
 
-  /**
-   * Insert or update user client row.
-   */
-  async updateUser(client_id: string, fields: any): Promise<any> {
-    let { age, accents, email, gender } = fields;
-    email = this.formatEmail(email);
-    await Promise.all([
-      email &&
-        this.user.update({
-          email,
-          ...pick(fields, 'send_emails', 'has_downloaded', 'basket_token'),
-        }),
-      UserClient.save({ client_id, email, age, gender }),
-    ]);
-    accents && (await this.saveAccents(client_id, accents));
-    return this.getUser(email);
-  }
-
   async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
     const localeId = await getLocaleId(locale);
 
@@ -294,10 +276,7 @@ export default class DB {
   }): Promise<string> {
     try {
       sentenceId = sentenceId || hash(sentence);
-      const [localeId] = await Promise.all([
-        getLocaleId(locale),
-        this.saveUserClient(client_id),
-      ]);
+      const localeId = await getLocaleId(locale);
       const bucket = await this.getOrSetUserBucket(
         client_id,
         locale,
@@ -427,7 +406,7 @@ export default class DB {
 
     const [rows] = await this.mysql.query(
       `
-        SELECT date, COUNT(DISTINCT client_id) AS voices
+        SELECT date, COUNT(DISTINCT client_id) AS value
         FROM (
           SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
           FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
@@ -438,6 +417,44 @@ export default class DB {
         GROUP BY date
     `,
       [locale ? await getLocaleId(locale) : '']
+    );
+
+    return rows;
+  }
+
+  async getContributionStats(
+    locale?: string,
+    client_id?: string
+  ): Promise<{ date: string; value: number }[]> {
+    const hours = Array.from({ length: 10 }).map((_, i) => i);
+
+    const [rows] = await this.mysql.query(
+      `
+        SELECT date,
+        (
+          SELECT COUNT(*)
+          FROM clips
+          WHERE clips.created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+          ${client_id ? 'AND clips.client_id = :client_id' : ''}
+        ) + (
+          SELECT COUNT(*)
+          FROM votes
+          LEFT JOIN clips on clips.id = votes.clip_id
+          WHERE votes.created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+          ${client_id ? 'AND votes.client_id = :client_id' : ''}
+        ) AS value
+        FROM (
+          SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
+          FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
+        ) date_alias
+        ORDER BY date ASC
+      `,
+      {
+        locale_id: locale ? await getLocaleId(locale) : null,
+        client_id,
+      }
     );
 
     return rows;
@@ -511,23 +528,28 @@ export default class DB {
     return row;
   }
 
-  async getDailyClipsCount() {
+  async getDailyClipsCount(locale?: string) {
     return (await this.mysql.query(
       `
         SELECT COUNT(id) AS count
         FROM clips
         WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
-      `
+        ${locale ? 'AND locale_id = ?' : ''}
+      `,
+      locale ? [await getLocaleId(locale)] : []
     ))[0][0].count;
   }
 
-  async getDailyVotesCount() {
+  async getDailyVotesCount(locale?: string) {
     return (await this.mysql.query(
       `
-        SELECT COUNT(id) AS count
+        SELECT COUNT(votes.id) AS count
         FROM votes
-        WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
-      `
+        LEFT JOIN clips on votes.clip_id = clips.id
+        WHERE votes.created_at >= CURDATE() AND votes.created_at < CURDATE() + INTERVAL 1 DAY
+        ${locale ? 'AND locale_id = ?' : ''}
+      `,
+      locale ? [await getLocaleId(locale)] : []
     ))[0][0].count;
   }
 

@@ -8,6 +8,8 @@ email-input =
     .label = E-post
 submit-form-action = Skicka in
 loading = Laddar…
+email-opt-in-privacy = Genom att ta emot e-postmeddelanden godkänner du Mozillas hantering av denna information som förklaras i Mozillas <privacyLink>sekretesspolicy<privacyLink>.
+indicates-required = * Indikerar obligatoriska fält
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Laddar…
 
 ## Languages
 
+ace = Acehnesiska
 an = Aragonesiska
 ar = Arabiska
 as = Assamesiska
 ast = Asturiska
 az = Azerbajdzjanska
+bg = Bulgariska
 bn = Bengaliska
 br = Bretonska
 bxr = Buryat
@@ -37,6 +41,8 @@ en = Engelska
 eo = Esperanto
 es = Spanska
 et = Estländska
+eu = Baskiska
+fa = Persiska
 fi = Finska
 fo = Färöiska
 fr = Franska
@@ -57,6 +63,7 @@ ko = Koreanska
 kpv = Komi-syrjänska
 kw = Korniska
 ky = Kirgiziska
+mdf = Moksha
 mk = Makedonska
 mn = Mongoliska
 myv = Erzya
@@ -68,10 +75,11 @@ oc = Occitanska
 or = Odia
 pl = Polska
 pt-BR = Portugisiska (Brasilien)
-rm = Rätoromanska
+rm-sursilv = Rätoromanska
 ro = Rumänska
 ru = Ryska
 sah = Sakha
+sc = Sardiska
 sk = Slovakiska
 sl = Slovenska
 sq = Albanska
@@ -111,9 +119,7 @@ share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
 link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
-contribution-banner-text = Det finns nu ett nytt sätt att samarbeta
-contribution-banner-button = Ta en titt
-report-bugs-link = Hjälp oss att rapportera buggar
+logout = Logga ut
 
 ## Home Page
 
@@ -142,6 +148,9 @@ listen-paragraph = Validera donerade klipp är lika viktigt för Common Voice. L
 listen-goal-text = Klipp validerade
 hours-recorded = Timmar inspelade
 hours-validated = Timmar validerade
+voices-online = Voice på Internet
+todays-progress = Dagens framsteg
+help-reach-goal = Hjälp oss att nå { $goal }
 read-terms-q = Har du läst våra villkor?
 ready-to-record = Är du redo att donera din röst?
 all-languages = Alla språk
@@ -205,8 +214,6 @@ english = Engelska
 
 ## ProfileForm
 
-profile-form-cancel = Avsluta formulär
-profile-form-delete = Ta bort profil
 profile-form-username =
     .label = Användarnamn
 profile-form-language =
@@ -219,23 +226,26 @@ profile-form-gender =
     .label = Kön
 leaderboard-visibility =
     .label = Synlighet på topplista
+hidden = Dold
+visible = Synlig
 native-language =
     .label = Modersmål
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
-profile-keep-data = Behåll data
-profile-delete-data = Ta bort data
 male = Man
 female = Kvinna
 # Gender
 other = Annat
 why-profile-title = Varför behövs en profil?
 why-profile-text = Genom att ge lite information om dig själv kan det ljud du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
+dashboard = Översikt
+build-profile = Bygg profil
+avatar = Avatar
+goals = Mål
+settings = Inställningar
 edit-profile = Redigera profil
-profile-create = Skapa en profil
 profile-create-success = Profil skapad!
 profile-close = Stäng
-profile-clear-modal = Att rensa din profildata innebär att din demografiska information inte längre kommer att skickas till Common Voice med dina inspelningar.
 profile-explanation = Håll reda på dina framsteg med en profil och hjälp vår röstdata att bli mer exakt.
 thanks-for-account = Tack för att du har bekräftat ditt konto, nu bygger vi din profil.
 why-demographic = Vad innebär det?
@@ -244,13 +254,25 @@ keep-me-posted =
     .label = Jag skulle vilja ha uppdateringar och hålla mig uppdaterad med vad som händer med Common Voice.
 accept-privacy = Jag är okej med att du hanterar denna information som du förklarar i Mozillas <privacyLink>sekretesspolicy</privacyLink>
 login-identity = Inloggningsidentitet
+login-signup = Logga in / Registrera dig
 edit = Redigera
 email-subscriptions = E-prenumerationer
 download-profile = Hämta min data
 contribution-experience = Erfarenhet
 skip-submission-feedback = Hoppa över återkoppling
+skip-submission-description = Under inlämning av bidrag ignoreras återkoppling efter att du har klickat på "Skicka in". Bidrag fortsätter direkt med nästa uppsättning av 5 inspelningar eller valideringar.
+skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
+add-avatar-title = Lägg till en avatar till din profil
+browse-file-title = Ladda upp en bildfil
+browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
+connect-gravatar = Anslut med Gravatar
+gravatar_not_found = Ingen gravatar hittades för din e-postadress
+file_too_large = Den valda filen är för stor
+manage-subscriptions = Hantera prenumerationer
+email-already-used = E-postadress används redan för ett annat konto
+add-language = Lägg till språk
 
 ## FAQ
 
@@ -274,11 +296,6 @@ faq-hours-a = Det är ungefär det antal timmar som krävs för att träna ett r
 faq-source-q = Var kommer källtexten ifrån?
 faq-source-a1 = De nuvarande meningarna kommer från bidragsgivare samt från dialoger från filmer som är "public domain" som till exempel filmen <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub-mapp</dataLink>
-
-## Profile
-
-profile-why-title = Varför en profil?
-profile-why-content = Genom att ge lite information om dig själv kan det inspelade datan du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
 
 ## NotFound
 
@@ -307,21 +324,6 @@ data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandat
-
-## Record Page
-
-record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
-record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
-record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
-record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
-record-retry = Försök igen
-record-no-mic-found = Ingen mikrofon kunde hittas.
-record-error-too-short = Inspelningen var för kort.
-record-error-too-long = Inspelningen var för lång.
-record-error-too-quiet = Inspelningen var för tyst.
-record-submit-success = Inskickat! Vill du spela in igen?
-record-help = Vänligen klicka för att spela in, läs sedan ovanstående mening högt.
-record-cancel = Avbryt återinspelning
 review-terms = Genom att använda Common Voice godkänner du våra <termsLink>villkor</termsLink> och <privacyLink> sekretesspolicy</privacyLink>
 terms-agree = Jag håller med
 terms-disagree = Jag håller inte med
@@ -396,6 +398,15 @@ contribute-more =
        *[other] Redo att göra { $count } till?
     }
 record-cta = Starta inspelning
+record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
+record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
+record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
+record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
+record-no-mic-found = Ingen mikrofon kunde hittas.
+record-error-too-short = Inspelningen var för kort.
+record-error-too-long = Inspelningen var för lång.
+record-error-too-quiet = Inspelningen var för tyst.
+record-cancel = Avbryt återinspelning
 record-instruction = { $actionType } <recordIcon></recordIcon> och läs sedan meningen högt
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> när du är klar
 record-three-more-instruction = Tre kvar!
@@ -419,3 +430,44 @@ listen-last-time-instruction = <playIcon></playIcon> Sista!
 nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
+
+## Goals
+
+streaks = Antal dagar i rad
+days =
+    { $count ->
+        [one] Dag
+       *[other] Dagar
+    }
+recordings =
+    { $count ->
+        [one] Inspelning
+       *[other] Inspelningar
+    }
+validations =
+    { $count ->
+        [one] Validering
+       *[other] Valideringar
+    }
+
+## Dashboard
+
+toward-next-goal = Till nästa mål
+stats = Statistik
+you = Du
+everyone = Alla
+contribution-activity = Bidragsaktivitet
+top-contributors = Bästa bidragare
+recorded-clips = Inspelade klipp
+validated-clips = Validerade klipp
+total-approved = Totalt godkända
+overall-accuracy = Övergripande noggrannhet
+
+## Profile Delete
+
+delete-q = Vill du begära att dina röstinspelningar tas bort också, eller föredrar du att behålla dem i Common Voice datamängd?
+keep = Behåll
+remove = Ta bort
+keep-info = Dina anonyma röstinspelningar förblir i Common Voice datamängd. När du har raderat din profil kan du inte längre skicka in en begäran om att ta bort dina inspelningar från datamängden
+remove-info = Vi kommer att granska din begäran om att ta bort dina röstinspelningar från datamängden. Om din förfrågan godkänns kontaktar vi dem som har laddat ner datamängden och begär att de även tar bort dina röstinspelningar.
+profile-form-delete = Ta bort profil

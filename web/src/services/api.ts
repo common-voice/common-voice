@@ -1,7 +1,9 @@
-import { LanguageStats } from '../../../common/language-stats';
-import { UserClient } from '../../../common/user-clients';
+import { AllGoals } from 'common/goals';
+import { LanguageStats } from 'common/language-stats';
+import { UserClient } from 'common/user-clients';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
+import { USER_KEY } from '../stores/root';
 import { Sentences } from '../stores/sentences';
 
 export interface Clip {
@@ -30,7 +32,7 @@ export default class API {
     this.user = user;
   }
 
-  private fetch(path: string, options: FetchOptions = {}): Promise<any> {
+  private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
       { isJSON: true },
       options
@@ -45,21 +47,33 @@ export default class API {
       headers
     );
 
-    if (path.startsWith(location.origin)) {
-      finalHeaders.uid = this.user.userId;
+    if (path.startsWith(location.origin) && !this.user.account) {
+      finalHeaders.client_id = this.user.userId;
     }
 
-    return fetch(path, {
+    const response = await fetch(path, {
       method: method || 'GET',
       headers: finalHeaders,
       body: body
-        ? body instanceof Blob ? body : JSON.stringify(body)
+        ? body instanceof Blob
+          ? body
+          : JSON.stringify(body)
         : undefined,
-    }).then(response => (isJSON ? response.json() : response.text()));
+    });
+    if (response.status == 401) {
+      localStorage.removeItem(USER_KEY);
+      location.reload();
+      return;
+    }
+    return isJSON ? response.json() : response.text();
+  }
+
+  forLocale(locale: string) {
+    return new API(locale, this.user);
   }
 
   getLocalePath() {
-    return API_PATH + '/' + this.locale;
+    return this.locale ? API_PATH + '/' + this.locale : API_PATH;
   }
 
   getClipPath() {
@@ -72,36 +86,6 @@ export default class API {
 
   fetchRandomClips(count: number = 1): Promise<Clip[]> {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
-  }
-
-  async syncUser(): Promise<void> {
-    const {
-      age,
-      accents,
-      email,
-      gender,
-      hasDownloaded,
-      sendEmails,
-      userId,
-    } = this.user;
-
-    await Promise.all([
-      this.fetch(API_PATH + '/user_clients/' + userId, {
-        method: 'PUT',
-        body: { accents, age, gender },
-      }),
-      this.fetch(`${API_PATH}/users/${userId}`, {
-        method: 'PUT',
-        body: {
-          age,
-          accents,
-          email,
-          gender,
-          has_downloaded: hasDownloaded,
-          send_emails: sendEmails,
-        },
-      }),
-    ]);
   }
 
   uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
@@ -180,11 +164,21 @@ export default class API {
     return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats');
   }
 
-  fetchClipVoices(
-    locale?: string
-  ): Promise<{ date: string; voices: number }[]> {
+  fetchClipVoices(locale?: string): Promise<{ date: string; value: number }[]> {
     return this.fetch(
       API_PATH + (locale ? '/' + locale : '') + '/clips/voices'
+    );
+  }
+
+  fetchContributionActivity(
+    from: 'you' | 'everyone',
+    locale?: string
+  ): Promise<{ date: string; value: number }[]> {
+    return this.fetch(
+      API_PATH +
+        (locale ? '/' + locale : '') +
+        '/contribution_activity?from=' +
+        from
     );
   }
 
@@ -196,7 +190,7 @@ export default class API {
     return this.fetch(API_PATH + '/user_client');
   }
 
-  saveAccount(data: UserClient): Promise<void> {
+  saveAccount(data: UserClient): Promise<UserClient> {
     return this.fetch(API_PATH + '/user_client', {
       method: 'PATCH',
       body: data,
@@ -207,5 +201,28 @@ export default class API {
     return this.fetch(API_PATH + '/newsletter/' + email, {
       method: 'POST',
     });
+  }
+
+  saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
+    return this.fetch(API_PATH + '/user_client/avatar/' + type, {
+      method: 'POST',
+      isJSON: false,
+      ...(file ? { body: file } : {}),
+    }).then(body => JSON.parse(body));
+  }
+
+  fetchLeaderboard(type: 'clip' | 'vote', cursor?: [number, number]) {
+    return this.fetch(
+      this.getClipPath() +
+        (type == 'clip' ? '' : '/votes') +
+        '/leaderboard' +
+        (cursor ? '?cursor=' + JSON.stringify(cursor) : '')
+    );
+  }
+
+  fetchGoals(locale?: string): Promise<AllGoals> {
+    return this.fetch(
+      API_PATH + '/user_client' + (locale ? '/' + locale : '') + '/goals'
+    );
   }
 }

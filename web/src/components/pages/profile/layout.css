@@ -1,7 +1,17 @@
 @import url('../../vars.css');
 
 .profile {
-    &.info, &.avatar, &.preferences {
+    &.info,
+    &.avatar,
+    &.goals,
+    &.settings,
+    &.delete {
+        & header {
+            @media (--lg-up) {
+                max-width: var(--wide-desktop-width);
+            }
+        }
+
         & #content {
             padding: 0;
             max-width: none;
@@ -64,11 +74,18 @@
 
             @media (--md-up) {
                 flex-direction: column;
+                margin: 0 auto;
+                width: 100%;
+                max-width: var(--wide-desktop-width);
+                position: absolute;
+                left: 0;
+                right: 0;
             }
 
             & a {
                 border-radius: 40px;
                 padding: 18px 40px;
+                max-width: 200px;
 
                 display: flex;
 
@@ -108,21 +125,20 @@
                     }
                 }
             }
-        }
 
-        & .buttons {
-            display: none;
-
-            @media (--md-up) {
-                display: block;
+            & .button {
+                width: fit-content;
             }
         }
     }
 
     & .content {
         box-sizing: border-box;
-        max-width: 785px;
+        max-width: 905px;
         width: 100%;
+        min-height: 500px;
+        z-index: var(--middle-z-index);
+        overflow: auto;
 
         @media (--sm-down) {
             padding: 20px 20px 0;

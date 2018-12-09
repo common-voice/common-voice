@@ -8,6 +8,8 @@ email-input =
     .label = Imayl
 submit-form-action = Azen
 loading = Asali…
+email-opt-in-privacy = Ma tferneḍ armas n yimaylen, ad tqebleḍ d akken Mozilla ad tesseqdec talɣut-a akken i tettwasegza deg <privacyLink>Tasertit Tabaḍnit <privacyLink> n Mozilla.
+indicates-required = * yemmal-d urti ilaqen
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Asali…
 
 ## Languages
 
+ace = Acehnese
 an = Taṛagunit
 ar = Taεrabt
 as = Tasamizt
 ast = Tasturit
 az = Tazerbiǧanit
+bg = Tabulgarit
 bn = Tabengalit
 br = Tabrutunt
 bxr = Taburyat
@@ -37,6 +41,8 @@ en = Taglizit
 eo = Taspiruntit
 es = Taspanit
 et = Tastunit
+eu = Tabaskit
+fa = Tafarsit
 fi = Tafinit
 fo = Tafirwanit
 fr = Tafransist
@@ -57,6 +63,7 @@ ko = Takurit
 kpv = Takumt Zyrian
 kw = Takuṛnikt
 ky = Takirgizt
+mdf = Mukca
 mk = Tamasidunit
 mn = Tamungult
 myv = Erzya
@@ -68,10 +75,11 @@ oc = Tuksitant
 or = Odia
 pl = Tapulunit
 pt-BR = Tapuṛtugit (Brizil)
-rm = Tarumanct
+rm-sursilv = Rumanc Sursilvan
 ro = Taṛumanit
 ru = Tarusit
 sah = Tasaxit
+sc = Tasardinit
 sk = Tasluvakt
 sl = Tasluvinit
 sq = Talbanit
@@ -111,9 +119,7 @@ share-title = Ɛawen-aɣ i wakken ad d-naf imdanen-nniḍen ara d-yefken taɣect
 share-text = Ɛawen timacicin ad ttmeslayent am yimdanen, efk-d taɣect-ik { $link }
 link-copied = Aseɣwen yettwanɣel
 back-top = Uɣal d asawen
-contribution-banner-text = Tura kan i nesker yiwen umahil n uttekki amaynut
-contribution-banner-button = Walli ugar
-report-bugs-link = Ɛiwen s ucceger n ibugen
+logout = Ffeɣ
 
 ## Home Page
 
@@ -139,6 +145,9 @@ listen-paragraph = Asentem n tukkisin yesɛa azal meqqren i tuɣdaṭ n Common V
 listen-goal-text = Tukkisin yettwasentmen
 hours-recorded = Isragen yettwaskelsen
 hours-validated = Isragen yettwaqeblen
+voices-online = Tuɣac srid akka tura
+todays-progress = Asfari n wass
+help-reach-goal = Mudd-aɣ-d afus ad naweḍ { $goal }
 read-terms-q = Teɣriḍ tiwtilin-nneɣ?
 ready-to-record = Theggaḍ ad tmuddeḍ taɣect-ik/im ?
 all-languages = Akk tutlayin
@@ -202,8 +211,6 @@ english = Taglizit
 
 ## ProfileForm
 
-profile-form-cancel = Ffeɣ si tferkit
-profile-form-delete = Kkes amaɣnu
 profile-form-username =
     .label = Isem n useqdac:
 profile-form-language =
@@ -216,23 +223,26 @@ profile-form-gender =
     .label = Tuzuft
 leaderboard-visibility =
     .label = Tillin n tebdart n igeṛṛa
+hidden = Uffir
+visible = Uman
 native-language =
     .label = Tutlayt tayemat
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
-profile-keep-data = Eǧǧ Isefka
-profile-delete-data = Kkes Isefka
 male = Amalay
 female = Unti
 # Gender
 other = Wiyaḍ
 why-profile-title = Acuɣer amaɣnu?
 why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i yiselkimen n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
+dashboard = Tafelwit n usenqed
+build-profile = Bnu amaɣnu
+avatar = Avataṛ
+goals = Iswiyen
+settings = Iɣewwaṛen
 edit-profile = Ẓreg amaɣnu
-profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
 profile-close = Mdel
-profile-clear-modal = Ma tsefḍeḍ isefka n umaɣnu-ik, talɣut-agi ɣeg isefka n tdimugrafit ur ttwaznen ara ar Common Voice s yikalasen-ik n taɣect.
 profile-explanation = Sers allen-ik ɣef usfari s tmerna n umaɣnu sakin muddaɣ-d afus ad nerr isefka n taɣect d usdiden.
 thanks-for-account = Tanemmirt ɣimi tsentmeḍ amiḍan-ik, tura rnu kra n talɣut ɣer umaɣnu-inek.
 why-demographic = Ayɣer aya isεa azal?
@@ -241,11 +251,25 @@ keep-me-posted =
     .label = Bɣiɣ ad leqmeɣ wa ad iliɣ seg imezwura ad iḥsun amaynut n Common Voice.
 accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <privacyLink>tsertit n tbaḍnit</privacyLink> n Mozilla.
 login-identity = Tinekkit n tuqna
+login-signup = Kcem / Jerred
 edit = Ẓreg
 email-subscriptions = Ajerred ɣer Imayl
 download-profile = Sider isefka-inu
+contribution-experience = Tarmit n imttekiyen
+skip-submission-feedback = Suref i tuzna n tmuɣli
+skip-submission-description = Di lawan n utteki, tuzna n tmuɣli-inek ad tettwasuref seld n usenned ɣef 'Azen'. Atteki ad ikemmel srid s uḥric n 5 n usekles neɣ asentem.
+skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad ferneḍ gar Mmeslay akked Timesliwt.
 off = Sens
 on = Rmed
+add-avatar-title = Rnu avataṛ i umiḍan-ik/im
+browse-file-title = Sali afaylu n tugna
+browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
+connect-gravatar = Qqen s Gravatar
+gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
+file_too_large = Afaylu ittwafernen meqqer aṭas
+manage-subscriptions = Sefrekajerred
+email-already-used = Imayl ittuseqdec yakan i umiḍan nniḍen
+add-language = Rnu tutlayt
 
 ## FAQ
 
@@ -269,11 +293,6 @@ faq-hours-a = Hatan meḥsub d amḍan n yisefka ilaqen ad yili akken ad nheggi 
 faq-source-q = Ansa i d-ekkan iḍrisen i usekles n taɣect?
 faq-source-a1 = Tifyar akka tura kkant-d seg uttekki n yal yiwen akked idiwenniyen n yisura izuyaz am <italic>Tudert tecbeḥ</italic>.
 faq-source-a2 = Tifyar tiɣbula ad ten-tafeḍ <dataLink>deg ukaram-agi</dataLink> di GitHub.
-
-## Profile
-
-profile-why-title = Iwacu-t umaɣnu?
-profile-why-content = S umuddu n kra n talɣut fell-ak, isefka imeslawen ara tebḍuḍ d Common Voice ad lhun i yimseddayen n uɛqal n taɣect ara ten-yesqedcen akken ad snernin tiseddi-nwen.
 
 ## NotFound
 
@@ -302,21 +321,6 @@ data-bundle-button = Sider-d aqettun n tagrumma n yisefka
 data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yisefka-nniḍen ddaw-a.
 license = Turagt: <licenseLink>{ $license }</licenseLink>
 license-mixed = Uxliḍ
-
-## Record Page
-
-record-platform-not-supported = Suref-aɣ, anagraw-ik ur yettwasefrak ara akka tura.
-record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tessidreḍ imaynuten:
-record-platform-not-supported-ios = Iseqdsacen n <bold>iOS</bold> zemren ad sidren asnaɣ-nneɣ n baṭel :
-record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
-record-retry = Ɛreḍ i tikelt-nniḍen
-record-no-mic-found = Ulac asawaḍ.
-record-error-too-short = Meẓẓi mliḥ usekles-nni.
-record-error-too-long = Meqqeṛ mliḥ usekles-nni.
-record-error-too-quiet = Ixuṣṣ mliḥ ṣṣut n usekles-nni.
-record-submit-success = Yettwaceyyeɛ akken iwata. Tebɣiḍ ad talseḍ asekles?
-record-help = Ma ulac aɣilif, tekki i wakken ad yebdu usekles, sakin ɣer-d tafyirt-nni ukessar s lqedd n taɣect-ik /im!
-record-cancel = Sefsex asekles
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
@@ -391,6 +395,15 @@ contribute-more =
        *[other] Theggaḍ i { $count } nniḍen?
     }
 record-cta = Bdu asekles
+record-platform-not-supported = Suref-aɣ, anagraw-ik ur yettwasefrak ara akka tura.
+record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tessidreḍ imaynuten:
+record-platform-not-supported-ios = Iseqdsacen n <bold>iOS</bold> zemren ad sidren asnaɣ-nneɣ n baṭel :
+record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
+record-no-mic-found = Ulac asawaḍ.
+record-error-too-short = Meẓẓi mliḥ usekles-nni.
+record-error-too-long = Meqqeṛ mliḥ usekles-nni.
+record-error-too-quiet = Ixuṣṣ mliḥ ṣṣut n usekles-nni.
+record-cancel = Sefsex asekles
 record-instruction = { $actionType } <recordIcon></recordIcon> sakin ɣer-d tafyirt s cwiṭ n leɛyaḍ
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> ticki yemmed.
 record-three-more-instruction = Rnu ugar n kraḍ!
@@ -414,3 +427,44 @@ listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
 nothing-to-validate = Ula kra ara nsentem deg tutlayt-a, mudd-aɣ-d afus ad neččaṛ adras.
 record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
+
+## Goals
+
+streaks = Ijerriḍen
+days =
+    { $count ->
+        [one] Ass
+       *[other] Ussan
+    }
+recordings =
+    { $count ->
+        [one] Asekles
+       *[other] Iseklas
+    }
+validations =
+    { $count ->
+        [one] Asentem
+       *[other] Isentam
+    }
+
+## Dashboard
+
+toward-next-goal = Ɣer iswi i d-iteddun
+stats = Addaden
+you = Kečč
+everyone = Yal yiwen
+contribution-activity = Armud n uttekki
+top-contributors = Imttekkiyen ifazen
+recorded-clips = Tukkisin ittwaskelsen
+validated-clips = Tukkisin yettwasentmen
+total-approved = Amḍan yettwaqeblen
+overall-accuracy = Tiseddi tamatut
+
+## Profile Delete
+
+delete-q = Tebɣiḍ ad tessutreḍ ikalasen-ik n taɣect akken ad ttwakksen daɣen, neɣ tebɣiḍ ad ten-teǧǧeḍ deg taffa n yisefka n Common Voice?
+keep = Ḥrez
+remove = Kkes
+keep-info = Ikalsen-ik n taɣect udrigen ad qqimen deg taffa n yisefka n Common Voice. Ticki tekkseḍ amaɣnu-ik ur tettizmireḍ ara ad tazneḍ asuter akken ad ttwakksen ikalasen-ik seg taffa n yisefka
+remove-info = Ad nwali asuter-ik n tukksa n yikalasen-ik n taɣect seg taffa n yisefka. Ma yella asuter-ik yettwaqbel, ad nennermes wid yessidren taffa n yisefka sakin ad sen-nessuter ad kksen ikalasen-ik n taɣect.
+profile-form-delete = Kkes amaɣnu

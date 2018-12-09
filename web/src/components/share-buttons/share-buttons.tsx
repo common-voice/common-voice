@@ -79,6 +79,9 @@ class ShareButtons extends React.Component<
   }
 }
 
-export default connect<void, PropsFromDispatch>(null, {
-  addNotification: Notifications.actions.add,
-})(withLocalization(ShareButtons));
+export default connect<void, PropsFromDispatch>(
+  null,
+  {
+    addNotification: Notifications.actions.add,
+  }
+)(withLocalization(ShareButtons));

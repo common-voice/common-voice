@@ -1,5 +1,21 @@
 import * as React from 'react';
 import { LocaleLink } from '../locale-helpers';
+import { Localized } from 'fluent-react/compat';
+import { HTMLProps } from 'react';
+
+export const Avatar = ({ url }: { url?: string }) => (
+  <div className="avatar-wrap">
+    {url ? (
+      <img src={url} />
+    ) : (
+      <img
+        className="mars-avatar"
+        src="/img/mars-avatar.svg"
+        alt="Robot Avatar"
+      />
+    )}
+  </div>
+);
 
 export const Button = ({
   className = '',
@@ -97,6 +113,53 @@ export const LinkButton = ({
   );
 };
 
+type SpinnerState = { showSpinner: boolean };
+
+export class Spinner extends React.Component<
+  { delayMs: number },
+  SpinnerState
+> {
+  static defaultProps = { delayMs: 300 };
+
+  state: SpinnerState = { showSpinner: false };
+
+  delayTimeout: number;
+
+  componentDidMount() {
+    this.delayTimeout = setTimeout(() => {
+      this.setState({ showSpinner: true });
+    }, this.props.delayMs);
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.delayTimeout);
+  }
+
+  render() {
+    return this.state.showSpinner ? (
+      <div className="spinner">
+        <span />
+      </div>
+    ) : null;
+  }
+}
+
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />
+);
+
+export const Toggle = ({
+  offText,
+  onText,
+  ...props
+}: { offText: string; onText: string } & HTMLProps<HTMLInputElement>) => (
+  <div className="toggle-input">
+    <input type="checkbox" {...props} />
+    <Localized id={offText}>
+      <div />
+    </Localized>
+    <Localized id={onText}>
+      <div />
+    </Localized>
+  </div>
 );

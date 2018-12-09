@@ -3,6 +3,11 @@
 .profile-info {
     color: var(--near-black);
 
+    & h2 {
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
     & .demographic-info {
         border-left: 2px solid var(--blue);
         margin: 30px 0;
@@ -13,7 +18,7 @@
             border: none;
             padding: 0;
             font-family: var(--base-font-family);
-            font-size: var(--font-size);;
+            font-size: var(--font-size);
             font-weight: 600;
             color: var(--blue);
             background: none;
@@ -67,6 +72,21 @@
         }
     }
 
+    & .add-language {
+        display: flex;
+        justify-content: center;
+
+        & :first-child {
+            margin-right: 25px;
+        }
+
+        & :nth-child(2) {
+            font-family: initial;
+            font-size: var(--font-size-lg);
+            color: var(--near-black);
+        }
+    }
+
     & .signup-section {
         display: flex;
 
@@ -94,11 +114,11 @@
                 margin-bottom: 0;
             }
         }
-        
+
         & a {
             color: var(--blue);
             text-decoration: underline;
-            
+
             &:hover {
                 text-decoration: none;
             }

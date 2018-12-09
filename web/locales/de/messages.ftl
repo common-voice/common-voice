@@ -8,6 +8,8 @@ email-input =
     .label = E-Mail-Adresse
 submit-form-action = Absenden
 loading = Wird geladen…
+email-opt-in-privacy = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung<privacyLink> von Mozilla verarbeitet.
+indicates-required = * Pflichtfeld
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Wird geladen…
 
 ## Languages
 
+ace = Acehnesisch
 an = Aragonesisch
 ar = Arabisch
 as = Assamesisch
 ast = Asturisch
 az = Aserbaidschanisch
+bg = Bulgarisch
 bn = Bengali
 br = Bretonisch
 bxr = Burjatisch
@@ -37,6 +41,8 @@ en = Englisch
 eo = Esperanto
 es = Spanisch
 et = Estnisch
+eu = Baskisch
+fa = Persisch
 fi = Finnisch
 fo = Färöisch
 fr = Französisch
@@ -57,6 +63,7 @@ ko = Koreanisch
 kpv = Komi-Syrjänisch
 kw = Cornish
 ky = Kirgisisch
+mdf = Mokschanisch
 mk = Mazedonisch
 mn = Mongolisch
 myv = Ersjanisch
@@ -68,10 +75,11 @@ oc = Okzitanisch
 or = Odia
 pl = Polnisch
 pt-BR = Portugiesisch (Brasilianisch)
-rm = Rätoromanisch
+rm-sursilv = Surselvisch
 ro = Rumänisch
 ru = Russisch
 sah = Sacha
+sc = Sardisch
 sk = Slowakisch
 sl = Slowenisch
 sq = Albanisch
@@ -111,13 +119,11 @@ share-title = Überzeugen Sie auch andere, ihre Stimme zu spenden!
 share-text = Zeigt Maschinen, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!
 link-copied = Link kopiert
 back-top = Zum Seitenanfang
-contribution-banner-text = Es gibt jetzt eine neue Möglichkeit, mitzuarbeiten
-contribution-banner-button = Ausprobieren
-report-bugs-link = Fehler melden
+logout = Abmelden
 
 ## Home Page
 
-home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll Maschinen beizubringen, wie echte Menschen sprechen.
+home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll, Maschinen beizubringen, wie echte Menschen sprechen.
 home-cta = Mund aufmachen, Projekt unterstützen, mitarbeiten!
 wall-of-text-start = Sprache ist natürlich, Sprache ist menschlich. Deshalb sind wir davon fasziniert, brauchbare Technologien zur Spracherkennung für unsere Geräte zu erschaffen. Allerdings wird zur Entwicklung sprachbasierter Systeme eine sehr große Menge an Aufnahmen von gesprochener Sprache benötigt.
 wall-of-text-more-mobile = Der überwiegende Teil der von großen Unternehmen genutzten Daten ist für die Mehrheit der Menschen jedoch nicht zugänglich. Wir glauben, dass dadurch Innovation unterbunden wird. Aus diesem Grund haben wir das Projekt Common Voice ins Leben gerufen, ein Projekt, das dabei hilft, Spracherkennung für jeden zugänglich zu machen.
@@ -127,18 +133,21 @@ wall-of-text-second = Die meisten Daten, die von großen Unternehmen genutzt wer
 show-wall-of-text = Mehr erfahren
 help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
 help-us-explain = Drücken Sie Play, hören Sie zu & sagen Sie uns: Wurde der folgende Satz korrekt ausgesprochen?
-no-clips-to-validate = Sieht so aus, als gäbe es keine Aufnahmen mehr, die Sie bestätigen könnten. Helfen Sie uns dabei die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
+no-clips-to-validate = Sieht so aus, als gäbe es keine Aufzeichnungen mehr, die Sie bestätigen könnten. Helfen Sie uns dabei die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
 vote-yes = Ja
 vote-no = Nein
 toggle-play-tooltip = Drücken Sie für Play/Stop { shortcut-play-toggle }
 speak-subtitle = Spenden Sie Ihre Stimme
-speak-paragraph = Aufzeichnungen von Sprache sind ein wesentlicher Bestandteil beim Aufbau unseres Datensatzes – für manche sicherlich auch spaßig.
-speak-goal-text = Aufgenommene Clips
-listen-subtitle = Helfen Sie uns, stimmen zu bestätigen
-listen-paragraph = Gespendete Clips zu bestätigen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, quelloffene Stimmdaten in guter Qualität bereitzustellen.
-listen-goal-text = Bestätigte Clips
+speak-paragraph = Stimmen aufzunehmen ist ein wesentlicher Schritt beim Aufbau unseres Datensatzes – manche würden sogar sagen, es ist der, der am meisten Spaß macht.
+speak-goal-text = Aufgenommene Aufzeichnungen
+listen-subtitle = Helfen Sie uns, Stimmen zu bestätigen
+listen-paragraph = Das Bestätigen von Aufzeichnungen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, gemeinfreie Sprachdaten in guter Qualität bereitzustellen.
+listen-goal-text = Bestätigte Aufzeichnungen
 hours-recorded = Aufgenommene Stunden
 hours-validated = Bestätigte Stunden
+voices-online = Sprecher aktuell online
+todays-progress = Heutiger Fortschritt
+help-reach-goal = Helfen Sie uns, { $goal } zu erreichen
 read-terms-q = Haben Sie unsere Nutzungsbedingungen gelesen?
 ready-to-record = Sind Sie bereit, Ihre Stimme zu spenden?
 all-languages = Alle Sprachen
@@ -202,8 +211,6 @@ english = Englisch
 
 ## ProfileForm
 
-profile-form-cancel = Formular schließen
-profile-form-delete = Profil löschen
 profile-form-username =
     .label = Benutzername
 profile-form-language =
@@ -215,47 +222,60 @@ profile-form-age =
 profile-form-gender =
     .label = Geschlecht
 leaderboard-visibility =
-    .label = Sichtbarkeit der Bestenliste
+    .label = Sichtbarkeit in der Bestenliste
+hidden = Versteckt
+visible = Sichtbar
 native-language =
     .label = Muttersprache
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
-profile-keep-data = Daten behalten
-profile-delete-data = Daten löschen
 male = Männlich
 female = Weiblich
 # Gender
 other = Sonstiges
 why-profile-title = Warum ein Profil?
-why-profile-text = Indem Sie uns einige Informationen über sich geben, können die von Ihnen an Common Voice übermittelten Audiodaten besser dazu verwendet werden, die Genauigkeit von Spracherkennungssystemen zu verbessern.
+why-profile-text = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil diese mit den Informationen ihre Genauigkeit erhöhen können.
+dashboard = Übersicht
+build-profile = Profil erstellen
+avatar = Profilbild
+goals = Ziele
+settings = Einstellungen
 edit-profile = Profil bearbeiten
-profile-create = Ein Profil erstellen
 profile-create-success = Geschafft, Profil erstellt!
 profile-close = Schließen
-profile-clear-modal = Wenn Sie Ihre Profildaten löschen, werden Ihre demografischen Informationen nicht mehr zusammen mit Ihren Aufzeichnungen an Common Voice übertragen.
 profile-explanation = Mit einem Profil können Sie Ihren Fortschritt im Auge behalten und unsere Sprachdaten noch genauer machen.
-thanks-for-account = Danke für die Bestätigung Ihres Kontos, jetzt erstellen wir Ihr Profil.
-why-demographic = Warum ist das relevant?
-why-demographic-explanation = Anonymisierte Nutzerangaben wie Alter, Geschlecht und Akzent mit den Tonaufnahmen zu verknüpfen, hilft Entwicklern dabei, die Genauigkeit von Spracherkennungssoftware besser zu trainieren. Ihr Benutzername und Ihre E-Mail-Adresse werden natürlich nicht mit diesen Daten verknüpft. Außerdem können Sie wählen, ob Sie Ihren Benutzernamen öffentlich machen oder lieber anonym bleiben möchten.
+thanks-for-account = Danke für die Bestätigung Ihres Kontos, Sie können jetzt Ihr Profil erstellen.
+why-demographic = Warum sind diese Angaben relevant?
+why-demographic-explanation = Das Verknüpfen von Ihren Aufzeichnungen mit anonymisierten Nutzerangaben wie Alter, Geschlecht und Akzent hilft Entwicklern dabei, die Genauigkeit von Spracherkennungssoftware besser zu trainieren. Ihr Benutzername und Ihre E-Mail-Adresse werden natürlich nicht mit diesen Daten verknüpft und es bleibt Ihnen überlassen, ob Sie Ihren Benutzernamen öffentlich machen oder lieber anonym bleiben möchten.
 keep-me-posted =
     .label = Haltet mich auf dem Laufenden, wenn es was neues bzgl. Common Voice gibt.
 accept-privacy = Ich bin einverstanden, dass diese Daten wie in der <privacyLink>Datenschutzerklärung</privacyLink> beschrieben verwendet werden.
 login-identity = Anmeldeidentität
+login-signup = Anmelden / Registrieren
 edit = Bearbeiten
 email-subscriptions = E-Mail-Abonnements
 download-profile = Meine Daten herunterladen
-contribution-experience = Erfahrung beim Mitmachen
-skip-submission-feedback = Feedback zur Übermittlung überspringen
-skip-submission-description = Beim Mitarbeiten wird das Feedback zu Übermittlung nach dem Klick auf „Übermitteln“ übersprungen. Die Mitarbeit geht direkt mit den nächsten fünf Aufzeichnungen oder Überprüfungen weiter.
-skip-submission-note = Hinweis: Sie müssen trotzdem „Sprechen“ oder „Zuhören“ auswählen, um die Art der Mitwirkung zu ändern.
+contribution-experience = Verhalten von »Mitarbeiten«
+skip-submission-feedback = Feedbackseite überspringen
+skip-submission-description = Beim Mitarbeiten wird nach dem Klick auf »Übermitteln« kein Feedback zu Ihrem Beitrag mehr eingeblendet. Es geht direkt mit den nächsten fünf Aufzeichnungen oder Überprüfungen weiter.
+skip-submission-note = Hinweis: Sie müssen sich weiterhin zwischen »Sprechen« und »Anhören« entscheiden, je nachdem wie Sie mitarbeiten möchten.
 off = Aus
 on = An
+add-avatar-title = Fügen Sie Ihrem Profil ein Bild hinzu
+browse-file-title = Grafikdatei hochladen
+browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
+connect-gravatar = Mit Gravatar verbinden
+gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
+file_too_large = Die ausgewählte Datei ist zu groß
+manage-subscriptions = Abonnements verwalten
+email-already-used = E-Mail-Adresse wird bereits durch ein anderes Konto verwendet
+add-language = Sprache hinzufügen
 
 ## FAQ
 
 faq-title = Häufig gestellte Fragen
 faq-what-q = Was ist Common Voice?
-faq-what-a = Technologien zur Spracherkennung könnten die Art und Weise, wie wir mit Maschinen kommunizieren, revolutionieren, allerdings sind die zur Zeit verfügbaren Systeme teuer und proprietär. Common Voice ist ein Projekt, das darauf abzielt, Technologien zur Spracherkennung für jeden leicht zugänglich zu machen. Menschen fügen ihre Sprachaufnahme einer umfangreichen Datenbank hinzu, die es zukünftig jedem erlaubt, einfach und schnell sprachunterstützte Anwendungen zu trainieren. Alle Sprachaufnahmen stehen Entwicklern vollständig zur Verfügung.
+faq-what-a = Technologien zur Spracherkennung könnten die Art und Weise, wie wir mit Maschinen kommunizieren, revolutionieren, allerdings sind die zur Zeit verfügbaren Systeme teuer und proprietär. Common Voice ist ein Projekt, das darauf abzielt, Technologien zur Spracherkennung für jeden leicht zugänglich zu machen. Menschen fügen ihre Sprachaufnahme einer umfangreichen Datenbank hinzu, die es zukünftig jedem erlaubt, einfach und schnell sprachunterstützte Anwendungen zu trainieren. Alle Sprachdaten stehen Entwicklern vollständig zur Verfügung.
 faq-important-q = Warum ist das wichtig?
 faq-important-a = Sprache ist natürlich, Sprache ist menschlich. Es ist die einfachste und natürlichste Art der Kommunikation. Wir möchten, dass Entwickler in der Lage sind, fantastische Dinge von Übersetzung in Echtzeit bis hin zu sprachgesteuerten Verwaltungsassistenten zu entwickeln. Im Moment stehen jedoch nicht genügend frei zugängliche Daten zur Verfügung, um derartige Anwendungen zu realisieren. Wir hoffen, dass Common Voice Entwicklern das gibt, was sie für derartige Innovationen benötigen.
 faq-get-q = Wie kann ich an die Common-Voice-Daten gelangen?
@@ -274,15 +294,10 @@ faq-source-q = Wo kommen die ursprünglichen Texte her?
 faq-source-a1 = Die aktuellen Sätze wurden von Mitwirkenden beigesteuert, sowie aus Dialogen gemeinfreier Filmdrehbücher wie <italic>It’s a Wonderful Life</italic> entnommen.
 faq-source-a2 = Sie können sich die verwendeten Sätze in <dataLink>diesem GitHub-Ordner</dataLink> ansehen.
 
-## Profile
-
-profile-why-title = Warum ein Profil?
-profile-why-content = Indem Sie einige Informationen über sich bereitstellen, werden die von Ihnen an Common Voice übertragenen Tonaufnahmen für Spracherkennungs-Software nützlicher, da letztere diese Daten zur Verbesserung ihrer Genauigkeit verwenden.
-
 ## NotFound
 
 notfound-title = Nicht gefunden
-notfound-content = Es tut mir leid, ich weiß nicht, wonach Sie suchen.
+notfound-content = Ich fürchte, ich weiß nicht, wonach Sie suchen.
 
 ## Data
 
@@ -306,27 +321,12 @@ data-bundle-button = Datensatz-Set herunterladen
 data-bundle-description = Common-Voice-Daten plus alle anderen, oben erwähnten Sprachdatensätze.
 license = Lizenz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Gemischt
-
-## Record Page
-
-record-platform-not-supported = Es tut uns leid, Ihre Plattform wird derzeit nicht unterstützt.
-record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
-record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
-record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
-record-retry = Erneut versuchen
-record-no-mic-found = Kein Mikrofon gefunden.
-record-error-too-short = Die Aufnahme war zu kurz.
-record-error-too-long = Die Aufnahme war zu lang.
-record-error-too-quiet = Die Aufnahme war zu leise.
-record-submit-success = Übertragung erfolgreich! Aufnehmen wiederholen?
-record-help = Bitte drücken Sie auf Aufnehmen und lesen Sie dann den oberen Satz laut vor.
-record-cancel = Neuaufnahme abbrechen
 review-terms = Durch die Verwendung von Common Voice akzeptieren Sie unsere <termsLink>Nutzungsbedingungen</termsLink> und den <privacyLink>Datenschutzhinweis</privacyLink>.
 terms-agree = Ich stimme zu
 terms-disagree = Ich stimme nicht zu
 review-aborted = Hochladen abgebrochen. Möchten Sie Ihre Tonaufnahmen löschen?
 review-submit-title = Überprüfen & Übertragen
-review-submit-msg = Vielen Dank für die Aufnahme!<lineBreak></lineBreak>Sie können Ihre Mitschnitte nun noch einmal begutachten, bevor Sie sie absenden.
+review-submit-msg = Vielen Dank für die Aufnahme!<lineBreak></lineBreak>Sie können Ihre Aufzeichnungen nun noch einmal begutachten, bevor Sie sie absenden.
 review-recording = Überprüfen
 review-rerecord = Korrigieren
 review-cancel = Absenden abbrechen
@@ -391,6 +391,15 @@ goal-help-recording = Sie haben Common Voice geholfen, <goalPercentage></goalPer
 goal-help-validation = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Bestätigungsziels »{ $goalValue }« zu erreichen!
 contribute-more = Bereit { $count } weitere zu machen?
 record-cta = Aufnehmen
+record-platform-not-supported = Es tut uns leid, Ihre Plattform wird derzeit nicht unterstützt.
+record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
+record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
+record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
+record-no-mic-found = Kein Mikrofon gefunden.
+record-error-too-short = Die Aufnahme war zu kurz.
+record-error-too-long = Die Aufnahme war zu lang.
+record-error-too-quiet = Die Aufnahme war zu leise.
+record-cancel = Neuaufnahme abbrechen
 record-instruction = <recordIcon></recordIcon>{ $actionType } - Lesen Sie den Satz laut vor
 record-stop-instruction = <stopIcon></stopIcon>{ $actionType }, wenn Sie fertig sind
 record-three-more-instruction = Noch drei!
@@ -413,4 +422,45 @@ listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 nothing-to-validate = Es gibt momentan nichts mehr in dieser Sprache, was Sie bestätigen könnten, bitte helfen Sie uns, indem Sie die Warteschlange wieder auffüllen.
 record-button-label = Nehmen Sie Ihre Stimme auf
-share-title-new = <bold>Helfen Sie uns dabei</bold> mehr Stimmen zu finden
+share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
+
+## Goals
+
+streaks = Serien
+days =
+    { $count ->
+        [one] Tag
+       *[other] Tage
+    }
+recordings =
+    { $count ->
+        [one] Aufnahme
+       *[other] Aufnahmen
+    }
+validations =
+    { $count ->
+        [one] Bestätigung
+       *[other] Bestätigungen
+    }
+
+## Dashboard
+
+toward-next-goal = Zum nächsten Ziel
+stats = Statistiken
+you = Sie
+everyone = Alle
+contribution-activity = Aktivität der Mitwirkenden
+top-contributors = Aktivste Mitwirkende
+recorded-clips = Aufgenommene Aufzeichnungen
+validated-clips = Überprüfte Aufzeichnungen
+total-approved = Angenommene Aufzeichnungen
+overall-accuracy = Gesamtgenauigkeit
+
+## Profile Delete
+
+delete-q = Sollen Ihre Stimmaufzeichnungen ebenfalls gelöscht werden, oder wäre es Ihnen lieber, wenn diese im Common-Voice-Datensatz verblieben?
+keep = Erhalten
+remove = Löschen
+keep-info = Ihre anonymen Stimmaufzeichnungen verbleiben im Common-Voice-Datensatz. Nachdem Sie Ihr Profil gelöscht haben, können Sie die Löschung Ihrer Aufzeichnungen aus dem Datensatz nicht mehr beantragen.
+remove-info = Wir werden Ihre Anfrage zur Löschung Ihrer Stimmaufzeichnungen aus dem Datensatz prüfen. Wenn Ihrer Anfrage stattgegeben wird, kontaktieren wir diejenigen, die den Datensatz heruntergeladen haben, und fordern diese auf, Ihre Aufzeichnungen ebenfalls zu entfernen.
+profile-form-delete = Profil löschen

@@ -8,6 +8,8 @@ email-input =
     .label = E-mailadres
 submit-form-action = Yntsjinje
 loading = Lade…
+email-opt-in-privacy = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied<privacyLink>.
+indicates-required = * jout fereaske fjild oan
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Lade…
 
 ## Languages
 
+ace = Atjeehsk
 an = Aragoneesk
 ar = Arabysk
 as = Assameesk
 ast = Asturysk
 az = Azerbeidzjaansk
+bg = Bulgaarsk
 bn = Bingaalsk
 br = Bretonsk
 bxr = Burjatysk
@@ -37,6 +41,8 @@ en = Ingelsk
 eo = Esperanto
 es = Spaansk
 et = Estysk
+eu = Baskysk
+fa = Perzysk
 fi = Finsk
 fo = Fariseesk
 fr = Frânsk
@@ -57,6 +63,7 @@ ko = Koreaansk
 kpv = Kom-Zyrian
 kw = Kornish
 ky = Kirgizysk
+mdf = Moksja
 mk = Masedoanysk
 mn = Mongoalsk
 myv = Erzja
@@ -68,10 +75,11 @@ oc = Okkitaansk
 or = Odia
 pl = Poalsk
 pt-BR = Portugeesk (Braziliaansk)
-rm = Romaansk
+rm-sursilv = Reto-Romaansk Surselvysk
 ro = Roemeensk
 ru = Russysk
 sah = Sakha
+sc = Sardyn
 sk = Slowaaksk
 sl = Sloveensk
 sq = Albaneesk
@@ -111,9 +119,7 @@ share-title = Help ús oaren te finen om harren stim te donearjen!
 share-text = Help mei masinen te learen hoe't echte minsken prate, donearje jo stim op { $link }
 link-copied = Keppeling kopiearre
 back-top = Nei boppe
-contribution-banner-text = Wy hawwe krekt in nije ûnderfining foar meiwurkers lansearre
-contribution-banner-button = Sjoch ris rûn
-report-bugs-link = Rapportearje bugs
+logout = Ofmelde
 
 ## Home Page
 
@@ -149,6 +155,9 @@ listen-paragraph = Falidaasje fan donearre fragminten is krekt sa wichtich as de
 listen-goal-text = Falidearre fragminten
 hours-recorded = Opnommen oeren
 hours-validated = Falidearre oeren
+voices-online = Stimmen no online
+todays-progress = Foarútgong fan hjoed
+help-reach-goal = Help ús { $goal } te berikken
 read-terms-q = Hawwe jo ús Betingsten lêzen?
 ready-to-record = Klear om jo stim te donearjen?
 all-languages = Alle talen
@@ -212,8 +221,6 @@ english = Ingelsk
 
 ## ProfileForm
 
-profile-form-cancel = Formulier ferlitte
-profile-form-delete = Profyl fuortsmite
 profile-form-username =
     .label = Brûkersnamme
 profile-form-language =
@@ -226,23 +233,26 @@ profile-form-gender =
     .label = Geslacht
 leaderboard-visibility =
     .label = Sichtberheid yn ranglist
+hidden = Ferstoppe
+visible = Sichtber
 native-language =
     .label = Memmetaal
 profile-form-submit-save = Bewarje
 profile-form-submit-saved = Bewarre
-profile-keep-data = Gegevens bewarje
-profile-delete-data = Gegevens fuortsmite
 male = Man
 female = Frau
 # Gender
 other = Oars
 why-profile-title = Wêrom in profyl?
 why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
+dashboard = Dashboerd
+build-profile = Profyl opbouwe
+avatar = Avatar
+goals = Doelen
+settings = Ynstellingen
 edit-profile = Profyl bewurkje
-profile-create = Profyl oanmeitsje
 profile-create-success = Profyl mei sukses oanmakke!
 profile-close = Slute
-profile-clear-modal = It wiskjen fan jo profylgegevens betsjut dat dizze demografyske gegevens net mear tegearre mei jo opnamen by Common Voice yntsjinne wurde.
 profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
@@ -251,6 +261,7 @@ keep-me-posted =
     .label = Ik ûntfang graach nijs en wol op de hichte bliuwe fan wat der mei Common Voice bart.
 accept-privacy = Ik gean akkoard mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 login-identity = Oanmeldingsidentiteit
+login-signup = Oanmelde / Registrearje
 edit = Bewurkje
 email-subscriptions = E-mailynskriuwingen
 download-profile = Myn gegevens downloade
@@ -260,6 +271,15 @@ skip-submission-description = Wylst it bydragen wurdt kommentaar oer ynstjoering
 skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Lústerje meitsje om it type bydragen te wizigjen.
 off = Ut
 on = Oan
+add-avatar-title = In avatar oan jo profyl tafoegje
+browse-file-title = In ôfbyldingsbestân oplade
+browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
+connect-gravatar = Mei Gravatar ferbine
+gravatar_not_found = Foar jo e-mailadres waard gjin Gravatar fûn
+file_too_large = It selektearre bestân is te grut
+manage-subscriptions = Abonneminten beheare
+email-already-used = E-mailadres wurdt al foar in oar account brûkt
+add-language = Taal tafoegje
 
 ## FAQ
 
@@ -283,11 +303,6 @@ faq-hours-a = Dit is ûngefear it tal oeren nedich om in produksje-STT-systeem t
 faq-source-q = Wêr komt de boarnetekst fan ôf?
 faq-source-a1 = De aktuele stimmen komme fan donaasjes fan dielnimmers, en ek dialogen út filmskripts fan it publike domein lykas <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Jo kinne ús boarnesinnen besjen yn <dataLink>dizze GitHub-map</dataLink>.
-
-## Profile
-
-profile-why-title = Wêrom in profyl?
-profile-why-content = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
 
 ## NotFound
 
@@ -316,21 +331,6 @@ data-bundle-button = Bondel gegevensset downloade
 data-bundle-description = Common Voice-gegevens plus alle oare boppesteande stimgegevenssets.
 license = Lisinsje: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mikst
-
-## Record Page
-
-record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
-record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
-record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
-record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
-record-retry = Opnij probearje
-record-no-mic-found = Gjin mikrofoan fûn.
-record-error-too-short = De opname wie te koart.
-record-error-too-long = De opname wie te lang.
-record-error-too-quiet = De opname wie te súntsjes
-record-submit-success = Opname suksesfol! Wolle jo noch wat opnimme?
-record-help = Tik om op te nimmen, lês dêrnei de boppesteande sin lûd op.
-record-cancel = Opnij opnimmen annulearje
 review-terms = Troch it brûken fan Common Voice, gean jo akkoard mei ús <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink>
 terms-agree = Ik gean akkoard
 terms-disagree = Ik gean net akkoard
@@ -401,6 +401,15 @@ goal-help-recording = Jo hawwe Common Voice holpen om <goalPercentage></goalPerc
 goal-help-validation = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } falidaasje te beheljen!
 contribute-more = Klear om der noch { $count } te dwaan?
 record-cta = Opname starte
+record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
+record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
+record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
+record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
+record-no-mic-found = Gjin mikrofoan fûn.
+record-error-too-short = De opname wie te koart.
+record-error-too-long = De opname wie te lang.
+record-error-too-quiet = De opname wie te súntsjes
+record-cancel = Opnij opnimmen annulearje
 record-instruction = { $actionType } <recordIcon></recordIcon> en lês de sin dêrnei hurdop
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> as jo klear binne
 record-three-more-instruction = Noch trije te gean!
@@ -424,3 +433,44 @@ listen-last-time-instruction = <playIcon></playIcon> De lêste!
 nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús de rige te foljen.
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
+
+## Goals
+
+streaks = Rigen
+days =
+    { $count ->
+        [one] dei
+       *[other] dagen
+    }
+recordings =
+    { $count ->
+        [one] opname
+       *[other] opnamen
+    }
+validations =
+    { $count ->
+        [one] falidaasje
+       *[other] falidaasjes
+    }
+
+## Dashboard
+
+toward-next-goal = Nei it folgjende doel
+stats = Statistiken
+you = Jo
+everyone = Elkenien
+contribution-activity = Meiwurkersaktiviteit
+top-contributors = Topmeiwurkers
+recorded-clips = Opnommen fragminten
+validated-clips = Falidearre fragminten
+total-approved = Totaal goedkard
+overall-accuracy = Algemiene sekuerens
+
+## Profile Delete
+
+delete-q = Wolle jo ek dat jo stimopnamen fuortsmiten wurde, of wolle jo dizze yn de gegevensset fan Common Voice behâlde?
+keep = Behâlde
+remove = Fuortsmite
+keep-info = Jo anonime stimopnamen bliuwe yn de gegevensset fan Common Voice oanwêzich. Sa gau as jo jo profyl fuortsmite, kinne jo gjin fersyk mear yntsjinje om jo opnamen út de gegevensset fuort te smiten.
+remove-info = Wy sille jo fersyk om jo stimopnamen út de gegevensset fuort te smiten beoardiele. As jo fersyk goedkard wurdt, nimme wy kontakt op mei de partijen dy't de gegevensset download hawwe en freegje wy harren ek jo stimopnamen fuort te smiten.
+profile-form-delete = Profyl fuortsmite

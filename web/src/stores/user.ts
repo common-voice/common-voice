@@ -1,67 +1,35 @@
-import pick = require('lodash.pick');
 import { Dispatch } from 'redux';
-import { createSelector } from 'reselect';
-import { UserClient } from '../../../common/user-clients';
-import { DEFAULT_LOCALE } from '../services/localization';
+import { UserClient } from 'common/user-clients';
 import { generateGUID } from '../utility';
-import { AGES, SEXES } from './demographics';
 import StateTree from './tree';
-
-type Age = keyof typeof AGES;
-type Sex = keyof typeof SEXES;
 
 export namespace User {
   export interface State {
     userId: string;
     email: string;
-    username: string;
     sendEmails: boolean;
-    accent: string;
-    accents?: {
-      [locale: string]: string;
-    };
-    age: Age;
-    gender: Sex;
-    clips: number;
+    hasDownloaded: false;
     privacyAgreed: boolean;
-    hasDownloaded: boolean;
-
     recordTally: number;
     validateTally: number;
 
     userClients: UserClient[];
+    isFetchingAccount: boolean;
     account: UserClient;
-  }
-
-  export interface UpdatableState {
-    email?: string;
-    username?: string;
-    sendEmails?: boolean;
-    accents?: { [locale: string]: string };
-    age?: Age;
-    gender?: Sex;
-    privacyAgreed?: boolean;
-    hasDownloaded?: boolean;
-    userClients?: UserClient[];
-    account?: UserClient;
   }
 
   function getDefaultState(): State {
     return {
       userId: generateGUID(),
-      email: '',
-      username: '',
+      email: null,
       sendEmails: false,
-      accent: '',
-      accents: {},
-      age: '',
-      gender: '',
-      clips: 0,
-      privacyAgreed: false,
       hasDownloaded: false,
+      privacyAgreed: false,
       recordTally: 0,
       validateTally: 0,
+
       userClients: [],
+      isFetchingAccount: true,
       account: null,
     };
   }
@@ -74,7 +42,7 @@ export namespace User {
 
   interface UpdateAction {
     type: ActionType.UPDATE;
-    state: UpdatableState;
+    state: Partial<State>;
   }
 
   interface TallyRecordingAction {
@@ -91,17 +59,10 @@ export namespace User {
     | TallyVerificationAction;
 
   export const actions = {
-    update: (state: UpdatableState) => (
-      dispatch: Dispatch<UpdateAction>,
-      getState: () => StateTree
-    ) => {
-      dispatch({
-        type: ActionType.UPDATE,
-        state,
-      });
-      const { api } = getState();
-      api.syncUser().catch(error => console.log(error));
-    },
+    update: (state: Partial<State>): UpdateAction => ({
+      type: ActionType.UPDATE,
+      state,
+    }),
 
     tallyRecording: (): TallyRecordingAction => ({
       type: ActionType.TALLY_RECORDING,
@@ -111,23 +72,40 @@ export namespace User {
       type: ActionType.TALLY_VERIFICATION,
     }),
 
-    clear: (): UpdateAction => ({
-      type: ActionType.UPDATE,
-      state: getDefaultState(),
-    }),
-
     refresh: () => async (
       dispatch: Dispatch<UpdateAction>,
       getState: () => StateTree
     ) => {
       const { api } = getState();
+      dispatch({
+        type: ActionType.UPDATE,
+        state: { isFetchingAccount: true },
+      });
       const [account, userClients] = await Promise.all([
         api.fetchAccount(),
         api.fetchUserClients(),
       ]);
       dispatch({
         type: ActionType.UPDATE,
-        state: { account, userClients },
+        state: { account, userClients, isFetchingAccount: false },
+      });
+    },
+
+    saveAccount: (data: UserClient) => async (
+      dispatch: Dispatch<UpdateAction>,
+      getState: () => StateTree
+    ) => {
+      const { api } = getState();
+      dispatch({
+        type: ActionType.UPDATE,
+        state: { isFetchingAccount: true },
+      });
+      dispatch({
+        type: ActionType.UPDATE,
+        state: {
+          account: await api.saveAccount(data),
+          isFetchingAccount: false,
+        },
       });
     },
   };
@@ -144,18 +122,7 @@ export namespace User {
         return { ...state, validateTally: state.validateTally + 1 };
 
       default:
-        return {
-          accents: state.accent ? { [DEFAULT_LOCALE]: state.accent } : {},
-          ...state,
-        };
+        return state;
     }
   }
-
-  export const selectors = {
-    hasEnteredInfo: createSelector<State, UpdatableState, boolean>(
-      (state: State) =>
-        pick(state, 'email', 'username', 'accent', 'age', 'gender'),
-      (state: any) => Object.keys(state).some(k => Boolean(state[k]))
-    ),
-  };
 }

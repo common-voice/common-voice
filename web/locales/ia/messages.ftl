@@ -8,6 +8,8 @@ email-input =
     .label = Email
 submit-form-action = Inviar
 loading = Cargamento…
+email-opt-in-privacy = Si ti opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
+indicates-required = * indica un campo obligatori
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Cargamento…
 
 ## Languages
 
+ace = Acehnese
 an = Aragonese
 ar = Arabe
 as = Assamese
 ast = Asturiano
 az = Azerbaijano
+bg = Bulgaro
 bn = Bengali
 br = Breton
 bxr = Buriato
@@ -37,6 +41,8 @@ en = Anglese
 eo = Esperanto
 es = Espaniol
 et = Estoniano
+eu = Basco
+fa = Persiano
 fi = Finnese
 fo = Faroese
 fr = Francese
@@ -57,6 +63,7 @@ ko = Coreano
 kpv = Komi-Zyriano
 kw = Cornico
 ky = Kirghiso
+mdf = Moksha
 mk = Macedonio
 mn = Mongol
 myv = Erzya
@@ -68,10 +75,11 @@ oc = Occitano
 or = Odia
 pl = Polonese
 pt-BR = Portugese (Brasil)
-rm = Romancio
+rm-sursilv = Romansh Sursilvan
 ro = Romaniano
 ru = Russo
 sah = Sakha
+sc = Sardo
 sk = Slovaco
 sl = Sloveno
 sq = Albanese
@@ -111,9 +119,7 @@ share-title = Adjuta nos a trovar alteres pro donar lor voce!
 share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
 link-copied = Ligamine copiate
 back-top = Receder al initio
-contribution-banner-text = Nos ha a pena lanceate un nove experientia de contribution
-contribution-banner-button = Da un reguardo
-report-bugs-link = Adjuta a reportar defectos
+logout = Disconnexion
 
 ## Home Page
 
@@ -139,6 +145,9 @@ listen-paragraph = Le validation del retalios vocal donate es equalmente importa
 listen-goal-text = Clips validate
 hours-recorded = Horas registrate
 hours-validated = Horas validate
+voices-online = Voces actualmente online
+todays-progress = Progressos hodierne
+help-reach-goal = Adjuta nos a obtener { $goal }
 read-terms-q = Ha tu legite nostre terminos de uso?
 ready-to-record = Es tu preste a donar tu voce?
 all-languages = Tote le linguas
@@ -202,8 +211,6 @@ english = anglese
 
 ## ProfileForm
 
-profile-form-cancel = Exir del formulario
-profile-form-delete = Deler le profilo
 profile-form-username =
     .label = Nomine de usator
 profile-form-language =
@@ -216,23 +223,26 @@ profile-form-gender =
     .label = Genere
 leaderboard-visibility =
     .label = Visibilitate in le tabula de classification
+hidden = Celate
+visible = Visibile
 native-language =
     .label = Lingua native
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvate
-profile-keep-data = Retener le datos
-profile-delete-data = Deler le datos
 male = Viro
 female = Femina
 # Gender
 other = Altero
 why-profile-title = Perque un profilo?
 why-profile-text = Per fornir alcun informationes circa te mesme, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
+dashboard = Quadro de controlo
+build-profile = Crear le profilo
+avatar = Avatar
+goals = Propositos
+settings = Parametros
 edit-profile = Rediger le profilo
-profile-create = Crear un profilo
 profile-create-success = Profilo create con successo
 profile-close = Clauder
-profile-clear-modal = Clarar tu datos de profilo significa que iste informationes demographic non sera plus inviate a Common Voice con le registrationes de tu clip.
 profile-explanation = Mantene tracia de tu progresso con un profilo e adjuta nostre datos de voce a ser plus accurate.
 thanks-for-account = Gratias pro le confirma de tu conto, ora que nos crea tu profilo.
 why-demographic = Perque isto es relevante?
@@ -241,6 +251,7 @@ keep-me-posted =
     .label = Io amarea saper le actualisationes e mantener me al currente con lo que eveni a Common Voice.
 accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 login-identity = Identitate de connexion
+login-signup = Connecter se / Registrar se
 edit = Editar
 email-subscriptions = Subscriptiones de email
 download-profile = Discargar mi datos
@@ -250,6 +261,15 @@ skip-submission-description = Durante le invio del contribution essera ignorate 
 skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pro cambiar typo de contribution.
 off = Inactive
 on = Activar
+add-avatar-title = Adde un avatar a tu profilo
+browse-file-title = Carga un file imagine
+browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
+connect-gravatar = Connecter con Gravatar
+gravatar_not_found = Nulle gravatar trovate pro tu email
+file_too_large = Le file seligite es troppo grande
+manage-subscriptions = Gerer le subscriptiones
+email-already-used = Iste email es jam utilisate pro un conto differente
+add-language = Adder un lingua
 
 ## FAQ
 
@@ -273,11 +293,6 @@ faq-hours-a = Isto es circa le numero del horas requirite pro maestrar un system
 faq-source-q = De ubi veni le texto fonte?
 faq-source-a1 = Le phrases actual veni ab le donationes de collaboratores, tam ben como dialogos ex scriptos de pelliculas de dominio public como <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Tu pote vider nostre phrases fonte in <dataLink>iste dossier GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = Perque un profilo?
-profile-why-content = Per fornir alcun informationes circa te mesme, le datos de audio que tu invia pro Common Voice essera plus utile pro motores de recognition de voce que usa iste datos pro meliorar lor precision.
 
 ## NotFound
 
@@ -306,21 +321,6 @@ data-bundle-button = Discargar le pacco del collection de datos
 data-bundle-description = Le datos de Common Voice plus tote le altere collectiones de datos vocal precedente.
 license = Licentia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
-
-## Record Page
-
-record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
-record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:
-record-platform-not-supported-ios = Le usatores de <bold>iOS</bold> pote discargar nostre application gratuite:
-record-must-allow-microphone = Tu debe permitter le accesso al microphono
-record-retry = Reproba
-record-no-mic-found = Nulle microphono trovate
-record-error-too-short = Le registration era troppo breve.
-record-error-too-long = Le registration era troppo longe.
-record-error-too-quiet = Le registration era troppo quiete.
-record-submit-success = Successo del invio! Vole tu registrar ancora?
-record-help = Per favor tocca pro registrar, pois lege in alte voce le phrase de supra.
-record-cancel = Cancellar le re-registration
 review-terms = Al usar Common Voice, tu accepta nostre <termsLink>Terminos de uso</termsLink> e le <privacyLink>Politica de confidentialitate</privacyLink>
 terms-agree = Io accepta
 terms-disagree = Io non accepta
@@ -395,6 +395,15 @@ contribute-more =
        *[other] Preste a facer { $count } plus?
     }
 record-cta = Initiar a registrar
+record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
+record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:
+record-platform-not-supported-ios = Le usatores de <bold>iOS</bold> pote discargar nostre application gratuite:
+record-must-allow-microphone = Tu debe permitter le accesso al microphono
+record-no-mic-found = Nulle microphono trovate
+record-error-too-short = Le registration era troppo breve.
+record-error-too-long = Le registration era troppo longe.
+record-error-too-quiet = Le registration era troppo quiete.
+record-cancel = Cancellar le re-registration
 record-instruction = { $actionType }<recordIcon></recordIcon> pois lege le phrase in alte voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando facite
 record-three-more-instruction = Ancora tres!
@@ -418,3 +427,39 @@ listen-last-time-instruction = <playIcon></playIcon>Ultimo!
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
 record-button-label = Registra tu voce
 share-title-new = <bold>Adiuta nos</bold> a trovar altere voces
+
+## Goals
+
+streaks = Tracias
+days =
+    { $count ->
+        [one] Die
+       *[other] Dies
+    }
+recordings =
+    { $count ->
+        [one] Registration
+       *[other] Registrationes
+    }
+validations =
+    { $count ->
+        [one] Validation
+       *[other] Validationes
+    }
+
+## Dashboard
+
+toward-next-goal = Verso le proxime objectivo
+stats = Statistica
+you = Tu
+everyone = Totes
+contribution-activity = Activate de collaboration
+top-contributors = Principal collaboratores
+total-approved = Total approbate
+overall-accuracy = Precision general
+
+## Profile Delete
+
+keep = Retener
+remove = Remover
+profile-form-delete = Deler le profilo

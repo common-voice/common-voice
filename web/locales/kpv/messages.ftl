@@ -12,6 +12,7 @@ submit-form-action = Ысты
 
 ## Languages
 
+ace = Ачех кыв
 an = Арагон кыв
 ar = Араб кыв
 as = Ассам кыв
@@ -22,6 +23,7 @@ br = Брезон кыв
 bxr = Бурят кыв
 ca = Каталан кыв
 cak = Какчикель кыв
+cnh = Хака чин кыв
 cs = Чех кыв
 cv = Чуваш кыв
 cy = Кӧмри кыв
@@ -32,6 +34,7 @@ en = Англи кыв
 eo = эсперанто кыв
 es = Испан кыв
 et = Эст кыв
+fa = Фарси кыв
 fi = Суоми кыв
 fo = Фарер кыв
 fr = Франсуз кыв
@@ -52,16 +55,19 @@ ko = Корея кыв
 kpv = Коми кыв
 kw = Керновса кыв
 ky = Кыргыз кыв
+mdf = Мокша кыв
 mk = Македон кыв
+mn = Монгол кыв
 myv = Эрзя кыв
 nb-NO = Норвег кыв (букмол)
 ne-NP = Непал кыв
 nl = Нидерланд кыв
 nn-NO = Норвег кыв (нюношк)
+oc = Окситан кыв
 or = Одиа кыв
 pl = Поляк кыв
 pt-BR = Португал кыв (Бразилия)
-rm = Романш кыв
+rm-sursilv = Сурселваса Романш
 ro = Румын кыв
 ru = Роч кыв
 sah = Саха кыв
@@ -78,7 +84,9 @@ tt = Тотара кыв
 uk = Украин кыв
 ur = Урду кыв
 uz = Узбек кыв
+vi = Виет кыв
 zh-CN = Китай кыв (Китай)
+zh-HK = Китай кыв (Гонконг)
 zh-TW = Китай кыв (Тайвань)
 
 # [/]
@@ -88,16 +96,20 @@ zh-TW = Китай кыв (Тайвань)
 
 speak = Сёрнит
 speak-now = Сёрнит ӧні
+datasets = Датасетъяс
 languages = Кывъяс
 profile = Профиль
 help = Отсӧг
 contact = Йитӧд
 privacy = Арабӧн
 terms = Удж тэчан ног
+cookies = Кукияс
 content-license-text = Материал восьтӧма <licenseLink>Creative Commons</licenseLink> лицензия подув вылын.
+share-title = Отсав миянӧс аддзыны мӧдъяс медым сетны аслысь гор.
 link-copied = Ыстӧд копируйтӧма
 back-top = Косны
 contribution-banner-button = Видзӧдышт
+report-bugs-link = Отсав репортируйтны бугъяс
 
 ## Home Page
 
@@ -112,6 +124,7 @@ listen-subtitle = Отсав миянлы видлавны шыяс.
 listen-goal-text = Аудио юкӧнъяс видлалӧма.
 hours-recorded = Часъяс гижӧма
 hours-validated = Часъяс видлалӧма.
+read-terms-q = Ті лыддинныд нин миян Сёрнитчӧмнымӧс?
 ready-to-record = Дась сетны ас гор?
 all-languages = Став кывъяс
 today = Талун
@@ -131,6 +144,13 @@ request-language-button = Сет корӧм кыв вылӧ
 
 ## ProjectStatus
 
+status-title = Видзӧдлы проектлысь статус: кымын вӧчӧма нин!
+status-contribute = Пырт ассьыд гор
+status-hours =
+    { $hours ->
+        [one] Ӧтик час нин видлӧма!
+       *[other] { $hours } час нин видлӧма!
+    }
 english = Англискӧйӧн
 
 ## ProfileForm
@@ -146,17 +166,28 @@ profile-form-age =
     .label = Арлыд
 profile-form-gender =
     .label = Пӧв
+native-language =
+    .label = Чужан кыв
 profile-form-submit-save = Видз
 profile-form-submit-saved = Видзӧма
+profile-keep-data = Коль даннӧйяс
+profile-delete-data = Чышкы даннӧйяс
 male = ай
 female = энь
 # Gender
-other = Мӧд
+other = Мукӧд
 why-profile-title = Мыйла ас листбок?
+why-profile-text = Сетан кӧ ас йывсьыд информация, аудио юӧръяс, кодӧс сетан Common Voice вылӧ, ёнджыка отсалӧ Сёрни Гӧгӧрвоан системаяслы, кодъяс вӧдитчыны тайӧ юӧръясӧн медым бурмӧдны налысь стӧчлунсӧ.
 edit-profile = Пырт вежсьӧмъяс ас листбокӧ
 profile-create = Вӧч ас листбок
 profile-create-success = Артмис вӧчны ас листбок!
 profile-close = Пӧдлав
+why-demographic = Мыйла тайӧ колӧ?
+edit = Веж
+email-subscriptions = Email гижӧдчӧм
+download-profile = Босьт датаӧй
+off = Кусӧдны
+on = Ӧзтыны
 
 ## FAQ
 
@@ -166,6 +197,9 @@ faq-important-q = Мыйля сійӧ колана?
 faq-get-q = Кыдз ме верма пай пуктыны Common Voice вылӧ?
 faq-mission-q = Муйла Common Voice пырӧ Mozillaлӧн уджӧ?
 faq-quality-q = Кутшӧм тшупӧд вылын аудиолы колӧ лоны медым сійӧс позьӧ вӧдитчыны?
+faq-hours-q = Мыйла колӧ чукӧртны 10 000 час аудио юӧръяс?
+faq-hours-a = Та мында кымын час колӧ медым велӧдны бура уджавны Сёрни Гӧгӧрвоан система.
+faq-source-q = Кытысь босьтӧма гижӧдъяс?
 
 ## Profile
 
@@ -174,17 +208,25 @@ profile-why-title = Мыйла ас листбок?
 ## NotFound
 
 notfound-title = Эз аддзы
+notfound-content = Ме пола мый ог гӧгӧрво мый ті корсянныд.
 
 ## Data
 
+data-download-button = Босьтны Common Voice юӧр.
 data-download-yes = Да
 data-download-deny = Ог
 data-download-license = Лисенция: <licenseLink>CC-0</licenseLink>
+data-get-started = Пондыны уджавны Сёрни Гӧгӧрвоан системаӧн.
+data-other-title = Мукӧд аудио юӧръяс.
 data-other-goto = Мун { $name } вылӧ
+data-other-download = Босьт дата
 data-other-ted-name = TED-LIUM корпус
+license = Сёрнитчӧм: <licenseLink>{ $license }</licenseLink>
+license-mixed = Гудралӧм
 
 ## Record Page
 
+record-platform-not-supported = Тэнад платформ оз на лӧсяв.
 record-retry = Видлы выльысь
 record-no-mic-found = Микрофон абу аддзӧма.
 record-error-too-short = Гижӧд вывти дзеньыд.
@@ -232,7 +274,10 @@ listen = Кывзы
 skip = Вуджӧм
 shortcuts = Дзеньдӧдӧмъяс
 record-cta = Заводит гижны
+record-three-more-instruction = Нӧшта куим!
 record-last-instruction = Медбӧръя!
+unable-speak = Он вермы ӧні сёрнитны?
+clips-uploaded = Аудио клипъяс ыстӧма
 record-abort-continue = Дугды гижны
 listen-last-time-instruction = Медбӧръя!
 record-button-label = Гиж тэнад гор

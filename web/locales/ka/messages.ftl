@@ -8,6 +8,8 @@ email-input =
     .label = ელფოსტა
 submit-form-action = გადაგზავნა
 loading = იტვირთება...
+email-opt-in-privacy = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არაფერი გაქვთ საწინააღმდეგო, Mozilla-მ ეს მონაცემები გამოიყენოს, <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
+indicates-required = * მიუთითებს აუცილებელ ველს
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = იტვირთება...
 
 ## Languages
 
+ace = აჩეხური
 an = არაგონული
 ar = არაბული
 as = ასამური
 ast = ასტურიული
 az = აზერბაიჯანული
+bg = ბულგარული
 bn = ბენგალური
 br = ბრეტონური
 bxr = ბურიატული
@@ -37,6 +41,8 @@ en = ინგლისური
 eo = ესპერანტო
 es = ესპანური
 et = ესტონური
+eu = ბასკური
+fa = სპარსული
 fi = ფინური
 fo = ფაროეული
 fr = ფრანგული
@@ -57,6 +63,7 @@ ko = კორეული
 kpv = კომი
 kw = კორნული
 ky = ყირგიზული
+mdf = მოკშა
 mk = მაკედონური
 mn = მონღოლური
 myv = ერზიანული
@@ -68,10 +75,11 @@ oc = ოქსიტანური
 or = ორია
 pl = პოლონური
 pt-BR = პორტუგალიური (ბრაზილია)
-rm = რომანული
+rm-sursilv = რეტორომანული სურსირვანული
 ro = რუმინული
 ru = რუსული
 sah = სახა
+sc = სარდინიული
 sk = სლოვაკური
 sl = სლოვენური
 sq = ალბანური
@@ -109,11 +117,9 @@ faq = ხ.დ.კ.
 content-license-text = მასალა ხელმისაწვდომია <licenseLink>Creative Commons ლიცენზიით</licenseLink>
 share-title = დაგვეხმარეთ ხალხის მოძიებაში, რომლებიც შემოგვწირავენ თავიანთ ხმას!
 share-text = დაგვეხმარეთ, რომ შევასწავლოთ მანქანებს, თუ როგორ საუბრობენ ადამიანები, მოგვაწოდეთ თქვენი ხმის ჩანაწერები შემოწირულობის სახით { $link }
-link-copied = ბმული დაკოპირებულია
+link-copied = ბმულის ასლი აღებულია
 back-top = დასაწყისში დაბრუნება
-contribution-banner-text = ჩვენ ეს-ესაა გავუშვით ახალი შესაძლებლობა მოხალისეებისთვის
-contribution-banner-button = გადახედეთ
-report-bugs-link = დაგვეხმარეთ ხარვეზების აღმოჩენაში
+logout = გასვლა
 
 ## Home Page
 
@@ -139,8 +145,11 @@ speak-goal-text = ჩანაწერები გაკეთებული�
 listen-subtitle = დაგვეხმარეთ ჩანაწერების გადამოწმებაში
 listen-paragraph = ჩანაწერების გადამოწმება ასევე მეტად მნიშვნელოვანია, Common Voice-ის მთავარი მიზნის შესრულებისთვის. მოუსმინეთ და დაგვეხმარეთ ხარისხიანი ღია წყაროს მქონე ხმოვანი მონაცემების შექმნაში.
 listen-goal-text = ჩანაწერები გადამოწმებულია
-hours-recorded = სთ ჩაწერილია
-hours-validated = სთ დამოწმებულია
+hours-recorded = ჩაწერილი საათები
+hours-validated = დამოწმებული საათები
+voices-online = ახლა მიმდინარე ჩაწერები
+todays-progress = დღევანდელი წინსვლა
+help-reach-goal = დაგვეხმარეთ { $goal } მიზნის შესრულებაში
 read-terms-q = გაეცანით ჩვენს პირობებს?
 ready-to-record = მზად ხართ, მოგვაწოდოთ თქვენი ხმის ჩანაწერი?
 all-languages = ყველა ენა
@@ -204,8 +213,6 @@ english = ინგლისური
 
 ## ProfileForm
 
-profile-form-cancel = დახურვა
-profile-form-delete = პროფილის წაშლა
 profile-form-username =
     .label = მომხმარებლის სახელი
 profile-form-language =
@@ -218,23 +225,26 @@ profile-form-gender =
     .label = სქესი
 leaderboard-visibility =
     .label = მიმომხილველთა ჩამონათვალში ჩვენება
+hidden = დამალული
+visible = ხილული
 native-language =
     .label = მშობლიური ენა
 profile-form-submit-save = შენახვა
 profile-form-submit-saved = შენახულია
-profile-keep-data = მონაცემების დატოვება
-profile-delete-data = მონაცემების წაშლა
 male = მამრობითი
 female = მდედრობითი
 # Gender
 other = სხვა
 why-profile-title = რა საჭიროა პროფილი?
 why-profile-text = თქვენ შესახებ გარკვეული ინფორმაციის მოწოდებით, თქვენ მიერ გადმოგზავნილი ჩანაწერები Common Voice-ში, მეტად გამოსადეგი იქნება იმ ხმოვანი ამოცნობის სისტემებისთვის, რომლებიც ამ მონაცემებს სიზუსტის გასაუმჯობესებლად იყენებს.
+dashboard = მონაცემების გვერდი
+build-profile = პროფილის შექმნა
+avatar = გამოსახულება
+goals = მიზანი
+settings = პარამეტრები
 edit-profile = პროფილის ჩასწორება
-profile-create = პროფილის შექმნა
 profile-create-success = პროფილი წარმატებით შეიქმნა!
 profile-close = დახურვა
-profile-clear-modal = პროფილის მონაცემების გასუფთავების შედეგად, თქვენი შესახებ მითითებული მონაცემები აღარ გადაიგზავნება Common Voice-ში, თქვენს ხმოვან ჩანაწერთან ერთად.
 profile-explanation = თვალი ადევნეთ თქვენ მიერ შეტანილ წვლილსა და დაგვეხმარეთ ხმოვანი მონაცემების სიზუსტის გაუმჯობესებაში, პროფილის შექმნით.
 thanks-for-account = გმადლობთ ანგარიშის დამოწმებისთვის, ახლა კი შეგიძლიათ დაიწყოთ პროფილის შედგენა.
 why-demographic = რისთვისაა ეს საჭირო?
@@ -243,6 +253,7 @@ keep-me-posted =
     .label = მსურს განახლებების მიღება, Common Voice-სთან დაკავშირებული ამბებისთვის თვალის მისადევნებლად.
 accept-privacy = თანახმა ვარ, რომ Mozilla-მ ჩემი მონაცემები გამოიყენოს, <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
 login-identity = შესვლის ანგარიში
+login-signup = შესვლა / რეგისტრაცია
 edit = ჩასწორება
 email-subscriptions = გამოწერები ელფოსტით
 download-profile = ჩემი მონაცემების ჩამოტვირთვა
@@ -252,6 +263,15 @@ skip-submission-description = წვლილის შეტანისას 
 skip-submission-note = შენიშვნა: თქვენ მაინც უნდა მიუთითოთ ჩაწერასა და მოსმენას შორის რომელიმე, იმისდა მიხედვით, თუ რა სახის წვლილის შეტანა გსურთ.
 off = გამორთ.
 on = ჩართ.
+add-avatar-title = პროფილზე გამოსახულების დამატება
+browse-file-title = ატვირთეთ სურათის ფაილი
+browse-file = გადმოიტანეთ და მოათავსეთ ან <browseWrap>მოიძიეთ</browseWrap>
+connect-gravatar = Gravatar-თან დაკავშირება
+gravatar_not_found = თქვენი ელფოსტისთვის არ არის ნაპოვნი gravatar
+file_too_large = შერჩეული ფაილი ზედმეტად დიდია
+manage-subscriptions = გამოწერების მართვა
+email-already-used = ელფოსტა უკვე გამოყენებულია სხვა ანგარიშზე
+add-language = ენის დამატება
 
 ## FAQ
 
@@ -275,11 +295,6 @@ faq-hours-a = ესაა მიახლოებითი ოდენობ�
 faq-source-q = მოცემული ტექსტები საიდანაა აღებული?
 faq-source-a1 = წინადადებები მოგვაწოდეს მოხალისეებმა, ასევე გამოყენებულია საუბრის მონაკვეთები, საყოველთაო საკუთრებაში არსებული ფილმებიდან, როგორიცაა მაგალითად <italic>„ეს მშვენიერი ცხოვრება“.</italic>
 faq-source-a2 = მოცემული წინადადებების წყაროები, შეგიძლიათ იხილოთ ჩვენს <dataLink>GitHub საქაღალდეში</dataLink>.
-
-## Profile
-
-profile-why-title = რა საჭიროა პროფილი?
-profile-why-content = თქვენ შესახებ გარკვეული ინფორმაციის მოწოდებით, თქვენ მიერ გადმოგზავნილი ჩანაწერები Common Voice-ში, მეტად გამოსადეგი იქნება იმ ხმოვანი ამოცნობის სისტემებისთვის, რომლებიც ამ მონაცემებს სიზუსტის გასაუმჯობესებლად იყენებს.
 
 ## NotFound
 
@@ -308,21 +323,6 @@ data-bundle-button = მონაცემთა კრებულის ჩა
 data-bundle-description = Common Voice მონაცემებს დამატებული, ზემოთ მოცემული ხმოვან მონაცემთა ყველა სხვა კრებული.
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = შერეული
-
-## Record Page
-
-record-platform-not-supported = სამწუხაროდ, თქვენი სისტემა ამჟამად არაა მხარდაჭერილი.
-record-platform-not-supported-desktop = სამაგიდო კომპიუტერებზე, შეგიძლიათ ჩამოტვირთოთ უახლესი:
-record-platform-not-supported-ios = <bold>iOS</bold> მომხმარებლებს შეუძლიათ ჩამოტვირთონ ჩვენი უფასო პროგრამა:
-record-must-allow-microphone = საჭიროა მიკროფონთან წვდომის დაშვება.
-record-retry = ხელახლა
-record-no-mic-found = მიკროფონი ვერ მოიძებნა.
-record-error-too-short = ჩანაწერი ზედმეტად მოკლე იყო.
-record-error-too-long = ჩანაწერი ზედმეტად გრძელი იყო.
-record-error-too-quiet = ჩანაწერი ზედმეტად ხმადაბალი იყო.
-record-submit-success = წარმატებით გადაიგზავნა! გსურთ კვლავ ჩაწერა?
-record-help = გთხოვთ, დააჭიროთ ჩაწერას და შემდეგ, ხმამაღლა წაიკითხოთ ზემოთ მოცემული წინადადება.
-record-cancel = ჩაწერის გაუქმება
 review-terms = Common Voice-ის გამოყენებით, ეთანხმებით ჩვენს <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
 terms-agree = ვეთანხმები
 terms-disagree = არ ვეთანხმები
@@ -393,6 +393,15 @@ goal-help-recording = თქვენ დაეხმარეთ Common Voice-�
 goal-help-validation = თქვენ დაეხმარეთ Common Voice-ს, შემოწმების დღიური მიზნის ({ $goalType }) <goalPercentage></goalPercentage>-ის შესრულებაში!
 contribute-more = მზად ხართ შეასრულოთ კიდევ { $count }?
 record-cta = ჩაწერის დაწყება
+record-platform-not-supported = სამწუხაროდ, თქვენი სისტემა ამჟამად არაა მხარდაჭერილი.
+record-platform-not-supported-desktop = სამაგიდო კომპიუტერებზე, შეგიძლიათ ჩამოტვირთოთ უახლესი:
+record-platform-not-supported-ios = <bold>iOS</bold> მომხმარებლებს შეუძლიათ ჩამოტვირთონ ჩვენი უფასო პროგრამა:
+record-must-allow-microphone = საჭიროა მიკროფონთან წვდომის დაშვება.
+record-no-mic-found = მიკროფონი ვერ მოიძებნა.
+record-error-too-short = ჩანაწერი ზედმეტად მოკლე იყო.
+record-error-too-long = ჩანაწერი ზედმეტად გრძელი იყო.
+record-error-too-quiet = ჩანაწერი ზედმეტად ხმადაბალი იყო.
+record-cancel = ჩაწერის გაუქმება
 record-instruction = { $actionType } <recordIcon></recordIcon> ღილაკს და შემდეგ წაიკითხეთ წინადადება ხმამაღლა
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> ღილაკს როცა დაასრულებთ
 record-three-more-instruction = სამიღაა დარენილი!
@@ -416,3 +425,44 @@ listen-last-time-instruction = <playIcon></playIcon> ბოლო!
 nothing-to-validate = ამ ენაზე შესამოწმებელი არაფერია, დაგვეხმარეთ მასალების შევსებაში.
 record-button-label = ჩაწერეთ თქვენი ხმა
 share-title-new = <bold>დაგვეხმარეთ</bold> ხმების მოძიებაში
+
+## Goals
+
+streaks = წვლილი
+days =
+    { $count ->
+        [one] დღე
+       *[other] დღე
+    }
+recordings =
+    { $count ->
+        [one] ჩანაწერი
+       *[other] ჩანაწერი
+    }
+validations =
+    { $count ->
+        [one] დამოწმება
+       *[other] დამოწმება
+    }
+
+## Dashboard
+
+toward-next-goal = პირდაპირ შემდეგ მიზნამდე
+stats = სტატისტიკა
+you = თქვენ
+everyone = ყველა
+contribution-activity = შეტანილი წვლილი
+top-contributors = მხურვალე მოხალისეები
+recorded-clips = ჩანაწერები
+validated-clips = დამოწმებული ჩანაწერები
+total-approved = სულ დამოწმებული
+overall-accuracy = საერთო სიზუსტე
+
+## Profile Delete
+
+delete-q = გსურთ, რომ თქვენი ხმის ჩანაწერებიც წაიშალოს, თუ ამჯობინებთ მათ დატოვებას Common Voice-ის მონაცემთა კრებულში?
+keep = დატოვება
+remove = მოცილება
+keep-info = თქვენი ხმოვანი ჩანაწერები, ვინაობის მონაცემების გარეშე დარჩება Common Voice-ის მონაცემთა კრებულში. პროფილის წაშლის შემდეგ, აღარ შეგეძლებათ თქვენი ჩანაწერების კრებულიდან მოცილების მოთხოვნა.
+remove-info = ჩვენ გადავხედავთ თქვენს მოთხოვნას ხმის ჩანაწერების კრებულიდან მოცილების თაობაზე. თუ თქვენი მოთხოვნა დადასტურდება, ჩვენ დავუკავშირდებით მათ, ვინც უკვე ჩამოტვირთა ეს მონაცემთა კრებული და მათაც მოვთხოვთ ამოშალონ თქვენი ჩანაწერები.
+profile-form-delete = პროფილის წაშლა

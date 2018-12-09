@@ -15,11 +15,13 @@ loading = Carregando…
 
 ## Languages
 
+ace = Achinês
 an = Aragonês
 ar = Árabe
 as = Assamês
 ast = Asturiano
 az = Azerbaidjano
+bg = Búlgaro
 bn = Bengalês
 br = Bretão
 bxr = Buriato
@@ -37,6 +39,8 @@ en = Inglês
 eo = Esperanto
 es = Espanhol
 et = Estoniano
+eu = Basco
+fa = Persa
 fi = Finlandês
 fo = Feroês
 fr = Francês
@@ -57,19 +61,22 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
 ky = Quirguiz
+mdf = Moksha
 mk = Macedônio
+mn = Mongol
 myv = Erzya
 nb-NO = Norueguês (Bokmål)
 ne-NP = Nepalês
 nl = Holandês
 nn-NO = Novo norueguês
+oc = Occitânico
 or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
-rm = Romanche
 ro = Romeno
 ru = Russo
 sah = Sakha
+sc = Sardo
 sk = Eslovaco
 sl = Esloveno
 sq = Albanês
@@ -83,6 +90,7 @@ tt = Tártaro
 uk = Ucraniano
 ur = Urdu
 uz = Usbeque
+vi = Vietnamita
 zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
@@ -108,9 +116,7 @@ share-title = Ajude-nos a encontrar outros doadores de voz!
 share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz em { $link }
 link-copied = Link copiado
 back-top = Voltar para o início
-contribution-banner-text = Lançamos uma nova experiência para contribuição
-contribution-banner-button = Dê uma olhada
-report-bugs-link = Ajude reportando problemas
+logout = Sair
 
 ## Home Page
 
@@ -126,6 +132,31 @@ no-clips-to-validate = Parece que não há nenhuma frase para ouvir nesse idioma
 vote-yes = Sim
 vote-no = Não
 toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o modo de reprodução
+speak-subtitle = Doe sua voz
+speak-goal-text = Clipes gravados
+listen-subtitle = Nos ajude a validar vozes
+listen-goal-text = Clipes validados
+hours-recorded = Horas gravadas
+hours-validated = Horas validadas
+read-terms-q = Você leu nossos Termos?
+ready-to-record = Pronto para doar sua voz?
+all-languages = Todos os idiomas
+today = Hoje
+x-weeks-short =
+    { $count ->
+        [one] semana
+       *[other] { $count } semanas
+    }
+x-months-short =
+    { $count ->
+        [one] mês
+       *[other] { $count } meses
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } ano
+       *[other] { $count } anos
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -170,8 +201,6 @@ english = Inglês
 
 ## ProfileForm
 
-profile-form-cancel = Sair do formulário
-profile-form-delete = Excluir perfil
 profile-form-username =
     .label = Usuário
 profile-form-language =
@@ -182,22 +211,44 @@ profile-form-age =
     .label = Idade
 profile-form-gender =
     .label = Gênero
+leaderboard-visibility =
+    .label = Visibilidade do quadro de líderes
+hidden = Oculto
+visible = Visível
+native-language =
+    .label = Idioma nativo
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
-profile-keep-data = Manter dados
-profile-delete-data = Excluir dados
 male = Masculino
 female = Feminino
 # Gender
 other = Outro
 why-profile-title = Por que um perfil?
 why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviou ao Common Voice serão mais úteis aos mecanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
+dashboard = Painel
+avatar = Avatar
+goals = Objetivos
+settings = Configurações
 edit-profile = Editar perfil
-profile-create = Criar um perfil
 profile-create-success = Perfil criado com sucesso!
 profile-close = Fechar
-profile-clear-modal = Limpar seus dados de perfil significa que esta informação demográfica não será mais enviada ao Common Voice com suas gravações.
 profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gravações sejam cada vez mais precisas.
+thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir seu perfil.
+why-demographic = Por que isto é importante?
+login-identity = Identidade de acesso
+login-signup = Entrar / Inscrever-se
+edit = Editar
+email-subscriptions = Inscrições de e-mails
+download-profile = Baixar meus dados
+contribution-experience = Experiência de colaboração
+skip-submission-feedback = Ignorar comentários de envio
+off = Desligar
+on = Ligar
+connect-gravatar = Conectar com Gravatar
+gravatar_not_found = Não foi encontrado um Gravatar para seu email
+file_too_large = O arquivo selecionado é grande demais
+manage-subscriptions = Gerenciar inscrições
+email-already-used = Este e-mail já está sendo usado em uma conta diferente
 
 ## FAQ
 
@@ -220,12 +271,7 @@ faq-hours-q = Por que o objetivo é capturar 10,000 horas de áudio?
 faq-hours-a = Esse é o número aproximado de horas necessário para treinar um sistema de voz-para-texto.
 faq-source-q = De onde vem o texto fonte?
 faq-source-a1 = As frases atualmente vêm de doações de contribuidores, assim como diálogos de roteiros de filmes em domínio público como <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Você pode ver nossas frases <dataLink>nessa pasta no GItHub</dataLink>. 
-
-## Profile
-
-profile-why-title = Por que um perfil?
-profile-why-content = Ao fornecer algumas informações sobre você, os dados de áudio que enviar ao Common Voice serão úteis ao mecanismo de Reconhecimento de Fala que usa esses dados para melhorar a precisão.
+faq-source-a2 = Você pode ver nossas frases <dataLink>nessa pasta no GItHub</dataLink>.
 
 ## NotFound
 
@@ -254,21 +300,6 @@ data-bundle-button = Baixar pacote do conjunto de dados
 data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
 license = Licença: <licenseLink>{ $license }</licenseLink>
 license-mixed = Misto
-
-## Record Page
-
-record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.
-record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
-record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
-record-must-allow-microphone = Você deve permitir o acesso ao microfone.
-record-retry = Tentar novamente
-record-no-mic-found = Não foi encontrado nenhum microfone.
-record-error-too-short = A gravação foi muito curta.
-record-error-too-long = A gravação foi muito longa
-record-error-too-quiet = A gravação ficou com volume muito baixa.
-record-submit-success = Enviada com sucesso! Deseja gravar novamente?
-record-help = Toque para gravar, depois leias as frases em voz alta.
-record-cancel = Cancelar regravação
 review-terms = Usando o Common Voice, você aceita nossos <termsLink>Termos</termsLink> e <privacyLink>Política de Privacidade</privacyLink>
 terms-agree = Estou de acordo
 terms-disagree = Não estou de acordo
@@ -313,7 +344,6 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 language-section-in-progress = Em andamento
 language-section-in-progress-description = O idioma "em curso" estão em desenvolvimento através de contribuições das nossas comunidades; o seu progresso reflete onde estão em relação a localização do site e coleta de frases.
 language-section-launched = Iniciada
-language-section-launched-description = Para os idiomas lançados o site foi completamente localizado, e tem frases suficientes para permitir contribuição através da <italic>{ speak }</italic> e <italic>{ listen }</italic> .
 languages-show-more = Veja mais
 languages-show-less = Ver menos
 language-speakers = Falantes
@@ -334,11 +364,20 @@ contribute = Contribua
 listen = Ouvir
 skip = Pular
 shortcuts = Atalhos
-clips = Frases
+clips-with-count = <bold>{ $count }</bold> clipes
 goal-help-recording = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de gravações!
 goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de validações!
 contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
+record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.
+record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
+record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
+record-must-allow-microphone = Você deve permitir o acesso ao microfone.
+record-no-mic-found = Não foi encontrado nenhum microfone.
+record-error-too-short = A gravação foi muito curta.
+record-error-too-long = A gravação foi muito longa
+record-error-too-quiet = A gravação ficou com volume muito baixa.
+record-cancel = Cancelar regravação
 record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quando terminar
 record-three-more-instruction = No três, vai!
@@ -362,3 +401,41 @@ listen-last-time-instruction = <playIcon></playIcon> Última!
 nothing-to-validate = Não temos nada para validar neste idioma, ajude-nos a preencher a fila.
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
+
+## Goals
+
+streaks = Metas
+days =
+    { $count ->
+        [one] dia
+       *[other] dias
+    }
+recordings =
+    { $count ->
+        [one] Gravação
+       *[other] Gravações
+    }
+validations =
+    { $count ->
+        [one] Validação
+       *[other] Validações
+    }
+
+## Dashboard
+
+toward-next-goal = Rumo ao próximo objetivo
+stats = Estatísticas
+you = Você
+everyone = Todos
+contribution-activity = Atividade de contribuição
+top-contributors = Principais contribuidores
+recorded-clips = Clipes gravados
+validated-clips = Clipes validados
+total-approved = Total aprovado
+overall-accuracy = Precisão geral
+
+## Profile Delete
+
+keep = Manter
+remove = Remover
+profile-form-delete = Excluir perfil

@@ -1,13 +1,15 @@
 ## General
 
-yes-receive-emails = Já, sendið mér tölvupóst. Ég vil vera upplýstur um Sameiginlega raddverkefnið.
+yes-receive-emails = Já, sendið mér tölvupóst. Ég vil vera upplýstur um Samróm.
 stayintouch = Við hjá Mozilla erum að setja á laggirnar raddtæknisamfélag. Við viljum vera í sambandi varðandi uppfærslur, nýjar gagnaveitur og til að fá að heyra meira um hvernig þessi gögn eru nýtt.
 privacy-info = Við heitum því að meðhöndla upplýsingarnar þínar af varkárni. Nánar í <privacyLink>Tilkynningu um persónuvernd</privacyLink>.
-return-to-cv = Til baka í Sameiginlega rödd
+return-to-cv = Til baka í Samróm
 email-input =
     .label = Tölvupóstur
 submit-form-action = Senda inn
 loading = Hleður...
+email-opt-in-privacy = Með því að kjósa að fá tölvupóst frá okkur samþykkir þú að Mozilla notist við þær upplýsingar eins og lýst er í <privacyLink>Meðferð persónuupplýsinga<privacyLink>.
+indicates-required = * táknar nauðsynlegan reit
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Hleður...
 
 ## Languages
 
+ace = Aseníska
 an = Aragónska
 ar = Arabíska
 as = Assamíska
 ast = Astúríska
 az = Aserska
+bg = Búlgarska
 bn = Bengalska
 br = Bretónska
 bxr = Búrjatíska
@@ -37,6 +41,8 @@ en = Enska
 eo = Esperanto
 es = Spænska
 et = Eistneska
+eu = Baskneska
+fa = Persneska
 fi = Finnska
 fo = Færeyska
 fr = Franska
@@ -57,7 +63,9 @@ ko = Kóreska
 kpv = Kómíska
 kw = Kornbreska
 ky = Kyrgíska
+mdf = Mokseska
 mk = Makedónska
+mn = Mongólska
 myv = Erzýska
 nb-NO = Norska (bokmål)
 ne-NP = Nepalska
@@ -67,10 +75,11 @@ oc = Oksítanska
 or = Oríja
 pl = Pólska
 pt-BR = Portúgalska (brasilísk)
-rm = Retórómanska
+rm-sursilv = Surilsvanrómanska
 ro = Rúmverska
 ru = Rússneska
 sah = Jakútíska
+sc = Sardiníska
 sk = Slóvaska
 sl = Slóvenska
 sq = Albanska
@@ -110,16 +119,14 @@ share-title = Hjálpið til við að finna aðra til að deila raddprufum!
 share-text = Hjálpið að kenna vélum hvernig alvöru fólk talar, gefðu raddprufu á { $link }
 link-copied = Hlekkur afritaður
 back-top = Til baka
-contribution-banner-text = Við höfum nýlega sett nýja upplifun af stað
-contribution-banner-button = Skoða
-report-bugs-link = Tilkynna tæknivillur
+logout = Útskrá
 
 ## Home Page
 
-home-title = Sameiginlega raddverkefnið er frumkvæði Mozilla til þess að kenna vélum hvernig alvöru fólk talar.
+home-title = Samrómur er frumkvæði Mozilla til þess að kenna vélum hvernig alvöru fólk talar.
 home-cta = Hækkið róminn, deilið hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
-wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Sameiginlega raddverkefnið, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
+wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
 wall-of-text-more-desktop =
     Nú geturðu deilt raddprufum til þess að hjálpa okkur að byggja upp úr frjálsum hugbúnaði raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
     Lesið setningu til að hjálpa vélum að læra hvernig fólk talar í alvörunni. Skoðið verk annarra til þess að taka út gæðin. Svo einfalt er það!
@@ -128,7 +135,7 @@ wall-of-text-first =
     En til að þróa raddkerfi þurfa þróendur að hafa fyrir hendi gríðarlegt magn raddgagna.
 wall-of-text-second =
     Megnið af gögnunum sem stórfyrirtæki nota er ekki fáanlegt miklum meirihluta fólks. Að okkar mati hindrar það framþróun.
-    Fyrir vikið höfum við stofnað til Sameiginlega raddverkefnisins, en verkefnið á að gera raddgreiningartækni 
+    Fyrir vikið höfum við stofnað til Samróms, en verkefnið á að gera raddgreiningartækni 
     opna og aðgengilega öllum.
 show-wall-of-text = Lesa meira
 help-us-title = Hjálpaðu okkur að meta setningar!
@@ -141,10 +148,13 @@ speak-subtitle = Gefðu raddsýnishorn
 speak-paragraph = Hljóðritun raddgagna er órofa partur af þróun gagnapakkans okkar; sumir myndu líka segja að það væri skemmtilegi parturinn.
 speak-goal-text = Raddupptökur
 listen-subtitle = Hjálpið okkur að staðfesta raddir
-listen-paragraph = Að staðfesta aðsendar raddupptökur er jafn mikilvægt Sameiginlega raddverkefninu. Hlustið og hjálpið til við að þróa hágæða opinn raddbúnað.
+listen-paragraph = Að staðfesta aðsendar raddupptökur er jafn mikilvægt fyrir Samróm og upptökurnar sjálfar. Hlustið og hjálpið til við að þróa hágæða opinn raddbúnað.
 listen-goal-text = Staðfestar raddupptökur
 hours-recorded = Klukkustundir hljóðritaðar
 hours-validated = Klukkustundir staðfestar
+voices-online = Raddir í loftinu
+todays-progress = Árangur dagsins
+help-reach-goal = Hjálpaðu okkur að komast upp í { $goal }
 read-terms-q = Hefurðu lesið skilmálana?
 ready-to-record = Tilbúinn að leggja fram raddsýni?
 all-languages = Öll tungumál
@@ -189,7 +199,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Taka upp/Stöðva
-request-language-text = Sérðu enn enga Sameiginlega rödd fyrir tungumálið þitt?
+request-language-text = Sérðu enn engan Samróm fyrir tungumálið þitt?
 request-language-button = Biðja um tungumál
 
 ## ProjectStatus
@@ -208,8 +218,6 @@ english = Enska
 
 ## ProfileForm
 
-profile-form-cancel = Útgönguskjal
-profile-form-delete = Eyða prófíl
 profile-form-username =
     .label = Notendanafn
 profile-form-language =
@@ -220,45 +228,71 @@ profile-form-age =
     .label = Aldur
 profile-form-gender =
     .label = Kyn
+leaderboard-visibility =
+    .label = Sýnileiki stigatöflu
+hidden = Falið
+visible = Sýnilegt
+native-language =
+    .label = Móðurmál
 profile-form-submit-save = Vista
 profile-form-submit-saved = Vistað
-profile-keep-data = Halda gögnum
-profile-delete-data = Eyða gögnum
 male = Karlkyns
 female = Kvenkyns
 # Gender
 other = Annað
 why-profile-title = Hvers vegna prófíl?
-why-profile-text = Með því að útvega einhverjar upplýsingar um sjálfan þig, þá verða hljóðgögnin sem þú sendir inn í Sameiginlega raddverkefnið gagnlegri í talgreiningarvélar sem nota þessi gögn til þess að bæta á nákvæmni.
+why-profile-text = Með því að útvega einhverjar upplýsingar um sjálfan þig, þá verða hljóðgögnin sem þú sendir inn í Samróm gagnlegri í talgreiningarvélar sem nota þessi gögn til þess að bæta á nákvæmni.
+dashboard = Skjáborð
+build-profile = Búa til prófíl
+avatar = Prófílmynd
+goals = Markmið
+settings = Stillingar
 edit-profile = Breyta prófíl
-profile-create = Búa til prófíl
 profile-create-success = Gerð prófíls tókst!
 profile-close = Loka
-profile-clear-modal = Að hreinsa prófílgögnin merkir að samfélagsfræðilegum upplýsingum úr þeim verður ekki framar beitt í þágu Sameiginlegu raddarinnar með hljóðdæmunum þínum.
 profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpaðu okkur að auka á heilindi raddgagnanna.
 thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
 why-demographic = Hvers vegna skiptir þetta máli?
 why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögn sem notuð eru til að skilyrða af nákvæmni talgreiningarvélar. Notendanafn þitt og netfang verða aldrei opinberlega tengd gögnum sem þú hefur deilt og þér er frjálst að hafa notendanafn þitt ósýnilegt eða opið almenningi.
+keep-me-posted =
+    .label = Ég þigg fréttir og stöðuuppfærslur af framgangi Samróms.
+accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar, líkt og útskýrt er í <privacyLink>friðhelgisstefnu</privacyLink> Mozilla.
 login-identity = Innskráningarauðkenni
+login-signup = Innskrá sig / Skrá sig
 edit = Breyta
+email-subscriptions = Tölvupóstáskrift
+download-profile = Sækja gögnin mín
+contribution-experience = Upplifun af framlagi
+skip-submission-feedback = Sleppa athugasemdum á framlag
+skip-submission-description = Endurgjöf er meðan raddgögn eru lögð fram, en þegar smellt er á 'Senda' lýkur athugasemdum. Framlagið mun halda áfram með næsta setti af 5 upptökum eða staðfestingum.
+skip-submission-note = Athugið: Maður verður samt að velja á milli tals eða hlustunar til að breyta tegund inntaks.
 off = Af
 on = Ǻ
+add-avatar-title = Hlaða inn prófílmynd
+browse-file-title = Hlaða inn myndskrá
+browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
+connect-gravatar = Tengja við Gravatar
+gravatar_not_found = Enginn gravatar fannst fyrir netfangið þitt
+file_too_large = Myndin sem var valin er of stór
+manage-subscriptions = Stjórna áskriftum
+email-already-used = Netfang er þegar í notkun á öðrum reikningi
+add-language = Bæta við tungumáli
 
 ## FAQ
 
 faq-title = Algengar spurningar
-faq-what-q = Hvað er Sameiginleg rödd?
+faq-what-q = Hvað er Samrómur?
 faq-what-a = Raddgreiningartækni gæti gjörbylt samskiptum okkar við vélar, en þau kerfi sem eru þegar fyrir hendi eru kostnaðarsamur séreignarhugbúnaður. Sameiginlega raddverkefninu er ætlað að gera raddgreiningartækni auðfáanlega öllum. Fólk leggur til raddsýni af sjálfu sér í stóran gagnagrunn, sem á að gera öllum kleift að skilyrða raddstýrðan hugbúnað fljótt og þægilega. Öll raddgögn verða fáanleg þróendum hugbúnaðar.
 faq-important-q = Því er það mikilvægt?
 faq-important-a = Rödd er náttúruleg, rödd er mannleg. Hún er einfaldasta og eðlilegasta leiðin til að eiga samskipti. Við viljum að þróendum sé kleift að smíða mögnuð fyrirbæri úr þýðendum í rauntíma yfir í raddstýrð hjálpartól til stjórnunar. En eins og er eru ekki nægjanleg gögn fáanleg almenningi til að smíða slík tól. Við vonum að Sameiginlega röddin færi þróendum þau verkfæri sem þróun nýjunga krefst.
-faq-get-q = Hvernig fæ ég Sameiginleg raddgögn?
+faq-get-q = Hvernig fæ ég Samróm?
 faq-get-a = Gagnasafnið er nú fáanlegt á <downloadLink>niðuhalsvefnum</downloadLink> okkar undir leyfinu <licenseLnk>CC-0</licenseLink>.
-faq-mission-q = Því er Sameiginlega röddin hluti Mozilla-verkefnisins?
-faq-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Sameiginlega raddverkefnið. Líkt og raddbúnaðartæknin er þróuð umfram forrit sem eru dýr fyrir endanotendur, þá trúum við að hún verði að þjóna öllu fólki jafnt. Við finnum þörf til þess að fjölga tungumálum, framburðarsýnum og lýðfræðilegum upplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Mozilla vill sjá heilbrigt, lifandi internet. Það þýðir að nýjum þróendum um allan heim er gefinn aðgangur að raddgögnum, svo að þeim sé kleift að stofna ný, framúrskarandi verkefni. Sameiginlega röddin verður opinn grunnur sem mun gagnast Mozilla teymum og þróendum úti um heim.
+faq-mission-q = Því er Samrómur hluti Mozilla-verkefnisins?
+faq-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Samróm. Líkt og raddbúnaðartæknin er þróuð umfram forrit sem eru dýr fyrir endanotendur, þá trúum við að hún verði að þjóna öllu fólki jafnt. Við finnum þörf til þess að fjölga tungumálum, framburðarsýnum og lýðfræðilegum upplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Mozilla vill sjá heilbrigt, lifandi internet. Það þýðir að nýjum þróendum um allan heim er gefinn aðgangur að raddgögnum, svo að þeim sé kleift að stofna ný, framúrskarandi verkefni. Sameiginlega röddin verður opinn grunnur sem mun gagnast Mozilla teymum og þróendum úti um heim.
 faq-native-q = { $lang } er ekki móðurmál mitt og ég tala með hreim, viljið þið enn raddsýnið mitt?
-faq-native-a = Já, sannarlega viljum við röddina þína! Hluti markmiða Sameiginlega raddverkefnisins er að safna eins mörgum mismunandi framburðardæmum og hægt er, svo tölvur geti skilið betur <bold>alla</bold> þegar þeir tala.
-faq-firefox-q = Verður raddskráningarvél, í gegnum Sameiginlega rödd, einhvern tíma partur af Firefox?
-faq-firefox-a = Sameiginleg rödd hefur ómælda möguleika og sannarlega könnum við raddviðmót í mörgum Mozilla vörum, þar á meðal Firefox.
+faq-native-a = Já, sannarlega viljum við röddina þína! Hluti markmiða Samróms er að safna eins mörgum mismunandi framburðardæmum og hægt er, svo tölvur geti skilið betur <bold>alla</bold> þegar þeir tala.
+faq-firefox-q = Verður raddskráningarvél, í gegnum Samróm, einhvern tíma partur af Firefox?
+faq-firefox-a = Samrómur hefur ómælda möguleika og sannarlega könnum við raddviðmót í mörgum Mozilla vörum, þar á meðal Firefox.
 faq-quality-q = Hvaða hljóðgæða er krafist til þess að hljóðgögn séu notuð?
 faq-quality-a = Við viljum að hljóðgæðin endurspegli þau hljóðgæði sem raddskráningarvélin mun fást við úr hinu óþekkta. Fyrir vikið, þá viljum við fjölbreytni. Þetta kennir raddskráningarvélinni að bregðast við ákveðnum tilfellum—tali í bakgrunni, bíhljóðum, viftuhljóðum—án villna.
 faq-hours-q = Hvers vegna eru 10.000 klukkustundir áætluð þörf hljóðritunar?
@@ -267,11 +301,6 @@ faq-source-q = Hver er uppruni textans?
 faq-source-a1 = Setningar í notkun eru framlög frá notendum, auk þess sem notuð eru gögn úr almenningssöfnum á borð við samtöl úr kvikmyndum eins og <italic>Lífið er yndislegt.</italic>
 faq-source-a2 = Þú getur skoðað upprunalegu setningarnar í <dataLink>þessari GitHub möppu</dataLink>.
 
-## Profile
-
-profile-why-title = Til hvers er aðgangur?
-profile-why-content = Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar sem nýta sér þessi gögn til að bæta nákvæmni sína.
-
 ## NotFound
 
 notfound-title = Ekki fundið
@@ -279,14 +308,14 @@ notfound-content = Ég hræðist að ég viti ekki að hverju þú leitar.
 
 ## Data
 
-data-download-button = Niðurhala Sameiginlegum raddgögnum.
+data-download-button = Niðurhala gögnum úr Samrómi.
 data-download-yes = Já
 data-download-deny = Nei
 data-download-license = Leyfi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Þú ert í þann mund að niðurhala <size>{ $size }GB</size>, halda áfram?
 data-subtitle = Við erum að þróa opið gagnasafn fyrir almenning úr raddgögnum sem allir geta notað til að þjálfa raddstýrð forrit.
 data-explanatory-text = Við trúum að stór raddgagnasöfn sem eru aðgengileg almenningi hvetji til nýsköpunar og heilbrigðrar samkeppni í raddbúnaði sem byggir á vélagreind. Þetta er alþjóðlegt átak og öllum er boðið að taka þátt. Okkar markmið er að stuðla að alhliða raddtækni, sem endurspeglar fjölbreytileika raddsýnanna sem eru fengin alls staðar úr heiminum.
-data-get-started = <speechBlogLink>Byrja á Raddgreiningu</speechBlogLink>
+data-get-started = <speechBlogLink>Byrjaðu að raddgreina</speechBlogLink>
 data-other-title = Önnur raddgagnasöfn...
 data-other-goto = Fara í { $name }
 data-other-download = Niðurhala gögnum
@@ -296,25 +325,10 @@ data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum
 data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum hljóðupptökum sem nota má í opnum og frjálsum raddgreiningarhugbúnaði.
 data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
 data-bundle-button = Niðurhala gagnasafnapakka
-data-bundle-description = Gögn Sameiginlegrar raddar og öll gagnasöfnin að ofan.
+data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
 license = Leyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
-
-## Record Page
-
-record-platform-not-supported = Því miður er ekki stuðningur við tölvukerfið þitt að svo stöddu.
-record-platform-not-supported-desktop = Á borðtölvum er hægt að niðurhala nýjasta:
-record-platform-not-supported-ios = <bold>iOS</bold> notendur geta niðurhalað fría smáforritinu okkar:
-record-must-allow-microphone = Þú þarft að leyfa aðgang að hljóðnemanum.
-record-retry = Reyna aftur
-record-no-mic-found = Hljóðnemi fannst ekki.
-record-error-too-short = Upptakan var of stutt.
-record-error-too-long = Upptakan var of löng.
-record-error-too-quiet = Ekki heyrðist nógu vel í upptökunni.
-record-submit-success = Upptaka send inn! Viltu taka upp aftur?
-record-help = Smelltu hér til að setja upptöku í gang og lestu svo setninguna að ofan upphátt.
-record-cancel = Hætta við að endurtaka upptöku
-review-terms = Með notkun Sameiginlegrar raddar samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
+review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki
 review-aborted = Hætt var við að senda inn. Viltu eyða því sem þú tókst upp?
@@ -351,7 +365,7 @@ request-language-title = Beiðni um tungumál
 request-language-form-language =
     .label = Tungumál
 request-language-success-title = Tungumálabeiðni tókst að senda inn. Takk fyrir.
-request-language-success-content = Við munum vera í sambandi fljótlega til að útskýra betur hvernig hægt er að bæta þínu tungumáli við Sameiginlega rödd.
+request-language-success-content = Við munum vera í sambandi fljótlega til að útskýra betur hvernig hægt er að bæta þínu tungumáli við Samróm.
 
 ## Languages Overview
 
@@ -380,13 +394,23 @@ listen = Hlusta
 skip = Fara í næstu
 shortcuts = Flýtileiðir
 clips-with-count = <bold>{ $count }</bold> upptökur
-goal-help-recording = Þú hefur hjálpað Sameiginlegri rödd að ná <goalPercentage></goalPercentage> af daglegu { $goalValue } upptöku markmiði!
+goal-help-recording = Þú hefur hjálpað Samrómi að ná <goalPercentage></goalPercentage> af daglegu { $goalValue } upptöku markmiði!
+goal-help-validation = Með þinni hjálp erum við búin að staðfesta <goalPercentage></goalPercentage> af þeim setningum sem við ætlum okkur að klára í dag! ({ $goalValue } af heildinni á dag)
 contribute-more =
     { $count ->
         [one] Til í að gera { $count } í viðbót?
        *[other] Til í að gera { $count } í viðbót?
     }
 record-cta = Hefja upptöku
+record-platform-not-supported = Því miður er ekki stuðningur við tölvukerfið þitt að svo stöddu.
+record-platform-not-supported-desktop = Á borðtölvum er hægt að niðurhala nýjasta:
+record-platform-not-supported-ios = <bold>iOS</bold> notendur geta niðurhalað fría smáforritinu okkar:
+record-must-allow-microphone = Þú þarft að leyfa aðgang að hljóðnemanum.
+record-no-mic-found = Hljóðnemi fannst ekki.
+record-error-too-short = Upptakan var of stutt.
+record-error-too-long = Upptakan var of löng.
+record-error-too-quiet = Ekki heyrðist nógu vel í upptökunni.
+record-cancel = Hætta við að endurtaka upptöku
 record-instruction = { $actionType }<recordIcon></recordIcon> og lestu svo setninguna upphátt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> stöðva upptöku
 record-three-more-instruction = Þrjár eftir!
@@ -410,3 +434,42 @@ listen-last-time-instruction = <playIcon></playIcon> Síðasta!
 nothing-to-validate = Ekkert er fyrir hendi um þetta tungumál, hjálpaðu okkur að fylla í röðina.
 record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
+
+## Goals
+
+days =
+    { $count ->
+        [one] Dagur
+       *[other] Dagar
+    }
+recordings =
+    { $count ->
+        [one] Upptaka
+       *[other] Upptökur
+    }
+validations =
+    { $count ->
+        [one] Staðfesting
+       *[other] Staðfestingar
+    }
+
+## Dashboard
+
+toward-next-goal = Að næsta markmiði
+stats = Tölfræði
+you = Þú
+everyone = Allir
+top-contributors = Virkustu þátttakendur
+recorded-clips = Skráðar upptökur
+validated-clips = Staðfestar upptökur
+total-approved = Samtals samþykkt
+overall-accuracy = Almenn nákvæmni
+
+## Profile Delete
+
+delete-q = Vilt þú fara fram á að þínum raddgögnum verði líka eytt, eða viltu frekar halda þeim í gagnasafni Samróms?
+keep = Halda
+remove = Fjarlægja
+keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar prófíl hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn honum tengd verði fjarlægð úr gagnasafninu.
+remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa halað niður gagnasafninu og þeir líka beðnir um að eyða út raddgögnunum þínum.
+profile-form-delete = Eyða prófíl

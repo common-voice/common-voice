@@ -11,27 +11,25 @@ import {
   getItunesURL,
   isIOS,
   isNativeIOS,
+  isProduction,
   isSafari,
   replacePathLocale,
 } from '../../utility';
+import { LocaleLink, LocaleNavLink } from '../locale-helpers';
 import {
-  ChevronRight,
-  CrossIcon,
+  CogIcon,
+  DashboardIcon,
   MenuIcon,
   MicIcon,
   OldPlayIcon,
 } from '../ui/icons';
-import { LabeledSelect, LinkButton } from '../ui/ui';
-import { ContributableLocaleLock } from '../locale-helpers';
+import { Avatar, LabeledSelect, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
-import LanguageSelect from './language-select';
+import LocalizationSelect from './localization-select';
 import Logo from './logo';
 import Nav from './nav';
-import Robot from './robot';
-
-const LOW_FPS = 20;
-const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
+import UserMenu from './user-menu';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
@@ -56,56 +54,32 @@ interface LayoutState {
   isMenuVisible: boolean;
   hasScrolled: boolean;
   hasScrolledDown: boolean;
-  transitioning: boolean;
-  isRecording: boolean;
-  showContributionBanner: boolean;
   showStagingBanner: boolean;
 }
-
-const CONTRIBUTION_BANNER_KEY = 'showContributionBanner';
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
-  private bg: HTMLElement;
   private installApp: HTMLElement;
-  private stopBackgroundRender: boolean;
-
-  // On native iOS, we found some issues animating the css background
-  // image during recording, so we use this as a more performant alternative.
-  private iOSBackground = isNativeIOS()
-    ? [
-        <img src="/img/wave-blue-mobile.png" />,
-        <img src="/img/wave-red-mobile.png" />,
-      ]
-    : [];
 
   state: LayoutState = {
     isMenuVisible: false,
     hasScrolled: false,
     hasScrolledDown: false,
-    transitioning: false,
-    isRecording: false,
-    showContributionBanner: false,
-    // JSON.parse(localStorage.getItem(CONTRIBUTION_BANNER_KEY)) !== false,
     showStagingBanner: true,
   };
 
   componentDidMount() {
     this.scroller.addEventListener('scroll', this.handleScroll);
+    setTimeout(() => {
+      import('../pages/contribution/speak/speak');
+      import('../pages/contribution/listen/listen');
+    }, 1000);
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
-    if (nextState.isRecording) {
-      this.stopBackgroundRender = false;
-      this.renderBackground();
-    } else if (!nextState.isRecording) {
-      this.stopBackgroundRender = true;
-      this.bg.style.transform = '';
-    }
-
     if (this.props.location !== nextProps.location) {
-      this.setState({ isMenuVisible: false, isRecording: false });
+      this.setState({ isMenuVisible: false });
 
       // Immediately scrolling up after page change has no effect.
       setTimeout(() => {
@@ -122,44 +96,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     this.scroller.removeEventListener('scroll', this.handleScroll);
   }
 
-  private volume = 0;
-  private handleVolumeChange = (volume: number) => {
-    this.volume = volume;
-  };
-
-  private lastFPSCheckAt = 0;
-  private lowFPSCount = 0;
-  private framesInLastSecond: number[] = [];
-  private renderBackground = () => {
-    if (this.stopBackgroundRender) return;
-    if (this.lowFPSCount >= DISABLE_ANIMATION_LOW_FPS_THRESHOLD) {
-      this.bg.style.transform = `scaleY(1)`;
-      return;
-    }
-    const scale = Math.max(1.3 * (this.volume - 28) / 100, 0);
-    this.bg.style.transform = `scaleY(${scale})`;
-    requestAnimationFrame(this.renderBackground);
-
-    const now = Date.now();
-    this.framesInLastSecond.push(now);
-    if (now - this.lastFPSCheckAt < 1000) return;
-    this.lastFPSCheckAt = now;
-    const index = this.framesInLastSecond
-      .slice()
-      .reverse()
-      .findIndex(t => now - t > 1000);
-    if (index === -1) {
-      return;
-    }
-
-    this.framesInLastSecond = this.framesInLastSecond.slice(
-      this.framesInLastSecond.length - index - 1
-    );
-    if (this.framesInLastSecond.length < LOW_FPS) {
-      this.lowFPSCount++;
-    }
-  };
-
   /**
    * If the iOS app is installed, open it. Otherwise, open the App Store.
    */
@@ -174,28 +110,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     evt.stopPropagation();
     evt.preventDefault();
     this.installApp.classList.add('hide');
-  };
-
-  private onRecord = () => {
-    // Callback function for when we've hidden the normal background.
-    let cb = () => {
-      this.bg.removeEventListener('transitionend', cb);
-      this.setState({
-        transitioning: false,
-      });
-    };
-    this.bg.addEventListener('transitionend', cb);
-
-    this.setState({
-      isRecording: true,
-      transitioning: true,
-    });
-  };
-
-  private onRecordStop = () => {
-    this.setState({
-      isRecording: false,
-    });
   };
 
   lastScrollTop: number;
@@ -218,60 +132,48 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     history.push(replacePathLocale(history.location.pathname, locale));
   };
 
-  private closeContributionBanner = () => {
-    this.setState({ showContributionBanner: false });
-    localStorage.setItem(CONTRIBUTION_BANNER_KEY, JSON.stringify(false));
-  };
-
   render() {
-    const { locale, location } = this.props;
+    const { locale, location, user } = this.props;
     const {
       hasScrolled,
       hasScrolledDown,
       isMenuVisible,
-      showContributionBanner,
       showStagingBanner,
     } = this.state;
+    const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
 
     const pathParts = location.pathname.split('/');
-    let className = pathParts[2] ? pathParts.slice(2).join(' ') : 'home';
-    if (this.state.isRecording) {
-      className += ' recording';
-    }
+    const className = pathParts[2] ? pathParts.slice(2).join(' ') : 'home';
 
     return (
       <div id="main" className={className}>
-        {isIOS() &&
-          !isNativeIOS() &&
-          !isSafari() && (
-            <div
-              id="install-app"
-              onClick={this.openInApp}
-              ref={div => {
-                this.installApp = div as HTMLElement;
-              }}>
-              Open in App
-              <a onClick={this.closeOpenInApp}>X</a>
-            </div>
-          )}
-        {window.location.hostname == 'voice.allizom.org' &&
-          showStagingBanner && (
-            <div className="staging-banner">
-              You're on the staging server. Voice data is not collected here.{' '}
-              <a href="https://voice.mozilla.org" target="_blank">
-                Don't waste your breath.
-              </a>{' '}
-              <a
-                href="https://github.com/mozilla/voice-web/issues/new"
-                target="_blank">
-                Feel free to report issues.
-              </a>{' '}
-              <button
-                onClick={() => this.setState({ showStagingBanner: false })}>
-                Close
-              </button>
-            </div>
-          )}
+        {isIOS() && !isNativeIOS() && !isSafari() && (
+          <div
+            id="install-app"
+            onClick={this.openInApp}
+            ref={div => {
+              this.installApp = div as HTMLElement;
+            }}>
+            Open in App
+            <a onClick={this.closeOpenInApp}>X</a>
+          </div>
+        )}
+        {window.location.hostname == 'voice.allizom.org' && showStagingBanner && (
+          <div className="staging-banner">
+            You're on the staging server. Voice data is not collected here.{' '}
+            <a href="https://voice.mozilla.org" target="_blank">
+              Don't waste your breath.
+            </a>{' '}
+            <a
+              href="https://github.com/mozilla/voice-web/issues/new"
+              target="_blank">
+              Feel free to report issues.
+            </a>{' '}
+            <button onClick={() => this.setState({ showStagingBanner: false })}>
+              Close
+            </button>
+          </div>
+        )}
         <header
           className={
             !isMenuVisible &&
@@ -288,8 +190,15 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </div>
           <div>
             {this.renderTallies()}
+            {user.account ? (
+              <UserMenu />
+            ) : isBuildingProfile ? null : (
+              <Localized id="login-signup">
+                <LinkButton className="login" href="/login" rounded outline />
+              </Localized>
+            )}
             {LOCALES.length > 1 && (
-              <LanguageSelect
+              <LocalizationSelect
                 locale={locale}
                 locales={LOCALES_WITH_NAMES}
                 onChange={this.selectLocale}
@@ -299,62 +208,21 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               id="hamburger-menu"
               onClick={this.toggleMenu}
               className={isMenuVisible ? 'active' : ''}>
-              <MenuIcon className={isMenuVisible ? 'active' : ''} />
+              {user.account ? (
+                <Avatar url={user.account.avatar_url} />
+              ) : (
+                <MenuIcon className={isMenuVisible ? 'active' : ''} />
+              )}
             </button>
           </div>
         </header>
-        {showContributionBanner && (
-          <ContributableLocaleLock>
-            <div className="contribution-banner">
-              <div className="inner">
-                <Localized id="contribution-banner-text">
-                  <h1 />
-                </Localized>
-                <Localized id="contribution-banner-button">
-                  <LinkButton className="open" rounded to={URLS.SPEAK} />
-                </Localized>
-                <a
-                  className="bugs-link"
-                  href="https://github.com/mozilla/voice-web/issues/new"
-                  target="_blank">
-                  <Localized id="report-bugs-link">
-                    <span />
-                  </Localized>
-                  <ChevronRight />
-                </a>
-                <button
-                  type="button"
-                  className="close"
-                  onClick={this.closeContributionBanner}>
-                  <CrossIcon />
-                </button>
-              </div>
-            </div>
-          </ContributableLocaleLock>
-        )}
         <div
           id="scroller"
           ref={div => {
             this.scroller = div as HTMLElement;
           }}>
           <div id="scrollee">
-            <div
-              id="background-container"
-              ref={div => {
-                this.bg = div as HTMLElement;
-              }}>
-              {this.iOSBackground}
-            </div>
-            <div className="hero">
-              <Robot />
-            </div>
-            <div className="hero-space" />
-            <Content
-              isRecording={this.state.isRecording}
-              onRecord={this.onRecord}
-              onRecordStop={this.onRecordStop}
-              onVolume={this.handleVolumeChange}
-            />
+            <Content />
             <Footer />
           </div>
         </div>
@@ -362,20 +230,54 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
           <Nav>
-            {LOCALES.length > 1 && (
-              <LabeledSelect
-                className="language-select"
-                value={locale}
-                onChange={(event: any) =>
-                  this.selectLocale(event.target.value)
-                }>
-                {LOCALES_WITH_NAMES.map(([code, name]) => (
-                  <option key={code} value={code}>
-                    {name}
-                  </option>
-                ))}
-              </LabeledSelect>
-            )}
+            <div className="user-nav">
+              {LOCALES.length > 1 && (
+                <LabeledSelect
+                  className="localization-select"
+                  value={locale}
+                  onChange={(event: any) =>
+                    this.selectLocale(event.target.value)
+                  }>
+                  {LOCALES_WITH_NAMES.map(([code, name]) => (
+                    <option key={code} value={code}>
+                      {name}
+                    </option>
+                  ))}
+                </LabeledSelect>
+              )}
+
+              {user.account && (
+                <div>
+                  <LocaleNavLink className="user-nav-link" to={URLS.DASHBOARD}>
+                    <DashboardIcon />
+                    <Localized id="dashboard">
+                      <span />
+                    </Localized>
+                  </LocaleNavLink>
+                  <LocaleNavLink
+                    className="user-nav-link"
+                    to={URLS.PROFILE_SETTINGS}>
+                    <CogIcon />
+                    <Localized id="settings">
+                      <span />
+                    </Localized>
+                  </LocaleNavLink>
+                </div>
+              )}
+              {!isBuildingProfile && (
+                <React.Fragment>
+                  {user.account ? (
+                    <Localized id="logout">
+                      <LinkButton rounded href="/logout" />
+                    </Localized>
+                  ) : (
+                    <Localized id="login-signup">
+                      <LinkButton rounded href="/login" />
+                    </Localized>
+                  )}
+                </React.Fragment>
+              )}
+            </div>
           </Nav>
         </div>
       </div>
@@ -385,17 +287,21 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private renderTallies() {
     const { user } = this.props;
     return (
-      <div className="tallies">
+      <LocaleLink
+        className="tallies"
+        to={user.account ? URLS.DASHBOARD : URLS.SPEAK}>
         <div className="record-tally">
-          <MicIcon className="icon" />
-          <div>{user.recordTally}</div>
+          <MicIcon />
+          <div>
+            {user.account ? user.account.clips_count : user.recordTally}
+          </div>
         </div>
         <div className="divider" />
         <div className="validate-tally">
-          <OldPlayIcon className="icon" />
-          {user.validateTally}
+          <OldPlayIcon />
+          {user.account ? user.account.votes_count : user.validateTally}
         </div>
-      </div>
+      </LocaleLink>
     );
   }
 }

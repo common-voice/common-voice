@@ -1,3 +1,28 @@
+@import url('../vars.css');
+
+:root {
+    --toggle-padding: 10px;
+}
+
+.avatar-wrap {
+    flex-shrink: 0;
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    background: #f89096;
+
+    & > img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    & .mars-avatar {
+        object-fit: contain;
+    }
+}
+
 .button {
     position: relative;
     box-sizing: border-box;
@@ -8,7 +33,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 600;
     font-family: var(--base-font-family);
     text-align: center;
@@ -71,7 +96,7 @@ body:not(.mobile-safari) .button:hover path,
     align-items: center;
     font-family: var(--base-font-family);
     font-weight: 600;
-    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0 2px;;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0 2px;
     background: white;
     white-space: nowrap;
     text-transform: none;
@@ -86,7 +111,7 @@ body:not(.mobile-safari) .button.card-action:hover,
     margin: 1px -1px -1px 1px;
     background: white;
     color: var(--black);
-    opacity: .8;
+    opacity: 0.8;
     box-shadow: none;
 }
 
@@ -95,7 +120,7 @@ button.card-action:focus.focus-visible path {
     fill: var(--black);
 }
 
-@media (--mobile) {
+@media (--xs-down) {
     .card-action {
         white-space: normal;
     }
@@ -124,11 +149,8 @@ button.card-action:focus.focus-visible path {
     flex-direction: column;
     box-sizing: border-box;
 
-    &.disabled .label {
-        background: linear-gradient(to bottom, var(--white) 50%, var(--white) 50%, var(--light-grey) 50%);
-    }
-
-    & :required, & :valid {
+    & :required,
+    & :valid {
         box-shadow: none;
     }
 
@@ -143,9 +165,11 @@ button.card-action:focus.focus-visible path {
         color: var(--warm-grey);
     }
 
-    & input, & select, & textarea {
+    & input,
+    & select,
+    & textarea {
         box-sizing: border-box;
-        border: 1.5px solid var(--light-grey);
+        border: 1.6px solid var(--light-grey);
         padding: 13px;
         font-size: var(--font-size);
         font-family: var(--base-font-family);
@@ -157,7 +181,7 @@ button.card-action:focus.focus-visible path {
         }
 
         &:disabled {
-            background-color: var(--light-grey);
+            color: var(--warm-grey);
         }
     }
 
@@ -193,8 +217,86 @@ button.card-action:focus.focus-visible path {
     }
 }
 
+.spinner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    & span {
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        height: var(--spinner-height);
+        width: var(--spinner-height);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        animation: spin 4s linear infinite;
+        background-color: var(--black);
+        opacity: 1;
+        transition: opacity var(--transition-duration) linear;
+    }
+}
+
 .text-button {
     border: none;
     background: none;
     font-family: var(--base-font-family);
+}
+
+.toggle-input {
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 0 var(--toggle-padding);
+    width: fit-content;
+    height: 36px;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    color: var(--white);
+    background: #9b9b9b;
+
+    & input {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        appearance: none;
+        cursor: pointer;
+
+        &::before {
+            content: '';
+            border-radius: 25px;
+            position: absolute;
+            left: 0;
+            width: calc(50% + var(--toggle-padding));
+            height: 100%;
+            background: var(--valid-green);
+            transform: translateX(0%);
+            transition: transform var(--easing) var(--transition-duration);
+        }
+
+        &:checked::before {
+            transform: translateX(calc(100% - 2 * var(--toggle-padding)));
+        }
+    }
+
+    & div {
+        z-index: var(--middle-z-index);
+        pointer-events: none;
+        margin: 0 25px;
+    }
 }

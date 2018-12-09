@@ -15,11 +15,13 @@ loading = בטעינה…
 
 ## Languages
 
+ace = אצ׳ינית
 an = אראגונית
 ar = ערבית
 as = אסאמית
 ast = אסטורית
 az = אזרית
+bg = בולגרית
 bn = בנגלית
 br = ברטון
 bxr = בוריאטית
@@ -37,6 +39,8 @@ en = אנגלית
 eo = אספרנטו
 es = ספרדית
 et = אסטונית
+eu = בסקית
+fa = פרסית
 fi = פינית
 fo = פארואית
 fr = צרפתית
@@ -57,19 +61,22 @@ ko = קוריאנית
 kpv = קומי־זיר
 kw = קורנית
 ky = קירגיזית
+mdf = מוקשה
 mk = מקדונית
+mn = מונגולית
 myv = ארזיה
 nb-NO = נורווגית ספרותית
 ne-NP = נפאלית
 nl = הולנדית
 nn-NO = נורווגית חדשה
+oc = אוקסיטנית
 or = אורייה
 pl = פולנית
 pt-BR = פורטוגלית (ברזיל)
-rm = רומאנש
 ro = רומנית
 ru = רוסית
 sah = סאחה
+sc = סרדינית
 sk = סלובקית
 sl = סלובנית
 sq = אלבנית
@@ -83,6 +90,7 @@ tt = טטארית
 uk = אוקראינית
 ur = אורדו
 uz = אוזבקית
+vi = וייטנאמית
 zh-CN = סינית (סין)
 zh-HK = סינית (הונג קונג)
 zh-TW = סינית (טאיוואן)
@@ -108,9 +116,7 @@ share-title = עזרו לנו למצוא אחרים שיתרמו את קולם!
 share-text = מזמינים אותך לסייע ללמד מכונות איך אנשים אמתיים מדברים, באפשרותך לתרום את קולך דרך { $link }
 link-copied = קישור הועתק
 back-top = חזרה למעלה
-contribution-banner-text = השקנו חוויית תרומה חדשה
-contribution-banner-button = הצצה
-report-bugs-link = סיוע בדיווח על תקלות
+logout = התנתקות
 
 ## Home Page
 
@@ -119,6 +125,8 @@ home-cta = דברו בקול רם, כאן ניתן לתרום!
 wall-of-text-start = קול זה טבעי, קול זה אנושי. לכן מרתק אותנו הרעיון של יצירת טכנולוגיית קול שמישה עבור המכונות שלנו. אך כדי ליצור מערכות קול, נדרשת כמות גדולה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
 wall-of-text-more-desktop = כעת מוענקת לך האפשרות לסייע לנו לבנות מסד נתונים קוליים בקוד פתוח בו כולם יכולים להשתמש כדי ליצור יישומים מהפכניים להתקנים ולאינטרנט.<lineBreak></lineBreak>עליך רק להקריא את המשפט כדי לסייע למכונות ללמוד איך מדברים אנשים אמתיים. ניתן גם לבדוק עבודות של תורמים אחרים כדי לשפר את האיכות. פשוט וקל!
+wall-of-text-first = קול הוא דבר טבעי, קול הוא דבר אנושי. לכן אנו מתרגשים לקראת יצירת טכנולוגיית קול עבור המכונות שלנו. אך כדי ליצור מערכות קול, המפתחים צריכים כמות עצומה של נתונים קוליים.
+wall-of-text-second = רוב המידע בו חברות גדולות עושות שימוש אינו זמין לרוב האנשים. אנו חושבים שמצב זה מעיב על חדשנות. לכן השקנו את Common Voice, מיזם שיסייע להפוך זיהוי קולי לפתוח ונגיש לכולם.
 show-wall-of-text = מידע נוסף
 help-us-title = עזרו לנו לאמת משפטים!
 help-us-explain = עליך ללחוץ על נגינה ולהאזין: האם המשפט שמופיע להלן הוקרא כראוי?
@@ -126,6 +134,36 @@ no-clips-to-validate = נראה שאין מקטעים להאזין להם בשפ
 vote-yes = כן
 vote-no = לא
 toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי להיכנס או לצאת ממצב השמעה
+speak-subtitle = תרומת הקול שלך
+speak-paragraph = הקלטת מקטעי קול היא חלק עיקרי בהרכבת ערכת נתונים, חלק גם יטענו שזה החלק הכיפי ביותר.
+speak-goal-text = מקטעים שהוקלטו
+listen-subtitle = ניתן לסייע לנו לאמת הקלטות
+listen-paragraph = אימות של מקטעים שנתרמו חשוב באותה מידה למטרה של Common Voice. נשמח לתרומה באימות האזנה ויצירת נתוני קול איכותיים בקוד פתוח.
+listen-goal-text = מקטעים שאומתו
+hours-recorded = שעות שהוקלטו
+hours-validated = שעות שאומתו
+voices-online = קולות מקוונים כעת
+todays-progress = ההתקדמות היומית
+help-reach-goal = נשמח לסיוע להגיע עד { $goal }
+read-terms-q = האם קראת את התנאים שלנו?
+ready-to-record = נוכל לקבל את הסכמתך לתרום את קולך?
+all-languages = כל השפות
+today = היום
+x-weeks-short =
+    { $count ->
+        [one] שבוע
+       *[other] { $count } שב׳
+    }
+x-months-short =
+    { $count ->
+        [one] חודש
+       *[other] { $count } חודשים
+    }
+x-years-short =
+    { $count ->
+        [one] שנה
+       *[other] { $count } שנים
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -171,8 +209,6 @@ english = אנגלית
 
 ## ProfileForm
 
-profile-form-cancel = יציאה מהטופס
-profile-form-delete = מחיקת פרופיל
 profile-form-username =
     .label = שם משתמש
 profile-form-language =
@@ -183,22 +219,51 @@ profile-form-age =
     .label = גיל
 profile-form-gender =
     .label = מגדר
+leaderboard-visibility =
+    .label = הופעה בטבלת המובילים
+hidden = מוסתר
+visible = גלוי
+native-language =
+    .label = שפת אם
 profile-form-submit-save = שמירה
 profile-form-submit-saved = נשמר
-profile-keep-data = שמירה על הנתונים
-profile-delete-data = מחיקת הנתונים
 male = זכר
 female = נקבה
 # Gender
 other = אחר
 why-profile-title = בשביל מה פרופיל?
 why-profile-text = אספקת מידע כלשהו עליך תהפוך את נתוני השמע שיוגשו אל Common Voice לשימושיים יותר למנגנוני זיהוי דיבור שמשתמשים במידע הזה לשיפור הדיוק שלהם.
+dashboard = לוח בקרה
+build-profile = בניית פרופיל
+avatar = דמות מייצגת
+goals = מטרות
+settings = הגדרות
 edit-profile = עריכת פרופיל
-profile-create = יצירת פרופיל
 profile-create-success = הצלחנו, הפרופיל נוצר!
 profile-close = סגירה
-profile-clear-modal = המשמעות שמאחורי מחיקת נתוני הפרופיל שלך היא שהנתונים הדמוגרפיים שלך לא יישלחו ל־Common Voice בצירוף להקלטות שלך.
 profile-explanation = ניתן לעקוב אחר התהליך שעברת בעזרת פרופיל ולסייע לנתוני הקול שלנו להיות מדויקים יותר
+thanks-for-account = תודה לך על אישור החשבון שלך, כעת הבה נבנה את הפרופיל שלך.
+why-demographic = למה  זה משנה?
+keep-me-posted =
+    .label = ברצוני לקבל עדכונים וחידושים ב־Common Voice.
+accept-privacy = מקובל עלי האופן בו המידע הזה מטופל כפי שמפורט ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla
+login-identity = זהות כניסה
+login-signup = כניסה / הרשמה
+edit = עריכה
+email-subscriptions = מינויי דוא״ל
+download-profile = הורדת הנתונים שלי
+contribution-experience = חוויית תרומה
+skip-submission-feedback = דילוג על משוב הגשה
+skip-submission-note = לתשומת לבך: עדיין יהיה עליך לבחור בין דיבור להאזנה כדי לשנות את סוג התרומה.
+off = כבוי
+on = פעיל
+add-avatar-title = הוספת דמות מייצגת לפרופיל שלך
+browse-file-title = העלאת קובץ תמונה
+browse-file = ניתן לגרור ולהשליך לכאן או <browseWrap>לעיין</browseWrap>
+connect-gravatar = התחברות עם Gravatar
+gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל שלך
+file_too_large = הקובץ שנבחר גדול מדי
+manage-subscriptions = ניהול מינויים
 
 ## FAQ
 
@@ -222,11 +287,6 @@ faq-hours-a = זה בערך מספר השעות הנדרש כדי לאמן מע�
 faq-source-q = מאיפה מגיע טקסט המקור?
 faq-source-a1 = המשפטים הנוכחיים נתרמו על ידי מתנדבים, כמו גם שיחות מתסריטים ששוחררו לרשות הכלל כגון <italic>אלו חיים נפלאים.</italic>
 faq-source-a2 = ניתן לצפות במשפטי המקור שלנו ב<dataLink>תיקיית ה־GitHub הזו</dataLink>.
-
-## Profile
-
-profile-why-title = למה ליצור פרופיל?
-profile-why-content = על ידי כך שנדע עליך יותר מידע, נתוני השמע שיוגשו על ידיך ל־Common Voice יועילו יותר למנגנוני זיהוי דיבור שמשתמשים בנתונים האלה כדי לשפר את הדיוק שלהם.
 
 ## NotFound
 
@@ -255,21 +315,6 @@ data-bundle-button = הורדת מאגד סדרת נתונים
 data-bundle-description = הנתונים של Common Voice יחד עם כל סדרות הנתונים האחרות שלהלן.
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
-
-## Record Page
-
-record-platform-not-supported = הפלטפורמה שלך אינה נתמכת בשלב זה, עמך הסליחה.
-record-platform-not-supported-desktop = במחשבים שולחניים, ניתן להוריד את העדכני ביותר:
-record-platform-not-supported-ios = משתמשי <bold>iOS</bold> יכולים להוריד את היישומון החינמי שלנו:
-record-must-allow-microphone = עליך לאפשר גישה למיקרופון.
-record-retry = ניסיון חוזר
-record-no-mic-found = לא אותר מיקרופון.
-record-error-too-short = ההקלטה הייתה קצרה מדי.
-record-error-too-long = ההקלטה הייתה ארוכה מדי.
-record-error-too-quiet = ההקלטה הייתה שקטה מדי.
-record-submit-success = נשלח בהצלחה! רוצה להקליט שוב?
-record-help = נא להקיש כדי להקליט, ולקרוא בקול רם את המשפט שלהלן.
-record-cancel = ביטול הקלטה מחדש
 review-terms = עצם השימוש ב־Common Voice מהווה הסכמה מצדך ל<termsLink>תנאים</termsLink> ול<privacyLink>הצהרת הפרטיות</privacyLink> שלנו
 terms-agree = מוסכם עלי
 terms-disagree = לא מוסכם עלי
@@ -313,8 +358,6 @@ request-language-success-content = נהיה בקשר כשיהיו פרטים נ�
 
 language-section-in-progress = בתהליך
 language-section-in-progress-description = שפות שנמצאות כעת בתהליך נבנות לצורכי תרומה על ידי הקהילות שלנו, ההתקדמות שלהן משקפת את המצב מבחינת תרגום האתר ושלבי איסוף המשפטים.
-language-section-launched = הושקה
-language-section-launched-description = האתרים של השפות שהושקו תורגמו במלואם ונאספו בעזרתם מספיק משפטים כדי לאפשר תרומה של <italic>{ speak }</italic> ושל <italic>{ listen }</italic>.
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
 language-speakers = דוברים
@@ -335,11 +378,19 @@ contribute = תרומה
 listen = האזנה
 skip = דילוג
 shortcuts = קיצורים
-clips = מקטעים
 goal-help-recording = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד ההקלטות היומי { $goalValue }!
 goal-help-validation = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד האימות היומי { $goalValue }!
 contribute-more = להגיש לך { $count } נוספים?
 record-cta = התחלת ההקלטה
+record-platform-not-supported = הפלטפורמה שלך אינה נתמכת בשלב זה, עמך הסליחה.
+record-platform-not-supported-desktop = במחשבים שולחניים, ניתן להוריד את העדכני ביותר:
+record-platform-not-supported-ios = משתמשי <bold>iOS</bold> יכולים להוריד את היישומון החינמי שלנו:
+record-must-allow-microphone = עליך לאפשר גישה למיקרופון.
+record-no-mic-found = לא אותר מיקרופון.
+record-error-too-short = ההקלטה הייתה קצרה מדי.
+record-error-too-long = ההקלטה הייתה ארוכה מדי.
+record-error-too-quiet = ההקלטה הייתה שקטה מדי.
+record-cancel = ביטול הקלטה מחדש
 record-instruction = { $actionType } <recordIcon></recordIcon> ולאחר מכן להקריא את המשפט בקול
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> כשסיימת
 record-three-more-instruction = עוד שלושה!
@@ -363,3 +414,13 @@ listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 nothing-to-validate = אין לנו שום דבר לאמת בשפה הזאת, נשמח לעזרתך למלא את התור.
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = מחיקת פרופיל

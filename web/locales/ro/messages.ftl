@@ -1,13 +1,15 @@
 ## General
 
-yes-receive-emails = Da, trimite-mi e-mailuri. Aș dori să fiu la curent cu proiectul Common Voice.
-stayintouch = La Mozilla construim o comunitate în jurul tehnologiei vocale. Dorim să te ținem la curent cu știri, noi surse de date și să auzim mai multe despre cum folosești aceste date.
-privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Află mai multe pe această temă în<privacyLink>Politica de confidențialitate</privacyLink>.
+yes-receive-emails = Da, vreau să primesc e-mailuri. Aș dori să primesc informații despre proiectul Common Voice.
+stayintouch = La Mozilla construim o comunitate în jurul tehnologiei vocale. Am vrea să te ținem la curent cu noutăți, surse noi de date și să aflăm mai multe despre cum folosești aceste date.
+privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Pentru mai multe informații, citește <privacyLink>Politica noastră de confidențialitate</privacyLink>.
 return-to-cv = Întoarce-te la Common Voice
 email-input =
     .label = E-mail
 submit-form-action = Trimite
 loading = Se încarcă…
+email-opt-in-privacy = Prin optarea pentru primirea de mesaje pe e-mail, declari că ești de acord ca Mozilla să gestioneze aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate<privacyLink> Mozilla.
+indicates-required = * Indică un câmp obligatoriu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Se încarcă…
 
 ## Languages
 
+ace = Acehneză
 an = Aragoneză
 ar = Arabă
 as = Assameză
 ast = Asturiană
 az = Azerbaidjană
+bg = Bulgară
 bn = Bengali
 br = Bretonă
 bxr = Buriată
@@ -37,6 +41,8 @@ en = Engleză
 eo = Esperanto
 es = Spaniolă
 et = Estonă
+eu = Bască
+fa = Persană
 fi = Finlandeză
 fo = Feroeză
 fr = Franceză
@@ -57,6 +63,7 @@ ko = Coreeană
 kpv = Komi-ziriană
 kw = Cornică
 ky = Kirghiză
+mdf = Moksha
 mk = Macedoneană
 mn = Mongolă
 myv = Erzya
@@ -68,10 +75,11 @@ oc = Occitană
 or = Odia
 pl = Poloneză
 pt-BR = Portugheză (Brazilia)
-rm = Retoromană
+rm-sursilv = Retoromană sursilvană
 ro = Română
 ru = Rusă
 sah = Sakha
+sc = Sardiniană
 sk = Slovacă
 sl = Slovenă
 sq = Albaneză
@@ -108,12 +116,10 @@ cookies = Cookie-uri
 faq = Întrebări frecvente
 content-license-text = Conținut disponibil sub o <licenseLink>licență Creative Commons</licenseLink>
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
-share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
+share-text = Ajută mașinile să învețe cum vorbesc oamenii reali, donează-ți vocea la { $link }
 link-copied = Link copiat
 back-top = Sus
-contribution-banner-text = Tocmai am lansat o nouă experiență pentru colaboratori
-contribution-banner-button = Aruncă o privire
-report-bugs-link = Ajută-ne prin raportarea de probleme
+logout = Deconectare
 
 ## Home Page
 
@@ -121,24 +127,27 @@ home-title = Proiectul Common Voice este inițiativa Mozilla pentru a ajuta maș
 home-cta = Donează-ți vocea, contribuie aici!
 wall-of-text-start = Vocea este naturală și umană. De aceea suntem fascinați de ideea creării unei tehnologii vocale utile pentru dispozitivele noastre. Dar pentru a crea sisteme vocale este necesar un volum mare de date vocale.
 wall-of-text-more-mobile = Cele mai multe dintre datele folosite de marile companii nu sunt disponibile pentru majoritatea oamenilor. Credem că este o piedică în calea inovației. De aceea am lansat proiectul Common Voice - ca să facem recunoașterea vocală o tehnologie deschisă pentru toți.
-wall-of-text-more-desktop = Acum îți poți dona vocea ajutându-ne să construim o bază de date vocală cu sursă deschisă, care poate fi utilizată de toți, ca să creăm aplicații inovatoare pentru dispozitive și web.<lineBreak></lineBreak>Citește o propoziție și ajută mașinile să învețe cum vorbesc oamenii reali. Verifică ce au lucrat alți colaboratori pentru a îmbunătăți calitatea. E chiar atât de simplu!
+wall-of-text-more-desktop = Acum îți poți dona vocea ajutându-ne să construim o bază de date vocală cu sursă deschisă, care poate fi utilizată de toți, ca să creăm aplicații inovatoare pentru dispozitive și web. Citește o propoziție și ajută mașinile să învețe cum vorbesc oamenii reali. Verifică ce au lucrat alți colaboratori pentru a îmbunătăți calitatea. E chiar atât de simplu!
 wall-of-text-first = Vocea este naturală și umană. De aceea suntem fascinați de ideea creării unei tehnologii vocale utile pentru dispozitivele noastre. Dar pentru a crea sisteme vocale este necesar un volum mare de date vocale.
 wall-of-text-second = Cele mai multe dintre datele folosite de marile companii nu sunt disponibile pentru majoritatea oamenilor. Credem că este o piedică în calea inovației. De aceea am lansat proiectul Common Voice - ca să facem recunoașterea vocală o tehnologie deschisă pentru toți.
 show-wall-of-text = Citește mai multe
 help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
-no-clips-to-validate = Se pare că nu există materiale audio în această limbă. Ajută-ne să umplem acest gol și înregistrează câteva acum.
+no-clips-to-validate = Se pare că nu există secvențe audio în această limbă. Ajută-ne să umplem acest gol și înregistrează câteva acum.
 vote-yes = Da
 vote-no = Nu
 toggle-play-tooltip = Apasă { shortcut-play-toggle } pentru a comuta modul de redare
 speak-subtitle = Donează-ți vocea
-speak-paragraph = Înregistrarea de materiale vocale este o parte integrantă a construcției setului nostru de date deschise; unii ar spune chiar că e partea distractivă.
-speak-goal-text = Clipuri înregistrate
+speak-paragraph = Înregistrează secvențe audio ca parte integrantă a construcției setului nostru de date deschise; unii ar spune chiar că e partea distractivă.
+speak-goal-text = Secvențe audio înregistrate
 listen-subtitle = Ajută-ne să validăm vocile
-listen-paragraph = Validarea secvențelor audio donate este la fel de importantă pentru misiunea Common Voice. Ascultă-le și ajută-ne să creăm date vocale cu sursă deschisă de calitate.
-listen-goal-text = Clipuri validate
+listen-paragraph = Validarea secvențelor audio donate este la fel de importantă pentru misiunea Common Voice. Ascultă și ajută-ne să creem date vocale de calitate și cu sursă deschisă.
+listen-goal-text = Secvențe audio validate
 hours-recorded = Ore înregistrate
 hours-validated = Ore validate
+voices-online = Voci online acum
+todays-progress = Progresul de astăzi
+help-reach-goal = Ajută-ne să ajungem la { $goal }
 read-terms-q = Ai citit termenii noștri de utilizare?
 ready-to-record = Ești gata să-ți donezi vocea?
 all-languages = Toate limbile
@@ -172,7 +181,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Redă/Oprește
+shortcut-play-toggle-label = Redare/Oprire
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -185,13 +194,13 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = Înregistrează/Oprește
+shortcut-record-toggle-label = Înregistrare/Oprire
 request-language-text = Încă nu îți vezi limba pe Common Voice?
 request-language-button = Solicită o limbă
 
 ## ProjectStatus
 
-status-title = Starea generală a proiectului: vezi cât de departe am ajuns!
+status-title = Stare generală proiect: vezi cât de departe am ajuns!
 status-contribute = Contribuie cu vocea ta
 status-hours =
     { $hours ->
@@ -206,8 +215,6 @@ english = Engleză
 
 ## ProfileForm
 
-profile-form-cancel = Ieși din formular
-profile-form-delete = Șterge profilul
 profile-form-username =
     .label = Nume de utilizator
 profile-form-language =
@@ -220,25 +227,26 @@ profile-form-gender =
     .label = Sex
 leaderboard-visibility =
     .label = Vizibilitate clasament
+hidden = Ascuns
+visible = Vizibil
 native-language =
-    .label = Limba nativă
+    .label = Limbă nativă
 profile-form-submit-save = Salvează
 profile-form-submit-saved = Salvate
-profile-keep-data = Păstrează datele
-profile-delete-data = Șterge datele
-male = Bărbat
-female = Femeie
+male = masculin
+female = feminin
 # Gender
 other = Altul
 why-profile-title = De ce un profil?
 why-profile-text = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date ca să le îmbunătățim acuratețea.
-edit-profile = Editează profilul
-profile-create = Creează un profil
+dashboard = Tablou de bord
+build-profile = Construiește profilul
+avatar = Avatar
+goals = Obiective
+settings = Setări
+edit-profile = Editare profil
 profile-create-success = Succes, profil creat!
-profile-close = Închide
-profile-clear-modal =
-    Ștergerea datelor tale de profil înseamnă că aceste informații demografice nu vor mai fi trimise la Common Voice cu
-    înregistrările tale.
+profile-close = Închidere
 profile-explanation = Urmărește-ți progresul cu ajutorul unui profil și ajută-ne să sporim acuratețea datelor noastre vocale.
 thanks-for-account = Îți mulțumim pentru confirmarea contului. Acum, să îți construim profilul.
 why-demographic = De ce contează?
@@ -247,6 +255,7 @@ keep-me-posted =
     .label = Aș dori actualizări și să fiu la curent cu ce se întâmplă pe Common Voice.
 accept-privacy = Sunt de acord să gestionați aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla
 login-identity = Identitate de autentificare
+login-signup = Autentificare / Înregistrare
 edit = Editează
 email-subscriptions = Abonamente e-mail
 download-profile = Descarcă-mi datele
@@ -256,6 +265,15 @@ skip-submission-description = În timpul colaborării, se va sări peste feedbac
 skip-submission-note = Obs: Tot va trebui să selectezi Vorbește sau Ascultă pentru a modifica tipul de colaborare.
 off = Dezactivat
 on = Activat
+add-avatar-title = Adaugă un avatar la profilul tău
+browse-file-title = Încarcă un fișier de imagine
+browse-file = Trage și plasează sau <browseWrap>Navighează</browseWrap>
+connect-gravatar = Conectează-te cu Gravatar
+gravatar_not_found = Nu s-a găsit niciun gravatar pentru e-mailul tău
+file_too_large = Fișierul selectat este prea mare
+manage-subscriptions = Gestionează abonamentele
+email-already-used = Adresa de e-mail este deja utilizată pentru alt cont
+add-language = Adaugă o limbă
 
 ## FAQ
 
@@ -280,11 +298,6 @@ faq-source-q = De unde provine textul-sursă?
 faq-source-a1 = Propozițiile actuale sunt donații de la colaboratori, precum și dialoguri din scenarii de filme din domeniul public, cum ar fi <italic>La vita è bella (Viața e frumoasă)</italic>.
 faq-source-a2 = Poți vedea propozițiile-sursă în <dataLink>acest dosar GitHub</dataLink>.
 
-## Profile
-
-profile-why-title = De ce un profil?
-profile-why-content = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mult mai utile în motoarele de recunoaștere a vorbirii, care le folosesc pentru a-și îmbunătăți acuratețea.
-
 ## NotFound
 
 notfound-title = Nu a fost găsit
@@ -307,33 +320,18 @@ data-other-librispeech-description = LibriSpeech este un corp de date de aproxim
 data-other-ted-name = Corpusul TED-LIUM
 data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile aferente, disponibile pe site-ul TED.
 data-other-voxforge-description = VoxForge a fost configurat să colecteze transcrieri de vorbire pentru utilizarea în motoare de recunoaștere vocală gratuite și cu sursă deschisă.
-data-other-tatoeba-description = Tatoeba este o bază mare de date cu propoziții, traduceri și materiale audio de limbă vorbită, de folosit la învățarea limbilor. Această descărcare conține secvențe de limba engleză vorbită înregistrate de comunitatea lor.
+data-other-tatoeba-description = Tatoeba este o bază mare de date cu propoziții, traduceri și secvențe audio de limbă vorbită, de folosit la învățarea limbilor. Această descărcare conține secvențe de limba engleză vorbită înregistrate de comunitatea lor.
 data-bundle-button = Descarcă pachetul cu setul de date
 data-bundle-description = Datele Common Voice plus toate celelalte seturi de date de mai sus.
 license = Licență: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixtă
-
-## Record Page
-
-record-platform-not-supported = Ne pare rău, dar platforma ta nu este suportată momentan.
-record-platform-not-supported-desktop = Pe calculatoare tip desktop, poți descărca cele mai recente:
-record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
-record-must-allow-microphone = Trebuie să permiți accesul la microfon.
-record-retry = Reîncearcă
-record-no-mic-found = Nu a fost găsit niciun microfon.
-record-error-too-short = Înregistrarea a fost prea scurtă.
-record-error-too-long = Înregistrarea a fost prea lungă.
-record-error-too-quiet = Volumul înregistrării este prea mic.
-record-submit-success = Trimitere reușită! Vrei să înregistrezi din nou?
-record-help = Atinge pentru înregistrare, apoi citește cu voce tare propoziția de mai sus.
-record-cancel = Anulează reînregistrarea
-review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Politica de confidențialitate</privacyLink>
+review-terms = Prin utilizarea Common Voice, agreezi <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
 terms-agree = De acord
 terms-disagree = Nu sunt de acord
 review-aborted = Încărcare abandonată. Vrei să-ți ștergi înregistrările?
-review-submit-title = Verifică și trimite
-review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum verifică înregistrările de mai jos și trimite-le.
-review-recording = Verifică
+review-submit-title = Revezi și trimite
+review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum revezi secvențele audio de mai jos și trimite-le.
+review-recording = Revezi
 review-rerecord = Înregistrează din nou
 review-cancel = Anulează trimiterea
 review-keep-recordings = Păstrează înregistrările
@@ -371,14 +369,14 @@ request-language-success-content = Vom reveni în curând cu mai multe informaț
 language-section-in-progress = În lucru
 language-section-in-progress-description = Limbile în lucru sunt momentan construite pentru contribuții din partea comunităților noastre; avansul lor reflectă stadiul la care au ajuns în cadrul fazelor de localizare a site-urilor web și de colectare de propoziții.
 language-section-launched = Lansate
-language-section-launched-new-description = Site-ul web a fost localizat cu succes pentru aceste limbi lansate și deține suficiente propoziții colectate pentru a permite contribuții curente tip <italic>voribre</italic> și <italic>ascultare</italic>.
+language-section-launched-new-description = Site-ul web a fost localizat cu succes pentru aceste limbi lansate și deține suficiente propoziții colectate pentru a permite contribuții curente tip <italic>Vorbește</italic> și <italic>Ascultă</italic>.
 languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
 language-speakers = Vorbitori
 language-meter-in-progress = Progres
 language-total-progress = Total
 language-search-input =
-    .placeholder = Căutare
+    .placeholder = Caută
 language-speakers = Vorbitori
 localized = Localizat
 sentences = Propoziții
@@ -391,8 +389,8 @@ action-tap = Atinge
 contribute = Contribuie
 listen = Ascultă
 skip = Sari peste
-shortcuts = Scurtături
-clips-with-count = <bold><bold>{ $count }</bold> clipuri
+shortcuts = Comenzi rapide
+clips-with-count = <bold><bold>{ $count }</bold> secvențe audio
 goal-help-recording = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } înregistrări!
 goal-help-validation = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } validări!
 contribute-more =
@@ -402,26 +400,79 @@ contribute-more =
        *[other] Gata pentru încă { $count }?
     }
 record-cta = Începe înregistrarea
+record-platform-not-supported = Ne pare rău, dar platforma ta nu este suportată momentan.
+record-platform-not-supported-desktop = Pe calculatoare tip desktop, poți descărca cele mai recente:
+record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
+record-must-allow-microphone = Trebuie să permiți accesul la microfon.
+record-no-mic-found = Nu a fost găsit niciun microfon.
+record-error-too-short = Înregistrarea a fost prea scurtă.
+record-error-too-long = Înregistrarea a fost prea lungă.
+record-error-too-quiet = Volumul înregistrării este prea mic.
+record-cancel = Anulează reînregistrarea
 record-instruction = { $actionType }<recordIcon></recordIcon> apoi citește propoziția cu voce tare
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> când ai terminat
 record-three-more-instruction = Au mai rămas trei!
 record-again-instruction = Perfect!<recordIcon></recordIcon> Înregistrează următoarea secvență audio
 record-again-instruction2 = Ține-o tot așa! Înregistrează din nou <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ultima!
-review-tooltip = Aici revezi și reînregistrezi clipuri din mers
+review-tooltip = Aici revezi și reînregistrezi secvențe audio din mers
 unable-speak = Nu poți vorbi acum?
-review-instruction = Revede și re-înregistrează clipuri audio dacă este nevoie
+review-instruction = Revezi și reînregistrează secvențe audio dacă este nevoie
 record-submit-tooltip = { $actionType } trimite când ești gata
-clips-uploaded = Clipuri încărcate
+clips-uploaded = Secvențe audio încărcate
 record-abort-title = Finalizezi înregistrarea mai întâi?
 record-abort-text = Dacă ieși acum vei pierde tot ce ai lucrat
-record-abort-submit = Trimite clipurile
+record-abort-submit = Trimite secvențele audio
 record-abort-continue = Finalizează înregistrarea
-record-abort-delete = Ieși și șterge clipurile
+record-abort-delete = Ieși și șterge secvențele audio
 listen-instruction = { $actionType }<playIcon></playIcon> a pronunțat corect propoziția?
-listen-again-instruction = Bine lucrat!<playIcon></playIcon> Ascultă din nou când ești gata
+listen-again-instruction = Ai lucrat bine!<playIcon></playIcon> Ascultă din nou când ești gata
 listen-3rd-time-instruction = Ai terminat 2. Ține-o tot așa!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ultima!
 nothing-to-validate = Nu avem nimic de validat în această limbă. Ajută-ne să umplem acest gol.
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
+
+## Goals
+
+streaks = Contribuții constante
+days =
+    { $count ->
+        [one] zi
+        [few] zile
+       *[other] de zile
+    }
+recordings =
+    { $count ->
+        [one] înregistrare
+        [few] înregistrări
+       *[other] de înregistrări
+    }
+validations =
+    { $count ->
+        [one] validare
+        [few] validări
+       *[other] de validări
+    }
+
+## Dashboard
+
+toward-next-goal = Spre obiectivul următor
+stats = Statistici
+you = Tu
+everyone = Toată lumea
+contribution-activity = Activitate de contribuții
+top-contributors = Colaboratori de top
+recorded-clips = Secvențe audio înregistrate
+validated-clips = Secvențe audio validate
+total-approved = Total aprobate
+overall-accuracy = Acuratețe generală
+
+## Profile Delete
+
+delete-q = Ai dori să soliciți și ștergerea înregistrărilor tale de voce sau ai prefera să le păstrezi în setul de date Common Voice?
+keep = Păstrează
+remove = Elimină
+keep-info = Înregistrările tale anonime de voce vor rămâne în setul de date Common Voice. Odată șters profilul, nu vei mai putea să depui o cerere pentru eliminarea lor din setul de date
+remove-info = Îți vom analiza cererea de eliminare a înregistrărilor tale de voce din setul de date. Dacă cererea va fi aprobată, îi vom contacta pe cei care au descărcat setul de date și le vom cere să îți elimine și ei înregistrările de voce.
+profile-form-delete = Șterge profilul

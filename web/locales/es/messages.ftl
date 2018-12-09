@@ -66,7 +66,6 @@ nn-NO = Noruego Nynorsk
 or = Odia
 pl = Polaco
 pt-BR = Portugués (Brasil)
-rm = Romanche
 ro = Rumano
 ru = Ruso
 sah = Yakuto
@@ -217,6 +216,16 @@ profile-close = Cerrar
 profile-clear-modal = Limpiar los datos del perfil implica que tu información demográfica ya no será enviada a Common Voice junto con tus grabaciones.
 profile-explanation = Ve tu progreso con un perfil y ayuda a nuestros datos de voz a ser más precisos.
 thanks-for-account = Gracias por confirmar tu cuenta, ahora vamos a crear tu perfil
+why-demographic = ¿Por qué es esto importante?
+why-demographic-explanation = Datos anónimos de usuarios tales como edad, sexo y acento ayudan a mejorar los datos de audio utilizados para entrenar la precisión de los motores de reconocimiento de voz. Tu nombre de usuario y email nunca se asociarán a tus datos enviados y puedes elegir si hacer tu nombre de usuario público o anónimo.
+keep-me-posted =
+    .label = Me gustaría recibir actualizaciones para mantenerme al día de los avances de Common Voice.
+accept-privacy = Estoy de acuerdo con que se utilice esta información tal y como se explica en la <privacyLink>política de privacidad</privacyLink> de Mozilla
+login-identity = Identidad de inicio de sesión
+edit = Editar
+email-subscriptions = Suscripciones por correo electrónico
+download-profile = Descargar mis datos
+contribution-experience = Experiencia de colaboración
 
 ## FAQ
 

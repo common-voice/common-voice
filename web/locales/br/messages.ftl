@@ -8,6 +8,8 @@ email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
+email-opt-in-privacy = En ur asantiñ d'ar fet da resevout posteloù, e tiskouezit bezañ a-du war ar fet ma verfe Mozilla an titouroù-mañ evel ma vez displeget e-barzh <privacyLink>Politikerezh Prevezded<privacyLink> Mozilla.
+indicates-required = * A ziskouez ar maeziennoù rekizet
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = O kargañ...
 
 ## Languages
 
+ace = Aseneg
 an = Aragoneg
 ar = Arabeg
 as = Asameg
 ast = Asturieg
 az = Azerbaidjaneg
+bg = Bulgareg
 bn = Bengaleg
 br = Brezhoneg
 bxr = Bouriat
@@ -37,6 +41,8 @@ en = Saozneg
 eo = Esperanto
 es = Spagnoleg
 et = Estoneg
+eu = Euskareg
+fa = Perseg
 fi = Finneg
 fo = Faeroeg
 fr = Galleg
@@ -57,6 +63,7 @@ ko = Koreaneg
 kpv = Komi-Zyrian
 kw = Kerneveureg
 ky = Kirgizeg
+mdf = Moksha
 mk = Makedoneg
 mn = Mongoleg
 myv = Erzya
@@ -68,10 +75,11 @@ oc = Okitaneg
 or = Oriya
 pl = Poloneg
 pt-BR = Portugaleg (Brazil)
-rm = Romancheg
+rm-sursilv = Romanch sursilvan
 ro = Roumaneg
 ru = Rusianeg
 sah = Sakha
+sc = Sardinieg
 sk = Slovakeg
 sl = Sloveneg
 sq = Albaneg
@@ -111,9 +119,7 @@ share-title = Sikourit ac'hanomp da gavout tud all da reiñ o mouezh!
 share-text = Sikourit ar mekanikoù da gompren penaos e komz an dud wirion, roit ho mouezh da { $link }
 link-copied = Liamm eilet
 back-top = Distreiñ d'ar c'hrec'h
-contribution-banner-text = Emaomp o paouez ouzhpennañ un doare nevez da gemer-perzh
-contribution-banner-button = Esaeit 'ta
-report-bugs-link = Skoazellit da zanevelliñ beugoù
+logout = Digevreañ
 
 ## Home Page
 
@@ -139,6 +145,9 @@ listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Commo
 listen-goal-text = Klipoù gwiriet
 hours-recorded = Eurvezhioù enrollet
 hours-validated = Eurvezhioù gwiriet
+voices-online = Mouezhioù enlinenn bremañ
+todays-progress = Araokadur an deiz
+help-reach-goal = Sikourit ac'hanomp mont betek { $goal }
 read-terms-q = Ha lennet hoc'h eus on Termenoù?
 ready-to-record = Prest oc'h da reiñ ho mouezh?
 all-languages = An holl yezhoù
@@ -214,8 +223,6 @@ english = Saozneg
 
 ## ProfileForm
 
-profile-form-cancel = Kuitaat ar furmskrid
-profile-form-delete = Dilemel ar profil
 profile-form-username =
     .label = Anv implijer
 profile-form-language =
@@ -226,32 +233,55 @@ profile-form-age =
     .label = Oad
 profile-form-gender =
     .label = Jener
+leaderboard-visibility =
+    .label = Diskwel foran
+hidden = Kuzhet
+visible = Hewel
 native-language =
     .label = Yezh c'henidik
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
-profile-keep-data = Mirout ar roadennoù
-profile-delete-data = Dilemel ar roadennoù
 male = Paotr
 female = Plac'h
 # Gender
 other = All
 why-profile-title = Perak ur profil?
 why-profile-text = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
+dashboard = Taolenn-stur
+build-profile = Sevel ar profil
+avatar = Avatar
+goals = Palioù
+settings = Arventennoù
 edit-profile = Aozañ ar profil
-profile-create = Krouiñ ur profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
-profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù son.
 profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
 thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
 why-demographic = Perak e vez pouezus?
 why-demographic-explanation = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
+keep-me-posted =
+    .label = C'hoant em befe tennañ gounit eus an hizivadurioù ha bezañ gouzout penaos ez a war-raok ar raktres Common Voice.
+accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e-barzh <privacyLink>Politikerezh Buhez Prevez</privacyLink> Mozilla
+login-identity = Identelezh kevreañ
+login-signup = Kevreañ / Lakaat e anv
 edit = Aozañ
 email-subscriptions = Koumanantoù d'ar roll-bosteloù
 download-profile = Pellgargañ ma roadennoù
+contribution-experience = Skiant-prenet kendaolañ
+skip-submission-feedback = Tremen e-biou ar gasadenn menoioù
+skip-submission-description = E-pad ar gasadenn gendaolañ, graet e vo fae ouzh an evezhiadennoù ur wech kliket war «Kas». Kenderc'hel a raio ar c'hendaolañ war-eeun gant un heuliadenn a 5 enrolladenn pe kadarnadenn.
+skip-submission-note = Notennit eta: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
 off = Lazhet
 on = Enaouet
+add-avatar-title = Ouzhpennañ un avatar d'ho profil
+browse-file-title = Pellgasit ur restr skeudenn
+browse-file = Rinklañ-leuskel pe <browseWrap>Verdeit</browseWrap>
+connect-gravatar = Kevreañ gant Gravatar
+gravatar_not_found = Gravatar ebet kavet evit ho postel
+file_too_large = Re vras eo ar restr diuzet
+manage-subscriptions = Merañ ar c'houmanantoù
+email-already-used = Ar postel a zo implijet dija evit ur gont all
+add-language = Ouzhpennañ ur yezh
 
 ## FAQ
 
@@ -276,11 +306,6 @@ faq-source-q = Eus pelec'h e teu an testennoù?
 faq-source-a1 = Ar frazennoù a zo anezho evit ar mare a zeu eus roadennoù ar perzhidi, met ivez eus eskemmoù filmoù 'zo hag a zo en domani foran evel <italic>It's a Wonderful Life.</italic>.
 faq-source-a2 = Gallout a rit gwelet mammennoù hor frazennoù en teuliad <dataLink>Github-mañ</dataLink>.
 
-## Profile
-
-profile-why-title = Perak ur profil?
-profile-why-content = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
-
 ## NotFound
 
 notfound-title = N'eo ket bet kavet
@@ -295,7 +320,7 @@ data-download-license = Lañvaz: <licenseLink>CC-0</licenseLink>
 data-download-modal = Emaoc'h o vont da bellgargañ ur restr a <size>{ $size }GO</size>, stagañ ganti?
 data-subtitle = Emaomp o krouiñ un hollad roadennoù mouezh digor hag hegerz a c'hallo bezañ adimplijet gant an holl evit sevel arloadoù a implij ar vouezh.
 data-explanatory-text = Soñjal a ra deomp e c'hall pikoloù holladoù roadennoù foran degas krouüsted ha diazezañ ur gevezerezh yac'h evit teknologiezh ar mekanikoù emzeskiñ war ar vouezh. Ur striv bedel eo ha pediñ a reomp pep hini da gemer-perzh ennañ. Lakaat teknologiezh ar vouezh da gemer pep hini e kont eo hor pal. Evit se e fell deomp kaout un alberz eus liesseurted mouezhioù ar bed.
-data-get-started = <speechBlogLink>Kregiñ gant anaout ar vouezh</speechBlogLink>
+data-get-started = <speechBlogLink>Kregiñ da anaout ar vouezh</speechBlogLink>
 data-other-title = Hollad roadennoù gant mouezhioù all...
 data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
@@ -308,21 +333,6 @@ data-bundle-button = Pellgargañ un hollad roadennoù
 data-bundle-description = Hollad roadennoù Common Voice mui an holl holladoù roadennoù mouezh all a-us.
 license = Lañvaz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
-
-## Record Page
-
-record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
-record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
-record-platform-not-supported-ios = Implijerien <bold>iOS</bold> a c'hall pellgargañ hon arload digoust:
-record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
-record-retry = Klask en-dro
-record-no-mic-found = Mikrofon ebet kavet.
-record-error-too-short = Re verr e oa an enrolladenn.
-record-error-too-long = Re hir e oa an enrolladenn.
-record-error-too-quiet = Re sioul e oa an enrolladenn.
-record-submit-success = Kaset gant berzh! C'hoant ho peus da enrollañ c'hoazh?
-record-help = Pouezit evit enrollañ ha lennit ar frazenn a vouezh uhel.
-record-cancel = Nullañ an adenrollañ
 review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
@@ -389,10 +399,19 @@ listen = Selaou
 skip = Mont hebioù
 shortcuts = Berradurioù
 clips-with-count = <bold>{ $count }</bold> a glipoù
-goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal enrollañ pemdeziek { $goalValue }!
-goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal gwiriañ pemdeziek { $goalValue }!
+goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue }  a frazennoù enrollet bemdez!
+goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue }  a frazennoù gwiriet bemdez!
 contribute-more = Prest d'ober { $count } ouzhpenn?
-record-cta = Kregiñ da enrollañ
+record-cta = Enrollañ
+record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
+record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
+record-platform-not-supported-ios = Implijerien <bold>iOS</bold> a c'hall pellgargañ hon arload digoust:
+record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
+record-no-mic-found = Mikrofon ebet kavet.
+record-error-too-short = Re verr e oa an enrolladenn.
+record-error-too-long = Re hir e oa an enrolladenn.
+record-error-too-quiet = Re sioul e oa an enrolladenn.
+record-cancel = Nullañ an adenrollañ
 record-instruction = { $actionType }<recordIcon></recordIcon> da c'houde, lennit ar frazenn a vouezh uhel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ur wech echu
 record-three-more-instruction = Tri c'hoazh!
@@ -416,3 +435,53 @@ listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
 nothing-to-validate = N'eus mann da wiriañ evit ar yezh-mañ, skoazellit ac'hanomp da leuniañ ar steudad-c'hortoz.
 record-button-label = Enrollit ho mouezh
 share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
+
+## Goals
+
+streaks = Rezennoù
+days =
+    { $count ->
+        [one] Deiz
+        [two] Deiz
+        [few] Deiz
+        [many] a zeizioù
+       *[other] Deiz
+    }
+recordings =
+    { $count ->
+        [one] Enrolladenn
+        [two] Enrolladenn
+        [few] Enrolladenn
+        [many] a enrolladennoù
+       *[other] Enrolladenn
+    }
+validations =
+    { $count ->
+        [one] Gadarnadenn
+        [two] Gadarnadenn
+        [few] Kadarnadenn
+        [many] a gadarnadennoù
+       *[other] Kadarnadenn
+    }
+
+## Dashboard
+
+toward-next-goal = Betek ar pal da zont
+stats = Stats
+you = C'hwi
+everyone = An holl
+contribution-activity = Oberiantiz ar c'hemer-perzh
+top-contributors = Perzhidi pennañ
+recorded-clips = Klipoù enrollet
+validated-clips = Klipoù gwiriekaet
+total-approved = Hollad asantet
+overall-accuracy = Spisder hollek
+
+## Profile Delete
+
+delete-q = Ha fellout a ra deoc'h goulenn ivez ma vefe dilamet hoc'h enrolladennoù, pe mod-all e kavit gwelloc'h e vefent miret e-barzh diaz-roadennoù Common Voice?
+keep = Mirout
+remove = Dilemel
+keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh diaz-roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest kas ur goulenn dilemel ken war hoc'h enrolladennoù diwar an diaz-roadennoù
+remove-info = Sellout a raimp a dostoc'h d'ho koulenn dilamadur enrolladennoù mouezh diwar an hollad roadennoù. Ma vez aprouet ho koulenn, mont a raimp e darempred gant an dud o deus pellgarget an diaz-roadennoù hag e c'houlennimp dilemel diganto dilemel hoc'h enrolladennoù ken eeun ha tra.
+profile-form-delete = Dilemel ar profil

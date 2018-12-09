@@ -36,11 +36,8 @@ export function createCrossLocaleBundleGenerator(
 
   localeMessages = localeMessages
     .filter(([locale]) => currentLocales.includes(locale))
-    .sort(
-      ([locale1], [locale2]) =>
-        currentLocales.indexOf(locale1) > currentLocales.indexOf(locale2)
-          ? 1
-          : -1
+    .sort(([locale1], [locale2]) =>
+      currentLocales.indexOf(locale1) > currentLocales.indexOf(locale2) ? 1 : -1
     );
 
   return asBundleGenerator(localeMessages);

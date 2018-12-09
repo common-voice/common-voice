@@ -1,18 +1,29 @@
 import { Localized } from 'fluent-react/compat';
-import pick = require('lodash.pick');
+const pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Redirect, Route, Switch } from 'react-router';
-import { UserClient } from '../../../../../common/user-clients';
 import { NavLink } from 'react-router-dom';
+import { UserClient } from 'common/user-clients';
 import { User } from '../../../stores/user';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
-import { CameraIcon, ToggleIcon, UserIcon } from '../../ui/icons';
+import {
+  BarChartIcon,
+  CameraIcon,
+  CloudIcon,
+  CogIcon,
+  TrashIcon,
+  UserIcon,
+  UserPlusIcon,
+} from '../../ui/icons';
 import { Button } from '../../ui/ui';
+import AvatarSetup from './avatar-setup/avatar-setup';
+import DeleteProfile from './delete/delete';
+import Goals from './goals/goals';
 import InfoPage from './info/info';
-import Preferences from './preferences/preferences';
+import Settings from './settings/settings';
 
 import './layout.css';
 
@@ -53,65 +64,77 @@ interface PropsFromState {
 interface Props extends LocalePropsFromState, PropsFromState {}
 
 const Layout = ({ toLocaleRoute, user }: Props) => {
-  const infoRoute = toLocaleRoute(URLS.PROFILE_INFO);
-  const avatarRoute = toLocaleRoute(URLS.PROFILE_AVATAR);
-  const prefRoute = toLocaleRoute(URLS.PROFILE_PREFERENCES);
+  const [infoRoute, avatarRoute, goalsRoute, prefRoute, deleteRoute] = [
+    URLS.PROFILE_INFO,
+    URLS.PROFILE_AVATAR,
+    URLS.PROFILE_GOALS,
+    URLS.PROFILE_SETTINGS,
+    URLS.PROFILE_DELETE,
+  ].map(r => toLocaleRoute(r));
   return (
     <div className="profile-layout">
       <div className="profile-nav">
         <div className="links">
-          <NavLink to={infoRoute}>
-            <UserIcon />
-            <span className="text">{user.account ? '' : 'Build '}Profile</span>
-          </NavLink>
-          {false && (
-            <NavLink to={avatarRoute}>
-              <CameraIcon />
-              <span className="text">Avatar</span>
+          {[
+            {
+              route: infoRoute,
+              ...(user.account
+                ? { icon: <UserIcon />, id: 'profile' }
+                : { icon: <UserPlusIcon />, id: 'build-profile' }),
+            },
+            { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
+            { route: goalsRoute, icon: <BarChartIcon />, id: 'goals' },
+            { route: prefRoute, icon: <CogIcon />, id: 'settings' },
+            {
+              route: deleteRoute,
+              icon: <TrashIcon />,
+              id: 'profile-form-delete',
+            },
+          ].map(({ route, icon, id }) => (
+            <NavLink key={route} to={route}>
+              {icon}
+              <Localized id={id}>
+                <span className="text" />
+              </Localized>
             </NavLink>
+          ))}
+          {user.account && (
+            <a onClick={() => downloadData(user.account)} href="#">
+              <CloudIcon />
+              <Localized id="download-profile">
+                <span className="text" />
+              </Localized>
+            </a>
           )}
-          <NavLink to={prefRoute}>
-            <ToggleIcon />
-            <span className="text">Preferences</span>
-          </NavLink>
         </div>
-
-        {user.account && (
-          <div className="buttons">
-            <Localized id="download-profile">
-              <Button
-                rounded
-                outline
-                onClick={() => downloadData(user.account)}
-              />
-            </Localized>
-          </div>
-        )}
       </div>
       <div className="content">
         <Switch>
           <Route exact path={infoRoute} component={InfoPage} />
-          {false && (
+          {[
+            { route: avatarRoute, Component: AvatarSetup },
+            { route: goalsRoute, Component: Goals },
+            { route: prefRoute, Component: Settings },
+            { route: deleteRoute, Component: DeleteProfile },
+          ].map(({ route, Component }) => (
             <Route
+              key={route}
               exact
-              path={avatarRoute}
+              path={route}
               render={props =>
-                user.account ? null : <Redirect to={infoRoute} />
+                user.account ? <Component /> : <Redirect to={infoRoute} />
               }
             />
-          )}
+          ))}
           <Route
-            exact
-            path={prefRoute}
-            render={props =>
-              user.account ? <Preferences /> : <Redirect to={infoRoute} />
-            }
+            render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}
           />
         </Switch>
       </div>
     </div>
   );
 };
+
 export default connect<PropsFromState>(({ user }: StateTree) => ({ user }))(
   localeConnector(Layout)
 );

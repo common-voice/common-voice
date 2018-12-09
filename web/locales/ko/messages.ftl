@@ -15,15 +15,19 @@ loading = 로딩중…
 
 ## Languages
 
+ace = 아체어
 an = 아라곤어
 ar = 아랍어
 as = 아삼어
 ast = 아스투리아스어
 az = 아제르바이잔어
+bg = 불가리아어
 bn = 벵골어
 br = 브르타뉴어
 bxr = 부랴트어
 ca = 카탈로니아어
+cak = 마야어
+cnh = 하카어
 cs = 체코어
 cv = 추바시어
 cy = 웨일스어
@@ -35,6 +39,8 @@ en = 영어
 eo = 에스페란토어
 es = 스페인어
 et = 에스토니아어
+eu = 바스크어
+fa = 페르시아어
 fi = 핀란드어
 fo = 페로어
 fr = 프랑스어
@@ -55,19 +61,23 @@ ko = 한국어
 kpv = 코미지리안어
 kw = 콘월어
 ky = 키르기스스탄어
+mdf = 목샤어
 mk = 마케도니아어
+mn = 몽골어
 myv = 에르자어
 nb-NO = 노르웨이어 보크몰
 ne-NP = 네팔어
 nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
+oc = 오크어
 or = 오리야어
 pl = 폴란드어
 pt-BR = 포르투갈어(브라질)
-rm = 로만슈어
+rm-sursilv = 로만슈 수르실반어
 ro = 루마니아어
 ru = 러시아어
 sah = 사하어
+sc = 사르데냐어
 sk = 슬로바키아어
 sl = 슬로베니아어
 sq = 알바니아어
@@ -81,6 +91,7 @@ tt = 타타르어
 uk = 우크라이나어
 ur = 우르두어
 uz = 우즈베키스탄어
+vi = 베트남어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
 zh-TW = 중국어(중화민국)
@@ -106,8 +117,7 @@ share-title = 다른 사람들이 목소리를 기부할 수 있게 도와주세
 share-text = 실제로 사람들이 말하는 방식을 프로그램에 추가하고, 자신의 목소리를 { $Link }에 기부해주세요
 link-copied = 링크 복사됨
 back-top = 처음으로 돌아가기
-contribution-banner-button = 살펴보기
-report-bugs-link = 버그 신고
+logout = 로그아웃
 
 ## Home Page
 
@@ -118,6 +128,8 @@ wall-of-text-more-mobile = 큰 기업에서 사용하는 대부분의 데이터�
 wall-of-text-more-desktop =
     이제 기기와 웹을 위한 혁신적인 앱을 누구나 만들 수 있도록 오픈 소스 음성 데이터베이스를 만드는 데에 기여할 수 있습니다.<lineBreak></lineBreak>
     문장을 읽어서 기계가 실제 사람들이 어떻게 말하는지를 배울 수 있게 해 주세요. 다른 기여자의 작업을 확인하고 품질을 높여주세요. 아주 간단하답니다!
+wall-of-text-first = 목소리는 자연적이고 사람을 나타냅니다. 그래서 우리는 기계를 위한 사용할 만한 음성 기술을 만들고자 하게 되었습니다. 하지만 음성 시스템을 만들기 위해서 개발자는 매우 많은 양의 데이타가 필요합니다.
+wall-of-text-second = 큰 기업에서 사용하는 대부분의 데이터는 일반 사람들이 사용할 수 없습니다. 이는 혁신을 저지하는 것입니다. 그래서 우리는 모두에게 열려있는 Common Voice 프로젝트를 시작했습니다.
 show-wall-of-text = 더 알아보기
 help-us-title = 문장을 확인하는 것을 도와주세요!
 help-us-explain = 재생 버튼을 누르고, 듣고, 말해주기: 아래의 문장을 정확히 읽었나요?
@@ -126,10 +138,16 @@ vote-yes = 네
 vote-no = 아니요
 toggle-play-tooltip = { shortcut-play-toggle } 버튼을 눌러 재생 모드 전환
 speak-subtitle = 목소리를 기부해주세요
+speak-paragraph = 음성 클립을 녹음하는 것은 개방형 데이터 세트를 구축하는 데 있어 필수적인 부분이며, 일부는 이것이 재미있는 부분이라고 말할 수도 있습니다.
 speak-goal-text = 클립 기록완료
+listen-subtitle = 음성 유효성 확인을 도와주세요.
+listen-paragraph = 기부된 클립의 유효성을 확인하는 것도 Common Voice 사명에 똑같이 중요합니다. 귀를 기울여 고품질 오픈 소스 음성 데이터를 생성할 수 있도록 도와주세요.
 listen-goal-text = 클립 검증완료
 hours-recorded = 시간 기록완료
 hours-validated = 시간 검증완료
+voices-online = 현재 온라인인 보이스
+todays-progress = 오늘의 성과
+help-reach-goal = { $goal }를 달성하도록 도와주세요.
 read-terms-q = 약관을 읽어보셨나요?
 ready-to-record = 목소리를 기부할 준비가 되셨나요?
 all-languages = 모든 언어
@@ -201,6 +219,12 @@ profile-form-age =
     .label = 나이
 profile-form-gender =
     .label = 성별
+leaderboard-visibility =
+    .label = 리더 보드 공개 설정
+hidden = 숨김
+visible = 보이기
+native-language =
+    .label = 모국어
 profile-form-submit-save = 저장
 profile-form-submit-saved = 저장됨
 profile-keep-data = 데이터 보관
@@ -211,12 +235,42 @@ female = 여자
 other = 그외
 why-profile-title = 왜 사용자 정보가 필요한가요?
 why-profile-text = 사용자에 대한 정보를 제공함으로써 Common Voice에 제출하는 오디오 데이터는 이 데이터를 사용하여 정확성을 향상시키는 음성 인식 엔진에 더 유용하게 사용됩니다.
+dashboard = 대시보드
+build-profile = 프로필 만들기
+avatar = 아바타
+goals = 목표
+settings = 설정
 edit-profile = 프로필 고치기
 profile-create = 프로필 만들기
 profile-create-success = 성공, 프로필이 만들어졌습니다!
 profile-close = 닫기
 profile-clear-modal = 프로필 데이터를 지우면 사용자 인구 통계 정보가 녹음된 클립과 함께 더 이상 Common Voice에 보내지지 않습니다.
 profile-explanation = 프로필을 사용하여 진행 상황을 파악하고 음성 데이터의 정확성을 높일 수 있습니다.
+thanks-for-account = 계정을 확인해 주셔서 감사 드리며 이제 프로필을 작성하겠습니다.
+why-demographic = 왜 이 문제가 중요합니까?
+why-demographic-explanation = 연령, 성별, 억양과 같은 익명 사용자 데이터는 음성 인식 엔진의 정확성을 교육하는 데 사용되는 오디오 데이터를 개선하는 데 도움이 됩니다. 사용자 이름과 이메일은 제출된 데이터와 연결되지 않으며 사용자 이름을 공개할지 익명으로 할지 선택할 수 있습니다.
+keep-me-posted =
+    .label = 나는 Common Voice에서 일어나는 일에 대한 최신 정보를 얻고 싶습니다.
+accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
+login-identity = 로그인 정보
+login-signup = 로그인 / 회원가입
+edit = 수정
+email-subscriptions = 이메일 구독
+download-profile = 내 데이타 다운로드
+contribution-experience = 기여 경험
+skip-submission-feedback = 제출 피드백 건너뛰기
+skip-submission-description = '제출'을 클릭하면 기여 제출 피드백이 생략됩니다. 기여는 다음 다섯 가지 기록 또는 검증과 함께 계속됩니다.
+skip-submission-note = 참고: Speak(말하기) 또는 Listen(듣기) 중 하나를 선택해야 합니다.
+off = 꺼짐
+on = 켜짐
+add-avatar-title = 프로필에 아바타 추가
+browse-file-title = 이미지 파일 업로드
+browse-file = 끌어 놓기 또는 <browseWrap>둘러보기</browseWrap>
+connect-gravatar = Gravatar에 연결하기
+gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
+file_too_large = 선택한 파일이 너무 큽니다.
+manage-subscriptions = 구독 관리
+email-already-used = 다른 계정에 이미 이메일이 사용되었습니다.
 
 ## FAQ
 
@@ -273,21 +327,6 @@ data-bundle-button = 데이터 세트 번들 다운로드
 data-bundle-description = Common Voice 데이터에는 위의 모든 다른 음성 데이타 세트가 포함됩니다.
 license = 라이센스: <licenseLink>{ $license }</licenseLink>
 license-mixed = 혼합됨
-
-## Record Page
-
-record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
-record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
-record-platform-not-supported-ios = <bold>iOS</bold> 사용자는 무료앱을 다운받을 수 있음:
-record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
-record-retry = 다시 시도
-record-no-mic-found = 마이크를 찾을 수 없습니다.
-record-error-too-short = 녹음이 너무 짧습니다.
-record-error-too-long = 녹음이 너무 깁니다.
-record-error-too-quiet = 녹음이 너무 조용합니다.
-record-submit-success = 제출에 성공했습니다! 다시 녹음하기를 원하시나요?
-record-help = 녹음을 탭하고 위의 문장을 소리 내어 읽어 주세요.
-record-cancel = 재 녹음 취소
 review-terms = Common Voice를 사용하면 <termsLink>이용약관</termsLink>과 <privacyLink>개인정보 보호 정책</privacyLink>에 동의한 것으로 간주합니다.
 terms-agree = 동의합니다
 terms-disagree = 동의하지 않습니다
@@ -332,6 +371,7 @@ request-language-success-content = 곧 언어를 Common Voice에 추가하는 �
 language-section-in-progress = 진행중
 language-section-in-progress-description = 진행 중인 언어는 현재 우리 커뮤니티의 기여로 만들어지고 있습니다. 진행 상태는 웹 사이트의 지역화와 문장 수집을 종합하여 반영합니다.
 language-section-launched = 출시됨
+language-section-launched-new-description = 이러한 런칭된 언어의 경우 웹사이트가 성공적으로 지역화되었으며 지속적인 <italic>말하기</italic>와 <italic>듣기</italic> 기여가 가능하도록 충분한 문장이 수집되었습니다.
 languages-show-more = 더 보기
 languages-show-less = 접기
 language-speakers = 말한 사람
@@ -352,6 +392,7 @@ contribute = 기여하기
 listen = 듣기
 skip = 건너뛰기
 shortcuts = 바로 가기
+clips-with-count = <bold>{ $count }</bold>클립
 goal-help-recording = 방금 오늘 Common Voice 일간 녹음 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 goal-help-validation = 방금 오늘 Common Voice 일간 검증 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 contribute-more =
@@ -359,6 +400,15 @@ contribute-more =
        *[other] { $count } 번 더 할 준비가 되셨습니까?
     }
 record-cta = 녹음 시작
+record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
+record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
+record-platform-not-supported-ios = <bold>iOS</bold> 사용자는 무료앱을 다운받을 수 있음:
+record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
+record-no-mic-found = 마이크를 찾을 수 없습니다.
+record-error-too-short = 녹음이 너무 짧습니다.
+record-error-too-long = 녹음이 너무 깁니다.
+record-error-too-quiet = 녹음이 너무 조용합니다.
+record-cancel = 재 녹음 취소
 record-instruction = { $actionType } <recordIcon></recordIcon> 후에 문장을 큰 소리로 읽어주세요
 record-stop-instruction = 끝나면 { $actionType } <stopIcon></stopIcon> 하세요
 record-three-more-instruction = 세번 남았어요!
@@ -382,3 +432,30 @@ listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
 nothing-to-validate = 해당 언어에 더 이상 검증할 목소리가 없습니다. 새로운 목소리를 추가해 주세요.
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
+
+## Goals
+
+streaks = 목표
+days =
+    { $count ->
+       *[other] 일
+    }
+recordings =
+    { $count ->
+       *[other] 녹음
+    }
+validations =
+    { $count ->
+       *[other] 검증
+    }
+
+## Dashboard
+
+toward-next-goal = 다음 목표를 향해
+stats = 통계
+you = 나
+everyone = 모두
+contribution-activity = 기여 활동
+top-contributors = 상위 공헌자
+recorded-clips = 녹음된 클립
+validated-clips = 검증된 클립

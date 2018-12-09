@@ -45,7 +45,7 @@ In België spreken sommige mensen Frans en sommige mensen Vlaams.
 In Antwerpen kan je lekker uit eten.
 In Duitsland stond eerst de muur, maar die is nu weg.
 Oostenrijk is een populaire plek om op wintersport te gaan.
-Zwitserland bleef neutraal in de tweede wereld oorlog.
+Zwitserland bleef neutraal in de Tweede Wereldoorlog.
 Spanje is één van de populairste vakantiebestemmingen.
 Scandinavië heeft een relatief lage bevolkingsdichtheid.
 Noorwegen heeft een grote bron met olie en gas.
@@ -85,10 +85,10 @@ De biefstuk moest op de juiste manier worden gebakken.
 Deze thee kan je alleen bij speciaalzaken kopen.
 Door zelf de tomaten te kweken bespaarde Amber veel geld.
 Spekjes kan je in de pan doen maar ook als snoep eten.
-Bij de fastfood tent bestelde hij een hamburger.
+Bij de fastfoodtent bestelde hij een hamburger.
 Zullen we zo lunch gaan halen?
 Neem gerust nog een brownie, we hebben genoeg.
-Ik vindt het veel te koud in januari.
+Ik vind het veel te koud in januari.
 Wist je dat ze elke januari dicht zijn?
 In februari is het Valentijnsdag.
 De drukste periode van het jaar voor ons is februari.
@@ -381,7 +381,7 @@ Beter één vogel in de hand dan tien in de lucht.
 Wie niet waagt, die niet wint.
 Water loopt altijd naar de zee.
 Goede wijn behoeft geen krans.
-Spreken is zilver, zwijgen is oud.
+Spreken is zilver, zwijgen is goud.
 Zuinigheid met vlijt bouwt huizen als kastelen.
 Na regen komt zonneschijn.
 Het stond op mijn todo lijst.
@@ -399,10 +399,10 @@ Hij plaatste een DVD in de speler.
 Deze website kan wel wat meer interactie gebruiken.
 Het kon staal, zilver of platina zijn.
 De zuurstof was ontsnapt uit de buis.
-De python was geen slang maar een programmeer taal.
+De python was geen slang maar een programmeertaal.
 Het was een mega monster gemaakt van metaal.
 Hij verwijderde vijf regels uit de database.
-Er stond een kilometer lange file van zuid naar noord.
+Er stond een kilometerslange file van zuid naar noord.
 De draadloze boor van Jelle is kapot gegaan.
 Elk mapje bevatte een foto.
 De microfoon genereerde een slecht geluid.
@@ -423,14 +423,14 @@ Nucleaire energie is de toekomst.
 Een houten pilaar stond in het midden.
 Het account was verwijderd.
 De server was uitgevallen en niemand kon werken.
-De email was per ongeluk naar iedereen gestuurd.
+De e-mail was per ongeluk naar iedereen gestuurd.
 Hij schroefde de laatste schroef in het apparaat.
 De robot zag er indrukwekkend uit maar kon nog niet veel.
 De monteur moest deze reparatie vaak doen.
 Door middel van een webcam kon iedereen zien hoeveel koffie er nog was.
 De printer had toner nodig voordat er weer geprint kon worden.
 Het stekkerblok was overbelast en veroorzaakte de brand.
-De provider probeerde uit te leggen waarom er geen internet verbinding was.
+De provider probeerde uit te leggen waarom er geen internetverbinding was.
 Die tablet van dat merk is in mijn ogen de beste op de markt.
 De smartphone maakte een gek geluid.
 Er was een barst in het scherm van zijn telefoon gekomen.
@@ -449,7 +449,7 @@ De zelfrijdende auto was nog niet helemaal klaar voor de openbare weg.
 In een loods heeft tweeduizend ton nikkelsulfide vlamgevat.
 De piloot keek naar zijn instrumenten om het vliegtuig te besturen.
 De bioscoop had schermen met IMAX.
-Hackers hadden toegang gekregen tot de software code.
+Hackers hadden toegang gekregen tot de softwarecode.
 Is de consument beter af met de nieuwe privacywet?
 Het kristal van het beeldje gaf een geweldig mooie glans.
 Op een cassette staan slechts een paar liedjes per kant.
@@ -486,7 +486,7 @@ De vergadering liep tien minuten uit.
 Het hele bedrijf moest agile gaan werken.
 De werkervaring van de kandidaat was zeer indrukwekkend.
 De werknemer werkte meer dan veertig uur per week.
-De marketing afdeling draaide de nieuwe commercial op de jaarvergadering.
+De marketingafdeling draaide de nieuwe commercial op de jaarvergadering.
 De technische staf werkte hard om het probleem op te lossen.
 De investeerders klaagden het bedrijf aan voor het faillissement.
 De sprint duurde nog een week.
@@ -499,7 +499,7 @@ Het slechtste wat kan gebeuren is dat het bedrijf ons aanbod afslaat.
 Het project van twintig miljoen is klaar over een paar weken.
 De jongen had een succesvolle startup opgezet.
 De investering betaald zich niet uit ben ik bang.
-Het irrigatie systeem moet binnen een week worden gemaakt.
+Het irrigatiesysteem moet binnen een week worden gemaakt.
 De winkel is open van 8 uur 's ochtends tot 8 uur 's avonds.
 De winkel is gesloten op maandagen.
 Het is nog te vroeg om te zien of onze strategie heeft gewerkt.
@@ -528,7 +528,7 @@ De aankondiging voor de nieuwste telefoon werd op de elektronicabeurs gedaan.
 Als je het product wil gebruiken moet de je voorwaarden aanvaarden.
 Het vertonen van het toneelstuk viel in het water door te weinig publiek.
 De groenteman, slager en bakker hebben het moeilijk sinds de supermarkt er is gekomen.
-Ik vindt dat we nog iets meer geld moeten uittrekken voor de promotie.
+Ik vind dat we nog iets meer geld moeten uittrekken voor de promotie.
 Weigeren kan, maar mijn waardering daalt er wel door.
 Het technologiebedrijf toonde weinig begrip voor de protesten.
 De bas in de koptelefoon was erg luid in vergelijking met andere modellen.
@@ -601,7 +601,7 @@ Je moet wat geduld hebben met deze computer.
 Is er nog de mogelijkheid om meer opties te krijgen?
 Gisteravond is op deze straat een ongeluk gebeurt.
 Merkwaardig genoeg staan de bloemen nu al in bloei.
-Meneer Jansen kwam elke naar buiten om wat boodschapjes te doen.
+Meneer Jansen ging elke dag naar buiten om wat boodschapjes te doen.
 Luisteren kinderen nog wel naar de radio?
 De artiest wilde bekendmaken dat hij een nieuw album ging uitbrengen.
 De productie van olie is al jaren aan het dalen.
@@ -634,7 +634,7 @@ Het cijfer voor haar werkstuk ging iets omlaag door wat spelfouten.
 Elke keer als je gaat stemmen steun je de democratie.
 Het was een smakelijk toetje.
 Het hout was rot, hierdoor moesten er een hoop kosten gemaakt worden.
-Ik vindt het wel logisch eigenlijk.
+Ik vind het wel logisch eigenlijk.
 De kunstenaar maakte zijn meesterwerk in de achttiende eeuw.
 Als ouder weet ik hoeveel energie het kost om de kinderen naar bed te krijgen.
 Het is niet fraai maar het voldoet.
@@ -759,7 +759,7 @@ De architect maakte de ontwerpen eerst met potlood.
 De regering van sommige landen is corrupt.
 Het accent van de man verraadt dat hij uit het noorden komt.
 Schilderen kan je leren door een cursus te nemen.
-De manager ondersteund het proces.
+De manager ondersteunt het proces.
 Een Amerikaans paspoort is wat veel mensen willen.
 Turkije is voor veel mensen een mooie vakantiebestemming.
 De treinreizigers moesten wachten op de vertraagde trein.
@@ -853,13 +853,13 @@ De directeur van de basisschool was ziek en werd vervangen door de interim manag
 Iedereen vroeg zich af hoe hij de televisies voor die prijs kon aanbieden.
 De ambassade had een mooi pand in het midden van de stad.
 Het begon zo langzamerhand een onhoudbare situatie te worden.
-De recruiter stuurde een email om contact te maken.
+De recruiter stuurde een e-mail om contact te maken.
 De vloer van het hotel was net schoongemaakt.
 Mijn collega heeft te maken met burn-out klachten.
 Ben je wel eens gehackt?
 De hacker was het computersysteem binnengedrongen.
 De spits van het team scoorde twee keer in de wedstrijd.
-Het verhullen van de fout was gebeurt om gezichtsverlies te vermijden.
+Het verhullen van de fout was gebeurd om gezichtsverlies te vermijden.
 Het monster onder zijn bed bleek een kussen te zijn.
 De crimineel was in een liquidatie vermoord.
 Als je die spullen niet meer wil kan je ze beter weggeven.
@@ -1011,14 +1011,14 @@ De toestand van Syrië is zeer slecht.
 Er zat een dun laagje paneermeel op de schnitzel.
 Je moet niet aarzelen als je oversteekt.
 Naar wie zit je zo te staren?
-We moeten eerst vaststellen hoe het virus je laptop kwam.
+We moeten eerst vaststellen hoe het virus op je laptop kwam.
 De batterij van deze telefoon is maar zwak.
 Ze legde een lepel, vork en mes naast het bord neer.
 We gaan bezwaar aantekenen op de bouw van dat nieuwe gebouw.
 Welke drug is het sterkst?
 Ik ben van plan om een stichting op te richten.
 We willen een vereniging oprichten.
-Ik vindt het vervelend dat je verblijf in ons hostel niet naar wens was.
+Ik vind het vervelend dat je verblijf in ons hostel niet naar wens was.
 De oma van mijn vriendin is nogal traditioneel.
 We zullen je missen als je een half jaar in het buitenland studeert.
 De overwinning van het hockeyteam werd uitgebreid gevierd.

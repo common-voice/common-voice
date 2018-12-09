@@ -49,8 +49,8 @@ Rakontu al mia juna amiko belan historion.
 Mi ne amas obstinajn homojn.
 Mi deziras al vi bonan tagon, sinjoro!
 Bonan matenon!
-Ĝojan feston! (mi deziras al vi).
-Kia ĝoja festo! (estas hodiaŭ).
+Ĝojan feston!
+Kia ĝoja festo!
 Sur la ĉielo staras la bela suno.
 Lakto estas pli nutra, ol vino.
 Mi havas pli freŝan panon, ol vi.
@@ -67,11 +67,9 @@ Mil okcent naŭdek tri.
 Li havas dek unu infanojn.
 Kion Dio kreis en la sesa tago?
 Kiun daton ni havas hodiaŭ?
-Hodiaŭ estas la dudek sepa (tago) de Marto.
 Mi havas cent pomojn.
 Mi havas centon da pomoj.
 Tiu ĉi urbo havas milionon da loĝantoj.
-Mil jaroj (aŭ milo da jaroj) faras miljaron.
 Kvinoble sep estas tridek kvin.
 Tri estas duono de ses.
 Ok estas kvar kvinonoj de dek.
@@ -147,9 +145,6 @@ Kie vi estas?
 Mi estas en la ĝardeno.
 Kien vi iras?
 Mi iras en la ĝardenon.
-La birdo flugas en la ĉambro (
-ĝi estas en la ĉambro kaj flugas en ĝi).
-La birdo flugas en la ĉambron (
 Mi vojaĝas en Hispanujo.
 Mi vojaĝas en Hispanujon.
 Super la tero sin trovas aero.
@@ -162,7 +157,6 @@ Ha, kiel bele!
 For de tie ĉi!
 Fi, kiel abomene!
 Nu, iru pli rapide!
-Morgaŭ mi veturos Parizon (aŭ en Parizon).
 Mi restos hodiaŭ dome.
 Jam estas tempo iri domen.
 Flanken, sinjoro! Mi konas neniun en tiu ĉi urbo.
@@ -225,10 +219,6 @@ La doktoredzino A. vizitis hodiaŭ la gedoktorojn P.
 Li ne estas lavisto, li estas lavistinedzo.
 La filoj, nepoj kaj pranepoj de reĝo estas reĝidoj.
 La hebreoj estas Izraelidoj, ĉar ili devenas de Izraelo.
-Ĉevalido estas nematura ĉevalo, kokido
-nematura koko, bovido
-nematura bovo, birdido
-nematura birdo.
 La ŝipanoj devas obei la ŝipestron.
 Ĉiuj loĝantoj de regno estas regnanoj.
 Urbanoj estas ordinare pli ruzaj, ol vilaĝanoj.
@@ -253,10 +243,9 @@ Tio ĉi estis jam ne simpla pluvo, sed pluvego.
 Antaŭ nia militistaro staris granda serio da pafilegoj.
 Tiu ĉi maljunulo tute malsaĝiĝis kaj infaniĝis.
 Forigu vian fraton, ĉar li malhelpas al ni.
-En la printempo la glacio kaj la neĝo fluidiĝas
+En la printempo la glacio kaj la neĝo fluidiĝas.
 Venigu la kuraciston, ĉar mi estas malsana.
 Li venigis al si el Berlino multajn librojn.
-Sidigu vin (aŭ sidiĝu), sinjoro!
 La pafado daŭris tre longe.
 Mi eksaltis de surprizo.
 Mi saltas tre lerte.

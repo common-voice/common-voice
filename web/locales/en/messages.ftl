@@ -7,15 +7,19 @@ email-input =
     .label = Email
 submit-form-action = Submit
 loading = Loading…
+email-opt-in-privacy = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy<privacyLink>.
+indicates-required = * Indicates required field
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
 ## Languages
+ace = Acehnese
 an = Aragonese
 ar = Arabic
 as = Assamese
 ast = Asturian
 az = Azerbaijani
+bg = Bulgarian
 bn = Bengali
 br = Breton
 bxr = Buryat
@@ -33,6 +37,7 @@ en = English
 eo = Esperanto
 es = Spanish
 et = Estonian
+eu = Basque
 fa = Persian
 fi = Finnish
 fo = Faroese
@@ -54,6 +59,7 @@ ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+mdf = Moksha
 mk = Macedonian
 mn = Mongolian
 myv = Erzya
@@ -65,10 +71,11 @@ oc = Occitan
 or = Odia
 pl = Polish
 pt-BR = Portuguese (Brazil)
-rm = Romansh
+rm-sursilv = Romansh Sursilvan
 ro = Romanian
 ru = Russian
 sah = Sakha
+sc = Sardinian
 sk = Slovak
 sl = Slovenian
 sq = Albanian
@@ -105,9 +112,7 @@ share-title = Help us find others to donate their voice!
 share-text = Help teach machines how real people speak, donate your voice at { $link }
 link-copied = Link Copied
 back-top = Back to Top
-contribution-banner-text = We've just launched a new contribution experience
-contribution-banner-button = Take a look
-report-bugs-link = Help report bugs
+logout = Log Out
 
 ## Home Page
 home-title =
@@ -148,6 +153,9 @@ listen-paragraph = Validating donated clips is equally important to the Common V
 listen-goal-text = Clips validated
 hours-recorded = Hours Recorded
 hours-validated = Hours Validated
+voices-online = Voices Online Now
+todays-progress = Today's Progress
+help-reach-goal = Help us get to { $goal }
 read-terms-q = Have you read our Terms?
 ready-to-record = Ready to donate your voice?
 all-languages = All Languages
@@ -201,12 +209,10 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Next Goal: { $goal }
+status-goal = Next Goals: { $goal }
 english = English
 
 ## ProfileForm
-profile-form-cancel = Exit Form
-profile-form-delete = Delete Profile
 profile-form-username =
     .label = User Name
 profile-form-language =
@@ -219,12 +225,12 @@ profile-form-gender =
     .label = Sex
 leaderboard-visibility =
     .label = Leaderboard Visibility
+hidden = Hidden
+visible = Visible
 native-language =
     .label = Native Language
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
-profile-keep-data = Keep Data
-profile-delete-data = Delete Data
 male = Male
 female = Female
 # Gender
@@ -233,13 +239,14 @@ why-profile-title = Why a profile?
 why-profile-text =
   By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
   Recognition engines that use this data to improve their accuracy.
+dashboard = Dashboard
+build-profile = Build Profile
+avatar = Avatar
+goals = Goals
+settings = Settings
 edit-profile = Edit Profile
-profile-create = Create a profile
 profile-create-success = Success, profile created!
 profile-close = Close
-profile-clear-modal =
-  Clearing your profile data means this demographic information will no longer be submitted to Common Voice with your
-  clip recordings.
 profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
 thanks-for-account = Thanks for confirming your account, now let's build your profile.
 why-demographic = Why does this matter?
@@ -248,15 +255,26 @@ keep-me-posted =
     .label = I'd like updates and to keep current with what's happening with Common Voice.
 accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
 login-identity = Login Identity
+login-signup = Log In / Sign Up
 edit = Edit
 email-subscriptions = Email Subscriptions
-download-profile = Download my data
+download-profile = Download My Data
 contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
 skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit. Contribution will continue directly with the next set of 5 recordings or validations.
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
+add-avatar-title = Add an avatar to your profile
+browse-file-title = Upload an image file
+browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
+connect-gravatar = Connect with Gravatar
+gravatar_not_found = No gravatar found for your email
+file_too_large = The selected file is too large
+manage-subscriptions = Manage Subscriptions
+email-already-used = Email is already used for a different account
+add-language = Add Language
+change-email-setings = Change your email via Settings under Login Identity
 
 ## FAQ
 faq-title = Frequently Asked Questions
@@ -279,10 +297,6 @@ faq-hours-a = This is approximately the number of hours required to train a prod
 faq-source-q = Where does the source text come from?
 faq-source-a1 = The current sentences come from contributor donations, as well as dialogue from public domain movie scripts like <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = You can view our source sentences in <dataLink>this GitHub folder</dataLink>.
-
-## Profile
-profile-why-title = Why a profile?
-profile-why-content = By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech Recognition engines that use this data to improve their accuracy.
 
 ## NotFound
 notfound-title = Not found
@@ -309,20 +323,6 @@ data-bundle-button = Download Dataset Bundle
 data-bundle-description = Common Voice data plus all other voice datasets above.
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
-
-## Record Page
-record-platform-not-supported = We’re sorry, but your platform is not currently supported.
-record-platform-not-supported-desktop = On desktop computers, you can download the latest:
-record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
-record-must-allow-microphone = You must allow microphone access.
-record-retry = Retry
-record-no-mic-found = No microphone found.
-record-error-too-short = The recording was too short.
-record-error-too-long = The recording was too long.
-record-error-too-quiet = The recording was too quiet.
-record-submit-success = Submit success! Want to record again?
-record-help = Please tap to record, then read the above sentence aloud.
-record-cancel = Cancel Re-recording
 
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = I agree
@@ -392,6 +392,15 @@ contribute-more =
        *[other] Ready to do { $count } more?
     }
 record-cta = Start recording
+record-platform-not-supported = We’re sorry, but your platform is not currently supported.
+record-platform-not-supported-desktop = On desktop computers, you can download the latest:
+record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
+record-must-allow-microphone = You must allow microphone access.
+record-no-mic-found = No microphone found.
+record-error-too-short = The recording was too short.
+record-error-too-long = The recording was too long.
+record-error-too-quiet = The recording was too quiet.
+record-cancel = Cancel Re-recording
 record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done
 record-three-more-instruction = Three to go!
@@ -416,4 +425,39 @@ nothing-to-validate = We don't have anything to validate in this language, help 
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 
+## Goals
+streaks = Streaks
+days = { $count ->
+  [one] Day
+  *[other] Days
+}
+recordings = { $count ->
+  [one] Recording
+  *[other] Recordings
+}
+validations = { $count ->
+  [one] Validation
+  *[other] Validations
+}
 
+
+## Dashboard
+toward-next-goal = Toward next goal
+stats = Stats
+you = You
+everyone = Everyone
+contribution-activity = Contribution Activity
+top-contributors = Top Contributors
+recorded-clips = Recorded Clips
+validated-clips = Validated Clips
+total-approved = Total Approved
+overall-accuracy = Overall Accuracy
+
+
+## Profile Delete
+delete-q = Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?
+keep = Keep
+remove = Remove
+keep-info = Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset
+remove-info = We will review your request to remove your voice recordings from the dataset. If your request is approved, we will contact those who have downloaded the dataset and request they remove your voice recordings as well.
+profile-form-delete = Delete Profile

@@ -1,0 +1,122 @@
+@import url('../../../vars.css');
+
+.goals {
+    & h2 {
+        margin-bottom: 10px;
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+    }
+
+    & .goal-boxes {
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+    }
+
+    & .goal-box {
+        flex-shrink: 0;
+        border-radius: 4px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--lighter-grey);
+
+        @media (--sm-down) {
+            padding-top: 16px;
+            width: 112px;
+            min-height: 100px;
+        }
+
+        @media (--md-up) {
+            padding-top: 18px;
+            width: 160px;
+            min-height: 120px;
+        }
+
+        & svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: 0.3;
+
+            @media (--md-up) {
+                top: 20px;
+            }
+        }
+
+        & .goal,
+        & hr {
+            z-index: var(--middle-z-index);
+        }
+
+        & .goal {
+            @media (--sm-down) {
+                margin-bottom: 8px;
+            }
+
+            @media (--md-up) {
+                margin-bottom: 13px;
+                font-size: var(--font-size-lg);
+            }
+        }
+
+        & hr {
+            margin: 0;
+            border: 0;
+            border-top: 1px solid var(--light-grey);
+            width: 100%;
+            box-sizing: border-box;
+
+            @media (--sm-down) {
+                margin-bottom: 4px;
+            }
+
+            @media (--md-up) {
+                margin-bottom: 8px;
+            }
+        }
+
+        & .unit {
+            margin-bottom: 2px;
+            font-size: var(--font-size-xs);
+            font-weight: 600;
+            letter-spacing: 0.4px;
+        }
+
+        & .date {
+            font-size: var(--font-size-xs);
+            line-height: 1.5;
+            letter-spacing: 0.8px;
+            font-style: italic;
+        }
+
+        &.done {
+            color: var(--white);
+
+            &.streaks {
+                background-color: var(--blue);
+            }
+
+            &.clips {
+                background-color: var(--red);
+            }
+
+            &.votes {
+                background-color: var(--valid-green);
+            }
+
+            & svg {
+                opacity: 1;
+            }
+
+            & hr {
+                border-top-color: color(var(--white) alpha(20%));
+            }
+        }
+    }
+}

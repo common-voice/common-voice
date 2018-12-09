@@ -1,17 +1,16 @@
 :root {
     --white: white;
     --black: black;
-    --dark-red: #E45D68;
-    --red: #FF4F5E;
-    --light-red: #FDC6C8;
-    --green: #B7D43F;
+    --red: #ff4f5e;
+    --light-red: #fdc6c8;
+    --green: #b7d43f;
     --valid-green: #59cbb7;
-    --near-black: #4A4A4A;
-    --grey: #E7E5E2;
-    --darker-grey: #E6E5E3;
-    --light-grey: #F3F2F0;
-    --lighter-grey: #F9F9F9;
-    --desert-storm: #F3F2F1;
+    --near-black: #4a4a4a;
+    --grey: #e7e5e2;
+    --darker-grey: #e6e5e3;
+    --light-grey: #f3f2f0;
+    --lighter-grey: #f9f9f9;
+    --desert-storm: #f3f2f1;
     --warm-grey: #959595;
     --blue: #629ff4;
 
@@ -42,36 +41,20 @@
 
     --spinner-height: 10rem;
 
-    --card-shadow: rgba(0, 0, 0, 0.09) 0px 1px 6px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
+    --card-shadow: rgba(0, 0, 0, 0.09) 0px 1px 6px,
+        rgba(0, 0, 0, 0.09) 0px 1px 4px;
 
     --transition-duration: 0.2s;
     --transition-duration-slow: 0.5s;
-    --easing: cubic-bezier(0.4, 0.0, 0.2, 1);
+    --easing: cubic-bezier(0.4, 0, 0.2, 1);
 
     --header-height: 4rem;
     --nav-shadow-overhang: 0px 2px 4px rgba(0, 0, 0, 0.03);
 
-    --robot-height: 22rem;
-    --robot-height-mobile: 16rem;
-    --hero-height: 15.3rem;
-    --hero-height-mobile: 12.5rem;
-
-    --home-background-offset: 12.5rem;
-
-    --listen-box-height: 6rem;
-    --record-background-image: url("/img/wave-red-large.png");
-    --record-background-image-mobile: url("/img/wave-red-mobile.png");
-
-    --dataset-item-margin: .7rem;
+    --dataset-item-margin: 0.7rem;
 
     --profile-column-margin: 30px;
 }
-
-/* [Deprecated] */
-@custom-media --small-mobile (max-width: 350px);
-@custom-media --mobile (max-width: 600px);
-@custom-media --desktop (min-width: 600px);
-/* [/Deprecated] */
 
 @custom-media --xs-up (width >= 350px);
 @custom-media --sm-up (width >= 576px);
@@ -79,7 +62,6 @@
 @custom-media --lg-up (width >= 992px);
 @custom-media --xl-up (width >= 1200px);
 
-@custom-media --xxs-down (width <= 470px);
 @custom-media --xs-down (width <= 576px);
 @custom-media --sm-down (width <= 768px);
 @custom-media --md-down (width <= 992px);
@@ -116,14 +98,12 @@
     @media (--sm-down) {
         display: none !important;
     }
-
 }
 
 .hidden-md-down {
     @media (--md-down) {
         display: none !important;
     }
-
 }
 
 .hidden-md-up {

@@ -20,6 +20,7 @@ ar = arabčina
 as = asámčina
 ast = astúrčina
 az = azerbajdžančina
+bg = bulharčina
 bn = bengálčina
 br = bretónčina
 bxr = buriatčina
@@ -37,6 +38,8 @@ en = angličtina
 eo = esperanto
 es = španielčina
 et = estónčina
+eu = baskičtina
+fa = perzština
 fi = fínčina
 fo = faerčina
 fr = francúzština
@@ -57,6 +60,7 @@ ko = kórejčina
 kpv = komi-zyriančina
 kw = kornčina
 ky = kirgizština
+mdf = mokša
 mk = macedónčina
 mn = mongolčina
 myv = erzya
@@ -68,10 +72,10 @@ oc = okcitánčina
 or = urijčina
 pl = poľština
 pt-BR = portugalčina (Brazília)
-rm = rétorománčina
 ro = rumunčina
 ru = ruština
 sah = jakutčina
+sc = sardínčina
 sk = slovenčina
 sl = slovinčina
 sq = albánčina
@@ -111,9 +115,7 @@ share-title = Pomôžte nám nájsť ďalších, ktorí prispejú svojím hlasom
 share-text = Pomôžte strojom pochopiť ľudskú reč. Prispejte svojím hlasom na { $link }
 link-copied = Odkaz bol skopírovaný
 back-top = Návrat hore
-contribution-banner-text = Práve sme spustili nové prostredie pre prispievateľov
-contribution-banner-button = Pozrite sa naň
-report-bugs-link = Nahláste nám chyby
+logout = Odhlásiť sa
 
 ## Home Page
 
@@ -150,6 +152,8 @@ listen-paragraph = Overovanie nahrávok je rovnako dôležitou súčasťou misie
 listen-goal-text = Počet overených nahrávok
 hours-recorded = Počet nahraných hodín
 hours-validated = Počet overených hodín
+todays-progress = Dnešný pokrok
+help-reach-goal = Pomôžte nám dostať sa na { $goal }
 read-terms-q = Čítali ste naše podmienky používania?
 ready-to-record = Ste pripravení darovať svoj hlas?
 all-languages = Všetky jazyky
@@ -217,8 +221,6 @@ english = Angličtina
 
 ## ProfileForm
 
-profile-form-cancel = Zavrieť formulár
-profile-form-delete = Odstrániť profil
 profile-form-username =
     .label = Používateľské meno
 profile-form-language =
@@ -235,19 +237,19 @@ native-language =
     .label = Materinský jazyk
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložený
-profile-keep-data = Ponechať údaje
-profile-delete-data = Odstrániť údaje
 male = Muž
 female = Žena
 # Gender
 other = Iné
 why-profile-title = Prečo chcete profil?
 why-profile-text = Tým, že nám o sebe poskytnete nejaké informácie, budú údaje, ktoré odošlete do Common Voice, užitočnejšie pre systémy rozpoznávania reči, ktoré tieto údaje využívajú na zvýšenie presnosti.
+dashboard = Nástenka
+avatar = Avatar
+goals = Ciele
+settings = Nastavenia
 edit-profile = Upraviť profil
-profile-create = Vytvorenie profilu
 profile-create-success = Profil bol úspešne vytvorený!
 profile-close = Zavrieť
-profile-clear-modal = Odstránenie údajov profilu znamená, že tieto demografické údaje už nebudú naďalej odosielané s vašimi nahrávkami.
 profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spresniť naše hlasové údaje.
 thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
 why-demographic = Prečo na tom záleží?
@@ -263,6 +265,10 @@ contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
 off = Vypnutá
 on = Zapnutá
+file_too_large = Vybraný súbor je príliš veľký
+manage-subscriptions = Spravovať odbery
+email-already-used = E-mailová adresa sa už používa pre iný účet
+add-language = Pridať jazyk
 
 ## FAQ
 
@@ -286,11 +292,6 @@ faq-hours-a = Je to približný počet hodín potrebných na natrénovanie produ
 faq-source-q = Odkiaľ pochádza zdrojový text?
 faq-source-a1 = Súčasné vety pochádzajú z darov prispievateľov a z dialógov verejných filmových scenárov, ako napríklad <italic>Život je krásny.</italic>
 faq-source-a2 = Zdrojové vety si môžete pozrieť v <dataLink>tomto priečinku na GitHube</dataLink>.
-
-## Profile
-
-profile-why-title = Prečo potrebujete profil?
-profile-why-content = Tým, že nám o sebe poskytnete nejaké informácie, budú údaje, ktoré odošlete do Common Voice, užitočnejšie pre systémy rozpoznávania reči, ktoré tieto údaje využívajú na zvýšenie presnosti.
 
 ## NotFound
 
@@ -319,21 +320,6 @@ data-bundle-button = Prevziať balík datasetov
 data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Zmiešaná
-
-## Record Page
-
-record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
-record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
-record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
-record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
-record-retry = Znova
-record-no-mic-found = Nenašiel sa žiadny mikrofón.
-record-error-too-short = Vaša nahrávka bola príliš krátka.
-record-error-too-long = Vaša nahrávka bola príliš dlhá.
-record-error-too-quiet = Vaša nahrávka bola príliš tichá.
-record-submit-success = Odoslanie bolo úspešné! Chcete nahrávať znova?
-record-help = Prosím, ťuknite na tlačidlo nahrávania a potom prečítajte vetu vyššie.
-record-cancel = Zrušiť opakovaný záznam
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
 terms-agree = Súhlasím
 terms-disagree = Nesúhlasím
@@ -409,6 +395,15 @@ contribute-more =
        *[other] Ste pripravení urobiť ešte { $count } ďalších?
     }
 record-cta = Začnite s nahrávaním
+record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
+record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
+record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
+record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
+record-no-mic-found = Nenašiel sa žiadny mikrofón.
+record-error-too-short = Vaša nahrávka bola príliš krátka.
+record-error-too-long = Vaša nahrávka bola príliš dlhá.
+record-error-too-quiet = Vaša nahrávka bola príliš tichá.
+record-cancel = Zrušiť opakovaný záznam
 record-instruction = { $actionType } na <recordIcon></recordIcon> a prečítajte vetu nahlas
 record-stop-instruction = { $actionType } na <stopIcon></stopIcon> keď budete hotoví
 record-three-more-instruction = Ešte tri!
@@ -432,3 +427,14 @@ listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
 nothing-to-validate = Pre váš jazyk nemáme čo overiť. Pomôžte nám to zmeniť.
 record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+remove = Odstrániť
+profile-form-delete = Odstrániť profil

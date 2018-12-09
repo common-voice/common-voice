@@ -61,9 +61,7 @@ if (DOMAIN) {
     if (options.audience && typeof options.audience === 'string') {
       params.audience = options.audience;
     }
-    if (options.prompt && typeof options.prompt === 'string') {
-      params.prompt = options.prompt;
-    }
+    params.tried_autologin = true;
 
     params.action = 'signup';
 
@@ -99,15 +97,21 @@ if (DOMAIN) {
 router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
-  async ({ user, query }: Request, response: Response) => {
+  async ({ user, query, session }: Request, response: Response) => {
     if (!user) {
       response.redirect('/login-failure');
     } else if (query.state) {
-      const { old_sso_id } = JSON.parse(
+      const { old_user, old_email } = JSON.parse(
         AES.decrypt(query.state, SECRET).toString(enc.Utf8)
       );
-      await UserClient.updateSSO(old_sso_id, user.id, user.emails[0].value);
-      response.redirect('/profile/preferences');
+      const success = await UserClient.updateSSO(
+        old_email,
+        user.emails[0].value
+      );
+      if (!success) {
+        session.passport.user = old_user;
+      }
+      response.redirect('/profile/settings?success=' + success.toString());
     } else {
       response.redirect('/login-success');
     }
@@ -120,11 +124,19 @@ router.get('/login', (request: Request, response: Response) => {
     state:
       user && query.change_email !== undefined
         ? AES.encrypt(
-            JSON.stringify({ old_sso_id: user.id }),
+            JSON.stringify({
+              old_user: request.user,
+              old_email: user.emails[0].value,
+            }),
             SECRET
           ).toString()
         : '',
   } as any)(request, response);
+});
+
+router.get('/logout', (request: Request, response: Response) => {
+  response.clearCookie('connect.sid');
+  response.redirect('/');
 });
 
 export default router;

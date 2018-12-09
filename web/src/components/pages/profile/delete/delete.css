@@ -1,0 +1,81 @@
+@import url('../../../vars.css');
+
+.profile-delete {
+    & .top {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+
+        @media (--md-up) {
+            flex-direction: row;
+        }
+    }
+
+    & h2 {
+        font-family: var(--strong-font-family);
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+
+        @media (--md-up) {
+            max-width: 60%;
+        }
+    }
+
+    & .required {
+        line-height: 1.5;
+        font-size: var(--font-size-xs);
+        letter-spacing: 0.8px;
+        font-style: italic;
+        color: var(--near-black);
+
+        @media (--md-up) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    & .toggle-with-info {
+        display: flex;
+        flex-direction: column;
+
+        @media (--md-up) {
+            flex-direction: row;
+        }
+
+        & .toggle-container {
+            margin-bottom: 20px;
+            flex-shrink: 0;
+            width: 60%;
+        }
+
+        & .info {
+            display: flex;
+            flex-direction: row;
+            font-size: var(--font-size-xs);
+            color: var(--near-black);
+            letter-spacing: 0.5px;
+        }
+
+        & svg {
+            margin-right: 5px;
+            flex-shrink: 0;
+            width: 22px;
+        }
+
+        & path {
+            fill: var(--warm-grey);
+        }
+    }
+
+    & .button {
+        border: none;
+        margin: 0 auto;
+        height: 57px;
+        background: var(--blue);
+        text-transform: none;
+
+        &:hover {
+            border: 1px solid var(--black);
+        }
+    }
+}

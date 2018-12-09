@@ -1,7 +1,5 @@
 export namespace Flags {
-  export interface State {
-    showOldHome: boolean;
-  }
+  export interface State {}
 
   enum ActionType {
     SET = 'SET_FLAGS',
@@ -21,12 +19,7 @@ export namespace Flags {
     }),
   };
 
-  export function reducer(
-    state: State = {
-      showOldHome: localStorage.getItem('showNewHome') === 'true',
-    },
-    action: Action
-  ): State {
+  export function reducer(state: State = {}, action: Action): State {
     switch (action.type) {
       case ActionType.SET:
         return { ...state, ...action.state };

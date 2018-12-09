@@ -42,7 +42,7 @@ test.skip('recording is uploaded and inserted into the db', async () => {
     method: 'POST',
     headers: {
       'Content-Type': 'audio/ogg; codecs=opus4',
-      uid: 'wat',
+      client_id: 'wat',
       sentence: encodeURIComponent(sentence),
     },
     body: fs.createReadStream(path.join(__dirname, 'test.ogg')),

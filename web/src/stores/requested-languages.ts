@@ -29,7 +29,10 @@ export namespace RequestedLanguages {
       dispatch: Dispatch<FetchAction | SetAction>,
       getState: () => StateTree
     ) => {
-      const { api, requestedLanguages: { isLoading, languages } } = getState();
+      const {
+        api,
+        requestedLanguages: { isLoading, languages },
+      } = getState();
       if (isLoading || languages) return;
 
       dispatch({

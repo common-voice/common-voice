@@ -47,6 +47,7 @@ const DEFAULTS: CommonVoiceConfig = {
   ADMIN_EMAILS: '[]', // array of admin emails, as JSON
   S3_CONFIG: {
     signatureVersion: 'v4',
+    useDualstack: true,
   },
   AUTH0: {
     DOMAIN: '',

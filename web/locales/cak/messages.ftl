@@ -15,11 +15,13 @@ loading = Nisamajib'ëx...
 
 ## Languages
 
+ace = Achenes
 an = Aragones
 ar = Arabe
 as = Assames
 ast = Asturiano
 az = Azeri
+bg = Bulgaro
 bn = Bengali
 br = Breton
 bxr = Buriato
@@ -37,6 +39,8 @@ en = Q'anchi'
 eo = Esperanto
 es = Kaxlan tzij
 et = Estonio
+eu = Basko
+fa = aj Persia
 fi = Finlandes
 fo = Feroes
 fr = Frances
@@ -57,19 +61,23 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirguis
+mdf = Moksha
 mk = Macedonio
+mn = aj Mongolia
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepali
 nl = Nerlandes
 nn-NO = Noruego Nynorsk
+oc = aj Occitania
 or = Odia
 pl = Polaco
 pt-BR = Portugues (Brasil)
-rm = Rumano
+rm-sursilv = Romanche Sursilvan
 ro = Rumano
 ru = Ruso
 sah = Yakuto
+sc = Sardo
 sk = Eslovaco
 sl = Esloveno
 sq = Albanes
@@ -83,6 +91,7 @@ tt = Tartaro
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
+vi = aj Byetnam
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwan)
@@ -108,9 +117,7 @@ share-title = ¡Kojato' richin yojapon kik'in ch'aqa' chik winaqi', ri nikajo' n
 share-text = Kato'on richin nak'üt chi kiwäch ri ch'ich'b'äl rub'eyal yech'o ri winaqi', tasipaj ach'ab'äl pa { $link }
 link-copied = Xwachib'ëx Ximonel
 back-top = Titzolin pa Rutikirib'al
-contribution-banner-text = K'ab'a' tiqelesaj jun k'ak'a' rutijb'al to'ïk
-contribution-banner-button = Taya' jun atzub'al
-report-bugs-link = Kato'on rik'in kitzijol sachoj
+logout = Titz'apïx Molojri'ïl
 
 ## Home Page
 
@@ -119,6 +126,8 @@ home-cta = Kach'o, ¡kato'on wawe'!
 wall-of-text-start = Choj ri ch'ab'äl, ruch'ab'äl winäq, Ruma ri' yalan yojkikot richin niqanük' runa'ob'al kich'ab'äl qach'ich'b'al. Richin ninuk' jun runuk'ulem ch'ab'äl, najowäx nïm kitz'etb'al ch'ab'äl.
 wall-of-text-more-mobile = Ronojel ri taq tzij nikokisaj ri taq nimamolojri'ïl, man wachel ta chi kiwa ri winaqi'. Röj niqana'ojij chi nuq'üt ri tz'ukuj. Ruma ri' xqelesaj ri Nimasamaj Common Voice, jun nimasamaj nito'on chi ri etamanem ch'ab'äl wachel chi qawa qonojel.
 wall-of-text-more-desktop = Wakami yatikïr nasipaj ri ach'ab'äl chi qe richin yojato' richin niqanük' jun rucholxe'el rutzij ch'ab'äl rik'in jaqäl b'itz'ib', ri xab'achike nitikïr nrokisaj richin yerub'än k'ak'a' taq chokoy kichin taq okisab'äl chuqa' ajk'amaya'l.<lineBreak></lineBreak>Tasik'ij jun b'ab' richin yato'on chi kitijoxik ri ch'ich'b'äl rik'in ri rub'anikil yech'o ri winaqi'. Tanik'oj kisamaj ch'aqa' chik to'onela' richin nachojmirisaj. ¡Choj ke ri' pan aninäq!
+wall-of-text-first = Relik ri ch'ab'äl, ruch'ab'äl winäq. Ruma ri' yojkikot niqatz'ük runa'ob'al ch'ab'äl okel pa taq qasamajib'al. Richin yetz'uk kiq'inoj ch'ab'äl, k'atzinel k'ïy taq kitzij ch'ab'äl chi ke ri b'anonela'
+wall-of-text-second = K'ïy chi ke ri taq tzij kokisan ri nima'q taq nimamoloj man okel ta chi kiwäch konojel ri winaqi'. Niqana'ojij chi re nuch'utinisaj ri tz'ukunem. Ruma ri' toq xqelesaj ri Common Voice, jun nimasamaj nuto' ri retamaxik ch'ab'äl tok jaqäl chuqa' okel chi kiwäch konojel.
 show-wall-of-text = Tisik'ïx Ch'aqa' Chik
 help-us-title = ¡Kojato' richin yenik'öx taq b'ab'!
 help-us-explain = Tipitz'a' titzij, tawak'a& tatzijoj chi qe: ¿La pa rub'eyal xkisik'ij ri b'ab'?
@@ -127,6 +136,35 @@ vote-yes = Ja'
 vote-no = Manäq
 toggle-play-tooltip = Tapitz'a' { shortcut-play-toggle } richin pa rub'eyal natzïj
 speak-subtitle = Tasipaj ri ach'ab'äl
+speak-paragraph = Ruyakik peraj taq ch'ab'äl jun runun peraj richin niqatz'ük ri molaj jaqäl qatzij; juley chik chuqa' nikib'ij chi ja peraj re' ri yalan tik'asäs.
+speak-goal-text = Peraj eyakon
+listen-subtitle = Kojato' chi kijikib'axik ch'ab'äl
+listen-paragraph = Yejikib'äx sipan taq peraj chuqa' yalan k'o kejqalem pa ri ruk'u'x rusamaj ri Common voice. Tawak'axaj chuqa' kojato' richin yeqatz'ük taq kitzij jaqäl chuqa' ütz taq ch'ab'äl.
+listen-goal-text = Jikib'an taq peraj
+hours-recorded = Ramaj eyakon
+hours-validated = Ramaj Ejikib'an
+voices-online = Wakami Ch'ab'äl pa K'amab'ey
+todays-progress = Ri Samajin Wakami
+help-reach-goal = Kojato' richin yojapon { $goal }
+read-terms-q = ¿La xasik'ij ri Erojqan richin nokisäx ri samaj?
+ready-to-record = ¿La ütz richin nasipaj ach'ab'äl chi qe?
+all-languages = Ronojel Ch'ab'äl
+today = Wakami
+x-weeks-short =
+    { $count ->
+        [one] Wuqq'ij
+       *[other] { $count }wj
+    }
+x-months-short =
+    { $count ->
+        [one] ik'
+       *[other] { $count }ik
+    }
+x-years-short =
+    { $count ->
+        [one] juna'
+       *[other] { $count }j
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -183,6 +221,12 @@ profile-form-age =
     .label = Ajuna'
 profile-form-gender =
     .label = Ixöq/achi
+leaderboard-visibility =
+    .label = Ruq'alajixik pa ri Kikajtz'ik Cha'onem
+hidden = Ewan
+visible = Tz'etel
+native-language =
+    .label = Nab'ey Ch'ab'äl
 profile-form-submit-save = Tiyak
 profile-form-submit-saved = Xyak
 profile-keep-data = Tiyak Tzij
@@ -193,12 +237,32 @@ female = Ixöq
 other = Juley chik
 why-profile-title = ¿Achike ruma jun ruwäch b'i'aj?
 why-profile-text = Toq naya' jub'a' awetamab'al chawij chi qe, ri taq rutzij k'oxom xtatäq pa Common Voice yalan xkek'atzin chi ke ri kik'wab'al etamanel ch'ab'äl ye'okisan kichin richin nikutzilaj ki'.
+dashboard = Pas
+build-profile = Titz'uk Ruwäch B'i'aj
+avatar = Awatar
+goals = Retal Q'i'oj
+settings = Taq Runuk'ulem
 edit-profile = Tinuk' Ruwäch B'i'aj
 profile-create = Titz'uk jun ruwäch b'i'aj
 profile-create-success = Xb'anatäj, ¡xtz'uk ruwäch b'i'aj!
 profile-close = Titz'apïx
 profile-clear-modal = Toq nijosq'ïx taq rutzij ruwäch b'i'aj nub'än chi man xtitunub'äx ta chik ri winaqirel awetamab'al rik'in ri ayakoj xtitaq chi re ri Common Voice.
 profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on chi e ütz ri taq rutzij qach'ab'äl.
+thanks-for-account = Matyox xajikib'a' ri rub'i' ataqoya'l, wakami niqatz'ük qa ri ruwäch ab'i'.
+why-demographic = ¿Achike ruma k'atzinel re'?
+why-demographic-explanation = Ewäl rutzij okisanel achi'el rujuna', rub'anikil chuqa' ruk'oxom yeto'on richin ye'utziläx ri taq rutzij k'oxom e'okisan richin jeb'ël yetojtob'ëx ri taq rukanob'al ketamaxik taq ch'ab'äl. Ri rub'i' awokisanel chuqa' ataqoya'l majub'ey xkexim kik'in ri taq tzij xke'atäq chuqa' yatikïr nacha' we ri rub'i' awokisanel ewäl o nikitz'ët winaqi'.
+keep-me-posted =
+    .label = Ninwajo' yek'ul taq k'exoj richin ninwetamaj ri ruk'iyirisaxik Common Voice.
+accept-privacy = Ütz ninwak'axaj rub'eyal nokisäx re etamab'äl re' achi'el nitzijöx pa <privacyLink>Richinanem Na'ojil</privacyLink> richin Mozilla
+login-identity = Rub'anikil Rutikirisaxik Molojri'ïl
+login-signup = Titikirisäx Molojri'ïl / Titz'ib'äx B'i'aj
+edit = Tinuk'
+email-subscriptions = Tz'ib'axïk B'i'aj pa Taqoya'l
+download-profile = Keqasäx taq nutzij
+contribution-experience = Retamab'al to'ïk
+off = Tichup
+on = Titzij
+manage-subscriptions = Kenuk'samajïx taq Tz'ib'anïk B'i'aj
 
 ## FAQ
 
@@ -255,21 +319,6 @@ data-bundle-button = Tiqasäx Pisaj Kiyakb'al Tzij
 data-bundle-description = Kitzij Common Voice rik'in ronojel ri taq kiyakb'al kitzij ch'ab'äl xe'ik'o.
 license = Ya'öl Q'ij: <licenseLink>{ $license }</licenseLink>
 license-mixed = Tunuj
-
-## Record Page
-
-record-platform-not-supported = Niqamäy, xa xe chi man koch'el ta ri anuk'uche'el wakami.
-record-platform-not-supported-desktop = Pa kematz'ib' yatikïr naqasaj ri ruk'isib'äl ruwäch:
-record-platform-not-supported-ios = <bold>iOS</bold> okisanela' yetikïr nikiqasaj ri sipan qachokoy:
-record-must-allow-microphone = K'o chi naya' q'ij nokisäx ri q'asäy ch'ab'äl.
-record-retry = Titojtob'ëx chik
-record-no-mic-found = Majun q'asäy ch'ab'äl xilitäj.
-record-error-too-short = Yalan ko'öl xub'än ri yakoj.
-record-error-too-long = Yalan nïm raqän xub'än ri yakoj.
-record-error-too-quiet = Yalan tz'iran xub'än ri yakoj.
-record-submit-success = ¡Ütz xtaq! ¿La nawajo' chik yayakon?
-record-help = Tapitz'a' ri rupitz'b'al richin nayäk, k'a ri' köw tasik'ij ri b'ab'.
-record-cancel = Tiq'a' Ruyakik-chik
 review-terms = Toq nokisäx ri Common Voice, nanimaj ri <termsLink>Qojqanem</termsLink> chuqa' <privacyLink>Ichinan Qatzijol</privacyLink>
 terms-agree = Ütz k'a
 terms-disagree = Man ütz ta nintz'ët
@@ -314,6 +363,7 @@ request-language-success-content = Xtiqatzijoj chawe ch'aqa' chik etamab'äl pa 
 language-section-in-progress = Nik'ïy
 language-section-in-progress-description = Ja ri qatinamit yetz'ukun richin yek'iyïr ri taq ch'ab'äl; achi'el achike peraj k'o wi chi rij ri ruk'iyirisanem ajk'amaya'l rutzalq'omanem chuqa' ri kimolik taq q'aptzij.
 language-section-launched = E'elesan
+language-section-launched-new-description = Pa re taq ch'ab'äl re' ri ajk'amaya'l ruxaq tzalq'omin chik ronojel chuqa' k'ïy taq q'aptzij emolon richin nitikïr yeruk'ül taq to'ïk <italic>Nich'ab'ëx</italic> chuqa' <italic>Nak'axäx</italic>.
 languages-show-more = Titz'et Ch'aqa' Chik
 languages-show-less = Titz'et Jub'a'
 language-speakers = Ch'ab'anela'
@@ -334,6 +384,7 @@ contribute = Kato'on
 listen = Tak'axäx
 skip = Tik'o'
 shortcuts = Chojmin Okem
+clips-with-count = <bold>{ $count }</bold> Perb'ab'
 goal-help-recording = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al { $goalValue } q'ij q'ij!
 goal-help-validation = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al richin rujunamanem { $goalValue } q'ij q'ij!
 contribute-more =
@@ -342,6 +393,15 @@ contribute-more =
        *[other] ¿Xab'än rutzil richin nab'än { $count } chik?
     }
 record-cta = Titikirisäx ruyakik
+record-platform-not-supported = Niqamäy, xa xe chi man koch'el ta ri anuk'uche'el wakami.
+record-platform-not-supported-desktop = Pa kematz'ib' yatikïr naqasaj ri ruk'isib'äl ruwäch:
+record-platform-not-supported-ios = <bold>iOS</bold> okisanela' yetikïr nikiqasaj ri sipan qachokoy:
+record-must-allow-microphone = K'o chi naya' q'ij nokisäx ri q'asäy ch'ab'äl.
+record-no-mic-found = Majun q'asäy ch'ab'äl xilitäj.
+record-error-too-short = Yalan ko'öl xub'än ri yakoj.
+record-error-too-long = Yalan nïm raqän xub'än ri yakoj.
+record-error-too-quiet = Yalan tz'iran xub'än ri yakoj.
+record-cancel = Tiq'a' Ruyakik-chik
 record-instruction = { $actionType }<recordIcon></recordIcon> k'a ri' köw tasik'ij ri b'ab'
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> toq xtak'ïs
 record-three-more-instruction = ¡K'a k'o na oxi'!
@@ -365,3 +425,26 @@ listen-last-time-instruction = <playIcon></playIcon>¡Ri ruk'isib'äl!
 nothing-to-validate = Majun qatob'al richin niqajunamaj re ch'ab'äl re', ¡kojato'!
 record-button-label = Tayaka' ach'ab'äl
 share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
+
+## Goals
+
+days =
+    { $count ->
+        [one] Q'ij
+       *[other] Taq Q'ij
+    }
+recordings =
+    { $count ->
+        [one] Niyak
+       *[other] Yeyak
+    }
+validations =
+    { $count ->
+        [one] Nijikib'äx
+       *[other] Yejikib'äx
+    }
+
+## Dashboard
+
+you = Rat
+everyone = Ri ch'aqa' chik

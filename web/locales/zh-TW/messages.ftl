@@ -8,6 +8,8 @@ email-input =
     .label = 電子郵件地址
 submit-form-action = 送出
 loading = 載入中…
+email-opt-in-privacy = 若同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊。
+indicates-required = * 表示必填欄位
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = 載入中…
 
 ## Languages
 
+ace = 亞齊語
 an = 亞拉岡語
 ar = 阿拉伯語
 as = 阿薩姆語
 ast = 阿斯圖里亞斯語
 az = 亞塞拜然語
+bg = 保加利亞語
 bn = 孟加拉語
 br = 布里多尼語
 bxr = 布里亞特語
@@ -37,6 +41,8 @@ en = 英語
 eo = 世界語（Esperanto）
 es = 西班牙語
 et = 愛沙尼亞語
+eu = 巴斯克語
+fa = 波斯語
 fi = 芬蘭語
 fo = 法羅語
 fr = 法語
@@ -57,6 +63,7 @@ ko = 韓語
 kpv = 科米-齊良語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
+mdf = 莫克沙語
 mk = 馬其頓語
 mn = 蒙古語
 myv = 厄茲亞語
@@ -68,10 +75,11 @@ oc = 奧西坦語
 or = 奧里亞語
 pl = 波蘭語
 pt-BR = 葡萄牙語（巴西）
-rm = 羅曼什語
+rm-sursilv = 羅曼蘇塞瓦語
 ro = 羅馬尼亞語
 ru = 俄語
 sah = 薩哈語
+sc = 薩丁尼亞語
 sk = 斯洛伐克語
 sl = 斯洛維尼亞語
 sq = 阿爾巴尼亞語
@@ -111,20 +119,18 @@ share-title = 幫助我們找人一起獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
 link-copied = 已複製鍊結
 back-top = 回到頁面頂端
-contribution-banner-text = 我們剛推出全新的貢獻方式
-contribution-banner-button = 體驗一下
-report-bugs-link = 協助回報問題
+logout = 登出
 
 ## Home Page
 
 home-title = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。
 home-cta = 有話大聲說，在此獻聲！
-wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有相當大量的語音數據。
+wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-more-mobile = 大部分由大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
 wall-of-text-more-desktop =
     現在起，您可以將自己的聲音捐給我們，以幫助我們打造開放原始碼的語音資料庫，讓任何人都得以為裝置與網際網路打造創新的應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，即可幫助機器了解人們如何說話，也可看看其他貢獻者的心血結晶來協助改善品質，就是這麼簡單！
-wall-of-text-first = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有相當大量的語音數據。
+wall-of-text-first = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-second = 大部分各大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
 show-wall-of-text = 了解更多
 help-us-title = 請幫助我們驗證句子！
@@ -135,12 +141,15 @@ vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
 speak-subtitle = 捐出您的聲音
 speak-paragraph = 錄下語音片段是打造我們的開放資料集當中很重要的部分，有的人說這很好玩。
-speak-goal-text = 已錄片段
+speak-goal-text = 已錄音片段數
 listen-subtitle = 請幫助我們驗證其他人的錄音
 listen-paragraph = 驗證別人錄下的語音片段，對 Common Voice 的使命也很重要。請聆聽片段，並幫助我們打造高品質的開源語音資料。
-listen-goal-text = 片段已驗證
-hours-recorded = 小時已記錄
-hours-validated = 小時已驗證
+listen-goal-text = 已驗證片段數
+hours-recorded = 已記錄時數
+hours-validated = 已驗證時數
+voices-online = 目前上線的語音
+todays-progress = 本日進度
+help-reach-goal = 幫助我們達成 { $goal }
 read-terms-q = 您閱讀過我們的使用條款了嗎？
 ready-to-record = 準備好捐出您的聲音了嗎？
 all-languages = 所有語言
@@ -200,8 +209,6 @@ english = 英語
 
 ## ProfileForm
 
-profile-form-cancel = 離開表單
-profile-form-delete = 刪除帳號
 profile-form-username =
     .label = 使用者名稱
 profile-form-language =
@@ -214,23 +221,26 @@ profile-form-gender =
     .label = 性別
 leaderboard-visibility =
     .label = 是否顯示於排行榜
+hidden = 隱藏
+visible = 可見
 native-language =
     .label = 母語
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-profile-keep-data = 保留資料
-profile-delete-data = 刪除資料
 male = 男性
 female = 女性
 # Gender
 other = 其他
 why-profile-title = 為什麼需要帳號？
 why-profile-text = 語音識別引擎將可使用您提供給我們的資訊，讓您送出給 Common Voice 的語音資料被更加善用，改善準確度。
+dashboard = 儀錶板
+build-profile = 建立個人資料
+avatar = 頭像
+goals = 目標
+settings = 設定
 edit-profile = 編輯帳號資料
-profile-create = 註冊帳號
 profile-create-success = 帳號建立成功！
 profile-close = 關閉
-profile-clear-modal = 清除您的帳號資料後，就代表您錄音時，不會再一同傳送人口統計資料給 Common Voice。
 profile-explanation = 保留您的專案紀錄，並幫助增加我們的語音資料準確度。
 thanks-for-account = 感謝您確認帳號資訊，接下來請提供您的基本資料。
 why-demographic = 這有什麼重要的？
@@ -239,6 +249,7 @@ keep-me-posted =
     .label = 我想收到 Common Voice 最近發生什麼事情的最新情報。
 accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊
 login-identity = 登入身分
+login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電子郵件訂閱
 download-profile = 下載我的資料
@@ -248,6 +259,15 @@ skip-submission-description = 貢獻過程中，在點擊「送出」後將忽�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
+add-avatar-title = 在您的個人資料中加入大頭照
+browse-file-title = 上傳圖片
+browse-file = 拖曳至此處，或<browseWrap>瀏覽</browseWrap>
+connect-gravatar = 連結 Gravatar
+gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
+file_too_large = 選擇的檔案太大
+manage-subscriptions = 管理訂閱
+email-already-used = 電子郵件地址已用於其他帳號
+add-language = 新增語言
 
 ## FAQ
 
@@ -271,11 +291,6 @@ faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
 faq-source-q = 原文文字都來自哪裡？
 faq-source-a1 = 目前是透過貢獻者捐贈語料給我們，還有公開領域的電影（例如 <italic>It’s a Wonderful Life.</italic>）的腳本台詞。
 faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我們的語句原始碼。
-
-## Profile
-
-profile-why-title = 為什麼需要註冊帳號？
-profile-why-content = 使用您送出給 Common Voice 的語音資料的語音識別引擎，若能得到一些關於您的資訊，運作時將能夠更加準確。
 
 ## NotFound
 
@@ -304,21 +319,6 @@ data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
-
-## Record Page
-
-record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
-record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
-record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
-record-must-allow-microphone = 您必須允許使用麥克風。
-record-retry = 重試
-record-no-mic-found = 找不到麥克風
-record-error-too-short = 錄音太短了。
-record-error-too-long = 錄音太長了。
-record-error-too-quiet = 錄音太小聲了。
-record-submit-success = 成功送出，要再錄一次嗎？
-record-help = 點擊後開始錄音，然後大聲朗讀上面的句子。
-record-cancel = 取消重新錄音
 review-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
@@ -389,6 +389,15 @@ goal-help-recording = 您已幫助 Common Voice 完成 <goalPercentage></goalPer
 goal-help-validation = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 驗證目標！
 contribute-more = 準備好再作 { $count } 筆了嗎？
 record-cta = 開始錄音
+record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
+record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
+record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
+record-must-allow-microphone = 您必須允許使用麥克風。
+record-no-mic-found = 找不到麥克風
+record-error-too-short = 錄音太短了。
+record-error-too-long = 錄音太長了。
+record-error-too-quiet = 錄音太小聲了。
+record-cancel = 取消重新錄音
 record-instruction = { $actionType } 按下 <recordIcon></recordIcon> 然後大聲說出句子
 record-stop-instruction = { $actionType } 完成後按下 <stopIcon></stopIcon>
 record-three-more-instruction = 還有三筆！
@@ -412,3 +421,41 @@ listen-last-time-instruction = <playIcon></playIcon> 最後一筆了！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
+
+## Goals
+
+streaks = 連續第
+days =
+    { $count ->
+       *[other] 天
+    }
+recordings =
+    { $count ->
+       *[other] 錄音
+    }
+validations =
+    { $count ->
+       *[other] 驗證
+    }
+
+## Dashboard
+
+toward-next-goal = 距離下一個目標
+stats = 統計
+you = 您自己
+everyone = 所有人
+contribution-activity = 貢獻紀錄
+top-contributors = 頂尖貢獻者
+recorded-clips = 錄製的片段
+validated-clips = 驗證的片段
+total-approved = 總批准數
+overall-accuracy = 總體準確度
+
+## Profile Delete
+
+delete-q = 您想要一同刪除語音，或是要將語音保留在 Common Voice 資料集中？
+keep = 保留
+remove = 移除
+keep-info = 您的錄音將匿名保留在 Common Voice 資料集。刪除個人資料後，就無法再要求從資料集刪除
+remove-info = 我們將審核您從資料集中刪除錄音的請求。如果您的請求獲得批准，我們將會聯絡已下載資料集的使用者，並請他們也刪除您的錄音。
+profile-form-delete = 刪除帳號

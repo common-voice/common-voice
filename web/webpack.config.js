@@ -1,7 +1,11 @@
 const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const chalk = require('chalk');
+const {
+  CheckerPlugin,
+  TsConfigPathsPlugin,
+} = require('awesome-typescript-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
@@ -27,7 +31,7 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           {
-            loader: 'ts-loader',
+            loader: 'awesome-typescript-loader',
             options: {
               silent: true,
             },
@@ -59,6 +63,12 @@ module.exports = {
       filename: '../index.html',
       template: 'index_template.html',
     }),
-    // new BundleAnalyzerPlugin({ analyzerMode: 'static' }),
+    new CheckerPlugin(),
+    new TsConfigPathsPlugin(),
+    function() {
+      this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding...')));
+      this.plugin('done', () => console.log(chalk.green('Built!')));
+    },
+    // new require('webpack-bundle-analyzer').BundleAnalyzerPlugin({ analyzerMode: 'static' }),
   ],
 };

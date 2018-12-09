@@ -8,6 +8,8 @@ email-input =
     .label = E-bost
 submit-form-action = Cyflwyno
 loading = Llwytho…
+email-opt-in-privacy = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
+indicates-required = Mae * yn dynodi maes angenrheidiol
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Llwytho…
 
 ## Languages
 
+ace = Acehnese
 an = Aragoneg
 ar = Arabeg
 as = Asameg
 ast = Asturieg
 az = Aserbaijaneg
+bg = Bwlgareg
 bn = Bengaleg
 br = Llydaweg
 bxr = Buryat
@@ -37,6 +41,8 @@ en = Saesneg
 eo = Esperanto
 es = Sbaeneg
 et = Estoneg
+eu = Basgeg
+fa = Persieg
 fi = Ffinneg
 fo = Ffaroeg
 fr = Ffrangeg
@@ -57,6 +63,7 @@ ko = Corëeg
 kpv = Komi-Zyrian
 kw = Cernyweg
 ky = Kyrgyz
+mdf = Moksha
 mk = Macedoneg
 mn = Mongolieg
 myv = Erzya
@@ -68,10 +75,11 @@ oc = Occitaneg
 or = Odia
 pl = Pwyleg
 pt-BR = Portiwgaleg (Brasil)
-rm = Romansh
+rm-sursilv = Romansh Sursilvan
 ro = Rwmaneg
 ru = Rwsieg
 sah = Sakha
+sc = Sardinieg
 sk = Slofaceg
 sl = Slofeneg
 sq = Albaneg
@@ -111,9 +119,7 @@ share-title = Helpwch ni i gael rhagor o bobl i gyfrannu eu lleisiau!
 share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrannwch eich llais yn { $link }
 link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
-contribution-banner-text = Rydym newydd lansio profiad cyfrannwr newydd
-contribution-banner-button = Cymrwch olwg
-report-bugs-link = Adrodd ar wallau
+logout = Allgofnodi
 
 ## Home Page
 
@@ -141,6 +147,9 @@ listen-paragraph = Mae dilysu clipiau sydd wedi eu cyfrannu yr un mor bwysig i y
 listen-goal-text = Clipiau wedi'u dilysu
 hours-recorded = Oriau wedi'u Recordio
 hours-validated = Oriau wedi'u Dilysu
+voices-online = Lleisiau Ar-lein Nawr
+todays-progress = Cynnydd Heddiw
+help-reach-goal = Helpwch ni i gyrraedd { $goal }
 read-terms-q = Ydych chi wedi darllen ein Amodau?
 ready-to-record = Barod i gyfrannu eich llais?
 all-languages = Pob Iaith
@@ -220,8 +229,6 @@ english = Saesneg
 
 ## ProfileForm
 
-profile-form-cancel = Gadael y Ffurflen
-profile-form-delete = Dileu Proffil
 profile-form-username =
     .label = Enw Defnyddiwr
 profile-form-language =
@@ -234,40 +241,53 @@ profile-form-gender =
     .label = Rhyw
 leaderboard-visibility =
     .label = Gwelededd y Sgorfwrdd
+hidden = Cudd
+visible = Gweladwy
 native-language =
     .label = Mamiaith
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
-profile-keep-data = Cadw Data
-profile-delete-data = Dileu Data
 male = Gwryw
 female = Benyw
 # Gender
 other = Arall
 why-profile-title = Pam proffil?
 why-profile-text = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i fod yn fwy cywir.
+dashboard = Bwrdd Gwaith
+build-profile = Adeiladu Proffil
+avatar = Afatar
+goals = Nodau
+settings = Gosodiadau
 edit-profile = Golygu Proffil
-profile-create = Creu proffil
 profile-create-success = Llwyddiant, wedi creu proffil!
 profile-close = Cau
-profile-clear-modal = Bydd clirio data eich proffil yn golygu na fydd y wybodaeth ddemograffig yma'n cael ei chyflwyno i Common Voice gyda'ch clipiau recordio.
 profile-explanation = Cadw golwg o'ch cynnydd gyda phroffil a helpu'n data llais i fod yn fwy cywir.
-thanks-for-account = Diolch m gadarnhau eich cyfrif, nawr ymlaen i greu eich proffil.
+thanks-for-account = Diolch am gadarnhau eich cyfrif, nawr ymlaen i greu eich proffil.
 why-demographic = Pam fod hyn o bwys?
 why-demographic-explanation = Mae data defnyddwyr dienw fel oed, rhyw ac acen yn helpu i wella'r data sain sy'n cael ei ddefnyddio i hyfforddi cywirdeb peiriannau adnabod llais. Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data rydych wedi ei gyflwyno a gallwch ddewis os ydych am wneud eich enw defnyddiwr yn hysbys neu beidio.
 keep-me-posted =
     .label = Hoffwn dderbyn diweddariadau i gadw'n gyfredol â'r hyn y'n digwydd i Common Voice.
 accept-privacy = Rwy'n hapus gyd chi'n defnyddio'r wybodaeth yma fel rydych yn ei esbonio ym <privacyLink>Mholisi Preifatrwydd Mozilla</privacyLink>
 login-identity = Enw Mewngofnodi
+login-signup = Mewngofnodi / Cofrestru
 edit = Golygu
 email-subscriptions = Tanysgrifiadau E-bost
 download-profile = Llwytho fy nata i lawr
 contribution-experience = Profiad Cyfrannu
 skip-submission-feedback = Hepgor Adborth Cyfrannu
-skip-submission-description = Yn ystod cyflwyno cyfrannu bydd adborth y cael ei hepgor ar ôl clicio 'Cyflwyno'. Bydd cyfraniadau yn parhau gyda'r set nesaf o 5 recordiad neu ddilysiad.
+skip-submission-description = Wrth gyflwyno cyfraniadau bydd adborth y cael ei hepgor ar ôl clicio 'Cyflwyno'. Bydd cyfrannu'n parhau gyda'r set nesaf o 5 recordio neu ddilysu.
 skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrando i newid y math o gyfraniad.
 off = Diffodd
 on = Ymlaen
+add-avatar-title = Ychwanegu afatar i'ch proffil
+browse-file-title = Llwytho ffeil delwedd
+browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
+connect-gravatar = Cysylltu â Gravatar
+gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
+file_too_large = Mae'r ffeil yma'n rhy fawr
+manage-subscriptions = Rheoli Tanysgrifiadau
+email-already-used = Mae'r e-bost yn cael ei ddefnyddio yn barod ar gyfer cyfrif gwahanol
+add-language = Ychwanegu Iaith
 
 ## FAQ
 
@@ -291,11 +311,6 @@ faq-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch sy
 faq-source-q = O ble ddaw'r testun ffynhonnell?
 faq-source-a1 = Mae'r brawddegau cyfredol yn dod o roddion gan gyfrannwr, yn ogystal â deialogau ffilmiau parth cyhoeddus fel <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Gallwch weld ein brawddegau ffynhonnell yn <dataLink>y ffolder GitHub yma</dataLink>.
-
-## Profile
-
-profile-why-title = Pam cael proffil?
-profile-why-content = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i wella eu cywirdeb.
 
 ## NotFound
 
@@ -324,21 +339,6 @@ data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
-
-## Record Page
-
-record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
-record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
-record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
-record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
-record-retry = Ceisio eto
-record-no-mic-found = Heb ganfod meicroffon.
-record-error-too-short = Roedd y recordiad yn rhy fyr.
-record-error-too-long = Roedd y recordiad yn rhy hir.
-record-error-too-quiet = Roedd y recordiad yn rhy dawel.
-record-submit-success = Llwyddiant wrth gyflwyno! Eisiau recordio eto?
-record-help = Tapiwch i recordio, yna darllenwch y frawddeg uchod allan.
-record-cancel = Diddymu Ail-recordio
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 terms-agree = Rwy'n cytuno
 terms-disagree = Nid wyf yn cytuno
@@ -409,6 +409,15 @@ goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercen
 goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod dilysu dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
 record-cta = Cychwyn recordio
+record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
+record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
+record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
+record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
+record-no-mic-found = Heb ganfod meicroffon.
+record-error-too-short = Roedd y recordiad yn rhy fyr.
+record-error-too-long = Roedd y recordiad yn rhy hir.
+record-error-too-quiet = Roedd y recordiad yn rhy dawel.
+record-cancel = Diddymu Ail-recordio
 record-instruction = { $actionType }<recordIcon></recordIcon> ac yna darllen y frawddeg yn uchel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ar ôl gorffen
 record-three-more-instruction = Tair i fynd!
@@ -432,3 +441,56 @@ listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 nothing-to-validate = Nid oes gennym unrhyw beth i ddilysu'r iaith hon, helpwch ni i lanw'r ciw
 record-button-label = Recordio eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
+
+## Goals
+
+streaks = Ymgyrchoedd
+days =
+    { $count ->
+        [zero] Diwrnodau
+        [one] Diwrnod
+        [two] Ddiwrnod
+        [few] Diwrnod
+        [many] Diwrnod
+       *[other] Diwrnod
+    }
+recordings =
+    { $count ->
+        [zero] Recordiadau
+        [one] Recordiad
+        [two] Recordiad
+        [few] Recordiad
+        [many] Recordiad
+       *[other] Recordiad
+    }
+validations =
+    { $count ->
+        [zero] Dilysiadau
+        [one] Dilysiad
+        [two] Dilysiad
+        [few] Dilysiad
+        [many] Dilysiad
+       *[other] Dilysiad
+    }
+
+## Dashboard
+
+toward-next-goal = Ymlaen i'r nod nesaf
+stats = Ystadegau
+you = Chi
+everyone = Pawb
+contribution-activity = Gweithgaredd Cyfrannu
+top-contributors = Prif Gyfrannwyr
+recorded-clips = Clipiau wedi'u Recordio
+validated-clips = Clipiau wedi'u Dilysu
+total-approved = Cyfanswm Cymeradwy
+overall-accuracy = Cywirdeb Cyffredinol
+
+## Profile Delete
+
+delete-q = Hoffech chi ofyn am gael dileu eich recordiadau llais hefyd, neu a yw'n well gennych eu cadw yn set ddata Common Voice?
+keep = Cadw
+remove = Tynnu
+keep-info = Bydd eich recordiadau llais dienw yn parhau yn set ddata Common Voice. Ar ôl i chi ddileu eich proffil, ni fyddwch bellach yn gallu cyflwyno cais i ddileu eich recordiadau o'r set ddata
+remove-info = Byddwn yn adolygu'ch cais i gael gwared â'ch recordiadau llais o'r set ddata. Os bydd eich cais yn cael ei gymeradwyo, byddwn yn cysylltu â'r rhai sydd wedi llwytho'r set ddata i lawr a gofyn iddyn nhw gael gwared â'ch recordiadau llais hefyd.
+profile-form-delete = Dileu Proffil

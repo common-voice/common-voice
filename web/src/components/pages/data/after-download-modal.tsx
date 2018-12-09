@@ -1,6 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import API from '../../../services/api';
 import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -12,6 +13,7 @@ import { Button, LabeledInput, TextButton } from '../../ui/ui';
 const AUTO_HIDE_TIME_MS = 5000;
 
 interface PropsFromState {
+  api: API;
   user: User.State;
 }
 
@@ -47,8 +49,13 @@ class AfterDownloadModal extends React.Component<Props, State> {
   handleSubmit = (event: React.FormEvent<any>) => {
     event.preventDefault();
     trackDataset('post-download-signup');
-    this.props.updateUser({
-      email: this.state.email,
+    const { api, updateUser, user } = this.props;
+    const { email } = this.state;
+    if (!user.sendEmails) {
+      api.subscribeToNewsletter(email);
+    }
+    updateUser({
+      email,
       sendEmails: true,
     });
     this.setState({ isSubmitted: true });
@@ -118,8 +125,9 @@ class AfterDownloadModal extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = (state: StateTree) => ({
-  user: state.user,
+const mapStateToProps = ({ api, user }: StateTree) => ({
+  api,
+  user,
 });
 
 const mapDispatchToProps = {

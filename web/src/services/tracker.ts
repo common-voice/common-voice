@@ -4,12 +4,14 @@ declare const ga: any;
 
 function track(
   category:
-    | 'Navigation'
+    | 'Home'
+    | 'Home-New'
     | 'Recording'
     | 'Listening'
     | 'Profile'
     | 'Data'
-    | 'Sharing',
+    | 'Sharing'
+    | 'Dashboard',
   action: string,
   locale?: string
 ) {
@@ -18,15 +20,43 @@ function track(
   }
 }
 
+export function trackHome(
+  action: 'speak' | 'listen' | 'read-more',
+  locale: string
+) {
+  track('Home', action, locale);
+}
+
+export function trackHomeNew(
+  action: 'speak' | 'listen' | 'read-more' | 'metric-locale-change',
+  locale: string
+) {
+  track('Home-New', action, locale);
+}
+
 export function trackRecording(
-  action: 'record' | 'submit' | 'rerecord' | 'shortcut',
+  action:
+    | 'record'
+    | 'submit'
+    | 'rerecord'
+    | 'view-shortcuts'
+    | 'shortcut'
+    | 'skip'
+    | 'listen',
   locale: string
 ) {
   track('Recording', action, locale);
 }
 
 export function trackListening(
-  action: 'listen' | 'listen-home' | 'vote-yes' | 'vote-no' | 'shortcut',
+  action:
+    | 'listen'
+    | 'listen-home'
+    | 'vote-yes'
+    | 'vote-no'
+    | 'view-shortcuts'
+    | 'shortcut'
+    | 'skip',
   locale: string
 ) {
   track('Listening', action, locale);
@@ -39,6 +69,7 @@ export function trackProfile(
     | 'give-accent'
     | 'give-age'
     | 'give-gender'
+    | 'give-avatar'
 ) {
   track('Profile', action);
 }
@@ -54,10 +85,16 @@ export function trackDataset(
   track('Data', action);
 }
 
-export function trackNavigation(action: 'progress-to-record') {
-  track('Navigation', action);
-}
-
 export function trackSharing(channel: 'facebook' | 'twitter' | 'link') {
   track('Sharing', channel);
+}
+
+export function trackDashboard(
+  action:
+    | 'speak-cta'
+    | 'listen-cta'
+    | 'change-language'
+    | 'leaderboard-load-more'
+) {
+  track('Dashboard', action);
 }

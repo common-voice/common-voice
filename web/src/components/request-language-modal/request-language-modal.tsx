@@ -3,6 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../modal/modal';
 import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
+import API from '../../services/api';
 import { NATIVE_NAMES } from '../../services/localization';
 import { RequestedLanguages } from '../../stores/requested-languages';
 import StateTree from '../../stores/tree';
@@ -12,6 +13,7 @@ import LanguageAutocomplete from './language-autocomplete';
 import LanguageRequestSuccess from './language-request-success';
 
 interface PropsFromState {
+  api: API;
   user: User.State;
 }
 
@@ -54,13 +56,16 @@ class RequestLanguageModal extends React.Component<Props, State> {
     this.setState({ otherLanguage });
   };
 
-  private save = (event: React.FormEvent<HTMLFormElement>) => {
+  private save = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const { api, createLanguageRequest, updateUser, user } = this.props;
     const { email, language, otherLanguage, sendEmails } = this.state;
-    this.props.createLanguageRequest(
-      language == 'other' ? otherLanguage : language
-    );
-    this.props.updateUser({ email, sendEmails });
+
+    createLanguageRequest(language == 'other' ? otherLanguage : language);
+    if (!user.sendEmails && sendEmails) {
+      await api.subscribeToNewsletter(email);
+    }
+    updateUser({ email, sendEmails });
     this.setState({ isSubmitted: true });
   };
 
@@ -161,8 +166,9 @@ class RequestLanguageModal extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = (state: StateTree) => ({
-  user: state.user,
+const mapStateToProps = ({ api, user }: StateTree) => ({
+  api,
+  user,
 });
 
 const mapDispatchToProps = {

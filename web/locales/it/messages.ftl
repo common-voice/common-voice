@@ -8,6 +8,8 @@ email-input =
     .label = Email
 submit-form-action = Invia
 loading = Caricamento in corso…
+email-opt-in-privacy = Scegliendo di ricevere le email, accetti che Mozilla utilizzi queste informazioni secondo quanto riportato nella <privacyLink>informativa sulla privacy<privacyLink>.
+indicates-required = * indica un campo obbligatorio
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Caricamento in corso…
 
 ## Languages
 
+ace = Aceh
 an = Aragonese
 ar = Arabo
 as = Assamese
 ast = Asturiano
 az = Azerbaigiano
+bg = Bulgaro
 bn = Bengalese
 br = Bretone
 bxr = Buriato
@@ -37,6 +41,8 @@ en = Inglese
 eo = Esperanto
 es = Spagnolo
 et = Estone
+eu = Basco
+fa = Persiano
 fi = Finlandese
 fo = Faroese
 fr = Francese
@@ -57,19 +63,23 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirghiso
+mdf = Mokša
 mk = Macedone
+mn = Mongolo
 myv = Erza
 nb-NO = Bokmål (Norvegia)
 ne-NP = Nepalese
 nl = Olandese
 nn-NO = Norvegese Nynorsk
+oc = Occitano
 or = Oriya
 pl = Polacco
 pt-BR = Portoghese (Brasile)
-rm = Romancio
+rm-sursilv = Romancio sottosilvano
 ro = Rumeno
 ru = Russo
 sah = Sacha
+sc = Sardo
 sk = Slovacco
 sl = Sloveno
 sq = Albanese
@@ -83,6 +93,7 @@ tt = Tataro
 uk = Ucraino
 ur = Urdu
 uz = Uzbeco
+vi = Vietnamita
 zh-CN = Cinese (Cina)
 zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
@@ -108,9 +119,7 @@ share-title = Aiutaci a trovare altri donatori di voce!
 share-text = Aiutaci a insegnare alle macchine come le persone parlano nella vita reale, dona la tua voce su { $link }
 link-copied = Link copiato
 back-top = Torna in alto
-contribution-banner-text = È disponibile una nuova esperienza di contribuzione
-contribution-banner-button = Dai un’occhiata
-report-bugs-link = Aiutaci segnalando bug
+logout = Disconnetti
 
 ## Home Page
 
@@ -136,6 +145,9 @@ listen-paragraph = Convalidare le registrazioni effettuate da altri è altrettan
 listen-goal-text = Registrazioni convalidate
 hours-recorded = Ore registrate
 hours-validated = Ore convalidate
+voices-online = Voci attualmente online
+todays-progress = Progressi di oggi
+help-reach-goal = Aiutaci a raggiungere { $goal }
 read-terms-q = Hai letto le condizioni di utilizzo del servizio?
 ready-to-record = Sei pronto per donare la tua voce?
 all-languages = Tutte le lingue
@@ -197,8 +209,6 @@ english = Inglese
 
 ## ProfileForm
 
-profile-form-cancel = Chiudi modulo
-profile-form-delete = Elimina profilo
 profile-form-username =
     .label = Nome utente
 profile-form-language =
@@ -211,25 +221,53 @@ profile-form-gender =
     .label = Sesso
 leaderboard-visibility =
     .label = Visibilità nella classifica
+hidden = Nascosto
+visible = Visibile
 native-language =
     .label = Lingua madre
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salva
-profile-keep-data = Mantieni i dati
-profile-delete-data = Elimina i dati
 male = Maschio
 female = Femmina
 # Gender
 other = Altro
 why-profile-title = Perché registrare un profilo?
 why-profile-text = Se fornisci queste informazioni insieme alle tue registrazioni vocali, esse verranno usate per migliorare la precisione dei motori di riconoscimento vocali.
+dashboard = Pannello
+build-profile = Crea il tuo profilo
+avatar = Avatar
+goals = Obiettivi
+settings = Impostazioni
 edit-profile = Modifica profilo
-profile-create = Crea un profilo
 profile-create-success = Profilo creato con successo
 profile-close = Chiudi
-profile-clear-modal = Cancellare i dati del tuo profilo significa che le informazioni demografiche non saranno più inviate a Common Voice con le tue registrazioni.
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
 thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
+why-demographic = Perché è importante?
+why-demographic-explanation = Dati utente anonimi come età, sesso e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
+keep-me-posted =
+    .label = Mi piacerebbe ricevere aggiornamenti su Common Voice.
+accept-privacy = Acconsento al trattamento dei dati come indicato nell’<privacyLink>informativa sulla privacy</privacyLink> di Mozilla
+login-identity = Identità di accesso
+login-signup = Accedi / Registrati
+edit = Modifica
+email-subscriptions = Sottoscrizioni a email
+download-profile = Scarica i miei dati
+contribution-experience = Esperienza di contributi
+skip-submission-feedback = Salta l’invio dei commenti
+skip-submission-description = Dopo aver premuto Invia durante l’invio del contributo, passerai direttamente al successivo set di 5 registrazioni o convalide, saltando la richiesta di fornire commenti.
+skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
+off = Disattiva
+on = Attiva
+add-avatar-title = Aggiungi un avatar al tuo profilo
+browse-file-title = Carica un’immagine
+browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
+connect-gravatar = Connetti Gravatar
+gravatar_not_found = Nessun profilo Gravatar associato alla tua email
+file_too_large = Il file selezionato è troppo grande
+manage-subscriptions = Gestisci le sottoscrizioni
+email-already-used = Questa email è già in uso per un altro account
+add-language = Aggiungi una lingua
 
 ## FAQ
 
@@ -253,11 +291,6 @@ faq-hours-a = Perché questo è approssimativamente il numero di ore necessario 
 faq-source-q = Da dove provengono i testi?
 faq-source-a1 = I testi utilizzati provengono da frasi condivise dai collaboratori volontari e da dialoghi tratti dai copioni di film di pubblico dominio come <italic>La vita è meravigliosa.</italic>
 faq-source-a2 = Puoi trovare i testi in <dataLink>questa cartella GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = A cosa serve un profilo?
-profile-why-content = Se fornisci queste informazioni insieme alle tue registrazioni vocali, esse verranno usate per migliorare la precisione dei motori di riconoscimento vocali.
 
 ## NotFound
 
@@ -286,21 +319,6 @@ data-bundle-button = Scarica bundle di dataset
 data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
-
-## Record Page
-
-record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
-record-platform-not-supported-desktop = Su computer desktop puoi scaricare l’ultima versione:
-record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
-record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
-record-retry = Riprova
-record-no-mic-found = Impossibile trovare il microfono.
-record-error-too-short = La registrazione è troppo breve.
-record-error-too-long = La registrazione è troppo lunga.
-record-error-too-quiet = Il volume della registrazione è troppo basso.
-record-submit-success = Registrazione salvata. Vuoi registrare qualcos’altro?
-record-help = Tocca qui per iniziare la registrazione, poi leggi a voce alta la frase soprastante.
-record-cancel = Annulla la nuova registrazione
 review-terms = Utilizzando Common Voice, accetti le nostre <termsLink>condizioni</termsLink> e l’<privacyLink>informativa sulla privacy</privacyLink>
 terms-agree = Accetto
 terms-disagree = Non accetto
@@ -360,7 +378,7 @@ total-hours = Ore convalidate
 
 ## New Contribution
 
-action-click = Clic
+action-click = Fai clic su
 action-tap = Tocca
 contribute = Contribuisci
 listen = Ascolta
@@ -371,6 +389,15 @@ goal-help-recording = Hai aiutato Common Voice a raggiungere <goalPercentage></g
 goal-help-validation = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le conferme.
 contribute-more = Sei pronto a farne ancora { $count }?
 record-cta = Avvia la registrazione
+record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
+record-platform-not-supported-desktop = Su computer desktop puoi scaricare l’ultima versione:
+record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
+record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
+record-no-mic-found = Impossibile trovare il microfono.
+record-error-too-short = La registrazione è troppo breve.
+record-error-too-long = La registrazione è troppo lunga.
+record-error-too-quiet = Il volume della registrazione è troppo basso.
+record-cancel = Annulla la nuova registrazione
 record-instruction = { $actionType }<recordIcon></recordIcon>, quindi leggi la frase ad alta voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando hai finito
 record-three-more-instruction = Ancora tre!
@@ -380,7 +407,7 @@ record-last-instruction = <recordIcon></recordIcon> L’ultima!
 review-tooltip = Riascolta e, se necessario, ripeti le registrazioni prima di proseguire
 unable-speak = Non posso parlare in questo momento
 review-instruction = Riascolta le registrazioni e, se necessario, ripetile
-record-submit-tooltip = { $actionType } carica il tuo contributo quando è pronto
+record-submit-tooltip = { $actionType } Invia quando sei pronto
 clips-uploaded = Registrazioni caricate
 record-abort-title = Non vuoi finire la registrazione prima?
 record-abort-text = Se esci adesso perderai i progressi fatti
@@ -394,3 +421,44 @@ listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 nothing-to-validate = Non sono presenti registrazioni da convalidare in questa lingua, aiutaci registrando qualche frase.
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci
+
+## Goals
+
+streaks = Tracce
+days =
+    { $count ->
+        [one] Giorno
+       *[other] Giorni
+    }
+recordings =
+    { $count ->
+        [one] Registrazione
+       *[other] Registrazioni
+    }
+validations =
+    { $count ->
+        [one] Convalida
+       *[other] Convalide
+    }
+
+## Dashboard
+
+toward-next-goal = Verso il prossimo obiettivo
+stats = Statistiche
+you = Tu
+everyone = Tutti
+contribution-activity = Contributi
+top-contributors = Collaboratori principali
+recorded-clips = Registrazioni immesse
+validated-clips = Registrazioni convalidate
+total-approved = Totale approvato
+overall-accuracy = Precisione complessiva
+
+## Profile Delete
+
+delete-q = Vuoi richiedere anche l’eliminazione delle registrazioni vocali o preferisci conservarle nel dataset di Common Voice?
+keep = Mantieni
+remove = Rimuovi
+keep-info = Le tue registrazioni vocali anonime rimarranno nel dataset di Common Voice e, una volta eliminato il tuo profilo, non potrai più inviare una richiesta per rimuoverle.
+remove-info = Esamineremo la tua richiesta di rimozione delle registrazioni vocali dal dataset. Se la richiesta verrà approvata, contatteremo chi ha scaricato il dataset e chiederemo di rimuovere le tue registrazioni vocali.
+profile-form-delete = Elimina profilo

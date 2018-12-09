@@ -8,6 +8,8 @@ email-input =
     .label = 电子邮箱
 submit-form-action = 提交
 loading = 加载中…
+email-opt-in-privacy = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
+indicates-required = * 表示必填字段
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = 加载中…
 
 ## Languages
 
+ace = 亚齐语
 an = 阿拉贡语
 ar = 阿拉伯语
 as = 阿萨姆语
 ast = 阿斯图里亚斯语
 az = 阿塞拜疆语
+bg = 保加利亚语
 bn = 孟加拉语
 br = 布列塔尼语
 bxr = 布里亚特语
@@ -37,6 +41,8 @@ en = 英语
 eo = 世界语
 es = 西班牙语
 et = 爱沙尼亚语
+eu = 巴斯克语
+fa = 波斯语
 fi = 芬兰语
 fo = 法罗语
 fr = 法语
@@ -57,6 +63,7 @@ ko = 韩语
 kpv = 科米-齐良语
 kw = 康沃尔语
 ky = 吉尔吉斯语
+mdf = 莫克沙语
 mk = 马其顿语
 mn = 蒙古语
 myv = 厄尔兹亚语
@@ -68,10 +75,11 @@ oc = 欧西坦语
 or = 奥里亚语
 pl = 波兰语
 pt-BR = 葡萄牙语（巴西）
-rm = 罗曼什语
+rm-sursilv = 罗曼什语（苏斯勒万）
 ro = 罗马尼亚语
 ru = 俄语
 sah = 萨哈语
+sc = 萨丁尼亚语
 sk = 斯洛伐克语
 sl = 斯洛文尼亚语
 sq = 阿尔巴尼亚语
@@ -111,16 +119,14 @@ share-title = 帮我们找到更多人来贡献声音！
 share-text = 帮助训练机器像真人一样说话，请在 { $link } 处贡献出您的声音
 link-copied = 链接已复制
 back-top = 回到顶端
-contribution-banner-text = 我们刚刚推出全新的贡献方式
-contribution-banner-button = 体验一下
-report-bugs-link = 帮助报告缺陷
+logout = 退出
 
 ## Home Page
 
 home-title = Common Voice 项目是 Mozilla 的倡议，旨在帮助训练机器像真人一样说话。
 home-cta = 大胆发声，为此献声！
-wall-of-text-start = 语音应该是自然、人性的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
-wall-of-text-more-mobile = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别对所有人的开放。
+wall-of-text-start = 语音应该是自然、人性化的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
+wall-of-text-more-mobile = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别技术对每个人的开放。
 wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 朗读一个句子以帮助计算机学习真人说话。复查其他贡献者的工作以提高质量。就这么简单!
 wall-of-text-first = 语音应该是自然、人性的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-second = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别对所有人的开放。
@@ -139,6 +145,9 @@ listen-paragraph = 验证贡献的片段对于 Common Voice 任务同样重要�
 listen-goal-text = 已验证片段
 hours-recorded = 已录制小时数
 hours-validated = 已验证小时数
+voices-online = 目前上线的语音
+todays-progress = 本日进度
+help-reach-goal = 帮助我们达成 { $goal }
 read-terms-q = 您阅读过我们的使用条款了吗？
 ready-to-record = 准备好贡献您的声音了吗？
 all-languages = 所有语言
@@ -198,8 +207,6 @@ english = 英语
 
 ## ProfileForm
 
-profile-form-cancel = 退出表单
-profile-form-delete = 删除用户资料
 profile-form-username =
     .label = 用户名
 profile-form-language =
@@ -212,23 +219,26 @@ profile-form-gender =
     .label = 性别
 leaderboard-visibility =
     .label = 是否显示于排行榜
+hidden = 隐藏
+visible = 可见
 native-language =
     .label = 母语
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
-profile-keep-data = 保留数据
-profile-delete-data = 删除数据
 male = 男
 female = 女
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
 why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
+dashboard = 面板
+build-profile = 创建个人资料
+avatar = 头像
+goals = 目标
+settings = 设置
 edit-profile = 编辑用户资料
-profile-create = 创建用户资料
 profile-create-success = 成功，用户资料已创建！
 profile-close = 关闭
-profile-clear-modal = 清除您的用户资料后，您提交给 Common Voice 的录音将不再标注上人口统计学特征。
 profile-explanation = 通过使用个人资料跟踪您的进度，以帮助我们的语音数据更准确。
 thanks-for-account = 感谢您确认账户信息，接下来请提供您的个人资料。
 why-demographic = 为什么这很重要？
@@ -237,6 +247,7 @@ keep-me-posted =
     .label = 我想收到 Common Voice 相关的最新消息。
 accept-privacy = 我同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息
 login-identity = 登录身份
+login-signup = 登录 / 注册
 edit = 编辑
 email-subscriptions = 电子邮件订阅
 download-profile = 下载我的数据
@@ -246,6 +257,15 @@ skip-submission-description = 贡献期间，点击“提交”将跳过反馈�
 skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献类型。
 off = 关
 on = 开
+add-avatar-title = 在您的个人资料中添加头像
+browse-file-title = 上传图片
+browse-file = 拖放至此，或者<browseWrap>浏览</browseWrap>
+connect-gravatar = 连接 Gravatar
+gravatar_not_found = 通过您的电子邮件地址未找到 Gravatar
+file_too_large = 所选文件太大
+manage-subscriptions = 管理订阅
+email-already-used = 此电子邮件地址已被其他账户占用
+add-language = 添加语言
 
 ## FAQ
 
@@ -258,7 +278,7 @@ faq-get-q = 我要如何取得 Common Voice 的数据？
 faq-get-a = 目前该数据集可在<licenseLink> CC-0 </licenseLink>许可下的<downloadLink>下载页面</downloadLink>上获取。
 faq-mission-q = 为什么 Common Voice 是 Mozilla 使命的一部分？
 faq-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。在构建和测试语音技术时，我们认为需要囊括更多的语言、口音和人口特征。Mozilla 希望看到一个健康、充满活力的互联网。我们须要让新的创想家们能获得语音数据，来打造全新的非凡项目。Common Voice 将成为公共资源，有力支持 Mozilla 团队和世界各地的开发者们。
-faq-native-q = 我的母语不是{ $lang }，而且我说话带有口音，你们需要这样的语音吗？
+faq-native-q = 我的母语不是 { $lang }，而且我说话带有口音，你们需要这样的语音吗？
 faq-native-a = 是的，我们绝对需要您的语音！Common Voice 的目的之一就是尽可能多地收集不同的口音，让计算机能更好地理解<bold>每个人</bold>的话语。
 faq-firefox-q = Firefox 会通过 Common Voice 项目增加语音转文本功能吗？
 faq-firefox-a = Common Voice 具有无限潜力，我们的确在探索 Firefox 等 Mozilla 产品中语音方面的交互。
@@ -269,11 +289,6 @@ faq-hours-a = 这是训练出可供利用的 STT 系统所需的大约小时数�
 faq-source-q = 原始文本来自何处？
 faq-source-a1 = 目前是通过贡献者捐赠语料给我们，我们也会利用来自公有领域电影剧本的对话（如 <italic>It’s a Wonderful Life</italic>）。
 faq-source-a2 = 您可以在<dataLink>这个 GitHub 文件夹</dataLink>参考我们的语料源码。
-
-## Profile
-
-profile-why-title = 为什么要创建用户资料？
-profile-why-content = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
 
 ## NotFound
 
@@ -302,21 +317,6 @@ data-bundle-button = 批量下载数据集
 data-bundle-description = Common Voice 数据加上所有其他的语音数据集。
 license = 许可协议：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
-
-## Record Page
-
-record-platform-not-supported = 很抱歉，尚不支持您的平台。
-record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新内容：
-record-platform-not-supported-ios = <bold>iOS</bold> 用户可以下载我们的免费应用程序：
-record-must-allow-microphone = 您必须允许访问麦克风。
-record-retry = 重试
-record-no-mic-found = 未找到麦克风
-record-error-too-short = 这份录音太短了。
-record-error-too-long = 这份录音太长了。
-record-error-too-quiet = 这份录音太安静了。
-record-submit-success = 提交成功！要再录一次吗？
-record-help = 请点按录音按钮，然后朗读上述句子。
-record-cancel = 取消重新录音
 review-terms = 使用 Common Voice 即代表您同意我们的<termsLink>条款</termsLink>和<privacyLink>隐私声明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
@@ -387,6 +387,15 @@ goal-help-recording = 您已帮助 Common Voice 达成 <goalPercentage></goalPer
 goal-help-validation = 您已帮助 Common Voice 达成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 验证目标！
 contribute-more = 准备好再录 { $count } 条了吗？
 record-cta = 开始录音
+record-platform-not-supported = 很抱歉，尚不支持您的平台。
+record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新内容：
+record-platform-not-supported-ios = <bold>iOS</bold> 用户可以下载我们的免费应用程序：
+record-must-allow-microphone = 您必须允许访问麦克风。
+record-no-mic-found = 未找到麦克风
+record-error-too-short = 这份录音太短了。
+record-error-too-long = 这份录音太长了。
+record-error-too-quiet = 这份录音太安静了。
+record-cancel = 取消重新录音
 record-instruction = { $actionType } 按下 <recordIcon></recordIcon> 然后大声朗读句子
 record-stop-instruction = { $actionType } 完成后按下 <stopIcon></stopIcon>
 record-three-more-instruction = 还有三条！
@@ -410,3 +419,41 @@ listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 nothing-to-validate = 我们没有这个语言可供验证的录音，请帮助我们多录一些。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
+
+## Goals
+
+streaks = 连续第
+days =
+    { $count ->
+       *[other] 天
+    }
+recordings =
+    { $count ->
+       *[other] 录音
+    }
+validations =
+    { $count ->
+       *[other] 验证
+    }
+
+## Dashboard
+
+toward-next-goal = 距离下一个目标
+stats = 统计
+you = 您自己
+everyone = 所有人
+contribution-activity = 贡献记录
+top-contributors = 杰出贡献者
+recorded-clips = 录制的片段
+validated-clips = 验证的片段
+total-approved = 总核准数
+overall-accuracy = 总体准确度
+
+## Profile Delete
+
+delete-q = 您是否想要一并删除语音，或是要将语音保留在 Common Voice 数据集中？
+keep = 保留
+remove = 移除
+keep-info = 您的录音将匿名保留在 Common Voice 数据集中。删除个人资料后，就无法再要求从数据集删除
+remove-info = 我们将审核您从数据集中删除录音的请求。如果您的请求获得批准，我们将会联系已下载数据集的用户，并请他们也删除您的录音。
+profile-form-delete = 删除用户资料

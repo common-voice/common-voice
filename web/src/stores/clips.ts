@@ -97,9 +97,12 @@ export namespace Clips {
     ) => {
       const state = getState();
       const id = clipId || localeClips(state).next.id;
-      await state.api.saveVote(id, isValid);
-      dispatch(User.actions.tallyVerification());
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
+      await state.api.saveVote(id, isValid);
+      if (!state.user.account) {
+        dispatch(User.actions.tallyVerification());
+      }
+      User.actions.refresh()(dispatch, getState);
       actions.refillCache()(dispatch, getState);
     },
 

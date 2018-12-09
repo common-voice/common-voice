@@ -15,11 +15,13 @@ loading = Yüklənir…
 
 ## Languages
 
+ace = Açecə
 an = Araqonca
 ar = Ərəbcə
 as = Assam dili
 ast = Asturiyaca
 az = Azərbaycanca
+bg = Bolqar dili
 bn = Benqal dili
 br = Breton dili
 bxr = Buryatca
@@ -37,6 +39,8 @@ en = İngiliscə
 eo = Esperanto
 es = İspanca
 et = Estonca
+eu = Basqca
+fa = Farsca
 fi = Fincə
 fo = Farer dili
 fr = Fransızca
@@ -57,6 +61,7 @@ ko = Koreya dili
 kpv = Komi-zıryan dili
 kw = Korniş dili
 ky = Qırğızca
+mdf = Mokşa dili
 mk = Makedon dili
 mn = Monqolca
 myv = Erzyan dili
@@ -68,10 +73,11 @@ oc = Oksitanca
 or = Odia dili
 pl = Polyakca
 pt-BR = Portuqalca (Braziliya)
-rm = Romanş dili
+rm-sursilv = Romanş Sursilvan dili
 ro = Rumın dili
 ru = Rusca
 sah = Saxa dili
+sc = Sardincə
 sk = Slovakca
 sl = Slovencə
 sq = Alban dili
@@ -111,9 +117,7 @@ share-title = Səsini ianə edəcək başqa insanları tapmağa kömək et!
 share-text = Maşınlara real insanların necə danışdıqlarını öyrətməyə kömək et, səsinizi ianə edin: { $link }
 link-copied = Keçid Köçürüldü
 back-top = Üstə Qayıt
-contribution-banner-text = Yeni dəstək interfeysini yayına aldıq
-contribution-banner-button = Göz gəzdir
-report-bugs-link = Xətaları bildirməyə kömək et
+logout = Çıx
 
 ## Home Page
 
@@ -141,6 +145,9 @@ listen-paragraph = İanə edilmiş klipləri təsdiqləmək Common Voice missiya
 listen-goal-text = Təsdiqlənmiş kliplər
 hours-recorded = Qeyd etmə saatları
 hours-validated = Təsdiqləmə saatları
+voices-online = İndi onlayn olan səslər
+todays-progress = Bu günün irəliləyişi
+help-reach-goal = { $goal } səviyyəsinə çatmağımıza kömək et
 read-terms-q = Şərtlərimizi oxumusunuz?
 ready-to-record = Səsinizi verməyə hazırsınız?
 all-languages = Bütün Dillər
@@ -218,6 +225,8 @@ profile-form-gender =
     .label = Cins
 leaderboard-visibility =
     .label = Öndərlər Siyahısı Görünüşü
+hidden = Gizli
+visible = Görünən
 native-language =
     .label = Ana Dili
 profile-form-submit-save = Saxla
@@ -230,6 +239,10 @@ female = Qadın
 other = Digər
 why-profile-title = Niyə profil?
 why-profile-text = Haqqınızda bəzi məlumatları verərək Common Voice üçün göndərdiyiniz səs məlumatlarını Səs Tanıma mühərriyi üçün daha mənalı hala gətirə bilərsiz.
+dashboard = İdarə paneli
+build-profile = Profil yarat
+avatar = Avatar
+settings = Tənzimləmələr
 edit-profile = Profili Düzəlt
 profile-create = Profil yarat
 profile-create-success = Profil uğurla yaradıldı!
@@ -243,6 +256,7 @@ keep-me-posted =
     .label = Yeniliklərdən və Common Voice proyektindəki dəyişikliklərdən xəbərdar olmaq istəyirəm.
 accept-privacy = Bu məlumatı Mozillanın <privacyLink>Məxfilik Siyasəti</privacyLink>nə əsasən işləməyinizə razıyam
 login-identity = Giriş İdentikliyi
+login-signup = Daxil ol / Qeydiyyatdan keç
 edit = Redaktə et
 email-subscriptions = E-poçt Abunəlikləri
 download-profile = Məlumatlarımı endir
@@ -252,6 +266,14 @@ skip-submission-description = Kömək vaxtı "Göndər" düyməsinə kliklədikd
 skip-submission-note = Qeyd: Siz yenə də kömək növünü dəyişmək üçün Danış və ya Qulaq as seçməli olacaqsız.
 off = Sönülü
 on = Açıq
+add-avatar-title = Profilinizə avatar əlavə edin
+browse-file-title = Şəkil faylı yüklə
+browse-file = Daşı və burax və ya <browseWrap>Gəz</browseWrap>
+connect-gravatar = Gravatar ilə qoşul
+gravatar_not_found = E-poçtunuz üçün gravatar tapılmadı
+file_too_large = Seçilən fayl çox böyükdür
+manage-subscriptions = Abunəlikləri idarə et
+email-already-used = E-poçt artıq digər bir hesab üçün işlədilir
 
 ## FAQ
 
@@ -308,21 +330,6 @@ data-bundle-button = Məlumat bazası paketini endir
 data-bundle-description = Common Voice bazası və yuxarıdakı bütün digər səs bazaları.
 license = Lisenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Qarışıq
-
-## Record Page
-
-record-platform-not-supported = Üzr istəyirik, amma platformanız hazırda dəstəklənmir.
-record-platform-not-supported-desktop = Masaüstü kompüterinizdə bu son səyyahları endirə bilərsiz:
-record-platform-not-supported-ios = <bold>iOS</bold> istifadəçiləri pulsuz tətbiqimizi endirə bilərlər:
-record-must-allow-microphone = Mikrofona icazə verməlisiniz.
-record-retry = Təkrar yoxla
-record-no-mic-found = Mikrofon tapılmadı.
-record-error-too-short = Qeyd çox qısa idi.
-record-error-too-long = Qeyd çox uzun idi.
-record-error-too-quiet = Qeyd çox sakit idi.
-record-submit-success = Uğurla göndərildi! Təkrar qeyd etmək istərdiniz?
-record-help = Lütfən qeyd-ə basın, sonra da üstdəki cümləni səsli oxuyun.
-record-cancel = Təkrar qeydi ləğv et
 review-terms = Common Voice işlətməklə <termsLink>Şərt</termsLink> və <privacyLink>Məxfilik Qeydləri</privacyLink>mizlə razılaşmış olursuz
 terms-agree = Razıyam
 terms-disagree = Razı deyiləm
@@ -397,6 +404,15 @@ contribute-more =
        *[other] Daha { $count } dənə etməyə hazırsınız?
     }
 record-cta = Qeydə başla
+record-platform-not-supported = Üzr istəyirik, amma platformanız hazırda dəstəklənmir.
+record-platform-not-supported-desktop = Masaüstü kompüterinizdə bu son səyyahları endirə bilərsiz:
+record-platform-not-supported-ios = <bold>iOS</bold> istifadəçiləri pulsuz tətbiqimizi endirə bilərlər:
+record-must-allow-microphone = Mikrofona icazə verməlisiniz.
+record-no-mic-found = Mikrofon tapılmadı.
+record-error-too-short = Qeyd çox qısa idi.
+record-error-too-long = Qeyd çox uzun idi.
+record-error-too-quiet = Qeyd çox sakit idi.
+record-cancel = Təkrar qeydi ləğv et
 record-instruction = <recordIcon></recordIcon> düyməsinə { $actionType } və cümləni səsli oxuyun
 record-stop-instruction = Bitirdikdə <stopIcon></stopIcon> düyməsinə { $actionType }
 record-three-more-instruction = Üç dənə qaldı!
@@ -420,3 +436,12 @@ listen-last-time-instruction = <playIcon></playIcon>Sonuncu!
 nothing-to-validate = Bu il üçün təsdiqlənəcək məlumatlarımız yoxdur, növbəni doldurmağımıza kömək edin.
 record-button-label = Səsinizi qeyd edin
 share-title-new = Daha çox səs tapmağımıza <bold>Kömək edin</bold>
+
+## Dashboard
+
+you = Siz
+everyone = Hamı
+contribution-activity = Kömək aktivliyi
+top-contributors = Ən çox kömək edənlər
+recorded-clips = Qeyd edilmiş kliplər
+validated-clips = Təsdiqlənmiş kliplər

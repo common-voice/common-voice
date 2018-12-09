@@ -8,6 +8,8 @@ email-input =
     .label = E-mailowa adresa
 submit-form-action = Wótpósłaś
 loading = Cyta se…
+email-opt-in-privacy = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći<privacyLink> Mozilla rozjasnjuju.
+indicates-required = * Wóznamjenijo trěbne pólo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Cyta se…
 
 ## Languages
 
+ace = Ačehšćina
 an = Aragońšćina
 ar = Arabšćina
 as = Asamšćina
 ast = Asturšćina
 az = Azerbajdžanišćina
+bg = Bułgaršćina
 bn = Bengalšćina
 br = Bretońšćina
 bxr = Burjatšćina
@@ -37,6 +41,8 @@ en = Engelšćina
 eo = Esperanto
 es = Špańšćina
 et = Estnišćina
+eu = Baskišćina
+fa = Persišćina
 fi = Finšćina
 fo = Ferejšćina
 fr = Francojšćina
@@ -57,6 +63,7 @@ ko = Korejańšćina
 kpv = Komi-syrjeńšćina
 kw = Kornišćina
 ky = Kirgišćina
+mdf = Mokša
 mk = Makedońšćina
 mn = Mongolšćina
 myv = Erzya
@@ -68,10 +75,11 @@ oc = Okcitańšćina
 or = Odiašćina
 pl = Pólšćina
 pt-BR = Portugišćina (Brazilska)
-rm = retoromaniščina
+rm-sursilv = Retoromanišćina (Sursilvan)
 ro = Rumunšćina
 ru = Rušćina
 sah = Sachašćina
+sc = Sardinišćina
 sk = Słowakšćina
 sl = Słowjeńšćina
 sq = Albanšćina
@@ -111,9 +119,7 @@ share-title = Pomagajśo nam, dalšne namakaś, kótarež swój głos dawaju!
 share-text = Pomagajśo mašinam wucyś, kak luźe powědaju, dajśo swój głos na { $link }
 link-copied = Wótkaz kopěrowany
 back-top = Slědk górjej
-contribution-banner-text = Smy rowno startowali nowu móžnosć za sobuźěło
-contribution-banner-button = Rozglědajśo se
-report-bugs-link = Dajśo programowe zmólki k wěsći
+logout = Wótzjawiś
 
 ## Home Page
 
@@ -139,6 +145,9 @@ listen-paragraph = Wobwěsćowanje pósććonych klipow jo rowno tak wažne za m
 listen-goal-text = Wobwěsćone klipy
 hours-recorded = Nagraśowe góźiny
 hours-validated = Wobwěsćone góźiny
+voices-online = Głose něnto online
+todays-progress = Źinsajšny póstup
+help-reach-goal = Pomagajśo nam, { $goal } dojśpiś
 read-terms-q = Sćo pśecytał naše wužywańske wuměnjenja?
 ready-to-record = Sćo gótowy, swój głos pósćiś?
 all-languages = Wšykne rěcy
@@ -210,8 +219,6 @@ english = Engelšćina
 
 ## ProfileForm
 
-profile-form-cancel = Formular zacyniś
-profile-form-delete = Profil wulašowaś
 profile-form-username =
     .label = Wužywarske mě
 profile-form-language =
@@ -224,23 +231,26 @@ profile-form-gender =
     .label = Rod
 leaderboard-visibility =
     .label = Wiźobnosć lisćiny nejlěpšych
+hidden = Schowany
+visible = Widobny
 native-language =
     .label = Mamina rěc
 profile-form-submit-save = Składowaś
 profile-form-submit-saved = Skłaźony
-profile-keep-data = Daty wobchowaś
-profile-delete-data = Daty wulašowaś
 male = Muski
 female = Žeńscyny
 # Gender
 other = Druge
 why-profile-title = Cogodla profil?
 why-profile-text = Dajśo nam někotare informacije wó sebje, aby awdiodaty, kótarež na Common Voice sćelośo, wužytnjejše byli, aby se dokradnosć systemow spóznawanja rěcy pólěpšyła.
+dashboard = Pśeglěd
+build-profile = Profil natwariś
+avatar = Awatar
+goals = Cele
+settings = Nastajenja
 edit-profile = Profil wobźěłaś
-profile-create = Profil załožyś
 profile-create-success = Profil jo se wuspěšnje załožył!
 profile-close = Zacyniś
-profile-clear-modal = Gaž swóje profilowe daty wulašujośo, se toś te demografiske informacije na Common Voice gromaźe z nagraśami wěcej njepósćelu.
 profile-explanation = Z profilom móžośo swój póstup we wócyma wobchowaś a pomagaś, naše głosowe daty dokradnjejše cyniś.
 thanks-for-account = Źěkujomy se, až sćo wobkšuśił swójo konto, comy něnto waš profil zarědowaś.
 why-demographic = Cogodla jo to wažne?
@@ -249,6 +259,7 @@ keep-me-posted =
     .label = Ja by rady aktualizacije měł a informěrujśo mě běžnje, gaž jo něco nowe wó Common Voice.
 accept-privacy = Som wobjadny, až se toś te informacije wužywaju, kak se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla wujasnjujo.
 login-identity = Pśizjawjeńska identita
+login-signup = Pśizjawiś/Registrěrowaś
 edit = Wobźěłaś
 email-subscriptions = E-mailowe abonementy
 download-profile = Móje daty ześěgnuś
@@ -258,6 +269,15 @@ skip-submission-description = Pśi sobustatkowanju se zapódawański komentar p�
 skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś wubraś, aby typ sobustatkowanja změnił.
 off = Wušaltowany
 on = Zašaltowany
+add-avatar-title = Pśidajśo wašomu profiloju awatar
+browse-file-title = Wobrazowu dataju nagraś
+browse-file = Śěgniśo a pušććo abo <browseWrap>pśeglědujśo</browseWrap>
+connect-gravatar = Z gravatarom zwězaś
+gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
+file_too_large = Wubrana dataja jo pśewjelika
+manage-subscriptions = Abonementy zastojaś
+email-already-used = E-mailowa adresa se južo za druge konto wužywa
+add-language = Rěc pśidaś
 
 ## FAQ
 
@@ -281,11 +301,6 @@ faq-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby prod
 faq-source-q = Wótkul žrědłowy tekst pśiźo?
 faq-source-a1 = Aktualne sady su se wót sobustatkujucych pśinosowali, ako teke dialog z filmowych scenariskich knigłow, kótarež su zgromadne swójstwo, ako <italic>It's a Wonderful Life.</italic>
 faq-source-a2 = Móžośo se naše žrědłowe sady w <dataLink>toś tom zarědniku GitHub</dataLink> woglědaś.
-
-## Profile
-
-profile-why-title = Cogodla profil?
-profile-why-content = Dajśo někotare informacije wó sebje k wěsći, aby awdiodaty, kótarež na Common Voice sćelośo, su wužytnjejše za systemy głosowego spóznaśa, kótarež toś te daty wužywaju, aby swóju dokradnosć pólěpšyli.
 
 ## NotFound
 
@@ -314,21 +329,6 @@ data-bundle-button = Paket datowych sajźbow ześěgnuś
 data-bundle-description = Daty Common Voice plus wšykne druge głosowe datowe sajźby górjejce.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
-
-## Record Page
-
-record-platform-not-supported = Jo nam luto, ale waša platforma se tuchylu njepódpěra.
-record-platform-not-supported-desktop = Na desktopowych licadłach móžośo nejnowšu wersiju ześěgnuś:
-record-platform-not-supported-ios = Wužywarje <bold>iOS</bold> mógu naše dermotne nałoženje ześěgnuś:
-record-must-allow-microphone = Musyśo pśistup k mikrofonoju dowóliś.
-record-retry = Hyšći raz wopytaś
-record-no-mic-found = Žeden mikrofon namakany.
-record-error-too-short = Nagraśe jo było pśekrotke.
-record-error-too-long = Nagraśe jo było pśedłujke.
-record-error-too-quiet = Nagraśe jo było pśeśiche.
-record-submit-success = Wótpósłanje wuspěšne! Cośo znowego nagraś?
-record-help = Pšosym pótusniśo Nagraś a pśedcytajśo górjejcne sady głosnje.
-record-cancel = Zasejnagraśe pśetergnuś
 review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
@@ -405,6 +405,15 @@ contribute-more =
        *[other] Sćo gótowy, hyšći { $count } dalšnych gótowaś?
     }
 record-cta = Nagraśe startowaś
+record-platform-not-supported = Jo nam luto, ale waša platforma se tuchylu njepódpěra.
+record-platform-not-supported-desktop = Na desktopowych licadłach móžośo nejnowšu wersiju ześěgnuś:
+record-platform-not-supported-ios = Wužywarje <bold>iOS</bold> mógu naše dermotne nałoženje ześěgnuś:
+record-must-allow-microphone = Musyśo pśistup k mikrofonoju dowóliś.
+record-no-mic-found = Žeden mikrofon namakany.
+record-error-too-short = Nagraśe jo było pśekrotke.
+record-error-too-long = Nagraśe jo było pśedłujke.
+record-error-too-quiet = Nagraśe jo było pśeśiche.
+record-cancel = Zasejnagraśe pśetergnuś
 record-instruction = { $actionType } <recordIcon></recordIcon> a pśedcytajśo sadu głosnje
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, gaž sćo gótowy
 record-three-more-instruction = Hyšći tśi!
@@ -428,3 +437,50 @@ listen-last-time-instruction = <playIcon></playIcon> Slědny!
 nothing-to-validate = Njamamy nico, kótarež móžomy w toś tej rěcy pśekontrolěrowaś, pšosym pomagajśo nam cakański rěd połniś.
 record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
+
+## Goals
+
+streaks = Smugi
+days =
+    { $count ->
+        [one] Źeń
+        [two] Dnja
+        [few] Dny
+       *[other] Dnjow
+    }
+recordings =
+    { $count ->
+        [one] Nagraśe
+        [two] Nagraśi
+        [few] Nagraśa
+       *[other] Nagraśow
+    }
+validations =
+    { $count ->
+        [one] Pśeglědanje
+        [two] Pśeglědani
+        [few] Pśeglědanja
+       *[other] Pśeglědanjow
+    }
+
+## Dashboard
+
+toward-next-goal = K pśiducemu celoju
+stats = Statistika
+you = Wy
+everyone = Kuždy
+contribution-activity = Sobuźěłowa aktiwita
+top-contributors = Nejaktiwnjejše sobustatkujuce
+recorded-clips = Nagrate klipy
+validated-clips = Pśeglědane klipy
+total-approved = Pśizwólone dogromady
+overall-accuracy = Cełkowna dokradnosć
+
+## Profile Delete
+
+delete-q = Cośo, až se waše głosowe nagraśa teje wulašuju, abo cośo je lubjej w datowej sajźbje Common Voice wobchowaś?
+keep = Wobchowaś
+remove = Wótwónoźeś
+keep-info = Waše anonymne głosowe nagraśa wóstanu w datowej sajźbje Common Voice. Gaž swój profil wulašujośo, njamóžośo wěcej napšašowanje wótpósłaś, aby swóje nahraśa z datoweje sajźby wótwónoźeł
+remove-info = Buźomy wašo napšašowanje, waše głosowe nagraśa z datoweje sajźby wótwónoźeś, pśeglědowaś. Jolic se wašo napšašowanje pśizwólijo,  buźomy se z tymi do zwiska stajiś, kótarež su ześěgnuli datowu sajźbu, a pšosymy jich, aby waše głosowe nagraśa teke wótwónoźeli.
+profile-form-delete = Profil wulašowaś

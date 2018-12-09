@@ -8,6 +8,7 @@ email-input =
     .label = E-posta
 submit-form-action = Gönder
 loading = Yükleniyor…
+indicates-required = * Gerekli alanları gösterir
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +16,13 @@ loading = Yükleniyor…
 
 ## Languages
 
+ace = Açece
 an = Aragonca
 ar = Arapça
 as = Assamca
 ast = Asturyanca
 az = Azerice
+bg = Bulgarca
 bn = Bengalce
 br = Bretonca
 bxr = Buryatça
@@ -37,6 +40,8 @@ en = İngilizce
 eo = Esperanto
 es = İspanyolca
 et = Estonca
+eu = Baskça
+fa = Farsça
 fi = Fince
 fo = Faroece
 fr = Fransızca
@@ -57,6 +62,7 @@ ko = Korece
 kpv = Komi Zıryan
 kw = Kernevekçe
 ky = Kırgızca
+mdf = Mokşa
 mk = Makedonca
 mn = Moğolca
 myv = Erzyanca
@@ -64,13 +70,15 @@ nb-NO = Norveç Bokmål
 ne-NP = Nepalce
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
+oc = Oksitanca
 or = Odia
 pl = Lehçe
 pt-BR = Portekizce (Brezilya)
-rm = Romanşça
+rm-sursilv = Romanşça Sursilvan
 ro = Rumence
 ru = Rusça
 sah = Yakutça
+sc = Sardinya dili
 sk = Slovakça
 sl = Slovakça
 sq = Arnavutça
@@ -110,9 +118,7 @@ share-title = Sesini bağışlayacak birilerini bulmamıza yardım edin!
 share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $link } ile sesinizi bağışlayın
 link-copied = Bağlantı kopyalandı
 back-top = Başa dön
-contribution-banner-text = Katkıda bulunabileceğiniz yeni bir arayüz deniyoruz
-contribution-banner-button = Bir göz atın
-report-bugs-link = Hataları rapor edin
+logout = Çıkış
 
 ## Home Page
 
@@ -138,6 +144,9 @@ listen-paragraph = Common Voice için bağışlanan ses kayıtlarını doğrulam
 listen-goal-text = Doğrulanan ses
 hours-recorded = Kaydedilen saat
 hours-validated = Doğrulanan saat
+voices-online = Çevrimiçi ses sayısı
+todays-progress = Bugünkü ilerleme
+help-reach-goal = Bugünkü hedefimiz: { $goal }
 read-terms-q = Koşullarımızı okudunuz mu?
 ready-to-record = Sesinizi bağışlamaya hazır mısınız?
 all-languages = Tüm diller
@@ -201,8 +210,6 @@ english = İngilizce
 
 ## ProfileForm
 
-profile-form-cancel = Formdan çık
-profile-form-delete = Profilimi sil
 profile-form-username =
     .label = Kullanıcı adı
 profile-form-language =
@@ -213,26 +220,55 @@ profile-form-age =
     .label = Yaş
 profile-form-gender =
     .label = Cinsiyet
+leaderboard-visibility =
+    .label = Liderlik görünürlüğü
+hidden = Gizli
+visible = Görünür
 native-language =
     .label = Anadili
 profile-form-submit-save = Kaydet
 profile-form-submit-saved = Kaydedildi
-profile-keep-data = Verileri tut
-profile-delete-data = Verileri sil
 male = Erkek
 female = Kadın
 # Gender
 other = Diğer
 why-profile-title = Neden profil oluşturmalıyım?
 why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
+dashboard = Pano
+build-profile = Profil oluştur
+avatar = Avatar
+goals = Hedefler
+settings = Ayarlar
 edit-profile = Profili düzenle
-profile-create = Profil oluştur
 profile-create-success = Profil başarıyla oluşturuldu!
 profile-close = Kapat
-profile-clear-modal = Profil verilerinizi silerseniz bu demografik bilgiler artık ses kayıtlarınızla birlikte Common Voice'a gönderilmeyecektir.
 profile-explanation = Profil oluşturarak hem ilerlemenizi takip edebilir hem de ses verilerimizin daha verimli olmasını sağlayabilirsiniz.
+thanks-for-account = Hesabınızı onayladığınız için teşekkür ederiz. Şimdi profilinizi oluşturalım.
+why-demographic = Bu neden önemli?
+why-demographic-explanation = Yaş, cinsiyet ve aksan gibi anonim kullanıcı verileri, konuşma tanıma motorlarının doğruluğunu eğitmek için kullanılan ses verilerini geliştirmeye yardımcı olur. Kullanıcı adınız ve e-postanız gönderilen verilerinizle asla ilişkilendirilmez. Kullanıcı adınızın başkaları tarafından görünüp görünmeyeceğini de seçebilirsiniz.
+keep-me-posted =
+    .label = Common Voice hakkındaki yenilik ve gelişmelerden haberdar olmak istiyorum.
+accept-privacy = Bu bilgilerin Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanılmasını kabul ediyorum
+login-identity = Giriş kimliği
+login-signup = Giriş / Kayıt
 edit = Düzenle
 email-subscriptions = E-posta abonelikleri
+download-profile = Verilerimi indir
+contribution-experience = Katkı deneyimi
+skip-submission-feedback = Gönderim geri bildirimini atla
+skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladıktan sonra geri bildirim atlanır. Katkı, bir sonraki 5 kayıt veya doğrulama setiyle doğrudan devam edecektir.
+skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
+off = Kapalı
+on = Açık
+add-avatar-title = Profilinize avatar ekleyin
+browse-file-title = Resim dosyası yükle
+browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
+connect-gravatar = Gravatar ile bağlan
+gravatar_not_found = E-postanıza ait gravatar bulunamadı
+file_too_large = Seçilen dosya çok büyük
+manage-subscriptions = Abonelikleri yönet
+email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
+add-language = Dil ekle
 
 ## FAQ
 
@@ -256,11 +292,6 @@ faq-hours-a = Bu süre, işe yarar bir STT (konuşmayı metne dönüştürme) si
 faq-source-q = Kaynak metinler nereden geliyor?
 faq-source-a1 = Mevcut cümleler gönüllülerimizden ve <italic>It’s a Wonderful Life</italic> gibi telif hakkı sona ermiş filmlerdeki konuşmalardan geliyor.
 faq-source-a2 = Kaynak cümlelerimizi <dataLink>bu GitHub klasöründe</dataLink> bulabilirsiniz.
-
-## Profile
-
-profile-why-title = Neden profil oluşturmalıyım?
-profile-why-content = Kendiniz hakkında biraz bilgi verirseniz, Common Voice’a gönderdiğiniz ses verileri, doğruluğu artırmak için bu verileri kullanan Konuşma Tanıma motorlarının daha fazla işine yarayacaktır.
 
 ## NotFound
 
@@ -289,21 +320,6 @@ data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
-
-## Record Page
-
-record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
-record-platform-not-supported-desktop = Bilgisayarınızda şu tarayıcıların son sürümlerini kullanabilirsiniz:
-record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
-record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
-record-retry = Yeniden dene
-record-no-mic-found = Mikrofon bulunamadı.
-record-error-too-short = Kayıt çok kısa.
-record-error-too-long = Kayıt çok uzun.
-record-error-too-quiet = Bu kayıt çok sessiz oldu.
-record-submit-success = Gönderi tamamlandı! Yeni bir kayıt yapmak ister misiniz?
-record-help = Lütfen kayıt düğmesine bastıktan sonra yukarıdaki cümleyi yüksek sesle okuyun.
-record-cancel = Yeniden kaydetmeyi iptal et
 review-terms = Common Voice’u kullandığınızda <termsLink>Koşullarımızı</termsLink> ve <privacyLink>Gizlilik İlkelerimizi</privacyLink> kabul etmiş olursunuz.
 terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum
@@ -378,6 +394,15 @@ contribute-more =
        *[other] { $count } tane daha yapmaya hazır mısın?
     }
 record-cta = Kaydetmeye başla
+record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
+record-platform-not-supported-desktop = Bilgisayarınızda şu tarayıcıların son sürümlerini kullanabilirsiniz:
+record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
+record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
+record-no-mic-found = Mikrofon bulunamadı.
+record-error-too-short = Kayıt çok kısa.
+record-error-too-long = Kayıt çok uzun.
+record-error-too-quiet = Bu kayıt çok sessiz oldu.
+record-cancel = Yeniden kaydetmeyi iptal et
 record-instruction = <recordIcon></recordIcon> düğmesine { $actionType }, sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
@@ -401,3 +426,37 @@ listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
 nothing-to-validate = Bu dilde doğrulanacak bir şey kalmamış. Kuyruğu doldurmamıza yardımcı olun.
 record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
+
+## Goals
+
+days =
+    { $count ->
+        [one] Gün
+       *[other] Gün
+    }
+recordings =
+    { $count ->
+        [one] Kayıt
+       *[other] Kayıt
+    }
+validations =
+    { $count ->
+        [one] Doğrulama
+       *[other] Doğrulama
+    }
+
+## Dashboard
+
+stats = İstatistikler
+you = Siz
+everyone = Herkes
+contribution-activity = Katkı Etkinliği
+top-contributors = En Çok Katkıda Bulunanlar
+recorded-clips = Kaydedilen ses
+validated-clips = Doğrulanan ses
+
+## Profile Delete
+
+keep = Tut
+remove = Sil
+profile-form-delete = Profilimi sil

@@ -8,6 +8,8 @@ email-input =
     .label = E-mail
 submit-form-action = Elküldés
 loading = Betöltés…
+email-opt-in-privacy = Azzal hogy az e-mailek fogadását kéri, kijelenti hogy beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben<privacyLink> leírt módon kezelje ezeket az adatokat.
+indicates-required = * Kötelező mezőt jelez
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,13 @@ loading = Betöltés…
 
 ## Languages
 
+ace = Acehi
 an = Aragóniai
 ar = Arab
 as = Asszámi
 ast = Asztúriai
 az = Azeri
+bg = Bolgár
 bn = Bengáli
 br = Breton
 bxr = Burját
@@ -37,6 +41,8 @@ en = Angol
 eo = Eszperantó
 es = Spanyol
 et = Észt
+eu = Baszk
+fa = Perzsa
 fi = Finn
 fo = Feröeri
 fr = Francia
@@ -57,6 +63,7 @@ ko = Koreai
 kpv = Komi-zürjén
 kw = Cornwalli
 ky = Kirgiz
+mdf = Moksa
 mk = Macedón
 mn = Mongol
 myv = Erza
@@ -68,10 +75,11 @@ oc = Okcitán
 or = Orija
 pl = Lengyel
 pt-BR = Portugál (Brazília)
-rm = Rétoromán
+rm-sursilv = Romans sursilvan
 ro = Román
 ru = Orosz
 sah = Szaha
+sc = Szárd
 sk = Szlovák
 sl = Szlovén
 sq = Albán
@@ -111,9 +119,7 @@ share-title = Segítsen olyanokat találni, akik a hangjukat adják.
 share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
-contribution-banner-text = Elindítottuk az új közreműködési élményt
-contribution-banner-button = Nézze meg
-report-bugs-link = Segítsen a hibák jelentésében
+logout = Kijelentkezés
 
 ## Home Page
 
@@ -145,6 +151,9 @@ listen-paragraph = A közzétett klipek ellenőrzése hasonlóan fontos a Common
 listen-goal-text = Ellenőrzött klipek
 hours-recorded = Rögzített órák
 hours-validated = Ellenőrzött órák
+voices-online = Jelenleg online hangok
+todays-progress = A mai előrehaladás
+help-reach-goal = Segítsen nekünk elérni: { $goal }
 read-terms-q = Elolvasta a feltételeinket?
 ready-to-record = Készen áll, hogy a hangját adja?
 all-languages = Összes nyelv
@@ -208,8 +217,6 @@ english = Angol
 
 ## ProfileForm
 
-profile-form-cancel = Űrlap bezárása
-profile-form-delete = Profil törlése
 profile-form-username =
     .label = Felhasználónév
 profile-form-language =
@@ -222,23 +229,26 @@ profile-form-gender =
     .label = Nem
 leaderboard-visibility =
     .label = Ranglista láthatósága
+hidden = Rejtett
+visible = Látható
 native-language =
     .label = Anyanyelv
 profile-form-submit-save = Mentés
 profile-form-submit-saved = Mentve
-profile-keep-data = Adat megtartása
-profile-delete-data = Adat törlése
 male = Férfi
 female = Nő
 # Gender
 other = Egyéb
 why-profile-title = Miért kell a profil?
 why-profile-text = Azáltal, hogy megad néhány adatot magáról, a hangminták, amiket a Common Voice részére beküld hasznosabbak lesznek a hangfelismerő rendszerek számára, melyek a pontosságuk javítására használják a hangmintákat.
+dashboard = Vezérlőpult
+build-profile = Összeállítási profil
+avatar = Avatár
+goals = Célok
+settings = Beállítások
 edit-profile = Profil szerkesztése
-profile-create = Profil létrehozása
 profile-create-success = Profil sikeresen létrehozva!
 profile-close = Bezárás
-profile-clear-modal = A profiladatok törlése azt jelenti, hogy ezek a demográfiai információk többé már nem lesznek beküldve a Common Voice-ba a hangrögzítéseivel.
 profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
 thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
 why-demographic = Miért számít ez?
@@ -247,6 +257,7 @@ keep-me-posted =
     .label = Szeretnék frissítéseket kapni, és naprakész lenni, hogy mi történik a Common Voice-szal.
 accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelveiben</privacyLink> leírtak szerint kezeljék az adataimat
 login-identity = Bejelentkezési azonosító
+login-signup = Bejelentkezés / Regisztráció
 edit = Szerkesztés
 email-subscriptions = E-mail feliratkozások
 download-profile = Saját adatok letöltése
@@ -256,6 +267,15 @@ skip-submission-description = A közreműködések beküldésekor a visszajelzé
 skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszéljen vagy Figyeljen lehetőséget a közreműködés típusának módosításához.
 off = Ki
 on = Be
+add-avatar-title = Avatár hozzáadása a profiljához
+browse-file-title = Képfájl feltöltése
+browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
+connect-gravatar = Kapcsolódás a Gravatarral
+gravatar_not_found = Nem található gravatar az e-mail címéhez
+file_too_large = A kiválasztott fájl túl nagy
+manage-subscriptions = Feliratkozások kezelése
+email-already-used = Az e-mail már használatban van egy másik fiókban
+add-language = Nyelv hozzáadása
 
 ## FAQ
 
@@ -279,11 +299,6 @@ faq-hours-a = Megközelítőleg ennyi óra hanganyagra van szükség egy működ
 faq-source-q = Honnan származik a forrásszöveg?
 faq-source-a1 = A jelenlegi mondatok közreműködők hozzájárulásaiból származnak, valamint olyan közkincset képező filmekből, mint <italic>Az élet csodaszép.</italic>
 faq-source-a2 = Megnézheti a forrásmondatainkat <dataLink>ebben a GitHub könyvtárban</dataLink>.
-
-## Profile
-
-profile-why-title = Miért kell a profil?
-profile-why-content = Azáltal, hogy megad néhány adatot magáról, a hangminták, amiket a Common Voice részére beküld hasznosabbak lesznek a hangfelismerő rendszerek számára, melyek a pontosságuk javítására használják a hangmintákat.
 
 ## NotFound
 
@@ -312,21 +327,6 @@ data-bundle-button = Adatkészletcsomag letöltése
 data-bundle-description = Common Voice adatok plusz az összes fenti adatkészlet.
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
-
-## Record Page
-
-record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
-record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:
-record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
-record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
-record-retry = Újra
-record-no-mic-found = Nem található mikrofon.
-record-error-too-short = A felvétel túl rövid volt.
-record-error-too-long = A felvétel túl hosszú volt.
-record-error-too-quiet = A felvétel túl halk volt.
-record-submit-success = Sikeres beküldés. Akar még egyet rögzíteni?
-record-help = Kattintson az felvétel gombra majd olvassa fel hangosan az alábbi mondatot.
-record-cancel = Újrarögzítés megszakítása
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
@@ -397,6 +397,15 @@ goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítés
 goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
 record-cta = Felvétel indítása
+record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
+record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:
+record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
+record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
+record-no-mic-found = Nem található mikrofon.
+record-error-too-short = A felvétel túl rövid volt.
+record-error-too-long = A felvétel túl hosszú volt.
+record-error-too-quiet = A felvétel túl halk volt.
+record-cancel = Újrarögzítés megszakítása
 record-instruction = { $actionType } a <recordIcon></recordIcon> ikonra, és olvassa fel hangosan a mondatot
 record-stop-instruction = { $actionType } a <stopIcon></stopIcon> ikonra ha kész
 record-three-more-instruction = Még három!
@@ -420,3 +429,44 @@ listen-last-time-instruction = <playIcon></playIcon> Utolsó!
 nothing-to-validate = Még nincs semmit ellenőrizni ezen a nyelven, segítsen feltölteni a sort.
 record-button-label = Rögzítse a hangját
 share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
+
+## Goals
+
+streaks = Sorozatok
+days =
+    { $count ->
+        [one] Nap
+       *[other] Nap
+    }
+recordings =
+    { $count ->
+        [one] Rögzítés
+       *[other] Rögzítés
+    }
+validations =
+    { $count ->
+        [one] Ellenőrzés
+       *[other] Ellenőrzés
+    }
+
+## Dashboard
+
+toward-next-goal = A következő cél felé
+stats = Statisztika
+you = Ön
+everyone = Mindenki
+contribution-activity = Közreműködési tevékenység
+top-contributors = Legjobb közreműködők
+recorded-clips = Rögzített klipek
+validated-clips = Ellenőrzött klipek
+total-approved = Összes jóváhagyott
+overall-accuracy = Összesített pontosság
+
+## Profile Delete
+
+delete-q = Kéri, hogy a hangfelvételei is törlésre kerüljenek, vagy megtartja őket a Common Voice adatbázisában?
+keep = Megtartás
+remove = Eltávolítás
+keep-info = A névtelen hangfelvételei megmaradnak a Common Voice adatbázisában. A profilja törlése után már nem fogja tudni a felvételek eltávolítását kérni.
+remove-info = Megvizsgáljuk a kérését, hogy eltávolítsuk a hangfelvételeit az adatkészletből. Ha a kérését jóváhagyjuk, akkor kapcsolatba lépünk azokkal, akik letöltötték az adatkészletet, és őket is arra kérjük, hogy távolítsák el a hangfelvételeit.
+profile-form-delete = Profil törlése

@@ -1,8 +1,10 @@
 import * as bodyParser from 'body-parser';
+import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
-import { UserClient as UserClientType } from '../../../common/user-clients';
+import { UserClient as UserClientType } from 'common/user-clients';
 import { getConfig } from '../config-helper';
+import getGoals from './model/goals';
 import UserClient from './model/user-client';
 import Model from './model';
 import Clip from './clip';
@@ -28,10 +30,28 @@ export default class API {
 
     router.use(bodyParser.json());
 
-    router.use((request: Request, response: Response, next: NextFunction) => {
-      this.metrics.countRequest(request);
-      next();
-    });
+    router.use(
+      async (request: Request, response: Response, next: NextFunction) => {
+        this.metrics.countRequest(request);
+
+        const client_id = request.headers.client_id as string;
+        if (client_id) {
+          if (await UserClient.hasSSO(client_id)) {
+            response.sendStatus(401);
+            return;
+          } else {
+            await this.model.db.saveUserClient(client_id);
+          }
+          request.client_id = client_id;
+        } else if (request.user) {
+          request.client_id = await UserClient.findClientId(
+            request.user.emails[0].value
+          );
+        }
+
+        next();
+      }
+    );
 
     router.get('/metrics', (request: Request, response: Response) => {
       this.metrics.countPrometheusRequest(request);
@@ -48,11 +68,17 @@ export default class API {
       next();
     });
 
-    router.put('/user_clients/:id', this.saveUserClient);
     router.get('/user_clients', this.getUserClients);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
-    router.put('/users/:id', this.saveUser);
+    router.post(
+      '/user_client/avatar/:type',
+      bodyParser.raw({ type: 'image/*' }),
+      this.saveAvatar
+    );
+
+    router.get('/user_client/goals', this.getGoals);
+    router.get('/user_client/:locale/goals', this.getGoals);
 
     router.get('/:locale/sentences', this.getRandomSentences);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
@@ -65,6 +91,9 @@ export default class API {
       },
       this.clip.getRouter()
     );
+
+    router.get('/contribution_activity', this.getContributionActivity);
+    router.get('/:locale/contribution_activity', this.getContributionActivity);
 
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
@@ -80,44 +109,10 @@ export default class API {
     return router;
   }
 
-  saveUserClient = async ({ body, params }: Request, response: Response) => {
-    const uid = params.id as string;
-    const demographic = body;
-
-    if (!uid || !demographic) {
-      throw new ClientParameterError();
-    }
-
-    // Where is the clip demographic going to be located?
-    const demographicFile = uid + '/demographic.json';
-
-    await this.model.db.updateUser(uid, demographic);
-
-    await AWS.getS3()
-      .putObject({
-        Bucket: getConfig().BUCKET_NAME,
-        Key: demographicFile,
-        Body: JSON.stringify(demographic),
-      })
-      .promise();
-
-    console.log('clip demographic written to s3', demographicFile);
-    response.json(uid);
-  };
-
-  saveUser = async (request: Request, response: Response) => {
-    await this.model.syncUser(
-      request.params.id,
-      request.body,
-      request.header('Referer')
-    );
-    response.json('user synced');
-  };
-
   getRandomSentences = async (request: Request, response: Response) => {
-    const { headers, params } = request;
+    const { client_id, params } = request;
     const sentences = await this.model.findEligibleSentences(
-      headers.uid as string,
+      client_id,
       params.locale,
       parseInt(request.query.count, 10) || 1
     );
@@ -130,14 +125,19 @@ export default class API {
   };
 
   createLanguageRequest = async (request: Request, response: Response) => {
-    await this.model.db.createLanguageRequest(request.body.language, request
-      .headers.uid as string);
+    await this.model.db.createLanguageRequest(
+      request.body.language,
+      request.client_id
+    );
     response.json({});
   };
 
   createSkippedSentence = async (request: Request, response: Response) => {
-    const { headers: { uid }, params: { id } } = request;
-    await this.model.db.createSkippedSentence(id, uid as string);
+    const {
+      client_id,
+      params: { id },
+    } = request;
+    await this.model.db.createSkippedSentence(id, client_id);
     response.json({});
   };
 
@@ -145,7 +145,7 @@ export default class API {
     response.json(await this.model.getLanguageStats());
   };
 
-  getUserClients = async ({ headers, user }: Request, response: Response) => {
+  getUserClients = async ({ client_id, user }: Request, response: Response) => {
     if (!user) {
       response.json([]);
       return;
@@ -156,7 +156,7 @@ export default class API {
       { email },
       ...(await UserClient.findAllWithLocales({
         email,
-        client_id: headers.uid as string,
+        client_id,
       })),
     ];
     response.json(userClients);
@@ -166,16 +166,13 @@ export default class API {
     if (!user) {
       throw new ClientParameterError();
     }
-    response.json(
-      await UserClient.saveAccount(user.id, {
-        ...body,
-        email: user.emails[0].value,
-      })
-    );
+    response.json(await UserClient.saveAccount(user.emails[0].value, body));
   };
 
   getAccount = async ({ user }: Request, response: Response) => {
-    response.json(user ? await UserClient.findAccount(user.id) : null);
+    response.json(
+      user ? await UserClient.findAccount(user.emails[0].value) : null
+    );
   };
 
   subscribeToNewsletter = async (request: Request, response: Response) => {
@@ -187,9 +184,7 @@ export default class API {
 
     const { email } = request.params;
     const basketResponse = await sendRequest({
-      uri: `https://${
-        PROD ? 'basket.mozilla' : 'basket-dev.allizom'
-      }.org/news/subscribe/`,
+      uri: 'https://basket.mozilla.org/news/subscribe/',
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
@@ -203,5 +198,73 @@ export default class API {
     });
     await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
     response.json({});
+  };
+
+  saveAvatar = async (
+    { body, headers, params, user }: Request,
+    response: Response
+  ) => {
+    let avatarURL;
+    let error;
+    switch (params.type) {
+      case 'default':
+        avatarURL = null;
+        break;
+
+      case 'gravatar':
+        try {
+          avatarURL =
+            'https://gravatar.com/avatar/' +
+            MD5(user.emails[0].value).toString() +
+            '.png?s=24';
+          await sendRequest(avatarURL + '&d=404');
+        } catch (e) {
+          if (e.name != 'StatusCodeError') {
+            throw e;
+          }
+          error = 'not_found';
+        }
+        break;
+
+      case 'file':
+        avatarURL =
+          'data:' +
+          headers['content-type'] +
+          ';base64,' +
+          body.toString('base64');
+        console.log(avatarURL.length);
+        if (avatarURL.length > 8000) {
+          error = 'too_large';
+        }
+        break;
+
+      default:
+        response.sendStatus(404);
+        return;
+    }
+
+    if (!error) {
+      await UserClient.updateAvatarURL(user.emails[0].value, avatarURL);
+    }
+
+    response.json(error ? { error } : {});
+  };
+
+  getContributionActivity = async (
+    { client_id, params: { locale }, query }: Request,
+    response: Response
+  ) => {
+    response.json(
+      await (query.from == 'you'
+        ? this.model.db.getContributionStats(locale, client_id)
+        : this.model.getContributionStats(locale))
+    );
+  };
+
+  getGoals = async (
+    { client_id, params: { locale } }: Request,
+    response: Response
+  ) => {
+    response.json(await getGoals(client_id, locale));
   };
 }

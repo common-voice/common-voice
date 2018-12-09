@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "lib": ["es2017", "dom", "esnext.asynciterable"]
+  },
+  "include": ["src/**/*"]
+}

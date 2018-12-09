@@ -55,7 +55,6 @@ oc = Oksitanskt
 or = Orija
 pl = Pólskt
 pt-BR = Portugisiskt (Brasilia)
-rm = Retoromanskt
 ro = Rumenskt
 ru = Russiskt
 sk = Slovakiskt
@@ -83,6 +82,7 @@ zh-TW = Kinesiskt (Taivan)
 
 speak = Tosa
 speak-now = Tosa nú
+datasets = Dátasett
 languages = Mál
 profile = Profilur
 help = Hjálp
@@ -95,20 +95,29 @@ content-license-text = Tilfar er tøkt undir einum <licenseLink>Creative Commons
 share-title = Hjálp okkum at finna onnur at geva sína rødd!
 share-text = Hjálp okkum at læra maskinur, hvussu verulig fólk tosa. Hjálp við at geva tína rødd á { $link }
 link-copied = Leinkið kopiera
+back-top = Far ovast
+contribution-banner-text = Vit hava júst gjørt broytingar til hvussu ein hjálpur til
 contribution-banner-button = Hygg
 report-bugs-link = Hjálp við at boða frá feilum
 
 ## Home Page
 
+home-cta = Opna munnin og hjálp til her!
 wall-of-text-start = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit hugtikin av at menna brúkiliga raddartøkni til okkara maskinur. Men fyri at menna skipanir til at skilja talu, krevst ein ógvuliga stór nøgd av raddartilfari.
+wall-of-text-more-mobile = Meginparturin av dátunum sum stór virki brúka eru ikki tøkar hjá almenninginum. Vit halda at hetta køvur nýskapan. Tí eru vit farin undir Common Voice verkætlanina, ein verkætlan sum skal gera raddarkenning tøka fyri øll.
 wall-of-text-first = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit hugtikin av at menna brúkiliga raddartøkni til okkara maskinur. Men fyri at menna skipanir til at skilja talu, krevst ein ógvuliga stór nøgd av raddartilfari.
+wall-of-text-second = Meginparturin av dátunum sum stór virki brúka eru ikki tøkar hjá almenninginum. Vit halda at hetta køvur nýskapan. Tí eru vit farin undir Common Voice verkætlanina, ein verkætlan sum skal gera raddarkenning tøka fyri øll.
 show-wall-of-text = Les meira
 help-us-title = Hjálp okkum at góðkenna setningar!
+help-us-explain = Trýst á spæl, lurta, og fortel okkum um setningurin var tosaður rætt.
+no-clips-to-validate = Tað sær ikki út til at vera nakrar upptøkur at lurta eftir fyri hetta málið. Hjálp okkum at fylla bíðirøðina við at taka nakrar upp nú.
 vote-yes = Ja
 vote-no = Nei
 speak-subtitle = Gev tína rødd
+speak-paragraph = At taka ljóðupptøkur upp er ein grundleggjandi partur av at menna okkara opna dátasett; og summi vilja vera við at tað er tann stuttligi parturin.
 speak-goal-text = Klipp upptikin
 listen-subtitle = Hjálp okkum at góðkenna røddir
+listen-paragraph = At góðkenna innsendar ljóðupptøkur er líka týdningarmikið fyri Common Voice. Lurta og hjálp okkum at skapa dygdargott open source dáta.
 listen-goal-text = Klipp góðkend
 hours-recorded = Tímar upptiknir
 hours-validated = Tímar góðkendir
@@ -137,15 +146,22 @@ x-years-short =
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Spæl/Steðga
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Tak upp/Steðga
 request-language-text = Finnur tú ikki títt mál á Common Voice?
 request-language-button = Ger eina umbøn um eitt nýtt mál
 
 ## ProjectStatus
 
 status-contribute = Stuðla við tínari rødd
+status-hours =
+    { $hours ->
+        [one] Ein tími góðkendur higartil!
+       *[other] { $hours } tímar góðkendir higartil!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Næsta mál: { $goal }
@@ -158,6 +174,8 @@ profile-form-username =
     .label = Brúkaranavn
 profile-form-language =
     .label = Mál
+profile-form-accent =
+    .label = Accent
 profile-form-age =
     .label = Aldur
 profile-form-gender =
@@ -166,14 +184,18 @@ native-language =
     .label = Móðurmál
 profile-form-submit-save = Goym
 profile-form-submit-saved = Goymt
+profile-delete-data = Strika dáta
 male = Mannfólk
 female = Konufólk
 # Gender
 other = Annað
-why-profile-title = Hví ein profil?
+why-profile-title = Hví hava ein profil?
 edit-profile = Broyt profil
 profile-create = Stovna ein profil
+profile-create-success = Profilur stovnaður!
 profile-close = Lat aftur
+profile-explanation = Við einum profili kanst tú fylgja við tínari framgongd og samstundis gera okkara raddar dáta meira neyvt.
+thanks-for-account = Takk fyri at tú váttaði tína kontu. Lat okkum nú gera tín profil.
 edit = Broyt
 
 ## FAQ
@@ -189,7 +211,7 @@ faq-hours-a = Tað er umleið talið av tímum neyðugir fyri at trena eina væl
 
 ## Profile
 
-profile-why-title = Hví ein profil?
+profile-why-title = Hví hava ein profil?
 
 ## NotFound
 
@@ -207,6 +229,9 @@ license-mixed = Blandað
 
 ## Record Page
 
+record-platform-not-supported-desktop = Á teldum kanst tú heinta seinastu útgávu:
+record-platform-not-supported-ios = <bold>iOS</bold> brúkarir kunnu heinta okkara ókeypis app:
+record-must-allow-microphone = Tú mást loyva mikrofon atgongd.
 record-no-mic-found = Eingin mikrofon funnin.
 record-error-too-short = Upptøkan var ov stutt.
 record-error-too-long = Upptøkan var ov lang.
@@ -242,6 +267,7 @@ request-language-success-content = Vit seta okkum skjótt í samband við teg um
 
 ## Languages Overview
 
+language-section-in-progress = Í gongd
 language-section-launched = Sett í verk
 language-meter-in-progress = Støða
 language-total-progress = Til samans
@@ -256,6 +282,6 @@ contribute = Stuðla
 listen = Lurta
 skip = Leyp um
 shortcuts = Snarvegir
-listen-again-instruction = Flott! Lurta aftur tá ið tú ert til reiðar
+listen-again-instruction = Flott!<playIcon></playIcon> Lurta aftur tá ið tú ert til reiðar
 record-button-label = Tak upp tína rødd
 share-title-new = <bold>Hjálp okkum</bold> at finna meira røddir

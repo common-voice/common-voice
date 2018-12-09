@@ -27,17 +27,21 @@ class NotificationPill extends React.Component<
   };
 
   render() {
+    const { content, type } = this.props;
     return (
       <div
-        className="notification-pill"
+        className={'notification-pill ' + type}
         style={{ opacity: this.state.show ? 1 : 0 }}
         onTransitionEnd={this.remove}>
-        {this.props.content}
+        {content}
       </div>
     );
   }
 }
 
-export default connect<void, PropsFromDispatch>(null, {
-  removeNotification: Notifications.actions.remove,
-})(NotificationPill);
+export default connect<void, PropsFromDispatch>(
+  null,
+  {
+    removeNotification: Notifications.actions.remove,
+  }
+)(NotificationPill);
