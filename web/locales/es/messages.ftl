@@ -41,6 +41,7 @@ en = Inglés
 eo = Esperanto
 es = Español
 et = Estonio
+eu = euskera
 fa = persa
 fi = Finlandés
 fo = Feroés
@@ -78,6 +79,7 @@ rm-sursilv = romanche sursilvano
 ro = Rumano
 ru = Ruso
 sah = Yakuto
+sc = sardo
 sk = Eslovaco
 sl = Esloveno
 sq = Albanés
@@ -91,6 +93,7 @@ tt = Tártaro
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
+vi = vietnamita
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwán)
@@ -116,6 +119,7 @@ share-title = ¡Ayudanos a llegar a más personas que quieran donar su voz!
 share-text = Ayuda a enseñarles a las máquinas cómo hablan las personas, dona tu voz en { $link }
 link-copied = Enlace copiado
 back-top = Volver al inicio
+logout = Cerrar sesión
 
 ## Home Page
 
@@ -141,10 +145,28 @@ listen-paragraph = Validar fragmentos donados es igualmente importante para la m
 listen-goal-text = Fragmentos validados
 hours-recorded = Horas grabadas
 hours-validated = Horas validadas
+voices-online = Voces actualmente en línea
+todays-progress = Progreso de hoy
+help-reach-goal = Ayúdanos a lograr { $meta }
 read-terms-q = ¿Has leído las condiciones de uso del servicio?
 ready-to-record = ¿Listo para donar tu voz?
 all-languages = Todos los idiomas
 today = Hoy
+x-weeks-short =
+    { $count ->
+        [one] semana
+       *[other] { $count } sem
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } mes
+       *[other] { $count } meses
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } año
+       *[other] { $count } años
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -201,6 +223,8 @@ profile-form-gender =
     .label = Género
 leaderboard-visibility =
     .label = Visibilidad en la tabla de clasificación
+hidden = Oculto
+visible = Visible
 native-language =
     .label = Lengua materna
 profile-form-submit-save = Guardar
@@ -211,6 +235,11 @@ female = Mujer
 other = Otro
 why-profile-title = ¿Por qué un perfil?
 why-profile-text = Al entregarnos un poco de información sobre ti, los datos de audio que envíes a Common Voice serán más útiles para los motores de reconocimiento de voz que los usen mejorando su precisión.
+dashboard = Tablero
+build-profile = Crear un perfil
+avatar = Avatar
+goals = Objetivos
+settings = Ajustes
 edit-profile = Editar perfil
 profile-create-success = Hecho, ¡perfil creado!
 profile-close = Cerrar
@@ -222,10 +251,23 @@ keep-me-posted =
     .label = Me gustaría recibir actualizaciones para mantenerme al día de los avances de Common Voice.
 accept-privacy = Estoy de acuerdo con que se utilice esta información tal y como se explica en la <privacyLink>política de privacidad</privacyLink> de Mozilla
 login-identity = Identidad de inicio de sesión
+login-signup = Iniciar sesión / Registrarse
 edit = Editar
 email-subscriptions = Suscripciones por correo electrónico
 download-profile = Descargar mis datos
 contribution-experience = Experiencia de colaboración
+skip-submission-feedback = Omitir envío de comentarios
+skip-submission-description = El envío de comentarios se desactivará al hacer clic en 'Enviar'. La colaboración continuará directamente con el siguiente grupo de 5 grabaciones o validaciones.
+skip-submission-note = Nota: Deberás seleccionar entre Hablar o Escuchar para cambiar el tipo de colaboración.
+off = Desactivado
+on = Activado
+add-avatar-title = Añadir un avatar a tu perfil
+browse-file-title = Subir un archivo de imagen
+connect-gravatar = Conectar con Gravatar
+file_too_large = El archivo seleccionado es demasiado grande
+manage-subscriptions = Manejar suscripciones
+email-already-used = El email ya está siendo usado por otra cuenta
+add-language = Agregar idioma
 
 ## FAQ
 
@@ -382,10 +424,38 @@ share-title-new = <bold>Ayúdanos</bold> a encontrar más voces.
 
 ## Goals
 
+streaks = Metas
+days =
+    { $count ->
+        [one] Día
+       *[other] Días
+    }
+recordings =
+    { $count ->
+        [one] Grabación
+       *[other] Grabaciones
+    }
+validations =
+    { $count ->
+        [one] Validación
+       *[other] Validaciones
+    }
 
 ## Dashboard
 
+toward-next-goal = Hacia el siguiente objetivo
+stats = Estadísticas
+you = Tú
+everyone = Todo el mundo
+contribution-activity = Actividad de colaboración
+top-contributors = Principales colaboradores
+recorded-clips = Fragmentos grabados
+validated-clips = Fragmentos validados
+total-approved = Total aprobado
+overall-accuracy = Precisión general
 
 ## Profile Delete
 
+keep = Mantener
+remove = Eliminar
 profile-form-delete = Eliminar perfil
