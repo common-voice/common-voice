@@ -2,6 +2,7 @@
 
 yes-receive-emails = Bai, bidali e-postak niri. Common Voice proiektuari buruz informatuta egon nahi nuke.
 stayintouch = Mozillan hizkuntza teknologiaren inguruan komunitate bat eraikitzen ari gara. Zurekin harremanetan jarri nahiko genuke eguneraketen berri emateko, datu-iturri berriak eta datu hauek nola erabiltzen ari zaren.
+privacy-info = Zure informazioa kontuz tratatuko dugula agintzen dizugu. Irakurri gehiago gure <privacyLink>pribatutasun oharpenean</privacyLink>.
 return-to-cv = Itzuli Common Voicera
 email-input =
     .label = E-posta
@@ -120,6 +121,7 @@ logout = Itxi saioa
 
 ## Home Page
 
+home-title = Common Voice, egiazko jendeak nola hitz egiten duen makinei ikasten laguntzeko ekimena da.
 home-cta = Mintzatu, lagundu hemen!
 wall-of-text-start = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko benetan ahots grabaketa asko behar dira.
 wall-of-text-first = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko, garatzailek benetan ahots grabaketa asko behar dituzte.
@@ -262,6 +264,7 @@ data-download-button = Deskargatu Common Voiceko datuak
 data-download-yes = Bai
 data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size>tako deskarga bat hastear zaude, jarraitu?
 data-subtitle = Ahots datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena ahots teknologia duten aplikazioak trebatzeko.
 data-other-title = Beste ahots datu-sortak...
 data-other-goto = Joan { $name }-(e)ra
@@ -271,6 +274,7 @@ data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
+review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun oharpena</privacyLink> onartzen dituzu
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
 review-aborted = Igotzea bertan behera geratu da. Zure grabaketak ezabatu nahi al dituzu?
