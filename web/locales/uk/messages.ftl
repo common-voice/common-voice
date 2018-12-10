@@ -8,6 +8,7 @@ email-input =
     .label = Е-пошта
 submit-form-action = Відправити
 loading = Завантаження…
+email-opt-in-privacy = Погоджуючись отримувати листи, ви заявляєте, що згодні з тим, як Mozilla обробляє цю інформацію, згідно з <privacyLink>Політикою приватності<privacyLink> Mozilla.
 indicates-required = * поля, обов'язкові для заповнення
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -466,8 +467,10 @@ stats = Статистика
 you = Ви
 everyone = Усі користувачі
 contribution-activity = Активність помічників
+top-contributors = Найкращі помічники
 recorded-clips = Озвучено
 validated-clips = Перевірено
+total-approved = Всього затверджено
 overall-accuracy = Загальна точність
 
 ## Profile Delete
