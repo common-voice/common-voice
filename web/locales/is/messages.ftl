@@ -437,6 +437,7 @@ share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
 
 ## Goals
 
+streaks = Sigurganga
 days =
     { $count ->
         [one] Dagur
@@ -459,6 +460,7 @@ toward-next-goal = Að næsta markmiði
 stats = Tölfræði
 you = Þú
 everyone = Allir
+contribution-activity = Virkni þátttakenda
 top-contributors = Virkustu þátttakendur
 recorded-clips = Skráðar upptökur
 validated-clips = Staðfestar upptökur
