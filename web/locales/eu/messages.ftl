@@ -138,6 +138,7 @@ listen-goal-text = Balioztatutako klikap
 hours-recorded = Grabatutako orduak
 hours-validated = Balioztatutako orduak
 todays-progress = Gaurko aurrerabidea
+help-reach-goal = Lagun gaitzazu lortzen { $goal }
 read-terms-q = Gure Baldintzak irakurri dituzu?
 ready-to-record = Prest zaude zure ahotsa uzteko?
 all-languages = Hizkuntza guztiak
@@ -213,6 +214,7 @@ why-profile-title = Zergatik profila?
 dashboard = Arbela
 build-profile = Eraiki profila
 avatar = Avatarra
+goals = Helburuak
 settings = Hobespenak
 edit-profile = Editatu profila
 profile-create-success = Profila ondo sortu da!
@@ -341,6 +343,7 @@ listen = Entzun
 skip = Saltatu
 shortcuts = Lasterbideak
 clips-with-count = <bold>{ $count }</bold> klip
+goal-help-recording = Common Voicek egunero { $goalValue } grabaketa lortzea du helburu eta zuk helburuaren <goalPercentage></goalPercentage>a lortzen lagundu duzu!
 goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balidatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
 contribute-more =
     { $count ->
@@ -382,6 +385,7 @@ share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
 
 ## Goals
 
+streaks = Haizekadak
 days =
     { $count ->
         [one] egun
@@ -400,6 +404,7 @@ validations =
 
 ## Dashboard
 
+toward-next-goal = Hurrengo helbururantz
 stats = Estatistikak
 you = Zu
 everyone = Guztiok
