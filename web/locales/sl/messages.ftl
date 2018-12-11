@@ -18,6 +18,7 @@ indicates-required = * Zahtevano polje
 ## Languages
 
 ace = ačinščina
+af = afrikanščina
 an = aragonščina
 ar = arabščina
 as = asamščina
