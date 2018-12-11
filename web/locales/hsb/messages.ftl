@@ -18,6 +18,7 @@ indicates-required = * Woznamjenja trěbne polo
 ## Languages
 
 ace = Ačehšćina
+af = Afrikanšćina
 an = Aragonšćina
 ar = Arabšćina
 as = Asamšćina
@@ -278,6 +279,7 @@ file_too_large = Wubrana dataja je přewulka
 manage-subscriptions = Abonementy rjadować
 email-already-used = E-mejlowa adresa so hižo za druhe konto wužiwa
 add-language = Rěč přidać
+change-email-setings = Emejlowu adresu w nastajenjach pod přizjewjenskej identitu změnić
 
 ## FAQ
 
@@ -465,7 +467,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Waše rěče
 toward-next-goal = K přichodnemu cilej
+clips-you-recorded = Klipy, kotrež sće natočił
+clips-you-validated = Klipy, kotrež sće přepruwował
+todays-recorded-progress = Dźensniši postup Common Voice za natočene klipy
+todays-validated-progress = Dźensniši postup Common Voice za přepruwowane klipy
 stats = Statistika
 you = Wy
 everyone = Kóždy
