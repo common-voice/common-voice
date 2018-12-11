@@ -449,10 +449,6 @@ validations =
 
 your-languages = Ihre Sprachen
 toward-next-goal = Zum nächsten Ziel
-clips-you-recorded = Von Ihnen aufgezeichnete Aufnahmen
-clips-you-validated = Von Ihnen überprüfte Aufnahmen
-todays-recorded-progress = Heutiger Fortschritt bei Common Voice für aufgezeichnete Aufnahmen
-todays-validated-progress = Heutiger Fortschritt bei Common Voice für überprüfte Aufnahmen
 stats = Statistiken
 you = Sie
 everyone = Alle
