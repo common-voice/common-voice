@@ -18,6 +18,7 @@ indicates-required = * Indikerar obligatoriska fält
 ## Languages
 
 ace = Acehnesiska
+af = Afrikanska
 an = Aragonesiska
 ar = Arabiska
 as = Assamesiska
