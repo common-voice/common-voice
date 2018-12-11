@@ -452,6 +452,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Dina språk
 toward-next-goal = Till nästa mål
 stats = Statistik
 you = Du
