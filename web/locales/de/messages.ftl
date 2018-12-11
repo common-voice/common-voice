@@ -18,6 +18,7 @@ indicates-required = * Pflichtfeld
 ## Languages
 
 ace = Acehnesisch
+af = Afrikaans
 an = Aragonesisch
 ar = Arabisch
 as = Assamesisch
