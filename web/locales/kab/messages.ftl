@@ -450,7 +450,7 @@ validations =
 ## Dashboard
 
 toward-next-goal = Ɣer iswi i d-iteddun
-stats = Addaden
+stats = Tiddadanin
 you = Kečč
 everyone = Yal yiwen
 contribution-activity = Armud n uttekki
