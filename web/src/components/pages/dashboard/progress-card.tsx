@@ -1,14 +1,15 @@
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { DAILY_GOAL } from '../../../constants';
 import API from '../../../services/api';
+import { trackDashboard } from '../../../services/tracker';
 import URLS from '../../../urls';
 import StateTree from '../../../stores/tree';
 import { MicIcon, OldPlayIcon } from '../../ui/icons';
 import { LinkButton } from '../../ui/ui';
 
 import './progress-card.css';
-import { trackDashboard } from '../../../services/tracker';
 
 interface PropsFromState {
   api: API;
@@ -64,9 +65,10 @@ class ProgressCard extends React.Component<Props, State> {
               )) || '?'}
             </div>
           </div>
-          <div className="description">
-            Clips You've {isSpeak ? 'Recorded' : 'Validated'}
-          </div>
+          <Localized
+            id={isSpeak ? 'clips-you-recorded' : 'clips-you-validated'}>
+            <div className="description" />
+          </Localized>
           <div />
         </div>
 
@@ -104,19 +106,22 @@ class ProgressCard extends React.Component<Props, State> {
               {overallGoal}
             </div>
           </div>
-          <div className="description">
-            Today's Common Voice progress on clips{' '}
-            {isSpeak ? 'recorded' : 'validated'}
-          </div>
-          <LinkButton
-            rounded
-            outline
-            to={isSpeak ? URLS.SPEAK : URLS.LISTEN}
-            onClick={() =>
-              trackDashboard(isSpeak ? 'speak-cta' : 'listen-cta')
+          <Localized
+            id={
+              isSpeak ? 'todays-recorded-progress' : 'todays-validated-progress'
             }>
-            Help us get to {overallGoal}
-          </LinkButton>
+            <div className="description" />
+          </Localized>
+          <Localized id="help-reach-goal" $goal={overallGoal}>
+            <LinkButton
+              rounded
+              outline
+              to={isSpeak ? URLS.SPEAK : URLS.LISTEN}
+              onClick={() =>
+                trackDashboard(isSpeak ? 'speak-cta' : 'listen-cta')
+              }
+            />
+          </Localized>
         </div>
       </div>
     );

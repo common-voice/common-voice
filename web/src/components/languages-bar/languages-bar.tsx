@@ -58,7 +58,12 @@ const LanguagesBar = class LanguagesBar extends React.Component<Props, State> {
 
         <div className="underlined">
           <div className="languages">
-            <span>Your Languages:</span>
+            <span>
+              <Localized id="your-languages">
+                <span />
+              </Localized>
+              :
+            </span>
             {titleBarLocales.map(l => (
               <label key={l}>
                 <input
