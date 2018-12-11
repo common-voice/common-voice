@@ -14,6 +14,7 @@ indicates-required = * Indicates required field
 # [Languages]
 ## Languages
 ace = Acehnese
+af = Afrikaans
 an = Aragonese
 ar = Arabic
 as = Assamese
