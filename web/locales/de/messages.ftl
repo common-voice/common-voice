@@ -270,6 +270,7 @@ file_too_large = Die ausgewählte Datei ist zu groß
 manage-subscriptions = Abonnements verwalten
 email-already-used = E-Mail-Adresse wird bereits durch ein anderes Konto verwendet
 add-language = Sprache hinzufügen
+change-email-setings = Ändern Sie Ihre E-Mail-Adresse über die Einstellungen unter Anmeldeidentität
 
 ## FAQ
 
@@ -445,7 +446,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Ihre Sprachen
 toward-next-goal = Zum nächsten Ziel
+clips-you-recorded = Von Ihnen aufgezeichnete Aufnahmen
+clips-you-validated = Von Ihnen überprüfte Aufnahmen
+todays-recorded-progress = Heutiger Fortschritt bei Common Voice für aufgezeichnete Aufnahmen
+todays-validated-progress = Heutiger Fortschritt bei Common Voice für überprüfte Aufnahmen
 stats = Statistiken
 you = Sie
 everyone = Alle
