@@ -18,6 +18,7 @@ indicates-required = * Wóznamjenijo trěbne pólo
 ## Languages
 
 ace = Ačehšćina
+af = Afrikanšćina
 an = Aragońšćina
 ar = Arabšćina
 as = Asamšćina
@@ -278,6 +279,7 @@ file_too_large = Wubrana dataja jo pśewjelika
 manage-subscriptions = Abonementy zastojaś
 email-already-used = E-mailowa adresa se južo za druge konto wužywa
 add-language = Rěc pśidaś
+change-email-setings = E-mailowu adresu w nastajenjach pód pśizjawjeńskeju identitu změniś
 
 ## FAQ
 
@@ -465,7 +467,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Waše rěcy
 toward-next-goal = K pśiducemu celoju
+clips-you-recorded = Klipy, kótarež sćo nagrał
+clips-you-validated = Klipy, kótarež sćo pśeglědał
+todays-recorded-progress = Źinsajšny póstup Common Voice za nagrate klipy
+todays-validated-progress = Źinsajšnyi póstup Common Voice za pśeglědane klipy
 stats = Statistika
 you = Wy
 everyone = Kuždy
