@@ -69,6 +69,7 @@ export default class API {
     });
 
     router.get('/user_clients', this.getUserClients);
+    router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
     router.post(
@@ -266,5 +267,15 @@ export default class API {
     response: Response
   ) => {
     response.json(await getGoals(client_id, locale));
+  };
+
+  claimUserClient = async (
+    { client_id, params }: Request,
+    response: Response
+  ) => {
+    if (!(await UserClient.hasSSO(params.client_id)) && client_id) {
+      await UserClient.claimContributions(client_id, [params.client_id]);
+    }
+    response.json({});
   };
 }
