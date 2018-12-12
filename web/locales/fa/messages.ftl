@@ -18,6 +18,7 @@ indicates-required = * فیلد الزامی را مشخص می‌کند
 ## Languages
 
 ace = Acehnese
+af = آفریکانس
 an = آراگونی
 ar = عربی
 as = آسامی
@@ -279,6 +280,7 @@ file_too_large = پرونده انتخاب شده خیلی بزرگ است
 manage-subscriptions = مدیریت اشتراک‌ها
 email-already-used = ایمیل پیش از این برای حساب دیگری استفاده شده است
 add-language = افزودن زبان
+change-email-setings = رایانامه خود را از طریق تنظیمات، زیر شناسه ورود تغییر دهید
 
 ## FAQ
 
@@ -458,7 +460,12 @@ validations =
 
 ## Dashboard
 
+your-languages = زبان‌های شما
 toward-next-goal = به سوی هدف بعدی
+clips-you-recorded = کلیپ‌هایی که ضبط کرده‌اید
+clips-you-validated = کلیپ‌هایی که اعتبارسنجی کرده‌اید
+todays-recorded-progress = پیشرفت امروز صدای مشترک در کلیپ‌های ضبط شده
+todays-validated-progress = پیشرفت امروز صدای مشترک در کلیپ‌های اعتبارسنجی شده
 stats = آمار
 you = شما
 everyone = دیگران
