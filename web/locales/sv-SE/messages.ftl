@@ -18,7 +18,7 @@ indicates-required = * Indikerar obligatoriska fält
 ## Languages
 
 ace = Acehnesiska
-af = Afrikanska
+af = Afrikaans
 an = Aragonesiska
 ar = Arabiska
 as = Assamesiska
@@ -274,6 +274,7 @@ file_too_large = Den valda filen är för stor
 manage-subscriptions = Hantera prenumerationer
 email-already-used = E-postadress används redan för ett annat konto
 add-language = Lägg till språk
+change-email-setings = Ändra ditt e-post via Inställningar under inloggningsidentitet
 
 ## FAQ
 
@@ -455,6 +456,10 @@ validations =
 
 your-languages = Dina språk
 toward-next-goal = Till nästa mål
+clips-you-recorded = Klipp du har spelat in
+clips-you-validated = Klipp du har validerat
+todays-recorded-progress = Dagens framsteg på Common Voice för inspelade klipp
+todays-validated-progress = Dagens framsteg på Common Voice för validerade klipp
 stats = Statistik
 you = Du
 everyone = Alla
