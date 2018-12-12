@@ -259,7 +259,6 @@ const UserClient = {
   },
 
   async claimContributions(to: string, from: string[]) {
-    console.log(to, from);
     await Promise.all([
       db.query('UPDATE IGNORE clips SET client_id = ? WHERE client_id IN (?)', [
         to,
