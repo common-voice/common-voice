@@ -18,6 +18,7 @@ indicates-required = * 表示必填欄位
 ## Languages
 
 ace = 亞齊語
+af = 南非荷蘭語
 an = 亞拉岡語
 ar = 阿拉伯語
 as = 阿薩姆語
@@ -268,6 +269,7 @@ file_too_large = 選擇的檔案太大
 manage-subscriptions = 管理訂閱
 email-already-used = 電子郵件地址已用於其他帳號
 add-language = 新增語言
+change-email-setings = 請到「設定」的「登入身分」修改 Email 地址
 
 ## FAQ
 
@@ -440,7 +442,12 @@ validations =
 
 ## Dashboard
 
+your-languages = 您的語言
 toward-next-goal = 距離下一個目標
+clips-you-recorded = 您已錄音的片段
+clips-you-validated = 您已驗證的片段
+todays-recorded-progress = 本日 Common Voice 錄音片段進度
+todays-validated-progress = 本日 Common Voice 驗證片段進度
 stats = 統計
 you = 您自己
 everyone = 所有人
