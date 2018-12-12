@@ -18,6 +18,7 @@ indicates-required = * 表示必填字段
 ## Languages
 
 ace = 亚齐语
+af = 南非语
 an = 阿拉贡语
 ar = 阿拉伯语
 as = 阿萨姆语
@@ -438,7 +439,10 @@ validations =
 
 ## Dashboard
 
+your-languages = 您的语言
 toward-next-goal = 距离下一个目标
+clips-you-recorded = 您录制的片段
+clips-you-validated = 您验证的片段
 stats = 统计
 you = 您自己
 everyone = 所有人
