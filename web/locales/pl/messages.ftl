@@ -18,6 +18,7 @@ indicates-required = * wskazuje pole obowiązkowe
 ## Languages
 
 ace = aceh
+af = afrykanerski
 an = aragoński
 ar = arabski
 as = asamski
