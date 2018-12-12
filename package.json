@@ -10,7 +10,7 @@
     "prettier": "^1.15.3",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
-    "typescript": "^3.1.6"
+    "typescript": "3.1.6"
   },
   "devDependencies": {
     "husky": "^1.2.0",

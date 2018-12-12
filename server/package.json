@@ -50,7 +50,7 @@
     "request-promise-native": "^1.0.5",
     "source-map-support": "^0.5.9",
     "stream-transcoder": "0.0.5",
-    "typescript": "^3.1.6"
+    "typescript": "3.1.6"
   },
   "devDependencies": {
     "jest-matcher-utils": "^23.6.0",
