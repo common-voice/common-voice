@@ -95,7 +95,7 @@ ur = Urdu
 uz = Tazbikit
 vi = Tavyiṭnamit
 zh-CN = Tacinwat (Cin)
-zh-HK = Tacinit 5Hung Kung)
+zh-HK = Tacinit (Hung Kung)
 zh-TW = Tacinwat (Taywan)
 
 # [/]
