@@ -473,7 +473,7 @@ validations =
 
 your-languages = Vaši jeziki
 toward-next-goal = Do naslednjega cilja
-clips-you-recorded = Posnetke, ki ste jih posneli
+clips-you-recorded = Posnetki, ki ste jih posneli
 clips-you-validated = Posnetki, ki ste jih preverili
 stats = Statistika
 you = Vi
