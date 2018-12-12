@@ -5,15 +5,15 @@
   "repository": "mozilla/voice-web",
   "private": true,
   "dependencies": {
-    "concurrently": "^4.0.1",
+    "concurrently": "^4.1.0",
     "fluent-syntax": "^0.9.0",
-    "prettier": "^1.15.2",
+    "prettier": "^1.15.3",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "typescript": "^3.1.6"
   },
   "devDependencies": {
-    "husky": "^1.0.1",
+    "husky": "^1.2.0",
     "pretty-quick": "^1.7.0"
   },
   "workspaces": [
