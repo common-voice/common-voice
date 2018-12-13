@@ -151,7 +151,7 @@ todays-progress = 本日进度
 help-reach-goal = 帮助我们达成 { $goal }
 read-terms-q = 您阅读过我们的使用条款了吗？
 ready-to-record = 准备好贡献您的声音了吗？
-all-languages = 所有语言
+all-locales = 全部
 today = 今天
 x-weeks-short =
     { $count ->
