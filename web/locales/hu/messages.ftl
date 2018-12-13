@@ -18,6 +18,7 @@ indicates-required = * Kötelező mezőt jelez
 ## Languages
 
 ace = Acehi
+af = Afrikaans
 an = Aragóniai
 ar = Arab
 as = Asszámi
@@ -276,6 +277,7 @@ file_too_large = A kiválasztott fájl túl nagy
 manage-subscriptions = Feliratkozások kezelése
 email-already-used = Az e-mail már használatban van egy másik fiókban
 add-language = Nyelv hozzáadása
+change-email-setings = Módosítsa az e-mail beállításait a Beállításokban, a Bejelentkezési azonosító alatt
 
 ## FAQ
 
@@ -451,7 +453,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Az Ön nyelvei
 toward-next-goal = A következő cél felé
+clips-you-recorded = Az Ön által rögzített klipek
+clips-you-validated = Az Ön által ellenőrzött klipek
+todays-recorded-progress = A mai Common Voice előrehaladás a klipek rögzítésében
+todays-validated-progress = A mai Common Voice előrehaladás a klipek ellenőrzésében
 stats = Statisztika
 you = Ön
 everyone = Mindenki
