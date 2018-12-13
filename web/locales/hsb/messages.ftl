@@ -151,7 +151,7 @@ todays-progress = Dźensniši postup
 help-reach-goal = Pomhajće nam, { $goal } docpěć
 read-terms-q = Sće naše wužiwanske wuměnjenja přečitał?
 ready-to-record = Sće hotowy, swój hłós darić?
-all-languages = Wšě rěče
+all-locales = Wšě
 today = Dźensa
 x-weeks-short =
     { $count ->
