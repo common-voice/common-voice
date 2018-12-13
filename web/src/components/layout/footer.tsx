@@ -118,10 +118,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
             <TextButton
               className="back-top"
               onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: 'smooth',
-                });
+                document.getElementById('scroller').scrollTop = 0;
               }}
             />
           </Localized>
