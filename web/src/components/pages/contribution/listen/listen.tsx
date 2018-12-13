@@ -192,7 +192,7 @@ class ListenPage extends React.Component<Props, State> {
           activeIndex={clipIndex}
           errorContent={
             !this.props.isLoading &&
-            clips.length === 0 && (
+            (clips.length === 0 || !activeClip) && (
               <div className="empty-container">
                 <div className="error-card card-dimensions">
                   <Localized id="nothing-to-validate">
