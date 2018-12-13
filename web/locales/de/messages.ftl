@@ -151,7 +151,7 @@ todays-progress = Heutiger Fortschritt
 help-reach-goal = Helfen Sie uns, { $goal } zu erreichen
 read-terms-q = Haben Sie unsere Nutzungsbedingungen gelesen?
 ready-to-record = Sind Sie bereit, Ihre Stimme zu spenden?
-all-languages = Alle Sprachen
+all-locales = Alle
 today = Heute
 x-weeks-short =
     { $count ->
