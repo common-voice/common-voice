@@ -264,6 +264,12 @@
 
     &.listen .fading {
         transform: scaleX(-1);
+        left: -1px;
+    }
+
+    &.speak .fading {
+        left: auto;
+        right: -1px;
     }
 
     & a.terms {
