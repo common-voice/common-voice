@@ -18,6 +18,7 @@ indicates-required = * indica un campo obbligatorio
 ## Languages
 
 ace = Aceh
+af = Afrikaans
 an = Aragonese
 ar = Arabo
 as = Assamese
@@ -443,7 +444,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Le tue lingue
 toward-next-goal = Verso il prossimo obiettivo
+clips-you-recorded = Registrazioni che hai immesso
+clips-you-validated = Registrazioni che hai convalidato
+todays-recorded-progress = Progresso di Common Voice di oggi sulle registrazioni immesse
+todays-validated-progress = Progresso di Common Voice di oggi sulle registrazioni convalidate
 stats = Statistiche
 you = Tu
 everyone = Tutti
