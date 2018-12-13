@@ -18,6 +18,7 @@ indicates-required = * Indică un câmp obligatoriu
 ## Languages
 
 ace = Acehneză
+af = Afrikaans
 an = Aragoneză
 ar = Arabă
 as = Assameză
@@ -150,7 +151,7 @@ todays-progress = Progresul de astăzi
 help-reach-goal = Ajută-ne să ajungem la { $goal }
 read-terms-q = Ai citit termenii noștri de utilizare?
 ready-to-record = Ești gata să-ți donezi vocea?
-all-languages = Toate limbile
+all-locales = Toate
 today = Astăzi
 x-weeks-short =
     { $count ->
@@ -274,6 +275,7 @@ file_too_large = Fișierul selectat este prea mare
 manage-subscriptions = Gestionează abonamentele
 email-already-used = Adresa de e-mail este deja utilizată pentru alt cont
 add-language = Adaugă o limbă
+change-email-setings = Schimbă-ți e-mailul în Setări sub Identitate de autentificare
 
 ## FAQ
 
@@ -457,7 +459,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Limbile tale
 toward-next-goal = Spre obiectivul următor
+clips-you-recorded = Secvențe audio pe care le-ai înregistrat
+clips-you-validated = Secvențe audio pe care le-ai validat
+todays-recorded-progress = Progresul de astăzi pe Common Voice pentru secvențe audio înregistrate
+todays-validated-progress = Progresul de astăzi pe Common Voice pentru secvențe audio validate
 stats = Statistici
 you = Tu
 everyone = Toată lumea
