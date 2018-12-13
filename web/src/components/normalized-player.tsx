@@ -16,8 +16,7 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
   private bufSource?: AudioBufferSourceNode;
   onended?: (event: Event) => void;
   constructor() {
-    const AudioContext = window.AudioContext || window.webkitAudioContext;
-    this.audioCtx = new AudioContext();
+    this.audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     this.gainNode = this.audioCtx.createGain();
     this.gainNode.gain.value = 1.0;
     this.gainNode.connect(this.audioCtx.destination);
