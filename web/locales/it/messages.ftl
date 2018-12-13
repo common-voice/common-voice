@@ -151,6 +151,7 @@ todays-progress = Progressi di oggi
 help-reach-goal = Aiutaci a raggiungere { $goal }
 read-terms-q = Hai letto le condizioni di utilizzo del servizio?
 ready-to-record = Sei pronto per donare la tua voce?
+all-locales = Tutto
 today = Oggi
 x-weeks-short =
     { $count ->
