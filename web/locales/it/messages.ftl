@@ -151,7 +151,6 @@ todays-progress = Progressi di oggi
 help-reach-goal = Aiutaci a raggiungere { $goal }
 read-terms-q = Hai letto le condizioni di utilizzo del servizio?
 ready-to-record = Sei pronto per donare la tua voce?
-all-languages = Tutte le lingue
 today = Oggi
 x-weeks-short =
     { $count ->
@@ -269,6 +268,7 @@ file_too_large = Il file selezionato è troppo grande
 manage-subscriptions = Gestisci le sottoscrizioni
 email-already-used = Questa email è già in uso per un altro account
 add-language = Aggiungi una lingua
+change-email-setings = Modifica la tua email dalle impostazioni sotto la voce Identità di accesso
 
 ## FAQ
 
