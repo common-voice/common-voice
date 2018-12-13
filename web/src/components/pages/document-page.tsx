@@ -1,7 +1,8 @@
 import * as React from 'react';
-import StateTree from '../../stores/tree';
 import { connect } from 'react-redux';
 import API from '../../services/api';
+import StateTree from '../../stores/tree';
+import { Spinner } from '../ui/ui';
 
 interface PropsFromState {
   api: API;
@@ -19,10 +20,6 @@ class DocumentPage extends React.Component<
     await this.fetchDocument();
   }
 
-  async componentDidUpdate() {
-    await this.fetchDocument();
-  }
-
   private async fetchDocument() {
     const { api, name } = this.props;
     this.setState({
@@ -31,7 +28,12 @@ class DocumentPage extends React.Component<
   }
 
   render() {
-    return <div dangerouslySetInnerHTML={{ __html: this.state.html }} />;
+    const { html } = this.state;
+    return html ? (
+      <div dangerouslySetInnerHTML={{ __html: html }} />
+    ) : (
+      <Spinner />
+    );
   }
 }
 
