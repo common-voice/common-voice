@@ -156,7 +156,7 @@ todays-progress = A mai előrehaladás
 help-reach-goal = Segítsen nekünk elérni: { $goal }
 read-terms-q = Elolvasta a feltételeinket?
 ready-to-record = Készen áll, hogy a hangját adja?
-all-languages = Összes nyelv
+all-locales = Mind
 today = Ma
 x-weeks-short =
     { $count ->
