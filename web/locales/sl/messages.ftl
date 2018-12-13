@@ -156,7 +156,6 @@ todays-progress = Današnji napredek
 help-reach-goal = Pomagajte nam doseči { $goal }
 read-terms-q = Ste prebrali naše pogoje?
 ready-to-record = Ste pripravljeni prispevati svoj glas?
-all-languages = Vsi jeziki
 today = Danes
 x-weeks-short =
     { $count ->
@@ -284,6 +283,7 @@ file_too_large = Izbrana datoteka je prevelika
 manage-subscriptions = Upravljaj z naročninami
 email-already-used = E-poštni naslov je že v uporabi za drug račun
 add-language = Dodaj jezik
+change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta prijave
 
 ## FAQ
 
@@ -475,6 +475,7 @@ your-languages = Vaši jeziki
 toward-next-goal = Do naslednjega cilja
 clips-you-recorded = Posnetki, ki ste jih posneli
 clips-you-validated = Posnetki, ki ste jih preverili
+todays-recorded-progress = Današnji skupni napredek pri snemanju posnetkov
 stats = Statistika
 you = Vi
 everyone = Vsi
