@@ -151,7 +151,7 @@ todays-progress = Źinsajšny póstup
 help-reach-goal = Pomagajśo nam, { $goal } dojśpiś
 read-terms-q = Sćo pśecytał naše wužywańske wuměnjenja?
 ready-to-record = Sćo gótowy, swój głos pósćiś?
-all-languages = Wšykne rěcy
+all-locales = Wšykne
 today = Źinsa
 x-weeks-short =
     { $count ->
