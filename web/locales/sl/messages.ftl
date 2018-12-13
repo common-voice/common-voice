@@ -477,6 +477,7 @@ toward-next-goal = Do naslednjega cilja
 clips-you-recorded = Posnetki, ki ste jih posneli
 clips-you-validated = Posnetki, ki ste jih preverili
 todays-recorded-progress = Današnji skupni napredek pri snemanju posnetkov
+todays-validated-progress = Današnji skupni napredek pri preverjanju posnetkov
 stats = Statistika
 you = Vi
 everyone = Vsi
