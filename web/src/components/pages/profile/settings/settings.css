@@ -42,7 +42,21 @@
             }
 
             @media (--md-up) {
+                display: flex;
+                flex-direction: column;
                 padding: 60px 50px;
+            }
+
+            @media (--lg-up) {
+                flex-direction: row;
+            }
+        }
+
+        & .images {
+            @media (--md-down) {
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
             }
         }
     }
