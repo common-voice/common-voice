@@ -159,7 +159,7 @@ todays-progress = Today's Progress
 help-reach-goal = Help us get to { $goal }
 read-terms-q = Have you read our Terms?
 ready-to-record = Ready to donate your voice?
-all-languages = All Languages
+all-locales = All
 today = Today
 x-weeks-short =
   { $count ->
