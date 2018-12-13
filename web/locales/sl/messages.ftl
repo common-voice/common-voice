@@ -156,6 +156,7 @@ todays-progress = Današnji napredek
 help-reach-goal = Pomagajte nam doseči { $goal }
 read-terms-q = Ste prebrali naše pogoje?
 ready-to-record = Ste pripravljeni prispevati svoj glas?
+all-locales = Vsi
 today = Danes
 x-weeks-short =
     { $count ->
