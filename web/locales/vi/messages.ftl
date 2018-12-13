@@ -18,6 +18,7 @@ indicates-required = * Trường được yêu cầu
 ## Languages
 
 ace = Tiếng Aceh
+af = Tiếng Nam Phi
 an = Tiếng Aragon
 ar = Tiếng Ả Rập
 as = Tiếng Assam
@@ -150,7 +151,7 @@ todays-progress = Tiến độ của ngày hôm nay
 help-reach-goal = Giúp chúng tôi đạt được { $goal }
 read-terms-q = Bạn đã đọc Điều khoản của chúng tôi chưa?
 ready-to-record = Sẵn sàng đóng góp giọng nói của bạn?
-all-languages = Tất cả ngôn ngữ
+all-locales = Tất cả
 today = Hôm nay
 x-weeks-short =
     { $count ->
@@ -441,6 +442,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Ngôn ngữ của bạn
 toward-next-goal = Hướng tới mục tiêu tiếp theo
 stats = Thống kê
 you = Bạn
