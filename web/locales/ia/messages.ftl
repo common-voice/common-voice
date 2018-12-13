@@ -18,6 +18,7 @@ indicates-required = * indica un campo obligatori
 ## Languages
 
 ace = Acehnese
+af = Afrikaans
 an = Aragonese
 ar = Arabe
 as = Assamese
