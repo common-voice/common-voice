@@ -18,6 +18,7 @@ indicates-required = * Bertanda wajib diisi
 ## Languages
 
 ace = Bahasa Aceh
+af = Bahasa Afrikaans
 an = Bahasa Aragon
 ar = Bahasa Arab
 as = Bahasa Assam
@@ -152,7 +153,7 @@ todays-progress = Perkembangan Hari Ini
 help-reach-goal = Bantu kami mencapai { $goal }
 read-terms-q = Sudahkah Anda membaca Ketentuan kami?
 ready-to-record = Siap menyumbangkan suara Anda?
-all-languages = Semua Bahasa
+all-locales = Semua
 today = Hari Ini
 x-weeks-short =
     { $count ->
@@ -440,7 +441,9 @@ validations =
 
 ## Dashboard
 
+your-languages = Bahasa Anda
 toward-next-goal = Menuju capaian selanjutnya
+clips-you-recorded = Klip yang sudah Anda rekam
 stats = Statistik
 you = Anda
 everyone = Semua orang
