@@ -151,7 +151,7 @@ todays-progress = Progressos hodierne
 help-reach-goal = Adjuta nos a obtener { $goal }
 read-terms-q = Ha tu legite nostre terminos de uso?
 ready-to-record = Es tu preste a donar tu voce?
-all-languages = Tote le linguas
+all-locales = Toto
 today = Hodie
 x-weeks-short =
     { $count ->
@@ -450,12 +450,14 @@ validations =
 
 ## Dashboard
 
+your-languages = Tu linguas
 toward-next-goal = Verso le proxime objectivo
 stats = Statistica
 you = Tu
 everyone = Totes
 contribution-activity = Activate de collaboration
 top-contributors = Principal collaboratores
+recorded-clips = Retalios registrate
 total-approved = Total approbate
 overall-accuracy = Precision general
 
