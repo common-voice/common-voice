@@ -16,6 +16,7 @@ loading = Carregando…
 ## Languages
 
 ace = Achinês
+af = Africâner
 an = Aragonês
 ar = Árabe
 as = Assamês
@@ -73,6 +74,7 @@ oc = Occitânico
 or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
+rm-sursilv = Romanche (Sursilvan)
 ro = Romeno
 ru = Russo
 sah = Sakha
@@ -140,7 +142,7 @@ hours-recorded = Horas gravadas
 hours-validated = Horas validadas
 read-terms-q = Você leu nossos Termos?
 ready-to-record = Pronto para doar sua voz?
-all-languages = Todos os idiomas
+all-locales = Tudo
 today = Hoje
 x-weeks-short =
     { $count ->
@@ -226,6 +228,7 @@ other = Outro
 why-profile-title = Por que um perfil?
 why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviou ao Common Voice serão mais úteis aos mecanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
 dashboard = Painel
+build-profile = Criar perfil
 avatar = Avatar
 goals = Objetivos
 settings = Configurações
