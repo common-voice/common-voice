@@ -17,6 +17,7 @@ indicates-required = * indique un champ obligatoire
 ## Languages
 
 ace = Aceh
+af = Afrikaans
 an = Aragonais
 ar = Arabe
 as = Assamais
@@ -151,7 +152,6 @@ todays-progress = Progression d’aujourd’hui
 help-reach-goal = Aidez-nous à atteindre { $goal }
 read-terms-q = Avez-vous lu les conditions d’utilisation ?
 ready-to-record = Êtes-vous prêt⋅e à donner de votre voix ?
-all-languages = Toutes les langues
 today = Aujourd’hui
 x-weeks-short =
     { $count ->
@@ -446,7 +446,11 @@ validations =
 
 ## Dashboard
 
+your-languages = Vos langues
 toward-next-goal = Vers le prochain objectif
+clips-you-recorded = Les échantillons que vous avez enregistrés
+clips-you-validated = Les échantillons que vous avez validés
+todays-recorded-progress = La progression de Common Voice sur les échantillons enregistrés aujourd’hui
 stats = Statistiques
 you = Vous
 everyone = Tout le monde
@@ -462,4 +466,5 @@ overall-accuracy = Précision globale
 delete-q = Souhaitez-vous également demander la suppression de vos enregistrements vocaux ou préférez-vous les conserver dans le jeu de données Common Voice ?
 keep = Les conserver
 remove = Les supprimer
+keep-info = Vos enregistrements vocaux anonymes resteront dans le jeu de données Common Voice. Une fois que vous avez supprimé votre profil, vous ne pourrez plus envoyer de requête pour supprimer vos enregistrements du jeu de données.
 profile-form-delete = Supprimer le profil
