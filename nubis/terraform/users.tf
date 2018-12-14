@@ -25,12 +25,6 @@ resource "aws_iam_user_policy" "clips_bucket" {
           "${module.clips.arn}",
       "${module.clips.arn}/*"
       ]
-    },
-    {
-      "Effect":"Allow",
-      "Principal": "*",
-      "Action":["s3:GetObject"],
-      "Resource":["${module.clips.arn}", "${module.clips.arn}/*"]
     }
   ]
 }
