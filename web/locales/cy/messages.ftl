@@ -153,7 +153,7 @@ todays-progress = Cynnydd Heddiw
 help-reach-goal = Helpwch ni i gyrraedd { $goal }
 read-terms-q = Ydych chi wedi darllen ein Amodau?
 ready-to-record = Barod i gyfrannu eich llais?
-all-languages = Pob Iaith
+all-locales = Y Cyfan
 today = Heddiw
 x-weeks-short =
     { $count ->
