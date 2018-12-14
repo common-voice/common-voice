@@ -8,6 +8,8 @@ email-input =
     .label = E-mail
 submit-form-action = Enviar
 loading = Carregando…
+email-opt-in-privacy = Ao optar por receber e-mails, você declara que concorda com a Mozilla utilizar essas informações, conforme explicado na <privacyLink>Política de Privacidade<privacyLink> da Mozilla.
+indicates-required = * Indica campo obrigatório
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -247,11 +249,14 @@ contribution-experience = Experiência de colaboração
 skip-submission-feedback = Ignorar comentários de envio
 off = Desligar
 on = Ligar
+browse-file-title = Enviar um arquivo de imagem
+browse-file = Arraste e solte, ou <browseWrap>Navegue</browseWrap>
 connect-gravatar = Conectar com Gravatar
 gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
 manage-subscriptions = Gerenciar inscrições
 email-already-used = Este e-mail já está sendo usado em uma conta diferente
+add-language = Adicionar idioma
 
 ## FAQ
 
@@ -426,7 +431,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Seus idiomas
 toward-next-goal = Rumo ao próximo objetivo
+clips-you-recorded = Clipes que você gravou
+clips-you-validated = Clipes que você validou
+todays-recorded-progress = Progresso de hoje do Common Voice em clipes gravados
+todays-validated-progress = Progresso de hoje do Common Voice em clipes validados
 stats = Estatísticas
 you = Você
 everyone = Todos
@@ -439,6 +449,7 @@ overall-accuracy = Precisão geral
 
 ## Profile Delete
 
+delete-q = Deseja solicitar que suas gravações de voz sejam excluídas também, ou prefere mantê-las no conjunto de dados do Common Voice?
 keep = Manter
 remove = Remover
 profile-form-delete = Excluir perfil
