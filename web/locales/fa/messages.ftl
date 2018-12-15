@@ -158,7 +158,7 @@ todays-progress = پیشرفت امروز
 help-reach-goal = به ما کمک کنید تا به { $goal } برسیم
 read-terms-q = آیا شرایط ما را خوانده‌اید؟
 ready-to-record = آیا آماده اهدای صدای خود هستید؟
-all-languages = همه‌ی زبان‌ها
+all-locales = همه
 today = امروز
 x-weeks-short =
     { $count ->
