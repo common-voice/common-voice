@@ -406,7 +406,17 @@ validations =
 ## Dashboard
 
 your-languages = Is limbas tuas
+toward-next-goal = Conca a s'obietivu imbeniente
+stats = Istatìsticas
+you = Tue
+everyone = Totus
+contribution-activity = Atividade de collaboratzione
+top-contributors = Collaboradores prus ativos
+total-approved = Totale de aprovados
+overall-accuracy = Pretzisione globale
 
 ## Profile Delete
 
+keep = Mantene
+remove = Cantzella
 profile-form-delete = Cantzella su profilu
