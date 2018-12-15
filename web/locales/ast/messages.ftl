@@ -17,6 +17,7 @@ indicates-required = * indica que ye un campu riquíu
 ## Languages
 
 ace = Achenés
+af = Afrikaans
 an = Aragonés
 ar = Árabe
 as = Asamés
@@ -162,9 +163,10 @@ hours-recorded = Hores grabaes
 hours-validated = Hores validaes
 voices-online = Voces en llinia anguaño
 todays-progress = Progresu de güei
+help-reach-goal = Ayúdanos a consiguir { $goal }
 read-terms-q = ¿Lleesti los nuesos términos?
 ready-to-record = ¿Preparáu pa emprestar la to voz?
-all-languages = Toles llingües
+all-locales = Too
 today = Güei
 x-weeks-short =
     { $count ->
@@ -463,7 +465,10 @@ validations =
 
 ## Dashboard
 
+your-languages = Les tos llingües
 toward-next-goal = Pa la meta próxima
+clips-you-recorded = Clips que grabesti
+clips-you-validated = Clips que validesti
 stats = Estadístiques
 you = Tú
 everyone = Tol mundu
