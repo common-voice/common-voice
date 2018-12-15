@@ -285,7 +285,7 @@ connect-gravatar = Coneutar con Gravatar
 file_too_large = El ficheru esbilláu ye perllargu
 manage-subscriptions = Xestión de les soscripciones
 email-already-used = El corréu yá s'usa nuna cuenta diferente
-add-language = Amestar llingua
+add-language = Amestar una llingua
 
 ## FAQ
 
