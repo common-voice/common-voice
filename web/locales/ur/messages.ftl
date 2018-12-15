@@ -104,6 +104,7 @@ share-title = ہمیں دوسروں کو اپنی آواز عطیہ کی تلا�
 share-text = مشین کو سیکھنے میں مدد کریں حقیقی لوگ کس طرج بوللتے ہیں٫ { $link } پر اپنی آواز عطیہ کریں
 link-copied = نقل شدہ ربط
 back-top = واپس اوپر کی جانب
+logout = لاگ آؤٹ
 
 ## Home Page
 
@@ -114,6 +115,9 @@ help-us-explain = دبائیں چلائیں سن اور ہمیں بتائیں ک
 no-clips-to-validate = لگتا ہے اس زبان میں سننے کے لیئے تراشے نہیں ہیں۔ کچھ تراشے ابھی ریکارڈنگ کر کے  قطار کو بھرنے میں ہماری مدد کریں۔
 vote-yes = ہاں
 vote-no = نہیں
+speak-subtitle = اپنی آواز کا عطیہ کریں
+all-locales = تمام
+today = آج
 
 ## Speak & Listen Shortcuts
 
@@ -168,6 +172,10 @@ profile-form-age =
     .label = عمر
 profile-form-gender =
     .label = جنس
+hidden = پوشیدہ
+visible = ‏‏مرئی
+native-language =
+    .label = مقامی زبان
 profile-form-submit-save = محفوظ کریں
 profile-form-submit-saved = محفوظ شدہ
 male = مردانہ
@@ -176,10 +184,17 @@ female = زنانہ
 other = دیگر
 why-profile-title = ایک پروفائل کیوں؟
 why-profile-text = اپنے بارے میں کچھ معلومات فراہم کرنے سے۔، صوتی کوائف جو آُپ Common Voice میں جمع کرائیں گے وہ گویاِی کے لیئے مزید فائدہ مند ہوں گے توثیق کار انجن اس کوائف کو استعمال کرکے اپنی درستکی کریں گے۔
+dashboard = ڈیش بورڈ
+build-profile = پروفائل بنائیں
+goals = مقاصد
+settings = ترتیبات
 edit-profile = پروفائل کی تدوین کریں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
 profile-explanation = ایک پروفائل کے ساتھ اپنی پیش رفت پر سراغ رکھیں اور ہماری صوتی کوائف کی مزید درستگی  میں مدد کریں
+edit = تدوین
+off = بند
+on = چالو
 
 ## FAQ
 
@@ -310,10 +325,19 @@ share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں
 
 ## Goals
 
+days =
+    { $count ->
+        [one] دن
+       *[other] دن
+    }
 
 ## Dashboard
 
+you = آپ
+everyone = تمام
 
 ## Profile Delete
 
+keep = رکھیں
+remove = ہٹائیں
 profile-form-delete = پروفائل حزف کریں
