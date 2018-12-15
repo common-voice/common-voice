@@ -136,7 +136,6 @@ hours-recorded = Hodin nahráno
 hours-validated = Hodin ověřeno
 todays-progress = Dnešní pokrok
 help-reach-goal = Pomozte nám dostat se na { $goal }
-all-languages = Všechny jazyky
 today = Dnes
 x-weeks-short =
     { $count ->
