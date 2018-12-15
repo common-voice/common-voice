@@ -6,6 +6,7 @@ email-input =
     .label = Indiritzu de posta eletrònica
 submit-form-action = Imbia
 loading = Carrighende...
+indicates-required = * indica unu campu rechèdidu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -13,32 +14,47 @@ loading = Carrighende...
 
 ## Languages
 
+ace = Achinesu
+af = Afrikaans
 an = Aragonesu
 ar = Àrabu
+as = Assamesu
 ast = Asturianu
+az = Azeri
+bg = Bùlgaru
+bn = Bengalesu
 br = Brètone
+bxr = Buriat
 ca = Catalanu
 cs = Tzecu
+cv = Ciuvàsciu
 cy = Gallesu
 da = Danesu
 de = Tedescu
+dsb = Sòrabu bassu
 el = Grecu
 en = Inglesu
 eo = Esperanto
 es = Castillanu
 et = Èstone
+eu = Bascu
 fa = Persianu
 fi = Finlandesu
+fo = Faroesu
 fr = Frantzesu
 fy-NL = Frisone
 ga-IE = Irlandesu
 he = Ebràicu
+hsb = Sòrabu artu
 hu = Ungheresu
 ia = Interlingua
 id = Indonesianu
 is = Islandesu
 it = Italianu
 ja = Giaponesu
+ka = Georgianu
+kab = Cabilencu
+kk = Kazacu
 ko = Coreanu
 mk = Matzèdone
 mn = Mòngolu
@@ -84,9 +100,6 @@ share-title = Agiuda·si a agatare àtera gente chi podet donare sa boghe sua!
 share-text = Agiuda a imparare a is màchinas comente chistiona sa gente reale: dona sa boghe tua a { $link }
 link-copied = Ligàmene copiadu
 back-top = Torra in artu
-contribution-banner-text = Presentamus immoe un'esperièntzia de cuntributu noa
-contribution-banner-button = Abbàida
-report-bugs-link = Agiuda a sinnalare faddinas
 
 ## Home Page
 
@@ -104,7 +117,6 @@ listen-paragraph = .
 listen-goal-text = Registratziones validadas
 read-terms-q = As lèghidu is Cunditziones nostras?
 ready-to-record = Ses prontu pro donare sa boghe tua?
-all-languages = Totu is limbas
 today = Oe
 x-weeks-short =
     { $count ->
@@ -159,8 +171,6 @@ english = Inglesu
 
 ## ProfileForm
 
-profile-form-cancel = Essi de su formulàriu
-profile-form-delete = Cantzella su profilu
 profile-form-username =
     .label = Nùmene usuàriu
 profile-form-language =
@@ -171,15 +181,12 @@ profile-form-age =
     .label = Edade
 profile-form-submit-save = Sarva
 profile-form-submit-saved = Sarvadu
-profile-keep-data = Mantene is datos
-profile-delete-data = Cantzella is datos
 male = Mascru
 female = Fèmina
 # Gender
 other = Àteru
 why-profile-title = Pro ite depo fàghere unu profile?
 edit-profile = Modìfica su profilu
-profile-create = Crea unu profilu
 profile-create-success = As creadu su profilu.
 profile-close = Serra
 why-demographic = Pro ite est importante?
@@ -203,10 +210,6 @@ faq-native-q = So unu faeddadore no nativu de { $lang } e ddu chistionu cun s'at
 faq-quality-q = Cale est su livellu de calidade mìnimu de s'àudio?
 faq-source-q = Dae ue arribat su testu originale?
 faq-source-a2 = Podes bìdere is frases originales chi impreamus in <dataLink>custa cartella de Github</dataLink>.
-
-## Profile
-
-profile-why-title = Pro ite depo creare unu profilu?
 
 ## NotFound
 
@@ -232,20 +235,6 @@ data-other-tatoeba-description = Tatoeba est una base de datos manna chi include
 data-bundle-button = Iscàrriga pachete de datos
 data-bundle-description = Datos de Common Voice impares cun totu is pachetes de boghes de a suba.
 license = Lissèntzia: <licenseLink>{ $license }</licenseLink>
-
-## Record Page
-
-record-platform-not-supported = Sa prataforma tua no est galu cumpatìbile.
-record-platform-not-supported-desktop = In elaboradores de iscrivania, podes iscarrigare sa prus reghente:
-record-platform-not-supported-ios = Is usuàrios de <bold>iOS</bold> podent iscarrigare sa nostra aplicatzione gratùita:
-record-must-allow-microphone = Depes permitere s'atzessu a su micròfonu.
-record-retry = Torra·bi a proare
-record-no-mic-found = Perunu micròfonu agatadu.
-record-error-too-short = Sa registratzione est tropu curtza.
-record-error-too-long = Sa registratzione est tropu longa.
-record-error-too-quiet = Su volùmene de sa registratzione est tropu bàsciu.
-record-submit-success = Imbiadu! Boles torrare a registrare?
-record-help = Toca pro registrare, e a pustis leghe cun boghe arta custa frase.
 review-terms = Impreende Common Voice, atzetas is <termsLink>Cunditziones</termsLink> nostras e a s'<privacyLink>Avisu de riservadesa</privacyLink>
 terms-agree = So de acordu
 terms-disagree = Non so de acordu
@@ -313,6 +302,14 @@ contribute-more =
        *[other] Ses prontu a nde fàghere àteros { $count }?
     }
 record-cta = Cumintza a registrare
+record-platform-not-supported = Sa prataforma tua no est galu cumpatìbile.
+record-platform-not-supported-desktop = In elaboradores de iscrivania, podes iscarrigare sa prus reghente:
+record-platform-not-supported-ios = Is usuàrios de <bold>iOS</bold> podent iscarrigare sa nostra aplicatzione gratùita:
+record-must-allow-microphone = Depes permitere s'atzessu a su micròfonu.
+record-no-mic-found = Perunu micròfonu agatadu.
+record-error-too-short = Sa registratzione est tropu curtza.
+record-error-too-long = Sa registratzione est tropu longa.
+record-error-too-quiet = Su volùmene de sa registratzione est tropu bàsciu.
 record-instruction = { $actionType }<recordIcon></recordIcon> a pustis leghe cun boghe arta sa frase
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cando as a àere acabbadu
 record-three-more-instruction = Àteras tres!
@@ -336,3 +333,13 @@ listen-last-time-instruction = <playIcon></playIcon>Ùrtima!
 nothing-to-validate = No tenimus nudda pro validare in custa limba, agiuda·si a prenare sa lista de registratziones.
 record-button-label = Registra sa boghe tua
 share-title-new = <bold>Agiuda·si</bold> a agatare prus boghes
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Cantzella su profilu
