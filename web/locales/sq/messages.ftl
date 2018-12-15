@@ -103,9 +103,6 @@ share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
 share-text = Ndihmoni t’u mësohet makinave se si flasin njerëzit e njëmendtë, dhuroni zërin tuaj te { $link }
 link-copied = Lidhja u Kopjua
 back-top = Mbrapsht te Kreu
-contribution-banner-text = Sapo kemi hedhur në qarkullim një rrugë të re dhënieje ndihmese
-contribution-banner-button = Hidhini një sy
-report-bugs-link = Ndihmoni të raportohen të metat
 logout = Dilni
 
 ## Home Page
@@ -138,7 +135,7 @@ todays-progress = Ecuria Sot
 help-reach-goal = Ndihmonani të arrijmë { $goal }
 read-terms-q = I keni lexuar Kushtet tona?
 ready-to-record = Gati të dhuroni zërin tuaj?
-all-languages = Krejt Gjuhët
+all-locales = Krejt
 today = Sot
 x-weeks-short =
     { $count ->
@@ -199,8 +196,6 @@ english = Anglisht
 
 ## ProfileForm
 
-profile-form-cancel = Dil Nga Formulari
-profile-form-delete = Fshini Profil
 profile-form-username =
     .label = Emër Përdoruesi
 profile-form-language =
@@ -217,23 +212,20 @@ native-language =
     .label = Gjuhë Amtare
 profile-form-submit-save = Ruaje
 profile-form-submit-saved = U ruajt
-profile-keep-data = Mbaji të Dhënat
-profile-delete-data = Fshiji të Dhënat
 male = Mashkull
 female = Femër
 # Gender
 other = Tjetër
 why-profile-title = Ç’duhet profili?
 why-profile-text = Duke dhënë ca të dhëna rreth vetes, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për mekanizma Kuptimi të Folure që i përdorin këto të dhëna për përmirësimin e saktësisë së tyre.
+dashboard = Pult
 build-profile = Krijoje Profilin
-profile = Profil
 avatar = Avatar
-preferences = Parapëlqime
+goals = Synime
+settings = Rregullime
 edit-profile = Përpunoni Profil
-profile-create = Krijoni profil
 profile-create-success = Sukses, profili u krijua!
 profile-close = Mbylle
-profile-clear-modal = Pastrimi i të dhënave të profilit tuaj do të thotë që të dhënat demografike nuk do t’i parashtrohet më Common Voice-it me copëzat e incizuara prej jush.
 profile-explanation = Ndiqni ecurinë tuaj, përmes një profili, dhe ndihmoni që të dhënat tona zanore të jenë më të sakta.
 thanks-for-account = Faleminderit që ripohuat llogarinë tuaj, tani le të krijojmë profilin tuaj.
 why-demographic = Pse ka rëndësi kjo?
@@ -242,6 +234,7 @@ keep-me-posted =
     .label = Do të doja përditësime dhe të jem në dijeni se ç’po ndodh me Common Voice.
 accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu siç e shpjegoni <privacyLink>Rregulla Privatësie</privacyLink> të Mozilla-s
 login-identity = Identitet Hyrjesh
+login-signup = Hyni / Regjistrohuni
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
 download-profile = Shkarkoji të dhënat e mia
@@ -250,11 +243,15 @@ skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e p�
 skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
 off = Off
 on = On
+add-avatar-title = Shtoni një avatar te profili juaj
+browse-file-title = Ngarkoni kartelë figure
 browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
 connect-gravatar = Lidhuni përmes Gravatari
 gravatar_not_found = S’u gjet gravatar për email-in tuaj
 file_too_large = Kartela e përzgjedhur është shumë e madhe
 manage-subscriptions = Administroni Pajtime
+email-already-used = Email-i është tashmë i përdorur për një tjetër llogari
+add-language = Shtoni Gjuhë
 
 ## FAQ
 
@@ -278,11 +275,6 @@ faq-hours-a = Ky është përafërsisht numri i orëve i nevojshëm për stërvi
 faq-source-q = Prej nga vjen teksti burim?
 faq-source-a1 = Fjalitë e tanishme vijnë nga dhurime, si dhe nga dialogë prej skenarësh filmash nën pronësi publike, b.f. <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Fjalitë tona burim mund t’i shihni <dataLink>në këtë dosje në GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = Pse duhet një profil?
-profile-why-content = Duke furnizuar disa të dhëna mbi veten, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për motorët e Njohjes së Të folurës që përdorin këto të dhëna në përmirësim e përpikërisë së tyre.
 
 ## NotFound
 
@@ -417,3 +409,42 @@ listen-last-time-instruction = <playIcon></playIcon>E fundit!
 nothing-to-validate = S’kemi ndonjë gjë për vleftësim në këtë gjuhë, ndihmonani të plotësojmë radhën.
 record-button-label = Incizoni zërin tuaj
 share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
+
+## Goals
+
+days =
+    { $count ->
+        [one] Ditë
+       *[other] Ditë
+    }
+recordings =
+    { $count ->
+        [one] Incizim
+       *[other] Incizime
+    }
+validations =
+    { $count ->
+        [one] Vleftësim
+       *[other] Vleftësime
+    }
+
+## Dashboard
+
+your-languages = Gjuhët Tuaja
+clips-you-recorded = Copëza Që Keni Incizuar
+clips-you-validated = Copëza Që Keni Vleftësuar
+stats = Statistika
+you = Ju
+everyone = Kushdo
+contribution-activity = Veprimtari Kontributi
+top-contributors = Pjesëmarrësit Kryesues
+recorded-clips = Copëza të Incizuara
+validated-clips = Copëza të Vleftësuara
+total-approved = Të miratuara Gjithsej
+overall-accuracy = Saktësia Në Përgjithësi
+
+## Profile Delete
+
+keep = Mbaje
+remove = Hiqe
+profile-form-delete = Fshini Profil
