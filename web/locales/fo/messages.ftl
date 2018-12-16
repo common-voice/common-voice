@@ -120,6 +120,7 @@ listen-paragraph = At góðkenna innsendar ljóðupptøkur er líka týdningarmi
 listen-goal-text = Klipp góðkend
 hours-recorded = Tímar upptiknir
 hours-validated = Tímar góðkendir
+todays-progress = Framgongdin í dag
 help-reach-goal = Hjálp okkum at røkka { $goal }
 read-terms-q = Hevur tú lisið okkara Treytir?
 ready-to-record = Til reiðar at geva tína rødd?
@@ -229,6 +230,7 @@ connect-gravatar = Bind við Gravatar
 gravatar_not_found = Eingin Gravatar funnin fyri tín teldupost
 file_too_large = Valda fílan er ov stór
 manage-subscriptions = Umsit hald
+email-already-used = Telduposturin er í brúk fyri eina aðra konto
 
 ## FAQ
 
