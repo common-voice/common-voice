@@ -286,6 +286,7 @@ faq-native-a = Bai, jakina nahi dugula zure ahotsa! Common Voicen helburuetako b
 faq-firefox-q = Ahotsetik-testura, Common Voicen bitartez, izango al da inoiz Firefoxen parte?
 faq-firefox-a = Common Voicek potentzial mugagabea du eta hain zuzen, ahotsaren ezagutza Mozillaren hainbat produktutan erabiltzea aztertzen ari gara, Firefox barne.
 faq-quality-q = Audioetan zein kalitate-maila behar da erabili ahal izateko?
+faq-quality-a = Hemen egindako grabaketen audio-kalitateak, speech-to-text motor batek benetako erabilera batean aurkituko duen audio-kalitatea izatea nahi dugu. Hau da, aniztasuna nahi dugu. Honek speech-to-text motorrari egoera desberdinak errorerik gabe kudeatzen irakasten dio: ahotsak atzeko aldetik, kotxe zarata, haizagailu zarata eta abar.
 faq-hours-q = Zergatik da helburua 10.000 orduko audio grabaketak lortzea?
 faq-hours-a = Ekoizpeneko STT sistema bat entrenatzeko, gutxi gora behera, ordu kopuru hori behar da.
 faq-source-q = Testu-iturria nondik dator?
@@ -305,6 +306,7 @@ data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size }GB</size>tako deskarga bat hastear zaude, jarraitu?
 data-subtitle = Ahots datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena ahots teknologia duten aplikazioak trebatzeko.
+data-explanatory-text = Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako ahots teknologietan. Hau ekimen globala da eta guztiak gonbidatzen ditugu parte hartzera. Gure helburua ahots teknologia inklusiboagoa izaten laguntzea da, munduan zehar dauden ahots desberdinak islatuz.
 data-get-started = <speechBlogLink>Ikasi ahotsaren ezagutzari buruz</speechBlogLink>
 data-other-title = Beste ahots datu-sortak...
 data-other-goto = Joan { $name }-(e)ra
@@ -355,6 +357,7 @@ request-language-title = Hizkuntza-eskaera
 request-language-form-language =
     .label = Hizkuntza
 request-language-success-title = Hizkuntza-eskaera ondo bidali da, eskerrik asko.
+request-language-success-content = Laster jarriko gara zurekin harremanetan Common Voice proiektuan zure hizkuntza nola gehitu azaltzen duen informazioarekin.
 
 ## Languages Overview
 
