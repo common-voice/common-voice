@@ -131,8 +131,22 @@ no-clips-to-validate = Det ser ud til, at der ikke er nogen klip at lytte til p�
 vote-yes = Ja
 vote-no = Nej
 toggle-play-tooltip = Tryk på { shortcut-play-toggle } for at starte eller stoppe afspilningen
-all-languages = Alle sprog
 today = I dag
+x-weeks-short =
+    { $count ->
+        [one] uge
+       *[other] uger
+    }
+x-months-short =
+    { $count ->
+        [one] md.
+       *[other] mdr.
+    }
+x-years-short =
+    { $count ->
+        [one] år
+       *[other] år
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -177,8 +191,6 @@ english = Engelsk
 
 ## ProfileForm
 
-profile-form-cancel = Luk formular
-profile-form-delete = Slet profil
 profile-form-username =
     .label = Brugernavn
 profile-form-language =
@@ -191,27 +203,32 @@ profile-form-gender =
     .label = Køn
 hidden = Skjult
 visible = Synlig
+native-language =
+    .label = Modersmål
 profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
-profile-keep-data = Behold data
-profile-delete-data = Slet data
 male = Mand
 female = Kvinde
 # Gender
 other = Andet
 why-profile-title = Hvorfor oprette en profil?
 why-profile-text = Ved at give nogle oplysninger om dig selv, vil de lyddata, du indsender til Common Voice være mere brugbare til talegenkendelses-systemerne, der skal bruge disse data til at forbedre deres nøjagtighed.
+build-profile = Lav profil
 avatar = Avatar
 goals = Mål
 settings = Indstillinger
 edit-profile = Rediger profil
-profile-create = Opret en profil
 profile-create-success = Profil oprettet!
 profile-close = Luk
-profile-clear-modal = Når du rydder dine profil-data vil denne demografiske information ikke længere blive sendt til Common Voice sammen med dine lydoptagelser.
 profile-explanation = Hold styr på din fremgang med en profil, samtidig med at du gør vores stemme-data mere præcist.
+why-demographic = Hvorfor er dette vigtigt?
+login-signup = Log ind / Opret dig
 edit = Rediger
+download-profile = Download mine data
+off = Fra
+on = Til
 add-avatar-title = Tilføj en avatar til din profil
+browse-file-title = Upload en billedfil
 connect-gravatar = Forbind med Gravatar
 file_too_large = Den valgte fil er for stor
 manage-subscriptions = Håndter abonnementer
@@ -238,11 +255,6 @@ faq-hours-a = Det er omtrent det antal timer, som det kræver at træne et velfu
 faq-source-q = Hvor kommer kildeteksten fra?
 faq-source-a1 = De nuværende sætninger er donationer fra bidragydere samt dialog fra filmmanuskripter i offentligt domæne, fx <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Du kan se vores kildetekster i <dataLink>denne folder på GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = Hvorfor oprette en profil?
-profile-why-content = Ved at give nogle oplysninger om dig selv, vil de lyddata, du indsender til Common Voice være mere brugbare til talegenkendelses-systemerne, der skal bruge disse data til at forbedre deres nøjagtighed.
 
 ## NotFound
 
@@ -375,6 +387,7 @@ share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
 
 ## Goals
 
+streaks = Antal dage i træk
 days =
     { $count ->
         [one] Dag
@@ -385,8 +398,18 @@ recordings =
         [one] Optagelse
        *[other] Optagelser
     }
+validations =
+    { $count ->
+        [one] Validering
+       *[other] Valideringer
+    }
 
 ## Dashboard
 
+stats = Statistik
 you = Dig
 everyone = Alle
+
+## Profile Delete
+
+profile-form-delete = Slet profil
