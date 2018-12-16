@@ -120,8 +120,10 @@ listen-paragraph = At góðkenna innsendar ljóðupptøkur er líka týdningarmi
 listen-goal-text = Klipp góðkend
 hours-recorded = Tímar upptiknir
 hours-validated = Tímar góðkendir
+help-reach-goal = Hjálp okkum at røkka { $goal }
 read-terms-q = Hevur tú lisið okkara Treytir?
 ready-to-record = Til reiðar at geva tína rødd?
+all-locales = Øll
 today = Í dag
 x-weeks-short =
     { $count ->
@@ -141,19 +143,34 @@ x-years-short =
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Spæl/Steðga
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Tak upp/Steðga
 request-language-text = Finnur tú ikki títt mál á Common Voice?
 request-language-button = Ger eina umbøn um eitt nýtt mál
 
 ## ProjectStatus
 
+status-title = Støðan á verkætlanini: Hygg hvussu langt vit eru komin!
 status-contribute = Stuðla við tínari rødd
 status-hours =
     { $hours ->
