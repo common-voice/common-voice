@@ -114,7 +114,7 @@ privacy = Pribatutasuna
 terms = Baldintzak
 cookies = Cookieak
 faq = Ohiko galderak
-share-title = Lagun gaitzazu beraien ahotsak utziko dituzten boluntario gehiago aurkitzen!
+share-title = Lagun gaitzazu boluntario gehiago aurkitzen!
 share-text = Lagundu makinei irakasten benetako pertsonek nola hitz egiten duten, utzi zure ahotsa hemen: { $link }
 link-copied = Lotura kopiatuta
 back-top = Itzuli gora
@@ -131,17 +131,21 @@ help-us-title = Lagun gaitzazu esaldiak balioztatzen!
 no-clips-to-validate = Badirudi ez dagoela klip gehiagorik entzuteko hizkuntza honetan. Lagun gaitzazu ilara betetzen grabaketa batzuk orain eginez.
 vote-yes = Bai
 vote-no = Ez
+toggle-play-tooltip = Sakatu { shortcut-play-toggle } erreproduzitze modura aldatzeko
 speak-subtitle = Utzi zure ahotsa
-speak-goal-text = Grabatutako klipak
+speak-paragraph = Ahots grabaketak egitea proiektu honetako datu bilketaren funtsa da; batzuek diote dibertigarria ere badela.
+speak-goal-text = Grabatutako grabaketak
 listen-subtitle = Lagun gaitzazu ahotsak balioztatzen
 listen-paragraph = Grabatutako klipak balioztatzea ahotsa uztea bezain garrantzitsua da Common Voicen helbururako. Mesedez, hartu denbora bat entzuteko eta kalitatezko ahots-datu libreak sortzeko.
-listen-goal-text = Balioztatutako klikap
+listen-goal-text = Balioztatutako grabaketak
 hours-recorded = Grabatutako orduak
 hours-validated = Balioztatutako orduak
+voices-online = Orain online daude ahotsak
 todays-progress = Gaurko aurrerabidea
 help-reach-goal = Lagun gaitzazu lortzen { $goal }
 read-terms-q = Gure Baldintzak irakurri dituzu?
-ready-to-record = Prest zaude zure ahotsa uzteko?
+ready-to-record = Zure ahotsarekin laguntzeko prest?
+all-locales = Guztiak
 today = Gaur
 x-weeks-short =
     { $count ->
@@ -161,13 +165,27 @@ x-years-short =
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Erreproduzitu/Gelditu
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = b
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = e
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabatu/Gelditu
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
 request-language-button = Eskatu hizkuntza bat
@@ -228,6 +246,7 @@ email-subscriptions = E-posta harpidetzak
 download-profile = Deskargatu nire datuak
 contribution-experience = Eskarmentua laguntzen
 skip-submission-feedback = Saltatu feedback bidalketa
+skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu. Jarraian beste 5 grabaketa egiteko edo balioztatzeko eskainiko zaizkizu.
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
@@ -270,6 +289,7 @@ data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size }GB</size>tako deskarga bat hastear zaude, jarraitu?
 data-subtitle = Ahots datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena ahots teknologia duten aplikazioak trebatzeko.
+data-get-started = <speechBlogLink>Ikasi ahotsaren ezagutzari buruz</speechBlogLink>
 data-other-title = Beste ahots datu-sortak...
 data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
@@ -351,6 +371,7 @@ contribute-more =
        *[other] { $count } gehiago egiteko prest?
     }
 record-cta = Hasi grabazioa
+record-platform-not-supported = Sentitzen dugu baina orain ez diogu plataforma horri euskarririk ematen.
 record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
 record-platform-not-supported-ios = <bold>iOS</bold> erabiltzaileek gure app librea deskarga dezakete:
 record-must-allow-microphone = Mikrofonoa erabiltzeko baimena eman behar duzu.
@@ -369,12 +390,12 @@ review-tooltip = Berrikusi eta berriz grabatu klipak hemen egin ahala
 unable-speak = Ezin duzu mintzatu orain?
 review-instruction = Berrikusi eta berriz grabatu klipak beharrezkoa bada
 record-submit-tooltip = { $actionType } bidali prest egotean
-clips-uploaded = Igotako klipak
+clips-uploaded = Igotako grabaketak
 record-abort-title = Aurretik grabazioa bukatu?
 record-abort-text = Orain ateratzen bazara egin berri dituzunak galduko dira
-record-abort-submit = Bidali klipak
+record-abort-submit = Bidali grabaketak
 record-abort-continue = Bukatu grabazioa
-record-abort-delete = Irten eta ezabatu klipak
+record-abort-delete = Irten eta ezabatu grabaketak
 listen-instruction = { $actionType }<playIcon></playIcon> esaldia ondo ahoskatu dute?
 listen-again-instruction = Lan bikaina!<playIcon></playIcon> Entzun berriro prest zaudenean
 listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
@@ -418,6 +439,7 @@ top-contributors = Laguntzaile gogotsuenak
 recorded-clips = Grabatutako grabaketak
 validated-clips = Balioztatutako grabaketak
 total-approved = Onartuak guztira
+overall-accuracy = Zehaztasun orokorra
 
 ## Profile Delete
 
