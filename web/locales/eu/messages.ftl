@@ -17,6 +17,7 @@ indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 ## Languages
 
 ace = Acehnesa
+af = Afrikaansa
 an = Aragoiera
 ar = Arabiera
 as = Assamera
@@ -141,7 +142,6 @@ todays-progress = Gaurko aurrerabidea
 help-reach-goal = Lagun gaitzazu lortzen { $goal }
 read-terms-q = Gure Baldintzak irakurri dituzu?
 ready-to-record = Prest zaude zure ahotsa uzteko?
-all-languages = Hizkuntza guztiak
 today = Gaur
 x-weeks-short =
     { $count ->
@@ -404,12 +404,20 @@ validations =
 
 ## Dashboard
 
+your-languages = Zure hizkuntzak
 toward-next-goal = Hurrengo helbururantz
+clips-you-recorded = Zuk grabatu dituzun grabaketak
+clips-you-validated = Zuk balioztatu dituzun grabaketak
+todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabaketetan
+todays-validated-progress = Common Voicen gaurko aurrerapena balioztatutako grabaketetan
 stats = Estatistikak
 you = Zu
 everyone = Guztiok
 contribution-activity = Laguntza-jarduera
 top-contributors = Laguntzaile gogotsuenak
+recorded-clips = Grabatutako grabaketak
+validated-clips = Balioztatutako grabaketak
+total-approved = Onartuak guztira
 
 ## Profile Delete
 
