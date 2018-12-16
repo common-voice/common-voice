@@ -453,9 +453,43 @@ share-title-new = <bold>ساعِدنا</bold> لنجد مساهمين آخرين
 
 ## Goals
 
+streaks = الإصابات بالتوالي
+days =
+    { $count ->
+        [zero] أيام
+        [one] يوم واحد
+        [two] يومان
+        [few] أيام
+        [many] يوما
+       *[other] يوم
+    }
+recordings =
+    { $count ->
+        [zero] تسجيلات
+        [one] تسجيل واحد
+        [two] تسجيلان
+        [few] تسجيلات
+        [many] تسجيلا
+       *[other] تسجيل
+    }
+validations =
+    { $count ->
+        [zero] عملية تحقّق
+        [one] عملية تحقّق واحدة
+        [two] عمليتا تحقّق
+        [few] عمليات تحقّق
+        [many] عملية تحقّق
+       *[other] عملية تحقّق
+    }
 
 ## Dashboard
 
+your-languages = لغاتك
+toward-next-goal = نحو الهدف التالي
+clips-you-recorded = المقاطع التي سجّلتها
+clips-you-validated = المقاطع التي تحقّقت منها
+todays-recorded-progress = سير العمل على المقاطع المسجّلة في «الصوت للعموم» اليوم
+todays-validated-progress = سير العمل على المقاطع المتحقّق منها في «الصوت للعموم» اليوم
 stats = إحصائيات
 you = عنك
 everyone = عن الجميع
@@ -464,6 +498,7 @@ top-contributors = أعلى المساهمين
 recorded-clips = المقاطع المسجّلة
 validated-clips = المقاطع المتحقّق منها
 total-approved = إجمالي الموافق عليه
+overall-accuracy = إجمالي الدقّة
 
 ## Profile Delete
 
