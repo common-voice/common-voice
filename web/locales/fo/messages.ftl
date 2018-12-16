@@ -225,6 +225,10 @@ email-subscriptions = Teldupost hald
 contribution-experience = Uppliving av íkasti
 off = Fyri
 on = Frá
+connect-gravatar = Bind við Gravatar
+gravatar_not_found = Eingin Gravatar funnin fyri tín teldupost
+file_too_large = Valda fílan er ov stór
+manage-subscriptions = Umsit hald
 
 ## FAQ
 
