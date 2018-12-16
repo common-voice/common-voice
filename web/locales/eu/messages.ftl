@@ -309,7 +309,11 @@ data-get-started = <speechBlogLink>Ikasi ahotsaren ezagutzari buruz</speechBlogL
 data-other-title = Beste ahots datu-sortak...
 data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
+data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ahots ingelesarekin irakurrita.
 data-other-ted-name = TED-LIUM corpusa
+data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
+data-other-voxforge-description = VoxForge transkribatutako ahotsa biltzeko sortu zen, ahotsaren ezagutza motor libreek erabiltzeko.
+data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek ,bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabaketen audioak dauzka.
 data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
@@ -459,6 +463,9 @@ overall-accuracy = Zehaztasun orokorra
 
 ## Profile Delete
 
+delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago dugu Common Voicen datu-sortan manten daitezen?
 keep = Mantendu
 remove = Kendu
+keep-info = Zure ahots grabaketa anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabaketak datu-sortatik kentzea.
+remove-info = Zure ahots grabaketak datu-sortatik ezabatzeko eskaria berrikusiko dugu. Zure eskaria onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabaketak ezabatzeko eskatuko diegu.
 profile-form-delete = Ezabatu profila
