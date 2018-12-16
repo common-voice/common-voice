@@ -289,6 +289,7 @@ faq-quality-q = Audioetan zein kalitate-maila behar da erabili ahal izateko?
 faq-hours-q = Zergatik da helburua 10.000 orduko audio grabaketak lortzea?
 faq-hours-a = Ekoizpeneko STT sistema bat entrenatzeko, gutxi gora behera, ordu kopuru hori behar da.
 faq-source-q = Testu-iturria nondik dator?
+faq-source-a1 = Oraingo esaldiak laguntzaileengandik datoz eta baita <italic>Bizitza ederra da</italic> bezala jabetza publikoan dauden filmetako transkripzioetatik ere.
 faq-source-a2 = Gure jatorrizko esaldiak <dataLink>GitHub karpeta honetan</dataLink> ikus ditzakezu.
 
 ## NotFound
