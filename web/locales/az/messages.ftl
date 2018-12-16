@@ -8,6 +8,8 @@ email-input =
     .label = E-poçt
 submit-form-action = Göndər
 loading = Yüklənir…
+email-opt-in-privacy = E-poçtlar üçün abunə olmaqla bu məlumatın Mozilla tərəfindən <privacyLink>Məxfilik Siyasəti<privacyLink>nə əsasən işlədilməsini qəbul etmiş olursunuz.
+indicates-required = * Tələb edilən bölmələri göstərir
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,6 +18,7 @@ loading = Yüklənir…
 ## Languages
 
 ace = Açecə
+af = Afrikaans
 an = Araqonca
 ar = Ərəbcə
 as = Assam dili
@@ -150,7 +153,7 @@ todays-progress = Bu günün irəliləyişi
 help-reach-goal = { $goal } səviyyəsinə çatmağımıza kömək et
 read-terms-q = Şərtlərimizi oxumusunuz?
 ready-to-record = Səsinizi verməyə hazırsınız?
-all-languages = Bütün Dillər
+all-locales = Hamısı
 today = Bu gün
 x-weeks-short =
     { $count ->
@@ -211,8 +214,6 @@ english = İngiliscə
 
 ## ProfileForm
 
-profile-form-cancel = Formadan çıx
-profile-form-delete = Profili Sil
 profile-form-username =
     .label = İstifadəçi adı
 profile-form-language =
@@ -231,8 +232,6 @@ native-language =
     .label = Ana Dili
 profile-form-submit-save = Saxla
 profile-form-submit-saved = Saxlandı
-profile-keep-data = Məlumatı saxla
-profile-delete-data = Məlumatı sil
 male = Kişi
 female = Qadın
 # Gender
@@ -242,12 +241,11 @@ why-profile-text = Haqqınızda bəzi məlumatları verərək Common Voice üç�
 dashboard = İdarə paneli
 build-profile = Profil yarat
 avatar = Avatar
+goals = Hədəflər
 settings = Tənzimləmələr
 edit-profile = Profili Düzəlt
-profile-create = Profil yarat
 profile-create-success = Profil uğurla yaradıldı!
 profile-close = Qapat
-profile-clear-modal = Profil məlumatlarınızı təmizlədiyinizdə bu demoqrafik məlumat və səs qeydləriniz Common Voice-ə göndərilməyəcək.
 profile-explanation = Profil yaradaraq müvəffəqiyyətlərinizi izləyə və səs məlumatlarımızı daha dəqiq hala gətirə bilərsiz.
 thanks-for-account = Hesabınızı təsdiqlədiyiniz üçün təşəkkürlər, indi də profilinizi düzəldək.
 why-demographic = Bu nəyə lazımdır?
@@ -274,6 +272,8 @@ gravatar_not_found = E-poçtunuz üçün gravatar tapılmadı
 file_too_large = Seçilən fayl çox böyükdür
 manage-subscriptions = Abunəlikləri idarə et
 email-already-used = E-poçt artıq digər bir hesab üçün işlədilir
+add-language = Dil əlavə et
+change-email-setings = E-poçtunuzu Daxil olma identifikasiyası altında Tənzimləmələrdə dəyişdirin
 
 ## FAQ
 
@@ -297,11 +297,6 @@ faq-hours-a = Bu işlək STT (səsdən yazıya) üçün tələb edilən təxmini
 faq-source-q = Qaynaq mətnləri haradan gəlir?
 faq-source-a1 = Mövcud cümlələr dəstəkçilərdən və <italic>It’s a Wonderful Life</italic> kimi ictimai film ssenari yazılarından gəlir.
 faq-source-a2 = Qaynaq mətnlərimizi <dataLink>bu Github qovluğunda</dataLink> görə bilərsiz.
-
-## Profile
-
-profile-why-title = Niyə profil tələb edilir?
-profile-why-content = Haqqınızda bəzi məlumatları verməklə Common Voice üçün göndərdiyiniz səs qeydlərini bu məlumatları işlədən Səs Tanıma mühərriklərinin keyfiyyətini artırmaq üçün daha yararlı hala gətirə bilərsiz.
 
 ## NotFound
 
@@ -437,11 +432,48 @@ nothing-to-validate = Bu il üçün təsdiqlənəcək məlumatlarımız yoxdur, 
 record-button-label = Səsinizi qeyd edin
 share-title-new = Daha çox səs tapmağımıza <bold>Kömək edin</bold>
 
+## Goals
+
+streaks = Ardıcıl günlər
+days =
+    { $count ->
+        [one] Gün
+       *[other] Gün
+    }
+recordings =
+    { $count ->
+        [one] Qeyd
+       *[other] Qeyd
+    }
+validations =
+    { $count ->
+        [one] Təsdiqləmə
+       *[other] Təsdiqləmə
+    }
+
 ## Dashboard
 
+your-languages = Dilləriniz
+toward-next-goal = Növbəti hədəf
+clips-you-recorded = Qeyd etdiyiniz kliplər
+clips-you-validated = Təsdiq etdiyiniz kliplər
+todays-recorded-progress = Bu günlük qeyd edilmiş kliplər üçün Common Voice-in irəliləyişi
+todays-validated-progress = Bu günlük təsdiq edilmiş kliplər üçün Common Voice-in irəliləyişi
+stats = Statistikalar
 you = Siz
 everyone = Hamı
 contribution-activity = Kömək aktivliyi
 top-contributors = Ən çox kömək edənlər
 recorded-clips = Qeyd edilmiş kliplər
 validated-clips = Təsdiqlənmiş kliplər
+total-approved = Ümumi Yoxlanılıb
+overall-accuracy = Ümumi Dəqiqlik
+
+## Profile Delete
+
+delete-q = Səs qeydlərinizin də silinməsini istərdiniz yoxsa onların Common Voice məlumat bazasında qalmasını?
+keep = Saxla
+remove = Sil
+keep-info = Anonim səs qeydləriniz Common Voice məlumat bazasında qalacaq. Profilinizi sildikdən sonra artıq qeydlərinizi məlumat bazasından silməyi tələb edə bilməyəcəksiniz.
+remove-info = Səs qeydlərinizin məlumat bazasından silinməsi tələbinizi incələyəcəyik. Tələbiniz təsdiqlənsə, məlumat bazasını endirənlərlə əlaqə saxlayıb sizin səs qeydlərinizi silmələrini istəyəcəyik.
+profile-form-delete = Profili Sil
