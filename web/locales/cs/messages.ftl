@@ -113,7 +113,7 @@ share-title = Pomozte nám najít další, kteří darují svůj hlas!
 share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }
 link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
-logout = Odhlásit se
+logout = Odhlásit
 
 ## Home Page
 
@@ -215,6 +215,8 @@ profile-form-age =
     .label = Věk
 profile-form-gender =
     .label = Pohlaví
+leaderboard-visibility =
+    .label = Viditelnost v žebříčku
 hidden = Skrytý
 visible = Viditelný
 native-language =
@@ -239,10 +241,11 @@ profile-explanation = Sledujte svůj pokrok díky profilu a pomozte zpřesnit na
 thanks-for-account = Děkujeme za potvrzení vašeho účtu, nyní si sestavte svůj profil.
 why-demographic = Proč na tomhle záleží?
 login-identity = Identita pro přihlášení
-login-signup = Přihlásit / Zaregistrovat se
+login-signup = Přihlášení / Registrace
 edit = Upravit
 email-subscriptions = Odběr e-mailových zpráv
 download-profile = Stáhnout má data
+contribution-experience = Zkušenost s přispíváním
 skip-submission-feedback = Přeskočit zpětnou vazbu
 off = Vypnuto
 on = Zapnuto
