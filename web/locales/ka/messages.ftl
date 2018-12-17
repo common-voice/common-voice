@@ -153,7 +153,7 @@ todays-progress = დღევანდელი წინსვლა
 help-reach-goal = დაგვეხმარეთ { $goal } მიზნის შესრულებაში
 read-terms-q = გაეცანით ჩვენს პირობებს?
 ready-to-record = მზად ხართ, მოგვაწოდოთ თქვენი ხმის ჩანაწერი?
-all-languages = ყველა ენა
+all-locales = ყველა
 today = დღეს
 x-weeks-short =
     { $count ->
@@ -170,6 +170,12 @@ x-years-short =
         [one] წელი
        *[other] { $count } წელი
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
