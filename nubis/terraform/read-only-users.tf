@@ -1,6 +1,6 @@
 resource "aws_iam_user" "clips_readonly" {
   count = "${var.read_only_public_users}"
-  name  = "${var.service_name}-${var.environment}-clips-readonly-${format("%3d", count.index)}"
+  name  = "${var.service_name}-${var.environment}-clips-readonly-${format("%.3d", count.index)}"
   path  = "/applicaton/${var.service_name}/"
 }
 
