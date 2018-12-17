@@ -269,6 +269,7 @@ file_too_large = Berkas yang dipilih terlalu besar
 manage-subscriptions = Kelola Langganan
 email-already-used = Surel telah digunakan untuk akun yang berbeda
 add-language = Tambah Bahasa
+change-email-setings = Ubah email Anda melalui Pengaturan di bawah Identitas Login
 
 ## FAQ
 
@@ -445,6 +446,8 @@ your-languages = Bahasa Anda
 toward-next-goal = Menuju capaian selanjutnya
 clips-you-recorded = Klip yang sudah Anda rekam
 clips-you-validated = Klip yang telah Anda validasi
+todays-recorded-progress = Perkembangan Common Voice berdasarkan potongan rekaman
+todays-validated-progress = Perkembangan Common Voice berdasarkan potongan rekaman tervalidasi
 stats = Statistik
 you = Anda
 everyone = Semua orang
