@@ -387,7 +387,7 @@
 
         & ul {
             margin-top: 0;
-            padding: 0 20px;
+            padding: 30px 20px;
             position: relative;
             overflow: auto;
             list-style: none;
@@ -406,6 +406,13 @@
             padding: 40px 70px 20px 30px;
             display: flex;
             flex-direction: row;
+            color: var(--near-black);
+            cursor: pointer;
+
+            &.active {
+                color: var(--black);
+                background: var(--desert-storm);
+            }
 
             & :first-child {
                 flex-shrink: 0;

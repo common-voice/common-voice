@@ -51,7 +51,7 @@ class SignupInfo extends React.Component<{}, SignUpInfoState> {
             src={`/img/screenshots/${isBenefits ? 1 : 2}.${index + 1}.png`}
             alt=""
           />
-          <ul>
+          <ul key={tab}>
             {(isBenefits
               ? [
                   'rich-data',
@@ -69,7 +69,10 @@ class SignupInfo extends React.Component<{}, SignUpInfoState> {
                   'username-email-not-demographic',
                 ]
             ).map((l, i) => (
-              <li key={l} onClick={() => this.setState({ index: i })}>
+              <li
+                key={l}
+                className={i == index ? 'active' : ''}
+                onClick={() => this.setState({ index: i })}>
                 <span>{i + 1}.</span>
                 <Localized id={l}>
                   <span />
