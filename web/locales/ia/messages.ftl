@@ -452,12 +452,15 @@ validations =
 
 your-languages = Tu linguas
 toward-next-goal = Verso le proxime objectivo
+clips-you-recorded = Retalios que tu ha registrate
+clips-you-validated = Retalios que tu ha validate
 stats = Statistica
 you = Tu
 everyone = Totes
 contribution-activity = Activate de collaboration
 top-contributors = Principal collaboratores
 recorded-clips = Retalios registrate
+validated-clips = Retalios validate
 total-approved = Total approbate
 overall-accuracy = Precision general
 
