@@ -260,6 +260,7 @@
 
     & .register-section {
         margin-top: 50px;
+        overflow: hidden;
 
         & .top {
             margin: 0 auto;
@@ -331,15 +332,24 @@
     }
 
     & .signup-info {
-        max-width: 550px;
+        @media (--md-up) {
+            max-width: 550px;
+        }
 
         & .tabs {
             border-bottom: 2px solid var(--light-grey);
+            position: relative;
             display: flex;
             font-size: var(--font-size-xs);
             text-transform: uppercase;
             font-weight: 600;
             letter-spacing: 0.4px;
+
+            & .waves {
+                position: absolute;
+                bottom: -1px;
+                width: 100vw;
+            }
 
             & label {
                 min-width: 120px;

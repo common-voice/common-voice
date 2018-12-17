@@ -28,6 +28,7 @@ class SignupInfo extends React.Component<{}, SignUpInfoState> {
     return (
       <div className="signup-info">
         <div className="tabs">
+          <img className="waves" src="/img/signup-waves.png" alt="Waves" />
           {['benefits', 'whats-public'].map(l => (
             <label key={l}>
               <input
@@ -48,7 +49,7 @@ class SignupInfo extends React.Component<{}, SignUpInfoState> {
           <div className="bg" />
           <img
             className="screenshot"
-            src={`/img/screenshots/${isBenefits ? 1 : 2}.${index + 1}.png`}
+            src={`/img/screenshots/${isBenefits ? 1 : 2}-${index + 1}.png`}
             alt=""
           />
           <ul key={tab}>
