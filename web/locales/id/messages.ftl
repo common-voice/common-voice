@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Kirim
 loading = Memuat…
 email-opt-in-privacy = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
-indicates-required = * Bertanda wajib diisi
+indicates-required = * Wajib diisi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -43,7 +43,7 @@ eo = Bahasa Esperanto
 es = Bahasa Spanyol
 et = Bahasa Estonia
 eu = Bahasa Basque
-fa = Bahasa Farsi
+fa = Bahasa Persia
 fi = Bahasa Finlandia
 fo = Bahasa Faroe
 fr = Bahasa Perancis
@@ -66,10 +66,10 @@ kw = Bahasa Kornish
 ky = Bahasa Kirgiz
 mdf = Bahasa Moksha
 mk = Bahasa Makedonia
-mn = Mongolia
+mn = Bahasa Mongol
 myv = Bahasa Erzya
 nb-NO = Bahasa Bokmal (Norwegia)
-ne-NP = Bahasa Nepali
+ne-NP = Bahasa Nepal
 nl = Bahasa Belanda
 nn-NO = Bahasa Nynorsk (Norwegia)
 oc = Bahasa Oksitan
