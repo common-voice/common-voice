@@ -181,11 +181,13 @@ sign-up-account = Konto załožić
 ## Account Benefits
 
 benefits = Lěpšiny
+view-goals = Přirunajće swój postup z wosobinskimi a projektowymi cilemi.
 
 ## What's public
 
 whats-public = Što je zjawne?
 email-not-public = Wašu e-mejlowu adresu njewozjewimy.
+username-optin-public = Móžeće swoje wužiwarske mjeno wozjewić abo anonymizować.
 
 ## Speak & Listen Shortcuts
 
@@ -299,11 +301,26 @@ faq-title = Huste prašenja
 faq-what-cv-q = Što Common Voice je?
 faq-why-important-q = Čehodla je wažne?
 faq-how-get-q = Kak móžu daty Common Voice dóstać?
+faq-when-release-q = Hdy Common Voice w druhich rěčach wozjewiće?
 faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
+faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
 faq-is-goal-assistant-q = Je cile Common Voice, hłosowy asistent wutworić?
+faq-why-different-speakers-q = Čehodla trjebaće wjele rozdźělnych rěčnikow na rěč?
+faq-why-my-lang-q = Čeholda moja rěč hišće njeje?
+faq-how-calc-hours-q = Kak Common Voice hodźiny wobličuje?
+faq-where-src-from-q = Zwotkel žórłowy tekst pochadźa?
+faq-why-account-q = Čehodla měł ja konto załožić?
+faq-is-account-public-q = Su moje kontowe informacije zjawne?
 
 ## Glossary
 
+glossary = Glosar
+localization = Lokalizacija
+sentence-collection = Zběrka sadow
+hours-recorded-explanation = Ličba dotal nahromadźenych natočenych hodźin.
+sst = Rěčenje-do-teksta (STT)
+sst-explanation = Technologije Rěčenje-do-teksta (STT) hłosowe daty to teksta konwertuja.
+de-identified = Anonymizowane
 
 ## NotFound
 
