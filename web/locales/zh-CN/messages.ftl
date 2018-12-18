@@ -165,6 +165,18 @@ x-years-short =
     { $count ->
        *[other] { $count } 年
     }
+help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
+profile-not-required = 不需创建个人资料即可贡献，但如果有的话会更有帮助
+sign-up-account = 注册账号
+
+## Account Benefits
+
+benefits = 好处
+
+## What's public
+
+whats-public = 有哪些数据会公开？
+email-not-public = 我们不会公开您的邮件地址。
 
 ## Speak & Listen Shortcuts
 
@@ -272,25 +284,17 @@ change-email-setings = 请到“设置”的“登录身份”修改电子邮件
 ## FAQ
 
 faq-title = 常见问题
-faq-what-q = Common Voice 是什么？
-faq-what-a = 语音识别技术可能会革命性地改变我们与机器的交互方式，但现存的系统既昂贵又由个体私有。Common Voice 旨在使每个人都能容易地利用语音识别技术。人们自发贡献语音而打造出的庞大数据库将能确保任何人都能快速、轻松地训练出支持语音识别的应用程序。所有语音数据都将可供开发人员使用。
-faq-important-q = 为什么很重要？
-faq-important-a = 语音是自然的，语音是人类的。这是最容易且最自然的沟通方式。我们希望开发者能够借此开创，打造出实时语音翻译器，甚至是语音秘书。但是，目前还没有足够的公开数据来构建这些类型的应用程序。我们希望 Common Voice 能给予开发者创新所需。
-faq-get-q = 我要如何取得 Common Voice 的数据？
-faq-get-a = 目前该数据集可在<licenseLink> CC-0 </licenseLink>许可下的<downloadLink>下载页面</downloadLink>上获取。
-faq-mission-q = 为什么 Common Voice 是 Mozilla 使命的一部分？
-faq-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。在构建和测试语音技术时，我们认为需要囊括更多的语言、口音和人口特征。Mozilla 希望看到一个健康、充满活力的互联网。我们须要让新的创想家们能获得语音数据，来打造全新的非凡项目。Common Voice 将成为公共资源，有力支持 Mozilla 团队和世界各地的开发者们。
-faq-native-q = 我的母语不是 { $lang }，而且我说话带有口音，你们需要这样的语音吗？
-faq-native-a = 是的，我们绝对需要您的语音！Common Voice 的目的之一就是尽可能多地收集不同的口音，让计算机能更好地理解<bold>每个人</bold>的话语。
-faq-firefox-q = Firefox 会通过 Common Voice 项目增加语音转文本功能吗？
-faq-firefox-a = Common Voice 具有无限潜力，我们的确在探索 Firefox 等 Mozilla 产品中语音方面的交互。
-faq-quality-q = 什么品质的录音会被使用？
-faq-quality-a = 我们希望面向语音转文本引擎将在自然环境下遇到的音频质量。因此，我们需要各种质量的音频来训练引擎。这将使语音转文本引擎遇到各种情况时不出错—不论是周围有人谈话，还是有汽车噪声、风扇噪声。
-faq-hours-q = 为什么捕获音频的目标是 10,000 小时？
-faq-hours-a = 这是训练出可供利用的 STT 系统所需的大约小时数。
-faq-source-q = 原始文本来自何处？
-faq-source-a1 = 目前是通过贡献者捐赠语料给我们，我们也会利用来自公有领域电影剧本的对话（如 <italic>It’s a Wonderful Life</italic>）。
-faq-source-a2 = 您可以在<dataLink>这个 GitHub 文件夹</dataLink>参考我们的语料源码。
+faq-is-account-public-q = 我的账户信息是公开的吗？
+
+## Glossary
+
+glossary = 词汇表
+localization = 本地化
+sentence-collection = 语句集合
+hours-recorded-explanation = 到目前为止我们收集到的录音小时数。
+sst = 语音转文字（STT）
+sst-explanation = 语音转文字（STT）技术将语音数据转换为文字。
+de-identified = 去识别化
 
 ## NotFound
 
