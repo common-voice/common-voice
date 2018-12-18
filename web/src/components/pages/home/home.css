@@ -390,6 +390,7 @@
         }
 
         & .screenshot {
+            max-width: 500px;
             position: absolute;
             right: -110%;
             bottom: 0;
