@@ -184,12 +184,12 @@ x-years-short =
     }
 help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel, sy'n agored i'r cyhoedd
 profile-not-required = Nid oes angen cael proffil i gyfrannu er ei bod yn ddefnyddiol
-sign-up-account = Cofrestrwch i gael cyfrif
+sign-up-account = Cofrestru am gyfrif
 
 ## Account Benefits
 
 benefits = Manteision
-rich-data = Gwnewch y data rydych wedi ei gyflwyno mor gyfoethog â phosibl trwy ddarparu rhywfaint o ddata demograffig anhysbys. Rydym yn dad-ddatgelu pob data demograffig cyn ei wneud yn gyhoeddus.
+rich-data = Gwnewch y data rydych wedi ei gyflwyno mor gyfoethog â phosibl trwy ddarparu rhywfaint o ddata demograffig anhysbys. Rydym yn dadadnabod yr holl ddata demograffig cyn ei wneud yn gyhoeddus.
 improve-audio = Mae gwybodaeth proffil yn gwella'r data sain sy'n cael ei ddefnyddio wrth hyfforddi cywirdeb adnabod llais.
 keep-track = Cadwch olwg ar eich cynnydd a'ch metrigau ar draws sawl iaith.
 compare-progress = Gwelwch sut mae'ch cynnydd yn cymharu â chyfranwyr eraill ledled y byd.
@@ -361,9 +361,24 @@ faq-is-account-public-q = A yw manylion fy nghyfrif yn gyhoeddus?
 faq-how-privacy-q = Sut ydych chi'n sicrhau anhysbysrwydd a phreifatrwydd y bobl sydd wedi cyfrannu eu lleisiau?
 faq-how-privacy-a = Mae'r holl glipiau llais yn y set ddata yn cael eu dinoethu o fanyliony byddai modd eich adnabod. Pan mae cyfrannwr yn darparu data demograffig trwy eu proffil, caiff y wybodaeth honno ei ddynodi o'u clipiau llais cyn cael ei fwndelu i'w lwytho i lawr yn y set ddata ac ni fydd byth yn cael ei gyhoeddi ar eu tudalen proffil.
 faq-what-determine-identity-q = Beth mae'n ei olygu na allaf "benderfynu ar hunaniaeth" siaradwyr yn y set ddata Llais Cyffredin?
+faq-what-determine-identity-a =
+    Mae set ddataCommon Voice yn adnodd agored a chyhoeddus ymae modd ei ddefnyddio i hyfforddi amrywiaeth eang o raglenni llais. Er mwyn diogelu ein cyfranwyr, gofynnwn i bawb sy'n llwytho i lawr set ddata Common Voice i barchu preifatrwydd cyfranwyr.
+    
+    Mae'r holl glipiau llais yn y set ddata yn cael eu dinoethu o fanylion personol. Pan fyddwch yn llwytho i lawr y set ddata, rydych yn cytuno i beidio â cheisio dyfalu hunaniaeth unrhyw gyfrannwr. Mae hynny'n golygu na allwch geisio cysylltu gwybodaeth yn y set ddata i fanylion personol cyfrannwr. Fodd bynnag, gallwch ddefnyddio'r set ddata i hyfforddi adnabod llais, adnabod siaradwr, neu raglenni eraill, trwy, er enghraifft, gysylltu gwybodaeth yn y set ddata i wybodaeth arall sydd eisoes yn y set ddata.
 
 ## Glossary
 
+glossary = Geirfa
+localization = Lleoleiddio
+localization-explanation = Hwn yw ein proses ar gyfer cyfieithu ac addasu ein cynnwys ar gyfer llawer o ieithoedd.
+sentence-collection = Casglu Brawddegau
+sentence-collection-explanation = Casglu brawddegau o'r parth cyhoeddus, neu ysgrifennu rhai newydd ar gyfer y parth cyhoeddus.
+hours-recorded-explanation = Y nifer o oriau recordio llais rydym wedi'u casglu hyd yn hyn.
+hours-validated-explanation = Y nifer o oriau recordio llais sydd wedi'u dilysu gan 2 allan o 3 defnyddiwr gyda phleidlais "Iawn". Mae'r rhain yn nodi cynnydd tuag at nod cyffredinol y prosiect o 10 mil o oriau.
+sst = Llais i destun (STT)
+sst-explanation = Mae technolegau llais-i-destun (STT) yn trosi data llais yn destun.
+de-identified = Heb eu hadnabod
+de-identified-explanation = Y broses sut mae manylion proffil cyfrannwr yn cael ei guddio oddi wrth eu clipiau llais a gyfranwyd pan gaiff ei becynnu i'w lwytho i lawr fel rhan o'r set ddata.
 
 ## NotFound
 
