@@ -168,6 +168,28 @@ x-years-short =
         [one] Jahr
        *[other] { $count } Jahre
     }
+help-make-dataset = Helfen Sie uns, einen qualitativ hochwertigen, öffentlich zugänglichen Datensatz zu erstellen
+profile-not-required = Ein Profil ist für die Mitarbeit nicht notwendig, aber hilfreich
+sign-up-account = Ein Konto erstellen
+
+## Account Benefits
+
+benefits = Vorteile
+rich-data = Erhöhen Sie den Nutzen Ihrer übermittelten Daten, indem Sie anonyme demografische Daten hinzufügen. Alle demografischen Daten werden vor der Veröffentlichung anonymisiert.
+improve-audio = Profildaten verbessern die Audiodaten, die beim Training der Spracherkennungsgenauigkeit verwendet werden.
+keep-track = Behalten Sie Ihren Fortschritt und Ihre Messdaten in mehreren Sprachen im Auge.
+compare-progress = Sehen Sie, wie sich Ihre Fortschritte mit anderen Mitwirkenden auf der ganzen Welt messen.
+view-goals = Vergleichen Sie Ihren Fortschritt mit persönlichen und Projektzielen.
+join-newsletter = Nehmen Sie optional an unserer E-Mail-Liste teil, um Updates und neue Informationen zum Projekt zu erhalten.
+
+## What's public
+
+whats-public = Was ist öffentlich?
+email-not-public = Ihre E-Mail-Adresse wird nicht veröffentlicht.
+recordings-and-locale-public = Die Anzahl der Aufnahmen und die Sprachen, zu denen Sie beitragen, sind öffentlich.
+username-optin-public = Sie können Ihren Benutzernamen veröffentlichen oder geheim halten.
+demographic-deidentified = Wahlweise übermittelte demografische Daten (z.&thinsp;B. Alter, Geschlecht, Sprache und Akzent) werden aus den übermittelten Sprachdaten entfernt und in Ihrem Profil nicht veröffentlicht.
+username-email-not-demographic = Ihr Benutzername und Ihre E-Mail-Adresse werden nicht mit den veröffentlichten Daten verknüpft.
 
 ## Speak & Listen Shortcuts
 
@@ -276,25 +298,15 @@ change-email-setings = Ändern Sie Ihre E-Mail-Adresse über die Einstellungen u
 ## FAQ
 
 faq-title = Häufig gestellte Fragen
-faq-what-q = Was ist Common Voice?
-faq-what-a = Technologien zur Spracherkennung könnten die Art und Weise, wie wir mit Maschinen kommunizieren, revolutionieren, allerdings sind die zur Zeit verfügbaren Systeme teuer und proprietär. Common Voice ist ein Projekt, das darauf abzielt, Technologien zur Spracherkennung für jeden leicht zugänglich zu machen. Menschen fügen ihre Sprachaufnahme einer umfangreichen Datenbank hinzu, die es zukünftig jedem erlaubt, einfach und schnell sprachunterstützte Anwendungen zu trainieren. Alle Sprachdaten stehen Entwicklern vollständig zur Verfügung.
-faq-important-q = Warum ist das wichtig?
-faq-important-a = Sprache ist natürlich, Sprache ist menschlich. Es ist die einfachste und natürlichste Art der Kommunikation. Wir möchten, dass Entwickler in der Lage sind, fantastische Dinge von Übersetzung in Echtzeit bis hin zu sprachgesteuerten Verwaltungsassistenten zu entwickeln. Im Moment stehen jedoch nicht genügend frei zugängliche Daten zur Verfügung, um derartige Anwendungen zu realisieren. Wir hoffen, dass Common Voice Entwicklern das gibt, was sie für derartige Innovationen benötigen.
-faq-get-q = Wie kann ich an die Common-Voice-Daten gelangen?
-faq-get-a = Der Datensatz steht jetzt auf unserer <downloadLink>Webseite zum Herunterladen</downloadLink> unter der <licenseLink>CC0-Lizenz</licenseLink> zur Verfügung.
-faq-mission-q = Warum ist Common Voice Teil der Mission von Mozilla ?
-faq-mission-a = Mozilla hat sich einem offenen und für alle zugänglichen Netz verschrieben. Um das zu erreichen, müssen wir Webschaffende durch Projekte wie Common Voice unterstützen. Da sich sprachbasierte Technologien über Nischenanwendungen hinaus entwickelt haben, sind wir der Meinung, dass sie allen Anwendern gleichermaßen gut zur Verfügung stehen müssen. Wir sehen daher die Notwendigkeit, mehr Sprachen, Akzente und Bevölkerungsteile in die Entwicklung und Erprobung von sprachbasierten Technologien einzubeziehen. Mozilla möchte ein gesundes und lebhaftes Internet erleben. Das bedeutet, neuen kreativen Köpfen den Zugang zu Sprachdaten zu geben, so dass diese neue, außergewöhnliche Projekte erstellen können. Common Voice wird eine gemeinfreie Quelle für Sprachdaten sein, die den Teams von Mozilla und Entwicklern auf der ganzen Welt helfen wird.
-faq-native-q = { $lang } ist nicht meine Muttersprache und ich spreche mit Akzent, seid ihr trotzdem an meinen Sprachaufnahmen interessiert?
-faq-native-a = Ja, wir möchten Ihre Sprachaufnahmen auf jeden Fall haben. Ein Ziel von Common Voice ist es, so viele verschiedene Akzente wie nur möglich zu erfassen, so dass Computer auch wirklich <bold>jeden</bold> besser verstehen können.
-faq-firefox-q = Wird es irgendwann in Firefox eine Diktierfunktion auf Basis von Common Voice geben?
-faq-firefox-a = Common Voice hat grenzenloses Potenzial und wir erforschen in der Tat Sprachschnittstellen in vielen Mozilla-Produkten, u.a. Firefox.
-faq-quality-q = Wie hoch muss die Qualität der Tonaufnahme sein, um verwendet werden zu können?
-faq-quality-a = Wir wollen, dass die Qualität der Aufnahme die Qualität widerspiegelt, mit der eine Spracherkennungssoftware auch in der freien Wildbahn zu tun haben wird. Eine große Vielfalt ist also durchaus erwünscht. Dies bringt der Spracherkennungssoftware bei, mit diversen Situationen—Hintergrundgesprächen, Autolärm, Lüftergeräuschen—fehlerfrei umzugehen.
-faq-hours-q = Weshalb werden 10&thinsp;000 Stunden an Tonaufnahmen angepeilt?
-faq-hours-a = Dies ist ungefähr die Anzahl an Stunden, die notwendig ist, um ein produktiv einsetzbares Spracherkennungssystem zu trainieren.
-faq-source-q = Wo kommen die ursprünglichen Texte her?
-faq-source-a1 = Die aktuellen Sätze wurden von Mitwirkenden beigesteuert, sowie aus Dialogen gemeinfreier Filmdrehbücher wie <italic>It’s a Wonderful Life</italic> entnommen.
-faq-source-a2 = Sie können sich die verwendeten Sätze in <dataLink>diesem GitHub-Ordner</dataLink> ansehen.
+faq-what-cv-q = Was ist Common Voice?
+faq-what-cv-a =
+    Die Spracherkennungstechnologie revolutioniert die Art und Weise, wie wir mit Maschinen interagieren. Die derzeit verfügbaren Systeme sind jedoch teuer und proprietär. Common Voice ist Teil der Initiative von Mozilla, um Technologien zur Spracherkennung für alle besser und zugänglicher zu machen. Common Voice ist eine riesige globale Datenbank mit gespendeten Stimmen, mit der jeder schnell und einfach sprachgesteuerte Apps in jeder Sprache trainieren kann.
+    
+    Wir sammeln nicht nur Sprachproben in weit verbreiteten Sprachen, sondern auch in solchen mit einer geringeren Anzahl von Sprechern. Durch die Veröffentlichung eines umfangreichen Datensatzes von Stimmen können Entwickler, Unternehmer und Gemeinschaften diese Lücke selbst beheben. Neben dem Common-Voice-Datensatz erstellen wir auch eine Open-Source-Spracherkennungs-Engine namens Deep Speech.
+faq-why-important-q = Warum ist das wichtig?
+
+## Glossary
+
 
 ## NotFound
 
