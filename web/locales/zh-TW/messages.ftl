@@ -303,15 +303,20 @@ faq-when-release-q = 你們什麼時候會釋出其他語言的 Common Voice 資
 faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
 faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
+faq-is-goal-assistant-a = Common Voice 資料集的目標是希望讓任何人都能打造語音識別、說話者識別，以及任何其他需要語音資料的應用。語音助理只是您能用來打造的應用之一。
 faq-do-want-native-q = 某種語言不是我的母語而且講話有點口音，你們還會想要我的聲音嗎？
+faq-do-want-native-a = 是的，而且我們特別想要您的聲音！Common Voice 有一部分目標是盡可能收集各種口音，讓語音識別服務能適用於每個人。這代表非母語人士的貢獻尤其重要。
 faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言的人？
 faq-why-my-lang-q = 為什麼還沒有我的語言？
 faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
 faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
 faq-how-calc-hours-q = Common Voice 如何計算時數？
+faq-how-calc-hours-a = 我們透過估算每筆錄音的平均長度來計算時數，並乘以所有語言錄音數量來計算。
 faq-where-src-from-q = 原始文本來自哪裡？
 faq-why-account-q = 為什麼我要註冊帳號？
 faq-is-account-public-q = 我的帳號資料是公開的嗎？
+faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音的人的隱私？
+faq-what-determine-identity-q = 在 Common Voice 資料集中無法「確認發言者身分」是什麼意思？
 
 ## Glossary
 
