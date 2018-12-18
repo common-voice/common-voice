@@ -182,6 +182,28 @@ x-years-short =
         [many] b
        *[other] b
     }
+help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel, sy'n agored i'r cyhoedd
+profile-not-required = Nid oes angen cael proffil i gyfrannu er ei bod yn ddefnyddiol
+sign-up-account = Cofrestrwch i gael cyfrif
+
+## Account Benefits
+
+benefits = Manteision
+rich-data = Gwnewch y data rydych wedi ei gyflwyno mor gyfoethog â phosibl trwy ddarparu rhywfaint o ddata demograffig anhysbys. Rydym yn dad-ddatgelu pob data demograffig cyn ei wneud yn gyhoeddus.
+improve-audio = Mae gwybodaeth proffil yn gwella'r data sain sy'n cael ei ddefnyddio wrth hyfforddi cywirdeb adnabod llais.
+keep-track = Cadwch olwg ar eich cynnydd a'ch metrigau ar draws sawl iaith.
+compare-progress = Gwelwch sut mae'ch cynnydd yn cymharu â chyfranwyr eraill ledled y byd.
+view-goals = Edrychwch ar eich cynnydd yn erbyn nodau personol a phrosiectau.
+join-newsletter = Neu, ymunwch yn ddewisol a'n rhestr e-bost am ddiweddariadau a gwybodaeth newydd am y project.
+
+## What's public
+
+whats-public = Beth sy'n Gyhoeddus?
+email-not-public = Fyddwn ni ddim yn gwneud eich e-bost yn gyhoeddus.
+recordings-and-locale-public = Bydd nifer y recordiadau a pha ieithoedd y byddwch yn cyfrannu atyn nhw yn gyhoeddus.
+username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n ddienw.
+demographic-deidentified = Bydd data demograffig a gyflwynwyd yn ddewisol (ee oed, rhyw, iaith ac acen) ei ddadgysylltu o'ch data llais sydd wedi ei gyflwyno ac ni fydd yn cael ei gyhoeddi byth ar eich proffil.
+username-email-not-demographic = Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
 
 ## Speak & Listen Shortcuts
 
@@ -294,25 +316,26 @@ change-email-setings = Newidiwch eich e-bost drwy'r Gosodiadau o dan hunaniaeth 
 ## FAQ
 
 faq-title = Cwestiynau Cyffredin
-faq-what-q = Beth yw Common Voice?
-faq-what-a = Gall technoleg adnabod lleferydd chwyldroi y ffordd rydym yn ymwneud â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn eiddo masnachol. Mae Common Voice yn broject i sicrhau bod technoleg adnabod llais ar gael yn hygyrch i bawb. Mae pobl yn cyfrannu eu llais i gronfa ddata anferthol sy'n caniatáu i unrhyw un hyfforddi apiau sy'n gallu ymateb i lais yn sydyn a hawdd. Bydd yr holl ddata llais ar gael i ddatblygwyr.
-faq-important-q = Pam mae hyn yn bwysig?
-faq-important-a = Mae llais yn naturiol, mae'n perthyn i bawb. Dyma'r ffordd hawsaf a mwyaf naturiol i gyfathrebu. Rydym eisiau i ddatblygwr greu pethau anhygoel, o beiriannau cyfieithu ar y pryd i gynorthwywyr gweinyddol llafar. Ond ar hyn o bryd, does dim digon o ddata cyhoeddus ar gael i adeiladu'r mathau yma o apiau. Rydym yn gobeithio y bydd Common Voice yn rhoi i ddatblygwyr yr hyn sydd ei angen i fod yn arloesol.
-faq-get-q = Sut ga i afael ar ddata Common Voice?
-faq-get-a = Mae'r set ddata ar gael ar hyn o bryd ar ein <downloadLink>tudalen llwytho i lawr</downloadLink> o dan drwydded <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Pam mae Common Voice yn rhan o genhadaeth Mozilla?
-faq-mission-a = Mae Mozilla'n wedi ymroi i gadw'r we yn agored ac ar gael i bawb. I wneud hynny mae angen i ni ymrymuso crëwyr y we drwy brojectau fel Common Voice. Wrth i dechnoleg llais gynyddu tu hwnt i raglenni arbenigol, mae'n rhaid iddyn nhw ddiwallu pob defnyddiwr gystal â'i gilydd. Rydym yn gweld yr angen i gynnwys rhagor o ieithoedd, acenion a demograffigau wrth adeiladu a phrofi technolegau llais. Mae Mozilla eisiau gweld rhyngrwyd iach a bywiog. Mae hynny'n golygu rhoi mynediad i grëwyr newydd at ddata llais fel bod modd iddyn nhw adeiladu projectau newydd, anhygoel. Bydd Common Voice yn adnodd cyhoeddus fydd yn cynorthwyo timau Mozilla a datblygwyr o amgylch y byd i gyd.
-faq-native-q = Rwy'n siaradwr { $lang } ail iaith ac rwy'n siarad gydag acen, ydych chi dal eisiau fy llais i?
-faq-native-a = Ydyn, yn bendant rydym eisiau eich llais! Rhan o amcan Common Voice yw casglu gymaint o wahanol acenion ag y bo modd, fel bod cyfrifiaduron yn gallu deall <bold>pawb</bold> yn well pan maen nhw'n siarad.
-faq-firefox-q = A fydd lleferydd i destun, drwy Common Voice, fyth yn dod rhan o Firefox?
-faq-firefox-a = Mae gan Common Voice botensial di-ben-draw ac rydym yn bendant yn archwilio rhyngwynebau lleferydd o fewn nifer o gynnyrch Mozilla, gan gynnwys Firefox.
-faq-quality-q = Pa mor dda mae angen i ansawdd y sain fod iddo gael ei ddefnyddio?
-faq-quality-a = Mae angen i ansawdd y sain adlewyrchu ansawdd y sain fydd y peiriant testun i leferydd yn ei gael yn y byd go-iawn. Felly mae angen amrywiaeth. Mae hyn yn dysgu'r peiriant lleferydd i destun i drin amrywiol sefyllfaoedd - sŵn siarad yn y cefndir, synau ceir, sŵn gwyntyll - heb wallau.
-faq-hours-q = Pam mai 10,000 o oriau yw'r nod ar gyfer cipio sain?
-faq-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system lleferydd i destun.
-faq-source-q = O ble ddaw'r testun ffynhonnell?
-faq-source-a1 = Mae'r brawddegau cyfredol yn dod o roddion gan gyfrannwr, yn ogystal â deialogau ffilmiau parth cyhoeddus fel <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Gallwch weld ein brawddegau ffynhonnell yn <dataLink>y ffolder GitHub yma</dataLink>.
+faq-what-cv-q = Beth yw Common Voice?
+faq-what-cv-a =
+    Mae technoleg adnabod llais yn chwyldroi'r ffordd rydym yn rhyngweithio â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn berchnogol. Mae Common Voice yn rhan o fenter Mozilla i wneud technolegau adnabod llais yn well ac yn fwy hygyrch i bawb. Mae Common Voice yn gronfa ddata fyd-eang enfawr o leisiau rhodd sy'n rhoi cyfle i unrhyw un apiau llais yn gyflym a rhwydd ym mhob iaith, i bob pwrpas.
+    
+    Rydym nid yn unig yn casglu samplau llais mewn ieithoedd llafar eang ond hefyd yn y rheiny â phoblogaeth lai o siaradwyr. Bydd cyhoeddi set ddata amrywiol o leisiau yn rhoi grym i ddatblygwyr, entrepreneuriaid a chymunedau i fynd i'r afael â'r bwlch hwn eu hunain. Yn ogystal â set ddata'r Llais Cyffredin, rydym hefyd yn adeiladu peiriant adnabod lleferydd agored o'r enw Llefarydd Deep.
+faq-why-important-q = Pam mae hyn yn bwysig?
+faq-why-important-a =
+    Yn aml, lleferydd yw'r ffordd fwyaf naturiol rydym yn ei ddefnyddio i gyfathrebu â'n gilydd ac mae technolegau llais yn dod â'r cyfleustra hwnnw i'n cyfrifiaduron a'n dyfeisiau symudol. Rydyn ni am roi grym i ddatblygwyr adeiladu apiau adnabod llais anhygoel fel cyfieithwyr amser real a chynorthwywyr digidol sy'n defnyddio llais. Ond ar hyn o bryd mae'r rhan fwyaf o'r data llais sydd ei angen i adeiladu'r mathau hyn o apiau yn ddrud ac yn berchnogol. Rydym yn gobeithio y bydd set ddata Common Voice yn rhoi i'r datblygwyr hyn yr hyn sydd ei angen arnyn nhw i arloesi a gwneud technoleg llais ar gael yn eu hiaith eu hunain.
+    Er mwyn gwneud adnabod llais hyd yn oed yn fwy cyffredin, rydym yn casglu samplau llais mewn ieithoedd sydd á phoblogaethau mawr llafar yn ogystal â rhai sydd â llai o siaradwyr yn aml wedi'u tanwasanaethu gan wasanaethau adnabod llais masnachol. Bydd cyhoeddi set ddata amrywiol o leisiau yn grymuso datblygwyr, entrepreneuriaid a chymunedau llais cyfan i fynd i'r afael â'r bwlch hwn eu hunain.
+faq-how-get-q = Sut mae cael gafael ar ddata Common Voice?
+faq-how-get-a = Mae set ddata Common Voicear gael i'w lwytho i lawr o dan y drwydded <licenseLink> CC0 </ licenseLink> ar <datasetLink> ein tudalen Setiau Data</ datasetLink>. Gallwch hefyd  lwytho i lawr nifer o setiau data eraill sydd ar gael i'r cyhoedd o'r un dudalen.
+faq-when-release-q = Pryd fyddwch chi'n rhyddhau data Common Voice mewn ieithoedd eraill?
+faq-when-release-a = Mae fersiwn aml-iaith set ddata Common Voice yn cael ei fwndelu a'i lanhau ar hyn o bryd gyda chymorth cymunedol. Os hoffech chi ddysgu mwy am gefnogi'r ymdrech hon, cysylltwch â <contactLink> cysylltwch â ni </ contactLink>. Ar hyn o bryd rydym yn targedu diwrnod cyhoeddi ym mis Ionawr 2019. Ar ôl hynny, byddwn yn diweddaru'r set ddata o bryd i'w gilydd gydag ieithoedd newydd a chlipiau llais wrth iddynn nhw ddod ar gael. Mae'r cylch rhyddhau i'r dyfodol eto i'w benderfynu.
+faq-why-mission-q = Pam mae Common Voice yn rhan o genhadaeth Mozilla?
+faq-why-mission-a = Mae Mozilla'n wedi ymroi i gadw'r we yn agored ac ar gael i bawb. I wneud hynny mae angen i ni ymrymuso crëwyr y we drwy brojectau fel Common Voice. Wrth i dechnoleg llais gynyddu tu hwnt i raglenni arbenigol, mae'n rhaid iddyn nhw ddiwallu pob defnyddiwr gystal â'i gilydd. Rydym yn gweld yr angen i gynnwys rhagor o ieithoedd, acenion a demograffigau wrth adeiladu a phrofi technolegau llais. Mae Mozilla eisiau gweld rhyngrwyd iach a bywiog. Mae hynny'n golygu rhoi mynediad i grëwyr newydd at ddata llais fel bod modd iddyn nhw adeiladu projectau newydd, anhygoel. Mae Common Voice yn adnodd cyhoeddus sydd ar gael i bawb ac mae timau Mozilla a datblygwyr o amgylch y byd i gyd eisoes yn ei ddefnyddio ar ein projectau ein hunain hefyd.
+faq-what-cv-and-deepspeech-q = Beth yw'r gwahaniaeth rhwng Common Voice ac Deep Speech?
+faq-what-cv-and-deepspeech-a = Mae set ddata Common Voice yn ategu peiriant adnabod llais cod agored Mozilla, sef Deep Speech. Cyhoeddwyd y fersiwn gyntaf o Deep Speech ym mis Tachwedd 2017 ac mae wedi parhau i esblygu ers hynny. Ynghyd â set ddata Common Voice, credwn y dylai technoleg adnabod llais cod agored fod ar gael i bawb. Ein gobaith yw y bydd y technolegau hyn yn galluogi datblygwyr i adeiladu ton o gynhyrch a gwasanaethau arloesol.
+
+## Glossary
+
 
 ## NotFound
 
