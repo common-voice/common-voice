@@ -184,9 +184,13 @@ sign-up-account = Prijavite se za račun
 
 ## Account Benefits
 
+benefits = Prednosti
 
 ## What's public
 
+whats-public = Kaj je javno?
+email-not-public = Vašga e-poštnega naslova ne bomo javno objavili.
+username-optin-public = Svoje uporabniško ime lahko nastavite kot javno ali anonimno.
 
 ## Speak & Listen Shortcuts
 
@@ -298,6 +302,7 @@ change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta 
 
 faq-title = Pogosta vprašanja
 faq-what-cv-q = Kaj je Common Voice?
+faq-why-important-q = Zakaj je to pomembno?
 faq-why-different-speakers-q = Zakaj potrebujete toliko različnih govorcev za en jezik?
 faq-why-my-lang-q = Zakaj moj jezik še ni vključen?
 faq-where-src-from-q = Od kod izhaja izvorno besedilo?
@@ -306,6 +311,7 @@ faq-is-account-public-q = Ali so podatki o mojem računu javni?
 ## Glossary
 
 glossary = Slovar
+localization = Lokalizacija
 
 ## NotFound
 
