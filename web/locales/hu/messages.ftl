@@ -305,6 +305,7 @@ hours-validated-explanation = A hangfelvételi órák számát, melyekre 3 felha
 sst = Beszéd szöveggé alakítása (STT)
 sst-explanation = A beszédből szöveggé alakítási (STT) technológiák szöveggé alakítják a hangadatokat.
 de-identified = Azonosítás visszavonva
+de-identified-explanation = Az a folyamat, amellyel a közreműködő profilinformációi elrejtésre kerülnek a felajánlott hangklipekben, ha az adatkészlet részeként letöltésre kerülnek.
 
 ## NotFound
 
