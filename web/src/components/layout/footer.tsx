@@ -3,7 +3,7 @@ import { Localized } from 'fluent-react/compat';
 import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
 import ShareButtons from '../share-buttons/share-buttons';
-import SignUp from '../sign-up/sign-up';
+import SignUp from '../subscribe-newsletter/subscribe-newsletter';
 import { LocaleLink } from '../locale-helpers';
 import {
   ContactIcon,

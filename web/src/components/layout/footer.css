@@ -208,6 +208,7 @@ footer {
 
     & .title {
         margin-bottom: 1rem;
+        text-transform: uppercase;
         text-align: left;
         font-size: 0.95rem;
         font-family: var(--base-font-family);
