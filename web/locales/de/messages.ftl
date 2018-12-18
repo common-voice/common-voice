@@ -342,11 +342,26 @@ faq-why-not-ask-read-a = Um den Common-Voice-Datensastz so nützlich wie möglic
 faq-why-account-q = Warum sollte ich ein Konto erstellen?
 faq-is-account-public-q = Werden meine Kontodaten veröffentlicht?
 faq-how-privacy-q = Wie stellen Sie die Anonymität und Vertraulichkeit der Personen sicher, die ihre Stimmen gespendet haben?
-faq-how-privacy-a = Alle Sprachclips im Datensatz werden von persönlich identifizierenden Informationen bereinigt. Wenn ein Mitwirkender demografische Daten über sein Profil bereitstellt, werden diese Informationen aus ihren Sprachclips entfernt, bevor sie zum Herunterladen in der Datenmenge gebündelt werden, und werden niemals auf ihrer Profilseite veröffentlicht.
+faq-how-privacy-a = Alle Sprachclips im Datensatz werden um persönlich identifizierende Informationen bereinigt. Wenn ein Mitwirkender demografische Daten über sein Profil bereitstellt, werden diese Informationen aus ihren Sprachclips entfernt, bevor sie zum Herunterladen in der Datenmenge gebündelt werden, und werden niemals auf ihrer Profilseite veröffentlicht.
 faq-what-determine-identity-q = Was bedeutet es, dass ich die Identität der Sprecher im Common-Voice-Datensatz nicht „ermitteln kann“?
+faq-what-determine-identity-a =
+    Der Common-Voice-Datensatz ist eine offene und öffentlich zugängliche Ressource, mit der eine Vielzahl von sprachgesteuerten Anwendungen trainiert werden kann. Um die Sicherheit unserer Mitwirkenden zu gewährleisten, bitten wir jeden, der den Common-Voice-Datensatz herunterlädt, um den Schutz der Privatsphäre der Mitwirkenden.
+    
+    Alle Sprachclips im Datensatz werden um persönlich identifizierende Informationen bereinigt. Wenn Sie den Daten herunterladen, stimmen Sie zu, nicht zu versuchen, die Identität eines Mitwirkenden zu ermitteln. Das bedeutet, dass Sie nicht versuchen dürfen, Informationen in der Datenmenge mit den persönlichen Informationen eines Mitwirkenden zu verknüpfen. Sie können den Datensatz jedoch zum Trainieren der Spracherkennung, Sprechererkennung oder anderer Anwendungen verwenden, indem Sie beispielsweise Informationen im Datensatz mit anderen Informationen verknüpfen, die bereits im Datensatz vorhanden sind.
 
 ## Glossary
 
+glossary = Glossar
+localization = Lokalisierung
+localization-explanation = Dies ist unser Prozess zum Übersetzen und Anpassen unserer Inhalte für viele Sprachumgebungen (Sprachen).
+sentence-collection = Satz-Sammlung
+sentence-collection-explanation = Das Sammeln von gemeinfreien Sätzen oder das Schreiben neuer gemeinfreier Sätze.
+hours-recorded-explanation = Die Anzahl der bisher gesammelten Sprachaufzeichnungsstunden.
+hours-validated-explanation = Die Anzahl der Stunden der Sprachaufzeichnung, die durch 2 von 3 Benutzern mit einer Stimme von „Ja“ bestätigt wurden. Dies markiert den Fortschritt in Richtung des Gesamtziels von 10&thinsp;000 Stunden.
+sst = Sprache-zu-Text (STT)
+sst-explanation = STT-Technologien (Sprache-zu-Text) wandeln Sprachdaten in Text um.
+de-identified = Anonymisiert
+de-identified-explanation = Der Prozess, durch den die Profilinformationen eines Mitwirkenden von den gespendeten Sprachclips verborgen werden, wenn sie als Teil des Datensatzes zum Download verpackt werden.
 
 ## NotFound
 
