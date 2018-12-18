@@ -299,6 +299,11 @@ faq-how-get-q = 我要如何获取 Common Voice 数据？
 faq-how-get-a = 可到 <datasetLink>Common Voice 数据集页面</datasetLink>下载，本数据集遵循<licenseLink>CC0</licenseLink> 进行授权。您也可以在该页面中下载其他几组公开可用的数据集。
 faq-when-release-q = 你们什么时候会发布其他语言的 Common Voice 数据？
 faq-why-mission-q = 为什么 Common Voice 也是 Mozilla 使命的一部分？
+faq-what-cv-and-deepspeech-q = Common Voice 与 Deep Speech 有何不同？
+faq-is-goal-assistant-q = Common Voice 的目标是要构建语音助手吗？
+faq-is-goal-assistant-a = Common Voice 数据集的目标是使世界上的任何人都能构建语音识别、声纹识别，以及任何其他需要语音数据的应用。语音助手只是您可以使用其构建的众多应用类型之一。
+faq-do-want-native-q = 某语言不是我的母语而且说话带有口音，你们需要这样的语音吗？
+faq-do-want-native-a = 是的，而且我们特别想要您的声音！ Common Voice 的目标之一就是收集尽可能多的不同口音，让语音识别服务能适用于每个人。这意味着非母语人士的贡献尤为重要。
 faq-why-account-q = 为什么我要注册账号？
 faq-is-account-public-q = 我的账户信息是公开的吗？
 
