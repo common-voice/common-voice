@@ -28,6 +28,7 @@ class SignUp extends React.Component<PropsFromState, State> {
   handleChange = (event: any) => {
     this.setState({ email: event.target.value });
     this.setState({ isSubmitted: false });
+    this.setState({ isValidEmail: true });
     this.setState({ buttonStyle: 'submit-button' });
   };
 
@@ -42,6 +43,7 @@ class SignUp extends React.Component<PropsFromState, State> {
     } else {
       this.setState({ buttonStyle: 'error-button' });
       this.setState({ isValidEmail: false });
+      this.setState({ isSubmitted: false });
     }
   };
 
@@ -53,6 +55,7 @@ class SignUp extends React.Component<PropsFromState, State> {
       this.setState({ email: 'Submitted' });
     } catch (err) {
       this.setState({ isValidEmail: false });
+      this.setState({ isSubmitted: false });
       this.setState({ buttonStyle: 'error-button' });
       throw new Error(err.message);
     }
