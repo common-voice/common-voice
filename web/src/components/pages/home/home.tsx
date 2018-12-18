@@ -15,18 +15,18 @@ import { ClipsStats, VoiceStats } from './stats';
 
 import './home.css';
 
-interface SignUpInfoState {
+interface RegisterState {
   tab: 'benefits' | 'whats-public';
   index: number;
 }
 
-class SignupInfo extends React.Component<{}, SignUpInfoState> {
-  state: SignUpInfoState = { tab: 'benefits', index: 0 };
+class RegisterSection extends React.Component<{}, RegisterState> {
+  state: RegisterState = { tab: 'benefits', index: 0 };
 
   render() {
     const { index, tab } = this.state;
     const isBenefits = tab == 'benefits';
-    return (
+    const info = (
       <div className="signup-info">
         <div className="tabs">
           <img className="waves" src="/img/signup-waves.png" alt="Waves" />
@@ -48,11 +48,6 @@ class SignupInfo extends React.Component<{}, SignUpInfoState> {
         </div>
         <div className="list-and-bg">
           <div className="bg" />
-          <img
-            className="screenshot"
-            src={`/img/screenshots/${isBenefits ? 1 : 2}-${index + 1}.png`}
-            alt=""
-          />
           <ul key={tab}>
             {(isBenefits ? BENEFITS : WHATS_PUBLIC).map((l, i) => (
               <li
@@ -68,6 +63,34 @@ class SignupInfo extends React.Component<{}, SignUpInfoState> {
           </ul>
         </div>
       </div>
+    );
+
+    return (
+      <section className="register-section">
+        <div className="top">
+          <div className="cta-container">
+            <Localized id="help-make-dataset">
+              <h1 />
+            </Localized>
+            <Localized id="profile-not-required">
+              <h2 />
+            </Localized>
+            <Localized id="sign-up-account">
+              <LinkButton rounded href="/login" />
+            </Localized>
+
+            {info}
+          </div>
+          <div className="images-container">
+            <img className="mars" src="/img/mars.svg" alt="Mars" />
+            <img
+              className="screenshot"
+              src={`/img/screenshots/${isBenefits ? 1 : 2}-${index + 1}.png`}
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
     );
   }
 }
@@ -244,26 +267,7 @@ class HomePage extends React.Component<PropsFromState, State> {
             </div>
           </section>
         ) : (
-          <section className="register-section">
-            <div className="top">
-              <div className="cta-container">
-                <Localized id="help-make-dataset">
-                  <h1 />
-                </Localized>
-                <Localized id="profile-not-required">
-                  <h2 />
-                </Localized>
-                <Localized id="sign-up-account">
-                  <LinkButton rounded href="/login" />
-                </Localized>
-
-                <SignupInfo />
-              </div>
-              <div>
-                <img src="/img/mars.svg" alt="Mars" />
-              </div>
-            </div>
-          </section>
+          <RegisterSection />
         )}
       </div>
     );
