@@ -183,7 +183,7 @@ x-years-short =
        *[other] b
     }
 help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel, sy'n agored i'r cyhoedd
-profile-not-required = Nid oes angen cael proffil i gyfrannu er ei bod yn ddefnyddiol
+profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 sign-up-account = Cofrestru am gyfrif
 
 ## Account Benefits
@@ -192,17 +192,17 @@ benefits = Manteision
 rich-data = Gwnewch y data rydych wedi ei gyflwyno mor gyfoethog â phosibl trwy ddarparu rhywfaint o ddata demograffig anhysbys. Rydym yn dadadnabod yr holl ddata demograffig cyn ei wneud yn gyhoeddus.
 improve-audio = Mae manylion proffil yn gwella'r data sain sy'n cael ei ddefnyddio wrth hyfforddi cywirdeb adnabod llais.
 keep-track = Cadwch olwg ar eich cynnydd a'ch metrigau ar draws sawl iaith.
-compare-progress = Gwelwch sut mae'ch cynnydd yn cymharu â chyfranwyr eraill ledled y byd.
+compare-progress = Gweld sut mae'ch cynnydd yn cymharu â chyfranwyr eraill ledled y byd.
 view-goals = Gweld eich cynnydd yn erbyn nodau personol a phrosiectau.
-join-newsletter = Neu, gallwch ymunwch á'n rhestr e-bost am ddiweddariadau a newyddion am y project.
+join-newsletter = Neu, ymunwch á'n rhestr e-bost am ddiweddariadau a newyddion am y project.
 
 ## What's public
 
 whats-public = Beth sy'n Gyhoeddus?
-email-not-public = Fyddwn ni ddim yn datgrlueich e-bost yn gyhoeddus.
-recordings-and-locale-public = Bydd nifer y recordiadau a pha ieithoedd y byddwch yn cyfrannu atyn nhw yn gyhoeddus.
-username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n ddienw.
-demographic-deidentified = Bydd data demograffig a gyflwynwyd yn ddewisol (ee oed, rhyw, iaith ac acen) ei ddadgysylltu o'ch data llais sydd wedi ei gyflwyno ac ni fydd yn cael ei gyhoeddi byth ar eich proffil.
+email-not-public = Fyddwn ni ddim yn gwneud e-bost yn gyhoeddus.
+recordings-and-locale-public = Bydd y nifer o recordiadau a pha ieithoedd rydych yn cyfrannu atyn nhw yn gyhoeddus.
+username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n anhysbys.
+demographic-deidentified = Bydd data demograffig rydych wedi dewis ei gyflwyno (ee oed, rhyw, iaith ac acen) yn cael ei ddadadnabod o'ch data llais rydych wedi ei gyflwyno ac ni fydd yn cael ei wneud yn gyhoeddus ar eich proffil.
 username-email-not-demographic = Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
 
 ## Speak & Listen Shortcuts
@@ -318,34 +318,34 @@ change-email-setings = Newidiwch eich e-bost drwy'r Gosodiadau o dan hunaniaeth 
 faq-title = Cwestiynau Cyffredin
 faq-what-cv-q = Beth yw Common Voice?
 faq-what-cv-a =
-    Mae technoleg adnabod llais yn chwyldroi'r ffordd rydym yn rhyngweithio â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn berchnogol. Mae Common Voice yn rhan o fenter Mozilla i wneud technolegau adnabod llais yn well ac yn fwy hygyrch i bawb. Mae Common Voice yn gronfa ddata fyd-eang enfawr o leisiau rhodd sy'n rhoi cyfle i unrhyw un apiau llais yn gyflym a rhwydd ym mhob iaith, i bob pwrpas.
+    Mae technoleg adnabod llais yn chwyldroi'r ffordd rydym yn rhyngweithio â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn berchnogol. Mae Common Voice yn rhan o fenter Mozilla i wneud technolegau adnabod llais yn well ac yn fwy hygyrch i bawb. Mae Common Voice yn gronfa ddata fyd-eang enfawr o leisiau rhodd sy'n rhoi cyfle i unrhyw un apiau llais yn gyflym a rhwydd ym mhob iaith ac i bob pwrpas.
     
     Rydym nid yn unig yn casglu samplau llais mewn ieithoedd llafar eang ond hefyd yn y rheiny â phoblogaeth lai o siaradwyr. Bydd cyhoeddi set ddata amrywiol o leisiau yn rhoi grym i ddatblygwyr, entrepreneuriaid a chymunedau i fynd i'r afael â'r bwlch hwn eu hunain. Yn ogystal â set ddata'r Llais Cyffredin, rydym hefyd yn adeiladu peiriant adnabod lleferydd agored o'r enw Llefarydd Deep.
 faq-why-important-q = Pam mae hyn yn bwysig?
 faq-why-important-a =
-    Yn aml, lleferydd yw'r ffordd fwyaf naturiol rydym yn ei ddefnyddio i gyfathrebu â'n gilydd ac mae technolegau llais yn dod â'r cyfleustra hwnnw i'n cyfrifiaduron a'n dyfeisiau symudol. Rydyn ni am roi grym i ddatblygwyr adeiladu apiau adnabod llais anhygoel fel cyfieithwyr amser real a chynorthwywyr digidol sy'n defnyddio llais. Ond ar hyn o bryd mae'r rhan fwyaf o'r data llais sydd ei angen i adeiladu'r mathau hyn o apiau yn ddrud ac yn berchnogol. Rydym yn gobeithio y bydd set ddata Common Voice yn rhoi i'r datblygwyr hyn yr hyn sydd ei angen arnyn nhw i arloesi a gwneud technoleg llais ar gael yn eu hiaith eu hunain.
+    Yn aml, defnyddio ein llais yw'r ffordd fwyaf naturiol rydym yn ei ddefnyddio i gyfathrebu â'n gilydd ac mae technolegau llais yn dod â'r cyfleustra hwnnw i'n cyfrifiaduron a'n dyfeisiau symudol. Rydyn am roi grym i ddatblygwyr adeiladu apiau adnabod llais anhygoel fel cyfieithwyr amser real a chynorthwywyr digidol sy'n defnyddio llais. Ond ar hyn o bryd mae'r rhan fwyaf o'r data llais sydd ei angen i adeiladu'r mathau hyn o apiau yn ddrud ac yn berchnogol. Rydym yn gobeithio y bydd set ddata Common Voice yn rhoi i'r datblygwyr hyn yr hyn sydd ei angen arnyn nhw i arloesi a gwneud technoleg llais ar gael yn eu hiaith eu hunain.
     Er mwyn gwneud adnabod llais hyd yn oed yn fwy cyffredin, rydym yn casglu samplau llais mewn ieithoedd sydd á phoblogaethau mawr llafar yn ogystal â rhai sydd â llai o siaradwyr yn aml wedi'u tanwasanaethu gan wasanaethau adnabod llais masnachol. Bydd cyhoeddi set ddata amrywiol o leisiau yn grymuso datblygwyr, entrepreneuriaid a chymunedau llais cyfan i fynd i'r afael â'r bwlch hwn eu hunain.
-faq-how-get-q = Sut mae cael gafael ar ddata Common Voice?
-faq-how-get-a = Mae set ddata Common Voicear gael i'w lwytho i lawr o dan y drwydded <licenseLink> CC0 </ licenseLink> ar <datasetLink> ein tudalen Setiau Data</ datasetLink>. Gallwch hefyd  lwytho i lawr nifer o setiau data eraill sydd ar gael i'r cyhoedd o'r un dudalen.
+faq-how-get-q = Sut mae cmodd i mi ael gafael ar ddata Common Voice?
+faq-how-get-a = Mae set ddata Common Voice ar gael i'w lwytho i lawr o dan y drwydded <licenseLink> CC0 </ licenseLink> ar <datasetLink> ein tudalen Setiau Data</datasetLink>. Gallwch hefyd lwytho i lawr nifer o setiau data eraill sydd ar gael i'r cyhoedd o'r un dudalen.
 faq-when-release-q = Pryd fyddwch chi'n rhyddhau data Common Voice mewn ieithoedd eraill?
-faq-when-release-a = Mae fersiwn aml-iaith set ddata Common Voice yn cael ei fwndelu a'i lanhau ar hyn o bryd gyda chymorth cymunedol. Os hoffech chi ddysgu mwy am gefnogi'r ymdrech hon, cysylltwch â <contactLink> cysylltwch â ni </ contactLink>. Ar hyn o bryd rydym yn targedu diwrnod cyhoeddi ym mis Ionawr 2019. Ar ôl hynny, byddwn yn diweddaru'r set ddata o bryd i'w gilydd gydag ieithoedd newydd a chlipiau llais wrth iddynn nhw ddod ar gael. Mae'r cylch rhyddhau i'r dyfodol eto i'w benderfynu.
+faq-when-release-a = Mae fersiwn aml-iaith set ddata Common Voice yn cael ei fwndelu a'i lanhau ar hyn o bryd gyda chymorth cymunedol. Os hoffech chi ddysgu mwy am gefnogi'r ymdrech hon, <contactLink> cysylltwch â ni </contactLink>. Ar hyn o bryd rydym yn targedu cyhoeddi ym mis Ionawr 2019. Ar ôl hynny, byddwn yn diweddaru'r set ddata o bryd i'w gilydd gydag ieithoedd newydd a chlipiau llais wrth iddyn nhw ddod ar gael. Mae'r cylch rhyddhau i'r dyfodol eto i'w benderfynu.
 faq-why-mission-q = Pam mae Common Voice yn rhan o genhadaeth Mozilla?
-faq-why-mission-a = Mae Mozilla'n wedi ymroi i gadw'r we yn agored ac ar gael i bawb. I wneud hynny mae angen i ni ymrymuso crëwyr y we drwy brojectau fel Common Voice. Wrth i dechnoleg llais gynyddu tu hwnt i raglenni arbenigol, mae'n rhaid iddyn nhw ddiwallu pob defnyddiwr gystal â'i gilydd. Rydym yn gweld yr angen i gynnwys rhagor o ieithoedd, acenion a demograffigau wrth adeiladu a phrofi technolegau llais. Mae Mozilla eisiau gweld rhyngrwyd iach a bywiog. Mae hynny'n golygu rhoi mynediad i grëwyr newydd at ddata llais fel bod modd iddyn nhw adeiladu projectau newydd, anhygoel. Mae Common Voice yn adnodd cyhoeddus sydd ar gael i bawb ac mae timau Mozilla a datblygwyr o amgylch y byd i gyd eisoes yn ei ddefnyddio ar ein projectau ein hunain hefyd.
+faq-why-mission-a = Mae Mozilla'n wedi ymroi i gadw'r we yn agored ac ar gael i bawb. I wneud hynny mae angen i ni ymrymuso crëwyr y we drwy brojectau fel Common Voice. Wrth i dechnoleg llais gynyddu tu hwnt i raglenni arbenigol, mae'n rhaid iddyn nhw ddiwallu pob defnyddiwr gystal â'i gilydd. Rydym yn gweld yr angen i gynnwys rhagor o ieithoedd, acenion a demograffigau wrth adeiladu a phrofi technolegau llais. Mae Mozilla eisiau gweld rhyngrwyd iach a bywiog. Mae hynny'n golygu rhoi mynediad i grëwyr newydd at ddata llais fel bod modd iddyn nhw adeiladu projectau newydd, anhygoel. Mae Common Voice yn adnodd cyhoeddus sydd ar gael i bawb ac mae timau Mozilla a datblygwyr o amgylch y byd i gyd eisoes yn ei ddefnyddio ar ein projectau ni hefyd.
 faq-what-cv-and-deepspeech-q = Beth yw'r gwahaniaeth rhwng Common Voice ac Deep Speech?
 faq-what-cv-and-deepspeech-a = Mae set ddata Common Voice yn ategu peiriant adnabod llais cod agored Mozilla, sef Deep Speech. Cyhoeddwyd y fersiwn gyntaf o Deep Speech ym mis Tachwedd 2017 ac mae wedi parhau i esblygu ers hynny. Ynghyd â set ddata Common Voice, credwn y dylai technoleg adnabod llais cod agored fod ar gael i bawb. Ein gobaith yw y bydd y technolegau hyn yn galluogi datblygwyr i adeiladu ton o gynhyrch a gwasanaethau arloesol.
 faq-is-goal-assistant-q = Ai nod Common Voice yw adeiladu cynorthwyydd llais?
-faq-is-goal-assistant-a = Nod set ddata Common Voice yw galluogi unrhyw un yn y byd i adeiladu adnabod llais, adnabod siaradwr, neu unrhyw fath arall o raglen sy'n gofyn am ddata llais. Mae cynorthwyydd llais yn un o nifer o fathau o raglen y gallech ddefnyddio'r set ddata i'w hadeiladu.
+faq-is-goal-assistant-a = Nod set ddata Common Voice yw galluogi unrhyw un yn y byd i adeiladu rhaglenni adnabod llais, adnabod siaradwr, neu unrhyw fath arall o raglen sy'n gofyn am ddata llais. Mae cynorthwyydd llais yn un o nifer o fathau o raglen y gallech ddefnyddio'r set ddata i'w hadeiladu.
 faq-do-want-native-q = Rwy'n siaradwr ail iaith ac rwy'n siarad gydag acen, ydych chi dal eisiau fy llais i?
 faq-do-want-native-a = Ydyn, rydym wir eisiau eich llais! Rhan o nod Common Voice yw casglu cymaint o wahanol acenion â phosibl fel bod gwasanaethau adnabod llais yn gweithio cystal i bawb. Mae hyn yn golygu bod cyfraniadau gan siaradwyr anfrodorol yn arbennig o bwysig.
-faq-why-different-speakers-q = Pam mae angen cymaint o wahanol siaradwyr arnoch chi am bob iaith?
+faq-why-different-speakers-q = Pam mae angen cymaint o wahanol siaradwyr arnoch chi ar gyfer pob iaith?
 faq-why-different-speakers-a =
-    Mae'r rhan fwyaf o gronfeydd data llais wedi'u hyfforddi gyda gorgynrychioliad o ddemograffeg penodol sy'n arwain at ragfarn tuag at <articleLink>dynion dosbarth canolbarth</ articleLink>. Fel arfer, mae acenion a thafodieithoedd sy'n dueddol o gael eu tangynrychioli mewn hyfforddiant yn gosod setiau data yn gysylltiedig â grwpiau o bobl sydd eisoes wedi'u hymyleiddio. Mae llawer o beiriannau hefyd yn cael trafferth i ddeall lleisiau merched.
+    Mae'r rhan fwyaf o gronfeydd data llais wedi'u hyfforddi gyda gormod o ddemograffeg penodol sy'n arwain at ragfarn tuag at <articleLink>dynion dosbarth canol</ articleLink>. Fel arfer, mae acenion a thafodieithoedd sy'n dueddol o gael eu tangynrychioli mewn hyfforddiant yn gosod setiau data yn adlewyrchu'r grwpiau o bobl sydd eisoes wedi'u hymyleiddio. Mae llawer o beiriannau hefyd yn cael trafferth i ddeall lleisiau merched.
     Dyna pam rydym eisiau amrywiaeth yn ein cronfa ddata llais!
 faq-why-my-lang-q = Pam nad yw fy iaith wedi'i chynnwys eto?
-faq-why-my-lang-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru yn y gymuned yn unig, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </ multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau dim hawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill.
+faq-why-my-lang-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru gan y gymuned yn unig, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </ multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau dihawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill.
 faq-what-quality-q = Pa lefel o ansawdd sain sydd ei angen ar gyfer clip llais i'w ddefnyddio yn y set ddata?
 faq-what-quality-a = Rydyn eisiau i set ddata Common Voice adlewyrchu ansawdd sain y bydd peiriant llais-i-destun yn ei glywed yn gyffredin, felly rydym yn chwilio am amrywiaeth. Yn ogystal â chymuned amrywiol o siaradwyr, bydd set ddata gydag ansawdd sain amrywiol yn dysgu'r peiriant llais-i-destun i drin gwahanol sefyllfaoedd o'r byd go iawn, o gefndir gyda siarad i sŵn ceir. Cyn belled â bod eich clip llais yn ddealladwy, dylai fod yn ddigon da i'r set ddata.
-faq-why-10k-hours-q = Pam mae 10,000 o oriau wedi'u dilysu y nod iaith ar gyfer casglu sain?
+faq-why-10k-hours-q = Pam mae 10,000 awr wedi'i ddilysu y nod ar gyfer casglu sain iaith ?
 faq-why-10k-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system llais i destun.
 faq-how-calc-hours-q = Sut mae Common Voice yn cyfrifo oriau?
 faq-how-calc-hours-a = Rydym yn cyfrifo oriau trwy amcangyfrif hyd cyfartalog pob cofnod, ac yna lluosi'r rhif hwnnw gyda chyfanswm nifer y recordiadau ar draws yr holl ieithoedd.
@@ -377,7 +377,7 @@ hours-recorded-explanation = Y nifer o oriau recordio llais rydym wedi'u casglu 
 hours-validated-explanation = Y nifer o oriau recordio llais sydd wedi'u dilysu gan 2 allan o 3 defnyddiwr gyda phleidlais "Iawn". Mae'r rhain yn nodi cynnydd tuag at nod cyffredinol y prosiect o 10 mil o oriau.
 sst = Llais i destun (STT)
 sst-explanation = Mae technolegau llais-i-destun (STT) yn trosi data llais yn destun.
-de-identified = Heb eu hadnabod
+de-identified = Dadadnabod
 de-identified-explanation = Y broses sut mae manylion proffil cyfrannwr yn cael ei guddio oddi wrth eu clipiau llais a gyfranwyd pan gaiff ei becynnu i'w lwytho i lawr fel rhan o'r set ddata.
 
 ## NotFound
