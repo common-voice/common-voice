@@ -172,11 +172,20 @@ sign-up-account = 注册账号
 ## Account Benefits
 
 benefits = 好处
+improve-audio = 个人资料可帮助改善进行语音识别准确度训练时的音频数据。
+keep-track = 记录您的进度，以及各种语言的统计指标。
+compare-progress = 看看您的进度与世界各地的其他贡献者相比如何？
+view-goals = 查看您的个人与项目目标进度。
+join-newsletter = 也可加入我们的邮件列表，以获取项目的进度更新与新信息。
 
 ## What's public
 
 whats-public = 有哪些数据会公开？
 email-not-public = 我们不会公开您的邮件地址。
+recordings-and-locale-public = 您贡献的录音数量，以及贡献的语言将会是公开的。
+username-optin-public = 您可以选择公开用户名或保持匿名。
+demographic-deidentified = 非必要提交的人口统计数据（例如年龄、性别、语言、口音）将会在您提交的语音数据中进行去识别化，并且永远不会在您的个人资料中公开。
+username-email-not-demographic = 您的用户名与邮件地址不会与发布的数据相关联。
 
 ## Speak & Listen Shortcuts
 
@@ -284,6 +293,13 @@ change-email-setings = 请到“设置”的“登录身份”修改电子邮件
 ## FAQ
 
 faq-title = 常见问题
+faq-what-cv-q = Common Voice 是什么？
+faq-why-important-q = 为什么如此重要？
+faq-how-get-q = 我要如何获取 Common Voice 数据？
+faq-how-get-a = 可到 <datasetLink>Common Voice 数据集页面</datasetLink>下载，本数据集遵循<licenseLink>CC0</licenseLink> 进行授权。您也可以在该页面中下载其他几组公开可用的数据集。
+faq-when-release-q = 你们什么时候会发布其他语言的 Common Voice 数据？
+faq-why-mission-q = 为什么 Common Voice 也是 Mozilla 使命的一部分？
+faq-why-account-q = 为什么我要注册账号？
 faq-is-account-public-q = 我的账户信息是公开的吗？
 
 ## Glossary
