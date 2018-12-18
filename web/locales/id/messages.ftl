@@ -168,6 +168,12 @@ x-years-short =
        *[other] { $count }thn
     }
 
+## Account Benefits
+
+
+## What's public
+
+
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
@@ -274,25 +280,12 @@ change-email-setings = Ubah email Anda melalui Pengaturan di bawah Identitas Log
 ## FAQ
 
 faq-title = Hal-Hal yang Sering Ditanyakan
-faq-what-q = Apa itu Common Voice?
-faq-what-a = Teknologi pengenalan suara dapat merevolusi cara kita berinteraksi dengan mesin, tetapi sistem yang tersedia saat ini masih mahal dan dimiliki perorangan. Common Voice adalah suatu proyek yang memungkinkan agar teknologi pengenalan suara dapat diakses dengan mudah oleh siapa saja. Orang-orang menyumbangkan suara mereka ke basis data masif yang memungkinkan siapa pun untuk melatih aplikasi pengenalan suara dengan cepat dan mudah. Seluruh data suara akan tersedia bagi para pengembang.
-faq-important-q = Mengapa ini penting?
-faq-important-a = Suara itu alami, suara itu manusiawi. Suara adalah cara yang paling mudah dan paling alami untuk berkomunikasi. Kami ingin para pengembang mampu membangun hal-hal yang mengagumkan dari penerjemah waktu nyata ke asisten administratif yang terfungsikan dengan suara. Namun, saat ini masih belum cukup tersedia data untuk umum guna membangun aplikasi semacam ini. Kami berharap Common Voice dapat memberikan apa yang para pengembang butuhkan untuk berinovasi.
-faq-get-q = Bagaimana saya mendapatkan data Common Voice?
-faq-get-a = Saat ini himpunan data tersedia di <downloadLink>halaman unduh</downloadLink> di bawah lisensi <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Mengapa Common Voice menjadi bagian dari misi Mozilla?
-faq-mission-a = Mozilla berdedikasi untuk terus menjaga web agar terbuka dan dapat diakses oleh semua orang. Untuk melakukannya, kami perlu memberdayakan para kreator web melalui proyek seperti Common Voice. Karena teknologi suara terus berkembang melampaui aplikasi-aplikasi terfokus, kami percaya bahwa suara harus mampu melayani seluruh pengguna dengan setara. Kami melihat adanya kebutuhan untuk menyertakan lebih banyak bahasa, logat, dan demografi ketika membangun dan menguji coba teknologi suara. Mozilla ingin melihat internet yang giat dan sehat. Hal ini berarti memberikan akses data suara kepada para kreator baru sehingga mereka dapat membangun proyek-proyek yang baru dan luar biasa. Common Voice akan menjadi sumber daya umum yang membantu tim dan pengembang Mozilla di seluruh dunia.
-faq-native-q = Saya bukan penutur asli { $lang } dan saya berbicara dengan logat, apakah Anda masih menginginkan suara saya?
-faq-native-a = Ya. Kami tentu menginginkan suara Anda! Salah satu tujuan Common Voice adalah mengumpulkan sebanyak mungkin logat yang ada sehingga komputer dapat memahami <bold>setiap orang</bold> dengan lebih baik ketika mereka berbicara.
-faq-firefox-q = Akankah teknologi ucapan-ke-teks melalui Common Voice menjadi bagian dari Firefox?
-faq-firefox-a = Common Voice memiliki potensi tak terbatas dan kami senantiasa mengeksplorasi antarmuka suara dalam banyak produk Mozilla, termasuk Firefox.
-faq-quality-q = Seberapa tingkat kualitas suara yang dibutuhkan supaya bisa digunakan?
-faq-quality-a = Kami ingin mutu suara mencerminkan mutu suara di mana mesin ucapan-ke-teks dapat melihatnya tanpa selingkung. Untuk itu, kami menginginkan keragaman. Hal ini mengajari mesin ucapan-ke-teks untuk menangani berbagai situasi—wicara latar belakang, derau mobil, hembusan kipas angin—tanpa kekeliruan.
-faq-hours-q = Mengapa 10.000 jam merupakan sasaran dalam perekaman suara?
-faq-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem STT produksi.
-faq-source-q = Di mana sumber teks berasal ?
-faq-source-a1 = Kalimat-kalimat ini berasal dari donasi kontributor serta percakapan dari naskah film yang terbuka untuk umum seperti <italic>It's a Wonderful Life</italic>
-faq-source-a2 = Anda dapat meninjau sumber kalimat-kalimat kami di <dataLink>folder GitHub ini</dataLink>.
+faq-what-cv-q = Apa itu Common Voice?
+faq-why-important-q = Mengapa ini penting?
+faq-how-get-q = Bagaimana saya bisa mendapatkan data Common Voice?
+
+## Glossary
+
 
 ## NotFound
 
