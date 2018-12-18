@@ -17,8 +17,7 @@ footer {
         height: 9.3rem;
     }
 
-    & a,
-    & button {
+    & a, & button {
         box-sizing: border-box;
         text-align: center;
         width: 10rem;
@@ -30,7 +29,7 @@ footer {
         }
 
         &:hover {
-            opacity: 0.6;
+            opacity: .6;
         }
     }
 
@@ -103,8 +102,7 @@ footer {
             padding-right: 4rem;
         }
 
-        & .main-logo,
-        & .main-mozilla-logo {
+        & .main-logo, & .main-mozilla-logo {
             height: 2.5rem;
             max-height: 2.5rem;
 
@@ -114,7 +112,7 @@ footer {
         }
 
         & .license {
-            font-size: 0.7rem;
+            font-size: .7rem;
 
             @media (--md-up) {
                 margin-top: 1.5rem;
@@ -173,7 +171,7 @@ footer {
     flex-direction: column;
     align-items: center;
     flex: 1;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, .1);
 
     & .title {
         margin-bottom: 1rem;
