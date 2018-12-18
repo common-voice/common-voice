@@ -174,6 +174,16 @@ x-years-short =
         [one] { $count } év
        *[other] { $count } év
     }
+help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
+profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
+sign-up-account = Regisztráljon egy fiókot
+
+## Account Benefits
+
+benefits = Előnyök
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -282,25 +292,19 @@ change-email-setings = Módosítsa az e-mail beállításait a Beállításokban
 ## FAQ
 
 faq-title = Gyakran Ismételt Kérdések
-faq-what-q = Mi az a Common Voice?
-faq-what-a = A beszédfelismerési technológia forradalmasíthatja azt, ahogyan a gépekkel kommunikálunk, de a jelenleg elérhető rendszerek drágák és zártak. A Common Voice projekt célja, hogy a hangfelismerő technológia mindenki számára könnyen hozzáférhető legyen. Emberek a hangjukat adják egy hatalmas adatbázishoz, ami bárki számára lehetővé fogja tenni, hogy könnyen és gyorsan betaníthassa beszéd-kompatibilis alkalmazását. Minden hangadat szabadon elérhető lesz a fejlesztők számára.
-faq-important-q = Miért fontos ez?
-faq-important-a = A beszéd természetes, a beszéd emberi. Ez a legkönnyebb és legtermészetesebb módja a kommunikációnak. Azt szeretnénk, ha a fejlesztők elképesztő dolgokat készíthetnének a valósidejű fordítóktól kezdve a beszéd-kompatibilis adminisztrációs asszisztensekig. Azonban jelenleg nincs elég szabadon hozzáférhető adat ezeknek az alkalmazásoknak elkészítéséhez. Azt reméljük, hogy Common Voice megadja majd a fejlesztőknek, amire szűkségük van az innovációhoz.
-faq-get-q = Hogyan férhetek hozzá a Common Voice adatokhoz?
-faq-get-a = Az adatkészlet <licenseLink>CC-0</licenseLink> licenc alatt érhető el a <downloadLink>letöltési oldalunkról</downloadLink>.
-faq-mission-q = Miért része a Common Voice a Mozilla küldetésének?
-faq-mission-a = A Mozilla elkötelezett abban, hogy a webet nyíltnak és mindenki számára szabadon hozzáférhetőnek tartsuk meg.  Ehhez szükséges, hogy a webalkotókat olyan projektekkel támogassuk mint a Common Voice. Mivel a beszédtechnológia túlmutat az uralkodó alkalmazásokon, ezért hiszünk abban, hogy minden felhasználót egyformán kell szolgáljon. Ezért szükségesnek látjuk minél több nyelv, akcentus és demográfia figyelembe vételét, amikor építjük és teszteljük a beszédfelismerő technológiákat. A Mozilla egy egészséges és vibráló internetet szeretne látni. Ez azt jelenti, hogy az alkotók számára hozzáférést kell biztosítani hanganyagokhoz, hogy új és rendkívüli projekteket tudjanak létrehozni. A Common Voice egy nyilvános erőforrás lesz, ami világszerte segíteni fogja a Mozilla csapatokat és fejlesztőket.
-faq-native-q = A(z) { $lang } nem anyanyelvem, hanem akcentussal beszélem, ettől még használható a hangom?
-faq-native-a = Igen, mindenképpen használható a hangja. A Common Voice célja minél több akcentust összegyűjteni, hogy a számítógépek minél jobban megértsék <bold>mindenkinek</bold> a beszédét.
-faq-firefox-q = Része lesz valaha is, a Common Voice által, a Firefoxnak a beszédfelismerés?
-faq-firefox-a = Korlátlan lehetőségek rejlenek a Common Voice projektben. Keressük a beszédfelismerés alkalmazását számos Mozilla termékben, többek között a Firefoxban.
-faq-quality-q = Milyen minőségű kell legyen a hanganyag, hogy felhasználásra kerüljön?
-faq-quality-a = Azt szeretnénk, ha a hangminőség tükrözné azt a minőséget, amivel egy hangfelismerő rendszer találkozni fog a „vadonban”. Ezért változatosságot szeretnénk. Ez megtanítja a hangfelismerő rendszereket a különböző szituációk kezelésére – beszélgetés a háttérben, autó zaj, ventilátor zúgás – hibák nélkül.
-faq-hours-q = Miért 10.000 órányi hanganyag a cél?
-faq-hours-a = Megközelítőleg ennyi óra hanganyagra van szükség egy működőképes beszédfelismerő rendszer betanítására.
-faq-source-q = Honnan származik a forrásszöveg?
-faq-source-a1 = A jelenlegi mondatok közreműködők hozzájárulásaiból származnak, valamint olyan közkincset képező filmekből, mint <italic>Az élet csodaszép.</italic>
-faq-source-a2 = Megnézheti a forrásmondatainkat <dataLink>ebben a GitHub könyvtárban</dataLink>.
+
+## Glossary
+
+glossary = Szójegyzék
+localization = Honosítás
+localization-explanation = Ez a folyamatunk, amellyel számos területi beállításra (nyelvre) fordítjuk le és alakítjuk át a tartalmunkat.
+sentence-collection = Mondatok gyűjtése
+sentence-collection-explanation = Mondatok gyűjtése közkincsből, és újak írása közkincsként.
+hours-recorded-explanation = Az eddig összegyűjtött hangfelvételi órák száma.
+hours-validated-explanation = A hangfelvételi órák számát, melyekre 3 felhasználó közül 2 „Igen” szavazattal ellenőrzött. Ezek jelzik a teljes projekt 10 000 órás céljának elérési folyamatát.
+sst = Beszéd szöveggé alakítása (STT)
+sst-explanation = A beszédből szöveggé alakítási (STT) technológiák szöveggé alakítják a hangadatokat.
+de-identified = Azonosítás visszavonva
 
 ## NotFound
 
