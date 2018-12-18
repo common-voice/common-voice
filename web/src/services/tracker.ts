@@ -21,15 +21,16 @@ function track(
 }
 
 export function trackHome(
-  action: 'speak' | 'listen' | 'read-more',
-  locale: string
-) {
-  track('Home', action, locale);
-}
-
-export function trackHomeNew(
-  action: 'speak' | 'listen' | 'read-more' | 'metric-locale-change',
-  locale: string
+  action:
+    | 'speak'
+    | 'listen'
+    | 'read-more'
+    | 'metric-locale-change'
+    | 'change-benefits-tabs'
+    | 'click-whats-public-item'
+    | 'click-benefits-item'
+    | 'click-benefits-register',
+  locale?: string
 ) {
   track('Home-New', action, locale);
 }

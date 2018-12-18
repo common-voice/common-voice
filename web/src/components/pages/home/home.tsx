@@ -2,7 +2,7 @@ import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
-import { trackHomeNew } from '../../../services/tracker';
+import { trackHome } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -38,6 +38,7 @@ class RegisterSection extends React.Component<{}, RegisterState> {
                 checked={tab == l}
                 onChange={() => {
                   this.setState({ tab: l as any, index: 0 });
+                  trackHome('change-benefits-tabs');
                 }}
               />
               <Localized id={l}>
@@ -53,7 +54,14 @@ class RegisterSection extends React.Component<{}, RegisterState> {
               <li
                 key={l}
                 className={i == index ? 'active' : ''}
-                onClick={() => this.setState({ index: i })}>
+                onClick={() => {
+                  this.setState({ index: i });
+                  trackHome(
+                    isBenefits
+                      ? 'click-benefits-item'
+                      : 'click-whats-public-item'
+                  );
+                }}>
                 <span>{i + 1}.</span>
                 <Localized id={l}>
                   <span />
@@ -76,9 +84,12 @@ class RegisterSection extends React.Component<{}, RegisterState> {
               <h2 />
             </Localized>
             <Localized id="sign-up-account">
-              <LinkButton rounded href="/login" />
+              <LinkButton
+                rounded
+                href="/login"
+                onClick={() => trackHome('click-benefits-register')}
+              />
             </Localized>
-
             {info}
           </div>
           <div className="images-container">
@@ -208,7 +219,7 @@ class HomePage extends React.Component<PropsFromState, State> {
                   type="button"
                   onClick={() => {
                     this.setState({ showWallOfText: !showWallOfText });
-                    trackHomeNew('read-more', locale);
+                    trackHome('read-more', locale);
                   }}
                 />
               </Localized>
@@ -231,9 +242,7 @@ class HomePage extends React.Component<PropsFromState, State> {
                 render={({ isContributable }: any) =>
                   isContributable ? (
                     <>
-                      <RecordLink
-                        onClick={() => trackHomeNew('speak', locale)}
-                      />
+                      <RecordLink onClick={() => trackHome('speak', locale)} />
                       <Localized id="ready-to-record">
                         <h1 />
                       </Localized>
