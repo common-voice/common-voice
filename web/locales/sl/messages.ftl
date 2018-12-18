@@ -179,6 +179,14 @@ x-years-short =
         [few] { $count } leta
        *[other] { $count } let
     }
+help-make-dataset = Pomagajte nam zgraditi kakovosten in javno dostopen nabor podatkov
+sign-up-account = Prijavite se za račun
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -289,25 +297,15 @@ change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta 
 ## FAQ
 
 faq-title = Pogosta vprašanja
-faq-what-q = Kaj je Common Voice?
-faq-what-a = Tehnologija za prepoznavo govora lahko revolucionizira način, s katerim upravljamo z napravami, toda trenutno dostopni sistemi so dragi in zaprti. Common Voice je projekt, ki bo naredil tehnologijo govorne prepoznave preprosto in dostopno vsem. Ljudje prispevajo svoje zvočne posnetke v ogromno bazo podatkov, ki bo nato omogočala hitro in enostavno učenje govorno podprtih aplikacij. Vsi govorni podatki bodo na voljo razvijalcem.
-faq-important-q = Zakaj je to pomembno?
-faq-important-a = Govor je naraven, govor je človeški. Je najpreprostejša in najbolj naravna oblika komunikacije. Želimo si, da bi razvijalci lahko ustvarjali čudovite stvari, od prevodov v realnem času do administrativnih pomočnikov, ki jih upravljamo z glasom. Trenutno ni na voljo dovolj javno dostopnih podatkov, da bi lahko takšne aplikacije tudi zgradili. Upamo, da bo Common Voice dal razvijalcem to, kar potrebujejo za inoviranje.
-faq-get-q = Kako lahko dobim podatke Common Voice?
-faq-get-a = Nabor podatkov je na voljo na naši <downloadLink>strani za prenos</downloadLink> pod licenco <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
-faq-mission-a = Mozilla se zavzema za splet, ki je odprt in dostopen vsem. Za to želimo opolnomočiti ustvarjalce spleta s pomočjo projektov, kot je Common Voice. Medtem ko se govorne tehnologije širijo preko meja nišnih aplikacij, si prizadevamo, da bi vsem uporabnikom služile enako dobro. Pri razvoju in testiranju govorne tehnologije tako vidimo potrebo po vključevanju čim več jezikov, naglasov in demografskih skupin . Mozilla se zavzema za zdrav in dinamičen internet. To želimo doseči tako, da damo novim ustvarjalcem dostop do govornih podatkov za namen gradnje novih, neobičajnih projektov. Common Voice bo javni prostodostopni vir govornih podatkov, ki bo pomagal tako ekipam Mozille, kot tudi razvijalcem po celem svetu.
-faq-native-q = { $lang } ni moj materni jezik in govorim z naglasom. Vseeno želite moj govor?
-faq-native-a = Da, tudi vaš glas potrebujemo! Del namena projekta Common Voice je zbrati karseda veliko naglasov, tako da bodo računalniki bolje razumeli govor <bold>vseh</bold> ljudi.
-faq-firefox-q = Bo pretvorba govora v besedilo preko Common Voice v prihodnosti postala del Firefoxa?
-faq-firefox-a = Common Voice ima brezmejen potencial in resnično raziskujemo možnosti govornih vmesnikov v številnih Mozillinih izdelkih, tudi v Firefoxu.
-faq-quality-q = Kako kakovostni morajo biti posnetki, da bodo uporabni?
-faq-quality-a = Želimo si, da bi kakovost zvočnih posnetkov odražala kakovost zvoka pri običajni uporabi programov za pretvorbo govora v besedilo. Želimo si raznolikosti. Le tako se bo algoritem za pretvorbo govora v besedilo naučil prepoznati različne situacije – govor v ozadju, hrup avtomobilov, hrup ventilatorjev – brez napak.
-faq-hours-q = Zakaj je cilj 10 000 ur posnetkov?
-faq-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v besedilo potrebuje za učenje.
-faq-source-q = Od kod izvirajo besedila?
-faq-source-a1 = Obstoječi stavki so prispevki sodelavcev ter dialogi iz scenarijev filmov v javni domeni, npr. <italic>Čudovito življenje</italic>.
-faq-source-a2 = Izvorne stavke si lahko ogledate v <dataLink>mapi na GitHubu</dataLink>.
+faq-what-cv-q = Kaj je Common Voice?
+faq-why-different-speakers-q = Zakaj potrebujete toliko različnih govorcev za en jezik?
+faq-why-my-lang-q = Zakaj moj jezik še ni vključen?
+faq-where-src-from-q = Od kod izhaja izvorno besedilo?
+faq-is-account-public-q = Ali so podatki o mojem računu javni?
+
+## Glossary
+
+glossary = Slovar
 
 ## NotFound
 
