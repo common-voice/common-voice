@@ -29,6 +29,7 @@ apache::vhost { $project_name:
         path            => "/var/www/${project_name}/web",
         custom_fragment => "
     # Handle and compress font files
+    AddType text/ftl .ftl
     AddType application/x-font-ttf        .ttf
     AddOutputFilterByType DEFLATE application/x-font-ttf
 
@@ -42,7 +43,7 @@ apache::vhost { $project_name:
     AddOutputFilterByType DEFLATE image/svg+xml
 
     # Deflate FTL
-    AddOutputFilter DEFLATE ftl
+    AddOutputFilterByType DEFLATE text/ftl
 
     # Sane expires defaults
     ExpiresActive On
