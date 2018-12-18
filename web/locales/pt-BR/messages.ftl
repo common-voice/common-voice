@@ -175,13 +175,18 @@ sign-up-account = Cadastre uma conta
 ## Account Benefits
 
 benefits = Benefícios
+rich-data = Enriqueça ao máximo seus dados enviados fornecendo alguns dados demográficos anônimos. Nós removemos a identificação de todos os dados demográficos antes de torná-los públicos.
+improve-audio = Informações de perfil aprimoram os dados de áudio usados no treinamento da precisão do reconhecimento de voz.
+keep-track = Acompanhe seu progresso e métricas em diversos idiomas.
 compare-progress = Veja como seu progresso se compara com outros contribuidores do mundo todo.
 view-goals = Veja seu progresso em comparação com metas pessoais e do projeto.
+join-newsletter = Opcionalmente, inscreva-se na nossa lista de e-mails para receber novidades sobre o projeto.
 
 ## What's public
 
 whats-public = O que é público?
 email-not-public = Não deixaremos público seu endereço de e-mail.
+recordings-and-locale-public = O número de gravações e para quais idiomas você contribuir serão públicos.
 username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
 username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
 
@@ -295,8 +300,10 @@ faq-title = Perguntas frequentes
 faq-what-cv-q = O que é Common Voice?
 faq-why-important-q = Por que é importante?
 faq-how-get-q = Como posso obter os dados do Common Voice?
+faq-when-release-q = Quando serão lançados os dados do Common Voice em outros idiomas?
 faq-why-mission-q = Por que o Common Voice faz parte da missão Mozilla?
 faq-what-cv-and-deepspeech-q = Qual é a diferença entre Common Voice e Deep Speech?
+faq-why-different-speakers-q = Por que vocês precisam de tantas pessoas diferentes em cada idioma?
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
 faq-where-src-from-q = De onde vem o texto de origem?
 faq-why-account-q = Por que devo cadastrar uma conta?
