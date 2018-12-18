@@ -208,7 +208,7 @@ class ContributionPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { errorContent, getString, isSubmitted, type } = this.props;
+    const { errorContent, getString, isSubmitted, type, user } = this.props;
     const { showShareModal, showShortcutsModal } = this.state;
 
     return (
@@ -242,7 +242,9 @@ class ContributionPage extends React.Component<Props, State> {
             this.isDone ? 'submittable' : '',
           ].join(' ')}>
           <div className="top">
-            <LocaleLink to={URLS.ROOT} className="back">
+            <LocaleLink
+              to={user.account ? URLS.DASHBOARD : URLS.ROOT}
+              className="back">
               <ArrowLeft />
             </LocaleLink>
 

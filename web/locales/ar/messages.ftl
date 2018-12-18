@@ -18,6 +18,7 @@ indicates-required = * يعني أن الحقل مطلوب
 ## Languages
 
 ace = الأتشيهيّة
+af = الأفريقانية
 an = الأراغونيّة
 ar = العربية
 as = الأسّاميّة
@@ -75,6 +76,7 @@ oc = الأوكّيتانيّة
 or = الأوريا
 pl = البولنديّة
 pt-BR = البرتغالية (البرازيل)
+rm-sursilv = الرومانشية السورسيلڤية
 ro = الرومانية
 ru = الروسية
 sah = الساخيّة
@@ -151,7 +153,7 @@ todays-progress = التقدّم اليوم
 help-reach-goal = ساعدنا في بلوغ حاجز { $goal }
 read-terms-q = هل قرأت الشروط؟
 ready-to-record = أمستعّد للمساهمة بصوتك؟
-all-languages = كل اللغات
+all-locales = كل اللغات
 today = اليوم
 x-weeks-short =
     { $count ->
@@ -261,7 +263,7 @@ edit-profile = حرِّر الملف الشخصي
 profile-create-success = نجحنا، أُنشئ الملف الشخصي!
 profile-close = أغلِق
 profile-explanation = تابِع عملك بإنشاء ملف شخصي وساعِدنا لتكون البيانات الصوتية أكثر دقة.
-thanks-for-account = شكرًا لتأكيد حسابك، لنبدأ الآن ببناء حسابك الشخصي.
+thanks-for-account = شكرًا لتأكيد حسابك، لنبدأ الآن ببناء ملفّك الشخصي.
 why-demographic = ما أهمية هذا؟
 why-demographic-explanation = تُساعد بيانات المستخدمين المجهّلة مثل العمر والجنس واللكنة على تحسين البيانات الصوتية المستخدمة في تدريب صحّة المحرّكات في التعرف على الكلام. لن يرتبط اسم المستخدم والبريد الإلكتروني مطلقًا بالبيانات التي تُرسلها، ويمكنك اختيار ما إن كنت تريد نشر اسم المستخدم للعموم من عدم ذلك.
 keep-me-posted =
@@ -286,6 +288,8 @@ gravatar_not_found = لم يوجد شعار ”غرافاتار“ لبريدك 
 file_too_large = الملف المحدّد كبير جدًا
 manage-subscriptions = أدِر الاشتراكات
 email-already-used = يستخدم حساب آخر ذات البريد بالفعل
+add-language = أضِف لغة
+change-email-setings = غيّر بريدك الإلكتروني عبر الإعدادات ثمّ ”هوية الولوج“
 
 ## FAQ
 
@@ -450,9 +454,42 @@ share-title-new = <bold>ساعِدنا</bold> لنجد مساهمين آخرين
 
 ## Goals
 
+days =
+    { $count ->
+        [zero] أيام
+        [one] يوم واحد
+        [two] يومان
+        [few] أيام
+        [many] يوما
+       *[other] يوم
+    }
+recordings =
+    { $count ->
+        [zero] تسجيلات
+        [one] تسجيل واحد
+        [two] تسجيلان
+        [few] تسجيلات
+        [many] تسجيلا
+       *[other] تسجيل
+    }
+validations =
+    { $count ->
+        [zero] عملية تحقّق
+        [one] عملية تحقّق واحدة
+        [two] عمليتا تحقّق
+        [few] عمليات تحقّق
+        [many] عملية تحقّق
+       *[other] عملية تحقّق
+    }
 
 ## Dashboard
 
+your-languages = لغاتك
+toward-next-goal = نحو الهدف التالي
+clips-you-recorded = المقاطع التي سجّلتها
+clips-you-validated = المقاطع التي تحقّقت منها
+todays-recorded-progress = سير العمل على المقاطع المسجّلة في «الصوت للعموم» اليوم
+todays-validated-progress = سير العمل على المقاطع المتحقّق منها في «الصوت للعموم» اليوم
 stats = إحصائيات
 you = عنك
 everyone = عن الجميع
@@ -461,6 +498,7 @@ top-contributors = أعلى المساهمين
 recorded-clips = المقاطع المسجّلة
 validated-clips = المقاطع المتحقّق منها
 total-approved = إجمالي الموافق عليه
+overall-accuracy = إجمالي الدقّة
 
 ## Profile Delete
 

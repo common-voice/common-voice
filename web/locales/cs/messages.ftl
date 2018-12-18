@@ -113,7 +113,7 @@ share-title = Pomozte nám najít další, kteří darují svůj hlas!
 share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }
 link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
-logout = Odhlásit se
+logout = Odhlásit
 
 ## Home Page
 
@@ -132,11 +132,15 @@ vote-yes = Ano
 vote-no = Ne
 toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
 speak-subtitle = Darujte svůj hlas
+speak-goal-text = Počet nahrávek
+listen-subtitle = Pomozte nám ověřovat nahrávky
 hours-recorded = Hodin nahráno
 hours-validated = Hodin ověřeno
+voices-online = Aktivní hlasy
 todays-progress = Dnešní pokrok
 help-reach-goal = Pomozte nám dostat se na { $goal }
-all-languages = Všechny jazyky
+read-terms-q = Četli jste naše podmínky?
+ready-to-record = Jste připraveni darovat svůj hlas?
 today = Dnes
 x-weeks-short =
     { $count ->
@@ -211,6 +215,8 @@ profile-form-age =
     .label = Věk
 profile-form-gender =
     .label = Pohlaví
+leaderboard-visibility =
+    .label = Viditelnost v žebříčku
 hidden = Skrytý
 visible = Viditelný
 native-language =
@@ -224,6 +230,7 @@ other = Ostatní
 why-profile-title = Proč mít profil?
 why-profile-text = Tím, že nám o sobě poskytnete nějaké informace budou data, která odešlete do Common Voice, více užitečná pro systémy pro prozpoznávání řeči, které tato data využívají ke zvýšení přesnosti.
 dashboard = Nástěnka
+build-profile = Sestavení profilu
 avatar = Avatar
 goals = Cíle
 settings = Nastavení
@@ -231,16 +238,23 @@ edit-profile = Upravit profil
 profile-create-success = Profil byl úspěšně vytvořen!
 profile-close = Zavřít
 profile-explanation = Sledujte svůj pokrok díky profilu a pomozte zpřesnit naše hlasová data.
+thanks-for-account = Děkujeme za potvrzení vašeho účtu, nyní si sestavte svůj profil.
 why-demographic = Proč na tomhle záleží?
 login-identity = Identita pro přihlášení
-login-signup = Přihlásit / Zaregistrovat se
+login-signup = Přihlášení / Registrace
 edit = Upravit
+email-subscriptions = Odběr e-mailových zpráv
 download-profile = Stáhnout má data
+contribution-experience = Zkušenost s přispíváním
+skip-submission-feedback = Přeskočit zpětnou vazbu
 off = Vypnuto
 on = Zapnuto
+add-avatar-title = Přidejte avatar na svůj profil
 browse-file-title = Nahrát obrázek
 connect-gravatar = Propojit s Gravatarem
+gravatar_not_found = Pro váš e-mail nebyl nalezen žádný gravatar
 file_too_large = Zvolený soubor je příliš velký
+manage-subscriptions = Spravovat odběr
 email-already-used = E-mail je již používán pro jiný účet
 add-language = Přidat jazyk
 
@@ -404,6 +418,7 @@ days =
 stats = Statistiky
 you = Vy
 everyone = Všichni
+top-contributors = Nejaktivnější přispěvatelé
 
 ## Profile Delete
 

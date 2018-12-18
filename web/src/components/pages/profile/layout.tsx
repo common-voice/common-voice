@@ -90,14 +90,16 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
               icon: <TrashIcon />,
               id: 'profile-form-delete',
             },
-          ].map(({ route, icon, id }) => (
-            <NavLink key={route} to={route}>
-              {icon}
-              <Localized id={id}>
-                <span className="text" />
-              </Localized>
-            </NavLink>
-          ))}
+          ]
+            .slice(0, user.account ? Infinity : 1)
+            .map(({ route, icon, id }) => (
+              <NavLink key={route} to={route}>
+                {icon}
+                <Localized id={id}>
+                  <span className="text" />
+                </Localized>
+              </NavLink>
+            ))}
           {user.account && (
             <a onClick={() => downloadData(user.account)} href="#">
               <CloudIcon />

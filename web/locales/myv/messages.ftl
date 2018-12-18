@@ -17,6 +17,7 @@ ar = Арабокс
 as = Ассамокс
 ast = Астуриякс
 az = Азербайджанокс
+bg = Болгариякс
 bn = Бенгаликс
 br = Бретонокс
 bxr = Бурятокс
@@ -51,6 +52,7 @@ ko = Кореакс
 kpv = Коми-зирянокс
 kw = Корникс
 ky = Киргизэкс
+mdf = Мокшокс
 mk = Македониякс
 mn = Монголокс
 myv = Эрзякс
@@ -62,7 +64,6 @@ oc = Окситанокс
 or = Одиякс
 pl = Полшакс
 pt-BR = Бразилиянь португалокс
-rm = Романшокс
 ro = Руменэкс
 ru = Рузкс
 sah = Сахакс
@@ -103,8 +104,7 @@ share-title = Лездак миненек муемс ломанть, конат 
 share-text = Лездак тонавтомс машинатненень, кода ломанть алкукс кортыть, ловнок марямга текстт.
 link-copied = Ссылканть лангсто саезь копия
 back-top = Верьксэс мекев
-contribution-banner-button = Варштамс
-report-bugs-link = Лездак яволявтомс ильведевкстнэде
+logout = Лисемс
 
 ## Home Page
 
@@ -166,8 +166,6 @@ english = Англакс
 
 ## ProfileForm
 
-profile-form-cancel = Лисемс анкетастонть
-profile-form-delete = Нардамс профиленть
 profile-form-username =
     .label = Тевс нолдыцянь лем
 profile-form-language =
@@ -178,25 +176,25 @@ profile-form-age =
     .label = Иеть
 profile-form-gender =
     .label = Сыме
+hidden = Кекшезь
+visible = Неяви
 native-language =
     .label = Тиринь кель
 profile-form-submit-save = Ванстомс
 profile-form-submit-saved = Ванстозь
-profile-keep-data = Ванстомс дата
-profile-delete-data = Нардамс дата
 male = Цёра
 female = Ава
 # Gender
 other = Лия
 why-profile-title = Мезекс профилесь?
 edit-profile = Витнемс-петнемс профиленть
-profile-create = Шкамс профиль
 profile-create-success = Теветь лиссь, профилеть шкавсь!
 profile-close = Пекстамс
 why-demographic = Мезекс те эряви?
 edit = Витнемс-петнемс
 email-subscriptions = Кучомс ёндол сёрмасо сёрмадстомат
 download-profile = Таргамс алтымасто монь датан
+add-language = Поладомс кель
 
 ## FAQ
 
@@ -209,10 +207,6 @@ faq-native-q = Кадык { $lang }-нь келесь аволь васенце 
 faq-native-a = Эряви, тоньгак вайгелеть миненек эряви! «Common Voice» проектэнть вейке целазо пурнамс зяро-понги кортамо лувт -- кортавкст. Истя содымашинатне седе парсте кармить <bold>весень</bold> чарькодеме кортамстост.
 faq-firefox-q = «Common Voice» проектэнть вельде кортамосто-текстс функциясь зярдояк совавтови Толривезень (Firefox-онь) пельксэкс?
 faq-source-q = Косто саеви лисьмапря текстэсь?
-
-## Profile
-
-profile-why-title = Мезекс профилесь?
 
 ## NotFound
 
@@ -231,17 +225,6 @@ data-other-ted-name = «TED-LIUM» Корпус
 data-bundle-button = Таргамс датапурнавкс керьмаз
 license = Лицензиясь: <licenseLink>{ $license }</licenseLink>
 license-mixed = Човор
-
-## Record Page
-
-record-platform-not-supported-desktop = Столь лангсо содымашинатнес маштови таргамс меельце:
-record-platform-not-supported-ios = <bold>iOS</bold>-нь тевс нолдыцятненень маштови таргамс минек приложениянть питневтеме:
-record-must-allow-microphone = Эряви максомс микрофононтень нолдавомань видечить.
-record-retry = Варчамс одов
-record-no-mic-found = А муеви микрофон.
-record-error-too-short = Лентас те сёрмадовксонть кувалмозо а саты.
-record-error-too-long = Лентас те сёрмадовксось таргавсь куватьс.
-record-error-too-quiet = Лентас те сёрмадовксонть гайтезэ аламо.
 terms-agree = Ве мельс пран
 terms-disagree = Ве мельс а пран
 review-aborted = Материалонь тонгомась лоткавтозь. Ули мелеть нардамс эсеть лентас сёрмадовкстнэнь?
@@ -292,10 +275,12 @@ language-search-input =
     .placeholder = Вешнемс
 language-speakers = Кортыцятнеде
 sentences = Валрисьметь
+total-hours = Кочказь част
 
 ## New Contribution
 
 action-click = Лепштямс
+contribute = Максомс лезкс
 listen = Кунсоломс
 skip = Ютамс вакска
 shortcuts = Керязь кить
@@ -304,6 +289,13 @@ contribute-more =
        *[other] Анокат седе тов { $count } теемс?
     }
 record-cta = Ушодомс сёрмадоманть
+record-platform-not-supported-desktop = Столь лангсо содымашинатнес маштови таргамс меельце:
+record-platform-not-supported-ios = <bold>iOS</bold>-нь тевс нолдыцятненень маштови таргамс минек приложениянть питневтеме:
+record-must-allow-microphone = Эряви максомс микрофононтень нолдавомань видечить.
+record-no-mic-found = А муеви микрофон.
+record-error-too-short = Лентас те сёрмадовксонть кувалмозо а саты.
+record-error-too-long = Лентас те сёрмадовксось таргавсь куватьс.
+record-error-too-quiet = Лентас те сёрмадовксонть гайтезэ аламо.
 record-instruction = { $actionType }<recordIcon></recordIcon> мейле ловнык валрисьменть марямга
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> зярдо прядозь
 record-three-more-instruction = Лиядсть колмо!
@@ -327,3 +319,22 @@ listen-last-time-instruction = <playIcon></playIcon> Меельцесь!
 nothing-to-validate = Минек арась мезде кочкамс те кельсэнть, лездак марямга текстэнь ловномасо.
 record-button-label = Сёрмадомс вайгелеть
 share-title-new = <bold>Лездак миненек</bold> муемс лия вайгельть
+
+## Goals
+
+days =
+    { $count ->
+        [one] чи
+       *[other] чить
+    }
+
+## Dashboard
+
+stats = Статистика
+you = Тон
+
+## Profile Delete
+
+keep = Кирдемс
+remove = Ёртомс
+profile-form-delete = Нардамс профиленть

@@ -20,6 +20,7 @@ ar = Αραβικά
 as = Ασαμικά
 ast = Αστουριανικά
 az = Αζερικά
+bg = Βουλγαρικά
 bn = Μπενγκάλι
 br = Βρετονικά
 bxr = Μπουργιάτ
@@ -37,6 +38,8 @@ en = Αγγλικά
 eo = Εσπεράντο
 es = Ισπανικά
 et = Εσθονικά
+eu = Βασκικά
+fa = Περσικά
 fi = Φιλανδικά
 fo = Φεροϊκά
 fr = Γαλλικά
@@ -66,7 +69,6 @@ nn-NO = Νορβηγικά Nynorsk
 or = Odia
 pl = Πολωνικά
 pt-BR = Πορτογαλικά (Βραζιλίας)
-rm = Ρομανσικά
 ro = Ρουμανικά
 ru = Ρώσικα
 sah = Σαχά
@@ -83,6 +85,7 @@ tt = Ταταρικά
 uk = Ουκρανικά
 ur = Ούρντου
 uz = Ουζμπεκικά
+vi = Βιετναμέζικα
 zh-CN = Κινέζικα (Κίνα)
 zh-HK = Κινέζικα (Χονγκ Κονγκ)
 zh-TW = Κινέζικα (Ταϊβάν)
@@ -108,9 +111,7 @@ share-title = Βοηθήστε μας να βρούμε και άλλους πο
 share-text = Βοηθήστε τις μηχανές να κατανοήσουν πώς μιλάνε οι πραγματικοί άνθρωποι, δωρίζοντας τη φωνή σας στο { $link }
 link-copied = Ο σύνδεσμος αντιγράφηκε
 back-top = Επιστροφή στην κορυφή
-contribution-banner-text = Μόλις ξεκινήσαμε μια νέα εμπειρία συνεισφοράς
-contribution-banner-button = Ρίξτε μια ματιά
-report-bugs-link = Βοηθήστε στην αναφορά σφαλμάτων
+logout = Αποσύνδεση
 
 ## Home Page
 
@@ -138,9 +139,10 @@ listen-paragraph = Η επαλήθευση δωρισμένων αποσπασμ
 listen-goal-text = Επαληθευμένα κλιπς
 hours-recorded = Ώρες ηχογράφησης
 hours-validated = Ώρες επαλήθευσης
+todays-progress = Σημερινή πρόοδος
 read-terms-q = Έχετε διαβάσει τους όρους;
 ready-to-record = Έτοιμοι να δωρίσετε τη φωνή σας;
-all-languages = Όλες οι γλώσσες
+all-locales = Όλα
 today = Σήμερα
 x-weeks-short =
     { $count ->
@@ -201,8 +203,6 @@ english = Αγγλικά
 
 ## ProfileForm
 
-profile-form-cancel = Έξοδος από τη φόρμα
-profile-form-delete = Διαγραφή προφίλ
 profile-form-username =
     .label = Όνομα χρήστη
 profile-form-language =
@@ -215,28 +215,39 @@ profile-form-gender =
     .label = Φύλο
 leaderboard-visibility =
     .label = Ορατότητα πίνακα αρχηγών
+hidden = Κρυφά
+visible = Ορατά
 native-language =
     .label = Μητρική γλώσσα
 profile-form-submit-save = Αποθήκευση
 profile-form-submit-saved = Αποθήκευση
-profile-keep-data = Διατήρηση δεδομένων
-profile-delete-data = Διαγραφή δεδομένων
 male = Άνδρας
 female = Γυναίκα
 # Gender
 other = Άλλο
 why-profile-title = Γιατί να δημιουργήσετε προφίλ;
 why-profile-text = Παρέχοντας πληροφορίες για τον εαυτό σας, αυξάνετε τη χρησιμότητα των ηχητικών δεδομένων που υποβάλλετε στο Common Voice. Οι μηχανές αναγνώρισης ομιλίας χρησιμοποιούν αυτά τα δεδομένα για να αυξήσουν την ακρίβειά τους.
+dashboard = Πίνακας
+avatar = Εικόνα χρήστη
+goals = Στόχοι
+settings = Ρυθμίσεις
 edit-profile = Επεξεργασία προφίλ
-profile-create = Δημιουργία προφίλ
 profile-create-success = Το προφίλ δημιουργήθηκε επιτυχώς!
 profile-close = Κλείσιμο
-profile-clear-modal = Εάν διαγράψετε τα δεδομένα του προφίλ σας, αυτές οι δημογραφικές πληροφορίες δεν θα υποβάλλονται πλέον στο Common Voice μαζί με τις ηχογραφήσεις σας.
 profile-explanation = Παρακολουθήστε την πρόοδό σας με ένα προφίλ και βοηθήστε τα δεδομένα φωνής μας να γίνουν πιο ακριβή.
 thanks-for-account = Ευχαριστούμε που επιβεβαιώσατε το λογαριασμό σας, ας δημιουργήσουμε τώρα το προφίλ σας.
 why-demographic = Γιατί έχει σημασία αυτό;
 keep-me-posted =
     .label = Θα ήθελα ενημερώσεις και ειδοποιήσεις για το τι συμβαίνει στο Common Voice.
+login-identity = Ταυτότητα σύνδεσης
+login-signup = Σύνδεση/Εγγραφή
+edit = Επεξεργασία
+email-subscriptions = Συνδρομές email
+download-profile = Λήψη των δεδομένων μου
+off = Ανενεργό
+on = Ενεργό
+connect-gravatar = Σύνδεση με Gravatar
+add-language = Προσθήκη γλώσσας
 
 ## FAQ
 
@@ -260,11 +271,6 @@ faq-hours-a = Αυτός είναι περίπου ο αριθμός ωρών π
 faq-source-q = Από που προέρχονται τα κείμενα;
 faq-source-a1 = Οι προτάσεις προέρχονται από συνεισφορές χρηστών, καθώς και από διαλόγους από ταινίες που βρίσκονται στο δημόσιο τομέα, όπως το <italic>t’s a Wonderful Life.</italic>
 faq-source-a2 = Μπορείτε να δείτε τις πηγαίες προτάσεις στο <dataLink>GitHub </dataLink>.
-
-## Profile
-
-profile-why-title = Γιατί να δημιουργήσω προφίλ;
-profile-why-content = Παρέχοντας πληροφορίες για τον εαυτό σας, αυξάνετε τη χρησιμότητα των ηχητικών δεδομένων που υποβάλλετε στο Common Voice. Οι μηχανές αναγνώρισης ομιλίας χρησιμοποιούν αυτά τα δεδομένα για να αυξήσουν την ακρίβειά τους.
 
 ## NotFound
 
@@ -293,21 +299,6 @@ data-bundle-button = Λήψη ολόκληρου του συνόλου δεδο�
 data-bundle-description = Τα δεδομένα του Common Voice, καθώς και όλα τα άλλα σύνολα φωνητικών δεδομένων που περιγράφονται πιο πάνω.
 license = Άδεια χρήσης: <licenseLink>{ $license }</licenseLink>
 license-mixed = Μεικτό
-
-## Record Page
-
-record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
-record-platform-not-supported-desktop = Σε επιτραπέζιους υπολογιστές, μπορείτε να κατεβάσετε τα πιο πρόσφατα:
-record-platform-not-supported-ios = Οι χρήστες <bold>iOS</bold> μπορούν να κατεβάσουν τη δωρεάν εφαρμογή μας:
-record-must-allow-microphone = Χρειάζεται να επιτρέψετε πρόσβαση στο μικρόφωνο σας.
-record-retry = Επανάληψη
-record-no-mic-found = Δεν βρέθηκε μικρόφωνο.
-record-error-too-short = Η ηχογράφηση ήταν πολύ σύντομη.
-record-error-too-long = Η ηχογράφηση ήταν πολύ μεγάλη.
-record-error-too-quiet = Η ένταση της ηχογράφησης ήταν πολύ χαμηλή.
-record-submit-success = Επιτυχία υποβολής! Νέα ηχογράφηση;
-record-help = Πατήστε για ηχογράφηση, στη συνέχεια διαβάστε δυνατά την ακόλουθη πρόταση.
-record-cancel = Ακύρωση επανεγγραφής
 review-terms = Εάν χρησιμοποιείτε το Common Voice, συμφωνείτε με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink>
 terms-agree = Συμφωνώ
 terms-disagree = Δεν συμφωνώ
@@ -382,6 +373,15 @@ contribute-more =
        *[other] Έτοιμοι να κάνετε { $count } ακόμη;
     }
 record-cta = Έναρξη ηχογράφησης
+record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
+record-platform-not-supported-desktop = Σε επιτραπέζιους υπολογιστές, μπορείτε να κατεβάσετε τα πιο πρόσφατα:
+record-platform-not-supported-ios = Οι χρήστες <bold>iOS</bold> μπορούν να κατεβάσουν τη δωρεάν εφαρμογή μας:
+record-must-allow-microphone = Χρειάζεται να επιτρέψετε πρόσβαση στο μικρόφωνο σας.
+record-no-mic-found = Δεν βρέθηκε μικρόφωνο.
+record-error-too-short = Η ηχογράφηση ήταν πολύ σύντομη.
+record-error-too-long = Η ηχογράφηση ήταν πολύ μεγάλη.
+record-error-too-quiet = Η ένταση της ηχογράφησης ήταν πολύ χαμηλή.
+record-cancel = Ακύρωση επανεγγραφής
 record-instruction = { $actionType } στο <recordIcon></recordIcon>και διαβάστε δυνατά την πρόταση
 record-stop-instruction = { $actionType } στο <stopIcon></stopIcon> όταν τελειώσετε
 record-three-more-instruction = Τρία ακόμη!
@@ -405,3 +405,21 @@ listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
 nothing-to-validate = Δεν έχουμε τίποτα προς επαλήθευση σε αυτή τη γλώσσα, βοηθήστε μας να συμπληρώσουμε τη σειρά.
 record-button-label = Ηχογράφηση φωνής
 share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
+
+## Goals
+
+days =
+    { $count ->
+        [one] Ημέρα
+       *[other] Ημέρες
+    }
+
+## Dashboard
+
+stats = Στατιστικά
+you = Εσείς
+everyone = Όλοι
+
+## Profile Delete
+
+profile-form-delete = Διαγραφή προφίλ

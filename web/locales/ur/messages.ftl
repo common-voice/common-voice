@@ -64,7 +64,6 @@ nn-NO = نورویجیئن نینورسک
 or = اوڈیا
 pl = پولش
 pt-BR = پرتگالی (برازیل)
-rm = رومانش
 ro = پیش قدمی
 ru = روسی
 sah = سکھا
@@ -105,9 +104,7 @@ share-title = ہمیں دوسروں کو اپنی آواز عطیہ کی تلا�
 share-text = مشین کو سیکھنے میں مدد کریں حقیقی لوگ کس طرج بوللتے ہیں٫ { $link } پر اپنی آواز عطیہ کریں
 link-copied = نقل شدہ ربط
 back-top = واپس اوپر کی جانب
-contribution-banner-text = ہم نے شراکت داری کا ایک نیا تجربہ شروع کیا ہے
-contribution-banner-button = ایک نظر ڈالیں
-report-bugs-link = ایک گڑبڑ رپورٹ کرنے میں مدد کریں
+logout = لاگ آؤٹ
 
 ## Home Page
 
@@ -118,6 +115,9 @@ help-us-explain = دبائیں چلائیں سن اور ہمیں بتائیں ک
 no-clips-to-validate = لگتا ہے اس زبان میں سننے کے لیئے تراشے نہیں ہیں۔ کچھ تراشے ابھی ریکارڈنگ کر کے  قطار کو بھرنے میں ہماری مدد کریں۔
 vote-yes = ہاں
 vote-no = نہیں
+speak-subtitle = اپنی آواز کا عطیہ کریں
+all-locales = تمام
+today = آج
 
 ## Speak & Listen Shortcuts
 
@@ -162,8 +162,6 @@ english = انگريزى
 
 ## ProfileForm
 
-profile-form-cancel = فوم سے اخراج
-profile-form-delete = پروفائل حزف کریں
 profile-form-username =
     .label = صارف کا نام
 profile-form-language =
@@ -174,22 +172,29 @@ profile-form-age =
     .label = عمر
 profile-form-gender =
     .label = جنس
+hidden = پوشیدہ
+visible = ‏‏مرئی
+native-language =
+    .label = مقامی زبان
 profile-form-submit-save = محفوظ کریں
 profile-form-submit-saved = محفوظ شدہ
-profile-keep-data = کوائف رکھیں
-profile-delete-data = کوائف حزف کریں
 male = مردانہ
 female = زنانہ
 # Gender
 other = دیگر
 why-profile-title = ایک پروفائل کیوں؟
 why-profile-text = اپنے بارے میں کچھ معلومات فراہم کرنے سے۔، صوتی کوائف جو آُپ Common Voice میں جمع کرائیں گے وہ گویاِی کے لیئے مزید فائدہ مند ہوں گے توثیق کار انجن اس کوائف کو استعمال کرکے اپنی درستکی کریں گے۔
+dashboard = ڈیش بورڈ
+build-profile = پروفائل بنائیں
+goals = مقاصد
+settings = ترتیبات
 edit-profile = پروفائل کی تدوین کریں
-profile-create = ایک پروفائل بنائیں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
-profile-clear-modal = اپنی پروفائل کے کوائف صاف کرنے کا مطلب ہے یہ آپکی آبادیات کے متعلق معلومات آئندہ آپ کی Common Voice تراشہ ریکارڈنگ کے ساتھ جمع نہیں ہوں گی۔
 profile-explanation = ایک پروفائل کے ساتھ اپنی پیش رفت پر سراغ رکھیں اور ہماری صوتی کوائف کی مزید درستگی  میں مدد کریں
+edit = تدوین
+off = بند
+on = چالو
 
 ## FAQ
 
@@ -202,11 +207,6 @@ faq-native-q = میں ایک غیر مقامی { $lang } کا خطیب ہوں ا
 faq-quality-q = آڈیو کے استعمال کیئے جانے کے لیے  کس سطح کا  معیار ضروری ہے؟
 faq-hours-q = ۱۰،۰۰۰ گھنٹے کی صوت پر قبظہ کرنا ہمارا مقصد کیوں ہے؟
 faq-source-q = یہ ماخز متن کہاں سے آیا ہے؟
-
-## Profile
-
-profile-why-title = ایک پروفائل کیوں؟
-profile-why-content = اپنے متعملق مولومات فراہم کر کہ صوتی کوائف جو آپ Common Voice میں جمع کرائیں گے وہ کلام شناسی انجن کے لِئے مزید فائدہ مند ہوں گے حو اس کوائگف کا استعمال کرتے ہوئے اپنی مزید درستگی کریں گے۔
 
 ## NotFound
 
@@ -225,20 +225,6 @@ data-other-download = ڈائونلوڈ شدہ کوائف
 data-other-ted-name = TED-LIUM Corpus
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ملا جلا
-
-## Record Page
-
-record-platform-not-supported-desktop = ڈیسکٹاپ کمپیوٹر پر آُپ تازہ ترین ڈائونلوڈ کر سکتے ہیں:
-record-platform-not-supported-ios = <bold>iOS</bold>صارفین ہماری ایپلیکیشن مفت ڈائونلوڈ کر سکتے ہیں:
-record-must-allow-microphone = آپ کے مائیکرو فون تک رسائی کی اجازت ضروری ہے۔
-record-retry = پھر کوشش کریں
-record-no-mic-found = کوئی ماِکروفون نہیں ملا
-record-error-too-short = یہ ریکارڈنگ بہت چھوٹی تھی۔
-record-error-too-long = یہ ریکارڈنگ بہت طویل تھی۔
-record-error-too-quiet = یہ ریکارڈنگ بھی خاموش تھی۔
-record-submit-success = کامیابی سے جمع ہو گیا! دوبارہ ریکارڈ کرکرنا چاہیں گے؟
-record-help = براہ مہربانی رکارڈ کو تھپتپائیں پھر مندرجہ بالا جملہ پا آواز بلند پڑھیں۔
-record-cancel = دوبارہ رکارڈنگ منسوخ کریں
 review-terms = Common Voice کے استعمال کے ساتھ آُپ ہماری <termsLink>شرائط</termsLink> اور <privacyLink>رازداری نوٹس</privacyLink> سے متفق ہیں
 terms-agree = میں متفق ہوں
 terms-disagree = میں متفق نہیں ہوں
@@ -279,7 +265,6 @@ request-language-success-title = زبان کی درخواست کامیابی س�
 ## Languages Overview
 
 language-section-in-progress = پیش رفت جاری ہے
-language-section-launched-description = ان جاری شدہ زبانوں کی ویب سائٹس کا میابی سے ترجمہ کر دیا گیا ہے اور کافی جملے جمع کیئے جا چکے ہیں، جو کہ جاری شدہ <italic>{ speak }</italic> اور <italic>{ listen }</italic> حصہ داری کی اجازت دیتے ہیں
 languages-show-more = مزید دیکھیں
 languages-show-less = کم دیکھیں
 language-speakers = خطیب
@@ -299,20 +284,27 @@ action-tap = تھپتپانا
 contribute = حصہ دارانہ
 listen = سنیں
 skip = اچٹیں
-shortcuts = تیز راہ 
-clips = تراشے
+shortcuts = تیز راہ
 contribute-more =
     { $count ->
         [one] مزید { $count } کرنے کے لیئے تیار ہیں؟
        *[other] مزید { $count } کرنے کے لیئے تیار ہیں؟
     }
 record-cta = رکارڈنگ شروع کریں
+record-platform-not-supported-desktop = ڈیسکٹاپ کمپیوٹر پر آُپ تازہ ترین ڈائونلوڈ کر سکتے ہیں:
+record-platform-not-supported-ios = <bold>iOS</bold>صارفین ہماری ایپلیکیشن مفت ڈائونلوڈ کر سکتے ہیں:
+record-must-allow-microphone = آپ کے مائیکرو فون تک رسائی کی اجازت ضروری ہے۔
+record-no-mic-found = کوئی ماِکروفون نہیں ملا
+record-error-too-short = یہ ریکارڈنگ بہت چھوٹی تھی۔
+record-error-too-long = یہ ریکارڈنگ بہت طویل تھی۔
+record-error-too-quiet = یہ ریکارڈنگ بھی خاموش تھی۔
+record-cancel = دوبارہ رکارڈنگ منسوخ کریں
 record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآواز بلند جملہ پڑھیں
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
 record-three-more-instruction = تین رہ گئے!
 record-again-instruction = بہت اچھے! <recordIcon></recordIcon> اپنا اگلا تراشہ ریکارڈ کرائیں
 record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
-record-last-instruction = <recordIcon></recordIcon>آخری! 
+record-last-instruction = <recordIcon></recordIcon>آخری!
 review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
 unable-speak = ابھی بول نہیں سکتے؟
 review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
@@ -330,3 +322,22 @@ listen-last-time-instruction = <playIcon></playIcon>آخری ایک!
 nothing-to-validate = اس زبان میں توژیق کاری کے لیئے کچھ موجود نہیں۔ قظار بھرنے میں ہماری مدد کریں۔
 record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
+
+## Goals
+
+days =
+    { $count ->
+        [one] دن
+       *[other] دن
+    }
+
+## Dashboard
+
+you = آپ
+everyone = تمام
+
+## Profile Delete
+
+keep = رکھیں
+remove = ہٹائیں
+profile-form-delete = پروفائل حزف کریں

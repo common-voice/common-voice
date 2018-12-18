@@ -18,6 +18,7 @@ indicates-required = Mae * yn dynodi maes angenrheidiol
 ## Languages
 
 ace = Acehnese
+af = Afrikaans
 an = Aragoneg
 ar = Arabeg
 as = Asameg
@@ -152,7 +153,7 @@ todays-progress = Cynnydd Heddiw
 help-reach-goal = Helpwch ni i gyrraedd { $goal }
 read-terms-q = Ydych chi wedi darllen ein Amodau?
 ready-to-record = Barod i gyfrannu eich llais?
-all-languages = Pob Iaith
+all-locales = Y Cyfan
 today = Heddiw
 x-weeks-short =
     { $count ->
@@ -288,6 +289,7 @@ file_too_large = Mae'r ffeil yma'n rhy fawr
 manage-subscriptions = Rheoli Tanysgrifiadau
 email-already-used = Mae'r e-bost yn cael ei ddefnyddio yn barod ar gyfer cyfrif gwahanol
 add-language = Ychwanegu Iaith
+change-email-setings = Newidiwch eich e-bost drwy'r Gosodiadau o dan hunaniaeth Mewngofnodi
 
 ## FAQ
 
@@ -475,7 +477,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Eich Ieithoedd
 toward-next-goal = Ymlaen i'r nod nesaf
+clips-you-recorded = Clipiau Rydych Wedi'u Recordio
+clips-you-validated = Clipiau Rydych Wedi eu Dilysu
+todays-recorded-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u recordio
+todays-validated-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u dilysu
 stats = Ystadegau
 you = Chi
 everyone = Pawb

@@ -142,9 +142,10 @@ const UserClient = {
     let [accountClientId, [clients]] = await Promise.all([
       UserClient.findClientId(email),
       email
-        ? db.query('SELECT client_id FROM user_clients WHERE email = ?', [
-            email,
-          ])
+        ? db.query(
+            'SELECT client_id FROM user_clients WHERE email = ? AND !has_login',
+            [email]
+          )
         : [],
     ]);
 
@@ -177,14 +178,7 @@ const UserClient = {
     );
 
     await Promise.all([
-      db.query('UPDATE IGNORE clips SET client_id = ? WHERE client_id IN (?)', [
-        accountClientId,
-        clientIds,
-      ]),
-      db.query('UPDATE IGNORE votes SET client_id = ? WHERE client_id IN (?)', [
-        accountClientId,
-        clientIds,
-      ]),
+      this.claimContributions(accountClientId, clientIds),
       locales && updateLocales(accountClientId, locales),
     ]);
 
@@ -262,6 +256,19 @@ const UserClient = {
         [client_id]
       ))[0][0]
     );
+  },
+
+  async claimContributions(to: string, from: string[]) {
+    await Promise.all([
+      db.query('UPDATE IGNORE clips SET client_id = ? WHERE client_id IN (?)', [
+        to,
+        from,
+      ]),
+      db.query('UPDATE IGNORE votes SET client_id = ? WHERE client_id IN (?)', [
+        to,
+        from,
+      ]),
+    ]);
   },
 };
 

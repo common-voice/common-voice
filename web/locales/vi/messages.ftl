@@ -18,6 +18,7 @@ indicates-required = * Trường được yêu cầu
 ## Languages
 
 ace = Tiếng Aceh
+af = Tiếng Nam Phi
 an = Tiếng Aragon
 ar = Tiếng Ả Rập
 as = Tiếng Assam
@@ -150,7 +151,7 @@ todays-progress = Tiến độ của ngày hôm nay
 help-reach-goal = Giúp chúng tôi đạt được { $goal }
 read-terms-q = Bạn đã đọc Điều khoản của chúng tôi chưa?
 ready-to-record = Sẵn sàng đóng góp giọng nói của bạn?
-all-languages = Tất cả ngôn ngữ
+all-locales = Tất cả
 today = Hôm nay
 x-weeks-short =
     { $count ->
@@ -266,6 +267,7 @@ file_too_large = Tệp đã chọn quá lớn
 manage-subscriptions = Quản lý các mục đăng kí
 email-already-used = Email đã được sử dụng cho tài khoản khác
 add-language = Thêm ngôn ngữ
+change-email-setings = Thay đổi email của bạn thông qua Cài đặt và ở bên dưới Nhận dạng đăng nhập
 
 ## FAQ
 
@@ -441,7 +443,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Ngôn ngữ của bạn
 toward-next-goal = Hướng tới mục tiêu tiếp theo
+clips-you-recorded = Clip bạn đã ghi
+clips-you-validated = Clip bạn đã xác thực
+todays-recorded-progress = Tiến trình giọng nói chung hôm nay trên các clip được ghi lại
+todays-validated-progress = Tiến trình giọng nói chung hôm nay trên các clip được xác thực
 stats = Thống kê
 you = Bạn
 everyone = Mọi người

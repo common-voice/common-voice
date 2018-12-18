@@ -30,7 +30,7 @@ describe('lazyCache', () => {
       .mockReturnValueOnce(42);
     const cachedF = lazyCache(randomString(), f, 1000);
     expect(await cachedF()).toBe(23);
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 1500));
     expect(await cachedF()).toBe(23);
     expect(await cachedF()).toBe(42);
   });

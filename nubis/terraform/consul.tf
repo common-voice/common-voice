@@ -46,3 +46,20 @@ resource "consul_keys" "config" {
     delete = true
   }
 }
+
+# Publish our outputs into Consul for our application to consume
+resource "consul_keys" "read_only_public_users" {
+  count = "${var.read_only_public_users}"
+
+  key {
+    path   = "${module.consul.config_prefix}/Bucket/Clips/Users/Read-Only-Public/${format("%.3d", count.index)}/AccessKeyID"
+    value  = "${element(aws_iam_access_key.clips_readonly.*.id, count.index)}"
+    delete = true
+  }
+
+  key {
+    path   = "${module.consul.config_prefix}/Bucket/Clips/Users/Read-Only-Public/${format("%.3d", count.index)}/SecretKey"
+    value  = "${element(aws_iam_access_key.clips_readonly.*.secret, count.index)}"
+    delete = true
+  }
+}

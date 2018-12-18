@@ -8,6 +8,8 @@ email-input =
     .label = Tölvupóstur
 submit-form-action = Senda inn
 loading = Hleður...
+email-opt-in-privacy = Með því að kjósa að fá tölvupóst frá okkur samþykkir þú að Mozilla notist við þær upplýsingar eins og lýst er í <privacyLink>Meðferð persónuupplýsinga<privacyLink>.
+indicates-required = * táknar nauðsynlegan reit
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -117,9 +119,6 @@ share-title = Hjálpið til við að finna aðra til að deila raddprufum!
 share-text = Hjálpið að kenna vélum hvernig alvöru fólk talar, gefðu raddprufu á { $link }
 link-copied = Hlekkur afritaður
 back-top = Til baka
-contribution-banner-text = Við höfum nýlega sett nýja upplifun af stað
-contribution-banner-button = Skoða
-report-bugs-link = Tilkynna tæknivillur
 logout = Útskrá
 
 ## Home Page
@@ -131,13 +130,8 @@ wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgeng
 wall-of-text-more-desktop =
     Nú geturðu deilt raddprufum til þess að hjálpa okkur að byggja upp úr frjálsum hugbúnaði raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
     Lesið setningu til að hjálpa vélum að læra hvernig fólk talar í alvörunni. Skoðið verk annarra til þess að taka út gæðin. Svo einfalt er það!
-wall-of-text-first =
-    Raddir eru náttúrulegar og mannlegar. Því gleður það okkur að þróa nothæfa raddtækni fyrir vélarnar okkar.
-    En til að þróa raddkerfi þurfa þróendur að hafa fyrir hendi gríðarlegt magn raddgagna.
-wall-of-text-second =
-    Megnið af gögnunum sem stórfyrirtæki nota er ekki fáanlegt miklum meirihluta fólks. Að okkar mati hindrar það framþróun.
-    Fyrir vikið höfum við stofnað til Samróms, en verkefnið á að gera raddgreiningartækni 
-    opna og aðgengilega öllum.
+wall-of-text-first = Röddin er mannlegt, náttúrulegt fyrirbæri. Við erum því mjög spennt yfir tilhugsuninni að endurskapa hana fyrir tækin okkar. En til að þróa raddkerfi þurfa þróendur að hafa fyrir hendi gríðarlegt magn raddgagna.
+wall-of-text-second = Megnið af þeim raddgögnum sem stórfyrirtæki nota er ekki aðgengilegt, sem hindrar framþróun að okkar mati. Þess vegna efndum við til þessa verkefnis, Samróms, með því markmiði að stuðla að opinni raddgreiningartækni, sem allir geta notað.
 show-wall-of-text = Lesa meira
 help-us-title = Hjálpaðu okkur að meta setningar!
 help-us-explain = Veldu afspilun, hlustaðu og svaraðu: var setningin að neðan nákvæmlega sögð?
@@ -219,8 +213,6 @@ english = Enska
 
 ## ProfileForm
 
-profile-form-cancel = Útgönguskjal
-profile-form-delete = Eyða prófíl
 profile-form-username =
     .label = Notendanafn
 profile-form-language =
@@ -239,23 +231,20 @@ native-language =
     .label = Móðurmál
 profile-form-submit-save = Vista
 profile-form-submit-saved = Vistað
-profile-keep-data = Halda gögnum
-profile-delete-data = Eyða gögnum
 male = Karlkyns
 female = Kvenkyns
 # Gender
 other = Annað
 why-profile-title = Hvers vegna prófíl?
 why-profile-text = Með því að útvega einhverjar upplýsingar um sjálfan þig, þá verða hljóðgögnin sem þú sendir inn í Samróm gagnlegri í talgreiningarvélar sem nota þessi gögn til þess að bæta á nákvæmni.
+dashboard = Skjáborð
 build-profile = Búa til prófíl
-profile = Prófíll
 avatar = Prófílmynd
-preferences = Stillingar
+goals = Markmið
+settings = Stillingar
 edit-profile = Breyta prófíl
-profile-create = Búa til prófíl
 profile-create-success = Gerð prófíls tókst!
 profile-close = Loka
-profile-clear-modal = Að hreinsa prófílgögnin merkir að samfélagsfræðilegum upplýsingum úr þeim verður ekki framar beitt í þágu Samróms með hljóðdæmunum þínum.
 profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpaðu okkur að auka á heilindi raddgagnanna.
 thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
 why-demographic = Hvers vegna skiptir þetta máli?
@@ -264,6 +253,7 @@ keep-me-posted =
     .label = Ég þigg fréttir og stöðuuppfærslur af framgangi Samróms.
 accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar, líkt og útskýrt er í <privacyLink>friðhelgisstefnu</privacyLink> Mozilla.
 login-identity = Innskráningarauðkenni
+login-signup = Innskrá sig / Skrá sig
 edit = Breyta
 email-subscriptions = Tölvupóstáskrift
 download-profile = Sækja gögnin mín
@@ -273,11 +263,15 @@ skip-submission-description = Endurgjöf er meðan raddgögn eru lögð fram, en
 skip-submission-note = Athugið: Maður verður samt að velja á milli tals eða hlustunar til að breyta tegund inntaks.
 off = Af
 on = Ǻ
+add-avatar-title = Hlaða inn prófílmynd
+browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
 gravatar_not_found = Enginn gravatar fannst fyrir netfangið þitt
 file_too_large = Myndin sem var valin er of stór
 manage-subscriptions = Stjórna áskriftum
+email-already-used = Netfang er þegar í notkun á öðrum reikningi
+add-language = Bæta við tungumáli
 
 ## FAQ
 
@@ -301,11 +295,6 @@ faq-hours-a = Þetta er áætlaður fjöldi klst. til þess að þjálfa STT-fra
 faq-source-q = Hver er uppruni textans?
 faq-source-a1 = Setningar í notkun eru framlög frá notendum, auk þess sem notuð eru gögn úr almenningssöfnum á borð við samtöl úr kvikmyndum eins og <italic>Lífið er yndislegt.</italic>
 faq-source-a2 = Þú getur skoðað upprunalegu setningarnar í <dataLink>þessari GitHub möppu</dataLink>.
-
-## Profile
-
-profile-why-title = Til hvers er aðgangur?
-profile-why-content = Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar sem nýta sér þessi gögn til að bæta nákvæmni sína.
 
 ## NotFound
 
@@ -440,3 +429,44 @@ listen-last-time-instruction = <playIcon></playIcon> Síðasta!
 nothing-to-validate = Ekkert er fyrir hendi um þetta tungumál, hjálpaðu okkur að fylla í röðina.
 record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
+
+## Goals
+
+streaks = Sigurganga
+days =
+    { $count ->
+        [one] Dagur
+       *[other] Dagar
+    }
+recordings =
+    { $count ->
+        [one] Upptaka
+       *[other] Upptökur
+    }
+validations =
+    { $count ->
+        [one] Staðfesting
+       *[other] Staðfestingar
+    }
+
+## Dashboard
+
+toward-next-goal = Að næsta markmiði
+stats = Tölfræði
+you = Þú
+everyone = Allir
+contribution-activity = Virkni þátttakenda
+top-contributors = Virkustu þátttakendur
+recorded-clips = Skráðar upptökur
+validated-clips = Staðfestar upptökur
+total-approved = Samtals samþykkt
+overall-accuracy = Almenn nákvæmni
+
+## Profile Delete
+
+delete-q = Vilt þú fara fram á að þínum raddgögnum verði líka eytt, eða viltu frekar halda þeim í gagnasafni Samróms?
+keep = Halda
+remove = Fjarlægja
+keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar prófíl hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn honum tengd verði fjarlægð úr gagnasafninu.
+remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa halað niður gagnasafninu og þeir líka beðnir um að eyða út raddgögnunum þínum.
+profile-form-delete = Eyða prófíl

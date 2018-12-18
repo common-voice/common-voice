@@ -8,6 +8,7 @@ email-input =
     .label = E-mailová adresa
 submit-form-action = Odoslať
 loading = Načítava sa…
+indicates-required = * označuje povinné pole
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,6 +16,7 @@ loading = Načítava sa…
 
 ## Languages
 
+af = afrikánčina
 an = aragónčina
 ar = arabčina
 as = asámčina

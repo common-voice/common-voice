@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Kirim
 loading = Memuat…
 email-opt-in-privacy = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
-indicates-required = * Bertanda wajib diisi
+indicates-required = * Wajib diisi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -18,6 +18,7 @@ indicates-required = * Bertanda wajib diisi
 ## Languages
 
 ace = Bahasa Aceh
+af = Bahasa Afrikaans
 an = Bahasa Aragon
 ar = Bahasa Arab
 as = Bahasa Assam
@@ -42,7 +43,7 @@ eo = Bahasa Esperanto
 es = Bahasa Spanyol
 et = Bahasa Estonia
 eu = Bahasa Basque
-fa = Bahasa Farsi
+fa = Bahasa Persia
 fi = Bahasa Finlandia
 fo = Bahasa Faroe
 fr = Bahasa Perancis
@@ -65,10 +66,10 @@ kw = Bahasa Kornish
 ky = Bahasa Kirgiz
 mdf = Bahasa Moksha
 mk = Bahasa Makedonia
-mn = Mongolia
+mn = Bahasa Mongol
 myv = Bahasa Erzya
 nb-NO = Bahasa Bokmal (Norwegia)
-ne-NP = Bahasa Nepali
+ne-NP = Bahasa Nepal
 nl = Bahasa Belanda
 nn-NO = Bahasa Nynorsk (Norwegia)
 oc = Bahasa Oksitan
@@ -93,7 +94,7 @@ tt = Bahasa Tatar
 uk = Bahasa Ukraina
 ur = Bahasa Urdu
 uz = Bahasa Uzbek
-vi = Vietnam
+vi = Bahasa Vietnam
 zh-CN = Bahasa Tionghoa (Tiongkok)
 zh-HK = Bahasa Tiongkok (Hong Kong)
 zh-TW = Bahasa Tionghoa (Taiwan)
@@ -152,7 +153,7 @@ todays-progress = Perkembangan Hari Ini
 help-reach-goal = Bantu kami mencapai { $goal }
 read-terms-q = Sudahkah Anda membaca Ketentuan kami?
 ready-to-record = Siap menyumbangkan suara Anda?
-all-languages = Semua Bahasa
+all-locales = Semua
 today = Hari Ini
 x-weeks-short =
     { $count ->
@@ -268,6 +269,7 @@ file_too_large = Berkas yang dipilih terlalu besar
 manage-subscriptions = Kelola Langganan
 email-already-used = Surel telah digunakan untuk akun yang berbeda
 add-language = Tambah Bahasa
+change-email-setings = Ubah email Anda melalui Pengaturan di bawah Identitas Login
 
 ## FAQ
 
@@ -440,7 +442,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Bahasa Anda
 toward-next-goal = Menuju capaian selanjutnya
+clips-you-recorded = Klip yang sudah Anda rekam
+clips-you-validated = Klip yang telah Anda validasi
+todays-recorded-progress = Perkembangan Common Voice berdasarkan potongan rekaman
+todays-validated-progress = Perkembangan Common Voice berdasarkan potongan rekaman tervalidasi
 stats = Statistik
 you = Anda
 everyone = Semua orang

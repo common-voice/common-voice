@@ -8,6 +8,8 @@ email-input =
     .label = E-mail
 submit-form-action = Enviar
 loading = Carregando…
+email-opt-in-privacy = Ao optar por receber e-mails, você declara que concorda com a Mozilla utilizar essas informações, conforme explicado na <privacyLink>Política de Privacidade<privacyLink> da Mozilla.
+indicates-required = * Indica campo obrigatório
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,6 +18,7 @@ loading = Carregando…
 ## Languages
 
 ace = Achinês
+af = Africâner
 an = Aragonês
 ar = Árabe
 as = Assamês
@@ -73,6 +76,7 @@ oc = Occitânico
 or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
+rm-sursilv = Romanche (Sursilvan)
 ro = Romeno
 ru = Russo
 sah = Sakha
@@ -125,6 +129,8 @@ home-cta = Doe sua voz, contribua aqui!
 wall-of-text-start = A voz é natural, a voz é humana. É por isso que estamos fascinados com a criação de uma tecnologia de voz utilizável para nossas máquinas. Mas para criar sistemas de voz, é necessária uma quantidade extremamente grande de dados de voz.
 wall-of-text-more-mobile = A maior parte dos dados utilizados por grandes empresas não estão disponíveis para a maioria das pessoas. Nós achamos que isso sufoca a inovação. Então lançamos o Projeto Common Voice, para ajudar a tornar o reconhecimento de voz aberto para todos.
 wall-of-text-more-desktop = Agora você pode doar sua voz para nos ajudar a construir um banco de voz aberto que qualquer pessoa pode utilizar para criar aplicativos inovadores para dispositivos e a web.<lineBreak></lineBreak> Leia uma frase para ajudar as máquinas aprenderem como pessoas reais falam. Avalie o trabalho de outros contribuidores para melhorar a qualidade. É assim simples!
+wall-of-text-first = Voz é natural, voz é humana. É por isso que estamos empolgados com a criação de tecnologia de voz utilizável para nossas máquinas. Mas para criar sistemas de voz, os desenvolvedores precisam de uma quantidade extremamente grande de dados de voz.
+wall-of-text-second = A maior parte dos dados usados por grandes empresas não está disponível para a maioria das pessoas. Nós achamos que isso sufoca a inovação. Então, lançamos o Common Voice, um projeto para ajudar a tornar o reconhecimento de voz aberto e acessível a todos.
 show-wall-of-text = Saiba mais
 help-us-title = Ajude-nos a validar as frases!
 help-us-explain = Aperte o play, ouça e diga-nos: Eles pronunciaram a frase abaixo corretamente?
@@ -133,14 +139,19 @@ vote-yes = Sim
 vote-no = Não
 toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o modo de reprodução
 speak-subtitle = Doe sua voz
+speak-paragraph = A gravação de clipes de voz é parte integrante da construção do nosso conjunto de dados aberto; alguns diriam que é a parte divertida também.
 speak-goal-text = Clipes gravados
 listen-subtitle = Nos ajude a validar vozes
+listen-paragraph = Validar clipes doados é igualmente importante para a missão do Common Voice. Ouça e nos ajude a criar dados de voz de código aberto de qualidade.
 listen-goal-text = Clipes validados
 hours-recorded = Horas gravadas
 hours-validated = Horas validadas
+voices-online = Vozes on-line agora
+todays-progress = Progresso de hoje
+help-reach-goal = Ajude-nos a atingir { $goal }
 read-terms-q = Você leu nossos Termos?
 ready-to-record = Pronto para doar sua voz?
-all-languages = Todos os idiomas
+all-locales = Tudo
 today = Hoje
 x-weeks-short =
     { $count ->
@@ -157,6 +168,12 @@ x-years-short =
         [one] { $count } ano
        *[other] { $count } anos
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -226,6 +243,7 @@ other = Outro
 why-profile-title = Por que um perfil?
 why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviou ao Common Voice serão mais úteis aos mecanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
 dashboard = Painel
+build-profile = Criar perfil
 avatar = Avatar
 goals = Objetivos
 settings = Configurações
@@ -235,6 +253,10 @@ profile-close = Fechar
 profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gravações sejam cada vez mais precisas.
 thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir seu perfil.
 why-demographic = Por que isto é importante?
+why-demographic-explanation = Dados anônimos de usuários, como idade, sexo e sotaque, ajudam a aprimorar os dados de áudio usados para treinar a precisão dos mecanismos de reconhecimento de voz. Seu nome de usuário e e-mail nunca serão associados com os dados enviados, e você pode escolher se seu nome de usuário ficará público ou anônimo.
+keep-me-posted =
+    .label = Eu quero receber novidades e estar a par do que está acontecendo no Common Voice.
+accept-privacy = Concordo que estas informações sejam utilizadas conforme explicado na <privacyLink>Política de Privacidade</privacyLink> da Mozilla.
 login-identity = Identidade de acesso
 login-signup = Entrar / Inscrever-se
 edit = Editar
@@ -242,13 +264,20 @@ email-subscriptions = Inscrições de e-mails
 download-profile = Baixar meus dados
 contribution-experience = Experiência de colaboração
 skip-submission-feedback = Ignorar comentários de envio
+skip-submission-description = Durante o envio de contribuição, o retorno será  silenciado após clicar em 'Enviar'. A contribuição continuará diretamente com o próximo conjunto de 5 gravações ou validações.
+skip-submission-note = Nota: você ainda precisará escolher entre Falar ou Ouvir para alterar o tipo de contribuição.
 off = Desligar
 on = Ligar
+add-avatar-title = Adicione um avatar ao seu perfil
+browse-file-title = Enviar um arquivo de imagem
+browse-file = Arraste e solte, ou <browseWrap>Navegue</browseWrap>
 connect-gravatar = Conectar com Gravatar
 gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
 manage-subscriptions = Gerenciar inscrições
 email-already-used = Este e-mail já está sendo usado em uma conta diferente
+add-language = Adicionar idioma
+change-email-setings = Altere seu e-mail usando as configurações em Identidade de acesso
 
 ## FAQ
 
@@ -257,7 +286,7 @@ faq-what-q = O que é o Common Voice?
 faq-what-a = A tecnologia de reconhecimento de voz pode revolucionar a forma como interagimos com as máquinas, mas os sistemas atualmente disponíveis são caros e proprietários. O Common Voice é um projeto para tornar a tecnologia de reconhecimento de voz facilmente acessível a todos. As pessoas doam suas vozes para um banco de dados maciço que permitirá que qualquer pessoa treine rapidamente e facilmente os aplicativos habilitados por voz. Todos os dados de voz estarão disponíveis para os desenvolvedores.
 faq-important-q = Por que é importante?
 faq-important-a = A voz é natural, a voz é humana. É a forma mais fácil e mais natural de se comunicar. Queremos que os desenvolvedores possam construir coisas incríveis de tradutores em tempo real até assistentes administrativos habilitados por voz. Mas ainda não há dados disponíveis publicamente para criar esses tipos de aplicativos. Esperamos que o Common Voice dê aos desenvolvedores o que precisam para inovar.
-faq-get-q = Quem pode obter os dados do Common Voice?
+faq-get-q = Como posso obter os dados do Common Voice?
 faq-get-a = O conjunto de dados está disponível agora na nossa <downloadLink>página de download</downloadLink> sob a licença <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Por que o Common Voice é parte da missão da Mozilla?
 faq-mission-a = A Mozilla dedica-se a manter a Web aberta e acessível para todos. Para fazer isso, precisamos capacitar os criadores da Web através de projetos como o Common Voice. À medida que as tecnologias de voz proliferam além de aplicações de nicho, acreditamos que eles devem atender todos os usuários igualmente bem. Vemos a necessidade de incluir mais idiomas, sotaques e dados demográficos ao criar e testar tecnologias de voz. A Mozilla quer ver uma Internet saudável e vibrante. Isso significa dar aos desenvolvedores acesso à dados de voz para que eles possam construir projetos novos e extraordinários. O Common Voice será um recurso público que ajudará às equipes da Mozilla e desenvolvedores ao redor do mundo.
@@ -344,6 +373,7 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 language-section-in-progress = Em andamento
 language-section-in-progress-description = O idioma "em curso" estão em desenvolvimento através de contribuições das nossas comunidades; o seu progresso reflete onde estão em relação a localização do site e coleta de frases.
 language-section-launched = Iniciada
+language-section-launched-new-description = O site foi localizado com sucesso para estes idiomas lançados, e tem frases coletadas suficientes para permitir dar sequência a contribuições de <italic>Falar</italic> e <italic>Ouvir</italic>.
 languages-show-more = Veja mais
 languages-show-less = Ver menos
 language-speakers = Falantes
@@ -423,7 +453,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Seus idiomas
 toward-next-goal = Rumo ao próximo objetivo
+clips-you-recorded = Clipes que você gravou
+clips-you-validated = Clipes que você validou
+todays-recorded-progress = Progresso de hoje do Common Voice em clipes gravados
+todays-validated-progress = Progresso de hoje do Common Voice em clipes validados
 stats = Estatísticas
 you = Você
 everyone = Todos
@@ -436,6 +471,9 @@ overall-accuracy = Precisão geral
 
 ## Profile Delete
 
+delete-q = Deseja solicitar que suas gravações de voz sejam excluídas também, ou prefere mantê-las no conjunto de dados do Common Voice?
 keep = Manter
 remove = Remover
+keep-info = Suas gravações de voz anônimas permanecerão no conjunto de dados do Common Voice. Depois de excluir seu perfil, você não poderá mais enviar uma solicitação para remover suas gravações do conjunto de dados
+remove-info = Analisaremos sua solicitação de remover suas gravações de voz do conjunto de dados. Se sua solicitação for aprovada, entraremos em contato com aqueles que baixaram o conjunto de dados e solicitaremos que também removam suas gravações de voz.
 profile-form-delete = Excluir perfil

@@ -8,6 +8,8 @@ email-input =
     .label = Adreça electrònica
 submit-form-action = Envia
 loading = S'està carregant…
+email-opt-in-privacy = En optar per rebre correus electrònics, accepteu que Mozilla gestioni aquesta informació en els termes descrits en la seva <privacyLink>política de privadesa</privacyLink>.
+indicates-required = * Indica un camp necessari
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,19 +17,19 @@ loading = S'està carregant…
 
 ## Languages
 
-ace = Atjeh
+ace = atjeh
 an = aragonès
 ar = àrab
 as = assamès
 ast = asturià
 az = àzeri
-bg = Búlgar
+bg = búlgar
 bn = bengalí
 br = bretó
 bxr = buriat
 ca = català
 cak = kaqtxikel
-cnh = Hakha Chin
+cnh = hakha chin
 cs = txec
 cv = txuvaix
 cy = gal·lès
@@ -39,7 +41,7 @@ en = anglès
 eo = esperanto
 es = espanyol
 et = estonià
-eu = Basc
+eu = basc
 fa = persa
 fi = finès
 fo = feroès
@@ -61,14 +63,14 @@ ko = coreà
 kpv = komi
 kw = còrnic
 ky = kirguís
-mdf = Mokxa
+mdf = mokxa
 mk = macedònic
 mn = mongol
 myv = mordovià erza
 nb-NO = Bokmål noruec
 ne-NP = nepalès
 nl = neerlandès
-nn-NO = Nynorsk noruec
+nn-NO = noruec nynorsk
 oc = occità
 or = oriya
 pl = polonès
@@ -77,7 +79,7 @@ rm-sursilv = romanx (sobreselvà)
 ro = romanès
 ru = rus
 sah = iacut
-sc = Sard
+sc = sard
 sk = eslovac
 sl = eslovè
 sq = albanès
@@ -209,8 +211,6 @@ english = anglès
 
 ## ProfileForm
 
-profile-form-cancel = Surt del formulari
-profile-form-delete = Suprimeix el perfil
 profile-form-username =
     .label = Nom d'usuari
 profile-form-language =
@@ -223,24 +223,26 @@ profile-form-gender =
     .label = Sexe
 leaderboard-visibility =
     .label = Visibilitat a la classificació
+hidden = Amagat
+visible = Visible
 native-language =
     .label = Llengua materna
 profile-form-submit-save = Desa
 profile-form-submit-saved = S'ha desat
-profile-keep-data = Conserva les dades
-profile-delete-data = Suprimeix les dades
 male = Home
 female = Dona
 # Gender
 other = Altre
 why-profile-title = Per què un perfil?
 why-profile-text = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de la veu que utilitzen aquestes dades per millorar la seva precisió.
-profile = Perfil
+dashboard = Tauler
+build-profile = Crea un perfil
+avatar = Avatar
+goals = Objectius
+settings = Paràmetres
 edit-profile = Edita el perfil
-profile-create = Crea un perfil
 profile-create-success = Fet. S'ha creat el perfil!
 profile-close = Tanca
-profile-clear-modal = Si esborreu les vostres dades del perfil, es deixarà d'enviar aquesta informació demogràfica al Common Voice amb els vostres enregistraments.
 profile-explanation = Un perfil permet fer el seguiment del vostre progrés i ajuda a fer que les dades de veu siguin més precises.
 thanks-for-account = Gràcies per confirmar el compte. Ara crearem el vostre perfil.
 why-demographic = Per què és important?
@@ -249,6 +251,7 @@ keep-me-posted =
     .label = Vull rebre actualitzacions i estar al dia de les novetats del Common Voice.
 accept-privacy = Accepto que gestioneu aquesta informació en els termes descrits en la <privacyLink>política de privadesa</privacyLink> de Mozilla
 login-identity = Identitat d'inici de sessió
+login-signup = Inici de sessió / Registre
 edit = Edita
 email-subscriptions = Subscripcions per correu electrónic
 download-profile = Baixa les meves dades
@@ -258,6 +261,15 @@ skip-submission-description = L'enviament de comentaris es desactivarà en fer c
 skip-submission-note = Nota: Igualment haureu de seleccionar entre Parla o Escola per canviar el tipus de col·laboració.
 off = Desactivat
 on = Activat
+add-avatar-title = Afegiu un avatar al perfil
+browse-file-title = Puja un fitxer d'imatge
+browse-file = Arrossegueu i deixeu anar o feu clic a <browseWrap>Navega</browseWrap>
+connect-gravatar = Connecta amb Gravatar
+gravatar_not_found = No s'ha trobat cap Gravatar per a la vostra adreça electrònica
+file_too_large = El fitxer seleccionat és massa gran
+manage-subscriptions = Gestiona les subscripcions
+email-already-used = Aquesta adreça electrònica ja s'usa per a un altre compte
+add-language = Afegeix una llengua
 
 ## FAQ
 
@@ -281,11 +293,6 @@ faq-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per a entr
 faq-source-q = D'on prové el text original?
 faq-source-a1 = Les frases actuals provenen de donacions dels col·laboradors, també de diàlegs de guions de pel·lícules de domini públic, com ara <italic>Que bonic que és viure.</italic>
 faq-source-a2 = Podeu veure les frases originals en <dataLink>aquesta carpeta del GitHub</dataLink>.
-
-## Profile
-
-profile-why-title = Per què cal crear un perfil?
-profile-why-content = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de la veu que utilitzen aquestes dades per millorar la seva precisió.
 
 ## NotFound
 
@@ -420,3 +427,44 @@ listen-last-time-instruction = <playIcon></playIcon> L'últim!
 nothing-to-validate = No hi ha res per validar en aquesta llengua. Ajudeu-nos a enregistrar-ne més per omplir la cua.
 record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
+
+## Goals
+
+streaks = Ratxes
+days =
+    { $count ->
+        [one] Dia
+       *[other] Dies
+    }
+recordings =
+    { $count ->
+        [one] Enregistrament
+       *[other] Enregistraments
+    }
+validations =
+    { $count ->
+        [one] Validació
+       *[other] Validacions
+    }
+
+## Dashboard
+
+toward-next-goal = Cap al següent objectiu
+stats = Estadístiques
+you = Vós
+everyone = Tothom
+contribution-activity = Activitat de col·laboració
+top-contributors = Col·laboradors més actius
+recorded-clips = Talls enregistrats
+validated-clips = Talls validats
+total-approved = Total d'aprovats
+overall-accuracy = Precisió global
+
+## Profile Delete
+
+delete-q = Voleu demanar que també se suprimeixin els vostres enregistraments de veu, o preferiu conservar-los al conjunt de dades del Common Voice?
+keep = Conserva
+remove = Elimina
+keep-info = Els vostres enregistraments anònims es conservaran al conjunt de dades del Common Voice. Un cop suprimit el vostre perfil, ja no podreu sol·licitar eliminar els vostres enregistraments del conjunt de dades
+remove-info = Revisarem la vostra sol·licitud per a eliminar els enregistraments de veu del conjunt de dades. Si s'aprova la sol·licitud, ens posarem en contacte amb qui hagi baixat el conjunt de dades i els demanarem que també eliminin els vostres enregistraments de veu.
+profile-form-delete = Suprimeix el perfil

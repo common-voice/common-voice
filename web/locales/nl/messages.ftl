@@ -18,6 +18,7 @@ indicates-required = * Geeft verplicht veld aan
 ## Languages
 
 ace = Atjehs
+af = Afrikaans
 an = Aragonees
 ar = Arabisch
 as = Assamees
@@ -150,7 +151,7 @@ todays-progress = Voortgang van vandaag
 help-reach-goal = Help ons { $goal } te bereiken
 read-terms-q = Hebt u onze Voorwaarden gelezen?
 ready-to-record = Klaar om uw stem te doneren?
-all-languages = Alle talen
+all-locales = Alle
 today = Vandaag
 x-weeks-short =
     { $count ->
@@ -270,6 +271,7 @@ file_too_large = Het geselecteerde bestand is te groot
 manage-subscriptions = Abonnementen beheren
 email-already-used = E-mailadres wordt al voor een andere account gebruikt
 add-language = Taal toevoegen
+change-email-setings = Wijzig uw e-mailadres via Instellingen onder Aanmeldingsidentiteit
 
 ## FAQ
 
@@ -445,7 +447,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Uw talen
 toward-next-goal = Naar het volgende doel
+clips-you-recorded = Door u opgenomen fragmenten
+clips-you-validated = Door u gevalideerde fragmenten
+todays-recorded-progress = Voortgang van Common Voice vandaag omtrent opgenomen fragmenten
+todays-validated-progress = Voortgang van Common Voice vandaag omtrent gevalideerde fragmenten
 stats = Statistieken
 you = U
 everyone = Iedereen

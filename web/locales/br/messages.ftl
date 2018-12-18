@@ -8,6 +8,7 @@ email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
+email-opt-in-privacy = En ur asantiñ d'ar fet da resevout posteloù, e tiskouezit bezañ a-du war ar fet ma verfe Mozilla an titouroù-mañ evel ma vez displeget e-barzh <privacyLink>Politikerezh Prevezded<privacyLink> Mozilla.
 indicates-required = * A ziskouez ar maeziennoù rekizet
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -469,9 +470,18 @@ toward-next-goal = Betek ar pal da zont
 stats = Stats
 you = C'hwi
 everyone = An holl
+contribution-activity = Oberiantiz ar c'hemer-perzh
+top-contributors = Perzhidi pennañ
+recorded-clips = Klipoù enrollet
+validated-clips = Klipoù gwiriekaet
+total-approved = Hollad asantet
+overall-accuracy = Spisder hollek
 
 ## Profile Delete
 
+delete-q = Ha fellout a ra deoc'h goulenn ivez ma vefe dilamet hoc'h enrolladennoù, pe mod-all e kavit gwelloc'h e vefent miret e-barzh diaz-roadennoù Common Voice?
 keep = Mirout
 remove = Dilemel
+keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh diaz-roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest kas ur goulenn dilemel ken war hoc'h enrolladennoù diwar an diaz-roadennoù
+remove-info = Sellout a raimp a dostoc'h d'ho koulenn dilamadur enrolladennoù mouezh diwar an hollad roadennoù. Ma vez aprouet ho koulenn, mont a raimp e darempred gant an dud o deus pellgarget an diaz-roadennoù hag e c'houlennimp dilemel diganto dilemel hoc'h enrolladennoù ken eeun ha tra.
 profile-form-delete = Dilemel ar profil

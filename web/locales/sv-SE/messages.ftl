@@ -18,6 +18,7 @@ indicates-required = * Indikerar obligatoriska fält
 ## Languages
 
 ace = Acehnesiska
+af = Afrikaans
 an = Aragonesiska
 ar = Arabiska
 as = Assamesiska
@@ -153,7 +154,7 @@ todays-progress = Dagens framsteg
 help-reach-goal = Hjälp oss att nå { $goal }
 read-terms-q = Har du läst våra villkor?
 ready-to-record = Är du redo att donera din röst?
-all-languages = Alla språk
+all-locales = Alla
 today = Idag
 x-weeks-short =
     { $count ->
@@ -273,6 +274,7 @@ file_too_large = Den valda filen är för stor
 manage-subscriptions = Hantera prenumerationer
 email-already-used = E-postadress används redan för ett annat konto
 add-language = Lägg till språk
+change-email-setings = Ändra ditt e-post via Inställningar under inloggningsidentitet
 
 ## FAQ
 
@@ -452,7 +454,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Dina språk
 toward-next-goal = Till nästa mål
+clips-you-recorded = Klipp du har spelat in
+clips-you-validated = Klipp du har validerat
+todays-recorded-progress = Dagens framsteg på Common Voice för inspelade klipp
+todays-validated-progress = Dagens framsteg på Common Voice för validerade klipp
 stats = Statistik
 you = Du
 everyone = Alla

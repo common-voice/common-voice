@@ -18,6 +18,7 @@ indicates-required = * 表示必填字段
 ## Languages
 
 ace = 亚齐语
+af = 南非语
 an = 阿拉贡语
 ar = 阿拉伯语
 as = 阿萨姆语
@@ -150,7 +151,7 @@ todays-progress = 本日进度
 help-reach-goal = 帮助我们达成 { $goal }
 read-terms-q = 您阅读过我们的使用条款了吗？
 ready-to-record = 准备好贡献您的声音了吗？
-all-languages = 所有语言
+all-locales = 全部
 today = 今天
 x-weeks-short =
     { $count ->
@@ -266,6 +267,7 @@ file_too_large = 所选文件太大
 manage-subscriptions = 管理订阅
 email-already-used = 此电子邮件地址已被其他账户占用
 add-language = 添加语言
+change-email-setings = 请到“设置”的“登录身份”修改电子邮件地址
 
 ## FAQ
 
@@ -438,7 +440,12 @@ validations =
 
 ## Dashboard
 
+your-languages = 您的语言
 toward-next-goal = 距离下一个目标
+clips-you-recorded = 您录制的片段
+clips-you-validated = 您验证的片段
+todays-recorded-progress = 今日 Common Voice 已录片段进度
+todays-validated-progress = 今日 Common Voice 已录片段进度
 stats = 统计
 you = 您自己
 everyone = 所有人

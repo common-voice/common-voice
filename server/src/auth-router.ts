@@ -61,9 +61,7 @@ if (DOMAIN) {
     if (options.audience && typeof options.audience === 'string') {
       params.audience = options.audience;
     }
-    params.tried_autologin = true;
-
-    params.action = 'signup';
+    params.account_verification = true;
 
     return params;
   };

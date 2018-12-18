@@ -16,7 +16,8 @@ indicates-required = * indica que ye un campu riquíu
 
 ## Languages
 
-ace = Achenés
+ace = Achinés
+af = Afrikaans
 an = Aragonés
 ar = Árabe
 as = Asamés
@@ -162,9 +163,10 @@ hours-recorded = Hores grabaes
 hours-validated = Hores validaes
 voices-online = Voces en llinia anguaño
 todays-progress = Progresu de güei
+help-reach-goal = Ayúdanos a consiguir { $goal }
 read-terms-q = ¿Lleesti los nuesos términos?
 ready-to-record = ¿Preparáu pa emprestar la to voz?
-all-languages = Toles llingües
+all-locales = Too
 today = Güei
 x-weeks-short =
     { $count ->
@@ -280,10 +282,12 @@ add-avatar-title = Amiestu d'una imaxe al perfil
 browse-file-title = Xuba d'un ficheru
 browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
 connect-gravatar = Coneutar con Gravatar
+gravatar_not_found = Nun s'alcontró dengún gravatar del corréu
 file_too_large = El ficheru esbilláu ye perllargu
 manage-subscriptions = Xestión de les soscripciones
 email-already-used = El corréu yá s'usa nuna cuenta diferente
-add-language = Amestar llingua
+add-language = Amestar una llingua
+change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de sesión
 
 ## FAQ
 
@@ -463,7 +467,10 @@ validations =
 
 ## Dashboard
 
+your-languages = Les tos llingües
 toward-next-goal = Pa la meta próxima
+clips-you-recorded = Clips que grabesti
+clips-you-validated = Clips que validesti
 stats = Estadístiques
 you = Tú
 everyone = Tol mundu

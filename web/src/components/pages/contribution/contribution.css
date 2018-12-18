@@ -4,8 +4,13 @@
     overflow: hidden;
 }
 
-.contribution-wrapper, .contribution {
-    background-image: linear-gradient(to top, var(--white) 20%, var(--desert-storm));
+.contribution-wrapper,
+.contribution {
+    background-image: linear-gradient(
+        to top,
+        var(--white) 20%,
+        var(--desert-storm)
+    );
 }
 
 .contribution {
@@ -61,7 +66,8 @@
             background: var(--valid-green);
             border-radius: 50%;
 
-            & use, & path {
+            & use,
+            & path {
                 fill: var(--white);
             }
         }
@@ -71,10 +77,6 @@
             font-size: var(--font-size-xs);
             font-weight: normal;
             font-style: italic;
-
-            @media (--sm-down) {
-                display: none;
-            }
         }
 
         &.done {
@@ -269,7 +271,7 @@
 
             opacity: 1;
             transition: transform var(--transition-duration-slow) var(--easing),
-                        opacity var(--transition-duration-slow) var(--easing);
+                opacity var(--transition-duration-slow) var(--easing);
 
             &.inactive {
                 pointer-events: none;
@@ -330,7 +332,12 @@
             position: absolute;
             width: 100% !important;
             max-width: calc(var(--wide-desktop-width) - 40px);
-            mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 3%, black, rgba(0, 0, 0, 0) 97%);
+            mask-image: linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0) 3%,
+                black,
+                rgba(0, 0, 0, 0) 97%
+            );
         }
     }
 
@@ -425,7 +432,11 @@
     }
 
     &.submittable {
-        & .cards, & .instruction,  & .primary-buttons, & .buttons button[type=button], & .extra-button {
+        & .cards,
+        & .instruction,
+        & .primary-buttons,
+        & .buttons button[type='button'],
+        & .extra-button {
             display: none;
             filter: blur(10px);
             pointer-events: none;
@@ -629,4 +640,3 @@
         }
     }
 }
-

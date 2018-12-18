@@ -18,6 +18,7 @@ indicates-required = * Zahtevano polje
 ## Languages
 
 ace = ačinščina
+af = afrikanščina
 an = aragonščina
 ar = arabščina
 as = asamščina
@@ -155,7 +156,7 @@ todays-progress = Današnji napredek
 help-reach-goal = Pomagajte nam doseči { $goal }
 read-terms-q = Ste prebrali naše pogoje?
 ready-to-record = Ste pripravljeni prispevati svoj glas?
-all-languages = Vsi jeziki
+all-locales = Vsi
 today = Danes
 x-weeks-short =
     { $count ->
@@ -283,6 +284,7 @@ file_too_large = Izbrana datoteka je prevelika
 manage-subscriptions = Upravljaj z naročninami
 email-already-used = E-poštni naslov je že v uporabi za drug račun
 add-language = Dodaj jezik
+change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta prijave
 
 ## FAQ
 
@@ -437,7 +439,7 @@ record-abort-continue = Končaj snemanje
 record-abort-delete = Izhod in brisanje posnetkov
 listen-instruction = { $actionType } <playIcon></playIcon> ali je bil stavek pravilno izgovorjen?
 listen-again-instruction = Odlično opravljeno!<playIcon></playIcon> Poslušajte znova, ko boste pripravljeni.
-listen-3rd-time-instruction = Samo še 2, kar tako naprej! <playIcon></playIcon>
+listen-3rd-time-instruction = 2 sta pod streho, kar tako naprej! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
 nothing-to-validate = Trenutno ni ničesar za preveriti v tem jeziku. Pomagaj nam zapolniti čakalno vrsto.
 record-button-label = Posnemite svoj glas
@@ -470,7 +472,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Vaši jeziki
 toward-next-goal = Do naslednjega cilja
+clips-you-recorded = Posnetki, ki ste jih posneli
+clips-you-validated = Posnetki, ki ste jih preverili
+todays-recorded-progress = Današnji skupni napredek pri snemanju posnetkov
+todays-validated-progress = Današnji skupni napredek pri preverjanju posnetkov
 stats = Statistika
 you = Vi
 everyone = Vsi
@@ -487,4 +494,5 @@ delete-q = Zahtevate tudi izbris glasovnih posnetkov, ali jih želite obdržati 
 keep = Obdrži
 remove = Odstrani
 keep-info = Vaši anonimni glasovni posnetki bodo ostali v naboru podatkov Common Voice. Ko izbrišete profil, ne boste več mogli zahtevati izbrisa vaših posnetkov iz nabora podatkov
+remove-info = Preučili bomo zahtevo za odstranitev vaših glasovnih posnetkov iz nabora podatkov. Če bo zahteva odobrena, se bomo obrnili na tiste, ki so prenesli nabor podatkov, in zahtevali, da odstranijo vaše glasovne posnetke.
 profile-form-delete = Izbriši profil

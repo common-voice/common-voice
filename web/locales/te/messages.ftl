@@ -210,6 +210,7 @@ settings = అమరికలు
 edit-profile = ప్రొఫైల్‌ను సవరించు
 profile-create-success = విజయవంతం, ప్రొఫైల్ సృష్టించబడింది!
 profile-close = మూసివేయి
+edit = సరిచేయు
 email-subscriptions = ఈమెయిలు చందాలు
 off = ఆఫ్
 on = ఆన్

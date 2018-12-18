@@ -95,7 +95,7 @@ ur = Urdu
 uz = Tazbikit
 vi = Tavyiṭnamit
 zh-CN = Tacinwat (Cin)
-zh-HK = Tacinit 5Hung Kung)
+zh-HK = Tacinit (Hung Kung)
 zh-TW = Tacinwat (Taywan)
 
 # [/]
@@ -450,7 +450,7 @@ validations =
 ## Dashboard
 
 toward-next-goal = Ɣer iswi i d-iteddun
-stats = Addaden
+stats = Tiddadanin
 you = Kečč
 everyone = Yal yiwen
 contribution-activity = Armud n uttekki

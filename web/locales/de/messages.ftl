@@ -18,6 +18,7 @@ indicates-required = * Pflichtfeld
 ## Languages
 
 ace = Acehnesisch
+af = Afrikaans
 an = Aragonesisch
 ar = Arabisch
 as = Assamesisch
@@ -150,7 +151,7 @@ todays-progress = Heutiger Fortschritt
 help-reach-goal = Helfen Sie uns, { $goal } zu erreichen
 read-terms-q = Haben Sie unsere Nutzungsbedingungen gelesen?
 ready-to-record = Sind Sie bereit, Ihre Stimme zu spenden?
-all-languages = Alle Sprachen
+all-locales = Alle
 today = Heute
 x-weeks-short =
     { $count ->
@@ -270,6 +271,7 @@ file_too_large = Die ausgewählte Datei ist zu groß
 manage-subscriptions = Abonnements verwalten
 email-already-used = E-Mail-Adresse wird bereits durch ein anderes Konto verwendet
 add-language = Sprache hinzufügen
+change-email-setings = Ändern Sie Ihre E-Mail-Adresse über die Einstellungen unter Anmeldeidentität
 
 ## FAQ
 
@@ -445,7 +447,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Ihre Sprachen
 toward-next-goal = Zum nächsten Ziel
+clips-you-recorded = Ihre aufgenommenen Aufzeichnungen
+clips-you-validated = Ihre überprüften Aufzeichnungen
+todays-recorded-progress = Heutiger Fortschritt bei aufgenommenen Aufzeichnungen auf Common Voice
+todays-validated-progress = Heutiger Fortschritt bei überprüften Aufzeichnungen auf Common Voice
 stats = Statistiken
 you = Sie
 everyone = Alle

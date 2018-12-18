@@ -12,6 +12,7 @@ loading = Loading…
 # [Languages]
 ## Languages
 ace = Acehnese
+af = Afrikaans
 an = Aragonese
 ar = Arabic
 as = Assamese
@@ -157,7 +158,7 @@ todays-progress = Today's Progress
 help-reach-goal = Help us get to { $goal }
 read-terms-q = Have you read our Terms?
 ready-to-record = Ready to donate your voice?
-all-languages = All Languages
+all-locales = All
 today = Today
 x-weeks-short =
   { $count ->
@@ -172,6 +173,27 @@ x-years-short =
   { $count ->
     *[other] { $count }y
   }
+help-make-dataset = Help us build a high quality, publicly open dataset
+profile-not-required = Having a profile is not required to contribute though it is helpful
+sign-up-account = Sign up for an account
+
+## Account Benefits
+benefits = Benefits
+rich-data = Make your submitted data as rich as possible by providing some anonymous demographic data. We de-identify all demographic data before making it public.
+improve-audio = Profile information improves the audio data used in training speech recognition accuracy.
+keep-track = Keep track of your progress and metrics across multiple languages.
+compare-progress = See how your progress compares to other contributors all over the world.
+view-goals = View your progress against personal and project goals.
+join-newsletter = Optionally join on our email list for updates and new information about the project.
+
+## What's public
+whats-public = What's Public?
+email-not-public = We will not make your email public.
+recordings-and-locale-public = The number of recordings and which languages you contribute to will be public.
+username-optin-public = You can choose to make your username public or anonymous.
+demographic-deidentified = Optionally submitted demographic data (e.g. age, sex, language, and accent) is de-identified from your submitted voice data and will never be made public on your profile.
+username-email-not-demographic = Your username and email will not be associated with the published data.
+
 
 ## Speak & Listen Shortcuts
 # Must be one letter that appears in the translated { skip } string.
@@ -434,6 +456,13 @@ record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 
 ## Dashboard
+your-languages = Your Languages
+toward-next-goal = Toward next goal
+clips-you-recorded = Clips You've Recorded
+clips-you-validated = Clips You've Validated
+todays-recorded-progress = Today's Common Voice progress on clips recorded
+todays-validated-progress = Today's Common Voice progress on clips validated
+stats = Stats
 you = You
 everyone = Everyone
 contribution-activity = Contribution Activity

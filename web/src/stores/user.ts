@@ -89,6 +89,7 @@ export namespace User {
         type: ActionType.UPDATE,
         state: { account, userClients, isFetchingAccount: false },
       });
+      await actions.claimLocalUser(dispatch, getState);
     },
 
     saveAccount: (data: UserClient) => async (
@@ -107,10 +108,34 @@ export namespace User {
           isFetchingAccount: false,
         },
       });
+      await actions.claimLocalUser(dispatch, getState);
+    },
+
+    claimLocalUser: async (
+      dispatch: Dispatch<UpdateAction>,
+      getState: () => StateTree
+    ) => {
+      const { api, user } = getState();
+      if (user.account && user.userId) {
+        await api.claimAccount();
+        dispatch({
+          type: ActionType.UPDATE,
+          state: {
+            userId: null,
+            recordTally: 0,
+            validateTally: 0,
+          },
+        });
+        actions.refresh()(dispatch, getState);
+      }
     },
   };
 
   export function reducer(state = getDefaultState(), action: Action): State {
+    state = {
+      ...state,
+      userId: state.userId || (state.account ? null : generateGUID()),
+    };
     switch (action.type) {
       case ActionType.UPDATE:
         return { ...state, ...action.state };

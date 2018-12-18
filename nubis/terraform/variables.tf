@@ -19,3 +19,7 @@ variable "nubis_sudo_groups" {
 }
 
 variable "ami" {}
+
+variable "read_only_public_users" {
+  default = "100"
+}

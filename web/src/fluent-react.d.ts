@@ -3,10 +3,13 @@ declare module 'fluent-react/compat' {
   import { Omit } from 'react-router';
   export function Localized(
     ...args: any[]
-  ): React.Component<{
-    id: string;
-    [key: string]: any;
-  }>;
+  ): React.Component<
+    {
+      id: string;
+      [key: string]: any;
+    },
+    any
+  >;
 
   export interface LocalizationProps {
     getString(

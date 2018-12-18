@@ -16,6 +16,7 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/dist/',
   },
+  devtool: 'source-map',
   resolve: {
     /**
      * See https://webpack.js.org/configuration/resolve/#resolve-extensions
