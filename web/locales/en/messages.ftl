@@ -369,6 +369,20 @@ faq-what-determine-identity-a =
 
     All voice clips in the dataset are scrubbed of personally identifying information.  When you download the dataset, you agree to not attempt  to determine  the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
 
+
+## Glossary
+glossary = Glossary
+localization = Localization
+localization-explanation = This is our process for translating and adapting our content for many locales (languages).
+sentence-collection = Sentence Collection
+sentence-collection-explanation = Collecting sentences from the public domain, or writing new ones for the public domain.
+hours-recorded-explanation = The count of voice recording hours we have collected so far.
+hours-validated-explanation = The count of voice recording hours that have been validated by 2 out of 3 users with a vote of “Yes”. These mark progress toward the overall project 10k hours goal.
+sst = Speech-to-text (STT)
+sst-explanation = Speech-to-text (STT) technologies convert voice data into text.
+de-identified = De-identified
+de-identified-explanation = The process by which a contributor’s profile information is obscured from their donated voice clips when packaged for download as a part of the dataset.
+
 ## NotFound
 notfound-title = Not found
 notfound-content = I’m afraid I don’t know what you’re looking for.

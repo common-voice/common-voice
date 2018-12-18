@@ -75,6 +75,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       import('../pages/contribution/speak/speak');
       import('../pages/contribution/listen/listen');
     }, 1000);
+    this.visitHash(this.props);
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
@@ -88,12 +89,20 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           top: 0,
           behavior: 'smooth',
         });
+        this.visitHash(nextProps);
       }, 250);
     }
   }
 
   componentWillUnmount() {
     this.scroller.removeEventListener('scroll', this.handleScroll);
+  }
+
+  private visitHash({ location: { hash } }: LayoutProps) {
+    if (hash) {
+      const node = document.querySelector(hash);
+      node && node.scrollIntoView();
+    }
   }
 
   /**

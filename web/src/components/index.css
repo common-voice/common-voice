@@ -328,17 +328,23 @@ body:not(.focus) #scroller {
     }
 }
 
-#faq-container h3 {
-    margin: 1.5rem 0 0.5rem;
-}
+#faq-container {
+    & h3 {
+        margin: 1.5rem 0 0.5rem;
+    }
 
-#faq-container p {
-    margin-bottom: 1rem;
-    white-space: pre-line;
-}
+    & h2 a {
+        color: var(--black);
+    }
 
-#faq-container a {
-    color: var(--link-color);
+    & p {
+        margin-bottom: 1rem;
+        white-space: pre-line;
+    }
+
+    & a {
+        color: var(--link-color);
+    }
 }
 
 @keyframes spin {

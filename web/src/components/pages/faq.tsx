@@ -25,6 +25,10 @@ function renderQA(content: any[]) {
 
 export default () => (
   <div id="faq-container">
+    <Localized id="faq-title">
+      <h2 />
+    </Localized>
+
     {renderQA([
       'what-cv',
       'why-important',
@@ -82,7 +86,33 @@ export default () => (
     )}
 
     {renderQA(['how-privacy', 'what-determine-identity'])}
+    <br />
 
+    <h2 id="glossary">
+      <Localized id="glossary">
+        <a href="#glossary" />
+      </Localized>
+    </h2>
+    <br />
+
+    {[
+      'localization',
+      'sentence-collection',
+      'hours-recorded',
+      'hours-validated',
+      'sst',
+      'de-identified',
+    ].map(s => (
+      <p key={s}>
+        <Localized id={s}>
+          <b />
+        </Localized>
+        <b>: </b>
+        <Localized id={s + '-explanation'}>
+          <span />
+        </Localized>
+      </p>
+    ))}
     <a
       href="https://voice.allizom.org"
       style={{ color: 'rgba(0, 0, 0, 0.05)' }}>
