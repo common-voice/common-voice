@@ -295,6 +295,8 @@ faq-is-account-public-q = Apakah informasi akun saya bersifat publik?
 glossary = Glosarium
 localization = Pelokalan
 localization-explanation = Ini adalah proses kami untuk menerjemahkan dan mengadaptasi konten kami untuk banyak pelokalan (bahasa).
+sentence-collection = Koleksi Kalimat
+hours-recorded-explanation = Jumlah jam rekaman suara yang telah kami kumpulkan sejauh ini.
 
 ## NotFound
 
