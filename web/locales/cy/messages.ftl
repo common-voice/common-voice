@@ -190,16 +190,16 @@ sign-up-account = Cofrestru am gyfrif
 
 benefits = Manteision
 rich-data = Gwnewch y data rydych wedi ei gyflwyno mor gyfoethog â phosibl trwy ddarparu rhywfaint o ddata demograffig anhysbys. Rydym yn dadadnabod yr holl ddata demograffig cyn ei wneud yn gyhoeddus.
-improve-audio = Mae gwybodaeth proffil yn gwella'r data sain sy'n cael ei ddefnyddio wrth hyfforddi cywirdeb adnabod llais.
+improve-audio = Mae manylion proffil yn gwella'r data sain sy'n cael ei ddefnyddio wrth hyfforddi cywirdeb adnabod llais.
 keep-track = Cadwch olwg ar eich cynnydd a'ch metrigau ar draws sawl iaith.
 compare-progress = Gwelwch sut mae'ch cynnydd yn cymharu â chyfranwyr eraill ledled y byd.
-view-goals = Edrychwch ar eich cynnydd yn erbyn nodau personol a phrosiectau.
-join-newsletter = Neu, ymunwch yn ddewisol a'n rhestr e-bost am ddiweddariadau a gwybodaeth newydd am y project.
+view-goals = Gweld eich cynnydd yn erbyn nodau personol a phrosiectau.
+join-newsletter = Neu, gallwch ymunwch á'n rhestr e-bost am ddiweddariadau a newyddion am y project.
 
 ## What's public
 
 whats-public = Beth sy'n Gyhoeddus?
-email-not-public = Fyddwn ni ddim yn gwneud eich e-bost yn gyhoeddus.
+email-not-public = Fyddwn ni ddim yn datgrlueich e-bost yn gyhoeddus.
 recordings-and-locale-public = Bydd nifer y recordiadau a pha ieithoedd y byddwch yn cyfrannu atyn nhw yn gyhoeddus.
 username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n ddienw.
 demographic-deidentified = Bydd data demograffig a gyflwynwyd yn ddewisol (ee oed, rhyw, iaith ac acen) ei ddadgysylltu o'ch data llais sydd wedi ei gyflwyno ac ni fydd yn cael ei gyhoeddi byth ar eich proffil.
