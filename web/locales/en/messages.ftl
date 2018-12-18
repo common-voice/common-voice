@@ -7,6 +7,8 @@ email-input =
     .label = Email
 submit-form-action = Submit
 loading = Loading…
+email-opt-in-privacy = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy<privacyLink>.
+indicates-required = * Indicates required field
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -230,12 +232,10 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Next Goal: { $goal }
+status-goal = Next Goals: { $goal }
 english = English
 
 ## ProfileForm
-profile-form-cancel = Exit Form
-profile-form-delete = Delete Profile
 profile-form-username =
     .label = User Name
 profile-form-language =
@@ -254,8 +254,6 @@ native-language =
     .label = Native Language
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
-profile-keep-data = Keep Data
-profile-delete-data = Delete Data
 male = Male
 female = Female
 # Gender
@@ -267,14 +265,11 @@ why-profile-text =
 dashboard = Dashboard
 build-profile = Build Profile
 avatar = Avatar
+goals = Goals
 settings = Settings
 edit-profile = Edit Profile
-profile-create = Create a profile
 profile-create-success = Success, profile created!
 profile-close = Close
-profile-clear-modal =
-  Clearing your profile data means this demographic information will no longer be submitted to Common Voice with your
-  clip recordings.
 profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
 thanks-for-account = Thanks for confirming your account, now let's build your profile.
 why-demographic = Why does this matter?
@@ -286,7 +281,7 @@ login-identity = Login Identity
 login-signup = Log In / Sign Up
 edit = Edit
 email-subscriptions = Email Subscriptions
-download-profile = Download my data
+download-profile = Download My Data
 contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
 skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit. Contribution will continue directly with the next set of 5 recordings or validations.
@@ -301,6 +296,8 @@ gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
 manage-subscriptions = Manage Subscriptions
 email-already-used = Email is already used for a different account
+add-language = Add Language
+change-email-setings = Change your email via Settings under Login Identity
 
 ## FAQ
 faq-title = Frequently Asked Questions
@@ -323,10 +320,6 @@ faq-hours-a = This is approximately the number of hours required to train a prod
 faq-source-q = Where does the source text come from?
 faq-source-a1 = The current sentences come from contributor donations, as well as dialogue from public domain movie scripts like <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = You can view our source sentences in <dataLink>this GitHub folder</dataLink>.
-
-## Profile
-profile-why-title = Why a profile?
-profile-why-content = By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech Recognition engines that use this data to improve their accuracy.
 
 ## NotFound
 notfound-title = Not found
@@ -455,6 +448,22 @@ nothing-to-validate = We don't have anything to validate in this language, help 
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 
+## Goals
+streaks = Streaks
+days = { $count ->
+  [one] Day
+  *[other] Days
+}
+recordings = { $count ->
+  [one] Recording
+  *[other] Recordings
+}
+validations = { $count ->
+  [one] Validation
+  *[other] Validations
+}
+
+
 ## Dashboard
 your-languages = Your Languages
 toward-next-goal = Toward next goal
@@ -469,5 +478,14 @@ contribution-activity = Contribution Activity
 top-contributors = Top Contributors
 recorded-clips = Recorded Clips
 validated-clips = Validated Clips
+total-approved = Total Approved
+overall-accuracy = Overall Accuracy
 
 
+## Profile Delete
+delete-q = Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?
+keep = Keep
+remove = Remove
+keep-info = Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset
+remove-info = We will review your request to remove your voice recordings from the dataset. If your request is approved, we will contact those who have downloaded the dataset and request they remove your voice recordings as well.
+profile-form-delete = Delete Profile
