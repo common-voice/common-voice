@@ -283,9 +283,18 @@ faq-title = Hal-Hal yang Sering Ditanyakan
 faq-what-cv-q = Apa itu Common Voice?
 faq-why-important-q = Mengapa ini penting?
 faq-how-get-q = Bagaimana saya bisa mendapatkan data Common Voice?
+faq-when-release-q = Kapan Anda akan merilis data Common Voice dalam bahasa lain?
+faq-why-mission-q = Mengapa Common Voice merupakan bagian dari misi Mozilla?
+faq-what-cv-and-deepspeech-q = Apa perbedaan antara Common Voice dan Deep Speech?
+faq-is-goal-assistant-q = Apakah tujuan Common Voice adalah untuk membangun asisten suara?
+faq-why-my-lang-q = Mengapa bahasa saya belum termasuk?
+faq-is-account-public-q = Apakah informasi akun saya bersifat publik?
 
 ## Glossary
 
+glossary = Glosarium
+localization = Pelokalan
+localization-explanation = Ini adalah proses kami untuk menerjemahkan dan mengadaptasi konten kami untuk banyak pelokalan (bahasa).
 
 ## NotFound
 
