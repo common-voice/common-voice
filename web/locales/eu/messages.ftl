@@ -168,6 +168,14 @@ x-years-short =
         [one] { $count } urte
        *[other] { $count } urte
     }
+sign-up-account = Sortu kontu bat
+
+## Account Benefits
+
+benefits = Onurak
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -276,25 +284,13 @@ change-email-setings = Aldatu zure e-posta Hobespenetako "Saioa hasteko identita
 ## FAQ
 
 faq-title = Ohiko galderak
-faq-what-q = Zer da Common Voice?
-faq-what-a = Ahotsaren ezagutza teknologiak makinak erabiltzeko dugun eran iraultza ekar lezake, baina gaur egun eskuragarri dauden sistemak garestiak eta jabedunak dira. Common Voice, ahotsaren ezagutza  teknologia guztiontzat eskuragarri jartzeko proiektu bat da. Jendeak datu-sorta erraldoi batean bere ahotsak uzten ditu, denontzat modu azkar eta errazean eskuragarri egon daitezen eta ahotsa darabilten app-ak trebatzeko erabil dezaten. Ahots-datu guztiak garatzaileentzat eskuragarri egongo dira.
-faq-important-q = Zergatik da garrantzitsua?
-faq-important-a = Ahotsa naturala da, ahotsa gizakiona da. Komunikatzeko dugun modu errazena eta naturalena da. Garatzaileek gauza txundigarriak sortzeko erabiltzea nahi dugu, denbora errealeko itzultzaileetatik hasita, ahotsarekin dabiltzan kudeatzaile laguntzaileetaraino. Baina oraintxe bertan ez dago datu publiko nahikorik era honetako app-ak sortzeko. Common Voicek alor honetan garatzaileei berrikuntzak egiteko behar dutena emango diela espero dugu.
-faq-get-q = Nola lor ditzaket Common Voiceko datuak?
-faq-get-a = Datu-sorta <downloadLink>deskarga orrian</downloadLink> eskuragarri dago <licenseLink>CC 0</licenseLink> lizentziapean.
-faq-mission-q = Zergatik da Common Voice Mozillaren misioaren parte?
-faq-mission-a = Mozillaren egitekoa, weba guztiontzat irekia eta eskuragarri mantentzea da. Common Voice bezalako proiektuekin web sortzaileei hori lortzeko tresnak ematen dizkiegu. Ahots teknologiak beraien merkatu-nitxotik haratagoko aplikazioetara hedatzean, erabiltzaile guztiei berdin zerbitzatu behar dietela uste dugu. Ahots teknologiak sortu eta probatzeko garaian, hizkuntza gehiago, azentu gehiago eta txoko desberdin gehiagoko ahotsak ere behar direla uste dugu. Mozillak, internet osasuntsua eta bizia nahi du. Honek, sortzaile berriek ahots-datuak eskuragarri izatea eskatzen du, proiektu berri eta apartak sortzeko aukera izan dezaten. Common Voice, baliabide publiko bat izango da, munduko leku desberdinetatik ari diren Mozillako talde eta garatzaileak lagunduko dituena.
-faq-native-q = Ez naiz { $lang } hiztun natiboa eta azentua daukat, nire ahotsa nahi duzue oraindik ere?
-faq-native-a = Bai, jakina nahi dugula zure ahotsa! Common Voicen helburuetako bat ahalik eta azentu desberdin gehien jasotzea da, ordenagailuek hobeto uler ditzaten hiztun <bold>guztiak</bold> hitz egiten dutenean.
-faq-firefox-q = Ahotsetik-testura, Common Voicen bitartez, izango al da inoiz Firefoxen parte?
-faq-firefox-a = Common Voicek potentzial mugagabea du eta hain zuzen, ahotsaren ezagutza Mozillaren hainbat produktutan erabiltzea aztertzen ari gara, Firefox barne.
-faq-quality-q = Audioetan zein kalitate-maila behar da erabili ahal izateko?
-faq-quality-a = Hemen egindako grabaketen audio-kalitateak, speech-to-text motor batek benetako erabilera batean aurkituko duen audio-kalitatea izatea nahi dugu. Hau da, aniztasuna nahi dugu. Honek speech-to-text motorrari egoera desberdinak errorerik gabe kudeatzen irakasten dio: ahotsak atzeko aldetik, kotxe zarata, haizagailu zarata eta abar.
-faq-hours-q = Zergatik da helburua 10.000 orduko audio grabaketak lortzea?
-faq-hours-a = Ekoizpeneko STT sistema bat entrenatzeko, gutxi gora behera, ordu kopuru hori behar da.
-faq-source-q = Testu-iturria nondik dator?
-faq-source-a1 = Oraingo esaldiak laguntzaileengandik datoz eta baita <italic>Bizitza ederra da</italic> bezala jabetza publikoan dauden filmetako transkripzioetatik ere.
-faq-source-a2 = Gure jatorrizko esaldiak <dataLink>GitHub karpeta honetan</dataLink> ikus ditzakezu.
+faq-why-important-q = Zergatik da garrantzitsua?
+
+## Glossary
+
+glossary = Glosarioa
+localization = Lokalizazioa
+sentence-collection = Esaldiak biltzea
 
 ## NotFound
 
