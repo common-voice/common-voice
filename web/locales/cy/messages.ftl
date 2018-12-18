@@ -333,6 +333,15 @@ faq-why-mission-q = Pam mae Common Voice yn rhan o genhadaeth Mozilla?
 faq-why-mission-a = Mae Mozilla'n wedi ymroi i gadw'r we yn agored ac ar gael i bawb. I wneud hynny mae angen i ni ymrymuso crëwyr y we drwy brojectau fel Common Voice. Wrth i dechnoleg llais gynyddu tu hwnt i raglenni arbenigol, mae'n rhaid iddyn nhw ddiwallu pob defnyddiwr gystal â'i gilydd. Rydym yn gweld yr angen i gynnwys rhagor o ieithoedd, acenion a demograffigau wrth adeiladu a phrofi technolegau llais. Mae Mozilla eisiau gweld rhyngrwyd iach a bywiog. Mae hynny'n golygu rhoi mynediad i grëwyr newydd at ddata llais fel bod modd iddyn nhw adeiladu projectau newydd, anhygoel. Mae Common Voice yn adnodd cyhoeddus sydd ar gael i bawb ac mae timau Mozilla a datblygwyr o amgylch y byd i gyd eisoes yn ei ddefnyddio ar ein projectau ein hunain hefyd.
 faq-what-cv-and-deepspeech-q = Beth yw'r gwahaniaeth rhwng Common Voice ac Deep Speech?
 faq-what-cv-and-deepspeech-a = Mae set ddata Common Voice yn ategu peiriant adnabod llais cod agored Mozilla, sef Deep Speech. Cyhoeddwyd y fersiwn gyntaf o Deep Speech ym mis Tachwedd 2017 ac mae wedi parhau i esblygu ers hynny. Ynghyd â set ddata Common Voice, credwn y dylai technoleg adnabod llais cod agored fod ar gael i bawb. Ein gobaith yw y bydd y technolegau hyn yn galluogi datblygwyr i adeiladu ton o gynhyrch a gwasanaethau arloesol.
+faq-is-goal-assistant-q = Ai nod Common Voice yw adeiladu cynorthwyydd llais?
+faq-is-goal-assistant-a = Nod set ddata Common Voice yw galluogi unrhyw un yn y byd i adeiladu adnabod llais, adnabod siaradwr, neu unrhyw fath arall o raglen sy'n gofyn am ddata llais. Mae cynorthwyydd llais yn un o nifer o fathau o raglen y gallech ddefnyddio'r set ddata i'w hadeiladu.
+faq-do-want-native-q = Rwy'n siaradwr ail iaith ac rwy'n siarad gydag acen, ydych chi dal eisiau fy llais i?
+faq-do-want-native-a = Ydyn, rydym wir eisiau eich llais! Rhan o nod Common Voice yw casglu cymaint o wahanol acenion â phosibl fel bod gwasanaethau adnabod llais yn gweithio cystal i bawb. Mae hyn yn golygu bod cyfraniadau gan siaradwyr anfrodorol yn arbennig o bwysig.
+faq-why-different-speakers-q = Pam mae angen cymaint o wahanol siaradwyr arnoch chi am bob iaith?
+faq-why-different-speakers-a =
+    Mae'r rhan fwyaf o gronfeydd data llais wedi'u hyfforddi gyda gorgynrychioliad o ddemograffeg penodol sy'n arwain at ragfarn tuag at <articleLink>dynion dosbarth canolbarth</ articleLink>. Fel arfer, mae acenion a thafodieithoedd sy'n dueddol o gael eu tangynrychioli mewn hyfforddiant yn gosod setiau data yn gysylltiedig â grwpiau o bobl sydd eisoes wedi'u hymyleiddio. Mae llawer o beiriannau hefyd yn cael trafferth i ddeall lleisiau merched.
+    Dyna pam rydym eisiau amrywiaeth yn ein cronfa ddata llais!
+faq-why-my-lang-q = Pam nad yw fy iaith wedi'i chynnwys eto?
 
 ## Glossary
 
