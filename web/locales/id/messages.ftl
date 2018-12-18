@@ -289,7 +289,19 @@ faq-why-mission-q = Mengapa Common Voice merupakan bagian dari misi Mozilla?
 faq-what-cv-and-deepspeech-q = Apa perbedaan antara Common Voice dan Deep Speech?
 faq-is-goal-assistant-q = Apakah tujuan Common Voice adalah untuk membangun asisten suara?
 faq-why-my-lang-q = Mengapa bahasa saya belum termasuk?
+faq-what-quality-q = Berapa tingkat kualitas audio yang diperlukan untuk klip suara yang akan digunakan dalam himpunan data?
+faq-why-10k-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem ucapan-ke-teks produksi.
+faq-how-calc-hours-q = Bagaimana Common Voice menghitung jumlah jam?
+faq-how-calc-hours-a = Kami menghitung jam dengan memperkirakan panjang rata-rata setiap rekaman, kemudian mengalikan angka tersebut dengan jumlah total rekaman di semua bahasa.
+faq-where-src-from-q = Dari mana asal teks sumbernya?
+faq-where-src-from-a =
+    Teks sumber kami terdiri dari donasi kontributor tulen serta dialog dari naskah film domain publik seperti <italic>It is a Wonderful Life </italic>.
+    
+    Anda dapat melihat kalimat sumber kami di folder GitHub ini.
+faq-why-not-ask-read-q = Mengapa Anda tidak meminta orang untuk membaca dari buku atau artikel Wikipedia dalam bahasa yang berbeda?
 faq-is-account-public-q = Apakah informasi akun saya bersifat publik?
+faq-how-privacy-q = Bagaimana Anda memastikan anonimitas dan privasi orang-orang yang menyumbangkan suara mereka?
+faq-what-determine-identity-q = Apa maksudnya saya tidak bisa “menentukan identitas” penutur dalam himpunan data Common Voice?
 
 ## Glossary
 
@@ -297,7 +309,11 @@ glossary = Glosarium
 localization = Pelokalan
 localization-explanation = Ini adalah proses kami untuk menerjemahkan dan mengadaptasi konten kami untuk banyak pelokalan (bahasa).
 sentence-collection = Koleksi Kalimat
+sentence-collection-explanation = Mengumpulkan kalimat dari domain publik, atau menuliskan yang baru untuk domain publik.
 hours-recorded-explanation = Jumlah jam rekaman suara yang telah kami kumpulkan sejauh ini.
+sst = Ucapan-ke-teks (STT)
+sst-explanation = Teknologi ucapan-ke-teks (STT) mengubah data suara menjadi teks.
+de-identified = Diawanamakan
 
 ## NotFound
 
