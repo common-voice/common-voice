@@ -334,6 +334,7 @@ body:not(.focus) #scroller {
 
 #faq-container p {
     margin-bottom: 1rem;
+    white-space: pre-line;
 }
 
 #faq-container a {

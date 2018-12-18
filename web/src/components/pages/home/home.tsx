@@ -1,6 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
 import { trackHomeNew } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
@@ -53,23 +54,7 @@ class SignupInfo extends React.Component<{}, SignUpInfoState> {
             alt=""
           />
           <ul key={tab}>
-            {(isBenefits
-              ? [
-                  'rich-data',
-                  'improve-audio',
-                  'keep-track',
-                  'compare-progress',
-                  'view-goals',
-                  'join-newsletter',
-                ]
-              : [
-                  'email-not-public',
-                  'recordings-and-locale-public',
-                  'username-optin-public',
-                  'demographic-deidentified',
-                  'username-email-not-demographic',
-                ]
-            ).map((l, i) => (
+            {(isBenefits ? BENEFITS : WHATS_PUBLIC).map((l, i) => (
               <li
                 key={l}
                 className={i == index ? 'active' : ''}

@@ -1,88 +1,87 @@
-import * as React from 'react';
 import { Localized } from 'fluent-react/compat';
+import * as React from 'react';
+import URLS from '../../urls';
+import { LocaleLink } from '../locale-helpers';
+import { BENEFITS, WHATS_PUBLIC } from '../../constants';
+
+const A = (props: React.HTMLProps<HTMLAnchorElement>) => (
+  <a target="_blank" rel="noopener noreferrer" {...props} />
+);
+
+function renderQA(content: any[]) {
+  return content
+    .map(c => (Array.isArray(c) ? c : [c, {}]))
+    .map(([id, props]) => (
+      <React.Fragment key={id}>
+        <Localized id={'faq-' + id + '-q'}>
+          <h3 />
+        </Localized>
+        <Localized id={'faq-' + id + '-a'} {...props}>
+          <p />
+        </Localized>
+      </React.Fragment>
+    ));
+}
 
 export default () => (
   <div id="faq-container">
-    <Localized id="faq-title">
-      <h1 />
-    </Localized>
-    <Localized id="faq-what-q">
-      <h3 />
-    </Localized>
-    <Localized id="faq-what-a">
-      <p />
-    </Localized>
+    {renderQA([
+      'what-cv',
+      'why-important',
+      [
+        'how-get',
+        {
+          licenseLink: (
+            <A href="https://creativecommons.org/publicdomain/zero/1.0/" />
+          ),
+          datasetLink: <LocaleLink to={URLS.DATASETS} />,
+        },
+      ],
+      [
+        'when-release',
+        { contactLink: <A href="mailto:commonvoice@mozilla.com" /> },
+      ],
+      'why-mission',
+      'what-cv-and-deepspeech',
+      'is-goal-assistant',
+      'do-want-native',
+      [
+        'why-different-speakers',
+        { articleLink: <A href="https://econ.st/2AVxVG3" /> },
+      ],
+      [
+        'why-my-lang',
+        {
+          multilangLink: (
+            <A href="https://medium.com/mozilla-open-innovation/more-common-voices-24a80c879944" />
+          ),
+        },
+      ],
+      'what-quality',
+      'why-10k-hours',
+      'how-calc-hours',
+      ['where-src-from', { italic: <i /> }],
+      'why-not-ask-read',
+    ])}
 
-    <Localized id="faq-important-q">
-      <h3 />
-    </Localized>
-    <Localized id="faq-important-a">
-      <p />
-    </Localized>
+    {[['why-account', BENEFITS], ['is-account-public', WHATS_PUBLIC]].map(
+      ([s, list]: any) => (
+        <React.Fragment key={s}>
+          <Localized id={'faq-' + s + '-q'}>
+            <h3 />
+          </Localized>
+          <ul>
+            {list.map((l: any) => (
+              <Localized id={l}>
+                <li />
+              </Localized>
+            ))}
+          </ul>
+        </React.Fragment>
+      )
+    )}
 
-    <Localized id="faq-get-q">
-      <h3 />
-    </Localized>
-    <Localized
-      id="faq-get-a"
-      downloadLink={<a href="https://voice.mozilla.org/data" />}
-      licenseLink={
-        <a href="https://creativecommons.org/publicdomain/zero/1.0/" />
-      }>
-      <p />
-    </Localized>
-
-    <Localized id="faq-mission-q">
-      <h3 />
-    </Localized>
-    <Localized id="faq-mission-a">
-      <p />
-    </Localized>
-
-    <Localized id="faq-native-q" $lang="English">
-      <h3 />
-    </Localized>
-    <Localized id="faq-native-a" bold={<b />}>
-      <p />
-    </Localized>
-
-    <Localized id="faq-firefox-q">
-      <h3 />
-    </Localized>
-    <Localized id="faq-firefox-a">
-      <p />
-    </Localized>
-
-    <Localized id="faq-quality-q">
-      <h3 />
-    </Localized>
-    <Localized id="faq-quality-a">
-      <p />
-    </Localized>
-
-    <Localized id="faq-hours-q">
-      <h3 />
-    </Localized>
-    <Localized id="faq-hours-a">
-      <p />
-    </Localized>
-
-    <Localized id="faq-source-q">
-      <h3 />
-    </Localized>
-    <Localized id="faq-source-a1" italic={<i />}>
-      <p />
-    </Localized>
-    <Localized
-      id="faq-source-a2"
-      dataLink={
-        <a
-          target="_blank"
-          href="https://github.com/mozilla/voice-web/blob/master/server/data/"
-        />
-      }>
-      <p />
-    </Localized>
+    {renderQA(['how-privacy', 'what-determine-identity'])}
 
     <a
       href="https://voice.allizom.org"
