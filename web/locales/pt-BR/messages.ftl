@@ -319,6 +319,9 @@ faq-is-account-public-q = As informações da minha conta são públicas?
 
 glossary = Glossário
 localization = Localização
+sst = Speech-to-text (STT)
+sst-explanation = Tecnologias speech-to-text (STT) convertem dados de voz para texto.
+de-identified = Identificação removida
 
 ## NotFound
 
