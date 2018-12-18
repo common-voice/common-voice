@@ -170,6 +170,7 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = Manfaat
 
 ## What's public
 
