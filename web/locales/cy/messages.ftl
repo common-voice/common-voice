@@ -342,6 +342,25 @@ faq-why-different-speakers-a =
     Mae'r rhan fwyaf o gronfeydd data llais wedi'u hyfforddi gyda gorgynrychioliad o ddemograffeg penodol sy'n arwain at ragfarn tuag at <articleLink>dynion dosbarth canolbarth</ articleLink>. Fel arfer, mae acenion a thafodieithoedd sy'n dueddol o gael eu tangynrychioli mewn hyfforddiant yn gosod setiau data yn gysylltiedig â grwpiau o bobl sydd eisoes wedi'u hymyleiddio. Mae llawer o beiriannau hefyd yn cael trafferth i ddeall lleisiau merched.
     Dyna pam rydym eisiau amrywiaeth yn ein cronfa ddata llais!
 faq-why-my-lang-q = Pam nad yw fy iaith wedi'i chynnwys eto?
+faq-why-my-lang-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru yn y gymuned yn unig, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </ multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau dim hawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill.
+faq-what-quality-q = Pa lefel o ansawdd sain sydd ei angen ar gyfer clip llais i'w ddefnyddio yn y set ddata?
+faq-what-quality-a = Rydyn eisiau i set ddata Common Voice adlewyrchu ansawdd sain y bydd peiriant llais-i-destun yn ei glywed yn gyffredin, felly rydym yn chwilio am amrywiaeth. Yn ogystal â chymuned amrywiol o siaradwyr, bydd set ddata gydag ansawdd sain amrywiol yn dysgu'r peiriant llais-i-destun i drin gwahanol sefyllfaoedd o'r byd go iawn, o gefndir gyda siarad i sŵn ceir. Cyn belled â bod eich clip llais yn ddealladwy, dylai fod yn ddigon da i'r set ddata.
+faq-why-10k-hours-q = Pam mae 10,000 o oriau wedi'u dilysu y nod iaith ar gyfer casglu sain?
+faq-why-10k-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system llais i destun.
+faq-how-calc-hours-q = Sut mae Common Voice yn cyfrifo oriau?
+faq-how-calc-hours-a = Rydym yn cyfrifo oriau trwy amcangyfrif hyd cyfartalog pob cofnod, ac yna lluosi'r rhif hwnnw gyda chyfanswm nifer y recordiadau ar draws yr holl ieithoedd.
+faq-where-src-from-q = O ble mae'r testun ffynhonnell yn dod?
+faq-where-src-from-a =
+    Mae ein testun ffynhonnell yn cynnwys rhoddion cyfrannol gwreiddiol yn ogystal â deialog o sgriptiau ffilmiau cyhoeddus fel <italic>It’s a Wonderful Life</italic>.
+    
+    Gallwch weld ein brawddegau ffynhonnell yn y ffolder GitHub hwn.
+faq-why-not-ask-read-q = Pam na wnewch chi ofyn i bobl ddarllen o lyfrau neu erthyglau Wicipedia mewn ieithoedd gwahanol?
+faq-why-not-ask-read-a = Er mwyn gwneud set ddata Common Vice mor ddefnyddiol â phosib, rydym wedi penderfynu mai dim ond caniatáu testun ffynhonnell sydd ar gael o dan drwydded Creative Commons (CC0). Mae defnyddio safon CC0 yn golygu ei bod yn anoddach dod o hyd i gasgliad o destun a chasglu testun ffynhonnell, ond mae'n caniatáu i unrhyw un ddefnyddio'r data llais dilynol heb gyfyngiadau defnydd neu awdurdodi gan Mozilla. Yn y pen draw, rydym am wneud y set ddata aml-iaith mor ddefnyddiol â phosibl i bawb, gan gynnwys ymchwilwyr, prifysgolion, cwmnïau cychwynnol, llywodraethau, sefydliadau pwrpasau cymdeithasol a hobïwyr.
+faq-why-account-q = Pam ddylwn i gofrestru am gyfrif?
+faq-is-account-public-q = A yw manylion fy nghyfrif yn gyhoeddus?
+faq-how-privacy-q = Sut ydych chi'n sicrhau anhysbysrwydd a phreifatrwydd y bobl sydd wedi cyfrannu eu lleisiau?
+faq-how-privacy-a = Mae'r holl glipiau llais yn y set ddata yn cael eu dinoethu o fanyliony byddai modd eich adnabod. Pan mae cyfrannwr yn darparu data demograffig trwy eu proffil, caiff y wybodaeth honno ei ddynodi o'u clipiau llais cyn cael ei fwndelu i'w lwytho i lawr yn y set ddata ac ni fydd byth yn cael ei gyhoeddi ar eu tudalen proffil.
+faq-what-determine-identity-q = Beth mae'n ei olygu na allaf "benderfynu ar hunaniaeth" siaradwyr yn y set ddata Llais Cyffredin?
 
 ## Glossary
 
