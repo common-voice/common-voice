@@ -175,10 +175,15 @@ sign-up-account = Cadastre uma conta
 ## Account Benefits
 
 benefits = Benefícios
+compare-progress = Veja como seu progresso se compara com outros contribuidores do mundo todo.
+view-goals = Veja seu progresso em comparação com metas pessoais e do projeto.
 
 ## What's public
 
 whats-public = O que é público?
+email-not-public = Não deixaremos público seu endereço de e-mail.
+username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
+username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
 
 ## Speak & Listen Shortcuts
 
