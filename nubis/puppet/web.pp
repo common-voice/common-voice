@@ -41,6 +41,9 @@ apache::vhost { $project_name:
     # Deflate SVG images
     AddOutputFilterByType DEFLATE image/svg+xml
 
+    # Deflate FTL
+    AddOutputFilter DEFLATE ftl
+
     # Sane expires defaults
     ExpiresActive On
     ExpiresDefault none
