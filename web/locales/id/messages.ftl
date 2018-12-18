@@ -167,6 +167,8 @@ x-years-short =
     { $count ->
        *[other] { $count }thn
     }
+help-make-dataset = Bantu kami membangun himpunan data yang terbuka untuk umum dan berkualitas tinggi
+profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
 
 ## Account Benefits
 
@@ -288,6 +290,8 @@ faq-when-release-q = Kapan Anda akan merilis data Common Voice dalam bahasa lain
 faq-why-mission-q = Mengapa Common Voice merupakan bagian dari misi Mozilla?
 faq-what-cv-and-deepspeech-q = Apa perbedaan antara Common Voice dan Deep Speech?
 faq-is-goal-assistant-q = Apakah tujuan Common Voice adalah untuk membangun asisten suara?
+faq-do-want-native-q = Saya bukan penutur jati dan saya memiliki logat bicara, apakah Anda masih menginginkan suara saya?
+faq-why-different-speakers-q = Mengapa Anda membutuhkan begitu banyak penutur yang berbeda untuk tiap-tiap bahasa?
 faq-why-my-lang-q = Mengapa bahasa saya belum termasuk?
 faq-what-quality-q = Berapa tingkat kualitas audio yang diperlukan untuk klip suara yang akan digunakan dalam himpunan data?
 faq-why-10k-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem ucapan-ke-teks produksi.
