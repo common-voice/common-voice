@@ -188,6 +188,7 @@ whats-public = O que é público?
 email-not-public = Não deixaremos público seu endereço de e-mail.
 recordings-and-locale-public = O número de gravações e para quais idiomas você contribuir serão públicos.
 username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
+demographic-deidentified = Opcionalmente, dados demográficos enviados (por exemplo, idade, sexo, idioma e sotaque) terão removida a identificação com seus dados de voz enviados, e nunca serão deixados públicos em seu perfil.
 username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
 
 ## Speak & Listen Shortcuts
@@ -303,9 +304,14 @@ faq-how-get-q = Como posso obter os dados do Common Voice?
 faq-when-release-q = Quando serão lançados os dados do Common Voice em outros idiomas?
 faq-why-mission-q = Por que o Common Voice faz parte da missão Mozilla?
 faq-what-cv-and-deepspeech-q = Qual é a diferença entre Common Voice e Deep Speech?
+faq-is-goal-assistant-q = O objetivo do Common Voice é construir um assistente de voz?
+faq-do-want-native-q = Eu não sou um falante nativo e eu falo com sotaque, vocês ainda querem minha voz?
 faq-why-different-speakers-q = Por que vocês precisam de tantas pessoas diferentes em cada idioma?
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
+faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
+faq-how-calc-hours-q = Como o Common Voice calcula horas?
 faq-where-src-from-q = De onde vem o texto de origem?
+faq-why-not-ask-read-q = Por que vocês não pedem às pessoas para ler livros ou artigos da Wikipedia em diferentes idiomas?
 faq-why-account-q = Por que devo cadastrar uma conta?
 faq-is-account-public-q = As informações da minha conta são públicas?
 
