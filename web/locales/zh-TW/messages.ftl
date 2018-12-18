@@ -167,6 +167,27 @@ x-years-short =
     { $count ->
        *[other] { $count } 年
     }
+help-make-dataset = 幫助我們打造高品質、可公開使用的資料集
+profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
+sign-up-account = 註冊帳號
+
+## Account Benefits
+
+benefits = 好處
+improve-audio = 個人資料可幫助改善進行語言識別準確度訓練時的語音資料。
+keep-track = 紀錄您的進度，以及各種語言的統計指標。
+compare-progress = 看看您的進度與世界上其他地方的貢獻者相比如何？
+view-goals = 檢視您的個人與專案目標進度。
+join-newsletter = 也可加入我們的郵件群組，可收到專案進度更新與新資訊。
+
+## What's public
+
+whats-public = 有哪些資料會公開？
+email-not-public = 我們不會公開您的 E-Mail。
+recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
+username-optin-public = 您可以讓使用者名稱公開或保持匿名。
+demographic-deidentified = 非必要提供的人口統計資料（例如年齡、性別、語言、口音）將會在您送出的語音資料中被去識別化，也永遠不會公開在您的資料上。
+username-email-not-demographic = 您的使用者名稱與 E-Mail 不會跟公開發布的資料被關聯起來。
 
 ## Speak & Listen Shortcuts
 
@@ -274,25 +295,34 @@ change-email-setings = 請到「設定」的「登入身分」修改 Email 地�
 ## FAQ
 
 faq-title = 常見問題
-faq-what-q = Common Voice 是什麼？
-faq-what-a = 語音識別技術可能會革命性地改變我們與機器互動的方式，但目前的系統不但昂貴，還是私有的系統。Common Voice 是讓語音識別技術能夠簡單地被任何人使用地專案。人們可貢獻聲音，打造一個讓任何人都可以快速而簡單即可用來訓練有語音識別功能的應用程式的巨大資料庫。所有的語音資料都會開放給開發者使用。
-faq-important-q = 有什麼重要性？
-faq-important-a = 語音是自然而有人性的。這是最簡單又最自然能夠溝通的方式。我們希望開發者們能夠打造不論是即時翻譯軟體，或是語音行政助理等等超酷的作品，但目前沒有足夠的公開資料能夠打造這些應用程式，我們也希望 Common Voice 能夠提供給開發者在進行創新時所必需的東西。
-faq-get-q = 我要如何取得 Common Voice 資料？
-faq-get-a = 已根據 <licenseLink>CC-0</licenseLink> 授權條款，於我們的<downloadLink>下載頁面</downloadLink>提供資料集。
-faq-mission-q = 為什麼 Common Voice 是 Mozilla 的使命的一部份？
-faq-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的專案來協助網路上的創作者來得到威力。隨著採用語音技術的程式激增，我們相信這些程式應該平等地服務所有使用者。在打造與測試語音科技時，也需要滿足更多語言、腔調、人口的需求，Mozilla 也想要看到能有一個健康、充滿生氣的網路環境。我們需要讓新一代的創作者能夠使用這些語音資料，打造出全新、非凡的專案。Common Voice 將會成為一套能夠幫助 Mozilla 與全球的的開發者們的公眾資源。
-faq-native-q = 我的母語不是 { $lang } 而且講話有點口音，你們還會想要我的聲音嗎？
-faq-native-a = 當然，我們絕對想要！Common Voice 的其中一個目標就是能收集越多不同腔調越好，這樣電腦就可以更完整地理解<bold>每個人</bold>所說的話。
-faq-firefox-q = 透過 Common Voice 設計出的語音轉文字識別技術，會成為 Firefox 的一部份嗎？
-faq-firefox-a = Common Voice 有無限的潛能，我們也正在 Firefox 等許多 Mozilla 產品探索語音介面的可能性。
-faq-quality-q = 要有什麼品質的錄音才可以使用？
-faq-quality-a = 我們希望語音的品質可以達到與常見的語音轉文字引擎品質相同，所以我們希望能有多元化的語音來源。如此一來，才可以將引擎教育為可以處理不同環境下的語音: 背景中吵雜的談話聲、汽車噪音、風扇噪音，而不遇到錯誤。
-faq-hours-q = 為什麼目標是取得一萬小時的錄音？
-faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
-faq-source-q = 原文文字都來自哪裡？
-faq-source-a1 = 目前是透過貢獻者捐贈語料給我們，還有公開領域的電影（例如 <italic>It’s a Wonderful Life.</italic>）的腳本台詞。
-faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我們的語句原始碼。
+faq-what-cv-q = Common Voice 是什麼？
+faq-why-important-q = 這有什麼重要？
+faq-how-get-q = 我要如何取得 Common Voice 資料？
+faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>下載，本資料集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的資料集。
+faq-when-release-q = 你們什麼時候會釋出其他語言的 Common Voice 資料？
+faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
+faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
+faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
+faq-do-want-native-q = 某種語言不是我的母語而且講話有點口音，你們還會想要我的聲音嗎？
+faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言的人？
+faq-why-my-lang-q = 為什麼還沒有我的語言？
+faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
+faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
+faq-how-calc-hours-q = Common Voice 如何計算時數？
+faq-where-src-from-q = 原始文本來自哪裡？
+faq-why-account-q = 為什麼我要註冊帳號？
+faq-is-account-public-q = 我的帳號資料是公開的嗎？
+
+## Glossary
+
+glossary = 詞彙
+localization = 在地化
+sentence-collection = 語句集合
+hours-recorded-explanation = 到目前為止我們收集到的錄音時數。
+hours-validated-explanation = 每三位使用者當中，有兩位使用者投下「正確」的錄音時數。這也就是整個專案一萬小時目標的進度。
+sst = 語音轉文字（STT）
+sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字。
+de-identified = 去識別化
 
 ## NotFound
 
