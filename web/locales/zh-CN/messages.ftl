@@ -304,8 +304,23 @@ faq-is-goal-assistant-q = Common Voice 的目标是要构建语音助手吗？
 faq-is-goal-assistant-a = Common Voice 数据集的目标是使世界上的任何人都能构建语音识别、声纹识别，以及任何其他需要语音数据的应用。语音助手只是您可以使用其构建的众多应用类型之一。
 faq-do-want-native-q = 某语言不是我的母语而且说话带有口音，你们需要这样的语音吗？
 faq-do-want-native-a = 是的，而且我们特别想要您的声音！ Common Voice 的目标之一就是收集尽可能多的不同口音，让语音识别服务能适用于每个人。这意味着非母语人士的贡献尤为重要。
+faq-why-different-speakers-q = 为什么每种语言需要这么多不同的说话者？
+faq-why-my-lang-q = 为什么还没有我的语言？
+faq-what-quality-q = 录音片段的音质要达到什么等级，才可用于数据集中？
+faq-why-10k-hours-q = 为什么每种语言均有 10,000 小时的有效音频采集目标？
+faq-why-10k-hours-a = 这是训练出可供利用的语音转文字系统所需的大约小时数。
+faq-how-calc-hours-q = Common Voice 如何计算小时数？
+faq-how-calc-hours-a = 我们通过估算每条录音的平均长度来计算小时数，并乘以所有语言录音总数来计算。
+faq-where-src-from-q = 原始文本来自哪里？
+faq-where-src-from-a =
+    我们的原始文本由原创贡献者的捐赠和来自公共领域电影剧本的对话组成，例如 <italic>It’s a Wonderful Life</italic>。
+    
+    您可以在 GitHub 文件夹中查看我们的原始语句。
+faq-why-not-ask-read-q = 你为什么不让人们使用不同语言阅读书籍或维基百科文章？
 faq-why-account-q = 为什么我要注册账号？
 faq-is-account-public-q = 我的账户信息是公开的吗？
+faq-how-privacy-q = 你们如何确保语音贡献者的匿名性和隐私？
+faq-what-determine-identity-q = 在 Common Voice 数据集中无法“确定说话者身份”是什么意思？
 
 ## Glossary
 
@@ -313,6 +328,7 @@ glossary = 词汇表
 localization = 本地化
 sentence-collection = 语句集合
 hours-recorded-explanation = 到目前为止我们收集到的录音小时数。
+hours-validated-explanation = 每 3 位用户中有 2 位投票赞成“是”的已验证录音小时数。这也就是整个项目 10000 小时目标的进度。
 sst = 语音转文字（STT）
 sst-explanation = 语音转文字（STT）技术将语音数据转换为文字。
 de-identified = 去识别化
