@@ -285,6 +285,7 @@ faq-title = Questions fréquentes
 
 ## Glossary
 
+glossary = Glossaire
 
 ## NotFound
 
