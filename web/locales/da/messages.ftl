@@ -146,17 +146,17 @@ today = I dag
 x-weeks-short =
     { $count ->
         [one] uge
-       *[other] uger
+       *[other] { $count } uger
     }
 x-months-short =
     { $count ->
-        [one] md.
-       *[other] mdr.
+        [one] { $count } md.
+       *[other] { $count } mdr.
     }
 x-years-short =
     { $count ->
         [one] år
-       *[other] år
+       *[other] { $count } år
     }
 
 ## Account Benefits
@@ -338,7 +338,7 @@ language-search-input =
 language-speakers = Talere
 localized = Oversat
 sentences = Sætninger
-total-hours = Timer i alt
+total-hours = Validerede timer
 
 ## New Contribution
 
