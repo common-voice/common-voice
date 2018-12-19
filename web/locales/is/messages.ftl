@@ -153,6 +153,7 @@ todays-progress = Árangur dagsins
 help-reach-goal = Hjálpaðu okkur að komast upp í { $goal }
 read-terms-q = Hefurðu lesið skilmálana?
 ready-to-record = Tilbúinn að leggja fram raddsýni?
+all-locales = Allt
 today = Í dag
 x-weeks-short =
     { $count ->
