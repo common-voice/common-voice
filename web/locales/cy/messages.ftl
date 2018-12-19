@@ -182,7 +182,7 @@ x-years-short =
         [many] b
        *[other] b
     }
-help-make-dataset = Helpwch ni i greu set ddata o ansawdd uch el, sy'n agored i'r cyhoedd
+help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel sy'n agored i'r cyhoedd
 profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 sign-up-account = Cofrestru am gyfrif
 
@@ -199,11 +199,11 @@ join-newsletter = Neu, ymunwch á'n rhestr e-bost am ddiweddariadau a newyddion 
 ## What's public
 
 whats-public = Beth sy'n Gyhoeddus?
-email-not-public = Fyddwn ni ddim yn gwneud e-bost yn gyhoeddus.
+email-not-public = Fyddwn ni ddim yn gwneud eich e-bost yn gyhoeddus.
 recordings-and-locale-public = Bydd y nifer o recordiadau a pha ieithoedd rydych yn cyfrannu atyn nhw yn gyhoeddus.
 username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n anhysbys.
-demographic-deidentified = Bydd data demograffig rydych wedi dewis ei gyflwyno (ee oed, rhyw, iaith ac acen) yn cael ei ddadadnabod o'ch data llais rydych wedi ei gyflwyno ac ni fydd yn cael ei wneud yn gyhoeddus ar eich proffil.
-username-email-not-demographic = Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
+demographic-deidentified = Bydd data demograffig rydych wedi dewis ei gyflwyno (e.e. oed, rhyw, iaith ac acen) yn cael ei ddadadnabod o'ch data llais rydych wedi ei gyflwyno ac ni fydd yn cael ei wneud yn gyhoeddus ar eich proffil.
+username-email-not-demographic = Ni fydd eich enw defnyddiwr na'ch e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
 
 ## Speak & Listen Shortcuts
 
