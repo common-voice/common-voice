@@ -171,9 +171,11 @@ sign-up-account = Account sernak
 
 ## Account Benefits
 
+benefits = Ṭhathnemnak
 rich-data = Na kan kuatmi aw pawl an sunlawi tuknak dingah nangmah kong tlawmpal rak kan chim. Mipi sinah nangmah kong zeihmanh kan tlanghter lai lo.
 improve-audio = Computer kan cawnpiak tikah nangmah kong kan theihnak nih tampi a kan bawmh lai.
-compare-progress = Na tuahmi hi vawleicung a um mi vialte nih an rak tuahmi he zohchih hna.
+keep-track = Na tuahcia mi vialte le holhphun dang zong zoh chih khawh.
+compare-progress = Na tuahmi hi vawleicung a um mi vialte nih an rak tuahmi he zohchih khawh.
 view-goals = Na tuahmi hi midang le riandang a tuah ve mi hna he zohchih hna.
 join-newsletter = Kan cakuatnak le thawngthanhnak cu nangmah lungduh in i tal khawh a si.
 
@@ -181,9 +183,10 @@ join-newsletter = Kan cakuatnak le thawngthanhnak cu nangmah lungduh in i tal kh
 
 whats-public = Zeidah mipi sinah a lang?
 email-not-public = Na email mipi sinah kan langhter lai lo.
-recordings-and-locale-public = Na aw na tunmi zat le zeiholh in dah na holh timi cu mipi nih zohkhawh a si lai.
-username-optin-public = Mipi sinah na username hi langhter le langhter lo nangmah nih na thim khawh.
-demographic-deidentified = Lungtho in nangmah kong (nupa sinak, kum, holh, le awicawi tbk.) na kan kuat chih khawh. Mipi sinah nangmah kong kan langhter lai lo.
+recordings-and-locale-public = Aw na tunmi zat le zeiholh in dah na holh timi cu mipi sinah a lang lai
+username-optin-public = Mipi sinah na username langhter le langhter lo nangmah nih na thim khawh.
+demographic-deidentified = Nangmah kong (nupa sinak, kum, holh, le awicawi tbk.) mipi sinah zeitik hmanhah kan langhter lai lo.
+username-email-not-demographic = Na email le username cu mipi sin chuahmi data ah a lang lai lo.
 
 ## Speak & Listen Shortcuts
 
@@ -292,9 +295,16 @@ change-email-setings = Na email setting cu luhnak ahkhan thlen khawh a si
 
 faq-title = Hal Tawnmi Bia
 faq-what-cv-q = Common Voice cu zeidah a si?
+faq-how-calc-hours-q = Zeitiin dah Common Voice nih suimilam hi a tuak?
+faq-where-src-from-q = Khoika in dah biatlang pawl hi an rat?
+faq-why-account-q = Zei ruangah dah account cu ka ser lai?
+faq-is-account-public-q = Ka account pawl hi mipi nih an hmu kho maw?
+faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lonak hnga nan tuah?
 
 ## Glossary
 
+glossary = Fianhternak
+localization = Localization
 sentence-collection = Biatlang Khawmhnak
 sentence-collection-explanation = Biatlang pawl kan khawmhnak cu mipi sinin ṭialmi siseh, a thar biatlang zong ṭial chih a si.
 hours-recorded-explanation = Suimilam kan tuncia mi vialte zohnak.
