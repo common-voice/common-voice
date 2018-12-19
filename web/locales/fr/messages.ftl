@@ -170,6 +170,12 @@ x-years-short =
        *[other] { $count } ans
     }
 
+## Account Benefits
+
+
+## What's public
+
+
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
@@ -276,25 +282,9 @@ add-language = Ajouter une langue
 ## FAQ
 
 faq-title = Questions fréquentes
-faq-what-q = Qu’est-ce que Common Voice ?
-faq-what-a = Les technologies de reconnaissance vocale pourraient révolutionner nos interactions avec les machines, mais les systèmes disponibles à l’heure actuelle sont coûteux et propriétaires. Common Voice est un projet visant à rendre accessible à quiconque ce type de technologie. Les contributeurs partagent leurs voix dans une énorme base de données qui permettra à n’importe qui de rapidement et facilement réaliser des applications utilisant la voix. Toutes les données vocales seront mises à disposition des développeurs.
-faq-important-q = Pourquoi est-ce important ?
-faq-important-a = La voix est naturelle, elle est humaine. C’est notre manière la plus simple et naturelle de communiquer. Nous voulons que les développeurs soient en mesure de mener à bien de fabuleux projets, qu’il s’agisse de traducteurs en temps réel ou d’assistants administratifs. Mais à l’heure actuelle, il n’y a pas assez de données accessibles publiquement pour pouvoir réaliser ces types d’applications. Nous espérons que Common Voice donnera aux développeurs ce dont ils ont besoin pour innover.
-faq-get-q = Comment puis-je obtenir les données de Common Voice ?
-faq-get-a = Le jeu de données est disponible sur notre <downloadLink>page de téléchargements</downloadLink> sous licence <licenseLink>CC-0</licenseLink>.
-faq-mission-q = En quoi le projet Common Voice fait-il partie de la mission de Mozilla ?
-faq-mission-a = Mozilla a pour vocation de conserver le Web ouvert et accessible à tout le monde. Pour y parvenir, nous devons doter les créateurs d’outils comme Common Voice. Les technologies vocales prolifèrent maintenant au-delà de certaines niches, et nous pensons qu’elles doivent être équitablement utilisables. Nous voyons un besoin d’inclure plus de langues, d’accents et de tranches d’âge pour la création et le test des technologies vocales. Mozilla veut un Internet actif, en bonne santé. Cela implique de donner accès, aux créateurs sur le Web, à des données vocales qu’ils peuvent utiliser pour de nouveaux projets. Common Voice deviendra une ressource publique qui aidera les équipes de Mozilla et les développeurs du monde entier.
-faq-native-q = Je parle { $lang }, mais ce n’est pas ma langue maternelle et j’ai un accent, ma voix est-elle utile ?
-faq-native-a = Absolument, nous avons besoin de votre voix ! Une partie des objectifs de Common Voice est de collecter autant d’accents que possible pour que les machines puissent mieux interpréter la voix de <bold>tout le monde</bold>.
-faq-firefox-q = La synthèse vocale fera-t-elle un jour partie de Firefox grâce à Common Voice ?
-faq-firefox-a = Common Voice a un potentiel illimité et nous étudions l’utilisation d’interfaces vocales au sein de nombreux logiciels Mozilla, dont Firefox.
-faq-quality-q = Quel est le niveau de qualité audio requis ?
-faq-quality-a = Nous voulons une qualité audio qui corresponde à ce qu’un moteur de reconnaissance vocale devra affronter dans la vie courante. Nous avons donc besoin de variété. Cela entraîne le moteur à prendre correctement en compte différentes situations : des discussions en arrière-plan, des bruits de moteurs ou des bruits de ventilateurs.
-faq-hours-q = Pourquoi l’objectif de collecte de son est-il fixé à 10 000 heures ?
-faq-hours-a = C’est à peu près la quantité de données nécessaire pour être en mesure de produire un système de reconnaissance vocale de qualité.
-faq-source-q = Quelle est la provenance des textes ?
-faq-source-a1 = Les phrases actuelles proviennent de contributions individuelles ainsi que des dialogues de certains films dans le domaine public comme <italic>La vie est belle</italic>.
-faq-source-a2 = Les phrases sources sont accessibles <dataLink>dans ce dossier</dataLink> sur GitHub.
+
+## Glossary
+
 
 ## NotFound
 
@@ -370,12 +360,12 @@ language-section-launched = Lancées
 language-section-launched-new-description = Pour ces langues activées, le site web a été complètement traduit et assez de phrases ont été collectées pour permettre des contributions de <italic>voix</italic> et d’<italic>écoute</italic>.
 languages-show-more = Afficher davantage de langues
 languages-show-less = Afficher moins de langues
-language-speakers = Locuteurs
+language-speakers = Locuteurs et locutrices
 language-meter-in-progress = En cours
 language-total-progress = Total
 language-search-input =
     .placeholder = Rechercher
-language-speakers = Locuteurs
+language-speakers = Locuteurs et locutrices
 localized = Traduction
 sentences = Phrases
 total-hours = Total d’heures
