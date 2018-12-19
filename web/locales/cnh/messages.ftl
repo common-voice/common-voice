@@ -183,6 +183,7 @@ whats-public = Zeidah mipi sinah a lang?
 email-not-public = Na email mipi sinah kan langhter lai lo.
 recordings-and-locale-public = Na aw na tunmi zat le zeiholh in dah na holh timi cu mipi nih zohkhawh a si lai.
 username-optin-public = Mipi sinah na username hi langhter le langhter lo nangmah nih na thim khawh.
+demographic-deidentified = Lungtho in nangmah kong (nupa sinak, kum, holh, le awicawi tbk.) na kan kuat chih khawh. Mipi sinah nangmah kong kan langhter lai lo.
 
 ## Speak & Listen Shortcuts
 
@@ -285,13 +286,23 @@ file_too_large = Na thimmi a lian tuk
 manage-subscriptions = Cakuat Zohkhenhnak
 email-already-used = Na email cu midang nih an hman cang
 add-language = Holhphun Chapnak
+change-email-setings = Na email setting cu luhnak ahkhan thlen khawh a si
 
 ## FAQ
 
 faq-title = Hal Tawnmi Bia
+faq-what-cv-q = Common Voice cu zeidah a si?
 
 ## Glossary
 
+sentence-collection = Biatlang Khawmhnak
+sentence-collection-explanation = Biatlang pawl kan khawmhnak cu mipi sinin ṭialmi siseh, a thar biatlang zong ṭial chih a si.
+hours-recorded-explanation = Suimilam kan tuncia mi vialte zohnak.
+hours-validated-explanation = A kan bawmtu minung 3 chungah 2 nih "a si" tiah biatlang an chek cangmi. Hi nih hin kan i tinhmi suimilam thonghra 10 cu a langhter.
+sst = Speech-to-text (STT)
+sst-explanation = Speech-to-text (STT) technologies nih cun holh kha ca in a leh khawh.
+de-identified = Langhter hlah
+de-identified-explanation = Midang nih kan pumhmi data an dawnlok tikah nangmah kong vialte kan langhter lonak a si.
 
 ## NotFound
 
@@ -363,6 +374,7 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 
 ## Languages Overview
 
+language-section-in-progress = Tuah lio mi
 language-section-in-progress-description = Tuah lio cuahmah mi holhphun hna cu anmah ram le miphun cio nih bawmhnak in ser an si; An ṭhanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
 language-section-launched = Thlah cangmi
 language-section-launched-new-description = Hi thlah cangmi holhphun hna caah cun tlamtling tein website hi an mah le holh cio in leh piak dih an si cang, cun biatlang zong a zatawk tein <italic> Chim</italic> le <italic> Ngaih</italic> khawhnak caah an khomh khawh cang.
@@ -447,7 +459,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Na Holhphun
 toward-next-goal = Hmailei tinhmi
+clips-you-recorded = Na tuncia mi
+clips-you-validated = Na chek cia mi
+todays-recorded-progress = Tuni Common Voice aw tunmi
+todays-validated-progress = Tuni Common Voice check cangmi
 you = Nangmah
 everyone = Bawmtu dihlak
 contribution-activity = Bawmtu Cawlcanghnak
