@@ -174,7 +174,7 @@ x-years-short =
         [few] { $count } lěta
        *[other] { $count } lět
     }
-help-make-dataset = Pomhajće nam, zjawnje přistupnu wotewrjenu dattowu sadźbu wysokeje kwality wutworić
+help-make-dataset = Pomhajće nam, zjawnje přistupnu wotewrjenu datowu sadźbu wysokeje kwality wutworić
 profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 sign-up-account = Konto załožić
 
@@ -306,7 +306,7 @@ faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
 faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
 faq-is-goal-assistant-q = Je cile Common Voice, hłosowy asistent wutworić?
 faq-why-different-speakers-q = Čehodla trjebaće wjele rozdźělnych rěčnikow na rěč?
-faq-why-my-lang-q = Čeholda moja rěč hišće njeje?
+faq-why-my-lang-q = Čehodla moja rěč hišće njeje?
 faq-how-calc-hours-q = Kak Common Voice hodźiny wobličuje?
 faq-where-src-from-q = Zwotkel žórłowy tekst pochadźa?
 faq-why-account-q = Čehodla měł ja konto załožić?
