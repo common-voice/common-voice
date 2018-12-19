@@ -166,6 +166,20 @@ x-years-short =
     { $count ->
        *[other] { $count } anni
     }
+help-make-dataset = Aiutaci a realizzare un dataset di alta qualità e aperto
+sign-up-account = Registrati
+
+## Account Benefits
+
+benefits = Vantaggi
+improve-audio = Le informazioni del profilo migliorano i dati audio utilizzati nell’addestramento di precisione del riconoscimento vocale.
+
+## What's public
+
+email-not-public = Non renderemo il tuo indirizzo email pubblico.
+recordings-and-locale-public = Il numero di registrazioni e le lingue alle quali contribuisci saranno pubbliche.
+username-optin-public = Puoi scegliere di rendere il tuo nome utente pubblico o anonimo.
+username-email-not-demographic = Il tuo nome utente e il tuo indirizzo email non verranno associati ai dati pubblicati.
 
 ## Speak & Listen Shortcuts
 
@@ -274,25 +288,15 @@ change-email-setings = Modifica la tua email dalle impostazioni sotto la voce Id
 ## FAQ
 
 faq-title = Domande più frequenti
-faq-what-q = Che cosa è Common Voice?
-faq-what-a = La tecnologia di riconoscimento vocale può rivoluzionare il modo in cui interagiamo con le macchine, ma i sistemi attualmente disponibili sono tutti costosi e proprietari. Common Voice è un progetto nato per realizzare una tecnologia di riconoscimento vocale accessibile a chiunque. Le persone donano la loro voce a un grande database che chiunque potrà sfruttare per addestrare applicativi basati sul controllo vocale in modo semplice e veloce. Tutti i dati vocali raccolti saranno messi a disposizione degli sviluppatori.
-faq-important-q = Perché è così importante?
-faq-important-a = La voce è naturale, la voce è umanità. È il modo più immediato e spontaneo che conosciamo per comunicare. Tutti gli sviluppatori dovrebbero avere la possibilità di realizzare applicazioni innovative, dai traduttori automatici in tempo reale fino agli assistenti digitali parlanti. Finora questo tipo di applicazioni è rimasto fuori dalla portata dei piccoli sviluppatori a causa della mancanza di dati vocali liberamente accessibili. Con il progetto Common Voice desideriamo offrire a tutti le potenzialità per realizzare qualcosa di innovativo.
-faq-get-q = Come posso ottenere i dati di Common Voice?
-faq-get-a = Puoi scaricare il dataset dalla <downloadLink>pagina di download</downloadLink> sotto licenza <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Perché il progetto Common Voice rientra nella missione di Mozilla?
-faq-mission-a = La missione di Mozilla è mantenere il Web aperto e accessibile a tutti. Questo significa anche offrire nuove opportunità agli autori di contenuti del Web attraverso progetti come Common Voice. Ora che le tecnologie vocali non sono più applicativi di nicchia, riteniamo importante metterle al servizio di tutti gli utenti senza discriminazioni. Vediamo la necessità di incorporare nello sviluppo e nei test delle tecnologie vocali nuove lingue, accenti e varianti demografiche. Mozilla vuole un Internet in salute e attivo, per questo offrirà ai creatori di contenuti accesso ai dati vocali in modo da permettere loro di sviluppare nuovi, straordinari progetti. Common Voice è una risorsa pubblica che offrirà nuove opportunità ai team di Mozilla e agli sviluppatori di tutto il mondo.
-faq-native-q = Io non sono un madre lingua { $lang }, ma parlo con un accento straniero. La mia voce può esservi utile lo stesso?
-faq-native-a = Sì, la tua voce ci sarà di grande aiuto! Uno degli obiettivi di Common Voice è raccogliere più accenti diversi possibili, in modo che i computer siano in grado di capire il modo di parlare di <bold>tutti</bold>.
-faq-firefox-q = Common Voice verrà utilizzato in futuro per integrare il riconoscimento vocale in Firefox?
-faq-firefox-a = Common Voice ha un potenziale illimitato, infatti stiamo studiando come implementare interfacce vocali in diversi prodotti Mozilla, incluso Firefox.
-faq-quality-q = Quale è il livello di qualità audio richiesto per la registrazione?
-faq-quality-a = Vogliamo che le registrazioni rispecchino la qualità audio che un sistema di conversione vocale potrebbe dover elaborare nella vita di tutti i giorni. In altre parole, ci serve varietà. Più varietà di qualità audio raccoglieremo, meglio il motore di conversione vocale sarà in grado di gestire senza errori diverse situazioni (voci di sottofondo, rumori del traffico, sistemi di ventilazione ecc.).
-faq-hours-q = Perché il traguardo è proprio 10.000 ore di registrazioni audio?
-faq-hours-a = Perché questo è approssimativamente il numero di ore necessario per addestrare un software di conversione vocale.
-faq-source-q = Da dove provengono i testi?
-faq-source-a1 = I testi utilizzati provengono da frasi condivise dai collaboratori volontari e da dialoghi tratti dai copioni di film di pubblico dominio come <italic>La vita è meravigliosa.</italic>
-faq-source-a2 = Puoi trovare i testi in <dataLink>questa cartella GitHub</dataLink>.
+faq-what-cv-q = Che cos’è Common Voice?
+faq-why-important-q = Perché è importante?
+faq-how-get-q = Come posso ottenere i dati di Common Voice?
+faq-when-release-q = Quando verranno pubblicati i dati di Common Voice in altre lingue?
+faq-what-cv-and-deepspeech-q = Qual è la differenza tra Common Voice e Deep Speech?
+faq-do-want-native-q = Non sono un madrelingua ma parlo con accento straniero. Avete comunque bisogno della mia voce?
+
+## Glossary
+
 
 ## NotFound
 
