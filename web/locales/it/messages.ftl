@@ -167,15 +167,22 @@ x-years-short =
        *[other] { $count } anni
     }
 help-make-dataset = Aiutaci a realizzare un dataset di alta qualità e aperto
+profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
 sign-up-account = Registrati
 
 ## Account Benefits
 
 benefits = Vantaggi
+rich-data = Arricchisci i dati inviati fornendo alcune informazioni demografiche anonime. Queste informazioni vengono rimosse prima di rendere pubblici i dati.
 improve-audio = Le informazioni del profilo migliorano i dati audio utilizzati nell’addestramento di precisione del riconoscimento vocale.
+keep-track = Tieni traccia di tutti i progressi e metriche in più lingue.
+compare-progress = Confronta i tuoi progressi con quelli di altri collaboratori di tutto il mondo.
+view-goals = Confronta i tuoi progressi con gli obiettivi personali e del progetto.
+join-newsletter = Se lo desideri, iscriviti alla mailing list per ricevere aggiornamenti e novità sul progetto.
 
 ## What's public
 
+whats-public = Quali dati sono pubblici?
 email-not-public = Non renderemo il tuo indirizzo email pubblico.
 recordings-and-locale-public = Il numero di registrazioni e le lingue alle quali contribuisci saranno pubbliche.
 username-optin-public = Puoi scegliere di rendere il tuo nome utente pubblico o anonimo.
