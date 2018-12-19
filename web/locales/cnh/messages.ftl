@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Kua
 loading = Thunlio...
+email-opt-in-privacy = Kan email i luh duhnak nai thim cu Mozilla nih <privacyLink> Kilvennak Policy <privacyLink> ning bantuk in keimah kong tawlrel ko, na ti duhnak a si.
 indicates-required = * aherh mi a um
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -17,6 +18,7 @@ indicates-required = * aherh mi a um
 ## Languages
 
 ace = Acehnese holh
+af = Afrikaans holh
 an = Aragon holh (Spain)
 ar = Arabic holh
 as = Assam holh
@@ -295,6 +297,9 @@ change-email-setings = Na email setting cu luhnak ahkhan thlen khawh a si
 
 faq-title = Hal Tawnmi Bia
 faq-what-cv-q = Common Voice cu zeidah a si?
+faq-what-cv-a = Holh in computer kan chawnh khawhnak nih hin zeitin dah computer he kan i pehtlaih ti hi biatak tein a kan thlen, a sinain hman khawh mi pawl cu an man fak tuk i holh tam piin an ngah rih lo. Common Voice cu Mozzila nih a tuahmi, a holhphun kip in computer chawnh khawhnak dingah a si. Common Voice cu vawleicung mikip nih fawi tein an aw an tunnak database a nganpi a si.
+faq-why-important-q = Zei ruangah dah a bia pit?
+faq-why-important-a = Holh in hin i chawnhkhanh a si i cucu kan computer le fawn nih hin kan hmai ah fawi tein an tuah. Computer serthiam hna nih holh a thei khomi computer hi holh lehnak ti bantuk caah serkho hna seh ti hi kan duh.  Asinain, hi serkhawhnak dingah cun aw hi tamtuk a herh i phaisa zong tampi dih a herh fawn. Hi Common Voice pumhmi data nihhin computer thiam pawl,  an mah le holh cio in holh theimi computer ser cio hna seh tihi kan duh.
 faq-how-calc-hours-q = Zeitiin dah Common Voice nih suimilam hi a tuak?
 faq-where-src-from-q = Khoika in dah biatlang pawl hi an rat?
 faq-why-account-q = Zei ruangah dah account cu ka ser lai?
@@ -305,6 +310,7 @@ faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lona
 
 glossary = Fianhternak
 localization = Localization
+localization-explanation = Hihi cu an mah le an holhphun cio in ca an lehnak a si.
 sentence-collection = Biatlang Khawmhnak
 sentence-collection-explanation = Biatlang pawl kan khawmhnak cu mipi sinin ṭialmi siseh, a thar biatlang zong ṭial chih a si.
 hours-recorded-explanation = Suimilam kan tuncia mi vialte zohnak.
