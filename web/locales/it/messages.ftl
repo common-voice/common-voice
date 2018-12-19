@@ -297,9 +297,19 @@ change-email-setings = Modifica la tua email dalle impostazioni sotto la voce Id
 faq-title = Domande più frequenti
 faq-what-cv-q = Che cos’è Common Voice?
 faq-why-important-q = Perché è importante?
+faq-why-important-a =
+    Parlare è spesso il modo più naturale di comunicare e le tecnologie vocali stanno introducendo questa facoltà anche nei nostri computer e dispositivi mobili. Vogliamo consentire agli sviluppatori di realizzare nuove applicazioni strabilianti basate sul riconoscimento vocale, come traduttori in tempo reale e assistenti digitali. Ma attualmente la maggior parte dei dati vocali richiesti per realizzare questo tipo di app sono costosi e proprietari. Con il dataset di Common Voice intendiamo fornire agli sviluppatori le risorse necessarie per innovare e rendere la tecnologia vocale disponibile nella propria lingua.
+    
+    Per rendere il riconoscimento vocale ancora più universale, stiamo raccogliendo campioni vocali nelle lingue più comuni, ma anche in quelle parlate da un ristretto numero di persone e che spesso vengono ignorate dai servizi di riconoscimento vocale commerciali. Pubblicando un insieme di dataset diversificato offriamo agli sviluppatori, agli imprenditori e a intere comunità linguistiche le risorse per colmare da soli questa lacuna.
 faq-how-get-q = Come posso ottenere i dati di Common Voice?
+faq-how-get-a = Il dataset di Common Voice è disponibile per essere scaricato sotto la licenza <licenseLink>CC0</licenseLink> dalla <datasetLink>pagina Dataset</datasetLink>. Nella stessa pagina puoi trovare molti altri dataset scaricabili pubblicamente.
 faq-when-release-q = Quando verranno pubblicati i dati di Common Voice in altre lingue?
+faq-when-release-a = La versione multilingua del dataset di Common Voice è attualmente in fase di costruzione e rifinitura per mano della nostra comunità. Se vuoi saperne di più su come sostenere questo sforzo, <contactLink>contattaci</contactLink>. Al momento la pubblicazione è prevista per gennaio 2019. Successivamente aggiorneremo periodicamente il dataset con nuove lingue e con registrazioni vocali appena diventano disponibili. È ancora da determinare la cadenza dell’aggiornamento periodico.
+faq-why-mission-q = In che modo Common Voice rientra nella missione di Mozilla?
+faq-why-mission-a = La missione di Mozilla è mantenere il Web aperto e accessibile a tutti. Questo include anche offrire opportunità agli autori di contenuti Web attraverso progetti come Common Voice. Ora che le tecnologie vocali non sono più applicazioni di nicchia, crediamo che dovrebbero essere disponibili per tutti senza alcuna discriminazione. Ciò significa investire nello sviluppo e nel collaudo di più lingue, tenendo in considerazione i diversi accenti e varianti demografiche. Common Voice è una risorsa pubblica disponibile per tutti: i team di Mozilla e gli sviluppatori in tutto il mondo lo stanno già utilizzando per propri progetti.
 faq-what-cv-and-deepspeech-q = Qual è la differenza tra Common Voice e Deep Speech?
+faq-what-cv-and-deepspeech-a = Il dataset di Common Voice integra Deep Speech, il motore di riconoscimento vocale open source di Mozilla. La prima versione di Deep Speech è stata rilasciata a novembre 2017 e ha continuato a evolversi da allora. Crediamo che questa tecnologia di riconoscimento vocale open source, insieme al dataset di Common Voice, dovrebbe essere disponibile per tutti. Speriamo che queste tecnologie permetteranno agli sviluppatori di realizzare la prossima ondata di prodotti e servizi innovativi.
+faq-is-goal-assistant-q = L’obiettivo di Common Voice è produrre un assistente vocale?
 faq-do-want-native-q = Non sono un madrelingua ma parlo con accento straniero. Avete comunque bisogno della mia voce?
 
 ## Glossary
@@ -399,7 +409,7 @@ skip = Salta
 shortcuts = Scorciatoie
 clips-with-count = <bold>{ $count }</bold> registrazioni
 goal-help-recording = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le registrazioni.
-goal-help-validation = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le conferme.
+goal-help-validation = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le convalide.
 contribute-more = Sei pronto a farne ancora { $count }?
 record-cta = Avvia la registrazione
 record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
