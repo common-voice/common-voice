@@ -296,6 +296,7 @@ faq-what-cv-q = Hvað er Samrómur?
 glossary = Orðaskýringar
 localization = Staðfærsla
 sentence-collection = Setningaforði
+sentence-collection-explanation = Söfnun á almennum setningum eða að skrifa nýjar fyrir almenning.
 
 ## NotFound
 
