@@ -5,7 +5,7 @@ stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi v
 privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
 email-input =
-    .label = Mail
+    .label = Mailadresse
 submit-form-action = Indsend
 loading = Indlæser…
 
@@ -150,7 +150,7 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] { $count } md.
+        [one] md.
        *[other] { $count } mdr.
     }
 x-years-short =
@@ -301,7 +301,7 @@ review-delete-recordings = Slet mine optagelser
 download-title = Din filhentning er startet.
 download-helpus = Hold kontakten via mail og hjælp os med at skabe et fællesskab omkring stemmeteknologi.
 download-form-email =
-    .label = Indtast din mail
+    .label = Indtast din mailadresse
     .value = Tak, vi vender tilbage
 download-back = Tilbage til datasæt for Common Voice
 download-no = Nej tak
