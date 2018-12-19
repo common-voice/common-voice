@@ -299,9 +299,19 @@ faq-title = Hal Tawnmi Bia
 faq-what-cv-q = Common Voice cu zeidah a si?
 faq-what-cv-a = Holh in computer kan chawnh khawhnak nih hin zeitin dah computer he kan i pehtlaih ti hi biatak tein a kan thlen, a sinain hman khawh mi pawl cu an man fak tuk i holh tam piin an ngah rih lo. Common Voice cu Mozzila nih a tuahmi, a holhphun kip in computer chawnh khawhnak dingah a si. Common Voice cu vawleicung mikip nih fawi tein an aw an tunnak database a nganpi a si.
 faq-why-important-q = Zei ruangah dah a bia pit?
-faq-why-important-a = Holh in hin i chawnhkhanh a si i cucu kan computer le fawn nih hin kan hmai ah fawi tein an tuah. Computer serthiam hna nih holh a thei khomi computer hi holh lehnak ti bantuk caah serkho hna seh ti hi kan duh.  Asinain, hi serkhawhnak dingah cun aw hi tamtuk a herh i phaisa zong tampi dih a herh fawn. Hi Common Voice pumhmi data nihhin computer thiam pawl,  an mah le holh cio in holh theimi computer ser cio hna seh tihi kan duh.
+faq-why-important-a =
+    Holh in hin i chawnhkhanh a si i cucu kan computer le fawn nih hin kan hmai ah fawi tein an tuah. Computer serthiam hna nih holh a thei khomi computer hi holh lehnak ti bantuk caah serkho hna seh ti hi kan duh.  Asinain, hi serkhawhnak dingah cun aw hi tamtuk a herh i phaisa zong tampi dih a herh fawn. Hi Common Voice pumhmi data nihhin computer thiam pawl,  an mah le holh cio in holh theimi computer ser cio hna seh tihi kan duh.
+    
+    Cucu vawleicung holh phun kip in a ngah khawhnak caah cun holhphun kip in holh mi aw, mi tampi siseh mi tlawmte holh siseh, kan lak. Hi vialte kan lakmi aw nih hin computer thiam mi hna le sipuaizi tuah tu hna nih an mah le ram cio in chawnh khawhmi computer ser hram an thok lai hi kan duh.
+faq-how-get-q = Common Voice data hi zeitindah ka lak khawh lai?
+faq-why-mission-q = Zei ruangah dah Common Voice hi Mozilla nih a khinhmi rian pakhat a si ve?
+faq-what-cv-and-deepspeech-q = Common le Deep Speech ai dannak hi zeidah a si?
+faq-is-goal-assistant-q = Common Voice nih ai tinhmi  hi holh bawmtu (voice assistant) ser a si maw?
+faq-why-my-lang-q = Zeiruangah dah ka holhphun ai tal ve lo?
 faq-how-calc-hours-q = Zeitiin dah Common Voice nih suimilam hi a tuak?
 faq-where-src-from-q = Khoika in dah biatlang pawl hi an rat?
+faq-where-src-from-a = Kan biatlang hnu cu ṭial chommi, cauk le <italic> Kenneth Van Bik Dictionary</italic> ti bantuk i lakmi an si.
+faq-why-not-ask-read-q = Zeiruangah dah cauk silole Wikipedia ca pawl mipi nan rel ter hna lo?
 faq-why-account-q = Zei ruangah dah account cu ka ser lai?
 faq-is-account-public-q = Ka account pawl hi mipi nih an hmu kho maw?
 faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lonak hnga nan tuah?
