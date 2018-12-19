@@ -438,7 +438,7 @@ validations =
 
 ## Dashboard
 
-your-languages = Vos langues
+your-languages = Vos langues 
 toward-next-goal = Vers le prochain objectif
 clips-you-recorded = Les échantillons que vous avez enregistrés
 clips-you-validated = Les échantillons que vous avez validés
