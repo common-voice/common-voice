@@ -18,6 +18,7 @@ indicates-required = * táknar nauðsynlegan reit
 ## Languages
 
 ace = Aseníska
+af = Afríkanska
 an = Aragónska
 ar = Arabíska
 as = Assamíska
@@ -152,7 +153,6 @@ todays-progress = Árangur dagsins
 help-reach-goal = Hjálpaðu okkur að komast upp í { $goal }
 read-terms-q = Hefurðu lesið skilmálana?
 ready-to-record = Tilbúinn að leggja fram raddsýni?
-all-languages = Öll tungumál
 today = Í dag
 x-weeks-short =
     { $count ->
@@ -169,6 +169,12 @@ x-years-short =
         [one] ár
        *[other] { $count }ár
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -276,25 +282,9 @@ add-language = Bæta við tungumáli
 ## FAQ
 
 faq-title = Algengar spurningar
-faq-what-q = Hvað er Samrómur?
-faq-what-a = Raddgreiningartækni gæti gjörbylt samskiptum okkar við vélar, en þau kerfi sem eru þegar fyrir hendi eru kostnaðarsamur séreignarhugbúnaður. Sameiginlega raddverkefninu er ætlað að gera raddgreiningartækni auðfáanlega öllum. Fólk leggur til raddsýni af sjálfu sér í stóran gagnagrunn, sem á að gera öllum kleift að skilyrða raddstýrðan hugbúnað fljótt og þægilega. Öll raddgögn verða fáanleg þróendum hugbúnaðar.
-faq-important-q = Því er það mikilvægt?
-faq-important-a = Rödd er náttúruleg, rödd er mannleg. Hún er einfaldasta og eðlilegasta leiðin til að eiga samskipti. Við viljum að þróendum sé kleift að smíða mögnuð fyrirbæri úr þýðendum í rauntíma yfir í raddstýrð hjálpartól til stjórnunar. En eins og er eru ekki nægjanleg gögn fáanleg almenningi til að smíða slík tól. Við vonum að Sameiginlega röddin færi þróendum þau verkfæri sem þróun nýjunga krefst.
-faq-get-q = Hvernig fæ ég Samróm?
-faq-get-a = Gagnasafnið er nú fáanlegt á <downloadLink>niðuhalsvefnum</downloadLink> okkar undir leyfinu <licenseLnk>CC-0</licenseLink>.
-faq-mission-q = Því er Samrómur hluti Mozilla-verkefnisins?
-faq-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Samróm. Líkt og raddbúnaðartæknin er þróuð umfram forrit sem eru dýr fyrir endanotendur, þá trúum við að hún verði að þjóna öllu fólki jafnt. Við finnum þörf til þess að fjölga tungumálum, framburðarsýnum og lýðfræðilegum upplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Mozilla vill sjá heilbrigt, lifandi internet. Það þýðir að nýjum þróendum um allan heim er gefinn aðgangur að raddgögnum, svo að þeim sé kleift að stofna ný, framúrskarandi verkefni. Sameiginlega röddin verður opinn grunnur sem mun gagnast Mozilla teymum og þróendum úti um heim.
-faq-native-q = { $lang } er ekki móðurmál mitt og ég tala með hreim, viljið þið enn raddsýnið mitt?
-faq-native-a = Já, sannarlega viljum við röddina þína! Hluti markmiða Samróms er að safna eins mörgum mismunandi framburðardæmum og hægt er, svo tölvur geti skilið betur <bold>alla</bold> þegar þeir tala.
-faq-firefox-q = Verður raddskráningarvél, í gegnum Samróm, einhvern tíma partur af Firefox?
-faq-firefox-a = Samrómur hefur ómælda möguleika og sannarlega könnum við raddviðmót í mörgum Mozilla vörum, þar á meðal Firefox.
-faq-quality-q = Hvaða hljóðgæða er krafist til þess að hljóðgögn séu notuð?
-faq-quality-a = Við viljum að hljóðgæðin endurspegli þau hljóðgæði sem raddskráningarvélin mun fást við úr hinu óþekkta. Fyrir vikið, þá viljum við fjölbreytni. Þetta kennir raddskráningarvélinni að bregðast við ákveðnum tilfellum—tali í bakgrunni, bíhljóðum, viftuhljóðum—án villna.
-faq-hours-q = Hvers vegna eru 10.000 klukkustundir áætluð þörf hljóðritunar?
-faq-hours-a = Þetta er áætlaður fjöldi klst. til þess að þjálfa STT-framleiðslukerfi.
-faq-source-q = Hver er uppruni textans?
-faq-source-a1 = Setningar í notkun eru framlög frá notendum, auk þess sem notuð eru gögn úr almenningssöfnum á borð við samtöl úr kvikmyndum eins og <italic>Lífið er yndislegt.</italic>
-faq-source-a2 = Þú getur skoðað upprunalegu setningarnar í <dataLink>þessari GitHub möppu</dataLink>.
+
+## Glossary
+
 
 ## NotFound
 
