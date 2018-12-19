@@ -169,9 +169,11 @@ x-years-short =
         [one] an
        *[other] { $count } ans
     }
+sign-up-account = Créer un compte
 
 ## Account Benefits
 
+benefits = Avantages
 
 ## What's public
 
