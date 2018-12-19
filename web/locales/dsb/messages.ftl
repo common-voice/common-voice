@@ -318,6 +318,10 @@ faq-is-account-public-q = Su móje kontowe informacije zjawne?
 glossary = Glosar
 localization = Lokalizacija
 sentence-collection = Zběrka sadow
+hours-recorded-explanation = Licba dotychměst nagromaźonych nagratych góźinow.
+sst = Powědanje-do-teksta (STT)
+sst-explanation = Technologije Powědanje-do-teksta (STT) głosowe daty to teksta konwertěruju.
+de-identified = Anonymizěrowane
 
 ## NotFound
 
