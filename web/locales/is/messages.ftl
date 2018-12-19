@@ -170,12 +170,17 @@ x-years-short =
         [one] ár
        *[other] { $count }ár
     }
+help-make-dataset = Hjálpaðu okkur að byggja upp hágæða gagnasafn handa almenningi.
+profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
+sign-up-account = Búa til aðgang
 
 ## Account Benefits
 
+benefits = Kostir
 
 ## What's public
 
+username-email-not-demographic = Notandanafnið þitt og netfang verður ekki tengt gögnum útgáfunnar.
 
 ## Speak & Listen Shortcuts
 
@@ -279,13 +284,18 @@ file_too_large = Myndin sem var valin er of stór
 manage-subscriptions = Stjórna áskriftum
 email-already-used = Netfang er þegar í notkun á öðrum reikningi
 add-language = Bæta við tungumáli
+change-email-setings = Breyta netfangi með því að nota stillingar undir Innskráningarauðkenni
 
 ## FAQ
 
 faq-title = Algengar spurningar
+faq-what-cv-q = Hvað er Samrómur?
 
 ## Glossary
 
+glossary = Orðaskýringar
+localization = Staðfærsla
+sentence-collection = Setningaforði
 
 ## NotFound
 
