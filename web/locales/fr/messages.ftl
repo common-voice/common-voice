@@ -175,6 +175,7 @@ x-years-short =
 
 ## What's public
 
+recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
 
 ## Speak & Listen Shortcuts
 
@@ -282,6 +283,8 @@ add-language = Ajouter une langue
 ## FAQ
 
 faq-title = Questions fréquentes
+faq-what-cv-q = Qu’est-ce que Common Voice ?
+faq-why-important-q = Pourquoi est-ce important ?
 
 ## Glossary
 
