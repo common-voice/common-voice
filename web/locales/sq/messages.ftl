@@ -264,6 +264,7 @@ add-language = Shtoni Gjuhë
 faq-title = Pyetje të Bëra Shpesh
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
 faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh togfjalëshash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
+faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
 
 ## Glossary
 
