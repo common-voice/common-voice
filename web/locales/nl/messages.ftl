@@ -315,9 +315,49 @@ faq-when-release-a = De meertalige versie van de gegevensset van Common Voice wo
 faq-why-mission-q = Waarom is Common Voice onderdeel van de Mozilla-missie?
 faq-why-mission-a = Mozilla wijdt zich aan het voor iedereen open en toegankelijk houden van het internet. Om dat te doen, moeten we webmakers middelen geven met projecten als Common Voice. Omdat spraaktechnologieën steeds meer worden toegepast, geloven we dat ze alle gebruikers ten dienste moeten staan. Dat betekent investeren in meer talen, en ruimte bieden voor verschillende accenten en bevolkingsverschillen bij het bouwen en testen van spraaktechnologieën. Common Voice is een voor iedereen beschikbare publieke bron, en Mozilla-teams en ontwikkelaars over de hele wereld gebruiken het ook al voor onze eigen projecten.
 faq-what-cv-and-deepspeech-q = Wat is het verschil tussen Common Voice en Deep Speech?
+faq-what-cv-and-deepspeech-a = De Common Voice-gegevensset is een aanvulling op Mozilla’s opensource-spraakherkenningsengine Deep Speech. De eerste versie van Deep Speech werd uitgebracht in november 2017 en is sindsdien blijven evolueren. We vinden dat deze opensource-spraakherkenningstechnologie samen met de Common Voice-gegevensset voor iedereen beschikbaar moet zijn. Onze hoop is dat deze technologieën ontwikkelaars in staat zullen stellen een golf van innovatieve producten en diensten te bouwen.
+faq-is-goal-assistant-q = Is het doel van Common Voice om een spraakassistent te bouwen?
+faq-is-goal-assistant-a = Het doel van de Common Voice-gegevensset is om iedereen in de wereld in staat te stellen spraakherkenning, sprekerherkenning of elk ander type toepassing te maken waarvoor spraakgegevens nodig zijn. Een spraakassistent is slechts één van de vele soorten toepassingen die u met behulp van de gegevensset kunt bouwen.
+faq-do-want-native-q = Ik ben een niet-moedertaalspreker en ik spreek met een accent. Willen jullie toch mijn stem?
+faq-do-want-native-a = Ja, we willen vooral uw stem! Onderdeel van het doel van Common Voice is om zoveel mogelijk verschillende accenten te verzamelen, zodat spraakherkenningsdiensten voor iedereen even goed werken. Dit betekent dat donaties van niet-moedertaalsprekers bijzonder belangrijk zijn.
+faq-why-different-speakers-q = Waarom hebben jullie zo veel verschillende sprekers per taal nodig?
+faq-why-different-speakers-a =
+    De meeste spraakdatabases worden getraind met een oververtegenwoordiging van bepaalde demografische groepen, wat leidt tot een voorkeur voor <articleLink>mannelijk en uit de middenklasse</ articleLink>. Accenten en dialecten die vaak ondervertegenwoordigd zijn in trainingsgegevenssets worden meestal in verband gebracht met groepen mensen die al gemarginaliseerd zijn. Veel machines hebben ook moeite met het begrijpen van vrouwelijke stemmen.
+    Dit is de reden waarom we variatie in onze spraakdatabase willen!
+faq-why-my-lang-q = Waarom zit mijn taal er nog niet bij?
+faq-why-my-lang-a = Mozilla verkiest niet de ene taal boven de andere. In plaats daarvan is Common Voice een initiatief dat uitsluitend door de gemeenschap wordt aangestuurd, maar het vergt <multilangLink>diverse stappen om een nieuwe taal toe te voegen</ multilangLink> en met het verzamelen van spraakdonaties te beginnen. Allereerst moet de Common Voice-website worden vertaald, zodat gemeenschapsleden toegang hebben tot de ervaring van de bijdrager in hun eigen taal. Vervolgens hebben we een grote verzameling auteursrechtvrije zinnen nodig die mensen kunnen voorlezen. Zodra aan beide vereisten is voldaan, wordt een taal ‘uitgebracht’ op Common Voice, zodat mensen hun stem kunnen opnemen en donaties van anderen kunnen valideren.
+faq-what-quality-q = Welk geluidskwaliteitsniveau is nodig voor een spraakfragment om in de gegevensset te kunnen worden gebruikt?
+faq-what-quality-a = We willen dat de Common Voice-gegevensset de audiokwaliteit weerspiegelt die een spraak-naar-tekst-engine in het wild zal horen, dus we zijn op zoek naar afwisseling. Naast een gevarieerde sprekersgemeenschap leert een gegevensset met verschillende audiokwaliteiten de spraak-naar-tekst-engine om verschillende levensechte situaties aan te kunnen, van achtergrondgeluid tot autolawaai. Zolang uw spraakopname begrijpelijk is, moet deze goed genoeg zijn voor de gegevensset.
+faq-why-10k-hours-q = Waarom is de doelstelling voor geluidsopnamen 10.000 uur per taal?
+faq-why-10k-hours-a = Dit is ongeveer het aantal benodigde uren om een operationeel spraak-naar-tekst-systeem te trainen.
+faq-how-calc-hours-q = Hoe berekent Common Voice de uren?
+faq-how-calc-hours-a = We berekenen de uren door de gemiddelde lengte van elke opname te schatten en vervolgens dat aantal te vermenigvuldigen met het totale aantal opnamen in alle talen.
+faq-where-src-from-q = Waar komt de brontekst vandaan?
+faq-where-src-from-a =
+    Onze brontekst bestaat uit originele donaties van bijdragers en zinnen uit openbare filmscripts zoals <italic>It's a Wonderful Life</ italic>.
+    
+    U kunt onze bronzinnen bekijken in deze GitHub-map.
+faq-why-not-ask-read-q = Waarom vragen jullie niet gewoon aan mensen om in verschillende talen uit boeken of Wikipedia-artikelen te lezen?
+faq-why-not-ask-read-a = Om de Common Voice-gegevensset zo nuttig mogelijk te maken, hebben we besloten om alleen brontekst toe te staan die beschikbaar is onder een Creative Commons (CC0)-licentie. Het gebruik van de CC0-standaard betekent dat het moeilijker is om brontekst te vinden en te verzamelen, maar iedereen kan de resulterende spraakgegevens gebruiken zonder gebruiksbeperkingen of toestemming van Mozilla. Uiteindelijk willen we de meertalige gegevensset zo nuttig mogelijk maken voor iedereen, inclusief onderzoekers, universiteiten, start-ups, overheden, sociale doelgroepen en hobbyisten.
+faq-why-account-q = Waarom zou ik een account aanmaken?
+faq-is-account-public-q = Zijn mijn accountgegevens openbaar?
+faq-how-privacy-q = Hoe garanderen jullie de anonimiteit en privacy van de personen die hun stemmen hebben gedoneerd?
+faq-how-privacy-a = Alle spraakfragmenten in de gegevensset worden geschoond van persoonlijk identificeerbare gegevens. Wanneer een bijdrager demografische gegevens via zijn of haar profiel verstrekt, wordt die informatie uit de spraakfragmenten verwijderd voordat deze in de gegevensset worden gebundeld voor downloaden en wordt die informatie nooit openbaar gemaakt op zijn of haar profielpagina.
+faq-what-determine-identity-q = Wat betekent het dat ik “de identiteit” van sprekers in de gegevensset van Common Voice niet “kan bepalen”?
+faq-what-determine-identity-a =
+    De Common Voice-gegevensset is een vrij toegankelijke en openbare bron die kan worden gebruikt om een breed scala aan spraakgestuurde toepassingen te trainen. Om de veiligheid van onze bijdragers te beschermen, vragen we iedereen die de Common Voice-gegevensset downloadt om de privacy van de bijdragers te respecteren.
+    
+    Alle spraakfragmenten in de gegevensset worden geschoond van persoonlijk identificeerbare gegevens. Wanneer u de gegevensset downloadt, gaat u ermee akkoord niet te proberen de identiteit van een bijdrager te bepalen. Dat betekent dat u niet mag proberen om gegevens in de gegevensset aan de persoonlijke informatie van een bijdrager te koppelen. U mag de gegevensset echter wel gebruiken om spraakherkenning, sprekerherkenning of andere toepassingen te trainen, bijvoorbeeld door gegevens in de gegevensset te koppelen aan andere informatie die al in de gegevensset staat.
 
 ## Glossary
 
+glossary = Woordenlijst
+localization = Lokalisatie
+localization-explanation = Dit is ons proces voor vertalen en aanpassen van onze inhoud voor veel locales (talen).
+sentence-collection = Zinnenverzameling
+sentence-collection-explanation = Het verzamelen van zinnen uit het publieke domein, of het schrijven van nieuwe voor het publieke domein.
+hours-recorded-explanation = Het aantal uren aan stemopnamen dat we tot dusver hebben verzameld.
+hours-validated-explanation = Het aantal spraakopname-uren dat door 2 van de 3 gebruikers met een ‘Ja’-stem is gevalideerd. Deze markeren de voortgang in de richting van de totale projectdoelstelling van 10.000 uur.
 
 ## NotFound
 
