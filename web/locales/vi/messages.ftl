@@ -165,6 +165,16 @@ x-years-short =
     { $count ->
        *[other] { $count }năm
     }
+sign-up-account = Đăng kí một tài khoản
+
+## Account Benefits
+
+benefits = Lợi ích
+
+## What's public
+
+email-not-public = Chúng tôi sẽ không công khai email của bạn.
+username-email-not-demographic = Tên người dùng và email của bạn sẽ không được liên kết với dữ liệu được công bố.
 
 ## Speak & Listen Shortcuts
 
@@ -272,25 +282,28 @@ change-email-setings = Thay đổi email của bạn thông qua Cài đặt và 
 ## FAQ
 
 faq-title = Câu hỏi thường gặp
-faq-what-q = Common Voice là gì?
-faq-what-a = Công nghệ nhận dạng giọng nói có thể cách mạng hóa cách chúng ta tương tác với máy móc, nhưng các hệ thống hiện có sẵn thì rất tốn kém và độc quyền. Common Voice là một dự án nhằm giúp cho công nghệ nhận dạng giọng nói được mọi người tiếp cận một cách dễ dàng. Mọi người đóng góp giọng nói của họ cho một cơ sở dữ liệu khổng lồ, nơi mà bất kỳ ai cũng có thể đào tạo các ứng dụng hỗ trợ giọng nói một cách nhanh chóng và dễ dàng. Tất cả dữ liệu giọng nói sẽ có sẵn cho các nhà phát triển.
-faq-important-q = Tại sao nó lại quan trọng?
-faq-important-a = Giọng nói là tự nhiên, giọng nói là con người. Đó là cách dễ nhất và tự nhiên nhất để giao tiếp. Chúng tôi muốn các nhà phát triển có thể xây dựng những thứ tuyệt vời, từ những phần mềm dịch thời gian thực cho đến các trợ lý điều hành được kích hoạt bằng giọng nói. Nhưng hiện tại các dữ liệu công khai để xây dựng các loại ứng dụng này thì không đủ. Chúng tôi hy vọng rằng Common Voice sẽ cung cấp cho nhà phát triển những gì họ cần để sáng tạo.
-faq-get-q = Làm thế nào để có được dữ liệu Common Voice?
-faq-get-a = Tập dữ liệu hiện có sẵn trên <downloadLink>Trang tải xuống</downloadLink> theo giấy phép <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Tại sao Common Voice là một phần nhiệm vụ của Mozilla?
-faq-mission-a = Mozilla tận tụy với việc giữ cho trang web mở và có thể truy cập được cho tất cả mọi người. Để làm được điều đó, chúng tôi cần trao quyền cho những người tạo trang web thông qua các dự án như Common Voice. Bởi vì công nghệ giọng nói phát triển nhanh hơn các ứng dụng thích hợp, chúng tôi tin rằng chúng cần phải phục vụ tốt tất cả mọi người như nhau. Chúng tôi nhận thấy sự cần thiết của việc bao gồm thêm nhiều ngôn ngữ, giọng vùng miền và các đối tượng người dùng khi xây dựng và thử nghiệm công nghệ giọng nói. Mozilla muốn thấy một mạng internet sống động và khỏe mạnh. Điều đó đồng nghĩa với việc cung cấp cho những nhà sáng tạo mới quyền truy cập vào dữ liệu giọng nói để họ có thể tạo các dự án mới và phi thường. Common Voice sẽ là tài nguyên công cộng và sẽ giúp ích cho các nhóm Mozilla và các nhà phát triển trên toàn thế giới.
-faq-native-q = Tôi là một người nói { $lang } không chính gốc và tôi nói với giọng vùng miền, bạn vẫn muốn giọng của tôi?
-faq-native-a = Có, chúng tôi chắc chắn muốn giọng nói của bạn! Một phần mục đích của Common Voice là thu thập càng nhiều giọng khác nhau càng tốt, để máy tính có thể hiểu rõ hơn <bold>tất cả mọi người</bold> khi họ nói.
-faq-firefox-q = Tính năng chuyển giọng nói thành văn bản thông qua Common Voice sẽ có bao giờ trở thành một phần của Firefox không?
-faq-firefox-a = Common Voice có tiềm năng không giới hạn và chúng tôi đang khám phá các giao diện giọng nói trong nhiều sản phẩm của Mozilla, bao gồm cả Firefox.
-faq-quality-q = Chất lượng tối thiểu của âm thanh để chúng có thể sử dụng được là bao nhiêu?
-faq-quality-a = Chúng tôi muốn chất lượng âm thanh giống như những âm thanh mà công cụ chuyển giọng nói thành văn bản sẽ nghe trong tự nhiên. Vì vậy, chúng tôi muốn sự đa dạng. Điều này sẽ dạy cho các công cụ đó xử lý các tình huống khác nhau mà không mắc phải lỗi nào, ví dụ như tiếng nói chuyện ngoài nền, tiếng ồn xe hơi, tiếng ồn của quạt.
-faq-hours-q = Tại sao 10.000 giờ là mục tiêu để ghi lại âm thanh?
-faq-hours-a = Đây là số giờ cần thiết để đào tạo sản xuất hệ thống chuyển giọng nói thành văn bản.
-faq-source-q = Văn bản gốc được lấy từ đâu?
-faq-source-a1 = Các câu hiện tại được lấy từ các đóng góp của nhiều người, và cũng từ lời thoại các kịch bản phim của cộng đồng, ví dụ như phim <italic>It's A Wonderful Life.</italic>
-faq-source-a2 = Bạn có thể xem nguồn các câu của chúng tôi trong <dataLink>thư mục GitHub này</dataLink>.
+faq-what-cv-q = Common Voice là gì?
+faq-why-important-q = Tại sao nó lại quan trọng?
+faq-how-calc-hours-q = Làm thế nào để Common Voice tính toán giờ?
+faq-how-calc-hours-a = Chúng tôi tính toán số giờ bằng cách ước tính độ dài trung bình của mỗi bản ghi, sau đó nhân số đó với tổng số bản ghi trên tất cả các ngôn ngữ.
+faq-where-src-from-q = Trường hợp văn bản thì được lấy từ đâu?
+faq-why-account-q = Tại sao tôi nên đăng ký tài khoản?
+faq-is-account-public-q = Thông tin tài khoản của tôi có công khai không?
+faq-what-determine-identity-a =
+    Bộ dữ liệu Common Voice là một tài nguyên mở và công khai có thể được sử dụng để đào tạo nhiều ứng dụng hỗ trợ giọng nói. Để bảo vệ tính bảo mật của những người đóng góp, chúng tôi yêu cầu mọi người tải xuống tập dữ liệu Common Voice phải tôn trọng quyền riêng tư của cộng tác viên.
+    
+    Tất cả các clip thoại trong bộ dữ liệu được kiểm tra thông tin nhận dạng cá nhân. Khi bạn tải xuống tập dữ liệu, bạn đồng ý không cố gắng xác định danh tính của bất kỳ người đóng góp nào. Điều đó có nghĩa là bạn không thể cố gắng liên kết thông tin trong bộ dữ liệu với thông tin cá nhân của cộng tác viên. Tuy nhiên, bạn có thể sử dụng tập dữ liệu để huấn luyện nhận dạng giọng nói, nhận dạng người nói hoặc các ứng dụng khác, ví dụ, bằng cách liên kết thông tin trong tập dữ liệu với thông tin khác đã có trong tập dữ liệu.
+
+## Glossary
+
+glossary = Từ vựng
+localization = Bản địa hóa
+localization-explanation = Đây là quá trình của chúng tôi để dịch và điều chỉnh nội dung của chúng tôi cho nhiều địa phương (ngôn ngữ).
+hours-recorded-explanation = Số giờ ghi âm giọng nói chúng tôi đã thu thập cho đến nay.
+hours-validated-explanation = Số giờ ghi âm giọng nói đã được xác nhận bởi 2 trên 3 người dùng với số phiếu bầu là "Có". Những đánh dấu tiến trình hướng tới mục tiêu tổng thể 10 nghìn giờ của dự án.
+sst = Nhận dạng giọng nói (STT)
+sst-explanation = Công nghệ Nhận dạng giọng nói (STT) chuyển đổi dữ liệu giọng nói thành văn bản.
+de-identified = Không xác định
 
 ## NotFound
 
