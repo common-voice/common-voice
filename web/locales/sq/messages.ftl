@@ -265,6 +265,16 @@ faq-title = Pyetje të Bëra Shpesh
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
 faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh togfjalëshash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
 faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
+faq-what-quality-a = Dëshirojmë që grupi i të dhënave Common Voice të pasqyrojë cilësinë e audios që një mekanizëm nga-e-folura-në-tekst do të ndeshë në përgjithësi, ndaj kërkojmë larmi. Përveç një bashkësie të larmishme folësish, një grup të dhënash me cilësi audio të larmishme do t’i mësojë mekanizmit nga-e-folura-në-tekst të trajtojë situata të ndryshme nga jeta reale, nga e folura nën zë e deri te zhurma e automjeteve. Për sa kohë që copëza juaj zanore është e kuptueshme,  i bie të jetë e mjaftueshme për grupin e të dhënave.
+faq-why-10k-hours-q = Pse për incizimet audio synimi është 10 mijë orë të vleftësuara për gjuhë?
+faq-why-10k-hours-a = Ky është afërsisht numri i orëve të domosdoshme për të stërvitur një produkt për shndërrime nga-e-folura-në-tekst>
+faq-how-calc-hours-q = Si i llogarit orët Common Voice-i?
+faq-how-calc-hours-a = Orët i llogarisim duke peshuar gjatësinë mesatare të çdo incizimi dhe duke e shumëfishuar këtë numër me numrin gjithsej të incizimeve nëpër krejt gjuhët.
+faq-where-src-from-q = Prej nga vjen teksti burim?
+faq-where-src-from-a =
+    Teksti ynë burim është krijuar nga kontribute origjinale, si edhe nga skenarë filmash nën përkatësinë publike, si, b.f., <italic>It’s a Wonderful Life</italic>.
+    
+    Togfjalëshat burim mund t’i shihni te kjo dosje GitHub.
 
 ## Glossary
 
