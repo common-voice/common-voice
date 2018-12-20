@@ -204,16 +204,16 @@ shortcut-play-toggle = p
 shortcut-play-toggle-label = Afspelen/Stoppen
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = J
+shortcut-vote-yes = j
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = N
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = O
+shortcut-record-toggle = o
 shortcut-record-toggle-label = Opnemen/Stoppen
 request-language-text = Ziet u uw taal nog niet op Common Voice?
 request-language-button = Een taal aanvragen
@@ -358,6 +358,10 @@ sentence-collection = Zinnenverzameling
 sentence-collection-explanation = Het verzamelen van zinnen uit het publieke domein, of het schrijven van nieuwe voor het publieke domein.
 hours-recorded-explanation = Het aantal uren aan stemopnamen dat we tot dusver hebben verzameld.
 hours-validated-explanation = Het aantal spraakopname-uren dat door 2 van de 3 gebruikers met een ‘Ja’-stem is gevalideerd. Deze markeren de voortgang in de richting van de totale projectdoelstelling van 10.000 uur.
+sst = Spraak-naar-tekst (STT)
+sst-explanation = Spraak-naar-tekst (STT)-technologieën zetten stemgegevens om naar tekst.
+de-identified = Anoniem gemaakt
+de-identified-explanation = Het proces waarbij de profielgegevens van een bijdrager worden gescheiden van gedoneerde spraakfragmenten wanneer deze als onderdeel van de gegevensset worden verpakt voor downloaden.
 
 ## NotFound
 
