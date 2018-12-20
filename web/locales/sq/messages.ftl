@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Parashtroje
 loading = Po ngarkohet…
+indicates-required = * tregon një fushë të domosdoshme
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,6 +16,8 @@ loading = Po ngarkohet…
 
 ## Languages
 
+ace = Acehneze
+af = Afrikaans
 an = Aragoneze
 ar = Arabisht
 as = Asameze
@@ -23,7 +26,9 @@ az = Azerbajxhane
 bg = Bullgarisht
 bn = Bengaleze
 br = Bretone
+bxr = Buriat
 ca = Katalane
+cak = Kakshikel
 cs = Çeke
 cv = Çuvashe
 da = Daneze
@@ -113,12 +118,12 @@ wall-of-text-start = Zëri është diçka natyrore, zëri është njerëzor. Nda
 wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk jepen për shumicën e njerëzve. Jemi të mendimit se ko pengon risitë. Ndaj nisëm projektin Common Voice, një projekt për të ndihmuar në bërjen e njohjes së zërit të hapur për këdo.
 wall-of-text-more-desktop =
     Tani mund të dhuroni zërin tuaj për të na ndihmuar të krijojmë një bazë të dhënash me burim të hapur që mund ta përdorë kushdo për të sjellë aplikacione risore për pajisje dhe web.<lineBreak></lineBreak>
-    Lexoni një sentencë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
+    Lexoni një frazë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
 wall-of-text-first = Zëri është natyror, zëri është njerëzor. Kjo është arsyeja pse jemi të ngazëllyer nga krijimi teknologjish të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri, zhvilluesve u duhen sasi zëri tejet të mëdha.
 wall-of-text-second = Shumica e të dhënave të përdorura nga kompani të mëdha nuk jepen për shumicën e njerëzve. Mendojmë që kjo e mbyt novacionin. Ndaj filluam Common Voice, një projekt për të ndihmuar që njohja e zërit të bëhet e hapur dhe e përdorshme nga kushdo.
 show-wall-of-text = Lexoni Më Tepër
-help-us-title = Ndihmonani të vleftësojmë fjali!
-help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalinë më poshtë?
+help-us-title = Ndihmonani të vleftësojmë fraza!
+help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë frazën më poshtë?
 no-clips-to-validate = Duket se nuk ka copëza për dëgjuar për këtë gjuhë. Ndihmonani duke incizuar disa të tilla që tani.
 vote-yes = Po
 vote-no = Jo
@@ -263,7 +268,7 @@ add-language = Shtoni Gjuhë
 
 faq-title = Pyetje të Bëra Shpesh
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
-faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh togfjalëshash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
+faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
 faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
 faq-what-quality-a = Dëshirojmë që grupi i të dhënave Common Voice të pasqyrojë cilësinë e audios që një mekanizëm nga-e-folura-në-tekst do të ndeshë në përgjithësi, ndaj kërkojmë larmi. Përveç një bashkësie të larmishme folësish, një grup të dhënash me cilësi audio të larmishme do t’i mësojë mekanizmit nga-e-folura-në-tekst të trajtojë situata të ndryshme nga jeta reale, nga e folura nën zë e deri te zhurma e automjeteve. Për sa kohë që copëza juaj zanore është e kuptueshme,  i bie të jetë e mjaftueshme për grupin e të dhënave.
 faq-why-10k-hours-q = Pse për incizimet audio synimi është 10 mijë orë të vleftësuara për gjuhë?
@@ -274,7 +279,7 @@ faq-where-src-from-q = Prej nga vjen teksti burim?
 faq-where-src-from-a =
     Teksti ynë burim është krijuar nga kontribute origjinale, si edhe nga skenarë filmash nën përkatësinë publike, si, b.f., <italic>It’s a Wonderful Life</italic>.
     
-    Togfjalëshat burim mund t’i shihni te kjo dosje GitHub.
+    Frazat burim mund t’i shihni te kjo dosje GitHub.
 faq-why-not-ask-read-q = Pse s’u kërkoni njerëzve të lexojnë nga libra apo nga artikujt të Wikipedia-s në gjuhë të ndryshme?
 faq-why-not-ask-read-a = Për ta bërë grupin e të dhënave Common Voicesa më të dobishëm që të jetë e mundur, kemi vendosur të lejojmë vetëm tekste burim që gjenden nën një licencë Creative Commons (CC0). Përdorimi i standardeve CC0 do të thotë se është më e vështirë të gjenden dhe grumbullohen tekste burim, por kjo i lejon kujtdo të përdorë të dhënat zanore të përftuara pa kufizime apo autorizime përdorimi nga Mozilla. Tek e fundit, ne duam ta bëjmë grupin shumëgjuhësh të të dhënave të përdorshëm nga kushdo, përfshi kërkues, universitete, biznese të saponisura, qeveri, ente me synime shoqërore, dhe amatorë.
 faq-why-account-q = Pse duhet të regjistrohem për një llogari?
@@ -289,6 +294,10 @@ faq-what-determine-identity-a =
 
 ## Glossary
 
+glossary = Fjalorth
+localization = Përkthim
+localization-explanation = Ky është procesi ynë për përkthimin dhe adaptimin e lëndës tonë për shumë vendore (gjuhë).
+sentence-collection = Koleksion Frazash
 
 ## NotFound
 
@@ -312,7 +321,7 @@ data-other-librispeech-description = LibriSpeech është një korpus i afërsish
 data-other-ted-name = Korpusi TED-LIUM
 data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
 data-other-voxforge-description = VoxForge qe ndërtuar për të grumbulluar transkriptime të folurash për përdorim me Mekanizma të Lirë dhe Me Burim të Hapur Njohjeje të Foluri.
-data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash fjalish, përkthimesh, dhe të folurash për përdorim në mësimin e gjuhëve. Ky shkarkim përmban krejt të folurën anglisht të incizuar nga bashkësia e tyre.
+data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash frazash, përkthimesh, dhe të folurash për përdorim në mësimin e gjuhëve. Ky shkarkim përmban krejt të folurën anglisht të incizuar nga bashkësia e tyre.
 data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
@@ -359,9 +368,9 @@ request-language-success-content = Shumë shpejt do të lidhemi me ju me më tep
 ## Languages Overview
 
 language-section-in-progress = Në Ecuri
-language-section-in-progress-description = Gjuhët e karakterizuara si Në Ecuri janë duke u përgatitur për kontribut nga bashkësitë tona; ecuria për to pasqyron fazën ku gjenden me përkthimin e sajtit dhe të grumbullimit të fjalive.
+language-section-in-progress-description = Gjuhët e karakterizuara si Në Ecuri janë duke u përgatitur për kontribut nga bashkësitë tona; ecuria për to pasqyron fazën ku gjenden me përkthimin e sajtit dhe të grumbullimit të frazave.
 language-section-launched = E filluar
-language-section-launched-new-description = Për gjuhët e filluara, sajti është përkthyer me sukses, dhe janë grumbulluar një numër i mjaftueshëm fjalish, për të lejuar  kontribute të vazhdueshëm të llojit <italic>Flisni</italic> dhe <italic>Dëgjoni</italic>.
+language-section-launched-new-description = Për gjuhët e filluara, sajti është përkthyer me sukses, dhe janë grumbulluar një numër i mjaftueshëm frazash, për të lejuar  kontribute të vazhdueshëm të llojit <italic>Flisni</italic> dhe <italic>Dëgjoni</italic>.
 languages-show-more = Shihni Më Tepër
 languages-show-less = Shihni Më Pak
 language-speakers = Folës
@@ -371,7 +380,7 @@ language-search-input =
     .placeholder = Kërko
 language-speakers = Folës
 localized = E përkthyer
-sentences = Fjali
+sentences = Fraza
 total-hours = Orë të vleftësuara
 
 ## New Contribution
@@ -400,7 +409,7 @@ record-error-too-short = Incizimi qe shumë i shkurtër.
 record-error-too-long = Incizimi qe shumë i gjatë.
 record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
 record-cancel = Anuloje Ri-incizimin
-record-instruction = { $actionType }<recordIcon></recordIcon> mandej lexojeni me zë fjalinë
+record-instruction = { $actionType }<recordIcon></recordIcon> mandej lexojeni frazën me zë
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kur të keni përfunduar
 record-three-more-instruction = Edhe tre!
 record-again-instruction = Bukur!<recordIcon></recordIcon> Incizoni copëzën tuaj pasuese
@@ -416,7 +425,7 @@ record-abort-text = Braktisja në këtë çast do të thotë se do të keni humb
 record-abort-submit = Parashtroni copëza
 record-abort-continue = Përfundo incizimin
 record-abort-delete = Dil & Fshiji copëzat
-listen-instruction = { $actionType }<playIcon></playIcon> e shqiptuan saktë fjalinë?
+listen-instruction = { $actionType }<playIcon></playIcon> e shqiptuan saktë frazën?
 listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur të jeni gati
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>E fundit!
