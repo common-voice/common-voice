@@ -178,6 +178,11 @@ sign-up-account = Regjistrohuni për një llogari
 
 benefits = Përfitime
 rich-data = Bëjini të dhënat tuaja sa më të pasura që të mundet, duke dhënë disa të dhëna demografike anonime. Përpara se t’i bëjmë publike, krejt të dhënat demografike i bëjmë të paidentifikueshme.
+improve-audio = Të dhënat e profilit përmirësojnë të dhënat audio të përdorura në stërvitjen e përpikërisë së njohjes së të folurës.
+keep-track = Ndiqni përparimin tuaj dhe statistika nëpër gjuhë të ndryshme.
+compare-progress = Shihni se si duket përparimi juaj kundrejt kontribuesish të tjerë nga anembanë bota.
+view-goals = Shihni përparimin tuaj kundrejt synimet personale dhe të projektit.
+join-newsletter = Në daçi, bëhuni pjesë e listës tonë të email-eve, për përditësime dhe informacione të reja rreth projektit.
 
 ## What's public
 
@@ -185,6 +190,8 @@ whats-public = Ç’është Publike?
 email-not-public = S’do ta bëjëm publik email-in tuaj.
 recordings-and-locale-public = Numri i incizimeve dhe në cilat gjuhë kontribuoni do të bëhen publike.
 username-optin-public = Mund të zgjidhni për ta bërë emrin tuaj të përdoruesit publik ose anonim.
+demographic-deidentified = Të dhëna demografike opsionale (p.sh., mosha, gjinia, gjuha, dhe theksi) bëhen të paidentifikueshme prej të dhënave zanore që parashtroni dhe nuk do të bëhen kurrë publike në profilin tuaj.
+username-email-not-demographic = Emri juaj i përdoruesit dhe email-i nuk do t’u përshoqërohen të dhënave të publikuara.
 
 ## Speak & Listen Shortcuts
 
@@ -285,10 +292,21 @@ file_too_large = Kartela e përzgjedhur është shumë e madhe
 manage-subscriptions = Administroni Pajtime
 email-already-used = Email-i është tashmë i përdorur për një tjetër llogari
 add-language = Shtoni Gjuhë
+change-email-setings = Ndryshojeni email-in tuaj që nga Rregullimet , te ndarja Identitet Hyrjesh
 
 ## FAQ
 
 faq-title = Pyetje të Bëra Shpesh
+faq-what-cv-q = Ç’është Common Voice?
+faq-what-cv-a =
+    Teknologjia e të kuptuarit të zërit po revolucionarizon mënyrën se si ne ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Common Voice është pjesë e nismës së Mozilla-s për at bërë të kuptuarit e zërit më të mirë dhe më të përdorshëm për këdo.  Common Voice është bazë masive globale të dhënash zanore të dhuruara, që i lejon cilitdo të stërvitë shpejt dhe lehtë aplikacione që punojnë dhe me zë, potencialisht për çdo gjuhë.
+    
+    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+faq-why-important-q = Pse ka rëndësi?
+faq-why-important-a =
+    E folura shpesh është rruga më natyrore përmes të cilës komunikojmë me njëri-tjetrin dhe teknologjitë e zërit po e sjellin leverdinë e kësaj rruge te kompjuterat dhe pajisjet celulare. Duam t’u japim mundësi zhvilluesve të krijojnë aplikacione mahnitëse që kuptojnë zërin, b.f. përkthyes të atypëratyshëm dhe asistentë dixhitalë që kontrollohen përmes zërit. Por sot për sot, shumica e të dhënave zanore të domosdoshme për të krijuar këto lloj aplikacionesh janë të shtrenjta dhe pronësore. Shpresojmë që grupi i të dhënave Common Voice t’u japë zhvilluesve çfarë u nevojitet për risi të këtij lloji dhe për ta bërë teknologjinë e të folurit të përdorshme në gjuhën e tyre.
+    
+    To make voice recognition even more universal, we're collecting voice samples in widely spoken languages as well as those with a smaller population of speakers often underserved by commercial speech recognition services. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and entire speech communities to address this gap themselves.
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
 faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
 faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
