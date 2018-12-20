@@ -318,6 +318,10 @@ faq-why-10k-hours-a = Este é aproximadamente o número de horas necessário par
 faq-how-calc-hours-q = Como o Common Voice calcula horas?
 faq-how-calc-hours-a = Calculamos horas estimando o comprimento médio de cada gravação e então multiplicando esse número pelo número total de gravações em todos os idiomas.
 faq-where-src-from-q = De onde vem o texto de origem?
+faq-where-src-from-a =
+    Nosso texto de origem é composto por doações originais de contribuidores, assim como diálogos de roteiros de filmes de domínio público como <italic>It’s a Wonderful Life</italic> (no Brasil: <italic>A felicidade não se compra</italic>).
+    
+    Você pode ver nossas frases de origem nesta pasta do GitHub.
 faq-why-not-ask-read-q = Por que vocês não pedem às pessoas para ler livros ou artigos da Wikipedia em diferentes idiomas?
 faq-why-account-q = Por que devo cadastrar uma conta?
 faq-is-account-public-q = As informações da minha conta são públicas?
@@ -326,6 +330,10 @@ faq-is-account-public-q = As informações da minha conta são públicas?
 
 glossary = Glossário
 localization = Localização
+sentence-collection = Coleção de frases
+sentence-collection-explanation = Coletando frases de domínio público, ou escrevendo novas para o domínio público.
+hours-recorded-explanation = A contagem de horas de gravação de voz que já coletamos até agora.
+hours-validated-explanation = A contagem de horas de gravação de voz que foram validadas por 2 de 3 usuários com voto “Sim”. Essas marcas progridem em direção à meta de 10 mil horas do projeto todo.
 sst = Speech-to-text (STT)
 sst-explanation = Tecnologias speech-to-text (STT) convertem dados de voz para texto.
 de-identified = Identificação removida
