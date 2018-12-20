@@ -169,6 +169,7 @@ x-years-short =
         [one] an
        *[other] { $count } ans
     }
+help-make-dataset = Aidez-nous à constituer une base de données libre et publique de haute qualité
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 sign-up-account = Créer un compte
 
@@ -179,6 +180,7 @@ benefits = Avantages
 ## What's public
 
 whats-public = Quelles informations sont publiques ?
+email-not-public = Nous ne rendrons pas publique votre adresse électronique.
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
 username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur public ou anonyme
 demographic-deidentified = Les informations démographiques facultatives (p. ex. l’âge, le sexe, la langue et l’accent) sont dissociées de vos enregistrements audio et ne seront jamais affichées publiquement sur votre profil.
@@ -296,6 +298,7 @@ faq-why-important-q = Pourquoi est-ce important ?
 faq-how-get-q = Comment obtenir les données de Common Voice ?
 faq-how-get-a = Le jeu de données de Common Voice est disponible au téléchargement selon les termes de la licence <licenseLink>CC0</licenseLink> sur <datasetLink>la page des jeux de données</datasetLink>. Vous pouvez aussi télécharger plusieurs autres jeux de données publics sur cette page.
 faq-when-release-q = Quand publierez-vous les données de Common Voice dans d’autres langues ?
+faq-do-want-native-q = Je ne suis pas un locuteur natif et je parle avec un accent. Voulez-vous toujours ma voix ?
 
 ## Glossary
 
