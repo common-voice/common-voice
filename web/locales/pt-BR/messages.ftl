@@ -305,6 +305,7 @@ faq-what-cv-a =
     Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializará desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos. Além do conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
 faq-why-important-q = Por que é importante?
 faq-how-get-q = Como posso obter os dados do Common Voice?
+faq-how-get-a = O conjunto de dados do Common Voice está disponível para download sob a licença <licenseLink>CC0</licenseLink> em <datasetLink>nossa página de Datasets</datasetLink>. Você também pode baixar diversos outros conjuntos de dados disponíveis publicamente a partir da mesma página.
 faq-when-release-q = Quando serão lançados os dados do Common Voice em outros idiomas?
 faq-why-mission-q = Por que o Common Voice faz parte da missão Mozilla?
 faq-what-cv-and-deepspeech-q = Qual é a diferença entre Common Voice e Deep Speech?
@@ -325,11 +326,14 @@ faq-where-src-from-a =
 faq-why-not-ask-read-q = Por que vocês não pedem às pessoas para ler livros ou artigos da Wikipedia em diferentes idiomas?
 faq-why-account-q = Por que devo cadastrar uma conta?
 faq-is-account-public-q = As informações da minha conta são públicas?
+faq-how-privacy-q = Como vocês garantem o anonimato e a privacidade das pessoas que doaram suas vozes?
+faq-what-determine-identity-q = O que significa eu não poder “determinar a identidade” dos falantes no conjunto de dados do Common Voice?
 
 ## Glossary
 
 glossary = Glossário
 localization = Localização
+localization-explanation = Este é nosso processo de tradução e adaptação de nosso conteúdo para muitas localidades (idiomas).
 sentence-collection = Coleção de frases
 sentence-collection-explanation = Coletando frases de domínio público, ou escrevendo novas para o domínio público.
 hours-recorded-explanation = A contagem de horas de gravação de voz que já coletamos até agora.
@@ -337,6 +341,7 @@ hours-validated-explanation = A contagem de horas de gravação de voz que foram
 sst = Speech-to-text (STT)
 sst-explanation = Tecnologias speech-to-text (STT) convertem dados de voz para texto.
 de-identified = Identificação removida
+de-identified-explanation = O processo pelo qual as informações de perfil de um contribuidor são obscurecidas de seus clipes de voz doados, quando esses são empacotados para ser baixados como parte do conjunto de dados.
 
 ## NotFound
 
