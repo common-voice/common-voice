@@ -169,6 +169,7 @@ x-years-short =
         [one] an
        *[other] { $count } ans
     }
+profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 sign-up-account = Créer un compte
 
 ## Account Benefits
@@ -177,6 +178,7 @@ benefits = Avantages
 
 ## What's public
 
+whats-public = Quelles informations sont publiques ?
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
 
 ## Speak & Listen Shortcuts
@@ -287,6 +289,8 @@ add-language = Ajouter une langue
 faq-title = Questions fréquentes
 faq-what-cv-q = Qu’est-ce que Common Voice ?
 faq-why-important-q = Pourquoi est-ce important ?
+faq-how-get-a = Le jeu de données de Common Voice est disponible au téléchargement selon les termes de la licence <licenseLink>CC0</licenseLink> sur <datasetLink>la page des jeux de données</datasetLink>. Vous pouvez aussi télécharger plusieurs autres jeux de données publics sur cette page.
+faq-when-release-q = Quand publierez-vous les données de Common Voice dans d’autres langues ?
 
 ## Glossary
 
