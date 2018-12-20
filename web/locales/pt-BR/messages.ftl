@@ -299,6 +299,10 @@ change-email-setings = Altere seu e-mail usando as configurações em Identidade
 
 faq-title = Perguntas frequentes
 faq-what-cv-q = O que é Common Voice?
+faq-what-cv-a =
+    A tecnologia de reconhecimento de voz está revolucionando o modo como interagimos com máquinas, mas os sistemas disponíveis atualmente são caros e proprietários. O Common Voice faz parte da iniciativa da Mozilla para tornar as tecnologias de reconhecimento de voz melhores e mais acessíveis a todos. O Common Voice é um banco de dados massivo global de vozes doadas que permite a qualquer um treinar aplicativos habilitados para voz com facilidade e rapidez, em potencialmente qualquer idioma.
+    
+    Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializará desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos. Além do conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
 faq-why-important-q = Por que é importante?
 faq-how-get-q = Como posso obter os dados do Common Voice?
 faq-when-release-q = Quando serão lançados os dados do Common Voice em outros idiomas?
@@ -309,7 +313,10 @@ faq-do-want-native-q = Eu não sou um falante nativo e eu falo com sotaque, voc�
 faq-why-different-speakers-q = Por que vocês precisam de tantas pessoas diferentes em cada idioma?
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
+faq-why-10k-hours-q = Por que 10.000 horas validadas é a meta por idioma de captura de áudio?
+faq-why-10k-hours-a = Este é aproximadamente o número de horas necessário para treinar um sistema de produção de fala-para-texto.
 faq-how-calc-hours-q = Como o Common Voice calcula horas?
+faq-how-calc-hours-a = Calculamos horas estimando o comprimento médio de cada gravação e então multiplicando esse número pelo número total de gravações em todos os idiomas.
 faq-where-src-from-q = De onde vem o texto de origem?
 faq-why-not-ask-read-q = Por que vocês não pedem às pessoas para ler livros ou artigos da Wikipedia em diferentes idiomas?
 faq-why-account-q = Por que devo cadastrar uma conta?
