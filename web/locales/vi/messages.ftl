@@ -165,15 +165,25 @@ x-years-short =
     { $count ->
        *[other] { $count }năm
     }
+help-make-dataset = Hãy giúp chúng tôi xây dựng một bộ dữ liệu công khai, chất lượng cao
+profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
 sign-up-account = Đăng kí một tài khoản
 
 ## Account Benefits
 
 benefits = Lợi ích
+keep-track = Theo dõi tiến trình và số liệu của bạn trên nhiều ngôn ngữ.
+compare-progress = Xem mức độ của bạn so với những người đóng góp khác trên toàn thế giới.
+view-goals = So sánh tiến độ của bạn với các mục tiêu cá nhân và dự án.
+join-newsletter = Tùy chọn tham gia vào danh sách email của chúng tôi để cập nhật và thông tin mới về dự án.
 
 ## What's public
 
+whats-public = Có gì được công khai?
 email-not-public = Chúng tôi sẽ không công khai email của bạn.
+recordings-and-locale-public = Số lượng bản ghi và ngôn ngữ bạn đóng góp sẽ được công khai.
+username-optin-public = Bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
+demographic-deidentified = Dữ liệu được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) được xác định lại từ dữ liệu giọng nói đã gửi của bạn và sẽ không bao giờ được công khai trên hồ sơ của bạn.
 username-email-not-demographic = Tên người dùng và email của bạn sẽ không được liên kết với dữ liệu được công bố.
 
 ## Speak & Listen Shortcuts
@@ -284,6 +294,13 @@ change-email-setings = Thay đổi email của bạn thông qua Cài đặt và 
 faq-title = Câu hỏi thường gặp
 faq-what-cv-q = Common Voice là gì?
 faq-why-important-q = Tại sao nó lại quan trọng?
+faq-how-get-q = Làm cách nào tôi có thể nhận được dữ liệu Common Voice?
+faq-when-release-q = Khi nào bạn sẽ phát hành dữ liệu Common Voice bằng các ngôn ngữ khác?
+faq-why-mission-q = Tại sao Common Voice là một phần của nhiệm vụ Mozilla?
+faq-what-cv-and-deepspeech-q = Điểm gì khác biệt giữa Common Voice và Deep Speech?
+faq-is-goal-assistant-q = Có phải mục tiêu của Common Voice là để xây dựng một trợ lý giọng nói không?
+faq-why-different-speakers-q = Tại sao bạn cần rất nhiều người nói khác nhau cho mỗi ngôn ngữ?
+faq-why-my-lang-q = Tại sao ngôn ngữ của tôi chưa được đưa vào?
 faq-how-calc-hours-q = Làm thế nào để Common Voice tính toán giờ?
 faq-how-calc-hours-a = Chúng tôi tính toán số giờ bằng cách ước tính độ dài trung bình của mỗi bản ghi, sau đó nhân số đó với tổng số bản ghi trên tất cả các ngôn ngữ.
 faq-where-src-from-q = Trường hợp văn bản thì được lấy từ đâu?
@@ -304,6 +321,7 @@ hours-validated-explanation = Số giờ ghi âm giọng nói đã được xác
 sst = Nhận dạng giọng nói (STT)
 sst-explanation = Công nghệ Nhận dạng giọng nói (STT) chuyển đổi dữ liệu giọng nói thành văn bản.
 de-identified = Không xác định
+de-identified-explanation = Quá trình mà một người đóng góp thông tin hồ sơ cá nhân bị che khuất khỏi các clip thoại được tặng của họ khi được đóng gói để tải xuống như một phần của bộ dữ liệu.
 
 ## NotFound
 
