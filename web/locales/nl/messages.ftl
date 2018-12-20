@@ -309,6 +309,12 @@ faq-why-important-a =
     
     Om spraakherkenning nog universeler te maken, verzamelen we spraakfragmenten in veelgesproken talen, evenals die met een kleinere populatie van sprekers, die vaak niet worden ondersteund door commerciële spraakherkenningsdiensten. Door een diverse gegevensset met stemmen te publiceren, kunnen ontwikkelaars, ondernemers en volledige spraakgemeenschappen zelf deze kloof overbruggen.
 faq-how-get-q = Hoe kan ik de gegevens van Common Voice verkrijgen?
+faq-how-get-a = De gegevensset van Common Voice is beschikbaar voor downloaden onder de <licenseLink>CC0</licenseLink>-licentie op <datasetLink>onze pagina met gegevenssets</datasetLink>. U kunt ook diverse andere openbaar beschikbare gegevenssets van diezelfde pagina downloaden.
+faq-when-release-q = Wanneer geven jullie gegevens van Common Voice in andere talen vrij?
+faq-when-release-a = De meertalige versie van de gegevensset van Common Voice wordt momenteel met hulp van de gemeenschap gebundeld en opgeschoond. Als u meer wilt weten over steun aan dit werk, neem dan <contactLink>contact met ons op</contactLink>. We mikken momenteel op een publicatiedatum in januari 2019. Daarna zullen we periodiek de gegevensset bijwerken met nieuwe talen en spraakfragmenten, als deze beschikbaar komen. Een iteratieve uitgavecyclus moet nog worden vastgesteld.
+faq-why-mission-q = Waarom is Common Voice onderdeel van de Mozilla-missie?
+faq-why-mission-a = Mozilla wijdt zich aan het voor iedereen open en toegankelijk houden van het internet. Om dat te doen, moeten we webmakers middelen geven met projecten als Common Voice. Omdat spraaktechnologieën steeds meer worden toegepast, geloven we dat ze alle gebruikers ten dienste moeten staan. Dat betekent investeren in meer talen, en ruimte bieden voor verschillende accenten en bevolkingsverschillen bij het bouwen en testen van spraaktechnologieën. Common Voice is een voor iedereen beschikbare publieke bron, en Mozilla-teams en ontwikkelaars over de hele wereld gebruiken het ook al voor onze eigen projecten.
+faq-what-cv-and-deepspeech-q = Wat is het verschil tussen Common Voice en Deep Speech?
 
 ## Glossary
 
