@@ -153,6 +153,12 @@ x-years-short =
        *[other] { $count }v
     }
 
+## Account Benefits
+
+
+## What's public
+
+
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
@@ -256,25 +262,11 @@ add-language = Shtoni Gjuhë
 ## FAQ
 
 faq-title = Pyetje të Bëra Shpesh
-faq-what-q = Ç’është Common Voice?
-faq-what-a = Teknologjia e njohjes së zërit mund të revolucionarizojë mënyrën se si ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Common Voice është një projekt për ta bërë teknologjinë e njohjes së zërit lehtësisht të përdorshme nga gjithkush. Njerëzit dhurojnë zërat e tyre te një bazë masive të dhënash që do t’i lejojë kujtdo të stërvitë shpejt dhe lehtë aplikacione që punojnë me zë. Krejt të dhënat zanore do të jenë të përdorshme nga zhvilluesit.
-faq-important-q = Pse ka rëndësi kjo?
-faq-important-a = Zëri është natyror, zëri është njerëzor. Është mënyra më e lehtë dhe më natyrale për të komunikuar. Duam që zhvilluesit të jenë në gjendje të krijojnë gjëra të mahnitshme, nga programe përkthimi të atypëratyshëm deri te asistentë administrativë që funksionojnë me zë. Por hëpërhë, s’ka të dhëna të mjaftueshme publike për krijimin e këtyre lloj aplikacioneve. Shpresojmë që Common Voice t’u japë zhvilluesve atë çka ju duhet për novacione të tilla.
-faq-get-q = Si mund t’i kem të dhënat Common Voice?
-faq-get-a = Grupi i të dhënave është i passhëm te <downloadLink>faqja jonë e shkarkimeve</downloadLink>, nën një licencë <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Çne Common Voice pjesë e misionit të Mozilla-s?
-faq-mission-a = Mozilla i është përkushtuar mbajtjes së web-it të hapur dhe të përdorshëm nga kushdo. Për ta bërë këtë, na duhet t’i fuqizojmë krijuesit web përmes projektesh të tillë si Common Voice. Teksa teknologjitë e zërit lulëzojnë tej aplikacionesh speciale, besojmë se duhet t’u shërbejmë njësoj krejt përdoruesve. Shohin nevojën e përfshirjes së më tepër gjuhëve, thekseve dhe demografive, kur krijohen dhe testohen teknologji zanore. Mozilla dëshiron të shohë një internet të shëndetshëm, të gjallë. Kjo do të thotë t’u jepen krijuesve të rinj mundësi përdorimi të dhënash zanore, që të mund të krijojnë projekte të reja, të jashtëzakonshme. Common Voice do të jetë një burim publik që do të ndihmojë ekipet dhe programuesit e Mozilla-s anembanë botës.
-faq-native-q = S’e kam gjuhën e nënës { $lang } dhe e flas me theks, e doni zërin tim prapëseprapë?
-faq-native-a = Po, pa diskutim që e duam! Pjesë e synimit të Common Voice-it është të grumbullojë sa më shumë thekse të ndryshëm që të mundet, që kështu kompjuterët të mund të kuptojnë më mirë <bold>gjithkënd</bold> kur flasin.
-faq-firefox-q = A do të bëhet ndonjëherë pjesë e Firefox-it, përmes Common Voice, shndërrimi nga e folur në tekst?
-faq-firefox-a = Common Voice ka potencial të pakufizuar dhe po eksplorojmë në fakt ndërfaqe të të folurës në një numër produktesh Mozilla, përfshi Firefox-in.
-faq-quality-q = Cila është shkalla e nevojshme e cilësisë së audios që të mund të jetë e përdorshme?
-faq-quality-a = Duam që cilësia e audios të pasqyrojë cilësinë e audios që një mekanizëm shndërrimi të folure në tekst do të prodhojë gjatë funksionimit. Ndaj duam larmi. Kjo e mëson mekanizmin të jetë i aftë të përdorë situata të ndryshme - të folur në sfond, zhurmë automjetesh, zhurmë ventilatorësh - pa gabime.
-faq-hours-q = Çne synimi 10 000 orë zë i incizuar?
-faq-hours-a = Ky është përafërsisht numri i orëve i nevojshëm për stërvitjen e një sistemit produktiv STT.
-faq-source-q = Prej nga vjen teksti burim?
-faq-source-a1 = Fjalitë e tanishme vijnë nga dhurime, si dhe nga dialogë prej skenarësh filmash nën pronësi publike, b.f. <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Fjalitë tona burim mund t’i shihni <dataLink>në këtë dosje në GitHub</dataLink>.
+faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
+faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh togfjalëshash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
+
+## Glossary
+
 
 ## NotFound
 
