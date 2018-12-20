@@ -464,7 +464,6 @@ stats = Statistiques
 you = Vous
 everyone = Tout le monde
 contribution-activity = Activité de contribution
-top-contributors = Principaux contributeurs
 recorded-clips = Échantillons enregistrés
 validated-clips = Échantillons validés
 total-approved = Total approuvé
