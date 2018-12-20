@@ -180,6 +180,9 @@ benefits = Avantages
 
 whats-public = Quelles informations sont publiques ?
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
+username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur public ou anonyme
+demographic-deidentified = Les informations démographiques facultatives (p. ex. l’âge, le sexe, la langue et l’accent) sont dissociées de vos enregistrements audio et ne seront jamais affichées publiquement sur votre profil.
+username-email-not-demographic = Votre nom d’utilisateur ou utilisatrice et votre adresse électronique ne seront pas associés aux données publiées.
 
 ## Speak & Listen Shortcuts
 
@@ -283,14 +286,16 @@ file_too_large = Le fichier sélectionné est trop volumineux
 manage-subscriptions = Gérer vos abonnements
 email-already-used = Cette adresse électronique est déjà utilisée par un compte différent
 add-language = Ajouter une langue
+change-email-setings = Modifiez votre adresse de courriel dans les Préférences, section « Identité de connexion »
 
 ## FAQ
 
 faq-title = Questions fréquentes
 faq-what-cv-q = Qu’est-ce que Common Voice ?
 faq-why-important-q = Pourquoi est-ce important ?
+faq-how-get-q = Comment obtenir les données de Common Voice ?
 faq-how-get-a = Le jeu de données de Common Voice est disponible au téléchargement selon les termes de la licence <licenseLink>CC0</licenseLink> sur <datasetLink>la page des jeux de données</datasetLink>. Vous pouvez aussi télécharger plusieurs autres jeux de données publics sur cette page.
-faq-when-release-q = Quand publierez-vous les données de Common Voice dans d’autres langues ?
+faq-when-release-q = Quand publierez-vous les données de Common Voice dans d’autres langues ?
 
 ## Glossary
 
