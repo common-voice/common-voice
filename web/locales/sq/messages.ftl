@@ -275,6 +275,7 @@ faq-where-src-from-a =
     Teksti ynë burim është krijuar nga kontribute origjinale, si edhe nga skenarë filmash nën përkatësinë publike, si, b.f., <italic>It’s a Wonderful Life</italic>.
     
     Togfjalëshat burim mund t’i shihni te kjo dosje GitHub.
+faq-why-not-ask-read-q = Pse s’u kërkoni njerëzve të lexojnë nga libra apo nga artikujt të Wikipedia-s në gjuhë të ndryshme?
 
 ## Glossary
 
