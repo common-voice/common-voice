@@ -276,6 +276,16 @@ faq-where-src-from-a =
     
     Togfjalëshat burim mund t’i shihni te kjo dosje GitHub.
 faq-why-not-ask-read-q = Pse s’u kërkoni njerëzve të lexojnë nga libra apo nga artikujt të Wikipedia-s në gjuhë të ndryshme?
+faq-why-not-ask-read-a = Për ta bërë grupin e të dhënave Common Voicesa më të dobishëm që të jetë e mundur, kemi vendosur të lejojmë vetëm tekste burim që gjenden nën një licencë Creative Commons (CC0). Përdorimi i standardeve CC0 do të thotë se është më e vështirë të gjenden dhe grumbullohen tekste burim, por kjo i lejon kujtdo të përdorë të dhënat zanore të përftuara pa kufizime apo autorizime përdorimi nga Mozilla. Tek e fundit, ne duam ta bëjmë grupin shumëgjuhësh të të dhënave të përdorshëm nga kushdo, përfshi kërkues, universitete, biznese të saponisura, qeveri, ente me synime shoqërore, dhe amatorë.
+faq-why-account-q = Pse duhet të regjistrohem për një llogari?
+faq-is-account-public-q = A janë publike të dhënat e llogarisë time?
+faq-how-privacy-q = Si e siguroni anonimitetin dhe privatësinë e njerëzve që kanë dhuruar zërat e tyre?
+faq-how-privacy-a = Krejt copëzave zanore në grupin e të dhënave u pastrohen informacione personale që lejojnë identifikim. Kur një vullnetar furnizon të dhëna demografike përmes profilit të vet, këtyre të dhënave u hiqen të dhëna identifikuese, te copëzat zanore, përpara se të paketohen te grupi i të dhënave për shkarkim dhe ato nuk bëhen kurrë publike te faqja profil e të zotit.
+faq-what-determine-identity-q = Ç’do të thotë se s’mund të “përcaktojë identitetin” e folësve te grupi i të dhënave Common Voice?
+faq-what-determine-identity-a =
+    Grupi i të dhënave Common Voice është një burim i hapur dhe i përdorshëm publikisht, që mund të përdoret për të stërvitur një gamë të gjerë aplikacionesh që përdorin të folurën. Për të mbrojtur sigurinë e kontribuesve tanë,  i kërkojmë cilitdo që shkarkon grupin e të dhënave Common Voice të respektojë privatësinë e kontribuesve.
+    
+    All voice clips in the dataset are scrubbed of personally identifying information.  When you download the dataset, you agree to not attempt  to determine  the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
 
 ## Glossary
 
