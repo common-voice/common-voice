@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Parashtroje
 loading = Po ngarkohet…
+email-opt-in-privacy = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -72,10 +73,13 @@ ne-NP = Nepaleze
 nl = Holandisht
 nn-NO = Norvegjisht Nynorsk
 oc = Oçitane
+or = Odia
 pl = Polonisht
 pt-BR = Portugalisht (Brazil)
+rm-sursilv = Romansh Sursilvan
 ro = Rumanisht
 ru = Rusisht
+sah = Sakha
 sc = Sardinisht
 sk = Sllovakisht
 sl = Sllovenisht
@@ -135,6 +139,7 @@ help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë frazë
 no-clips-to-validate = Duket se nuk ka copëza për dëgjuar për këtë gjuhë. Ndihmonani duke incizuar disa të tilla që tani.
 vote-yes = Po
 vote-no = Jo
+toggle-play-tooltip = Shtypni { shortcut-play-toggle } që të hyhet ose dilet nga mënyra luajtje
 speak-subtitle = Dhuroni zërin tuaj
 speak-paragraph = Incizimi i copëzave zanore është pjesë integrale e krijimit të grupit tonë të hapur të të dhënave; ndokush mund të thosh se është edhe pjesa zbavitëse.
 speak-goal-text = Copëza të incizuara
@@ -165,12 +170,21 @@ x-years-short =
         [one] { $count }v
        *[other] { $count }v
     }
+help-make-dataset = Ndihmonani të krijojmë një grup të dhënash të cilësisë së lartë, të hapur publikisht
+profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
+sign-up-account = Regjistrohuni për një llogari
 
 ## Account Benefits
 
+benefits = Përfitime
+rich-data = Bëjini të dhënat tuaja sa më të pasura që të mundet, duke dhënë disa të dhëna demografike anonime. Përpara se t’i bëjmë publike, krejt të dhënat demografike i bëjmë të paidentifikueshme.
 
 ## What's public
 
+whats-public = Ç’është Publike?
+email-not-public = S’do ta bëjëm publik email-in tuaj.
+recordings-and-locale-public = Numri i incizimeve dhe në cilat gjuhë kontribuoni do të bëhen publike.
+username-optin-public = Mund të zgjidhni për ta bërë emrin tuaj të përdoruesit publik ose anonim.
 
 ## Speak & Listen Shortcuts
 
