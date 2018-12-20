@@ -299,6 +299,16 @@ change-email-setings = Wijzig uw e-mailadres via Instellingen onder Aanmeldingsi
 
 faq-title = Veelgestelde vragen
 faq-what-cv-q = Wat is Common Voice?
+faq-what-cv-a =
+    Spraakherkenningstechnologie is een revolutie in de manier waarop we omgaan met machines, maar de momenteel beschikbare systemen zijn duur en afgeschermd. Common Voice is onderdeel van Mozilla’s initiatief om spraakherkenningstechnologieën beter en voor iedereen toegankelijker te maken. Common Voice is een enorme wereldwijde database van gedoneerde stemmen, waarmee iedereen snel en eenvoudig spraakgestuurde apps in potentieel elke taal kan trainen.
+    
+    We verzamelen niet alleen spraakfragmenten in veelgesproken talen, maar ook in die met een kleiner aantal sprekers. Door een diverse gegevensset met stemmen te publiceren, krijgen ontwikkelaars, ondernemers en gemeenschappen de mogelijkheid om deze kloof zelf aan te pakken. Naast de Common Voice-gegevensset bouwen we ook een opensource-spraakherkenningsprogramma met de naam Deep Speech.
+faq-why-important-q = Waarom is het belangrijk?
+faq-why-important-a =
+    Spraak is vaak de meest natuurlijke manier om met elkaar te communiceren en spraaktechnologieën brengen dat gemak naar onze computers en mobiele apparaten. We willen ontwikkelaars de mogelijkheid geven geweldige spraakherkenningstoepassingen te bouwen, zoals realtime-vertalers en spraakgestuurde digitale assistenten. Maar op dit moment zijn de meeste spraakgegevens die nodig zijn om dit soort toepassingen te bouwen duur en afgeschermd. We hopen dat de Common Voice-gegevensset ontwikkelaars biedt wat ze nodig hebben om te innoveren en spraaktechnologie beschikbaar te stellen in hun eigen taal.
+    
+    Om spraakherkenning nog universeler te maken, verzamelen we spraakfragmenten in veelgesproken talen, evenals die met een kleinere populatie van sprekers, die vaak niet worden ondersteund door commerciële spraakherkenningsdiensten. Door een diverse gegevensset met stemmen te publiceren, kunnen ontwikkelaars, ondernemers en volledige spraakgemeenschappen zelf deze kloof overbruggen.
+faq-how-get-q = Hoe kan ik de gegevens van Common Voice verkrijgen?
 
 ## Glossary
 
