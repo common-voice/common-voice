@@ -168,6 +168,28 @@ x-years-short =
         [one] jaar
        *[other] { $count } jr
     }
+help-make-dataset = Help ons een openbaar toegankelijke gegevensset van hoge kwaliteit te bouwen
+profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
+sign-up-account = Een account aanmaken
+
+## Account Benefits
+
+benefits = Voordelen
+rich-data = Maak uw ingediende gegevens zo rijk mogelijk door wat anonieme demografische gegevens op te geven. Alle demografische gegevens worden anoniem gemaakt voordat ze worden gepubliceerd.
+improve-audio = Profielinformatie verbetert de audiogegevens die worden gebruikt bij het trainen van de nauwkeurigheid van spraakherkenning.
+keep-track = Volg uw voortgang en metrische gegevens in meerdere talen.
+compare-progress = Beschouw hoe uw voortgang zich verhoudt tot die van anderen in de wereld.
+view-goals = Bekijk uw voortgang tegen persoonlijke en projectdoelstellingen.
+join-newsletter = Meld u optioneel aan voor onze mailinglijst voor updates en nieuwe informatie over het project.
+
+## What's public
+
+whats-public = Wat is openbaar?
+email-not-public = We maken uw e-mailadres niet openbaar.
+recordings-and-locale-public = Het aantal opnamen en de talen waaraan u bijdraagt zijn openbaar.
+username-optin-public = U kunt kiezen of uw gebruikersnaam openbaar of anoniem is.
+demographic-deidentified = Optioneel ingediende demografische gegevens (bv. leeftijd, geslacht, taal en accent) worden anoniem gemaakt ten opzichte van uw ingediende stemgegevens en zullen nooit openbaar worden gemaakt op uw profiel.
+username-email-not-demographic = Uw gebruikersnaam en e-mailadres zullen niet met de gepubliceerde gegevens worden gekoppeld.
 
 ## Speak & Listen Shortcuts
 
@@ -276,25 +298,10 @@ change-email-setings = Wijzig uw e-mailadres via Instellingen onder Aanmeldingsi
 ## FAQ
 
 faq-title = Veelgestelde vragen
-faq-what-q = Wat is Common Voice?
-faq-what-a = Spraakherkenningstechnologie kan een revolutie teweegbrengen in de manier waarop we interactie hebben met machines, maar de huidige beschikbare systemen zijn duur en gesloten. Common Voice is een project om spraakherkenningstechnologie voor iedereen eenvoudig toegankelijk te maken. Mensen doneren hun stemmen aan een enorme database waarmee iedereen snel en eenvoudig spraakgestuurde apps kan trainen. Alle stemgegevens zijn beschikbaar voor ontwikkelaars.
-faq-important-q = Waarom is dit belangrijk?
-faq-important-a = Spraak is natuurlijk, spraak is menselijk. Het is de eenvoudigste en meest natuurlijke manier van communicatie. We willen dat ontwikkelaars geweldige dingen kunnen bouwen, van realtime-vertalers tot spraakgestuurde administratieve assistenten. Momenteel zijn er echter te weinig publiek toegankelijke gegevens om dit soort apps te kunnen bouwen. We hopen dat Common Voice ontwikkelaars kan geven wat ze nodig hebben om te innoveren.
-faq-get-q = Hoe krijg ik toegang tot Common Voice-gegevens?
-faq-get-a = De gegevensset is nu beschikbaar op onze <downloadLink>downloadpagina</downloadLink> onder de <licenseLink>CC-0</licenseLink>-licentie.
-faq-mission-q = Waarom is Common Voice onderdeel van de Mozilla-missie?
-faq-mission-a = Mozilla wijdt zich aan het voor iedereen open en toegankelijk houden van het internet. Om dit te doen, moeten we webmakers middelen geven met projecten als Common Voice. Omdat spraaktechnologieën steeds meer worden toegepast, geloven we dat ze alle gebruikers ten dienste moeten staan. We zien dat er behoefte is aan meer talen, accenten en bevolkingsverschillen bij het testen van spraaktechnologieën. Mozilla wil een gezond en opwindend internet zien. Dat betekent nieuwe makers toegang geven tot spraakgegevens, zodat ze nieuwe, buitengewone projecten kunnen bouwen. Common Voice wordt een publieke bron die Mozilla-teams en ontwikkelaars over de hele wereld zal helpen.
-faq-native-q = Ik ben een niet-moedertaalspreker van het { $lang } en ik spreek met een accent, willen jullie toch mijn stem?
-faq-native-a = Ja, we willen zeker uw stem! Onderdeel van het doel van Common Voice is om zo veel mogelijk verschillende accenten te verzamelen, zodat computers <bold>iedereen</bold> beter kunnen begrijpen wanneer zij spreken.
-faq-firefox-q = Zal spraak-naar-tekst, via Common Voice, ooit onderdeel worden van Firefox?
-faq-firefox-a = Common Voice heeft een onbegrensd potentieel, en we verkennen inderdaad spraakinterfaces in veel Mozilla-producten, waaronder Firefox.
-faq-quality-q = Wat is het benodigde kwaliteitsniveau voor audio voor bruikbaarheid?
-faq-quality-a = We willen dat de geluidskwaliteit een weergave is van de kwaliteit zoals die straks in het echt zal worden bereikt. Daarom willen we variatie. Dit leert de spraak-naar-tekst-engine om foutloos om te gaan met diverse situaties - spraak op de achtergrond, autogeluiden, ventilatiegeluiden.
-faq-hours-q = Waarom is 10.000 uur het doel voor geluidsopnamen?
-faq-hours-a = Dit is ongeveer het aantal benodigde uren om een operationeel spraak-naar-tekst-systeem te trainen.
-faq-source-q = Waar komt de brontekst vandaan?
-faq-source-a1 = De huidige zinnen komen van medewerkersdonaties, alsmede van dialogen uit openbare filmscripts zoals <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = U kunt onze bronzinnen bekijken in <dataLink>deze GitHub-map</dataLink>.
+faq-what-cv-q = Wat is Common Voice?
+
+## Glossary
+
 
 ## NotFound
 
