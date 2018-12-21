@@ -186,6 +186,7 @@ benefits = فواید
 ## What's public
 
 whats-public = چه چیزی عمومی است؟
+email-not-public = ما رایانامه شما را برای عموم منتشر نخواهیم کرد.
 
 ## Speak & Listen Shortcuts
 
