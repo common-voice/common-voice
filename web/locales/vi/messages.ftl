@@ -172,6 +172,7 @@ sign-up-account = Đăng kí một tài khoản
 ## Account Benefits
 
 benefits = Lợi ích
+improve-audio = Thông tin hồ sơ cải thiện dữ liệu âm thanh được sử dụng trong đào tạo độ chính xác nhận dạng giọng nói.
 keep-track = Theo dõi tiến trình và số liệu của bạn trên nhiều ngôn ngữ.
 compare-progress = Xem mức độ của bạn so với những người đóng góp khác trên toàn thế giới.
 view-goals = So sánh tiến độ của bạn với các mục tiêu cá nhân và dự án.
@@ -295,17 +296,24 @@ faq-title = Câu hỏi thường gặp
 faq-what-cv-q = Common Voice là gì?
 faq-why-important-q = Tại sao nó lại quan trọng?
 faq-how-get-q = Làm cách nào tôi có thể nhận được dữ liệu Common Voice?
+faq-how-get-a = Bộ dữ liệu của Common Voice có sẵn để tải xuống theo giấy phép <licenseLink>CC0</licenseLink> trên <datasetLink>trang dữ liệu của chúng tôi</datasetLink>. Bạn cũng có thể tải xuống một số bộ dữ liệu có sẵn công khai khác từ cùng một trang.
 faq-when-release-q = Khi nào bạn sẽ phát hành dữ liệu Common Voice bằng các ngôn ngữ khác?
 faq-why-mission-q = Tại sao Common Voice là một phần của nhiệm vụ Mozilla?
 faq-what-cv-and-deepspeech-q = Điểm gì khác biệt giữa Common Voice và Deep Speech?
 faq-is-goal-assistant-q = Có phải mục tiêu của Common Voice là để xây dựng một trợ lý giọng nói không?
 faq-why-different-speakers-q = Tại sao bạn cần rất nhiều người nói khác nhau cho mỗi ngôn ngữ?
 faq-why-my-lang-q = Tại sao ngôn ngữ của tôi chưa được đưa vào?
+faq-what-quality-q = Mức chất lượng âm thanh nào được yêu cầu cho một clip thoại được sử dụng trong bộ dữ liệu?
+faq-what-quality-a = Chúng tôi muốn bộ dữ liệu Common Voice phản ánh chất lượng âm thanh mà một công cụ chuyển lời nói thành văn bản sẽ nghe thấy trong tự nhiên, vì vậy chúng tôi đang tìm kiếm sự đa dạng. Ngoài cộng đồng người nói đa dạng, bộ dữ liệu với chất lượng âm thanh khác nhau sẽ nghiên cứu cho công cụ chuyển lời nói thành văn bản để xử lý các tình huống thực tế khác nhau, từ nói chuyện nền tảng đến tiếng ồn xe hơi. Miễn là clip thoại của bạn dễ hiểu, nó sẽ đủ tốt cho bộ dữ liệu.
+faq-why-10k-hours-q = Tại sao 10.000 giờ được xác thực là mục tiêu cho mỗi ngôn ngữ để thu âm thanh?
+faq-why-10k-hours-a = Đây là số giờ cần thiết để đào tạo sản xuất hệ thống chuyển giọng nói thành văn bản.
 faq-how-calc-hours-q = Làm thế nào để Common Voice tính toán giờ?
 faq-how-calc-hours-a = Chúng tôi tính toán số giờ bằng cách ước tính độ dài trung bình của mỗi bản ghi, sau đó nhân số đó với tổng số bản ghi trên tất cả các ngôn ngữ.
 faq-where-src-from-q = Trường hợp văn bản thì được lấy từ đâu?
 faq-why-account-q = Tại sao tôi nên đăng ký tài khoản?
 faq-is-account-public-q = Thông tin tài khoản của tôi có công khai không?
+faq-how-privacy-q = Làm thế nào để bạn đảm bảo ẩn danh và quyền riêng tư của những người đã góp tiếng nói của họ?
+faq-what-determine-identity-q = Điều đó có nghĩa là gì khi tôi có thể xác định danh tính của những người nói trong bộ dữ liệu Common Voice?
 faq-what-determine-identity-a =
     Bộ dữ liệu Common Voice là một tài nguyên mở và công khai có thể được sử dụng để đào tạo nhiều ứng dụng hỗ trợ giọng nói. Để bảo vệ tính bảo mật của những người đóng góp, chúng tôi yêu cầu mọi người tải xuống tập dữ liệu Common Voice phải tôn trọng quyền riêng tư của cộng tác viên.
     
@@ -316,6 +324,8 @@ faq-what-determine-identity-a =
 glossary = Từ vựng
 localization = Bản địa hóa
 localization-explanation = Đây là quá trình của chúng tôi để dịch và điều chỉnh nội dung của chúng tôi cho nhiều địa phương (ngôn ngữ).
+sentence-collection = Bộ sưu tập câu
+sentence-collection-explanation = Thu thập các câu từ miền công cộng hoặc viết câu mới cho miền công cộng.
 hours-recorded-explanation = Số giờ ghi âm giọng nói chúng tôi đã thu thập cho đến nay.
 hours-validated-explanation = Số giờ ghi âm giọng nói đã được xác nhận bởi 2 trên 3 người dùng với số phiếu bầu là "Có". Những đánh dấu tiến trình hướng tới mục tiêu tổng thể 10 nghìn giờ của dự án.
 sst = Nhận dạng giọng nói (STT)
