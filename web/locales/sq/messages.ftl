@@ -278,6 +278,7 @@ login-signup = Hyni / Regjistrohuni
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
 download-profile = Shkarkoji të dhënat e mia
+contribution-experience = Përvojë Kontributi
 skip-submission-feedback = Anashkalo Përshtypje mbi Parashtrimet
 skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e përshtypjeve do të anashkalohet, pas klikimit të 'Parashtroje. Kontributi do të vazhdojë drejtpërsëdrejti me grupin pasues të 5 incizimeve apo vleftësimeve.
 skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
@@ -319,6 +320,10 @@ faq-is-goal-assistant-q = A është krijimi i  një asistenti zanor synimi i Com
 faq-is-goal-assistant-a = Synimi për grupin e të dhënave Common Voice është t’i bëjë të mundur kujtdo në botë të krijojë aplikacione kuptimi të të folurës, të folësit, apo çfarëdo tjetër që lypin të dhëna të folure. Një asistent zanor është vetëm një nga shumë lloje aplikacionesh për ndërtimin e të cilave mund të përdoret grupi i të dhënave.
 faq-do-want-native-q = Nuk e kam gjuhën e nënës dhe flas me ca theks, ju bën punë zëri im?
 faq-do-want-native-a = Po, e duam që ç’ke me të zërin tuaj! Pjesë e synimit të Common Voice-it është të mbledhë sa më tepër theksa të ndryshme që të jetë e mundur, në mënyrë që shërbimet e të kuptuarit të të folurës të funksionojnë po aq mirë për këdo. Kjo do të thotë se dhurimet për një gjuhë nga ata që s’e kanë gjuhën e nënës janë veçanërisht të rëndësishme.
+faq-why-different-speakers-q = Pse ju duhen kaq shumë folës të ndryshëm për gjuhë?
+faq-why-different-speakers-a =
+    Shumica e bazave të të dhënave për të folurën përgatiten bazuar në një përfaqësim të tepruar të disa shtresave demografike, çka sjell anshmëri kah  <articleLink>meshkujt dhe klasa e mesme</articleLink>. Theksat dhe dialektet që priren të jenë të përfaqësuar më dobët në grupe të dhënash të përdorura për stërvitjen e aplikacioneve zakonisht kanë lidhje me grupe njerëzish që janë tashmë të lënë mënjanë. Plot makina e kanë gjithashtu të zorshme të kuptojnë zëra femërorë.
+    This is why in our voice database we want variety!
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
 faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
 faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
@@ -349,7 +354,14 @@ faq-what-determine-identity-a =
 glossary = Fjalorth
 localization = Përkthim
 localization-explanation = Ky është procesi ynë për përkthimin dhe adaptimin e lëndës tonë për shumë vendore (gjuhë).
-sentence-collection = Koleksion Frazash
+sentence-collection = Grumbullim Frazash
+sentence-collection-explanation = Grumbullim frazash nga përkatësia publike, ose shkrimi i të tillash të reja për për nën përkatësinë publike.
+hours-recorded-explanation = Numri i orëve incizim zërash që kemi grumbulluar deri këtu.
+hours-validated-explanation = Numri i orëve incizim zërash që janë vleftësuar nga 2 prej 3 përdoruesve me votë “Po”. Këto janë shenja përparimi drejt synimit të përgjithshëm prej 10 mijë orësh të projektit.
+sst = E-folur-në-tekst (FNT)
+sst-explanation = Teknologjitë E-folur-në-tekst (FNT) shndërrojnë të dhëna të folure në tekst.
+de-identified = Çidentifikim
+de-identified-explanation = Procesi sipas të cilit të dhënat e profilit të një vullnetari bëhen të padukshme në copëzat zanore që ky ka dhuruar, kur ato paketohen për shkarkim si pjesë e grupit të të dhënave.
 
 ## NotFound
 
