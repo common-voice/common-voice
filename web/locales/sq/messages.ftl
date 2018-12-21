@@ -518,8 +518,11 @@ validations =
 ## Dashboard
 
 your-languages = Gjuhët Tuaja
+toward-next-goal = Drejt synimit të ardhshëm
 clips-you-recorded = Copëza Që Keni Incizuar
 clips-you-validated = Copëza Që Keni Vleftësuar
+todays-recorded-progress = Ecuria e sotme për copëza Common Voice të incizuara
+todays-validated-progress = Ecuria e sotme për copëza Common Voice të vleftësuara
 stats = Statistika
 you = Ju
 everyone = Kushdo
@@ -532,6 +535,9 @@ overall-accuracy = Saktësia Në Përgjithësi
 
 ## Profile Delete
 
-keep = Mbaje
-remove = Hiqe
+delete-q = Dëshironi të kërkoni edhe fshirjen e incizimeve tuaja të të folurës, apo parapëlqeni të mbahen në grupin e të dhënave Common Voice?
+keep = Mbaji
+remove = Hiqi
+keep-info = Incizimet tuaja anonime të të folurës do të mbahen në grupin e të dhënave Common Voice. Pasi të fshihet profili juaj, s’do të jeni më në gjendje të parashtroni kërkesë për fshirje të incizimeve tuaja prej grupit të të dhënave
+remove-info = Do ta shqyrtojmë kërkesën tuaj për heqjen nga grupi i të dhënave të incizimeve tuaja të të folurës. Nëse kërkesa jua miratohet, do të lidhemi me ata që e kanë shkarkuar grupin e të dhënave dhe do t’u kërkojmë të heqin incizimet e zëri tuaj.
 profile-form-delete = Fshini Profil
