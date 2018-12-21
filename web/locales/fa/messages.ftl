@@ -297,9 +297,14 @@ change-email-setings = رایانامه خود را از طریق تنظیمات
 ## FAQ
 
 faq-title = سوالات متداول
+faq-what-cv-q = صدای مشترک چیست؟
+faq-why-important-q = چرا مهم است؟
+faq-how-get-q = چگونه می‌توانم اطلاعات صدای مشترک را دریافت کنم؟
 
 ## Glossary
 
+glossary = واژه‌نامه
+localization = بومی‌سازی
 
 ## NotFound
 
