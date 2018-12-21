@@ -292,6 +292,7 @@ change-email-setings = Módosítsa az e-mail beállításait a Beállításokban
 ## FAQ
 
 faq-title = Gyakran Ismételt Kérdések
+faq-what-cv-q = Mi a Common Voice?
 
 ## Glossary
 
