@@ -205,6 +205,11 @@ contribution-experience = Experiéncia de contribucion
 add-avatar-title = Ajustar un avatar al perfil
 browse-file-title = Enviar un imatge
 connect-gravatar = Connectatz-vos amb Gravatar
+gravatar_not_found = Cap de gravatar pas trobat per vòstra adreça electronica
+file_too_large = Lo fichièr seleccionat es tròp pesuc
+manage-subscriptions = Gerir las abonaments
+email-already-used = Aquesta adreça electronica es ja utilizada per un autre compte
+add-language = Ajustar una lenga
 
 ## FAQ
 
