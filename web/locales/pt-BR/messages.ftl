@@ -1,8 +1,8 @@
 ## General
 
-yes-receive-emails = Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.
-stayintouch = Nós da Mozilla estamos construindo uma comunidade ao redor da tecnologia de voz. Nós gostaríamos de manter contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.
-privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
+yes-receive-emails = Sim, me envie e-mails. Quero me manter informado sobre o Projeto Common Voice.
+stayintouch = Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.
+privacy-info = Prometemos lidar com suas informações com cautela. Saiba mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
 return-to-cv = Voltar para o Common Voice
 email-input =
     .label = E-mail
@@ -271,7 +271,7 @@ thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir se
 why-demographic = Por que isto é importante?
 why-demographic-explanation = Dados anônimos de usuários, como idade, sexo e sotaque, ajudam a aprimorar os dados de áudio usados para treinar a precisão dos mecanismos de reconhecimento de voz. Seu nome de usuário e e-mail nunca serão associados com os dados enviados, e você pode escolher se seu nome de usuário ficará público ou anônimo.
 keep-me-posted =
-    .label = Eu quero receber novidades e estar a par do que está acontecendo no Common Voice.
+    .label = Eu quero receber novidades e ficar a par do que está acontecendo no Common Voice.
 accept-privacy = Concordo que estas informações sejam utilizadas conforme explicado na <privacyLink>Política de Privacidade</privacyLink> da Mozilla.
 login-identity = Identidade de acesso
 login-signup = Entrar / Inscrever-se
