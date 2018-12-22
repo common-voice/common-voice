@@ -304,6 +304,10 @@ faq-what-cv-a =
     
     Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializará desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos. Além do conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
 faq-why-important-q = Por que é importante?
+faq-why-important-a =
+    A fala é geralmente a maneira mais natural de nos comunicar e as tecnologias de voz estão trazendo essa conveniência para nossos computadores e dispositivos móveis. Queremos capacitar os desenvolvedores a criar aplicativos de reconhecimento de voz incríveis, como tradutores em tempo real e assistentes digitais habilitados para voz. Mas, no momento, a maioria dos dados de voz necessários para criar esses tipos de aplicativos é cara e proprietária. Esperamos que o conjunto de dados do Common Voice forneça aos desenvolvedores o que eles precisam para inovar e disponibilizar tecnologia de voz em seus próprios idiomas.
+    
+    Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amostras de voz em idiomas amplamente falados, bem como naqueles com uma população menor de falantes, frequentemente deixados de lado por serviços comerciais de reconhecimento de voz. A publicação de um conjunto de dados diversificado permitirá que desenvolvedores, empreendedores e comunidades inteiras resolvam essa lacuna eles mesmos.
 faq-how-get-q = Como posso obter os dados do Common Voice?
 faq-how-get-a = O conjunto de dados do Common Voice está disponível para download sob a licença <licenseLink>CC0</licenseLink> em <datasetLink>nossa página de Datasets</datasetLink>. Você também pode baixar diversos outros conjuntos de dados disponíveis publicamente a partir da mesma página.
 faq-when-release-q = Quando serão lançados os dados do Common Voice em outros idiomas?
