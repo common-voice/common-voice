@@ -172,6 +172,7 @@ sign-up-account = 注册账号
 ## Account Benefits
 
 benefits = 好处
+rich-data = 提供一些人口统计数据后，可让您提交的数据更加丰富。我们会在公开录音文件前，将这些统计数据去识别化。
 improve-audio = 个人资料可帮助改善进行语音识别准确度训练时的音频数据。
 keep-track = 记录您的进度，以及各种语言的统计指标。
 compare-progress = 看看您的进度与世界各地的其他贡献者相比如何？
@@ -326,12 +327,15 @@ faq-what-determine-identity-q = 在 Common Voice 数据集中无法“确定说�
 
 glossary = 词汇表
 localization = 本地化
+localization-explanation = 这是我们为许多语系（语言）进行翻译和调整内容的过程。
 sentence-collection = 语句集合
+sentence-collection-explanation = 收集公共领域的语句，或为公共领域编写新的语句。
 hours-recorded-explanation = 到目前为止我们收集到的录音小时数。
 hours-validated-explanation = 每 3 位用户中有 2 位投票赞成“是”的已验证录音小时数。这也就是整个项目 10000 小时目标的进度。
 sst = 语音转文字（STT）
 sst-explanation = 语音转文字（STT）技术将语音数据转换为文字。
 de-identified = 去识别化
+de-identified-explanation = 在打包下载数据集时，贡献者的个人信息会从其所贡献的语音片段隐藏的过程。
 
 ## NotFound
 
