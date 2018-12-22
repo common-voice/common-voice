@@ -229,13 +229,13 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Próximo objetivo: { $goal }
+status-goal = Próxima meta: { $goal }
 english = Inglês
 
 ## ProfileForm
 
 profile-form-username =
-    .label = Usuário
+    .label = Nome
 profile-form-language =
     .label = Idioma
 profile-form-accent =
@@ -245,7 +245,7 @@ profile-form-age =
 profile-form-gender =
     .label = Gênero
 leaderboard-visibility =
-    .label = Visibilidade do quadro de líderes
+    .label = Visibilidade no quadro de líderes
 hidden = Oculto
 visible = Visível
 native-language =
@@ -257,11 +257,11 @@ female = Feminino
 # Gender
 other = Outro
 why-profile-title = Por que um perfil?
-why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviou ao Common Voice serão mais úteis aos mecanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
+why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviar ao Common Voice serão mais úteis aos mecanismos de reconhecimento de voz que usam esses dados para aprimorar a precisão.
 dashboard = Painel
 build-profile = Criar perfil
 avatar = Avatar
-goals = Objetivos
+goals = Metas
 settings = Configurações
 edit-profile = Editar perfil
 profile-create-success = Perfil criado com sucesso!
@@ -315,7 +315,9 @@ faq-when-release-a = A versão multilíngue do conjunto de dados do Common Voice
 faq-why-mission-q = Por que o Common Voice faz parte da missão Mozilla?
 faq-what-cv-and-deepspeech-q = Qual é a diferença entre Common Voice e Deep Speech?
 faq-is-goal-assistant-q = O objetivo do Common Voice é construir um assistente de voz?
+faq-is-goal-assistant-a = O objetivo do conjunto de dados do Common Voice é permitir que qualquer pessoa no mundo crie mecanismos de reconhecimento de voz, reconhecimento de quem está falando, ou qualquer outro tipo de aplicativo que necessite de dados de voz. Um assistente de voz é apenas um dos muitos tipos de aplicativos que você pode criar usando o conjunto de dados.
 faq-do-want-native-q = Eu não sou um falante nativo e eu falo com sotaque, vocês ainda querem minha voz?
+faq-do-want-native-a = Sim, queremos especialmente sua voz! Parte do objetivo do Common Voice é reunir o maior número possível de sotaques diferentes para que os serviços de reconhecimento de voz funcionem igualmente bem para qualquer pessoa. Isso significa que doações de voz de falantes não nativos são particularmente importantes.
 faq-why-different-speakers-q = Por que vocês precisam de tantas pessoas diferentes em cada idioma?
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
@@ -500,7 +502,7 @@ validations =
 ## Dashboard
 
 your-languages = Seus idiomas
-toward-next-goal = Rumo ao próximo objetivo
+toward-next-goal = Rumo à próxima meta
 clips-you-recorded = Clipes que você gravou
 clips-you-validated = Clipes que você validou
 todays-recorded-progress = Progresso de hoje do Common Voice em clipes gravados
