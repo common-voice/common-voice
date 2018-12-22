@@ -178,9 +178,14 @@ benefits = Beneficios
 rich-data = Rende plus ric possibile tu datos inviate, per qualque informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que render illos public.
 improve-audio = Le informationes del profilo meliora le precision del datos audio usate pro le exercitation del recognition de voce.
 keep-track = Mantene tracia de tu progresso e del indicatores trans plure linguas.
+compare-progress = Vide como tu progresso es comparabile a altere collaboratores de tote le mundo.
+view-goals = Vide tu progresso contra scopos personal e de projecto.
+join-newsletter = Optionalmente junge te a nostre lista email pro le actualisationes e nove informationes re le projecto.
 
 ## What's public
 
+whats-public = Que es Public?
+email-not-public = Nos non rendera public tu email.
 
 ## Speak & Listen Shortcuts
 
