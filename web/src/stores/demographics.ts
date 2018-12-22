@@ -38,6 +38,7 @@ export const ACCENTS: any = {
     romania: 'Rumänisch Deutsch',
     liechtenstein: 'liechtensteinisches Deutscher',
     namibia: 'Namibisch Deutsch',
+    turkey: 'Türkisch Deutsch',
   },
   en: {
     us: 'United States English',
