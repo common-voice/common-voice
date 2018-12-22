@@ -297,6 +297,10 @@ change-email-setings = 請到「設定」的「登入身分」修改 Email 地�
 
 faq-title = 常見問題
 faq-what-cv-q = Common Voice 是什麼？
+faq-what-cv-a =
+    語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Common Voice 是 Mozilla 打算讓語音識別技術變得更好、讓任何人都更能使用的計畫的一部分。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
+    
+    我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。除了 Common Voice 的資料集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
 faq-why-important-q = 這有什麼重要？
 faq-how-get-q = 我要如何取得 Common Voice 資料？
 faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>下載，本資料集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的資料集。
@@ -311,9 +315,11 @@ faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言�
 faq-why-my-lang-q = 為什麼還沒有我的語言？
 faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
 faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
+faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時數。
 faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-how-calc-hours-a = 我們透過估算每筆錄音的平均長度來計算時數，並乘以所有語言錄音數量來計算。
 faq-where-src-from-q = 原始文本來自哪裡？
+faq-why-not-ask-read-q = 為什麼你們不讓人來念出各種語言的書本內容，或是維基百科條目？
 faq-why-account-q = 為什麼我要註冊帳號？
 faq-is-account-public-q = 我的帳號資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音的人的隱私？
@@ -323,12 +329,15 @@ faq-what-determine-identity-q = 在 Common Voice 資料集中無法「確認發�
 
 glossary = 詞彙
 localization = 在地化
+localization-explanation = 這是我們為許多語系（語言）進行翻譯和調整內容的過程。
 sentence-collection = 語句集合
+sentence-collection-explanation = 收集公眾領域的語句，或使用公眾領域授權撰寫新的語句。
 hours-recorded-explanation = 到目前為止我們收集到的錄音時數。
 hours-validated-explanation = 每三位使用者當中，有兩位使用者投下「正確」的錄音時數。這也就是整個專案一萬小時目標的進度。
 sst = 語音轉文字（STT）
 sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字。
 de-identified = 去識別化
+de-identified-explanation = 在打包下載資料集時，貢獻者的個人資料會從其所貢獻的語音片段隱藏的過程。
 
 ## NotFound
 
