@@ -181,13 +181,18 @@ sign-up-account = Konto załožić
 ## Account Benefits
 
 benefits = Lěpšiny
+improve-audio = Profilowe informacije awdiodaty polěpšeja, kotrež so při trenowanju dokładnosće rěčenskeho spóznaća wužiwaja.
+keep-track = Wobchowajće swój postup a swoje měrjenske daty za wjacore rěče we wóčku.
+compare-progress = Hldajće, kak so swój postup z druhimi sobuskutkowajemi z cyłeho swěta přirunuje.
 view-goals = Přirunajće swój postup z wosobinskimi a projektowymi cilemi.
 
 ## What's public
 
 whats-public = Što je zjawne?
 email-not-public = Wašu e-mejlowu adresu njewozjewimy.
+recordings-and-locale-public = Ličba natočenjow a rěčow, ke kotrymž přinošujeće, budu zjawne.
 username-optin-public = Móžeće swoje wužiwarske mjeno wozjewić abo anonymizować.
+username-email-not-demographic = Waše wužiwarske mjeno a e-mejlowa adresa so z wozjewjenymi datami njezwjazujetej.
 
 ## Speak & Listen Shortcuts
 
@@ -305,8 +310,10 @@ faq-when-release-q = Hdy Common Voice w druhich rěčach wozjewiće?
 faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
 faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
 faq-is-goal-assistant-q = Je cil Common Voice, hłosowy asistent wutworić?
+faq-do-want-native-q = Njejsym maćernorěcnik a rěču z akcentom, chceće mój hłós?
 faq-why-different-speakers-q = Čehodla trjebaće wjele rozdźělnych rěčnikow na rěč?
 faq-why-my-lang-q = Čehodla moja rěč hišće njeje?
+faq-what-quality-q = Kotra awdiokwalita je trěbna, zo by so hłosowy klip w datowej sadźbje wužiwał?
 faq-how-calc-hours-q = Kak Common Voice hodźiny wobličuje?
 faq-where-src-from-q = Zwotkel žórłowy tekst pochadźa?
 faq-why-account-q = Čehodla měł ja konto załožić?
