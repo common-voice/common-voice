@@ -295,6 +295,10 @@ change-email-setings = 请到“设置”的“登录身份”修改电子邮件
 
 faq-title = 常见问题
 faq-what-cv-q = Common Voice 是什么？
+faq-what-cv-a =
+    语音识别技术正在改变我们与机器交互的方式，但目前可用的系统都相当昂贵，且为专有技术。Common Voice 是 Mozilla 旨在让语音识别技术变得更好、让任何人都更能使用的倡议的一部分。Common Voice 也是一组庞大的全球捐赠语音数据库，可让任何人快速轻松地训练出识别任何语音的应用程序。
+    
+    我们不只收集被广泛使用的语言的语音样本，也收集较少人使用的语言的语音样本。发布多种多样的语音数据集，可帮助开发者、创业者，以及各个社区来缩小彼此之间的鸿沟。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
 faq-why-important-q = 为什么如此重要？
 faq-how-get-q = 我要如何获取 Common Voice 数据？
 faq-how-get-a = 可到 <datasetLink>Common Voice 数据集页面</datasetLink>下载，本数据集遵循<licenseLink>CC0</licenseLink> 进行授权。您也可以在该页面中下载其他几组公开可用的数据集。
