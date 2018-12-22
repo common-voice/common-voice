@@ -12,6 +12,7 @@ loading = Cargament…
 
 ## Languages
 
+af = Afrikaans
 an = Aragonés
 ar = Arabi
 as = Assamés
@@ -119,8 +120,28 @@ hours-recorded = Oras enregistradas
 hours-validated = Oras validadas
 read-terms-q = Avètz legit las condicions d’utilizacion ?
 ready-to-record = Prèst a donar vòstra votz ?
-all-languages = Totas les lengas
 today = Uèi
+x-weeks-short =
+    { $count ->
+        [one] Setmana
+       *[other] { $count } setm.
+    }
+x-months-short =
+    { $count ->
+        [one] 1 mes
+       *[other] { $count } meses
+    }
+x-years-short =
+    { $count ->
+        [one] 1 an
+       *[other] { $count } ans
+    }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -138,6 +159,14 @@ request-language-button = Demandar una lenga
 ## ProjectStatus
 
 status-contribute = Donatz vòstra votz
+status-hours =
+    { $hours ->
+        [one] Una ora validada ja !
+       *[other] { $hours } oras validadas ja !
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Objectiu seguent : { $goal }
 english = Anglés
 
 ## ProfileForm
@@ -150,6 +179,8 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Atge
+profile-form-gender =
+    .label = Sèxe
 hidden = Amagat
 visible = Visible
 native-language =
@@ -169,10 +200,17 @@ settings = Paramètres
 edit-profile = Modificar lo perfil
 profile-close = Tampar
 edit = Modificar
+download-profile = Telecargar mas donadas
+contribution-experience = Experiéncia de contribucion
+add-avatar-title = Ajustar un avatar al perfil
+browse-file-title = Enviar un imatge
+connect-gravatar = Connectatz-vos amb Gravatar
 
 ## FAQ
 
-faq-what-q = Qu’es aquò Common Voice ?
+
+## Glossary
+
 
 ## NotFound
 
