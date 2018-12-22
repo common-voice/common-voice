@@ -16,6 +16,7 @@ indicates-required = * Υποχρεωτικό πεδίο
 
 ## Languages
 
+af = Αφρικάανς
 an = Αραγωνικά
 ar = Αραβικά
 as = Ασαμικά
@@ -62,17 +63,20 @@ kpv = Komi-Zyrian
 kw = Κορνουαλικά
 ky = Κιργιζικά
 mk = Σλαβομακεδονικά
+mn = Μογγολικά
 myv = Erzya
 nb-NO = Νορβηγικά (Bokmål)
 ne-NP = Νεπαλικά
 nl = Ολλανδικά
 nn-NO = Νορβηγικά Nynorsk
+oc = Οξιτανικά
 or = Odia
 pl = Πολωνικά
 pt-BR = Πορτογαλικά (Βραζιλίας)
 ro = Ρουμανικά
 ru = Ρώσικα
 sah = Σαχά
+sc = Σαρδηνιακά
 sk = Σλοβακικά
 sl = Σλοβενικά
 sq = Αλβανικά
@@ -160,6 +164,7 @@ x-years-short =
         [one] { $count } έτος
        *[other] { $count } έτη
     }
+sign-up-account = Δημιουργία λογαριασμού
 
 ## Account Benefits
 
@@ -264,6 +269,7 @@ faq-title = Συχνές ερωτήσεις
 faq-what-cv-q = Τι είναι το Common Voice;
 faq-why-important-q = Γιατί είναι σημαντικό;
 faq-how-get-q = Πώς μπορώ να αποκτήσω τα δεδομένα του Common Voice;
+faq-why-my-lang-q = Γιατί δεν περιλαμβάνεται ακόμη η γλώσσα μου;
 faq-how-calc-hours-q = Πώς υπολογίζει το Common Voice τις ώρες;
 faq-where-src-from-q = Από πού προέρχεται το αρχικό κείμενο;
 faq-why-account-q = Γιατί να δημιουργήσω λογαριασμό;
@@ -273,6 +279,7 @@ faq-is-account-public-q = Είναι δημόσιες οι πληροφορίε�
 
 glossary = Γλωσσάριο
 localization = Μετάφραση
+localization-explanation = Αυτή είναι η διαδικασία μας για τη μετάφραση και την προσαρμογή του περιεχομένου μας σε πολλές γλώσσες.
 sentence-collection = Συλλογή προτάσεων
 sst = Ομιλία-σε-κείμενο (STT)
 
@@ -434,6 +441,9 @@ your-languages = Οι γλώσσες σας
 stats = Στατιστικά
 you = Εσείς
 everyone = Όλοι
+top-contributors = Κορυφαίοι εθελοντές
+recorded-clips = Ηχογραφημένα κλιπ
+validated-clips = Επαληθευμένα κλιπ
 overall-accuracy = Συνολική ακρίβεια
 
 ## Profile Delete
