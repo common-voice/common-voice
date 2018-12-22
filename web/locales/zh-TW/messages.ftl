@@ -174,6 +174,7 @@ sign-up-account = 註冊帳號
 ## Account Benefits
 
 benefits = 好處
+rich-data = 提供一些人口統計資料後，可讓您送出的資料更加豐富。我們會在公開錄音檔前，將這些統計資料去識別化。
 improve-audio = 個人資料可幫助改善進行語言識別準確度訓練時的語音資料。
 keep-track = 紀錄您的進度，以及各種語言的統計指標。
 compare-progress = 看看您的進度與世界上其他地方的貢獻者相比如何？
