@@ -299,6 +299,7 @@ change-email-setings = Cambia tu email via Configurationes sub Identitate de con
 
 faq-title = Questiones frequente
 faq-what-cv-q = Que es Common Voice?
+faq-what-cv-a = Le technologia de recognition del voce revolutiona le maniera per le qual nos interage con le machinas, ma le systemas actualmente disponibile es costose e proprietari. Common Voice es parte del initiativa de Mozilla pro render melior e plus accessibile a totes le technologias de recognition del voce. Common Voice es un massive base de datos global de voces donate, que lassa quicunque rapidemente e facilemente maestrar le applicationes activate per le voce in potentialmente cata lingua.
 
 ## Glossary
 
