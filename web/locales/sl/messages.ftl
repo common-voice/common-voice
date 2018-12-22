@@ -180,17 +180,22 @@ x-years-short =
        *[other] { $count } let
     }
 help-make-dataset = Pomagajte nam zgraditi kakovosten in javno dostopen nabor podatkov
+profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 sign-up-account = Prijavite se za račun
 
 ## Account Benefits
 
 benefits = Prednosti
+compare-progress = Primerjajte svoj napredek z drugimi sodelujočimi po vsem svetu.
+join-newsletter = Po želji se lahko pridružite našemu e-poštnemu seznamu za prejemanje posodobitev in novih podatkov o projektu.
 
 ## What's public
 
 whats-public = Kaj je javno?
 email-not-public = Vašga e-poštnega naslova ne bomo javno objavili.
+recordings-and-locale-public = Število posnetkov in jeziki, pri katerih sodelujete, bodo javni.
 username-optin-public = Svoje uporabniško ime lahko nastavite kot javno ali anonimno.
+username-email-not-demographic = Vaše uporabniško ime in e-poštni naslov ne bosta povezana z objavljenimi podatki.
 
 ## Speak & Listen Shortcuts
 
@@ -303,6 +308,9 @@ change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta 
 faq-title = Pogosta vprašanja
 faq-what-cv-q = Kaj je Common Voice?
 faq-why-important-q = Zakaj je to pomembno?
+faq-when-release-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
+faq-why-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
+faq-what-cv-and-deepspeech-q = Kakšna je razlika med projektoma Common Voice in Deep Speech?
 faq-why-different-speakers-q = Zakaj potrebujete toliko različnih govorcev za en jezik?
 faq-why-my-lang-q = Zakaj moj jezik še ni vključen?
 faq-where-src-from-q = Od kod izhaja izvorno besedilo?
