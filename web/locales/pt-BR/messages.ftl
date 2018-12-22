@@ -362,7 +362,7 @@ data-download-yes = Sim
 data-download-deny = Não
 data-download-license = Licença: <licenseLink>CC-0</licenseLink>
 data-download-modal = Você está preste a iniciar um download de <size>{ $size }GB</size>, deseja continuar?
-data-subtitle = Nós estamos construindo um conjunto de dados de voz aberto e publicamente disponível para que qualquer um possa usar no treinamento de suas aplicações de voz-ativa.
+data-subtitle = Estamos construindo um conjunto de dados de voz aberto e disponível publicamente para que qualquer um possa usar no treinamento de aplicações habilitadas por voz.
 data-explanatory-text = Acreditamos que conjuntos de dados de voz grandes e acessíveis ao público promovem a inovação e a saudável concorrência comercial em tecnologias de voz baseadas em aprendizagem de máquinas. Este é um esforço global e convidamos todos a participar. O nosso objetivo é ajudar as tecnologias de voz a ser mais inclusivas, refletindo a diversidade de vozes no mundo todo.
 data-get-started = <speechBlogLink>Comece com o reconhecimento de voz</speechBlogLink>
 data-other-title = Outro conjunto de dados de voz...
@@ -395,7 +395,7 @@ download-title = Seu download começou.
 download-helpus = Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por e-mail.
 download-form-email =
     .label = Digite seu e-mail
-    .value = Obrigado, nós entraremos em contato.
+    .value = Obrigado, entraremos em contato.
 download-back = Voltar ao conjunto de dados do Common Voice
 download-no = Não, obrigado
 
