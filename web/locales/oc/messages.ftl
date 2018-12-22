@@ -1,10 +1,12 @@
 ## General
 
+yes-receive-emails = Òc, mandatz-me de corrièls. Vòli èsser avisat de l’actualitat del projècte Common Voice Project.
 return-to-cv = Tornar a Common Voice
 email-input =
     .label = Adreça electronica
 submit-form-action = Mandar
 loading = Cargament…
+indicates-required = * indica un camp obligatòri
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -118,8 +120,10 @@ speak-subtitle = Donatz vòstra votz
 listen-subtitle = Nos ajudar a validar las voses
 hours-recorded = Oras enregistradas
 hours-validated = Oras validadas
+help-reach-goal = Ajudatz-nos a arribar a { $goal }
 read-terms-q = Avètz legit las condicions d’utilizacion ?
 ready-to-record = Prèst a donar vòstra votz ?
+all-locales = Totas
 today = Uèi
 x-weeks-short =
     { $count ->
@@ -136,12 +140,17 @@ x-years-short =
         [one] 1 an
        *[other] { $count } ans
     }
+sign-up-account = Crear un compte
 
 ## Account Benefits
 
+benefits = Avantatges
 
 ## What's public
 
+whats-public = Quina informacion es publica ?
+email-not-public = Farem pas venir vòstra adreça electronica publica.
+username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
 
