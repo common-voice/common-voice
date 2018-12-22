@@ -189,6 +189,7 @@ email-not-public = Nos non rendera public tu email.
 recordings-and-locale-public = Le numero de registrationes e le linguas que tu usa pro contribuer sera public.
 username-optin-public = Tu pote eliger de render public tu nomine de usator o anonyme.
 demographic-deidentified = Le datos demographic optionalmente inviate (e.g. etate, sexo, lingua, e accento) es de-identificate de tu datos vocal e jammais essera rendite public sur tu profilo.
+username-email-not-demographic = Tu nomine de usator e email non essera associate con le datos publicate.
 
 ## Speak & Listen Shortcuts
 
@@ -292,10 +293,12 @@ file_too_large = Le file seligite es troppo grande
 manage-subscriptions = Gerer le subscriptiones
 email-already-used = Iste email es jam utilisate pro un conto differente
 add-language = Adder un lingua
+change-email-setings = Cambia tu email via Configurationes sub Identitate de connexion
 
 ## FAQ
 
 faq-title = Questiones frequente
+faq-what-cv-q = Que es Common Voice?
 
 ## Glossary
 
