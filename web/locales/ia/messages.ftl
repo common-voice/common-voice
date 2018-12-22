@@ -186,6 +186,9 @@ join-newsletter = Optionalmente junge te a nostre lista email pro le actualisati
 
 whats-public = Que es Public?
 email-not-public = Nos non rendera public tu email.
+recordings-and-locale-public = Le numero de registrationes e le linguas que tu usa pro contribuer sera public.
+username-optin-public = Tu pote eliger de render public tu nomine de usator o anonyme.
+demographic-deidentified = Le datos demographic optionalmente inviate (e.g. etate, sexo, lingua, e accento) es de-identificate de tu datos vocal e jammais essera rendite public sur tu profilo.
 
 ## Speak & Listen Shortcuts
 
