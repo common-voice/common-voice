@@ -320,7 +320,27 @@ faq-is-goal-assistant-a = L'objectif du jeu de données Common Voice est de perm
 faq-do-want-native-q = Je ne suis pas un locuteur natif et je parle avec un accent. Voulez-vous toujours ma voix ?
 faq-do-want-native-a = Oui, nous voulons tout particulièrement votre voix ! Un des buts de Common Voice c'est justement de réunir la plus grande diversité d'accents que possible, de telle sorte que personne ne soit exclus des services de reconnaissance vocale. Cela implique que les contributions des locuteurs d'une langue qui n'est pas leur langue maternelle sont primordiales.
 faq-why-different-speakers-q = Pourquoi avez-vous besoin de tant de locuteurs différents pour chaque langue ?
+faq-why-different-speakers-a =
+    La plupart des bases de données vocales sont construites avec une sur-représentation de certaines démographies et cela génère un biais en faveur <articleLink>des homes de la classe moyenne</articleLink>. Les accents et les dialectes qui tendent à être sous-représentés sont typiquement ceux de populations déjà marginalisées. Ainsi, souvent, les machines ont du mal à reconnaître les voix féminines.
+    C'est pourquoi nous voulons de la diversité dans notre base de données !
+faq-why-my-lang-q = Pourquoi ma langue n'est-elle pas déjà inclue ?
+faq-why-my-lang-a = Mozilla ne choisit ni ne favorise aucune langue par rapport à une autre. Au contraire, Common Voice est entièrement contrôlé par la communauté, mais il faut <multilangLink>plusieurs étapes pour rajouter une langue</multilangLink> et être capable de démarrer la collecte. D'abord, le site web Common Voice nécessite d'être traduit pour que les membres de la communauté aient accès à la contribution dans leur langue. Ensuite, nous avons besoin d'une large quantité de texte qui soit libre de droits afin que les gens puissent les lire. Une fois que ces deux pré-requis sont réalisés, la langue est « lancée » sur Common Voice et les contributeurs peuvent s'enregistrer et valider les enregistrements.
+faq-what-quality-q = Quel niveau de qualité audio est requis pour les échantillons présents dans la base de données ?
+faq-what-quality-a = Nous souhaitons que le jeu de données Common Voice reflète la qualité audio qu'un système de reconnaissance vocale rencontrera dans la réalité, nous avons donc besoin de diversité. En plus d'une communauté représentant une large diversité de locuteurs, un jeu de données avec une qualité sonore variable permettra d'apprendre au moteur de reconnaissance vocale comment s'adapter dans différentes situations de la vie réelle, que ce soit avec des conversations en arrière-plan ou le bruit d'une voiture. Du moment que vos échantillons sont compréhensibles, alors c'est parfait pour le jeu de données.
+faq-why-10k-hours-q = Pourquoi l'objectif est-il de 10 000 heures d'audio ?
+faq-why-10k-hours-a = C’est à peu près la quantité de données nécessaire pour être en mesure de produire un système de reconnaissance vocale de qualité.
+faq-how-calc-hours-q = Comment Common Voice calcule-t-il le nombre d'heures ?
+faq-how-calc-hours-a = Nous faisons une estimation de la longueur moyenne de chaque enregistrement, et ensuite nous le multiplions par le nombre total d'enregistrements dans toutes les langues.
 faq-where-src-from-q = D'où viennent les textes sources ?
+faq-where-src-from-a = Notre texte source est un mélange de contributions individuelles, d'extraits de débats de l'Assemblée Nationale (France), d'extraits de livres du projet Gutenberg, d'extraits de pièces de théâtres sous licence le permettant. Nous avons également des jeux de données représentant des adresses dans toute la France, métropolitaine et Outre-Mer. Vous pouvez voir les phrases sources dans ce dossier sur GitHub.
+faq-why-not-ask-read-q = Pourquoi ne pas demander aux gens de lire des livres ou des articles Wikipedia dans différentes langues ?
+faq-why-not-ask-read-a = Pour assurer un maximum d'utilisation au jeu de données Common Voice, nous avons décidé d'autoriser uniquement du texte source sous une licence Creative Commons (CC0). Utiliser le standard CC0 rends la collecte de texte source plus difficile, mais assure que quiconque peut utiliser le jeu de données sans restriction ni autorisation de Mozilla. De plus, vous voulons que le jeu de données multi-langue soit le plus utile à tous, que ce soit des chercheurs, des universités, des startups, des gouvernements, des organisations à but social et des hobbyistes.
+faq-why-account-q = Pourquoi devrais-je créer un compte ?
+faq-is-account-public-q = Les informations de mon compte sont-elles publiques ?
+faq-how-privacy-q = Comment assurez-vous l'anonymat ainsi que le respect de la vie privée des contributeurs ?
+faq-how-privacy-a = Tous les échantillons sont expurgés d'informations qui permettent d'identifier les personnes. Quand un contributeur fournis des informations démographiques via son profil, celles-ci sont dé-identifiées des échantillons avant d'être proposées au téléchargement, et ne sont jamais rendues publiques sur leur page de profil.
+faq-what-determine-identity-q = Qu'est-ce que cela signifie que je ne « peux pas déterminer l'identité » des locuteurs dans le jeu de données de Common Voice ?
+faq-what-determine-identity-a = Le jeu de données Common Voice est une ressource ouverte et accessible à tous qui peut être utilisée pour de nombreuses applications liées à la voix. Pour protéger la sécurité de nos contributeurs, nous demandons à tout ceux qui téléchargent les données de respecter la vie privée des contributeurs.
 
 ## Glossary
 
