@@ -153,6 +153,7 @@ todays-progress = Progression d’aujourd’hui
 help-reach-goal = Aidez-nous à atteindre { $goal }
 read-terms-q = Avez-vous lu les conditions d’utilisation ?
 ready-to-record = Êtes-vous prêt⋅e à donner de votre voix ?
+all-locales = Toutes les langues
 today = Aujourd’hui
 x-weeks-short =
     { $count ->
@@ -176,6 +177,12 @@ sign-up-account = Créer un compte
 ## Account Benefits
 
 benefits = Avantages
+rich-data = Enrichissez au maximum les données que vous envoyez en incluant des informations démographiques anonymes. Nous nous assurons que ces informations ne soient pas liées à votre profil avant de les rendre publiques.
+improve-audio = Les informations du profil permettent d'améliorer la qualité des données audio et la précision de la reconnaissance vocale.
+keep-track = Gardez une trace de vos progrès pour toutes les langues auxquelles vous participez.
+compare-progress = Comparez vos progrès à ceux de contributeurs dans le monde entier.
+view-goals = Comparez vos progrès par rapport à vos objectifs personnels et à ceux du projet.
+join-newsletter = Inscrivez-vous à notre liste de diffusion pour être tenu au courant des évolutions du projet.
 
 ## What's public
 
@@ -294,11 +301,26 @@ change-email-setings = Modifiez votre adresse de courriel dans les Préférences
 
 faq-title = Questions fréquentes
 faq-what-cv-q = Qu’est-ce que Common Voice ?
+faq-what-cv-a = Les technologies de reconnaissance vocale révolutionnent notre façon d’interagir avec les machines, mais les systèmes disponibles sont chers et propriétaires. Common Voice fait partie des activités de Mozilla qui ont pour but d’améliorer les technologies de reconnaissance vocale et de les rendre plus accessible à tous. Common Voice est une immense base de données d’enregistrements vocaux qui permet à n’importe qui de facilement et rapidement entraîner des applications interagissant avec la voix, potentiellement dans toutes les langues.
 faq-why-important-q = Pourquoi est-ce important ?
+faq-why-important-a =
+    La parole est souvent le moyen le plus naturel de communiquer les uns avec les autres et les technologies vocales apportent ce confort à nos ordinateurs et appareils mobiles. Nous voulons donner aux développeurs les moyens de créer des applications de reconnaissance vocale étonnantes, telles que des traducteurs en temps réel et des assistants numériques à commandes vocales. Mais pour le moment, la plupart des données vocales nécessaires à la création de ce type d'applications sont coûteuses et propriétaires. Nous espérons que le jeu de données Common Voice donnera aux développeurs ce dont ils ont besoin pour innover et rendre la technologie de la parole disponible dans leur propre langue.
+    
+    Pour rendre la reconnaissance vocale encore plus universelle, nous collectons des échantillons de voix dans des langues largement parlées, mais aussi dans celles qui ont une population de locuteurs réduite,  qui sont souvent mal desservies par les services commerciaux de reconnaissance vocale. La publication d'un jeu de données de voix diversifiées permettra aux développeurs, aux entrepreneurs et à des communautés linguistiques tout entières de combler cet écart.
 faq-how-get-q = Comment obtenir les données de Common Voice ?
 faq-how-get-a = Le jeu de données de Common Voice est disponible au téléchargement selon les termes de la licence <licenseLink>CC0</licenseLink> sur <datasetLink>la page des jeux de données</datasetLink>. Vous pouvez aussi télécharger plusieurs autres jeux de données publics sur cette page.
 faq-when-release-q = Quand publierez-vous les données de Common Voice dans d’autres langues ?
+faq-when-release-a = La version multi-langue du jeu de données Common Voice est en cours de construction et de nettoyage par la communauté. Si vous souhaitez en apprendre plus à ce sujet, merci de <contactLink>nous contacter</contactLink>. Nous visons actuellement une date de sortie publique en janvier 2019. Après quoi nous ferons des mises à jour régulières avec les nouveaux enregistrements et les nouvelles langues, dès qu'ils seront disponibles. Un cycle de sortie avec une cadence plus régulière reste à déterminer.
+faq-why-mission-q = Pourquoi Common Voice fait partie de la Mission de Mozilla ?
+faq-why-mission-a = Mozilla a pour vocation de conserver le Web ouvert et accessible à tout le monde. Pour y parvenir, nous devons doter les créateurs d’outils comme Common Voice. Les technologies vocales prolifèrent maintenant au-delà de certaines niches, et nous pensons qu’elles doivent être équitablement utilisables. Nous voyons un besoin d’inclure plus de langues, d’accents et de tranches d’âge pour la création et le test des technologies vocales. Mozilla veut un Internet actif, en bonne santé. Cela implique de donner accès, aux créateurs sur le Web, à des données vocales qu’ils peuvent utiliser pour de nouveaux projets. Common Voice deviendra une ressource publique qui aidera les équipes de Mozilla et les développeurs du monde entier.
+faq-what-cv-and-deepspeech-q = Quelle est la différence entre Common Voice et Deep Speech ?
+faq-what-cv-and-deepspeech-a = Le jeu de données Common Voice complète le moteur Deep Speech du moteur de reconnaissance vocale open source de Mozilla. La première version de Deep Speech a été publiée en Novembre 2017 et n'a cessé d'évoluer depuis. Avec le jeu de données Common Voice, nous pensons que cette technologie de reconnaissance vocale open source devrait être accessible à tous. Nous espérons que ces technologies permettront aux développeurs de créer une vague de produits et de services innovants.
+faq-is-goal-assistant-q = Est-ce que l'objectif de Common Voice est de construire un assistant vocal ?
+faq-is-goal-assistant-a = L'objectif du jeu de données Common Voice est de permettre à n'importe qui dans le monde de construire des applications de reconnaissance vocale, d'identification de locuteur, ou tout autre type d'application qui utilise la voix. Un assistant vocal n'est que l'une de ces applications qui peut être construite grâce au jeu de données.
 faq-do-want-native-q = Je ne suis pas un locuteur natif et je parle avec un accent. Voulez-vous toujours ma voix ?
+faq-do-want-native-a = Oui, nous voulons tout particulièrement votre voix ! Un des buts de Common Voice c'est justement de réunir la plus grande diversité d'accents que possible, de telle sorte que personne ne soit exclus des services de reconnaissance vocale. Cela implique que les contributions des locuteurs d'une langue qui n'est pas leur langue maternelle sont primordiales.
+faq-why-different-speakers-q = Pourquoi avez-vous besoin de tant de locuteurs différents pour chaque langue ?
+faq-where-src-from-q = D'où viennent les textes sources ?
 
 ## Glossary
 
@@ -460,10 +482,12 @@ toward-next-goal = Vers le prochain objectif
 clips-you-recorded = Les échantillons que vous avez enregistrés
 clips-you-validated = Les échantillons que vous avez validés
 todays-recorded-progress = La progression de Common Voice sur les échantillons enregistrés aujourd’hui
+todays-validated-progress = La progression de Common Voice sur les échantillons validés aujourd’hui
 stats = Statistiques
 you = Vous
 everyone = Tout le monde
 contribution-activity = Activité de contribution
+top-contributors = Contributeurs et contributrices remarquables
 recorded-clips = Échantillons enregistrés
 validated-clips = Échantillons validés
 total-approved = Total approuvé
