@@ -199,7 +199,7 @@ shortcut-vote-no = ა
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ჩ
+shortcut-record-toggle = წ
 shortcut-record-toggle-label = ჩაწერა/შეწყვეტა
 request-language-text = ვერ იპოვეთ თქვენი ენა Common Voice-ში?
 request-language-button = მოითხოვეთ ენის დამატება
