@@ -62,6 +62,7 @@ ko = Κορεατικά
 kpv = Komi-Zyrian
 kw = Κορνουαλικά
 ky = Κιργιζικά
+mdf = Μόκσα
 mk = Σλαβομακεδονικά
 mn = Μογγολικά
 myv = Erzya
@@ -73,6 +74,7 @@ oc = Οξιτανικά
 or = Odia
 pl = Πολωνικά
 pt-BR = Πορτογαλικά (Βραζιλίας)
+rm-sursilv = Ρομανσικά (Sursilvan)
 ro = Ρουμανικά
 ru = Ρώσικα
 sah = Σαχά
@@ -145,6 +147,7 @@ listen-goal-text = Επαληθευμένα κλιπς
 hours-recorded = Ώρες ηχογράφησης
 hours-validated = Ώρες επαλήθευσης
 todays-progress = Σημερινή πρόοδος
+help-reach-goal = Βοηθήστε μας να φτάσουμε στο { $goal }
 read-terms-q = Έχετε διαβάσει τους όρους;
 ready-to-record = Έτοιμοι να δωρίσετε τη φωνή σας;
 all-locales = Όλα
@@ -173,6 +176,8 @@ benefits = Οφέλη
 ## What's public
 
 whats-public = Τι δημοσιοποιείται;
+email-not-public = Δεν θα δημοσιοποιήσουμε το email σας.
+username-optin-public = Μπορείτε να κάνετε το όνομα χρήστη σας δημόσιο ή ανώνυμο.
 
 ## Speak & Listen Shortcuts
 
@@ -260,10 +265,14 @@ email-subscriptions = Συνδρομές email
 download-profile = Λήψη των δεδομένων μου
 off = Ανενεργό
 on = Ενεργό
+add-avatar-title = Προσθήκη avatar στο προφίλ σας
 browse-file-title = Μεταφόρτωση αρχείου εικόνας
+browse-file = Σύρετε και εναποθέστε ή <browseWrap>κάντε περιήγηση</browseWrap>
 connect-gravatar = Σύνδεση με Gravatar
+gravatar_not_found = Δεν βρέθηκε gravatar για το email σας
 file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
 manage-subscriptions = Διαχείριση συνδρομών
+email-already-used = Το email χρησιμοποιείται ήδη για διαφορετικό λογαριασμό
 add-language = Προσθήκη γλώσσας
 
 ## FAQ
@@ -272,6 +281,7 @@ faq-title = Συχνές ερωτήσεις
 faq-what-cv-q = Τι είναι το Common Voice;
 faq-why-important-q = Γιατί είναι σημαντικό;
 faq-how-get-q = Πώς μπορώ να αποκτήσω τα δεδομένα του Common Voice;
+faq-why-mission-q = Γιατί το Common Voice είναι μέρος της αποστολής της Mozilla;
 faq-why-different-speakers-q = Γιατί χρειάζεστε πολλούς και διαφορετικούς ομιλητές ανά γλώσσα;
 faq-why-my-lang-q = Γιατί δεν περιλαμβάνεται ακόμη η γλώσσα μου;
 faq-how-calc-hours-q = Πώς υπολογίζει το Common Voice τις ώρες;
@@ -442,6 +452,7 @@ validations =
 ## Dashboard
 
 your-languages = Οι γλώσσες σας
+toward-next-goal = Προς τον επόμενο στόχο
 stats = Στατιστικά
 you = Εσείς
 everyone = Όλοι
