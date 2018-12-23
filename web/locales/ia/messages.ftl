@@ -300,6 +300,10 @@ change-email-setings = Cambia tu email via Configurationes sub Identitate de con
 faq-title = Questiones frequente
 faq-what-cv-q = Que es Common Voice?
 faq-what-cv-a = Le technologia de recognition del voce revolutiona le maniera per le qual nos interage con le machinas, ma le systemas actualmente disponibile es costose e proprietari. Common Voice es parte del initiativa de Mozilla pro render melior e plus accessibile a totes le technologias de recognition del voce. Common Voice es un massive base de datos global de voces donate, que lassa quicunque rapidemente e facilemente maestrar le applicationes activate per le voce in potentialmente cata lingua.
+faq-why-important-q = Perque es illo importante?
+faq-why-important-a = Le voce es sovente nostre maniera plus natural pro communicar le un con le alteres e le technologias del voce apporta ille convenientia a nostre computatores e apparatos mobile. Nos vole habilitar le disveloppatores a construer stupende applicationes del recognition del voce como traductores real-time e assistentes digital activate per le voce. Ma actualmente le major parte del datos vocal requirite pro construer iste typos de applicationes es costose e proprietari. Nos spera que le collection de datos de Common Voice dara al disveloppatores lo que illos besonia pro innovar e render disponibile le technologia del voce in lor proprie lingua.
+faq-what-cv-and-deepspeech-a = Le collection de datos de Common Voice completa le motor de recognition del voce open-source de Mozilla: Deep Speech. Le prime version de Deep Speech ha essite publicate in novembre 2017 e pois illo ha continuate sempre a evolver se. Insimul con le collection de datos de Common Voice, nos fide que iste technologia de recognition del voce open-source deberea esser disponibile a totes.
+faq-is-goal-assistant-q = Perque es illo importante?
 
 ## Glossary
 
