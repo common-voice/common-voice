@@ -334,16 +334,16 @@ faq-how-calc-hours-a = Nous faisons une estimation de la longueur moyenne de cha
 faq-where-src-from-q = D'où viennent les textes sources ?
 faq-where-src-from-a = Notre texte source est un mélange de contributions individuelles, d’extraits de débats de l’Assemblée Nationale (France), d’extraits de livres du projet Gutenberg, d’extraits de pièces de théâtres sous licence le permettant. Nous avons également des jeux de données représentant des adresses dans toute la France, métropolitaine et Outre-Mer. Vous pouvez voir les phrases sources dans ce dossier sur GitHub.
 faq-why-not-ask-read-q = Pourquoi ne pas demander aux gens de lire des livres ou des articles Wikipédia dans différentes langues ?
-faq-why-not-ask-read-a = Pour assurer un maximum d’utilisation au jeu de données Common Voice, nous avons décidé d’autoriser uniquement du texte source sous une licence Creative Commons (CC0). Utiliser le standard CC0 rends la collecte de texte source plus difficile, mais assure que quiconque peut utiliser le jeu de données sans restriction ni autorisation de Mozilla. De plus, vous voulons que le jeu de données multi-langue soit le plus utile à tous, que ce soit des chercheurs, des universités, des startups, des gouvernements, des organisations à but social et des hobbyistes.
-faq-why-account-q = Pourquoi devrais-je créer un compte ?
-faq-is-account-public-q = Les informations de mon compte sont-elles publiques ?
-faq-how-privacy-q = Comment assurez-vous l’anonymat ainsi que le respect de la vie privée des contributeurs ?
-faq-how-privacy-a = Tous les échantillons sont expurgés d’informations qui permettent d’identifier les personnes. Quand un contributeur fournis des informations démographiques via son profil, celles-ci sont dé-identifiées des échantillons avant d’être proposées au téléchargement, et ne sont jamais rendues publiques sur leur page de profil.
-faq-what-determine-identity-q = Qu’est-ce que cela signifie que je ne « peux pas déterminer l’identité » des locuteurs dans le jeu de données de Common Voice ?
+faq-why-not-ask-read-a = Pour assurer un maximum d’utilisation au jeu de données Common Voice, nous avons décidé d’autoriser uniquement du texte source sous une licence Creative Commons (CC0). Utiliser le standard CC0 rend la collecte de texte source plus difficile, mais assure que quiconque peut utiliser le jeu de données sans restriction ni autorisation de Mozilla. De plus, vous voulons que le jeu de données multilingue soit le plus utile à tous, que ce soit des chercheurs, des universités, des startups, des gouvernements, des organisations à but social et des hobbyistes.
+faq-why-account-q = Pourquoi devrais-je créer un compte ?
+faq-is-account-public-q = Les informations de mon compte sont-elles publiques ?
+faq-how-privacy-q = Comment assurez-vous l’anonymat ainsi que le respect de la vie privée des contributeurs ?
+faq-how-privacy-a = Tous les échantillons sont expurgés d’informations qui permettent d’identifier les personnes. Quand un contributeur fournit des informations démographiques via son profil, celles-ci sont dé-identifiées des échantillons avant d’être proposées au téléchargement, et ne sont jamais rendues publiques sur leur page de profil.
+faq-what-determine-identity-q = Qu’est-ce que cela signifie que je ne « peux pas déterminer l’identité » des locuteurs dans le jeu de données de Common Voice ?
 faq-what-determine-identity-a =
-    Le jeu de données Common Voice est une ressource ouverte et accessible à tous qui peut être utilisée pour de nombreuses applications liées à la voix. Pour protéger la sécurité de nos contributeurs, nous demandons à tout ceux qui téléchargent les données de respecter la vie privée des contributeurs.
+    Le jeu de données Common Voice est une ressource ouverte et accessible à tous qui peut être utilisée pour de nombreuses applications liées à la voix. Pour protéger la sécurité de nos contributeurs, nous demandons à tous ceux qui téléchargent les données de respecter la vie privée des contributeurs.
     
-    Tous les échantillons sont expurgés d’informations permettant d’identifier les locuteurs. Quand vous téléchargez le jeu de données, vous acceptez de ne pas essayer de déterminer l’identité d’aucun contributeur. Cela signifie que vous ne devez pas essayer de faire le lien entre le jeu de données et des informations personnelles d’un contributeur. Vous pouvez par contre utiliser le jeu de données pour permettre la reconnaissance vocale, l’identification de différents locuteurs dans une conversation, par exemple en utilisant les données présentes uniquement dans le jeu de données.
+    Tous les échantillons sont expurgés d’informations permettant d’identifier les locuteurs. Quand vous téléchargez le jeu de données, vous acceptez de ne pas essayer de déterminer l’identité des contributeurs. Cela signifie que vous ne devez pas essayer de faire le lien entre le jeu de données et des informations personnelles d’un contributeur. Vous pouvez par contre utiliser le jeu de données pour permettre la reconnaissance vocale, l’identification de différents locuteurs dans une conversation, par exemple en utilisant les données présentes uniquement dans le jeu de données.
 
 ## Glossary
 
@@ -353,9 +353,9 @@ localization-explanation = Il s’agit de notre processus pour traduire et adapt
 sentence-collection = Collecte de phrases
 sentence-collection-explanation = Collecter des phrases qui sont dans le domaine public, ou en écrire de nouvelles qui seront dans le domaine public.
 hours-recorded-explanation = La quantité d’heures d’enregistrements vocaux que nous avons collecté jusqu’à présent.
-hours-validated-explanation = La quantité d’heures d’enregistrements vocaux qui ont été validées par au moins deux ou trois utilisateurs qui ont voté « Oui ». Cela dénote les progrès quant à l’objectif de 10 000 heures du projet.
+hours-validated-explanation = La quantité d’heures d’enregistrements vocaux qui ont été validées par au moins deux ou trois utilisateurs qui ont voté « Oui ». Cela dénote les progrès quant à l’objectif de 10 000 heures du projet.
 sst = Reconnaissance vocale (Speech-to-text, STT)
-sst-explanation = La reconnaissance vocale (STT) converti de la voix en texte.
+sst-explanation = La reconnaissance vocale (STT) convertit de la voix en texte.
 de-identified = Dé-identifié
 de-identified-explanation = Processus permettant de séparer les informations personnelles des contributeurs de leurs échantillons lors de la préparation du jeu de données.
 
@@ -532,5 +532,5 @@ delete-q = Souhaitez-vous également demander la suppression de vos enregistreme
 keep = Les conserver
 remove = Les supprimer
 keep-info = Vos enregistrements vocaux anonymes resteront dans le jeu de données Common Voice. Une fois que vous avez supprimé votre profil, vous ne pourrez plus envoyer de requête pour supprimer vos enregistrements du jeu de données.
-remove-info = Nous allons étudier votre requête pour retirer vos enregistrements vocaux du jeu de données. Si votre demande est acceptée, nous contacterons ceux qui ont télécharger le jeu de données et leur demander de le faire également.
+remove-info = Nous allons étudier votre requête pour retirer vos enregistrements vocaux du jeu de données. Si votre demande est acceptée, nous contacterons ceux qui ont téléchargé le jeu de données et leur demanderons de le faire également.
 profile-form-delete = Supprimer le profil
