@@ -260,7 +260,10 @@ email-subscriptions = Συνδρομές email
 download-profile = Λήψη των δεδομένων μου
 off = Ανενεργό
 on = Ενεργό
+browse-file-title = Μεταφόρτωση αρχείου εικόνας
 connect-gravatar = Σύνδεση με Gravatar
+file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
+manage-subscriptions = Διαχείριση συνδρομών
 add-language = Προσθήκη γλώσσας
 
 ## FAQ
@@ -269,6 +272,7 @@ faq-title = Συχνές ερωτήσεις
 faq-what-cv-q = Τι είναι το Common Voice;
 faq-why-important-q = Γιατί είναι σημαντικό;
 faq-how-get-q = Πώς μπορώ να αποκτήσω τα δεδομένα του Common Voice;
+faq-why-different-speakers-q = Γιατί χρειάζεστε πολλούς και διαφορετικούς ομιλητές ανά γλώσσα;
 faq-why-my-lang-q = Γιατί δεν περιλαμβάνεται ακόμη η γλώσσα μου;
 faq-how-calc-hours-q = Πώς υπολογίζει το Common Voice τις ώρες;
 faq-where-src-from-q = Από πού προέρχεται το αρχικό κείμενο;
