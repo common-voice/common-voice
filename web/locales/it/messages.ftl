@@ -313,6 +313,12 @@ faq-is-goal-assistant-q = L’obiettivo di Common Voice è produrre un assistent
 faq-do-want-native-q = Non sono un madrelingua ma parlo con accento straniero. Avete comunque bisogno della mia voce?
 faq-why-my-lang-q = Perché la mia lingua non è stata ancora inclusa?
 faq-what-quality-q = Quale livello di qualità audio è richiesto da una registrazione vocale per essere utilizzata nel dataset?
+faq-how-calc-hours-q = In che modo Common Voice calcola le ore?
+faq-how-calc-hours-a = Calcoliamo le ore stimando la lunghezza media di ciascuna registrazione e moltiplicando quel numero per il numero totale di registrazioni in tutte le lingue.
+faq-where-src-from-q = Da dove provengono le frasi?
+faq-why-account-q = Perché dovrei registrare un account?
+faq-is-account-public-q = Le informazioni sul mio account sono pubbliche?
+faq-how-privacy-q = Come assicurate l’anonimato e la privacy delle persone che hanno donato le loro voci?
 
 ## Glossary
 
