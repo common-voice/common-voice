@@ -322,6 +322,12 @@ faq-how-privacy-q = Come assicurate l’anonimato e la privacy delle persone che
 
 ## Glossary
 
+glossary = Glossario
+localization = Localizzazione
+localization-explanation = È il processo per il quale si traduce e adattano i contenuti per altre lingue.
+sentence-collection = Raccolta di frasi
+hours-recorded-explanation = Il conteggio delle ore di registrazione vocale che abbiamo raccolto finora.
+de-identified = Anonimizzazione
 
 ## NotFound
 
