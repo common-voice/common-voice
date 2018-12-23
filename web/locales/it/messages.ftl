@@ -311,6 +311,8 @@ faq-what-cv-and-deepspeech-q = Qual è la differenza tra Common Voice e Deep Spe
 faq-what-cv-and-deepspeech-a = Il dataset di Common Voice integra Deep Speech, il motore di riconoscimento vocale open source di Mozilla. La prima versione di Deep Speech è stata rilasciata a novembre 2017 e ha continuato a evolversi da allora. Crediamo che questa tecnologia di riconoscimento vocale open source, insieme al dataset di Common Voice, dovrebbe essere disponibile per tutti. Speriamo che queste tecnologie permetteranno agli sviluppatori di realizzare la prossima ondata di prodotti e servizi innovativi.
 faq-is-goal-assistant-q = L’obiettivo di Common Voice è produrre un assistente vocale?
 faq-do-want-native-q = Non sono un madrelingua ma parlo con accento straniero. Avete comunque bisogno della mia voce?
+faq-why-my-lang-q = Perché la mia lingua non è stata ancora inclusa?
+faq-what-quality-q = Quale livello di qualità audio è richiesto da una registrazione vocale per essere utilizzata nel dataset?
 
 ## Glossary
 
