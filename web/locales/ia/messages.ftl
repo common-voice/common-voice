@@ -309,8 +309,9 @@ faq-when-release-a = Le version multe-linguas del collection de datos de Common 
 faq-why-mission-q = Perque Common Voice es parte del mission de Mozilla?
 faq-why-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile a omnes. Pro facer illo nos necessita de habilitar le autores del web per projectos como Common Voice.  Quando le technologias del voce proliferara ultra le applicationes de niche, nos fide que illos debera servir tote le usatores equalmente. Illo significa investir in plus linguas e accommodar diverse accentos e datos demographic quando on compilara e testara le technologias del voce.  Common Voice es un public ressource disponibile a totes. Le equipas e le disveloppatores de Mozilla circum le mundo lo usa jam tam ben sur nostre proprie projectos.
 faq-what-cv-and-deepspeech-q = Qual es le differentia inter Common Voice e Deep Speech?
-faq-what-cv-and-deepspeech-a = Le collection de datos de Common Voice completa le motor de recognition del voce open-source de Mozilla: Deep Speech. Le prime version de Deep Speech ha essite publicate in novembre 2017 e pois illo ha continuate sempre a evolver se. Insimul con le collection de datos de Common Voice, nos fide que iste technologia de recognition del voce open-source deberea esser disponibile a totes.
-faq-is-goal-assistant-q = Perque es illo importante?
+faq-what-cv-and-deepspeech-a = Le collection de datos de Common Voice completa le motor de recognition del voce open-source de Mozilla: Deep Speech. Le prime version de Deep Speech ha essite publicate in novembre 2017 e pois illo ha continuate sempre a evolver se. Insimul con le collection de datos de Common Voice, nos fide que iste technologia de recognition del voce open-source deberea esser disponibile a totes. Nos spera que iste technologias activara le disveloppatores a crear un unda de productos e servicios innovative.
+faq-is-goal-assistant-q = Es le scopo de Common Voice crear un assistente vocal?
+faq-is-goal-assistant-a = Le scopo del collection de datos de Common Voice es a activar quicunque in le mundo a crear applicationes de recognition de voce, recognition de orator o de ulle altere typo, que require datos vocal. Un assistente vocal es justo uno de multe typos de applicationes pro crear le qual on poterea usar le collection de datos.
 
 ## Glossary
 
