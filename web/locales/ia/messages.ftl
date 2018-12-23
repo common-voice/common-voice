@@ -312,6 +312,7 @@ faq-what-cv-and-deepspeech-q = Qual es le differentia inter Common Voice e Deep 
 faq-what-cv-and-deepspeech-a = Le collection de datos de Common Voice completa le motor de recognition del voce open-source de Mozilla: Deep Speech. Le prime version de Deep Speech ha essite publicate in novembre 2017 e pois illo ha continuate sempre a evolver se. Insimul con le collection de datos de Common Voice, nos fide que iste technologia de recognition del voce open-source deberea esser disponibile a totes. Nos spera que iste technologias activara le disveloppatores a crear un unda de productos e servicios innovative.
 faq-is-goal-assistant-q = Es le scopo de Common Voice crear un assistente vocal?
 faq-is-goal-assistant-a = Le scopo del collection de datos de Common Voice es a activar quicunque in le mundo a crear applicationes de recognition de voce, recognition de orator o de ulle altere typo, que require datos vocal. Un assistente vocal es justo uno de multe typos de applicationes pro crear le qual on poterea usar le collection de datos.
+faq-do-want-native-q = Io es un parlante non-native e io parla con un accento, vole tu ancora mi voce?
 
 ## Glossary
 
