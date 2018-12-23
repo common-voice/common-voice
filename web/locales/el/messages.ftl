@@ -16,6 +16,7 @@ indicates-required = * Υποχρεωτικό πεδίο
 
 ## Languages
 
+ace = Ατσενικά
 af = Αφρικάανς
 an = Αραγωνικά
 ar = Αραβικά
@@ -453,12 +454,15 @@ validations =
 
 your-languages = Οι γλώσσες σας
 toward-next-goal = Προς τον επόμενο στόχο
+clips-you-recorded = Κλιπ που έχετε ηχογραφήσει
+clips-you-validated = Κλιπ που έχετε επαληθεύσει
 stats = Στατιστικά
 you = Εσείς
 everyone = Όλοι
 top-contributors = Κορυφαίοι εθελοντές
 recorded-clips = Ηχογραφημένα κλιπ
 validated-clips = Επαληθευμένα κλιπ
+total-approved = Σύνολο εγκεκριμένων
 overall-accuracy = Συνολική ακρίβεια
 
 ## Profile Delete
