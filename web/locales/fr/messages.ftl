@@ -177,8 +177,8 @@ sign-up-account = Créer un compte
 ## Account Benefits
 
 benefits = Avantages
-rich-data = Enrichissez au maximum les données que vous envoyez en incluant des informations démographiques anonymes. Nous nous assurons que ces informations ne soient pas liées à votre profil avant de les rendre publiques.
-improve-audio = Les informations du profil permettent d'améliorer la qualité des données audio et la précision de la reconnaissance vocale.
+rich-data = Enrichissez au maximum les données que vous envoyez en incluant des informations démographiques anonymes. Nous nous assurons que ces informations ne sont pas liées à votre profil avant de les rendre publiques.
+improve-audio = Les informations du profil permettent d’améliorer la qualité des données audio et la précision de la reconnaissance vocale.
 keep-track = Gardez une trace de vos progrès pour toutes les langues auxquelles vous participez.
 compare-progress = Comparez vos progrès à ceux de contributeurs dans le monde entier.
 view-goals = Comparez vos progrès par rapport à vos objectifs personnels et à ceux du projet.
@@ -310,8 +310,8 @@ faq-why-important-a =
 faq-how-get-q = Comment obtenir les données de Common Voice ?
 faq-how-get-a = Le jeu de données de Common Voice est disponible au téléchargement selon les termes de la licence <licenseLink>CC0</licenseLink> sur <datasetLink>la page des jeux de données</datasetLink>. Vous pouvez aussi télécharger plusieurs autres jeux de données publics sur cette page.
 faq-when-release-q = Quand publierez-vous les données de Common Voice dans d’autres langues ?
-faq-when-release-a = La version multi-langue du jeu de données Common Voice est en cours de construction et de nettoyage par la communauté. Si vous souhaitez en apprendre plus à ce sujet, merci de <contactLink>nous contacter</contactLink>. Nous visons actuellement une date de sortie publique en janvier 2019. Après quoi nous ferons des mises à jour régulières avec les nouveaux enregistrements et les nouvelles langues, dès qu'ils seront disponibles. Un cycle de sortie avec une cadence plus régulière reste à déterminer.
-faq-why-mission-q = Pourquoi Common Voice fait partie de la Mission de Mozilla ?
+faq-when-release-a = La version multilingue du jeu de données Common Voice est en cours de construction et de nettoyage par la communauté. Si vous souhaitez en apprendre plus à ce sujet, merci de <contactLink>nous contacter</contactLink>. Nous visons actuellement une date de sortie publique en janvier 2019. Après quoi nous ferons des mises à jour régulières avec les nouveaux enregistrements et les nouvelles langues, dès qu’ils seront disponibles. Un cycle de publication avec une cadence plus régulière reste à déterminer.
+faq-why-mission-q = Pourquoi Common Voice fait-il partie de la mission de Mozilla ?
 faq-why-mission-a = Mozilla a pour vocation de conserver le Web ouvert et accessible à tout le monde. Pour y parvenir, nous devons doter les créateurs d’outils comme Common Voice. Les technologies vocales prolifèrent maintenant au-delà de certaines niches, et nous pensons qu’elles doivent être équitablement utilisables. Nous voyons un besoin d’inclure plus de langues, d’accents et de tranches d’âge pour la création et le test des technologies vocales. Mozilla veut un Internet actif, en bonne santé. Cela implique de donner accès, aux créateurs sur le Web, à des données vocales qu’ils peuvent utiliser pour de nouveaux projets. Common Voice deviendra une ressource publique qui aidera les équipes de Mozilla et les développeurs du monde entier.
 faq-what-cv-and-deepspeech-q = Quelle est la différence entre Common Voice et Deep Speech ?
 faq-what-cv-and-deepspeech-a = Le jeu de données Common Voice complète le moteur Deep Speech du moteur de reconnaissance vocale open source de Mozilla. La première version de Deep Speech a été publiée en Novembre 2017 et n'a cessé d'évoluer depuis. Avec le jeu de données Common Voice, nous pensons que cette technologie de reconnaissance vocale open source devrait être accessible à tous. Nous espérons que ces technologies permettront aux développeurs de créer une vague de produits et de services innovants.
@@ -340,11 +340,24 @@ faq-is-account-public-q = Les informations de mon compte sont-elles publiques ?
 faq-how-privacy-q = Comment assurez-vous l'anonymat ainsi que le respect de la vie privée des contributeurs ?
 faq-how-privacy-a = Tous les échantillons sont expurgés d'informations qui permettent d'identifier les personnes. Quand un contributeur fournis des informations démographiques via son profil, celles-ci sont dé-identifiées des échantillons avant d'être proposées au téléchargement, et ne sont jamais rendues publiques sur leur page de profil.
 faq-what-determine-identity-q = Qu'est-ce que cela signifie que je ne « peux pas déterminer l'identité » des locuteurs dans le jeu de données de Common Voice ?
-faq-what-determine-identity-a = Le jeu de données Common Voice est une ressource ouverte et accessible à tous qui peut être utilisée pour de nombreuses applications liées à la voix. Pour protéger la sécurité de nos contributeurs, nous demandons à tout ceux qui téléchargent les données de respecter la vie privée des contributeurs.
+faq-what-determine-identity-a =
+    Le jeu de données Common Voice est une ressource ouverte et accessible à tous qui peut être utilisée pour de nombreuses applications liées à la voix. Pour protéger la sécurité de nos contributeurs, nous demandons à tout ceux qui téléchargent les données de respecter la vie privée des contributeurs.
+    
+    Tous les échantillons sont expurgés d'informations permettant d'identifier les locuteurs. Quand vous téléchargez le jeu de données, vous acceptez de ne pas essayer de déterminer l'identité d'aucun contributeur. Cela signifie que vous ne devez pas essayer de faire le lien entre le jeu de données et des informations personnelles d'un contributeur. Vous pouvez par contre utiliser le jeu de données pour permettre la reconnaissance vocale, l'identification de différents locuteurs dans une conversation, par exemple en utilisant les données présentes uniquement dans le jeu de données.
 
 ## Glossary
 
 glossary = Glossaire
+localization = Localisation
+localization-explanation = Il s'agit de notre processus pour traduire et adapter le contenu à de nombreuses langues.
+sentence-collection = Collecte de phrases
+sentence-collection-explanation = Collecter des phrases qui sont dans le domaine public, ou en écrire de nouvelles qui seront dans le domaine public.
+hours-recorded-explanation = La quantité d'heures d'enregistrements vocaux que nous avons collecté jusqu'à présent.
+hours-validated-explanation = La quantité d'heures d'enregistrements vocaux qui ont été validées par au moins deux ou trois utilisateurs qui ont voté « Oui ». Cela dénote les progrès quant à l'objectif de 10 000 heures du projet.
+sst = Reconnaissance vocale (Speech-to-text, STT)
+sst-explanation = La reconnaissance vocale (STT) converti de la voix en texte.
+de-identified = Dé-identifié
+de-identified-explanation = Processus permettant de séparer les informations personnelles des contributeurs de leurs échantillons lors de la préparation du jeu de données.
 
 ## NotFound
 
@@ -519,4 +532,5 @@ delete-q = Souhaitez-vous également demander la suppression de vos enregistreme
 keep = Les conserver
 remove = Les supprimer
 keep-info = Vos enregistrements vocaux anonymes resteront dans le jeu de données Common Voice. Une fois que vous avez supprimé votre profil, vous ne pourrez plus envoyer de requête pour supprimer vos enregistrements du jeu de données.
+remove-info = Nous allons étudier votre requête pour retirer vos enregistrements vocaux du jeu de données. Si votre demande est acceptée, nous contacterons ceux qui ont télécharger le jeu de données et leur demander de le faire également.
 profile-form-delete = Supprimer le profil
