@@ -271,6 +271,8 @@ login-signup = Σύνδεση/Εγγραφή
 edit = Επεξεργασία
 email-subscriptions = Συνδρομές email
 download-profile = Λήψη των δεδομένων μου
+contribution-experience = Εμπειρία συνεισφορών
+skip-submission-feedback = Παράκαμψη σχολίων υποβολής
 skip-submission-note = Σημείωση: Θα πρέπει ακόμα να επιλέξετε ανάμεσα σε Ομιλία ή Ακρόαση για να αλλάξετε τον τύπο συνεισφοράς.
 off = Ανενεργό
 on = Ενεργό
@@ -297,6 +299,7 @@ faq-how-calc-hours-q = Πώς υπολογίζει το Common Voice τις ώρ
 faq-where-src-from-q = Από πού προέρχεται το αρχικό κείμενο;
 faq-why-account-q = Γιατί να δημιουργήσω λογαριασμό;
 faq-is-account-public-q = Είναι δημόσιες οι πληροφορίες του λογαριασμού μου;
+faq-how-privacy-q = Πώς εξασφαλίζετε την ανωνυμία και το απόρρητο των ατόμων που δώρισαν τις φωνές τους;
 
 ## Glossary
 
@@ -304,6 +307,7 @@ glossary = Γλωσσάριο
 localization = Μετάφραση
 localization-explanation = Αυτή είναι η διαδικασία μας για τη μετάφραση και την προσαρμογή του περιεχομένου μας σε πολλές γλώσσες.
 sentence-collection = Συλλογή προτάσεων
+hours-recorded-explanation = Οι ώρες ηχογραφήσεων φωνής που έχουμε συλλέξει μέχρι στιγμής.
 sst = Ομιλία-σε-κείμενο (STT)
 
 ## NotFound
@@ -467,6 +471,7 @@ clips-you-validated = Κλιπ που έχετε επαληθεύσει
 stats = Στατιστικά
 you = Εσείς
 everyone = Όλοι
+contribution-activity = Δραστηριότητα συνεισφορών
 top-contributors = Κορυφαίοι εθελοντές
 recorded-clips = Ηχογραφημένα κλιπ
 validated-clips = Επαληθευμένα κλιπ
