@@ -328,9 +328,27 @@ faq-how-calc-hours-q = Como Common Voice calcula le horas?
 faq-how-calc-hours-a = Nos calcula le horas per le estimation del longor medie de cata registration, e pois per le multiplication de ille numero per le numero total de registrationes trans tote le linguas.
 faq-where-src-from-q = De ubi veni le texto fonte?
 faq-where-src-from-a = Nostre texto fonte es producite de donationes original de collaboratores tam ben como dialogos ex scriptos de pelliculas de  public dominio como <italic>It’s a Wonderful Life</italic>.
+faq-why-not-ask-read-q = Perque non demanda tu al personas de leger ex libros o articulos de Wikipedia in differente linguas?
+faq-why-not-ask-read-a = Pro render le collection de datos de Common Voice quanto plus possibile utile, nos ha decidite de <t0/>consentir solo texto fonte que es disponibile sub licentia Creative Commons (CC0). Usar le standard CC0 significa que il es plus difficile trovar e colliger texto fonte, ma consenti a quicunque de usar le datos vocal resultante sin restrictiones o autorisation de Mozilla. Al fin, nos vole render le collection de datos multe-lingua quanto plus possibile utile a totes, anque le recercatores, universitates, startups, governamentos, organisationes de propositos social e hobbyistas.
+faq-why-account-q = Perque deberea io registra me pro un conto?
+faq-is-account-public-q = Es le informationes de mi conto public?
+faq-how-privacy-q = Como assecura vos le anonymitate e le confidentialitate del personas qui dona lor voces?
+faq-how-privacy-a = Tote le retalios vocal in le collection de datos es depurate del informationes de identification personal. Quando un collaborator forni datos demographic via su profilo, ille informationes es de-identificate de lor retalios vocal ante que esser paccate pro le discarga in le collection de datos e es jammais rendite public sur su pagina del profilo.
+faq-what-determine-identity-q = Que significa que io non pote “determinar le identitate” del parlantes in le collection de datos de Common Voice?
+faq-what-determine-identity-a = Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote ser usate pro maestrar un large varietate de applicationes ad activation vocal. Pro proteger le securitate de nostre collaboratores, <s0/>nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del collaboratores.
 
 ## Glossary
 
+glossary = Glossario
+localization = Localisation
+localization-explanation = Isto es nostre procedura pro traducer e adaptar nostre contento pro multe localisationes (linguas).
+sentence-collection = Collection de phrases
+sentence-collection-explanation = Colliger phrases ab le public dominio o scriber los nove pro le public dominio.
+hours-recorded-explanation = Le conto del horas de registration de voce que nos ha jam colligite.
+hours-validated-explanation = Le conto del horas de registration de voce que ha essite validate per 2 de 3 usatores con un voto de “Si”.  Istos marca le progresso verso le objectivo general del projecto: 10000 horas.
+sst = Ab le voce al texto (STT - Recognition vocal)
+sst-explanation = Technologias de recognition vocal pro converter datos vocal in texto.
+de-identified = De-identificate
 
 ## NotFound
 
