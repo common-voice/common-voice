@@ -190,9 +190,15 @@ improve-audio = Profylynformaasje ferbetteret de audiogegevens dy't brûkt wurde
 keep-track = Folgje jo foarútgong en metryske gegevens yn mear talen.
 compare-progress = Beskôgje hoe't jo foarútgong har ferhâldt ta dy fan oaren yn de wrâld.
 view-goals = Besjoch jo foarútgong tsjin persoanlike en projektdoelstellingen.
+join-newsletter = Meld jo opsjoneel oan foar ús mailinglist foar updates en nije ynformaasje oer it projekt.
 
 ## What's public
 
+whats-public = Wat is iepenbier?
+email-not-public = Wy meitsje jo e-mailadres net iepenbier.
+recordings-and-locale-public = It oantal opnamen en de talen wêroan jo bydrage binne iepenbier.
+username-optin-public = Jo kinne kieze oft jo brûkersnamme iepenbier of anonym is.
+demographic-deidentified = Opsjoneel yntsjinne demografyske gegevens (byg. leeftyd, geslacht, taal en aksint) wurde anonym makke tsjinoer dy fan jo yntsjinne stimgegevens en sille nea iepenbier makke wurde op jo profyl.
 
 ## Speak & Listen Shortcuts
 
