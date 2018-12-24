@@ -306,6 +306,7 @@ faq-how-get-q = 我要如何取得 Common Voice 資料？
 faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>下載，本資料集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的資料集。
 faq-when-release-q = 你們什麼時候會釋出其他語言的 Common Voice 資料？
 faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
+faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的專案來協助網路上的創作者來得到威力。隨著採用語音技術的程式激增，我們相信這些程式應該平等地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 與全球開發者們的公眾資源，並已用於專案開發當中。
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
 faq-what-cv-and-deepspeech-a = Common Voice 能夠與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補。初版的 Deep Speech 發行於 2017 年 11 月，並持續發展。與 Common Voice 資料集一起，我們相信這套開放原始碼語音辨識技術應開放給所有人使用，也希望這些技術可讓開法者打造出一波創新產品與服務。
 faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
@@ -313,6 +314,9 @@ faq-is-goal-assistant-a = Common Voice 資料集的目標是希望讓任何人�
 faq-do-want-native-q = 某種語言不是我的母語而且講話有點口音，你們還會想要我的聲音嗎？
 faq-do-want-native-a = 是的，而且我們特別想要您的聲音！Common Voice 有一部分目標是盡可能收集各種口音，讓語音識別服務能適用於每個人。這代表非母語人士的貢獻尤其重要。
 faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言的人？
+faq-why-different-speakers-a =
+    大多數的語音資料庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在訓練資料集中，各種不同的口音與方言會與被邊緣化的人群相關連起來。許多機器也很難理解女性的聲音。
+    這就是為什麼我們的語音資料庫應該海納百川，收集各種語音！
 faq-why-my-lang-q = 為什麼還沒有我的語言？
 faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
 faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
@@ -320,6 +324,10 @@ faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時�
 faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-how-calc-hours-a = 我們透過估算每筆錄音的平均長度來計算時數，並乘以所有語言錄音數量來計算。
 faq-where-src-from-q = 原始文本來自哪裡？
+faq-where-src-from-a =
+    我們的來源文本來自貢獻者的原始貢獻，以及來自公眾領域的影片，例如 <italic>It’s a Wonderful Life</italic> 的對白腳本。
+    
+    您可到此 GitHub 資料夾檢視我們的來源文本。
 faq-why-not-ask-read-q = 為什麼你們不讓人來念出各種語言的書本內容，或是維基百科條目？
 faq-why-account-q = 為什麼我要註冊帳號？
 faq-is-account-public-q = 我的帳號資料是公開的嗎？
