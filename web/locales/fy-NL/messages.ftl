@@ -18,6 +18,7 @@ indicates-required = * jout fereaske fjild oan
 ## Languages
 
 ace = Atjeehsk
+af = Afrikaansk
 an = Aragoneesk
 ar = Arabysk
 as = Assameesk
@@ -160,7 +161,7 @@ todays-progress = Foarútgong fan hjoed
 help-reach-goal = Help ús { $goal } te berikken
 read-terms-q = Hawwe jo ús Betingsten lêzen?
 ready-to-record = Klear om jo stim te donearjen?
-all-languages = Alle talen
+all-locales = Alle
 today = Hjoed
 x-weeks-short =
     { $count ->
@@ -177,6 +178,21 @@ x-years-short =
         [one] jier
        *[other] { $count } jr
     }
+help-make-dataset = Help ús in iepenbier tagonklike gegevensset fan hege kwaliteit te bouwen
+profile-not-required = In profyl is net nedich om by te dragen, hoewol it wol nuttich is
+sign-up-account = In account oanmeitsje
+
+## Account Benefits
+
+benefits = Foardielen
+rich-data = Meitsje jo yntsjinne gegevens sa ryk mooglik troch wat anonime demografyske gegevens op te jaan. Alle demografyske gegevens wurde anonym makke eardat se publisearre wurde.
+improve-audio = Profylynformaasje ferbetteret de audiogegevens dy't brûkt wurde by it trainen fan de sekuerens fan spraakwerkenning.
+keep-track = Folgje jo foarútgong en metryske gegevens yn mear talen.
+compare-progress = Beskôgje hoe't jo foarútgong har ferhâldt ta dy fan oaren yn de wrâld.
+view-goals = Besjoch jo foarútgong tsjin persoanlike en projektdoelstellingen.
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -284,25 +300,9 @@ add-language = Taal tafoegje
 ## FAQ
 
 faq-title = Faak stelde fragen
-faq-what-q = Wat is Common Voice?
-faq-what-a = Spraakwerkenningstechnology kin de manier wêrop wy omgean mei masinen tige feroarje, mar de op dit stuit beskikbere systemen binne djoer en sluten. Common Voice is in projekt om spraakwerkenningstechnology foar elkenien maklik tagonklik te meitsjen. Minsken donearje harren stimmen oan in tige grutte database dy't elkenien de mooglikheid biedt fluch en maklik mei stim oanstjoerde apps te trainen. Alle stimgegevens sille beskikber wêze foar ûntwikkelers.
-faq-important-q = Wêrom is dit wichtich?
-faq-important-a = Stim is natuerlik, stim is minsklik. It is de meast ienfâldige en natuerlike manier fan kommunikaasje. Wy wolle dat ûntwikkelers geweldige dingen bouwe kinne, fan realtime-oersetters oant mei stim oanstjoerde administrative assistinten. Mar op dit stuit binne der net sa folle publyklik tagonklike gegevens om dit soarte fan apps bouwe te kinnen. Wy hoopje dat Common Voice ûntwikkelers jaan kin wat se nedich hawwe om te ynnovearjen.
-faq-get-q = Hoe kin ik gegevens fan Common Voice krije?
-faq-get-a = De gegevensset is no beskikber op ús <downloadLink>downloadside</downloadLink> ûnder de <licenseLink>CC-0</licenseLink>-lisinsje.
-faq-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
-faq-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik hâlden fan it ynternet. Om dit te dwaan, moatte wy webmakkers middelen jaan mei projekten as Common Voice. Omdat stimtechnologyen hieltyd mear tapast wurde, leauwe wy dat se alle brûkers ta tsjinst wêze moatte. Wy sjogge dat der behoefte is oan mear talen, aksinten en befolkingsferskillen by it testen fan stimtechnologyen. Mozilla wol in sûn en opwinend ynternet sjen. Dat betsjut nije makkers tagong jaan ta stimgegevens, sadat se nije, bûtengewoane projekten bouwe kinne. Common Voice wurdt in publike boarne dy't Mozilla-teams en ûntwikkelers fan oer de hiele wrâld helpe sil.
-faq-native-q = Ik bin in net-memmetaalsprekker fan it { $lang } en ik sprek mei in aksint, wolle jimme dochs myn stim?
-faq-native-a = Jawis wolle wy jo stim! Underdiel fan it doel fan Common Voice is om sa folle mooglik ferskate aksinten te sammeljen, sadat kompjûters <bold>elkenien</bold> better begripe kinne wannear't sy sprekke.
-faq-firefox-q = Sil spraak-nei-tekst, fia Common Voice, ea ûnderdiel wurde fan Firefox?
-faq-firefox-a = Common Voice hat ûneinige potinsje en wy binne yndied stimynterfaces yn Mozilla-produkten, ynklusyf Firefox, oan it ûndersykjen.
-faq-quality-q = Wat is it fereaske kwalitetsnivo foar de audio om brûkt wurde te kinnen?
-faq-quality-a = Wy wolle dat de lûdskwaliteit in werjefte is fan de kwaliteit lykas dy letter yn it echt berikt wurde sil. Dêrom wolle wy fariaasje. Dit leart de spraak-nei-tekst-masine om flaterleas om te gean mei ferskate situaasjes - spraak op de eftergrûn, autolûden, fentilaasjelûden.
-faq-hours-q = Wêrom is 10.000 oeren it doel foar it opnimmen fan audio?
-faq-hours-a = Dit is ûngefear it tal oeren nedich om in produksje-STT-systeem te trainen.
-faq-source-q = Wêr komt de boarnetekst fan ôf?
-faq-source-a1 = De aktuele stimmen komme fan donaasjes fan dielnimmers, en ek dialogen út filmskripts fan it publike domein lykas <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Jo kinne ús boarnesinnen besjen yn <dataLink>dizze GitHub-map</dataLink>.
+
+## Glossary
+
 
 ## NotFound
 
