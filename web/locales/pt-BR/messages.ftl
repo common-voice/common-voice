@@ -17,7 +17,7 @@ indicates-required = * Indica campo obrigatório
 
 ## Languages
 
-ace = Achinês
+ace = Achém
 af = Africâner
 an = Aragonês
 ar = Árabe
@@ -286,7 +286,7 @@ off = Desligar
 on = Ligar
 add-avatar-title = Adicione um avatar ao seu perfil
 browse-file-title = Enviar um arquivo de imagem
-browse-file = Arraste e solte, ou <browseWrap>Navegue</browseWrap>
+browse-file = Arraste e solte, ou <browseWrap>selecione</browseWrap>
 connect-gravatar = Conectar com Gravatar
 gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
@@ -313,7 +313,7 @@ faq-how-get-a = O conjunto de dados do Common Voice está disponível para downl
 faq-when-release-q = Quando serão lançados os dados do Common Voice em outros idiomas?
 faq-when-release-a = A versão multilíngue do conjunto de dados do Common Voice está passando por um processo de limpeza e empacotamento suportado pela comunidade. Se você quiser saber mais sobre como apoiar esse esforço, <contactLink>entre em contato conosco</contactLink>. No momento, estamos almejando uma data de publicação em janeiro de 2019. Depois disso, atualizaremos o conjunto de dados periodicamente com novos idiomas e clipes de voz à medida que forem disponibilizados. Uma cadência de ciclos iterativos de lançamento ainda está por ser determinada.
 faq-why-mission-q = Por que o Common Voice faz parte da missão Mozilla?
-faq-why-mission-a = A Mozilla dedica-se a manter a web aberta e acessível a todos. Para fazer isso, precisamos capacitar criadores da web através de projetos como o Common Voice. À medida que tecnologias de voz proliferam além de aplicações dedicadas, acreditamos que elas devem atender a todos os usuários igualmente. Isto significa investir em mais idiomas e acomodar diferentes sotaques e regiões demográficas ao criar e testar tecnologias de voz. O Common Voice é um recurso público, disponível a todos. Equipes da Mozilla e desenvolvedores no mundo todo já o estão usando em seus próprios projetos.
+faq-why-mission-a = A Mozilla dedica-se a manter a web aberta e acessível a todos. Para fazer isso, precisamos capacitar criadores da web através de projetos como o Common Voice. À medida que tecnologias de voz proliferam além de aplicações dedicadas, acreditamos que elas devem atender a todos os usuários igualmente. Isto significa investir em mais idiomas e acomodar diferentes sotaques e grupos demográficos ao criar e testar tecnologias de voz. O Common Voice é um recurso público, disponível a todos. Equipes da Mozilla e desenvolvedores no mundo todo já o estão usando em seus próprios projetos.
 faq-what-cv-and-deepspeech-q = Qual é a diferença entre Common Voice e Deep Speech?
 faq-what-cv-and-deepspeech-a = O conjunto de dados do Common Voice complementa o Deep Speech, o mecanismo de reconhecimento de voz de código aberto da Mozilla. A primeira versão do Deep Speech foi lançada em novembro de 2017 e continua a evoluir desde então. Juntamente com o conjunto de dados do Common Voice, acreditamos que esta tecnologia de reconhecimento de voz de código aberto deve estar disponível para todos. Temos esperança que essas tecnologias permitirão que desenvolvedores criem uma onda de produtos e serviços inovadores.
 faq-is-goal-assistant-q = O objetivo do Common Voice é construir um assistente de voz?
@@ -321,6 +321,9 @@ faq-is-goal-assistant-a = O objetivo do conjunto de dados do Common Voice é per
 faq-do-want-native-q = Eu não sou um falante nativo e eu falo com sotaque, vocês ainda querem minha voz?
 faq-do-want-native-a = Sim, queremos especialmente sua voz! Parte do objetivo do Common Voice é reunir o maior número possível de sotaques diferentes para que os serviços de reconhecimento de voz funcionem igualmente bem para qualquer pessoa. Isso significa que doações de voz de falantes não nativos são particularmente importantes.
 faq-why-different-speakers-q = Por que vocês precisam de tantas pessoas diferentes em cada idioma?
+faq-why-different-speakers-a =
+    A maioria dos bancos de dados de voz é treinado com uma representação excessiva de certos grupos demográficos, o que resulta em um viés <articleLink>masculino e de classe média</articleLink>. Sotaques e dialetos que tendem a ser sub-representados em conjuntos de dados de treinamento são tipicamente associados a grupos de pessoas que já estão marginalizadas. Muitas máquinas também têm dificuldades para entender vozes femininas.
+    É por isso que, no nosso banco de dados de voz, queremos variedade!
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
 faq-why-my-lang-a = A Mozilla não escolhe ou favorece qualquer idioma em detrimento de outro. Em vez disso, o Common Voice é uma iniciativa puramente voltada para a comunidade, mas são necessárias <multilangLink>diversas etapas para adicionar um novo idioma</multilangLink> e começar a coletar doações de voz. Primeiro, o site do Common Voice precisa ser traduzido para que os membros da comunidade possam acessar a experiência do contribuinte em seu próprio idioma. Em seguida, precisamos de uma grande coleção de sentenças sem limitação de direitos autorais para as pessoas lerem em voz alta. Uma vez que ambos os requisitos estejam satisfeitos, um idioma é “lançado” no Common Voice para que as pessoas comecem a gravar suas vozes e validar outras doações.
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
