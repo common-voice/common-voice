@@ -8,6 +8,7 @@ email-input =
     .label = Эл. почта
 submit-form-action = Җибәрү
 loading = Йөкләнелә...
+email-opt-in-privacy = Эл. хатларга язылу белән сез Мозилланың әлеге мәгълүматны <privacyLink>Хосусыйлык Сәясәтендә<privacyLink> аңлатылганча эшкәртүе белән килешәсез.
 indicates-required = * Тиешле юлны күрсәтә
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -152,6 +153,7 @@ todays-progress = Бүген эшләнгән эшләр
 help-reach-goal = Безгә { $goal } максатына ирешергә ярдәм итегез
 read-terms-q = Безнең Куллану Шартларыбызны укыдыгызмы?
 ready-to-record = Тавышыгызны иганә итәргә әзерме?
+all-locales = Бөтенесе
 today = Бүген
 x-weeks-short =
     { $count ->
@@ -168,12 +170,19 @@ x-years-short =
         [one] ел
        *[other] ел
     }
+help-make-dataset = Безгә югары сыйфатлы, һәркемгә ачык мәгълүмат тупланмасын булдырырга ярдәм итегез
+profile-not-required = Үз өлешеңне кертү өчен профильның булуы мәҗбүри түгел, гәрчә файдалы булса да
+sign-up-account = Аккаунт булдырыр өчен теркәлегез
 
 ## Account Benefits
 
+benefits = Уңай яклары
 
 ## What's public
 
+whats-public = Һәркемгә ачык дигән сүз нәрсә ул?
+email-not-public = Без сезнең эл. почтаны беркемгә дә күрсәтмәячәкбез.
+recordings-and-locale-public = Язмалар саны һәм кайсы телләргә өлеш кертүегез һәркемгә дә күренәчәк.
 
 ## Speak & Listen Shortcuts
 
