@@ -8,6 +8,7 @@ email-input =
     .label = メールアドレス
 submit-form-action = 送信
 loading = 読み込み中…
+email-opt-in-privacy = メールの受信を選択した場合、Mozilla の<privacyLink>プライバシーポリシー<privacyLink>に記載のとおり、この情報を Mozilla が取り扱うことに同意したものとみなされます。
 indicates-required = * の付いた項目は入力必須です
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -146,6 +147,7 @@ listen-goal-text = 検証された音声
 hours-recorded = 総録音時間
 hours-validated = 総検証時間
 todays-progress = 今日の進捗
+help-reach-goal = { $goal } の達成にご協力ください
 read-terms-q = 規約を読み、同意していただけますか？
 ready-to-record = 音声を寄贈していただけますか？
 all-locales = すべて
@@ -238,7 +240,9 @@ profile-form-age =
 profile-form-gender =
     .label = 性別
 leaderboard-visibility =
-    .label = リーダーボードの可視性
+    .label = リーダーボードへの表示
+hidden = 非公開
+visible = 公開
 native-language =
     .label = 母国語
 profile-form-submit-save = 保存
@@ -250,6 +254,7 @@ other = その他
 why-profile-title = なぜプロファイルが必要ですか？
 why-profile-text = Common Voice に提供いただく音声データにあなたの情報を加えることで、このデータを利用する音声認識エンジンの精度を向上できます。
 dashboard = ダッシュボード
+build-profile = プロファイル設定
 avatar = アバターアイコン
 goals = 目標
 settings = 設定
@@ -275,12 +280,14 @@ off = オフ
 on = オン
 add-avatar-title = プロファイルにアバターを追加
 browse-file-title = 画像ファイルをアップロード
+browse-file = ドラッグ＆ドロップまたは <browseWrap>ファイルを選択</browseWrap>
 connect-gravatar = Gravatar と接続
 gravatar_not_found = あなたのメールアドレスは Gravatar に見つかりませんでした
 file_too_large = 選択したファイルのサイズが大きすぎます
 manage-subscriptions = 購読の管理
 email-already-used = メールアドレスは別のアカウントですでに使用されています。
 add-language = 言語を追加
+change-email-setings = メールアドレスは、設定の「ログイン用アカウント」から変更できます
 
 ## FAQ
 
@@ -345,7 +352,7 @@ contact-form-name =
     .label = お名前
 contact-form-message =
     .label = 内容
-contact-required = *必須
+contact-required = *入力必須
 
 ## Request Language Modal
 
@@ -424,6 +431,19 @@ share-title-new = 音声を集める<bold>手伝い</bold>をしてください
 
 ## Goals
 
+streaks = 連続した期間
+days =
+    { $count ->
+       *[other] 日間
+    }
+recordings =
+    { $count ->
+       *[other] 件録音
+    }
+validations =
+    { $count ->
+       *[other] 件検証
+    }
 
 ## Dashboard
 
