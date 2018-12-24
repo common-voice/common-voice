@@ -319,6 +319,11 @@ faq-why-different-speakers-a =
     Le major parte del bases de datos es maestrate con un super-representation de certe datos demographic que resultata in un prejudicio verso <articleLink>le classe masculin e medie</articleLink>.Accentos e dialectos que tende a ser sub-representate in le maestramento del collectiones de datos es typicamente associate con gruppos de personas qui es jam marginalisate. Multe machinas alsi es reluctante a comprender le voces feminin.
     Isto es perque in nostre base de datos de voces nos vole le varietate!
 faq-why-my-lang-q = Perque mi lingua non es ancora includite?
+faq-why-my-lang-a = Mozilla non prefere o favori ulle lingua contra un altere. In vice, Common Voice es un initiativa ducite solmente per le communitate, ma illo prende <multilangLink>plure grados pro adder un nove lingua</multilangLink> e initia per colliger donationes de voce. Primo, le sito web de Common Voice debe ser traducite assi que le membros del communitate pote acceder al experientias del collaboratores in lor proprie lingua. Pois nos require un grande collection de phrases libere de derectos de autor proque le personas pote los leger. Un vice que ambe ille requisitos es satisfacite un lingua es “lanceate” sur Common Voice pro le personas a partir del registration de lor voce e del validation del donationes del alteres.
+faq-what-quality-q = Que nivello de qualitate del audio es requirite proque le retalios vocal sia usate in le collection de datos?
+faq-what-quality-a = Nos vole que le collection de datos de Common Voice reflecte le qualitate del audio que un motor de recognition vocal audira in natura, assi nos recerca le varietate. In addition a un diverse communitate de parlantes, un collection de datos con qualitate del audio variabile <s0/>maestrara le recognition vocal a gerer varie situationes del mundo real, ab le voces se fundo al rumor del autos. Fin que tu retalio vocal es intelligibile, illo deberea ser bon bastante pro le collection de datos.
+faq-why-10k-hours-q = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
+faq-why-10k-hours-a = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
 
 ## Glossary
 
