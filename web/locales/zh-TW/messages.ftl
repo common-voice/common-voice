@@ -307,6 +307,7 @@ faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>�
 faq-when-release-q = 你們什麼時候會釋出其他語言的 Common Voice 資料？
 faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
+faq-what-cv-and-deepspeech-a = Common Voice 能夠與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補。初版的 Deep Speech 發行於 2017 年 11 月，並持續發展。與 Common Voice 資料集一起，我們相信這套開放原始碼語音辨識技術應開放給所有人使用，也希望這些技術可讓開法者打造出一波創新產品與服務。
 faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
 faq-is-goal-assistant-a = Common Voice 資料集的目標是希望讓任何人都能打造語音識別、說話者識別，以及任何其他需要語音資料的應用。語音助理只是您能用來打造的應用之一。
 faq-do-want-native-q = 某種語言不是我的母語而且講話有點口音，你們還會想要我的聲音嗎？
