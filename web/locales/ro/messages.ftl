@@ -171,6 +171,18 @@ x-years-short =
         [few] { $count } ani
        *[other] { $count } de ani
     }
+help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, liber la dispoziția publicului
+profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
+sign-up-account = Înscrie-te pentru un cont
+
+## Account Benefits
+
+benefits = Beneficii
+
+## What's public
+
+email-not-public = Nu îți vom face publică adresa de e-mail.
+username-email-not-demographic = Numele de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Speak & Listen Shortcuts
 
@@ -280,25 +292,18 @@ change-email-setings = Schimbă-ți e-mailul în Setări sub Identitate de auten
 ## FAQ
 
 faq-title = Întrebări frecvente
-faq-what-q = Ce este Common Voice?
-faq-what-a = Recunoașterea vocală este o tehnologie care ar putea revoluționa modul în care interacționăm cu dispozitivele, dar sistemele disponibile acum sunt scumpe și proprietare. Common Voice este un proiect care să facă tehnologia de recunoaștere vocală ușor accesibilă tuturor. Oamenii își donează vocile pentru a construi o bază de date masivă care va permite oricui să antreneze rapid și ușor aplicații cu acționare vocală. Toate datele vocale vor fi puse la dispoziția dezvoltatorilor.
-faq-important-q = De ce este important?
-faq-important-a = Vocea este naturală și umană. E cel mai ușor și natural mod de comunicare. Vrem ca dezvoltatorii să poată construi lucruri incredibile - de la sisteme de traducere în timp real până la asistenți administrativi cu comandă vocală. Dar acum nu sunt destule date disponibile în domeniul public pentru a construi astfel de aplicații. Sperăm ca proiectul Common Voice să le ofere dezvoltatorilor tot ceea ce le trebuie pentru a putea inova.
-faq-get-q = Cum pot obține datele Common Voice?
-faq-get-a = Setul de date este acum disponibil pe <downloadLink>pagina de descărcări</downloadLink> sub o licență <licenseLink>CC-0</licenseLink>.
-faq-mission-q = De ce face parte Common Voice din misiunea Mozilla?
-faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. În acest sens, trebuie să împuternicim creatorii web prin proiecte așa cum este Common Voice. Deoarece tehnologiile vocale se extind rapid dincolo de aplicațiile de nișă, credem că trebuie să deservească toți utilizatorii în egală măsură. Considerăm  că există o necesitate de includere a mai multor limbi, accente și elemente demografice în construirea  și testarea tehnologiilor vocale. Mozilla își dorește un Internet sănătos și vibrant, ceea ce presupune accesul noilor creatori la datele vocale ca să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică, care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
-faq-native-q = Sunt vorbitor ne-nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
-faq-native-a = Da, sigur că vrem vocea ta! O parte din scopul proiectului Common Voice este de a aduna cât mai multe accente diferite posibile astfel încât calculatoarele să înțeleagă mai bine pe <bold>oricine</bold> le vorbește.
-faq-firefox-q = Va fi recunoașterea vocală, prin Common Voice, disponibilă vreodată în Firefox?
-faq-firefox-a = Common Voice dispune de un potențial nelimitat și chiar explorăm interfețe vocale de inclus în mai multe produse Mozilla, inclusiv Firefox.
-faq-quality-q = Ce nivel de calitate trebuie să aibă secvențele audio ca să fie utilizate?
-faq-quality-a = Calitatea audio trebuie să o reflecte pe cea la care va fi utilizat un motor voce-text în realitate. Deci, vrem varietate. Cu ajutorul acestei varietăți, motorul nostru voce-text va învăța să gestioneze diverse situații reale — voci în fundal, zgomote auto, zgomote de la ventilatoare — fără erori.
-faq-hours-q = De ce obiectivul de 10.000 de ore de captură audio?
-faq-hours-a = Este aproximativ numărul de ore necesar pentru a antrena un sistem STT (voce-text) de producție.
-faq-source-q = De unde provine textul-sursă?
-faq-source-a1 = Propozițiile actuale sunt donații de la colaboratori, precum și dialoguri din scenarii de filme din domeniul public, cum ar fi <italic>La vita è bella (Viața e frumoasă)</italic>.
-faq-source-a2 = Poți vedea propozițiile-sursă în <dataLink>acest dosar GitHub</dataLink>.
+faq-what-cv-q = Ce este Common Voice?
+faq-why-important-q = De ce este important?
+faq-how-get-q = Cum pot obține datele Common Voice?
+faq-when-release-q = Când veți lansa datele Common Voice în alte limbi?
+faq-is-goal-assistant-q = Obiectivul Common Voice este de a construi un asistent vocal?
+faq-why-my-lang-q = De ce limba mea nu este încă inclusă?
+faq-is-account-public-q = Informațiile contului meu sunt publice?
+
+## Glossary
+
+glossary = Glosar
+localization = Localizare
 
 ## NotFound
 
