@@ -199,6 +199,7 @@ email-not-public = Wy meitsje jo e-mailadres net iepenbier.
 recordings-and-locale-public = It oantal opnamen en de talen wêroan jo bydrage binne iepenbier.
 username-optin-public = Jo kinne kieze oft jo brûkersnamme iepenbier of anonym is.
 demographic-deidentified = Opsjoneel yntsjinne demografyske gegevens (byg. leeftyd, geslacht, taal en aksint) wurde anonym makke tsjinoer dy fan jo yntsjinne stimgegevens en sille nea iepenbier makke wurde op jo profyl.
+username-email-not-demographic = Jo brûkersnamme en e-mailadres sille net mei de publisearre gegevens keppele wurde.
 
 ## Speak & Listen Shortcuts
 
@@ -302,13 +303,42 @@ file_too_large = It selektearre bestân is te grut
 manage-subscriptions = Abonneminten beheare
 email-already-used = E-mailadres wurdt al foar in oar account brûkt
 add-language = Taal tafoegje
+change-email-setings = Wizigje jo e-mailadres fia Ynstellingen ûnder Oanmeldingsidentiteit
 
 ## FAQ
 
 faq-title = Faak stelde fragen
+faq-what-cv-q = Wat is Common Voice?
+faq-why-important-q = Wêrom is it wichtich?
+faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
+faq-how-get-a = De gegevensset fan Common Voice is beskikber foar downloaden ûnder de <licenseLink>CC0</licenseLink>-lisinsje op <datasetLink>ús side mei gegevenssets</datasetLink>. Jo kinne ek ferskate oare iepenbier beskikbere gegevenssets fan dyselde side downloade.
+faq-when-release-q = Wannear jouwe jimme gegevens fan Common Voice yn oare talen frij?
+faq-why-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
+faq-what-cv-and-deepspeech-q = Wat is it ferskil tusken Common Voice en Deep Speech?
+faq-is-goal-assistant-q = Is it doel fan Common Voice om in spraakassistint te bouwen?
+faq-do-want-native-q = Ik bin in net-memmetaalsprekker en ik sprek mei in aksint. Wolle jimme dochs myn stim?
+faq-why-different-speakers-q = Wêrom hawwe jimme sa folle ferskillende sprekkers per taal nedich?
+faq-why-my-lang-q = Wêrom sit myn taal der noch net by?
+faq-how-calc-hours-q = Hoe berekkenet Common Voice de oeren?
+faq-where-src-from-q = Wêr komt de boarnetekst fuort?
+faq-where-src-from-a =
+    Us boarnetekst bestiet út orizjinele donaasjes fan dielnimmers en sinnen út iepenbiere filmscripts lykas <italic>It's a Wonderful Life</ italic>.
+    
+    Jo kinne ús boarnesinnen besjen yn dizze GitHub-map.
 
 ## Glossary
 
+glossary = Wurdenlist
+localization = Lokalisaasje
+localization-explanation = Dit is ús proses foar oersetten en oanpassen fan ús ynhâld foar in protte locales (talen).
+sentence-collection = Sinnensamling
+sentence-collection-explanation = It sammeljen fan sinnen út it publike domein, of it skriuwen fan nije foar it publike domein.
+hours-recorded-explanation = It oantal oeren oan stimopnamen dat wy oant no ta sammele hawwe.
+hours-validated-explanation = It oantal spraakopname-oeren dat troch 2 fan de 3 brûkers mei in ‘Ja’-stim falidearre is. Dizze markearje de foarútgong yn de rjochting fan de totale projektdoelstelling fan 10.000 oer.
+sst = Spraak-nei-tekst (STT)
+sst-explanation = Spraak-nei-tekst (STT)-technologyen sette stimgegevens om nei tekst.
+de-identified = Anonym makke
+de-identified-explanation = It proses wêrby de profylgegevens fan in dielnimmer skieden wurde fan donearre spraakfragminten wannear dizze as ûnderdiel fan de gegevensset ferpakt wurde foar downloaden.
 
 ## NotFound
 
@@ -461,7 +491,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Jo talen
 toward-next-goal = Nei it folgjende doel
+clips-you-recorded = Troch jo opnommen fragminten
+clips-you-validated = Troch jo falidearre fragminten
+todays-recorded-progress = Foarútgong fan Common Voice hjoed omtrint opnommen fragminten
+todays-validated-progress = Foarútgong fan Common Voice hjoed omtrint falidearre fragminten
 stats = Statistiken
 you = Jo
 everyone = Elkenien
