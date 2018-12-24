@@ -147,6 +147,7 @@ listen-paragraph = Η επαλήθευση δωρισμένων αποσπασμ
 listen-goal-text = Επαληθευμένα κλιπς
 hours-recorded = Ώρες ηχογράφησης
 hours-validated = Ώρες επαλήθευσης
+voices-online = Φωνές σε σύνδεση τώρα
 todays-progress = Σημερινή πρόοδος
 help-reach-goal = Βοηθήστε μας να φτάσουμε στο { $goal }
 read-terms-q = Έχετε διαβάσει τους όρους;
@@ -168,6 +169,8 @@ x-years-short =
         [one] { $count } έτος
        *[other] { $count } έτη
     }
+help-make-dataset = Βοηθήστε μας να συλλέξουμε υψηλής ποιότητας, δημόσια δεδομένα
+profile-not-required = Δεν απαιτείται να έχετε προφίλ για να συνεισφέρετε, αν και είναι χρήσιμο
 sign-up-account = Δημιουργία λογαριασμού
 
 ## Account Benefits
@@ -178,7 +181,10 @@ benefits = Οφέλη
 
 whats-public = Τι δημοσιοποιείται;
 email-not-public = Δεν θα δημοσιοποιήσουμε το email σας.
+recordings-and-locale-public = Ο αριθμός των ηχογραφήσεων και οι γλώσσες που συνεισφέρετε θα είναι δημόσια.
 username-optin-public = Μπορείτε να κάνετε το όνομα χρήστη σας δημόσιο ή ανώνυμο.
+demographic-deidentified = Τα προαιρετικά υποβληθέντα δημογραφικά δεδομένα (π.χ. ηλικία, φύλο, γλώσσα και προφορά) δεν σχετίζονται με τα φωνητικά σας δεδομένα και δεν θα δημοσιοποιηθούν ποτέ στο προφίλ σας.
+username-email-not-demographic = Το όνομα χρήστη και το email σας δεν θα συσχετιστούν τα δημοσιευμένα δεδομένα.
 
 ## Speak & Listen Shortcuts
 
@@ -265,6 +271,7 @@ login-signup = Σύνδεση/Εγγραφή
 edit = Επεξεργασία
 email-subscriptions = Συνδρομές email
 download-profile = Λήψη των δεδομένων μου
+skip-submission-note = Σημείωση: Θα πρέπει ακόμα να επιλέξετε ανάμεσα σε Ομιλία ή Ακρόαση για να αλλάξετε τον τύπο συνεισφοράς.
 off = Ανενεργό
 on = Ενεργό
 add-avatar-title = Προσθήκη avatar στο προφίλ σας
