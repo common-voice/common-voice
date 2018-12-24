@@ -140,7 +140,7 @@ vote-no = いいえ
 toggle-play-tooltip = { shortcut-play-toggle } を押すと再生が始まります。
 speak-subtitle = 声を寄贈する
 speak-paragraph = 音声の録音は、オープンなデータセットの作成に不可欠な工程です。いちばん楽しいところとも言えます。
-speak-goal-text = 録音した音声
+speak-goal-text = 録音された音声
 listen-subtitle = 声の検証を手伝う
 listen-paragraph = 寄贈された音声の検証も Common Voice プロジェクトにとっては同じくらい重要です。あなたの耳で、オープンソースの音声データの改善を手伝ってください。
 listen-goal-text = 検証された音声
@@ -447,7 +447,24 @@ validations =
 
 ## Dashboard
 
+your-languages = あなたの言語
+clips-you-recorded = 音声の録音件数
+clips-you-validated = 音声の検証件数
+todays-recorded-progress = 今日の Common Voice に録音された数
+todays-validated-progress = 今日の Common Voice で検証された数
+stats = 活動状況
+you = 自分
+everyone = 全員
+top-contributors = 上位の貢献者
+recorded-clips = 録音件数
+validated-clips = 検証件数
+overall-accuracy = 全体の精度
 
 ## Profile Delete
 
-profile-form-delete = プロファイルの削除
+delete-q = あなたの音声録音データの削除も要求しますか？それとも、それを Common Voice データセットに残しておきますか？
+keep = 保持
+remove = 削除
+keep-info = あなたの匿名の音声録音データは、Common Voice データセットに残ります。プロファイルを削除すると、録音データのデータセットからの削除を要求することができなくなります。
+remove-info = 私たちは、あなたの要求を確認してから音声録音データをデータセットから削除します。要求が承認された場合、同様にデータセットをダウンロードした人々に連絡を取り、あなたの音声録音データを削除してもらうように要請します。
+profile-form-delete = プロファイルを削除
