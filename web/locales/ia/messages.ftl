@@ -349,6 +349,7 @@ hours-validated-explanation = Le conto del horas de registration de voce que ha 
 sst = Ab le voce al texto (STT - Recognition vocal)
 sst-explanation = Technologias de recognition vocal pro converter datos vocal in texto.
 de-identified = De-identificate
+de-identified-explanation = Le processo per lo qual un information del profilo del collaborator es obscurate ab lor retalios vocal quando es pacchettate pro le discarga como parte del collection de datos.
 
 ## NotFound
 
@@ -509,6 +510,8 @@ your-languages = Tu linguas
 toward-next-goal = Verso le proxime objectivo
 clips-you-recorded = Retalios que tu ha registrate
 clips-you-validated = Retalios que tu ha validate
+todays-recorded-progress = Progresso hodierne de Common Voice sur le retalios audio registrate
+todays-validated-progress = Progresso hodierne de Common Voice sur le retalios audio validate
 stats = Statistica
 you = Tu
 everyone = Totes
@@ -521,6 +524,9 @@ overall-accuracy = Precision general
 
 ## Profile Delete
 
+delete-q = Vole tu requirer que tu registrationes vocal sia delite o prefere tu retener los in le collection de datos de Common Voice?
 keep = Retener
 remove = Remover
+keep-info = Tu registrationes de voce anonyme remanera in le collection de datos de Common Voice. Un vice que tu dele tu profilo tu non sera plus capace a inviar un requesta de eliminar tu registrationes ab le collection de datos
+remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contingera illes qui ha discargate le collection de datos e requirera les de remover tu registrationes vocal.
 profile-form-delete = Deler le profilo
