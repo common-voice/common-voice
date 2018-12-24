@@ -324,6 +324,10 @@ faq-what-quality-q = Que nivello de qualitate del audio es requirite proque le r
 faq-what-quality-a = Nos vole que le collection de datos de Common Voice reflecte le qualitate del audio que un motor de recognition vocal audira in natura, assi nos recerca le varietate. In addition a un diverse communitate de parlantes, un collection de datos con qualitate del audio variabile <s0/>maestrara le recognition vocal a gerer varie situationes del mundo real, ab le voces se fundo al rumor del autos. Fin que tu retalio vocal es intelligibile, illo deberea ser bon bastante pro le collection de datos.
 faq-why-10k-hours-q = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
 faq-why-10k-hours-a = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
+faq-how-calc-hours-q = Como Common Voice calcula le horas?
+faq-how-calc-hours-a = Nos calcula le horas per le estimation del longor medie de cata registration, e pois per le multiplication de ille numero per le numero total de registrationes trans tote le linguas.
+faq-where-src-from-q = De ubi veni le texto fonte?
+faq-where-src-from-a = Nostre texto fonte es producite de donationes original de collaboratores tam ben como dialogos ex scriptos de pelliculas de  public dominio como <italic>It’s a Wonderful Life</italic>.
 
 ## Glossary
 
