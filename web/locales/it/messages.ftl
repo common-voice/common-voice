@@ -186,6 +186,7 @@ whats-public = Quali dati sono pubblici?
 email-not-public = Non renderemo il tuo indirizzo email pubblico.
 recordings-and-locale-public = Il numero di registrazioni e le lingue alle quali contribuisci saranno pubbliche.
 username-optin-public = Puoi scegliere di rendere il tuo nome utente pubblico o anonimo.
+demographic-deidentified = Le informazioni personali fornite facoltativamente (ad esempio età, sesso, lingua e accento) sono sottoposte a un processo di anonimizzazione e non saranno mai visibili sul tuo profilo pubblico.
 username-email-not-demographic = Il tuo nome utente e il tuo indirizzo email non verranno associati ai dati pubblicati.
 
 ## Speak & Listen Shortcuts
@@ -296,6 +297,10 @@ change-email-setings = Modifica la tua email dalle impostazioni sotto la voce Id
 
 faq-title = Domande più frequenti
 faq-what-cv-q = Che cos’è Common Voice?
+faq-what-cv-a =
+    La tecnologia di riconoscimento vocale sta rivoluzionando il modo nel quale interagiamo con le macchine, ma al momento i sistemi disponibili sono costosi e proprietari. Common Voice fa parte dell’iniziativa di Mozilla per migliorare le tecnologie di riconoscimento vocale e renderle più accessibili a tutti. Common Voice è un gigantesco database di voci donate dagli utenti che permettono a chiunque di addestrare in maniera rapida e veloce le proprie applicazioni che utilizzano il riconoscimento vocale in potenzialmente qualsiasi lingua.
+    
+    Non soltanto memorizziamo campioni di voci delle lingue più diffuse al mondo ma anche quelle parlate da comunità minoritarie. La pubblicazione di un set di voci diverse consentirà a sviluppatori, imprenditori e comunità di affrontare da soli questa lacuna. Oltre al dataset di Common Voice, stiamo anche sviluppando un motore di riconoscimento vocale open source chiamato Deep Speech.
 faq-why-important-q = Perché è importante?
 faq-why-important-a =
     Parlare è spesso il modo più naturale di comunicare e le tecnologie vocali stanno introducendo questa facoltà anche nei nostri computer e dispositivi mobili. Vogliamo consentire agli sviluppatori di realizzare nuove applicazioni strabilianti basate sul riconoscimento vocale, come traduttori in tempo reale e assistenti digitali. Ma attualmente la maggior parte dei dati vocali richiesti per realizzare questo tipo di app sono costosi e proprietari. Con il dataset di Common Voice intendiamo fornire agli sviluppatori le risorse necessarie per innovare e rendere la tecnologia vocale disponibile nella propria lingua.
@@ -310,15 +315,35 @@ faq-why-mission-a = La missione di Mozilla è mantenere il Web aperto e accessib
 faq-what-cv-and-deepspeech-q = Qual è la differenza tra Common Voice e Deep Speech?
 faq-what-cv-and-deepspeech-a = Il dataset di Common Voice integra Deep Speech, il motore di riconoscimento vocale open source di Mozilla. La prima versione di Deep Speech è stata rilasciata a novembre 2017 e ha continuato a evolversi da allora. Crediamo che questa tecnologia di riconoscimento vocale open source, insieme al dataset di Common Voice, dovrebbe essere disponibile per tutti. Speriamo che queste tecnologie permetteranno agli sviluppatori di realizzare la prossima ondata di prodotti e servizi innovativi.
 faq-is-goal-assistant-q = L’obiettivo di Common Voice è produrre un assistente vocale?
+faq-is-goal-assistant-a = L’obiettivo del dataset di Common Voice è di consentire a chiunque nel mondo di sviluppare applicazioni che utilizzino il riconoscimento vocale, il riconoscimento del parlante o qualsiasi altro tipo di funzione che utilizzi dati vocali. Un assistente vocale è solo uno dei molti tipi di applicazioni con il quale puoi usare i dataset.
 faq-do-want-native-q = Non sono un madrelingua ma parlo con accento straniero. Avete comunque bisogno della mia voce?
+faq-do-want-native-a = Sì, cerchiamo soprattutto voci come la tua! Uno degli obiettivi di Common Voice è raccogliere quanti più accenti possibili in modo che i servizi di riconoscimento vocale funzionino egualmente bene per tutti. I contributi vocali dei non-madrelingua sono perciò particolarmente importanti.
+faq-why-different-speakers-q = Perché avete bisogno di così tante voci diverse per ogni lingua?
+faq-why-different-speakers-a = Nella stragrande maggioranza dei database per l’apprendimento vocale troviamo una netta sproporzione demografica a favore delle voci <articleLink>maschili e di classe media</articleLink>. Invece gli accenti e i dialetti associati ai gruppi già di per sé marginalizzati ricevono una rappresentazione minore nei dataset per l’apprendimento del software. Inoltre diversi dispositivi faticano a comprendere le voci femminili. Ecco perché vogliamo che il nostro database sia così vario.
 faq-why-my-lang-q = Perché la mia lingua non è stata ancora inclusa?
+faq-why-my-lang-a = Mozilla non sceglie quali lingue aggiungere, né preferisce una lingua piuttosto che un’altra: il successo dell’iniziativa dipende totalmente dalla comunità linguistica che l’appoggia. Tuttavia <multilangLink>prima di aggiungere una nuova lingua è necessario passare attraverso alcune fasi</ multilangLink> e cominciare a raccogliere registrazioni vocali donate dai volontari. Innanzitutto è necessario tradurre il sito web di Common Voice in modo che i membri della comunità possano collaborare usando la propria lingua. Successivamente, abbiamo bisogno di una vasta raccolta di frasi prive di copyright che i collaboratori possano leggere ad alta voce. Una volta soddisfatti entrambi i requisiti, una lingua viene ”lanciata” su Common Voice e i collaboratori possono iniziare a registrare la propria voce e convalidare le registrazioni di altri volontari.
 faq-what-quality-q = Quale livello di qualità audio è richiesto da una registrazione vocale per essere utilizzata nel dataset?
+faq-what-quality-a = Vogliamo che il dataset di Common Voice rifletta la qualità audio che un motore di riconoscimento vocale “ascolterà” nella vita di tutti i giorni, per questo cerchiamo la varietà. Oltre a una comunità diversificata di parlanti, un dataset con qualità audio variabile insegnerà al motore di riconoscimento vocale a gestire varie situazioni del mondo reale, dal parlato di sottofondo al rumore dell’automobile. In poche parole, finché si distinguono le parole la tua registrazione va benissimo per il dataset!
+faq-why-10k-hours-q = Perché l’obiettivo di registrazione è proprio 10.000 ore convalidate per ogni lingua?
+faq-why-10k-hours-a = È approssimativamente il numero di ore necessario per addestrare un software di riconoscimento vocale.
 faq-how-calc-hours-q = In che modo Common Voice calcola le ore?
 faq-how-calc-hours-a = Calcoliamo le ore stimando la lunghezza media di ciascuna registrazione e moltiplicando quel numero per il numero totale di registrazioni in tutte le lingue.
 faq-where-src-from-q = Da dove provengono le frasi?
+faq-where-src-from-a =
+    Le nostre frasi sono testi originali offerti dai collaboratori e dialoghi tratti da copioni di film di pubblico dominio come <italic>La vita è meravigliosa</ italic>.
+    
+    Puoi leggere tutte le frasi da questa cartella GitHub.
+faq-why-not-ask-read-q = Perché non chiedete alle persone di leggere brani tratti da libri o articoli di Wikipedia in diverse lingue?
+faq-why-not-ask-read-a = Per non limitare le possibili applicazioni del dataset Common Voice, abbiamo deciso di utilizzare unicamente frasi disponibili sotto la licenza Creative Commons (CC0). Lo standard CC0 rende più difficile trovare e raccogliere frasi idonee, tuttavia garantisce a chiunque il diritto di impiegare i dati raccolti senza restrizioni sull’utilizzo o autorizzazione da parte di Mozilla. In definitiva, vogliamo che il dataset multilingua abbia meno restrizioni possibili in modo da essere utilizzato liberamente da chiunque, compresi ricercatori, università, startup, governi, organizzazioni per scopi sociali e hobbisti.
 faq-why-account-q = Perché dovrei registrare un account?
 faq-is-account-public-q = Le informazioni sul mio account sono pubbliche?
 faq-how-privacy-q = Come assicurate l’anonimato e la privacy delle persone che hanno donato le loro voci?
+faq-how-privacy-a = Tutte le registrazioni presenti nei dataset vengono anonimizzate per rimuovere qualsiasi informazione personale da cui si possa risalire al donatore. Quando un collaboratore fornisce dati demografici tramite il proprio profilo, tali informazioni vengono rimosse dalle registrazioni vocali prima di essere accorpate al dataset disponibile per il download, inoltre non vengono in nessun caso rese pubbliche sulla pagina del profilo del collaboratore.
+faq-what-determine-identity-q = Cosa significa che è proibito “determinare l’identità” delle voci nei dataset di Common Voice?
+faq-what-determine-identity-a =
+    Il set di dati di Common Voice è una risorsa aperta e pubblicamente disponibile che può essere utilizzata per addestrare un’ampia varietà di applicazioni con funzione di riconoscimento vocale. Per proteggere la sicurezza dei nostri collaboratori, chiediamo a tutti coloro che scaricano il set di dati Common Voice di rispettare la loro privacy.
+    
+    Tutte le registrazioni nel set di dati vengono anonimizzate. Scaricando il dataset acconsenti a rinunciare a ogni tentativo di determinare l’identità dei donatori di voce. Ciò significa che non devi collegare le informazioni nel dataset alle informazioni personali di un collaboratore. Tuttavia, è possibile utilizzare il set di dati per addestrare il software di riconoscimento vocale, di riconoscimento del soggetto parlante o altre applicazioni, o anche correlare le informazioni nel dataset ad altre informazioni sempre presenti nello stesso dataset.
 
 ## Glossary
 
@@ -326,8 +351,13 @@ glossary = Glossario
 localization = Localizzazione
 localization-explanation = È il processo per il quale si traduce e adattano i contenuti per altre lingue.
 sentence-collection = Raccolta di frasi
+sentence-collection-explanation = Raccogliere frasi di pubblico dominio o scriverne di nuove sotto licenza di pubblico dominio.
 hours-recorded-explanation = Il conteggio delle ore di registrazione vocale che abbiamo raccolto finora.
+hours-validated-explanation = Il conteggio delle ore di registrazioni vocali che sono state convalidate da 2 utenti su 3 con un “Sì”. Questi progressi aiutano a raggiungere il nostro obiettivo: 10.000 ore.
+sst = Riconoscimento vocale (STT acronimo di Speech-to-text)
+sst-explanation = Le tecnologie di riconoscimento vocale (STT) convertono il parlato in testo.
 de-identified = Anonimizzazione
+de-identified-explanation = Il processo con il quale le informazioni del profilo di un collaboratore contenute nelle sue registrazioni vengono rese illeggibili quando scaricate come parte del dataset.
 
 ## NotFound
 
