@@ -325,6 +325,10 @@ faq-where-src-from-a =
     Us boarnetekst bestiet út orizjinele donaasjes fan dielnimmers en sinnen út iepenbiere filmscripts lykas <italic>It's a Wonderful Life</ italic>.
     
     Jo kinne ús boarnesinnen besjen yn dizze GitHub-map.
+faq-why-not-ask-read-q = Wêrom freegje jimme net gewoan oan minsken om yn ferskillende talen út boeken of Wikipedia-artikelen te lêzen?
+faq-why-account-q = Wêrom soe ik in account oanmeitsje?
+faq-is-account-public-q = Binne myn accountgegevens iepenbier?
+faq-how-privacy-q = Hoe garandearje jimme de anonimiteit en privacy fan de persoanen dy't harren stimmen donearre hawwe?
 
 ## Glossary
 
