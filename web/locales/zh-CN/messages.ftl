@@ -305,12 +305,17 @@ faq-how-get-q = 我要如何获取 Common Voice 数据？
 faq-how-get-a = 可到 <datasetLink>Common Voice 数据集页面</datasetLink>下载，本数据集遵循<licenseLink>CC0</licenseLink> 进行授权。您也可以在该页面中下载其他几组公开可用的数据集。
 faq-when-release-q = 你们什么时候会发布其他语言的 Common Voice 数据？
 faq-why-mission-q = 为什么 Common Voice 也是 Mozilla 使命的一部分？
+faq-why-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。这意味着在构建和测试语音技术时，应当满足更多语言、口音和人口特征的需求。Common Voice 将成为人人皆可使用的公共资源，Mozilla 团队和世界各地的开发者也已将其用于项目开发中。
 faq-what-cv-and-deepspeech-q = Common Voice 与 Deep Speech 有何不同？
+faq-what-cv-and-deepspeech-a = Common Voice 能够与 Mozilla 的开源语音识别引擎 Deep Speech 互补。初版的 Deep Speech 发布于 2017 年 11 月，并不断发展。与 Common Voice 数据集一起，我们认为这项开源语音识别技术应开放给所有人使用，也希望这些技术能够让开发者构建出一批创新产品与服务。
 faq-is-goal-assistant-q = Common Voice 的目标是要构建语音助手吗？
 faq-is-goal-assistant-a = Common Voice 数据集的目标是使世界上的任何人都能构建语音识别、声纹识别，以及任何其他需要语音数据的应用。语音助手只是您可以使用其构建的众多应用类型之一。
 faq-do-want-native-q = 某语言不是我的母语而且说话带有口音，你们需要这样的语音吗？
 faq-do-want-native-a = 是的，而且我们特别想要您的声音！ Common Voice 的目标之一就是收集尽可能多的不同口音，让语音识别服务能适用于每个人。这意味着非母语人士的贡献尤为重要。
 faq-why-different-speakers-q = 为什么每种语言需要这么多不同的说话者？
+faq-why-different-speakers-a =
+    大多数语音数据库的语音来源偏重于某一特定人群，造成结果偏向于<articleLink>男性与中产阶级</articleLink>。而在训练数据集中，代表性不足的口音与方言往往会与被边缘化的人群相关联。许多机器也很难理解女性的声音。
+    这就是为何我们的语音数据库应该海纳百川，收集各种语音！
 faq-why-my-lang-q = 为什么还没有我的语言？
 faq-what-quality-q = 录音片段的音质要达到什么等级，才可用于数据集中？
 faq-why-10k-hours-q = 为什么每种语言均有 10,000 小时的有效音频采集目标？
