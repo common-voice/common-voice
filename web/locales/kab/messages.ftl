@@ -175,6 +175,7 @@ sign-up-account = Jerred akken ad teswuḍ amiḍan amiḍan
 ## Account Benefits
 
 benefits = Abaɣur
+view-goals = Serwes asfari-ik ɣer yiswiyen-ik udmawanen akked wid n usenfaṛ.
 
 ## What's public
 
@@ -290,6 +291,8 @@ faq-title = Isteqsiyen i yezgan ttuɣalen-d
 
 glossary = Amawal
 localization = Asideg
+sst = Aɛqal n taɣect (STT)
+sst-explanation = Titiknulujiyin n uɛqal n taɣect (STT) ad selketen taɣect ɣer uḍris.
 
 ## NotFound
 
@@ -448,6 +451,10 @@ validations =
 
 your-languages = Tutlayin-inek
 toward-next-goal = Ɣer iswi i d-iteddun
+clips-you-recorded = Tukkisin yettwaskelsen
+clips-you-validated = Tukkisin yettwaqeblen
+todays-recorded-progress = Asfari n Common Voice n tukkisin yettwaskelsen ass-a
+todays-validated-progress = Asfari n Common Voice n tukkinsin yettwaqeblen ass-a
 stats = Tiddadanin
 you = Kečč
 everyone = Yal yiwen
