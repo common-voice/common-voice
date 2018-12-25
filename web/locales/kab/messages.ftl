@@ -18,6 +18,7 @@ indicates-required = * yemmal-d urti ilaqen
 ## Languages
 
 ace = Acehnese
+af = Tafrikant
 an = Taṛagunit
 ar = Taεrabt
 as = Tasamizt
@@ -150,7 +151,7 @@ todays-progress = Asfari n wass
 help-reach-goal = Mudd-aɣ-d afus ad naweḍ { $goal }
 read-terms-q = Teɣriḍ tiwtilin-nneɣ?
 ready-to-record = Theggaḍ ad tmuddeḍ taɣect-ik/im ?
-all-languages = Akk tutlayin
+all-locales = Akk
 today = Ass-a
 x-weeks-short =
     { $count ->
@@ -167,6 +168,12 @@ x-years-short =
         [one] Aseggas
        *[other] { $count } sgs
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -274,25 +281,11 @@ add-language = Rnu tutlayt
 ## FAQ
 
 faq-title = Isteqsiyen i yezgan ttuɣalen-d
-faq-what-q = D acu-t Common Voice?
-faq-what-a = Titiknulujiyin n uɛqal n taɣect zemrent ad d-glunt s tegrawla deg temyigawt akked timacinin, acu kan inagrawen yellan akka tura ɣlayit nezzeh, ɣur-sen imawlan-nsen. Common Voice d asenfaṛ yebɣan ad yerr tatiknulujit-agi tettwakcam i yal yiwen. Immttekkiyen ad bḍun taɣect-nsen deg taffa n yisefka meqqren, tin ara yeǧǧen yal yiwen akken ad d-yesnulfu isnasen i yesseqdacen taɣect s zreb, s wudem fessusen . Isefka meṛṛa n taɣect, ad ttwasersen baṭel i yineflayen deg umaḍal.
-faq-important-q = Acuɣer i yesɛa azal?
-faq-important-a = Taɣect d tagamant, taɣect d ayla n umdan. D abrid yellan d afessas i ummeslay. Nebγa d akken ineflayen ad izmiren i usali n usenfar igerrzen, ama d tasuqilt srid neɣ amεiwen n tnedbalt. Maca akka tura ulac ddeqs n yisefka izuyaz akken ad nernu isnasen-agi. Nessaram d akken Common Voice ad yefk i iyneflayen ayen sran meṛṛa.
-faq-get-q = Amek i zemreɣ ad afeɣ isefka n Common Voice?
-faq-get-a = Tagrumma n yisefka tella deg <downloadLink>usebter n usider </downloadLink> ddaw n turagt <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Acuɣeṛ asenfaṛ n Common Voice ittekka di leqdic n Mozilla?
-faq-mission-a = Mozilla iswi-is d aḥraz n web yeldin, yettwakcamen i yal yiwen. Akken ad naweḍ lebɣi-a, yessefk ad nmudd ifecka am Common Voice i wid i d-yesnulfuyen. Titiknulujiyin n taɣect ttnulfuyent-d di kra n yimeḍqan, numen daɣen d akken zemrent ad ttwasqedcent akken ilaq. Nwala d akken ilaq ad nseddu ugar n tutlayin, isusruyen akked iwtayen i tmerna d usekyed n titiknulujiyin n taɣect. Mozilla tebɣa Internet urmid, s tezmert yelhan. Ayagi ad d-yeglu s umuddu n unekcum i wid i d-yesnulfuyen di web, ar isefka n taɣect i yezemren ad sqedcen deg isenfaṛen imaynuten. Common Voice ad yuɣal d taɣbalut tazayezt ara yemudden afus i trebbaɛ n Mozilla akked ineflayen n umaḍal meṛṛa.
-faq-native-q = { $lang } mačči d tameslayt-iw tayemmat. Ttmeslayeɣ-tt acu kan txuṣṣ kra. Teḥwaǧem taɣect-iw ɣas akka?
-faq-native-a = Ih, nesra taɣect-ik! Kra n yiḥricen seg iswiyen n Common Voice d alqaḍ n ddeqs n isusruyen akken timacinin ad izmirent ad gzunt akken iwata taɣect n yal yiwen ticki yettmeslay.
-faq-firefox-q = Ahat aɛqal n taɣect ad yekcem albaɛḍ n wussan ar Firefox s useqdec n Common Voice?
-faq-firefox-a = Common Voice ɣur-s tazmert ur nesɛi talast, daɣen neslaḍ aseqdec n yigrudmawen n taɣect di ddeqs n yiseɣzanen n Mozilla, gar-asen Firefox.
-faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad t-yesɛu yimesli akken ad yettwaseqdec?
-faq-quality-a = Nebɣa taɣara tameslawt ara d-yemmager umsedday n uɛqal n taɣect di tmeddurt n yal ass. Nesra ihi tanḍa. Ayagi ad yesleɣmu amsedday akken ad yerr di leḥsab ddeqs n waddaden : ammeslay deg ugilal, ahiten neɣ lḥes n yimseddayen n yisezwayen.
-faq-hours-q = Acuɣer 10 000 n isragen n yimesla i nebɣa ad nsekles?
-faq-hours-a = Hatan meḥsub d amḍan n yisefka ilaqen ad yili akken ad nheggi taneɣruft n uselmed n unagraw n ufares n uɛqal n taɣect STT.
-faq-source-q = Ansa i d-ekkan iḍrisen i usekles n taɣect?
-faq-source-a1 = Tifyar akka tura kkant-d seg uttekki n yal yiwen akked idiwenniyen n yisura izuyaz am <italic>Tudert tecbeḥ</italic>.
-faq-source-a2 = Tifyar tiɣbula ad ten-tafeḍ <dataLink>deg ukaram-agi</dataLink> di GitHub.
+
+## Glossary
+
+glossary = Amawal
+localization = Asideg
 
 ## NotFound
 
@@ -449,6 +442,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Tutlayin-inek
 toward-next-goal = Ɣer iswi i d-iteddun
 stats = Tiddadanin
 you = Kečč
