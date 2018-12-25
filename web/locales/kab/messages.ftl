@@ -168,9 +168,13 @@ x-years-short =
         [one] Aseggas
        *[other] { $count } sgs
     }
+help-make-dataset = Mudd-aɣ-d ad nebnu tagrumma n yisefka n tɣara ifazen, yeldin i medden meṛṛa
+profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
+sign-up-account = Jerred akken ad teswuḍ amiḍan amiḍan
 
 ## Account Benefits
 
+benefits = Abaɣur
 
 ## What's public
 
