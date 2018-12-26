@@ -295,6 +295,7 @@ change-email-setings = Эл. пуштӑ ӗнерлевсенче, кӗмелли
 faq-title = Ыйту-хурав
 faq-what-cv-q = «Common Voice» - мӗн вӑл?
 faq-why-important-q = Мӗншӗн кирлӗ ку?
+faq-how-get-a = «Common Voice» пӗлӗм пуххине <licenseLink>CC0</licenseLink> лицензипе <datasetLink>Пӗлӗм пуххисем</datasetLink> страницӑран тиесе антарма пулать.  Унсӑр пуҫне унтан тата ытти пуххисене тиеме май пур.
 faq-why-mission-q = «Common Voice» Mozilla-н миссийӗн пайӗ пулнин сӑлтавӗ мӗнре?
 faq-do-want-native-q = Чӗлхе тӑван мар пулсан, эпӗ хуҫса калаҫсан, сире ман сассӑм пурпӗрех кирлӗ-и?
 faq-why-different-speakers-q = Кашни чӗлхешӗн ҫав тери нумай йышлӑ тӗрлӗ калаҫакан мӗншӗн кирлӗ?
