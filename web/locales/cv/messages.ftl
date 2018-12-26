@@ -175,9 +175,13 @@ sign-up-account = Регистрацилен
 
 ## Account Benefits
 
+benefits = Паха енӗсем
 
 ## What's public
 
+whats-public = Пурне те уҫӑ тени мӗн вӑл?
+email-not-public = Эл. пуштуна пурне те уҫӑ тумастпӑр.
+username-email-not-demographic = Ятупа эл. пушту уҫӑмлатнӑ пӗлемпе ҫыхӑнса тӑмӗ.
 
 ## Speak & Listen Shortcuts
 
@@ -274,7 +278,9 @@ off = Сӳнтернӗ
 on = Ҫутнӑ
 add-avatar-title = Профиле аватар хуш
 browse-file-title = Сӑнӳкерчӗк тиесе хӑпарт
+browse-file = Файл сӗтӗрсе яр е <browseWrap>суйла</browseWrap>
 connect-gravatar = Gravatar ҫыхӑнтар
+gravatar_not_found = Эл. пуштун gravatar ҫук.
 file_too_large = Суйланӑ файл ытлашши пысӑк
 manage-subscriptions = Ҫырӑннине ӗнерле
 email-already-used = Ҫак эл. пуштӑпа аккаунт пур ӗнтӗ
@@ -286,6 +292,11 @@ change-email-setings = Эл. пуштӑ ӗнерлевсенче, кӗмелли
 faq-title = Ыйту-хурав
 faq-what-cv-q = «Common Voice» - мӗн вӑл?
 faq-why-important-q = Мӗншӗн кирлӗ ку?
+faq-why-mission-q = «Common Voice» Mozilla-н миссийӗн пайӗ пулнин сӑлтавӗ мӗнре?
+faq-why-my-lang-q = Ман чӗлхе кунта мӗншӗн ҫук?
+faq-how-calc-hours-q = «Common Voice» сехетсене мӗнле шутлать?
+faq-why-account-q = Мӗншӗн регистрациленмелле?
+faq-is-account-public-q = Манӑн аккаунтри информаци пурне те уҫӑ-и?
 faq-how-privacy-q = Сас парнелекенсен харпӑрлӑхӗпе анонимлӑхне мӗнле тивӗҫтеретӗр?
 
 ## Glossary
@@ -442,6 +453,7 @@ days =
 
 your-languages = Чӗлхӳсем
 toward-next-goal = Тепӗр тӗллеве хирӗҫ
+stats = Статистика
 you = Эсӗ
 everyone = Пур ҫын
 
