@@ -171,12 +171,19 @@ x-years-short =
         [one] År
        *[other] { $count }y
     }
+sign-up-account = Registrera dig för ett konto
 
 ## Account Benefits
 
+benefits = Fördelar
 
 ## What's public
 
+whats-public = Vad är offentligt?
+email-not-public = Vi kommer inte göra din epost offentlig.
+recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
+username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
+username-email-not-demographic = Ditt användarnamn och epost kommer inte att kopplas till den publicerade datan.
 
 ## Speak & Listen Shortcuts
 
@@ -287,10 +294,22 @@ change-email-setings = Ändra ditt e-post via Inställningar under inloggningsid
 faq-title = Vanliga frågor och svar
 faq-what-cv-q = Vad är Common Voice?
 faq-why-important-q = Varför är det viktigt?
+faq-when-release-q = När kommer ni släppa Common Voice-data på andra språk?
+faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
+faq-is-goal-assistant-q = Är målet med Common Voice att bygga en röstassistent?
+faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
+faq-how-calc-hours-q = Hur beräknar Common Voice timmar?
+faq-where-src-from-q = Vart kommer källtexten ifrån?
+faq-why-not-ask-read-q = Varför frågar du inte folk att läsa från böcker eller Wikipedia-artiklar på olika språk?
+faq-why-account-q = Varför ska jag registrera mig för ett konto?
+faq-is-account-public-q = Är min kontoinformation offentlig?
 
 ## Glossary
 
+glossary = Ordlista
 localization = Översättning
+sst = Tal-till-text (STT)
+sst-explanation = Speech-to-Text (STT) -tekniken konverterar röstdata till text.
 
 ## NotFound
 
