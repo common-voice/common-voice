@@ -240,15 +240,15 @@ profile-form-age =
 profile-form-gender =
     .label = Арлӑх
 leaderboard-visibility =
-    .label = Рейтинг курӑнӑвӗ
-hidden = Пытарнӑ
-visible = Кӑтартнӑ
+    .label = Лидерсен хушшинче кӑтартни
+hidden = Пытармалла
+visible = Кӑтартмалла
 native-language =
     .label = Тӑван чӗлхе
 profile-form-submit-save = Çырса хур
 profile-form-submit-saved = Ҫырса хунӑ
-male = Арҫынла
-female = Хӗрарӑмла
+male = Арҫын
+female = Хӗрарӑм
 # Gender
 other = Урӑх
 why-profile-title = Мӗн тума кирлӗ профиль?
@@ -299,6 +299,9 @@ faq-how-get-a = «Common Voice» пӗлӗм пуххине <licenseLink>CC0</lic
 faq-why-mission-q = «Common Voice» Mozilla-н миссийӗн пайӗ пулнин сӑлтавӗ мӗнре?
 faq-do-want-native-q = Чӗлхе тӑван мар пулсан, эпӗ хуҫса калаҫсан, сире ман сассӑм пурпӗрех кирлӗ-и?
 faq-why-different-speakers-q = Кашни чӗлхешӗн ҫав тери нумай йышлӑ тӗрлӗ калаҫакан мӗншӗн кирлӗ?
+faq-why-different-speakers-a =
+    Сас пӗлӗм пуххисен чылайӑшӗ <articleLink>вӑтам класри арҫынсене</articleLink> чи лайӑхӑн ӑнланать, мӗншӗн тесен вӗсем ҫак пуххисене хутшӑнаҫҫӗ.
+    Шӑпах ҫавӑнпа пире тӗрлӗрен сассем кирлех!
 faq-why-my-lang-q = Ман чӗлхе кунта мӗншӗн ҫук?
 faq-how-calc-hours-q = «Common Voice» сехетсене мӗнле шутлать?
 faq-where-src-from-q = Ҫӑлкуҫ текст ӑҫтан килет?
