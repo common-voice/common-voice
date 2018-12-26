@@ -175,10 +175,17 @@ sign-up-account = Jerred akken ad teswuḍ amiḍan amiḍan
 ## Account Benefits
 
 benefits = Abaɣur
+keep-track = Ḍfeṛ lǧeṛṛa n usfari-ik i tutlayin anida tettekkad.
+compare-progress = Serwes asfari-ik akked wid n yimttekkiyen deg umaḍal.
 view-goals = Serwes asfari-ik ɣer yiswiyen-ik udmawanen akked wid n usenfaṛ.
+join-newsletter = Jerred ɣer tebdart-nneɣ n uzuzer akken ad teẓreḍ isallen ɣef usfari n usenfaṛ.
 
 ## What's public
 
+whats-public = D acu-tt telɣut tazayezt?
+email-not-public = Ur nettara ara imayl d azayez.
+recordings-and-locale-public = Amḍan n yikalasen akked tutlayin anida tettekkaḍ ad d-banen.
+username-optin-public = Tzemreḍ ad tferneḍ isem-ik n useqdac ma ad yili d azayez neɣ d abadni.
 
 ## Speak & Listen Shortcuts
 
@@ -282,10 +289,14 @@ file_too_large = Afaylu ittwafernen meqqer aṭas
 manage-subscriptions = Sefrekajerred
 email-already-used = Imayl ittuseqdec yakan i umiḍan nniḍen
 add-language = Rnu tutlayt
+change-email-setings = Beddel tansa-ik imayl deg yiɣewwaṛen, tigezmi Timagit n tuqqna
 
 ## FAQ
 
 faq-title = Isteqsiyen i yezgan ttuɣalen-d
+faq-what-cv-q = D acu-t Common Voice?
+faq-why-important-q = D acu yella d axater?
+faq-how-get-q = Amek zemreɣ ad d-awiɣ isefka n Common Voice?
 
 ## Glossary
 
