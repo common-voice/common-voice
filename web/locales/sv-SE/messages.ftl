@@ -308,6 +308,7 @@ faq-is-account-public-q = Är min kontoinformation offentlig?
 
 glossary = Ordlista
 localization = Översättning
+hours-recorded-explanation = Antalet röstinspelningstimmar vi hittills har samlat in.
 sst = Tal-till-text (STT)
 sst-explanation = Speech-to-Text (STT) -tekniken konverterar röstdata till text.
 
