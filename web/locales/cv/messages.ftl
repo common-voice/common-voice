@@ -8,6 +8,7 @@ email-input =
     .label = Эл. пуштӑ
 submit-form-action = Яр
 loading = Тиенет...
+email-opt-in-privacy = Эл. ҫыру илес тенипе эсӗ Mozilla ку инфорципе <privacyLink>Харпӑрлӑх политикине<privacyLink> тӑрӑх ӗҫленипе те килӗшетӗн.
 indicates-required = * Тивӗҫлӗ анана пӗлтерет
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -148,6 +149,7 @@ listen-paragraph = «Common Voice»-шӑн сасса тӗрӗслесси ҫы�
 listen-goal-text = Тӗрӗсленӗ сыпӑк
 hours-recorded = Ҫырса илнӗ сехет
 hours-validated = Тӗрӗсленӗ сехет
+voices-online = Шӑпах халь тетелте пулакан сассем
 todays-progress = Паян туса ҫитерни
 help-reach-goal = { $goal } ҫитме пулӑш
 read-terms-q = Пирӗн шывӗ-йӗркине вуласа тухрӑн-и?
@@ -169,6 +171,7 @@ x-years-short =
         [one] { $count } ҫул
        *[other] { $count } ҫул
     }
+sign-up-account = Регистрацилен
 
 ## Account Benefits
 
@@ -283,11 +286,14 @@ change-email-setings = Эл. пуштӑ ӗнерлевсенче, кӗмелли
 faq-title = Ыйту-хурав
 faq-what-cv-q = «Common Voice» - мӗн вӑл?
 faq-why-important-q = Мӗншӗн кирлӗ ку?
+faq-how-privacy-q = Сас парнелекенсен харпӑрлӑхӗпе анонимлӑхне мӗнле тивӗҫтеретӗр?
 
 ## Glossary
 
 glossary = Сӑмахлӑх
+localization = Локализаци
 sentence-collection = Пуплерӗш /предложени/ пуххи
+hours-recorded-explanation = Хальлӗхе сас ҫырса илнӗ сехет.
 de-identified = Анонимлатнӑ
 
 ## NotFound
