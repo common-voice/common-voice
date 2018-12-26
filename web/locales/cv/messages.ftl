@@ -285,6 +285,7 @@ faq-why-important-q = Мӗншӗн кирлӗ ку?
 
 glossary = Сӑмахлӑх
 sentence-collection = Пуплерӗш /предложени/ пуххи
+de-identified = Анонимлатнӑ
 
 ## NotFound
 
