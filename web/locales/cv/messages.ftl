@@ -8,6 +8,7 @@ email-input =
     .label = Эл. пуштӑ
 submit-form-action = Яр
 loading = Тиенет...
+indicates-required = * Тивӗҫлӗ анана пӗлтерет
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -273,7 +274,9 @@ browse-file-title = Сӑнӳкерчӗк тиесе хӑпарт
 connect-gravatar = Gravatar ҫыхӑнтар
 file_too_large = Суйланӑ файл ытлашши пысӑк
 manage-subscriptions = Ҫырӑннине ӗнерле
+email-already-used = Ҫак эл. пуштӑпа аккаунт пур ӗнтӗ
 add-language = Чӗлхе хуш
+change-email-setings = Эл. пуштӑ ӗнерлевсенче, кӗмелли идентификаторта улӑштарма пулать
 
 ## FAQ
 
