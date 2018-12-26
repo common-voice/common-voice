@@ -304,6 +304,7 @@ faq-why-important-a = 说话是人类相互沟通最自然的方式。而语音�
 faq-how-get-q = 我要如何获取 Common Voice 数据？
 faq-how-get-a = 可到 <datasetLink>Common Voice 数据集页面</datasetLink>下载，本数据集遵循<licenseLink>CC0</licenseLink> 进行授权。您也可以在该页面中下载其他几组公开可用的数据集。
 faq-when-release-q = 你们什么时候会发布其他语言的 Common Voice 数据？
+faq-when-release-a = 多语言版本的 Common Voice 数据集目前正由社区进行整理与维护。若想了解如何参与这个工作，请<contactLink>联系我们</contactLink>。我们的目标是在 2019 年 1 月发布数据集，之后会定期加入新语言与录音片段进行更新。迭代发布的周期仍待确定。
 faq-why-mission-q = 为什么 Common Voice 也是 Mozilla 使命的一部分？
 faq-why-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。这意味着在构建和测试语音技术时，应当满足更多语言、口音和人口特征的需求。Common Voice 将成为人人皆可使用的公共资源，Mozilla 团队和世界各地的开发者也已将其用于项目开发中。
 faq-what-cv-and-deepspeech-q = Common Voice 与 Deep Speech 有何不同？
@@ -333,6 +334,7 @@ faq-why-not-ask-read-q = 你为什么不让人们使用不同语言阅读书籍�
 faq-why-account-q = 为什么我要注册账号？
 faq-is-account-public-q = 我的账户信息是公开的吗？
 faq-how-privacy-q = 你们如何确保语音贡献者的匿名性和隐私？
+faq-how-privacy-a = 数据集中所有的录音片段都会抹除个人识别信息。若贡献者提供个人相关资料，该信息将在录音片段被合并到数据集提供下载前去识别化，且永远不会在他们的个人资料页面中公开。
 faq-what-determine-identity-q = 在 Common Voice 数据集中无法“确定说话者身份”是什么意思？
 
 ## Glossary
