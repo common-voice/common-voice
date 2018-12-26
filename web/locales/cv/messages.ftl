@@ -115,8 +115,8 @@ privacy = Харпӑрлӑх
 terms = Шывӗ-йӗрки
 cookies = Кукисем
 faq = Ыйту-хурав
-content-license-text = Кунти материалсене <licenseLink>Creative Commons licence</licenseLink> лицензипе усӑ курма пулать
-share-title = Сассине парнелекен, ҫырса илекен ҫынсене тупма пулӑш!
+content-license-text = Кунти материалсемпе <licenseLink>Creative Commons licence</licenseLink> лицензипе килешӳллӗн усӑ курма юрать
+share-title = Сас парнелекенсене тупма пулӑш!
 share-text = Машинсене чӑн ҫынсен сассисене ӑнлайнма пулӑшар, хӑвӑран сассӑра парнелӗр { $link }
 link-copied = Каҫҫине копиленӗ
 back-top = Ҫӳле таврӑн
@@ -171,16 +171,19 @@ x-years-short =
         [one] { $count } ҫул
        *[other] { $count } ҫул
     }
+profile-not-required = Хутшӑнмашкӑн аккаунт кирлӗ мар, анчах унпа ҫӑмӑлтарах
 sign-up-account = Регистрацилен
 
 ## Account Benefits
 
 benefits = Паха енӗсем
+join-newsletter = Хирӗҫ мар тӑк проект ҫинчен информаципе пӗлтерӳсене илме пирӗн эл. пуштӑ ушкӑнне йышӑн.
 
 ## What's public
 
 whats-public = Пурне те уҫӑ тени мӗн вӑл?
 email-not-public = Эл. пуштуна пурне те уҫӑ тумастпӑр.
+recordings-and-locale-public = Эсӗ ҫырса илнӗ миҫе сыпӑк тата эсӗ хутшӑнакан чӗлхесем пирки пурне те уҫӑ пулать
 username-email-not-demographic = Ятупа эл. пушту уҫӑмлатнӑ пӗлемпе ҫыхӑнса тӑмӗ.
 
 ## Speak & Listen Shortcuts
@@ -293,8 +296,11 @@ faq-title = Ыйту-хурав
 faq-what-cv-q = «Common Voice» - мӗн вӑл?
 faq-why-important-q = Мӗншӗн кирлӗ ку?
 faq-why-mission-q = «Common Voice» Mozilla-н миссийӗн пайӗ пулнин сӑлтавӗ мӗнре?
+faq-do-want-native-q = Чӗлхе тӑван мар пулсан, эпӗ хуҫса калаҫсан, сире ман сассӑм пурпӗрех кирлӗ-и?
+faq-why-different-speakers-q = Кашни чӗлхешӗн ҫав тери нумай йышлӑ тӗрлӗ калаҫакан мӗншӗн кирлӗ?
 faq-why-my-lang-q = Ман чӗлхе кунта мӗншӗн ҫук?
 faq-how-calc-hours-q = «Common Voice» сехетсене мӗнле шутлать?
+faq-where-src-from-q = Ҫӑлкуҫ текст ӑҫтан килет?
 faq-why-account-q = Мӗншӗн регистрациленмелле?
 faq-is-account-public-q = Манӑн аккаунтри информаци пурне те уҫӑ-и?
 faq-how-privacy-q = Сас парнелекенсен харпӑрлӑхӗпе анонимлӑхне мӗнле тивӗҫтеретӗр?
@@ -394,7 +400,7 @@ total-hours = Тӗрӗсленӗ сехет
 ## New Contribution
 
 action-click = Пус
-action-tap = Лекӗн
+action-tap = Пус
 contribute = Атя, хутшӑн
 listen = Итле
 skip = Сиктер
@@ -448,14 +454,26 @@ days =
         [one] Кун
        *[other] Кун
     }
+recordings =
+    { $count ->
+        [one] Ҫырав
+       *[other] Ҫырав
+    }
+validations =
+    { $count ->
+        [one] Тӗрӗслев
+       *[other] Тӗрӗслев
+    }
 
 ## Dashboard
 
 your-languages = Чӗлхӳсем
 toward-next-goal = Тепӗр тӗллеве хирӗҫ
+clips-you-recorded = Эсӗ ҫырса илнӗ сыпӑксем
 stats = Статистика
 you = Эсӗ
 everyone = Пур ҫын
+recorded-clips = Ҫырса илнӗ сыпӑксем
 
 ## Profile Delete
 
