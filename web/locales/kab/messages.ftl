@@ -175,6 +175,8 @@ sign-up-account = Jerred akken ad teswuḍ amiḍan amiḍan
 ## Account Benefits
 
 benefits = Abaɣur
+rich-data = Rnu abaɣur i yisefka i tettazneḍ s useddu n telɣut tadimugrafit tudrigt. Ad nedmen d  akken talqut-a ur tettwaqqan ara ɣer umaɣnu-ik send ad ten-walin medden.
+improve-audio = Talɣut n umaɣnu ad tesnerni taɣara n yisefka tameslawt akked tiseddi n uɛqal n taɣect.
 keep-track = Ḍfeṛ lǧeṛṛa n usfari-ik i tutlayin anida tettekkad.
 compare-progress = Serwes asfari-ik akked wid n yimttekkiyen deg umaḍal.
 view-goals = Serwes asfari-ik ɣer yiswiyen-ik udmawanen akked wid n usenfaṛ.
@@ -186,6 +188,8 @@ whats-public = D acu-tt telɣut tazayezt?
 email-not-public = Ur nettara ara imayl d azayez.
 recordings-and-locale-public = Amḍan n yikalasen akked tutlayin anida tettekkaḍ ad d-banen.
 username-optin-public = Tzemreḍ ad tferneḍ isem-ik n useqdac ma ad yili d azayez neɣ d abadni.
+demographic-deidentified = Talɣut tadimugrafit tafrayant (amedya: awtay, tuzuft, tutlayt akked ususru) ad tettwaqqen ɣer ikalasen-ik daɣen ur d-ttwaskanen ara i yimdanen ɣef umaɣnu-ik.
+username-email-not-demographic = Isem-ik n useqdac akked tansa-ik imayl ur d-ttwaqqanen ara ɣer yisefka-ik izuyaz.
 
 ## Speak & Listen Shortcuts
 
@@ -295,8 +299,13 @@ change-email-setings = Beddel tansa-ik imayl deg yiɣewwaṛen, tigezmi Timagit 
 
 faq-title = Isteqsiyen i yezgan ttuɣalen-d
 faq-what-cv-q = D acu-t Common Voice?
+faq-what-cv-a = Titiknulujiyin n uɛqal n taɣect wwin-d tagrawla deg temyigawt akked tmacinin, maca inagrawen yellan ɣlay-it daɣen ɣur-sen imawlan. Common Voice yella gar yirmuden n Mozilla i yettnadin ad tesnerni titiknulujiyin n uɛqal n taɣect, daɣen ad ten-terr ttwakcamen i yal yiwen. Common Voice d taffa n yisefka n taɣect tameqqrant ara yeǧǧen yal yiwen ad ten-yesseqdec i usnulfu n tneɣrufin s zreb, s wudem fessusen i yisnasen yesseqdacen taɣect, deg yal tutlayt.
 faq-why-important-q = D acu yella d axater?
 faq-how-get-q = Amek zemreɣ ad d-awiɣ isefka n Common Voice?
+faq-when-release-q = Melmi ara d-ffɣen yisefka n Common Voice deg tutlayin-nniḍen?
+faq-why-mission-q = Acuɣer Common Voice yettekka deg tuɣdaḍt n Mozilla?
+faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Speech?
+faq-is-goal-assistant-q = Iswi n Common Voice d timerna n yimaragen n taɣect?
 
 ## Glossary
 
