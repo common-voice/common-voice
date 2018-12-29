@@ -330,6 +330,7 @@ faq-why-not-ask-read-q = Acuɣer ur nessutur ara i yimdanen ad d-ɣren idlisen n
 faq-why-account-q = Acuɣer ilaq ad rnuɣ amiḍan?
 faq-is-account-public-q = Talut n umiḍan-iw ad tt-walin medden?
 faq-how-privacy-q = Amek ara tḍemneḍ asedreg akked uqadeṛ n tudert tabaḍnit n yimttekkiyen?
+faq-how-privacy-a = Meṛṛa tukkisin deg tegrumma ad ttwasefḍent seg telɣut ara yeǧǧen tummla n yimdanen. Ticki imttekki imudd-d talɣut tadimugrafit deg umaɣnu-is, timagit ad tettwakkes seg tukkisin ara d-yettwasidren, daɣen urgin ad tban s wudem azayez deg usebter n umaɣnu.
 faq-what-determine-identity-q = Acu i d anamek n ur zmireɣ ara "ad d-afeɣ timagit" n wid yettmeslayen deg tegrumma n yisefka n Common Voice?
 
 ## Glossary
