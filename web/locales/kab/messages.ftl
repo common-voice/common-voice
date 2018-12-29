@@ -315,19 +315,29 @@ faq-do-want-native-q = Nekk mačči d tameslayt-iw tayemmat maca ɣur-i kra n us
 faq-why-different-speakers-q = Acuɣer tesriḍ ddeqs n yisusruyen seg wid yettmeslayen yal tutlayt?
 faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
 faq-what-quality-q = D acu-t uswir n tɣara n umeslaw i yelaqen i tukkisin yellan deg taffa n yisefka?
+faq-what-quality-a = Nessaram d akken tagrumma n yisefka Common Voice ad terr udem n tɣara tameslawt ara d-yemmager unagraw n taɣect deg tilawt, ihi nesra ddeqs n ususru yemgaraden. Ɣer tama n terbaɛt yemmalen amgarad wessiɛen n wid yettmeslayen, tagrumma n yisefka s tɣara timeslit yemgaraden ad iselmed amsedday n uɛqal n taɣect amek ara yegzu taɣect deg tudert n yal ass, ama s udiwenni deg ugilal neɣ ṣṣut n tkeṛṛust. Ma yella tukkisin ttwafhament, ihi yelha i tegrumma n yisefka.
 faq-why-10k-hours-q = Acuɣer iswi n 10 000 n yisragen imeslawen?
+faq-why-10k-hours-a = Hatan meḥsub d amḍan n yisefka i ilaqen ad ilin i usnulfu n unagraw n uɛqal n taɣect s tɣara ifazen.
 faq-how-calc-hours-q = Amek i iḥitteb Common Voice isragen?
+faq-how-calc-hours-a = Nteg aktazal n teɣzi talemmast n yal akalas, sakin ad t-newwet ɣef umḍan n yikalasen deg tutlayin meṛṛa.
 faq-where-src-from-q = Ansa i d-kkan iḍrisen iɣbula?
+faq-why-not-ask-read-q = Acuɣer ur nessutur ara i yimdanen ad d-ɣren idlisen neɣ imagraden n Wikipedia deg tutlayin-nniḍen?
+faq-why-account-q = Acuɣer ilaq ad rnuɣ amiḍan?
+faq-is-account-public-q = Talut n umiḍan-iw ad tt-walin medden?
+faq-how-privacy-q = Amek ara tḍemneḍ asedreg akked uqadeṛ n tudert tabaḍnit n yimttekkiyen?
+faq-what-determine-identity-q = Acu i d anamek n ur zmireɣ ara "ad d-afeɣ timagit" n wid yettmeslayen deg tegrumma n yisefka n Common Voice?
 
 ## Glossary
 
 glossary = Amawal
 localization = Asideg
+localization-explanation = D akala-nneɣ i tsuqilt akked uṣeggem n ugbur i ddeqs n tutlayin.
 sentence-collection = Alqaḍ n tefyar
 sentence-collection-explanation = Lqeḍ-d tifyar n taɣult tazayezt, neɣ aru tifyar tmayutin ara yilin deg taɣult tazayezt.
 hours-recorded-explanation = Amḍan n yisragen n usukles n taɣect i d-nelqeḍ akka ar tura.
 sst = Aɛqal n taɣect (STT)
 sst-explanation = Titiknulujiyin n uɛqal n taɣect (STT) ad selketen taɣect ɣer uḍris.
+de-identified-explanation = D akala ara yeǧǧen asimgired gar telɣut tudmawant n yimttekkiyen akked tukkisin deg uheggi n tegrumma n yisefka.
 
 ## NotFound
 
