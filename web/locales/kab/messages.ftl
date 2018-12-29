@@ -311,6 +311,7 @@ faq-when-release-q = Melmi ara d-ffɣen yisefka n Common Voice deg tutlayin-nni�
 faq-why-mission-q = Acuɣer Common Voice yettekka deg tuɣdaḍt n Mozilla?
 faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Speech?
 faq-is-goal-assistant-q = Iswi n Common Voice d timerna n yimaragen n taɣect?
+faq-is-goal-assistant-a = Iswi n tegrumma n yisefka n Common Voice d asireg i yal yiwen deg umaḍal akken ad d-yesnulfu isnasen n uɛqal n taɣect, tifin n wid yettmeslayen, neɣ yal anaw n usnaw i yesseqdacen taɣect. Amarag n taɣect d yiwen seg yisnasen i yezemren ad yettwag s useqdec n tegrumma n yisefka.
 faq-do-want-native-q = Nekk mačči d tameslayt-iw tayemmat maca ɣur-i kra n ususru, teḥwaǧem taɣect-iw ɣas akka?
 faq-why-different-speakers-q = Acuɣer tesriḍ ddeqs n yisusruyen seg wid yettmeslayen yal tutlayt?
 faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
@@ -321,6 +322,10 @@ faq-why-10k-hours-a = Hatan meḥsub d amḍan n yisefka i ilaqen ad ilin i usnu
 faq-how-calc-hours-q = Amek i iḥitteb Common Voice isragen?
 faq-how-calc-hours-a = Nteg aktazal n teɣzi talemmast n yal akalas, sakin ad t-newwet ɣef umḍan n yikalasen deg tutlayin meṛṛa.
 faq-where-src-from-q = Ansa i d-kkan iḍrisen iɣbula?
+faq-where-src-from-a =
+    Aḍris-nneɣ aɣbalu gan-t imttekkiyen neɣ adiwenni seg yisura n taɣult tazayezt am <italic>tsekla taɣerfnat</italic>, <italic>iznan neɣ tamedyzet taɣerfant</italic>, <italic>timucuha</italic>...
+    
+    Tzemreḍ ad twaliḍ iɣbula n tefyar-nneɣ deg ukaram-a GitHub.
 faq-why-not-ask-read-q = Acuɣer ur nessutur ara i yimdanen ad d-ɣren idlisen neɣ imagraden n Wikipedia deg tutlayin-nniḍen?
 faq-why-account-q = Acuɣer ilaq ad rnuɣ amiḍan?
 faq-is-account-public-q = Talut n umiḍan-iw ad tt-walin medden?
@@ -335,8 +340,10 @@ localization-explanation = D akala-nneɣ i tsuqilt akked uṣeggem n ugbur i dde
 sentence-collection = Alqaḍ n tefyar
 sentence-collection-explanation = Lqeḍ-d tifyar n taɣult tazayezt, neɣ aru tifyar tmayutin ara yilin deg taɣult tazayezt.
 hours-recorded-explanation = Amḍan n yisragen n usukles n taɣect i d-nelqeḍ akka ar tura.
+hours-validated-explanation = Amḍan n yisragen n usekles n taɣect i yettwaqeblen xarṣum sɣur sin neɣ kraḍ n yiseqdacen i yefrnen "Ih". Ayagi yemmal-d asfari n yiswi n 10 000 n yisragen n usenfaṛ.
 sst = Aɛqal n taɣect (STT)
 sst-explanation = Titiknulujiyin n uɛqal n taɣect (STT) ad selketen taɣect ɣer uḍris.
+de-identified = Kkes timagit
 de-identified-explanation = D akala ara yeǧǧen asimgired gar telɣut tudmawant n yimttekkiyen akked tukkisin deg uheggi n tegrumma n yisefka.
 
 ## NotFound
