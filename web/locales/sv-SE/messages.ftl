@@ -180,10 +180,10 @@ benefits = Fördelar
 ## What's public
 
 whats-public = Vad är offentligt?
-email-not-public = Vi kommer inte göra din epost offentlig.
+email-not-public = Vi kommer inte göra din e-post offentlig.
 recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
 username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
-username-email-not-demographic = Ditt användarnamn och epost kommer inte att kopplas till den publicerade datan.
+username-email-not-demographic = Ditt användarnamn och e-post kommer inte att kopplas till den publicerade datan.
 
 ## Speak & Listen Shortcuts
 
