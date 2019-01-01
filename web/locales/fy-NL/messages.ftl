@@ -309,6 +309,10 @@ change-email-setings = Wizigje jo e-mailadres fia Ynstellingen ûnder Oanmelding
 
 faq-title = Faak stelde fragen
 faq-what-cv-q = Wat is Common Voice?
+faq-what-cv-a =
+    Spraakwerkenningstechnology is in revolúsje yn de manier wêrop wy omgean mei masinen, mar de op dit stuit beskikbere systemen binne djoer en ôfskerme. Common Voice is ûnderdiel fan Mozilla’s inisjatyf om spraakwerkenningstechnologyen better en foar elkenien tagonkliker te meitsjen. Common Voice is in enoarme wrâldwide database fan donearre stimmen, wêrmei't elkenien fluch en ienfâldich spraakstjoerde apps yn potinsjeel elke taal traine kin.
+    
+    Wy sammelje net allinnich spraakfragminten yn faak sprutsen talen, mar ek yn dy mei in lytser tal sprekkers. Troch in diverske gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken. Neist de Common Voice-gegevensset bouwe wy ek in iepenboarnce-spraakwerkenningsprogramma mei de namme Deep Speech.
 faq-why-important-q = Wêrom is it wichtich?
 faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
 faq-how-get-a = De gegevensset fan Common Voice is beskikber foar downloaden ûnder de <licenseLink>CC0</licenseLink>-lisinsje op <datasetLink>ús side mei gegevenssets</datasetLink>. Jo kinne ek ferskate oare iepenbier beskikbere gegevenssets fan dyselde side downloade.
