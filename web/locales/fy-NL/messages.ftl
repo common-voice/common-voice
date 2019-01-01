@@ -314,9 +314,14 @@ faq-what-cv-a =
     
     Wy sammelje net allinnich spraakfragminten yn faak sprutsen talen, mar ek yn dy mei in lytser tal sprekkers. Troch in diverske gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken. Neist de Common Voice-gegevensset bouwe wy ek in iepenboarnce-spraakwerkenningsprogramma mei de namme Deep Speech.
 faq-why-important-q = Wêrom is it wichtich?
+faq-why-important-a =
+    Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy't nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hoopje dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
+    
+    Om spraakwerkenning noch universeler te meitsjen, sammelje wy spraakfragminten yn faak sprutsen talen, krekt  sa as dy mei in lytsere populaasje fan sprekkers, dy't faak net stipe wurde troch kommersjele spraakwerkenningstsjinsten. Troch in ferskate gegevensset mei stimmen te publisearjen, kinne ûntwikkelers, ûndernimmers en folsleine spraakmienskippen sels dizze kleau oerbrêgje.
 faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
 faq-how-get-a = De gegevensset fan Common Voice is beskikber foar downloaden ûnder de <licenseLink>CC0</licenseLink>-lisinsje op <datasetLink>ús side mei gegevenssets</datasetLink>. Jo kinne ek ferskate oare iepenbier beskikbere gegevenssets fan dyselde side downloade.
 faq-when-release-q = Wannear jouwe jimme gegevens fan Common Voice yn oare talen frij?
+faq-when-release-a = De meartalige ferzje fan de gegevensset fan Common Voice wurdt op dit stuit mei help fan de mienskip bundele en opskjinne. As jo mear witte wolle oer stipe oan dit wurk, nim dan <contactLink>kontakt mei ús op</contactLink>. Wy mikke op ditstuit op in publikaasjedatum yn jannewaris 2019. Dêrnei sille wy periodyk de gegevensset bywurkje mei nije talen en spraakfragminten, as dizze beskikber komme. In iterative útjeftesyklus moat noch fêststeld wurde.
 faq-why-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
 faq-what-cv-and-deepspeech-q = Wat is it ferskil tusken Common Voice en Deep Speech?
 faq-is-goal-assistant-q = Is it doel fan Common Voice om in spraakassistint te bouwen?
