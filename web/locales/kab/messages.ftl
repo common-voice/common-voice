@@ -308,6 +308,7 @@ faq-why-important-a =
 faq-how-get-q = Amek zemreɣ ad d-awiɣ isefka n Common Voice?
 faq-how-get-a = Tagrumma n yisefka Common Voice tella i usider maca s uqadeṛ n tewtilin n turagt <licenseLink>CC0</licenseLink> deg <datasetLink>usebtere-nneɣ n tegrumma n yisefka</datasetLink>. Tzemreḍ daɣen ad tessidreḍ tigrummiwin-nniḍen tizuyaz seg usebter-nni.
 faq-when-release-q = Melmi ara d-ffɣen yisefka n Common Voice deg tutlayin-nniḍen?
+faq-when-release-a = Lqem s ddeqs n tutlayin n tagrumma n yisefka Common Voice ad tettwanbay daɣen ad tettwasizdeg akka tura sɣur tarbaɛt. MA tebɣiḍ ad teẓreḍ ɣef waya, <contactLink>nemes-aɣ-d</contactLink> ma ulac aɣilif. Nessaram ad d-ffɣen s wudem unṣib deg Yennayer 2019. Sakin ad d-nessuffuɣ ileqman si sya ɣer da s yikalasen imaynuten akken tutlayin-nniḍen, ticki heggant. Aql-aɣ ad nettnadi tawala neɣ imecwaṛen amek ara d-teffɣen ɣer zdat.
 faq-why-mission-q = Acuɣer Common Voice yettekka deg tuɣdaḍt n Mozilla?
 faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Speech?
 faq-is-goal-assistant-q = Iswi n Common Voice d timerna n yimaragen n taɣect?
@@ -332,6 +333,10 @@ faq-is-account-public-q = Talut n umiḍan-iw ad tt-walin medden?
 faq-how-privacy-q = Amek ara tḍemneḍ asedreg akked uqadeṛ n tudert tabaḍnit n yimttekkiyen?
 faq-how-privacy-a = Meṛṛa tukkisin deg tegrumma ad ttwasefḍent seg telɣut ara yeǧǧen tummla n yimdanen. Ticki imttekki imudd-d talɣut tadimugrafit deg umaɣnu-is, timagit ad tettwakkes seg tukkisin ara d-yettwasidren, daɣen urgin ad tban s wudem azayez deg usebter n umaɣnu.
 faq-what-determine-identity-q = Acu i d anamek n ur zmireɣ ara "ad d-afeɣ timagit" n wid yettmeslayen deg tegrumma n yisefka n Common Voice?
+faq-what-determine-identity-a =
+    Tagrumma n yisefka Common Voice d taɣbalut tazayezt yeldin i yemren ad tettwaseqdec i usleɣmu n ddeqs n yisefka i yisnasen yesseqdacen taɣect. Akken ad nessiǧhed taɣellist n yimttekkiyen, ad nessuter yal yiwen ara yessidren tagrumma n yisefka Common Voice akken ad iqadeṛ tabadnit n yimttekkiyen.
+    
+    Akk tukkisin ad tettwakkes seg-sent telɣut ara yeǧǧen tifin n wid yettmeslayen. Ticki tessidreḍ-d taffa n yisefka, ad tqebleḍ d akken ur tettaɛraḍeḍ ara ad tafeḍ timagit n yimttekkiyen. Aya yemmal-d d akken ur yessefk ara ad tafeḍ assaɣ gar tagrumma n yisefka akked telɣut tudmawant n yimttekki. Maca tzemreḍ ad tesqedceḍ tagrumma n yisefka akken ad tesnulfuḍ taneɣruft n uɛqal n taɣect, neɣ tigin n wassaɣ gar tagrumma n yisefka akked telɣut yellan deg-s.
 
 ## Glossary
 
