@@ -170,7 +170,7 @@ x-years-short =
     }
 help-make-dataset = Mudd-aɣ-d ad nebnu tagrumma n yisefka n tɣara ifazen, yeldin i medden meṛṛa
 profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
-sign-up-account = Jerred akken ad teswuḍ amiḍan amiḍan
+sign-up-account = Jerred akken ad tesɛuḍ amiḍan amiḍan
 
 ## Account Benefits
 
@@ -310,6 +310,7 @@ faq-how-get-a = Tagrumma n yisefka Common Voice tella i usider maca s uqadeṛ n
 faq-when-release-q = Melmi ara d-ffɣen yisefka n Common Voice deg tutlayin-nniḍen?
 faq-when-release-a = Lqem s ddeqs n tutlayin n tagrumma n yisefka Common Voice ad tettwanbay daɣen ad tettwasizdeg akka tura sɣur tarbaɛt. MA tebɣiḍ ad teẓreḍ ɣef waya, <contactLink>nemes-aɣ-d</contactLink> ma ulac aɣilif. Nessaram ad d-ffɣen s wudem unṣib deg Yennayer 2019. Sakin ad d-nessuffuɣ ileqman si sya ɣer da s yikalasen imaynuten akken tutlayin-nniḍen, ticki heggant. Aql-aɣ ad nettnadi tawala neɣ imecwaṛen amek ara d-teffɣen ɣer zdat.
 faq-why-mission-q = Acuɣer Common Voice yettekka deg tuɣdaḍt n Mozilla?
+faq-why-mission-a = Mozilla iswi-is d aḥraz n web yeldin, yettwakcamen i yal yiwen. Akken ad naweḍ lebɣi-a, yessefk ad nmudd ifecka am Common Voice i wid i d-yesnulfuyen. Titiknulujiyin n taɣect ttnulfuyent-d deg kra n yimeḍqan, numen daɣen d akken yessefk ad faṛsent seg-sent yimdanen meṛṛa. Nwal d akken ilaq ad nseddu ugar n tutlayin, isusruyen akked tsutiwin yemgaraden i usnulfu akked usekyed n titiknulujiyin n taɣect. Mozilla tebɣa Internet urmid, s tezmert yelhan. Ayagi ad d-yeglu s umuddu n unekcum ɣer yisefka n taɣect i wid i d-yesnulfuyen deg Web, akken ad izmiren ad ten-sqedcen deg yisenfaṛen imaynuten. Common Voice ad yuɣal d taɣbalut tazayezt ara imudden tallelt i yigrawen n Mozilla akked ineflayen deg umaḍal meṛṛa.
 faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Speech?
 faq-is-goal-assistant-q = Iswi n Common Voice d timerna n yimaragen n taɣect?
 faq-is-goal-assistant-a = Iswi n tegrumma n yisefka n Common Voice d asireg i yal yiwen deg umaḍal akken ad d-yesnulfu isnasen n uɛqal n taɣect, tifin n wid yettmeslayen, neɣ yal anaw n usnaw i yesseqdacen taɣect. Amarag n taɣect d yiwen seg yisnasen i yezemren ad yettwag s useqdec n tegrumma n yisefka.
