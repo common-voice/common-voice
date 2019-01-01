@@ -40,6 +40,7 @@ en = 英文
 eo = 世界語
 es = 西班牙文
 et = 愛沙尼亞文
+eu = 巴斯克語
 fa = 波斯文
 fi = 芬蘭文
 fo = 法羅文
@@ -76,6 +77,7 @@ pt-BR = 葡萄牙文（巴西）
 ro = 羅馬尼亞文
 ru = 俄文
 sah = 薩哈文
+sc = 薩丁尼亞語
 sk = 斯洛伐克文
 sl = 斯洛維尼亞文
 sq = 阿爾巴尼亞文
@@ -143,6 +145,7 @@ listen-paragraph = 驗證他人錄下的錄音片段，對 Common Voice 的使�
 listen-goal-text = 段錄音成功被驗證
 hours-recorded = 個小時的錄音
 hours-validated = 個小時已被驗證的錄音
+voices-online = 宜家在線嘅人聲
 todays-progress = 今日嘅進度
 read-terms-q = 睇咗我哋嘅條款未？
 ready-to-record = 準備好去獻聲未？
@@ -232,6 +235,7 @@ female = 女性
 other = 其他
 why-profile-title = 點解需要帳戶？
 why-profile-text = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
+avatar = 頭像
 goals = 目標
 settings = 設定
 edit-profile = 編輯個人帳戶
@@ -245,6 +249,7 @@ keep-me-posted =
     .label = 我想收到 Common Voice 的最新消息。
 accept-privacy = 我同意你依照 Mozilla 的<privacyLink>私隱保護政策</privacyLink>中描述的方式處理這些資料
 login-identity = 登入身分
+login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電郵訂閱
 download-profile = 下載我的數據
@@ -254,6 +259,10 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
+browse-file-title = 上傳圖片
+connect-gravatar = 連結到 Gravatar
+gravatar_not_found = 找不到您電郵所屬的 Gravatar
+file_too_large = 選擇的檔案太大
 add-language = 增加語言
 
 ## FAQ
@@ -398,10 +407,15 @@ share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
 
 ## Goals
 
+recordings =
+    { $count ->
+       *[other] 錄音
+    }
 
 ## Dashboard
 
 you = 您
+everyone = 所有人
 
 ## Profile Delete
 
