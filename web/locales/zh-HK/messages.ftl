@@ -411,6 +411,10 @@ share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
 
 ## Goals
 
+days =
+    { $count ->
+       *[other] 日
+    }
 recordings =
     { $count ->
        *[other] 錄音
@@ -423,6 +427,7 @@ toward-next-goal = 距離下一個目標
 stats = 統計
 you = 您
 everyone = 所有人
+validated-clips = 已被驗證的錄音
 
 ## Profile Delete
 
