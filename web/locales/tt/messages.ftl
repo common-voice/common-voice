@@ -311,14 +311,23 @@ faq-why-different-speakers-q = Ни өчен сездәге һәр телгә ш
 faq-why-my-lang-q = Ни өчен минем телем әле өстәлмәгән?
 faq-how-calc-hours-q = Common Voice сәгатьләрне ничек исәпли?
 faq-where-src-from-q = Чыганак текстлар каян килә?
+faq-why-not-ask-read-q = Ни өчен сез кешеләрдән төрле телләрдәге китаплар яки Википедия мәкаләләрен укуларын сорамыйсыз?
 faq-why-account-q = Ни өчен миңа аккаунт теркәргә кирәк?
 faq-is-account-public-q = Минем аккаунттагы мәгълүмат һәркемгә ачыкмы?
+faq-how-privacy-q = Үзләренең тавышларын иганә иткән кешеләрнең анонимлыгын һәм хосусыйлыгын сез ничек тәэмин итәсез?
+faq-what-determine-identity-q = Common Voice тупланмасындагы сөйләүчеләрнең кем икәнлеген минем билгели алмавым нәрсәне аңлата?
 
 ## Glossary
 
 glossary = Глоссарий
 localization = Локализация
+localization-explanation = Мәгълүматыбызны күп телләргә тәрҗемә итү һәм яраклаштыруга юнәлгән эшебез бу.
 sentence-collection = Җөмләләр тупланмасы
+sentence-collection-explanation = Җөмләләрне ачык лицензияле чыганаклардан туплау, яки яңаларны уйлап чыгарып, ачык лицензия белән нәшер итү.
+hours-recorded-explanation = Без туплаган тавыш язмаларының сәгатьләр саны.
+sst = Сөйләм-текст (Speech-to-text, STT)
+sst-explanation = Сөйләм-текст (Speech-to-text, STT) технологияләре тавышны текстка күчерә.
+de-identified = Анонимлаштырылган
 
 ## NotFound
 
@@ -456,6 +465,7 @@ share-title-new = Безгә күбрәк тавыш табарга <bold>ярд
 
 ## Goals
 
+streaks = көн рәттән
 days =
     { $count ->
         [one] Көн
