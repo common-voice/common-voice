@@ -300,7 +300,7 @@ change-email-setings = Beddel tansa-ik imayl deg yiɣewwaṛen, tigezmi Timagit 
 faq-title = Isteqsiyen i yezgan ttuɣalen-d
 faq-what-cv-q = D acu-t Common Voice?
 faq-what-cv-a = Titiknulujiyin n uɛqal n taɣect wwin-d tagrawla deg temyigawt akked tmacinin, maca inagrawen yellan ɣlay-it daɣen ɣur-sen imawlan. Common Voice yella gar yirmuden n Mozilla i yettnadin ad tesnerni titiknulujiyin n uɛqal n taɣect, daɣen ad ten-terr ttwakcamen i yal yiwen. Common Voice d taffa n yisefka n taɣect tameqqrant ara yeǧǧen yal yiwen ad ten-yesseqdec i usnulfu n tneɣrufin s zreb, s wudem fessusen i yisnasen yesseqdacen taɣect, deg yal tutlayt.
-faq-why-important-q = D acu yella d axater?
+faq-why-important-q = Acuɣer d axater?
 faq-why-important-a =
     Sumata taɣect d allal agaman n teywalt gar yimdanen, daɣen titiknulujiyin n taɣect gellunt-d s tefsas i yiselkimen akked yibenkan izirazen. Nebɣa ad nmudd i yineflayen allal i usnulfu n yisnasen n uɛqal n taɣect izaden, am yimsuqal s wakud ilaw akked imaragen umḍinen s tladna n taɣect. Maca akka tura, tuget n yisefka n taɣect ilaqen i usnulfu n wanaw-a n yisnasen ɣlay-it daɣen ɣur-sen imawlan-nsen. Nessaram d akken tagrumma n yisefka n Common Voice ad tmudd i yineflayen ayen sran akken ad d-snulfun daɣen ad erren tatiknulujit n taɣect tella deg tutlayt-nsen.
     
@@ -314,6 +314,7 @@ faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Spee
 faq-is-goal-assistant-q = Iswi n Common Voice d timerna n yimaragen n taɣect?
 faq-is-goal-assistant-a = Iswi n tegrumma n yisefka n Common Voice d asireg i yal yiwen deg umaḍal akken ad d-yesnulfu isnasen n uɛqal n taɣect, tifin n wid yettmeslayen, neɣ yal anaw n usnaw i yesseqdacen taɣect. Amarag n taɣect d yiwen seg yisnasen i yezemren ad yettwag s useqdec n tegrumma n yisefka.
 faq-do-want-native-q = Nekk mačči d tameslayt-iw tayemmat maca ɣur-i kra n ususru, teḥwaǧem taɣect-iw ɣas akka?
+faq-do-want-native-a = Ih, nebɣa ladɣa taɣect-ik! Yiwen seg yiswiyen n Common Voice d alqaḍ n ususru yemgaraden, akken ulac imdanen ara yettwazeglen deg yimeẓla n uɛqal n taɣect. Ayagi yemmal-d d akken imttekkiyen deg tutlayt ur yellin ara d tutlayt-nsen tayemmat d ayen ilaqen nezzeh.
 faq-why-different-speakers-q = Acuɣer tesriḍ ddeqs n yisusruyen seg wid yettmeslayen yal tutlayt?
 faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
 faq-what-quality-q = D acu-t uswir n tɣara n umeslaw i yelaqen i tukkisin yellan deg taffa n yisefka?
