@@ -147,6 +147,7 @@ hours-recorded = 個小時的錄音
 hours-validated = 個小時已被驗證的錄音
 voices-online = 宜家在線嘅人聲
 todays-progress = 今日嘅進度
+help-reach-goal = 幫我哋達到 { $goal }
 read-terms-q = 睇咗我哋嘅條款未？
 ready-to-record = 準備好去獻聲未？
 today = 今日
@@ -263,6 +264,7 @@ browse-file-title = 上傳圖片
 connect-gravatar = 連結到 Gravatar
 gravatar_not_found = 找不到您電郵所屬的 Gravatar
 file_too_large = 選擇的檔案太大
+email-already-used = 電子郵件地址已被使用
 add-language = 增加語言
 
 ## FAQ
@@ -271,6 +273,8 @@ faq-title = 常見問題
 
 ## Glossary
 
+glossary = 字彙
+localization = 本地化
 
 ## NotFound
 
@@ -414,6 +418,9 @@ recordings =
 
 ## Dashboard
 
+your-languages = 您的語言
+toward-next-goal = 距離下一個目標
+stats = 統計
 you = 您
 everyone = 所有人
 
