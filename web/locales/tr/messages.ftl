@@ -175,11 +175,19 @@ sign-up-account = Hesap açın
 ## Account Benefits
 
 benefits = Yararları
+improve-audio = Profil bilgileri, konuşma tanıma doğruluğunu eğitirken kullanılan ses verilerini iyileştirir.
+keep-track = Farklı dillerdeki ilerleme durumunuzu ve ölçümlerinizi takip edebilirsiniz.
+compare-progress = Katkılarınızı dünyanın her yerindeki diğer gönüllülerle karşılaştırabilirsiniz.
+view-goals = Kişisel hedeflerinize ve proje hedeflerine ne kadar yaklaştığınızı görebilirsiniz.
+join-newsletter = İsterseniz e-posta listemize katılarak projeyle ilgili gelişmelerden haberdar olabilirsiniz.
 
 ## What's public
 
 whats-public = Başkaları hangi bilgilerinizi görür?
 email-not-public = E-posta adresinizi hiç kimse göremez.
+recordings-and-locale-public = Yaptığınız kayıt sayısını ve katkıda bulunduğunuz dilleri başkaları görebilir.
+username-optin-public = Kullanıcı adınızı isterseniz gösterebilir isterseniz de anonim kalabilirsiniz.
+username-email-not-demographic = Kullanıcı adınız ve e-posta adresiniz, paylaşılan verilerle ilişkilendirilmeyecektir.
 
 ## Speak & Listen Shortcuts
 
@@ -247,7 +255,7 @@ female = Kadın
 # Gender
 other = Diğer
 why-profile-title = Neden profil oluşturmalıyım?
-why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
+why-profile-text = Kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
 dashboard = Pano
 build-profile = Profil oluştur
 avatar = Avatar
@@ -288,6 +296,11 @@ add-language = Dil ekle
 
 faq-title = Sıkça Sorulan Sorular
 faq-what-cv-q = Common Voice nedir?
+faq-why-important-q = Ne önemi var?
+faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
+faq-why-account-q = Neden hesap açayım?
+faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
+faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
 
 ## Glossary
 
@@ -430,6 +443,7 @@ share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 
 ## Goals
 
+streaks = Seriler
 days =
     { $count ->
         [one] Gün
@@ -449,6 +463,8 @@ validations =
 ## Dashboard
 
 your-languages = Dilleriniz
+clips-you-recorded = ses kaydettiniz
+clips-you-validated = ses doğruladınız
 stats = İstatistikler
 you = Siz
 everyone = Herkes
@@ -456,6 +472,8 @@ contribution-activity = Katkı Etkinliği
 top-contributors = En Çok Katkıda Bulunanlar
 recorded-clips = Kaydedilen ses
 validated-clips = Doğrulanan ses
+total-approved = Onaylanan toplam
+overall-accuracy = Genel doğruluk
 
 ## Profile Delete
 
