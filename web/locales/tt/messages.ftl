@@ -295,13 +295,29 @@ file_too_large = Сайланган файл артык зур
 manage-subscriptions = Язылуларны көйләү
 email-already-used = Әлеге эл. хат башка аккаунтта кулланыла инде
 add-language = Тел өстәү
+change-email-setings = Эл. хатыгызны Көйләүләр аша логин бүлегендә үзгәртү
 
 ## FAQ
 
 faq-title = Сорау-Җавап
+faq-what-cv-q = Нәрсә ул Common Voice?
+faq-why-important-q = Бу ни өчен мөһим?
+faq-how-get-q = Common Voice мәгълүматын мин ничек ала алам?
+faq-when-release-q = Башка телләрдәге Common Voice мәгълүматын сез кайчан нәшер итәчәксез?
+faq-why-mission-q = Common Voice ни өчен Mozilla миссиясенең өлеше булып тора?
+faq-what-cv-and-deepspeech-q = Common Voice һәм Deep Speech нәрсә белән аерыла?
+faq-is-goal-assistant-q = Common Voice'ның максаты тавышлы ярдәмче булдырумы?
+faq-why-different-speakers-q = Ни өчен сездәге һәр телгә шуның кадәр төрле сөйләүчеләр кирәк?
+faq-why-my-lang-q = Ни өчен минем телем әле өстәлмәгән?
+faq-how-calc-hours-q = Common Voice сәгатьләрне ничек исәпли?
+faq-where-src-from-q = Чыганак текстлар каян килә?
+faq-why-account-q = Ни өчен миңа аккаунт теркәргә кирәк?
+faq-is-account-public-q = Минем аккаунттагы мәгълүмат һәркемгә ачыкмы?
 
 ## Glossary
 
+glossary = Глоссарий
+localization = Локализация
 
 ## NotFound
 
