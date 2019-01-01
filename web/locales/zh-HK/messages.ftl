@@ -8,6 +8,7 @@ email-input =
     .label = 電郵
 submit-form-action = 提交
 loading = 載入中…
+indicates-required = * 表示必填欄位
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,6 +22,7 @@ ar = 阿拉伯文
 as = 阿薩姆文
 ast = 阿斯圖里亞斯文
 az = 亞塞拜然文
+bg = 保加利亞語
 bn = 孟加拉文
 br = 布里多尼文
 bxr = 布里亞特語
@@ -113,9 +115,7 @@ share-title = 幫我哋搵其他人一齊獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
 link-copied = 超連結已被複製
 back-top = 回到頁頂
-contribution-banner-text = 我們剛剛推出咗一個新嘅貢獻體驗
-contribution-banner-button = 去睇一下
-report-bugs-link = 幫手報告程式錯誤
+logout = 登出
 
 ## Home Page
 
@@ -143,9 +143,9 @@ listen-paragraph = 驗證他人錄下的錄音片段，對 Common Voice 的使�
 listen-goal-text = 段錄音成功被驗證
 hours-recorded = 個小時的錄音
 hours-validated = 個小時已被驗證的錄音
+todays-progress = 今日嘅進度
 read-terms-q = 睇咗我哋嘅條款未？
 ready-to-record = 準備好去獻聲未？
-all-languages = 所有語言
 today = 今日
 x-weeks-short =
     { $count ->
@@ -159,6 +159,12 @@ x-years-short =
     { $count ->
        *[other] 年
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -202,8 +208,6 @@ english = 英文
 
 ## ProfileForm
 
-profile-form-cancel = 離開表格
-profile-form-delete = 刪除帳戶
 profile-form-username =
     .label = 使用者名稱
 profile-form-language =
@@ -216,24 +220,23 @@ profile-form-gender =
     .label = 性別
 leaderboard-visibility =
     .label = 排行榜能見度
+hidden = 隱藏
+visible = 可見
 native-language =
     .label = 母語
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-profile-keep-data = 保留數據
-profile-delete-data = 刪除數據
 male = 男性
 female = 女性
 # Gender
 other = 其他
 why-profile-title = 點解需要帳戶？
 why-profile-text = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
-profile = 個人帳戶
+goals = 目標
+settings = 設定
 edit-profile = 編輯個人帳戶
-profile-create = 註冊帳戶
 profile-create-success = 成功建立帳戶！
 profile-close = 關閉
-profile-clear-modal = 清除您的帳戶資料後，您的錄音不會再和人口統計資料一起傳送給 Common Voice。
 profile-explanation = 使用您的個人帳戶可以保留您的進展，並幫助增加我們語音數據的準確度。
 thanks-for-account = 多謝您確認您的帳戶, 現在讓我們建立您的個人資料。
 why-demographic = 點解咁重要？
@@ -251,34 +254,14 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
+add-language = 增加語言
 
 ## FAQ
 
 faq-title = 常見問題
-faq-what-q = Common Voice 是什麼？
-faq-what-a = 語音識別技術可能會革命性地改變我們與機器互動的方式，但目前的系統不但昂貴，還是私有的系統。Common Voice 是一個讓語音識別技術能被任何人仕使用的計劃。大衆可以貢獻自己的聲音，打造一個誰都可以快速、簡單地用來訓練語音識別應用程式的大型數據庫。所有語音數據都會開放給開發者使用。
-faq-important-q = 點解咁重要？
-faq-important-a = 語音是自然、有人性的，也是最簡單、最自然的溝通方式。我們希望所有開發者都能打造超酷的東西，例如即時翻譯軟體，或語音行政助理等等。可惜現在目前還沒有足夠的公開資料去開發這些應用程式。我們希望 Common Voice 計劃能夠提供這個必要條件，讓開發者能大膽創新。
-faq-get-q = 我怎樣索取 Common Voice 的數據？
-faq-get-a = 這個數據集現可在我們的<downloadLink>下載分頁</downloadLink>依照 <licenseLink>CC-0</licenseLink>授權條款取得。
-faq-mission-q = 點解 Common Voice 係 Mozilla 的使命的一部分？
-faq-mission-a = Mozilla 致力保衛我們公開的互聯網，讓每一個人都可以使用。為了達到這個目標，我們透過 Common Voice 這樣的計劃來協助互聯網創作者。隨著採用語音技術的程式激增，我們相信語音技術應該平等地服務所有使用者。在打造與測試語音科技時，我們需要滿足更多語言、腔調、社群的需求。Mozilla 想看到一個健康、生氣勃勃的互聯網。我們需要令新一代的創作者能夠使用語音數據，寫出嶄新、非凡的專案。Common Voice 將會成為一套能夠幫助 Mozilla 與全球開發者們的公共資源。
-faq-native-q = { $lang } 唔係我的母語，所以我讀起來有口音，你哋仲想要我把聲？
-faq-native-a = 我們當然想要您的聲音！Common Voice 的其中一個目標就是去收集越來越多的不同腔調，讓電腦更能夠聽得懂<bold>每一個人</bold>所說的話。
-faq-firefox-q = 語音識別技術會不會透過 Common Voice 成爲火狐瀏覽器的一部分？
-faq-firefox-a = Common Voice 有無限的潛能，我們也正在 Firefox 等眾多 Mozilla 產品中探索語音介面的可能性。
-faq-quality-q = 錄音的質素要有幾好才可以使用？
-faq-quality-a = 我哋希望錄音的品質可以達到日常語音 -- 文字轉換引擎的品質。所以我們希望能有多元化的語音來源。這能令系統持續學習，處理不同環境下的語音時，例如背景中的談話、汽車噪音、風扇噪音，都能準確不誤。
-faq-hours-q = 為何目標是取得一萬小時的錄音？
-faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
-faq-source-q = 原文的文字來自哪裏？
-faq-source-a1 = 目前是透過貢獻者捐贈語料給我們，還有公開領域的電影腳本台詞（例如 <italic>It’s a Wonderful Life.</italic>）。
-faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我們的原始語句。
 
-## Profile
+## Glossary
 
-profile-why-title = 點解我要註冊帳戶？
-profile-why-content = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
 
 ## NotFound
 
@@ -412,3 +395,16 @@ listen-last-time-instruction = <playIcon></playIcon> 最後一個！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
+
+## Goals
+
+
+## Dashboard
+
+you = 您
+
+## Profile Delete
+
+keep = 保留
+remove = 移除
+profile-form-delete = 刪除帳戶
