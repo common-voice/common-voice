@@ -133,8 +133,11 @@ vote-yes = Ano
 vote-no = Ne
 toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
 speak-subtitle = Darujte svůj hlas
+speak-paragraph = Nahrávání záznamů hlasu je nedílnou součástí tvorby naší otevřené databáze. A pro některé i zábava.
 speak-goal-text = Počet nahrávek
 listen-subtitle = Pomozte nám ověřovat nahrávky
+listen-paragraph = Ověřování hlasových záznamů je pro projekt Common Voice také důležité. Zaposlouchejte se a pomozte nám vytvořit kvalitní veřejně přístupnou databázi.
+listen-goal-text = Klipů ověřeno
 hours-recorded = Hodin nahráno
 hours-validated = Hodin ověřeno
 voices-online = Aktivní hlasy
@@ -162,13 +165,28 @@ x-years-short =
         [few] { $count } roky
        *[other] { $count } let
     }
+help-make-dataset = Pomozte nám vytvořit velmi kvalitní a veřejně přístupnou databázi
+profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
+sign-up-account = Vytvořit účet
 
 ## Account Benefits
 
 benefits = Výhody
+rich-data = Vaše data mohou být ještě užitečnější, pokud nám poskytnete také nějaké anonymní demografické údaje. Před zveřejněním jakýchkoliv demografických dat ještě provedeme jejich úplné očištění od vašich osobních informací.
+improve-audio = Informace o profilu umožňují lépe klasifikovat audio data používaná při trénování systémů rozpoznávání hlasu.
+keep-track = Sledujte svůj postup při přispívání do různých jazyků.
+compare-progress = Porovnávejte se s ostatními přispěvateli z celého světa.
+view-goals = Porovnávejte svůj postup vůči osobním cílům i cílům projektu.
+join-newsletter = Volitelně se můžete přihlásit k odběru zpravodaje s novinkami o projektu.
 
 ## What's public
 
+whats-public = Co vše zveřejňujeme?
+email-not-public = Vaši e-mailovou adresu nezveřejníme.
+recordings-and-locale-public = Zveřejníme, kolik příspěvků a do jakých jazyků jste učinili.
+username-optin-public = Můžete si zvolit, jestli zveřejníme vaše uživatelské jméno.
+demographic-deidentified = Dobrovolně poskytnuté demografické údaje (tj. věk, pohlaví a přízvuk) jsou anonymizovány a nikdy nebudou zveřejněny na vašem profilu.
+username-email-not-demographic = Vaše uživatelské jméno a e-mail nebudou nijak propojovány s vámi poskytnutými hlasovými daty.
 
 ## Speak & Listen Shortcuts
 
@@ -249,6 +267,9 @@ profile-close = Zavřít
 profile-explanation = Sledujte svůj pokrok díky profilu a pomozte zpřesnit naše hlasová data.
 thanks-for-account = Děkujeme za potvrzení vašeho účtu, nyní si sestavte svůj profil.
 why-demographic = Proč na tomhle záleží?
+why-demographic-explanation = Anonymizovaná uživatelská data jako jsou věk, pohlaví a přízvuk pomáhají zlepšovat kvalitu audio dat pro trénování systémů rozpoznávání hlasu. Vaše uživatelské jméno a e-mail nebudou nikdy propojovány s vámi poskytnutými daty. Můžete také zvolit, jestli chcete zveřejnit vaše uživatelské jméno.
+keep-me-posted =
+    .label = Chtěl bych dostávat novinky o tom, co se v projektu Common Voice děje.
 accept-privacy = Souhlasím se zpracováním těchto informací jak je popsáno v zásadách Mozilly pro <privacyLink>ochranu osobních údajů</privacyLink>
 login-identity = Identita pro přihlášení
 login-signup = Přihlášení / Registrace
@@ -257,6 +278,7 @@ email-subscriptions = Odběr e-mailových zpráv
 download-profile = Stáhnout má data
 contribution-experience = Zkušenost s přispíváním
 skip-submission-feedback = Přeskočit zpětnou vazbu
+skip-submission-note = Poznámka: Pro změnu druhu vašich příspěvků budete stále muset zvolit mezi Mluvit a Poslouchat.
 off = Vypnuto
 on = Zapnuto
 add-avatar-title = Přidejte avatar na svůj profil
@@ -271,7 +293,21 @@ add-language = Přidat jazyk
 ## FAQ
 
 faq-title = Často kladené otázky
+faq-what-cv-q = Co je projekt Common Voice?
+faq-what-cv-a =
+    Technologie rozpoznávání hlasu mění způsob, jakým komunikujeme se stroji, avšak většina v současnosti dostupných systémů je drahá a uzavřená. Projekt Common Voice je součástí iniciativy společnosti Mozilla s cílem technologie rozpoznávání hlasu vylepšit a zpřístupnit pro všechny. Projekt Common Voice je rozsáhlou celosvětovou databází darovaných hlasových záznamů, umožňující v podstatě komukoliv rychle a jednoduše vytrénovat hlasové aplikace v takřka jakémkoliv jazyce.
+    
+    Nesbíráme pouze hlasové záznamy v široce používaných jazycích, nýbrž i v těch méně používaných. Zveřejnění bohaté hlasové databáze umožní vývojářům, podnikatelům a komunitám zaplnit tuto mezeru vlastními silami. Kromě projektu Common Voice vytváříme také otevřený systém rozpoznávání hlasu nazvaný Deep Speech.
 faq-why-important-q = Proč je to důležité?
+faq-why-important-a =
+    Lidský hlas je mnohdy nejpřirozenějším způsobem mezilidské komunikace a hlasové technologie přinášejí pohodlí tohoto způsobu komunikace do našich počítačů a mobilních zařízení. Chceme tedy umožnit vývojářům tvorbu skvělých hlasových aplikací, jako například překladače a hlasem ovládané digitální asistenty. Ale v současné době je většina hlasových dat potřebných pro tvorbu podobných aplikací velmi drahá či přímo nedostupná. Doufáme však, že projekt Common Voice dá vývojářům to, co potřebují, aby vytvořili podobné inovativní technologie i ve svém jazyce.
+    
+    Abychom technologie rozpoznávání hlasu více rozšířili, sbíráme hlasové záznamy v široce rozšířených jazycích stejně jako v jazycích s menším počtem mluvčích, často nepokrytých komerčními systémy rozpoznávání hlasu. Zveřejnění rozsáhlé databáze hlasových záznamů umožní vývojářům, podnikatelům i celým komunitám zaměřeným na technologie rozpoznávání hlasu zaplnit tuto mezeru vlastními silami.
+faq-how-get-q = Jak mohu získat data projektu Common Voice?
+faq-how-get-a = Databáze projektu Common Voice je k dispozici ke stažení pod licencí <licenseLink>CC0</licenseLink> na <datasetLink>stránce Datasety</datasetLink>. Z této stránky si můžete stáhnout také několik jiných veřejně dostupných databází.
+faq-when-release-q = Kdy zveřejníte data projektu Common Voice i v dalších jazycích?
+faq-why-mission-q = Proč je projekt Common Voice součástí projektů společnosti Mozilla?
+faq-what-cv-and-deepspeech-q = Jaký je rozdíl mezi projekty Common Voice a Deep Speech?
 faq-do-want-native-q = Nejsem rodilý mluvčí a mluvím s přízvukem, chcete i tak můj hlas?
 faq-why-10k-hours-a = Je to počet hodin potřebných k natrénování produkčního systému pro převod hlasu na text.
 
@@ -279,6 +315,7 @@ faq-why-10k-hours-a = Je to počet hodin potřebných k natrénování produkčn
 
 glossary = Slovník
 localization = Lokalizace
+sentence-collection = Sbírka vět
 
 ## NotFound
 
@@ -414,6 +451,7 @@ days =
 
 ## Dashboard
 
+your-languages = Vaše jazyky
 stats = Statistiky
 you = Vy
 everyone = Všichni
