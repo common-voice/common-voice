@@ -184,6 +184,12 @@ benefits = Előnyök
 
 ## What's public
 
+whats-public = Mi nyilvános?
+email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
+recordings-and-locale-public = A felvételei száma, és a nyelvek amikben Ön közreműködik, nyilvánosak lesznek.
+username-optin-public = Kiválaszthatja, hogy a felhasználó neve nyilvános vagy privát legyen.
+demographic-deidentified = A benyújtott demográfiai adatok (pl. kor, nem, nyelv és akcentus), hangadatokból nem azonosíthatóak, és soha nem lesznek nyilvánosak a profilján.
+username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
 
 ## Speak & Listen Shortcuts
 
@@ -293,6 +299,10 @@ change-email-setings = Módosítsa az e-mail beállításait a Beállításokban
 
 faq-title = Gyakran Ismételt Kérdések
 faq-what-cv-q = Mi a Common Voice?
+faq-why-important-q = Ez miért fontos?
+faq-where-src-from-q = Honnan származik a forrásszöveg?
+faq-why-account-q = Miért kellene fiókot regisztrálnom?
+faq-is-account-public-q = A fiókinformációim nyilvánosak?
 
 ## Glossary
 
