@@ -322,6 +322,7 @@ faq-why-different-speakers-a =
     Tuget n taffiwin n yisefka n taɣect bnant ɣef kra n tdimugrafin, ayen i d-yeglan s kra n usmenyef i  <articleLink> irgazen d tneɣrit talemmast</articleLink>. Isusruyen akked tutlayin ur d-nettban ara  s waṭas d tid n yimdanen yuɣalen yakan deg rrif. Ihi, deg ṭaqa, timacinin ur zmirent ara ad ɛeqlent tuɣac n tlawin.
     Ɣef aya i nebɣa ddeqs n yisusruyen d yimdanen deg taffa-nneɣ n yisefka.
 faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
+faq-why-my-lang-a = Mozilla ur tferren ur tetteg maḥyaf gar tutlayin. Common Voice tqeddec deg-s terbaɛt n yimdanen seg umaḍal meṛṛa, maca laqen <multilangLink>ddeqs n yimecwaṛen i tmerna n tutlayt</multilangLink> daɣen ad yizmir umdan ad d-yelqeḍ tifyar. Deg tazwara, yessefk ad yettwasideg meṛṛa usmel web n Common Voice. Sakin, nesra ddeqs n yiḍrisen ilelliyen akken imdanen ad izmiren ad ten-id-ɣren. Ticki ihegga waya, tutlayt ad tekker deg Common Voice, daɣen imttekkiyen ad izmiren ad skelsen neɣ ad sneqden ikalasen.
 faq-what-quality-q = D acu-t uswir n tɣara n umeslaw i yelaqen i tukkisin yellan deg taffa n yisefka?
 faq-what-quality-a = Nessaram d akken tagrumma n yisefka Common Voice ad terr udem n tɣara tameslawt ara d-yemmager unagraw n taɣect deg tilawt, ihi nesra ddeqs n ususru yemgaraden. Ɣer tama n terbaɛt yemmalen amgarad wessiɛen n wid yettmeslayen, tagrumma n yisefka s tɣara timeslit yemgaraden ad iselmed amsedday n uɛqal n taɣect amek ara yegzu taɣect deg tudert n yal ass, ama s udiwenni deg ugilal neɣ ṣṣut n tkeṛṛust. Ma yella tukkisin ttwafhament, ihi yelha i tegrumma n yisefka.
 faq-why-10k-hours-q = Acuɣer iswi n 10 000 n yisragen imeslawen?
@@ -334,6 +335,7 @@ faq-where-src-from-a =
     
     Tzemreḍ ad twaliḍ iɣbula n tefyar-nneɣ deg ukaram-a GitHub.
 faq-why-not-ask-read-q = Acuɣer ur nessutur ara i yimdanen ad d-ɣren idlisen neɣ imagraden n Wikipedia deg tutlayin-nniḍen?
+faq-why-not-ask-read-a = Akken ad neḍmen afellay n useqdec deg tegrumma n yisefka n Common Voice, negzem-itt deg ṛṛay ad nmudd kan tasiregt n uḍris aɣbalu s turagt Creative Common (cc0). Aseqdec n turagt cc0 ad yerr alqaḍ n yiḍrisen yewɛer ugar, maca ad yeḍmen d akken sekra win ara yesqedcen tagrumma n yisefka mebla aeḥreṣ neɣ tasiregt sɣur Mozilla. Rnu ɣef waya, nebɣa d akken tagrumma n yisefka n ddeqs n tutlayin ad tenfeɛ meṛṛa, ama d imnadiyen, tisdawiyin, tikebbaniyin startup, inabaḍen, neɣ tuddsiwin akked wid iḥemmlen aḥric-a.
 faq-why-account-q = Acuɣer ilaq ad rnuɣ amiḍan?
 faq-is-account-public-q = Talut n umiḍan-iw ad tt-walin medden?
 faq-how-privacy-q = Amek ara tḍemneḍ asedreg akked uqadeṛ n tudert tabaḍnit n yimttekkiyen?
