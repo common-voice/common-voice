@@ -178,6 +178,8 @@ benefits = Onurak
 
 ## What's public
 
+whats-public = Zer da Publikoa?
+email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
 
 ## Speak & Listen Shortcuts
 
@@ -286,13 +288,23 @@ change-email-setings = Aldatu zure e-posta Hobespenetako "Saioa hasteko identita
 ## FAQ
 
 faq-title = Ohiko galderak
+faq-what-cv-q = Zer da Common Voice?
 faq-why-important-q = Zergatik da garrantzitsua?
+faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
+faq-why-different-speakers-q = Zergatik behar ditugu hainbeste hizlari desberdin hizkuntzako?
+faq-why-my-lang-q = Zergatik ez da nire hizkuntza hemen agertzen?
+faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
+faq-where-src-from-q = Zein da testuaren iturria?
+faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
+faq-is-account-public-q = Nire kontuko informazioa publikoa da?
 
 ## Glossary
 
 glossary = Glosarioa
 localization = Lokalizazioa
 sentence-collection = Esaldiak biltzea
+sst = Speech-to-text (STT)
+sst-explanation = Speech-to-text (STT) teknologiek ahots datuak, testu bihurtzen dituzte.
 
 ## NotFound
 
