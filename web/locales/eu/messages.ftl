@@ -168,6 +168,8 @@ x-years-short =
         [one] { $count } urte
        *[other] { $count } urte
     }
+help-make-dataset = Lagun gaitzazu kalitatezko datu-sorta ireki bat sortzen
+profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 sign-up-account = Sortu kontu bat
 
 ## Account Benefits
