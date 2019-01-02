@@ -176,6 +176,8 @@ sign-up-account = Δημιουργία λογαριασμού
 ## Account Benefits
 
 benefits = Οφέλη
+keep-track = Παρακολουθήστε την πρόοδο και τους δείκτες σας για πολλαπλές γλώσσες.
+compare-progress = Δείτε πώς συγκρίνεται η πρόοδός σας με άλλους εθελοντές απ' όλο τον κόσμο.
 
 ## What's public
 
@@ -285,6 +287,7 @@ file_too_large = Το επιλεγμένο αρχείο είναι πολύ με
 manage-subscriptions = Διαχείριση συνδρομών
 email-already-used = Το email χρησιμοποιείται ήδη για διαφορετικό λογαριασμό
 add-language = Προσθήκη γλώσσας
+change-email-setings = Αλλάξτε το email σας μέσω των ρυθμίσεων, στην Ταυτότητα σύνδεσης
 
 ## FAQ
 
@@ -297,6 +300,7 @@ faq-why-mission-q = Γιατί το Common Voice είναι μέρος της α
 faq-is-goal-assistant-q = Είναι στόχος του Common Voice η ανάπτυξη μιας φωνητικής βοηθού;
 faq-why-different-speakers-q = Γιατί χρειάζεστε πολλούς και διαφορετικούς ομιλητές ανά γλώσσα;
 faq-why-my-lang-q = Γιατί δεν περιλαμβάνεται ακόμη η γλώσσα μου;
+faq-what-quality-q = Ποιο είναι το απαιτούμενο επίπεδο ποιότητας φωνής για ένα κλιπ φωνής που θα χρησιμοποιηθεί στο σύνολο δεδομένων;
 faq-how-calc-hours-q = Πώς υπολογίζει το Common Voice τις ώρες;
 faq-where-src-from-q = Από πού προέρχεται το αρχικό κείμενο;
 faq-why-account-q = Γιατί να δημιουργήσω λογαριασμό;
@@ -311,6 +315,7 @@ localization-explanation = Αυτή είναι η διαδικασία μας γ
 sentence-collection = Συλλογή προτάσεων
 hours-recorded-explanation = Οι ώρες ηχογραφήσεων φωνής που έχουμε συλλέξει μέχρι στιγμής.
 sst = Ομιλία-σε-κείμενο (STT)
+sst-explanation = Οι τεχνολογίες ομιλία-σε-κείμενο (STT) μετατρέπουν τα δεδομένα φωνής σε κείμενο.
 
 ## NotFound
 
