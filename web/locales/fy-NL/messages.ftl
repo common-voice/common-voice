@@ -331,6 +331,9 @@ faq-is-goal-assistant-a = It doel fan de Common Voice-gegevensset is om elkenien
 faq-do-want-native-q = Ik bin in net-memmetaalsprekker en ik sprek mei in aksint. Wolle jimme dochs myn stim?
 faq-do-want-native-a = Ja, wy wolle foaral jo stim! Underdiel fan it doel fan Common Voice is om safolle mooglik ferskate aksinten te sammeljen, sadat spraakwerkenningstsjinsten foar elkenien like goed wurkje. Dit betsjut dat donaasjes fan net-memmetaalsprekkers bysûnder wichtich binne.
 faq-why-different-speakers-q = Wêrom hawwe jimme sa folle ferskillende sprekkers per taal nedich?
+faq-why-different-speakers-a =
+    De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy't faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy't al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
+    Dit is de reden wêrom wy fariaasje yn ús spraakdatabase wolle!
 faq-why-my-lang-q = Wêrom sit myn taal der noch net by?
 faq-how-calc-hours-q = Hoe berekkenet Common Voice de oeren?
 faq-where-src-from-q = Wêr komt de boarnetekst fuort?
