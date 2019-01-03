@@ -354,6 +354,10 @@ faq-is-account-public-q = Binne myn accountgegevens iepenbier?
 faq-how-privacy-q = Hoe garandearje jimme de anonimiteit en privacy fan de persoanen dy't harren stimmen donearre hawwe?
 faq-how-privacy-a = Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifiesearbere gegevens. Wannear in meiwurker demografyske gegevens fia syn of har profyl ferstrekt, wurdt dy ynformaasje út de spraakfragminten fuortsmiten eardat dizze yn de gegevensset bundele wurdt foar downloaden en wurdt dy ynformaasje nea iepenbier makke op syn of har profylside.
 faq-what-determine-identity-q = Wat betsjut it dat ik “de identiteit” fan sprekkers yn de gegevensset fan Common Voice net “bepale kin”?
+faq-what-determine-identity-a =
+    De Common Voice-gegevensset is in frij tagonklike en iepenbiere boarne dy't brûkt wurde kin om in breed skala oan spraakstjoerde tapassingen te trainen. Om de feilichheid fan ús meiwurkers te beskermen, freegje wy elkenien dy't de Common Voice-gegevensset downloadt om de privacy fan de meiwurkers te respektearjen.
+    
+    Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear't jo de gegevensset downloade, geane jo dermei akkoard net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy't al yn de gegevensset stiet.
 
 ## Glossary
 
