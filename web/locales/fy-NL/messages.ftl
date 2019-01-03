@@ -335,16 +335,25 @@ faq-why-different-speakers-a =
     De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy't faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy't al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
     Dit is de reden wêrom wy fariaasje yn ús spraakdatabase wolle!
 faq-why-my-lang-q = Wêrom sit myn taal der noch net by?
+faq-why-my-lang-a = Mozilla kiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy't minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne.
+faq-what-quality-q = Hokker lûdskwaliteitsnivo is nedich foar in spraakfragmint om yn de gegevensset brûkt wurde te kinnen?
+faq-what-quality-a = Wy wolle dat de Common Voice-gegevensset de audiokwaliteit wjerspegelet dy't yn spraak-nei-tekst-engine yn it wyld hearre sil, dus wy binne op syk nei ôfwikseling. Neist in fariearre sprekkersmienskip leart in gegevensset mei ferskate audiokwaliteiten de spraak-nei-tekst-engine om ferskate libbensechte situaasjes oan te kinnen, fan achtergrûnlûd oant autolawaai. Sa lang jo spraakopname begryplik is, moat dizze goed genôch wêze foar de gegevensset.
+faq-why-10k-hours-q = Wêrom is de doelstelling foar lûdsopnamen 10.000 oer per taal?
+faq-why-10k-hours-a = Dit is ûngefear it oantal nedige oeren om in operasjoneel spraak-nei-tekst-systeem te trainen.
 faq-how-calc-hours-q = Hoe berekkenet Common Voice de oeren?
+faq-how-calc-hours-a = Wy berekkenje de oeren troch de gemiddelde lingte fan elke opname te skatten en ferfolgens dat oantal te fermannichfâldigjen mei it totale oantal opnamen yn alle talen.
 faq-where-src-from-q = Wêr komt de boarnetekst fuort?
 faq-where-src-from-a =
     Us boarnetekst bestiet út orizjinele donaasjes fan dielnimmers en sinnen út iepenbiere filmscripts lykas <italic>It's a Wonderful Life</ italic>.
     
     Jo kinne ús boarnesinnen besjen yn dizze GitHub-map.
 faq-why-not-ask-read-q = Wêrom freegje jimme net gewoan oan minsken om yn ferskillende talen út boeken of Wikipedia-artikelen te lêzen?
+faq-why-not-ask-read-a = Om de Common Voice-gegevensset sa nuttich mooglik te meitsjen, hawwe wy besletten om allinnich boarnetekst ta te stean dy't beskikber is ûnder in Creative Commons (CC0)-lisinsje. It gebrûk fan de CC0-standert betsjut dat it swierder is om boarnetekst te finen en te sammeljen, mar elkenien kin de resultearjende spraakgegevens brûke sûnder brûksbeheiningen of tastimming fan Mozilla. Uteinlik wolle wy de meartalige gegevensset sa nuttich mooglik meitsje foar elkenien, ynklusyf ûndersikers, universiteiten, start-ups, oerheden, sosjale doelgroepen en hobbyisten.
 faq-why-account-q = Wêrom soe ik in account oanmeitsje?
 faq-is-account-public-q = Binne myn accountgegevens iepenbier?
 faq-how-privacy-q = Hoe garandearje jimme de anonimiteit en privacy fan de persoanen dy't harren stimmen donearre hawwe?
+faq-how-privacy-a = Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifiesearbere gegevens. Wannear in meiwurker demografyske gegevens fia syn of har profyl ferstrekt, wurdt dy ynformaasje út de spraakfragminten fuortsmiten eardat dizze yn de gegevensset bundele wurdt foar downloaden en wurdt dy ynformaasje nea iepenbier makke op syn of har profylside.
+faq-what-determine-identity-q = Wat betsjut it dat ik “de identiteit” fan sprekkers yn de gegevensset fan Common Voice net “bepale kin”?
 
 ## Glossary
 
