@@ -175,11 +175,15 @@ sign-up-account = Sortu kontu bat
 ## Account Benefits
 
 benefits = Onurak
+keep-track = Hizkuntza desberdinetan egiten dituzun aurrerapenen eta estatistiken berri izan.
+compare-progress = Ikusi zure aurrerapenak munduan zehar dauden beste laguntzaileenekin konparatuta.
+view-goals = Ikusi zure aurrerapenak helburu pertsonalekiko eta proiektuko helburuekiko.
 
 ## What's public
 
 whats-public = Zer da Publikoa?
 email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
+username-optin-public = Zure erabiltzaile-izena publikoa edo anonimoa izatea aukera dezakezu.
 
 ## Speak & Listen Shortcuts
 
@@ -291,10 +295,10 @@ faq-title = Ohiko galderak
 faq-what-cv-q = Zer da Common Voice?
 faq-why-important-q = Zergatik da garrantzitsua?
 faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
+faq-why-mission-q = Zergatik da Common Voice  Mozilla misioaren parte?
 faq-why-different-speakers-q = Zergatik behar ditugu hainbeste hizlari desberdin hizkuntzako?
 faq-why-my-lang-q = Zergatik ez da nire hizkuntza hemen agertzen?
 faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
-faq-where-src-from-q = Zein da testuaren iturria?
 faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
 faq-is-account-public-q = Nire kontuko informazioa publikoa da?
 
