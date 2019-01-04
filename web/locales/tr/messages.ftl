@@ -298,6 +298,9 @@ faq-title = Sıkça Sorulan Sorular
 faq-what-cv-q = Common Voice nedir?
 faq-why-important-q = Ne önemi var?
 faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
+faq-why-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
+faq-why-my-lang-q = Neden dilim henüz eklenmedi?
+faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
 faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
@@ -463,6 +466,7 @@ validations =
 ## Dashboard
 
 your-languages = Dilleriniz
+toward-next-goal = Sonraki hedef için kalan
 clips-you-recorded = ses kaydettiniz
 clips-you-validated = ses doğruladınız
 stats = İstatistikler
