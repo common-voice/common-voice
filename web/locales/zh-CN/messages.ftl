@@ -325,11 +325,11 @@ faq-why-10k-hours-q = 为什么每种语言均有 10,000 小时的有效音频�
 faq-why-10k-hours-a = 这是训练出可供利用的语音转文字系统所需的大约小时数。
 faq-how-calc-hours-q = Common Voice 如何计算小时数？
 faq-how-calc-hours-a = 我们通过估算每条录音的平均长度来计算小时数，并乘以所有语言录音总数来计算。
-faq-where-src-from-q = 原始文本来自哪里？
-faq-where-src-from-a =
+faq-where-src-from-2-q = 原始文本来自哪里？
+faq-where-src-from-2-a =
     我们的原始文本由原创贡献者的捐赠和来自公共领域电影剧本的对话组成，例如 <italic>It’s a Wonderful Life</italic>。
     
-    您可以在 GitHub 文件夹中查看我们的原始语句。
+    您可以在 <githubLink>GitHub 文件夹</githubLink>中查看我们的原始语句。
 faq-why-not-ask-read-q = 你为什么不让人们使用不同语言阅读书籍或维基百科文章？
 faq-why-not-ask-read-a = 为了保证 Common Voice 数据集的可用性，我们决定仅接受在知识共享“无著作权（CC0）”许可下提供的原始文本。使用 CC0 协议意味着寻找和收集原始文本更加困难，但这样可让任何人在无使用限制且毋须 Mozilla 的授权下使用语音数据。总之，我们希望让每个人都能用上这个多语言数据集，包括研究人员、大学、初创公司、政府、社会组织和业余爱好者。
 faq-why-account-q = 为什么我要注册账号？
