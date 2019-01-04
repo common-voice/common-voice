@@ -191,6 +191,7 @@ view-goals = Pśirownajśo swój póstup z wósobinskimi a projektowymi celami.
 whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
 username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
+username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Speak & Listen Shortcuts
 
@@ -311,17 +312,20 @@ faq-is-goal-assistant-q = Jo cel Common Voice, głosowy asistent napóraś?
 faq-do-want-native-q = Njejsom maminorěcny a powědam z akcentom, cośo mój głos?
 faq-why-different-speakers-q = Cogodla trjebaśo wjele rozdźělnych powědarjow na rěc?
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
+faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w datowej sajźbje wužywał?
 faq-why-10k-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědanje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
 faq-where-src-from-2-q = Wótkul žrědłowy tekst póchada?
 faq-why-not-ask-read-q = Cogodla luźi njepšosyśo, z knigłow abo nastawkow Wikipedije w rozdźělnych rěcach pśedcytaś?
 faq-why-account-q = Cogodla dejał ja konto załožyś?
 faq-is-account-public-q = Su móje kontowe informacije zjawne?
+faq-how-privacy-q = Kak zawěsćujośo anonymnosć a priwatnosć luźi, kótarež su swóje głose pósćili?
 
 ## Glossary
 
 glossary = Glosar
 localization = Lokalizacija
+localization-explanation = To jo naš proces za pśełožowanje a pśiměrjenje našogo wopśimjeśa za wjele lokalow (rěcow).
 sentence-collection = Zběrka sadow
 hours-recorded-explanation = Licba dotychměst nagromaźonych nagratych góźinow.
 sst = Powědanje-do-teksta (STT)
