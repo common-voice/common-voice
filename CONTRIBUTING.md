@@ -10,7 +10,7 @@ By participating in this project, you're agreeing to uphold the [Mozilla Communi
 
 ### Add More Sentences
 
-Help us add more sentences for other volunteers to read. See [issue 341](https://github.com/mozilla/voice-web/issues/341) for details.
+Help us add more sentences for other volunteers to read. See [this topic](https://discourse.mozilla.org/t/readme-how-to-see-my-language-on-common-voice/31530) for details.
 
 ### Bug Fixes and Feature Enhancements
 
