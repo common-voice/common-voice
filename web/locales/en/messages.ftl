@@ -340,7 +340,7 @@ faq-why-my-lang-q = Why is my language not included yet?
 faq-why-my-lang-a = Mozilla doesn’t pick or favor any one language over another. Instead, Common Voice is a purely community-driven initiative, but it takes <multilangLink>several steps to add a new language</multilangLink> and begin collecting voice donations. First, the Common Voice website needs to be translated so community members can access the contributor experience in their own language. Next, we need a large collection of copyright-free sentences for people to read outloud. Once both of those requirements are satisfied a language is “launched” on Common Voice for people to start recording their voice and validating others donations.
 
 faq-what-quality-q = What level of audio quality is required for a voice clip to be used in the dataset?
-faq-what-quality-a = We want the Common Voice dataset to reflect the audio quality a speech-to-text engine will hear in the wild, so we’re looking for variety. In addition to a diverse community of speakers, a dataset with varying audio quality will  teach the speech-to-text engine to handle various real-world situations, from background talking to car noise. As long as your voice clip is intelligible, it should be good enough for the dataset.
+faq-what-quality-a = We want the Common Voice dataset to reflect the audio quality a speech-to-text engine will hear in the wild, so we’re looking for variety. In addition to a diverse community of speakers, a dataset with varying audio quality will teach the speech-to-text engine to handle various real-world situations, from background talking to car noise. As long as your voice clip is intelligible, it should be good enough for the dataset.
 
 faq-why-10k-hours-q = Why is 10,000 validated hours the per language goal for capturing audio?
 faq-why-10k-hours-a = This is approximately the number of hours required to train a production speech-to-text system.
@@ -365,9 +365,9 @@ faq-how-privacy-a = All voice clips in the dataset are scrubbed of personally id
 
 faq-what-determine-identity-q = What does it mean that I can’t “determine the identity” of speakers in the Common Voice dataset?
 faq-what-determine-identity-a =
-    The Common Voice dataset is an open and publicly available resource that can be used to train a wide variety of speech-enabled applications. To protect the security of our contributors,  we ask everyone who downloads the Common Voice dataset to respect contributors’ privacy.
+    The Common Voice dataset is an open and publicly available resource that can be used to train a wide variety of speech-enabled applications. To protect the security of our contributors, we ask everyone who downloads the Common Voice dataset to respect contributors’ privacy.
 
-    All voice clips in the dataset are scrubbed of personally identifying information.  When you download the dataset, you agree to not attempt  to determine  the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
+    All voice clips in the dataset are scrubbed of personally identifying information. When you download the dataset, you agree to not attempt to determine the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
 
 
 ## Glossary
