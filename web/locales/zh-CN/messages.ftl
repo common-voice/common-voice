@@ -325,7 +325,7 @@ faq-why-10k-hours-q = 为什么每种语言均有 10,000 小时的有效音频�
 faq-why-10k-hours-a = 这是训练出可供利用的语音转文字系统所需的大约小时数。
 faq-how-calc-hours-q = Common Voice 如何计算小时数？
 faq-how-calc-hours-a = 我们通过估算每条录音的平均长度来计算小时数，并乘以所有语言录音总数来计算。
-faq-where-src-from-2-q = 原始文本来自哪里？
+faq-where-src-from-2-q = 这些原始文本出自何处？
 faq-where-src-from-2-a =
     我们的原始文本由原创贡献者的捐赠和来自公共领域电影剧本的对话组成，例如 <italic>It’s a Wonderful Life</italic>。
     
