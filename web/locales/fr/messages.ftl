@@ -331,8 +331,10 @@ faq-why-10k-hours-q = Pourquoi l’objectif est-il de 10 000 heures d’audio�
 faq-why-10k-hours-a = C’est à peu près la quantité de données nécessaire pour être en mesure de produire un système de reconnaissance vocale de qualité.
 faq-how-calc-hours-q = Comment Common Voice calcule-t-il le nombre d’heures ?
 faq-how-calc-hours-a = Nous faisons une estimation de la longueur moyenne de chaque enregistrement, et ensuite nous le multiplions par le nombre total d’enregistrements dans toutes les langues.
-faq-where-src-from-q = D'où viennent les textes sources ?
-faq-where-src-from-a = Notre texte source est un mélange de contributions individuelles, d’extraits de débats de l’Assemblée nationale (France), d’extraits de livres du projet Gutenberg, d’extraits de pièces de théâtre sous licence le permettant. Nous avons également des jeux de données représentant des adresses dans toute la France, métropolitaine et outre-mer. Vous pouvez voir les phrases sources dans ce dossier sur GitHub.
+faq-where-src-from-2-a =
+    Notre texte source est un mélange de contributions individuelles, d’extraits de débats de l’Assemblée nationale (France), d’extraits de livres du projet Gutenberg, d’extraits de pièces de théâtre sous licence le permettant. Nous avons également des jeux de données représentant des adresses dans toute la France, métropolitaine et outre-mer.
+    
+    Vous pouvez voir les phrases sources dans <githubLink>ce dossier sur GitHub.</githubLink>.
 faq-why-not-ask-read-q = Pourquoi ne pas demander aux gens de lire des livres ou des articles Wikipédia dans différentes langues ?
 faq-why-not-ask-read-a = Pour assurer un maximum d’utilisation au jeu de données Common Voice, nous avons décidé d’autoriser uniquement du texte source sous une licence Creative Commons (CC0). Utiliser le standard CC0 rend la collecte de texte source plus difficile, mais assure que quiconque peut utiliser le jeu de données sans restriction ni autorisation de Mozilla. De plus, vous voulons que le jeu de données multilingue soit le plus utile à tous, que ce soit des chercheurs, des universités, des startups, des gouvernements, des organisations à but social et des hobbyistes.
 faq-why-account-q = Pourquoi devrais-je créer un compte ?
