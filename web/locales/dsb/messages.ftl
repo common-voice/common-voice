@@ -309,7 +309,7 @@ faq-do-want-native-q = Njejsom maminorěcny a powědam z akcentom, cośo mój g�
 faq-why-different-speakers-q = Cogodla trjebaśo wjele rozdźělnych powědarjow na rěc?
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
 faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
-faq-where-src-from-q = Wótkul žrědłowy tekst póchada?
+faq-where-src-from-2-q = Wótkul žrědłowy tekst póchada?
 faq-why-account-q = Cogodla dejał ja konto załožyś?
 faq-is-account-public-q = Su móje kontowe informacije zjawne?
 
