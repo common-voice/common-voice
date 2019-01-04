@@ -329,11 +329,11 @@ faq-why-10k-hours-q = Acuɣer iswi n 10 000 n yisragen imeslawen?
 faq-why-10k-hours-a = Hatan meḥsub d amḍan n yisefka i ilaqen ad ilin i usnulfu n unagraw n uɛqal n taɣect s tɣara ifazen.
 faq-how-calc-hours-q = Amek i iḥitteb Common Voice isragen?
 faq-how-calc-hours-a = Nteg aktazal n teɣzi talemmast n yal akalas, sakin ad t-newwet ɣef umḍan n yikalasen deg tutlayin meṛṛa.
-faq-where-src-from-q = Ansa i d-kkan iḍrisen iɣbula?
-faq-where-src-from-a =
-    Aḍris-nneɣ aɣbalu gan-t imttekkiyen neɣ adiwenni seg yisura n taɣult tazayezt am <italic>tsekla taɣerfnat</italic>, <italic>iznan neɣ tamedyzet taɣerfant</italic>, <italic>timucuha</italic>...
+faq-where-src-from-2-q = Ansa i d-yekka uḍris aɣbalu?
+faq-where-src-from-2-a =
+    Aḍris-nneɣ aɣbalu gan-t imttekkiyen neɣ adiwenni seg yisura n taɣult tazayezt am <italic>tsekla taɣerfnat</italic>, <italic>iznan neɣ tamedyzet taɣerfant</italic>, <italic>timucuha</italic>.
     
-    Tzemreḍ ad twaliḍ iɣbula n tefyar-nneɣ deg ukaram-a GitHub.
+    Tzemreḍ ad twaliḍ iɣbula n tefyar-nneɣ deg <githubLink> ukaram-a GitHub</githubLink>.
 faq-why-not-ask-read-q = Acuɣer ur nessutur ara i yimdanen ad d-ɣren idlisen neɣ imagraden n Wikipedia deg tutlayin-nniḍen?
 faq-why-not-ask-read-a = Akken ad neḍmen afellay n useqdec deg tegrumma n yisefka n Common Voice, negzem-itt deg ṛṛay ad nmudd kan tasiregt n uḍris aɣbalu s turagt Creative Common (cc0). Aseqdec n turagt cc0 ad yerr alqaḍ n yiḍrisen yewɛer ugar, maca ad yeḍmen d akken sekra win ara yesqedcen tagrumma n yisefka mebla aeḥreṣ neɣ tasiregt sɣur Mozilla. Rnu ɣef waya, nebɣa d akken tagrumma n yisefka n ddeqs n tutlayin ad tenfeɛ meṛṛa, ama d imnadiyen, tisdawiyin, tikebbaniyin startup, inabaḍen, neɣ tuddsiwin akked wid iḥemmlen aḥric-a.
 faq-why-account-q = Acuɣer ilaq ad rnuɣ amiḍan?
