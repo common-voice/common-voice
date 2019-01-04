@@ -319,7 +319,7 @@ faq-where-src-from-2-q = Zwotkel žórłowy tekst pochadźa?
 faq-why-not-ask-read-q = Čehodla ludźi njeprosyće, z knihow abo nastawkow Wikipedije w rozdźělnych rěčach předčitać?
 faq-why-account-q = Čehodla měł ja konto załožić?
 faq-is-account-public-q = Su moje kontowe informacije zjawne?
-faq-how-privacy-q = Kak zawěsćuje anonymnosć a priwatnosće ludźi, kotřiž su swoje hłosy darili?
+faq-how-privacy-q = Kak zawěsćujeće anonymnosć a priwatnosć ludźi, kotřiž su swoje hłosy darili?
 
 ## Glossary
 
