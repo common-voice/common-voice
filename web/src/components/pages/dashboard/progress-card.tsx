@@ -35,7 +35,7 @@ class ProgressCard extends React.Component<Props, State> {
 
   async componentDidMount() {
     let { api, locale, type } = this.props;
-    const isAllLanguages = locale == 'all-languages';
+    const isAllLanguages = locale == ALL_LOCALES;
     if (!isAllLanguages) {
       trackDashboard('change-language');
     }
