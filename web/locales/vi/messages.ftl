@@ -285,7 +285,7 @@ browse-file-title = Tải lên hình ảnh
 browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
 connect-gravatar = Kết nối với Gravatar
 gravatar_not_found = Không tìm thấy gravatar cho email của bạn
-file_too_large = Tệp đã chọn quá lớn
+file_too_large = Tập tin đã chọn quá lớn
 manage-subscriptions = Quản lý các mục đăng kí
 email-already-used = Email đã được sử dụng cho tài khoản khác
 add-language = Thêm ngôn ngữ
@@ -328,11 +328,11 @@ faq-why-10k-hours-q = Tại sao 10.000 giờ được xác thực là mục tiê
 faq-why-10k-hours-a = Đây là số giờ cần thiết để đào tạo sản xuất hệ thống chuyển giọng nói thành văn bản.
 faq-how-calc-hours-q = Làm thế nào để Common Voice tính toán giờ?
 faq-how-calc-hours-a = Chúng tôi tính toán số giờ bằng cách ước tính độ dài trung bình của mỗi bản ghi, sau đó nhân số đó với tổng số bản ghi trên tất cả các ngôn ngữ.
-faq-where-src-from-q = Trường hợp văn bản thì được lấy từ đâu?
-faq-where-src-from-a =
-    Văn bản nguồn của chúng tôi được tạo thành từ các đóng góp ban đầu cũng như đối thoại từ các kịch bản phim công cộng như <italic>It’s a Wonderful Life</italic>.
+faq-where-src-from-2-q = Các văn bản nguồn được lấy từ đâu?
+faq-where-src-from-2-a =
+    Văn bản nguồn của chúng tôi được tạo thành từ sự đóng góp ban đầu cũng như cuộc đối thoại từ các kịch bản phim công cộng như <italic>It’s a Wonderful Life</italic>.
     
-    Bạn có thể xem các câu của chúng tôi trong thư mục GitHub này.
+    Bạn có thể xem các câu nguồn của chúng tôi trong <githubLink>thư mục GitHub</githubLink> này.
 faq-why-not-ask-read-q = Tại sao bạn không yêu cầu mọi người đọc từ sách hoặc các bài viết Wikipedia bằng các ngôn ngữ khác nhau?
 faq-why-not-ask-read-a = Để làm cho bộ dữ liệu Common Voice trở nên hữu ích nhất có thể, chúng tôi đã quyết định chỉ cho phép văn bản nguồn có sẵn theo giấy phép Creative Commons (CC0). Sử dụng tiêu chuẩn CC0 có nghĩa là khó tìm và thu thập văn bản nguồn hơn, nhưng cho phép mọi người sử dụng dữ liệu giọng nói kết quả mà không bị hạn chế sử dụng hoặc ủy quyền từ Mozilla. Cuối cùng, chúng tôi muốn làm cho bộ dữ liệu đa ngôn ngữ trở nên hữu ích nhất có thể cho mọi người, bao gồm các nhà nghiên cứu, trường đại học, công ty khởi nghiệp, chính phủ, tổ chức mục đích xã hội và người có sở thích.
 faq-why-account-q = Tại sao tôi nên đăng ký tài khoản?
