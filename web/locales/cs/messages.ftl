@@ -29,6 +29,7 @@ br = Bretonština
 bxr = Burjatština
 ca = Katalánština
 cak = Kaqchikel
+cnh = Hakha Chin
 cs = Čeština
 cv = Čuvaština
 cy = Velština
@@ -61,6 +62,7 @@ kk = Kazaština
 ko = Korejština
 kw = Kornština
 ky = Kyrgyzština
+mdf = Mókša
 mk = Makedonština
 mn = Mongolština
 nb-NO = Norština (Bokmål)
@@ -307,9 +309,35 @@ faq-how-get-q = Jak mohu získat data projektu Common Voice?
 faq-how-get-a = Databáze projektu Common Voice je k dispozici ke stažení pod licencí <licenseLink>CC0</licenseLink> na <datasetLink>stránce Datasety</datasetLink>. Z této stránky si můžete stáhnout také několik jiných veřejně dostupných databází.
 faq-when-release-q = Kdy zveřejníte data projektu Common Voice i v dalších jazycích?
 faq-why-mission-q = Proč je projekt Common Voice součástí projektů společnosti Mozilla?
+faq-why-mission-a = Hlavním cílem organizace Mozilla je udržet web otevřený a dostupný pro všechny. Tomu napomáhají i projekty jako je například Common Voice. S rozšiřováním hlasových technologií i mimo specializované aplikace se domníváme, že by tyto aplikace měly moci sloužit všem uživatelům stejně. To znamená, že je potřeba získat hlasová data všech možných národností, přízvuků a demografických skupin pro tvorbu a testování hlasových technologií. Projekt Common Voice je otevřeným a veřejným zdrojem těchto dat dostupným každému, a vývojářské týmy organizace Mozilla tento zdroj již v současné době používají i pro naše vlastní projekty.
 faq-what-cv-and-deepspeech-q = Jaký je rozdíl mezi projekty Common Voice a Deep Speech?
+faq-what-cv-and-deepspeech-a = Data projektu Common Voice doplňují otevřený systém rozpoznávání hlasu od Mozilly zvaný Deep Speech. První verze projektu Deep Speech byla vydána v listopadu 2017 a od té doby se stále vyvíjí. Věříme, že v kombinaci s daty projektu Common Voice by tento otevřený systém rozpoznávání hlasu měl být dostupný komukoliv a doufáme, že umožní vývojářům vytvořit zcela nové a inovativní produkty.
+faq-is-goal-assistant-q = Je cílem projektu Common Voice vytvoření hlasového asistenta?
+faq-is-goal-assistant-a = Cílem projektu Common Voice je umožnit komukoliv v celém světě vytvořit aplikace na zpracování mluveného slova, hlasovou identifikaci či jakoukoliv jinou aplikaci autonomně pracující s lidským hlasem. Hlasový asistent je pouze jedním z mnoha typů aplikací, jež lze  pomocí dat projektu Common Voice vytvořit.
 faq-do-want-native-q = Nejsem rodilý mluvčí a mluvím s přízvukem, chcete i tak můj hlas?
+faq-do-want-native-a = Ano, obzvláště váš hlas chceme. Součástí snah projektu Common Voice je získat hlasová data s kolika je to jen možno různými přízvuky, aby hlasové aplikace používající naše data mohly fungovat stejně dobře, ať už jste kdokoliv. Z toho důvodu jsou pro nás nahrávky nerodilých mluvčí zvlášť důležité.
+faq-why-different-speakers-q = Proč projekt Common Voice potřebuje tolik rozdílných mluvčích pro každý jazyk?
+faq-why-different-speakers-a =
+    Většina databází mluveného slova je trénována s nadměrným zastoupením určitých demografických skupin, zpravidla <articleLink>mužů  střední třídy</articleLink>. Méně zastoupeny jsou poté přízvuky a dialekty tradičně asociované s minoritními etnickými skupinami. Mnoho strojů má taktéž problémy s ženskými hlasy.
+    Proto v naší databázi chceme slyšet všechny!
+faq-why-my-lang-q = Proč můj jazyk ještě není zahrnut?
+faq-why-my-lang-a = Organizace Mozilla nevybírá žádné jazyky ani je navzájem nijak neupřednostňuje. Místo toho je projekt Common Voice řízen čistě požadavky a aktivitou komunity. Přidání nového jazyka a zahájení sběru je však <multilangLink>procesem na více kroků</multilangLink>. Prvně je třeba přeložit stránky projektu Common Voice do daného jazyka, aby byla mluvčím daného jazyka práce se stránkou umožněna bez znalosti jakéhokoliv jiného jazyka. Dále potřebujeme sesbírat značnou databázi veřejně použitelných vět, jež mohou poté mluvčí v rámci přispívání číst. Jakmile jsou oba tyto požadavky splněny, jazyk je již na stránce projektu Common Voice spuštěn a mluvčí mohou začít nahrávat svůj hlas a ověřovat nahrávky jiných.
+faq-what-quality-q = Jaká úroveň kvality audio záznamu je potřebná pro nahrání klipu do databáze?
+faq-what-quality-a = Chceme, aby databáze projektu Common Voice odrážela kvalitu audio záznamů, s kterými se poté budoucí systémy rozpoznání hlasu mohou setkat v běžném provozu, takže se snažíme o co největší spektrum rozdílných kvalit. Systémy rozpoznávání hlasu si tedy budou moci snadněji poradit s různými běžnými situacemi, od rozhovorů na pozadí po zvuky projíždějících aut. Je-li tedy váš audio záznam slyšitelný, měl by pro naši databázi vyhovovat.
+faq-why-10k-hours-q = Proč je cílem pro nahrávání zvukových záznamů zrovna 10 000 ověřených hodin za jazyk?
 faq-why-10k-hours-a = Je to počet hodin potřebných k natrénování produkčního systému pro převod hlasu na text.
+faq-how-calc-hours-q = Jak projekt Common Voice počítá nahrané hodiny?
+faq-how-calc-hours-a = Celkovou nahranou dobu počítáme odhadnutím průměrné délky audio záznamu, kterou vynásobíme celkovým počtem audio záznamů.
+faq-where-src-from-q = Odkud pochází čtené texty?
+faq-where-src-from-a =
+    Čtené texty jsou tvořeny originálními příspěvky jednotlivých přispěvatelů, spolu s texty z veřejně přístupných knih, scénářů a podobných zdrojů.
+    
+    Všechny věty si můžete prohlédnout v příslušné složce na GitHubu.
+faq-why-not-ask-read-q = Proč prostě nepožádáte lidi, aby četli z knih či články na Wikipedii?
+faq-why-account-q = Proč bych si měl(a) vytvořit účet?
+faq-is-account-public-q = Jsou informace o mém účtu veřejně přístupné?
+faq-how-privacy-q = Jak zajišťujete anonymitu a soukromí jednotlivých přispěvatelů projektu Common Voice?
+faq-what-determine-identity-q = Co to znamená že "nelze určit identity" mluvčích v databázi projektu Common Voice?
 
 ## Glossary
 
@@ -431,11 +459,13 @@ record-again-instruction2 = Jen tak dál, pokračujte v nahrávání <recordIcon
 record-last-instruction = <recordIcon></recordIcon> Poslední!
 unable-speak = Nemůžete teď mluvit?
 clips-uploaded = Nahraných klipů
+record-abort-title = Nechcete napřed dokončit nahrávání?
 record-abort-text = Když nyní odejdete, přijdete o dosavadní postup
 record-abort-submit = Odeslat nahrávky
 record-abort-continue = Dokončit nahrávání
 record-abort-delete = Odejít a smazat nahrávky
 listen-instruction = { $actionType } <playIcon></playIcon> byla věta nahrána přesně?
+listen-again-instruction = Skvělá práce!<playIcon></playIcon> Až budete připraveni, můžete poslouchat znova
 listen-last-time-instruction = <playIcon></playIcon>Poslední!
 record-button-label = Nahrajte svůj hlas
 share-title-new = <bold>Pomozte nám</bold> najít další hlasy
@@ -447,6 +477,12 @@ days =
         [one] den
         [few] dny
        *[other] dnů
+    }
+recordings =
+    { $count ->
+        [one] Nahrávka
+        [few] Nahrávky
+       *[other] Nahrávek
     }
 
 ## Dashboard
