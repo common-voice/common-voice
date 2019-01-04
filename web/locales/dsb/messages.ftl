@@ -181,6 +181,9 @@ sign-up-account = Konto załožyś
 ## Account Benefits
 
 benefits = Lěpšyny
+improve-audio = Profilowe informacije awdiodaty pólěpšuju, kótarež se pśi treněrowanju dokradnosći powědańskego spóznaśa wužywaju.
+keep-track = Mějśo swój póstup a swóje měrjeńske daty za někotare rěcy na wócyma.
+compare-progress = Glědajśo, kak se swój póstup z drugimi sobustatkujucymi z cełego swěta pśirownujo.
 view-goals = Pśirownajśo swój póstup z wósobinskimi a projektowymi celami.
 
 ## What's public
@@ -308,8 +311,10 @@ faq-is-goal-assistant-q = Jo cel Common Voice, głosowy asistent napóraś?
 faq-do-want-native-q = Njejsom maminorěcny a powědam z akcentom, cośo mój głos?
 faq-why-different-speakers-q = Cogodla trjebaśo wjele rozdźělnych powědarjow na rěc?
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
+faq-why-10k-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědanje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
 faq-where-src-from-2-q = Wótkul žrědłowy tekst póchada?
+faq-why-not-ask-read-q = Cogodla luźi njepšosyśo, z knigłow abo nastawkow Wikipedije w rozdźělnych rěcach pśedcytaś?
 faq-why-account-q = Cogodla dejał ja konto załožyś?
 faq-is-account-public-q = Su móje kontowe informacije zjawne?
 
