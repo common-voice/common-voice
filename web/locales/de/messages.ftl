@@ -332,11 +332,11 @@ faq-why-10k-hours-q = Warum sind 10&thinsp;000 validierte Stunden das für die A
 faq-why-10k-hours-a = Dies ist ungefähr die Anzahl an Stunden, die notwendig ist, um ein produktiv einsetzbares Sprache-zu-Text-System zu trainieren.
 faq-how-calc-hours-q = Wie berechnet Common Voice Stunden?
 faq-how-calc-hours-a = Wir berechnen die Stunden, indem wir die durchschnittliche Länge jeder Aufzeichnung schätzen und diese Anzahl dann mit der Gesamtzahl der Aufnahmen in allen Sprachen multiplizieren.
-faq-where-src-from-q = Woher kommt der Quelltext?
-faq-where-src-from-a =
-    Unser Quelltext besteht aus Original-Spenden von Mitwirkenden sowie aus Dialogen aus gemeinfreien Filmskripts wie <italic>It’s a Wonderful Life </italic>.
+faq-where-src-from-2-q = Woher kommt der Quelltext?
+faq-where-src-from-2-a =
+    Unser Quelltext besteht aus Original-Spenden von Mitwirkenden sowie aus Dialogen aus gemeinfreien Filmskripts wie <italic>It’s a Wonderful Life</italic>.
     
-    Sie können unsere Quellsätze in diesem GitHub-Ordner ansehen.
+    Sie können unsere Quellsätze in diesem <githubLink>GitHub-Ordner</githubLink> ansehen.
 faq-why-not-ask-read-q = Warum bitten Sie die Leute nicht, Bücher oder Wikipedia-Artikel in verschiedenen Sprachen zu lesen?
 faq-why-not-ask-read-a = Um den Common-Voice-Datensastz so nützlich wie möglich zu gestalten, haben wir uns entschieden, nur Quelltext zuzulassen, der unter einer Creative-Commons-Lizenz (CC0) steht. Die Verwendung des CC0-Standards bedeutet, dass es schwieriger ist, Quelltext zu finden und zu sammeln, jedoch kann jeder Benutzer die resultierenden Sprachdaten ohne Nutzungseinschränkungen oder Autorisierung von Mozilla verwenden. Letztendlich möchten wir den mehrsprachigen Datensatz für alle, einschließlich Forscher, Universitäten, Startups, Regierungen, Organisationen für soziale Zwecke und Hobbyisten, so nützlich wie möglich machen.
 faq-why-account-q = Warum sollte ich ein Konto erstellen?
