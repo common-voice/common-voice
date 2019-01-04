@@ -335,7 +335,7 @@ faq-why-different-speakers-q = Why do you need so many different speakers per la
 faq-why-different-speakers-a =
     Most speech databases are trained with an overrepresentation of certain demographics which results in a bias towards <articleLink>male and middle class</articleLink>. Accents and dialects that tend to be under-represented in training data sets are typically associated with groups of people who are already marginalised. Many machines also struggle to understand female voices.
     This is why in our voice database we want variety!
-    
+
 faq-why-my-lang-q = Why is my language not included yet?
 faq-why-my-lang-a = Mozilla doesn’t pick or favor any one language over another. Instead, Common Voice is a purely community-driven initiative, but it takes <multilangLink>several steps to add a new language</multilangLink> and begin collecting voice donations. First, the Common Voice website needs to be translated so community members can access the contributor experience in their own language. Next, we need a large collection of copyright-free sentences for people to read outloud. Once both of those requirements are satisfied a language is “launched” on Common Voice for people to start recording their voice and validating others donations.
 
@@ -348,11 +348,11 @@ faq-why-10k-hours-a = This is approximately the number of hours required to trai
 faq-how-calc-hours-q = How does Common Voice calculate hours?
 faq-how-calc-hours-a = We calculate hours by estimating the average length of each recording, and then multiplying that number by the total number of recordings across all languages.
 
-faq-where-src-from-q = Where does the source text come from?
-faq-where-src-from-a =
+faq-where-src-from-2-q = Where does the source text come from?
+faq-where-src-from-2-a =
     Our source text is made up of original contributor donations as well as dialogue from public domain movie scripts like <italic>It’s a Wonderful Life</italic>.
 
-    You can view our source sentences in this GitHub folder.
+    You can view our source sentences in this <githubLink>GitHub folder</githubLink>.
 
 faq-why-not-ask-read-q = Why don’t you ask people to read from books or Wikipedia articles in different languages?
 faq-why-not-ask-read-a = To make the Common Voice dataset as useful as possible we have decided to only allow source text that is available under a Creative Commons (CC0) license. Using the CC0 standard means its more difficult to find and collect source text, but allows anyone to use the resulting voice data without usage restrictions or authorization from Mozilla. Ultimately, we want to make the multi-language dataset as useful as possible to everyone, including researchers, universities, startups, governments, social purpose organizations, and hobbyists.

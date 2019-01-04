@@ -64,7 +64,15 @@ export default () => (
       'what-quality',
       'why-10k-hours',
       'how-calc-hours',
-      ['where-src-from', { italic: <i /> }],
+      [
+        'where-src-from-2',
+        {
+          italic: <i />,
+          githubLink: (
+            <A href="https://github.com/mozilla/voice-web/tree/master/server/data" />
+          ),
+        },
+      ],
       'why-not-ask-read',
     ])}
 
