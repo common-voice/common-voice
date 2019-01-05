@@ -349,11 +349,11 @@ faq-why-10k-hours-q = Pam mae 10,000 awr wedi'i ddilysu y nod ar gyfer casglu sa
 faq-why-10k-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system llais i destun.
 faq-how-calc-hours-q = Sut mae Common Voice yn cyfrifo oriau?
 faq-how-calc-hours-a = Rydym yn cyfrifo oriau trwy amcangyfrif hyd cyfartalog pob cofnod, ac yna lluosi'r rhif hwnnw gyda chyfanswm nifer y recordiadau ar draws yr holl ieithoedd.
-faq-where-src-from-q = O ble mae'r testun ffynhonnell yn dod?
-faq-where-src-from-a =
-    Mae ein testun ffynhonnell yn cynnwys rhoddion cyfrannol gwreiddiol yn ogystal â deialog o sgriptiau ffilmiau cyhoeddus fel <italic>It’s a Wonderful Life</italic>.
+faq-where-src-from-2-q = O le ddaw'r testun ffynhonnell?
+faq-where-src-from-2-a =
+    Mae ein testun ffynhonnell yn cynnwys rhoddion cyfranwyr gwreiddiol yn ogystal â deialog o sgriptiau ffilmiau parth agored fel <italic>It’s a Wonderful Life</italic>.
     
-    Gallwch weld ein brawddegau ffynhonnell yn y ffolder GitHub hwn.
+    Gallwch weld ein brawddegau ffynhonnell yn y <githubLink>ffolder GitHub</githubLink> hwn.
 faq-why-not-ask-read-q = Pam na wnewch chi ofyn i bobl ddarllen o lyfrau neu erthyglau Wicipedia mewn ieithoedd gwahanol?
 faq-why-not-ask-read-a = Er mwyn gwneud set ddata Common Voice mor ddefnyddiol â phosib, rydym wedi penderfynu mai dim ond caniatáu testun ffynhonnell sydd ar gael o dan drwydded Creative Commons (CC0). Mae defnyddio safon CC0 yn golygu ei bod yn anoddach dod o hyd i gasgliad o destun a chasglu testun ffynhonnell, ond mae'n caniatáu i unrhyw un ddefnyddio'r data llais dilynol heb gyfyngiadau defnydd neu awdurdodi gan Mozilla. Yn y pen draw, rydym am wneud y set ddata aml-iaith mor ddefnyddiol â phosibl i bawb, gan gynnwys ymchwilwyr, prifysgolion, cwmnïau cychwynnol, llywodraethau, sefydliadau pwrpasau cymdeithasol a hobïwyr.
 faq-why-account-q = Pam ddylwn i gofrestru am gyfrif?
