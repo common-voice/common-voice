@@ -332,11 +332,11 @@ faq-why-10k-hours-q = Waarom is de doelstelling voor geluidsopnamen 10.000 uur p
 faq-why-10k-hours-a = Dit is ongeveer het aantal benodigde uren om een operationeel spraak-naar-tekst-systeem te trainen.
 faq-how-calc-hours-q = Hoe berekent Common Voice de uren?
 faq-how-calc-hours-a = We berekenen de uren door de gemiddelde lengte van elke opname te schatten en vervolgens dat aantal te vermenigvuldigen met het totale aantal opnamen in alle talen.
-faq-where-src-from-q = Waar komt de brontekst vandaan?
-faq-where-src-from-a =
-    Onze brontekst bestaat uit originele donaties van bijdragers en zinnen uit openbare filmscripts zoals <italic>It's a Wonderful Life</ italic>.
+faq-where-src-from-2-q = Waar komt de brontekst vandaan?
+faq-where-src-from-2-a =
+    Onze brontekst bestaat uit originele donaties van bijdragers en dialogen uit openbare filmscripts zoals <italic>It’s a Wonderful Life</italic>.
     
-    U kunt onze bronzinnen bekijken in deze GitHub-map.
+    U kunt onze bronzinnen bekijken in <githubLink>deze GitHub-map</githubLink>.
 faq-why-not-ask-read-q = Waarom vragen jullie niet gewoon aan mensen om in verschillende talen uit boeken of Wikipedia-artikelen te lezen?
 faq-why-not-ask-read-a = Om de Common Voice-gegevensset zo nuttig mogelijk te maken, hebben we besloten om alleen brontekst toe te staan die beschikbaar is onder een Creative Commons (CC0)-licentie. Het gebruik van de CC0-standaard betekent dat het moeilijker is om brontekst te vinden en te verzamelen, maar iedereen kan de resulterende spraakgegevens gebruiken zonder gebruiksbeperkingen of toestemming van Mozilla. Uiteindelijk willen we de meertalige gegevensset zo nuttig mogelijk maken voor iedereen, inclusief onderzoekers, universiteiten, start-ups, overheden, sociale doelgroepen en hobbyisten.
 faq-why-account-q = Waarom zou ik een account aanmaken?
