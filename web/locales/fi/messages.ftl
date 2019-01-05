@@ -1,13 +1,15 @@
 ## General
 
-yes-receive-emails = Lähetä minulle sähköpostia, haluan pysyä ajan tasalla Common Voice -projektista.
-stayintouch = Mozilla rakentaa yhteisöä puheteknologiaa varten. Haluamme pysyä yhteyksissä koskien päivityksiä, uusia aineistolähteitä sekä kuulla lisää siitä miten käytät näitä aineistoja.
-privacy-info = Lupaamme käsitellä tietojasi huolella, lue lisää <privacyLink>tietosuojaselosteesta</privacyLink>.
+yes-receive-emails = Kyllä, lähetä minulle sähköpostia. Haluan pysyä ajan tasalla Common Voice -projektista.
+stayintouch = Mozilla rakentaa yhteisöä puheteknologiaa varten. Haluamme pysyä yhteyksissä koskien päivityksiä ja uusia aineistolähteitä, sekä kuulla lisää siitä miten käytät näitä aineistoja.
+privacy-info = Lupaamme käsitellä tietojasi huolella. Lue lisää <privacyLink>tietosuojaselosteestamme</privacyLink>.
 return-to-cv = Palaa Common Voiceen
 email-input =
     .label = Sähköposti
 submit-form-action = Lähetä
 loading = Ladataan…
+email-opt-in-privacy = Tilaamalla uutiskirjeen hyväksyt Mozillan käsittelevän tätä tietoa Mozillan <privacyLink>tietosuojakäytännössä<privacyLink> kuvatulla tavalla.
+indicates-required = * Pakollinen kenttä
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -66,7 +68,6 @@ nn-NO = Norjan nynorsk
 or = Orija
 pl = Puola
 pt-BR = Brasilianportugali
-rm = Retoromaani
 ro = Romania
 ru = Venäjä
 sah = Jakuutti
@@ -108,9 +109,6 @@ share-title = Auta meitä löytämään muita lahjoittamaan ääntään.
 share-text = Auta opettamaan koneita kuinka oikeat ihmiset puhuvat, lahjoita ääntäsi täällä: { $link }
 link-copied = Linkki kopioitu
 back-top = Takaisin ylös
-contribution-banner-text = Olemme juuri lisänneet uudenlaisen osallistumistavan
-contribution-banner-button = Katso
-report-bugs-link = Auta ilmoittamalla bugeja
 
 ## Home Page
 
@@ -131,8 +129,13 @@ toggle-play-tooltip = Paina nappia { shortcut-play-toggle } vaihtaaksesi soittot
 speak-subtitle = Lahjoita äänesi
 read-terms-q = Oletko lukenut käyttöehdot?
 ready-to-record = Valmiina lahjoittamaan äänesi?
-all-languages = Kaikki kielet
 today = Tänään
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -177,8 +180,6 @@ english = Englanti
 
 ## ProfileForm
 
-profile-form-cancel = Poistu lomakkeesta
-profile-form-delete = Poista profiili
 profile-form-username =
     .label = Käyttäjänimi
 profile-form-language =
@@ -191,8 +192,6 @@ profile-form-gender =
     .label = Sukupuoli
 profile-form-submit-save = Tallenna
 profile-form-submit-saved = Tallennettu
-profile-keep-data = Säilytä tiedot
-profile-delete-data = Poista tiedot
 male = Mies
 female = Nainen
 # Gender
@@ -200,39 +199,16 @@ other = Muu
 why-profile-title = Minkä takia profiili?
 why-profile-text = Lisätiedot lähetetyistä ääninäytteistä tekevät Common Voice -aineistoa hyödyllisemmäksi puheentunnistussovelluksille, jotka käyttävät näitä tietoja parantamaan tarkkuuttaan.
 edit-profile = Muokkaa profiilia
-profile-create = Luo profiili
 profile-create-success = Profiilin luonti onnistui.
 profile-close = Sulje
-profile-clear-modal = Profiilitietojen poistaminen tarkoittaa ettei tätä demografista tietoa enää lähetetä Common Voiceen ääninäytteiden mukana.
 profile-explanation = Pidä kirjaa edistyksestäsi profiilin avulla ja auta pitämään ääniaineistotietoja tarkempina.
 
 ## FAQ
 
 faq-title = Usein kysytyt kysymykset
-faq-what-q = Mitä Common Voice on?
-faq-what-a = Puheentunnistusteknologiassa on potentiaalia olla käänteentekevä ihmisten ja koneiden vuorovaikutuksessa, mutta tällä hetkellä saatavilla olevat järjestelmät ovat kalliita ja suljettuja. Common Voice pyrkii saattamaan puheentunnistusteknologian kakkien saataville. Ihmiset voivat lahjoitaa ääntään massiiviseen tietokantaan, jonka avulla pystytään nopeasti ja helposti tuottamaan äänipohjaisia sovelluksia. Kaikki ääniaineistot tulevat olemaan kehittäjien saatavilla.
-faq-important-q = Miksi tämä on tärkeää?
-faq-important-a = Puhe on luonnollista ja inhimillistä. Se on helpoin ja luonnollisin kommunikointikeino. Me haluamme luoda kehittäjille valmiudet rakentaa mahtavia sovelluksia reaaliaikaisista kääntimistä puheohjattuihin assistentteihin. Tällä hetkellä kuitenkaan ei ole tarpeeksi julkista saatavilla olevaa aineistoa tämänkaltaisten sovellusten tekemiseksi. Tavoitteenamme on että Common Voice tarjoaa sovelluskehittäjille sitä mitä innovointiin tarvitaan.
-faq-get-q = Mistä Common Voicen puheaineistot voi hankkia?
-faq-get-a = Aineisto on saatavilla <downloadLink>lataussivulla</downloadLink> ja käytettävissä lisenssin <licenseLink>CC-0</licenseLink> ehdoin.
-faq-mission-q = Miten Common Voice on osa Mozillan missiota?
-faq-mission-a = Mozilla on sitoutunut säilyttämään internet avoimena ja kaikille saatavana. Tämän päämäärän saavuttamiseksi meidän täytyy voimaannuttaa internet-kehittäjiä Common Voicen kaltaisilla projekteilla. Kaikkien käyttäjien tasavertainen palvelu on ensiarvoisen tärkeää puheteknologioiden laajetessa uusiin käyttöihin. On välttämätöntä sisällyttää puheteknologioiden kehittämiseen ja testaukseen uusia kieliä, aksentteja ja väestöryhmiä. Mozilla haluaa nähdä terveen ja elinvoimaisen internetin. Tämä vaatii sitä, että uusille tekijöille annetaan pääsy puheaineistoon, jotta he voivat rakentaa uusia ja ennennäkemättömiä projekteja. Common Voice tulee olemaan avoin resurssi, joka auttaa Mozillan tiimiä ja kehittäjiä kaikkialla maailmassa.
-faq-native-q = En ole natiivi kielen { $lang } puhuja ja minulla on aksentti puheessani, voinko silti osallistua?
-faq-native-a = Totta kai voimme käyttää myös ääntäsi. Osa Common Voice -projektia on kerätä niin paljon aksentteja kuin mahdollista jotta koneet voisivat paremmin oppia ymmärtämään kuinka <bold>kaikki</bold> puhuvat.
-faq-firefox-q = Tuleeko puheentunnistus Common Voicen kautta joskus osaksi Firefoxia?
-faq-firefox-a = Common Voicen mahdolisuudet ovat rajattomat ja tällä hetkellä tutkitaan mahdollisuuksia tarjota puherajapintoja useisiin Mozilla-perheen tuotteisiin, myös Firefoxiin.
-faq-quality-q = Minkälaatuisia nauhoitusten pitää olla että ne ovat hyödyksi?
-faq-quality-a = Äänenlaadun pitää vastata tyypillisen puheentunnistuksen käyttötarkoitusten äänenlaatuja, siis tarvitaan laajaa valikoimaa eri laatuja. Näin voidaan opettaa puheentunnistusjärjestelmää selviämään eri tilanteista, kuten puhehälystä ja auton tai tuulettimen melusta, ilman virheitä.
-faq-hours-q = Miksi 10 000 tuntia on nauhoitustavoite?
-faq-hours-a = Se on summittainen arvio tunneista jota tarvitaan tuottamaan julkaisukelpoinen puheentunnistusjärjestelmä.
-faq-source-q = Mistä lähdetekstit tulevat?
-faq-source-a1 = Tämänhetkiset virkkeet ovat lahjoituksia käyttäjiltä, sekä dialogia vapaassa public domainissa olevista elokuvakäsikirjoituksista, kuten <italic>Ihmeellinen on elämästä</italic>
-faq-source-a2 = Virkkeet on saatavilla <dataLink>tässä github-hakemistossa</dataLink>.
 
-## Profile
+## Glossary
 
-profile-why-title = Minkä takia profiili?
-profile-why-content = Lisätiedoilla käyttäjästä, puheaineisto Common Voicessa on käyttökelpoisempaa niissä puheentunnistusjärjestelmissä, jotka parantavat tarkkuutta niillä tiedoilla.
 
 ## NotFound
 
@@ -261,21 +237,6 @@ data-bundle-button = Lataa koottu aineistokokoelma
 data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineistot
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Monia
-
-## Record Page
-
-record-platform-not-supported = Valitettavasti tämä alusta ei ole tuettu
-record-platform-not-supported-desktop = Pöytätietokoneille voi ladata viimeisimmän:
-record-platform-not-supported-ios = <bold>iOS</bold>-käyttäjät voivat ladata ilmaisen mobiilisovelluksen:
-record-must-allow-microphone = Mikrofoninkäyttölupa pitää myöntää sovellukselle
-record-retry = Yritä uudestaan
-record-no-mic-found = Ei löytynyt mikrofonia
-record-error-too-short = Nauhoite on liian lyhyt.
-record-error-too-long = Nauhoite on liian pitkä.
-record-error-too-quiet = Nauhoite on liian hiljainen.
-record-submit-success = Lähetys onnistui. Nauhoitetaanko uudelleen?
-record-help = Näpäytä nauhoitusnappia ja lue ylläoleva virke ääneen.
-record-cancel = Peru uudelleennauhoitus
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy
@@ -346,6 +307,15 @@ contribute-more =
        *[other] Pystytkö tekemään { $count } lisää?
     }
 record-cta = Uusi nauhoitus
+record-platform-not-supported = Valitettavasti tämä alusta ei ole tuettu
+record-platform-not-supported-desktop = Pöytätietokoneille voi ladata viimeisimmän:
+record-platform-not-supported-ios = <bold>iOS</bold>-käyttäjät voivat ladata ilmaisen mobiilisovelluksen:
+record-must-allow-microphone = Mikrofoninkäyttölupa pitää myöntää sovellukselle
+record-no-mic-found = Ei löytynyt mikrofonia
+record-error-too-short = Nauhoite on liian lyhyt.
+record-error-too-long = Nauhoite on liian pitkä.
+record-error-too-quiet = Nauhoite on liian hiljainen.
+record-cancel = Peru uudelleennauhoitus
 record-instruction = { $actionType } <recordIcon></recordIcon> ja lue virke ääneen
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kun olet valmis
 record-three-more-instruction = Kolme jäljellä.
@@ -367,3 +337,13 @@ listen-3rd-time-instruction = 2 tehty, jatka samaan malliin, <playIcon></playIco
 listen-last-time-instruction = <playIcon></playIcon> viimeinen!
 record-button-label = Tallenna äänesi
 share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Poista profiili
