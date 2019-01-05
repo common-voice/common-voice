@@ -140,6 +140,7 @@ vote-no = Ei
 toggle-play-tooltip = Paina nappia { shortcut-play-toggle } vaihtaaksesi soittotilaa päälle/pois
 speak-subtitle = Lahjoita äänesi
 speak-goal-text = Näytteitä tallennettu
+listen-subtitle = Auta meitä tarkastamaan näytteitä
 listen-goal-text = Näytteitä tarkastettu
 hours-recorded = Tunteja tallennettu
 hours-validated = Tunteja tarkastettu
@@ -155,6 +156,17 @@ x-weeks-short =
         [one] { $count } viikko
        *[other] { $count } viikkoa
     }
+x-months-short =
+    { $count ->
+        [one] { $count } kk
+       *[other] { $count } kk
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } v
+       *[other] { $count } v
+    }
+help-make-dataset = Auta meitä rakentamaan korkealaatuinen ja avoin aineisto
 sign-up-account = Luo käyttäjätili
 
 ## Account Benefits
@@ -269,10 +281,14 @@ faq-what-cv-q = Mikä on Common Voice?
 faq-why-important-q = Miksi se on tärkeää?
 faq-how-get-q = Miten voin saada Common Voice -aineistot?
 faq-do-want-native-q = En ole syntyperäinen puhuja ja puhun korostaen. Haluatteko silti ääneni?
+faq-why-my-lang-q = Miksei kieleni ole vielä mukana?
 faq-how-calc-hours-q = Miten Common Voice laskee tunnit?
+faq-where-src-from-2-q = Mistä lähdetekstit ovat peräisin?
 
 ## Glossary
 
+glossary = Sanasto
+localization = Lokalisointi
 sst = Puheentunnistus (STT)
 sst-explanation = Puheentunnistus (STT) muuntaa äänen tekstiksi.
 
@@ -367,6 +383,7 @@ contribute = Ota osaa
 listen = Kuuntele
 skip = Ohita
 shortcuts = Oikopolut
+clips-with-count = <bold>{ $count }</bold> näytettä
 contribute-more =
     { $count ->
         [one] Pystytkö tekemään { $count }:n lisää?
@@ -380,11 +397,11 @@ record-must-allow-microphone = Mikrofoninkäyttölupa pitää myöntää sovellu
 record-no-mic-found = Ei löytynyt mikrofonia
 record-error-too-short = Nauhoite on liian lyhyt.
 record-error-too-long = Nauhoite on liian pitkä.
-record-error-too-quiet = Nauhoite on liian hiljainen.
+record-error-too-quiet = Ääninäyte on liian hiljainen.
 record-cancel = Peru uudelleennauhoitus
 record-instruction = { $actionType } <recordIcon></recordIcon> ja lue virke ääneen
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kun olet valmis
-record-three-more-instruction = Kolme jäljellä.
+record-three-more-instruction = Kolme jäljellä!
 record-again-instruction = Loistavaa, <recordIcon></recordIcon> nauhoita seuraava
 record-again-instruction2 = Hyvää työtä, nauhoita uudelleen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Viimeinen!
@@ -402,6 +419,7 @@ listen-instruction = { $actionType }<playIcon></playIcon> onko tämä virke tark
 listen-again-instruction = Hienoa työtä, <playIcon></playIcon> kuuntele lisää
 listen-3rd-time-instruction = 2 tehty, jatka samaan malliin, <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> viimeinen!
+nothing-to-validate = Meillä ei ole tarkistettavia näytteitä tälle kielelle, auta meitä täyttämään jono.
 record-button-label = Tallenna äänesi
 share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
 
@@ -410,9 +428,12 @@ share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
 
 ## Dashboard
 
+your-languages = Kielesi
 stats = Tilastot
 you = Sinä
 everyone = Kaikki
+total-approved = Hyväksytty yhteensä
+overall-accuracy = Tarkkuus yhteensä
 
 ## Profile Delete
 
