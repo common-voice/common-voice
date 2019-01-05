@@ -331,6 +331,7 @@ faq-why-10k-hours-q = Pourquoi l’objectif est-il de 10 000 heures d’audio�
 faq-why-10k-hours-a = C’est à peu près la quantité de données nécessaire pour être en mesure de produire un système de reconnaissance vocale de qualité.
 faq-how-calc-hours-q = Comment Common Voice calcule-t-il le nombre d’heures ?
 faq-how-calc-hours-a = Nous faisons une estimation de la longueur moyenne de chaque enregistrement, et ensuite nous le multiplions par le nombre total d’enregistrements dans toutes les langues.
+faq-where-src-from-2-q = D’où vient le texte source ?
 faq-where-src-from-2-a =
     Notre texte source est un mélange de contributions individuelles, d’extraits de débats de l’Assemblée nationale (France), d’extraits de livres du projet Gutenberg, d’extraits de pièces de théâtre sous licence le permettant. Nous avons également des jeux de données représentant des adresses dans toute la France, métropolitaine et outre-mer.
     
