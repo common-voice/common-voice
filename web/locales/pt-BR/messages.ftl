@@ -332,11 +332,11 @@ faq-why-10k-hours-q = Por que 10.000 horas validadas é a meta por idioma de cap
 faq-why-10k-hours-a = Este é aproximadamente o número de horas necessário para treinar um sistema de produção de fala-para-texto.
 faq-how-calc-hours-q = Como o Common Voice calcula horas?
 faq-how-calc-hours-a = Calculamos horas estimando o comprimento médio de cada gravação e então multiplicando esse número pelo número total de gravações em todos os idiomas.
-faq-where-src-from-q = De onde vem o texto de origem?
-faq-where-src-from-a =
+faq-where-src-from-2-q = De onde vem o texto de origem?
+faq-where-src-from-2-a =
     Nosso texto de origem é composto por doações originais de contribuidores, assim como diálogos de roteiros de filmes de domínio público como <italic>It’s a Wonderful Life</italic> (no Brasil: <italic>A felicidade não se compra</italic>).
     
-    Você pode ver nossas frases de origem nesta pasta do GitHub.
+    Você pode ver nossas frases de origem nesta <githubLink>pasta do GitHub</githubLink>.
 faq-why-not-ask-read-q = Por que vocês não pedem às pessoas para ler livros ou artigos da Wikipedia em diferentes idiomas?
 faq-why-not-ask-read-a = Para tornar o conjunto de dados do Common Voice o mais útil possível, decidimos permitir somente textos de origem disponíveis sob uma licença Creative Commons (CC0). O uso do padrão CC0 significa ser mais difícil encontrar e coletar textos de origem, mas permite que qualquer pessoa use os dados de voz resultantes sem restrições de uso ou autorização da Mozilla. Por fim, queremos tornar o conjunto de dados multi-idioma o mais útil possível para todos, incluindo pesquisadores, universidades, startups, governos, organizações de propósito social e entusiastas.
 faq-why-account-q = Por que devo cadastrar uma conta?
