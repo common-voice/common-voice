@@ -139,16 +139,33 @@ vote-yes = Kyllä
 vote-no = Ei
 toggle-play-tooltip = Paina nappia { shortcut-play-toggle } vaihtaaksesi soittotilaa päälle/pois
 speak-subtitle = Lahjoita äänesi
+speak-goal-text = Näytteitä tallennettu
 listen-goal-text = Näytteitä tarkastettu
-read-terms-q = Oletko lukenut käyttöehdot?
+hours-recorded = Tunteja tallennettu
+hours-validated = Tunteja tarkastettu
+voices-online = Ääniä linjoilla nyt
+todays-progress = Tämän päivän edistyminen
+help-reach-goal = Auta meitä saavuttamaan { $goal }
+read-terms-q = Oletko lukenut käyttöehtomme?
 ready-to-record = Valmiina lahjoittamaan äänesi?
+all-locales = Kaikki
 today = Tänään
+x-weeks-short =
+    { $count ->
+        [one] { $count } viikko
+       *[other] { $count } viikkoa
+    }
+sign-up-account = Luo käyttäjätili
 
 ## Account Benefits
 
+benefits = Hyödyt
 
 ## What's public
 
+whats-public = Mikä on julkista?
+email-not-public = Emme julkaise sähköpostiosoitettasi.
+username-optin-public = Voit tehdä käyttäjätunnuksestasi joko julkisen tai nimettömän.
 
 ## Speak & Listen Shortcuts
 
@@ -198,11 +215,17 @@ profile-form-username =
 profile-form-language =
     .label = Kieli
 profile-form-accent =
-    .label = Aksentti
+    .label = Korostus
 profile-form-age =
     .label = Ikä
 profile-form-gender =
     .label = Sukupuoli
+leaderboard-visibility =
+    .label = Näkyvyys pistetilastossa
+hidden = Piilotettu
+visible = Näkyvillä
+native-language =
+    .label = Äidinkieli
 profile-form-submit-save = Tallenna
 profile-form-submit-saved = Tallennettu
 male = Mies
@@ -210,7 +233,7 @@ female = Nainen
 # Gender
 other = Muu
 why-profile-title = Minkä takia profiili?
-why-profile-text = Lisätiedot lähetetyistä ääninäytteistä tekevät Common Voice -aineistoa hyödyllisemmäksi puheentunnistussovelluksille, jotka käyttävät näitä tietoja parantamaan tarkkuuttaan.
+why-profile-text = Tarjoamalla lisätietoja itsestäsi Common Voiceen lähettämäsi ääninäytteet ovat hyödyllisempiä puheentunnistusmoottoreille, jotka osaavat käyttää lisätietoja tarkkuutensa parantamiseen.
 dashboard = Kojelauta
 build-profile = Luo profiili
 avatar = Profiilikuva
@@ -220,18 +243,38 @@ edit-profile = Muokkaa profiilia
 profile-create-success = Profiilin luominen onnistui!
 profile-close = Sulje
 profile-explanation = Pidä kirjaa edistymisestäsi profiilin avulla ja auta tarkentamaan ääniaineistoamme.
+thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
+why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja korostus, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
+login-signup = Kirjaudu / Rekisteröidy
 edit = Muokkaa
 email-subscriptions = Sähköpostitilaukset
 download-profile = Lataa omat tietoni
 contribution-experience = Osallistumiskokemus
+off = Pois päältä
+on = Päällä
+add-avatar-title = Lisää profiilikuva
+browse-file-title = Lataa kuvatiedosto
+browse-file = Vedä ja pudota tai <browseWrap>Selaa</BrowseWrap>
+connect-gravatar = Yhdistä Gravatariin
+gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
+file_too_large = Valittu tiedosto on liian suuri
+manage-subscriptions = Muokkaa tilauksia
+add-language = Lisää kieli
 
 ## FAQ
 
 faq-title = Usein kysytyt kysymykset
+faq-what-cv-q = Mikä on Common Voice?
+faq-why-important-q = Miksi se on tärkeää?
+faq-how-get-q = Miten voin saada Common Voice -aineistot?
+faq-do-want-native-q = En ole syntyperäinen puhuja ja puhun korostaen. Haluatteko silti ääneni?
+faq-how-calc-hours-q = Miten Common Voice laskee tunnit?
 
 ## Glossary
 
+sst = Puheentunnistus (STT)
+sst-explanation = Puheentunnistus (STT) muuntaa äänen tekstiksi.
 
 ## NotFound
 
@@ -247,7 +290,7 @@ data-download-license = Lisenssi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Olet aikeissa ladata <size>{ $size } Gt</size>, jatketaanko?
 data-subtitle = Rakennamme avointa ja vapaasti käytettävää puheaineistoa jota kuka tahansa voi hyödyntää puhesovellusten tuottamiseen
 data-explanatory-text = Uskomme että laajat ja vapaasti käytettävissä olevat puheaineistot auttavat innovoinnissa ja tuovat tervettä kilpailua koneoppimispohjaisen puheteknologian markkinoille. Tämä projekti on maailmanlaajuinen ja kaikki ovat tervetulleita osallistumaan. Tarkoituksenamme on tehdä puheteknologiasta inklusiivisempaa, ja vastata maailman äänten aitoa monipuolisuutta.
-data-get-started = <speechBlogLink>Lähde liikkeelle puheentunnistuksen kanssa</speechBlogLink>
+data-get-started = <speechBlogLink>Aloita puheentunnistuksen kanssa</speechBlogLink>
 data-other-title = Muut ääniaineistot...
 data-other-goto = Siirry kohtaan { $name }
 data-other-download = Lataa aineisto
@@ -349,6 +392,7 @@ review-tooltip = Tarkista ja uudelleennauhoita sitä mukaa kun etenet
 unable-speak = Etkö voi puhua tällä hetkellä?
 review-instruction = Tarkista ja uudelleennauhoita tarvittaessa
 record-submit-tooltip = { $actionType } lähetä kun valmis
+clips-uploaded = Näytteitä ladattu
 record-abort-title = Viimeistele nauhoittaminen ensin?
 record-abort-text = Poistuminen tarkoittaa että kaikki edistys hylätään
 record-abort-submit = Lähetä äänileikkeet
@@ -366,7 +410,12 @@ share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
 
 ## Dashboard
 
+stats = Tilastot
+you = Sinä
+everyone = Kaikki
 
 ## Profile Delete
 
+keep = Säilytä
+remove = Poista
 profile-form-delete = Poista profiili
