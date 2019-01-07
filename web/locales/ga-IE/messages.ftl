@@ -15,11 +15,13 @@ loading = Á lódáil...
 
 ## Languages
 
+af = Afracáinis
 an = Aragóinis
 ar = Araibis
 as = Asaimis
 ast = Astúiris
 az = Asarbaiseáinis
+bg = Bulgáiris
 bn = Beangáilis
 br = Briotáinis
 bxr = Buiriáitis
@@ -35,6 +37,8 @@ en = Béarla
 eo = Esperanto
 es = Spáinnis
 et = Eastóinis
+eu = Bascais
+fa = Fairsis
 fi = Fionlainnis
 fo = Faróis
 fr = Fraincis
@@ -56,18 +60,20 @@ kpv = Coimis
 kw = Coirnis
 ky = Cirgisis
 mk = Macadóinis
+mn = Mongóilis
 myv = Éarsais
 nb-NO = Ioruais Bokmål
 ne-NP = Neipeailis
 nl = Ollainnis
 nn-NO = Ioruais Nynorsk
+oc = Ocsatáinis
 or = Oirísis
 pl = Polainnis
 pt-BR = Portaingéilis (An Bhrasaíl)
-rm = Rómainis
 ro = Rómáinis
 ru = Rúisis
 sah = Sachais
+sc = Sairdínis
 sk = Slóvaicis
 sl = Slóivéinis
 sq = Albáinis
@@ -81,6 +87,7 @@ tt = Tatairis
 uk = Úcráinis
 ur = Urdúis
 uz = Úisbéicis
+vi = Vítneaimis
 zh-CN = Sínis (An tSín)
 zh-HK = Sínis (Hong Cong)
 zh-TW = Sínis (An Téaváin)
@@ -106,9 +113,7 @@ share-title = Cabhraigh linn daoine nua a earcú! Scaip an focal!
 share-text = Cabhraigh linn múineadh do ríomhairí conas a labhraíonn daoine; bronn do ghuth ag { $link }
 link-copied = Cóipeáladh an Nasc
 back-top = Fill ar bharr an leathanaigh
-contribution-banner-text = Táimid go díreach tar éis eispéireas nua rannpháirtíochta a sheoladh
-contribution-banner-button = Bain triail as
-report-bugs-link = Déan tuairisc ar fhabhtanna
+logout = Logáil Amach
 
 ## Home Page
 
@@ -117,6 +122,8 @@ home-cta = Abair leat agus cabhraigh linn!
 wall-of-text-start = Is rud nádúrtha an guth daonna. Sin an fáth a bhfuilimid an-tógtha le teicneolaíocht cainte a fhorbairt ar ríomhairí. Ach, le córas den sórt seo a chruthú, tá bailiúchán ollmhór sonraí gutha de dhíth.
 wall-of-text-more-mobile = Faraor, coinníonn na mórchomhlachtaí teicneolaíochta an chuid is mó de na sonraí atá acu faoi ghlas. Creidimid go bplúchann sé sin iomaíocht shláintiúil. Dá bharr sin, thosaigh muid an togra Common Voice chun aithint cainte a chur ar fáil do chách.
 wall-of-text-more-desktop = Anois is féidir leat do ghuth a bhronnadh dúinn chun cabhrú linn bailiúchán oscailte sonraí gutha a chruthú, sonraí a bheidh aon duine in ann a úsáid in aipeanna nuálacha nó ar an nGréasán.<lineBreak></lineBreak>Léigh abairt os ard le múineadh don ríomhaire an chaoi a labhraíonn daoine, nó deimhnigh na taifeadtaí a rinne daoine eile. Tá sé chomh simplí leis sin!
+wall-of-text-first = Is rud nádúrtha an guth daonna. Sin an fáth a bhfuilimid an-tógtha le teicneolaíocht cainte a fhorbairt ar ríomhairí. Ach, le córas den sórt seo a chruthú, tá bailiúchán ollmhór sonraí gutha de dhíth.
+wall-of-text-second = Faraor, coinníonn na mórchomhlachtaí teicneolaíochta an chuid is mó de na sonraí atá acu faoi ghlas. Creidimid go bplúchann sé sin iomaíocht shláintiúil. Dá bharr sin, thosaigh muid an togra Common Voice chun aithint cainte a chur ar fáil do chách.
 show-wall-of-text = Tuilleadh Eolais
 help-us-title = Cabhraigh linn abairtí a dheimhniú!
 help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
@@ -130,9 +137,12 @@ listen-subtitle = Cabhraigh linn guthanna a dheimhniú
 listen-goal-text = Gearrthóga deimhnithe
 hours-recorded = Uaireanta an chloig taifeadta
 hours-validated = Uaireanta an chloig deimhnithe
+voices-online = Guthanna Ar Líne Anois
+todays-progress = Dul Chun Cinn Inniu
+help-reach-goal = Cabhraigh linn { $goal } a bhaint amach
 read-terms-q = Ar léigh tú na Téarmaí Seirbhíse?
 ready-to-record = An bhfuil tú réidh do ghuth a roinnt linn?
-all-languages = Gach Teanga
+all-locales = Uile
 today = Inniu
 x-weeks-short =
     { $count ->
@@ -158,6 +168,16 @@ x-years-short =
         [many] { $count } mbl
        *[other] { $count } bl
     }
+help-make-dataset = Cabhraigh linn tacar sonraí oscailte den chéad scoth a thógáil
+profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
+sign-up-account = Cláraigh
+
+## Account Benefits
+
+benefits = Buntáistí
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -205,8 +225,6 @@ english = Béarla
 
 ## ProfileForm
 
-profile-form-cancel = Fág an Fhoirm
-profile-form-delete = Scrios mo Phróifíl
 profile-form-username =
     .label = Ainm Úsáideora
 profile-form-language =
@@ -217,50 +235,55 @@ profile-form-age =
     .label = Aois
 profile-form-gender =
     .label = Inscne
+leaderboard-visibility =
+    .label = Infheictheacht an Tábla
+hidden = I bhfolach
+visible = Infheicthe
+native-language =
+    .label = Teanga Dhúchais
 profile-form-submit-save = Sábháil
 profile-form-submit-saved = Sábháilte
-profile-keep-data = Coinnigh na Sonraí
-profile-delete-data = Scrios na Sonraí
 male = Fear
 female = Bean
 # Gender
 other = Eile
 why-profile-title = Cén fáth a bhfuil gá le próifíl?
 why-profile-text = Má sholáthraíonn tú roinnt eolais fútsa féin, beidh na sonraí fuaime a thugann tú do Common Voice i bhfad níos úsáidí d'innill aitheanta cainte a úsáideann na sonraí seo chun an cruinneas a fheabhsú.
+dashboard = Painéal Eolais
+build-profile = Tóg Próifíl
+avatar = Abhatár
+goals = Spriocanna
+settings = Socruithe
 edit-profile = Cuir mo Phróifíl in Eagar
-profile-create = Cruthaigh próifíl
 profile-create-success = Cruthaíodh do phróifíl!
 profile-close = Dún
-profile-clear-modal = Má ghlanann tú do phróifíl, ní sheolfar an fhaisnéis dhéimeagrafach seo chuig Common Voice in éindí le do chuid taifeadtaí.
 profile-explanation = Cruthaigh próifíl chun do chuid oibre a leanúint agus chun cabhrú linn cruinneas na sonraí gutha a fheabhsú.
+thanks-for-account = Go raibh maith agat as do chuntas a dheimhniú. Tógaimis do phróifíl anois.
+why-demographic = Cén fáth?
+login-identity = Aitheantas
+login-signup = Logáil Isteach / Clárú
+edit = Eagar
+download-profile = Íoslódáil mo chuid sonraí
+off = As
+on = Ann
+add-avatar-title = Cuir abhatár le do phróifíl
+browse-file-title = Uaslódáil pictiúr
+connect-gravatar = Ceangail le Gravatar
+gravatar_not_found = Níl aon gravatar ceangailte le do sheoladh r-phoist
+file_too_large = Tá an comhad seo rómhór
+email-already-used = Tá an seoladh r-phoist seo ceangailte le cuntas eile cheana
+add-language = Teanga Nua
 
 ## FAQ
 
 faq-title = Ceisteanna Coitianta
-faq-what-q = Cad é Common Voice?
-faq-what-a = Is dócha go n-athróidh teicneolaíocht aitheanta cainte na bealaí a dhéanaimid idirghníomhú le ríomhairí, ach tá na córais atá ar fáil faoi láthair an-chostasach agus faoi ghlas. An sprioc atá ag Common Voice ná teicneolaíocht aitheanta cainte a chur ar fáil do chách. Bronnfaidh an pobal taifeadtaí do bhunachar sonraí ollmhór a bheidh aon duine ábalta a úsáid chun córas aitheanta cainte a thraenáil gan mórán stró. Cuirfimid na sonraí go léir ar fáil d'fhorbróirí.
-faq-important-q = Cén fáth a bhfuil sé tábhachtach?
-faq-important-a = Is rud nádúrtha guth an duine. Is é an teanga labhartha an bealach is éasca is nádúrtha cumarsáid a dhéanamh. Ba chóir d'fhorbróirí a bheith ábalta rudaí iontacha a thógáil, ó aistritheoirí fíor-ama go cúntóirí pearsanta guthchumasaithe. Ach níl go leor sonraí ar fáil go poiblí faoi láthair chun aipeanna den sórt seo a thógáil. Tá súil againn go soláthróidh Common Voice na hacmhainní atá ag teastáil ó fhorbóirí chun rudaí nuálacha a chruthú.
-faq-get-q = An féidir liom na sonraí Common Voice a íoslódáil?
-faq-get-a = Tá an tacar sonraí ar fáil anois ar <downloadLink>an leathanach íoslódála</downloadLink> de réir téarmaí an cheadúnais <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Cén fáth ar cuid de mhisean Mozilla é Common Voice?
-faq-mission-a = An bunchuspóir atá ag Mozilla ná Gréasán oscailte agus inrochtana a chothú. Chun é seo a dhéanamh, caithfimid cumhacht a chur i lámha daoine cruthaitheacha trí thionscadail ar nós Common Voice. Agus teicneolaíochtaí cainte ag teacht chun cinn sa lá atá inniu, creidimid gur chóir dúinn cothrom na Féinne a dheimhniú do chách. Tá gá le níos mó teangacha agus blasanna ó phobal níos leithne agus na teicneolaíochtaí seo á dtógáil agus á dtástáil. Ba mhaith le Mozilla Idirlíon sláintiúil bríomhar a chur chun cinn. Beidh Common Voice ina acmhainn phoiblí a chabhróidh le foirne Mozilla agus forbróirí ar fud an domhain.
-faq-native-q = Ní cainteoir dúchais { $lang } mé agus tá blas coimhthíoch le haithint ar mo theanga. An bhfuil sibh ag iarraidh mo ghutha mar sin féin?
-faq-native-a = Tá, cinnte. Cuid den aidhm atá againn le Common Voice ná an oiread blasanna agus is féidir a bhailiú, sa chaoi go mbeidh ríomhairí in ann <bold>gach duine</bold> a thuiscint.
-faq-firefox-q = An úsáidfidh sibh caint-go-téacs, via Common Voice, mar chuid de Firefox?
-faq-firefox-a = Níl aon teorainn leis na féidearthachtaí a bhaineann le Common Voice, agus ba mhaith linn comhéadain ghutha a thástáil i dtáirgí éagsúla, Firefox ina measc.
-faq-quality-q = Cén leibhéal cáilíochta atá ag teastáil chun leas a bhaint as an taifeadadh?
-faq-quality-a = Táimid ag lorg taifeadtaí den chaighdeán céanna a d'fheicfeadh inneall aitheanta cainte san fhiántas. Mar sin, is éagsúlacht atá uainn. Múineann seo don inneall conas is féidir déileáil le cúinsí éagsúla—caint sa chúlra, torann ó charranna nó ó ghaothrán an ríomhaire—gan botúin a dhéanamh.
-faq-hours-q = Cén fáth a bhfuil sibh ag lorg 10,000 uair?
-faq-hours-a = Seo é an líon uaireanta, a bheag nó a mhór, atá ag teastáil chun córas caint-go-téacs den chéad scoth a thraenáil.
-faq-source-q = Cad as na téacsanna?
-faq-source-a1 = Tháinig na habairtí ó rannpháirtithe éagsúla, agus ó scripteanna do scannáin ar nós <italic>It's a Wonderful Life</italic> atá ar fáil don phobal anois.
-faq-source-a2 = Is féidir leat na habairtí go léir a fháil <dataLink>san fhillteán seo</dataLink> ar GitHub.
+faq-what-cv-q = Cad é Common Voice?
 
-## Profile
+## Glossary
 
-profile-why-title = Cén fáth a bhfuil gá le próifíl?
-profile-why-content = Má sholáthraíonn tú roinnt eolais fútsa féin, beidh na sonraí fuaime a thugann tú do Common Voice i bhfad níos úsáidí d'innill aitheanta cainte a úsáideann na sonraí seo chun an cruinneas a fheabhsú.
+glossary = Gluais
+localization = Logánú
+sst = Cainte-go-téacs (STT)
 
 ## NotFound
 
@@ -289,21 +312,6 @@ data-bundle-button = Íoslódáil na Tacair Shonraí go léir
 data-bundle-description = Sonraí Common Voice chomh maith leis na tacair shonraí thuasluaite
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
 license-mixed = Measctha
-
-## Record Page
-
-record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ardán seo faoi láthair.
-record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
-record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
-record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
-record-retry = Bain triail eile as
-record-no-mic-found = Níor aimsíodh micreafón.
-record-error-too-short = Bhí an taifeadadh róghearr.
-record-error-too-long = Bhí an taifeadadh rófhada.
-record-error-too-quiet = Bhí an taifeadadh róchiúin.
-record-submit-success = D'éirigh leis! An bhfuil fonn ort cúpla ceann eile a thaifeadadh?
-record-help = Tapáil leis an taifeadadh a thosú, ansin léigh an abairt thuas os ard.
-record-cancel = Cealaigh an t-ataifeadadh
 review-terms = Má úsáideann tú Common Voice, glacann tú leis na <termsLink>Téarmaí</termsLink> agus leis an <privacyLink>bhFógra Príobháideachais</privacyLink>
 terms-agree = Aontaím
 terms-disagree = Ní aontaím
@@ -379,6 +387,15 @@ contribute-more =
        *[other] An bhfuil tú réidh { $count } ceann eile a dhéanamh?
     }
 record-cta = Tosaigh ag taifeadadh
+record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ardán seo faoi láthair.
+record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
+record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
+record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
+record-no-mic-found = Níor aimsíodh micreafón.
+record-error-too-short = Bhí an taifeadadh róghearr.
+record-error-too-long = Bhí an taifeadadh rófhada.
+record-error-too-quiet = Bhí an taifeadadh róchiúin.
+record-cancel = Cealaigh an t-ataifeadadh
 record-instruction = { $actionType } <recordIcon></recordIcon>ansin léigh an abairt os ard
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> nuair a bheidh tú críochnaithe
 record-three-more-instruction = Trí cinn fágtha!
@@ -402,3 +419,13 @@ listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
 nothing-to-validate = Níl aon ábhar le deimhniú sa teanga seo; cabhraigh linn an ciú a líonadh!
 record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Scrios mo Phróifíl
