@@ -188,7 +188,7 @@ whats-public = Mikä on julkista?
 email-not-public = Emme julkaise sähköpostiosoitettasi.
 recordings-and-locale-public = Tallenteiden määrä ja tieto siitä mihin kieliin olet osallistunut ovat julkisia.
 username-optin-public = Voit tehdä käyttäjätunnuksestasi joko julkisen tai nimettömän.
-demographic-deidentified = Valinnaisesti demografiset tiedot (esim. ikä, sukupuoli, kieli ja korostus) muunnetaan tunnistamattomiksi lähettämistäsi tiedoista eikä niitä koskaan julkisteta profiilissasi.
+demographic-deidentified = Valinnaisesti demografiset tiedot (esim. ikä, sukupuoli, kieli ja murre) muunnetaan tunnistamattomiksi lähettämistäsi tiedoista eikä niitä koskaan julkisteta profiilissasi.
 username-email-not-demographic = Käyttäjätunnustasi ja sähköpostiosoitettasi ei liitetä julkaistuun aineistoon.
 
 ## Speak & Listen Shortcuts
@@ -239,7 +239,7 @@ profile-form-username =
 profile-form-language =
     .label = Kieli
 profile-form-accent =
-    .label = Korostus
+    .label = Murre
 profile-form-age =
     .label = Ikä
 profile-form-gender =
@@ -269,7 +269,7 @@ profile-close = Sulje
 profile-explanation = Pidä kirjaa edistymisestäsi profiilin avulla ja auta tarkentamaan ääniaineistoamme.
 thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
-why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja korostus, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
+why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja murre, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
 keep-me-posted =
     .label = Haluan saada päivityksiä ja pysyä ajan tasalla Common Voice -projektin tapahtumista.
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
