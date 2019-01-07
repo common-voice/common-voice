@@ -342,11 +342,11 @@ faq-why-10k-hours-q = Wêrom is de doelstelling foar lûdsopnamen 10.000 oer per
 faq-why-10k-hours-a = Dit is ûngefear it oantal nedige oeren om in operasjoneel spraak-nei-tekst-systeem te trainen.
 faq-how-calc-hours-q = Hoe berekkenet Common Voice de oeren?
 faq-how-calc-hours-a = Wy berekkenje de oeren troch de gemiddelde lingte fan elke opname te skatten en ferfolgens dat oantal te fermannichfâldigjen mei it totale oantal opnamen yn alle talen.
-faq-where-src-from-q = Wêr komt de boarnetekst fuort?
-faq-where-src-from-a =
-    Us boarnetekst bestiet út orizjinele donaasjes fan dielnimmers en sinnen út iepenbiere filmscripts lykas <italic>It's a Wonderful Life</ italic>.
+faq-where-src-from-2-q = Wêr komt de boarnetekst fuort?
+faq-where-src-from-2-a =
+    Us boarnetekst bestiet út orizjinele donaasjes fan bydragers en dialogen út iepenbiere filmscripts lykas <italic>It’s a Wonderful Life</italic>.
     
-    Jo kinne ús boarnesinnen besjen yn dizze GitHub-map.
+    Jo kinne ús boarnesinnen besjen yn <githubLink>dizze GitHub-map</githubLink>.
 faq-why-not-ask-read-q = Wêrom freegje jimme net gewoan oan minsken om yn ferskillende talen út boeken of Wikipedia-artikelen te lêzen?
 faq-why-not-ask-read-a = Om de Common Voice-gegevensset sa nuttich mooglik te meitsjen, hawwe wy besletten om allinnich boarnetekst ta te stean dy't beskikber is ûnder in Creative Commons (CC0)-lisinsje. It gebrûk fan de CC0-standert betsjut dat it swierder is om boarnetekst te finen en te sammeljen, mar elkenien kin de resultearjende spraakgegevens brûke sûnder brûksbeheiningen of tastimming fan Mozilla. Uteinlik wolle wy de meartalige gegevensset sa nuttich mooglik meitsje foar elkenien, ynklusyf ûndersikers, universiteiten, start-ups, oerheden, sosjale doelgroepen en hobbyisten.
 faq-why-account-q = Wêrom soe ik in account oanmeitsje?
