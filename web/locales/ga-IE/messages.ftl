@@ -422,10 +422,50 @@ share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
 
 ## Goals
 
+streaks = Sraitheanna
+days =
+    { $count ->
+        [one] Lá
+        [two] Lá
+        [few] Lá
+        [many] Lá
+       *[other] Lá
+    }
+recordings =
+    { $count ->
+        [one] Taifead
+        [two] Thaifead
+        [few] Thaifead
+        [many] dTaifead
+       *[other] Taifead
+    }
+validations =
+    { $count ->
+        [one] Deimhniú
+        [two] Dheimhniú
+        [few] Dheimhniú
+        [many] nDeimhniú
+       *[other] Deimhniú
+    }
 
 ## Dashboard
 
+your-languages = Do Chuid Teangacha
+toward-next-goal = I dtreo an chéad sprice eile
+clips-you-recorded = Gearrthóga a thaifead tú
+clips-you-validated = Gearrthóga a dheimhnigh tú
+stats = Staitisticí
+you = Tusa
+everyone = Gach Duine
+contribution-activity = Gníomhaíocht
+top-contributors = Barr-Rannpháirtithe
+recorded-clips = Gearrthóga Taifeadta
+validated-clips = Gearrthóga Deimhnithe
+total-approved = Líon Iomlán Deimhnithe
+overall-accuracy = Cruinneas Iomlán
 
 ## Profile Delete
 
+keep = Coinnigh
+remove = Scrios
 profile-form-delete = Scrios mo Phróifíl
