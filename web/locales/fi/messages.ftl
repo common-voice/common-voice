@@ -128,13 +128,13 @@ home-title = Common Voice on Mozilla-projekti, jonka tavoitteena on opettaa kone
 home-cta = Puhu, avusta täällä!
 wall-of-text-start = Ääni on luonnollista ja inhimillistä. Siksi haluamme luoda käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin laaja ääniaineisto.
 wall-of-text-more-mobile = Suurin osa suuryritysten käyttämästä aineistosta ei ole laajasti käytettävissä. Meistä se tukahduttaa innovaation. Siitä syystä käynnistimme Common Voice -projektin, joka auttaa avaamaan puheentunnistuksen kaikille.
-wall-of-text-more-desktop = Voit lahjoittaa ääntäsi auttaaksesi meitä rakentamaan avoimen lähdekoodin äänitietokantaa, jota kuka tahansa voi hyödyntää innovatiivisissa sovelluksissa ja internetissä. <lineBreak></lineBreak> Lue virke ja auta koneita oppimaan kuinka ihmiset puhuvat. Tarkista muiden puhujien työtä laadun parantamiseksi. Niin helppoa se on.
-wall-of-text-first = Ääni on luonnollinen, ääni on inhimillinen. Siksi olemme kiinnostuneita luomaan käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin paljon puheaineistoa.
+wall-of-text-more-desktop = Voit lahjoittaa äänesi auttaaksesi meitä rakentamaan avoimen lähdekoodin äänitietokantaa, jota kuka tahansa voi hyödyntää innovatiivisissa sovelluksissa ja internetissä. <lineBreak></lineBreak> Lue virke ja auta koneita oppimaan kuinka ihmiset puhuvat. Tarkasta muiden puhujien ääninäytteitä laadun parantamiseksi. Niin helppoa se on!
+wall-of-text-first = Ääni on luonnollista ja inhimillistä. Siksi olemme kiinnostuneita luomaan käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin laaja ääniaineisto.
 wall-of-text-second = Suurin osa suuryritysten käyttämästä aineistosta ei ole laajasti käytettävissä. Meistä se tukahduttaa innovaation. Siitä syystä käynnistimme Common Voice -projektin, joka auttaa avaamaan puheentunnistuksen kaikille.
 show-wall-of-text = Lue lisää
-help-us-title = Auta lauseiden varmentamisessa.
+help-us-title = Auta lauseiden tarkastamisessa.
 help-us-explain = Paina toistonappia, kuuntele ja kerro: vastaako puhuttu täsmällisesti alla olevaa virkettä?
-no-clips-to-validate = Tällä kielellä ei ole yhtään ääninäytteitä. Auta meitä täyttämään listaa äänittämällä muutamia.
+no-clips-to-validate = Tällä kielellä ei ole yhtään ääninäytettä. Auta meitä täyttämään jonoa äänittämällä muutamia.
 vote-yes = Kyllä
 vote-no = Ei
 toggle-play-tooltip = Paina nappia { shortcut-play-toggle } vaihtaaksesi soittotilaa päälle/pois
@@ -221,11 +221,11 @@ request-language-button = Pyydä kieltä lisättäväksi
 ## ProjectStatus
 
 status-title = Projektin yleiskatsaus: näin pitkällä olemme.
-status-contribute = Lahjoita ääntäsi
+status-contribute = Lahjoita äänesi
 status-hours =
     { $hours ->
-        [one] yksi tunti tarkistettu.
-       *[other] { $hours } tuntia tarkistettu.
+        [one] Yksi tunti tarkastettu!
+       *[other] { $hours } tuntia tarkastettu!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -364,7 +364,7 @@ de-identified-explanation = Prosessi, jolla avustajien profiilitiedot peitetää
 ## NotFound
 
 notfound-title = Ei löytynyt
-notfound-content = Valitettavasti se mitä haet ei ole tiedossa.
+notfound-content = Valitettavasti en tiedä mitä etsit.
 
 ## Data
 
@@ -393,8 +393,8 @@ terms-agree = Hyväksyn
 terms-disagree = En hyväksy
 review-aborted = Lähetys peruttiin. Poistetaanko nauhoitukset?
 review-submit-title = Tarkista ja lähetä
-review-submit-msg = Kiitos nauhoituksesta. <lineBreak></lineBreak> Tarkista ja lähetä äänitykset alla.
-review-recording = Tarkista
+review-submit-msg = Kiitos äänityksestä. <lineBreak></lineBreak> Tarkasta ja lähetä ääninäytteet alla.
+review-recording = Tarkasta
 review-rerecord = Uudelleennauhoita
 review-cancel = Peru lähetys
 review-keep-recordings = Säilytä nauhoitteet
@@ -403,10 +403,10 @@ review-delete-recordings = Poista nauhoitukset
 ## Download Modal
 
 download-title = Lataus on alkanut.
-download-helpus = Auta meitä rakentamaan puheteknologiayhteisöä ja pysy yhteyksissä sähköpostitse
+download-helpus = Auta meitä rakentamaan puheteknologiayhteisöä ja pysy yhteyksissä sähköpostitse.
 download-form-email =
-    .label = Kirjoita sähköpostiosoite
-    .value = Kiitos, otamme yhteyttä
+    .label = Anna sähköpostiosoitteesi
+    .value = Kiitos, olemme yhteydessä.
 download-back = Palaa Common Voice -aineistoihin
 download-no = Ei kiitos
 
@@ -462,35 +462,35 @@ contribute-more =
        *[other] Pystytkö tekemään { $count } lisää?
     }
 record-cta = Uusi äänite
-record-platform-not-supported = Valitettavasti tämä alusta ei ole tuettu
+record-platform-not-supported = Olemme pahoillamme, mutta alustasi ei ole tällä hetkellä tuettu.
 record-platform-not-supported-desktop = Pöytätietokoneille voi ladata viimeisimmän:
 record-platform-not-supported-ios = <bold>iOS</bold>-käyttäjät voivat ladata ilmaisen mobiilisovelluksen:
-record-must-allow-microphone = Mikrofoninkäyttölupa pitää myöntää sovellukselle
-record-no-mic-found = Ei löytynyt mikrofonia
-record-error-too-short = Nauhoite on liian lyhyt.
-record-error-too-long = Nauhoite on liian pitkä.
+record-must-allow-microphone = Sinun on annettava sovellukselle lupa käyttää mikrofonia.
+record-no-mic-found = Mikrofonia ei löytynyt.
+record-error-too-short = Ääninäyte on liian lyhyt.
+record-error-too-long = Ääninäyte on liian pitkä.
 record-error-too-quiet = Ääninäyte on liian hiljainen.
 record-cancel = Peru uudelleennauhoitus
 record-instruction = { $actionType } <recordIcon></recordIcon> ja lue virke ääneen
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kun olet valmis
 record-three-more-instruction = Kolme jäljellä!
-record-again-instruction = Loistavaa, <recordIcon></recordIcon> nauhoita seuraava
-record-again-instruction2 = Hyvää työtä, nauhoita uudelleen <recordIcon></recordIcon>
+record-again-instruction = Loistavaa! <recordIcon></recordIcon> Äänitä seuraava
+record-again-instruction2 = Hyvää työtä, äänitä uudelleen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Viimeinen!
-review-tooltip = Tarkista ja uudelleennauhoita sitä mukaa kun etenet
+review-tooltip = Tarkasta ja uudelleenäänitä sitä mukaa kun etenet
 unable-speak = Etkö voi puhua tällä hetkellä?
-review-instruction = Tarkista ja uudelleennauhoita tarvittaessa
+review-instruction = Tarkasta ja uudelleenäänitä tarvittaessa
 record-submit-tooltip = { $actionType } lähetä kun valmis
 clips-uploaded = Näytteitä ladattu
-record-abort-title = Viimeistele nauhoittaminen ensin?
-record-abort-text = Poistuminen tarkoittaa että kaikki edistys hylätään
+record-abort-title = Viimeistele äänittäminen ensin?
+record-abort-text = Poistuminen tarkoittaa, että menetät edistymisesi
 record-abort-submit = Lähetä äänileikkeet
-record-abort-continue = Lopeta nauhoittaminen
+record-abort-continue = Lopeta äänittäminen
 record-abort-delete = Poistu ja poista äänileikkeet
 listen-instruction = { $actionType }<playIcon></playIcon> oliko virke puhuttu täsmällisesti?
-listen-again-instruction = Hienoa työtä, <playIcon></playIcon> kuuntele lisää
-listen-3rd-time-instruction = 2 tehty, jatka samaan malliin, <playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon> viimeinen!
+listen-again-instruction = Hienoa työtä! <playIcon></playIcon> Kuuntele uudestaan, kun olet valmis
+listen-3rd-time-instruction = 2 tehty, jatka samaan malliin! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Viimeinen!
 nothing-to-validate = Meillä ei ole tarkistettavia näytteitä tälle kielelle, auta meitä täyttämään jono.
 record-button-label = Tallenna äänesi
 share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
