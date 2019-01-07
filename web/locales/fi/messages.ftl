@@ -127,10 +127,10 @@ logout = Kirjaudu ulos
 home-title = Common Voice on Mozilla-projekti, jonka tavoitteena on opettaa koneet puhumaan kuin oikeat ihmiset.
 home-cta = Puhu, avusta täällä!
 wall-of-text-start = Ääni on luonnollista ja inhimillistä. Siksi haluamme luoda käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin laaja ääniaineisto.
-wall-of-text-more-mobile = Suurin osa suuryritysten käyttämästä aineistosta ei ole saatavilla suurimmalle osalle ihmisiä. Meistä se tukahduttaa innovaation. Siitä syystä aloitimme Common Voice -projektin, joka auttaa tekemään puheentunnistuksen avoimeksi kaikille.
+wall-of-text-more-mobile = Suurin osa suuryritysten käyttämästä aineistosta ei ole laajasti käytettävissä. Meistä se tukahduttaa innovaation. Siitä syystä käynnistimme Common Voice -projektin, joka auttaa avaamaan puheentunnistuksen kaikille.
 wall-of-text-more-desktop = Voit lahjoittaa ääntäsi auttaaksesi meitä rakentamaan avoimen lähdekoodin äänitietokantaa, jota kuka tahansa voi hyödyntää innovatiivisissa sovelluksissa ja internetissä. <lineBreak></lineBreak> Lue virke ja auta koneita oppimaan kuinka ihmiset puhuvat. Tarkista muiden puhujien työtä laadun parantamiseksi. Niin helppoa se on.
 wall-of-text-first = Ääni on luonnollinen, ääni on inhimillinen. Siksi olemme kiinnostuneita luomaan käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin paljon puheaineistoa.
-wall-of-text-second = Suurin osa suuryritysten käyttämästä aineistosta ei ole saatavilla suurimmalle osalle ihmisiä. Meistä se haittaa innovaatiota. Siitä syystä aloitimme Common Voice -projektin; se auttaa tekemään puheentunnistuksen saataville kaikille.
+wall-of-text-second = Suurin osa suuryritysten käyttämästä aineistosta ei ole laajasti käytettävissä. Meistä se tukahduttaa innovaation. Siitä syystä käynnistimme Common Voice -projektin, joka auttaa avaamaan puheentunnistuksen kaikille.
 show-wall-of-text = Lue lisää
 help-us-title = Auta lauseiden varmentamisessa.
 help-us-explain = Paina toistonappia, kuuntele ja kerro: vastaako puhuttu täsmällisesti alla olevaa virkettä?
@@ -146,7 +146,7 @@ listen-paragraph = Lahjoitettujen näytteiden tarkastaminen on yhtä tärkeää 
 listen-goal-text = Näytettä tarkastettu
 hours-recorded = Tunteja tallennettu
 hours-validated = Tunteja tarkastettu
-voices-online = Ääniä linjoilla nyt
+voices-online = Ääniä aktiivisena
 todays-progress = Tämän päivän edistyminen
 help-reach-goal = Auta meitä saavuttamaan { $goal }
 read-terms-q = Oletko lukenut käyttöehtomme?
@@ -168,14 +168,14 @@ x-years-short =
         [one] { $count } v
        *[other] { $count } v
     }
-help-make-dataset = Auta meitä rakentamaan korkealaatuinen ja avoin aineisto
-profile-not-required = Profiili ei ole välttämätön osallistumiseen, vaikka siitä on hyötyä
-sign-up-account = Luo käyttäjätili
+help-make-dataset = Auta meitä keräämään korkealaatuinen ja avoin aineisto
+profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
+sign-up-account = Rekisteröidy palvelun käyttäjäksi
 
 ## Account Benefits
 
-benefits = Hyödyt
-rich-data = Rikasta lähettämiäsi tietoja antamalla joitakin nimettömiä demografisia tietoja. Muutamme demografiset tiedot tunnistamattomiksi ennen niiden julkaisemista.
+benefits = Rekisteröitymisen hyödyt
+rich-data = Rikasta lähettämiäsi tietoja antamalla joitakin demografisia tietoja. Muutamme tiedot nimettömäksi ennen niiden julkaisemista.
 improve-audio = Profiilitiedot parantavat puheentunnistuksen opettamiseen käytettäviä tietoja.
 keep-track = Seuraa edistymistäsi ja mittareitasi useissa kielissä.
 compare-progress = Vertaile edistymistäsi muihin osallistujiin ympäri maailmaa.
