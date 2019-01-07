@@ -117,7 +117,7 @@ cookies = Evästeet
 faq = Usein kysytyt kysymykset
 content-license-text = Sisältö on saatavilla <licenseLink>Creative Commons -lisenssillä</licenseLink>
 share-title = Auta meitä löytämään muita lahjoittamaan äänensä!
-share-text = Auta opettamaan koneita kuinka oikeat ihmiset puhuvat, lahjoita ääntäsi täällä: { $link }
+share-text = Auta opettamaan koneita kuinka oikeat ihmiset puhuvat, lahjoita äänesi täällä: { $link }
 link-copied = Linkki kopioitu
 back-top = Takaisin ylös
 logout = Kirjaudu ulos
@@ -373,21 +373,21 @@ data-download-yes = Kyllä
 data-download-deny = Ei
 data-download-license = Lisenssi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Olet aikeissa ladata <size>{ $size } Gt</size>, jatketaanko?
-data-subtitle = Rakennamme avointa ja vapaasti käytettävää puheaineistoa jota kuka tahansa voi hyödyntää puhesovellusten tuottamiseen
-data-explanatory-text = Uskomme että laajat ja vapaasti käytettävissä olevat puheaineistot auttavat innovoinnissa ja tuovat tervettä kilpailua koneoppimispohjaisen puheteknologian markkinoille. Tämä projekti on maailmanlaajuinen ja kaikki ovat tervetulleita osallistumaan. Tarkoituksenamme on tehdä puheteknologiasta inklusiivisempaa, ja vastata maailman äänten aitoa monipuolisuutta.
-data-get-started = <speechBlogLink>Aloita puheentunnistuksen kanssa</speechBlogLink>
+data-subtitle = Keräämme avointa ja vapaasti käytettävää puheaineistoa, jota kuka tahansa voi hyödyntää puhesovellusten tuottamiseen
+data-explanatory-text = Uskomme, että laajat ja vapaasti käytettävissä olevat puheaineistot ruokkivat innovaatiota ja tervettä kilpailua koneoppimispohjaisen puheteknologian markkinoille. Tämä projekti on maailmanlaajuinen ja kaikki ovat tervetulleita osallistumaan. Tarkoituksenamme on tehdä puheteknologiasta osallistuttavampaa ja maailman äänten monipuolisuutta paremmin vastaavaa.
+data-get-started = <speechBlogLink>Lähde liikkeelle puheentunnistuksessa</speechBlogLink>
 data-other-title = Muut ääniaineistot...
-data-other-goto = Siirry kohtaan { $name }
+data-other-goto = Siirry sivustolle { $name }
 data-other-download = Lataa aineisto
 data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
 data-other-ted-name = TED-LIUM-korpus
-data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja transkripteistä TED-sivustolta.
-data-other-voxforge-description = VoxForge pystytettiin keräämään transkriboitua puhetta vapaista avoimen lähdekoodin puheentunnistusjärjestelmistä.
-data-other-tatoeba-description = Tatoeba on laaja virketietokanta, joka sisältää käännöksiä ja puhenauhoitteita kielenoppimistarkoituksiin. Tämä aineisto on englanninkielisiä nauhoitteita.
+data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
+data-other-voxforge-description = VoxForge-projekti perustettiin keräämään tekstitettyä puhetta vapaista avoimen lähdekoodin puheentunnistusmoottoreista.
+data-other-tatoeba-description = Tatoeba on laaja virketietokanta, joka sisältää käännöksiä ja puhenauhoitteita kielenoppimistarkoituksiin. Tämä aineisto on englanniksi.
 data-bundle-button = Lataa koottu aineistokokoelma
 data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineistot
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
-license-mixed = Monia
+license-mixed = Useita
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy
@@ -421,7 +421,7 @@ contact-required = *pakollinen
 
 ## Request Language Modal
 
-request-language-title = Kielipyyntö
+request-language-title = Pyyntö lisätä kieli
 request-language-form-language =
     .label = Kieli
 request-language-success-title = Kielipyyntö lähetetty, kiitos.
@@ -430,9 +430,9 @@ request-language-success-content = Otamme yhteyttä siitä miten voidaan lisät�
 ## Languages Overview
 
 language-section-in-progress = Työn alla
-language-section-in-progress-description = Työn alla olevia kieliä yhteisö työstää parhaillaan, niiden kehitys kertoo missä vaiheessa ne ovat verkkosivujen lokalisoinnissa ja lauseiden keruussa
-language-section-launched = Aloitettu
-language-section-launched-new-description = Seuraavilla julkistetuilla kielillä web-sivusto on käännetty onnistuneesti ja on kerätty tarpeeksi virkkeitä <italic>puhumisen</italic> sekä <italic>kuuntelemisen</italic> mahdollistamiseksi.
+language-section-in-progress-description = Työn alla olevia kieliä yhteisö työstää parhaillaan. Niiden kehitys kertoo missä vaiheessa ne ovat verkkosivujen kääntämisessä ja lauseiden keräämisessä.
+language-section-launched = Julkistettu
+language-section-launched-new-description = Seuraavien kielten web-sivusto on käännetty ja niille on kerätty tarpeeksi virkkeitä <italic>puhumisen</italic> sekä <italic>kuuntelemisen</italic> aloittamiseksi.
 languages-show-more = Lisää
 languages-show-less = Vähemmän
 language-speakers = Puhujat
@@ -443,7 +443,7 @@ language-search-input =
 language-speakers = Puhujat
 localized = Lokalisoitu
 sentences = Lauseet
-total-hours = Tarkistetut tunnit
+total-hours = Tarkastetut tunnit
 
 ## New Contribution
 
@@ -461,7 +461,7 @@ contribute-more =
         [one] Pystytkö tekemään { $count }:n lisää?
        *[other] Pystytkö tekemään { $count } lisää?
     }
-record-cta = Uusi nauhoitus
+record-cta = Uusi äänite
 record-platform-not-supported = Valitettavasti tämä alusta ei ole tuettu
 record-platform-not-supported-desktop = Pöytätietokoneille voi ladata viimeisimmän:
 record-platform-not-supported-ios = <bold>iOS</bold>-käyttäjät voivat ladata ilmaisen mobiilisovelluksen:
@@ -487,7 +487,7 @@ record-abort-text = Poistuminen tarkoittaa että kaikki edistys hylätään
 record-abort-submit = Lähetä äänileikkeet
 record-abort-continue = Lopeta nauhoittaminen
 record-abort-delete = Poistu ja poista äänileikkeet
-listen-instruction = { $actionType }<playIcon></playIcon> onko tämä virke tarkalleen oikein puhuttu?
+listen-instruction = { $actionType }<playIcon></playIcon> oliko virke puhuttu täsmällisesti?
 listen-again-instruction = Hienoa työtä, <playIcon></playIcon> kuuntele lisää
 listen-3rd-time-instruction = 2 tehty, jatka samaan malliin, <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> viimeinen!
