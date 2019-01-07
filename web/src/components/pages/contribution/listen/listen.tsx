@@ -130,7 +130,7 @@ class ListenPage extends React.Component<Props, State> {
     const { clips } = this.state;
     const clipIndex = this.getClipIndex();
 
-    clearInterval(this.playedSomeInterval);
+    this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
     this.setState({
       hasPlayed: false,
