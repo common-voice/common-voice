@@ -295,6 +295,8 @@ faq-title = よくある質問
 
 ## Glossary
 
+glossary = 用語集
+localization = ローカライズ
 
 ## NotFound
 
