@@ -15,6 +15,7 @@ loading = Восьтӧм...
 ## Languages
 
 ace = Ачех кыв
+af = Африкаанс кыв
 an = Арагон кыв
 ar = Араб кыв
 as = Ассам кыв
@@ -146,6 +147,7 @@ todays-progress = Талунъя сӧвмӧм
 help-reach-goal = Отсалӧй миянлы судзӧдны { $goal }
 read-terms-q = Ті лыддинныд нин Сёрнитчӧмнымӧс?
 ready-to-record = Дасьӧсь сетны ассьыныд гор?
+all-locales = Ставыс
 today = Талун
 x-weeks-short =
     { $count ->
