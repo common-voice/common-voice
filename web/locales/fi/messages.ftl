@@ -189,6 +189,7 @@ email-not-public = Emme julkaise sähköpostiosoitettasi.
 recordings-and-locale-public = Tallenteiden määrä ja tieto siitä mihin kieliin olet osallistunut ovat julkisia.
 username-optin-public = Voit tehdä käyttäjätunnuksestasi joko julkisen tai nimettömän.
 demographic-deidentified = Valinnaisesti demografiset tiedot (esim. ikä, sukupuoli, kieli ja korostus) muunnetaan tunnistamattomiksi lähettämistäsi tiedoista eikä niitä koskaan julkisteta profiilissasi.
+username-email-not-demographic = Käyttäjätunnustasi ja sähköpostiosoitettasi ei liitetä julkaistuun aineistoon.
 
 ## Speak & Listen Shortcuts
 
@@ -269,6 +270,8 @@ profile-explanation = Pidä kirjaa edistymisestäsi profiilin avulla ja auta tar
 thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
 why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja korostus, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
+keep-me-posted =
+    .label = Haluan saada päivityksiä ja pysyä ajan tasalla Common Voice -projektin tapahtumista.
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
 login-identity = Käyttäjätunnus
 login-signup = Kirjaudu / Rekisteröidy
@@ -301,7 +304,13 @@ faq-what-cv-a =
     
     Me emme kerää ääninäytteitä vain eniten puhutuista, vaan myös vähemmän puhutuista kielistä. Monipuolisen ääniaineiston julkaiseminen antaa kehittäjille, yrittäjille ja yhteisöille mahdollisuuden käsitellä kielten välistä kuilua itse. Common Voice -aineiston lisäksi me rakennamme myös avoimen lähdekoodin puheentunnistusmoottoria nimeltä Deep Speech.
 faq-why-important-q = Miksi se on tärkeää?
+faq-why-important-a =
+    Puhe on usein luonnollisin tapa viestiä toisten kanssa. Puheteknologiat tuovat tämän mukavuuden tietokoneisimme ja mobiililaitteisiimme. Haluamme antaa kehittäjille mahdollisuuden rakentaa uskomattomia puheentunnistusohjelmia, kuten reaaliaikaisia kääntäjiä ja ääniominaisuuksia sisältäviä digitaalisia avustajia. Mutta tällä hetkellä suurin osa siihen tarvittavasta ääniaineistosta on kallista ja suljettua. Me toivomme Common Voice -aineiston tarjoavan kehittäjille mitä he tarvitsevat innovoidakseen ja tarjotakseen puheteknologiaa omalla kielellään.
+    
+    Tehdäksemme puheentunnistuksesta vieläkin yleisempää, keräämme ääninäytteitä yleisimmin puhuttujen kielien lisäksi vähiten puhutuista, joihin usein ei ole saatavilla kaupallisia puheentunnistuspalveluja. Julkaisemalla monipuolisen ääniaineiston annamme kehittäjille, yrittäjille ja kokonaisille puheyhteisöille mahdollisuuden käsitellä kielten välistä kuilua itse.
 faq-how-get-q = Miten voin saada Common Voice -aineistot?
+faq-how-get-a = Common Voice -aineisto on ladattavissa <licenseLink>CC0</LicenseLink>-lisenssillä <datasetLink>aineistot-sivultamme</datasetLink>. Voit myös ladata useita muita avoimia aineistoja samalta sivulta.
+faq-when-release-q = Koska julkaisette Common Voice -aineistot muilla kielillä?
 faq-do-want-native-q = En ole syntyperäinen puhuja ja puhun korostaen. Haluatteko silti ääneni?
 faq-why-my-lang-q = Miksei kieleni ole vielä mukana?
 faq-how-calc-hours-q = Miten Common Voice laskee tunnit?
@@ -313,6 +322,8 @@ glossary = Sanasto
 localization = Lokalisointi
 sst = Puheentunnistus (STT)
 sst-explanation = Puheentunnistus (STT) muuntaa äänen tekstiksi.
+de-identified = Tunnistamattomaksi tekeminen
+de-identified-explanation = Prosessi, jolla avustajien profiilitiedot peitetään lahjoitetuista ääninäytteistä aineistoa paketoitaessa jakelua varten.
 
 ## NotFound
 
@@ -385,6 +396,7 @@ request-language-success-content = Otamme yhteyttä siitä miten voidaan lisät�
 language-section-in-progress = Työn alla
 language-section-in-progress-description = Työn alla olevia kieliä yhteisö työstää parhaillaan, niiden kehitys kertoo missä vaiheessa ne ovat verkkosivujen lokalisoinnissa ja lauseiden keruussa
 language-section-launched = Aloitettu
+language-section-launched-new-description = Seuraavilla julkistetuilla kielillä web-sivusto on käännetty onnistuneesti ja on kerätty tarpeeksi virkkeitä <italic>puhumisen</italic> sekä <italic>kuuntelemisen</italic> mahdollistamiseksi.
 languages-show-more = Lisää
 languages-show-less = Vähemmän
 language-speakers = Puhujat
@@ -406,6 +418,8 @@ listen = Kuuntele
 skip = Ohita
 shortcuts = Oikopolut
 clips-with-count = <bold>{ $count }</bold> näytettä
+goal-help-recording = Olet auttanut Common Voice -projektia saavuttamaan <goalPercentage></goalPercentage> päivittäisestä tavoitteestamme { $goalValue } ääninäytettä!
+goal-help-validation = Olet auttanut Common Voice -projektia saavuttamaan <goalPercentage></goalPercentage> päivittäisestä tavoitteestamme { $goalValue } tarkastusta!
 contribute-more =
     { $count ->
         [one] Pystytkö tekemään { $count }:n lisää?
@@ -470,9 +484,12 @@ your-languages = Kielesi
 toward-next-goal = Seuraavaan tavoitteeseen
 clips-you-recorded = Tallentamiasi näytteitä
 clips-you-validated = Tarkastamiasi näytteitä
+todays-recorded-progress = Tämän päivän edistyminen tallennettuja näytteitä
+todays-validated-progress = Tämän päivän edistyminen tarkastettuja näytteitä
 stats = Tilastot
 you = Sinä
 everyone = Kaikki
+contribution-activity = Aktiivisuus
 top-contributors = Parhaat osallistujat
 recorded-clips = Äänitettyjä näytteitä
 validated-clips = Tarkastettuja näytteitä
@@ -481,6 +498,9 @@ overall-accuracy = Tarkkuus yhteensä
 
 ## Profile Delete
 
+delete-q = Haluatko pyytää myös ääninäytteidesi poistamista vai säilytätkö ne mieluummin Common Voice -aineistossa?
 keep = Säilytä
 remove = Poista
+keep-info = Ääninäytteesi säilyvät nimettöminä Common Voice -tietoaineistossa. Poistettuasi profiilisi et voi enää pyytää näytteidesi poistamista tietoaineistosta.
+remove-info = Käsittelemme pyyntösi poistaa ääninäytteesi aineistosta. Jos pyyntösi hyväksytään, otamme yhteyttä aineiston ladanneisiin ja pyydämme myös heitä poistamaan ääninäytteesi.
 profile-form-delete = Poista profiili
