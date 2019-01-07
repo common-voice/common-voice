@@ -311,15 +311,51 @@ faq-why-important-a =
 faq-how-get-q = Miten voin saada Common Voice -aineistot?
 faq-how-get-a = Common Voice -aineisto on ladattavissa <licenseLink>CC0</LicenseLink>-lisenssillä <datasetLink>aineistot-sivultamme</datasetLink>. Voit myös ladata useita muita avoimia aineistoja samalta sivulta.
 faq-when-release-q = Koska julkaisette Common Voice -aineistot muilla kielillä?
+faq-when-release-a = Yhteisö rakentaa ja siivoaa Common Voice -aineiston monikielistä versiota parhaillaan. Jos haluat saada lisätietoa projektin tukemisesta, <contactLink>ota yhteyttä meihin</contactLink>. Tavoittelemme tällä hetkellä julkaisuajankohdaksi tammikuuta 2019. Sen jälkeen päivitämme aineistoa määräajoin uusilla kielillä ja ääninäytteillä sitä mukaa kun ne ovat saatavilla. Iteratiivisten julkaisujen tahti on vielä päättämättä.
+faq-why-mission-q = Miksi Common Voice on osa Mozillan tehtävää?
+faq-why-mission-a = Mozilla on sitoutunut säilyttämään Internetin avoimena ja kaikkien käytettävissä. Tehdäksemme sen meidän täytyy tukea kehittäjiä Common Voicen kaltaisilla projekteilla. Puheteknologioiden käytön yleistyessä me uskomme, että niiden täytyy palvella kaikkia käyttäjiä tasavertaisesti. Tämän vuoksi meidän on panostettava puheteknologioita kehitettäessä ja testattaessa lisää kieliin sekä murteisiin. Common Voice on kaikille avoin resurssi, jota myös Mozillan omat tiimit ja kehittäjät ympäri maailmaa käyttävät omissa projekteissamme.
+faq-what-cv-and-deepspeech-q = Mitä eroa on Common Voice ja Deep Speech -projekteilla?
+faq-what-cv-and-deepspeech-a = Common Voice -aineisto täydentää Mozillan avoimen lähdekoodin äänentunnistusta Deep Speech. Deep Speechin ensimmäinen versio julkaistiin marraskuussa 2017 ja se on jatkanut kehittymistä sen jälkeen. Uskomme, että avoimen lähdekoodin puheentunnistusteknologian pitäisi olla kaikkien saatavilla yhteisen äänidatan kanssa. Toivomme, että nämä teknologiat auttavat kehittäjiä rakentamaan innovatiivisten tuotteiden ja palveluiden aallon.
+faq-is-goal-assistant-q = Onko Common Voice -projektin tavoitteena rakentaa ääniavustaja?
+faq-is-goal-assistant-a = Common Voice -ääniaineiston tavoitteena on mahdollistaa, että kuka tahansa maailmassa voi rakentaa puheentunnistusta, puhujan tunnistusta tai muuta ääniaineistoa vaativia sovelluksia. Ääniassistentti on vain yksi monista sovelluksista, joita on mahdollista rakentaa aineiston avulla.
 faq-do-want-native-q = En ole syntyperäinen puhuja ja puhun korostaen. Haluatteko silti ääneni?
+faq-do-want-native-a = Kyllä, me haluamme erityisesti sinun äänesi! Osa Common Voice -projektin tavoitteita on kerätä mahdollisimman paljon korostuksia, jotta puheentunnistus toimisi yhtä hyvin kaikille. Tämän vuoksi lahjoitukset ei-syntyperäisiltä puhujilta ovat erityisen tärkeitä.
+faq-why-different-speakers-q = Miksi tarvitsette niin monta jokaisen kielen puhujaa?
+faq-why-different-speakers-a = Useimmat ääniaineistot on opetettu tietyn väestöryhmän yliedustuksella, mikä johtaa vinoumaan <articeLink>valkoihoisten ja keskiluokkaista</articleLink> suuntaan. Korostukset ja murteet, jotka tapaavat olla aliedustettuja ääniaineistoissa, liittyvät tyypillisesti ennalta syrjäytyneisiin ihmisryhmiin. Monilla koneilla on lisäksi haasteita naisten ymmärtämisessä. Tästä syystä me haluamme monipuolisuutta aineistoomme!
 faq-why-my-lang-q = Miksei kieleni ole vielä mukana?
+faq-why-my-lang-a = Mozilla ei valitse tai suosi yksittäisiä kieliä. Sen sijaan Common Voice on yhteisöpohjainen projekti, jossa uuden kielen lisäämiseksi tarvitaan <multiLangLink>useita vaiheita</multiLangLink> ennen äänilahjoitusten keräämistä. Ensimmäiseksi Common Voice -sivusto on käännettävä, jotta yhteisön jäsenet voivat osallistua omalla kielellään. Seuraavaksi me tarvitsemme laajan kokoelman tekijänoikeuksista vapaita lauseita ihmisten luettavaksi. Kun molemmat vaatimukset täyttyvät, kieli "julkistetaan" Common Voice -palvelussa, jotta ihmiset voivat aloittaa oman äänensä tallentamisen ja toisten lahjoitusten tarkastamisen.
+faq-what-quality-q = Minkä tasoinen äänenlaatu tarvitaan näytteen käyttämiseksi aineistossa?
+faq-what-quality-a = Haluamme Common Voice -aineiston heijastelevan puheentunnistusmoottorin luonnossa kuulemaa äänenlaatua, joten toivomme vaihtelua. Monipuolisen puhujien yhteisön lisäksi erilaista äänenlaatua sisältävä aineisto opettaa puheentunnistusmoottoria käsittelemään erilaisia tosielämän tilanteita, taustalla puhumisesta liikenteen meluun. Niin kauan kuin ääninäytteesi on ymmärrettävä, sen pitäisi olla tarpeeksi hyvä aineistoon.
+faq-why-10k-hours-q = Miksi tavoitteena on 10 000 tuntia tarkistettuja ääninäytteitä jokaista kieltä kohden?
+faq-why-10k-hours-a = Tuotantokelpoisen puheentunnistuksen opettamiseksi tarvitaan arviolta sen verran tunteja.
 faq-how-calc-hours-q = Miten Common Voice laskee tunnit?
+faq-how-calc-hours-a = Laskemme tunnit arvioimalla tallenteiden keskimääräisen pituuden ja kertomalla sen kaikkien tallenteiden kokonaismäärällä kaikilla kielillä.
 faq-where-src-from-2-q = Mistä lähdetekstit ovat peräisin?
+faq-where-src-from-2-a =
+    Lähdetekstimme ovat peräisin osallistujien lahjoituksista ja erilaisista avoimesti jaeltavista kirjoista tai muista teksteistä. 
+    
+    Voit tutustua lähdevirkkeisiimme tässä <githubLink>GitHub-kansiossa</githubLink>.
+faq-why-not-ask-read-q = Miksi ette pyydä ihmisiä lukemaan kirjoja tai Wikipedia-artikkeleita eri kielillä?
+faq-why-not-ask-read-a = Tehdäksemme Common Voice -aineistosta mahdollisimman hyödyllisen olemme päättäneet sallia vain lähdetekstit, jotka ovat käytettävissä Creative Commons (CC0) -lisenssillä. CC0-standardin edellyttäminen vaikeuttaa lähdeteksien löytämistä ja keräämistä, mutta mahdollistaa ääniaineiston käyttämisen rajoituksitta tai ilman Mozillan antamaa valtuutusta. Lopulta haluamme tehdä monikielisestä aineistosta mahdollisimman hyödyllisen kaikille, mukaanlukien tutkijoille, yliopistoille, kasvuyrityksille, valtionhallinnoille, yhteiskunnallisille järjestöille ja harrastajille.
+faq-why-account-q = Miksi minun kannattaisi rekisteröityä palveluun?
+faq-is-account-public-q = Ovatko käyttäjätilini tiedot julkisia?
+faq-how-privacy-q = Kuinka varmistatte äänensä lahjoittaneiden nimettömyyden ja yksityisyydensuojan?
+faq-how-privacy-a = Kaikista aineiston ääninäytteistä poistetaan henkilötiedot. Avustajien profiileihinsa syöttämät demografiset tiedot tehdään tunnistamattomiksi ääninäytteistä ennen aineistoon sisällyttämistä, eikä niitä koskaan julkaista profiilisivuilla.
+faq-what-determine-identity-q = Mitä tarkoittaa se, että en pysty "tunnistamaan puhujia" Common Voice -aineistosta?
+faq-what-determine-identity-a =
+    Common Voice -aineisto on avoin ja julkisesti saatavilla oleva resurssi, jota voidaan käyttää monenlaisiin puheominaisuuksia sisältäviin sovelluksiin. Suojellaksemme avustajiemme turvallisuuden pyydämme Common Voice -ääniaineiston lataajia kunnioittamaan avustajien yksityisyyttä.
+    
+    Kaikista aineiston ääninäytteistä poistetaan henkilötiedot. Kun lataat aineiston, sitoudut olemaan yrittämättä tunnistaa ketään osallistujaa. Tämä tarkoittaa, että et voi yrittää yhdistää aineiston tietoja osallistujien henkilöllisyyteen. Voit sen sijaan käyttää aineistoa puheentunnistuksen opettamiseen, puhujien tunnistamiseen, tai muihin sovelluksiin esimerkiksi liittämällä aineiston tietoja muihin aineistosta löytyviin tietoihin.
 
 ## Glossary
 
 glossary = Sanasto
 localization = Lokalisointi
+localization-explanation = Tämä on prosessi, jolla käännämme ja mukautamme sisältömme useille kielille.
+sentence-collection = Virkekokoelma
+sentence-collection-explanation = Vapaassa levityksessä olevien virkkeiden kerääminen tai uusien virkkeiden kirjoittaminen vapaaseen levitykseen.
+hours-recorded-explanation = Tähän mennessä keräämiemme äänitallenteiden määrä tunteina.
+hours-validated-explanation = Äänitallenteiden, jotka kaksi kolmesta käyttäjästä on vahvistanut äänestämällä "kyllä", lukumäärä. Nämä lasketaan edistymiseen kohti projektin 10 000 tunnin tavoitetta.
 sst = Puheentunnistus (STT)
 sst-explanation = Puheentunnistus (STT) muuntaa äänen tekstiksi.
 de-identified = Tunnistamattomaksi tekeminen
