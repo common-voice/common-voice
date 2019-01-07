@@ -139,8 +139,10 @@ vote-yes = Kyllä
 vote-no = Ei
 toggle-play-tooltip = Paina nappia { shortcut-play-toggle } vaihtaaksesi soittotilaa päälle/pois
 speak-subtitle = Lahjoita äänesi
+speak-paragraph = Ääninäytteiden tallentaminen on olennainen osa avoimen tietoaineistomme keräämistä; joidenkin mukaan se on myös hauskin osa.
 speak-goal-text = Näytteitä tallennettu
 listen-subtitle = Auta meitä tarkastamaan näytteitä
+listen-paragraph = Lahjoitettujen näytteiden tarkastaminen on yhtä tärkeää Common Voice -projektille. Kuuntele ja auta meitä luomaan laadukasta avointa ääniaineistoa.
 listen-goal-text = Näytteitä tarkastettu
 hours-recorded = Tunteja tallennettu
 hours-validated = Tunteja tarkastettu
@@ -167,17 +169,26 @@ x-years-short =
        *[other] { $count } v
     }
 help-make-dataset = Auta meitä rakentamaan korkealaatuinen ja avoin aineisto
+profile-not-required = Profiili ei ole välttämätön osallistumiseen, vaikka siitä on hyötyä
 sign-up-account = Luo käyttäjätili
 
 ## Account Benefits
 
 benefits = Hyödyt
+rich-data = Rikasta lähettämiäsi tietoja antamalla joitakin nimettömiä demografisia tietoja. Muutamme demografiset tiedot tunnistamattomiksi ennen niiden julkaisemista.
+improve-audio = Profiilitiedot parantavat puheentunnistuksen opettamiseen käytettäviä tietoja.
+keep-track = Seuraa edistymistäsi ja mittareitasi useissa kielissä.
+compare-progress = Vertaile edistymistäsi muihin osallistujiin ympäri maailmaa.
+view-goals = Tarkastele edistymistäsi suhteessa henkilökohtaisiin sekä projektin tavoitteisiin.
+join-newsletter = Voit myös liittyä sähköpostilistallemme saadaksesi päivityksiä ja lisätietoa projektista.
 
 ## What's public
 
 whats-public = Mikä on julkista?
 email-not-public = Emme julkaise sähköpostiosoitettasi.
+recordings-and-locale-public = Tallenteiden määrä ja tieto siitä mihin kieliin olet osallistunut ovat julkisia.
 username-optin-public = Voit tehdä käyttäjätunnuksestasi joko julkisen tai nimettömän.
+demographic-deidentified = Valinnaisesti demografiset tiedot (esim. ikä, sukupuoli, kieli ja korostus) muunnetaan tunnistamattomiksi lähettämistäsi tiedoista eikä niitä koskaan julkisteta profiilissasi.
 
 ## Speak & Listen Shortcuts
 
@@ -258,11 +269,16 @@ profile-explanation = Pidä kirjaa edistymisestäsi profiilin avulla ja auta tar
 thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
 why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja korostus, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
+accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
+login-identity = Käyttäjätunnus
 login-signup = Kirjaudu / Rekisteröidy
 edit = Muokkaa
 email-subscriptions = Sähköpostitilaukset
 download-profile = Lataa omat tietoni
 contribution-experience = Osallistumiskokemus
+skip-submission-feedback = Ohita palautteen antaminen
+skip-submission-description = Palautteen antaminen Lähetä-painikkeen painamisen jälkeen ohitetaan. Toiminto siirtyy suoraan seuraaviin 5 tallenteeseen tai tarkastamiseen.
+skip-submission-note = Huomaa: Sinun täytyy silti valita Puhu tai Kuuntele vaihtaaksesi osallistumisen tapaa.
 off = Pois päältä
 on = Päällä
 add-avatar-title = Lisää profiilikuva
@@ -272,12 +288,18 @@ connect-gravatar = Yhdistä Gravatariin
 gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
 file_too_large = Valittu tiedosto on liian suuri
 manage-subscriptions = Muokkaa tilauksia
+email-already-used = Sähköpostiosoite on jo käytössä toisessa tilissä
 add-language = Lisää kieli
+change-email-setings = Vaihta sähköpostiosoitteesi Asetuksissa kohdassa Käyttäjätunnus
 
 ## FAQ
 
 faq-title = Usein kysytyt kysymykset
 faq-what-cv-q = Mikä on Common Voice?
+faq-what-cv-a =
+    Puheentunnistus mullistaa tavan, jolla olemme vuorovaikutuksessa koneiden kanssa, mutta tällä hetkellä saatavilla olevat ratkaisut ovat kalliita ja suljettuja. Common Voice on osa Mozillan aloitetta parantaa puheentunnistusteknologiaa ja sen saatavuutta. Common Voice on massiivinen maailmanlaajuinen lahjoitettujen äänien tietokanta, joka mahdollistaa jokaisen opettaa nopeasti ja helposti puheeseen perustuvia sovelluksia kaikilla kielillä. 
+    
+    Me emme kerää ääninäytteitä vain eniten puhutuista, vaan myös vähemmän puhutuista kielistä. Monipuolisen ääniaineiston julkaiseminen antaa kehittäjille, yrittäjille ja yhteisöille mahdollisuuden käsitellä kielten välistä kuilua itse. Common Voice -aineiston lisäksi me rakennamme myös avoimen lähdekoodin puheentunnistusmoottoria nimeltä Deep Speech.
 faq-why-important-q = Miksi se on tärkeää?
 faq-how-get-q = Miten voin saada Common Voice -aineistot?
 faq-do-want-native-q = En ole syntyperäinen puhuja ja puhun korostaen. Haluatteko silti ääneni?
@@ -425,13 +447,35 @@ share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
 
 ## Goals
 
+streaks = Putkia
+days =
+    { $count ->
+        [one] Päivä
+       *[other] Päivää
+    }
+recordings =
+    { $count ->
+        [one] Äänite
+       *[other] Äänitettä
+    }
+validations =
+    { $count ->
+        [one] Tarkastus
+       *[other] Tarkastusta
+    }
 
 ## Dashboard
 
 your-languages = Kielesi
+toward-next-goal = Seuraavaan tavoitteeseen
+clips-you-recorded = Tallentamiasi näytteitä
+clips-you-validated = Tarkastamiasi näytteitä
 stats = Tilastot
 you = Sinä
 everyone = Kaikki
+top-contributors = Parhaat osallistujat
+recorded-clips = Äänitettyjä näytteitä
+validated-clips = Tarkastettuja näytteitä
 total-approved = Hyväksytty yhteensä
 overall-accuracy = Tarkkuus yhteensä
 
