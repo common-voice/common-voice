@@ -151,6 +151,7 @@ todays-progress = Nihin tuahmi
 help-reach-goal = { $goal } tiang phanh kan bawm
 read-terms-q = Kan zulhphung na rel cang maw?
 ready-to-record = Na aw tun dingah na manh cang maw?
+all-locales = A dihlak
 today = Nihin
 x-weeks-short =
     { $count ->
@@ -309,8 +310,6 @@ faq-what-cv-and-deepspeech-q = Common le Deep Speech ai dannak hi zeidah a si?
 faq-is-goal-assistant-q = Common Voice nih ai tinhmi  hi holh bawmtu (voice assistant) ser a si maw?
 faq-why-my-lang-q = Zeiruangah dah ka holhphun ai tal ve lo?
 faq-how-calc-hours-q = Zeitiin dah Common Voice nih suimilam hi a tuak?
-faq-where-src-from-q = Khoika in dah biatlang pawl hi an rat?
-faq-where-src-from-a = Kan biatlang hnu cu ṭial chommi, cauk le <italic> Kenneth Van Bik Dictionary</italic> ti bantuk i lakmi an si.
 faq-why-not-ask-read-q = Zeiruangah dah cauk silole Wikipedia ca pawl mipi nan rel ter hna lo?
 faq-why-account-q = Zei ruangah dah account cu ka ser lai?
 faq-is-account-public-q = Ka account pawl hi mipi nih an hmu kho maw?
