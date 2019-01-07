@@ -1,10 +1,12 @@
 ## General
 
-yes-receive-emails = Да, ысты меным электроннӧй поштаяс. Ме кӧсъя тӧдны водзлань Common Voice проект йылысь.
-return-to-cv = Бергӧдчы Common Voice вылӧ
+yes-receive-emails = Да, ыстӧй гижӧдъяс меным пошта вылӧ. Ме кӧсъя тӧдны Common Voice проект йылысь.
+stayintouch = Mozilla кыпӧдӧ ӧтув котыр voice technology гӧгӧр. Ми кӧсъям, медым ті тӧдінныд выльторъяс, выль юӧр ӧшмӧсъяс да тӧдны, кыдз ті вӧдитчанныд татшӧм юӧръяснас.
+return-to-cv = Бӧр Common Voice дорӧ
 email-input =
     .label = Электроннӧй пӧшта
-submit-form-action = Ысты
+submit-form-action = Ыстыны
+loading = Восьтӧм...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -18,6 +20,7 @@ ar = Араб кыв
 as = Ассам кыв
 ast = Астур кыв
 az = Азербайджан кыв
+bg = Болгар кыв
 bn = Бенгал кыв
 br = Брезон кыв
 bxr = Бурят кыв
@@ -29,11 +32,13 @@ cv = Чуваш кыв
 cy = Кӧмри кыв
 da = Дан кыв
 de = Немеч кыв
+dsb = Улыс сорби кыв
 el = Грек кыв
 en = Англи кыв
 eo = эсперанто кыв
 es = Испан кыв
 et = Эст кыв
+eu = Баск кыв
 fa = Фарси кыв
 fi = Суоми кыв
 fo = Фарер кыв
@@ -71,6 +76,7 @@ rm-sursilv = Сурселваса Романш
 ro = Румын кыв
 ru = Роч кыв
 sah = Саха кыв
+sc = Сардиниа кыв
 sk = Словак кыв
 sl = Словен кыв
 sq = Албан кыв
@@ -98,36 +104,70 @@ speak = Сёрнит
 speak-now = Сёрнит ӧні
 datasets = Датасетъяс
 languages = Кывъяс
-profile = Профиль
+profile = Ас листбок
 help = Отсӧг
 contact = Йитӧд
 privacy = Арабӧн
 terms = Удж тэчан ног
 cookies = Кукияс
+faq = Тшӧкыд юалӧмъяс
 content-license-text = Материал восьтӧма <licenseLink>Creative Commons</licenseLink> лицензия подув вылын.
-share-title = Отсав миянӧс аддзыны мӧдъяс медым сетны аслысь гор.
+share-title = Отсалӧй миянлы аддзыны йӧзӧс, кодъяс сетасны ассьыныс гор!
+share-text = Отсалӧй велӧдны машинаяссӧ гӧгӧрвоны йӧзлысь сёрни, сетӧй ассьыныд гор { $link } вылын.
 link-copied = Ыстӧд копируйтӧма
-back-top = Косны
-contribution-banner-button = Видзӧдышт
-report-bugs-link = Отсав репортируйтны бугъяс
+back-top = Бӧр
+logout = Петны
 
 ## Home Page
 
-home-cta = Сёрнит, пукты пай тані!
+home-title = Common Voice — тайӧ Mozilla'лӧн проект, коді отсалӧ велӧдны машинаяссӧ гӧгӧрвоны йӧзлысь сёрни.
+home-cta = Сёрнитӧй, отсалӧй тані!
+wall-of-text-start = Гор - натуральнӧй, гор - мортногса. Та вӧсна ми кӧсъям вӧчны лӧсьыд гор текнология миян машинаяслы. Но медым ставыс бура артмис, колӧ зэв уна гор юӧр.
+wall-of-text-more-mobile = Кызвын юӧр, кодӧн вӧдитчӧны ыджыд компанияяс, йӧзлы оз судзсьы. Тайӧ падмӧдӧ водзӧ сӧвмӧм. Та вӧсна ми кӧчим Common Voice проект, коді отсалӧ вӧчны восьса сёрни гӧгӧвоан текнология .
+wall-of-text-more-desktop = Ӧні Ті веерманныд сетны ассьыныд гор восьса юӧрбаза тэчӧм отсӧг вылӧ. Сы отсӧгӧн быдӧн вермас лӧсьӧдны ассьыс содтӧг девайс либӧ сайт вылӧ. Лыддьӧй гижӧд, медым отсавны машиналы гӧгӧрвоны йӧзлысь сёрни. Видлалӧй мукӧдлысь гижӧдъяссӧ, медым бурмӧдны бурлунсӧ. Тайӧ кокни!
+wall-of-text-first = Гор - натуральнӧй, гор - мортногса. Та вӧсна ми кӧсъям вӧчны лӧсьыд гор текнология миян машинаяслы. Но медым ставыс бура артмис, колӧ зэв уна гор юӧр.
 show-wall-of-text = Лыддьы унджык
 help-us-title = Отсав миянӧс видлавны сёрникузяяс.
 help-us-explain = Личкы мед заводитчас, кывзы и висьтав миянлы: бура-ӧ висьталӧны сёрникузясӧ.
+no-clips-to-validate = Буракӧ, тайӧ кыв вылын некод на нинӧм эз гиж. Отсалӧй миянлы тыртны лыддьӧгсӧ некымын горгижӧдӧн.
 vote-yes = Да
-vote-no = Абу
-speak-goal-text = Аудио юкӧнъяс гижӧма
+vote-no = Оз ков
+toggle-play-tooltip = Личкӧй { shortcut-play-toggle } медым ӧзтыны ворсанног
+speak-subtitle = Сетӧй ассьыныд гор
+speak-paragraph = Горгижӧм - торйӧдтӧм пай миян восьса набор лӧсьӧдӧмын; мукӧдыс чайтӧны тайӧс гажаӧн тшӧтш.
+speak-goal-text = Горгижӧд гижӧма
 listen-subtitle = Отсав миянлы видлавны шыяс.
+listen-paragraph = Горгижӧдъяс видлалӧм зэв коланатор Common Voice миссиялы. Кывзӧй горгижӧдъяссӧ да отсалӧй миянлы вӧчеы бур восьса гор юӧр.
 listen-goal-text = Аудио юкӧнъяс видлалӧма.
 hours-recorded = Часъяс гижӧма
 hours-validated = Часъяс видлалӧма.
-read-terms-q = Ті лыддинныд нин миян Сёрнитчӧмнымӧс?
-ready-to-record = Дась сетны ас гор?
-all-languages = Став кывъяс
+voices-online = Горъяс ӧні онлайн
+todays-progress = Талунъя сӧвмӧм
+help-reach-goal = Отсалӧй миянлы судзӧдны { $goal }
+read-terms-q = Ті лыддинныд нин Сёрнитчӧмнымӧс?
+ready-to-record = Дасьӧсь сетны ассьыныд гор?
 today = Талун
+x-weeks-short =
+    { $count ->
+        [one] вежон
+       *[other] { $count } вежон
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }
+       *[other] { $count } тӧлысь
+    }
+x-years-short =
+    { $count ->
+        [one] во
+       *[other] { $count } во
+    }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -151,11 +191,13 @@ status-hours =
         [one] Ӧтик час нин видлӧма!
        *[other] { $hours } час нин видлӧма!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Локтан мог: { $goal }
 english = Англискӧйӧн
 
 ## ProfileForm
 
-profile-form-delete = Чышкы ас листбок
 profile-form-username =
     .label = Ним
 profile-form-language =
@@ -166,20 +208,23 @@ profile-form-age =
     .label = Арлыд
 profile-form-gender =
     .label = Пӧв
+leaderboard-visibility =
+    .label = Лидеръяс лыдын петкӧдлӧм
+hidden = Дзебны
+visible = Петкӧдлыны
 native-language =
     .label = Чужан кыв
-profile-form-submit-save = Видз
-profile-form-submit-saved = Видзӧма
-profile-keep-data = Коль даннӧйяс
-profile-delete-data = Чышкы даннӧйяс
+profile-form-submit-save = Кольны
+profile-form-submit-saved = Кольӧма
 male = ай
 female = энь
 # Gender
 other = Мукӧд
 why-profile-title = Мыйла ас листбок?
-why-profile-text = Сетан кӧ ас йывсьыд информация, аудио юӧръяс, кодӧс сетан Common Voice вылӧ, ёнджыка отсалӧ Сёрни Гӧгӧрвоан системаяслы, кодъяс вӧдитчыны тайӧ юӧръясӧн медым бурмӧдны налысь стӧчлунсӧ.
+why-profile-text = Ас йывсьыныд содтӧд юӧр индӧм отсалӧ Сёрни Гӧгӧрвоан системаяслы бурмӧдны стӧчлунсӧ ыстӧм  горгижӧдъяӧн.
+build-profile = Тэчны ас листбок
+avatar = Серпас
 edit-profile = Пырт вежсьӧмъяс ас листбокӧ
-profile-create = Вӧч ас листбок
 profile-create-success = Артмис вӧчны ас листбок!
 profile-close = Пӧдлав
 why-demographic = Мыйла тайӧ колӧ?
@@ -188,22 +233,16 @@ email-subscriptions = Email гижӧдчӧм
 download-profile = Босьт датаӧй
 off = Кусӧдны
 on = Ӧзтыны
+add-language = Содты кыв
 
 ## FAQ
 
 faq-title = Унаысь сетана юалӧм
-faq-what-q = Мый сійӧ Common Voice?
-faq-important-q = Мыйля сійӧ колана?
-faq-get-q = Кыдз ме верма пай пуктыны Common Voice вылӧ?
-faq-mission-q = Муйла Common Voice пырӧ Mozillaлӧн уджӧ?
-faq-quality-q = Кутшӧм тшупӧд вылын аудиолы колӧ лоны медым сійӧс позьӧ вӧдитчыны?
-faq-hours-q = Мыйла колӧ чукӧртны 10 000 час аудио юӧръяс?
-faq-hours-a = Та мында кымын час колӧ медым велӧдны бура уджавны Сёрни Гӧгӧрвоан система.
-faq-source-q = Кытысь босьтӧма гижӧдъяс?
+faq-what-cv-q = Мый сійӧ Common Voice?
+faq-why-important-q = Мыйла тайӧ колана?
 
-## Profile
+## Glossary
 
-profile-why-title = Мыйла ас листбок?
 
 ## NotFound
 
@@ -223,16 +262,6 @@ data-other-download = Босьт дата
 data-other-ted-name = TED-LIUM корпус
 license = Сёрнитчӧм: <licenseLink>{ $license }</licenseLink>
 license-mixed = Гудралӧм
-
-## Record Page
-
-record-platform-not-supported = Тэнад платформ оз на лӧсяв.
-record-retry = Видлы выльысь
-record-no-mic-found = Микрофон абу аддзӧма.
-record-error-too-short = Гижӧд вывти дзеньыд.
-record-error-too-long = Гижӧд вывті кузь.
-record-error-too-quiet = Гижӧд вывті ньӧж.
-record-help = Личкы гижны, сы бӧрын лыддьы вылыса сёрникузя.
 terms-agree = Сӧглас.
 terms-disagree = Абу сӧглас.
 review-recording = Видзӧдлӧм
@@ -274,6 +303,11 @@ listen = Кывзы
 skip = Вуджӧм
 shortcuts = Дзеньдӧдӧмъяс
 record-cta = Заводит гижны
+record-platform-not-supported = Тэнад платформ оз на лӧсяв.
+record-no-mic-found = Микрофон абу аддзӧма.
+record-error-too-short = Гижӧд вывти дзеньыд.
+record-error-too-long = Гижӧд вывті кузь.
+record-error-too-quiet = Гижӧд вывті ньӧж.
 record-three-more-instruction = Нӧшта куим!
 record-last-instruction = Медбӧръя!
 unable-speak = Он вермы ӧні сёрнитны?
@@ -282,3 +316,13 @@ record-abort-continue = Дугды гижны
 listen-last-time-instruction = Медбӧръя!
 record-button-label = Гиж тэнад гор
 share-title-new = <bold>Отсав миянӧс</bold> аддзыны унджык горъяс
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Чышкы ас листбок
