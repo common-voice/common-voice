@@ -305,6 +305,7 @@ faq-why-important-a =
     
     Cucu vawleicung holh phun kip in a ngah khawhnak caah cun holhphun kip in holh mi aw, mi tampi siseh mi tlawmte holh siseh, kan lak. Hi vialte kan lakmi aw nih hin computer thiam mi hna le sipuaizi tuah tu hna nih an mah le ram cio in chawnh khawhmi computer ser hram an thok lai hi kan duh.
 faq-how-get-q = Common Voice data hi zeitindah ka lak khawh lai?
+faq-when-release-q = Zeitik ahdah Common Voice data hi holh dangin nan thlah te lai?
 faq-why-mission-q = Zei ruangah dah Common Voice hi Mozilla nih a khinhmi rian pakhat a si ve?
 faq-what-cv-and-deepspeech-q = Common le Deep Speech ai dannak hi zeidah a si?
 faq-is-goal-assistant-q = Common Voice nih ai tinhmi  hi holh bawmtu (voice assistant) ser a si maw?
