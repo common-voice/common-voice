@@ -234,6 +234,8 @@ female = Ава
 # Gender
 other = Лия
 why-profile-title = Мезекс профилесь?
+build-profile = Теемс профиль
+avatar = Аватар
 edit-profile = Витнемс-петнемс профиленть
 profile-create-success = Теветь лиссь, профилеть шкавсь!
 profile-close = Пекстамс
