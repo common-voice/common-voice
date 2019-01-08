@@ -5,6 +5,7 @@ return-to-cv = Велявтомс мекев "Common Voice" сайтас
 email-input =
     .label = э-сёрма
 submit-form-action = Совавтомс
+loading = Таргамозо моли...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -12,6 +13,7 @@ submit-form-action = Совавтомс
 
 ## Languages
 
+af = Африкансокс
 an = Арагонокс
 ar = Арабокс
 as = Ассамокс
@@ -33,6 +35,8 @@ en = Англакс
 eo = Эсперантокс
 es = Испанокс
 et = Эстонокс
+eu = Баскокс
+fa = Персидэкс
 fi = Финнэкс
 fr = Французокс
 fy-NL = Фризикс
@@ -64,9 +68,11 @@ oc = Окситанокс
 or = Одиякс
 pl = Полшакс
 pt-BR = Бразилиянь португалокс
+rm-sursilv = Сурсилванонь романшокс
 ro = Руменэкс
 ru = Рузкс
 sah = Сахакс
+sc = Сардиниякс
 sk = Словакокс
 sl = Словениякс
 sq = Албанокс
@@ -143,9 +149,12 @@ x-years-short =
         [one] ие
        *[other] иеть
     }
+help-make-dataset = Лездак миненек теемс датань пурнавкс, конась вадрясто теезь ды весенень панжадо
+sign-up-account = Вешемс эстеть совамо тарка
 
 ## Account Benefits
 
+benefits = Мейсэ лезэ
 
 ## What's public
 
