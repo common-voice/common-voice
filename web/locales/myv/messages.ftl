@@ -121,6 +121,7 @@ help-us-title = Лездак миненек кочкамс вадря валри
 help-us-explain = Лепштика «кунсоловтомс» повненть, кунсолок ды ёвтак миненек: ало рисьмесь видестэ ёвтазь?
 vote-yes = Истя
 vote-no = Аволь
+toggle-play-tooltip = Лепштик { shortcut-play-toggle }-нть налксема модонь аравтомга
 speak-subtitle = Лездак эсеть вайгельсэ
 speak-goal-text = Сёрмадозь клипть
 listen-subtitle = Лездак миненек кочкамс вайгельть
@@ -150,6 +151,7 @@ x-years-short =
        *[other] иеть
     }
 help-make-dataset = Лездак миненек теемс датань пурнавкс, конась вадрясто теезь ды весенень панжадо
+profile-not-required = Лездамсто профилэсь а эряви, ялатеке сон лезэв
 sign-up-account = Вешемс эстеть совамо тарка
 
 ## Account Benefits
@@ -158,6 +160,8 @@ benefits = Мейсэ лезэ
 
 ## What's public
 
+whats-public = Весенень панжадо -- те мезе истямось?
+username-email-not-demographic = А карматано сюлмамо совикуронь леметь ды ёндолпочтат нолдазь дататнень марто.
 
 ## Speak & Listen Shortcuts
 
@@ -174,6 +178,9 @@ shortcut-vote-no = а
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = с
 shortcut-record-toggle-label = Сёрмадомс/Лоткавтомс
 request-language-text = Келеть эзик муе зярс «Common Voice»-стэ?
 request-language-button = Вешемс кель
@@ -224,7 +231,12 @@ off = Пекстамс
 on = Нолдамс
 add-avatar-title = Совавтомс аватар эсеть профилс
 browse-file-title = Тонгомс фотокув файла
+gravatar_not_found = Ёндолпочтат туртов а муеви граватар
+file_too_large = Кочказь файлась пек покш
+manage-subscriptions = Витнемс-петнемс сёрмадстоматнень
+email-already-used = Ёндолпочтась саезь лия совамо таркань туртов
 add-language = Поладомс кель
+change-email-setings = Полавтомс ёндолпочтат Аравтоматнень вельде, конатне аштить совамо ид-нть ало
 
 ## FAQ
 
@@ -233,6 +245,7 @@ faq-what-cv-q = Common Voice -- те мезе истямось?
 faq-why-important-q = Мезекс эряви?
 faq-how-get-q = Кода таргамс «Common Voice» датанть?
 faq-when-release-q = Зярдо кармат нолдамо «Common Voice» дата лия кельсэ?
+faq-why-mission-q = Мейс «Common Voice»-сь совавтозь «Mozilla»-нь миссиянзо пельксэкс?
 faq-what-cv-and-deepspeech-q = Мейсэ явовить «Common Voice» ды «Deep Speech»?
 faq-do-want-native-q = Мон аволь тиринь келень кортыцян ды кортамо лувом коряс содаван. Тень лангс апак вано вайгелем эряви?
 faq-why-different-speakers-q = Мейс эрьва келень туртов эрявить истянь зяро кортыцят?
@@ -333,6 +346,7 @@ contribute-more =
        *[other] Анокат седе тов { $count } теемс?
     }
 record-cta = Ушодомс сёрмадоманть
+record-platform-not-supported = Илямизь чумондо, платформат. туртов арасть эрявикс аравтомат.
 record-platform-not-supported-desktop = Столь лангсо содымашинатнес маштови таргамс меельце:
 record-platform-not-supported-ios = <bold>iOS</bold>-нь тевс нолдыцятненень маштови таргамс минек приложениянть питневтеме:
 record-must-allow-microphone = Эряви максомс микрофононтень нолдавомань видечить.
@@ -388,6 +402,7 @@ validations =
 
 your-languages = Тонь кельтне
 clips-you-recorded = Эсеть сёрмадовт клипть
+clips-you-validated = Клипть, конат тонсь кемекстыть
 stats = Статистика
 you = Тон
 everyone = Эрьвась
