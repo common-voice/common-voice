@@ -194,6 +194,7 @@ request-language-button = Вешемс кель
 
 ## ProjectStatus
 
+status-title = Ломань икелев ливтевить содамочи седе, зяро вайгелень сёрмадомат ды кодамо кельтнесэ.
 status-contribute = Лездамс эсеть вайгельсэ
 status-hours =
     { $hours ->
