@@ -114,16 +114,19 @@ show-wall-of-text = Ловномс седе тов
 help-us-title = Лездак миненек кочкамс вадря валрисьметь!
 help-us-explain = Лепштика «кунсоловтомс» повненть, кунсолок ды ёвтак миненек: ало рисьмесь видестэ ёвтазь?
 vote-yes = Истя
-vote-no = Арась
+vote-no = Аволь
 speak-subtitle = Лездак эсеть вайгельсэ
 speak-goal-text = Сёрмадозь клипть
 listen-subtitle = Лездак миненек кочкамс вайгельть
 listen-goal-text = Кочказь клипть
 hours-recorded = Сёрмадозь част
 hours-validated = Кочказь част
+voices-online = Зяро вайгельть ней алтымасонть
+todays-progress = Течешь тевесь
+help-reach-goal = Лездак миненек пачкодемс { $goal } видьс
 read-terms-q = Договоронок уш ловнык?
 ready-to-record = Анокат лездамс вайгельсэть?
-all-languages = Весе кельтне
+all-locales = Весе
 today = Течи
 x-weeks-short =
     { $count ->
@@ -140,6 +143,12 @@ x-years-short =
         [one] ие
        *[other] иеть
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -199,14 +208,9 @@ add-language = Поладомс кель
 ## FAQ
 
 faq-title = Сеедьстэ максозь кевкстемат
-faq-what-q = "Common Voice" те мезе истямось?
-faq-important-q = Те мезекс эряви?
-faq-get-q = Кода монень саеви «Common Voice» датась?
-faq-mission-q = Мейсь «Common Voice» Мозилла миссиянть пельксэзэ?
-faq-native-q = Кадык { $lang }-нь келесь аволь васенце келем, ды эсень кортамо лувом ули, моньгак вайгелем тенк эряви?
-faq-native-a = Эряви, тоньгак вайгелеть миненек эряви! «Common Voice» проектэнть вейке целазо пурнамс зяро-понги кортамо лувт -- кортавкст. Истя содымашинатне седе парсте кармить <bold>весень</bold> чарькодеме кортамстост.
-faq-firefox-q = «Common Voice» проектэнть вельде кортамосто-текстс функциясь зярдояк совавтови Толривезень (Firefox-онь) пельксэкс?
-faq-source-q = Косто саеви лисьмапря текстэсь?
+
+## Glossary
+
 
 ## NotFound
 
