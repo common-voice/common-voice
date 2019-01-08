@@ -231,11 +231,15 @@ add-language = Поладомс кель
 faq-title = Сеедьстэ максозь кевкстемат
 faq-what-cv-q = Common Voice -- те мезе истямось?
 faq-why-important-q = Мезекс эряви?
+faq-why-account-q = Мейс монень теемс совамо тарка?
+faq-is-account-public-q = Совамо таркам информациясь весенень панжадо?
 
 ## Glossary
 
 glossary = Валкске
 sentence-collection = Валрисьмень пурнавкс
+sst = Кортамосто текст (STT)
+sst-explanation = Кортамосто текст (STT) технологиясо вайгелень датась полавтови текстэкс.
 
 ## NotFound
 
@@ -313,6 +317,7 @@ contribute = Максомс лезкс
 listen = Кунсоломс
 skip = Ютамс вакска
 shortcuts = Керязь кить
+clips-with-count = <bold>{ $count }</bold> клиптнесэ
 contribute-more =
     { $count ->
        *[other] Анокат седе тов { $count } теемс?
@@ -325,6 +330,7 @@ record-no-mic-found = А муеви микрофон.
 record-error-too-short = Лентас те сёрмадовксонть кувалмозо а саты.
 record-error-too-long = Лентас те сёрмадовксось таргавсь куватьс.
 record-error-too-quiet = Лентас те сёрмадовксонть гайтезэ аламо.
+record-cancel = Лоткавтомс олов вайгелень сёрмадомась
 record-instruction = { $actionType }<recordIcon></recordIcon> мейле ловнык валрисьменть марямга
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> зярдо прядозь
 record-three-more-instruction = Лиядсть колмо!
@@ -356,11 +362,28 @@ days =
         [one] чи
        *[other] чить
     }
+recordings =
+    { $count ->
+        [one] Вайгелень сёрмадома
+       *[other] Вайгелень сёрмадомат
+    }
+validations =
+    { $count ->
+        [one] Кемекстамо
+       *[other] Кемекстамот
+    }
 
 ## Dashboard
 
+your-languages = Тонь кельтне
+clips-you-recorded = Эсеть сёрмадовт клипть
 stats = Статистика
 you = Тон
+everyone = Эрьвась
+top-contributors = Неть, конат сехте пек лездыть
+recorded-clips = Сёрмадозь клипть
+validated-clips = Кемекстазь клиптне
+total-approved = Зяро кемекстазь весемезэ
 
 ## Profile Delete
 
