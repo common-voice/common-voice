@@ -165,6 +165,12 @@ benefits = Мейсэ лезэ
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = Кунсоломс/Лоткавтомс
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = и
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = а
 
 ## Speak Shortcuts
 
@@ -209,17 +215,27 @@ edit-profile = Витнемс-петнемс профиленть
 profile-create-success = Теветь лиссь, профилеть шкавсь!
 profile-close = Пекстамс
 why-demographic = Мезекс те эряви?
+login-identity = Совамовалонь ид
+login-signup = совамс/сёрмадстомс эсь прянть
 edit = Витнемс-петнемс
 email-subscriptions = Кучомс ёндол сёрмасо сёрмадстомат
 download-profile = Таргамс алтымасто монь датан
+off = Пекстамс
+on = Нолдамс
+add-avatar-title = Совавтомс аватар эсеть профилс
+browse-file-title = Тонгомс фотокув файла
 add-language = Поладомс кель
 
 ## FAQ
 
 faq-title = Сеедьстэ максозь кевкстемат
+faq-what-cv-q = Common Voice -- те мезе истямось?
+faq-why-important-q = Мезекс эряви?
 
 ## Glossary
 
+glossary = Валкске
+sentence-collection = Валрисьмень пурнавкс
 
 ## NotFound
 
