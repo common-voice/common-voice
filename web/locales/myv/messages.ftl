@@ -6,6 +6,7 @@ email-input =
     .label = э-сёрма
 submit-form-action = Совавтомс
 loading = Таргамозо моли...
+indicates-required = *Невти эрявикс пакся
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -13,6 +14,7 @@ loading = Таргамозо моли...
 
 ## Languages
 
+ace = Ачехекс
 af = Африкансокс
 an = Арагонокс
 ar = Арабокс
@@ -24,6 +26,8 @@ bn = Бенгаликс
 br = Бретонокс
 bxr = Бурятокс
 ca = Каталанокс
+cak = Какчикелекс
+cnh = Хаха чинэкс
 cs = Чехекс
 cv = Ветькекс
 cy = Кимрикс
@@ -38,6 +42,7 @@ et = Эстонокс
 eu = Баскокс
 fa = Персидэкс
 fi = Финнэкс
+fo = Фарёрокс
 fr = Французокс
 fy-NL = Фризикс
 ga-IE = Ирляндиякс
@@ -103,6 +108,7 @@ languages = Кельть
 profile = Профиль
 help = Лезкс
 contact = Контакт
+privacy = Приватоксчи
 terms = Терминт
 cookies = Нумолонь кшить
 faq = Сеедьстэ максозь кевкстемат
@@ -161,6 +167,7 @@ benefits = Мейсэ лезэ
 ## What's public
 
 whats-public = Весенень панжадо -- те мезе истямось?
+email-not-public = А карматано путомо ёндолпочтат ломань икелев.
 username-email-not-demographic = А карматано сюлмамо совикуронь леметь ды ёндолпочтат нолдазь дататнень марто.
 
 ## Speak & Listen Shortcuts
