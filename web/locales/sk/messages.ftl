@@ -154,10 +154,12 @@ listen-paragraph = Overovanie nahrávok je rovnako dôležitou súčasťou misie
 listen-goal-text = Počet overených nahrávok
 hours-recorded = Počet nahraných hodín
 hours-validated = Počet overených hodín
+voices-online = Aktívne hlasy
 todays-progress = Dnešný pokrok
 help-reach-goal = Pomôžte nám dostať sa na { $goal }
 read-terms-q = Čítali ste naše podmienky používania?
 ready-to-record = Ste pripravení darovať svoj hlas?
+all-locales = Všetky
 today = Dnes
 x-weeks-short =
     { $count ->
@@ -180,9 +182,12 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = Výhody
 
 ## What's public
 
+whats-public = Čo všetko zverejňujeme?
+email-not-public = Vašu e-mailovú adresu nezverejňujeme.
 
 ## Speak & Listen Shortcuts
 
@@ -273,6 +278,7 @@ contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
 off = Vypnutá
 on = Zapnutá
+browse-file-title = Nahrať obrázok
 file_too_large = Vybraný súbor je príliš veľký
 manage-subscriptions = Spravovať odbery
 email-already-used = E-mailová adresa sa už používa pre iný účet
@@ -282,6 +288,7 @@ add-language = Pridať jazyk
 
 faq-title = Často kladené otázky
 faq-what-cv-q = Čo je Common Voice?
+faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
 
 ## Glossary
 
@@ -423,11 +430,38 @@ share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
 
 ## Goals
 
+days =
+    { $count ->
+        [one] deň
+        [few] dni
+       *[other] dní
+    }
+recordings =
+    { $count ->
+        [one] nahrávka
+        [few] nahrávky
+       *[other] nahrávok
+    }
+validations =
+    { $count ->
+        [one] overenie
+        [few] overenia
+       *[other] overení
+    }
 
 ## Dashboard
 
+your-languages = Vaše jazyky
+stats = Štatistiky
+you = Vy
+everyone = Všetci
+contribution-activity = Aktivita príspevateľov
+top-contributors = Najlepší prispievatelia
+overall-accuracy = Celková presnosť
 
 ## Profile Delete
 
+delete-q = Chcete tiež požiadať o vymazanie vašich hlasových nahrávok, alebo ich chcete ponechať v datasete Common Voice?
+keep = Ponechať
 remove = Odstrániť
 profile-form-delete = Odstrániť profil
