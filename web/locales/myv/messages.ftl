@@ -163,18 +163,26 @@ sign-up-account = Вешемс эстеть совамо тарка
 ## Account Benefits
 
 benefits = Мейсэ лезэ
+compare-progress = Ваномс кода лездамонь путовксот аравтови лиянсетнень коряс.
 
 ## What's public
 
 whats-public = Весенень панжадо -- те мезе истямось?
 email-not-public = А карматано путомо ёндолпочтат ломань икелев.
+recordings-and-locale-public = Ломань икелев ливтеви содамочи седе, вайгелень зяро сёрмадовкст ды кона кельтнесэ.
+username-optin-public = Маштови кочкамс ливтемс совамовалот ломань икелев эли кадовомс лемтемекс.
 username-email-not-demographic = А карматано сюлмамо совикуронь леметь ды ёндолпочтат нолдазь дататнень марто.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = л
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = с
 shortcut-play-toggle-label = Кунсоломс/Лоткавтомс
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
