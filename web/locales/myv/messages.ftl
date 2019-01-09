@@ -236,6 +236,7 @@ other = Лия
 why-profile-title = Мезекс профилесь?
 build-profile = Теемс профиль
 avatar = Аватар
+settings = Аравтомат
 edit-profile = Витнемс-петнемс профиленть
 profile-create-success = Теветь лиссь, профилеть шкавсь!
 profile-close = Пекстамс
