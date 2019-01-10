@@ -213,11 +213,14 @@ faq-how-calc-hours-q = ކޮމަންވޮއިސްގައި އަޑުކޮޅުތަކު
 faq-why-not-ask-read-q = މީހުން ގާތު ފޮތުން ނުވަތް ވިކިޕީޑިއާ އާޓިކަލްއިން ކިޔުމަށް ނާހަނީ ކީއްވެ؟
 faq-why-account-q = އެކައުންޓެއް ހުޅުވަންވީ ކީއްވެ؟
 faq-is-account-public-q = އަހަރެންގެ ޒާތީމައުލޫމާތާއި ވަނަވަރު، އެންމެންނަށް ފެންނާނެތަ؟
+faq-how-privacy-q = އަޑު ހަދިޔާކުރި މީހުންގެ ސިއްރު ހިފަހައްޓާނީ ކިހިނެއް؟
 
 ## Glossary
 
 glossary = ރަދީފު
 localization = ތަރުޖަމާކުރުން
+sentence-collection = އެއްކުރެވިފައިވާ  ޖުމްލަތައް
+sentence-collection-explanation = މީހުން ބޭނުންކުރާ ޖުމުލަތައް އެއްކުރުން ނޫނީ މީހުން ބޭނުންކުރަން އާ ޖުމުލަތައް ލިޔުން
 hours-recorded-explanation = މިހާތަނަށް އެއްކުރެވުނު އަޑުކޮޅުތަކުގެ ޖުމްލަ ވަގުތު
 sst = އަޑުން-ލިއުމަށް
 
@@ -232,6 +235,7 @@ data-download-yes = އާން
 data-download-deny = ނޫން
 data-other-title = އެހެން އަޑުގެ ޑޭޓާސެޓް
 data-other-download = ޑޭޓާ ޑައުންލޯޑުކުރޭ
+license-mixed = މައްސުނިކުރިވިފައި
 terms-agree = އެއްބަސްވަން
 terms-disagree = އެއްބަހެއް ނުވަން
 review-rerecord = އަލުން ރެކޯޑުކުރޭ
@@ -272,13 +276,23 @@ sentences = ޖުމްލަތައް
 
 listen = އަޑުއަހާ
 record-cta = ރެކޯޑްކުރަން ފައްޓާ
+record-platform-not-supported = މާފުކުރައްވާ، ތިޔަ ޕްލެޓްފޯރމަށް އަދި ސަޕޯރޓެެއް ނުކުރޭ
+record-must-allow-microphone = މައިކު ބޭނުންކުރަން ހުއްދަދީ
+record-no-mic-found = މައިކު ނުފެނުނު
 record-error-too-short = ރެކޯޑިންގ މާ ކުރު
 record-error-too-long = ރެކޯޑިންގ މާ ދިގު
+record-error-too-quiet = ރިކޯރޑިންގެ އަޑު  މާމަޑު
+record-cancel = ރިކޯރޑިންގް ކެންސަލްކޮށްލާ
 record-three-more-instruction = ބާކީ ތިނެއް!
+record-again-instruction = ގަދައޭ! <recordIcon></recordIcon> ދެވަމަ ކްލިޕް ރިކޯރޑުކުރޭ
+record-last-instruction = </recordIcon><recordIcon>އެންމެ ފަަހު އެތި
+unable-speak = މިވަގުތު ވާހަކަ ނުދެއްކޭނެ؟
 clips-uploaded = އަޑުކޮޅު ހުށައެޅިފައި
+record-abort-title = ފުރަތަމަ ރިކޯރޑިންގް ނިންމާނީތަ؟
 record-abort-submit = އަޑުކޮޅު ހުށައަޅާ
 record-abort-continue = ރެކޯޑުކުރުން ނިމްމާލާ
 record-abort-delete = ކްލިޕްތައް ފޮހެލާފައި ނިކުމޭ
+record-button-label = އަޑު ރިކޯރޑުކުރޭ
 share-title-new = އިތުރު މީހުންގެ އަޑު ހޯދުމަށް <bold>އެހީވެދީ</bold>
 
 ## Goals
@@ -293,9 +307,11 @@ days =
 
 your-languages = އަހުރެންގެ ބަހުރުވަތައް
 stats = ތަފާސްހިސާބު
+you = ތިބާ
 everyone = އެންމެން
 
 ## Profile Delete
 
 keep = ބަހައްޓާ
+remove = ނަގާ
 profile-form-delete = ވަނަވަރު ފޮހެލާ
