@@ -42,6 +42,10 @@ ko = ކޮރިއަން
 mdf = މޮކްޝް
 mn = މޮންގޯލިއަން
 nl = ޑަޗް
+sk = ސުލޯވަކް
+sl = ސުލޮވީނިއަން
+sq = އަލްބޭނިއަން
+sr = ސާބިއަން
 ta = ތަމަޅަ
 te = ޓެލުގޫ
 th = ތައި
@@ -266,6 +270,7 @@ contact-required = * މަޖުބޫރު
 
 request-language-form-language =
     .label = ބަސް
+request-language-success-content = ތިބާގެ ބަސް ކޮމަން ވޮއިސްއަށް އެޅުމަށް ބޭނުންވާ އިތުރު މައުލޫމާތު ވަރަށް އަވަހަށް ފޯރުކޮށްދޭނަން
 
 ## Languages Overview
 
@@ -280,6 +285,7 @@ sentences = ޖުމްލަތައް
 ## New Contribution
 
 listen = އަޑުއަހާ
+clips-with-count = <bold>{ $count }</bold> ކްލިޕް
 record-cta = ރެކޯޑްކުރަން ފައްޓާ
 record-platform-not-supported = މާފުކުރައްވާ، ތިޔަ ޕްލެޓްފޯރމަށް އަދި ސަޕޯރޓެެއް ނުކުރޭ
 record-must-allow-microphone = މައިކު ބޭނުންކުރަން ހުއްދަދީ
