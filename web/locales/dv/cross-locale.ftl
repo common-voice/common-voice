@@ -1,8 +1,8 @@
 ## Languages
 
-contribute = ބައިވެރިވާން
+contribute = ހުށަހަޅާ
 get-involved-button = މަޝްގޫލު ވާން
-get-involved-title = { $lang } އަށް ބައިވެރިވާން
+get-involved-title = { $lang } އަށް ހުށަހަޅާ
 get-involved-text = ޝުކުރިއްޔާ { $lang } އަށް ބައިވެރިމުމަށް ޝައުގުވެރިވުން ދެއްވީތީ. އަޅުގަނޑުމެން ވަރަށް ބުރަކޮށް މިދަނީ ހުރިހާ ބަހެއް ލޯނޗްކޮށް ޓީމްތަށް އީމެލް މެދުވެރިކޮށް އަޕްޑޭޓް ކުރަމުން. ބައިވެރި ވަޑައިގައްނަވަން އީމެއިލް ދެއްވާ.
 get-involved-form-title = { $lang } ގެ އަޕްޑޭޓް ތަކަށް ސައިންއަޕް
 get-involved-email =
