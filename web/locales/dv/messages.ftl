@@ -255,6 +255,7 @@ edit = ބަދަލުކުރޭ
 email-subscriptions = އީމެއިލް އިސްތިރާކުތައް
 download-profile = އަހުރެންގެ ޑޭޓާ ޑައުންލޯޑުކުރޭ
 contribution-experience = އިންހަމަ
+skip-submission-feedback = ހުށަހެޅުމުގެ ފާޑުކިއުން ދޫކޮށްލާ
 off = ނިވާލާ
 on = ޖައްސާ
 add-avatar-title = ވަނަވަރަށް ފޮޓޯ ހުށައަޅާ
@@ -310,12 +311,14 @@ notfound-content = ތިޔަ ހޯދަންއުޅޭ އެއްޗެއް ނޭނގުނު
 data-download-button = ކޮމަންވޮއިސް ޑޭޓާ ޑައުންލޯޑުކުރޭ
 data-download-yes = އާން
 data-download-deny = ކަމަކުނުދޭ
+data-download-license = ލައިސެންސް: <licenseLink>CC-0</licenseLink>
 data-download-modal = ތިޔައުޅެނީ <size>{ $size } ގިގަބައިޓުގެ</size> އެއްޗެއް ޑައުންލޯޑުކުރަން. ކުރައަށް ދާންވީތަ؟
 data-other-title = އެހެން އަޑުގެ ޑޭޓާސެޓް
 data-other-goto = { $name } އަށް ދޭ
 data-other-download = ޑޭޓާ ޑައުންލޯޑުކުރޭ
 data-other-ted-name = ޓެޑްލިއަމް ކޯރޕަސް
 data-bundle-button = ޑޭޓާސެޓް ޑައުންލޯޑުކުރޭ
+license = ލައިސެންސް: <licenseLink>{ $license }</licenseLink>
 license-mixed = މައްސުނިކުރިވިފައި
 terms-agree = އެއްބަސްވަން
 terms-disagree = އެއްބަހެއް ނުވަން
@@ -351,6 +354,7 @@ contact-required = * މަޖުބޫރު
 request-language-title = ބަހެއް އެދުން
 request-language-form-language =
     .label = ބަސް
+request-language-success-title = ބަހަށް އެދުން ވަނީ ހުށަހެޅިފައި، ޝުކުރިއްޔާ
 request-language-success-content = ތިބާގެ ބަސް ކޮމަން ވޮއިސްއަށް އެޅުމަށް ބޭނުންވާ އިތުރު މައުލޫމާތު ވަރަށް އަވަހަށް ފޯރުކޮށްދޭނަން
 
 ## Languages Overview
@@ -378,9 +382,15 @@ listen = އަޑުއަހާ
 skip = ދޫކޮށްލާ
 shortcuts = ކުރުމަގު
 clips-with-count = <bold>{ $count }</bold> ކްލިޕް
+contribute-more =
+    { $count ->
+        [one] އެއް
+       *[other] އެހެން
+    }
 record-cta = ރެކޯޑްކުރަން ފައްޓާ
 record-platform-not-supported = މާފުކުރައްވާ، ތިޔަ މަންސައަަށް އަދި ސަޕޯރޓެެއް ނުކުރޭ
 record-platform-not-supported-desktop = އެންމެ ފަހުގެ ބައިތައް ކޮމްޕިއުޓަރަށް ޑައުންލޯޑުކުރެވޭނެ
+record-platform-not-supported-ios = <bold>އައިއޯއެސް</bold> ބޭނުންކުރާ ފަރާތްތައް އަޅުގަނޑުމެންގެ ހިިލޭ އެޕް ޑައުންލޯޑް ކުރެވޭނެ:
 record-must-allow-microphone = މައިކު ބޭނުންކުރަން ހުއްދަދީ
 record-no-mic-found = މައިކު ނުފެނުނު
 record-error-too-short = ރެކޯޑިންގ މާ ކުރު
