@@ -266,6 +266,7 @@ browse-file-title = 上傳圖片
 connect-gravatar = 連結到 Gravatar
 gravatar_not_found = 找不到您電郵所屬的 Gravatar
 file_too_large = 選擇的檔案太大
+manage-subscriptions = 管理訂閱
 email-already-used = 電子郵件地址已被使用
 add-language = 增加語言
 
@@ -429,7 +430,10 @@ toward-next-goal = 距離下一個目標
 stats = 統計
 you = 您
 everyone = 所有人
+contribution-activity = 貢獻記錄
 validated-clips = 已被驗證的錄音
+total-approved = 總批准數
+overall-accuracy = 整體準誠度
 
 ## Profile Delete
 
