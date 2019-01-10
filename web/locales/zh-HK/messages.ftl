@@ -150,6 +150,7 @@ todays-progress = 今日嘅進度
 help-reach-goal = 幫我哋達到 { $goal }
 read-terms-q = 睇咗我哋嘅條款未？
 ready-to-record = 準備好去獻聲未？
+all-locales = 全部
 today = 今日
 x-weeks-short =
     { $count ->
@@ -166,6 +167,7 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = 益處
 
 ## What's public
 
@@ -273,6 +275,7 @@ add-language = 增加語言
 ## FAQ
 
 faq-title = 常見問題
+faq-what-cv-q = Common Voice 係咩嘢？
 
 ## Glossary
 
