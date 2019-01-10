@@ -178,6 +178,7 @@ female = އަންހެން
 other = އެހެނިހެން
 why-profile-title = ވަނަވަރު ބޭނުންވަނީ ކީއްވެ؟
 build-profile = ވަނަވަރު ބިނާކުރޭ
+avatar = ފޮޓޯ
 goals = ލަނޑުދަނޑިތައް
 edit-profile = ވަނަވަރު އަދާހަމަކުރޭ
 profile-create-success = މަރުހަބާ، ވަނަވަރު ހެދިއްޖެ!
@@ -190,6 +191,7 @@ off = ނިވާލާ
 add-avatar-title = ވަނަވަރަށް ފޮޓޯ ހުށައަޅާ
 browse-file-title = ފޮޓޯ ހުށައަޅާ
 connect-gravatar = ގްރެވަޓާއާއި ގުޅާދީ
+gravatar_not_found = ތިޔަ އީލެއިލްއާއި ގުޅިވައިވާ ގްރެވަޓާއެއް ނުފެނުނު
 file_too_large = ތި ފައިލް މާ ބޮޑު
 manage-subscriptions = އިސްތިރާކު ބެލެހެއްޓުން
 email-already-used = އެހެން އެކައުންޓެއްގައި ތި އީމެއިލް ވަނީ ބޭނުންކޮށްފައި
@@ -238,6 +240,8 @@ data-other-download = ޑޭޓާ ޑައުންލޯޑުކުރޭ
 license-mixed = މައްސުނިކުރިވިފައި
 terms-agree = އެއްބަސްވަން
 terms-disagree = އެއްބަހެއް ނުވަން
+review-submit-title = މުރާޖާކުރުމަށްފަހު ހުށައަޅާ
+review-recording = މުރާޖާކުރޭ
 review-rerecord = އަލުން ރެކޯޑުކުރޭ
 review-keep-recordings = ރެކޯޑިންތައް ބަހައްޓާ
 review-delete-recordings = އަހަރެންގެ ރެކޯޑިންތައް ފޮހެލާ
@@ -256,6 +260,7 @@ contact-form-name =
     .label = ނަން
 contact-form-message =
     .label = މެސެޖު
+contact-required = * މަޖުބޫރު
 
 ## Request Language Modal
 
@@ -309,6 +314,9 @@ your-languages = އަހުރެންގެ ބަހުރުވަތައް
 stats = ތަފާސްހިސާބު
 you = ތިބާ
 everyone = އެންމެން
+recorded-clips = ރިކޯރޑުކުރެވިފައިވާ އަޑުކޮޅުތައް
+validated-clips = ސައްޙަކުރެވިފައިވާ  އަޑުކޮޅުތައް
+overall-accuracy = ޖުމުލަކޮން ރަނގަޅު
 
 ## Profile Delete
 
