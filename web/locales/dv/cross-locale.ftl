@@ -9,4 +9,5 @@ get-involved-email =
     .label = އީމެއިލް
 get-involved-opt-in = އީމެއިލް މެދުވެރިކޮށް ކޮމަން ވޮއިސްގެ މައުލޫމާތު ފޯރުކޮށްދިނުމާމެދު އަޅުގަޑުގެ އިއުތިރާފެއް ނެތް
 get-involved-submit = ހުށަހަޅާ
+get-involved-success-text = އިތުރު މަޢުލޫމާތު ލިބުމުން އެމަޢުލޫމާތު  އަހަރުމެން ފޯރުކޮށްދޭނަން
 get-involved-return-to-languages = އެނބުރި ބަސްތަކަށް ދާން
