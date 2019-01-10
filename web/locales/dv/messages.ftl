@@ -77,7 +77,7 @@ wall-of-text-second = ބޮޑެތި ކުންފުނިތަކުގައި ބޭނުން
 show-wall-of-text = އިތުރަށް ކިއާ
 help-us-title = ޖުމްލަތައް ސައްހަތޯ ބެލުމަށް އެހީވެދެއްވާ!
 no-clips-to-validate = ފެންނަފެނުމަށް މިވަގުތު މިބަހުގައި އަޑުއަހާނެ އެއްޗެއްނެތް. މިކަން ރަނގާޅުކޮއްލަން މިހާރު އަޑުކޮޅެއް ރެކޯޑުކޮއްލާ
-vote-yes = އާން
+vote-yes = ރަނގަޅު
 vote-no = ނޫން
 toggle-play-tooltip = ޕްލޭ މޯޑަށް ބަދަލުކުރުމަށް { shortcut-play-toggle } ފިއްތާލަ
 speak-subtitle = ތިބާގެ އަޑު އަހަރެމެންނަށް ހަދިޔާކުރޭ
@@ -234,7 +234,7 @@ notfound-content = ތިޔަ ހޯދަންއުޅޭ އެއްޗެއް ނޭނގުނު
 ## Data
 
 data-download-yes = އާން
-data-download-deny = ނޫން
+data-download-deny = ކަމަކުނުދޭ
 data-other-title = އެހެން އަޑުގެ ޑޭޓާސެޓް
 data-other-download = ޑޭޓާ ޑައުންލޯޑުކުރޭ
 license-mixed = މައްސުނިކުރިވިފައި
