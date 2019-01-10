@@ -332,11 +332,11 @@ faq-why-10k-hours-q = Pse për incizimet audio synimi është 10 mijë orë të 
 faq-why-10k-hours-a = Ky është afërsisht numri i orëve të domosdoshme për të stërvitur një produkt për shndërrime nga-e-folura-në-tekst>
 faq-how-calc-hours-q = Si i llogarit orët Common Voice-i?
 faq-how-calc-hours-a = Orët i llogarisim duke peshuar gjatësinë mesatare të çdo incizimi dhe duke e shumëfishuar këtë numër me numrin gjithsej të incizimeve nëpër krejt gjuhët.
-faq-where-src-from-q = Prej nga vjen teksti burim?
-faq-where-src-from-a =
-    Teksti ynë burim është krijuar nga kontribute origjinale, si edhe nga skenarë filmash nën përkatësinë publike, si, b.f., <italic>It’s a Wonderful Life</italic>.
+faq-where-src-from-2-q = Prej nga vjen teksti burim?
+faq-where-src-from-2-a =
+    Teksti ynë burim përbëhet nga dhurime origjinale nga ndihmëtarë, si dhe doalogë nga skenarë filmash nën përkatësi publike, f.v. <italic>It’s a Wonderful Life</italic>.
     
-    Frazat burim mund t’i shihni te kjo dosje GitHub.
+    Fraza nga burimi ynë mund të shihni te kjo <githubLink>dosje GitHub</githubLink>.
 faq-why-not-ask-read-q = Pse s’u kërkoni njerëzve të lexojnë nga libra apo nga artikujt të Wikipedia-s në gjuhë të ndryshme?
 faq-why-not-ask-read-a = Për ta bërë grupin e të dhënave Common Voicesa më të dobishëm që të jetë e mundur, kemi vendosur të lejojmë vetëm tekste burim që gjenden nën një licencë Creative Commons (CC0). Përdorimi i standardeve CC0 do të thotë se është më e vështirë të gjenden dhe grumbullohen tekste burim, por kjo i lejon kujtdo të përdorë të dhënat zanore të përftuara pa kufizime apo autorizime përdorimi nga Mozilla. Tek e fundit, ne duam ta bëjmë grupin shumëgjuhësh të të dhënave të përdorshëm nga kushdo, përfshi kërkues, universitete, biznese të saponisura, qeveri, ente me synime shoqërore, dhe amatorë.
 faq-why-account-q = Pse duhet të regjistrohem për një llogari?
