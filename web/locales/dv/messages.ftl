@@ -26,6 +26,7 @@ ca = ކަޓަލާން
 cs = ޗެކް
 cv = ޗުވާޝް
 cy = ވެލްޝް
+da = ޑެނިޝް
 de = ޖަރުމަނު
 el = ގުރީކް
 en = އިނގިރޭސި
@@ -40,6 +41,7 @@ ja = ޖަޕަނީސް
 ko = ކޮރިއަން
 mdf = މޮކްޝް
 mn = މޮންގޯލިއަން
+nl = ޑަޗް
 ta = ތަމަޅަ
 te = ޓެލުގޫ
 th = ތައި
@@ -77,7 +79,9 @@ help-us-title = ޖުމްލަތައް ސައްހަތޯ ބެލުމަށް އެހީ�
 no-clips-to-validate = ފެންނަފެނުމަށް މިވަގުތު މިބަހުގައި އަޑުއަހާނެ އެއްޗެއްނެތް. މިކަން ރަނގާޅުކޮއްލަން މިހާރު އަޑުކޮޅެއް ރެކޯޑުކޮއްލާ
 vote-yes = އާން
 vote-no = ނޫން
+toggle-play-tooltip = ޕްލޭ މޯޑަށް ބަދަލުކުރުމަށް { shortcut-play-toggle } ފިއްތާލަ
 speak-subtitle = ތިބާގެ އަޑު އަހަރެމެންނަށް ހަދިޔާކުރޭ
+speak-paragraph = އަޑު ކްލިޕްތައް ރިކޯރޑުކުރުމަކީ އޯޕަން ޑޭޓާ ސެޓެއް ހެދުމުގެ މައިގަނޑު ބައެއް. މީ މަޖާ ކަމަކަށްވެސް ވޭ
 speak-goal-text = ކްލިޕް ރެކޯޑްކުރެވިފަ
 listen-subtitle = އަޑުތަކުގެ ފެންވަރު ބެލުމަށް އެހީވެދީ
 listen-paragraph = ހުށައެޅިފައިވާ އަޑުކޮޅުގެ ފެންވަރު ބެލުމަކީ ކޮމަންވޮއިސްއަށް ވަރަށް މުހިންމުކަމެކެވެ. ފެންވަރު ހިފެހެއްޓުމުގެ ގޮތުން، ރަނގަޅުތޯ ބަލާލަން އަޑުއަހާލާ
@@ -91,6 +95,23 @@ read-terms-q = އަހަރެމެންގެ ޝަރުތުތައް ކިޔައިފިނ�
 ready-to-record = އަޑު ހުށައެޅުމަށް ތައްޔާރުތޯ؟
 all-locales = ހުރިހާ
 today = މިއަދު
+x-weeks-short =
+    { $count ->
+        [one] ހަފްތާ
+       *[other] { $count } ހަފްތާ
+    }
+x-months-short =
+    { $count ->
+        [one] މަސް
+       *[other] { $count } މަސް
+    }
+x-years-short =
+    { $count ->
+        [one] އަހަރު
+       *[other] { $count } އަހަރު
+    }
+help-make-dataset = ފެންވަރު ރަނގަޅު އެންމެންނަށް ހުޅުވާލެވިފައިވާ ޑޭޓާ ސެޓެއް ހެދުމަށް އެހީތެރިވެދެއްވާ
+profile-not-required = ޕްރޮފައިލް އެއް ލުން ކޮންމެހެން މަޖުބޫރެއް ނޫން އެކަމަކު  އެވެސް އެހީއެއް
 
 ## Account Benefits
 
@@ -106,12 +127,28 @@ username-email-not-demographic = ތިފަރާތުގެ ނަމާއި އީމެއި�
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ހ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ޖ
+shortcut-play-toggle-label = ޖައްސާ/ހުއްޓާ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = އ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ނ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ރ
+shortcut-record-toggle-label = ރިކޯރޑު/ހުއްޓާ
 request-language-button = ބަހެއް ހިމަނަނުމަށް އެދޭ.
 
 ## ProjectStatus
@@ -124,6 +161,8 @@ english = އިނގިރޭސި
 
 profile-form-language =
     .label = ބަހުރުވަ
+profile-form-accent =
+    .label = ބަހުރުވަ
 profile-form-age =
     .label = އުމުރު
 profile-form-gender =
@@ -131,6 +170,8 @@ profile-form-gender =
 hidden = ފޮރުވިފަ
 native-language =
     .label = މާދަރީ ބަސް
+profile-form-submit-save = ރައްކާކުރޭ
+profile-form-submit-saved = ރައްކާކުރެވިފައި
 male = ފިރިހެން
 female = އަންހެން
 # Gender
@@ -139,15 +180,19 @@ why-profile-title = ވަނަވަރު ބޭނުންވަނީ ކީއްވެ؟
 build-profile = ވަނަވަރު ބިނާކުރޭ
 goals = ލަނޑުދަނޑިތައް
 edit-profile = ވަނަވަރު އަދާހަމަކުރޭ
+profile-create-success = މަރުހަބާ، ވަނަވަރު ހެދިއްޖެ!
 profile-close = ލައްޕާ
 thanks-for-account = އެކައުންޓް ޔަގީންކޮށްދިނީތީ ޝުކުރިއްޔާ. ދެން ހިނގާ ވަނަވަރު ފުރިހަމަކުރަން
 why-demographic = މިކަން މުހިންމުވަނީ ކީއްވެ؟
 edit = ބަދަލުކުރޭ
 download-profile = އަހުރެންގެ ޑޭޓާ ޑައުންލޯޑުކުރޭ
+off = ނިވާލާ
 add-avatar-title = ވަނަވަރަށް ފޮޓޯ ހުށައަޅާ
 browse-file-title = ފޮޓޯ ހުށައަޅާ
 connect-gravatar = ގްރެވަޓާއާއި ގުޅާދީ
 file_too_large = ތި ފައިލް މާ ބޮޑު
+manage-subscriptions = އިސްތިރާކު ބެލެހެއްޓުން
+email-already-used = އެހެން އެކައުންޓެއްގައި ތި އީމެއިލް ވަނީ ބޭނުންކޮށްފައި
 add-language = ބަހެއް އިތުރުކުރޭ
 change-email-setings = ލޮގިން އައިޑެންޓިޓީގެ ދަށުން އީމެއިލް ސެޓިން ބަދަލުކުރޭ
 
@@ -160,6 +205,7 @@ faq-how-get-q = ކޮމަންވޮއިސް ޑޭޓާ ހޯދާނީ ކިހިނެއް�
 faq-when-release-q = ކޮމަން ވޮއިސް ޑޭޓާ އެހެނިހެން ބަސްތަކުން ނެރޭނީ ކޮންއިރަކުން؟
 faq-why-mission-q = މޮަޒިލާގެ މަސައްކަތުގައި ކޮމަންވޮއިސް ހިމެނެނީ ކީއްވެ؟
 faq-what-cv-and-deepspeech-q = ކޮމަންވޮއިސްއާއި، ޑީޕް ސްޕީޗްގެ ތަފާތަކީ ކޮބާ؟
+faq-is-goal-assistant-q = ކޮަމަން ވޮއިސްގެ ލަނޑުދަނޑިއަކީ ވޮއިސް އެސިސްޓެންޓްެ އެއް އުފެއްދުންތަ؟
 faq-why-different-speakers-q = ކޮންމެ ބަހުރުވައަކަށް އެހާގިނަ މީހުންގެ އަޑު ބޭނުންވަނީ ކީއްވެ؟
 faq-why-my-lang-q = އަހަރެންގެ ބަސް އަދިވެސް ހިމަނާފައި ނުވަނީ ކީއްވެ؟
 faq-what-quality-q = ބޭނުންހިފޭވަރުވާނީ، ކިހާ ފެންވަރެއްގައި އަޑުގެ ރެކޯޑިންގް ހުރެގެންތަ؟
@@ -204,6 +250,8 @@ download-no = އަޅާނުލާ
 
 contact-form-name =
     .label = ނަން
+contact-form-message =
+    .label = މެސެޖު
 
 ## Request Language Modal
 
@@ -212,6 +260,7 @@ request-language-form-language =
 
 ## Languages Overview
 
+language-section-in-progress = ކުރިއަށް ދަނީ
 languages-show-more = އިތުރަށް ބަލާ
 language-total-progress = ޖުމްލަ
 language-search-input =
@@ -229,10 +278,16 @@ record-three-more-instruction = ބާކީ ތިނެއް!
 clips-uploaded = އަޑުކޮޅު ހުށައެޅިފައި
 record-abort-submit = އަޑުކޮޅު ހުށައަޅާ
 record-abort-continue = ރެކޯޑުކުރުން ނިމްމާލާ
+record-abort-delete = ކްލިޕްތައް ފޮހެލާފައި ނިކުމޭ
 share-title-new = އިތުރު މީހުންގެ އަޑު ހޯދުމަށް <bold>އެހީވެދީ</bold>
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ދުވަސް
+       *[other] ދުވަސްަތައް
+    }
 
 ## Dashboard
 
@@ -243,3 +298,4 @@ everyone = އެންމެން
 ## Profile Delete
 
 keep = ބަހައްޓާ
+profile-form-delete = ވަނަވަރު ފޮހެލާ
