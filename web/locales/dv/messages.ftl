@@ -293,6 +293,7 @@ review-aborted = އަޕްލޯޑުކުރުން ހުއްޓާލައިފިން. ރި
 review-submit-title = މުރާޖާކުރުމަށްފަހު ހުށައަޅާ
 review-recording = މުރާޖާކުރޭ
 review-rerecord = އަލުން ރެކޯޑުކުރޭ
+review-cancel = ފޮނުވިއެތި ކެންސަލްކުރުން
 review-keep-recordings = ރެކޯޑިންތައް ބަހައްޓާ
 review-delete-recordings = އަހަރެންގެ ރެކޯޑިންތައް ފޮހެލާ
 
@@ -344,6 +345,7 @@ record-error-too-short = ރެކޯޑިންގ މާ ކުރު
 record-error-too-long = ރެކޯޑިންގ މާ ދިގު
 record-error-too-quiet = ރިކޯރޑިންގެ އަޑު  މާމަޑު
 record-cancel = ރިކޯރޑިންގް ކެންސަލްކޮށްލާ
+record-instruction = </recordIcon><recordIcon>{ $actionType } ދެން ޖުމްލަ ބާރަށް ކިޔާ
 record-stop-instruction = ނިމުނީމަ </stopIcon><stopIcon>{ $actionType }
 record-three-more-instruction = ބާކީ ތިނެއް!
 record-again-instruction = ގަދައޭ! <recordIcon></recordIcon> ދެވަމަ ކްލިޕް ރިކޯރޑުކުރޭ
