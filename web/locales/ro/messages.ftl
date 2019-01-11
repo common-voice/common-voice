@@ -178,10 +178,19 @@ sign-up-account = Înscrie-te pentru un cont
 ## Account Benefits
 
 benefits = Beneficii
+rich-data = Asigură-te că datele transmise sunt cât mai bogate posibil, furnizând unele date demografice anonime. Identificăm toate datele demografice înainte de a le face publice.
+improve-audio = Informațiile profilului îmbunătățesc datele audio utilizate în acuratețea recunoașterii vocale.
+keep-track = Urmărește-ți progresul și metrica pe mai multe limbi.
+compare-progress = Vezi progresul tău comparat cu cel al altor colaboratori din toată lumea.
+view-goals = Vezi progresul realizat în comparație cu obiectivele personale și de proiect.
+join-newsletter = Înscrie-te opțional în lista noastră de corespondență pentru actualizări și informații noi despre proiect.
 
 ## What's public
 
+whats-public = Ce este public?
 email-not-public = Nu îți vom face publică adresa de e-mail.
+recordings-and-locale-public = Numărul de înregistrări și limbile în care vei contribui vor fi publice.
+username-optin-public = Poți alege să îți faci numele de utilizator public sau anonim.
 username-email-not-demographic = Numele de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Speak & Listen Shortcuts
@@ -296,8 +305,18 @@ faq-what-cv-q = Ce este Common Voice?
 faq-why-important-q = De ce este important?
 faq-how-get-q = Cum pot obține datele Common Voice?
 faq-when-release-q = Când veți lansa datele Common Voice în alte limbi?
+faq-why-mission-q = De ce face parte Common Voice din misiunea Mozilla?
+faq-why-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. În acest sens, trebuie să împuternicim creatorii web prin proiecte așa cum este Common Voice. Deoarece tehnologiile vocale se extind dincolo de aplicațiile de nișă, credem că trebuie să deservească toți utilizatorii în mod egal. Aceasta înseamnă investiții în mai multe limbi și includerea de accente și date demografice diverse în construcția și testarea tehnologiilor vocale. Common Voice este o resursă publică disponibilă tuturor, iar echipele și dezvoltatorii Mozilla din întreaga lume o utilizează deja în proiectele noastre proprii.
+faq-what-cv-and-deepspeech-q = Care este diferența dintre Common Voice și Deep Speech?
 faq-is-goal-assistant-q = Obiectivul Common Voice este de a construi un asistent vocal?
+faq-do-want-native-q = Nu sunt vorbitor nativ și am accent, vreți oricum vocea mea?
+faq-why-different-speakers-q = De ce aveți nevoie de atât de mulți vorbitori diferiți pe fiecare limbă?
 faq-why-my-lang-q = De ce limba mea nu este încă inclusă?
+faq-what-quality-q = Ce nivel de calitate audio este necesar pentru ca o secvență audio să fie utilizată în setul de date?
+faq-why-10k-hours-q = De ce obiectivul de 10.000 de ore validate de capturi audio pe fiecare limbă?
+faq-why-10k-hours-a = Este numărul aproximativ de ore necesare pentru formarea unui sistem de producție de recunoaștere vocală.
+faq-how-calc-hours-q = Cum calculează Common Voice orele?
+faq-how-calc-hours-a = Calculăm orele estimând lungimea medie a fiecărei înregistrări și înmulțind numărul respectiv cu numărul total de înregistrări în toate limbile.
 faq-is-account-public-q = Informațiile contului meu sunt publice?
 
 ## Glossary
