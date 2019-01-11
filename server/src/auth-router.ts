@@ -26,7 +26,7 @@ router.use(require('cookie-parser')());
 router.use(
   session({
     cookie: {
-      maxAge: 365 * 24 * 60 * 60,
+      maxAge: 30 * 24 * 60 * 60 * 1000,
       secure: PROD,
     },
     secret: SECRET,
