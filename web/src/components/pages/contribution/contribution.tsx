@@ -186,7 +186,7 @@ class ContributionPage extends React.Component<Props, State> {
     }
 
     const shortcut = this.shortcuts.find(
-      ({ key }) => getString(key) === event.key
+      ({ key }) => getString(key).toLowerCase() === event.key
     );
     if (!shortcut) return;
 
