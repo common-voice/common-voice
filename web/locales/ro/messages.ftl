@@ -191,6 +191,7 @@ whats-public = Ce este public?
 email-not-public = Nu îți vom face publică adresa de e-mail.
 recordings-and-locale-public = Numărul de înregistrări și limbile în care vei contribui vor fi publice.
 username-optin-public = Poți alege să îți faci numele de utilizator public sau anonim.
+demographic-deidentified = Informațiile demografice trimise opțional (de ex., vârsta, sexul, limba și accentul) sunt anonimizate din datele voce trimise și nu vor fi niciodată făcute publice în profilul tău.
 username-email-not-demographic = Numele de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Speak & Listen Shortcuts
@@ -302,6 +303,10 @@ change-email-setings = Schimbă-ți e-mailul în Setări sub Identitate de auten
 
 faq-title = Întrebări frecvente
 faq-what-cv-q = Ce este Common Voice?
+faq-what-cv-a =
+    Tehnologia de recunoaștere vocală revoluționează modul în care interacționăm cu mașinile, dar sistemele disponibile în prezent sunt scumpe și proprietare. Common Voice face parte din inițiativa Mozilla de a face tehnologiile de recunoaștere vocală mai bune și mai accesibile pentru toți. Common Voice este o bază de date globală masivă de voci donate, care permite oricui să creeze rapid și ușor aplicații cu comandă vocală în aproape orice limbă.
+    
+    Nu colectăm eșantioane de voce numai în limbi de largă circulație, ci și în limbi cu un număr mai mic de vorbitori. Publicarea unui set de date divers de voci va permite dezvoltatorilor, antreprenorilor și comunităților să abordeze chiar ei acest gol. În plus față de setul de date Common Voice, construim și un motor de recunoaștere vocală cu sursă deschisă, denumit Deep Speech.
 faq-why-important-q = De ce este important?
 faq-how-get-q = Cum pot obține datele Common Voice?
 faq-when-release-q = Când veți lansa datele Common Voice în alte limbi?
