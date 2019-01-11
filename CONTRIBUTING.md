@@ -78,7 +78,7 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 
 #### Configuration
 
-You can find configurable options, like the port CommonVoice is running on, in `/server/src/config-helper.ts`. Just create a `/server/config.json` with the config you want to override.
+You can find configurable options, like the port CommonVoice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override.
 
 #### Setting up Amazon S3 for development
 
