@@ -317,12 +317,22 @@ faq-why-10k-hours-q = De ce obiectivul de 10.000 de ore validate de capturi audi
 faq-why-10k-hours-a = Este numărul aproximativ de ore necesare pentru formarea unui sistem de producție de recunoaștere vocală.
 faq-how-calc-hours-q = Cum calculează Common Voice orele?
 faq-how-calc-hours-a = Calculăm orele estimând lungimea medie a fiecărei înregistrări și înmulțind numărul respectiv cu numărul total de înregistrări în toate limbile.
+faq-where-src-from-2-q = De unde provine textul-sursă?
+faq-why-not-ask-read-q = De ce nu cereți oamenilor să citească din cărți sau articole Wikipedia în diferite limbi?
+faq-why-account-q = De ce trebuie să-mi creez un cont?
 faq-is-account-public-q = Informațiile contului meu sunt publice?
+faq-how-privacy-q = Cum asigurați anonimatul și intimitatea persoanelor care și-au donat vocea?
 
 ## Glossary
 
 glossary = Glosar
 localization = Localizare
+localization-explanation = Acesta este procesul nostru de traducere și adaptare a conținutului nostru pentru multe localizări (limbi).
+sentence-collection = Colecție de fraze
+sentence-collection-explanation = Colectarea frazelor din domeniul public sau scrierea de fraze noi pentru domeniul public.
+hours-recorded-explanation = Numărul de ore de înregistrare vocală pe care le-am colectat până acum.
+sst = Recunoaștere vocală (Speech-to-text, STT)
+de-identified = Anominizat
 
 ## NotFound
 
