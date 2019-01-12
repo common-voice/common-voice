@@ -344,8 +344,13 @@ faq-where-src-from-2-a =
     
     A forrásmondatainkat megtekintheti ebben a <githubLink>GitHub mappában</githubLink>.
 faq-why-not-ask-read-q = Miért nem kérik meg az embereket, hogy könyveket, vagy más nyelvű Wikipédia cikkeket olvassanak fel?
+faq-why-not-ask-read-a = Hogy a Common Voice adatkészlet olyan hasznos legyen, amennyire csak lehet, úgy döntöttünk, hogy csak a Creative Commons (CC0) licenc alatt elérhető forrásszöveget engedélyezzük. A CC0 szabvány használata azt jelenti, hogy nehezebb forrásszöveget keresni és gyűjteni, de így mindenki felhasználási korlátozások és a Mozilla engedélye nélkül használhatja a keletkező adatkészletet. Végső soron egy olyan többnyelvű adatkészletet akarunk készíteni, amely mindenki számára olyan hasznos, amennyire csak lehetséges, köztük kutatóknak, egyetemeknek, induló vállalkozásoknak, kormányzatoknak, szociális célú szervezeteknek és hobbistáknak.
 faq-why-account-q = Miért kellene fiókot regisztrálnom?
 faq-is-account-public-q = A fiókinformációim nyilvánosak?
+faq-how-privacy-q = Hogyan biztosítják a hangjukat felajánló emberek névtelenségét és adatvédelmét?
+faq-how-privacy-a = Az adatkészletben lévő összes hangklipről eltávolításra kerülnek a személyazonosító információk. Ha egy közreműködő demográfiai adatokat ad meg a profilján, akkor ez az információ eltávolításra kerül a hangklipekről az adatkészlet letöltése előtt, és ez nem lesz nyilvánosságra hozva a profiloldalán.
+faq-what-determine-identity-q = Mit jelent a „beszélők személyazonosságának meghatározása” a Common Voice adatkészletben?
+faq-what-determine-identity-a = A Common Voice adatkészlet egy nyílt és nyilvánosan elérhető erőforrás, amely különféle hangfelismerést használó alkalmazások tanítására használható. A közreműködőink biztonságának védelme érdekében, mindenkit, aki letölti a Common Voice adatkészletet, megkérünk, hogy tartsa tiszteletben a közreműködők magánszféráját. Az adatkészletben lévő összes klipről eltávolításra kerülnek a személyazonosító információk. Ha letölti az adatkészletet, akkor beleegyezik, hogy nem próbálja meg egy közreműködő személyét sem meghatározni. Ez azt jelenti, hogy nem próbálhatja meg összekapcsolni az adatkészletet a közreműködő személyes adataival. Viszont használhatja az adatkészletet hangfelismerés tanításához, beszélőfelismeréshez, vagy más alkalmazásokhoz, például az adatkészletben lévő információk egymással összekapcsolásához.
 
 ## Glossary
 
