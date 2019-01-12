@@ -323,6 +323,16 @@ faq-why-mission-a = A Mozilla elkötelezett abban, hogy a webet nyíltnak és mi
 faq-what-cv-and-deepspeech-q = Mi a különbség a Common Voice és a Deep Speech között?
 faq-what-cv-and-deepspeech-a = A Common Voice adatkészlet kiegészíti a Mozilla Deep Speech nyílt forráskódú hangfelismerő motorját. A Deep Speech első verziója 2017 novemberében jelent meg, és azóta is folyamatosan fejlődik. A Common Voice adatkészlettel együtt úgy gondoljuk, hogy a nyílt forráskódú hangfelismerő technológiának mindenki számára elérhetőnek kell lennie. Reméljük, hogy ezek a technológiák lehetővé teszik a fejlesztők számára az innovatív termékek és szolgáltatások új hullámának elkészítését.
 faq-is-goal-assistant-q = A Common Voice célja egy hangfelismerő asszisztens létrehozása?
+faq-is-goal-assistant-a = A Common Voice adatkészlet célja, hogy bárki a világon beszédfelismerő, beszélőfelismerő vagy bármilyen más, hangadatokat használó alkalmazást készíthessen. A hangfelismerő asszisztens csak egy a sokféle alkalmazástípus közül, amelyekhez az adatállományt felhasználhatja.
+faq-do-want-native-q = Nem anyanyelvi beszélő vagyok, akcentussal beszélem, ettől még használható a hangom?
+faq-do-want-native-a = Igen, különösen az Ön hangját szeretnénk! A Common Voice egyik célja, hogy minél több különböző akcentust gyűjtsön, így a hangfelismerő szolgáltatások mindenki számára egyformán jól működjenek. Ezt azt jelenti, hogy a nem anyanyelvi beszélők hozzájárulásai különösen fontosak.
+faq-why-different-speakers-q = Miért van szükség annyi különböző beszélőre nyelvenként?
+faq-why-different-speakers-a =
+    A legtöbb beszédadatbázist bizonyos demográfiák felülreprezentálásával tanítják be, amely a <articleLink>férfiak és a középosztály</articleLink> felé torzít. Az alulreprezentált akcentusok és dialektusok jellemzően pont olyan embercsoportokhoz kapcsolódnak, akik eleve marginalizáltak. Számos gép a női hangok megértésével is küszködik.
+    Ezért akarunk változatosságot a saját hangadatbázisunkban!
+faq-why-my-lang-q = Az én nyelven miért nem szerepel még?
+faq-why-my-lang-a = A Mozilla nem válogat, vagy részesít előnyben nyelveket. Ehelyett a Common Voice teljesen közösség által vezérelt, de <multilangLink>számos lépés szükséges egy új nyelv hozzáadásához</multilangLink>, és a hanghozzájárulások begyűjtésének elkezdéséhez. Először, le kell fordítani a Common Voice weboldalt, hogy a közösség tagjai a saját nyelvükön tapasztalják meg a közreműködés élményét. Aztán egy nagy szerzői joggal nem védett mondatgyűjteményre van szükség, amelyet az emberek fel kell olvassanak. Ha mindkét követelmény teljesül, akkor a nyelv „elindul” a Common Voice-on, így az emberek elkezdhetik rögzíteni a hangjukat, és ellenőrizhetik mások felajánlásait.
+faq-what-quality-q = Milyen hangminőségre van szükség ahhoz, hogy a hangklip használható legyen az adatkészletben?
 faq-why-account-q = Miért kellene fiókot regisztrálnom?
 faq-is-account-public-q = A fiókinformációim nyilvánosak?
 
