@@ -286,7 +286,14 @@ faq-what-cv-q = Què és el Common Voice?
 
 ## Glossary
 
+glossary = Glossari
+localization = Localització
+localization-explanation = Procés de traducció i adaptació del contingut en altres llengües.
+sentence-collection = Recollida de frases
+sentence-collection-explanation = Recopilar frases del domini públic o escriure'n de noves per al domini públic.
+hours-recorded-explanation = Recompte de les hores d'enregistrament de veu que s'han recollit fins ara.
 sst = Veu a text (STT)
+sst-explanation = Les tecnologies de veu a text (STT) converteixen les dades de veu en text.
 
 ## NotFound
 
