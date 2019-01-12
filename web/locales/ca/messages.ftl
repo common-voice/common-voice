@@ -178,6 +178,8 @@ benefits = Beneficis
 
 ## What's public
 
+whats-public = Què és públic?
+email-not-public = No farem pública la vostra adreça electrònica.
 
 ## Speak & Listen Shortcuts
 
@@ -286,6 +288,7 @@ add-language = Afegeix una llengua
 
 faq-title = Preguntes més freqüents
 faq-what-cv-q = Què és el Common Voice?
+faq-why-important-q = Per què és important?
 
 ## Glossary
 
