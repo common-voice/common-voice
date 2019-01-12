@@ -181,6 +181,7 @@ sign-up-account = Regisztráljon egy fiókot
 ## Account Benefits
 
 benefits = Előnyök
+rich-data = A névtelen demográfiai adatokkal a lehető leggazdagabbá teheti a benyújtott adatokat. A demográfiai adatok a nyilvánosságra hozáskor anonimizálásra kerülnek.
 
 ## What's public
 
@@ -300,7 +301,6 @@ change-email-setings = Módosítsa az e-mail beállításait a Beállításokban
 faq-title = Gyakran Ismételt Kérdések
 faq-what-cv-q = Mi a Common Voice?
 faq-why-important-q = Ez miért fontos?
-faq-where-src-from-q = Honnan származik a forrásszöveg?
 faq-why-account-q = Miért kellene fiókot regisztrálnom?
 faq-is-account-public-q = A fiókinformációim nyilvánosak?
 
