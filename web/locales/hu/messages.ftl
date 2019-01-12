@@ -339,6 +339,11 @@ faq-why-10k-hours-a = Megközelítőleg ennyi óra hanganyagra van szükség egy
 faq-how-calc-hours-q = Hogyan számolja a Common Voice az órákat?
 faq-how-calc-hours-a = Az órákat az egyes felvételek átlagos hosszának becslésével számítjuk, és ezt a számot megszorozzuk az összes rögzített felvételek számával.
 faq-where-src-from-2-q = Honnan származik a forrásszöveg?
+faq-where-src-from-2-a =
+    A forrásszövegeink eredeti közreműködői hozzájárulásokból szerezzük, valamint olyan közkincsű filmforgatókönyvekből, mint <italic>Az élet csodaszép</italic>.
+    
+    A forrásmondatainkat megtekintheti ebben a <githubLink>GitHub mappában</githubLink>.
+faq-why-not-ask-read-q = Miért nem kérik meg az embereket, hogy könyveket, vagy más nyelvű Wikipédia cikkeket olvassanak fel?
 faq-why-account-q = Miért kellene fiókot regisztrálnom?
 faq-is-account-public-q = A fiókinformációim nyilvánosak?
 
