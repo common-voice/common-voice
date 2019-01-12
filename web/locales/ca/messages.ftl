@@ -175,11 +175,17 @@ sign-up-account = Crea un compte
 ## Account Benefits
 
 benefits = Beneficis
+rich-data = Enriquiu les dades que envieu afegint-hi informació demogràfica anònima. Aquesta informació s'anonimitza abans de publicar-se.
+improve-audio = La informació del perfil millora les dades d'àudio utilitzades per entrenar la precisió del reconeixement de veu.
 
 ## What's public
 
 whats-public = Què és públic?
 email-not-public = No farem pública la vostra adreça electrònica.
+recordings-and-locale-public = El nombre d'enregistraments i les llengües en què heu col·laborat seran públics.
+username-optin-public = Podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
+demographic-deidentified = Les dades demogràfiques proporcionades opcionalment (per exemple, edat, sexe, llengua i accent) s'anonimitzen de les dades de veu que envieu i mai no es faran públiques en el vostre perfil.
+username-email-not-demographic = El vostre nom d'usuari i adreça electrònica no estaran associats amb les dades publicades.
 
 ## Speak & Listen Shortcuts
 
@@ -463,6 +469,8 @@ your-languages = Les vostres llengües
 toward-next-goal = Cap al següent objectiu
 clips-you-recorded = Talls que heu enregistrat
 clips-you-validated = Talls que heu validat
+todays-recorded-progress = Progrés d'avui del Common Voice quant a talls enregistrats
+todays-validated-progress = Progrés d'avui del Common Voice quant a talls validats
 stats = Estadístiques
 you = Vós
 everyone = Tothom
