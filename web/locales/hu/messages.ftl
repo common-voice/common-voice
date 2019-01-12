@@ -333,6 +333,12 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Az én nyelven miért nem szerepel még?
 faq-why-my-lang-a = A Mozilla nem válogat, vagy részesít előnyben nyelveket. Ehelyett a Common Voice teljesen közösség által vezérelt, de <multilangLink>számos lépés szükséges egy új nyelv hozzáadásához</multilangLink>, és a hanghozzájárulások begyűjtésének elkezdéséhez. Először, le kell fordítani a Common Voice weboldalt, hogy a közösség tagjai a saját nyelvükön tapasztalják meg a közreműködés élményét. Aztán egy nagy szerzői joggal nem védett mondatgyűjteményre van szükség, amelyet az emberek fel kell olvassanak. Ha mindkét követelmény teljesül, akkor a nyelv „elindul” a Common Voice-on, így az emberek elkezdhetik rögzíteni a hangjukat, és ellenőrizhetik mások felajánlásait.
 faq-what-quality-q = Milyen hangminőségre van szükség ahhoz, hogy a hangklip használható legyen az adatkészletben?
+faq-what-quality-a = Azt szeretnénk, hogy a Common Voice adatkészlet tükrözze valóságban jellemző hangminőséget, amit a beszéd szöveggé alakítási motor hallani fog, ezért változatosságot szeretnénk. A beszélők sokféle közössége, a változó hangminőség megtanítja a beszéd szöveggé alakítási motort a valós helyzetek kezelésére, a háttérzajtól kezdve az autóhangig. Amíg a hangklip érthető, addig elég jó az adatkészlet számára.
+faq-why-10k-hours-q = Miért 10 000 ellenőrzött óra szükséges nyelvenként a hangrögzítésnél?
+faq-why-10k-hours-a = Megközelítőleg ennyi óra hanganyagra van szükség egy működőképes beszéd szöveggé alakítási rendszer betanítására.
+faq-how-calc-hours-q = Hogyan számolja a Common Voice az órákat?
+faq-how-calc-hours-a = Az órákat az egyes felvételek átlagos hosszának becslésével számítjuk, és ezt a számot megszorozzuk az összes rögzített felvételek számával.
+faq-where-src-from-2-q = Honnan származik a forrásszöveg?
 faq-why-account-q = Miért kellene fiókot regisztrálnom?
 faq-is-account-public-q = A fiókinformációim nyilvánosak?
 
