@@ -305,7 +305,16 @@ change-email-setings = Módosítsa az e-mail beállításait a Beállításokban
 
 faq-title = Gyakran Ismételt Kérdések
 faq-what-cv-q = Mi a Common Voice?
+faq-what-cv-a =
+    A hangfelismerési technológia forradalmasítja a gépekkel történő interakciót, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Common Voice a Mozilla kezdeményezésének része, amellyel a hangfelismerési technológia mindenki számára elérhetővé akarjuk tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
+    
+    Nemcsak a széles körűen beszélt nyelveken gyűjtünk hangmintákat, de a kisebb beszélőszámú nyelveken is. A változatos hangadatkészlet közzététele lehetőséget ad a fejlesztőknek, vállalkozóknak és a közösségeknek, hogy leküzdjék ezt a különbséget. A Common Voice adatkészlete mellett egy nyílt forráskódú beszédfelismerő motort is készítünk, melyet Deep Searchnek hívunk.
 faq-why-important-q = Ez miért fontos?
+faq-why-important-a =
+    A beszéd gyakran a legtermészetesebb módja az egymással történő kommunikációnak, és a hangtechnológiák elhozzák ezt a kényelmet a számítógépeinkhez és mobileszközeinkhez. Szeretnénk lehetővé tenni, hogy a fejlesztők lenyűgöző hangfelismerő alkalmazásokat készítsenek, mint a szinkrontolmácsok és a hangfelismerést használó digitális asszisztensek. De jelenleg az ehhez szükséges hangadatok költségesek és tulajdonosi modellt használnak. Reméljük, hogy a Common Voice megadja a fejlesztőknek azt, amire szükségük van ahhoz, hogy elérhetővé tegyék a beszédfelismerést a saját nyelvükön.
+    
+    Hogy a beszédfelismerést még univerzálisabbá tegyük, nem csak a széles körben beszélt nyelveken gyűjtünk adatokat, hanem a kisebb beszélőszámmal rendelkező nyelveken is, melyeket gyakran nem szolgálnak ki a kereskedelmi hangfelismerő szolgáltatások. A változatos hangadatkészlet lehetővé teszi, hogy a fejlesztők, vállalkozók és a nyelvi közösségek maguk küzdjék le ezt a különbséget.
+faq-how-get-q = Hogyan szerezhetem meg a Common Voice adatokat?
 faq-why-account-q = Miért kellene fiókot regisztrálnom?
 faq-is-account-public-q = A fiókinformációim nyilvánosak?
 
