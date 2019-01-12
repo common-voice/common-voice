@@ -182,6 +182,11 @@ sign-up-account = Regisztráljon egy fiókot
 
 benefits = Előnyök
 rich-data = A névtelen demográfiai adatokkal a lehető leggazdagabbá teheti a benyújtott adatokat. A demográfiai adatok a nyilvánosságra hozáskor anonimizálásra kerülnek.
+improve-audio = A profiladatok javítják a beszédfelismerő pontosságának tanításához használt hangadatokat.
+keep-track = Kövesse nyomon az előrehaladást és a metrikákat több nyelven is.
+compare-progress = Nézze meg, hogyan haladnak a világ többi részéről érkező közreműködőkkel összehasonlítva.
+view-goals = Nézze meg az előrehaladást a személyes és a projekt céljaihoz képest.
+join-newsletter = Csatlakozhat a levelezőlistánkhoz, hogy értesüljön a projekttel kapcsolatos újdonságokról és információkról.
 
 ## What's public
 
