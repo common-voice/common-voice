@@ -177,6 +177,8 @@ sign-up-account = Crea un compte
 benefits = Beneficis
 rich-data = Enriquiu les dades que envieu afegint-hi informació demogràfica anònima. Aquesta informació s'anonimitza abans de publicar-se.
 improve-audio = La informació del perfil millora les dades d'àudio utilitzades per entrenar la precisió del reconeixement de veu.
+keep-track = Feu el seguiment del vostre progrés i de les mètriques de les llengües en què col·laboreu.
+compare-progress = Compareu el vostre progrés amb el dels altres col·laboradors de tot el món.
 
 ## What's public
 
