@@ -328,11 +328,8 @@ faq-why-10k-hours-q = Perché l’obiettivo di registrazione è proprio 10.000 o
 faq-why-10k-hours-a = È approssimativamente il numero di ore necessario per addestrare un software di riconoscimento vocale.
 faq-how-calc-hours-q = In che modo Common Voice calcola le ore?
 faq-how-calc-hours-a = Calcoliamo le ore stimando la lunghezza media di ciascuna registrazione e moltiplicando quel numero per il numero totale di registrazioni in tutte le lingue.
-faq-where-src-from-q = Da dove provengono le frasi?
-faq-where-src-from-a =
-    Le nostre frasi sono testi originali offerti dai collaboratori e dialoghi tratti da copioni di film di pubblico dominio come <italic>La vita è meravigliosa</ italic>.
-    
-    Puoi leggere tutte le frasi da questa cartella GitHub.
+faq-where-src-from-2-q = Da dove proviene il testo di origine?
+faq-where-src-from-2-a = Il testo di origine è frutto di donazioni da parte dei collaboratori e da dialoghi di pubblico dominio tratti da film come <italic>It’s a Wonderful Life</italic>.
 faq-why-not-ask-read-q = Perché non chiedete alle persone di leggere brani tratti da libri o articoli di Wikipedia in diverse lingue?
 faq-why-not-ask-read-a = Per non limitare le possibili applicazioni del dataset Common Voice, abbiamo deciso di utilizzare unicamente frasi disponibili sotto la licenza Creative Commons (CC0). Lo standard CC0 rende più difficile trovare e raccogliere frasi idonee, tuttavia garantisce a chiunque il diritto di impiegare i dati raccolti senza restrizioni sull’utilizzo o autorizzazione da parte di Mozilla. In definitiva, vogliamo che il dataset multilingua abbia meno restrizioni possibili in modo da essere utilizzato liberamente da chiunque, compresi ricercatori, università, startup, governi, organizzazioni per scopi sociali e hobbisti.
 faq-why-account-q = Perché dovrei registrare un account?
