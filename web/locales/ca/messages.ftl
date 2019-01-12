@@ -151,7 +151,7 @@ todays-progress = Progrés d'avui
 help-reach-goal = Ajudeu-nos a arribar a { $goal }
 read-terms-q = Heu llegit les condicions d'ús?
 ready-to-record = Esteu a punt per donar la veu?
-all-locales = Tot
+all-locales = Totes
 today = Avui
 x-weeks-short =
     { $count ->
@@ -169,9 +169,12 @@ x-years-short =
        *[other] { $count } anys
     }
 help-make-dataset = Ajudeu-nos a crear un conjunt de dades d'alta qualitat obert i disponible públicament
+profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
+sign-up-account = Crea un compte
 
 ## Account Benefits
 
+benefits = Beneficis
 
 ## What's public
 
@@ -292,8 +295,11 @@ localization-explanation = Procés de traducció i adaptació del contingut en a
 sentence-collection = Recollida de frases
 sentence-collection-explanation = Recopilar frases del domini públic o escriure'n de noves per al domini públic.
 hours-recorded-explanation = Recompte de les hores d'enregistrament de veu que s'han recollit fins ara.
+hours-validated-explanation = Recompte de les hores d'enregistrament de veu s'han validat. Una frase es considera validada quan dos de tres usuaris voten «Sí». Aquestes hores compten per a l'objectiu general del projecte de 10.000 hores.
 sst = Veu a text (STT)
 sst-explanation = Les tecnologies de veu a text (STT) converteixen les dades de veu en text.
+de-identified = Anonimització
+de-identified-explanation = Procés pel qual la informació del perfil d'un col·laborador s'oculta dels talls de veu que han donat quan s'empaqueten per baixar-los com a part del conjunt de dades.
 
 ## NotFound
 
