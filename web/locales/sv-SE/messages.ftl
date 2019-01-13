@@ -171,6 +171,8 @@ x-years-short =
         [one] År
        *[other] { $count }y
     }
+help-make-dataset = Hjälp oss bygga en högkvalitativ, öppen datamängd
+profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 sign-up-account = Registrera dig för ett konto
 
 ## Account Benefits
@@ -295,6 +297,7 @@ faq-title = Vanliga frågor och svar
 faq-what-cv-q = Vad är Common Voice?
 faq-why-important-q = Varför är det viktigt?
 faq-when-release-q = När kommer ni släppa Common Voice-data på andra språk?
+faq-why-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
 faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
 faq-is-goal-assistant-q = Är målet med Common Voice att bygga en röstassistent?
 faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
