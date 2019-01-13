@@ -313,6 +313,7 @@ faq-what-quality-q = Zenbateko audio kalitatea behar da grabaketa datu-sortan er
 faq-why-10k-hours-q = Zergatik lortu behar dira balioztatutako 10.000 audio ordu hizkuntza bakoitzean?
 faq-why-10k-hours-a = Ordu kopuru hau gutxi-gora-behera ekoizpeneko speech-to-text sistema bat trebatzeko behar dena da.
 faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
+faq-how-calc-hours-a = Orduak kalkulatzeko grabaketa bakoitzaren batezbesteko luzera hartu eta hizkuntza guztietan egindako grabaketa guztien kopuruagatik biderkatzen dugu.
 faq-where-src-from-2-q = Nondik dator iturri testua?
 faq-where-src-from-2-a =
     Gure iturburu testuak proiektuko laguntzaileek berariaz sortutakoak dira eta baita <italic>Bizitza ederra da</italic> bezala jabetza publikoan dauden filmen azpitituluetatik ateratakoak. Euskararen kasuan, hainbat esaldi <italic>Argia</italic> aldizkaritik ateratakoak dira, proiektu honetarako espresuki jabetza publikoan utzi dituztenak.
@@ -322,17 +323,21 @@ faq-why-not-ask-read-q = Zergatik ez diozue jendeari eskatzen liburuak edo Wikip
 faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
 faq-is-account-public-q = Nire kontuko informazioa publikoa da?
 faq-how-privacy-q = Nola ziurtatzen dituzue beren ahotsak lagatzen dituzten pertsonen anonimotasuna eta pribatutasuna?
+faq-what-determine-identity-q = Zer nahi du esan ezin dela hizlarien "identitatea zehaztu" Common Voice datu-sortan?
 
 ## Glossary
 
 glossary = Glosarioa
 localization = Lokalizazioa
+localization-explanation = gure edukia hainbat lokaletara (hizkuntzatara) itzultzeko eta moldatzeko prozesuari deritzo.
 sentence-collection = Esaldiak biltzea
-sentence-collection-explanation = Jabetza publikoan dauden esaldiak bilduz edo zuzenean berriak idatziz eta berauok jabetza publikoan utziz.
+sentence-collection-explanation = jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauok jabetza publikoan uztea.
 hours-recorded-explanation = Orain arte bildu ditugun ahots grabaketa orduak.
-hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabaketa orduak. Honek markatzen du 10.000 orduko helburuarekiko aurrerabidea.
+hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabaketa orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
 sst = Speech-to-text (STT)
-sst-explanation = Speech-to-text (STT) teknologiek ahots datuak, testu bihurtzen dituzte.
+sst-explanation = speech-to-text (STT) teknologiek, ahots datuak testu bihurtzen dituzte.
+de-identified = Des-identifikazioa
+de-identified-explanation = datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabaketetatik ezkutatzeko prozesua.
 
 ## NotFound
 
