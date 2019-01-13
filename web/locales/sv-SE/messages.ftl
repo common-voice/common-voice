@@ -311,9 +311,13 @@ faq-is-account-public-q = Är min kontoinformation offentlig?
 
 glossary = Ordlista
 localization = Översättning
+localization-explanation = Det här är vår process för att översätta och anpassa vårt innehåll till många språk.
+sentence-collection = Insamling av meningar
 hours-recorded-explanation = Antalet röstinspelningstimmar vi hittills har samlat in.
 sst = Tal-till-text (STT)
-sst-explanation = Speech-to-Text (STT) -tekniken konverterar röstdata till text.
+sst-explanation = Tal-till-text (STT)-tekniken konverterar röstdata till text.
+de-identified = Anonymisering
+de-identified-explanation = Processen genom vilken en bidragsgivares profilinformation döljs från sina donerade röstklipp när de är packade för nedladdning som en del av datamängden.
 
 ## NotFound
 
