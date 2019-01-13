@@ -178,6 +178,12 @@ sign-up-account = Registrera dig för ett konto
 ## Account Benefits
 
 benefits = Fördelar
+rich-data = Gör dina inskickade data så utförliga som möjligt genom att bidra med anonym demografi. Vi anonymiserar all demografisk data innan den blir publik.
+improve-audio = Profilinformation förbättrar ljuddatan som används för att göra träningen av röstigenkänning bättre.
+keep-track = Håll reda på dina framsteg och mätvärden för flera språk.
+compare-progress = Se hur dina framsteg går mot andra som bidrar över hela världen.
+view-goals = Se dina personliga framsteg och projektmål.
+join-newsletter = Du kan, om du vill, gå med i vår e-postlista för uppdateringar och ny information om projektet.
 
 ## What's public
 
@@ -185,6 +191,7 @@ whats-public = Vad är offentligt?
 email-not-public = Vi kommer inte göra din e-post offentlig.
 recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
 username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
+demographic-deidentified = Om du valt att skicka demografisk data (t.ex. ålder, kön, och språk) anonymiseras den från dina inskickade röstdata och kommer aldrig bli publik på din profil.
 username-email-not-demographic = Ditt användarnamn och e-post kommer inte att kopplas till den publicerade datan.
 
 ## Speak & Listen Shortcuts
@@ -295,10 +302,23 @@ change-email-setings = Ändra ditt e-post via Inställningar under inloggningsid
 
 faq-title = Vanliga frågor och svar
 faq-what-cv-q = Vad är Common Voice?
+faq-what-cv-a =
+    Teknik för röstigenkänning revolutionerar hur vi interagerar med maskiner, men nuvarande tillgängliga system är dyra och proprietära. Common Voice är en del av Mozillas initiativ för att göra röstigenkänning bättre och mer tillgänglig för alla. Common Voice är en massiv global databas av donerade röster som låter vem som helst snabbt och enkelt träna appar med röst-stöd i potentiellt vilket språk som helst.
+    
+    Vi samlar inte bara in röstprover i stora språk utan även i de som har färre talare. Genom att publicera en mångfaldig datauppsättning av röster gör vi det möjligt för utvecklare, entreprenörer, och gemenskaper att själva påverka klyftan som finns. Utöver datan i Common Voice, bygger vi också Deep Speech, en röstigenkänning i öppen källkod.
 faq-why-important-q = Varför är det viktigt?
+faq-why-important-a =
+    Tal är oftast det mest naturliga sättet vi kommunicerar med varann på och teknik tar den bekvämligheten till våra datorer och mobila enheter. Vi vill möjliggöra för utvecklare att bygga fantastiska appar med röstigenkänning, såsom översättare i realtid och röstaktiverade digitala assistenter. Men just nu är den mesta röstdatan som krävs för att bygga den här typen av appar dyr och proprietär. Vi hoppas att datamängden i Common Voice ger utvecklare vad de behöver för att innovera och göra röstteknik tillgängliga på deras egna språk.
+    
+    För att göra röstigenkänning mer universal, samlar vi in röstprover i brett talade språk, men även de som har en mindre befolkning av talare som oftast åsidosätts av kommersiella tjänster för röstigenkänning. Genom att publicera ett mångfaldig datamängd av röster möjliggör vi för utvecklare, entreprenörer och språkgemenskaper att själva täcka den här klyftan.
+faq-how-get-q = Hur kan jag hämta hem Common Voice-data?
+faq-how-get-a = Common Voice-datamängd finns tillgänglig för nedladdning under licensen <licenseLink>CC0</licenseLink> på <datasetLink>vår sida för datamängder</datasetLink>. Du kan också ladda ner flera andra publikt tillgängliga datamängder från samma sida.
 faq-when-release-q = När kommer ni släppa Common Voice-data på andra språk?
+faq-when-release-a = Den flerspråkiga versionen av Common Voice-datamängd genomgår för närvarande buntning och städning i vår community. Om du vill lära dig mer om hur du stödjer denna insats, vänligen <contactLink>kontakta oss</contactLink>. Vi riktar för närvarande in oss på ett publiceringsdatum i januari 2019. Därefter uppdaterar vi datamängd med nya språk och röstklipp när de blir tillgängliga. Inget beslut har tagits om hur ofta iterativa uppdateringar ska släppas.
 faq-why-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
+faq-why-mission-a = Mozilla är dedikerat till att hålla webben öppen och tillgänglig för alla. För att göra det behöver vi stärka webbskapare genom projekt som Common Voice. Eftersom röstteknologi växer utöver nischprogram, tycker vi att de måste vara tillgängliga för alla användare. Det innebär en investering i fler språk och anpassning efter fler accenter och större demografi när man bygger och testar röstteknik. Common Voice är en offentlig resurs tillgänglig för alla och Mozilla-team och utvecklare runt om i världen använder den redan i sina egna projekt.
 faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
+faq-what-cv-and-deepspeech-a = Common Voice-datamängd kompletterar Mozillas taligenkänningsmotor i öppen källkod, Deep Speech. Den första versionen av Deep Speech släpptes i november 2017 och har fortsatt att utvecklas sedan dess. Tillsammans med Common Voice-datamängd tycker vi att denna teknik för röstigenkänning i öppen källkod ska vara tillgänglig för alla. Det är vår förhoppning att dessa tekniker gör det möjligt för utvecklare att bygga en våg av innovativa produkter och tjänster.
 faq-is-goal-assistant-q = Är målet med Common Voice att bygga en röstassistent?
 faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
 faq-how-calc-hours-q = Hur beräknar Common Voice timmar?
@@ -306,6 +326,13 @@ faq-where-src-from-2-q = Vart kommer denna källtexten ifrån?
 faq-why-not-ask-read-q = Varför frågar du inte folk att läsa från böcker eller Wikipedia-artiklar på olika språk?
 faq-why-account-q = Varför ska jag registrera mig för ett konto?
 faq-is-account-public-q = Är min kontoinformation offentlig?
+faq-how-privacy-q = Hur säkerställer ni anonymitet och integritet hos de personer som donerat sina röster?
+faq-how-privacy-a = Alla röstklipp i datamängden har rensats från personidentifierande information. När en bidragsgivare tillhandahåller demografiska data via sin profil, anonymiseras den informationen från röstklippen innan de kombineras för nedladdning i datamängden och publiceras aldrig på deras profilsida.
+faq-what-determine-identity-q = Vad betyder det att jag inte kan "försöka bestämma identiteten" för talare i Common Voice-datamängd?
+faq-what-determine-identity-a =
+    Common Voice-datamängd är en öppen och allmänt tillgänglig resurs som kan användas för att träna ett brett utbud av röstaktiverade applikationer. För att skydda våra bidragsgivares säkerhet ber vi alla som hämtar Common Voice-datamängd att respektera bidragsgivarnas integritet.
+    
+    Alla röstklipp i datamängden rensas på personidentifierande information. När du hämtar datamängden godkänner du att du inte försöker ta reda på identiteten hos någon bidragsgivare. Det betyder att du inte får försöka länka information i datamängden till en bidragsgivares personuppgifter. Du kan dock använda datamängden för att träna taligenkänning, talarigenkänning eller andra program, t.ex. genom att länka information i datamängden till annan information som redan finns i datamängden.
 
 ## Glossary
 
@@ -313,7 +340,9 @@ glossary = Ordlista
 localization = Översättning
 localization-explanation = Det här är vår process för att översätta och anpassa vårt innehåll till många språk.
 sentence-collection = Insamling av meningar
+sentence-collection-explanation = Insamling av meningar från offentliga källor eller skriva nya tillgängliga för allmänheten.
 hours-recorded-explanation = Antalet röstinspelningstimmar vi hittills har samlat in.
+hours-validated-explanation = Antalet röstinspelningstimmar som har validerats av 2 av 3 användare med en röst på "Ja". Dessa markerar framsteg mot det övergripande projektmålet om 10 000 timmar.
 sst = Tal-till-text (STT)
 sst-explanation = Tal-till-text (STT)-tekniken konverterar röstdata till text.
 de-identified = Anonymisering
