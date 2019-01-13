@@ -320,10 +320,28 @@ faq-why-mission-a = Mozilla är dedikerat till att hålla webben öppen och till
 faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
 faq-what-cv-and-deepspeech-a = Common Voice-datamängd kompletterar Mozillas taligenkänningsmotor i öppen källkod, Deep Speech. Den första versionen av Deep Speech släpptes i november 2017 och har fortsatt att utvecklas sedan dess. Tillsammans med Common Voice-datamängd tycker vi att denna teknik för röstigenkänning i öppen källkod ska vara tillgänglig för alla. Det är vår förhoppning att dessa tekniker gör det möjligt för utvecklare att bygga en våg av innovativa produkter och tjänster.
 faq-is-goal-assistant-q = Är målet med Common Voice att bygga en röstassistent?
+faq-is-goal-assistant-a = Målet med Common Voice-datamängd är att göra det möjligt för alla i världen att bygga taligenkänning, talarigenkänning, eller andra typer av program som kräver röstdata. En röstassistent är bara en av många typer av program som du kan bygga med hjälp av datamängden.
+faq-do-want-native-q = Detta är inte mitt modersmål och jag pratar med en accent, är ni fortfarande intresserad av mina röst?
+faq-do-want-native-a = Ja, vi vill särskilt ha din röst! En del av syftet med Common Voice är att samla in så många olika accenter som möjligt så att röstigenkänningstjänster fungerar lika bra för alla. Detta innebär att donationer från de som inte har det som modersmål är särskilt viktiga.
+faq-why-different-speakers-q = Varför behöver ni så många olika talare per språk?
+faq-why-different-speakers-a =
+    De flesta taldatabaser tränas med en överrepresentation av en viss demografi vilket resulterar i en partiskhet mot <articleLink>man och medelklass</articleLink>. Accenter och dialekter som tenderar att vara underrepresenterade i träningsdata är vanligtvis förknippade med grupper av människor som redan är marginaliserade. Många maskiner kämpar också för att förstå kvinnliga röster.
+    Det är därför vi vill ha variation i vår röstdatabas!
 faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
+faq-why-my-lang-a = Mozilla väljer inte eller favoriserar ett språk över ett annat. Istället är Common Voice ett rent community-drivet initiativ, men det krävs <multilangLink>flera steg att lägga till ett nytt språk</multilangLink> och att börja samla röstdonationer. Först måste Common Voice-webbplatsen översättas så att medlemmar i communityn kan få tillgång till det på sitt eget språk. Därefter behöver vi en stor samling upphovsrättsfria meningar som människor ska kunna läsa upp. När båda dessa krav är uppfyllda, lanseras ett språk på Common Voice för att folk ska börja spela in sin röst och att bekräfta andras donationer.
+faq-what-quality-q = Vilken nivå på ljudkvalitet krävs för att ett röstklipp ska kunna användas i datamängden?
+faq-what-quality-a = Vi vill att Common Voice-datamängd ska återspegla ljudkvaliteten som en tal-till-text-motor kommer att höra naturligt, så vi letar efter en variation. Förutom en blandning av talare kommer en datamängd med varierande ljudkvalitet att lära tal-till-text-motorn att hantera olika verkliga situationer, från samtal i bakgrunden till oljud från en bil. Så länge ditt röstklipp är förståeligt ska det vara tillräckligt bra för datamängden.
+faq-why-10k-hours-q = Varför är 10 000 validerade timmar per språk målet för inspelat ljud?
+faq-why-10k-hours-a = Det är ungefär det antalet timmar som krävs för att träna ett röst-till-tal-system.
 faq-how-calc-hours-q = Hur beräknar Common Voice timmar?
+faq-how-calc-hours-a = Vi beräknar antalet timmar genom att uppskatta den genomsnittliga längden för varje inspelning och sedan multiplicera det antalet med det totala antalet inspelningar på alla språk.
 faq-where-src-from-2-q = Vart kommer denna källtexten ifrån?
+faq-where-src-from-2-a =
+    Vår källtext består av ursprungliga bidrag från bidragsgivare och dialoger från offentliga filmskript som <italic>It's a Wonderful Life</italic>.
+    
+    Du kan se våra källmeningar i denna <githubLink>GitHub-mapp</githubLink>.
 faq-why-not-ask-read-q = Varför frågar du inte folk att läsa från böcker eller Wikipedia-artiklar på olika språk?
+faq-why-not-ask-read-a = För att göra Common Voice-datamängd så användbart som möjligt har vi bestämt oss för att bara tillåta källtext som är tillgänglig under en Creative Commons (CC0) -licens. Med hjälp av CC0-standarden är det svårare att hitta och samla källtext, men det tillåter alla att använda den resulterande röstdatan utan begränsningar eller krav från Mozilla. I slutändan vill vi göra den flerspråkiga datamängden så användbar som möjlig för alla, inklusive forskare, universitet, nystartade företag, regeringar, sociala organisationer och hobbyister.
 faq-why-account-q = Varför ska jag registrera mig för ett konto?
 faq-is-account-public-q = Är min kontoinformation offentlig?
 faq-how-privacy-q = Hur säkerställer ni anonymitet och integritet hos de personer som donerat sina röster?
