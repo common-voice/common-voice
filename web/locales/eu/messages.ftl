@@ -302,17 +302,26 @@ faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
 faq-when-release-q = Noiz aterako duzue Common Voice beste hizkuntzetan?
 faq-why-mission-q = Zergatik da Common Voice  Mozilla misioaren parte?
 faq-what-cv-and-deepspeech-q = Zein desberdintasun dago Common Voicen eta Ahots Sakonaren artean?
+faq-is-goal-assistant-q = Common Voicen helburua ahots asistente bat sortzea al da?
+faq-do-want-native-q = Ez naiz hizlari natiboa eta azentuarekin hitz egiten dut, hala ere nire ahotsa nahi duzue?
+faq-do-want-native-a = Bai, zure ahotsa bereziki nahi dugu! Common Voicen helburuetako bat ahalik azentu desberdin gehien biltzea da, ahots ezagutza zerbitzuak guztiekin ondo ibil daitezen. Honek esan nahi du natiboak ez diren hizlarien laguntza bereziki erabilgarria dela.
 faq-why-different-speakers-q = Zergatik behar ditugu hainbeste hizlari desberdin hizkuntzako?
 faq-why-my-lang-q = Zergatik ez da nire hizkuntza hemen agertzen?
+faq-what-quality-q = Zenbateko audio kalitatea behar da grabaketa datu-sortan erabilia izan dadin?
+faq-why-10k-hours-q = Zergatik lortu behar dira balioztatutako 10.000 audio ordu hizkuntza bakoitzean?
 faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
+faq-where-src-from-2-q = Nondik dator iturri testua?
+faq-why-not-ask-read-q = Zergatik ez diozue jendeari eskatzen liburuak edo Wikipediako artikuluak irakurtzeko hizkuntza desberdinetan?
 faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
 faq-is-account-public-q = Nire kontuko informazioa publikoa da?
+faq-how-privacy-q = Nola ziurtatzen dituzue beren ahotsak lagatzen dituzten pertsonen anonimotasuna eta pribatutasuna?
 
 ## Glossary
 
 glossary = Glosarioa
 localization = Lokalizazioa
 sentence-collection = Esaldiak biltzea
+sentence-collection-explanation = Jabari publikoan dauden esaldiak bilduz edo zuzenean berriak idatziz eta jabari publikoan utziz.
 sst = Speech-to-text (STT)
 sst-explanation = Speech-to-text (STT) teknologiek ahots datuak, testu bihurtzen dituzte.
 
