@@ -175,7 +175,7 @@ sign-up-account = Sortu kontu bat
 ## Account Benefits
 
 benefits = Onurak
-rich-data = Egin ezazu zuk igotako datuak ahalik aberatsenak zure profilean datu demografiko anonimo batzuk zehaztuz. Datu demografiko guztiak des-identifikatu egiten ditugu publikoak egin aurretik.
+rich-data = Bihur itzazu zuk igotako datuak ahalik aberatsen zure profilean datu demografiko anonimo batzuk zehaztuz. Datu demografiko guztiak des-identifikatu egiten ditugu publikoak egin aurretik.
 improve-audio = Profileko informazioak ahotsaren ezagutzaren trebatzea egiteko erabiltzen diren datuak hobetzen ditu.
 keep-track = Hizkuntza desberdinetan egiten dituzun aurrerapenen eta estatistiken berri izan.
 compare-progress = Ikusi zure aurrerapenak munduan zehar dauden beste laguntzaileenekin konparatuta.
@@ -188,6 +188,7 @@ whats-public = Zer da Publikoa?
 email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
 recordings-and-locale-public = Grabaketa kopurua eta zein hizkuntzatan laguntzen duzun publikoa izango da.
 username-optin-public = Zure erabiltzaile-izena publikoa edo anonimoa izatea aukera dezakezu.
+demographic-deidentified = Nahi izanez gero, zehaztu ditzakezun datu demografikoak (adibidez, adina, sexua, hizkuntza eta azentua) igotzen dituzun ahots datuetatik des-identifikatu egiten dira eta ez dira inoiz publiko egiten zure profilean.
 username-email-not-demographic = Zure erabiltzaile-izena eta e-posta ez dira argitaratutako datuekin lotuko.
 
 ## Speak & Listen Shortcuts
