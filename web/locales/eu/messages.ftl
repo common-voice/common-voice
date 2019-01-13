@@ -311,6 +311,10 @@ faq-what-quality-q = Zenbateko audio kalitatea behar da grabaketa datu-sortan er
 faq-why-10k-hours-q = Zergatik lortu behar dira balioztatutako 10.000 audio ordu hizkuntza bakoitzean?
 faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
 faq-where-src-from-2-q = Nondik dator iturri testua?
+faq-where-src-from-2-a =
+    Gure iturburu testuak proiektuko laguntzaileek berariaz sortutakoak dira eta baita <italic>Bizitza ederra da</italic> bezala jabetza publikoan dauden filmen azpitituluetatik ateratakoak. Euskararen kasuan, hainbat esaldi <italic>Argia</italic> aldizkaritik ateratakoak dira, proiektu honetarako espresuki jabetza publikoan utzi dituztenak.
+    
+    Iturburu esaldiak <githubLink>GitHub karpeta</githubLink> honetan ikus ditzakezu.
 faq-why-not-ask-read-q = Zergatik ez diozue jendeari eskatzen liburuak edo Wikipediako artikuluak irakurtzeko hizkuntza desberdinetan?
 faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
 faq-is-account-public-q = Nire kontuko informazioa publikoa da?
@@ -321,7 +325,9 @@ faq-how-privacy-q = Nola ziurtatzen dituzue beren ahotsak lagatzen dituzten pert
 glossary = Glosarioa
 localization = Lokalizazioa
 sentence-collection = Esaldiak biltzea
-sentence-collection-explanation = Jabari publikoan dauden esaldiak bilduz edo zuzenean berriak idatziz eta jabari publikoan utziz.
+sentence-collection-explanation = Jabetza publikoan dauden esaldiak bilduz edo zuzenean berriak idatziz eta berauok jabetza publikoan utziz.
+hours-recorded-explanation = Orain arte bildu ditugun ahots grabaketa orduak.
+hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabaketa orduak. Honek markatzen du 10.000 orduko helburuarekiko aurrerabidea.
 sst = Speech-to-text (STT)
 sst-explanation = Speech-to-text (STT) teknologiek ahots datuak, testu bihurtzen dituzte.
 
