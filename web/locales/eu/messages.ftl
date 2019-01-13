@@ -175,6 +175,7 @@ sign-up-account = Sortu kontu bat
 ## Account Benefits
 
 benefits = Onurak
+rich-data = Egin ezazu zuk igotako datuak ahalik aberatsenak zure profilean datu demografiko anonimo batzuk zehaztuz. Datu demografiko guztiak des-identifikatu egiten ditugu publikoak egin aurretik.
 improve-audio = Profileko informazioak ahotsaren ezagutzaren trebatzea egiteko erabiltzen diren datuak hobetzen ditu.
 keep-track = Hizkuntza desberdinetan egiten dituzun aurrerapenen eta estatistiken berri izan.
 compare-progress = Ikusi zure aurrerapenak munduan zehar dauden beste laguntzaileenekin konparatuta.
@@ -323,6 +324,7 @@ faq-why-not-ask-read-q = Zergatik ez diozue jendeari eskatzen liburuak edo Wikip
 faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
 faq-is-account-public-q = Nire kontuko informazioa publikoa da?
 faq-how-privacy-q = Nola ziurtatzen dituzue beren ahotsak lagatzen dituzten pertsonen anonimotasuna eta pribatutasuna?
+faq-how-privacy-a = Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Laguntzaile batek datu demografikoa ematen duenean bere profilaren bitartez, informazio hori des-identifikatu egiten da datu-sorta deskargagarri izateko prestatzen denean eta inoiz ez da datu demografikoa publiko egiten profil publikoetan.
 faq-what-determine-identity-q = Zer nahi du esan ezin dela hizlarien "identitatea zehaztu" Common Voice datu-sortan?
 
 ## Glossary
