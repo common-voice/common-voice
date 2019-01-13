@@ -175,15 +175,19 @@ sign-up-account = Sortu kontu bat
 ## Account Benefits
 
 benefits = Onurak
+improve-audio = Profileko informazioak ahotsaren ezagutzaren trebatzea egiteko erabiltzen diren datuak hobetzen ditu.
 keep-track = Hizkuntza desberdinetan egiten dituzun aurrerapenen eta estatistiken berri izan.
 compare-progress = Ikusi zure aurrerapenak munduan zehar dauden beste laguntzaileenekin konparatuta.
 view-goals = Ikusi zure aurrerapenak helburu pertsonalekiko eta proiektuko helburuekiko.
+join-newsletter = Aukera duzu gure e-posta zerrendan izena emateko eta proiektuari buruzko informazioa eta azken berriak jasotzeko.
 
 ## What's public
 
 whats-public = Zer da Publikoa?
 email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
+recordings-and-locale-public = Grabaketa kopurua eta zein hizkuntzatan laguntzen duzun publikoa izango da.
 username-optin-public = Zure erabiltzaile-izena publikoa edo anonimoa izatea aukera dezakezu.
+username-email-not-demographic = Zure erabiltzaile-izena eta e-posta ez dira argitaratutako datuekin lotuko.
 
 ## Speak & Listen Shortcuts
 
@@ -295,7 +299,9 @@ faq-title = Ohiko galderak
 faq-what-cv-q = Zer da Common Voice?
 faq-why-important-q = Zergatik da garrantzitsua?
 faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
+faq-when-release-q = Noiz aterako duzue Common Voice beste hizkuntzetan?
 faq-why-mission-q = Zergatik da Common Voice  Mozilla misioaren parte?
+faq-what-cv-and-deepspeech-q = Zein desberdintasun dago Common Voicen eta Ahots Sakonaren artean?
 faq-why-different-speakers-q = Zergatik behar ditugu hainbeste hizlari desberdin hizkuntzako?
 faq-why-my-lang-q = Zergatik ez da nire hizkuntza hemen agertzen?
 faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
