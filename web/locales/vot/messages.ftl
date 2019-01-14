@@ -32,6 +32,8 @@ back-top = Ülespäi
 
 ## Home Page
 
+vote-yes = Jaa
+vote-no = Eb
 
 ## Account Benefits
 
