@@ -18,6 +18,7 @@ indicates-required = * A ziskouez ar maeziennoù rekizet
 ## Languages
 
 ace = Aseneg
+af = Afrikaaneg
 an = Aragoneg
 ar = Arabeg
 as = Asameg
@@ -150,7 +151,7 @@ todays-progress = Araokadur an deiz
 help-reach-goal = Sikourit ac'hanomp mont betek { $goal }
 read-terms-q = Ha lennet hoc'h eus on Termenoù?
 ready-to-record = Prest oc'h da reiñ ho mouezh?
-all-languages = An holl yezhoù
+all-locales = Pep tra
 today = Hiziv
 x-weeks-short =
     { $count ->
@@ -176,6 +177,15 @@ x-years-short =
         [many] a vloazioù
        *[other] bloaz
     }
+help-make-dataset = Skoazellit ac'hanomp da sevel un diaz-roadennoù publik, digor hag a galite uhel
+profile-not-required = Kaout ur profil neket un dra ret met evit kemeret-perzh met talvoudus eo memestra
+sign-up-account = Lakait hoc'h anv evit ur gont
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -286,25 +296,9 @@ add-language = Ouzhpennañ ur yezh
 ## FAQ
 
 faq-title = Foar ar Goulennoù
-faq-what-q = Petra eo Common Voice?
-faq-what-a = Teknologiezhioù anaouadur ar vouezh a c'hallfe cheñch penn d'hon etregweredoù gant ar mekanikoù, met ar reizhiadoù hegerz evit ar mare a zo koustus ruz ha perc'hennet. Common Voice a zo ur raktres gant ar pal reiñ da forzh piv an doareoù teknologiezh-mañ. Ar gendaolerien a roio o mouezh e-barzh ur mell diaz-roadennoù hag a roio an tu da forzh piv sevel en un doare prim hag aes arloadoù a implij ar vouezh. Hollad ar roadennoù mouezhiel a vo lakaet e kerzh an diorroerien.
-faq-important-q = Perak eo pouezus?
-faq-important-a = Naturel eo ar vouezh, denel eo ar vouezh. An doare aesañ ha naturelañ a zo da eskemm. Fellout a ra deomp diorroerien hag a vo barrek da sevel traoù dic'hortoz ha pa vefe troerioù en amzer gwirion pe skoazellerioù melestradurel gant urzhiadoù dre gomz. Met evit ar mare, n'eus ket trawalc'h a roadennoù hegerz evit kas da benn an doare arloadoù-mañ. Spi hon eus e roio Common Voice ar pezh a zo ezhomm evit degas nevesadurioù.
-faq-get-q = Pelec'h e c'hallan kaout roadennoù Common Voice?
-faq-get-a = Hollad ar roadennoù a zo hegerz war hon <downloadLink>fajenn bellgargañ</downloadLink> dindan al lañvaz <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Perak ez eo Common Voice ul lodenn eus kefridi Mozilla?
-faq-mission-a = Mennet eo Mozilla da virout ar Web digor ha tizhus d'an holl. Evit ober kement-mañ e rankomp galloudekaat ar grouerien web dre raktresoù evel Common Voice. Teknologiezhioù ar vouezh a struj bremañ pelloc'h eget e tachennoùigoù zo evel a-raok. Kavout a ra deomp e rankont bezañ e gourc'hemenn pep hini hep diforc'hañ. Santout a reomp un ezhomm da ouzhpennañ muioc'h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit krouiñ hag amprouiñ an teknologiezhioù mouezh. Mozilla a fell dezhi gwelet ur genrouedad oberiant ha yac'h. Ar pezh a dalvez reiñ d'ar grouerien Web nevez an tu da implijout roadennoù mouezh evit ma c'hallint sevel raktresoù dispar. Common Voice a zeuio da vezañ ur vammenn foran a sikouro skipailhoù Mozilla hag an diorroerien e pep lec'h er bed.
-faq-native-q = N'on ket ur c'homzer { $lang } a-vihanik hag e komzan gant ur pouez-mouezh, ha c'hoant hoc'h eus da gaout ma mouezh memestra?
-faq-native-a = Ya da, c'hoant ruz hon eus da gaout ho mouezh! Ul lodenn eus palioù Common Voice a zo dezastum kement pouez-mouezh ha ma vo gallet evit ma c'hello an urzhiataerioù kompren gwelloc'h mouezhioù <bold>pep hini</bold> pa gomz.
-faq-firefox-q = Hag e teuio da vezañ "eus ar gomz d'ar skrid", dre gCommon Voice, ul lodenn eus Firefox?
-faq-firefox-a = Un danvez-galloudegezh difin 'zo gant Common Voice. Hag o studiañ etrefasoù mouezh emaomp e meur a raktres eus Mozilla, e Firefox paneveken.
-faq-quality-q = Pegen mat e rank ar son bezañ evit gallout bezañ implijet?
-faq-quality-a = Fellout a ra deomp ur perzhded aodio hag a genglot gant ar pezh en do ul lusker anaouadur mouezh da dalañ en e vuhez pemdeziek. Ezhomm hon eus eus liested. Ar pezh a zegas al lusker da gemer e kont en un doare direbech meur a blegenn: eskemmoù en drek-leur, trouzioù kefluskerioù pe trouzioù avelerezhioù.
-faq-hours-q = Perak e ranker tizhout 10 000 eurvezh enrollañ?
-faq-hours-a = Ar c'hementad goulennet eo mui pe vui evit bezañ gouest da seveniñ ur reizhiad anaout mouezh a-zoare.
-faq-source-q = Eus pelec'h e teu an testennoù?
-faq-source-a1 = Ar frazennoù a zo anezho evit ar mare a zeu eus roadennoù ar perzhidi, met ivez eus eskemmoù filmoù 'zo hag a zo en domani foran evel <italic>It's a Wonderful Life.</italic>.
-faq-source-a2 = Gallout a rit gwelet mammennoù hor frazennoù en teuliad <dataLink>Github-mañ</dataLink>.
+
+## Glossary
+
 
 ## NotFound
 
