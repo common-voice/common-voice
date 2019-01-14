@@ -2,6 +2,8 @@
 
 email-input =
     .label = Epošti
+submit-form-action = Saatõ
+loading = Lastamin…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -11,6 +13,8 @@ email-input =
 
 en = aglitšina
 et = viro
+fi = soomõ
+ru = Vennä
 sv-SE = švietta
 
 # [/]
@@ -22,6 +26,9 @@ speak = Pajatõ
 speak-now = Pajatõ nütt
 languages = Tšeeled
 help = Api
+cookies = Petšenjad
+share-text = Avita õpõttaa kompjuteralõ kui õika inimin pajatõta, jagõ õma äänte kassen { $link }
+back-top = Ülespäi
 
 ## Home Page
 
