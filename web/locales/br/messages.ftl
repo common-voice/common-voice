@@ -183,9 +183,14 @@ sign-up-account = Lakait hoc'h anv evit ur gont
 
 ## Account Benefits
 
+benefits = Avañtajoù
 
 ## What's public
 
+whats-public = Petra a zo publik?
+email-not-public = Ne lakaimp ket publik ho chomlec'h postel.
+recordings-and-locale-public = An niver a enrolladennoù ha peseurt yezh a harpit a vo publik.
+username-optin-public = Gellout a reer lakaat publik pe dizanv hoc'h anv-implijer.
 
 ## Speak & Listen Shortcuts
 
@@ -296,9 +301,19 @@ add-language = Ouzhpennañ ur yezh
 ## FAQ
 
 faq-title = Foar ar Goulennoù
+faq-what-cv-q = Petra eo Common Voice?
+faq-why-important-q = Abalamour da betra e vez a-bouez?
 
 ## Glossary
 
+glossary = Geriaoueg
+localization = Lec'heladur
+sentence-collection = Dastumad frazennoù
+hours-recorded-explanation = An niver a eurvezhioù enrollañ  hag a zo bet dastumet ganeomp betek-hen.
+hours-validated-explanation = Niver a eurvezhioù enrollañ mouezh gwiriekaet gant 2 pe 3 implijer gant ur vot "Ya". Ar re-se a verk pal hollek ar raktres hag a zo da dizhout, 10 000 eurvezh.
+sst = Komz-da-destenn (KDD)
+sst-explanation = Teknologiezhioù komz-da-destenn (KDD) a goñvertiso roadennoù mouezh e testennoù.
+de-identified = Dizanv-et
 
 ## NotFound
 
@@ -460,7 +475,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Ho yezhoù
 toward-next-goal = Betek ar pal da zont
+clips-you-recorded = Klipoù enrollet ganeoc'h
+clips-you-validated = Klipoù ho peus gwiriekaet
+todays-recorded-progress = Aet eo war-raok Common Voice war an niver a glipoù enrollet
+todays-validated-progress = Aet eo war-raok Common Voice war an niver a glipoù gwiriekaet
 stats = Stats
 you = C'hwi
 everyone = An holl
