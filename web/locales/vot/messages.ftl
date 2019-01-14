@@ -32,6 +32,8 @@ back-top = Ülespäi
 
 ## Home Page
 
+show-wall-of-text = Lugõ rohkap
+help-us-title = Avitõ meill lukka!
 vote-yes = Jaa
 vote-no = Eb
 
