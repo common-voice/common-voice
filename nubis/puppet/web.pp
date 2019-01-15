@@ -55,6 +55,7 @@ apache::vhost { $project_name:
     ExpiresByType text/javascript 'access plus 1 hour'
     ExpiresByType application/javascript 'access plus 1 hour'
     ExpiresByType text/css 'access plus 1 hour'
+    ExpiresByType text/ftl 'access plus 1 hour'
 
     # Fonts
     ExpiresByType application/x-font-ttf 'access plus 60 days'
