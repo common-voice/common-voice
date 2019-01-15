@@ -40,6 +40,14 @@ module.exports = {
         ],
       },
       {
+        test: /\.js$/,
+        include: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: { cacheDirectory: true, presets: ['@babel/preset-env'] },
+        },
+      },
+      {
         /**
          * By default, Webpack (rather, style-loader) includes stylesheets
          * into the JS bundle.
