@@ -19,6 +19,7 @@ indicates-required = * Zahtevano polje
 
 ace = ačinščina
 af = afrikanščina
+am = amharščina
 an = aragonščina
 ar = arabščina
 as = asamščina
@@ -37,6 +38,7 @@ cy = valižanščina
 da = danščina
 de = nemščina
 dsb = dolnja lužiška srbščina
+dv = diveščina
 el = grščina
 en = angleščina
 eo = esperanto
@@ -196,6 +198,7 @@ whats-public = Kaj je javno?
 email-not-public = Vašga e-poštnega naslova ne bomo javno objavili.
 recordings-and-locale-public = Število posnetkov in jeziki, pri katerih sodelujete, bodo javni.
 username-optin-public = Svoje uporabniško ime lahko nastavite kot javno ali anonimno.
+demographic-deidentified = Po želji dodani demografski podatki (npr. starost, spol, jezik in naglas) so iz vaših poslanih glasovnih podatkov odstranjeni in jih v vašem profilu ne bomo nikoli javno objavili.
 username-email-not-demographic = Vaše uporabniško ime in e-poštni naslov ne bosta povezana z objavljenimi podatki.
 
 ## Speak & Listen Shortcuts
@@ -309,13 +312,16 @@ change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta 
 faq-title = Pogosta vprašanja
 faq-what-cv-q = Kaj je Common Voice?
 faq-why-important-q = Zakaj je to pomembno?
+faq-how-get-a = Podatkovni niz Common Voice je na voljo za prenos pod licenco <licenseLink>CC0</licenseLink> na <datasetLink>naši strani podatkovnih nizov</datasetLink>. Z iste strani lahko prenesete tudi več drugih javno dostopnih podatkovnih nizov.
 faq-when-release-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
 faq-why-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
 faq-what-cv-and-deepspeech-q = Kakšna je razlika med projektoma Common Voice in Deep Speech?
+faq-do-want-native-a = Da, še posebej želimo vaš glas! Del cilja Common Voice je zbrati čim več različnih naglasov, tako da lahko storitve prepoznavanja govora delujejo enako dobro za vse. To pomeni, da so prispevki tujih govorcev še posebej pomembni.
 faq-why-different-speakers-q = Zakaj potrebujete toliko različnih govorcev za en jezik?
 faq-why-my-lang-q = Zakaj moj jezik še ni vključen?
 faq-where-src-from-2-q = Od kod prihaja izvorno besedilo?
 faq-is-account-public-q = Ali so podatki o mojem računu javni?
+faq-how-privacy-q = Kako zagotavljate anonimnost in zasebnost ljudi, ki so prispevali svoje glasove?
 
 ## Glossary
 
