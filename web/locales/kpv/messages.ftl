@@ -64,8 +64,10 @@ kpv = Коми
 kw = Керновса
 ky = Кыргыз
 mdf = Мокша
+mhr = Видз Мари кыв
 mk = Македон
 mn = Монгол
+mrj = Керӧс Мари кыв
 myv = Эрзя
 nb-NO = Норвег (букмол)
 ne-NP = Непал
@@ -169,6 +171,7 @@ x-years-short =
     }
 help-make-dataset = Отсалӧй миянлы вӧчны бур, восьса юӧрчукӧр (набор данных)
 profile-not-required = Профиль вӧчӧм абу зэв колана, но сійӧ вермас отсавны
+sign-up-account = Вӧчны аккаунт
 
 ## Account Benefits
 
@@ -182,13 +185,13 @@ benefits = Верктуй (Пӧльза)
 
 ## Listen Shortcuts
 
-shortcut-play-toggle-label = Ворсӧм/Дугдӧм
+shortcut-play-toggle-label = Кывзыны/Дугдыны
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = Гиж/помась
-request-language-text = Он на аддзыв ас кывтӧ Common Voice вылын?
-request-language-button = Сет корӧм кыв вылӧ
+shortcut-record-toggle-label = Гижны/Дугдыны
+request-language-text = Онӧ на аддзӧй ас кывнытӧ Common Voice вылын?
+request-language-button = Корны содтыны
 
 ## ProjectStatus
 
@@ -215,11 +218,11 @@ profile-form-accent =
 profile-form-age =
     .label = Арлыд
 profile-form-gender =
-    .label = Пӧв
+    .label = Пӧв (Пол)
 leaderboard-visibility =
     .label = Лидеръяс лыдын петкӧдлӧм
-hidden = Дзебны
-visible = Петкӧдлыны
+hidden = Дзебӧм
+visible = Тыдалана
 native-language =
     .label = Чужан кыв
 profile-form-submit-save = Кольны
@@ -228,13 +231,16 @@ male = ай
 female = энь
 # Gender
 other = Мукӧд
-why-profile-title = Мыйла ас листбок?
+why-profile-title = Мыйла колӧ профиль?
 why-profile-text = Ас йывсьыныд содтӧд юӧр индӧм отсалӧ Сёрни Гӧгӧрвоан системаяслы бурмӧдны стӧчлунсӧ ыстӧм  горгижӧдъяӧн.
-build-profile = Тэчны ас листбок
+dashboard = Инданпӧв (Панель)
+build-profile = Тэчны профиль
 avatar = Серпас
-edit-profile = Пырт вежсьӧмъяс ас листбокӧ
-profile-create-success = Артмис вӧчны ас листбок!
-profile-close = Пӧдлав
+goals = Могъяс
+settings = Ладмӧдӧм
+edit-profile = Профиль вежӧм
+profile-create-success = Профиль вӧчӧма!
+profile-close = Сиптыны
 why-demographic = Мыйла тайӧ колӧ?
 edit = Веж
 email-subscriptions = Email гижӧдчӧм
