@@ -3096,9 +3096,10 @@ fluent-langneg@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fluent-langneg/-/fluent-langneg-0.1.0.tgz#aa12054fbfa4b728daec38331efc12f01faae93a"
 
-fluent-react@^0.8.1:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.8.2.tgz#481455116e04c6f1c7b1f5b99600515333853897"
+fluent-react@^0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.8.3.tgz#b3681d07748aa473cfd2b3e50b88006bc15f2956"
+  integrity sha512-uNP+kefHxZ/yAqtg/cQlsruY/K8oiVMbU2E7Tcd+LEaVd5GxKWjv6CvmQNVrAsrWai0VrrVAg5SRVD19vVPHog==
   dependencies:
     cached-iterable "^0.2.1"
     fluent-sequence "^0.2.0"
@@ -3108,13 +3109,15 @@ fluent-sequence@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/fluent-sequence/-/fluent-sequence-0.2.0.tgz#f351d93e0194182de60c6d5dfbdb3c96772813f8"
 
-fluent-syntax@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/fluent-syntax/-/fluent-syntax-0.9.0.tgz#491cf201dd6cb0a566242ee757881bd201e1d5e8"
+fluent-syntax@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/fluent-syntax/-/fluent-syntax-0.10.0.tgz#2dfa934752866e5d297b3df763e6d2b0ced04c5d"
+  integrity sha512-6qRhwQXDTgJjS9DW3IiXZWzUMUPqNPzqh+bZZyUOr6t8xYwkIe+5JONYZuvfvbOUk65paAno0kd8s8kUD2ptNA==
 
-fluent@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.9.1.tgz#d03d26b55ec0a5453b15b79779a3b4ae2cab126d"
+fluent@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.10.0.tgz#0096b87557a1f7a43cd093999b6d194af7e1197d"
+  integrity sha512-2I6xaHecA76FiGavw6eKurXaHd6p25eenAgRYKSaMwJEpbvWpAlwFWAnC+BGzrGIKINUHwDlCQRtRenJvlbqQQ==
 
 flush-write-stream@^1.0.0:
   version "1.0.3"

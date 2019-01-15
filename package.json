@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "concurrently": "^4.1.0",
-    "fluent-syntax": "^0.9.0",
+    "fluent-syntax": "^0.10.0",
     "prettier": "^1.15.3",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
