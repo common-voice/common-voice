@@ -241,12 +241,22 @@ settings = Ладмӧдӧм
 edit-profile = Профиль вежӧм
 profile-create-success = Профиль вӧчӧма!
 profile-close = Сиптыны
+profile-explanation = Сӧвмӧм позьӧ видзӧдны профиль отсӧгӧн. Отсалӧй бурмӧдны стӧчлунсӧ миян даннӧйяслысь.
+thanks-for-account = Аттьӧ аккаунт эскӧдӧмысь. Ӧні колӧ тэчны профильнытӧ.
 why-demographic = Мыйла тайӧ колӧ?
-edit = Веж
+login-identity = Пыран индӧг (идентификатор)
+login-signup = Пырны / Вӧчны профиль
+edit = Вежны
 email-subscriptions = Email гижӧдчӧм
 download-profile = Босьт датаӧй
 off = Кусӧдны
 on = Ӧзтыны
+add-avatar-title = Содтӧй серпас профиляныд
+browse-file-title = Пыртны серпас файл
+browse-file = Кыскӧй да лэдзӧй либӧ <browseWrap>корсьӧй</browseWrap>
+connect-gravatar = Йитны Gravatar-кӧд
+gravatar_not_found = Тіян email-кӧд йитӧм gravatar абу
+file_too_large = Бӧрйӧм файл вывті ыджыд
 add-language = Содты кыв
 
 ## FAQ
@@ -257,6 +267,8 @@ faq-why-important-q = Мыйла тайӧ колӧ?
 
 ## Glossary
 
+glossary = Глоссарий
+localization = Локализируйтӧм
 
 ## NotFound
 
@@ -272,7 +284,7 @@ data-download-license = Лисенция: <licenseLink>CC-0</licenseLink>
 data-get-started = Пондыны уджавны Сёрни Гӧгӧрвоан системаӧн.
 data-other-title = Мукӧд аудио юӧръяс.
 data-other-goto = Мун { $name } вылӧ
-data-other-download = Босьт дата
+data-other-download = Босьт даннӧйяссӧ
 data-other-ted-name = TED-LIUM корпус
 license = Сёрнитчӧм: <licenseLink>{ $license }</licenseLink>
 license-mixed = Гудралӧм
