@@ -76,6 +76,7 @@ apache::vhost { $project_name:
     ProxyPass /dist/index.css !
     ProxyPass /img !
     ProxyPass /font !
+    ProxyPass /locales !
 
     ProxyPass / http://localhost:9000/ retry=0
     ProxyPassReverse / http://localhost:9000/
