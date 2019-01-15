@@ -29,7 +29,7 @@ module "worker" {
 }
 
 module "load_balancer" {
-  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=v2.3.1"
+  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=6b91794839523ab5b3806824369efde2f61b3c17"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -48,7 +48,7 @@ module "dns" {
   environment  = "${var.environment}"
   account      = "${var.account}"
   service_name = "${var.service_name}"
-  target       = "${module.load_balancer.address}"
+  target       = "${module.load_balancer.dualstack_address}"
 }
 
 resource "aws_db_parameter_group" "slow_query_enabled" {
