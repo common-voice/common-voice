@@ -132,12 +132,13 @@ async function buildLocaleNativeNameMapping() {
   const locales = fs.readdirSync(localeMessagesPath);
   const nativeNames = {};
   for (const locale of locales) {
-    const messages = parse(
-      fs.readFileSync(
-        path.join(localeMessagesPath, locale, 'messages.ftl'),
-        'utf-8'
-      )
-    );
+    const messagesPath = path.join(localeMessagesPath, locale, 'messages.ftl');
+
+    if (!fs.existsSync(messagesPath)) {
+      continue;
+    }
+
+    const messages = parse(fs.readFileSync(messagesPath, 'utf-8'));
     const message = messages.body.find(
       message => message.id && message.id.name === locale
     );
