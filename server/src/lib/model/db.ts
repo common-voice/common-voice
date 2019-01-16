@@ -205,6 +205,7 @@ export default class DB {
           FROM votes
           WHERE votes.clip_id = clips.id AND client_id = ?
         )
+        ORDER BY created_at ASC
         LIMIT ?
       ) t
       ORDER BY RAND()
