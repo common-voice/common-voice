@@ -80,6 +80,8 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 
 You can find configurable options, like the port CommonVoice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override.
 
+If you want to work with login-related features (Profile, Dashboard, Goals, ...) you'll need to create an [Auth0](https://auth0.com/) account and put the data you get from it into the config (the keys are `AUTH0: { DOMAIN, CLIENT_ID, SECRET }`).
+
 #### Setting up Amazon S3 for development
 
 The Common Voice project uses S3 for voice clip storage. If you need help configuring
