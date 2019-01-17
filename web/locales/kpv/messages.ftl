@@ -273,6 +273,7 @@ browse-file = Кыскӧй да лэдзӧй либӧ <browseWrap>корсьӧй
 connect-gravatar = Йитны Gravatar-кӧд
 gravatar_not_found = Тіян email-кӧд йитӧм gravatar абу
 file_too_large = Бӧрйӧм файл вывті ыджыд
+manage-subscriptions = Вежлавны гижсьӧмъяс
 add-language = Содты кыв
 
 ## FAQ
