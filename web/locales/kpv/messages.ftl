@@ -287,6 +287,8 @@ login-signup = Пырны / Вӧчны профиль
 edit = Вежны
 email-subscriptions = Email гижӧдчӧм
 download-profile = Босьт датаӧй
+contribution-experience = Донъялӧй асьыныд киподалӧмнытӧ (опыт)
+skip-submission-feedback = Ӧтдортны донъялӧм
 off = Кусӧдны
 on = Ӧзтыны
 add-avatar-title = Содтӧй серпас профиляныд
@@ -313,14 +315,14 @@ localization = Локализируйтӧм
 
 ## NotFound
 
-notfound-title = Эз аддзы
+notfound-title = Эз сюр
 notfound-content = Ме пола мый ог гӧгӧрво мый ті корсянныд.
 
 ## Data
 
-data-download-button = Босьтны Common Voice юӧр.
-data-download-yes = Да
-data-download-deny = Ог
+data-download-button = Босьтны Common Voice тӧдӧг
+data-download-yes = Но
+data-download-deny = Оз ков
 data-download-license = Лисенция: <licenseLink>CC-0</licenseLink>
 data-get-started = Пондыны уджавны Сёрни Гӧгӧрвоан системаӧн.
 data-other-title = Мукӧд аудио юӧръяс.
@@ -333,10 +335,15 @@ terms-agree = Сӧглас.
 terms-disagree = Абу сӧглас.
 review-recording = Видзӧдлӧм
 review-rerecord = Гиж вылысь
+review-keep-recordings = Кольны гижӧдъяссӧ
+review-delete-recordings = Чышкыны гижӧдъясӧс
 
 ## Download Modal
 
 download-title = Файл заводитіс пырны
+download-form-email =
+    .label = Индӧй ассьыныд email
+    .value = Аттьӧ, ми йитчам.
 download-no = Оз ков
 
 ## Contact Modal
@@ -352,6 +359,7 @@ contact-required = *колӧ
 request-language-title = Корӧм содтыны кыв
 request-language-form-language =
     .label = Кыв
+request-language-success-title = Корӧм ыстӧма, аттьӧ.
 
 ## Languages Overview
 
@@ -365,15 +373,19 @@ language-total-progress = Ставнас
 language-search-input =
     .placeholder = Корсьны
 language-speakers = Сёрнитысьяс
+localized = Локализируйтӧма
 sentences = Сёрникузяяс
+total-hours = Вынсьӧдӧм час
 
 ## New Contribution
 
 action-click = Личкыны
+action-tap = Вӧрзӧдны
 contribute = Пырӧдчыны
-listen = Кывзы
+listen = Кывзыны
 skip = Вуджӧм
-shortcuts = Дзеньдӧдӧмъяс
+shortcuts = Дженьдӧдӧм
+clips-with-count = <bold>{ $count }</bold> клип
 contribute-more =
     { $count ->
         [one] Верманныд-ӧ вӧчны нӧшта { $count }?
@@ -389,19 +401,47 @@ record-three-more-instruction = Нӧшта куим!
 record-last-instruction = Медбӧръя!
 unable-speak = Он вермы ӧні сёрнитны?
 clips-uploaded = Аудио клипъяс ыстӧма
-record-abort-continue = Дугды гижны
-listen-last-time-instruction = Медбӧръя!
+record-abort-title = Медводз эштӧдӧй гижӧмсӧ?
+record-abort-text = Ӧні кӧ петанныд, воштанныд став гижӧмсӧ
+record-abort-submit = Ыстыны клипъяссӧ
+record-abort-continue = Эштӧдны гижӧм
+record-abort-delete = Петны да чышкыны клипъясӧ
+listen-3rd-time-instruction = 2 вӧчӧма, водзӧ!<playIcon></playIcon>
+listen-last-time-instruction = Бӧръя!
 record-button-label = Гиж тэнад гор
 share-title-new = <bold>Отсав миянӧс</bold> аддзыны унджык горъяс
 
 ## Goals
 
+streaks = ӧтпырйӧ
+days =
+    { $count ->
+        [one] лун
+       *[other] лун
+    }
+recordings =
+    { $count ->
+        [one] гижӧд
+       *[other] гижӧд
+    }
+validations =
+    { $count ->
+        [one] видлалӧм
+       *[other] видлалӧм
+    }
 
 ## Dashboard
 
+your-languages = Тіян кыв
 stats = Статистика
 you = Ті
 everyone = Быдӧн
+contribution-activity = Пырӧдчысьяслӧн зільлун
+top-contributors = Медбур пырӧдчысьяс
+recorded-clips = Гижӧм клип
+validated-clips = Видлалӧма
+total-approved = Вынсьӧдӧма
+overall-accuracy = Стӧчлун
 
 ## Profile Delete
 
