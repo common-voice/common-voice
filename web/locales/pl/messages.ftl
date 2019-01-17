@@ -17,8 +17,11 @@ indicates-required = * wskazuje pole obowiązkowe
 
 ## Languages
 
+ab = abchaski
 ace = aceh
+ady = adygejski
 af = afrykanerski
+am = amharski
 an = aragoński
 ar = arabski
 as = asamski
@@ -37,6 +40,7 @@ cy = walijski
 da = duński
 de = niemiecki
 dsb = dolnołużycki
+dv = divehi
 el = grecki
 en = angielski
 eo = esperanto
@@ -65,8 +69,10 @@ kpv = komi (zyriański)
 kw = kornijski
 ky = kirgiski
 mdf = moksza
+mhr = maryjski łąkowy
 mk = macedoński
 mn = mongolski
+mrj = maryjski górski
 myv = erzja
 nb-NO = norweski (bokmål)
 ne-NP = nepalski
@@ -91,10 +97,13 @@ te = telugu
 th = tajski
 tr = turecki
 tt = tatarski
+uby = ubyski
+udm = udmurcki
 uk = ukraiński
 ur = urdu
 uz = uzbecki
 vi = wietnamski
+vot = wotycki
 zh-CN = chiński (Chiny)
 zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)
@@ -171,6 +180,12 @@ x-years-short =
         [few] { $count } lata
        *[other] { $count } lat
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -280,25 +295,9 @@ change-email-setings = Zmień swój adres e-mail w ustawieniach tożsamości lo
 ## FAQ
 
 faq-title = Często zadawane pytania
-faq-what-q = Czym jest Common Voice?
-faq-what-a = Technologia rozpoznawania mowy ma szansę zrewolucjonizować sposób, w jakim porozumiewamy się z maszynami, ale niestety obecne rozwiązania są kosztowne i zamknięte. Projekt Common Voice ma na celu udostępnienie tej technologi wszystkim. Osoby dzielące się swoim głosem tworzą wielki zbiór danych, który można wykorzystać do uczenia aplikacji rozpoznawać mowę. Wszystkie nagrania zebrane w projekcie są dostępne dla deweloperów.
-faq-important-q = Dlaczego jest to ważne?
-faq-important-a = Mowa to dla nas coś naturalnego i ludzkiego. To najłatwiejszy i najbardziej naturalny sposób komunikacji. Chcemy, aby deweloperzy mieli możliwość tworzenia niesamowitych rzeczy, od tłumaczy w czasie rzeczywistym po mówiących asystentów administracyjnych. Ale w tej chwili nie ma wystarczająco publicznie dostępnych danych, aby budować tego typu aplikacje. Mamy nadzieję, że Common Voice da deweloperom to, czego potrzebują do wprowadzania innowacji.
-faq-get-q = Jak mogę otrzymać dane z projektu Common Voice?
-faq-get-a = Zbiór danych jest dostępny na <downloadLink>stronie pobierania</downloadLink> na warunkach licencji <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Dlaczego Common Voice jest częścią misji Mozilli?
-faq-mission-a = Celem Mozilli jest Internet otwarty i dostępny dla wszystkich. Aby to osiągnąć, musimy dać siłę twórcom sieci przez projekty, takie jak Common Voice. Technologie rozpoznawania mowy rozwijają się poza pierwotną niszę, a my wierzymy, że muszą one służyć wszystkim użytkownikom po równo. Widzimy potrzebę większej liczby języków, akcentów i grup ludzi podczas budowania i testowania technologii rozpoznawania mowy. Mozilla chce, aby Internet był zdrowy i energiczny. Oznacza to zapewnianie nowym twórcom dostępu do danych mowy, aby mogli budować nowe, niezwykłe projekty. Common Voice będzie publicznym zasobem, który pomoże zespołom Mozilli i deweloperom na całym świecie.
-faq-native-q = Język { $lang } nie jest moim ojczystym. Czy mogę pomóc w rozwoju projektu?
-faq-native-a = Tak, potrzebujemy również Twojego głosu! Jednym z celów projektu Common Voice jest zebranie różnych akcentów, aby <bold>każdy</bold> mógł się porozumiewać z komputerem.
-faq-firefox-q = Czy system rozpoznawania mowy, poprzez Common Voice, zostanie kiedyś częścią Firefoksa?
-faq-firefox-a = Common Voice ma nieskończony potencjał, a my badamy interfejsy mowy w wielu produktach Mozilli, także Firefoksie.
-faq-quality-q = Jakiej jakości nagrania są potrzebne, aby można je było później wykorzystać?
-faq-quality-a = Chcemy, aby jakość dźwięku odzwierciedlała sytuacje, w których używamy systemów rozpoznawania mowy. Oznacza to, że zbieramy bardzo różnorodne dane. Takie podejście pozwoli nauczyć systemy radzić sobie z rozmowami w tle, hałasem samochodów lub wentylatorów z dużą dokładnością — bez błędów.
-faq-hours-q = Dlaczego celem projektu jest zgromadzenie 10 000 godzin nagrań?
-faq-hours-a = Jest to przybliżona liczba godzin wymagana do uruchomienia systemu rozpoznawania mowy.
-faq-source-q = Skąd pochodzi tekst źródłowy?
-faq-source-a1 = Rozróżniamy dwa źródła tekstów. Cześć z nich jest tworzona przez użytkowników i udostępniana w ramach współpracy nad projektem. Pozostałe z kolei pochodzą ze źródeł należących do domeny publicznej.
-faq-source-a2 = Możesz zobaczyć teksty źródłowe <dataLink>w tym repozytorium GitHub</dataLink>.
+
+## Glossary
+
 
 ## NotFound
 
