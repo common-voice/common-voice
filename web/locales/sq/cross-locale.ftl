@@ -3,7 +3,7 @@
 contribute = Jepni Ndihmesë
 get-involved-button = Përfshihuni
 get-involved-title = Kontribuoni në { $lang }
-get-involved-text = Faleminderit që interesoheni të jepni ndihmesë për { $lang }n.Punojmë fort për të pasur gati për hedhje në qarkullim çdo gjuhë dhe për t’i pasur të përditësuar përmes email-i ekipet. Nëse doni të jepni ndihmesë, ju lutemi, jepni më poshtë email-in tuaj.
+get-involved-text = Faleminderit që interesoheni të jepni ndihmesë për { $lang }en.Punojmë fort për të pasur gati për hedhje në qarkullim çdo gjuhë dhe për t’i pasur ekipet të përditësuara përmes email-i. Nëse doni të jepni ndihmesë, ju lutemi, jepni më poshtë email-in tuaj.
 get-involved-form-title = Regjistrohuni për përditësime rreth { $lang }:
 get-involved-email =
     .label = Email
