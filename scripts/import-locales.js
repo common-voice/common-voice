@@ -30,6 +30,7 @@ async function fetchPontoonLanguages() {
                 locale {
                   code
                   name
+                  direction
                 }
               }
             }
@@ -38,13 +39,14 @@ async function fetchPontoonLanguages() {
     },
   });
   return data.project.localizations
-    .map(({ totalStrings, approvedStrings, locale }) => [
-      locale.code,
-      locale.name,
-      approvedStrings / totalStrings,
-    ])
-    .concat([['en', 'English', 1]])
-    .sort(([code1], [code2]) => code1.localeCompare(code2));
+    .map(({ totalStrings, approvedStrings, locale }) => ({
+      code: locale.code,
+      name: locale.name,
+      direction: locale.direction,
+      translated: approvedStrings / totalStrings,
+    }))
+    .concat({ code: 'en', name: 'English', translated: 1, direction: 'LTR' })
+    .sort((l1, l2) => l1.code.localeCompare(l2.code));
 }
 
 async function saveToMessages(languages) {
@@ -55,7 +57,7 @@ async function saveToMessages(languages) {
     [
       '# [Languages]',
       '## Languages',
-      languages.map(([code, name]) => `${code} = ${name}`).join('\n'),
+      languages.map(({ code, name }) => `${code} = ${name}`).join('\n'),
       '# [/]',
     ].join('\n')
   );
@@ -77,10 +79,8 @@ async function saveCompletedLocalesJSON(languages) {
       ...new Set([
         ...existingLocales,
         ...languages
-          .filter(
-            ([code, name, progress]) => progress >= TRANSLATED_MIN_PROGRESS
-          )
-          .map(l => l[0]),
+          .filter(l => l.translated >= TRANSLATED_MIN_PROGRESS)
+          .map(l => l.code),
       ]),
     ].sort()
   );
@@ -90,7 +90,14 @@ async function importPontoonLocales() {
   const languages = await fetchPontoonLanguages();
   await Promise.all([
     saveToMessages(languages),
-    saveDataJSON('all', languages.map(([key]) => key)),
+    saveDataJSON('all', languages.map(l => l.code)),
+    saveDataJSON(
+      'rtl',
+      languages
+        .filter(l => l.direction === 'RTL')
+        .map(l => l.code)
+        .sort()
+    ),
     saveCompletedLocalesJSON(languages),
   ]);
 }
