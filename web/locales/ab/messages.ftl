@@ -33,6 +33,27 @@ logout = Аҭыҵра
 
 ## Home Page
 
+home-cta = Иҳәаа, агәылаҵа уҭагала
+show-wall-of-text = Иԥкааны
+vote-yes = Аеи
+vote-no = Мап
+all-locales = Зегьы
+today = Иахьа
+x-weeks-short =
+    { $count ->
+        [one] Мчыбжьык
+       *[other] мчыбжь
+    }
+x-months-short =
+    { $count ->
+        [one] мызкы
+       *[other] мз
+    }
+x-years-short =
+    { $count ->
+        [one] ш
+       *[other] ш
+    }
 
 ## Account Benefits
 
