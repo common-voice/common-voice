@@ -195,6 +195,8 @@ join-newsletter = Верманныд на пыртны ассьыныд email м
 
 whats-public = Мый лоӧ йӧзводзса?
 email-not-public = Тіян email оз ло йӧзӧдӧма.
+recordings-and-locale-public = Горгижӧд лыд да кутшӧм кывкӧд ті уджаланныд лоӧ йӧзӧдӧма.
+username-optin-public = Ті верманныд петкӧдлыны нимнытӧ либӧ дзебны.
 
 ## Speak & Listen Shortcuts
 
