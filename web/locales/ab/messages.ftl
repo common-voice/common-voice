@@ -86,12 +86,31 @@ shortcut-vote-no = м
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
+request-language-button = Абызшәак узҵаа
 
 ## ProjectStatus
 
+status-contribute = Убжьы уҭагала
+english = Англыз
 
 ## ProfileForm
 
+profile-form-language =
+    .label = Абызшәа
+profile-form-accent =
+    .label = Ацәажәашьа
+profile-form-age =
+    .label = Ақәра
+profile-form-gender =
+    .label = Акәал
+hidden = Иҵәаху
+visible = Иубарҭоу
+native-language =
+    .label = Ахатәы бызшәа
+profile-form-submit-save = Аиқәырхара
+profile-form-submit-saved = Еиқәырхон
+male = Ахацәа
+female = Аҳәса
 
 ## FAQ
 
