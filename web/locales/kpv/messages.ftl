@@ -274,7 +274,9 @@ connect-gravatar = Йитны Gravatar-кӧд
 gravatar_not_found = Тіян email-кӧд йитӧм gravatar абу
 file_too_large = Бӧрйӧм файл вывті ыджыд
 manage-subscriptions = Вежлавны гижсьӧмъяс
-add-language = Содты кыв
+email-already-used = Тайӧ email вылӧ вӧчӧма нин мӧд аккаунт.
+add-language = Содтыны кыв
+change-email-setings = Вежӧй ассьыныд email Ладмӧдӧм пыр «Пыран индӧг» юкӧдын
 
 ## FAQ
 
