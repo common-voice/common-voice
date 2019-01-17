@@ -197,16 +197,32 @@ whats-public = Мый лоӧ йӧзводзса?
 email-not-public = Тіян email оз ло йӧзӧдӧма.
 recordings-and-locale-public = Горгижӧд лыд да кутшӧм кывкӧд ті уджаланныд лоӧ йӧзӧдӧма.
 username-optin-public = Ті верманныд петкӧдлыны нимнытӧ либӧ дзебны.
+demographic-deidentified = Бӧръяна демография тӧдӧг (сэтшӧм, кыдз арлыд, пӧв (пол), кыв да акцент) лоӧ торйӧдӧма ыстӧм сёрни тӧтӧгысь да некор оз лон йӧзӧдӧма тіян профильын.
+username-email-not-demographic = Тіян ним да email некор оз лоны йитӧмаӧсь йӧзӧдӧм тӧдӧгкӧд (информациякӧд).
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Кывзыны/Дугдыны
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Гижны/Дугдыны
 request-language-text = Онӧ на аддзӧй ас кывнытӧ Common Voice вылын?
 request-language-button = Корны содтыны
@@ -262,6 +278,10 @@ profile-close = Сиптыны
 profile-explanation = Сӧвмӧм позьӧ видзӧдны профиль отсӧгӧн. Отсалӧй бурмӧдны стӧчлунсӧ миян даннӧйяслысь.
 thanks-for-account = Аттьӧ аккаунт эскӧдӧмысь. Ӧні колӧ тэчны профильнытӧ.
 why-demographic = Мыйла тайӧ колӧ?
+why-demographic-explanation = Нимтӧмалӧм тӧдӧг, сэтшӧм, кыдз арлыд, пӧв (пол) да акцент отсалӧны бурмӧдны аудио тӧдӧгсӧ, код отсӧгӧн лоӧ велӧдӧма сёрни гӧгӧрвоан текнология. Тіян ним да email некор оз лоны йитӧмаӧсь ыстӧм тӧдӧгкӧд. Ті верманнд бӧрйыны, йӧзӧдны-ӧ  нимнытӧ, либӧ кольны йӧзӧдтӧмӧн.
+keep-me-posted =
+    .label = Кӧсъя шедӧдны выльторъяс да тӧдны, мый керсьӧ Common Voice пректкӧд.
+accept-privacy = Ме бурася тӧдӧг видлалӧмкӧд, кыдзи висьталӧ Mozilla-лӧн <privacyLink>Приватлун политика</privacyLink>.
 login-identity = Пыран индӧг (идентификатор)
 login-signup = Пырны / Вӧчны профиль
 edit = Вежны
