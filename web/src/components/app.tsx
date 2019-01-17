@@ -11,6 +11,7 @@ import {
 import { Router } from 'react-router-dom';
 const { LocalizationProvider } = require('fluent-react/compat');
 import { createBrowserHistory } from 'history';
+const rtlLocales = require('../../../locales/rtl.json');
 import store from '../stores/root';
 import URLS from '../urls';
 import {
@@ -161,7 +162,7 @@ let LocalizedPage: any = class extends React.Component<
     documentElement.setAttribute('lang', mainLocale);
     documentElement.setAttribute(
       'dir',
-      ['ar', 'fa', 'he', 'ur'].includes(mainLocale) ? 'rtl' : 'ltr'
+      rtlLocales.includes(mainLocale) ? 'rtl' : 'ltr'
     );
 
     this.setState({
