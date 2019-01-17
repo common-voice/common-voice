@@ -25,6 +25,11 @@ languages = Абызшәақәа
 profile = Аҷыдахәра
 help = Аилыркаа
 contact = Аидҳәалара
+privacy = Амырӡара
+terms = Аиқәшаҳаҭра
+link-copied = Азхьарԥш акопиа хыхтәан
+back-top = Хыхьҟа
+logout = Аҭыҵра
 
 ## Home Page
 
