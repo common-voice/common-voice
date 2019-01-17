@@ -308,7 +308,12 @@ change-email-setings = Aldatu zure e-posta Hobespenetako "Saioa hasteko identita
 
 faq-title = Ohiko galderak
 faq-what-cv-q = Zer da Common Voice?
+faq-what-cv-a =
+    Ahotsaren ezagutzaren teknologiak, makinekin elkar eragiteko dugun moduan iraultza ekartzen ari da, baina egun erabilgarri dauden sistemak garestiak eta jabedunak dira. Common Voice, Mozillaren ekimenaren parte da eta bere helburua ahotsaren ezagutzaren teknologiak hobeak eta guztientzat irisgarriagoak egitea da. Common Voice dohaintzan emandako ahots grabaketa-sorta  erraldoia da, edonori ahalbidetu diezaiokeena, potentzialki edozein hizkuntzan, ahotsa erabiltzen duten app-ak modu azkar eta erraz batean trebatzea.
+    
+    Ez gara ari hizkuntza zabalduenetan bakarrik ahots grabaketak biltzen, baizik eta hiztun gutxiago dituztenetan ere bai. Mota askotako ahotsez osatutako datu-sorta bat argitaratuz, garatzaile, ekintzaile eta komunitateei existitzen den hutsune hori betetzeko ahaldundu nahi ditugu. Common Voice datu-sortaz gain, Deep Speech izena duen ahots ezagutza motor libre bat ere sortzen ari gara.
 faq-why-important-q = Zergatik da garrantzitsua?
+faq-why-important-a = Ahotsa gure artean komunikatzeko dugun modurik naturalena da eta ahots teknologiek gaitasun hori gure ordenagailu eta sakelakoek izatea lortzen ari dira. Garatzaileak ahots ezagutza aplikazio txundigarriak sortzeko ahaldundu nahi ditugu, denbora errealeko itzultzaileak edo ahots bidezko asistente digitalak bezala. Baina oraintxe bertan, era honetako app-ak sortzeko behar diren ahots-datuak garestiak eta jabedunak dira. Common Voice datu-sortarekin, berritzaileak izateko eta ahots teknologiak beraien hizkuntzetan eskuragarri jartzeko garatzaileek behar dutena ematea espero dugu.
 faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
 faq-how-get-a = Common Voice datu-sorta deskargagarri dago <licenseLink>CC0</licenseLink></licenseLink> lizentziapean gure <datasetLink>datu-sorta orrian</datasetLink>. Bertatik, publikoki deskargagarri dauden beste hainbat datu-sorta ere deskargatu ditzakezu.
 faq-when-release-q = Noiz aterako duzue Common Voice beste hizkuntzetan?
