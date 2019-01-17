@@ -17,8 +17,11 @@ indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 
 ## Languages
 
+ab = Abkhaziera
 ace = Acehnesa
+ady = Adigera
 af = Afrikaansa
+am = Amharera
 an = Aragoiera
 ar = Arabiera
 as = Assamera
@@ -37,6 +40,7 @@ cy = Galesera
 da = Daniera
 de = Alemana
 dsb = Behe-sorabiera
+dv = Maldivera
 el = Grekoa
 en = Ingelesa
 eo = Esperantoa
@@ -65,8 +69,10 @@ kpv = Komiera
 kw = Kornubiera
 ky = Kirgizera
 mdf = Moksha
+mhr = Larreetako mariera
 mk = Mazedoniera
 mn = Mongoliera
+mrj = Mendietako mariera
 myv = Erziera
 nb-NO = Bokmåla
 ne-NP = Nepalera
@@ -91,10 +97,13 @@ te = Telugua
 th = Thailandiera
 tr = Turkiera
 tt = Tatarera
+uby = Ubikera
+udm = Udmurtera
 uk = Ukrainera
 ur = Urdua
 uz = Uzbekera
 vi = Vietnamera
+vot = Votikera
 zh-CN = Txinera (Txina)
 zh-HK = Txinera (Hong Kong)
 zh-TW = Txinera (Taiwan)
@@ -115,8 +124,8 @@ privacy = Pribatutasuna
 terms = Baldintzak
 cookies = Cookieak
 faq = Ohiko galderak
-content-license-text = Edukia <licenseLink>Creative Common lizentzia</licenseLink> baten bitartez dago eskuragarri
-share-title = Lagun gaitzazu boluntario gehiago aurkitzen!
+content-license-text = Edukia <licenseLink>Creative Common lizentzia</licenseLink> batekin eskuragarri
+share-title = Lagundu boluntario gehiago aurkitzen!
 share-text = Lagundu makinei irakasten benetako pertsonek nola hitz egiten duten, utzi zure ahotsa hemen: { $link }
 link-copied = Lotura kopiatuta
 back-top = Itzuli gora
@@ -138,7 +147,7 @@ no-clips-to-validate = Badirudi ez dagoela grabaketa gehiagorik entzuteko hizkun
 vote-yes = Bai
 vote-no = Ez
 toggle-play-tooltip = Sakatu { shortcut-play-toggle } erreproduzitze modura aldatzeko
-speak-subtitle = Utzi zure ahotsa
+speak-subtitle = Grabatu zure ahotsa
 speak-paragraph = Ahots grabaketak egitea proiektu honetako datu bilketaren funtsa da; batzuek diote dibertigarria ere badela.
 speak-goal-text = Egindako grabaketak
 listen-subtitle = Lagun gaitzazu ahotsak balioztatzen
@@ -148,11 +157,11 @@ hours-recorded = Grabatutako orduak
 hours-validated = Balioztatutako orduak
 voices-online = Orain online daude ahotsak
 todays-progress = Gaurko aurrerabidea
-help-reach-goal = Lagun gaitzazu lortzen { $goal }
+help-reach-goal = Lagun gaitzazu { $goal } lortzen
 read-terms-q = Gure Baldintzak irakurri dituzu?
 ready-to-record = Zure ahotsarekin laguntzeko prest?
 all-locales = Guztiak
-today = Gaur
+today = gaur
 x-weeks-short =
     { $count ->
         [one] 1 aste
@@ -318,7 +327,7 @@ faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
 faq-how-calc-hours-a = Orduak kalkulatzeko grabaketa bakoitzaren batezbesteko luzera hartu eta hizkuntza guztietan egindako grabaketa guztien kopuruagatik biderkatzen dugu.
 faq-where-src-from-2-q = Nondik dator iturri testua?
 faq-where-src-from-2-a =
-    Gure iturburu testuak proiektuko laguntzaileek berariaz sortutakoak dira eta baita <italic>Bizitza ederra da</italic> bezala jabetza publikoan dauden filmen azpitituluetatik ateratakoak. Euskararen kasuan, hainbat esaldi <italic>Argia</italic> aldizkaritik ateratakoak dira, proiektu honetarako espresuki jabetza publikoan utzi dituztenak.
+    Gure iturburu testuak proiektuko laguntzaileek berariaz sortutakoak dira eta baita <italic>Bizitza ederra da</italic> bezala jabetza publikoan dauden filmen azpitituluetatik ateratakoak. Euskararen kasuan, hainbat esaldi <italic>Argia</italic> aldizkaritik ateratakoak dira, proiektu honetarako espresuki jabetza publikoan utzi baititu.
     
     Iturburu esaldiak <githubLink>GitHub karpeta</githubLink> honetan ikus ditzakezu.
 faq-why-not-ask-read-q = Zergatik ez diozue jendeari eskatzen liburuak edo Wikipediako artikuluak irakurtzeko hizkuntza desberdinetan?
@@ -326,7 +335,7 @@ faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
 faq-is-account-public-q = Nire kontuko informazioa publikoa da?
 faq-how-privacy-q = Nola ziurtatzen dituzue beren ahotsak lagatzen dituzten pertsonen anonimotasuna eta pribatutasuna?
 faq-how-privacy-a = Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Laguntzaile batek datu demografikoa ematen duenean bere profilaren bitartez, informazio hori des-identifikatu egiten da datu-sorta deskargagarri izateko prestatzen denean eta inoiz ez da datu demografikoa publiko egiten profil publikoetan.
-faq-what-determine-identity-q = Zer nahi du esan ezin dela hizlarien "identitatea zehaztu" Common Voice datu-sortan?
+faq-what-determine-identity-q = Zer nahi du esan ezin dela hizlarien "identitatea ondorioztatu" Common Voice datu-sortan?
 
 ## Glossary
 
@@ -335,10 +344,10 @@ localization = Lokalizazioa
 localization-explanation = gure edukia hainbat lokaletara (hizkuntzatara) itzultzeko eta moldatzeko prozesuari deritzo.
 sentence-collection = Esaldiak biltzea
 sentence-collection-explanation = jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauok jabetza publikoan uztea.
-hours-recorded-explanation = Orain arte bildu ditugun ahots grabaketa orduak.
+hours-recorded-explanation = orain arte bildu ditugun ahots grabaketa ordu kopurua.
 hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabaketa orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
 sst = Speech-to-text (STT)
-sst-explanation = speech-to-text (STT) teknologiek, ahots datuak testu bihurtzen dituzte.
+sst-explanation = ahotsetik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
 de-identified = Des-identifikazioa
 de-identified-explanation = datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabaketetatik ezkutatzeko prozesua.
 
@@ -410,8 +419,8 @@ request-language-success-content = Laster jarriko gara zurekin harremanetan Comm
 
 ## Languages Overview
 
-language-section-in-progress = Aurrerabidean
-language-section-in-progress-description = Aurrerabidean dauden hizkuntzak, gure komunitateak prestatzen ari direnak dira; beraien aurrerabide-mailak webgunea zenbat lokalizatu duten eta esaldi bilketan nola doakien adierazten du.
+language-section-in-progress = Prestatzen
+language-section-in-progress-description = Prestatzen dauden hizkuntzak, gure komunitateak prestatzen ari direnak dira; beraien aurrerabide-mailak webgunea zenbat lokalizatu duten eta esaldi bilketan nola doazen adierazten du.
 language-section-launched = Martxan
 language-section-launched-new-description = Martxan dauden hizkuntza hauetan, webgunea ondo lokalizatu da eta behar beste esaldi bildu dira <italic>Mintzatu</italic> eta <italic>Entzun</italic> ekarpenekin hasteko.
 languages-show-more = Ikusi gehiago
@@ -452,7 +461,7 @@ record-error-too-short = Grabaketa laburregia izan da.
 record-error-too-long = Grabaketa luzeegia izan da.
 record-error-too-quiet = Grabaketa baxuegi entzuten da.
 record-cancel = Ezeztatu berriro grabatzea
-record-instruction = { $actionType }<recordIcon></recordIcon> esaldia altuan irakurtzeko
+record-instruction = { $actionType }<recordIcon></recordIcon> ikurrean esaldia altuan irakurtzeko
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> egindakoan
 record-three-more-instruction = Bagoaz!
 record-again-instruction = Bikain!<recordIcon></recordIcon> Egin zure hurrengo grabaketa
@@ -499,14 +508,14 @@ validations =
 
 your-languages = Zure hizkuntzak
 toward-next-goal = Hurrengo helbururantz
-clips-you-recorded = Zuk egindako grabaketak
-clips-you-validated = Zuk balioztatu dituzun grabaketak
+clips-you-recorded = Egin dituzun grabaketak
+clips-you-validated = Balioztatu dituzun grabaketak
 todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabaketetan
 todays-validated-progress = Common Voicen gaurko aurrerapena balioztatutako grabaketetan
 stats = Estatistikak
-you = Zu
-everyone = Guztiok
-contribution-activity = Laguntza-jarduera
+you = Zuk
+everyone = Denek
+contribution-activity = Gaurko jarduera
 top-contributors = Laguntzaile gogotsuenak
 recorded-clips = Egindako grabaketak
 validated-clips = Balioztatutako grabaketak
@@ -518,6 +527,6 @@ overall-accuracy = Zehaztasun orokorra
 delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago dugu Common Voicen datu-sortan manten daitezen?
 keep = Mantendu
 remove = Kendu
-keep-info = Zure ahots grabaketa anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabaketak datu-sortatik kentzea.
+keep-info = Zure ahots grabaketa anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabaketak datu-sortatik kentzerik.
 remove-info = Zure ahots grabaketak datu-sortatik ezabatzeko eskaria berrikusiko dugu. Zure eskaria onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabaketak ezabatzeko eskatuko diegu.
 profile-form-delete = Ezabatu profila
