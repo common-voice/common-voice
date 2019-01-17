@@ -161,7 +161,7 @@ let LocalizedPage: any = class extends React.Component<
     documentElement.setAttribute('lang', mainLocale);
     documentElement.setAttribute(
       'dir',
-      ['ar', 'de', 'fa', 'he'].includes(mainLocale) ? 'rtl' : 'ltr'
+      ['ar', 'fa', 'he', 'ur'].includes(mainLocale) ? 'rtl' : 'ltr'
     );
 
     this.setState({
