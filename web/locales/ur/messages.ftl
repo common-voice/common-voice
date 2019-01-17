@@ -8,6 +8,7 @@ email-input =
     .label = ای میل
 submit-form-action = ‏‏جمع کریں
 loading = لوڈ ہو رہا ہے…
+indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -37,6 +38,7 @@ en = انگریزی
 eo = اسپيرانتو
 es = اسپینش
 et = ایسٹونئن
+fa = فارسی
 fi = فنیش
 fo = فیروسیہ
 fr = فرانسیسی
@@ -57,6 +59,7 @@ ko = کوریائِی
 kw = کورناش
 ky = کرغز
 mk = مقدونیائی
+mn = منگولیائی
 myv = ایرزیا
 ne-NP = نیپالی
 nl = ڈچ
@@ -116,8 +119,17 @@ no-clips-to-validate = لگتا ہے اس زبان میں سننے کے لیئے
 vote-yes = ہاں
 vote-no = نہیں
 speak-subtitle = اپنی آواز کا عطیہ کریں
+todays-progress = آج کی پیش رفت
 all-locales = تمام
 today = آج
+sign-up-account = ایک اکاؤنٹ کے لئے سائن اپ کریں
+
+## Account Benefits
+
+benefits = فوائد
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -199,14 +211,9 @@ on = چالو
 ## FAQ
 
 faq-title = اکثر پوچھے گئے سوالات
-faq-what-q = Common Voice کیا ہے؟
-faq-important-q = یہ کیوں اہم ہے؟
-faq-get-q = میں Common Voice کے کوائف کیست حاصل کر سکتا ہوں؟
-faq-mission-q = Mozilla کی مہم کا Common Voice حصۃ کیوں ہے؟
-faq-native-q = میں ایک غیر مقامی { $lang } کا خطیب ہوں اور میں تلفظ کے ساتھ بولتا ہوں، کیا آپ اب بھی میری آواز چاہتے ہیں؟
-faq-quality-q = آڈیو کے استعمال کیئے جانے کے لیے  کس سطح کا  معیار ضروری ہے؟
-faq-hours-q = ۱۰،۰۰۰ گھنٹے کی صوت پر قبظہ کرنا ہمارا مقصد کیوں ہے؟
-faq-source-q = یہ ماخز متن کہاں سے آیا ہے؟
+
+## Glossary
+
 
 ## NotFound
 
