@@ -17,7 +17,8 @@ footer {
         height: 9.3rem;
     }
 
-    & a, & button {
+    & a,
+    & button {
         box-sizing: border-box;
         text-align: center;
         width: 10rem;
@@ -29,7 +30,7 @@ footer {
         }
 
         &:hover {
-            opacity: .6;
+            opacity: 0.6;
         }
     }
 
@@ -44,7 +45,7 @@ footer {
 
     & .divider {
         display: none;
-        border-right: 2px solid darkgrey;
+        border-inline-end: 2px solid darkgrey;
         height: 2.5rem;
 
         @media (--md-up) {
@@ -92,16 +93,17 @@ footer {
         @media (--md-up) {
             flex-direction: column;
             min-width: 9rem;
-            margin-right: 8rem;
+            margin-inline-end: 8rem;
             margin-top: 0;
         }
 
         & .main-logo {
             font-size: 1rem;
-            padding-right: 4rem;
+            padding-inline-end: 4rem;
         }
 
-        & .main-logo, & .main-mozilla-logo {
+        & .main-logo,
+        & .main-mozilla-logo {
             height: 2.5rem;
             max-height: 2.5rem;
 
@@ -111,7 +113,7 @@ footer {
         }
 
         & .license {
-            font-size: .7rem;
+            font-size: 0.7rem;
 
             @media (--md-up) {
                 margin-top: 1.5rem;
@@ -130,7 +132,7 @@ footer {
 
         @media (--md-up) {
             max-width: 18rem;
-            margin-right: 4rem;
+            margin-inline-end: 4rem;
             margin-top: 0;
             padding: 0;
         }
@@ -168,7 +170,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255, 255, 255, 0.1);
 
     & .title {
         margin-bottom: 1rem;

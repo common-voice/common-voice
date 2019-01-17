@@ -86,7 +86,7 @@
 
         & .title {
             @media (--md-up) {
-                margin-right: 30px;
+                margin-inline-end: 30px;
             }
 
             & h1 {
@@ -145,7 +145,7 @@
             flex-direction: row;
 
             & > :first-child {
-                margin-right: 30px;
+                margin-inline-end: 30px;
             }
 
             & > * {
@@ -173,7 +173,7 @@
             }
 
             & .mars-container {
-                margin-right: 30px;
+                margin-inline-end: 30px;
                 display: flex;
                 justify-content: flex-end;
             }
@@ -193,10 +193,10 @@
         & .mars-container img {
             @media (--sm-down) {
                 margin-bottom: 15px;
-                margin-right: 28px;
+                margin-inline-end: 28px;
             }
             @media (--md-up) {
-                margin-right: 100px;
+                margin-inline-end: 100px;
                 transform: scale(1.2) translateY(30px);
             }
         }
@@ -211,7 +211,7 @@
                 }
             }
             @media (--md-up) {
-                margin-left: 10px;
+                margin-inline-start: 10px;
             }
         }
 
@@ -220,7 +220,7 @@
 
             @media (--sm-down) {
                 margin-top: 26px;
-                margin-right: 18px;
+                margin-inline-end: 18px;
                 max-width: 140px;
                 font-size: var(--font-size-lg);
             }

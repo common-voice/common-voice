@@ -23,7 +23,7 @@
                 width: calc(50% - var(--profile-column-margin) / 2);
 
                 &:nth-child(2n) {
-                    margin-left: var(--profile-column-margin);
+                    margin-inline-start: var(--profile-column-margin);
                 }
             }
         }
@@ -90,7 +90,7 @@
         }
 
         & svg {
-            margin-right: 20px;
+            margin-inline-end: 20px;
             width: 18px;
         }
     }
@@ -128,7 +128,7 @@
             justify-content: space-between;
 
             & svg {
-                margin-right: 5px;
+                margin-inline-end: 5px;
                 flex-shrink: 0;
                 width: 16px;
 
@@ -150,7 +150,7 @@
         font-weight: 600;
 
         & svg {
-            margin-left: 5px;
+            margin-inline-start: 5px;
         }
     }
 

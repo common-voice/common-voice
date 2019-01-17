@@ -28,7 +28,7 @@
     & .icon,
     & svg {
         font-size: 9px;
-        margin-right: 10px;
+        margin-inline-end: 10px;
 
         & path {
             fill: var(--white);

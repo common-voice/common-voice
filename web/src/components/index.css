@@ -291,12 +291,12 @@ body:not(.focus) #scroller {
 
 .main-logo {
     @media (--md-up) {
-        margin-right: var(--standard-margin);
+        margin-inline-end: var(--standard-margin);
         width: 10rem;
     }
 
     @media (--lg-up) {
-        margin-right: 4rem;
+        margin-inline-end: 4rem;
     }
 
     &,
@@ -308,7 +308,7 @@ body:not(.focus) #scroller {
 #content > #faq-container,
 #content > #profile-container {
     margin-top: var(--standard-margin);
-    text-align: left;
+    text-align: start;
 }
 
 .loading {
@@ -405,10 +405,10 @@ a.small,
 .with-down-arrow::after {
     content: '';
     position: absolute;
-    left: 0;
-    width: 100%;
+    inset-inline-end: 15px;
+    width: 13px;
     height: 100%;
-    background: url('/img/down-arrow.svg') no-repeat right 15px center;
+    background: url('/img/down-arrow.svg') no-repeat 0 center;
     background-size: 13px 9px;
     pointer-events: none;
 }

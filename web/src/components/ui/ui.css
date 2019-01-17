@@ -155,7 +155,7 @@ button.card-action:focus.focus-visible path {
     }
 
     & .label {
-        margin-left: 9px;
+        margin-inline-start: 9px;
         padding: 0 5px;
         position: absolute;
         top: -8px;
@@ -191,7 +191,7 @@ button.card-action:focus.focus-visible path {
 
             & select {
                 cursor: pointer;
-                padding-right: 33px;
+                padding-inline-end: 33px;
                 width: 100%;
                 appearance: none;
             }

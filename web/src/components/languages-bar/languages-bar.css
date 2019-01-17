@@ -33,14 +33,14 @@
         }
 
         & * {
-            margin-right: 33px;
+            margin-inline-end: 33px;
             padding-bottom: 13.5px;
             font-size: 14px;
             color: var(--warm-grey);
 
             @media (--xs-only) {
                 font-size: var(--font-size-xs);
-                margin-right: 0;
+                margin-inline-end: 0;
 
                 &:first-child {
                     padding-bottom: 3px;
@@ -48,7 +48,7 @@
             }
 
             &:last-child {
-                margin-right: 0;
+                margin-inline-end: 0;
             }
         }
 
@@ -76,7 +76,7 @@
 
         & select {
             border: none;
-            padding-right: 25px;
+            padding-inline-end: 25px;
             width: 0;
             appearance: none;
             font-family: var(--base-font-family);

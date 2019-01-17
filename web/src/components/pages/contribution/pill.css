@@ -17,7 +17,7 @@
 
     @media (--md-up) {
         margin-top: 20px;
-        margin-left: auto;
+        margin-inline-start: auto;
         padding: 0 12px;
         width: 100%;
         height: 57px;
@@ -74,10 +74,10 @@
 
         @media (--md-up) {
             border: none;
-            padding-left: 6px;
+            padding-inline-start: 6px;
 
             &.closed {
-                padding-left: 0;
+                padding-inline-start: 0;
             }
 
             & .num {

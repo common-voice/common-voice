@@ -31,7 +31,7 @@
     & .goal-percentage {
         display: inline-block;
         position: relative;
-        text-align: right;
+        text-align: end;
         color: var(--valid-green);
 
         & .final {
@@ -80,7 +80,7 @@
         display: flex;
         flex-direction: column;
         background: var(--white);
-        box-shadow: 0 6px 12px 0 rgba(0,0,0,.05);
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
 
         @media (--md-up) {
             padding: 38px 65px 0;
@@ -115,7 +115,7 @@
         }
 
         & svg {
-            margin-right: 10px;
+            margin-inline-end: 10px;
         }
 
         & path {

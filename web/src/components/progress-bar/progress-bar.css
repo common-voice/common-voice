@@ -7,7 +7,7 @@
     & .progress {
         height: 100%;
         box-sizing: border-box;
-        padding-right: var(--standard-margin);
+        padding-inline-end: var(--standard-margin);
         display: flex;
         justify-content: flex-end;
         align-items: center;

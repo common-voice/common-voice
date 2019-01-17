@@ -157,7 +157,12 @@ let LocalizedPage: any = class extends React.Component<
       this.props.setLocale(userLocales[0]);
     }
 
-    document.documentElement.setAttribute('lang', mainLocale);
+    const { documentElement } = document;
+    documentElement.setAttribute('lang', mainLocale);
+    documentElement.setAttribute(
+      'dir',
+      ['ar', 'de', 'fa', 'he'].includes(mainLocale) ? 'rtl' : 'ltr'
+    );
 
     this.setState({
       bundleGenerator: await createBundleGenerator(api, userLocales),

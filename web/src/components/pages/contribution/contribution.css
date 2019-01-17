@@ -61,7 +61,7 @@
         }
 
         & svg {
-            margin-right: 10px;
+            margin-inline-end: 10px;
             padding: 7px;
             background: var(--valid-green);
             border-radius: 50%;
@@ -73,7 +73,7 @@
         }
 
         & .text {
-            margin-left: 10px;
+            margin-inline-start: 10px;
             font-size: var(--font-size-xs);
             font-weight: normal;
             font-style: italic;
@@ -111,8 +111,8 @@
             font-family: var(--strong-font-family);
 
             @media (--md-up) {
-                margin-right: auto;
-                margin-left: 52px;
+                margin-inline-end: auto;
+                margin-inline-start: 52px;
                 font-size: 20px;
             }
 
@@ -151,7 +151,7 @@
         & .open-share {
             border: 2px solid var(--grey);
             border-radius: 50%;
-            margin-left: 20px;
+            margin-inline-start: 20px;
             background: var(--white);
 
             @media (--sm-down) {
@@ -221,7 +221,7 @@
         & > :first-child {
             display: none;
             flex: 1;
-            margin-right: auto;
+            margin-inline-end: auto;
 
             @media (--xl-up) {
                 display: block;
@@ -300,7 +300,7 @@
 
             @media (--md-up) {
                 margin-top: 0;
-                margin-left: auto;
+                margin-inline-start: auto;
                 width: fit-content;
                 flex-direction: column;
                 justify-content: flex-start;
@@ -352,7 +352,7 @@
         }
 
         & button img {
-            margin-right: 10px;
+            margin-inline-end: 10px;
         }
 
         & > * {
@@ -360,7 +360,7 @@
 
             & > :first-child {
                 @media (--md-up) {
-                    margin-right: 20px;
+                    margin-inline-end: 20px;
                 }
             }
         }
@@ -385,7 +385,7 @@
             display: inline-flex;
 
             & svg {
-                margin-left: 13px;
+                margin-inline-start: 13px;
             }
         }
 
@@ -495,8 +495,8 @@
             align-items: center;
             font-size: var(--font-size-xl);
             width: 338px;
-            text-align: right;
-            padding-right: 40px;
+            text-align: end;
+            padding-inline-end: 40px;
         }
     }
 
@@ -583,7 +583,7 @@
         display: inline-flex;
 
         & svg {
-            margin-right: 10px;
+            margin-inline-end: 10px;
         }
 
         & path {
@@ -608,14 +608,14 @@
         justify-content: center;
 
         & .shortcut {
-            margin-right: 50px;
+            margin-inline-end: 50px;
             width: 91px;
             display: flex;
             flex-direction: column;
             align-items: center;
 
             &:last-child {
-                margin-right: 0;
+                margin-inline-end: 0;
             }
         }
 
