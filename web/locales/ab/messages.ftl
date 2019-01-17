@@ -111,6 +111,8 @@ profile-form-submit-save = Аиқәырхара
 profile-form-submit-saved = Еиқәырхон
 male = Ахацәа
 female = Аҳәса
+# Gender
+other = Даҽакы
 
 ## FAQ
 
