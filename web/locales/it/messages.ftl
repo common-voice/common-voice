@@ -17,8 +17,11 @@ indicates-required = * indica un campo obbligatorio
 
 ## Languages
 
+ab = Abcaso
 ace = Aceh
+ady = Adighè
 af = Afrikaans
+am = Amarico
 an = Aragonese
 ar = Arabo
 as = Assamese
@@ -65,8 +68,10 @@ kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirghiso
 mdf = Mokša
+mhr = Mari orientale
 mk = Macedone
 mn = Mongolo
+mrj = Mari occidentale
 myv = Erza
 nb-NO = Bokmål (Norvegia)
 ne-NP = Nepalese
@@ -91,6 +96,7 @@ te = Telugu
 th = Tailandese
 tr = Turco
 tt = Tataro
+uby = Ubykh
 uk = Ucraino
 ur = Urdu
 uz = Uzbeco
