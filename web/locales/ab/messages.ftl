@@ -20,6 +20,11 @@ ab = Аԥсышә
 
 speak = Иҳәа
 speak-now = Иҳәала
+datasets = Адыррақәа реизга
+languages = Абызшәақәа
+profile = Аҷыдахәра
+help = Аилыркаа
+contact = Аидҳәалара
 
 ## Home Page
 
