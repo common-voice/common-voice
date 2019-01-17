@@ -397,7 +397,11 @@ record-no-mic-found = Микрофон абу аддзӧма.
 record-error-too-short = Гижӧд вывти дзеньыд.
 record-error-too-long = Гижӧд вывті кузь.
 record-error-too-quiet = Гижӧд вывті ньӧж.
+record-cancel = Дугӧдны выльысь гижӧм
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>, кор лоӧ дась
 record-three-more-instruction = Нӧшта куим!
+record-again-instruction = Бур! <recordIcon></recordIcon> Гижӧй нӧшта клип
+record-again-instruction2 = Тадз водзӧ, гижӧй бара <recordIcon></recordIcon>
 record-last-instruction = Медбӧръя!
 unable-speak = Он вермы ӧні сёрнитны?
 clips-uploaded = Аудио клипъяс ыстӧма
@@ -433,6 +437,11 @@ validations =
 ## Dashboard
 
 your-languages = Тіян кыв
+toward-next-goal = Матыстчан мог
+clips-you-recorded = Клип тіянӧн гижӧма
+clips-you-validated = Клип тіянӧн видлалӧма
+todays-recorded-progress = Клип талун гижӧма Common Voice вылын
+todays-validated-progress = Клип талун видлалӧма Common Voice вылын
 stats = Статистика
 you = Ті
 everyone = Быдӧн
@@ -445,6 +454,7 @@ overall-accuracy = Стӧчлун
 
 ## Profile Delete
 
+delete-q = Кӧсъянныд-ӧ ті чыщкыны гижӧм сёрнинытӧ тшӧтш, али кӧсъянныд кольны найӧс Common Voice чукӧрын?
 keep = Кольны
 remove = Чышкыны
 profile-form-delete = Чышкы ас листбок
