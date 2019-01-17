@@ -193,6 +193,8 @@ join-newsletter = Верманныд на пыртны ассьыныд email м
 
 ## What's public
 
+whats-public = Мый лоӧ йӧзводзса?
+email-not-public = Тіян email оз ло йӧзӧдӧма.
 
 ## Speak & Listen Shortcuts
 
@@ -322,14 +324,18 @@ contact-required = *колӧ
 
 ## Request Language Modal
 
+request-language-title = Корӧм содтыны кыв
 request-language-form-language =
     .label = Кыв
 
 ## Languages Overview
 
+language-section-in-progress = Вӧчсьӧ
+language-section-launched = Лэдзӧма
 languages-show-more = Аддзы унджык
 languages-show-less = Этшаджыка
 language-speakers = Сёрнитысьяс
+language-meter-in-progress = Сӧвмӧм
 language-total-progress = Ставнас
 language-search-input =
     .placeholder = Корсьны
@@ -368,7 +374,12 @@ share-title-new = <bold>Отсав миянӧс</bold> аддзыны унджы
 
 ## Dashboard
 
+stats = Статистика
+you = Ті
+everyone = Быдӧн
 
 ## Profile Delete
 
+keep = Кольны
+remove = Чышкыны
 profile-form-delete = Чышкы ас листбок
