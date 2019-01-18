@@ -391,7 +391,7 @@ header {
     }
 
     & a {
-        border-bottom: 1px solid color(var(--black) alpha(10%));
+        border-bottom: 1px solid color-mod(var(--black) alpha(10%));
 
         &:last-child {
             border-bottom: 0;

@@ -14,7 +14,7 @@
             }
 
             & .bar {
-                background: color(var(--red) alpha(20%));
+                background: color-mod(var(--red) alpha(20%));
             }
 
             & .current {
@@ -34,7 +34,7 @@
             }
 
             & .bar {
-                background: color(var(--valid-green) alpha(20%));
+                background: color-mod(var(--valid-green) alpha(20%));
             }
 
             & .current {

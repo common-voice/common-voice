@@ -64,9 +64,9 @@ module.exports = {
               ident: 'postcss',
               plugins: loader => [
                 require('postcss-import')(),
+                require('postcss-color-mod-function')(),
                 require('postcss-nested')(),
                 require('postcss-custom-media')(),
-                require('postcss-color-function')(),
                 require('postcss-preset-env')(),
                 require('cssnano')(),
               ],

@@ -97,7 +97,7 @@
     list-style: none;
 
     & li {
-        border-bottom: 1px solid color(var(--black) alpha(20%));
+        border-bottom: 1px solid color-mod(var(--black) alpha(20%));
     }
 
     & .more button {

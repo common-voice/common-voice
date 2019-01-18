@@ -82,6 +82,7 @@
             display: flex;
             align-items: center;
             margin-top: 4rem;
+            z-index: var(--middle-z-index);
 
             @media (--md-up) {
                 margin-inline-start: var(--standard-margin);
@@ -404,7 +405,7 @@
             padding: 1rem;
             width: 100%;
             transition: background linear var(--transition-duration);
-            background: color(var(--light-grey) alpha(50%));
+            background: color-mod(var(--light-grey) alpha(50%));
             text-transform: uppercase;
             font-weight: 600;
             letter-spacing: 0.4px;

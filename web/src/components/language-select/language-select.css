@@ -4,7 +4,7 @@
     position: relative;
 
     & .current {
-        border: 1px solid color(var(--black) alpha(10%));
+        border: 1px solid color-mod(var(--black) alpha(10%));
         border-radius: 1000px;
         max-height: 50px;
         min-width: 220px;

@@ -564,7 +564,7 @@
             margin-top: 30px;
             background: #ff4e5e;
             border: none;
-            box-shadow: 0 5px 10px color(#ff4e5e alpha(50%));
+            box-shadow: 0 5px 10px color-mod(#ff4e5e alpha(50%));
 
             &:hover {
                 color: var(--white);
@@ -621,7 +621,7 @@
 
         & kbd {
             border-radius: 4px;
-            border: solid 1px color(var(--black) alpha(5%));
+            border: solid 1px color-mod(var(--black) alpha(5%));
             margin-bottom: 10px;
             width: 57px;
             height: 57px;

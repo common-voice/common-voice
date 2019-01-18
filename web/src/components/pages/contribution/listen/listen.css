@@ -73,25 +73,25 @@
 
         &.yes {
             box-shadow: var(--vote-button-box-shadow)
-                color(var(--valid-green) alpha(30%));
+                color-mod(var(--valid-green) alpha(30%));
 
             &:hover,
             &:active {
                 background: var(--valid-green);
                 box-shadow: var(--vote-button-box-shadow)
-                    color(var(--valid-green) alpha(70%));
+                    color-mod(var(--valid-green) alpha(70%));
             }
         }
 
         &.no {
             box-shadow: var(--vote-button-box-shadow)
-                color(var(--red) alpha(20%));
+                color-mod(var(--red) alpha(20%));
 
             &:hover,
             &:active {
                 background: var(--red);
                 box-shadow: var(--vote-button-box-shadow)
-                    color(var(--red) alpha(60%));
+                    color-mod(var(--red) alpha(60%));
             }
         }
 
@@ -109,7 +109,7 @@
             color: var(--near-black);
             background: var(--white);
             box-shadow: var(--vote-button-box-shadow)
-                color(var(--grey) alpha(80%));
+                color-mod(var(--grey) alpha(80%));
 
             & path {
                 fill: var(--near-black);

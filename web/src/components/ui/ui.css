@@ -52,7 +52,7 @@
 
     &.outline {
         border-radius: 4px;
-        border: solid 1px color(var(--black) alpha(10%));
+        border: solid 1px color-mod(var(--black) alpha(10%));
         background-color: var(--white);
         color: var(--black);
     }

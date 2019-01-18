@@ -115,7 +115,7 @@
             }
 
             & hr {
-                border-top-color: color(var(--white) alpha(20%));
+                border-top-color: color-mod(var(--white) alpha(20%));
             }
         }
     }
