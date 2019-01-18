@@ -1,5 +1,6 @@
 ## General
 
+return-to-cv = Common Voice ихынҳәтәуп
 email-input =
     .label = Аԥошьҭа
 submit-form-action = Адәықәҵара
@@ -12,6 +13,12 @@ loading = Аҭагалара
 ## Languages
 
 ab = Аԥсышә
+ar = Араԥ
+de = Агерман
+el = Елен
+en = Англыз
+oc = Алан
+ru = Аурыс
 
 # [/]
 
@@ -113,6 +120,8 @@ male = Ахацәа
 female = Аҳәса
 # Gender
 other = Даҽакы
+avatar = Асахьа
+goals = Ахықәкқәа
 
 ## FAQ
 
