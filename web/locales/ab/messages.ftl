@@ -122,6 +122,10 @@ female = Аҳәса
 other = Даҽакы
 avatar = Асахьа
 goals = Ахықәкқәа
+settings = Архиарақәа
+profile-close = Иарктәуп
+login-signup = Аҭалара/Аҽҭагалара
+edit = Аредакциазура
 
 ## FAQ
 
