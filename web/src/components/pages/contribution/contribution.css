@@ -101,6 +101,10 @@
             border-radius: 50%;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 
+            [dir='rtl'] & {
+                transform: rotateY(180deg);
+            }
+
             @media (--md-up) {
                 width: 57px;
                 height: 57px;
@@ -386,6 +390,10 @@
 
             & svg {
                 margin-inline-start: 13px;
+
+                [dir='rtl'] & {
+                    transform: rotateY(180deg);
+                }
             }
         }
 
