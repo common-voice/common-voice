@@ -40,6 +40,7 @@ cy = Gallese
 da = Danese
 de = Tedesco
 dsb = Basso sorabo
+dv = Maldiviano
 el = Greco
 en = Inglese
 eo = Esperanto
