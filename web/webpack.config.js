@@ -58,7 +58,20 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           { loader: 'css-loader', options: { importLoaders: 1 } },
-          'postcss-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: loader => [
+                require('postcss-import')(),
+                require('postcss-nested')(),
+                require('postcss-custom-media')(),
+                require('postcss-color-function')(),
+                require('postcss-preset-env')(),
+                require('cssnano')(),
+              ],
+            },
+          },
         ],
       },
     ],
