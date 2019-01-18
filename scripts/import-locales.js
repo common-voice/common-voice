@@ -12,7 +12,7 @@ const localeMessagesPath = path.join(__dirname, '..', 'web', 'locales');
 function saveDataJSON(name, data) {
   fs.writeFileSync(
     path.join(dataPath, name + '.json'),
-    JSON.stringify(data, null, 2)
+    JSON.stringify(data, null, 2) + '\n'
   );
 }
 
