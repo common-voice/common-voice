@@ -173,6 +173,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   };
 
   handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const { getString } = this.props;
     const { inProgress, launched, selectedSection } = this.state;
     const query = event.target.value;
 
@@ -181,7 +182,10 @@ class LanguagesPage extends React.PureComponent<Props, State> {
         ? languages.filter(({ locale }: any) => {
             const q = query.toLowerCase();
             return (
-              locale.toLowerCase().includes(q) ||
+              locale.includes(q) ||
+              getString(locale)
+                .toLowerCase()
+                .includes(q) ||
               (NATIVE_NAMES[locale] || '').toLowerCase().includes(q)
             );
           })
