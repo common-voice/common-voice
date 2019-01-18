@@ -126,6 +126,10 @@ settings = Архиарақәа
 profile-close = Иарктәуп
 login-signup = Аҭалара/Аҽҭагалара
 edit = Аредакциазура
+email-subscriptions = Аԥошьҭа напаҵаҩрақәа
+download-profile = Ахҩылаара сдыррақәа
+off = Аҿх
+on = Аҿк
 
 ## FAQ
 
