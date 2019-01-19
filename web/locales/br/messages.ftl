@@ -193,6 +193,7 @@ sign-up-account = Lakait hoc'h anv evit ur gont
 ## Account Benefits
 
 benefits = Avañtajoù
+rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù demografiezh. Dizemografiezhaat a reomp kement roadenn demografiezh a-raok o lakaat foran.
 
 ## What's public
 
