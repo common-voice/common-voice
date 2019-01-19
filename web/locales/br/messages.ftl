@@ -17,8 +17,11 @@ indicates-required = * A ziskouez ar maeziennoù rekizet
 
 ## Languages
 
+ab = Abkhazeg
 ace = Aseneg
+ady = Addeuean
 af = Afrikaaneg
+am = Amhareg
 an = Aragoneg
 ar = Arabeg
 as = Asameg
@@ -37,6 +40,7 @@ cy = Kembraeg
 da = Daneg
 de = Alamaneg
 dsb = Izel-Sorabeg
+dv = Divehi
 el = Gresianeg
 en = Saozneg
 eo = Esperanto
@@ -65,8 +69,10 @@ kpv = Komi-Zyrian
 kw = Kerneveureg
 ky = Kirgizeg
 mdf = Moksha
+mhr = Mari ar pradoù
 mk = Makedoneg
 mn = Mongoleg
+mrj = Mari ar menez
 myv = Erzya
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
