@@ -151,9 +151,13 @@ de-identified = Ихаҿыдатәу
 
 ## NotFound
 
+notfound-title = Ԥшаам
 
 ## Data
 
+data-download-yes = Ааи
+data-download-deny = Мап
+data-download-license = Алицензиа: <licenseLink>CC-0</licenseLink>
 
 ## Download Modal
 
