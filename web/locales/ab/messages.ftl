@@ -133,12 +133,21 @@ download-profile = Ахҩылаара сдыррақәа
 off = Аҿх
 on = Аҿк
 browse-file-title = Асахьатә фаил иҭагалатәуп
+manage-subscriptions = Анапаҵаҩрақәа анапхгара
+add-language = Абызшәа ацҵара
 
 ## FAQ
 
+faq-what-cv-q = Изакәиу Common Voice?
+faq-why-important-q = Избан ари краҵанакуоуп?
 
 ## Glossary
 
+glossary = Аилыркаагатә жәар
+localization = Аҭыԥыркра
+sentence-collection = Аҳәоуқәа аизга
+sst = Ацәажәара ҳәоула
+de-identified = Ихаҿыдатәу
 
 ## NotFound
 
