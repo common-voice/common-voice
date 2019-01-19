@@ -120,16 +120,19 @@ male = Ахацәа
 female = Аҳәса
 # Gender
 other = Даҽакы
+dashboard = Апанель
 avatar = Асахьа
 goals = Ахықәкқәа
 settings = Архиарақәа
 profile-close = Иарктәуп
+login-identity = Ахаҭарбага аҭаларазы
 login-signup = Аҭалара/Аҽҭагалара
 edit = Аредакциазура
 email-subscriptions = Аԥошьҭа напаҵаҩрақәа
 download-profile = Ахҩылаара сдыррақәа
 off = Аҿх
 on = Аҿк
+browse-file-title = Асахьатә фаил иҭагалатәуп
 
 ## FAQ
 
