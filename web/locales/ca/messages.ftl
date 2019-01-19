@@ -297,6 +297,7 @@ add-language = Afegeix una llengua
 faq-title = Preguntes més freqüents
 faq-what-cv-q = Què és el Common Voice?
 faq-why-important-q = Per què és important?
+faq-how-calc-hours-q = Com calcula les hores el Common Voice?
 
 ## Glossary
 
