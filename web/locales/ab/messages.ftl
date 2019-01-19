@@ -158,6 +158,7 @@ notfound-title = Ԥшаам
 data-download-yes = Ааи
 data-download-deny = Мап
 data-download-license = Алицензиа: <licenseLink>CC-0</licenseLink>
+data-other-title = Даҽа абжьытә дыррақәа реизга...
 
 ## Download Modal
 
