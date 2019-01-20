@@ -462,7 +462,7 @@ total-hours = ساعت اعتبارسنجی شده
 ## New Contribution
 
 action-click = کلیک
-action-tap = ضربه زدن
+action-tap = ضربه بزنید
 contribute = مشارکت
 listen = گوش کردن
 skip = رد کردن
