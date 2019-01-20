@@ -174,9 +174,12 @@ sign-up-account = Daftarkan akun
 ## Account Benefits
 
 benefits = Manfaat
+join-newsletter = Bergabunglah dengan sukarela di daftar surel kami untuk pembaruan dan informasi baru tentang proyek ini.
 
 ## What's public
 
+email-not-public = Kami tidak akan mempublikasikan surel Anda.
+username-optin-public = Anda dapat memilih untuk menjadikan nama pengguna Anda publik atau anonim.
 
 ## Speak & Listen Shortcuts
 
@@ -298,11 +301,11 @@ faq-what-quality-q = Berapa tingkat kualitas audio yang diperlukan untuk klip su
 faq-why-10k-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem ucapan-ke-teks produksi.
 faq-how-calc-hours-q = Bagaimana Common Voice menghitung jumlah jam?
 faq-how-calc-hours-a = Kami menghitung jam dengan memperkirakan panjang rata-rata setiap rekaman, kemudian mengalikan angka tersebut dengan jumlah total rekaman di semua bahasa.
-faq-where-src-from-q = Dari mana asal teks sumbernya?
-faq-where-src-from-a =
-    Teks sumber kami terdiri dari donasi kontributor tulen serta dialog dari naskah film domain publik seperti <italic>It is a Wonderful Life </italic>.
+faq-where-src-from-2-q = Dari mana asal teks sumbernya?
+faq-where-src-from-2-a =
+    Teks sumber kami terdiri dari donasi kontributor asli serta dialog dari naskah film domain publik seperti <italic>It's a Wonderful Life </italic>.
     
-    Anda dapat melihat kalimat sumber kami di folder GitHub ini.
+    Anda dapat melihat kalimat sumber kami di <githubLink>folder GitHub</githubLink> ini.
 faq-why-not-ask-read-q = Mengapa Anda tidak meminta orang untuk membaca dari buku atau artikel Wikipedia dalam bahasa yang berbeda?
 faq-why-account-q = Mengapa saya harus mendaftar akun?
 faq-is-account-public-q = Apakah informasi akun saya bersifat publik?
