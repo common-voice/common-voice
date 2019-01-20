@@ -113,7 +113,7 @@ zh-TW = چینی (تایوان)
 
 ## Layout
 
-speak = صحبت
+speak = بگویید
 speak-now = اکنون صحبت کنید
 datasets = مجموعه‌ی داده‌ها
 languages = زبان‌ها
@@ -465,7 +465,7 @@ total-hours = ساعت اعتبارسنجی شده
 action-click = کلیک
 action-tap = ضربه بزنید
 contribute = مشارکت
-listen = شنیدن
+listen = بشنوید
 skip = رد کردن
 shortcuts = میانبرها
 clips-with-count = <bold>{ $count }</bold> کلیپ‌ها
