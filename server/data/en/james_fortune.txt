@@ -42,7 +42,7 @@ Operating on dynamic data sets is difficult.
 This particular form of encoding requires a specialized crossover mechanism.
 Observe that commonly used crossover operators cannot change any uniform population.
 Such an oscillating dipole moment can exchange energy with an electromagnetic wave of same frequency.
-This frequency must appear in the absorption and emission spectrum of ionized hydrogen molecule.
+This frequency must appear in the absorption and emission spectrum of ionized hydrogen molecules.
 Smaller ellipses create fewer reflections.
 These losses can be minimized by using a close-coupled cavity.
 The exact shape of the cavity is often dependent on how many lamps are used.
@@ -53,7 +53,7 @@ This would expose photographic plates and cause fluorescence.
 He postulated a dispersion theory before his coworker made his discovery and announcement.
 In addition, the feature axis is configurable.
 The computational complexities of these methods are only proportional to the number of non-zero blocks.
-The two operations have an identical performance.
+The two operations have identical performance.
 The kernels in principle allow for much more exotic methods.
 Sparse connectivity allows us to widen the network without increasing the number of parameters.
 I did this to prevent cycling and encourage greater movement through the solution space.
@@ -64,9 +64,9 @@ This allows remote hosts to connect to local forwarded ports.
 Specify the user to log in as on the remote machine.
 Do not execute a remote command.
 Control an active connection multiplexing master process.
-Use this port to connect to on the remote host.
+Use this port to connect to the remote host.
 It causes most warning and diagnostic messages to be suppressed.
-Can I be used to request invocation of a subsystem on the remote system?
+Can it be used to request invocation of a subsystem on the remote system?
 Please send log information using the standard system module.
 When the user's identity has been accepted by the server, you will be notified. 
 Display a list of escape characters.
