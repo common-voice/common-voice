@@ -75,15 +75,15 @@ Do you understand what it means?
 Do you want me to?
 Do you want me?
 Does that suit you?
-Don’t be a fool!
-Don’t worry about me.
-Don’t you like it?
-Don’t you understand me?
+Don't be a fool!
+Don't worry about me.
+Don't you like it?
+Don't you understand me?
 Don't be so silly!
 Don't worry about me.
 Don't you know it?
 Don't you think so?
-For a moment no one spoke.
+For a moment no-one spoke.
 Get out of the way!
 Get out of this!
 Give it to me.
@@ -182,7 +182,7 @@ I don't believe you!
 I don't know that.
 I don't know what to do.
 I don't know yet.
-I don't say that.
+I didn't say that.
 I don't think so.
 I don't understand it.
 I don't understand you.
@@ -219,7 +219,7 @@ I want to see her.
 I wish to see her.
 I wonder what he wants?
 I won't hurt you.
-I’m coming to that.
+I'm coming to that.
 I'm in no hurry.
 I'm sure of it.
 Is anything the matter?
@@ -242,7 +242,7 @@ It was of no use.
 It was too late.
 It was too ridiculous, she told herself.
 It would be useless.
-It’s nothing to me.
+It's nothing to me.
 Just as I thought!
 Just think of it!
 Let us sit down.
@@ -250,7 +250,7 @@ Long live the king!
 May I come in?
 May I see it?
 May I sit down?
-No one paid any attention to him.
+No-one paid any attention to him.
 No, he had not.
 No, not for them.
 No, nothing at all.
@@ -277,7 +277,7 @@ Of course we do.
 Oh dear, oh dear!
 Oh, I beg your pardon!
 Oh, I don't know.
-Oh, I know it!
+Oh, I know!
 Oh, is that all?
 Oh, my dear child!
 Oh, that will be fun!
@@ -286,7 +286,7 @@ Oh, to be sure!
 Oh, what a pity!
 Oh, what is it?
 Oh, you are, eh?
-One can’t be too careful.
+One can't be too careful.
 She could say no more.
 She did not answer.
 She did not know.
@@ -312,10 +312,10 @@ That is quite another matter.
 That is quite true.
 That is the question.
 That is very interesting.
-That is why I am here.
+That is why I'm here.
 That was all right.
 That was the question.
-That’s what it is!
+That's what it is!
 That's the worst of it.
 That's what's the matter.
 The affair was over.
@@ -446,7 +446,7 @@ What else can I do?
 What else could it be?
 What good will that do?
 What good would that do?
-What had happened to them?
+What has happened to them?
 What has become of him?
 What has he done?
 What have I done?
@@ -485,7 +485,7 @@ What shall we do?
 What should he do?
 What should I say?
 What should she tell him?
-What sort of a man was he?
+What sort of man was he?
 What sort of man is he?
 What time is it?
 What time was it?
@@ -502,8 +502,8 @@ What will happen to him?
 What will they think?
 What will you have to drink?
 What would you do?
-What’s his other name?
-What’s to be done?
+What's his other name?
+What's to be done?
 What's it all about?
 What's the matter now?
 What's the matter with me?
@@ -540,7 +540,7 @@ Why don't you say something?
 Why don't you speak?
 Why should you not?
 Why, bless my soul!
-Will no one go?
+Will no-one go?
 Will that suit you?
 Will you breakfast with me?
 Will you come with me?

@@ -24,11 +24,11 @@ It took me most of the day to track you down, it's not like you're listed in the
 I don't have a phone.
 Does this mean you're willing to talk to me?
 Not just that, I have a feeling I'll be helping you track down your wayward researcher as well.
-Perhaps, we could meet at the institute around noon since I have a few things I need to attend to first.
+Perhaps we could meet at the institute around noon since I have a few things I need to attend to first.
 Do you know what he was last working on?
-Not specifically no, he only gave me the gist of his research the one time I spoke to him.
+Not specifically, no, he only gave me the gist of his research the one time I spoke to him.
 Right, well let's poke around his lab a little.
-Perhaps, one of his colleagues can shed a little light.
+Perhaps one of his colleagues can shed a little light.
 I'm afraid I'll have to see your passes, gentlemen.
 Ah, how might one go about getting such a pass?
 I issue all passes.
@@ -46,8 +46,8 @@ They go where the money goes.
 I have been directed to assist you with your enquiries.
 You have a great deal of experience with investigative work then?
 Can you do your babysitting from outside my office?
-Noone is likely to hassle me too seriously in a bar full of people, so why don't you wait out here?
-Whatever you may think I'm not your dog to be left chained to a lamppost.
+No-one is likely to hassle me too seriously in a bar full of people, so why don't you wait out here?
+Whatever you may think, I'm not your dog to be left chained to a lamppost.
 Can I get you a drink?
 Hey, looks like you made a new friend.
 Yeah, one thing cats have going for them is that they don't follow you around so much.
@@ -85,13 +85,13 @@ She'll meet us tonight.
 However did you manage that?
 When was the last time you spoke with him prior to his departure?
 He rarely spoke to me of anything that didn't directly relate to our work.
-Hopefully, you'll think twice before giving me the slip in future.
+Hopefully you'll think twice before giving me the slip in future.
 Do you have any suspicions as to who they might be?
 I suspect this may be someone new making themselves known.
 Might others within your organisation have some inkling as to their desires?
 Get up, we're going shopping.
 I understand that you're going to want to bring the cops in on this, but I can't be here when you do.
-What's your name, and what were you doing here?
+What's your name and what are you doing here?
 And who hired you for this?
 Where did you say this man worked?
 And what other associates did he have?
@@ -100,16 +100,16 @@ She wasn't home, a neighbour said that he didn't think she came in last night.
 You mentioned a reporter earlier?
 Do you have any idea how long he's likely to be?
 Don't worry, I have a feeling I'll be seeing him pretty soon anyway.
-She's low down on our list of concerns at the moment.
+She's low on our list of concerns at the moment.
 I'm not sure it'd be too healthy for you to be around me for a while.
-So, where are we headed next?
+So where are we headed next?
 I don't suppose there's some sort of index to all this?
 Put that back exactly where you found it this instant.
 A pleasure to meet you.
 If possible, we'd like the papers a week before and after each of these dates please.
 Best not to get in her way when she's on the hunt.
 I've got something!
-It would appear your employers aren't the stand up guys you'd taken them for.
+It would appear your employers aren't the stand-up guys you'd taken them for.
 Whoever the rightful owner is we've still got a whole host of missing scientists to account for.
 I'll do my best not to make a mess on the carpet.
 I'm afraid this event is by invitation only, sir.
@@ -132,10 +132,10 @@ The lies people tell can also be revealing.
 Money isn't of interest to me, power is.
 Aren't the two rather intertwined?
 Not when someone else holds the purse strings.
-That was someone else's handy work.
+That was someone else's handiwork.
 You can go, but remember our deal.
 Come after me or one of mine, and that photograph will be everywhere by morning. 
-I'm a reporter not a photographer.
+I'm a reporter, not a photographer.
 Back to our original plan, I think.
 It had crossed my mind.
 I'll be lucky if she even talks to me again.
@@ -210,15 +210,15 @@ Would you quit it with that racket!
 I'm as much a prisoner as you.
 And yet you enjoy a full range of motion.
 I hope to finish a month or two before the term starts and travel around Europe a bit.
-It takes me about 50 minutes to walk to work.
+It takes me about fifty minutes to walk to work.
 It's a nice walk though, with trees and a river and stuff.
 I've been here over a month.
 I don't drink so I wouldn't know.
-A guy who'd been living here 3 years was just moving out.
+A guy who'd been living here three years was just moving out.
 There was a hunger strike going on outside when I was there.
-Wasn't there a command line client for ordering pizza somewhere?
+Wasn't there a command-line client for ordering pizza somewhere?
 We should all go back to living in the trees, much simpler.
-No one near the remote machine you could ring?
+No-one near the remote machine you could ring?
 I get the feeling that's what I probably sound like to Germans.
 I'll stick to bad puns in the future, I think.
 But I don't think they enforced it much.
@@ -249,9 +249,9 @@ They sit on lots of patents for stuff.
 It's a pretty specialized position.
 I like the light tent pictures, too.
 I could easily be wrong, so that's just a guess.
-We now have about 40 staff members in the main German office.
+We now have about forty staff members in the main German office.
 I think you might quite like to see them.
-Beds, beaches, and lawns are good for reading.
+Beds, beaches and lawns are good for reading.
 He'll appreciate your honesty.
 Well, you shouldn't have any trouble then.
 I'm no good at keeping an early rising routine.
@@ -260,7 +260,7 @@ I now have a tan that ends abruptly at my knuckles where they were curled over m
 I sat in on part of a law lecture once.
 I'll take a glance if you like.
 No idea how it compares in terms of speed.
-Doesn't look like that package is still around somewhere.
+Doesn't look like that package is still around.
 I'm just writing code to simulate an omnidirectional camera at the moment.
 I get to test stuff in the robotics lab.
 You can get reasonable at the basics in a few hours.
@@ -269,8 +269,8 @@ The bit between the two car parks?
 It's not something I've ever done.
 Can't remember where he appears now.
 You're not psychotic, you just wish you were?
-I tend to just daydream when I'm not doing anything much.
-I'll see about doing that tonight then since I've managed to get all my work commitments out of the way.
+I tend to just daydream when I'm not doing much.
+I'll see about doing that tonight then, since I've managed to get all my work commitments out of the way.
 The robotics group was talking about trying to snag some geography types to do some sort of collaboration.
 They're trying to get people with vague ideas for projects to come together.
 Okay, that seems fair.
@@ -283,10 +283,10 @@ It's a nice region.
 Not much snow when I was there.
 They're not terribly picky.
 That's not exactly a widely used piece of software.
-I'll be travelling home on Saturday, so probably I won't get anything done then.
+I'll be travelling home on Saturday, so I probably won't get anything done then.
 It shouldn't be displayed on any book pages, or should it?
 Have you tested that and found it not to work?
-Perhaps,  you should just grow sea monkeys.
+Perhaps you should just grow sea monkeys.
 I'm making a robotic guide dog for my dissertation.
 I'll forward you the latest email.
 Quietness is my normal mode when confronted with lots of random new people.
@@ -297,12 +297,12 @@ I sucked at it, but it was much more fun than most normal chess games.
 I did a presentation on silicon chip production and built a proximity sensor for activating garage lights when a car entered.
 The library have the unabridged edition, or at least they did a couple of years ago.
 I'm definitely out of practice actually writing stuff, too.
-I'm liking the sound of this ostrich egg based economy.
+I'm liking the sound of this ostrich egg-based economy.
 I tried so hard to keep myself aloof from your antics.
 Shall I meet you in the concourse then?
 What time will you be heading across?
 I feel like a charlatan using that lift though.
-I'd rather just wait a few extra weeks than spend 40 quid.
+I'd rather just wait a few extra weeks than spend forty quid.
 Take moody black and white photos of people moping in the dark.
 We used to just dismantle and hide our sofa in someone's boot.
 I found one other vegetarian while I was there.
@@ -315,8 +315,8 @@ Quite a nice view of the town from up there, and it's easy to find.
 It's fairly small as hills around here go.
 Otherwise you could hide yourself away in some coffee shop or other for a bit.
 I want to do more neat robot vision stuff.
-Even my research proposal cites about 5 of his papers.
-There seems to be some leniency in when the final submission is needed by.
+Even my research proposal cites about five of his papers.
+There seems to be some leniency in when the final submission is needed.
 I'm not really sure what's involved in that.
 I'm actually planning to try and build a robotics platform around one of those phones.
 Do you want to eat first?
@@ -327,14 +327,14 @@ I think most people tend to dress pretty casually.
 I seem to remember just wearing a t-shirt and jeans.
 I go with a random approach to word order in German.
 They never did that when I visited.
-When I visited everyone had individual interviews.
+When I visited, everyone had individual interviews.
 I think it was pretty soon after getting back from Belgium.
 I think I might have gotten a bit bored on that project.
 I don't mind having a stab at it this evening if you remind me.
 Where can I apply for the job of a millionaire?
-Everyone else is smarter than me, and there's only 12 positions across the whole uni.
+Everyone else is smarter than me, and there's only twelve positions across the whole uni.
 Well, this is a pretty long shot, but why the heck not? 
-Yeah, I'll look in to it.
+Yeah, I'll look into it.
 I thought they navigated based on pheromone trails or something, but apparently not.
 I want something that magically transcribes music.
 I have no idea what complexity science is.
@@ -351,7 +351,7 @@ It's a nice place to walk around if you decide to go over there.
 Everything authenticates with the main password now.
 You guys should try starting small.
 I won't be back until next Sunday.
-Perhaps, I didn't fill in the right paperwork.
+Perhaps I didn't fill out the right paperwork.
 Couple of small bugs, but it gets from one place to another.
 There's just one last bug I'd like to fix before I head home.
 I was wondering about making an out-takes reel or something.

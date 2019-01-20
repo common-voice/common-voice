@@ -1,4 +1,4 @@
-Doing a handstand needs a lot of practice to learn.
+Doing a handstand needs a lot of practice.
 Astronomy might be complicated, but it's not rocket science.
 Potatoes are less space-saving, durable and cheap than pasta.
 Eggs, milk and flour are the main ingredients of pancakes.
@@ -14,10 +14,10 @@ He voyaged on a ship called The Beagle.
 Java is not only an island, but also a popular programming language.
 Many programming languages are named after real people.
 Java is not the same as JavaScript.
-Embedded scripts from external sources can harm the users privacy.
+Embedded scripts from external sources can harm the user's privacy.
 Advertisements are rarely hosted by the same web server as the actual content.
 Using script blockers is generally a good idea, but it requires the user to learn a bit.
-Nobody is born as a hero but everyone can become a hero.
+Nobody is born a hero but everyone can become a hero.
 When you find a bug in software, please report it.
 Before creating a new topic, please use the search function to find similar threads.
 Always be constructive when you criticize others.
@@ -29,9 +29,9 @@ For users it is important that they can trust their operating system.
 Opening the source code can be a measure to create trust in software.
 Not everyone is able to read source code.
 Even if you're an expert, reading all of it is often not feasible due to lack of time.
-The package has been flagged as outdated.
-In general, people have difficulties estimating risks correctly.
-In Europe many people are afraid of terrorism although getting killed in a car accident is much more likely.
+The package was flagged as outdated.
+In general, people have difficulty estimating risk correctly.
+In Europe many people are afraid of terrorism, even though getting killed in a car accident is much more likely.
 Thousands of people die every year as a consequence of air pollution.
 It's always nice if you can learn something new, isn't it?
 Nostalgia isn't what it used to be.
@@ -46,7 +46,7 @@ Think about that.
 Thank you for reading this out loud.
 You're doing a great job so far.
 Yeah, I'm talking to you.
-The servers of the common voice project couldn't handle the heavy load.
+The servers of the Common Voice project couldn't handle the heavy load.
 Mind the gap.
 Don't trust the smiling penguin.
 Tux is not smiling, he just looks nice all the time.
@@ -83,26 +83,26 @@ This behavior of neural networks is sometimes called dreaming.
 The human brain is still not fully understood.
 Voyager One has left our solar system.
 Some people make the same mistakes over and over again.
-There is no universal definition of intelligence, but everyone agrees that the ability of learning belongs to it.
+There is no universal definition of intelligence, but everyone agrees that the ability to learn belongs to it.
 Scientific work is hard.
-The road was so steep that the biker had to shift down a few gears.
+The hill was so steep that the biker had to shift down a few gears.
 It's a pity most people do not know what gearshifts are good for.
 Don't forget to brush your teeth in the morning.
 The light-year is a unit of distance, not of time.
 "This is a common misconception", Sheldon said.
 The term "just my two cents" is about opinion, not about money.
-Sticks and stones will break my bones but what doesn't kill me makes me strong.
+Sticks and stones will break my bones but what doesn't kill me makes me stronger.
 Chess is a simulation of war.
 Classification is, among other things, a discipline of machine learning.
 Parachuting is dangerous.
-There is a counter on the top left of the web page.
-The moon is responsible for tides on earth.
-The international space station is an awesome project.
-The global positioning system works with triangulation.
-In nineteen-sixty-nine the first man set foot on the moon's surface.
+There is a counter at the top of the web page.
+The moon is responsible for tides on Earth.
+The International Space Station is an awesome project.
+The Global Positioning System works with triangulation.
+In nineteen-sixty-nine the first man set foot onto the moon's surface.
 He bought some tinfoil to build a hat.
 I have the most beautiful voice you have ever heard.
-What he did was definitively illegal.
+What he did was definitely illegal.
 She was beautiful from behind, but he couldn't see her face yet.
 She was accused of making wrong accusations.
 "Before you go, I want to hug you", she said.
@@ -123,8 +123,8 @@ There is not even the possibility of doing that.
 The file had a size of multiple gigabytes.
 His Internet connection was too slow.
 He got jailed for no reason.
-The church is right next to the gas station.
-The weather forecast for this week didn't look good at all.
+The church was right next to the gas station.
+The weather forecast this week didn't look good at all.
 She couldn't decide which dress to wear.
 The chair lift took them up the mountain.
 To calibrate the motion capture system, please do a T-pose.
@@ -139,23 +139,23 @@ He offered the kids some ice-cream.
 The cake is a lie.
 The restaurant was quite expensive.
 The library is open to everyone.
-He felt unsafe like during his first lesson in driving school.
-She learned how to play the piano in music school.
+He felt unsafe, like during his first lesson in driving school.
+She learned to play the piano in music school.
 Visiting a university offers great chances for your career.
 James Watt didn't invent the steam engine, but he improved it significantly.
 After the accident, his bicycle had to be repaired.
 The car however was not damaged.
 The emergency team came quickly.
-The least you can do is call Nine-One-One.
+The least you can do is call nine-one-one.
 They rented a boat and went down the river.
-When she called her friend for help with her computer, she repeatedly emphasized, that she hadn't done anything.
+When she called her friend for help with her computer, she repeatedly emphasized that she hadn't done anything.
 He nodded and said nothing.
 Only a few meters away there is a bus station.
 Improving the public transport system would help avoid traffic jams.
 Taking the ferry was a wise choice.
 There are four different sorts of fuel at this gas station.
-Diesel is the cheapest one, because of lower taxes.
 His speech ended with a standing ovation.
+Diesel is the cheapest one, due to lower taxes.
 The motorcycle made a loud noise.
 This parking space is for customers only.
 Don't worry, I took a cab to get home safely.
@@ -163,9 +163,9 @@ The teller didn't have enough change.
 Plastic surgery has become more popular.
 There is a dentist and some other doctors inside this clinic.
 When he was in hospital, the nurse took an x-ray photograph of his arm.
-It was easy to see on the radiogram, that his bones were broken.
+It was easy to see on the radiogram that his bones were broken.
 She went to the pharmacy to get her pills.
-Taking part in road traffic is potentially dangerous after donating blood.
+Driving a car is potentially dangerous after donating blood.
 Emoticons are familiar to everyone nowadays.
 There is a social facility on the other side of the road.
 He lost a lot of money through gambling in the casino.
@@ -184,23 +184,23 @@ The agent secretly entered the embassy from the roof.
 The ladder on the fire truck was not long enough.
 How could this happen?
 Linus is known for his clear and explicit language.
-Policemen are investigating in this case.
+Policemen are investigating this case.
 Divers found a body in the lake.
-To measure the performance accurately we need a benchmark.
-Many soldiers of world war two have never been buried on a grave yard.
-He went to gym to strengthen his muscles.
+To measure performance accurately we need a benchmark.
+Many soldiers of World War Two have never been buried in a graveyard.
+He went to the gym to strengthen his muscles.
 Please do not feed the ducks!
 I'm not hungry, I'm starving.
 Peer-to-peer networks are more robust than client-server architectures.
-She bought cucumbers at the marketplace.
-The European Union has often been criticized for their regulations.
+She bought cucumbers at the market.
+The European Union has often been criticized for its regulations.
 You will need some rubber boots.
 Although everything should be under the state's control, there is a lot of violence in prisons.
 Surveillance does not always bring security.
 Smoking is prohibited.
 The mountain rescue team gave up its work.
-She couldn't decide whether to take a shower or to have a bath.
-Only one third of the rubbish is being recycled in this country.
+She couldn't decide whether to take a shower or have a bath.
+Only a third of the rubbish is being recycled in this country.
 Too much food is being wasted.
 Firewalls can be used to protect a network against intruders.
 There was a round table in the middle of the room.
@@ -208,7 +208,7 @@ The telephone didn't work without electricity.
 He went to the vending machine and bought a coffee.
 She couldn't find a waste basket.
 She could not manage to climb over the fence.
-One of the town's landmarks is the city-wall.
+One of the town's landmarks was the city wall.
 Even the guard rail couldn't stop the truck from falling off the bridge.
 The government decided to focus on border control because of the refugees.
 The chain rule is applied twice to this formula.
@@ -225,8 +225,8 @@ Forty-two is not a random number.
 Lifeguards were standing on a tower, staring at the water.
 Some of them had binoculars.
 Oxygen is important for us, but some bacteria don't need it at all.
-The phone call got interrupted for unknown reasons.
-He was not able to find the words for his feelings.
+The phone call was interrupted for unknown reasons.
+He was not able to find words for his feelings.
 The motorway is not the fastest connection between Hamburg and Munich.
 Pedestrians were standing on a sidewalk paved with cobblestone.
 Everyone has heard of the chicken and egg problem.
@@ -242,7 +242,7 @@ Form follows function.
 Laser tag is a game quite similar to paintball.
 Although searching in binary search trees is efficient, you won't find any fruit in there.
 Salmon is one of the most popular fish and very delicious, though usually not sustainable.
-A group of people, one of them with a guitar, were sitting by the campfire and singing songs.
+A group of people, one with a guitar, were sitting by the campfire and singing songs.
 Golf stands for the letter G in the NATO phonetic alphabet.
 Compiling the Linux kernel can be time consuming.
 Good playgrounds have much more to offer than swings and slides.
@@ -259,7 +259,7 @@ The Tropic of Capricorn is in the Southern Hemisphere.
 Everyone should have health insurance.
 Debian is an operating system which is free as in freedom.
 Football is often confused with soccer.
-Accidents in nuclear power plants are potentially catastrophic.
+Accidents at nuclear power plants are potentially catastrophic.
 Cables need insulation to prevent short circuits.
 Portals are used in many computer games to instantly travel from one place to another.
 Burning fridges, televisions and washing machines are not as unusual as one might think.
@@ -267,24 +267,24 @@ Inline skates are like ice skates, but with wheels instead of blades.
 All beverages in this shop are alcohol free.
 A famous company from Sweden sells furniture in many countries of the world.
 When I have read a million of these sentences, I am going to apply as a professional narrator.
-Without questioning he said what the screen of his computer dictated to him.
+Without questioning, he repeated what his computer screen dictated to him.
 Asymmetric cryptography uses pairs of keys.
-They are called private and public key.
-One key is for encryption, the other one for decryption.
+They are called private and public keys.
+One key is for encryption, the other for decryption.
 Given only the public key, it is very hard to compute the private one.
 Besides encryption, it can also be used for authentication.
-The process of encrypting the hash value of a message is called digital signature.
+The process of encrypting the hash value of a message is called a digital signature.
 Hash functions are one-way functions with a number of mathematical requirements.
 Strong cryptography can prevent a man in the middle from reading a conversation.
-The green lock in the address bar of your browser does NOT mean you can trust the site.
+The green lock in the address bar of your browser does not mean you can trust the site.
 The system with certificate authorities has some serious issues.
 In symmetric cryptography the same key is used for encryption and decryption.
 Symmetric algorithms tend to be faster than asymmetric ones.
 Strong passwords don't have to be hard to remember.
-The world wide web is not the same as the Internet.
+The World Wide Web is not the same as the Internet.
 The Google search bar is for searching, not for typing URLs!
-If you don't know any alternative search engines, just google them.
-You can create bookmarks in you web browser to make browsing more convenient.
+If you don't know any alternative search engines, just Google them.
+You can create bookmarks in your web browser to make browsing more convenient.
 Local solutions should be preferred to cloud solutions in many cases.
 From a technical point of view, the MP-Three-standard is completely outdated and yet it's still very successful.
 His girlfriend always has cold feet in the morning.
@@ -297,7 +297,7 @@ Honest Ahmed did not convince the developers.
 There might be secret messages in this text.
 This text aims to include a diverse set of vocabulary.
 Sports, music, cooking and other topics are covered.
-She walked across the street wearing stereo headphones and staring at her smartphone.
+She walked across the street wearing headphones and staring at her smartphone.
 Luckily there was a zebra crossing.
 The high humidity is making me sweat.
 Take a sponge, some washing up liquid and a towel, then get to work!
@@ -308,10 +308,10 @@ Considering the growth of human population, insects might be the food of the fut
 I didn't find the blow-dryer, so I just used the vacuum-cleaner.
 Is that okay?
 Dirt and dust everywhere, give me the broom!
-After an avalanche buried the skiing resort, it was hard to determine its exact location.
-A drilling machine is used to fixate the ice hockey goal.
+After an avalanche buried the ski resort, it was hard to determine its location.
+A drilling machine is used to fix the ice hockey goal in place.
 Both elephants and monkeys have a capable memory.
-It was such a thrill, her veins were pumped full of adrenaline.
+It was such a thrill, her veins were full of adrenaline.
 He decided to boycott games with digital restriction management in the future.
 Please never throw salami pizza away.
 The movie's epic soundtrack uses classical elements mixed with parts of rock and synthetic bass.
@@ -321,14 +321,14 @@ Many teens make videos these days, inspired by their role models.
 Sausages, croquettes and broccoli are our meal in the canteen today.
 Without understanding the actual physics, some animals exploit total internal reflection for catching fish.
 That rap music with its loud electronic beats is called hip-hop.
-Many of the reviews in this app-store are faked by bots to manipulate the ranking.
+Many of the reviews in this app store are faked by bots to manipulate the ranking.
 The police insisted on confiscating even the printer for forensic analysis.
 The referee decided on a free kick instead of a penalty kick.
 After that foul, the whole stadium was yelling angry things.
 When the game is still undecided after sixty minutes, overtime begins.
-From its unique gesture it was clear, that the rhino was hostile.
-When he kissed her cheek, she suddenly blushed, changing her color faster than a chameleon.
-To save fuel, the Ariane rocket has been launched not far from the equator.
+From its unique gesture it was clear that the rhino was hostile.
+When he kissed her cheek, she suddenly blushed, changing color faster than a chameleon.
+To save fuel, the Ariane rocket launched close to the equator.
 Birds feed their offspring with spiders, worms, slugs and bugs.
 Don't press the red button!
 Induction hobs do not work by thermal radiation.
@@ -345,7 +345,7 @@ Pork cutlet is also very tasty, but our religion does not allow us to eat it.
 Pull this lever to activate the piston.
 The TNT blows up the granite, forming a tunnel to the coal and iron ore.
 I took planks of birch wood and crafted a bookshelf.
-The biology students had lots of homework to do until the next lecture.
+The biology students had lots of homework to do before the next lecture.
 The ranger took his rifle and went into the forest to shoot the bear.
 Kidneys are transplanted often, because every healthy person has two of them.
 The waitress was carrying an impressive amount of dinnerware, but then an earthquake occurred and she dropped it all.
@@ -355,7 +355,7 @@ The volcano eruption itself was a catastrophe, but the ash is an excellent ferti
 Mission accomplished!
 Compared to other countries in the world, Japan has a very low birth rate.
 Tourists in socks and sandals look hilarious.
-Happy hardcore is a fast style of techno music, that was kind of popular in the nineties.
+Happy hardcore is a fast style of techno music that was kind of popular in the nineties.
 If I had the choice between honey and jam, I would choose the latter.
 The plural of mouse is mice.
 These scissors can cut metal.
@@ -364,12 +364,12 @@ The ingenious physicist rubbed his nose and scratched his chin.
 Mosquitoes are annoying in the summer and can even transmit illnesses.
 The company's stock value increased dramatically after they found a new medicine.
 The existence of gravitational waves had long been predicted.
-After the fuse melted, the room was enlightened only by a candle.
+After the fuse melted, the room was lit only by a candle.
 The illumination created a cozy atmosphere.
-A flickering shadow was projected onto the walls and the ceiling.
-When the carpet and the curtains caught fire, it was getting warm.
+A flickering shadow was projected onto the walls and ceiling.
+When the carpet and curtains caught fire, it was getting warm.
 The percentage of carbon dioxide in the air reached an extraordinary level.
-The guests of the party decided to go on the balcony.
+The guests at the party decided to go onto the balcony.
 A thunderstorm was raging outside and they all got a cold.
 The owner of the dwelling was not amused.
 He recorded everything with his camcorder to have a watertight proof.
@@ -379,7 +379,7 @@ Only a minority of literature is written this way.
 Drinking and driving is irresponsible.
 Archaeologists recently found the skeleton of a dinosaur in Mexico.
 The manufacturer called this helicopter "tiger".
-Volleyball is almost equally popular in both genders.
+Volleyball is almost equally popular with both genders.
 Enemy spotted!
 Witnesses report two armed suspects and four hostages.
 A predator drone equipped with multiple cruise missiles lifted off.
@@ -391,7 +391,7 @@ Neither the radar nor the other instruments detected the stealth bomber.
 Flash grenades explode with a loud bang and cause disorientation.
 Two victims immediately need medical attention.
 Roger, the backup team is on the way.
-The bootloader shows a dialog prompting to enter the passphrase.
+The bootloader shows a dialog prompting you to enter the passphrase.
 Viral marketing is a buzzword used frequently by economists.
 Six thousand people have been infected since the outbreak of the virus.
 A content delivery network is necessary.
@@ -406,8 +406,8 @@ It made a clicking sound when the officer tightened the handcuffs.
 Smoking cigarettes during pregnancy increases the risk of the baby also becoming addicted one day.
 He was squatting in a corner doing yoga.
 A directed graph consists of nodes and edges.
-The seventeen-year-old girl gently pushed his hand away as he touched her belly.
-These figures of wax look creepy.
+The girl gently pushed his hand away as he touched her belly.
+These wax figures look creepy.
 The primary coil has fifty turns.
 Do you think your boyfriend is cheating on you?
 No, he's loyal.
@@ -424,30 +424,30 @@ After a tragic accident with a chainsaw he has become a paraplegic.
 Hey, I bought pineapple juice with no sugar added.
 In the discotheque, the DJ played progressive house music and trance.
 Her mixing console had an old-fashioned but still cool vinyl player.
-The wizard knew plenty conjuring tricks and enchanted his audience.
+The wizard knew plenty of conjuring tricks and enchanted his audience.
 A gorilla had stepped into the trap and was now transported to the zoo.
-With bow and arrow the veterinarian shot a needle that deafened the cheetah.
+With bow and arrow the veterinarian shot a needle that subdued the cheetah.
 After lurking for a minute, the crocodile quickly sprang toward the young hippopotamus and ate it.
 Giraffes are vegetarians.
 May I borrow some of your cartoons?
 They were playing ping-pong to the rhythm of punk rock.
-To forget his fear of flying, he imagined how the stewardess would look like in a bikini.
+To forget his fear of flying, he imagined how the stewardess would look in a bikini.
 A hedgehog was collecting brown leaves.
 A group of dolphins came and protected us from the sharks.
 When you're at a party and somebody says "banana bread", a sniper might be near you.
 St. Nicholas brought goodies and tangerines.
 According to the calendar it was September.
 Remember, remember, the fifth of November!
-"I have clearly been discriminated because of my sex", the feminist complained.
+"I have clearly been discriminated against because of my sex", she complained.
 She's the best parkour runner I know.
 That's comparing apples and oranges.
 According to the recipe, we need mild mustard.
-Guards are patrolling around the perimeter of the base.
-Onion routing is a technique of using cascades of proxies for the purpose of anonymisation.
+Guards are patrolling the perimeter of the base.
+Onion routing is the technique of using cascades of proxies for the purpose of anonymisation.
 The Internet of uncontrolled things brought us a distributed denial of service attack once again.
 The visual acuity is astonishing.
 Your behavior is embarrassing; go learn the art of social intercourse!
-An LED was indicating the proximity detector was working properly.
+An LED indicated the proximity detector was working properly.
 As an approximation, we use a multivariate Gaussian distribution.
 Backface culling is a common trick to accelerate Three-D rendering.
 Owls are always intellectual in fairy-tales.
@@ -467,30 +467,30 @@ An unknown perpetrator threatened two men from Syria with a pistol.
 "Surrender is not an option", the mercenary asserted.
 No mercy for cop killers!
 Curly brackets are hard to type.
-People living in the so-called bible belt have more conservative opinions than inhabitants of California.
+People living in the so-called Bible Belt have more conservative opinions than inhabitants of California.
 Reindeer and antelopes are missing in your taxonomy of animals.
 The director has a crush on the actress, I think.
-Using the debugger, he found out that there was a buffer overflow.
-Better use heat resistant gloves when you take the bricks out of the furnace.
+Using the debugger, he found out there was a buffer overflow.
+Better use heat-resistant gloves when you take the bricks out of the furnace.
 Bullying is still a problem in our society.
-Nonverbal communication is sometimes more meaningful than the spoken words.
+Nonverbal communication is sometimes more meaningful than spoken words.
 The patriotic veteran returned to the United States.
 After playing tennis in virtual reality, he felt dizzy.
 The Panama Canal connects the Pacific Ocean with the Atlantic Ocean.
-We were sitting in the VIP lounge of the theater, when the drama reached its climax.
-Flaring torches were filling the dungeon with an ambient noise.
+We were sitting in the VIP lounge of the theater when the drama reached its climax.
+Flaring torches were filling the dungeon with ambient noise.
 Our galaxy, the Milky Way, apparently contains dark matter.
 The trade union was negotiating higher loans with the other stakeholders.
 Her blouse consists of ninety-five percent cotton and five percent polyester.
-Some tin and a soldering iron are laying on the workbench.
+Some tin and a soldering iron lie on the workbench.
 Made in Taiwan.
-In Nuremberg the subway trains are driving autonomously.
+In Nuremberg the subway trains drive autonomously.
 Motion parallax is a monocular depth cue.
 The prolific developer contributed more than a thousand commits until today.
 Prefetching is used to avoid cache misses.
-The principal recruited various graduates by offering high rewards.
+The principal recruited graduates by offering high rewards.
 Our generator has been disrupted by ultra high frequency waves.
-I told you homeboy, smuggling is being prosecuted.
+I told you, homeboy, smuggling is being prosecuted.
 The boy was cuddling with his fluffy teddy bear.
 We can describe the object's movement with a differential equation of second order.
 Would you sacrifice the life of a human if this would save many other lives?
@@ -526,14 +526,14 @@ There has been a robbery at the burger shop in downtown.
 Phosphorus is not a semiconductor.
 No offense, but your agility leaves a lot to be desired.
 Open a terminal and execute a program.
-Experts of geology agree: Yesterday's tsunami was just a herald of the imminent apocalypse.
+Experts of geology agree: yesterday's tsunami was just a herald of the imminent apocalypse.
 My grippers are made of stainless steel.
 All hoses are connected to the defective hub.
 I like crepes with nougat.
 After the disclosure of the doping scandal the winner was deprived of the gold medal.
 This path is designated for agricultural vehicles.
 At the research institute they have an electron microscope.
-The actor's authentic facial expression was convincing the jury.
+The actor's authentic facial expression convinced the jury.
 Darth Vader could barely breathe under his mask.
 We visited a concert in the famous opera house in Sydney.
 What do you associate with Iceland?
@@ -553,12 +553,12 @@ Extract the relevant data and see if it matches our statistics.
 The heuristic function is just an estimate of the lag.
 Strawberry curd, yummy!
 The old lady took her napkin to wipe the drool.
-I found an online tutorial how to use Vulkan and OpenGL.
+I found an online tutorial on how to use Vulkan and OpenGL.
 Modifying the assets would be a copyright violation.
 First she was moaning, then coughing and eventually her ventilation collapsed.
 Our guide told us stories of Scandinavian mythology in a Welsh accent.
 I always have to sneeze after eating grapes.
-His old Ferrari has been compacted to a small cube of metal at the junkyard.
+His old Ferrari was compacted to a small cube of metal at the junkyard.
 To cut to the chase, the harvest was really bad.
 Sorry, the test period expired.
 With clenched fist, he hit the table.
@@ -568,7 +568,7 @@ Insert your card to identify yourself.
 This wimble is hardened with vanadium.
 The discrete cosine transform is applied to blocks of eight by eight pixels.
 Many people are traumatized after this sailing accident and need intensive care.
-She looked skeptical when leaning against the wall, observing the celebrities.
+She looked skeptical while leaning against the wall, observing the celebrities.
 Nothing is as elastic as the silk of a spider.
 Why can't I skip this damn intro?
 It's critical to keep traction on the asphalt.
@@ -581,15 +581,15 @@ It would be ideal if the WiFi were gratis.
 Holy moly, you were fast on the zip line!
 Access denied.
 In his youth my dad was a hooligan.
-As a workaround, we could use application specific profiles.
+As a workaround, we could use application-specific profiles.
 Pay and spray, stay and pray, play and sway, what did you say?
 Don't you dare switch away, I think rhymes are okay, since they never decay, I could do this all day.
 Two caribous in a queue, they didn't have a clue, that I was using their flue, to write a poem for you.
 We subdivide the domain space using an octree.
 We should segregate the participants by age.
-Don't be more catholic than the pope.
+Don't be more Catholic than the Pope.
 I generally like jazz, but this record is oversteered – thanks loudness war!
-According to the predominant notion in the Vatican, condoms shouldn't be used in spite of HIV.
+According to the predominant notion in the Vatican, condoms shouldn't be used despite HIV.
 You will get donuts as a bonus if you take a selfie with me.
 Their application for asylum has been accepted, since they're victims of political persecution.
 There is convection in the magma chamber.
@@ -631,7 +631,7 @@ He didn't seduce her with his words but with subliminal messages, that's the tri
 Neutralize all the enemies behind the barricades with your taser.
 I have a confession to make.
 Philosophy is my favorite subject.
-Those gangsters get what they deserve.
+Those gangsters got what they deserved.
 When doing reinforcement learning, we have to find a suitable trade-off between exploration and exploitation.
 The aerodynamic shape of whales is nifty.
 The yield is essentially zero.
@@ -648,7 +648,7 @@ The Asperger syndrome is a form of autism.
 The dictator was radical in his ideology.
 She was jealous of the girl with polish on her nails and a handsome guy at her side.
 Drinking too much coke can cause diabetes.
-Give me precise instructions how to decontaminate the trooper.
+Give me precise instructions on how to decontaminate the trooper.
 This one's dedicated to the ghetto where I come from.
 Any volunteers?
 With her index finger, the little girl pointed to her mum.
@@ -669,9 +669,9 @@ I didn't read what's in parentheses due to laziness.
 Yesterday he felt invincible, now he has a hangover.
 To my satisfaction, I have been mentioned in the credits for my proficiency.
 Unfortunately, nobody can warrant that the sanctions will have an effect on the community.
-This sapling will once become a giant oak tree.
+This sapling will one day become a giant oak tree.
 Amen.
-The millennium edition of the album contains multiple remixes and the lyrics.
+The millennium edition of the album contains multiple remixes and new lyrics.
 Use the factory pattern and an iterator to step through the array.
 The group from Belgium plans to go hiking on Wednesday.
 In my fantasy I can guarantee harmony for all eternity.
@@ -683,25 +683,25 @@ Take that can from the shelter and spray some graffiti.
 I can see what happens backstage through this aperture!
 Watching the parody was great entertainment.
 The experience in the coffin was literally immersive.
-I felt like being in paradise.
+It felt like being in paradise.
 We crumble the bowl with a rasp until only fractions are left.
 Just align your car orthogonal to the parking lot.
 Pull the hook to toggle the jukebox.
 If you still don't know what recursion is, read this sentence again.
 They have prejudices against foreigners.
-No wonder this vanilla yogurt tastes disgusting: Its eat-by date was last year.
+No wonder this vanilla yogurt tastes disgusting: its eat-by date was last year.
 That's a sophisticated mechanical system!
 We want to disperse the core from the hull.
 Sentences are built of nouns, verbs and sometimes adjectives.
 To find out the exact threshold, we need to repeat this in a reproducible manner.
-Please stop the recording by pressing the button again, when you have finished reading this sentence.
+Please stop the recording by pressing the button again when you have finished reading this sentence.
 You can verify and re-record your own recordings before submitting them.
 It takes two to tango.
 Lima is the capital of Peru.
 Oscar is dancing foxtrot together with Clara.
-In colloquial language the term Yankee is used for U.S. citizens.
+In colloquial language the term Yankee is used to refer to Americans.
 "Bravo!", Charlie applauded.
-Romeo and Juliet might be the most famous act of William Shakespeare.
+Romeo and Juliet might be the most famous play of William Shakespeare.
 Many mountain ranges on earth are named Sierra Nevada.
 For example, Colombia, Chile, Argentina and Venezuela.
 Many languages are spoken in Tanzania, one of them is Zulu.
@@ -728,7 +728,7 @@ Context is needed.
 Also, will numbers be written as digits or as words?
 Shawty, you look jaw-dropping in that jersey.
 The grim reaper is waiting for you, reckless driver!
-They found all sorts of drugs at Howard's house: Cocaine, meth, heroine...
+They found all sorts of drugs at Howard's house: cocaine, meth, heroin...
 Undefined reference to 'swizzle'.
 Undeclared identifier 'jitter'.
 The transaction is still pending.
@@ -775,7 +775,7 @@ The carpenter offered me a discount of twenty percent.
 Presumably Ryan never did any sanity checks.
 The hormone oxytocin is released when a mother breastfeeds her baby.
 Have you ever heard the national anthem of South Korea?
-If you tackled these outliers that would reduce the artifacts.
+If you tackled these outliers, that would reduce the artifacts.
 After experiencing a mind-blowing sensual orgy, Mike was sure he had taken an overdose.
 Marek is so shortsighted, he can't identify faces from a distance of ten meters.
 Lily is just as nearsighted as him.
@@ -806,12 +806,12 @@ Her low self-esteem is pathetic.
 Henry is sitting in the bathtub.
 Philip was standing on the levee watching the waves roll off the rocks and the splashes of spume.
 Zora, can you teach me how to yodel?
-The legend has it that two slaves were hoping for the pharaoh to grant them amnesty.
+Legend has it that two slaves were hoping for the pharaoh to grant them amnesty.
 This looks like a viable infrastructure to me.
 Samuel wrote in his testament that his grandchildren should inherit all his money.
 He's an idol, but he's not a saint.
 Hamilton quaternions can be used to replace many matrices, but not to represent view frustums.
-Toby said, he's gonna sue his ex-wife.
+Toby said he's gonna sue his ex-wife.
 The Islamic law is called shariah.
 Theodore explained to us what a convolution filter is.
 Kathleen loves to dress up like a princess.
@@ -825,30 +825,30 @@ We can constrain the amplitude so that the signal gets clipped.
 There are too many obstacles for the robot to find its way.
 This coat is fur-lined.
 I recommend using a spell checker to avoid such typos henceforth.
-The scene begins with a closeup to Paula's face.
+The scene begins with a closeup on Paula's face.
 Mr Lincoln is my mentor.
 Hooray, we're going to Alaska!
 Well, the merry-go-round wasn't exactly spectacular.
-Contrary to common belief, children won't gain computer literacy, if you just hand them tablet computers and smartphones.
+Contrary to common belief, children won't gain computer literacy if you just hand them tablet computers and smartphones.
 Marc, would you please give me the fly swatter?
 Strip down the rig until you know exactly where the error is located.
 I've wrenched my ankle.
 One can craft amazingly strong permanent magnets from neodymium.
-Opus is a state-of-the-art loyalty-free audio codec for both speech and music.
+Opus is a state-of-the-art royalty-free audio codec for both speech and music.
 Are they twins or just normal siblings?
 Paraguay shares a border with Bolivia, while Uruguay does not.
 I wrote my bachelor thesis with latex.
 The bartender went to the keypad to unlock the entrance to the cellar storeroom.
 Let's spawn next to the monument and wait for the rest of our squad.
 The lorry driver yawned and decided to head for the next motel.
-Thinking of him or his accomplice alone gives me goose bumps.
+Thinking of him or his accomplice alone gives me goosebumps.
 Those guys are hard to bust since their clan supports them with excellent advocates.
 May I escort you to the garage?
 I had to teach my nephew the facts of life, because his parents are prudes.
 The apiarist told us a story about birds and bees.
 By increasing the salinity of the water, we alter its dew point.
 Ladies and gentlemen, this wagon is going to be detached.
-Natalie gave me a pleasing massage, when we were in Luxembourg last week.
+Natalie gave me a pleasing massage when we were in Luxembourg last week.
 You're faltering.
 I'm feeling a little tipsy.
 Let's hope you don't have to vomit.
@@ -862,7 +862,7 @@ Nora finds herself ugly, because she has pimples.
 How is the climate in Jamaica?
 "That homicide case is giving me headaches", the police officer said.
 Ironically, you just gave me the perfect alibi.
-Luckily, the dagger couldn't penetrate the bullet proof vest.
+Luckily, the dagger couldn't penetrate the bulletproof vest.
 Slovakia has common borders with Ukraine, Hungary, Poland and the Czech Republic.
 The tenement agency deems me unreliable due to my debts.
 How can we obtain a priori knowledge for each individual?
@@ -875,13 +875,13 @@ The brake pedal was vibrating as the anti-skid system intervened.
 There is mildew on the facade.
 The pubic bone is part of the pelvis.
 Compare the checksum to verify its integrity.
-"Sue is short and pregnant", the father-to-be stated, thinking of a name for his future daughter.
+"Sue is short and pregnant", the father-to-be stated, while thinking of a name for his future daughter.
 "Still a better love story than Twilight", he commented on the porn movie.
 Pretty please with a cherry on top!
 Why are gully covers round?
 Please make sure your recordings are not cut off.
 Thanks to the exhaust turbo charger, we could double the engine torque.
-Sally was shrieking when she heard the horn of the cement-mixer behind her.
+Sally shrieked when she heard the horn of the cement-mixer behind her.
 An excavator left the quarry with coarse gravel in its shovel.
 There are multiple subduction zones in Indonesia.
 "Prepare for detonation", he announced and started the countdown.
@@ -901,12 +901,12 @@ The barrel is greasy from the oil.
 Emily wants to get her hair bleached.
 A thick ice crust made it impossible to pull the anchor.
 I'm not so much into anatomy, where's the bladder again?
-A ritzy limousine was driving along the fifth avenue.
+A ritzy limousine was driving along Fifth Avenue.
 Keep in mind that the denominator is positive.
 Mario went to the CD player and pressed shuffle.
 My empire reaches from the ocean in the East to the mountain ridge in the West.
 Have you seen my USB dongle?
-I think this font fits well to the overall theme.
+I think this font fits well with the overall theme.
 Just pick up a first aid kit to restore your health.
 Is it actually unusual for a planet that its axis is tilted?
 Those people are kick-ass samba dancers!
@@ -939,7 +939,7 @@ After I had finished the first batch of papers, I was getting into the workflow.
 The girl wore glossy pantyhose.
 She didn't like the trend of nylon stockings.
 The attack on our root server overstrained our senior administrator.
-Marta curry favored with her teacher to get better grades.
+Marta curried favor with her teacher to get better grades.
 Vivian's trying to fine-tune some parameters to maximize the magnitude.
 Nina wants to fry tofu because it's vegan.
 Your rusty bicycle chain could use some lube.
@@ -949,15 +949,15 @@ Let's deploy chirp modulation.
 The train conductor nabbed a woman who had dodged the fare.
 Apparently, most of the sentences have been written by nerds and scientists.
 The more you read, the better you will be understood.
-I can reassure you, that we won't retreat until the peace is secured.
+I can reassure you that we won't retreat until the peace is secured.
 Nobody's intending to build a wall.
 The toll bridges scan all license plates.
 The C++ framework Qt is pronounced like "cute".
 Those egoistic businessmen always consider themselves important, just because they wear a cravat.
-A good thing about English is, that you don't have to memorize whether things are feminine or masculine.
+A good thing about English is that you don't have to memorize whether things are feminine or masculine.
 Edgar is a geek.
 The psychopath often has hallucinations.
-Policemen consider the mafia responsible for the massacre.
+The police consider the mafia responsible for the massacre.
 I can't find the ruler in my pencil case.
 Tara tried to deescalate.
 Today the committee implicitly decided to extend the arsenal.
@@ -965,12 +965,12 @@ Constable Beaver was leaning over the balustrade and observing the happenings ar
 I leased ten hectares of land and it turned out that it was barren.
 We found out this switch is a dummy.
 Touchscreens do not provide haptic feedback.
-I guess, it's a never-ending story.
-I really like the instrumental part, but the vocals are rude.
-The majority always claims to be pacifist, BUT ...
+I guess it's a never-ending story.
+I really like the instrumental part but the vocals are rude.
+The majority always claims to be pacifist, but...
 A firmware update is available.
 I think the party was an amusement for most of the guests, but Mirco felt really out of place.
-Does the new splinter cell game come with a multiplayer mode?
+Does the new Splinter Cell game come with a multiplayer mode?
 He always stutters when he's nervous, that's why he delegated the speech.
 A drunk man's talk is a sober man's thought.
 What a bummer!
@@ -986,13 +986,13 @@ I'd propose a dictionary attack instead of brute force.
 Ignorance is bliss.
 I need a pacifier for my baby.
 Our collision detection only works for rigid bodies.
-On his visit in Iran, the diplomat criticized the strict censorship.
-No western movie without a brawl in a saloon.
+On his visit to Iran, the diplomat criticized the strict censorship.
+It's no Western movie without a brawl in a saloon.
 The unemployment rate is alarming.
 My foster son is a sleepwalker.
 I don't believe in voodoo.
 The audience clapped enthusiastically after an outstanding performance.
-"I still have no idea what to do next with my raspberry pi", Emmett sighed.
+"I still have no idea what to do next with my Raspberry Pi", Emmett sighed.
 When is the usual monsoon period in Bangladesh?
 Julian is presumably in favor of legalizing cannabis.
 Come on Betty, let's go for a drink and sink a few.
@@ -1015,7 +1015,7 @@ Eve had a secret affair with Ronald.
 The time allotted for speaking doesn't leave a margin for questions.
 The Phantom of the Opera is the only musical I've ever seen.
 Sooner or later, they'll find out how to read these hieroglyphics.
-There's a podium discussion about the pros and cons of daylight saving time.
+There's a podium discussion about the pros and cons of Daylight Saving Time.
 It's raining gin!
 We chose a torus topology for our network.
 I won't give your niece a lollipop if she gets naughty again.
@@ -1030,7 +1030,7 @@ The Viking rudder was harsh on the oars.
 We should celebrate our anniversary in the new karaoke bar.
 Parents should warn their kids about possible undertow near sieves in swimming pools.
 The selfish Welsh wish to sell fish, which smells swell when getting squished.
-One picture in the gallery shows how diligent slaves erect the statue of admiral Thompson.
+One picture in the gallery shows how diligent slaves erected the statue of Admiral Thompson.
 Arnold presented a chart showing how many storks he had counted in the past ten years.
 Whether and how to ethically kill lobsters is disputed.
 The homemade chili dip by your stepmother is really tasty.
@@ -1041,7 +1041,7 @@ I wonder if C-sections will get more popular than natural births one day.
 The prevailing notion among midwifes is that vaginal childbirths should be preferred to cesareans.
 We had a lot of hurricanes this year.
 Ground station to flight one-oh-one, please correct your altitude, over!
-By accepting our privacy policy, you agree that we save your data for twenty-one days to detect frauds.
+By accepting our privacy policy, you agree that we save your data for twenty-one days to detect fraud.
 Anna Austen asked about the acceptation of the word "alliteration".
 Mrs Brickman wants to know why her rating score is so terribly low.
 Can you sing me a lullaby?
@@ -1062,7 +1062,7 @@ It's probably a good idea to merge the two subsections in the synopsis.
 Cheryl asked me about visiting the poetry slam with her tomorrow.
 Hey, stop staring at my decollete!
 I'm just gazing at the marble of your necklace.
-It's the first time my grandpa does online banking.
+It's the first time my grandpa has done online banking.
 Two scorpions were menacing each other with their stings.
 Their venom is however not deadly to humans.
 An inferno destroyed half of Lisbon during the Portuguese inquisition.
@@ -1072,10 +1072,10 @@ Let's hope the state secretary can exert influence on the chancellor.
 Your so-called sedative only exacerbates the pain.
 Lawrence was baffled by the amount of things he had learned about fuzzy logic.
 When Luke had finished the hazard analysis, he frowned.
-The police was still interrogating witnesses of the rape when a mob outside began to practice lynch law.
+The police were still interrogating witnesses of the rape when a mob outside began to practice lynch law.
 As a preliminary, familiarize yourself with the basic concept of nuclear fission.
 The fascinating consequence of Bayes' theorem is that we can infer against the direction of causality.
-Tabitha on the other hand, chose a more pragmatic approach.
+Tabitha, on the other hand, chose a more pragmatic approach.
 The chocolate bar looked so tempting that Lenna just couldn't abstain from it.
 There's a variety of possibilities, but the checkerboard pattern doesn't seem appropriate here.
 Sylvester needed to meditate to clear his mind.
@@ -1090,9 +1090,9 @@ Before you get too excited, keep in mind that it only applies to low-dimensional
 The Fury X is a very potent graphics card.
 Taran was so bored that he took his biro and drew some glyphs on the table.
 When Alvin was a little boy, he loved to watch Bud Spencer and Terence Hill.
-Tiffany told us, the bench is made of beech wood.
+Tiffany told us the bench is made of beech wood.
 I like the avenger of the new episode, he really is a badass.
-The epileptic seizure could have been cause by the strobe lights.
+The epileptic seizure could have been caused by the strobe lights.
 Wow, the stroboscope effect on the ball is really astonishing!
 That's the centigrade scale.
 Sometimes Yasmin's ambitions have no limits.
