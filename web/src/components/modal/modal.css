@@ -45,7 +45,7 @@
         text-align: center;
         background: var(--white);
         pointer-events: all;
-        box-shadow: 0 2px 44px 0 color(#0043a0 alpha(50%));
+        box-shadow: 0 2px 44px 0 color-mod(#0043a0 alpha(50%));
 
         @media (--md-up) {
             min-height: auto;

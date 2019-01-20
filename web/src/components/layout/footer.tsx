@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Localized } from 'fluent-react/compat';
+import { trackGlobal } from '../../services/tracker';
 import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
 import ShareButtons from '../share-buttons/share-buttons';
@@ -27,6 +28,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
   };
 
   private toggleContactModal = () => {
+    trackGlobal('contact');
     this.setState(state => ({ showContactModal: !state.showContactModal }));
   };
 
@@ -47,7 +49,8 @@ class Footer extends React.PureComponent<{}, FooterState> {
           <a
             id="contribute"
             target="_blank"
-            href="https://github.com/mozilla/voice-web">
+            href="https://github.com/mozilla/voice-web"
+            onClick={() => trackGlobal('github')}>
             <GithubIcon />
             <div>GitHub</div>
           </a>
@@ -55,7 +58,8 @@ class Footer extends React.PureComponent<{}, FooterState> {
           <a
             id="discourse"
             target="blank"
-            href="https://discourse.mozilla-community.org/c/voice">
+            href="https://discourse.mozilla-community.org/c/voice"
+            onClick={() => trackGlobal('discourse')}>
             <DiscourseIcon />
             <div>Discourse</div>
           </a>
@@ -118,10 +122,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
             <TextButton
               className="back-top"
               onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: 'smooth',
-                });
+                document.getElementById('scroller').scrollTop = 0;
               }}
             />
           </Localized>

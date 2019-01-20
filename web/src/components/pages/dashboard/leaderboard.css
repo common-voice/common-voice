@@ -48,7 +48,7 @@
         }
 
         & .icon {
-            margin-right: 20px;
+            margin-inline-end: 20px;
             width: 30px;
             display: flex;
             justify-content: center;
@@ -64,7 +64,7 @@
             background: var(--blue);
 
             & svg {
-                margin-left: 0;
+                margin-inline-start: 0;
                 opacity: 1;
             }
 
@@ -97,7 +97,7 @@
     list-style: none;
 
     & li {
-        border-bottom: 1px solid color(var(--black) alpha(20%));
+        border-bottom: 1px solid color-mod(var(--black) alpha(20%));
     }
 
     & .more button {
@@ -125,10 +125,10 @@
 
         & > * {
             padding: 5px 0;
-            margin-right: 10px;
+            margin-inline-end: 10px;
 
             &:last-child {
-                margin-right: 0;
+                margin-inline-end: 0;
             }
         }
 
@@ -170,7 +170,7 @@
             }
 
             & svg {
-                margin-right: 5px;
+                margin-inline-end: 5px;
                 height: 17px;
 
                 &.play {

@@ -82,9 +82,10 @@
             display: flex;
             align-items: center;
             margin-top: 4rem;
+            z-index: var(--middle-z-index);
 
             @media (--md-up) {
-                margin-left: var(--standard-margin);
+                margin-inline-start: var(--standard-margin);
                 margin-top: 0;
                 width: 50%;
             }
@@ -100,11 +101,11 @@
 
                 & h2 {
                     margin-bottom: 2rem;
-                    padding-right: var(--standard-margin);
+                    padding-inline-end: var(--standard-margin);
                     font-weight: bold;
 
                     @media (--md-up) {
-                        margin-bottom: .5rem;
+                        margin-bottom: 0.5rem;
                     }
                 }
 
@@ -123,7 +124,7 @@
 
         & hr {
             width: 100vw;
-            margin: .5rem 0 .5rem calc(-50vw + 50%);
+            margin: 0.5rem 0 0.5rem calc(-50vw + 50%);
         }
 
         & .labels {
@@ -148,7 +149,7 @@
 
         & button {
             align-self: center;
-            margin-left: auto;
+            margin-inline-start: auto;
         }
     }
 
@@ -168,16 +169,17 @@
         }
     }
 
-    & .selected-in-progress .labels .in-progress, & .selected-launched .labels .launched {
+    & .selected-in-progress .labels .in-progress,
+    & .selected-launched .labels .launched {
         color: var(--red);
         border-bottom: 3px solid var(--red);
     }
 
     & .selected-in-progress .language-sections section {
-        margin-left: calc(-100vw);
+        margin-inline-start: calc(-100vw);
 
         @media (--md-up) {
-            margin-left: 0;
+            margin-inline-start: 0;
         }
     }
 
@@ -194,7 +196,7 @@
     & .search {
         border: solid 1px var(--grey);
         border-radius: 22px;
-        margin-left: auto;
+        margin-inline-start: auto;
         padding: 0 10px;
         display: flex;
         flex-direction: row;
@@ -247,8 +249,9 @@
 
         & section {
             width: calc(100vw - 2rem);
-            margin-left: 0;
-            transition: margin-left var(--transition-duration-slow) var(--easing);
+            margin-inline-start: 0;
+            transition: margin-inline-start var(--transition-duration-slow)
+                var(--easing);
 
             @media (--md-up) {
                 margin-top: 4rem;
@@ -272,10 +275,10 @@
             }
 
             &:nth-child(2) {
-                margin-left: 2rem;
+                margin-inline-start: 2rem;
 
                 @media (--md-up) {
-                    margin-left: 0;
+                    margin-inline-start: 0;
                     margin-bottom: 32px;
                 }
             }
@@ -292,20 +295,20 @@
         width: 100%;
 
         @media (--md-only) {
-            margin-right: var(--language-box-margin);
+            margin-inline-end: var(--language-box-margin);
             width: calc((100% - var(--language-box-margin)) / 2.01);
 
             &:nth-child(2n) {
-                margin-right: 0;
+                margin-inline-end: 0;
             }
         }
 
         @media (--lg-up) {
-            margin-right: var(--language-box-margin);
+            margin-inline-end: var(--language-box-margin);
             width: calc((100% - 2 * var(--language-box-margin)) / 3.01);
 
             &:nth-child(3n) {
-                margin-right: 0;
+                margin-inline-end: 0;
             }
         }
 
@@ -339,7 +342,8 @@
                 flex-direction: row;
             }
 
-            & h2, & .numbers {
+            & h2,
+            & .numbers {
                 width: 100%;
 
                 @media (--xs-up) {
@@ -358,7 +362,7 @@
             }
 
             & hr {
-                margin: .5rem 0;
+                margin: 0.5rem 0;
                 height: 1.5px;
             }
 
@@ -371,15 +375,15 @@
                 }
 
                 & span {
-                    padding-right: var(--standard-margin);
-                    font-size: .7rem;
+                    padding-inline-end: var(--standard-margin);
+                    font-size: 0.7rem;
                     font-style: italic;
                     color: var(--warm-grey);
                     letter-spacing: 0.8px;
                 }
 
                 & .value {
-                    text-align: right;
+                    text-align: end;
                     font-style: normal;
                     letter-spacing: normal;
                 }
@@ -401,7 +405,7 @@
             padding: 1rem;
             width: 100%;
             transition: background linear var(--transition-duration);
-            background: color(var(--light-grey) alpha(50%));
+            background: color-mod(var(--light-grey) alpha(50%));
             text-transform: uppercase;
             font-weight: 600;
             letter-spacing: 0.4px;
@@ -413,7 +417,8 @@
         }
     }
 
-    & h1, & h2 {
+    & h1,
+    & h2 {
         display: flex;
         align-items: center;
 

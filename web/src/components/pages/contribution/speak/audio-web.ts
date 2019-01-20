@@ -200,10 +200,10 @@ export default class AudioWeb {
     });
   }
 
-  stop(): Promise<AudioInfo | {}> {
+  stop(): Promise<AudioInfo> {
     if (!this.isReady()) {
       console.error('Cannot stop audio before microhphone is ready.');
-      return Promise.resolve({});
+      return Promise.reject();
     }
 
     return new Promise((res: Function, rej: Function) => {

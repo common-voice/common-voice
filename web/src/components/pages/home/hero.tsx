@@ -3,7 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { DAILY_GOAL } from '../../../constants';
 import API from '../../../services/api';
-import { trackHomeNew } from '../../../services/tracker';
+import { trackHome } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
@@ -116,7 +116,7 @@ class Hero extends React.Component<
           </div>
         </div>
         <div className="column cta">
-          <PrimaryLink onClick={() => trackHomeNew(type, locale)} />
+          <PrimaryLink onClick={() => trackHome(type, locale)} />
           <div {...this.getToggleableProps(1, 'line ' + type)} />
           <div {...this.getToggleableProps(2)}>
             <Localized id="help-reach-goal" $goal={DAILY_GOAL[type]}>

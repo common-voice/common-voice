@@ -18,6 +18,7 @@ ar = Bahsa Arab
 as = Bahsa Assam
 ast = Bahsa Asturian
 az = Bahsa Azeri
+bg = Bahsa Bulgaria
 bn = Bahsa Banggali
 br = Bahsa Breton
 bxr = Bahsa Buryat
@@ -35,6 +36,7 @@ en = Bahsa Inggréh
 eo = Bahsa Èspèranto
 es = Bahsa Seupanyo
 et = Bahsa Èstonia
+eu = Bahsa Basque
 fa = Bahsa Parisi
 fi = Bahsa Finlandia
 fo = Bahsa Faroe
@@ -72,6 +74,7 @@ rm-sursilv = Bahsa Romansh (Sursilvan)
 ro = Bahsa Rumania
 ru = Bahsa Rusia
 sah = Bahsa Sakha
+sc = Bahsa Sardinia
 sk = Bahsa Slovakia
 sl = Bahsa Slovènia
 sq = Bahsa Albania
@@ -113,6 +116,7 @@ back-top = Gisa u Ateueh
 ## Home Page
 
 vote-yes = Nyo
+vote-no = H'an
 today = Uroë Nyoë
 
 ## Speak & Listen Shortcuts
@@ -130,7 +134,6 @@ english = Bahsa Inggrèh
 
 ## ProfileForm
 
-profile-form-delete = Sampôh Profil
 profile-form-language =
     .label = Bahsa
 profile-form-submit-save = Keubah
@@ -140,22 +143,16 @@ profile-close = Tôp
 ## FAQ
 
 
-## Profile
-
-
 ## NotFound
 
 
 ## Data
 
 data-download-yes = Nyo
+data-download-deny = H‘an
 data-download-license = Lisènsi: <licenseLink>CC-0</licenseLink>
 data-other-ted-name = Korpus TED-LIUM
 license = Lisènsi: <licenseLink>{ $license }</licenseLink>
-
-## Record Page
-
-record-retry = Ci Lom
 
 ## Download Modal
 
@@ -176,3 +173,14 @@ request-language-form-language =
 ## New Contribution
 
 clips-with-count = <bold>{ $count }</bold> Klip
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+remove = Sampôh
+profile-form-delete = Sampôh Profil

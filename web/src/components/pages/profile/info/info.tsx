@@ -183,7 +183,8 @@ class ProfilePage extends React.Component<Props, State> {
             await api.subscribeToNewsletter(user.userClients[0].email);
           }
           saveAccount({
-            ...pick(this.state, 'username', 'age', 'gender', 'locales'),
+            ...pick(this.state, 'username', 'age', 'gender'),
+            locales: this.state.locales.filter(l => l.locale),
             visible: JSON.parse(this.state.visible.toString()),
             client_id: user.userId,
           });

@@ -3,6 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 import { LOCALES, NATIVE_NAMES } from '../../services/localization';
+import { trackGlobal } from '../../services/tracker';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
@@ -11,7 +12,6 @@ import {
   getItunesURL,
   isIOS,
   isNativeIOS,
-  isProduction,
   isSafari,
   replacePathLocale,
 } from '../../utility';
@@ -75,6 +75,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       import('../pages/contribution/speak/speak');
       import('../pages/contribution/listen/listen');
     }, 1000);
+    this.visitHash(this.props);
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
@@ -88,12 +89,20 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           top: 0,
           behavior: 'smooth',
         });
+        this.visitHash(nextProps);
       }, 250);
     }
   }
 
   componentWillUnmount() {
     this.scroller.removeEventListener('scroll', this.handleScroll);
+  }
+
+  private visitHash({ location: { hash } }: LayoutProps) {
+    if (hash) {
+      const node = document.querySelector(hash);
+      node && node.scrollIntoView();
+    }
   }
 
   /**
@@ -128,6 +137,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   private selectLocale = async (locale: string) => {
     const { setLocale, history } = this.props;
+    trackGlobal('change-language', locale);
     setLocale(locale);
     history.push(replacePathLocale(history.location.pathname, locale));
   };

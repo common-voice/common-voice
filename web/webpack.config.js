@@ -16,6 +16,7 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/dist/',
   },
+  devtool: 'source-map',
   resolve: {
     /**
      * See https://webpack.js.org/configuration/resolve/#resolve-extensions
@@ -39,6 +40,14 @@ module.exports = {
         ],
       },
       {
+        test: /\.js$/,
+        include: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: { cacheDirectory: true, presets: ['@babel/preset-env'] },
+        },
+      },
+      {
         /**
          * By default, Webpack (rather, style-loader) includes stylesheets
          * into the JS bundle.
@@ -49,7 +58,20 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           { loader: 'css-loader', options: { importLoaders: 1 } },
-          'postcss-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: loader => [
+                require('postcss-import')(),
+                require('postcss-color-mod-function')(),
+                require('postcss-nested')(),
+                require('postcss-custom-media')(),
+                require('postcss-preset-env')(),
+                require('cssnano')(),
+              ],
+            },
+          },
         ],
       },
     ],

@@ -141,7 +141,7 @@ export const BarPlot = ({
   <Plot
     data={data}
     formatNumber={formatNumber}
-    max={data.reduce((max, d) => Math.max(max, d.value), 0)}
+    max={(data || []).reduce((max, d) => Math.max(max, d.value), 0)}
     renderXTickLabel={({ date }) => {
       const timeString = new Date(date)
         .toLocaleString([], {
@@ -181,7 +181,7 @@ export const BarPlot = ({
               <stop offset="95%" stopColor="#b1b5e5" />
             </linearGradient>
           </defs>
-          {data.map(({ value }: any, i: number) => {
+          {(data || []).map(({ value }: any, i: number) => {
             const height = (value * BAR_HEIGHT) / max || 0;
             return (
               <rect

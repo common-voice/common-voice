@@ -17,7 +17,7 @@
     & .goal-box {
         flex-shrink: 0;
         border-radius: 4px;
-        margin-right: 10px;
+        margin-inline-end: 10px;
         box-sizing: border-box;
         position: relative;
         display: flex;
@@ -115,7 +115,7 @@
             }
 
             & hr {
-                border-top-color: color(var(--white) alpha(20%));
+                border-top-color: color-mod(var(--white) alpha(20%));
             }
         }
     }

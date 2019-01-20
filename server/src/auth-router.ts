@@ -26,7 +26,7 @@ router.use(require('cookie-parser')());
 router.use(
   session({
     cookie: {
-      maxAge: 365 * 24 * 60 * 60,
+      maxAge: 30 * 24 * 60 * 60 * 1000,
       secure: PROD,
     },
     secret: SECRET,
@@ -61,9 +61,7 @@ if (DOMAIN) {
     if (options.audience && typeof options.audience === 'string') {
       params.audience = options.audience;
     }
-    params.tried_autologin = true;
-
-    params.action = 'signup';
+    params.account_verification = true;
 
     return params;
   };

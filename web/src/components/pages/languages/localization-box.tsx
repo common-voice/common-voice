@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import { InProgressLanguage, LaunchedLanguage } from 'common/language-stats';
 import URLS from '../../../urls';
 import { createCrossLocaleBundleGenerator } from '../../../services/localization';
+import { trackLanguages } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { toLocaleRouteBuilder } from '../../locale-helpers';
@@ -152,6 +153,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
 
   goToContribute = () => {
     const { history, locale } = this.props;
+    trackLanguages('contribute', locale);
     history.push(toLocaleRouteBuilder(locale)(URLS.SPEAK));
   };
 

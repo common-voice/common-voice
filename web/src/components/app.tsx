@@ -11,6 +11,7 @@ import {
 import { Router } from 'react-router-dom';
 const { LocalizationProvider } = require('fluent-react/compat');
 import { createBrowserHistory } from 'history';
+const rtlLocales = require('../../../locales/rtl.json');
 import store from '../stores/root';
 import URLS from '../urls';
 import {
@@ -19,6 +20,7 @@ import {
   isNativeIOS,
   isProduction,
   replacePathLocale,
+  isStaging,
 } from '../utility';
 import {
   createBundleGenerator,
@@ -156,7 +158,12 @@ let LocalizedPage: any = class extends React.Component<
       this.props.setLocale(userLocales[0]);
     }
 
-    document.documentElement.setAttribute('lang', mainLocale);
+    const { documentElement } = document;
+    documentElement.setAttribute('lang', mainLocale);
+    documentElement.setAttribute(
+      'dir',
+      rtlLocales.includes(mainLocale) ? 'rtl' : 'ltr'
+    );
 
     this.setState({
       bundleGenerator: await createBundleGenerator(api, userLocales),
@@ -253,11 +260,7 @@ class App extends React.Component {
   main: HTMLElement;
   userLocales: string[];
 
-  state: { error: Error } = { error: null };
-
-  static getDerivedStateFromError(error: Error) {
-    return { error };
-  }
+  state: { error: Error; Sentry: any } = { error: null, Sentry: null };
 
   /**
    * App will handle routing to page controllers.
@@ -280,13 +283,6 @@ class App extends React.Component {
     this.userLocales = negotiateLocales(navigator.languages);
   }
 
-  /**
-   * Perform any native iOS specific operations.
-   */
-  private bootstrapIOS() {
-    document.body.classList.add('ios');
-  }
-
   async componentDidMount() {
     if (!isProduction()) {
       const script = document.createElement('script');
@@ -295,34 +291,42 @@ class App extends React.Component {
     }
   }
 
+  async componentDidCatch(error: Error, errorInfo: any) {
+    this.setState({ error });
+
+    if (!isProduction() && !isStaging()) {
+      return;
+    }
+    const Sentry = await import('@sentry/browser');
+    Sentry.init({
+      dsn: 'https://e0ca8e37ef77492eb3ff46caeca385e5@sentry.io/1352219',
+    });
+    Sentry.withScope(scope => {
+      Object.keys(errorInfo).forEach(key => {
+        scope.setExtra(key, errorInfo[key]);
+      });
+      Sentry.captureException(error);
+    });
+    this.setState({ Sentry });
+  }
+
+  /**
+   * Perform any native iOS specific operations.
+   */
+  private bootstrapIOS() {
+    document.body.classList.add('ios');
+  }
+
   render() {
-    const { error } = this.state;
+    const { error, Sentry } = this.state;
     if (error) {
       return (
         <div>
           An error occurred. Sorry!
           <br />
-          <a
-            href={
-              'https://github.com/mozilla/voice-web/issues/new?title=' +
-              error.toString() +
-              '&body=' +
-              encodeURIComponent(
-                [
-                  'Can you describe what steps lead to the error happening?',
-                  '\n',
-                  '```',
-                  error.toString(),
-                  error.stack.toString(),
-                  '```',
-                ].join('\n')
-              )
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: 'blue' }}>
-            Report
-          </a>
+          <button onClick={() => Sentry.showReportDialog()} disabled={!Sentry}>
+            Report feedback
+          </button>
           <br />
           <button onClick={() => location.reload()}>Reload</button>
         </div>

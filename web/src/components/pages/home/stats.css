@@ -34,14 +34,14 @@
 
         & > * {
             padding: 0 15px;
-            border-right: 1px solid var(--grey);
+            border-inline-end: 1px solid var(--grey);
 
             &:first-child {
-                padding-left: 0;
+                padding-inline-start: 0;
             }
 
             &:last-child {
-                border-right: none;
+                border-inline-end: none;
             }
         }
     }
@@ -135,7 +135,7 @@
 
     & .point {
         margin-top: -3px;
-        margin-right: 6px;
+        margin-inline-end: 6px;
         font-size: 20px;
     }
 }
@@ -156,10 +156,10 @@
         flex-direction: row;
 
         & > * {
-            margin-right: 30px;
+            margin-inline-end: 30px;
 
             &:last-child {
-                margin-right: 0;
+                margin-inline-end: 0;
             }
         }
     }

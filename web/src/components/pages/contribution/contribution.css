@@ -4,8 +4,13 @@
     overflow: hidden;
 }
 
-.contribution-wrapper, .contribution {
-    background-image: linear-gradient(to top, var(--white) 20%, var(--desert-storm));
+.contribution-wrapper,
+.contribution {
+    background-image: linear-gradient(
+        to top,
+        var(--white) 20%,
+        var(--desert-storm)
+    );
 }
 
 .contribution {
@@ -56,25 +61,22 @@
         }
 
         & svg {
-            margin-right: 10px;
+            margin-inline-end: 10px;
             padding: 7px;
             background: var(--valid-green);
             border-radius: 50%;
 
-            & use, & path {
+            & use,
+            & path {
                 fill: var(--white);
             }
         }
 
         & .text {
-            margin-left: 10px;
+            margin-inline-start: 10px;
             font-size: var(--font-size-xs);
             font-weight: normal;
             font-style: italic;
-
-            @media (--sm-down) {
-                display: none;
-            }
         }
 
         &.done {
@@ -99,6 +101,10 @@
             border-radius: 50%;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 
+            [dir='rtl'] & {
+                transform: rotateY(180deg);
+            }
+
             @media (--md-up) {
                 width: 57px;
                 height: 57px;
@@ -109,8 +115,8 @@
             font-family: var(--strong-font-family);
 
             @media (--md-up) {
-                margin-right: auto;
-                margin-left: 52px;
+                margin-inline-end: auto;
+                margin-inline-start: 52px;
                 font-size: 20px;
             }
 
@@ -149,7 +155,7 @@
         & .open-share {
             border: 2px solid var(--grey);
             border-radius: 50%;
-            margin-left: 20px;
+            margin-inline-start: 20px;
             background: var(--white);
 
             @media (--sm-down) {
@@ -219,7 +225,7 @@
         & > :first-child {
             display: none;
             flex: 1;
-            margin-right: auto;
+            margin-inline-end: auto;
 
             @media (--xl-up) {
                 display: block;
@@ -269,7 +275,7 @@
 
             opacity: 1;
             transition: transform var(--transition-duration-slow) var(--easing),
-                        opacity var(--transition-duration-slow) var(--easing);
+                opacity var(--transition-duration-slow) var(--easing);
 
             &.inactive {
                 pointer-events: none;
@@ -298,7 +304,7 @@
 
             @media (--md-up) {
                 margin-top: 0;
-                margin-left: auto;
+                margin-inline-start: auto;
                 width: fit-content;
                 flex-direction: column;
                 justify-content: flex-start;
@@ -330,7 +336,12 @@
             position: absolute;
             width: 100% !important;
             max-width: calc(var(--wide-desktop-width) - 40px);
-            mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 3%, black, rgba(0, 0, 0, 0) 97%);
+            mask-image: linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0) 3%,
+                black,
+                rgba(0, 0, 0, 0) 97%
+            );
         }
     }
 
@@ -345,7 +356,7 @@
         }
 
         & button img {
-            margin-right: 10px;
+            margin-inline-end: 10px;
         }
 
         & > * {
@@ -353,7 +364,7 @@
 
             & > :first-child {
                 @media (--md-up) {
-                    margin-right: 20px;
+                    margin-inline-end: 20px;
                 }
             }
         }
@@ -378,7 +389,11 @@
             display: inline-flex;
 
             & svg {
-                margin-left: 13px;
+                margin-inline-start: 13px;
+
+                [dir='rtl'] & {
+                    transform: rotateY(180deg);
+                }
             }
         }
 
@@ -425,7 +440,11 @@
     }
 
     &.submittable {
-        & .cards, & .instruction,  & .primary-buttons, & .buttons button[type=button], & .extra-button {
+        & .cards,
+        & .instruction,
+        & .primary-buttons,
+        & .buttons button[type='button'],
+        & .extra-button {
             display: none;
             filter: blur(10px);
             pointer-events: none;
@@ -484,8 +503,8 @@
             align-items: center;
             font-size: var(--font-size-xl);
             width: 338px;
-            text-align: right;
-            padding-right: 40px;
+            text-align: end;
+            padding-inline-end: 40px;
         }
     }
 
@@ -553,7 +572,7 @@
             margin-top: 30px;
             background: #ff4e5e;
             border: none;
-            box-shadow: 0 5px 10px color(#ff4e5e alpha(50%));
+            box-shadow: 0 5px 10px color-mod(#ff4e5e alpha(50%));
 
             &:hover {
                 color: var(--white);
@@ -572,7 +591,7 @@
         display: inline-flex;
 
         & svg {
-            margin-right: 10px;
+            margin-inline-end: 10px;
         }
 
         & path {
@@ -597,20 +616,20 @@
         justify-content: center;
 
         & .shortcut {
-            margin-right: 50px;
+            margin-inline-end: 50px;
             width: 91px;
             display: flex;
             flex-direction: column;
             align-items: center;
 
             &:last-child {
-                margin-right: 0;
+                margin-inline-end: 0;
             }
         }
 
         & kbd {
             border-radius: 4px;
-            border: solid 1px color(var(--black) alpha(5%));
+            border: solid 1px color-mod(var(--black) alpha(5%));
             margin-bottom: 10px;
             width: 57px;
             height: 57px;
@@ -629,4 +648,3 @@
         }
     }
 }
-

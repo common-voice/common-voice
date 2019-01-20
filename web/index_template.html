@@ -107,11 +107,9 @@
     </div>
     <script>
       var errorContainer = document.getElementById('error');
-      setTimeout(function() {
-        if (document.querySelector('#root').children.length === 0) {
-          errorContainer.style.display = 'block';
-        }
-      }, 5000);
+      if (document.querySelector('#root').children.length === 0) {
+        errorContainer.style.display = 'block';
+      }
       window.onerror = function(e) {
         if (e === 'Syntax error') {
           errorContainer.style.display = 'block';

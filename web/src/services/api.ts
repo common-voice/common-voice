@@ -225,4 +225,11 @@ export default class API {
       API_PATH + '/user_client' + (locale ? '/' + locale : '') + '/goals'
     );
   }
+
+  claimAccount(): Promise<void> {
+    return this.fetch(
+      API_PATH + '/user_clients/' + this.user.userId + '/claim',
+      { method: 'POST' }
+    );
+  }
 }

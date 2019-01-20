@@ -186,7 +186,7 @@ class ContributionPage extends React.Component<Props, State> {
     }
 
     const shortcut = this.shortcuts.find(
-      ({ key }) => getString(key) === event.key
+      ({ key }) => getString(key).toLowerCase() === event.key
     );
     if (!shortcut) return;
 
@@ -208,7 +208,7 @@ class ContributionPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { errorContent, getString, isSubmitted, type } = this.props;
+    const { errorContent, getString, isSubmitted, type, user } = this.props;
     const { showShareModal, showShortcutsModal } = this.state;
 
     return (
@@ -242,7 +242,9 @@ class ContributionPage extends React.Component<Props, State> {
             this.isDone ? 'submittable' : '',
           ].join(' ')}>
           <div className="top">
-            <LocaleLink to={URLS.ROOT} className="back">
+            <LocaleLink
+              to={user.account ? URLS.DASHBOARD : URLS.ROOT}
+              className="back">
               <ArrowLeft />
             </LocaleLink>
 
@@ -337,7 +339,9 @@ class ContributionPage extends React.Component<Props, State> {
                         style={{
                           transform: [
                             `scale(${isActive ? 1 : 0.9})`,
-                            `translateX(${(i - activeSentenceIndex) * -130}%)`,
+                            `translateX(${(document.dir == 'rtl' ? -1 : 1) *
+                              (i - activeSentenceIndex) *
+                              -130}%)`,
                           ].join(' '),
                           opacity: i < activeSentenceIndex ? 0 : 1,
                         }}>

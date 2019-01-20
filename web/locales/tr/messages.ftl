@@ -8,6 +8,8 @@ email-input =
     .label = E-posta
 submit-form-action = Gönder
 loading = Yükleniyor…
+email-opt-in-privacy = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
+indicates-required = * Gerekli alanları gösterir
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,6 +18,7 @@ loading = Yükleniyor…
 ## Languages
 
 ace = Açece
+af = Afrikaans
 an = Aragonca
 ar = Arapça
 as = Assamca
@@ -148,7 +151,7 @@ todays-progress = Bugünkü ilerleme
 help-reach-goal = Bugünkü hedefimiz: { $goal }
 read-terms-q = Koşullarımızı okudunuz mu?
 ready-to-record = Sesinizi bağışlamaya hazır mısınız?
-all-languages = Tüm diller
+all-locales = Tümü
 today = Bugün
 x-weeks-short =
     { $count ->
@@ -165,6 +168,26 @@ x-years-short =
         [one] { $count } yıl
        *[other] { $count } yıl
     }
+help-make-dataset = Kaliteli, herkese açık bir veri kümesi oluşturmamıza yardım edin
+profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
+sign-up-account = Hesap açın
+
+## Account Benefits
+
+benefits = Yararları
+improve-audio = Profil bilgileri, konuşma tanıma doğruluğunu eğitirken kullanılan ses verilerini iyileştirir.
+keep-track = Farklı dillerdeki ilerleme durumunuzu ve ölçümlerinizi takip edebilirsiniz.
+compare-progress = Katkılarınızı dünyanın her yerindeki diğer gönüllülerle karşılaştırabilirsiniz.
+view-goals = Kişisel hedeflerinize ve proje hedeflerine ne kadar yaklaştığınızı görebilirsiniz.
+join-newsletter = İsterseniz e-posta listemize katılarak projeyle ilgili gelişmelerden haberdar olabilirsiniz.
+
+## What's public
+
+whats-public = Başkaları hangi bilgilerinizi görür?
+email-not-public = E-posta adresinizi hiç kimse göremez.
+recordings-and-locale-public = Yaptığınız kayıt sayısını ve katkıda bulunduğunuz dilleri başkaları görebilir.
+username-optin-public = Kullanıcı adınızı isterseniz gösterebilir isterseniz de anonim kalabilirsiniz.
+username-email-not-demographic = Kullanıcı adınız ve e-posta adresiniz, paylaşılan verilerle ilişkilendirilmeyecektir.
 
 ## Speak & Listen Shortcuts
 
@@ -232,7 +255,7 @@ female = Kadın
 # Gender
 other = Diğer
 why-profile-title = Neden profil oluşturmalıyım?
-why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
+why-profile-text = Kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
 dashboard = Pano
 build-profile = Profil oluştur
 avatar = Avatar
@@ -272,25 +295,20 @@ add-language = Dil ekle
 ## FAQ
 
 faq-title = Sıkça Sorulan Sorular
-faq-what-q = Common Voice nedir?
-faq-what-a = Ses tanıma teknolojisi makinelerle iletişimimizde devrim yaratabilir ama mevcut sistemler pahalı ve sahipli. Common Voice, ses tanıma teknolojisini herkesin erişebileceği hale getirmeye yönelik bir proje. İnsanların bu büyük veritabanına bağışladığı sesler sayesinde herkes çabucak ve kolayca ses destekli uygulamaları eğitebilecek. Topladığımız tüm ses verileri geliştiricilere açık olacak.
-faq-important-q = Bu neden önemli?
-faq-important-a = Ses doğaldır, ses insancıldır. İletişim kurmanın en kolay ve en doğal yoludur. Biz, geliştiricilerin sesten yararlanarak gerçek zamanlı çevirmenlerden ses destekli asistanlara dek inanılmaz şeyler yapmalarını istiyoruz; oysa henüz bu tür uygulamaları oluşturmak için yeterince açık veri mevcut değil. Common Voice’un geliştiricilere ihtiyaç duydukları verileri sağlamasını umuyoruz.
-faq-get-q = Common Voice verilerini nasıl elde edebilirim?
-faq-get-a = Veri kümesi, <licenseLink>CC-0</licenseLink> lisansıyla <downloadLink>indirme sayfamızdan</downloadLink> indirilebilir durumda.
-faq-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
-faq-mission-a = Mozilla, web’i herkes için açık ve erişilebilir tutmaya söz vermiştir. Bunu başarmak için web yapımcılarını Common Voice gibi projelerle güçlendirmeliyiz. Ses teknolojilerinin günlük hayatımıza girdiği günümüzde, bu teknolojilerin tüm kullanıcılara eşit şekilde hizmet etmeleri gerektiğine inanıyoruz. Ses teknolojilerini geliştirir ve test ederken daha fazla dil, aksan ve demografik çeşitliliğin kapsanması gerekiyor. Mozilla olarak biz, sağlıklı ve canlı bir internet görmek istiyoruz. Böyle bir internet için de geliştiricilere yeni, sıra dışı projeler inşa ederken kullanabilecekleri ses verileri sağlamamız gerekiyor. Common Voice, hem Mozilla çalışanlarına hem de dünyadaki tüm geliştiricilere yardımcı olacak, açık bir kaynak olacaktır.
-faq-native-q = Ana dili { $lang } olmayan ve aksanlı konuşan bir konuşmacıyım, yine de katkıda bulunmamı istiyor musunuz?
-faq-native-a = Evet, sesinizi kesinlikle istiyoruz. Common Voice'un bir amacı da olabildiğince fazla farklı aksanı toplamaktır, böylece bilgisayarlar <bold>herkesi</bold> konuştuklarında daha iyi anlayabilir.
-faq-firefox-q = Common Voice aracılığıyla konuşmayı metne dönüştürme özelliği Firefox’a eklenecek mi?
-faq-firefox-a = Common Voice’un potansiyeli çok büyük. Firefox dahil olmak üzere birçok Mozilla ürününde konuşma arayüzlerini nasıl kullanabileceğimizi planlama aşamasındayız.
-faq-quality-q = Kaydın kullanılabilmesi için gerekli olan kalite seviyesi nedir?
-faq-quality-a = Ses kalitesinin konuşmayı metne dönüştürme sisteminin (KMDS) göreceği şekilde olmasını istiyoruz. Bu nedenle çeşitlilik istiyoruz. Bu sayede KMDS'e değişik durumlarda söyleneni anlamasını öğretiyoruz.
-faq-hours-q = Neden 10.000 saatlik ses kaydetmeye çalışıyorsunuz?
-faq-hours-a = Bu süre, işe yarar bir STT (konuşmayı metne dönüştürme) sisteminin eğitilmesi için gereken yaklaşık süredir.
-faq-source-q = Kaynak metinler nereden geliyor?
-faq-source-a1 = Mevcut cümleler gönüllülerimizden ve <italic>It’s a Wonderful Life</italic> gibi telif hakkı sona ermiş filmlerdeki konuşmalardan geliyor.
-faq-source-a2 = Kaynak cümlelerimizi <dataLink>bu GitHub klasöründe</dataLink> bulabilirsiniz.
+faq-what-cv-q = Common Voice nedir?
+faq-why-important-q = Ne önemi var?
+faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
+faq-why-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
+faq-why-my-lang-q = Neden dilim henüz eklenmedi?
+faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
+faq-why-account-q = Neden hesap açayım?
+faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
+faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
+
+## Glossary
+
+glossary = Sözlük
+localization = Yerelleştirme
 
 ## NotFound
 
@@ -428,9 +446,29 @@ share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 
 ## Goals
 
+streaks = Seriler
+days =
+    { $count ->
+        [one] Gün
+       *[other] Gün
+    }
+recordings =
+    { $count ->
+        [one] Kayıt
+       *[other] Kayıt
+    }
+validations =
+    { $count ->
+        [one] Doğrulama
+       *[other] Doğrulama
+    }
 
 ## Dashboard
 
+your-languages = Dilleriniz
+toward-next-goal = Sonraki hedef için kalan
+clips-you-recorded = ses kaydettiniz
+clips-you-validated = ses doğruladınız
 stats = İstatistikler
 you = Siz
 everyone = Herkes
@@ -438,7 +476,11 @@ contribution-activity = Katkı Etkinliği
 top-contributors = En Çok Katkıda Bulunanlar
 recorded-clips = Kaydedilen ses
 validated-clips = Doğrulanan ses
+total-approved = Onaylanan toplam
+overall-accuracy = Genel doğruluk
 
 ## Profile Delete
 
+keep = Tut
+remove = Sil
 profile-form-delete = Profilimi sil

@@ -82,6 +82,10 @@ export function isProduction(): boolean {
   return window.location.origin === 'https://voice.mozilla.org';
 }
 
+export function isStaging(): boolean {
+  return window.location.origin === 'https://voice.allizom.org';
+}
+
 export function getItunesURL(): string {
   return 'https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326';
 }

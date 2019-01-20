@@ -29,6 +29,7 @@ apache::vhost { $project_name:
         path            => "/var/www/${project_name}/web",
         custom_fragment => "
     # Handle and compress font files
+    AddType text/ftl .ftl
     AddType application/x-font-ttf        .ttf
     AddOutputFilterByType DEFLATE application/x-font-ttf
 
@@ -41,6 +42,9 @@ apache::vhost { $project_name:
     # Deflate SVG images
     AddOutputFilterByType DEFLATE image/svg+xml
 
+    # Deflate FTL
+    AddOutputFilterByType DEFLATE text/ftl
+
     # Sane expires defaults
     ExpiresActive On
     ExpiresDefault none
@@ -51,6 +55,7 @@ apache::vhost { $project_name:
     ExpiresByType text/javascript 'access plus 1 hour'
     ExpiresByType application/javascript 'access plus 1 hour'
     ExpiresByType text/css 'access plus 1 hour'
+    ExpiresByType text/ftl 'access plus 1 hour'
 
     # Fonts
     ExpiresByType application/x-font-ttf 'access plus 60 days'
@@ -72,6 +77,7 @@ apache::vhost { $project_name:
     ProxyPass /dist/index.css !
     ProxyPass /img !
     ProxyPass /font !
+    ProxyPass /locales !
 
     ProxyPass / http://localhost:9000/ retry=0
     ProxyPassReverse / http://localhost:9000/
@@ -89,7 +95,7 @@ apache::vhost { $project_name:
       'set X-Frame-Options "DENY"',
       'set Strict-Transport-Security "max-age=31536000"',
       # media-src blob: is required for recording audio.
-      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'unsafe-inline\' https://fonts.googleapis.com https://optimize.google.com; img-src \'self\' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src \'self\' \'unsafe-eval\' \'sha256-yybRmIqa26xg7KGtrMnt72G0dH8BpYXt7P52opMh3pY=\' \'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=\' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com; font-src \'self\' https://fonts.gstatic.com; connect-src \'self\' https://pontoon.mozilla.org/graphql https://www.gstatic.com https://www.google-analytics.com https://*.amazonaws.com; frame-src https://optimize.google.com;"'
+      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'unsafe-inline\' https://fonts.googleapis.com https://optimize.google.com; img-src \'self\' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src \'self\' \'unsafe-eval\' \'sha256-yybRmIqa26xg7KGtrMnt72G0dH8BpYXt7P52opMh3pY=\' \'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=\' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.io; font-src \'self\' https://fonts.gstatic.com; connect-src \'self\' https://pontoon.mozilla.org/graphql https://www.gstatic.com https://www.google-analytics.com https://*.amazonaws.com https://sentry.io; frame-src https://optimize.google.com;"'
     ],
     rewrites           => [
       {

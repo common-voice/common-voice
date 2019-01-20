@@ -18,6 +18,7 @@ indicates-required = * yemmal-d urti ilaqen
 ## Languages
 
 ace = Acehnese
+af = Tafrikant
 an = Taṛagunit
 ar = Taεrabt
 as = Tasamizt
@@ -95,7 +96,7 @@ ur = Urdu
 uz = Tazbikit
 vi = Tavyiṭnamit
 zh-CN = Tacinwat (Cin)
-zh-HK = Tacinit 5Hung Kung)
+zh-HK = Tacinit (Hung Kung)
 zh-TW = Tacinwat (Taywan)
 
 # [/]
@@ -150,7 +151,7 @@ todays-progress = Asfari n wass
 help-reach-goal = Mudd-aɣ-d afus ad naweḍ { $goal }
 read-terms-q = Teɣriḍ tiwtilin-nneɣ?
 ready-to-record = Theggaḍ ad tmuddeḍ taɣect-ik/im ?
-all-languages = Akk tutlayin
+all-locales = Akk
 today = Ass-a
 x-weeks-short =
     { $count ->
@@ -167,6 +168,28 @@ x-years-short =
         [one] Aseggas
        *[other] { $count } sgs
     }
+help-make-dataset = Mudd-aɣ-d ad nebnu tagrumma n yisefka n tɣara ifazen, yeldin i medden meṛṛa
+profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
+sign-up-account = Jerred akken ad tesɛuḍ amiḍan amiḍan
+
+## Account Benefits
+
+benefits = Abaɣur
+rich-data = Rnu abaɣur i yisefka i tettazneḍ s useddu n telɣut tadimugrafit tudrigt. Ad nedmen d  akken talqut-a ur tettwaqqan ara ɣer umaɣnu-ik send ad ten-walin medden.
+improve-audio = Talɣut n umaɣnu ad tesnerni taɣara n yisefka tameslawt akked tiseddi n uɛqal n taɣect.
+keep-track = Ḍfeṛ lǧeṛṛa n usfari-ik i tutlayin anida tettekkad.
+compare-progress = Serwes asfari-ik akked wid n yimttekkiyen deg umaḍal.
+view-goals = Serwes asfari-ik ɣer yiswiyen-ik udmawanen akked wid n usenfaṛ.
+join-newsletter = Jerred ɣer tebdart-nneɣ n uzuzer akken ad teẓreḍ isallen ɣef usfari n usenfaṛ.
+
+## What's public
+
+whats-public = D acu-tt telɣut tazayezt?
+email-not-public = Ur nettara ara imayl d azayez.
+recordings-and-locale-public = Amḍan n yikalasen akked tutlayin anida tettekkaḍ ad d-banen.
+username-optin-public = Tzemreḍ ad tferneḍ isem-ik n useqdac ma ad yili d azayez neɣ d abadni.
+demographic-deidentified = Talɣut tadimugrafit tafrayant (amedya: awtay, tuzuft, tutlayt akked ususru) ad tettwaqqen ɣer ikalasen-ik daɣen ur d-ttwaskanen ara i yimdanen ɣef umaɣnu-ik.
+username-email-not-demographic = Isem-ik n useqdac akked tansa-ik imayl ur d-ttwaqqanen ara ɣer yisefka-ik izuyaz.
 
 ## Speak & Listen Shortcuts
 
@@ -270,29 +293,72 @@ file_too_large = Afaylu ittwafernen meqqer aṭas
 manage-subscriptions = Sefrekajerred
 email-already-used = Imayl ittuseqdec yakan i umiḍan nniḍen
 add-language = Rnu tutlayt
+change-email-setings = Beddel tansa-ik imayl deg yiɣewwaṛen, tigezmi Timagit n tuqqna
 
 ## FAQ
 
 faq-title = Isteqsiyen i yezgan ttuɣalen-d
-faq-what-q = D acu-t Common Voice?
-faq-what-a = Titiknulujiyin n uɛqal n taɣect zemrent ad d-glunt s tegrawla deg temyigawt akked timacinin, acu kan inagrawen yellan akka tura ɣlayit nezzeh, ɣur-sen imawlan-nsen. Common Voice d asenfaṛ yebɣan ad yerr tatiknulujit-agi tettwakcam i yal yiwen. Immttekkiyen ad bḍun taɣect-nsen deg taffa n yisefka meqqren, tin ara yeǧǧen yal yiwen akken ad d-yesnulfu isnasen i yesseqdacen taɣect s zreb, s wudem fessusen . Isefka meṛṛa n taɣect, ad ttwasersen baṭel i yineflayen deg umaḍal.
-faq-important-q = Acuɣer i yesɛa azal?
-faq-important-a = Taɣect d tagamant, taɣect d ayla n umdan. D abrid yellan d afessas i ummeslay. Nebγa d akken ineflayen ad izmiren i usali n usenfar igerrzen, ama d tasuqilt srid neɣ amεiwen n tnedbalt. Maca akka tura ulac ddeqs n yisefka izuyaz akken ad nernu isnasen-agi. Nessaram d akken Common Voice ad yefk i iyneflayen ayen sran meṛṛa.
-faq-get-q = Amek i zemreɣ ad afeɣ isefka n Common Voice?
-faq-get-a = Tagrumma n yisefka tella deg <downloadLink>usebter n usider </downloadLink> ddaw n turagt <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Acuɣeṛ asenfaṛ n Common Voice ittekka di leqdic n Mozilla?
-faq-mission-a = Mozilla iswi-is d aḥraz n web yeldin, yettwakcamen i yal yiwen. Akken ad naweḍ lebɣi-a, yessefk ad nmudd ifecka am Common Voice i wid i d-yesnulfuyen. Titiknulujiyin n taɣect ttnulfuyent-d di kra n yimeḍqan, numen daɣen d akken zemrent ad ttwasqedcent akken ilaq. Nwala d akken ilaq ad nseddu ugar n tutlayin, isusruyen akked iwtayen i tmerna d usekyed n titiknulujiyin n taɣect. Mozilla tebɣa Internet urmid, s tezmert yelhan. Ayagi ad d-yeglu s umuddu n unekcum i wid i d-yesnulfuyen di web, ar isefka n taɣect i yezemren ad sqedcen deg isenfaṛen imaynuten. Common Voice ad yuɣal d taɣbalut tazayezt ara yemudden afus i trebbaɛ n Mozilla akked ineflayen n umaḍal meṛṛa.
-faq-native-q = { $lang } mačči d tameslayt-iw tayemmat. Ttmeslayeɣ-tt acu kan txuṣṣ kra. Teḥwaǧem taɣect-iw ɣas akka?
-faq-native-a = Ih, nesra taɣect-ik! Kra n yiḥricen seg iswiyen n Common Voice d alqaḍ n ddeqs n isusruyen akken timacinin ad izmirent ad gzunt akken iwata taɣect n yal yiwen ticki yettmeslay.
-faq-firefox-q = Ahat aɛqal n taɣect ad yekcem albaɛḍ n wussan ar Firefox s useqdec n Common Voice?
-faq-firefox-a = Common Voice ɣur-s tazmert ur nesɛi talast, daɣen neslaḍ aseqdec n yigrudmawen n taɣect di ddeqs n yiseɣzanen n Mozilla, gar-asen Firefox.
-faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad t-yesɛu yimesli akken ad yettwaseqdec?
-faq-quality-a = Nebɣa taɣara tameslawt ara d-yemmager umsedday n uɛqal n taɣect di tmeddurt n yal ass. Nesra ihi tanḍa. Ayagi ad yesleɣmu amsedday akken ad yerr di leḥsab ddeqs n waddaden : ammeslay deg ugilal, ahiten neɣ lḥes n yimseddayen n yisezwayen.
-faq-hours-q = Acuɣer 10 000 n isragen n yimesla i nebɣa ad nsekles?
-faq-hours-a = Hatan meḥsub d amḍan n yisefka ilaqen ad yili akken ad nheggi taneɣruft n uselmed n unagraw n ufares n uɛqal n taɣect STT.
-faq-source-q = Ansa i d-ekkan iḍrisen i usekles n taɣect?
-faq-source-a1 = Tifyar akka tura kkant-d seg uttekki n yal yiwen akked idiwenniyen n yisura izuyaz am <italic>Tudert tecbeḥ</italic>.
-faq-source-a2 = Tifyar tiɣbula ad ten-tafeḍ <dataLink>deg ukaram-agi</dataLink> di GitHub.
+faq-what-cv-q = D acu-t Common Voice?
+faq-what-cv-a = Titiknulujiyin n uɛqal n taɣect wwin-d tagrawla deg temyigawt akked tmacinin, maca inagrawen yellan ɣlay-it daɣen ɣur-sen imawlan. Common Voice yella gar yirmuden n Mozilla i yettnadin ad tesnerni titiknulujiyin n uɛqal n taɣect, daɣen ad ten-terr ttwakcamen i yal yiwen. Common Voice d taffa n yisefka n taɣect tameqqrant ara yeǧǧen yal yiwen ad ten-yesseqdec i usnulfu n tneɣrufin s zreb, s wudem fessusen i yisnasen yesseqdacen taɣect, deg yal tutlayt.
+faq-why-important-q = Acuɣer d axater?
+faq-why-important-a =
+    Sumata taɣect d allal agaman n teywalt gar yimdanen, daɣen titiknulujiyin n taɣect gellunt-d s tefsas i yiselkimen akked yibenkan izirazen. Nebɣa ad nmudd i yineflayen allal i usnulfu n yisnasen n uɛqal n taɣect izaden, am yimsuqal s wakud ilaw akked imaragen umḍinen s tladna n taɣect. Maca akka tura, tuget n yisefka n taɣect ilaqen i usnulfu n wanaw-a n yisnasen ɣlay-it daɣen ɣur-sen imawlan-nsen. Nessaram d akken tagrumma n yisefka n Common Voice ad tmudd i yineflayen ayen sran akken ad d-snulfun daɣen ad erren tatiknulujit n taɣect tella deg tutlayt-nsen.
+    
+    Akken ad yuɣal uɛqal n taɣect d agraɣlan ugar, ad d-nelqeḍ tukkisin n taɣect deg tutlayin yettwameslayen s ṭaqa, daɣen ula d tid yesɛan drus n wid i tent-yettmeslayen, tid ur nufi ara iman-nsent des yimeẓla yettnuzun. Asuffeɣ n tegrumma n yisefka yemgaraden, ad yeǧǧ ineflayen, wid yesseftayen tadrimt akken trebbaɛ timesnilesin ad faṛsent tagnit seg-waya.
+faq-how-get-q = Amek zemreɣ ad d-awiɣ isefka n Common Voice?
+faq-how-get-a = Tagrumma n yisefka Common Voice tella i usider maca s uqadeṛ n tewtilin n turagt <licenseLink>CC0</licenseLink> deg <datasetLink>usebtere-nneɣ n tegrumma n yisefka</datasetLink>. Tzemreḍ daɣen ad tessidreḍ tigrummiwin-nniḍen tizuyaz seg usebter-nni.
+faq-when-release-q = Melmi ara d-ffɣen yisefka n Common Voice deg tutlayin-nniḍen?
+faq-when-release-a = Lqem s ddeqs n tutlayin n tagrumma n yisefka Common Voice ad tettwanbay daɣen ad tettwasizdeg akka tura sɣur tarbaɛt. MA tebɣiḍ ad teẓreḍ ɣef waya, <contactLink>nemes-aɣ-d</contactLink> ma ulac aɣilif. Nessaram ad d-ffɣen s wudem unṣib deg Yennayer 2019. Sakin ad d-nessuffuɣ ileqman si sya ɣer da s yikalasen imaynuten akken tutlayin-nniḍen, ticki heggant. Aql-aɣ ad nettnadi tawala neɣ imecwaṛen amek ara d-teffɣen ɣer zdat.
+faq-why-mission-q = Acuɣer Common Voice yettekka deg tuɣdaḍt n Mozilla?
+faq-why-mission-a = Mozilla iswi-is d aḥraz n web yeldin, yettwakcamen i yal yiwen. Akken ad naweḍ lebɣi-a, yessefk ad nmudd ifecka am Common Voice i wid i d-yesnulfuyen. Titiknulujiyin n taɣect ttnulfuyent-d deg kra n yimeḍqan, numen daɣen d akken yessefk ad faṛsent seg-sent yimdanen meṛṛa. Nwal d akken ilaq ad nseddu ugar n tutlayin, isusruyen akked tsutiwin yemgaraden i usnulfu akked usekyed n titiknulujiyin n taɣect. Mozilla tebɣa Internet urmid, s tezmert yelhan. Ayagi ad d-yeglu s umuddu n unekcum ɣer yisefka n taɣect i wid i d-yesnulfuyen deg Web, akken ad izmiren ad ten-sqedcen deg yisenfaṛen imaynuten. Common Voice ad yuɣal d taɣbalut tazayezt ara imudden tallelt i yigrawen n Mozilla akked ineflayen deg umaḍal meṛṛa.
+faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Speech?
+faq-what-cv-and-deepspeech-a = Tagrumma n yisefka Common Voice ad ternu ad teččaṛ amsedday Deep Speech n uɛqal n taɣect n uɣbalu yeldin. Lqem amenzu n Deep Speech yeffeɣ-d deg Wamber 2017, syin ikemmel anerni. Lwaḥid akked tegrumma n yisefka Common Voice, numen d akken tatiknulujit n uɛqal n taɣect n uqbalu yeldin yessefk ad tili i yal yiwen. Nessaram d akken titiknulujiyin-a ad eǧǧent ineflayen ad d-snulfun ddeqs n yifarisen akked imeẓla imaynuten.
+faq-is-goal-assistant-q = Iswi n Common Voice d timerna n yimaragen n taɣect?
+faq-is-goal-assistant-a = Iswi n tegrumma n yisefka n Common Voice d asireg i yal yiwen deg umaḍal akken ad d-yesnulfu isnasen n uɛqal n taɣect, tifin n wid yettmeslayen, neɣ yal anaw n usnaw i yesseqdacen taɣect. Amarag n taɣect d yiwen seg yisnasen i yezemren ad yettwag s useqdec n tegrumma n yisefka.
+faq-do-want-native-q = Nekk mačči d tameslayt-iw tayemmat maca ɣur-i kra n ususru, teḥwaǧem taɣect-iw ɣas akka?
+faq-do-want-native-a = Ih, nebɣa ladɣa taɣect-ik! Yiwen seg yiswiyen n Common Voice d alqaḍ n ususru yemgaraden, akken ulac imdanen ara yettwazeglen deg yimeẓla n uɛqal n taɣect. Ayagi yemmal-d d akken imttekkiyen deg tutlayt ur yellin ara d tutlayt-nsen tayemmat d ayen ilaqen nezzeh.
+faq-why-different-speakers-q = Acuɣer tesriḍ ddeqs n yisusruyen seg wid yettmeslayen yal tutlayt?
+faq-why-different-speakers-a =
+    Tuget n taffiwin n yisefka n taɣect bnant ɣef kra n tdimugrafin, ayen i d-yeglan s kra n usmenyef i  <articleLink> irgazen d tneɣrit talemmast</articleLink>. Isusruyen akked tutlayin ur d-nettban ara  s waṭas d tid n yimdanen yuɣalen yakan deg rrif. Ihi, deg ṭaqa, timacinin ur zmirent ara ad ɛeqlent tuɣac n tlawin.
+    Ɣef aya i nebɣa ddeqs n yisusruyen d yimdanen deg taffa-nneɣ n yisefka.
+faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
+faq-why-my-lang-a = Mozilla ur tferren ur tetteg maḥyaf gar tutlayin. Common Voice tqeddec deg-s terbaɛt n yimdanen seg umaḍal meṛṛa, maca laqen <multilangLink>ddeqs n yimecwaṛen i tmerna n tutlayt</multilangLink> daɣen ad yizmir umdan ad d-yelqeḍ tifyar. Deg tazwara, yessefk ad yettwasideg meṛṛa usmel web n Common Voice. Sakin, nesra ddeqs n yiḍrisen ilelliyen akken imdanen ad izmiren ad ten-id-ɣren. Ticki ihegga waya, tutlayt ad tekker deg Common Voice, daɣen imttekkiyen ad izmiren ad skelsen neɣ ad sneqden ikalasen.
+faq-what-quality-q = D acu-t uswir n tɣara n umeslaw i yelaqen i tukkisin yellan deg taffa n yisefka?
+faq-what-quality-a = Nessaram d akken tagrumma n yisefka Common Voice ad terr udem n tɣara tameslawt ara d-yemmager unagraw n taɣect deg tilawt, ihi nesra ddeqs n ususru yemgaraden. Ɣer tama n terbaɛt yemmalen amgarad wessiɛen n wid yettmeslayen, tagrumma n yisefka s tɣara timeslit yemgaraden ad iselmed amsedday n uɛqal n taɣect amek ara yegzu taɣect deg tudert n yal ass, ama s udiwenni deg ugilal neɣ ṣṣut n tkeṛṛust. Ma yella tukkisin ttwafhament, ihi yelha i tegrumma n yisefka.
+faq-why-10k-hours-q = Acuɣer iswi n 10 000 n yisragen imeslawen?
+faq-why-10k-hours-a = Hatan meḥsub d amḍan n yisefka i ilaqen ad ilin i usnulfu n unagraw n uɛqal n taɣect s tɣara ifazen.
+faq-how-calc-hours-q = Amek i iḥitteb Common Voice isragen?
+faq-how-calc-hours-a = Nteg aktazal n teɣzi talemmast n yal akalas, sakin ad t-newwet ɣef umḍan n yikalasen deg tutlayin meṛṛa.
+faq-where-src-from-2-q = Ansa i d-yekka uḍris aɣbalu?
+faq-where-src-from-2-a =
+    Aḍris-nneɣ aɣbalu gan-t imttekkiyen neɣ adiwenni seg yisura n taɣult tazayezt am <italic>tsekla taɣerfnat</italic>, <italic>iznan neɣ tamedyzet taɣerfant</italic>, <italic>timucuha</italic>.
+    
+    Tzemreḍ ad twaliḍ iɣbula n tefyar-nneɣ deg <githubLink> ukaram-a GitHub</githubLink>.
+faq-why-not-ask-read-q = Acuɣer ur nessutur ara i yimdanen ad d-ɣren idlisen neɣ imagraden n Wikipedia deg tutlayin-nniḍen?
+faq-why-not-ask-read-a = Akken ad neḍmen afellay n useqdec deg tegrumma n yisefka n Common Voice, negzem-itt deg ṛṛay ad nmudd kan tasiregt n uḍris aɣbalu s turagt Creative Common (cc0). Aseqdec n turagt cc0 ad yerr alqaḍ n yiḍrisen yewɛer ugar, maca ad yeḍmen d akken sekra win ara yesqedcen tagrumma n yisefka mebla aeḥreṣ neɣ tasiregt sɣur Mozilla. Rnu ɣef waya, nebɣa d akken tagrumma n yisefka n ddeqs n tutlayin ad tenfeɛ meṛṛa, ama d imnadiyen, tisdawiyin, tikebbaniyin startup, inabaḍen, neɣ tuddsiwin akked wid iḥemmlen aḥric-a.
+faq-why-account-q = Acuɣer ilaq ad rnuɣ amiḍan?
+faq-is-account-public-q = Talut n umiḍan-iw ad tt-walin medden?
+faq-how-privacy-q = Amek ara tḍemneḍ asedreg akked uqadeṛ n tudert tabaḍnit n yimttekkiyen?
+faq-how-privacy-a = Meṛṛa tukkisin deg tegrumma ad ttwasefḍent seg telɣut ara yeǧǧen tummla n yimdanen. Ticki imttekki imudd-d talɣut tadimugrafit deg umaɣnu-is, timagit ad tettwakkes seg tukkisin ara d-yettwasidren, daɣen urgin ad tban s wudem azayez deg usebter n umaɣnu.
+faq-what-determine-identity-q = Acu i d anamek n ur zmireɣ ara "ad d-afeɣ timagit" n wid yettmeslayen deg tegrumma n yisefka n Common Voice?
+faq-what-determine-identity-a =
+    Tagrumma n yisefka Common Voice d taɣbalut tazayezt yeldin i yemren ad tettwaseqdec i usleɣmu n ddeqs n yisefka i yisnasen yesseqdacen taɣect. Akken ad nessiǧhed taɣellist n yimttekkiyen, ad nessuter yal yiwen ara yessidren tagrumma n yisefka Common Voice akken ad iqadeṛ tabadnit n yimttekkiyen.
+    
+    Akk tukkisin ad tettwakkes seg-sent telɣut ara yeǧǧen tifin n wid yettmeslayen. Ticki tessidreḍ-d taffa n yisefka, ad tqebleḍ d akken ur tettaɛraḍeḍ ara ad tafeḍ timagit n yimttekkiyen. Aya yemmal-d d akken ur yessefk ara ad tafeḍ assaɣ gar tagrumma n yisefka akked telɣut tudmawant n yimttekki. Maca tzemreḍ ad tesqedceḍ tagrumma n yisefka akken ad tesnulfuḍ taneɣruft n uɛqal n taɣect, neɣ tigin n wassaɣ gar tagrumma n yisefka akked telɣut yellan deg-s.
+
+## Glossary
+
+glossary = Amawal
+localization = Asideg
+localization-explanation = D akala-nneɣ i tsuqilt akked uṣeggem n ugbur i ddeqs n tutlayin.
+sentence-collection = Alqaḍ n tefyar
+sentence-collection-explanation = Lqeḍ-d tifyar n taɣult tazayezt, neɣ aru tifyar tmayutin ara yilin deg taɣult tazayezt.
+hours-recorded-explanation = Amḍan n yisragen n usukles n taɣect i d-nelqeḍ akka ar tura.
+hours-validated-explanation = Amḍan n yisragen n usekles n taɣect i yettwaqeblen xarṣum sɣur sin neɣ kraḍ n yiseqdacen i yefrnen "Ih". Ayagi yemmal-d asfari n yiswi n 10 000 n yisragen n usenfaṛ.
+sst = Aɛqal n taɣect (STT)
+sst-explanation = Titiknulujiyin n uɛqal n taɣect (STT) ad selketen taɣect ɣer uḍris.
+de-identified = Kkes timagit
+de-identified-explanation = D akala ara yeǧǧen asimgired gar telɣut tudmawant n yimttekkiyen akked tukkisin deg uheggi n tegrumma n yisefka.
 
 ## NotFound
 
@@ -449,8 +515,13 @@ validations =
 
 ## Dashboard
 
+your-languages = Tutlayin-inek
 toward-next-goal = Ɣer iswi i d-iteddun
-stats = Addaden
+clips-you-recorded = Tukkisin yettwaskelsen
+clips-you-validated = Tukkisin yettwaqeblen
+todays-recorded-progress = Asfari n Common Voice n tukkisin yettwaskelsen ass-a
+todays-validated-progress = Asfari n Common Voice n tukkinsin yettwaqeblen ass-a
+stats = Tiddadanin
 you = Kečč
 everyone = Yal yiwen
 contribution-activity = Armud n uttekki

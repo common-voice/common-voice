@@ -9,8 +9,8 @@ It required people to settle down.
 As long as there is water in a cooking pot, the temperature cannot rise above a hundred degrees Celsius.
 Proteins have many functions in the human body.
 The same is true for animals.
-Charles Darwin became famous for his evolutionary theory.
-He voyaged on a ship called Beagle.
+Charles Darwin became famous for his theory of evolution.
+He voyaged on a ship called The Beagle.
 Java is not only an island, but also a popular programming language.
 Many programming languages are named after real people.
 Java is not the same as JavaScript.
@@ -63,11 +63,11 @@ It is recommended to drink at least two liters of water a day.
 On warm days and when doing sports you should drink more.
 In Saudi Arabia water is more expensive than oil.
 Most cars have air conditioning these days.
-Turning the air conditioning on leads to an increased fuel consumption.
+Turning the air conditioning on leads to increased fuel consumption.
 Turning off gadgets that are not in use can save a lot of energy.
-One of the world's biggest problems is the growth of human population.
+One of the world's biggest problems is the growth of the human population.
 Education is very important.
-Everyone should have the right of education.
+Everyone should have the right to education.
 Many people are not able to use their first language correctly.
 Parents should look out for correct grammar and pronunciation when speaking to their children.
 Reading is not the same as understanding.
@@ -99,7 +99,7 @@ There is a counter on the top left of the web page.
 The moon is responsible for tides on earth.
 The international space station is an awesome project.
 The global positioning system works with triangulation.
-In nineteen-sixty-nine the first man set his foot onto the moon's surface.
+In nineteen-sixty-nine the first man set foot on the moon's surface.
 He bought some tinfoil to build a hat.
 I have the most beautiful voice you have ever heard.
 What he did was definitively illegal.
@@ -127,7 +127,7 @@ The church is right next to the gas station.
 The weather forecast for this week didn't look good at all.
 She couldn't decide which dress to wear.
 The chair lift took them up the mountain.
-To calibrate the motion capturing system, please do a T-pose.
+To calibrate the motion capture system, please do a T-pose.
 The railway station was locked up by the police.
 No-one knows what's behind this gate.
 The runway seems way too short for this type of plane.
@@ -140,7 +140,7 @@ The cake is a lie.
 The restaurant was quite expensive.
 The library is open to everyone.
 He felt unsafe like during his first lesson in driving school.
-She learned how to play the piano in a music school.
+She learned how to play the piano in music school.
 Visiting a university offers great chances for your career.
 James Watt didn't invent the steam engine, but he improved it significantly.
 After the accident, his bicycle had to be repaired.
@@ -155,8 +155,8 @@ Improving the public transport system would help avoid traffic jams.
 Taking the ferry was a wise choice.
 There are four different sorts of fuel at this gas station.
 Diesel is the cheapest one, because of lower taxes.
-His speech ended in standing ovations.
-The motorcycle made loud noise.
+His speech ended with a standing ovation.
+The motorcycle made a loud noise.
 This parking space is for customers only.
 Don't worry, I took a cab to get home safely.
 The teller didn't have enough change.
@@ -169,23 +169,23 @@ Taking part in road traffic is potentially dangerous after donating blood.
 Emoticons are familiar to everyone nowadays.
 There is a social facility on the other side of the road.
 He lost a lot of money through gambling in the casino.
-A new movie is shown the first time in cinema.
+A new movie is shown for the first time in the cinema.
 This picture is pure art.
 A crowd of people stood around the fountain.
 When she entered the dance floor, everyone in the nightclub was looking at her.
 Wikipedia is a non-profit organization.
-The clock of the town center took damage from a lightening strike.
+The clock in the town center was damaged by a lightning strike.
 Water boarding is a terrible form of torture.
 The lawyer successfully defended his client.
-When the judge spoke the death sentence, the defendant showed no emotion.
+When the judge pronounced the death sentence, the defendant showed no emotion.
 They were kissing in the backyard.
 Two women were still missing when the firefighters arrived.
 The agent secretly entered the embassy from the roof.
-The ladder of the fire truck was not long enough.
+The ladder on the fire truck was not long enough.
 How could this happen?
 Linus is known for his clear and explicit language.
 Policemen are investigating in this case.
-Divers found a dead person in the lake.
+Divers found a body in the lake.
 To measure the performance accurately we need a benchmark.
 Many soldiers of world war two have never been buried on a grave yard.
 He went to gym to strengthen his muscles.
@@ -225,11 +225,11 @@ Forty-two is not a random number.
 Lifeguards were standing on a tower, staring at the water.
 Some of them had binoculars.
 Oxygen is important for us, but some bacteria don't need it at all.
-The phone call got interrupted due to unknown reasons.
-He was not able to find words for his feelings.
+The phone call got interrupted for unknown reasons.
+He was not able to find the words for his feelings.
 The motorway is not the fastest connection between Hamburg and Munich.
 Pedestrians were standing on a sidewalk paved with cobblestone.
-Everyone has once heard of the chicken-egg-problem.
+Everyone has heard of the chicken and egg problem.
 The frog had no chance to escape.
 Three-phase alternating current is an efficient way of transmitting energy.
 Bus-only lanes are debated controversially.
@@ -237,17 +237,17 @@ This building has an elevator which is necessary for wheelchairs.
 The path through the forest was unlit and scary.
 It was not clear who had the right of way, since the traffic lights were off.
 The Chinese built a monorail train that floats on a magnetic field.
-Excuse me, nudism is not allowed at this part of the beach.
+Excuse me, nudism is not allowed on this part of the beach.
 Form follows function.
 Laser tag is a game quite similar to paintball.
-Although searching in binary search trees is efficient, you won't find any fruits in there.
+Although searching in binary search trees is efficient, you won't find any fruit in there.
 Salmon is one of the most popular fish and very delicious, though usually not sustainable.
 A group of people, one of them with a guitar, were sitting by the campfire and singing songs.
 Golf stands for the letter G in the NATO phonetic alphabet.
 Compiling the Linux kernel can be time consuming.
 Good playgrounds have much more to offer than swings and slides.
-Sunburns can be avoided by applying sunscreen or by staying in the shadows.
-Bitcoin mining can be done with graphic cards or with specialized hardware.
+Sunburn can be avoided by applying sunscreen or by staying in the shadows.
+Bitcoin mining can be done with graphics cards or with specialized hardware.
 Historic mills were usually powered by water, wind or horse power.
 Inverse kinematics are a mathematical challenge for robot engineers.
 Nobody knows how much ammunition the military has in its checkpoints.
@@ -255,7 +255,7 @@ Salim moved from India to the Netherlands.
 Glaciers are melting because of global warming.
 The peak of this mountain is over two thousand meters above sea level.
 I hope some of the lines make you smile.
-The Tropic of Capricorn is on the Southern Hemisphere of the earth.
+The Tropic of Capricorn is in the Southern Hemisphere.
 Everyone should have health insurance.
 Debian is an operating system which is free as in freedom.
 Football is often confused with soccer.
@@ -264,7 +264,7 @@ Cables need insulation to prevent short circuits.
 Portals are used in many computer games to instantly travel from one place to another.
 Burning fridges, televisions and washing machines are not as unusual as one might think.
 Inline skates are like ice skates, but with wheels instead of blades.
-All beverages in this shop are free of alcohol.
+All beverages in this shop are alcohol free.
 A famous company from Sweden sells furniture in many countries of the world.
 When I have read a million of these sentences, I am going to apply as a professional narrator.
 Without questioning he said what the screen of his computer dictated to him.
@@ -275,7 +275,7 @@ Given only the public key, it is very hard to compute the private one.
 Besides encryption, it can also be used for authentication.
 The process of encrypting the hash value of a message is called digital signature.
 Hash functions are one-way functions with a number of mathematical requirements.
-Strong cryptography can prevent a man in the middle to read a conversation.
+Strong cryptography can prevent a man in the middle from reading a conversation.
 The green lock in the address bar of your browser does NOT mean you can trust the site.
 The system with certificate authorities has some serious issues.
 In symmetric cryptography the same key is used for encryption and decryption.
@@ -300,7 +300,7 @@ Sports, music, cooking and other topics are covered.
 She walked across the street wearing stereo headphones and staring at her smartphone.
 Luckily there was a zebra crossing.
 The high humidity is making me sweat.
-Take a sponge, some dish liquid and a towel, then get to work!
+Take a sponge, some washing up liquid and a towel, then get to work!
 The manual seriously warns about putting budgies into the microwave.
 What's your status?
 Denmark is a pioneer of renewable wind energy.
@@ -316,7 +316,7 @@ He decided to boycott games with digital restriction management in the future.
 Please never throw salami pizza away.
 The movie's epic soundtrack uses classical elements mixed with parts of rock and synthetic bass.
 Stay tuned.
-Wrestling, boxing and karate are well-known examples for martial arts.
+Wrestling, boxing and karate are well-known examples of martial arts.
 Many teens make videos these days, inspired by their role models.
 Sausages, croquettes and broccoli are our meal in the canteen today.
 Without understanding the actual physics, some animals exploit total internal reflection for catching fish.

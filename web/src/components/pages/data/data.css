@@ -24,11 +24,11 @@
         width: calc(50% - var(--dataset-item-margin));
 
         &:nth-child(odd) {
-            margin-right: var(--dataset-item-margin);
+            margin-inline-end: var(--dataset-item-margin);
         }
 
         &:nth-child(even) {
-            margin-left: var(--dataset-item-margin);
+            margin-inline-start: var(--dataset-item-margin);
         }
     }
 }
@@ -41,7 +41,7 @@
     }
 
     & svg {
-        margin-right: 1rem;
+        margin-inline-end: 1rem;
         width: 22px;
         height: 22px;
     }
@@ -201,7 +201,7 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
         background-color: var(--lighter-grey);
 
         & img {
-            margin-right: 1rem;
+            margin-inline-end: 1rem;
         }
     }
 

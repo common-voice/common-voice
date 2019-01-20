@@ -43,13 +43,13 @@ export default async function getGoals(
   let streakDates: string[] = [];
   for (let i = 0; i < rows.length - 1; i++) {
     const dateTime1 = new Date(rows[i].created_at);
-    let lastDateTime;
+    let lastDateTime = dateTime1;
     for (let j = i + 1; j < rows.length; j++) {
       const dateTime2 = new Date(rows[j].created_at);
 
       const streakDays = daysBetween(dateTime2, dateTime1);
       maxStreak = Math.max(maxStreak, streakDays);
-      if (lastDateTime && daysBetween(dateTime2, lastDateTime) >= 1) {
+      if (daysBetween(dateTime2, lastDateTime) >= 1) {
         break;
       } else if (streakDays >= STREAK_THRESHOLDS[streakDates.length]) {
         streakDates.push(dateTime2.toISOString());

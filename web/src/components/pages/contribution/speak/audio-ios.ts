@@ -118,7 +118,7 @@ export default class AudioIOS {
     });
   }
 
-  stop() {
+  stop(): Promise<AudioInfo> {
     return new Promise((res: Function, rej: Function) => {
       // Liten for the next data call from Native, that will
       // have our sound data in base64 format.

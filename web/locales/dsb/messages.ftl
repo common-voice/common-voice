@@ -18,6 +18,7 @@ indicates-required = * Wóznamjenijo trěbne pólo
 ## Languages
 
 ace = Ačehšćina
+af = Afrikanšćina
 an = Aragońšćina
 ar = Arabšćina
 as = Asamšćina
@@ -150,7 +151,7 @@ todays-progress = Źinsajšny póstup
 help-reach-goal = Pomagajśo nam, { $goal } dojśpiś
 read-terms-q = Sćo pśecytał naše wužywańske wuměnjenja?
 ready-to-record = Sćo gótowy, swój głos pósćiś?
-all-languages = Wšykne rěcy
+all-locales = Wšykne
 today = Źinsa
 x-weeks-short =
     { $count ->
@@ -173,6 +174,24 @@ x-years-short =
         [few] { $count } lěta
        *[other] { $count } lět
     }
+help-make-dataset = Pomagajśo nam, zjawnje pśistupnu wótwórjonu datowu sajźbu wusokeje kwality napóraś
+profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
+sign-up-account = Konto załožyś
+
+## Account Benefits
+
+benefits = Lěpšyny
+improve-audio = Profilowe informacije awdiodaty pólěpšuju, kótarež se pśi treněrowanju dokradnosći powědańskego spóznaśa wužywaju.
+keep-track = Mějśo swój póstup a swóje měrjeńske daty za někotare rěcy na wócyma.
+compare-progress = Glědajśo, kak se swój póstup z drugimi sobustatkujucymi z cełego swěta pśirownujo.
+view-goals = Pśirownajśo swój póstup z wósobinskimi a projektowymi celami.
+
+## What's public
+
+whats-public = Co jo zjawne?
+email-not-public = Wašu e-mailowu adresu njewózjawijomy.
+username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
+username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Speak & Listen Shortcuts
 
@@ -278,29 +297,40 @@ file_too_large = Wubrana dataja jo pśewjelika
 manage-subscriptions = Abonementy zastojaś
 email-already-used = E-mailowa adresa se južo za druge konto wužywa
 add-language = Rěc pśidaś
+change-email-setings = E-mailowu adresu w nastajenjach pód pśizjawjeńskeju identitu změniś
 
 ## FAQ
 
 faq-title = Ceste pšašanja
-faq-what-q = Co jo Common Voice?
-faq-what-a = Technologija głosowego spóznaśa mógła wašnju rewolucioněrowaś, z kótarymž z mašinami interagěrujomy, ale tuchylu k dispoziciji stojece systemy su droge a proprietarne. Common Voice jo projekt, kótaryž technologiju głosowego spóznaśa za kuždeho lažko pśistupnu cyni. Luźe masiwnej datowej bance swóje głose dawaju, kótaraž kuždemu zmóžnja, nałoženja za głosowe spóznaśe treněrowaś. Wšykne głosowe daty budu wuwijarjam k dispoziciji.
-faq-important-q = Cogodla jo wažny?
-faq-important-a = Głoss jo pśirodny, głos jo cłowjeski. Jo nejlažčejša a nejpřśrodnjejša wašnja komunikacije. Comy, až wuwijarje mógu fantastiske wěcy napóraś, wót programow, kótarež w napšawdnem casu pśełožuju až do zastojańskich asistentow z głosowym spóznaśim. Ale tuchylu dosć datow njedajo, kótarež su za toś te typy nałoženjow zjawnje k dispoziciji. Naźijamy se, až Common Voice wuwijarjam to dajo, což za inowacije trjebaju.
-faq-get-q = Kak mógu do datow Common Voice pśiś?
-faq-get-a = Datowa sajźba jo něnto na našej <downloadLink>ześěgnjeńskem boku</downloadLink> pód licencu <licenseLink>CC-0</licenseLink> k dispoziciji.
-faq-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
-faq-mission-a = Mozilla se za to zasajźujo, web wótwórjony a za kuždego pśistupny źaržaś. Aby to cyniło, musymy webstwóriśele pśez projekty ako Common Voice wuzamóžniś. Dokulaž głosowe technologije wěcej žedne nišowe nałoženja njejsu, měnimy, až muse wšym wužywarjam w jadnak słužyś. Wiźimy nutnosć, dalšne rěcy, akcenty a demografiske daty zapśimjeś, gaž głosowe technologije wuwijamy a testujomy. Mozilla co strowy a žywy internet. To groni, dawamy nowym stwóriśelam pśistup ku głosowym datam, aby móhli nowe, wurědne projekty napóraś. Common Voice buźo zjawna resursa, kótaraž teamam Mozilla a wuwijarjam z cełego swěta pomaga.
-faq-native-q = { $lang } njejo mója mamina rěc a powědam z akcentom, cośo mój głos?
-faq-native-a = Jo, comy waš głos na kuždy pad měś! Źěl cela Common Voice jo, wjele rozdźělnych akcentow ako móžno zběraś, aby licadła mógli <bold>kuždego </bold> lěpjej rozměś, gaž powěda.
-faq-firefox-q = Buźo raz pśenjasenje grona do teksta pśez Common Voice źěl Firefox?
-faq-firefox-a = Common Voice ma njewobgranicowany potencial a wuslěźujomy napšawdu zwězowańske městna powědanja we wjele produktach Mozilla, inkluziwnje Firefox.
-faq-quality-q = Kaka jo trěbna kwalita za awdio, aby se wužywało?
-faq-quality-a = Comy, až kwalita zwukowych nagraśow zukowu kwalitu wótbłyšćujo, z kótarejuž system głosowego spóznaśa ma w praksy cyniś. Pśeto comy wjelerakosć. To system głosowego spóznaśa wuzamóžnja, ze wšakimi situacijami wobchadaś - z powědanim w slězynje, šumami awtow, šumami fanow - bźez zmólkow.
-faq-hours-q = Cogodla jo 10.000 góźinow cel za zukowe nagraśe?
-faq-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědańskego spóžnaśa treněrowało.
-faq-source-q = Wótkul žrědłowy tekst pśiźo?
-faq-source-a1 = Aktualne sady su se wót sobustatkujucych pśinosowali, ako teke dialog z filmowych scenariskich knigłow, kótarež su zgromadne swójstwo, ako <italic>It's a Wonderful Life.</italic>
-faq-source-a2 = Móžośo se naše žrědłowe sady w <dataLink>toś tom zarědniku GitHub</dataLink> woglědaś.
+faq-what-cv-q = Co Common Voice jo?
+faq-why-important-q = Cogodla jo wažne?
+faq-how-get-q = Kak mógu daty Common Voice dostaś?
+faq-when-release-q = Gdy Common Voice w drugich rěcach wózjawijośo?
+faq-why-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
+faq-what-cv-and-deepspeech-q = Co jo rozdźěl mjazy Common Voice a Deep Speech?
+faq-is-goal-assistant-q = Jo cel Common Voice, głosowy asistent napóraś?
+faq-do-want-native-q = Njejsom maminorěcny a powědam z akcentom, cośo mój głos?
+faq-why-different-speakers-q = Cogodla trjebaśo wjele rozdźělnych powědarjow na rěc?
+faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
+faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w datowej sajźbje wužywał?
+faq-why-10k-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědanje do teksta treněrowało.
+faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
+faq-where-src-from-2-q = Wótkul žrědłowy tekst póchada?
+faq-why-not-ask-read-q = Cogodla luźi njepšosyśo, z knigłow abo nastawkow Wikipedije w rozdźělnych rěcach pśedcytaś?
+faq-why-account-q = Cogodla dejał ja konto załožyś?
+faq-is-account-public-q = Su móje kontowe informacije zjawne?
+faq-how-privacy-q = Kak zawěsćujośo anonymnosć a priwatnosć luźi, kótarež su swóje głose pósćili?
+
+## Glossary
+
+glossary = Glosar
+localization = Lokalizacija
+localization-explanation = To jo naš proces za pśełožowanje a pśiměrjenje našogo wopśimjeśa za wjele lokalow (rěcow).
+sentence-collection = Zběrka sadow
+hours-recorded-explanation = Licba dotychměst nagromaźonych nagratych góźinow.
+sst = Powědanje-do-teksta (STT)
+sst-explanation = Technologije Powědanje-do-teksta (STT) głosowe daty to teksta konwertěruju.
+de-identified = Anonymizěrowane
 
 ## NotFound
 
@@ -465,7 +495,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Waše rěcy
 toward-next-goal = K pśiducemu celoju
+clips-you-recorded = Klipy, kótarež sćo nagrał
+clips-you-validated = Klipy, kótarež sćo pśeglědał
+todays-recorded-progress = Źinsajšny póstup Common Voice za nagrate klipy
+todays-validated-progress = Źinsajšnyi póstup Common Voice za pśeglědane klipy
 stats = Statistika
 you = Wy
 everyone = Kuždy
