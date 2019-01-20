@@ -113,7 +113,7 @@ zh-TW = چینی (تایوان)
 
 ## Layout
 
-speak = صحبت
+speak = گفتن
 speak-now = اکنون صحبت کنید
 datasets = مجموعه‌ی داده‌ها
 languages = زبان‌ها
