@@ -250,8 +250,10 @@ english = Jendźelšćina
 
 profile-form-username =
     .label = Wužiwarske mjeno
-profile-form-language =
-    .label = Rěč
+profile-form-native-language =
+    .label = Maćeršćina
+profile-form-additional-language =
+    .label = Přidatna rěč
 profile-form-accent =
     .label = Akcent
 profile-form-age =
