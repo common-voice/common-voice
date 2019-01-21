@@ -251,8 +251,10 @@ english = Angol
 
 profile-form-username =
     .label = Felhasználónév
-profile-form-language =
-    .label = Nyelv
+profile-form-native-language =
+    .label = Anyanyelv
+profile-form-additional-language =
+    .label = További nyelv
 profile-form-accent =
     .label = Akcentus
 profile-form-age =
