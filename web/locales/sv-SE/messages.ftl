@@ -248,8 +248,8 @@ english = Engelska
 
 profile-form-username =
     .label = Användarnamn
-profile-form-language =
-    .label = Språk
+profile-form-additional-language =
+    .label = Ytterligare språk
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
