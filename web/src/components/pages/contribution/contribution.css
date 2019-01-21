@@ -128,7 +128,7 @@
                 }
 
                 &:first-child {
-                    margin-right: 40px;
+                    margin-inline-end: 40px;
                 }
 
                 &.active {
