@@ -241,8 +241,10 @@ english = 英语
 
 profile-form-username =
     .label = 用户名
-profile-form-language =
-    .label = 语言
+profile-form-native-language =
+    .label = 本土语言
+profile-form-additional-language =
+    .label = 附加语言
 profile-form-accent =
     .label = 口音
 profile-form-age =
