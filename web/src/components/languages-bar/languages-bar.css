@@ -26,8 +26,9 @@
     }
 
     & .languages {
+        display: flex;
+
         @media (--xs-only) {
-            display: flex;
             flex-direction: column;
             justify-content: space-between;
         }
