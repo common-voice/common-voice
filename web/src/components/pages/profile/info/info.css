@@ -75,9 +75,10 @@
     & .add-language {
         display: flex;
         justify-content: center;
+        direction: ltr;
 
         & :first-child {
-            margin-inline-end: 25px;
+            margin-right: 25px;
         }
 
         & :nth-child(2) {
