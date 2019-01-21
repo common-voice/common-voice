@@ -245,8 +245,10 @@ english = Inglês
 
 profile-form-username =
     .label = Nome
-profile-form-language =
-    .label = Idioma
+profile-form-native-language =
+    .label = Idioma nativo
+profile-form-additional-language =
+    .label = Idioma adicional
 profile-form-accent =
     .label = Sotaque
 profile-form-age =
