@@ -17,6 +17,7 @@ indicates-required = * Wajib diisi
 
 ## Languages
 
+ab = Abkhaz
 ace = Bahasa Aceh
 af = Bahasa Afrikaans
 an = Bahasa Aragon
