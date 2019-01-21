@@ -245,8 +245,10 @@ english = anglese
 
 profile-form-username =
     .label = Nomine de usator
-profile-form-language =
-    .label = Lingua
+profile-form-native-language =
+    .label = Lingua native
+profile-form-additional-language =
+    .label = Lingua additional
 profile-form-accent =
     .label = Accento
 profile-form-age =
