@@ -252,8 +252,10 @@ english = انگلیسی
 
 profile-form-username =
     .label = نام کاربری
-profile-form-language =
-    .label = زبان
+profile-form-native-language =
+    .label = زبان مادری
+profile-form-additional-language =
+    .label = زبان دوم
 profile-form-accent =
     .label = لهجه
 profile-form-age =
