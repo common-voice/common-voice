@@ -163,6 +163,12 @@ data-other-title = Даҽа абжьытә дыррақәа реизга...
 data-other-goto = { $name } ииастәуп
 data-other-download = Адыррақәа ихҩылаатәуп
 data-other-ted-name = TED-LIUM аизганҵа
+data-bundle-button = Адырра-аизга аилаҳәара ихҩылаатәуп
+license = Алицензиа <licenseLink>{ $license }</licenseLink>
+license-mixed = Еилаԥсоуп
+terms-agree = Сақәшаҳаҭуп
+terms-disagree = Сақәшаҳаҭӡам
+review-submit-title = Агәаҭареи Ашьҭреи
 
 ## Download Modal
 
