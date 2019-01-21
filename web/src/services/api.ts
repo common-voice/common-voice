@@ -54,6 +54,7 @@ export default class API {
     const response = await fetch(path, {
       method: method || 'GET',
       headers: finalHeaders,
+      credentials: 'same-origin',
       body: body
         ? body instanceof Blob
           ? body
