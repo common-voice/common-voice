@@ -169,6 +169,10 @@ license-mixed = Еилаԥсоуп
 terms-agree = Сақәшаҳаҭуп
 terms-disagree = Сақәшаҳаҭӡам
 review-submit-title = Агәаҭареи Ашьҭреи
+review-recording = Агәаҭара
+review-rerecord = Аиҭаҭаҩра
+review-cancel = Ашьҭра мап ацәктәуп
+review-keep-recordings = Анҵарақәа иааныжьтәуп
 
 ## Download Modal
 
