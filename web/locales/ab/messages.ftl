@@ -173,6 +173,7 @@ review-recording = Агәаҭара
 review-rerecord = Аиҭаҭаҩра
 review-cancel = Ашьҭра мап ацәктәуп
 review-keep-recordings = Анҵарақәа иааныжьтәуп
+review-delete-recordings = Сынҵарақәа ықәгатәуп
 
 ## Download Modal
 
