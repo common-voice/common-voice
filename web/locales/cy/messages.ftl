@@ -263,8 +263,10 @@ english = Saesneg
 
 profile-form-username =
     .label = Enw Defnyddiwr
-profile-form-language =
-    .label = Iaith
+profile-form-native-language =
+    .label = Iaith Frodorol
+profile-form-additional-language =
+    .label = Iaith Ychwanegol
 profile-form-accent =
     .label = Acen
 profile-form-age =
