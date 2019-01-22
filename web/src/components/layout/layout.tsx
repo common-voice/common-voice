@@ -71,10 +71,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   componentDidMount() {
     this.scroller.addEventListener('scroll', this.handleScroll);
-    setTimeout(() => {
-      import('../pages/contribution/speak/speak');
-      import('../pages/contribution/listen/listen');
-    }, 1000);
     this.visitHash(this.props);
   }
 
