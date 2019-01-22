@@ -272,6 +272,7 @@ header {
         color: var(--red);
 
         & svg {
+            margin-inline-start: -9px;
             height: 15px;
         }
 
