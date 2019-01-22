@@ -245,8 +245,8 @@ english = Ingelesa
 
 profile-form-username =
     .label = Erabiltzaile-izena
-profile-form-language =
-    .label = Hizkuntza
+profile-form-native-language =
+    .label = Ama hizkuntza
 profile-form-accent =
     .label = Azentua
 profile-form-age =
