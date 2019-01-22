@@ -8,7 +8,7 @@
 
         position: absolute;
         bottom: 30px;
-        right: 0;
+        inset-inline-end: 0;
 
         font-size: var(--font-size-xs);
         color: var(--warm-grey);
@@ -80,7 +80,7 @@
 
         & .triangle {
             position: absolute;
-            right: 12px;
+            inset-inline-end: 12px;
             border-left: 8px solid transparent;
             border-right: 8px solid transparent;
             border-top: 10px solid var(--white);
