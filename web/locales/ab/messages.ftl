@@ -102,8 +102,6 @@ english = Англыз
 
 ## ProfileForm
 
-profile-form-language =
-    .label = Абызшәа
 profile-form-accent =
     .label = Ацәажәашьа
 profile-form-age =
@@ -177,6 +175,7 @@ review-delete-recordings = Сынҵарақәа ықәгатәуп
 
 ## Download Modal
 
+download-title = Ухҩылаара иалагеит.
 
 ## Contact Modal
 
