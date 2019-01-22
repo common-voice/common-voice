@@ -241,8 +241,10 @@ english = Tiếng Anh
 
 profile-form-username =
     .label = Tên đăng nhập
-profile-form-language =
-    .label = Ngôn ngữ
+profile-form-native-language =
+    .label = Ngôn ngữ chính
+profile-form-additional-language =
+    .label = Ngôn ngữ bổ sung
 profile-form-accent =
     .label = Giọng vùng miền
 profile-form-age =
