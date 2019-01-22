@@ -203,10 +203,12 @@ language-section-in-progress = Анагӡара иаҿуп
 language-section-launched = Аус зыруу
 languages-show-more = Арҭбаара
 languages-show-less = Армаҷра
+language-speakers = Рацәажәо
 language-meter-in-progress = Анагӡара
 language-total-progress = Зегь амҽханакра
 language-search-input =
     .placeholder = Аԥшаара
+language-speakers = Рацәажәо
 localized = Иҭыԥркуп
 sentences = Аҳәоуқәа
 total-hours = Ирӷәӷәаны сааҭқәа
@@ -217,6 +219,7 @@ action-click = Ақәықшара
 action-tap = Акьысра
 contribute = Агәылаҵа уҭагала
 listen = Аӡырҩра
+skip = Абжьажьра
 
 ## Goals
 
