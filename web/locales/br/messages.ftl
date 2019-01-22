@@ -8,7 +8,7 @@ email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
-email-opt-in-privacy = En ur asantiñ d'ar fet da resevout posteloù, e tiskouezit bezañ a-du war ar fet ma verfe Mozilla an titouroù-mañ evel ma vez displeget e-barzh <privacyLink>Politikerezh Prevezded<privacyLink> Mozilla.
+email-opt-in-privacy = En ur asantiñ da zegemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fed buhez prevez<privacyLink> Mozilla.
 indicates-required = * A ziskouez ar maeziennoù rekizet
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
