@@ -207,9 +207,16 @@ language-meter-in-progress = Анагӡара
 language-total-progress = Зегь амҽханакра
 language-search-input =
     .placeholder = Аԥшаара
+localized = Иҭыԥркуп
+sentences = Аҳәоуқәа
+total-hours = Ирӷәӷәаны сааҭқәа
 
 ## New Contribution
 
+action-click = Ақәықшара
+action-tap = Акьысра
+contribute = Агәылаҵа уҭагала
+listen = Аӡырҩра
 
 ## Goals
 
