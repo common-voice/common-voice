@@ -201,7 +201,12 @@ request-language-form-language =
 
 language-section-in-progress = Анагӡара иаҿуп
 language-section-launched = Аус зыруу
-languages-show-less = Ирмаҷтәуп
+languages-show-more = Арҭбаара
+languages-show-less = Армаҷра
+language-meter-in-progress = Анагӡара
+language-total-progress = Зегь амҽханакра
+language-search-input =
+    .placeholder = Аԥшаара
 
 ## New Contribution
 
