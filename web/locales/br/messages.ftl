@@ -186,21 +186,21 @@ x-years-short =
         [many] a vloazioù
        *[other] bloaz
     }
-help-make-dataset = Skoazellit ac'hanomp da sevel un diaz-roadennoù publik, digor hag a galite uhel
-profile-not-required = Kaout ur profil neket un dra ret met evit kemeret-perzh met talvoudus eo memestra
-sign-up-account = Lakait hoc'h anv evit ur gont
+help-make-dataset = Skoazellit ac'hanomp da sevel un diaz-roadennoù foran, digor hag a galite uhel
+profile-not-required = Kaout ur profil n'eo ket un dra ret met evit kemer perzh met talvoudus eo memestra
+sign-up-account = Krouit ur gont
 
 ## Account Benefits
 
-benefits = Avañtajoù
-rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù demografiezh. Dizemografiezhaat a reomp kement roadenn demografiezh a-raok o lakaat foran.
+benefits = Spletoù
+rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù  poblañsouriezh. Dizenvel a reomp kement roadenn poblañsouriezh a-raok o lakaat foran.
 
 ## What's public
 
-whats-public = Petra a zo publik?
-email-not-public = Ne lakaimp ket publik ho chomlec'h postel.
-recordings-and-locale-public = An niver a enrolladennoù ha peseurt yezh a harpit a vo publik.
-username-optin-public = Gellout a reer lakaat publik pe dizanv hoc'h anv-implijer.
+whats-public = Petra a zo foran?
+email-not-public = Ne lakaimp ket foran ho chomlec'h postel.
+recordings-and-locale-public = An niver a enrolladennoù hag ar yezhoù a gemerit perzh eno a vo foran.
+username-optin-public = Gellout a raer lakaat foran pe dizanv hoc'h anv-implijer.
 
 ## Speak & Listen Shortcuts
 
@@ -250,8 +250,6 @@ english = Saozneg
 
 profile-form-username =
     .label = Anv implijer
-profile-form-language =
-    .label = Yezh
 profile-form-accent =
     .label = Pouez-mouezh
 profile-form-age =
@@ -317,13 +315,13 @@ faq-why-important-q = Abalamour da betra e vez a-bouez?
 ## Glossary
 
 glossary = Geriaoueg
-localization = Lec'heladur
-sentence-collection = Dastumad frazennoù
-hours-recorded-explanation = An niver a eurvezhioù enrollañ  hag a zo bet dastumet ganeomp betek-hen.
+localization = Lec'hiadur
+sentence-collection = Dastumadeg frazennoù
+hours-recorded-explanation = An niver a eurvezhioù enrollañ hag a zo bet dastumet ganeomp betek-hen.
 hours-validated-explanation = Niver a eurvezhioù enrollañ mouezh gwiriekaet gant 2 pe 3 implijer gant ur vot "Ya". Ar re-se a verk pal hollek ar raktres hag a zo da dizhout, 10 000 eurvezh.
 sst = Komz-da-destenn (KDD)
-sst-explanation = Teknologiezhioù komz-da-destenn (KDD) a goñvertiso roadennoù mouezh e testennoù.
-de-identified = Dizanv-et
+sst-explanation = Teknologiezhioù komz-da-destenn (KDD) a amdroy roadennoù mouezh e testennoù.
+de-identified = Dizanvet
 
 ## NotFound
 
@@ -489,8 +487,8 @@ your-languages = Ho yezhoù
 toward-next-goal = Betek ar pal da zont
 clips-you-recorded = Klipoù enrollet ganeoc'h
 clips-you-validated = Klipoù ho peus gwiriekaet
-todays-recorded-progress = Aet eo war-raok Common Voice war an niver a glipoù enrollet
-todays-validated-progress = Aet eo war-raok Common Voice war an niver a glipoù gwiriekaet
+todays-recorded-progress = Araokadenn Common Voice an devezh war an niver a glipoù enrollet
+todays-validated-progress = Araokadenn Common Voice an devezh war an niver a glipoù gwiriekaet
 stats = Stats
 you = C'hwi
 everyone = An holl
@@ -506,6 +504,6 @@ overall-accuracy = Spisder hollek
 delete-q = Ha fellout a ra deoc'h goulenn ivez ma vefe dilamet hoc'h enrolladennoù, pe mod-all e kavit gwelloc'h e vefent miret e-barzh diaz-roadennoù Common Voice?
 keep = Mirout
 remove = Dilemel
-keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh diaz-roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest kas ur goulenn dilemel ken war hoc'h enrolladennoù diwar an diaz-roadennoù
-remove-info = Sellout a raimp a dostoc'h d'ho koulenn dilamadur enrolladennoù mouezh diwar an hollad roadennoù. Ma vez aprouet ho koulenn, mont a raimp e darempred gant an dud o deus pellgarget an diaz-roadennoù hag e c'houlennimp dilemel diganto dilemel hoc'h enrolladennoù ken eeun ha tra.
+keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh diaz-roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest da gas ur goulenn dilemel ken war hoc'h enrolladennoù diwar an diaz-roadennoù
+remove-info = Sellout a raimp a dostoc'h d'ho koulenn dilamadur enrolladennoù mouezh diwar an hollad roadennoù. Ma vez aprouet ho koulenn ez aimp e darempred gant an dud o deus pellgarget an diaz-roadennoù hag e c'houlennimp diganto dilemel hoc'h enrolladennoù ivez.
 profile-form-delete = Dilemel ar profil
