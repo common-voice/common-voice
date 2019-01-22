@@ -176,9 +176,20 @@ review-delete-recordings = Сынҵарақәа ықәгатәуп
 ## Download Modal
 
 download-title = Ухҩылаара иалагеит.
+download-form-email =
+    .label = Уԥошьҭа ҭаугал
+    .value = Иҭабуп, аимадарахь ҳаҟоуп.
+download-back = Common Voice Адыррақәа реизга ихынҳәтәуп
+download-no = Мап, иҭабуп
 
 ## Contact Modal
 
+contact-title = Аимадара форма
+contact-form-name =
+    .label = Ахьӡ
+contact-form-message =
+    .label = Ацҳамҭа
+contact-required = *Иаҭахуп
 
 ## Request Language Modal
 
