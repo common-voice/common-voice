@@ -193,9 +193,15 @@ contact-required = *Иаҭахуп
 
 ## Request Language Modal
 
+request-language-title = Абызшәазы адҵаалара
+request-language-form-language =
+    .label = Абызшәа
 
 ## Languages Overview
 
+language-section-in-progress = Анагӡара иаҿуп
+language-section-launched = Аус зыруу
+languages-show-less = Ирмаҷтәуп
 
 ## New Contribution
 
