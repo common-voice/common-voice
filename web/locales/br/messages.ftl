@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Kas
 loading = O kargañ...
 email-opt-in-privacy = En ur asantiñ da zegemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fed buhez prevez<privacyLink> Mozilla.
-indicates-required = * A ziskouez ar maeziennoù rekizet
+indicates-required = * Maeziennoù azgoulennet
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -193,7 +193,7 @@ sign-up-account = Krouit ur gont
 ## Account Benefits
 
 benefits = Spletoù
-rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù  poblañsouriezh. Dizenvel a reomp kement roadenn poblañsouriezh a-raok o lakaat foran.
+rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù poblañsouriezh. Dizenvel a reomp kement roadenn poblañsouriezh a-raok o lakaat foran.
 
 ## What's public
 
@@ -283,27 +283,27 @@ thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profi
 why-demographic = Perak e vez pouezus?
 why-demographic-explanation = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
 keep-me-posted =
-    .label = C'hoant em befe tennañ gounit eus an hizivadurioù ha bezañ gouzout penaos ez a war-raok ar raktres Common Voice.
-accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e-barzh <privacyLink>Politikerezh Buhez Prevez</privacyLink> Mozilla
+    .label = C'hoant em befe da dennañ gounit eus an hizivadurioù ha gouzout penaos ez a war-raok ar raktres Common Voice.
+accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e <privacyLink>politikerezh a-fet buhez prevez</privacyLink> Mozilla
 login-identity = Identelezh kevreañ
 login-signup = Kevreañ / Lakaat e anv
 edit = Aozañ
 email-subscriptions = Koumanantoù d'ar roll-bosteloù
 download-profile = Pellgargañ ma roadennoù
-contribution-experience = Skiant-prenet kendaolañ
-skip-submission-feedback = Tremen e-biou ar gasadenn menoioù
-skip-submission-description = E-pad ar gasadenn gendaolañ, graet e vo fae ouzh an evezhiadennoù ur wech kliket war «Kas». Kenderc'hel a raio ar c'hendaolañ war-eeun gant un heuliadenn a 5 enrolladenn pe kadarnadenn.
-skip-submission-note = Notennit eta: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
-off = Lazhet
-on = Enaouet
+contribution-experience = Skiant-prenet kendeurel
+skip-submission-feedback = Tremen ar gasadenn mennozhioù
+skip-submission-description = Tremenet e vo ar gasadenn evezhiadennoù ur wech kliket war «Kas». Kenderc'hel a raio ar c'hendeurel war-eeun gant un heuliadenn a 5 enrolladenn pe wiriekadenn.
+skip-submission-note = Evezhiadenn: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
+off = Diweredekaet
+on = Gweredekaet
 add-avatar-title = Ouzhpennañ un avatar d'ho profil
 browse-file-title = Pellgasit ur restr skeudenn
-browse-file = Rinklañ-leuskel pe <browseWrap>Verdeit</browseWrap>
+browse-file = Riklañ-leuskel pe <browseWrap>verdeit</browseWrap>
 connect-gravatar = Kevreañ gant Gravatar
 gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
 manage-subscriptions = Merañ ar c'houmanantoù
-email-already-used = Ar postel a zo implijet dija evit ur gont all
+email-already-used = Ar postel a zo implijet evit ur gont all endeo
 add-language = Ouzhpennañ ur yezh
 
 ## FAQ
@@ -318,7 +318,7 @@ glossary = Geriaoueg
 localization = Lec'hiadur
 sentence-collection = Dastumadeg frazennoù
 hours-recorded-explanation = An niver a eurvezhioù enrollañ hag a zo bet dastumet ganeomp betek-hen.
-hours-validated-explanation = Niver a eurvezhioù enrollañ mouezh gwiriekaet gant 2 pe 3 implijer gant ur vot "Ya". Ar re-se a verk pal hollek ar raktres hag a zo da dizhout, 10 000 eurvezh.
+hours-validated-explanation = Niver a eurvezhioù enrolladennoù mouezh gwiriekaet gant 2 pe 3 implijer gant ur vot "Ya". Ar re-se a verk pal hollek ar raktres hag a zo da dizhout, 10 000 eurvezh.
 sst = Komz-da-destenn (KDD)
 sst-explanation = Teknologiezhioù komz-da-destenn (KDD) a amdroy roadennoù mouezh e testennoù.
 de-identified = Dizanvet
@@ -416,8 +416,8 @@ listen = Selaou
 skip = Mont hebioù
 shortcuts = Berradurioù
 clips-with-count = <bold>{ $count }</bold> a glipoù
-goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue }  a frazennoù enrollet bemdez!
-goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue }  a frazennoù gwiriet bemdez!
+goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn enrollet bemdez!
+goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn gwiriet bemdez!
 contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Enrollañ
 record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
@@ -455,13 +455,13 @@ share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
 
 ## Goals
 
-streaks = Rezennoù
+streaks = Rekord
 days =
     { $count ->
         [one] Deiz
-        [two] Deiz
+        [two] Zeiz
         [few] Deiz
-        [many] a zeizioù
+        [many] A zeizioù
        *[other] Deiz
     }
 recordings =
