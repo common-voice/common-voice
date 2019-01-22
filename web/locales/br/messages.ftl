@@ -486,22 +486,22 @@ validations =
 your-languages = Ho yezhoù
 toward-next-goal = Betek ar pal da zont
 clips-you-recorded = Klipoù enrollet ganeoc'h
-clips-you-validated = Klipoù ho peus gwiriekaet
+clips-you-validated = Klipoù gwiriekaet ganeoc'h
 todays-recorded-progress = Araokadenn Common Voice an devezh war an niver a glipoù enrollet
 todays-validated-progress = Araokadenn Common Voice an devezh war an niver a glipoù gwiriekaet
-stats = Stats
+stats = Stadegoù
 you = C'hwi
 everyone = An holl
-contribution-activity = Oberiantiz ar c'hemer-perzh
+contribution-activity = Oberiantiz kendeurel
 top-contributors = Perzhidi pennañ
 recorded-clips = Klipoù enrollet
 validated-clips = Klipoù gwiriekaet
 total-approved = Hollad asantet
-overall-accuracy = Spisder hollek
+overall-accuracy = Spister hollek
 
 ## Profile Delete
 
-delete-q = Ha fellout a ra deoc'h goulenn ivez ma vefe dilamet hoc'h enrolladennoù, pe mod-all e kavit gwelloc'h e vefent miret e-barzh diaz-roadennoù Common Voice?
+delete-q = Fellout a ra deoc'h goulenn e vefe dilamet hoc'h enrolladennoù ivez, pe kavout a rit gwelloc'h e vefe miret e diaz-roadennoù Common Voice?
 keep = Mirout
 remove = Dilemel
 keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh diaz-roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest da gas ur goulenn dilemel ken war hoc'h enrolladennoù diwar an diaz-roadennoù
