@@ -194,11 +194,13 @@ improve-audio = Profilowe informacije awdiodaty pólěpšuju, kótarež se pśi 
 keep-track = Mějśo swój póstup a swóje měrjeńske daty za někotare rěcy na wócyma.
 compare-progress = Glědajśo, kak se swój póstup z drugimi sobustatkujucymi z cełego swěta pśirownujo.
 view-goals = Pśirownajśo swój póstup z wósobinskimi a projektowymi celami.
+join-newsletter = Pśizamkniśo se na žycenje našej e-mailowej lisćinje, aby aktualizacije a nowe informacije wó projekśe dostał.
 
 ## What's public
 
 whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
+recordings-and-locale-public = Licba nagraśow a rěcow, ku kótarymž pśinosujośo, budu zjawne.
 username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
 username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
@@ -316,6 +318,7 @@ faq-title = Ceste pšašanja
 faq-what-cv-q = Co Common Voice jo?
 faq-why-important-q = Cogodla jo wažne?
 faq-how-get-q = Kak mógu daty Common Voice dostaś?
+faq-how-get-a = Datowa sajźba Common Voice jo pód licencu <licenseLink>CC0</licenseLink> na <datasetLink>našomu bokoju datowych sajźbow</datasetLink> za ześěgnjenje k dispoziciji. Móžośo teke někotare druge zjawnje k dispoziciji stojece datowe sajźby z togo samskego boka ześěgnuś.
 faq-when-release-q = Gdy Common Voice w drugich rěcach wózjawijośo?
 faq-why-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
 faq-what-cv-and-deepspeech-q = Co jo rozdźěl mjazy Common Voice a Deep Speech?
@@ -324,6 +327,7 @@ faq-do-want-native-q = Njejsom maminorěcny a powědam z akcentom, cośo mój g�
 faq-why-different-speakers-q = Cogodla trjebaśo wjele rozdźělnych powědarjow na rěc?
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
 faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w datowej sajźbje wužywał?
+faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za awdionagraśe?
 faq-why-10k-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědanje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
 faq-where-src-from-2-q = Wótkul žrědłowy tekst póchada?
@@ -331,6 +335,7 @@ faq-why-not-ask-read-q = Cogodla luźi njepšosyśo, z knigłow abo nastawkow Wi
 faq-why-account-q = Cogodla dejał ja konto załožyś?
 faq-is-account-public-q = Su móje kontowe informacije zjawne?
 faq-how-privacy-q = Kak zawěsćujośo anonymnosć a priwatnosć luźi, kótarež su swóje głose pósćili?
+faq-what-determine-identity-q = Co wóznamjenijo, až njamógu „identitu“ powědarjow w datowej saźbje Common Voice „zwěsćiś“?
 
 ## Glossary
 
@@ -338,6 +343,7 @@ glossary = Glosar
 localization = Lokalizacija
 localization-explanation = To jo naš proces za pśełožowanje a pśiměrjenje našogo wopśimjeśa za wjele lokalow (rěcow).
 sentence-collection = Zběrka sadow
+sentence-collection-explanation = Gromaźenje za wše wužytnych sadow abo pisanje nowych za wšě wužytnych sadow.
 hours-recorded-explanation = Licba dotychměst nagromaźonych nagratych góźinow.
 sst = Powědanje-do-teksta (STT)
 sst-explanation = Technologije Powědanje-do-teksta (STT) głosowe daty to teksta konwertěruju.
