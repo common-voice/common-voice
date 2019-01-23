@@ -327,6 +327,15 @@ faq-what-cv-a =
     
     Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann roadennoù liesseurt a roio gallout d'an diorroerien, d'an embregerien ha d'ar c'humuniezhioù. Ouzhpenn da-se e savomp ul lusker anaoudegezh ar vouezh digor e darzh anvet Deep Speech.
 faq-why-important-q = Abalamour da betra e vez a-bouez?
+faq-why-important-a =
+    Ar gomz eo an doare naturelañ da zaremprediñ an eil gant ar re all, ha teknologiezhioù ar vouezh a zegas an aester-mañ d'ho urzhiataerioù ha d'ho pellgomzerioù. Fellout a ra deomp reiñ gallout d'an diorroerien evit ma c'hallfent sevel arloadoù anaoudegezh ar vouezh dreistordinal evel troerien en amzer gwirion pe skoazellerien elektronek. Evit ar mare, ar roadennoù mouezh goulennet gant an arloadoù-mañ a zo ker ha perc'hennek. Spi hon eus  e tegaso Common Voice ar pezh o deus ezhomm d'an diorroerien evit nevezadenniñ ha lakaat teknologiezhioù ar yezh da vezañ implijadus en o yezh.
+    
+    Evit lakaat anaoudegezh ar mouezh da vezañ bedeloc'h c'hoazh e tastumomp mouezhioù yezhoù bras kement a reoù ar yezhoù gant nebeut a gomzerien, a vez dilezet gant ar servijoù kenwerzhel peurvuiañ. Embann roadennoù liesseurt a roio gallout d'an diorroerien, d'an embregerien ha d'ar c'humuniezhioù.
+faq-how-get-q = Penaos e c'hallan kaout roadennoù Common Voice?
+faq-how-get-a = Roadennoù Common Voice a zo hegerz dindan al lañvaz <licenseLink>CC0</licenseLink> war <datasetLink>bajenn ar roadennoù</datasetLink>. Gallout a rit ivez pellgargañ roadennoù all war an hevelep pajenn.
+faq-when-release-q = Pegoulz e vo digoret roadennoù Common Voice e yezhoù all?
+faq-when-release-a = Stumm lies-yezh roadennoù Common Voice a zo o vezañ paket ha naetaet gant ar gumuniezh. Ma fell deoc'h gouzout hiroc'h war ar striv-mañ e c'hallit <contactLink>mont e darempred ganeomp</contactLink>. Klask a raimp embann an dra-se e miz Genver 2019. Goude-se e hizivaimp ar roadennoù ur wech an amzer gant yezhoù nevez ha klipoù mouezh a feur ma vezont hegerz. Emaomp c'hoazh o klask despizañ ur c'helc'hiad ermaeziadennoù reoliekoc'h.
+faq-why-mission-q = Perak eo Common Voice ul lodenn eus kefridi Mozilla?
 
 ## Glossary
 
