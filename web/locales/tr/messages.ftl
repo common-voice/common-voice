@@ -17,8 +17,10 @@ indicates-required = * Gerekli alanları gösterir
 
 ## Languages
 
+ab = Abhazca
 ace = Açece
 af = Afrikaans
+am = Amharca
 an = Aragonca
 ar = Arapça
 as = Assamca
@@ -91,10 +93,12 @@ te = Telugu
 th = Tayca
 tr = Türkçe
 tt = Tatarca
+udm = Udmurtça
 uk = Ukraynaca
 ur = Urduca
 uz = Özbekçe
 vi = Vietnamca
+vot = Votic
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
@@ -234,8 +238,10 @@ english = İngilizce
 
 profile-form-username =
     .label = Kullanıcı adı
-profile-form-language =
-    .label = Dil
+profile-form-native-language =
+    .label = Anadili
+profile-form-additional-language =
+    .label = Ek dil
 profile-form-accent =
     .label = Aksan
 profile-form-age =
@@ -309,6 +315,8 @@ faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizlili�
 
 glossary = Sözlük
 localization = Yerelleştirme
+sst = Konuşmadan metne (STT)
+sst-explanation = Konuşmadan metne (STT) teknolojileri ses verilerini metne dönüştürür.
 
 ## NotFound
 
