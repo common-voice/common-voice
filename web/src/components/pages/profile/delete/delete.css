@@ -67,6 +67,16 @@
         }
     }
 
+    & textarea {
+        border: 1px solid var(--grey);
+        border-radius: 2px;
+        padding: 10px;
+        max-width: 50%;
+        width: 100%;
+        min-height: 165px;
+        font-family: var(--base-font-family);
+    }
+
     & .button {
         border: none;
         margin: 0 auto;

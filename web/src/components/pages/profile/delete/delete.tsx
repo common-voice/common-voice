@@ -1,4 +1,8 @@
-import { Localized } from 'fluent-react/compat';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { User } from '../../../../stores/user';
@@ -12,8 +16,12 @@ interface PropsFromState {
   user: User.State;
 }
 
-class DeleteProfile extends React.Component<PropsFromState, { keep: boolean }> {
+interface Props extends LocalizationProps, PropsFromState {}
+
+class DeleteProfile extends React.Component<Props, { keep: boolean }> {
   state = { keep: true };
+
+  textareaRef = React.createRef<HTMLTextAreaElement>();
 
   render() {
     const { keep } = this.state;
@@ -48,6 +56,12 @@ class DeleteProfile extends React.Component<PropsFromState, { keep: boolean }> {
             </Localized>
           </div>
         </div>
+        {!keep && (
+          <textarea
+            placeholder={this.props.getString('why-delete-recordings')}
+            ref={this.textareaRef}
+          />
+        )}
         <Hr />
         <Localized id="profile-form-delete">
           <Button
@@ -58,7 +72,11 @@ class DeleteProfile extends React.Component<PropsFromState, { keep: boolean }> {
                   encodeURIComponent('Delete Profile') +
                   '&body=' +
                   encodeURIComponent(
-                    (keep ? 'keep my recordings' : 'remove my recordings') +
+                    (keep
+                      ? 'keep my recordings'
+                      : 'remove my recordings, because: ' +
+                        '\n' +
+                        this.textareaRef.current.value) +
                       '\n' +
                       'email:' +
                       this.props.user.account.email
@@ -73,5 +91,5 @@ class DeleteProfile extends React.Component<PropsFromState, { keep: boolean }> {
 }
 
 export default connect<PropsFromState>(({ user }: StateTree) => ({ user }))(
-  DeleteProfile
+  withLocalization(DeleteProfile)
 );
