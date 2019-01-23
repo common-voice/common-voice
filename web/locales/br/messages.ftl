@@ -322,6 +322,10 @@ change-email-setings = Kemmit ho chomlec'h postel dre an Arventennoù, el lodenn
 
 faq-title = Foar ar Goulennoù
 faq-what-cv-q = Petra eo Common Voice?
+faq-what-cv-a =
+    Teknologiezhioù anaoudegezh ar vouezh a zo un dispac'h en doare da etrewezhiat gant ar mekanikoù, met ar reizhiadoù a zo diouto a zo ker ha perc'hennek. Common Voice a zo ul lodenn eus intrudu Mozilla evit lakaat anaoudegezh ar vouezh da vezañ gwelloc'h hag hegerzoc'h evit an holl. Un diaz roadennoù divent a vouezhioù roet evit gallout gourdonañ arloadoù mouezh en un doare eeun ha prim a c'hallfe bezañ implijet evit an holl yezhoù eo Common Voice.
+    
+    Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann roadennoù liesseurt a roio gallout d'an diorroerien, d'an embregerien ha d'ar c'humuniezhioù. Ouzhpenn da-se e savomp ul lusker anaoudegezh ar vouezh digor e darzh anvet Deep Speech.
 faq-why-important-q = Abalamour da betra e vez a-bouez?
 
 ## Glossary
