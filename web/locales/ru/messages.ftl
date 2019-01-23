@@ -249,8 +249,10 @@ english = Английский
 
 profile-form-username =
     .label = Имя пользователя
-profile-form-language =
-    .label = Язык
+profile-form-native-language =
+    .label = Родной язык
+profile-form-additional-language =
+    .label = Дополнительный язык
 profile-form-accent =
     .label = Акцент
 profile-form-age =
