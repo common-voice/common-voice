@@ -148,7 +148,7 @@ todays-progress = Tänased edusammud
 help-reach-goal = Aita meil saavutada { $goal }
 read-terms-q = Kas sa oled meie tingimused läbi lugenud?
 ready-to-record = Oled valmis oma häält annetama?
-all-languages = Kõik keeled
+all-locales = Kõik
 today = Täna
 x-weeks-short =
     { $count ->
@@ -165,6 +165,20 @@ x-years-short =
         [one] Üks aasta
        *[other] { $count } aastat
     }
+help-make-dataset = Aita meil luua kvaliteetne ja kõigile avalik andmestik
+sign-up-account = Loo konto
+
+## Account Benefits
+
+benefits = Kasu
+keep-track = Jälgi oma edenemist ja mõõdikuid mitme keele kohta.
+compare-progress = Võrdle oma edenemist teiste osalejatega üle kogu maailma.
+view-goals = Vaata oma edenemist sinu isiklike ja kogu projekti eesmärkide suhtes.
+
+## What's public
+
+recordings-and-locale-public = Salvestiste arv ja teave selle kohta, milliste keelte andmetesse panustamises oled osalenud, on avalik.
+username-optin-public = Saad valida, kas sinu kasutajanimi on avalik või anonüümne.
 
 ## Speak & Listen Shortcuts
 
@@ -209,12 +223,8 @@ english = inglise
 
 ## ProfileForm
 
-profile-form-cancel = Lahku ankeedilt
-profile-form-delete = Kustuta profiil
 profile-form-username =
     .label = Kasutajanimi
-profile-form-language =
-    .label = Keel
 profile-form-accent =
     .label = Aktsent
 profile-form-age =
@@ -229,8 +239,6 @@ native-language =
     .label = Emakeel
 profile-form-submit-save = Salvesta
 profile-form-submit-saved = Salvestatud
-profile-keep-data = Andmed säilitatakse
-profile-delete-data = Kustuta andmed
 male = mees
 female = naine
 # Gender
@@ -243,10 +251,8 @@ avatar = Avatar
 goals = Eesmärgid
 settings = Sätted
 edit-profile = Muuda profiili
-profile-create = Profiili loomine
 profile-create-success = Suurepärane, profiil on loodud!
 profile-close = Sulge
-profile-clear-modal = Kui sa tühjendad oma profiili, siis ei edastata neid demograafilisi andmeid enam Common Voice projektile koos sinu salvestistega.
 profile-explanation = Jälgi profiili abil oma edenemist ja ühtlasi aita ka meil saada täpsemaid hääleandmeid.
 thanks-for-account = Täname, et kinnitasid oma kasutajakonto, loome nüüd sulle profiili.
 why-demographic = Miks see oluline on?
@@ -273,34 +279,26 @@ gravatar_not_found = Selle e-posti aadressiga pole seotud ühtki gravatari
 file_too_large = Valitud fail on liiga suur
 manage-subscriptions = Halda tellimusi
 email-already-used = See e-posti aadress on juba kasutuses teise konto jaoks
+add-language = Lisa keel
 
 ## FAQ
 
 faq-title = Korduma kippuvad küsimused
-faq-what-q = Mis on Common Voice?
-faq-what-a = Kõnetuvastuse tehnoloogia võib drastiliselt muuta viisi, kuidas me masinatega suhtleme, kuid praegused süsteemid on kallid ja sageli eraomandis. Common Voice on projekt, mille abil saab kõnetuvastuse tehnoloogia kergesti kõigile kättesaadavaks teha. Inimesed annetavad oma hääled massiivsele andmebaasile, mis võimaldab kõigil kiiresti ja hõlpsasti häälkäsklustega rakendusi treenida. Kõik hääleandmed on arendajatele saadaval.
-faq-important-q = Miks on see oluline?
-faq-important-a = Hääl on loomulik, hääl on inimlik. See on kõige lihtsam ja kõige loomulikum viis suhtlemiseks. Soovime, et arendajad saaksid luua hämmastavaid asju, reaalajas toimivatest tõlkijatest kõnepõhiste administratiivabilisteni. Kuid just praegu pole selliste rakenduste ehitamiseks piisavalt avalikult kättesaadavaid andmeid. Loodame, et Common Voice annab arendajatele, mida nad innovatsiooni jaoks vajavad.
-faq-get-q = Kuidas saab ligi Common Voice andmetele?
-faq-get-a = Andmestik on saadaval <downloadLink>allalaadimislehel</downloadLink> <licenseLink>CC-0</licenseLink> litsentsiga.
-faq-mission-q = Miks on Common Voice osa Mozilla missioonist?
-faq-mission-a = Mozilla on pühendunud sellele, et hoida veebi avatuna ja kõigile kättesaadavana. Selleks peame toetama veebiloojaid selliste projektide kaudu nagu Common Voice. Kuna hääletehnoloogiad levivad niššrakendustest kaugemale, usume, et need peavad teenima kõiki kasutajaid võrdselt hästi. Me näeme hääle tehnoloogiate ehitamisel ja katsetamisel vajadust lisada rohkem keeli, aktsente ja demograafilisi andmeid. Mozilla soovib näha tervet ja elavat internetti. See tähendab uutele loojatele juurdepääsu andmist kõneandmetele, et nad saaksid luua uusi erakorralisi projekte. Common Voice on avalik ressurss, mis aitab Mozilla meeskondi ja arendajaid kogu maailmas.
-faq-native-q = Minu emakeel pole { $lang } keel ja ma räägin aktsendiga, kas te ikka tahate minu häält?
-faq-native-a = Jah, me kindlasti tahame sinu häält! Common Voice'i eesmärk on koguda nii palju erinevaid aktsente kui võimalik, et arvutid saaksid paremini <bold>kõigi</bold> kõnest aru.
-faq-firefox-q = Kas Common Voice'i kõnetuvastus saab kunagi Firefoxi osaks?
-faq-firefox-a = Common Voice'il on piiramatu potentsiaal ja me tõepoolest uurime kõneliideste võimalust paljudes Mozilla toodetes, sealhulgas Firefoxis.
-faq-quality-q = Mis on vajalik helikvaliteedi tase, et see heli kasutatav oleks?
-faq-quality-a = Me tahame, et helisalvestused sarnaneksid kvaliteedi poolest sellega, millega kõnetuvastus (süsteem, mis teeb kõnest teksti) peab "päris maailmas" hakkama saama. Seepärast tahame saada erineva kvaliteediga salvestisi, mille põhjal kõnetuvastussüsteem saaks õppida veatult toime tulema erineva segava taustamüraga nagu kõrvaliste inimeste kõne, liiklusmüra jms.
-faq-hours-q = Miks on eesmärgiks saada 10 000 tundi helisalvestisi?
-faq-hours-a = Umbes nii palju tunde läheb vaja kõnetuvastussüsteemi treenimiseks.
-faq-source-q = Kust on need etteloetavad tekstid võetud?
-faq-source-a1 = Need laused tulevad nii vabatahtlike annetustena kui ka filmidialoogidest, nt filmist <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Etteloetavaid lauseid on võimalik vaadata <dataLink>sellest GitHubi kaustast</dataLink>.
+faq-what-cv-q = Mis on Common Voice?
+faq-why-important-q = Miks on see tähtis?
+faq-how-get-q = Kuidas ma saaksin endale Common Voice'i andmestikke?
+faq-when-release-q = Millal avaldate Common Voice'i teiste keelte andmestikud?
+faq-is-goal-assistant-q = Kas Common Voice'i eesmärgiks on luua häälassistent?
+faq-why-different-speakers-q = Miks vajate iga keele kohta nii palju erinevaid kõnelejaid?
+faq-why-my-lang-q = Miks minu keelt pole veel kaasatud?
+faq-what-quality-q = Milline peab olema kõnesalvestise kvaliteet, et seda saaks andmekogus kasutada?
+faq-why-10k-hours-q = Miks on eesmärgiks 10 000 tundi kontrollitud kõnenäiteid iga keele jaoks?
+faq-why-10k-hours-a = Sest umbes nii palju kõnetunde on vaja kõnetuvastussüsteemi treenimiseks.
+faq-how-calc-hours-q = Kuidas Common Voice tunde arvestab?
+faq-where-src-from-2-q = Kust etteloetavad tekstid tulevad?
 
-## Profile
+## Glossary
 
-profile-why-title = Milleks profiil?
-profile-why-content = Teades andmeid sinu kohta, saab sinu poolt Common Voice projekti lisatud helifaile paremini kasutada kõnetuvastusprogrammide arendamiseks.
 
 ## NotFound
 
@@ -463,3 +461,7 @@ contribution-activity = Panustamise aktiivsus
 top-contributors = Panustajate edetabel
 recorded-clips = Salvestatud salvestisi
 validated-clips = Kontrollitud salvestisi
+
+## Profile Delete
+
+profile-form-delete = Kustuta profiil
