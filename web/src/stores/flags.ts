@@ -1,5 +1,11 @@
 export namespace Flags {
-  export interface State {}
+  export type MessageOverwrites = {
+    [locale: string]: string;
+  };
+
+  export interface State {
+    messageOverwrites: MessageOverwrites;
+  }
 
   enum ActionType {
     SET = 'SET_FLAGS',
@@ -19,7 +25,14 @@ export namespace Flags {
     }),
   };
 
-  export function reducer(state: State = {}, action: Action): State {
+  export function reducer(
+    state: State = {
+      messageOverwrites: JSON.parse(
+        sessionStorage.getItem('messageOverwrites') || '{}'
+      ),
+    },
+    action: Action
+  ): State {
     switch (action.type) {
       case ActionType.SET:
         return { ...state, ...action.state };

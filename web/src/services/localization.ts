@@ -6,8 +6,10 @@ export const NATIVE_NAMES = require('../../../locales/native-names.json') as {
   [key: string]: string;
 };
 const translatedLocales = require('../../../locales/translated.json');
+import { Flags } from '../stores/flags';
 import { isProduction } from '../utility';
 import API from './api';
+import MessageOverwrites = Flags.MessageOverwrites;
 
 export const DEFAULT_LOCALE = 'en';
 export const LOCALES = isProduction()
@@ -20,10 +22,18 @@ export function negotiateLocales(locales: ReadonlyArray<string>) {
   });
 }
 
-function* asBundleGenerator(localeMessages: string[][]) {
+function* asBundleGenerator(
+  localeMessages: string[][],
+  messageOverwrites?: MessageOverwrites
+) {
   for (const [locale, messages] of localeMessages) {
     const bundle = new FluentBundle(locale, { useIsolating: false });
-    bundle.addMessages(messages);
+    bundle.addMessages(
+      messages +
+        (messageOverwrites && messageOverwrites[locale]
+          ? '\n' + messageOverwrites[locale]
+          : '')
+    );
     yield bundle;
   }
 }
@@ -43,7 +53,11 @@ export function createCrossLocaleBundleGenerator(
   return asBundleGenerator(localeMessages);
 }
 
-export async function createBundleGenerator(api: API, userLocales: string[]) {
+export async function createBundleGenerator(
+  api: API,
+  userLocales: string[],
+  messageOverwrites: MessageOverwrites
+) {
   const currentLocales = negotiateLocales(userLocales);
 
   const localeMessages: any = await Promise.all(
@@ -53,5 +67,5 @@ export async function createBundleGenerator(api: API, userLocales: string[]) {
     ])
   );
 
-  return asBundleGenerator(localeMessages);
+  return asBundleGenerator(localeMessages, messageOverwrites);
 }
