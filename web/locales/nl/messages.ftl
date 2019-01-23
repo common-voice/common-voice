@@ -245,8 +245,10 @@ english = Engels
 
 profile-form-username =
     .label = Gebruikersnaam
-profile-form-language =
-    .label = Taal
+profile-form-native-language =
+    .label = Moedertaal
+profile-form-additional-language =
+    .label = Extra taal
 profile-form-accent =
     .label = Accent
 profile-form-age =
