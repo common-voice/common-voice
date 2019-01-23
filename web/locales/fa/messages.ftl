@@ -471,7 +471,7 @@ listen = بشنوید
 skip = رد کردن
 shortcuts = میانبرها
 clips-with-count = <bold>{ $count }</bold> کلیپ‌ها
-goal-help-recording = شما به صدای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف ضبظ روزانه‌مان برسیم
+goal-help-recording = شما به صدای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف ضبط روزانه‌مان برسیم
 goal-help-validation = شما به صدای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف اعتبارسنجی روزانه‌مان برسیم
 contribute-more =
     { $count ->
