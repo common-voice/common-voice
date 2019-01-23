@@ -194,6 +194,11 @@ sign-up-account = Krouit ur gont
 
 benefits = Spletoù
 rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù poblañsouriezh. Dizenvel a reomp kement roadenn poblañsouriezh a-raok o lakaat foran.
+improve-audio = Titouroù ar profil a wella ar roadennoù son implijet evit spister anaoudegezh ar vouezh.
+keep-track = Mirit ur roud eus hoc'h araokadennoù evit meur a yezh.
+compare-progress = Keñverit hoc'h araokadennoù gant kendaolerien e pep lec'h er bed.
+view-goals = Keñverit hoc'h araokadennoù gant ho palioù personel ha reoù ar raktres.
+join-newsletter = Enskrivit d'hor roll posteloù evit bezañ kelaouet a-zivout ar raktres.
 
 ## What's public
 
@@ -201,6 +206,8 @@ whats-public = Petra a zo foran?
 email-not-public = Ne lakaimp ket foran ho chomlec'h postel.
 recordings-and-locale-public = An niver a enrolladennoù hag ar yezhoù a gemerit perzh eno a vo foran.
 username-optin-public = Gellout a raer lakaat foran pe dizanv hoc'h anv-implijer.
+demographic-deidentified = Ar roadennoù poblañsouriezh diret (da skouer: oad, rev, yezh ha pouez-mouezh) a zo dizanvet eus hoc'h enrolladennoù ha ne vo morse diskouezet d'ar foran war ho profil.
+username-email-not-demographic = Hoc'h anv implijer hag ho chomlec'h postel na vezo ket liammet gant ar roadennoù embannet.
 
 ## Speak & Listen Shortcuts
 
@@ -250,6 +257,10 @@ english = Saozneg
 
 profile-form-username =
     .label = Anv implijer
+profile-form-native-language =
+    .label = Yezh vamm
+profile-form-additional-language =
+    .label = Yezh ouzhpenn
 profile-form-accent =
     .label = Pouez-mouezh
 profile-form-age =
@@ -305,6 +316,7 @@ file_too_large = Re vras eo ar restr diuzet
 manage-subscriptions = Merañ ar c'houmanantoù
 email-already-used = Ar postel a zo implijet evit ur gont all endeo
 add-language = Ouzhpennañ ur yezh
+change-email-setings = Kemmit ho chomlec'h postel dre an Arventennoù, el lodenn "Identelezhioù kevreañ"
 
 ## FAQ
 
