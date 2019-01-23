@@ -16,7 +16,11 @@ indicates-required = * označuje povinné pole
 
 ## Languages
 
+ab = abcházština
+ace = acehčina
+ady = adygejčina
 af = afrikánčina
+am = amharčina
 an = aragónčina
 ar = arabčina
 as = asámčina
@@ -35,6 +39,7 @@ cy = waleština
 da = dánčina
 de = nemčina
 dsb = dolnolužická srbčina
+dv = maldivčina
 el = gréčtina
 en = angličtina
 eo = esperanto
@@ -63,8 +68,10 @@ kpv = komi-zyriančina
 kw = kornčina
 ky = kirgizština
 mdf = mokša
+mhr = lúčnovýchodná marijčina
 mk = macedónčina
 mn = mongolčina
+mrj = hornomarijská marijčina
 myv = erzya
 nb-NO = nórčina (bokmål)
 ne-NP = nepálčina
@@ -74,6 +81,7 @@ oc = okcitánčina
 or = urijčina
 pl = poľština
 pt-BR = portugalčina (Brazília)
+rm-sursilv = rétorománčina (sursilvan)
 ro = rumunčina
 ru = ruština
 sah = jakutčina
@@ -88,10 +96,12 @@ te = telugčina
 th = thajčina
 tr = turečtina
 tt = tatárčina
+udm = udmurtčina
 uk = ukrajinčina
 ur = urdčina
 uz = uzbečtina
 vi = vietnamčina
+vot = vodčina
 zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
@@ -154,11 +164,12 @@ listen-paragraph = Overovanie nahrávok je rovnako dôležitou súčasťou misie
 listen-goal-text = Počet overených nahrávok
 hours-recorded = Počet nahraných hodín
 hours-validated = Počet overených hodín
+voices-online = Aktívne hlasy
 todays-progress = Dnešný pokrok
 help-reach-goal = Pomôžte nám dostať sa na { $goal }
 read-terms-q = Čítali ste naše podmienky používania?
 ready-to-record = Ste pripravení darovať svoj hlas?
-all-languages = Všetky jazyky
+all-locales = Všetky
 today = Dnes
 x-weeks-short =
     { $count ->
@@ -178,6 +189,15 @@ x-years-short =
         [few] { $count } roky
        *[other] { $count } rokov
     }
+
+## Account Benefits
+
+benefits = Výhody
+
+## What's public
+
+whats-public = Čo všetko zverejňujeme?
+email-not-public = Vašu e-mailovú adresu nezverejňujeme.
 
 ## Speak & Listen Shortcuts
 
@@ -260,6 +280,7 @@ keep-me-posted =
     .label = Chcem dostávať novinky o projekte Common Voice.
 accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>
 login-identity = Identita pre prihlásenie
+login-signup = Prihlásenie/registrácia
 edit = Upraviť
 email-subscriptions = Odbery pomocou e-mailu
 download-profile = Prevziať moje údaje
@@ -267,6 +288,7 @@ contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
 off = Vypnutá
 on = Zapnutá
+browse-file-title = Nahrať obrázok
 file_too_large = Vybraný súbor je príliš veľký
 manage-subscriptions = Spravovať odbery
 email-already-used = E-mailová adresa sa už používa pre iný účet
@@ -275,25 +297,11 @@ add-language = Pridať jazyk
 ## FAQ
 
 faq-title = Často kladené otázky
-faq-what-q = Čo je Common Voice?
-faq-what-a = Technológie rozpoznávania reči by mohli priniesť revolúciu v tom, akým spôsobom komunikujeme so strojmi. Súčasné systémy sú však drahé a uzatvorené. Common Voice je projekt, ktorý robí z rozpoznávania reči technológiu dostupnú pre všetkých. Ľudia darujú svoje hlasy do obrovskej databázy, ktorá umožní komukoľvek rýchlo a jednoducho vytrénovať aplikácie v oblasti rozpoznávania reči. Všetky hlasové údaje budú dostupné pre vývojárov.
-faq-important-q = Prečo je to dôležité?
-faq-important-a = Reč je prirodzená a ľudská. Je to najjednoduchšia a najprirodzenejšia forma komunikácie. Chceme umožniť vývojárom, tvoriť úžasné veci - od prekladačov v reálnom čase až po hlasových asistentov. V súčasnosti však nie je k dispozícii dostatok verejne dostupných údajov na to, aby takéto aplikácie mohli vzniknúť. Dúfame, že Common Voice dá vývojárom to, čo na inovácie potrebujú.
-faq-get-q = Ako môžem získať údaje z Common Voice?
-faq-get-a = Dataset je k dispozícii na <downloadLink>tejto stránke</downloadLink> v rámci licencie <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Prečo je Common Voice súčasťou misie Mozilly?
-faq-mission-a = Mozilla je odhodlaná udržať web otvorený a prístupný pre všetkých. Aby sme to mohli robiť, potrebujeme podporovať tvorcov webu pomocou projektov, ako napríklad Common Voice. Keďže sa technológie rozpoznávania reči dostávajú do čoraz viac aplikácií, veríme, že by mali slúžiť rovnako dobre všetkým používateľom. Vidíme potrebu zahrnúť pri tvorbe a testovaní technológii na rozpoznávanie reči ďalšie jazyky, prízvuky a skupiny ľudí. Mozilla chce vidieť zdravý a energický internet. Za týmto účelom chce poskytnúť novým tvorcom prístup k hlasovým údajom - aby mohli tvoriť nové, mimoriadne projekty. Common Voice bude verejný zdroj, ktorý pomôže tímom Mozilly a vývojárom po celom svete.
-faq-native-q = { $lang } nie je môj materinský jazyk a hovorím s prízvukom, chcete môj hlas aj tak?
-faq-native-a = Áno, určite chceme váš hlas! Súčasťou cieľov projektu Common Voice je zozbierať čo najviac prízvukov, aby tak počítače mohli lepšie rozumieť <bold>každému</bold>.
-faq-firefox-q = Bude prevod reči na text prostredníctvom Common Voice niekedy súčasťou Firefoxu?
-faq-firefox-a = Common Voice má neobmedzený potenciál a my skúmame hlasové rozhranie v mnohých produktoch Mozilly, vrátane Firefoxu.
-faq-quality-q = Aká je potrebná kvalita zvuku na to, aby bol použiteľný?
-faq-quality-a = Chceme zvuk v takej kvalite, ktorá zodpovedá kvalite, s ktorou sa bude systém prevodu reči na text bežne stretávať. To znamená, že chceme rôznu kvalitu. Toto naučí systém prevodu reči na text poradiť si s rôznymi situáciami - hlasy v pozadí, hluk áut, hluk vetrákov - a to bez chýb.
-faq-hours-q = Prečo je 10 000 hodín cieľom pre záznam zvuku?
-faq-hours-a = Je to približný počet hodín potrebných na natrénovanie produkčného systému prevodu reči na text.
-faq-source-q = Odkiaľ pochádza zdrojový text?
-faq-source-a1 = Súčasné vety pochádzajú z darov prispievateľov a z dialógov verejných filmových scenárov, ako napríklad <italic>Život je krásny.</italic>
-faq-source-a2 = Zdrojové vety si môžete pozrieť v <dataLink>tomto priečinku na GitHube</dataLink>.
+faq-what-cv-q = Čo je Common Voice?
+faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
+
+## Glossary
+
 
 ## NotFound
 
@@ -432,11 +440,38 @@ share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
 
 ## Goals
 
+days =
+    { $count ->
+        [one] deň
+        [few] dni
+       *[other] dní
+    }
+recordings =
+    { $count ->
+        [one] nahrávka
+        [few] nahrávky
+       *[other] nahrávok
+    }
+validations =
+    { $count ->
+        [one] overenie
+        [few] overenia
+       *[other] overení
+    }
 
 ## Dashboard
 
+your-languages = Vaše jazyky
+stats = Štatistiky
+you = Vy
+everyone = Všetci
+contribution-activity = Aktivita príspevateľov
+top-contributors = Najlepší prispievatelia
+overall-accuracy = Celková presnosť
 
 ## Profile Delete
 
+delete-q = Chcete tiež požiadať o vymazanie vašich hlasových nahrávok, alebo ich chcete ponechať v datasete Common Voice?
+keep = Ponechať
 remove = Odstrániť
 profile-form-delete = Odstrániť profil

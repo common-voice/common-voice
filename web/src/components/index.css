@@ -291,12 +291,12 @@ body:not(.focus) #scroller {
 
 .main-logo {
     @media (--md-up) {
-        margin-right: var(--standard-margin);
+        margin-inline-end: var(--standard-margin);
         width: 10rem;
     }
 
     @media (--lg-up) {
-        margin-right: 4rem;
+        margin-inline-end: 4rem;
     }
 
     &,
@@ -308,7 +308,7 @@ body:not(.focus) #scroller {
 #content > #faq-container,
 #content > #profile-container {
     margin-top: var(--standard-margin);
-    text-align: left;
+    text-align: start;
 }
 
 .loading {
@@ -328,16 +328,23 @@ body:not(.focus) #scroller {
     }
 }
 
-#faq-container h3 {
-    margin: 1.5rem 0 0.5rem;
-}
+#faq-container {
+    & h3 {
+        margin: 1.5rem 0 0.5rem;
+    }
 
-#faq-container p {
-    margin-bottom: 1rem;
-}
+    & h2 a {
+        color: var(--black);
+    }
 
-#faq-container a {
-    color: var(--link-color);
+    & p {
+        margin-bottom: 1rem;
+        white-space: pre-line;
+    }
+
+    & a {
+        color: var(--link-color);
+    }
 }
 
 @keyframes spin {
@@ -398,10 +405,10 @@ a.small,
 .with-down-arrow::after {
     content: '';
     position: absolute;
-    left: 0;
-    width: 100%;
+    inset-inline-end: 15px;
+    width: 13px;
     height: 100%;
-    background: url('/img/down-arrow.svg') no-repeat right 15px center;
+    background: url('/img/down-arrow.svg') no-repeat 0 center;
     background-size: 13px 9px;
     pointer-events: none;
 }

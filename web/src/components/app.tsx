@@ -9,17 +9,16 @@ import {
   withRouter,
 } from 'react-router';
 import { Router } from 'react-router-dom';
-const { LocalizationProvider } = require('fluent-react/compat');
 import { createBrowserHistory } from 'history';
 import store from '../stores/root';
 import URLS from '../urls';
 import {
-  isMobileWebkit,
   isFirefoxFocus,
+  isMobileWebkit,
   isNativeIOS,
   isProduction,
-  replacePathLocale,
   isStaging,
+  replacePathLocale,
 } from '../utility';
 import {
   createBundleGenerator,
@@ -36,21 +35,26 @@ import { User } from '../stores/user';
 import Layout from './layout/layout';
 import NotificationPill from './notification-pill/notification-pill';
 import { LoginFailure, LoginSuccess } from './pages/login';
-const ListenPage = React.lazy(() =>
-  import('./pages/contribution/listen/listen')
-);
-const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 import { Spinner } from './ui/ui';
 import {
   isContributable,
   localeConnector,
   LocalePropsFromState,
 } from './locale-helpers';
+import { Flags } from '../stores/flags';
+
+const { LocalizationProvider } = require('fluent-react/compat');
+const rtlLocales = require('../../../locales/rtl.json');
+const ListenPage = React.lazy(() =>
+  import('./pages/contribution/listen/listen')
+);
+const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
 interface PropsFromState {
   api: API;
   notifications: Notifications.State;
   uploads: Uploads.State;
+  messageOverwrites: Flags.MessageOverwrites;
 }
 
 interface PropsFromDispatch {
@@ -157,10 +161,19 @@ let LocalizedPage: any = class extends React.Component<
       this.props.setLocale(userLocales[0]);
     }
 
-    document.documentElement.setAttribute('lang', mainLocale);
+    const { documentElement } = document;
+    documentElement.setAttribute('lang', mainLocale);
+    documentElement.setAttribute(
+      'dir',
+      rtlLocales.includes(mainLocale) ? 'rtl' : 'ltr'
+    );
 
     this.setState({
-      bundleGenerator: await createBundleGenerator(api, userLocales),
+      bundleGenerator: await createBundleGenerator(
+        api,
+        userLocales,
+        this.props.messageOverwrites
+      ),
     });
   }
 
@@ -234,8 +247,9 @@ let LocalizedPage: any = class extends React.Component<
 LocalizedPage = withRouter(
   localeConnector(
     connect<PropsFromState, PropsFromDispatch>(
-      ({ api, notifications, uploads }: StateTree) => ({
+      ({ api, flags, notifications, uploads }: StateTree) => ({
         api,
+        messageOverwrites: flags.messageOverwrites,
         notifications,
         uploads,
       }),

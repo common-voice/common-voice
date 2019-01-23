@@ -8,6 +8,7 @@ email-input =
     .label = ای میل
 submit-form-action = ‏‏جمع کریں
 loading = لوڈ ہو رہا ہے…
+indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -37,6 +38,7 @@ en = انگریزی
 eo = اسپيرانتو
 es = اسپینش
 et = ایسٹونئن
+fa = فارسی
 fi = فنیش
 fo = فیروسیہ
 fr = فرانسیسی
@@ -57,6 +59,7 @@ ko = کوریائِی
 kw = کورناش
 ky = کرغز
 mk = مقدونیائی
+mn = منگولیائی
 myv = ایرزیا
 ne-NP = نیپالی
 nl = ڈچ
@@ -104,6 +107,7 @@ share-title = ہمیں دوسروں کو اپنی آواز عطیہ کی تلا�
 share-text = مشین کو سیکھنے میں مدد کریں حقیقی لوگ کس طرج بوللتے ہیں٫ { $link } پر اپنی آواز عطیہ کریں
 link-copied = نقل شدہ ربط
 back-top = واپس اوپر کی جانب
+logout = لاگ آؤٹ
 
 ## Home Page
 
@@ -114,6 +118,18 @@ help-us-explain = دبائیں چلائیں سن اور ہمیں بتائیں ک
 no-clips-to-validate = لگتا ہے اس زبان میں سننے کے لیئے تراشے نہیں ہیں۔ کچھ تراشے ابھی ریکارڈنگ کر کے  قطار کو بھرنے میں ہماری مدد کریں۔
 vote-yes = ہاں
 vote-no = نہیں
+speak-subtitle = اپنی آواز کا عطیہ کریں
+todays-progress = آج کی پیش رفت
+all-locales = تمام
+today = آج
+sign-up-account = ایک اکاؤنٹ کے لئے سائن اپ کریں
+
+## Account Benefits
+
+benefits = فوائد
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -168,6 +184,10 @@ profile-form-age =
     .label = عمر
 profile-form-gender =
     .label = جنس
+hidden = پوشیدہ
+visible = ‏‏مرئی
+native-language =
+    .label = مقامی زبان
 profile-form-submit-save = محفوظ کریں
 profile-form-submit-saved = محفوظ شدہ
 male = مردانہ
@@ -176,22 +196,24 @@ female = زنانہ
 other = دیگر
 why-profile-title = ایک پروفائل کیوں؟
 why-profile-text = اپنے بارے میں کچھ معلومات فراہم کرنے سے۔، صوتی کوائف جو آُپ Common Voice میں جمع کرائیں گے وہ گویاِی کے لیئے مزید فائدہ مند ہوں گے توثیق کار انجن اس کوائف کو استعمال کرکے اپنی درستکی کریں گے۔
+dashboard = ڈیش بورڈ
+build-profile = پروفائل بنائیں
+goals = مقاصد
+settings = ترتیبات
 edit-profile = پروفائل کی تدوین کریں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
 profile-explanation = ایک پروفائل کے ساتھ اپنی پیش رفت پر سراغ رکھیں اور ہماری صوتی کوائف کی مزید درستگی  میں مدد کریں
+edit = تدوین
+off = بند
+on = چالو
 
 ## FAQ
 
 faq-title = اکثر پوچھے گئے سوالات
-faq-what-q = Common Voice کیا ہے؟
-faq-important-q = یہ کیوں اہم ہے؟
-faq-get-q = میں Common Voice کے کوائف کیست حاصل کر سکتا ہوں؟
-faq-mission-q = Mozilla کی مہم کا Common Voice حصۃ کیوں ہے؟
-faq-native-q = میں ایک غیر مقامی { $lang } کا خطیب ہوں اور میں تلفظ کے ساتھ بولتا ہوں، کیا آپ اب بھی میری آواز چاہتے ہیں؟
-faq-quality-q = آڈیو کے استعمال کیئے جانے کے لیے  کس سطح کا  معیار ضروری ہے؟
-faq-hours-q = ۱۰،۰۰۰ گھنٹے کی صوت پر قبظہ کرنا ہمارا مقصد کیوں ہے؟
-faq-source-q = یہ ماخز متن کہاں سے آیا ہے؟
+
+## Glossary
+
 
 ## NotFound
 
@@ -310,10 +332,19 @@ share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں
 
 ## Goals
 
+days =
+    { $count ->
+        [one] دن
+       *[other] دن
+    }
 
 ## Dashboard
 
+you = آپ
+everyone = تمام
 
 ## Profile Delete
 
+keep = رکھیں
+remove = ہٹائیں
 profile-form-delete = پروفائل حزف کریں

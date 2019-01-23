@@ -110,7 +110,7 @@ header {
     & select,
     & .selection {
         border: 1px solid rgba(0, 0, 0, 0.05);
-        padding-left: 2.5rem;
+        padding-inline-start: 2.5rem;
         background: white;
         text-transform: uppercase;
         font-size: var(--font-size-xs);
@@ -230,7 +230,7 @@ header {
 
 .tallies {
     flex-direction: column;
-    margin-right: 2rem;
+    margin-inline-end: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,7 +239,7 @@ header {
 
     @media (--md-up) {
         flex-direction: row;
-        margin-left: 1rem;
+        margin-inline-start: 1rem;
     }
 
     &:hover {
@@ -257,7 +257,7 @@ header {
 
     & .divider {
         margin: 1.5px 0;
-        border-right: 1px solid var(--darker-grey);
+        border-inline-end: 1px solid var(--darker-grey);
         border-top: 1px solid var(--darker-grey);
         width: 100%;
 
@@ -272,9 +272,7 @@ header {
         color: var(--red);
 
         & svg {
-            margin-right: -10px;
-            position: relative;
-            right: 10px;
+            margin-inline-start: -9px;
             height: 15px;
         }
 
@@ -287,7 +285,7 @@ header {
         color: var(--valid-green);
 
         & svg {
-            margin-right: 5px;
+            margin-inline-end: 5px;
             height: 13px;
         }
 
@@ -374,7 +372,7 @@ header {
             color: var(--near-black);
 
             & svg {
-                margin-right: 20px;
+                margin-inline-end: 20px;
             }
 
             & path {
@@ -394,7 +392,7 @@ header {
     }
 
     & a {
-        border-bottom: 1px solid color(var(--black) alpha(10%));
+        border-bottom: 1px solid color-mod(var(--black) alpha(10%));
 
         &:last-child {
             border-bottom: 0;

@@ -17,7 +17,11 @@ indicates-required = * jout fereaske fjild oan
 
 ## Languages
 
+ab = Abgazysk
 ace = Atjeehsk
+ady = Adygeesk
+af = Afrikaansk
+am = Amhaarsk
 an = Aragoneesk
 ar = Arabysk
 as = Assameesk
@@ -36,6 +40,7 @@ cy = Welsk
 da = Deensk
 de = Dútsk
 dsb = Leger Sorbysk
+dv = Divehi
 el = Gryksk
 en = Ingelsk
 eo = Esperanto
@@ -64,8 +69,10 @@ kpv = Kom-Zyrian
 kw = Kornish
 ky = Kirgizysk
 mdf = Moksja
+mhr = Greide-Mari
 mk = Masedoanysk
 mn = Mongoalsk
+mrj = Berch-Mari
 myv = Erzja
 nb-NO = Noarsk Bokmål
 ne-NP = Nepaleesk
@@ -90,10 +97,13 @@ te = Telugu
 th = Taisk
 tr = Turksk
 tt = Tatarsk
+uby = Oebyksk
+udm = Oedmoertsk
 uk = Oekraynsk
 ur = Urdu
 uz = Oezbeeksk
 vi = Fjetnameesk
+vot = Wotysk
 zh-CN = Sineesk (Sina)
 zh-HK = Sineesk (Hong Kong)
 zh-TW = Sineesk (Taiwan)
@@ -160,7 +170,7 @@ todays-progress = Foarútgong fan hjoed
 help-reach-goal = Help ús { $goal } te berikken
 read-terms-q = Hawwe jo ús Betingsten lêzen?
 ready-to-record = Klear om jo stim te donearjen?
-all-languages = Alle talen
+all-locales = Alle
 today = Hjoed
 x-weeks-short =
     { $count ->
@@ -177,6 +187,28 @@ x-years-short =
         [one] jier
        *[other] { $count } jr
     }
+help-make-dataset = Help ús in iepenbier tagonklike gegevensset fan hege kwaliteit te bouwen
+profile-not-required = In profyl is net nedich om by te dragen, hoewol it wol nuttich is
+sign-up-account = In account oanmeitsje
+
+## Account Benefits
+
+benefits = Foardielen
+rich-data = Meitsje jo yntsjinne gegevens sa ryk mooglik troch wat anonime demografyske gegevens op te jaan. Alle demografyske gegevens wurde anonym makke eardat se publisearre wurde.
+improve-audio = Profylynformaasje ferbetteret de audiogegevens dy't brûkt wurde by it trainen fan de sekuerens fan spraakwerkenning.
+keep-track = Folgje jo foarútgong en metryske gegevens yn mear talen.
+compare-progress = Beskôgje hoe't jo foarútgong har ferhâldt ta dy fan oaren yn de wrâld.
+view-goals = Besjoch jo foarútgong tsjin persoanlike en projektdoelstellingen.
+join-newsletter = Meld jo opsjoneel oan foar ús mailinglist foar updates en nije ynformaasje oer it projekt.
+
+## What's public
+
+whats-public = Wat is iepenbier?
+email-not-public = Wy meitsje jo e-mailadres net iepenbier.
+recordings-and-locale-public = It oantal opnamen en de talen wêroan jo bydrage binne iepenbier.
+username-optin-public = Jo kinne kieze oft jo brûkersnamme iepenbier of anonym is.
+demographic-deidentified = Opsjoneel yntsjinne demografyske gegevens (byg. leeftyd, geslacht, taal en aksint) wurde anonym makke tsjinoer dy fan jo yntsjinne stimgegevens en sille nea iepenbier makke wurde op jo profyl.
+username-email-not-demographic = Jo brûkersnamme en e-mailadres sille net mei de publisearre gegevens keppele wurde.
 
 ## Speak & Listen Shortcuts
 
@@ -280,29 +312,75 @@ file_too_large = It selektearre bestân is te grut
 manage-subscriptions = Abonneminten beheare
 email-already-used = E-mailadres wurdt al foar in oar account brûkt
 add-language = Taal tafoegje
+change-email-setings = Wizigje jo e-mailadres fia Ynstellingen ûnder Oanmeldingsidentiteit
 
 ## FAQ
 
 faq-title = Faak stelde fragen
-faq-what-q = Wat is Common Voice?
-faq-what-a = Spraakwerkenningstechnology kin de manier wêrop wy omgean mei masinen tige feroarje, mar de op dit stuit beskikbere systemen binne djoer en sluten. Common Voice is in projekt om spraakwerkenningstechnology foar elkenien maklik tagonklik te meitsjen. Minsken donearje harren stimmen oan in tige grutte database dy't elkenien de mooglikheid biedt fluch en maklik mei stim oanstjoerde apps te trainen. Alle stimgegevens sille beskikber wêze foar ûntwikkelers.
-faq-important-q = Wêrom is dit wichtich?
-faq-important-a = Stim is natuerlik, stim is minsklik. It is de meast ienfâldige en natuerlike manier fan kommunikaasje. Wy wolle dat ûntwikkelers geweldige dingen bouwe kinne, fan realtime-oersetters oant mei stim oanstjoerde administrative assistinten. Mar op dit stuit binne der net sa folle publyklik tagonklike gegevens om dit soarte fan apps bouwe te kinnen. Wy hoopje dat Common Voice ûntwikkelers jaan kin wat se nedich hawwe om te ynnovearjen.
-faq-get-q = Hoe kin ik gegevens fan Common Voice krije?
-faq-get-a = De gegevensset is no beskikber op ús <downloadLink>downloadside</downloadLink> ûnder de <licenseLink>CC-0</licenseLink>-lisinsje.
-faq-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
-faq-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik hâlden fan it ynternet. Om dit te dwaan, moatte wy webmakkers middelen jaan mei projekten as Common Voice. Omdat stimtechnologyen hieltyd mear tapast wurde, leauwe wy dat se alle brûkers ta tsjinst wêze moatte. Wy sjogge dat der behoefte is oan mear talen, aksinten en befolkingsferskillen by it testen fan stimtechnologyen. Mozilla wol in sûn en opwinend ynternet sjen. Dat betsjut nije makkers tagong jaan ta stimgegevens, sadat se nije, bûtengewoane projekten bouwe kinne. Common Voice wurdt in publike boarne dy't Mozilla-teams en ûntwikkelers fan oer de hiele wrâld helpe sil.
-faq-native-q = Ik bin in net-memmetaalsprekker fan it { $lang } en ik sprek mei in aksint, wolle jimme dochs myn stim?
-faq-native-a = Jawis wolle wy jo stim! Underdiel fan it doel fan Common Voice is om sa folle mooglik ferskate aksinten te sammeljen, sadat kompjûters <bold>elkenien</bold> better begripe kinne wannear't sy sprekke.
-faq-firefox-q = Sil spraak-nei-tekst, fia Common Voice, ea ûnderdiel wurde fan Firefox?
-faq-firefox-a = Common Voice hat ûneinige potinsje en wy binne yndied stimynterfaces yn Mozilla-produkten, ynklusyf Firefox, oan it ûndersykjen.
-faq-quality-q = Wat is it fereaske kwalitetsnivo foar de audio om brûkt wurde te kinnen?
-faq-quality-a = Wy wolle dat de lûdskwaliteit in werjefte is fan de kwaliteit lykas dy letter yn it echt berikt wurde sil. Dêrom wolle wy fariaasje. Dit leart de spraak-nei-tekst-masine om flaterleas om te gean mei ferskate situaasjes - spraak op de eftergrûn, autolûden, fentilaasjelûden.
-faq-hours-q = Wêrom is 10.000 oeren it doel foar it opnimmen fan audio?
-faq-hours-a = Dit is ûngefear it tal oeren nedich om in produksje-STT-systeem te trainen.
-faq-source-q = Wêr komt de boarnetekst fan ôf?
-faq-source-a1 = De aktuele stimmen komme fan donaasjes fan dielnimmers, en ek dialogen út filmskripts fan it publike domein lykas <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Jo kinne ús boarnesinnen besjen yn <dataLink>dizze GitHub-map</dataLink>.
+faq-what-cv-q = Wat is Common Voice?
+faq-what-cv-a =
+    Spraakwerkenningstechnology is in revolúsje yn de manier wêrop wy omgean mei masinen, mar de op dit stuit beskikbere systemen binne djoer en ôfskerme. Common Voice is ûnderdiel fan Mozilla’s inisjatyf om spraakwerkenningstechnologyen better en foar elkenien tagonkliker te meitsjen. Common Voice is in enoarme wrâldwide database fan donearre stimmen, wêrmei't elkenien fluch en ienfâldich spraakstjoerde apps yn potinsjeel elke taal traine kin.
+    
+    Wy sammelje net allinnich spraakfragminten yn faak sprutsen talen, mar ek yn dy mei in lytser tal sprekkers. Troch in diverske gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken. Neist de Common Voice-gegevensset bouwe wy ek in iepenboarnce-spraakwerkenningsprogramma mei de namme Deep Speech.
+faq-why-important-q = Wêrom is it wichtich?
+faq-why-important-a =
+    Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy't nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hoopje dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
+    
+    Om spraakwerkenning noch universeler te meitsjen, sammelje wy spraakfragminten yn faak sprutsen talen, krekt  sa as dy mei in lytsere populaasje fan sprekkers, dy't faak net stipe wurde troch kommersjele spraakwerkenningstsjinsten. Troch in ferskate gegevensset mei stimmen te publisearjen, kinne ûntwikkelers, ûndernimmers en folsleine spraakmienskippen sels dizze kleau oerbrêgje.
+faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
+faq-how-get-a = De gegevensset fan Common Voice is beskikber foar downloaden ûnder de <licenseLink>CC0</licenseLink>-lisinsje op <datasetLink>ús side mei gegevenssets</datasetLink>. Jo kinne ek ferskate oare iepenbier beskikbere gegevenssets fan dyselde side downloade.
+faq-when-release-q = Wannear jouwe jimme gegevens fan Common Voice yn oare talen frij?
+faq-when-release-a = De meartalige ferzje fan de gegevensset fan Common Voice wurdt op dit stuit mei help fan de mienskip bundele en opskjinne. As jo mear witte wolle oer stipe oan dit wurk, nim dan <contactLink>kontakt mei ús op</contactLink>. Wy mikke op ditstuit op in publikaasjedatum yn jannewaris 2019. Dêrnei sille wy periodyk de gegevensset bywurkje mei nije talen en spraakfragminten, as dizze beskikber komme. In iterative útjeftesyklus moat noch fêststeld wurde.
+faq-why-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
+faq-why-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik hâlden fan it ynternet. Om dat te dwaan, moatte wy webmakkers middelen jaan mei projekten as Common Voice. Omdat spraaktechnologyen hieltyd mear tapast wurde, leauwe wy dat se foar alle brûkers beskikber wêze moatte. Dat betsjut ynvestearje yn mear talen, en romte biede foar ferskate aksinten en befolkingsferskillen by it bouwen en testen fan spraaktechnologyen. Common Voice is in foar elkenien beskikbere publike boarne, en Mozilla-teams en ûntwikkelers oer de hiele wrâld brûke it ek al foar ús eigen projekten.
+faq-what-cv-and-deepspeech-q = Wat is it ferskil tusken Common Voice en Deep Speech?
+faq-what-cv-and-deepspeech-a = De Common Voice-gegevensset is in oanfolling op Mozilla’s opensource-spraakwerkenningsengine Deep Speech. De earste ferzje fan Deep Speech waard útbrocht yn novimber 2017 en is sûnttiid bliuwe evoluearje. Wy fine dat dizze iepenboarne-spraakwerkenningstechnology tegearre mei de Common Voice-gegevensset foar elkenien beskikber wêze moat. Us hoop is dat dizze technologyen ûntwikkelers de mooglikheid jaan in golf fan ynnovative produkten en tsjinsten te bouwen.
+faq-is-goal-assistant-q = Is it doel fan Common Voice om in spraakassistint te bouwen?
+faq-is-goal-assistant-a = It doel fan de Common Voice-gegevensset is om elkenien yn de wrâld de mooglikheid te jaan spraakwerkenning, sprekkerwerkenning of elk oar type tapassing te meitsjen wêrfoar spraakgegevens nedich binne. In spraakassistint is mar ien fan mear soarten fan tapassingen dy't jo mei help fan de gegevensset bouwe kinne.
+faq-do-want-native-q = Ik bin in net-memmetaalsprekker en ik sprek mei in aksint. Wolle jimme dochs myn stim?
+faq-do-want-native-a = Ja, wy wolle foaral jo stim! Underdiel fan it doel fan Common Voice is om safolle mooglik ferskate aksinten te sammeljen, sadat spraakwerkenningstsjinsten foar elkenien like goed wurkje. Dit betsjut dat donaasjes fan net-memmetaalsprekkers bysûnder wichtich binne.
+faq-why-different-speakers-q = Wêrom hawwe jimme sa folle ferskillende sprekkers per taal nedich?
+faq-why-different-speakers-a =
+    De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy't faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy't al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
+    Dit is de reden wêrom wy fariaasje yn ús spraakdatabase wolle!
+faq-why-my-lang-q = Wêrom sit myn taal der noch net by?
+faq-why-my-lang-a = Mozilla kiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy't minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne.
+faq-what-quality-q = Hokker lûdskwaliteitsnivo is nedich foar in spraakfragmint om yn de gegevensset brûkt wurde te kinnen?
+faq-what-quality-a = Wy wolle dat de Common Voice-gegevensset de audiokwaliteit wjerspegelet dy't yn spraak-nei-tekst-engine yn it wyld hearre sil, dus wy binne op syk nei ôfwikseling. Neist in fariearre sprekkersmienskip leart in gegevensset mei ferskate audiokwaliteiten de spraak-nei-tekst-engine om ferskate libbensechte situaasjes oan te kinnen, fan achtergrûnlûd oant autolawaai. Sa lang jo spraakopname begryplik is, moat dizze goed genôch wêze foar de gegevensset.
+faq-why-10k-hours-q = Wêrom is de doelstelling foar lûdsopnamen 10.000 oer per taal?
+faq-why-10k-hours-a = Dit is ûngefear it oantal nedige oeren om in operasjoneel spraak-nei-tekst-systeem te trainen.
+faq-how-calc-hours-q = Hoe berekkenet Common Voice de oeren?
+faq-how-calc-hours-a = Wy berekkenje de oeren troch de gemiddelde lingte fan elke opname te skatten en ferfolgens dat oantal te fermannichfâldigjen mei it totale oantal opnamen yn alle talen.
+faq-where-src-from-2-q = Wêr komt de boarnetekst fuort?
+faq-where-src-from-2-a =
+    Us boarnetekst bestiet út orizjinele donaasjes fan bydragers en dialogen út iepenbiere filmscripts lykas <italic>It’s a Wonderful Life</italic>.
+    
+    Jo kinne ús boarnesinnen besjen yn <githubLink>dizze GitHub-map</githubLink>.
+faq-why-not-ask-read-q = Wêrom freegje jimme net gewoan oan minsken om yn ferskillende talen út boeken of Wikipedia-artikelen te lêzen?
+faq-why-not-ask-read-a = Om de Common Voice-gegevensset sa nuttich mooglik te meitsjen, hawwe wy besletten om allinnich boarnetekst ta te stean dy't beskikber is ûnder in Creative Commons (CC0)-lisinsje. It gebrûk fan de CC0-standert betsjut dat it swierder is om boarnetekst te finen en te sammeljen, mar elkenien kin de resultearjende spraakgegevens brûke sûnder brûksbeheiningen of tastimming fan Mozilla. Uteinlik wolle wy de meartalige gegevensset sa nuttich mooglik meitsje foar elkenien, ynklusyf ûndersikers, universiteiten, start-ups, oerheden, sosjale doelgroepen en hobbyisten.
+faq-why-account-q = Wêrom soe ik in account oanmeitsje?
+faq-is-account-public-q = Binne myn accountgegevens iepenbier?
+faq-how-privacy-q = Hoe garandearje jimme de anonimiteit en privacy fan de persoanen dy't harren stimmen donearre hawwe?
+faq-how-privacy-a = Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifiesearbere gegevens. Wannear in meiwurker demografyske gegevens fia syn of har profyl ferstrekt, wurdt dy ynformaasje út de spraakfragminten fuortsmiten eardat dizze yn de gegevensset bundele wurdt foar downloaden en wurdt dy ynformaasje nea iepenbier makke op syn of har profylside.
+faq-what-determine-identity-q = Wat betsjut it dat ik “de identiteit” fan sprekkers yn de gegevensset fan Common Voice net “bepale kin”?
+faq-what-determine-identity-a =
+    De Common Voice-gegevensset is in frij tagonklike en iepenbiere boarne dy't brûkt wurde kin om in breed skala oan spraakstjoerde tapassingen te trainen. Om de feilichheid fan ús meiwurkers te beskermen, freegje wy elkenien dy't de Common Voice-gegevensset downloadt om de privacy fan de meiwurkers te respektearjen.
+    
+    Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear't jo de gegevensset downloade, geane jo dermei akkoard net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy't al yn de gegevensset stiet.
+
+## Glossary
+
+glossary = Wurdenlist
+localization = Lokalisaasje
+localization-explanation = Dit is ús proses foar oersetten en oanpassen fan ús ynhâld foar in protte locales (talen).
+sentence-collection = Sinnensamling
+sentence-collection-explanation = It sammeljen fan sinnen út it publike domein, of it skriuwen fan nije foar it publike domein.
+hours-recorded-explanation = It oantal oeren oan stimopnamen dat wy oant no ta sammele hawwe.
+hours-validated-explanation = It oantal spraakopname-oeren dat troch 2 fan de 3 brûkers mei in ‘Ja’-stim falidearre is. Dizze markearje de foarútgong yn de rjochting fan de totale projektdoelstelling fan 10.000 oer.
+sst = Spraak-nei-tekst (STT)
+sst-explanation = Spraak-nei-tekst (STT)-technologyen sette stimgegevens om nei tekst.
+de-identified = Anonym makke
+de-identified-explanation = It proses wêrby de profylgegevens fan in dielnimmer skieden wurde fan donearre spraakfragminten wannear dizze as ûnderdiel fan de gegevensset ferpakt wurde foar downloaden.
 
 ## NotFound
 
@@ -455,7 +533,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Jo talen
 toward-next-goal = Nei it folgjende doel
+clips-you-recorded = Troch jo opnommen fragminten
+clips-you-validated = Troch jo falidearre fragminten
+todays-recorded-progress = Foarútgong fan Common Voice hjoed omtrint opnommen fragminten
+todays-validated-progress = Foarútgong fan Common Voice hjoed omtrint falidearre fragminten
 stats = Statistiken
 you = Jo
 everyone = Elkenien

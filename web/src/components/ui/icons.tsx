@@ -55,24 +55,24 @@ export const CameraIcon = () => (
   </svg>
 );
 
-export const CheckIcon = (props: any) => (
+export const CheckIcon = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
     <defs>
       <path
-        id="check-path"
+        id={'check-path' + id}
         d="M17.7 1.7l-11 11c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0L6 10.6 16.3.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4z"
       />
     </defs>
     <g fill="none" fillRule="evenodd" transform="translate(3 6)">
-      <mask id="check-mask" fill="#fff">
-        <use xlinkHref="#check-path" />
+      <mask id={'check-mask' + id} fill="#fff">
+        <use xlinkHref={'#check-path' + id} />
       </mask>
-      <g fill="#4A4A4A" mask="url(#check-mask)">
+      <g fill="#4A4A4A" mask={'url(#check-mask' + id + ')'}>
         <path d="M-3-6h24v24H-3z" />
       </g>
     </g>
   </svg>
-);
+));
 
 export const ChevronRight = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">

@@ -17,8 +17,11 @@ indicates-required = * 表示必填字段
 
 ## Languages
 
+ab = 阿布哈兹语
 ace = 亚齐语
+ady = 阿迪格语
 af = 南非语
+am = 阿姆哈拉语
 an = 阿拉贡语
 ar = 阿拉伯语
 as = 阿萨姆语
@@ -37,6 +40,7 @@ cy = 威尔士语
 da = 丹麦语
 de = 德语
 dsb = 下索布语
+dv = 迪维希语
 el = 希腊语
 en = 英语
 eo = 世界语
@@ -65,8 +69,10 @@ kpv = 科米-齐良语
 kw = 康沃尔语
 ky = 吉尔吉斯语
 mdf = 莫克沙语
+mhr = 草原马里语
 mk = 马其顿语
 mn = 蒙古语
+mrj = 山地马里语
 myv = 厄尔兹亚语
 nb-NO = 书面挪威语
 ne-NP = 尼泊尔语
@@ -91,10 +97,13 @@ te = 泰卢固语
 th = 泰语
 tr = 土耳其语
 tt = 鞑靼语
+uby = 尤比克语
+udm = 乌德穆尔特语
 uk = 乌克兰语
 ur = 乌尔都语
 uz = 乌兹别克语
 vi = 越南语
+vot = 沃提克语
 zh-CN = 汉语（中国大陆）
 zh-HK = 汉语（香港）
 zh-TW = 汉语（台湾）
@@ -151,7 +160,7 @@ todays-progress = 本日进度
 help-reach-goal = 帮助我们达成 { $goal }
 read-terms-q = 您阅读过我们的使用条款了吗？
 ready-to-record = 准备好贡献您的声音了吗？
-all-languages = 所有语言
+all-locales = 全部
 today = 今天
 x-weeks-short =
     { $count ->
@@ -165,6 +174,28 @@ x-years-short =
     { $count ->
        *[other] { $count } 年
     }
+help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
+profile-not-required = 不需创建个人资料即可贡献，但如果有的话会更有帮助
+sign-up-account = 注册账号
+
+## Account Benefits
+
+benefits = 好处
+rich-data = 提供一些人口统计数据后，可让您提交的数据更加丰富。我们会在公开录音文件前，将这些统计数据去识别化。
+improve-audio = 个人资料可帮助改善进行语音识别准确度训练时的音频数据。
+keep-track = 记录您的进度，以及各种语言的统计指标。
+compare-progress = 看看您的进度与世界各地的其他贡献者相比如何？
+view-goals = 查看您的个人与项目目标进度。
+join-newsletter = 也可加入我们的邮件列表，以获取项目的进度更新与新信息。
+
+## What's public
+
+whats-public = 有哪些资料会公开？
+email-not-public = 我们不会公开您的邮件地址。
+recordings-and-locale-public = 您贡献的录音数量，以及贡献的语言将会是公开的。
+username-optin-public = 您可以选择公开用户名或保持匿名。
+demographic-deidentified = 非必要提交的人口统计数据（例如年龄、性别、语言、口音）将会在您提交的语音数据中进行去识别化，并且永远不会在您的个人资料中公开。
+username-email-not-demographic = 您的用户名与邮件地址不会与发布的数据相关联。
 
 ## Speak & Listen Shortcuts
 
@@ -210,8 +241,10 @@ english = 英语
 
 profile-form-username =
     .label = 用户名
-profile-form-language =
-    .label = 语言
+profile-form-native-language =
+    .label = 母语
+profile-form-additional-language =
+    .label = 附加语言
 profile-form-accent =
     .label = 口音
 profile-form-age =
@@ -267,29 +300,72 @@ file_too_large = 所选文件太大
 manage-subscriptions = 管理订阅
 email-already-used = 此电子邮件地址已被其他账户占用
 add-language = 添加语言
+change-email-setings = 请到“设置”的“登录身份”修改电子邮件地址
 
 ## FAQ
 
 faq-title = 常见问题
-faq-what-q = Common Voice 是什么？
-faq-what-a = 语音识别技术可能会革命性地改变我们与机器的交互方式，但现存的系统既昂贵又由个体私有。Common Voice 旨在使每个人都能容易地利用语音识别技术。人们自发贡献语音而打造出的庞大数据库将能确保任何人都能快速、轻松地训练出支持语音识别的应用程序。所有语音数据都将可供开发人员使用。
-faq-important-q = 为什么很重要？
-faq-important-a = 语音是自然的，语音是人类的。这是最容易且最自然的沟通方式。我们希望开发者能够借此开创，打造出实时语音翻译器，甚至是语音秘书。但是，目前还没有足够的公开数据来构建这些类型的应用程序。我们希望 Common Voice 能给予开发者创新所需。
-faq-get-q = 我要如何取得 Common Voice 的数据？
-faq-get-a = 目前该数据集可在<licenseLink> CC-0 </licenseLink>许可下的<downloadLink>下载页面</downloadLink>上获取。
-faq-mission-q = 为什么 Common Voice 是 Mozilla 使命的一部分？
-faq-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。在构建和测试语音技术时，我们认为需要囊括更多的语言、口音和人口特征。Mozilla 希望看到一个健康、充满活力的互联网。我们须要让新的创想家们能获得语音数据，来打造全新的非凡项目。Common Voice 将成为公共资源，有力支持 Mozilla 团队和世界各地的开发者们。
-faq-native-q = 我的母语不是 { $lang }，而且我说话带有口音，你们需要这样的语音吗？
-faq-native-a = 是的，我们绝对需要您的语音！Common Voice 的目的之一就是尽可能多地收集不同的口音，让计算机能更好地理解<bold>每个人</bold>的话语。
-faq-firefox-q = Firefox 会通过 Common Voice 项目增加语音转文本功能吗？
-faq-firefox-a = Common Voice 具有无限潜力，我们的确在探索 Firefox 等 Mozilla 产品中语音方面的交互。
-faq-quality-q = 什么品质的录音会被使用？
-faq-quality-a = 我们希望面向语音转文本引擎将在自然环境下遇到的音频质量。因此，我们需要各种质量的音频来训练引擎。这将使语音转文本引擎遇到各种情况时不出错—不论是周围有人谈话，还是有汽车噪声、风扇噪声。
-faq-hours-q = 为什么捕获音频的目标是 10,000 小时？
-faq-hours-a = 这是训练出可供利用的 STT 系统所需的大约小时数。
-faq-source-q = 原始文本来自何处？
-faq-source-a1 = 目前是通过贡献者捐赠语料给我们，我们也会利用来自公有领域电影剧本的对话（如 <italic>It’s a Wonderful Life</italic>）。
-faq-source-a2 = 您可以在<dataLink>这个 GitHub 文件夹</dataLink>参考我们的语料源码。
+faq-what-cv-q = Common Voice 是什么？
+faq-what-cv-a =
+    语音识别技术正在改变我们与机器交互的方式，但目前可用的系统都相当昂贵，且为专有技术。Common Voice 是 Mozilla 旨在让语音识别技术变得更好、让任何人都更能使用的倡议的一部分。Common Voice 也是一组庞大的全球捐赠语音数据库，可让任何人快速轻松地训练出识别任何语音的应用程序。
+    
+    我们不只收集被广泛使用的语言的语音样本，也收集较少人使用的语言的语音样本。发布多种多样的语音数据集，可帮助开发者、创业者，以及各个社区来缩小彼此之间的鸿沟。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
+faq-why-important-q = 为什么如此重要？
+faq-why-important-a = 说话是人类相互沟通最自然的方式。而语音技术把这种方便感带到了计算机与移动设备上。我们想让开发者能够打造效果极好的语音识别程序，比如实时翻译器和语音数字助理。但此刻，大多数打造这类应用所必需的语音数据都是私有且昂贵的。我们希望 Common Voice 提供的数据集能满足开发者所需，把语音技术带到他们所说的语言。
+faq-how-get-q = 我要如何获取 Common Voice 数据？
+faq-how-get-a = 可到 <datasetLink>Common Voice 数据集页面</datasetLink>下载，本数据集遵循<licenseLink>CC0</licenseLink> 进行授权。您也可以在该页面中下载其他几组公开可用的数据集。
+faq-when-release-q = 你们什么时候会发布其他语言的 Common Voice 数据？
+faq-when-release-a = 多语言版本的 Common Voice 数据集目前正由社区进行整理与维护。若想了解如何参与这个工作，请<contactLink>联系我们</contactLink>。我们的目标是在 2019 年 1 月发布数据集，之后会定期加入新语言与录音片段进行更新。迭代发布的周期仍待确定。
+faq-why-mission-q = 为什么 Common Voice 也是 Mozilla 使命的一部分？
+faq-why-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。这意味着在构建和测试语音技术时，应当满足更多语言、口音和人口特征的需求。Common Voice 将成为人人皆可使用的公共资源，Mozilla 团队和世界各地的开发者也已将其用于项目开发中。
+faq-what-cv-and-deepspeech-q = Common Voice 与 Deep Speech 有何不同？
+faq-what-cv-and-deepspeech-a = Common Voice 能够与 Mozilla 的开源语音识别引擎 Deep Speech 互补。初版的 Deep Speech 发布于 2017 年 11 月，并不断发展。与 Common Voice 数据集一起，我们认为这项开源语音识别技术应开放给所有人使用，也希望这些技术能够让开发者构建出一批创新产品与服务。
+faq-is-goal-assistant-q = Common Voice 的目标是要构建语音助手吗？
+faq-is-goal-assistant-a = Common Voice 数据集的目标是使世界上的任何人都能构建语音识别、声纹识别，以及任何其他需要语音数据的应用。语音助手只是您可以使用其构建的众多应用类型之一。
+faq-do-want-native-q = 某语言不是我的母语而且说话带有口音，你们需要这样的语音吗？
+faq-do-want-native-a = 是的，而且我们特别想要您的声音！ Common Voice 的目标之一就是收集尽可能多的不同口音，让语音识别服务能适用于每个人。这意味着非母语人士的贡献尤为重要。
+faq-why-different-speakers-q = 为什么每种语言需要这么多不同的说话者？
+faq-why-different-speakers-a =
+    大多数语音数据库的语音来源偏重于某一特定人群，造成结果偏向于<articleLink>男性与中产阶级</articleLink>。而在训练数据集中，代表性不足的口音与方言往往会与被边缘化的人群相关联。许多机器也很难理解女性的声音。
+    这就是为何我们的语音数据库应该海纳百川，收集各种语音！
+faq-why-my-lang-q = 为什么还没有我的语言？
+faq-why-my-lang-a = Mozilla 不会偏好某一语言，然而 Common Voice 是一个纯社区驱动的项目，需要<multilangLink>几个步骤才能添加新语言</multilangLink>并开始收集语音片段。首先，需要翻译 Common Voice 网站，以便社区成员可以用自己的语言进行贡献。其次，我们需要大量的无版权语句，供人们大声说出来。一旦满足上述两条件， Common Voice 即可“上线”该语言，让人们开始录音，并验证其他人所录制的片段。
+faq-what-quality-q = 录音片段的音质要达到什么等级，才可用于数据集中？
+faq-what-quality-a = 我们希望 Common Voice 数据集能够反映出语音转文字引擎就算在野外也会听到的音频质量，所以我们希望能够收集各种环境与录音质量下的片段。除了各种说话者以外，具有不同音频质量的数据集，可让语音转文字引擎更能处理各种真实情况，例如背景中有人在讲话，或是有车辆的噪音。只要您的片段能让人听得懂，即可收录至数据集中。
+faq-why-10k-hours-q = 为什么每种语言均有 10,000 小时的有效音频采集目标？
+faq-why-10k-hours-a = 这是训练出可供利用的语音转文字系统所需的大约小时数。
+faq-how-calc-hours-q = Common Voice 如何计算小时数？
+faq-how-calc-hours-a = 我们通过估算每条录音的平均长度来计算小时数，并乘以所有语言录音总数来计算。
+faq-where-src-from-2-q = 这些原始文本出自何处？
+faq-where-src-from-2-a =
+    我们的原始文本由原创贡献者的捐赠和来自公共领域电影剧本的对话组成，例如 <italic>It’s a Wonderful Life</italic>。
+    
+    您可以在 <githubLink>GitHub 文件夹</githubLink>中查看我们的原始语句。
+faq-why-not-ask-read-q = 你为什么不让人们使用不同语言阅读书籍或维基百科文章？
+faq-why-not-ask-read-a = 为了保证 Common Voice 数据集的可用性，我们决定仅接受在知识共享“无著作权（CC0）”许可下提供的原始文本。使用 CC0 协议意味着寻找和收集原始文本更加困难，但这样可让任何人在无使用限制且毋须 Mozilla 的授权下使用语音数据。总之，我们希望让每个人都能用上这个多语言数据集，包括研究人员、大学、初创公司、政府、社会组织和业余爱好者。
+faq-why-account-q = 为什么我要注册账号？
+faq-is-account-public-q = 我的账户信息是公开的吗？
+faq-how-privacy-q = 你们如何确保语音贡献者的匿名性和隐私？
+faq-how-privacy-a = 数据集中所有的录音片段都会抹除个人识别信息。若贡献者提供个人相关资料，该信息将在录音片段被合并到数据集提供下载前去识别化，且永远不会在他们的个人资料页面中公开。
+faq-what-determine-identity-q = 在 Common Voice 数据集中无法“确定说话者身份”是什么意思？
+faq-what-determine-identity-a =
+    Common Voice 数据集是一个开放且可公开获取的资源，可用于训练各种支持语音的应用程序。为了保护我们的贡献者的安全，我们要求下载 Common Voice 数据集的每个人都尊重贡献者的隐私。
+    
+    数据集中的所有语音片段都会抹除个人识别信息。下载数据集时，您须同意不试图去确定任何贡献者的身份。这意味着您不可尝试将数据集中的信息关联到贡献者的个人信息。但是，您可以使用数据集来训练语音识别，声纹识别或其他应用程序，例如，将数据集中的信息关联到数据集中已有的其他信息。
+
+## Glossary
+
+glossary = 词汇表
+localization = 本地化
+localization-explanation = 这是我们为许多语系（语言）进行翻译和调整内容的过程。
+sentence-collection = 语句集合
+sentence-collection-explanation = 收集公共领域的语句，或为公共领域编写新的语句。
+hours-recorded-explanation = 到目前为止我们收集到的录音小时数。
+hours-validated-explanation = 每 3 位用户中有 2 位投票赞成“是”的已验证录音小时数。这也就是整个项目 10000 小时目标的进度。
+sst = 语音转文字（STT）
+sst-explanation = 语音转文字（STT）技术将语音数据转换为文字。
+de-identified = 去识别化
+de-identified-explanation = 在打包下载数据集时，贡献者的个人信息会从其所贡献的语音片段隐藏的过程。
 
 ## NotFound
 
@@ -443,6 +519,8 @@ your-languages = 您的语言
 toward-next-goal = 距离下一个目标
 clips-you-recorded = 您录制的片段
 clips-you-validated = 您验证的片段
+todays-recorded-progress = 今日 Common Voice 已录片段进度
+todays-validated-progress = 今日 Common Voice 已录片段进度
 stats = 统计
 you = 您自己
 everyone = 所有人

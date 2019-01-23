@@ -1,7 +1,8 @@
 import * as React from 'react';
+import { HTMLProps } from 'react';
+import { Link } from 'react-router-dom';
 import { LocaleLink } from '../locale-helpers';
 import { Localized } from 'fluent-react/compat';
-import { HTMLProps } from 'react';
 
 export const Avatar = ({ url }: { url?: string }) => (
   <div className="avatar-wrap">
@@ -97,9 +98,10 @@ export const LinkButton = ({
   className = '',
   outline = false,
   rounded = false,
+  absolute = false,
   ...props
 }: any) => {
-  const Component = props.to ? LocaleLink : 'a';
+  const Component = props.to ? (absolute ? Link : LocaleLink) : 'a';
   return (
     <Component
       className={[

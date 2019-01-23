@@ -13,8 +13,11 @@ indicates-required = * Indicates required field
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
 ## Languages
+ab = Abkhaz
 ace = Acehnese
+ady = Adyghe
 af = Afrikaans
+am = Amharic
 an = Aragonese
 ar = Arabic
 as = Assamese
@@ -33,6 +36,7 @@ cy = Welsh
 da = Danish
 de = German
 dsb = Sorbian, Lower
+dv = Dhivehi
 el = Greek
 en = English
 eo = Esperanto
@@ -61,8 +65,10 @@ kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
 mdf = Moksha
+mhr = Meadow Mari
 mk = Macedonian
 mn = Mongolian
+mrj = Hill Mari
 myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
@@ -87,10 +93,13 @@ te = Telugu
 th = Thai
 tr = Turkish
 tt = Tatar
+uby = Ubykh
+udm = Udmurt
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
 vi = Vietnamese
+vot = Votic
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -159,7 +168,7 @@ todays-progress = Today's Progress
 help-reach-goal = Help us get to { $goal }
 read-terms-q = Have you read our Terms?
 ready-to-record = Ready to donate your voice?
-all-languages = All Languages
+all-locales = All
 today = Today
 x-weeks-short =
   { $count ->
@@ -174,6 +183,27 @@ x-years-short =
   { $count ->
     *[other] { $count }y
   }
+help-make-dataset = Help us build a high quality, publicly open dataset
+profile-not-required = Having a profile is not required to contribute though it is helpful
+sign-up-account = Sign up for an account
+
+## Account Benefits
+benefits = Benefits
+rich-data = Make your submitted data as rich as possible by providing some anonymous demographic data. We de-identify all demographic data before making it public.
+improve-audio = Profile information improves the audio data used in training speech recognition accuracy.
+keep-track = Keep track of your progress and metrics across multiple languages.
+compare-progress = See how your progress compares to other contributors all over the world.
+view-goals = View your progress against personal and project goals.
+join-newsletter = Optionally join on our email list for updates and new information about the project.
+
+## What's public
+whats-public = What's Public?
+email-not-public = We will not make your email public.
+recordings-and-locale-public = The number of recordings and which languages you contribute to will be public.
+username-optin-public = You can choose to make your username public or anonymous.
+demographic-deidentified = Optionally submitted demographic data (e.g. age, sex, language, and accent) is de-identified from your submitted voice data and will never be made public on your profile.
+username-email-not-demographic = Your username and email will not be associated with the published data.
+
 
 ## Speak & Listen Shortcuts
 # Must be one letter that appears in the translated { skip } string.
@@ -216,8 +246,10 @@ english = English
 ## ProfileForm
 profile-form-username =
     .label = User Name
-profile-form-language =
-    .label = Language
+profile-form-native-language =
+    .label = Native Language
+profile-form-additional-language =
+    .label = Additional Language
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -279,25 +311,88 @@ change-email-setings = Change your email via Settings under Login Identity
 
 ## FAQ
 faq-title = Frequently Asked Questions
-faq-what-q = What is Common Voice?
-faq-what-a = Voice recognition technology could revolutionize the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is a project to make voice recognition technology easily accessible to everyone. People donate their voices to a massive database that will let anyone quickly and easily train voice-enabled apps. All voice data will be available to developers.
-faq-important-q = Why is it important?
-faq-important-a = Voice is natural, voice is human. It’s the easiest and most natural way to communicate. We want developers to be able to build amazing things from real-time translators to voice-enabled administrative assistants. But right now there isn’t enough publicly available data to build these kinds of apps. We hope that Common Voice will give developers what they need to innovate.
-faq-get-q = How can I get the Common Voice data?
-faq-get-a = The dataset is available now on our <downloadLink>download page</downloadLink> under the <licenseLink>CC-0</licenseLink> license.
-faq-mission-q = Why is Common Voice part of the Mozilla mission?
-faq-mission-a = Mozilla is dedicated to keeping the web open and accessible for everyone. To do it we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally well. We see a need to include more languages, accents and demographics when building and testing voice technologies. Mozilla wants to see a healthy, vibrant internet. That means giving new creators access to voice data so they can build new, extraordinary projects. Common Voice will be a public resource that will help Mozilla teams and developers around the world.
-faq-native-q = I am a non-native { $lang } speaker and I speak with an accent, do you still want my voice?
-faq-native-a = Yes, we definitely want your voice! Part of the aim of Common Voice is to gather as many different accents as possible, so that computers can better understand <bold>everyone</bold> when they speak.
-faq-firefox-q = Will speech-to-text, via Common Voice, ever become part of Firefox?
-faq-firefox-a = Common Voice has unlimited potential and we are indeed exploring speech interfaces in many Mozilla products, including Firefox.
-faq-quality-q = What is the level of quality needed for the audio in order to be used?
-faq-quality-a = We want the audio quality to reflect the audio quality a speech-to-text engine will see in the wild. Thus, we want variety. This teaches the speech-to-text engine to handle various situations—background talking, car noise, fan noise—without errors.
-faq-hours-q = Why is 10,000 hours the goal for capturing audio?
-faq-hours-a = This is approximately the number of hours required to train a production STT system.
-faq-source-q = Where does the source text come from?
-faq-source-a1 = The current sentences come from contributor donations, as well as dialogue from public domain movie scripts like <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = You can view our source sentences in <dataLink>this GitHub folder</dataLink>.
+
+faq-what-cv-q = What is Common Voice?
+faq-what-cv-a =
+    Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone.  Common Voice is a  massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+
+    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+
+faq-why-important-q = Why is it important?
+faq-why-important-a =
+    Speech is often the most natural way we communicate with each other and voice technologies are bringing that convenience to our computers and mobile devices. We want to empower developers to build amazing voice recognition applications like real-time translators and voice-enabled digital assistants. But right now most of the voice data required to build these kinds of apps is expensive and proprietary. We hope the Common Voice dataset will give developers what they need to innovate and make speech technology available in their own language.
+
+    To make voice recognition even more universal, we're collecting voice samples in widely spoken languages as well as those with a smaller population of speakers often underserved by commercial speech recognition services. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and entire speech communities to address this gap themselves.
+
+faq-how-get-q = How can I get the Common Voice data?
+faq-how-get-a = The Common Voice dataset is available for download under the <licenseLink>CC0</licenseLink> license on <datasetLink>our Datasets page</datasetLink>. You can also download several other publicly available datasets from the same page.
+
+faq-when-release-q = When will you release Common Voice data in other languages?
+faq-when-release-a = The multi-language version of the Common Voice dataset is currently undergoing community supported bundling and cleaning. If you would like to learn more about supporting this effort, please <contactLink>contact us</contactLink>. We are currently targeting a publish date of January 2019. After that, we’ll update the dataset periodically with new languages and voice clips as they become available. An iterative release cycle cadence is still to be determined.
+
+faq-why-mission-q = Why is Common Voice part of the Mozilla mission?
+faq-why-mission-a = Mozilla is dedicated to keeping the web open and accessible for everyone. To do that we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally. That means investing in more languages and accommodating diverse accents and demographics when building and testing voice technologies. Common Voice is a public resource available to everyone and Mozilla teams and developers around the world are already using it on our own projects as well.
+
+faq-what-cv-and-deepspeech-q = What’s the difference between Common Voice and Deep Speech?
+faq-what-cv-and-deepspeech-a = The Common Voice dataset complements Mozilla’s open source voice recognition engine Deep Speech. The first version of Deep Speech was released in November 2017 and has continued to evolve ever since. Together with the Common Voice dataset, we believe this open source voice recognition technology should be available to everybody. It’s our hope these technologies will enable developers to build a wave of innovative products and services.
+
+faq-is-goal-assistant-q = Is the goal of Common Voice to build a voice assistant?
+faq-is-goal-assistant-a = The goal of the Common Voice dataset is to enable anyone in the world to build speech recognition, speaker recognition, or any other type of application that requires voice data. A voice assistant is just one of many types of applications you could use the dataset to build.
+
+faq-do-want-native-q = I am a non-native speaker and I speak with an accent, do you still want my voice?
+faq-do-want-native-a = Yes, we especially want your voice! Part of the aim of Common Voice is to gather as many different accents as possible so that voice recognition services work equally well for everyone. This means donations from non-native speakers are particularly important.
+
+faq-why-different-speakers-q = Why do you need so many different speakers per language?
+faq-why-different-speakers-a =
+    Most speech databases are trained with an overrepresentation of certain demographics which results in a bias towards <articleLink>male and middle class</articleLink>. Accents and dialects that tend to be under-represented in training data sets are typically associated with groups of people who are already marginalised. Many machines also struggle to understand female voices.
+    This is why in our voice database we want variety!
+
+faq-why-my-lang-q = Why is my language not included yet?
+faq-why-my-lang-a = Mozilla doesn’t pick or favor any one language over another. Instead, Common Voice is a purely community-driven initiative, but it takes <multilangLink>several steps to add a new language</multilangLink> and begin collecting voice donations. First, the Common Voice website needs to be translated so community members can access the contributor experience in their own language. Next, we need a large collection of copyright-free sentences for people to read outloud. Once both of those requirements are satisfied a language is “launched” on Common Voice for people to start recording their voice and validating others donations.
+
+faq-what-quality-q = What level of audio quality is required for a voice clip to be used in the dataset?
+faq-what-quality-a = We want the Common Voice dataset to reflect the audio quality a speech-to-text engine will hear in the wild, so we’re looking for variety. In addition to a diverse community of speakers, a dataset with varying audio quality will teach the speech-to-text engine to handle various real-world situations, from background talking to car noise. As long as your voice clip is intelligible, it should be good enough for the dataset.
+
+faq-why-10k-hours-q = Why is 10,000 validated hours the per language goal for capturing audio?
+faq-why-10k-hours-a = This is approximately the number of hours required to train a production speech-to-text system.
+
+faq-how-calc-hours-q = How does Common Voice calculate hours?
+faq-how-calc-hours-a = We calculate hours by estimating the average length of each recording, and then multiplying that number by the total number of recordings across all languages.
+
+faq-where-src-from-2-q = Where does the source text come from?
+faq-where-src-from-2-a =
+    Our source text is made up of original contributor donations as well as dialogue from public domain movie scripts like <italic>It’s a Wonderful Life</italic>.
+
+    You can view our source sentences in this <githubLink>GitHub folder</githubLink>.
+
+faq-why-not-ask-read-q = Why don’t you ask people to read from books or Wikipedia articles in different languages?
+faq-why-not-ask-read-a = To make the Common Voice dataset as useful as possible we have decided to only allow source text that is available under a Creative Commons (CC0) license. Using the CC0 standard means its more difficult to find and collect source text, but allows anyone to use the resulting voice data without usage restrictions or authorization from Mozilla. Ultimately, we want to make the multi-language dataset as useful as possible to everyone, including researchers, universities, startups, governments, social purpose organizations, and hobbyists.
+
+faq-why-account-q = Why should I sign up for an account?
+faq-is-account-public-q = Is my account information public?
+
+faq-how-privacy-q = How do you ensure anonymity and privacy of the people who donated their voices?
+faq-how-privacy-a = All voice clips in the dataset are scrubbed of personally identifying information. When a contributor provides demographic data via their profile, that information is de-identified from their voice clips before being bundled for download in the dataset and is never made public on their profile page.
+
+faq-what-determine-identity-q = What does it mean that I can’t “determine the identity” of speakers in the Common Voice dataset?
+faq-what-determine-identity-a =
+    The Common Voice dataset is an open and publicly available resource that can be used to train a wide variety of speech-enabled applications. To protect the security of our contributors, we ask everyone who downloads the Common Voice dataset to respect contributors’ privacy.
+
+    All voice clips in the dataset are scrubbed of personally identifying information. When you download the dataset, you agree to not attempt to determine the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
+
+
+## Glossary
+glossary = Glossary
+localization = Localization
+localization-explanation = This is our process for translating and adapting our content for many locales (languages).
+sentence-collection = Sentence Collection
+sentence-collection-explanation = Collecting sentences from the public domain, or writing new ones for the public domain.
+hours-recorded-explanation = The count of voice recording hours we have collected so far.
+hours-validated-explanation = The count of voice recording hours that have been validated by 2 out of 3 users with a vote of “Yes”. These mark progress toward the overall project 10k hours goal.
+sst = Speech-to-text (STT)
+sst-explanation = Speech-to-text (STT) technologies convert voice data into text.
+de-identified = De-identified
+de-identified-explanation = The process by which a contributor’s profile information is obscured from their donated voice clips when packaged for download as a part of the dataset.
 
 ## NotFound
 notfound-title = Not found

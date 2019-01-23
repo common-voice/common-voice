@@ -19,6 +19,7 @@ indicates-required = * Zahtevano polje
 
 ace = ačinščina
 af = afrikanščina
+am = amharščina
 an = aragonščina
 ar = arabščina
 as = asamščina
@@ -37,6 +38,7 @@ cy = valižanščina
 da = danščina
 de = nemščina
 dsb = dolnja lužiška srbščina
+dv = diveščina
 el = grščina
 en = angleščina
 eo = esperanto
@@ -156,7 +158,7 @@ todays-progress = Današnji napredek
 help-reach-goal = Pomagajte nam doseči { $goal }
 read-terms-q = Ste prebrali naše pogoje?
 ready-to-record = Ste pripravljeni prispevati svoj glas?
-all-languages = Vsi jeziki
+all-locales = Vsi
 today = Danes
 x-weeks-short =
     { $count ->
@@ -179,6 +181,25 @@ x-years-short =
         [few] { $count } leta
        *[other] { $count } let
     }
+help-make-dataset = Pomagajte nam zgraditi kakovosten in javno dostopen nabor podatkov
+profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
+sign-up-account = Prijavite se za račun
+
+## Account Benefits
+
+benefits = Prednosti
+compare-progress = Primerjajte svoj napredek z drugimi sodelujočimi po vsem svetu.
+view-goals = Spremljajte svoj napredek glede na osebne in projektne cilje.
+join-newsletter = Po želji se lahko pridružite našemu e-poštnemu seznamu za prejemanje posodobitev in novih podatkov o projektu.
+
+## What's public
+
+whats-public = Kaj je javno?
+email-not-public = Vašga e-poštnega naslova ne bomo javno objavili.
+recordings-and-locale-public = Število posnetkov in jeziki, pri katerih sodelujete, bodo javni.
+username-optin-public = Svoje uporabniško ime lahko nastavite kot javno ali anonimno.
+demographic-deidentified = Po želji dodani demografski podatki (npr. starost, spol, jezik in naglas) so iz vaših poslanih glasovnih podatkov odstranjeni in jih v vašem profilu ne bomo nikoli javno objavili.
+username-email-not-demographic = Vaše uporabniško ime in e-poštni naslov ne bosta povezana z objavljenimi podatki.
 
 ## Speak & Listen Shortcuts
 
@@ -284,29 +305,28 @@ file_too_large = Izbrana datoteka je prevelika
 manage-subscriptions = Upravljaj z naročninami
 email-already-used = E-poštni naslov je že v uporabi za drug račun
 add-language = Dodaj jezik
+change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta prijave
 
 ## FAQ
 
 faq-title = Pogosta vprašanja
-faq-what-q = Kaj je Common Voice?
-faq-what-a = Tehnologija za prepoznavo govora lahko revolucionizira način, s katerim upravljamo z napravami, toda trenutno dostopni sistemi so dragi in zaprti. Common Voice je projekt, ki bo naredil tehnologijo govorne prepoznave preprosto in dostopno vsem. Ljudje prispevajo svoje zvočne posnetke v ogromno bazo podatkov, ki bo nato omogočala hitro in enostavno učenje govorno podprtih aplikacij. Vsi govorni podatki bodo na voljo razvijalcem.
-faq-important-q = Zakaj je to pomembno?
-faq-important-a = Govor je naraven, govor je človeški. Je najpreprostejša in najbolj naravna oblika komunikacije. Želimo si, da bi razvijalci lahko ustvarjali čudovite stvari, od prevodov v realnem času do administrativnih pomočnikov, ki jih upravljamo z glasom. Trenutno ni na voljo dovolj javno dostopnih podatkov, da bi lahko takšne aplikacije tudi zgradili. Upamo, da bo Common Voice dal razvijalcem to, kar potrebujejo za inoviranje.
-faq-get-q = Kako lahko dobim podatke Common Voice?
-faq-get-a = Nabor podatkov je na voljo na naši <downloadLink>strani za prenos</downloadLink> pod licenco <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
-faq-mission-a = Mozilla se zavzema za splet, ki je odprt in dostopen vsem. Za to želimo opolnomočiti ustvarjalce spleta s pomočjo projektov, kot je Common Voice. Medtem ko se govorne tehnologije širijo preko meja nišnih aplikacij, si prizadevamo, da bi vsem uporabnikom služile enako dobro. Pri razvoju in testiranju govorne tehnologije tako vidimo potrebo po vključevanju čim več jezikov, naglasov in demografskih skupin . Mozilla se zavzema za zdrav in dinamičen internet. To želimo doseči tako, da damo novim ustvarjalcem dostop do govornih podatkov za namen gradnje novih, neobičajnih projektov. Common Voice bo javni prostodostopni vir govornih podatkov, ki bo pomagal tako ekipam Mozille, kot tudi razvijalcem po celem svetu.
-faq-native-q = { $lang } ni moj materni jezik in govorim z naglasom. Vseeno želite moj govor?
-faq-native-a = Da, tudi vaš glas potrebujemo! Del namena projekta Common Voice je zbrati karseda veliko naglasov, tako da bodo računalniki bolje razumeli govor <bold>vseh</bold> ljudi.
-faq-firefox-q = Bo pretvorba govora v besedilo preko Common Voice v prihodnosti postala del Firefoxa?
-faq-firefox-a = Common Voice ima brezmejen potencial in resnično raziskujemo možnosti govornih vmesnikov v številnih Mozillinih izdelkih, tudi v Firefoxu.
-faq-quality-q = Kako kakovostni morajo biti posnetki, da bodo uporabni?
-faq-quality-a = Želimo si, da bi kakovost zvočnih posnetkov odražala kakovost zvoka pri običajni uporabi programov za pretvorbo govora v besedilo. Želimo si raznolikosti. Le tako se bo algoritem za pretvorbo govora v besedilo naučil prepoznati različne situacije – govor v ozadju, hrup avtomobilov, hrup ventilatorjev – brez napak.
-faq-hours-q = Zakaj je cilj 10 000 ur posnetkov?
-faq-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v besedilo potrebuje za učenje.
-faq-source-q = Od kod izvirajo besedila?
-faq-source-a1 = Obstoječi stavki so prispevki sodelavcev ter dialogi iz scenarijev filmov v javni domeni, npr. <italic>Čudovito življenje</italic>.
-faq-source-a2 = Izvorne stavke si lahko ogledate v <dataLink>mapi na GitHubu</dataLink>.
+faq-what-cv-q = Kaj je Common Voice?
+faq-why-important-q = Zakaj je to pomembno?
+faq-how-get-a = Podatkovni niz Common Voice je na voljo za prenos pod licenco <licenseLink>CC0</licenseLink> na <datasetLink>naši strani podatkovnih nizov</datasetLink>. Z iste strani lahko prenesete tudi več drugih javno dostopnih podatkovnih nizov.
+faq-when-release-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
+faq-why-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
+faq-what-cv-and-deepspeech-q = Kakšna je razlika med projektoma Common Voice in Deep Speech?
+faq-do-want-native-a = Da, še posebej želimo vaš glas! Del cilja Common Voice je zbrati čim več različnih naglasov, tako da lahko storitve prepoznavanja govora delujejo enako dobro za vse. To pomeni, da so prispevki tujih govorcev še posebej pomembni.
+faq-why-different-speakers-q = Zakaj potrebujete toliko različnih govorcev za en jezik?
+faq-why-my-lang-q = Zakaj moj jezik še ni vključen?
+faq-where-src-from-2-q = Od kod prihaja izvorno besedilo?
+faq-is-account-public-q = Ali so podatki o mojem računu javni?
+faq-how-privacy-q = Kako zagotavljate anonimnost in zasebnost ljudi, ki so prispevali svoje glasove?
+
+## Glossary
+
+glossary = Slovar
+localization = Lokalizacija
 
 ## NotFound
 
@@ -475,6 +495,8 @@ your-languages = Vaši jeziki
 toward-next-goal = Do naslednjega cilja
 clips-you-recorded = Posnetki, ki ste jih posneli
 clips-you-validated = Posnetki, ki ste jih preverili
+todays-recorded-progress = Današnji skupni napredek pri snemanju posnetkov
+todays-validated-progress = Današnji skupni napredek pri preverjanju posnetkov
 stats = Statistika
 you = Vi
 everyone = Vsi

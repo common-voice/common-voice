@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Kua
 loading = Thunlio...
+email-opt-in-privacy = Kan email i luh duhnak nai thim cu Mozilla nih <privacyLink> Kilvennak Policy <privacyLink> ning bantuk in keimah kong tawlrel ko, na ti duhnak a si.
 indicates-required = * aherh mi a um
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -16,7 +17,11 @@ indicates-required = * aherh mi a um
 
 ## Languages
 
+ab = Abkhaz holh
 ace = Acehnese holh
+ady = Adyghe holh
+af = Afrikaans holh
+am = Amharic holh
 an = Aragon holh (Spain)
 ar = Arabic holh
 as = Assam holh
@@ -35,6 +40,7 @@ cy = Wales holh
 da = Denmark holh
 de = Germany holh
 dsb = Lusatia holh (thlang lei)
+dv = Dhivehi holh
 el = Greek holh
 en = Mirang holh
 eo = Esperanto holh
@@ -63,8 +69,10 @@ kpv = Komi-Zyrian holh
 kw = Cornwall holh (England)
 ky = Kyrgyzstan holh
 mdf = Moksha holh
+mhr = Meadow Mari holh
 mk = Macedonia holh
 mn = Mongolia Holh
+mrj = Hill Mari holh
 myv = Erzia holh (Russia)
 nb-NO = Norway holh (Bokmal)
 ne-NP = Nepal holh
@@ -89,10 +97,13 @@ te = Telugu holh (India)
 th = Thailand holh
 tr = Turkey holh
 tt = Tatar holh (Russia)
+uby = Ubykh holh
+udm = Udmurt holh
 uk = Ukraine holh
 ur = Urdu holh
 uz = Uzbekistan holh
 vi = Vietnam Holh
+vot = Votic holh
 zh-CN = Tuluk holh
 zh-HK = Tuluk holh (Hong Kong)
 zh-TW = Tuluk holh (Taiwan)
@@ -149,7 +160,7 @@ todays-progress = Nihin tuahmi
 help-reach-goal = { $goal } tiang phanh kan bawm
 read-terms-q = Kan zulhphung na rel cang maw?
 ready-to-record = Na aw tun dingah na manh cang maw?
-all-languages = Holh phun dih lak
+all-locales = A dihlak
 today = Nihin
 x-weeks-short =
     { $count ->
@@ -166,6 +177,28 @@ x-years-short =
         [one] Kum
        *[other] Kum { $count }
     }
+help-make-dataset = Mipi nih hman awktlak pumhmi data ser kan bawm
+profile-not-required = Aw tunnak dingah profile ngeih cu a herh lo nain na ngei ahcun a kan bawmh deuh lai
+sign-up-account = Account sernak
+
+## Account Benefits
+
+benefits = Ṭhathnemnak
+rich-data = Na kan kuatmi aw pawl an sunlawi tuknak dingah nangmah kong tlawmpal rak kan chim. Mipi sinah nangmah kong zeihmanh kan tlanghter lai lo.
+improve-audio = Computer kan cawnpiak tikah nangmah kong kan theihnak nih tampi a kan bawmh lai.
+keep-track = Na tuahcia mi vialte le holhphun dang zong zoh chih khawh.
+compare-progress = Na tuahmi hi vawleicung a um mi vialte nih an rak tuahmi he zohchih khawh.
+view-goals = Na tuahmi hi midang le riandang a tuah ve mi hna he zohchih hna.
+join-newsletter = Kan cakuatnak le thawngthanhnak cu nangmah lungduh in i tal khawh a si.
+
+## What's public
+
+whats-public = Zeidah mipi sinah a lang?
+email-not-public = Na email mipi sinah kan langhter lai lo.
+recordings-and-locale-public = Aw na tunmi zat le zeiholh in dah na holh timi cu mipi sinah a lang lai
+username-optin-public = Mipi sinah na username langhter le langhter lo nangmah nih na thim khawh.
+demographic-deidentified = Nangmah kong (nupa sinak, kum, holh, le awicawi tbk.) mipi sinah zeitik hmanhah kan langhter lai lo.
+username-email-not-demographic = Na email le username cu mipi sin chuahmi data ah a lang lai lo.
 
 ## Speak & Listen Shortcuts
 
@@ -268,29 +301,43 @@ file_too_large = Na thimmi a lian tuk
 manage-subscriptions = Cakuat Zohkhenhnak
 email-already-used = Na email cu midang nih an hman cang
 add-language = Holhphun Chapnak
+change-email-setings = Na email setting cu luhnak ahkhan thlen khawh a si
 
 ## FAQ
 
 faq-title = Hal Tawnmi Bia
-faq-what-q = Common Voice cu zei dah a si?
-faq-what-a = Common Voice nih kan i tinhmi cu a mikip caah fawi tein mah le holh cio in computer hmanter khawh hi a si.  Cucu, mi tampi nih an Aw khumh cio in khulrang te le fawi tein holhphun kip holh a thiam mi computer thilri ser khawhnak a si. Kan tuahmi vialte hi mipi nih man loin hman khawh dih a si lai.
-faq-important-q = Zei ruangah dah a bia pit?
-faq-important-a = Aw cu kokek a si, Aw cu minung a si. I chawnh khenh nak caah a fawi cemmi le hmancem mi a si. Computer thiam nih hi thil chung in hman awktlak thil ṭha, holh leh/ca leh le a dangdang bawmtu ah an ser khawh nak ding hi kan duh. Asinain, a tu ahcun mipi nih hman khawh ding mi hi a um lo.  Laimi computer thiam pawl nih thil ṭhaṭha an sernak ah Common Voice nih hin a bawmh khawh hna lai tihi kan i ruahchan.
-faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
-faq-get-a = Pumhmi Data cu dawnlok a ngah <downloadLink> dawnlok nak</downloadLink> i a tang <licenseLink>CC-0</licenseLink> laisen.
-faq-mission-q = Zei ruangah dah Common Voice hi Mozilla nih aa tinhmi rian a si ve?
-faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cucaah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cucaah cun mikip nih computer hi an holh cio in hmang kho ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun kip in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak a si. Common Voice cu kan mah, Mozilla, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat a si lai.
-faq-native-q = Lai holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
-faq-native-a = A si, kan duh ṭhiam ko! Common Voice i kan i tinh mi cu computer nih Aw a theih khawh cemnak hnga zei Aw-cawi paoh lak chih dih kan duh.
-faq-firefox-q = Common Voice i bia-in-ca lehnak hi Firefox ah chiah chih a si lai maw?
-faq-firefox-a = Mozilla nih chuahmi thil, Firefox, ti bantuk ah hin Common Voice hi hman khawhnak ding thil tampi a um.
-faq-quality-q = Zei tluk in dah ka Aw hi a fiang a herh?
-faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawṭaw chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawnh lio tibantuk zong an ṭha ṭhiamṭhiam ko.
-faq-hours-q = Zei ruangah dah nazi 10,000 renglo hi kan aw tun a herh?
-faq-hours-a = Hihi STT timi computer nih Laiholh cawnnak ding ah a herh mi suimilam zat a si.
-faq-source-q = Khoi ka in dah biafang le biatlang hi an rat?
-faq-source-a1 = Hi biatlang hna hi bawmchantu in siseh, mipi holhnak in, cun caṭial mi,<italic> Kenneth Van Bik Dictionary </italic>, ti bantuk in kan lak mi a si.
-faq-source-a2 = Hi ka hin <dataLink>biatlang kan laknak na zoh khawh.  </dataLink> GitHub ah kan chiah.
+faq-what-cv-q = Common Voice cu zeidah a si?
+faq-what-cv-a = Holh in computer kan chawnh khawhnak nih hin zeitin dah computer he kan i pehtlaih ti hi biatak tein a kan thlen, a sinain hman khawh mi pawl cu an man fak tuk i holh tam piin an ngah rih lo. Common Voice cu Mozzila nih a tuahmi, a holhphun kip in computer chawnh khawhnak dingah a si. Common Voice cu vawleicung mikip nih fawi tein an aw an tunnak database a nganpi a si.
+faq-why-important-q = Zei ruangah dah a bia pit?
+faq-why-important-a =
+    Holh in hin i chawnhkhanh a si i cucu kan computer le fawn nih hin kan hmai ah fawi tein an tuah. Computer serthiam hna nih holh a thei khomi computer hi holh lehnak ti bantuk caah serkho hna seh ti hi kan duh.  Asinain, hi serkhawhnak dingah cun aw hi tamtuk a herh i phaisa zong tampi dih a herh fawn. Hi Common Voice pumhmi data nihhin computer thiam pawl,  an mah le holh cio in holh theimi computer ser cio hna seh tihi kan duh.
+    
+    Cucu vawleicung holh phun kip in a ngah khawhnak caah cun holhphun kip in holh mi aw, mi tampi siseh mi tlawmte holh siseh, kan lak. Hi vialte kan lakmi aw nih hin computer thiam mi hna le sipuaizi tuah tu hna nih an mah le ram cio in chawnh khawhmi computer ser hram an thok lai hi kan duh.
+faq-how-get-q = Common Voice data hi zeitindah ka lak khawh lai?
+faq-when-release-q = Zeitik ahdah Common Voice data hi holh dangin nan thlah te lai?
+faq-why-mission-q = Zei ruangah dah Common Voice hi Mozilla nih a khinhmi rian pakhat a si ve?
+faq-what-cv-and-deepspeech-q = Common le Deep Speech ai dannak hi zeidah a si?
+faq-is-goal-assistant-q = Common Voice nih ai tinhmi  hi holh bawmtu (voice assistant) ser a si maw?
+faq-why-my-lang-q = Zeiruangah dah ka holhphun ai tal ve lo?
+faq-how-calc-hours-q = Zeitiin dah Common Voice nih suimilam hi a tuak?
+faq-why-not-ask-read-q = Zeiruangah dah cauk silole Wikipedia ca pawl mipi nan rel ter hna lo?
+faq-why-account-q = Zei ruangah dah account cu ka ser lai?
+faq-is-account-public-q = Ka account pawl hi mipi nih an hmu kho maw?
+faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lonak hnga nan tuah?
+
+## Glossary
+
+glossary = Fianhternak
+localization = Localization
+localization-explanation = Hihi cu an mah le an holhphun cio in ca an lehnak a si.
+sentence-collection = Biatlang Khawmhnak
+sentence-collection-explanation = Biatlang pawl kan khawmhnak cu mipi sinin ṭialmi siseh, a thar biatlang zong ṭial chih a si.
+hours-recorded-explanation = Suimilam kan tuncia mi vialte zohnak.
+hours-validated-explanation = A kan bawmtu minung 3 chungah 2 nih "a si" tiah biatlang an chek cangmi. Hi nih hin kan i tinhmi suimilam thonghra 10 cu a langhter.
+sst = Speech-to-text (STT)
+sst-explanation = Speech-to-text (STT) technologies nih cun holh kha ca in a leh khawh.
+de-identified = Langhter hlah
+de-identified-explanation = Midang nih kan pumhmi data an dawnlok tikah nangmah kong vialte kan langhter lonak a si.
 
 ## NotFound
 
@@ -362,6 +409,7 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 
 ## Languages Overview
 
+language-section-in-progress = Tuah lio mi
 language-section-in-progress-description = Tuah lio cuahmah mi holhphun hna cu anmah ram le miphun cio nih bawmhnak in ser an si; An ṭhanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
 language-section-launched = Thlah cangmi
 language-section-launched-new-description = Hi thlah cangmi holhphun hna caah cun tlamtling tein website hi an mah le holh cio in leh piak dih an si cang, cun biatlang zong a zatawk tein <italic> Chim</italic> le <italic> Ngaih</italic> khawhnak caah an khomh khawh cang.
@@ -446,7 +494,13 @@ validations =
 
 ## Dashboard
 
+your-languages = Na Holhphun
 toward-next-goal = Hmailei tinhmi
+clips-you-recorded = Na tuncia mi
+clips-you-validated = Na chek cia mi
+todays-recorded-progress = Tuni Common Voice aw tunmi
+todays-validated-progress = Tuni Common Voice check cangmi
+stats = Stats
 you = Nangmah
 everyone = Bawmtu dihlak
 contribution-activity = Bawmtu Cawlcanghnak

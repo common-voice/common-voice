@@ -40,7 +40,7 @@ import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
 
-const MIN_RECORDING_MS = 300;
+const MIN_RECORDING_MS = 1000;
 const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 1;
 
@@ -132,7 +132,21 @@ class SpeakPage extends React.Component<Props, State> {
   recordingStopTime = 0;
 
   static getDerivedStateFromProps(props: Props, state: State) {
-    if (state.clips.length > 0) return null;
+    if (state.clips.length > 0) {
+      const sentenceIds = state.clips
+        .map(({ sentence }) => (sentence ? sentence.id : null))
+        .filter(Boolean);
+      const unusedSentences = props.sentences.filter(
+        s => !sentenceIds.includes(s.id)
+      );
+      return {
+        clips: state.clips.map(clip =>
+          clip.sentence
+            ? clip
+            : { recording: null, sentence: unusedSentences.pop() || null }
+        ),
+      };
+    }
 
     if (props.sentences.length > 0) {
       return {
@@ -273,7 +287,11 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private saveRecording = () => {
-    this.audio.stop().then(this.processRecording);
+    const RECORD_STOP_DELAY = 500;
+    setTimeout(async () => {
+      const info = await this.audio.stop();
+      this.processRecording(info);
+    }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
     this.setState({
       recordingStatus: null,
@@ -295,13 +313,12 @@ class SpeakPage extends React.Component<Props, State> {
     const { api, removeSentences, sentences } = this.props;
     const { clips } = this.state;
     await this.discardRecording();
-    const { id } = clips[this.getRecordingIndex()].sentence;
+    const current = this.getRecordingIndex();
+    const { id } = clips[current].sentence;
     removeSentences([id]);
     this.setState({
       clips: clips.map((clip, i) =>
-        this.getRecordingIndex() === i
-          ? { recording: null, sentence: sentences.slice(SET_COUNT)[0] }
-          : clip
+        current === i ? { recording: null, sentence: null } : clip
       ),
       error: null,
     });
@@ -538,7 +555,7 @@ class SpeakPage extends React.Component<Props, State> {
               )}
             </RecordingPill>
           ))}
-          sentences={clips.map(({ sentence: { text } }) => text)}
+          sentences={clips.map(({ sentence }) => sentence && sentence.text)}
           shortcuts={[
             {
               key: 'shortcut-record-toggle',

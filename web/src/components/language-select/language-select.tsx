@@ -6,7 +6,7 @@ const contributableLocales = require('../../../../locales/contributable.json') a
 
 import './language-select.css';
 
-export const ALL_LOCALES = 'all-languages';
+export const ALL_LOCALES = 'all-locales';
 
 export default ({
   value,

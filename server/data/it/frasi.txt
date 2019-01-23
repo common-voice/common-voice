@@ -76,7 +76,7 @@ Basato non su corsi o webinar ma sull'esperienza diretta di lavoro in team.
 I volontari sono sicuramente il patrimonio più grande sul quale le comunità di software libero possono contare.
 Una domanda molto comune per gli esperti.
 Affinché la maggior parte dei clienti quando leggono free od open source pensino subito "È gratis!".
-A prescindere dal fatto che il sofware sia web, desktop o mobile.
+A prescindere dal fatto che il software sia web, desktop o mobile.
 Effettivamente il fatto che il software open source sia gratuito è una leggenda metropolitana.
 La diffondiamo, sia noi produttori di software che noi fornitori di servizi.
 Dopotutto sponsorizziamo ovunque il fatto che scaricarlo e provarlo è gratuito perché ci serve nella promozione.
@@ -440,7 +440,7 @@ Il mondo della ricerca e dell'innovazione.
 Grazie al DAF sarà, infatti, possibile promuovere iniziative atte a coinvolgere il mondo della ricerca e dell'innovazione.
 Su tematiche di interesse pubblico.
 Le presenti linee guida forniscono indicazioni sui temi dei dati, sui vocabolari controllati da utilizzare.
-Nonché una descrizione degli elementi principali del profilo di metadazione con le relative proprietà.
+Nonché una descrizione degli elementi principali del profilo di metadatazione con le relative proprietà.
 Nell'ambito delle attività istituzionali relative alla promozione delle politiche di valorizzazione del patrimonio.
 Patrimonio informativo pubblico nazionale.
 L'Agenzia per l'Italia Digitale è da tempo impegnata a favorire l'interoperabilità semantica di dati e servizi.
@@ -1491,7 +1491,7 @@ La sovrascrizione della storia non è soltanto di tipo stalinista ma anche nazis
 Una chiara allusione e condanna di tutti i regimi dittatoriali.
 Ungaretti è definito il maestro e fondatore della poesia Ermetica in Italia.
 La letteratura simbolista e decadentista crede che la poesia debba essere uno strumento di conoscenza della realtà.
-Per conoscere il mondo esterno sono delle folgorazioni e illuminazioniattraverso la sua esperienza di vita.
+Per conoscere il mondo esterno sono delle folgorazioni e illuminazioni attraverso la sua esperienza di vita.
 La raccolta di tutte le poesie italiane di Ungaretti è chiamata Vita di un uomo.
 È la prima raccolta di Ungaretti che contiene tutte le poesie scritte sul fronte del Carso.
 Tra esse spiccano Veglia, Fratelli, San Martino del Carso e Soldati.
@@ -1587,7 +1587,7 @@ Venne scoperto tempo dopo un altro ominide chiamato Australopithecus Afarensis.
 Femmina databile sui 3 e 3,8 milioni di anni fa.
 Che era alta non più di 110 cm  e che avrebbe potuto pesare sui 23 kg.
 Mentre, i maschi probabilmente il doppio di 23 kg.
-Successivamente vennero scoperti altri reperti catalogati come Autralopithecus Boisei e Astralopithecus Robustus.
+Successivamente vennero scoperti altri reperti catalogati come Autralopithecus Boisei e Australopithecus Robustus.
 Che vissero tra 1,75 e 1,8 milioni di anni fa.
 Il primo aveva ancora la cresta ossea che serviva nelle scimmie per l'attaccatura dei muscoli della loro forte mascella.
 La quale, con l'evoluzione in ominidi, diminuisce.
@@ -1595,7 +1595,7 @@ Tale specie aveva anche dei grossi molari e ciò indica che è un vecchio antena
 Il secondo invece ha una capacità cranica che è 1/3 di quella di un uomo.
 Ciò indica che il lungo muso delle scimmie si stava nel frattempo restringendo compattandosi.
 Perché i crani di questo antenato erano molto più grossi.
-L'Astralopithecus Robustus aveva anche un'andatura barcollante.
+L'Australopithecus Robustus aveva anche un'andatura barcollante.
 Un bacino più simile al nostro e delle braccia più corte.
 Ad un certo punto compare l' Homo Habilis.
 Questo essere rappresentava un salto di qualità rispetto ai precedenti.
@@ -2436,7 +2436,7 @@ Così parlò Luigi, e nessuno si permise di dissentire.
 Il governo si è finalmente formato, che ne pensi?
 Sinistra o destra?
 Vai in fondo a destra, poi gira a sinistra e sei quasi arrivato.
-Chiedi indicazioni a qualcun'altro, forse è meglio.
+Chiedi indicazioni a qualcun altro, forse è meglio.
 Non sei molto preciso, forse dovrei licenziarti.
 Se non ti calmi ti butto fuori!
 Il momento è catartico, ascolta!
@@ -2583,7 +2583,7 @@ Odio i ragni, spero scompaiano dalla faccia della terra.
 C'è una zanzara! Presto, eliminala!
 Mi si è gonfiato l'occhio, stanotte mi deve aver morso una zanzara.
 Apri la cartella e copiami quel documento.
-Ho cancellato tutto dalla nostra cartella condivisa, ero preoccupato qualcun'altro potesse accederci.
+Ho cancellato tutto dalla nostra cartella condivisa, ero preoccupato qualcun altro potesse accederci.
 Nel deserto fa molto caldo, ma non è niente in confronto a casa tua.
 Sto sudando tantissimo, non vedo l'ora di tornare a casa e farmi una doccia.
 Vai a zappare, le tue sono braccia rubate all'agricoltura!
@@ -3381,7 +3381,7 @@ Si tiravano scommesse e si rideva senza motivo logico.
 Dalmor notò che il dialetto non era per nulla diverso dal paesino precedente.
 E che aveva quindi a che fare di nuovo con dei modi di fare non proprio garbati.
 L'oste tuttavia non fece storie, disse a Tildor dove erano le loro stanze e li mandò in un corridoio laterale.
-Ed è freddo, quindi ve accontentate'.
+Ed è freddo, quindi vi accontentate.
 Si sistemarono e mangiarono.
 Quello che passava la casa, accontentandosi come previsto: almeno il bollito di carne era mangiabile.
 Nei giorni seguenti, il tempo resto cupo, alternando folate di vento a piogge incessanti.
@@ -3849,7 +3849,7 @@ Queste competenze risultano indispensabili per l'attività di educatore che oper
 Uno studente di Lettere può ritenere interessante redare e revisionare testi riguardanti aree totalmente diverse dalla sua.
 Uno studente di Beni Culturali potrebbe essere interessato a sviluppare un sistema di audioguide per un museo.
 Che vantaggi ha tutto ciò?
-Inoltre quiz e feedback offrono un'apprendimento e una partecipazione attiva dove studenti e insegnanti possono interagire.
+Inoltre quiz e feedback offrono un apprendimento e una partecipazione attiva dove studenti e insegnanti possono interagire.
 La progettazione collaborativa permette di poter realizzare dei progetti dove chiunque può offrire le proprie competenze.
 Collaborare con il proprio pensiero al fine di perseguire gli obbiettivi per il quale lo stesso progetto è nato.
 Si pongono come obiettivo finale la professionalizzazione di una figura che collabora con un team di lavoro alla creazione.
@@ -4284,7 +4284,7 @@ Con i se e con i ma la storia non si fa.
 Con lacrime e lamenti non si cura il mal di denti.
 Con la moglie a lato l'uomo è sempre beato.
 Con le buone maniere si ottiene tutto.
-Con le mani di un'altro è facile toccare il fuoco.
+Con le mani di un altro è facile toccare il fuoco.
 Conta più la pratica che la grammatica.
 Con un po' di coraggio si finisce ogni viaggio.
 Cuor contento il ciel l'aiuta.
@@ -4569,7 +4569,7 @@ Prima di scrivere questo articolo, mi sono posto due domande che ho voluto condi
 Non credo esista una sola definizione di cosa significhi comunità e le ragioni per le quali decidiamo di farne parte.
 L'unica cosa che ritengo importante è che ci sia una reale connessione e volontà di condividere se stessi e delle esperienze.
 Per me è comunità sia Mozilla che il MozRetreat e tutti i momenti nei quali ci si connette come umani gli uni con gli altri.
-Grazie a tutti coloro che in un modo o in un'altro hanno voluto condividere con me loro stessi!
+Grazie a tutti coloro che in un modo o in un altro hanno voluto condividere con me loro stessi!
 Tra il pubblico erano presenti artisti, professionisti, nonché rappresentati del Collegio dei Periti Industriali.
 Al termine di questa parentesi, abbiamo voluto realizzare una tavola rotonda inclusiva tra tutti gli spettatori e i relatori.
 I temi principali sono stati le implicazioni che questa normativa ha nel quotidiano per i relatori coinvolti.
@@ -4911,7 +4911,7 @@ Navigando sulla superficie.
 Ritornò presso lo scalo.
 Roberto Fulton venne ammesso alla presenza del Primo Console.
 Era, in quel tempo, un bell'uomo su i trentacinque anni, robusto, con la faccia aperta e intelligente.
-Nella espressione della fisonomia il grande inventore spirava una gioiosa sicurezza.
+Nella espressione della fisionomia il grande inventore spirava una gioiosa sicurezza.
 Ma l'accoglienza di Napoleone non fu tale, in realtà, da infondere nuovo coraggio a Roberto Fulton.
 Vedo che avete messo a profitto il premio di incoraggiamento che io vi accordai per le insistenze dei miei ministri…
 Ma infine, che cosa vi proponete di fare?
@@ -5200,7 +5200,7 @@ Conviene perfettamente alla respirazione dei nostri viaggiatori.
 La pressione, essendo circa la stessa di quella sostenuta da un palombaro terrestre a 14 piedi sott'acqua.
 Giove si trova – nel 2000, non lo dimentichiamo!
 In quel periodo della sua vita.
-Che può corrispondere al periodo giurasico o mesozoico della Terra.
+Che può corrispondere al periodo giurassico o mesozoico della Terra.
 Ed i suoi abitanti sono per la maggior parte dinosauri, mososauri, sauriani, pterodattili e serpenti.
 Strani animali volano nell'aria, e prendono il loro nutrimento da grandi gigli od eliotropi, giganteschi come alberi.
 Ma questi sembra abbia fatto qualche cosa di meglio.
@@ -5316,7 +5316,8 @@ Andare in fumo.
 Andare in oca.
 Andare in malora.
 Andare in tilt.
-Andare in vaccaAndare in visibilio.
+Andare in vacca.
+Andare in visibilio.
 Andare per la maggiore.
 Andare per le lunghe.
 Andare per mare senza biscotto.
@@ -8195,7 +8196,7 @@ Non vedete che tomba?
 Che ci verrei a fare?
 Aveva chiusa la porta e accesa la luce.
 Volete visitare l'appartamento?
-Quella porta dà nella cosidetta sala da ricevere.
+Quella porta dà nella cosiddetta sala da ricevere.
 Lo precedette in una grande stanza dai mobili pretenziosamente dorati.
 Di lì passarono nella stanza da pranzo adorna di orripilanti nature morte.
 Nella camera da letto.
@@ -9563,7 +9564,7 @@ Seppur molto primitivo.
 Il primo stile di nuoto "nato" e praticato fu una primitivissima rana.
 Un importante sigillo egiziano mostra alcuni nuotatori praticare uno stile riconducibile allo stile libero.
 Importante passo avvenne nel 1952.
-Lo stile farfalla venne riconosciuto ufficialemente come stile distinto dalla rana.
+Lo stile farfalla venne riconosciuto ufficialmente come stile distinto dalla rana.
 Venne accettato come quarto stile ufficiale.
 La farfalla è un'evoluzione della rana.
 Si ebbe la necessità di creare uno stile non completamente in subacquea ma che andasse più veloce.
@@ -9588,10 +9589,10 @@ Quale debba essere il primo stile insegnato non è specificato.
 È, infatti, a discrezione dell'istruttore.
 In base agli allievi a cui deve insegnare le varie nuotate.
 Importanza del nuoto.
-Il nuoto è sicuramente uno delle attività sportive più praticate e consigliate a livello modiale.
+Il nuoto è sicuramente uno delle attività sportive più praticate e consigliate a livello mondiale.
 Questo grazie agli innumerevoli benefici che il nuoto comporta e grazie alla possibilità di adattarlo alle varie necessità.
 Grazie al nuoto possono essere allenati quasi tutti i muscoli del corpo, poichè il nuoto li coinvolge quasi tutti.
-È molto utile il nuoto per gestanti, poichè l'acqua rilassa i tessuti e dona un certo rilassamente all'individuo stesso.
+È molto utile il nuoto per gestanti, poichè l'acqua rilassa i tessuti e dona un certo rilassamento all'individuo stesso.
 È molto utile ai neonati, poichè nascono dall'acqua quindi il nuoto è un posto famigliare.
 È molto utile anche per i disabili, poichè possono divertirsi, rilassarsi e socializzare.
 È utile anche per gli anziani (meglio Terza e Quarta età).
@@ -9677,11 +9678,11 @@ Spinta: è la fase in cui il braccio effettuerà la spinta, quindi sarà la fase
 Dalla posizione in cui la fase di trazione terminava si arriva fino ad avere il braccio allineato lungo i fianchi.
 La mano in questa fase è importante che sia ben aperta, per sfruttare maggiore volume, quindi maggiore spinta.
 Recupero: è l'unica fase in cui il braccio è fuori dall'acqua (fase "aerea").
-La mano esce ed il primo dito ad uscire non sarà il migliolo come nella presa, ma il pollice.
+La mano esce ed il primo dito ad uscire non sarà il mignolo come nella presa, ma il pollice.
 Quindi il braccio tornerà in fase di presa.
 Importante in questa fase è il rollio delle spalle.
 La mano a circa metà fase effettua una rotazione di 180°.
-Quindi permettendo alla mano di entrare con il migliolo piuttosto che con il pollice.
+Quindi permettendo alla mano di entrare con il mignolo piuttosto che con il pollice.
 Questa rotazione della mano è personale, ogni nuotare la ruota in un momento differente.
 La respirazione in questo stile è molto più semplice rispetto agli altri.
 La testa è sempre fuori dall'acqua anche se c'è una sincronizzazione tra la bracciata e la respirazione.
@@ -9743,9 +9744,9 @@ La rana è lo stile più lento, il più complesso e il più dispendioso di energ
 È l'unico stile ad avere tutte le fasi in subacquea.
 Ed è l'unico stile a non avere la fase di spinta.
 Quindi le braccia hanno una importanza nel movimento molto inferiore alle gambe.
-In genere la rana è l'ultimo stile insegnato, proprio perchè è quello che differisce di più dagli altri.
+In genere la rana è l'ultimo stile insegnato, proprio perché è quello che differisce di più dagli altri.
 Per questi motivi il nuotatore a rana, denominato ranista, sarà lento in tutti gli altri stili.
-Proprio perchè è completamente differente.
+Proprio perché è completamente differente.
 Sia per la respirazione sia per la potenza necessaria delle gambe a discapito delle braccia.
 Inoltre i piedi hanno la posizione a martello, quindi come se si stessa camminando sui talloni.
 Quindi la bracciata a rana si compone di 3 fasi.
@@ -9880,7 +9881,7 @@ Mentre le gambe devono effettuare il movimento della gambata a farfalla.
 Inoltre si può effettuare anche quella alternata del crawl quando si sta per emergere.
 Effettivamente si può effettuare sin dall'ingresso il movimento alternato del crawl.
 Le braccia in assetto sopra la testa e ferme.
-Mentre le gambe rimangono totamente ferme fino a quando c'è velocità e scivolamento della partenza.
+Mentre le gambe rimangono totalmente ferme fino a quando c'è velocità e scivolamento della partenza.
 In genere 3-4 secondi.
 Successivamente è ammesso effettuare una bracciata a rana.
 Ed è ammessa solo in questo caso una sorta di fase di spinta.
@@ -9893,9 +9894,9 @@ Le partenze sono le medesime delle partenze dopo le virate.
 Altri stili, non ufficiali.
 Per l'insegnamento del sapere stare in acqua vengono utilizzati numerosi "stili" non riconosciuti ufficialmente.
 Sono perlopiù associati agli animali sia marini sia terrestri.
-Questo perchè, specialmente i bambini, sono più invogliati ad imitare un qualcosa che già conoscono.
+Questo perché, specialmente i bambini, sono più invogliati ad imitare un qualcosa che già conoscono.
 Alcuni esempi potrebbero essere utili.
-Stellina: molto importante perchè l'allievo prende consapevolezza dell'acqua.
+Stellina: molto importante perché l'allievo prende consapevolezza dell'acqua.
 Rimane rilassato quando è nella stessa posizione.
 Sa galleggiare orizzontalmente.
 Sia in posizione prona sia in quella supina.
@@ -10073,7 +10074,7 @@ Scopri che in stazione è disponibile il wifi gratuito e di libero accesso!
 Non ci pensi due volte e ti colleghi per poter scrivere su FaceBook che stai per partire per un colloquio!
 Verifica quale sia il vero nome della rete WiFi per evitare ogni dubbio e per guardare gattini in sicurezza!
 Per un malintenzionato è facile identificare quale sia la rete in cui si vuole penetrare!
-Neanche il tempo di un caffe.
+Neanche il tempo di un caffè.
 Cosa posso fare?
 Rappresentanza per i professionisti e le aziende.
 Finalmente!
@@ -10192,7 +10193,7 @@ Bel lavoro! Hai completato l‘esame, ora puoi stampare il tuo certificato perso
 A questo punto avrai la padronanza di tutte le lettere dell‘alfabeto, è il momento di spostarci alle parole.
 Inizieremo introducendo le cento parole più comuni della lingua inglese.
 Lo avevamo già detto prima, e lo ripetiamo di nuovo, tieni le tue dita sulla fila centrale.
-Ora ci concetreremo sulla riga superiore.
+Ora ci concentreremo sulla riga superiore.
 La postura del tuo corpo è estremamente importante mentre digiti.
 Siediti con la schiena diritta, tieni i piedi poggiati per terra e il tuo busto sopra la scrivania.
 Questo contribuisce alla tua accuratezza, velocità e la tua salute.
@@ -10204,7 +10205,7 @@ Lezione completata, è stato veramente entusiasmante.
 Ora puoi finalmente urlarlo in chat!
 Ora che hai preso confidenza con la tastiera scrivere parole semplici, potrai passare alle frasi complete.
 Prenditi il tempo che ci vuole e cerca di non guardare mai i tasti.
-Sii il cambiamento che desideresti vedere nel mondo.
+Sii il cambiamento che desidereresti vedere nel mondo.
 Prova e sbaglia, ma non sbaglierai mai provando.
 Fai ogni giorno qualcosa che ti spaventa.
 Quando credi di avercela fatta sei solo a metà strada.
@@ -10244,7 +10245,7 @@ Ho potuto constatare e verificare che, per poter superare i propri limiti è nec
 Molto spesso imposti dalla natura.
 Allenarsi costantemente per poterli raggiungere e, magari, superarli.
 Un altro concetto di limite importante è probabilmente quello matematico.
-Esso permette di studiare il comportamente e l'andamento di una qualsiasi funzione.
+Esso permette di studiare il comportamento e l'andamento di una qualsiasi funzione.
 Un limite può presentarsi come finito, infinito o come forma indeterminata, che è riconducibile a forma finita o infinita.
 Allora è possibile utilizzare la regola di Bernoulli.
 Meglio conosciuta come Teorema di de l'Hôpital.
@@ -10412,7 +10413,7 @@ Libertà  di  migliorare il programma e distribuirne pubblicamente i miglioramen
 Tutta la comunità ne trarrà beneficio (libertà 3).
 Stallman non ritenne opportuno rendere GNU di pubblico dominio.
 Un programma completamente libero avrebbe rischiato di estinguersi.
-Le sue varianti saebbero state utilizzate per un uso proprietario.
+Le sue varianti sarebbero state utilizzate per un uso proprietario.
 Egli decise così di proteggere il prodotto con un nuovo tipo di licenza.
 La licenza GPL è acronimo di General Public Licence.
 Essa viene scherzosamente chiamata "copyleft".
@@ -11008,7 +11009,7 @@ In particolare possono essere evidenziati tre diversi ordini di motivazioni.
 Motivazioni economiche.
 L'adozione di software open source permette il totale abbattimento dei costi di licenza del software stesso.
 Nel caso di software proprietari i costi di licenza possono incidere notevolmente sulla spesa.
-Dato cheche non è necessario ottenere le licenze d'utilizzo, permette uno snellimento dei processi di adozione del software.
+Dato che non è necessario ottenere le licenze d'utilizzo, permette uno snellimento dei processi di adozione del software.
 Non è necessario approvare la spesa e quindi trovare eventuali finanziamenti.
 Il software open source non richieda macchine di ultima generazione.
 Diminuzione nel lungo periodo dei costi di rinnovo del parco macchine.

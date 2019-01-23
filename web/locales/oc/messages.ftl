@@ -1,10 +1,12 @@
 ## General
 
+yes-receive-emails = Òc, mandatz-me de corrièls. Vòli èsser avisat de l’actualitat del projècte Common Voice Project.
 return-to-cv = Tornar a Common Voice
 email-input =
     .label = Adreça electronica
 submit-form-action = Mandar
 loading = Cargament…
+indicates-required = * indica un camp obligatòri
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -12,6 +14,7 @@ loading = Cargament…
 
 ## Languages
 
+af = Afrikaans
 an = Aragonés
 ar = Arabi
 as = Assamés
@@ -117,10 +120,37 @@ speak-subtitle = Donatz vòstra votz
 listen-subtitle = Nos ajudar a validar las voses
 hours-recorded = Oras enregistradas
 hours-validated = Oras validadas
+help-reach-goal = Ajudatz-nos a arribar a { $goal }
 read-terms-q = Avètz legit las condicions d’utilizacion ?
 ready-to-record = Prèst a donar vòstra votz ?
-all-languages = Totas les lengas
+all-locales = Totas
 today = Uèi
+x-weeks-short =
+    { $count ->
+        [one] Setmana
+       *[other] { $count } setm.
+    }
+x-months-short =
+    { $count ->
+        [one] 1 mes
+       *[other] { $count } meses
+    }
+x-years-short =
+    { $count ->
+        [one] 1 an
+       *[other] { $count } ans
+    }
+sign-up-account = Crear un compte
+
+## Account Benefits
+
+benefits = Avantatges
+
+## What's public
+
+whats-public = Quina informacion es publica ?
+email-not-public = Farem pas venir vòstra adreça electronica publica.
+username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
 
@@ -138,6 +168,14 @@ request-language-button = Demandar una lenga
 ## ProjectStatus
 
 status-contribute = Donatz vòstra votz
+status-hours =
+    { $hours ->
+        [one] Una ora validada ja !
+       *[other] { $hours } oras validadas ja !
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Objectiu seguent : { $goal }
 english = Anglés
 
 ## ProfileForm
@@ -150,6 +188,8 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Atge
+profile-form-gender =
+    .label = Sèxe
 hidden = Amagat
 visible = Visible
 native-language =
@@ -169,10 +209,22 @@ settings = Paramètres
 edit-profile = Modificar lo perfil
 profile-close = Tampar
 edit = Modificar
+download-profile = Telecargar mas donadas
+contribution-experience = Experiéncia de contribucion
+add-avatar-title = Ajustar un avatar al perfil
+browse-file-title = Enviar un imatge
+connect-gravatar = Connectatz-vos amb Gravatar
+gravatar_not_found = Cap de gravatar pas trobat per vòstra adreça electronica
+file_too_large = Lo fichièr seleccionat es tròp pesuc
+manage-subscriptions = Gerir las abonaments
+email-already-used = Aquesta adreça electronica es ja utilizada per un autre compte
+add-language = Ajustar una lenga
 
 ## FAQ
 
-faq-what-q = Qu’es aquò Common Voice ?
+
+## Glossary
+
 
 ## NotFound
 

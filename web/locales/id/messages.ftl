@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Kirim
 loading = Memuat…
 email-opt-in-privacy = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
-indicates-required = * Bertanda wajib diisi
+indicates-required = * Wajib diisi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,7 +17,9 @@ indicates-required = * Bertanda wajib diisi
 
 ## Languages
 
+ab = Abkhaz
 ace = Bahasa Aceh
+af = Bahasa Afrikaans
 an = Bahasa Aragon
 ar = Bahasa Arab
 as = Bahasa Assam
@@ -42,7 +44,7 @@ eo = Bahasa Esperanto
 es = Bahasa Spanyol
 et = Bahasa Estonia
 eu = Bahasa Basque
-fa = Bahasa Farsi
+fa = Bahasa Persia
 fi = Bahasa Finlandia
 fo = Bahasa Faroe
 fr = Bahasa Perancis
@@ -65,10 +67,10 @@ kw = Bahasa Kornish
 ky = Bahasa Kirgiz
 mdf = Bahasa Moksha
 mk = Bahasa Makedonia
-mn = Mongolia
+mn = Bahasa Mongol
 myv = Bahasa Erzya
 nb-NO = Bahasa Bokmal (Norwegia)
-ne-NP = Bahasa Nepali
+ne-NP = Bahasa Nepal
 nl = Bahasa Belanda
 nn-NO = Bahasa Nynorsk (Norwegia)
 oc = Bahasa Oksitan
@@ -93,7 +95,7 @@ tt = Bahasa Tatar
 uk = Bahasa Ukraina
 ur = Bahasa Urdu
 uz = Bahasa Uzbek
-vi = Vietnam
+vi = Bahasa Vietnam
 zh-CN = Bahasa Tionghoa (Tiongkok)
 zh-HK = Bahasa Tiongkok (Hong Kong)
 zh-TW = Bahasa Tionghoa (Taiwan)
@@ -152,7 +154,7 @@ todays-progress = Perkembangan Hari Ini
 help-reach-goal = Bantu kami mencapai { $goal }
 read-terms-q = Sudahkah Anda membaca Ketentuan kami?
 ready-to-record = Siap menyumbangkan suara Anda?
-all-languages = Semua Bahasa
+all-locales = Semua
 today = Hari Ini
 x-weeks-short =
     { $count ->
@@ -166,6 +168,19 @@ x-years-short =
     { $count ->
        *[other] { $count }thn
     }
+help-make-dataset = Bantu kami membangun himpunan data yang terbuka untuk umum dan berkualitas tinggi
+profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
+sign-up-account = Daftarkan akun
+
+## Account Benefits
+
+benefits = Manfaat
+join-newsletter = Bergabunglah dengan sukarela di daftar surel kami untuk pembaruan dan informasi baru tentang proyek ini.
+
+## What's public
+
+email-not-public = Kami tidak akan mempublikasikan surel Anda.
+username-optin-public = Anda dapat memilih untuk menjadikan nama pengguna Anda publik atau anonim.
 
 ## Speak & Listen Shortcuts
 
@@ -268,29 +283,47 @@ file_too_large = Berkas yang dipilih terlalu besar
 manage-subscriptions = Kelola Langganan
 email-already-used = Surel telah digunakan untuk akun yang berbeda
 add-language = Tambah Bahasa
+change-email-setings = Ubah email Anda melalui Pengaturan di bawah Identitas Login
 
 ## FAQ
 
 faq-title = Hal-Hal yang Sering Ditanyakan
-faq-what-q = Apa itu Common Voice?
-faq-what-a = Teknologi pengenalan suara dapat merevolusi cara kita berinteraksi dengan mesin, tetapi sistem yang tersedia saat ini masih mahal dan dimiliki perorangan. Common Voice adalah suatu proyek yang memungkinkan agar teknologi pengenalan suara dapat diakses dengan mudah oleh siapa saja. Orang-orang menyumbangkan suara mereka ke basis data masif yang memungkinkan siapa pun untuk melatih aplikasi pengenalan suara dengan cepat dan mudah. Seluruh data suara akan tersedia bagi para pengembang.
-faq-important-q = Mengapa ini penting?
-faq-important-a = Suara itu alami, suara itu manusiawi. Suara adalah cara yang paling mudah dan paling alami untuk berkomunikasi. Kami ingin para pengembang mampu membangun hal-hal yang mengagumkan dari penerjemah waktu nyata ke asisten administratif yang terfungsikan dengan suara. Namun, saat ini masih belum cukup tersedia data untuk umum guna membangun aplikasi semacam ini. Kami berharap Common Voice dapat memberikan apa yang para pengembang butuhkan untuk berinovasi.
-faq-get-q = Bagaimana saya mendapatkan data Common Voice?
-faq-get-a = Saat ini himpunan data tersedia di <downloadLink>halaman unduh</downloadLink> di bawah lisensi <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Mengapa Common Voice menjadi bagian dari misi Mozilla?
-faq-mission-a = Mozilla berdedikasi untuk terus menjaga web agar terbuka dan dapat diakses oleh semua orang. Untuk melakukannya, kami perlu memberdayakan para kreator web melalui proyek seperti Common Voice. Karena teknologi suara terus berkembang melampaui aplikasi-aplikasi terfokus, kami percaya bahwa suara harus mampu melayani seluruh pengguna dengan setara. Kami melihat adanya kebutuhan untuk menyertakan lebih banyak bahasa, logat, dan demografi ketika membangun dan menguji coba teknologi suara. Mozilla ingin melihat internet yang giat dan sehat. Hal ini berarti memberikan akses data suara kepada para kreator baru sehingga mereka dapat membangun proyek-proyek yang baru dan luar biasa. Common Voice akan menjadi sumber daya umum yang membantu tim dan pengembang Mozilla di seluruh dunia.
-faq-native-q = Saya bukan penutur asli { $lang } dan saya berbicara dengan logat, apakah Anda masih menginginkan suara saya?
-faq-native-a = Ya. Kami tentu menginginkan suara Anda! Salah satu tujuan Common Voice adalah mengumpulkan sebanyak mungkin logat yang ada sehingga komputer dapat memahami <bold>setiap orang</bold> dengan lebih baik ketika mereka berbicara.
-faq-firefox-q = Akankah teknologi ucapan-ke-teks melalui Common Voice menjadi bagian dari Firefox?
-faq-firefox-a = Common Voice memiliki potensi tak terbatas dan kami senantiasa mengeksplorasi antarmuka suara dalam banyak produk Mozilla, termasuk Firefox.
-faq-quality-q = Seberapa tingkat kualitas suara yang dibutuhkan supaya bisa digunakan?
-faq-quality-a = Kami ingin mutu suara mencerminkan mutu suara di mana mesin ucapan-ke-teks dapat melihatnya tanpa selingkung. Untuk itu, kami menginginkan keragaman. Hal ini mengajari mesin ucapan-ke-teks untuk menangani berbagai situasi—wicara latar belakang, derau mobil, hembusan kipas angin—tanpa kekeliruan.
-faq-hours-q = Mengapa 10.000 jam merupakan sasaran dalam perekaman suara?
-faq-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem STT produksi.
-faq-source-q = Di mana sumber teks berasal ?
-faq-source-a1 = Kalimat-kalimat ini berasal dari donasi kontributor serta percakapan dari naskah film yang terbuka untuk umum seperti <italic>It's a Wonderful Life</italic>
-faq-source-a2 = Anda dapat meninjau sumber kalimat-kalimat kami di <dataLink>folder GitHub ini</dataLink>.
+faq-what-cv-q = Apa itu Common Voice?
+faq-why-important-q = Mengapa ini penting?
+faq-how-get-q = Bagaimana saya bisa mendapatkan data Common Voice?
+faq-when-release-q = Kapan Anda akan merilis data Common Voice dalam bahasa lain?
+faq-why-mission-q = Mengapa Common Voice merupakan bagian dari misi Mozilla?
+faq-what-cv-and-deepspeech-q = Apa perbedaan antara Common Voice dan Deep Speech?
+faq-is-goal-assistant-q = Apakah tujuan Common Voice adalah untuk membangun asisten suara?
+faq-do-want-native-q = Saya bukan penutur jati dan saya memiliki logat bicara, apakah Anda masih menginginkan suara saya?
+faq-why-different-speakers-q = Mengapa Anda membutuhkan begitu banyak penutur yang berbeda untuk tiap-tiap bahasa?
+faq-why-my-lang-q = Mengapa bahasa saya belum termasuk?
+faq-what-quality-q = Berapa tingkat kualitas audio yang diperlukan untuk klip suara yang akan digunakan dalam himpunan data?
+faq-why-10k-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem ucapan-ke-teks produksi.
+faq-how-calc-hours-q = Bagaimana Common Voice menghitung jumlah jam?
+faq-how-calc-hours-a = Kami menghitung jam dengan memperkirakan panjang rata-rata setiap rekaman, kemudian mengalikan angka tersebut dengan jumlah total rekaman di semua bahasa.
+faq-where-src-from-2-q = Dari mana asal teks sumbernya?
+faq-where-src-from-2-a =
+    Teks sumber kami terdiri dari donasi kontributor asli serta dialog dari naskah film domain publik seperti <italic>It's a Wonderful Life </italic>.
+    
+    Anda dapat melihat kalimat sumber kami di <githubLink>folder GitHub</githubLink> ini.
+faq-why-not-ask-read-q = Mengapa Anda tidak meminta orang untuk membaca dari buku atau artikel Wikipedia dalam bahasa yang berbeda?
+faq-why-account-q = Mengapa saya harus mendaftar akun?
+faq-is-account-public-q = Apakah informasi akun saya bersifat publik?
+faq-how-privacy-q = Bagaimana Anda memastikan anonimitas dan privasi orang-orang yang menyumbangkan suara mereka?
+faq-what-determine-identity-q = Apa maksudnya saya tidak bisa “menentukan identitas” penutur dalam himpunan data Common Voice?
+
+## Glossary
+
+glossary = Glosarium
+localization = Pelokalan
+localization-explanation = Ini adalah proses kami untuk menerjemahkan dan mengadaptasi konten kami untuk banyak pelokalan (bahasa).
+sentence-collection = Koleksi Kalimat
+sentence-collection-explanation = Mengumpulkan kalimat dari domain publik, atau menuliskan yang baru untuk domain publik.
+hours-recorded-explanation = Jumlah jam rekaman suara yang telah kami kumpulkan sejauh ini.
+sst = Ucapan-ke-teks (STT)
+sst-explanation = Teknologi ucapan-ke-teks (STT) mengubah data suara menjadi teks.
+de-identified = Diawanamakan
 
 ## NotFound
 
@@ -440,7 +473,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Bahasa Anda
 toward-next-goal = Menuju capaian selanjutnya
+clips-you-recorded = Klip yang sudah Anda rekam
+clips-you-validated = Klip yang telah Anda validasi
+todays-recorded-progress = Perkembangan Common Voice berdasarkan potongan rekaman
+todays-validated-progress = Perkembangan Common Voice berdasarkan potongan rekaman tervalidasi
 stats = Statistik
 you = Anda
 everyone = Semua orang

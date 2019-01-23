@@ -8,8 +8,8 @@ email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
-email-opt-in-privacy = En ur asantiñ d'ar fet da resevout posteloù, e tiskouezit bezañ a-du war ar fet ma verfe Mozilla an titouroù-mañ evel ma vez displeget e-barzh <privacyLink>Politikerezh Prevezded<privacyLink> Mozilla.
-indicates-required = * A ziskouez ar maeziennoù rekizet
+email-opt-in-privacy = En ur asantiñ da zegemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fed buhez prevez<privacyLink> Mozilla.
+indicates-required = * Maeziennoù azgoulennet
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,7 +17,11 @@ indicates-required = * A ziskouez ar maeziennoù rekizet
 
 ## Languages
 
+ab = Abkhazeg
 ace = Aseneg
+ady = Addeuean
+af = Afrikaaneg
+am = Amhareg
 an = Aragoneg
 ar = Arabeg
 as = Asameg
@@ -36,6 +40,7 @@ cy = Kembraeg
 da = Daneg
 de = Alamaneg
 dsb = Izel-Sorabeg
+dv = Divehi
 el = Gresianeg
 en = Saozneg
 eo = Esperanto
@@ -64,8 +69,10 @@ kpv = Komi-Zyrian
 kw = Kerneveureg
 ky = Kirgizeg
 mdf = Moksha
+mhr = Mari ar pradoù
 mk = Makedoneg
 mn = Mongoleg
+mrj = Mari ar menez
 myv = Erzya
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
@@ -90,10 +97,13 @@ te = Telougoueg
 th = Thailandeg
 tr = Turkeg
 tt = Tatareg
+uby = Ubykh
+udm = Oudmourt
 uk = Ukraineg
 ur = Ourdou
 uz = Ouzbekeg
 vi = Vietnameg
+vot = Votek
 zh-CN = Sinaeg (Sina)
 zh-HK = Sinaeg (Hong Kong)
 zh-TW = Sinaeg (Taiwan)
@@ -150,7 +160,7 @@ todays-progress = Araokadur an deiz
 help-reach-goal = Sikourit ac'hanomp mont betek { $goal }
 read-terms-q = Ha lennet hoc'h eus on Termenoù?
 ready-to-record = Prest oc'h da reiñ ho mouezh?
-all-languages = An holl yezhoù
+all-locales = Pep tra
 today = Hiziv
 x-weeks-short =
     { $count ->
@@ -176,6 +186,28 @@ x-years-short =
         [many] a vloazioù
        *[other] bloaz
     }
+help-make-dataset = Skoazellit ac'hanomp da sevel un diaz-roadennoù foran, digor hag a galite uhel
+profile-not-required = Kaout ur profil n'eo ket un dra ret met evit kemer perzh met talvoudus eo memestra
+sign-up-account = Krouit ur gont
+
+## Account Benefits
+
+benefits = Spletoù
+rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù poblañsouriezh. Dizenvel a reomp kement roadenn poblañsouriezh a-raok o lakaat foran.
+improve-audio = Titouroù ar profil a wella ar roadennoù son implijet evit spister anaoudegezh ar vouezh.
+keep-track = Mirit ur roud eus hoc'h araokadennoù evit meur a yezh.
+compare-progress = Keñverit hoc'h araokadennoù gant kendaolerien e pep lec'h er bed.
+view-goals = Keñverit hoc'h araokadennoù gant ho palioù personel ha reoù ar raktres.
+join-newsletter = Enskrivit d'hor roll posteloù evit bezañ kelaouet a-zivout ar raktres.
+
+## What's public
+
+whats-public = Petra a zo foran?
+email-not-public = Ne lakaimp ket foran ho chomlec'h postel.
+recordings-and-locale-public = An niver a enrolladennoù hag ar yezhoù a gemerit perzh eno a vo foran.
+username-optin-public = Gellout a raer lakaat foran pe dizanv hoc'h anv-implijer.
+demographic-deidentified = Ar roadennoù poblañsouriezh diret (da skouer: oad, rev, yezh ha pouez-mouezh) a zo dizanvet eus hoc'h enrolladennoù ha ne vo morse diskouezet d'ar foran war ho profil.
+username-email-not-demographic = Hoc'h anv implijer hag ho chomlec'h postel na vezo ket liammet gant ar roadennoù embannet.
 
 ## Speak & Listen Shortcuts
 
@@ -225,8 +257,10 @@ english = Saozneg
 
 profile-form-username =
     .label = Anv implijer
-profile-form-language =
-    .label = Yezh
+profile-form-native-language =
+    .label = Yezh vamm
+profile-form-additional-language =
+    .label = Yezh ouzhpenn
 profile-form-accent =
     .label = Pouez-mouezh
 profile-form-age =
@@ -260,51 +294,59 @@ thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profi
 why-demographic = Perak e vez pouezus?
 why-demographic-explanation = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
 keep-me-posted =
-    .label = C'hoant em befe tennañ gounit eus an hizivadurioù ha bezañ gouzout penaos ez a war-raok ar raktres Common Voice.
-accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e-barzh <privacyLink>Politikerezh Buhez Prevez</privacyLink> Mozilla
+    .label = C'hoant em befe da dennañ gounit eus an hizivadurioù ha gouzout penaos ez a war-raok ar raktres Common Voice.
+accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e <privacyLink>politikerezh a-fet buhez prevez</privacyLink> Mozilla
 login-identity = Identelezh kevreañ
 login-signup = Kevreañ / Lakaat e anv
 edit = Aozañ
 email-subscriptions = Koumanantoù d'ar roll-bosteloù
 download-profile = Pellgargañ ma roadennoù
-contribution-experience = Skiant-prenet kendaolañ
-skip-submission-feedback = Tremen e-biou ar gasadenn menoioù
-skip-submission-description = E-pad ar gasadenn gendaolañ, graet e vo fae ouzh an evezhiadennoù ur wech kliket war «Kas». Kenderc'hel a raio ar c'hendaolañ war-eeun gant un heuliadenn a 5 enrolladenn pe kadarnadenn.
-skip-submission-note = Notennit eta: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
-off = Lazhet
-on = Enaouet
+contribution-experience = Skiant-prenet kendeurel
+skip-submission-feedback = Tremen ar gasadenn mennozhioù
+skip-submission-description = Tremenet e vo ar gasadenn evezhiadennoù ur wech kliket war «Kas». Kenderc'hel a raio ar c'hendeurel war-eeun gant un heuliadenn a 5 enrolladenn pe wiriekadenn.
+skip-submission-note = Evezhiadenn: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
+off = Diweredekaet
+on = Gweredekaet
 add-avatar-title = Ouzhpennañ un avatar d'ho profil
 browse-file-title = Pellgasit ur restr skeudenn
-browse-file = Rinklañ-leuskel pe <browseWrap>Verdeit</browseWrap>
+browse-file = Riklañ-leuskel pe <browseWrap>verdeit</browseWrap>
 connect-gravatar = Kevreañ gant Gravatar
 gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
 manage-subscriptions = Merañ ar c'houmanantoù
-email-already-used = Ar postel a zo implijet dija evit ur gont all
+email-already-used = Ar postel a zo implijet evit ur gont all endeo
 add-language = Ouzhpennañ ur yezh
+change-email-setings = Kemmit ho chomlec'h postel dre an Arventennoù, el lodenn "Identelezhioù kevreañ"
 
 ## FAQ
 
 faq-title = Foar ar Goulennoù
-faq-what-q = Petra eo Common Voice?
-faq-what-a = Teknologiezhioù anaouadur ar vouezh a c'hallfe cheñch penn d'hon etregweredoù gant ar mekanikoù, met ar reizhiadoù hegerz evit ar mare a zo koustus ruz ha perc'hennet. Common Voice a zo ur raktres gant ar pal reiñ da forzh piv an doareoù teknologiezh-mañ. Ar gendaolerien a roio o mouezh e-barzh ur mell diaz-roadennoù hag a roio an tu da forzh piv sevel en un doare prim hag aes arloadoù a implij ar vouezh. Hollad ar roadennoù mouezhiel a vo lakaet e kerzh an diorroerien.
-faq-important-q = Perak eo pouezus?
-faq-important-a = Naturel eo ar vouezh, denel eo ar vouezh. An doare aesañ ha naturelañ a zo da eskemm. Fellout a ra deomp diorroerien hag a vo barrek da sevel traoù dic'hortoz ha pa vefe troerioù en amzer gwirion pe skoazellerioù melestradurel gant urzhiadoù dre gomz. Met evit ar mare, n'eus ket trawalc'h a roadennoù hegerz evit kas da benn an doare arloadoù-mañ. Spi hon eus e roio Common Voice ar pezh a zo ezhomm evit degas nevesadurioù.
-faq-get-q = Pelec'h e c'hallan kaout roadennoù Common Voice?
-faq-get-a = Hollad ar roadennoù a zo hegerz war hon <downloadLink>fajenn bellgargañ</downloadLink> dindan al lañvaz <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Perak ez eo Common Voice ul lodenn eus kefridi Mozilla?
-faq-mission-a = Mennet eo Mozilla da virout ar Web digor ha tizhus d'an holl. Evit ober kement-mañ e rankomp galloudekaat ar grouerien web dre raktresoù evel Common Voice. Teknologiezhioù ar vouezh a struj bremañ pelloc'h eget e tachennoùigoù zo evel a-raok. Kavout a ra deomp e rankont bezañ e gourc'hemenn pep hini hep diforc'hañ. Santout a reomp un ezhomm da ouzhpennañ muioc'h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit krouiñ hag amprouiñ an teknologiezhioù mouezh. Mozilla a fell dezhi gwelet ur genrouedad oberiant ha yac'h. Ar pezh a dalvez reiñ d'ar grouerien Web nevez an tu da implijout roadennoù mouezh evit ma c'hallint sevel raktresoù dispar. Common Voice a zeuio da vezañ ur vammenn foran a sikouro skipailhoù Mozilla hag an diorroerien e pep lec'h er bed.
-faq-native-q = N'on ket ur c'homzer { $lang } a-vihanik hag e komzan gant ur pouez-mouezh, ha c'hoant hoc'h eus da gaout ma mouezh memestra?
-faq-native-a = Ya da, c'hoant ruz hon eus da gaout ho mouezh! Ul lodenn eus palioù Common Voice a zo dezastum kement pouez-mouezh ha ma vo gallet evit ma c'hello an urzhiataerioù kompren gwelloc'h mouezhioù <bold>pep hini</bold> pa gomz.
-faq-firefox-q = Hag e teuio da vezañ "eus ar gomz d'ar skrid", dre gCommon Voice, ul lodenn eus Firefox?
-faq-firefox-a = Un danvez-galloudegezh difin 'zo gant Common Voice. Hag o studiañ etrefasoù mouezh emaomp e meur a raktres eus Mozilla, e Firefox paneveken.
-faq-quality-q = Pegen mat e rank ar son bezañ evit gallout bezañ implijet?
-faq-quality-a = Fellout a ra deomp ur perzhded aodio hag a genglot gant ar pezh en do ul lusker anaouadur mouezh da dalañ en e vuhez pemdeziek. Ezhomm hon eus eus liested. Ar pezh a zegas al lusker da gemer e kont en un doare direbech meur a blegenn: eskemmoù en drek-leur, trouzioù kefluskerioù pe trouzioù avelerezhioù.
-faq-hours-q = Perak e ranker tizhout 10 000 eurvezh enrollañ?
-faq-hours-a = Ar c'hementad goulennet eo mui pe vui evit bezañ gouest da seveniñ ur reizhiad anaout mouezh a-zoare.
-faq-source-q = Eus pelec'h e teu an testennoù?
-faq-source-a1 = Ar frazennoù a zo anezho evit ar mare a zeu eus roadennoù ar perzhidi, met ivez eus eskemmoù filmoù 'zo hag a zo en domani foran evel <italic>It's a Wonderful Life.</italic>.
-faq-source-a2 = Gallout a rit gwelet mammennoù hor frazennoù en teuliad <dataLink>Github-mañ</dataLink>.
+faq-what-cv-q = Petra eo Common Voice?
+faq-what-cv-a =
+    Teknologiezhioù anaoudegezh ar vouezh a zo un dispac'h en doare da etrewezhiat gant ar mekanikoù, met ar reizhiadoù a zo diouto a zo ker ha perc'hennek. Common Voice a zo ul lodenn eus intrudu Mozilla evit lakaat anaoudegezh ar vouezh da vezañ gwelloc'h hag hegerzoc'h evit an holl. Un diaz roadennoù divent a vouezhioù roet evit gallout gourdonañ arloadoù mouezh en un doare eeun ha prim a c'hallfe bezañ implijet evit an holl yezhoù eo Common Voice.
+    
+    Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann roadennoù liesseurt a roio gallout d'an diorroerien, d'an embregerien ha d'ar c'humuniezhioù. Ouzhpenn da-se e savomp ul lusker anaoudegezh ar vouezh digor e darzh anvet Deep Speech.
+faq-why-important-q = Abalamour da betra e vez a-bouez?
+faq-why-important-a =
+    Ar gomz eo an doare naturelañ da zaremprediñ an eil gant ar re all, ha teknologiezhioù ar vouezh a zegas an aester-mañ d'ho urzhiataerioù ha d'ho pellgomzerioù. Fellout a ra deomp reiñ gallout d'an diorroerien evit ma c'hallfent sevel arloadoù anaoudegezh ar vouezh dreistordinal evel troerien en amzer gwirion pe skoazellerien elektronek. Evit ar mare, ar roadennoù mouezh goulennet gant an arloadoù-mañ a zo ker ha perc'hennek. Spi hon eus  e tegaso Common Voice ar pezh o deus ezhomm d'an diorroerien evit nevezadenniñ ha lakaat teknologiezhioù ar yezh da vezañ implijadus en o yezh.
+    
+    Evit lakaat anaoudegezh ar mouezh da vezañ bedeloc'h c'hoazh e tastumomp mouezhioù yezhoù bras kement a reoù ar yezhoù gant nebeut a gomzerien, a vez dilezet gant ar servijoù kenwerzhel peurvuiañ. Embann roadennoù liesseurt a roio gallout d'an diorroerien, d'an embregerien ha d'ar c'humuniezhioù.
+faq-how-get-q = Penaos e c'hallan kaout roadennoù Common Voice?
+faq-how-get-a = Roadennoù Common Voice a zo hegerz dindan al lañvaz <licenseLink>CC0</licenseLink> war <datasetLink>bajenn ar roadennoù</datasetLink>. Gallout a rit ivez pellgargañ roadennoù all war an hevelep pajenn.
+faq-when-release-q = Pegoulz e vo digoret roadennoù Common Voice e yezhoù all?
+faq-when-release-a = Stumm lies-yezh roadennoù Common Voice a zo o vezañ paket ha naetaet gant ar gumuniezh. Ma fell deoc'h gouzout hiroc'h war ar striv-mañ e c'hallit <contactLink>mont e darempred ganeomp</contactLink>. Klask a raimp embann an dra-se e miz Genver 2019. Goude-se e hizivaimp ar roadennoù ur wech an amzer gant yezhoù nevez ha klipoù mouezh a feur ma vezont hegerz. Emaomp c'hoazh o klask despizañ ur c'helc'hiad ermaeziadennoù reoliekoc'h.
+faq-why-mission-q = Perak eo Common Voice ul lodenn eus kefridi Mozilla?
+
+## Glossary
+
+glossary = Geriaoueg
+localization = Lec'hiadur
+sentence-collection = Dastumadeg frazennoù
+hours-recorded-explanation = An niver a eurvezhioù enrollañ hag a zo bet dastumet ganeomp betek-hen.
+hours-validated-explanation = Niver a eurvezhioù enrolladennoù mouezh gwiriekaet gant 2 pe 3 implijer gant ur vot "Ya". Ar re-se a verk pal hollek ar raktres hag a zo da dizhout, 10 000 eurvezh.
+sst = Komz-da-destenn (KDD)
+sst-explanation = Teknologiezhioù komz-da-destenn (KDD) a amdroy roadennoù mouezh e testennoù.
+de-identified = Dizanvet
 
 ## NotFound
 
@@ -399,8 +441,8 @@ listen = Selaou
 skip = Mont hebioù
 shortcuts = Berradurioù
 clips-with-count = <bold>{ $count }</bold> a glipoù
-goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue }  a frazennoù enrollet bemdez!
-goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue }  a frazennoù gwiriet bemdez!
+goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn enrollet bemdez!
+goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn gwiriet bemdez!
 contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Enrollañ
 record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
@@ -438,13 +480,13 @@ share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
 
 ## Goals
 
-streaks = Rezennoù
+streaks = Rekord
 days =
     { $count ->
         [one] Deiz
-        [two] Deiz
+        [two] Zeiz
         [few] Deiz
-        [many] a zeizioù
+        [many] A zeizioù
        *[other] Deiz
     }
 recordings =
@@ -466,22 +508,27 @@ validations =
 
 ## Dashboard
 
+your-languages = Ho yezhoù
 toward-next-goal = Betek ar pal da zont
-stats = Stats
+clips-you-recorded = Klipoù enrollet ganeoc'h
+clips-you-validated = Klipoù gwiriekaet ganeoc'h
+todays-recorded-progress = Araokadenn Common Voice an devezh war an niver a glipoù enrollet
+todays-validated-progress = Araokadenn Common Voice an devezh war an niver a glipoù gwiriekaet
+stats = Stadegoù
 you = C'hwi
 everyone = An holl
-contribution-activity = Oberiantiz ar c'hemer-perzh
+contribution-activity = Oberiantiz kendeurel
 top-contributors = Perzhidi pennañ
 recorded-clips = Klipoù enrollet
 validated-clips = Klipoù gwiriekaet
 total-approved = Hollad asantet
-overall-accuracy = Spisder hollek
+overall-accuracy = Spister hollek
 
 ## Profile Delete
 
-delete-q = Ha fellout a ra deoc'h goulenn ivez ma vefe dilamet hoc'h enrolladennoù, pe mod-all e kavit gwelloc'h e vefent miret e-barzh diaz-roadennoù Common Voice?
+delete-q = Fellout a ra deoc'h goulenn e vefe dilamet hoc'h enrolladennoù ivez, pe kavout a rit gwelloc'h e vefe miret e diaz-roadennoù Common Voice?
 keep = Mirout
 remove = Dilemel
-keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh diaz-roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest kas ur goulenn dilemel ken war hoc'h enrolladennoù diwar an diaz-roadennoù
-remove-info = Sellout a raimp a dostoc'h d'ho koulenn dilamadur enrolladennoù mouezh diwar an hollad roadennoù. Ma vez aprouet ho koulenn, mont a raimp e darempred gant an dud o deus pellgarget an diaz-roadennoù hag e c'houlennimp dilemel diganto dilemel hoc'h enrolladennoù ken eeun ha tra.
+keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh diaz-roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest da gas ur goulenn dilemel ken war hoc'h enrolladennoù diwar an diaz-roadennoù
+remove-info = Sellout a raimp a dostoc'h d'ho koulenn dilamadur enrolladennoù mouezh diwar an hollad roadennoù. Ma vez aprouet ho koulenn ez aimp e darempred gant an dud o deus pellgarget an diaz-roadennoù hag e c'houlennimp diganto dilemel hoc'h enrolladennoù ivez.
 profile-form-delete = Dilemel ar profil

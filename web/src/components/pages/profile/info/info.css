@@ -9,9 +9,9 @@
     }
 
     & .demographic-info {
-        border-left: 2px solid var(--blue);
+        border-inline-start: 2px solid var(--blue);
         margin: 30px 0;
-        padding-left: 12px;
+        padding-inline-start: 12px;
 
         & button {
             outline: none;
@@ -24,7 +24,7 @@
             background: none;
 
             & svg {
-                margin-left: 10px;
+                margin-inline-start: 10px;
                 transition: transform var(--easing) var(--transition-duration);
 
                 & polygon {
@@ -66,7 +66,7 @@
                 width: calc(50% - (var(--profile-column-margin) / 2));
 
                 &:nth-child(2n + 1) {
-                    margin-right: var(--profile-column-margin);
+                    margin-inline-end: var(--profile-column-margin);
                 }
             }
         }
@@ -75,6 +75,7 @@
     & .add-language {
         display: flex;
         justify-content: center;
+        direction: ltr;
 
         & :first-child {
             margin-right: 25px;
@@ -102,7 +103,7 @@
                 width: 50%;
 
                 &:nth-child(2n + 1) {
-                    margin-right: 30px;
+                    margin-inline-end: 30px;
                 }
             }
         }

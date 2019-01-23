@@ -6,6 +6,7 @@ const {
 } = require('awesome-typescript-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const PreloadWebpackPlugin = require('preload-webpack-plugin');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
@@ -40,6 +41,14 @@ module.exports = {
         ],
       },
       {
+        test: /\.js$/,
+        include: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: { cacheDirectory: true, presets: ['@babel/preset-env'] },
+        },
+      },
+      {
         /**
          * By default, Webpack (rather, style-loader) includes stylesheets
          * into the JS bundle.
@@ -50,7 +59,20 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           { loader: 'css-loader', options: { importLoaders: 1 } },
-          'postcss-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: loader => [
+                require('postcss-import')(),
+                require('postcss-color-mod-function')(),
+                require('postcss-nested')(),
+                require('postcss-custom-media')(),
+                require('postcss-preset-env')(),
+                require('cssnano')(),
+              ],
+            },
+          },
         ],
       },
     ],
@@ -64,6 +86,7 @@ module.exports = {
       filename: '../index.html',
       template: 'index_template.html',
     }),
+    new PreloadWebpackPlugin(),
     new CheckerPlugin(),
     new TsConfigPathsPlugin(),
     function() {

@@ -6,15 +6,15 @@
   "private": true,
   "dependencies": {
     "concurrently": "^4.1.0",
-    "fluent-syntax": "^0.9.0",
+    "fluent-syntax": "^0.10.0",
     "prettier": "^1.15.3",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "typescript": "3.1.6"
   },
   "devDependencies": {
-    "husky": "^1.2.0",
-    "pretty-quick": "^1.7.0"
+    "husky": "^1.3.1",
+    "pretty-quick": "^1.8.1"
   },
   "workspaces": [
     "common",
@@ -25,7 +25,8 @@
     "node": ">=8.10.0"
   },
   "resolutions": {
-    "event-stream": "3.3.4"
+    "event-stream": "3.3.4",
+    "browserslist": "4.4.0"
   },
   "scripts": {
     "build": "concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",

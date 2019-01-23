@@ -18,6 +18,7 @@ indicates-required = * Indica un camp necessari
 ## Languages
 
 ace = atjeh
+af = afrikaans
 an = aragonès
 ar = àrab
 as = assamès
@@ -150,7 +151,7 @@ todays-progress = Progrés d'avui
 help-reach-goal = Ajudeu-nos a arribar a { $goal }
 read-terms-q = Heu llegit les condicions d'ús?
 ready-to-record = Esteu a punt per donar la veu?
-all-languages = Totes les llengües
+all-locales = Totes
 today = Avui
 x-weeks-short =
     { $count ->
@@ -167,6 +168,26 @@ x-years-short =
         [one] { $count } any
        *[other] { $count } anys
     }
+help-make-dataset = Ajudeu-nos a crear un conjunt de dades d'alta qualitat obert i disponible públicament
+profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
+sign-up-account = Crea un compte
+
+## Account Benefits
+
+benefits = Beneficis
+rich-data = Enriquiu les dades que envieu afegint-hi informació demogràfica anònima. Aquesta informació s'anonimitza abans de publicar-se.
+improve-audio = La informació del perfil millora les dades d'àudio utilitzades per entrenar la precisió del reconeixement de veu.
+keep-track = Feu el seguiment del vostre progrés i de les mètriques de les llengües en què col·laboreu.
+compare-progress = Compareu el vostre progrés amb el dels altres col·laboradors de tot el món.
+
+## What's public
+
+whats-public = Què és públic?
+email-not-public = No farem pública la vostra adreça electrònica.
+recordings-and-locale-public = El nombre d'enregistraments i les llengües en què heu col·laborat seran públics.
+username-optin-public = Podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
+demographic-deidentified = Les dades demogràfiques proporcionades opcionalment (per exemple, edat, sexe, llengua i accent) s'anonimitzen de les dades de veu que envieu i mai no es faran públiques en el vostre perfil.
+username-email-not-demographic = El vostre nom d'usuari i adreça electrònica no estaran associats amb les dades publicades.
 
 ## Speak & Listen Shortcuts
 
@@ -274,25 +295,23 @@ add-language = Afegeix una llengua
 ## FAQ
 
 faq-title = Preguntes més freqüents
-faq-what-q = Què és Common Voice?
-faq-what-a = La tecnologia de reconeixement de la veu podria revolucionar com interactuem amb les màquines, però els sistemes disponibles actualment són cars i privatius. El Common Voice és un projecte per a fer fàcilment accessible la tecnologia de reconeixement de la veu a tothom. Les persones donen la seva veu a una base de dades massiva que permetrà a qualsevol entrenar aplicacions amb funcions de veu de forma ràpida i fàcil. Totes les dades de veu seran disponibles als desenvolupadors.
-faq-important-q = Per què és important?
-faq-important-a = La veu és natural, la veu és humana. És la forma més fàcil i més natural de comunicar-se. Volem que els desenvolupadors puguin crear projectes fantàstics: des de traductors en temps real fins a assistents administratius. Però ara mateix no hi ha prou dades disponibles públicament per crear aquests tipus d'aplicacions. Esperem que el Common Voice oferirà als desenvolupadors allò que necessiten per innovar.
-faq-get-q = Com puc obtenir les dades de Common Voice?
-faq-get-a = El conjunt de dades està disponible en la <downloadLink>pàgina de baixada</downloadLink> amb llicència <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Per què Common Voice és part de la missió de Mozilla?
-faq-mission-a = La missió de Mozilla és mantenir el Web obert i accessible a tothom. Per fer-ho, necessitem oferir eines als creadors de contingut web mitjançant projectes com el Common Voice. Les tecnologies de veu estan proliferant més enllà d'aplicacions molt especialitzades, i creiem que han de servir a tots els usuaris en igualtat de condicions. Veiem la necessitat d'incloure més llengües, accents i dades demogràfiques quan es creen i es proven les tecnologies de veu. Mozilla vol que Internet sigui saludable i vibrant. Això significa donar als creadors novells accés a les dades de veu per tal que puguin crear projectes nous i extraordinaris. El Common Voice serà un recurs públic que ajudarà els equips de Mozilla i els desenvolupadors d'arreu del món.
-faq-native-q = Sóc un parlant no natiu de { $lang } i parlo amb accent. Tot i això voleu la meva llengua?
-faq-native-a = Sí, volem la vostra veu! Part de l'objectiu del Common Voice és recollir tants accents diferents com sigui possible, de manera que els ordinadors puguin entendre millor <bold>tothom</bold> quan parli.
-faq-firefox-q = Amb el Common Voice, algun dia la funcionalitat de veu a text s'integrarà en el Firefox?
-faq-firefox-a = El Common Voice té un potencial il·limitat i, de fet, estem estudiant l'ús d'interfícies de veu en molts dels productes de Mozilla, inclòs el Firefox.
-faq-quality-q = Quin nivell de qualitat d'àudio és necessari per tal que sigui útil?
-faq-quality-a = Volem que la qualitat d'àudio reflecteixi la qualitat d'àudio que un motor de veu a text veurà en el món real. Per tant, volem varietat. Així, el motor de veu a text aprendrà a gestionar sense errors tot tipus de situacions (amb gent parlant al fons, soroll de cotxes o del ventilador, etc.).
-faq-hours-q = Per què l'objectiu és enregistrar 10.000 hores d'àudio?
-faq-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per a entrenar un sistema de reconeixement de la veu en producció.
-faq-source-q = D'on prové el text original?
-faq-source-a1 = Les frases actuals provenen de donacions dels col·laboradors, també de diàlegs de guions de pel·lícules de domini públic, com ara <italic>Que bonic que és viure.</italic>
-faq-source-a2 = Podeu veure les frases originals en <dataLink>aquesta carpeta del GitHub</dataLink>.
+faq-what-cv-q = Què és el Common Voice?
+faq-why-important-q = Per què és important?
+faq-how-calc-hours-q = Com calcula les hores el Common Voice?
+
+## Glossary
+
+glossary = Glossari
+localization = Localització
+localization-explanation = Procés de traducció i adaptació del contingut en altres llengües.
+sentence-collection = Recollida de frases
+sentence-collection-explanation = Recopilar frases del domini públic o escriure'n de noves per al domini públic.
+hours-recorded-explanation = Recompte de les hores d'enregistrament de veu que s'han recollit fins ara.
+hours-validated-explanation = Recompte de les hores d'enregistrament de veu s'han validat. Una frase es considera validada quan dos de tres usuaris voten «Sí». Aquestes hores compten per a l'objectiu general del projecte de 10.000 hores.
+sst = Veu a text (STT)
+sst-explanation = Les tecnologies de veu a text (STT) converteixen les dades de veu en text.
+de-identified = Anonimització
+de-identified-explanation = Procés pel qual la informació del perfil d'un col·laborador s'oculta dels talls de veu que han donat quan s'empaqueten per baixar-los com a part del conjunt de dades.
 
 ## NotFound
 
@@ -449,7 +468,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Les vostres llengües
 toward-next-goal = Cap al següent objectiu
+clips-you-recorded = Talls que heu enregistrat
+clips-you-validated = Talls que heu validat
+todays-recorded-progress = Progrés d'avui del Common Voice quant a talls enregistrats
+todays-validated-progress = Progrés d'avui del Common Voice quant a talls validats
 stats = Estadístiques
 you = Vós
 everyone = Tothom

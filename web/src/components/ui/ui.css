@@ -52,7 +52,7 @@
 
     &.outline {
         border-radius: 4px;
-        border: solid 1px color(var(--black) alpha(10%));
+        border: solid 1px color-mod(var(--black) alpha(10%));
         background-color: var(--white);
         color: var(--black);
     }
@@ -155,7 +155,7 @@ button.card-action:focus.focus-visible path {
     }
 
     & .label {
-        margin-left: 9px;
+        margin-inline-start: 9px;
         padding: 0 5px;
         position: absolute;
         top: -8px;
@@ -191,7 +191,7 @@ button.card-action:focus.focus-visible path {
 
             & select {
                 cursor: pointer;
-                padding-right: 33px;
+                padding-inline-end: 33px;
                 width: 100%;
                 appearance: none;
             }

@@ -8,7 +8,7 @@
 
         position: absolute;
         bottom: 30px;
-        right: 0;
+        inset-inline-end: 0;
 
         font-size: var(--font-size-xs);
         color: var(--warm-grey);
@@ -48,7 +48,7 @@
         }
 
         & .icon {
-            margin-right: 20px;
+            margin-inline-end: 20px;
             width: 30px;
             display: flex;
             justify-content: center;
@@ -64,7 +64,7 @@
             background: var(--blue);
 
             & svg {
-                margin-left: 0;
+                margin-inline-start: 0;
                 opacity: 1;
             }
 
@@ -80,7 +80,7 @@
 
         & .triangle {
             position: absolute;
-            right: 12px;
+            inset-inline-end: 12px;
             border-left: 8px solid transparent;
             border-right: 8px solid transparent;
             border-top: 10px solid var(--white);
@@ -97,7 +97,7 @@
     list-style: none;
 
     & li {
-        border-bottom: 1px solid color(var(--black) alpha(20%));
+        border-bottom: 1px solid color-mod(var(--black) alpha(20%));
     }
 
     & .more button {
@@ -125,10 +125,10 @@
 
         & > * {
             padding: 5px 0;
-            margin-right: 10px;
+            margin-inline-end: 10px;
 
             &:last-child {
-                margin-right: 0;
+                margin-inline-end: 0;
             }
         }
 
@@ -170,7 +170,7 @@
             }
 
             & svg {
-                margin-right: 5px;
+                margin-inline-end: 5px;
                 height: 17px;
 
                 &.play {

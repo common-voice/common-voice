@@ -119,6 +119,12 @@ vote-yes = Nyo
 vote-no = H'an
 today = Uroë Nyoë
 
+## Account Benefits
+
+
+## What's public
+
+
 ## Speak & Listen Shortcuts
 
 
@@ -143,6 +149,9 @@ profile-close = Tôp
 ## FAQ
 
 
+## Glossary
+
+
 ## NotFound
 
 
@@ -156,6 +165,7 @@ license = Lisènsi: <licenseLink>{ $license }</licenseLink>
 
 ## Download Modal
 
+download-no = H'an, Sabah
 
 ## Contact Modal
 

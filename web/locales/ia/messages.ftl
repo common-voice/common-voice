@@ -17,7 +17,11 @@ indicates-required = * indica un campo obligatori
 
 ## Languages
 
+ab = Abcaso
 ace = Acehnese
+ady = Adigue
+af = Afrikaans
+am = Amharico
 an = Aragonese
 ar = Arabe
 as = Assamese
@@ -36,6 +40,7 @@ cy = Gallese
 da = Danese
 de = Germano
 dsb = Sorbio, alte
+dv = Maldiviano
 el = Greco
 en = Anglese
 eo = Esperanto
@@ -64,8 +69,10 @@ kpv = Komi-Zyriano
 kw = Cornico
 ky = Kirghiso
 mdf = Moksha
-mk = Macedonio
+mhr = Mari oriental
+mk = Macedone
 mn = Mongol
+mrj = Mari occidental
 myv = Erzya
 nb-NO = Norvegiano Bokmål
 ne-NP = Nepalese
@@ -90,10 +97,13 @@ te = Telugu
 th = Thai
 tr = Turco
 tt = Tataro
+uby = Ubykh
+udm = Udmurte
 uk = Ukrainiano
 ur = Urdu
 uz = Uzbek
 vi = Vietnamese
+vot = Votico
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -150,7 +160,7 @@ todays-progress = Progressos hodierne
 help-reach-goal = Adjuta nos a obtener { $goal }
 read-terms-q = Ha tu legite nostre terminos de uso?
 ready-to-record = Es tu preste a donar tu voce?
-all-languages = Tote le linguas
+all-locales = Toto
 today = Hodie
 x-weeks-short =
     { $count ->
@@ -167,6 +177,28 @@ x-years-short =
         [one] anno
        *[other] annos
     }
+help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate, publicamente aperte
+profile-not-required = Haber un profilo non es obligatori pro collaborar ben que illo sia utile
+sign-up-account = Registra te pro aperir tu conto
+
+## Account Benefits
+
+benefits = Beneficios
+rich-data = Rende plus ric possibile tu datos inviate, per qualque informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que render illos public.
+improve-audio = Le informationes del profilo meliora le precision del datos audio usate pro le exercitation del recognition de voce.
+keep-track = Mantene tracia de tu progresso e del indicatores trans plure linguas.
+compare-progress = Vide como tu progresso es comparabile a altere collaboratores de tote le mundo.
+view-goals = Vide tu progresso contra scopos personal e de projecto.
+join-newsletter = Optionalmente junge te a nostre lista email pro le actualisationes e nove informationes re le projecto.
+
+## What's public
+
+whats-public = Que es Public?
+email-not-public = Nos non rendera public tu email.
+recordings-and-locale-public = Le numero de registrationes e le linguas que tu usa pro contribuer sera public.
+username-optin-public = Tu pote eliger de render public tu nomine de usator o anonyme.
+demographic-deidentified = Le datos demographic optionalmente inviate (e.g. etate, sexo, lingua, e accento) es de-identificate de tu datos vocal e jammais essera rendite public sur tu profilo.
+username-email-not-demographic = Tu nomine de usator e email non essera associate con le datos publicate.
 
 ## Speak & Listen Shortcuts
 
@@ -213,8 +245,10 @@ english = anglese
 
 profile-form-username =
     .label = Nomine de usator
-profile-form-language =
-    .label = Lingua
+profile-form-native-language =
+    .label = Lingua native
+profile-form-additional-language =
+    .label = Lingua additional
 profile-form-accent =
     .label = Accento
 profile-form-age =
@@ -270,29 +304,63 @@ file_too_large = Le file seligite es troppo grande
 manage-subscriptions = Gerer le subscriptiones
 email-already-used = Iste email es jam utilisate pro un conto differente
 add-language = Adder un lingua
+change-email-setings = Cambia tu email via Configurationes sub Identitate de connexion
 
 ## FAQ
 
 faq-title = Questiones frequente
-faq-what-q = Que es Common Voice?
-faq-what-a = Le technologia de recognition del voce poterea revolutionar le maniera que nos interage con le machinas, ma le systemas actualmente disponibile es costose e proprietari. Common Voice es un projecto pro render le technologia de recognition del voce facilemente accessibile a totes. Le personas dona lor voces a un massive base de datos que lassara quicunque rapidemente e facilemente maestrar applicationes activate per le voce. Tote le datos de voce essera disponibile al disveloppatores.
-faq-important-q = Perque es isto importante?
-faq-important-a = Le voce es natural, es human. Illo es le maniera plus facile e plus natural pro communicar. Nos vole que le disveloppatores pote producer cosas stupende ab le traductores in tempore real al assistentes administrative activate per le voce. Ma actualmente il non ha bastante datos disponibile publicamente pro le production de iste sorta del applicationes. Nos spera que Common Voice dara al disveloppatores lo que illos necessita pro innovar.
-faq-get-q = Como pote io obtener le datos de Common Voice?
-faq-get-a = Le collection de datos es disponibile ora sur nostre <downloadLink>pagina de discarga</downloadLink> sub licentia <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Perque Common Voice es parte del mission de Mozilla?
-faq-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile a omnes. Pro facer illo nos necessita de habilitar le autores del web per projectos como Common Voice. Como le technologias del voce prolifera ultra le applicationes de niche, nos fide que illos debe servir equalmente ben tote le usatores. Nos vide un necessitate de includer plus linguas, accentos e datos demographic quando nos produce e testa le technologias del voce. Mozilla vole vider internet salubre, vibrante. Que significa dar al nove autores accesso al datos de voce al fin que illos pote producer projectos nove e extraordinari. Common Voice essera un public ressource que adjutara le equipas de Mozilla e le disveloppatores circum le mundo.
-faq-native-q = Io es un orator de { $lang } non-native e io parla con le un accento, desira tu ancora mi voce?
-faq-native-a = Si, nos decisemente desira tu voce! Parte del propositos de Common Voice es colliger quanto plus differente accentos possibile, proque le computatores pote melio comprender <bold>omnes</bold> quando illes parla.
-faq-firefox-q = Le recognition vocal, per Common Voice, devenira mais parte del Firefox?
-faq-firefox-a = Common Voice ha potentiales illimitate e nos in effecto explora le interfacies vocal in plure productos de Mozilla, includite Firefox.
-faq-quality-q = Que es le nivello del qualitate necessari proque le audio sia usate?
-faq-quality-a = Nos desira que le qualitate audio reflecte le qualitate del audio que un motor de recognition vocal videra in natura. Assi, nos desira varietate. Isto insenia al motor de recognition vocal de gerer plure situationes — parlate in secunde plano, rumor de auto, rumor de ventilator —sin errores.
-faq-hours-q = Perque es 10,000 horas le scopo pro capturar audio?
-faq-hours-a = Isto es circa le numero del horas requirite pro maestrar un systema de conversion vocal.
-faq-source-q = De ubi veni le texto fonte?
-faq-source-a1 = Le phrases actual veni ab le donationes de collaboratores, tam ben como dialogos ex scriptos de pelliculas de dominio public como <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Tu pote vider nostre phrases fonte in <dataLink>iste dossier GitHub</dataLink>.
+faq-what-cv-q = Que es Common Voice?
+faq-what-cv-a = Le technologia de recognition del voce revolutiona le maniera per le qual nos interage con le machinas, ma le systemas actualmente disponibile es costose e proprietari. Common Voice es parte del initiativa de Mozilla pro render melior e plus accessibile a totes le technologias de recognition del voce. Common Voice es un massive base de datos global de voces donate, que lassa quicunque rapidemente e facilemente maestrar le applicationes activate per le voce in potentialmente cata lingua.
+faq-why-important-q = Perque es illo importante?
+faq-why-important-a = Le voce es sovente nostre maniera plus natural pro communicar le un con le alteres e le technologias del voce apporta ille convenientia a nostre computatores e apparatos mobile. Nos vole habilitar le disveloppatores a construer stupende applicationes del recognition del voce como traductores real-time e assistentes digital activate per le voce. Ma actualmente le major parte del datos vocal requirite pro construer iste typos de applicationes es costose e proprietari. Nos spera que le collection de datos de Common Voice dara al disveloppatores lo que illos besonia pro innovar e render disponibile le technologia del voce in lor proprie lingua.
+faq-how-get-q = Como pote io obtener le datos de Common Voice?
+faq-how-get-a = Le collection de datos de Common Voice es disponibile pro discargamento sub le licentia <licenseLink>CC0</licenseLink> sur <datasetLink>nostre pagina del collectiones de datos</datasetLink>. Tu pote alsi discargar ab le mesme pagina plure altere collectiones de datos publicamente disponibile.
+faq-when-release-q = Quando sera publicate le datos de Common Voice de tu version in altere linguas?
+faq-when-release-a = Le version multe-linguas del collection de datos de Common Voice es actualmente compilate e mundificate per le supporto del communitate. Si tu desira a saper plus re como supportar iste effortio, per favor <contactLink>continge nos</contactLink>.  Nos mira actualmente un data de publication de januario 2019. Postea, nos actualisara le collection de datos periodicamente con nove linguas e retalios vocal quando illos essera disponibile. Un cadentia iterative de cyclo del version debe ancora ser determinate.
+faq-why-mission-q = Perque Common Voice es parte del mission de Mozilla?
+faq-why-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile a omnes. Pro facer illo nos necessita de habilitar le autores del web per projectos como Common Voice.  Quando le technologias del voce proliferara ultra le applicationes de niche, nos fide que illos debera servir tote le usatores equalmente. Illo significa investir in plus linguas e accommodar diverse accentos e datos demographic quando on compilara e testara le technologias del voce.  Common Voice es un public ressource disponibile a totes. Le equipas e le disveloppatores de Mozilla circum le mundo lo usa jam tam ben sur nostre proprie projectos.
+faq-what-cv-and-deepspeech-q = Qual es le differentia inter Common Voice e Deep Speech?
+faq-what-cv-and-deepspeech-a = Le collection de datos de Common Voice completa le motor de recognition del voce open-source de Mozilla: Deep Speech. Le prime version de Deep Speech ha essite publicate in novembre 2017 e pois illo ha continuate sempre a evolver se. Insimul con le collection de datos de Common Voice, nos fide que iste technologia de recognition del voce open-source deberea esser disponibile a totes. Nos spera que iste technologias activara le disveloppatores a crear un unda de productos e servicios innovative.
+faq-is-goal-assistant-q = Es le scopo de Common Voice crear un assistente vocal?
+faq-is-goal-assistant-a = Le scopo del collection de datos de Common Voice es a activar quicunque in le mundo a crear applicationes de recognition de voce, recognition de orator o de ulle altere typo, que require datos vocal. Un assistente vocal es justo uno de multe typos de applicationes pro crear le qual on poterea usar le collection de datos.
+faq-do-want-native-q = Io es un parlante non-native e io parla con un accento, vole tu ancora mi voce?
+faq-do-want-native-a = Si, nos vole specialmente tu voce! Parte del scopo de Common Voice es colliger quanto plus differente accentos possibile assi que le servicios de recognition del voce labora equalmente ben pro totes. Isto significa que le donationes per le parlantes non-native es particularmente importante.
+faq-why-different-speakers-q = Perque tu besonia de tante differente parlantes per lingua?
+faq-why-different-speakers-a =
+    Le major parte del bases de datos es maestrate con un super-representation de certe datos demographic que resultata in un prejudicio verso <articleLink>le classe masculin e medie</articleLink>.Accentos e dialectos que tende a ser sub-representate in le maestramento del collectiones de datos es typicamente associate con gruppos de personas qui es jam marginalisate. Multe machinas alsi es reluctante a comprender le voces feminin.
+    Isto es perque in nostre base de datos de voces nos vole le varietate!
+faq-why-my-lang-q = Perque mi lingua non es ancora includite?
+faq-why-my-lang-a = Mozilla non prefere o favori ulle lingua contra un altere. In vice, Common Voice es un initiativa ducite solmente per le communitate, ma illo prende <multilangLink>plure grados pro adder un nove lingua</multilangLink> e initia per colliger donationes de voce. Primo, le sito web de Common Voice debe ser traducite assi que le membros del communitate pote acceder al experientias del collaboratores in lor proprie lingua. Pois nos require un grande collection de phrases libere de derectos de autor proque le personas pote los leger. Un vice que ambe ille requisitos es satisfacite un lingua es “lanceate” sur Common Voice pro le personas a partir del registration de lor voce e del validation del donationes del alteres.
+faq-what-quality-q = Que nivello de qualitate del audio es requirite proque le retalios vocal sia usate in le collection de datos?
+faq-what-quality-a = Nos vole que le collection de datos de Common Voice reflecte le qualitate del audio que un motor de recognition vocal audira in natura, assi nos recerca le varietate. In addition a un diverse communitate de parlantes, un collection de datos con qualitate del audio variabile <s0/>maestrara le recognition vocal a gerer varie situationes del mundo real, ab le voces se fundo al rumor del autos. Fin que tu retalio vocal es intelligibile, illo deberea ser bon bastante pro le collection de datos.
+faq-why-10k-hours-q = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
+faq-why-10k-hours-a = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
+faq-how-calc-hours-q = Como Common Voice calcula le horas?
+faq-how-calc-hours-a = Nos calcula le horas per le estimation del longor medie de cata registration, e pois per le multiplication de ille numero per le numero total de registrationes trans tote le linguas.
+faq-where-src-from-2-q = Ab ubi veni le texto fonte?
+faq-where-src-from-2-a = Nostre texto fonte es producite per donationes de nostre collaboratores voluntari e per dialogos de films de public dominio como <italic>It’s a Wonderful Life</italic>.
+faq-why-not-ask-read-q = Perque non demanda tu al personas de leger ex libros o articulos de Wikipedia in differente linguas?
+faq-why-not-ask-read-a = Pro render le collection de datos de Common Voice quanto plus possibile utile, nos ha decidite de <t0/>consentir solo texto fonte que es disponibile sub licentia Creative Commons (CC0). Usar le standard CC0 significa que il es plus difficile trovar e colliger texto fonte, ma consenti a quicunque de usar le datos vocal resultante sin restrictiones o autorisation de Mozilla. Al fin, nos vole render le collection de datos multe-lingua quanto plus possibile utile a totes, anque le recercatores, universitates, startups, governamentos, organisationes de propositos social e hobbyistas.
+faq-why-account-q = Perque deberea io registra me pro un conto?
+faq-is-account-public-q = Es le informationes de mi conto public?
+faq-how-privacy-q = Como assecura vos le anonymitate e le confidentialitate del personas qui dona lor voces?
+faq-how-privacy-a = Tote le retalios vocal in le collection de datos es depurate del informationes de identification personal. Quando un collaborator forni datos demographic via su profilo, ille informationes es de-identificate de lor retalios vocal ante que esser paccate pro le discarga in le collection de datos e es jammais rendite public sur su pagina del profilo.
+faq-what-determine-identity-q = Que significa que io non pote “determinar le identitate” del parlantes in le collection de datos de Common Voice?
+faq-what-determine-identity-a = Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote ser usate pro maestrar un large varietate de applicationes ad activation vocal. Pro proteger le securitate de nostre collaboratores, <s0/>nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del collaboratores.
+
+## Glossary
+
+glossary = Glossario
+localization = Localisation
+localization-explanation = Isto es nostre procedura pro traducer e adaptar nostre contento pro multe localisationes (linguas).
+sentence-collection = Collection de phrases
+sentence-collection-explanation = Colliger phrases ab le public dominio o scriber los nove pro le public dominio.
+hours-recorded-explanation = Le conto del horas de registration de voce que nos ha jam colligite.
+hours-validated-explanation = Le conto del horas de registration de voce que ha essite validate per 2 de 3 usatores con un voto de “Si”.  Istos marca le progresso verso le objectivo general del projecto: 10000 horas.
+sst = Ab le voce al texto (STT - Recognition vocal)
+sst-explanation = Technologias de recognition vocal pro converter datos vocal in texto.
+de-identified = De-identificate
+de-identified-explanation = Le processo per lo qual un information del profilo del collaborator es obscurate ab lor retalios vocal quando es pacchettate pro le discarga como parte del collection de datos.
 
 ## NotFound
 
@@ -449,17 +517,27 @@ validations =
 
 ## Dashboard
 
+your-languages = Tu linguas
 toward-next-goal = Verso le proxime objectivo
+clips-you-recorded = Retalios que tu ha registrate
+clips-you-validated = Retalios que tu ha validate
+todays-recorded-progress = Progresso hodierne de Common Voice sur le retalios audio registrate
+todays-validated-progress = Progresso hodierne de Common Voice sur le retalios audio validate
 stats = Statistica
 you = Tu
 everyone = Totes
 contribution-activity = Activate de collaboration
 top-contributors = Principal collaboratores
+recorded-clips = Retalios registrate
+validated-clips = Retalios validate
 total-approved = Total approbate
 overall-accuracy = Precision general
 
 ## Profile Delete
 
+delete-q = Vole tu requirer que tu registrationes vocal sia delite o prefere tu retener los in le collection de datos de Common Voice?
 keep = Retener
 remove = Remover
+keep-info = Tu registrationes de voce anonyme remanera in le collection de datos de Common Voice. Un vice que tu dele tu profilo tu non sera plus capace a inviar un requesta de eliminar tu registrationes ab le collection de datos
+remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contingera illes qui ha discargate le collection de datos e requirera les de remover tu registrationes vocal.
 profile-form-delete = Deler le profilo

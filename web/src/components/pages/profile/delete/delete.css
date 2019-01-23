@@ -57,7 +57,7 @@
         }
 
         & svg {
-            margin-right: 5px;
+            margin-inline-end: 5px;
             flex-shrink: 0;
             width: 22px;
         }

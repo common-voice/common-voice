@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Υποβολή
 loading = Φόρτωση...
+indicates-required = * Υποχρεωτικό πεδίο
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +16,14 @@ loading = Φόρτωση...
 
 ## Languages
 
+ace = Ατσενικά
+af = Αφρικάανς
 an = Αραγωνικά
 ar = Αραβικά
 as = Ασαμικά
 ast = Αστουριανικά
 az = Αζερικά
+bg = Βουλγαρικά
 bn = Μπενγκάλι
 br = Βρετονικά
 bxr = Μπουργιάτ
@@ -37,6 +41,8 @@ en = Αγγλικά
 eo = Εσπεράντο
 es = Ισπανικά
 et = Εσθονικά
+eu = Βασκικά
+fa = Περσικά
 fi = Φιλανδικά
 fo = Φεροϊκά
 fr = Γαλλικά
@@ -57,19 +63,23 @@ ko = Κορεατικά
 kpv = Komi-Zyrian
 kw = Κορνουαλικά
 ky = Κιργιζικά
+mdf = Μόκσα
 mk = Σλαβομακεδονικά
+mn = Μογγολικά
 myv = Erzya
 nb-NO = Νορβηγικά (Bokmål)
 ne-NP = Νεπαλικά
 nl = Ολλανδικά
 nn-NO = Νορβηγικά Nynorsk
+oc = Οξιτανικά
 or = Odia
 pl = Πολωνικά
 pt-BR = Πορτογαλικά (Βραζιλίας)
-rm = Ρομανσικά
+rm-sursilv = Ρομανσικά (Sursilvan)
 ro = Ρουμανικά
 ru = Ρώσικα
 sah = Σαχά
+sc = Σαρδηνιακά
 sk = Σλοβακικά
 sl = Σλοβενικά
 sq = Αλβανικά
@@ -83,6 +93,7 @@ tt = Ταταρικά
 uk = Ουκρανικά
 ur = Ούρντου
 uz = Ουζμπεκικά
+vi = Βιετναμέζικα
 zh-CN = Κινέζικα (Κίνα)
 zh-HK = Κινέζικα (Χονγκ Κονγκ)
 zh-TW = Κινέζικα (Ταϊβάν)
@@ -108,9 +119,7 @@ share-title = Βοηθήστε μας να βρούμε και άλλους πο
 share-text = Βοηθήστε τις μηχανές να κατανοήσουν πώς μιλάνε οι πραγματικοί άνθρωποι, δωρίζοντας τη φωνή σας στο { $link }
 link-copied = Ο σύνδεσμος αντιγράφηκε
 back-top = Επιστροφή στην κορυφή
-contribution-banner-text = Μόλις ξεκινήσαμε μια νέα εμπειρία συνεισφοράς
-contribution-banner-button = Ρίξτε μια ματιά
-report-bugs-link = Βοηθήστε στην αναφορά σφαλμάτων
+logout = Αποσύνδεση
 
 ## Home Page
 
@@ -138,9 +147,12 @@ listen-paragraph = Η επαλήθευση δωρισμένων αποσπασμ
 listen-goal-text = Επαληθευμένα κλιπς
 hours-recorded = Ώρες ηχογράφησης
 hours-validated = Ώρες επαλήθευσης
+voices-online = Φωνές σε σύνδεση τώρα
+todays-progress = Σημερινή πρόοδος
+help-reach-goal = Βοηθήστε μας να φτάσουμε στο { $goal }
 read-terms-q = Έχετε διαβάσει τους όρους;
 ready-to-record = Έτοιμοι να δωρίσετε τη φωνή σας;
-all-languages = Όλες οι γλώσσες
+all-locales = Όλα
 today = Σήμερα
 x-weeks-short =
     { $count ->
@@ -157,6 +169,24 @@ x-years-short =
         [one] { $count } έτος
        *[other] { $count } έτη
     }
+help-make-dataset = Βοηθήστε μας να συλλέξουμε υψηλής ποιότητας, δημόσια δεδομένα
+profile-not-required = Δεν απαιτείται να έχετε προφίλ για να συνεισφέρετε, αν και είναι χρήσιμο
+sign-up-account = Δημιουργία λογαριασμού
+
+## Account Benefits
+
+benefits = Οφέλη
+keep-track = Παρακολουθήστε την πρόοδο και τους δείκτες σας για πολλαπλές γλώσσες.
+compare-progress = Δείτε πώς συγκρίνεται η πρόοδός σας με άλλους εθελοντές απ' όλο τον κόσμο.
+
+## What's public
+
+whats-public = Τι δημοσιοποιείται;
+email-not-public = Δεν θα δημοσιοποιήσουμε το email σας.
+recordings-and-locale-public = Ο αριθμός των ηχογραφήσεων και οι γλώσσες που συνεισφέρετε θα είναι δημόσια.
+username-optin-public = Μπορείτε να κάνετε το όνομα χρήστη σας δημόσιο ή ανώνυμο.
+demographic-deidentified = Τα προαιρετικά υποβληθέντα δημογραφικά δεδομένα (π.χ. ηλικία, φύλο, γλώσσα και προφορά) δεν σχετίζονται με τα φωνητικά σας δεδομένα και δεν θα δημοσιοποιηθούν ποτέ στο προφίλ σας.
+username-email-not-demographic = Το όνομα χρήστη και το email σας δεν θα συσχετιστούν τα δημοσιευμένα δεδομένα.
 
 ## Speak & Listen Shortcuts
 
@@ -201,12 +231,12 @@ english = Αγγλικά
 
 ## ProfileForm
 
-profile-form-cancel = Έξοδος από τη φόρμα
-profile-form-delete = Διαγραφή προφίλ
 profile-form-username =
     .label = Όνομα χρήστη
-profile-form-language =
-    .label = Γλώσσα
+profile-form-native-language =
+    .label = Μητρική γλώσσα
+profile-form-additional-language =
+    .label = Επιπρόσθετη γλώσσα
 profile-form-accent =
     .label = Προφορά
 profile-form-age =
@@ -215,56 +245,78 @@ profile-form-gender =
     .label = Φύλο
 leaderboard-visibility =
     .label = Ορατότητα πίνακα αρχηγών
+hidden = Κρυφά
+visible = Ορατά
 native-language =
     .label = Μητρική γλώσσα
 profile-form-submit-save = Αποθήκευση
 profile-form-submit-saved = Αποθήκευση
-profile-keep-data = Διατήρηση δεδομένων
-profile-delete-data = Διαγραφή δεδομένων
 male = Άνδρας
 female = Γυναίκα
 # Gender
 other = Άλλο
 why-profile-title = Γιατί να δημιουργήσετε προφίλ;
 why-profile-text = Παρέχοντας πληροφορίες για τον εαυτό σας, αυξάνετε τη χρησιμότητα των ηχητικών δεδομένων που υποβάλλετε στο Common Voice. Οι μηχανές αναγνώρισης ομιλίας χρησιμοποιούν αυτά τα δεδομένα για να αυξήσουν την ακρίβειά τους.
+dashboard = Πίνακας
+build-profile = Ανάπτυξη προφίλ
+avatar = Εικόνα χρήστη
+goals = Στόχοι
+settings = Ρυθμίσεις
 edit-profile = Επεξεργασία προφίλ
-profile-create = Δημιουργία προφίλ
 profile-create-success = Το προφίλ δημιουργήθηκε επιτυχώς!
 profile-close = Κλείσιμο
-profile-clear-modal = Εάν διαγράψετε τα δεδομένα του προφίλ σας, αυτές οι δημογραφικές πληροφορίες δεν θα υποβάλλονται πλέον στο Common Voice μαζί με τις ηχογραφήσεις σας.
 profile-explanation = Παρακολουθήστε την πρόοδό σας με ένα προφίλ και βοηθήστε τα δεδομένα φωνής μας να γίνουν πιο ακριβή.
 thanks-for-account = Ευχαριστούμε που επιβεβαιώσατε το λογαριασμό σας, ας δημιουργήσουμε τώρα το προφίλ σας.
 why-demographic = Γιατί έχει σημασία αυτό;
 keep-me-posted =
     .label = Θα ήθελα ενημερώσεις και ειδοποιήσεις για το τι συμβαίνει στο Common Voice.
+login-identity = Ταυτότητα σύνδεσης
+login-signup = Σύνδεση/Εγγραφή
+edit = Επεξεργασία
+email-subscriptions = Συνδρομές email
+download-profile = Λήψη των δεδομένων μου
+contribution-experience = Εμπειρία συνεισφορών
+skip-submission-feedback = Παράκαμψη σχολίων υποβολής
+skip-submission-note = Σημείωση: Θα πρέπει ακόμα να επιλέξετε ανάμεσα σε Ομιλία ή Ακρόαση για να αλλάξετε τον τύπο συνεισφοράς.
+off = Ανενεργό
+on = Ενεργό
+add-avatar-title = Προσθήκη avatar στο προφίλ σας
+browse-file-title = Μεταφόρτωση αρχείου εικόνας
+browse-file = Σύρετε και εναποθέστε ή <browseWrap>κάντε περιήγηση</browseWrap>
+connect-gravatar = Σύνδεση με Gravatar
+gravatar_not_found = Δεν βρέθηκε gravatar για το email σας
+file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
+manage-subscriptions = Διαχείριση συνδρομών
+email-already-used = Το email χρησιμοποιείται ήδη για διαφορετικό λογαριασμό
+add-language = Προσθήκη γλώσσας
+change-email-setings = Αλλάξτε το email σας μέσω των ρυθμίσεων, στην Ταυτότητα σύνδεσης
 
 ## FAQ
 
 faq-title = Συχνές ερωτήσεις
-faq-what-q = Τι είναι το Common Voice;
-faq-what-a = Η τεχνολογία αναγνώρισης φωνής θα μπορούσε να αλλάξει τον τρόπο που αλληλεπιδρούμε με τις μηχανές, αλλά τα συστήματα που διατίθενται σήμερα είναι ακριβά και ιδιοταγή. Το Common Voice έχει ως σκοπό να καταστήσει την τεχνολογία αναγνώρισης φωνής προσβάσιμη σε όλους.Οι χρήστες δωρίζουν τις φωνές τους σε μια τεράστια βάση δεδομένων που θα επιτρέψει στον καθένα να εκπαιδεύσει φωνητικές εφαρμογές εύκολα και γρήγορα. Όλα τα φωνητικά δεδομένα θα είναι διαθέσιμα στους προγραμματιστές.
-faq-important-q = Γιατί είναι σημαντικό;
-faq-important-a = Η φωνή είναι φυσική, η φωνή είναι ανθρώπινη. Είναι ο ευκολότερος και ο πιο φυσικός τρόπος επικοινωνίας. Θέλουμε οι προγραμματιστές να μπορούν να δημιουργήσουν εκπληκτικά πράγματα, από μεταφραστές πραγματικού χρόνου έως φωνητικούς βοηθούς. Αλλά σήμερα δεν υπάρουν αρκετά δημόσια δεδομένα για να δημιουργηθεί αυτός ο τύπος εφαρμογών. Ελπίζουμε ότι το Common Voice θα δώσει στους προγραμματιστές τα εργαλεία για να καινοτομήσουν.
-faq-get-q = Πώς μπορώ να έχω πρόσβαση στα δεδομένα του Common Voice;
-faq-get-a = Η βάση δεδομένων είναι πλέον διαθέσιμη στη <downloadLink>σελίδα λήψεων</downloadLink> υπό την άδεια <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Γιατί το Common Voice εντάσσεται στην αποστολή της Mozilla;
-faq-mission-a = Η Mozilla προσπαθεί να διατηρήσει το διαδίκτυο ανοικτό σε όλους. Για να το πετύχουμε αυτό, πρέπει να βοηθήσουμε τους δημιουργούς περιεχομένου για το διαδίκτυο με έργα όπως το Common Voice. Καθώς οι τεχνολογίες αναγνώρισης φωνής επεκτείνονται, πιστεύουμε ότι πρέπει να εξυπηρετούν όλους τους χρήστες με τον ίδιο τρόπο. Βλέπουμε την ανάγκη να συμπεριλάβουμε περισσότερες γλώσσες και προφορές, καθώς και φωνές με διαφορετικά δημογραφικά χαρακτηριστικά, όταν χτίζουμε και δοκιμάζουμε τις τεχνολογίες αναγνώρισης φωνής. Η Mozilla θέλει ένα υγιές, ζωντανό διαδίκτυο. Αυτό σημαίνει το να δώσουμε στους νέους δημιουργούς φωνητικά δεδομένα, ώστε να χτίσουν νέα, εξαιρετικά έργα. Το Common Voice θα είναι μια δημόσια πηγή δεδομένων, που θα βοηθήσει τις ομάδες και τους προγραμματιστές της Mozilla σε όλο τον κόσμο.
-faq-native-q = Η γλώσσα { $lang } δεν είναι η μητρική μου και μιλάω με προφορά. Θέλετε ακόμη τη φωνή μου;
-faq-native-a = Ναι, θέλουμε σίγουρα τη φωνή σου! Ένας από τους στόχους του Common Voice είναι η συλλογή όσο το δυνατόν περισσότερων προφορών, ώστε οι υπολογιστές να κατανοούν καλύτερα <bold>κάθε άνθρωπο</bold> όταν μιλάει.
-faq-firefox-q = Θα ενταχθεί ποτέ στο Firefox η αναγνώριση ομιλίας μέσω του Common Voice;
-faq-firefox-a = Το Common Voice προσφέρει ατελείωτες δυνατότητες, και σκοπεύουμε να εξερευνήσουμε τις διεπαφές ομιλίας σε διάφορα προϊόντα της Mozilla, συμπεριλαμβανόμενου του Firefox.
-faq-quality-q = Ποιο είναι το απαιτούμενο επίπεδο ποιότητας ήχου;
-faq-quality-a = Θέλουμε η ποιότητα του ήχου να αντανακλά την ποιότητα ήχου που θα αντιμετωπίσει μία μηχανή αναγνώρισης ομιλίας στην πραγματικότητα. Συνεπώς, επιθυμούμε ποικιλία. Έτσι η μηχανή αναγνώρισης ομιλίας θα μάθει να χειρίζεται διάφορες καταστάσεις—ομιλία στο παρασκήνιο, θόρυβο αυτοκινήτου, θόρυβο ανεμιστήρα—χωρίς σφάλματα.
-faq-hours-q = Γιατί ο στόχος συλλογής ήχου είναι 10.000 ώρες;
-faq-hours-a = Αυτός είναι περίπου ο αριθμός ωρών που απαιτούνται για ένα ποιοτικό σύστημα αναγνώρισης ομιλίας.
-faq-source-q = Από που προέρχονται τα κείμενα;
-faq-source-a1 = Οι προτάσεις προέρχονται από συνεισφορές χρηστών, καθώς και από διαλόγους από ταινίες που βρίσκονται στο δημόσιο τομέα, όπως το <italic>t’s a Wonderful Life.</italic>
-faq-source-a2 = Μπορείτε να δείτε τις πηγαίες προτάσεις στο <dataLink>GitHub </dataLink>.
+faq-what-cv-q = Τι είναι το Common Voice;
+faq-why-important-q = Γιατί είναι σημαντικό;
+faq-how-get-q = Πώς μπορώ να αποκτήσω τα δεδομένα του Common Voice;
+faq-when-release-q = Πότε θα κυκλοφορήσετε δεδομένα του Common Voice σε άλλες γλώσσες;
+faq-why-mission-q = Γιατί το Common Voice είναι μέρος της αποστολής της Mozilla;
+faq-is-goal-assistant-q = Είναι στόχος του Common Voice η ανάπτυξη μιας φωνητικής βοηθού;
+faq-why-different-speakers-q = Γιατί χρειάζεστε πολλούς και διαφορετικούς ομιλητές ανά γλώσσα;
+faq-why-my-lang-q = Γιατί δεν περιλαμβάνεται ακόμη η γλώσσα μου;
+faq-what-quality-q = Ποιο είναι το απαιτούμενο επίπεδο ποιότητας φωνής για ένα κλιπ φωνής που θα χρησιμοποιηθεί στο σύνολο δεδομένων;
+faq-how-calc-hours-q = Πώς υπολογίζει το Common Voice τις ώρες;
+faq-why-account-q = Γιατί να δημιουργήσω λογαριασμό;
+faq-is-account-public-q = Είναι δημόσιες οι πληροφορίες του λογαριασμού μου;
+faq-how-privacy-q = Πώς εξασφαλίζετε την ανωνυμία και το απόρρητο των ατόμων που δώρισαν τις φωνές τους;
 
-## Profile
+## Glossary
 
-profile-why-title = Γιατί να δημιουργήσω προφίλ;
-profile-why-content = Παρέχοντας πληροφορίες για τον εαυτό σας, αυξάνετε τη χρησιμότητα των ηχητικών δεδομένων που υποβάλλετε στο Common Voice. Οι μηχανές αναγνώρισης ομιλίας χρησιμοποιούν αυτά τα δεδομένα για να αυξήσουν την ακρίβειά τους.
+glossary = Γλωσσάριο
+localization = Μετάφραση
+localization-explanation = Αυτή είναι η διαδικασία μας για τη μετάφραση και την προσαρμογή του περιεχομένου μας σε πολλές γλώσσες.
+sentence-collection = Συλλογή προτάσεων
+hours-recorded-explanation = Οι ώρες ηχογραφήσεων φωνής που έχουμε συλλέξει μέχρι στιγμής.
+sst = Ομιλία-σε-κείμενο (STT)
+sst-explanation = Οι τεχνολογίες ομιλία-σε-κείμενο (STT) μετατρέπουν τα δεδομένα φωνής σε κείμενο.
 
 ## NotFound
 
@@ -293,21 +345,6 @@ data-bundle-button = Λήψη ολόκληρου του συνόλου δεδο�
 data-bundle-description = Τα δεδομένα του Common Voice, καθώς και όλα τα άλλα σύνολα φωνητικών δεδομένων που περιγράφονται πιο πάνω.
 license = Άδεια χρήσης: <licenseLink>{ $license }</licenseLink>
 license-mixed = Μεικτό
-
-## Record Page
-
-record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
-record-platform-not-supported-desktop = Σε επιτραπέζιους υπολογιστές, μπορείτε να κατεβάσετε τα πιο πρόσφατα:
-record-platform-not-supported-ios = Οι χρήστες <bold>iOS</bold> μπορούν να κατεβάσουν τη δωρεάν εφαρμογή μας:
-record-must-allow-microphone = Χρειάζεται να επιτρέψετε πρόσβαση στο μικρόφωνο σας.
-record-retry = Επανάληψη
-record-no-mic-found = Δεν βρέθηκε μικρόφωνο.
-record-error-too-short = Η ηχογράφηση ήταν πολύ σύντομη.
-record-error-too-long = Η ηχογράφηση ήταν πολύ μεγάλη.
-record-error-too-quiet = Η ένταση της ηχογράφησης ήταν πολύ χαμηλή.
-record-submit-success = Επιτυχία υποβολής! Νέα ηχογράφηση;
-record-help = Πατήστε για ηχογράφηση, στη συνέχεια διαβάστε δυνατά την ακόλουθη πρόταση.
-record-cancel = Ακύρωση επανεγγραφής
 review-terms = Εάν χρησιμοποιείτε το Common Voice, συμφωνείτε με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink>
 terms-agree = Συμφωνώ
 terms-disagree = Δεν συμφωνώ
@@ -382,6 +419,15 @@ contribute-more =
        *[other] Έτοιμοι να κάνετε { $count } ακόμη;
     }
 record-cta = Έναρξη ηχογράφησης
+record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
+record-platform-not-supported-desktop = Σε επιτραπέζιους υπολογιστές, μπορείτε να κατεβάσετε τα πιο πρόσφατα:
+record-platform-not-supported-ios = Οι χρήστες <bold>iOS</bold> μπορούν να κατεβάσουν τη δωρεάν εφαρμογή μας:
+record-must-allow-microphone = Χρειάζεται να επιτρέψετε πρόσβαση στο μικρόφωνο σας.
+record-no-mic-found = Δεν βρέθηκε μικρόφωνο.
+record-error-too-short = Η ηχογράφηση ήταν πολύ σύντομη.
+record-error-too-long = Η ηχογράφηση ήταν πολύ μεγάλη.
+record-error-too-quiet = Η ένταση της ηχογράφησης ήταν πολύ χαμηλή.
+record-cancel = Ακύρωση επανεγγραφής
 record-instruction = { $actionType } στο <recordIcon></recordIcon>και διαβάστε δυνατά την πρόταση
 record-stop-instruction = { $actionType } στο <stopIcon></stopIcon> όταν τελειώσετε
 record-three-more-instruction = Τρία ακόμη!
@@ -405,3 +451,43 @@ listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
 nothing-to-validate = Δεν έχουμε τίποτα προς επαλήθευση σε αυτή τη γλώσσα, βοηθήστε μας να συμπληρώσουμε τη σειρά.
 record-button-label = Ηχογράφηση φωνής
 share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
+
+## Goals
+
+days =
+    { $count ->
+        [one] Ημέρα
+       *[other] Ημέρες
+    }
+recordings =
+    { $count ->
+        [one] Ηχογράφηση
+       *[other] Ηχογραφήσεις
+    }
+validations =
+    { $count ->
+        [one] Επαλήθευση
+       *[other] Επαληθεύσεις
+    }
+
+## Dashboard
+
+your-languages = Οι γλώσσες σας
+toward-next-goal = Προς τον επόμενο στόχο
+clips-you-recorded = Κλιπ που έχετε ηχογραφήσει
+clips-you-validated = Κλιπ που έχετε επαληθεύσει
+stats = Στατιστικά
+you = Εσείς
+everyone = Όλοι
+contribution-activity = Δραστηριότητα συνεισφορών
+top-contributors = Κορυφαίοι εθελοντές
+recorded-clips = Ηχογραφημένα κλιπ
+validated-clips = Επαληθευμένα κλιπ
+total-approved = Σύνολο εγκεκριμένων
+overall-accuracy = Συνολική ακρίβεια
+
+## Profile Delete
+
+keep = Διατήρηση
+remove = Αφαίρεση
+profile-form-delete = Διαγραφή προφίλ

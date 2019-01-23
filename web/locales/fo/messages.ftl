@@ -6,6 +6,7 @@ email-input =
     .label = Teldupostur
 submit-form-action = Send inn
 loading = Hugsar...
+indicates-required = * merkir teigurin er kravdur
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -96,9 +97,7 @@ share-title = Hjálp okkum at finna onnur at geva sína rødd!
 share-text = Hjálp okkum at læra maskinur, hvussu verulig fólk tosa. Hjálp við at geva tína rødd á { $link }
 link-copied = Leinkið kopiera
 back-top = Far ovast
-contribution-banner-text = Vit hava júst gjørt broytingar til hvussu ein hjálpur til
-contribution-banner-button = Hygg
-report-bugs-link = Hjálp við at boða frá feilum
+logout = Útrita
 
 ## Home Page
 
@@ -121,9 +120,11 @@ listen-paragraph = At góðkenna innsendar ljóðupptøkur er líka týdningarmi
 listen-goal-text = Klipp góðkend
 hours-recorded = Tímar upptiknir
 hours-validated = Tímar góðkendir
+todays-progress = Framgongdin í dag
+help-reach-goal = Hjálp okkum at røkka { $goal }
 read-terms-q = Hevur tú lisið okkara Treytir?
 ready-to-record = Til reiðar at geva tína rødd?
-all-languages = Øll mál
+all-locales = Øll
 today = Í dag
 x-weeks-short =
     { $count ->
@@ -143,19 +144,34 @@ x-years-short =
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Spæl/Steðga
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Tak upp/Steðga
 request-language-text = Finnur tú ikki títt mál á Common Voice?
 request-language-button = Ger eina umbøn um eitt nýtt mál
 
 ## ProjectStatus
 
+status-title = Støðan á verkætlanini: Hygg hvussu langt vit eru komin!
 status-contribute = Stuðla við tínari rødd
 status-hours =
     { $hours ->
@@ -169,7 +185,6 @@ english = Enskt
 
 ## ProfileForm
 
-profile-form-delete = Strika profil
 profile-form-username =
     .label = Brúkaranavn
 profile-form-language =
@@ -180,27 +195,46 @@ profile-form-age =
     .label = Aldur
 profile-form-gender =
     .label = Kyn
+leaderboard-visibility =
+    .label = Sjónligheit á stigatalvu
+hidden = Krógvað
+visible = Sjónligt
 native-language =
     .label = Móðurmál
 profile-form-submit-save = Goym
 profile-form-submit-saved = Goymt
-profile-delete-data = Strika dáta
 male = Mannfólk
 female = Konufólk
 # Gender
 other = Annað
 why-profile-title = Hví hava ein profil?
+dashboard = Tólbretti
+build-profile = Ger profil
+avatar = Profilmynd
+goals = Mál
+settings = Stillingar
 edit-profile = Broyt profil
-profile-create = Stovna ein profil
 profile-create-success = Profilur stovnaður!
 profile-close = Lat aftur
 profile-explanation = Við einum profili kanst tú fylgja við tínari framgongd og samstundis gera okkara raddar dáta meira neyvt.
 thanks-for-account = Takk fyri at tú váttaði tína kontu. Lat okkum nú gera tín profil.
+why-demographic = Hví hevur hetta týdning?
+login-identity = Innritanarsamleiki
+login-signup = Innrita / Stovna teg
 edit = Broyt
+email-subscriptions = Teldupost hald
+contribution-experience = Uppliving av íkasti
+off = Fyri
+on = Frá
+connect-gravatar = Bind við Gravatar
+gravatar_not_found = Eingin Gravatar funnin fyri tín teldupost
+file_too_large = Valda fílan er ov stór
+manage-subscriptions = Umsit hald
+email-already-used = Telduposturin er í brúk fyri eina aðra konto
 
 ## FAQ
 
-faq-title = Ofta settir spurningar
+faq-title = Mangan spurt
 faq-what-q = Hvat er Common Voice?
 faq-important-q = Hví hevur tað týdning?
 faq-mission-q = Hví er Common Voice ein partur av arbeiðssetninginum hjá Mozilla?
@@ -208,10 +242,6 @@ faq-native-q = Um { $lang } ikki er mítt móðurmál og eg tosi við einari acc
 faq-firefox-q = Fer talu-til-tekst úr Common Voice nakrantíð at verða partur av Firefox?
 faq-hours-q = Hví er málið 10.000 tímar av ljóðupptøku?
 faq-hours-a = Tað er umleið talið av tímum neyðugir fyri at trena eina væl fungerandi talu-til-tekst skipan.
-
-## Profile
-
-profile-why-title = Hví hava ein profil?
 
 ## NotFound
 
@@ -226,16 +256,6 @@ data-other-goto = Far til { $name }
 data-other-ted-name = TED-LIUM tekstasavn
 license = Loyvi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
-
-## Record Page
-
-record-platform-not-supported-desktop = Á teldum kanst tú heinta seinastu útgávu:
-record-platform-not-supported-ios = <bold>iOS</bold> brúkarir kunnu heinta okkara ókeypis app:
-record-must-allow-microphone = Tú mást loyva mikrofon atgongd.
-record-no-mic-found = Eingin mikrofon funnin.
-record-error-too-short = Upptøkan var ov stutt.
-record-error-too-long = Upptøkan var ov lang.
-record-error-too-quiet = Upptøkan var ov spakulig.
 terms-agree = Eg góðtaki
 terms-disagree = Eg góðtaki ikki
 review-submit-title = Kanna og send inn
@@ -282,6 +302,23 @@ contribute = Stuðla
 listen = Lurta
 skip = Leyp um
 shortcuts = Snarvegir
+record-platform-not-supported-desktop = Á teldum kanst tú heinta seinastu útgávu:
+record-platform-not-supported-ios = <bold>iOS</bold> brúkarir kunnu heinta okkara ókeypis app:
+record-must-allow-microphone = Tú mást loyva mikrofon atgongd.
+record-no-mic-found = Eingin mikrofon funnin.
+record-error-too-short = Upptøkan var ov stutt.
+record-error-too-long = Upptøkan var ov lang.
+record-error-too-quiet = Upptøkan var ov spakulig.
 listen-again-instruction = Flott!<playIcon></playIcon> Lurta aftur tá ið tú ert til reiðar
 record-button-label = Tak upp tína rødd
 share-title-new = <bold>Hjálp okkum</bold> at finna meira røddir
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Strika profil

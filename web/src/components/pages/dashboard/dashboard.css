@@ -34,7 +34,7 @@
         }
 
         & h1 {
-            margin-right: 18px;
+            margin-inline-end: 18px;
             font-family: var(--strong-font-family);
             font-size: var(--font-size-xxl);
             font-weight: normal;
@@ -68,7 +68,7 @@
             flex-direction: row;
 
             & > :nth-child(odd) {
-                margin-right: 20px;
+                margin-inline-end: 20px;
             }
         }
     }

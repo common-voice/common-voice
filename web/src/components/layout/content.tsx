@@ -70,12 +70,12 @@ export default localeConnector(
           <Route
             exact
             path={toLocaleRoute(URLS.PRIVACY)}
-            render={() => <DocumentPage name="privacy" />}
+            render={() => <DocumentPage key="p" name="privacy" />}
           />
           <Route
             exact
             path={toLocaleRoute(URLS.TERMS)}
-            render={() => <DocumentPage name="terms" />}
+            render={() => <DocumentPage key="t" name="terms" />}
           />
           <Route component={NotFoundPage} />
         </Switch>

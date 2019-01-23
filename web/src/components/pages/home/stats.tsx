@@ -7,7 +7,7 @@ import {
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
-import { trackHomeNew } from '../../../services/tracker';
+import { trackHome } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import LanguageSelect, {
   ALL_LOCALES,
@@ -45,7 +45,7 @@ class StatsCard extends React.Component<
   };
 
   changeLocale = (locale: string) => {
-    trackHomeNew('metric-locale-change', locale);
+    trackHome('metric-locale-change', locale);
     this.setState({ locale });
     this.props.onLocaleChange(locale == ALL_LOCALES ? null : locale);
   };

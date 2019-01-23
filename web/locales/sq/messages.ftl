@@ -8,6 +8,8 @@ email-input =
     .label = Email
 submit-form-action = Parashtroje
 loading = Po ngarkohet…
+email-opt-in-privacy = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
+indicates-required = * tregon një fushë të domosdoshme
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,6 +17,8 @@ loading = Po ngarkohet…
 
 ## Languages
 
+ace = Acehneze
+af = Afrikaans
 an = Aragoneze
 ar = Arabisht
 as = Asameze
@@ -23,11 +27,16 @@ az = Azerbajxhane
 bg = Bullgarisht
 bn = Bengaleze
 br = Bretone
+bxr = Buriat
 ca = Katalane
+cak = Kakshikel
+cnh = Haka Çin
 cs = Çeke
 cv = Çuvashe
+cy = Uells
 da = Daneze
 de = Gjermane
+dsb = Sorbiane, E poshtme
 el = Greqisht
 en = Anglisht
 eo = Esperanto
@@ -41,6 +50,7 @@ fr = Frëngjisht
 fy-NL = Frisiane
 ga-IE = Irlandisht
 he = Hebraisht
+hsb = Sorbiane, E sipërme
 hu = Hungarisht
 ia = Interlingua
 id = Indonezisht
@@ -51,18 +61,25 @@ ka = Gjeorgjiane
 kab = Kabile
 kk = Kazake
 ko = Koreane
+kpv = Komi-Zyrian
+kw = Kornike
 ky = Kirgize
+mdf = Moksha
 mk = Maqedonisht
 mn = Mongolisht
+myv = Erzan
 nb-NO = Norvegjisht Bokmål
 ne-NP = Nepaleze
 nl = Holandisht
 nn-NO = Norvegjisht Nynorsk
 oc = Oçitane
+or = Odia
 pl = Polonisht
 pt-BR = Portugalisht (Brazil)
+rm-sursilv = Romansh Sursilvan
 ro = Rumanisht
 ru = Rusisht
+sah = Sakha
 sc = Sardinisht
 sk = Sllovakisht
 sl = Sllovenisht
@@ -103,9 +120,6 @@ share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
 share-text = Ndihmoni t’u mësohet makinave se si flasin njerëzit e njëmendtë, dhuroni zërin tuaj te { $link }
 link-copied = Lidhja u Kopjua
 back-top = Mbrapsht te Kreu
-contribution-banner-text = Sapo kemi hedhur në qarkullim një rrugë të re dhënieje ndihmese
-contribution-banner-button = Hidhini një sy
-report-bugs-link = Ndihmoni të raportohen të metat
 logout = Dilni
 
 ## Home Page
@@ -116,15 +130,16 @@ wall-of-text-start = Zëri është diçka natyrore, zëri është njerëzor. Nda
 wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk jepen për shumicën e njerëzve. Jemi të mendimit se ko pengon risitë. Ndaj nisëm projektin Common Voice, një projekt për të ndihmuar në bërjen e njohjes së zërit të hapur për këdo.
 wall-of-text-more-desktop =
     Tani mund të dhuroni zërin tuaj për të na ndihmuar të krijojmë një bazë të dhënash me burim të hapur që mund ta përdorë kushdo për të sjellë aplikacione risore për pajisje dhe web.<lineBreak></lineBreak>
-    Lexoni një sentencë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
+    Lexoni një frazë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
 wall-of-text-first = Zëri është natyror, zëri është njerëzor. Kjo është arsyeja pse jemi të ngazëllyer nga krijimi teknologjish të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri, zhvilluesve u duhen sasi zëri tejet të mëdha.
 wall-of-text-second = Shumica e të dhënave të përdorura nga kompani të mëdha nuk jepen për shumicën e njerëzve. Mendojmë që kjo e mbyt novacionin. Ndaj filluam Common Voice, një projekt për të ndihmuar që njohja e zërit të bëhet e hapur dhe e përdorshme nga kushdo.
 show-wall-of-text = Lexoni Më Tepër
-help-us-title = Ndihmonani të vleftësojmë fjali!
-help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalinë më poshtë?
+help-us-title = Ndihmonani të vleftësojmë fraza!
+help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë frazën më poshtë?
 no-clips-to-validate = Duket se nuk ka copëza për dëgjuar për këtë gjuhë. Ndihmonani duke incizuar disa të tilla që tani.
 vote-yes = Po
 vote-no = Jo
+toggle-play-tooltip = Shtypni { shortcut-play-toggle } që të hyhet ose dilet nga mënyra luajtje
 speak-subtitle = Dhuroni zërin tuaj
 speak-paragraph = Incizimi i copëzave zanore është pjesë integrale e krijimit të grupit tonë të hapur të të dhënave; ndokush mund të thosh se është edhe pjesa zbavitëse.
 speak-goal-text = Copëza të incizuara
@@ -138,7 +153,7 @@ todays-progress = Ecuria Sot
 help-reach-goal = Ndihmonani të arrijmë { $goal }
 read-terms-q = I keni lexuar Kushtet tona?
 ready-to-record = Gati të dhuroni zërin tuaj?
-all-languages = Krejt Gjuhët
+all-locales = Krejt
 today = Sot
 x-weeks-short =
     { $count ->
@@ -155,6 +170,28 @@ x-years-short =
         [one] { $count }v
        *[other] { $count }v
     }
+help-make-dataset = Ndihmonani të krijojmë një grup të dhënash të cilësisë së lartë, të hapur publikisht
+profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
+sign-up-account = Regjistrohuni për një llogari
+
+## Account Benefits
+
+benefits = Përfitime
+rich-data = Bëjini të dhënat tuaja sa më të pasura që të mundet, duke dhënë disa të dhëna demografike anonime. Përpara se t’i bëjmë publike, krejt të dhënat demografike i bëjmë të paidentifikueshme.
+improve-audio = Të dhënat e profilit përmirësojnë të dhënat audio të përdorura në stërvitjen e përpikërisë së njohjes së të folurës.
+keep-track = Ndiqni përparimin tuaj dhe statistika nëpër gjuhë të ndryshme.
+compare-progress = Shihni se si duket përparimi juaj kundrejt kontribuesish të tjerë nga anembanë bota.
+view-goals = Shihni përparimin tuaj kundrejt synimet personale dhe të projektit.
+join-newsletter = Në daçi, bëhuni pjesë e listës tonë të email-eve, për përditësime dhe informacione të reja rreth projektit.
+
+## What's public
+
+whats-public = Ç’është Publike?
+email-not-public = S’do ta bëjëm publik email-in tuaj.
+recordings-and-locale-public = Numri i incizimeve dhe në cilat gjuhë kontribuoni do të bëhen publike.
+username-optin-public = Mund të zgjidhni për ta bërë emrin tuaj të përdoruesit publik ose anonim.
+demographic-deidentified = Të dhëna demografike opsionale (p.sh., mosha, gjinia, gjuha, dhe theksi) bëhen të paidentifikueshme prej të dhënave zanore që parashtroni dhe nuk do të bëhen kurrë publike në profilin tuaj.
+username-email-not-demographic = Emri juaj i përdoruesit dhe email-i nuk do t’u përshoqërohen të dhënave të publikuara.
 
 ## Speak & Listen Shortcuts
 
@@ -199,8 +236,6 @@ english = Anglisht
 
 ## ProfileForm
 
-profile-form-cancel = Dil Nga Formulari
-profile-form-delete = Fshini Profil
 profile-form-username =
     .label = Emër Përdoruesi
 profile-form-language =
@@ -217,23 +252,20 @@ native-language =
     .label = Gjuhë Amtare
 profile-form-submit-save = Ruaje
 profile-form-submit-saved = U ruajt
-profile-keep-data = Mbaji të Dhënat
-profile-delete-data = Fshiji të Dhënat
 male = Mashkull
 female = Femër
 # Gender
 other = Tjetër
 why-profile-title = Ç’duhet profili?
 why-profile-text = Duke dhënë ca të dhëna rreth vetes, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për mekanizma Kuptimi të Folure që i përdorin këto të dhëna për përmirësimin e saktësisë së tyre.
+dashboard = Pult
 build-profile = Krijoje Profilin
-profile = Profil
 avatar = Avatar
-preferences = Parapëlqime
+goals = Synime
+settings = Rregullime
 edit-profile = Përpunoni Profil
-profile-create = Krijoni profil
 profile-create-success = Sukses, profili u krijua!
 profile-close = Mbylle
-profile-clear-modal = Pastrimi i të dhënave të profilit tuaj do të thotë që të dhënat demografike nuk do t’i parashtrohet më Common Voice-it me copëzat e incizuara prej jush.
 profile-explanation = Ndiqni ecurinë tuaj, përmes një profili, dhe ndihmoni që të dhënat tona zanore të jenë më të sakta.
 thanks-for-account = Faleminderit që ripohuat llogarinë tuaj, tani le të krijojmë profilin tuaj.
 why-demographic = Pse ka rëndësi kjo?
@@ -242,47 +274,94 @@ keep-me-posted =
     .label = Do të doja përditësime dhe të jem në dijeni se ç’po ndodh me Common Voice.
 accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu siç e shpjegoni <privacyLink>Rregulla Privatësie</privacyLink> të Mozilla-s
 login-identity = Identitet Hyrjesh
+login-signup = Hyni / Regjistrohuni
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
 download-profile = Shkarkoji të dhënat e mia
+contribution-experience = Përvojë Kontributi
 skip-submission-feedback = Anashkalo Përshtypje mbi Parashtrimet
 skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e përshtypjeve do të anashkalohet, pas klikimit të 'Parashtroje. Kontributi do të vazhdojë drejtpërsëdrejti me grupin pasues të 5 incizimeve apo vleftësimeve.
 skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
 off = Off
 on = On
+add-avatar-title = Shtoni një avatar te profili juaj
+browse-file-title = Ngarkoni kartelë figure
 browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
 connect-gravatar = Lidhuni përmes Gravatari
 gravatar_not_found = S’u gjet gravatar për email-in tuaj
 file_too_large = Kartela e përzgjedhur është shumë e madhe
 manage-subscriptions = Administroni Pajtime
+email-already-used = Email-i është tashmë i përdorur për një tjetër llogari
+add-language = Shtoni Gjuhë
+change-email-setings = Ndryshojeni email-in tuaj që nga Rregullimet , te ndarja Identitet Hyrjesh
 
 ## FAQ
 
 faq-title = Pyetje të Bëra Shpesh
-faq-what-q = Ç’është Common Voice?
-faq-what-a = Teknologjia e njohjes së zërit mund të revolucionarizojë mënyrën se si ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Common Voice është një projekt për ta bërë teknologjinë e njohjes së zërit lehtësisht të përdorshme nga gjithkush. Njerëzit dhurojnë zërat e tyre te një bazë masive të dhënash që do t’i lejojë kujtdo të stërvitë shpejt dhe lehtë aplikacione që punojnë me zë. Krejt të dhënat zanore do të jenë të përdorshme nga zhvilluesit.
-faq-important-q = Pse ka rëndësi kjo?
-faq-important-a = Zëri është natyror, zëri është njerëzor. Është mënyra më e lehtë dhe më natyrale për të komunikuar. Duam që zhvilluesit të jenë në gjendje të krijojnë gjëra të mahnitshme, nga programe përkthimi të atypëratyshëm deri te asistentë administrativë që funksionojnë me zë. Por hëpërhë, s’ka të dhëna të mjaftueshme publike për krijimin e këtyre lloj aplikacioneve. Shpresojmë që Common Voice t’u japë zhvilluesve atë çka ju duhet për novacione të tilla.
-faq-get-q = Si mund t’i kem të dhënat Common Voice?
-faq-get-a = Grupi i të dhënave është i passhëm te <downloadLink>faqja jonë e shkarkimeve</downloadLink>, nën një licencë <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Çne Common Voice pjesë e misionit të Mozilla-s?
-faq-mission-a = Mozilla i është përkushtuar mbajtjes së web-it të hapur dhe të përdorshëm nga kushdo. Për ta bërë këtë, na duhet t’i fuqizojmë krijuesit web përmes projektesh të tillë si Common Voice. Teksa teknologjitë e zërit lulëzojnë tej aplikacionesh speciale, besojmë se duhet t’u shërbejmë njësoj krejt përdoruesve. Shohin nevojën e përfshirjes së më tepër gjuhëve, thekseve dhe demografive, kur krijohen dhe testohen teknologji zanore. Mozilla dëshiron të shohë një internet të shëndetshëm, të gjallë. Kjo do të thotë t’u jepen krijuesve të rinj mundësi përdorimi të dhënash zanore, që të mund të krijojnë projekte të reja, të jashtëzakonshme. Common Voice do të jetë një burim publik që do të ndihmojë ekipet dhe programuesit e Mozilla-s anembanë botës.
-faq-native-q = S’e kam gjuhën e nënës { $lang } dhe e flas me theks, e doni zërin tim prapëseprapë?
-faq-native-a = Po, pa diskutim që e duam! Pjesë e synimit të Common Voice-it është të grumbullojë sa më shumë thekse të ndryshëm që të mundet, që kështu kompjuterët të mund të kuptojnë më mirë <bold>gjithkënd</bold> kur flasin.
-faq-firefox-q = A do të bëhet ndonjëherë pjesë e Firefox-it, përmes Common Voice, shndërrimi nga e folur në tekst?
-faq-firefox-a = Common Voice ka potencial të pakufizuar dhe po eksplorojmë në fakt ndërfaqe të të folurës në një numër produktesh Mozilla, përfshi Firefox-in.
-faq-quality-q = Cila është shkalla e nevojshme e cilësisë së audios që të mund të jetë e përdorshme?
-faq-quality-a = Duam që cilësia e audios të pasqyrojë cilësinë e audios që një mekanizëm shndërrimi të folure në tekst do të prodhojë gjatë funksionimit. Ndaj duam larmi. Kjo e mëson mekanizmin të jetë i aftë të përdorë situata të ndryshme - të folur në sfond, zhurmë automjetesh, zhurmë ventilatorësh - pa gabime.
-faq-hours-q = Çne synimi 10 000 orë zë i incizuar?
-faq-hours-a = Ky është përafërsisht numri i orëve i nevojshëm për stërvitjen e një sistemit produktiv STT.
-faq-source-q = Prej nga vjen teksti burim?
-faq-source-a1 = Fjalitë e tanishme vijnë nga dhurime, si dhe nga dialogë prej skenarësh filmash nën pronësi publike, b.f. <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Fjalitë tona burim mund t’i shihni <dataLink>në këtë dosje në GitHub</dataLink>.
+faq-what-cv-q = Ç’është Common Voice?
+faq-what-cv-a =
+    Teknologjia e të kuptuarit të zërit po revolucionarizon mënyrën se si ne ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Common Voice është pjesë e nismës së Mozilla-s për at bërë të kuptuarit e zërit më të mirë dhe më të përdorshëm për këdo.  Common Voice është bazë masive globale të dhënash zanore të dhuruara, që i lejon cilitdo të stërvitë shpejt dhe lehtë aplikacione që punojnë dhe me zë, potencialisht për çdo gjuhë.
+    
+    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+faq-why-important-q = Pse ka rëndësi?
+faq-why-important-a =
+    E folura shpesh është rruga më natyrore përmes të cilës komunikojmë me njëri-tjetrin dhe teknologjitë e zërit po e sjellin leverdinë e kësaj rruge te kompjuterat dhe pajisjet celulare. Duam t’u japim mundësi zhvilluesve të krijojnë aplikacione mahnitëse që kuptojnë zërin, b.f. përkthyes të atypëratyshëm dhe asistentë dixhitalë që kontrollohen përmes zërit. Por sot për sot, shumica e të dhënave zanore të domosdoshme për të krijuar këto lloj aplikacionesh janë të shtrenjta dhe pronësore. Shpresojmë që grupi i të dhënave Common Voice t’u japë zhvilluesve çfarë u nevojitet për risi të këtij lloji dhe për ta bërë teknologjinë e të folurit të përdorshme në gjuhën e tyre.
+    
+    To make voice recognition even more universal, we're collecting voice samples in widely spoken languages as well as those with a smaller population of speakers often underserved by commercial speech recognition services. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and entire speech communities to address this gap themselves.
+faq-how-get-q = Si mund t'i marr të dhënat Common Voice?
+faq-how-get-a = Grupi i të dhënave Common Voice mund të shkarkohet nën licencën <licenseLink>CC0</licenseLink> te <datasetLink>faqja jonë  Grupe të Dhënash</datasetLink>. Prej të njëjtës faqe mund të shkarkoni edhe disa grupe të tjera të dhënash që mund të kihen publikisht.
+faq-when-release-q = Kur do t’i hidhni në qarkullim të dhënat Common Voice në gjuhë të tjera?
+faq-when-release-a = Versioni shumëgjuhësh i grupit të të dhënave Common Voice hëpërhë është duke u formuar dhe pastruar nga bashkësia. Nëse do të donit të mësonit më tepër mbi përkrahjen e kësaj përpjekjeje, ju lutemi, <contactLink>lidhuni me ne</contactLink>. Si datë publikimi hëpërhë synojmë diku nga Janari i 2019-s. Pas kësaj, do ta përditësojmë periodikisht grupin e të dhënave me gjuhë dhe copëza zanore të reja , dora-dorës që të tilla janë gati. Ende mbetet për t’u përcaktuar një cikël periodik hedhjesh në qarkullim.
+faq-why-mission-q = Pse Common Voice është pjesë e misionit të Mozilla-s?
+faq-why-mission-a = Mozilla i është përkushtuar mbajtjes së web-it të hapur dhe të përdorshëm nga kushdo. Për ta bërë këtë, na duhet t’i fuqizojmë krijuesit web përmes projektesh të tillë si Common Voice. Teksa teknologjitë e zërit lulëzojnë tej aplikacionesh speciale, besojmë se duhet t’u shërbejnë njësoj krejt përdoruesve. Kjo do të thotë të investohet në më tepër gjuhë dhe të gjendet vend për theksa dhe demografi të  larmishme, teksa ndërtohen dhe testohen teknologji të të folurës. Common Voice është një burim publik i përdorshëm nga kushdo dhe ekipet dhe programuesit e Mozilla-s anembanë botës e përdorin tashmë në projektet tona.
+faq-what-cv-and-deepspeech-q = Cili është dallimi mes Common Voice-it dhe Deep Speech-it?
+faq-what-cv-and-deepspeech-a = Grupi i të dhënave Common Voice i shërben motorit me burim të hapur për të folurën, Deep Speech, të Mozilla-s. Versioni i parë i Deep Speech-it u hodh në qarkullim më Nëntor 2017 dhe prej ahere ka vazhduar të evoluojë. Tok me grupin e të dhënave Common Voice, besojmë se kjo teknologji me burim të hapur e kuptimit të të folurës duhet të jetë e përdorshme nga kushdo. Shpresa jonë është që teknologji të tilla t’u bëjnë të mundur programuesve të krijojnë një valë produktesh dhe shërbimesh risore.
+faq-is-goal-assistant-q = A është krijimi i  një asistenti zanor synimi i Common Voice-it?
+faq-is-goal-assistant-a = Synimi për grupin e të dhënave Common Voice është t’i bëjë të mundur kujtdo në botë të krijojë aplikacione kuptimi të të folurës, të folësit, apo çfarëdo tjetër që lypin të dhëna të folure. Një asistent zanor është vetëm një nga shumë lloje aplikacionesh për ndërtimin e të cilave mund të përdoret grupi i të dhënave.
+faq-do-want-native-q = Nuk e kam gjuhën e nënës dhe flas me ca theks, ju bën punë zëri im?
+faq-do-want-native-a = Po, e duam që ç’ke me të zërin tuaj! Pjesë e synimit të Common Voice-it është të mbledhë sa më tepër theksa të ndryshme që të jetë e mundur, në mënyrë që shërbimet e të kuptuarit të të folurës të funksionojnë po aq mirë për këdo. Kjo do të thotë se dhurimet për një gjuhë nga ata që s’e kanë gjuhën e nënës janë veçanërisht të rëndësishme.
+faq-why-different-speakers-q = Pse ju duhen kaq shumë folës të ndryshëm për gjuhë?
+faq-why-different-speakers-a =
+    Shumica e bazave të të dhënave për të folurën përgatiten bazuar në një përfaqësim të tepruar të disa shtresave demografike, çka sjell anshmëri kah  <articleLink>meshkujt dhe klasa e mesme</articleLink>. Theksat dhe dialektet që priren të jenë të përfaqësuar më dobët në grupe të dhënash të përdorura për stërvitjen e aplikacioneve zakonisht kanë lidhje me grupe njerëzish që janë tashmë të lënë mënjanë. Plot makina e kanë gjithashtu të zorshme të kuptojnë zëra femërorë.
+    This is why in our voice database we want variety!
+faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
+faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
+faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
+faq-what-quality-a = Dëshirojmë që grupi i të dhënave Common Voice të pasqyrojë cilësinë e audios që një mekanizëm nga-e-folura-në-tekst do të ndeshë në përgjithësi, ndaj kërkojmë larmi. Përveç një bashkësie të larmishme folësish, një grup të dhënash me cilësi audio të larmishme do t’i mësojë mekanizmit nga-e-folura-në-tekst të trajtojë situata të ndryshme nga jeta reale, nga e folura nën zë e deri te zhurma e automjeteve. Për sa kohë që copëza juaj zanore është e kuptueshme,  i bie të jetë e mjaftueshme për grupin e të dhënave.
+faq-why-10k-hours-q = Pse për incizimet audio synimi është 10 mijë orë të vleftësuara për gjuhë?
+faq-why-10k-hours-a = Ky është afërsisht numri i orëve të domosdoshme për të stërvitur një produkt për shndërrime nga-e-folura-në-tekst>
+faq-how-calc-hours-q = Si i llogarit orët Common Voice-i?
+faq-how-calc-hours-a = Orët i llogarisim duke peshuar gjatësinë mesatare të çdo incizimi dhe duke e shumëfishuar këtë numër me numrin gjithsej të incizimeve nëpër krejt gjuhët.
+faq-where-src-from-2-q = Prej nga vjen teksti burim?
+faq-where-src-from-2-a =
+    Teksti ynë burim përbëhet nga dhurime origjinale nga ndihmëtarë, si dhe doalogë nga skenarë filmash nën përkatësi publike, f.v. <italic>It’s a Wonderful Life</italic>.
+    
+    Fraza nga burimi ynë mund të shihni te kjo <githubLink>dosje GitHub</githubLink>.
+faq-why-not-ask-read-q = Pse s’u kërkoni njerëzve të lexojnë nga libra apo nga artikujt të Wikipedia-s në gjuhë të ndryshme?
+faq-why-not-ask-read-a = Për ta bërë grupin e të dhënave Common Voicesa më të dobishëm që të jetë e mundur, kemi vendosur të lejojmë vetëm tekste burim që gjenden nën një licencë Creative Commons (CC0). Përdorimi i standardeve CC0 do të thotë se është më e vështirë të gjenden dhe grumbullohen tekste burim, por kjo i lejon kujtdo të përdorë të dhënat zanore të përftuara pa kufizime apo autorizime përdorimi nga Mozilla. Tek e fundit, ne duam ta bëjmë grupin shumëgjuhësh të të dhënave të përdorshëm nga kushdo, përfshi kërkues, universitete, biznese të saponisura, qeveri, ente me synime shoqërore, dhe amatorë.
+faq-why-account-q = Pse duhet të regjistrohem për një llogari?
+faq-is-account-public-q = A janë publike të dhënat e llogarisë time?
+faq-how-privacy-q = Si e siguroni anonimitetin dhe privatësinë e njerëzve që kanë dhuruar zërat e tyre?
+faq-how-privacy-a = Krejt copëzave zanore në grupin e të dhënave u pastrohen informacione personale që lejojnë identifikim. Kur një vullnetar furnizon të dhëna demografike përmes profilit të vet, këtyre të dhënave u hiqen të dhëna identifikuese, te copëzat zanore, përpara se të paketohen te grupi i të dhënave për shkarkim dhe ato nuk bëhen kurrë publike te faqja profil e të zotit.
+faq-what-determine-identity-q = Ç’do të thotë se s’mund të “përcaktojë identitetin” e folësve te grupi i të dhënave Common Voice?
+faq-what-determine-identity-a =
+    Grupi i të dhënave Common Voice është një burim i hapur dhe i përdorshëm publikisht, që mund të përdoret për të stërvitur një gamë të gjerë aplikacionesh që përdorin të folurën. Për të mbrojtur sigurinë e kontribuesve tanë,  i kërkojmë cilitdo që shkarkon grupin e të dhënave Common Voice të respektojë privatësinë e kontribuesve.
+    
+    All voice clips in the dataset are scrubbed of personally identifying information.  When you download the dataset, you agree to not attempt  to determine  the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
 
-## Profile
+## Glossary
 
-profile-why-title = Pse duhet një profil?
-profile-why-content = Duke furnizuar disa të dhëna mbi veten, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për motorët e Njohjes së Të folurës që përdorin këto të dhëna në përmirësim e përpikërisë së tyre.
+glossary = Fjalorth
+localization = Përkthim
+localization-explanation = Ky është procesi ynë për përkthimin dhe adaptimin e lëndës tonë për shumë vendore (gjuhë).
+sentence-collection = Grumbullim Frazash
+sentence-collection-explanation = Grumbullim frazash nga përkatësia publike, ose shkrimi i të tillash të reja për për nën përkatësinë publike.
+hours-recorded-explanation = Numri i orëve incizim zërash që kemi grumbulluar deri këtu.
+hours-validated-explanation = Numri i orëve incizim zërash që janë vleftësuar nga 2 prej 3 përdoruesve me votë “Po”. Këto janë shenja përparimi drejt synimit të përgjithshëm prej 10 mijë orësh të projektit.
+sst = E-folur-në-tekst (FNT)
+sst-explanation = Teknologjitë E-folur-në-tekst (FNT) shndërrojnë të dhëna të folure në tekst.
+de-identified = Çidentifikim
+de-identified-explanation = Procesi sipas të cilit të dhënat e profilit të një vullnetari bëhen të padukshme në copëzat zanore që ky ka dhuruar, kur ato paketohen për shkarkim si pjesë e grupit të të dhënave.
 
 ## NotFound
 
@@ -306,7 +385,7 @@ data-other-librispeech-description = LibriSpeech është një korpus i afërsish
 data-other-ted-name = Korpusi TED-LIUM
 data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
 data-other-voxforge-description = VoxForge qe ndërtuar për të grumbulluar transkriptime të folurash për përdorim me Mekanizma të Lirë dhe Me Burim të Hapur Njohjeje të Foluri.
-data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash fjalish, përkthimesh, dhe të folurash për përdorim në mësimin e gjuhëve. Ky shkarkim përmban krejt të folurën anglisht të incizuar nga bashkësia e tyre.
+data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash frazash, përkthimesh, dhe të folurash për përdorim në mësimin e gjuhëve. Ky shkarkim përmban krejt të folurën anglisht të incizuar nga bashkësia e tyre.
 data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
@@ -353,9 +432,9 @@ request-language-success-content = Shumë shpejt do të lidhemi me ju me më tep
 ## Languages Overview
 
 language-section-in-progress = Në Ecuri
-language-section-in-progress-description = Gjuhët e karakterizuara si Në Ecuri janë duke u përgatitur për kontribut nga bashkësitë tona; ecuria për to pasqyron fazën ku gjenden me përkthimin e sajtit dhe të grumbullimit të fjalive.
+language-section-in-progress-description = Gjuhët e karakterizuara si Në Ecuri janë duke u përgatitur për kontribut nga bashkësitë tona; ecuria për to pasqyron fazën ku gjenden me përkthimin e sajtit dhe të grumbullimit të frazave.
 language-section-launched = E filluar
-language-section-launched-new-description = Për gjuhët e filluara, sajti është përkthyer me sukses, dhe janë grumbulluar një numër i mjaftueshëm fjalish, për të lejuar  kontribute të vazhdueshëm të llojit <italic>Flisni</italic> dhe <italic>Dëgjoni</italic>.
+language-section-launched-new-description = Për gjuhët e filluara, sajti është përkthyer me sukses, dhe janë grumbulluar një numër i mjaftueshëm frazash, për të lejuar  kontribute të vazhdueshëm të llojit <italic>Flisni</italic> dhe <italic>Dëgjoni</italic>.
 languages-show-more = Shihni Më Tepër
 languages-show-less = Shihni Më Pak
 language-speakers = Folës
@@ -365,7 +444,7 @@ language-search-input =
     .placeholder = Kërko
 language-speakers = Folës
 localized = E përkthyer
-sentences = Fjali
+sentences = Fraza
 total-hours = Orë të vleftësuara
 
 ## New Contribution
@@ -394,7 +473,7 @@ record-error-too-short = Incizimi qe shumë i shkurtër.
 record-error-too-long = Incizimi qe shumë i gjatë.
 record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
 record-cancel = Anuloje Ri-incizimin
-record-instruction = { $actionType }<recordIcon></recordIcon> mandej lexojeni me zë fjalinë
+record-instruction = { $actionType }<recordIcon></recordIcon> mandej lexojeni frazën me zë
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kur të keni përfunduar
 record-three-more-instruction = Edhe tre!
 record-again-instruction = Bukur!<recordIcon></recordIcon> Incizoni copëzën tuaj pasuese
@@ -410,10 +489,55 @@ record-abort-text = Braktisja në këtë çast do të thotë se do të keni humb
 record-abort-submit = Parashtroni copëza
 record-abort-continue = Përfundo incizimin
 record-abort-delete = Dil & Fshiji copëzat
-listen-instruction = { $actionType }<playIcon></playIcon> e shqiptuan saktë fjalinë?
+listen-instruction = { $actionType }<playIcon></playIcon> e shqiptuan saktë frazën?
 listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur të jeni gati
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>E fundit!
 nothing-to-validate = S’kemi ndonjë gjë për vleftësim në këtë gjuhë, ndihmonani të plotësojmë radhën.
 record-button-label = Incizoni zërin tuaj
 share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
+
+## Goals
+
+days =
+    { $count ->
+        [one] Ditë
+       *[other] Ditë
+    }
+recordings =
+    { $count ->
+        [one] Incizim
+       *[other] Incizime
+    }
+validations =
+    { $count ->
+        [one] Vleftësim
+       *[other] Vleftësime
+    }
+
+## Dashboard
+
+your-languages = Gjuhët Tuaja
+toward-next-goal = Drejt synimit të ardhshëm
+clips-you-recorded = Copëza Që Keni Incizuar
+clips-you-validated = Copëza Që Keni Vleftësuar
+todays-recorded-progress = Ecuria e sotme për copëza Common Voice të incizuara
+todays-validated-progress = Ecuria e sotme për copëza Common Voice të vleftësuara
+stats = Statistika
+you = Ju
+everyone = Kushdo
+contribution-activity = Veprimtari Kontributi
+top-contributors = Pjesëmarrësit Kryesues
+recorded-clips = Copëza të Incizuara
+validated-clips = Copëza të Vleftësuara
+total-approved = Të miratuara Gjithsej
+overall-accuracy = Saktësia Në Përgjithësi
+
+## Profile Delete
+
+delete-q = Dëshironi të kërkoni edhe fshirjen e incizimeve tuaja të të folurës, apo parapëlqeni të mbahen në grupin e të dhënave Common Voice?
+keep = Mbaji
+remove = Hiqi
+keep-info = Incizimet tuaja anonime të të folurës do të mbahen në grupin e të dhënave Common Voice. Pasi të fshihet profili juaj, s’do të jeni më në gjendje të parashtroni kërkesë për fshirje të incizimeve tuaja prej grupit të të dhënave
+remove-info = Do ta shqyrtojmë kërkesën tuaj për heqjen nga grupi i të dhënave të incizimeve tuaja të të folurës. Nëse kërkesa jua miratohet, do të lidhemi me ata që e kanë shkarkuar grupin e të dhënave dhe do t’u kërkojmë të heqin incizimet e zëri tuaj.
+profile-form-delete = Fshini Profil

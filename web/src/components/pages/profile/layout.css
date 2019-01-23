@@ -43,9 +43,9 @@
         background: #f6f6f5;
 
         @media (--md-up) {
-            margin-right: 50px;
+            margin-inline-end: 50px;
             padding-top: 50px;
-            padding-right: 30px;
+            padding-inline-end: 30px;
             padding-bottom: 30px;
             width: 100%;
             max-width: 35%;
@@ -58,7 +58,7 @@
 
         @media (--lg-up) {
             max-width: 27%;
-            margin-right: 100px;
+            margin-inline-end: 100px;
         }
 
         & .links {
@@ -118,7 +118,7 @@
                 }
 
                 & .text {
-                    margin-left: 15px;
+                    margin-inline-start: 15px;
 
                     @media (--sm-down) {
                         display: none;
@@ -146,7 +146,7 @@
         }
 
         @media (--md-up) {
-            margin-right: 20px;
+            margin-inline-end: 20px;
             padding-top: 50px;
         }
     }

@@ -18,6 +18,7 @@ indicates-required = * Indică un câmp obligatoriu
 ## Languages
 
 ace = Acehneză
+af = Afrikaans
 an = Aragoneză
 ar = Arabă
 as = Assameză
@@ -150,7 +151,7 @@ todays-progress = Progresul de astăzi
 help-reach-goal = Ajută-ne să ajungem la { $goal }
 read-terms-q = Ai citit termenii noștri de utilizare?
 ready-to-record = Ești gata să-ți donezi vocea?
-all-languages = Toate limbile
+all-locales = Toate
 today = Astăzi
 x-weeks-short =
     { $count ->
@@ -170,6 +171,28 @@ x-years-short =
         [few] { $count } ani
        *[other] { $count } de ani
     }
+help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, liber la dispoziția publicului
+profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
+sign-up-account = Înscrie-te pentru un cont
+
+## Account Benefits
+
+benefits = Beneficii
+rich-data = Asigură-te că datele transmise sunt cât mai bogate posibil, furnizând unele date demografice anonime. Identificăm toate datele demografice înainte de a le face publice.
+improve-audio = Informațiile profilului îmbunătățesc datele audio utilizate în acuratețea recunoașterii vocale.
+keep-track = Urmărește-ți progresul și metrica pe mai multe limbi.
+compare-progress = Vezi progresul tău comparat cu cel al altor colaboratori din toată lumea.
+view-goals = Vezi progresul realizat în comparație cu obiectivele personale și de proiect.
+join-newsletter = Înscrie-te opțional în lista noastră de corespondență pentru actualizări și informații noi despre proiect.
+
+## What's public
+
+whats-public = Ce este public?
+email-not-public = Nu îți vom face publică adresa de e-mail.
+recordings-and-locale-public = Numărul de înregistrări și limbile în care vei contribui vor fi publice.
+username-optin-public = Poți alege să îți faci numele de utilizator public sau anonim.
+demographic-deidentified = Informațiile demografice trimise opțional (de ex., vârsta, sexul, limba și accentul) sunt anonimizate din datele voce trimise și nu vor fi niciodată făcute publice în profilul tău.
+username-email-not-demographic = Numele de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Speak & Listen Shortcuts
 
@@ -274,29 +297,47 @@ file_too_large = Fișierul selectat este prea mare
 manage-subscriptions = Gestionează abonamentele
 email-already-used = Adresa de e-mail este deja utilizată pentru alt cont
 add-language = Adaugă o limbă
+change-email-setings = Schimbă-ți e-mailul în Setări sub Identitate de autentificare
 
 ## FAQ
 
 faq-title = Întrebări frecvente
-faq-what-q = Ce este Common Voice?
-faq-what-a = Recunoașterea vocală este o tehnologie care ar putea revoluționa modul în care interacționăm cu dispozitivele, dar sistemele disponibile acum sunt scumpe și proprietare. Common Voice este un proiect care să facă tehnologia de recunoaștere vocală ușor accesibilă tuturor. Oamenii își donează vocile pentru a construi o bază de date masivă care va permite oricui să antreneze rapid și ușor aplicații cu acționare vocală. Toate datele vocale vor fi puse la dispoziția dezvoltatorilor.
-faq-important-q = De ce este important?
-faq-important-a = Vocea este naturală și umană. E cel mai ușor și natural mod de comunicare. Vrem ca dezvoltatorii să poată construi lucruri incredibile - de la sisteme de traducere în timp real până la asistenți administrativi cu comandă vocală. Dar acum nu sunt destule date disponibile în domeniul public pentru a construi astfel de aplicații. Sperăm ca proiectul Common Voice să le ofere dezvoltatorilor tot ceea ce le trebuie pentru a putea inova.
-faq-get-q = Cum pot obține datele Common Voice?
-faq-get-a = Setul de date este acum disponibil pe <downloadLink>pagina de descărcări</downloadLink> sub o licență <licenseLink>CC-0</licenseLink>.
-faq-mission-q = De ce face parte Common Voice din misiunea Mozilla?
-faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. În acest sens, trebuie să împuternicim creatorii web prin proiecte așa cum este Common Voice. Deoarece tehnologiile vocale se extind rapid dincolo de aplicațiile de nișă, credem că trebuie să deservească toți utilizatorii în egală măsură. Considerăm  că există o necesitate de includere a mai multor limbi, accente și elemente demografice în construirea  și testarea tehnologiilor vocale. Mozilla își dorește un Internet sănătos și vibrant, ceea ce presupune accesul noilor creatori la datele vocale ca să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică, care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
-faq-native-q = Sunt vorbitor ne-nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
-faq-native-a = Da, sigur că vrem vocea ta! O parte din scopul proiectului Common Voice este de a aduna cât mai multe accente diferite posibile astfel încât calculatoarele să înțeleagă mai bine pe <bold>oricine</bold> le vorbește.
-faq-firefox-q = Va fi recunoașterea vocală, prin Common Voice, disponibilă vreodată în Firefox?
-faq-firefox-a = Common Voice dispune de un potențial nelimitat și chiar explorăm interfețe vocale de inclus în mai multe produse Mozilla, inclusiv Firefox.
-faq-quality-q = Ce nivel de calitate trebuie să aibă secvențele audio ca să fie utilizate?
-faq-quality-a = Calitatea audio trebuie să o reflecte pe cea la care va fi utilizat un motor voce-text în realitate. Deci, vrem varietate. Cu ajutorul acestei varietăți, motorul nostru voce-text va învăța să gestioneze diverse situații reale — voci în fundal, zgomote auto, zgomote de la ventilatoare — fără erori.
-faq-hours-q = De ce obiectivul de 10.000 de ore de captură audio?
-faq-hours-a = Este aproximativ numărul de ore necesar pentru a antrena un sistem STT (voce-text) de producție.
-faq-source-q = De unde provine textul-sursă?
-faq-source-a1 = Propozițiile actuale sunt donații de la colaboratori, precum și dialoguri din scenarii de filme din domeniul public, cum ar fi <italic>La vita è bella (Viața e frumoasă)</italic>.
-faq-source-a2 = Poți vedea propozițiile-sursă în <dataLink>acest dosar GitHub</dataLink>.
+faq-what-cv-q = Ce este Common Voice?
+faq-what-cv-a =
+    Tehnologia de recunoaștere vocală revoluționează modul în care interacționăm cu mașinile, dar sistemele disponibile în prezent sunt scumpe și proprietare. Common Voice face parte din inițiativa Mozilla de a face tehnologiile de recunoaștere vocală mai bune și mai accesibile pentru toți. Common Voice este o bază de date globală masivă de voci donate, care permite oricui să creeze rapid și ușor aplicații cu comandă vocală în aproape orice limbă.
+    
+    Nu colectăm eșantioane de voce numai în limbi de largă circulație, ci și în limbi cu un număr mai mic de vorbitori. Publicarea unui set de date divers de voci va permite dezvoltatorilor, antreprenorilor și comunităților să abordeze chiar ei acest gol. În plus față de setul de date Common Voice, construim și un motor de recunoaștere vocală cu sursă deschisă, denumit Deep Speech.
+faq-why-important-q = De ce este important?
+faq-how-get-q = Cum pot obține datele Common Voice?
+faq-when-release-q = Când veți lansa datele Common Voice în alte limbi?
+faq-why-mission-q = De ce face parte Common Voice din misiunea Mozilla?
+faq-why-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. În acest sens, trebuie să împuternicim creatorii web prin proiecte așa cum este Common Voice. Deoarece tehnologiile vocale se extind dincolo de aplicațiile de nișă, credem că trebuie să deservească toți utilizatorii în mod egal. Aceasta înseamnă investiții în mai multe limbi și includerea de accente și date demografice diverse în construcția și testarea tehnologiilor vocale. Common Voice este o resursă publică disponibilă tuturor, iar echipele și dezvoltatorii Mozilla din întreaga lume o utilizează deja în proiectele noastre proprii.
+faq-what-cv-and-deepspeech-q = Care este diferența dintre Common Voice și Deep Speech?
+faq-is-goal-assistant-q = Obiectivul Common Voice este de a construi un asistent vocal?
+faq-do-want-native-q = Nu sunt vorbitor nativ și am accent, vreți oricum vocea mea?
+faq-why-different-speakers-q = De ce aveți nevoie de atât de mulți vorbitori diferiți pe fiecare limbă?
+faq-why-my-lang-q = De ce limba mea nu este încă inclusă?
+faq-what-quality-q = Ce nivel de calitate audio este necesar pentru ca o secvență audio să fie utilizată în setul de date?
+faq-why-10k-hours-q = De ce obiectivul de 10.000 de ore validate de capturi audio pe fiecare limbă?
+faq-why-10k-hours-a = Este numărul aproximativ de ore necesare pentru formarea unui sistem de producție de recunoaștere vocală.
+faq-how-calc-hours-q = Cum calculează Common Voice orele?
+faq-how-calc-hours-a = Calculăm orele estimând lungimea medie a fiecărei înregistrări și înmulțind numărul respectiv cu numărul total de înregistrări în toate limbile.
+faq-where-src-from-2-q = De unde provine textul-sursă?
+faq-why-not-ask-read-q = De ce nu cereți oamenilor să citească din cărți sau articole Wikipedia în diferite limbi?
+faq-why-account-q = De ce trebuie să-mi creez un cont?
+faq-is-account-public-q = Informațiile contului meu sunt publice?
+faq-how-privacy-q = Cum asigurați anonimatul și intimitatea persoanelor care și-au donat vocea?
+
+## Glossary
+
+glossary = Glosar
+localization = Localizare
+localization-explanation = Acesta este procesul nostru de traducere și adaptare a conținutului nostru pentru multe localizări (limbi).
+sentence-collection = Colecție de fraze
+sentence-collection-explanation = Colectarea frazelor din domeniul public sau scrierea de fraze noi pentru domeniul public.
+hours-recorded-explanation = Numărul de ore de înregistrare vocală pe care le-am colectat până acum.
+sst = Recunoaștere vocală (Speech-to-text, STT)
+de-identified = Anominizat
 
 ## NotFound
 
@@ -457,7 +498,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Limbile tale
 toward-next-goal = Spre obiectivul următor
+clips-you-recorded = Secvențe audio pe care le-ai înregistrat
+clips-you-validated = Secvențe audio pe care le-ai validat
+todays-recorded-progress = Progresul de astăzi pe Common Voice pentru secvențe audio înregistrate
+todays-validated-progress = Progresul de astăzi pe Common Voice pentru secvențe audio validate
 stats = Statistici
 you = Tu
 everyone = Toată lumea

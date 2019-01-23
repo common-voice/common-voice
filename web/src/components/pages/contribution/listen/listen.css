@@ -66,29 +66,37 @@
         z-index: var(--top-z-index);
         background: var(--white);
 
-        &, & path {
+        &,
+        & path {
             transition: all var(--transition-duration) linear;
         }
 
         &.yes {
-            box-shadow: var(--vote-button-box-shadow) color(var(--valid-green) alpha(30%));
+            box-shadow: var(--vote-button-box-shadow)
+                color-mod(var(--valid-green) alpha(30%));
 
-            &:hover, &:active {
+            &:hover,
+            &:active {
                 background: var(--valid-green);
-                box-shadow: var(--vote-button-box-shadow) color(var(--valid-green) alpha(70%));
+                box-shadow: var(--vote-button-box-shadow)
+                    color-mod(var(--valid-green) alpha(70%));
             }
         }
 
         &.no {
-            box-shadow: var(--vote-button-box-shadow) color(var(--red) alpha(20%));
+            box-shadow: var(--vote-button-box-shadow)
+                color-mod(var(--red) alpha(20%));
 
-            &:hover, &:active {
+            &:hover,
+            &:active {
                 background: var(--red);
-                box-shadow: var(--vote-button-box-shadow) color(var(--red) alpha(60%));
+                box-shadow: var(--vote-button-box-shadow)
+                    color-mod(var(--red) alpha(60%));
             }
         }
 
-        &:hover, &:active {
+        &:hover,
+        &:active {
             color: var(--white);
 
             & path {
@@ -96,10 +104,12 @@
             }
         }
 
-        &.yes:disabled, &.no:disabled {
+        &.yes:disabled,
+        &.no:disabled {
             color: var(--near-black);
             background: var(--white);
-            box-shadow: var(--vote-button-box-shadow) color(var(--grey) alpha(80%));
+            box-shadow: var(--vote-button-box-shadow)
+                color-mod(var(--grey) alpha(80%));
 
             & path {
                 fill: var(--near-black);
@@ -107,10 +117,10 @@
         }
 
         & svg {
-            margin-right: 10px;
+            margin-inline-end: 10px;
 
             @media (--md-up) {
-                margin-right: 23px;
+                margin-inline-end: 23px;
             }
         }
     }

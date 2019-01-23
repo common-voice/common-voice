@@ -8,6 +8,7 @@ email-input =
     .label = דוא״ל
 submit-form-action = שליחה
 loading = בטעינה…
+indicates-required = * מסמן שדה נחוץ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,6 +17,7 @@ loading = בטעינה…
 ## Languages
 
 ace = אצ׳ינית
+af = אפריקאנס
 an = אראגונית
 ar = ערבית
 as = אסאמית
@@ -147,7 +149,7 @@ todays-progress = ההתקדמות היומית
 help-reach-goal = נשמח לסיוע להגיע עד { $goal }
 read-terms-q = האם קראת את התנאים שלנו?
 ready-to-record = נוכל לקבל את הסכמתך לתרום את קולך?
-all-languages = כל השפות
+all-locales = הכול
 today = היום
 x-weeks-short =
     { $count ->
@@ -164,6 +166,16 @@ x-years-short =
         [one] שנה
        *[other] { $count } שנים
     }
+sign-up-account = יצירת חשבון
+
+## Account Benefits
+
+benefits = יתרונות
+
+## What's public
+
+whats-public = מה ציבורי?
+email-not-public = לא נפרסם את כתובת הדוא״ל שלך.
 
 ## Speak & Listen Shortcuts
 
@@ -264,29 +276,19 @@ connect-gravatar = התחברות עם Gravatar
 gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל שלך
 file_too_large = הקובץ שנבחר גדול מדי
 manage-subscriptions = ניהול מינויים
+email-already-used = כתובת דוא״ל זו כבר בשימוש עבור חשבון אחר
+add-language = הוספת שפה
 
 ## FAQ
 
 faq-title = תשובות לשאלות נפוצות
-faq-what-q = מה זה Common Voice?
-faq-what-a = טכנולוגיית זיהוי קול יכולה לשנות את דרך ההתנהלות שלנו מול מכונות, המערכות שקיימות כרגע הן יקרות וקנייניות. Common Voice הוא מיזם שמטרתו היא להנגיש את טכנולוגיית הזיהוי הקולי לכולם. אנשים תורמים את הקול שלהם לכדי מסד נתונים ענק שיאפשר לכולם לאמן יישומונים מונחי קול במהירות ובקלות. כל נתוני הקול זמינים למפתחים.
-faq-important-q = מדוע זה חשוב?
-faq-important-a = קול הוא דבר טבעי ואנושי. זו דרך התקשורת הפשוטה והטבעית ביותר שיש. אנו מעוניין שלמפתחים תהיה אפשרות לבנות דברים מדהימים החל משירותי תרגום בזמן אמת ועד לעוזרים אישיים למשימות ניהוליות. אך כרגע, אין מספיק נתונים ציבוריים זמינים כדי לבנות יישומים מהסוג הזה. אנו מקווים ש‏־Common Voice יאפשר למפתחים לקבל את מה שהם צריכים כדי להמשיך ולהמציא.
-faq-get-q = איך אוכל לקבל את הנתונים של Common Voice?
-faq-get-a = סדרת הנתונים זמינה כעת ב<downloadLink>עמוד ההורדה</downloadLink> שלנו מוגנת ברישיון <licenseLink>CC-0</licenseLink>.
-faq-mission-q = מדוע Common Voice הוא חלק מהמשימה של Mozilla?
-faq-mission-a = קרן Mozilla שמה לה למטרה לשמור על רשת האינטרנט פתוחה ונגישה לכולם. כדי להשיג מטרה זו עלינו להעצים יוצרים בעולם האינטרנט עם מיזמים כמו Common Voice. כיום, כשטכנולוגיות קוליות מתפשטות מעבר ליישומים משניים, אנו מאמינים שעליהן לשרת את המשתמשים באופן שווה. אנו רואים וצריכים לכלול יותר שפות, סוגי מבטא והבדלים דמוגרפיים בעת בנייה ובדיקה של טכנולוגיות קוליות. קרן Mozilla מעוניינת לראות את רשת האינטרנט בריאה ונמרצת. משמעות הדבר היא להעניק ליוצרים חדשים גישה לנתונים קול כדי שיוכלו לבנות מיזמים חדשים חוצי גבולות. Common Voice יהיה משאב ציבורי שיסייע לצוותים ולמפתחים של Mozilla בכל רחבי העולם.
-faq-native-q = { $lang } אינה שפת האם שלי ויש לי מבטא, אתם עדיין מעוניינים בקול שלי?
-faq-native-a = כן, אנחנו בהחלט מעוניינים בקול שלך! חלק מהמטרה של Common Voice הוא לאסוף כמה שיותר מבטאים שונים, כך שמחשבים יוכלו להבין <bold>כל אחד</bold> שמדבר.
-faq-firefox-q = האם מנגנון המרת דיבור לטקסט, דרך Common Voice, יהפוך להיות חלק מ־Firefox?
-faq-firefox-a = ל־Common Voice יש אופק בלתי מוגבל ואנו חוקרים אפשרות להטמעת מנשקי דיבור במוצרים רבים של Mozilla, לרבות Firefox.
-faq-quality-q = מה היא רמת האיכות הנדרשת לקטע הדיבור כדי שניתן יהיה להשתמש בו?
-faq-quality-a = אנחנו רוצים שאיכות השמע תשקף את איכות השמע בה ייתקל מנוע ההמרה מדיבור לטקסט בשטח. לכן, אנו מעוניינים במגוון רחב. מצב זה מלמד את מנגנון הדיבור לטקסט להתמודד מול מגוון הפרעות - דיבורים ברקע, רעש של מכונית, רעש של מאוורר - ללא שגיאות.
-faq-hours-q = מדוע נקבע יעד של 10,000 שעות של הקלטת דיבור?
-faq-hours-a = זה בערך מספר השעות הנדרש כדי לאמן מערכת שממירה דיבור לטקסט לרמת עבודה מספקת.
-faq-source-q = מאיפה מגיע טקסט המקור?
-faq-source-a1 = המשפטים הנוכחיים נתרמו על ידי מתנדבים, כמו גם שיחות מתסריטים ששוחררו לרשות הכלל כגון <italic>אלו חיים נפלאים.</italic>
-faq-source-a2 = ניתן לצפות במשפטי המקור שלנו ב<dataLink>תיקיית ה־GitHub הזו</dataLink>.
+faq-what-cv-q = מה זה Common Voice?
+faq-how-calc-hours-q = איך מחושבות השעות ב־Common Voice?
+faq-why-account-q = מדוע עלי ליצור חשבון?
+
+## Glossary
+
+glossary = מונחים
 
 ## NotFound
 
@@ -358,6 +360,7 @@ request-language-success-content = נהיה בקשר כשיהיו פרטים נ�
 
 language-section-in-progress = בתהליך
 language-section-in-progress-description = שפות שנמצאות כעת בתהליך נבנות לצורכי תרומה על ידי הקהילות שלנו, ההתקדמות שלהן משקפת את המצב מבחינת תרגום האתר ושלבי איסוף המשפטים.
+language-section-launched = הושקו
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
 language-speakers = דוברים
@@ -378,6 +381,7 @@ contribute = תרומה
 listen = האזנה
 skip = דילוג
 shortcuts = קיצורים
+clips-with-count = <bold>{ $count }</bold> מקטעים
 goal-help-recording = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד ההקלטות היומי { $goalValue }!
 goal-help-validation = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד האימות היומי { $goalValue }!
 contribute-more = להגיש לך { $count } נוספים?
@@ -417,10 +421,41 @@ share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוס�
 
 ## Goals
 
+streaks = רצף
+days =
+    { $count ->
+        [one] יום
+       *[other] ימים
+    }
+recordings =
+    { $count ->
+        [one] הקלטה
+       *[other] הקלטות
+    }
+validations =
+    { $count ->
+        [one] אימות
+       *[other] אימותים
+    }
 
 ## Dashboard
 
+your-languages = השפות שלך
+toward-next-goal = לקראת המטרה הבאה
+clips-you-recorded = מקטעים שהקלטת
+clips-you-validated = מקטעים שאימתת
+stats = סטטיסטיקה
+you = אני
+everyone = כולם
+contribution-activity = פעילות תרומה
+top-contributors = תורמים מובילים
+recorded-clips = מקטעים שהוקלטו
+validated-clips = מקטעים שאומתו
+total-approved = סה״כ אושרו
+overall-accuracy = דיוק כללי
 
 ## Profile Delete
 
+keep = להשאיר
+remove = להסיר
 profile-form-delete = מחיקת פרופיל
