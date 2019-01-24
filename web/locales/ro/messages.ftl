@@ -346,8 +346,12 @@ faq-why-not-ask-read-a = Pentru a face setul de date Common Voice cât mai util 
 faq-why-account-q = De ce trebuie să-mi creez un cont?
 faq-is-account-public-q = Informațiile contului meu sunt publice?
 faq-how-privacy-q = Cum asigurați anonimatul și intimitatea persoanelor care și-au donat vocea?
-faq-how-privacy-a = Toate datele personale care permit identificarea sunt eliminate din toate secvențele vocale. Când un colaborator furnizează date demografice prin intermediul profilului, aceste informații sunt „dezidentificate” din secvențele vocale înainte de împachetarea pentru descărcare în setul de date și nu sunt niciodată făcute publice pe pagina de profil.
+faq-how-privacy-a = Toate datele cu caracter personal care permit identificarea sunt eliminate din toate secvențele vocale. Când un colaborator furnizează date demografice prin intermediul profilului, aceste informații sunt „dezidentificate” din secvențele vocale înainte de împachetarea pentru descărcare în setul de date și nu sunt niciodată făcute publice pe pagina de profil.
 faq-what-determine-identity-q = Ce înseamnă că nu pot „determina identitatea” vorbitorilor în setul de date Common Voice?
+faq-what-determine-identity-a =
+    Setul de date Common Voice este o resursă deschisă și accesibilă publicului care poate fi utilizată pentru o largă varietate de aplicații cu comandă vocală. Pentru a proteja securitatea colaboratorilor noștri, am cerut tuturor celor care descarcă setul de date Common Voice să respecte viața privată a colaboratorilor noștri.
+    
+    Toate datele cu caracter personal care permit identificarea sunt eliminate din secvențele vocale din setul de date. La descărcarea setului de date, agreați să nu încercați să determinați identitatea niciunui colaborator. Aceasta înseamnă că nu vi se permite să încercați să legați informații din setul de date cu datele cu caracter personal ale unui colaborator. Dar vi se permite să folosiți setul de date pentru „instruirea” aplicațiilor de recunoaștere vocală, de recunoaștere a vorbitorului sau a altor aplicații de exemplu prin corelarea informațiilor din setul de date cu alte informații deja existente în setul de date.
 
 ## Glossary
 
@@ -357,6 +361,7 @@ localization-explanation = Acesta este procesul nostru de traducere și adaptare
 sentence-collection = Colecție de fraze
 sentence-collection-explanation = Colectarea frazelor din domeniul public sau scrierea de fraze noi pentru domeniul public.
 hours-recorded-explanation = Numărul de ore de înregistrare vocală pe care le-am colectat până acum.
+hours-validated-explanation = Numărul de ore de înregistrare vocală care au fost validate de 2 din 3 utilizatori cu un vot „Da". Acestea marchează avansul către obiectivul general al proiectului de 10k ore.
 sst = Recunoaștere vocală (Speech-to-text, STT)
 sst-explanation = Tehnologiile de recunoaștere vocală (Speech-to-text (STT)) convertesc datele vocale în texte.
 de-identified = Anominizat
