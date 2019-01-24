@@ -17,6 +17,7 @@ indicates-required = * Indică un câmp obligatoriu
 
 ## Languages
 
+ab = Abhază
 ace = Acehneză
 af = Afrikaans
 an = Aragoneză
@@ -240,8 +241,10 @@ english = Engleză
 
 profile-form-username =
     .label = Nume de utilizator
-profile-form-language =
-    .label = Limbă
+profile-form-native-language =
+    .label = Limba maternă
+profile-form-additional-language =
+    .label = Limbă suplimentară
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -308,6 +311,9 @@ faq-what-cv-a =
     
     Nu colectăm eșantioane de voce numai în limbi de largă circulație, ci și în limbi cu un număr mai mic de vorbitori. Publicarea unui set de date divers de voci va permite dezvoltatorilor, antreprenorilor și comunităților să abordeze chiar ei acest gol. În plus față de setul de date Common Voice, construim și un motor de recunoaștere vocală cu sursă deschisă, denumit Deep Speech.
 faq-why-important-q = De ce este important?
+faq-why-important-a =
+    Vorbirea este cea mai naturală cale prin care comunicăm unii cu ceilalți și tehnologiile vocale ne aduc acest confort pe calculatoare și dispozitive mobile. Vrem să dăm dezvoltatorilor capacitatea de a putea construi aplicații grozave de recunoaștere vocală cum ar fi aplicații de traducere în timp real și asistenți vocali cu comandă vocală. Dar chiar acum cea mai mare parte a datelor vocale necesare pentru construirea acestor tipuri de aplicații sunt scumpe și proprietare. Sperăm ca setul de date Common Voice să le dea dezvoltatorilor ceea ce au nevoie pentru inovație și pentru a face tehnologia de recunoaștere vocală disponibilă în limbile lor.
+    Pentru a crește nivelul de universalitate al recunoașterii vocale, colectăm mostre de voce în limbi de largă circulație, precum și în limbi vorbite de populații mai mici, adesea prea puțin deservite de serviciile comerciale de recunoaștere vocală. Publicarea unui set divers de date vocale va permite dezvoltatorilor, antreprenorilor și unor comunități lingvistice întregi să umple acest gol.
 faq-how-get-q = Cum pot obține datele Common Voice?
 faq-when-release-q = Când veți lansa datele Common Voice în alte limbi?
 faq-why-mission-q = De ce face parte Common Voice din misiunea Mozilla?
