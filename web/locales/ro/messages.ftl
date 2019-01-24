@@ -329,16 +329,25 @@ faq-do-want-native-a = Da, vrem mai ales vocea ta! O parte a scopului Common Voi
 faq-why-different-speakers-q = De ce aveți nevoie de atât de mulți vorbitori diferiți pe fiecare limbă?
 faq-why-different-speakers-a = Cele mai multe seturi de date vocale sunt construite cu o suprareprezentare a anumitor date demografice, ceea ce conduce la o favorizare a <articleLink>bărbaților și a clasei de mijloc</articleLink>. Accentele și dialectele care tind să fie subreprezentate în seturile de date vocale sunt în mod tipic asociate cu grupuri de persoane deja marginalizate. Multe mașini încă înțeleg cu greu vocile feminine. De aceea vrem varietate în baza noastră de date vocale!
 faq-why-my-lang-q = De ce limba mea nu este încă inclusă?
+faq-why-my-lang-a = Mozilla nu alege și nu favorizează nicio limbă față de altele. În schimb, Common Voice este o inițiativă integral controlată de comunitate, dar este nevoie de <multilangLink>mai multe etape pentru adăugarea unei limbi noi</multilangLink> și începerea colectării donațiilor de voce. Mai întâi, trebuie tradus site-ul web Common Voice astfel încât membrii comunității să poată accesa contribuțiile în limba lor. Apoi, avem nevoie de o colecție mare de propoziții negrevate de drepturi de reproducere pe care persoanele să le citească cu voce tare. Odată satisfăcute aceste două cerințe, limba nouă este „lansată” pe Common Voice și colaboratorii pot începe să își înregistreze vocile și să valideze donațiile celorlalți.
 faq-what-quality-q = Ce nivel de calitate audio este necesar pentru ca o secvență audio să fie utilizată în setul de date?
+faq-what-quality-a = Vrem ca setul de date Common Voice să reflecte calitatea audio cu care un motor de recunoaștere vocală se va confrunta în realitate, așa că vrem varietate. În plus față de diversitatea comunității de vorbitori, un set de date cu o calitate audio variabilă va ajuta motorul de recunoaștere vocală să învețe să gestioneze variate situații din lumea reală, de la vorbire în fundal până la zgomote de autovehicule. Atât timp cât secvența ta audio este inteligibilă, înseamnă că este suficient de bună pentru adăugarea în setul de date.
 faq-why-10k-hours-q = De ce obiectivul de 10.000 de ore validate de capturi audio pe fiecare limbă?
 faq-why-10k-hours-a = Este numărul aproximativ de ore necesare pentru formarea unui sistem de producție de recunoaștere vocală.
 faq-how-calc-hours-q = Cum calculează Common Voice orele?
 faq-how-calc-hours-a = Calculăm orele estimând lungimea medie a fiecărei înregistrări și înmulțind numărul respectiv cu numărul total de înregistrări în toate limbile.
 faq-where-src-from-2-q = De unde provine textul-sursă?
+faq-where-src-from-2-a =
+    Textele noastre sursă sunt alcătuite din donații originale de la colaboratori, precum și dialoguri din scenarii de filme din domeniul public precum <italic>It’s a Wonderful Life</italic>.
+    
+    Ne poți vedea propozițiile-sursă în acest <githubLink>dosar de pe GitHub</githubLink>.
 faq-why-not-ask-read-q = De ce nu cereți oamenilor să citească din cărți sau articole Wikipedia în diferite limbi?
+faq-why-not-ask-read-a = Pentru a face setul de date Common Voice cât mai util posibil, am decis să permitem numai texte-sursă disponibile sub o licență Creative Commons (CC0). Folosirea standardului CC0 înseamnă că este mai dificil de găsit și colectat texte-sursă, dar permite oricui să folosească datele vocale rezultate fără restricții de utilizare sau autorizare din partea Mozilla. În final, vrem să facem setul de date multilingvistic cât mai util posibil pentru oricine, inclusiv pentru cercetători, universități, startup-uri, autorități guvernamentale, organizații cu scopuri sociale și ca hobby.
 faq-why-account-q = De ce trebuie să-mi creez un cont?
 faq-is-account-public-q = Informațiile contului meu sunt publice?
 faq-how-privacy-q = Cum asigurați anonimatul și intimitatea persoanelor care și-au donat vocea?
+faq-how-privacy-a = Toate datele personale care permit identificarea sunt eliminate din toate secvențele vocale. Când un colaborator furnizează date demografice prin intermediul profilului, aceste informații sunt „dezidentificate” din secvențele vocale înainte de împachetarea pentru descărcare în setul de date și nu sunt niciodată făcute publice pe pagina de profil.
+faq-what-determine-identity-q = Ce înseamnă că nu pot „determina identitatea” vorbitorilor în setul de date Common Voice?
 
 ## Glossary
 
@@ -349,7 +358,9 @@ sentence-collection = Colecție de fraze
 sentence-collection-explanation = Colectarea frazelor din domeniul public sau scrierea de fraze noi pentru domeniul public.
 hours-recorded-explanation = Numărul de ore de înregistrare vocală pe care le-am colectat până acum.
 sst = Recunoaștere vocală (Speech-to-text, STT)
+sst-explanation = Tehnologiile de recunoaștere vocală (Speech-to-text (STT)) convertesc datele vocale în texte.
 de-identified = Anominizat
+de-identified-explanation = Procesul prin care informațiile de profil ale unui colaborator devin ilizibile în secvențele vocale donate când sunt împachetate pentru descărcare ca parte a setului de date.
 
 ## NotFound
 
