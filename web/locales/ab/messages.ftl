@@ -12,7 +12,8 @@ loading = Аҭагалара
 
 ## Languages
 
-ab = Аԥсышә
+ab = Аԥсуа
+ady = Адыга
 ar = Араԥ
 de = Агерман
 el = Елен
@@ -220,6 +221,7 @@ action-tap = Акьысра
 contribute = Агәылаҵа уҭагала
 listen = Аӡырҩра
 skip = Абжьажьра
+shortcuts = Арыд ласқәа
 
 ## Goals
 
