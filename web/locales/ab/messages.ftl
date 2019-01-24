@@ -225,8 +225,9 @@ shortcuts = Арыд ласқәа
 clips-with-count = <bold>{ $count }</bold> анҵамҭақәа
 record-cta = Абжьы ҭаҩра иалагоуп
 record-no-mic-found = Амикрофон ԥшаам
-record-error-too-short = Абжьы ҭаҩра кьаҿуп
+record-error-too-short = Абжьы ҭаҩра икьаҿуп
 record-error-too-long = Абжьы ҭаҩра иуроуп
+record-error-too-quiet = Абжьы ҭаҩра иуроуп
 
 ## Goals
 
