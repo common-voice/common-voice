@@ -255,8 +255,10 @@ english = Ingelsk
 
 profile-form-username =
     .label = Brûkersnamme
-profile-form-language =
-    .label = Taal
+profile-form-native-language =
+    .label = Memmetaal
+profile-form-additional-language =
+    .label = Ekstra taal
 profile-form-accent =
     .label = Aksint
 profile-form-age =
