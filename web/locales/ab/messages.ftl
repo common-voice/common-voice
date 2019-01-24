@@ -223,8 +223,10 @@ listen = Аӡырҩра
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
 clips-with-count = <bold>{ $count }</bold> анҵамҭақәа
-record-cta = Анҵара иалагоуп
+record-cta = Абжьы ҭаҩра иалагоуп
 record-no-mic-found = Амикрофон ԥшаам
+record-error-too-short = Абжьы ҭаҩра кьаҿуп
+record-error-too-long = Абжьы ҭаҩра иуроуп
 
 ## Goals
 
