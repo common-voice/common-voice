@@ -144,7 +144,10 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   toggleShowAllInProgress = () => {
     this.setState(state => {
       const showAllInProgress = !state.showAllInProgress;
-      trackLanguages(showAllInProgress ? 'see-more' : 'see-less');
+      trackLanguages(
+        showAllInProgress ? 'see-more' : 'see-less',
+        this.props.locale
+      );
       return { showAllInProgress };
     });
   };
@@ -152,7 +155,10 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   toggleShowAllLaunched = () => {
     this.setState(state => {
       const showAllLaunched = !state.showAllLaunched;
-      trackLanguages(showAllLaunched ? 'see-more' : 'see-less');
+      trackLanguages(
+        showAllLaunched ? 'see-more' : 'see-less',
+        this.props.locale
+      );
       return { showAllLaunched };
     });
   };
@@ -263,7 +269,10 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                   outline
                   rounded
                   onClick={() => {
-                    trackLanguages('open-request-language-modal');
+                    trackLanguages(
+                      'open-request-language-modal',
+                      this.props.locale
+                    );
                     this.setState({ showLanguageRequestModal: true });
                   }}
                 />

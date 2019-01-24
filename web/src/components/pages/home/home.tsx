@@ -20,10 +20,14 @@ interface RegisterState {
   index: number;
 }
 
-class RegisterSection extends React.Component<{}, RegisterState> {
+class RegisterSection extends React.Component<
+  { locale: string },
+  RegisterState
+> {
   state: RegisterState = { tab: 'benefits', index: 0 };
 
   render() {
+    const { locale } = this.props;
     const { index, tab } = this.state;
     const isBenefits = tab == 'benefits';
     const info = (
@@ -38,7 +42,7 @@ class RegisterSection extends React.Component<{}, RegisterState> {
                 checked={tab == l}
                 onChange={() => {
                   this.setState({ tab: l as any, index: 0 });
-                  trackHome('change-benefits-tabs');
+                  trackHome('change-benefits-tabs', locale);
                 }}
               />
               <Localized id={l}>
@@ -59,7 +63,8 @@ class RegisterSection extends React.Component<{}, RegisterState> {
                   trackHome(
                     isBenefits
                       ? 'click-benefits-item'
-                      : 'click-whats-public-item'
+                      : 'click-whats-public-item',
+                    locale
                   );
                 }}>
                 <span>{i + 1}.</span>
@@ -87,7 +92,7 @@ class RegisterSection extends React.Component<{}, RegisterState> {
               <LinkButton
                 rounded
                 href="/login"
-                onClick={() => trackHome('click-benefits-register')}
+                onClick={() => trackHome('click-benefits-register', locale)}
               />
             </Localized>
             {info}
@@ -276,7 +281,7 @@ class HomePage extends React.Component<PropsFromState, State> {
             </div>
           </section>
         ) : (
-          <RegisterSection />
+          <RegisterSection locale={locale} />
         )}
       </div>
     );

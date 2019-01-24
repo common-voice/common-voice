@@ -8,6 +8,7 @@ import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { CardAction, Button } from '../../ui/ui';
 import { trackDataset } from '../../../services/tracker';
+import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import { DownloadIcon } from '../../ui/icons';
@@ -79,6 +80,7 @@ const datasetBundle = {
 };
 
 interface PropsFromState {
+  locale: Locale.State;
   user: User.State;
 }
 
@@ -102,7 +104,10 @@ class DataPage extends React.Component<Props, State> {
   state: State = { showModalFor: null };
 
   showModalFor = (info?: ModalInfo) => {
-    trackDataset(info === datasetBundle ? 'open-bundle-modal' : 'open-modal');
+    trackDataset(
+      info === datasetBundle ? 'open-bundle-modal' : 'open-modal',
+      this.props.locale
+    );
     this.setState({ showModalFor: info });
   };
 
@@ -112,9 +117,9 @@ class DataPage extends React.Component<Props, State> {
       window.open(url, '_blank');
     }
 
-    const { user } = this.props;
+    const { locale, user } = this.props;
 
-    trackDataset(`download-${info.nick}`);
+    trackDataset(`download-${info.nick}`, locale);
 
     this.setState({
       showModalFor:
@@ -287,6 +292,7 @@ class DataPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => ({
+  locale: state.locale,
   user: state.user,
 });
 

@@ -7,6 +7,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../../services/api';
 import { trackProfile } from '../../../../services/tracker';
+import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -71,6 +72,7 @@ function resizeImage(file: File, maxSize: number): Promise<Blob> {
 
 interface PropsFromState {
   api: API;
+  locale: Locale.State;
   user: User.State;
 }
 
@@ -85,14 +87,14 @@ class AvatarSetup extends React.Component<Props> {
   state = { isSaving: false };
 
   async saveFileAvatar(files: FileList) {
-    const { addNotification, api, getString, refreshUser } = this.props;
+    const { addNotification, api, getString, locale, refreshUser } = this.props;
     this.setState({ isSaving: true });
     const image = await resizeImage(files.item(0), 80);
     const { error } = await api.saveAvatar('file', image);
     if (['too_large'].includes(error)) {
       addNotification(getString('file' + error));
     }
-    trackProfile('give-avatar');
+    trackProfile('give-avatar', locale);
     refreshUser();
     this.setState({ isSaving: false });
   }
@@ -176,7 +178,7 @@ class AvatarSetup extends React.Component<Props> {
 }
 
 export default connect<PropsFromState, PropsFromDispatch>(
-  ({ api, user }: StateTree) => ({ api, user }),
+  ({ api, locale, user }: StateTree) => ({ api, locale, user }),
   {
     addNotification: Notifications.actions.add,
     refreshUser: User.actions.refresh,

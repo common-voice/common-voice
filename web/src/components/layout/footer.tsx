@@ -4,7 +4,11 @@ import { trackGlobal } from '../../services/tracker';
 import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
 import ShareButtons from '../share-buttons/share-buttons';
-import { LocaleLink } from '../locale-helpers';
+import {
+  localeConnector,
+  LocaleLink,
+  LocalePropsFromState,
+} from '../locale-helpers';
 import {
   ContactIcon,
   DiscourseIcon,
@@ -20,7 +24,7 @@ interface FooterState {
   showContactModal: boolean;
 }
 
-class Footer extends React.PureComponent<{}, FooterState> {
+class Footer extends React.PureComponent<LocalePropsFromState, FooterState> {
   private shareURLInput: HTMLInputElement;
 
   state: FooterState = {
@@ -28,11 +32,12 @@ class Footer extends React.PureComponent<{}, FooterState> {
   };
 
   private toggleContactModal = () => {
-    trackGlobal('contact');
+    trackGlobal('contact', this.props.locale);
     this.setState(state => ({ showContactModal: !state.showContactModal }));
   };
 
   render() {
+    const { locale } = this.props;
     return (
       <footer>
         {this.state.showContactModal && (
@@ -50,7 +55,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
             id="contribute"
             target="_blank"
             href="https://github.com/mozilla/voice-web"
-            onClick={() => trackGlobal('github')}>
+            onClick={() => trackGlobal('github', locale)}>
             <GithubIcon />
             <div>GitHub</div>
           </a>
@@ -59,7 +64,7 @@ class Footer extends React.PureComponent<{}, FooterState> {
             id="discourse"
             target="blank"
             href="https://discourse.mozilla-community.org/c/voice"
-            onClick={() => trackGlobal('discourse')}>
+            onClick={() => trackGlobal('discourse', locale)}>
             <DiscourseIcon />
             <div>Discourse</div>
           </a>
@@ -132,4 +137,4 @@ class Footer extends React.PureComponent<{}, FooterState> {
   }
 }
 
-export default Footer;
+export default localeConnector(Footer);

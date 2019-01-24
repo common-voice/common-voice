@@ -15,7 +15,7 @@ function track(
     | 'Dashboard'
     | 'Global',
   action: string,
-  locale?: string
+  locale: string
 ) {
   if (isProduction() && typeof ga === 'function') {
     ga('send', 'event', category, action, locale);
@@ -24,7 +24,7 @@ function track(
 
 export function trackGlobal(
   action: 'change-language' | 'github' | 'discourse' | 'contact',
-  locale?: string
+  locale: string
 ) {
   track('Global', action, locale);
 }
@@ -39,7 +39,7 @@ export function trackHome(
     | 'click-whats-public-item'
     | 'click-benefits-item'
     | 'click-benefits-register',
-  locale?: string
+  locale: string
 ) {
   track('Home-New', action, locale);
 }
@@ -79,9 +79,10 @@ export function trackProfile(
     | 'give-accent'
     | 'give-age'
     | 'give-gender'
-    | 'give-avatar'
+    | 'give-avatar',
+  locale: string
 ) {
-  track('Profile', action);
+  track('Profile', action, locale);
 }
 
 export function trackLanguages(
@@ -90,24 +91,20 @@ export function trackLanguages(
     | 'contribute'
     | 'see-more'
     | 'see-less',
-  locale?: string
+  locale: string
 ) {
   track('Languages', action, locale);
 }
 
-export function trackDataset(
-  action: string
-  //   | 'open-modal'
-  //   | 'open-bundle-modal'
-  //   | 'download-{datasetname}
-  //   | 'download-bundle'
-  //   | 'post-download-signup'
-) {
-  track('Data', action);
+export function trackDataset(action: string, locale: string) {
+  track('Data', action, locale);
 }
 
-export function trackSharing(channel: 'facebook' | 'twitter' | 'link') {
-  track('Sharing', channel);
+export function trackSharing(
+  channel: 'facebook' | 'twitter' | 'link',
+  locale: string
+) {
+  track('Sharing', channel, locale);
 }
 
 export function trackDashboard(
@@ -115,7 +112,8 @@ export function trackDashboard(
     | 'speak-cta'
     | 'listen-cta'
     | 'change-language'
-    | 'leaderboard-load-more'
+    | 'leaderboard-load-more',
+  locale: string
 ) {
-  track('Dashboard', action);
+  track('Dashboard', action, locale);
 }

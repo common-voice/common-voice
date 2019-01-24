@@ -103,20 +103,20 @@ try {
 }
 
 const fieldTrackers: any = {
-  email: () => trackProfile('give-email'),
-  username: () => trackProfile('give-username'),
-  accent: () => trackProfile('give-accent'),
-  age: () => trackProfile('give-age'),
-  gender: () => trackProfile('give-gender'),
+  email: trackProfile.bind(null, 'give-email'),
+  username: trackProfile.bind(null, 'give-username'),
+  accent: trackProfile.bind(null, 'give-accent'),
+  age: trackProfile.bind(null, 'give-age'),
+  gender: trackProfile.bind(null, 'give-gender'),
 };
 
 let prevUser: User.State = null;
 store.subscribe(() => {
-  const { user } = store.getState();
+  const { locale, user } = store.getState();
   for (const field of Object.keys(fieldTrackers)) {
     const typedField = field as keyof User.State;
     if (prevUser && user[typedField] !== prevUser[typedField]) {
-      fieldTrackers[typedField]();
+      fieldTrackers[typedField](locale);
     }
   }
   prevUser = user;

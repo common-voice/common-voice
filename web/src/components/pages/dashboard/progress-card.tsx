@@ -34,10 +34,10 @@ class ProgressCard extends React.Component<Props, State> {
   state: State = { overallCurrent: null };
 
   async componentDidMount() {
-    let { api, locale, type } = this.props;
+    let { api, globalLocale, locale, type } = this.props;
     const isAllLanguages = locale == ALL_LOCALES;
     if (!isAllLanguages) {
-      trackDashboard('change-language');
+      trackDashboard('change-language', globalLocale);
     }
     api = api.forLocale(isAllLanguages ? null : locale);
     this.setState({
@@ -131,7 +131,10 @@ class ProgressCard extends React.Component<Props, State> {
                 locale == ALL_LOCALES ? globalLocale : locale
               )(isSpeak ? URLS.SPEAK : URLS.LISTEN)}
               onClick={() =>
-                trackDashboard(isSpeak ? 'speak-cta' : 'listen-cta')
+                trackDashboard(
+                  isSpeak ? 'speak-cta' : 'listen-cta',
+                  globalLocale
+                )
               }
             />
           </Localized>

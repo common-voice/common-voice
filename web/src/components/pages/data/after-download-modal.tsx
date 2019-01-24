@@ -3,6 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import { trackDataset } from '../../../services/tracker';
+import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import Modal from '../../modal/modal';
@@ -14,6 +15,7 @@ const AUTO_HIDE_TIME_MS = 5000;
 
 interface PropsFromState {
   api: API;
+  locale: Locale.State;
   user: User.State;
 }
 
@@ -48,8 +50,8 @@ class AfterDownloadModal extends React.Component<Props, State> {
 
   handleSubmit = (event: React.FormEvent<any>) => {
     event.preventDefault();
-    trackDataset('post-download-signup');
-    const { api, updateUser, user } = this.props;
+    const { api, locale, updateUser, user } = this.props;
+    trackDataset('post-download-signup', locale);
     const { email } = this.state;
     if (!user.sendEmails) {
       api.subscribeToNewsletter(email);
@@ -125,8 +127,9 @@ class AfterDownloadModal extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api, user }: StateTree) => ({
+const mapStateToProps = ({ api, locale, user }: StateTree) => ({
   api,
+  locale,
   user,
 });
 

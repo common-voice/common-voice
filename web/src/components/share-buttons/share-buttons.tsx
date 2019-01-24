@@ -8,6 +8,7 @@ import { connect } from 'react-redux';
 import { trackSharing } from '../../services/tracker';
 import { Notifications } from '../../stores/notifications';
 import { FontIcon } from '../ui/icons';
+import { localeConnector, LocalePropsFromState } from '../locale-helpers';
 
 import './share-buttons.css';
 
@@ -17,17 +18,18 @@ interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.add;
 }
 
-class ShareButtons extends React.Component<
-  LocalizationProps & PropsFromDispatch
-> {
+type Props = LocalizationProps & PropsFromDispatch & LocalePropsFromState;
+
+class ShareButtons extends React.Component<Props> {
   shareURLInputRef: { current: HTMLInputElement | null } = React.createRef();
 
   private copyShareURL = () => {
+    const { addNotification, locale } = this.props;
     this.shareURLInputRef.current.select();
     document.execCommand('copy');
-    trackSharing('link');
+    trackSharing('link', locale);
 
-    this.props.addNotification(
+    addNotification(
       <React.Fragment>
         <FontIcon type="link" className="icon" />{' '}
         <Localized id="link-copied">
@@ -38,8 +40,9 @@ class ShareButtons extends React.Component<
   };
 
   render() {
+    const { getString, locale } = this.props;
     const encodedShareText = encodeURIComponent(
-      this.props.getString('share-text', { link: SHARE_URL })
+      getString('share-text', { link: SHARE_URL })
     );
     return (
       <React.Fragment>
@@ -60,7 +63,7 @@ class ShareButtons extends React.Component<
           href={'https://twitter.com/intent/tweet?text=' + encodedShareText}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackSharing('twitter')}>
+          onClick={() => trackSharing('twitter', locale)}>
           <FontIcon type="twitter" />
         </a>
         <a
@@ -71,7 +74,7 @@ class ShareButtons extends React.Component<
           }
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackSharing('facebook')}>
+          onClick={() => trackSharing('facebook', locale)}>
           <FontIcon type="facebook" />
         </a>
       </React.Fragment>
@@ -84,4 +87,4 @@ export default connect<void, PropsFromDispatch>(
   {
     addNotification: Notifications.actions.add,
   }
-)(withLocalization(ShareButtons));
+)(localeConnector(withLocalization(ShareButtons)));
