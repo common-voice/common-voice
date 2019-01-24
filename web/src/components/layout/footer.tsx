@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Localized } from 'fluent-react/compat';
-import { trackGlobal } from '../../services/tracker';
+import { trackGlobal, trackNav } from '../../services/tracker';
 import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
 import ShareButtons from '../share-buttons/share-buttons';
@@ -20,13 +20,19 @@ import Logo from './logo';
 
 import './footer.css';
 
+const LocalizedLocaleLink = localeConnector(
+  ({ id, locale, to }: { id: string; to: string } & LocalePropsFromState) => (
+    <Localized id={id} onClick={() => trackNav(id, locale)}>
+      <LocaleLink to={to} />
+    </Localized>
+  )
+);
+
 interface FooterState {
   showContactModal: boolean;
 }
 
 class Footer extends React.PureComponent<LocalePropsFromState, FooterState> {
-  private shareURLInput: HTMLInputElement;
-
   state: FooterState = {
     showContactModal: false,
   };
@@ -46,7 +52,7 @@ class Footer extends React.PureComponent<LocalePropsFromState, FooterState> {
         <div id="help-links">
           <LocaleLink id="help" to={URLS.FAQ}>
             <SupportIcon />
-            <Localized id="help">
+            <Localized id="help" onClick={() => trackNav('help', locale)}>
               <div />
             </Localized>
           </LocaleLink>
@@ -95,12 +101,8 @@ class Footer extends React.PureComponent<LocalePropsFromState, FooterState> {
           </div>
           <div className="links">
             <div>
-              <Localized id="privacy">
-                <LocaleLink to={URLS.PRIVACY} />
-              </Localized>
-              <Localized id="terms">
-                <LocaleLink to={URLS.TERMS} />
-              </Localized>
+              <LocalizedLocaleLink id="privacy" to={URLS.PRIVACY} />
+              <LocalizedLocaleLink id="terms" to={URLS.TERMS} />
             </div>
             <div>
               <Localized id="cookies">
@@ -109,9 +111,7 @@ class Footer extends React.PureComponent<LocalePropsFromState, FooterState> {
                   href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
                 />
               </Localized>
-              <Localized id="faq">
-                <LocaleLink to={URLS.FAQ}>FAQ</LocaleLink>
-              </Localized>
+              <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
             </div>
           </div>
           <div id="sharing">

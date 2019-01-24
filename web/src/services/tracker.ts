@@ -2,9 +2,8 @@ import { isProduction } from '../utility';
 
 declare const ga: any;
 
-function track(
+export function track(
   category:
-    | 'Home'
     | 'Home-New'
     | 'Recording'
     | 'Listening'
@@ -13,7 +12,8 @@ function track(
     | 'Data'
     | 'Sharing'
     | 'Dashboard'
-    | 'Global',
+    | 'Global'
+    | 'Nav',
   action: string,
   locale: string
 ) {
@@ -27,6 +27,10 @@ export function trackGlobal(
   locale: string
 ) {
   track('Global', action, locale);
+}
+
+export function trackNav(route: string, locale: string) {
+  track('Nav', route, locale);
 }
 
 export function trackHome(

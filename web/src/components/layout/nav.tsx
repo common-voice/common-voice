@@ -1,25 +1,32 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
-import { isProduction } from '../../utility';
-import { ContributableLocaleLock, LocaleNavLink } from '../locale-helpers';
+import {
+  ContributableLocaleLock,
+  localeConnector,
+  LocaleNavLink,
+  LocalePropsFromState,
+} from '../locale-helpers';
 
 import './nav.css';
+
+const LocalizedNavLink = localeConnector(
+  ({ id, locale, to }: { id: string; to: string } & LocalePropsFromState) => (
+    <Localized id={id}>
+      <LocaleNavLink to={to} exact onClick={() => trackNav(id, locale)} />
+    </Localized>
+  )
+);
 
 export default ({ children, ...props }: { [key: string]: any }) => (
   <nav {...props} className="nav-list">
     <div className="nav-links">
       <ContributableLocaleLock>
-        <Localized id="contribute">
-          <LocaleNavLink to={URLS.SPEAK} exact />
-        </Localized>
+        <LocalizedNavLink id="contribute" to={URLS.SPEAK} />
       </ContributableLocaleLock>
-      <Localized id="datasets">
-        <LocaleNavLink to={URLS.DATASETS} exact />
-      </Localized>
-      <Localized id="languages">
-        <LocaleNavLink to={URLS.LANGUAGES} exact />
-      </Localized>
+      <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
+      <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
     </div>
     {children}
   </nav>

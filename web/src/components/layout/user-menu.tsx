@@ -1,6 +1,8 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { trackNav } from '../../services/tracker';
+import { Locale } from '../../stores/locale';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import URLS from '../../urls';
@@ -17,6 +19,7 @@ import { Avatar, Hr } from '../ui/ui';
 import './user-menu.css';
 
 interface PropsFromState {
+  locale: Locale.State;
   user: User.State;
 }
 
@@ -29,6 +32,7 @@ class UserMenu extends React.Component<PropsFromState> {
 
   render() {
     const {
+      locale,
       user: { account },
     } = this.props;
     return (
@@ -66,7 +70,7 @@ class UserMenu extends React.Component<PropsFromState> {
                 },
               ].map(({ route, icon, id }) => (
                 <li key={route}>
-                  <LocaleLink to={route}>
+                  <LocaleLink to={route} onClick={() => trackNav(id, locale)}>
                     {icon}
                     <Localized id={id}>
                       <span />
@@ -92,6 +96,7 @@ class UserMenu extends React.Component<PropsFromState> {
 }
 
 const mapStateToProps = (state: StateTree) => ({
+  locale: state.locale,
   user: state.user,
 });
 
