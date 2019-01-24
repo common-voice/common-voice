@@ -222,6 +222,9 @@ contribute = Агәылаҵа уҭагала
 listen = Аӡырҩра
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
+clips-with-count = <bold>{ $count }</bold> анҵамҭақәа
+record-cta = Анҵара иалагоуп
+record-no-mic-found = Амикрофон ԥшаам
 
 ## Goals
 
