@@ -336,6 +336,10 @@ faq-how-get-a = Roadennoù Common Voice a zo hegerz dindan al lañvaz <licenseLi
 faq-when-release-q = Pegoulz e vo digoret roadennoù Common Voice e yezhoù all?
 faq-when-release-a = Stumm lies-yezh roadennoù Common Voice a zo o vezañ paket ha naetaet gant ar gumuniezh. Ma fell deoc'h gouzout hiroc'h war ar striv-mañ e c'hallit <contactLink>mont e darempred ganeomp</contactLink>. Klask a raimp embann an dra-se e miz Genver 2019. Goude-se e hizivaimp ar roadennoù ur wech an amzer gant yezhoù nevez ha klipoù mouezh a feur ma vezont hegerz. Emaomp c'hoazh o klask despizañ ur c'helc'hiad ermaeziadennoù reoliekoc'h.
 faq-why-mission-q = Perak eo Common Voice ul lodenn eus kefridi Mozilla?
+faq-why-account-q = Perak e rankfen krouiñ ur gont?
+faq-is-account-public-q = Ha foran eo titouroù ma c'hont?
+faq-how-privacy-q = Penaos e vezit sur e chom dizanv ha prevez titouroù an dud a ro o mouezh?
+faq-how-privacy-a = Skarzhet e vez an titouroù personel en holl glipoù en diaz roadennoù. Pa vez roet roadennoù poblañsouriezh gant ur c'hendaoler dre o frofil eo dizanvet an titour-mañ eus o klip mouezh a-raok bezañ paket evit bezañ pellgarget er roadennoù ha n'eo morse diskouezet d'an holl war o fajenn brofil.
 
 ## Glossary
 
