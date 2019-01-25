@@ -399,8 +399,10 @@ cv-license = Licenca
 audio-format = Awdioformat
 number-of-voices = Licba głosow
 email-to-download = E-mailowu adresu za ześěgnjenje zapódaś
+confirm-size = Sćo za start ześěgnjenja wjelikosći <b>{ $size }</b> spśigótowany
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Zwolijośo</b> do togo, až njewopytajośo, identitu powědarjow w datowej sajźbje zwěsćiś
 download-language = { $language } sćahnyć
 
 ## Download Modal
