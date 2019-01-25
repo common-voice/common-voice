@@ -249,3 +249,6 @@ everyone = Зегь ахархәаҩцәа
 
 ## Profile Delete
 
+keep = Иааныжьтәуп
+remove = Ианыхтәуп
+profile-form-delete = Аҷыдахәра ианыхтәуп
