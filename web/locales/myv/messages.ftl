@@ -6,6 +6,7 @@ email-input =
     .label = э-сёрма
 submit-form-action = Совавтомс
 loading = Таргамозо моли...
+email-opt-in-privacy = Э-сёрма вариантонь кочказь, содатано тонть туртов Мозиллань  <privacyLink>Эсь тевень Политикасонть<privacyLink> ледстязь информациянь ванстомась-тевс нолдамось маштови тонеть ды арасть проблеммат сонзэ марто, кода МозиллаBy opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s .
 indicates-required = *Невти эрявикс пакся
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -14,8 +15,11 @@ indicates-required = *Невти эрявикс пакся
 
 ## Languages
 
+ab = Абхазокс
 ace = Ачехекс
+ady = Адыгекс
 af = Африкансокс
+am = Амгарикекс
 an = Арагонокс
 ar = Арабокс
 as = Ассамокс
@@ -34,6 +38,7 @@ cy = Кимрикс
 da = Даниякс
 de = Немецекс
 dsb = Алце Сорбиякс
+dv = Дивегикс
 el = Грекекс
 en = Англакс
 eo = Эсперантокс
@@ -62,8 +67,10 @@ kpv = Коми-зирянокс
 kw = Корникс
 ky = Киргизэкс
 mdf = Мокшокс
+mhr = Лугамарикс
 mk = Македониякс
 mn = Монголокс
+mrj = Пандомарикс
 myv = Эрзякс
 nb-NO = Норвегиянь букмолокс
 ne-NP = Непаликс
@@ -88,10 +95,13 @@ te = Телугукс
 th = Таекс
 tr = Туркакс
 tt = Татарокс
+uby = Убыхекс
+udm = Удмуртокс
 uk = Украинакс
 ur = Урдукс
 uz = Узбекекс
 vi = Вьетнамокс
+vot = Вадякс
 zh-CN = Мандринэкс (Китаень)
 zh-HK = Кантонокс (Гонгконгонь)
 zh-TW = Мандринэкс (Тайванень)
@@ -209,20 +219,27 @@ status-hours =
         [one] час кочказь те видьс!
        *[other] част кочказь те видьс!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Сыця норовамот: { $goal }
 english = Англакс
 
 ## ProfileForm
 
 profile-form-username =
     .label = Тевс нолдыцянь лем
-profile-form-language =
-    .label = Кель
+profile-form-native-language =
+    .label = Тиринь кель
+profile-form-additional-language =
+    .label = Поладкскель
 profile-form-accent =
     .label = Кортавкс
 profile-form-age =
     .label = Иеть
 profile-form-gender =
     .label = Сыме
+leaderboard-visibility =
+    .label = Ветиень лазонть неявомазо
 hidden = Кекшезь
 visible = Неяви
 native-language =
@@ -234,8 +251,10 @@ female = Ава
 # Gender
 other = Лия
 why-profile-title = Мезекс профилесь?
+dashboard = Аравтома лаз
 build-profile = Теемс профиль
 avatar = Аватар
+goals = Норовамот
 settings = Аравтомат
 edit-profile = Витнемс-петнемс профиленть
 profile-create-success = Теветь лиссь, профилеть шкавсь!
