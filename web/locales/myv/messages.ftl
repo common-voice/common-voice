@@ -312,6 +312,7 @@ faq-why-10k-hours-q = Мейс эрьва келенть туртов путоз
 faq-why-10k-hours-a = Истянь зярошка час эряви «вайгельстэ текст» системань тонавтомас.
 faq-how-calc-hours-q = Кода «Common Voice» ловны частнэсэ?
 faq-where-src-from-2-q = Косто саевсь лисьмапрятекстэсь?
+faq-why-not-ask-read-q = Мекс а вештядо ломантнень пельде ловност башка-башка кельстэ кинигат эли Википедиянь сёрмадовкст?
 faq-why-account-q = Мейс монень теемс совамо тарка?
 faq-is-account-public-q = Совамо таркам информациясь весенень панжадо?
 
@@ -344,6 +345,7 @@ data-other-title = Вайгелень лия датапурнавкст...
 data-other-goto = Молемс «{ $name }» таркас
 data-other-download = Таргамс Датанть
 data-other-ted-name = «TED-LIUM» Корпус
+data-other-tatoeba-description = «Tatoeba» те валрисьмень, ютавксонь ды кортамо аудионь покш данбаза, конась арсезь келень тонавтнемс. Тень таргасак, муят кортамо англань кель, конань сёрмадызе англань келень ломанькурось.
 data-bundle-button = Таргамс датапурнавкс керьмаз
 license = Лицензиясь: <licenseLink>{ $license }</licenseLink>
 license-mixed = Човор
@@ -357,6 +359,9 @@ review-rerecord = Сёрмадомс одов
 review-cancel = Нардамс мезе совавтыть
 review-keep-recordings = Ванстомс лентас сёрмадовкстнэнь
 review-delete-recordings = Нардамс мезе лентас сёрмадынь
+
+## New Datasets Page
+
 
 ## Download Modal
 
