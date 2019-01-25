@@ -406,6 +406,23 @@ review-cancel = 取消提交
 review-keep-recordings = 保留录音
 review-delete-recordings = 删除我的录音
 
+## New Datasets Page
+
+language = 语言
+# File size in gigabytes
+size = 大小
+validated-hr-total = 总验证小时数
+overall-hr-total = 总综合小时数
+cv-license = 许可协议
+audio-format = 音频格式
+number-of-voices = 语音数量
+email-to-download = 输入电子邮件地址进行下载
+confirm-size = 您将下载 <size>{ $size }GB</size> 的文件
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>您同意</b>不试图去确定 Common Voice 数据集中任何说话者的身份
+download-language = 下载 { $language }
+
 ## Download Modal
 
 download-title = 您的下载已经开始。
