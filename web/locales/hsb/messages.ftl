@@ -390,6 +390,7 @@ review-delete-recordings = Natočenja zhašeć
 
 ## New Datasets Page
 
+datasets-headline = Tworimy wjacerěčnu datowu sadźbu hłosow wotewrjeneho žórła, kotruž móže kóždy wužiwać, zo by rěčenske nałoženja trenował.
 language = Rěč
 # File size in gigabytes
 size = Wulkosć
@@ -397,8 +398,10 @@ cv-license = Licenca
 audio-format = Awdioformat
 number-of-voices = Ličba hłosow
 email-to-download = E-mejlowu adresu za sćehnjenje zapodać
+confirm-size = Sće za start sćehnjenja wulkosće <b>{ $size }</b> přihotowany
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Zwoliće</b> do toho, zo njespytaće, identitu rěčnikow w datowej sadźbje zwěsćić
 download-language = { $language } sćahnyć
 
 ## Download Modal
