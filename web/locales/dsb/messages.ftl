@@ -202,6 +202,7 @@ whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
 recordings-and-locale-public = Licba nagraśow a rěcow, ku kótarymž pśinosujośo, budu zjawne.
 username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
+demographic-deidentified = Na přeće wotpósłane demografiske daty (na př. staroba, splah, rěč a akcent) so z wašich wotpósłanych hłosowych datow wotstronja a ženje we wašim profilu njewozjewja.
 username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Speak & Listen Shortcuts
