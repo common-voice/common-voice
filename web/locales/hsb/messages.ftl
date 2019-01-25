@@ -388,6 +388,19 @@ review-cancel = Wotpósłanje přetorhnyć
 review-keep-recordings = Natočenja wobchować
 review-delete-recordings = Natočenja zhašeć
 
+## New Datasets Page
+
+language = Rěč
+# File size in gigabytes
+size = Wulkosć
+cv-license = Licenca
+audio-format = Awdioformat
+number-of-voices = Ličba hłosow
+email-to-download = E-mejlowu adresu za sćehnjenje zapodać
+size-gigabyte = GB
+size-megabyte = MB
+download-language = { $language } sćahnyć
+
 ## Download Modal
 
 download-title = Waše sćehnjenje je so započało.
