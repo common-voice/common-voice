@@ -228,6 +228,8 @@ record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Абжьы ҭаҩра икьаҿуп
 record-error-too-long = Абжьы ҭаҩра иуроуп
 record-error-too-quiet = Абжьы ҭаҩра иуроуп
+record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
+record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны ари аҳәоу уаԥхьа
 
 ## Goals
 
