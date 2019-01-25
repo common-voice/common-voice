@@ -230,12 +230,22 @@ record-error-too-long = Абжьы ҭаҩра иуроуп
 record-error-too-quiet = Абжьы ҭаҩра иуроуп
 record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
 record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны ари аҳәоу уаԥхьа
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ихианы ианбаҟало
+record-three-more-instruction = Х-ҳәоук аанхеит!
 
 ## Goals
 
+days =
+    { $count ->
+        [one] мышкы
+       *[other] мш
+    }
 
 ## Dashboard
 
+your-languages = Убызшәақәа
+you = Уара
+everyone = Зегь ахархәаҩцәа
 
 ## Profile Delete
 
