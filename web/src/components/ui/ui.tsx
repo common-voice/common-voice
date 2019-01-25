@@ -45,46 +45,52 @@ export const CardAction = ({ className, ...props }: any) =>
 
 export const Hr = (props: any) => <hr className="hr" {...props} />;
 
-export const LabeledCheckbox = ({ label, ...props }: any) => (
-  <label className="labeled-checkbox">
-    <input type="checkbox" {...props} />
-    <span className="label">{label}</span>
-  </label>
-);
-
-const LabeledFormControl = ({
-  className = '',
-  component: Component,
-  label,
-  required,
-  ...props
-}: any) => {
-  const child = <Component {...{ required, ...props }} />;
-  return (
-    <label
-      className={[
-        'labeled-form-control',
-        'for-' + Component,
-        className,
-        props.disabled ? 'disabled' : '',
-      ].join(' ')}
-      {...props}>
-      <span className="label">
-        {required && '*'}
-        {label}
-      </span>
-      {Component == 'select' ? (
-        <div className="wrapper with-down-arrow">{child}</div>
-      ) : (
-        child
-      )}
+export const LabeledCheckbox = React.forwardRef(
+  ({ label, style, ...props }: any, ref) => (
+    <label className="labeled-checkbox" style={style}>
+      <input ref={ref} type="checkbox" {...props} />
+      <span className="label">{label}</span>
     </label>
-  );
-};
-
-export const LabeledInput = ({ type, ...props }: any) => (
-  <LabeledFormControl component="input" type={type || 'text'} {...props} />
+  )
 );
+
+const LabeledFormControl = React.forwardRef(
+  (
+    { className = '', component: Component, label, required, ...props }: any,
+    ref
+  ) => {
+    const child = <Component {...{ ref, required, ...props }} />;
+    return (
+      <label
+        className={[
+          'labeled-form-control',
+          'for-' + Component,
+          className,
+          props.disabled ? 'disabled' : '',
+        ].join(' ')}
+        {...props}>
+        <span className="label">
+          {required && '*'}
+          {label}
+        </span>
+        {Component == 'select' ? (
+          <div className="wrapper with-down-arrow">{child}</div>
+        ) : (
+          child
+        )}
+      </label>
+    );
+  }
+);
+
+export const LabeledInput = React.forwardRef(({ type, ...props }: any, ref) => (
+  <LabeledFormControl
+    component="input"
+    ref={ref}
+    type={type || 'text'}
+    {...props}
+  />
+));
 
 export const LabeledSelect = (props: any) => (
   <LabeledFormControl component="select" {...props} />
