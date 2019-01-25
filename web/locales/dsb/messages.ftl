@@ -389,6 +389,20 @@ review-cancel = Wótpósłanje pśetergnuś
 review-keep-recordings = Nagraśa wobchować
 review-delete-recordings = Nagraśa wulašowaś
 
+## New Datasets Page
+
+datasets-headline = Twórimy wěcejrěcnu datowu sajźbu głosow wótwórjonego žrědła, kótaruž móžo kuždy wužywaś, aby powědańske nałoženja treněrował.
+language = Rěc
+# File size in gigabytes
+size = Wjelikosć
+cv-license = Licenca
+audio-format = Awdioformat
+number-of-voices = Licba głosow
+email-to-download = E-mailowu adresu za ześěgnjenje zapódaś
+size-gigabyte = GB
+size-megabyte = MB
+download-language = { $language } sćahnyć
+
 ## Download Modal
 
 download-title = Wašo ześěgnjenje jo se zachopiło.
