@@ -417,6 +417,21 @@ review-cancel = لغو ارسال
 review-keep-recordings = ضبط را نگه دارید
 review-delete-recordings = ضبط‌های من را حذف کن
 
+## New Datasets Page
+
+language = زبان
+# File size in gigabytes
+size = حجم
+validated-hr-total = مجموع ساعت‌های اعتبارسنجی شده
+cv-license = مجوز
+audio-format = فرمت صوتی
+number-of-voices = تعداد صداها
+splits = بخش‌ها
+email-to-download = برای دریافت رایانامه را وارد کنید
+why-email = <b>چرا رایانامه؟</b> ممکن است در آینده دریاره تغییرات در مجموعه داده‌ها با شما تماس بگیریم، یک رایانامه امکان ارتباط را فراهم می‌کند.
+size-gigabyte = گیگابایت
+size-megabyte = مگابایت
+
 ## Download Modal
 
 download-title = دریافت شما آغاز شد
