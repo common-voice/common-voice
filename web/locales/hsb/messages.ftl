@@ -392,6 +392,12 @@ review-delete-recordings = Natočenja zhašeć
 ## New Datasets Page
 
 datasets-headline = Tworimy wjacerěčnu datowu sadźbu hłosow wotewrjeneho žórła, kotruž móže kóždy wužiwać, zo by rěčenske nałoženja trenował.
+datasets-positioning =
+    Wěrimy, zo wulke, zjawnje k dispoziciji stejace datowe sadźby inowaciju a strowe komercielne wubědźowanje w rěčenskej technologiji na zakładźe mašinoweho wuknjenja spěchuja.
+    
+    Wjacerěčna datjowa sadźba Common Voice je hižo najwjetša zjawnje k dispoziciji stejaca datowa sadźba swojeje družiny, ale njeje jenička.
+    
+    Mějće tutu stronu jako referencny dypk za druhe hłosowe datowe sadźy wotewrjeneho žórła a, dokelž Common Voice dale rosće, jako startowy dypk za naše najnowše aktualizacije.
 language = Rěč
 # File size in gigabytes
 size = Wulkosć
