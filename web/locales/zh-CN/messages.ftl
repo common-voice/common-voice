@@ -416,6 +416,7 @@ overall-hr-total = 总综合小时数
 cv-license = 许可协议
 audio-format = 音频格式
 number-of-voices = 语音数量
+splits = 分割
 email-to-download = 输入电子邮件地址进行下载
 confirm-size = 您将下载 <size>{ $size }GB</size> 的文件
 size-gigabyte = GB
