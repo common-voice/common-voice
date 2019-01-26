@@ -19,7 +19,9 @@ indicates-required = * Wajib diisi
 
 ab = Abkhaz
 ace = Bahasa Aceh
+ady = Adyghe
 af = Bahasa Afrikaans
+am = Amharic
 an = Bahasa Aragon
 ar = Bahasa Arab
 as = Bahasa Assam
@@ -38,6 +40,7 @@ cy = Bahasa Wales
 da = Bahasa Denmark
 de = Bahasa Jerman
 dsb = Bahasa Sorbia Hilir
+dv = Dhivehi
 el = Bahasa Yunani
 en = Bahasa Inggris
 eo = Bahasa Esperanto
@@ -226,8 +229,6 @@ english = Bahasa Inggris
 
 profile-form-username =
     .label = Nama Pengguna
-profile-form-language =
-    .label = Bahasa
 profile-form-accent =
     .label = Logat
 profile-form-age =
@@ -363,6 +364,9 @@ review-rerecord = Merekam Ulang
 review-cancel = Batalkan Pengajuan
 review-keep-recordings = Simpan rekaman
 review-delete-recordings = Hapus rekaman saya
+
+## New Datasets Page
+
 
 ## Download Modal
 
