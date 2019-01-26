@@ -428,6 +428,19 @@ datasets-positioning =
 language = Nyelv
 # File size in gigabytes
 size = Méret
+validated-hr-total = Ellenőrzött óra összesen
+overall-hr-total = Óra összesen
+cv-license = Licenc
+audio-format = Hangformátum
+number-of-voices = Hangok száma
+splits = Felosztások
+email-to-download = Adja meg az e-mail címét a letöltéshez
+why-email = <b>Miért szükséges az e-mail cím?</b> Előfordulhat, hogy a jövőben kapcsolatba kell lépnünk Önnel az adatkészlet változásával kapcsolatban, és ezt az e-mail cím biztosítja.
+confirm-size = Készen áll <b>{ $size }</b> letöltésének kezdeményezésére
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Elfogadja</b>, hogy nem próbálja meg meghatározni a beszélők személyazonosságát a Common Voice adatkészletben
+download-language = Letöltés: { $language }
 
 ## Download Modal
 
