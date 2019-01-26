@@ -393,11 +393,11 @@ review-delete-recordings = Nagraśa wulašowaś
 
 datasets-headline = Twórimy wěcejrěcnu datowu sajźbu głosow wótwórjonego žrědła, kótaruž móžo kuždy wužywaś, aby powědańske nałoženja treněrował.
 datasets-positioning =
-    Wěrimy, zo wulke, zjawnje k dispoziciji stejace datowe sadźby inowaciju a strowe komercielne wubědźowanje w rěčenskej technologiji na zakładźe mašinoweho wuknjenja spěchuja.
+    Wěrimy, až wjelike, zjawnje k dispoziciji stojece datowe sajźby inowaciju a strowe komercielne wuběźowanje w powědańskej technologiji na zakłaźe mašinowego wuknjenja spěchuju.
     
-    Wjacerěčna datjowa sadźba Common Voice je hižo najwjetša zjawnje k dispoziciji stejaca datowa sadźba swojeje družiny, ale njeje jenička.
+    Wěcejrěcna datowa sajźba Common Voice jo južo nejwětša zjawnje k dispoziciji stojeca datowa sajźba swójeje družyny, ale njejo jadnučka.
     
-    Mějće tutu stronu jako referencny dypk za druhe hłosowe datowe sadźy wotewrjeneho žórła a, dokelž Common Voice dale rosće, jako startowy dypk za naše najnowše aktualizacije.
+    Mějśo toś ten bok ako referencny dypk za druge głosowe datowe sajbźy wótwórjonego žrědła a, dokulaž Common Voice dalej rosćo, ako startowy dypk za naše nejnowše aktualizacije.
 language = Rěc
 # File size in gigabytes
 size = Wjelikosć
