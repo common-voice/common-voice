@@ -409,6 +409,32 @@ review-cancel = Hủy gửi
 review-keep-recordings = Giữ bản ghi âm
 review-delete-recordings = Xóa bản ghi âm của tôi
 
+## New Datasets Page
+
+datasets-headline = Chúng tôi đã xây dựng một bộ dữ liệu giọng nói đa ngôn ngữ mã nguồn mở mà bất kỳ ai cũng có thể sử dụng để huấn luyện các ứng dụng hỗ trợ giọng nói.
+datasets-positioning =
+    Chúng tôi tin rằng các bộ dữ liệu giọng nói lớn, có sẵn công khai sẽ thúc đẩy sự đổi mới và cạnh tranh thương mại lành mạnh trong công nghệ lời nói dựa trên máy học.
+    
+    Bộ dữ liệu đa ngôn ngữ của Common Voice đã là bộ dữ liệu giọng nói có sẵn công khai lớn nhất thuộc loại này, nhưng nó không phải là bộ dữ liệu duy nhất.
+    
+    Hãy xem trang này như một trung tâm tham chiếu cho các bộ dữ liệu giọng nói nguồn mở khác và, khi Common Voice tiếp tục phát triển, một ngôi nhà cho các bản cập nhật phát hành của chúng tôi.
+language = Ngôn ngữ
+# File size in gigabytes
+size = Kích thước
+validated-hr-total = Tổng số giờ đã xác nhận
+overall-hr-total = Tổng số giờ
+cv-license = Giấy phép
+audio-format = Định dạng âm thanh
+number-of-voices = Số lượng tiếng nói
+splits = Tách
+email-to-download = Nhập email để tải xuống
+why-email = <b>Tại sao lại cần email?</b> Chúng tôi có thể cần liên hệ với bạn trong tương lai về các thay đổi đối với tập dữ liệu, một email cung cấp cho chúng tôi một điểm liên hệ.
+confirm-size = Bạn đã sẵn sàng để bắt đầu tải xuống <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Bạn đồng ý</b> về việc không cố gắng xác định danh tính của người nói trong bộ dữ liệu Common Voice
+download-language = Tải xuống { $language }
+
 ## Download Modal
 
 download-title = Quá trình tải xuống của bạn đã bắt đầu.
