@@ -399,6 +399,22 @@ review-cancel = Ezeztatu bidalketa
 review-keep-recordings = Mantendu grabazioak
 review-delete-recordings = Ezabatu nire grabazioak
 
+## New Datasets Page
+
+language = Hizkuntza
+# File size in gigabytes
+size = Tamaina
+validated-hr-total = Baliozkotutako orduak guztira
+overall-hr-total = Orduak guztira
+cv-license = Lizentzia
+audio-format = Audio formatua
+number-of-voices = Ahots kopurua
+email-to-download = Sartu e-posta deskargatzeko
+confirm-size = <b>{ $size }</b>-eko deskarga bat hastera zoaz
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Deskargatu { $language }
+
 ## Download Modal
 
 download-title = Zure deskarga hasi da.
