@@ -379,7 +379,7 @@ data-download-yes = 是
 data-download-deny = 否
 data-download-license = 许可协议：<licenseLink>CC-0</licenseLink>
 data-download-modal = 将下载 <size>{ $size }GB</size> 的文件，要继续吗？
-data-subtitle = 我们正在建立一个开放且公开的语音数据集，每个人都可以使用它来训练语音应用程序。
+data-subtitle = 我们正在构建一组开放且可公开使用的语音数据集，每个人都可以使用它来训练语音应用程序。
 data-explanatory-text = 我们相信，大型和公开的语音数据集将促进基于机器学习的语音技术的创新和健康的商业竞争。这是一项全球性的努力，我们邀请所有人参加。我们的目标是帮助语音技术更具包容性，反映世界各地声音的多样性。
 data-get-started = <speechBlogLink>开始进行语音识别</speechBlogLink>
 data-other-title = 其他语音数据集…
@@ -408,6 +408,13 @@ review-delete-recordings = 删除我的录音
 
 ## New Datasets Page
 
+datasets-headline = 我们正在构建一组开源、多语言的语音数据集，让任何人都可以用来开发语音相关的应用。
+datasets-positioning =
+    我们相信一组大型、可公开使用的语音数据集，将可促进基于机器学习的语音技术的创新，与健康的商业竞争。
+    
+    Common Voice 的多语言数据集已经成为最大的公开语音数据集，但不是唯一的一组。
+    
+    您可在此页面找到其他的开源语音数据集。随着 Common Voice 不断成长，我们也会在此处发布更新信息。
 language = 语言
 # File size in gigabytes
 size = 大小
@@ -418,6 +425,7 @@ audio-format = 音频格式
 number-of-voices = 语音数量
 splits = 分割
 email-to-download = 输入电子邮件地址进行下载
+why-email = <b>为什么需要电子邮件地址?</b>未来我们可能会联系您，提供数据集的相关更新信息。 邮件地址可作为我们联系您的方式。
 confirm-size = 您将下载 <size>{ $size }GB</size> 的文件
 size-gigabyte = GB
 size-megabyte = MB
