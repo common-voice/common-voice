@@ -411,6 +411,23 @@ review-cancel = 取消送出
 review-keep-recordings = 保留錄音
 review-delete-recordings = 刪除我的錄音
 
+## New Datasets Page
+
+language = 語言
+# File size in gigabytes
+size = 大小
+validated-hr-total = 總驗證時數
+overall-hr-total = 全體總時數
+cv-license = 授權條款
+audio-format = 音檔格式
+number-of-voices = 語音數量
+splits = 分割
+email-to-download = 輸入 E-Mail 即可下載
+confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
+size-gigabyte = GB
+size-megabyte = MB
+download-language = 下載 { $language } 資料集
+
 ## Download Modal
 
 download-title = 已開始下載。
