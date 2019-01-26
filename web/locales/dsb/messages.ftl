@@ -202,7 +202,7 @@ whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
 recordings-and-locale-public = Licba nagraśow a rěcow, ku kótarymž pśinosujośo, budu zjawne.
 username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
-demographic-deidentified = Na přeće wotpósłane demografiske daty (na př. staroba, splah, rěč a akcent) so z wašich wotpósłanych hłosowych datow wotstronja a ženje we wašim profilu njewozjewja.
+demographic-deidentified = Na žycenje wótpósłane demografiske daty (na pś. stastwo, rod, rěc a akcent) se z wašych wótpósłanych głosowych datow wótwónoźiju a nigda we wašom profilu njewózjawiju.
 username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Speak & Listen Shortcuts
@@ -392,13 +392,23 @@ review-delete-recordings = Nagraśa wulašowaś
 ## New Datasets Page
 
 datasets-headline = Twórimy wěcejrěcnu datowu sajźbu głosow wótwórjonego žrědła, kótaruž móžo kuždy wužywaś, aby powědańske nałoženja treněrował.
+datasets-positioning =
+    Wěrimy, zo wulke, zjawnje k dispoziciji stejace datowe sadźby inowaciju a strowe komercielne wubědźowanje w rěčenskej technologiji na zakładźe mašinoweho wuknjenja spěchuja.
+    
+    Wjacerěčna datjowa sadźba Common Voice je hižo najwjetša zjawnje k dispoziciji stejaca datowa sadźba swojeje družiny, ale njeje jenička.
+    
+    Mějće tutu stronu jako referencny dypk za druhe hłosowe datowe sadźy wotewrjeneho žórła a, dokelž Common Voice dale rosće, jako startowy dypk za naše najnowše aktualizacije.
 language = Rěc
 # File size in gigabytes
 size = Wjelikosć
+validated-hr-total = Wobkšuśone góźiny dogromady
+overall-hr-total = Góźiny dogromady
 cv-license = Licenca
 audio-format = Awdioformat
 number-of-voices = Licba głosow
+splits = Rozdźělenja
 email-to-download = E-mailowu adresu za ześěgnjenje zapódaś
+why-email = <b>Cogodla e-mailowa adresa?</b> Musymy se snaź z wami w pśichoźe wó změnach na datowej sajźbje do zwiska stajiś, e-mailowa adresa nam kontaktowu móžnosć dawa.
 confirm-size = Sćo za start ześěgnjenja wjelikosći <b>{ $size }</b> spśigótowany
 size-gigabyte = GB
 size-megabyte = MB
