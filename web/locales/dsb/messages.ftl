@@ -332,6 +332,10 @@ faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za 
 faq-why-10k-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědanje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
 faq-where-src-from-2-q = Wótkul žrědłowy tekst póchada?
+faq-where-src-from-2-a =
+    Naš žrědłowy tekst se z originalnych darow sobustatkujucego ako teke z dialoga z za wše wužytnych filmowych skriptow ako <italic>It's a Wonderful Life</italic> zestaja.
+    
+    Móžośo se naše žrědłowe sady w toś tom <githubLink>zarědniku GitHub</githubLink> woglědaś.
 faq-why-not-ask-read-q = Cogodla luźi njepšosyśo, z knigłow abo nastawkow Wikipedije w rozdźělnych rěcach pśedcytaś?
 faq-why-account-q = Cogodla dejał ja konto załožyś?
 faq-is-account-public-q = Su móje kontowe informacije zjawne?
@@ -349,6 +353,7 @@ hours-recorded-explanation = Licba dotychměst nagromaźonych nagratych góźino
 sst = Powědanje-do-teksta (STT)
 sst-explanation = Technologije Powědanje-do-teksta (STT) głosowe daty to teksta konwertěruju.
 de-identified = Anonymizěrowane
+de-identified-explanation = Proces, pśez kótaryž se profilowe informacije sobustatkujucego z jogo pósćonych głosowych klipow zamazuju, gaž se za ześěgnjenje ako źěl datoweje sajźby zapakuju.
 
 ## NotFound
 
