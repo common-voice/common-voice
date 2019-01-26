@@ -410,6 +410,18 @@ review-cancel = Sefsex tuzna
 review-keep-recordings = Eǧǧ ikalasen
 review-delete-recordings = Kkes ikalasen-iw
 
+## New Datasets Page
+
+language = Tutlayt
+# File size in gigabytes
+size = Teɣzi
+cv-license = Turagt
+email-to-download = Sekcem Imayl-inek/inem Akken ad tessidreḍ
+confirm-size = Theggaḍ akken ad tebduḍ asider n <b>{ $size }</b>
+size-gigabyte = GAṬ
+size-megabyte = MAṬ
+download-language = Sider { $language }
+
 ## Download Modal
 
 download-title = Asider-ik yekker.
