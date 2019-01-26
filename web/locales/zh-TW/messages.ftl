@@ -413,6 +413,13 @@ review-delete-recordings = 刪除我的錄音
 
 ## New Datasets Page
 
+datasets-headline = 我們正在打造一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
+datasets-positioning =
+    我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
+    
+    Common Voice 的多語言資料集已經成為最大的公開語音資料集，但不是唯一的一套。
+    
+    您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
 language = 語言
 # File size in gigabytes
 size = 大小
@@ -423,9 +430,11 @@ audio-format = 音檔格式
 number-of-voices = 語音數量
 splits = 分割
 email-to-download = 輸入 E-Mail 即可下載
+why-email = <b>為什麼需要 E-Mail?</b>未來我們可能會聯絡您，提供資料集的相關更新資訊。E-Mail 可作為我們聯絡您的方式。
 confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>您同意</b>不嘗試識別 Common Voice 資料集中，說話者的身分
 download-language = 下載 { $language } 資料集
 
 ## Download Modal
