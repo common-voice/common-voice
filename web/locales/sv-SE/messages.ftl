@@ -416,6 +416,26 @@ review-cancel = Avbryt inskickning
 review-keep-recordings = Behåll inspelningarna
 review-delete-recordings = Ta bort mina inspelningar
 
+## New Datasets Page
+
+datasets-headline = Vi skapar en flerspråkig röstinspelning med öppen källkod som alla kan använda för att träna röstbaserade applikationer.
+language = Språk
+# File size in gigabytes
+size = Storlek
+validated-hr-total = Totalt validerade timmar
+overall-hr-total = Totalt antal timmar
+cv-license = Licens
+audio-format = Ljudformat
+number-of-voices = Antal röster
+splits = Uppdelning
+email-to-download = Ange e-postadress för nedladdning
+why-email = <b>Varför en e-postadress?</b> Vi kanske behöver kontakta dig i framtiden om ändringar i datamängden, en e-postadress ger oss en kontaktmöjlighet.
+confirm-size = Du är beredd att initiera en nedladdning av <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Du godkänner</b> att du inte försöker bestämma talarnas identitet i Common Voice-datamängden
+download-language = Ladda ner { $language }
+
 ## Download Modal
 
 download-title = Din nerladdning har startat.
