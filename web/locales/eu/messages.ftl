@@ -371,7 +371,7 @@ data-download-button = Deskargatu Common Voiceko datuak
 data-download-yes = Bai
 data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
-data-download-modal = <size>{ $size }GB</size>tako deskarga bat hastear zaude, jarraitu?
+data-download-modal = <size>{ $size }GB</size>-etako deskarga bat hastear zaude, jarraitu?
 data-subtitle = Ahots datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena ahots teknologia duten aplikazioak trebatzeko.
 data-explanatory-text = Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako ahots teknologietan. Hau ekimen globala da eta guztiak gonbidatzen ditugu parte hartzera. Gure helburua ahots teknologia inklusiboagoa izaten laguntzea da, munduan zehar dauden ahots desberdinak islatuz.
 data-get-started = <speechBlogLink>Ikasi ahotsaren ezagutzari buruz</speechBlogLink>
@@ -549,9 +549,13 @@ overall-accuracy = Zehaztasun orokorra
 
 ## Profile Delete
 
-delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago dugu Common Voicen datu-sortan manten daitezen?
+delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago duzu Common Voicen datu-sortan manten daitezen?
 keep = Mantendu
 remove = Kendu
 keep-info = Zure ahots grabaketa anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabaketak datu-sortatik kentzerik.
 remove-info = Zure ahots grabaketak datu-sortatik ezabatzeko eskaria berrikusiko dugu. Zure eskaria onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabaketak ezabatzeko eskatuko diegu.
+why-delete-recordings =
+    Common Voice grabaketak hezkuntza zentroek eta ikerlariek, enpresa txikiek eta ahotsaren ezagutzaren zaleek erabiltzen dituzte publikoki erabilgarri dauden baliabideak trebatzeko eta hazteko, ahots ereduekin gertatzen den bezala.
+    
+    Esango al zeniguke zergatik nahi duzun zure grabaketak ezabatzea?
 profile-form-delete = Ezabatu profila
