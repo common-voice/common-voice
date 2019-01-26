@@ -406,6 +406,22 @@ review-cancel = Annulla invio
 review-keep-recordings = Conserva le registrazioni
 review-delete-recordings = Cancella le mie registrazioni
 
+## New Datasets Page
+
+datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite riconoscimento vocale.
+language = Lingua
+# File size in gigabytes
+size = Dimensione
+validated-hr-total = Totale ore convalidate
+overall-hr-total = Totale ore complessive
+cv-license = Licenza
+audio-format = Formato audio
+number-of-voices = Numero di voci
+confirm-size = Sei pronto per iniziare un download di <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Scarica { $language }
+
 ## Download Modal
 
 download-title = Download iniziato.
