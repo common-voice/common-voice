@@ -332,6 +332,10 @@ faq-why-10k-hours-q = Čehodla je 10.000 přepruwowanych hodźin na rěč cil za
 faq-why-10k-hours-a = To je přibližnje ličba hodźin, kotrež su trěbne, zo by produktiwny system rěčenje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice hodźiny wobličuje?
 faq-where-src-from-2-q = Zwotkel žórłowy tekst pochadźa?
+faq-where-src-from-2-a =
+    Naš žórłowy tekst z originalnych darow sobuskutkowarja kaž tež z dialoga z powšitkownosći wužitnych filmowych skriptow kaž <italic>It's a Wonderful Life</italic> zestaja.
+    
+    Móžeće sej naše žórłowe sady w tutym <githubLink>rjadowaku GitHub</githubLink> wobhladać.
 faq-why-not-ask-read-q = Čehodla ludźi njeprosyće, z knihow abo nastawkow Wikipedije w rozdźělnych rěčach předčitać?
 faq-why-account-q = Čehodla měł ja konto załožić?
 faq-is-account-public-q = Su moje kontowe informacije zjawne?
@@ -349,6 +353,7 @@ hours-recorded-explanation = Ličba dotal nahromadźenych natočenych hodźin.
 sst = Rěčenje-do-teksta (STT)
 sst-explanation = Technologije Rěčenje-do-teksta (STT) hłosowe daty to teksta konwertuja.
 de-identified = Anonymizowane
+de-identified-explanation = Proces, přez kotryž so profilowe informacije sobuskutkowarja z jeho darjenych hłosowych klipow zakrywaja, hdyž so za sćehnjenje jako dźěl datoweje sadźby pakuja.
 
 ## NotFound
 
@@ -395,7 +400,7 @@ datasets-headline = Tworimy wjacerěčnu datowu sadźbu hłosow wotewrjeneho ž�
 datasets-positioning =
     Wěrimy, zo wulke, zjawnje k dispoziciji stejace datowe sadźby inowaciju a strowe komercielne wubědźowanje w rěčenskej technologiji na zakładźe mašinoweho wuknjenja spěchuja.
     
-    Wjacerěčna datjowa sadźba Common Voice je hižo najwjetša zjawnje k dispoziciji stejaca datowa sadźba swojeje družiny, ale njeje jenička.
+    Wjacerěčna datowa sadźba Common Voice je hižo najwjetša zjawnje k dispoziciji stejaca datowa sadźba swojeje družiny, ale njeje jenička.
     
     Mějće tutu stronu jako referencny dypk za druhe hłosowe datowe sadźy wotewrjeneho žórła a, dokelž Common Voice dale rosće, jako startowy dypk za naše najnowše aktualizacije.
 language = Rěč
