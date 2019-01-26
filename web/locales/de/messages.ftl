@@ -413,6 +413,32 @@ review-cancel = Absenden abbrechen
 review-keep-recordings = Aufnahmen behalten
 review-delete-recordings = Aufnahmen löschen
 
+## New Datasets Page
+
+datasets-headline = Wir erstellen einen mehrsprachigen, quelloffenen Datensatz aus Stimmen, mit dem jeder sprachgestützte Anwendungen trainieren kann.
+datasets-positioning =
+    Wir glauben, dass große, öffentlich verfügbare Sprachdatensätze Innovation und einen gesunden kommerziellen Wettbewerb in der Sprachtechnologie auf Basis von Maschinenlernen fördern.
+    
+    Der mehrsprachige Datensatz von Common Voice ist bereits der größte öffentlich verfügbare Sprachdatensatz seiner Art, jedoch nicht das einzige.
+    
+    Betrachten Sie diese Seite als Referenzpunkt für andere quelloffene Sprachdatensätze. Wenn Common Voice weiter wächst, finden Sie hier die neuesten Updates.
+language = Sprache
+# File size in gigabytes
+size = Größe
+validated-hr-total = Insgesamt bestätigte Stunden
+overall-hr-total = Gesamtstunden
+cv-license = Lizenz
+audio-format = Audioformat
+number-of-voices = Anzahl der Stimmen
+splits = Unterteilungen
+email-to-download = Zum Download E-Mail-Adresse eingeben
+why-email = <b>Warum eine E-Mail-Adresse?</b> Möglicherweise müssen wir Sie in Zukunft über Änderungen am Datensatz informieren. Eine E-Mail-Adresse gibt uns eine Kontaktmöglichkeit.
+confirm-size = Sie können jetzt einen Download von <b>{ $size }</b> starten
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Sie stimmen zu</b>, nicht zu versuchen, die Identität der Sprecher im Common-Voice-Datensatz zu ermitteln
+download-language = { $Language } herunterladen
+
 ## Download Modal
 
 download-title = Ihr Download wurde gestartet.
