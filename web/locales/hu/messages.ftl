@@ -416,6 +416,19 @@ review-cancel = Beküldés megszakítása
 review-keep-recordings = Felvételek megtartása
 review-delete-recordings = Felvételeim törlése
 
+## New Datasets Page
+
+datasets-headline = Egy nyílt forráskódú, többnyelvű adatkészletet készítünk, amelyet bárki használhat beszédképességekkel rendelkező alkalmazások betanításához.
+datasets-positioning =
+    Hisszük, hogy a nagy, nyilvánosan elérhető hangadat-készletek elősegítik az innovációt és az egészséges kereskedelmi versenyt a gépi tanuláson alapuló beszédtechnológiában.
+    
+    A Common Voice többnyelvű adatkészlete már most a legnagyobb nyilvánosan hozzáférhető hangadat-készlet, de ez nem az egyetlen.
+    
+    Tekintsen erre az oldalra, mint egy referencia-központra, amely más nyílt forráskódú hangadat-készleteket tartalmaz, és ahogy a Common Voice tovább növekszik, ez lesz a frissített kiadások otthona is.
+language = Nyelv
+# File size in gigabytes
+size = Méret
+
 ## Download Modal
 
 download-title = A letöltés elkezdődött.
