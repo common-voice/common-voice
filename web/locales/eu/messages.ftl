@@ -323,6 +323,7 @@ faq-when-release-a = Komunitatea, Common Voice datu-sortaren bertsio eleaniztuna
 faq-why-mission-q = Zergatik da Common Voice  Mozilla misioaren parte?
 faq-why-mission-a = Mozillaren egitekoa, weba guztiontzat irekia eta eskuragarri mantentzea da. Horretarako, web sortzaileak Common Voice bezalako proiektuekin ahaldundu behar ditugu. Ahots teknologiek beraien merkatu-nitxotik haratagoko aplikazioetara hedatzen diren heinean, uste dugu erabiltzaile guztiei berdin zerbitzatu behar dietela. Horregatik saiatzen gara hizkuntza gehiagotara zabaltzen eta ahots teknologien sortzea eta proba, hizkera eta talde demografiko ezberdinetara moldatzen. Common Voice guztientzat eskuragarri dagoen baliabide publiko bat da eta munduan zehar dauden Mozilla taldeek eta garatzaileek, dagoeneko beraien proiektuetarako erabiltzen ari dira.
 faq-what-cv-and-deepspeech-q = Zein desberdintasun dago Common Voice-n eta Deep Speech-en artean?
+faq-what-cv-and-deepspeech-a = Common Voice datu-sortak, Mozillaren Deep Speech ahotsaren ezagutzarako motor librea osatzen du. Deep Speechen lehen bertsioa 2017ko azaroan argitaratu zen eta ordudanik eboluzionatzen jarraitu du. Honek eta Common Voice datu-sortak, ahotsaren ezagutzarako teknologiak izaki, denentzako eskuragarri egon behar dutela uste dugu. Teknologia hauek garatzaileei, produktu eta zerbitzu berritzaileen olatu bat sortzen laguntzea espero dugu.
 faq-is-goal-assistant-q = Common Voicen helburua ahots asistente bat sortzea al da?
 faq-is-goal-assistant-a = Common Voice datu-sortaren helburua, munduko edonori hizketaren ezagutza, hizlari detekzioa edo ahots datuak behar dituen beste edozein aplikazio sortzen laguntzea da. Ahots asistente bat datu-sortarekin sor daitekeen aplikazio motetako bat besterik ez da.
 faq-do-want-native-q = Ez naiz hizlari natiboa eta azentuarekin hitz egiten dut, hala ere nire ahotsa nahi duzue?
@@ -406,6 +407,12 @@ review-delete-recordings = Ezabatu nire grabazioak
 ## New Datasets Page
 
 datasets-headline = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena hizketa baliatzen duten aplikazioak trebatzeko.
+datasets-positioning =
+    Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako hizketaren teknologietan.
+    
+    Common Voice datu-sorta eleaniztuna, dagoeneko publikoki eskuragarri dagoen handiena da, baina ez da bakarra.
+    
+    Begira orri honetan agertzen diren beste ahots datu-sorta irekien erreferentziak.
 language = Hizkuntza
 # File size in gigabytes
 size = Tamaina
