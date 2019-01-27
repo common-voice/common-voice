@@ -329,6 +329,9 @@ faq-is-goal-assistant-a = Common Voice datu-sortaren helburua, munduko edonori h
 faq-do-want-native-q = Ez naiz hizlari natiboa eta azentuarekin hitz egiten dut, hala ere nire ahotsa nahi duzue?
 faq-do-want-native-a = Bai, zure ahotsa bereziki nahi dugu! Common Voicen helburuetako bat ahalik azentu desberdin gehien biltzea da, ahots ezagutza zerbitzuak guztiekin ondo ibil daitezen. Honek esan nahi du natiboak ez diren hizlarien laguntza bereziki erabilgarria dela.
 faq-why-different-speakers-q = Zergatik behar ditugu hainbeste hizlari desberdin hizkuntzako?
+faq-why-different-speakers-a =
+    Hizketa teknologia gehienak esparru demografiko zehatz batzuekin, <articleLink>klase ertaineko gizonezkoekin</articleLink>, beste guztiekin baino gehiago trebatzen dira. Ordezkaritza nahikorik gabe geratu ohi diren azentuak eta dialektoak, hain zuzen, dagoeneko marjinaturik dauden giza taldeei dagozkienak izaten dira. Makina askok emakumezkoen ahotsak ere ulertzeko arazoak dituzte.
+    Horregatik nahi dugu aniztasuna gure ahots datu-sortan!
 faq-why-my-lang-q = Zergatik ez da nire hizkuntza hemen agertzen?
 faq-what-quality-q = Zenbateko audio kalitatea behar da grabaketa datu-sortan erabilia izan dadin?
 faq-why-10k-hours-q = Zergatik lortu behar dira balioztatutako 10.000 audio ordu hizkuntza bakoitzean?
