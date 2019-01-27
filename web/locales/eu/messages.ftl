@@ -410,9 +410,11 @@ cv-license = Lizentzia
 audio-format = Audio formatua
 number-of-voices = Ahots kopurua
 email-to-download = Sartu e-posta deskargatzeko
+why-email = <b>Zergatik e-posta bat?</b> Baliteke etorkizunean zurekin harremanetan jarri behar izatea datu-sortako aldaketengatik. Hori gertatuz gero, e-posta baliatuko genuke.
 confirm-size = <b>{ $size }</b>-eko deskarga bat hastera zoaz
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Onartzen duzu</b> ez zarela saiatuko Common Voice datu-sortako hizlarien identitatea ondorioztatzen.
 download-language = Deskargatu { $language }
 
 ## Download Modal
