@@ -403,6 +403,7 @@ review-delete-recordings = Deler mi registrationes
 
 ## New Datasets Page
 
+datasets-headline = Nos produce un collection de datos open-source e multe-lingua que omnes pote usar pro provar applicationes activate per le voce.
 language = Lingua
 # File size in gigabytes
 size = Dimension
@@ -412,8 +413,10 @@ cv-license = Licentia
 audio-format = Formato audio
 number-of-voices = Numero de voces
 email-to-download = Insere email a discargar
+confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Tu concorda</b> de non tentar de determinar le identitate del parlantes in le collection de datos de Common Voice
 download-language = Discargar { $language }
 
 ## Download Modal
