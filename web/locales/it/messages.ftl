@@ -423,6 +423,7 @@ overall-hr-total = Totale ore complessive
 cv-license = Licenza
 audio-format = Formato audio
 number-of-voices = Numero di voci
+splits = Divisioni
 email-to-download = Inserisci la tua email per iniziare il download
 why-email = <b>Perché devo dare il mio indirizzo email?</b> Servirà come contatto a cui inviarti informazioni su eventuali future modifiche ai dataset.
 confirm-size = Sei pronto per iniziare un download di <b>{ $size }</b>
