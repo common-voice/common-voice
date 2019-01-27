@@ -401,6 +401,21 @@ review-cancel = Cancellar invio
 review-keep-recordings = Retener le registrationes
 review-delete-recordings = Deler mi registrationes
 
+## New Datasets Page
+
+language = Lingua
+# File size in gigabytes
+size = Dimension
+validated-hr-total = Horas validate Total
+overall-hr-total = Horas total
+cv-license = Licentia
+audio-format = Formato audio
+number-of-voices = Numero de voces
+email-to-download = Insere email a discargar
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Discargar { $language }
+
 ## Download Modal
 
 download-title = Tu discarga initiava
