@@ -226,7 +226,7 @@
         display: flex;
 
         @media (--md-down) {
-            padding: 0 20px;
+            padding: 40px 20px 0;
             flex-direction: column;
         }
 
@@ -248,6 +248,20 @@
         }
 
         & .text {
+            & .line {
+                width: 70px;
+                height: 3px;
+                background: linear-gradient(to right, #f89096, #b1b4e5);
+
+                @media (--md-down) {
+                    margin-bottom: 20px;
+                }
+
+                @media (--lg-up) {
+                    margin-bottom: 30px;
+                }
+            }
+
             & h1 {
                 font-weight: normal;
 

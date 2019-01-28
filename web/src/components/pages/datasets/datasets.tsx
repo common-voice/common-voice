@@ -177,6 +177,7 @@ class DatasetsPage extends React.Component<
         <div className="description">
           <CircleStats className="hidden-md-down" />
           <div className="text">
+            <div className="line" />
             <Localized id="whats-inside">
               <h1 />
             </Localized>
