@@ -413,6 +413,14 @@ review-cancel = Cancelar envio
 review-keep-recordings = Manter as gravações
 review-delete-recordings = Excluir minhas gravações
 
+## New Datasets Page
+
+language = Idioma
+# File size in gigabytes
+size = Tamanho
+cv-license = Licença
+audio-format = Formato de áudio
+
 ## Download Modal
 
 download-title = Seu download começou.
