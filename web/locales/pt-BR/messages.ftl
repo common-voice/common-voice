@@ -438,6 +438,13 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Você concorda</b> com não tentar determinar a identidade de falantes no conjunto de dados do Common Voice
 download-language = Baixar { $language }
+validated-hours = Horas validadas
+recorded-hours = Horas gravadas
+whats-inside = O que existe dentro do conjunto de dados do Common Voice?
+dataset-description =
+    Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b>{ $hours }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
+    
+    O conjunto de dados atualmente consiste de <b>{ $hours }</b> horas validadas em <b>{ $languageCount }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
 
 ## Download Modal
 
