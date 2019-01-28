@@ -431,6 +431,9 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>您同意</b>不试图去确定 Common Voice 数据集中任何说话者的身份
 download-language = 下载 { $language }
+validated-hours = 已验证小时数
+recorded-hours = 已录制小时数
+whats-inside = Common Voice 数据集里面有什么？
 
 ## Download Modal
 
