@@ -429,6 +429,10 @@ download-language = Discargar { $language }
 validated-hours = Horas validate
 recorded-hours = Horas registrate
 whats-inside = Que es intra le collection de datos de Common Voice?
+dataset-description =
+    Cata entrata in le collection de datos consiste solo de un MP3 e del file de texto correspondente. Multe del <b>{ $horas }</b> horas registrate in le collection de datos alsi include demographic metadatos como etate, sexo e accento, que pote adjutar a maestrar le precision del motores de recognition del voce.
+    
+    Le collection de datos actualmente consiste de <b>{ $horas }</b> horas validate in <b>{ $languageCount }</b> linguas, ma nos adde sempre altere voces e linguas. Perspice nostre <languagesLink>Pagina del linguas</languagesLink> pro requirer un lingua o pro initiar a collaborar.
 
 ## Download Modal
 
