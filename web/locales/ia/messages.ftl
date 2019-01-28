@@ -409,7 +409,7 @@ datasets-positioning =
     
     Le collection de datos multe-lingua de Common Voice es jam le plus grande collection de datos vocal de su sorta publicamente disponibile, ma illo non es sol.
     
-    Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
+    Reguarda a iste pagina como centro de referentia pro altere collectiones de datos vocal open-source e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
 language = Lingua
 # File size in gigabytes
 size = Dimension
@@ -420,6 +420,7 @@ audio-format = Formato audio
 number-of-voices = Numero de voces
 splits = Cesuras
 email-to-download = Insere email a discargar
+why-email = <b>Perque un email?</b> Nos pote deber continger te in le futuro re cambios <t0/>al collection de datos, un email forni nos un puncto de contacto.
 confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
