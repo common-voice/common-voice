@@ -419,6 +419,9 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Zwoliće</b> do toho, zo njespytaće, identitu rěčnikow w datowej sadźbje zwěsćić
 download-language = { $language } sćahnyć
+validated-hours = Wobkrućene hodźiny
+recorded-hours = Natočene hodźiny
+whats-inside = Što je w datowej sadźbje Common Voice?
 
 ## Download Modal
 
