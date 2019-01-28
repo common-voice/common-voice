@@ -248,6 +248,8 @@ english = angleščina
 
 profile-form-username =
     .label = Uporabniško ime
+profile-form-additional-language =
+    .label = Dodatni jezik
 profile-form-accent =
     .label = Naglas
 profile-form-age =
