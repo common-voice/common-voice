@@ -435,6 +435,9 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Du godkänner</b> att du inte försöker bestämma talarnas identitet i Common Voice-datamängden
 download-language = Ladda ner { $language }
+validated-hours = Validerade timmar
+recorded-hours = Inspelade timmar
+whats-inside = Vad finns i Common Voice-datamängd?
 
 ## Download Modal
 
