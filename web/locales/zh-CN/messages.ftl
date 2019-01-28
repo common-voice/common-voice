@@ -122,21 +122,21 @@ help = 帮助
 contact = 联系我们
 privacy = 隐私权
 terms = 使用条款
-cookies = Cookies
+cookies = Cookie
 faq = 常见问题
 content-license-text = 内容遵循<licenseLink>知识共享许可协议</licenseLink>进行授权
-share-title = 帮我们找到更多人来贡献声音！
-share-text = 帮助训练机器像真人一样说话，请在 { $link } 处贡献出您的声音
+share-title = 帮我们找人一起献声！
+share-text = 请到 { $link } 处贡献出您的声音，帮助我们教导机器人们是如何说话的。
 link-copied = 链接已复制
 back-top = 回到顶端
-logout = 退出
+logout = 退出登录
 
 ## Home Page
 
-home-title = Common Voice 项目是 Mozilla 的倡议，旨在帮助训练机器像真人一样说话。
-home-cta = 大胆发声，为此献声！
-wall-of-text-start = 语音应该是自然、人性化的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
-wall-of-text-more-mobile = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别技术对每个人的开放。
+home-title = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。
+home-cta = 有话在此大声说！
+wall-of-text-start = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，需要大量的语音数据。
+wall-of-text-more-mobile = 大部分由大公司持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放。
 wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 朗读一个句子以帮助计算机学习真人说话。复查其他贡献者的工作以提高质量。就这么简单!
 wall-of-text-first = 语音应该是自然、人性的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-second = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别对所有人的开放。
