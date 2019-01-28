@@ -331,6 +331,7 @@ faq-what-quality-q = Kotra awdiokwalita je trěbna, zo by so hłosowy klip w dat
 faq-why-10k-hours-q = Čehodla je 10.000 přepruwowanych hodźin na rěč cil za awdionatočenje?
 faq-why-10k-hours-a = To je přibližnje ličba hodźin, kotrež su trěbne, zo by produktiwny system rěčenje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice hodźiny wobličuje?
+faq-how-calc-hours-a = Trochujemy přerěznu dołhosć kóždeho natočenja a multiplikujemy potom tutu ličbu z cyłkownej ličbu natočenjow přez wšě rěče, zo bychmy hodźiny wuličili.
 faq-where-src-from-2-q = Zwotkel žórłowy tekst pochadźa?
 faq-where-src-from-2-a =
     Naš žórłowy tekst z originalnych darow sobuskutkowarja kaž tež z dialoga z powšitkownosći wužitnych filmowych skriptow kaž <italic>It's a Wonderful Life</italic> zestaja.
