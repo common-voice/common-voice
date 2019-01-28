@@ -426,6 +426,9 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Tu concorda</b> de non tentar de determinar le identitate del parlantes in le collection de datos de Common Voice
 download-language = Discargar { $language }
+validated-hours = Horas validate
+recorded-hours = Horas registrate
+whats-inside = Que es intra le collection de datos de Common Voice?
 
 ## Download Modal
 
