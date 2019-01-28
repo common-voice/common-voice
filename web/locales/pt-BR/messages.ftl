@@ -415,7 +415,7 @@ review-delete-recordings = Excluir minhas gravações
 
 ## New Datasets Page
 
-datasets-headline = Estamos construindo um conjunto de vozes multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
+datasets-headline = Estamos construindo um conjunto de dados de voz multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
 datasets-positioning =
     Acreditamos que grandes conjuntos de dados de voz, disponíveis publicamente, irão fomentar a inovação e a competição comercial saudável em tecnologias de voz baseadas em aprendizado de máquina.
     
@@ -430,6 +430,10 @@ overall-hr-total = Total de horas
 cv-license = Licença
 audio-format = Formato de áudio
 number-of-voices = Número de vozes
+splits = Divisões
+email-to-download = Informe um e-mail para baixar
+why-email = <b>Por que um e-mail?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados, um e-mail nos fornece um meio de contato.
+confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Você concorda</b> com não tentar determinar a identidade de falantes no conjunto de dados do Common Voice
