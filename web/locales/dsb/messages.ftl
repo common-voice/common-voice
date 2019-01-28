@@ -419,6 +419,9 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Zwolijośo</b> do togo, až njewopytajośo, identitu powědarjow w datowej sajźbje zwěsćiś
 download-language = { $language } sćahnyć
+validated-hours = Wobkšuśone góźiny
+recorded-hours = Nagrate góźiny
+whats-inside = Co jo w datowej sajźbje Common Voice?
 
 ## Download Modal
 
