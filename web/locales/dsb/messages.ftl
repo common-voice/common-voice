@@ -331,6 +331,7 @@ faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w dat
 faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za awdionagraśe?
 faq-why-10k-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědanje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
+faq-how-calc-hours-a = Licymy pśerěznu dłujkosć kuždego nagraśa a multiplicěrujomy pón toś tu licbu z cełkowneju licbu nagraśow pśez wšykne rěcy, aby góźiny wulicyli.
 faq-where-src-from-2-q = Wótkul žrědłowy tekst póchada?
 faq-where-src-from-2-a =
     Naš žrědłowy tekst se z originalnych darow sobustatkujucego ako teke z dialoga z za wše wužytnych filmowych skriptow ako <italic>It's a Wonderful Life</italic> zestaja.
