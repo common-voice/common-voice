@@ -418,8 +418,15 @@ review-delete-recordings = Excluir minhas gravações
 language = Idioma
 # File size in gigabytes
 size = Tamanho
+validated-hr-total = Total de horas validadas
+overall-hr-total = Total de horas
 cv-license = Licença
 audio-format = Formato de áudio
+number-of-voices = Número de vozes
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Você concorda</b> com não tentar determinar a identidade de falantes no conjunto de dados do Common Voice
+download-language = Baixar { $language }
 
 ## Download Modal
 
