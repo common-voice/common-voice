@@ -190,6 +190,7 @@ sign-up-account = Konto załožić
 ## Account Benefits
 
 benefits = Lěpšiny
+rich-data = Podajće anonymne demografiske daty, zo byšće wužitk swojich zapodatych datow powyšił. Anonymizujemy wšě demografiske daty, prjedy hač je wozjewimy.
 improve-audio = Profilowe informacije awdiodaty polěpšeja, kotrež so při trenowanju dokładnosće rěčenskeho spóznaća wužiwaja.
 keep-track = Wobchowajće swój postup a swoje měrjenske daty za wjacore rěče we wóčku.
 compare-progress = Hladajće, kak so swój postup z druhimi sobuskutkowajemi z cyłeho swěta přirunuje.
