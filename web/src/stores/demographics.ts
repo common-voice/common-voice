@@ -61,6 +61,11 @@ export const ACCENTS: any = {
   eo: {
     internacia: 'Internacia',
   },
+  eu: {
+    mendebalekoa: 'Mendebalekoa (Araka, Bizkaia, Gipuzkoako mendebaleko herri batzuk)',
+    erdialdekoa_nafarra: 'Erdialdekoa edo Nafarra (Gipuzkoa, Nafarroa)',
+    nafarlapurtarra_zuberoatarra: 'Nafar-lapurtarra edo Zuberotarra (Lapurdi, Nafarroa Beherea, Zuberoa)',
+  },
   fr: {
     france: 'Français de France',
     madagascar: 'Français de Madagascar',
