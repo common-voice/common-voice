@@ -404,6 +404,12 @@ review-delete-recordings = Deler mi registrationes
 ## New Datasets Page
 
 datasets-headline = Nos produce un collection de datos open-source e multe-lingua que omnes pote usar pro provar applicationes activate per le voce.
+datasets-positioning =
+    Nos crede que le grande e publicamente disponibile collectiones de datos vocal favori le innovation e le salubre competition commercial in le apprendimento automatic basate sur le technologia del voce.
+    
+    Le collection de datos multe-lingua de Common Voice es jam le plus grande collection de datos vocal de su sorta publicamente disponibile, ma illo non es sol.
+    
+    Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
 language = Lingua
 # File size in gigabytes
 size = Dimension
@@ -412,6 +418,7 @@ overall-hr-total = Horas total
 cv-license = Licentia
 audio-format = Formato audio
 number-of-voices = Numero de voces
+splits = Cesuras
 email-to-download = Insere email a discargar
 confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
