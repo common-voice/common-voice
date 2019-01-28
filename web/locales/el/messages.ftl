@@ -357,6 +357,17 @@ review-cancel = Ακύρωση υποβολής
 review-keep-recordings = Διατήρηση ηχογραφήσεων
 review-delete-recordings = Διαγραφή ηχογραφήσεων
 
+## New Datasets Page
+
+language = Γλώσσα
+# File size in gigabytes
+size = Μέγεθος
+cv-license = Άδεια
+audio-format = Μορφή ήχου
+number-of-voices = Αριθμός φωνών
+size-gigabyte = GB
+size-megabyte = MB
+
 ## Download Modal
 
 download-title = Η λήψη σας ξεκίνησε.
