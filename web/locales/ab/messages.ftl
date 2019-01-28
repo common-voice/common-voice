@@ -45,6 +45,7 @@ home-cta = Иҳәаа, агәылаҵа уҭагала
 show-wall-of-text = Иԥкааны
 vote-yes = Аеи
 vote-no = Мап
+speak-subtitle = Убжьы ақәшәарга
 speak-goal-text = Анҵамҭақәа абжьы ахарҵит
 all-locales = Зегьы
 today = Иахьа
