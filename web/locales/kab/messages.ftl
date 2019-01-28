@@ -416,6 +416,7 @@ language = Tutlayt
 # File size in gigabytes
 size = Teɣzi
 cv-license = Turagt
+number-of-voices = Amḍan n tuɣac
 email-to-download = Sekcem Imayl-inek/inem Akken ad tessidreḍ
 confirm-size = Theggaḍ akken ad tebduḍ asider n <b>{ $size }</b>
 size-gigabyte = GAṬ
