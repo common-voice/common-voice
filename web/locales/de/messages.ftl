@@ -438,6 +438,13 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Sie stimmen zu</b>, nicht zu versuchen, die Identität der Sprecher im Common-Voice-Datensatz zu ermitteln
 download-language = { $Language } herunterladen
+validated-hours = Bestätigte Stunden
+recorded-hours = Aufgenommene Stunden
+whats-inside = Was steckt im Common-Voice-Datensatz?
+dataset-description =
+    Jeder Eintrag im Datensatz besteht aus einer eindeutigen MP3- und zugehörigen Textdatei. Viele der <b>{ $hours }</b> aufgezeichneten Stunden im Datensatz enthalten auch demografische Metadaten wie Alter, Geschlecht und Akzent, mit deren Hilfe die Genauigkeit von Spracherkennungs-Engines trainiert werden kann.
+    
+    Der Datensatz besteht derzeit aus <b>{ $hours }</b> bestätigten Stunden in <b>{ $languageCount }</b> Sprachen, aber wir fügen immer mehr Stimmen und Sprachen hinzu. Besuchen Sie unsere <languagesLink>Sprachen-Seite</languagesLink>, um eine Sprache anzufordern oder mitzumachen.
 
 ## Download Modal
 
