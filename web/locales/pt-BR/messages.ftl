@@ -415,6 +415,13 @@ review-delete-recordings = Excluir minhas gravações
 
 ## New Datasets Page
 
+datasets-headline = Estamos construindo um conjunto de vozes multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
+datasets-positioning =
+    Acreditamos que grandes conjuntos de dados de voz, disponíveis publicamente, irão fomentar a inovação e a competição comercial saudável em tecnologias de voz baseadas em aprendizado de máquina.
+    
+    O conjunto de dados multi-idioma do Common Voice já é o maior conjunto de dados de voz do seu tipo disponível publicamente, mas não é o único.
+    
+    Considere esta página como um centro de referência para outros conjuntos de dados de voz de código aberto e, à medida que o Common Voice continua a crescer, o local de lançamento de nossas atualizações.
 language = Idioma
 # File size in gigabytes
 size = Tamanho
