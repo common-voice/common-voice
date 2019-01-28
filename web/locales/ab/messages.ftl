@@ -45,6 +45,7 @@ home-cta = Иҳәаа, агәылаҵа уҭагала
 show-wall-of-text = Иԥкааны
 vote-yes = Аеи
 vote-no = Мап
+speak-goal-text = Анҵамҭақәа абжьы ахарҵит
 all-locales = Зегьы
 today = Иахьа
 x-weeks-short =
@@ -103,6 +104,10 @@ english = Англыз
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ахархәаҩ ихьӡ
+profile-form-native-language =
+    .label = Ахатәы бызшәа
 profile-form-accent =
     .label = Ацәажәашьа
 profile-form-age =
@@ -123,6 +128,7 @@ dashboard = Апанель
 avatar = Асахьа
 goals = Ахықәкқәа
 settings = Архиарақәа
+edit-profile = Аредакциа аҷыдахәра
 profile-close = Иарктәуп
 login-identity = Ахаҭарбага аҭаларазы
 login-signup = Аҭалара/Аҽҭагалара
@@ -176,6 +182,10 @@ review-delete-recordings = Сынҵарақәа ықәгатәуп
 
 ## New Datasets Page
 
+language = Абызшәа
+# File size in gigabytes
+size = Ашәагаа
+cv-license = Алицензиа
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = Ихҩылаатәуп { $language }
