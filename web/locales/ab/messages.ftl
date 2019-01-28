@@ -174,6 +174,9 @@ review-cancel = Ашьҭра мап ацәктәуп
 review-keep-recordings = Анҵарақәа иааныжьтәуп
 review-delete-recordings = Сынҵарақәа ықәгатәуп
 
+## New Datasets Page
+
+
 ## Download Modal
 
 download-title = Ухҩылаара иалагеит.
@@ -240,10 +243,16 @@ days =
         [one] мышкы
        *[other] мш
     }
+recordings =
+    { $count ->
+        [one] нҵамҭк
+       *[other] нҵамҭ
+    }
 
 ## Dashboard
 
 your-languages = Убызшәақәа
+stats = Аҭагылазаашьа
 you = Уара
 everyone = Зегь ахархәаҩцәа
 
