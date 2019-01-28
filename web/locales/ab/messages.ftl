@@ -176,6 +176,9 @@ review-delete-recordings = Сынҵарақәа ықәгатәуп
 
 ## New Datasets Page
 
+size-gigabyte = ГБ
+size-megabyte = МБ
+download-language = Ихҩылаатәуп { $language }
 
 ## Download Modal
 
@@ -235,7 +238,8 @@ record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
 record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны ари аҳәоу уаԥхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ихианы ианбаҟало
 record-three-more-instruction = Х-ҳәоук аанхеит!
-record-abort-continue = анҵамҭа иалгатәуп
+record-abort-submit = Анҵамҭақәа иадәықәҵатәуп
+record-abort-continue = Анҵамҭа иалгатәуп
 listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
 record-button-label = Убжьы иҭаҩтәуп
 
@@ -259,6 +263,7 @@ your-languages = Убызшәақәа
 stats = Аҭагылазаашьа
 you = Уара
 everyone = Зегь ахархәаҩцәа
+recorded-clips = Анҵамҭақәа абжьы ахарҵит
 
 ## Profile Delete
 
