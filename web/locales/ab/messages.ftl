@@ -235,9 +235,13 @@ record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
 record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны ари аҳәоу уаԥхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ихианы ианбаҟало
 record-three-more-instruction = Х-ҳәоук аанхеит!
+record-abort-continue = анҵамҭа иалгатәуп
+listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
+record-button-label = Убжьы иҭаҩтәуп
 
 ## Goals
 
+streaks = Еиқәырццакны
 days =
     { $count ->
         [one] мышкы
