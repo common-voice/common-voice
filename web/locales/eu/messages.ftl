@@ -431,6 +431,9 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Onartzen duzu</b> ez zarela saiatuko Common Voice datu-sortako hizlarien identitatea ondorioztatzen.
 download-language = Deskargatu { $language }
+validated-hours = Balioztatutako orduak
+recorded-hours = Grabatutako orduak
+whats-inside = Zer dago Common Voice datu-sortaren barnean?
 
 ## Download Modal
 
