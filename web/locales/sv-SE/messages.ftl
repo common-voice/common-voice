@@ -420,9 +420,9 @@ review-delete-recordings = Ta bort mina inspelningar
 
 datasets-headline = Vi skapar en flerspråkig röstinspelning med öppen källkod som alla kan använda för att träna röstbaserade applikationer.
 datasets-positioning =
-    Vi tror att stora, allmänt tillgängliga röstdataset kommer att främja innovation och hälsosam kommersiell konkurrens i maskinlärande baserad talteknik.
+    Vi tror att stora, allmänt tillgängliga röstdatamängder kommer att främja innovation och hälsosam kommersiell konkurrens i maskinlärande baserad talteknik.
     
-    Common Voices flerspråkiga dataset är redan den största offentligt tillgängliga röstdatasatsen av sitt slag, men det är inte den enda.
+    Common Voices flerspråkiga datamängd är redan den största offentligt tillgängliga röstdatamängden av sitt slag, men den är inte den enda.
     
     Titta på den här sidan som referensnav för andra datakällor med öppen källkod och, eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
 language = Språk
@@ -445,9 +445,9 @@ validated-hours = Validerade timmar
 recorded-hours = Inspelade timmar
 whats-inside = Vad finns i Common Voice-datamängd?
 dataset-description =
-    Varje post i datasetet består av en unik MP3 och motsvarande textfil. Många av de <b>{ $hours }</b>  inspelade timmarna i datasetet innehåller även demografiska metadata som ålder, kön och accent som kan hjälpa till att träna noggrannheten för taligenkänningsmotorer.
+    Varje post i datamängden består av en unik MP3 och motsvarande textfil. Många av de <b>{ $hours }</b> inspelade timmarna i datamängden innehåller även demografiska metadata som ålder, kön och accent som kan hjälpa till att träna noggrannheten för taligenkänningsmotorer.
     
-    Datasetet består för närvarande av <b>{ $hours }</b> validerade timmar på språk i <b>{ $languageCount }</b> men vi lägger alltid till fler röster och språk. Ta en titt på vår <languagesLink>Språk sida</languagesLink> för att begära ett språk eller börja bidra.
+    Datamängden består för närvarande av <b>{ $hours }</b> validerade timmar på språk i <b>{ $languageCount }</b> men vi lägger alltid till fler röster och språk. Ta en titt på vår <languagesLink>Språk sida</languagesLink> för att begära ett språk eller börja bidra.
 
 ## Download Modal
 
