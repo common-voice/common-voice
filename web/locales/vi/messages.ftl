@@ -434,6 +434,13 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Bạn đồng ý</b> về việc không cố gắng xác định danh tính của người nói trong bộ dữ liệu Common Voice
 download-language = Tải xuống { $language }
+validated-hours = Số giờ đã xác thực
+recorded-hours = Số giờ đã ghi âm
+whats-inside = Những gì bên trong bộ dữ liệu Common Voice?
+dataset-description =
+    Mỗi mục trong bộ dữ liệu bao gồm một tệp MP3 và tệp văn bản tương ứng. Nhiều <b>{ $hours }</b> giờ được ghi trong tập dữ liệu cũng bao gồm siêu dữ liệu nhân khẩu học như tuổi, giới tính và giọng nói có thể giúp đào tạo tính chính xác của các công cụ nhận dạng giọng nói.
+    
+    Bộ dữ liệu hiện bao gồm <b>{ $hours }</b> giờ được xác thực bằng các ngôn ngữ <b>{ $languageCount }</b>, nhưng chúng tôi luôn luôn thêm nhiều tiếng nói và ngôn ngữ. Hãy xem <languagesLink>trang ngôn ngữ</languagesLink> của chúng tôi để yêu cầu ngôn ngữ hoặc bắt đầu đóng góp.
 
 ## Download Modal
 
