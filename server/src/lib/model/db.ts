@@ -1,13 +1,10 @@
-import { pick } from 'lodash';
 import { getConfig } from '../../config-helper';
 import { hash } from '../utility';
 import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
-import { UserTable } from './db/tables/user-table';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 import { IDEAL_SPLIT, randomBucketFromDistribution } from './split';
-import UserClient from './user-client';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -40,14 +37,12 @@ export default class DB {
   clip: ClipTable;
   mysql: Mysql;
   schema: Schema;
-  user: UserTable;
   vote: VoteTable;
 
   constructor() {
     this.mysql = getMySQLInstance();
 
     this.clip = new ClipTable(this.mysql);
-    this.user = new UserTable(this.mysql);
     this.vote = new VoteTable(this.mysql);
 
     this.schema = new Schema(this.mysql);
@@ -607,15 +602,6 @@ export default class DB {
       `,
       [id, client_id]
     );
-  }
-
-  async getUser(email: string) {
-    return (await this.mysql.query(
-      `
-        SELECT * FROM users WHERE email = ?
-      `,
-      [email]
-    ))[0][0];
   }
 
   async saveActivity(client_id: string, locale: string) {

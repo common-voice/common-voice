@@ -190,6 +190,7 @@ sign-up-account = Konto załožyś
 ## Account Benefits
 
 benefits = Lěpšyny
+rich-data = Pódajśo anonymne demografiske daty, aby wužytk swójich zapódanych datow pówušył. Anonymizěrujomy wšykne demografiske daty, nježli až je wózjawijomy.
 improve-audio = Profilowe informacije awdiodaty pólěpšuju, kótarež se pśi treněrowanju dokradnosći powědańskego spóznaśa wužywaju.
 keep-track = Mějśo swój póstup a swóje měrjeńske daty za někotare rěcy na wócyma.
 compare-progress = Glědajśo, kak se swój póstup z drugimi sobustatkujucymi z cełego swěta pśirownujo.
@@ -202,6 +203,7 @@ whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
 recordings-and-locale-public = Licba nagraśow a rěcow, ku kótarymž pśinosujośo, budu zjawne.
 username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
+demographic-deidentified = Na žycenje wótpósłane demografiske daty (na pś. stastwo, rod, rěc a akcent) se z wašych wótpósłanych głosowych datow wótwónoźiju a nigda we wašom profilu njewózjawiju.
 username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Speak & Listen Shortcuts
@@ -330,7 +332,12 @@ faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w dat
 faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za awdionagraśe?
 faq-why-10k-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědanje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
+faq-how-calc-hours-a = Licymy pśerěznu dłujkosć kuždego nagraśa a multiplicěrujomy pón toś tu licbu z cełkowneju licbu nagraśow pśez wšykne rěcy, aby góźiny wulicyli.
 faq-where-src-from-2-q = Wótkul žrědłowy tekst póchada?
+faq-where-src-from-2-a =
+    Naš žrědłowy tekst se z originalnych darow sobustatkujucego ako teke z dialoga z za wše wužytnych filmowych skriptow ako <italic>It's a Wonderful Life</italic> zestaja.
+    
+    Móžośo se naše žrědłowe sady w toś tom <githubLink>zarědniku GitHub</githubLink> woglědaś.
 faq-why-not-ask-read-q = Cogodla luźi njepšosyśo, z knigłow abo nastawkow Wikipedije w rozdźělnych rěcach pśedcytaś?
 faq-why-account-q = Cogodla dejał ja konto załožyś?
 faq-is-account-public-q = Su móje kontowe informacije zjawne?
@@ -348,6 +355,7 @@ hours-recorded-explanation = Licba dotychměst nagromaźonych nagratych góźino
 sst = Powědanje-do-teksta (STT)
 sst-explanation = Technologije Powědanje-do-teksta (STT) głosowe daty to teksta konwertěruju.
 de-identified = Anonymizěrowane
+de-identified-explanation = Proces, pśez kótaryž se profilowe informacije sobustatkujucego z jogo pósćonych głosowych klipow zamazuju, gaž se za ześěgnjenje ako źěl datoweje sajźby zapakuju.
 
 ## NotFound
 
@@ -387,6 +395,35 @@ review-rerecord = Znowego nagraś
 review-cancel = Wótpósłanje pśetergnuś
 review-keep-recordings = Nagraśa wobchować
 review-delete-recordings = Nagraśa wulašowaś
+
+## New Datasets Page
+
+datasets-headline = Twórimy wěcejrěcnu datowu sajźbu głosow wótwórjonego žrědła, kótaruž móžo kuždy wužywaś, aby powědańske nałoženja treněrował.
+datasets-positioning =
+    Wěrimy, až wjelike, zjawnje k dispoziciji stojece datowe sajźby inowaciju a strowe komercielne wuběźowanje w powědańskej technologiji na zakłaźe mašinowego wuknjenja spěchuju.
+    
+    Wěcejrěcna datowa sajźba Common Voice jo južo nejwětša zjawnje k dispoziciji stojeca datowa sajźba swójeje družyny, ale njejo jadnučka.
+    
+    Mějśo toś ten bok ako referencny dypk za druge głosowe datowe sajbźy wótwórjonego žrědła a, dokulaž Common Voice dalej rosćo, ako startowy dypk za naše nejnowše aktualizacije.
+language = Rěc
+# File size in gigabytes
+size = Wjelikosć
+validated-hr-total = Wobkšuśone góźiny dogromady
+overall-hr-total = Góźiny dogromady
+cv-license = Licenca
+audio-format = Awdioformat
+number-of-voices = Licba głosow
+splits = Rozdźělenja
+email-to-download = E-mailowu adresu za ześěgnjenje zapódaś
+why-email = <b>Cogodla e-mailowa adresa?</b> Musymy se snaź z wami w pśichoźe wó změnach na datowej sajźbje do zwiska stajiś, e-mailowa adresa nam kontaktowu móžnosć dawa.
+confirm-size = Sćo za start ześěgnjenja wjelikosći <b>{ $size }</b> spśigótowany
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Zwolijośo</b> do togo, až njewopytajośo, identitu powědarjow w datowej sajźbje zwěsćiś
+download-language = { $language } sćahnyć
+validated-hours = Wobkšuśone góźiny
+recorded-hours = Nagrate góźiny
+whats-inside = Co jo w datowej sajźbje Common Voice?
 
 ## Download Modal
 

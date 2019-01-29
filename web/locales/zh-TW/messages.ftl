@@ -411,6 +411,39 @@ review-cancel = 取消送出
 review-keep-recordings = 保留錄音
 review-delete-recordings = 刪除我的錄音
 
+## New Datasets Page
+
+datasets-headline = 我們正在打造一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
+datasets-positioning =
+    我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
+    
+    Common Voice 的多語言資料集已經成為最大的公開語音資料集，但不是唯一的一套。
+    
+    您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
+language = 語言
+# File size in gigabytes
+size = 大小
+validated-hr-total = 總驗證時數
+overall-hr-total = 全體總時數
+cv-license = 授權條款
+audio-format = 音檔格式
+number-of-voices = 語音數量
+splits = 分割
+email-to-download = 輸入 E-Mail 即可下載
+why-email = <b>為什麼需要 E-Mail?</b>未來我們可能會聯絡您，提供資料集的相關更新資訊。E-Mail 可作為我們聯絡您的方式。
+confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>您同意</b>不嘗試識別 Common Voice 資料集中，說話者的身分
+download-language = 下載 { $language } 資料集
+validated-hours = 已驗證時數
+recorded-hours = 已錄製時數
+whats-inside = Common Voice 資料集當中有什麼？
+dataset-description =
+    資料集中的每筆資料包含一組獨特的 MP3 錄音檔與對應的文字檔案。資料集中包含 <b>{ $hours }</b> 錄製完成的片段，當中有許多同時也包含年齡、性別、口音等，能夠幫助訓練語音識別引擎的人口統計資料。
+    
+    資料集中，目前包含了 <b>{ $hours }</b> 小時的 <b>{ $languageCount }</b> 種語言已驗證資料，但我們希望能夠持續加入更多語音與語言。歡迎到我們的<languagesLink>語言頁面</languagesLink>要求更多語言，開始加入貢獻。
+
 ## Download Modal
 
 download-title = 已開始下載。

@@ -13,8 +13,17 @@ loading = Аҭагалара
 ## Languages
 
 ab = Аԥсуа
+ace = Баҳса Аџьеи
 ady = Адыга
-ar = Араԥ
+af = Африкаанс
+am = Амарыниа
+an = Арагонис
+ar = Араби
+as = Асамиа
+ast = Астуриано
+az = Азарбеиҽан
+bg = Балгарски
+bn = Банла
 de = Агерман
 el = Елен
 en = Англыз
@@ -45,6 +54,8 @@ home-cta = Иҳәаа, агәылаҵа уҭагала
 show-wall-of-text = Иԥкааны
 vote-yes = Аеи
 vote-no = Мап
+speak-subtitle = Убжьы ақәшәарга
+speak-goal-text = Анҵамҭақәа абжьы ахарҵит
 all-locales = Зегьы
 today = Иахьа
 x-weeks-short =
@@ -103,6 +114,10 @@ english = Англыз
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ахархәаҩ ихьӡ
+profile-form-native-language =
+    .label = Ахатәы бызшәа
 profile-form-accent =
     .label = Ацәажәашьа
 profile-form-age =
@@ -123,6 +138,7 @@ dashboard = Апанель
 avatar = Асахьа
 goals = Ахықәкқәа
 settings = Архиарақәа
+edit-profile = Аредакциа аҷыдахәра
 profile-close = Иарктәуп
 login-identity = Ахаҭарбага аҭаларазы
 login-signup = Аҭалара/Аҽҭагалара
@@ -173,6 +189,16 @@ review-rerecord = Аиҭаҭаҩра
 review-cancel = Ашьҭра мап ацәктәуп
 review-keep-recordings = Анҵарақәа иааныжьтәуп
 review-delete-recordings = Сынҵарақәа ықәгатәуп
+
+## New Datasets Page
+
+language = Абызшәа
+# File size in gigabytes
+size = Ашәагаа
+cv-license = Алицензиа
+size-gigabyte = ГБ
+size-megabyte = МБ
+download-language = Ихҩылаатәуп { $language }
 
 ## Download Modal
 
@@ -228,12 +254,39 @@ record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Абжьы ҭаҩра икьаҿуп
 record-error-too-long = Абжьы ҭаҩра иуроуп
 record-error-too-quiet = Абжьы ҭаҩра иуроуп
+record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
+record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны ари аҳәоу уаԥхьа
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ихианы ианбаҟало
+record-three-more-instruction = Х-ҳәоук аанхеит!
+record-abort-submit = Анҵамҭақәа иадәықәҵатәуп
+record-abort-continue = Анҵамҭа иалгатәуп
+listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
+record-button-label = Убжьы иҭаҩтәуп
 
 ## Goals
 
+streaks = Еиқәырццакны
+days =
+    { $count ->
+        [one] мышкы
+       *[other] мш
+    }
+recordings =
+    { $count ->
+        [one] нҵамҭк
+       *[other] нҵамҭ
+    }
 
 ## Dashboard
 
+your-languages = Убызшәақәа
+stats = Аҭагылазаашьа
+you = Уара
+everyone = Зегь ахархәаҩцәа
+recorded-clips = Анҵамҭақәа абжьы ахарҵит
 
 ## Profile Delete
 
+keep = Иааныжьтәуп
+remove = Ианыхтәуп
+profile-form-delete = Аҷыдахәра ианыхтәуп

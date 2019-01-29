@@ -413,6 +413,39 @@ review-cancel = Cancelar envio
 review-keep-recordings = Manter as gravações
 review-delete-recordings = Excluir minhas gravações
 
+## New Datasets Page
+
+datasets-headline = Estamos construindo um conjunto de dados de voz multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
+datasets-positioning =
+    Acreditamos que grandes conjuntos de dados de voz, disponíveis publicamente, irão fomentar a inovação e a competição comercial saudável em tecnologias de voz baseadas em aprendizado de máquina.
+    
+    O conjunto de dados multi-idioma do Common Voice já é o maior conjunto de dados de voz do seu tipo disponível publicamente, mas não é o único.
+    
+    Considere esta página como um centro de referência para outros conjuntos de dados de voz de código aberto e, à medida que o Common Voice continua a crescer, o local de lançamento de nossas atualizações.
+language = Idioma
+# File size in gigabytes
+size = Tamanho
+validated-hr-total = Total de horas validadas
+overall-hr-total = Total de horas
+cv-license = Licença
+audio-format = Formato de áudio
+number-of-voices = Número de vozes
+splits = Divisões
+email-to-download = Informe um e-mail para baixar
+why-email = <b>Por que um e-mail?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados, um e-mail nos fornece um meio de contato.
+confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Você concorda</b> com não tentar determinar a identidade de falantes no conjunto de dados do Common Voice
+download-language = Baixar { $language }
+validated-hours = Horas validadas
+recorded-hours = Horas gravadas
+whats-inside = O que existe dentro do conjunto de dados do Common Voice?
+dataset-description =
+    Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b>{ $hours }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
+    
+    O conjunto de dados atualmente consiste de <b>{ $hours }</b> horas validadas em <b>{ $languageCount }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
+
 ## Download Modal
 
 download-title = Seu download começou.
@@ -548,4 +581,8 @@ keep = Manter
 remove = Remover
 keep-info = Suas gravações de voz anônimas permanecerão no conjunto de dados do Common Voice. Depois de excluir seu perfil, você não poderá mais enviar uma solicitação para remover suas gravações do conjunto de dados
 remove-info = Analisaremos sua solicitação de remover suas gravações de voz do conjunto de dados. Se sua solicitação for aprovada, entraremos em contato com aqueles que baixaram o conjunto de dados e solicitaremos que também removam suas gravações de voz.
+why-delete-recordings =
+    As gravações do Common Voice são usadas por estudiosos, pequenos negócios e entusiastas do reconhecimento de voz para ajudar a treinar e aprimorar recursos disponíveis publicamente, como modelos de voz.
+    
+    Poderia nos dizer por que gostaria que suas gravações sejam apagadas?
 profile-form-delete = Excluir perfil

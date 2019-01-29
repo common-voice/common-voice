@@ -12,6 +12,7 @@ import NotFoundPage from '../pages/not-found';
 import { Spinner } from '../ui/ui';
 const HomePage = React.lazy(() => import('../pages/home/home'));
 const DataPage = React.lazy(() => import('../pages/data/data'));
+const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'));
 const LanguagesPages = React.lazy(() => import('../pages/languages/languages'));
 const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
 const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
@@ -52,6 +53,11 @@ export default localeConnector(
             exact
             path={toLocaleRoute(URLS.DATASETS)}
             component={DataPage}
+          />
+          <Route
+            exact
+            path={toLocaleRoute('/new-datasets')}
+            component={DatasetsPage}
           />
           <Route
             exact

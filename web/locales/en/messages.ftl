@@ -432,6 +432,38 @@ review-cancel = Cancel Submission
 review-keep-recordings = Keep the recordings
 review-delete-recordings = Delete my recordings
 
+## New Datasets Page
+datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
+datasets-positioning =
+    We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
+
+    Common Voice’s multi-language dataset is already the largest publicly available voice dataset of its kind, but it’s not the only one.
+
+    Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
+language = Language
+# File size in gigabytes
+size = Size
+validated-hr-total = Validated Hr. Total
+overall-hr-total = Overall Hr. Total
+cv-license = License
+audio-format = Audio Format
+number-of-voices = Number of Voices
+splits = Splits
+email-to-download = Enter Email to Download
+why-email = <b>Why an email?</b> We may need to contact you in the future about changes to the dataset, an email provides us a point of contact.
+confirm-size = You are prepared to initiate a download of <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>You agree</b> to not attempt to determine the identity of speakers in the Common Voice dataset
+download-language = Download { $language }
+validated-hours = Validated Hours
+recorded-hours = Recorded Hours
+whats-inside = What’s inside the Common Voice dataset?
+dataset-description =
+        Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $hours }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
+
+        The dataset currently consists of <b>{ $hours }</b> validated hours in <b>{ $languageCount }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
+
 ## Download Modal
 download-title = Your download has started.
 download-helpus = Help us build a community around voice technology, stay in touch via email.

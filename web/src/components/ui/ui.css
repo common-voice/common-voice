@@ -137,6 +137,7 @@ button.card-action:focus.focus-visible path {
 .labeled-checkbox {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
 
     & input {
         margin: 7px 10px 0 0;

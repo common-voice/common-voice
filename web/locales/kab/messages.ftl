@@ -245,8 +245,10 @@ english = Taglizit
 
 profile-form-username =
     .label = Isem n useqdac:
-profile-form-language =
-    .label = Tutlayt
+profile-form-native-language =
+    .label = Tutlayt tayemmat
+profile-form-additional-language =
+    .label = Tutlayt-nniḍen
 profile-form-accent =
     .label = Asusru
 profile-form-age =
@@ -408,6 +410,19 @@ review-cancel = Sefsex tuzna
 review-keep-recordings = Eǧǧ ikalasen
 review-delete-recordings = Kkes ikalasen-iw
 
+## New Datasets Page
+
+language = Tutlayt
+# File size in gigabytes
+size = Teɣzi
+cv-license = Turagt
+number-of-voices = Amḍan n tuɣac
+email-to-download = Sekcem Imayl-inek/inem Akken ad tessidreḍ
+confirm-size = Theggaḍ akken ad tebduḍ asider n <b>{ $size }</b>
+size-gigabyte = GAṬ
+size-megabyte = MAṬ
+download-language = Sider { $language }
+
 ## Download Modal
 
 download-title = Asider-ik yekker.
@@ -547,4 +562,8 @@ keep = Ḥrez
 remove = Kkes
 keep-info = Ikalsen-ik n taɣect udrigen ad qqimen deg taffa n yisefka n Common Voice. Ticki tekkseḍ amaɣnu-ik ur tettizmireḍ ara ad tazneḍ asuter akken ad ttwakksen ikalasen-ik seg taffa n yisefka
 remove-info = Ad nwali asuter-ik n tukksa n yikalasen-ik n taɣect seg taffa n yisefka. Ma yella asuter-ik yettwaqbel, ad nennermes wid yessidren taffa n yisefka sakin ad sen-nessuter ad kksen ikalasen-ik n taɣect.
+why-delete-recordings =
+    Ikalasen Common Voice ad ten-sqedcen ikadimanen, tikebbaniyin meẓẓiyen, akked wid yettnadin ɣef uɛqal n taɣect akken ad mudden afus deg usluɣmu, daɣen akken ad yissimɣer s wudem azayez tiɣbula yellan am tneɣrufin n taɣect.
+    
+    Tebɣiḍ ad aɣ-teǧǧeḍ ad nẓeṛ acuɣer tebɣiḍ ad nekkes ikalasen-ik?
 profile-form-delete = Kkes amaɣnu

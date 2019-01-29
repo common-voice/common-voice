@@ -247,8 +247,10 @@ english = Anglais
 
 profile-form-username =
     .label = Nom d’utilisateur
-profile-form-language =
-    .label = Langue
+profile-form-native-language =
+    .label = Langue maternelle
+profile-form-additional-language =
+    .label = Langue supplémentaire
 profile-form-accent =
     .label = Accent
 profile-form-age =
