@@ -441,6 +441,13 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Elfogadja</b>, hogy nem próbálja meg meghatározni a beszélők személyazonosságát a Common Voice adatkészletben
 download-language = Letöltés: { $language }
+validated-hours = Ellenőrzött órák
+recorded-hours = Rögzített órák
+whats-inside = Mi van a Common Voice adatkészletben?
+dataset-description =
+    Az adatkészlet minden bejegyzése egy egyéni MP3-ból és egy hozzátartozó szövegfájlból áll. A(z) <b>{ $hours }</b> órányi rögzítésben számos felvétel demográfiai metaadatokat is tartalmaz, mint a beszélő kora, neme és akcentusa, melyek segíthetnek a beszédfelismerő motorok pontosságának betanításában.
+    
+    Az adatkészlet jelenleg <b>{ $hours }</b> órányi ellenőrzött felvételből áll, <b>{ $languageCount }</b> nyelven, de folyamatosan adunk hozzá további hangokat és nyelveket. Nézze meg a <languagesLink>Nyelvek oldalt</languagesLink> egy nyelv kéréséhez vagy a közreműködés elkezdéséhez.
 
 ## Download Modal
 
