@@ -476,10 +476,10 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 ## Languages Overview
 
 language-section-in-progress = Em andamento
-language-section-in-progress-description = O idioma "em curso" estão em desenvolvimento através de contribuições das nossas comunidades; o seu progresso reflete onde estão em relação a localização do site e coleta de frases.
-language-section-launched = Iniciada
-language-section-launched-new-description = Nestes idiomas, o site foi traduzido com sucesso e tem frases coletadas suficientes para permitir dar sequência a contribuições de <italic>Falar</italic> e <italic>Ouvir</italic>.
-languages-show-more = Veja mais
+language-section-in-progress-description = Idiomas em andamento estão atualmente sendo preparados para contribuições por nossas comunidades. Seu progresso reflete onde estão com relação à tradução do site e à coleta de frases.
+language-section-launched = Lançados
+language-section-launched-new-description = Nestes idiomas lançados, o site foi traduzido com sucesso e há frases coletadas suficientes para permitir dar sequência a contribuições de <italic>Falar</italic> e <italic>Ouvir</italic>.
+languages-show-more = Ver mais
 languages-show-less = Ver menos
 language-speakers = Falantes
 language-meter-in-progress = Progresso
@@ -487,7 +487,7 @@ language-total-progress = Total
 language-search-input =
     .placeholder = Pesquisar
 language-speakers = Falantes
-localized = Localizado
+localized = Traduzido
 sentences = Frases
 total-hours = Total de horas
 
