@@ -1,0 +1,11 @@
+#!/bin/bash -l
+
+WORKDIR=/opt/common-voice-bundler
+
+echo "Running bundling in $WORKDIR"
+
+pushd $WORKDIR
+
+yarn start
+
+popd

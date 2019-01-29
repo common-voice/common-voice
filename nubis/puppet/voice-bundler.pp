@@ -14,3 +14,11 @@ exec { 'install common-voice-bundler deps':
     Exec['install yarn'],
   ],
 }
+
+file { "/usr/local/bin/voice-bundler":
+    ensure => file,
+    owner  => root,
+    group  => root,
+    mode   => '0755',
+    source => 'puppet:///nubis/files/bundler',
+}
