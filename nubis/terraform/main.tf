@@ -123,7 +123,7 @@ module "clips" {
 }
 
 module "bundler_bucket" {
-  source       = "github.com/gozer/nubis-terraform//bucket?ref=v2.3.1"
+  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.3.1"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
