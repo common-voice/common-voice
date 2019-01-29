@@ -17,6 +17,12 @@ provider "consul" {
 # Publish our outputs into Consul for our application to consume
 resource "consul_keys" "config" {
   key {
+    path   = "${module.consul.config_prefix}/Bucket/Bundler/Name"
+    value  = "${module.bundler_bucket.name}"
+    delete = true
+  }
+
+  key {
     path   = "${module.consul.config_prefix}/Bucket/Clips/Name"
     value  = "${module.clips.name}"
     delete = true

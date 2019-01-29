@@ -1,0 +1,13 @@
+[template]
+src = "bundler.json.tmpl"
+dest = "/opt/common-voice-bundler/config.json"
+prefix = "/%%PROJECT%%-%%ENVIRONMENT%%/%%ENVIRONMENT%%"
+
+uid = 0
+gid = 0
+mode = "0644"
+
+keys = [
+    "/config/*",
+    "/config"
+]
