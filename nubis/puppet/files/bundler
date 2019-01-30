@@ -1,6 +1,12 @@
 #!/bin/bash -l
 
 WORKDIR=/opt/common-voice-bundler
+EXPECTED_USER="voice-data"
+
+if [ "$USER" != "$EXPECTED_USER" ]; then
+  echo "Please run this script as $EXPECTED_USER"
+  exit 2
+fi
 
 # Protect ourselves against concurrent execution, wait for exclusive lock before proceeding
 [ "${FLOCKER}" != "$0" ] && exec env FLOCKER="$0" flock -e "$0" "$0" "$@"
