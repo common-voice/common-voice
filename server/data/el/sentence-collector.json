@@ -1,0 +1,47 @@
+[
+  {
+    "valid": ["k8oylos", "cntrlgm", "cntrlgm"],
+    "source": "Own text - released under CC0-public domain",
+    "invalid": [],
+    "approved": true,
+    "sentence": "Άφησε το κινητό πάνω στο τραπέζι",
+    "username": "k8oylos",
+    "createdAt": 1548724097573,
+    "approvalDate": 1548794669710,
+    "Sentences_Meta_UserVote_cntrlgm": true,
+    "Sentences_Meta_UserVote_k8oylos": true,
+    "Sentences_Meta_UserVoteDate_cntrlgm": 1548794669710,
+    "id": "c3bd0e7d31574427d5242eb47788a991aad935cfa1f5259b0bd413a807830777",
+    "last_modified": 1548794655885
+  },
+  {
+    "valid": ["k8oylos", "cntrlgm", "cntrlgm"],
+    "source": "Own text - released under CC0-public domain",
+    "invalid": [],
+    "approved": true,
+    "sentence": "την παγωμένη λίμνη με τη γέφυρα που ένωνε την ανατολική με τη δυτική πλευρά",
+    "username": "k8oylos",
+    "createdAt": 1548724097573,
+    "approvalDate": 1548794669710,
+    "Sentences_Meta_UserVote_cntrlgm": true,
+    "Sentences_Meta_UserVote_k8oylos": true,
+    "Sentences_Meta_UserVoteDate_cntrlgm": 1548794669710,
+    "id": "a268047e1e63dbeda47809a6e2a70b9a01ed13a5f1abbbd9624ce0a84e40a689",
+    "last_modified": 1548794655864
+  },
+  {
+    "valid": ["k8oylos", "cntrlgm", "cntrlgm"],
+    "source": "Own text - released under CC0-public domain",
+    "invalid": [],
+    "approved": true,
+    "sentence": "Μισόκλεισε τα μάτια του ικανοποιημένος καθώς ζωγράφισε στη δεξιά άκρη",
+    "username": "k8oylos",
+    "createdAt": 1548724097573,
+    "approvalDate": 1548794669710,
+    "Sentences_Meta_UserVote_cntrlgm": true,
+    "Sentences_Meta_UserVote_k8oylos": true,
+    "Sentences_Meta_UserVoteDate_cntrlgm": 1548794669710,
+    "id": "164d662e2583d80dd2b2db602dc870c1f901ab4280e83cc87827d68a42abbaa2",
+    "last_modified": 1548794655844
+  }
+]
