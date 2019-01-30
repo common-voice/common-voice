@@ -345,6 +345,8 @@ review-delete-recordings = Чышкыны гижӧдъясӧс
 language = Кыв
 # File size in gigabytes
 size = Ыджда
+size-gigabyte = ГБ
+size-megabyte = МБ
 
 ## Download Modal
 
