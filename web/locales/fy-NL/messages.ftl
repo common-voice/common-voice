@@ -425,6 +425,7 @@ review-delete-recordings = Myn opnamen fuortsmite
 
 ## New Datasets Page
 
+datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy't elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
 language = Taal
 # File size in gigabytes
 size = Grutte
