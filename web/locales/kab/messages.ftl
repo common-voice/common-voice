@@ -424,6 +424,9 @@ confirm-size = Theggaḍ akken ad tebduḍ asider n <b>{ $size }</b>
 size-gigabyte = GAṬ
 size-megabyte = MAṬ
 download-language = Sider { $language }
+validated-hours = Isragen yettwasentmen
+recorded-hours = Isragen yettwaskelsen
+whats-inside = Acu yellan deg taggruma n isefka n Common Voice?
 
 ## Download Modal
 
