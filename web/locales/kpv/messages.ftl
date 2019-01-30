@@ -245,8 +245,8 @@ english = Англискӧйӧн
 
 profile-form-username =
     .label = Ним
-profile-form-language =
-    .label = Кыв
+profile-form-native-language =
+    .label = Чужан кыв
 profile-form-accent =
     .label = Сёрнитанног
 profile-form-age =
@@ -312,6 +312,8 @@ faq-why-important-q = Мыйла тайӧ колӧ?
 
 glossary = Глоссарий
 localization = Локализируйтӧм
+sentence-collection = Сёрникузя чукӧртчӧм
+de-identified = Де-идентифируйтӧма
 
 ## NotFound
 
@@ -337,6 +339,12 @@ review-recording = Видзӧдлӧм
 review-rerecord = Гиж вылысь
 review-keep-recordings = Кольны гижӧдъяссӧ
 review-delete-recordings = Чышкыны гижӧдъясӧс
+
+## New Datasets Page
+
+language = Кыв
+# File size in gigabytes
+size = Ыджда
 
 ## Download Modal
 
