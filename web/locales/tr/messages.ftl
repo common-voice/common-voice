@@ -357,6 +357,15 @@ review-cancel = Gönderimi iptal et
 review-keep-recordings = Kayıtları tut
 review-delete-recordings = Kayıtlarımı sil
 
+## New Datasets Page
+
+language = Dil
+# File size in gigabytes
+size = Boyut
+cv-license = Lisans
+audio-format = Ses biçimi
+email-to-download = İndirmek için e-postanızı yazın
+
 ## Download Modal
 
 download-title = İndirme işleminiz başladı.
