@@ -433,6 +433,19 @@ audio-format = Format audio
 number-of-voices = Număr de voci
 splits = Diviziuni
 email-to-download = Introdu adresa de e-mail pentru a descărca
+why-email = <b>De ce adresa de e-mail?</b> Este posibil să trebuiască să te contactăm mai târziu cu referire la modificări aduse setului de date. Adresa de e-mail va servi ca punct de contact.
+confirm-size = Ești gata să inițiezi o descărcare de <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Agreezi</b> să nu încerci să determini identitatea vorbitorilor din setul de date Common Voice
+download-language = Descarcă { $language }
+validated-hours = Ore validate
+recorded-hours = Ore înregistrate
+whats-inside = Ce se găsește în setul de date Common Voice?
+dataset-description =
+    Fiecare intrare din setul de date constă dintr-un MP3 unic și fișierul text corespondent. Multe dintre cele <b>{ $hours }</b> de ore înregistrate din setul de date includ și metadate demografice, precum vârstă, sex și accent, care ajută la antrenarea pentru acuratețe a motoarelor de recunoaștere vocală.
+    
+    Setul de date constă în prezent din <b>{ $hours }</b> de ore validate în <b>{ $languageCount }</b> de limbi, dar adăugăm constant mai multe voci și limbi. Aruncă o privire pe <languagesLink>Pagina de limbi</languagesLink> ca să soliciți o limbă sau ca să începi să contribui și tu.
 
 ## Download Modal
 
@@ -577,4 +590,8 @@ keep = Păstrează
 remove = Elimină
 keep-info = Înregistrările tale anonime de voce vor rămâne în setul de date Common Voice. Odată șters profilul, nu vei mai putea să depui o cerere pentru eliminarea lor din setul de date
 remove-info = Îți vom analiza cererea de eliminare a înregistrărilor tale de voce din setul de date. Dacă cererea va fi aprobată, îi vom contacta pe cei care au descărcat setul de date și le vom cere să îți elimine și ei înregistrările de voce.
+why-delete-recordings =
+    Înregistrările Common Voice sunt utilizate de profesori și cercetători, afaceri mici și amatori de tehnologie de recunoaștere vocală care ajută la instruirea și dezvoltarea de resurse disponibile pentru public, precum modelele vocale.
+    
+    Poți să ne spui de ce vrei să îți ștergem înregistrările?
 profile-form-delete = Șterge profilul
