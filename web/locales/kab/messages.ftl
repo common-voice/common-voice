@@ -415,8 +415,10 @@ review-delete-recordings = Kkes ikalasen-iw
 language = Tutlayt
 # File size in gigabytes
 size = Teɣzi
+validated-hr-total = Amḍan n yisragen yettwasentmen. Amatu
 cv-license = Turagt
 number-of-voices = Amḍan n tuɣac
+splits = Iḥricen
 email-to-download = Sekcem Imayl-inek/inem Akken ad tessidreḍ
 confirm-size = Theggaḍ akken ad tebduḍ asider n <b>{ $size }</b>
 size-gigabyte = GAṬ
