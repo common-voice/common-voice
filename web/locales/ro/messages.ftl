@@ -19,7 +19,9 @@ indicates-required = * Indică un câmp obligatoriu
 
 ab = Abhază
 ace = Acehneză
+ady = Adyghe
 af = Afrikaans
+am = Amharică
 an = Aragoneză
 ar = Arabă
 as = Assameză
@@ -38,6 +40,7 @@ cy = Galeză
 da = Daneză
 de = Germană
 dsb = Sorbenă de jos
+dv = Dhivehi
 el = Greacă
 en = Engleză
 eo = Esperanto
@@ -66,8 +69,10 @@ kpv = Komi-ziriană
 kw = Cornică
 ky = Kirghiză
 mdf = Moksha
+mhr = Mari de est
 mk = Macedoneană
 mn = Mongolă
+mrj = Mari de vest
 myv = Erzya
 nb-NO = Norvegiană (Bokmål)
 ne-NP = Nepaleză
@@ -92,10 +97,13 @@ te = Telugu
 th = Thailandeză
 tr = Turcă
 tt = Tătară
+uby = Ubykhă
+udm = Udmurtă
 uk = Ucraineană
 ur = Urdu
 uz = Uzbecă
 vi = Vietnameză
+vot = Votică
 zh-CN = Chineză (China)
 zh-HK = Chineză (Hong Kong)
 zh-TW = Chineză (Taiwan)
@@ -405,6 +413,26 @@ review-rerecord = Înregistrează din nou
 review-cancel = Anulează trimiterea
 review-keep-recordings = Păstrează înregistrările
 review-delete-recordings = Șterge înregistrările mele
+
+## New Datasets Page
+
+datasets-headline = Construim un set de date multilingv, cu sursă deschisă, cu voci pe care oricine le poate utiliza pentru antrenarea aplicațiilor cu comandă vocală.
+datasets-positioning =
+    Considerăm că seturile mari de date vocale disponibile public vor stimula inovația și concurența comercială sănătoasă în tehnologia vocală bazată pe învățarea mașinilor a modului cum vorbesc oamenii.
+    
+    Setul multilingvistic de date Common Voice este deja cel mai mare set de date vocale de acest gen pus la dispoziția publicului, dar nu este singurul.
+    
+    Consideră această pagină ca un centru de referință pentru alte seturi de date vocale cu sursă deschisă și, pe măsură ce Common Voice continuă să crească, ca pe o pagină de start pentru actualizările noastre.
+language = Limbă
+# File size in gigabytes
+size = Mărime
+validated-hr-total = Total ore validate
+overall-hr-total = Total general ore
+cv-license = Licență
+audio-format = Format audio
+number-of-voices = Număr de voci
+splits = Diviziuni
+email-to-download = Introdu adresa de e-mail pentru a descărca
 
 ## Download Modal
 
