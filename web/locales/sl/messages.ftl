@@ -248,8 +248,8 @@ english = angleščina
 
 profile-form-username =
     .label = Uporabniško ime
-profile-form-language =
-    .label = Jezik
+profile-form-additional-language =
+    .label = Dodatni jezik
 profile-form-accent =
     .label = Naglas
 profile-form-age =
@@ -366,6 +366,15 @@ review-rerecord = Posnemite ponovno
 review-cancel = Prekliči pošiljanje
 review-keep-recordings = Ohrani posnetke
 review-delete-recordings = Izbriši moje posnetke
+
+## New Datasets Page
+
+language = Jezik
+# File size in gigabytes
+size = Velikost
+number-of-voices = Število glasov
+size-gigabyte = GB
+size-megabyte = MB
 
 ## Download Modal
 

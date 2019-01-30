@@ -231,8 +231,6 @@ english = Акӑлчанла
 
 profile-form-username =
     .label = Ят
-profile-form-language =
-    .label = Чӗлхе
 profile-form-accent =
     .label = Акцент
 profile-form-age =
@@ -304,7 +302,6 @@ faq-why-different-speakers-a =
     Шӑпах ҫавӑнпа пире тӗрлӗрен сассем кирлех!
 faq-why-my-lang-q = Ман чӗлхе кунта мӗншӗн ҫук?
 faq-how-calc-hours-q = «Common Voice» сехетсене мӗнле шутлать?
-faq-where-src-from-q = Ҫӑлкуҫ текст ӑҫтан килет?
 faq-why-account-q = Мӗншӗн регистрациленмелле?
 faq-is-account-public-q = Манӑн аккаунтри информаци пурне те уҫӑ-и?
 faq-how-privacy-q = Сас парнелекенсен харпӑрлӑхӗпе анонимлӑхне мӗнле тивӗҫтеретӗр?
@@ -355,6 +352,9 @@ review-rerecord = Ҫӗнӗрен ҫырса ил
 review-cancel = Ҫырса илнине тиеме пӑрахӑҫла
 review-keep-recordings = Манӑн ҫырусене упра
 review-delete-recordings = Манӑн ҫырусене картла
+
+## New Datasets Page
+
 
 ## Download Modal
 
@@ -410,12 +410,12 @@ listen = Итле
 skip = Сиктер
 shortcuts = «хӑвӑрт» пускӑчсем
 clips-with-count = <bold>{ $count }</bold> сыпӑк
-goal-help-recording = Common Voice-а кулленхи { $goalValue } ҫырса хума тӗллӗвӗн <goalPercentage></goalPercentage> ҫитертӗн!
-goal-help-validation = Common Voice-а кулленхи { $goalValue } ҫирӗплетме тӗллӗвӗн <goalPercentage></goalPercentage> ҫитертӗн!
+goal-help-recording = Common Voice-а кулленхи { $goalValue } ҫырса хума тӗллевӗн <goalPercentage></goalPercentage> ҫитертӗн!
+goal-help-validation = Common Voice-а кулленхи { $goalValue } ҫирӗплетме тӗллевӗн <goalPercentage></goalPercentage> ҫитертӗн!
 contribute-more =
     { $count ->
-        [one] Тата { $count } тума хатӗр-и?
-       *[other] Тата { $count } тума хатӗр-и?
+        [one] Тепӗр { $count } тума хатӗр-и?
+       *[other] Тепӗр { $count } тума хатӗр-и?
     }
 record-cta = Ҫырӑва пуҫла
 record-platform-not-supported = Шел, санӑн платформа ҫинче пирӗн система хальлӗхе ӗҫлемест

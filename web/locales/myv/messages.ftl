@@ -2,13 +2,13 @@
 
 yes-receive-emails = Паро мельсэ, кучодо монень э-сёрмат. Ули мелем содамс седе тов, кода «Common Voice» проектэнть тевензэ молить.
 stayintouch = Мозилласо пурнатано-кепедтяно вайгелень технологиянь перька ломанькуро. Паро мельсэ содавлинек, мезесь од, косто саевить датань од лисьмапрят ды кода нолдатадо не дататнень тевс.
-privacy-info = Макстано вал информацият мельга парсте ваномс. Ловнок седе тов <privacyLink>Эсь тевень сёрмадовкссо</privacyLink>.
+privacy-info = Макстано вал информацият мельга парсте ваномс. Ловнок седе тов <privacyLink>Салавачинь сёрмадовкссо</privacyLink>.
 return-to-cv = Велявтомс мекев "Common Voice" сайтас
 email-input =
     .label = э-сёрма
 submit-form-action = Совавтомс
 loading = Таргамозо моли...
-email-opt-in-privacy = Э-сёрма вариантонь кочказь, содатано тонть туртов Мозиллань  <privacyLink>Эсь тевень Политикасонть<privacyLink> ледстязь информациянь ванстомась-тевс нолдамось маштови тонеть ды арасть проблеммат сонзэ марто.
+email-opt-in-privacy = Э-сёрма вариантонь кочказь, содатано тонть туртов Мозиллань <privacyLink>Эсь тевень Политикасонть<privacyLink> ледстязь информациянь ванстомась-тевс нолдамось маштови тонеть ды арасть проблеммат сонзэ марто.
 indicates-required = *Невти эрявикс пакся
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -312,8 +312,10 @@ faq-why-10k-hours-q = Мейс эрьва келенть туртов путоз
 faq-why-10k-hours-a = Истянь зярошка час эряви «вайгельстэ текст» системань тонавтомас.
 faq-how-calc-hours-q = Кода «Common Voice» ловны частнэсэ?
 faq-where-src-from-2-q = Косто саевсь лисьмапрятекстэсь?
+faq-why-not-ask-read-q = Мекс а вештядо ломантнень пельде ловност башка-башка кельстэ кинигат эли Википедиянь сёрмадовкст?
 faq-why-account-q = Мейс монень теемс совамо тарка?
 faq-is-account-public-q = Совамо таркам информациясь весенень панжадо?
+faq-what-determine-identity-q = Кода чарькодемс: "а содави кинь" вайгелезэ «Common Voice» датапурнавксо?
 
 ## Glossary
 
@@ -344,6 +346,7 @@ data-other-title = Вайгелень лия датапурнавкст...
 data-other-goto = Молемс «{ $name }» таркас
 data-other-download = Таргамс Датанть
 data-other-ted-name = «TED-LIUM» Корпус
+data-other-tatoeba-description = «Tatoeba» те валрисьмень, ютавксонь ды кортамо аудионь покш данбаза, конась арсезь келень тонавтнемс. Тень таргасак, муят кортамо англань кель, конань сёрмадызе англань келень ломанькурось.
 data-bundle-button = Таргамс датапурнавкс керьмаз
 license = Лицензиясь: <licenseLink>{ $license }</licenseLink>
 license-mixed = Човор
@@ -357,6 +360,9 @@ review-rerecord = Сёрмадомс одов
 review-cancel = Нардамс мезе совавтыть
 review-keep-recordings = Ванстомс лентас сёрмадовкстнэнь
 review-delete-recordings = Нардамс мезе лентас сёрмадынь
+
+## New Datasets Page
+
 
 ## Download Modal
 

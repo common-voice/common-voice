@@ -1,6 +1,8 @@
 class { 'nubis_apache':
   tags => [
     'metrics',
+    '%%PURPOSE%%-%%ENVIRONMENT%%',
+    '%%PURPOSE%%',
   ],
 }
 

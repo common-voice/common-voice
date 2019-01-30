@@ -416,6 +416,39 @@ review-cancel = Avbryt inskickning
 review-keep-recordings = Behåll inspelningarna
 review-delete-recordings = Ta bort mina inspelningar
 
+## New Datasets Page
+
+datasets-headline = Vi skapar en flerspråkig röstinspelning med öppen källkod som alla kan använda för att träna röstbaserade applikationer.
+datasets-positioning =
+    Vi tror att stora, allmänt tillgängliga röstdatamängder kommer att främja innovation och hälsosam kommersiell konkurrens i maskinlärande baserad talteknik.
+    
+    Common Voices flerspråkiga datamängd är redan den största offentligt tillgängliga röstdatamängden av sitt slag, men den är inte den enda.
+    
+    Titta på den här sidan som referensnav för andra datakällor med öppen källkod och, eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
+language = Språk
+# File size in gigabytes
+size = Storlek
+validated-hr-total = Totalt validerade timmar
+overall-hr-total = Totalt antal timmar
+cv-license = Licens
+audio-format = Ljudformat
+number-of-voices = Antal röster
+splits = Uppdelning
+email-to-download = Ange e-postadress för nedladdning
+why-email = <b>Varför en e-postadress?</b> Vi kanske behöver kontakta dig i framtiden om ändringar i datamängden, en e-postadress ger oss en kontaktmöjlighet.
+confirm-size = Du är beredd att initiera en nedladdning av <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Du godkänner</b> att du inte försöker bestämma talarnas identitet i Common Voice-datamängden
+download-language = Ladda ner { $language }
+validated-hours = Validerade timmar
+recorded-hours = Inspelade timmar
+whats-inside = Vad finns i Common Voice-datamängd?
+dataset-description =
+    Varje post i datamängden består av en unik MP3 och motsvarande textfil. Många av de <b>{ $hours }</b> inspelade timmarna i datamängden innehåller även demografiska metadata som ålder, kön och accent som kan hjälpa till att träna noggrannheten för taligenkänningsmotorer.
+    
+    Datamängden består för närvarande av <b>{ $hours }</b> validerade timmar på språk i <b>{ $languageCount }</b> men vi lägger alltid till fler röster och språk. Ta en titt på vår <languagesLink>Språk sida</languagesLink> för att begära ett språk eller börja bidra.
+
 ## Download Modal
 
 download-title = Din nerladdning har startat.
@@ -555,4 +588,8 @@ keep = Behåll
 remove = Ta bort
 keep-info = Dina anonyma röstinspelningar förblir i Common Voice datamängd. När du har raderat din profil kan du inte längre skicka in en begäran om att ta bort dina inspelningar från datamängden
 remove-info = Vi kommer att granska din begäran om att ta bort dina röstinspelningar från datamängden. Om din förfrågan godkänns kontaktar vi dem som har laddat ner datamängden och begär att de även tar bort dina röstinspelningar.
+why-delete-recordings =
+    Vanliga röstinspelningar används av akademiker, småföretag och röstigenkänningsentusiaster för att hjälpa till att träna och växa offentligt tillgängliga resurser som röstmodeller.
+    
+    Kan du låta oss veta varför du vill att dina inspelningar raderas?
 profile-form-delete = Ta bort profil

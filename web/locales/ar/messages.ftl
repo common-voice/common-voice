@@ -259,8 +259,6 @@ english = الإنجليزيّة
 
 profile-form-username =
     .label = اسم المستخدم
-profile-form-language =
-    .label = اللغة
 profile-form-accent =
     .label = اللكنة
 profile-form-age =
@@ -416,6 +414,12 @@ review-rerecord = أعِد التسجيل
 review-cancel = ألغِ الإرسال
 review-keep-recordings = أبقِ التسجيلات
 review-delete-recordings = احذف تسجيلاتي
+
+## New Datasets Page
+
+language = اللغة
+# File size in gigabytes
+size = الحجم
 
 ## Download Modal
 

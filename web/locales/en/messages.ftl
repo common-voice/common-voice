@@ -456,6 +456,13 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>You agree</b> to not attempt to determine the identity of speakers in the Common Voice dataset
 download-language = Download { $language }
+validated-hours = Validated Hours
+recorded-hours = Recorded Hours
+whats-inside = What’s inside the Common Voice dataset?
+dataset-description =
+        Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $hours }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
+
+        The dataset currently consists of <b>{ $hours }</b> validated hours in <b>{ $languageCount }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
 
 ## Download Modal
 download-title = Your download has started.

@@ -406,6 +406,32 @@ review-cancel = Annulla invio
 review-keep-recordings = Conserva le registrazioni
 review-delete-recordings = Cancella le mie registrazioni
 
+## New Datasets Page
+
+datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite riconoscimento vocale.
+datasets-positioning =
+    Crediamo che mettere in circolazione dataset di voci pubblici di grandi dimensioni possa promuovere innovazione e sana concorrenza commerciale tra le tecnologie di apprendimento automatico basate sul riconoscimento vocale.
+    
+    Il dataset multilingue di Common Voice è già il più grande del suo genere disponibile pubblicamente, ma non è l’unico.
+    
+    Considera questa pagina come un punto di riferimento per dataset open source e, man mano che Common Voice continua a crescere, una pagina per i nostri aggiornamenti.
+language = Lingua
+# File size in gigabytes
+size = Dimensione
+validated-hr-total = Totale ore convalidate
+overall-hr-total = Totale ore complessive
+cv-license = Licenza
+audio-format = Formato audio
+number-of-voices = Numero di voci
+splits = Divisioni
+email-to-download = Inserisci la tua email per iniziare il download
+why-email = <b>Perché devo dare il mio indirizzo email?</b> Servirà come contatto a cui inviarti informazioni su eventuali future modifiche ai dataset.
+confirm-size = Sei pronto per iniziare un download di <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Accetti</b> di rinunciare a determinare l’identità dei parlanti presenti nel dataset di Common Voice
+download-language = Scarica { $language }
+
 ## Download Modal
 
 download-title = Download iniziato.
@@ -541,4 +567,8 @@ keep = Mantieni
 remove = Rimuovi
 keep-info = Le tue registrazioni vocali anonime rimarranno nel dataset di Common Voice e, una volta eliminato il tuo profilo, non potrai più inviare una richiesta per rimuoverle.
 remove-info = Esamineremo la tua richiesta di rimozione delle registrazioni vocali dal dataset. Se la richiesta verrà approvata, contatteremo chi ha scaricato il dataset e chiederemo di rimuovere le tue registrazioni vocali.
+why-delete-recordings =
+    Le registrazioni di Common Voice sono utilizzate da studiosi, piccole imprese e appassionati di riconoscimento vocale per perfezionare e far crescere risorse disponibili pubblicamente come i modelli vocali.
+    
+    Puoi spiegarci per quale motivo desideri cancellare le tue registrazioni?
 profile-form-delete = Elimina profilo

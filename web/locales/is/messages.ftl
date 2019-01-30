@@ -189,6 +189,7 @@ benefits = Kostir
 
 ## What's public
 
+whats-public = Hvað er gert opinbert?
 username-email-not-demographic = Notandanafnið þitt og netfang verður ekki tengt gögnum útgáfunnar.
 
 ## Speak & Listen Shortcuts
@@ -236,8 +237,6 @@ english = Enska
 
 profile-form-username =
     .label = Notendanafn
-profile-form-language =
-    .label = Tungumál
 profile-form-accent =
     .label = Hreimur
 profile-form-age =
@@ -345,6 +344,9 @@ review-rerecord = Endurtaka upptöku
 review-cancel = Hætta við að senda inn
 review-keep-recordings = Geyma upptökur
 review-delete-recordings = Eyða upptökum
+
+## New Datasets Page
+
 
 ## Download Modal
 

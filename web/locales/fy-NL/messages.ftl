@@ -423,6 +423,24 @@ review-cancel = Ynstjoering annulearje
 review-keep-recordings = Opnamen bewarje
 review-delete-recordings = Myn opnamen fuortsmite
 
+## New Datasets Page
+
+language = Taal
+# File size in gigabytes
+size = Grutte
+validated-hr-total = Totaal falidearre oeren
+overall-hr-total = Totaal oeren
+cv-license = Lisinsje
+audio-format = Audioformaat
+number-of-voices = Oantal stimmen
+splits = Sindielen
+email-to-download = Fier e-mailadres yn om te downloaden
+why-email = <b>Wêrom in e-mailadres?</b> Mooglik moatte wy jo yn de takomst oer wizigingen yn de gegevensset ynformearje. In e-mailadres jout ús in kontaktmooglikheid.
+confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+download-language = { $language } downloade
+
 ## Download Modal
 
 download-title = Jo download is starten.

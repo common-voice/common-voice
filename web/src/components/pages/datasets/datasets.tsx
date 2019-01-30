@@ -13,6 +13,7 @@ import {
   LinkButton,
   TextButton,
 } from '../../ui/ui';
+import CircleStats from './circle-stats';
 
 import './datasets.css';
 
@@ -170,6 +171,20 @@ class DatasetsPage extends React.Component<
                 </>
               )}
             </div>
+          </div>
+        </div>
+
+        <div className="description">
+          <CircleStats className="hidden-md-down" />
+          <div className="text">
+            <div className="line" />
+            <Localized id="whats-inside">
+              <h1 />
+            </Localized>
+            <CircleStats className="hidden-lg-up" />
+            <Localized id="dataset-description" b={<b />}>
+              <p />
+            </Localized>
           </div>
         </div>
       </div>

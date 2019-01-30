@@ -389,18 +389,18 @@ data-download-modal = Você está preste a iniciar um download de <size>{ $size 
 data-subtitle = Estamos construindo um conjunto de dados de voz aberto e disponível publicamente para que qualquer um possa usar no treinamento de aplicações habilitadas por voz.
 data-explanatory-text = Acreditamos que conjuntos de dados de voz grandes e acessíveis ao público promovem a inovação e a saudável concorrência comercial em tecnologias de voz baseadas em aprendizagem de máquinas. Este é um esforço global e convidamos todos a participar. O nosso objetivo é ajudar as tecnologias de voz a ser mais inclusivas, refletindo a diversidade de vozes no mundo todo.
 data-get-started = <speechBlogLink>Comece com o reconhecimento de voz</speechBlogLink>
-data-other-title = Outro conjunto de dados de voz...
-data-other-goto = Vá para { $name }
+data-other-title = Outros conjuntos de dados de voz…
+data-other-goto = Ir para { $name }
 data-other-download = Baixar dados
-data-other-librispeech-description = O LibriSpeech é um corpus de aproximadamente 1000 horas (em 16 Khz) de leitura em inglês derivada de audiolivros do projeto LibriVox.
+data-other-librispeech-description = LibriSpeech é um corpus de aproximadamente 1000 horas de leitura em inglês em 16Khz, derivado de audiolivros do projeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
-data-other-ted-description = O TED-LIUM corpus foi criado a partir dos áudio das palestras e suas transcrições que estão disponíveis na página do TED.
-data-other-voxforge-description = VoxForge foi configurado para coletar falas transcritas para serem usadas com motores de reconhecimento de fala gratuito e de código aberto.
-data-other-tatoeba-description = Tatoeba é uma grande base de dados de frases, traduções e áudio para uso em aprendizagem de idioma. Este arquivo contém todas as falas em inglês gravadas por sua comunidade.
+data-other-ted-description = TED-LIUM Corpus foi criado a partir de áudios de palestras e suas transcrições, que estão disponíveis no site TED.
+data-other-voxforge-description = VoxForge foi criado para coletar falas transcritas para uso com mecanismos de reconhecimento de fala gratuitos e de código aberto.
+data-other-tatoeba-description = Tatoeba é uma grande base de dados de frases, traduções e áudio falado para uso em aprendizagem de idiomas. Este arquivo contém falas em inglês gravadas por sua comunidade.
 data-bundle-button = Baixar pacote do conjunto de dados
 data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
 license = Licença: <licenseLink>{ $license }</licenseLink>
-license-mixed = Misto
+license-mixed = Mista
 review-terms = Usando o Common Voice, você aceita nossos <termsLink>Termos</termsLink> e <privacyLink>Política de Privacidade</privacyLink>
 terms-agree = Estou de acordo
 terms-disagree = Não estou de acordo
@@ -412,6 +412,39 @@ review-rerecord = Regravar
 review-cancel = Cancelar envio
 review-keep-recordings = Manter as gravações
 review-delete-recordings = Excluir minhas gravações
+
+## New Datasets Page
+
+datasets-headline = Estamos construindo um conjunto de dados de voz multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
+datasets-positioning =
+    Acreditamos que grandes conjuntos de dados de voz, disponíveis publicamente, irão fomentar a inovação e a competição comercial saudável em tecnologias de voz baseadas em aprendizado de máquina.
+    
+    O conjunto de dados multi-idioma do Common Voice já é o maior conjunto de dados de voz do seu tipo disponível publicamente, mas não é o único.
+    
+    Considere esta página como um centro de referência para outros conjuntos de dados de voz de código aberto e, à medida que o Common Voice continua a crescer, o local de lançamento de nossas atualizações.
+language = Idioma
+# File size in gigabytes
+size = Tamanho
+validated-hr-total = Total de horas validadas
+overall-hr-total = Total de horas
+cv-license = Licença
+audio-format = Formato de áudio
+number-of-voices = Número de vozes
+splits = Divisões
+email-to-download = Informe um e-mail para baixar
+why-email = <b>Por que um e-mail?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados, um e-mail nos fornece um meio de contato.
+confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Você concorda</b> com não tentar determinar a identidade de falantes no conjunto de dados do Common Voice
+download-language = Baixar { $language }
+validated-hours = Horas validadas
+recorded-hours = Horas gravadas
+whats-inside = O que existe dentro do conjunto de dados do Common Voice?
+dataset-description =
+    Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b>{ $hours }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
+    
+    O conjunto de dados atualmente consiste de <b>{ $hours }</b> horas validadas em <b>{ $languageCount }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
 
 ## Download Modal
 
@@ -443,10 +476,10 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 ## Languages Overview
 
 language-section-in-progress = Em andamento
-language-section-in-progress-description = O idioma "em curso" estão em desenvolvimento através de contribuições das nossas comunidades; o seu progresso reflete onde estão em relação a localização do site e coleta de frases.
-language-section-launched = Iniciada
-language-section-launched-new-description = O site foi localizado com sucesso para estes idiomas lançados, e tem frases coletadas suficientes para permitir dar sequência a contribuições de <italic>Falar</italic> e <italic>Ouvir</italic>.
-languages-show-more = Veja mais
+language-section-in-progress-description = Idiomas em andamento estão atualmente sendo preparados para contribuições por nossas comunidades. Seu progresso reflete onde estão com relação à tradução do site e à coleta de frases.
+language-section-launched = Lançados
+language-section-launched-new-description = Nestes idiomas lançados, o site foi traduzido com sucesso e há frases coletadas suficientes para permitir dar sequência a contribuições de <italic>Falar</italic> e <italic>Ouvir</italic>.
+languages-show-more = Ver mais
 languages-show-less = Ver menos
 language-speakers = Falantes
 language-meter-in-progress = Progresso
@@ -454,7 +487,7 @@ language-total-progress = Total
 language-search-input =
     .placeholder = Pesquisar
 language-speakers = Falantes
-localized = Localizado
+localized = Traduzido
 sentences = Frases
 total-hours = Total de horas
 

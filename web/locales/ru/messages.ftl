@@ -274,7 +274,7 @@ other = Другой
 why-profile-title = Зачем нужен профиль?
 why-profile-text = Предоставив некоторые данные о себе, вы сделаете аудио данные, отправляемые в Common Voice, более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
 dashboard = Панель
-build-profile = Построить профиль
+build-profile = Создание профиля
 avatar = Аватар
 goals = Цели
 settings = Настройки
@@ -416,6 +416,16 @@ review-rerecord = Перезаписать
 review-cancel = Отменить отправку
 review-keep-recordings = Сохранить мои записи
 review-delete-recordings = Удалить мои записи
+
+## New Datasets Page
+
+language = Язык
+# File size in gigabytes
+size = Размер
+cv-license = Лицензия
+size-gigabyte = ГБ
+size-megabyte = МБ
+download-language = Загрузить { $language }
 
 ## Download Modal
 

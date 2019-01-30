@@ -185,7 +185,7 @@ sign-up-account = Sortu kontu bat
 
 benefits = Onurak
 rich-data = Bihur itzazu zuk igotako datuak ahalik aberatsen zure profilean datu demografiko anonimo batzuk zehaztuz. Datu demografiko guztiak des-identifikatu egiten ditugu publikoak egin aurretik.
-improve-audio = Profileko informazioak ahotsaren ezagutzaren trebatzea egiteko erabiltzen diren datuak hobetzen ditu.
+improve-audio = Profileko informazioak hizketaren ezagutzaren trebatzea egiteko erabiltzen diren datuak hobetzen ditu.
 keep-track = Hizkuntza desberdinetan egiten dituzun aurrerapenen eta estatistiken berri izan.
 compare-progress = Ikusi zure aurrerapenak munduan zehar dauden beste laguntzaileenekin konparatuta.
 view-goals = Ikusi zure aurrerapenak helburu pertsonalekiko eta proiektuko helburuekiko.
@@ -268,7 +268,7 @@ female = Emakumezkoa
 # Gender
 other = Bestelakoa
 why-profile-title = Zergatik profila?
-why-profile-text = Zuri buruzko zenbait informazio emanez, Common Voicera igotzen dituzun audio datuak Ahotsaren Ezagutza motorrentzako erabilgarriagoak izango dira, datu gehigarri hauek emaitzaren zehaztasuna hobetzen baitute.
+why-profile-text = Zuri buruzko zenbait informazio emanez, Common Voicera igotzen dituzun audio datuak Hizketaren Ezagutza motorrentzat erabilgarriagoak izango dira, datu gehigarri hauek emaitzaren zehaztasuna hobetzen baitute.
 dashboard = Arbela
 build-profile = Eraiki profila
 avatar = Avatarra
@@ -280,7 +280,7 @@ profile-close = Itxi
 profile-explanation = Egin zure aurrerapenen jarraipena profil batekin eta lagundu ahots-datu zehatzagoak lortzen.
 thanks-for-account = Eskerrik asko zure kontua baieztatzeagatik, orain osatu zure profila.
 why-demographic = Zergatik da garrantzitsua hau?
-why-demographic-explanation = Adina, sexua eta azentua bezalako anonimizatuako datuek, ahotsaren ezagutzako motorren zehaztasuna hobetzen laguntzen dute hauek entrenatzeko audioen ezaugarriak osatzen dituztelako. Zure erabiltzaile-izena eta e-posta ez dira inoiz lotzen zuk bidalitako datuekin eta zure erabiltzaile-izena publikoa ala anonimoa izatea aukera dezakezu.
+why-demographic-explanation = Adina, sexua eta azentua bezalako anonimizatutako datuek, hizketaren ezagutza motorren zehaztasuna hobetzen laguntzen dute hauek entrenatzeko audioen ezaugarriak osatzen dituztelako. Zure erabiltzaile-izena eta e-posta ez dira inoiz lotzen zuk bidalitako datuekin eta zure erabiltzaile-izena publikoa ala anonimoa izatea aukera dezakezu.
 keep-me-posted =
     .label = Eguneraketen berri izan nahi dut, Common Voicen zer gertatzen ari den jarraitzeko.
 accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan<privacyLink> azaltzen den bezala kudeatzea.
@@ -315,19 +315,23 @@ faq-what-cv-a =
     
     Ez gara ari hizkuntza zabalduenetan bakarrik ahots grabaketak biltzen, baizik eta hiztun gutxiago dituztenetan ere bai. Mota askotako ahotsez osatutako datu-sorta bat argitaratuz, garatzaile, ekintzaile eta komunitateei existitzen den hutsune hori betetzeko ahaldundu nahi ditugu. Common Voice datu-sortaz gain, Deep Speech izena duen ahots ezagutza motor libre bat ere sortzen ari gara.
 faq-why-important-q = Zergatik da garrantzitsua?
-faq-why-important-a = Ahotsa gure artean komunikatzeko dugun modurik naturalena da eta ahots teknologiek gaitasun hori gure ordenagailu eta sakelakoek izatea lortzen ari dira. Garatzaileak ahots ezagutza aplikazio txundigarriak sortzeko ahaldundu nahi ditugu, denbora errealeko itzultzaileak edo ahots bidezko asistente digitalak bezala. Baina oraintxe bertan, era honetako app-ak sortzeko behar diren ahots-datuak garestiak eta jabedunak dira. Common Voice datu-sortarekin, berritzaileak izateko eta ahots teknologiak beraien hizkuntzetan eskuragarri jartzeko garatzaileek behar dutena ematea espero dugu.
+faq-why-important-a = Ahotsa gure artean komunikatzeko dugun modurik naturalena da eta ahots teknologiek gaitasun hori gure ordenagailu eta sakelakoek izatea lortzen ari dira. Garatzaileak hizketaren ezagutza aplikazio txundigarriak sortzeko ahaldundu nahi ditugu, denbora errealeko itzultzaileak edo ahots bidezko asistente digitalak bezala. Baina oraintxe bertan, era honetako app-ak sortzeko behar diren ahots-datuak garestiak eta jabedunak dira. Common Voice datu-sortarekin, berritzaileak izateko eta ahots teknologiak beraien hizkuntzetan eskuragarri jartzeko garatzaileek behar dutena ematea espero dugu.
 faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
 faq-how-get-a = Common Voice datu-sorta deskargagarri dago <licenseLink>CC0</licenseLink></licenseLink> lizentziapean gure <datasetLink>datu-sorta orrian</datasetLink>. Bertatik, publikoki deskargagarri dauden beste hainbat datu-sorta ere deskargatu ditzakezu.
 faq-when-release-q = Noiz aterako duzue Common Voice beste hizkuntzetan?
-faq-when-release-a = Komunitatea, Common Voice datu-sortaren bertsioa eleanitza prestatzen eta garbitzen ari da. Lan honetan lagundu nahi baduzu, <contactLink>kontakta gaitzazu</contactLink>. Orain, gure helburua 2019ko urtarrilean argitaratzea da. Ondoren, aldian-aldian hizkuntzak gehituko ditugu eta grabaketa berriak eskuragarri jartzen joango gara. Oraingoz ez dago argitalpen-zikloaren erritmorik zehaztuta.
+faq-when-release-a = Komunitatea, Common Voice datu-sortaren bertsio eleaniztuna prestatzen eta garbitzen ari da. Lan honetan lagundu nahi baduzu, <contactLink>kontakta gaitzazu</contactLink>. Orain, gure helburua 2019ko urtarrilean argitaratzea da. Ondoren, aldian-aldian hizkuntzak gehituko ditugu eta grabaketa berriak eskuragarri jartzen joango gara. Oraingoz ez dago argitalpen-zikloaren erritmorik zehaztuta.
 faq-why-mission-q = Zergatik da Common Voice  Mozilla misioaren parte?
 faq-why-mission-a = Mozillaren egitekoa, weba guztiontzat irekia eta eskuragarri mantentzea da. Horretarako, web sortzaileak Common Voice bezalako proiektuekin ahaldundu behar ditugu. Ahots teknologiek beraien merkatu-nitxotik haratagoko aplikazioetara hedatzen diren heinean, uste dugu erabiltzaile guztiei berdin zerbitzatu behar dietela. Horregatik saiatzen gara hizkuntza gehiagotara zabaltzen eta ahots teknologien sortzea eta proba, hizkera eta talde demografiko ezberdinetara moldatzen. Common Voice guztientzat eskuragarri dagoen baliabide publiko bat da eta munduan zehar dauden Mozilla taldeek eta garatzaileek, dagoeneko beraien proiektuetarako erabiltzen ari dira.
-faq-what-cv-and-deepspeech-q = Zein desberdintasun dago Common Voicen eta Ahots Sakonaren artean?
+faq-what-cv-and-deepspeech-q = Zein desberdintasun dago Common Voice-n eta Deep Speech-en artean?
+faq-what-cv-and-deepspeech-a = Common Voice datu-sortak, Mozillaren Deep Speech ahotsaren ezagutzarako motor librea osatzen du. Deep Speechen lehen bertsioa 2017ko azaroan argitaratu zen eta ordudanik eboluzionatzen jarraitu du. Honek eta Common Voice datu-sortak, ahotsaren ezagutzarako teknologiak izaki, denentzako eskuragarri egon behar dutela uste dugu. Teknologia hauek garatzaileei, produktu eta zerbitzu berritzaileen olatu bat sortzen laguntzea espero dugu.
 faq-is-goal-assistant-q = Common Voicen helburua ahots asistente bat sortzea al da?
-faq-is-goal-assistant-a = Common Voice datu-sortaren helburua, munduko edonori ahotsaren ezagutza, hizlari detekzioa edo ahots datuak behar dituen beste edozein aplikazio sortzen laguntzea da. Ahots asistente bat datu-sortarekin sor daitekeen aplikazio motetako bat besterik ez da.
+faq-is-goal-assistant-a = Common Voice datu-sortaren helburua, munduko edonori hizketaren ezagutza, hizlari detekzioa edo ahots datuak behar dituen beste edozein aplikazio sortzen laguntzea da. Ahots asistente bat datu-sortarekin sor daitekeen aplikazio motetako bat besterik ez da.
 faq-do-want-native-q = Ez naiz hizlari natiboa eta azentuarekin hitz egiten dut, hala ere nire ahotsa nahi duzue?
 faq-do-want-native-a = Bai, zure ahotsa bereziki nahi dugu! Common Voicen helburuetako bat ahalik azentu desberdin gehien biltzea da, ahots ezagutza zerbitzuak guztiekin ondo ibil daitezen. Honek esan nahi du natiboak ez diren hizlarien laguntza bereziki erabilgarria dela.
 faq-why-different-speakers-q = Zergatik behar ditugu hainbeste hizlari desberdin hizkuntzako?
+faq-why-different-speakers-a =
+    Hizketa teknologia gehienak esparru demografiko zehatz batzuekin, <articleLink>klase ertaineko gizonezkoekin</articleLink>, beste guztiekin baino gehiago trebatzen dira. Ordezkaritza nahikorik gabe geratu ohi diren azentuak eta dialektoak, hain zuzen, dagoeneko marjinaturik dauden giza taldeei dagozkienak izaten dira. Makina askok emakumezkoen ahotsak ere ulertzeko arazoak dituzte.
+    Horregatik nahi dugu aniztasuna gure ahots datu-sortan!
 faq-why-my-lang-q = Zergatik ez da nire hizkuntza hemen agertzen?
 faq-what-quality-q = Zenbateko audio kalitatea behar da grabaketa datu-sortan erabilia izan dadin?
 faq-why-10k-hours-q = Zergatik lortu behar dira balioztatutako 10.000 audio ordu hizkuntza bakoitzean?
@@ -345,6 +349,10 @@ faq-is-account-public-q = Nire kontuko informazioa publikoa da?
 faq-how-privacy-q = Nola ziurtatzen dituzue beren ahotsak lagatzen dituzten pertsonen anonimotasuna eta pribatutasuna?
 faq-how-privacy-a = Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Laguntzaile batek datu demografikoa ematen duenean bere profilaren bitartez, informazio hori des-identifikatu egiten da datu-sorta deskargagarri izateko prestatzen denean eta inoiz ez da datu demografikoa publiko egiten profil publikoetan.
 faq-what-determine-identity-q = Zer nahi du esan ezin dela hizlarien "identitatea ondorioztatu" Common Voice datu-sortan?
+faq-what-determine-identity-a =
+    Common Voice datu-sorta baliabide irekia eta publikoki atzigarria da, hizketa baliatzen duten hainbat aplikazio trebatzeko erabil daitekeena. Gure laguntzaile guztien segurtasuna babesteko, Common Voice datu-sorta deskargatzen duen orori, gure laguntzaileen pribatutasuna errespetatzeko eskatzen diogu.
+    
+    Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Datu-sorta deskargatzen duzunean, laguntzaile bat bera ere nor den ondorioztatzen saiatuko ez zarela onartzen duzu. Horrek esan nahi du ezin duzula datu-sortako datu bat ere laguntzaile baten datu pertsonalekin lotu. Hala ere, lotu dezakezu datu-sortako informazio bat datu-sorta barruko beste datu batekin, adibidez hizketaren ezagutza, hizlariaren detekzioa edo bestelako aplikazioak burutzeko.
 
 ## Glossary
 
@@ -356,7 +364,7 @@ sentence-collection-explanation = jabetza publikoan dauden esaldiak biltzea edo 
 hours-recorded-explanation = orain arte bildu ditugun ahots grabaketa ordu kopurua.
 hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabaketa orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
 sst = Speech-to-text (STT)
-sst-explanation = ahotsetik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
+sst-explanation = hizketatik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
 de-identified = Des-identifikazioa
 de-identified-explanation = datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabaketetatik ezkutatzeko prozesua.
 
@@ -371,17 +379,17 @@ data-download-button = Deskargatu Common Voiceko datuak
 data-download-yes = Bai
 data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
-data-download-modal = <size>{ $size }GB</size>tako deskarga bat hastear zaude, jarraitu?
-data-subtitle = Ahots datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena ahots teknologia duten aplikazioak trebatzeko.
-data-explanatory-text = Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako ahots teknologietan. Hau ekimen globala da eta guztiak gonbidatzen ditugu parte hartzera. Gure helburua ahots teknologia inklusiboagoa izaten laguntzea da, munduan zehar dauden ahots desberdinak islatuz.
-data-get-started = <speechBlogLink>Ikasi ahotsaren ezagutzari buruz</speechBlogLink>
+data-download-modal = <size>{ $size }GB</size>-etako deskarga bat hastear zaude, jarraitu?
+data-subtitle = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena hizketa baliatzen duten aplikazioak trebatzeko.
+data-explanatory-text = Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako hizketaren teknologietan. Hau ekimen globala da eta guztiak gonbidatzen ditugu parte hartzera. Gure helburua hizketaren teknologia inklusiboagoa izaten laguntzea da, munduan zehar dauden ahots desberdinak islatuz.
+data-get-started = <speechBlogLink>Ikasi hizketaren ezagutzari buruz</speechBlogLink>
 data-other-title = Beste ahots datu-sortak...
 data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
-data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ahots ingelesarekin irakurrita.
+data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
-data-other-voxforge-description = VoxForge transkribatutako ahotsa biltzeko sortu zen, ahotsaren ezagutza motor libreek erabiltzeko.
+data-other-voxforge-description = VoxForge transkribatutako hizketak biltzeko sortu zen, hizketaren ezagutza motor libreek erabiltzeko.
 data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek ,bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabaketen audioak dauzka.
 data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
@@ -398,6 +406,34 @@ review-rerecord = Grabatu berriro
 review-cancel = Ezeztatu bidalketa
 review-keep-recordings = Mantendu grabazioak
 review-delete-recordings = Ezabatu nire grabazioak
+
+## New Datasets Page
+
+datasets-headline = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena hizketa baliatzen duten aplikazioak trebatzeko.
+datasets-positioning =
+    Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako hizketaren teknologietan.
+    
+    Common Voice datu-sorta eleaniztuna, dagoeneko publikoki eskuragarri dagoen handiena da, baina ez da bakarra.
+    
+    Begira orri honetan agertzen diren beste ahots datu-sorta irekien erreferentziak.
+language = Hizkuntza
+# File size in gigabytes
+size = Tamaina
+validated-hr-total = Baliozkotutako orduak guztira
+overall-hr-total = Orduak guztira
+cv-license = Lizentzia
+audio-format = Audio formatua
+number-of-voices = Ahots kopurua
+email-to-download = Sartu e-posta deskargatzeko
+why-email = <b>Zergatik e-posta bat?</b> Baliteke etorkizunean zurekin harremanetan jarri behar izatea datu-sortako aldaketengatik. Hori gertatuz gero, e-posta baliatuko genuke.
+confirm-size = <b>{ $size }</b>-eko deskarga bat hastera zoaz
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Onartzen duzu</b> ez zarela saiatuko Common Voice datu-sortako hizlarien identitatea ondorioztatzen.
+download-language = Deskargatu { $language }
+validated-hours = Balioztatutako orduak
+recorded-hours = Grabatutako orduak
+whats-inside = Zer dago Common Voice datu-sortaren barnean?
 
 ## Download Modal
 
@@ -533,9 +569,13 @@ overall-accuracy = Zehaztasun orokorra
 
 ## Profile Delete
 
-delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago dugu Common Voicen datu-sortan manten daitezen?
+delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago duzu Common Voicen datu-sortan manten daitezen?
 keep = Mantendu
 remove = Kendu
 keep-info = Zure ahots grabaketa anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabaketak datu-sortatik kentzerik.
 remove-info = Zure ahots grabaketak datu-sortatik ezabatzeko eskaria berrikusiko dugu. Zure eskaria onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabaketak ezabatzeko eskatuko diegu.
+why-delete-recordings =
+    Common Voice grabaketak hezkuntza zentroek eta ikerlariek, enpresa txikiek eta ahotsaren ezagutzaren zaleek erabiltzen dituzte publikoki erabilgarri dauden baliabideak trebatzeko eta hazteko, ahots ereduekin gertatzen den bezala.
+    
+    Esango al zeniguke zergatik nahi duzun zure grabaketak ezabatzea?
 profile-form-delete = Ezabatu profila
