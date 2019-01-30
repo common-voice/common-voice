@@ -2,10 +2,17 @@
 
 WORKDIR=/opt/common-voice-bundler
 
+# Protect ourselves against concurrent execution, wait for exclusive lock before proceeding
+[ "${FLOCKER}" != "$0" ] && exec env FLOCKER="$0" flock -e "$0" "$0" "$@"
+
 echo "Running bundling in $WORKDIR"
 
-pushd $WORKDIR
+pushd $WORKDIR 2>/dev/null || exit 1
 
 yarn start
 
-popd
+RV=$?
+
+popd 2>/dev/null || exit 1
+
+exit $RV
