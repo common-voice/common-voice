@@ -440,6 +440,9 @@ confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } downloade
+validated-hours = Falidearre oeren:
+recorded-hours = Opnommen oeren
+whats-inside = Wat is de ynhâld fan de Common Voice-gegevensset?
 
 ## Download Modal
 
