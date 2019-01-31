@@ -441,6 +441,8 @@ dataset-description =
     Mỗi mục trong bộ dữ liệu bao gồm một tệp MP3 và tệp văn bản tương ứng. Nhiều <b>{ $hours }</b> giờ được ghi trong tập dữ liệu cũng bao gồm siêu dữ liệu nhân khẩu học như tuổi, giới tính và giọng nói có thể giúp đào tạo tính chính xác của các công cụ nhận dạng giọng nói.
     
     Bộ dữ liệu hiện bao gồm <b>{ $hours }</b> giờ được xác thực bằng các ngôn ngữ <b>{ $languageCount }</b>, nhưng chúng tôi luôn luôn thêm nhiều tiếng nói và ngôn ngữ. Hãy xem <languagesLink>trang ngôn ngữ</languagesLink> của chúng tôi để yêu cầu ngôn ngữ hoặc bắt đầu đóng góp.
+want-dataset-update = Muốn cập nhật khi chúng tôi phát hành phiên bản mới của bộ dữ liệu Common Voice? Đăng kí theo dõi bản tin của chúng tôi.
+subscribe = Đăng kí
 
 ## Download Modal
 
