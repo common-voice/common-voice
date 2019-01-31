@@ -448,6 +448,7 @@ dataset-description =
     Varje post i datamängden består av en unik MP3 och motsvarande textfil. Många av de <b>{ $hours }</b> inspelade timmarna i datamängden innehåller även demografiska metadata som ålder, kön och accent som kan hjälpa till att träna noggrannheten för taligenkänningsmotorer.
     
     Datamängden består för närvarande av <b>{ $hours }</b> validerade timmar på språk i <b>{ $languageCount }</b> men vi lägger alltid till fler röster och språk. Ta en titt på vår <languagesLink>Språk sida</languagesLink> för att begära ett språk eller börja bidra.
+subscribe = Prenumerera
 
 ## Download Modal
 
