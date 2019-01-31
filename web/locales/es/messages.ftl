@@ -69,8 +69,10 @@ kpv = Komi-Zyrian
 kw = Córnico
 ky = Kirguís
 mdf = moksha
+mhr = Mari oriental
 mk = Macedonio
 mn = mongol
+mrj = Mari occidental
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepalí
@@ -95,10 +97,13 @@ te = Telugú
 th = Tailandés
 tr = Turco
 tt = Tártaro
+uby = Ubijé
+udm = Udmurto
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
 vi = vietnamita
+vot = Votic
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwán)
@@ -143,7 +148,7 @@ vote-yes = Sí
 vote-no = No
 toggle-play-tooltip = Presiona { shortcut-play-toggle } para activar el modo de reproducción
 speak-subtitle = Dona tu voz
-speak-paragraph = Grabar fragmentos de voz es una parte integral de construir nuestro conjunto de datos abiertos; algunos dirían también que es la parte divertida.
+speak-paragraph = Grabar fragmentos de voz es una parte integral para construir nuestra base de datos abierta; algunos dirían también que es la parte divertida.
 speak-goal-text = Fragmentos grabados
 listen-subtitle = Ayúdanos a validar voces
 listen-paragraph = Validar fragmentos donados es igualmente importante para la misión de Common Voice. Escucha y ayúdanos a crear datos de voz abiertos y de calidad.
@@ -333,10 +338,27 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = ¿Por qué mi idioma aún no está incluido?
 faq-why-my-lang-a = Mozilla no elige ni favorece ningún idioma sobre otro. Al contrario, Common Voice es una iniciativa puramente comunitaria, pero hacen falta <multilangLink>varios pasos para agregar un nuevo idioma</multilangLink> y comenzar a recopilar donaciones de voz. Primero, el sitio web de Common Voice debe traducirse para que los miembros de la comunidad puedan acceder a la experiencia del colaborador en su propio idioma. A continuación, necesitamos una gran recopilación de frases sin derechos de autor para que las personas puedan leerlas en voz alta. Una vez que se cumplan ambos requisitos, se "inicia" un idioma en Common Voice para que las personas comiencen a grabar su voz y validar las donaciones de otros.
 faq-what-quality-q = ¿Qué nivel de calidad de audio se requiere para que un fragmento de voz se use en la base de datos?
-faq-what-quality-a = Queremos que la base de datos de Common Voice refleje la calidad de audio que un motor de voz a texto escuchará en la realidad, así que estamos buscando variedad. Además de una comunidad diversa de oradores, na base de datos con una calidad de audio variable enseñará al motor de voz a texto a manejar diversas situaciones del mundo real, desde hablar en segundo plano hasta ruido de autos. Si el fragmento de voz es inteligible, debería ser válido para la base de datos.
+faq-what-quality-a = Queremos que la base de datos de Common Voice refleje la calidad de audio que un motor de voz a texto escuchará en la realidad, así que estamos buscando variedad. Además de una comunidad diversa de oradores, una base de datos con una calidad de audio variable enseñará al motor de voz a texto a manejar diversas situaciones del mundo real, desde hablar en segundo plano hasta ruido de autos. Si el fragmento de voz es inteligible, debería ser válido para la base de datos.
 faq-why-10k-hours-q = ¿Por qué el objetivo son 10.000 horas validadas?
 faq-why-10k-hours-a = Es aproximadamente el número de horas que se necesitan para formar un sistema de producción de voz a texto.
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice las horas?
+faq-how-calc-hours-a = Calculamos las horas estimando la duración media de cada grabación, y luego multiplicando ese número por el número total de grabaciones en todos los idiomas.
+faq-where-src-from-2-q = ¿De dónde procede el texto fuente?
+faq-where-src-from-2-a =
+    Nuestros textos provienen de frases originales donadas por los propios colaboradores y de diálogos de películas de dominio público como <italic> Qué bello es vivir </italic>.
+    
+    Puedes consultar nuestras frases de origen en esta <githubLink>carpeta de GitHub</githubLink>.
+faq-why-not-ask-read-q = ¿Por qué no pedís a la gente que lean libros o artículos de Wikipedia en diferentes idiomas?
+faq-why-not-ask-read-a = Para hacer que la base de datos de Common Voice sea lo más útil posible, hemos decidido permitir solo los textos que estén disponibles bajo una licencia Creative Commons (CC0). Al usar la licencia estándar CC0 es mucho más difícil encontrar y recopilar textos originales, pero permite que cualquiera pueda usar los datos de voz resultantes sin restricciones de uso o autorización de Mozilla. Por último, queremos que la base de datos en varios idiomas sea lo más útil posible para todos, incluidos investigadores, universidades, empresas emergentes, gobiernos, organizaciones de fines sociales y aficionados.
+faq-why-account-q = ¿Por qué tengo que registrarme?
+faq-is-account-public-q = ¿La información de mi cuenta es pública?
+faq-how-privacy-q = ¿Cómo garantizáis el anonimato y la privacidad de las personas que donan sus voces?
+faq-how-privacy-a = Todos los fragmentos de voz de la base de datos se filtran y se les elimina la información de identificación personal. Cuando un colaborador proporciona datos demográficos a través de su perfil, esa información se anonimiza en sus fragmentos de voz antes de empaquetarla y habilitarla para la descarga en la base de datos y nunca se hace pública en su página de perfil.
+faq-what-determine-identity-q = ¿Qué significa que no puedo "determinar la identidad" de los oradores en la base de datos de Common Voice?
+faq-what-determine-identity-a =
+    La base de datos de Common Voice es un recurso abierto y accesible para todo el público que se puede usar para formar y crear una amplia variedad de aplicaciones habilitadas para la voz. Para proteger la seguridad de nuestros colaboradores, pedimos a todos los que descarguen la base de datos de Common Voice que respeten la privacidad de los colaboradores.
+    
+    A todos los fragmentos de voz de la base de datos se les filtra la información de identificación personal. Cuando descargas la base de datos, estás aceptando que no intentarás determinar la identidad de ningún colaborador. Eso significa que no puedes intentar vincular la información de la base de datos con la información personal de un colaborador. Sin embargo, puedes usar la base de datos para entrenar el reconocimiento de voz, el reconocimiento del hablante u otras aplicaciones; por ejemplo, vinculando la información de la base de datos con otra información que ya se encuentra en ella.
 
 ## Glossary
 
@@ -348,7 +370,9 @@ sentence-collection-explanation = Recopilar frases de dominio público o escribi
 hours-recorded-explanation = La cantidad de horas de grabación que hemos recopilado hasta ahora.
 hours-validated-explanation = La cantidad de horas de grabación que han sido valoradas con un "Sí" por 2 de cada 3 usuarios. Así se indica el progreso hacia la meta general del proyecto de 10.000 horas.
 sst = Texto a voz (STT)
-de-identified-explanation = El proceso por el que la información del perfil de un colaborador se oculta en los fragmentos de voz que ha donado, al descargarlos como parte de la base de datos.
+sst-explanation = Tecnologías de texto a voz (STT) que convierten los datos de voz en texto.
+de-identified = Anonimizar
+de-identified-explanation = El proceso por el que la información del perfil de un colaborador se oculta en los fragmentos de voz que ha donado, cuando se descargan como parte de la base de datos.
 
 ## NotFound
 
@@ -418,6 +442,8 @@ dataset-description =
     Por ahora, la base de datos consta de <b>{ $hours }</b> horas validadas en <b>{ $languageCount }</b> idiomas, pero siempre estamos añadiendo más voces e idiomas. Echa un vistazo a nuestra <languagesLink>Página de idiomas</languagesLink> para solicitar un idioma o empezar a colaborar.
 want-dataset-update = ¿Quieres recibir información sobre nuevas versiones y actualizaciones de las bases de datos de Common Voice? Suscríbete a nuestro boletín.
 subscribe = Suscribirse
+other-datasets = Otras bases de datos de voces
+feedback-q = ¿Tienes algún comentario?
 data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16Khz derivado de lecturas de audiolibros del proyecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
