@@ -424,6 +424,8 @@ download-language = { $language } sćahnyć
 validated-hours = Wobkrućene hodźiny
 recorded-hours = Natočene hodźiny
 whats-inside = Što je w datowej sadźbje Common Voice?
+want-dataset-update = Chceće aktualizacije, hdyž nowu wersiju datoweje sadźby Common Voice wozjewjamy? Abonujće naš powěsćowy list.
+subscribe = Abonować
 
 ## Download Modal
 
