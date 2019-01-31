@@ -42,6 +42,7 @@
     "react": "^16.7.0",
     "react-content-loader": "^3.4.2",
     "react-dom": "^16.7.0",
+    "react-intersection-observer": "^7.0.0",
     "react-modal": "^3.8.1",
     "react-redux": "^6.0.0",
     "react-router": "^4.2.0",

@@ -1,5 +1,6 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { InView } from 'react-intersection-observer';
 import { Button, LinkButton } from '../../ui/ui';
 import Dots from './dots';
 import datasets from './other-datasets';
@@ -89,66 +90,85 @@ class Dataset extends React.Component<any, { collapsed: boolean }> {
   }
 }
 
-export default () => (
-  <div className="dataset-resources">
-    <nav>
-      <ul>
-        {[
-          ['get-started-speech', NAV_IDS.getStarted],
-          ['other-datasets', NAV_IDS.other],
-          ['feedback-q', NAV_IDS.feedback],
-        ].map(([labelId, id], i) => (
-          <li className={i == 0 ? 'active' : ''}>
-            <div className="line" />
-            <Localized id={labelId} key={labelId}>
-              <a href={'#' + id} />
-            </Localized>
-          </li>
-        ))}
-      </ul>
-    </nav>
+interface State {
+  activeSection: string;
+}
 
-    <div className="sections">
-      <A name={NAV_IDS.getStarted} />
-      <section className="get-started">
-        {[
-          [
-            'DeepSpeech',
-            'deepspeech-info',
-            'deepspeech',
-            { githubLink: <b />, discourseLink: <b /> },
-          ],
-          [
-            'Discourse',
-            'common-voice-info',
-            'discourse',
-            { discourseLink: <b /> },
-          ],
-        ].map(([title, descriptionId, imgSrc, props]) => (
-          <div className="box">
-            <img src={`/img/datasets/${imgSrc}.png`} />
-            <div className="dots-and-content">
-              <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
-              <div className="content">
-                <h2>{title}</h2>
-                <Localized id={descriptionId as string} {...props}>
-                  <p />
+export default class extends React.Component<{}, State> {
+  state: State = { activeSection: null };
+
+  render() {
+    const Section = ({ name, ...props }: any) => (
+      <InView
+        onChange={isVisible => {
+          if (isVisible) {
+            this.setState({ activeSection: name });
+          }
+        }}>
+        <A name={name} />
+        <section {...props} />
+      </InView>
+    );
+    console.log(this.state.activeSection);
+    return (
+      <div className="dataset-resources">
+        <nav>
+          <ul>
+            {[
+              ['get-started-speech', NAV_IDS.getStarted],
+              ['other-datasets', NAV_IDS.other],
+              ['feedback-q', NAV_IDS.feedback],
+            ].map(([labelId, id]) => (
+              <li className={id == this.state.activeSection ? 'active' : ''}>
+                <div className="line" />
+                <Localized id={labelId} key={labelId}>
+                  <a href={'#' + id} />
                 </Localized>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <div className="sections">
+          <Section name={NAV_IDS.getStarted} className="get-started">
+            {[
+              [
+                'DeepSpeech',
+                'deepspeech-info',
+                'deepspeech',
+                { githubLink: <b />, discourseLink: <b /> },
+              ],
+              [
+                'Discourse',
+                'common-voice-info',
+                'discourse',
+                { discourseLink: <b /> },
+              ],
+            ].map(([title, descriptionId, imgSrc, props]) => (
+              <div className="box">
+                <img src={`/img/datasets/${imgSrc}.png`} />
+                <div className="dots-and-content">
+                  <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
+                  <div className="content">
+                    <h2>{title}</h2>
+                    <Localized id={descriptionId as string} {...props}>
+                      <p />
+                    </Localized>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        ))}
-      </section>
+            ))}
+          </Section>
 
-      <A name={NAV_IDS.other} />
-      <section>
-        {datasets.map(props => (
-          <Dataset {...props} />
-        ))}
-      </section>
+          <Section name={NAV_IDS.other}>
+            {datasets.map(props => (
+              <Dataset {...props} />
+            ))}
+          </Section>
 
-      <A name={NAV_IDS.feedback} />
-      <section />
-    </div>
-  </div>
-);
+          <Section name={NAV_IDS.feedback} />
+        </div>
+      </div>
+    );
+  }
+}
