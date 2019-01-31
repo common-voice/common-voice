@@ -15,7 +15,25 @@ function uniqueIcon(component: (id: number, props: any) => React.ReactNode) {
   };
 }
 
-export const ArrowLeft = Icon('/img/arrow-left.svg');
+export const ArrowLeft = uniqueIcon((id, props) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
+    <defs>
+      <path
+        id={'a' + id}
+        d="M18 7c0 .6-.4 1-1 1H3.4l4.3 4.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3l-6-6c-.1-.1-.2-.2-.2-.3-.1-.2-.1-.5 0-.8.1-.1.1-.2.2-.3l6-6c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4L3.4 6H17c.6 0 1 .4 1 1z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(3 5)">
+      <mask id={'b' + id} fill="#fff">
+        <use xlinkHref={'#a' + id} />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref={'#a' + id} />
+      <g fill="#4A4A4A" mask={`url(#b${id})`}>
+        <path d="M-3-5h24v24H-3z" />
+      </g>
+    </g>
+  </svg>
+));
 
 export const BarChartIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">

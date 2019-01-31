@@ -463,6 +463,8 @@ dataset-description =
         Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $hours }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
 
         The dataset currently consists of <b>{ $hours }</b> validated hours in <b>{ $languageCount }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
+want-dataset-update = Want updates when we release a new version of the Common Voice dataset? Subscribe to our newsletter.
+subscribe = Subscribe
 
 ## Download Modal
 download-title = Your download has started.

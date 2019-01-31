@@ -71,6 +71,10 @@
     & .text {
         padding: 20px 0;
 
+        @media (--md-down) {
+            padding-inline-start: 10px;
+        }
+
         @media (--lg-up) {
             padding-inline-start: 20px;
         }
