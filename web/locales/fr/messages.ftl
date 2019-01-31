@@ -412,6 +412,22 @@ review-cancel = Annuler l’envoi
 review-keep-recordings = Conserver les enregistrements
 review-delete-recordings = Supprimer les enregistrements
 
+## New Datasets Page
+
+datasets-headline = Nous créons un jeu de données vocales open source et multilingue que tout le monde peut utiliser pour entraîner des applications utilisant la voix.
+language = Langue
+# File size in gigabytes
+size = Taille
+validated-hr-total = Total d’heures validées
+overall-hr-total = Total d’heures
+cv-license = Licence
+number-of-voices = Nombre de voix
+size-gigabyte =  Go
+size-megabyte =  Mo
+validated-hours = Heures validées
+recorded-hours = Heures enregistrées
+whats-inside = Que contient le jeu de données Common Voice ?
+
 ## Download Modal
 
 download-title = Votre téléchargement a démarré.
