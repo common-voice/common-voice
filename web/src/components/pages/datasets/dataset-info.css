@@ -157,7 +157,6 @@
         & .button {
             border-color: transparent;
             padding: 15px 30px;
-            text-transform: none;
             background: var(--blue);
             color: var(--white);
 

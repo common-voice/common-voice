@@ -110,7 +110,6 @@
                 }
 
                 & button {
-                    text-transform: none;
                     max-width: 5rem;
                 }
             }

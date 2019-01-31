@@ -58,7 +58,6 @@
         font-weight: normal;
         color: #666666;
         background: #f9f9f8;
-        text-transform: none;
 
         &:disabled {
             opacity: 1;

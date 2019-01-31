@@ -82,7 +82,6 @@
         margin: 0 auto;
         height: 57px;
         background: var(--blue);
-        text-transform: none;
 
         &:hover {
             border: 1px solid var(--black);
