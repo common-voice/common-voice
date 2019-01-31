@@ -172,12 +172,28 @@ x-years-short =
         [one] { $count } año
        *[other] { $count } años
     }
+help-make-dataset = Ayúdanos a crear una base de datos de alta calidad y accesible para todo el mundo
+profile-not-required = No es necesario tener un perfil para colaborar, aunque puede resultar útil.
+sign-up-account = Regístrate para obtener una cuenta
 
 ## Account Benefits
 
+benefits = Beneficios
+rich-data = Intenta que los datos que envíes sean lo más completos posible, proporcionando datos demográficos anónimos. Todos esos datos pasarán a ser anónimos antes de hacerse públicos.
+improve-audio = La información del perfil mejora los datos de audio que se utilizan en el entrenamiento de precisión de reconocimiento de voz.
+keep-track = Mantén un registro de tu progreso y métricas en varios idiomas.
+compare-progress = Compara tu progreso con el de otros colaboradores en todo el mundo.
+view-goals = Compara tu progreso con tus objetivos personales y de proyecto.
+join-newsletter = También puedes unirte a nuestra lista de correo electrónico para obtener actualizaciones y novedades sobre el proyecto.
 
 ## What's public
 
+whats-public = ¿Qué se hace público?
+email-not-public = No publicaremos tu correo electrónico.
+recordings-and-locale-public = El número de grabaciones y los idiomas en los que colaboras sí será público.
+username-optin-public = Puedes elegir entre un nombre de usuario público o anónimo.
+demographic-deidentified = Los datos demográficos que se envíen de forma opcional (por ejemplo, edad, sexo, idioma y acento) no se vinculan explícitamente con la voz entregada y jamás se harán públicos en tu perfil.
+username-email-not-demographic = Tu nombre de usuario y correo electrónico no se asociarán con los datos publicados.
 
 ## Speak & Listen Shortcuts
 
@@ -224,6 +240,10 @@ english = Inglés
 
 profile-form-username =
     .label = Nombre de usuario
+profile-form-native-language =
+    .label = Idioma nativo
+profile-form-additional-language =
+    .label = Idioma adicional
 profile-form-accent =
     .label = Acento
 profile-form-age =
@@ -272,15 +292,24 @@ off = Desactivado
 on = Activado
 add-avatar-title = Añadir un avatar a tu perfil
 browse-file-title = Subir un archivo de imagen
+browse-file = Arrastra y suelta o <browseWrap>navega</browseWrap>
 connect-gravatar = Conectar con Gravatar
+gravatar_not_found = No se ha encontrado ningún gravatar para tu correo electrónico
 file_too_large = El archivo seleccionado es demasiado grande
 manage-subscriptions = Manejar suscripciones
 email-already-used = El email ya está siendo usado por otra cuenta
 add-language = Agregar idioma
+change-email-setings = Cambia tu correo electrónico en Ajustes, debajo de Inicio de sesión
 
 ## FAQ
 
 faq-title = Preguntas frecuentes
+faq-what-cv-q = ¿Qué es Common Voice?
+faq-what-cv-a =
+    La tecnología de reconocimiento de voz está revolucionando la forma en la que nos relacionamos con las máquinas, pero los sistemas actuales son caros y no son de acceso público. Common Voice es parte de la iniciativa de Mozilla para hacer que las tecnologías de reconocimiento de voz sean mejores y más accesibles para todos. Common Voice es una gran base de datos de voces donadas a nivel mundial que permite que cualquiera pueda acceder de forma rápida y sencilla a las aplicaciones habilitadas para comunicarse en casi todos los idiomas.
+    
+    No solo estamos recopilando muestras de voz en los idiomas más hablados, sino también en aquellos con una menor cantidad de hablantes. Publicar una gran base de datos de voces permitirá a desarrolladores, empresarios y a las comunidades hacer frente a esa brecha. Además de la base de datos de Common Voice, también estamos creando un motor de reconocimiento de voz de código abierto llamado Deep Speech.
+faq-why-important-q = ¿Por qué es importante?
 
 ## Glossary
 
@@ -312,11 +341,6 @@ data-get-started = <speechBlogLink>Empezar con el reconocimiento de voz</speechB
 data-other-title = Otros archivos de datos de voz…
 data-other-goto = Ir a { $name }
 data-other-download = Descargar datos
-data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16Khz derivado de lecturas de audiolibros del proyecto LibriVox.
-data-other-ted-name = Corpus de TED-LIUM
-data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
-data-other-voxforge-description = VoxForge fue hecho para recolectar frases transcritas para ser usadas por motores de reconocimiento de voz de código abierto.
-data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio para uso en aprendizaje de máquinas. Esta descarga contiene todo el inglés grabado por su comunidad.
 data-bundle-button = Descargar paquete de archivo de datos
 data-bundle-description = Datos de Common Voice junto con todos los archivos de datos de voz anteriores.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
@@ -336,7 +360,42 @@ review-delete-recordings = Eliminar mis grabaciones
 ## New Datasets Page
 
 datasets-headline = Estamos creando una base de datos de voces, abierta y multi idioma, que cualquiera puede usar para entrenar aplicaciones que utilicen la voz como interfaz.
+datasets-positioning =
+    Creemos que las bases de datos amplias y accesibles para todo el público potenciarán la innovación y una sana competencia comercial entre las tecnologías de voz basadas en el aprendizaje automático.
+    
+    La base de datos multilingüe de Common Voice ya es la más amplia de su categoría, pero no es la única.
+    
+    Considera esta página como una referencia centralizada de otras bases de datos abiertas de voz que, como Common Voice, continúan creciendo y sirven de base para las actualizaciones de nuestras versiones.
+language = Idioma
+# File size in gigabytes
+size = Tamaño
+validated-hr-total = Total de horas validadas
+overall-hr-total = Total de horas
+cv-license = Licencia
+audio-format = Formato de audio
+number-of-voices = Número de voces
+splits = Particiones
+email-to-download = Escribe un email para descargar
+why-email = <b>¿Por qué un email?</b> Puede que necesitemos contactar contigo en el futuro sobre cambios en la base de datos; un email nos proporciona un medio de contacto.
+confirm-size = Ya estás listo para iniciar la descarga de <b>{ $size }</b>
+size-gigabyte = Gb
+size-megabyte = Mb
+confirm-no-identify = <b>Te comprometes</b> a no intentar determinar la identidad de los hablantes en la base de datos de Common Voice
+download-language = Descargar { $language }
+validated-hours = Horas validadas
+recorded-hours = Horas grabadas
+whats-inside = ¿Qué hay en la base de datos de Common Voice?
+dataset-description =
+    Cada entrada de la base de datos consiste en un único MP3 y su correspondiente archivo de texto. Muchas de las <b>{ $hours }</b> horas grabadas en la base de datos también incluyen metadatos demográficos, como edad, sexo y acento que pueden ayudar a mejorar la precisión en el entrenamiento de los motores de reconocimiento del  habla.
+    
+    Por ahora, la base de datos consta de <b>{ $hours }</b> horas validadas en <b>{ $languageCount }</b> idiomas, pero siempre estamos añadiendo más voces e idiomas. Echa un vistazo a nuestra <languagesLink>Página de idiomas</languagesLink> para solicitar un idioma o empezar a colaborar.
+want-dataset-update = ¿Quieres recibir información sobre nuevas versiones y actualizaciones de las bases de datos de Common Voice? Suscríbete a nuestro boletín.
 subscribe = Suscribirse
+data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16Khz derivado de lecturas de audiolibros del proyecto LibriVox.
+data-other-ted-name = Corpus de TED-LIUM
+data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
+data-other-voxforge-description = VoxForge fue hecho para recolectar frases transcritas para ser usadas por motores de reconocimiento de voz de código abierto.
+data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio para uso en aprendizaje de máquinas. Esta descarga contiene todo el inglés grabado por su comunidad.
 
 ## Download Modal
 
