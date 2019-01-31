@@ -420,6 +420,9 @@ review-delete-recordings = احذف تسجيلاتي
 language = اللغة
 # File size in gigabytes
 size = الحجم
+download-language = نزّل { $language }
+recorded-hours = الساعات المسجّلة
+subscribe = اشترِك
 
 ## Download Modal
 
