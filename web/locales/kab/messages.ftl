@@ -389,11 +389,6 @@ data-get-started = <speechBlogLink>Ger afus deg uɛqal n taɣect</speechBlogLink
 data-other-title = Tigrummiwin-nniḍen n yisefka...
 data-other-goto = Ddu ɣer { $name }
 data-other-download = Sider isefka
-data-other-librispeech-description = LibriSpeech d ammud n wazal 1000 n yisragen n tɣuri s tneglizit 16Khz i d-yekkan seg yidlisen s taɣect seg usenfar LibriVox.
-data-other-ted-name = Ammud n TED-LIUM
-data-other-ted-description = Ammud n TED-LIUM yettwaxdem-d seg yinawen s taɣect ajerred-nsen yella deg usmel n TED.
-data-other-voxforge-description = VoxForge yettwabna i ulqaḍ n yisefka n taɣect yettwarun akken ad ttwasqedcen deg imseddayen n uɛqal n taɣect ilelliyen.
-data-other-tatoeba-description = Tatoeba d taffa n yisefka tameqqrant n tifyar, n tsuqilt akked tukkisin timeslawin yettwaheggan i uselmed n tutlayin. Asider-agi yegber meṛṛa isefka s teglizit i skelsen yimdanen.
 data-bundle-button = Sider-d aqettun n tagrumma n yisefka
 data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yisefka-nniḍen ddaw-a.
 license = Turagt: <licenseLink>{ $license }</licenseLink>
@@ -432,7 +427,13 @@ download-language = Sider { $language }
 validated-hours = Isragen yettwasentmen
 recorded-hours = Isragen yettwaskelsen
 whats-inside = Acu yellan deg taggruma n isefka n Common Voice?
+dataset-description = Sekra n wayen ara ikecmen des tagrumma n yisefka d afaylu MP3 asuf akked ufaylu-is aḍris yemmenṭaḍen yid-s. Ddeqs seg <b>{ $hours }</b> n yisragen yettwaskelsen deg tagrumma n yisefka ad iseddu isefka ɣef tdimugrafit am uwtay (leɛmeṛ), tuzuft akked ususru i yezemren ad yefk afus i usluɣmu n tseddi n yimseddayen n uɛqal n taɣect.
 subscribe = Jerred
+data-other-librispeech-description = LibriSpeech d ammud n wazal 1000 n yisragen n tɣuri s tneglizit 16Khz i d-yekkan seg yidlisen s taɣect seg usenfar LibriVox.
+data-other-ted-name = Ammud n TED-LIUM
+data-other-ted-description = Ammud n TED-LIUM yettwaxdem-d seg yinawen s taɣect ajerred-nsen yella deg usmel n TED.
+data-other-voxforge-description = VoxForge yettwabna i ulqaḍ n yisefka n taɣect yettwarun akken ad ttwasqedcen deg imseddayen n uɛqal n taɣect ilelliyen.
+data-other-tatoeba-description = Tatoeba d taffa n yisefka tameqqrant n tifyar, n tsuqilt akked tukkisin timeslawin yettwaheggan i uselmed n tutlayin. Asider-agi yegber meṛṛa isefka s teglizit i skelsen yimdanen.
 
 ## Download Modal
 
