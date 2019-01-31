@@ -442,13 +442,21 @@ dataset-description =
     Por ahora, la base de datos consta de <b>{ $hours }</b> horas validadas en <b>{ $languageCount }</b> idiomas, pero siempre estamos añadiendo más voces e idiomas. Echa un vistazo a nuestra <languagesLink>Página de idiomas</languagesLink> para solicitar un idioma o empezar a colaborar.
 want-dataset-update = ¿Quieres recibir información sobre nuevas versiones y actualizaciones de las bases de datos de Common Voice? Suscríbete a nuestro boletín.
 subscribe = Suscribirse
+get-started-speech = Empieza hoy mismo con el Reconocimiento de voz
 other-datasets = Otras bases de datos de voces
 feedback-q = ¿Tienes algún comentario?
+deepspeech-info = La base de datos de Common Voice complementa el motor de reconocimiento de voz de código abierto de Deep Speech, que puedes utilizar para crear aplicaciones de reconocimiento de voz. Consulta nuestra <githubLink>sinopsis de Github</githubLink> o únete a <discourseLink>DeepSpeech Discourse</discourseLink> para saber más sobre cómo y por dónde empezar.
+common-voice-info = ¿Tienes dudas sobre Common Voice? Únete a nuestro <discourseLink>foro de Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16Khz derivado de lecturas de audiolibros del proyecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
 data-other-voxforge-description = VoxForge fue hecho para recolectar frases transcritas para ser usadas por motores de reconocimiento de voz de código abierto.
 data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio para uso en aprendizaje de máquinas. Esta descarga contiene todo el inglés grabado por su comunidad.
+your-feedback = ¿Tienes alguna idea para mejorar la base de datos de Common Voice? Cuéntanoslo en Discourse
+go-discourse = Ir a Discourse
+missing-language = ¿No aparece tu idioma en la base de datos? Si quieres agregarlo, accede a nuestra Página de idiomas.
+go-languages-page = Ir a la Página de idiomas
+ready-to-validate = ¿Estás listo para validar frases?
 
 ## Download Modal
 
