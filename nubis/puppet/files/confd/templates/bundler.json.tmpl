@@ -10,5 +10,6 @@
   },
   "outBucket": {
     "name": "{{ if exists "/config/Bucket/Bundler/Name" }}{{ getv "/config/Bucket/Bundler/Name" }}{{ end }}"
-  }
+  },
+  "salt": "{{ if exists "/config/Bundler/Salt" }}{{ getv "/config/Bundler/Salt" }}{{ end }}"
 }
