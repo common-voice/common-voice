@@ -430,7 +430,11 @@ data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je z awdiopřednoškow a jich transkripcijow wutworił, kotrež su na websydle TED k dispoziciji.
 data-other-voxforge-description = VoxForge je so załožił, zop by transkripcije rěčenja za wužiwanje ze systemami rěčenskeho spóznaća wotewrjeneho žórła zběrał.
 data-other-tatoeba-description = Tatoeba je wulka datowa banka sadow, přełožkow a zynkowych datow za wuknjenje rěčow. Tute sćehnjenje wobsahuje jendźelske teksty, kotrež su so wot tamnišeho zhromadźenstwa natočili.
-your-feedback = Maće ideje, kak móžemy datowu sadźbu Common voice polěpšić?
+your-feedback = Maće ideje, kak móžemy datowu sadźbu Common voice polěpšić? Informujće nas w forumje Discourse
+go-discourse = K forumje Discourse
+missing-language = Njenamakaće swoju rěč w datowej sadźbje? Zo byšće swoju rěč požadał, wopytajće našu stronu rěčow.
+go-languages-page = K stronje rěčow
+ready-to-validate = Sće hotowy nam pomhać, sady přepruwować?
 
 ## Download Modal
 
