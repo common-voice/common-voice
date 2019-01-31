@@ -375,11 +375,6 @@ data-get-started = <speechBlogLink>Prěnje kroki z rěčenskim spóznaćom</spee
 data-other-title = Druhe hłosowe datowe sadźby…
 data-other-goto = K { $name }
 data-other-download = Daty sćahnyć
-data-other-librispeech-description = LibriSpeech je korpus nimale 1.000 hodźin w jendźelskej rěči (natočene z 16 Khz), kotrež ze słuchoknihow projekta LibriVox pochadźeja.
-data-other-ted-name = Korpus TED-LIUM
-data-other-ted-description = Korpus TED-LIUM je z awdiopřednoškow a jich transkripcijow wutworił, kotrež su na websydle TED k dispoziciji.
-data-other-voxforge-description = VoxForge je so załožił, zop by transkripcije rěčenja za wužiwanje ze systemami rěčenskeho spóznaća wotewrjeneho žórła zběrał.
-data-other-tatoeba-description = Tatoeba je wulka datowa banka sadow, přełožkow a zynkowych datow za wuknjenje rěčow. Tute sćehnjenje wobsahuje jendźelske teksty, kotrež su so wot tamnišeho zhromadźenstwa natočili.
 data-bundle-button = Paket datowych sadźbow sćahnyć
 data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sadźby horjeka.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
@@ -426,6 +421,16 @@ recorded-hours = Natočene hodźiny
 whats-inside = Što je w datowej sadźbje Common Voice?
 want-dataset-update = Chceće aktualizacije, hdyž nowu wersiju datoweje sadźby Common Voice wozjewjamy? Abonujće naš powěsćowy list.
 subscribe = Abonować
+get-started-speech = Prěnje kroki z rěčenskim spóznaćom
+other-datasets = Druhe hłosowe datowe sadźby
+feedback-q = Maće komentary?
+common-voice-info = Maće prašenja wo Common Voice? Přidružće so nam w našim <discourseLink>forumje Discourse</discourseLink>.
+data-other-librispeech-description = LibriSpeech je korpus nimale 1.000 hodźin w jendźelskej rěči (natočene z 16 Khz), kotrež ze słuchoknihow projekta LibriVox pochadźeja.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Korpus TED-LIUM je z awdiopřednoškow a jich transkripcijow wutworił, kotrež su na websydle TED k dispoziciji.
+data-other-voxforge-description = VoxForge je so załožił, zop by transkripcije rěčenja za wužiwanje ze systemami rěčenskeho spóznaća wotewrjeneho žórła zběrał.
+data-other-tatoeba-description = Tatoeba je wulka datowa banka sadow, přełožkow a zynkowych datow za wuknjenje rěčow. Tute sćehnjenje wobsahuje jendźelske teksty, kotrež su so wot tamnišeho zhromadźenstwa natočili.
+your-feedback = Maće ideje, kak móžemy datowu sadźbu Common voice polěpšić?
 
 ## Download Modal
 
