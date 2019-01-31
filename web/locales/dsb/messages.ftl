@@ -375,11 +375,6 @@ data-get-started = <speechBlogLink>Prědne kšace z powědańskim spóznaśim</s
 data-other-title = Druge głosowe datowe sajźby…
 data-other-goto = K { $name }
 data-other-download = Daty ześěgnuś
-data-other-librispeech-description = LibriSpeech jo korpus skóro 1.000 góźinow wjengelskej rěcy (nagrate z 16 Khz), kótarež z wótsłuchańskich knigłow projekta LibriVox póchadaju.
-data-other-ted-name = Korpus TED-LIUM
-data-other-ted-description = Korpus TED-LIUM jo napórał z awdiopśednoskow a jich transkripcijow, kótarež su na websedle TED k dispoziciji.
-data-other-voxforge-description = VoxForge jo se załožył, aby transkripcije powědanja za wužywanje ze systemami powědańskego spóznaśa wótwórjonego žrědła zběrał.
-data-other-tatoeba-description = Tatoeba jo wjelika datowa banka sadow, pśełožkow a zukowych datow za wuknjenje rěcow. Toś to ześěgnjenje wopśimujo engelske teksty, kótarež su se nagrali wót tamnjejšego zgromaźeństwa.
 data-bundle-button = Paket datowych sajźbow ześěgnuś
 data-bundle-description = Daty Common Voice plus wšykne druge głosowe datowe sajźby górjejce.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
@@ -426,6 +421,20 @@ recorded-hours = Nagrate góźiny
 whats-inside = Co jo w datowej sajźbje Common Voice?
 want-dataset-update = Cośo aktualizacije, gaž nowu wersiju datoweje sajźby Common Voice wózjawjamy? Aboněrujśo naš powěsćowy list.
 subscribe = Aboněrowaś
+get-started-speech = Prědne kšace z powědańskim spóznaśim
+other-datasets = Druge głosowe datowe sajźby
+feedback-q = Maśo komentary?
+common-voice-info = Maśo pšašanja wó Common Voice? Pśizamkniśo se nam w našom <discourseLink>forumje Discourse</discourseLink>.
+data-other-librispeech-description = LibriSpeech jo korpus skóro 1.000 góźinow wjengelskej rěcy (nagrate z 16 Khz), kótarež z wótsłuchańskich knigłow projekta LibriVox póchadaju.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Korpus TED-LIUM jo napórał z awdiopśednoskow a jich transkripcijow, kótarež su na websedle TED k dispoziciji.
+data-other-voxforge-description = VoxForge jo se załožył, aby transkripcije powědanja za wužywanje ze systemami powědańskego spóznaśa wótwórjonego žrědła zběrał.
+data-other-tatoeba-description = Tatoeba jo wjelika datowa banka sadow, pśełožkow a zukowych datow za wuknjenje rěcow. Toś to ześěgnjenje wopśimujo engelske teksty, kótarež su se nagrali wót tamnjejšego zgromaźeństwa.
+your-feedback = Maśo ideje, kak móžomy datowu sajźbu Common Voice pólěpšyś? Informěrujśo nas w forumje Discourse
+go-discourse = K forumje Discourse
+missing-language = Njenamakajośo swóju rěc w datowej sajźbje? Aby swóju rěc pominak, woglědajśo se k našomu bokoju rěcow.
+go-languages-page = K bokoju rěcow
+ready-to-validate = Sćo gótowy nam pomagaś, sady pśeglědowaś?
 
 ## Download Modal
 
