@@ -385,11 +385,6 @@ data-get-started = <speechBlogLink>开始进行语音识别</speechBlogLink>
 data-other-title = 其他语音数据集…
 data-other-goto = 前往 { $name }
 data-other-download = 下载数据
-data-other-librispeech-description = Librispeech 是从 Librivox 项目中得到的大约 1000 小时的 16khz 有声读物的英文语音语料库。
-data-other-ted-name = TED-LIUM 语料库
-data-other-ted-description = TED-LIUM 语料库由在 TED 网站上提供的讲话音频和转录文字制作而成。
-data-other-voxforge-description = Voxforge 被设计来收集讲话转录文本，以供自由与开放源代码的语音识别引擎使用。
-data-other-tatoeba-description = Tatoeba 是一个用于语言学习的句子、翻译和口语音频的大型数据库。此下载包含由其社区记录的所有口语。
 data-bundle-button = 批量下载数据集
 data-bundle-description = Common Voice 数据加上所有其他的语音数据集。
 license = 许可协议：<licenseLink>{ $license }</licenseLink>
@@ -440,6 +435,17 @@ dataset-description =
     该数据集当前有 <b>{ $hours }</b> 小时，<b>{ $languageCount }</b> 种语言的语音数据，但我们在持续添加更多的语音数据和更多的语言。前往我们的<languagesLink>语言页</languagesLink>请求加入更多的语言或开始做出贡献。
 want-dataset-update = 想要在我们发布新版本 Common Voice 数据集时得到通知？请订阅我们的新闻通讯。
 subscribe = 订阅
+get-started-speech = 语音识别入门
+other-datasets = 其他语音数据集
+feedback-q = 有反馈要提供？
+common-voice-info = 对 Common Voice 有疑问？请加入我们的 <discourseLink>Discourse 论坛</discourseLink>。
+data-other-librispeech-description = Librispeech 是从 Librivox 项目中得到的大约 1000 小时的 16khz 有声读物的英文语音语料库。
+data-other-ted-name = TED-LIUM 语料库
+data-other-ted-description = TED-LIUM 语料库由在 TED 网站上提供的讲话音频和转录文字制作而成。
+data-other-voxforge-description = Voxforge 被设计来收集讲话转录文本，以供自由与开放源代码的语音识别引擎使用。
+data-other-tatoeba-description = Tatoeba 是一个用于语言学习的句子、翻译和口语音频的大型数据库。此下载包含由其社区记录的所有口语。
+go-discourse = 前往 Discourse
+go-languages-page = 前往语言页
 
 ## Download Modal
 
