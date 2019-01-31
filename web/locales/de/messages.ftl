@@ -445,6 +445,8 @@ dataset-description =
     Jeder Eintrag im Datensatz besteht aus einer eindeutigen MP3- und zugehörigen Textdatei. Viele der <b>{ $hours }</b> aufgezeichneten Stunden im Datensatz enthalten auch demografische Metadaten wie Alter, Geschlecht und Akzent, mit deren Hilfe die Genauigkeit von Spracherkennungs-Engines trainiert werden kann.
     
     Der Datensatz besteht derzeit aus <b>{ $hours }</b> bestätigten Stunden in <b>{ $languageCount }</b> Sprachen, aber wir fügen immer mehr Stimmen und Sprachen hinzu. Besuchen Sie unsere <languagesLink>Sprachen-Seite</languagesLink>, um eine Sprache anzufordern oder mitzumachen.
+want-dataset-update = Möchten Sie benachrichtigt werden, wenn wir eine neue Version des Common-Voice-Datensatzes veröffentlichen? Dann abonnieren Sie unseren Newsletter.
+subscribe = Abonnieren
 
 ## Download Modal
 
