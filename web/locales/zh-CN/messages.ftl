@@ -438,6 +438,8 @@ dataset-description =
     数据集中的每一条都包含了一组独立 MP3 录音及相应的文字文件。数据集所记录的 <b>{ $hours }</b> 小时的录音中，有许多条数据同时包含了年龄、性别、口音等人口统计元数据，能够训练语音识别引擎提升其准确性。
     
     该数据集当前有 <b>{ $hours }</b> 小时，<b>{ $languageCount }</b> 种语言的语音数据，但我们在持续添加更多的语音数据和更多的语言。前往我们的<languagesLink>语言页</languagesLink>请求加入更多的语言或开始做出贡献。
+want-dataset-update = 想要在我们发布新版本 Common Voice 数据集时得到通知？请订阅我们的新闻通讯。
+subscribe = 订阅
 
 ## Download Modal
 
