@@ -1,15 +1,15 @@
 ## General
 
 yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.
-stayintouch = Nekkni di Mozilla, nbennu tarbaɛt itezzin ɣef tetiknulujit. Nebɣa ad neqqim akked umaynut d yileqman, isefka imaynuten akken ad nsel ugar ɣef wamek ara ttwasqedcen isefka-agi.
-privacy-info = Ad neḍmen d akken ad neḥrez isefka-nwen. Ɣeṛ ugar ɣef <privacyLink>tsertit tabaḍnit</privacyLink>.
+stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt itezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsel ugar ɣef wamek ara ttwasqedcen isefka-agi.
+privacy-info = Ad neḍmen d akken ad neḥrez talɣut-nwen. Ɣeṛ ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ar Common Voice
 email-input =
     .label = Imayl
 submit-form-action = Azen
 loading = Asali…
 email-opt-in-privacy = Ma tferneḍ armas n yimaylen, ad tqebleḍ d akken Mozilla ad tesseqdec talɣut-a akken i tettwasegza deg <privacyLink>Tasertit Tabaḍnit <privacyLink> n Mozilla.
-indicates-required = * yemmal-d urti ilaqen
+indicates-required = * Yemmal-d urti ilaqen
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -77,7 +77,7 @@ myv = Erzya
 nb-NO = Tanuṛvijt Bokmål
 ne-NP = Tanipalit
 nl = Tahulandit
-nn-NO = Tanuṛvijt ninuṛsk
+nn-NO = Tanuṛvijt Nynorsk
 oc = Tuksitant
 or = Odia
 pl = Tapulunit
@@ -101,11 +101,11 @@ uby = Tubyixt
 udm = Tudmurt
 uk = Takrinit
 ur = Urdu
-uz = Tazbikit
+uz = Tuzbikt
 vi = Tavyiṭnamit
 vot = Tavutikt
-zh-CN = Tacinwat (Cin)
-zh-HK = Tacinit (Hung Kung)
+zh-CN = Tacinwat (Cinwa)
+zh-HK = Tacinwat (Hung Kung)
 zh-TW = Tacinwat (Taywan)
 
 # [/]
@@ -124,9 +124,9 @@ privacy = Tabaḍnit
 terms = Tiwtilin
 cookies = Inagan n tuqqna
 faq = Isteqsiyen FAQ
-content-license-text = Agbur yella ddaw n <licenseLink>Creative Commons license</licenseLink>
+content-license-text = Agbur yella ddaw n turagt <licenseLink>Creative Commons license</licenseLink>
 share-title = Ɛawen-aɣ i wakken ad d-naf imdanen-nniḍen ara d-yefken taɣect-nsen!
-share-text = Ɛawen timacicin ad ttmeslayent am yimdanen, efk-d taɣect-ik { $link }
+share-text = Mudd afus i tmacicin ad mmeslayent am yimdanen, efk-d taɣect-ik deg { $link }
 link-copied = Aseɣwen yettwanɣel
 back-top = Uɣal d asawen
 logout = Ffeɣ
