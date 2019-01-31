@@ -448,6 +448,8 @@ dataset-description =
     Az adatkészlet minden bejegyzése egy egyéni MP3-ból és egy hozzátartozó szövegfájlból áll. A(z) <b>{ $hours }</b> órányi rögzítésben számos felvétel demográfiai metaadatokat is tartalmaz, mint a beszélő kora, neme és akcentusa, melyek segíthetnek a beszédfelismerő motorok pontosságának betanításában.
     
     Az adatkészlet jelenleg <b>{ $hours }</b> órányi ellenőrzött felvételből áll, <b>{ $languageCount }</b> nyelven, de folyamatosan adunk hozzá további hangokat és nyelveket. Nézze meg a <languagesLink>Nyelvek oldalt</languagesLink> egy nyelv kéréséhez vagy a közreműködés elkezdéséhez.
+want-dataset-update = Szeretne értesítést kapni, ha kiadjuk a Common Voice adatkészlet új verzióját? Iratkozzon fel a hírlevelünkre.
+subscribe = Feliratkozás
 
 ## Download Modal
 
