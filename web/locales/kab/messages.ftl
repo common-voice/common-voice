@@ -412,21 +412,27 @@ review-delete-recordings = Kkes ikalasen-iw
 
 ## New Datasets Page
 
+datasets-headline = Nesnulfuy-d tagrumma n yisefka n taɣect n uɣbalu yeldin, deg ddeqs n tutlayin i zemren ad sqedcen yimdanen meṛṛa i usluɣmu deg yisnasen yesseqdacen taɣect.
 language = Tutlayt
 # File size in gigabytes
 size = Teɣzi
 validated-hr-total = Amḍan n yisragen yettwasentmen. Amatu
+overall-hr-total = Amḍan amatu s Sr.
 cv-license = Turagt
+audio-format = Amasal n umeslaw
 number-of-voices = Amḍan n tuɣac
 splits = Iḥricen
 email-to-download = Sekcem Imayl-inek/inem Akken ad tessidreḍ
+why-email = <b>Acuɣer Imayl?</b> Yezmer ad neḥwiǧ ad k-id-nernermes ɣer zdat ɣef ubeddel yellan deg tagrumma n yisefka, imayl ad aɣ-d-imudd abrid akken ad k-id-nenermes.
 confirm-size = Theggaḍ akken ad tebduḍ asider n <b>{ $size }</b>
 size-gigabyte = GAṬ
 size-megabyte = MAṬ
+confirm-no-identify = <b>Ad tqebleḍ</b> d akken ur tetttaɛreḍeḍ ara ad tafeḍ timagit n wid yettmeslayen deg tagrumma n yisefka Common Voice.
 download-language = Sider { $language }
 validated-hours = Isragen yettwasentmen
 recorded-hours = Isragen yettwaskelsen
 whats-inside = Acu yellan deg taggruma n isefka n Common Voice?
+subscribe = Jerred
 
 ## Download Modal
 
