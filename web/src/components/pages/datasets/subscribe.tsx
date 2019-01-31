@@ -44,8 +44,14 @@ class Subscribe extends React.Component<Props, State> {
 
   handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const { account, api, addNotification } = this.props;
     this.setState({ submitStatus: 'submitting' });
-    await this.props.api.subscribeToNewsletter(this.state.email);
+    await api.subscribeToNewsletter(account ? account.email : this.state.email);
+    addNotification(
+      <Localized id="profile-form-submit-saved">
+        <span />
+      </Localized>
+    );
     this.setState({ submitStatus: 'submitted' });
   };
 
