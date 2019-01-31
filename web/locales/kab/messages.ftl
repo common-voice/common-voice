@@ -408,6 +408,12 @@ review-delete-recordings = Kkes ikalasen-iw
 ## New Datasets Page
 
 datasets-headline = Nesnulfuy-d tagrumma n yisefka n taɣect n uɣbalu yeldin, deg ddeqs n tutlayin i zemren ad sqedcen yimdanen meṛṛa i usluɣmu deg yisnasen yesseqdacen taɣect.
+datasets-positioning =
+    Numen d tagrumma hrawen n yisefka n taɣect, yettwakcamen s wudem azayez, ad yesnerni asnulfu akked umsizwer deg uznuzu iṣeḥḥan deg taɣult n ulmad awurman yebnan ɣef tetiknulujit n taɣect.
+    
+    Tagrumma n yisefka n ddeqs n tutlayin n Common Voice d nettat yakan i d tagrumma n yisefka meqqren aṭas i yellan s wudem azayez, maca mačči d tagi kan.
+    
+    Wali asebter-agi akken ad tafeḍ tigrummiwin-nniḍen n uɣbalu yeldin daɣen, am Common Voice ttnernint, d axxam i yileqman-nneɣ.
 language = Tutlayt
 # File size in gigabytes
 size = Teɣzi
@@ -427,13 +433,27 @@ download-language = Sider { $language }
 validated-hours = Isragen yettwasentmen
 recorded-hours = Isragen yettwaskelsen
 whats-inside = Acu yellan deg taggruma n isefka n Common Voice?
-dataset-description = Sekra n wayen ara ikecmen des tagrumma n yisefka d afaylu MP3 asuf akked ufaylu-is aḍris yemmenṭaḍen yid-s. Ddeqs seg <b>{ $hours }</b> n yisragen yettwaskelsen deg tagrumma n yisefka ad iseddu isefka ɣef tdimugrafit am uwtay (leɛmeṛ), tuzuft akked ususru i yezemren ad yefk afus i usluɣmu n tseddi n yimseddayen n uɛqal n taɣect.
+dataset-description =
+    Sekra n wayen ara ikecmen des tagrumma n yisefka d afaylu MP3 asuf akked ufaylu-is aḍris yemmenṭaḍen yid-s. Ddeqs seg <b>{ $hours }</b> n yisragen yettwaskelsen deg tagrumma n yisefka ad iseddu isefka ɣef tdimugrafit am uwtay (leɛmeṛ), tuzuft akked ususru i yezemren ad yefk afus i usluɣmu n tseddi n yimseddayen n uɛqal n taɣect. 
+    
+    Tagrumma n yisefka tamirant tegber <b>{ $hours }</b> n yisragen yettwaqeblen deg <b>{ $languageCount }</b> n tutlayin, maca aql-aɣ nrennu ugar n tuɣac akked tutlayin. Wali deg <languagesLink> usebter-nneɣ n tutlayin </languagesLink> akken ad tessutreḍ tutlayt neɣ ad tebduḍ attekki.
+want-dataset-update = Tebɣiḍ ileqman ticki nessuffeɣ-d lqem amaynut n tegrumma n yisefka Common Voice? Jerred ɣer tebrat-nneɣ n yisallen.
 subscribe = Jerred
+get-started-speech = Bdu s uɛqal n taɣect
+other-datasets = Tigrummiwin-nniḍen n tuɣac
+feedback-q = Ɣur-k tikti?
+deepspeech-info = Tagrumma n yisefka Common Voice tettkemmil amsedday n taɣect n uɣbalu yeldin n Mozilla Deep Speech, win i tzemred ad tesqedceḍ akken ad tebnuḍ isnasen n uɛqal n taɣect. Ɣer <githubLink> Tazwart Github</githubLink> neɣ ddu ɣer <discourseLink>DeepSpeech Discourse</discourseLink> akken ad tissineḍ ansa ara tebduḍ.
+common-voice-info = Ɣur-k isteqsiyen ɣef Common Voice? Ddu-d ɣer-neɣ ɣer <discourseLink> unmager Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech d ammud n wazal 1000 n yisragen n tɣuri s tneglizit 16Khz i d-yekkan seg yidlisen s taɣect seg usenfar LibriVox.
 data-other-ted-name = Ammud n TED-LIUM
 data-other-ted-description = Ammud n TED-LIUM yettwaxdem-d seg yinawen s taɣect ajerred-nsen yella deg usmel n TED.
 data-other-voxforge-description = VoxForge yettwabna i ulqaḍ n yisefka n taɣect yettwarun akken ad ttwasqedcen deg imseddayen n uɛqal n taɣect ilelliyen.
 data-other-tatoeba-description = Tatoeba d taffa n yisefka tameqqrant n tifyar, n tsuqilt akked tukkisin timeslawin yettwaheggan i uselmed n tutlayin. Asider-agi yegber meṛṛa isefka s teglizit i skelsen yimdanen.
+your-feedback = Ɣurk tikta ɣef wamek i nezmer ad nesnerni tagrumma n yisefka Common Voice? Eǧǧ-aɣ ad nẓeṛ deg Discourse.
+go-discourse = Ddu ɣer Discourse
+missing-language = Ur tettwaliḍ ara tutlayt-ik deg tegrumma n yisefka? Akken ad tessutreḍ tutlayt, ddu ɣer usebter-nneɣ n tutlayin.
+go-languages-page = Ddu ɣer usebter n tutlayin
+ready-to-validate = Theggaḍ i usenqed n tefyar?
 
 ## Download Modal
 
