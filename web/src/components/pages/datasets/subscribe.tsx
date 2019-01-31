@@ -2,6 +2,8 @@ import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from 'common/user-clients';
+import API from '../../../services/api';
+import { Notifications } from '../../../stores/notifications';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { LocaleLink } from '../../locale-helpers';
@@ -12,7 +14,14 @@ import './subscribe.css';
 
 interface PropsFromState {
   account: UserClient;
+  api: API;
 }
+
+interface PropsFromDispatch {
+  addNotification: typeof Notifications.actions.add;
+}
+
+interface Props extends PropsFromState, PropsFromDispatch {}
 
 interface State {
   email: string;
@@ -20,7 +29,7 @@ interface State {
   submitStatus: null | 'submitting' | 'submitted';
 }
 
-class Subscribe extends React.Component<PropsFromState, State> {
+class Subscribe extends React.Component<Props, State> {
   state: State = { email: '', privacyAgreed: false, submitStatus: null };
 
   emailInputRef = React.createRef<HTMLInputElement>();
@@ -33,8 +42,10 @@ class Subscribe extends React.Component<PropsFromState, State> {
     this.setState({ privacyAgreed: event.target.checked });
   };
 
-  handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    this.setState({ submitStatus: 'submitting' });
+    await this.props.api.subscribeToNewsletter(this.state.email);
     this.setState({ submitStatus: 'submitted' });
   };
 
@@ -45,6 +56,11 @@ class Subscribe extends React.Component<PropsFromState, State> {
     const email = account ? account.email : this.state.email;
     const privacyAgreed = account || this.state.privacyAgreed;
     const emailInput = this.emailInputRef.current;
+
+    if (account && account.basket_token) {
+      return null;
+    }
+
     return (
       <div className="dataset-subscribe">
         <Localized id="want-dataset-update">
@@ -95,6 +111,10 @@ class Subscribe extends React.Component<PropsFromState, State> {
   }
 }
 
-export default connect<PropsFromState>(({ user }: StateTree) => ({
-  account: user.account,
-}))(Subscribe);
+export default connect<PropsFromState, PropsFromDispatch>(
+  ({ api, user }: StateTree) => ({
+    account: user.account,
+    api,
+  }),
+  { addNotification: Notifications.actions.add }
+)(Subscribe);
