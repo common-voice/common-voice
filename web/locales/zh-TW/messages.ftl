@@ -443,6 +443,8 @@ dataset-description =
     資料集中的每筆資料包含一組獨特的 MP3 錄音檔與對應的文字檔案。資料集中包含 <b>{ $hours }</b> 錄製完成的片段，當中有許多同時也包含年齡、性別、口音等，能夠幫助訓練語音識別引擎的人口統計資料。
     
     資料集中，目前包含了 <b>{ $hours }</b> 小時的 <b>{ $languageCount }</b> 種語言已驗證資料，但我們希望能夠持續加入更多語音與語言。歡迎到我們的<languagesLink>語言頁面</languagesLink>要求更多語言，開始加入貢獻。
+want-dataset-update = 想要在新的 Common Voice 資料集推出時收到通知嗎？請訂閱我們的電子報。
+subscribe = 訂閱
 
 ## Download Modal
 
