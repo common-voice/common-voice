@@ -399,11 +399,6 @@ data-get-started = <speechBlogLink>شروع به کار با تشخیص گفتا
 data-other-title = دیگر مجموعه داده‌های صوتی…
 data-other-goto = برو به { $name }
 data-other-download = دریافت داده‌ها
-data-other-librispeech-description = LibriSpeech یک قسمت تقریبا ۱۰۰۰ ساعتی از صوت 16Khz است که به زبان انگلیسی خوانده می‌شود و از کتاب‌های صوتی خوانده‌شده از پروژه LibriVox گرفته‌شده است.
-data-other-ted-name = مجموعه نوشته‌های TED-LIUM
-data-other-ted-description = مجموعه نوشته‌های TED-LIUM از گفتگو‌های صوتی و رونوشت‌های آن‌ها که در وب سایت TED در دسترس هستند، ساخته شده است.
-data-other-voxforge-description = VoxForge برای جمع آوری سخنرانی‌های رونوشت شده برای استفاده در موتورهای شناسایی گفتار آزاد و متن باز طراحی شده است.
-data-other-tatoeba-description = Tatoeba یک پایگاه داده بزرگ از جمله‌ها، ترجمه‌ها و گفتگو‌ها برای استفاده در یادگیری زبان است. این دریافت شامل گفتگوهای انگلیسی که توسط خود جامعه خودشان ضبط شده است می‌باشد.
 data-bundle-button = دریافت بسته مجموعه‌ی داده‌ها
 data-bundle-description = اطلاعات صدای مشترک به همراه تمام مجموعه داده‌های صوتی بالا.
 license = مجوز: <licenseLink>{ $license }</licenseLink>
@@ -422,6 +417,7 @@ review-delete-recordings = ضبط‌های من را حذف کن
 
 ## New Datasets Page
 
+datasets-headline = ما در حال ساخت یک مجموعه داده منبع‌باز و چند زبانه از صداهایی هستیم که هر کسی  می‌تواند برای آموزش برنامه‌های با قابلیت گفتاری استفاده کند.
 language = زبان
 # File size in gigabytes
 size = حجم
@@ -441,6 +437,22 @@ download-language = دریافت { $language }
 validated-hours = ساعت‌ تایید شده
 recorded-hours = ساعت ضبط شده
 whats-inside = چه چیزی در مجموعه داده صدای مشترک وجود دارد؟
+want-dataset-update = آیا می‌خواهید هنگامی که نگارش تازه‌ای از مجموعه داده‌های صدای مشترک منتشر شد، این به روز رسانی‌ها را دریافت کنید؟ در خبرنامه ما عضو شوید.
+subscribe = عضویت
+get-started-speech = شروع کار با تشخیص گفتار
+other-datasets = دیگر مجموعه‌های داده صوتی
+feedback-q = نظری دارید؟
+common-voice-info = در مورد صدای مشترک پرسش‌هایی دارید؟ در <discourseLink>انجمن گفتگو</discourseLink> به ما بپیوندید.
+data-other-librispeech-description = LibriSpeech یک قسمت تقریبا ۱۰۰۰ ساعتی از صوت 16Khz است که به زبان انگلیسی خوانده می‌شود و از کتاب‌های صوتی خوانده‌شده از پروژه LibriVox گرفته‌شده است.
+data-other-ted-name = مجموعه نوشته‌های TED-LIUM
+data-other-ted-description = مجموعه نوشته‌های TED-LIUM از گفتگو‌های صوتی و رونوشت‌های آن‌ها که در وب سایت TED در دسترس هستند، ساخته شده است.
+data-other-voxforge-description = VoxForge برای جمع آوری سخنرانی‌های رونوشت شده برای استفاده در موتورهای شناسایی گفتار آزاد و متن باز طراحی شده است.
+data-other-tatoeba-description = Tatoeba یک پایگاه داده بزرگ از جمله‌ها، ترجمه‌ها و گفتگو‌ها برای استفاده در یادگیری زبان است. این دریافت شامل گفتگوهای انگلیسی که توسط خود جامعه خودشان ضبط شده است می‌باشد.
+your-feedback = آیا برای این‌که چطور می‌توانیم مجموعه داده‌های صدای مشترک را بهتر کنیم ایده‌ای دارید؟در Discourse به ما بگویید
+go-discourse = برو به Discourse
+missing-language = زبان خود را در مجموعه داده‌ها نمی‌بینید؟ برای در خواست یک زبان سری به صفحه زبان‌های ما بزنید.
+go-languages-page = برو به صفحه زبان‌ها
+ready-to-validate = برای کمک به اعتبار سنجی جمله‌ها آماده‌اید؟
 
 ## Download Modal
 
