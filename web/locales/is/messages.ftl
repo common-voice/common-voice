@@ -309,6 +309,8 @@ faq-what-cv-a =
 faq-why-important-q = Hvers vegna er þetta mikilvægt?
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
 faq-how-get-a = Gögn Samróms verður hægt að niðurhala með <licenseLink>CC0-leyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig verður hægt að niðurhala nokkur önnur gagnasöfn á síðunni sem opin eru almenningi.
+faq-when-release-q = Hvenær verður Samrómur í boði fyrir fleiri tungumál?
+faq-when-release-a = Mozilla-samfélagið vinnur um þessar mundir að fjöltunguútgáfu af Samrómsgögnunum, með því takmarki að gefa út í janúar 2019. Ef þú hefur áhuga á að læra meira um þetta ferli eða hjálpa til, <contactLink>hafðu þá endilega samband</contactLink>. Eftir þessa útgáfu munum við reglulega uppfæra gagna safnið þegar ný tungumál og hljóðklippur bætast við. Ekki er búið að ákveða hversu langt verður á milli útgáfa.
 
 ## Glossary
 
@@ -353,11 +355,14 @@ review-delete-recordings = Eyða upptökum
 
 ## New Datasets Page
 
+common-voice-info = Hefurðu spurningar um Samróm? Taktu þátt í <discourseLink>Discourse spjallborðinu</discourseLink>.
 data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
 data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum hljóðupptökum sem nota má í opnum og frjálsum raddgreiningarhugbúnaði.
 data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
+your-feedback = Ertu með hugmyndir um hvernig mætti bæta Samróms-gagnasafnið? Láttu okkur vita á Discourse
+go-discourse = Fara á Discourse
 
 ## Download Modal
 
