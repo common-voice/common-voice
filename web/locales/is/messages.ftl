@@ -237,6 +237,10 @@ english = Enska
 
 profile-form-username =
     .label = Notendanafn
+profile-form-native-language =
+    .label = Móðurmál
+profile-form-additional-language =
+    .label = Önnur mál
 profile-form-accent =
     .label = Hreimur
 profile-form-age =
@@ -298,6 +302,13 @@ change-email-setings = Breyta netfangi með því að nota stillingar undir Inns
 
 faq-title = Algengar spurningar
 faq-what-cv-q = Hvað er Samrómur?
+faq-what-cv-a =
+    Raddgreiningartækni er að umbylta samskiptum okkar við vélar, en þau kerfi sem eru í boði eru sem stendur kostnaðarsamur séreignarhugbúnaður. Samrómur er hluti af frumkvæði Mozilla til að bæta raddgreiningartækni og gera hana enn aðgengilegri öllum. Samrómur er umfangsmikill gagnagrunnur sem nær um allan hnöttinn, en hann samanstendur af raddsýnum sem fólk leggur verkefninu til og gerir hverjum manni hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað með hvaða tungumáli sem er. 
+    
+    Við söfnum ekki einungis raddsýnum af útbreiddum málum heldur einnig þeim sem hafa fámennari mælendahópa. Með útgáfu fjölbreyttra gagna mun Samrómur styrkja þróendur, frumkvöðla og samfélög til að brúa bilið sjálf. Til viðbótar við Samróms-gagnasafnið er einnig unnið undir frjálsu hugbúnaðarleyfi að raddgreiningartækinu Deep Speech.
+faq-why-important-q = Hvers vegna er þetta mikilvægt?
+faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
+faq-how-get-a = Gögn Samróms verður hægt að niðurhala með <licenseLink>CC0-leyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig verður hægt að niðurhala nokkur önnur gagnasöfn á síðunni sem opin eru almenningi.
 
 ## Glossary
 
@@ -324,11 +335,6 @@ data-get-started = <speechBlogLink>Byrjaðu að raddgreina</speechBlogLink>
 data-other-title = Önnur raddgagnasöfn...
 data-other-goto = Fara í { $name }
 data-other-download = Niðurhala gögnum
-data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
-data-other-ted-name = TED-LIUM textasafn
-data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
-data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum hljóðupptökum sem nota má í opnum og frjálsum raddgreiningarhugbúnaði.
-data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
 data-bundle-button = Niðurhala gagnasafnapakka
 data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
 license = Leyfi: <licenseLink>{ $license }</licenseLink>
@@ -347,6 +353,11 @@ review-delete-recordings = Eyða upptökum
 
 ## New Datasets Page
 
+data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
+data-other-ted-name = TED-LIUM textasafn
+data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
+data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum hljóðupptökum sem nota má í opnum og frjálsum raddgreiningarhugbúnaði.
+data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
 
 ## Download Modal
 
@@ -464,7 +475,12 @@ validations =
 
 ## Dashboard
 
+your-languages = Þín tungumál
 toward-next-goal = Að næsta markmiði
+clips-you-recorded = Upptökur sem þú hefur skráð
+clips-you-validated = Upptökur sem þú hefur samþykkt
+todays-recorded-progress = Framför dagsins í að skrá gögn í Samróm
+todays-validated-progress = Framför dagsins í að samþykkja gögn í Samróm
 stats = Tölfræði
 you = Þú
 everyone = Allir
@@ -482,4 +498,5 @@ keep = Halda
 remove = Fjarlægja
 keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar prófíl hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn honum tengd verði fjarlægð úr gagnasafninu.
 remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa halað niður gagnasafninu og þeir líka beðnir um að eyða út raddgögnunum þínum.
+why-delete-recordings = Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
 profile-form-delete = Eyða prófíl
