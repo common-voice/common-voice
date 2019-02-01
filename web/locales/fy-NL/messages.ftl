@@ -402,11 +402,6 @@ data-get-started = <speechBlogLink>Start no mei spraakwerkenning</speechBlogLink
 data-other-title = Oare stimgegevenssets…
 data-other-goto = Gean nei { $name }
 data-other-download = Gegevens downloade
-data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
-data-other-ted-name = TED-LIUM-korpus
-data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
-data-other-voxforge-description = VoxForge is opset om ûndertitele spraak te sammeljen foar gebrûk mei Free en Open Source Speech Recognition Engines.
-data-other-tatoeba-description = Tatoeba is in grutte database mei sinnen, oersettingen, en sprutsen audio foar gebrûk yn it oanlearen fan taal. Dizze download befettet al it sprutsen Ingelsk opnommen troch harren mienskip.
 data-bundle-button = Bondel gegevensset downloade
 data-bundle-description = Common Voice-gegevens plus alle oare boppesteande stimgegevenssets.
 license = Lisinsje: <licenseLink>{ $license }</licenseLink>
@@ -444,6 +439,15 @@ download-language = { $language } downloade
 validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren
 whats-inside = Wat is de ynhâld fan de Common Voice-gegevensset?
+subscribe = Abonnearje
+get-started-speech = Oan 'e gong mei spraakwerkenning
+other-datasets = Oare stimgegevensets
+feedback-q = Kommentaar?
+data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
+data-other-ted-name = TED-LIUM-korpus
+data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
+data-other-voxforge-description = VoxForge is opset om ûndertitele spraak te sammeljen foar gebrûk mei Free en Open Source Speech Recognition Engines.
+data-other-tatoeba-description = Tatoeba is in grutte database mei sinnen, oersettingen, en sprutsen audio foar gebrûk yn it oanlearen fan taal. Dizze download befettet al it sprutsen Ingelsk opnommen troch harren mienskip.
 
 ## Download Modal
 
