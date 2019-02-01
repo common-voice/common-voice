@@ -443,11 +443,17 @@ subscribe = Abonnearje
 get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
+common-voice-info = Hawwe jo fragen oer Common Voice? Start by ús <discourseLink>Discuorse-foarum</ discourseLink>.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
 data-other-voxforge-description = VoxForge is opset om ûndertitele spraak te sammeljen foar gebrûk mei Free en Open Source Speech Recognition Engines.
 data-other-tatoeba-description = Tatoeba is in grutte database mei sinnen, oersettingen, en sprutsen audio foar gebrûk yn it oanlearen fan taal. Dizze download befettet al it sprutsen Ingelsk opnommen troch harren mienskip.
+your-feedback = Hawwe jo ideeën oer hoe't wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse
+go-discourse = Gean nei Discourse
+missing-language = Sjogge jo jo taal net yn de gegevensset reflektearre? Gean nei ús talenside om in taal oan te freegjen.
+go-languages-page = Gean nei talenside
+ready-to-validate = Ree om te helpen sinnen te falidearjen?
 
 ## Download Modal
 
