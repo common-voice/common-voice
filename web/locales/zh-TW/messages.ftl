@@ -390,11 +390,6 @@ data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
 data-other-title = 其他語音資料集…
 data-other-goto = 前往 { $name }
 data-other-download = 下載資料
-data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫，約一千小時長度的 16Khz 英語有聲書的語料庫。
-data-other-ted-name = TED-LIUM 語料庫
-data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
-data-other-voxforge-description = VoxForge 被設計來收集轉錄的對話內容，以供自由與開放原始碼的語音辨識引擎使用。
-data-other-tatoeba-description = Tatoeba 是一套用來進行語言學習的大型資料庫，當中包含了各種句型、翻譯以及語音。這個下載項目包含了由其社群所錄下的英語語音。
 data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
@@ -445,6 +440,17 @@ dataset-description =
     資料集中，目前包含了 <b>{ $hours }</b> 小時的 <b>{ $languageCount }</b> 種語言已驗證資料，但我們希望能夠持續加入更多語音與語言。歡迎到我們的<languagesLink>語言頁面</languagesLink>要求更多語言，開始加入貢獻。
 want-dataset-update = 想要在新的 Common Voice 資料集推出時收到通知嗎？請訂閱我們的電子報。
 subscribe = 訂閱
+get-started-speech = 語音辨識新手入門
+other-datasets = 其他語音資料集
+feedback-q = 有意見要回饋嗎？
+data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫，約一千小時長度的 16Khz 英語有聲書的語料庫。
+data-other-ted-name = TED-LIUM 語料庫
+data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
+data-other-voxforge-description = VoxForge 被設計來收集轉錄的對話內容，以供自由與開放原始碼的語音辨識引擎使用。
+data-other-tatoeba-description = Tatoeba 是一套用來進行語言學習的大型資料庫，當中包含了各種句型、翻譯以及語音。這個下載項目包含了由其社群所錄下的英語語音。
+go-discourse = 前往 Discourse
+go-languages-page = 前往語言頁面
+ready-to-validate = 準備好要幫助驗證句子了嗎？
 
 ## Download Modal
 
