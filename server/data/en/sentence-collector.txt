@@ -3,12 +3,16 @@ A car has windows, lights, wheels... et cetera.
 A car must be regularly serviced.
 A chocolate wrapper keeps sweets fresh.
 A meal presented well is most memorable.
+A patent attorney is a type of lawyer specialising in intellectual property
 A picture is worth a thousand words.
 A prenuptial agreement was signed.
 A rapper creates rap music.
 A solar flare is due within the hour.
 A sweater is known as a jumper in England.
 A thing begun is half done.
+According to the label, Heinz has fifty-seven varieties
+According to the nursery rhyme, Thursday's Child has far to go
+According to the poet, April is the cruellest month
 Add some Cilantro.
 Add some coriander.
 Adrian knows how to drive.
@@ -18,6 +22,7 @@ Algebra is a foundation of Machine Learning.
 Ali was wearing a bow tie.
 All good things come to an end.
 All in due time.
+All mathematicians know that Pi is approximately three point one four
 All this talk is making me hungry, shall we go out for lunch?
 Always put your best foot forward.
 Alzheimer’s disease can be treated if detected early.
@@ -34,6 +39,7 @@ Antibiotics help fight bacteria.
 Anything I can help you with?
 Apricot is healthy.
 Are you certain that circle is centered?
+Are you sure he has the required expertise to run this project?
 Arthur is the employee of the month.
 Ask them.
 At your leisure.
@@ -51,6 +57,7 @@ Cancer has claimed the lives of millions of people.
 Capillary blood vessel.
 Car body kits are often made out of fiberglass.
 Car safety maintenance should never be overlooked.
+Carnivores are at the top of the food chain; plankton are near the bottom
 Charles Babbage and Ada Lovelace invented the Analytical Engine.
 Cheese must be grated before being added.
 Children can be mischievous.
@@ -63,7 +70,9 @@ Clothes are made to be worn.
 Commodities are sold in huge volumes.
 Consumables are the most sold items.
 Could I borrow a bit of cash?
+Could the tenors and basses please watch the conductor?
 Craziness is doing the same thing and expecting a different result.
+Creative Commons is an organisation that provides open copyright licences
 Cross the stream where it is shallowest.
 Data is a vital ingredient of training machine learning models.
 Dementia is usually experienced by the elderly.
@@ -74,9 +83,12 @@ Do you drink herbal teas?
 Do you have allergies?
 Do you know how to sew clothes?
 Do you like reading physical books or digital versions?
+Do you manage to get out on your bicycle every weekend?
+Do you prefer rock, jazz, or folk music?
 Do you want me to like you?
 Do you want your boss to like you?
 Doctor's write out many prescriptions for patients.
+Does anybody know the square root of two? the teacher enquired
 Does this sound right to you?
 Don't forget to add Basil.
 Don't forget to add Oregano.
@@ -89,22 +101,31 @@ Economists like predicting the Economy.
 Education is a path out of poverty.
 Either way, I’m happy.
 Electric Vehicles might be practical if more investment was put into recharging infrastructure.
+Electric field strength is measured in volts per metre
 Engine oil regularly needs changing.
+Every Monday I have to catch the train into work
 Every organization has a Harassment policy.
 Every person is the king of the castle in their own home.
+Every school child knows that six is three times two
 Everyone has a desire to be liked, it's perfectly natural.
 Everyone should have access to basic health-care.
 Excellent, just come on through to the kitchen.
+Fairy lights are a very popular decoration for a Christmas tree
 February was the coldest month of the year.
 Fibre optics enable ultra-fast internet.
+Fifty-two percent is hardly a massive majority, she objected
 First things first.
+Fish and chips is a very traditional British meal
+Fluorescent lamps have now largely been superseded
 Follow the right exit under the bridge.
 For all intents and purposes.
 For everything, there is a season.
 Forgive and forget.
 Formula one racing is performed by highly skilled drivers.
+Friday is my favourite day of the week, when I go to the pub
 Fuel prices are leveling out.
 Gene analysis can be instrumental in predicting the likelihood of cancer and other diseases.
+Genealogy, otherwise known as family history, is an extremely popular hobby
 Go the extra mile.
 Good evening ladies and gentlemen of the press.
 Good morning, I'd like to book a holiday.
@@ -112,25 +133,35 @@ Good things come in small packages.
 Good things come to those who wait.
 Good thinking, thanks!
 Great minds think alike.
+Habeas corpus is a very ancient principle of the common law
+Haddock is one of my least favourite fishes
 Haste makes waste.
 Haven't you read the Highway Code?
 He chose to do the latter.
+He couldn't tell me the difference between Scots and Scottish
 He couldn’t stop laughing.
 He felt insulted that they didn't recognise him.
 He had a positive attitude towards life.
 He is an Expatriate.
 He is the Duke of Edinburgh.
 He lived in the city.
+He lives up the hill, at eight Grange Park
+He loves classic cars, and keeps several Mercedes in his garage
 He supposedly was working that day.
 He took his daily dose of vitamins.
 He tore up the tickets.
+He tried to avoid the cracks when walking along the pavement
 He was driving under the influence.
 He was severely wounded.
+Her birthday is shortly after Christmas, at the beginning of January
 Her jewelery shimmered.
 Her mobile phone stopped working.
+Her unexpected award was really the icing on the cake
 Her waters broke so she was taken to the maternity assessment ward.
 Here comes the cavalry.
 Here, let me show you again.
+His love of nature made it a foregone conclusion that he would study biology
+How can you possibly think that? she shouted
 How did you produce this?
 How do I close this window?
 How do I know if I am experiencing a heart attack?
@@ -145,6 +176,7 @@ I am feeling shattered.
 I am having severe chest pains.
 I am lactose intolerant.
 I ate a huge sandwich this morning.
+I believe that there are tens of thousands of different species of beetle
 I bought my wife a Bouquet of flowers.
 I can't see clearly.
 I can't swim.
@@ -167,8 +199,11 @@ I left the car at the garage.
 I looked in the mirror.
 I love athletic activities.
 I love spicy Mexican food like tortillas.
+I love the beautiful colours of autumn, particularly September
 I love you too.
+I much prefer yoga than going to the gym
 I need to mow the grass.
+I often spend Sunday morning with my husband, reading the Sunday newspaper
 I practice clinical medicine.
 I pray you will get well soon.
 I really wouldn't feel comfortable with that.
@@ -189,6 +224,7 @@ I will be at the triathlon.
 I will eat sea bass for dinner.
 I will now accept questions from the floor.
 I work at the hospital as a paediatrician.
+I would definitely take that with a pinch of salt
 I would like to carve a wooden dolphin.
 I wound up the coil of wires.
 I'd been thinking of adding a small pond to the estate.
@@ -197,17 +233,24 @@ I'll have an Espresso, please.
 I'll just apply that to your order.
 I'm afraid that is in fact legal south of the river.
 I'm not having this.
+I'm not sure; I think the chances are about fifty-fifty
 If it ain't broke, don't fix it.
 If life gives you lemons, make lemonade
+In Japanese tradition, the number four is often considered to be unlucky
 In many cases, Refugees were highly educated professionals in their former home nation.
+In spite of his education, he didn't know that seventeen was a prime number
+In statistics we need to distinguish between false positives and false negatives
 Is it economical?
 Is it gluten-free?
+Is that program proprietary software, or is it open source?
+Is there any difference between the words Upcoming and forthcoming? she asked
 Is this some sort of test?
 Isn’t that name a bit authoritarian?
 It became immediately apparent this was an affluent area.
 It contains Zucchini.
 It contains courgette.
 It doesn't matter now.
+It felt as if his arguments were going to be repeated ad infinitum
 It is a moot point.
 It is an abandoned Quarry.
 It is an ephemeral video.
@@ -239,12 +282,14 @@ Italian Pasta is delicious.
 It’s for the greater good, you have to make sacrifices.
 I’d sell my soul to be able to play better than him.
 I’m never going to get the hang of this.
+I’m watching television with friends this evening
 I’ve got an extra large meat lover’s pizza, without the meat?
 Jacqueline has an ulcer on her bottom lip.
 Jason trained intensely to be the fittest he could be.
 Jennifer was distraught.
 Jenny reminded us that politics is still news.
 Jenny went to Italy last year.
+Junk mail is a particular problem
 Just a little light digging.
 Just sign right here and I’ll have that all squared away for you.
 Kids love Yogurt.
@@ -260,9 +305,12 @@ Lets just get the shot.
 Let’s grab a snack bag.
 Linear Regression, Calculus, Algebra, Bayesian statistics are ingredients of Machine Learning.
 Listen to my voice and think carefully.
+Lucy has two sisters and three brothers, all of whom love the countryside
 Machine Learning can be used to predict and mitigate natural disasters.
 Mankind must preserve the environmental ecosystem that sustains it.
+Many Western languages derive from Indo-European roots
 Many people enjoy the taste of pickle.
+Many people find it difficult to remember a sequence of more than seven numbers
 Margarine is an alternative to butter.
 Mark the area of water with a buoy.
 Masonry paint keeps the walls in good condition.
@@ -271,11 +319,15 @@ Max is a fully qualified veterinarian.
 Maybe later.
 Maybe we should circle back round to that barbecue idea?
 Mayonnaise is an ideal condiment to Fries.
+Meditation and awareness are essential elements in the practice of Zen Buddhism
 Midnight walks under the moon are beautiful.
 Mike got ordained on the internet last week.
 Miss it! Miss Out!
 My daughter revealed her secret.
 My daughter wants to begin ballet classes.
+My favourite operatic composers are Handel, Mozart and Puccini
+My friend lives at sixty-one Main Street
+My grandmother had cataracts surgery and now can see clearly again.
 My joints are aching.
 My son listens to hip-hop and rap music.
 Narrate to me this page.
@@ -286,24 +338,39 @@ Nissan manufactures cars.
 No need to take that tone sir.
 No need, I ordered take away, it should be here soon.
 No, Aliens won't take over.
+Not everybody knows that Wikipedia is available in many different languages
 Nothing is more refreshing than the smell of coffee in the morning.
+November is the eleventh month, coming immediately before December
+Now that mobile phones are so popular, telephone boxes have largely disappeared
 Nuclear power will soon be replaced by solar power.
 Of course, I’ll be there!
 Of course, and what would sir be looking for today?
 Oh No! I dropped my wallet!
 Okay, I think I can do that.
 Okay, hand it here.
+On Saturday afternoons my wife and I normally go shopping
+One a penny, two a penny, hot cross buns
 Online Education has become accessible and is growing in popularity.
 Open source culture has facilitated the progress of technology at an astonishing pace.
 Open source technology means people don't need to keep reinventing the wheel.
 Orient the table in the direction of the east wall.
+Orienteering is a sport that combines cross-country running and map reading
 Our aunt is visiting this weekend.
 Our genetics define our appearances and traits. Our experiences define who we are.
+Parcels arrive just in time.
+Pencils are made from lead.
+People who whisper all the time can be very irritating
+Perfect is the enemy of the good.
 Performers, take a bow!
 Petrol and Diesel engines are going the way of the dodo.
 Please be careful with the fragile ornament.
+Please clear your browser cache and try again.
+Please consult your physician if you experience any side effects.
+Please do not patronize me.
 Please excuse me.
 Please find attached the consignment number of your order.
+Please indicate whether you prefer option A or option B
+Please indicate your cellular carrier.
 Please mute the sound.
 Please offer your points and perspectives.
 Please specify the service provider.
@@ -327,12 +394,16 @@ See! You’re better than Bruce now.
 Separate the yolk from the egg.
 She coughed heavily and then sighed.
 She feigned offense at every opportunity.
+She found walking in the woods a very good way to relax
 She had a bad cough.
 She has my utmost respect.
 She is an Athlete.
+She loved science, and at school physics and mathematics were her favourite subjects
 She loved the color mauve.
+She managed to believe six impossible things before breakfast
 She passed her driving test on her first attempt.
 She sat across the room.
+She was a great fan of country music
 She wrapped the presents beautifully.
 Sherbet is sweet.
 Show me relevant results.
@@ -371,13 +442,17 @@ The Arctic is cold.
 The Beta version will be released soon.
 The Duodenum is part of the small intestine.
 The Gala was fun.
+The Haber Process is an industrial process for producing ammonia
 The Heimlich manoeuvre is a lifesaving first aid technique.
+The Island of Sheep is a book by the Scottish author John Buchan
 The Java programming language makes use of parentheses characters.
 The Military will adhere to international laws and standards.
 The Oncologist outlined a treatment plan for the cancer patient.
 The Realtor will arrive soon.
+The University of Oxford and the University of Cambridge are both collegiate institutions
 The accounts have discrepancies.
 The accounts were up to date.
+The ascent of Everest was his life's ambition
 The assailant was caught.
 The baby felt a breeze of wind and awoke.
 The battery ran out.
@@ -393,7 +468,9 @@ The coastline is eroding at an accelerating rate.
 The computer threw spurious errors.
 The correct pronunciation is.
 The couple had a row last night.
+The customer is always right, or so it is said
 The dancer made simultaneous movements.
+The detector always has to be calibrated before use
 The device has a gyro motor.
 The dog ate my homework.
 The dog became docile after eating food.
@@ -407,6 +484,8 @@ The excessive heat evaporated nearly all the water.
 The eyes dilated.
 The falcon watched its prey.
 The federal court.
+The first five square numbers are one, four, nine, sixteen and twenty-five
+The first planet from the sun is Mercury, and the second is Venus
 The flight to Australia was long.
 The floor was wet.
 The fog was dense and impenetrable to light.
@@ -414,6 +493,7 @@ The founder of the company.
 The frog hopped around.
 The girl smiles.
 The glass shattered.
+The grace notes were sung perfectly by the soprano, but badly by the alto
 The grass is greener where you water it.
 The headlights of the oncoming traffic were too bright.
 The house was built using concrete.
@@ -448,6 +528,7 @@ The pneumatic drill rattled uncontrollably.
 The project is complete.
 The project was short-lived.
 The purple heart was blazing with fire.
+The python programming language has become very popular nowadays
 The questionnaire is too simplistic.
 The reflection on the ice was distorted.
 The region is known for its fertile land.
@@ -458,6 +539,7 @@ The shepherd protected his flock of sheep.
 The shipwreck was buoyed off the coast.
 The shoelace became loose.
 The shop is close by.
+The small corner shop sold fifteen different types of cheese
 The smell of chicken curry made his mouth water in anticipation.
 The squeaky wheel gets the grease.
 The squirrel ran up the pine tree in a spiral.
@@ -475,10 +557,14 @@ The windscreen of the car became iced up overnight.
 The wrench cracked and shattered.
 The writing was illegible.
 The youth have time but no money and adults have money but no time.
+Their wedding anniversary is the twenty-seventh of October, I think
 Then we’d be part of the problem.
+There are many different versions of Santa Claus, including Father Christmas from England
 There are many regions that lack potable water.
 There are many types of Reptile.
 There are no tricks here.
+There are several species of horse chestnut tree, all of which bear conkers
+There are thirteen items in a baker’s dozen
 There is a lot of Literature on this subject.
 There is a precedence.
 There is an increasing number of people being internally displaced due to climate change.
@@ -497,6 +583,7 @@ These are insect Larvae.
 These are memories of another era.
 They conquered their fear.
 They doubled the height.
+They eventually succeeded after five failed attempts
 They sneaked into the cinema.
 This design will be too expensive.
 This fiscal year.
@@ -517,6 +604,7 @@ This young boy is a total genius.
 Time and tide wait for no man.
 Time flies.
 Time is a great healer.
+To advise on patent law, we need the services of an intellectual property specialist
 To inspire, we need to work diligently.
 Tomato Risotto.
 Tortilla chips are tasty.
@@ -579,12 +667,14 @@ What number is this?
 What sort of things are you interested in?
 What would you have us called?
 What's it like to live in a virtual world?
+When flying, I have often wondered about the expression Arm the Doors and Crosscheck
 When my child was born, I was in tears.
 When will you graduate?
 Where can we find fish fillet?
 Where is the closest bathroom?
 Where one door shuts, another opens.
 Where there's a will, there's a way.
+Which English author wrote a series of twenty-one novels?
 Which version do you have?
 Who is the oldest person alive?
 Why do I feel light-headed?
@@ -595,8 +685,10 @@ Wind up the coil of wires.
 Word wrap formatting helps text documents read clearer.
 Would you like to eat a Scone?
 Yes, and if people would stop interrupting we could get it finished.
+Yes, clearly, that's an obvious no-brainer
 Yes, that would do nicely.
 You are never too old to learn.
+You can see thousands of stars with the naked eye in the night sky?
 You can't seriously expect me to go through with this?
 You have many herbs in this garden.
 You're positive it's what you're looking for?
