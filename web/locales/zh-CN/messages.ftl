@@ -438,14 +438,18 @@ subscribe = 订阅
 get-started-speech = 语音识别入门
 other-datasets = 其他语音数据集
 feedback-q = 有反馈要提供？
+deepspeech-info = Common Voice 数据集与 Mozilla 的开源语音识别引擎 Deep Speech 相辅相成，您可以使用其构建语音识别应用程序。您可以阅读我们的 <githubLink>Github 概述</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入门。
 common-voice-info = 对 Common Voice 有疑问？请加入我们的 <discourseLink>Discourse 论坛</discourseLink>。
 data-other-librispeech-description = Librispeech 是从 Librivox 项目中得到的大约 1000 小时的 16khz 有声读物的英文语音语料库。
 data-other-ted-name = TED-LIUM 语料库
 data-other-ted-description = TED-LIUM 语料库由在 TED 网站上提供的讲话音频和转录文字制作而成。
 data-other-voxforge-description = Voxforge 被设计来收集讲话转录文本，以供自由与开放源代码的语音识别引擎使用。
 data-other-tatoeba-description = Tatoeba 是一个用于语言学习的句子、翻译和口语音频的大型数据库。此下载包含由其社区记录的所有口语。
+your-feedback = 您有任何可以让 Common Voice 数据集变得更好的想法吗？欢迎到 Discourse 告诉我们
 go-discourse = 前往 Discourse
+missing-language = 未在数据集中看到您的语言？请到语言页请求加入新语言。
 go-languages-page = 前往语言页
+ready-to-validate = 准备好帮助验证语句了吗？
 
 ## Download Modal
 
