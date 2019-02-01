@@ -443,12 +443,16 @@ subscribe = 訂閱
 get-started-speech = 語音辨識新手入門
 other-datasets = 其他語音資料集
 feedback-q = 有意見要回饋嗎？
+deepspeech-info = Common Voice 資料集可與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補，讓您用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入門。
+common-voice-info = 有任何關於 Common Voice 的問題嗎？請到我們的 <discourseLink>Discourse 討論區</discourseLink>發問。
 data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫，約一千小時長度的 16Khz 英語有聲書的語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
 data-other-voxforge-description = VoxForge 被設計來收集轉錄的對話內容，以供自由與開放原始碼的語音辨識引擎使用。
 data-other-tatoeba-description = Tatoeba 是一套用來進行語言學習的大型資料庫，當中包含了各種句型、翻譯以及語音。這個下載項目包含了由其社群所錄下的英語語音。
+your-feedback = 您有任何可以讓 Common Voice 資料集變得更好的點子嗎？歡迎到 Discourse 告訴我們
 go-discourse = 前往 Discourse
+missing-language = 沒在資料集中看到您的語言？請到語言頁面來要求加入新語言。
 go-languages-page = 前往語言頁面
 ready-to-validate = 準備好要幫助驗證句子了嗎？
 
