@@ -433,6 +433,7 @@ subscribe = Abonować
 get-started-speech = Prěnje kroki z rěčenskim spóznaćom
 other-datasets = Druhe hłosowe datowe sadźby
 feedback-q = Maće komentary?
+deepspeech-info = Datowa sadźba Common Voice wudsopołnja Deep Speech, mašinu hłosoweho spóznaća wotewrjeneho žórła Mozilla, kotruž móžeće wužiwać, zo byšće nałoženja hłosoweho spóznaća wuwiwać. Čitajće naš <githubLink>přehlad Github</githubLink> abo přidružće so forumej <discourseLink>DeepSpeech Discourse</discourseLink>, zo byšće zhoniła, kak móžeće započeć.
 common-voice-info = Maće prašenja wo Common Voice? Přidružće so nam w našim <discourseLink>forumje Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech je korpus nimale 1.000 hodźin w jendźelskej rěči (natočene z 16 Khz), kotrež ze słuchoknihow projekta LibriVox pochadźeja.
 data-other-ted-name = Korpus TED-LIUM
