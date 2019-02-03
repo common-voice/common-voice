@@ -327,6 +327,7 @@ faq-why-important-a =
 faq-how-get-q = Kak móžu daty Common Voice dóstać?
 faq-how-get-a = Datowa sadźba Common Voice je pod licencu <licenseLink>CC0</licenseLink> na <datasetLink>našej stronje datowych sadźbow</datasetLink> za sćehnjenje k dispoziciji. Móžeće tež wjacore druhe zjawnje k dispoziciji stejace datowe sadźby ze samsneje strony sćahnyć.
 faq-when-release-q = Hdy Common Voice w druhich rěčach wozjewiće?
+faq-when-release-a = Wjacerěčna wersija datowje sadźby Common Voice so tuchwilu z pomocu zhromadźenstwa walčkuje a čisći. Jeli byšće rady wjace wo podpěranju tutych prócow zhonił, <contactLink>stajće so prošu z nami do zwiska</contactLink>. Měrimy so tuchwilu na wozjewjenski datum januara 2019. Potom budźemy datowu sadźbu prawidłownje z nowymi rěčemi a hłosowymi klipami aktualizować, hdyž su k dispoziciji. Iteratiwny wozjewjenski cyklus hišće postajeny njeje.
 faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
 faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
 faq-is-goal-assistant-q = Je cil Common Voice, hłosowy asistent wutworić?
