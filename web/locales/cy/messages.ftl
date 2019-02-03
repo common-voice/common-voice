@@ -428,6 +428,19 @@ review-delete-recordings = Dileu fy recordiadau
 ## New Datasets Page
 
 datasets-headline = Rydym yn adeiladu setiau data o leisiau amlieithog y gall unrhyw un eu defnyddio i hyfforddi rhaglenni sy'n cael eu galluogi drwy lais.
+datasets-positioning =
+    Rydym yn credu y bydd setiau data llais mawr, sydd ar gael yn gyhoeddus annog menter a chystadleuaeth fasnachol iach mewn technoleg llais wedi ei seilio ar ddysgu gan beiriannau.
+    
+    Set data amlieithog Common Voice eisoes yw'r set data llais mwyaf sydd ar gael o'i fath, ond nid yw'r unig un.
+language = Iaith
+# File size in gigabytes
+size = Maint
+validated-hr-total = Cyfanswm Oriau Dilyswyd
+overall-hr-total = Cyfanwsm Oriau
+cv-license = Trwydded
+audio-format = Fformat Sain
+number-of-voices = Nifer y Lleisiau
+email-to-download = Rhowch E-bost i'w Lwytho i Lawr
 data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oriau o lefaru Saesneg 15Khz wedi ei ddarllen o lyfrau sain o broject LibriVox.
 data-other-ted-name = Corpws TED-LIUM
 data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
