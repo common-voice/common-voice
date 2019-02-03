@@ -432,15 +432,33 @@ datasets-positioning =
     Rydym yn credu y bydd setiau data llais mawr, sydd ar gael yn gyhoeddus annog menter a chystadleuaeth fasnachol iach mewn technoleg llais wedi ei seilio ar ddysgu gan beiriannau.
     
     Set data amlieithog Common Voice eisoes yw'r set data llais mwyaf sydd ar gael o'i fath, ond nid yw'r unig un.
+    
+    Mae'r dudalen hon yn ganolfan gwybodaeth am setiau data llais cod agored eraill ac wrth i Common Voice barhau i dyfu, yn gartref i'n diweddariadau ryddhau ni.
 language = Iaith
 # File size in gigabytes
 size = Maint
-validated-hr-total = Cyfanswm Oriau Dilyswyd
-overall-hr-total = Cyfanwsm Oriau
+validated-hr-total = Cyfanswm Oriau â Ddilyswyd
+overall-hr-total = Cyfanswm yr Oriau
 cv-license = Trwydded
 audio-format = Fformat Sain
 number-of-voices = Nifer y Lleisiau
 email-to-download = Rhowch E-bost i'w Lwytho i Lawr
+why-email = <b> Pam e-bost? </ b> Efallai y bydd angen i chi gysylltu â chi yn y dyfodol ynghylch newidiadau i'r set ddata, mae e-bost yn rhoi pwynt cyswllt inni.
+confirm-size = Rydych yn barod i gychwyn llwytho i lawr <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Rydych yn cytuno</b> i beidio â cheisio adnabod y siaradwyr yn set data Common Voice.
+download-language = Llwytho { $language } i Lawr
+validated-hours = Oriau â Ddilyswyd
+recorded-hours = Oriau â Recordiwyd
+whats-inside = Beth sydd o fewn set data Common Voice?
+dataset-description = Mae pob cofnod o fewn y set data yn cynnwys MP3 unigryw a thestun ffeil cyfatebol. Mae llawer o'r <b>{ $hours }</b> o oriau wedi eu recordio yn y set data yn cynnwys meta data fel oed, rhyw ac acen, sy'n gallu hyfforddi cywirdeb peiriannau adnabod llais.
+want-dataset-update = Eisiau diweddariadau pan fyddwn yn ryddhau fersiwn newydd o set data Common Voice? Tanysgrfiwch i'n newyddlen.
+subscribe = Tanysgryfio
+get-started-speech = Cychwyn gydag Adnabod Lleferydd
+other-datasets = Setiau Data Eraill
+feedback-q = Adborth?
+deepspeech-info = Mae set ddataCommopn Voice yn ategu peiriant adnabod lleferydd cod agored Mozilla, sef Deep Speech, y gallwch ei ddefnyddio i adeiladu rhaglenni adnabod lleferydd. Darllenwch ein <githubLink>trosolwg ar Github</ githubLink> neu ymuno â <discourseLink> DeepSpeech Discourse </ discourseLink> i wybod sut i gychwyn.
 data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oriau o lefaru Saesneg 15Khz wedi ei ddarllen o lyfrau sain o broject LibriVox.
 data-other-ted-name = Corpws TED-LIUM
 data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
