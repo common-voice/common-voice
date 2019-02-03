@@ -445,7 +445,9 @@ data-other-ted-description = Il corpus TED-LIUM è realizzato con registrazioni 
 data-other-voxforge-description = VoxForge è stato creato appositamente per raccogliere trascrizioni di dettati da utilizzare nei motori di riconoscimento vocale gratuiti e open source.
 data-other-tatoeba-description = Tatoeba è un ampio database che raccoglie frasi, traduzioni e registrazioni vocali per scopi di apprendimento linguistico. Il presente download contiene tracce audio di inglese parlato registrato dalla comunità di Tatoeba.
 your-feedback = Hai idee su come migliorare il dataset di Common Voice? Faccelo sapere su Discourse
+go-discourse = Vai su Discourse
 missing-language = Non trovi la tua lingua nel dataset? Per richiederne una, vai sulla pagina Lingue.
+go-languages-page = Vai sulla pagina Lingue
 ready-to-validate = Sei pronto a convalidare qualche frase?
 
 ## Download Modal
