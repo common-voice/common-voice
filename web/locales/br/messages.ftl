@@ -340,6 +340,9 @@ faq-why-mission-a = Mennet eo Mozilla da virout ar Web digor ha tizhus d'an holl
 faq-what-cv-and-deepspeech-q = Petra eo an diforc'h etre Common Voice ha Deep Speech?
 faq-what-cv-and-deepspeech-a = Roadennoù Common Voice a gloka lusker anaoudegezh ar vouezh digor e darzh Deep Speech krouet gant Mozilla. Handelv kentañ Deep Speech a zo bet ermaeziet e miz Du 2017 ha kendalc'het en deus da emdreiñ abaoe. Asambles gant roadennoù Common Voice e soñj deomp e rankfe teknologiezhioù ar vouezh bezañ hegerz evit an holl. Spi hon eus e tegaso an teknologiezhioù-mañ dorrerien da sevel aozadoù ha servijoù nevezadus.
 faq-is-goal-assistant-q = Pal Common Voice eo sevel ur skoazeller mouezh?
+faq-is-goal-assistant-a = Pal roadennoù Common Voice eo reiñ an tu da forzh piv er bed da sevel un anaoudeger mouezhioù, an anaoudeger komzer, pe forzh pe arload all a goulenn roadennoù mouezh. Ur skoazeller dre vouezh n'eo nemet un doare arload a c'hallfe arverañ ar roadennoù-mañ.
+faq-do-want-native-q = N'on ket ur c'homzer a vihanik ha komz a ran gant un taol-mouezh, ha fellout a ra deoc'h kaout ma mouezh ivez?
+faq-do-want-native-a = Ya, c'hoant hon eus ho mouezh! Ul lodenn eus pal Common Voice eo dastum ar muiañ posupl a daolioù-mouezh disheñvel evit ma vefe gouest an anaoudeger mouezhioù da vont en-dro evit an holl. Setu perak eo pouezus kaout roadennoù mouezh eus komzerien n'int ket a-vihanik.
 faq-why-account-q = Perak e rankfen krouiñ ur gont?
 faq-is-account-public-q = Ha foran eo titouroù ma c'hont?
 faq-how-privacy-q = Penaos e vezit sur e chom dizanv ha prevez titouroù an dud a ro o mouezh?
@@ -374,11 +377,6 @@ data-get-started = <speechBlogLink>Kregiñ da anaout ar vouezh</speechBlogLink>
 data-other-title = Hollad roadennoù gant mouezhioù all...
 data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
-data-other-librispeech-description = LibriSpeech a zo anezhañ ur c'horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
-data-other-ted-name = Korpus TED-LIUM
-data-other-ted-description = Savet eo bet ar c'horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c'haller kavout war lec'hienn TED.
-data-other-voxforge-description = VoxForge a zo bet savet evit dastum mouezhioù treuzskrivet da vezañ implijet e luskerioù anaout ar vouezh frank.
-data-other-tatoeba-description = Tatoeba a zo anezhañ ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù komzet implijet en deskiñ yezhoù. Ar bellgargadenn-mañ a ya d'he ober saozneg komzet enrollet gant o c'humuniezh.
 data-bundle-button = Pellgargañ un hollad roadennoù
 data-bundle-description = Hollad roadennoù Common Voice mui an holl holladoù roadennoù mouezh all a-us.
 license = Lañvaz: <licenseLink>{ $license }</licenseLink>
@@ -397,6 +395,11 @@ review-delete-recordings = Dilemel ma enrolladennoù
 
 ## New Datasets Page
 
+data-other-librispeech-description = LibriSpeech a zo anezhañ ur c'horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Savet eo bet ar c'horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c'haller kavout war lec'hienn TED.
+data-other-voxforge-description = VoxForge a zo bet savet evit dastum mouezhioù treuzskrivet da vezañ implijet e luskerioù anaout ar vouezh frank.
+data-other-tatoeba-description = Tatoeba a zo anezhañ ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù komzet implijet en deskiñ yezhoù. Ar bellgargadenn-mañ a ya d'he ober saozneg komzet enrollet gant o c'humuniezh.
 
 ## Download Modal
 
