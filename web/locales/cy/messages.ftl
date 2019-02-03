@@ -409,11 +409,6 @@ data-get-started = <speechBlogLink>Cychwyn arni gydag Adnabod Lleferydd</speechB
 data-other-title = Setiau data llais eraill...
 data-other-goto = Mynd i { $name }
 data-other-download = Llwytho Data i Lawr
-data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oriau o lefaru Saesneg 15Khz wedi ei ddarllen o lyfrau sain o broject LibriVox.
-data-other-ted-name = Corpws TED-LIUM
-data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
-data-other-voxforge-description = Cafodd VoxForge ei sefydlu i gasglu lleferydd wedi ei drawsgrifio ar gyfer ei ddefnyddio gyda Pheiriannau Adnabod Lleferydd Rhydd a Chod Agored.
-data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sain llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
 data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
@@ -429,6 +424,15 @@ review-rerecord = Ail-recordio
 review-cancel = Diddymu'r Cyflwyno
 review-keep-recordings = Cadw'r recordiadau
 review-delete-recordings = Dileu fy recordiadau
+
+## New Datasets Page
+
+datasets-headline = Rydym yn adeiladu setiau data o leisiau amlieithog y gall unrhyw un eu defnyddio i hyfforddi rhaglenni sy'n cael eu galluogi drwy lais.
+data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oriau o lefaru Saesneg 15Khz wedi ei ddarllen o lyfrau sain o broject LibriVox.
+data-other-ted-name = Corpws TED-LIUM
+data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
+data-other-voxforge-description = Cafodd VoxForge ei sefydlu i gasglu lleferydd wedi ei drawsgrifio ar gyfer ei ddefnyddio gyda Pheiriannau Adnabod Lleferydd Rhydd a Chod Agored.
+data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sain llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
 
 ## Download Modal
 
