@@ -360,6 +360,7 @@ localization-explanation = To je naš proces za přełožowanje a přiměrjenje 
 sentence-collection = Zběrka sadow
 sentence-collection-explanation = Hromadźenje powšitkownosći wužitnych sadow abo pisanje nowych powšitkownosći wužitnych sadow.
 hours-recorded-explanation = Ličba dotal nahromadźenych natočenych hodźin.
+hours-validated-explanation = Ličba hodźin hłosoweho natočenja, kotrež su so wot 2 z 3 wužiwarjow z "Haj" wobkrućili. To postup k cyłkownemu cilej 10&thinso;000 hodźin markěruje.
 sst = Rěčenje-do-teksta (STT)
 sst-explanation = Technologije Rěčenje-do-teksta (STT) hłosowe daty to teksta konwertuja.
 de-identified = Anonymizowane
@@ -591,4 +592,8 @@ keep = Wobchować
 remove = Wotstronić
 keep-info = Waše anonymne hłosowe nahraća wostanu w datowej sadźbje Common Voice. Hdyž swój profil zhašeće, njemóžeće hižo naprašowanje wotpósłać, zo byšće swoje nahraća z datoweje sadźby wotstronił
 remove-info = Budźemy waše naprašowanje, waše hłosowe nahraća z datoweje sadźby wotstronić, přepruwować. Jeli so waše naprašowanje schwali,  budźemy so z tymi do zwiska stajić, kotřiž su datowu sadźbu sćahnyli, a prosymy jich, zo bychu waše hłosowe nahraća tež wotstronili.
+why-delete-recordings =
+    Natočenja Common Voice so wot akademikarjow, małych předewzaćow a entuziastow hłosoweho spóznaća wužiwaja, zo bychu zjawnje k dispoziciji stejace resursy kaž hłosowe modele trenowali a rozšěrili.
+    
+    Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil zhašeć
