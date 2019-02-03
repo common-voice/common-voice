@@ -421,6 +421,12 @@ review-delete-recordings = Myn opnamen fuortsmite
 ## New Datasets Page
 
 datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy't elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
+datasets-positioning =
+    Wy leauwe dat grutte, iepenbiere spraakgegevenssets foar ynnovaasje en sûne kommersjele kompetysje yn it fjild fan automatisearre learende spraaktechnology soargje sil.
+    
+    De meartalige gegevensset fan Common Voice is no al de grutste iepenbiere spraakgegevensset yn syn soarte, mar it is net de iennige.
+    
+    Beskôgje dizze side as in list mei referinsjes nei oare iepenboarne-spraakgegevenssets en, wylst Common Voice trochgroeit, de startside foar ús nije útjefte.
 language = Taal
 # File size in gigabytes
 size = Grutte
@@ -435,6 +441,7 @@ why-email = <b>Wêrom in e-mailadres?</b> Mooglik moatte wy jo yn de takomst oer
 confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Jo geane dermei akkoard</b> om net te probearjen de identiteit fan sprekkers yn de Common Voice-gegevensset te achterheljen
 download-language = { $language } downloade
 validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren
