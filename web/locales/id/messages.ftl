@@ -69,8 +69,10 @@ kpv = Bahasa Komi-Zyrian
 kw = Bahasa Kornish
 ky = Bahasa Kirgiz
 mdf = Bahasa Moksha
+mhr = Meadow Mari
 mk = Bahasa Makedonia
 mn = Bahasa Mongol
+mrj = Hill Mari
 myv = Bahasa Erzya
 nb-NO = Bahasa Bokmal (Norwegia)
 ne-NP = Bahasa Nepal
@@ -95,10 +97,13 @@ te = Bahasa Telugu
 th = Bahasa Thai
 tr = Bahasa Turki
 tt = Bahasa Tatar
+uby = Ubykh
+udm = Udmurt
 uk = Bahasa Ukraina
 ur = Bahasa Urdu
 uz = Bahasa Uzbek
 vi = Bahasa Vietnam
+vot = Votik
 zh-CN = Bahasa Tionghoa (Tiongkok)
 zh-HK = Bahasa Tiongkok (Hong Kong)
 zh-TW = Bahasa Tionghoa (Taiwan)
@@ -344,11 +349,6 @@ data-get-started = <speechBlogLink>Mulailah dengan Pengenalan Suara</speechBlogL
 data-other-title = Himpunan data suara lainnya...
 data-other-goto = Kunjungi { $name }
 data-other-download = Unduh Data
-data-other-librispeech-description = LibriSpeech adalah sebuah korpus berdurasi sekitar 1000 jam dengan pembacaan teks berbahasa Inggris dalam frekuensi 16Khz yang berasal dari pembacaan buku audio dari proyek LibriVox.
-data-other-ted-name = TED-LIUM Corpus
-data-other-ted-description = Korpus TED-LIUM dibangun dari perbincangan audio dan naskah salinannya yang tersedia di situs web TED.
-data-other-voxforge-description = VoxForge dibangun untuk mengumpulkan naskah salinan pembicaraan untuk digunakan dengan Mesin Pengenalan Suara Sumber Terbuka dan Gratis.
-data-other-tatoeba-description = Tatoeba adalah basis data besar kalimat, terjemahan, dan audio tuturan guna pembelajaran bahasa. Unduhan ini berisi seluruh tuturan bahasa Inggris yang direkam oleh komunitas mereka.
 data-bundle-button = Unduh Bundel Himpunan Data
 data-bundle-description = Data Common Voice dan seluruh himpunan data suara lain di atas.
 license = Lisensi: <licenseLink>{ $license }</licenseLink>
@@ -367,6 +367,11 @@ review-delete-recordings = Hapus rekaman saya
 
 ## New Datasets Page
 
+data-other-librispeech-description = LibriSpeech adalah sebuah korpus berdurasi sekitar 1000 jam dengan pembacaan teks berbahasa Inggris dalam frekuensi 16Khz yang berasal dari pembacaan buku audio dari proyek LibriVox.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = Korpus TED-LIUM dibangun dari perbincangan audio dan naskah salinannya yang tersedia di situs web TED.
+data-other-voxforge-description = VoxForge dibangun untuk mengumpulkan naskah salinan pembicaraan untuk digunakan dengan Mesin Pengenalan Suara Sumber Terbuka dan Gratis.
+data-other-tatoeba-description = Tatoeba adalah basis data besar kalimat, terjemahan, dan audio tuturan guna pembelajaran bahasa. Unduhan ini berisi seluruh tuturan bahasa Inggris yang direkam oleh komunitas mereka.
 
 ## Download Modal
 
