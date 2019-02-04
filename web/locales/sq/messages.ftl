@@ -248,6 +248,8 @@ profile-form-age =
     .label = Moshë
 profile-form-gender =
     .label = Gjini
+leaderboard-visibility =
+    .label = Dukshmëri Tabele
 hidden = I fshehur
 visible = I dukshëm
 native-language =
@@ -402,6 +404,12 @@ review-delete-recordings = Fshiji incizimet e mia
 ## New Datasets Page
 
 datasets-headline = Po krijojmë një grup të dhënash zanore me burim të hapur, shumëgjuhëshe, të cilin mund ta përdorë gjithkush për të stërvitur aplikacione që njohin të folurën.
+datasets-positioning =
+    Besojmë se grupe të dhënash zanore të mëdha, të përdorshme publikisht do të nxisin risitë dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së nxënies nga makinat me bazë të folurën.
+    
+    Common Voice’s multi-language dataset is already the largest publicly available voice dataset of its kind, but it’s not the only one.
+    
+    Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
 language = Gjuhë
 # File size in gigabytes
 size = Madhësi
@@ -420,10 +428,16 @@ download-language = Shkarkoni { $language }
 validated-hours = Orë Vleftësim
 recorded-hours = Orë Incizim
 whats-inside = Ç’përmban grupi i të dhënave Common Voice?
+dataset-description =
+    Çdo zë në grupin e të dhënave përbëhet nga një incizim MP3 dhe një kartelë tekst përkatëse. Shumë nga <b>{ $hours }</b> orët e incizuara në grupin e të dhënave përfshijnë gjithashtu të dhëna demografike të tilla si mosha, gjinia, dhe theksi, të cilat mund të ndihmojnë në stërvitjen e përpikërisë së mekanizmave të të kuptuarit të të folurës.
+    
+    The dataset currently consists of <b>{ $hours }</b> validated hours in <b>{ $languageCount }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
+want-dataset-update = Dëshironi përditësime kur hedhin në qarkullim një version të ri të grupit të të dhënave Common Voice? Pajtohuni te buletini ynë.
 subscribe = Pajtohuni
 get-started-speech = Fillojani me Kuptimin e të Folurës
 other-datasets = Grupe të Tjera të Dhënash Zëri
 feedback-q = Keni Diçka Për të Thënë?
+deepspeech-info = Grupi i të dhënave Common Voice plotëson mekanizmin me burim të hapur të Mozilla-s për kuptimin e të folurës, Deep Speech, të cilin mund ta përdorni për të ndërtuar aplikacione që bazohen ose përdorin kuptimin e të folurës. Për të mësuar se si t’ia fillohet, lexoni <githubLink>përmbledhjen tonë në Github</githubLink> ose ejani te <discourseLink>DeepSpeech Discourse</discourseLink>.
 common-voice-info = Keni pyetje mbi Common Voice? Merrni pjesë te <discourseLink>forumi ynë Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
 data-other-ted-name = Korpusi TED-LIUM
