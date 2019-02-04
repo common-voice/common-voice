@@ -238,8 +238,8 @@ english = Anglisht
 
 profile-form-username =
     .label = Emër Përdoruesi
-profile-form-language =
-    .label = Gjuhë
+profile-form-additional-language =
+    .label = Gjuhë Shtesë
 profile-form-accent =
     .label = Theksim
 profile-form-age =
@@ -381,11 +381,6 @@ data-get-started = <speechBlogLink>Hapat e Parë Në Njohjen e të Folurit</spee
 data-other-title = Grupe të tjerë të dhënash zanore…
 data-other-goto = Kalo te { $name }
 data-other-download = Shkarkoni Të dhëna
-data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
-data-other-ted-name = Korpusi TED-LIUM
-data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
-data-other-voxforge-description = VoxForge qe ndërtuar për të grumbulluar transkriptime të folurash për përdorim me Mekanizma të Lirë dhe Me Burim të Hapur Njohjeje të Foluri.
-data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash frazash, përkthimesh, dhe të folurash për përdorim në mësimin e gjuhëve. Ky shkarkim përmban krejt të folurën anglisht të incizuar nga bashkësia e tyre.
 data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
@@ -401,6 +396,19 @@ review-rerecord = Ri-incizojeni
 review-cancel = Anuloje Parashtrimin
 review-keep-recordings = Mbaji incizimet
 review-delete-recordings = Fshiji incizimet e mia
+
+## New Datasets Page
+
+datasets-headline = Po krijojmë një grup të dhënash zanore me burim të hapur, shumëgjuhëshe, të cilin mund ta përdorë gjithkush për të stërvitur aplikacione që njohin të folurën.
+language = Gjuhë
+# File size in gigabytes
+size = Madhësi
+validated-hr-total = Orë të Vleftësuara Gjithsej
+data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
+data-other-ted-name = Korpusi TED-LIUM
+data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
+data-other-voxforge-description = VoxForge qe ndërtuar për të grumbulluar transkriptime të folurash për përdorim me Mekanizma të Lirë dhe Me Burim të Hapur Njohjeje të Foluri.
+data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash frazash, përkthimesh, dhe të folurash për përdorim në mësimin e gjuhëve. Ky shkarkim përmban krejt të folurën anglisht të incizuar nga bashkësia e tyre.
 
 ## Download Modal
 
