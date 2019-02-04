@@ -19,10 +19,13 @@
 
     & nav {
         position: sticky;
+        top: 0;
+        background: var(--lighter-grey);
 
         @media (--md-down) {
             margin-bottom: 30px;
-            bottom: 0;
+            padding-bottom: 10px;
+            z-index: var(--middle-z-index);
             overflow: auto;
         }
 
@@ -30,7 +33,6 @@
             margin-inline-end: 115px;
             max-width: 210px;
             height: 100%;
-            top: 0;
         }
 
         & ul {
@@ -152,6 +154,12 @@
         }
     }
 
+    & .other-datasets {
+        @media (--lg-up) {
+            margin-bottom: 40px;
+        }
+    }
+
     & .other-dataset {
         position: relative;
 
@@ -217,6 +225,52 @@
         & .download {
             background: var(--blue);
             color: white;
+        }
+    }
+
+    & .feedback {
+        max-width: initial;
+
+        & img {
+            width: 100%;
+
+            @media (--md-down) {
+                margin-bottom: 30px;
+            }
+
+            @media (--lg-up) {
+                margin-bottom: 60px;
+            }
+        }
+
+        & .content {
+            width: 100%;
+        }
+
+        & .described-button {
+            display: flex;
+
+            @media (--md-down) {
+                flex-direction: column;
+            }
+
+            @media (--lg-up) {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            &:first-child {
+                margin-bottom: 30px;
+            }
+
+            & p {
+                margin-bottom: 20px;
+                max-width: 350px;
+            }
+
+            & a {
+                max-height: 57px;
+            }
         }
     }
 }

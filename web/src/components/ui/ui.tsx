@@ -102,6 +102,7 @@ export const LabeledTextArea = (props: any) => (
 
 export const LinkButton = ({
   className = '',
+  blank = false,
   outline = false,
   rounded = false,
   absolute = false,
@@ -116,6 +117,7 @@ export const LinkButton = ({
         rounded ? 'rounded' : '',
         className,
       ].join(' ')}
+      {...(blank ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
       {...props}
     />
   );
