@@ -499,7 +499,7 @@ total-hours = 总小时数
 ## New Contribution
 
 action-click = 点击
-action-tap = 点选
+action-tap = 点按
 contribute = 参与贡献
 listen = 聆听
 skip = 跳过
