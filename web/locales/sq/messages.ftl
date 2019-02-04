@@ -17,6 +17,7 @@ indicates-required = * tregon një fushë të domosdoshme
 
 ## Languages
 
+ab = Abkaze
 ace = Acehneze
 af = Afrikaans
 an = Aragoneze
@@ -91,6 +92,7 @@ te = Telugu
 th = Tajlandeze
 tr = Turqisht
 tt = Tatare
+uby = Ybyke
 uk = Ukrainase
 ur = Urdu
 uz = Uzbeke
@@ -404,11 +406,35 @@ language = Gjuhë
 # File size in gigabytes
 size = Madhësi
 validated-hr-total = Orë të Vleftësuara Gjithsej
+overall-hr-total = Orë Gjithsej
+cv-license = Licencë
+audio-format = Format Audio
+number-of-voices = Numër Zërash
+email-to-download = Jepni Email-in për Shkarkim
+why-email = <b>Pse email?</b> Mund të na duhet të lidhemi me ju në të ardhmen rreth ndryshimesh në grupin e të dhënave, dhe email-i na jep një pikë kontakti.
+confirm-size = Jeni gati të nisnit një shkarkim prej <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Pranoni</b> se nuk do të rrekeni të përcaktoni identitetin e folësve në grupin e të dhënave nga Common Voice
+download-language = Shkarkoni { $language }
+validated-hours = Orë Vleftësim
+recorded-hours = Orë Incizim
+whats-inside = Ç’përmban grupi i të dhënave Common Voice?
+subscribe = Pajtohuni
+get-started-speech = Fillojani me Kuptimin e të Folurës
+other-datasets = Grupe të Tjera të Dhënash Zëri
+feedback-q = Keni Diçka Për të Thënë?
+common-voice-info = Keni pyetje mbi Common Voice? Merrni pjesë te <discourseLink>forumi ynë Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
 data-other-ted-name = Korpusi TED-LIUM
 data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
 data-other-voxforge-description = VoxForge qe ndërtuar për të grumbulluar transkriptime të folurash për përdorim me Mekanizma të Lirë dhe Me Burim të Hapur Njohjeje të Foluri.
 data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash frazash, përkthimesh, dhe të folurash për përdorim në mësimin e gjuhëve. Ky shkarkim përmban krejt të folurën anglisht të incizuar nga bashkësia e tyre.
+your-feedback = Keni ndonjë ide se si mund ta bëjmë më të mirë grupin e të dhënave Common Voice? Na e bëni të ditur te Discourse
+go-discourse = Kaloni te Discourse
+missing-language = S’e shihni gjuhën tuaj të pasqyruar në Grupin e të Dhënave? Që të kërkoni një gjuhë, shkoni te faqja jonë e Gjuhëve.
+go-languages-page = Shkoni te Faqja e Gjuhëve
+ready-to-validate = Gati për vleftësim frazash?
 
 ## Download Modal
 
@@ -548,4 +574,8 @@ keep = Mbaji
 remove = Hiqi
 keep-info = Incizimet tuaja anonime të të folurës do të mbahen në grupin e të dhënave Common Voice. Pasi të fshihet profili juaj, s’do të jeni më në gjendje të parashtroni kërkesë për fshirje të incizimeve tuaja prej grupit të të dhënave
 remove-info = Do ta shqyrtojmë kërkesën tuaj për heqjen nga grupi i të dhënave të incizimeve tuaja të të folurës. Nëse kërkesa jua miratohet, do të lidhemi me ata që e kanë shkarkuar grupin e të dhënave dhe do t’u kërkojmë të heqin incizimet e zëri tuaj.
+why-delete-recordings =
+    Incizimet Common Voice përdoren nga mësimdhënës, biznese të vogla, dhe amatorë të njohjes së të folurës për të ndihmuar të stërviten dhe të shtohen burime publike të tillë si modelet e zërit.
+    
+    Can you let us know why you would like your recordings deleted?
 profile-form-delete = Fshini Profil
