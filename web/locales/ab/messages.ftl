@@ -31,7 +31,9 @@ cak = Қақчиқел
 cnh = Ҳақа чын
 cs = Чешҭина
 cv = Чавашла
-de = Агерман
+cy = Кымраиг
+da = Данск
+de = Доич
 el = Елен
 en = Англыз
 oc = Алан
@@ -184,7 +186,6 @@ data-download-license = Алицензиа: <licenseLink>CC-0</licenseLink>
 data-other-title = Даҽа абжьытә дыррақәа реизга...
 data-other-goto = { $name } ииастәуп
 data-other-download = Адыррақәа ихҩылаатәуп
-data-other-ted-name = TED-LIUM аизганҵа
 data-bundle-button = Адырра-аизга аилаҳәара ихҩылаатәуп
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
@@ -206,6 +207,7 @@ cv-license = Алицензиа
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = Ихҩылаатәуп { $language }
+data-other-ted-name = TED-LIUM аизганҵа
 
 ## Download Modal
 
