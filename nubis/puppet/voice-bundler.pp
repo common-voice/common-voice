@@ -1,3 +1,5 @@
+$virtualenv_path = '/usr/local/virtualenvs'
+
 vcsrepo { '/opt/common-voice-bundler':
   ensure   => present,
   provider => 'git',
@@ -33,4 +35,45 @@ file { '/opt/common-voice-bundler/out':
     User["${project_name}-data"],
     Vcsrepo['/opt/common-voice-bundler'],
   ],
+}
+
+class { 'python':
+  version    => 'python3.5',
+  pip        => true,
+  dev        => true,
+  virtualenv => true,
+}->
+package {'python3-venv':
+  ensure => present,
+}
+
+file { $virtualenv_path:
+  ensure => directory,
+}
+
+python::pyvenv { "${virtualenv_path}/corpora-creator":
+  ensure  => present,
+  version => '3.5',
+  require => [
+    File[$virtualenv_path],
+  ],
+}
+
+python::pip {'setuptools':
+  ensure => '40.8.0',
+  virtualenv => "${virtualenv_path}/corpora-creator",
+}
+
+python::pip { 'corpora-creator':
+  ensure     => 'present',
+  virtualenv => "${virtualenv_path}/corpora-creator",
+  url        => 'git+https://github.com/mozilla/CorporaCreator.git@90580daad03ca5c66b3409eb4fee4c2208f64320',
+  require => [
+    Python::Pip['setuptools'],
+  ],
+}
+
+file {'/usr/local/bin/create-corpora':
+  ensure => link,
+  target => "${virtualenv_path}/corpora-creator/bin/create-corpora",
 }
