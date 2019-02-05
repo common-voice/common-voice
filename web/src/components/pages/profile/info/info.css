@@ -128,7 +128,6 @@
 
     & .save {
         margin: 0 auto;
-        text-transform: none;
         min-height: 57px;
     }
 }

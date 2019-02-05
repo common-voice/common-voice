@@ -412,6 +412,24 @@ review-cancel = Annuler l’envoi
 review-keep-recordings = Conserver les enregistrements
 review-delete-recordings = Supprimer les enregistrements
 
+## New Datasets Page
+
+datasets-headline = Nous créons un jeu de données vocales open source et multilingue que tout le monde peut utiliser pour entraîner des applications utilisant la voix.
+language = Langue
+# File size in gigabytes
+size = Taille
+validated-hr-total = Total d’heures validées
+overall-hr-total = Total d’heures
+cv-license = Licence
+number-of-voices = Nombre de voix
+confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
+size-gigabyte =  Go
+size-megabyte =  Mo
+download-language = Télécharger{ $language }
+validated-hours = Heures validées
+recorded-hours = Heures enregistrées
+whats-inside = Que contient le jeu de données Common Voice ?
+
 ## Download Modal
 
 download-title = Votre téléchargement a démarré.
@@ -547,4 +565,8 @@ keep = Les conserver
 remove = Les supprimer
 keep-info = Vos enregistrements vocaux anonymes resteront dans le jeu de données Common Voice. Une fois que vous avez supprimé votre profil, vous ne pourrez plus envoyer de requête pour supprimer vos enregistrements du jeu de données.
 remove-info = Nous allons étudier votre requête pour retirer vos enregistrements vocaux du jeu de données. Si votre demande est acceptée, nous contacterons ceux qui ont téléchargé le jeu de données et leur demanderons de le faire également.
+why-delete-recordings =
+    Les universitaires, les petites entreprises et les passionnés de reconnaissance vocale utilisent les enregistrements Common Voice pour entraîner et développer des ressources accessibles au public, telles que des modèles vocaux.
+    
+    Pourriez-vous nous indiquer pourquoi vous souhaitez supprimer vos enregistrements ?
 profile-form-delete = Supprimer le profil

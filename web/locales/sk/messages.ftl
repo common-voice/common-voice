@@ -8,6 +8,7 @@ email-input =
     .label = E-mailová adresa
 submit-form-action = Odoslať
 loading = Načítava sa…
+email-opt-in-privacy = Rozhodnutím prijímať e-maily potvrdzujete svoj súhlas so spracovaním vašich údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia<privacyLink>.
 indicates-required = * označuje povinné pole
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -189,6 +190,7 @@ x-years-short =
         [few] { $count } roky
        *[other] { $count } rokov
     }
+help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú databázu
 
 ## Account Benefits
 
@@ -245,8 +247,10 @@ english = Angličtina
 
 profile-form-username =
     .label = Používateľské meno
-profile-form-language =
-    .label = Jazyk
+profile-form-native-language =
+    .label = Materinský jazyk
+profile-form-additional-language =
+    .label = Ďalší jazyk
 profile-form-accent =
     .label = Prízvuk
 profile-form-age =
@@ -288,7 +292,10 @@ contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
 off = Vypnutá
 on = Zapnutá
+add-avatar-title = Pridajte do svojho profilu avatara
 browse-file-title = Nahrať obrázok
+connect-gravatar = Prepojiť so službou Gravatar
+gravatar_not_found = Pre vašu e-mailovú adresu nebol nájdený žiadny gravatar
 file_too_large = Vybraný súbor je príliš veľký
 manage-subscriptions = Spravovať odbery
 email-already-used = E-mailová adresa sa už používa pre iný účet
@@ -321,11 +328,6 @@ data-get-started = <speechBlogLink>Začíname s rozpoznávaním reči</speechBlo
 data-other-title = Ďalšie hlasové datasety…
 data-other-goto = Prejsť na { $name }
 data-other-download = Prevziať údaje
-data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
-data-other-ted-name = Korpus TED-LIUM
-data-other-ted-description = Korpus TED-LIUM je tvorený zvukovými nahrávkami prednášok a ich prepismi dostupnými na webovej stránke TED.
-data-other-voxforge-description = VoxForge bol vytvorený za účelom zberu prepísanej reči na použitie vo voľne dostupných, open source systémoch rozpoznávania reči.
-data-other-tatoeba-description = Tatoeba je rozsiahla databáza viet, prekladov a hovoreného slova pre použitie pri štúdiu jazykov. Obsahuje hovorenú angličtinu nahranú jej komunitou.
 data-bundle-button = Prevziať balík datasetov
 data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
@@ -341,6 +343,25 @@ review-rerecord = Nahrať znova
 review-cancel = Zrušiť odoslanie
 review-keep-recordings = Ponechať nahrávky
 review-delete-recordings = Odstrániť moje nahrávky
+
+## New Datasets Page
+
+language = Jazyk
+# File size in gigabytes
+size = Veľkosť
+size-gigabyte = GB
+size-megabyte = MB
+subscribe = Odoberať
+data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Korpus TED-LIUM je tvorený zvukovými nahrávkami prednášok a ich prepismi dostupnými na webovej stránke TED.
+data-other-voxforge-description = VoxForge bol vytvorený za účelom zberu prepísanej reči na použitie vo voľne dostupných, open source systémoch rozpoznávania reči.
+data-other-tatoeba-description = Tatoeba je rozsiahla databáza viet, prekladov a hovoreného slova pre použitie pri štúdiu jazykov. Obsahuje hovorenú angličtinu nahranú jej komunitou.
+your-feedback = Máte nápady, ako vylepšiť dataset Common Voice? Dajte nám o nich vedieť na Discourse.
+go-discourse = Prejsť na Discourse
+missing-language = Nevidíte v datasete svoj jazyk? Ak chcete o jazyk požiadať, prejdite na stránku s jazykmi.
+go-languages-page = Prejsť na stránku s jazykmi
+ready-to-validate = Ste pripravení pomôcť s overovaním viet?
 
 ## Download Modal
 

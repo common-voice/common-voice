@@ -409,11 +409,6 @@ data-get-started = <speechBlogLink>Cychwyn arni gydag Adnabod Lleferydd</speechB
 data-other-title = Setiau data llais eraill...
 data-other-goto = Mynd i { $name }
 data-other-download = Llwytho Data i Lawr
-data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oriau o lefaru Saesneg 15Khz wedi ei ddarllen o lyfrau sain o broject LibriVox.
-data-other-ted-name = Corpws TED-LIUM
-data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
-data-other-voxforge-description = Cafodd VoxForge ei sefydlu i gasglu lleferydd wedi ei drawsgrifio ar gyfer ei ddefnyddio gyda Pheiriannau Adnabod Lleferydd Rhydd a Chod Agored.
-data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sain llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
 data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
@@ -429,6 +424,53 @@ review-rerecord = Ail-recordio
 review-cancel = Diddymu'r Cyflwyno
 review-keep-recordings = Cadw'r recordiadau
 review-delete-recordings = Dileu fy recordiadau
+
+## New Datasets Page
+
+datasets-headline = Rydym yn adeiladu setiau data o leisiau amlieithog y gall unrhyw un eu defnyddio i hyfforddi rhaglenni sy'n cael eu galluogi drwy lais.
+datasets-positioning =
+    Rydym yn credu y bydd setiau data llais mawr, sydd ar gael yn gyhoeddus annog menter a chystadleuaeth fasnachol iach mewn technoleg llais wedi ei seilio ar ddysgu peirianyddol.
+    
+    Set data amlieithog Common Voice eisoes yw'r set data llais mwyaf sydd ar gael o'i fath, ond nid yw'r unig un.
+    
+    Mae'r dudalen hon yn ganolfan gwybodaeth am setiau data llais cod agored eraill ac wrth i Common Voice barhau i dyfu, yn gartref i'n diweddariadau ryddhau ni.
+language = Iaith
+# File size in gigabytes
+size = Maint
+validated-hr-total = Cyfanswm Oriau â Ddilyswyd
+overall-hr-total = Cyfanswm yr Oriau
+cv-license = Trwydded
+audio-format = Fformat Sain
+number-of-voices = Nifer y Lleisiau
+splits = Holltiadau
+email-to-download = Rhowch E-bost i'w Lwytho i Lawr
+why-email = <b> Pam e-bost? </ b> Efallai y bydd angen i chi gysylltu â chi yn y dyfodol ynghylch newidiadau i'r set ddata, mae e-bost yn rhoi pwynt cyswllt inni.
+confirm-size = Rydych yn barod i gychwyn llwytho i lawr <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Rydych yn cytuno</b> i beidio â cheisio adnabod y siaradwyr yn set data Common Voice.
+download-language = Llwytho { $language } i Lawr
+validated-hours = Oriau â Ddilyswyd
+recorded-hours = Oriau â Recordiwyd
+whats-inside = Beth sydd o fewn set data Common Voice?
+dataset-description = Mae pob cofnod o fewn y set data yn cynnwys MP3 unigryw a thestun ffeil cyfatebol. Mae llawer o'r <b>{ $hours }</b> o oriau wedi eu recordio yn y set data yn cynnwys meta data fel oed, rhyw ac acen, sy'n gallu hyfforddi cywirdeb peiriannau adnabod llais.
+want-dataset-update = Eisiau diweddariadau pan fyddwn yn ryddhau fersiwn newydd o set data Common Voice? Tanysgrfiwch i'n newyddlen.
+subscribe = Tanysgryfio
+get-started-speech = Cychwyn gydag Adnabod Lleferydd
+other-datasets = Setiau Data Eraill
+feedback-q = Adborth?
+deepspeech-info = Mae set ddataCommopn Voice yn ategu peiriant adnabod lleferydd cod agored Mozilla, sef Deep Speech, y gallwch ei ddefnyddio i adeiladu rhaglenni adnabod lleferydd. Darllenwch ein <githubLink>trosolwg ar Github</ githubLink> neu ymuno â <discourseLink> DeepSpeech Discourse </ discourseLink> i wybod sut i gychwyn.
+common-voice-info = Oes gennych chi gwestiynau am Common Voice? Ymunwch â ni ar ein fforwm <discourseLink>Discourse <discourseLink>.
+data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oriau o lefaru Saesneg 15Khz wedi ei ddarllen o lyfrau sain o broject LibriVox.
+data-other-ted-name = Corpws TED-LIUM
+data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
+data-other-voxforge-description = Cafodd VoxForge ei sefydlu i gasglu lleferydd wedi ei drawsgrifio ar gyfer ei ddefnyddio gyda Pheiriannau Adnabod Lleferydd Rhydd a Chod Agored.
+data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sain llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
+your-feedback = Oes gennych chi syniadau ar sut y gallwn ni wella set ddata Common Voice? Gadewch i ni wybod ar Discourse
+go-discourse = Mynd i Discourse
+missing-language = Ddim yn gweld eich iaith yn y set ddata? I ofyn i'ch iaith gael ei chynnwys ewch i'n tudalen Ieithoedd.
+go-languages-page = Mynd i'r Dudalen Ieithoedd
+ready-to-validate = Yn barod i helpu i ddilysu brawddegau?
 
 ## Download Modal
 
@@ -577,4 +619,8 @@ keep = Cadw
 remove = Tynnu
 keep-info = Bydd eich recordiadau llais dienw yn parhau yn set ddata Common Voice. Ar ôl i chi ddileu eich proffil, ni fyddwch bellach yn gallu cyflwyno cais i ddileu eich recordiadau o'r set ddata
 remove-info = Byddwn yn adolygu'ch cais i gael gwared â'ch recordiadau llais o'r set ddata. Os bydd eich cais yn cael ei gymeradwyo, byddwn yn cysylltu â'r rhai sydd wedi llwytho'r set ddata i lawr a gofyn iddyn nhw gael gwared â'ch recordiadau llais hefyd.
+why-delete-recordings =
+    Mae recordiadau Common Voice yn cael eu defnyddio gan academyddion, busnesau bach a phobl sy'n hoff o adnabod llais i helpu i hyfforddi a thyfu adnoddau sydd ar gael i'r cyhoedd, fel modelau llais.
+    
+    A wnewch chi roi gwybod i ni pam yr hoffech i'ch cofnodion gael eu dileu?
 profile-form-delete = Dileu Proffil

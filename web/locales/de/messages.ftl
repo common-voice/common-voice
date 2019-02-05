@@ -392,11 +392,6 @@ data-get-started = <speechBlogLink>Erste Schritte bei der Spracherkennung</speec
 data-other-title = Andere Sprachdatensätze…
 data-other-goto = { $name } aufrufen
 data-other-download = Daten herunterladen
-data-other-librispeech-description = LibriSpeech ist ein Korpus aus ca. 1000 Stunden vorgelesener Texte in englischer Sprache (aufgenommen in 16kHz), welche ursprünglich aus Hörbüchern des LibriVox-Projektes entnommen wurden.
-data-other-ted-name = TED-LIUM-Korpus
-data-other-ted-description = Der TED-LIUM-Korpus wurde aus Audio-Vorträgen und deren Abschriften erstellt, die auf der TED-Webseite verfügbar sind.
-data-other-voxforge-description = VoxForge wurde gegründet, um Abschriften von Sprache für die Verwendung mit Freien und Open-Source-Spracherkennungen zu sammeln.
-data-other-tatoeba-description = Tatoeba ist eine umfangreiche Datenbank aus Sätzen und deren Übersetzungen und gesprochener Form (Audio) zum Sprachenlernen. Dieser Download enthält alle gesprochenen, englischen Texte, die von der dortigen Gemeinschaft aufgenommen wurden.
 data-bundle-button = Datensatz-Set herunterladen
 data-bundle-description = Common-Voice-Daten plus alle anderen, oben erwähnten Sprachdatensätze.
 license = Lizenz: <licenseLink>{ $license }</licenseLink>
@@ -445,6 +440,23 @@ dataset-description =
     Jeder Eintrag im Datensatz besteht aus einer eindeutigen MP3- und zugehörigen Textdatei. Viele der <b>{ $hours }</b> aufgezeichneten Stunden im Datensatz enthalten auch demografische Metadaten wie Alter, Geschlecht und Akzent, mit deren Hilfe die Genauigkeit von Spracherkennungs-Engines trainiert werden kann.
     
     Der Datensatz besteht derzeit aus <b>{ $hours }</b> bestätigten Stunden in <b>{ $languageCount }</b> Sprachen, aber wir fügen immer mehr Stimmen und Sprachen hinzu. Besuchen Sie unsere <languagesLink>Sprachen-Seite</languagesLink>, um eine Sprache anzufordern oder mitzumachen.
+want-dataset-update = Möchten Sie benachrichtigt werden, wenn wir eine neue Version des Common-Voice-Datensatzes veröffentlichen? Dann abonnieren Sie unseren Newsletter.
+subscribe = Abonnieren
+get-started-speech = Erste Schritte mit der Spracherkennung
+other-datasets = Andere Sprachdatensätze
+feedback-q = Möchten Sie uns etwas mitteilen?
+deepspeech-info = Der Common-Voice-Datasatz ist eine Ergänzung zu Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, mit der Sie Spracherkennungsanwendungen entwickeln können. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen
+common-voice-info = Haben Sie Fragen zu Common Voice? Besuchen Sie unser <discourseLink>Discourse-Forum</discourseLink>.
+data-other-librispeech-description = LibriSpeech ist ein Korpus aus ca. 1000 Stunden vorgelesener Texte in englischer Sprache (aufgenommen in 16kHz), welche ursprünglich aus Hörbüchern des LibriVox-Projektes entnommen wurden.
+data-other-ted-name = TED-LIUM-Korpus
+data-other-ted-description = Der TED-LIUM-Korpus wurde aus Audio-Vorträgen und deren Abschriften erstellt, die auf der TED-Webseite verfügbar sind.
+data-other-voxforge-description = VoxForge wurde gegründet, um Abschriften von Sprache für die Verwendung mit Freien und Open-Source-Spracherkennungen zu sammeln.
+data-other-tatoeba-description = Tatoeba ist eine umfangreiche Datenbank aus Sätzen und deren Übersetzungen und gesprochener Form (Audio) zum Sprachenlernen. Dieser Download enthält alle gesprochenen, englischen Texte, die von der dortigen Gemeinschaft aufgenommen wurden.
+your-feedback = Haben Sie Ideen, wie wir den Common-Voice-Datensatz verbessern können? Sagen Sie’s uns auf Discourse.
+go-discourse = Discourse besuchen
+missing-language = Ihre Sprache fehlt noch im Datensatz? Besuchen Sie unsere Sprachen-Seite, um eine Sprache anzufordern
+go-languages-page = Sprachen-Seite besuchen
+ready-to-validate = Sind Sie bereit, um Sätze zu bestätigen?
 
 ## Download Modal
 

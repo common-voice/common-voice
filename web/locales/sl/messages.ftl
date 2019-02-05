@@ -17,7 +17,9 @@ indicates-required = * Zahtevano polje
 
 ## Languages
 
+ab = abhaščina
 ace = ačinščina
+ady = adigejščina
 af = afrikanščina
 am = amharščina
 an = aragonščina
@@ -93,6 +95,8 @@ te = teluščina
 th = tajščina
 tr = turščina
 tt = tatarščina
+uby = ubiščina
+udm = udmurtščina
 uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
@@ -248,6 +252,8 @@ english = angleščina
 
 profile-form-username =
     .label = Uporabniško ime
+profile-form-native-language =
+    .label = Materni jezik
 profile-form-additional-language =
     .label = Dodatni jezik
 profile-form-accent =
@@ -316,10 +322,17 @@ faq-how-get-a = Podatkovni niz Common Voice je na voljo za prenos pod licenco <l
 faq-when-release-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
 faq-why-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
 faq-what-cv-and-deepspeech-q = Kakšna je razlika med projektoma Common Voice in Deep Speech?
+faq-is-goal-assistant-q = Ali je cilj projekta Common Voice ustvariti glasovnega pomočnika?
+faq-do-want-native-q = Nisem materni govorec in govorim z naglasom; ali vseeno želite moj glas?
 faq-do-want-native-a = Da, še posebej želimo vaš glas! Del cilja Common Voice je zbrati čim več različnih naglasov, tako da lahko storitve prepoznavanja govora delujejo enako dobro za vse. To pomeni, da so prispevki tujih govorcev še posebej pomembni.
 faq-why-different-speakers-q = Zakaj potrebujete toliko različnih govorcev za en jezik?
 faq-why-my-lang-q = Zakaj moj jezik še ni vključen?
+faq-what-quality-q = Kolikšna kakovost zvoka je zahtevana za posnetke, da so uporabni za nabor podatkov?
+faq-why-10k-hours-q = Zakaj je 10 000 potrjenih ur na jezik cilj za snemanje zvoka?
+faq-why-10k-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v besedilo potrebuje za učenje.
+faq-how-calc-hours-q = Kako Common Voice računa ure?
 faq-where-src-from-2-q = Od kod prihaja izvorno besedilo?
+faq-why-account-q = Zakaj naj si ustvarim račun?
 faq-is-account-public-q = Ali so podatki o mojem računu javni?
 faq-how-privacy-q = Kako zagotavljate anonimnost in zasebnost ljudi, ki so prispevali svoje glasove?
 
@@ -327,6 +340,8 @@ faq-how-privacy-q = Kako zagotavljate anonimnost in zasebnost ljudi, ki so prisp
 
 glossary = Slovar
 localization = Lokalizacija
+localization-explanation = Naš postopek prevajanja in prilagajanja vsebine za številne jezike.
+sst = Govor v besedilo (STT)
 
 ## NotFound
 
@@ -346,11 +361,6 @@ data-get-started = <speechBlogLink>Začnite s prepoznavo govora</speechBlogLink>
 data-other-title = Drugi govorni nabori podatkov ...
 data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
-data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
-data-other-ted-name = Korpus TED-LIUM
-data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
-data-other-voxforge-description = VoxForge je bil ustanovljen za zbiranje prepisov govorov za uporabo v odprtokodnih in prosto dostopnih sistemih za prepoznavanje govora.
-data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih zvočnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
 data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
@@ -372,9 +382,33 @@ review-delete-recordings = Izbriši moje posnetke
 language = Jezik
 # File size in gigabytes
 size = Velikost
+cv-license = Licenca
+audio-format = Oblika zvoka
 number-of-voices = Število glasov
+splits = Razdelitve
+email-to-download = Vnesite e-pošto za prenos
+why-email = <b>Zakaj potrebujete e-poštni naslov?</b> V prihodnje bomo morda morali stopiti v stik z vami o spremembah podatkovnega niza, e-pošta pa nam bo omogočila stik.
+confirm-size = Pripravljeni ste začeti prenos <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Strinjate se</b>, da ne boste poskušali določiti identitete govorcev v naboru podatkov Common Voice
+download-language = Prenesi { $language }
+validated-hours = Potrjenih ur
+recorded-hours = Posnetih ur
+whats-inside = Kaj je v podatkovnem nizu Common Voice?
+want-dataset-update = Želite prejemati posodobitve ob izdaji nove različice nabora podatkov Common Voice? Naročite se na naše novice.
+subscribe = Naroči se
+get-started-speech = Začnite s prepoznavanjem govora
+other-datasets = Drugi glasovni nabori podatkov
+feedback-q = Želite poslati povratne informacije?
+data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
+data-other-voxforge-description = VoxForge je bil ustanovljen za zbiranje prepisov govorov za uporabo v odprtokodnih in prosto dostopnih sistemih za prepoznavanje govora.
+data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih zvočnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
+go-discourse = Pojdi na Discourse
+missing-language = Ne vidite svojega jezika v naboru podatkov? Če želite predlagati jezik, pojdite na stran z jeziki.
+go-languages-page = Pojdi na stran z jeziki
 
 ## Download Modal
 

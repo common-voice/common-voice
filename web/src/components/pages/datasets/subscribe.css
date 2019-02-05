@@ -1,0 +1,117 @@
+@import url('../../vars.css');
+
+.dataset-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/img/datasets/email-bg.png');
+    background-size: 100% 100%;
+    color: var(--white);
+
+    @media (--md-down) {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+
+    @media (--lg-up) {
+        padding: 70px 0;
+        flex-direction: row;
+    }
+
+    & h2 {
+        font-weight: normal;
+
+        @media (--md-down) {
+            margin-bottom: 25px;
+        }
+
+        @media (--lg-up) {
+            margin-inline-end: 70px;
+            max-width: 480px;
+            font-size: 36px;
+        }
+    }
+
+    & form {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    & .labeled-form-control.for-input {
+        & .label {
+            color: #f9f9f8;
+            background: var(--near-black);
+        }
+
+        & input {
+            color: white;
+            border: 1.6px solid #f9f9f8;
+            border-radius: 2px 0 0 2px;
+            border-inline-end: 0;
+            background: transparent;
+        }
+    }
+
+    & button {
+        border: 1.6px solid #f9f9f8;
+        font-weight: normal;
+        color: #666666;
+        background: #f9f9f8;
+
+        &:disabled {
+            opacity: 1;
+            background: transparent;
+            color: white;
+
+            & path {
+                fill: #f9f9f8;
+            }
+        }
+
+        @media (--md-down) {
+            min-width: auto;
+            height: auto;
+        }
+
+        & svg {
+            transform: rotateY(180deg);
+        }
+
+        & path {
+            fill: #666666;
+        }
+    }
+
+    & .labeled-checkbox {
+        line-height: 1.5;
+        max-width: 390px;
+
+        & a {
+            text-decoration: underline;
+            color: var(--blue);
+        }
+
+        & input {
+            border: 1.6px solid #f9f9f8;
+            border-radius: 2px;
+            width: 15px;
+            height: 15px;
+            appearance: none;
+            display: table;
+            position: relative;
+
+            &:checked::after {
+                content: '✖';
+                position: absolute;
+                top: -6px;
+                left: -0.2px;
+                font-weight: 600;
+                font-size: 18.5px;
+                width: 14px;
+                height: 20px;
+                overflow: hidden;
+            }
+        }
+    }
+}

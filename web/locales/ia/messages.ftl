@@ -380,11 +380,6 @@ data-get-started = <speechBlogLink>Comenciar con le Recognition de voce</speechB
 data-other-title = Altere collectiones de datos de voce…
 data-other-goto = Ir a { $name }
 data-other-download = Discargar datos
-data-other-librispeech-description = LibriSpeech es un corpus de circa 1000 horas de anglese parlate a 16Khz derivate ab la lectura de audio-libros ab le projecto LibriVox.
-data-other-ted-name = Corpus de TED-LIUM
-data-other-ted-description = Le corpus de TED-LIUM esseva facite ab  audio e lor transcriptiones disponibile sur le sito web de TED.
-data-other-voxforge-description = VoxForge esseva create pro colliger voces transcribite a usar con motores de recognition de voce libere e open-source.
-data-other-tatoeba-description = Tatoeba es un grande base de datos de phrases, traductiones, e audio parlate a usar in apprendimento de linguas.Iste discarga contine anglese parlate registrate per lor communitates.
 data-bundle-button = Discargar le pacco del collection de datos
 data-bundle-description = Le datos de Common Voice plus tote le altere collectiones de datos vocal precedente.
 license = Licentia: <licenseLink>{ $license }</licenseLink>
@@ -433,6 +428,23 @@ dataset-description =
     Cata entrata in le collection de datos consiste solo de un MP3 e del file de texto correspondente. Multe del <b>{ $horas }</b> horas registrate in le collection de datos alsi include demographic metadatos como etate, sexo e accento, que pote adjutar a maestrar le precision del motores de recognition del voce.
     
     Le collection de datos actualmente consiste de <b>{ $horas }</b> horas validate in <b>{ $languageCount }</b> linguas, ma nos adde sempre altere voces e linguas. Perspice nostre <languagesLink>Pagina del linguas</languagesLink> pro requirer un lingua o pro initiar a collaborar.
+want-dataset-update = Desira tu le actualisationes quando nos publica un nove version del collection de datos de Common Voice? Inscribe te a nostre littera de novas.
+subscribe = Subscriber se
+get-started-speech = Comenciar con le Recognition de voce
+other-datasets = Other Voice Datasets
+feedback-q = Ha tu commentario?
+deepspeech-info = Le collection de datos de Common Voice completa motor de recognition del voce open-source de Mozilla, Deep Speech, que tu pote usar pro crear applicationes de recognition de voce. Lege nostre <githubLink>panorama GitHub</githubLink> o junge te a <discourseLink>DeepSpeech Discourse</discourseLink> pro saper como comenciar.
+common-voice-info = Ha tu questiones re Common Voice? Junge te a nostre <discourseLink>foro de Discourse</discourseLink>.
+data-other-librispeech-description = LibriSpeech es un corpus de circa 1000 horas de anglese parlate a 16Khz derivate ab la lectura de audio-libros ab le projecto LibriVox.
+data-other-ted-name = Corpus de TED-LIUM
+data-other-ted-description = Le corpus de TED-LIUM esseva facite ab  audio e lor transcriptiones disponibile sur le sito web de TED.
+data-other-voxforge-description = VoxForge esseva create pro colliger voces transcribite a usar con motores de recognition de voce libere e open-source.
+data-other-tatoeba-description = Tatoeba es un grande base de datos de phrases, traductiones, e audio parlate a usar in apprendimento de linguas.Iste discarga contine anglese parlate registrate per lor communitates.
+your-feedback = Ha tu ideas sur como nos pote render le collection de datos de Common Voice melior? Face lo nos saper sur Discourse
+go-discourse = Va a Discourse
+missing-language = Non vide tu lingua reflectite in le Collection de datos? Si tu desira lo adder, accede a nostre Pagina del linguas.
+go-languages-page = Ir al pagina del linguas
+ready-to-validate = Preste a adjutar validar phrases?
 
 ## Download Modal
 

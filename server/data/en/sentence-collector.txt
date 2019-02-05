@@ -1,0 +1,603 @@
+A Dove is a type of bird.
+A car has windows, lights, wheels... et cetera.
+A car must be regularly serviced.
+A chocolate wrapper keeps sweets fresh.
+A meal presented well is most memorable.
+A picture is worth a thousand words.
+A prenuptial agreement was signed.
+A rapper creates rap music.
+A solar flare is due within the hour.
+A sweater is known as a jumper in England.
+A thing begun is half done.
+Add some Cilantro.
+Add some coriander.
+Adrian knows how to drive.
+After the accident, they took his driving license away.
+After we slept.
+Algebra is a foundation of Machine Learning.
+Ali was wearing a bow tie.
+All good things come to an end.
+All in due time.
+All this talk is making me hungry, shall we go out for lunch?
+Always put your best foot forward.
+Alzheimer’s disease can be treated if detected early.
+Alzheimer’s disease is usually experienced by the elderly.
+Amen to that.
+Americans say gasoline and the British say petrol.
+An electrician knows how to solder.
+An ounce of protection is worth a pound of cure.
+An unusual sensation on the opposite side of my stomach.
+And you are?
+Andrew curled up in the box.
+Antarctica is cold at this time of year.
+Antibiotics help fight bacteria.
+Anything I can help you with?
+Apricot is healthy.
+Are you certain that circle is centered?
+Arthur is the employee of the month.
+Ask them.
+At your leisure.
+Australia has a diverse range of animals.
+Banana is full of potassium.
+Be careful of black ice!
+Beyond the foliage.
+Bill thought she was a little xenophobic.
+Broadband is significantly faster than dial-up internet.
+Business proposals are being considered.
+Call me in the evening.
+Can you interpret this?
+Can you tow my car?
+Cancer has claimed the lives of millions of people.
+Capillary blood vessel.
+Car body kits are often made out of fiberglass.
+Car safety maintenance should never be overlooked.
+Charles Babbage and Ada Lovelace invented the Analytical Engine.
+Cheese must be grated before being added.
+Children can be mischievous.
+Chips, cheese and peas.
+Chocolate with a caramel filling.
+Claire waited patiently.
+Claudia picked up the knife and waved it menacingly.
+Clothes are folded and placed in a drawer.
+Clothes are made to be worn.
+Commodities are sold in huge volumes.
+Consumables are the most sold items.
+Could I borrow a bit of cash?
+Craziness is doing the same thing and expecting a different result.
+Cross the stream where it is shallowest.
+Data is a vital ingredient of training machine learning models.
+Dementia is usually experienced by the elderly.
+Diphtheria requires urgent medical treatment.
+Do not cross the barbed wires.
+Do not overtake unless it is safe to do so.
+Do you drink herbal teas?
+Do you have allergies?
+Do you know how to sew clothes?
+Do you like reading physical books or digital versions?
+Do you want me to like you?
+Do you want your boss to like you?
+Doctor's write out many prescriptions for patients.
+Does this sound right to you?
+Don't forget to add Basil.
+Don't forget to add Oregano.
+Don't forget to add Pecan.
+Don’t worry, it’s easy.
+Doubt is the beginning, not the end of wisdom
+Drinking and driving is not worth it.
+Driving tests are nerve-racking.
+Economists like predicting the Economy.
+Education is a path out of poverty.
+Either way, I’m happy.
+Electric Vehicles might be practical if more investment was put into recharging infrastructure.
+Engine oil regularly needs changing.
+Every organization has a Harassment policy.
+Every person is the king of the castle in their own home.
+Everyone has a desire to be liked, it's perfectly natural.
+Everyone should have access to basic health-care.
+Excellent, just come on through to the kitchen.
+February was the coldest month of the year.
+Fibre optics enable ultra-fast internet.
+First things first.
+Follow the right exit under the bridge.
+For all intents and purposes.
+For everything, there is a season.
+Forgive and forget.
+Formula one racing is performed by highly skilled drivers.
+Fuel prices are leveling out.
+Gene analysis can be instrumental in predicting the likelihood of cancer and other diseases.
+Go the extra mile.
+Good evening ladies and gentlemen of the press.
+Good morning, I'd like to book a holiday.
+Good things come in small packages.
+Good things come to those who wait.
+Good thinking, thanks!
+Great minds think alike.
+Haste makes waste.
+Haven't you read the Highway Code?
+He chose to do the latter.
+He couldn’t stop laughing.
+He felt insulted that they didn't recognise him.
+He had a positive attitude towards life.
+He is an Expatriate.
+He is the Duke of Edinburgh.
+He lived in the city.
+He supposedly was working that day.
+He took his daily dose of vitamins.
+He tore up the tickets.
+He was driving under the influence.
+He was severely wounded.
+Her jewelery shimmered.
+Her mobile phone stopped working.
+Her waters broke so she was taken to the maternity assessment ward.
+Here comes the cavalry.
+Here, let me show you again.
+How did you produce this?
+How do I close this window?
+How do I know if I am experiencing a heart attack?
+How do you sew?
+How does my voice sound?
+How fast is your motorbike?
+I am Caucasian.
+I am Polish.
+I am a clothes sewer.
+I am a university graduate.
+I am feeling shattered.
+I am having severe chest pains.
+I am lactose intolerant.
+I ate a huge sandwich this morning.
+I bought my wife a Bouquet of flowers.
+I can't see clearly.
+I can't swim.
+I care for my elderly mother.
+I could not find the activity in my Schedule.
+I did have to cut a few corners.
+I don't want to lose this game.
+I felt unwell so I booked an appointment with the local G P.
+I have Celtic ancestry.
+I have a Hispanic background
+I have a headache.
+I have a miniature statue.
+I have an allergic reaction to this.
+I have been to Asia.
+I have never traveled by train, what is it like?
+I have previously read the book.
+I intend to read this book.
+I left it downstairs.
+I left the car at the garage.
+I looked in the mirror.
+I love athletic activities.
+I love spicy Mexican food like tortillas.
+I love you too.
+I need to mow the grass.
+I practice clinical medicine.
+I pray you will get well soon.
+I really wouldn't feel comfortable with that.
+I received a court summons this morning.
+I recoiled in horror as I opened the curtains.
+I requested collection upon delivery.
+I saw the advertisement on the way to work.
+I suffer from arthritis.
+I suffer from carpal tunnel syndrome.
+I think Mark coined that phrase first.
+I think the solution is obvious.
+I want to learn Zoology.
+I was amazed by its heavenly geometry.
+I was hoping you might be able to assist me with an acquisition.
+I was stuck in traffic all day!
+I watched the concert live.
+I will be at the triathlon.
+I will eat sea bass for dinner.
+I will now accept questions from the floor.
+I work at the hospital as a paediatrician.
+I would like to carve a wooden dolphin.
+I wound up the coil of wires.
+I'd been thinking of adding a small pond to the estate.
+I'll have a Taco, please.
+I'll have an Espresso, please.
+I'll just apply that to your order.
+I'm afraid that is in fact legal south of the river.
+I'm not having this.
+If it ain't broke, don't fix it.
+If life gives you lemons, make lemonade
+In many cases, Refugees were highly educated professionals in their former home nation.
+Is it economical?
+Is it gluten-free?
+Is this some sort of test?
+Isn’t that name a bit authoritarian?
+It became immediately apparent this was an affluent area.
+It contains Zucchini.
+It contains courgette.
+It doesn't matter now.
+It is a moot point.
+It is an abandoned Quarry.
+It is an ephemeral video.
+It is an unknown entity.
+It is easy to lose traction while driving over ice.
+It is entirely your prerogative.
+It is my great privilege to pronounce you husband and wife.
+It is necessary to be cordial when dealing with guests.
+It is probably going to rain tomorrow.
+It is upstairs.
+It made me dizzy.
+It still doesn’t sound very vegetarian.
+It was a blessing in disguise.
+It was a deep, dark and desolate place.
+It was a gaping wound.
+It was a rehashed movie that was already quite bad.
+It was essential that we stopped for coffee.
+It was impossible to see clearly through the mist.
+It was refreshing to sit in the cool breeze.
+It wasn't to be.
+It weighed more than the recommended limit.
+It won't be cheap, I take that isn't a concern?
+It would be futile for a beginner to challenge a grandmaster.
+It's a brave new world.
+It's just a camera, take a closer look and you'll see for yourself.
+It's the tip of the iceberg.
+It's way too late to go out now.
+Italian Pasta is delicious.
+It’s for the greater good, you have to make sacrifices.
+I’d sell my soul to be able to play better than him.
+I’m never going to get the hang of this.
+I’ve got an extra large meat lover’s pizza, without the meat?
+Jacqueline has an ulcer on her bottom lip.
+Jason trained intensely to be the fittest he could be.
+Jennifer was distraught.
+Jenny reminded us that politics is still news.
+Jenny went to Italy last year.
+Just a little light digging.
+Just sign right here and I’ll have that all squared away for you.
+Kids love Yogurt.
+Lactose intolerance is caused by a lactase enzyme deficiency.
+Laughter echoed through the circus.
+Laughter is the best medicine.
+Law and order to maintain the peace.
+Learn to walk before you run.
+Less is more.
+Let's have a Gourmet meal.
+Let's not focus on the Minutiae details.
+Lets just get the shot.
+Let’s grab a snack bag.
+Linear Regression, Calculus, Algebra, Bayesian statistics are ingredients of Machine Learning.
+Listen to my voice and think carefully.
+Machine Learning can be used to predict and mitigate natural disasters.
+Mankind must preserve the environmental ecosystem that sustains it.
+Many people enjoy the taste of pickle.
+Margarine is an alternative to butter.
+Mark the area of water with a buoy.
+Masonry paint keeps the walls in good condition.
+Mathematics is the language of reality.
+Max is a fully qualified veterinarian.
+Maybe later.
+Maybe we should circle back round to that barbecue idea?
+Mayonnaise is an ideal condiment to Fries.
+Midnight walks under the moon are beautiful.
+Mike got ordained on the internet last week.
+Miss it! Miss Out!
+My daughter revealed her secret.
+My daughter wants to begin ballet classes.
+My joints are aching.
+My son listens to hip-hop and rap music.
+Narrate to me this page.
+Neither of these.
+New Orleans is recovering from a hurricane.
+New York City is a bustling metropolis.
+Nissan manufactures cars.
+No need to take that tone sir.
+No need, I ordered take away, it should be here soon.
+No, Aliens won't take over.
+Nothing is more refreshing than the smell of coffee in the morning.
+Nuclear power will soon be replaced by solar power.
+Of course, I’ll be there!
+Of course, and what would sir be looking for today?
+Oh No! I dropped my wallet!
+Okay, I think I can do that.
+Okay, hand it here.
+Online Education has become accessible and is growing in popularity.
+Open source culture has facilitated the progress of technology at an astonishing pace.
+Open source technology means people don't need to keep reinventing the wheel.
+Orient the table in the direction of the east wall.
+Our aunt is visiting this weekend.
+Our genetics define our appearances and traits. Our experiences define who we are.
+Performers, take a bow!
+Petrol and Diesel engines are going the way of the dodo.
+Please be careful with the fragile ornament.
+Please excuse me.
+Please find attached the consignment number of your order.
+Please mute the sound.
+Please offer your points and perspectives.
+Please specify the service provider.
+Potato is full of carbohydrates.
+Press escape to return.
+Press the asterisk key after the tone.
+Prevention is better than cure.
+Punctuality was not something he is known for.
+Reaching the peak of the mountain was an exhilarating experience.
+Reckless driving is the cause of many fatalities.
+Reduce, Reuse, Recycle for a better planet.
+Refugees are normal people who have been displaced due to natural disaster or conflicts
+Refugees are vulnerable people.
+Regardless of the setback, the project continued.
+Remember to draw your assumptions, before conclusions.
+Residents must register with the electoral register to be eligible to vote.
+Right, lets try these new skills out!
+Rob and Bob went bowling.
+See you Tuesday!
+See! You’re better than Bruce now.
+Separate the yolk from the egg.
+She coughed heavily and then sighed.
+She feigned offense at every opportunity.
+She had a bad cough.
+She has my utmost respect.
+She is an Athlete.
+She loved the color mauve.
+She passed her driving test on her first attempt.
+She sat across the room.
+She wrapped the presents beautifully.
+Sherbet is sweet.
+Show me relevant results.
+Silicon Valley is a hub of tech talent.
+Slice the aubergine.
+Slow down!
+Slowly but surely.
+So we could have some respite.
+So, what now?
+Soccer is known as Football in England.
+Some plastics consist of composite materials.
+Sow the seeds firmly in the ground.
+Speeding increases the risk of car accidents.
+Steel is easily recyclable.
+Steel is widely recycled.
+Stephen unraveled the bandage carefully.
+Stick the stamp on the envelope.
+Storms are predicted across the Pacific Ocean.
+Sure, just grab whatever you need.
+Tack this picture to the wall.
+Technology can augment the physical capabilities of humans.
+Technology can enable disabled people to become physically capable and independent.
+Technology plays a vital role in reaching people following natural disasters.
+Tell me the composition of this material.
+Thankfully the autonomous car detected the obstruction and avoided a collision.
+That animal is a Zebra.
+That is not my forte.
+That really doesn't seem appropriate.
+That was a rough ride.
+That wasn't in the script.
+That's a rather specialised item, are you certain it's what your wife would enjoy?
+That's no way to speak to your wife.
+That's ridiculous, we're just filming a commercial.
+That’s interesting, I’m actually an animal rights campaigner.
+The Arctic is cold.
+The Beta version will be released soon.
+The Duodenum is part of the small intestine.
+The Gala was fun.
+The Heimlich manoeuvre is a lifesaving first aid technique.
+The Java programming language makes use of parentheses characters.
+The Military will adhere to international laws and standards.
+The Oncologist outlined a treatment plan for the cancer patient.
+The Realtor will arrive soon.
+The accounts have discrepancies.
+The accounts were up to date.
+The assailant was caught.
+The baby felt a breeze of wind and awoke.
+The battery ran out.
+The bright red flowers multiplied and covered the south bank.
+The can was made out of aluminium.
+The car drove smooth and quiet.
+The car was made of lightweight Carbon Fibre.
+The car was semi-autonomous.
+The cheese omelette was burned badly.
+The clothes were torn.
+The coast guard rescued passengers of a sinking vessel.
+The coastline is eroding at an accelerating rate.
+The computer threw spurious errors.
+The correct pronunciation is.
+The couple had a row last night.
+The dancer made simultaneous movements.
+The device has a gyro motor.
+The dog ate my homework.
+The dog became docile after eating food.
+The door closed.
+The drawer drew a lifelike image of the man.
+The engine arrived on a pallet.
+The engine will be sent via palletized delivery.
+The envelope had already been opened.
+The evolution of computer science has transformed the world.
+The excessive heat evaporated nearly all the water.
+The eyes dilated.
+The falcon watched its prey.
+The federal court.
+The flight to Australia was long.
+The floor was wet.
+The fog was dense and impenetrable to light.
+The founder of the company.
+The frog hopped around.
+The girl smiles.
+The glass shattered.
+The grass is greener where you water it.
+The headlights of the oncoming traffic were too bright.
+The house was built using concrete.
+The house was divided into sections.
+The hydro-electric dam generates cheap electricity for the community.
+The issued affidavit was received.
+The items may vary in price.
+The kids played with their grandparents.
+The kids promised not to steal anything.
+The ladder reached the second floor.
+The lamp shone brightly and lit up the whole room.
+The larynx is part of the throat.
+The lease is due to expire.
+The library contains vast amounts of knowledge.
+The long-lived bridge still stands today.
+The majority of the human body consists of water.
+The material may tear if tugged excessively.
+The motor has failed.
+The motorway was deadlocked.
+The museum had a rare Vase.
+The musical chorus kicked in.
+The nation of France invented croissants.
+The network administrator resolved the connectivity issue of the router.
+The papers were graded.
+The paperwork was legible.
+The party denied foul play and aggressively defended their position.
+The pasta was piping hot and burnt my tongue.
+The patent application was submitted.
+The pen is mightier than the sword.
+The pen's ink leaked into the bag.
+The pneumatic drill rattled uncontrollably.
+The project is complete.
+The project was short-lived.
+The purple heart was blazing with fire.
+The questionnaire is too simplistic.
+The reflection on the ice was distorted.
+The region is known for its fertile land.
+The rotor spun at incredible speeds.
+The score is deuce.
+The seagull dove into the river and caught a fish.
+The shepherd protected his flock of sheep.
+The shipwreck was buoyed off the coast.
+The shoelace became loose.
+The shop is close by.
+The smell of chicken curry made his mouth water in anticipation.
+The squeaky wheel gets the grease.
+The squirrel ran up the pine tree in a spiral.
+The student quit school, ostensibly due to financial problems.
+The table was displayed in a structured hierarchy.
+The tall gate was made from wrought iron.
+The tenant always paid his rent on time.
+The tiny lamb bleated softly.
+The tires became bald from heavy usage.
+The tracking reference did not work.
+The vendor will provide further details.
+The video is non-ephemeral.
+The wedding day was the best day of his life.
+The windscreen of the car became iced up overnight.
+The wrench cracked and shattered.
+The writing was illegible.
+The youth have time but no money and adults have money but no time.
+Then we’d be part of the problem.
+There are many regions that lack potable water.
+There are many types of Reptile.
+There are no tricks here.
+There is a lot of Literature on this subject.
+There is a precedence.
+There is an increasing number of people being internally displaced due to climate change.
+There is no excuse for tardiness.
+There is no place like home.
+There is no time like the present.
+There was a hole in the carpet.
+There was a tear on her eyes.
+There was dew in the area.
+There was no surprise.
+There were eight people in a row.
+There were many routes, the sat-nav picked the fastest one.
+These are a chest of drawers.
+These are conventional methods.
+These are insect Larvae.
+These are memories of another era.
+They conquered their fear.
+They doubled the height.
+They sneaked into the cinema.
+This design will be too expensive.
+This fiscal year.
+This is a quick start primer.
+This is a safe place.
+This is a stub page.
+This is a tenet of the software pattern.
+This is a toilet sewer drain pipe.
+This is an ancient film.
+This is domestic produce.
+This is for company use only.
+This is non-conventional.
+This is the strongest candidate for the role.
+This is your personal hotel suite.
+This path will lead you to your destination.
+This should whet your appetite.
+This young boy is a total genius.
+Time and tide wait for no man.
+Time flies.
+Time is a great healer.
+To inspire, we need to work diligently.
+Tomato Risotto.
+Tortilla chips are tasty.
+True heroes don't profit from the suffering of others.
+Tuna is expensive.
+Tuna tastes great with bread.
+Turn off the lights.
+Turn up the bass.
+Untreated sewage would pollute the rivers.
+Use butter moderately.
+Use this cream sparingly.
+Vegetable produce is a vital export for many countries.
+Very well, will that be all?
+Volunteer Medical workers save many lives by giving vulnerable people health-care access
+Volunteers are the backbone of non-governmental humanitarian aid organizations.
+Warm Croissant tastes better.
+Warning! Obstruction ahead.
+Water tastes different regionally.
+We are caught up in our lives while growing older.
+We are now headquartered in the Republic of Ireland.
+We are the proud parents of three children.
+We began saving up for our first home.
+We can polish your car for ten pounds.
+We can't undo our mistakes.
+We could be liable.
+We have all denominations of currency.
+We have also optimised our supply chain.
+We perspire when we feel too hot.
+We provide a premier service.
+We regularly see advertisements while browsing online.
+We see the best in humanity when we help each other.
+We should not take for granted how fortunate we have been.
+We spoke often.
+We were lost, so Nate asked for directions.
+We will continue to pursue the criminal until he is apprehended.
+We will focus on this niche market.
+We will leave in twenty minutes.
+We will name the ship Aegis.
+We work hard, so our children don't have to.
+We're losing light, we'll deal with it later.
+We're out of sellotape.
+Websites must respect the privacy of its users.
+Welcome to my house.
+Welcome to our research Laboratory.
+What a strange mauve colour!
+What are the pros and cons?
+What can I do about my headache?
+What can the world do to leave a smaller carbon footprint?
+What do kangaroos like to eat?
+What do you think of this Tune?
+What is homeopathic medicine?
+What is it like to be a passenger in an autonomous car?
+What is the best route to my destination?
+What is the height, length and width of the container?
+What is your progress?
+What is your recipe?
+What is your stance on this?
+What kind of herb this is?
+What number is this?
+What sort of things are you interested in?
+What would you have us called?
+What's it like to live in a virtual world?
+When my child was born, I was in tears.
+When will you graduate?
+Where can we find fish fillet?
+Where is the closest bathroom?
+Where one door shuts, another opens.
+Where there's a will, there's a way.
+Which version do you have?
+Who is the oldest person alive?
+Why do I feel light-headed?
+Why do you feel you need to make them happy?
+Why does that plane keep going over?
+Why does this tyrannosaurus rex feel sticky?
+Wind up the coil of wires.
+Word wrap formatting helps text documents read clearer.
+Would you like to eat a Scone?
+Yes, and if people would stop interrupting we could get it finished.
+Yes, that would do nicely.
+You are never too old to learn.
+You can't seriously expect me to go through with this?
+You have many herbs in this garden.
+You're positive it's what you're looking for?
+Your payment is due.

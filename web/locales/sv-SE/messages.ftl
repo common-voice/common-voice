@@ -395,11 +395,6 @@ data-get-started = <speechBlogLink>Kom igång med taligenkänning</speechBlogLin
 data-other-title = Andra röstdatamängder…
 data-other-goto = Gå till { $name }
 data-other-download = Ladda ner data
-data-other-librispeech-description = LibriSpeech är ett korpus på cirka 1000 timmar av 16Khz inläst från engelska ljudböcker från LibriVox-projektet.
-data-other-ted-name = TED-LIUM korpus
-data-other-ted-description = TED-LIUM-korpuset gjordes av föredrag och deras transkriptioner tillgängliga från TED-webbplatsen.
-data-other-voxforge-description = VoxForge skapades för att samla transkriberat tal för användning med fria och öppna språkigenkänningsmotorer.
-data-other-tatoeba-description = Tatoeba är en stor databas med meningar, översättningar och talat språk för användning i språk inlärning. Denna nerladdning innehåller pratad engelska inspelad av/från deras gemenskap.
 data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
 license = Licens: <licenseLink>{ $license }</licenseLink>
@@ -448,6 +443,23 @@ dataset-description =
     Varje post i datamängden består av en unik MP3 och motsvarande textfil. Många av de <b>{ $hours }</b> inspelade timmarna i datamängden innehåller även demografiska metadata som ålder, kön och accent som kan hjälpa till att träna noggrannheten för taligenkänningsmotorer.
     
     Datamängden består för närvarande av <b>{ $hours }</b> validerade timmar på språk i <b>{ $languageCount }</b> men vi lägger alltid till fler röster och språk. Ta en titt på vår <languagesLink>Språk sida</languagesLink> för att begära ett språk eller börja bidra.
+want-dataset-update = Vill du ha uppdateringar om när vi släpper en ny version av Common Voice-datamängd? Prenumerera på vårt nyhetsbrev.
+subscribe = Prenumerera
+get-started-speech = Kom igång med taligenkänning
+other-datasets = Andra röstdatamängder
+feedback-q = Har du feedback?
+deepspeech-info = Common Voice-datamängd kompletterar Mozillas taligenkännande motor Deep Voice (öppen källkod), som du kan använda för att bygga taligenkänningsprogram. Läs vår <githubLink>Github-översikt</githubLink> eller gå med i <discourseLink>DeepSpeech Discourse</discourseLink> för att lära dig hur du kommer igång.
+common-voice-info = Har du frågor om Common Voice? Gå med i vårt <discourseLink>Discourse forum</discourseLink>.
+data-other-librispeech-description = LibriSpeech är ett korpus på cirka 1000 timmar av 16Khz inläst från engelska ljudböcker från LibriVox-projektet.
+data-other-ted-name = TED-LIUM korpus
+data-other-ted-description = TED-LIUM-korpuset gjordes av föredrag och deras transkriptioner tillgängliga från TED-webbplatsen.
+data-other-voxforge-description = VoxForge skapades för att samla transkriberat tal för användning med fria och öppna språkigenkänningsmotorer.
+data-other-tatoeba-description = Tatoeba är en stor databas med meningar, översättningar och talat språk för användning i språk inlärning. Denna nerladdning innehåller pratad engelska inspelad av/från deras gemenskap.
+your-feedback = Har du idéer om hur vi kan göra Common Voice-datamängd bättre? Låt oss veta på Discourse
+go-discourse = Gå till Discourse
+missing-language = Återspeglas inte ditt språk i datamängden? För att begära ett språk, gå till vår språksida.
+go-languages-page = Gå till språksidan
+ready-to-validate = Är du redo för att hjälpa till att validera meningar?
 
 ## Download Modal
 
