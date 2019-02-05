@@ -1,21 +1,58 @@
 " la Dalila " continuaba anclada bajo el Castillo de Ulua ,
 " la Dalila " quizá permanezca en el puerto :
+A Dios rogando y con el mazo dando.
+A Dios, al padre y al maestro, tenga el niño gran respeto.
+A buen caballo buen jinete.
+A buen entendedor, pocas palabras bastan.
+A buen hambre no hay pan duro.
+A caballo corredor y hombre reñidor, poco les dura el honor.
+A caballo muerto, la cebada al rabo.
+A caballo que vuela, ¿para qué la espuela?
+A caballo regalado no le mires el dentado.
+A cada cerdo le llega su San Martín.
+A camino largo, paso corto.
+A carne de lobo, diente de perro.
+A comer, beber, bailar y gozar que el mundo se va acabar.
 A decir verdad , eres demasiado genial .
+A dineros pagados, brazos cruzados.
+A enfermo, niño o anciano, hay que tenderles la mano.
 A ese grupo de amigos les gusta comer helados por la tarde.
+A falta de caballos que troten los asnos.
+A falta de hombres buenos, a mi padre hicieron alcalde.
+A falta de pan, buenas son tortas.
+A grandes males, grandes remedios.
+A la cama no te irás sin saber una cosa más.
+A la cara más fea, la alegría la hermosea.
+A la chita callando, hay quien se va aprovechando.
 A las cuatro de la madrugada se ha disparado la alarma.
 A las diez comienza la carrera.
+A lo pasado, no hay consejo ninguno.
+A mal tiempo, buena cara.
+A mala cama, colchón de vino.
 A media conferencia ya pesaba higos.
 A mi amiga Sara, le acaban de robar la mochila.
 A mi me gustan mucho los perros.
 A mi profesora le importa demasiado la gramática y muy poco el contenido.
+A mucho amor, mucho perdón.
+A más beber, menos comer.
 A nadie le gustan los mosquitos.
 A nosotros no nos gusta que nos hagan explotar .
+A palabras necias, oídos sordos.
 A partir de mañana por la tarde bajarán las temperaturas.
+A perro viejo, no hay quien le enseñe trucos nuevos.
 A quien madruga, dios le ayuda.
+A quien mucho miente, le huye la gente.
+A quien no le sobra pan, no críe can.
+A quien trabaja, el día nunca le parece largo.
+A río revuelto, ganancia de pescadores.
 A salvar el día .
+A sereno otoño, invierno ventoso.
 A todos nos irá bien descansar.
+A toro pasado todos somos Manolete.
 A través de las montañas llegaremos a Francia.
+A un ciego, mal se puede mostrar un camino.
 A un sueño que pronto terminó .
+A veces los buenos nadadores se ahogan, y los mejores jinetes caen del caballo.
 A veces somos un poco derrotistas.
 A veces sueño que me caigo de la cama.
 A ver cuando ordenas la habitación.
@@ -23,17 +60,29 @@ A ver si nieva esta noche.
 A ver si quedamos un día para el almuerzo.
 A ver si se saca el carnet de conducir.
 A ver, ¿tú me escuchas cuando hablo?
+Abogado en el concejo hace de lo blanco negro.
+Abogado joven, pleito perdido.
+Abogado, juez y doctor, cuanto más lejos, mejor.
 Abre la vitrina y coge la figura indicada.
+Abril frío, poco pan y poco vino.
 Abrir el archivo de texto y corregirlo.
 Abrígate, que hace frío.
+Aburrirse, es besar a la muerte.
 Acaba de pasar el metro.
 Acaban de llegar Carla y Virginia.
 Acabo de ver un jabalí cruzar por el paso de cebra.
+Aceite abundante, buen año por delante.
 Adela me trae de cabeza y me he enamorado.
 Adiós , amigos míos . Voy a un lugar mejor .
 Adiós , mis amigos . Voy a un sitio mejor .
 Adiós, ¡cara bonita!
+Adonde el corazón se inclina, el pie camina.
+Adonde va la gente, va Vicente.
 Agente de la ley local . Era hora que viniera .
+Agua corriente no mata a la gente.
+Agua que no has de beber, déjala correr.
+Agua y luna, tiempo de aceitunas.
+Ahogado el niño, tapan el pozo.
 Ahora , gracias todos por su amable bienvenida .
 Ahora , la entrada está fuertemente custodiada . Necesitamos una forma de entrar .
 Ahora , lo más delicado .
@@ -57,13 +106,31 @@ Ainhoa Montero . se lo damos luego .
 Ainhoa se acaba de marchar , la enfermedad ...
 Ainhoa se merece ser feliz .
 Ainhoa y yo estamos juntos . pues has aguantado mucho ,
+Ajo, cebolla y limón y déjate de inyección.
 Al alguacil local y yo parecemos estar en algún tipo de estación de combustible .
+Al amigo y al caballo, no hay que cansarlos.
+Al buen entendedor, pocas palabras bastan.
+Al buen pagador no le duelen prendas.
+Al caballo más manso le ponen más montura.
+Al caballo, antes de ponerle freno, hay que darle educación.
 Al cable guía . Material de ignición preparado .
 Al final no he podido leer el periódico.
+Al mal trabajador no le viene bien ningún azadón.
 Al menos podrías haber dejado la galleta.
+Al pan, pan y al vino, vino.
+Al perro que duerme, no lo despiertes.
+Al perro y al gato no les pongas en el mismo plato.
+Al que al cielo escupe, en la cara le cae.
+Al que asa dos conejos a la vez, uno se le quema.
+Al que entre la miel anda, algo se le pega.
+Al que madruga Dios le ayuda.
+Al saber lo llaman suerte.
+Alcalde tonto, sentencia pronto.
 Alguacil , puedo ver su morada desde aquí . Ya casi está en casa .
 Alguien ha envenenado el charco .
 Algunas frases están mal hechas.
+Amor por interés, se acaba en un dos por tres.
+Amores reñidos son los más queridos.
 Anoche tuve un sueño muy extraño.
 Ante casa cada día hay más contenedores.
 Aplique el producto directamente sobre la frente.
@@ -1408,6 +1475,7 @@ Son las tres y aún no he dormido nada.
 Son unas zapatillas de fútbol sala.
 Sonia siempre quiere mandar.
 Sonríes, escapando entre mis dedos, como el viento
+Soplar y sorber, no puede ser.
 Soy el único que tiene información que revela la única debilidad de esta arma .
 Soy sólo un juguete . Un estúpido insignificante y pequeño juguete .
 Soy yo el que debería estar en ese cohete .
@@ -1423,6 +1491,7 @@ Su padre hacía de camello y su madre de mula.
 Su primo es juez.
 Su sueño era regentar una taberna.
 Subamos atrás . Ahí no nos verá nadie .
+Suegros, ricos y tacaños, no se mueren ni en cien años.
 Surgió ese tipo en su cohete
 Sus piernas parecían las columnas del Partenón.
 Susana batió el récord de atletismo de la escuela esta mañana.
@@ -1442,12 +1511,15 @@ Sólo quiero hablar contigo un minuto.
 Sólo recuerda lo que tu viejo amigo dijo .
 Sólo tenemos una semana antes de la mudanza .
 Tantas mentiras acaban pasando factura.
+Tanto tienes, tanto vales.
+Tanto va el cántaro a la fuente que al fin se rompe.
 Tarragona y Girona no son nada provincianas.
 Te burlas de mí , ¿ no ?
 Te estas poniendo ofensivo , ¿ no es cierto ?
 Te felicito . Alguien menos fuerte hubiese hablado bajo tal tortura .
 Te recomiendo un parche de hierbas.
 Te refrescarás con un Aquarius de naranja.
+Te vendrán pesares sin que los buscares.
 Ten cuidado . No querrás que te alcance mi láser .
 Ten cuidado al cruzar la calle.
 Ten cuidado con eso .
@@ -1455,6 +1527,7 @@ Ten cuidado con eso . Es sumamente peligroso .
 Ten cuidado con las escaleras, están recién fregadas.
 Tendremos que hacer un ensayo extra.
 Tendré que realizar una de mis operaciones .
+Tenemos dos ojos para ver mucho y una boca para hablar poco.
 Tenemos muchas ganas de veros.
 Tenemos que acabar el trabajo ya.
 Tenemos que aprender a pensar por nosotros mismos.
@@ -1463,6 +1536,7 @@ Tenemos que mirar los servicios mínimos.
 Tenemos que poner en marcha esta caravana .
 Tenemos que salir de aquí ahora .
 Tenemos un paciente , enfermera .
+Tener la boca cerrada, vale mucho y cuesta nada.
 Tengo algo para ti . ¡ quietos !
 Tengo ciento cuarenta y ocho mensajes de correo para abrir.
 Tengo demasiada hambre para ir a montar en bici ahora.
@@ -1482,6 +1556,7 @@ Tenía un vacío inmenso en la barriga y no era de hambre.
 Tenía un yerno informático y una joven ingeniera.
 Teníamos tantos planes.
 Terminó teniendo gemelos.
+Tiempo pasado siempre es deseado.
 Tiene cara de buena persona.
 Tiene más chismes que una navaja suiza .
 Tiene que haber otra salida .
@@ -1498,15 +1573,21 @@ Todo era silencio, no se sentía ni un alma.
 Todo ese campo está lleno de pinos.
 Todos al salón . Es la hora de dar los regalos .
 Todos los cambios se han guardado
+Todos los caminos llevan Roma.
 Todos los demás ya estaban escogidos .
 Todos los días contigo y ahora todos sin ti.
 Todos los niños nacen artistas. El problema es cómo seguir siendo artistas al crecer.
 Todos los papeles de envolver están arrugados.
 Tomaré leche con galletas.
+Trabaja como si vivieres siempre y vive como si murieses hoy.
 Trabaja en la Agencia Catalana del Agua, Iván.
 Trabajaba en la oficina del fiscal.
+Trabajar es virtud; pero trabaja tú.
+Trabajas menos que la chaqueta de un guardia.
+Trabajo de común, trabajo de ningún.
 Tranquilo . Todo está bajo control .
 Tranquilos , saben hacer su trabajo .
+Tronada lejana, lluvia cercana.
 Tu escafandra hace eso ... Eso tan espectacular .
 Tu hija me ha pedido amistad en Facebook.
 Tus amigos van a estar aquí en cualquier momento . ¡ ok !
@@ -1524,20 +1605,24 @@ Ulises , lanzarnos al mar es como ...
 Ulises , por favor .
 Ulises , ven . mira esto .
 Ulises . ¡ Ulises , no ! ¡ no !
+Un abismo llama a otro y un pecado a otro pecado.
 Un buen cartel incluiría los Gansos Grasas.
 Un buen soldado jamás abandona a sus hombres .
 Un candidato demasiado joven no nos conviene.
 Un concurso literario es, siempre, una esperanza.
+Un dedo no hace mano, pero sí con sus hermanos.
 Un dibujo autografiado por Dalí puede valer muchos euros.
 Un edificio bien diseñado no debería tener estos problemas.
 Un entorno limpio y ordenado favorece la salud mental.
 Un fracaso tan grande poco que nos lo imaginábamos.
+Un grano no hace granero, pero ayuda al compañero.
 Un homenaje a Cabré era más que necesario.
 Un minuto . Sólo prendí el cohete .
 Un momento , hay una pequeña por allí . ¡ hola !
 Un momento . Ser un juguete es mucho mejor que ser un guardián espacial .
 Un momento . ¡ oh , no !
 Un musical como El Rey León no gusta a todo el mundo.
+Un médico cura, dos dudan y tres muerte segura.
 Un parque como el de Terramar es un privilegio.
 Un presupuesto tan ajustado nos arruinará.
 Un ratón se coló en mi casa el mes pasado.
@@ -1545,17 +1630,28 @@ Un rincón como este no se encuentra todos los días.
 Un sátiro, me pareció.
 Un técnico se pondrá en contacto con usted para solucionar el problema
 Un vidrio roto, pisó.
+Una aceituna por San Juan, ciento por Navidad.
+Una buena capa todo lo tapa.
+Una cosa es predicar y otra dar trigo.
 Una declaración de principios es exigible, en este caso.
 Una figura emergente nos eclipsará enseguida.
 Una imagen vale más que mil palabras.
+Una manzana cada día, el médico te ahorraría.
+Una palabra deja caer una casa.
 Una pantalla de marca buena nunca falla.
+Una retirada a tiempo es una victoria.
 Uno de enero, dos de febrero, tres de marzo, cuatro de abril.
+Uno levanta la caza, y otro la mata.
 Unos decían nabos y los otros decían coles.
+Unos nacen con estrella y otros nacen estrellados.
+Unos tienen la fama y otros cardan la lana.
+Uvas con queso saben a beso.
 Va a volar en pedazos dentro de unos minutos ,
 Va bastante bien con su cabeza .
 Va, que nos zampa un bocadillo de salchichas.
 Va, reíd un poco, muy bien, ¡así!
 Vaciar la papelera de reciclaje.
+Vale más caer en gracia, que ser gracioso.
 Valeria . Valeria .
 Valeria quiere un hermanito . un hermanito .
 Vamos , arreemos al ganado .
@@ -1575,8 +1671,10 @@ Ven . ¿ sabes cómo se sale de aquí ?
 Ven con nosotros.
 Ven en el huerto, Marina, que te quiero enseñar el sistema de riegos.
 Vendrá una ola de frío severa.
+Vendrán por lana y saldrán trasquilados.
 Vengo en son de paz . Dígame como es el exterior .
 Venía linternas de leds.
+Veraneando, se va el tiempo volando.
 Verás , no ha sido nada .
 Verás que es nuestro destino .
 Viene el nirvana . El portal místico aguarda .
@@ -1588,6 +1686,7 @@ Vilma , lo que quiero decir es que lo nuestro es
 Vilma , no te vayas .
 Vilma , por favor .
 Vilma , puedes , claro que puedes confiar .
+Virtudes vencen señales.
 Visto en perspectiva, tú y yo no nos deberíamos haber casado.
 Vive rodeado de gatos y perros que recoge de la calle.
 Vivía en la cima del mundo , era el rey
@@ -1632,6 +1731,7 @@ Yo pude haberlo detenido .
 Yo quiero dos cortes.
 Yo soy quien debería estar atado a ese cohete .
 Yo también te quiero .
+Zapato que aprieta, otro se lo meta.
 a Caperucita , al final de la obra el cazador
 a Valeria a lo mejor , pero a Ainhoa ,
 a doce horas de tierra a vuelo de pato .
@@ -5813,6 +5913,8 @@ yo ya no puedo estar contigo .
 ¿Dónde estudiaste?
 ¿Dónde hacen cursos de catalán?
 ¿Dónde has guardado el peine?
+¿Dónde tiene mi niño lo feo?, ¡que no lo veo!
+¿Dónde vas Vicente?, donde va la gente.
 ¿El cerebro de la derecha es el del señor Ambrosio?
 ¿Encargamos una pizza?
 ¿Entramos en el mar?
