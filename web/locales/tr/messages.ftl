@@ -336,11 +336,6 @@ data-get-started = <speechBlogLink>Konuşma tanımayı keşfedin</speechBlogLink
 data-other-title = Diğer ses verisi kümeleri…
 data-other-goto = { $name } sitesine git
 data-other-download = Verileri indir
-data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
-data-other-ted-name = TED-LIUM Korpusu
-data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur.
-data-other-voxforge-description = VoxForge, Özgür ve Açık Kaynaklı Konuşma Tanıma Motorları ile kullanım için okunmuş metinler toplamak üzere kuruldu.
-data-other-tatoeba-description = Tatoeba, dil öğrenmede kullanılmak üzere geniş bir cümle, çeviri ve konuşma veritabanıdır. Bu dosya, Tatoeba gönüllüleri tarafından kaydedilen İngilizce konuşmaları içerir.
 data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 license = Lisans: <licenseLink>{ $license }</licenseLink>
@@ -365,6 +360,15 @@ size = Boyut
 cv-license = Lisans
 audio-format = Ses biçimi
 email-to-download = İndirmek için e-postanızı yazın
+size-gigabyte = GB
+size-megabyte = MB
+download-language = { $language } indir
+subscribe = Abone ol
+data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
+data-other-ted-name = TED-LIUM Korpusu
+data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur.
+data-other-voxforge-description = VoxForge, Özgür ve Açık Kaynaklı Konuşma Tanıma Motorları ile kullanım için okunmuş metinler toplamak üzere kuruldu.
+data-other-tatoeba-description = Tatoeba, dil öğrenmede kullanılmak üzere geniş bir cümle, çeviri ve konuşma veritabanıdır. Bu dosya, Tatoeba gönüllüleri tarafından kaydedilen İngilizce konuşmaları içerir.
 
 ## Download Modal
 
