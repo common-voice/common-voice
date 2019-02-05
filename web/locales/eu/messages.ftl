@@ -386,11 +386,6 @@ data-get-started = <speechBlogLink>Ikasi hizketaren ezagutzari buruz</speechBlog
 data-other-title = Beste ahots datu-sortak...
 data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
-data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
-data-other-ted-name = TED-LIUM corpusa
-data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
-data-other-voxforge-description = VoxForge transkribatutako hizketak biltzeko sortu zen, hizketaren ezagutza motor libreek erabiltzeko.
-data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek ,bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabaketen audioak dauzka.
 data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
@@ -434,6 +429,18 @@ download-language = Deskargatu { $language }
 validated-hours = Balioztatutako orduak
 recorded-hours = Grabatutako orduak
 whats-inside = Zer dago Common Voice datu-sortaren barnean?
+subscribe = Harpidetu
+get-started-speech = Ikasi hizketaren ezagutzari buruz
+other-datasets = Beste ahots datu-sortak
+feedback-q = Zerbait komentatu nahi diguzu?
+data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
+data-other-ted-name = TED-LIUM corpusa
+data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
+data-other-voxforge-description = VoxForge transkribatutako hizketak biltzeko sortu zen, hizketaren ezagutza motor libreek erabiltzeko.
+data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek ,bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabaketen audioak dauzka.
+go-discourse = Joan Discourse-ra
+go-languages-page = Joan hizkuntzen orrira
+ready-to-validate = Esaldiak baliozkotzen laguntzeko prest?
 
 ## Download Modal
 

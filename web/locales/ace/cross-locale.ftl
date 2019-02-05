@@ -10,4 +10,5 @@ get-involved-email =
 get-involved-opt-in = Nyo, peuét surat-e keu lôn. Lôn meuh'eut geubri thèe bhaih haba bahsa nyoe lam Common Voice.
 get-involved-submit = Peuét
 get-involved-stayintouch = Kamoe bak Mozilla mupeudöng komunitas bhaih tèknologi su. Kamoe meuh'eut beu teutap meuhubông ngön hasé pubarô, nè data barô,  ngön pakriban neungui data nyoe.
+get-involved-privacy-info = Kamoe meujanji keu meuuroh informasi droeneuh ngön göt. Neubeuet leubèh le lam <privacyLink>Bri Thèe Pribadi</privacyLink>.
 get-involved-return-to-languages = Gisa u Bahsa

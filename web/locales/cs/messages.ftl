@@ -236,8 +236,6 @@ english = Angličtina
 
 profile-form-username =
     .label = Uživatelské jméno
-profile-form-language =
-    .label = Jazyk
 profile-form-accent =
     .label = Přízvuk
 profile-form-age =
@@ -328,11 +326,6 @@ faq-why-10k-hours-q = Proč je cílem pro nahrávání zvukových záznamů zrov
 faq-why-10k-hours-a = Je to počet hodin potřebných k natrénování produkčního systému pro převod hlasu na text.
 faq-how-calc-hours-q = Jak projekt Common Voice počítá nahrané hodiny?
 faq-how-calc-hours-a = Celkovou nahranou dobu počítáme odhadnutím průměrné délky audio záznamu, kterou vynásobíme celkovým počtem audio záznamů.
-faq-where-src-from-q = Odkud pochází čtené texty?
-faq-where-src-from-a =
-    Čtené texty jsou tvořeny originálními příspěvky jednotlivých přispěvatelů, spolu s texty z veřejně přístupných knih, scénářů a podobných zdrojů.
-    
-    Všechny věty si můžete prohlédnout v příslušné složce na GitHubu.
 faq-why-not-ask-read-q = Proč prostě nepožádáte lidi, aby četli z knih či články na Wikipedii?
 faq-why-account-q = Proč bych si měl(a) vytvořit účet?
 faq-is-account-public-q = Jsou informace o mém účtu veřejně přístupné?
@@ -363,11 +356,6 @@ data-get-started = <speechBlogLink>Začínáme s rozpoznáváním hlasu</speechB
 data-other-title = Další hlasové datasety…
 data-other-goto = Přejít na { $name }
 data-other-download = Stáhnout data
-data-other-librispeech-description = LibriSpeech je korpus přibližně 1 000 hodin 16 kHz čtené angličtiny odvozený od čtených audioknih z projektu LibriVox.
-data-other-ted-name = Korpus TED-LIUM
-data-other-ted-description = Korpus TED-LIUM je tvořen zvukem přednášek a jejich přepisů dostupných na webu TED.
-data-other-voxforge-description = VoxForge byl vytvořen pro sběr přepsaných řečí pro použití ve zdarma dostupných a open-source systémech pro rozpoznávání řeči.
-data-other-tatoeba-description = Tatoeba je rozsáhlá databáze vět, překladů a mluveného slova pro použití při studiu jazyků. Tento obsah obsahuje všechnu mluvenou angličtinu nahranou jejich komunitou.
 data-bundle-button = Stáhnout balík datasetů
 data-bundle-description = Data Common Voice a data všech ostatních datasetů výše.
 license = Licence: <licenseLink>{ $license }</licenseLink>
@@ -383,6 +371,23 @@ review-rerecord = Nahrát znovu
 review-cancel = Zrušit odeslání
 review-keep-recordings = Uchovat nahrávky
 review-delete-recordings = Smazat nahrávky
+
+## New Datasets Page
+
+validated-hr-total = Celkem validovaných hodin
+overall-hr-total = Celkový počet hodin
+cv-license = Licence
+size-gigabyte = GB
+size-megabyte = MB
+whats-inside = Co je uvnitř datové sady Common Voice?
+other-datasets = Ostatní hlasové datasety
+feedback-q = Máte zpětnou vazbu?
+data-other-librispeech-description = LibriSpeech je korpus přibližně 1 000 hodin 16 kHz čtené angličtiny odvozený od čtených audioknih z projektu LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Korpus TED-LIUM je tvořen zvukem přednášek a jejich přepisů dostupných na webu TED.
+data-other-voxforge-description = VoxForge byl vytvořen pro sběr přepsaných řečí pro použití ve zdarma dostupných a open-source systémech pro rozpoznávání řeči.
+data-other-tatoeba-description = Tatoeba je rozsáhlá databáze vět, překladů a mluveného slova pro použití při studiu jazyků. Tento obsah obsahuje všechnu mluvenou angličtinu nahranou jejich komunitou.
+go-discourse = Přejít na Discourse
 
 ## Download Modal
 
@@ -472,6 +477,7 @@ share-title-new = <bold>Pomozte nám</bold> najít další hlasy
 
 ## Goals
 
+streaks = Rekord
 days =
     { $count ->
         [one] den
@@ -488,10 +494,13 @@ recordings =
 ## Dashboard
 
 your-languages = Vaše jazyky
+toward-next-goal = Další cíl
 stats = Statistiky
 you = Vy
 everyone = Všichni
 top-contributors = Nejaktivnější přispěvatelé
+total-approved = Celkem schváleno
+overall-accuracy = Celková přesnost
 
 ## Profile Delete
 

@@ -395,11 +395,6 @@ data-get-started = <speechBlogLink>Vágjon bele a Beszédfelismerésbe</speechBl
 data-other-title = További hangadatkészletek…
 data-other-goto = Ugrás ide: { $name }
 data-other-download = Adatok letöltése
-data-other-librispeech-description = A LibriSpeech egy közel 1000 órás 16 KHz-es korpusz, ami a LibriVox projekt hangoskönyveinek felolvasott angol szövegéből áll.
-data-other-ted-name = TED-LIUM korpusz
-data-other-ted-description = A TED-LIUM korpusz a TED weboldalon elérhető előadások hanganyagából és a hozzájuk tartozó feliratokból készült.
-data-other-voxforge-description = A VoxForge a szabad és nyílt forráskódú beszédfelismerő rendszerekkel készült felvételek összegyűjtésére lett létrehozva.
-data-other-tatoeba-description = A Tatoeba egy nyelvtanulásra használt nagy mondat-, fordítás- és hangadatkészlet. Ez a letöltés a közösségük által felvett angol hanganyagokat tartalmazza.
 data-bundle-button = Adatkészletcsomag letöltése
 data-bundle-description = Common Voice adatok plusz az összes fenti adatkészlet.
 license = Licenc: <licenseLink>{ $license }</licenseLink>
@@ -450,6 +445,21 @@ dataset-description =
     Az adatkészlet jelenleg <b>{ $hours }</b> órányi ellenőrzött felvételből áll, <b>{ $languageCount }</b> nyelven, de folyamatosan adunk hozzá további hangokat és nyelveket. Nézze meg a <languagesLink>Nyelvek oldalt</languagesLink> egy nyelv kéréséhez vagy a közreműködés elkezdéséhez.
 want-dataset-update = Szeretne értesítést kapni, ha kiadjuk a Common Voice adatkészlet új verzióját? Iratkozzon fel a hírlevelünkre.
 subscribe = Feliratkozás
+get-started-speech = Első lépések a beszédfelismeréssel
+other-datasets = Más hangadatkészletek
+feedback-q = Visszajelzése van?
+deepspeech-info = A Common Voice adatkészlet kiegészíti a Mozilla nyílt forráskódú hangfelismerő motorját, a Deep Speech-et, amelyet beszédfelismerő alkalmazások készítéséhez használhat. Olvassa el a <githubLink>Github áttekintést</githubLink>, vagy az első lépésekhez csatlakozzon a <discourseLink>DeepSpeech Discourse-hoz</discourseLink>.
+common-voice-info = Kérdése van a Common Voice-szal kapcsolatban? Csatlakozzon hozzánk a <discourseLink>Discourse fórumon</discourseLink>.
+data-other-librispeech-description = A LibriSpeech egy közel 1000 órás 16 KHz-es korpusz, ami a LibriVox projekt hangoskönyveinek felolvasott angol szövegéből áll.
+data-other-ted-name = TED-LIUM korpusz
+data-other-ted-description = A TED-LIUM korpusz a TED weboldalon elérhető előadások hanganyagából és a hozzájuk tartozó feliratokból készült.
+data-other-voxforge-description = A VoxForge a szabad és nyílt forráskódú beszédfelismerő rendszerekkel készült felvételek összegyűjtésére lett létrehozva.
+data-other-tatoeba-description = A Tatoeba egy nyelvtanulásra használt nagy mondat-, fordítás- és hangadatkészlet. Ez a letöltés a közösségük által felvett angol hanganyagokat tartalmazza.
+your-feedback = Ötlete van, hogyan tehetnénk jobbá a Common Voice adatkészletet? Tudassa velünk a Discourse-on
+go-discourse = Ugrás a Discourse-hoz
+missing-language = Nem látja a nyelvét az adatkészletben? Nyelv kéréséhez lépjen a Nyelvek oldalra.
+go-languages-page = Ugrás a Nyelvek oldalra
+ready-to-validate = Készen áll, hogy segítsen a mondatok ellenőrzésében?
 
 ## Download Modal
 

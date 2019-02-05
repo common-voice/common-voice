@@ -392,11 +392,6 @@ data-get-started = <speechBlogLink>Comece com o reconhecimento de voz</speechBlo
 data-other-title = Outros conjuntos de dados de voz…
 data-other-goto = Ir para { $name }
 data-other-download = Baixar dados
-data-other-librispeech-description = LibriSpeech é um corpus de aproximadamente 1000 horas de leitura em inglês em 16Khz, derivado de audiolivros do projeto LibriVox.
-data-other-ted-name = TED-LIUM Corpus
-data-other-ted-description = TED-LIUM Corpus foi criado a partir de áudios de palestras e suas transcrições, que estão disponíveis no site TED.
-data-other-voxforge-description = VoxForge foi criado para coletar falas transcritas para uso com mecanismos de reconhecimento de fala gratuitos e de código aberto.
-data-other-tatoeba-description = Tatoeba é uma grande base de dados de frases, traduções e áudio falado para uso em aprendizagem de idiomas. Este arquivo contém falas em inglês gravadas por sua comunidade.
 data-bundle-button = Baixar pacote do conjunto de dados
 data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
 license = Licença: <licenseLink>{ $license }</licenseLink>
@@ -445,6 +440,23 @@ dataset-description =
     Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b>{ $hours }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
     
     O conjunto de dados atualmente consiste de <b>{ $hours }</b> horas validadas em <b>{ $languageCount }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
+want-dataset-update = Quer receber avisos quando lançarmos novas versões do conjunto de dados do Common Voice? Assine nosso boletim informativo.
+subscribe = Assinar
+get-started-speech = Introdução ao reconhecimento de voz
+other-datasets = Outros conjuntos de dados de voz
+feedback-q = Quer fazer comentários?
+deepspeech-info = O conjunto de dados do Common Voice complementa o mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, que você pode usar para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
+common-voice-info = Tem dúvidas sobre o Common Voice? Participe do nosso <discourseLink>fórum no Discourse</discourseLink>.
+data-other-librispeech-description = LibriSpeech é um corpus de aproximadamente 1000 horas de leitura em inglês em 16Khz, derivado de audiolivros do projeto LibriVox.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM Corpus foi criado a partir de áudios de palestras e suas transcrições, que estão disponíveis no site TED.
+data-other-voxforge-description = VoxForge foi criado para coletar falas transcritas para uso com mecanismos de reconhecimento de fala gratuitos e de código aberto.
+data-other-tatoeba-description = Tatoeba é uma grande base de dados de frases, traduções e áudio falado para uso em aprendizagem de idiomas. Este arquivo contém falas em inglês gravadas por sua comunidade.
+your-feedback = Você tem ideias de como podemos melhorar o conjunto de dados do Common Voice? Fale conosco no Discourse
+go-discourse = Ir para o Discourse
+missing-language = Não encontra seu idioma refletido no conjunto de dados? Para solicitar um idioma, vá na nossa página de idiomas.
+go-languages-page = Ir para a página de idiomas
+ready-to-validate = Pronto para ajudar a validar frases?
 
 ## Download Modal
 

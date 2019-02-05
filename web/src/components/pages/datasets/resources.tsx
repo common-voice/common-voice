@@ -1,6 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { InView } from 'react-intersection-observer';
+import URLS from '../../../urls';
 import { Button, LinkButton } from '../../ui/ui';
 import Dots from './dots';
 import datasets from './other-datasets';
@@ -100,16 +101,16 @@ export default class extends React.Component<{}, State> {
   render() {
     const Section = ({ name, ...props }: any) => (
       <InView
-        onChange={isVisible => {
-          if (isVisible) {
+        onChange={(isVisible, entry) => {
+          if (entry.intersectionRatio > 0.15) {
             this.setState({ activeSection: name });
           }
-        }}>
+        }}
+        threshold={[0.1, 0.2]}>
         <A name={name} />
         <section {...props} />
       </InView>
     );
-    console.log(this.state.activeSection);
     return (
       <div className="dataset-resources">
         <nav>
@@ -119,7 +120,9 @@ export default class extends React.Component<{}, State> {
               ['other-datasets', NAV_IDS.other],
               ['feedback-q', NAV_IDS.feedback],
             ].map(([labelId, id]) => (
-              <li className={id == this.state.activeSection ? 'active' : ''}>
+              <li
+                key={id}
+                className={id == this.state.activeSection ? 'active' : ''}>
                 <div className="line" />
                 <Localized id={labelId} key={labelId}>
                   <a href={'#' + id} />
@@ -136,13 +139,36 @@ export default class extends React.Component<{}, State> {
                 'DeepSpeech',
                 'deepspeech-info',
                 'deepspeech',
-                { githubLink: <b />, discourseLink: <b /> },
+                {
+                  githubLink: (
+                    <a
+                      href="https://github.com/mozilla/DeepSpeech"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    />
+                  ),
+                  discourseLink: (
+                    <a
+                      href="https://discourse.mozilla.org/c/deep-speech"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    />
+                  ),
+                },
               ],
               [
                 'Discourse',
                 'common-voice-info',
                 'discourse',
-                { discourseLink: <b /> },
+                {
+                  discourseLink: (
+                    <a
+                      href="https://discourse.mozilla.org/c/voice"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    />
+                  ),
+                },
               ],
             ].map(([title, descriptionId, imgSrc, props]) => (
               <div className="box">
@@ -160,13 +186,43 @@ export default class extends React.Component<{}, State> {
             ))}
           </Section>
 
-          <Section name={NAV_IDS.other}>
+          <Section name={NAV_IDS.other} className="other-datasets">
             {datasets.map(props => (
-              <Dataset {...props} />
+              <Dataset key={props.nick} {...props} />
             ))}
           </Section>
 
-          <Section name={NAV_IDS.feedback} />
+          <Section name={NAV_IDS.feedback}>
+            <div className="box feedback">
+              <img src="/img/datasets/feedback.png" />
+              <div className="dots-and-content">
+                <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
+                <div className="content">
+                  <div className="described-button">
+                    <Localized id="your-feedback">
+                      <p />
+                    </Localized>
+                    <Localized id="go-discourse">
+                      <LinkButton
+                        href="https://discourse.mozilla.org/c/voice"
+                        blank
+                        rounded
+                        outline
+                      />
+                    </Localized>
+                  </div>
+                  <div className="described-button">
+                    <Localized id="missing-language">
+                      <p />
+                    </Localized>
+                    <Localized id="go-languages-page">
+                      <LinkButton to={URLS.LANGUAGES} rounded outline />
+                    </Localized>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Section>
         </div>
       </div>
     );

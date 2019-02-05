@@ -318,14 +318,23 @@ change-email-setings = Emejlowu adresu w nastajenjach pod přizjewjenskej identi
 
 faq-title = Huste prašenja
 faq-what-cv-q = Što Common Voice je?
+faq-what-cv-a = Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Common Voice je dźěl iniciatiwy Mozilla, technologije hłosoweho spóznaće polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
 faq-why-important-q = Čehodla je wažne?
+faq-why-important-a =
+    Rěčenje je husto najpřirodniše wašnje, na kotrež jedyn z druhim komunikujemy a hłosowe technologije přinjesu tutu lěpšinu k našim ličakam a mobilnym gratam. Chcemy wuwiwarjow wukmanić, wulkotne nałoženja hłosoweho spóznaća  wuwiwać, na přikład přełožowaki, kotrež we woprawdźitym času přełožuja a přez hłós wodźene digitalne asistenty. Ale tuchwilu je najwjace hłosowych datow, kotrež su trěbne za wuwiwanje tajkich nałoženjow, su drohe a proprietarne. Nadźijamy so, zo datowa sadźba Common Voice wuwiwarjam da, štož trjebaja, zo bychu rěčensku technologiju w swojej rěči wobnowili a wutworili.
+    
+    Zo bychmy hłosowe spóznaće bóle uniwerselne činili, hromadźimy hłosowe přikłady w daloko rozšěrjenych rěčach, ale tež w rěčach z małej ličbu rěčnikow, kotrež so husto wot komercielnych słužbow hłosoweho spóznaća njepodpěruja. Wozjewjenje wšelakoreje datoweje sadźby hłosow wuwiwarjow, předewzaćelow a cyłe rěčenske zhromadźenstwa wukmani, tutu dźěru wupjelnić.
 faq-how-get-q = Kak móžu daty Common Voice dóstać?
 faq-how-get-a = Datowa sadźba Common Voice je pod licencu <licenseLink>CC0</licenseLink> na <datasetLink>našej stronje datowych sadźbow</datasetLink> za sćehnjenje k dispoziciji. Móžeće tež wjacore druhe zjawnje k dispoziciji stejace datowe sadźby ze samsneje strony sćahnyć.
 faq-when-release-q = Hdy Common Voice w druhich rěčach wozjewiće?
+faq-when-release-a = Wjacerěčna wersija datowje sadźby Common Voice so tuchwilu z pomocu zhromadźenstwa walčkuje a čisći. Jeli byšće rady wjace wo podpěranju tutych prócow zhonił, <contactLink>stajće so prošu z nami do zwiska</contactLink>. Měrimy so tuchwilu na wozjewjenski datum januara 2019. Potom budźemy datowu sadźbu prawidłownje z nowymi rěčemi a hłosowymi klipami aktualizować, hdyž su k dispoziciji. Iteratiwny wozjewjenski cyklus hišće postajeny njeje.
 faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
+faq-why-mission-a = Mozilla je sej předewzał, web za kóždeho wotewrjeny a přistupny dźeržeć. Zo bychmy to činili, dyrbimy webawtorow přez webprojekty kaž Common Voice wukmanić. Dokelž hłosowe technologije přez nišowe nałoženja wurostuja, wěrimy, zo dyrbja wšěm wužiwarjam jenak słužić. To rěka, do dalšich rěčow inwestować a wšelake akcenty a demografije wobkedźbować , hdyž so hłosowe technologije wuwiwaja a testuja. Common Voice je zjawna resursa, kotraž wšěm k dispoziciji steji, a teamy a wuwiwarjo Mozilla na cyłym swěće wužiwaja jón hižo za projekty.
 faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
 faq-is-goal-assistant-q = Je cil Common Voice, hłosowy asistent wutworić?
+faq-is-goal-assistant-a = Zaměr datoweje sadźby Common Voice je, kóždemu na swěće zmóžnić, rěčenske spóznaće, spóznaće rěčnikow abo druhi typ nałoženja wuwiwać, kotrež hłosowe daty trjeba. Hłosowy asistent je jenož jedyn z wjele typow nałoženjow, kotrež móžeće wužiwać, zo byšće datowu sadźbu natwarił.
 faq-do-want-native-q = Njejsym maćernorěcny a rěču z akcentom, chceće mój hłós?
+faq-do-want-native-a = Haj, chcemy předewšěm waš hłós! Jedyn dźěl cila Common Voice je, tak wjele rozdźělnych akcentow kaž móžno hromadźić, zo bychu słužby hłosoweho spóznaća za kóždeho jenak funguja. To rěka, dary wot njemaćernorěčnych rěčnikow su wosebje wažne.
 faq-why-different-speakers-q = Čehodla trjebaće wjele rozdźělnych rěčnikow na rěč?
 faq-why-my-lang-q = Čehodla moja rěč hišće njeje?
 faq-what-quality-q = Kotra awdiokwalita je trěbna, zo by so hłosowy klip w datowej sadźbje wužiwał?
@@ -352,6 +361,7 @@ localization-explanation = To je naš proces za přełožowanje a přiměrjenje 
 sentence-collection = Zběrka sadow
 sentence-collection-explanation = Hromadźenje powšitkownosći wužitnych sadow abo pisanje nowych powšitkownosći wužitnych sadow.
 hours-recorded-explanation = Ličba dotal nahromadźenych natočenych hodźin.
+hours-validated-explanation = Ličba hodźin hłosoweho natočenja, kotrež su so wot 2 z 3 wužiwarjow z "Haj" wobkrućili. To postup k cyłkownemu cilej 10&thinso;000 hodźin markěruje.
 sst = Rěčenje-do-teksta (STT)
 sst-explanation = Technologije Rěčenje-do-teksta (STT) hłosowe daty to teksta konwertuja.
 de-identified = Anonymizowane
@@ -424,6 +434,7 @@ subscribe = Abonować
 get-started-speech = Prěnje kroki z rěčenskim spóznaćom
 other-datasets = Druhe hłosowe datowe sadźby
 feedback-q = Maće komentary?
+deepspeech-info = Datowa sadźba Common Voice wudsopołnja Deep Speech, mašinu hłosoweho spóznaća wotewrjeneho žórła Mozilla, kotruž móžeće wužiwać, zo byšće nałoženja hłosoweho spóznaća wuwiwać. Čitajće naš <githubLink>přehlad Github</githubLink> abo přidružće so forumej <discourseLink>DeepSpeech Discourse</discourseLink>, zo byšće zhoniła, kak móžeće započeć.
 common-voice-info = Maće prašenja wo Common Voice? Přidružće so nam w našim <discourseLink>forumje Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech je korpus nimale 1.000 hodźin w jendźelskej rěči (natočene z 16 Khz), kotrež ze słuchoknihow projekta LibriVox pochadźeja.
 data-other-ted-name = Korpus TED-LIUM
@@ -583,4 +594,8 @@ keep = Wobchować
 remove = Wotstronić
 keep-info = Waše anonymne hłosowe nahraća wostanu w datowej sadźbje Common Voice. Hdyž swój profil zhašeće, njemóžeće hižo naprašowanje wotpósłać, zo byšće swoje nahraća z datoweje sadźby wotstronił
 remove-info = Budźemy waše naprašowanje, waše hłosowe nahraća z datoweje sadźby wotstronić, přepruwować. Jeli so waše naprašowanje schwali,  budźemy so z tymi do zwiska stajić, kotřiž su datowu sadźbu sćahnyli, a prosymy jich, zo bychu waše hłosowe nahraća tež wotstronili.
+why-delete-recordings =
+    Natočenja Common Voice so wot akademikarjow, małych předewzaćow a entuziastow hłosoweho spóznaća wužiwaja, zo bychu zjawnje k dispoziciji stejace resursy kaž hłosowe modele trenowali a rozšěrili.
+    
+    Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil zhašeć

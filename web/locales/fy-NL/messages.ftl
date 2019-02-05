@@ -421,6 +421,12 @@ review-delete-recordings = Myn opnamen fuortsmite
 ## New Datasets Page
 
 datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy't elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
+datasets-positioning =
+    Wy leauwe dat grutte, iepenbiere spraakgegevenssets foar ynnovaasje en sûne kommersjele kompetysje yn it fjild fan automatisearre learende spraaktechnology soargje sil.
+    
+    De meartalige gegevensset fan Common Voice is no al de grutste iepenbiere spraakgegevensset yn syn soarte, mar it is net de iennige.
+    
+    Beskôgje dizze side as in list mei referinsjes nei oare iepenboarne-spraakgegevenssets en, wylst Common Voice trochgroeit, de startside foar ús nije útjefte.
 language = Taal
 # File size in gigabytes
 size = Grutte
@@ -435,14 +441,21 @@ why-email = <b>Wêrom in e-mailadres?</b> Mooglik moatte wy jo yn de takomst oer
 confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Jo geane dermei akkoard</b> om net te probearjen de identiteit fan sprekkers yn de Common Voice-gegevensset te achterheljen
 download-language = { $language } downloade
 validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren
 whats-inside = Wat is de ynhâld fan de Common Voice-gegevensset?
+dataset-description =
+    Elk ûnderdiel yn de gegevensset bestiet út in unyk MP3-bestân en in byhearrend tekstbestân. In protte fan de <b>{ $hours }</b> opnommen oeren yn de gegevensset befetsje ek demografyske metagegevens lykas leeftiid, geslacht en aksint, dy't de sekuerens fan spraakwerkenningsmasinen helpe kinne traine.
+    
+    De gegevensset bestiet op dit stuit út <b>{ $hours }</b> falidearre oeren yn <b>{ $languageCount }</b> talen, mar wy foegje trochgeand spraak en talen ta. Sjoch ris op ús <languagesLink>side Talen</languagesLink> om in taal oan te freegjen of in bydrage te leverjen.
+want-dataset-update = Wolle jo updates wannear wy in nije ferzje fan de Common Voice-gegevensset útbringe? Abonnearje jo dan op ús nijsbrief.
 subscribe = Abonnearje
 get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
+deepspeech-info = De Common Voice-gegevensset is in oanfolling op Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, dy't jo brûke kinne om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
 common-voice-info = Hawwe jo fragen oer Common Voice? Start by ús <discourseLink>Discuorse-foarum</ discourseLink>.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
@@ -590,4 +603,8 @@ keep = Behâlde
 remove = Fuortsmite
 keep-info = Jo anonime stimopnamen bliuwe yn de gegevensset fan Common Voice oanwêzich. Sa gau as jo jo profyl fuortsmite, kinne jo gjin fersyk mear yntsjinje om jo opnamen út de gegevensset fuort te smiten.
 remove-info = Wy sille jo fersyk om jo stimopnamen út de gegevensset fuort te smiten beoardiele. As jo fersyk goedkard wurdt, nimme wy kontakt op mei de partijen dy't de gegevensset download hawwe en freegje wy harren ek jo stimopnamen fuort te smiten.
+why-delete-recordings =
+    Common Voice-opnamen wurde brûkt troch akademisy, lytse bedriuwen en leafhawwers fan spraakwerkenning om te helpen by it trainen en ûntwikkeljen fan frij beskikbere boarnen, lykas spraakmodellen.
+    
+    Kinne jo ús witte litte wêrom jo jo opnamen fuortsmite litte wolle?
 profile-form-delete = Profyl fuortsmite
