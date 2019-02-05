@@ -16,6 +16,8 @@ loading = Nisamajib'ëx...
 ## Languages
 
 ace = Achenes
+af = aj Africa
+am = Amarico
 an = Aragones
 ar = Arabe
 as = Assames
@@ -148,7 +150,7 @@ todays-progress = Ri Samajin Wakami
 help-reach-goal = Kojato' richin yojapon { $goal }
 read-terms-q = ¿La xasik'ij ri Erojqan richin nokisäx ri samaj?
 ready-to-record = ¿La ütz richin nasipaj ach'ab'äl chi qe?
-all-languages = Ronojel Ch'ab'äl
+all-locales = Ronojel
 today = Wakami
 x-weeks-short =
     { $count ->
@@ -165,6 +167,12 @@ x-years-short =
         [one] juna'
        *[other] { $count }j
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -209,12 +217,8 @@ english = Q'anchi'
 
 ## ProfileForm
 
-profile-form-cancel = Tel pa Nojwuj
-profile-form-delete = Tiyuj Ruwäch B'i'aj
 profile-form-username =
     .label = Rub'i' Okisanel
-profile-form-language =
-    .label = Ch'ab'äl
 profile-form-accent =
     .label = K'oxomal
 profile-form-age =
@@ -229,8 +233,6 @@ native-language =
     .label = Nab'ey Ch'ab'äl
 profile-form-submit-save = Tiyak
 profile-form-submit-saved = Xyak
-profile-keep-data = Tiyak Tzij
-profile-delete-data = Tiyuj Tzij
 male = Achi
 female = Ixöq
 # Gender
@@ -243,10 +245,8 @@ avatar = Awatar
 goals = Retal Q'i'oj
 settings = Taq Runuk'ulem
 edit-profile = Tinuk' Ruwäch B'i'aj
-profile-create = Titz'uk jun ruwäch b'i'aj
 profile-create-success = Xb'anatäj, ¡xtz'uk ruwäch b'i'aj!
 profile-close = Titz'apïx
-profile-clear-modal = Toq nijosq'ïx taq rutzij ruwäch b'i'aj nub'än chi man xtitunub'äx ta chik ri winaqirel awetamab'al rik'in ri ayakoj xtitaq chi re ri Common Voice.
 profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on chi e ütz ri taq rutzij qach'ab'äl.
 thanks-for-account = Matyox xajikib'a' ri rub'i' ataqoya'l, wakami niqatz'ük qa ri ruwäch ab'i'.
 why-demographic = ¿Achike ruma k'atzinel re'?
@@ -267,30 +267,9 @@ manage-subscriptions = Kenuk'samajïx taq Tz'ib'anïk B'i'aj
 ## FAQ
 
 faq-title = Jutaqil taq K'utunïk
-faq-what-q = ¿Achike ri Common Voice?
-faq-what-a = Ri ch'ab'äl etamanem na'ob'äl nitikïr nuk'ëx rub'anikil yojk'exb'an kik'in ri taq ch'ich'b'äl, xa xe chi yalan e paqäl chuqa' e'ichinan ri taq q'inoj e k'o wakami. Common Voice jun nimasamaj ri nub'än chi man k'ayew ta chuqa' konojel tiqokisaj ri ch'ab'äl etamanel na'ob'äl. Ja ri winaqi' nikisipaj kich'ab'äl chi re jun nïm cholxe'el tzij, ri nuya' q'ij chi ke konojel aninäq chuqa' man k'ayew ta yekitijoj ri taq kichokoy k'o ketamab'al pa ruwi' ri ch'ab'äl-etamanel. Ronojel ri taq kitzij ch'ab'äl xtik'ut chi kiwäch ri b'anonela'.
-faq-important-q = ¿Achike ruma k'o rejqalem?
-faq-important-a = Choj ri ch'ab'äl, ruch'ab'äl ri winäq. Ja ri' man k'ayew ta chuqa' choj rub'anikil yojch'o. Niqajo' chi ri b'anonela' yetikïr yekinük' jeb'ël taq wachinäq achi'el taq tzalq'omanib'äl pa ri ramaj chi kiwäch nuk'samajilal to'onela' achoq kik'in yatikïr yatzijon. Xa xe chi wakami man k'ïy ta tzij e k'o chi kiwäch ri winaqi' richin yenuk' re ruwäch taq chokoy re'. Niqoyob'ej chi ri Common Voice nuya' ri nikajo' ri b'anonela' richin yetz'ukun.
-faq-get-q = ¿Achike rub'anikil nink'ül ri taq rutzij Common Voice?
-faq-get-a = Ri ruyakb'al qatzij wakami k'o pa <downloadLink>ruxaq richin niqasäx</downloadLink> rik'in ri <licenseLink>CC-0</licenseLink> ya'oj q'ij.
-faq-mission-q = ¿Achike ruma k'o pa taqel rutaqanem Mozilla ri Common Voice?
-faq-mission-a = Mozilla nisamäj chi rij chi jantape' jaqäl chuqa' okel ri ajk'amaya'l chi qawa qonojel. Richin niqab'än ri' k'atzinel niqaya' uchuq'a' pan kiq'a' ri ajk'amaya'l nuk'unela' rik'in taq nimasamaj achi'el Common Voice. Richin yek'iyïr ri kina'ob'äl ch'ab'äl rik'in nikik'owisaj kij ri relik taq chokoy, röj niqanimaj chi ütz chuqa' yekito' ri okisanela'. Niqatz'ët chi k'atzinel yeqatz'aqatisaj ch'aqa' chik ch'ab'äl, kik'oxomal chuqa' winaqirel taq tzij toq yekitz'ük chuqa' yekitojtob'ej kina'ob'al ch'ab'äl. Ri Mozilla nrajo' nutz'ët jun raxinäq chuqa' k'oxonel k'amaya'l. Re re' nuq'ajuj chi tiya' q'ij ye'ok k'ak'a' tz'ukunela' pa kitzij ch'ab'äl, ke ri' yetikïr yekinük' k'ak'a' chuqa' jeb'ël taq nimasamaj. Common Voice xtok jun tob'äl kichin winaqi', ri xkeruto' ri Mozilla taq molaj chuqa' b'anonela' chijun ri ruwach'ulew.
-faq-native-q = Man walaxib'en ta pe ruch'ab'exik ri { $lang } chuqa' yich'o rik'in k'oxomal, ¿la niwajo' chuqa' ri nuch'ab'äl?
-faq-native-a = Ja', ¡yalan nik'atzin ri ach'ab'äl chi qe! Jun peraj chi re ri rurayib'al ri Common Voice ja ri yerumöl ronojel ri k'oxomal, richin chi ri kematz'ib' ütz tino' pa kiwi' <bold>ronojel</bold> toq yech'o.
-faq-firefox-q = ¿La xtik'ulwachitäj chi ri runa'ob'al ch'ab'äl pa tz'ib'anem, rik'in ri Common Voice, ruch'akulal ri Firefox?
-faq-firefox-a = Man q'iq'el ta ri ruchuq'a' ri Common Voice ruma ri', tajin yeqakanoj kik'amal taq ch'ab'äl pa jalajöj rutiko'n Mozilla, achi'el ri Firefox.
-faq-quality-q = ¿Achike rutzil rub'anikil k'oxom najowäx richin chi ütz nokisäx?
-faq-quality-a = Niqajo' chi ri rutzil rub'anikil k'oxom tiwachin pa ri rutzil rub'anikil k'oxom xtuk'ül pa ri k'ojlib'äl ri ruk'wab'al ch'ab'äl-pa-tzij. Ruma ri', niqajo' jalajöj ruwäch. Re re' nuk'üt chi re ri ruk'wab'al ch'ab'äl-pa-tzij nrokisaj jalajöj taq k'ulwachinem —tzijonem pa ruka'n b'ey, kik'oxom ch'ich', taq b'anöy kaq'ïq'—richin man tisach.
-faq-hours-q = ¿Achike ruma jun rayib'äl nimol ruchi' 10,000 ramaj k'oxom?
-faq-hours-a = Ja b'a' ramaj ri' najowäx richin nitijöx jun STT q'inoj richin niwachin.
-faq-source-q = ¿Akuchi' k'amon pe ri ruxe'el tz'ib'anem?
-faq-source-a1 = Ri taq b'ab' e k'o wakami ekisipan ri  to'onela', achi'el chuqa' tz'ib'anem kitzij silowäch ya'on q'ij chi kiwa winaqi' achi'el <italic>¡Jeb'ël ri k'aslem!</italic>
-faq-source-a2 = Yatikïr natz'ët ri kixe'el qab'ab' pa <dataLink>re ruyakwuj GitHub re'</dataLink>
 
-## Profile
+## Glossary
 
-profile-why-title = ¿Achike ruma jun ruwäch b'i'aj?
-profile-why-content = Toq naya' jub'a' awetamab'al chawij chi qe, ri taq rutzij k'oxom xtatäq pa Common Voice yalan xkek'atzin chi ke ri kik'wab'al etamanel ch'ab'äl ye'okisan kichin richin nikutzilaj ki'.
 
 ## NotFound
 
@@ -310,11 +289,6 @@ data-get-started = <speechBlogLink>Titikirisäx rik'in ri Retamanel Ch'ab'äl</s
 data-other-title = Juley chik ruyakb'al kitzij ch'ab'äl...
 data-other-goto = Tib'an b'enam pa { $name }
 data-other-download = Keqasäx taq Tzij
-data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
-data-other-ted-name = TED-LIUM Korpus
-data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
-data-other-voxforge-description = VoxForge xb'an richin yerumöl ri taq pajtzij etz'ib'an richin yekokisaj ri taq Kik'wab'al Etamanel Ch'ab'äl richin Jaqäl B'itz'ib'.
-data-other-tatoeba-description = Tatoeba jun nïm kicholxe'el taq b'ab', taq tzalq'omanem chuqa' taq k'oxom richin ye'okisäx pa kitijoxik ri taq ch'ich'b'äl. Re qasanem re' ruk'wan ronojel ri q'anchi' yakon ruma ri rutinamit.
 data-bundle-button = Tiqasäx Pisaj Kiyakb'al Tzij
 data-bundle-description = Kitzij Common Voice rik'in ronojel ri taq kiyakb'al kitzij ch'ab'äl xe'ik'o.
 license = Ya'öl Q'ij: <licenseLink>{ $license }</licenseLink>
@@ -330,6 +304,14 @@ review-rerecord = Tiyak-chik
 review-cancel = Tiq'at Rutaqik
 review-keep-recordings = Kechap ri taq yakoj
 review-delete-recordings = Keyuj ri taq nuyakoj
+
+## New Datasets Page
+
+data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
+data-other-ted-name = TED-LIUM Korpus
+data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
+data-other-voxforge-description = VoxForge xb'an richin yerumöl ri taq pajtzij etz'ib'an richin yekokisaj ri taq Kik'wab'al Etamanel Ch'ab'äl richin Jaqäl B'itz'ib'.
+data-other-tatoeba-description = Tatoeba jun nïm kicholxe'el taq b'ab', taq tzalq'omanem chuqa' taq k'oxom richin ye'okisäx pa kitijoxik ri taq ch'ich'b'äl. Re qasanem re' ruk'wan ronojel ri q'anchi' yakon ruma ri rutinamit.
 
 ## Download Modal
 
@@ -448,3 +430,7 @@ validations =
 
 you = Rat
 everyone = Ri ch'aqa' chik
+
+## Profile Delete
+
+profile-form-delete = Tiyuj Ruwäch B'i'aj
