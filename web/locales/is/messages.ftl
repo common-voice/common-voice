@@ -186,6 +186,8 @@ sign-up-account = Búa til aðgang
 ## Account Benefits
 
 benefits = Kostir
+view-goals = Skoðaðu framvindu er tengist persónulegum markmiðum sem og markmiðum verkefnisins.
+join-newsletter = Hægt er að skrá sig á póstlistann okkar til að fá fréttir um verkefnið.
 
 ## What's public
 
