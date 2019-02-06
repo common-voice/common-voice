@@ -95,6 +95,7 @@
         & .back {
             display: flex;
             justify-content: center;
+            align-items: center;
             width: 47px;
             height: 47px;
             background: var(--white);
