@@ -186,7 +186,9 @@ sign-up-account = Búa til aðgang
 ## Account Benefits
 
 benefits = Kostir
-view-goals = Skoðaðu framvindu er tengist persónulegum markmiðum sem og markmiðum verkefnisins.
+keep-track = Fylgstu með eigin framvindu og tölur um þátttöku í mörgum tungumálum.
+compare-progress = Berðu saman framvindu þína við aðra þátttakendur víðsvegar um heiminn.
+view-goals = Skoðaðu hvernig miðast í átt að verkefnismarkmiðum og persónuleg markmiðum.
 join-newsletter = Hægt er að skrá sig á póstlistann okkar til að fá fréttir um verkefnið.
 
 ## What's public
