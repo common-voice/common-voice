@@ -183,15 +183,24 @@ download-no = Ne hvala
 
 contact-form-message =
     .label = Poruka
+contact-required = *obavezno
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Jezik
 
 ## Languages Overview
 
+languages-show-more = Pogledajte više
+language-meter-in-progress = Napredak
+language-total-progress = Ukupno
+language-search-input =
+    .placeholder = Traži
 
 ## New Contribution
 
+record-three-more-instruction = Još tri!
 
 ## Goals
 
@@ -201,3 +210,5 @@ contact-form-message =
 
 ## Profile Delete
 
+keep = Zadrži
+remove = Ukloni
