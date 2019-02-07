@@ -1,0 +1,152 @@
+[
+  {
+    "valid": [],
+    "source": "My own",
+    "invalid": [],
+    "sentence": "Калдайган бир адам тушунда турган кишини сүзүп, мүдүрүлүп барып калдыраган бойдон томолонуп түштү",
+    "username": "jumasheff",
+    "createdAt": 1549459584486,
+    "id": "cc9fc16da06249ee256b2ff53c4350c2215a16b262c2008fc2110ccd2ccab043",
+    "last_modified": 1549459587390
+  },
+  {
+    "valid": [],
+    "source": "My own",
+    "invalid": [],
+    "sentence": "Хирург скальпелин алып чыкты",
+    "username": "jumasheff",
+    "createdAt": 1549459584484,
+    "id": "c8589f8d806fb353fa2ae906c1055ad31c795877ebb866e295e71aa1bcc44f10",
+    "last_modified": 1549459587367
+  },
+  {
+    "valid": [],
+    "source": "My own",
+    "invalid": [],
+    "sentence": "Кетонал менен тиш оорусун басып жүрдү",
+    "username": "jumasheff",
+    "createdAt": 1549459584484,
+    "id": "1c3b2adc38ed4a1cabe68245e38f6c8bf81de290c444ddd685b1f9668abde7b3",
+    "last_modified": 1549459587342
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Полиграфиянын ээси корпоративдик тарифти тандаган",
+    "username": "jumasheff",
+    "createdAt": 1548766128195,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548766175413,
+    "id": "3b1a5e5438eb8e117f208dc875aef154fc5b30d6de9c0c484ec4a9c9d7f22542",
+    "last_modified": 1548766177753
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Микробиом адамдын мээсине таасир этет",
+    "username": "jumasheff",
+    "createdAt": 1548766128193,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548766175413,
+    "id": "a142da4662e335b0007bbd62b51a6ab743b3b584a65c648875d559900e116a3f",
+    "last_modified": 1548766177738
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Гитхаб аркылуу чогуу иштешебиз",
+    "username": "jumasheff",
+    "createdAt": 1548766128190,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548766162571,
+    "id": "a4ce42e8fe4a397a4c6db0daa18364f7715e1ea1957ed69ee96b77ac9ebbf9c7",
+    "last_modified": 1548766164955
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Терең окутуу -- бул машиналык окутуунун бир бөлүгү",
+    "username": "jumasheff",
+    "createdAt": 1548766128188,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548766162571,
+    "id": "4376abb83f6f47a9b40b917db51a4657006fd32e1d7635298fc719940a997439",
+    "last_modified": 1548766164939
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Кеттик анда, дота ойнойлу",
+    "username": "jumasheff",
+    "createdAt": 1548766128187,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548766162571,
+    "id": "71cdd8ff3b1fdd64d9619a3d50c66fe7cdba382fa91a1f11ace09b5fa6321df1",
+    "last_modified": 1548766164921
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Конго дарыясы тууралуу аңгеме",
+    "username": "jumasheff",
+    "createdAt": 1548764852832,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548764885008,
+    "id": "7824d98bd48e63d9617231b9d940cfdb0f3e958a96c985182098cff50a82b976",
+    "last_modified": 1548764886254
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Медикаменттер жетишсиз болууда",
+    "username": "jumasheff",
+    "createdAt": 1548764852831,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548764885008,
+    "id": "c95797cb30ae0fe85d15dda301e9c55aebc54abfde797bfdf37261bfcb6a270c",
+    "last_modified": 1548764886233
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Ал поликлиникага барып көрүнгөн",
+    "username": "jumasheff",
+    "createdAt": 1548764852828,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548764874171,
+    "id": "c4ef9aa90dabbdd526e59bdd04784496521fc4674d2f2e2ba814ca88fce3faf2",
+    "last_modified": 1548764875446
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentences",
+    "invalid": [],
+    "sentence": "Кызыктуу программа жаздым",
+    "username": "jumasheff",
+    "createdAt": 1548764852824,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548764874171,
+    "id": "a612c30042f2daabec988e37b7209e7c9c8a5d9e7a0d5b42196b210be40caa2e",
+    "last_modified": 1548764875427
+  },
+  {
+    "valid": ["jumasheff"],
+    "source": "My own sentence",
+    "invalid": [],
+    "sentence": "Мен политехке жеттим",
+    "username": "jumasheff",
+    "createdAt": 1548764622789,
+    "Sentences_Meta_UserVote_jumasheff": true,
+    "Sentences_Meta_UserVoteDate_jumasheff": 1548764874171,
+    "id": "d207abef20982d95f1202813a37aee174b3e4733fb31c998d7725ae04b2041a1",
+    "last_modified": 1548764875404
+  }
+]

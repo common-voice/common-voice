@@ -1,0 +1,605 @@
+A Apple é uma empresa americana.
+A Europa é um pouco menor que o Brasil.
+A Samsung é uma empresa americana?
+A ativação do softmax é muito cara para computar.
+A bola é amarela.
+A bíblia tem mais de dois mil anos.
+A caixa está sobre a mesa.
+A criatura se movia muito rapidamente.
+A determinação faz o homen.
+A documentação do Keras está disponível em japonês.
+A entrevista foi curta.
+A ferramenta é pesada.
+A festa irá ocorrer na sexta.
+A galinha e o galo não se davam bem.
+A garota estava brincando com sua boneca.
+A internet está funcionando?
+A licença desse projeto é o Apache.
+A linha era perfeita.
+A maior produção do ano em arroz.
+A minha visão é de águia.
+A mãe dela falou sobre isto ontem.
+A mãe estava assando um bolo.
+A nota era alta.
+A palavra chave é queijo.
+A primeira coisa do ano.
+A rua estava vazia.
+A sala estava cheia de computadores.
+A sentença foi muito curta disse o advogado.
+A taxa de aprendizagem deve ser pequena, próxima de zero.
+Abaixe o volume do quarto.
+Abra a janela.
+Abra este link no Mozilla Firefox.
+Abra o Netflix.
+Abra o Spotify.
+Abra o Youtube.
+Abra o explorador de arquivos.
+Abra o firefox.
+Abra o navegador.
+Abra um nova aba para este processo.
+Abra uma nova aba.
+Acho que vou migrar para o Ubuntu em breve.
+Adicionar Despacito à minha lista de favoritos.
+Adicione esta música à minha playlist.
+Ainda não recebi respostas para o meu email.
+Ajuste o alarme para as sete horas.
+Alabama, Montgomery.
+Algoritmos de compressão de dados.
+Algumas vezes é melhor deixar pra lá.
+Alice viu seu tio do outro lado da rua.
+Altere o dispositivo de saída de áudio.
+Alternar aba
+Amancio Ortega primeira empresa.
+Ambos eram brasileiros.
+Ambos sabiam se expressar bem.
+Ana, Júlio, Juliana e José foram ao evento na quinta.
+Ao vivo do Rio de Janeiro.
+Apague as luzes.
+Aprenda mais sobre isso aqui.
+Aquele gravador de tela é leve.
+Argentina will play against Chile in the finals.
+As pessoas estão esperando pela notícia.
+As pessoas estão olhando para ele.
+Ativar legendas.
+Ativar o som
+Até o final do ano haverá festivais de música.
+Aumentar o volume.
+Aumentar volume
+Aumentar volume.
+Aumente o volume do sistema.
+Aumente o volume.
+Auto-falantes de alta qualidade.
+Baixe este arquivo para o meu disco rígido.
+Bem vindo senhor!
+Boa dia amigos!
+Boa noite!
+Boa sorte!
+Boa tarde, pessoal!
+Bom dia!
+C Sharp é uma linguagem de programação.
+Canadá, México e Uruguai.
+Carro autonômo.
+Casa inteligente.
+Certifique-se de ter os drivers mais recentes da Nvidia instalados.
+Chame a polícia agora!
+Chame o Vicente aqui!
+Cinco pessoas foram liberadas.
+Claro que sim!
+Colombia national team.
+Com certeza haverá mais opções no próximo ano.
+Comandos de voz.
+Como calcular seqüências?
+Como está o tempo em Austin, Texas?
+Como está o tempo?
+Como está?
+Como eu digo olá em coreano?
+Como os pesos são calculados?
+Como você está hoje?
+Como você gosta?
+Como você vai nos ajudar?
+Compartilhe esse vídeo com os meus amigos.
+Compressão de dados.
+Computador.
+Conte me mais sobre isso.
+Conteúdo sugerido pelo algoritmo.
+Convolutional Neural Networks são ótimos para trabalhar com imagens.
+Copo com água.
+Costa Rica was amazing in the field!
+Córeia do Sul.
+Data Science é incrível!
+De Inglês para Português.
+De onde você é Roberto.
+Demais!
+Demora duas horas para treinar este modelo.
+Desativar sutitles.
+Desculpe, eu não consegui!
+Desejo o melhor!
+Desejo que você tenha um bom dia.
+Desligar.
+Desligue isso.
+Devemos encontrar outro dataset em vez de usar apenas mnist.
+Devo usar Keras ou Pytorch?
+Devo usar json ou yaml neste caso?
+Diga o valor deste produto.
+Diga-me sua localização, sim?
+Dois amigos foram notificados do acontecido.
+Dois mil e dezoito.
+Duas garotas fizeram o trabalho.
+Duas vezes.
+Ela ensina geografia.
+Ela estava chorando por conta da performance ruim.
+Ela fala cinco idiomas, mas fluentemente.
+Ela pegou o telefone na segunda.
+Ela viaja todo final de ano para a França.
+Ela é um modelo da Instragam.
+Ele atuou em vários filmes.
+Ele chamou o professor pelo primeiro nome.
+Ele de fato encontrou o relógio perdido.
+Ele dorme de dez horas.
+Ele falou com ela.
+Ele não é educado.
+Ele se move muito rápido!
+Ele seguiu seu sonho.
+Ele viajou para Portugual eu acho.
+Ele é o ator mais bem pago este ano.
+Eles devem sair imediatamente.
+Eles estavam lutando entre si esta manhã.
+Eles falam Espanhol.
+Eles perderam a aula hoje.
+Eles têm o melhor conteúdo da internet!
+Eles usaram o relu como uma função de ativação para esse problema.
+Eles vão pedir ajuda, mas eles não fizeram.
+Elon Musk networth.
+Em breve vamos falar com o prefeito.
+Em duas horas haverá um debate.
+Em qual idioma este documento foi escrito?
+Em que ano essa música foi lançada.
+Em que ano essa música foi lançada?
+Em que ano nasceu Steve Jobs?
+Em que você trabalha.
+Emulação de sistema.
+Envie este arquivo para o Google Drive.
+Envie-me suas dúvidas para o meu e-mail.
+Essa cor é bonita.
+Essa foi a melhor oportunidade.
+Essa história é fascinante.
+Essa música é minha favorita.
+Essa parte é fácil.
+Essa é a minha vida.
+Esse robô é assustador!
+Esse tópico no Reddit era muito popular.
+Esse é o seu bebê?
+Esta é uma frase curta.
+Estados Unidos da Ámerica.
+Este computador custa dois mil dólares.
+Este computador é de última geração.
+Este filme é um must see sem dúvida.
+Este item custa cem reais.
+Este é um problema categórico, com certeza.
+Estou bem.
+Estou entre Japão e Coreia como destinos para férias.
+Estou na farmácia.
+Eu aceito o desafio.
+Eu acho que a tradução automática vai melhorar com o tempo.
+Eu acho que ela é chinesa.
+Eu acho que não.
+Eu acho que o Machine Learning é ótimo.
+Eu acho que um modelo seqüencial pode resolver esse problema.
+Eu acho que vou me juntar ao grupo neste final de semana.
+Eu caminho pela rua no periodo da tarde.
+Eu exportei o modelo no formato json.
+Eu geralmente assisto à conteúdo na Netflix.
+Eu gostaria de pedir um pizza.
+Eu gosto de como o Atom me permite instalar novos plugins.
+Eu gosto de suas pinturas.
+Eu gosto dessa ideia.
+Eu gosto dessa marca.
+Eu gosto do seu tapete.
+Eu gosto muito do Deep Learning.
+Eu irei comprar na Black Friday.
+Eu normalmente não assisto Nascar.
+Eu não assisti Avatar, eu não sei porque.
+Eu não assisti a copa do mundo russo.
+Eu não assisti esse jogo.
+Eu não confio nele.
+Eu não consigo parar de rir.
+Eu não gosto desta série.
+Eu não me sinto bem.
+Eu não tenho certeza disso.
+Eu não tenho guarda-chuva.
+Eu não tenho muito dinheiro para receber este mês.
+Eu pertenço aqui.
+Eu quero pedir um aumento.
+Eu quero saber o tempo para amanhã.
+Eu sou de São Paulo capital.
+Eu sou um grande fã de Star Wars como todo mundo.
+Eu tenho algum emal para ler?
+Eu tenho algum evento na minha lista?
+Eu tenho uma proposta para vocês.
+Eu trabalho na construção civil.
+Eu uso Codeblocks para codificar em C mais plus.
+Eu vou comprar uma nova caneta azul.
+Eu vou criar um virtualenv nessa pasta.
+Eu vou escutar esse podcast.
+Eu vou estudar redes neurais neste final de semana.
+Eu vou fazer compras on-line na Amazon.
+Eu vou ler a documentação do Keras neste fim de semana.
+Eu vou procurar no Github por suporte.
+Eu vou treinar meu próprio modelo, claro.
+Exportar este arquivo.
+Fazer muito é aquela bicicleta?
+Faça login na minha conta do github.
+Faça uma busca no Google por gatos brancos.
+Faça uma busca por artistas nacionais.
+Fechar o firefox
+Feche o Windows Explorer agora.
+Felipe falou com Paulo pelo telefone.
+Filmes com Angelina Jolie.
+Filmes em que Keanu Reeves estava.
+Filmes que serão lançados nesse ano.
+Fique ligado!
+Foi um grande erro.
+Fomos ao shopping ontem.
+French Guiana, Falkland Islands and Suriname.
+Gerenciados de tarefas do Windows.
+Gostaria de estudar em Stanford?
+Gosto é gosto.
+Gravação de voz.
+Guerra dos Infinitos Vingadores estava fora deste mundo.
+He was in Juneau, Alaska last month.
+Hoje vai ser um longo dia.
+Holandês é semelhante ao alemão?
+Há novos shows disponíveis no Netflix este mês?
+I think they speak Spanish in Bolivia.
+Incrível!
+Inicie o processo de rendenização do vídeo.
+Inteligência Artificial.
+Internet banda larga.
+Internet discada.
+Isso importa?
+Isso me deu arrepios.
+Isso não é uma empresa de mídia britânica ou algo assim?
+Isso é demais!
+Isso é em binário ou hexadecimal?
+Janela fechada.
+Jeff Bezos tem filhos?
+Jogar Veneno de Eminem.
+Jogue o Post Malone melhor agora.
+Jogue o lixo fora!
+John e Thomas estavam na mesma sala de aula.
+Joice e Júlia estudam juntas.
+José comprou um novo smartphone.
+Legal!
+Leia o número de notícias onze.
+Lembre-me de acordar amanhã às oito da manhã.
+Ligue para a esposa de Michael.
+Ligue para minha mãe.
+Ligue para o meu irmão.
+Ligue para o meu professor.
+Ligue para o nove-um-um.
+Ligue-o.
+Linus Torvalds criou o kernel do Linux.
+Lista de idiomas disponíveis
+Maria acha que é Paulo.
+Maria e Paula fazem a mesma atividade aos domingos.
+Mas eu não matei ninguém.
+Mas você conhece ela?
+Matenha aberto por cinco dias.
+Me lembre de ir ao mercado ás três da tarde.
+Me parece certo.
+Menos por favor!
+Menos sete em um número negativo.
+Meu calendário está cheio.
+Meu nome é Roberto.
+Meus fones de ouvido são muito ruins.
+Mexico, Canada and the United States of America.
+Minha condição é séria.
+Minha primeira biblioteca de Deep Learning foi Theano.
+Minha sombra está por toda parte.
+Mostre filmes de ação.
+Mude a posição do mouse.
+Mudo.
+Muitos brasileiros usam o WhatsApp.
+Muitos desses métodos não funcionam.
+Mãe de Tim Cook.
+Música anterior.
+Na sua cabeça!
+No próximo ano, lançaremos um novo conjunto de dados público.
+Nome da namorada de Drake.
+Nos próximos anos, provavelmente iremos até Marte.
+Não havia necessidade de abordar o assunto.
+Não houve festa na escola este ano.
+Não me parece.
+Não sei onde vai.
+Não, nós não!
+Nós estavámos enganados!
+Nós temos comida.
+Nós temos um acordo?
+Nós usamos principalmente Python e Tensorflow em nossa inicialização.
+Nós vamos para a Flórida no próximo ano.
+Nós vamos usar JavaScript para lidar com o site.
+O Facebook tem muitos problemas de privacidade.
+O Tensorflow roda mais rápido com uma placa gráfica.
+O Youtube ainda é a melhor plataforma de vídeos.
+O animal escapou da armadilha.
+O animal selvagem veio em minha direção.
+O aplicativo foi baixado.
+O arquivo foi baixado com sucesso.
+O cachorro e o gato brigavam constantemente.
+O cachorro e o gato eram bons amigos.
+O cachorro pulou a cerca de dois metros e meio.
+O capitão falou em voz alta sobre o ocorrido.
+O cavalo branco.
+O cavalo e o jumento eram semelhantes.
+O cheiro é estranho.
+O conjunto de dados era muito grande para ser carregado na memória.
+O coração quer o que o coração quer.
+O envio falhou!
+O esposo dela é engenheiro.
+O evento será no final de semana.
+O falcão é um caçador incrível!
+O filme foi muito bom, ele disse a um amigo.
+O futuro do mundo é incerto.
+O futuro é agora.
+O futuro é incerto.
+O garoto estava brincando com seu carro remoto.
+O gato olhou para o seu dono e sorriu.
+O grupo era de fora da cidade.
+O irmão de Ana tem vinte e dois anos.
+O leão e a leoa são animais assustadores.
+O melhor filme de dois mil e dezoito.
+O mercado está em alta.
+O meu celular é da Samsung.
+O modelo de visão em muito complexo.
+O médico falou o mesmo.
+O nome dela é Clara.
+O nome do filme é Titanic.
+O novo Visual Studio parece lindo.
+O número cinco me parece certo.
+O pai de Mark Zuckerberg.
+O pai estava cansado do trabalho.
+O país cresceu muito esse ano.
+O planeta Terra é em sua maioria azul.
+O presidente do Brasil terá muito o que fazer pela frente.
+O preço é muito alto.
+O que você pode fazer?
+O que é isso?
+O sete furioso foi um filme muito emocionante para mim.
+O sol nasceu mais cedo hoje.
+O sol é quente ou muito quente?
+O time Coreano se saiu bem nesse campeonato.
+O tráfico está muito lento.
+O vaqueiro era muito rápido.
+O velho caminho.
+Oi, como assim?
+Oi.
+Oito pratas por esse relógio.
+Ok, vamos fazer isso então!
+Olá
+Olá!
+Olá, meu nome é Maria.
+Onde eu estou agora?
+Onde fica a capital da Argentina?
+Onde você está?
+Os dois compartilharam a tarefa.
+Os dois estavam de mãos dadas.
+Os garotos vão voltar em breve.
+Os politícos não sabem o que fazer.
+Os preços de internet no Brasil sã um absurdo.
+Os profissionais ficaram felizes.
+Os tanques estavam cheios.
+Outra pessoa ajudou ele.
+Outra plataforma.
+Outro filme que eu não assisti foi Jurassic World.
+Outro momento como esse.
+Para mim é difícil.
+Para que time você torce?
+Paraguay and Uruguay will not join in the World Cup this year.
+Pare.
+Paris parecer ser um bom destino.
+Paulo e Joana estão trabalhando no projeto.
+Pegue o controle remoto.
+Perl tem muitas coisas legais.
+Peru and Venezuela won their matches.
+Pesquisa no Google Maps para Miami Florida.
+Pesquise imagens de gatos.
+Pesquise legendas em francês.
+Pesquise no Google por imagens de gatos pretos.
+Peça uma pizza.
+Por favor tome cuidado!
+Precisamos de mais dados.
+Precisamos de mais privacidade online.
+Presidente Obama.
+Primeira esposa de Warren Buffett.
+Processador Intel.
+Processador de quatro núcleos.
+Procure por presidente dos Estados Unidos da América.
+Projetor de tela.
+Próxima música.
+Quais são as novidades para hoje?
+Qual a capital da Coreia do Sul?
+Qual backend você usa para o Keras?
+Qual filme ganhou o Oscar no ano passado?
+Qual foi o computador analógico?
+Qual foi o seu sonho de ontem?
+Qual idioma é falado na Alemanha?
+Qual língua você deseja aprender este ano?
+Qual música está tocando?
+Qual o propósito disso?
+Qual serviço de streaming você usa?
+Qual é a capital do Japão?
+Qual é a definição de
+Qual é a entrada da forma?
+Qual é a melhor solução para esse problema?
+Qual é a previsão do tempo para amanhã?
+Qual é a sua operadora de internet?
+Qual é a sua opinião nesse tópico?
+Qual é o maior edifício da China?
+Qual é o nome dessa música?
+Qual é o problema?
+Qual é o seu filme favorito?
+Qual é o seu nome?
+Qual é o seu sonho, Ethan?
+Qualquer um pode fazer isso, ele disse.
+Quando eu vi ele, ele estava pálido.
+Quando foi Bill Gates nasceu?
+Quando é a festa?
+Quando é o aniversário da Marta?
+Quanta custa essa televisão?
+Quantas camadas precisamos?
+Quantas pessoas falam mandarim?
+Quantas pessoas ouvem música inglesa?
+Quantas visualizações esse vídeo recebeu?
+Quantas visualizações tem esse clip?
+Quanto custa esse notebook?
+Quanto tempo deve durar o currículo?
+Quanto é sete mais cinco.
+Quantos anos tem Ellie Goulding?
+Quantos anos tem Elon Musk?
+Quantos likes tem esse post?
+Quantos litros de água devo beber por dia?
+Que bacana essa revista.
+Que dispositivo interessante é esse.
+Que esportes você pratica?
+Que horas são?
+Que música está tocando?
+Quem criou o universo?
+Quem escreveu essa música?
+Quem escreveu este artigo no Medium?
+Quem escreveu este livro?
+Quem inventou o computador?
+Quem vai pagar por isso?
+Quem é Avril Lavigne?
+Quem é Barack Obama?
+Quem é Bill Gates?
+Quão grande é a Europa?
+Rastreamento de rostos.
+Reconhecimento de Entidade Nomeada pode ser feito usando Redes Neurais.
+Reconhecimento de voz.
+Reproduzir música número sete.
+Reserve um hotel para amanhã, às nove da noite.
+Rever sentenças.
+Sacramento, in Calafornia will probably have high speed connection soon.
+Segundo o dicionário, isso não é verdade.
+Sejam bem-vindos!
+Selecione japonês como idioma principal.
+Setenta por cento dos alunos falam bem do professor.
+She was born in Phoenix, Arizona.
+Sim ou não!
+Sim, vamos usar o Python três pontos seis.
+Soda tem muito açúcar.
+South America.
+Sua mente estava cheia de pensamentos.
+São Paulo capital.
+São cinco e cinquenta e cinco.
+São nove horas.
+Também haverá aulas aos sábados.
+Teclado, mouse e monitor.
+Tecnologia Open Source é essencial.
+Tecnologia, esse ano novos meios de conexão serão lançados.
+Tem certeza?
+Texto para fala.
+The event will be in Little Rock, Arkansas.
+The senator of Idaho was against that.
+The state of Georgia.
+They went to Denver, Colorado yesterday.
+Tocando a música pedida.
+Tocar música.
+Todo mundo estava com gripe.
+Todo tipo de coisa.
+Toque Drake Nonstop.
+Toque Travis Scott Sicko Mode.
+Toque alguma música do Green Day.
+Toque alguma música do Michael Jackson.
+Toque música número dez.
+Toque.
+Traduzir este documento para o italiano.
+Trezentos e quarenta e duas pessoas foram convidadas.
+Um carro vermelho.
+Um dos melhores jogadores do time.
+Um erro ocorreu.
+Um homem com uma camisa laranja.
+Um mulher com um vestido vermelho como no filme Matrix.
+Uma mulher tirando um foto.
+Uma parceria entre as companias seria o ideal.
+United States of America.
+Universo da Marvel.
+Vai chover amanhã?
+Vamos agora falar sobre as roupas.
+Vamos começar.
+Vamos contribuir com essa causa.
+Vamos falar sobre isso amanhã.
+Vamos usar o Anaconda para este projeto.
+Venha aqui rápido!
+Verifique as atualizações do tensorflow.
+Verifique meus emails.
+Verifique os sinais vitais.
+Verifique se há correios de voz.
+Verifique se há eventos na minha lista.
+Vice-presidente do Peru.
+Vingadores Guerra Infinita.
+Você acredita em Deus?
+Você acredita em superpopulação?
+Você ainda está usando o Google Tradutor?
+Você ainda fala do Neymar?
+Você ainda ouve música?
+Você assiste a Fox News ou Cable News Network?
+Você assistiu esse novo clipe de música?
+Você assistiu o filme dos Vingadores?
+Você chorou enquanto assistia ao Titanic?
+Você come chocolate?
+Você conhece a Ana.
+Você conhece o pai dela?
+Você considera estudar fora?
+Você deveria sair do Instagram por um tempo.
+Você esqueceu de comprar leite.
+Você está aprendendo isso?
+Você está aí?
+Você está em gráficos?
+Você está estudando espanhol ou chinês?
+Você está indo para essa conferência sobre Deep Learning?
+Você está planejando viver no exterior?
+Você está registrado neste restaurante?
+Você está tomando remédio?
+Você foi assisti Deadpool?
+Você gosta de Aprendizado de Máquina?
+Você gosta de açúcar?
+Você gosta de futebol?
+Você gosta de ler enquanto ouve música?
+Você gosta de memes?
+Você gosta de zumbis.
+Você joga Fortnite?
+Você joga futebol, Samuel?
+Você pode citar algumas empresas de tecnologia japonesas?
+Você pode compactar esse arquivo em um arquivo gzip?
+Você pode compartilhar seu link do canal do Youtube?
+Você pode fazer matemática?
+Você pode nomear todos os dispositivos de saída, por favor?
+Você pode por favor abrir a calculadora?
+Você pode tirar uma foto?
+Você quer uma bolacha?
+Você sabe como é a minha voz?
+Você sabe falar japonês?
+Você sabe matemática?
+Você sabe mesmo?
+Você só precisa adicionar mais camadas como sempre.
+Você tem conta no Twitter?
+Você usa a discórdia?
+Você usa o Tensorflow ou o Pytorch?
+Você vai aprender Ruby?
+Você vai assistir Fast and Furious?
+Você vai falar com ela?
+Você vai se juntar a nós no campus?
+Volume baixo.
+Voçê irá saber no próximo ano.
+Vá para a aba número seis.
+We will go to El Salvador on vacation this week.
+What is the population of Brazil?
+What is the weather like in Delaware?
+Windows dez.
+Windows sete, oito ou dez.
+Would you like to travel to Florida, sir?
+você é humano?
+É agora ou nunca!
+É muito caro, ela disse.
+É uma piada.

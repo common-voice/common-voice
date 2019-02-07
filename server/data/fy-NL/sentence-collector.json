@@ -1,0 +1,61 @@
+[
+  {
+    "valid": ["Fjoerfoks"],
+    "source": "Self made",
+    "invalid": [],
+    "sentence": "Common Voice is in bjusterbaarlik projekt blinder.",
+    "username": "Fjoerfoks",
+    "createdAt": 1549126663137,
+    "Sentences_Meta_UserVote_Fjoerfoks": true,
+    "Sentences_Meta_UserVoteDate_Fjoerfoks": 1549128642908,
+    "id": "b9f63efae1a1e078fac2cb3c5d3e594ea2ab9ce8d70c0670a0c1d25ed4468646",
+    "last_modified": 1549128642510
+  },
+  {
+    "valid": ["Fjoerfoks"],
+    "source": "Self made",
+    "invalid": [],
+    "sentence": "Ik befêstigje dat dizze sinnen út it publike domein komme.",
+    "username": "Fjoerfoks",
+    "createdAt": 1549126618315,
+    "Sentences_Meta_UserVote_Fjoerfoks": true,
+    "Sentences_Meta_UserVoteDate_Fjoerfoks": 1549128642908,
+    "id": "cd1dacb7a54f79a1a4b60ce61683c033e2555c0777db505e220f38425730feee",
+    "last_modified": 1549128642496
+  },
+  {
+    "valid": ["Fjoerfoks"],
+    "source": "Self made",
+    "invalid": [],
+    "sentence": "Ien sin per rigel is nedich om dizze database te foljen.",
+    "username": "Fjoerfoks",
+    "createdAt": 1549126507245,
+    "Sentences_Meta_UserVote_Fjoerfoks": true,
+    "Sentences_Meta_UserVoteDate_Fjoerfoks": 1549128642908,
+    "id": "bb9544ee015faed525ecb251c334fd0a30a47c37a92c9d5c11a5366bddafdaa9",
+    "last_modified": 1549128642479
+  },
+  {
+    "valid": ["Fjoerfoks"],
+    "source": "Self made",
+    "invalid": [],
+    "sentence": "Foegje in sin ta fan it publike domein út.",
+    "username": "Fjoerfoks",
+    "createdAt": 1549126427901,
+    "Sentences_Meta_UserVote_Fjoerfoks": true,
+    "Sentences_Meta_UserVoteDate_Fjoerfoks": 1549128642908,
+    "id": "de16d270075107ae6c5108f02e9ee933ec01a38b5fce341c3b1d2b1b8a8b37a2",
+    "last_modified": 1549128642459
+  },
+  {
+    "valid": ["Fjoerfoks"],
+    "source": "Self made",
+    "invalid": [],
+    "sentence": "De blomkoal is yn de oanbieding by de Jumbo.",
+    "username": "Fjoerfoks",
+    "createdAt": 1549126370401,
+    "Sentences_Meta_UserVote_Fjoerfoks": true,
+    "id": "965aedb2e9e823e26fc719966616f8c8ae397b539d5669c7a0ab13f1a0bc3f0d",
+    "last_modified": 1549126370322
+  }
+]

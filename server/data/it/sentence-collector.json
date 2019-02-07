@@ -1,0 +1,54 @@
+[
+  {
+    "valid": ["dag7", "Melo46"],
+    "source": "Me.",
+    "invalid": [],
+    "sentence": "Stava rubando dall'immondizia.",
+    "username": "dag7",
+    "createdAt": 1549110392434,
+    "Sentences_Meta_UserVote_dag7": true,
+    "Sentences_Meta_UserVote_Melo46": true,
+    "Sentences_Meta_UserVoteDate_Melo46": 1549195375651,
+    "id": "a1fc4018d1abd880bb42a84d0fd18f7ae3ce057381987bba823a8e73e5ffc6a3",
+    "last_modified": 1549195374956
+  },
+  {
+    "valid": ["dag7", "Melo46"],
+    "source": "Me.",
+    "invalid": [],
+    "sentence": "Non avevo ben capito le sue intenzioni.",
+    "username": "dag7",
+    "createdAt": 1549110392433,
+    "Sentences_Meta_UserVote_dag7": true,
+    "Sentences_Meta_UserVote_Melo46": true,
+    "Sentences_Meta_UserVoteDate_Melo46": 1549195349764,
+    "id": "e602ab7f85d75541525ba001831b7d0df41e6a7aa01d735c9b947354519c13d4",
+    "last_modified": 1549195349553
+  },
+  {
+    "valid": ["dag7", "Melo46"],
+    "source": "Me.",
+    "invalid": [],
+    "sentence": "Avevo visto dalla mia finestra un rospo.",
+    "username": "dag7",
+    "createdAt": 1549110392432,
+    "Sentences_Meta_UserVote_dag7": true,
+    "Sentences_Meta_UserVote_Melo46": true,
+    "Sentences_Meta_UserVoteDate_Melo46": 1549195349764,
+    "id": "8791226d78548f052f2b78c97083dcd40a4f33234208ec37778ca5b409d1ef3b",
+    "last_modified": 1549195349540
+  },
+  {
+    "valid": ["dag7", "Melo46"],
+    "source": "Me.",
+    "invalid": [],
+    "sentence": "Si avvicinò senza fare rumore.",
+    "username": "dag7",
+    "createdAt": 1549110392431,
+    "Sentences_Meta_UserVote_dag7": true,
+    "Sentences_Meta_UserVote_Melo46": true,
+    "Sentences_Meta_UserVoteDate_Melo46": 1549195349764,
+    "id": "ef9d3e2a4a375857496c9f4cd887c1cdd7b2c6981bcfffaea943478d7842ff2d",
+    "last_modified": 1549195349528
+  }
+]
