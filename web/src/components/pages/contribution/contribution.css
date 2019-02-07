@@ -93,6 +93,7 @@
         align-items: center;
 
         & .back {
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -101,6 +102,12 @@
             background: var(--white);
             border-radius: 50%;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+            
+            & svg
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateY(-50%) translateX(-50%);
 
             [dir='rtl'] & {
                 transform: rotateY(180deg);
