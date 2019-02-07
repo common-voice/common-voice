@@ -367,6 +367,11 @@ review-delete-recordings = Hapus rekaman saya
 
 ## New Datasets Page
 
+language = Bahasa
+# File size in gigabytes
+size = Ukuran
+cv-license = Lisensi
+audio-format = Format Audio
 data-other-librispeech-description = LibriSpeech adalah sebuah korpus berdurasi sekitar 1000 jam dengan pembacaan teks berbahasa Inggris dalam frekuensi 16Khz yang berasal dari pembacaan buku audio dari proyek LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Korpus TED-LIUM dibangun dari perbincangan audio dan naskah salinannya yang tersedia di situs web TED.
