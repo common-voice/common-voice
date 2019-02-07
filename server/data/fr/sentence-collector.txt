@@ -1,7 +1,17 @@
 Allume la télé, l'émission commence dans cinq minutes.
+C'est un système hamiltonien dépendant du temps
 Elle ne comprend vraiment rien !
 J'ai garé la voiture dans la rue.
 Le matin, je bois un bol de chocolat.
+Les solutions exactes du mouvement font appel aux fonctions elliptiques de Jacobi.
+Mais alors que se passe-t-il si on force le système?
+Newton introduit là la notion d'équation différentielle ordinaire
 Nous sommes fiers d'avoir gagné la partie.
 On annonce dix centimètres de neige pour cette nuit.
+On retrouve un résultat connu sur les équations différentielles.
 Peux-tu me donner les clés ?
+Qu'entend-t-on par système dissipatif?
+Un point fixe stable est donc un attracteur de la dynamique
+la somme des forces extérieures pouvant dépendre de la position
+on peut faire un changement de variables bijectif dans l'intégrale
+une région “étendue” se contracte tandis qu'une autre grandit.
