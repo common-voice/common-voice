@@ -1,102 +1,17 @@
-Allo ? Tu m'entends bien ?
 Allume la télé, l'émission commence dans cinq minutes.
-Anne fonce tête baissée dans le piège tendu par son frère.
-Après tout, ce n'est pas si grave d'avoir râté le train.
-Bonjour madame, je prendrai une baguette tradition ce matin.
-C'est difficile de supporter la canicule quand on n'a pas de climatiseur.
 C'est un système hamiltonien dépendant du temps
-Ce gâteau est vraiment magnifique.
-Ce soir, la finale est retransmise en direct à la télévision.
-Cela dit, je n'ai pas l'impression qu'il sera là.
-Cet après-midi, j'ai trouvé un portefeuille dans le train.
-Cette année, le premier mai tombe un mercredi.
-Cyrille s'est perdu en cherchant le supermarché.
-Elle m'a impressionné par sa maîtrise.
-Elle m'a reproché de ne pas l'avoir rappelée le lendemain.
 Elle ne comprend vraiment rien !
-Essaie de te calmer un peu !
-Est-ce que vous avez des nouvelles de Julien ?
-Et si on commandait une pizza ?
-Excusez-moi, où est situé le bureau des objets trouvés ?
-Hé toi, qu'est-ce que tu fais ici ?
-Il est tard, je vais me coucher.
-Il faudrait installer un dos d'âne pour faire ralentir les voitures.
-Il faut utiliser le frein moteur dans les descentes.
-Il roule beaucoup trop vite, il va avoir un accident !
-Ils viennent de mettre en place le télétravail dans mon entreprise.
-J'achète toujours du poulet label rouge.
-J'ai bien envie de passer plus de temps avec elle.
 J'ai garé la voiture dans la rue.
-Je ne comprends pas d'où vient le problème.
-Je suis né en mille neuf-cent soixante-treize.
-Je vais acheter des chipolatas et quelques merguez.
-Je vais aller skier tout près du Mont-Blanc.
-Je vais devoir racheter un téléphone car le mien est tombé en panne.
-Justine a amené des croissants pour fêter son départ.
-Jérôme se promène souvent le week-end.
-L'ascenseur de la résidence est encore en panne.
-La boutique est en travaux jusqu'au vingt-quatre janvier.
-La cathédrale de Sens est la première cathédrale gothique de France.
-La collecte des bouchons en plastique finance des équipements pour les personnes handicapées.
-La fréquentation du restaurant a doublé ce mois-ci.
-La pratique régulière du sport devrait être encouragée.
-La voiture entre doucement dans l'allée.
-Laura est une adepte des vacances de dernière minute.
-Le match a été reporté à cause de la neige.
 Le matin, je bois un bol de chocolat.
-Le métro arrive à son terminus au pont de Sèvres.
-Le permis de conduire revient vraiment très cher.
-Le traitement mensuel a été intégré au planning.
-Le télétravail se développe de plus en plus.
-Le zèbre marche prudemment dans la savane.
-Les calanques sont magnifiques sur l'île de Minorque.
-Les commerciaux de Bordeaux nous ont offert des chocolats.
-Les commerçants refusent de plus en plus souvent les chèques.
-Les détecteurs de fumée sont indispensables en cas d'incendie pendant la nuit.
-Les enfants cherchent les œufs de Pâques dans le jardin.
-Les fourchettes à gauche, et les couteaux à droite.
-Les gilets jaunes campaient sur un rond-point.
-Les nouveaux trains sont beaucoup plus confortables que les anciens.
-Les omelettes aux champignons sont les plus goûteuses.
-Les prix de l'immobilier sont devenus insupportables à Paris.
 Les solutions exactes du mouvement font appel aux fonctions elliptiques de Jacobi.
-Ma foi, je ne suis pas rassuré par tout ce que j'ai vu.
 Mais alors que se passe-t-il si on force le système?
-Maéline adore pratiquer l'équitation.
-Mohamed a vraiment la fibre commerciale.
-N'oublie pas d'ajouter une pincée de sel !
 Newton introduit là la notion d'équation différentielle ordinaire
-Notre société nous fait bénéficier d'un jour de congé pour déménager.
-Nous avons passé un bon moment avec vous.
-Nous avons tout de suite échangé un regard.
-Nous formons vraiment une bonne équipe.
 Nous sommes fiers d'avoir gagné la partie.
 On annonce dix centimètres de neige pour cette nuit.
 On retrouve un résultat connu sur les équations différentielles.
 Peux-tu me donner les clés ?
-Peux-tu me passer le sel s'il te plaît ?
-Plus loin, un vieillard bâillait sur sa chaise.
-Plus motivé que jamais, il monte les marches quatre à quatre.
-Pourquoi donc faudrait-il encore attendre ?
-Prends ta carte bleue avec toi pour le voyage.
 Qu'entend-t-on par système dissipatif?
-Quand aurez-vous besoin de ce fichier ?
-Quel est ton âge ?
-Quoi ? Tu l'as laissé partir ?
-Sa première tentative a été couronnée de succès.
-Salut, ça va ?
-Seul mon voisin toussait de temps en temps.
-Si tu veux la fève, il va falloir reprendre de la galette.
-Tous les ouvriers doivent pointer en arrivant à l'usine.
-Tu crois qu'il va neiger aujourd'hui ?
 Un point fixe stable est donc un attracteur de la dynamique
-Un silence assourdissant avait envahi la pièce.
-Une panne électrique a paralysé la gare Montparnasse.
-Vivement les vacances !
-Voilà ce qui arrive quand on ne réfléchit pas !
-Vous avez vu ? Il neige encore !
-ce qui s'intègre aisément et donne
 la somme des forces extérieures pouvant dépendre de la position
 on peut faire un changement de variables bijectif dans l'intégrale
 une région “étendue” se contracte tandis qu'une autre grandit.
-Était-il présent ce jour-là ?
