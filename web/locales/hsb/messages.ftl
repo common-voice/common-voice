@@ -331,11 +331,15 @@ faq-when-release-a = Wjacerěčna wersija datowje sadźby Common Voice so tuchwi
 faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
 faq-why-mission-a = Mozilla je sej předewzał, web za kóždeho wotewrjeny a přistupny dźeržeć. Zo bychmy to činili, dyrbimy webawtorow přez webprojekty kaž Common Voice wukmanić. Dokelž hłosowe technologije přez nišowe nałoženja wurostuja, wěrimy, zo dyrbja wšěm wužiwarjam jenak słužić. To rěka, do dalšich rěčow inwestować a wšelake akcenty a demografije wobkedźbować , hdyž so hłosowe technologije wuwiwaja a testuja. Common Voice je zjawna resursa, kotraž wšěm k dispoziciji steji, a teamy a wuwiwarjo Mozilla na cyłym swěće wužiwaja jón hižo za projekty.
 faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
+faq-what-cv-and-deepspeech-a = Datowa sadźba Common Voice wudospołnja Deep Speech, mašinu hłosoweho spóznaća wotewrjeneho žórła Mozilla. Prěnja wersija Deep Speech je so w nowembrje 2017 wozjewiła a je so wot toho stajnje dalej wuwiwiła. Hromadźe z datowej sadźbu Common Voice, měnimy, zo tuta technologija hłosoweho spóznaća wotewrjeneho žórła ma kóždemu k dispoziciji być. Nadźijamy so, zo tute technologije wuwiwarjow wuwiwarjam zmóžnjeja, žołmu inowatiwnych produktow a słužbow wuwiwać.
 faq-is-goal-assistant-q = Je cil Common Voice, hłosowy asistent wutworić?
 faq-is-goal-assistant-a = Zaměr datoweje sadźby Common Voice je, kóždemu na swěće zmóžnić, rěčenske spóznaće, spóznaće rěčnikow abo druhi typ nałoženja wuwiwać, kotrež hłosowe daty trjeba. Hłosowy asistent je jenož jedyn z wjele typow nałoženjow, kotrež móžeće wužiwać, zo byšće datowu sadźbu natwarił.
 faq-do-want-native-q = Njejsym maćernorěcny a rěču z akcentom, chceće mój hłós?
 faq-do-want-native-a = Haj, chcemy předewšěm waš hłós! Jedyn dźěl cila Common Voice je, tak wjele rozdźělnych akcentow kaž móžno hromadźić, zo bychu słužby hłosoweho spóznaća za kóždeho jenak funguja. To rěka, dary wot njemaćernorěčnych rěčnikow su wosebje wažne.
 faq-why-different-speakers-q = Čehodla trjebaće wjele rozdźělnych rěčnikow na rěč?
+faq-why-different-speakers-a =
+    Najwjace hłosowych datowych bankow so z nadreprezentaciju wěstych demografijow trenuje, přez kotrež  so <articleLink>muscy wobdźělnicy a wobdźělnicy srjedźneje klasy</articleLink> preferuja. Akcenty a dialekty, kotrež su zwjetša podreprezentowane w datowych sadźbach su typisce zwjazane ze skupinami ludźi, kotrež su hižo ke kromje stłóčene. Wjele mašinow ma hižo ćeže, žónske hłosy rozumić.
+    Tohodla chcemy wšelakorosc w swojej hłosowej datowej bance!
 faq-why-my-lang-q = Čehodla moja rěč hišće njeje?
 faq-what-quality-q = Kotra awdiokwalita je trěbna, zo by so hłosowy klip w datowej sadźbje wužiwał?
 faq-why-10k-hours-q = Čehodla je 10.000 přepruwowanych hodźin na rěč cil za awdionatočenje?
