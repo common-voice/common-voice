@@ -55,6 +55,38 @@ module "bundler" {
   scale_load_defaults = false
 }
 
+# Policy document to manage ASG Standby status
+data "aws_iam_policy_document" "bundler" {
+  statement {
+    actions = [
+      "autoscaling:DescribeAutoScalingInstances",
+    ]
+
+    resources = [
+      "*",
+    ]
+  }
+
+  statement {
+    actions = [
+      "autoscaling:ExitStandby",
+      "autoscaling:EnterStandby",
+    ]
+
+    resources = [
+      "${module.bundler.autoscaling_group_arn}",
+    ]
+  }
+}
+
+# And a special role to be able to enter and leave standby
+resource "aws_iam_role_policy" "bundler" {
+  name = "bundler-standby"
+  role = "${module.bundler.role}"
+
+  policy = "${data.aws_iam_policy_document.bundler.json}"
+}
+
 module "load_balancer" {
   source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=6b91794839523ab5b3806824369efde2f61b3c17"
   region       = "${var.region}"
