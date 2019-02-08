@@ -280,6 +280,9 @@ manage-subscriptions = Управление на абонаментите
 ## FAQ
 
 faq-title = Често задавани въпроси
+faq-why-different-speakers-q = Защо се нуждаете от толкова много различни говорящи за даден език?
+faq-why-10k-hours-q = Защо целта е 10 000 валидирани часа записано аудио за всеки език?
+faq-how-calc-hours-q = Как Common Voice изчислява часовете?
 
 ## Glossary
 
@@ -376,6 +379,8 @@ listen = Слушване
 skip = Пропускане
 shortcuts = Бързи клавиши
 clips-with-count = <bold>{ $count }</bold> записа
+goal-help-recording = Помогнахте Common Voice да изпълни <goalPercentage></goalPercentage> от ежедневната ни цел от { $goalValue } нови записи!
+goal-help-validation = Помогнахте Common Voice да изпълни <goalPercentage></goalPercentage> от ежедневна ни цел за проверка на { $goalValue } записи!
 contribute-more =
     { $count ->
         [one] Готови ли сте за още { $count }?
@@ -397,6 +402,7 @@ record-three-more-instruction = Още три до края!
 record-again-instruction = Страхотно! <recordIcon></recordIcon> Направете следващия си запис
 record-again-instruction2 = Продължете, направете нов запис <recordIcon> </ recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Последно!
+review-tooltip = Преглеждайте и презаписвайте от тук
 unable-speak = Не можете да говорите сега?
 review-instruction = Прослушайте и ако е нужно направете записа отново
 record-submit-tooltip = { $actionType } изпратете, когато сте готови
@@ -436,6 +442,7 @@ you = Вие
 everyone = Всички
 contribution-activity = Активност на приноса
 top-contributors = Топ доброволци
+recorded-clips = Записи
 
 ## Profile Delete
 
