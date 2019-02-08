@@ -37,7 +37,7 @@ module "bundler" {
   purpose       = "bundler"
   ami           = "${var.ami}"
   elb           = "${module.load_balancer.name}"
-  min_instances = 1
+  min_instances = 0
   max_instances = 1
   instance_type = "t2.medium"
 
