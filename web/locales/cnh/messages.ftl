@@ -244,8 +244,10 @@ english = Mirang
 
 profile-form-username =
     .label = User Name
-profile-form-language =
-    .label = Holhphun
+profile-form-native-language =
+    .label = Kokek Holh
+profile-form-additional-language =
+    .label = Holhphun dang
 profile-form-accent =
     .label = Aw-cawi
 profile-form-age =
@@ -357,13 +359,6 @@ data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
 data-other-title = Awdang Pumhmi Data
 data-other-goto = { $name } hin kal
 data-other-download = Data Dawnlok
-data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox in lak mi chiahnak a si.
-data-other-ted-name = TED-LIUM Corpus
-data-other-ted-description = TED-LIUM cu TED website i chiah mi holh le biatlang le catlang pawl hman in sermi a si.
-data-other-voxforge-description = VoxForge cu mikip  nih zalong tele tling tein computer Aw phun an hman khawh nak caah holhphun pumhnak ah hman mi a si.
-data-other-tatoeba-description =
-    Tatoeba cu holh cawnpiaknak ding ah biatlang, bialeh, le holh tuun mi chiahnak a si.
-    Hi dawnlok mi chungah hin mikip nih mirang holh an tuun mi aa tal.
 data-bundle-button = Pumhmi Data Vialte Dawnlok
 data-bundle-description = Common Voice data le a dang aw data vialte a cunglei ah.
 license = Laisen:<licenseLink>{ $license }</licenseLink>
@@ -379,6 +374,22 @@ review-rerecord = tuunṭhan
 review-cancel = Kuatmi letṭhan
 review-keep-recordings = Tuun mi i chiah
 review-delete-recordings = Tuun mi hlonh
+
+## New Datasets Page
+
+language = Holh phun
+validated-hr-total = Chek cangmi suimilam
+overall-hr-total = Suimilam dihlak
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Dawnlok
+data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox in lak mi chiahnak a si.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM cu TED website i chiah mi holh le biatlang le catlang pawl hman in sermi a si.
+data-other-voxforge-description = VoxForge cu mikip  nih zalong tele tling tein computer Aw phun an hman khawh nak caah holhphun pumhnak ah hman mi a si.
+data-other-tatoeba-description =
+    Tatoeba cu holh cawnpiaknak ding ah biatlang, bialeh, le holh tuun mi chiahnak a si.
+    Hi dawnlok mi chungah hin mikip nih mirang holh an tuun mi aa tal.
 
 ## Download Modal
 
