@@ -237,6 +237,10 @@ english = אנגלית
 
 profile-form-username =
     .label = שם משתמש
+profile-form-native-language =
+    .label = שפת אם
+profile-form-additional-language =
+    .label = שפה נוספת
 profile-form-accent =
     .label = מבטא
 profile-form-age =
@@ -295,12 +299,15 @@ add-language = הוספת שפה
 
 faq-title = תשובות לשאלות נפוצות
 faq-what-cv-q = מה זה Common Voice?
+faq-why-important-q = מדוע זה חשוב?
 faq-how-calc-hours-q = איך מחושבות השעות ב־Common Voice?
 faq-why-account-q = מדוע עלי ליצור חשבון?
 
 ## Glossary
 
 glossary = מונחים
+localization = לוקליזציה
+sentence-collection = אוסף משפטים
 
 ## NotFound
 
@@ -338,6 +345,13 @@ review-delete-recordings = מחיקת ההקלטות שלי
 
 ## New Datasets Page
 
+language = שפה
+# File size in gigabytes
+size = גודל
+cv-license = רישיון
+audio-format = פורמט אודיו
+number-of-voices = מספר קולות
+splits = פיצולים
 data-other-librispeech-description = LibriSpeech הוא מאגר של כ־1000 שעות של דיבור באנגלית באיכות של 16Khz שנגזר מספרי שמע שהוקראו עבור מיזם LibriVox.
 data-other-ted-name = מאגר TED-LIUM
 data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
