@@ -348,15 +348,27 @@ review-delete-recordings = מחיקת ההקלטות שלי
 language = שפה
 # File size in gigabytes
 size = גודל
+validated-hr-total = סה״כ שעות שאומתו
+overall-hr-total = סה״כ שעות
 cv-license = רישיון
 audio-format = פורמט אודיו
 number-of-voices = מספר קולות
 splits = פיצולים
+email-to-download = נא להזין כתובת דוא״ל כדי להוריד
+size-gigabyte = ג״ב
+size-megabyte = מ״ב
+download-language = הורדת { $language }
+validated-hours = שעות שאומתו
+recorded-hours = שעות שהוקלטו
+subscribe = הרשמה
+other-datasets = מאגרי קול אחרים
+feedback-q = יש לכם משוב?
 data-other-librispeech-description = LibriSpeech הוא מאגר של כ־1000 שעות של דיבור באנגלית באיכות של 16Khz שנגזר מספרי שמע שהוקראו עבור מיזם LibriVox.
 data-other-ted-name = מאגר TED-LIUM
 data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
 data-other-voxforge-description = VoxForge הוקם לטובת איסוף של קול מתומלל לטובת שימוש במנועי זיהוי קולי בקוד פתוח.
 data-other-tatoeba-description = Tatoeba הוא מסד נתונים נרחב של משפטים, תרגומים ודיבור לשימוש לטובת לימודי שפה. הורדה זו מכילה את כל האנגלית המדוברת שהוקלטה על ידי הקהילה שלהם.
+go-languages-page = מעבר לעמוד השפות
 
 ## Download Modal
 
