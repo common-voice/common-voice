@@ -16,8 +16,11 @@ indicates-required = * מסמן שדה נחוץ
 
 ## Languages
 
+ab = אבחזית
 ace = אצ׳ינית
+ady = אדיגית
 af = אפריקאנס
+am = אמהרית
 an = אראגונית
 ar = ערבית
 as = אסאמית
@@ -36,6 +39,7 @@ cy = ולשית
 da = דנית
 de = גרמנית
 dsb = סורבית תחתית
+dv = דיבהי
 el = יוונית
 en = אנגלית
 eo = אספרנטו
@@ -64,8 +68,10 @@ kpv = קומי־זיר
 kw = קורנית
 ky = קירגיזית
 mdf = מוקשה
+mhr = מארי מישורית
 mk = מקדונית
 mn = מונגולית
+mrj = מארי הררית
 myv = ארזיה
 nb-NO = נורווגית ספרותית
 ne-NP = נפאלית
@@ -89,10 +95,13 @@ te = טלוגו
 th = תאילנדית
 tr = טורקית
 tt = טטארית
+uby = אוביחית
+udm = אודמורטית
 uk = אוקראינית
 ur = אורדו
 uz = אוזבקית
 vi = וייטנאמית
+vot = וודית
 zh-CN = סינית (סין)
 zh-HK = סינית (הונג קונג)
 zh-TW = סינית (טאיוואן)
@@ -223,8 +232,6 @@ english = אנגלית
 
 profile-form-username =
     .label = שם משתמש
-profile-form-language =
-    .label = שפה
 profile-form-accent =
     .label = מבטא
 profile-form-age =
@@ -308,11 +315,6 @@ data-get-started = <speechBlogLink>איך מתחילים עם זיהוי דיב�
 data-other-title = סדרות נתוני קול נוספות…
 data-other-goto = מעבר אל { $name }
 data-other-download = הורדת נתונים
-data-other-librispeech-description = LibriSpeech הוא מאגר של כ־1000 שעות של דיבור באנגלית באיכות של 16Khz שנגזר מספרי שמע שהוקראו עבור מיזם LibriVox.
-data-other-ted-name = מאגר TED-LIUM
-data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
-data-other-voxforge-description = VoxForge הוקם לטובת איסוף של קול מתומלל לטובת שימוש במנועי זיהוי קולי בקוד פתוח.
-data-other-tatoeba-description = Tatoeba הוא מסד נתונים נרחב של משפטים, תרגומים ודיבור לשימוש לטובת לימודי שפה. הורדה זו מכילה את כל האנגלית המדוברת שהוקלטה על ידי הקהילה שלהם.
 data-bundle-button = הורדת מאגד סדרת נתונים
 data-bundle-description = הנתונים של Common Voice יחד עם כל סדרות הנתונים האחרות שלהלן.
 license = רישיון: <licenseLink>{ $license }</licenseLink>
@@ -328,6 +330,14 @@ review-rerecord = הקלטה מחדש
 review-cancel = ביטול שליחה
 review-keep-recordings = שמירת ההקלטות שלי
 review-delete-recordings = מחיקת ההקלטות שלי
+
+## New Datasets Page
+
+data-other-librispeech-description = LibriSpeech הוא מאגר של כ־1000 שעות של דיבור באנגלית באיכות של 16Khz שנגזר מספרי שמע שהוקראו עבור מיזם LibriVox.
+data-other-ted-name = מאגר TED-LIUM
+data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
+data-other-voxforge-description = VoxForge הוקם לטובת איסוף של קול מתומלל לטובת שימוש במנועי זיהוי קולי בקוד פתוח.
+data-other-tatoeba-description = Tatoeba הוא מסד נתונים נרחב של משפטים, תרגומים ודיבור לשימוש לטובת לימודי שפה. הורדה זו מכילה את כל האנגלית המדוברת שהוקלטה על ידי הקהילה שלהם.
 
 ## Download Modal
 
