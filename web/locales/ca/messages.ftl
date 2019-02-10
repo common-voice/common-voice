@@ -378,6 +378,7 @@ confirm-no-identify = <b>Accepteu</ b> no intentar determinar la identitat dels 
 download-language = Baixa { $language }
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
+whats-inside = Què inclou el conjunt de dades de veu?
 other-datasets = Altres conjunts de dades de veu
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
