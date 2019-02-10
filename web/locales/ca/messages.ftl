@@ -379,12 +379,24 @@ download-language = Baixa { $language }
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
 whats-inside = Què inclou el conjunt de dades de veu?
+dataset-description =
+    Cada entrada del conjunt de dades consisteix en un únic MP3 i el fitxer de text corresponent. Moltes de les <b>{ $hours }</b> hores registrades del conjunt de dades també inclouen metadades demogràfiques, com l'edat, el sexe i l'accent, que poden ajudar a millorar la precisió dels motors de reconeixement de veu.
+    
+    Actualment, el conjunt de dades inclou <b>{ $hours }</b> hores validades en <b>{ $languageCount }</b> llengües, però constantment s'hi van afegint més veus i llengües. Visiteu la <languagesLink>pàgina Llengües</languagesLink> per sol·licitar una llengua o per començar a col·laborar.
+want-dataset-update = Voleu rebre actualitzacions quan publiquem una nova versió del conjunt de dades del Common Voice? Subscriviu-vos al nostre butlletí.
+subscribe = Subscriu-m'hi
+get-started-speech = Introducció al reconeixement de veu
 other-datasets = Altres conjunts de dades de veu
+feedback-q = Teniu algun comentari?
+deepspeech-info = El conjunt de dades del Common Voice complementa el motor de reconeixement de veu de codi obert Deep Speech de Mozilla, que podeu utilitzar per crear aplicacions de reconeixement de veu. Llegiu-ne la <githubLink>descripció general al Github</githubLink> o visiteu el <discourseLink>fòrum DeepSpeech al Discourse</discourseLink> per obtenir informació sobre com començar.
+common-voice-info = Teniu preguntes sobre el Common Voice? Visiteu el nostre <discourseLink>fòrum al Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregistraments d'àudio i llurs transcripcions disponibles en el lloc web de TED.
 data-other-voxforge-description = VoxForge es va crear per recollir transcripcions de diàlegs que es puguin utilitzar en motors de reconeixement de la veu de codi obert.
 data-other-tatoeba-description = Tatoeba és una gran base de dades de frases, traduccions i enregistraments d'àudio per a l'ús en l'aprenentatge de llengües. Aquesta baixada conté tots els enregistraments d'anglès parlat fets per la comunitat.
+your-feedback = Teniu idees sobre com millorar el conjunt de dades del Common Voice? Feu-nos-ho saber al Discourse
+go-discourse = Vés al Discourse
 
 ## Download Modal
 
