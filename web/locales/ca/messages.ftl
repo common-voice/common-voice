@@ -17,8 +17,11 @@ indicates-required = * Indica un camp necessari
 
 ## Languages
 
+ab = abkhaz
 ace = atjeh
+ady = adigué
 af = afrikaans
+am = amhàric
 an = aragonès
 ar = àrab
 as = assamès
@@ -37,6 +40,7 @@ cy = gal·lès
 da = danès
 de = alemany
 dsb = baix sòrab
+dv = divehi
 el = grec
 en = anglès
 eo = esperanto
@@ -65,8 +69,10 @@ kpv = komi
 kw = còrnic
 ky = kirguís
 mdf = mokxa
+mhr = mari oriental
 mk = macedònic
 mn = mongol
+mrj = mari occidental
 myv = mordovià erza
 nb-NO = Bokmål noruec
 ne-NP = nepalès
@@ -91,10 +97,13 @@ te = telugu
 th = tailandès
 tr = turc
 tt = tàtar
+uby = ubikh
+udm = udmurt
 uk = ucraïnès
 ur = urdú
 uz = uzbek
 vi = vietnamita
+vot = vòtic
 zh-CN = xinès (Xina)
 zh-HK = xinès (Hong Kong)
 zh-TW = xinès (Taiwan)
@@ -234,8 +243,10 @@ english = anglès
 
 profile-form-username =
     .label = Nom d'usuari
-profile-form-language =
-    .label = Llengua
+profile-form-native-language =
+    .label = Llengua materna
+profile-form-additional-language =
+    .label = Llengua addicional
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -331,11 +342,6 @@ data-get-started = <speechBlogLink>Primers passos en el reconeixement de la veu<
 data-other-title = Altres conjunts de dades de veu…
 data-other-goto = Vés a { $name }
 data-other-download = Baixa les dades
-data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
-data-other-ted-name = Corpus de TED-LIUM
-data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregistraments d'àudio i llurs transcripcions disponibles en el lloc web de TED.
-data-other-voxforge-description = VoxForge es va crear per recollir transcripcions de diàlegs que es puguin utilitzar en motors de reconeixement de la veu de codi obert.
-data-other-tatoeba-description = Tatoeba és una gran base de dades de frases, traduccions i enregistraments d'àudio per a l'ús en l'aprenentatge de llengües. Aquesta baixada conté tots els enregistraments d'anglès parlat fets per la comunitat.
 data-bundle-button = Baixa el paquet del conjunt de dades
 data-bundle-description = Dades del Common Voice més tots els conjunts de dades de veu anteriors.
 license = Llicència: <licenseLink>{ $license }</licenseLink>
@@ -351,6 +357,22 @@ review-rerecord = Torna a enregistrar
 review-cancel = Cancel·la l'enviament
 review-keep-recordings = Conserva els enregistraments
 review-delete-recordings = Suprimeix els meus enregistraments
+
+## New Datasets Page
+
+language = Llengua
+# File size in gigabytes
+size = Mida
+validated-hr-total = Hores validades totals
+overall-hr-total = Hores totals
+cv-license = Llicència
+audio-format = Format d'àudio
+number-of-voices = Nombre de veus
+data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
+data-other-ted-name = Corpus de TED-LIUM
+data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregistraments d'àudio i llurs transcripcions disponibles en el lloc web de TED.
+data-other-voxforge-description = VoxForge es va crear per recollir transcripcions de diàlegs que es puguin utilitzar en motors de reconeixement de la veu de codi obert.
+data-other-tatoeba-description = Tatoeba és una gran base de dades de frases, traduccions i enregistraments d'àudio per a l'ús en l'aprenentatge de llengües. Aquesta baixada conté tots els enregistraments d'anglès parlat fets per la comunitat.
 
 ## Download Modal
 
