@@ -51,6 +51,24 @@ resource "consul_keys" "config" {
     value  = "${aws_iam_access_key.clips_bucket.secret}"
     delete = true
   }
+
+  key {
+    path   = "${module.consul.config_prefix}/Bucket/Bundler/Region"
+    value  = "${var.region}"
+    delete = true
+  }
+
+  key {
+    path   = "${module.consul.config_prefix}/Bucket/Bundler/Users/Admin/AccessKeyID"
+    value  = "${aws_iam_access_key.bundler_bucket.id}"
+    delete = true
+  }
+
+  key {
+    path   = "${module.consul.config_prefix}/Bucket/Bundler/Users/Admin/SecretKey"
+    value  = "${aws_iam_access_key.bundler_bucket.secret}"
+    delete = true
+  }
 }
 
 # Publish our outputs into Consul for our application to consume
