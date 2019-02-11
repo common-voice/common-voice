@@ -1,5 +1,6 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { useState } from 'react';
 import { InView } from 'react-intersection-observer';
 import URLS from '../../../urls';
 import { Button, LinkButton } from '../../ui/ui';
@@ -16,12 +17,9 @@ const NAV_IDS = {
 
 const A = (props: any) => <a {...props} />;
 
-class Dataset extends React.PureComponent<any, { collapsed: boolean }> {
-  state = { collapsed: true };
-
-  render() {
-    const { color, name, nick, size, url, download, license } = this.props;
-    const { collapsed } = this.state;
+const Dataset = React.memo(
+  ({ color, name, nick, size, url, download, license }: any) => {
+    const [collapsed, setCollapsed] = useState(true);
     return (
       <div className="other-dataset box">
         <div className="banner" style={{ backgroundColor: color }} />
@@ -73,7 +71,7 @@ class Dataset extends React.PureComponent<any, { collapsed: boolean }> {
               <Localized
                 id={collapsed ? 'languages-show-more' : 'languages-show-less'}>
                 <Button
-                  onClick={() => this.setState({ collapsed: !collapsed })}
+                  onClick={() => setCollapsed(!collapsed)}
                   rounded
                   outline
                 />
@@ -94,7 +92,7 @@ class Dataset extends React.PureComponent<any, { collapsed: boolean }> {
       </div>
     );
   }
-}
+);
 
 const Section = React.memo(({ name, onChangeSection, ...props }: any) => (
   <InView
@@ -109,138 +107,125 @@ const Section = React.memo(({ name, onChangeSection, ...props }: any) => (
   </InView>
 ));
 
-interface State {
-  activeSection: string;
-}
+export default React.memo(() => {
+  const [activeSection, setActiveSection] = useState(null);
+  return (
+    <div className="dataset-resources">
+      <nav>
+        <ul>
+          {[
+            ['get-started-speech', NAV_IDS.getStarted],
+            ['other-datasets', NAV_IDS.other],
+            ['feedback-q', NAV_IDS.feedback],
+          ].map(([labelId, id]) => (
+            <li key={id} className={id == activeSection ? 'active' : ''}>
+              <div className="line" />
+              <Localized id={labelId} key={labelId}>
+                <a href={'#' + id} />
+              </Localized>
+            </li>
+          ))}
+        </ul>
+      </nav>
 
-export default class extends React.Component<{}, State> {
-  state: State = { activeSection: null };
-
-  render() {
-    const handleChangeSection = (name: string) =>
-      this.setState({ activeSection: name });
-    return (
-      <div className="dataset-resources">
-        <nav>
-          <ul>
-            {[
-              ['get-started-speech', NAV_IDS.getStarted],
-              ['other-datasets', NAV_IDS.other],
-              ['feedback-q', NAV_IDS.feedback],
-            ].map(([labelId, id]) => (
-              <li
-                key={id}
-                className={id == this.state.activeSection ? 'active' : ''}>
-                <div className="line" />
-                <Localized id={labelId} key={labelId}>
-                  <a href={'#' + id} />
-                </Localized>
-              </li>
-            ))}
-          </ul>
-        </nav>
-
-        <div className="sections">
-          <Section
-            name={NAV_IDS.getStarted}
-            onChangeSection={handleChangeSection}
-            className="get-started">
-            {[
-              [
-                'DeepSpeech',
-                'deepspeech-info',
-                'deepspeech',
-                {
-                  githubLink: (
-                    <a
-                      href="https://github.com/mozilla/DeepSpeech"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    />
-                  ),
-                  discourseLink: (
-                    <a
-                      href="https://discourse.mozilla.org/c/deep-speech"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    />
-                  ),
-                },
-              ],
-              [
-                'Discourse',
-                'common-voice-info',
-                'discourse',
-                {
-                  discourseLink: (
-                    <a
-                      href="https://discourse.mozilla.org/c/voice"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    />
-                  ),
-                },
-              ],
-            ].map(([title, descriptionId, imgSrc, props]) => (
-              <div className="box">
-                <img src={`/img/datasets/${imgSrc}.png`} />
-                <div className="dots-and-content">
-                  <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
-                  <div className="content">
-                    <h2>{title}</h2>
-                    <Localized id={descriptionId as string} {...props}>
-                      <p />
-                    </Localized>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </Section>
-
-          <Section
-            name={NAV_IDS.other}
-            onChangeSection={handleChangeSection}
-            className="other-datasets">
-            {datasets.map(props => (
-              <Dataset key={props.nick} {...props} />
-            ))}
-          </Section>
-
-          <Section
-            name={NAV_IDS.feedback}
-            onChangeSection={handleChangeSection}>
-            <div className="box feedback">
-              <img src="/img/datasets/feedback.png" />
+      <div className="sections">
+        <Section
+          name={NAV_IDS.getStarted}
+          onChangeSection={setActiveSection}
+          className="get-started">
+          {[
+            [
+              'DeepSpeech',
+              'deepspeech-info',
+              'deepspeech',
+              {
+                githubLink: (
+                  <a
+                    href="https://github.com/mozilla/DeepSpeech"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                ),
+                discourseLink: (
+                  <a
+                    href="https://discourse.mozilla.org/c/deep-speech"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                ),
+              },
+            ],
+            [
+              'Discourse',
+              'common-voice-info',
+              'discourse',
+              {
+                discourseLink: (
+                  <a
+                    href="https://discourse.mozilla.org/c/voice"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                ),
+              },
+            ],
+          ].map(([title, descriptionId, imgSrc, props]) => (
+            <div className="box">
+              <img src={`/img/datasets/${imgSrc}.png`} />
               <div className="dots-and-content">
                 <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
                 <div className="content">
-                  <div className="described-button">
-                    <Localized id="your-feedback">
-                      <p />
-                    </Localized>
-                    <Localized id="go-discourse">
-                      <LinkButton
-                        href="https://discourse.mozilla.org/c/voice"
-                        blank
-                        rounded
-                        outline
-                      />
-                    </Localized>
-                  </div>
-                  <div className="described-button">
-                    <Localized id="missing-language">
-                      <p />
-                    </Localized>
-                    <Localized id="go-languages-page">
-                      <LinkButton to={URLS.LANGUAGES} rounded outline />
-                    </Localized>
-                  </div>
+                  <h2>{title}</h2>
+                  <Localized id={descriptionId as string} {...props}>
+                    <p />
+                  </Localized>
                 </div>
               </div>
             </div>
-          </Section>
-        </div>
+          ))}
+        </Section>
+
+        <Section
+          name={NAV_IDS.other}
+          onChangeSection={setActiveSection}
+          className="other-datasets">
+          {datasets.map(props => (
+            <Dataset key={props.nick} {...props} />
+          ))}
+        </Section>
+
+        <Section name={NAV_IDS.feedback} onChangeSection={setActiveSection}>
+          <div className="box feedback">
+            <img src="/img/datasets/feedback.png" />
+            <div className="dots-and-content">
+              <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
+              <div className="content">
+                <div className="described-button">
+                  <Localized id="your-feedback">
+                    <p />
+                  </Localized>
+                  <Localized id="go-discourse">
+                    <LinkButton
+                      href="https://discourse.mozilla.org/c/voice"
+                      blank
+                      rounded
+                      outline
+                    />
+                  </Localized>
+                </div>
+                <div className="described-button">
+                  <Localized id="missing-language">
+                    <p />
+                  </Localized>
+                  <Localized id="go-languages-page">
+                    <LinkButton to={URLS.LANGUAGES} rounded outline />
+                  </Localized>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Section>
       </div>
-    );
-  }
-}
+    </div>
+  );
+});

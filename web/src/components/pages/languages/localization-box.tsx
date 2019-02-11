@@ -1,6 +1,7 @@
 const { LocalizationProvider, Localized } = require('fluent-react/compat');
-import { RouteComponentProps, withRouter } from 'react-router';
 import * as React from 'react';
+import { useState } from 'react';
+import { RouteComponentProps, withRouter } from 'react-router';
 import ContentLoader from 'react-content-loader';
 import { connect } from 'react-redux';
 import { InProgressLanguage, LaunchedLanguage } from 'common/language-stats';
@@ -131,104 +132,85 @@ type Props = PropsFromState &
     | (InProgressLanguage & { type: 'in-progress' })
     | (LaunchedLanguage & { type: 'launched' }));
 
-interface State {
-  showModal: boolean;
-}
+const LocalizationBox = React.memo((props: Props) => {
+  const { globalLocale, history, locale, localeMessages } = props;
+  const [showModal, setShowModal] = useState(false);
 
-class LocalizationBox extends React.PureComponent<Props, State> {
-  state: State = {
-    showModal: false,
-  };
+  const buildBundleGenerator = () =>
+    localeMessages &&
+    createCrossLocaleBundleGenerator(localeMessages, [locale, globalLocale]);
 
-  buildBundleGenerator() {
-    const { globalLocale, locale, localeMessages } = this.props;
+  const title = (
+    <Localized id={locale}>
+      <span />
+    </Localized>
+  );
 
-    return (
-      localeMessages &&
-      createCrossLocaleBundleGenerator(localeMessages, [locale, globalLocale])
-    );
-  }
-
-  toggleModal = () => this.setState({ showModal: !this.state.showModal });
-
-  goToContribute = () => {
-    const { history, locale } = this.props;
-    trackLanguages('contribute', locale);
-    history.push(toLocaleRouteBuilder(locale)(URLS.SPEAK));
-  };
-
-  render() {
-    const { locale } = this.props;
-
-    const title = (
-      <Localized id={locale}>
-        <span />
-      </Localized>
-    );
-
-    return (
-      <React.Fragment>
-        {this.state.showModal && (
-          <LocalizationProvider bundles={this.buildBundleGenerator()}>
-            <GetInvolvedModal
-              locale={locale}
-              onRequestClose={this.toggleModal}
-            />
+  return (
+    <React.Fragment>
+      {showModal && (
+        <LocalizationProvider bundles={buildBundleGenerator()}>
+          <GetInvolvedModal
+            locale={locale}
+            onRequestClose={() => setShowModal(false)}
+          />
+        </LocalizationProvider>
+      )}
+      {props.type === 'in-progress' ? (
+        <Skeleton
+          title={title}
+          metricLabel={
+            <Localized id="localized">
+              <span />
+            </Localized>
+          }
+          metricValue={props.localizedPercentage + '%'}
+          progressLabel={
+            <Localized id="sentences">
+              <span />
+            </Localized>
+          }
+          progress={props.sentencesCount}
+          progressTotal={SENTENCE_COUNT_TARGET}
+          onClick={() => setShowModal(true)}>
+          <LocalizationProvider bundles={buildBundleGenerator()}>
+            <Localized id="get-involved-button">
+              <span />
+            </Localized>
           </LocalizationProvider>
-        )}
-        {this.props.type === 'in-progress' ? (
-          <Skeleton
-            title={title}
-            metricLabel={
-              <Localized id="localized">
-                <span />
-              </Localized>
-            }
-            metricValue={this.props.localizedPercentage + '%'}
-            progressLabel={
-              <Localized id="sentences">
-                <span />
-              </Localized>
-            }
-            progress={this.props.sentencesCount}
-            progressTotal={SENTENCE_COUNT_TARGET}
-            onClick={this.toggleModal}>
-            <LocalizationProvider bundles={this.buildBundleGenerator()}>
-              <Localized id="get-involved-button">
-                <span />
-              </Localized>
-            </LocalizationProvider>
-          </Skeleton>
-        ) : (
-          <Skeleton
-            title={title}
-            metricLabel={
-              <Localized id="language-speakers">
-                <span />
-              </Localized>
-            }
-            metricValue={this.props.speakers}
-            progressLabel={
-              <Localized id="total-hours">
-                <span />
-              </Localized>
-            }
-            progress={this.props.seconds}
-            progressTotal={HOURS_TARGET * 3600}
-            formatProgress={formatSeconds}
-            progressSecondary
-            onClick={this.goToContribute}>
-            <LocalizationProvider bundles={this.buildBundleGenerator()}>
-              <Localized id="contribute">
-                <span />
-              </Localized>
-            </LocalizationProvider>
-          </Skeleton>
-        )}
-      </React.Fragment>
-    );
-  }
-}
+        </Skeleton>
+      ) : (
+        <Skeleton
+          title={title}
+          metricLabel={
+            <Localized id="language-speakers">
+              <span />
+            </Localized>
+          }
+          metricValue={props.speakers}
+          progressLabel={
+            <Localized id="total-hours">
+              <span />
+            </Localized>
+          }
+          progress={props.seconds}
+          progressTotal={HOURS_TARGET * 3600}
+          formatProgress={formatSeconds}
+          progressSecondary
+          onClick={() => {
+            trackLanguages('contribute', locale);
+            history.push(toLocaleRouteBuilder(locale)(URLS.SPEAK));
+          }}>
+          <LocalizationProvider bundles={buildBundleGenerator()}>
+            <Localized id="contribute">
+              <span />
+            </Localized>
+          </LocalizationProvider>
+        </Skeleton>
+      )}
+    </React.Fragment>
+  );
+});
 
 export default connect<PropsFromState>(({ locale }: StateTree) => ({
   globalLocale: locale,

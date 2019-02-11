@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { HTMLProps } from 'react';
+import { HTMLProps, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { LocaleLink } from '../locale-helpers';
 import { Localized } from 'fluent-react/compat';
@@ -123,36 +123,21 @@ export const LinkButton = ({
   );
 };
 
-type SpinnerState = { showSpinner: boolean };
+export const Spinner = ({ delayMs }: { delayMs?: number }) => {
+  const [showSpinner, setShowSpinner] = useState(false);
 
-export class Spinner extends React.Component<
-  { delayMs: number },
-  SpinnerState
-> {
-  static defaultProps = { delayMs: 300 };
+  useEffect(() => {
+    const timeoutId = setTimeout(() => setShowSpinner(true), delayMs);
+    return () => clearTimeout(timeoutId);
+  }, []);
 
-  state: SpinnerState = { showSpinner: false };
-
-  delayTimeout: number;
-
-  componentDidMount() {
-    this.delayTimeout = setTimeout(() => {
-      this.setState({ showSpinner: true });
-    }, this.props.delayMs);
-  }
-
-  componentWillUnmount() {
-    clearTimeout(this.delayTimeout);
-  }
-
-  render() {
-    return this.state.showSpinner ? (
-      <div className="spinner">
-        <span />
-      </div>
-    ) : null;
-  }
-}
+  return showSpinner ? (
+    <div className="spinner">
+      <span />
+    </div>
+  ) : null;
+};
+Spinner.defaultProps = { delayMs: 300 };
 
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />

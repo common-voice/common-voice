@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { Notifications } from '../../stores/notifications';
 
@@ -10,33 +11,24 @@ interface PropsFromDispatch {
   removeNotification: typeof Notifications.actions.remove;
 }
 
-class NotificationPill extends React.Component<
-  Notifications.Notification & PropsFromDispatch
-> {
-  state = { show: true };
+type Props = Notifications.Notification & PropsFromDispatch;
 
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ show: false });
-    }, NOTIFICATION_TIMEOUT_MS);
-  }
+function NotificationPill({ content, id, removeNotification, type }: Props) {
+  const [show, setShow] = useState(true);
 
-  remove = () => {
-    const { id, removeNotification } = this.props;
-    removeNotification(id);
-  };
+  useEffect(() => {
+    const timeoutId = setTimeout(() => setShow(false), NOTIFICATION_TIMEOUT_MS);
+    return () => clearTimeout(timeoutId);
+  }, []);
 
-  render() {
-    const { content, type } = this.props;
-    return (
-      <div
-        className={'notification-pill ' + type}
-        style={{ opacity: this.state.show ? 1 : 0 }}
-        onTransitionEnd={this.remove}>
-        {content}
-      </div>
-    );
-  }
+  return (
+    <div
+      className={'notification-pill ' + type}
+      style={{ opacity: show ? 1 : 0 }}
+      onTransitionEnd={() => removeNotification(id)}>
+      {content}
+    </div>
+  );
 }
 
 export default connect<void, PropsFromDispatch>(

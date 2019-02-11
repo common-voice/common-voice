@@ -5,6 +5,7 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
+import { useState } from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import { trackHome } from '../../../services/tracker';
@@ -32,40 +33,32 @@ interface State {
   locale: string;
 }
 
-class StatsCard extends React.Component<
-  {
-    children?: React.ReactNode;
-    header: React.ReactNode;
-    onLocaleChange: (locale: string) => any;
-  },
-  State
-> {
-  state: State = {
-    locale: ALL_LOCALES,
-  };
-
-  changeLocale = (locale: string) => {
-    trackHome('metric-locale-change', locale);
-    this.setState({ locale });
-    this.props.onLocaleChange(locale == ALL_LOCALES ? null : locale);
-  };
-
-  render() {
-    const { children, header } = this.props;
-
-    return (
-      <div className="home-card">
-        <div className="head">
-          {header}
-          <LanguageSelect
-            value={this.state.locale}
-            onChange={this.changeLocale}
-          />
-        </div>
-        {children}
+function StatsCard({
+  children,
+  onLocaleChange,
+  header,
+}: {
+  children?: React.ReactNode;
+  header: React.ReactNode;
+  onLocaleChange: (locale: string) => any;
+}) {
+  const [locale, setLocale] = useState(ALL_LOCALES);
+  return (
+    <div className="home-card">
+      <div className="head">
+        {header}
+        <LanguageSelect
+          value={locale}
+          onChange={locale => {
+            trackHome('metric-locale-change', locale);
+            setLocale(locale);
+            onLocaleChange(locale == ALL_LOCALES ? null : locale);
+          }}
+        />
       </div>
-    );
-  }
+      {children}
+    </div>
+  );
 }
 
 interface PropsFromState {
