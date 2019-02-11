@@ -23,3 +23,7 @@ variable "ami" {}
 variable "read_only_public_users" {
   default = "100"
 }
+
+variable "bundler_read_only_public_users" {
+  default = "1"
+}

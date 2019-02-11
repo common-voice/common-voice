@@ -29,18 +29,18 @@ module "worker" {
 }
 
 module "bundler" {
-  source        = "github.com/gozer/nubis-terraform//worker?ref=issue%2F254%2Fworker-desired-instances"
-  region        = "${var.region}"
-  environment   = "${var.environment}"
-  account       = "${var.account}"
-  service_name  = "${var.service_name}"
-  purpose       = "bundler"
-  ami           = "${var.ami}"
-  elb           = "${module.load_balancer.name}"
-  min_instances = 0
+  source            = "github.com/gozer/nubis-terraform//worker?ref=issue%2F254%2Fworker-desired-instances"
+  region            = "${var.region}"
+  environment       = "${var.environment}"
+  account           = "${var.account}"
+  service_name      = "${var.service_name}"
+  purpose           = "bundler"
+  ami               = "${var.ami}"
+  elb               = "${module.load_balancer.name}"
+  min_instances     = 0
   desired_instances = 1
-  max_instances = 1
-  instance_type = "t2.medium"
+  max_instances     = 1
+  instance_type     = "t2.medium"
 
   root_storage_size = "128"
 
