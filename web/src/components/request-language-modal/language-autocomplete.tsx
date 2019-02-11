@@ -24,6 +24,8 @@ class LanguageAutocomplete extends React.Component<Props> {
   }
 
   render() {
+    // Types for Downshift haven't caught up yet. Can be removed in the future
+    const Input = LabeledInput as any;
     return (
       <Downshift onChange={this.props.onChange}>
         {({
@@ -45,7 +47,7 @@ class LanguageAutocomplete extends React.Component<Props> {
           return (
             <div>
               <Localized id="language-autocomplete" attrs={{ label: true }}>
-                <LabeledInput
+                <Input
                   {...getInputProps({
                     label: 'Other Language',
                     required: true,
