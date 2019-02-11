@@ -16,7 +16,7 @@ const NAV_IDS = {
 
 const A = (props: any) => <a {...props} />;
 
-class Dataset extends React.Component<any, { collapsed: boolean }> {
+class Dataset extends React.PureComponent<any, { collapsed: boolean }> {
   state = { collapsed: true };
 
   render() {
@@ -25,7 +25,7 @@ class Dataset extends React.Component<any, { collapsed: boolean }> {
     return (
       <div className="other-dataset box">
         <div className="banner" style={{ backgroundColor: color }} />
-        <img src="" alt="" />
+        <img src={`/img/datasets/${nick}.png`} alt="" />
         <div className="dots-and-content">
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
           <div className="content">
@@ -44,7 +44,12 @@ class Dataset extends React.Component<any, { collapsed: boolean }> {
             {!collapsed && (
               <ul>
                 {[
-                  ['cv-license', <a href={license.url}>{license.name}</a>],
+                  [
+                    'cv-license',
+                    <Localized id={license.name}>
+                      <a href={license.url}>{license.name}</a>
+                    </Localized>,
+                  ],
                   [
                     'size',
                     <span>
@@ -91,6 +96,19 @@ class Dataset extends React.Component<any, { collapsed: boolean }> {
   }
 }
 
+const Section = React.memo(({ name, onChangeSection, ...props }: any) => (
+  <InView
+    onChange={(isVisible, entry) => {
+      if (entry.intersectionRatio > 0.15) {
+        onChangeSection(name);
+      }
+    }}
+    threshold={[0.1, 0.2]}>
+    <A name={name} />
+    <section {...props} />
+  </InView>
+));
+
 interface State {
   activeSection: string;
 }
@@ -99,18 +117,8 @@ export default class extends React.Component<{}, State> {
   state: State = { activeSection: null };
 
   render() {
-    const Section = ({ name, ...props }: any) => (
-      <InView
-        onChange={(isVisible, entry) => {
-          if (entry.intersectionRatio > 0.15) {
-            this.setState({ activeSection: name });
-          }
-        }}
-        threshold={[0.1, 0.2]}>
-        <A name={name} />
-        <section {...props} />
-      </InView>
-    );
+    const handleChangeSection = (name: string) =>
+      this.setState({ activeSection: name });
     return (
       <div className="dataset-resources">
         <nav>
@@ -133,7 +141,10 @@ export default class extends React.Component<{}, State> {
         </nav>
 
         <div className="sections">
-          <Section name={NAV_IDS.getStarted} className="get-started">
+          <Section
+            name={NAV_IDS.getStarted}
+            onChangeSection={handleChangeSection}
+            className="get-started">
             {[
               [
                 'DeepSpeech',
@@ -186,13 +197,18 @@ export default class extends React.Component<{}, State> {
             ))}
           </Section>
 
-          <Section name={NAV_IDS.other} className="other-datasets">
+          <Section
+            name={NAV_IDS.other}
+            onChangeSection={handleChangeSection}
+            className="other-datasets">
             {datasets.map(props => (
               <Dataset key={props.nick} {...props} />
             ))}
           </Section>
 
-          <Section name={NAV_IDS.feedback}>
+          <Section
+            name={NAV_IDS.feedback}
+            onChangeSection={handleChangeSection}>
             <div className="box feedback">
               <img src="/img/datasets/feedback.png" />
               <div className="dots-and-content">

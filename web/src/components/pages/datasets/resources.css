@@ -170,8 +170,8 @@
         }
 
         & img {
-            border: 5px solid black;
-            border-radius: 2px;
+            border: 5px solid white;
+            border-radius: 5px;
             width: 80px;
             height: 80px;
             position: absolute;
