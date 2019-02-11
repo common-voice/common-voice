@@ -66,6 +66,9 @@ export default class API {
       location.reload();
       return;
     }
+    if (response.status >= 400) {
+      throw new Error(await response.text());
+    }
     return isJSON ? response.json() : response.text();
   }
 
