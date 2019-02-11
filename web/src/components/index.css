@@ -162,7 +162,7 @@ button {
     overflow-x: hidden;
     overflow-y: scroll;
 
-    @media (--md-up) {
+    @media (--lg-up) {
         position: relative;
         top: initial;
         bottom: initial;
