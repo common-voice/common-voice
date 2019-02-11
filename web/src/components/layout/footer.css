@@ -6,7 +6,6 @@ footer {
 }
 
 #help-links {
-    margin-top: calc(2 * var(--standard-margin));
     display: flex;
     align-items: center;
     justify-content: center;
