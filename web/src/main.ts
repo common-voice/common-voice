@@ -9,7 +9,10 @@ declare var require: any;
 document.addEventListener('touchstart', function() {}, true);
 
 // Start the app when DOM is ready.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  if (typeof window.IntersectionObserver === 'undefined') {
+    await require('intersection-observer');
+  }
   const App = require('./components/app').default;
   render(React.createElement(App), document.getElementById('root'));
 });

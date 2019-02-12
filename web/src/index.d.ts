@@ -2,3 +2,5 @@
 declare var webkit: any;
 
 declare var MediaRecorder: any;
+
+declare module 'intersection-observer';
