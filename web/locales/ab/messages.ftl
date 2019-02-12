@@ -79,7 +79,7 @@ pl = Полски
 pt-BR = Порҭогеиз Бразылеиро
 rm-sursilv = Сурсылван
 ro = Ромына
-ru = Аурыс
+ru = Руски
 sah = Саха
 sc = Сарду
 sk = Словенчына
@@ -117,6 +117,8 @@ help = Аилыркаа
 contact = Аидҳәалара
 privacy = Амырӡара
 terms = Аиқәшаҳаҭра
+cookies = Кукиз
+faq = ЛУЗ
 link-copied = Азхьарԥш акопиа хыхтәан
 back-top = Хыхьҟа
 logout = Аҭыҵра
@@ -129,6 +131,10 @@ vote-yes = Аеи
 vote-no = Мап
 speak-subtitle = Убжьы ақәшәарга
 speak-goal-text = Анҵамҭақәа абжьы ахарҵит
+listen-goal-text = Анҵамҭақәа игәаҭан
+hours-recorded = Асааҭкәа абжьы ахарҵит
+hours-validated = Асааҭкәа игәаҭан
+voices-online = Абжьқәа Алабҿаба абыржәы
 all-locales = Зегьы
 today = Иахьа
 x-weeks-short =
@@ -207,11 +213,14 @@ male = Ахацәа
 female = Аҳәса
 # Gender
 other = Даҽакы
+why-profile-title = Избан аҷыдахәра иаҭахуп?
 dashboard = Апанель
+build-profile = Аҷыдахәра аԥҵара
 avatar = Асахьа
 goals = Ахықәкқәа
 settings = Архиарақәа
 edit-profile = Аредакциа аҷыдахәра
+profile-create-success = Ишьахәуп, аҷыдахәра ҟалеит!
 profile-close = Иарктәуп
 login-identity = Ахаҭарбага аҭаларазы
 login-signup = Аҭалара/Аҽҭагалара
@@ -226,6 +235,7 @@ add-language = Абызшәа ацҵара
 
 ## FAQ
 
+faq-title = Лассы-ласс иуду азҵаарақәа
 faq-what-cv-q = Изакәиу Common Voice?
 faq-why-important-q = Избан ари краҵанакуоуп?
 
@@ -271,6 +281,8 @@ cv-license = Алицензиа
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = Ихҩылаатәуп { $language }
+validated-hours = Асааҭкәа игәаҭан
+recorded-hours = Асааҭкәа абжьы ахарҵит
 data-other-ted-name = TED-LIUM аизганҵа
 
 ## Download Modal
@@ -357,6 +369,7 @@ stats = Аҭагылазаашьа
 you = Уара
 everyone = Зегь ахархәаҩцәа
 recorded-clips = Анҵамҭақәа абжьы ахарҵит
+validated-clips = Анҵамҭақәа игәаҭан
 
 ## Profile Delete
 
