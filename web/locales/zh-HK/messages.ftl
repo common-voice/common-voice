@@ -8,6 +8,7 @@ email-input =
     .label = 電郵
 submit-form-action = 提交
 loading = 載入中…
+email-opt-in-privacy = 如果同意接收電郵，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法處理呢啲資訊。
 indicates-required = * 表示必填欄位
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -264,6 +265,7 @@ off = 關
 on = 開
 add-avatar-title = 在您的個人檔案中加入頭像
 browse-file-title = 上傳圖片
+browse-file = 拖放至此處，或<browseWrap>按此瀏覽</browseWrap>
 connect-gravatar = 連結到 Gravatar
 gravatar_not_found = 找不到您電郵所屬的 Gravatar
 file_too_large = 選擇的檔案太大
@@ -421,6 +423,7 @@ share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
 
 ## Goals
 
+streaks = 連勝
 days =
     { $count ->
        *[other] 日
