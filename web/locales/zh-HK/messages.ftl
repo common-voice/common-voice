@@ -218,6 +218,8 @@ english = 英文
 
 profile-form-username =
     .label = 使用者名稱
+profile-form-native-language =
+    .label = 母語
 profile-form-accent =
     .label = 口音
 profile-form-age =
@@ -238,6 +240,7 @@ female = 女性
 other = 其他
 why-profile-title = 點解要個人檔案？
 why-profile-text = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
+dashboard = 控制台
 build-profile = 建立個人檔案
 avatar = 頭像
 goals = 目標
@@ -320,6 +323,9 @@ review-delete-recordings = 刪除我的錄音
 ## New Datasets Page
 
 validated-hr-total = 已驗證總時數
+size-gigabyte = GB
+size-megabyte = MB
+download-language = 下載{ $language }
 validated-hours = 已驗證時數
 data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
