@@ -74,6 +74,7 @@ oc = 奧克文
 or = 歐利亞文
 pl = 波蘭文
 pt-BR = 葡萄牙文（巴西）
+rm-sursilv = 羅曼蘇塞瓦語
 ro = 羅馬尼亞文
 ru = 俄文
 sah = 薩哈文
@@ -216,8 +217,6 @@ english = 英文
 
 profile-form-username =
     .label = 使用者名稱
-profile-form-language =
-    .label = 語言
 profile-form-accent =
     .label = 口音
 profile-form-age =
@@ -300,11 +299,6 @@ data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
 data-other-title = 其他語音數據集…
 data-other-goto = 前往 { $name }
 data-other-download = 下載數據
-data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。
-data-other-ted-name = TED-LIUM 語料庫
-data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
-data-other-voxforge-description = VoxForge 的成立，是用來收集被抄寫的對話內容，給自由與開放源碼的語音辨識引擎使用。
-data-other-tatoeba-description = Tatoeba 是一套用於語言學習的大型數據庫，當中包含了各種句子、翻譯、以及錄音。這個下載項目包含了其社群所錄下的英語語音。
 data-bundle-button = 下載數據組合
 data-bundle-description = Common Voice 數據，以及上面列出的所有其他語音數據集。
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
@@ -320,6 +314,16 @@ review-rerecord = 重新錄音
 review-cancel = 取消提交
 review-keep-recordings = 保存錄音
 review-delete-recordings = 刪除我的錄音
+
+## New Datasets Page
+
+validated-hr-total = 已驗證總時數
+validated-hours = 已驗證時數
+data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。
+data-other-ted-name = TED-LIUM 語料庫
+data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
+data-other-voxforge-description = VoxForge 的成立，是用來收集被抄寫的對話內容，給自由與開放源碼的語音辨識引擎使用。
+data-other-tatoeba-description = Tatoeba 是一套用於語言學習的大型數據庫，當中包含了各種句子、翻譯、以及錄音。這個下載項目包含了其社群所錄下的英語語音。
 
 ## Download Modal
 
@@ -425,21 +429,31 @@ recordings =
     { $count ->
        *[other] 錄音
     }
+validations =
+    { $count ->
+       *[other] 驗證
+    }
 
 ## Dashboard
 
 your-languages = 您的語言
 toward-next-goal = 距離下一個目標
+clips-you-validated = 您驗證的錄音
+todays-validated-progress = 今日 Common Voice 驗證錄音嘅進度
 stats = 統計
 you = 您
 everyone = 所有人
 contribution-activity = 貢獻記錄
+recorded-clips = 錄音
 validated-clips = 已被驗證的錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
 
 ## Profile Delete
 
+delete-q = 您想刪除埋所有您的錄音，還是要將錄音保留喺 Common Voice 嘅資料集中？
 keep = 保留
 remove = 移除
+keep-info = 您的錄音會以匿名的形式保留喺 Common Voice 嘅資料集。當您刪除咗個人資料後，就唔能夠再從資料集中刪除錄音。
+remove-info = 我們將會審核您從資料集中刪除錄音的請求。如果您的請求獲得批准，我們將會聯絡已下載資料集的使用者，並請他們也刪除您的錄音。
 profile-form-delete = 刪除個人檔案
