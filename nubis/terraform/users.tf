@@ -51,7 +51,7 @@ resource "aws_iam_user_policy" "bundler_bucket" {
     {
       "Effect": "Allow",
       "Action": [
-        "s3:*",
+        "s3:*"
       ],
       "Resource": [
           "${module.bundler_bucket.arn}",
