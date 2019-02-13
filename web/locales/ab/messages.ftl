@@ -336,38 +336,38 @@ total-hours = Иазгәаҭоу асааҭқәа
 action-click = Ақәқшара
 action-tap = Акьысра
 contribute = Аҽалархәара
-listen = Аӡырҩра
+listen = Азыӡырҩра
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
 clips-with-count = <bold>{ $count }</bold> анҵамҭақәа
-record-cta = Абжьы ҭаҩра иалагоуп
+record-cta = Абжьы ҭаҩра иалагоит
 record-no-mic-found = Амикрофон ԥшаам
-record-error-too-short = Абжьы ҭаҩра икьаҿуп
-record-error-too-long = Абжьы ҭаҩра иуроуп
-record-error-too-quiet = Абжьы ҭаҩра иуроуп
+record-error-too-short = Абжьы ҭаҩра кьаҿуп
+record-error-too-long = Абжьы ҭаҩра аууп
+record-error-too-quiet = Абжьы ҭаҩра мыцхәы илаҟәуп
 record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
-record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны ари аҳәоу уаԥхьа
+record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны аҳәоу уаԥхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ихианы ианбаҟало
 record-three-more-instruction = Х-ҳәоук аанхеит!
 record-last-instruction = <recordIcon></recordIcon> аҵыхәтәантәи!
-clips-uploaded = Анҵамҭақәа иҭагалан
-record-abort-submit = Анҵамҭақәа иадәықәҵатәуп
+clips-uploaded = Анҵамҭақәа ҭагалан
+record-abort-submit = Анҵамҭақәа шьҭтәуп
 record-abort-continue = Анҵамҭа иалгатәуп
 listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
-record-button-label = Убжьы иҭаҩтәуп
+record-button-label = Убжьы ҭаҩтәуп
 
 ## Goals
 
-streaks = Еиқәырццакны
+streaks = Еишьҭыргыланы
 days =
     { $count ->
         [one] мышкы
-       *[other] мш
+       *[other] мыш
     }
 recordings =
     { $count ->
-        [one] нҵамҭк
-       *[other] нҵамҭ
+        [one] нҵамҭак
+       *[other] нҵамҭак
     }
 
 ## Dashboard
