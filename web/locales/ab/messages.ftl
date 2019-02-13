@@ -288,6 +288,8 @@ download-language = Ихҩылаатәуп { $language }
 validated-hours = Асааҭкәа игәаҭан
 recorded-hours = Асааҭкәа абжьы ахарҵит
 data-other-ted-name = TED-LIUM аизганҵа
+go-discourse = Дысқорс ахь ицо
+go-languages-page = Абызшәақәа адаҟьахь ицо
 
 ## Download Modal
 
@@ -347,6 +349,7 @@ record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
 record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны ари аҳәоу уаԥхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ихианы ианбаҟало
 record-three-more-instruction = Х-ҳәоук аанхеит!
+record-last-instruction = <recordIcon></recordIcon> аҵыхәтәантәи!
 clips-uploaded = Анҵамҭақәа иҭагалан
 record-abort-submit = Анҵамҭақәа иадәықәҵатәуп
 record-abort-continue = Анҵамҭа иалгатәуп
