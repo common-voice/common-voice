@@ -347,6 +347,7 @@ record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
 record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны ари аҳәоу уаԥхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ихианы ианбаҟало
 record-three-more-instruction = Х-ҳәоук аанхеит!
+clips-uploaded = Анҵамҭақәа иҭагалан
 record-abort-submit = Анҵамҭақәа иадәықәҵатәуп
 record-abort-continue = Анҵамҭа иалгатәуп
 listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
@@ -369,6 +370,7 @@ recordings =
 ## Dashboard
 
 your-languages = Убызшәақәа
+clips-you-validated = Анҵамҭақәа игәауҭан
 stats = Аҭагылазаашьа
 you = Уара
 everyone = Зегь ахархәаҩцәа
