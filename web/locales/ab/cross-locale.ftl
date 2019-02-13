@@ -1,9 +1,9 @@
 ## Languages
 
-contribute = Агәылаҵа уҭагала
+contribute = Аҽалархәара
 get-involved-button = Аҽалагалара
-get-involved-title = Аҭагалара агәылаҵа { $lang } аҿы
+get-involved-title = Абызшәа  { $lang } аҽалархәара
 get-involved-email =
     .label = Аԥошьҭа
-get-involved-submit = Анапаҵаҩра
-get-involved-return-to-languages = Абызшәақәа азыхынҳәра акәын
+get-involved-submit = Ашьҭра
+get-involved-return-to-languages = Абызшәақәа ирзыхынҳәтәуп
