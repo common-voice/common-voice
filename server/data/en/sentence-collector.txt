@@ -5,6 +5,7 @@ A barrister is a type of lawyer, particularly one who argues cases in court
 A big canvas tent was the first thing to come within his vision.
 A building society provides mortgages, loans and other financial services
 A burst of laughter was his reward.
+A bush chief had died a natural death.
 A cafetiere is a very convenient device for making coffee
 A car has windows, lights, wheels... et cetera.
 A car hire centre is a good place to rent a car
@@ -16,16 +17,21 @@ A crotchet, pronounced with the t, is equivalent to a quarter note
 A cry of joy burst from Philip's lips.
 A dead man is of no use on a plantation.
 A diaper or nappy is an absorbent undergarment for babies
+A flying arrow passed between us.
 A footballer is someone who plays Association Football, or soccer
 A fortnight is a period of fourteen days and nights
 A greengrocer specialises in selling fruit and vegetables
 A gritting lorry is used to grit the roads when frost is expected overnight
+A half a case of tobacco was worth three pounds.
 A ladybird is a type of red and black flying insect
 A ladybird is sometimes known as a ladybug
+A little before dawn of the day following, the fire relief came.
+A little treatment, massage, with some help from the doctor.
 A maddening joy pounded in his brain.
 A meal presented well is most memorable.
 A mimim is a musical term corresponding to a half note
 A moment before he was intoxicated by a joy that was almost madness.
+A month in Australia would finish me.
 A month passed by, and Bonanza Creek remained quiet.
 A number of the people who took part could easily point to the problem
 A patent attorney is a type of lawyer specialising in intellectual property
@@ -34,13 +40,16 @@ A prenuptial agreement was signed.
 A professional babysitter is often known as a childminder
 A rapper creates rap music.
 A rising tide of fat had submerged them.
+A scarlet loincloth completed his costume.
 A semibrieve is a musical note having a duration equivalent to a whole note
 A shadow was creeping over Pierre's eyes.
+A sinewy hand, dripping with water, was clutching the rail.
 A solar flare is due within the hour.
 A strange fire burned in his eyes when Thorpe turned.
 A sweater is known as a jumper in England.
 A thing begun is half done.
 A trickle of fresh blood ran over his face.
+A wildly exciting time was his during the week preceding Thursday the eighteenth.
 About him, everywhere, were the evidences of luxury and of age.
 Accept a father's blessing, and with it, this.
 According to the label, Heinz has fifty-seven varieties
@@ -51,27 +60,46 @@ Add some Cilantro.
 Add some coriander.
 Adrian knows how to drive.
 After a cool April this year, May turned out to be surprisingly warm
+After all, it was simply a mistake in judgment.
+After all, the picture was only a resemblance.
 After buying those shoes I ended up with an overdraft
 After the accident, they took his driving license away.
 After we slept.
+Again he had done the big thing.
+Again the girls applauded, and Mrs Hall cried.
 Ah, I had forgotten, he exclaimed.
 Ah, indeed.
+Ah, it is growing dark and darker.
+Ah, it was sweet in my ears.
+Ah, we were very close together in that moment.
 Ahead of them they saw a glimmer of sunshine.
 Algebra is a foundation of Machine Learning.
 Ali was wearing a bow tie.
 Alice in Wonderland is a well-known book for children by Lewis Carroll
+All an appearance can know is mirage.
 All eyes, however, were staring at him in certitude of expectancy.
 All good things come to an end.
 All in due time.
 All mathematicians know that Pi is approximately three point one four
+All operations have been carried on from Montreal and Toronto.
+All right, Sir, replied Jock with great regret.
 All the children wanted to stroke the silky pink unicorn
+All this day Gregson remained in the cabin.
 All this talk is making me hungry, shall we go out for lunch?
 Already he had begun borrowing from the banks.
+Also, I want information.
+Also, at regular intervals, he would mutter.
+Also, churches and preachers I had never known.
+Also, she has forbidden them smoking their pipes in the after-room.
+Also, she wouldn't walk.
+Also, there was awe in their faces.
 Always put your best foot forward.
 Alzheimer’s disease can be treated if detected early.
 Alzheimer’s disease is usually experienced by the elderly.
 Amen to that.
 Americans say gasoline and the British say petrol.
+Among my minor afflictions, I may mention a new and mysterious one.
+An altruistic act is an act performed for the welfare of others.
 An aubergine is exactly the same thing as an eggplant
 An electrician knows how to solder.
 An ounce of protection is worth a pound of cure.
@@ -79,11 +107,34 @@ An unusual sensation on the opposite side of my stomach.
 And I hope you've got plenty of chain out, Captain Young.
 And MacDougall was beyond the trail, with three weeks to spare.
 And Raoul listened again to the tale of the house.
+And Tom King patiently endured.
 And after the bath a shave would not be bad.
+And as never before, he was ready to obey.
+And each year something happened, and I did not go.
+And he did hurt my arm.
+And he was filled with a strange and foreboding fear.
 And here's another idea.
+And how would we ever find ourselves.
+And now behold the perversity of things.
+And now put yourself in my place for a moment.
 And now, down there, Eileen was waiting for him.
+And right there I saw and knew it all.
+And so early in the voyage, too.
+And that was the last of Francois and Perrault.
+And the Edinburgh Evening News says, with editorial gloom.
+And the Eurasian Chinese-Englishman bowed himself away.
 And the air was growing chilly.
+And the big Persian knew of his existence before he did of hers.
+And the foundation stone of service, in his case, was obedience.
+And their chief virtue lies in that they will never wear out.
+And then, steadily, he began to chew.
+And there was a dog that barked.
+And there's no chivalry, no quarter shown in this fight.
+And this was their sole conversation throughout the meal.
+And twenty men could hold it with spears and arrows.
+And watch out for wet feet, was his parting advice.
 And when you come back in a few days, bring Eileen.
+And yet if she came he had no words to say.
 And you always want to see it in the superlative degree.
 And you are?
 Andrew curled up in the box.
@@ -91,55 +142,103 @@ Another word for zucchini is courgette
 Answerphone is a common British term for a telephone answering machine
 Antarctica is cold at this time of year.
 Antibiotics help fight bacteria.
+Any average young fellow can teach himself in a week.
 Anything I can help you with?
+Anything unusual or abnormal was sufficient to send a fellow to Molokai.
 Anyway, no one saw her like that.
 Apricot is healthy.
 Are you certain that circle is centered?
 Are you sure he has the required expertise to run this project?
 Arthur is the employee of the month.
+As I say, he had tapped the message very rapidly.
 As a young child she was able to sing even before she could speak
+As for himself, weren't the street railway earnings increasing steadily.
+As to how she dressed, he had no ideas at all.
+Ask him, I laughed, then turned to Pasquini.
 Ask them.
+At first he puzzled over something untoward he was sure had happened.
+At first his progress was slow and erratic.
 At least ninety percent of the students disagreed with the professor’s outrageous statement
+At once would be instituted a dozen cooperative commonwealth states.
+At that moment I got the impression that she was willowy.
+At the same time spears and arrows began to fall among the invaders.
 At the top of the chimney stack, you can see the chimney pot
+At this moment I felt a stir at my shoulder.
+At times I wondered where Sir Archibald got his style.
 At your leisure.
 Australia has a diverse range of animals.
 Author of the danger trail, Philip Steels, etc.
 Banana is full of potassium.
 Bassett was a fastidious man.
 Be careful of black ice!
+Before Philip could recover himself Jeanne's startled guards were upon him.
+Behind him lay the thousand-years-long road across all Siberia and Russia.
+Below him the shadow was broken into a pool of rippling starlight.
 Besides, he was paid one case of tobacco per head.
+Besides, that noise makes me deaf.
+Between him and all domestic animals there must be no hostilities.
 Between him and the beach was the cane-grass fence of the compound.
+Between the rush of the cascades, streaks of rust showed everywhere.
+Beyond dispute, Corry Hutchinson had married Mabel Holmes.
 Beyond the foliage.
+Bill lingered, contemplating his work with artistic appreciation.
 Bill thought she was a little xenophobic.
+Billinger may arrive in time.
+Blind with rage, he darted in.
+Blood was oozing slowly from the wounded man's right breast.
+Bob, growing disgusted, turned back suddenly and attempted to pass Mab.
+Both Johnny and his mother shuffled their feet as they walked.
 British people sometimes use the word whilst, though it can seem old fashioned
 Broadband is significantly faster than dial-up internet.
+Broken-Tooth yelled with fright and pain.
+Burke himself had criticized it because of the smile.
+Burnt out like the crater of a volcano.
 Business proposals are being considered.
+But I am at the end of my resources.
+But I did not enjoy it long.
+But Johannes could, and did.
+But Martin smiled a superior smile.
 But a strange thing happened.
 But all my dreams violated this law.
+But ever his gaze returned to that Crouched Venus on the piano.
 But he did not broach it, preferring to mature it carefully.
 But he no longer cared quite so much for that form of diversion.
 But he reconciled himself to it by an act of faith.
+But here amongst ourselves let us speak out.
 But in the canyons water was plentiful and also a luxuriant forest growth.
 But it contributed to the smash.
+But it won't continue, she said with easy confidence.
 But life's worth more than cash, she argued.
+But she swung obediently on her heel into the wind.
 But there came no promise from the bow of the canoe.
+But there was no longer the mother yearning in his heart.
 But there was something even more startling than this resemblance.
 But they make the mistake of ignoring their own duality.
+But this little defect did not worry him.
+But this time it was Saxon who rebelled.
+But to culture the Revolution thus far had exhausted the Junta.
+But we were without this momentum.
 But we'll just postpone this.
 But what they want with your toothbrush is more than I can imagine.
 But who was Eileen's double.
+By golly, the boy wins.
+By that answer my professional medical prestige stood or fell.
+By this time Charley was as enraged as the Greek.
 Call me in the evening.
 Call me that again, he murmured ecstatically.
+Cameron looked at his hands with their long, sinewy fingers.
 Can you interpret this?
 Can you tow my car?
 Cancer has claimed the lives of millions of people.
 Candyfloss is a popular children's delicacy, particularly during the summer holidays
 Capillary blood vessel.
+Captain West may be a Samurai, but he is also human.
 Car body kits are often made out of fiberglass.
 Car safety maintenance should never be overlooked.
 Carnivores are at the top of the food chain; plankton are near the bottom
 Cathy took two hundred and ten pounds out of her bank account,
 Cats eyes are a reflector often used to mark the edges of the carriageway
+Change chairs, Daylight commanded.
 Charles Babbage and Ada Lovelace invented the Analytical Engine.
 Cheers, said the girl, and cheerio
 Cheese must be grated before being added.
@@ -148,6 +247,7 @@ Chess is entirely a game of skill, but backgammon includes an element of chance
 Children can be mischievous.
 Chips, cheese and peas.
 Chocolate with a caramel filling.
+Christmas is an easy problem compared with a Polynesian giving-feast.
 Claire waited patiently.
 Claudia picked up the knife and waved it menacingly.
 Close beside him gleamed the white fangs of the wolf-dog.
@@ -165,20 +265,29 @@ Could I borrow a bit of cash?
 Could the tenors and basses please watch the conductor?
 Craziness is doing the same thing and expecting a different result.
 Creative Commons is an organisation that provides open copyright licences
+Crickets began to chirp, and more geese and ducks flew overhead.
 Cross the stream where it is shallowest.
 Cuddly toy, soft toy, stuffed animal are all plush toys
 Curly rushed her antagonist, who struck again and leaped aside.
+Darkness hid him from Jeanne.
 Data is a vital ingredient of training machine learning models.
+Daughtry elaborated on the counting trick by bringing Cocky along.
+Daylight made no answer, and the door closed behind him.
 Death had come with terrible suddenness.
+Death is and has been ever since old Maui died.
 Dementia is usually experienced by the elderly.
+Dennin's hands were released long enough for him to sign the document.
 Did you find a car park, or did you park on the street?
+Dig in; you're sure good, was Daylight's answer.
 Diphtheria requires urgent medical treatment.
 Do not cross the barbed wires.
 Do not overtake unless it is safe to do so.
 Do you drink herbal teas?
 Do you have allergies?
 Do you have to pay a monthly fee for your bank’s current account?
+Do you know any good land around here.
 Do you know how to sew clothes?
+Do you know that you are shaking my confidence in you.
 Do you like reading physical books or digital versions?
 Do you manage to get out on your bicycle every weekend?
 Do you prefer rock, jazz, or folk music?
@@ -187,6 +296,7 @@ Do you want to buy a single or a return ticket?
 Do you want your boss to like you?
 Doctor's write out many prescriptions for patients.
 Does anybody know the square root of two? the teacher enquired
+Does that look good.
 Does this sound right to you?
 Don't forget to add Basil.
 Don't forget to add Oregano.
@@ -197,14 +307,19 @@ Don't you see, I'm chewing this thing in two.
 Don’t worry, it’s easy.
 Doubt is the beginning, not the end of wisdom
 Down there the earth was already swelling with life.
+Down through the perfume weighted air fluttered the snowy fluffs of the cottonwoods.
 Drinking and driving is not worth it.
 Driving tests are nerve-racking.
 Dual-carriageways and motorways have a central reservation that divides the carriageways
 Each day she became a more vital part of him.
+Each improvement makes the value of everything else pump up.
+Each insult added to the value of the claim.
 Earth and gravel seemed to fill the pan.
 Easter falls either in late March or in April
 Economists like predicting the Economy.
 Education is a path out of poverty.
+Eighteen hundred, he calculated.
+Eighteen, he added.
 Either way, I’m happy.
 Electric Vehicles might be practical if more investment was put into recharging infrastructure.
 Electric field strength is measured in volts per metre
@@ -212,7 +327,10 @@ Eli Harding asked, as Shunk started to follow.
 Emma loves to draw and paint, while I sit and watch quietly
 Emma sometimes enjoys a small gamble, but she never plays for high sums
 Emma takes her summer holidays in June, finding it too hot in August
+Encouraged by my conduct, Big-Face became a sudden ally.
 Engine oil regularly needs changing.
+Enjoy it he did, but principally for Steward's sake.
+Enters now the psychology of the situation.
 Every British car has a gearbox, a bonnet, a windscreen, and a boot
 Every Monday I have to catch the train into work
 Every bone in her aged body seemed broken or dislocated.
@@ -222,26 +340,39 @@ Every school child knows that six is three times two
 Everybody carries a mobile phone nowadays
 Everyone has a desire to be liked, it's perfectly natural.
 Everyone should have access to basic health-care.
+Everything was working smoothly, better than I had expected.
 Excellent, just come on through to the kitchen.
+Exciting times are the lot of the fish patrol.
 Fairy lights are a very popular decoration for a Christmas tree
 Fake news has recently become an area of great public concern
+Famine had been my great ally.
+Fast, but endure.
 February was the coldest month of the year.
 Fibre optics enable ultra-fast internet.
+Fifty yards ahead of her were the first of the rocks.
 Fifty-two percent is hardly a massive majority, she objected
 First things first.
 Fish and chips is a very traditional British meal
 Fizzy drinks often have a lot of sugar and are bad for your teeth
 Fluorescent lamps have now largely been superseded
 Follow the right exit under the bridge.
+For a few moments he ate in silence.
+For a full half minute Jeanne looked at him without speaking.
 For a full minute he crouched and listened.
+For a full minute the two men stared into each other's face.
+For a much longer time Lop-Ear and I remained and watched.
 For a time the exciting thrill of his adventure was gone.
 For all intents and purposes.
 For an instant he saw Pierre drawn like a silhouette against the sky.
 For everything, there is a season.
 For lunch, they had toad-in-the-hole followed by Eton mess
 For more details, please see overleaf
+For such countries nothing remained but reorganization.
+For that reason Le Beau had chosen him to fight the big fight.
 For the first time in his life he was yearning for a scrap.
+For the rest, he was a mere automaton.
 For the twentieth time that evening the two men shook hands.
+For two hours not a word passed between them.
 Forgive and forget.
 Formula one racing is performed by highly skilled drivers.
 Fresh cases, still able to walk, they clustered about the spokesman.
@@ -258,6 +389,7 @@ Get down and dig in.
 Give them their choice between a fine or an official whipping.
 Go the extra mile.
 God bless 'em, I hope I'll go on seeing them forever.
+Good business man, Curly, O'Brien was saying.
 Good evening ladies and gentlemen of the press.
 Good morning, I'd like to book a holiday.
 Good things come in small packages.
@@ -266,112 +398,192 @@ Good thinking, thanks!
 Goodbye, Pierre, he shouted.
 Great minds think alike.
 Gregson had left the outer door slightly ajar.
+Gregson had seated himself under the lamp and was sharpening a pencil.
+Gregson held a lighted match until it burnt his fingertips.
 Gregson shoved back his chair and rose to his feet.
 Gregson was asleep when he re-entered the cabin.
 Habeas corpus is a very ancient principle of the common law
+Had it struck squarely it would have killed him.
 Haddock is one of my least favourite fishes
+Halfway around the track one donkey got into an argument with its rider.
 Hardly were our plans made public before we were met by powerful opposition.
+Harrison is still my chauffeur.
+Harry Bancroft, Dave lied.
 Haste makes waste.
 Have you brought a packed lunch? he asked
 Haven't you read the Highway Code?
 He accidentally put his driving licence in the dustbin
+He also contended that better confidence was established by carrying no weapons.
 He always used his sharpest secateurs for pruning his roses
 He asked if he could borrow her umbrella for an hour or two
 He began to follow the footprints of the dog.
+He bit his tongue, and cursed himself at this fresh break.
+He boiled himself some coffee and sat down to wait.
+He bore no grudges and had few enemies.
 He came first a year ago, and revealed himself to Jeanne.
+He can care for himself.
+He caught himself with a jerk.
+He changed his seat for a steamer reclining chair.
 He chose to do the latter.
+He chuckled as he pulled out his pipe and began filling it.
+He confessed that the sketch had startled him.
 He considered the victory already his and stepped forward to the meat.
+He could feel a new stir in the land.
 He couldn't tell me the difference between Scots and Scottish
 He couldn’t stop laughing.
 He cried in such genuine dismay that she broke into hearty laughter.
 He cried, and swung the club wildly.
+He deluged me, overwhelmed me with argument.
+He destroyed everything that had belonged to the woman.
+He did not believe in the burning of daylight for such a luxury.
 He did not rush in.
 He drank of the water cautiously.
+He drew in a deep breath as he looked at them.
 He earned extra money by renting a room in his house to a lodger
 He felt insulted that they didn't recognise him.
+He gave no reason, but his motive was obvious enough.
+He gave one last snarl and slid from view among the trees.
+He glanced down at her helplessly, and moistened his lips.
 He had a job for life, until he started to question the programme
 He had a positive attitude towards life.
 He had barely entered this when he saw the glow of a fire.
+He had been born with this endowment.
+He had been foiled in his attempt to escape.
+He had been so easy.
+He had comparatively no advantages at first.
+He had forgotten to build a fire and thaw out.
 He had no excuse for the feelings which were aroused in him.
 He had observed the business life of Hawaii and developed a vaulting ambition.
+He had peeled off his shirt and was wildly waving it.
 He had picked up most of his collection second-hand, at car boot sales
+He had proved it today, with his amateurish and sophomoric productions.
 He had to fly economy class, as he wasn't able to afford business class
 He had to warm himself by the electric fire
 He had worshiped her, as Dante might have worshiped Beatrice.
+He heard a sound which brought him quickly into consciousness of day.
+He is a candidate, rising from the serf class to our class.
 He is an Expatriate.
 He is the Duke of Edinburgh.
+He is too keenly intelligent, too sharply sensitive, successfully to endure.
 He leapt again, and the club caught him once more.
+He lifted his eyes, and a strange cry burst from his lips.
 He lived in the city.
 He lives up the hill, at eight Grange Park
 He looked at the handkerchief more, closely.
 He looked like a tramp that had bought his jumper at a jumble sale
+He looked like one who had passed through an uncomfortable hour or two.
+He loved to play Chinese lottery.
 He loves classic cars, and keeps several Mercedes in his garage
+He made no reply as he waited for Whittemore to continue.
 He made sure that the magazine was loaded, and resumed his paddling.
+He may anticipate the day of his death.
+He may desire to escape pain, or to enjoy pleasure.
 He moved away as quietly as he had come.
+He moved his position, and the illusion was gone.
 He obeyed the pressure of her hand.
+He placed his paw on one, and its movements were accelerated.
+He pulled, and the log crashed down to break his back.
 He put the scones on the hotplate, and the cake in the oven
 He sat up all night, without sleep, trying to write and study
 He saw Jeanne falter for a moment.
 He saw all men in the business game doing this.
 He saw only the effect in a general, sketchy way.
+He says he bought him of Jacques Le Beau.
 He seemed to fill it with his tremendous vitality.
+He seized Gregson by the arm and led him to the door.
+He spat it out like so much venom.
 He stopped, and Philip nodded at the horrified question in his eyes.
 He stuffed his sleeping bag into his rucksack, and headed along the canal towpath
 He supposedly was working that day.
+He thought he saw a shudder pass through the Factor's shoulders.
 He told himself that as he washed himself and groomed his disheveled clothes.
 He took his daily dose of vitamins.
 He tore up the tickets.
 He tried to avoid the cracks when walking along the pavement
 He turned sharply, and faced Gregson across the table.
+He turned the map to Gregson, pointing with his finger.
+He understood the meaning of the look.
 He unfolded a long typewritten letter, and handed it to Gregson.
 He waded into the edge of the water and began scrubbing himself.
+He wanted to give the finish to this foe already so far gone.
 He was a head shorter than his companion, of almost delicate physique.
+He was a pariah; a wanderer without a friend or a home.
 He was a wise hyena.
+He was an athlete and a giant.
+He was an enthusiast and a desert dweller.
 He was determined now to maintain a more certain hold upon himself.
 He was driving under the influence.
+He was fond of quoting a fragment from a certain poem.
 He was pressing beyond the limits of his vocabulary.
 He was severely wounded.
 He was smooth-shaven, and his hair and eyes were black.
+He was sure, now, of but few things.
+He was the leader, and Tudor was his lieutenant.
+He was the soul of devotion to his employers.
 He was unable to explain why he had been drinking and driving
+He was worth nothing to the world.
 He was wounded in the arm.
 He went down in midstream, searching the shadows of both shores.
 He will follow us soon.
+He wondered, too, where Roscoe was.
+He would destroy all things that are fixed.
 He would first hunt up Gregson and begin his work there.
+He would keep his faith with Gregson for the promised day or two.
 He'll knock you off a few sticks in no time.
+He'll never do a tap of work the whole Voyage.
 Healthcare in the United Kingdom is provided by the National Health Service
+Hear the Indian dogs wailing down at Churchill.
 Heavy snowfalls that winter made the roads impassable by late February
+Her beautiful hair was done up in shining coils.
 Her birthday is shortly after Christmas, at the beginning of January
+Her eyes smiled truth at him as he came up the bank.
 Her face was against his breast.
+Her gray eyes were flashing, and her lips were quivering.
 Her jewelery shimmered.
 Her mobile phone stopped working.
 Her mother made money by working day and night for over a year
+Her mouth opened, but instead of speaking she drew a long sigh.
 Her own betrayal of herself was like tonic to Philip.
 Her unexpected award was really the icing on the cake
 Her waters broke so she was taken to the maternity assessment ward.
 Her words sent a strange chill through Philip.
 Here comes the cavalry.
+Here he got a fresh thrill.
 Here the explosion of mirth drowned him out.
+Here we allow our solicitors to look after our legal work.
 Here, in the midmorning, the first casualty occurred.
 Here, let me show you again.
 He’s throwing his toys out the pram again
 His abnormal power of vision made abstractions take on concrete form.
+His beady black eyes saw bargains where other men saw bankruptcy.
 His blood grew hot with rage at the thought.
 His cagoule kept him perfectly dry even though it was pouring with rain
 His central heating had stopped working,
 His clothes are really outrageous. He's a one-off
+His eyes never took themselves for an instant from his companion's face.
 His face was streaming with blood.
 His face was very clean, and he had carefully combed his hair
+His freshly caught furs he flung to the floor.
+His hand shot out and clutched Crooked-Leg by the neck.
 His immaculate appearance was gone.
 His infernal chattering worries me even now as I think of it.
 His love of nature made it a foregone conclusion that he would study biology
+His mouth opened; words shaped vainly on his lips.
 His newborn cunning gave him poise and control.
+His outstretched arm dropped to his side, and he paused.
+His partners had starved and died on the Stewart.
 His post was delivered through the letterbox in his front door
+His previous wives had never lived long enough to bear him children.
 His problem is that he can't forgive and forget
 His rubbish was taken away in the dustcart
 His sat nav was mounted to his vehicle dashboard
 His shopping expedition had cost him seventeen pounds, ninety-eight pence
+His slim fingers closed like steel about Philip's.
+His slim hands gripped the edges of the table.
+His teeth shut with a last click.
 His voice was passionately rebellious.
 Hoardings are panels used to display outdoor advertisements
+Horses and rifles had been her toys, camp and trail her nursery.
 How can the government run the country if they ignore families?
 How can you possibly think that? she shouted
 How could he explain his possession of the sketch.
@@ -382,19 +594,28 @@ How do you sew?
 How does my voice sound?
 How fast is your motorbike?
 How many yards are there are in a mile, or metres in a kilometre?
+How much was it.
+How old are you, daddy.
+How old are you, mother.
+I also understand that similar branch organizations have made their appearance in Europe.
 I am Caucasian.
 I am Polish.
 I am a clothes sewer.
 I am a university graduate.
 I am feeling shattered.
+I am going to surprise father, and you will go with Pierre.
 I am having severe chest pains.
 I am lactose intolerant.
+I am writing these lines in Honolulu, Hawaii.
+I arose obediently and went down the beach.
 I ate a huge sandwich this morning.
 I believe that there are tens of thousands of different species of beetle
 I bought my wife a Bouquet of flowers.
 I came for information more out of curiosity than anything else.
+I can see that knife now.
 I can speak French, but I would prefer to be able to speak German
 I can't argue with you, and you know that.
+I can't go elsewhere, by your own account.
 I can't see clearly.
 I can't swim.
 I cannot follow you, she said.
@@ -402,6 +623,7 @@ I care for my elderly mother.
 I could not find the activity in my Schedule.
 I couldn't see the car's number plate, so can't tell you its registration number
 I couldn't tell whether there were thirty or forty birds in the flock
+I defy any man to get a Solomon Island sore in California.
 I did have to cut a few corners.
 I do not blame you for anything; remember that.
 I don't have a fiver.  Can you change a tenner?
@@ -412,49 +634,71 @@ I don't want to lose this game.
 I enjoy having a quiet pint at a traditional British pub
 I felt unwell so I booked an appointment with the local G P.
 I followed the line of the proposed railroad, looking for chances.
+I forgot how easily I had taught myself from the printed page.
 I graduated last of my class.
+I had been born with no organic, chemical predisposition toward alcohol.
 I had been sad too long already.
 I had faith in them.
+I had forgotten their existence.
 I have Celtic ancestry.
 I have a Hispanic background
 I have a headache.
 I have a miniature statue.
 I have an allergic reaction to this.
 I have been doubly baptized.
+I have been robbed, sir, I amended.
 I have been to Asia.
+I have hunted along this ridge, replied Philip.
+I have long noted your thirst unquenchable.
 I have never traveled by train, what is it like?
 I have no idea, replied Philip.
 I have previously read the book.
 I have to be careful of them, as they tear very easily.
 I intend to read this book.
+I just do appreciate it without being able to express my feelings.
 I know it's urgent; I’ll get on to it straight away
+I know that you are in charge there, and Jeanne knows.
 I know that you can't forget how I hurt you
+I know they are my oysters.
+I learned it myself in English ships.
 I left it downstairs.
 I left the car at the garage.
 I like to decorate my fairy cakes with hundreds-and-thousands
+I like to speculate upon the glorious future of man.
 I looked in the mirror.
+I lost my balance and pitched head foremost into the ooze.
 I love athletic activities.
 I love maths almost as much as I love physics
 I love spicy Mexican food like tortillas.
 I love the beautiful colours of autumn, particularly September
 I love to play chess and go, but I find draughts rather too trivial
 I love you too.
+I made no more overtures.
 I may manage to freight a cargo back as well.
 I much prefer yoga than going to the gym
 I need to buy an extension lead
 I need to mow the grass.
 I never allow what can't be changed to annoy me.
+I never saw anything like her in my life.
+I noticed blood spouting from Kerfoot's left hand.
+I obeyed, and a minute or two later they stood before him.
 I often spend Sunday morning with my husband, reading the Sunday newspaper
 I only read the quotations.
 I overspent on my credit card
+I play that choice wide open to win.
 I practice clinical medicine.
 I pray you will get well soon.
+I pulled, suddenly, with all my might.
 I really wouldn't feel comfortable with that.
 I received a court summons this morning.
 I recoiled in horror as I opened the curtains.
 I requested collection upon delivery.
+I sailed third mate in the little Vampire before you were born.
+I saw Mr Pike nod his head grimly and sarcastically.
+I saw it all myself, and it was splendid.
 I saw it when she rolled.
 I saw the advertisement on the way to work.
+I should like to engage just for one whole life in that.
 I suffer from arthritis.
 I suffer from carpal tunnel syndrome.
 I suppose you picked that lingo up among the Indians.
@@ -464,92 +708,139 @@ I think Mark coined that phrase first.
 I think it's much nicer to quarrel.
 I think the solution is obvious.
 I thought that her new novel was absolutely hopeless. Complete rubbish
+I tried to read George Moore last night, and was dreadfully bored.
+I use great trouble advisedly.
+I want my men to work by themselves.
+I want to know how all this is possible.
 I want to learn Zoology.
 I want to plug my lawnmower into mains power
 I want you to wake up and listen to me
+I was Hump, cabin boy on the schooner Ghost.
 I was about to do this when cooler judgment prevailed.
 I was amazed by its heavenly geometry.
+I was beneath the water, suffocating and drowning.
 I was brought up the way most girls in Hawaii are brought up.
+I was completely lost in my work.
 I was delayed for almost an hour because of roadworks
 I was hoping you might be able to assist me with an acquisition.
+I was in New York when the crash came.
 I was near the cabin, and saw you.
+I was not to cry out in the face of fear.
+I was sick once -- typhoid.
+I was still weak from my prolonged immersion.
 I was stuck in traffic all day!
 I was the only one who remained sitting.
 I watched the concert live.
 I will be at the triathlon.
 I will eat sea bass for dinner.
 I will now accept questions from the floor.
+I wish you were more adaptable, Joan retorted.
 I work at the hospital as a paediatrician.
 I would definitely take that with a pinch of salt
 I would like to carve a wooden dolphin.
 I wound up the coil of wires.
 I'd been thinking of adding a small pond to the estate.
+I'd say there was going to be a glorious scrap.
+I'd sooner have my chips back.
 I'll be out of my head in fifteen minutes.
+I'll give a thousand if you produce her, retorted Gregson.
 I'll go over tomorrow afternoon.
 I'll have a Taco, please.
 I'll have an Espresso, please.
 I'll have two beers, a pint of scrumpy and half a shandy please
 I'll just apply that to your order.
+I'll only be in the way.
+I'll see to poor Hughie.
 I'm afraid that is in fact legal south of the river.
+I'm as good as a man, she urged.
+I'm going down there with you, and I'm going to fight.
 I'm not having this.
 I'm not sure; I think the chances are about fifty-fifty
 I'm parched. Let's have a cuppa
 I'm playing a single hand in what looks like a losing game.
 I'm starving. Shall we get some fish and chips at the chip shop?
+I, I beg pardon, he drawled.
+Idealism led him to philosophic anarchy, and his family threw him off.
 If I ever needed a fighter in my life I need one now.
+If I meet her again I shall apologize, said Eileen.
+If I was out of the game it would be easily made.
 If it ain't broke, don't fix it.
 If life gives you lemons, make lemonade
 If not, let's say our prayers and go to bed.
 If you don't believe me, you need to read the article yourself
 If you don't want skin cancer, remember to apply your suncream regularly
 If you have a headache, you can take a paracetamol or an aspirin
+If you mean to insinuate -- Brentwood began hotly.
+If you only could know how I thank you.
 If you take the handbrake off, the car is likely to roll away
 If you want to wrap food, then clingfilm is extremely useful
 If you're going camping, don't forget to pack your towel, flannel, and pyjamas
 If you've made a typing mistake you can correct it with Tippex
+Illuminating oil was becoming all profit.
 In Britain we say Anti-clockwise rather than Counterclockwise
 In Britain, a furnace is known as a central heating boiler
 In Britain, a grocer sells general groceries
 In Britain, mains power is typically supplied at two hundred and thirty volts
 In Japanese tradition, the number four is often considered to be unlucky
 In a flash Philip followed its direction.
+In a flash he was on his feet, facing him.
+In a way he is my protege.
+In her haste to get away she had forgotten these things.
+In it there was something that was almost tragedy.
+In it was the joy of life.
 In many cases, Refugees were highly educated professionals in their former home nation.
+In moments of mental energy Philip was restless.
 In order to jumpstart a car you are going to need jump leads
 In partnership with Daylight, the pair raided the San Jose Interurban.
+In short, my joyous individualism was dominated by the orthodox bourgeois ethics.
 In some countries it is not legal to drink alcohol until twenty-one
 In spite of his education, he didn't know that seventeen was a prime number
 In spite of their absurdity the words affected Philip curiously.
 In statistics we need to distinguish between false positives and false negatives
+In such a tumbling of values was no time to sell.
+In that case he could not miss them, if he used caution.
+In the Bohemian Club of San Francisco there are some crack sailors.
 In the Victorian period gin was a very popular drink for the working class
 In the car were Unwin and Harrison, while Jones sat with the chauffeur.
+In the crib the baby sat up and began to prattle.
+In the matter of curry she is a sheer genius.
 In the picture he saw each moment a greater resemblance to Jeanne.
+In what bucolic school of fence he had been taught was beyond imagining.
+Instead, he arrived on the night of the second day.
 Instead, he joined her; and they ate like two hungry children.
 Is it economical?
 Is it gluten-free?
 Is that program proprietary software, or is it open source?
 Is there any difference between the words Upcoming and forthcoming? she asked
 Is this some sort of test?
+Isaac Ford, the austere soldier of the Lord, the old hypocrite.
 Isn’t that name a bit authoritarian?
 It became immediately apparent this was an affluent area.
 It contains Zucchini.
 It contains courgette.
+It does, was her audacious answer.
 It doesn't matter now.
 It drowned all sound that brute agony and death may have made.
 It fairly clubbed me into recognizing it.
 It felt as if his arguments were going to be repeated ad infinitum
 It happened to him at the Gallina Society in Oakland one afternoon.
+It is a good property, and worth more than that.
 It is a moot point.
+It is a very tenable hypothesis, and will bear looking into.
 It is also an insidious, deceitful sun.
 It is an abandoned Quarry.
 It is an ephemeral video.
 It is an unknown entity.
 It is easy to lose traction while driving over ice.
 It is entirely your prerogative.
+It is growing, every day, every hour.
+It is merely the simple superlative.
 It is my great privilege to pronounce you husband and wife.
 It is necessary to be cordial when dealing with guests.
 It is not an attempt to smash the market.
 It is probably going to rain tomorrow.
 It is the fire, partly, she said.
+It is the nearest refuge.
 It is upstairs.
 It is very plausible to such people, a most convincing hypothesis.
 It issued a rate of forty two dollars a car on charcoal.
@@ -557,42 +848,67 @@ It lasted as a deterrent for two days.
 It lived in perpetual apprehension of that quarter of the compass.
 It made me dizzy.
 It occurred to me that there would have to be an accounting.
+It resembled tea less than lager beer resembles champagne.
 It seemed nearer to him since he had seen and talked with Gregson.
+It seemed the ordained order of things that dogs should work.
 It seems like a strange pointing of the hand of God.
 It still doesn’t sound very vegetarian.
+It took him half an hour to reach the edge of it.
 It was Jeanne singing softly over beyond the rocks.
 It was a blessing in disguise.
 It was a curious coincidence.
 It was a deep, dark and desolate place.
 It was a gaping wound.
+It was a gigantic inadequacy.
 It was a large canoe.
+It was a miracle, and I owe you my life.
 It was a rehashed movie that was already quite bad.
+It was a superb picture.
 It was a temptation, but he resisted it.
+It was beating and waiting in the ambush of those black pits.
 It was edged with ice.
 It was essential that we stopped for coffee.
 It was his intention to return to Eileen and her father.
 It was impossible to buy tickets without having to queue at the box office
+It was impossible to hoist sail and claw off that shore.
 It was impossible to see clearly through the mist.
+It was like the beating of hoofs.
 It was more like sugar.
 It was my idea to a tee.
 It was my reports from the north which chiefly induced people to buy.
+It was not Red-Eye's way to forego revenge so easily.
 It was not a large lake, and almost round.
+It was not exactly a deportation.
+It was our river emerging like ourselves from the great swamp.
+It was over when he made his way through the ring of spectators.
 It was pitch black, and they needed a torch to see where they were
+It was put together in a casual, helter-skelter sort of way.
 It was refreshing to sit in the cool breeze.
 It was simple, in its way, and no virtue of his.
+It was steel, a fisher trap.
 It was the same way with our revolvers and rifles.
+It was the third or fourth time that Philip had heard MacDougall swear.
+It was this proposition that started the big idea in Daughtry's mind.
+It was unobtrusive, yet it was there.
 It wasn't to be.
 It weighed more than the recommended limit.
+It will break our hearts and our backs to hoist anchor by hand.
 It won't be cheap, I take that isn't a concern?
+It won't be for sale.
 It would be futile for a beginner to challenge a grandmaster.
+It would give me nervous prostration.
+It's a Yankee, Joan cried.
 It's a brave new world.
 It's a disaster. It's all gone pear-shaped
 It's best to use washing-up liquid if you're going to wash the dishes
 It's just a camera, take a closer look and you'll see for yourself.
+It's only his indigestion I find fault with.
+It's that much junk.
 It's the aurora borealis.
 It's the strap hangers that'll keep us from going under.
 It's the tip of the iceberg.
 It's way too late to go out now.
+It's worth eight dollars.
 Italian Pasta is delicious.
 Its diameter was not more than two hundred yards.
 It’s for the greater good, you have to make sacrifices.
@@ -602,24 +918,35 @@ I’m watching television with friends this evening
 I’ve got an extra large meat lover’s pizza, without the meat?
 Jacqueline has an ulcer on her bottom lip.
 Jason trained intensely to be the fittest he could be.
+Jeanne and Pierre both gazed toward the great rock.
 Jeanne was turning the bow shoreward.
 Jennifer was distraught.
 Jenny reminded us that politics is still news.
 Jenny went to Italy last year.
+Jerry was so secure in his nook that he did not roll away.
+Jesus was a man that some some call Christ.
+Joan cried, with shining eyes.
 Joan looked triumphantly at Sheldon, who bowed.
 John Lewis’s television advert for Christmas was extremely popular
 Junk mail is a particular problem
 Just a little light digging.
 Just sign right here and I’ll have that all squared away for you.
+Just the same I'd sooner be myself than have book indigestion.
 Keep an eye on him.
 Kids love Yogurt.
+King took every advantage he knew.
+Knowing him, I review the old Scandinavian myths with clearer understanding.
 Lactose intolerance is caused by a lactase enzyme deficiency.
+Lakes and rivers, hundreds of them, thousands of them.
+Last night he showed all the symptoms of coming down with pneumonia.
 Laughter echoed through the circus.
 Laughter is the best medicine.
 Law and order to maintain the peace.
 Learn to walk before you run.
 Learning to play the piano was one of the best things I ever did
 Less is more.
+Let them go out and eat with my boys.
+Let us talk it over and find a way out.
 Let's have a Gourmet meal.
 Let's not focus on the Minutiae details.
 Lets just get the shot.
@@ -627,11 +954,17 @@ Let’s grab a snack bag.
 Like a flash he launched himself into the feathered mass of the owl.
 Linear Regression, Calculus, Algebra, Bayesian statistics are ingredients of Machine Learning.
 Listen to my voice and think carefully.
+Lord Fitzhugh is the key to the whole situation.
 Lord, but I'm glad to see you again, Phil.
+Lots of men take women buggy riding.
 Loudhailer and megaphone are alternative terms for bullhorn
+Low bush whipped him in the face and left no sting.
 Lucy has two sisters and three brothers, all of whom love the countryside
+Mab, she said.
 MacDougall tapped his forehead suspiciously with a stubby forefinger.
+MacDougall, my engineer, believes it.
 Machine Learning can be used to predict and mitigate natural disasters.
+Man could not conquer them.
 Mankind must preserve the environmental ecosystem that sustains it.
 Manuel had one besetting sin.
 Many Western languages derive from Indo-European roots
@@ -648,18 +981,29 @@ Massage under tension, was the cryptic reply.
 Mathematics is the language of reality.
 Matt always hated the staff meeting he was forced to attend every Wednesday
 Max is a fully qualified veterinarian.
+May drought destroy your crops.
 Maybe later.
 Maybe we should circle back round to that barbecue idea?
 Mayonnaise is an ideal condiment to Fries.
 McCoy found a stifling, poisonous atmosphere in the pent cabin.
+McVeigh when he returns from a trip to Honolulu.
 Meanwhile I'll go out to breathe a spell.
 Meditation and awareness are essential elements in the practice of Zen Buddhism
+Men like Joe Goose dated existence from drunk to drunk.
 Men of Selden's stamp don't stop at women and children.
+Men who endure it, call it living death.
+Mercedes screamed, cried, laughed, and manifested the chaotic abandonment of hysteria.
 Midnight walks under the moon are beautiful.
 Mike got ordained on the internet last week.
+Miss Brodie's smile was slightly sarcastic.
 Miss it! Miss Out!
+Mops, sir, eagerly answered the sailor at the wheel.
 Mr Earnshaw and Mrs Linton are characters from Wuthering Heights
+Mr McVeigh told me about him.
+Mrs McFee's jaws brought together with a snap.
+Much more Ernest told them of themselves and of his disillusionment.
 Much, replied Jeanne, as tersely.
+My age, in years, is twenty two.
 My bicycle tyre had a puncture, and I had to change the inner tube
 My daughter is studying zoology at uni
 My daughter is very keen on flavouring meat stews with coriander
@@ -672,6 +1016,7 @@ My favourite operatic composers are Handel, Mozart and Puccini
 My friend lives at sixty-one Main Street
 My gran was unsteady on her feet and used a Zimmer frame for walking
 My grandmother had cataracts surgery and now can see clearly again.
+My idea was that he would have more influence over the natives.
 My joints are aching.
 My name's Ferguson.
 My right foot feels like that of a Chinese debutante.
@@ -682,55 +1027,91 @@ My washing machine is broken, so I'll wash my clothes at the launderette
 My, I'm almost homesick for it already.
 Narrate to me this page.
 National Insurance contributions fund Britain’s National Health Service
+Neither could they understand the growing disaffection among Thorpe's men.
 Neither of these.
+Nevertheless we found ourselves once more in the high seat of abundance.
 New Orleans is recovering from a hurricane.
 New York City is a bustling metropolis.
 Next to them the Canada jays were most persistent.
+Nimrod replied, with a slight manifestation of sensitiveness.
 Nissan manufactures cars.
+No man ate of the seal meat or the oil.
 No need to take that tone sir.
 No need, I ordered take away, it should be here soon.
 No, Aliens won't take over.
 No, I absolutely don't agree, as a matter of fact
+No, I did not fall among thieves.
+No, it is a palace, wherein there are many servants.
+No-sir-ee.
+Nobody knew his history, they of the Junta least of all.
+Nobody knows how the natives got them.
 Non-religious weddings are often held at a Register Office
 Nope, not the slightest idea.
+Nor was Elam Harnish an exception.
 Not at this particular case, Tom, apologized Whittemore.
 Not everybody knows that Wikipedia is available in many different languages
+Not till the twentieth of May did the river break.
 Nothing is more refreshing than the smell of coffee in the morning.
 November is the eleventh month, coming immediately before December
+Now Irvine was a man of impulse, a poet.
+Now animals do not like mockery.
 Now go ahead and tell me in a straightforward way what has happened.
+Now it was missing from the wall.
+Now our figuring was all right.
 Now please give a plain statement of what occurred.
+Now run along, and tell them to hurry.
 Now that mobile phones are so popular, telephone boxes have largely disappeared
 Now these things had been struck dead within him.
 Now you're coming down to business, Phil, he exclaimed.
+Now, you understand.
+Nowhere did the raw earth appear.
+Nowhere in the North is the soil so prolific.
 Nuclear power will soon be replaced by solar power.
+O'Brien emitted a shriek that sank swiftly to a gurgling sob.
 O'Brien had been a clean living young man with ideals.
+O'Brien took off his coat and bared his right arm.
+Obviously, it was a disease that could be contracted by contact.
+Of course much grumbling went on, and little outbursts were continually occurring.
 Of course, I’ll be there!
 Of course, and what would sir be looking for today?
 Of course, that is uninteresting, she continued.
 Oh No! I dropped my wallet!
 Oh thank you! she cried. I am so glad!
+Oh, it's just a novel, a love story.
 Okay, I think I can do that.
 Okay, hand it here.
 On Jack’s right was an area where the water was even deeper than usual
 On Saturday afternoons my wife and I normally go shopping
+On occasion, on this traverse, the Cape Verde Islands are raised.
+On the far corner of the compound fence a hawk brooded.
 Once the jews harp began emitting its barbaric rhythms, Michael was helpless.
 One a penny, two a penny, hot cross buns
 One by one the boys were captured.
 Online Education has become accessible and is growing in popularity.
+Only once did I confide the strangeness of it all to another.
+Only the chance sound had led him to observe them.
 Only, it is so wonderful, so almost impossible to believe.
 Oolong Atoll was one hundred and forty miles in circumference.
+Oolong was two hundred and fifty miles from the nearest land.
 Open source culture has facilitated the progress of technology at an astonishing pace.
 Open source technology means people don't need to keep reinventing the wheel.
 Oppressive as the heat had been, it was now even more oppressive.
 Orient the table in the direction of the east wall.
 Orienteering is a sport that combines cross-country running and map reading
+Otherwise no restriction is put upon their seafaring.
+Our Mr Howison will call upon you at your hotel.
 Our aunt is visiting this weekend.
 Our genetics define our appearances and traits. Our experiences define who we are.
 Our national debt amounts to several trillion pounds
+Out of abstractions Ernest had conjured a vision and made them see it.
 Out of his eighteen hundred, he laid aside sixteen hundred each year.
+Outsiders are allowed five minute speeches, the sick man urged.
+Outwardly, he maintained a calm and smiling aspect.
 Paraffin is the British name for kerosene
 Parcels arrive just in time.
+Peace be unto you and grace before the Lord.
 Pearce's little eyes were fixed on him shrewdly.
+Pebbles and dirt flew along with hair and fur.
 Pencils are made from lead.
 Penguins aren't able to fly, but they can swim
 People who whisper all the time can be very irritating
@@ -740,12 +1121,21 @@ Perhaps she had already met her fate a little deeper in the forest.
 Perspex is a clear plastic that can sometimes be used to replace glass
 Peter felt sick, and leaned heavily on the table
 Petrol and Diesel engines are going the way of the dodo.
+Philip ate lightly of the food which Pierre had ready for him.
 Philip began to feel that he had foolishly overestimated his strength.
+Philip bent low over Pierre.
 Philip bent lower, and stared into the face of the dead man.
+Philip did not pursue the subject.
+Philip dropped back into his chair.
+Philip knew that she was not an Indian.
+Philip looked back from the crest and saw Jeanne leaning over the canoe.
 Philip made no effort to follow.
+Philip produced a couple of cigars and took a chair opposite him.
+Philip saw MacDougall soon after his short talk with Thorpe.
 Philip snatched at the letter which Gregson held out to him.
 Philip stood undecided, his ears strained to catch the slightest sound.
 Philip thrust himself against it and entered.
+Philip took a step toward Gregson, half determined to awaken him.
 Phone boxes or payphones are not so common now
 Physicists really don't understand what happened during the big bang
 Pierre obeys me when we are together.
@@ -754,6 +1144,7 @@ Please clear the gangway or we won't be able to get out
 Please clear your browser cache and try again.
 Please consult your physician if you experience any side effects.
 Please do not patronize me.
+Please do not think that I already know it all.
 Please don't jay-walk: cross the road at the zebra crossing
 Please don't keep complaining about my cough
 Please excuse me.
@@ -765,6 +1156,7 @@ Please offer your points and perspectives.
 Please send me the business case for your company’s expansion plan
 Please specify the service provider.
 Points of view, new ideas, life.
+Poor little Crooked-Leg was terribly scared.
 Potato crisps are thinly sliced fried potatoes, eaten as a snack
 Potato is full of carbohydrates.
 Press escape to return.
@@ -775,9 +1167,13 @@ Providence had delivered him through the maelstrom.
 Punctuality was not something he is known for.
 Punnets of strawberries can often be bought from roadside stalls in summer
 Pushchairs can be folded when the toddler wants to walk
+Quick was the disappointment in his face, yet smiling was the acquiescence.
+Raoul yelled, in order to make himself heard.
 Rather than eat and drink, he preferred to smoke incessantly
 Reaching the peak of the mountain was an exhilarating experience.
 Reckless driving is the cause of many fatalities.
+Red-Eye never committed a more outrageous deed.
+Red-Eye swung back and forth on the branch farther down.
 Reduce, Reuse, Recycle for a better planet.
 Refugees are normal people who have been displaced due to natural disaster or conflicts
 Refugees are vulnerable people.
@@ -787,7 +1183,10 @@ Residents must register with the electoral register to be eligible to vote.
 Right, lets try these new skills out!
 Rob and Bob went bowling.
 Robbery, bribery, fraud,
+Sandel would never become a world champion.
+Saxon nodded, and the boy frowned.
 Saxon waited, for she knew a fresh idea had struck Billy.
+Saxon's onto her job.
 Scarcely had he uttered the name when Pierre's closing eyes shot open.
 Scientists believe that life on Earth started more than four billion years ago
 Scotch tape, also known as Sellotape, is very useful for wrapping Christmas presents
@@ -814,20 +1213,26 @@ She had died from cold and starvation.
 She has my utmost respect.
 She hired a transit van when she moved out of her rented flat
 She is an Athlete.
+She is essentially the life-giving, life-conserving female of the species.
 She loved science, and at school physics and mathematics were her favourite subjects
 She loved the color mauve.
 She managed to believe six impossible things before breakfast
 She nodded, and her eyes grew soft and moist.
+She obeyed, shrinking back with the baby in her arms.
 She paid her rent in monthly instalments
 She passed her driving test on her first attempt.
 She picked up the necklace and stuffed it into her bag
+She said with chattering teeth.
 She sat across the room.
+She saw the answer in his face.
 She turned in at the hotel.
 She turned, fearing that Jacques might see what was in her face.
 She used a cash dispenser to withdraw money
 She used a plaster to cover a small cut on her little finger
 She was a brilliant undergraduate who went on to gain first class honours
 She was a great fan of country music
+She was built primarily to sail.
+She was even more beautiful than when I saw her, before.
 She was gobsmacked to be told that she had contracted glandular fever
 She was his now, forever.
 She was pleased to be accepted onto the course
@@ -836,8 +1241,12 @@ She was trying to pass the apron string around him.
 She wasn't able to go swimming as she had a verruca on her foot
 She wasn't sure whether to buy the estate car,  or the saloon version
 She wrapped the presents beautifully.
+She'd make a good wife for the cashier.
+Sheldon glanced at the thermometer.
 Sherbet is sweet.
 She’ll wake up soon, don't worry
+Shooting pains passed like flashes of electricity through his body.
+Shorty turned to their employers.
 Show me relevant results.
 Silicon Valley is a hub of tech talent.
 Since then some mysterious force has been fighting us at every step.
@@ -846,16 +1255,26 @@ Slow down!
 Slowly but surely.
 So Hughie and I did the managing ourselves.
 So cheer up, and give us your paw.
+So she said, the irate skipper dashed on.
 So unexpected was my charge that I knocked him off his feet.
 So we could have some respite.
+So we have to fit the boat throughout with oil lamps as well.
 So, how do you explain that?
 So, what now?
+Soaked in seawater they offset the heat rays.
 Soccer is known as Football in England.
+Society is shaken to its foundations.
+Some of the smaller veins had doubtless been ruptured.
 Some people think it more polite to say napkin rather than serviette
 Some plastics consist of composite materials.
+Something about it seemed to fascinate him, to challenge his presence.
+Something that Whittemore had not yet said thrilled him.
+Something vastly more thrilling had come into it now.
 Sometimes her dreams were filled with visions.
+Soon shall it be thrust back from off prostrate humanity.
 Sow the seeds firmly in the ground.
 Speeding increases the risk of car accidents.
+Stand off butcher and baker and all the rest.
 Stay and listen; please don't go
 Steel is easily recyclable.
 Steel is widely recycled.
@@ -863,24 +1282,37 @@ Stephen unraveled the bandage carefully.
 Stick the stamp on the envelope.
 Storms are predicted across the Pacific Ocean.
 Straight out they swam, their heads growing smaller and smaller.
+Such a dog the wise driver kills, or turns loose.
+Such an act was in direct violation of the laws of the land.
+Such is my passage engaged on the steamer.
+Such men believe, when they come together.
 Such things had occurred before, he told Philip.
+Such things in her brain were like so many oaths on her lips.
 Suddenly Jeanne stopped for an instant.
 Suddenly his fingers closed tightly over the handkerchief.
+Suppose you saw me at work through the window.
 Sure, just grab whatever you need.
 Surely I will excuse you, she cried.
+Swiftly his eyes measured the situation.
 Tack this picture to the wall.
 Take away their foreman and they wouldn't be worth their grub.
 Technology can augment the physical capabilities of humans.
 Technology can enable disabled people to become physically capable and independent.
 Technology plays a vital role in reaching people following natural disasters.
 Tell me the composition of this material.
+Ten minutes had not elapsed since he had dropped the handkerchief.
 Thankfully the autonomous car detected the obstruction and avoided a collision.
 That animal is a Zebra.
 That came before my A B C's.
 That is not my forte.
+That is the strange part of it.
+That is what distinguishes all of us from the lower animals.
+That is why I am, am rattled, he laughed.
+That marmoset that isn't mine; it's theirs!
 That really doesn't seem appropriate.
 That was a rough ride.
 That wasn't in the script.
+That's Thorpe's, said the young engineer.
 That's a rather specialised item, are you certain it's what your wife would enjoy?
 That's no way to speak to your wife.
 That's ridiculous, we're just filming a commercial.
@@ -892,32 +1324,52 @@ That’s interesting, I’m actually an animal rights campaigner.
 The Arctic is cold.
 The Beta version will be released soon.
 The British speed limit on a dual carriageway is seventy miles an hour
+The Churchill narrowed and its current became swifter as they progressed.
+The Claudine was leaving next morning for Honolulu.
 The Duodenum is part of the small intestine.
+The Eldorado emptied its occupants into the street to see the test.
 The English solicitor spoke to his Scottish advocate colleague
 The Fire People, like ourselves, lived in caves.
+The Fire-Men wore animal skins around their waists and across their shoulders.
+The Gabriel voice of the Samurai rang out.
 The Gala was fun.
 The Haber Process is an industrial process for producing ammonia
 The Heimlich manoeuvre is a lifesaving first aid technique.
+The Indian even poked his stick into the thick ground spruce.
+The Indian felt the worship of her warm in his heart.
 The Island of Sheep is a book by the Scottish author John Buchan
+The Italian rancho was a bachelor establishment.
 The Java programming language makes use of parentheses characters.
+The Law of Club and Fang
 The Military will adhere to international laws and standards.
 The Oncologist outlined a treatment plan for the cancer patient.
+The Portuguese boy crawled nearer and nearer.
+The Portuguese boy passed the Hawaiian.
+The President of the United States was his friend.
 The Prime Minister is unlikely to win the next election
 The Realtor will arrive soon.
 The Red Queen believed six impossible things before breakfast
 The Resident Commissioner is away in Australia.
 The University of Oxford and the University of Cambridge are both collegiate institutions
+The Warden with a quart of champagne.
 The accident damaged the car beyond repair, and it was a write-off
 The accounts have discrepancies.
 The accounts were up to date.
 The action man knew very well how to abseil down the building
 The added weight had a velocity of fifteen miles per hour.
+The apron string loomed near and he shied like an unbroken colt.
 The ascent of Everest was his life's ambition
 The assailant was caught.
+The awe of man rushed over him again.
 The baby felt a breeze of wind and awoke.
 The battery ran out.
 The big-eyed, clucking moose-birds were most annoying.
 The boy answered me back, and was very cheeky
+The boy at the wheel lost his head.
+The boy grew and prospered.
+The boy hesitated, then mastered his temper.
+The boy threw back his head with pride.
+The boy, O'Brien, was specially maltreated.
 The bracelet costs ten pounds fifty-two
 The bright red flowers multiplied and covered the south bank.
 The butchers and meat cutters refused to handle meat destined for unfair restaurants.
@@ -938,17 +1390,20 @@ The coffee shop sells cappuccino, flat white, and standard white coffee with mil
 The computer threw spurious errors.
 The correct pronunciation is.
 The couple had a row last night.
+The creative joy, I murmured.
 The customer is always right, or so it is said
 The dancer made simultaneous movements.
 The date was nearly eighteen years old.
 The demonstration turned violent, and ended in a huge punch-up
 The detector always has to be calibrated before use
 The device has a gyro motor.
+The dirk mentioned by Wolf Larsen rested in its sheath on my hip.
 The discovery seemed to have been made on the spur of the moment.
 The dog ate my homework.
 The dog became docile after eating food.
 The door closed.
 The drawer drew a lifelike image of the man.
+The eastern heavens were equally spectacular.
 The emotion which she had suppressed burst forth now in a choking sob.
 The engine arrived on a pallet.
 The engine will be sent via palletized delivery.
@@ -966,6 +1421,7 @@ The first planet from the sun is Mercury, and the second is Venus
 The flight to Australia was long.
 The floor was wet.
 The flower rota at the village church was maintained by the local parishioners
+The flush was gone from her face.
 The fog was dense and impenetrable to light.
 The founder of the company.
 The fourth and fifth days passed without any developments.
@@ -978,12 +1434,17 @@ The grass is greener where you water it.
 The gray eyes faltered; the flush deepened.
 The hash sign is sometimes known as the number sign or the pound sign
 The headlights of the oncoming traffic were too bright.
+The history of our westward-faring race is written in it.
 The hotel has a pool, so don't forget to pack your swimming costume
 The house was built using concrete.
 The house was divided into sections.
+The hunters were still arguing and roaring like some semi-human amphibious breed.
 The hydro-electric dam generates cheap electricity for the community.
+The hyena proceeded to dine.
+The issue was not in doubt.
 The issued affidavit was received.
 The items may vary in price.
+The journey was continued at dawn.
 The kids played with their grandparents.
 The kids promised not to steal anything.
 The lace was of a delicate ivory color, faintly tinted with yellow.
@@ -991,10 +1452,14 @@ The ladder reached the second floor.
 The lamp shone brightly and lit up the whole room.
 The larynx is part of the throat.
 The last one I knew was an overseer.
+The last refugee had passed.
 The lease is due to expire.
 The library contains vast amounts of knowledge.
+The lines were now very taut.
 The lived on a housing estate, in a council flat
+The log on which Lop-Ear was lying got adrift.
 The long-lived bridge still stands today.
+The lush vegetation of that sheltered spot make a natural shield.
 The majority of the human body consists of water.
 The man smiled grimly, and brought a hatchet and a club.
 The management consultant was on secondment to the struggling start-up
@@ -1003,6 +1468,7 @@ The men stared into each other's face.
 The metric system is based on units, tens and hundreds
 The mincemeat used in mince pies doesn't contain any meat
 The mobile phone signal can be very patchy outside built-up areas
+The moon had already begun its westward decline.
 The most popular type of council housing is a council house
 The motor has failed.
 The motorway was deadlocked.
@@ -1012,9 +1478,12 @@ The musical chorus kicked in.
 The nation of France invented croissants.
 The network administrator resolved the connectivity issue of the router.
 The newsagent’s best seller was The Daily Mail
+The next thing to watch out for is bed sores.
+The night was calm and snowy.
 The nightglow was treacherous to shoot by.
 The only way too fly is first class
 The other felt a sudden wave of irritation rush through him.
+The pain from my hurt knee was agonizing.
 The papers were graded.
 The paperwork was legible.
 The party denied foul play and aggressively defended their position.
@@ -1022,6 +1491,7 @@ The pasta was piping hot and burnt my tongue.
 The patent application was submitted.
 The pen is mightier than the sword.
 The pen's ink leaked into the bag.
+The planters are already considering the matter.
 The pneumatic drill rattled uncontrollably.
 The policeman drew his truncheon, and hit the protester on the shoulder
 The problem was that the system had not worked for the past week
@@ -1035,12 +1505,15 @@ The questionnaire is too simplistic.
 The questions may have come vaguely in his mind.
 The reflection on the ice was distorted.
 The region is known for its fertile land.
+The regret in his voice was provocative of a second burst of laughter.
 The ringing of the big bell aroused him.
+The river bared its bosom, and snorting steamboats challenged the wilderness.
 The rotor spun at incredible speeds.
 The school's headteacher may be a headmaster or a headmistress
 The schoolroom was in uproar, and the student found it impossible to study
 The score is deuce.
 The seagull dove into the river and caught a fish.
+The sharp voice of Wolf Larsen aroused me.
 The shepherd protected his flock of sheep.
 The ship should be in within a week or ten days.
 The shipwreck was buoyed off the coast.
@@ -1048,28 +1521,40 @@ The shoelace became loose.
 The shop is close by.
 The shopping trolley provided by Tesco had very wonky casters
 The singing voice approached rapidly.
+The sixth day he spent in the cabin with Gregson.
+The skipper's and Nakata's gymnastics served as a translation without words.
 The sky was an icy blue, and there was a sharp East wind
 The small corner shop sold fifteen different types of cheese
 The smell of chicken curry made his mouth water in anticipation.
 The squeaky wheel gets the grease.
 The squirrel ran up the pine tree in a spiral.
+The steward has just tendered me a respectful bit of advice.
+The stout wood was crushed like an eggshell.
 The student quit school, ostensibly due to financial problems.
+The sunsets grow more bizarre and spectacular off this coast of the Argentine.
 The table was displayed in a structured hierarchy.
 The tall gate was made from wrought iron.
+The temperature dropped to fifty below zero and remained there the whole trip.
 The tenant always paid his rent on time.
 The term rubber in British English is what Americans would call a pencil eraser
+The thought set his blood tingling.
 The ticket tout was illegally selling Centre Court tickets for Wimbledon
+The time was considered auspicious.
 The tiny buttons on my mobile phone are very fiddly
 The tiny lamb bleated softly.
 The tires became bald from heavy usage.
 The toolbox included a screwdriver, a spanner, a hammer, a saw and a drill
 The tracking reference did not work.
 The train was delayed yet again by a points failure
+The truth of it set Jeanne quivering.
 The twins had a joint birthday party when they turned eighteen
 The typical holidaymaker in the nineteen-fifties would often go to a seaside resort
 The vendor will provide further details.
+The very opposite is true; they are discouraged vagabonds.
+The very thought of the effort to swim over was nauseating.
 The victim was asked to identify the thief at a police identity parade
 The video is non-ephemeral.
+The voyage was our idea of a good time.
 The wedding day was the best day of his life.
 The weeks had gone by, and no overt acts had been attempted.
 The windscreen of the car became iced up overnight.
@@ -1077,26 +1562,41 @@ The wolf-dog thrust his gaunt muzzle toward him.
 The woman in you is only incidental, accidental, and irrelevant.
 The woman wore scarlet lipstick and rather striking violet nail varnish
 The woman's story was that the whole thing took place at night
+The women they carried away with them to the Big Valley.
 The wrench cracked and shattered.
 The writing was illegible.
 The youth have time but no money and adults have money but no time.
 Their forces were already moving into the north country.
+Their love burned with increasing brightness.
+Their supply of grub was gone.
 Their wedding anniversary is the twenty-seventh of October, I think
+Then he hastened on, as Pierre had guided him.
+Then he shouted, Shut up.
 Then he stepped back with a low cry of pleasure.
+Then it is as I said, Womble announced with finality.
+Then it was that a strange thing happened.
 Then we’d be part of the problem.
 Then you can arrange yourself comfortably among these robes in the bow.
+Then you don't believe in altruism.
+Then, again, Tudor had such an irritating way about him.
 Then, and at supper, he tried to fathom her.
+There are four, all low, McCoy answered.
 There are many different versions of Santa Claus, including Father Christmas from England
 There are many regions that lack potable water.
 There are many types of Reptile.
+There are no kiddies and half grown youths among them.
 There are no tricks here.
 There are several species of horse chestnut tree, all of which bear conkers
+There are the canals of China, and the Yang-tse River.
 There are thirteen items in a baker’s dozen
+There followed a roar that shook the earth.
 There has been a change, she interrupted him.
 There is a lot of Literature on this subject.
 There is a precedence.
 There is a tea towel over there to dry the dishes
 There is an increasing number of people being internally displaced due to climate change.
+There is another virtue in these bulkheads.
+There is more behind this than a mere university ideal.
 There is no excuse for tardiness.
 There is no place like home.
 There is no time like the present.
@@ -1106,21 +1606,42 @@ There was a change now.
 There was a hole in the carpet.
 There was a tear on her eyes.
 There was dew in the area.
+There was no answer from the other side.
+There was no chance to fire without hitting him.
 There was no forecasting this strange girl's processes.
+There was no law on the Yukon save what they made for themselves.
 There was no surprise.
 There was none of the joy of meeting in his face.
+There was nothing for us but the wide raw ocean.
+There was nothing more, except a large ink blot under the words.
 There was nothing on the rock.
+There was one chance, and only one, of saving Jeanne.
+There was one difficulty, however.
+There was pride and strength, the ring of triumph in his voice.
+There was proper division of labor in the work they individually performed.
+There was something pathetic in the girl's attitude now.
+There was the Emma Louisa.
 There were eight people in a row.
 There were many routes, the sat-nav picked the fastest one.
+There were orange-green, gold-green, and a copper-green.
+There weren't any missions, and he was the man to know.
 There's Fort Churchill, a rifle-shot beyond the ridge, asleep.
 There's a big English general right now whose name is Roberts.
+There's not an iota of truth in it.
+There's the hitch, replied Thorpe, rolling a cigarette.
+There's too much of the schoolboy in me.
+Therefore, hurrah for the game.
 These are a chest of drawers.
 These are conventional methods.
 These are insect Larvae.
 These are memories of another era.
+These quick little joys of hers were sources of joy to him.
 These rumors may even originate with us.
+These were merely stout sticks an inch or so in diameter.
 They are big trees and require plenty of room.
 They are coming ashore, whoever they are.
+They are greatly delighted with anything that is bright or giveth a sound.
+They are his tongue, by which he makes his knowledge articulate.
 They are not regular oyster pirates, Nicholas continued.
 They are to attack your camp tomorrow night.
 They ate dinner at the fifth, and rested for two hours.
@@ -1128,24 +1649,42 @@ They charged one pound seventy-five for postage and packing
 They closed now until his fingers were like cords of steel.
 They conquered their fear.
 They continued valiantly to lie, but the truth continued to outrun them.
+They could not continue their method of producing surpluses.
 They couldn't finish the task as they weren't able to find the key
 They die out of spite.
+They do not know the length of time of incubation.
 They doubled the height.
+They edged nearer, and stood shoulder to shoulder facing their world.
 They eventually succeeded after five failed attempts
+They had been on the same lay as ourselves.
 They had no fixed values, to be altered by adjectives and adverbs.
 They handled two men already, both grub-thieves.
+They have won popular sentiment through the newspapers.
+They just lay off in the bush and plugged away.
+They laughed like two happy children.
+They likewise are disinclined to being eaten.
 They look as though he had been drumming a piano all his life.
+They must have been swept away by the chaotic currents.
+They obeyed him, and went here and there at his commands.
+They only had a little thirty thousand dollar fire.
 They only lifted seven hundred and fifty.
 They ought to pass here some time today.
+They ran the canoe in and climbed the high earth bank.
+They robbed me a few years later.
+They saw each other for the first time in Boston.
 They sneaked into the cinema.
 They travelled on to New York via London Heathrow
+They were artists, not biologists.
+They were babbling and chattering all together.
 They were deep in the primeval forest.
 They were following the shore of a lake.
 They were less stooped than we, less springy in their movements.
 They were the presage of storm.
 They were three hundred yards apart.
+They will search for us between their camp and Churchill.
 They wouldn't be sweeping a big vessel like the Martha.
 Think of investing in such an adventure.
+This also became part of the daily schedule.
 This design will be too expensive.
 This fiscal year.
 This holiday we’ll be touring with our caravan, stopping each night at caravan parks
@@ -1157,7 +1696,9 @@ This is a tenet of the software pattern.
 This is a toilet sewer drain pipe.
 This is an ancient film.
 This is domestic produce.
+This is eighteen eighty.
 This is for company use only.
+This is my fifth voyage.
 This is no place for you.
 This is non-conventional.
 This is the strongest candidate for the role.
@@ -1166,9 +1707,16 @@ This one hope was destroyed as quickly as it was born.
 This path will lead you to your destination.
 This should whet your appetite.
 This sound did not disturb the hush and awe of the place.
+This state of mind comes of an undue prominence of the ego.
+This tacit promise of continued acquaintance gave Saxon a little joy-thrill.
 This time he did not yap for mercy.
+This was when the explosion occurred.
 This young boy is a total genius.
+Thorpe and his men were to destroy this camp, and kill you.
 Those are my oysters, he said at last.
+Though the aurora still flamed, another day had begun.
+Thought I, and a worthy fool he proved.
+Three oilers and a fourth engineer, was his greeting.
 Thus had the raw wilderness prepared him for this day.
 Thus was momentum gained in the Younger World.
 Time and tide wait for no man.
@@ -1178,17 +1726,26 @@ To advise on patent law, we need the services of an intellectual property specia
 To be healthy you should eat five portions of fruit and veg every day
 To change gears you need to use the gear-lever
 To fix a poster to a noticeboard you should use a drawing pin
+To her the bridge was tambo, which is the native for taboo.
 To his surprise, her answer was flat and uncompromising.
 To inspire, we need to work diligently.
 To make royal icing for a wedding cake you’re going to need icing sugar
+To my dearest and always appreciated friend, I submit myself.
 To my surprise he began to show actual enthusiasm in my favor.
 To post a letter, look for a red postbox or pillar box
+To say the least, Captain Cook was a rather thorough going empiricist.
 To take your bicycle on the train, put it in the guard’s van
+To these he gave castor oil.
+Together they ate the rabbit.
+Tom Spink has a harpoon.
 Tomato Risotto.
 Tomorrow I'm going after that bear, he said.
+Tomorrow it will be strong enough for you to stand upon.
+Too much, he told me, with ominous rolling head.
 Tortilla chips are tasty.
 Treacle can sometimes be used in cooking as a sweetener
 True heroes don't profit from the suffering of others.
+Tudor surveyed him with withering disgust.
 Tuesday dawned bright and sunny, but by lunchtime it had started to rain
 Tuna is expensive.
 Tuna tastes great with bread.
@@ -1196,57 +1753,85 @@ Turn off the lights.
 Turn up the bass.
 Two days ago Jeanne learned where her father's men were hiding.
 Two gigantic owls were tearing at the carcass.
+Two of the Folk were already up.
+Two weeks passed, and in that time Thorpe left camp three times.
 Two years ago I gave up civilization for this.
 Unconsciously, our yells and exclamations yielded to this rhythm.
+Unlike Joshua, he stood in no need of divine assistance.
+Until I die, he exclaimed.
 Untreated sewage would pollute the rivers.
 Use butter moderately.
 Use this cream sparingly.
 Vegetable produce is a vital export for many countries.
 Very early in my life, I separated from my mother.
 Very well, will that be all?
+Violent life and athletic sports had never appealed to me.
 Volunteer Medical workers save many lives by giving vulnerable people health-care access
 Volunteers are the backbone of non-governmental humanitarian aid organizations.
+Wada and Nakata were in a bit of a funk.
+Wada, Louis, and the steward are servants of Asiatic breed.
 Warm Croissant tastes better.
 Warning! Obstruction ahead.
 Was it the rendezvous of those who were striving to work his ruin.
+Wash your hands of me.
 Water tastes different regionally.
+We are both children together.
 We are caught up in our lives while growing older.
+We are consumed in our own flesh-pots.
+We are cooking on the coal stove and on the oil burners.
 We are now headquartered in the Republic of Ireland.
 We are the proud parents of three children.
 We began saving up for our first home.
 We can polish your car for ten pounds.
 We can't undo our mistakes.
 We could be liable.
+We could throw stones with our feet.
+We don't see ourselves as foolish.
+We fished sharks on Niihau together.
+We got few vegetables and fruits, and became fish eaters.
 We had been chased by them ourselves, more than once.
 We have all denominations of currency.
 We have also optimised our supply chain.
 We have plenty of capital ourselves, and yet we want more.
+We leave the eventuality to time and law.
+We must achieve our own salvation.
+We must give ourselves and not our money alone.
 We need to change the terms of the contract, or to cancel it
+We never made another migration.
 We perspire when we feel too hot.
 We provide a premier service.
 We regularly see advertisements while browsing online.
+We saw your light, and thought you wouldn't mind a call.
 We see the best in humanity when we help each other.
 We should not take for granted how fortunate we have been.
 We spoke often.
+We threaten to be of the one mind before the voyage is completed.
 We went to the local takeaway for a curry last night
 We were lost, so Nate asked for directions.
+We were now good friends.
 We will continue to pursue the criminal until he is apprehended.
 We will focus on this niche market.
 We will leave in twenty minutes.
 We will name the ship Aegis.
 We work hard, so our children don't have to.
+We would not spend another such night.
 We'll have to watch our chances.
 We're losing light, we'll deal with it later.
 We're out of sellotape.
 Websites must respect the privacy of its users.
 Welcome to my house.
 Welcome to our research Laboratory.
+Well, I'll be plumb gosh darned.
+Well, there are better men in Hawaii, that's all.
 Were your theatre tickets for the stalls, dress circle or balcony?
+What I saw I could not at first believe.
+What Pascal glimpsed with the vision of a seer, I have lived.
 What a strange mauve colour!
 What are the pros and cons?
 What can I do about my headache?
 What can the world do to leave a smaller carbon footprint?
 What do kangaroos like to eat?
+What do you mean by this outrageous conduct.
 What do you think of this Tune?
 What if Jeanne failed him.
 What if she did not come to the rock.
@@ -1259,11 +1844,15 @@ What is your recipe?
 What is your stance on this?
 What kind of herb this is?
 What number is this?
+What part of the United States is your home.
 What sort of things are you interested in?
+What the flaming.
 What was the object of your little sensation.
 What would you have us called?
 What's it like to live in a virtual world?
+Whatever he guessed he locked away in the taboo room of Naomi.
 When Claire was nineteen she found herself becoming increasingly depressed
+When I came to I was waving my hat and murmuring ecstatically.
 When flying, I have often wondered about the expression Arm the Doors and Crosscheck
 When my child was born, I was in tears.
 When their investments failed, Sophie and Bill lost nearly half a million pounds
@@ -1277,39 +1866,78 @@ Where there's a will, there's a way.
 Which English author wrote a series of twenty-one novels?
 Which do you prefer: the Windows or the Mac operating system?
 Which version do you have?
+White Leghorns, said Mrs Mortimer.
+Whiz-zip-bang. Lop-Ear screamed with sudden anguish.
 Who is going to organise the children's play?
 Who is the oldest person alive?
+Whoever lived on the ranch did that.
 Why do I feel light-headed?
 Why do you feel you need to make them happy?
 Why does that plane keep going over?
 Why does this tyrannosaurus rex feel sticky?
 Why, doggone you all, shake again.
+Why, he's bought forty pounds of goods from you already.
 Why, the average review is more nauseating than cod liver oil.
 Will we ever forget it.
 Wind up the coil of wires.
+With my strength I slammed it full into Red-Eye's face.
+With them were Indians, also three other men.
+With these arguments he convinced himself that he should go on alone.
+Within himself he called it no longer his own.
+Without a doubt, some of them have dinner engagements.
+Without them he could not run his empire.
 Won't you draw up, gentlemen.
+Wonder if he's a lion dog, Charles suggested.
 Word wrap formatting helps text documents read clearer.
 Would you like to eat a Scone?
+Yea, so are all the lesser animals of today clean.
 Yes, and if people would stop interrupting we could get it finished.
+Yes, and no, sir, was the slow reply.
 Yes, clearly, that's an obvious no-brainer
 Yes, it was a man who asked, a stranger.
 Yes, sir, I corrected.
+Yes, sir, he answered, with cheerful alacrity.
 Yes, that would do nicely.
+Yet he dreams he is immortal, I argue feebly.
+Yet, behind them there was another and more powerful motive.
+Yet, in accordance with Ernest's test of truth, it worked.
+Yield yourself to the waters that are ripping and tearing at you.
 You are never too old to learn.
+You are positively soulless, he said savagely.
 You can exchange your foreign currency at a bureau de change
 You can see thousands of stars with the naked eye in the night sky?
 You can take a vacation on pay.
 You can withdraw cash from a cash machine, sometimes known as a cashpoint
 You can't seriously expect me to go through with this?
 You don't catch me at any such foolishness.
+You fired me out of your house, in short.
+You got out by fighting, and I through a pretty girl.
+You have all the advantage.
+You have associated with some of these men.
 You have many herbs in this garden.
+You live on an income which your father earned.
+You mean for this State, General, Alberta.
 You must sleep, he urged.
 You need to click on the link to open the file
 You need to get out of my way! he said aggressively
+You see, we were teaching ourselves.
 You should listen and learn; I can teach you how to succeed
+You used to joyride like the very devil.
+You want to go over and see his gang throw dirt.
+You were destroying my life.
+You were engaged.
+You were going to leave after you saw me on the rock.
+You were looking squeamish this afternoon, he began.
 You won't die of malnutrition, be sure of that.
+You're a devil for fighting, and will surely win.
+You're joking me, sir, the other managed to articulate.
 You're positive it's what you're looking for?
 You, you would not keep the truth from me.
 Young children often like to eat fish fingers, chips and baked beans
+Your being wrecked here has been a godsend to me.
+Your face is red with blood.
+Your face was the personification of duplicity.
+Your father's fifth command, he nodded.
 Your payment is due.
+Your price, my son, is just about thirty per week.
 Youth had come back to her, freed from the yoke of oppression.
