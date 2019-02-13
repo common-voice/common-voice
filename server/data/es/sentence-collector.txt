@@ -276,6 +276,7 @@ Corazón alegre hace fuego de la nieve.
 Cortesías engendran cortesías.
 Cosas extrañas me suceden
 Creo que las dos tienen demasiadas figuritas.
+Creo que me apetece tortilla de patata y un poco de ensalada.
 Creo que me ha rozado un alga.
 Creía haberle dicho que recogiese esto .
 Criaban caballos a las afueras de Ribes.
@@ -1281,6 +1282,7 @@ Me lo tapa .
 Me parece que con el carné de familia numerosa nos harán descuento.
 Me parece que estoy mareado, ¿y tú?
 Me parece que no cabe ahí.
+Me parece que no va a haber suficiente pan para la cena.
 Me parece que tenemos una plaga de mosquitos tigre.
 Me siento entre las estrellas
 Me subleva que me digan que hago faltas.
@@ -6394,9 +6396,11 @@ yo ya no puedo estar contigo .
 ¿Sabes algún remedio casero para las picaduras de medusa?
 ¿Sabéis donde puedo comprar un clarinete de segunda mano?
 ¿Se pueden inventar verbos ?
+¿Se te ha ocurrido ya lo que vamos a cenar esta noche?
 ¿Son pareja?
 ¿Te gustan todas?
 ¿Te han robado la bicicleta?
+¿Te importaría acercarte al supermercado a comprar?
 ¿Te piensas que devolveré el importe de la deuda?
 ¿Tiene alguna alergia?
 ¿Tiene cerveza sin alcohol?
