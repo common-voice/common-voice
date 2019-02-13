@@ -130,36 +130,36 @@ show-wall-of-text = Иԥкааны
 help-us-title = Иҳацхраа аҳоуқәа агәаҭаразы!
 vote-yes = Ааи
 vote-no = Мап
-speak-subtitle = Убжьы ақәшәарга
-speak-goal-text = Анҵамҭақәа абжьы ахарҵеит
-listen-subtitle = Иҳацхраа абжьқәа агәаҭаразы
-listen-goal-text = Анҵамҭақәа игәаҭан
-hours-recorded = Асааҭкәа абжьы ахарҵеит
-hours-validated = Асааҭкәа игәаҭан
-voices-online = Абжьқәа Алабҿаба абыржәы
+speak-subtitle = Убжьы ақәырга
+speak-goal-text = Анҵамҭақәа абжьы рхарҵеит
+listen-subtitle = Уҳацхраа абжьқәа ргәаҭараҿы
+listen-goal-text = Анҵамҭақәа гәаҭан
+hours-recorded = Асааҭкәа абжьы рхарҵеит
+hours-validated = Асааҭқәа гәаҭан
+voices-online = Абыжьқәа Алабҿаба Абыржәы
 todays-progress = Иахьатәи аԥхьаҿиара
-help-reach-goal = Иҳацхраа анаӡаразы { $goal }
+help-reach-goal = Уҳацхраа анагӡараҿы { $goal }
 all-locales = Зегьы
 today = Иахьа
 x-weeks-short =
     { $count ->
         [one] Мчыбжьык
-       *[other] мчыбжь
+       *[other] мчыбжьа
     }
 x-months-short =
     { $count ->
         [one] мызкы
-       *[other] мз
+       *[other] мыз
     }
 x-years-short =
     { $count ->
-        [one] ш
-       *[other] ш
+        [one] шықәсык
+       *[other] шықәса
     }
 
 ## Account Benefits
 
-benefits = Ахәарҭа
+benefits = Аԥыжәара
 
 ## What's public
 
@@ -188,11 +188,11 @@ shortcut-vote-no = м
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
-request-language-button = Абызшәак узҵаа
+request-language-button = Абызшәа уазҵаа
 
 ## ProjectStatus
 
-status-contribute = Убжьы уҭагала
+status-contribute = Убжьы ҭаҩ
 english = Англыз
 
 ## ProfileForm
