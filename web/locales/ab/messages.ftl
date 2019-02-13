@@ -1,9 +1,9 @@
 ## General
 
-return-to-cv = Common Voice ихынҳәтәуп
+return-to-cv = Common Voice иазыхынҳәтәуп
 email-input =
     .label = Аԥошьҭа
-submit-form-action = Адәықәҵара
+submit-form-action = Ашьҭра
 loading = Аҭагалара
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -108,8 +108,8 @@ zh-TW = Ҳан (Ҳаиуан)
 
 ## Layout
 
-speak = Иҳәа
-speak-now = Иҳәала
+speak = Аҭаҩра
+speak-now = Абжьы ҭаҩра алагара
 datasets = Адыррақәа реизга
 languages = Абызшәақәа
 profile = Аҷыдахәра
@@ -119,13 +119,13 @@ privacy = Амырӡара
 terms = Аиқәшаҳаҭра
 cookies = Кукиз
 faq = ЛУЗ
-link-copied = Азхьарԥш акопиа хыхтәан
-back-top = Хыхьҟа
+link-copied = Азхьарԥш ахҩыла ҟаҵоуп
+back-top = Аҩада
 logout = Аҭыҵра
 
 ## Home Page
 
-home-cta = Иҳәаа, агәылаҵа уҭагала
+home-cta = Уҽалырхә, абжьы ҭаҩра!
 show-wall-of-text = Иԥкааны
 help-us-title = Уҳацхраа аҳоуқәа ргәаҭараҿы!
 vote-yes = Ааи
