@@ -288,7 +288,7 @@ download-language = Иҭагалатәуп { $language }
 validated-hours = Асааҭкәа гәаҭан
 recorded-hours = Асааҭкәа абжьы ахарҵеит
 data-other-ted-name = TED-LIUM аизганҵа
-go-discourse = Дысқорс ахь ицо
+go-discourse = Дисқорс ахь ицо
 go-languages-page = Абызшәақәа рдаҟьахь ицо
 
 ## Download Modal
@@ -297,12 +297,12 @@ download-title = Уҭагалара иалагеит.
 download-form-email =
     .label = Уелектронтә ԥошьҭа ҭагал
     .value = Иҭабуп, аимадараҿ ҳаҟоуп.
-download-back = Common Voice Адыррақәа реизга ихынҳәтәуп
+download-back = Common Voice Адыррақәа реизга иазыхынҳәтәуп
 download-no = Мап, иҭабуп
 
 ## Contact Modal
 
-contact-title = Аимадара форма
+contact-title = Аимадара аформа
 contact-form-name =
     .label = Ахьӡ
 contact-form-message =
@@ -318,24 +318,24 @@ request-language-form-language =
 ## Languages Overview
 
 language-section-in-progress = Анагӡара иаҿуп
-language-section-launched = Аус зыруу
+language-section-launched = Аус арууп
 languages-show-more = Арҭбаара
 languages-show-less = Армаҷра
-language-speakers = Рацәажәо
-language-meter-in-progress = Анагӡара
-language-total-progress = Зегь амҽханакра
+language-speakers = Ицәажәо
+language-meter-in-progress = Аԥхьаҿиара
+language-total-progress = Амҽхак
 language-search-input =
     .placeholder = Аԥшаара
-language-speakers = Рацәажәо
+language-speakers = Ицәажәо
 localized = Иҭыԥркуп
 sentences = Аҳәоуқәа
-total-hours = Ирӷәӷәаны сааҭқәа
+total-hours = Иазгәаҭоу асааҭқәа
 
 ## New Contribution
 
-action-click = Ақәықшара
+action-click = Ақәқшара
 action-tap = Акьысра
-contribute = Агәылаҵа уҭагала
+contribute = Аҽалархәара
 listen = Аӡырҩра
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
