@@ -212,12 +212,12 @@ visible = Иубарҭоу
 native-language =
     .label = Ахатәы бызшәа
 profile-form-submit-save = Аиқәырхара
-profile-form-submit-saved = Еиқәырхон
+profile-form-submit-saved = Еиқәырхоуп
 male = Ахацәа
 female = Аҳәса
 # Gender
 other = Даҽакы
-why-profile-title = Избан аҷыдахәра иаҭахуп?
+why-profile-title = Аҷыдахәра заҭаху?
 dashboard = Апанель
 build-profile = Аҷыдахәра аԥҵара
 avatar = Асахьа
@@ -225,35 +225,35 @@ goals = Ахықәкқәа
 settings = Архиарақәа
 edit-profile = Аредакциа аҷыдахәра
 profile-create-success = Ишьахәуп, аҷыдахәра ҟалеит!
-profile-close = Иарктәуп
-login-identity = Ахаҭарбага аҭаларазы
+profile-close = Иаркуп
+login-identity = Аҭаларазы ахаҭарбага
 login-signup = Аҭалара/Аҽҭагалара
-edit = Аредакциазура
-email-subscriptions = Аԥошьҭа напаҵаҩрақәа
-download-profile = Ахҩылаара сдыррақәа
+edit = Аредакциа азура
+email-subscriptions = Аилектронтә ԥошьҭа анапаҵаҩрақәа
+download-profile = Схаҭаратә дыррақәа рыхҩылаара
 off = Аҿх
 on = Аҿк
 browse-file-title = Асахьатә фаил иҭагалатәуп
-manage-subscriptions = Анапаҵаҩрақәа анапхгара
+manage-subscriptions = Анапаҵаҩрақәа рнапхгара
 add-language = Абызшәа ацҵара
 
 ## FAQ
 
-faq-title = Лассы-ласс иуду азҵаарақәа
-faq-what-cv-q = Изакәиу Common Voice?
-faq-why-important-q = Избан ари краҵанакуоуп?
+faq-title = Лассы-ласс иурҭо азҵаарақәа
+faq-what-cv-q = Изакәузеи Common Voice?
+faq-why-important-q = Изыхадоузеи ари ?
 
 ## Glossary
 
 glossary = Аилыркаагатә жәар
 localization = Аҭыԥыркра
-sentence-collection = Аҳәоуқәа аизга
-sst = Ацәажәара ҳәоула
+sentence-collection = Аҳәоуқәа реизга
+sst = Ҳәоула ацәажәара
 de-identified = Ихаҿыдатәу
 
 ## NotFound
 
-notfound-title = Ԥшаам
+notfound-title = ИԤшаам
 
 ## Data
 
