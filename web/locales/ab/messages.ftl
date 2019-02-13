@@ -127,7 +127,7 @@ logout = Аҭыҵра
 
 home-cta = Иҳәаа, агәылаҵа уҭагала
 show-wall-of-text = Иԥкааны
-help-us-title = Иҳацхраа аҳоуқәа агәаҭаразы!
+help-us-title = Уҳацхраа аҳоуқәа ргәаҭараҿы!
 vote-yes = Ааи
 vote-no = Мап
 speak-subtitle = Убжьы ақәырга
@@ -373,15 +373,15 @@ recordings =
 ## Dashboard
 
 your-languages = Убызшәақәа
-clips-you-validated = Анҵамҭақәа игәауҭан
+clips-you-validated = Игәауҭаз анҵамҭақәа
 stats = Аҭагылазаашьа
 you = Уара
-everyone = Зегь ахархәаҩцәа
-recorded-clips = Анҵамҭақәа абжьы ахарҵит
-validated-clips = Анҵамҭақәа игәаҭан
+everyone = Ахархәаҩцәа зегьы
+recorded-clips = Анҵамҭақәа абжьы ахарҵеит
+validated-clips = Анҵамҭақәа гәаҭан
 
 ## Profile Delete
 
 keep = Иааныжьтәуп
 remove = Ианыхтәуп
-profile-form-delete = Аҷыдахәра ианыхтәуп
+profile-form-delete = Аҷыдахәра аныхтәуп
