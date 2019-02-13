@@ -257,14 +257,14 @@ notfound-title = ИԤшаам
 
 ## Data
 
-data-download-button = Common Voice адырра ихҩылаатәуп
+data-download-button = Common Voice адырра ҭагалатәуп
 data-download-yes = Ааи
 data-download-deny = Мап
 data-download-license = Алицензиа: <licenseLink>CC-0</licenseLink>
-data-other-title = Даҽа абжьытә дыррақәа реизга...
+data-other-title = Даҽа бжьытә дыррақәак реизга...
 data-other-goto = { $name } ииастәуп
-data-other-download = Адыррақәа ихҩылаатәуп
-data-bundle-button = Адырра-аизга аилаҳәара ихҩылаатәуп
+data-other-download = Адыррақәа ҭагалатәуп
+data-bundle-button = Адырра аизга ҭагалатәуп
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
 terms-agree = Сақәшаҳаҭуп
@@ -273,8 +273,8 @@ review-submit-title = Агәаҭареи Ашьҭреи
 review-recording = Агәаҭара
 review-rerecord = Аиҭаҭаҩра
 review-cancel = Ашьҭра мап ацәктәуп
-review-keep-recordings = Анҵарақәа иааныжьтәуп
-review-delete-recordings = Сынҵарақәа ықәгатәуп
+review-keep-recordings = Сынҵамҭақәа еиқәырхатәуп
+review-delete-recordings = Сынҵамҭақәа ықәгатәуп
 
 ## New Datasets Page
 
@@ -284,19 +284,19 @@ size = Ашәагаа
 cv-license = Алицензиа
 size-gigabyte = ГБ
 size-megabyte = МБ
-download-language = Ихҩылаатәуп { $language }
-validated-hours = Асааҭкәа игәаҭан
-recorded-hours = Асааҭкәа абжьы ахарҵит
+download-language = Иҭагалатәуп { $language }
+validated-hours = Асааҭкәа гәаҭан
+recorded-hours = Асааҭкәа абжьы ахарҵеит
 data-other-ted-name = TED-LIUM аизганҵа
 go-discourse = Дысқорс ахь ицо
-go-languages-page = Абызшәақәа адаҟьахь ицо
+go-languages-page = Абызшәақәа рдаҟьахь ицо
 
 ## Download Modal
 
-download-title = Ухҩылаара иалагеит.
+download-title = Уҭагалара иалагеит.
 download-form-email =
-    .label = Уԥошьҭа ҭаугал
-    .value = Иҭабуп, аимадарахь ҳаҟоуп.
+    .label = Уелектронтә ԥошьҭа ҭагал
+    .value = Иҭабуп, аимадараҿ ҳаҟоуп.
 download-back = Common Voice Адыррақәа реизга ихынҳәтәуп
 download-no = Мап, иҭабуп
 
