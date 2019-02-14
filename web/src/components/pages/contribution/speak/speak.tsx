@@ -164,7 +164,7 @@ class SpeakPage extends React.Component<Props, State> {
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
     document.addEventListener('visibilitychange', this.releaseMicrophone);
-    document.addEventListener('keyup', this.keyUprerecording);
+    document.addEventListener('keyup', this.handleKeyUprerecording);
 
     if (
       !this.audio.isMicrophoneSupported() ||
@@ -176,7 +176,7 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   async componentWillUnmount() {
-    document.addEventListener('keyup', this.keyUprerecording);
+    document.addEventListener('keyup', this.handleKeyUprerecording);
 
     document.removeEventListener('visibilitychange', this.releaseMicrophone);
     if (!this.isRecording) return;
@@ -187,7 +187,7 @@ class SpeakPage extends React.Component<Props, State> {
     return this.state.recordingStatus === 'recording';
   }
 
-  private keyUprerecording = async (event: any) => {
+  private handleKeyUprerecording = async (event: any) => {
     let index = null;
     //for both sets of number keys on a keyboard with shift key
     if (event.which === 35 || event.which === 49) {
