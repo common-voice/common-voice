@@ -1,10 +1,14 @@
 ## General
 
+yes-receive-emails = Ааи, асалам шәҟәы сзаашьҭы. Сара апроект Common Voice ажәабжь ҿыцқәа здыруазар сҭахуп.
+privacy-info = Ҳара ажәа уаҳҭоит, уинфрмациа еиҷаҳарала ҳшазныҟо. Нарҭбааны <privacyLink>аполитика амырӡара</privacyLink>.
 return-to-cv = Common Voice иазыхынҳәтәуп
 email-input =
     .label = Аԥошьҭа
 submit-form-action = Ашьҭра
 loading = Аҭагалара
+email-opt-in-privacy = Асалам шәҟәқәа риура уанақәшаҳаҭха, уи ианагоит, Mozilla уинформациа аус шаднауло уақәшаҳаҭуп ҳәа. <privacyLink>Политике приватности</privacyLink> Mozilla.
+indicates-required = *Хымԥада ихарҭәаатәуп аҭыԥ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -119,12 +123,16 @@ privacy = Амырӡара
 terms = Аиқәшаҳаҭра
 cookies = Кукиз
 faq = ЛУЗ
+content-license-text = Аҵакы ахархәара ауеит абри ала <licenseLink>алицензиа Creative Commons</licenseLink>
+share-title = Уҳацхраа, зыбжьы ҭазҩыр зҭаху рыԥшаара аҟны!
+share-text = Урыцхраа амашьынақәа хықәакыла ауаа реилкаашьа дырҵараҿы, убжьы ақәырга абра { $link }
 link-copied = Азхьарԥш ахҩыла ҟаҵоуп
 back-top = Аҩада
 logout = Аҭыҵра
 
 ## Home Page
 
+home-title = Common Voice — ари Mozilla иаҵанакуа ауаа хаҭала рцәажәашьа амашьынақәа идзырҵо ԥшьгамҭоуп.
 home-cta = Уҽалырхә, абжьы ҭаҩра!
 show-wall-of-text = Иԥкааны
 help-us-title = Уҳацхраа аҳоуқәа ргәаҭараҿы!
