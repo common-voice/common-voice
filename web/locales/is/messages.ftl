@@ -194,6 +194,8 @@ join-newsletter = Hægt er að skrá sig á póstlistann okkar til að fá frét
 ## What's public
 
 whats-public = Hvað er gert opinbert?
+username-optin-public = Þú getur kosið að vera ónafngreind(ur), eða komið fram opinberlega með þínu notandanafni.
+demographic-deidentified = Hafir þú kosið að skrá lýðfræðileg gögn (t.d. aldur, kyn, tungumál og mállýsku) munu þau verða aftengd raddupptökum sem þú sendir inn. Þau munu einnig aldrei verða opinberuð á prófílnum þínum.
 username-email-not-demographic = Notandanafnið þitt og netfang verður ekki tengt gögnum útgáfunnar.
 
 ## Speak & Listen Shortcuts
@@ -315,6 +317,19 @@ faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
 faq-how-get-a = Gögn Samróms verður hægt að niðurhala með <licenseLink>CC0-leyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig verður hægt að niðurhala nokkur önnur gagnasöfn á síðunni sem opin eru almenningi.
 faq-when-release-q = Hvenær verður Samrómur í boði fyrir fleiri tungumál?
 faq-when-release-a = Mozilla-samfélagið vinnur um þessar mundir að fjöltunguútgáfu af Samrómsgögnunum, með því takmarki að gefa út í janúar 2019. Ef þú hefur áhuga á að læra meira um þetta ferli eða hjálpa til, <contactLink>hafðu þá endilega samband</contactLink>. Eftir þessa útgáfu munum við reglulega uppfæra gagna safnið þegar ný tungumál og hljóðklippur bætast við. Ekki er búið að ákveða hversu langt verður á milli útgáfa.
+faq-why-mission-q = Hví er Samrómur eitt af markmiðum Mozilla?
+faq-what-cv-and-deepspeech-q = Hver er munurinn á Samrómi og Deep Speech?
+faq-is-goal-assistant-q = Er það markmið Samróms að búa til raddaðstoðarkerfi?
+faq-do-want-native-q = Ég tala ekki þetta tungumál að móðurmáli og er með framburð, er enn áhugi fyrir því að ég leggi til raddupptökur?
+faq-why-different-speakers-q = Hvers vegna þarf svona marga talendur fyrir hvert tungumál?
+faq-why-my-lang-q = Af hverju er mitt tungumál ekki enn hluti af verkefninu?
+faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
+faq-why-10k-hours-q = Hvers vegna er upptökumarkmiðið 10.000 klst á tungumál?
+faq-how-calc-hours-q = Hvernig reiknar Samrómur þessa klukkutíma?
+faq-where-src-from-2-q = Hvaðan kemur lestextinn?
+faq-why-not-ask-read-q = Hvers vegna biðjið þið ekki fólk að lesa úr bókum eða greinum af Wikipedia í ólíkum tungumálum?
+faq-why-account-q = Af hverju ætti ég að skrá mig?
+faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
 
 ## Glossary
 
