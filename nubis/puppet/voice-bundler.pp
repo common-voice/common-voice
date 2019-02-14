@@ -4,7 +4,7 @@ vcsrepo { '/opt/common-voice-bundler':
   ensure   => present,
   provider => 'git',
   source   => 'https://github.com/Common-Voice/common-voice-bundler.git',
-  revision => '9b0d563b13cc8c9af66e42008badeabce0fc9023',
+  revision => 'b1bdc7990e9bda7833c3776f2416d3ec7ec292a5',
 }
   -> exec { 'install common-voice-bundler deps':
   command   => 'yarn',
