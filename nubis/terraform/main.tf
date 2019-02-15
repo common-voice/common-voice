@@ -170,10 +170,11 @@ module "bundler_bucket" {
 
 # Add elastic cache (memcache)
 module "cache" {
-  source                 = "github.com/nubisproject/nubis-terraform//cache?ref=v2.3.1"
+  source                 = "github.com/gozer/nubis-terraform//cache?ref=issue%2F257%2Fredis"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group},${module.bundler.security_group}"
+  engine                 = "redis"
 }
