@@ -48,7 +48,10 @@ export const Hr = (props: any) => <hr className="hr" {...props} />;
 export const LabeledCheckbox = React.forwardRef(
   ({ label, style, ...props }: any, ref) => (
     <label className="labeled-checkbox" style={style}>
-      <input ref={ref} type="checkbox" {...props} />
+      <span className="checkbox-container">
+        <input ref={ref} type="checkbox" {...props} />
+        <span className="checkmark">✖</span>
+      </span>
       <span className="label">{label}</span>
     </label>
   )

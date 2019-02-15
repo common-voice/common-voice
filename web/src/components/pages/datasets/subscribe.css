@@ -54,7 +54,11 @@
     }
 
     & button {
+        flex-shrink: 0;
         border: 1.6px solid #f9f9f8;
+        width: 100%;
+        min-width: auto;
+        max-width: 200px;
         font-weight: normal;
         color: #666666;
         background: #f9f9f8;
@@ -70,7 +74,6 @@
         }
 
         @media (--md-down) {
-            min-width: auto;
             height: auto;
         }
 
@@ -95,23 +98,6 @@
         & input {
             border: 1.6px solid #f9f9f8;
             border-radius: 2px;
-            width: 15px;
-            height: 15px;
-            appearance: none;
-            display: table;
-            position: relative;
-
-            &:checked::after {
-                content: '✖';
-                position: absolute;
-                top: -6px;
-                left: -0.2px;
-                font-weight: 600;
-                font-size: 18.5px;
-                width: 14px;
-                height: 20px;
-                overflow: hidden;
-            }
         }
     }
 }

@@ -19,10 +19,10 @@
 
     & nav {
         position: sticky;
-        top: 0;
         background: var(--lighter-grey);
 
         @media (--md-down) {
+            top: 0;
             margin-bottom: 30px;
             padding-bottom: 10px;
             z-index: var(--middle-z-index);
@@ -30,6 +30,7 @@
         }
 
         @media (--lg-up) {
+            top: 100px;
             margin-inline-end: 115px;
             max-width: 210px;
             height: 100%;

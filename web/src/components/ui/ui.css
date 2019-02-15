@@ -138,8 +138,27 @@ button.card-action:focus.focus-visible path {
     flex-direction: row;
     align-items: flex-start;
 
-    & input {
+    & .checkbox-container {
+        flex-shrink: 0;
         margin: 7px 10px 0 0;
+        position: relative;
+    }
+
+    & input {
+        width: 15px;
+        height: 15px;
+        appearance: none;
+    }
+
+    & .checkmark {
+        display: none;
+        position: absolute;
+        left: 4.7px;
+        top: -2.05px;
+    }
+
+    & input:checked ~ .checkmark {
+        display: block;
     }
 }
 
@@ -169,7 +188,7 @@ button.card-action:focus.focus-visible path {
     & select,
     & textarea {
         box-sizing: border-box;
-        border: 1.6px solid var(--light-grey);
+        border: 1.6px solid #e6e4e1;
         padding: 13px;
         font-size: var(--font-size);
         font-family: var(--base-font-family);
