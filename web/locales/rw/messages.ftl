@@ -82,12 +82,39 @@ oc = Icyogusita
 or = Icyodiya
 pl = Ikinyaporonye
 pt-BR = Ikinyaporutigari (cyo muri Bureziri)
+rm-sursilv = Ikiromanshe k'igisurusiriva
+ro = Ikirume
+ru = Ikirusiya
+sah = Igisaka
+sc = Igisaride
+sk = Igisirovake
+sl = Ikinyasiroveniya
+sq = Ikinyarubaniya
+sr = Igiseribe
+sv-SE = Ikinyasuwede
+ta = Igitamuru
+te = Igiterugu
+th = Igitayi
+tr = Igituruke
+tt = Igitamari
+uby = Icyubike
+udm = Icyudimuru
+uk = Ikinyakereni
+ur = Icyurudu
+uz = Icyuzubeki
+vi = IIkiviyetinamu
+vot = Ikivotike
+zh-CN = Igishinwa (cyo mu Bushinwa)
+zh-HK = Igishinwa (cyo muri Hongukongo)
+zh-TW = Igishinwa (cyo muri Tayiwani)
 
 # [/]
 
 
 ## Layout
 
+speak = Vuga
+speak-now = Vuga ubungubu
 
 ## Home Page
 
