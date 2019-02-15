@@ -93,11 +93,11 @@
         justify-content: space-between;
 
         @media (--md-down) {
-            margin-bottom: 50px;
+            margin-bottom: 20px;
         }
 
         @media (--lg-up) {
-            margin-bottom: 100px;
+            margin-bottom: 40px;
         }
     }
 
