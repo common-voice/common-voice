@@ -129,7 +129,7 @@ module "database" {
   account                = "${var.account}"
   nubis_sudo_groups      = "${var.nubis_sudo_groups}"
   monitoring             = true
-  multi_az               = true
+  multi_az               = ${var.environment == "prod" ? true : false}"
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group},${module.bundler.security_group}"
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
