@@ -63,6 +63,25 @@ it = Igitariyani
 ja = Ikiyapani
 ka = Ikinyajeworujiya
 kab = Igikabire
+kk = Igikazake
+ko = Igikoreya
+kpv = Igikomi
+kw = Igikorunishi
+ky = Igikirigize
+mdf = Ikimokusha
+mhr = Ikimidowu
+mk = Ikinyamasedoniya
+mn = Ikimongori
+mrj = Igihirimari
+myv = Icyeriziya
+nb-NO = Ikinyanoruveje cyanditse
+ne-NP = Ikinepari
+nl = Igihorandi
+nn-NO = Ikinyanoruveje gishya
+oc = Icyogusita
+or = Icyodiya
+pl = Ikinyaporonye
+pt-BR = Ikinyaporutigari (cyo muri Bureziri)
 
 # [/]
 
