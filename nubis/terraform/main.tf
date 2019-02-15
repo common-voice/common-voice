@@ -134,6 +134,7 @@ module "database" {
   client_security_groups = "${module.worker.security_group},${module.bundler.security_group}"
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
   instance_class         = "${var.environment == "prod" ? "db.t2.medium" : "db.t2.small"}"
+  allocated_storage      = "${var.environment == "prod" ? "100" : "10"}"
 }
 
 module "clips" {
