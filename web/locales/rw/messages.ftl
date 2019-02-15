@@ -7,6 +7,9 @@ return-to-cv = Subira ku Ijwi Rusange (Common Voice).
 email-input =
     .label = Imeri
 submit-form-action = Ohereza
+loading = Birakinjira...
+email-opt-in-privacy = Mu gihe wemeye kwakira imeri uba wemeje ko Mozilla ikoresha ayo makuru nk'uko bisobanuye muri poritiki bwite yayo.
+indicates-required = *Yemeje ingeri ikenewe
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -14,6 +17,20 @@ submit-form-action = Ohereza
 
 ## Languages
 
+ab = Icyabukazi
+ace = Icyacenezi
+ady = Icyadige
+af = Icyafurikanzi
+am = Icyamuhari
+an = Icyaragonezi
+ar = Icyarabu
+as = Icyasamezi
+ast = Icyasituriya
+az = Icyazerebayija
+bg = Ikinyaburugariya
+bn = Ikibengari
+br = Ikibureto
+bxr = Ikiburyati
 
 # [/]
 
