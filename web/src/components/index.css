@@ -24,6 +24,7 @@ html {
     color: var(--black);
     background-color: var(--white);
     overflow: auto;
+    scroll-behavior: smooth;
 }
 
 @media (--md-down) {
