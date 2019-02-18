@@ -72,6 +72,7 @@ Acaba de pasar el metro.
 Acaban de llegar Carla y Virginia.
 Acabo de ver un jabalí cruzar por el paso de cebra.
 Aceite abundante, buen año por delante.
+Actualmente los alquileres están por las nubes.
 Adela me trae de cabeza y me he enamorado.
 Adiós , amigos míos . Voy a un lugar mejor .
 Adiós , mis amigos . Voy a un sitio mejor .
@@ -115,6 +116,7 @@ Al caballo más manso le ponen más montura.
 Al caballo, antes de ponerle freno, hay que darle educación.
 Al cable guía . Material de ignición preparado .
 Al enemigo que huye, puente de plata.
+Al final el sospechoso, era el mayordomo.
 Al final no he podido leer el periódico.
 Al mal trabajador no le viene bien ningún azadón.
 Al menos podrías haber dejado la galleta.
@@ -419,6 +421,7 @@ El cantante de los Pets se llama Luís.
 El casado casa quiere.
 El casal de los abuelos huele a cerrado.
 El castellano vendrá con nosotros.
+El chico le dijo a su madre los suspensos.
 El chico le había escrito todo tipo de poemas de amor.
 El cielo es azul.
 El colectivo más afectado es el de los pinchadiscos.
@@ -448,6 +451,7 @@ El juego que practicaremos tiene un componente didáctico.
 El juez que investiga el caso dice que hay indicios de delito.
 El jugador zurdo se llama Linares y juega con la selección nacional.
 El juvenil del Barça no gana nada.
+El kilómetro cero está en Sol.
 El lado oscuro es el más fresco.
 El lanzamiento se ha retrasado debido al mal tiempo .
 El libro ha sido escrito por Cervantes.
@@ -469,6 +473,7 @@ El origen de estas croquetas es una receta de la abuela.
 El paciente esta listo .
 El pago se abona el día cinco de cada mes.
 El pan de higos tiene una blandura extraordinaria.
+El parkour está de moda ahora.
 El pasado siempre vuelve.
 El patinete no baja bien de la acera.
 El pavimento del paseo resbala y la abuela ha tomado mal.
@@ -555,12 +560,14 @@ El valenciano tenía los brazos tatuados.
 El valiente de palabras es muy ligero de pies.
 El verbo tiene más interés sintáctico que el nombre.
 El viaje a China lo dejaremos para pasado fiestas.
+El viaje se iba a realizar en septiembre.
 El vino para los reyes y el agua para los bueyes.
 El volante del Lamborghini es de piel de pantera.
 El zumo de uva es popular.
 Elige el idioma por defecto.
 Elisabet y Martín se van de vacaciones a Japón.
 Ella es fuerte como una montaña.
+Ella es vegana, luego tenemos que pensar en su comida.
 Ella sabe tocar el piano, y yo el violín.
 Ellos dicen que sí y yo digo que no.
 Ellos hacen buena pareja, se van a casar en mayo.
@@ -571,6 +578,7 @@ En España no sólo se habla español.
 En Madrid hay muchos museos como "El Prado", "Reina Sofía", etc...
 En Tarragona no tienen Vibria, creo.
 En abril aguas mil y todas caben en un barril.
+En abril aguas mil.
 En agosto y en enero no tomes el sol sin sombrero.
 En algún sitio estará . Lo encontrarás .
 En boca cerrada no entran moscas.
@@ -602,6 +610,8 @@ En perro flaco todo son pulgas.
 En prisión y enfermedad, se conoce la amistad.
 En realidad a los toros no les enfada el color rojo.
 En septiembre iremos a cosechar por José de Carro.
+En serio, sígueme, tengo una corazonada.
+En teoría, a las ocho estoy allí, pero igual se retrasa.
 En trece y martes ni te cases ni te embarques.
 En un par de días todo volverá a ser como antes .
 En zonas costeras existe un mayor acúmulo de moléculas de agua en el aire.
@@ -800,6 +810,7 @@ Gato con guantes, no caza ratones.
 Gato que duerme no caza ratones.
 Gatos y niños siempre dicen: mío, mío.
 Gemma, ¿tienes un kleenex?
+Gente haciendo cola para comprar un iPhone.
 Gerardo está enganchado a Juego de tronos.
 Gira, ¡Faraona!
 Golondrina anticipada, primavera templada.
@@ -859,6 +870,7 @@ Hay chocolate en la nevera y también turrón.
 Hay manzanas para merendar.
 Hay mucha más gente implicada en este caso.
 Hay muchos delincuentes en esa parte de la ciudad.
+Hay muchos medios de transporte: el autobús, metro...
 Hay más refranes que panes.
 Hay que implementar mesas individuales también para zurdos.
 Hay que tener cuidado porque hay riesgo de deslizamientos.
@@ -1019,6 +1031,7 @@ La miel tiene aroma de tomillo e hinojo.
 La mitocondria es la central de energía de la célula.
 La máxima velocidad es esta.
 La música de Bach relaja.
+La música estaba muy alta.
 La música estridente me alegra las mañanas.
 La música que más se escucha es del género reggaeton.
 La niña decidió dejar atrás las muñecas, y jugar al fútbol.
@@ -1125,6 +1138,7 @@ Le gustaban las películas bélicas.
 Le habían engatusado bien, pobre niño.
 Le sienta muy bien a su cabeza .
 Les recibo fuerte y claro .
+Levanta, ya son las diez de la mañana.
 Leyendo, leyendo, se me hicieron las doce.
 Libro prestado, perdido o estropeado.
 Listos para la cuenta atrás .
@@ -1134,6 +1148,7 @@ Llegaremos dentro de poco.
 Lleva siempre una toalla.
 Lleva unos pantalones muy ajustados, este chico.
 Llevan juntos desde los dieciséis años.
+Lllamaron a la policía porque hacían mucho ruido.
 Llover sobre mojado mil veces ha pasado.
 Lo ... Lo siento .
 Lo bueno si breve, dos veces bueno y si malo, menos malo.
@@ -1286,6 +1301,7 @@ Me parece que no va a haber suficiente pan para la cena.
 Me parece que tenemos una plaga de mosquitos tigre.
 Me siento entre las estrellas
 Me subleva que me digan que hago faltas.
+Me toca trabajar en el turno de tarde.
 Me voy enseguida.
 Mejor no menear el arroz aunque se pegue.
 Memoria selectiva para recordar lo bueno, prudencia lógica para no arruinar el presente.
@@ -1450,6 +1466,7 @@ No hay dos sin tres.
 No hay enemigo pequeño.
 No hay guerra más hiriente que entre hermanos y parientes.
 No hay lugar para polémicas en la familia.
+No hay mal que por bien no venga.
 No hay manera de que aprenda las tablas de multiplicar.
 No hay mañana que deje de convertirse en ayer.
 No hay mejor herencia que trabajo y diligencia.
@@ -1489,7 +1506,9 @@ No oye muy bien.
 No para de roncar: o vas a ver al médico o pido el divorcio.
 No pases por el bar de Javier o te dejaré antes de Ramos.
 No pienso que deberíamos darle oportunidad .
+No podemos esperar más.
 No podemos ir en esa dirección.
+No podemos malinterpretar las cosas.
 No podemos pretender que no ha pasado nada.
 No podrás conmigo .
 No por mucho madrugar amanece más temprano.
@@ -1947,6 +1966,7 @@ Tenemos que acabar el trabajo ya.
 Tenemos que aprender a pensar por nosotros mismos.
 Tenemos que mirar bien qué bus debemos coger.
 Tenemos que mirar los servicios mínimos.
+Tenemos que pensar en el futuro.
 Tenemos que poner en marcha esta caravana .
 Tenemos que salir de aquí ahora .
 Tenemos un paciente , enfermera .
@@ -1991,6 +2011,7 @@ Todos los caminos llevan Roma.
 Todos los demás ya estaban escogidos .
 Todos los días contigo y ahora todos sin ti.
 Todos los niños nacen artistas. El problema es cómo seguir siendo artistas al crecer.
+Todos los niños y niñas esperan el verano.
 Todos los papeles de envolver están arrugados.
 Tomaré leche con galletas.
 Trabaja como si vivieres siempre y vive como si murieses hoy.
@@ -6309,6 +6330,7 @@ yo ya no puedo estar contigo .
 ¿A qué hora empieza el concierto?
 ¿A qué hora empieza la función?
 ¿A qué hora es la reunión?
+¿A qué hora llega esta tarde tu autobús?
 ¿A qué hora ponemos el despertador?
 ¿Alguien sabe de quién es esta chaqueta tan linda?
 ¿Alguna pregunta más?
@@ -6390,6 +6412,7 @@ yo ya no puedo estar contigo .
 ¿Qué pista me has dejado?
 ¿Qué salida que tiene esta marca de cervezas?
 ¿Qué territorios adscribirán a la comarca del Molinés?
+¿Qué tienen de menú hoy?
 ¿Qué títulos acredita el candidato?
 ¿Qué zonas son más caras?
 ¿Ríes o sólo lo haces ver, Alberto?
