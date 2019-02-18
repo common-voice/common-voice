@@ -94,21 +94,27 @@ const Dataset = React.memo(
   }
 );
 
-const Section = React.memo(({ name, onChangeSection, ...props }: any) => (
+const Section = React.memo(({ name, onChangeIntersection, ...props }: any) => (
   <InView
     onChange={(isVisible, entry) => {
-      if (entry.intersectionRatio > 0.15) {
-        onChangeSection(name);
-      }
+      const { width, height } = entry.intersectionRect;
+      onChangeIntersection(name, width * height);
     }}
-    threshold={[0.1, 0.2]}>
+    threshold={[0.1, 0.2, 0.3, 0.4, 0.5]}>
     <A name={name} />
     <section {...props} />
   </InView>
 ));
 
 export default React.memo(() => {
-  const [activeSection, setActiveSection] = useState(null);
+  const [intersections, setIntersections] = useState({});
+  const handleIntersectionChange = (name: string, intersection: number) =>
+    setIntersections({ ...intersections, [name]: intersection });
+  const activeSection = Object.entries(intersections).reduce(
+    ([maxId, maxValue], [id, value]) =>
+      value > maxValue ? [id, value] : [maxId, maxValue],
+    [null, 0]
+  )[0];
   return (
     <div className="dataset-resources">
       <nav>
@@ -131,7 +137,7 @@ export default React.memo(() => {
       <div className="sections">
         <Section
           name={NAV_IDS.getStarted}
-          onChangeSection={setActiveSection}
+          onChangeIntersection={handleIntersectionChange}
           className="get-started">
           {[
             [
@@ -187,14 +193,16 @@ export default React.memo(() => {
 
         <Section
           name={NAV_IDS.other}
-          onChangeSection={setActiveSection}
+          onChangeIntersection={handleIntersectionChange}
           className="other-datasets">
           {datasets.map(props => (
             <Dataset key={props.nick} {...props} />
           ))}
         </Section>
 
-        <Section name={NAV_IDS.feedback} onChangeSection={setActiveSection}>
+        <Section
+          name={NAV_IDS.feedback}
+          onChangeIntersection={handleIntersectionChange}>
           <div className="box feedback">
             <img src="/img/datasets/feedback.png" />
             <div className="dots-and-content">
