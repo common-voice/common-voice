@@ -189,16 +189,17 @@ class SpeakPage extends React.Component<Props, State> {
 
   private handleKeyUprerecording = async (event: any) => {
     let index = null;
+    console.log(event.code);
     //for both sets of number keys on a keyboard with shift key
-    if (event.which === 35 || event.which === 49) {
+    if (event.code === 'Digit1' || event.code === 'Numpad1') {
       index = 0;
-    } else if (event.which === 40 || event.which === 50) {
+    } else if (event.code === 'Digit2' || event.code === 'Numpad2') {
       index = 1;
-    } else if (event.which === 34 || event.which === 51) {
+    } else if (event.code === 'Digit3' || event.code === 'Numpad3') {
       index = 2;
-    } else if (event.which === 37 || event.which === 52) {
+    } else if (event.code === 'Digit4' || event.code === 'Numpad4') {
       index = 3;
-    } else if (event.which === 12 || event.which === 53) {
+    } else if (event.code === 'Digit5' || event.code === 'Numpad5') {
       index = 4;
     }
 
