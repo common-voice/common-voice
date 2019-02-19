@@ -150,6 +150,10 @@ faq-why-important-a = Imvugo ni bwo buryo kamere dukoresha duhana amakuru, ikora
 faq-how-get-q = Nabona nte imbonwa z'Ijwi Rusange (Common Voice)?
 faq-how-get-a = Ikusanyirizo ry'Ijwi Rusange (Common data) ririho kuri buri wese washaka kumanura ibyo yifuza abifitiye uburenganzira kuri paji yacu y'amakusanyirizo. Ushobora kandi kumanura andi makusanyirizo yashyizwe ahagaragara ari kuri iyo paji.
 faq-when-release-q = Muzatangaza ryari imbonwa z'Ijwi Rusange (Common Voice) mu zindi ndimi?
+faq-when-release-a = Uburyo mpuzandimi bw'ikusanyirizo ry'Ijwi Rusange (Common Voice) burakorwaho ubu bugaterwa inkunga bunanozwa. Niba ushaka kumenya ibiruseho ku buryo buterwa inkunga, twandikire. Turashaka itariki twabitangazaho muri Mutarama 2019. Nyuma tuzajya dushyiraho amakuru buri gihe ku birebana n'indimi nshya n'amajwi mashya uko azajya atugeraho. Uburyo bwo guhanahana ayo makuru buracyatekerezwaho.
+faq-why-mission-q = Kuki Ijwi Rusange ari imwe mu nshingano za Mozilla?
+faq-why-mission-a = Mozilla yiyemeje gukomeza gufungura urubuga no gutuma rugerwaho na buri wese. Kugira ngo bishoboke, ni ngombwa gufasha abakora imbuza za Webu binyuze mu mishinga nk'Ijwi Rusange. Mu gihe ikoranabuhanga ry'amajwi rirushaho kugera muri porogaramu zinyuranye, twumva zikwiye gufasha abazikoresha ku buryo bungana. Ibi bisobanuye ko ari ngombwa gukora ku ndimi zirenze rumwe no kugira imvugo n'amakuru byinshi mu gihe cyo gukora no kugerageza ikoranabuhanga ry'amajwi. Ijwi rusange ni ivomo rusange kuri buri wese, kandi itsinda rya Mozilla n'abatekinisiye bayo bari ku isi yose barayikoresha mu mishinga yacu.
+faq-what-cv-and-deepspeech-q = Ni irihe tandukaniro hagati y'Ijwi Rusange (Common Voice) n'Imvugo Inimbitse (Deep Speech)?
 
 ## Glossary
 
