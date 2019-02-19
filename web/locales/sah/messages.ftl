@@ -7,6 +7,7 @@ return-to-cv = Common Voice-ка төҥүн
 email-input =
     .label = Электроннай почта
 submit-form-action = Ыыт
+indicates-required = * Толорорго булгуччулаах
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -14,11 +15,14 @@ submit-form-action = Ыыт
 
 ## Languages
 
+ab = Абхаз тыла
+af = Африкаанс тыла
 an = Арагонскай тыл
 ar = Арабскай тыл
 as = Ассамскай тыл
 ast = Астурийскай тыл
 az = Азербайджан тыла
+bg = Болгарскай тыл
 bn = Бенгальскай тыл
 br = Бретонскай тыл
 bxr = Бурят тыла
@@ -35,11 +39,13 @@ en = Английскай тыл
 eo = Эсперанто
 es = Испанскай тыл
 et = Эстон тыла
+fa = Персидскэй тыл
 fi = Финн тыла
 fo = Фарерскай тыл
 fr = Француз тыла
 fy-NL = Фризскай тыл
 ga-IE = Ирландскай тыл
+he = Еврей тыла
 hu = Венгер тыла
 ia = Интерлингва
 id = Индонезийскай тыл
@@ -62,7 +68,6 @@ nn-NO = Норвежскай Нюнорск
 or = Ория тыла
 pl = Поляк тыла
 pt-BR = Португал тыла (Бразилия)
-rm = Романшскай тыл
 ro = Румын тыла
 ru = Нуучча тыла
 sah = Саха тыла
@@ -101,15 +106,19 @@ cookies = Кукилар
 faq = Субу-субу биэриллэр ыйытыылар
 link-copied = Сигэ куопуйаланна
 back-top = Үөһээ төнүн
-contribution-banner-button = Көрөн ыл
 
 ## Home Page
 
 show-wall-of-text = Өссө аах
 vote-yes = Сөп
 vote-no = Суох
-all-languages = Тыллар барыта
 today = Бүгүн
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -127,8 +136,6 @@ shortcut-record-toggle-label = Суруттар/Тохтот
 
 ## ProfileForm
 
-profile-form-language =
-    .label = Тыл
 profile-form-age =
     .label = Сааһын
 male = Эр киһи
@@ -140,10 +147,8 @@ profile-close = Сап
 ## FAQ
 
 faq-title = Субу-субу биэриллэр ыйытыылар
-faq-what-q = Common Voice диэн тугуй?
-faq-important-q = Тоҕо ол суолталааҕый?
 
-## Profile
+## Glossary
 
 
 ## NotFound
@@ -154,13 +159,11 @@ faq-important-q = Тоҕо ол суолталааҕый?
 data-download-yes = Сөп
 data-download-deny = Суох
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
-
-## Record Page
-
-record-retry = Хатылаа
-record-no-mic-found = Микрофон булуллубата
 terms-agree = Сөбүлэһэбин
 terms-disagree = Сөбүлэспэппин
+
+## New Datasets Page
+
 
 ## Download Modal
 
@@ -194,7 +197,17 @@ action-tap = Таарый
 contribute = Кытын
 listen = Иһит
 skip = Көтүт
+record-no-mic-found = Микрофон булуллубата
 record-three-more-instruction = Үс хаалла!
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
 record-button-label = Куоласкын суруттар
 share-title-new = Өссө куоластары буларга <bold>биһиэхэ көмөлөс</bold>
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
