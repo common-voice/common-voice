@@ -115,9 +115,42 @@ zh-TW = Igishinwa (cyo muri Tayiwani)
 
 speak = Vuga
 speak-now = Vuga ubungubu
+datasets = Ikusanyirizo ry'imbonwa
+languages = Indimi
+profile = Isura ndanga
+help = Fasha
+contact = Aho umuntu abarizwa
+privacy = Amakuru yihariye bwite
+terms = Amuga/ amabwiriza
+cookies = Amakuru nyoboranzira
+faq = Ibibazo bikunze kubazwa
+content-license-text = Amakuru arimo asomwa gusa n'ufite uruhushya rw'isosiyete nyoroherezabahanzi (Creative Commons).
+share-title = Dufashe kubona abandi gutanga ijwi ryabo
+share-text = Fasha kwigisha imashini uko abantu nyakuri bavuga, tanga ijwi ryawe kuri...
+link-copied = Inzira yakoporowe
+back-top = Subira hejuru
+logout = Funga imeri
 
 ## Home Page
 
+home-title = Ijwi Rusange (Common Voice) ni igikorwa cya Mozilla kigamije gufasha kwigisha amamashini uko abantu nyakuri bavuga.
+home-cta = Vuga, tanga umusanzu hano!
+wall-of-text-start = Ijwi ni kamere, ijwi ni iry'abantu. Ni yo mpamvu dushishikajwe no gukora ikoranabuhanga ry'amajwi ryakwifashishwa mu mashini zacu. ariko mu gukora sisiteme z'aya majwi, hakenewe imbonwa z'amajwi nyinshi.
+wall-of-text-more-mobile = Imbonwa nyinshi zikoreshwa n'amasosiyete magari ntizigera ku bantu benshi. Dusanga ibyo ari ibyo kurushya abantu. Ni yo mpamvu twatangije uyu mushinga w'Amajwi Rusange (Common Voice) ugamije gufasha mu gutuma ijwi ryumvikana rikanamenywa na buri wese.
+wall-of-text-more-desktop = Ubu rero mushobora kuduha amajwi mugafasha gushyiraho ikusanyirizo ry'imbonwa ryaguye buri wese ashobora kwifashisha agakora rojisiyeri nshya z'ibikoresho n'imbuga. Soma interuro ufashe imashini kwiga uko abantu bavuga. Genzura ibyakozwe n'abandi batanga umusanzu wabo muri uru rwego kugira ngo haboneke ibintu binoze. Ibyo biroroshye.
+wall-of-text-first = Ijwi ni kamere, ijwi ni iry'abantu. Ni yo mpamvu dushishikajwe no gukora ikoranabuhanga ry'amajwi rishobora gukoreshwa ku mashini zacu. Ariko mu gukora sisiteme z'amajwi, ababishinzwe bakeneye imbonwa z'amajwi nyinshi.
+wall-of-text-second = Imbonwa nyinshi zikoreshwa n'amasosiyete magari ntizigera ku bantu benshi. Dusanga ibyo ari ibyo kurushya abantu. Ni yo mpamvu twatangije uyu mushinga w'Amajwi Rusange (Common Voice) ugamije gufasha mu gutuma ijwi ryumvikana rikanamenywa na buri wese.
+show-wall-of-text = Soma ibindi birenzeho
+help-us-title = Dufashe kwemeza interuro!
+help-us-explain = Kanda vuza, umva & utubwire: interuro zikurikira bazisomye neza?
+no-clips-to-validate = Bisa nkaho nta majwi yo kumva muri uru rurimi. Dufashe kuzuza ahabugenewe wifate amajwi ubu.
+vote-yes = Yego
+vote-no = Oya
+toggle-play-tooltip = Kanda...winjire mu buryo buvuza
+speak-subtitle = Tanga ijwi ryawe
+speak-paragraph = Gufata amajwi ni igice cyo gukora ikusanyirizo ryacu rikoreshwa na buri wese, bamwe bakaba basanga ari n'igice kinezeza.
+speak-goal-text = Amajwi yafashwe
+listen-subtitle = Dufashe kwemeza amajwi
 
 ## Account Benefits
 
@@ -166,6 +199,7 @@ faq-why-my-lang-a = Mozilla nta rurimi  irutisha ururndi. Ahubwo Ijwi Rusange (C
 faq-what-quality-q = Ijwi rishyirwa mu ikusanyirizo ry'amajwi rigomba kuba riri ku ruhe rwego, rifite irihe reme?
 faq-what-quality-a = Twifuza ko ikusanyirizo ry'imbonwa ry'Ijwi Rusange (Common Voice) riba ryiza ku buryo ihura n'imashini ishobora kumva mu no mu bihuru, mbese twifuza ibinyuranye. Ikindi kijyanye bantu batandukanye bakoresha ururimi, ikusanyirizo ririmo amajwi anyuranye azatuma imashini imenya uko ikoresha amajwi atandukanye mu bihe bisanzwe bitandukanye birimo imvugo zirimo andi majwi cyangwa urusaku cyangwa imodoka zihinda. Igihe cyose ijwi ryawe ryumvikana, rizaba rihagije ari n'ingirakamaro ku ikusanyirizo ry'imbonwa z'amajwi.
 faq-why-10k-hours-q = Kuki ari ngombwa kugeza ku masaha 10,000 yemejwe y'amajwi yafashwe kuri buri rurimi?
+faq-why-10k-hours-a = Uyu ni umubare ugereranyije w'amasaha ngombwa ku gutoza gukora sisitemu njyanajwi ku mwandiko.
 
 ## Glossary
 
