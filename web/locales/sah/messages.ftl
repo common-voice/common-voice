@@ -119,7 +119,9 @@ vote-no = Суох
 speak-subtitle = Куоласкын босхо биэр
 todays-progress = Бүгүҥҥү прогресс
 read-terms-q = Усулуобуйалары аахтыҥ дуо?
+all-locales = Барыта
 today = Бүгүн
+sign-up-account = Бэлиэтэнии
 
 ## Account Benefits
 
@@ -140,6 +142,7 @@ shortcut-record-toggle-label = Суруттар/Тохтот
 
 ## ProjectStatus
 
+english = Английскай
 
 ## ProfileForm
 
@@ -151,10 +154,15 @@ female = Дьахтар
 other = Атын
 profile-close = Сап
 login-signup = Киирии / Бэлиэтэнии
+edit = Уларытыы
 
 ## FAQ
 
 faq-title = Субу-субу биэриллэр ыйытыылар
+faq-what-cv-q = Common Voice диэн тугуй?
+faq-why-important-q = Тоҕо бу улахан суолталааҕый?
+faq-how-get-q = Common Voice дааннайдарын мин хайдах ылыахпын сөбүй?
+faq-why-account-q = Мин тоҕо бэлиэтэниэхтээхпиний?
 
 ## Glossary
 
@@ -164,17 +172,28 @@ faq-title = Субу-субу биэриллэр ыйытыылар
 
 ## Data
 
+data-download-button = Common Voice дааннайдарын хачайдаа
 data-download-yes = Сөп
 data-download-deny = Суох
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-other-download = Дааннайдары хачайдаа
 terms-agree = Сөбүлэһэбин
 terms-disagree = Сөбүлэспэппин
 
 ## New Datasets Page
 
+language = Тыл
+# File size in gigabytes
+size = Кээмэй
+cv-license = Лицензия
+size-gigabyte = ГБ
+size-megabyte = МБ
+subscribe = Суруттар
+go-discourse = Discourse-ка көс
 
 ## Download Modal
 
+download-no = Суох, махтал
 
 ## Contact Modal
 
@@ -216,6 +235,10 @@ share-title-new = Өссө куоластары буларга <bold>биһиэ�
 
 ## Dashboard
 
+you = Эн
+everyone = Бары
 
 ## Profile Delete
 
+keep = Хааллар
+remove = Соттор
