@@ -358,12 +358,20 @@ hours-validated-explanation = Ibara ry'amasaha y'ifata ry'ijwi ryemejwe n'abakor
 sst = Kuva ku mvugo bigana ku mwandiko.
 sst-explanation = Ikoranabuhanga rijyana imvugo mu mwandiko rihindura imbonwa z'ijwi mo umwandiko.
 de-identified = Itandukanya ry'amakuru y'irangamimerere n'amakuru yandi.
+de-identified-explanation = Guhisha amakuru bwite arebana n'abatanga amajwi agatandukana n'amajwi batanze bikorwa mu gihe aya majwi akubirwa hamwe ngo amanurwe n'ushaka kuyakoresha ayavanye mu ikusanyirizo.
 
 ## NotFound
 
+notfound-title = Ntibibonetse/ ntabonetse
+notfound-content = Mpagaritswe umutima n'uko ntazi icyo ushaka.
 
 ## Data
 
+data-download-button = Manura imbonwa zo muri porogaramu y'Ijwi Rusange (Common Voice)
+data-download-yes = Yego
+data-download-deny = Oya
+data-download-license = Uburenganzira
+data-download-modal = Ugiye gutangira kumanura jigabayite, ukomeze?
 
 ## New Datasets Page
 
