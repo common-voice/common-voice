@@ -54,6 +54,7 @@ fr = Ffrangeg
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
 he = Hebraeg
+hr = Croatieg
 hsb = Sorbeg Uwch
 hu = Hwngareg
 ia = Interlingua
@@ -85,6 +86,7 @@ pt-BR = Portiwgaleg (Brasil)
 rm-sursilv = Romansh Sursilvan
 ro = Rwmaneg
 ru = Rwsieg
+rw = Kinyarwanda
 sah = Sakha
 sc = Sardinieg
 sk = Slofaceg
@@ -194,6 +196,7 @@ x-years-short =
 help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel sy'n agored i'r cyhoedd
 profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 sign-up-account = Cofrestru am gyfrif
+email-subscription-title = cofrestrwch am ddiweddariadau e-bost
 
 ## Account Benefits
 
@@ -453,7 +456,10 @@ download-language = Llwytho { $language } i Lawr
 validated-hours = Oriau â Ddilyswyd
 recorded-hours = Oriau â Recordiwyd
 whats-inside = Beth sydd o fewn set data Common Voice?
-dataset-description = Mae pob cofnod o fewn y set data yn cynnwys MP3 unigryw a thestun ffeil cyfatebol. Mae llawer o'r <b>{ $hours }</b> o oriau wedi eu recordio yn y set data yn cynnwys meta data fel oed, rhyw ac acen, sy'n gallu hyfforddi cywirdeb peiriannau adnabod llais.
+dataset-description-hours =
+    Mae pob cofnod yn y set ddata yn cynnwys MP3 unigryw a ffeil testun cyfatebol. Mae llawer o'r <b>{ $total }</b> awr a gofnodwyd yn y set ddata  hefyd yn cynnwys metadata demograffig, oed, rhyw, ac acen a all helpu i hyfforddi cywirdeb peiriannau adnabod lleferydd.
+    
+    Mae'r set ddata ar hyn o bryd yn cynnwys <b>{ $valid }</b> awr wedi'u dilysu mewn <b>{ $languages }</b> iaith, ond rydym yn ychwanegu mwy o leisiau ac ieithoedd yn barhaus. Edrychwch ar ein tudalen <languagesLink>Ieithoedd </languagesLink> i ofyn am iaith neu i ddechrau cyfrannu.
 want-dataset-update = Eisiau diweddariadau pan fyddwn yn ryddhau fersiwn newydd o set data Common Voice? Tanysgrfiwch i'n newyddlen.
 subscribe = Tanysgryfio
 get-started-speech = Cychwyn gydag Adnabod Lleferydd
