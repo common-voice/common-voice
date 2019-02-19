@@ -162,6 +162,8 @@ faq-do-want-native-a = Yego, dukeneye rwose ijwi ryawe! Imwe mu migambi y'Ijwi R
 faq-why-different-speakers-q = Kuki dukeneye amavuga batandukanye benshi kuri buri rurimi?
 faq-why-different-speakers-a = ikusanyirizo ry'imbonwa z'imvugo nyinshi zirimo amakuru bwite y'abantu atagira ingano bigatuma habaho gushyira abantu cyane ab'igitsina gabo cyangwa abacuriritse ku gihande runaka mu bijyanye n'imvugo. Imvugo n'indimi shami bisa n'ibitagwiriye mu mbonwa zigwaho bihuzwa n'amatsinda y'abantu asa n'ahabwa akato. Hari n'imashini nyinshi zihura n'ikibazo mu gutahura amajwi y'ab'igitsina gore. Iyi ni yo mpamvu dukeneye amajwi anyuranye mu mbonwa z'amajwi zacu.
 faq-why-my-lang-q = Kuki ururimi rwange rutari rwashyirwamo?
+faq-why-my-lang-a = Mozilla nta rurimi  irutisha ururndi. Ahubwo Ijwi Rusange (Common Voice) ni igikorwa kerekeye rubanda, ariko kigira ibyiciro byinshi mbere yo kongeramo ururimi no gutangira kwegeranya amajwi atangwa n'abaruvuga. Icya mbere ni uko urubuga rw'Ijwi Rusange rukeneye guhindurwa mu rurimi kugira ngo abaruvuga bashobore gusobanukirwa n'ibyo abantu bashyiraho mu rurimi rwabo. Ikindi ni uko dukeneye kwegeranya interuro nyinshi zidakumirwa n'uburenganzira bw'umutungo mu by'ubwenge bw'abazivuze abantu basoma baranguruye.Iyo ibi byombi byubahirijwe ururimi rushyirwa ku Ijwi Rusange (Common Voice) abantu bagatangira gufata amajwi yabo cyangwa kwemeza ubuhame bw'amajwi yatanzwe n'abandi.
+faq-what-quality-q = Ijwi rishyirwa mu ikusanyirizo ry'amajwi rigomba kuba riri ku ruhe rwego, rifite irihe reme?
 
 ## Glossary
 
