@@ -344,9 +344,14 @@ faq-is-account-public-q = Amakuru yange yose abonwa na buri wese?
 faq-how-privacy-q = Mubigenza mute ngo abantu batanze amajwi yabo batamenywa na bose kandi amakuru yabo bwite abe ibanga?
 faq-how-privacy-a = Amajwi yose ari mu ikusanyirizo atandukanywa n'irangamimerere ry'uwayatanze. Igihe utanga umusanzu atanze amakuru amwerekeyeho binyuze ku isura ndanga ye, ayo makuru atandukanywa n'amajwi atanze mbere yo kuyagena ngo ashyirwe aho ashobora kumanurwa na buri wese mu ikusanyirizo kandi ntiyigera ashyirwa ku mugaragaro kuri paji yabo iranga isura ndanga.
 faq-what-determine-identity-q = Kugena irangamimerere ry'abavuga mu ikusanyirizo rya porogaramu y'Ijwi Rusange bisobanuye iki?
+faq-what-determine-identity-a = Ikusanyirizo rya porogaramu y'Ijwi Rusange ni ivomo rusange kandi rifunguye kuri buri wese rishobora gukoreshwa mu gutoza za porogaramu zinyuranye nyinshi zikoreshwa muri aya majwi. Mu kwita ku mutekano w'abaduha umusanzu wabo, dusaba uwo ari we wese umanuye ibiri mu ikusanyirizo rya porogaramu y'Ijwi Rusange kubahiriza amakuru y'umwihariko y'ibanga y'abatangamusanzu. Amajwi yose ari mu ikusanyirizo atandukanywa n'amakuru bwite y'abatangamusanzu. Iyo umanuye ibyo mu ikusanyirizo, uba wiyemeje kutagira icyo ukora ku makuru y'umutangamusanzu wese. Bisobanuye ko udashobora kugerageza guhuza ibyo usanzemo n'amakuru areba uwatanze umusanzu mu gutanga ijwi. Ushobora gusa gukoresha ikusanyirizo kwitoza gutahura ijwi, gutahura uvuga, cyangwa izindi porogaramu, uhuza amakuru amwe usanze mu ikusanyirizo n'ayandi aririrmo.
 
 ## Glossary
 
+glossary = Urutonde rw'amuga
+localization = Kugena ahantu/ ahantu
+localization-explanation = Ubu ni uburyo dukoresha mu guhindura ururimi mu rundi no guhuza ibyo dushyira hano n'indimi zikoreshwa mu gace runaka.
+sentence-collection = Gukusanya interuro
 
 ## NotFound
 
