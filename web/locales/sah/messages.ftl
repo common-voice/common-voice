@@ -81,6 +81,7 @@ te = Телугу тыла
 th = Тай тыла
 tr = Туурак тыла
 tt = Татаар тыла
+udm = Удмурт тыла
 uk = Украинскай тыл
 ur = Урду тыла
 uz = Узбек тыла
@@ -104,14 +105,20 @@ privacy = Конфиденциальность
 terms = Усулуобуйалар
 cookies = Кукилар
 faq = Субу-субу биэриллэр ыйытыылар
+share-title = Куолас босхо биэрэр дьону буларга биһиэхэ көмөлөс!
+share-text = Роботтар киһи курдук саҥаралларыгар көмөлөс, бэйэҥ куоласкын босхо биэр { $link }
 link-copied = Сигэ куопуйаланна
 back-top = Үөһээ төнүн
+logout = Тахсыы
 
 ## Home Page
 
 show-wall-of-text = Өссө аах
 vote-yes = Сөп
 vote-no = Суох
+speak-subtitle = Куоласкын босхо биэр
+todays-progress = Бүгүҥҥү прогресс
+read-terms-q = Усулуобуйалары аахтыҥ дуо?
 today = Бүгүн
 
 ## Account Benefits
@@ -143,6 +150,7 @@ female = Дьахтар
 # Gender
 other = Атын
 profile-close = Сап
+login-signup = Киирии / Бэлиэтэнии
 
 ## FAQ
 
