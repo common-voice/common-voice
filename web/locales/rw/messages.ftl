@@ -352,6 +352,12 @@ glossary = Urutonde rw'amuga
 localization = Kugena ahantu/ ahantu
 localization-explanation = Ubu ni uburyo dukoresha mu guhindura ururimi mu rundi no guhuza ibyo dushyira hano n'indimi zikoreshwa mu gace runaka.
 sentence-collection = Gukusanya interuro
+sentence-collection-explanation = Gukusanya interuro zikoreshwa mu bantu bose, cyangwa kwandika izindi nshya zakoreshwa na bose.
+hours-recorded-explanation = Ibara ry'amasaha y'ifata ry'ijwi yakusanyijwe yose.
+hours-validated-explanation = Ibara ry'amasaha y'ifata ry'ijwi ryemejwe n'abakoresha ururimi babiri kuri batatu bakoresheje gutora na "Yego". Ibi byerekana aho gahunda igeze yo kugera ku masaha ibihumbi 10.000 umushinga ufiteho umugambi.
+sst = Kuva ku mvugo bigana ku mwandiko.
+sst-explanation = Ikoranabuhanga rijyana imvugo mu mwandiko rihindura imbonwa z'ijwi mo umwandiko.
+de-identified = Itandukanya ry'amakuru y'irangamimerere n'amakuru yandi.
 
 ## NotFound
 
