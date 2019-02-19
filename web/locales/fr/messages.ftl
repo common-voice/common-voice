@@ -424,7 +424,7 @@ confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }
 size-gigabyte = Go
 size-megabyte = Mo
 confirm-no-identify = <b>Vous acceptez</b> de ne pas essayer de découvrir l’identité des locuteurs du jeu de données de Common Voice.
-download-language = Télécharger{ $language }
+download-language = Télécharger | { $language }
 validated-hours = Heures validées
 recorded-hours = Heures enregistrées
 whats-inside = Que contient le jeu de données Common Voice ?
@@ -433,6 +433,7 @@ dataset-description =
     
     Le jeu de données contient actuellement  <b>{ $hours }</b> heures validées dans <b>{ $languageCount }</b> langues, mais nous ajoutons en permanence plus de voix et de langues. Jetez un œil à la <languagesLink>page des langues</languagesLink> pour demander une langue ou commencer à contribuer.
 subscribe = S’abonner
+get-started-speech = S’initier à la reconnaissance vocale
 feedback-q = Vous avez des suggestions ?
 common-voice-info = Vous avez des questions à propos de Common Voice ? Rejoignez-nous sur le forum <discourseLink>Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
@@ -475,8 +476,8 @@ language-section-in-progress = En cours
 language-section-in-progress-description = Les langues « en cours » sont celles sur lesquelles nos communautés travaillent ; leur progrès correspond à l’avancement de la traduction du site web et à l’avancement de la collecte de phrases.
 language-section-launched = Lancées
 language-section-launched-new-description = Pour ces langues activées, le site web a été complètement traduit et assez de phrases ont été collectées pour permettre des contributions de <italic>voix</italic> et d’<italic>écoute</italic>.
-languages-show-more = Afficher davantage de langues
-languages-show-less = Afficher moins de langues
+languages-show-more = Afficher davantage
+languages-show-less = Afficher moins
 language-speakers = Locuteurs et locutrices
 language-meter-in-progress = En cours
 language-total-progress = Total
