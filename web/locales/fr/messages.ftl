@@ -155,8 +155,8 @@ speak-goal-text = Échantillons enregistrés
 listen-subtitle = Aidez-nous à valider les échantillons vocaux
 listen-paragraph = La validation des échantillons vocaux donnés est également importante pour la mission Common Voice. Prenez l’écoute et aidez-nous à créer des données vocales libres de qualité.
 listen-goal-text = Extraits validés
-hours-recorded = Heures d’enregistrement
-hours-validated = Heures validées
+hours-recorded = Heures d’enregistrement 
+hours-validated = Heures validées 
 voices-online = Échantillons de voix maintenant en ligne
 todays-progress = Progression du jour
 help-reach-goal = Aidez-nous à atteindre { $goal }
@@ -362,15 +362,15 @@ faq-what-determine-identity-a =
 ## Glossary
 
 glossary = Glossaire
-localization = Localisation
+localization = Localisation 
 localization-explanation = Il s’agit de notre processus pour traduire et adapter le contenu à de nombreuses langues.
-sentence-collection = Collecte de phrases
+sentence-collection = Collecte de phrases 
 sentence-collection-explanation = Collecter des phrases qui sont dans le domaine public, ou en écrire de nouvelles qui seront dans le domaine public.
-hours-recorded-explanation = La quantité d’heures d’enregistrements vocaux que nous avons collecté jusqu’à présent.
+hours-recorded-explanation = La quantité d’heures d’enregistrements vocaux que nous avons collectés jusqu’à présent.
 hours-validated-explanation = La quantité d’heures d’enregistrements vocaux qui ont été validées par au moins deux ou trois utilisateurs qui ont voté « Oui ». Cela dénote les progrès quant à l’objectif de 10 000 heures du projet.
-sst = Reconnaissance vocale (Speech-to-text, STT)
+sst = Reconnaissance vocale (Speech-to-text, STT) 
 sst-explanation = La reconnaissance vocale (STT) convertit de la voix en texte.
-de-identified = Dé-identifié
+de-identified = Dé-identifié 
 de-identified-explanation = Processus permettant de séparer les informations personnelles des contributeurs de leurs échantillons lors de la préparation du jeu de données.
 
 ## NotFound
