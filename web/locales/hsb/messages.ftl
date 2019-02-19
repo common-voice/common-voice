@@ -54,6 +54,7 @@ fr = Francosćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 he = Hebrejšćina
+hr = Chorwatšćina
 hsb = Hornjoserbšćina
 hu = Madźaršćina
 ia = Interlingua
@@ -85,6 +86,7 @@ pt-BR = Portugalšćina (Brazilska)
 rm-sursilv = Retoromanšćina (Sursilvan)
 ro = Rumunšćina
 ru = Rušćina
+rw = Kinjarwanda
 sah = Sachašćina
 sc = Sardinšćina
 sk = Słowakšćina
@@ -186,6 +188,7 @@ x-years-short =
 help-make-dataset = Pomhajće nam, zjawnje přistupnu wotewrjenu datowu sadźbu wysokeje kwality wutworić
 profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 sign-up-account = Konto załožić
+email-subscription-title = Registrujće so za e-mejlowe aktualizacije
 
 ## Account Benefits
 
