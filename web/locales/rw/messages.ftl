@@ -158,6 +158,9 @@ faq-what-cv-and-deepspeech-a = Ijwi Rusange (Common Voice) yuzuza ivomo rusange 
 faq-is-goal-assistant-q = Ese intego/ umugambi w'Ijwi Rusange ni ugukora porogaramu ifasha ijwi?
 faq-is-goal-assistant-a = Umugambi w'Ikusanyirizo ryIjwi Rusange ni ugufasha buri wese ku isi gukora intahurajwi, intahura nyakuvuga, cyangwa indi porogaramu yose ikoresha imbonwa z'ijwi. Porogaramu mfashajwi ni imwe muri nyinshi wakoresha mu gukora ikusanyirizo majwi.
 faq-do-want-native-q = Ntabwo ndi kavukire w'uru rurimi bigatuma ntaruvuga nka we, ese muracyashaka ko nabaha ijwi ryange?
+faq-do-want-native-a = Yego, dukeneye rwose ijwi ryawe! Imwe mu migambi y'Ijwi Rusange ni ukwegeranya imvugo zitandukanye zishoboka kugira ngo abashinzwe iby'itahurajwi babashe gukorera neza buri wese ku rwego rumwe.Ni yo mpamvu ijwi ry'utari kavukire w'ururimi rifite akamaro gakomeye.
+faq-why-different-speakers-q = Kuki dukeneye amavuga batandukanye benshi kuri buri rurimi?
+faq-why-different-speakers-a = ikusanyirizo ry'imbonwa z'imvugo nyinshi zirimo amakuru bwite y'abantu atagira ingano bigatuma habaho gushyira abantu cyane ab'igitsina gabo cyangwa abacuriritse ku gihande runaka mu bijyanye n'imvugo. Imvugo n'indimi shami bisa n'ibitagwiriye mu mbonwa zigwaho bihuzwa n'amatsinda y'abantu asa n'ahabwa akato. Hari n'imashini nyinshi zihura n'ikibazo mu gutahura amajwi y'ab'igitsina gore. Iyi ni yo mpamvu dukeneye amajwi anyuranye mu mbonwa z'amajwi zacu.
 
 ## Glossary
 
