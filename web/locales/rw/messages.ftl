@@ -146,6 +146,10 @@ faq-title = Ibibazo bikunze kubazwa
 faq-what-cv-q = Ijwi Rusange (Common Voice) ni iki?
 faq-what-cv-a = Ikoranabuhanga ntahurajwi rirahindura uburyo dukoresha mudasobwa, ariko uburyo buriho ubu burahenze kandi ni umutungo wihariwe na ba nyirawo. Ijwi Rusange (Common Voice) ni kimwe mu bitekerezo byatangijwe na Mozilla ngo irusheho kunoza ikoranabuhanga ntahurajwi no gutuma rigera kuri buri wese. Ijwi Rusange (Common Voice) ni indundo nyamunini ikubiyemo amajwi yatanzwe n'abantu atuma ushaka wese ashobora kwimenyereza vuba kandi mu buryo bworoshye rojisiyeri zikoresha amajwi mu rurimi urwo ari rwo rwose.
 faq-why-important-q = Kubera iki ari ingirakamaro?
+faq-why-important-a = Imvugo ni bwo buryo kamere dukoresha duhana amakuru, ikoranabuhanga ry'amajwi na ryo rikaba rituma bwinjira no muri za mudasobwa zacu na terefone n'ibindi biteye nka yo. Turifuza guha abatekinisiye babikora ubushobozi bwo gukora porogaramu ntahurajwi zishimishije z'imisusire nk'iya za porogaramu zihindura indimi ako kanya, cyangwa izifasha mu kuboneza amajwi muri mudasobwa. Ariko kugeza ubu, imbonwa nyinshi z'amajwi zikenewe mu gukora izi porogaramu zirahenze kandi zihariwe na bene zo gusa. Twizeye neza ko ikusanyirizo ry'Ijwi Rusange (Common Voice) izafasha abakora porogaramu zacu mu byo bakeneye byose bakora ibintu bishya bakanatuma ikoranabuhanga mvugo rigera mu rurimi rwabo. Mu kugira ngo itahurajwi ribe hose, dukusanya amajwi mu ndimi zivugwa ku isi yose tutaretse n'izivugwa n'abantu bake yewe zidakenewe na za serivise ntahurajwi zicuruza. Gutangaza ikusanyirizo ry'amajwi anyuranye bizafasha abatekinisiye bakora za porogaramu, ba rwiyemezamirimo n'abakoresha indimi gukemura iki kibazo bo ubwabo.
+faq-how-get-q = Nabona nte imbonwa z'Ijwi Rusange (Common Voice)?
+faq-how-get-a = Ikusanyirizo ry'Ijwi Rusange (Common data) ririho kuri buri wese washaka kumanura ibyo yifuza abifitiye uburenganzira kuri paji yacu y'amakusanyirizo. Ushobora kandi kumanura andi makusanyirizo yashyizwe ahagaragara ari kuri iyo paji.
+faq-when-release-q = Muzatangaza ryari imbonwa z'Ijwi Rusange (Common Voice) mu zindi ndimi?
 
 ## Glossary
 
