@@ -161,6 +161,7 @@ faq-do-want-native-q = Ntabwo ndi kavukire w'uru rurimi bigatuma ntaruvuga nka w
 faq-do-want-native-a = Yego, dukeneye rwose ijwi ryawe! Imwe mu migambi y'Ijwi Rusange ni ukwegeranya imvugo zitandukanye zishoboka kugira ngo abashinzwe iby'itahurajwi babashe gukorera neza buri wese ku rwego rumwe.Ni yo mpamvu ijwi ry'utari kavukire w'ururimi rifite akamaro gakomeye.
 faq-why-different-speakers-q = Kuki dukeneye amavuga batandukanye benshi kuri buri rurimi?
 faq-why-different-speakers-a = ikusanyirizo ry'imbonwa z'imvugo nyinshi zirimo amakuru bwite y'abantu atagira ingano bigatuma habaho gushyira abantu cyane ab'igitsina gabo cyangwa abacuriritse ku gihande runaka mu bijyanye n'imvugo. Imvugo n'indimi shami bisa n'ibitagwiriye mu mbonwa zigwaho bihuzwa n'amatsinda y'abantu asa n'ahabwa akato. Hari n'imashini nyinshi zihura n'ikibazo mu gutahura amajwi y'ab'igitsina gore. Iyi ni yo mpamvu dukeneye amajwi anyuranye mu mbonwa z'amajwi zacu.
+faq-why-my-lang-q = Kuki ururimi rwange rutari rwashyirwamo?
 
 ## Glossary
 
