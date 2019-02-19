@@ -416,12 +416,13 @@ size = Taille
 validated-hr-total = Total d’heures validées
 overall-hr-total = Total d’heures
 cv-license = Licence
+audio-format = Format audio
 number-of-voices = Nombre de voix
 email-to-download = Saisissez votre adresse électronique pour accéder au téléchargement
 why-email = <b>Pourquoi demandons-nous l’adresse électronique ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse électronique nous le permettra.
 confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
-size-gigabyte =  Go
-size-megabyte =  Mo
+size-gigabyte = Go
+size-megabyte = Mo
 confirm-no-identify = <b>Vous acceptez</b> de ne pas essayer de découvrir l’identité des locuteurs du jeu de données de Common Voice.
 download-language = Télécharger{ $language }
 validated-hours = Heures validées
@@ -431,11 +432,15 @@ dataset-description =
     Chaque entrée du jeu de données consiste en un seul fichier MP3 et le fichier du texte correspondant. Beaucoup des <b>{ $hours }</b> heures enregistrées dans le jeu de données comprennent également des métadonnées démographiques, telles que l’âge, le sexe et l’accent, qui peuvent contribuer à améliorer la précision des moteurs de reconnaissance vocale.
     
     Le jeu de données contient actuellement  <b>{ $hours }</b> heures validées dans <b>{ $languageCount }</b> langues, mais nous ajoutons en permanence plus de voix et de langues. Jetez un œil à la <languagesLink>page des langues</languagesLink> pour demander une langue ou commencer à contribuer.
+subscribe = S’abonner
+feedback-q = Vous avez des suggestions ?
+common-voice-info = Vous avez des questions à propos de Common Voice ? Rejoignez-nous sur le forum <discourseLink>Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Le corpus TED-LIUM est construit à partir des dialogues audio et de leurs transcriptions disponibles sur le site TED.
 data-other-voxforge-description = VoxForge a été construit pour collecter des transcriptions vocales pour les utiliser dans des moteurs de reconnaissance vocale libres.
 data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits audio destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
+your-feedback = Vous avez des idées pour améliorer le jeu de données Common Voice ? Faites-le-nous savoir sur Discourse
 
 ## Download Modal
 
