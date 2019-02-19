@@ -154,6 +154,10 @@ faq-when-release-a = Uburyo mpuzandimi bw'ikusanyirizo ry'Ijwi Rusange (Common V
 faq-why-mission-q = Kuki Ijwi Rusange ari imwe mu nshingano za Mozilla?
 faq-why-mission-a = Mozilla yiyemeje gukomeza gufungura urubuga no gutuma rugerwaho na buri wese. Kugira ngo bishoboke, ni ngombwa gufasha abakora imbuza za Webu binyuze mu mishinga nk'Ijwi Rusange. Mu gihe ikoranabuhanga ry'amajwi rirushaho kugera muri porogaramu zinyuranye, twumva zikwiye gufasha abazikoresha ku buryo bungana. Ibi bisobanuye ko ari ngombwa gukora ku ndimi zirenze rumwe no kugira imvugo n'amakuru byinshi mu gihe cyo gukora no kugerageza ikoranabuhanga ry'amajwi. Ijwi rusange ni ivomo rusange kuri buri wese, kandi itsinda rya Mozilla n'abatekinisiye bayo bari ku isi yose barayikoresha mu mishinga yacu.
 faq-what-cv-and-deepspeech-q = Ni irihe tandukaniro hagati y'Ijwi Rusange (Common Voice) n'Imvugo Inimbitse (Deep Speech)?
+faq-what-cv-and-deepspeech-a = Ijwi Rusange (Common Voice) yuzuza ivomo rusange kuri bose rya porogaramu y'Imvugo Inimbitse (Deep Speech) ya Mozilla. Ubwoko bwa mbere bw'iyi porogaramu bwasohowe mu Ugushyingo 2017 hanyuma yakomeje kuvugururwa. Duhereye ku ikusanyirizo ry'Ijwi Rusange, dutekereza ko iri koranabuhanga ntahurajwi ry'ivomo rifunguriye buri wese rizagera kuri buri wese.Twizera neza ko iri koranabuhanga rizafasha abakora porogaramu gukora ibintu bishya na serivisi byinshi.
+faq-is-goal-assistant-q = Ese intego/ umugambi w'Ijwi Rusange ni ugukora porogaramu ifasha ijwi?
+faq-is-goal-assistant-a = Umugambi w'Ikusanyirizo ryIjwi Rusange ni ugufasha buri wese ku isi gukora intahurajwi, intahura nyakuvuga, cyangwa indi porogaramu yose ikoresha imbonwa z'ijwi. Porogaramu mfashajwi ni imwe muri nyinshi wakoresha mu gukora ikusanyirizo majwi.
+faq-do-want-native-q = Ntabwo ndi kavukire w'uru rurimi bigatuma ntaruvuga nka we, ese muracyashaka ko nabaha ijwi ryange?
 
 ## Glossary
 
