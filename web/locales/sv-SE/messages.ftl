@@ -54,6 +54,7 @@ fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
 he = Hebreiska
+hr = Kroatiska
 hsb = Högsorbiska
 hu = Ungerska
 ia = Interlingua
@@ -85,6 +86,7 @@ pt-BR = Portugisiska (Brasilien)
 rm-sursilv = Rätoromanska
 ro = Rumänska
 ru = Ryska
+rw = Kinyarwanda
 sah = Sakha
 sc = Sardiska
 sk = Slovakiska
@@ -183,6 +185,7 @@ x-years-short =
 help-make-dataset = Hjälp oss bygga en högkvalitativ, öppen datamängd
 profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 sign-up-account = Registrera dig för ett konto
+email-subscription-title = registrera dig för uppdateringar via e-post
 
 ## Account Benefits
 
@@ -439,10 +442,6 @@ download-language = Ladda ner { $language }
 validated-hours = Validerade timmar
 recorded-hours = Inspelade timmar
 whats-inside = Vad finns i Common Voice-datamängd?
-dataset-description =
-    Varje post i datamängden består av en unik MP3 och motsvarande textfil. Många av de <b>{ $hours }</b> inspelade timmarna i datamängden innehåller även demografiska metadata som ålder, kön och accent som kan hjälpa till att träna noggrannheten för taligenkänningsmotorer.
-    
-    Datamängden består för närvarande av <b>{ $hours }</b> validerade timmar på språk i <b>{ $languageCount }</b> men vi lägger alltid till fler röster och språk. Ta en titt på vår <languagesLink>Språk sida</languagesLink> för att begära ett språk eller börja bidra.
 want-dataset-update = Vill du ha uppdateringar om när vi släpper en ny version av Common Voice-datamängd? Prenumerera på vårt nyhetsbrev.
 subscribe = Prenumerera
 get-started-speech = Kom igång med taligenkänning
