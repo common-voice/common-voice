@@ -50,9 +50,9 @@ Ababat werǧin yella.
 Abbuh a lɣaci.
 Abbuh!
 Abbuh! Yeswaɣ tanaɛurt ay d-uɣeɣ s wacḥal n yimelyan.
-Abbuh, ay at leεṛaḍ! Tiɣiṛin i tid-bbwin!
-Abbuh, ay at leεṛaḍ! Tiɣiṛin i tid-ppwin!
-Abbuh, ay at leεṛaḍ! Tiɣiṛin i tid-wwin!
+Abbuh, ay at leεṛaḍ! Tiɣirin i t-id-bbwin!
+Abbuh, ay at leεṛaḍ! Tiɣirin i t-id-ppwin!
+Abbuh, ay at leεṛaḍ! Tiɣirin i t-id-wwin!
 Abeddel deg lbeni n ufyir ,d tlelli seg tama n tmeɣrut d tesddarin d wakaten.
 Abeddel n tfada n tudert yegla-d s ubeddel neɣ s usnerni n ttawil n taywalt.
 Abeɛɛuc yečča tafka-s, ur yuhwan.
@@ -988,10 +988,10 @@ Amcic yesmiɛiw.
 Amcic-iw itezzi ɣef tecriḥt i muddeɣ i teqjunt-iw.
 Amcic-nni d amellal.
 Amcic-nni, mi yeckenṭeḍ, ṛuḥ tura kkes-it-id.
-Amdakel n Tom isem-is Pierre.
-Amdakel-ik aɛziz yezdeɣ deg uzniq deg i tzedɣeḍ kečči?
-Amdakel-inek i tḥemmleḍ akk mliḥ d argaz neɣ d tameṭṭut?
-Amdakel-is mi d-yettwali, yettu acu ɛebbant tuyat.
+Ameddakel n Tom isem-is Pierre.
+Ameddakel-ik aɛziz yezdeɣ deg uzniq deg i tzedɣeḍ kečči?
+Ameddakel-inek i tḥemmleḍ akk mliḥ d argaz neɣ d tameṭṭut?
+Ameddakel-is mi d-yettwali, yettu acu ɛebbant tuyat.
 Amdan d aferdis agejdan n temɣiwant.
 Amdan d amedya n ṣsber ur d-yessugun yiwen deg ugama.
 Amdan yessaram ad yeḥkem deg ugama s tussna d tiknulujit.
