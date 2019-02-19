@@ -54,6 +54,7 @@ fr = francoščina
 fy-NL = frizijščina
 ga-IE = irščina
 he = hebrejščina
+hr = hrvaščina
 hsb = gornja lužiška srbščina
 hu = madžarščina
 ia = interlingva
