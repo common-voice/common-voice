@@ -54,6 +54,7 @@ fr = francuski
 fy-NL = fryzyjski
 ga-IE = irlandzki
 he = hebrajski
+hr = chorwacki
 hsb = górnołużycki
 hu = węgierski
 ia = interlingua
@@ -85,6 +86,7 @@ pt-BR = portugalski (Brazylia)
 rm-sursilv = retoromański (sursilvan)
 ro = rumuński
 ru = rosyjski
+rw = kinyarwanda
 sah = jakucki
 sc = sardyński
 sk = słowacki
@@ -180,12 +182,17 @@ x-years-short =
         [few] { $count } lata
        *[other] { $count } lat
     }
+help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
+profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
+sign-up-account = Zarejestruj konto
 
 ## Account Benefits
 
+benefits = Korzyści
 
 ## What's public
 
+whats-public = Co jest publiczne?
 
 ## Speak & Listen Shortcuts
 
@@ -233,6 +240,10 @@ english = angielski
 
 profile-form-username =
     .label = Nazwa użytkownika
+profile-form-native-language =
+    .label = Język ojczysty
+profile-form-additional-language =
+    .label = Dodatkowy język
 profile-form-accent =
     .label = Akcent
 profile-form-age =
@@ -293,9 +304,15 @@ change-email-setings = Zmień swój adres e-mail w ustawieniach tożsamości lo
 ## FAQ
 
 faq-title = Często zadawane pytania
+faq-what-cv-q = Czym jest Common Voice?
+faq-why-important-q = Dlaczego to jest ważne?
+faq-why-account-q = Po co mam zarejestrować konto?
 
 ## Glossary
 
+glossary = Glosariusz
+localization = Lokalizacja
+sentence-collection = Zbieranie zdań
 
 ## NotFound
 
@@ -315,11 +332,6 @@ data-get-started = <speechBlogLink>Pierwsze kroki z rozpoznawaniem mowy</speech
 data-other-title = Inne zbiory danych…
 data-other-goto = Przejdź do { $name }
 data-other-download = Pobierz dane
-data-other-librispeech-description = LibriSpeech to zbiór około 1000 godzin angielskiej mowy w jakości 16 KHz, z tekstów audiobooków z projektu LibriVox.
-data-other-ted-name = Zbiór TED-LIUM
-data-other-ted-description = Zbiór TED-LIUM został utworzony z nagrań przemów i ich transkrypcji dostępnych na stronie konferencji TED.
-data-other-voxforge-description = VoxForge został stworzony w celu zbierania transkrybowanej mowy do użytku z wolnymi i otwartymi silnikami rozpoznawania mowy.
-data-other-tatoeba-description = Tatoeba jest wielką bazą danych zdań, tłumaczeń i mowy do użytku w nauczaniu maszynowym. Ten plik zawiera wszystkie angielskie nagrania mowy stworzone przez ich społeczność.
 data-bundle-button = Pobierz zbiór danych
 data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych powyżej.
 license = Licencja: <licenseLink>{ $license }</licenseLink>
@@ -354,6 +366,17 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Zgadzasz się</b>, że nie będziesz próbować ustalać tożsamości osób mówiących w zbiorze danych Common Voice
 download-language = Pobierz język: { $language }
+validated-hours = Sprawdzone godziny
+recorded-hours = Nagrane godziny
+subscribe = Subskrybuj
+other-datasets = Inne zbiory danych
+data-other-librispeech-description = LibriSpeech to zbiór około 1000 godzin angielskiej mowy w jakości 16 KHz, z tekstów audiobooków z projektu LibriVox.
+data-other-ted-name = Zbiór TED-LIUM
+data-other-ted-description = Zbiór TED-LIUM został utworzony z nagrań przemów i ich transkrypcji dostępnych na stronie konferencji TED.
+data-other-voxforge-description = VoxForge został stworzony w celu zbierania transkrybowanej mowy do użytku z wolnymi i otwartymi silnikami rozpoznawania mowy.
+data-other-tatoeba-description = Tatoeba jest wielką bazą danych zdań, tłumaczeń i mowy do użytku w nauczaniu maszynowym. Ten plik zawiera wszystkie angielskie nagrania mowy stworzone przez ich społeczność.
+go-discourse = Przejdź do serwisu Discourse
+go-languages-page = Przejdź do listy języków
 
 ## Download Modal
 
