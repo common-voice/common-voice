@@ -242,3 +242,4 @@ everyone = Бары
 
 keep = Хааллар
 remove = Соттор
+profile-form-delete = Профиль соттор
