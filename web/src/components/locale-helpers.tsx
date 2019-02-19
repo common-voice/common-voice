@@ -4,6 +4,7 @@ import { Link, LinkProps, NavLink, NavLinkProps } from 'react-router-dom';
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
 import { isProduction } from '../utility';
+import { Localized } from 'fluent-react/compat';
 
 export const contributableLocales = require('../../../locales/contributable.json');
 
@@ -79,4 +80,20 @@ export const ContributableLocaleLock = localeConnector(
       ? render({ isContributable: isContributable(locale) })
       : isContributable(locale) && children;
   }
+);
+
+const GetAttribute = (args: any) => args.fn(args[args.attribute]);
+
+export const LocalizedGetAttribute = ({
+  id,
+  attribute,
+  children,
+}: {
+  id: string;
+  attribute: string;
+  children: (value: string) => React.ReactElement<any>;
+}) => (
+  <Localized id={id} attrs={{ [attribute]: true }}>
+    <GetAttribute attribute={attribute} fn={children} />
+  </Localized>
 );

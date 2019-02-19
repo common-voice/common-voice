@@ -132,14 +132,25 @@
             padding: 0;
             list-style: none;
 
-            & li {
+            & > li {
                 border-bottom: 1px solid var(--desert-storm);
                 padding: 20px 0;
                 display: flex;
                 flex-direction: row;
+
+                @media (--md-down) {
+                    &:last-child {
+                        flex-direction: column;
+
+                        & .label {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
             }
 
             & .label {
+                flex-shrink: 0;
                 width: 200px;
                 display: block;
                 font-size: var(--font-size-xs);
@@ -151,6 +162,45 @@
             & .value {
                 font-size: var(--font-size-lg);
                 font-weight: 600;
+            }
+
+            & .splits {
+                margin-bottom: 10px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                & h5 {
+                    margin: 0;
+                    font-size: 14px;
+                    font-weight: normal;
+                    color: var(--warm-grey);
+                }
+
+                & ol {
+                    padding: 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: var(--font-size);
+                    font-weight: normal;
+                    color: var(--near-black);
+                    list-style: none;
+                }
+
+                & li {
+                    display: flex;
+                    flex-direction: row;
+                    white-space: pre;
+
+                    &::after {
+                        content: ', ';
+                    }
+                }
+
+                & li:last-child::after {
+                    content: '';
+                }
             }
         }
 

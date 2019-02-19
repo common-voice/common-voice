@@ -8,9 +8,10 @@ import './circle-stats.css';
 const CircleStat = ({
   className,
   label,
+  value,
   icon,
   ...props
-}: { icon: React.ReactNode; label: string } & React.HTMLProps<
+}: { label: string; value: number; icon: React.ReactNode } & React.HTMLProps<
   HTMLDivElement
 >) => (
   <div className={'circle-stat ' + (className || '')} {...props}>
@@ -19,24 +20,39 @@ const CircleStat = ({
       <Localized id={label}>
         <div className="label" />
       </Localized>
-      <div className="value">1234</div>
+      <div className="value">{value}</div>
     </div>
     <div className="circle">{icon}</div>
   </div>
 );
 
-export default ({ className, ...props }: React.HTMLProps<HTMLDivElement>) => (
+export default ({
+  className,
+  valid,
+  total,
+  languages,
+  ...props
+}: { valid: number; total: number; languages: number } & React.HTMLProps<
+  HTMLDivElement
+>) => (
   <div className={'circle-stats ' + className} {...props}>
     <CircleStat
       className="valid-hours"
       label="validated-hours"
+      value={valid}
       icon={<PlayOutlineIcon />}
     />
     <CircleStat
       className="total-hours"
       label="recorded-hours"
+      value={total}
       icon={<MicIcon />}
     />
-    <CircleStat className="languages" label="languages" icon={<GlobeIcon />} />
+    <CircleStat
+      className="languages"
+      label="languages"
+      value={languages}
+      icon={<GlobeIcon />}
+    />
   </div>
 );

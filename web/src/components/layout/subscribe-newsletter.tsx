@@ -4,25 +4,10 @@ import { useState } from 'react';
 import { connect } from 'react-redux';
 import API from '../../services/api';
 import StateTree from '../../stores/tree';
+import { LocalizedGetAttribute } from '../locale-helpers';
 import { CautionIcon, CheckIcon, OldPlayIcon } from '../ui/icons';
 
 import './subscribe-newsletter.css';
-
-const GetAttribute = (args: any) => args.fn(args[args.attribute]);
-
-const LocalizedGetAttribute = ({
-  id,
-  attribute,
-  children,
-}: {
-  id: string;
-  attribute: string;
-  children: (value: string) => React.ReactElement<any>;
-}) => (
-  <Localized id={id} attrs={{ [attribute]: true }}>
-    <GetAttribute attribute={attribute} fn={children} />
-  </Localized>
-);
 
 interface PropsFromState {
   api: API;
