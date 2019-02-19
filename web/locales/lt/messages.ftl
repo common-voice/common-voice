@@ -31,6 +31,7 @@ fr = Prancūzų
 speak-now = Kalbėkite dabar
 languages = Kalbos
 profile = Profilis
+help = Pagalba
 privacy = Privatumas
 terms = Sąlygos
 cookies = Slapukai
@@ -49,6 +50,7 @@ today = Šiandien
 
 ## Account Benefits
 
+benefits = Privalumai
 
 ## What's public
 
@@ -64,12 +66,26 @@ today = Šiandien
 
 ## ProjectStatus
 
+english = Anglų
 
 ## ProfileForm
 
+profile-form-accent =
+    .label = Akcentas
+profile-form-age =
+    .label = Amžius
+profile-form-gender =
+    .label = Lytis
+male = Vyras
+female = Moteris
+# Gender
+other = Kita
+off = Išjungta
+on = Įjungta
 
 ## FAQ
 
+faq-why-important-q = Kodėl tai svarbu?
 
 ## Glossary
 
@@ -79,15 +95,26 @@ today = Šiandien
 
 ## Data
 
+data-download-yes = Taip
+data-download-deny = Ne
+data-download-license = Licencija: <licenseLink>CC-0</licenseLink>
+terms-agree = Sutinku
+terms-disagree = Nesutinku
 
 ## New Datasets Page
 
+language = Kalba
+# File size in gigabytes
+size = Dydis
+cv-license = Licencija
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Vardas
 
 ## Request Language Modal
 
@@ -97,6 +124,8 @@ today = Šiandien
 
 ## New Contribution
 
+contribute = Prisidėti
+listen = Klausyti
 
 ## Goals
 
