@@ -54,6 +54,7 @@ fr = Französisch
 fy-NL = Friesisch
 ga-IE = Irisch
 he = Hebräisch
+hr = Kroatisch
 hsb = Obersorbisch
 hu = Ungarisch
 ia = Interlingua
@@ -85,6 +86,7 @@ pt-BR = Portugiesisch (Brasilianisch)
 rm-sursilv = Surselvisch
 ro = Rumänisch
 ru = Russisch
+rw = Kinyarwanda
 sah = Sacha
 sc = Sardisch
 sk = Slowakisch
@@ -180,6 +182,7 @@ x-years-short =
 help-make-dataset = Helfen Sie uns, einen qualitativ hochwertigen, öffentlich zugänglichen Datensatz zu erstellen
 profile-not-required = Ein Profil ist für die Mitarbeit nicht notwendig, aber hilfreich
 sign-up-account = Ein Konto erstellen
+email-subscription-title = Abonnieren Sie Neuigkeiten per E-Mail
 
 ## Account Benefits
 
@@ -436,10 +439,10 @@ download-language = { $Language } herunterladen
 validated-hours = Bestätigte Stunden
 recorded-hours = Aufgenommene Stunden
 whats-inside = Was steckt im Common-Voice-Datensatz?
-dataset-description =
-    Jeder Eintrag im Datensatz besteht aus einer eindeutigen MP3- und zugehörigen Textdatei. Viele der <b>{ $hours }</b> aufgezeichneten Stunden im Datensatz enthalten auch demografische Metadaten wie Alter, Geschlecht und Akzent, mit deren Hilfe die Genauigkeit von Spracherkennungs-Engines trainiert werden kann.
+dataset-description-hours =
+    Jeder Eintrag im Datensatz besteht aus einer eindeutigen MP3- und zugehörigen Textdatei. Viele der <b>{ $total }</b> aufgezeichneten Stunden im Datensatz enthalten auch demografische Metadaten wie Alter, Geschlecht und Akzent, mit deren Hilfe die Genauigkeit von Spracherkennungs-Engines trainiert werden kann.
     
-    Der Datensatz besteht derzeit aus <b>{ $hours }</b> bestätigten Stunden in <b>{ $languageCount }</b> Sprachen, aber wir fügen immer mehr Stimmen und Sprachen hinzu. Besuchen Sie unsere <languagesLink>Sprachen-Seite</languagesLink>, um eine Sprache anzufordern oder mitzumachen.
+    Der Datensatz besteht derzeit aus <b>{ $valid }</b> bestätigten Stunden in <b>{ $languages }</b> Sprachen, aber wir fügen immer mehr Stimmen und Sprachen hinzu. Besuchen Sie unsere <languagesLink>Sprachen-Seite</languagesLink>, um eine Sprache anzufordern oder mitzumachen.
 want-dataset-update = Möchten Sie benachrichtigt werden, wenn wir eine neue Version des Common-Voice-Datensatzes veröffentlichen? Dann abonnieren Sie unseren Newsletter.
 subscribe = Abonnieren
 get-started-speech = Erste Schritte mit der Spracherkennung
