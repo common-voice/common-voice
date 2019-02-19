@@ -144,6 +144,8 @@ speak-now = Vuga ubungubu
 
 faq-title = Ibibazo bikunze kubazwa
 faq-what-cv-q = Ijwi Rusange (Common Voice) ni iki?
+faq-what-cv-a = Ikoranabuhanga ntahurajwi rirahindura uburyo dukoresha mudasobwa, ariko uburyo buriho ubu burahenze kandi ni umutungo wihariwe na ba nyirawo. Ijwi Rusange (Common Voice) ni kimwe mu bitekerezo byatangijwe na Mozilla ngo irusheho kunoza ikoranabuhanga ntahurajwi no gutuma rigera kuri buri wese. Ijwi Rusange (Common Voice) ni indundo nyamunini ikubiyemo amajwi yatanzwe n'abantu atuma ushaka wese ashobora kwimenyereza vuba kandi mu buryo bworoshye rojisiyeri zikoresha amajwi mu rurimi urwo ari rwo rwose.
+faq-why-important-q = Kubera iki ari ingirakamaro?
 
 ## Glossary
 
