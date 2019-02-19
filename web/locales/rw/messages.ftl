@@ -198,21 +198,113 @@ email-not-public = Ntituzagira rusange imeri yawe.
 recordings-and-locale-public = Umubare w'ibyo washyizeho n'indimi watanzeho umusanzu byo bizaba rusange (bigaragara).
 username-optin-public = Ushobora guhitamo kwerekana izina ndanga ukoresha cyangwa nturyerekane.
 demographic-deidentified = Ushobora gutanga amakuru mbarurishamibare yose ya ngombwa yawe bwite (urugero imyaka, igitsina, ururimi n'imvugo ikuranga) igenzurwa mu mbonwa z'amajwi kandi ntazigera ashyirwa ahagaragara ku isura ndanga yawe.
+username-email-not-demographic = Izina ndanga ryawe na imeri ntibizajya hamwe n'imbonwa zizatangazwa.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Vuza/Hagarika
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Fata amajwi/Hagarika
+request-language-text = Ntubona ururimi rwawe ku Ijwi Rusange (Common Voice)?
+request-language-button = Hamagaza ururimi
 
 ## ProjectStatus
 
+status-title = Aho umushinga ugeze muri rusange: reba iyo twatangiriye!
+status-contribute = Tanga umusanzu w'ijwi
+status-hours =
+    { $hours ->
+        [one] Isaha imwe yemejwe kugeza ubuI
+       *[other] andi masaha yemejwe kugeza ubu!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Imigambi ikurikiraho
+english = Icyongereza
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Izina ndanga
+profile-form-native-language =
+    .label = Ururimi kavukire
+profile-form-additional-language =
+    .label = Urundi rurimi
+profile-form-accent =
+    .label = Imvugo
+profile-form-age =
+    .label = Imyaka
+profile-form-gender =
+    .label = Igitsina
+leaderboard-visibility =
+    .label = Uko imbonerahamwe y'ubwitabire igaragarira bose
+hidden = Bihishwe
+visible = Bigaragara
+native-language =
+    .label = Ururimi kavukire
+profile-form-submit-save = Bika/ Shyingura
+profile-form-submit-saved = Byabitswe/ Byashyinguwe
+male = Gabo
+female = Gore
+# Gender
+other = Undi/ ikindi
+why-profile-title = Kuki isura ndanga ari ngombwa?
+why-profile-text = Mu gutanga amwe mu makuru akwerekeyeho, imbonwa z'amajwi watanze ku Ijwi Rusange (Common Voice) zizaba ingirakamaro cyane ku Mvugo. Imashini zitahura amajwi zikoresha izi mbonwa mu kuziboneza.
+dashboard = Imbonerahamwe ngenzuzi
+build-profile = Gukora isura ndanga
+avatar = Ishusho ndanga
+goals = Imigambi
+settings = Uburyo mfashagena
+edit-profile = Kosora isura ndanga
+profile-create-success = Byashobotse, isura ndanga yakozwe.
+profile-close = Funga
+profile-explanation = Komeza ugenzure uko ibintu bigenda unyuze ku isura ndanga unadufashe kunoza imbonwa z'amajwi zacu.
+thanks-for-account = Urakoze kuba wemeje konti yawe, reka dukore isura ndanga yawe.
+why-demographic = Kubera iki ibi ari ngombwa/ ari ingenzi?
+why-demographic-explanation = Imbonwa zitagaragazwa nk'imyaka, igistina n'imvugo zifasha kunoza imbonwa z'amajwi zakoreshejwe mu kwitoza ukuboneza kw'imashini ntahura mvugo.
+keep-me-posted =
+    .label = Nifuza kumenya amakuru y'ibirimo gukorwa ku Ijwi Rusange (Common Voice).
+accept-privacy = Uburyo mwasobanuye muri poritiki zirebana n'amakuru bwite za Mizilla mukoreshamo aya makuru ndabwemera
+login-identity = Injiza irangamimerere
+login-signup = Injira
+edit = Kosora/ hindura
+email-subscriptions = Isaba ryo kohererezwa imeri.
+download-profile = Kumanura/ Manura imbonwa zinyerekeyeho
+contribution-experience = Uburambe mu gutanga umusanzu
+skip-submission-feedback = Simbuka amakuru ngarukira y'iyohereza.
+skip-submission-description = Mu gutanga umusanzu amakuru ngarukira y'iyohereza azasimbukwa nyuma yo gukoanda "Ohereza". Ibyoherejwe nk'umusanzu mutanze bizakomezanya n'indundo 5 z'amajwi yafashwe cyangwa z'ibyemejwe.
+skip-submission-note = Ikitonderwa: Muzaba mugikeneye guhitamo hagati yo Kuvuga cyangwa Kumva kugira ngo muhindure ubwoko bw'umusanzu/ ibyo muzatanga.
+off = Ntibyakije/ birajimije
+on = Birakije/ ntibijimije
+add-avatar-title = Shyira ishusho ndanga ku isura ndanga yawe
+browse-file-title = Injiza idosiye y'ishusho
+browse-file = Kurura unarekure cyangwa utambagire
+connect-gravatar = Ikonegite unyuze kuri Garavatari (Gravatar).
+gravatar_not_found = Nta garavatari ibonetse ijyanye na imeri yanyu.
+file_too_large = Idosiye mwahisemo ni ngari cyane
+manage-subscriptions = Genzura isaba wakoze
+email-already-used = Imeri yarakoreshejwe ku yindi konti
+add-language = Ongeraho ururimi
+change-email-setings = Hindura imeri yawe unyuze mu buryo mfashagena munsi y'ahagenewe irangamimerere ry'ahinjirirwa
 
 ## FAQ
 
@@ -241,6 +333,11 @@ faq-what-quality-q = Ijwi rishyirwa mu ikusanyirizo ry'amajwi rigomba kuba riri 
 faq-what-quality-a = Twifuza ko ikusanyirizo ry'imbonwa ry'Ijwi Rusange (Common Voice) riba ryiza ku buryo ihura n'imashini ishobora kumva mu no mu bihuru, mbese twifuza ibinyuranye. Ikindi kijyanye bantu batandukanye bakoresha ururimi, ikusanyirizo ririmo amajwi anyuranye azatuma imashini imenya uko ikoresha amajwi atandukanye mu bihe bisanzwe bitandukanye birimo imvugo zirimo andi majwi cyangwa urusaku cyangwa imodoka zihinda. Igihe cyose ijwi ryawe ryumvikana, rizaba rihagije ari n'ingirakamaro ku ikusanyirizo ry'imbonwa z'amajwi.
 faq-why-10k-hours-q = Kuki ari ngombwa kugeza ku masaha 10,000 yemejwe y'amajwi yafashwe kuri buri rurimi?
 faq-why-10k-hours-a = Uyu ni umubare ugereranyije w'amasaha ngombwa ku gutoza gukora sisitemu njyanajwi ku mwandiko.
+faq-how-calc-hours-q = Porogaramu y'Ijwi Rusange ibara ite amasaha?
+faq-how-calc-hours-a = Tubara amasaha mu kugenekereza impuzandengo y'uburebure bwa buri kintu cyafashwe n'ibyuma mfatamajwi tugakuba uwo mubare n'igiteranyo cyose k'ibyafashwe mu ndimi zose.
+faq-where-src-from-2-q = Imvano y'imyandiko yo ituruka he?
+faq-where-src-from-2-a = Imvano y'imyandiko yacu ni ibyo duhabwa n'abatanga umusanzu ku rubuga rwacu ndetse n'ibiganiro mu nyandiko firimi zo muri rubanda zishingiraho; interuro nka "Ni ubuzima buryoshye"!
+faq-why-not-ask-read-q = Kuki mudasaba abantu gusoma ibitabo cyangwa ibyandikwa kuri Wikipediyamu ndimi zinyuranye?
 
 ## Glossary
 
