@@ -338,6 +338,12 @@ faq-how-calc-hours-a = Tubara amasaha mu kugenekereza impuzandengo y'uburebure b
 faq-where-src-from-2-q = Imvano y'imyandiko yo ituruka he?
 faq-where-src-from-2-a = Imvano y'imyandiko yacu ni ibyo duhabwa n'abatanga umusanzu ku rubuga rwacu ndetse n'ibiganiro mu nyandiko firimi zo muri rubanda zishingiraho; interuro nka "Ni ubuzima buryoshye"!
 faq-why-not-ask-read-q = Kuki mudasaba abantu gusoma ibitabo cyangwa ibyandikwa kuri Wikipediyamu ndimi zinyuranye?
+faq-why-not-ask-read-a = Kugira ngi iyi porogaramu y'ikusanyirizo ry'Ijwi Rusange "Common Voice" ishobore gukoreshwa byoroshye cyane twemeje gukoresha gusa imvano y'imyandiko irinzwe n'isosiyete irinda uburenganzira bw'umuhanzi ya CCO. Gukoresha aya mabwiriza bisobanuye ko bigoye kugera ku mvano y'imyandiko, ariko biha buri wese uburenganzira bwo gukoresha imbonwa z'amajwi nta kumira ribayeho cyangwa kwaka uburenganzira bwa Mozilla. Ikiruseho ni uko dushaka ko ikusanyirizo mpuzandimi rigerwaho na buri wese harimo abashakashatsi, abarimu ba kaminuza, abafite imishinga iciriritse, za Leta, imiryango yita ku mibereho ya rubanda, n'abandi bishimishije.
+faq-why-account-q = Kuki ngomba kugira konti?
+faq-is-account-public-q = Amakuru yange yose abonwa na buri wese?
+faq-how-privacy-q = Mubigenza mute ngo abantu batanze amajwi yabo batamenywa na bose kandi amakuru yabo bwite abe ibanga?
+faq-how-privacy-a = Amajwi yose ari mu ikusanyirizo atandukanywa n'irangamimerere ry'uwayatanze. Igihe utanga umusanzu atanze amakuru amwerekeyeho binyuze ku isura ndanga ye, ayo makuru atandukanywa n'amajwi atanze mbere yo kuyagena ngo ashyirwe aho ashobora kumanurwa na buri wese mu ikusanyirizo kandi ntiyigera ashyirwa ku mugaragaro kuri paji yabo iranga isura ndanga.
+faq-what-determine-identity-q = Kugena irangamimerere ry'abavuga mu ikusanyirizo rya porogaramu y'Ijwi Rusange bisobanuye iki?
 
 ## Glossary
 
