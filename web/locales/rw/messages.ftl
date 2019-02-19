@@ -142,6 +142,8 @@ speak-now = Vuga ubungubu
 
 ## FAQ
 
+faq-title = Ibibazo bikunze kubazwa
+faq-what-cv-q = Ijwi Rusange (Common Voice) ni iki?
 
 ## Glossary
 
