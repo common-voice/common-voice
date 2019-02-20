@@ -561,6 +561,16 @@ stats = Ibyerekanwa n'ibarurishamibare
 you = Wowe
 everyone = Buri wese
 contribution-activity = Igikorwa ntangamusanzu, igikorwa cyo gufasha
+top-contributors = Abagira uruhare kurusha abandi
+recorded-clips = Amajwi yafashwe
+validated-clips = Amajwi yemejwe
+total-approved = Igiteranyo kemejwe
+overall-accuracy = Ibiboneye byose hamwe/ Iboneza rya byose hamwe
 
 ## Profile Delete
 
+delete-q = Ushaka gusaba ko amajwi yawe wafashe na yo asibwa, cyangwa usanga yagumishwa mu ikusanyirizo ry'imbonwa rya porogaramu Ijwi Rusange?
+keep = Kuyagumishamo
+remove = Kuyakuramo
+keep-info = Amajwi yawe wafashe atagomba gushyirwa ahagaragara aguma mu ikusanyirizo ry'imbonwa rya porogaramu y'Ijwi Rusange. Iyo uhanaguye isura ndanga yawe, ntuzaba ugishoboye kugira ubwo usaba gukura amajwi wafashe mu ikusanyirizo ry'imbonwa.
+remove-info = Tuzasubiramo tugenzure ugusaba kwawe ko amajwi wafashe akurwa mu ikusanyirizo ry'imbonwa. Igihe byemejwe, tuzasaba abamanuye ibyo mu ikusanyirizo gukuramo amajwi yawe wafashe.
