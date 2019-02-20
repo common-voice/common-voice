@@ -54,6 +54,7 @@ fr = 法語
 fy-NL = 弗利西亞語
 ga-IE = 愛爾蘭語
 he = 希伯來語
+hr = 克羅埃西亞語
 hsb = 上索布語
 hu = 匈牙利語
 ia = 國際語
@@ -85,6 +86,7 @@ pt-BR = 葡萄牙語（巴西）
 rm-sursilv = 羅曼蘇塞瓦語
 ro = 羅馬尼亞語
 ru = 俄語
+rw = 盧安達語
 sah = 薩哈語
 sc = 薩丁尼亞語
 sk = 斯洛伐克語
@@ -179,6 +181,7 @@ x-years-short =
 help-make-dataset = 幫助我們打造高品質、可公開使用的資料集
 profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
 sign-up-account = 註冊帳號
+email-subscription-title = 訂閱最新消息電子報
 
 ## Account Benefits
 
@@ -434,10 +437,10 @@ download-language = 下載 { $language } 資料集
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
 whats-inside = Common Voice 資料集當中有什麼？
-dataset-description =
-    資料集中的每筆資料包含一組獨特的 MP3 錄音檔與對應的文字檔案。資料集中包含 <b>{ $hours }</b> 錄製完成的片段，當中有許多同時也包含年齡、性別、口音等，能夠幫助訓練語音識別引擎的人口統計資料。
+dataset-description-hours =
+    資料集中的每筆資料包含一組獨特的 MP3 錄音檔與對應的文字檔案。資料集中包含 <b>{ $total }</b> 小時錄製完成的片段，當中也包含有許多不同年齡層、性別、口音等，能夠幫助訓練語音識別引擎的人口統計資料。
     
-    資料集中，目前包含了 <b>{ $hours }</b> 小時的 <b>{ $languageCount }</b> 種語言已驗證資料，但我們希望能夠持續加入更多語音與語言。歡迎到我們的<languagesLink>語言頁面</languagesLink>要求更多語言，開始加入貢獻。
+    資料集中目前包含 <b>{ $valid }</b> 小時 <b>{ $languages }</b> 種語言的已驗證資料，但我們希望能夠持續加入更多語音與語言。歡迎到我們的<languagesLink>語言頁面</languagesLink>要求更多語言，開始加入貢獻。
 want-dataset-update = 想要在新的 Common Voice 資料集推出時收到通知嗎？請訂閱我們的電子報。
 subscribe = 訂閱
 get-started-speech = 語音辨識新手入門
