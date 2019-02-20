@@ -54,6 +54,7 @@ fr = Francese
 fy-NL = Frison
 ga-IE = Irlandese
 he = Hebreo
+hr = Croata
 hsb = Sorbio, basse
 hu = Hungaro
 ia = Interlingua
@@ -85,6 +86,7 @@ pt-BR = Portugese (Brasil)
 rm-sursilv = Romansh Sursilvan
 ro = Romaniano
 ru = Russo
+rw = Ruanda
 sah = Sakha
 sc = Sardo
 sk = Slovaco
@@ -180,6 +182,7 @@ x-years-short =
 help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate, publicamente aperte
 profile-not-required = Haber un profilo non es obligatori pro collaborar ben que illo sia utile
 sign-up-account = Registra te pro aperir tu conto
+email-subscription-title = accede pro actualisationes email
 
 ## Account Benefits
 
@@ -424,10 +427,10 @@ download-language = Discargar { $language }
 validated-hours = Horas validate
 recorded-hours = Horas registrate
 whats-inside = Que es intra le collection de datos de Common Voice?
-dataset-description =
-    Cata entrata in le collection de datos consiste solo de un MP3 e del file de texto correspondente. Multe del <b>{ $horas }</b> horas registrate in le collection de datos alsi include demographic metadatos como etate, sexo e accento, que pote adjutar a maestrar le precision del motores de recognition del voce.
+dataset-description-hours =
+    Cata entrata in le collection de datos consiste solo de un MP3 e del file de texto correspondente. Multe del horas <b>{ $total }</b> registrate in le collection de datos alsi include metadatos demographic como etate, sexo e accento, que pote adjutar a maestrar le precision del motores de recognition del voce.
     
-    Le collection de datos actualmente consiste de <b>{ $horas }</b> horas validate in <b>{ $languageCount }</b> linguas, ma nos adde sempre altere voces e linguas. Perspice nostre <languagesLink>Pagina del linguas</languagesLink> pro requirer un lingua o pro initiar a collaborar.
+    Le collection de datos actualmente consiste de <b>{ $valid }</b> horas validate in <b>{ $languages }</b> linguas, ma nos adde sempre altere voces e linguas. Perspice nostre <languagesLink>Pagina del linguas</languagesLink> pro requirer un lingua o pro initiar a collaborar.
 want-dataset-update = Desira tu le actualisationes quando nos publica un nove version del collection de datos de Common Voice? Inscribe te a nostre littera de novas.
 subscribe = Subscriber se
 get-started-speech = Comenciar con le Recognition de voce
