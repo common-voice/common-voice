@@ -54,6 +54,7 @@ fr = Francia
 fy-NL = Fríz
 ga-IE = Ír
 he = Héber
+hr = Horvát
 hsb = Szorb, felső
 hu = Magyar
 ia = Interlingva
@@ -85,6 +86,7 @@ pt-BR = Portugál (Brazília)
 rm-sursilv = Romans sursilvan
 ro = Román
 ru = Orosz
+rw = Ruandai
 sah = Szaha
 sc = Szárd
 sk = Szlovák
@@ -186,6 +188,7 @@ x-years-short =
 help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
 profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
 sign-up-account = Regisztráljon egy fiókot
+email-subscription-title = iratkozzon fel a hírlevélre
 
 ## Account Benefits
 
@@ -439,8 +442,8 @@ download-language = Letöltés: { $language }
 validated-hours = Ellenőrzött órák
 recorded-hours = Rögzített órák
 whats-inside = Mi van a Common Voice adatkészletben?
-dataset-description =
-    Az adatkészlet minden bejegyzése egy egyéni MP3-ból és egy hozzátartozó szövegfájlból áll. A(z) <b>{ $hours }</b> órányi rögzítésben számos felvétel demográfiai metaadatokat is tartalmaz, mint a beszélő kora, neme és akcentusa, melyek segíthetnek a beszédfelismerő motorok pontosságának betanításában.
+dataset-description-hours =
+    Az adatkészlet minden bejegyzése egy egyéni MP3-ból és egy hozzátartozó szövegfájlból áll. A(z) <b>{ $total }</b> órányi rögzítésben számos felvétel demográfiai metaadatokat is tartalmaz, mint a beszélő kora, neme és akcentusa, melyek segíthetnek a beszédfelismerő motorok pontosságának betanításában.
     
     Az adatkészlet jelenleg <b>{ $hours }</b> órányi ellenőrzött felvételből áll, <b>{ $languageCount }</b> nyelven, de folyamatosan adunk hozzá további hangokat és nyelveket. Nézze meg a <languagesLink>Nyelvek oldalt</languagesLink> egy nyelv kéréséhez vagy a közreműködés elkezdéséhez.
 want-dataset-update = Szeretne értesítést kapni, ha kiadjuk a Common Voice adatkészlet új verzióját? Iratkozzon fel a hírlevelünkre.
