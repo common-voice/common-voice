@@ -181,7 +181,11 @@ export default React.memo(() => {
               <div className="dots-and-content">
                 <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
                 <div className="content">
-                  <h2>{title}</h2>
+                  <h2>
+                    {React.cloneElement((props as any).discourseLink, {
+                      children: title,
+                    })}
+                  </h2>
                   <Localized id={descriptionId as string} {...props}>
                     <p />
                   </Localized>
