@@ -506,6 +506,19 @@ record-no-mic-found = Nta mikoro igaragaye
 record-error-too-short = Ibyafashwe byari bigufi cyane.
 record-error-too-long = Ibyafashwe bwayi birebire cyane.
 record-error-too-quiet = Ibyafashwe byumvikanaga buhoro.
+record-cancel = Kuraho ibifashwe bundi bushya
+record-instruction = hanyuma usome interuro uranguruye ijwi
+record-stop-instruction = igihe bikozwe
+record-again-instruction = Ni byiza cyane! Fata amajwi yawe akurikiraho.
+record-again-instruction2 = Komereza aho, ongera ufate amajwi!
+record-last-instruction = Iya nyuma!
+review-tooltip = Subiramo ugenzure, ongera ufate amajwi hano buri gihe uhari.
+unable-speak = Gushoboza umuntu kuvuga ubu ngubu?
+review-instruction = Subiramo ugenzure & wongere ufate amajwi bundi bushya niba ari ngombwa
+record-submit-tooltip = ohereza niba witeguye
+clips-uploaded = Amajwi yafashwe yinjijwemo
+record-abort-title = Mbere na mbere kurangiza gufata amajwi?
+record-abort-text = Kuvaho ubu bisobanuye ko urabura amakuru y'aho wari ugeze
 
 ## Goals
 
