@@ -373,7 +373,7 @@ data-download-deny = Oya
 data-download-license = Uburenganzira
 data-download-modal = Ugiye gutangira kumanura jigabayite, ukomeze?
 data-subtitle = Turakora ikusanyirizo rusange kuri bose ry'amajwi buri muntu ashobora gukoresha mu kwitoza gukoresha porogaramu ntahuramajwi.
-data-explanatory-text = Dutekereza ko amakusanyirizo magari y'amajwi agerwaho na buri wese azateza imbere guhanga ibishya n'ihiganwa mu bucuruzi by'ikoranabuhanga ry'amajwi/ imvugo rifatiye ku kwiga kw'imashini.
+data-explanatory-text = Dutekereza ko amakusanyirizo magari y'amajwi agerwaho na buri wese azateza imbere guhanga ibishya n'ihiganwa mu bucuruzi by'ikoranabuhanga ry'amajwi/ imvugo rifatiye ku kwiga kw'imashini. Iki ni igikorwa cyo ku isi yose, tukaba dusaba buri wese kukigiramo uruhare. Intego yacu ni ugufasha ikoranabuhanga rirebana n'imvugo/ amajwi kutagira uwo riheza, rikarangwa n'urunyurane rw'amajwi aturutse mu mpande enye z'isi.
 data-get-started = Tangira itahurajwi/ itahuramvugo
 data-other-title = Ayandi makusanyirizo y'imbonwa z'amajwi.
 data-other-goto = Jya kuri...
@@ -389,9 +389,24 @@ review-aborted = Kwinjiza birananiranye. Urashaka gusiba amajwi wafashe?
 review-submit-title = Subiramo & Ohereza
 review-submit-msg = Urakoze gufata amajwi! Subira mu majwi yawe wafashe akurikira uyagenzure kandi uyohereze.
 review-recording = Genzura, kosora, subiramo
+review-rerecord = Ongera ufate amajwi
+review-cancel = Hagarika, reka kohereza.
+review-keep-recordings = Komeza ufate amajwi
+review-delete-recordings = Gusiba amajwi nafashe
 
 ## New Datasets Page
 
+datasets-headline = Turakora ivomo rusange ry'ikusanyirizo mpuzandimi ry'amajwi uwo ari we wese ashobora gukoresha kwitoza porogaramu ntahurajwi
+datasets-positioning = Dutekereza ko amakusanyirizo magari y'amajwi agerwaho na buri wese azateza imbere guhanga ibishya n'ihiganwa mu bucuruzi by'ikoranabuhanga ry'amajwi/ imvugo rifatiye ku kwiga kw'imashini. Ikusanyirizo mpuzandimi ry'imbonwa z'amajwi rikaba rimaze kuba ari ryo rigari rizwi mu yandi yose akora ibisa n'ibyaryo, ariko si ryo ryonyine ribaho.
+language = Ururimi
+# File size in gigabytes
+size = Ingano
+validated-hr-total = Igiteranyo cy'amasaha yemejwe
+overall-hr-total = Igiteranyo cy'amasaha yose
+cv-license = Uburenganzira
+audio-format = Uburyo amajwi ateye
+number-of-voices = Umubare w'amajwi (yafashwe)
+splits = Amatandukaniro manini
 
 ## Download Modal
 
