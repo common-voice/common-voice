@@ -427,6 +427,9 @@ deepspeech-info = Ikusanyirizo ry'imbonwa za porogaramu y'Ijwi rusange ryuzuza i
 common-voice-info = Ufite ibibazo birebana na porogaramu y'Ijwi Rusange? Twegera ku rubuga duhuriraho rw'Ijambo
 data-other-librispeech-description = Isomero-jambo (LibriSpeech) ni indundo y'amasaha hafi 1000 ya kiroheritse 16 z'imvugo z'Icyongereza zavuye mu majwi y'ibyasomwe mu bitabo by'umushinga w'Isomero-jwi (LibriVox).
 data-other-ted-name = Indundo ya Tederiyumu (TED-LIUM)
+data-other-ted-description = Indundo ya Tediriyumu yakozwe mu biganiro by'amajwi n'interuro zayo biboneka ku rubuga rwa Tedi.
+data-other-voxforge-description = Vogusiforuje (VoxForge) yakozwe ngo yifashishwe mu kwandukura ibiri mu majwi, mu mvugo kugira ko bikoreshwe n'imashini cyangwa porogaramu ntahuramajwi z'ubuntu z'ivomo rifunguriye bose.
+data-other-tatoeba-description = Tatoyeba (Tatoeba) ni indundo y'imbonwa z'interuro, amagambo yahinduwe mu ndimi n'amajwi yavuzwe igomba gukoreshwa mu kwiga ururimi. Ibi byamanurwa kandi birimo Icyongereza mvugo byafashwe n'abavuga ururimi.
 
 ## Download Modal
 
