@@ -193,6 +193,7 @@ sign-up-account = Prijavite se za račun
 ## Account Benefits
 
 benefits = Prednosti
+improve-audio = Podatki o profilu izboljšajo zvočne podatke, ki se uporabljajo pri natančnosti prepoznavanja govora.
 compare-progress = Primerjajte svoj napredek z drugimi sodelujočimi po vsem svetu.
 view-goals = Spremljajte svoj napredek glede na osebne in projektne cilje.
 join-newsletter = Po želji se lahko pridružite našemu e-poštnemu seznamu za prejemanje posodobitev in novih podatkov o projektu.
