@@ -55,6 +55,8 @@
 
     & button {
         flex-shrink: 0;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
         border: 1.6px solid #f9f9f8;
         width: 100%;
         min-width: auto;
@@ -64,13 +66,17 @@
         background: #f9f9f8;
 
         &:disabled {
-            opacity: 1;
-            background: transparent;
-            color: white;
+            opacity: 0.8;
 
             & path {
                 fill: #f9f9f8;
             }
+        }
+
+        &:hover {
+            border-color: var(--valid-green) !important;
+            background: var(--valid-green) !important;
+            color: var(--white) !important;
         }
 
         @media (--md-down) {
