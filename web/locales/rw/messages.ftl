@@ -468,9 +468,36 @@ request-language-success-content = Tuzakomeza twungurane ibitekerezo by'uko twak
 language-section-in-progress = Biracyakomeza
 language-section-in-progress-description = Indimi zigishyirwa muri porogaramu y'Ijwi Rusange zirimo gutunganywa kugira ngo abazikoresha batange umusanzu; uko bigenda bikorwa bigaragaza aho ziri ku rubuga n'ibyiciro byo gukusanya interuro.
 language-section-launched = Byatangijwe / zashyizweho
+language-section-launched-new-description = Ku ndimi zashyizweho urubuga rwahise rugaragara neza aho ruri, kandi rufite interuro zihagije zakusanyijwe, guha inzira ibigikorwa by'umusanzu wo  Kuvuga no Kumva.
+languages-show-more = Reba ibirenzeho
+languages-show-less = Reba bike
+language-speakers = Abavuze/ abavuga
+language-meter-in-progress = Ibigikorwa
+language-total-progress = Igiteranyo
+language-search-input =
+    .placeholder = Shakisha
+language-speakers = Abavuze/ abavuga
+localized = Cyagaragaye/hagaragaye
+sentences = Interuro
+total-hours = Amasaha yemejwe
 
 ## New Contribution
 
+action-click = Kanda
+action-tap = Andika
+contribute = Tanga umusanzu/ fasha
+listen = Umva
+skip = Simbuka
+shortcuts = Iza bugufi
+clips-with-count = Amajwi
+goal-help-recording = Wafashije porogaramu y'Ijwi Rusange kugeza ku mugambi wacu w'amajwi agomba gufatwa buri munsi.
+goal-help-validation = Wafashije porogaramu y'Ijwi Rusange kugeza ku mugambi wacu w'ibyemezwa ku munsi.
+contribute-more =
+    { $count ->
+        [one] Witeguye gukora birenzeho?
+       *[other] Witeguye gukora birenzeho?
+    }
+record-cta = Tangira ufate amajwi
 
 ## Goals
 
