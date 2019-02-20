@@ -519,12 +519,48 @@ record-submit-tooltip = ohereza niba witeguye
 clips-uploaded = Amajwi yafashwe yinjijwemo
 record-abort-title = Mbere na mbere kurangiza gufata amajwi?
 record-abort-text = Kuvaho ubu bisobanuye ko urabura amakuru y'aho wari ugeze
+record-abort-submit = Ohereza amajwi yafashwe
+record-abort-continue = Kurangiza gufata amajwi
+record-abort-delete = Sohoka & siba amajwi yafashwe
+listen-instruction = ese bavuze interuro ku buryo bunoze?
+listen-again-instruction = Wakoze neza! Ongera wumve igihe wumva witeguye
+listen-3rd-time-instruction = 2 hasi, komeza!
+listen-last-time-instruction = Rya nyuma/ ya nyuma/ cya nyuma!
+nothing-to-validate = Nta kindi twemeza muri uru rurimi, dufashe kuzuza urutonde.
+record-button-label = Fata ijwi ryawe
+share-title-new = Dufashe kubona andi majwi
 
 ## Goals
 
+streaks = Inkora/ ibirari
+days =
+    { $count ->
+        [one] Umunsi
+       *[other] Iminsi
+    }
+recordings =
+    { $count ->
+        [one] icyafashwe
+       *[other] Ibyafashwe
+    }
+validations =
+    { $count ->
+        [one] Iyemeza/ ikemejwe
+       *[other] Iyemeza/ ibyemejwe
+    }
 
 ## Dashboard
 
+your-languages = Indimi zawe
+toward-next-goal = Kwerekeza ku wundi mugambi/ ku yindi ntego
+clips-you-recorded = Amajwi
+clips-you-validated = Amajwi wemeje
+todays-recorded-progress = Aho iby'amajwi yafashwe kugeza ubu muri porogaramu y'Ijwi Rusange bigeze
+todays-validated-progress = Aho iby'amajwi yemejwe kugeza ubu muri porogaramu y'Ijwi Rusange bigeze
+stats = Ibyerekanwa n'ibarurishamibare
+you = Wowe
+everyone = Buri wese
+contribution-activity = Igikorwa ntangamusanzu, igikorwa cyo gufasha
 
 ## Profile Delete
 
