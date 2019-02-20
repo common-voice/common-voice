@@ -442,6 +442,10 @@ download-language = Ladda ner { $language }
 validated-hours = Validerade timmar
 recorded-hours = Inspelade timmar
 whats-inside = Vad finns i Common Voice-datamängd?
+dataset-description-hours =
+    Varje post i datamängden består av en unik MP3 och motsvarande textfil. Många av de <b>{ $total }</b> inspelade timmarna i datamängden innehåller även demografiska metadata som ålder, kön och accent som kan hjälpa till att träna noggrannheten för taligenkänningsmotorer.
+    
+    Datamängden består för närvarande av <b>{ $valid }</b> validerade timmar för <b>{ $languages }</b> språk, men vi lägger alltid till fler röster och språk. Ta en titt på vår <languagesLink>Språksida</languagesLink> för att begära ett språk eller börja bidra.
 want-dataset-update = Vill du ha uppdateringar om när vi släpper en ny version av Common Voice-datamängd? Prenumerera på vårt nyhetsbrev.
 subscribe = Prenumerera
 get-started-speech = Kom igång med taligenkänning
