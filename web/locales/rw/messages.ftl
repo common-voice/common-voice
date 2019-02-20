@@ -498,6 +498,14 @@ contribute-more =
        *[other] Witeguye gukora birenzeho?
     }
 record-cta = Tangira ufate amajwi
+record-platform-not-supported = Tubiseguyeho kuko ihuriro ryanyu ritashyizwe muri porogaramu
+record-platform-not-supported-desktop = Kuri mudasobwa zitagendanwa, ushobora kumanura amakuru ya nyuma:
+record-platform-not-supported-ios = Abakoresha iOS bashobora kumanura porogaramu yacu ku buntu:
+record-must-allow-microphone = Ugomba kwemerera gukoresha mikoro
+record-no-mic-found = Nta mikoro igaragaye
+record-error-too-short = Ibyafashwe byari bigufi cyane.
+record-error-too-long = Ibyafashwe bwayi birebire cyane.
+record-error-too-quiet = Ibyafashwe byumvikanaga buhoro.
 
 ## Goals
 
