@@ -26,6 +26,7 @@ export type CommonVoiceConfig = {
   };
   BASKET_API_KEY?: string;
   IMPORT_SENTENCES: boolean;
+  REDIS_URL: string;
 };
 
 const DEFAULTS: CommonVoiceConfig = {
@@ -55,6 +56,7 @@ const DEFAULTS: CommonVoiceConfig = {
     CLIENT_SECRET: '',
   },
   IMPORT_SENTENCES: true,
+  REDIS_URL: null,
 };
 
 let injectedConfig: CommonVoiceConfig;
