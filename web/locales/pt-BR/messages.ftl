@@ -54,6 +54,7 @@ fr = Francês
 fy-NL = Frisão
 ga-IE = Irlandês
 he = Hebraico
+hr = Croata
 hsb = Alto Sorábio
 hu = Húngaro
 ia = Interlíngua
@@ -85,6 +86,7 @@ pt-BR = Português (Brasil)
 rm-sursilv = Romanche (Sursilvan)
 ro = Romeno
 ru = Russo
+rw = Kinyarwanda
 sah = Sakha
 sc = Sardo
 sk = Eslovaco
@@ -180,6 +182,7 @@ x-years-short =
 help-make-dataset = Ajude-nos a construir um conjunto de dados de alta qualidade, aberto publicamente
 profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
 sign-up-account = Cadastre uma conta
+email-subscription-title = cadastre-se para receber notícias por e-mail
 
 ## Account Benefits
 
@@ -436,10 +439,10 @@ download-language = Baixar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
 whats-inside = O que existe dentro do conjunto de dados do Common Voice?
-dataset-description =
-    Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b>{ $hours }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
+dataset-description-hours =
+    Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b> { $total }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
     
-    O conjunto de dados atualmente consiste de <b>{ $hours }</b> horas validadas em <b>{ $languageCount }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
+    O conjunto de dados atualmente consiste de <b>{ $valid }</b> horas validadas em <b>{ $languages }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
 want-dataset-update = Quer receber avisos quando lançarmos novas versões do conjunto de dados do Common Voice? Assine nosso boletim informativo.
 subscribe = Assinar
 get-started-speech = Introdução ao reconhecimento de voz
