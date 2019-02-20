@@ -430,18 +430,44 @@ data-other-ted-name = Indundo ya Tederiyumu (TED-LIUM)
 data-other-ted-description = Indundo ya Tediriyumu yakozwe mu biganiro by'amajwi n'interuro zayo biboneka ku rubuga rwa Tedi.
 data-other-voxforge-description = Vogusiforuje (VoxForge) yakozwe ngo yifashishwe mu kwandukura ibiri mu majwi, mu mvugo kugira ko bikoreshwe n'imashini cyangwa porogaramu ntahuramajwi z'ubuntu z'ivomo rifunguriye bose.
 data-other-tatoeba-description = Tatoyeba (Tatoeba) ni indundo y'imbonwa z'interuro, amagambo yahinduwe mu ndimi n'amajwi yavuzwe igomba gukoreshwa mu kwiga ururimi. Ibi byamanurwa kandi birimo Icyongereza mvugo byafashwe n'abavuga ururimi.
+your-feedback = Hari ibitekerezo ufite by'uburyo twanoza ikusanyirizo ry'imbonwa za porogaramu y'Ijwi Rusange? Kitubwire ku rubuga duhuriraho rw'Ijambo.
+go-discourse = Jya ku rubuga duhuriraho rw'Ijambo
+missing-language = Ntabwo ubona ururimi rwawe rugaragara mu ikusanyirizo ry'imbonwa? Kugira ngo usabe ururimi ko rujyaho jya ku ipaji yacu y'indimi.
+go-languages-page = Jya kuri paji y'indimi
+ready-to-validate = Witeguye kwemeza interuro?
 
 ## Download Modal
 
+download-title = Imanura wakoze ryatangiye.
+download-helpus = Dufashe gukora umuryango w'abakoresha ikoranabuhanga ry'amajwi, komeza ubane natwe ukoresheje imeri.
+download-form-email =
+    .label = Injiza imeri yawe
+    .value = Urakoze, tuzakomeza twungurane ibitekerezo (duhane amakuru)
+download-back = Subira ku ikusanyirizo rya porogaramu y'Ijwi Rusange
+download-no = Oya, urakoze.
 
 ## Contact Modal
 
+contact-title = Urupapuro rwuzuzwaho aho umuntu yaboneka, aho abarizwa
+contact-form-name =
+    .label = Izina
+contact-form-message =
+    .label = Ubutumwa
+contact-required = *bikenewe, bisabwe
 
 ## Request Language Modal
 
+request-language-title = Gusaba ururimi
+request-language-form-language =
+    .label = Ururimi
+request-language-success-title = Gusaba ururimi byoherejwe neza, urakoze.
+request-language-success-content = Tuzakomeza twungurane ibitekerezo by'uko twakongera ururimi rwawe muri porogaramu y'Ijwi Rusange bidatinze.
 
 ## Languages Overview
 
+language-section-in-progress = Biracyakomeza
+language-section-in-progress-description = Indimi zigishyirwa muri porogaramu y'Ijwi Rusange zirimo gutunganywa kugira ngo abazikoresha batange umusanzu; uko bigenda bikorwa bigaragaza aho ziri ku rubuga n'ibyiciro byo gukusanya interuro.
+language-section-launched = Byatangijwe / zashyizweho
 
 ## New Contribution
 
