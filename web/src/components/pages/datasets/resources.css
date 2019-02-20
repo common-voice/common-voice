@@ -53,7 +53,10 @@
 
             @media (--md-down) {
                 margin-inline-end: 20px;
-                min-width: 160px;
+
+                &:last-child {
+                    margin-inline-end: 0;
+                }
             }
 
             @media (--lg-up) {
