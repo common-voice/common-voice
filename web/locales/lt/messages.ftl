@@ -3,6 +3,7 @@
 email-input =
     .label = El. paštas
 submit-form-action = Pateikti
+loading = Įkeliama…
 indicates-required = * Nurodo privalomą lauką
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
