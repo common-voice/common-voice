@@ -54,6 +54,7 @@ fr = Tiếng Pháp
 fy-NL = Tiếng Frisia
 ga-IE = Tiếng Ireland
 he = Tiếng Do Thái
+hr = Tiếng Croatia
 hsb = Tiếng Sorb vùng Thượng
 hu = Tiếng Hungary
 ia = Tiếng Khoa học Quốc tế
@@ -85,6 +86,7 @@ pt-BR = Tiếng Bồ Đào Nha (Brazil)
 rm-sursilv = Tiếng Romansh Sursilva
 ro = Tiếng Rumani
 ru = Tiếng Nga
+rw = Tiếng Kinyarwanda
 sah = Tiếng Sakha
 sc = Tiếng Sardinia
 sk = Tiếng Slovakia
@@ -177,6 +179,7 @@ x-years-short =
 help-make-dataset = Hãy giúp chúng tôi xây dựng một bộ dữ liệu công khai, chất lượng cao
 profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
 sign-up-account = Đăng kí một tài khoản
+email-subscription-title = đăng ký nhận email cập nhật
 
 ## Account Benefits
 
@@ -381,7 +384,7 @@ data-download-button = Tải dữ liệu Common Voice
 data-download-yes = Có
 data-download-deny = Không
 data-download-license = Giấy phép: <licenseLink>CC-0</licenseLink>
-data-download-modal = Bạn sắp tải xuống <size>{ $size }GB</size>, tiếp tục?
+data-download-modal = Bạn sắp tải xuống mục này có dung lượng <size>{ $size }GB</size>, tiếp tục?
 data-subtitle = Chúng tôi đang xây dựng một bộ dữ liệu giọng nói mở và công khai mà mọi người có thể sử dụng để đào tạo các ứng dụng hỗ trợ giọng nói.
 data-explanatory-text = Chúng tôi tin rằng bộ dữ liệu giọng nói khổng lồ và công khai có sẵn sẽ thúc đẩy đổi mới và cạnh tranh thương mại lành mạnh về lĩnh vực công nghệ giọng nói dựa trên máy học. Đây là một nỗ lực toàn cầu và chúng tôi mời mọi người tham gia. Mục tiêu của chúng tôi là giúp công nghệ giọng nói trở nên hòa nhập hơn, phản ánh sự đa dạng của tiếng nói từ khắp nơi trên thế giới.
 data-get-started = <speechBlogLink>Bắt đầu với nhận dạng giọng nói</speechBlogLink>
@@ -432,10 +435,10 @@ download-language = Tải xuống { $language }
 validated-hours = Số giờ đã xác thực
 recorded-hours = Số giờ đã ghi âm
 whats-inside = Những gì bên trong bộ dữ liệu Common Voice?
-dataset-description =
-    Mỗi mục trong bộ dữ liệu bao gồm một tệp MP3 và tệp văn bản tương ứng. Nhiều <b>{ $hours }</b> giờ được ghi trong tập dữ liệu cũng bao gồm siêu dữ liệu nhân khẩu học như tuổi, giới tính và giọng nói có thể giúp đào tạo tính chính xác của các công cụ nhận dạng giọng nói.
+dataset-description-hours =
+    Mỗi mục trong bộ dữ liệu bao gồm một tệp MP3 duy nhất và tệp văn bản tương ứng. <b>{ $total }</b> giờ được ghi trong tập dữ liệu cũng bao gồm siêu dữ liệu nhân khẩu học như tuổi, giới tính và giọng nói có thể giúp rèn luyện tính chính xác của các công cụ nhận dạng giọng nói.
     
-    Bộ dữ liệu hiện bao gồm <b>{ $hours }</b> giờ được xác thực bằng các ngôn ngữ <b>{ $languageCount }</b>, nhưng chúng tôi luôn luôn thêm nhiều tiếng nói và ngôn ngữ. Hãy xem <languagesLink>trang ngôn ngữ</languagesLink> của chúng tôi để yêu cầu ngôn ngữ hoặc bắt đầu đóng góp.
+    Bộ dữ liệu hiện bao gồm <b>{ $valid }</b> giờ được xác thực bằng <b>{ $languages }</b> ngôn ngữ , nhưng chúng tôi luôn luôn thêm nhiều tiếng nói và ngôn ngữ. Hãy xem <languagesLink>trang ngôn ngữ</languagesLink> của chúng tôi để yêu cầu ngôn ngữ hoặc bắt đầu đóng góp.
 want-dataset-update = Muốn cập nhật khi chúng tôi phát hành phiên bản mới của bộ dữ liệu Common Voice? Đăng kí theo dõi bản tin của chúng tôi.
 subscribe = Đăng kí
 get-started-speech = Bắt đầu với nhận dạng giọng nói
