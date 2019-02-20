@@ -423,6 +423,10 @@ subscribe = Iyandikishe
 get-started-speech = Tangira gukoresha Itahurajwi
 other-datasets = Ayandi makusanyirizo y'imbonwa z'amajwi.
 feedback-q = Ufite amakuru ngarukira?
+deepspeech-info = Ikusanyirizo ry'imbonwa za porogaramu y'Ijwi rusange ryuzuza ivomo rikinguriwe buri wese ry'imashini ntahuramvugo inimbitse, ukaba ushobora kurikoresha ukora porogaramu ntahuramvugo. Soma inshamake ya serivisi yacu ya GitHub cyangwa winjire muri porogaramu y'Ijambo ry'imvugo inimbitse kugira ngo umenye aho wahera.
+common-voice-info = Ufite ibibazo birebana na porogaramu y'Ijwi Rusange? Twegera ku rubuga duhuriraho rw'Ijambo
+data-other-librispeech-description = Isomero-jambo (LibriSpeech) ni indundo y'amasaha hafi 1000 ya kiroheritse 16 z'imvugo z'Icyongereza zavuye mu majwi y'ibyasomwe mu bitabo by'umushinga w'Isomero-jwi (LibriVox).
+data-other-ted-name = Indundo ya Tederiyumu (TED-LIUM)
 
 ## Download Modal
 
