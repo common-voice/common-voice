@@ -5,6 +5,7 @@ export namespace Flags {
 
   export interface State {
     messageOverwrites: MessageOverwrites;
+    homeHeroes: ('speak' | 'listen')[];
   }
 
   enum ActionType {
@@ -29,6 +30,9 @@ export namespace Flags {
     state: State = {
       messageOverwrites: JSON.parse(
         sessionStorage.getItem('messageOverwrites') || '{}'
+      ),
+      homeHeroes: JSON.parse(
+        sessionStorage.getItem('homeHeroes') || '["speak", "listen"]'
       ),
     },
     action: Action

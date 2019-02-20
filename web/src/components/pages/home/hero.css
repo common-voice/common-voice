@@ -23,10 +23,6 @@
         flex-direction: row;
     }
 
-    @media (--lg-up) {
-        width: 50%;
-    }
-
     &::before {
         content: '';
         display: block;
@@ -244,10 +240,6 @@
                     fill: var(--white);
                 }
             }
-
-            & .background {
-                //opacity: 0;
-            }
         }
     }
 
@@ -279,14 +271,5 @@
         font-weight: 600;
         color: var(--blue);
         text-decoration: underline;
-    }
-
-    @media (--lg-up) {
-        &.active {
-            width: 60%;
-        }
-        &.compressed {
-            width: 40%;
-        }
     }
 }

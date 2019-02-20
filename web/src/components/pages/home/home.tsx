@@ -105,11 +105,12 @@ function RegisterSection(props: { locale: string }) {
 type HeroType = 'speak' | 'listen';
 
 interface PropsFromState {
+  heroes: string[];
   locale: Locale.State;
   user: User.State;
 }
 
-function HomePage({ locale, user }: PropsFromState) {
+function HomePage({ heroes, locale, user }: PropsFromState) {
   const [activeHero, setActiveHero] = useState<null | HeroType>(null);
   const [showRequestLanguageModal, setShowRequestLanguageModal] = useState(
     false
@@ -130,8 +131,8 @@ function HomePage({ locale, user }: PropsFromState) {
       <ContributableLocaleLock
         render={({ isContributable }: any) =>
           isContributable ? (
-            <div className="heroes">
-              {['speak', 'listen'].map((type: HeroType) => (
+            <div className={'heroes ' + (heroes.length > 1 ? 'multiple' : '')}>
+              {heroes.map((type: HeroType) => (
                 <Hero
                   key={type + locale}
                   type={type}
@@ -262,7 +263,10 @@ function HomePage({ locale, user }: PropsFromState) {
   );
 }
 
-export default connect<PropsFromState>(({ locale, user }: StateTree) => ({
-  locale,
-  user,
-}))(HomePage);
+export default connect<PropsFromState>(
+  ({ flags, locale, user }: StateTree) => ({
+    heroes: flags.homeHeroes,
+    locale,
+    user,
+  })
+)(HomePage);
