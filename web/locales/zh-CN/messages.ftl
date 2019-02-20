@@ -54,6 +54,7 @@ fr = 法语
 fy-NL = 弗里西语
 ga-IE = 爱尔兰语
 he = 希伯莱语
+hr = 克罗地亚语
 hsb = 上索布语
 hu = 匈牙利语
 ia = 国际语
@@ -85,6 +86,7 @@ pt-BR = 葡萄牙语（巴西）
 rm-sursilv = 罗曼什语（苏斯勒万）
 ro = 罗马尼亚语
 ru = 俄语
+rw = 卢旺达语
 sah = 萨哈语
 sc = 萨丁尼亚语
 sk = 斯洛伐克语
@@ -177,6 +179,7 @@ x-years-short =
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
 profile-not-required = 不需创建个人资料即可贡献，但如果有的话会更有帮助
 sign-up-account = 注册账号
+email-subscription-title = 订阅邮件更新
 
 ## Account Benefits
 
@@ -429,10 +432,10 @@ download-language = 下载 { $language }
 validated-hours = 已验证小时数
 recorded-hours = 已录制小时数
 whats-inside = Common Voice 数据集里面有什么？
-dataset-description =
-    数据集中的每一条都包含了一组独立 MP3 录音及相应的文字文件。数据集所记录的 <b>{ $hours }</b> 小时的录音中，有许多条数据同时包含了年龄、性别、口音等人口统计元数据，能够训练语音识别引擎提升其准确性。
+dataset-description-hours =
+    数据集中的每一条都包含了一组独立 MP3 录音及相应的文字文件。数据集所记录的 <b>{ $total }</b> 小时的录音中，有许多条数据同时包含了年龄、性别、口音等人口统计元数据，能够训练语音识别引擎提升其准确性。
     
-    该数据集当前有 <b>{ $hours }</b> 小时，<b>{ $languageCount }</b> 种语言的语音数据，但我们在持续添加更多的语音数据和更多的语言。前往我们的<languagesLink>语言页</languagesLink>请求加入更多的语言或开始做出贡献。
+    该数据集当前有 <b>{ $valid }</b> 小时，<b>{ $languages }</b> 种语言的语音数据，但我们在持续添加更多的语音数据和更多的语言。前往我们的<languagesLink>语言页</languagesLink>请求加入更多的语言或开始做出贡献。
 want-dataset-update = 想要在我们发布新版本 Common Voice 数据集时得到通知？请订阅我们的新闻通讯。
 subscribe = 订阅
 get-started-speech = 语音识别入门
