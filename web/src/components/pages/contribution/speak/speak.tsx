@@ -164,6 +164,7 @@ class SpeakPage extends React.Component<Props, State> {
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
     document.addEventListener('visibilitychange', this.releaseMicrophone);
+    document.addEventListener('keyup', this.handleKeyUprerecording);
 
     if (
       !this.audio.isMicrophoneSupported() ||
@@ -175,6 +176,8 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   async componentWillUnmount() {
+    document.addEventListener('keyup', this.handleKeyUprerecording);
+
     document.removeEventListener('visibilitychange', this.releaseMicrophone);
     if (!this.isRecording) return;
     await this.audio.stop();
@@ -183,6 +186,30 @@ class SpeakPage extends React.Component<Props, State> {
   private get isRecording() {
     return this.state.recordingStatus === 'recording';
   }
+
+  private handleKeyUprerecording = async (event: any) => {
+    let index = null;
+    //for both sets of number keys on a keyboard with shift key
+    if (event.code === 'Digit1' || event.code === 'Numpad1') {
+      index = 0;
+    } else if (event.code === 'Digit2' || event.code === 'Numpad2') {
+      index = 1;
+    } else if (event.code === 'Digit3' || event.code === 'Numpad3') {
+      index = 2;
+    } else if (event.code === 'Digit4' || event.code === 'Numpad4') {
+      index = 3;
+    } else if (event.code === 'Digit5' || event.code === 'Numpad5') {
+      index = 4;
+    }
+
+    if (index !== null) {
+      trackRecording('rerecord', this.props.locale);
+      await this.discardRecording();
+      this.setState({
+        rerecordIndex: index,
+      });
+    }
+  };
 
   private getRecordingIndex() {
     const { rerecordIndex } = this.state;
