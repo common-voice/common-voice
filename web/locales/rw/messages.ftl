@@ -372,6 +372,23 @@ data-download-yes = Yego
 data-download-deny = Oya
 data-download-license = Uburenganzira
 data-download-modal = Ugiye gutangira kumanura jigabayite, ukomeze?
+data-subtitle = Turakora ikusanyirizo rusange kuri bose ry'amajwi buri muntu ashobora gukoresha mu kwitoza gukoresha porogaramu ntahuramajwi.
+data-explanatory-text = Dutekereza ko amakusanyirizo magari y'amajwi agerwaho na buri wese azateza imbere guhanga ibishya n'ihiganwa mu bucuruzi by'ikoranabuhanga ry'amajwi/ imvugo rifatiye ku kwiga kw'imashini.
+data-get-started = Tangira itahurajwi/ itahuramvugo
+data-other-title = Ayandi makusanyirizo y'imbonwa z'amajwi.
+data-other-goto = Jya kuri...
+data-other-download = Manura imbonwa
+data-bundle-button = Manura umuzingo w'ikusanyirizo ry'imbonwa
+data-bundle-description = Porogaramu y'Ijwi Rusange hiyongereyeho ayandi makusanyirizo y'imbonwa z'amajwi ziri hejuru aha.
+license = Uburenganzira
+license-mixed = Bivanze/ ivanze
+review-terms = Mu gukoresha porogaramu y'Ijwi Rusange, wemeye amabwiriza yacu n'ibirebana n'amakuru bwite adashyirwa ahagaragara.
+terms-agree = Ndabyemeye
+terms-disagree = Ntabwo mbyemeye
+review-aborted = Kwinjiza birananiranye. Urashaka gusiba amajwi wafashe?
+review-submit-title = Subiramo & Ohereza
+review-submit-msg = Urakoze gufata amajwi! Subira mu majwi yawe wafashe akurikira uyagenzure kandi uyohereze.
+review-recording = Genzura, kosora, subiramo
 
 ## New Datasets Page
 
