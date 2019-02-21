@@ -31,9 +31,7 @@ export namespace Flags {
       messageOverwrites: JSON.parse(
         sessionStorage.getItem('messageOverwrites') || '{}'
       ),
-      homeHeroes: JSON.parse(
-        sessionStorage.getItem('homeHeroes') || '["speak", "listen"]'
-      ),
+      homeHeroes: ['speak', 'listen'],
     },
     action: Action
   ): State {

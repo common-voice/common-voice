@@ -131,7 +131,10 @@ function HomePage({ heroes, locale, user }: PropsFromState) {
       <ContributableLocaleLock
         render={({ isContributable }: any) =>
           isContributable ? (
-            <div className={'heroes ' + (heroes.length > 1 ? 'multiple' : '')}>
+            <div
+              className={
+                'heroes ' + (heroes.length > 1 ? 'multiple' : 'single')
+              }>
               {heroes.map((type: HeroType) => (
                 <Hero
                   key={type + locale}

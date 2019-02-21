@@ -27,6 +27,18 @@
         @media (--lg-up) {
             flex-direction: row;
 
+            &.single {
+                & .hero-box::before {
+                    background-size: 100% 50%;
+                }
+
+                @media (--lg-up) {
+                    & .column.cta {
+                        padding-left: 48px;
+                    }
+                }
+            }
+
             &.multiple {
                 & > :first-child {
                     border-right: 1px solid var(--light-grey);
