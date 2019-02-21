@@ -23,7 +23,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url('/img/datasets/waves@3x.png');
+        background: url('/img/datasets/waves.png');
         background-size: cover;
 
         @media (--md-down) {
