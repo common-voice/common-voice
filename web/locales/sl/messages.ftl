@@ -102,6 +102,7 @@ uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
 vi = vietnamščina
+vot = votščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
@@ -386,6 +387,8 @@ review-delete-recordings = Izbriši moje posnetke
 language = Jezik
 # File size in gigabytes
 size = Velikost
+validated-hr-total = Skupno potrjenih ur
+overall-hr-total = Skupno vseh ur
 cv-license = Licenca
 audio-format = Oblika zvoka
 number-of-voices = Število glasov
@@ -405,6 +408,7 @@ subscribe = Naroči se
 get-started-speech = Začnite s prepoznavanjem govora
 other-datasets = Drugi glasovni nabori podatkov
 feedback-q = Želite poslati povratne informacije?
+common-voice-info = Imate vprašanja o projektu Common Voice? Pridružite se nam na <discourseLink>forumu Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
@@ -561,4 +565,8 @@ keep = Obdrži
 remove = Odstrani
 keep-info = Vaši anonimni glasovni posnetki bodo ostali v naboru podatkov Common Voice. Ko izbrišete profil, ne boste več mogli zahtevati izbrisa vaših posnetkov iz nabora podatkov
 remove-info = Preučili bomo zahtevo za odstranitev vaših glasovnih posnetkov iz nabora podatkov. Če bo zahteva odobrena, se bomo obrnili na tiste, ki so prenesli nabor podatkov, in zahtevali, da odstranijo vaše glasovne posnetke.
+why-delete-recordings =
+    Posnetke Common Voicea uporabljajo akademiki, mala podjetja in navdušenci nad glasovno prepoznavo, ki z njihovo pomočjo razvijajo in širijo javno dostopne vire, kot so glasovni modeli.
+    
+    Bi nam bili pripravljeni povedati, zakaj želite izbrisati svoje posnetke?
 profile-form-delete = Izbriši profil
