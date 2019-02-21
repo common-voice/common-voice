@@ -54,6 +54,7 @@ fr = Francés
 fy-NL = Frisón
 ga-IE = Irlandés
 he = Hebreo
+hr = Croata
 hsb = Alto sorabo
 hu = Húngaro
 ia = Interlingua
@@ -180,6 +181,7 @@ x-years-short =
 help-make-dataset = Ayúdanos a crear una base de datos de alta calidad y accesible para todo el mundo
 profile-not-required = No es necesario tener un perfil para colaborar, aunque puede resultar útil.
 sign-up-account = Regístrate para obtener una cuenta
+email-subscription-title = suscríbete para recibir actualizaciones por correo
 
 ## Account Benefits
 
@@ -436,10 +438,6 @@ download-language = Descargar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas grabadas
 whats-inside = ¿Qué hay en la base de datos de Common Voice?
-dataset-description =
-    Cada entrada de la base de datos consiste en un único MP3 y su correspondiente archivo de texto. Muchas de las <b>{ $hours }</b> horas grabadas en la base de datos también incluyen metadatos demográficos, como edad, sexo y acento que pueden ayudar a mejorar la precisión en el entrenamiento de los motores de reconocimiento del  habla.
-    
-    Por ahora, la base de datos consta de <b>{ $hours }</b> horas validadas en <b>{ $languageCount }</b> idiomas, pero siempre estamos añadiendo más voces e idiomas. Echa un vistazo a nuestra <languagesLink>Página de idiomas</languagesLink> para solicitar un idioma o empezar a colaborar.
 want-dataset-update = ¿Quieres recibir información sobre nuevas versiones y actualizaciones de las bases de datos de Common Voice? Suscríbete a nuestro boletín.
 subscribe = Suscribirse
 get-started-speech = Empieza hoy mismo con el Reconocimiento de voz
