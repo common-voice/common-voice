@@ -17,10 +17,10 @@ indicates-required = * tregon një fushë të domosdoshme
 
 ## Languages
 
-ab = Abkaze
-ace = Acehneze
+ab = Abkazisht
+ace = Acehnezisht
 af = Afrikaans
-an = Aragoneze
+an = Aragonisht
 ar = Arabisht
 as = Asameze
 ast = Asturiase
@@ -36,7 +36,7 @@ cs = Çeke
 cv = Çuvashe
 cy = Uells
 da = Daneze
-de = Gjermane
+de = Gjermanisht
 dsb = Sorbiane, E poshtme
 el = Greqisht
 en = Anglisht
@@ -51,6 +51,7 @@ fr = Frëngjisht
 fy-NL = Frisiane
 ga-IE = Irlandisht
 he = Hebraisht
+hr = Kroate
 hsb = Sorbiane, E sipërme
 hu = Hungarisht
 ia = Interlingua
@@ -80,6 +81,7 @@ pt-BR = Portugalisht (Brazil)
 rm-sursilv = Romansh Sursilvan
 ro = Rumanisht
 ru = Rusisht
+rw = Kinjaruanda
 sah = Sakha
 sc = Sardinisht
 sk = Sllovakisht
@@ -93,10 +95,12 @@ th = Tajlandeze
 tr = Turqisht
 tt = Tatare
 uby = Ybyke
+udm = Udmurt
 uk = Ukrainase
 ur = Urdu
 uz = Uzbeke
 vi = Vietnamisht
+vot = Votik
 zh-CN = Kineze (Kinë)
 zh-HK = Kineze (Hong Kong)
 zh-TW = Kineze (Tajvan)
@@ -175,6 +179,7 @@ x-years-short =
 help-make-dataset = Ndihmonani të krijojmë një grup të dhënash të cilësisë së lartë, të hapur publikisht
 profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
 sign-up-account = Regjistrohuni për një llogari
+email-subscription-title = regjistrohuni për përditësime me email
 
 ## Account Benefits
 
@@ -240,6 +245,8 @@ english = Anglisht
 
 profile-form-username =
     .label = Emër Përdoruesi
+profile-form-native-language =
+    .label = Gjuhë Amtare
 profile-form-additional-language =
     .label = Gjuhë Shtesë
 profile-form-accent =
@@ -428,10 +435,7 @@ download-language = Shkarkoni { $language }
 validated-hours = Orë Vleftësim
 recorded-hours = Orë Incizim
 whats-inside = Ç’përmban grupi i të dhënave Common Voice?
-dataset-description =
-    Çdo zë në grupin e të dhënave përbëhet nga një incizim MP3 dhe një kartelë tekst përkatëse. Shumë nga <b>{ $hours }</b> orët e incizuara në grupin e të dhënave përfshijnë gjithashtu të dhëna demografike të tilla si mosha, gjinia, dhe theksi, të cilat mund të ndihmojnë në stërvitjen e përpikërisë së mekanizmave të të kuptuarit të të folurës.
-    
-    The dataset currently consists of <b>{ $hours }</b> validated hours in <b>{ $languageCount }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
+dataset-description-hours = Çdo zë në grupin e të dhënave përbëhet nga një incizim MP3 unik dhe një kartelë tekst përkatëse. Shumë nga  <b>{ $total }</b>  orët e incizuara në grupin e të dhënave përfshijnë gjithashtu të dhëna demografike të tilla si mosha, gjinia, dhe theksi, të cilat mund të ndihmojnë në stërvitjen e përpikërisë së mekanizmave të të kuptuarit të të folurës.
 want-dataset-update = Dëshironi përditësime kur hedhin në qarkullim një version të ri të grupit të të dhënave Common Voice? Pajtohuni te buletini ynë.
 subscribe = Pajtohuni
 get-started-speech = Fillojani me Kuptimin e të Folurës
