@@ -54,6 +54,7 @@ fr = Frans
 fy-NL = Fries
 ga-IE = Iers
 he = Hebreeuws
+hr = Kroatisch
 hsb = Oppersorbisch
 hu = Hongaars
 ia = Interlingua
@@ -85,6 +86,7 @@ pt-BR = Portugees (Brazilië)
 rm-sursilv = Reto-Romaans Surselvisch
 ro = Roemeens
 ru = Russisch
+rw = Kinyarwanda
 sah = Jakoets
 sc = Sardijns
 sk = Slowaaks
@@ -180,6 +182,7 @@ x-years-short =
 help-make-dataset = Help ons een openbaar toegankelijke gegevensset van hoge kwaliteit te bouwen
 profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
 sign-up-account = Een account aanmaken
+email-subscription-title = schrijf u in voor e-mailupdates
 
 ## Account Benefits
 
@@ -436,10 +439,10 @@ download-language = { $language } downloaden
 validated-hours = Gevalideerde uren
 recorded-hours = Opgenomen uren
 whats-inside = Wat zit er in de Common Voice-gegevensset?
-dataset-description =
-    Elk onderdeel in de gegevensset bestaat uit een uniek MP3-bestand en een bijbehorend tekstbestand. Veel van de <b>{ $hours }</b> opgenomen uren in de gegevensset bevatten ook demografische metagegevens zoals leeftijd, geslacht en accent, die de nauwkeurigheid van spraakherkenningsengines kunnen helpen trainen.
+dataset-description-hours =
+    Elk onderdeel in de gegevensset bestaat uit een uniek MP3-bestand en een bijbehorend tekstbestand. Veel van de <b>{ $total }</b> opgenomen uren in de gegevensset bevatten ook demografische metagegevens zoals leeftijd, geslacht en accent, die de nauwkeurigheid van spraakherkenningsengines kunnen helpen trainen.
     
-    De gegevensset bestaat momenteel uit <b>{ $hours }</b> gevalideerde uren in <b>{ $languageCount }</b> talen, maar we voegen doorlopend spraak en talen toe. Kijk eens op onze <languagesLink>pagina Talen</languagesLink> om een taal aan te vragen of een bijdrage te leveren.
+    De gegevensset bestaat momenteel uit <b>{ $valid }</b> gevalideerde uren in <b>{ $languageCount }</b> talen, maar we voegen doorlopend spraak en talen toe. Kijk eens op onze <languagesLink>pagina Talen</languagesLink> om een taal aan te vragen of een bijdrage te leveren.
 want-dataset-update = Wilt u updates wanneer we een nieuwe versie van de Common Voice-gegevensset uitbrengen? Abonneer u dan op onze nieuwsbrief.
 subscribe = Abonneren
 get-started-speech = Beginnen met spraakherkenning
