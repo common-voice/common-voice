@@ -3,6 +3,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
 import API from '../../services/api';
+import { trackGlobal } from '../../services/tracker';
 import StateTree from '../../stores/tree';
 import { LocalizedGetAttribute } from '../locale-helpers';
 import { CautionIcon, CheckIcon, OldPlayIcon } from '../ui/icons';
@@ -11,9 +12,10 @@ import './subscribe-newsletter.css';
 
 interface PropsFromState {
   api: API;
+  locale: string;
 }
 
-const SubscribeNewsletter = ({ api }: PropsFromState) => {
+const SubscribeNewsletter = ({ api, locale }: PropsFromState) => {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<
     null | 'submitting' | 'submitted' | 'error'
@@ -27,6 +29,7 @@ const SubscribeNewsletter = ({ api }: PropsFromState) => {
         setStatus('submitting');
         try {
           await api.subscribeToNewsletter(email);
+          trackGlobal('footer-newsletter', locale);
           setStatus('submitted');
         } catch (e) {
           setStatus('error');
@@ -43,8 +46,12 @@ const SubscribeNewsletter = ({ api }: PropsFromState) => {
               className={email.length > 0 ? 'has-value' : ''}
               type="email"
               value={email}
-              onChange={event => setEmail(event.target.value)}
+              onChange={event => {
+                setEmail(event.target.value);
+                setStatus(null);
+              }}
               placeholder={label}
+              required
             />
           )}
         </LocalizedGetAttribute>
@@ -71,6 +78,7 @@ const SubscribeNewsletter = ({ api }: PropsFromState) => {
   );
 };
 
-export default connect<PropsFromState>(({ api }: StateTree) => ({
+export default connect<PropsFromState>(({ api, locale }: StateTree) => ({
   api,
+  locale,
 }))(SubscribeNewsletter);

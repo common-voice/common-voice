@@ -23,7 +23,12 @@ export function track(
 }
 
 export function trackGlobal(
-  action: 'change-language' | 'github' | 'discourse' | 'contact',
+  action:
+    | 'change-language'
+    | 'github'
+    | 'discourse'
+    | 'contact'
+    | 'footer-newsletter',
   locale: string
 ) {
   track('Global', action, locale);
