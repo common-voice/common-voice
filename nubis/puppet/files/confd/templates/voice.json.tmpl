@@ -1,3 +1,5 @@
+{{ $redis := jsonArray ( getv "/config/Cache/Endpoint" ) -}}
+{{ $redis := (index (index $redis 0) 0).address -}}
 {
   "port": 9000,
   "logfile": "/var/log/voice.log",
@@ -16,6 +18,7 @@
   "SECRET": "{{ if exists "/config/Secret" }}{{ ( replace  ( getv "/config/Secret" ) "\"" "\\\"" -1 )}}{{ end }}",
   "ADMIN_EMAILS": "{{ if exists "/config/Admin-Emails" }}{{ getv "/config/Admin-Emails" }}{{ end }}",
   "BASKET_API_KEY": "{{ if exists "/config/Basket-API-Key" }}{{ getv "/config/Basket-API-Key" }}{{ end }}",
+  "REDIS_URL": "{{ if exists "/config/Cache/Endpoint" }}redis://{{ $redis }}/{{end}}",
   "AUTH0": {
     "DOMAIN": "{{ if exists "/config/Auth0/Domain" }}{{ getv "/config/Auth0/Domain" }}{{ end }}",
     "CLIENT_ID": "{{ if exists "/config/Auth0/Client-ID" }}{{ getv "/config/Auth0/Client-ID" }}{{ end }}",
