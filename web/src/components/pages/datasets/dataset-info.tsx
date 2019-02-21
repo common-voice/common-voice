@@ -59,16 +59,18 @@ const Splits = ({
   locale: string;
 }) => {
   const [expanded, setExpanded] = useState(false);
+  const categories = Object.entries(values).filter(
+    ([key, value]) => key && key != 'other' && value > 0
+  );
   return (
     <div key={category} className="splits">
       <LocalizedGetAttribute id={'profile-form-' + category} attribute="label">
         {label => <h5>{label}</h5>}
       </LocalizedGetAttribute>
       <ol onClick={() => setExpanded(!expanded)} tabIndex={0} role="button">
-        {Object.entries(values)
-          .filter(([key, value]) => key && value > 0)
+        {categories
           .sort((a, b) => (a[1] < b[1] ? 1 : -1))
-          .slice(0, expanded ? values.length : DEFAULT_CATEGORY_COUNT)
+          .slice(0, expanded ? categories.length : DEFAULT_CATEGORY_COUNT)
           .map(([key, value]) => (
             <li key={key}>
               <b>{Math.round(value * 100)}%</b>
@@ -90,7 +92,7 @@ const Splits = ({
               )}
             </li>
           ))}
-        {!expanded && Object.keys(values).length > DEFAULT_CATEGORY_COUNT && (
+        {!expanded && categories.length > DEFAULT_CATEGORY_COUNT && (
           <li key="more">...</li>
         )}
       </ol>
