@@ -193,6 +193,15 @@
                     flex-direction: row;
                     white-space: pre;
 
+                    @media (--md-down) {
+                        width: 100%;
+
+                        & .ellipsis {
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+
                     &::after {
                         content: ', ';
                     }

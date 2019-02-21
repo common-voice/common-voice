@@ -75,21 +75,23 @@ const Splits = ({
             <li key={key}>
               <b>{Math.round(value * 100)}%</b>
               <span> </span>
-              {category == 'gender' ? (
-                <Localized id={key}>
-                  <span />
-                </Localized>
-              ) : category == 'accent' ? (
-                ACCENTS[locale] ? (
-                  ACCENTS[locale][key]
+              <div className="ellipsis">
+                {category == 'gender' ? (
+                  <Localized id={key}>
+                    <span />
+                  </Localized>
+                ) : category == 'accent' ? (
+                  ACCENTS[locale] ? (
+                    ACCENTS[locale][key]
+                  ) : (
+                    key
+                  )
+                ) : category == 'age' ? (
+                  (AGES as any)[key]
                 ) : (
                   key
-                )
-              ) : category == 'age' ? (
-                (AGES as any)[key]
-              ) : (
-                key
-              )}
+                )}
+              </div>
             </li>
           ))}
         {!expanded && categories.length > DEFAULT_CATEGORY_COUNT && (
