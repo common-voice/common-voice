@@ -200,6 +200,7 @@ button.card-action:focus.focus-visible path {
     & textarea {
         box-sizing: border-box;
         border: 1.6px solid #e6e4e1;
+        border-radius: 2px;
         padding: 13px;
         font-size: var(--font-size);
         font-family: var(--base-font-family);
