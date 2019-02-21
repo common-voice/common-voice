@@ -343,6 +343,8 @@ faq-how-privacy-q = Kako zagotavljate anonimnost in zasebnost ljudi, ki so prisp
 glossary = Slovar
 localization = Lokalizacija
 localization-explanation = Naš postopek prevajanja in prilagajanja vsebine za številne jezike.
+sentence-collection = Zbiranje stavkov
+sentence-collection-explanation = Zbiranje stavkov iz javnih domen ali pisanje novih za javno uporabo.
 sst = Govor v besedilo (STT)
 
 ## NotFound
