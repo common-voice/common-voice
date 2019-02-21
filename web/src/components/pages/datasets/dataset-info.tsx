@@ -90,7 +90,7 @@ const Splits = ({
               )}
             </li>
           ))}
-        {!expanded && values.length > DEFAULT_CATEGORY_COUNT && (
+        {!expanded && Object.keys(values).length > DEFAULT_CATEGORY_COUNT && (
           <li key="more">...</li>
         )}
       </ol>
