@@ -47,6 +47,8 @@ const valid = Object.values(validHours).reduce(
 const languages = Object.keys(stats.locales).length;
 const globalStats = { total, valid, languages };
 
+const DEFAULT_CATEGORY_COUNT = 2;
+
 const Splits = ({
   category,
   values,
@@ -66,7 +68,7 @@ const Splits = ({
         {Object.entries(values)
           .filter(([key, value]) => key && value > 0)
           .sort((a, b) => (a[1] < b[1] ? 1 : -1))
-          .slice(0, expanded ? values.length : 2)
+          .slice(0, expanded ? values.length : DEFAULT_CATEGORY_COUNT)
           .map(([key, value]) => (
             <li key={key}>
               <b>{Math.round(value * 100)}%</b>
@@ -88,7 +90,9 @@ const Splits = ({
               )}
             </li>
           ))}
-        {!expanded && <li key="more">...</li>}
+        {!expanded && values.length > DEFAULT_CATEGORY_COUNT && (
+          <li key="more">...</li>
+        )}
       </ol>
     </div>
   );
