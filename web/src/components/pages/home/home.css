@@ -34,7 +34,7 @@
 
                 @media (--lg-up) {
                     & .column.cta {
-                        padding-left: 48px;
+                        padding: 0 48px;
                     }
                 }
             }
