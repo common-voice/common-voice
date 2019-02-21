@@ -137,7 +137,7 @@ function HomePage({ heroes, locale, user }: PropsFromState) {
                   key={type + locale}
                   type={type}
                   status={
-                    activeHero === type
+                    heroes.length == 1 || activeHero === type
                       ? 'active'
                       : activeHero
                       ? 'compressed'
