@@ -17,7 +17,9 @@ indicates-required = * označuje povinná pole
 
 ## Languages
 
+ab = Abcházština
 af = Afrikánština
+am = Amharština
 an = Aragonština
 ar = Arabština
 as = Azamština
@@ -36,6 +38,7 @@ cy = Velština
 da = Dánština
 de = Němčina
 dsb = Dolnolužická srbština
+dv = Dhivehi
 el = Řečtina
 en = Angličtina
 eo = Esperanto
@@ -49,6 +52,7 @@ fr = Francouzština
 fy-NL = Fríština
 ga-IE = Irština
 he = Hebrejština
+hr = Chorvatština
 hsb = Hornosrbština
 hu = Maďarština
 ia = Interlingua
@@ -236,6 +240,10 @@ english = Angličtina
 
 profile-form-username =
     .label = Uživatelské jméno
+profile-form-native-language =
+    .label = Mateřský jazyk
+profile-form-additional-language =
+    .label = Další jazyk
 profile-form-accent =
     .label = Přízvuk
 profile-form-age =
