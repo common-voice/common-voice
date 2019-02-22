@@ -54,6 +54,7 @@ fr = Français
 fy-NL = Frison
 ga-IE = Irlandais
 he = Hébreu
+hr = Croate
 hsb = Haut-sorabe
 hu = Hongrois
 ia = Interlingua
@@ -85,6 +86,7 @@ pt-BR = Portugais (Brésil)
 rm-sursilv = Romanche sursilvan
 ro = Roumain
 ru = Russe
+rw = Kinyarwanda
 sah = Iakoute
 sc = Sarde
 sk = Slovaque
@@ -418,6 +420,7 @@ overall-hr-total = Total d’heures
 cv-license = Licence
 audio-format = Format audio
 number-of-voices = Nombre de voix
+splits = Répartition
 email-to-download = Saisissez votre adresse électronique pour accéder au téléchargement
 why-email = <b>Pourquoi demandons-nous l’adresse électronique ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse électronique nous le permettra.
 confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
@@ -428,10 +431,10 @@ download-language = Télécharger | { $language }
 validated-hours = Heures validées
 recorded-hours = Heures enregistrées
 whats-inside = Que contient le jeu de données Common Voice ?
-dataset-description =
-    Chaque entrée du jeu de données consiste en un seul fichier MP3 et le fichier du texte correspondant. Beaucoup des <b>{ $hours }</b> heures enregistrées dans le jeu de données comprennent également des métadonnées démographiques, telles que l’âge, le sexe et l’accent, qui peuvent contribuer à améliorer la précision des moteurs de reconnaissance vocale.
+dataset-description-hours =
+    Chaque entrée du jeu de données consiste en un seul fichier MP3 accompagné d’un fichier du texte correspondant. Une grande partie des <b>{ $total }</b> heures enregistrées dans le jeu de données comprennent également des métadonnées démographiques, telles que l’âge, le sexe et l’accent, qui peuvent contribuer à améliorer la précision des moteurs de reconnaissance vocale.
     
-    Le jeu de données contient actuellement  <b>{ $hours }</b> heures validées dans <b>{ $languageCount }</b> langues, mais nous ajoutons en permanence plus de voix et de langues. Jetez un œil à la <languagesLink>page des langues</languagesLink> pour demander une langue ou commencer à contribuer.
+    Le jeu de données contient actuellement <b>{ $valid }</b> heures validées dans <b>{ $languages }</b> langues, mais nous ajoutons en permanence plus de voix et de langues. Jetez un œil à la <languagesLink>page des langues</languagesLink> pour demander une langue ou commencer à contribuer.
 subscribe = S’abonner
 get-started-speech = S’initier à la reconnaissance vocale
 feedback-q = Vous avez des suggestions ?
