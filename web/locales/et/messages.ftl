@@ -8,6 +8,7 @@ email-input =
     .label = E-posti aadress
 submit-form-action = Saada
 loading = Laadimine…
+indicates-required = * tähistab kohustuslikku välja
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -318,11 +319,6 @@ data-get-started = <speechBlogLink>Tutvu kõnetuvastusega</speechBlogLink>
 data-other-title = Teised hääleandmekogud…
 data-other-goto = Mine andmekogusse { $name }
 data-other-download = Laadi andmed alla
-data-other-librispeech-description = LibriSpeech on kõneandmestik, mis koosneb umbes 1000st tunnist 16Khz kvaliteediga salvestatud ingliskeelsest kõnest, mis on saadud LibriVoxi projekti audioraamatutest.
-data-other-ted-name = TED-LIUM korpus
-data-other-ted-description = TED-LIUM korpus koosneb audio kõnedest ja nende transkriptsioonidest, mis on kättesaadavad TEDi veebilehel.
-data-other-voxforge-description = VoxForge käivitati, et koguda transkribeeritud kõnet kasutamaks tasuta ja avatud lähtekoodiga kõnetuvastuse mootorites.
-data-other-tatoeba-description = Tatoeba on suur lausete, nende tõlgete ja kõneldud heli andmebaas, mida kasutatakse keeleõppes. Käesolev allalaadimise komplekt sisaldab nende kogukonna poolt salvestatud inglise keelt.
 data-bundle-button = Laadi alla andmestike komplekt
 data-bundle-description = Common Voice'i andmed ja kõik ülalloetletud andmestikud.
 license = Litsents: <licenseLink>{ $license }</licenseLink>
@@ -338,6 +334,21 @@ review-rerecord = Salvesta uuesti
 review-cancel = Tühista saatmine
 review-keep-recordings = Jäta salvestised alles
 review-delete-recordings = Kustuta mu salvestised
+
+## New Datasets Page
+
+language = Keel
+# File size in gigabytes
+size = Suurus
+overall-hr-total = Tunde kokku
+cv-license = Litsents
+audio-format = Heliformaat
+number-of-voices = Häälte arv
+data-other-librispeech-description = LibriSpeech on kõneandmestik, mis koosneb umbes 1000st tunnist 16Khz kvaliteediga salvestatud ingliskeelsest kõnest, mis on saadud LibriVoxi projekti audioraamatutest.
+data-other-ted-name = TED-LIUM korpus
+data-other-ted-description = TED-LIUM korpus koosneb audio kõnedest ja nende transkriptsioonidest, mis on kättesaadavad TEDi veebilehel.
+data-other-voxforge-description = VoxForge käivitati, et koguda transkribeeritud kõnet kasutamaks tasuta ja avatud lähtekoodiga kõnetuvastuse mootorites.
+data-other-tatoeba-description = Tatoeba on suur lausete, nende tõlgete ja kõneldud heli andmebaas, mida kasutatakse keeleõppes. Käesolev allalaadimise komplekt sisaldab nende kogukonna poolt salvestatud inglise keelt.
 
 ## Download Modal
 
@@ -454,6 +465,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Sinu keeled
 stats = Statistika
 you = Sina
 everyone = Kõik
@@ -464,4 +476,5 @@ validated-clips = Kontrollitud salvestisi
 
 ## Profile Delete
 
+keep = Säilita
 profile-form-delete = Kustuta profiil
