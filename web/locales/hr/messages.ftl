@@ -138,8 +138,19 @@ logout = Odjava
 home-title = Common Voice je Mozilla-ina inicijativa da pomogne naučiti strojeve kako ljudi govore.
 home-cta = Govori, doprinesi ovdje!
 wall-of-text-start =
-    Glasje prirodan, glasje ljudski. Zato smo fascinirani stvaranjem upotrebljive govorne tehnologije
+    Glas je prirodan, glas je ljudski. Zato smo fascinirani stvaranjem upotrebljive govorne tehnologije
     za naše strojeve. Ali za stvaranje govornih sustava, potrebne su iznimno velike količine snimljenog glasa.
+wall-of-text-more-mobile =
+    Većina podataka koje koriste velike tvrtke nije dostupna većini ljudi. Mi mislimo
+    da to guši inovaciju. Zato smo pokrenuli Common Voice projekt, projekt koji će pomoći učiniti
+    prepoznavanje glasa otvoreno svima.
+wall-of-text-more-desktop =
+    Sada možete donirati svoj glas kako biste nam pomogli izgraditi govornu bazu podataka otvorenog koda koju svatko može koristiti
+    za izradu inovativnih aplikacija za uređaje i web. Pročitajte rečenicu kako biste pomogli strojevima da nauče kako stvarni ljudi govore.
+    Provjerite rad drugih donatora kako biste poboljšali kvalitetu. Tako je jednostavno!
+wall-of-text-first =
+    Glas je prirodan, glas je ljudski. Zato smo uzbuđeni stvaranjem upotrebljive govorne tehnologije
+    za naše strojeve. Ali za stvaranje govornih sustava, razvijateljima su potrebne iznimno velike količine snimljenog glasa.
 show-wall-of-text = Pročitajte više
 help-us-title = Pomozite nam potvrditi rečenice!
 vote-yes = Da
