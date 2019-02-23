@@ -54,6 +54,7 @@ fr = Tafransist
 fy-NL = Tafrizunt
 ga-IE = Tirlandit
 he = Taɛebrit
+hr = Takarwasit
 hsb = Sorbyan, Tameqqrant
 hu = Tahungaṛit
 ia = Tutlayt tagraɣlant
@@ -85,6 +86,7 @@ pt-BR = Tapuṛtugit (Brizil)
 rm-sursilv = Rumanc Sursilvan
 ro = Taṛumanit
 ru = Tarusit
+rw = Takinyaṛwandit
 sah = Tasaxit
 sc = Tasardinit
 sk = Tasluvakt
@@ -180,6 +182,7 @@ x-years-short =
 help-make-dataset = Mudd-aɣ-d ad nebnu tagrumma n yisefka n tɣara ifazen, yeldin i medden meṛṛa
 profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
 sign-up-account = Jerred akken ad tesɛuḍ amiḍan amiḍan
+email-subscription-title = jerred akken ak-id-aweḍ telɣut s yimayl
 
 ## Account Benefits
 
@@ -433,10 +436,10 @@ download-language = Sider { $language }
 validated-hours = Isragen yettwasentmen
 recorded-hours = Isragen yettwaskelsen
 whats-inside = Acu yellan deg taggruma n isefka n Common Voice?
-dataset-description =
-    Sekra n wayen ara ikecmen des tagrumma n yisefka d afaylu MP3 asuf akked ufaylu-is aḍris yemmenṭaḍen yid-s. Ddeqs seg <b>{ $hours }</b> n yisragen yettwaskelsen deg tagrumma n yisefka ad iseddu isefka ɣef tdimugrafit am uwtay (leɛmeṛ), tuzuft akked ususru i yezemren ad yefk afus i usluɣmu n tseddi n yimseddayen n uɛqal n taɣect. 
+dataset-description-hours =
+    Sekra n wayen ara ikecmen des tagrumma n yisefka d afaylu MP3 asuf akked ufaylu-is aḍris yemmenṭaḍen yid-s. Ddeqs seg <b>{ $total }</b> n yisragen yettwaskelsen deg tagrumma n yisefka ad iseddu isefka ɣef tdimugrafit am uwtay (leɛmeṛ), tuzuft akked ususru i yezemren ad yefk afus i usluɣmu n tseddi n yimseddayen n uɛqal n taɣect. 
     
-    Tagrumma n yisefka tamirant tegber <b>{ $hours }</b> n yisragen yettwaqeblen deg <b>{ $languageCount }</b> n tutlayin, maca aql-aɣ nrennu ugar n tuɣac akked tutlayin. Wali deg <languagesLink> usebter-nneɣ n tutlayin </languagesLink> akken ad tessutreḍ tutlayt neɣ ad tebduḍ attekki.
+    Tagrumma n yisefka tamirant tegber <b>{ $valid }</b> n yisragen yettwaqeblen deg <b>{ $languages }</b> n tutlayin, maca aql-aɣ nrennu ugar n tuɣac akked tutlayin. Wali deg <languagesLink> usebter-nneɣ n tutlayin </languagesLink> akken ad tessutreḍ tutlayt neɣ ad tebduḍ attekki.
 want-dataset-update = Tebɣiḍ ileqman ticki nessuffeɣ-d lqem amaynut n tegrumma n yisefka Common Voice? Jerred ɣer tebrat-nneɣ n yisallen.
 subscribe = Jerred
 get-started-speech = Bdu s uɛqal n taɣect
