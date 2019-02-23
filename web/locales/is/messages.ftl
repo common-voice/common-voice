@@ -184,10 +184,13 @@ x-years-short =
 help-make-dataset = Hjálpaðu okkur að byggja upp hágæða gagnasafn handa almenningi.
 profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
 sign-up-account = Búa til aðgang
+email-subscription-title = skráðu þig fyrir fréttum með tölvupósti
 
 ## Account Benefits
 
 benefits = Kostir
+rich-data = Gerðu þau gögn sem þú leggur til nytsamlegri með því að bæta við nafnlausum lýðfræðilegum upplýsingum. Allar slíkar upplýsingar eru sneiddar persónueinkennandi atriðum fyrir opinbera útgáfu.
+improve-audio = Prófílgögn hjálpa til við að þjálfa nákvæmari raddgreiningu.
 keep-track = Fylgstu með eigin framvindu og tölur um þátttöku í mörgum tungumálum.
 compare-progress = Berðu saman framvindu þína við aðra þátttakendur víðsvegar um heiminn.
 view-goals = Skoðaðu hvernig miðast í átt að verkefnismarkmiðum og persónuleg markmiðum.
@@ -339,6 +342,8 @@ glossary = Orðaskýringar
 localization = Staðfærsla
 sentence-collection = Setningaforði
 sentence-collection-explanation = Söfnun á almennum setningum eða að skrifa nýjar fyrir almenning.
+de-identified = Einkennissneiðing
+de-identified-explanation = Það þegar tengsl prófílgagna þátttakanda við hljóðgögnin sem hann lagði til eru falin, áður en þau eru undirbúin til niðurhals sem hluti af málheild.
 
 ## NotFound
 
@@ -376,6 +381,9 @@ review-delete-recordings = Eyða upptökum
 
 ## New Datasets Page
 
+language = Tungumál
+# File size in gigabytes
+size = Stærð
 common-voice-info = Hefurðu spurningar um Samróm? Taktu þátt í <discourseLink>Discourse spjallborðinu</discourseLink>.
 data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
 data-other-ted-name = TED-LIUM textasafn
@@ -384,6 +392,7 @@ data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum
 data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
 your-feedback = Ertu með hugmyndir um hvernig mætti bæta Samróms-gagnasafnið? Láttu okkur vita á Discourse
 go-discourse = Fara á Discourse
+ready-to-validate = Tilbúin(n) til að hjálpa okkur að staðfesta setningar?
 
 ## Download Modal
 
