@@ -342,6 +342,8 @@ glossary = Orðaskýringar
 localization = Staðfærsla
 sentence-collection = Setningaforði
 sentence-collection-explanation = Söfnun á almennum setningum eða að skrifa nýjar fyrir almenning.
+sst = Tal-í-texta (TÍT)
+sst-explanation = Tal-í-texta (TÍT) er tækni sem breytir raddupptökum í texta.
 de-identified = Einkennissneiðing
 de-identified-explanation = Það þegar tengsl prófílgagna þátttakanda við hljóðgögnin sem hann lagði til eru falin, áður en þau eru undirbúin til niðurhals sem hluti af málheild.
 
@@ -384,6 +386,24 @@ review-delete-recordings = Eyða upptökum
 language = Tungumál
 # File size in gigabytes
 size = Stærð
+validated-hr-total = Staðfestar klst.
+overall-hr-total = Heildarfjöldi klst.
+cv-license = Leyfi
+audio-format = Hljóðsnið
+number-of-voices = Fjöldi radda
+splits = Skiptingar
+email-to-download = Sláðu inn tölvupóst til að hala niður
+why-email = <b>Af hverju tölvupóst?</b> Við gætum þurft að hafa samband við þig síðar vegna breytinga á málheildinni, og tölvupóstur veitir okkur leið til þess.
+confirm-size = Þú getur nú hafið niðurhal að stærð <b>{ $size }</b>.
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í málheild Samóms.
+download-language = Hala niður { $language }
+validated-hours = Staðfestar klukkustundir
+recorded-hours = Uppteknar klukkustundir
+whats-inside = Hvað er í málheild Samróms?
+subscribe = Gerast áskrifandi
+other-datasets = Aðrar málheildir
 common-voice-info = Hefurðu spurningar um Samróm? Taktu þátt í <discourseLink>Discourse spjallborðinu</discourseLink>.
 data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
 data-other-ted-name = TED-LIUM textasafn
@@ -392,6 +412,7 @@ data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum
 data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
 your-feedback = Ertu með hugmyndir um hvernig mætti bæta Samróms-gagnasafnið? Láttu okkur vita á Discourse
 go-discourse = Fara á Discourse
+go-languages-page = Fara á tungumálasíðu
 ready-to-validate = Tilbúin(n) til að hjálpa okkur að staðfesta setningar?
 
 ## Download Modal
