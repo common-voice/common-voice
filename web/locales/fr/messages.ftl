@@ -184,6 +184,7 @@ x-years-short =
 help-make-dataset = Aidez-nous à constituer une base de données libre et publique de haute qualité
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 sign-up-account = Créer un compte
+email-subscription-title = Recevez des informations par courriel
 
 ## Account Benefits
 
@@ -412,6 +413,12 @@ review-delete-recordings = Supprimer les enregistrements
 ## New Datasets Page
 
 datasets-headline = Nous créons un jeu de données vocales open source et multilingue que tout le monde peut utiliser pour entraîner des applications utilisant la voix.
+datasets-positioning =
+    Nous pensons que mettre de grands jeux de données à la disposition de tout le monde favorise l’innovation et une concurrence saine pour les technologies utilisant la voix et basées sur l’apprentissage automatique.
+    
+    Le jeu de données multilingue Common Voice est déjà le plus grand jeu de données vocales disponible de ce type, mais ce n’est pas le seul.
+    
+    Cette page de référence liste d’autres jeux de données open source et, au fur et à mesure que le projet Common Voice continuera d’évoluer, cette page proposera aussi nos prochaines mises à jour.
 language = Langue
 # File size in gigabytes
 size = Taille
@@ -435,9 +442,12 @@ dataset-description-hours =
     Chaque entrée du jeu de données consiste en un seul fichier MP3 accompagné d’un fichier du texte correspondant. Une grande partie des <b>{ $total }</b> heures enregistrées dans le jeu de données comprennent également des métadonnées démographiques, telles que l’âge, le sexe et l’accent, qui peuvent contribuer à améliorer la précision des moteurs de reconnaissance vocale.
     
     Le jeu de données contient actuellement <b>{ $valid }</b> heures validées dans <b>{ $languages }</b> langues, mais nous ajoutons en permanence plus de voix et de langues. Jetez un œil à la <languagesLink>page des langues</languagesLink> pour demander une langue ou commencer à contribuer.
+want-dataset-update = Vous souhaitez être informé·e lorsque nous publions une nouvelle version du jeu de données Common Voice ? Inscrivez-vous à notre lettre d’information.
 subscribe = S’abonner
 get-started-speech = S’initier à la reconnaissance vocale
+other-datasets = Autres jeux de données vocales
 feedback-q = Vous avez des suggestions ?
+deepspeech-info = Le jeu de données Common Voice est un complément au moteur open source de reconnaissance vocale de Mozilla, Deep Speech, que vous pouvez utiliser pour créer des applications de reconnaissance vocale. Consultez notre <githubLink>aperçu sur GitHub</githubLink> ou rejoignez le <discourseLink>Discourse de DeepSpeech</discourseLink> pour bien commencer.
 common-voice-info = Vous avez des questions à propos de Common Voice ? Rejoignez-nous sur le forum <discourseLink>Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
 data-other-ted-name = Corpus TED-LIUM
@@ -445,6 +455,10 @@ data-other-ted-description = Le corpus TED-LIUM est construit à partir des dial
 data-other-voxforge-description = VoxForge a été construit pour collecter des transcriptions vocales pour les utiliser dans des moteurs de reconnaissance vocale libres.
 data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits audio destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
 your-feedback = Vous avez des idées pour améliorer le jeu de données Common Voice ? Faites-le-nous savoir sur Discourse
+go-discourse = Aller sur Discourse
+missing-language = Votre langue ne fait pas partie du jeu de données ? Pour demander l’ajout d’une nouvelle langue, rendez-vous sur notre page des langues.
+go-languages-page = Aller sur la page des langues
+ready-to-validate = Prêt·e à nous aider à valider des phrases ?
 
 ## Download Modal
 
