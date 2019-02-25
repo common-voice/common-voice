@@ -160,12 +160,14 @@ button.card-action:focus.focus-visible path {
     }
 
     & .checkmark {
+        width: 100%;
         display: none;
         position: absolute;
-        left: -2px;
-        top: -8px;
-        font-size: 19px;
-        color: var(--near-black);
+        top: -7px;
+
+        & path {
+            fill: var(--near-black);
+        }
     }
 
     & input:checked ~ .checkmark {

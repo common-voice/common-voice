@@ -1,8 +1,9 @@
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { HTMLProps, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { LocaleLink } from '../locale-helpers';
-import { Localized } from 'fluent-react/compat';
+import { CheckIcon } from './icons';
 
 export const Avatar = ({ url }: { url?: string }) => (
   <div className="avatar-wrap">
@@ -50,7 +51,7 @@ export const LabeledCheckbox = React.forwardRef(
     <label className="labeled-checkbox" style={style}>
       <span className="checkbox-container">
         <input ref={ref} type="checkbox" {...props} />
-        <span className="checkmark">✖</span>
+        <CheckIcon className="checkmark" />
       </span>
       <span className="label">{label}</span>
     </label>

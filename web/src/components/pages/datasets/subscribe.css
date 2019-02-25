@@ -108,8 +108,8 @@
             border-radius: 2px;
         }
 
-        & .checkmark {
-            color: #f9f9f8;
+        & .checkmark path {
+            fill: #f9f9f8;
         }
     }
 }
