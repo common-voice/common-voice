@@ -17,8 +17,11 @@ indicates-required = * の付いた項目は入力必須です
 
 ## Languages
 
+ab = アブハズ語
 ace = アチェ語
+ady = アディゲ語
 af = アフリカーンス語
+am = アムハラ語
 an = アラゴン語
 ar = アラビア語
 as = アッサム語
@@ -37,6 +40,7 @@ cy = ウェールズ語
 da = デンマーク語
 de = ドイツ語
 dsb = 低地ソルブ語
+dv = ディベヒ語
 el = ギリシャ語
 en = 英語
 eo = エスペラント語
@@ -50,6 +54,7 @@ fr = フランス語
 fy-NL = フリジア語
 ga-IE = アイルランド語
 he = ヘブライ語
+hr = クロアチア語
 hsb = 高地ソルブ語
 hu = ハンガリー語
 ia = インターリングア
@@ -65,8 +70,10 @@ kpv = コミ・ジリエーン語
 kw = コーンウォール語
 ky = キルギス語
 mdf = モクシャ語
+mhr = 牧地マリ語
 mk = マケドニア語
 mn = モンゴル語
+mrj = 山地マリ語
 myv = エルジャ語
 nb-NO = ノルウェー語 (ブークモール)
 ne-NP = ネパール語
@@ -79,6 +86,7 @@ pt-BR = ポルトガル語 (ブラジル)
 rm-sursilv = ロマンシュ語 (Sursilvan)
 ro = ルーマニア語
 ru = ロシア語
+rw = ルワンダ語
 sah = サハ語
 sc = サルデーニャ語
 sk = スロバキア語
@@ -91,10 +99,13 @@ te = テルグ語
 th = タイ語
 tr = トルコ語
 tt = タタール語
+uby = ウビフ語
+udm = ウドムルト語
 uk = ウクライナ語
 ur = ウルドゥー語
 uz = ウズベク語
 vi = ベトナム語
+vot = ヴォート語
 zh-CN = 中国語 (中国)
 zh-HK = 中国語 (香港)
 zh-TW = 中国語 (台湾)
@@ -128,7 +139,7 @@ home-title = Common Voiceプロジェクトは機械が人の話を理解でき�
 home-cta = あなたの声で貢献を始めましょう！
 wall-of-text-start = 音声を使ったコミニケーションは自然で人間的です。人と機械が音声を使ったコミュニケーションができればどれほど素晴らしいでしょうか？この実現にむけて、人々は機械が使える音声技術の開発を行っています。しかし、音声技術の開発には非常に多くの音声データが必要です。
 wall-of-text-more-mobile = 大企業が利用している多くの音声データは一般の人が利用できません。このままでは、音声技術の発展が停滞してしまう。そう考え、誰もが音声技術を利用できるように、Common Voiceプロジェクトを立ち上げました。
-wall-of-text-more-desktop = Common Voiceプロジェクトは誰もが参加または利用できる、オープンな音声データベースです。皆さんの声をデータベースへ登録する事で、このデータベースを使うアプリやwebサービスをよりすばらしいものにできます。<lineBreak></lineBreak>参加は簡単です。文章を読んで、あなたの声をデータベースに登録してください！もしくは、データベースの品質を向上するため、他の人が登録した声をチェックしてしてください！
+wall-of-text-more-desktop = Common Voice プロジェクトは誰もが参加または利用できる、オープンな音声データベースです。皆さんの声をデータベースへ登録する事で、このデータベースを使うアプリやウェブサービスをよりすばらしいものにできます。<lineBreak></lineBreak>参加は簡単です。文章を読んで、あなたの声をデータベースに登録してください！ もしくは、データベースの品質を向上するため、他の人が登録した声をチェックしてしてください！
 wall-of-text-first = 声はありふれていて、人を人たらしめるものです。これは私たちを自分の機械で使える音声技術の開発に駆り立てるには十分な理由です。しかし音声を用いたシステムを開発するには途方もない量の音声データが必要です。
 wall-of-text-second = 大企業の用いるデータのほとんどは大多数の人々が用いることのできない状況にあります。イノベーションを阻害していると思しきこの状況を打破するべく、我々は音声認識をオープンで誰でも使えるようにするためのプロジェクトを立ち上げました。それが Common Voice です。
 show-wall-of-text = 続きを読む
@@ -167,6 +178,7 @@ x-years-short =
 help-make-dataset = 誰でも利用できる高品質なデータセットの構築にご協力ください
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
 sign-up-account = アカウント登録
+email-subscription-title = 最新情報をメールで受け取る
 
 ## Account Benefits
 
@@ -231,8 +243,10 @@ english = 英語
 
 profile-form-username =
     .label = ユーザー名
-profile-form-language =
-    .label = 言語
+profile-form-native-language =
+    .label = 母国語
+profile-form-additional-language =
+    .label = 追加言語
 profile-form-accent =
     .label = 方言
 profile-form-age =
@@ -292,11 +306,26 @@ change-email-setings = メールアドレスは、設定の「ログイン用ア
 ## FAQ
 
 faq-title = よくある質問
+faq-what-cv-q = Common Voice とは？
+faq-why-important-q = なぜ重要なのですか？
+faq-how-get-q = Common Voice のデータはどうやって入手できますか？
+faq-when-release-q = 他の言語の Common Voice データをいつリリースする予定ですか？
+faq-why-mission-q = Common Voice はなぜ Mozilla の使命の一部なのですか？
+faq-what-cv-and-deepspeech-q = Common Voice と Deep Speech の違いは何ですか？
+faq-is-goal-assistant-q = Common Voice の目的は音声アシスタントを構築することですか？
+faq-why-my-lang-q = 私の言語がまだ含まれていないのはなぜですか？
+faq-how-calc-hours-q = Common Voice はどのように時間を計算しますか？
+faq-where-src-from-2-q = 原文の出典はどこですか？
+faq-why-account-q = アカウント登録する必要があるのはなぜですか？
+faq-is-account-public-q = 私のアカウント情報は公開されていますか？
 
 ## Glossary
 
 glossary = 用語集
 localization = ローカライズ
+sentence-collection = 文章コレクション
+sentence-collection-explanation = パブリックドメインの文章を集めるか、パブリックドメインの文章として新たに書き起こします。
+sst = 音声合成（STT）
 
 ## NotFound
 
@@ -316,11 +345,6 @@ data-get-started = <speechBlogLink>音声認識をはじめる</speechBlogLink>
 data-other-title = その他の音声データセット...
 data-other-goto = { $name } へ行く
 data-other-download = データのダウンロード
-data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
-data-other-ted-name = TED-LIUM コーパス
-data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
-data-other-voxforge-description = VoxForge はフリーかつオープンソースの音声認識エンジンのために、ユーザが読み上げた音声を収集しています。
-data-other-tatoeba-description = Tatoeba は言語学習のための大量の文章、翻訳、音声のデータセットです。Tatoeba のコミュニティによって録音された、英語の音声がダウンロードできます。
 data-bundle-button = データセットをまとめてダウンロード
 data-bundle-description = Common Voice のデータと、上記のその他のデータセットをすべて含みます。
 license = ライセンス：<licenseLink>{ $license }</licenseLink>
@@ -336,6 +360,26 @@ review-rerecord = 再録音
 review-cancel = 提出をキャンセル
 review-keep-recordings = 録音を保持
 review-delete-recordings = 録音を削除
+
+## New Datasets Page
+
+language = 言語
+# File size in gigabytes
+size = サイズ
+validated-hr-total = 検証された時間合計
+overall-hr-total = 全体の時間合計
+cv-license = ライセンス
+size-gigabyte = GB
+size-megabyte = MB
+validated-hours = 検証された時間
+recorded-hours = 録音された時間
+data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
+data-other-ted-name = TED-LIUM コーパス
+data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
+data-other-voxforge-description = VoxForge はフリーかつオープンソースの音声認識エンジンのために、ユーザが読み上げた音声を収集しています。
+data-other-tatoeba-description = Tatoeba は言語学習のための大量の文章、翻訳、音声のデータセットです。Tatoeba のコミュニティによって録音された、英語の音声がダウンロードできます。
+go-languages-page = 言語選択ページへ移動
+ready-to-validate = 文章の検証を手伝う準備はできましたか？
 
 ## Download Modal
 
