@@ -369,10 +369,16 @@ size = サイズ
 validated-hr-total = 検証された時間合計
 overall-hr-total = 全体の時間合計
 cv-license = ライセンス
+splits = 分割
+email-to-download = ダウンロードを案内するメールアドレスを入力
+why-email = <b>なぜメールアドレスが必要なのですか？</b> データセットの変更について、将来的に連絡が必要になる場合があります。その連絡のためのメールアドレスをお知らせください。
+confirm-size = <b> { $size } </b>のダウンロードを開始する準備が整いました
 size-gigabyte = GB
 size-megabyte = MB
+download-language = { $language } をダウンロード
 validated-hours = 検証された時間
 recorded-hours = 録音された時間
+whats-inside = Common Voice データセットの中身は？
 data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
 data-other-ted-name = TED-LIUM コーパス
 data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
@@ -494,6 +500,7 @@ validations =
 ## Dashboard
 
 your-languages = あなたの言語
+toward-next-goal = 次の目標に向けて
 clips-you-recorded = 音声の録音件数
 clips-you-validated = 音声の検証件数
 todays-recorded-progress = 今日の Common Voice に録音された数
@@ -501,9 +508,11 @@ todays-validated-progress = 今日の Common Voice で検証された数
 stats = 活動状況
 you = 自分
 everyone = 全員
+contribution-activity = 貢献活動
 top-contributors = 上位の貢献者
 recorded-clips = 録音件数
 validated-clips = 検証件数
+total-approved = 承認された合計時間
 overall-accuracy = 全体の精度
 
 ## Profile Delete
