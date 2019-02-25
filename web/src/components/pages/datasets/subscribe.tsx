@@ -46,13 +46,21 @@ class Subscribe extends React.Component<Props, State> {
     event.preventDefault();
     const { account, api, addNotification } = this.props;
     this.setState({ submitStatus: 'submitting' });
-    await api.subscribeToNewsletter(account ? account.email : this.state.email);
-    addNotification(
-      <Localized id="profile-form-submit-saved">
-        <span />
-      </Localized>
-    );
-    this.setState({ submitStatus: 'submitted' });
+    try {
+      await api.subscribeToNewsletter(
+        account ? account.email : this.state.email
+      );
+      addNotification(
+        <Localized id="profile-form-submit-saved">
+          <span />
+        </Localized>
+      );
+      this.setState({ submitStatus: 'submitted' });
+    } catch (e) {
+      addNotification('Subscription failed', 'error');
+      console.error(e);
+      this.setState({ submitStatus: null });
+    }
   };
 
   render() {
@@ -63,7 +71,7 @@ class Subscribe extends React.Component<Props, State> {
     const privacyAgreed = account || this.state.privacyAgreed;
     const emailInput = this.emailInputRef.current;
 
-    if (account && account.basket_token) {
+    if ((account && account.basket_token) || submitStatus == 'submitted') {
       return null;
     }
 
