@@ -452,7 +452,9 @@ request-language-success-content = Velmi brzy vám dáme vědět, jak můžete p
 ## Languages Overview
 
 language-section-in-progress = Spouští se
+language-section-in-progress-description = Jazyky, které se spouští, jsou v současné době připravovány našimi komunitami; jejich postup reflektuje, jak jsou daleko v lokalizaci webu a sbírání vět.
 language-section-launched = Spuštěno
+language-section-launched-new-description = Web těchto spuštěných jazyků byl úspěšně přeložen a bylo sesbíráno dostatečné množství vět, takže je možné přispívat <italic>Nahráváním</italic> a <italic>Kontrolou</italic>.
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-speakers = Mluvčí
@@ -473,6 +475,8 @@ contribute = Přispět
 listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
+clips-with-count = <bold>{ $count }</bold> nahrávek
+goal-help-recording = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> našeho denního { $goalValue } cíle!
 contribute-more =
     { $count ->
         [one] Jste připraveni udělat ještě { $count }?
@@ -528,6 +532,8 @@ recordings =
 
 your-languages = Vaše jazyky
 toward-next-goal = Další cíl
+clips-you-recorded = Nahrávky, které jste nahráli
+clips-you-validated = Nahrávky, které jste ověřili
 stats = Statistiky
 you = Vy
 everyone = Všichni
