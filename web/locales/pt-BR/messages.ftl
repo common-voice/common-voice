@@ -460,6 +460,9 @@ go-discourse = Ir para o Discourse
 missing-language = Não encontra seu idioma refletido no conjunto de dados? Para solicitar um idioma, vá na nossa página de idiomas.
 go-languages-page = Ir para a página de idiomas
 ready-to-validate = Pronto para ajudar a validar frases?
+more = Mais
+close = Fechar
+download = Baixar
 
 ## Download Modal
 
