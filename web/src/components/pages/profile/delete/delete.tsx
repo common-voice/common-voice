@@ -56,7 +56,8 @@ class DeleteProfile extends React.Component<Props, { keep: boolean }> {
             </Localized>
           </div>
         </div>
-        {!keep && (
+        {/* We're disabling this field for now */}
+        {false && !keep && (
           <textarea
             placeholder={this.props.getString('why-delete-recordings')}
             ref={this.textareaRef}
@@ -74,10 +75,8 @@ class DeleteProfile extends React.Component<Props, { keep: boolean }> {
                   encodeURIComponent(
                     (keep
                       ? 'keep my recordings'
-                      : 'remove my recordings, because: ' +
-                        '\n' +
-                        this.textareaRef.current.value) +
-                      '\n' +
+                      : 'remove my recordings, because: ' + '\n') +
+                      /*+ this.textareaRef.current.value*/ '\n' +
                       'email:' +
                       this.props.user.account.email
                   )
