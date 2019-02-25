@@ -460,6 +460,9 @@ go-discourse = Discourse besuchen
 missing-language = Ihre Sprache fehlt noch im Datensatz? Besuchen Sie unsere Sprachen-Seite, um eine Sprache anzufordern
 go-languages-page = Sprachen-Seite besuchen
 ready-to-validate = Sind Sie bereit, um Sätze zu bestätigen?
+more = Mehr
+close = Schließen
+download = Herunterladen
 
 ## Download Modal
 
