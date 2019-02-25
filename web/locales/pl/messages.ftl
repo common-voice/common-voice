@@ -377,6 +377,9 @@ data-other-voxforge-description = VoxForge został stworzony w celu zbierania t
 data-other-tatoeba-description = Tatoeba jest wielką bazą danych zdań, tłumaczeń i mowy do użytku w nauczaniu maszynowym. Ten plik zawiera wszystkie angielskie nagrania mowy stworzone przez ich społeczność.
 go-discourse = Przejdź do serwisu Discourse
 go-languages-page = Przejdź do listy języków
+more = Więcej
+close = Zamknij
+download = Pobierz
 
 ## Download Modal
 
