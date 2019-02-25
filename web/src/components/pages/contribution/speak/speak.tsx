@@ -282,21 +282,25 @@ class SpeakPage extends React.Component<Props, State> {
     if (this.state.recordingStatus === 'waiting') return;
     const isRecording = this.isRecording;
 
+    await this.setState({ recordingStatus: 'waiting' });
+
     if (isRecording) {
       this.saveRecording();
       return;
     }
 
-    try {
-      await this.audio.init();
-      await this.startRecording();
-    } catch (err) {
-      if (err in AudioError) {
-        this.setState({ error: err });
-      } else {
-        throw err;
+    setTimeout(async () => {
+      try {
+        await this.audio.init();
+        await this.startRecording();
+      } catch (err) {
+        if (err in AudioError) {
+          this.setState({ error: err });
+        } else {
+          throw err;
+        }
       }
-    }
+    }, 300);
   };
 
   private startRecording = async () => {
@@ -312,7 +316,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private saveRecording = () => {
-    const RECORD_STOP_DELAY = 500;
+    const RECORD_STOP_DELAY = 300;
     setTimeout(async () => {
       const info = await this.audio.stop();
       this.processRecording(info);
