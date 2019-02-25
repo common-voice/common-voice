@@ -454,6 +454,9 @@ go-discourse = K forumje Discourse
 missing-language = Njenamakaće swoju rěč w datowej sadźbje? Zo byšće swoju rěč požadał, wopytajće našu stronu rěčow.
 go-languages-page = K stronje rěčow
 ready-to-validate = Sće hotowy nam pomhać, sady přepruwować?
+more = Wjace
+close = Začinić
+download = Sćahnyć
 
 ## Download Modal
 
