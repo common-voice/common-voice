@@ -478,6 +478,8 @@ go-discourse = Go to Discourse
 missing-language = Don’t see your language reflected in the Dataset? To request a language head over to our Languages page.
 go-languages-page = Go to Languages Page
 ready-to-validate = Ready to help validate sentences?
+more = More
+close = Close
 
 ## Download Modal
 download-title = Your download has started.

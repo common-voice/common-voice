@@ -68,8 +68,7 @@ const Dataset = React.memo(
               </ul>
             )}
             <div className="buttons">
-              <Localized
-                id={collapsed ? 'languages-show-more' : 'languages-show-less'}>
+              <Localized id={collapsed ? 'more' : 'close'}>
                 <Button
                   onClick={() => setCollapsed(!collapsed)}
                   rounded
