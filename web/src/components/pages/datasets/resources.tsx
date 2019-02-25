@@ -76,7 +76,7 @@ const Dataset = React.memo(
                 />
               </Localized>
               {!collapsed && download && (
-                <Localized id="download-language" $language="">
+                <Localized id="download">
                   <LinkButton
                     rounded
                     outline

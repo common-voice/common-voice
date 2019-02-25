@@ -480,6 +480,7 @@ go-languages-page = Go to Languages Page
 ready-to-validate = Ready to help validate sentences?
 more = More
 close = Close
+download = Download
 
 ## Download Modal
 download-title = Your download has started.
