@@ -463,6 +463,9 @@ go-discourse = Gå till Discourse
 missing-language = Återspeglas inte ditt språk i datamängden? För att begära ett språk, gå till vår språksida.
 go-languages-page = Gå till språksidan
 ready-to-validate = Är du redo för att hjälpa till att validera meningar?
+more = Mer
+close = Stäng
+download = Hämta
 
 ## Download Modal
 
