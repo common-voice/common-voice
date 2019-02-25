@@ -476,7 +476,8 @@ listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
 clips-with-count = <bold>{ $count }</bold> nahrávek
-goal-help-recording = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> našeho denního { $goalValue } cíle!
+goal-help-recording = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> našeho denního { $goalValue } cíle nahrávání!
+goal-help-validation = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> našeho denního { $goalValue } cíle ověřování!
 contribute-more =
     { $count ->
         [one] Jste připraveni udělat ještě { $count }?
@@ -499,7 +500,9 @@ record-three-more-instruction = Ještě tři!
 record-again-instruction = Skvělé! <recordIcon></recordIcon> Nahrajte váš další klip
 record-again-instruction2 = Jen tak dál, pokračujte v nahrávání <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Poslední!
+review-tooltip = Zde zkontrolujte nahrávky a nahrajte je znovu
 unable-speak = Nemůžete teď mluvit?
+review-instruction = Zkontrolujte nahrávky a nahrajte je znovu, pokud to bude potřeba
 clips-uploaded = Nahraných klipů
 record-abort-title = Nechcete napřed dokončit nahrávání?
 record-abort-text = Když nyní odejdete, přijdete o dosavadní postup
@@ -508,7 +511,9 @@ record-abort-continue = Dokončit nahrávání
 record-abort-delete = Odejít a smazat nahrávky
 listen-instruction = { $actionType } <playIcon></playIcon> byla věta nahrána přesně?
 listen-again-instruction = Skvělá práce!<playIcon></playIcon> Až budete připraveni, můžete poslouchat znova
+listen-3rd-time-instruction = 2 máte za sebou, jen tak dál! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Poslední!
+nothing-to-validate = V tomto jazyce nemáme nic ke kontrole, pomozte nám naplnit frontu.
 record-button-label = Nahrajte svůj hlas
 share-title-new = <bold>Pomozte nám</bold> najít další hlasy
 
@@ -527,6 +532,7 @@ recordings =
         [few] Nahrávky
        *[other] Nahrávek
     }
+validations = zkontrolováno
 
 ## Dashboard
 
@@ -534,16 +540,23 @@ your-languages = Vaše jazyky
 toward-next-goal = Další cíl
 clips-you-recorded = Nahrávky, které jste nahráli
 clips-you-validated = Nahrávky, které jste ověřili
+todays-recorded-progress = Dnešní pokrok Common Voice v zaznamenaných nahrávkách
+todays-validated-progress = Dnešní pokrok Common Voice v ověřených nahrávkách
 stats = Statistiky
 you = Vy
 everyone = Všichni
+contribution-activity = Přispěvatelská aktivita
 top-contributors = Nejaktivnější přispěvatelé
+recorded-clips = Zaznamenané nahrávky
+validated-clips = Ověřené nahrávky
 total-approved = Celkem schváleno
 overall-accuracy = Celková přesnost
 
 ## Profile Delete
 
+delete-q = Chcete smazat i vaše nahrávky, nebo je raději ponecháte v datasetu Common Voice?
 keep = Zachovat
 remove = Odebrat
 keep-info = Vaše anonymní hlasové záznamy zůstanou v databázi Common Voice. Po odstranění profilu již nebudete moci zadat žádost o odstranění vašich záznamů z databáze
+remove-info = Posoudíme váš požadavek na smazání vašich nahrávek z datasetu. Pokud ho schválíme, kontaktujeme ty, kteří si dataset stáhli, a požádáme je o smazání vašich nahrávek.
 profile-form-delete = Smazat profil
