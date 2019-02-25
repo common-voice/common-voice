@@ -56,7 +56,6 @@
     }
 
     & button {
-        flex-shrink: 0;
         border-top-right-radius: 2px;
         border-bottom-right-radius: 2px;
         border: 1.6px solid #f9f9f8;
@@ -69,10 +68,6 @@
 
         &:disabled {
             opacity: 0.8;
-
-            & path {
-                fill: #f9f9f8;
-            }
         }
 
         &:hover {
@@ -83,6 +78,10 @@
 
         @media (--md-down) {
             height: auto;
+        }
+
+        @media (--lg-up) {
+            flex-shrink: 0;
         }
 
         & svg {

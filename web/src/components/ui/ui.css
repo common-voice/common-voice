@@ -157,6 +157,7 @@ button.card-action:focus.focus-visible path {
         width: 100%;
         height: 100%;
         appearance: none;
+        visibility: hidden;
     }
 
     & .checkmark {
