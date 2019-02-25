@@ -286,11 +286,13 @@ email-subscriptions = Odběr e-mailových zpráv
 download-profile = Stáhnout má data
 contribution-experience = Zkušenost s přispíváním
 skip-submission-feedback = Přeskočit zpětnou vazbu
+skip-submission-description = Při přispívání bude po klepnutí na Odeslat přeskočena zpětná vazba. Přispívání bude pokračovat rovnou na soubor dalších 5 vět k nahrávání nebo ověření.
 skip-submission-note = Poznámka: Pro změnu druhu vašich příspěvků budete stále muset zvolit mezi Mluvit a Poslouchat.
 off = Vypnuto
 on = Zapnuto
 add-avatar-title = Přidejte avatar na svůj profil
 browse-file-title = Nahrát obrázek
+browse-file = Přetáhněte nebo <browseWrap>Procházejte</browseWrap>
 connect-gravatar = Propojit s Gravatarem
 gravatar_not_found = Pro váš e-mail nebyl nalezen žádný gravatar
 file_too_large = Zvolený soubor je příliš velký
@@ -345,6 +347,8 @@ faq-what-determine-identity-q = Co to znamená že "nelze určit identity" mluv�
 glossary = Slovník
 localization = Lokalizace
 sentence-collection = Sbírka vět
+sst = Převod řeči na text (STT)
+sst-explanation = Technologie převodu řeči na text (STT) převádí hlasová data na text.
 
 ## NotFound
 
@@ -382,20 +386,41 @@ review-delete-recordings = Smazat nahrávky
 
 ## New Datasets Page
 
+language = Jazyk
+# File size in gigabytes
+size = Velikost
 validated-hr-total = Celkem validovaných hodin
 overall-hr-total = Celkový počet hodin
 cv-license = Licence
+audio-format = Zvukový formát
+number-of-voices = Počet hlasů
+splits = Rozdělení
+email-to-download = Pro stažení zadejte svou e-mailovou adresu
+why-email = <b>Proč e-mail?</b> Je možné, že vás budeme potřebovat v budoucnu kontaktovat ohledně změn v datech.
+confirm-size = Jste připraveni stáhnout <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Souhlasíte</b>, že se nebudete pokoušet rozpoznat identitu přispěvatelů v datasetu Common Voice
+download-language = Stáhnout jazyk { $language }
+validated-hours = Ověřené hodiny
+recorded-hours = Nahrané hodiny
 whats-inside = Co je uvnitř datové sady Common Voice?
+subscribe = Odebírat
+get-started-speech = Začínáme s rozpoznáváním řeči
 other-datasets = Ostatní hlasové datasety
 feedback-q = Máte zpětnou vazbu?
+deepspeech-info = Dataset Common Voice doplňuje open source systém Mozilly Deep Speech pro rozpoznávání hlavu, který můžete použít pro tvorbu aplikací rozpoznávajících řeč. Pro začátek si přečtěte naše <githubLink>shrnutí na GitHubu</githubLink> nebo se připojte na <discourseLink>DeepSpeech Discourse</discourseLink>.
+common-voice-info = Máte otázky ohledně Common Voice? Připojte se k nám na našem <discourseLink>Discourse fóru</discourseLink>.
 data-other-librispeech-description = LibriSpeech je korpus přibližně 1 000 hodin 16 kHz čtené angličtiny odvozený od čtených audioknih z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvořen zvukem přednášek a jejich přepisů dostupných na webu TED.
 data-other-voxforge-description = VoxForge byl vytvořen pro sběr přepsaných řečí pro použití ve zdarma dostupných a open-source systémech pro rozpoznávání řeči.
 data-other-tatoeba-description = Tatoeba je rozsáhlá databáze vět, překladů a mluveného slova pro použití při studiu jazyků. Tento obsah obsahuje všechnu mluvenou angličtinu nahranou jejich komunitou.
+your-feedback = Máte nápad, jak zlepšit náš dataset Common Voice? Dejte nám vědět na Discourse
 go-discourse = Přejít na Discourse
+missing-language = Nevidíte váš jazyk v datasetu? Chcete-li požádat o jazyk, přejděte na stránku Jazyky.
+go-languages-page = Přejít na stránku Jazyky
+ready-to-validate = Jste připraveni pomoci s ověřováním vět?
 
 ## Download Modal
 
