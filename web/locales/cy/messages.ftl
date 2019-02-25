@@ -477,6 +477,8 @@ go-discourse = Mynd i Discourse
 missing-language = Ddim yn gweld eich iaith yn y set ddata? I ofyn i'ch iaith gael ei chynnwys ewch i'n tudalen Ieithoedd.
 go-languages-page = Mynd i'r Dudalen Ieithoedd
 ready-to-validate = Yn barod i helpu i ddilysu brawddegau?
+more = Rhagor
+close = Cau
 
 ## Download Modal
 
