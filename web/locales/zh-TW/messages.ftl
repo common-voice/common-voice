@@ -458,6 +458,9 @@ go-discourse = 前往 Discourse
 missing-language = 沒在資料集中看到您的語言？請到語言頁面來要求加入新語言。
 go-languages-page = 前往語言頁面
 ready-to-validate = 準備好要幫助驗證句子了嗎？
+more = 更多
+close = 關閉
+download = 下載
 
 ## Download Modal
 
