@@ -417,6 +417,9 @@ data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in gov
 go-discourse = Pojdi na Discourse
 missing-language = Ne vidite svojega jezika v naboru podatkov? Če želite predlagati jezik, pojdite na stran z jeziki.
 go-languages-page = Pojdi na stran z jeziki
+more = Več
+close = Zapri
+download = Prenesi
 
 ## Download Modal
 
