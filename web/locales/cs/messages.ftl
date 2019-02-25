@@ -174,6 +174,7 @@ x-years-short =
 help-make-dataset = Pomozte nám vytvořit velmi kvalitní a veřejně přístupnou databázi
 profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
 sign-up-account = Vytvořit účet
+email-subscription-title = přihlaste se k odběru novinek
 
 ## Account Benefits
 
@@ -421,6 +422,9 @@ go-discourse = Přejít na Discourse
 missing-language = Nevidíte váš jazyk v datasetu? Chcete-li požádat o jazyk, přejděte na stránku Jazyky.
 go-languages-page = Přejít na stránku Jazyky
 ready-to-validate = Jste připraveni pomoci s ověřováním vět?
+more = Více
+close = Zavřít
+download = Stáhnout
 
 ## Download Modal
 
@@ -559,4 +563,8 @@ keep = Zachovat
 remove = Odebrat
 keep-info = Vaše anonymní hlasové záznamy zůstanou v databázi Common Voice. Po odstranění profilu již nebudete moci zadat žádost o odstranění vašich záznamů z databáze
 remove-info = Posoudíme váš požadavek na smazání vašich nahrávek z datasetu. Pokud ho schválíme, kontaktujeme ty, kteří si dataset stáhli, a požádáme je o smazání vašich nahrávek.
+why-delete-recordings =
+    Nahrávky v Common Voice jsou používány akademiky, malými podniky a fanoušky rozpoznávání hlasu k trénování a rozšiřování veřejně dostupných zdrojů, jako například hlasových modelů.
+    
+    Řeknete nám, proč chcete smazat vaše nahrávky?
 profile-form-delete = Smazat profil
