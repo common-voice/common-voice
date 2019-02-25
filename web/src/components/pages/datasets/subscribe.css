@@ -4,18 +4,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/img/datasets/email-bg.png');
-    background-size: 100% 100%;
     color: var(--white);
 
     @media (--md-down) {
         padding: 30px 20px;
         flex-direction: column;
+        background: url('/img/datasets/email-bg-md.svg');
+        background-size: 100% 100%;
     }
 
     @media (--lg-up) {
         padding: 70px 0;
         flex-direction: row;
+        background: url('/img/datasets/email-bg.png');
+        background-size: 100% 100%;
     }
 
     & h2 {

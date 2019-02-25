@@ -42,12 +42,12 @@
     }
 
     & .intro {
-        background: url('/img/datasets/intro-bg.png');
-        background-size: 100% 100%;
         color: var(--white);
 
         @media (--md-down) {
             padding: 70px 0;
+            background: url('/img/datasets/intro-bg-md.svg');
+            background-size: 100% 100%;
 
             & h1,
             & button,
@@ -75,6 +75,8 @@
                 (100vw - var(--desktop-width)) / 2 + var(--page-margin)
             );
             box-sizing: border-box;
+            background: url('/img/datasets/intro-bg.png');
+            background-size: 100% 100%;
 
             & h1,
             & p {

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="362px" height="322px" viewBox="0 0 362 322" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="232.079647%" y1="271.855403%" x2="61.9726409%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#629FF4" offset="0%"></stop>
+            <stop stop-color="#59CBB7" offset="100%"></stop>
+        </linearGradient>
+        <pattern id="pattern-2" width="18" height="18" x="-17.1227856" y="-17.1577091" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-3" transform="scale(1.5,1.5)"></use>
+        </pattern>
+        <image id="image-3" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAABVJREFUKBVjYBgFoyFAeQj8//9/KwAL+AOz1jOiiwAAAABJRU5ErkJggg=="></image>
+    </defs>
+    <g id="Datasets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg_2" transform="translate(0.000000, -1.000000)">
+            <rect id="4" fill="#4A4A4A" x="1" y="1" width="360" height="322"></rect>
+            <path d="M361,322.924131 L360.983636,244.854172 C320.815189,261.624755 286.055133,288.762537 260.046855,322.924131 L361,322.924131 Z" id="3" fill="url(#linearGradient-1)"></path>
+            <path d="M361.027663,1 L361.027663,9.50487723 C274.687042,49.5516537 198.454742,22.3548764 149.557647,60.5574735 C91.4870675,105.927183 101.463768,155.332754 59.9209688,187.789546 C38.2310163,204.735594 19.8596791,209.034825 0.876835534,214.256426 L1,1 L361.027663,1 Z" id="2" fill="#000000" style="mix-blend-mode: multiply;" opacity="0.200000003"></path>
+            <path d="M0.877214368,106.372926 C62.2398534,94.4290589 113.677959,54.714768 141.579292,0.842290872 L0.877214368,0.842290872 L0.877214368,106.372926 Z" id="1" fill="url(#pattern-2)" fill-rule="nonzero" opacity="0.550000012"></path>
+        </g>
+    </g>
+</svg>

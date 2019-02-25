@@ -23,15 +23,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url('/img/datasets/waves.png');
-        background-size: cover;
 
         @media (--md-down) {
             min-height: 475px;
+            background: url('/img/datasets/waves-md.svg');
+            background-size: cover;
         }
 
         @media (--lg-up) {
             min-height: 520px;
+            background: url('/img/datasets/waves.png');
+            background-size: cover;
 
             & > * {
                 display: flex;
