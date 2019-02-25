@@ -54,6 +54,7 @@ fr = Frânsk
 fy-NL = Frysk
 ga-IE = Iersk
 he = Hebriuwsk
+hr = Kroatysk
 hsb = Boppe-Sorbysk
 hu = Hongaarsk
 ia = Ynterlingua
@@ -85,6 +86,7 @@ pt-BR = Portugeesk (Braziliaansk)
 rm-sursilv = Reto-Romaansk Surselvysk
 ro = Roemeensk
 ru = Russysk
+rw = Kinyarwanda
 sah = Sakha
 sc = Sardyn
 sk = Slowaaksk
@@ -190,6 +192,7 @@ x-years-short =
 help-make-dataset = Help ús in iepenbier tagonklike gegevensset fan hege kwaliteit te bouwen
 profile-not-required = In profyl is net nedich om by te dragen, hoewol it wol nuttich is
 sign-up-account = In account oanmeitsje
+email-subscription-title = skriuw jo yn foar e-mailfernijingen
 
 ## Account Benefits
 
@@ -446,10 +449,10 @@ download-language = { $language } downloade
 validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren
 whats-inside = Wat is de ynhâld fan de Common Voice-gegevensset?
-dataset-description =
-    Elk ûnderdiel yn de gegevensset bestiet út in unyk MP3-bestân en in byhearrend tekstbestân. In protte fan de <b>{ $hours }</b> opnommen oeren yn de gegevensset befetsje ek demografyske metagegevens lykas leeftiid, geslacht en aksint, dy't de sekuerens fan spraakwerkenningsmasinen helpe kinne traine.
+dataset-description-hours =
+    Elk ûnderdiel yn de gegevensset bestiet út in unyk MP3-bestân en in byhearrend tekstbestân. In protte fan de <b>{ $total }</b> opnommen oeren yn de gegevensset befetsje ek demografyske metagegevens lykas leeftyd, geslacht en aksint, dy't de sekuerens fan spraakwerkenningsmasinen helpe kinne te trainen.
     
-    De gegevensset bestiet op dit stuit út <b>{ $hours }</b> falidearre oeren yn <b>{ $languageCount }</b> talen, mar wy foegje trochgeand spraak en talen ta. Sjoch ris op ús <languagesLink>side Talen</languagesLink> om in taal oan te freegjen of in bydrage te leverjen.
+    De gegevensset bestiet op dit stuit út <b>{ $valid }</b> falidearre oeren yn <b>{ $languageCount }</b> talen, mar wy foegje trochgeand spraak en talen ta. Sjoch ris op ú <languagesLink>side Talen</languagesLink> om in taal oan te freegjen of in bydrage te leverjen.
 want-dataset-update = Wolle jo updates wannear wy in nije ferzje fan de Common Voice-gegevensset útbringe? Abonnearje jo dan op ús nijsbrief.
 subscribe = Abonnearje
 get-started-speech = Oan 'e gong mei spraakwerkenning
@@ -467,6 +470,9 @@ go-discourse = Gean nei Discourse
 missing-language = Sjogge jo jo taal net yn de gegevensset reflektearre? Gean nei ús talenside om in taal oan te freegjen.
 go-languages-page = Gean nei talenside
 ready-to-validate = Ree om te helpen sinnen te falidearjen?
+more = Mear
+close = Slute
+download = Downloade
 
 ## Download Modal
 
