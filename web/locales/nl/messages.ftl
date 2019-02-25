@@ -460,6 +460,9 @@ go-discourse = Naar Discourse
 missing-language = Ziet u uw taal niet in de gegevensset? Ga naar onze pagina Talen om een taal aan te vragen.
 go-languages-page = Naar de pagina Talen
 ready-to-validate = Klaar om zinnen te helpen valideren?
+more = Meer
+close = Sluiten
+download = Downloaden
 
 ## Download Modal
 
