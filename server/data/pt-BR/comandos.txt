@@ -1,0 +1,295 @@
+Como está o tempo hoje?
+Vai chover amanhã?
+Quanto mede a Torre Eiffel?
+Qual a altura do Cristo Redentor?
+Quantas pessoas cabem no Maracanã?
+Qual a população de São Paulo?
+Quando joga o Corinthians?
+Que horas abre o MASP?
+Quais filmes estão em cartaz?
+Quem inventou o USB?
+Quanto é 32+89?
+Que horas são em Paris?
+Elenco de Os Vingadores
+Quantos anos tem Silvio Santos?
+Qual é a altura do Neymar?
+Qual é o salário do Neymar?
+Me acorde amanhã
+Me acorde amanhã às 7h da manhã
+Mostre minha agenda
+Converta real para dólar
+Me leve para casa
+Me leve até o bairro da Liberdade
+Quanto tempo até o trabalho?
+Quanto tempo para chegar em casa?
+Você é menino ou menina?
+Você é uma pessoa?
+Onde você nasceu?
+Quem é a sua mãe?
+Você tem namorado?
+Você tem Facebook?
+O que você acha da Cortana?
+Qual é o seu animal favorito?
+De onde você é?
+Me fale sobre você
+Você me ama?
+Casa comigo?
+Como está o trânsito para casa?
+Como está o trânsito para o trabalho?
+Você gosta do seu trabalho?
+Qual a sua comida favorita?
+Do que você tem medo?
+Você me acha bonito?
+Quando é seu aniversário?
+Qual é a sua altura?
+Me conta uma piada
+Vamos jogar um jogo?
+Eu sou o seu pai
+Vou negando as aparências?
+Quem matou Odete Roitman?
+Envie um e-mail para o Marco
+Diga para a Melissa que já estou chegando
+Onde está o Vitor?
+Eu tenho algum e-mail novo?
+Leia a mensagem mais recente do André
+Eu tenho algum voicemail novo?
+Eu tenho alguma mensagem nova da Laura?
+Ligue de novo para meu último número
+Ouvir o voicemail mais recente do Alberto
+Mostre o meu histórico de ligações
+Eu tenho algum e-mail sobre o acampamento?
+Quando a Paula me ligou?
+Lembre disso mais tarde
+Crie uma nova lista chamada Supermercado
+Lembre deste e-mail na sexta ao meio-dia
+Marque o terceiro como concluído
+Adicione o João à minha reunião da quinta
+Como está o resto do meu dia?
+Crie um lembrete para pegar a roupa na lavanderia amanhã
+Crie um alarme para as nove da manhã todas as sextas
+Onde é a minha próxima reunião?
+Quando é minha reunião com a Alba?
+Lembre disso quando eu estiver no carro
+Envie 20 dólares para a Marina pelo Azimo
+Marque uma reunião com o Michel às quatro
+Me lembre de levar o cachorro para passear às sete
+Preciso lembrar de pagar o Fabio amanhã à noite
+Mude meu compromisso das duas para as duas e meia da tarde
+Lembre de ligar pra Nati quando chegar no trabalho
+Preciso acordar às sete amanhã
+Ajuste um timer de cinco minutos
+Adicione alface à minha lista de compras
+Desative todos os meus alarmes
+Anote que eu gastei R$ 10 no almoço
+Leia a minha lista de tarefas
+Toca o álbum 
+Toque músicas parecidas com esta
+Toque a música mais popular do momento
+Baixe o novo álbum do Sam Smith
+Abra o Game Center
+Pular
+Conte uma história
+Toque em ordem aleatória minha playlist Viagem
+Tocar
+Quem canta esta música?
+Cante uma música para mim
+Pause
+Quero ouvir uma versão ao vivo desta música
+Computador, que música é esta?
+Leia um haicai
+Acenda todas as luzes da sala
+Noite de filmes
+Tranque a porta da frente
+Ligue a impressora do escritório
+Boa noite
+Jantar de comemoração
+Ajuste as luzes do andar de baixo para 50%
+Hora da festa!
+Apague a luz do quarto da Ana
+Ajuste a temperatura da casa em Curitiba para 22 graus
+Qual será a temperatura máxima em Natal na quinta-feira?
+Está quente em Salvador agora?
+Qual é o sentido da vida?
+Qual é a relação de preço e lucro da Apple?
+Qual é a altura do El Capitan?
+A que horas é o pôr do sol em Paris?
+Devo levar um guarda-chuva hoje?
+Qual é a população da Jamaica?
+Qual é a temperatura lá fora?
+Como vai estar o tempo amanhã?
+Que horas são em Berlim?
+Quando nasceu a Princesa Isabel?
+ligar todas as luzes.
+apagar todas as luzes.
+ligar a luz da sala.
+você ligou a luz da sala?
+a luz da sala está ligada?
+apagar a luz da sala.
+você apagou a luz da sala?
+a luz da sala está apagada?
+ligar a luz da cozinha.
+você ligou a luz da cozinha?
+a luz da cozinha está ligada?
+apagar a luz da cozinha.
+você apagou a luz da cozinha?
+a luz da cozinha está apagada?
+ligar a luz da varanda.
+você ligou a luz da varanda?
+a luz da varanda está ligada?
+apagar a luz da varanda.
+você apagou a luz da varanda?
+a luz da varanda está apagada?
+ligar a luz da sacada.
+você ligou a luz da sacada?
+a luz da sacada está ligada?
+apagar a luz da sacada.
+você apagou a luz da sacada?
+a luz da sacada está apagada?
+ligar a luz da garagem.
+você ligou a luz da garagem?
+a luz da garagem está ligada?
+apagar a luz da garagem.
+você apagou a luz da garagem?
+a luz da garagem está apagada?
+ligar a luz da area de serviço.
+você ligou a luz da area de serviço?
+a luz da area de serviço está ligada?
+apagar a luz da area de serviço.
+você apagou a luz da area de serviço?
+a luz da area de serviço está apagada?
+ligar a luz da despensa.
+você ligou a luz da despensa?
+a luz da despensa está ligada?
+apagar a luz da despensa.
+você apagou a luz da despensa?
+a luz da despensa está apagada?
+ligar a luz do jardim.
+você ligou a luz do jardim?
+a luz do jardim está ligada?
+apagar a luz do jardim.
+você apagou a luz do jardim?
+a luz do jardim está apagada?
+ligar a luz do quarto.
+você ligou a luz do quarto?
+a luz do quarto está ligada?
+apagar a luz do quarto.
+quais luzes estão acesas?
+quais luzes estão apagadas?
+tem alguma pessoa na sala?
+tem alguém na sala?
+estão todos na sala?
+tem alguma pessoa no quarto?
+tem alguém no quarto?
+estão todos na quarto?
+tem alguma pessoa na sala?
+tem alguém na sala?
+estão todos na sala?
+tem alguma pessoa na cozinha?
+tem alguém na cozinha?
+estão todos na cozinha?
+que horas são?
+que horas são agora?
+que dia é hoje?
+qual data é hoje?
+qual é a data de hoje?
+qual é a data hoje?
+em que ano estamos?
+qual é o ano?
+você pode me dizer que hora é agora?
+diga-me que horas é, por favor?
+você pode me dizer qual é a data de hoje?
+diga-me a data de hoje, por favor?
+que data foi ontem?
+que dia foi ontem?
+qual foi a data de ontem?
+ontem foi que dia?
+qual data foi ontem?
+você pode me dizer qual é a data de ontem?
+diga-me a data de ontem, por favor?
+que dia foi ontem de ontem?
+que data foi ontem de ontem?
+qual foi a data de ontem de ontem?
+qual foi a data antes de ontem?
+qual é a data de ontem de ontem?
+ontem de ontem que data foi?
+que dia é amanhã?
+a data de amanhã, por favor.
+qual será a data de amanhã?
+qual é a data de amanhã?
+que data será amanhã?
+você pode me dizer qual é a data de amanhã?
+diga-me a data de amanhã, por favor.
+qual é a data depois de amanhã?
+que data é depois de amanhã?
+qual será a data depois de amanhã?
+que dia será depois de amanhã?
+hoje é domingo?
+amanhã é domingo?
+depois de amanhã será domingo?
+ontem foi domingo?
+ontem de ontem foi domingo?
+hoje é segunda feira?
+amanhã é segunda feira?
+depois de amanhã será segunda feira?
+ontem foi segunda feira?
+ontem de ontem foi segunda feira?
+hoje é terça feira?
+amanhã é terça feira?
+depois de amanhã será terça feira?
+ontem foi terça feira?
+ontem de ontem foi terça feira?
+hoje é quarta feira?
+amanhã é quarta feira?
+depois de amanhã será quarta feira?
+ontem foi quarta feira?
+ontem de ontem foi quarta feira?
+hoje é quinta feira?
+amanhã é quinta feira?
+depois de amanhã será quinta feira?
+ontem foi quinta feira?
+ontem de ontem foi quinta feira?
+hoje é sexta feira?
+amanhã é sexta feira?
+depois de amanhã será sexta feira?
+ontem foi sexta feira?
+ontem de ontem foi sexta feira?
+hoje é sábado?
+amanhã é sábado?
+depois de amanhã será sábado?
+ontem foi sábado?
+ontem de ontem foi sábado?
+conte-me uma história.
+me conte uma história.
+diga-me uma história.
+você pode me contar uma história?
+você pode contar uma história para mim.
+mais uma por favor.
+outra.
+conte-me outra história por favor.
+conte-me outra história por favor computador.
+você conhece outras histórias.
+outra por favor.
+leia-me uma história por favor.
+conte-me uma pequena história, por favor.
+você poderia me ler uma história?
+leia-me uma história para dormir.
+diga-me uma piada.
+você pode me dizer uma piada?
+você pode me contar uma piada?
+mais uma.
+diga-me outra piada por favor.
+diga-me outra piada computador.
+você conhece outras piadas.
+leia-me uma piada por favor.
+você poderia me ler uma piada.
+por favor me diga uma piada.
+você sabe mais.
+você conhece a branca de neve.
+você conhece a história de branca de neve?
+você conhece a história os três Porquinhos?
+você pode me contar a história de branca de neve?
+você pode me contar a história dos três Porquinhos?
+você poderia me contar a história de branca de neve?
+conte-me uma coisa.
+você pode simplesmente me dizer qualquer coisa.
+a fernanda está em casa?
