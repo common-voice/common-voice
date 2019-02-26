@@ -86,6 +86,7 @@ pt-BR = Portoghese (Brasile)
 rm-sursilv = Romancio sottosilvano
 ro = Rumeno
 ru = Russo
+rw = Kinyarwanda
 sah = Sacha
 sc = Sardo
 sk = Slovacco
@@ -179,6 +180,7 @@ x-years-short =
 help-make-dataset = Aiutaci a realizzare un dataset di alta qualità e aperto
 profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
 sign-up-account = Registrati
+email-subscription-title = Iscriviti agli aggiornamenti via email
 
 ## Account Benefits
 
