@@ -450,6 +450,7 @@ go-discourse = Vai su Discourse
 missing-language = Non trovi la tua lingua nel dataset? Per richiederne una, vai sulla pagina Lingue.
 go-languages-page = Vai sulla pagina Lingue
 ready-to-validate = Sei pronto a convalidare qualche frase?
+more = Altro
 close = Chiudi
 download = Scarica
 
