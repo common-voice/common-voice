@@ -54,6 +54,7 @@ fr = Французча
 fy-NL = Фризча
 ga-IE = Ирландча
 he = Яһүдчә
+hr = Хорватча
 hsb = Сорбча, Югары
 hu = Маҗарча
 ia = Интерлингва
@@ -85,6 +86,7 @@ pt-BR = Португальча
 rm-sursilv = Романш сурсельвча
 ro = Румынча
 ru = Русча
+rw = Киниаруанда
 sah = Сахача
 sc = Сардинчә
 sk = Словакча
@@ -182,6 +184,7 @@ x-years-short =
 help-make-dataset = Безгә югары сыйфатлы, һәркемгә ачык мәгълүмат тупланмасын булдырырга ярдәм итегез
 profile-not-required = Үз өлешеңне кертү өчен профильның булуы мәҗбүри түгел, гәрчә файдалы булса да
 sign-up-account = Аккаунт булдырыр өчен теркәлегез
+email-subscription-title = Электрон почта аша килүче яңалыкларга язылу
 
 ## Account Benefits
 
@@ -391,6 +394,16 @@ review-delete-recordings = Аудиоязмаларымны бетерү
 
 ## New Datasets Page
 
+language = Тел
+# File size in gigabytes
+size = Үлчәм
+validated-hr-total = Тикшерелгән сәгатьләр саны, барлыгы
+overall-hr-total = Сәгать саны, барлыгы
+cv-license = Лицензия
+audio-format = Аудио форматы
+number-of-voices = Тавыш саны
+splits = Бүлемнәр
+email-to-download = Йөкләү өчен эл. почтагызны языгыз
 data-other-librispeech-description = LibriSpeech корпусы — LibriVox проекты кысаларында хасил булган аудиокитаплардан төзелгән, 16kHz ешлыкта яздырылган якынча 1000 сәгатьлек инглиз сөйләменнән гыйбарәт бер корпус.
 data-other-ted-name = «TED-LIUM» корпусы
 data-other-ted-description = «TED-LIUM» корпусы — TED веб-сәхифәсендәге чыгышларның аудиосыннан һәм аларның транскрипциясеннән төзелгән бер җыентык.
