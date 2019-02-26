@@ -69,6 +69,7 @@ ko = korejščina
 kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
+lt = litovščina
 mdf = mokša
 mk = makedonščina
 mn = mongolščina
