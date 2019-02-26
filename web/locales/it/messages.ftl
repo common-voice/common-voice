@@ -430,6 +430,9 @@ download-language = Scarica { $language }
 validated-hours = Ore convalidate
 recorded-hours = Ore registrate
 whats-inside = Che cosa c’è all’interno del dataset di Common Voice?
+dataset-description-hours =
+    Ogni voce nel dataset è composta da un singolo MP3 e dal file di testo corrispondente. Molte delle <b>{ $total }</b> ore registrate nel dataset includono anche metadati demografici come età, sesso e accento, che possono aiutare ad affinare l’accuratezza dei motori di riconoscimento vocale.
+    Il dataset al momento comprende <b>{ $valid }</b> ore convalidate in <b>{ $languages }</b> lingue, ma viene costantemente aggiornato con nuove voci e lingue. Dai un’occhiata alla nostra <languagesLink>pagina delle lingue</languagesLink> per richiedere una nuova lingua o iniziare a collaborare.
 want-dataset-update = Vuoi ricevere aggiornamenti sulle nuove versioni del dataset di Common Voice? Iscriviti alla newsletter.
 subscribe = Iscriviti
 get-started-speech = Inizia con il riconoscimento vocale
@@ -447,6 +450,8 @@ go-discourse = Vai su Discourse
 missing-language = Non trovi la tua lingua nel dataset? Per richiederne una, vai sulla pagina Lingue.
 go-languages-page = Vai sulla pagina Lingue
 ready-to-validate = Sei pronto a convalidare qualche frase?
+close = Chiudi
+download = Scarica
 
 ## Download Modal
 
