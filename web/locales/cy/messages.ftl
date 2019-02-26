@@ -479,6 +479,7 @@ go-languages-page = Mynd i'r Dudalen Ieithoedd
 ready-to-validate = Yn barod i helpu i ddilysu brawddegau?
 more = Rhagor
 close = Cau
+download = Llwytho i Lawr
 
 ## Download Modal
 
