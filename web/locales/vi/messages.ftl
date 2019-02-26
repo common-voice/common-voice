@@ -456,6 +456,9 @@ go-discourse = Đi đến Discourse
 missing-language = Không thấy ngôn ngữ của bạn được phản ánh trong bộ dữ liệu? Để yêu cầu một ngôn ngữ hãy đi đến trang ngôn ngữ của chúng tôi.
 go-languages-page = Đi đến trang ngôn ngữ
 ready-to-validate = Sẵn sàng để giúp xác nhận các câu?
+more = Thêm
+close = Đóng
+download = Tải xuống
 
 ## Download Modal
 
