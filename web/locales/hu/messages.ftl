@@ -61,6 +61,7 @@ ia = Interlingva
 id = Indonéz
 is = Izlandi
 it = Olasz
+izh = Izsór
 ja = Japán
 ka = Grúz
 kab = Kabil
@@ -69,6 +70,7 @@ ko = Koreai
 kpv = Komi-zürjén
 kw = Cornwalli
 ky = Kirgiz
+lt = Litván
 mdf = Moksa
 mhr = Mezei mari
 mk = Macedón
@@ -463,6 +465,9 @@ go-discourse = Ugrás a Discourse-hoz
 missing-language = Nem látja a nyelvét az adatkészletben? Nyelv kéréséhez lépjen a Nyelvek oldalra.
 go-languages-page = Ugrás a Nyelvek oldalra
 ready-to-validate = Készen áll, hogy segítsen a mondatok ellenőrzésében?
+more = Több
+close = Bezárás
+download = Letöltés
 
 ## Download Modal
 
