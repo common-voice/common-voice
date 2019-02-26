@@ -54,6 +54,7 @@ fr = Прансуз
 fy-NL = Фриз
 ga-IE = Ирландса
 he = Иврит
+hr = Хорват
 hsb = Сорб
 hu = Маддяр
 ia = Интерлингуа
@@ -85,6 +86,7 @@ pt-BR = Португал (Бразилия)
 rm-sursilv = Сурселваса Романш
 ro = Румын
 ru = Роч
+rw = Киньяруанда
 sah = Саха
 sc = Сардиниа
 sk = Словак
@@ -330,7 +332,6 @@ data-get-started = Пондыны уджавны Сёрни Гӧгӧрвоан �
 data-other-title = Мукӧд аудио юӧръяс.
 data-other-goto = Мун { $name } вылӧ
 data-other-download = Босьт даннӧйяссӧ
-data-other-ted-name = TED-LIUM корпус
 license = Сёрнитчӧм: <licenseLink>{ $license }</licenseLink>
 license-mixed = Гудралӧм
 terms-agree = Сӧглас.
@@ -347,6 +348,7 @@ language = Кыв
 size = Ыджда
 size-gigabyte = ГБ
 size-megabyte = МБ
+data-other-ted-name = TED-LIUM корпус
 
 ## Download Modal
 
