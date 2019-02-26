@@ -54,12 +54,14 @@ fr = Francojšćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 he = Hebrejšćina
+hr = Chorwatšćina
 hsb = Górnoserbšćina
 hu = Hungoršćina
 ia = Interlingua
 id = Indonešćina
 is = Islandšćina
 it = Italšćina
+izh = Ižoršćina
 ja = Japańšćina
 ka = Georgišćina
 kab = Kabylšćina
@@ -68,6 +70,7 @@ ko = Korejańšćina
 kpv = Komi-syrjeńšćina
 kw = Kornišćina
 ky = Kirgišćina
+lt = Litawšćina
 mdf = Mokša
 mhr = Łucna marišćina
 mk = Makedońšćina
@@ -85,6 +88,7 @@ pt-BR = Portugišćina (Brazilska)
 rm-sursilv = Retoromanišćina (Sursilvan)
 ro = Rumunšćina
 ru = Rušćina
+rw = Kinjarwanda
 sah = Sachašćina
 sc = Sardinišćina
 sk = Słowakšćina
@@ -186,6 +190,7 @@ x-years-short =
 help-make-dataset = Pomagajśo nam, zjawnje pśistupnu wótwórjonu datowu sajźbu wusokeje kwality napóraś
 profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
 sign-up-account = Konto załožyś
+email-subscription-title = Registrěrujśo se za e-mailowe aktualizacije
 
 ## Account Benefits
 
@@ -352,6 +357,7 @@ localization-explanation = To jo naš proces za pśełožowanje a pśiměrjenje 
 sentence-collection = Zběrka sadow
 sentence-collection-explanation = Gromaźenje za wše wužytnych sadow abo pisanje nowych za wšě wužytnych sadow.
 hours-recorded-explanation = Licba dotychměst nagromaźonych nagratych góźinow.
+hours-validated-explanation = Licba góźinow głosowego nagraś, kótarež su se wót 2 z 3 wužywarjow z "Jo" wobkšuśili. To póstup k cełkownemu celoju 10&thinso;000 góźinow markěrujo.
 sst = Powědanje-do-teksta (STT)
 sst-explanation = Technologije Powědanje-do-teksta (STT) głosowe daty to teksta konwertěruju.
 de-identified = Anonymizěrowane
@@ -435,6 +441,9 @@ go-discourse = K forumje Discourse
 missing-language = Njenamakajośo swóju rěc w datowej sajźbje? Aby swóju rěc pominak, woglědajśo se k našomu bokoju rěcow.
 go-languages-page = K bokoju rěcow
 ready-to-validate = Sćo gótowy nam pomagaś, sady pśeglědowaś?
+more = Wěcej
+close = Zacyniś
+download = Ześěgnuś
 
 ## Download Modal
 
