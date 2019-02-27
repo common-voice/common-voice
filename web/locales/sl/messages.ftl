@@ -195,6 +195,7 @@ sign-up-account = Prijavite se za račun
 ## Account Benefits
 
 benefits = Prednosti
+rich-data = Obogatite svoje poslane posnetke s predložitvijo anonimnih demografskih podatkov. Pred objavo bomo vse demografske podatke prikrili.
 improve-audio = Podatki o profilu izboljšajo zvočne podatke, ki se uporabljajo pri natančnosti prepoznavanja govora.
 compare-progress = Primerjajte svoj napredek z drugimi sodelujočimi po vsem svetu.
 view-goals = Spremljajte svoj napredek glede na osebne in projektne cilje.
@@ -335,6 +336,7 @@ faq-what-quality-q = Kolikšna kakovost zvoka je zahtevana za posnetke, da so up
 faq-why-10k-hours-q = Zakaj je 10 000 potrjenih ur na jezik cilj za snemanje zvoka?
 faq-why-10k-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v besedilo potrebuje za učenje.
 faq-how-calc-hours-q = Kako Common Voice računa ure?
+faq-how-calc-hours-a = Ure računamo tako, da ocenimo povprečno dolžino vsakega posnetka in nato to število pomnožimo s skupnim številom posnetkov v vseh jezikih.
 faq-where-src-from-2-q = Od kod prihaja izvorno besedilo?
 faq-why-account-q = Zakaj naj si ustvarim račun?
 faq-is-account-public-q = Ali so podatki o mojem računu javni?
@@ -347,7 +349,10 @@ localization = Lokalizacija
 localization-explanation = Naš postopek prevajanja in prilagajanja vsebine za številne jezike.
 sentence-collection = Zbiranje stavkov
 sentence-collection-explanation = Zbiranje stavkov iz javnih domen ali pisanje novih za javno uporabo.
+hours-recorded-explanation = Število posnetih glasovnih ur, ki smo jih zbrali do sedaj.
 sst = Govor v besedilo (STT)
+de-identified = Prikrito
+de-identified-explanation = Postopek, s katerim so podatki o profilu avtorja prikriti iz njegovih poslanih glasovnih posnetkov, ko so ti pripravljeni za prenos kot del nabora podatkov.
 
 ## NotFound
 
@@ -418,6 +423,7 @@ data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in gov
 go-discourse = Pojdi na Discourse
 missing-language = Ne vidite svojega jezika v naboru podatkov? Če želite predlagati jezik, pojdite na stran z jeziki.
 go-languages-page = Pojdi na stran z jeziki
+ready-to-validate = Ste pripravljeni pomagati potrjevati stavke?
 more = Več
 close = Zapri
 download = Prenesi
