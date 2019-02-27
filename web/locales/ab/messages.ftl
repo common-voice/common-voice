@@ -153,7 +153,7 @@ speak-subtitle = Убжьы ақәырга
 speak-paragraph = Иҭаҩу, абжьы зхоу адыррақәа, ҳара еиқәҳаруаз иаарту аилкаарақәа ирыхәҭакуп, шьоукгьы уи азҿлымҳара иаԥсоу усуп ҳәа ирыԥхьаӡаргьы ҟалоит.
 speak-goal-text = Анҵамҭақәа абжьы рхарҵеит
 listen-subtitle = Уҳацхраа абжьқәа ргәаҭараҿы
-listen-paragraph = Изыцҵоу аҭаҩымҭақәа ргәаҭара даара акрызҵазкуа усуп     ахықәкы анагӡаразы. Аҭаҩымҭақәа урзыӡырҩны, зхаҭабзиара ҳараку, иаарту абыжьқәа раԥҵараҿы ацхыраара ҳауҭа.
+listen-paragraph = Изыцҵоу аҭаҩымҭақәа ргәаҭара даара акрызҵазкуа усуп Азеиԥш Бжьы ахықәкы анагӡаразы. Аҭаҩымҭақәа урзыӡырҩны, зхаҭабзиара ҳараку, иаарту абыжьқәа раԥҵараҿы ацхыраара ҳауҭа.
 listen-goal-text = Анҵамҭақәа гәаҭан
 hours-recorded = Асааҭқәа абжьы рхарҵеит
 hours-validated = Асааҭқәа гәаҭан
@@ -261,7 +261,7 @@ add-language = Абызшәа ацҵара
 ## FAQ
 
 faq-title = Лассы-ласс иурҭо азҵаарақәа
-faq-what-cv-q = Изакәузеи Common Voice?
+faq-what-cv-q = Изакәузеи Азеиԥш Бжьы?
 faq-why-important-q = Изыхадоузеи ари ?
 
 ## Glossary
@@ -278,7 +278,7 @@ notfound-title = ИԤшаам
 
 ## Data
 
-data-download-button = Common Voice адырра ҭагалатәуп
+data-download-button = Азеиԥш Бжьы адырра ҭагалатәуп
 data-download-yes = Ааи
 data-download-deny = Мап
 data-download-license = Алицензиа: <licenseLink>CC-0</licenseLink>
@@ -318,7 +318,7 @@ download-title = Уҭагалара иалагеит.
 download-form-email =
     .label = Уелектронтә ԥошьҭа ҭагал
     .value = Иҭабуп, аимадараҿ ҳаҟоуп.
-download-back = Common Voice Адыррақәа реизга иазыхынҳәтәуп
+download-back = Азеиԥш Бжьы Адыррақәа реизга иазыхынҳәтәуп
 download-no = Мап, иҭабуп
 
 ## Contact Modal
