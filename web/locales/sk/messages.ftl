@@ -54,6 +54,7 @@ fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
 he = hebrejčina
+hr = chorvátčina
 hsb = hornolužická srbčina
 hu = maďarčina
 ia = interlingua
@@ -68,6 +69,7 @@ ko = kórejčina
 kpv = komi-zyriančina
 kw = kornčina
 ky = kirgizština
+lt = litovčina
 mdf = mokša
 mhr = lúčnovýchodná marijčina
 mk = macedónčina
@@ -306,6 +308,8 @@ add-language = Pridať jazyk
 faq-title = Často kladené otázky
 faq-what-cv-q = Čo je Common Voice?
 faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
+faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
+faq-where-src-from-2-q = Odkiaľ pochádza zdrojový text?
 
 ## Glossary
 
@@ -349,6 +353,7 @@ review-delete-recordings = Odstrániť moje nahrávky
 language = Jazyk
 # File size in gigabytes
 size = Veľkosť
+cv-license = Licencia
 size-gigabyte = GB
 size-megabyte = MB
 subscribe = Odoberať
@@ -362,6 +367,9 @@ go-discourse = Prejsť na Discourse
 missing-language = Nevidíte v datasete svoj jazyk? Ak chcete o jazyk požiadať, prejdite na stránku s jazykmi.
 go-languages-page = Prejsť na stránku s jazykmi
 ready-to-validate = Ste pripravení pomôcť s overovaním viet?
+more = Viac
+close = Zavrieť
+download = Prevziať
 
 ## Download Modal
 
