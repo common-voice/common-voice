@@ -406,6 +406,12 @@ audio-format = Аудио форматы
 number-of-voices = Тавыш саны
 splits = Бүлемнәр
 email-to-download = Йөкләү өчен эл. почтагызны языгыз
+size-gigabyte = ГБ
+size-megabyte = МБ
+download-language = { $language } телен йөкләп алу
+validated-hours = Тикшерелгән сәгатьләр
+recorded-hours = Яздырылган сәгатьләр
+whats-inside = Common Voice мәгълүмат тупланмасы эчендә ниләр бар?
 subscribe = Язылу
 get-started-speech = Сөйләм тану системасын ясый башлау
 other-datasets = Башка аудиоязма җыентыклары
@@ -416,6 +422,11 @@ data-other-ted-description = «TED-LIUM» корпусы — TED веб-сәхи
 data-other-voxforge-description = VoxForge ирекле һәм ачык кодлы сөйләм тану системалары өчен транскрипцияләнгән сөйләм җыйнау өчен башлап җибәрелә.
 data-other-tatoeba-description = Tatoeba — җөмләләр, аларның тәрҗемәләреннән һәм укылышларыннан торучы, тел өйрәнүчеләргә тәгаенләнгән зур мәгълүмат базасы. Сез йөкләп алачак файл әлеге проект иреклеләре яздырган барлык инглизчә аудиоларны да үз эченә ала.
 go-discourse = Discourse'ка күчү
+go-languages-page = Телләр битенә күчү
+ready-to-validate = Җөмләләрне тикшерергә әзерме?
+more = Күбрәк
+close = Ябу
+download = Йөкләү
 
 ## Download Modal
 
