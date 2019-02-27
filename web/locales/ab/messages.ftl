@@ -213,6 +213,7 @@ request-language-button = Абызшәа уазҵаа
 
 ## ProjectStatus
 
+status-title = Апроект азеиԥш ҭагылазаашьа: уахәаԥш ԥхьаҟа ҳахьынӡацаз!
 status-contribute = Убжьы ҭаҩ
 english = Англыз
 
