@@ -215,7 +215,15 @@ request-language-button = Абызшәа уазҵаа
 
 status-title = Апроект азеиԥш ҭагылазаашьа: уахәаԥш ԥхьаҟа ҳахьынӡацаз!
 status-contribute = Убжьы ҭаҩ
-english = Англыз
+status-hours =
+    { $hours ->
+        [one] сааҭк макьана игәаҭоуп!
+       *[other] сааҭ макьана игәаҭоуп!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Анаҩстәи ахықәкы: { $goal }
+english = Енглеш
 
 ## ProfileForm
 
@@ -223,6 +231,8 @@ profile-form-username =
     .label = Ахархәаҩ ихьӡ
 profile-form-native-language =
     .label = Ахатәы бызшәа
+profile-form-additional-language =
+    .label = Ахарҭәаагатә бызшәа
 profile-form-accent =
     .label = Ацәажәашьа
 profile-form-age =
