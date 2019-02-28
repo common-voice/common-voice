@@ -145,9 +145,12 @@ toggle-play-tooltip = Spausk { shortcut-play-toggle } įrašui atkurti
 speak-subtitle = Paaukok savo balsą
 speak-paragraph = Balso įrašymas – pamatinė mūsų atvirųjų duomenų kūrimo dalis; kai kurie pasakytų, kad ji ir yra įdomioji.
 listen-subtitle = Padėkite mums patvirtinti balsus
+hours-recorded = Įrašyta valandų
+hours-validated = Patvirtinta valandų
 todays-progress = Šiandienos progresas
 help-reach-goal = Padėkite mums pasiekti { $goal }
-all-locales = VIsos
+read-terms-q = Ar perskaitei mūsų Sąlygas?
+all-locales = VIsos kalbos
 today = Šiandien
 
 ## Account Benefits
