@@ -236,4 +236,10 @@ export default class API {
       { method: 'POST' }
     );
   }
+
+  saveHasDownloaded(email: string): Promise<void> {
+    return this.fetch(this.getLocalePath() + '/downloaders/' + email, {
+      method: 'POST',
+    });
+  }
 }

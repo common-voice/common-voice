@@ -612,4 +612,13 @@ export default class DB {
       [client_id, await getLocaleId(locale)]
     );
   }
+
+  async insertDownloader(locale: string, email: string) {
+    await this.mysql.query(
+      `
+        INSERT IGNORE INTO downloaders (locale_id, email) VALUES (?, ?)
+      `,
+      [await getLocaleId(locale), email]
+    );
+  }
 }

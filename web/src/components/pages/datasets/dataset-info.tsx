@@ -5,6 +5,9 @@ import {
 } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
+import { connect } from 'react-redux';
+import API from '../../../services/api';
+import StateTree from '../../../stores/tree';
 import { ACCENTS, AGES } from '../../../stores/demographics';
 import {
   localeConnector,
@@ -102,7 +105,11 @@ const Splits = ({
   );
 };
 
-type Props = LocalePropsFromState & LocalizationProps;
+interface PropsFromState {
+  api: API;
+}
+
+type Props = LocalePropsFromState & LocalizationProps & PropsFromState;
 
 type State = {
   locale: string;
@@ -134,6 +141,11 @@ class DatasetInfo extends React.Component<Props, State> {
     this.setState({
       [target.name]: target.type === 'checkbox' ? target.checked : target.value,
     } as any);
+  };
+
+  saveHasDownloaded = async () => {
+    const { email, locale } = this.state;
+    await this.props.api.forLocale(locale).saveHasDownloaded(email);
   };
 
   render() {
@@ -270,8 +282,11 @@ class DatasetInfo extends React.Component<Props, State> {
                         ? stats.bundleURLTemplate.replace('{locale}', locale)
                         : null
                     }
+                    onClick={this.saveHasDownloaded}
                     rounded
                     className="download-language"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ minWidth: 300 }}>
                     <Localized
                       id="download-language"
@@ -313,4 +328,10 @@ class DatasetInfo extends React.Component<Props, State> {
   }
 }
 
-export default localeConnector(withLocalization(DatasetInfo));
+const mapStateToProps = ({ api }: StateTree) => ({
+  api,
+});
+
+export default localeConnector(
+  withLocalization(connect<PropsFromState>(mapStateToProps)(DatasetInfo))
+);

@@ -103,6 +103,8 @@ export default class API {
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
 
+    router.post('/:locale/downloaders/:email', this.insertDownloader);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -276,6 +278,14 @@ export default class API {
     if (!(await UserClient.hasSSO(params.client_id)) && client_id) {
       await UserClient.claimContributions(client_id, [params.client_id]);
     }
+    response.json({});
+  };
+
+  insertDownloader = async (
+    { client_id, params }: Request,
+    response: Response
+  ) => {
+    await this.model.db.insertDownloader(params.locale, params.email);
     response.json({});
   };
 }
