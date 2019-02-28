@@ -104,7 +104,6 @@ module "bundler_bucket" {
   service_name = "${var.service_name}"
   purpose      = "bundler"
   role         = "${module.worker.role}"
-  role_cnt     = "2"
 }
 
 # Add elastic cache (memcache)
