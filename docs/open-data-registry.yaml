@@ -4,7 +4,7 @@ Documentation: https://github.com/mozilla/voice-web/blob/master/docs/corpus_read
 Contact: https://common-voice-slack-invite.herokuapp.com/
 UpdateFrequency: We publish new versions of the dataset for every 500 hours collected for a single language. We may publish more often for smaller languages.
 Tags:
-  - machine learniner
+  - machine learning
   - speech recognition
   - speech synthesis
 License: CC-0 (https://creativecommons.org/publicdomain/zero/1.0/)
