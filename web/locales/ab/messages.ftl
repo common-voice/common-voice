@@ -184,6 +184,7 @@ benefits = Аԥыжәара
 
 ## What's public
 
+recordings-and-locale-public = Иҟауҵаз анҵамҭақәеи излаҟауҵаз абызшәақәеи иагьа ирацәазаргьы зегьы рхы иадырхәар рылшоит.
 
 ## Speak & Listen Shortcuts
 
@@ -209,6 +210,7 @@ shortcut-vote-no = м
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
+request-language-text = Азеиԥш Бжьы аҟны уара убышәа макьана иумбаӡои?
 request-language-button = Абызшәа уазҵаа
 
 ## ProjectStatus
@@ -273,6 +275,7 @@ email-subscriptions = Аилектронтә ԥошьҭа анапаҵаҩрақ
 download-profile = Схаҭаратә дыррақәа рыхҩылаара
 contribution-experience = Азеиԥш Бжьы уареи шәусеицура ахәшьара аҭ.
 skip-submission-feedback = Аусеицура ахәшьараҭара ҭагалоуп.
+skip-submission-description = Азеиԥш Бжьы уареи шәусеицура ахәшьара ҭагалахоит апатҟәыр "Ишьҭуп" уанақәыӷәӷәалак ашьҭахь. Апаҩстәи улагаламҭақәа ирыцуҵар улшоит егьырҭ уанҵамҭақәеи ма зыӡырҩрралеи.
 off = Аҿх
 on = Аҿк
 browse-file-title = Асахьатә фаил иҭагалатәуп
