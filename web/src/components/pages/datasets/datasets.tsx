@@ -10,7 +10,7 @@ import Resources from './resources';
 import './datasets.css';
 
 export default () => (
-  <div className="datasets">
+  <div className="datasets-content">
     <DatasetInfo />
     <Subscribe />
     <Resources />

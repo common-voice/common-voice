@@ -6,7 +6,6 @@
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
 @import url('modal/modal.css');
-@import url('pages/data/data.css');
 @import url('pages/languages/languages.css');
 @import url('pages/languages/get-involved-modal.css');
 @import url('progress-bar/progress-bar.css');
@@ -187,8 +186,7 @@ body:not(.focus) #scroller {
     position: relative;
 }
 
-.profile #content,
-.datasets #content {
+.profile #content {
     margin: 0 auto;
     max-width: var(--old-desktop-width);
 }
