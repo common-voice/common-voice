@@ -1,5 +1,8 @@
 ## General
 
+yes-receive-emails = Taip, siųskite man el. laiškus. Noriu gauti „Common Voice“ projekto naujienas.
+privacy-info = Pažadame tvarkyti jūsų informaciją atsargiai. Daugiau informacijos rasite mūsų <privacyLink>Privatumo pranešime</privacyLink>.
+return-to-cv = Grįžti į „Common Voice“
 email-input =
     .label = El. paštas
 submit-form-action = Pateikti
