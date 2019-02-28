@@ -8,7 +8,7 @@ email-input =
     .label = El. paštas
 submit-form-action = Pateikti
 loading = Įkeliama…
-email-opt-in-privacy = Pasirinkę gauti el. laiškus, jūs sutinkate, kad  „Mozilla“ tvarkytų šią informaciją, kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
+email-opt-in-privacy = Pasirinkęs (-usi) gauti el. laiškus, tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
 indicates-required = * Nurodo privalomą lauką
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -72,6 +72,7 @@ kw = Kornų
 ky = Kirgizų
 lt = Lietuvių
 mdf = Mokšų
+mhr = Pievų marių
 mk = Makedonų
 mn = Mongolų
 mrj = Aukštumų marių
@@ -136,6 +137,7 @@ logout = Atsijungti
 ## Home Page
 
 home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti mokyti įrenginius kaip kalba tikri žmonės.
+home-cta = Kalbėk, prisijunk čia!
 wall-of-text-second = Dauguma didelių kompanijų duomenų nėra prienami plačiajai publikai. Mes manome, jog tai slopina inovacijas, dėl to vykdome „Common Voice“ – projektą, kurio pagalba kalbos atpažinimo technologijos taps atviros ir pasiekiamos visiems.
 show-wall-of-text = Skaityti daugiau
 help-us-title = Padėkite mums patvirtinti sakinius!
@@ -172,6 +174,8 @@ x-years-short =
        *[other] { $count } m.
     }
 help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą duomenų rinkinį
+profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
+email-subscription-title = užsiprenumeruok naujienas el. paštu
 
 ## Account Benefits
 
@@ -259,7 +263,7 @@ contact-form-name =
 ## New Contribution
 
 contribute = Prisidėti
-listen = Klausyti
+listen = Klausyk
 
 ## Goals
 
