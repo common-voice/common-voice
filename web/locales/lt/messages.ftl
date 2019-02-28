@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Taip, siųskite man el. laiškus. Noriu gauti „Common Voice“ projekto naujienas.
+stayintouch = Mes „Mozilloje“ buriame balso technologijų bendruomenę. Norėtume su jumis dalintis naujienomis ir duomenų šaltiniais bei sužinoti, kaip tau seksis naudotis mūsų duomenimis.
 privacy-info = Pažadame tvarkyti tavo informaciją atsargiai. Daugiau informacijos rasi mūsų <privacyLink>Privatumo pranešime</privacyLink>.
 return-to-cv = Grįžti į „Common Voice“
 email-input =
@@ -152,6 +153,25 @@ help-reach-goal = Padėkite mums pasiekti { $goal }
 read-terms-q = Ar perskaitei mūsų Sąlygas?
 all-locales = VIsos kalbos
 today = Šiandien
+x-weeks-short =
+    { $count ->
+        [one] { $count } sav.
+        [few] { $count } sav.
+       *[other] { $count } sav.
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } mėn.
+        [few] { $count } mėn.
+       *[other] { $count } mėn.
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } m.
+        [few] { $count } m.
+       *[other] { $count } m.
+    }
+help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą duomenų rinkinį
 
 ## Account Benefits
 
