@@ -135,10 +135,14 @@ logout = Atsijungti
 ## Home Page
 
 home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti mokyti įrenginius kaip kalba tikri žmonės.
+wall-of-text-second = Dauguma didelių kompanijų duomenų nėra prienami plačiajai publikai. Mes manome, jog tai slopina inovacijas, dėl to vykdome „Common Voice“ – projektą, kurio pagalba kalbos atpažinimo technologijos taps atviros ir pasiekiamos visiems.
 show-wall-of-text = Skaityti daugiau
 help-us-title = Padėkite mums patvirtinti sakinius!
+help-us-explain = Spustelėk grojimo mygtuką, išklausyk įrašą ir atsakyk: ar diktorius tiksliai perskaitė žemiau esantį sakinį?
 vote-yes = Taip
 vote-no = Ne
+toggle-play-tooltip = Spausk { shortcut-play-toggle } įrašui atkurti
+speak-subtitle = Paaukok savo balsą
 listen-subtitle = Padėkite mums patvirtinti balsus
 todays-progress = Šiandienos progresas
 help-reach-goal = Padėkite mums pasiekti { $goal }
