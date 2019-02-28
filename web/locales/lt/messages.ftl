@@ -143,9 +143,11 @@ vote-yes = Taip
 vote-no = Ne
 toggle-play-tooltip = Spausk { shortcut-play-toggle } įrašui atkurti
 speak-subtitle = Paaukok savo balsą
+speak-paragraph = Balso įrašymas – pamatinė mūsų atvirųjų duomenų kūrimo dalis; kai kurie pasakytų, kad ji ir yra įdomioji.
 listen-subtitle = Padėkite mums patvirtinti balsus
 todays-progress = Šiandienos progresas
 help-reach-goal = Padėkite mums pasiekti { $goal }
+all-locales = VIsos
 today = Šiandien
 
 ## Account Benefits
@@ -160,9 +162,18 @@ benefits = Privalumai
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = t
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 
 ## ProjectStatus
 
