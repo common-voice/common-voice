@@ -195,7 +195,7 @@ export default class DB {
       FROM (
         SELECT *
         FROM clips
-        WHERE needs_votes AND locale_id = ? AND client_id <> ? AND NOT EXISTS(
+        WHERE is_valid IS NULL AND locale_id = ? AND client_id <> ? AND NOT EXISTS(
           SELECT *
           FROM votes
           WHERE votes.clip_id = clips.id AND client_id = ?
@@ -230,29 +230,34 @@ export default class DB {
     `,
       [id, client_id, is_valid ? 1 : 0]
     );
-    const [[row]] = await this.mysql.query(
-      `
-       SELECT
-         COALESCE(SUM(votes.is_valid), 0)     AS upvotes_count,
-         COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
-       FROM clips
-         LEFT JOIN votes ON clips.id = votes.clip_id
-       WHERE clips.id = ?
-       GROUP BY clips.id
-       HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
-      `,
-      [id]
-    );
 
-    if (!row)
-      await this.mysql.query(
-        `
-        UPDATE clips
-        SET needs_votes = FALSE
-        WHERE id = ?
+    await this.mysql.query(
+      `
+        UPDATE clips updated_clips
+        SET is_valid = (
+          SELECT
+            CASE
+              WHEN upvotes_count >= 2 AND upvotes_count > downvotes_count
+                THEN TRUE
+              WHEN downvotes_count >= 2 AND downvotes_count > upvotes_count
+                THEN FALSE
+              ELSE NULL
+              END
+          FROM (
+                 SELECT
+                   clips.id AS id,
+                   COALESCE(SUM(votes.is_valid), 0)     AS upvotes_count,
+                   COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
+                 FROM clips
+                 LEFT JOIN votes ON clips.id = votes.clip_id
+                 WHERE clips.id = ?
+                 GROUP BY clips.id
+               ) t
+        )
+        WHERE updated_clips.id = ?
       `,
-        [id]
-      );
+      [id, id]
+    );
   }
 
   async saveClip({
@@ -307,15 +312,11 @@ export default class DB {
       `
         SELECT locale, COUNT(*) AS count
         FROM (
-         SELECT locales.name AS locale,
-                SUM(votes.is_valid) AS upvotes_count,
-                SUM(NOT votes.is_valid) AS downvotes_count
+         SELECT locales.name AS locale
          FROM clips
-         LEFT JOIN votes ON clips.id = votes.clip_id
          LEFT JOIN locales ON clips.locale_id = locales.id
-         WHERE locales.name IN (?)
+         WHERE locales.name IN (?) AND is_valid
          GROUP BY clips.id
-         HAVING upvotes_count >= 2 AND upvotes_count > downvotes_count
         ) AS valid_clips
         GROUP BY locale
       `,
@@ -369,7 +370,7 @@ export default class DB {
                   SUM(NOT votes.is_valid) AS downvotes_count
                 FROM clips
                 LEFT JOIN votes ON clips.id = votes.clip_id
-                WHERE NOT clips.needs_votes AND (
+                WHERE NOT clips.is_valid IS NULL AND (
                   SELECT created_at
                   FROM votes
                   WHERE votes.clip_id = clips.id
@@ -567,19 +568,26 @@ export default class DB {
     await Promise.all([
       this.mysql.query(
         `
-          UPDATE clips
-          SET needs_votes = id IN (
-            SELECT t.id
+          UPDATE clips updated_clips
+          SET is_valid = (
+            SELECT
+              CASE
+                WHEN upvotes_count >= 2 AND upvotes_count > downvotes_count
+                  THEN TRUE
+                WHEN downvotes_count >= 2 AND downvotes_count > upvotes_count
+                  THEN FALSE
+                ELSE NULL
+              END
             FROM (
               SELECT
-                clips.id,
+                clips.id AS id,
                 COALESCE(SUM(votes.is_valid), 0)     AS upvotes_count,
                 COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
               FROM clips
-                LEFT JOIN votes ON clips.id = votes.clip_id
+              LEFT JOIN votes ON clips.id = votes.clip_id
               GROUP BY clips.id
-              HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
             ) t
+            WHERE t.id = updated_clips.id
           )
         `
       ),
