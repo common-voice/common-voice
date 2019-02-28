@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Taip, siųskite man el. laiškus. Noriu gauti „Common Voice“ projekto naujienas.
-privacy-info = Pažadame tvarkyti jūsų informaciją atsargiai. Daugiau informacijos rasite mūsų <privacyLink>Privatumo pranešime</privacyLink>.
+privacy-info = Pažadame tvarkyti tavo informaciją atsargiai. Daugiau informacijos rasi mūsų <privacyLink>Privatumo pranešime</privacyLink>.
 return-to-cv = Grįžti į „Common Voice“
 email-input =
     .label = El. paštas
@@ -73,23 +73,68 @@ lt = Lietuvių
 mdf = Mokšų
 mk = Makedonų
 mn = Mongolų
+mrj = Aukštumų marių
+myv = Erzių
+nb-NO = Norvegų (bukmolas)
+ne-NP = Nepalų
+nl = Olandų
+nn-NO = Norvegų (naujoji)
+oc = Oksitanų
+or = Orijų
+pl = Lenkų
+pt-BR = Portugalų (Brazilija)
+ro = Rumunų
+ru = Rusų
+rw = Kinjaruanda
+sah = Jakutų
+sc = Sardų
+sk = Slovakų
+sl = Slovėnų
+sq = Albanų
+sr = Serbų
+sv-SE = Švedų
+ta = Tamilų
+te = Telugų
+th = Tajų
+tr = Turkų
+tt = Totorių
+uby = Ubychų
+udm = Udmurtų
+uk = Ukrainiečių
+ur = Urdu
+uz = Uzbekų
+vi = Vietnamiečių
+vot = Vodų
+zh-CN = Kinų (Kinija)
+zh-HK = Kinų (Honkongas)
+zh-TW = Kinų (Taivanas)
 
 # [/]
 
 
 ## Layout
 
+speak = Kalbėk
 speak-now = Kalbėkite dabar
+datasets = Duomenų rinkiniai
 languages = Kalbos
 profile = Profilis
 help = Pagalba
+contact = Susisiekite
 privacy = Privatumas
 terms = Sąlygos
 cookies = Slapukai
 faq = DUK
+content-license-text = Turinys pasiekiamas pagal <licenseLink>„Creative Commons“ licenciją</licenseLink>
+share-title = Padėk mums rasti kitų savanorių, kurie paaukotų savo balsą!
+share-text = Padėk apmokyti kompiuterius, kaip kalba tikri žmonės – paaukok savo balsą adresu { $link }
+link-copied = Saitas nukopijuotas
+back-top = Grįžti į pradžią
+logout = Atsijungti
 
 ## Home Page
 
+home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti mokyti įrenginius kaip kalba tikri žmonės.
 show-wall-of-text = Skaityti daugiau
 help-us-title = Padėkite mums patvirtinti sakinius!
 vote-yes = Taip
