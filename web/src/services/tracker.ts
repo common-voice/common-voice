@@ -41,6 +41,7 @@ export function trackNav(route: string, locale: string) {
 export function trackHome(
   action:
     | 'speak'
+    | 'speak-mars'
     | 'listen'
     | 'read-more'
     | 'metric-locale-change'

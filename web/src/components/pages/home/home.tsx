@@ -228,7 +228,9 @@ function HomePage({ heroes, locale, user }: PropsFromState) {
               render={({ isContributable }: any) =>
                 isContributable ? (
                   <>
-                    <RecordLink onClick={() => trackHome('speak', locale)} />
+                    <RecordLink
+                      onClick={() => trackHome('speak-mars', locale)}
+                    />
                     <Localized id="ready-to-record">
                       <h1 />
                     </Localized>
