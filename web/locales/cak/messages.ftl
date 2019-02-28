@@ -270,6 +270,8 @@ faq-title = Jutaqil taq K'utunïk
 
 ## Glossary
 
+glossary = Choltzij
+localization = K'ojlib'äl:
 
 ## NotFound
 
@@ -307,11 +309,21 @@ review-delete-recordings = Keyuj ri taq nuyakoj
 
 ## New Datasets Page
 
+language = Ch'ab'äl
+# File size in gigabytes
+size = Nimilem
+cv-license = Ya'oj q'ij
+size-gigabyte = GB
+size-megabyte = MB
+subscribe = Tz'ib'anïk b'i'aj
 data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
 data-other-ted-name = TED-LIUM Korpus
 data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
 data-other-voxforge-description = VoxForge xb'an richin yerumöl ri taq pajtzij etz'ib'an richin yekokisaj ri taq Kik'wab'al Etamanel Ch'ab'äl richin Jaqäl B'itz'ib'.
 data-other-tatoeba-description = Tatoeba jun nïm kicholxe'el taq b'ab', taq tzalq'omanem chuqa' taq k'oxom richin ye'okisäx pa kitijoxik ri taq ch'ich'b'äl. Re qasanem re' ruk'wan ronojel ri q'anchi' yakon ruma ri rutinamit.
+more = Ch'aqa' chik
+close = Titz'apïx
+download = Tiqasäx
 
 ## Download Modal
 
@@ -433,4 +445,5 @@ everyone = Ri ch'aqa' chik
 
 ## Profile Delete
 
+remove = Tiyuj
 profile-form-delete = Tiyuj Ruwäch B'i'aj
