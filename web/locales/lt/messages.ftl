@@ -7,6 +7,7 @@ email-input =
     .label = El. paštas
 submit-form-action = Pateikti
 loading = Įkeliama…
+email-opt-in-privacy = Pasirinkę gauti el. laiškus, jūs sutinkate, kad  „Mozilla“ tvarkytų šią informaciją, kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
 indicates-required = * Nurodo privalomą lauką
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
