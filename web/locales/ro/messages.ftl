@@ -54,12 +54,14 @@ fr = Franceză
 fy-NL = Friziană
 ga-IE = Irlandeză
 he = Ebraică
+hr = Croată
 hsb = Sorbenă de sus
 hu = Maghiară
 ia = Interlingua
 id = Indoneziană
 is = Islandeză
 it = Italiană
+izh = Izoriană
 ja = Japoneză
 ka = Georgiană
 kab = Kabilă
@@ -68,6 +70,7 @@ ko = Coreeană
 kpv = Komi-ziriană
 kw = Cornică
 ky = Kirghiză
+lt = Lituaniană
 mdf = Moksha
 mhr = Mari de est
 mk = Macedoneană
@@ -85,6 +88,7 @@ pt-BR = Portugheză (Brazilia)
 rm-sursilv = Retoromană sursilvană
 ro = Română
 ru = Rusă
+rw = Kinyarwanda
 sah = Sakha
 sc = Sardiniană
 sk = Slovacă
@@ -183,6 +187,7 @@ x-years-short =
 help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, liber la dispoziția publicului
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
 sign-up-account = Înscrie-te pentru un cont
+email-subscription-title = Abonează-te la informări prin e-mail
 
 ## Account Benefits
 
@@ -393,11 +398,6 @@ data-get-started = <speechBlogLink>Experimentează recunoașterea vocală</speec
 data-other-title = Alte seturi de date vocale…
 data-other-goto = Mergi la { $name }
 data-other-download = Descarcă datele
-data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de vorbire, codate la 16Khz, în limba engleză, derivate din cărți audio citite, preluate din proiectul LibriVox.
-data-other-ted-name = Corpusul TED-LIUM
-data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile aferente, disponibile pe site-ul TED.
-data-other-voxforge-description = VoxForge a fost configurat să colecteze transcrieri de vorbire pentru utilizarea în motoare de recunoaștere vocală gratuite și cu sursă deschisă.
-data-other-tatoeba-description = Tatoeba este o bază mare de date cu propoziții, traduceri și secvențe audio de limbă vorbită, de folosit la învățarea limbilor. Această descărcare conține secvențe de limba engleză vorbită înregistrate de comunitatea lor.
 data-bundle-button = Descarcă pachetul cu setul de date
 data-bundle-description = Datele Common Voice plus toate celelalte seturi de date de mai sus.
 license = Licență: <licenseLink>{ $license }</licenseLink>
@@ -442,10 +442,30 @@ download-language = Descarcă { $language }
 validated-hours = Ore validate
 recorded-hours = Ore înregistrate
 whats-inside = Ce se găsește în setul de date Common Voice?
-dataset-description =
-    Fiecare intrare din setul de date constă dintr-un MP3 unic și fișierul text corespondent. Multe dintre cele <b>{ $hours }</b> de ore înregistrate din setul de date includ și metadate demografice, precum vârstă, sex și accent, care ajută la antrenarea pentru acuratețe a motoarelor de recunoaștere vocală.
+dataset-description-hours =
+    Fiecare intrare din setul de date constă dintr-un MP3 unic și fișierul text corespondent. Multe dintre cele <b>{ $total }</b> de ore înregistrate din setul de date includ și metadate demografice, precum vârstă, sex și accent, care ajută la antrenarea pentru acuratețe a motoarelor de recunoaștere vocală.
     
-    Setul de date constă în prezent din <b>{ $hours }</b> de ore validate în <b>{ $languageCount }</b> de limbi, dar adăugăm constant mai multe voci și limbi. Aruncă o privire pe <languagesLink>Pagina de limbi</languagesLink> ca să soliciți o limbă sau ca să începi să contribui și tu.
+    Setul de date constă în prezent din <b>{ $valid }</b> de ore validate în <b>{ $languages }</b> de limbi, dar adăugăm constant mai multe voci și limbi. Aruncă o privire pe <languagesLink>Pagina de limbi</languagesLink> ca să soliciți o limbă sau ca să începi să contribui și tu.
+want-dataset-update = Vrei să fii informat(ă) când lansăm o nouă versiune a setului de date Common Voice? Abonează-te la buletinul de știri.
+subscribe = Abonare
+get-started-speech = Familiarizează-te cu recunoașterea vocală
+other-datasets = Alte seturi de date vocale
+feedback-q = Ai sugestii?
+deepspeech-info = Setul de date Common Voice este complementar motorului de recunoaștere vocală Deep Speech cu sursă deschisă de la Mozilla, pe care îl poți folosi pentru a construi aplicații de recunoaștere vocală. Citește <githubLink>Prezentarea generală de pe Github</githubLink> sau intră pe <discourseLink>forumul DeepSpeech Discourse</discourseLink> ca să afli cum să începi.
+common-voice-info = Ai întrebări despre Common Voice? Intră pe <discourseLink>forumul Discourse</discourseLink>.
+data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de vorbire, codate la 16Khz, în limba engleză, derivate din cărți audio citite, preluate din proiectul LibriVox.
+data-other-ted-name = Corpusul TED-LIUM
+data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile aferente, disponibile pe site-ul TED.
+data-other-voxforge-description = VoxForge a fost configurat să colecteze transcrieri de vorbire pentru utilizarea în motoare de recunoaștere vocală gratuite și cu sursă deschisă.
+data-other-tatoeba-description = Tatoeba este o bază mare de date cu propoziții, traduceri și secvențe audio de limbă vorbită, de folosit la învățarea limbilor. Această descărcare conține secvențe de limba engleză vorbită înregistrate de comunitatea lor.
+your-feedback = Ai idei despre cum am putea îmbunătăți setul de date Common Voice? Spune-ne pe forumul Discourse
+go-discourse = Mergi la Discourse
+missing-language = Limba ta nu apare în setul de date? Pentru solicitarea unei limbi, mergi pe pagina noastră de limbi.
+go-languages-page = Mergi la pagina de limbi
+ready-to-validate = Ești gata să ne ajuți să validăm propoziții?
+more = Mai multe
+close = Închide
+download = Descarcă
 
 ## Download Modal
 
