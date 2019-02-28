@@ -166,7 +166,11 @@ export async function importSentences(pool: any) {
 
   print('locales', locales.join(','));
 
-  await Promise.all(locales.map(locale => importLocaleSentences(pool, locale)));
+  await locales.reduce(
+    (promise, locale) =>
+      promise.then(() => importLocaleSentences(pool, locale)),
+    Promise.resolve()
+  );
 
   const [localeCounts] = (await pool.query(
     `
