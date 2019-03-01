@@ -513,9 +513,9 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 ## Languages Overview
 
 language-section-in-progress = Ar y Ffordd
-language-section-in-progress-description = Mae ieithoedd sy'n cael eu datblygu yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
+language-section-in-progress-new-description = Mae'r ieithoedd hyn ar hyn o bryd o dan ddatblygiad cymunedol. Mae'r bariau cynnydd yn nodi pa mor bell y mae pob iaith yn y broses o <localizationGlossaryLink>leoleiddio'u gwefan</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>chasglu brawddegau</sentenceCollectionGlossaryLink>.
 language-section-launched = Ar Gael
-language-section-launched-new-description = Ar gyfer yr ieithoedd hyn sydd ar gael mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae ganddo ddigon o frawddegau wedi'u casglu i ganiatáu ar gyfer cyfraniadau <italic>Siarad</italic> a <italic>Gwrando</italic>.
+language-section-launched-description = Ar gyfer yr ieithoedd sydd wedi'u lansio, mae'r wefan wedi'i <localizationGlossaryLink> leoleiddio'n</ localizationGlossaryLink>llwyddiannus, ac mae ganddo ddigon o <sentenceCollectionGlossaryLink>frawddegau wedi'u casglu</sentenceCollectionGlossaryLink> i ganiatáu cyfraniadau <speakLink>Siarad</speakLink> a <listenLink>Gwrando</ listenLink>.
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-speakers = Siaradwyr
