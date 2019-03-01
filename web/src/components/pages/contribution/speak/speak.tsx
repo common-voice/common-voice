@@ -589,6 +589,11 @@ class SpeakPage extends React.Component<Props, State> {
               label: 'shortcut-record-toggle-label',
               action: this.handleRecordClick,
             },
+            {
+              key: 'shortcut-rerecord-toggle',
+              label: 'shortcut-rerecord-toggle-label',
+              action: this.handleRecordClick,
+            },
           ]}
           type="speak"
         />
