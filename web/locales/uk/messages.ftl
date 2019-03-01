@@ -18,7 +18,9 @@ indicates-required = * поля, обов'язкові для заповненн
 ## Languages
 
 ace = Ачеська
+ady = Адигейська
 af = Африкаанс
+am = Амхарська
 an = Арагонська
 ar = Арабська
 as = Ассамська
@@ -37,6 +39,7 @@ cy = Валлійська
 da = Данська
 de = Німецька
 dsb = Нижньолужицька
+dv = Мальдівська
 el = Грецька
 en = Англійська
 eo = Есперанто
@@ -50,12 +53,14 @@ fr = Французька
 fy-NL = Фризька
 ga-IE = Ірландська
 he = Іврит
+hr = Хорватська
 hsb = Верхньолужицька
 hu = Угорська
 ia = Інтерлінгва
 id = Індонезійська
 is = Ісландська
 it = Італійська
+izh = Іжорська
 ja = Японська
 ka = Грузинська
 kab = Кабільська
@@ -67,6 +72,7 @@ ky = Киргизька
 mdf = Мокшанська
 mk = Македонська
 mn = Монгольська
+mrj = Гірськомарійська
 myv = Ерзянська
 nb-NO = Норвезька Букмол
 ne-NP = Непальська
@@ -79,6 +85,7 @@ pt-BR = Португальська (Бразилія)
 rm-sursilv = Ретороманська сурсільванська
 ro = Румунська
 ru = Російська
+rw = Руандійська
 sah = Якутська
 sc = Сардинська
 sk = Словацька
@@ -91,10 +98,13 @@ te = Телугу
 th = Тайська
 tr = Турецька
 tt = Татарська
+uby = Убихська
+udm = Удмуртська
 uk = Українська
 ur = Урду
 uz = Узбецька
 vi = В’єтнамська
+vot = Водська
 zh-CN = Китайська (Китай)
 zh-HK = Китайська (Гонконг)
 zh-TW = Китайська (Тайвань)
@@ -226,6 +236,7 @@ shortcut-vote-no = н
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = в
 shortcut-record-toggle-label = Записати/Зупинити
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Не можете знайти свою мову в Common Voice?
 request-language-button = Запит нової мови
 
@@ -248,8 +259,10 @@ english = Англійська
 
 profile-form-username =
     .label = Ім’я користувача
-profile-form-language =
-    .label = Мова
+profile-form-native-language =
+    .label = Рідна мова
+profile-form-additional-language =
+    .label = Додаткова мова
 profile-form-accent =
     .label = Акцент
 profile-form-age =
@@ -309,6 +322,9 @@ add-language = Додати мову
 ## FAQ
 
 faq-title = Часті питання
+faq-what-cv-q = Що таке Common Voice?
+faq-why-important-q = Чому це важливо?
+faq-how-get-q = Як я можу одержати дані Common Voice?
 
 ## Glossary
 
@@ -331,11 +347,6 @@ data-get-started = <speechBlogLink>Початок роботи з розпізн
 data-other-title = Інші набори голосових даних…
 data-other-goto = Перейти до { $name }
 data-other-download = Завантажити дані
-data-other-librispeech-description = LibriSpeech є збіркою, що містить приблизно 1000 годин 16 кГц аудіозаписів англійської вимови, отриманих з проекту LibriVox.
-data-other-ted-name = Збірка TED-LIUM
-data-other-ted-description = Збірка TED-LIUM створена з аудіо-розмов та їхніх транскрипцій, доступних на веб-сайті TED.
-data-other-voxforge-description = VoxForge було створено для збирання транскрибованої вимови для використання в засобах розпізнавання мови з відкритим кодом.
-data-other-tatoeba-description = Tatoeba - це велика база даних речень, перекладів та аудіо для використання при вивченні мов. Це завантаження містить записи англійської мови від їхньої спільноти.
 data-bundle-button = Завантажити пакунок наборів даних
 data-bundle-description = Дані Common Voice та всі інші набори голосових даних, зазначених вгорі.
 license = Ліцензія: <licenseLink>{ $license }</licenseLink>
@@ -351,6 +362,14 @@ review-rerecord = Перезаписати
 review-cancel = Скасувати відправлення
 review-keep-recordings = Зберегти записи
 review-delete-recordings = Видалити мої записи
+
+## New Datasets Page
+
+data-other-librispeech-description = LibriSpeech є збіркою, що містить приблизно 1000 годин 16 кГц аудіозаписів англійської вимови, отриманих з проекту LibriVox.
+data-other-ted-name = Збірка TED-LIUM
+data-other-ted-description = Збірка TED-LIUM створена з аудіо-розмов та їхніх транскрипцій, доступних на веб-сайті TED.
+data-other-voxforge-description = VoxForge було створено для збирання транскрибованої вимови для використання в засобах розпізнавання мови з відкритим кодом.
+data-other-tatoeba-description = Tatoeba - це велика база даних речень, перекладів та аудіо для використання при вивченні мов. Це завантаження містить записи англійської мови від їхньої спільноти.
 
 ## Download Modal
 
@@ -382,9 +401,7 @@ request-language-success-content = Ми дуже скоро зв'яжемося 
 ## Languages Overview
 
 language-section-in-progress = В процесі
-language-section-in-progress-description = Дані для мов, що знаходяться в процесі, готуються для включення нашими спільнотами; їхній прогрес відображає їх стан серед локалізації веб-сайту і етапів обробки речень.
 language-section-launched = Запущено
-language-section-launched-new-description = Для цих запущених мов веб-сайт було успішно перекладено і зібрано достатню кількість речень для можливості подальшої допомоги із <italic>Записом</italic> і <italic>Озвученням</italic>.
 languages-show-more = Більше мов
 languages-show-less = Менше мов
 language-speakers = Носіїв
