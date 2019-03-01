@@ -61,6 +61,7 @@ ia = Tutlayt tagraɣlant
 id = Tandunizit
 is = Taṣlandit
 it = Taṭelyanit
+izh = Tizhuryant
 ja = Tajapunit
 ka = Tajyuṛjit
 kab = Taqbaylit
@@ -69,6 +70,7 @@ ko = Takurit
 kpv = Takumt Zyrian
 kw = Takuṛnikt
 ky = Takirgizt
+lt = Talitwaynit
 mdf = Mukca
 mhr = Tamarit n uzaɣar
 mk = Tamasidunit
@@ -147,7 +149,7 @@ help-us-title = Fket-aɣ afus n tallelt akken ad nesseɣbel tifyar!
 help-us-explain = Tekki ɣef tqeffilt "urar", ḥess, tineḍ-aɣ-d ma yella tettwanṭaq-d akken iwata tefyirt-a ukessar!
 no-clips-to-validate = Yettban d akken ulac yakan ikalasen ara tesleḍ deg tutlayt-agi. Muddaɣ-d afus ad nernu kra tura.
 vote-yes = Ih
-vote-no = Ala
+vote-no = Uhu
 toggle-play-tooltip = Tekki ɣef { shortcut-play-toggle } i wakken ad yuɣal ɣer uskar n tɣuri.
 speak-subtitle = Mmud taɣect-ik
 speak-paragraph = Asekles n tukkisin n taɣect yekcem di lebni n tagrumma n yisefka yeldin; llan wid ara d-yinin yelha i zhu.
@@ -457,6 +459,9 @@ go-discourse = Ddu ɣer Discourse
 missing-language = Ur tettwaliḍ ara tutlayt-ik deg tegrumma n yisefka? Akken ad tessutreḍ tutlayt, ddu ɣer usebter-nneɣ n tutlayin.
 go-languages-page = Ddu ɣer usebter n tutlayin
 ready-to-validate = Theggaḍ i usenqed n tefyar?
+more = Ugar
+close = Mdel
+download = Sider
 
 ## Download Modal
 
