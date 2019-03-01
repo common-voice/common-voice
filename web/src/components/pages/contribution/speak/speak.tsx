@@ -320,7 +320,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private saveRecording = () => {
-    const RECORD_STOP_DELAY = 300;
+    const RECORD_STOP_DELAY = 500;
     setTimeout(async () => {
       const info = await this.audio.stop();
       this.processRecording(info);
