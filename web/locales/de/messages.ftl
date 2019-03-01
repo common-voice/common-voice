@@ -229,6 +229,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = a
 shortcut-record-toggle-label = Aufnahme/Abbruch
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Aufzeichnung wiederholen
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
 request-language-button = Anfrage schicken
 
@@ -496,9 +498,9 @@ request-language-success-content = Wir melden uns bald mit weiteren Informatione
 ## Languages Overview
 
 language-section-in-progress = Vorbereitungsphase
-language-section-in-progress-description = Sprachen in der Vorbereitungsphase werden aktuell für die Mitarbeit durch unsere Gemeinschaften vorbereitet, dieser Fortschritt zeigt, wie weit sie bei Übersetzung der Website und Sammlung der Sätze gekommen sind.
+language-section-in-progress-new-description = Diese Sprachen werden derzeit durch die Gemeinschaft entwickelt. Die Fortschrittsbalken zeigen an, wie weit bei den einzelnen Sprachen die <localizationGlossaryLink>Website-Lokalisierung</localizationGlossaryLink> und die <sentenceCollectionGlossaryLink>Sammlung von Sätzen</sentenceCollectionGlossaryLink> umgesetzt wurde.
 language-section-launched = Aufnahmephase
-language-section-launched-new-description = Für diese aktiven Sprachen wurde die Website erfolgreich übersetzt und verfügt über ausreichend gesammelte Sätze, dass laufend über <italic>Sprechen</italic> und <italic>Anhören</italic> mitgearbeitet werden kann.
+language-section-launched-description = Für diese aktiven Sprachen wurde die Website erfolgreich <localizationGlossaryLink>lokalisiert</localizationGlossaryLink>, und es wurden ausreichend <satzCollectionGlossaryLink>Sätze gesammelt</satzCollectionGlossaryLink>, damit weiterhin Beiträge <speakLink>gesprochen</speakLink> und <listenLink>angehört</listenLink> werden können.
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-speakers = Sprecher
