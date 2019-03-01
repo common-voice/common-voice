@@ -205,7 +205,7 @@ join-newsletter = Po želji se lahko pridružite našemu e-poštnemu seznamu za 
 ## What's public
 
 whats-public = Kaj je javno?
-email-not-public = Vašga e-poštnega naslova ne bomo javno objavili.
+email-not-public = Vašega e-poštnega naslova ne bomo javno objavili.
 recordings-and-locale-public = Število posnetkov in jeziki, pri katerih sodelujete, bodo javni.
 username-optin-public = Svoje uporabniško ime lahko nastavite kot javno ali anonimno.
 demographic-deidentified = Po želji dodani demografski podatki (npr. starost, spol, jezik in naglas) so iz vaših poslanih glasovnih podatkov odstranjeni in jih v vašem profilu ne bomo nikoli javno objavili.
