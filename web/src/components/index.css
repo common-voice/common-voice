@@ -66,11 +66,6 @@ a {
     color: var(--black);
 }
 
-a:hover {
-    opacity: 0.8;
-    text-decoration: none !important;
-}
-
 p,
 h1,
 h2,
@@ -82,6 +77,14 @@ h4 {
 
 a:active {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.link {
+    text-decoration: underline;
+
+    &:hover {
+        color: var(--blue);
+    }
 }
 
 button {
@@ -339,10 +342,6 @@ body:not(.focus) #scroller {
     & p {
         margin-bottom: 1rem;
         white-space: pre-line;
-    }
-
-    & a {
-        color: var(--link-color);
     }
 }
 

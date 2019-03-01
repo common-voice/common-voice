@@ -143,6 +143,23 @@ export const Spinner = ({ delayMs }: { delayMs?: number }) => {
 };
 Spinner.defaultProps = { delayMs: 300 };
 
+export const StyledLink = ({
+  blank = false,
+  className,
+  ...props
+}: (
+  | React.HTMLProps<HTMLAnchorElement>
+  | React.ComponentProps<typeof LocaleLink>) & { blank?: boolean }) => {
+  const Component = props.href ? 'a' : LocaleLink;
+  return (
+    <Component
+      className={'link ' + (className || '')}
+      {...(blank ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+      {...props}
+    />
+  );
+};
+
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />
 );

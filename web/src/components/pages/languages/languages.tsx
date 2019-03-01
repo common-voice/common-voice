@@ -5,19 +5,20 @@ import {
 } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import API from '../../../services/api';
 import {
   BaseLanguage,
   InProgressLanguage,
   LaunchedLanguage,
 } from 'common/language-stats';
+import API from '../../../services/api';
 import { NATIVE_NAMES } from '../../../services/localization';
 import { trackLanguages } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
+import URLS from '../../../urls';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
-import { Button, Hr, TextButton } from '../../ui/ui';
+import { Button, Hr, StyledLink, TextButton } from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 
 interface PropsFromState {
@@ -234,6 +235,15 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       query,
     } = this.state;
 
+    const descriptionProps = {
+      localizationGlossaryLink: <StyledLink to={URLS.FAQ + '#localization'} />,
+      sentenceCollectionGlossaryLink: (
+        <StyledLink to={URLS.FAQ + '#sentence-collection'} />
+      ),
+      speakLink: <StyledLink to={URLS.SPEAK} />,
+      listenLink: <StyledLink to={URLS.LISTEN} />,
+    };
+
     const inProgressCountLabel = query ? (
       <span className="count">({filteredInProgress.length})</span>
     ) : (
@@ -325,8 +335,8 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </div>
 
             <Localized
-              id="language-section-launched-new-description"
-              italic={<i />}>
+              id="language-section-launched-description"
+              {...descriptionProps}>
               <p />
             </Localized>
             <ul>
@@ -368,7 +378,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               <Hr />
             </div>
 
-            <Localized id="language-section-in-progress-description">
+            <Localized
+              id="language-section-in-progress-new-description"
+              {...descriptionProps}>
               <p />
             </Localized>
             <ul>

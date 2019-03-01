@@ -145,16 +145,6 @@
     }
 
     & .get-started {
-        & a {
-            text-decoration: underline;
-
-            &:hover {
-                text-decoration: underline !important;
-                color: var(--blue);
-                opacity: 1;
-            }
-        }
-
         & img {
             width: inherit;
         }

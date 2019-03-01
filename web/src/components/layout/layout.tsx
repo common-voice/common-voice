@@ -71,7 +71,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   componentDidMount() {
     this.scroller.addEventListener('scroll', this.handleScroll);
-    this.visitHash(this.props);
+    this.visitHash();
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
@@ -81,11 +81,14 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       // Immediately scrolling up after page change has no effect.
       setTimeout(() => {
         this.scroller.scrollTop = 0;
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth',
-        });
-        this.visitHash(nextProps);
+        if (location.hash) {
+          this.visitHash();
+        } else {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
+        }
       }, 250);
     }
   }
@@ -94,10 +97,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     this.scroller.removeEventListener('scroll', this.handleScroll);
   }
 
-  private visitHash({ location: { hash } }: LayoutProps) {
-    if (hash) {
-      const node = document.querySelector(hash);
-      node && node.scrollIntoView();
+  private visitHash() {
+    if (location.hash) {
+      setTimeout(() => {
+        const node = document.querySelector(location.hash);
+        node && node.scrollIntoView();
+      }, 100);
     }
   }
 

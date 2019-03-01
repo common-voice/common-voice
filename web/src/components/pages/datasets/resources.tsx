@@ -3,7 +3,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { InView } from 'react-intersection-observer';
 import URLS from '../../../urls';
-import { Button, LinkButton } from '../../ui/ui';
+import { Button, LinkButton, StyledLink } from '../../ui/ui';
 import Dots from './dots';
 import datasets from './other-datasets';
 
@@ -14,8 +14,6 @@ const NAV_IDS = {
   other: 'other-datasets',
   feedback: 'feedback',
 };
-
-const A = (props: any) => <a {...props} />;
 
 const Dataset = React.memo(
   ({ color, name, nick, size, url, download, license }: any) => {
@@ -28,13 +26,13 @@ const Dataset = React.memo(
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
           <div className="content">
             <h2>
-              <a href={url} target="_blank" rel="noopener noreferrer">
+              <StyledLink href={url} blank>
                 {name || (
                   <Localized id={'data-other-' + nick + '-name'}>
                     <span />
                   </Localized>
                 )}
-              </a>
+              </StyledLink>
             </h2>
             <Localized id={'data-other-' + nick + '-description'}>
               <p />
@@ -45,7 +43,7 @@ const Dataset = React.memo(
                   [
                     'cv-license',
                     <Localized id={license.name}>
-                      <a href={license.url}>{license.name}</a>
+                      <StyledLink href={license.url}>{license.name}</StyledLink>
                     </Localized>,
                   ],
                   [
@@ -100,7 +98,7 @@ const Section = React.memo(({ name, onChangeIntersection, ...props }: any) => (
       onChangeIntersection(name, width * height);
     }}
     threshold={[0.1, 0.2, 0.3, 0.4, 0.5]}>
-    <A name={name} />
+    <a id={name} />
     <section {...props} />
   </InView>
 ));
@@ -145,17 +143,15 @@ export default React.memo(() => {
               'deepspeech',
               {
                 githubLink: (
-                  <a
+                  <StyledLink
                     href="https://github.com/mozilla/DeepSpeech"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    blank
                   />
                 ),
                 discourseLink: (
-                  <a
+                  <StyledLink
                     href="https://discourse.mozilla.org/c/deep-speech"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    blank
                   />
                 ),
               },
@@ -166,10 +162,9 @@ export default React.memo(() => {
               'discourse',
               {
                 discourseLink: (
-                  <a
+                  <StyledLink
                     href="https://discourse.mozilla.org/c/voice"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    blank
                   />
                 ),
               },

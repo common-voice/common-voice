@@ -510,9 +510,9 @@ request-language-success-content = We will be in touch with more information abo
 
 ## Languages Overview
 language-section-in-progress = In Progress
-language-section-in-progress-description = In progress languages are currently being built for contribution by our communities; their progress reflects where they are across the website localization and sentence collection phases.
+language-section-in-progress-new-description = These languages are currently under community development. The progress bars indicate how far each language is in the process of <localizationGlossaryLink>website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>.
 language-section-launched = Launched
-language-section-launched-new-description = For these launched languages the website has been successfully localized, and has enough sentences collected, to allow for ongoing <italic>Speak</italic> and <italic>Listen</italic> contribution.
+language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 languages-show-more = See More
 languages-show-less = See Less
 language-speakers = Speakers
