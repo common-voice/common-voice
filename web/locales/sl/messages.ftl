@@ -352,7 +352,7 @@ sentence-collection = Zbiranje stavkov
 sentence-collection-explanation = Zbiranje stavkov iz javnih domen ali pisanje novih za javno uporabo.
 hours-recorded-explanation = Število posnetih glasovnih ur, ki smo jih zbrali do sedaj.
 sst = Govor v besedilo (STT)
-de-identified = Prikrito
+de-identified = Prikrivanje
 de-identified-explanation = Postopek, s katerim so podatki o profilu avtorja prikriti iz njegovih poslanih glasovnih posnetkov, ko so ti pripravljeni za prenos kot del nabora podatkov.
 
 ## NotFound
