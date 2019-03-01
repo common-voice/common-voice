@@ -235,6 +235,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = o
 shortcut-record-toggle-label = Natočić/Zastajić
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Waša rěč hišće na Common Voice njeje?
 request-language-button = Rěč požadać
 
@@ -490,9 +491,7 @@ request-language-success-content = Přizjewimy so jara bórze z dalšimi informa
 ## Languages Overview
 
 language-section-in-progress = W přihotowanju
-language-section-in-progress-description = Rěče w přihotowanju so tuchwilu přez naše zhromadźenstwa wuwiwaja; jich postup wotbłyšćuje, na kotrym stawje přełožowanje jich websydła a fazy zběrki sadow su.
 language-section-launched = Startowany
-language-section-launched-new-description = Za tute aktiwizowane rěče je so websydło wuspěšnje přełožiło,  a ma dosć zhromadźenych sadow, zo by zmóžniło stajne sobudźěło přez <italic>rěčenje</italic> a <italic>słuchanje</italic>.
 languages-show-more = Wjace pokazać
 languages-show-less = Mjenje pokazać
 language-speakers = Rěčnicy
