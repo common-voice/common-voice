@@ -19,7 +19,7 @@ We need more soap.
 Do not cross the yellow line.
 Despite years of research, the problem remained intractable.
 Where is my dress?
-The children learned how knit.
+The children learned how to knit.
 The yellow fish swam across the lake.
 Can we please leave now?
 Fedric was unable to find his lucky marble.
@@ -69,7 +69,7 @@ Where are you from?
 What is today?
 We must leave now.
 I spilled coffee on my paper.
-The dog was wagged its tail.
+The dog wagged its tail.
 We must find out how long to run the experiment.
 Why are you doing this?
 It can't possibly be true that we lost.
@@ -313,8 +313,8 @@ The car sold for six thousand three hundred and sixty nine pounds.
 The item costs five euros.
 The item costs five Yen.
 The new highway is expected to cost nine point two four million dollars.
-We are opening the a new location at ten eighty-seven Oak Street.
-You must be at least one hundred and fifty centimeters to ride the ride.
+We are opening a new location at ten eighty-seven Oak Street.
+You must be at least one hundred and fifty centimeters to ride the bike.
 The tallest building in the world is eight hundred twenty nine point eight meters tall.
 Flight four B nine one was delayed due to poor weather.
 We expect more than thirty thousand people to attend.
@@ -329,7 +329,7 @@ Most reports of UFOs have never been verified.
 If you have an issue in the workplace, you are encouraged to contact the HR department.
 The new proposal goes by the acronym WNA.
 Every computer on the Internet has an IP address.
-Do you want to play a game.
+Do you want to play a game?
 What game do you want to play?
 Have you played chess?
 John likes checkers.
