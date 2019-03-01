@@ -165,6 +165,7 @@ x-years-short =
         [one] år
        *[other] { $count } år
     }
+profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 sign-up-account = Opret en konto
 
 ## Account Benefits
