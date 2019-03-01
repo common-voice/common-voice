@@ -5,7 +5,7 @@ stayintouch = Pri Mozilli gradimo skupnost okrog glasovne tehnologije. Z vami bi
 privacy-info = Obljubimo, da bomo z vašimi podatki ravnali skrbno. Preberite več v našem <privacyLink>obvestilu o zasebnosti</privacyLink>.
 return-to-cv = Nazaj na Common Voice
 email-input =
-    .label = Elektronski naslov
+    .label = E-pošta
 submit-form-action = Pošlji
 loading = Nalaganje …
 email-opt-in-privacy = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti<privacyLink>.
@@ -191,6 +191,7 @@ x-years-short =
 help-make-dataset = Pomagajte nam zgraditi kakovosten in javno dostopen nabor podatkov
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 sign-up-account = Prijavite se za račun
+email-subscription-title = prijavite se na e-poštna obvestila
 
 ## Account Benefits
 
