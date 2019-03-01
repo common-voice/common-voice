@@ -220,6 +220,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nagraj/zatrzymaj
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Nagraj ponownie
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
 request-language-button = Poproś o dodanie języka
 
@@ -413,9 +415,7 @@ request-language-success-content = Już niedługo udzielimy więcej informacji o
 ## Languages Overview
 
 language-section-in-progress = W trakcie
-language-section-in-progress-description = Te języki są obecnie przygotowywane do przyjmowania nagrań od naszych społeczności. Ich postęp odzwierciedla poziom etapów lokalizacji witryny i zbierania zdań.
 language-section-launched = Działające
-language-section-launched-new-description = Dla tych języków pomyślnie zlokalizowano witrynę i zebrano wystarczającą liczbę zdań, aby umożliwić <italic>nagrywanie</italic> i <italic>słuchanie</italic>.
 languages-show-more = Więcej
 languages-show-less = Mniej
 language-speakers = Osoby mówiące
