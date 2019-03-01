@@ -47,6 +47,7 @@ fr = Fransk
 fy-NL = Frisisk
 ga-IE = Irsk
 he = Hebraisk
+hr = Kroatisk
 hsb = Øvresorbisk
 hu = Ungarnsk
 ia = Interlingua
@@ -61,6 +62,7 @@ ko = Koreansk
 kpv = Komi
 kw = Cornisk
 ky = Kirgisisk
+lt = Litauisk
 mdf = Moksha
 mk = Makedonsk
 mn = Mongolsk
@@ -163,6 +165,7 @@ x-years-short =
         [one] år
        *[other] { $count } år
     }
+sign-up-account = Opret en konto
 
 ## Account Benefits
 
@@ -215,8 +218,10 @@ english = Engelsk
 
 profile-form-username =
     .label = Brugernavn
-profile-form-language =
-    .label = Sprog
+profile-form-native-language =
+    .label = Modersmål
+profile-form-additional-language =
+    .label = Yderligere sprog
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -235,6 +240,7 @@ female = Kvinde
 other = Andet
 why-profile-title = Hvorfor oprette en profil?
 why-profile-text = Ved at give nogle oplysninger om dig selv, vil de lyddata, du indsender til Common Voice være mere brugbare til talegenkendelses-systemerne, der skal bruge disse data til at forbedre deres nøjagtighed.
+dashboard = Oversigt
 build-profile = Lav profil
 avatar = Avatar
 goals = Mål
@@ -243,6 +249,7 @@ edit-profile = Rediger profil
 profile-create-success = Profil oprettet!
 profile-close = Luk
 profile-explanation = Hold styr på din fremgang med en profil, samtidig med at du gør vores stemme-data mere præcist.
+thanks-for-account = Tak fordi du bekræftede din konto, lad os nu udfylde din profil.
 why-demographic = Hvorfor er dette vigtigt?
 login-signup = Log ind / Opret dig
 edit = Rediger
@@ -251,6 +258,7 @@ off = Fra
 on = Til
 add-avatar-title = Tilføj en avatar til din profil
 browse-file-title = Upload en billedfil
+browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
 file_too_large = Den valgte fil er for stor
 manage-subscriptions = Håndter abonnementer
@@ -258,9 +266,11 @@ manage-subscriptions = Håndter abonnementer
 ## FAQ
 
 faq-title = Ofte stillede spørgsmål
+faq-why-account-q = Hvorfor skal jeg oprette en konto?
 
 ## Glossary
 
+glossary = Ordliste
 
 ## NotFound
 
@@ -280,11 +290,6 @@ data-get-started = <speechBlogLink>Kom i gang med talegenkendelse</speechBlogLin
 data-other-title = Andre stemme-datasæt
 data-other-goto = Gå til { $name }
 data-other-download = Hent data
-data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
-data-other-ted-name = TED-LIUM korpus
-data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
-data-other-voxforge-description = VoxForge blev startet for at indsamle transskriberet tale til brug for frie og open source talegenkendelses-systemer.
-data-other-tatoeba-description = Tatoeba er en stor database af sætninger, oversættelser og indtalt lyd til brug for sprogindlæring. Denne filhentning indeholder indtalt engelsk optaget af fællesskabet bag Tatoeba.
 data-bundle-button = Hent datasæt-samling
 data-bundle-description = Data fra Common Voice  samt alle andre stemme-datasæt ovenfor.
 license = Licens: <licenseLink>{ $license }</licenseLink>
@@ -300,6 +305,16 @@ review-rerecord = Optag igen
 review-cancel = Afbryd indsendelsen
 review-keep-recordings = Behold optagelserne
 review-delete-recordings = Slet mine optagelser
+
+## New Datasets Page
+
+number-of-voices = Antal stemmer
+validated-hours = Validerede timer
+data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
+data-other-ted-name = TED-LIUM korpus
+data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
+data-other-voxforge-description = VoxForge blev startet for at indsamle transskriberet tale til brug for frie og open source talegenkendelses-systemer.
+data-other-tatoeba-description = Tatoeba er en stor database af sætninger, oversættelser og indtalt lyd til brug for sprogindlæring. Denne filhentning indeholder indtalt engelsk optaget af fællesskabet bag Tatoeba.
 
 ## Download Modal
 
@@ -412,6 +427,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Dine sprog
 toward-next-goal = Til næste mål
 stats = Statistik
 you = Dig
