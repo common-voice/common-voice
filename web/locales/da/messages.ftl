@@ -259,6 +259,7 @@ why-demographic = Hvorfor er dette vigtigt?
 login-signup = Log ind / Opret dig
 edit = Rediger
 download-profile = Hent mine data
+contribution-experience = Bidragserfaring
 off = Fra
 on = Til
 add-avatar-title = Tilføj en avatar til din profil
@@ -272,8 +273,16 @@ add-language = Tilføj sprog
 ## FAQ
 
 faq-title = Ofte stillede spørgsmål
+faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
+faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
+faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
+faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
+faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
+faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
+faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige længde af hver optagelse, og ganger det antal med det samlede antal optagelser på tværs af alle sprog.
 faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt som muligt, har vi besluttet kun at tillade tekst, der er tilgængeligt under en Creative Commons (CC0) licens. Brugen af CC0-standarden betyder, at det er sværere at finde og indsamle tekst, men tillader at alle kan bruge datasættet uden brugsbegrænsninger eller tilladelse fra Mozilla. I sidste ende ønsker vi at gøre det flersprogede datasæt så nyttigt som muligt for alle, herunder forskere, universiteter, iværksættere, regeringer, sociale formål og hobbyfolk.
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
+faq-is-account-public-q = Er mine kontooplysninger offentlige?
 
 ## Glossary
 
@@ -320,13 +329,13 @@ size = Størrelse
 cv-license = Licens
 audio-format = Lydformat
 number-of-voices = Antal stemmer
-email-to-download = Indtast Email for at hente
 confirm-size = Du er parat til at hente <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Hent { $language }
 validated-hours = Validerede timer
 recorded-hours = Indspillede timer
+subscribe = Abonnér
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
