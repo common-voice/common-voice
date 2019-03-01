@@ -176,7 +176,7 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   async componentWillUnmount() {
-    document.addEventListener('keyup', this.handleKeyUprerecording);
+    document.removeEventListener('keyup', this.handleKeyUprerecording);
 
     document.removeEventListener('visibilitychange', this.releaseMicrophone);
     if (!this.isRecording) return;
