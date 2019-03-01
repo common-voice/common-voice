@@ -77,6 +77,7 @@ pl = Polsk
 pt-BR = Portugisisk (Brasilien)
 ro = Rumænsk
 ru = Russisk
+rw = Kinyarwanda
 sah = Yakut
 sc = Sardisk
 sk = Slovakisk
@@ -165,6 +166,7 @@ x-years-short =
         [one] år
        *[other] { $count } år
     }
+help-make-dataset = Hjælp os med at opbygge et offentligt og åbent datasæt af høj kvalitet.
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 sign-up-account = Opret en konto
 
@@ -174,6 +176,7 @@ benefits = Fordele
 
 ## What's public
 
+whats-public = Hvad er offentligt?
 
 ## Speak & Listen Shortcuts
 
