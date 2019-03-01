@@ -493,9 +493,9 @@ request-language-success-content = A nennadi aṭas amek ara nernu tulayt-nwen a
 ## Languages Overview
 
 language-section-in-progress = Ad d-iteddu
-language-section-in-progress-description = Tutlayin deg usfari ttwabnant i uttekki sɣur tirebbaɛ-nneɣ; asfari-nsent yeskan-d anida llant deg usmel n usidel akked imecwaṛen n ulqaḍ n tifyar.
+language-section-in-progress-new-description = Tutlayin-agi atentan tura ddaw n temɣiwent n ineflayen afeggag n tulya ad d-isken aswir <localizationGlossaryLink> n yal tutlayt deg usmel n usideg </localizationGlossaryLink> akked <sentenceCollectionGlossaryLink> ulqqa d n tefyar </sentenceCollectionGlossaryLink>
 language-section-launched = Yekker
-language-section-launched-new-description = I tutlayin-a yekkren, asmel web yettwasideg, daɣen ɣur-sent ddeqs n tefyar i d-yettwaleqḍen, akken ad yeddu uttekki n <italic>Mmeslay</italic> akked <italic> Timesliwt</italic>.
+language-section-launched-description = I tutlayt-a asmel <localizationGlossaryLink> ittwasideg akken iwata </localizationGlossaryLink>, isεa <sentenceCollectionGlossaryLink> ddeqs n tefyar </sentenceCollectionGlossaryLink> akken ad ittwasireg <speakLink> asekles </speakLink> akked <listenLink> usentem </listenLink> n ittekiyen n iwiziwen
 languages-show-more = Wali ugar
 languages-show-less = Wali drus
 language-speakers = Wid yettmeslayen
