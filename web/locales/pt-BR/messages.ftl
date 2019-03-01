@@ -229,6 +229,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Gravar/Parar
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Regravar clipe
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
 request-language-button = Solicite um idioma
 
@@ -496,9 +498,8 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 ## Languages Overview
 
 language-section-in-progress = Em andamento
-language-section-in-progress-description = Idiomas em andamento estão atualmente sendo preparados para contribuições por nossas comunidades. Seu progresso reflete onde estão com relação à tradução do site e à coleta de frases.
+language-section-in-progress-new-description = Esses idiomas estão atualmente em desenvolvimento pela comunidade. As barras de progresso indicam em que ponto cada idioma está no processo de <localizationGlossaryLink>tradução do site</localizationGlossaryLink> e <sentenceCollectionGlossaryLink>coleta de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lançados
-language-section-launched-new-description = Nestes idiomas lançados, o site foi traduzido com sucesso e há frases coletadas suficientes para permitir dar sequência a contribuições de <italic>Falar</italic> e <italic>Ouvir</italic>.
 languages-show-more = Ver mais
 languages-show-less = Ver menos
 language-speakers = Falantes
