@@ -235,6 +235,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nagraś/Zastajiś
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Waša rěc hyšći njejo na Common Voice?
 request-language-button = Rěc pominaś
 
@@ -475,9 +476,7 @@ request-language-success-content = Dajomy wjelgin skóro z dalšnymi informacija
 ## Languages Overview
 
 language-section-in-progress = W pśigótowanju
-language-section-in-progress-description = Rěcy w pśigótowanju se tuchylu pśez naše zgromaźeństwa wuwijaju; jich póstup wótbłyšćujo, na kótarem stawje pśełožowanje jich websedła a faze zběrki sadow su.
 language-section-launched = Startowany
-language-section-launched-new-description = Za toś te aktiwěrowane rěcy jo se websedło wuspěšnje pśełožyło, a ma dosć zgromaźonych sadow, aby zmóžniło stawne sobuźěło pśez <italic>powědanje</italic> a <italic>słuchanje</italic>.
 languages-show-more = Wěcej pokazaś
 languages-show-less = Mjenjej pokazaś
 language-speakers = Powědarje
