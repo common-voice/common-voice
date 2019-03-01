@@ -169,6 +169,7 @@ sign-up-account = Opret en konto
 
 ## Account Benefits
 
+benefits = Fordele
 
 ## What's public
 
@@ -229,7 +230,7 @@ profile-form-age =
 profile-form-gender =
     .label = Køn
 hidden = Skjult
-visible = Synlig
+visible = Synligt
 native-language =
     .label = Modersmål
 profile-form-submit-save = Gem
@@ -253,7 +254,7 @@ thanks-for-account = Tak fordi du bekræftede din konto, lad os nu udfylde din p
 why-demographic = Hvorfor er dette vigtigt?
 login-signup = Log ind / Opret dig
 edit = Rediger
-download-profile = Download mine data
+download-profile = Hent mine data
 off = Fra
 on = Til
 add-avatar-title = Tilføj en avatar til din profil
@@ -262,10 +263,12 @@ browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
 file_too_large = Den valgte fil er for stor
 manage-subscriptions = Håndter abonnementer
+add-language = Tilføj sprog
 
 ## FAQ
 
 faq-title = Ofte stillede spørgsmål
+faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt som muligt, har vi besluttet kun at tillade tekst, der er tilgængeligt under en Creative Commons (CC0) licens. Brugen af CC0-standarden betyder, at det er sværere at finde og indsamle tekst, men tillader at alle kan bruge datasættet uden brugsbegrænsninger eller tilladelse fra Mozilla. I sidste ende ønsker vi at gøre det flersprogede datasæt så nyttigt som muligt for alle, herunder forskere, universiteter, iværksættere, regeringer, sociale formål og hobbyfolk.
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
 
 ## Glossary
@@ -291,7 +294,7 @@ data-other-title = Andre stemme-datasæt
 data-other-goto = Gå til { $name }
 data-other-download = Hent data
 data-bundle-button = Hent datasæt-samling
-data-bundle-description = Data fra Common Voice  samt alle andre stemme-datasæt ovenfor.
+data-bundle-description = Data fra Common Voice samt alle andre stemme-datasæt ovenfor.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
@@ -308,13 +311,27 @@ review-delete-recordings = Slet mine optagelser
 
 ## New Datasets Page
 
+# File size in gigabytes
+size = Størrelse
+cv-license = Licens
+audio-format = Lydformat
 number-of-voices = Antal stemmer
+email-to-download = Indtast Email for at hente
+confirm-size = Du er parat til at hente <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Hent { $language }
 validated-hours = Validerede timer
+recorded-hours = Indspillede timer
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
 data-other-voxforge-description = VoxForge blev startet for at indsamle transskriberet tale til brug for frie og open source talegenkendelses-systemer.
 data-other-tatoeba-description = Tatoeba er en stor database af sætninger, oversættelser og indtalt lyd til brug for sprogindlæring. Denne filhentning indeholder indtalt engelsk optaget af fællesskabet bag Tatoeba.
+go-discourse = Gå til Discourse
+more = Mere
+close = Luk
+download = Hent
 
 ## Download Modal
 
@@ -346,7 +363,6 @@ request-language-success-content = Vi kontakter dig snart med oplysninger om, hv
 ## Languages Overview
 
 language-section-in-progress = I gang
-language-section-in-progress-description = Kommende sprog er ved at blive gjort klar til at fællesskabet kan bidrage. Deres fremgang viser, hvor langt bidragsydere er med at oversætte hjemmesiden og indsamle sætninger.
 language-section-launched = Startet
 languages-show-more = Se flere
 languages-show-less = Se mindre
