@@ -66,6 +66,12 @@ export default () => (
               blank
             />
           ),
+          sentenceCollectorLink: (
+            <StyledLink
+              href="https://common-voice.github.io/sentence-collector/"
+              blank
+            />
+          ),
         },
       ],
       'what-quality',
