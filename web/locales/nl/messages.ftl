@@ -229,6 +229,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = o
 shortcut-record-toggle-label = Opnemen/Stoppen
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Fragment opnieuw opnemen
 request-language-text = Ziet u uw taal nog niet op Common Voice?
 request-language-button = Een taal aanvragen
 
@@ -341,7 +343,7 @@ faq-why-different-speakers-a =
     De meeste spraakdatabases worden getraind met een oververtegenwoordiging van bepaalde demografische groepen, wat leidt tot een voorkeur voor <articleLink>mannelijk en uit de middenklasse</articleLink>. Accenten en dialecten die vaak ondervertegenwoordigd zijn in trainingsgegevenssets worden meestal in verband gebracht met groepen mensen die al gemarginaliseerd zijn. Veel machines hebben ook moeite met het begrijpen van vrouwelijke stemmen.
     Dit is de reden waarom we variatie in onze spraakdatabase willen!
 faq-why-my-lang-q = Waarom zit mijn taal er nog niet bij?
-faq-why-my-lang-a = Mozilla verkiest niet de ene taal boven de andere. In plaats daarvan is Common Voice een initiatief dat uitsluitend door de gemeenschap wordt aangestuurd, maar het vergt <multilangLink>diverse stappen om een nieuwe taal toe te voegen</multilangLink> en met het verzamelen van spraakdonaties te beginnen. Allereerst moet de Common Voice-website worden vertaald, zodat gemeenschapsleden toegang hebben tot de ervaring van de bijdrager in hun eigen taal. Vervolgens hebben we een grote verzameling auteursrechtvrije zinnen nodig die mensen kunnen voorlezen. Zodra aan beide vereisten is voldaan, wordt een taal ‘uitgebracht’ op Common Voice, zodat mensen hun stem kunnen opnemen en donaties van anderen kunnen valideren.
+faq-why-my-lang-a = Mozilla verkiest niet de ene taal boven de andere. In plaats daarvan is Common Voice een initiatief dat uitsluitend door de gemeenschap wordt aangestuurd, maar het vergt <multilangLink>diverse stappen om een nieuwe taal toe te voegen</multilangLink> en met het verzamelen van spraakdonaties te beginnen. Allereerst moet de Common Voice-website worden vertaald, zodat gemeenschapsleden toegang hebben tot de ervaring van de bijdrager in hun eigen taal. Vervolgens hebben we een grote verzameling auteursrechtvrije zinnen nodig die mensen kunnen voorlezen. Zodra aan beide vereisten is voldaan, wordt een taal ‘uitgebracht’ op Common Voice, zodat mensen hun stem kunnen opnemen en donaties van anderen kunnen valideren. Als u een nieuwe taal beschikbaar wilt helpen maken, ga dan naar ons <sentenceCollectorLink>hulpmiddel voor zinnenverzameling</sentenceCollectorLink> om te beginnen.
 faq-what-quality-q = Welk geluidskwaliteitsniveau is nodig voor een spraakfragment om in de gegevensset te kunnen worden gebruikt?
 faq-what-quality-a = We willen dat de Common Voice-gegevensset de audiokwaliteit weerspiegelt die een spraak-naar-tekst-engine in het wild zal horen, dus we zijn op zoek naar afwisseling. Naast een gevarieerde sprekersgemeenschap leert een gegevensset met verschillende audiokwaliteiten de spraak-naar-tekst-engine om verschillende levensechte situaties aan te kunnen, van achtergrondgeluid tot autolawaai. Zolang uw spraakopname begrijpelijk is, moet deze goed genoeg zijn voor de gegevensset.
 faq-why-10k-hours-q = Waarom is de doelstelling voor geluidsopnamen 10.000 uur per taal?
@@ -430,7 +432,7 @@ overall-hr-total = Algemeen aantal uren
 cv-license = Licentie
 audio-format = Audio-indeling
 number-of-voices = Aantal stemmen
-splits = Delingen
+splits = Opdelingen
 email-to-download = Voer uw e-mailadres in om te downloaden
 why-email = <b>Waarom een e-mailadres?</b> Mogelijk moeten we in de toekomst contact met u opnemen over wijzigingen in de gegevensset, en een e-mailadres geeft ons contactinformatie.
 confirm-size = U staat op het punt om een download van <b>{ $size }</b> te starten
@@ -442,9 +444,9 @@ validated-hours = Gevalideerde uren
 recorded-hours = Opgenomen uren
 whats-inside = Wat zit er in de Common Voice-gegevensset?
 dataset-description-hours =
-    Elk onderdeel in de gegevensset bestaat uit een uniek MP3-bestand en een bijbehorend tekstbestand. Veel van de <b>{ $total }</b> opgenomen uren in de gegevensset bevatten ook demografische metagegevens zoals leeftijd, geslacht en accent, die de nauwkeurigheid van spraakherkenningsengines kunnen helpen trainen.
+    Elk onderdeel in de gegevensset bestaat uit een uniek MP3-bestand en een bijbehorend tekstbestand. Veel van de <b>{ $total }</b> opgenomen uren in de gegevensset bevatten ook demografische metagegevens, zoals leeftijd, geslacht en accent, die de nauwkeurigheid van spraakherkenningsengines kunnen helpen trainen.
     
-    De gegevensset bestaat momenteel uit <b>{ $valid }</b> gevalideerde uren in <b>{ $languageCount }</b> talen, maar we voegen doorlopend spraak en talen toe. Kijk eens op onze <languagesLink>pagina Talen</languagesLink> om een taal aan te vragen of een bijdrage te leveren.
+    De gegevensset bestaat momenteel uit <b>{ $valid }</b> gevalideerde uren in <b>{ $languages }</b> talen, maar we voegen doorlopend spraak en talen toe. Kijk eens op onze <languagesLink>pagina Talen</languagesLink> om een taal aan te vragen of een bijdrage te leveren.
 want-dataset-update = Wilt u updates wanneer we een nieuwe versie van de Common Voice-gegevensset uitbrengen? Abonneer u dan op onze nieuwsbrief.
 subscribe = Abonneren
 get-started-speech = Beginnen met spraakherkenning
@@ -496,9 +498,9 @@ request-language-success-content = We nemen binnenkort contact op met meer infor
 ## Languages Overview
 
 language-section-in-progress = In uitvoering
-language-section-in-progress-description = Talen in uitvoering worden momenteel opgezet voor bijdragen vanuit onze gemeenschappen; de voortgang geeft weer hoe ver ze zijn met de websitevertaling en fasen van zinnenverzameling.
+language-section-in-progress-new-description = Deze talen worden momenteel door de gemeenschap ontwikkeld. De voortgangsbalken geven aan hoe ver elke taal is met de <localizationGlossaryLink>websitevertaling</localizationGlossaryLink> en het <sentenceCollectionGlossaryLink>verzamelen van zinnen</sentenceCollectionGlossaryLink>.
 language-section-launched = Beschikbaar
-language-section-launched-new-description = Voor deze gelanceerde talen is de website met succes vertaald, en zijn er voldoende zinnen verzameld voor doorlopende bijdragen aan het <italic>spreken</italic> en <italic>luisteren</italic>.
+language-section-launched-description = Voor deze beschikbare talen is de website met succes <localizationGlossaryLink>vertaald</localizationGlossaryLink>, en zijn er voldoende <sentenceCollectionGlossaryLink>zinnen verzameld</sentenceCollectionGlossaryLink> voor doorlopende bijdragen aan het <speakLink>spreken</speakLink> en <listenLink>luisteren</listenLink>.
 languages-show-more = Meer zien
 languages-show-less = Minder zien
 language-speakers = Sprekers
