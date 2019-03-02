@@ -232,6 +232,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Spela in/Stoppa
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Spela in klipp igen
 request-language-text = Kan du inte se ditt språk på Common Voice än?
 request-language-button = Skicka en förfrågan
 
@@ -499,9 +501,9 @@ request-language-success-content = Vi hör av oss med mer information om hur du 
 ## Languages Overview
 
 language-section-in-progress = Pågående
-language-section-in-progress-description = Pågående språk byggs nu för bidrag från våra gemenskaper. Deras framsteg återspeglar var de står i översättning av webbplatsen och insamling av meningar.
+language-section-in-progress-new-description = Dessa språk är för närvarande under utveckling. Förloppsindikatorn visar hur långt varje språk är i färd med <localizationGlossaryLink> webbplatsöversättning</localizationGlossaryLink> och <sentenceCollectionGlossaryLink>insamling av meningar</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanserad
-language-section-launched-new-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>Tala</italic> och <italic>Lyssna</italic>.
+language-section-launched-description = För dessa lanserade språk har webbplatsen blivit <localizationGlossaryLink>översatt</localizationGlossaryLink> och har tillräckligt med <sentenceCollectionGlossaryLink>meningar insamlade</sentenceCollectionGlossaryLink> för att tillåta bidrag för <talkLink>Röst</speakLink> och <listenLink>Lyssna</listenLink>.
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
 language-speakers = Talas av
