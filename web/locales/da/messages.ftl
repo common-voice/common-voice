@@ -202,6 +202,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = O
 shortcut-record-toggle-label = Optag/Stop
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
@@ -273,6 +274,7 @@ add-language = Tilføj sprog
 ## FAQ
 
 faq-title = Ofte stillede spørgsmål
+faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
 faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
@@ -337,6 +339,7 @@ download-language = Hent { $language }
 validated-hours = Validerede timer
 recorded-hours = Indspillede timer
 subscribe = Abonnér
+get-started-speech = Kom godt i gang med talegenkendelse
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
