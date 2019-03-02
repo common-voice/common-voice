@@ -243,6 +243,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Recordio/Atal
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Clip wedi'i ail recordio
 request-language-text = Ddim yn gweld eich iaith ar Common Voice eto?
 request-language-button = Cais am Iaith
 
