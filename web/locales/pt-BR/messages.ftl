@@ -500,6 +500,7 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 language-section-in-progress = Em andamento
 language-section-in-progress-new-description = Esses idiomas estão atualmente em desenvolvimento pela comunidade. As barras de progresso indicam em que ponto cada idioma está no processo de <localizationGlossaryLink>tradução do site</localizationGlossaryLink> e <sentenceCollectionGlossaryLink>coleta de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lançados
+language-section-launched-description = Nestes idiomas lançados, o site foi totalmente <localizationGlossaryLink>traduzido</localizationGlossaryLink> e há <sentenceCollectionGlossaryLink>frases coletadas</sentenceCollectionGlossaryLink> suficientes para permitir dar seguimento a contribuições de <speakLink>Falar</speakLink> e <listenLink>Ouvir</listenLink>.
 languages-show-more = Ver mais
 languages-show-less = Ver menos
 language-speakers = Falantes
