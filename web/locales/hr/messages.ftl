@@ -69,6 +69,7 @@ ko = Korejski
 kpv = Komi-Zyrian
 kw = Kornski
 ky = Kirgiski
+lt = Litavski
 mdf = Moksha
 mhr = Meadow Mari
 mk = Makedonski
@@ -169,6 +170,12 @@ read-terms-q = Jeste li pročitali naše Uvjete?
 ready-to-record = Jeste li spremni donirati svoj glas?
 all-locales = Sve
 today = Danas
+x-weeks-short =
+    { $count ->
+        [one] Tjedan
+        [few] { $count } tjedna
+       *[other] { $count } tjedana
+    }
 help-make-dataset = Pomozite nam izgraditi kvalitetan i javno dostupan skup podataka
 sign-up-account = Otvorite račun
 
@@ -203,6 +210,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = s
 shortcut-record-toggle-label = Snimaj/Stop
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Ne vidite vaš jezik na usluzi Common Voice?
 request-language-button = Zatražite jezik
 
