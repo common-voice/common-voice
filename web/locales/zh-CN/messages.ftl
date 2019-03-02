@@ -226,6 +226,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 录音/停止
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = 重新录制片段
 request-language-text = 没在 Common Voice 看到您的语言吗？
 request-language-button = 请求新语言
 
@@ -489,9 +491,7 @@ request-language-success-content = 我们将尽快披露更多有关如何将您
 ## Languages Overview
 
 language-section-in-progress = 准备中
-language-section-in-progress-description = 处理中的语言，代表我们的该语言社区正在进行贡献，当中的进度反映了网站的本地化翻译进度，以及语句收集进度。
 language-section-launched = 已上线
-language-section-launched-new-description = 推出的语言代表网站已成功本地化，也收集了足够的语句，足以支持<italic>说话</italic>及<italic>聆听</italic>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-speakers = 参与人数
