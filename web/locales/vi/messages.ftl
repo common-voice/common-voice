@@ -226,6 +226,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Ghi/Dừng
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Clip ghi lại
 request-language-text = Chưa thấy ngôn ngữ của mình trên Common Voice?
 request-language-button = Yêu cầu ngôn ngữ
 
@@ -492,9 +494,9 @@ request-language-success-content = Chúng tôi sẽ giữ liên lạc với bạ
 ## Languages Overview
 
 language-section-in-progress = Trong tiến trình
-language-section-in-progress-description = Các ngôn ngữ trong tiến trình hiện đang được xây dựng để đóng góp bởi cộng đồng của chúng tôi; tiến trình sẽ phản ánh vị trí của chúng trên các trang web nội địa hóa và giai đoạn thu thập các câu.
+language-section-in-progress-new-description = Những ngôn ngữ này hiện đang được phát triển cộng đồng. Các thanh tiến trình cho biết mỗi ngôn ngữ trong quá trình <localizationGlossaryLink>bản địa hóa trang web</localizationGlossaryLink> và <sentenceCollectionGlossaryLink>thu thập câu</sentenceCollectionGlossaryLink>.
 language-section-launched = Ra mắt
-language-section-launched-new-description = Đối với những ngôn ngữ được ra mắt này thì trang web đã được nội địa hóa thành công, và đã thu thập đủ câu, cho phép việc tiếp tục đóng góp <italic>nói</italic> và <italic>nghe</italic>.
+language-section-launched-description = Đối với những ngôn ngữ được phát hành này, trang web đã được <localizationGlossaryLink>bản địa hóa</localizationGlossaryLink> thành công và có đủ <sentenceCollectionGlossaryLink>các câu được thu thập</sentenceCollectionGlossaryLink> để cho phép đóng góp <speakLink>Nói</speakLink> và <listenLink>Nghe</listenLink> liên tục.
 languages-show-more = Xem thêm
 languages-show-less = Xem ít hơn
 language-speakers = Diễn giả
