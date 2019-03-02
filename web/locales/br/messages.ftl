@@ -54,6 +54,7 @@ fr = Galleg
 fy-NL = Frizeg
 ga-IE = Iwerzhoneg
 he = Hebraeg
+hr = Kroateg
 hsb = Uhel-Sorabeg
 hu = Hungareg
 ia = Interlingua
@@ -233,6 +234,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Enrollañ/Paouez
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
 request-language-button = Goulenn ouzhpennañ ur yezh
 
@@ -401,11 +403,20 @@ review-delete-recordings = Dilemel ma enrolladennoù
 
 ## New Datasets Page
 
+size-gigabyte = Go
+size-megabyte = Mo
+download-language = Pellgargañ { $language }
+validated-hours = Eurvezhioù gwiriet
+recorded-hours = Eurvezhioù enrollet
+subscribe = Koumanantiñ
 data-other-librispeech-description = LibriSpeech a zo anezhañ ur c'horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Savet eo bet ar c'horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c'haller kavout war lec'hienn TED.
 data-other-voxforge-description = VoxForge a zo bet savet evit dastum mouezhioù treuzskrivet da vezañ implijet e luskerioù anaout ar vouezh frank.
 data-other-tatoeba-description = Tatoeba a zo anezhañ ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù komzet implijet en deskiñ yezhoù. Ar bellgargadenn-mañ a ya d'he ober saozneg komzet enrollet gant o c'humuniezh.
+more = Muioc'h
+close = Serriñ
+download = Pellgargañ
 
 ## Download Modal
 
@@ -437,9 +448,7 @@ request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nem
 ## Languages Overview
 
 language-section-in-progress = War ober
-language-section-in-progress-description = Ar yezhoù war ober a zo war sevel evit ar mare gant hor c'humuniezhioù evit gallout kemer-perzh da c'houde; o araokadenn a ziskouez pelec'h emaint en em gavet ganti war droidigezh al lec'hienn hag an dastum frazennoù.
 language-section-launched = Loc'het
-language-section-launched-new-description = Evit ar yezhoù loc'het da-heul eo bet troet al lec'hienn gant berzh ha trawalc'h a frazennoù a zo bet dastumet evit bezañ gouest da gemer perzh el lodennoù <italic>Komz</italic> ha <italic>Selaou</italic>.
 languages-show-more = Gouzout hiroc'h
 languages-show-less = Gwelet nebeutoc'h
 language-speakers = Komzerien
