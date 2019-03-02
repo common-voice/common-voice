@@ -227,6 +227,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Registrar/stoppar
+shortcut-rerecord-toggle = [1-5]
 request-language-text = An tu non vide ancora tu lingua sur Common Voice?
 request-language-button = Propone un lingua
 
@@ -448,6 +449,9 @@ go-discourse = Va a Discourse
 missing-language = Non vide tu lingua reflectite in le Collection de datos? Si tu desira lo adder, accede a nostre Pagina del linguas.
 go-languages-page = Ir al pagina del linguas
 ready-to-validate = Preste a adjutar validar phrases?
+more = Altero
+close = Clauder
+download = Discargar
 
 ## Download Modal
 
@@ -479,9 +483,7 @@ request-language-success-content = Nos essera in contacto con altere information
 ## Languages Overview
 
 language-section-in-progress = In corso
-language-section-in-progress-description = Le linguas in corso es actualmente construite per contribution de nostre communitates; lor progresso reflecte ubi illos es trans le phases de localisation del sito web e collection de phrases.
 language-section-launched = Lanceate
-language-section-launched-new-description = Pro iste linguas lanceate le sito web ha essite localisate con successo, e ha bastante phrases colligite, pro consentir al contribution in corso de <italico>Parlar</italico> e <italico>Ascoltar</italico>.
 languages-show-more = Vider plus
 languages-show-less = Vider minus
 language-speakers = Locutores
