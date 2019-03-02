@@ -142,7 +142,7 @@ home-cta = 有话在此大声说！
 wall-of-text-start = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-more-mobile = 大部分由大公司持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放。
 wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 只要朗读一段文字，即可帮助机器了解人们如何说话。您也可以复查其他贡献者的工作以提高质量。就这么简单!
-wall-of-text-first = 语音应该是自然、人性的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
+wall-of-text-first = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，开发者需要大量的语音数据。
 wall-of-text-second = 大部分由大公司持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放而无障碍。
 show-wall-of-text = 详细了解
 help-us-title = 帮助我们验证语句！
@@ -159,7 +159,7 @@ listen-paragraph = 验证别人录下的语音片段，对 Common Voice 的使�
 listen-goal-text = 已验证片段数
 hours-recorded = 已录制小时数
 hours-validated = 已验证小时数
-voices-online = 目前上线的语音
+voices-online = 目前上线的语音种数
 todays-progress = 本日进度
 help-reach-goal = 帮助我们达成 { $goal }
 read-terms-q = 您阅读过我们的使用条款了吗？
@@ -179,7 +179,7 @@ x-years-short =
        *[other] { $count } 年
     }
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
-profile-not-required = 不需创建个人资料即可贡献，但如果有的话会更有帮助
+profile-not-required = 不需注册个人资料即可贡献，但如果注册的话会更有帮助
 sign-up-account = 注册账号
 email-subscription-title = 订阅邮件更新
 
