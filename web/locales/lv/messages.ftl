@@ -7,6 +7,7 @@ email-input =
     .label = Epasts
 submit-form-action = Nosūtīt
 loading = Ielāde...
+indicates-required = * Obligātie lauki
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
