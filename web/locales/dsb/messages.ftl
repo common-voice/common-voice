@@ -236,6 +236,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nagraś/Zastajiś
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Klip znowego nagraś
 request-language-text = Waša rěc hyšći njejo na Common Voice?
 request-language-button = Rěc pominaś
 
