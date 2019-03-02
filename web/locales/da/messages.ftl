@@ -324,6 +324,7 @@ review-delete-recordings = Slet mine optagelser
 
 ## New Datasets Page
 
+language = Sprog
 # File size in gigabytes
 size = Størrelse
 cv-license = Licens
@@ -467,4 +468,6 @@ validated-clips = Validerede klip
 
 ## Profile Delete
 
+keep = Behold
+remove = Fjern
 profile-form-delete = Slet profil
