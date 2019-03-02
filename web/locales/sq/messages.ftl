@@ -66,6 +66,7 @@ ko = Koreane
 kpv = Komi-Zyrian
 kw = Kornike
 ky = Kirgize
+lt = Lituanisht
 mdf = Moksha
 mk = Maqedonisht
 mn = Mongolisht
@@ -224,6 +225,8 @@ shortcut-vote-no = j
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = i
 shortcut-record-toggle-label = Incizo/Ndale
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Riincizojeni copëzën
 request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
 request-language-button = Kërkoni një Gjuhë
 
@@ -453,6 +456,9 @@ go-discourse = Kaloni te Discourse
 missing-language = S’e shihni gjuhën tuaj të pasqyruar në Grupin e të Dhënave? Që të kërkoni një gjuhë, shkoni te faqja jonë e Gjuhëve.
 go-languages-page = Shkoni te Faqja e Gjuhëve
 ready-to-validate = Gati për vleftësim frazash?
+more = Më tepër
+close = Mbylle
+download = Shkarkoje
 
 ## Download Modal
 
@@ -484,9 +490,8 @@ request-language-success-content = Shumë shpejt do të lidhemi me ju me më tep
 ## Languages Overview
 
 language-section-in-progress = Në Ecuri
-language-section-in-progress-description = Gjuhët e karakterizuara si Në Ecuri janë duke u përgatitur për kontribut nga bashkësitë tona; ecuria për to pasqyron fazën ku gjenden me përkthimin e sajtit dhe të grumbullimit të frazave.
+language-section-in-progress-new-description = Këto gjuhë janë ende nën zhvillim nga bashkësia. Shtyllat e ecurisë tregojnë ku ndodhet secila gjuhë në procesin e <localizationGlossaryLink>përkthimit të sajtit</localizationGlossaryLink> dhe <sentenceCollectionGlossaryLink>grumbullimit të frazave</sentenceCollectionGlossaryLink>.
 language-section-launched = E filluar
-language-section-launched-new-description = Për gjuhët e filluara, sajti është përkthyer me sukses, dhe janë grumbulluar një numër i mjaftueshëm frazash, për të lejuar  kontribute të vazhdueshëm të llojit <italic>Flisni</italic> dhe <italic>Dëgjoni</italic>.
 languages-show-more = Shihni Më Tepër
 languages-show-less = Shihni Më Pak
 language-speakers = Folës
