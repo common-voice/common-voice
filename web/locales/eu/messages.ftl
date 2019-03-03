@@ -426,6 +426,7 @@ overall-hr-total = Orduak guztira
 cv-license = Lizentzia
 audio-format = Audio formatua
 number-of-voices = Ahots kopurua
+splits = Banaketa
 email-to-download = Sartu e-posta deskargatzeko
 why-email = <b>Zergatik e-posta bat?</b> Baliteke etorkizunean zurekin harremanetan jarri behar izatea datu-sortako aldaketengatik. Hori gertatuz gero, e-posta baliatuko genuke.
 confirm-size = <b>{ $size }</b>-eko deskarga bat hastera zoaz
@@ -436,11 +437,16 @@ download-language = Deskargatu { $language }
 validated-hours = Balioztatutako orduak
 recorded-hours = Grabatutako orduak
 whats-inside = Zer dago Common Voice datu-sortaren barnean?
-want-dataset-update = Eguneraketak jaso nahi dituzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Harpidetu zaitez gure newsletterrera.
+dataset-description-hours =
+    Datu-sortako sarrera bakoitza MP3 bat eta dagokion testu fitxategi bat da. Datu-sortak dituen <b>{ $total }</b> orduetatik, askok datu demografikoak ere badituzte. Hizketaren ezagutza motorren zehaztasuna hobea izan daiteke trebatzeko garaian erabilitako ahotsen adina, sexua eta azentua jakinez gero.
+    
+    Datu-sortak orain baliozkotutako <b>{ $valid }</b> ordu ditu <b>{ $languages }</b> hizkuntzatan, baina beti gaude hizketaldi eta hizkuntza gehiago gehitzen. Bota begirada bat gure <languagesLink>Hizkuntzak orriari</languagesLink> berri bat eskatzeko edo laguntzen hasteko.
+want-dataset-update = Abisua jaso nahi duzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Harpidetu zaitez gure newsletterrera.
 subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
+deepspeech-info = Common Voice datu-sortak, Mozillaren Deep Speech ahotsaren ezagutzarako motor librea osatzen du, hizketaren ezagutzadun aplikazioak garatzeko erabil dezakezuna. Irakurri gure <githubLink>GitHub laburpena</githubLink> edo batu zaitez <discourseLink>DeepSpeecheko Discourse forora</discourseLink> nondik hasi ikasteko.
 common-voice-info = Common Voicen inguruko galderak dauzkazu? Batu zaitez <discourseLink>Discourse forora</discourseLink>.
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
