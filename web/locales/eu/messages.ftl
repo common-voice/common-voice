@@ -436,19 +436,25 @@ download-language = Deskargatu { $language }
 validated-hours = Balioztatutako orduak
 recorded-hours = Grabatutako orduak
 whats-inside = Zer dago Common Voice datu-sortaren barnean?
-want-dataset-update = Eguneraketak jaso nahi dituzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Eman izena gure newsletterrera.
+want-dataset-update = Eguneraketak jaso nahi dituzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Harpidetu zaitez gure newsletterrera.
 subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
+common-voice-info = Common Voicen inguruko galderak dauzkazu? Batu zaitez <discourseLink>Discourse forora</discourseLink>.
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
 data-other-voxforge-description = VoxForge transkribatutako hizketak biltzeko sortu zen, hizketaren ezagutza motor libreek erabiltzeko.
 data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek ,bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabaketen audioak dauzka.
+your-feedback = Common Voice datu-sorta nola hobe dezakegun ideiarik duzu? Parteka itzazu gurekin Discoursen
 go-discourse = Joan Discourse-ra
+missing-language = Ez duzu zure hizkuntza ikusten datu-sortan? Hizkuntza bat eskatzeko zoaz gure Hizkuntzak orrira.
 go-languages-page = Joan hizkuntzen orrira
 ready-to-validate = Esaldiak baliozkotzen laguntzeko prest?
+more = Gehiago
+close = Itxi
+download = Deskargatu
 
 ## Download Modal
 
