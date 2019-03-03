@@ -228,6 +228,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = 重新錄製片段
 request-language-text = 沒在 Common Voice 看到您的語言嗎？
 request-language-button = 要求新語言
 
@@ -494,9 +496,7 @@ request-language-success-content = 我們將很快在您的語言於 Common Voic
 ## Languages Overview
 
 language-section-in-progress = 準備中
-language-section-in-progress-description = 處理中的語言，代表我們的該語言社群正在進行貢獻，當中的進度反映了網站的在地化翻譯進度，以及語句收集進度。
 language-section-launched = 已上線
-language-section-launched-new-description = 針對已完成網站在地化並收集足夠語料的語言，我們就會盡快上線，接受<italic>聽</italic>與<italic>說</italic>貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
