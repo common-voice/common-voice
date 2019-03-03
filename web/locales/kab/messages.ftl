@@ -229,6 +229,8 @@ shortcut-vote-no = U
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = s
 shortcut-record-toggle-label = Sekles/Seḥbes
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Sekles tukkist
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?
 request-language-button = Suter tutlayt
 
