@@ -136,7 +136,7 @@ logout = Atsijungti
 
 ## Home Page
 
-home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti mokyti įrenginius kaip kalba tikri žmonės.
+home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti apmokyti tikrų žmonių kalbos.
 wall-of-text-start = Balsas yra natūralus ir žmogiškas. Todėl mes džiaugiamės kurdami naudingas balso technologijas. Tačiau jas kuriant, reikalingas labai didelis balso duomenų kiekis.
 wall-of-text-more-mobile = Dauguma didelių kompanijų duomenų nėra prienami plačiajai publikai. Mes manome, jog tai slopina inovacijas, dėl to vykdome „Common Voice“ – projektą, kurio pagalba kalbos atpažinimo technologijos taps atviros ir pasiekiamos visiems.
 wall-of-text-more-desktop = Dabar ir tu gali sudalyvauti kuriant atvirojo kodo balso duomenų bazę, prieinamą kiekvienam, norinčiam kurti naujoviškas programas įrenginiams ir saitynui. Balsu perskaityk sakinį – taip padėsi apmokyti kompiuterį, kaip kalba tikri žmonės. Patikrink kitų talkininkų padarytus įrašus – taip padėsi užtikrinti rezultato kokybę. Tai tikrai paprasta!
@@ -148,7 +148,7 @@ help-us-explain = Spustelėk grojimo mygtuką, išklausyk įrašą ir atsakyk: a
 vote-yes = Taip
 vote-no = Ne
 toggle-play-tooltip = Spustelėk { shortcut-play-toggle } įrašui atkurti
-speak-subtitle = Paaukok savo balsą
+speak-subtitle = Pasidalink savo balsu
 speak-paragraph = Balso įrašymas – pamatinė mūsų atvirųjų duomenų kūrimo dalis; kai kurie pasakytų, kad ji ir yra įdomioji.
 listen-subtitle = Padėk mums patvirtinti balso įrašus
 hours-recorded = Įrašyta valandų
@@ -180,7 +180,8 @@ x-years-short =
     }
 help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą duomenų rinkinį
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
-email-subscription-title = užsiprenumeruok naujienas el. paštu
+sign-up-account = Užsiregistruok ir susikurk paskyrą
+email-subscription-title = Užsiprenumeruok naujienas el. paštu
 
 ## Account Benefits
 
