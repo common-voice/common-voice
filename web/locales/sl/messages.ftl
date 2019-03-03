@@ -61,6 +61,7 @@ ia = interlingva
 id = indonezijščina
 is = islandščina
 it = italijanščina
+izh = ingrijščina
 ja = japonščina
 ka = gruzinščina
 kab = kabilščina
@@ -85,6 +86,7 @@ pt-BR = portugalščina (Brazilija)
 rm-sursilv = retoromanščina (sursilvan)
 ro = romunščina
 ru = ruščina
+rw = ruandščina
 sah = jakutščina
 sc = sardinščina
 sk = slovaščina
@@ -235,6 +237,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = s
 shortcut-record-toggle-label = Snemaj/Ustavi
+shortcut-rerecord-toggle-label = Znova posnemi posnetek
 request-language-text = Vaš jezik še ni vključen v Common Voice?
 request-language-button = Predlagaj jezik
 
@@ -459,9 +462,7 @@ request-language-success-content = V kratkem se vam bomo oglasili z več informa
 ## Languages Overview
 
 language-section-in-progress = V nastajanju
-language-section-in-progress-description = Jezike, ki so trenutno v fazi nastajanja, naše skupnosti še pripravljajo za nadaljnje faze projekta Common Voice; napredek jezika tako odraža napredek pri prevajanju spletne strani in količino zbranih stavkov.
 language-section-launched = V teku
-language-section-launched-new-description = Spletna stran je bila uspešno prevedena v te jezike in ima dovolj zbranih stavkov, da omogoča nadaljevanje <italic>govornih</italic> in <italic>slušnih</italic> prispevkov.
 languages-show-more = Več
 languages-show-less = Manj
 language-speakers = Govorcev
