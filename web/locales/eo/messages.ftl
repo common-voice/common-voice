@@ -8,6 +8,7 @@ email-input =
     .label = Retpoŝto
 submit-form-action = Sendi
 loading = Ŝargado…
+indicates-required = * signas devigan kampon
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,7 +16,9 @@ loading = Ŝargado…
 
 ## Languages
 
+ab = Abĥaza
 ace = Aĉea
+ady = Adigea
 af = Afrikansa
 am = Amhara
 an = Aragona
@@ -57,6 +60,7 @@ ia = Interlingvao
 id = Indonezia
 is = Islanda
 it = Itala
+izh = Iĵora
 ja = Japana
 ka = Kartvela
 kab = Kabila
@@ -67,8 +71,10 @@ kw = Korniŝa
 ky = Kirgiza
 lt = Litova
 mdf = Mokŝa
+mhr = Orientmaria
 mk = Makedona
 mn = Mongola
+mrj = Okcidentmaria
 myv = Erzja
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
@@ -81,6 +87,7 @@ pt-BR = Portugala (Brazilo)
 rm-sursilv = Romanĉa surselva
 ro = Rumana
 ru = Rusa
+rw = Ruanda
 sah = Jakuta
 sc = Sarda
 sk = Slovaka
@@ -93,10 +100,13 @@ te = Telugua
 th = Taja
 tr = Turka
 tt = Tatara
+uby = Ubiĥa
+udm = Udmurta
 uk = Ukraina
 ur = Urdua
 uz = Uzbeka
 vi = Vjetnama
+vot = Vota
 zh-CN = Ĉina (Ĉinio)
 zh-HK = Ĉina (Honkongo)
 zh-TW = Ĉina (Tajvano)
@@ -153,6 +163,7 @@ todays-progress = Hodiaŭa progreso
 help-reach-goal = Helpu nin atingi { $goal }
 read-terms-q = Ĉu vi legis niajn kondiĉojn?
 ready-to-record = Ĉu vi pretas donaci vian voĉon?
+all-locales = Ĉiuj
 today = Hodiaŭ
 x-weeks-short =
     { $count ->
@@ -169,9 +180,12 @@ x-years-short =
         [one] Jaro
        *[other] { $count } jaroj
     }
+sign-up-account = Krei konton
+email-subscription-title = Abonu retpoŝtajn novaĵojn
 
 ## Account Benefits
 
+benefits = Avantaĝoj
 
 ## What's public
 
@@ -200,6 +214,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Registri / Haltigi
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
 request-language-button = Peti lingvon
 
@@ -221,6 +236,10 @@ english = Angla
 
 profile-form-username =
     .label = Nomo de uzanto
+profile-form-native-language =
+    .label = Denaska lingvo
+profile-form-additional-language =
+    .label = Aldona lingvo
 profile-form-accent =
     .label = Akĉento
 profile-form-age =
@@ -267,11 +286,19 @@ off = Malŝaltita
 on = Ŝaltita
 add-avatar-title = Aldoni bildon al via profilo
 browse-file-title = Alŝuti bildon
+connect-gravatar = Konekti Gravatar
+gravatar_not_found = Via retpoŝta adreso ne estas asociita al Gravatar
+file_too_large = La elektita dosiero estas tro granda
+manage-subscriptions = Administri abonojn
+email-already-used = La retpoŝta adreso jam estas uzata de alia konto
 add-language = Aldoni lingvon
 
 ## FAQ
 
 faq-title = Oftaj demandoj
+faq-what-cv-q = Kio estas Common Voice?
+faq-why-important-q = Kial ĝi gravas?
+faq-how-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
 
 ## Glossary
 
