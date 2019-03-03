@@ -491,7 +491,9 @@ request-language-success-content = 我们将尽快披露更多有关如何将您
 ## Languages Overview
 
 language-section-in-progress = 准备中
+language-section-in-progress-new-description = 这些语言当前处于社区发展中。其中的进度条反映了<localizationGlossaryLink>网站的本地化</localizationGlossaryLink>翻译进度，以及<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>收集进度。
 language-section-launched = 已上线
+language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够的<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-speakers = 参与人数
