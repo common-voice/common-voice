@@ -200,6 +200,7 @@ email-subscription-title = prijavite se na e-poštna obvestila
 benefits = Prednosti
 rich-data = Obogatite svoje poslane posnetke s predložitvijo anonimnih demografskih podatkov. Pred objavo bomo vse demografske podatke prikrili.
 improve-audio = Podatki o profilu izboljšajo zvočne podatke, ki se uporabljajo pri natančnosti prepoznavanja govora.
+keep-track = Spremljajte napredek in meritve v več jezikih.
 compare-progress = Primerjajte svoj napredek z drugimi sodelujočimi po vsem svetu.
 view-goals = Spremljajte svoj napredek glede na osebne in projektne cilje.
 join-newsletter = Po želji se lahko pridružite našemu e-poštnemu seznamu za prejemanje posodobitev in novih podatkov o projektu.
