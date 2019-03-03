@@ -54,12 +54,14 @@ fr = Frantsesa
 fy-NL = Frisiera
 ga-IE = Irlandako gaelikoa
 he = Hebreera
+hr = Kroaziera
 hsb = Goi-sorabiera
 hu = Hungariera
 ia = Interlingua
 id = Indonesiera
 is = Islandiera
 it = Italiera
+izh = Ingriera
 ja = Japoniera
 ka = Georgiera
 kab = Kabylera
@@ -68,6 +70,7 @@ ko = Koreera
 kpv = Komiera
 kw = Kornubiera
 ky = Kirgizera
+lt = Lituaniera
 mdf = Moksha
 mhr = Larreetako mariera
 mk = Mazedoniera
@@ -85,6 +88,7 @@ pt-BR = Portugesa (Brasil)
 rm-sursilv = Sursilvana
 ro = Errumaniera
 ru = Errusiera
+rw = Kinyaruanda
 sah = Sakha
 sc = Sardiniera
 sk = Eslovakiera
@@ -180,6 +184,7 @@ x-years-short =
 help-make-dataset = Lagun gaitzazu kalitatezko datu-sorta ireki bat sortzen
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 sign-up-account = Sortu kontu bat
+email-subscription-title = eman izena e-postaz eguneraketak jasotzeko
 
 ## Account Benefits
 
@@ -224,6 +229,8 @@ shortcut-vote-no = e
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabatu/Gelditu
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Birgrabatutako grabaketa
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
 request-language-button = Eskatu hizkuntza bat
 
@@ -429,6 +436,7 @@ download-language = Deskargatu { $language }
 validated-hours = Balioztatutako orduak
 recorded-hours = Grabatutako orduak
 whats-inside = Zer dago Common Voice datu-sortaren barnean?
+want-dataset-update = Eguneraketak jaso nahi dituzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Eman izena gure newsletterrera.
 subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
@@ -472,9 +480,7 @@ request-language-success-content = Laster jarriko gara zurekin harremanetan Comm
 ## Languages Overview
 
 language-section-in-progress = Prestatzen
-language-section-in-progress-description = Prestatzen dauden hizkuntzak, gure komunitateak prestatzen ari direnak dira; beraien aurrerabide-mailak webgunea zenbat lokalizatu duten eta esaldi bilketan nola doazen adierazten du.
 language-section-launched = Martxan
-language-section-launched-new-description = Martxan dauden hizkuntza hauetan, webgunea ondo lokalizatu da eta behar beste esaldi bildu dira <italic>Mintzatu</italic> eta <italic>Entzun</italic> ekarpenekin hasteko.
 languages-show-more = Ikusi gehiago
 languages-show-less = Ikusi gutxiago
 language-speakers = Hiztunak
@@ -523,7 +529,7 @@ review-tooltip = Berrikusi eta grabaketak berregin hemen egin ahala
 unable-speak = Ezin duzu mintzatu orain?
 review-instruction = Berrikusi eta grabaketak berriz egin beharrezkoa bada
 record-submit-tooltip = { $actionType } bidali prest egotean
-clips-uploaded = Igotako grabaketak
+clips-uploaded = Grabaketak igota
 record-abort-title = Aurretik grabazioa bukatu?
 record-abort-text = Orain ateratzen bazara egin berri dituzunak galduko dira
 record-abort-submit = Bidali grabaketak
