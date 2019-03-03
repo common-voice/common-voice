@@ -299,6 +299,10 @@ faq-title = Oftaj demandoj
 faq-what-cv-q = Kio estas Common Voice?
 faq-why-important-q = Kial ĝi gravas?
 faq-how-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
+faq-why-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
+faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
+faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
+faq-where-src-from-2-q = El kie venas la fonta teksto?
 
 ## Glossary
 
@@ -339,6 +343,20 @@ review-delete-recordings = Forigi miajn registrojn
 
 ## New Datasets Page
 
+language = Lingvo
+# File size in gigabytes
+size = Grando
+validated-hr-total = Validigitaj entutaj horoj
+overall-hr-total = Entutaj horoj
+cv-license = Permesilo
+audio-format = Formo de sono
+number-of-voices = Nombro de voĉoj
+splits = Dividoj
+email-to-download = Tajpu retpoŝton por elŝuti
+why-email = <b>Kial ni petas retpoŝton</b> Ni povus bezoni kontakti vin en la estonteco, pro ŝanĝoj al la datumaro kaj via retpoŝto permesos al ni tion fari.
+confirm-size = Vi pretas komenci la elŝuton de <b>{ $size }</b>
+size-gigabyte = GO
+size-megabyte = MO
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
