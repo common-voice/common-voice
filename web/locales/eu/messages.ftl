@@ -492,7 +492,9 @@ request-language-success-content = Laster jarriko gara zurekin harremanetan Comm
 ## Languages Overview
 
 language-section-in-progress = Prestatzen
+language-section-in-progress-new-description = Komunitatea oraintxe bertan hizkuntza hauek lantzen ari da. Aurrerapen barrak adierazten du hizkuntza bakoitzak zenbat aurreratu duen <localizationGlossaryLink>webgunea lokalitzatzen</localizationGlossaryLink> eta <sentenceCollectionGlossaryLink>esaldiak biltzen</sentenceCollectionGlossaryLink>.
 language-section-launched = Martxan
+language-section-launched-description = Hizkuntza hauetan webgunea behar beste <localizationGlossaryLink>lokalizatu</localizationGlossaryLink>  eta <sentenceCollectionGlossaryLink>esaldiak bildu</sentenceCollectionGlossaryLink> dira eta ondorioz laguntzaileak <speakLink>Hiz egin</speakLink> eta <listenLink>Entzun</listenLink> ekarpenak ari dira egiten.
 languages-show-more = Ikusi gehiago
 languages-show-less = Ikusi gutxiago
 language-speakers = Hiztunak
