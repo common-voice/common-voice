@@ -16,6 +16,9 @@ indicates-required = * Betyder at feltet skal udfyldes
 
 ## Languages
 
+ab = Abkhasisk
+af = Afrikaans
+am = Amharisk
 an = Aragonsk
 ar = Arabisk
 as = Assamesisk
@@ -90,10 +93,12 @@ te = Telugu
 th = Thai
 tr = Tyrkisk
 tt = Tatarisk
+udm = Udmurt
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
 vi = Vietnamesisk
+vot = Votisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
