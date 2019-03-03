@@ -266,6 +266,7 @@ login-signup = Log ind / Opret dig
 edit = Rediger
 download-profile = Hent mine data
 contribution-experience = Bidragserfaring
+skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
 off = Fra
 on = Til
 add-avatar-title = Tilføj en avatar til din profil
