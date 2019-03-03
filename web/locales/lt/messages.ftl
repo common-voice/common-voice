@@ -144,13 +144,15 @@ wall-of-text-first = Balsas yra natūralus ir žmogiškas. Todėl mes džiaugiam
 wall-of-text-second = Dauguma didelių kompanijų duomenų nėra prienami plačiajai publikai. Mes manome, jog tai slopina inovacijas, dėl to vykdome „Common Voice“ – projektą, kurio pagalba kalbos atpažinimo technologijos taps atviros ir pasiekiamos visiems.
 show-wall-of-text = Skaityti daugiau
 help-us-title = Padėk mums patvirtinti sakinius!
-help-us-explain = Spustelėk grojimo mygtuką, išklausyk įrašą ir atsakyk: ar diktorius tiksliai perskaitė žemiau pateiktą sakinį?
+help-us-explain = Spustelėk atkūrimo mygtuką, išklausyk įrašą ir atsakyk: ar diktorius tiksliai perskaitė žemiau pateiktą sakinį?
 vote-yes = Taip
 vote-no = Ne
 toggle-play-tooltip = Spustelėk { shortcut-play-toggle } įrašui atkurti
 speak-subtitle = Pasidalink savo balsu
 speak-paragraph = Balso įrašymas – pamatinė mūsų atvirųjų duomenų kūrimo dalis; kai kurie pasakytų, kad ji ir yra įdomioji.
+speak-goal-text = Padaryta įrašų
 listen-subtitle = Padėk mums patvirtinti balso įrašus
+listen-goal-text = Patvirtinta įrašų
 hours-recorded = Įrašyta valandų
 hours-validated = Patvirtinta valandų
 voices-online = Prisijungę talkininkai
@@ -186,15 +188,24 @@ email-subscription-title = Užsiprenumeruok naujienas el. paštu
 ## Account Benefits
 
 benefits = Privalumai
+rich-data = Praturtink pateiktus duomenis – pasidalink anonimiškais demografiniais duomenimis. Prieš viešindami, mes juos nuasmeniname.
+improve-audio = Profilio informacija pagerina balso duomenų, naudojamų kalbos atpažinime, tikslumą.
+keep-track = Sek savo progresą ir rodiklius norimose kalbose.
 
 ## What's public
 
+whats-public = Kas yra vieša?
+email-not-public = Mes neskelbsime tavo el. pašto.
+recordings-and-locale-public = Įrašų skaičius ir kalbų, prie kurių prisidedi, sąrašas yra vieši.
+username-optin-public = Gali pasirinkti, ar tavo naudotojo vardas bus matomas kitiems.
+username-email-not-demographic = Tavo naudotojo vardas ir el. paštas nebus susieti su paskelbtais duomenimis.
 
 ## Speak & Listen Shortcuts
 
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Atkurti / Stabdyti
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = t
@@ -210,20 +221,37 @@ shortcut-record-toggle = r
 
 ## ProjectStatus
 
+status-contribute = Prisidėk savo balsu
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Kiti tikslai: { $goal }
 english = Anglų
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Naudotojo vardas
+profile-form-native-language =
+    .label = Gimtoji kalba
+profile-form-additional-language =
+    .label = Papildoma kalba
 profile-form-accent =
     .label = Akcentas
 profile-form-age =
     .label = Amžius
 profile-form-gender =
     .label = Lytis
+hidden = Nerodyti
+visible = Rodyti
+native-language =
+    .label = Gimtoji kalba
+profile-form-submit-save = Įrašyti
+profile-form-submit-saved = Įrašyta
 male = Vyras
 female = Moteris
 # Gender
 other = Kita
+why-profile-title = Kokia profilio nauda?
 off = Išjungta
 on = Įjungta
 
