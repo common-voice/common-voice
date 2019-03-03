@@ -16,6 +16,8 @@ loading = Ŝargado…
 ## Languages
 
 ace = Aĉea
+af = Afrikansa
+am = Amhara
 an = Aragona
 ar = Araba
 as = Asama
@@ -34,6 +36,7 @@ cy = Kimra
 da = Dana
 de = Germana
 dsb = Malsuprasoraba
+dv = Maldiva
 el = Greka
 en = Angla
 eo = Esperanto
@@ -47,6 +50,7 @@ fr = Franca
 fy-NL = Frisa
 ga-IE = Irlanda
 he = Hebrea
+hr = Kroata
 hsb = Suprasoraba
 hu = Hungara
 ia = Interlingvao
@@ -61,6 +65,7 @@ ko = Korea
 kpv = Komiziriana
 kw = Korniŝa
 ky = Kirgiza
+lt = Litova
 mdf = Mokŝa
 mk = Makedona
 mn = Mongola
@@ -73,6 +78,7 @@ oc = Okcitana
 or = Odia
 pl = Pola
 pt-BR = Portugala (Brazilo)
+rm-sursilv = Romanĉa surselva
 ro = Rumana
 ru = Rusa
 sah = Jakuta
@@ -142,10 +148,11 @@ listen-paragraph = Validigi voĉregistrojn estas same grava por la misio de Comm
 listen-goal-text = Validigitaj voĉregistrojn
 hours-recorded = Horoj registritaj
 hours-validated = Horoj validigitaj
+voices-online = Voĉoj nune disponeblaj
 todays-progress = Hodiaŭa progreso
+help-reach-goal = Helpu nin atingi { $goal }
 read-terms-q = Ĉu vi legis niajn kondiĉojn?
 ready-to-record = Ĉu vi pretas donaci vian voĉon?
-all-languages = Ĉiuj lingvoj
 today = Hodiaŭ
 x-weeks-short =
     { $count ->
@@ -162,6 +169,12 @@ x-years-short =
         [one] Jaro
        *[other] { $count } jaroj
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -206,12 +219,8 @@ english = Angla
 
 ## ProfileForm
 
-profile-form-cancel = Eliri el la formularo
-profile-form-delete = Forigi profilon
 profile-form-username =
     .label = Nomo de uzanto
-profile-form-language =
-    .label = Lingvo
 profile-form-accent =
     .label = Akĉento
 profile-form-age =
@@ -226,8 +235,6 @@ native-language =
     .label = Denaska lingvo
 profile-form-submit-save = Konservi
 profile-form-submit-saved = Konservita
-profile-keep-data = Gardi datumojn
-profile-delete-data = Forigi datumojn
 male = Vira
 female = Ina
 # Gender
@@ -240,10 +247,8 @@ avatar = Profila bildo
 goals = Celoj
 settings = Agordoj
 edit-profile = Modifi profilon
-profile-create = Krei profilon
 profile-create-success = Sukceso, profilo kreita!
 profile-close = Fermi
-profile-clear-modal = Se vi viŝas vian profilon, viaj demografiaj datumoj ne plu estos senditaj al Common Voice kun viaj sonregistraĵoj.
 profile-explanation = Sekvu vian progreson per profilo, kaj helpu niajn voĉajn datumojn iĝi pli precizaj.
 thanks-for-account = Dankon pro la konfirmo de via konto, nun kreu ni vian profilon.
 why-demographic = Kial tio ĉi gravas?
@@ -262,34 +267,14 @@ off = Malŝaltita
 on = Ŝaltita
 add-avatar-title = Aldoni bildon al via profilo
 browse-file-title = Alŝuti bildon
+add-language = Aldoni lingvon
 
 ## FAQ
 
 faq-title = Oftaj demandoj
-faq-what-q = Kio estas Common Voice?
-faq-what-a = Teknologio por rekoni voĉon povus tute ŝanĝi la manieron, kiel ni interagas kun maŝinoj. Sed la nune disponeblaj sistemoj estas kaj multekostaj kaj malliberaj. Common Voice estas projekto kiu celas igi la voĉrekonan teknikologion facile alirebla de ĉiuj. Personoj donacas siajn voĉojn al grandega datumbazo, kiu permesos al ĉiuj rapide kaj facile trejni programojn, kiuj kapablas uzi voĉon. Ĉiuj datumoj estos disponeblaj por la programistoj.
-faq-important-q = Kial tio gravas?
-faq-important-a = Voĉo estas natura, voĉo estas homa. Estas la plej facila kaj plej natura maniero komunikiĝi. Ni volas ke programistoj povu krei ravajn projektojn, ĉu samtempajn tradukistojn, ĉu administrajn helpantojn kapablaj uzi voĉon. Sed nuntempe ne ekzistas sufiĉe publike disponeblaj datumoj por krei tiajn projektojn. Ni esperas ke Common Voice donos al programistoj tion, kion ili bezonas por krei novajn aferojn.
-faq-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
-faq-get-a = La datumaro disponeblas nun en nia <downloadLink>paĝo por elŝutoj</downloadLink>, sub la permesilo <licenseLink>CC-0</licenseLink>.
-faq-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
-faq-mission-a = Mozilla dediĉas sin al la tasko, gardi la teksaĵon malfermita kaj alirebla de ĉiuj. Por fari tion ni bezonas doni povon al la teksaĵaj kreantoj, per projektoj kiel Common Voice. En la momento kiam voĉaj teknikologoj komencas eliri el la iamaj malvastaj aplikoj, ni sentas ke ni devas same apogi ĉiujn uzantojn. Ni sentas la urĝon aldoni pli da lingvoj, akĉentoj kaj aĝtavoloj al la kreado kaj testado de novaj voĉaj teknikologioj. Mozillas volas vidi sanan kaj vigan interreton, kaj por tio oni devas doni al novaj kreantoj aliron al voĉaj datumoj, tiel ke ili povas konstrui novajn, eksterordinarajn projektojn. Common Voice estos publika rimedo, kiu cetere helpos teamojn kaj programistoj de Mozilla ĉirkaŭ la mondo.
-faq-native-q = Mi estas nedenaskulo de la { $lang } kaj mi parolas akĉente, ĉu vi tamen volas mian voĉon?
-faq-native-a = Jes, ni ja volas vian voĉon! Parto de la celo de Common Voice estas kolekti kiom eble plej multe da akĉentoj, tiel ke komputiloj povos pli bone kompreni <bold>ĉiujn</bold> kiam ili parolas.
-faq-firefox-q = Ĉu iam estos sistemo por traduki voĉon al tekston, ene de Firefox?
-faq-firefox-a = Common Voice havas senlimajn kapablojn kaj ni fakte jam esploras voĉajn fasadojn en pluraj produktoj de Mozilla, inter kiuj troviĝas Firefox.
-faq-quality-q = Kiu estas la kvalita nivelo, kiuj bezonas la sono por esti utila?
-faq-quality-a = Ni volas ke la sonkvalito estu tiel varia kiel tiu, kiun voĉrekonilo renkontos en normala ĉiutaga vivo. Tial, ni volas diversecon. Tio permesos al la voĉrekonilo la precizan pritrakton de malsamaj situacioj: fonaj interparoloj, veturilan bruon, ventumilojn.
-faq-hours-q = Kial celi 10.000 horojn da sonregistroj?
-faq-hours-a = Tiu estas la proksimuma kvanto da horoj bezonata por trejni bonkvalitan voĉrekonan sistemon.
-faq-source-q = El kie venas la tekstoj?
-faq-source-a1 = La nunaj tekstoj venas el kontribuantoj, kaj ankaŭ el dialogoj de filmoj, kies vortoj estas publika havaĵo, ekzemple <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Vi povas vidi niajn fontajn tekstojn en <dataLink>tiu ĉi deponejo de GitHub</dataLink>.
 
-## Profile
+## Glossary
 
-profile-why-title = Kial krei profilon?
-profile-why-content = Se vi donas al ni kelkajn informojn pri vi, viaj sonregistraĵoj en Common Voice, estos pli utilaj por voĉrekoniloj kiuj uzas tiujn informojn por plibonigi la precizecon.
 
 ## NotFound
 
@@ -309,11 +294,6 @@ data-get-started = <speechBlogLink>Unuaj paŝoj en voĉa rekono</speechBlogLink>
 data-other-title = Aliaj voĉaj datumaroj…
 data-other-goto = Iri al { $name }
 data-other-download = Elŝuti datumojn
-data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
-data-other-ted-name = Kolekto TED-LIUM
-data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
-data-other-voxforge-description = VoxForge estis kreita kun la celo kolekti transskribitaj paroladoj, tiel ke ili estos uzeblaj de liberaj kaj malfermitkodaj voĉrekoniloj.
-data-other-tatoeba-description = Tatoeba estas granda datumbazo de frazoj, tradukoj kaj voĉaj registroj, por esti uzata dum lernado de lingvoj. Tiu ĉi elŝuto enhavas parolatan anglan, kiun registris ilia komunumo.
 data-bundle-button = Elŝuti kolekto da datumaroj
 data-bundle-description = Datumoj de Common Voice kaj ĉiuj aliaj supraj voĉaj datumaroj.
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
@@ -329,6 +309,14 @@ review-rerecord = Registri denove
 review-cancel = Nuligi sendon
 review-keep-recordings = Gardi la registrojn
 review-delete-recordings = Forigi miajn registrojn
+
+## New Datasets Page
+
+data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
+data-other-ted-name = Kolekto TED-LIUM
+data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
+data-other-voxforge-description = VoxForge estis kreita kun la celo kolekti transskribitaj paroladoj, tiel ke ili estos uzeblaj de liberaj kaj malfermitkodaj voĉrekoniloj.
+data-other-tatoeba-description = Tatoeba estas granda datumbazo de frazoj, tradukoj kaj voĉaj registroj, por esti uzata dum lernado de lingvoj. Tiu ĉi elŝuto enhavas parolatan anglan, kiun registris ilia komunumo.
 
 ## Download Modal
 
@@ -360,9 +348,7 @@ request-language-success-content = Ni baldaŭ skribos al vi kun pli da informo p
 ## Languages Overview
 
 language-section-in-progress = Progresanta
-language-section-in-progress-description = Progresantaj lingvoj estas tiuj, kiujn niaj komunumoj nuntempe konstruas. Ilia progreso montras la nunan staton de tradukado de la retejo kaj la fazon de kolekto de frazoj.
 language-section-launched = Lanĉita
-language-section-launched-new-description = Por la jenaj lanĉitaj lingvoj la retejo estis sukcese tradukita, kaj ekzistas sufiĉe da frazoj kolektitaj por permesi daŭran kontribuon per <italic>registrado</italic> kaj <italic>aŭskultado</italic>.
 languages-show-more = Vidi pli
 languages-show-less = Vidi malpli
 language-speakers = Parolantoj
@@ -427,6 +413,11 @@ share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
 
 ## Goals
 
+days =
+    { $count ->
+        [one] tago
+       *[other] tagoj
+    }
 
 ## Dashboard
 
@@ -434,3 +425,8 @@ you = Vi
 everyone = Ĉiuj
 contribution-activity = Kontribuoj
 top-contributors = Ĉefaj kontribuantoj
+
+## Profile Delete
+
+remove = Forigi
+profile-form-delete = Forigi profilon
