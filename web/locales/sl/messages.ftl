@@ -413,6 +413,10 @@ download-language = Prenesi { $language }
 validated-hours = Potrjenih ur
 recorded-hours = Posnetih ur
 whats-inside = Kaj je v podatkovnem nizu Common Voice?
+dataset-description-hours =
+    Vsak vnos v nabor podatkov je sestavljen iz edinstvene datoteke MP3 in ustrezne besedilne datoteke. Veliko od <b>{ $total }</b> posnetih ur v naboru podatkov vključuje tudi demografske metapodatke, kot so starost, spol in naglas, ki lahko pomagajo pri natančnosti sistemov za prepoznavanje govora.
+    
+    Nabor podatkov je trenutno sestavljen iz <b>{ $valid }</b> potrjenih ur in <b>{ $languages }</b> jezikov, vendar dodajamo še več glasov in jezikov. Oglejte si našo <languagesLink>stran jezikov</languagesLink> in zahtevajte jezik ali začnite prispevati.
 want-dataset-update = Želite prejemati posodobitve ob izdaji nove različice nabora podatkov Common Voice? Naročite se na naše novice.
 subscribe = Naroči se
 get-started-speech = Začnite s prepoznavanjem govora
