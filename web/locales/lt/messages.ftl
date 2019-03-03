@@ -252,11 +252,37 @@ female = Moteris
 # Gender
 other = Kita
 why-profile-title = Kokia profilio nauda?
+why-profile-text = Jei pateiksi truputį savo duomenų, tavo „Common Voice“ projektui pateikti garso įrašai bus naudingesni kalbos atpažinimo varikliams, kurie šiuos duomenis naudoja didesniam tikslumui pasiekti.
+dashboard = Skydelis
+build-profile = Kurti profilį
+avatar = Portretas
+goals = Tikslai
+settings = Nuostatos
+edit-profile = Keisti profilį
+profile-create-success = Profilis sėkmingai sukurtas!
+profile-close = Užverti
+thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo profilį.
+why-demographic = Kodėl tai svarbu?
+keep-me-posted =
+    .label = Norėčiau gauti naujienas „Common Voice“ naujienas.
+login-identity = Prisijungimo tapatybė
+login-signup = Prisijungti / registruotis
+edit = Keisti
+email-subscriptions = El. pašto prenumeratos
+download-profile = Parsisiųsti mano duomenis
 off = Išjungta
 on = Įjungta
+browse-file-title = Įkelk paveiksliuką
+connect-gravatar = Naudoti „Gravatar“ tarnybą
+file_too_large = Pasirinktas failas yra per didelis
+manage-subscriptions = Tvarkyti prenumeratas
+email-already-used = Šis el. paštas jau naudojamas kitoje paskyroje
+add-language = Pridėti kalbą
 
 ## FAQ
 
+faq-title = Dažniausiai užduodami klausimai
+faq-what-cv-q = Kas yra „Common Voice“?
 faq-why-important-q = Kodėl tai svarbu?
 
 ## Glossary
