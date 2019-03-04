@@ -233,7 +233,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Record/Stop
 
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Rerecord clip
+shortcut-rerecord-toggle-label = Re-record clip
 
 request-language-text = Don't see your language on Common Voice yet?
 request-language-button = Request a Language
