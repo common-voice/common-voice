@@ -327,6 +327,10 @@ faq-title = Ceste pšašanja
 faq-what-cv-q = Co Common Voice jo?
 faq-what-cv-a = Technologija głosowego spóznaśa wašnju rewolucioněrujo, na kótaruž z mašinami interagěrujomy, ale tuchylu k dispoziciji stojece systemy su droge a proprietarne. Common Voice jo źěl iniciatiwy Mozilla, technologije głosowego spóznaśa pólěpšyś a wěcej pśistupne cyniś. Common Voice jo wjelicka globalna datowa banka pósćonych głosow, kótaraž kuždemu zmóžnja, pśez głose wóźone nałoženja w kuždej rěcy malsnje a lažko treněrowaś.
 faq-why-important-q = Cogodla jo wažne?
+faq-why-important-a =
+    Powědanje jo cesto nejpśirodnjejša wašnja, na kótruž jaden z drugim komunicěrujomy a głosowe technologije pśinjasu toś tu lěpšynu k našym licadłam a mobilnym rědam. Comy wuwijarjow wuzamóžniś, wjelicne nałoženja głosowego spóznaśa  wuwijaś, na pśikład psełožowaki, kótarež w napšawdnem casu pśełožuju a pśez głos wóźone digitalne asistenty. Ale tuchylu jo nejwěcej głosowych datow, kótarež su trěbne za wuwijanje takich nałoženjow, su droge a proprietarne. Naźejamy se, až datowa sajźba Common Voice wuwijarjam dajo, což trjebaju, aby powědańsku technologiju w swójej rěcy wótnowili a napórali.
+    
+    Aby my głosowe spóznaśe wěcej uniwerselne cynili, gromaźimy głosowe pśikłady w daloko rozšyrjonych rěcach, ale teke w rěcach z małeju licbu powědarjow, kótarež se cesto wót komercielnych słužbow głosowego spóznaśa njepódpěraju. Wózjawjenje wjelerakeje datoweje sajźby głosow wuwijarjow, pśedewześarjow a cełe powědańske zgromaźeństwa wuzamóžnijo, toś tu źěru zatkaś.
 faq-how-get-q = Kak mógu daty Common Voice dostaś?
 faq-how-get-a = Datowa sajźba Common Voice jo pód licencu <licenseLink>CC0</licenseLink> na <datasetLink>našomu bokoju datowych sajźbow</datasetLink> za ześěgnjenje k dispoziciji. Móžośo teke někotare druge zjawnje k dispoziciji stojece datowe sajźby z togo samskego boka ześěgnuś.
 faq-when-release-q = Gdy Common Voice w drugich rěcach wózjawijośo?
