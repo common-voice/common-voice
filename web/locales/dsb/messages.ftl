@@ -336,6 +336,7 @@ faq-how-get-a = Datowa sajźba Common Voice jo pód licencu <licenseLink>CC0</li
 faq-when-release-q = Gdy Common Voice w drugich rěcach wózjawijośo?
 faq-when-release-a = Wěcejrěcna wersija datowje sajźby Common Voice se tuchylu z pomocu zgromaźeństwa zeběra a cysći. Jolic by wy rady wěcej wó pódpěranju toś tych procow zgónił, <contactLink>stajśo se pšosym z nami do zwiska</contactLink>. Měrimy se tuchylu na wózjawjeński datum januara 2019. Pótom buźomy datowu sajźbu pšawidłownje z nowymi rěcami a głosowymi klipami aktualizěrowaś, gaž su k dispoziciji. Iteratiwny wózjawjeński cyklus hyšći njejo póstajony.
 faq-why-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
+faq-why-mission-a = Mozilla jo se pśedewzeł, web za kuždego wótwórjony a pśistupny źaržaś. Aby my to cynili, musymy webawtory pśez webprojekty ako Common Voice wuzamóžniś. Dokulaž głosowe technologije nišowym nałoženjam wurostuju, wěrimy, až muse wšym wužywarjam jadnak słužyś. To groni, do dalšnych rěcow inwestěrowaś a wšake akcenty a demografije zapśimjeś, gaž se głosowe technologije wuwijaju a testuju. Common Voice jo zjawna resursa, kótaraž wšym k dispoziciji stoj, a teamy a wuwijarje Mozilla na cełym swěśe wužywaju jen južo za projekty.
 faq-what-cv-and-deepspeech-q = Co jo rozdźěl mjazy Common Voice a Deep Speech?
 faq-is-goal-assistant-q = Jo cel Common Voice, głosowy asistent napóraś?
 faq-do-want-native-q = Njejsom maminorěcny a powědam z akcentom, cośo mój głos?
