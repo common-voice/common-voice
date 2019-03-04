@@ -325,7 +325,7 @@ change-email-setings = Emejlowu adresu w nastajenjach pod přizjewjenskej identi
 
 faq-title = Huste prašenja
 faq-what-cv-q = Što Common Voice je?
-faq-what-cv-a = Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Common Voice je dźěl iniciatiwy Mozilla, technologije hłosoweho spóznaće polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
+faq-what-cv-a = Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Common Voice je dźěl iniciatiwy Mozilla, technologije hłosoweho spóznaća polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
 faq-why-important-q = Čehodla je wažne?
 faq-why-important-a =
     Rěčenje je husto najpřirodniše wašnje, na kotrež jedyn z druhim komunikujemy a hłosowe technologije přinjesu tutu lěpšinu k našim ličakam a mobilnym gratam. Chcemy wuwiwarjow wukmanić, wulkotne nałoženja hłosoweho spóznaća  wuwiwać, na přikład přełožowaki, kotrež we woprawdźitym času přełožuja a přez hłós wodźene digitalne asistenty. Ale tuchwilu je najwjace hłosowych datow, kotrež su trěbne za wuwiwanje tajkich nałoženjow, su drohe a proprietarne. Nadźijamy so, zo datowa sadźba Common Voice wuwiwarjam da, štož trjebaja, zo bychu rěčensku technologiju w swojej rěči wobnowili a wutworili.
