@@ -501,7 +501,9 @@ request-language-success-content = Hamarosan jelenkezünk további információk
 ## Languages Overview
 
 language-section-in-progress = Folyamatban
+language-section-in-progress-new-description = Ezek a nyelvek jelenleg közösségi fejlesztés alatt állnak. A folyamatjelzők a <localizationGlossaryLink>webhely lokalizáció</localizationGlossaryLink> és a <sentenceCollectionGlossaryLink>mondatgyűjtemény</sentenceCollectionGlossaryLink> előrehaladását jelzi.
 language-section-launched = Elindítva
+language-section-launched-description = Az elindított nyelvek esetén a webhely már sikeresen <localizationGlossaryLink>lokalizálva lett</localizationGlossaryLink>, és elég <sentenceCollectionGlossaryLink>összegyűjtött mondat</sentenceCollectionGlossaryLink> van, hogy lehetővé tegye a <speakLink>Beszéd</speakLink> és <listenLink>Hallgatás</listenLink> közreműködéseket.
 languages-show-more = Több
 languages-show-less = Kevesebb
 language-speakers = Beszélők
