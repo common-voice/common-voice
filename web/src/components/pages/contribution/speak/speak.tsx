@@ -302,15 +302,21 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private startRecording = async () => {
-    await this.audio.start();
-    this.maxVolume = 0;
-    this.recordingStartTime = Date.now();
-    this.recordingStopTime = 0;
-    this.setState({
-      // showSubmitSuccess: false,
-      recordingStatus: 'recording',
-      error: null,
-    });
+    try {
+      await this.audio.start();
+      this.maxVolume = 0;
+      this.recordingStartTime = Date.now();
+      this.recordingStopTime = 0;
+      this.setState({
+        // showSubmitSuccess: false,
+        recordingStatus: 'recording',
+        error: null,
+      });
+    } catch (err) {
+      this.setState({
+        recordingStatus: null,
+      });
+    }
   };
 
   private saveRecording = () => {
