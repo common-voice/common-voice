@@ -15,7 +15,9 @@ loading = Жүктөлүүдө...
 
 ## Languages
 
+ab = Абхазча
 ace = Ачелерче
+ady = Адыгейче
 an = Арагон
 ar = Араб
 as = Ассамча
@@ -85,6 +87,7 @@ te = Телугуча
 th = Тайча
 tr = Түркчө
 tt = Татарча
+udm = Удмуртча
 uk = Украинче
 ur = Урдуча
 uz = Өзбекче
@@ -98,7 +101,7 @@ zh-TW = Кытайча (Тайвань)
 
 ## Layout
 
-speak = Сүйлө
+speak = Сүйлөө
 speak-now = Азыр сүйлө
 datasets = Берилиштер топтому
 languages = Тилдер
@@ -114,9 +117,6 @@ share-title = Башкаларды үн кошууга тартууга жард
 share-text = Машинелерди кадимки кишидей сүйлөтүп үйрөтүүгө жардам бергиле, үнүңүздү мында { $link } жаздырыңыз
 link-copied = Шилтеме көчүрүлдү
 back-top = Башына кайтуу
-contribution-banner-text = Жаңы салым тажрыйбасын ишке киргиздик
-contribution-banner-button = Карап көргүлө
-report-bugs-link = Баг тууралуу билдирүү
 
 ## Home Page
 
@@ -144,7 +144,6 @@ hours-recorded = Саат жазылды
 hours-validated = Саат текшерилди
 read-terms-q = Шарттарыбызды окудуңузбу?
 ready-to-record = Үн кошууга даярсызбы?
-all-languages = Бардык тилдер
 today = Бүгүн
 x-weeks-short =
     { $count ->
@@ -162,6 +161,12 @@ x-years-short =
        *[other] ж.
     }
 
+## Account Benefits
+
+
+## What's public
+
+
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
@@ -175,10 +180,10 @@ shortcut-play-toggle = О
 shortcut-play-toggle-label = Ойнот/Токтот
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = О
+shortcut-vote-yes = о
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = Ж
+shortcut-vote-no = ж
 
 ## Speak Shortcuts
 
@@ -205,12 +210,10 @@ english = Англисче
 
 ## ProfileForm
 
-profile-form-cancel = Толтурмадан чыгуу
-profile-form-delete = Профайлды жок кылуу
 profile-form-username =
     .label = Колдонуучунун аты
-profile-form-language =
-    .label = Тили
+profile-form-additional-language =
+    .label = Кошумча тил
 profile-form-accent =
     .label = Акценти
 profile-form-age =
@@ -219,30 +222,28 @@ profile-form-gender =
     .label = Жынысы
 leaderboard-visibility =
     .label = Лидерлер тактасы
+hidden = Жашыруун
+visible = Көрүнөө
 native-language =
     .label = Эне тили
 profile-form-submit-save = Сактоо
 profile-form-submit-saved = Сакталды
-profile-keep-data = Берилишти сактоо
-profile-delete-data = Берилишти жок кылуу
 male = Эркек
 female = Аял
 # Gender
 other = Башка
 why-profile-title = Профайл эмнеге керек?
 why-profile-text = Өзүңөр жөнүндө маалымат берүү, сиз Common Voice'ко кошкон аудио берилиштин Үн Таануу машинесинин тактыгын арттырууга болгон пайдасын көбөйтөт.
+avatar = Аватар
+goals = Максаттар
 edit-profile = Профайлды өзгөртүү
-profile-create = Профайл түзүү
 profile-create-success = Профайл түзүлдү!
 profile-close = Жабуу
-profile-clear-modal = Профайл берилиштерин тазалоо, бул демографиялык маалыматтар Common Voice'ко жаздырган үзүндүлөргө кошулбайт дегенди билдирет.
 profile-explanation = Прогрессиңерди профайл аркылуу башкарып, үн берилиштеринин так болушуна жардам бериңиз.
 thanks-for-account = Эсебиңизди тастыктаганыңызга ырахмат, эми профайлыңызды түзүп баштайлы.
 why-demographic = Эмне үчүн бул маанилүү?
-why-demographic-explanation = Курагы, жынысы жана акценти көрсөтүлбөгөн анонимдүү аудио берилиштер таануу машинелеринин тактыгын машыктырууга жардам берет. Колдонуучу атыңыз жана эмейлиңиз сиз кошкон берилиштер менен эч качан байланыштырылбайт. Колдонуучу атыңызды ачык же жабык кармоону өзүңүз чечесиз.
 keep-me-posted =
     .label = Common Voice жаңыртууларын жана учурдагы жаңылыктарын алып турууну каалайм.
-accept-privacy = Бул маалымат Mozilla'нын <privacyLink>Купуялуулук саясатында</privacyLink> көрсөтүлгөн тартипте колдонулушуна макулмун.
 login-identity = Кирүү идентификаторы
 edit = Өзгөртүү
 email-subscriptions = Эмейл жазылуулары
@@ -257,30 +258,9 @@ on = Иштет
 ## FAQ
 
 faq-title = Көп Берилген Суроолор
-faq-what-q = Common Voice деген эмне?
-faq-what-a = Үн таануу технологиясы машинелер менен иштешүүбүздө революция кыла алат, бирок учурдагы жеткиликтүү системдер кымбат жана акылуу. Common Voice - үн таануу технологиясын баарына оңой жеткиликтүү кылууну көздөгөн долбоор. Ар ким өз үнүн көлөмдүү маалымат коруна кошо алат. Бул бардыгына үн менен иштеген колдонмолорду ылдам жана оңой машыктырууга  жол ачат. Бардык үн берилиштери өндүрүүчүлөр үчүн жеткиликтүү болот.
-faq-important-q = Эмне үчүн бул маанилүү?
-faq-important-a = Үн - бул табият, үн - бул киши. Байланыш түзүүнүн эң табигый жолу. Биз, өндүрүүчүлөр заматта которуудан тартып үн менен башкарылган жардамчыга чейинки мыкты колдонмолорду жаратышын каалайбыз. Учурда мындай колдонмолорду иштеп чыгууга керектүү ачык берилиштердин жетиштүү көлөмү жок. Биз Common Voice өндүрүүчүлөргө инновацияларды жаратуудагы керегин камсыздап берет деп үмүттөнөбүз.
-faq-get-q = Common Voice берилиштерин кантип алсам болот?
-faq-get-a = Берилиштер топтому <downloadLink>жүктөп алуу баракчабызда</downloadLink> <licenseLink>CC-0</licenseLink> лицензиясынын шартында жеткиликтүү.
-faq-mission-q = Эмне үчүн Common Voice Mozilla миссиясынын бир бөлүгү?
-faq-mission-a = Mozilla интернетти ачык жана баарына жеткиликтүү сактоого умтулат. Максатыбызга жетүү үчүн биз Common Voice сыяктуу долбоорлор аркылуу желе кызматтарын жаратуучуларын колдошубуз керек. Үн технологиялары тар максаттуу колдонмолор аркылуу тез өнүгүп жаткандыктан, алар бардык колдонуучуларга тең иштеши керек деп ишенебиз. Үн технологияларын түзүп жана сынап жатканда көп тилдер, акценттер жана демографиялык топтор кошулушу керектигин көрүп турабыз. Mozilla чың жана жаркын интернетти көргүсү келет. Бул жаңы жаратуучулар чыгаан долбоорлорду жаратуусу үчүн үн берилиштерин жеткиликтүү кылуу дегенди түшүндүрөт. Common Voice бүт дүйнө жүзүндөгү өнүктүрүүчүлөргө жана Mozilla тобуна жардам берген ачык ресурс болот.
-faq-native-q = { $lang } эне тилим эмес жана анда акцент менен сүйлөйм, ошентсе деле үнүм керекпи?
-faq-native-a = Ооба, үнүңүздү каалаганыбыз чын! Common Voice максаттарынын бири - компүтер <bold>ар бир</bold> сүйлөгөн кишини жакшыраак түшүнүш үчүн, болушунча көп акцент чогултуу.
-faq-firefox-q = Common Voice аркылу үндү-текстке технологиясы Firefox курамына киреби?
-faq-firefox-a = Common Voice дарамети чексиз жана биз үн интерфейсттерин көптөгөн Mozilla өнүмдөрүндө, анын ичинде Firefox'то дагы изилдейбиз.
-faq-quality-q = Кандай сапаттагы аудио пайдаланууга жарактуу болот?
-faq-quality-a = Аудионун сапаты чыныгы турмушта кандай болсо, сөздү-үнгө айлантуучу машине ошондой шарта болушун каалайбыз. Бул биз ар түрдүүлүктү каалайбыз дегенди түшүндүрөт. Бул сөздү-үнгө айланатуучу машине түрдү кырдаалдарда - ар жакта бирөө сүйлөп жаткан, автонун үнү, желдеткичтин шуулдаганы сыяктуу - катасыз иштегенди үйрөтөт.
-faq-hours-q = Жаздыруу максаты эмне үчүн 10,000 саат?
-faq-hours-a = Бул СТА системин машыктырууга керектүү убакыттын болжолдуу көлөмү.
-faq-source-q = Тексттин булагы кайдан алынат?
-faq-source-a1 = Бул сүйлөмдөр ыктыярчылардын салымы, маектер болсо коомдук мүлккө өткөн <italic>Бул керемет жашоо</italic> сыяктуу тасмалардан алынган.
-faq-source-a2 = Биздин сүйлөмдөрдүн <dataLink>булагын GitHub папкадан</dataLink> көрө аласыңар.
 
-## Profile
+## Glossary
 
-profile-why-title = Профайл эмне үчүн керек?
-profile-why-content = Өзүңөр жөнүндө маалымат берүү, сиз Common Voice'ко кошкон аудио берилиштин Үн Таануу машинесинин тактыгын арттырууга болгон пайдасын көбөйтөт.
 
 ## NotFound
 
@@ -300,30 +280,10 @@ data-get-started = <speechBlogLink>Сөз таанууну баштоо</speechB
 data-other-title = Башка үн базалары...
 data-other-goto = { $name } өтүү
 data-other-download = Берилиш жүктөп алуу
-data-other-librispeech-description = LibriSpeech - LibriVox долбоорунун англисче окулган аудио китептеринен алынган корпус. Болжолдуу көлөмү 1000 саат, сапаты 16Khz .
-data-other-ted-name = TED-LIUM корпусу
-data-other-ted-description = TED-LIUM корпусу - TED сайтындагы ачык жеткиликтүү аудио сүйлөшүүлөрдүн жана алардын транскрипцияларынан түзүлгөн корпус.
-data-other-voxforge-description = VoxForge - бекер жана ачык булактуу сөз таануу машинелеринин пайдалануусу үчүн чечмеленген сөздөрдү чогултуу максатында түзүлгөн.
-data-other-tatoeba-description = Tatoeba - тил үйрөнүү максатында колдонулган сүйлөмдөрдүн, котормолордун жана айтылган аудиолордун кору. Бул жүктөп алуу англис тил коомдоштугу жаздырган айтымдарды камтыйт.
 data-bundle-button = Берилиштер топтомосун жүктөп алгыла
 data-bundle-description = Common Voice жана жогорудагы айтылган бардык үн корлору.
 license = Лицензиясы: <licenseLink>{ $license }</licenseLink>
 license-mixed = Аралашкан
-
-## Record Page
-
-record-platform-not-supported = Кечиресиз, сиздин платформаңыз учурда колдоого алынбайт.
-record-platform-not-supported-desktop = Компүтерден бул акыркы жаңылыктарды жүктөй аласыңар:
-record-platform-not-supported-ios = <bold>iOS</bold> колдонучуулары колдонмобузду акысыз жүктөй алышат:
-record-must-allow-microphone = Микрофонго уруксат беришиңер керек.
-record-retry = Кайта
-record-no-mic-found = Микрофон табылган жок
-record-error-too-short = Жаздыруу өтө кыска болду.
-record-error-too-long = Жаздыруу өтө узун болду.
-record-error-too-quiet = Жаздыруу өтө акырын болду.
-record-submit-success = Ийгиликтүү кошулду! Дагы жаздыргыңыз келеби?
-record-help = Жаздыруу үчүн баскычты басыңыз, андан соң жогорудагы сүйлөмдү үнүңүздү чыгарып окуңуз.
-record-cancel = Кайра жаздыруудан баш тартуу
 review-terms = Сиз Common Voice'ту колдонуу менен биздин <termsLink>эрежелерибиз</termsLink> жана <privacyLink>купуялуулук эскертмебиз</privacyLink> менен макулдуңузду билдиресиз
 terms-agree = Макулмун
 terms-disagree = Макул эмесмин
@@ -335,6 +295,14 @@ review-rerecord = Кайра жаздыруу
 review-cancel = Кошуудан баш тартуу
 review-keep-recordings = Жаздырууну улантуу
 review-delete-recordings = Жаздырууларды жок кылуу
+
+## New Datasets Page
+
+data-other-librispeech-description = LibriSpeech - LibriVox долбоорунун англисче окулган аудио китептеринен алынган корпус. Болжолдуу көлөмү 1000 саат, сапаты 16Khz .
+data-other-ted-name = TED-LIUM корпусу
+data-other-ted-description = TED-LIUM корпусу - TED сайтындагы ачык жеткиликтүү аудио сүйлөшүүлөрдүн жана алардын транскрипцияларынан түзүлгөн корпус.
+data-other-voxforge-description = VoxForge - бекер жана ачык булактуу сөз таануу машинелеринин пайдалануусу үчүн чечмеленген сөздөрдү чогултуу максатында түзүлгөн.
+data-other-tatoeba-description = Tatoeba - тил үйрөнүү максатында колдонулган сүйлөмдөрдүн, котормолордун жана айтылган аудиолордун кору. Бул жүктөп алуу англис тил коомдоштугу жаздырган айтымдарды камтыйт.
 
 ## Download Modal
 
@@ -366,9 +334,7 @@ request-language-success-content = Тилинизди Common Voice'ко кант
 ## Languages Overview
 
 language-section-in-progress = Каралууда
-language-section-in-progress-description = Учурда каралып жаткан тилдер биздин коомчулуктун салымы менен түзүлүүдө; алардын жылышы сайтын которулушу жана сүйлөм чогултуу иштеринин абалын чагылдырып турат.
 language-section-launched = Ишке кирди
-language-section-launched-new-description = Иштетилип баштаган тилдердин вебсайты ийгиликтүү которулган жана жетиштүү санда сүйлөмдөр чогултулган.  <italic>Сүйлөп</italic> жана <italic>Угуп</italic> салым кошо берсе болот.
 languages-show-more = Көбүрөөк көрүү
 languages-show-less = Aзыраак көрүү
 language-speakers = Сүйлөгөндөр
@@ -398,6 +364,15 @@ contribute-more =
        *[other] Дагы { $count } салым кошконго даярсыңарбы?
     }
 record-cta = Жаздырып баштоо
+record-platform-not-supported = Кечиресиз, сиздин платформаңыз учурда колдоого алынбайт.
+record-platform-not-supported-desktop = Компүтерден бул акыркы жаңылыктарды жүктөй аласыңар:
+record-platform-not-supported-ios = <bold>iOS</bold> колдонучуулары колдонмобузду акысыз жүктөй алышат:
+record-must-allow-microphone = Микрофонго уруксат беришиңер керек.
+record-no-mic-found = Микрофон табылган жок
+record-error-too-short = Жаздыруу өтө кыска болду.
+record-error-too-long = Жаздыруу өтө узун болду.
+record-error-too-quiet = Жаздыруу өтө акырын болду.
+record-cancel = Кайра жаздыруудан баш тартуу
 record-instruction = { $actionType } <recordIcon></recordIcon> андан кийин сүйлөмдү үн чыгарып окугула
 record-stop-instruction = Даяр болгондо { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = үчөө калды!
@@ -421,3 +396,13 @@ listen-last-time-instruction = <playIcon></playIcon> Акыркысы!
 nothing-to-validate = Бул тилде текшергенге эч нерсе жок, кезекти толтуруп бизге жардам бергиле.
 record-button-label = Үнүңөрдү жаздыргыла
 share-title-new = Дагы үн тапканга <bold>бизге жардам</bold> бергиле
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Профайлды жок кылуу
