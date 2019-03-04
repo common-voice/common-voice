@@ -2,6 +2,10 @@
 
 contribute = Piedalīties
 get-involved-button = Iesaisties
+get-involved-title = Sekmēt { $lang }
+get-involved-text =
+    Paldies par jūsu interesi piedalīties { $lang }. Mēs cītīgi strādājam, lai ikviena valoda būtu gatava uzsākšanai un regulāri
+    informējam komandas pa epastu. Ja vēlaties piedalīties, lūdzu, norādiet savu epasta adresi zemāk.
 get-involved-form-title = Pierakstieties uz { $lang } valodas jaunumiem:
 get-involved-email =
     .label = Epasts
