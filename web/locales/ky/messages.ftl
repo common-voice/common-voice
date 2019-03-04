@@ -166,6 +166,7 @@ x-years-short =
 
 ## What's public
 
+whats-public = Ачык деген эмне?
 
 ## Speak & Listen Shortcuts
 
