@@ -47,6 +47,7 @@ fr = Французча
 fy-NL = Фризче
 ga-IE = Ирландча
 he = Еврейче
+hr = Хорватча
 hsb = Сорбиан, жогорку
 hu = Венгерче
 ia = Интерлингуа
@@ -144,6 +145,7 @@ hours-recorded = Саат жазылды
 hours-validated = Саат текшерилди
 read-terms-q = Шарттарыбызды окудуңузбу?
 ready-to-record = Үн кошууга даярсызбы?
+all-locales = Бардык
 today = Бүгүн
 x-weeks-short =
     { $count ->
@@ -160,6 +162,7 @@ x-years-short =
         [one] ж.
        *[other] ж.
     }
+help-make-dataset = Жогорку сапаттагы, ачык жеткиликтүү үн корун курууга жардам бериңиз
 
 ## Account Benefits
 
@@ -224,7 +227,7 @@ profile-form-gender =
 leaderboard-visibility =
     .label = Лидерлер тактасы
 hidden = Жашыруун
-visible = Көрүнөө
+visible = Көрүнcүн
 native-language =
     .label = Эне тили
 profile-form-submit-save = Сактоо
