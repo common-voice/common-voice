@@ -118,6 +118,7 @@ share-title = Башкаларды үн кошууга тартууга жард
 share-text = Машинелерди кадимки кишидей сүйлөтүп үйрөтүүгө жардам бергиле, үнүңүздү мында { $link } жаздырыңыз
 link-copied = Шилтеме көчүрүлдү
 back-top = Башына кайтуу
+logout = Чыгуу
 
 ## Home Page
 
@@ -143,6 +144,9 @@ listen-paragraph = Жаздырууларды текшерүү дагы Common V
 listen-goal-text = Үзүндүлөр текшерилди
 hours-recorded = Саат жазылды
 hours-validated = Саат текшерилди
+voices-online = Үн азыр онлайнда
+todays-progress = Бүгүнкү жылыш
+help-reach-goal = { $goal } жеткенге жардам бериңиз
 read-terms-q = Шарттарыбызды окудуңузбу?
 ready-to-record = Үн кошууга даярсызбы?
 all-locales = Бардык
@@ -195,6 +199,7 @@ shortcut-vote-no = ж
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = к
 shortcut-record-toggle-label = Жаздыруу/Токтот
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Сиздин тилиңиз Common Voice'то жок бекен?
 request-language-button = Тил талап кылуу
 
@@ -216,6 +221,8 @@ english = Англисче
 
 profile-form-username =
     .label = Колдонуучунун аты
+profile-form-native-language =
+    .label = Эне тили
 profile-form-additional-language =
     .label = Кошумча тил
 profile-form-accent =
@@ -238,6 +245,7 @@ female = Аял
 other = Башка
 why-profile-title = Профайл эмнеге керек?
 why-profile-text = Өзүңөр жөнүндө маалымат берүү, сиз Common Voice'ко кошкон аудио берилиштин Үн Таануу машинесинин тактыгын арттырууга болгон пайдасын көбөйтөт.
+dashboard = Жыйынтыктар
 avatar = Аватар
 goals = Максаттар
 settings = Туралоо
