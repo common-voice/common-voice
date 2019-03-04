@@ -325,6 +325,7 @@ change-email-setings = E-mailowu adresu w nastajenjach pód pśizjawjeńskeju id
 
 faq-title = Ceste pšašanja
 faq-what-cv-q = Co Common Voice jo?
+faq-what-cv-a = Technologija głosowego spóznaśa wašnju rewolucioněrujo, na kótaruž z mašinami interagěrujomy, ale tuchylu k dispoziciji stojece systemy su droge a proprietarne. Common Voice jo źěl iniciatiwy Mozilla, technologije głosowego spóznaśa pólěpšyś a wěcej pśistupne cyniś. Common Voice jo wjelicka globalna datowa banka pósćonych głosow, kótaraž kuždemu zmóžnja, pśez głose wóźone nałoženja w kuždej rěcy malsnje a lažko treněrowaś.
 faq-why-important-q = Cogodla jo wažne?
 faq-how-get-q = Kak mógu daty Common Voice dostaś?
 faq-how-get-a = Datowa sajźba Common Voice jo pód licencu <licenseLink>CC0</licenseLink> na <datasetLink>našomu bokoju datowych sajźbow</datasetLink> za ześěgnjenje k dispoziciji. Móžośo teke někotare druge zjawnje k dispoziciji stojece datowe sajźby z togo samskego boka ześěgnuś.
