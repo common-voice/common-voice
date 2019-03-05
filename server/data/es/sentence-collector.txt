@@ -63,6 +63,7 @@ A ver, ¿tú me escuchas cuando hablo?
 Abogado en el concejo hace de lo blanco negro.
 Abogado joven, pleito perdido.
 Abogado, juez y doctor, cuanto más lejos, mejor.
+Aborto es la interrupción de un embarazo.
 Abre la vitrina y coge la figura indicada.
 Abril frío, poco pan y poco vino.
 Abrir el archivo de texto y corregirlo.
@@ -137,6 +138,7 @@ Algunas frases están mal hechas.
 Algunos montan a caballo para que no los muerdan los perros.
 Allá donde fueres, haz lo que vieres.
 Allá va el niño, donde le tratan con cariño.
+Allí el vehículo comenzó a dar tumbos y más tumbos.
 Ama al grado que quieras ser amado.
 Amar sin padecer, no puede ser.
 Amigo de muchos, amigo de ninguno.
@@ -246,6 +248,7 @@ Casa con dos puertas, mala es de guardar.
 Celebremos con un chocolate caliente.
 Cesar es un muchacho saudí.
 Chicos, creo que lo he encontrado.
+Chile es un país.
 Cien niños del mismo vientre y todos son diferentes.
 Cierra la puerta que hay corriente de aire.
 Cinco minutos de despedida, dijimos todo cuanto callamos.
@@ -406,6 +409,8 @@ Eh, ¡que te dejas el móvil al cajero automático!
 El Espanyol es un club de fútbol.
 El José fue de los primeros que encontró trabajo de todo el grupo.
 El Prat de Llobregat es un municipio que ha crecido mucho.
+El Salvador se encuentra en centromerica y es un buen país.
+El aborto es una acción.
 El abril, aguas mil
 El agrado en la persona, cuantos bienes proporciona.
 El aire no es tóxico.
@@ -570,6 +575,7 @@ Elige el idioma por defecto.
 Elisabet y Martín se van de vacaciones a Japón.
 Ella es fuerte como una montaña.
 Ella es vegana, luego tenemos que pensar en su comida.
+Ella no te ama.
 Ella sabe tocar el piano, y yo el violín.
 Ellos dicen que sí y yo digo que no.
 Ellos hacen buena pareja, se van a casar en mayo.
@@ -793,6 +799,7 @@ Estás un poco papanatas, pero me haces reír.
 Exactamente quién soy y para qué estoy aquí
 Favor con favor se paga.
 Feli hace aquagym.
+Feminista es una persona con una fuerte lucha.
 Fiesta sin vino no vale un comino.
 Fiti, vete , por favor. vete .
 Francisco es quico.
@@ -911,11 +918,13 @@ Hizo un arranque de caballo y una parada de burro.
 Hola, pequeña dama.
 Hola. Check . ¿ mejor? bien .
 Hola, buenos días.
+Hola. Hola mundo.
 Hombre, las muñecas realmente deben morir por usted. ¿ Me puede enseñar a hacer eso? .
 Hombre prevenido vale por dos.
 Hoy es el cumpleaños de mi hermana pequeña.
 Hoy es miércoles.
 Hoy la pescadilla iba barato, pero las gambas eran carísimas.
+Hoy me toca ir a la radio
 Hoy no me puedo levantar.
 Hoy por ti, y mañana por mi.
 Hoy que no llevo paraguas seguro que llueve.
@@ -931,6 +940,7 @@ Iba todo tan bien...
 Incluso tuvieron que llamar a la policía.
 Instagram es la aplicación más usada por los jóvenes.
 Intentaba recoger basura de la calle y venderlos, pero no lo conseguía.
+Internet una herramienta importante.
 Introduzca el número secreto y siga las indicaciones de la pantalla.
 Ir contracorriente no es de hombre prudente.
 Iremos a Lourdes con autocar.
@@ -1248,6 +1258,7 @@ Los youtubers están muy de moda ahora
 Los últimos serán los primeros.
 Luego haremos una barbacoa.
 Luz de láser intermitente.
+Machismo es cultura no género
 Madre no hay más que una.
 Madruga y verás; trabaja y habrás.
 Mal camino no puede ir a buen lugar.
@@ -1304,12 +1315,15 @@ Me parece que no va a haber suficiente pan para la cena.
 Me parece que tenemos una plaga de mosquitos tigre.
 Me siento entre las estrellas
 Me subleva que me digan que hago faltas.
+Me toca ir a clases de computación sobre servidores en la nube
 Me toca trabajar en el turno de tarde.
 Me voy enseguida.
 Mejor no menear el arroz aunque se pegue.
 Memoria selectiva para recordar lo bueno, prudencia lógica para no arruinar el presente.
 Merced, ¡haz el favor de recoger las muñecas!
 Mezclan Fanta y Eristoff en una cazuela.
+Mi amiga es feminista
+Mi amigo es feminista
 Mi asistente virtual es mejor que tu.
 Mi camiseta es de color amarillo.
 Mi color favorito es el rosa
@@ -1323,16 +1337,19 @@ Mi profesor dice que la inteligencia artificial acabará con la especie humana.
 Mi tío y mi hermano se llevan muy bien.
 Mientras hay vida hay esperanza.
 Mientras tanto, la hija se le casó con un ocasional.
+Migraciones masivas es una realidad actualmente.
 Miguel Ángel era un artista integral.
 Millones de euros, hemos perdido.
 Mira, en esa casa hay un niño que piensa que eres lo mejor.
 Mira, ya han vuelto.
 Mira adelante y no caerás atrás.
+Mira un insecto
 Mireia, ¡pásame los tapones!
 Mis abuelos se conocieron yendo a cosechar uvas.
 Mis abuelos vivieron en la guerra.
 Misión cumplida. Buen trabajo . Volvemos a casa .
 Misión secreta en el espacio.
+Mozilla es una fundación que busca la libertad en la web.
 Muchas gracias por su colaboración.
 Muchos pocos hacen un mucho.
 Muerde mis labios. Sangre que brota.
@@ -1713,6 +1730,7 @@ Prefiero una botella de Font Vella que dos latas de Fanta.
 Pretendía sorprendernos, pero al final pasó lo contrario.
 Primavera fría, cosecha tardía.
 Primero es la obligación que la devoción.
+Programar te da habiliades de organización.
 Progresaremos mediante su influencia.
 Protejo a la galaxia de la amenaza de invasión...
 Pude perder mis globos oculares...
@@ -1725,6 +1743,7 @@ Pues a mí, la película me gustó mucho.
 Pues coge otro juguete. ¡ Baja ya!
 Pues estará ahí. No has buscado bien .
 Pues yo, no me fío nada.
+Python como un legunaje de programación.
 Que Marta no vaya a Cornellá no significa que tú no tengas que ir.
 Que cada palo aguante su vela.
 Que esto fué solamente una gran equivocación.
@@ -1732,6 +1751,7 @@ Que fuerte, Ernesto va de cabeza de lista.
 Que la venganza no es una idea que promocionemos en mi planeta.
 Que lo dejé ahí.
 Que los pilotos aéreos hagan huelga durante el verano, ya es un clásico.
+Que montón de cosas hay en esta página.
 Que se alce el telón.
 Que sueñes con los angelitos.
 Que te afecte es malo.
@@ -1958,6 +1978,7 @@ Te felicito. Alguien menos fuerte hubiese hablado bajo tal tortura .
 Te recomiendo un parche de hierbas.
 Te refrescarás con un Aquarius de naranja.
 Te vendrán pesares sin que los buscares.
+Teclear todos los dias en el computador, una frase más.
 Ten cuidado. No querrás que te alcance mi láser .
 Ten cuidado al cruzar la calle.
 Ten cuidado con eso.
@@ -1985,6 +2006,7 @@ Tengo mucha hambre.
 Tengo más sueño que hambre.
 Tengo novia.
 Tengo que estudiar.
+Tengo tanto sueño
 Tengo un poco de insomnio, creo.
 Tengo un tractor amarillo, que es lo que se lleva ahora.
 Tengo una mejor idea.
@@ -2018,6 +2040,7 @@ Todos los días contigo y ahora todos sin ti.
 Todos los niños nacen artistas. El problema es cómo seguir siendo artistas al crecer.
 Todos los niños y niñas esperan el verano.
 Todos los papeles de envolver están arrugados.
+Todos somos fuertes juntos.
 Tomaré leche con galletas.
 Trabaja como si vivieres siempre y vive como si murieses hoy.
 Trabaja en la Agencia Catalana del Agua, Iván.
@@ -5963,6 +5986,7 @@ yo ya no puedo estar contigo.
 ¡No se oye!
 ¡No tendremos tanta suerte, Ferran!
 ¡Pasaremos unos días en el balneario, Marta!
+¡Pero que barbaridad, como has crecido!
 ¡Páginas y páginas de poesías ridículas me ha dejado en herencia!
 ¡Que buena pinta tiene la tarta!
 ¡Quiero decidirlo yo solito!
@@ -6412,6 +6436,7 @@ yo ya no puedo estar contigo.
 ¿Qué estudios haces?
 ¿Qué experiencias personales valoras más?
 ¿Qué hacen en el cine?
+¿Qué hacer? ¿Le detendrían si no pagaba? lleno de angustia registré mis bolsillos.
 ¿Qué haces los jueves después de cenar?
 ¿Qué hiciste ayer por la tarde?
 ¿Qué hora es?
