@@ -8,6 +8,8 @@ email-input =
     .label = E-post
 submit-form-action = Send inn
 loading = Lastar…
+email-opt-in-privacy = Ved å vejle å ta i mot e-post seier du deg samd i at Mozilla kan handtere denne informasjonen slik det er skildra i <privacyLink>personvernfråsegna<privacyLink> til Mozilla.
+indicates-required = * Viser påkravd felt
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,14 @@ loading = Lastar…
 
 ## Languages
 
+ace = Atsenesisk
+af = Afrikaans
 an = Aragonesisk
 ar = Arabisk
 as = Assamesisk
 ast = Asturiansk
 az = Aserbajdsjansk
+bg = Bulgarsk
 bn = Bengali
 br = Bretonsk
 bxr = Burjatisk
@@ -37,12 +42,15 @@ en = Engelsk
 eo = Esperanto
 es = Spansk
 et = Estisk
+eu = Baskisk
+fa = Persisk
 fi = Finsk
 fo = Færøysk
 fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
 he = Hebraisk
+hr = Kroatisk
 hsb = Oversorbisk
 hu = Ungarsk
 ia = Interlingua
@@ -57,13 +65,16 @@ ko = Koreansk
 kpv = Komi (syriansk)
 kw = Kornisk
 ky = Kirgisk
+lt = Litauisk
 mdf = Moksja
 mk = Makedonsk
+mn = Mongolsk
 myv = Erziamordvinsk
 nb-NO = Norsk bokmål
 ne-NP = Nepalsk
 nl = Nederlandsk
 nn-NO = Norsk nynorsk
+oc = Oksitansk
 or = Oriya
 pl = Polsk
 pt-BR = Portugisisk (Brazil)
@@ -71,6 +82,7 @@ rm-sursilv = Retoromansk surselva
 ro = Rumensk
 ru = Russisk
 sah = Sakha
+sc = Sardinsk
 sk = Slovakisk
 sl = Slovensk
 sq = Albansk
@@ -84,6 +96,7 @@ tt = Tatarisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
+vi = Vietnamesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
@@ -109,6 +122,7 @@ share-title = Hjelp oss med å finne andre som vil donere stemma si!
 share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner stemma di på { $link }
 link-copied = Lenke kopiert
 back-top = Tilbake til toppen av sida
+logout = Logg ut
 
 ## Home Page
 
@@ -126,7 +140,27 @@ vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
 speak-subtitle = Doner stemma di
 speak-goal-text = Innspelte klipp
+listen-subtitle = Hjelp oss med å validere stemmene
 listen-goal-text = Validerte klipp
+hours-recorded = Innspelte timar
+hours-validated = Validerte timar
+voices-online = Stemmer på nettet no
+todays-progress = Framdrift i dag
+help-reach-goal = Hjelp oss å nå { $goal }
+read-terms-q = Har du lese vilkåra våre?
+ready-to-record = Klar for å donere stemma di til oss?
+all-locales = Allle
+today = I dag
+x-weeks-short =
+    { $count ->
+        [one] veke
+       *[other] { $count } veker
+    }
+x-months-short =
+    { $count ->
+        [one] mnd
+       *[other] { $count }mndr
+    }
 help-make-dataset = Hjelp oss å byggje eit offentleg, ope datasett med høg kvalitet
 profile-not-required = Du treng ikkje ein konto for å bidra, men det er til hjelp
 sign-up-account = Be om konto
@@ -295,6 +329,7 @@ data-other-ted-description = TED-LIUM korpuset er laga på bakgrunn av lydsamtal
 data-other-voxforge-description = VoxForge vart starta for å samla inn transskriberet tale for bruk i talegjenkjenningssystem basert på fri og open kjeldekode.
 data-other-tatoeba-description = Tatoeba er ein stor database av setningar, omsettingar og innspelt lyd for bruk i språklæring. Denne filhentninga inneheld talt engelsk spelt inn av fellesskapet på Tatoeba.
 go-languages-page = Gå til språksida
+ready-to-validate = Er du klar for å hjelpe til med å validere setningar?
 more = Meir
 close = Lat att
 download = Last ned
@@ -414,9 +449,18 @@ your-languages = Språka dine
 toward-next-goal = Mot neste mål
 clips-you-recorded = Klipp du har spelt inn
 clips-you-validated = Klipp du har validert
+stats = Statistikk
+you = Du
+everyone = Alle
 contribution-activity = Bidragsaktivitet
+top-contributors = Toppbidragsytarar
+recorded-clips = Innspelte klipp
+validated-clips = Validerte klipp
 total-approved = Godkjende i alt
+overall-accuracy = Nøyaktigheit jamt over
 
 ## Profile Delete
 
+keep = Behald
+remove = Fjern
 profile-form-delete = Slett profilen
