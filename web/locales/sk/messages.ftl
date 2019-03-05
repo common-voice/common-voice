@@ -53,6 +53,7 @@ fo = faerčina
 fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
+gl = galícijčina
 he = hebrejčina
 hr = chorvátčina
 hsb = hornolužická srbčina
@@ -70,6 +71,7 @@ kpv = komi-zyriančina
 kw = kornčina
 ky = kirgizština
 lt = litovčina
+lv = lotyština
 mdf = mokša
 mhr = lúčnovýchodná marijčina
 mk = macedónčina
@@ -227,6 +229,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrať/zastaviť
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Nevidíte na Common Voice svoj jazyk?
 request-language-button = Požiadajte o jazyk
 
@@ -313,6 +316,9 @@ faq-where-src-from-2-q = Odkiaľ pochádza zdrojový text?
 
 ## Glossary
 
+glossary = Slovník
+localization = Lokalizácia
+sentence-collection = Zber viet
 
 ## NotFound
 
@@ -354,9 +360,11 @@ language = Jazyk
 # File size in gigabytes
 size = Veľkosť
 cv-license = Licencia
+audio-format = Formát zvuku
 size-gigabyte = GB
 size-megabyte = MB
 subscribe = Odoberať
+feedback-q = Máte spätnú väzbu?
 data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvorený zvukovými nahrávkami prednášok a ich prepismi dostupnými na webovej stránke TED.
@@ -401,9 +409,7 @@ request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pri
 ## Languages Overview
 
 language-section-in-progress = Jazyky, ktoré sa pripravujú
-language-section-in-progress-description = Tieto jazyky momentálne naše komunity pripravujú na prispievanie. Ich pokrok zobrazuje, ako ďaleko sú s prekladom stránky a so zberom viet.
 language-section-launched = Spustené jazyky
-language-section-launched-new-description = V týchto jazykoch je webová stránka dostupná a zároveň máme pre našich prispievateľov dostatočné množstvo viet.
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet prispievateľov
