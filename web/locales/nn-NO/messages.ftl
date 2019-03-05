@@ -49,6 +49,7 @@ fo = Færøysk
 fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
+gl = Galisisk
 he = Hebraisk
 hr = Kroatisk
 hsb = Oversorbisk
@@ -57,6 +58,7 @@ ia = Interlingua
 id = Indonesisk
 is = Islandsk
 it = Italiensk
+izh = Ingrisk
 ja = Japansk
 ka = Georgisk
 kab = Kabylsk
@@ -66,9 +68,12 @@ kpv = Komi (syriansk)
 kw = Kornisk
 ky = Kirgisk
 lt = Litauisk
+lv = Latvisk
 mdf = Moksja
+mhr = Austmarisk
 mk = Makedonsk
 mn = Mongolsk
+mrj = Vestmarisk
 myv = Erziamordvinsk
 nb-NO = Norsk bokmål
 ne-NP = Nepalsk
@@ -81,6 +86,7 @@ pt-BR = Portugisisk (Brazil)
 rm-sursilv = Retoromansk surselva
 ro = Rumensk
 ru = Russisk
+rw = Kinyarwanda
 sah = Sakha
 sc = Sardinsk
 sk = Slovakisk
@@ -93,10 +99,12 @@ te = Telugu
 th = Thai
 tr = Tyrkisk
 tt = Tatarisk
+udm = Udmurtisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
 vi = Vietnamesisk
+vot = Votisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
@@ -161,9 +169,15 @@ x-months-short =
         [one] mnd
        *[other] { $count }mndr
     }
+x-years-short =
+    { $count ->
+        [one] år
+       *[other] { $count } år
+    }
 help-make-dataset = Hjelp oss å byggje eit offentleg, ope datasett med høg kvalitet
 profile-not-required = Du treng ikkje ein konto for å bidra, men det er til hjelp
 sign-up-account = Be om konto
+email-subscription-title = registrer deg for oppdateringar via e-post
 
 ## Account Benefits
 
@@ -207,6 +221,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
 shortcut-record-toggle-label = Spel inn/Stopp
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Spel inn klippet ein gong til
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
 request-language-button = Send ein førespurnad om eit nytt språk
 
@@ -228,14 +244,22 @@ english = Engelsk
 
 profile-form-username =
     .label = Brukarnamn
+profile-form-native-language =
+    .label = Morsmål
+profile-form-additional-language =
+    .label = Ytterlegare språk
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
     .label = Alder
 profile-form-gender =
     .label = KJønn
+leaderboard-visibility =
+    .label = Synlegheit på toppliste
 hidden = Usynleg
 visible = Synleg
+native-language =
+    .label = Morsmål
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagra
 male = Mann
@@ -244,6 +268,11 @@ female = Kvinne
 other = Anna
 why-profile-title = Kvifor ein profil?
 why-profile-text = Ved å gje nokre opplysingar om deg sjølv, vil dei lyddata, du sender inn til Common Voice verte meir nyttige for talegjenkjennings-systema som brukar desse dataa til å forbetre nøyaktigheita si.
+dashboard = Oversyn
+build-profile = Bygg profil
+avatar = Avatar
+goals = Mål
+settings = Innstillingar
 edit-profile = Rediger profil
 profile-create-success = Profil oppretta
 profile-close = Lat att
@@ -271,6 +300,10 @@ change-email-setings = Endre e-postkontoen din via Innstillingar under Innloggin
 
 faq-title = Vanlege spørsmål og svar
 faq-what-cv-q = Kva er Common Voice?
+faq-why-important-q = Kvifor er det viktig?
+faq-how-get-q = Korleis kan eg få tak i Common Voice-data?
+faq-why-mission-q = Kvifor er Common Voice ein del av Mozillas oppdrag?
+faq-where-src-from-2-q = Kvar kjem denne kjeldeteksten frå?
 
 ## Glossary
 
