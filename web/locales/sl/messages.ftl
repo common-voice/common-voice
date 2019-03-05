@@ -74,8 +74,10 @@ ky = kirgiščina
 lt = litovščina
 lv = latvijščina
 mdf = mokša
+mhr = vzhodna marijščina
 mk = makedonščina
 mn = mongolščina
+mrj = zahodna marijščina
 myv = erzjanščina
 nb-NO = norveščina (bokmål)
 ne-NP = nepalščina
@@ -330,6 +332,7 @@ change-email-setings = E-poštni naslov spremenite v nastavitvah pod Identiteta 
 faq-title = Pogosta vprašanja
 faq-what-cv-q = Kaj je Common Voice?
 faq-why-important-q = Zakaj je to pomembno?
+faq-how-get-q = Kako lahko prenesem podatke Common Voice?
 faq-how-get-a = Podatkovni niz Common Voice je na voljo za prenos pod licenco <licenseLink>CC0</licenseLink> na <datasetLink>naši strani podatkovnih nizov</datasetLink>. Z iste strani lahko prenesete tudi več drugih javno dostopnih podatkovnih nizov.
 faq-when-release-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
 faq-why-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
@@ -345,9 +348,11 @@ faq-why-10k-hours-a = To je približno število ur, ki jih sistem za pretvorbo g
 faq-how-calc-hours-q = Kako Common Voice računa ure?
 faq-how-calc-hours-a = Ure računamo tako, da ocenimo povprečno dolžino vsakega posnetka in nato to število pomnožimo s skupnim številom posnetkov v vseh jezikih.
 faq-where-src-from-2-q = Od kod prihaja izvorno besedilo?
+faq-why-not-ask-read-q = Zakaj ne prosite ljudi, da berejo iz knjig ali člankov na Wikipediji v različnih jezikih?
 faq-why-account-q = Zakaj naj si ustvarim račun?
 faq-is-account-public-q = Ali so podatki o mojem računu javni?
 faq-how-privacy-q = Kako zagotavljate anonimnost in zasebnost ljudi, ki so prispevali svoje glasove?
+faq-what-determine-identity-q = Kaj pomeni, da ne smem določiti identitete govorcev v naboru podatkov Common Voice?
 
 ## Glossary
 
@@ -357,7 +362,9 @@ localization-explanation = Naš postopek prevajanja in prilagajanja vsebine za �
 sentence-collection = Zbiranje stavkov
 sentence-collection-explanation = Zbiranje stavkov iz javnih domen ali pisanje novih za javno uporabo.
 hours-recorded-explanation = Število posnetih glasovnih ur, ki smo jih zbrali do sedaj.
+hours-validated-explanation = Število posnetih glasovnih ur, ki so bile potrjene s strani dveh od treh uporabnikov z "Da". Te označujejo napredek v smeri cilja projekta 10.000 ur.
 sst = Govor v besedilo (STT)
+sst-explanation = Tehnologija govora v besedilo (STT), pretvarja glasovne podatke v besedilo.
 de-identified = Prikrivanje
 de-identified-explanation = Postopek, s katerim so podatki o profilu avtorja prikriti iz njegovih poslanih glasovnih posnetkov, ko so ti pripravljeni za prenos kot del nabora podatkov.
 
@@ -397,6 +404,13 @@ review-delete-recordings = Izbriši moje posnetke
 
 ## New Datasets Page
 
+datasets-headline = Gradimo odprtokodni, večjezični nabor podatkov glasov, ki ga lahko vsakdo uporablja za izboljšanje aplikacij za prepoznavanje govora.
+datasets-positioning =
+    Verjamemo, da lahko veliki in javno dostopni nabori podatkov spodbujajo inovacije in zdravo tekmovalnost pri implementaciji strojnega učenja v govorno podprtih aplikacijah.
+    
+    Večjezični nabor podatkov Common Voice je že največji javno dostopen nabor podatkov te vrste, vendar ni edini.
+    
+    Uporabite to stran kot referenčno vozlišče za druge odprtokodne glasovne nabore podatkov in, med tem ko se Common Voice še naprej razvija, središče za naše posodobitve.
 language = Jezik
 # File size in gigabytes
 size = Velikost
@@ -431,6 +445,7 @@ data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
 data-other-voxforge-description = VoxForge je bil ustanovljen za zbiranje prepisov govorov za uporabo v odprtokodnih in prosto dostopnih sistemih za prepoznavanje govora.
 data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih zvočnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
+your-feedback = Imate ideje, kako lahko nabor podatkov Common Voice izboljšamo? Pišite nam na Discourse
 go-discourse = Pojdi na Discourse
 missing-language = Ne vidite svojega jezika v naboru podatkov? Če želite predlagati jezik, pojdite na stran z jeziki.
 go-languages-page = Pojdi na stran z jeziki
@@ -469,7 +484,9 @@ request-language-success-content = V kratkem se vam bomo oglasili z več informa
 ## Languages Overview
 
 language-section-in-progress = V nastajanju
+language-section-in-progress-new-description = Ti jeziki so trenutno v fazi razvoja naše skupnosti. Napredek jezika odraža napredek pri <localizationGlossaryLink>prevajanju spletne strani</localizationGlossaryLink> in <sentenceCollectionGlossaryLink>količino zbranih stavkov</sentenceCollectionGlossaryLink>.
 language-section-launched = V teku
+language-section-launched-description = Spletna stran je bila uspešno <localizationGlossaryLink>prevedena</localizationGlossaryLink> v te jezike in ima dovolj <sentenceCollectionGlossaryLink>zbranih stavkov</sentenceCollectionGlossaryLink>, da omogoča nadaljevanje <speakLink>govornih</speakLink> in <listenLink>slušnih</listenLink> prispevkov.
 languages-show-more = Več
 languages-show-less = Manj
 language-speakers = Govorcev
