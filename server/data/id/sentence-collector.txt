@@ -59,6 +59,7 @@ Jendela sudah ditutup.
 Jendela terbuka.
 Kamar saya tidak begitu luas.
 Kami akan mengadakan pesta pada hari ulang tahun Pak Yamada.
+Kami sekelas keluar jalan-jalan.
 Kapan bermain tenis.
 Kaus kaki ini kuat dan murah.
 Kelas bahasa Jepang di mana.
@@ -68,6 +69,7 @@ Kemarin saya belajar.
 Kemarin saya meminjam seribu yen dari Pak Yamada.
 Kemarin saya pergi ke karaoke tetapi tidak banyak menyanyi.
 Kereta berhenti karena topan besar datang.
+Kereta terlambat karena topan.
 Kota ini jalannya sempit.
 Lampu sudah dimatikan.
 Langit berwarna biru.
@@ -120,9 +122,11 @@ Saya menggosok gigi setelah makan nasi.
 Saya menjejerkan enam buah piring di atas meja.
 Saya menyalakan televisi.
 Saya pergi ke perusahaan setiap pagi pukul sembilan.
+Saya pergi ke sekolah dengan bus.
 Saya pulang ke rumah.
 Saya sakit tenggorokan sejak kemarin.
 Saya sangat lelah.
+Saya selalu belajar sendirian.
 Saya seminggu sekali pergi ke karaoke.
 Saya sering bolak-balik Tokyo dan Osaka dengan pesawat terbang.
 Saya sering menonton film dan pergi ke kolam renang bersama teman.
@@ -131,6 +135,7 @@ Saya sudah membaca buku.
 Saya tidak ada uang.
 Saya tidak begitu lelah.
 Saya tidak bisa pergi ke sekolah karena demam tinggi.
+Saya tidak masuk sekolah karena sakit.
 Saya tidak masuk sekolah.
 Saya tidak pandai bernyanyi.
 Saya tidur pada pukul sebelas.
@@ -157,3 +162,4 @@ Tidak, tidak sakit.
 Tokyo cerah.
 Tolong bertanya lewat telepon kalau tidak tahu jalan.
 Warna lukisan ini cantik.
+sepuluh menit lagi pukul lima.
