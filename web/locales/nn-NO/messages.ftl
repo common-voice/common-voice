@@ -136,12 +136,18 @@ sign-up-account = Be om konto
 benefits = Føremoner
 rich-data = Gjer dataa dine så rike som mogleg ved å gje oss litt anonyme, demografiske data. Vi anonymiserer alle demografiske data før dei vert offentlege.
 improve-audio = Profilinformasjon forbetrar lyddata som blir nytta til å trene nøyaktigheita til talegjenkjenninga.
+keep-track = Følg framdrifta di på tvers av mange språk.
+compare-progress = Sjå korleis framdrifta di er jamført med andre bidragsytarar frå heile verda.
+view-goals = Sjå framdrifta di i høve til personlege mål og prosjektmål.
+join-newsletter = Du kan sjølvvalt melde deg på e-postlista for oppdateringar og nyhende om prosjektet.
 
 ## What's public
 
 whats-public = Kva er offentleg?
 email-not-public = Vi gjer ikkje e-postadressa di offentleg.
 recordings-and-locale-public = Talet på innspelingar og kva for språk du bidreg til er offentleg.
+username-optin-public = Du kan velje å gjere brukarnamnet ditt offentleg eller anonymt.
+demographic-deidentified = Sjølvvalde innsende demografiske data (t.d. alder, kjønn, språk, dialekt) blir fjerna frå innsende stemmedata og vil aldri bli gjort offentleg i profilen din.
 
 ## Speak & Listen Shortcuts
 
@@ -208,9 +214,24 @@ edit-profile = Rediger profil
 profile-create-success = Profil oppretta
 profile-close = Lat att
 profile-explanation = Hald auge med framdrifta di med ein profil som òg gjer stemmedataa våre meir korrekte.
+thanks-for-account = Takk for at du stadfesta kontoen din, no byggjer vi profilen din.
+why-demographic = Kvifor er dette viktig?
+login-identity = Innloggingsidentitet
+login-signup = Logg inn/Meld deg på
 edit = Rediger
+email-subscriptions = E-postabonnement
+download-profile = Last ned mine data
 off = Av
 on = På
+add-avatar-title = Legg til ein avatar  i profilen din
+browse-file-title = Last opp ei bildefil
+browse-file = Dra og slepp, eller <browseWrap>bla</browseWrap>
+gravatar_not_found = Fann ingen gravatar for e-postadressa di
+file_too_large = Den valde fila er for stor
+manage-subscriptions = Handter abonnement
+email-already-used = E-postadressa vert allereie brukt med ein annan konto
+add-language = Legg til språk
+change-email-setings = Endre e-postkontoen din via Innstillingar under Innloggingsidentitet
 
 ## FAQ
 
@@ -256,11 +277,27 @@ review-delete-recordings = Slett opptaka mine
 
 ## New Datasets Page
 
+language = Språk
+cv-license = Lisens
+audio-format = Lydformat
+number-of-voices = Tal på stemmer
+splits = Oppdeling
+email-to-download = Skriv inn ei e-postadresse for å laste ned
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Last ned { $language }
+validated-hours = Validerte timar
+recorded-hours = Innspelte timar
+subscribe = Abonner
 data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 timar med engelsk tale (16Khz-opptak) henta frå lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpuset er laga på bakgrunn av lydsamtalar og transkripsjonar av desse, på TED-nettsida.
 data-other-voxforge-description = VoxForge vart starta for å samla inn transskriberet tale for bruk i talegjenkjenningssystem basert på fri og open kjeldekode.
 data-other-tatoeba-description = Tatoeba er ein stor database av setningar, omsettingar og innspelt lyd for bruk i språklæring. Denne filhentninga inneheld talt engelsk spelt inn av fellesskapet på Tatoeba.
+go-languages-page = Gå til språksida
+more = Meir
+close = Lat att
+download = Last ned
 
 ## Download Modal
 
@@ -357,18 +394,18 @@ share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
 
 days =
     { $count ->
-        [one] dag
-       *[other] dagar
+        [one] Dag
+       *[other] Dagar
     }
 recordings =
     { $count ->
-        [one] innspeling
-       *[other] innspelingar
+        [one] Innspeling
+       *[other] Innspelingar
     }
 validations =
     { $count ->
-        [one] validering
-       *[other] valideringar
+        [one] Validering
+       *[other] Valideringar
     }
 
 ## Dashboard
@@ -377,6 +414,7 @@ your-languages = Språka dine
 toward-next-goal = Mot neste mål
 clips-you-recorded = Klipp du har spelt inn
 clips-you-validated = Klipp du har validert
+contribution-activity = Bidragsaktivitet
 total-approved = Godkjende i alt
 
 ## Profile Delete
