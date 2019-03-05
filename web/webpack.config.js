@@ -25,6 +25,10 @@ module.exports = {
      * ".js" included to make some Webpack plugins work.
      */
     extensions: ['.ts', '.tsx', '.js'],
+
+    alias: {
+      image: path.join(__dirname, 'img/'),
+    },
   },
   module: {
     rules: [
