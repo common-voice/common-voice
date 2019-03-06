@@ -104,7 +104,9 @@ class RequestLanguageModal extends React.Component<Props, State> {
                 required
                 value={language}
                 onChange={this.update}>
-                <option value="">Select a Language...</option>
+                <Localized id="select-language">
+                  <option value="" />
+                </Localized>
                 {Object.entries(NATIVE_NAMES).map(([code, name]) => (
                   <option key={name} value={name}>
                     {name}

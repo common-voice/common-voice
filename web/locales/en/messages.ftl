@@ -512,6 +512,7 @@ request-language-form-language =
     .label = Language
 request-language-success-title = Language request successfully submitted, thank you.
 request-language-success-content = We will be in touch with more information about how to add your language to Common Voice very soon.
+select-language = Select a Language...
 
 ## Languages Overview
 language-section-in-progress = In Progress
