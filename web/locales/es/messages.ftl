@@ -62,6 +62,7 @@ ia = Interlingua
 id = Indonesio
 is = Islandés
 it = Italiano
+izh = Izhoriano
 ja = Japonés
 ka = Georgiano
 kab = Cabilio
@@ -89,6 +90,7 @@ pt-BR = Portugués (Brasil)
 rm-sursilv = romanche sursilvano
 ro = Rumano
 ru = Ruso
+rw = Kinyarwanda
 sah = Yakuto
 sc = sardo
 sk = Eslovaco
@@ -494,6 +496,7 @@ request-language-form-language =
     .label = Idioma
 request-language-success-title = Solicitud de idioma enviada correctamente, gracias.
 request-language-success-content = Estaremos en contacto con más información sobre cómo añadir tu idioma a Common Voice muy pronto.
+select-language = Seleccionar un idioma...
 
 ## Languages Overview
 
