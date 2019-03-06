@@ -490,10 +490,12 @@ request-language-form-language =
     .label = Rěč
 request-language-success-title = Źadanje wo rěč je so wuspěšnje wotpósłało, wulki dźak.
 request-language-success-content = Přizjewimy so jara bórze z dalšimi informacijemi wo tym, kak móžeće Common Voice swoju rěč přidać.
+select-language = Rěč wubrać...
 
 ## Languages Overview
 
 language-section-in-progress = W přihotowanju
+language-section-in-progress-new-description = Tute rěče so tuchwilu wot zhromadźenstwa wuwiwaja. Postupowe lajsty pokazuja, do kotreje měry <localizationGlossaryLink>lokalizacija websydła</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zběrka sadow</sentenceCollectionGlossaryLink> kóždeje rěče stej postupjenej.
 language-section-launched = Startowany
 languages-show-more = Wjace pokazać
 languages-show-less = Mjenje pokazać
