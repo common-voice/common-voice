@@ -71,6 +71,7 @@ kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirghiso
 lt = Lituano
+lv = Lettone
 mdf = Mokša
 mhr = Mari orientale
 mk = Macedone
@@ -227,6 +228,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Registra/Interrompi
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Non trovi la tua lingua su Common Voice?
 request-language-button = Richiedi una lingua
 
@@ -488,9 +490,7 @@ request-language-success-content = Presto riceverai istruzioni su come aggiunger
 ## Languages Overview
 
 language-section-in-progress = In corso
-language-section-in-progress-description = Le lingue “in corso” non sono ancora pronte per ricevere i contributi della comunità. La barra del progresso indica a che punto sono nelle fasi di localizzazione del sito e di raccolta frasi.
 language-section-launched = Operative
-language-section-launched-new-description = Per queste lingue il sito web è stato tradotto completamente ed è stato raccolto un numero sufficiente di frasi per garantire ampie possibilità di collaborazione, sia per <italic>parlare</italic> che <italic>ascoltare</italic>.
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-speakers = Parlato da
