@@ -500,6 +500,7 @@ request-language-form-language =
     .label = Язык
 request-language-success-title = Запрос о добавлении языка успешно отправлен, спасибо.
 request-language-success-content = Мы максимально быстро свяжемся с вами, рассказав о том, как добавить ваш язык в Common Voice.
+select-language = Выберите язык...
 
 ## Languages Overview
 
