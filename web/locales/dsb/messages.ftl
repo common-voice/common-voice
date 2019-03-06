@@ -346,6 +346,9 @@ faq-is-goal-assistant-a = Zaměr datoweje sajźby Common Voice jo, kuždemu na s
 faq-do-want-native-q = Njejsom maminorěcny a powědam z akcentom, cośo mój głos?
 faq-do-want-native-a = Jo, comy pśedewšym waš głos! Jaden źěl cela Common Voice jo, tak wjele rozdźělnych akcentow ako móžno gromaźiś, aby słužby głosowego spóznaśa za kuždego jadnak funkcioněruju. To groni, dary wót njemaminorěcnych powědarjow su wósebnje wažne.
 faq-why-different-speakers-q = Cogodla trjebaśo wjele rozdźělnych powědarjow na rěc?
+faq-why-different-speakers-a =
+    Nejwěcej głosowych datowych bankow se z nadreprezentaciju wěstych demografijow treněrujo, pśez kótarež se <articleLink>muskece a žeńscyne wobźělniki a wobźělniki srjejźneje klase</articleLink> preferěruju. Akcenty a dialekty, kótarež su zwětšego pódreprezentěrowane w datowych sajźbach su typiski zwězane ze kupkami luźi, kótarež su južo na kšomu śišćane. Wjele mašinow ma južo śěže, žeńscyne głose rozměś.
+    Togodla comy wjelerakosć w swójej głosowej datowej bance!
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
 faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w datowej sajźbje wužywał?
 faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za awdionagraśe?
