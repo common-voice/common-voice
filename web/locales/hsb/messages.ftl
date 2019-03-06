@@ -497,6 +497,7 @@ select-language = Rěč wubrać...
 language-section-in-progress = W přihotowanju
 language-section-in-progress-new-description = Tute rěče so tuchwilu wot zhromadźenstwa wuwiwaja. Postupowe lajsty pokazuja, do kotreje měry <localizationGlossaryLink>lokalizacija websydła</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zběrka sadow</sentenceCollectionGlossaryLink> kóždeje rěče stej postupjenej.
 language-section-launched = Startowany
+language-section-launched-description = Za tute aktiwizowane rěče je so websydło wuspěšnje <localizationGlossaryLink>lokalizowane</localizationGlossaryLink>, a ma dosć <sentenceCollectionGlossaryLink>zběrane sady</sentenceCollectionGlossaryLink>. zo bychu so přichodne přinoški za <speakLink>rěčenje</speakLink> a <listenLink>słuchanje</listenLink> dowolili.
 languages-show-more = Wjace pokazać
 languages-show-less = Mjenje pokazać
 language-speakers = Rěčnicy
