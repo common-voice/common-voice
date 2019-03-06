@@ -496,6 +496,7 @@ request-language-form-language =
     .label = Sprache
 request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
 request-language-success-content = Wir melden uns bald mit weiteren Informationen darüber, wie Sie Ihre Sprache bei Common Voice hinzufügen können.
+select-language = Sprache auswählen…
 
 ## Languages Overview
 
