@@ -413,6 +413,7 @@ request-language-form-language =
     .label = Język
 request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
 request-language-success-content = Już niedługo udzielimy więcej informacji o tym, jak dodać swój język do projektu Common Voice.
+select-language = Wybierz język…
 
 ## Languages Overview
 
