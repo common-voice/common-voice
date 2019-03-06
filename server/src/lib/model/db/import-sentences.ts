@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import promisify from '../../../promisify';
 import { hash } from '../../clip';
-import { randomBucketFromDistribution, IDEAL_SPLIT } from '../split';
+import { IDEAL_SPLIT, randomBucketFromDistribution } from '../split';
 
 const CWD = process.cwd();
 const SENTENCES_FOLDER = path.resolve(CWD, 'server/data/');
@@ -107,59 +107,48 @@ const loadSentences = async (path: string): Promise<string[]> => {
 };
 
 async function importLocaleSentences(pool: any, locale: string) {
-  const queryLocaleRow = async () =>
-    (await pool.query('SELECT id FROM locales WHERE name = ? LIMIT 1', [
-      locale,
-    ]))[0][0];
+  await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
+  const [[{ localeId }]] = await pool.query(
+    'SELECT id AS localeId FROM locales WHERE name = ? LIMIT 1',
+    [locale]
+  );
 
-  let row = await queryLocaleRow();
-  if (!row) {
-    await pool.query('INSERT INTO locales (name) VALUES (?)', [locale]);
-    row = await queryLocaleRow();
-  }
-  const { id: localeId, name: name } = row;
-
-  const sentences = await loadSentences(path.join(SENTENCES_FOLDER, locale));
-
-  print('importing', locale, sentences.length);
-
-  let count = 0;
-  for (const sentence of sentences) {
-    const id = hash(sentence);
-
-    const [[sentenceExists]] = await pool.query(
-      'SELECT 1 FROM sentences WHERE text = ?',
-      [sentence]
-    );
-
-    if (sentenceExists) {
-      await pool.query('UPDATE sentences SET is_used = TRUE WHERE id = ?', [
-        id,
-      ]);
-      ++count;
-    } else {
-      const bucket = randomBucketFromDistribution(IDEAL_SPLIT);
-      await pool.query(
-        'INSERT INTO sentences (id, text, is_used, bucket, locale_id) VALUES (?, ?, TRUE, ?, ?)',
-        [id, sentence, bucket, localeId]
-      );
-      ++count;
-    }
-  }
-  print('actually imported', locale, sentences.length, count);
-}
-
-export async function importSentences(pool: any) {
   await pool.query(
     `
       DELETE FROM sentences
       WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
-            id NOT IN (SELECT sentence_id FROM skipped_sentences) 
-    `
+            id NOT IN (SELECT sentence_id FROM skipped_sentences) AND 
+            locale_id = ?
+    `,
+    [localeId]
   );
 
-  await pool.query('UPDATE sentences SET is_used = FALSE');
+  await pool.query('UPDATE sentences SET is_used = FALSE WHERE locale_id = ?', [
+    localeId,
+  ]);
 
+  const sentences = await loadSentences(path.join(SENTENCES_FOLDER, locale));
+  if (sentences.length == 0) return;
+
+  print('importing', locale, sentences.length);
+  await pool.query(
+    `
+      INSERT INTO sentences (id, text, is_used, bucket, locale_id)
+      VALUES ${sentences
+        .map(sentence => {
+          const id = hash(sentence);
+          const bucket = randomBucketFromDistribution(IDEAL_SPLIT);
+          const values = [id, sentence, true, bucket, localeId];
+          return `(${values.map(v => pool.escape(v)).join(', ')})`;
+        })
+        .join(', ')}
+      ON DUPLICATE KEY UPDATE is_used = TRUE;
+    `
+  );
+  print('actually imported', locale);
+}
+
+export async function importSentences(pool: any) {
   const locales = ((await new Promise(resolve =>
     fs.readdir(SENTENCES_FOLDER, (_, names) => resolve(names))
   )) as string[]).filter(name => name !== 'LICENSE');
@@ -177,6 +166,7 @@ export async function importSentences(pool: any) {
       SELECT locales.name AS locale, COUNT(*) AS count
       FROM sentences
       LEFT JOIN locales ON locale_id = locales.id
+      WHERE is_used
       GROUP BY locale_id
     `
   )) as { locale: string; count: number }[][];
@@ -190,7 +180,9 @@ export async function importSentences(pool: any) {
           return obj;
         },
         {} as { [locale: string]: number }
-      )
+      ),
+      null,
+      2
     )
   );
 }
