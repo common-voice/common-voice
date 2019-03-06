@@ -53,6 +53,7 @@ fo = ფაროეული
 fr = ფრანგული
 fy-NL = ფრიზული
 ga-IE = ირლანდიური
+gl = გალიციური
 he = ებრაული
 hr = ხორვატული
 hsb = ზემოსორბული
@@ -71,6 +72,7 @@ kpv = კომი
 kw = კორნული
 ky = ყირგიზული
 lt = ლიტვური
+lv = ლატვიური
 mdf = მოკშა
 mhr = აღმოსავლეთ დაბლობის მარიული
 mk = მაკედონური
@@ -491,6 +493,7 @@ request-language-form-language =
     .label = ენა
 request-language-success-title = ენის მოთხოვნა გადაიგზავნა წარმატებით, გმადლობთ.
 request-language-success-content = ჩვენ მალე მოგაწვდით ინფორმაციას, თუ როგორ უნდა დაამატოთ თქვენი ენა Common Voice-ში.
+select-language = აირჩიეთ ენა...
 
 ## Languages Overview
 
