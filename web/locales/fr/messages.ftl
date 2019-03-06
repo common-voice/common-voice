@@ -259,7 +259,7 @@ profile-form-accent =
 profile-form-age =
     .label = Âge
 profile-form-gender =
-    .label = Sexe
+    .label = Genre
 leaderboard-visibility =
     .label = Affichage public
 hidden = Caché
@@ -490,9 +490,7 @@ request-language-success-content = Nous vous contacterons très bientôt avec de
 ## Languages Overview
 
 language-section-in-progress = En cours
-language-section-in-progress-description = Les langues « en cours » sont celles sur lesquelles nos communautés travaillent ; leur progrès correspond à l’avancement de la traduction du site web et à l’avancement de la collecte de phrases.
 language-section-launched = Lancées
-language-section-launched-new-description = Pour ces langues activées, le site web a été complètement traduit et assez de phrases ont été collectées pour permettre des contributions de <italic>voix</italic> et d’<italic>écoute</italic>.
 languages-show-more = Afficher davantage
 languages-show-less = Afficher moins
 language-speakers = Locuteurs et locutrices
