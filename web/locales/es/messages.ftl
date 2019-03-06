@@ -53,6 +53,7 @@ fo = Feroés
 fr = Francés
 fy-NL = Frisón
 ga-IE = Irlandés
+gl = Gallego
 he = Hebreo
 hr = Croata
 hsb = Alto sorabo
@@ -69,6 +70,8 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
 ky = Kirguís
+lt = Lituano
+lv = Letón
 mdf = moksha
 mhr = Mari oriental
 mk = Macedonio
@@ -226,6 +229,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabar/Detener
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Grabar de nuevo el clip
 request-language-text = ¿Aún no encuentras tu idioma en Common Voice?
 request-language-button = Solicitar un idioma
 
@@ -438,6 +443,10 @@ download-language = Descargar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas grabadas
 whats-inside = ¿Qué hay en la base de datos de Common Voice?
+dataset-description-hours =
+    Cada entrada de la base de datos consiste en un único MP3 y su correspondiente archivo de texto. Muchas de las <b>{ $total }</b> horas grabadas en la base de datos también incluyen metadatos demográficos, como edad, sexo y acento que pueden ayudar a mejorar la precisión en el entrenamiento de los motores de reconocimiento del  habla.
+    
+    Por ahora, la base de datos consta de <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero siempre estamos añadiendo más voces e idiomas. Echa un vistazo a nuestra <languagesLink>Página de idiomas</languagesLink> para solicitar un idioma o empezar a colaborar.
 want-dataset-update = ¿Quieres recibir información sobre nuevas versiones y actualizaciones de las bases de datos de Common Voice? Suscríbete a nuestro boletín.
 subscribe = Suscribirse
 get-started-speech = Empieza hoy mismo con el Reconocimiento de voz
@@ -455,6 +464,9 @@ go-discourse = Ir a Discourse
 missing-language = ¿No aparece tu idioma en la base de datos? Si quieres agregarlo, accede a nuestra Página de idiomas.
 go-languages-page = Ir a la Página de idiomas
 ready-to-validate = ¿Estás listo para validar frases?
+more = Más
+close = Cerrar
+download = Descargar
 
 ## Download Modal
 
@@ -486,9 +498,9 @@ request-language-success-content = Estaremos en contacto con más información s
 ## Languages Overview
 
 language-section-in-progress = En proceso
-language-section-in-progress-description = Son nuestras comunidades las que crean los idiomas en progreso; es decir, en qué fase se encuentran del proceso de localización web y de la recopilación de frases.
+language-section-in-progress-new-description = Estos idiomas están actualmente en desarrollo por parte de la comunidad. Las barras de progreso indican el avance de cada idioma en el proceso de <localizationGlossaryLink>localización de la web </localizationGlossaryLink> y <sentenceCollectionGlossaryLink>recolección de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanzados
-language-section-launched-new-description = Para estos idiomas el sitio web está totalmente traducido y tiene suficientes frases recolectadas para permitir contribuciones <italic>hablando</italic> y <italic>escuchando</italic> .
+language-section-launched-description = Para estos idiomas publicados, el sitio web ha sido <localizationGlossaryLink>localizado</localizationGlossaryLink> con éxito, y tiene suficientes <sentenceCollectionGlossaryLink>frases recopiladas</sentenceCollectionGlossaryLink> para permitir <speakLink>hablar</spenderLink> y <listenLink>escuchar</ listenLink > aportaciones de forma continua.
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-speakers = Hablantes
