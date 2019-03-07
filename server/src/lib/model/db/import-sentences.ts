@@ -106,7 +106,7 @@ const loadSentences = async (path: string): Promise<string[]> => {
   return allSentences;
 };
 
-const SENTENCES_PER_CHUNK = 1000;
+const SENTENCES_PER_CHUNK = 500;
 
 async function importLocaleSentences(pool: any, locale: string) {
   await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
