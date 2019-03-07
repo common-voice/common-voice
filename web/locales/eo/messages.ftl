@@ -183,6 +183,8 @@ x-years-short =
         [one] Jaro
        *[other] { $count } jaroj
     }
+help-make-dataset = Helpu nin krei altkvalitan, publikan kaj liberan datumaron
+profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
 sign-up-account = Krei konton
 email-subscription-title = Abonu retpoŝtajn novaĵojn
 
