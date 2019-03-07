@@ -147,7 +147,7 @@ wall-of-text-more-desktop = Nun vi povas donaci vian voĉon por helpi nin konstr
 wall-of-text-first = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, programistoj bezonas tre grandan kvanton da voĉaj datumoj.
 wall-of-text-second = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas igi voĉrekonon malfermita kaj alirebla por ĉiuj.
 show-wall-of-text = Pli da informo
-help-us-title = Helpu nin revizii frazojn!
+help-us-title = Helpu nin validigi frazojn!
 help-us-explain = Premu "ludi", aŭskultu kaj diru al ni: ĉu ili bone diris la suban frazon?
 no-clips-to-validate = Ŝajne estas neniu aŭskultebla voĉregistro en tiu ĉi lingvo. Helpu nin aldoni kelkajn nun, per registro de via voĉo.
 vote-yes = Jes
@@ -204,6 +204,8 @@ whats-public = Kiuj informoj estas publikaj?
 email-not-public = Ne ne publikigos vian retpoŝton.
 recordings-and-locale-public = La nombro de voĉregistroj kaj la lingvoj, kun kiuj vi kunlaboras, estos publikaj.
 username-optin-public = Vi povas elekti ĉu publikigi aŭ anonimigi vian nomon de uzanto.
+demographic-deidentified = La nedevigaj demografiaj datumoj (ekzemple aĝo, sekso, lingvo, kaj elparolmaniero) estas malligitaj de viaj senditaj voĉaj datumoj, kaj estos neniam publikigita en via profilo.
+username-email-not-demographic = Via nomo de uzanto kaj retpoŝta adreso ne esos asociitaj kun la publikigitaj datumoj.
 
 ## Speak & Listen Shortcuts
 
@@ -230,6 +232,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Registri / Haltigi
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Refari voĉregistron
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
 request-language-button = Peti lingvon
 
@@ -419,7 +422,7 @@ language-search-input =
 language-speakers = Parolantoj
 localized = Tradukita
 sentences = Frazoj
-total-hours = Reviziitaj horoj
+total-hours = Validigitaj horoj
 
 ## New Contribution
 
@@ -453,7 +456,7 @@ record-three-more-instruction = Restas nur tri!
 record-again-instruction = Bonege!<recordIcon></recordIcon>Faru vian venontan voĉregistron
 record-again-instruction2 = Daŭrigu tiel, registru denove <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Lasta!
-review-tooltip = Dume, revizii kaj refari voĉregistrojn
+review-tooltip = Revizii kaj refari voĉregistrojn dum vi progresas
 unable-speak = Ĉu vi ne povas paroli nun?
 review-instruction = Revizii kaj refari voĉregistrojn se bezonatas
 record-submit-tooltip = { $actionType } sendi kiam vi pretas
@@ -481,10 +484,16 @@ days =
 
 ## Dashboard
 
+clips-you-recorded = Viaj voĉregistroj
+clips-you-validated = Viaj revizioj
+todays-recorded-progress = Hodiaŭa progreso de Common Voice rilate al voĉregistroj
+todays-validated-progress = Hodiaŭa progreso de Common Voice rilate al validigoj
 you = Vi
 everyone = Ĉiuj
 contribution-activity = Kontribuoj
 top-contributors = Ĉefaj kontribuantoj
+recorded-clips = Faritaj voĉregistroj
+validated-clips = Validigitaj voĉregistroj
 
 ## Profile Delete
 
