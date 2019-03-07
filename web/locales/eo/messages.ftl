@@ -191,9 +191,19 @@ email-subscription-title = Abonu retpoŝtajn novaĵojn
 ## Account Benefits
 
 benefits = Avantaĝoj
+rich-data = Igu viajn senditajn datumon kiel eble plej informriĉaj  per provizo de anonimaj demografiaj informoj. Ni anonimigas ĉiujn demografiajn datumojn antaŭ ol publikigi ilin.
+improve-audio = La informoj de profilo plibonigas la aŭdajn datumojn, kiujn oni uzas por trejni voĉrekoniloj kaj plibonigi ilian precizecon.
+keep-track = Sekvu vian progreson per mezurindikilojn por ĉiuj lingvoj.
+compare-progress = Vidu vian progreson, komparita kun tiu de aliaj kontribuantoj en la tuta mondo.
+view-goals = Vidu vian progreson rilate al personaj kaj projektaj celoj.
+join-newsletter = Se vi volas, abonu nian repoŝtan liston por ricevi ĝisdatigojn kaj novaĵon de la projekto.
 
 ## What's public
 
+whats-public = Kiuj informoj estas publikaj?
+email-not-public = Ne ne publikigos vian retpoŝton.
+recordings-and-locale-public = La nombro de voĉregistroj kaj la lingvoj, kun kiuj vi kunlaboras, estos publikaj.
+username-optin-public = Vi povas elekti ĉu publikigi aŭ anonimigi vian nomon de uzanto.
 
 ## Speak & Listen Shortcuts
 
