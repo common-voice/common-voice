@@ -179,7 +179,7 @@ export default class Server {
       await this.model.db.fillCacheColumns();
       this.print('Maintenance complete');
     } catch (err) {
-      console.error('DB Maintenance error', err);
+      this.print('DB Maintenance error', err);
     } finally {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }

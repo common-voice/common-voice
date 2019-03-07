@@ -113,6 +113,9 @@ async function importLocaleSentences(pool: any, locale: string) {
     [locale]
   );
 
+  const sentences = await loadSentences(path.join(SENTENCES_FOLDER, locale));
+  if (sentences.length == 0) return;
+
   await pool.query(
     `
       DELETE FROM sentences
@@ -126,9 +129,6 @@ async function importLocaleSentences(pool: any, locale: string) {
   await pool.query('UPDATE sentences SET is_used = FALSE WHERE locale_id = ?', [
     localeId,
   ]);
-
-  const sentences = await loadSentences(path.join(SENTENCES_FOLDER, locale));
-  if (sentences.length == 0) return;
 
   print('importing', locale, sentences.length);
   await pool.query(
