@@ -53,6 +53,7 @@ fo = 法羅語
 fr = 法語
 fy-NL = 弗利西亞語
 ga-IE = 愛爾蘭語
+gl = 加里西亞語
 he = 希伯來語
 hr = 克羅埃西亞語
 hsb = 上索布語
@@ -71,6 +72,7 @@ kpv = 科米-齊良語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
 lt = 立陶宛語
+lv = 拉脫維亞語
 mdf = 莫克沙語
 mhr = 草原馬里語
 mk = 馬其頓語
@@ -492,6 +494,7 @@ request-language-form-language =
     .label = 語言
 request-language-success-title = 已收到新語言請求，感謝您。
 request-language-success-content = 我們將很快在您的語言於 Common Voice 上線時通知您更多資訊。
+select-language = 選擇一種語言…
 
 ## Languages Overview
 
