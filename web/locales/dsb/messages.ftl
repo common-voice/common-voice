@@ -488,11 +488,14 @@ request-language-form-language =
     .label = Rěc
 request-language-success-title = Póžedanje na rěc jo se wuspěšnje wótpósłało, wjeliki źěk.
 request-language-success-content = Dajomy wjelgin skóro z dalšnymi informacijami wót se wó tom słyšaś, kak móžośo Common Voice swóju rěc pśidaś.
+select-language = Rěc wubraś...
 
 ## Languages Overview
 
 language-section-in-progress = W pśigótowanju
+language-section-in-progress-new-description = Toś te rěcy se tuchylu wót zgromaźeństwa wuwijaju. Póstupowe rědki pokazuju, w kótarej měrje <localizationGlossaryLink>lokalizacija websedła</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zběrka sadow</sentenceCollectionGlossaryLink> kuždeje rěcy stej póstupjonej.
 language-section-launched = Startowany
+language-section-launched-description = Za toś te aktiwizěrowane rěcy jo se websedło wuspěšnje <localizationGlossaryLink>lokalizěrowane</localizationGlossaryLink>, a ma dosć <sentenceCollectionGlossaryLink>zběranych sadow</sentenceCollectionGlossaryLink>. aby se pśichodne pśinoski za <speakLink>powědanje</speakLink> a <listenLink>słuchanje</listenLink> dowólili.
 languages-show-more = Wěcej pokazaś
 languages-show-less = Mjenjej pokazaś
 language-speakers = Powědarje
@@ -607,4 +610,8 @@ keep = Wobchowaś
 remove = Wótwónoźeś
 keep-info = Waše anonymne głosowe nagraśa wóstanu w datowej sajźbje Common Voice. Gaž swój profil wulašujośo, njamóžośo wěcej napšašowanje wótpósłaś, aby swóje nahraśa z datoweje sajźby wótwónoźeł
 remove-info = Buźomy wašo napšašowanje, waše głosowe nagraśa z datoweje sajźby wótwónoźeś, pśeglědowaś. Jolic se wašo napšašowanje pśizwólijo,  buźomy se z tymi do zwiska stajiś, kótarež su ześěgnuli datowu sajźbu, a pšosymy jich, aby waše głosowe nagraśa teke wótwónoźeli.
+why-delete-recordings =
+    Nagraśa Common Voice se wót akademikarjow, małych pśedewześow a entuziastow głosowego spóznaśa wužywaju, aby zjawnje k dispoziciji stojece resurse ako głosowe modele treněrowali a rozšyrili.
+    
+    Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil wulašowaś
