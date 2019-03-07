@@ -106,6 +106,8 @@ const loadSentences = async (path: string): Promise<string[]> => {
   return allSentences;
 };
 
+const SENTENCES_PER_CHUNK = 1000;
+
 async function importLocaleSentences(pool: any, locale: string) {
   await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
   const [[{ localeId }]] = await pool.query(
@@ -131,10 +133,16 @@ async function importLocaleSentences(pool: any, locale: string) {
   ]);
 
   print('importing', locale, sentences.length);
-  await pool.query(
-    `
+  const chunks = [];
+  for (let i = 0; i < sentences.length; i += SENTENCES_PER_CHUNK) {
+    chunks.push(sentences.slice(i, i + SENTENCES_PER_CHUNK));
+  }
+
+  for (const chunk of chunks) {
+    await pool.query(
+      `
       INSERT INTO sentences (id, text, is_used, bucket, locale_id)
-      VALUES ${sentences
+      VALUES ${chunk
         .map(sentence => {
           const id = hash(sentence);
           const bucket = randomBucketFromDistribution(IDEAL_SPLIT);
@@ -144,7 +152,8 @@ async function importLocaleSentences(pool: any, locale: string) {
         .join(', ')}
       ON DUPLICATE KEY UPDATE is_used = TRUE;
     `
-  );
+    );
+  }
   print('actually imported', locale);
 }
 
