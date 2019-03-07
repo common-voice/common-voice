@@ -53,6 +53,7 @@ fo = Faroese
 fr = Francese
 fy-NL = Frisone
 ga-IE = Irlandese
+gl = Gallego
 he = Ebraico
 hr = Croato
 hsb = Alto sorabo
@@ -229,6 +230,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Registra/Interrompi
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Ripeti la registrazione
 request-language-text = Non trovi la tua lingua su Common Voice?
 request-language-button = Richiedi una lingua
 
@@ -486,11 +488,14 @@ request-language-form-language =
     .label = Lingua
 request-language-success-title = Richiesta per una nuova lingua inviata. Grazie per il tuo interessamento.
 request-language-success-content = Presto riceverai istruzioni su come aggiungere la tua lingua a Common Voice.
+select-language = Seleziona una lingua…
 
 ## Languages Overview
 
 language-section-in-progress = In corso
+language-section-in-progress-new-description = Queste lingue sono attualmente in fase di sviluppo da parte della comunità. Le barre di avanzamento indicano i progressi di ciascuna lingua nel processo di <localizationGlossaryLink>localizzazione del sito web</localizationGlossaryLink> e di <fraseCollectionGlossaryLink>raccolta delle frasi</sentenceCollectionGlossaryLink>.
 language-section-launched = Operative
+language-section-launched-description = Per le seguenti lingue operative il sito web è stato completamente <localizationGlossaryLink>localizzato</localizationGlossaryLink> e la <phraseCollectionGlossaryLink>raccolte di frasi</sentenceCollectionGlossaryLink> ha raggiunto dimensioni sufficienti da garantire sufficiente materiale da <speakLink>registrare</ speakLink> e <listenLink>ascoltare</listenLink> in modo continuativo.
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-speakers = Parlato da
