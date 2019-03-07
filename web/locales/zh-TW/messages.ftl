@@ -147,7 +147,7 @@ wall-of-text-more-desktop =
     現在起，您可以將自己的聲音捐給我們，以幫助我們打造開放原始碼的語音資料庫，讓任何人都得以為裝置與網際網路打造創新的應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，即可幫助機器了解人們如何說話，也可看看其他貢獻者的心血結晶來協助改善品質，就是這麼簡單！
 wall-of-text-first = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
-wall-of-text-second = 大部分各大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
+wall-of-text-second = 各大公司使用的資料，通常並未開放給大眾使用。我們認為這樣會阻礙創新，所以創立了讓每個人都可以自由進行語音識別的 Common Voice 專案。
 show-wall-of-text = 了解更多
 help-us-title = 請幫助我們驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後告訴我們: 他們正確說出下面的句子了嗎？
@@ -417,7 +417,7 @@ review-delete-recordings = 刪除我的錄音
 
 ## New Datasets Page
 
-datasets-headline = 我們正在打造一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
+datasets-headline = 我們想建立一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
 datasets-positioning =
     我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
     
@@ -499,7 +499,9 @@ select-language = 選擇一種語言…
 ## Languages Overview
 
 language-section-in-progress = 準備中
+language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站在地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
+language-section-launched-description = 以下「已上線」的語言，代表網站已經成功<localizationGlossaryLink>在地化</localizationGlossaryLink>，且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>讓大家能用<speakLink>說話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
