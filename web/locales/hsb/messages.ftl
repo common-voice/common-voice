@@ -444,6 +444,10 @@ download-language = { $language } sćahnyć
 validated-hours = Wobkrućene hodźiny
 recorded-hours = Natočene hodźiny
 whats-inside = Što je w datowej sadźbje Common Voice?
+dataset-description-hours =
+    Kóždy zapisk w datowej sadźbje wobsteji z jónkróćneje MP3- a přisłušneje tekstoweje dataje. Wjele z <b>{ $total }</b> natočenych hodźin w datowej sadźbje tež demografiske daty kaž starobu, splah a akcent wobsahuja, kotrež móža pomhać, dokładnosć mašinow rěćenskeho spóznaća trenować.
+    
+    Datowa sadźba tuchwilu z <b>{ $valid }</b> wobkrućenych hodźin w <b>{ $languages }</b> rěčach, ale ale přidawamy přeco dalše hłosy a rěče. Wopytajće našu <languagesLink>stronu rěčow</languagesLink>, zo byšće požadał abo započał sobu přinošować.
 want-dataset-update = Chceće aktualizacije, hdyž nowu wersiju datoweje sadźby Common Voice wozjewjamy? Abonujće naš powěsćowy list.
 subscribe = Abonować
 get-started-speech = Prěnje kroki z rěčenskim spóznaćom
