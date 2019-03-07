@@ -499,6 +499,7 @@ request-language-form-language =
     .label = Nyelv
 request-language-success-title = Nyelvkérés sikeresen beküldve, köszönjük.
 request-language-success-content = Hamarosan jelenkezünk további információkkal arról, hogy tudja hozzáadni a nyelvét a Common Voice projekthez.
+select-language = Válasszon nyelvet…
 
 ## Languages Overview
 
