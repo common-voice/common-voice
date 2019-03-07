@@ -8,6 +8,7 @@ email-input =
     .label = Retpoŝto
 submit-form-action = Sendi
 loading = Ŝargado…
+email-opt-in-privacy = Si vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko<privacyLink> de Mozilla.
 indicates-required = * signas devigan kampon
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -52,6 +53,7 @@ fo = Feroa
 fr = Franca
 fy-NL = Frisa
 ga-IE = Irlanda
+gl = Galega
 he = Hebrea
 hr = Kroata
 hsb = Suprasoraba
@@ -70,6 +72,7 @@ kpv = Komiziriana
 kw = Korniŝa
 ky = Kirgiza
 lt = Litova
+lv = Latva
 mdf = Mokŝa
 mhr = Orientmaria
 mk = Makedona
