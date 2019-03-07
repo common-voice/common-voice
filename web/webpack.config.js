@@ -27,7 +27,7 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js'],
 
     alias: {
-      image: path.join(__dirname, 'img/'),
+      img: path.join(__dirname, 'img/'),
     },
   },
   module: {

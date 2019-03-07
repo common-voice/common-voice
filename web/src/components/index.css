@@ -406,7 +406,7 @@ a.small,
     inset-inline-end: 15px;
     width: 13px;
     height: 100%;
-    background: url('/img/down-arrow.svg') no-repeat 0 center;
+    background: url('~img/down-arrow.svg') no-repeat 0 center;
     background-size: 13px 9px;
     pointer-events: none;
 }

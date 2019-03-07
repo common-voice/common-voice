@@ -17,7 +17,7 @@
         font-weight: 600;
         font-size: 14px;
 
-        background: var(--white) url('/img/down-arrow.svg') no-repeat 90% center;
+        background: var(--white) url('~img/down-arrow.svg') no-repeat 90% center;
         background-size: 10px;
         cursor: pointer;
 

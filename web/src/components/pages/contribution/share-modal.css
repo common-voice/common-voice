@@ -16,7 +16,7 @@
             margin-bottom: 10px;
             width: 100%;
             height: 190px;
-            background: url('/img/share-waves/wave-grey.svg') no-repeat;
+            background: url('~img/share-waves/wave-grey.svg') no-repeat;
             background-size: 100% 100%;
         }
 
@@ -31,7 +31,7 @@
             margin-bottom: 23px;
             width: 100%;
             height: 370px;
-            background: url('/img/share-waves/wave-red.svg') no-repeat;
+            background: url('~img/share-waves/wave-red.svg') no-repeat;
             background-size: 100% 95%;
             background-position-y: bottom;
             display: flex;

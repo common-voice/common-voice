@@ -97,7 +97,7 @@ header {
         width: 100%;
         height: 100%;
         position: absolute;
-        background: url('/img/globe.svg') no-repeat left 13px center;
+        background: url('~img/globe.svg') no-repeat left 13px center;
         background-size: 17px 16px;
         pointer-events: none;
         z-index: var(--top-z-index);
@@ -183,7 +183,7 @@ header {
 .localization-select:hover,
 .localization-select.focus-visible:focus-within {
     &::before {
-        background-image: url('/img/globe_black.svg');
+        background-image: url('~img/globe_black.svg');
     }
 
     &::after {

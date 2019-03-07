@@ -181,7 +181,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background: url('/img/light-waves.svg') repeat-x center bottom;
+        background: url('~img/light-waves.svg') repeat-x center bottom;
         overflow: hidden;
 
         @media (--md-up) {
