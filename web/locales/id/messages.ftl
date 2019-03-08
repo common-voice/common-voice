@@ -443,6 +443,10 @@ download-language = Unduh { $language }
 validated-hours = Jam tervalidasi
 recorded-hours = Jam terekam
 whats-inside = Apa yang ada dalam set data Common Voice?
+dataset-description-hours =
+    Setiap masukan dalam set data terdiri  dari MP3 unik dan berkas teks terkait. Banyak dari <b>{ $total }</b> jam yang terekam dalam set data juga mengandung metadata demografi seperti usia, jenis kelamin, dan aksen yang bisa membantu melatih akurasi dari mesin pengenalan wicara. 
+    
+    Saat ini data set terdiri dari <b>{ $valid }</b> jam tervalidasi dalam bahasa <b>{ $languages }</b>, namun kami selalu menambahkan suara dan bahasa lainnya. Lihatlah <languagesLink>laman Bahasa</languagesLink> kami untuk meminta sebuah bahasa atau memulai kontribusi.
 want-dataset-update = Ingin pembaruan saat kami merilis versi baru set data Common Voice? Berlanggananlah nawala kami.
 subscribe = Berlangganan
 get-started-speech = Memulai dengan Pengenalan Wicara
@@ -460,6 +464,7 @@ go-discourse = Pergi ke Discourse
 missing-language = Tidak melihat bahasa Anda di Set Data? Untuk meminta bahasa, pergilah ke laman Bahasa kami.
 go-languages-page = Buka Laman Bahasa
 ready-to-validate = Siap membantu validasi kalimat?
+more = Lainnya
 close = Tutup
 download = Unduh
 
@@ -496,6 +501,7 @@ select-language = Pilih Bahasa...
 language-section-in-progress = Sedang Diproses
 language-section-in-progress-new-description = Bahasa ini sedang dalam pengembangan komunitas. Bilah progres menandakan seberapa jauh proses <localizationGlossaryLink>pelokalan situs</localizationGlossaryLink> dan <sentenceCollectionGlossaryLink>pengumpulan kalimat</sentenceCollectionGlossaryLink> tiap bahasa tengah berada.
 language-section-launched = Telah Diluncurkan
+language-section-launched-description = Untuk beberapa bahasa yang telah diluncurkan, situs telah berhasil <localizationGlossaryLink>melokalkan</localizationGlossaryLink>, dan memiliki <sentenceCollectionGlossaryLink>koleksi kalimat</sentenceCollectionGlossaryLink> yang cukup untuk memungkinkan kontribusi <speakLink>Berbicara</speakLink> dan <listenLink>Mendengarkan</listenLink>.
 languages-show-more = Lebih Banyak
 languages-show-less = Lebih Sedikit
 language-speakers = Penutur
