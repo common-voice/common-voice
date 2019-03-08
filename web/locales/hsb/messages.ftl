@@ -363,7 +363,7 @@ faq-where-src-from-2-a =
     
     Móžeće sej naše žórłowe sady w tutym <githubLink>rjadowaku GitHub</githubLink> wobhladać.
 faq-why-not-ask-read-q = Čehodla ludźi njeprosyće, z knihow abo nastawkow Wikipedije w rozdźělnych rěčach předčitać?
-faq-why-not-ask-read-a = Zo by datowa sadźba Common Voice wužitna kaž móžno była, smy rozdsudźili, jenož žórłowy tekst dowolić, kotryž je pod licencu Creative Commons (CC0) k dispoziciji. Wužiwanje standarda CC0 woznamjenja, zo je ćežko, žórłowy tekst namakać a hromadźić, ale dowoluje kóždemu, dobyte hłosowe daty bjez wobmjezowanja abo awtorizacije Mozilla wužiwać. Naposledku chcemy wjacerěčnu datowu sadźbu  za kóždeho tak wužitnu kaž móžno činić, inkluziwnje slědźerjow, uniwersity, nowe předewzaće, knježerstwa, organizacije za socialne zaměry a wukonjerjow hobbyja.
+faq-why-not-ask-read-a = Zo by datowa sadźba Common Voice wužitna kaž móžno była, smy rozsudźili, jenož žórłowy tekst dowolić, kotryž je pod licencu Creative Commons (CC0) k dispoziciji. Wužiwanje standarda CC0 woznamjenja, zo je ćežko, žórłowy tekst namakać a hromadźić, ale dowoluje kóždemu, dobyte hłosowe daty bjez wobmjezowanjow abo awtorizacije Mozilla wužiwać. Naposledku chcemy wjacerěčnu datowu sadźbu  za kóždeho tak wužitnu kaž móžno činić, inkluziwnje slědźerjow, uniwersity, nowe předewzaća, knježerstwa, organizacije za socialne zaměry a wukonjerjow hobbyja.
 faq-why-account-q = Čehodla měł ja konto załožić?
 faq-is-account-public-q = Su moje kontowe informacije zjawne?
 faq-how-privacy-q = Kak zawěsćujeće anonymnosć a priwatnosć ludźi, kotřiž su swoje hłosy darili?
