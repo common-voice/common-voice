@@ -13,6 +13,7 @@ loading = Pumeuhah...
 ## Languages
 
 ace = Bahsa Acèh
+af = Bahsa Afrikaans
 an = Bahsa Aragon
 ar = Bahsa Arab
 as = Bahsa Assam
@@ -43,13 +44,16 @@ fo = Bahsa Faroe
 fr = Bahsa Peurancih
 fy-NL = Bahsa Frisia
 ga-IE = Bahsa Irlandia
+gl = Bahsa Galisia
 he = Bahsa Ibrani
+hr = Bahsa Kroasia
 hsb = Bahsa Sorbia Ateueh
 hu = Bahsa Hongaria
 ia = Bahsa Intèrlingua
 id = Bahsa Indônèsia
 is = Bahsa Islandia
 it = Bahsa Itali
+izh = Bahsa Izhoria
 ja = Bahsa Jeupun
 ka = Bahsa Gèorgia
 kab = Bahsa Kabail
@@ -58,6 +62,8 @@ ko = Bahsa Korèa
 kpv = Bahsa Komi-Zyrian
 kw = Bahsa Kornish
 ky = Bahsa Kirgiz
+lt = Bahsa Lithuania
+lv = Bahsa Latvia
 mdf = Bahsa Moksha
 mk = Bahsa Makèdonia
 mn = Bahsa Mongol
@@ -73,6 +79,7 @@ pt-BR = Bahsa Peutugéh (Brasil)
 rm-sursilv = Bahsa Romansh (Sursilvan)
 ro = Bahsa Rumania
 ru = Bahsa Rusia
+rw = Bahsa Kinyarwanda
 sah = Bahsa Sakha
 sc = Bahsa Sardinia
 sk = Bahsa Slovakia
@@ -89,6 +96,7 @@ uk = Bahsa Ukraina
 ur = Bahsa Urdu
 uz = Bahsa Uzbèk
 vi = Bahsa Viètnam
+vot = Bahsa Votik
 zh-CN = Bahsa Cina (Cina)
 zh-HK = Bahsa Cina (Hong Kong)
 zh-TW = Bahsa Cina (Taiwan)
@@ -140,8 +148,6 @@ english = Bahsa Inggrèh
 
 ## ProfileForm
 
-profile-form-language =
-    .label = Bahsa
 profile-form-submit-save = Keubah
 profile-form-submit-saved = Teukeubah
 profile-close = Tôp
@@ -160,8 +166,12 @@ profile-close = Tôp
 data-download-yes = Nyo
 data-download-deny = H‘an
 data-download-license = Lisènsi: <licenseLink>CC-0</licenseLink>
-data-other-ted-name = Korpus TED-LIUM
 license = Lisènsi: <licenseLink>{ $license }</licenseLink>
+
+## New Datasets Page
+
+data-other-ted-name = Korpus TED-LIUM
+close = Tôp
 
 ## Download Modal
 
