@@ -367,6 +367,7 @@ faq-why-not-ask-read-a = Aby datowa sajźba Common Voice wužytna ako móžno by
 faq-why-account-q = Cogodla dejał ja konto załožyś?
 faq-is-account-public-q = Su móje kontowe informacije zjawne?
 faq-how-privacy-q = Kak zawěsćujośo anonymnosć a priwatnosć luźi, kótarež su swóje głose pósćili?
+faq-how-privacy-a = Ze wšych głosowych klipow w datowej sajźbje se informacije wótwónoźuju, kótarež wósoby identificěruju. Gaž sobustatkujucy demografiske daty w swójom profilu pódawa, se toś te informacije z jogo głosowych klipow wótwónoźuju, nježli až se za ześěgnjenje gromadu wězaju a wóne se nigda w jogo profilowem boku njewózjawjaju.
 faq-what-determine-identity-q = Co wóznamjenijo, až njamógu „identitu“ powědarjow w datowej saźbje Common Voice „zwěsćiś“?
 
 ## Glossary
