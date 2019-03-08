@@ -322,15 +322,30 @@ faq-what-cv-a =
     
     Kami tidak hanya mengumpulkan sampel suara dalam bahasa yang digunakan secara luas, tetapi juga pada mereka yang populasi penuturnya sedikit. Menerbitkan set data suara yang beragam akan memberdayakan pengembang, pengusaha, dan komunitas untuk mengatasi kesenjangan ini. Selain set data Common Voice, kami juga membangun mesin pengenalan ucapan open source yang disebut Deep Speech.
 faq-why-important-q = Mengapa ini penting?
+faq-why-important-a =
+    Suara merupakan cara paling alami untuk berkomunikasi satu sama lain dan teknologi suara membawa kenyamanan itu ke komputer dan perangkat seluler kita. Kami ingin memberdayakan pengembang untuk membangun aplikasi pengenalan suara yang luar biasa seperti penerjemah realtime dan asisten digital berkemampuan-suara. Tetapi saat ini sebagian besar data suara yang dibutuhkan untuk membangun aplikasi semacam ini mahal dan eksklusif. Kami berharap set data Common Voice akan memberi pengembang apa yang mereka butuhkan untuk berinovasi dan membuat teknologi bicara tersedia dalam bahasa mereka sendiri.
+    
+    Untuk membuat pengenalan suara menjadi lebih universal, kami mengumpulkan sampel suara dalam bahasa yang digunakan secara luas serta sampel dengan populasi penutur yang lebih kecil yang sering terlayani oleh layanan pengenalan suara komersial. Menerbitkan set data suara yang beragam akan memberdayakan pengembang, pengusaha, dan seluruh komunitas terkait untuk mengatasi kesenjangan ini sendiri.
 faq-how-get-q = Bagaimana saya bisa mendapatkan data Common Voice?
+faq-how-get-a = Kumpulan data Common Voice tersedia untuk diunduh di bawah lisensi <licenseLink> CC0 </licenseLink> di <datasetLink> laman Kumpulan data kami </datasetLink>. Anda juga dapat mengunduh beberapa set data yang tersedia untuk umum dari laman yang sama.
 faq-when-release-q = Kapan Anda akan merilis data Common Voice dalam bahasa lain?
+faq-when-release-a = Versi multi-bahasa dari set data Common Voice saat ini menjalani bundling dan pembersihan yang didukung komunitas. Jika Anda ingin mempelajari lebih lanjut tentang mendukung upaya ini, silakan <contactLink> hubungi kami </contactLink>. Kami saat ini menargetkan tanggal publikasi Januari 2019. Setelah itu, kami akan memperbarui set data secara berkala dengan bahasa dan klip suara baru saat tersedia. Jadwal rilis berikutnya akan ditentukan kemudian.
 faq-why-mission-q = Mengapa Common Voice merupakan bagian dari misi Mozilla?
+faq-why-mission-a = Mozilla didedikasikan untuk menjaga web tetap terbuka dan dapat diakses oleh semua orang. Untuk melakukan itu kita perlu memberdayakan pembuat web melalui proyek-proyek seperti Common Voice. Teknologi suara sudah mulai berkembang di dikehidupan sehari-hari, kami percaya semua pengguna memiliki hak yang sama untuk dapat menggunakannya. Itu berarti berinvestasi dalam lebih banyak bahasa dan mengakomodasi beragam aksen dan demografi untuk membuat dan menguji teknologi suara. Common Voice adalah sumber daya publik yang tersedia untuk semua orang dan tim dan pengembang Mozilla di seluruh dunia sudah menggunakannya pula pada proyek kami sendiri.
 faq-what-cv-and-deepspeech-q = Apa perbedaan antara Common Voice dan Deep Speech?
+faq-what-cv-and-deepspeech-a = Kumpulan data Common Voice melengkapi mesin pengenalan suara open source Mozilla, Deep Speech. Versi pertama Deep Speech dirilis pada November 2017 dan terus berkembang sejak saat itu. Bersama dengan set data Common Voice, kami percaya teknologi pengenalan suara open source ini harus tersedia untuk semua orang. Kami berharap teknologi ini akan memungkinkan pengembang membangun beragam produk dan layanan inovatif.
 faq-is-goal-assistant-q = Apakah tujuan Common Voice adalah untuk membangun asisten suara?
+faq-is-goal-assistant-a = Tujuan set data Common Voice adalah untuk memungkinkan siapa saja di dunia membangun pengenalan wicara, pengenalan pembicara, atau jenis aplikasi lain apa pun yang membutuhkan data suara. Asisten suara hanyalah salah satu dari banyak jenis aplikasi yang bisa Anda buat dengan menggunakan set data Common Voice.
 faq-do-want-native-q = Saya bukan penutur jati dan saya memiliki logat bicara, apakah Anda masih menginginkan suara saya?
+faq-do-want-native-a = Ya, kami sangat menginginkan suara Anda! Bagian dari tujuan Common Voice adalah mengumpulkan sebanyak mungkin aksen yang berbeda sehingga layanan pengenalan suara bekerja dengan baik untuk semua orang. Ini berarti sumbangan dari penutur asing juga sangat penting.
 faq-why-different-speakers-q = Mengapa Anda membutuhkan begitu banyak penutur yang berbeda untuk tiap-tiap bahasa?
+faq-why-different-speakers-a =
+    Kebanyakan data wicara dilatih dengan representasi demografis tertentu yang terlalu berlebihan akan mengakibatkan bias terhadap <articleLink> pria dan kelas menengah </articleLink>. Aksen dan dialek yang cenderung kurang terwakili dalam set data pelatihan biasanya dikaitkan dengan kelompok orang yang sudah terpinggirkan. Banyak mesin juga kesulitan memahami suara wanita.
+    Inilah sebabnya mengapa di data suara kami, kami menginginkan banyak variasi!
 faq-why-my-lang-q = Mengapa bahasa saya belum termasuk?
+faq-why-my-lang-a = Mozilla tidak memilih atau mengutamakan salah satu bahasa dari yang lain. Alih-alih, Common Voice adalah inisiatif murni berbasis komunitas, tetapi <multilangLink> butuh beberapa langkah untuk menambahkan bahasa baru </multilangLink> dan mulai mengumpulkan sumbangan suara. Pertama, situs web Common Voice perlu diterjemahkan agar anggota komunitas dapat mengakses pengalaman kontributor dalam bahasa mereka sendiri. Selanjutnya, kita memerlukan banyak koleksi kalimat bebas hak cipta untuk dibaca kontributor. Setelah kedua persyaratan tersebut terpenuhi, sebuah bahasa baru bisa “diluncurkan” di Common Voice bagi orang-orang untuk mulai merekam suara mereka dan memvalidasi sumbangan orang lain.
 faq-what-quality-q = Berapa tingkat kualitas audio yang diperlukan untuk klip suara yang akan digunakan dalam himpunan data?
+faq-what-quality-a = Kami ingin set data Common Voice mencerminkan kualitas audio yang akan didengar oleh mesin suara-ke-teks, jadi kami mencari banyak variasi. Selain komunitas pembicara yang beragam, data dengan kualitas audio yang bervariasi akan mengajarkan mesin suara-ke-teks untuk menangani berbagai situasi dunia nyata, dari pembicaraan di latar belakang hingga kebisingan mobil. Selama klip suara Anda dapat dipahami, itu sudah cukup untuk menjadi set data.
 faq-why-10k-hours-q = Mengapa 10.000 jam tervalidasi merupakan sasaran per bahasa untuk mengumpulkan data suara?
 faq-why-10k-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem ucapan-ke-teks produksi.
 faq-how-calc-hours-q = Bagaimana Common Voice menghitung jumlah jam?
@@ -341,10 +356,16 @@ faq-where-src-from-2-a =
     
     Anda dapat melihat kalimat sumber kami di <githubLink>folder GitHub</githubLink> ini.
 faq-why-not-ask-read-q = Mengapa Anda tidak meminta orang untuk membaca dari buku atau artikel Wikipedia dalam bahasa yang berbeda?
+faq-why-not-ask-read-a = Untuk membuat data Common Voice semakinberguna, kami telah memutuskan untuk hanya mengizinkan teks sumber yang tersedia di bawah lisensi Creative Commons (CC0). Menggunakan standar CC0 berarti lebih sulit untuk menemukan dan mengumpulkan teks sumber, tetapi memungkinkan siapa pun untuk menggunakan data suara yang dihasilkan tanpa batasan penggunaan atau otorisasi dari Mozilla. Pada akhirnya, kami ingin membuat set data multi-bahasa bermanfaat bagi semua orang, termasuk peneliti, universitas, startup, pemerintah, organisasi tujuan sosial, dan penggemar.
 faq-why-account-q = Mengapa saya harus mendaftar akun?
 faq-is-account-public-q = Apakah informasi akun saya bersifat publik?
 faq-how-privacy-q = Bagaimana Anda memastikan anonimitas dan privasi orang-orang yang menyumbangkan suara mereka?
+faq-how-privacy-a = Semua klip suara dalam set data dihapus dari informasi pengenal pribadi. Ketika seorang kontributor memberikan data demografis melalui profil mereka, informasi itu tidak diidentifikasikan pada klip suara mereka sebelum di-bundle untuk diunduh dalam set data serta tidak pernah dipublikasikan di laman profil mereka.
 faq-what-determine-identity-q = Apa maksudnya saya tidak bisa “menentukan identitas” penutur dalam himpunan data Common Voice?
+faq-what-determine-identity-a =
+    Set data Common Voice adalah sumber daya terbuka dan tersedia untuk umum yang dapat digunakan untuk melatih berbagai aplikasi yang berkemampuan-bicara. Untuk melindungi keamanan kontributor kami, kami meminta semua orang yang mengunduh set data Common Voice untuk menghormati privasi kontributor.
+    
+    Semua klip suara dalam set data telah terpisahkan dari informasi pengenal pribadi. Ketika Anda mengunduh set data, Anda setuju untuk tidak mencoba menentukan identitas kontributor manapun. Itu berarti Anda tidak dapat mencoba menautkan informasi dalam set data ke informasi pribadi kontributor. Namun, Anda dapat menggunakan set data untuk melatih pengenalan ucapan, pengenalan pembicara, atau aplikasi lain, dengan, misalnya, menghubungkan informasi dalam set data ke informasi lain yang sudah ada dalam set data.
 
 ## Glossary
 
@@ -358,6 +379,7 @@ hours-validated-explanation = Hitungan jam rekaman suara yang sudah divalidasi o
 sst = Ucapan-ke-teks (STT)
 sst-explanation = Teknologi ucapan-ke-teks (STT) mengubah data suara menjadi teks.
 de-identified = Diawanamakan
+de-identified-explanation = Proses dimana informasi profil kontributor dikaburkan dari klip suara yang disumbangkan ketika dikemas untuk diunduh sebagai bagian dari set data.
 
 ## NotFound
 
