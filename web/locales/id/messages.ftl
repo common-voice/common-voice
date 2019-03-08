@@ -196,6 +196,7 @@ join-newsletter = Bergabunglah dengan sukarela di daftar surel kami untuk pembar
 
 email-not-public = Kami tidak akan mempublikasikan surel Anda.
 username-optin-public = Anda dapat memilih untuk menjadikan nama pengguna Anda publik atau anonim.
+username-email-not-demographic = Nama pengguna dan surel Anda tidak akan dikaitkan dengan data yang dipublikasikan.
 
 ## Speak & Listen Shortcuts
 
@@ -221,6 +222,7 @@ shortcut-vote-no = t
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekam/Berhenti
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rekam ulang klip
 request-language-text = Belum melihat bahasa Anda di Common Voice?
 request-language-button = Ajukan Bahasa
@@ -386,11 +388,15 @@ cv-license = Lisensi
 audio-format = Format Audio
 size-gigabyte = GB
 size-megabyte = MB
+download-language = Unduh { $language }
+subscribe = Berlangganan
 data-other-librispeech-description = LibriSpeech adalah sebuah korpus berdurasi sekitar 1000 jam dengan pembacaan teks berbahasa Inggris dalam frekuensi 16Khz yang berasal dari pembacaan buku audio dari proyek LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Korpus TED-LIUM dibangun dari perbincangan audio dan naskah salinannya yang tersedia di situs web TED.
 data-other-voxforge-description = VoxForge dibangun untuk mengumpulkan naskah salinan pembicaraan untuk digunakan dengan Mesin Pengenalan Suara Sumber Terbuka dan Gratis.
 data-other-tatoeba-description = Tatoeba adalah basis data besar kalimat, terjemahan, dan audio tuturan guna pembelajaran bahasa. Unduhan ini berisi seluruh tuturan bahasa Inggris yang direkam oleh komunitas mereka.
+close = Tutup
+download = Unduh
 
 ## Download Modal
 
@@ -418,10 +424,12 @@ request-language-form-language =
     .label = Bahasa
 request-language-success-title = Terima kasih, permintaan bahasa baru berhasil dikirimkan.
 request-language-success-content = Kami akan tetap terhubung dengan lebih banyak informasi tentang bagaimana menambahkan bahasa Anda ke Common Voice segera.
+select-language = Pilih Bahasa...
 
 ## Languages Overview
 
 language-section-in-progress = Sedang Diproses
+language-section-in-progress-new-description = Bahasa ini sedang dalam pengembangan komunitas. Bilah progres menandakan seberapa jauh proses <localizationGlossaryLink>pelokalan situs</localizationGlossaryLink> dan <sentenceCollectionGlossaryLink>pengumpulan kalimat</sentenceCollectionGlossaryLink> tiap bahasa tengah berada.
 language-section-launched = Telah Diluncurkan
 languages-show-more = Lebih Banyak
 languages-show-less = Lebih Sedikit
