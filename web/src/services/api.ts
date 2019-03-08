@@ -67,7 +67,7 @@ export default class API {
       return;
     }
     if (response.status >= 400) {
-      throw new Error(await response.text());
+      throw response;
     }
     return isJSON ? response.json() : response.text();
   }
