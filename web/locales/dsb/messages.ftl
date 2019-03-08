@@ -352,6 +352,7 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
 faq-why-my-lang-a = Mozilla se wěstu rěc njewusněkujo a wěste rěcy njepreferěrujo. Město togo jo Common Voice iniciatiwa, kótaraž se dopołnje wót zgromaźeństwa doprědka póra, ale su trěbne <multilangLink>někotare kšace, aby se nowa rěc pśidała</multilangLink> a aby se gromaźenje rěcnych darow zachopiło. Nejpjerwjej musy se websedło Common Voice pśełožowaś, aby cłonki zgromaźeństwa pśistup k nazgónjenjam sobustatkujucych w swójej rěcy měli. Ako pśiduce trjebamy wjeliku zběrku sadow bźez awtorskopšawniskego šćita, kótrež luźe mógu głosnje pśedcytaś. Gaž stej toś tej pominani docynjonej, sr rěv na Common Voice "startujo", aby luźe mógli swój głos nagraś a dary drugich wobkšuśiś. Jolic cośo pomagaś, nowu rěc startowaś, woglědajśo se naš <sentenceCollectorLink>rěd za gromaźenje sadow</sentenceCollectorLink>, aby zachopił.
 faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w datowej sajźbje wužywał?
+faq-what-quality-a = Comy, až datowa sajźba Common Voice awdiokwalitu wótbłyšćujo, kótaruž mašina powědanja do teksta w lichej pśiroźe słyša, pytamy pótakem za wjelerakosću. Mimo wjelerakego zgromaźeństwa powědarjow, datowa sajźba ze wšakeju awdiokwalitu mašinu powědanja do teksta wuzamóžnijo, z rozdźělnymi situacijami z napšawdnego žywjenja wobchadaś, wót rozgronow w slězynje do  awtowego zogola. Tak dłujko ako waš głosowy klip jo k rozměśu, dejał dobry dosć za datowu sajźbu byś.
 faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za awdionagraśe?
 faq-why-10k-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědanje do teksta treněrowało.
 faq-how-calc-hours-q = Kak Common Voice góźiny woblicujo?
@@ -362,6 +363,7 @@ faq-where-src-from-2-a =
     
     Móžośo se naše žrědłowe sady w toś tom <githubLink>zarědniku GitHub</githubLink> woglědaś.
 faq-why-not-ask-read-q = Cogodla luźi njepšosyśo, z knigłow abo nastawkow Wikipedije w rozdźělnych rěcach pśedcytaś?
+faq-why-not-ask-read-a = Aby datowa sajźba Common Voice wužytna ako móžno była, smy rozsuźili, jano žrědłowy tekst dowóliś, kótaryž jo pód licencu Creative Commons (CC0) k dispoziciji. Wužywanje standarda CC0 wóznamjenijo, až jo śěžko, žrědłowy tekst namakaś a gromaźiś, ale dowólujo kuždemu, dobyte głosowe daty bźez wobgranicowanjow abo awtorizacije Mozilla wužywaś. Napósledku comy wěcejrěcnu datowu sajźbu  za kuždego tak wužytnu ako móžno cyniś, inkluziwnje slěźarje, uniwersity, nowe pśedewześa, kněžaŕstwa, organizacije za socialne zaměry a wugbarje hobbyja.
 faq-why-account-q = Cogodla dejał ja konto załožyś?
 faq-is-account-public-q = Su móje kontowe informacije zjawne?
 faq-how-privacy-q = Kak zawěsćujośo anonymnosć a priwatnosć luźi, kótarež su swóje głose pósćili?
