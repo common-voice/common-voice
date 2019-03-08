@@ -391,14 +391,17 @@ class SpeakPage extends React.Component<Props, State> {
               tallyRecording();
             }
             retries = 0;
-          } catch (e) {
-            console.error(e);
+          } catch (error) {
+            let msg;
+            if (error.status >= 400) {
+              msg =
+                'Upload of this clip keeps failing at server, keep retrying?';
+            } else {
+              msg = 'Upload of this clip keeps failing, keep retrying?';
+            }
             retries--;
             await new Promise(resolve => setTimeout(resolve, 1000));
-            if (
-              retries == 0 &&
-              confirm('Upload of this clip keeps failing, keep retrying?')
-            ) {
+            if (retries == 0 && confirm(msg)) {
               retries = 3;
             }
           }
