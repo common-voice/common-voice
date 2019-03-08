@@ -53,13 +53,16 @@ fo = Bahasa Faroe
 fr = Bahasa Perancis
 fy-NL = Bahasa Frisia
 ga-IE = Bahasa Irlandia
+gl = Bahasa Galisia
 he = Bahasa Ibrani
+hr = Bahasa Kroasia
 hsb = Bahasa Sorbia Hulu
 hu = Bahasa Hongaria
 ia = Bahasa Interlingua
 id = Bahasa Indonesia
 is = Bahasa Islandia
 it = Bahasa Italia
+izh = Bahasa Izhoria
 ja = Bahasa Jepang
 ka = Bahasa Georgia
 kab = Bahasa Kabyle
@@ -68,6 +71,8 @@ ko = Bahasa Korea
 kpv = Bahasa Komi-Zyrian
 kw = Bahasa Kornish
 ky = Bahasa Kirgiz
+lt = Bahasa Lituania
+lv = Bahasa Latvia
 mdf = Bahasa Moksha
 mhr = Meadow Mari
 mk = Bahasa Makedonia
@@ -85,6 +90,7 @@ pt-BR = Bahasa Portugis (Brasil)
 rm-sursilv = Bahasa Romansh Sursilvan
 ro = Bahasa Rumania
 ru = Bahasa Rusia
+rw = Bahasa Kinyarwanda
 sah = Bahasa Sakha
 sc = Bahasa Sardinia
 sk = Bahasa Slowakia
@@ -179,6 +185,7 @@ x-years-short =
 help-make-dataset = Bantu kami membangun himpunan data yang terbuka untuk umum dan berkualitas tinggi
 profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
 sign-up-account = Daftarkan akun
+email-subscription-title = berlangganan pemberitahuan melalui surel
 
 ## Account Benefits
 
@@ -214,6 +221,7 @@ shortcut-vote-no = t
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekam/Berhenti
+shortcut-rerecord-toggle-label = Rekam ulang klip
 request-language-text = Belum melihat bahasa Anda di Common Voice?
 request-language-button = Ajukan Bahasa
 
@@ -234,6 +242,10 @@ english = Bahasa Inggris
 
 profile-form-username =
     .label = Nama Pengguna
+profile-form-native-language =
+    .label = Bahasa Asli
+profile-form-additional-language =
+    .label = Bahasa Tambahan
 profile-form-accent =
     .label = Logat
 profile-form-age =
@@ -410,9 +422,7 @@ request-language-success-content = Kami akan tetap terhubung dengan lebih banyak
 ## Languages Overview
 
 language-section-in-progress = Sedang Diproses
-language-section-in-progress-description = Saat ini, bahasa-bahasa dalam pengembangan sedang dibangun untuk kontribusi oleh komunitas kami; kemajuan mereka mencerminkan kemajuan keseluruhan pelokalan situs web dan fase pengumpulan kalimat.
 language-section-launched = Telah Diluncurkan
-language-section-launched-new-description = Situs web telah selesai dilokalkan untuk bahasa-bahasa berikut dan memiliki cukup kalimat yang dikumpulkan untuk memungkinkan kontribusi <italic>Bicara</italic> dan <italic>Dengarkan</italic> yang berkelanjutan.
 languages-show-more = Lebih Banyak
 languages-show-less = Lebih Sedikit
 language-speakers = Penutur
