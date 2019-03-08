@@ -367,7 +367,12 @@ faq-why-not-ask-read-a = Zo by datowa sadźba Common Voice wužitna kaž móžno
 faq-why-account-q = Čehodla měł ja konto załožić?
 faq-is-account-public-q = Su moje kontowe informacije zjawne?
 faq-how-privacy-q = Kak zawěsćujeće anonymnosć a priwatnosć ludźi, kotřiž su swoje hłosy darili?
+faq-how-privacy-a = Ze wšěch hłosowych klipow w datowej sadźbje so informacije wotstronjeja, kotrež wosoby identifikuja. Hdyž sobuskutkowar demografiske daty w swojim profilu podawa, so tute informacije z jeho hłosowych klupow wotstronjeja, prjedy hač so za sćehnjenje walčkuja a wone so ženje w jeho profilowej stronje njewozjewjeja.
 faq-what-determine-identity-q = Što woznamjenja, zo njemóžu „identitu“ rěčnikow w datowej sadźbje Common Voice „zwěsćić“?
+faq-what-determine-identity-a =
+    Datowa sadźba Common Voice je wotewrjena a zjawnje přistupna resursa, kotraž hodźi so za trenowanje šěrokeje wšelakorosće přez rěčenje wodźenych nałoženjow wužiwać. Zo bychmy wěstotu našich sobuskutkowarjow škitali, prosymy kóždeho, kotryž datowu sadźbu Common Voice sćahuje, priwatnosć našich sobuskutkowarjow respektować.
+    
+    Ze wšěch hłosowych klipow w datowej sadźbje so informacije wotstronjeja, kotrež wosoby identifikuja. Hdyž datowu sadźbu sćahujeće, zwoliće do toho, zo njepospytujeće identitu sobuskutkowarja postajić. To rěka, zo njemóžeće spytać, informacije w datowej sadźbje z wosobinskimi informacijemi sobuskutkowarja zwjazać.  Móžeće wšak datowu sadźbu wužiwać, zo byšć rěčenske spóznaće, spóznaće rěčnikow abo druhe nałoženja přez to trenował, zo, na přikład, informacije w datowej sadźbje z druhimi informacijemi zwjazujeće, kotrež su hižo w datowej sadźbje.
 
 ## Glossary
 
