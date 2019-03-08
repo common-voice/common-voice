@@ -369,6 +369,10 @@ faq-is-account-public-q = Su móje kontowe informacije zjawne?
 faq-how-privacy-q = Kak zawěsćujośo anonymnosć a priwatnosć luźi, kótarež su swóje głose pósćili?
 faq-how-privacy-a = Ze wšych głosowych klipow w datowej sajźbje se informacije wótwónoźuju, kótarež wósoby identificěruju. Gaž sobustatkujucy demografiske daty w swójom profilu pódawa, se toś te informacije z jogo głosowych klipow wótwónoźuju, nježli až se za ześěgnjenje gromadu wězaju a wóne se nigda w jogo profilowem boku njewózjawjaju.
 faq-what-determine-identity-q = Co wóznamjenijo, až njamógu „identitu“ powědarjow w datowej saźbje Common Voice „zwěsćiś“?
+faq-what-determine-identity-a =
+    Datowa sajźba Common Voice jo wótwórjona a zjawnje pśistupna resursa, kótaraž dajo se za treněrowanje šyrokeje wjelerakosći pśez powědanje wóźonych nałoženjow wužywaś. Aby my wěstotu našych sobustatkujucych šćitali, pšosymy kuždego, kótaryž datowu sajźbu Common Voice ześěgujo, priwatnosć našych sobustatkujucych respektěrowaś.
+    
+    Ze wšych głosowych klipow w datowej sajźbje se informacije wótwónoźuju, kótarež wósoby identificěruju. Gaž datowu sajźbu ześěgujośo, zwolijośo do togo, až njewopytujośo identitu sobustatkujucego póstajiś. To groni, až njamóžośo wopytaś, informacije w datowej sajźbje z wósobinskimi informacijami sobustatkujucego zwěazaś.  Móžośo pak datowu sajźbu wužywaś, aby powědańske spóznaśe, spóznaśe powědarjow abo druge nałoženja pśez to treněrował, až, na pśikład, informacije w datowej sajźbje z drugimi informacijami zwězujośo, kótarež su južo w datowej sajźbje.
 
 ## Glossary
 
@@ -446,11 +450,16 @@ download-language = { $language } sćahnyć
 validated-hours = Wobkšuśone góźiny
 recorded-hours = Nagrate góźiny
 whats-inside = Co jo w datowej sajźbje Common Voice?
+dataset-description-hours =
+    Kuždy zapisk w datowej sajźbje wobstoj z jadnorazoweje MP3- a pśisłušneje tekstoweje dataje. Wjele z <b>{ $total }</b> nagratych góźinow w datowej sajźbje teke demografiske daty ako starstwo, rod a akcent wopśimuju, kótarež mógu pomagaś, dokradnosć mašinow powědańskego spóznaśa treněrowaś.
+    
+    Datowa sajźba tuchylu z <b>{ $valid }</b> wobkšuśonych góźinow w <b>{ $languages }</b> rěcach, ale pśidawamy pśecej dalšne głose a rěcy. Wowglědajśo se k našomu <languagesLink>bokoju rěcow</languagesLink>, aby wó rěc pšosył abo zachopił sobu pśinosowaś.
 want-dataset-update = Cośo aktualizacije, gaž nowu wersiju datoweje sajźby Common Voice wózjawjamy? Aboněrujśo naš powěsćowy list.
 subscribe = Aboněrowaś
 get-started-speech = Prědne kšace z powědańskim spóznaśim
 other-datasets = Druge głosowe datowe sajźby
 feedback-q = Maśo komentary?
+deepspeech-info = Datowa sajźba Common Voice wudopołnjujo Deep Speech, mašinu głosowego spóznaśa wótwórjonego žrědła Mozilla, kótaruž móžośo wužywaś, aby nałoženja głosowego spóznaśa wuwijaś. Cytajśo naš <githubLink>pśeglěd Github</githubLink> abo pśizamkniśo se forumoju <discourseLink>DeepSpeech Discourse</discourseLink>, aby zgónił, kak móžośo zachopiś.
 common-voice-info = Maśo pšašanja wó Common Voice? Pśizamkniśo se nam w našom <discourseLink>forumje Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech jo korpus skóro 1.000 góźinow wjengelskej rěcy (nagrate z 16 Khz), kótarež z wótsłuchańskich knigłow projekta LibriVox póchadaju.
 data-other-ted-name = Korpus TED-LIUM
