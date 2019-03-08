@@ -372,7 +372,7 @@ faq-what-determine-identity-q = Što woznamjenja, zo njemóžu „identitu“ r�
 faq-what-determine-identity-a =
     Datowa sadźba Common Voice je wotewrjena a zjawnje přistupna resursa, kotraž hodźi so za trenowanje šěrokeje wšelakorosće přez rěčenje wodźenych nałoženjow wužiwać. Zo bychmy wěstotu našich sobuskutkowarjow škitali, prosymy kóždeho, kotryž datowu sadźbu Common Voice sćahuje, priwatnosć našich sobuskutkowarjow respektować.
     
-    Ze wšěch hłosowych klipow w datowej sadźbje so informacije wotstronjeja, kotrež wosoby identifikuja. Hdyž datowu sadźbu sćahujeće, zwoliće do toho, zo njepospytujeće identitu sobuskutkowarja postajić. To rěka, zo njemóžeće spytać, informacije w datowej sadźbje z wosobinskimi informacijemi sobuskutkowarja zwjazać.  Móžeće wšak datowu sadźbu wužiwać, zo byšć rěčenske spóznaće, spóznaće rěčnikow abo druhe nałoženja přez to trenował, zo, na přikład, informacije w datowej sadźbje z druhimi informacijemi zwjazujeće, kotrež su hižo w datowej sadźbje.
+    Ze wšěch hłosowych klipow w datowej sadźbje so informacije wotstronjeja, kotrež wosoby identifikuja. Hdyž datowu sadźbu sćahujeće, zwoliće do toho, zo njepospytujeće identitu sobuskutkowarja postajić. To rěka, zo njemóžeće spytać, informacije w datowej sadźbje z wosobinskimi informacijemi sobuskutkowarja zwjazać.  Móžeće wšak datowu sadźbu wužiwać, zo byšće rěčenske spóznaće, spóznaće rěčnikow abo druhe nałoženja přez to trenował, zo, na přikład, informacije w datowej sadźbje z druhimi informacijemi zwjazujeće, kotrež su hižo w datowej sadźbje.
 
 ## Glossary
 
@@ -453,13 +453,13 @@ whats-inside = Što je w datowej sadźbje Common Voice?
 dataset-description-hours =
     Kóždy zapisk w datowej sadźbje wobsteji z jónkróćneje MP3- a přisłušneje tekstoweje dataje. Wjele z <b>{ $total }</b> natočenych hodźin w datowej sadźbje tež demografiske daty kaž starobu, splah a akcent wobsahuja, kotrež móža pomhać, dokładnosć mašinow rěćenskeho spóznaća trenować.
     
-    Datowa sadźba tuchwilu z <b>{ $valid }</b> wobkrućenych hodźin w <b>{ $languages }</b> rěčach, ale ale přidawamy přeco dalše hłosy a rěče. Wopytajće našu <languagesLink>stronu rěčow</languagesLink>, zo byšće požadał abo započał sobu přinošować.
+    Datowa sadźba tuchwilu z <b>{ $valid }</b> wobkrućenych hodźin w <b>{ $languages }</b> rěčach, ale přidawamy přeco dalše hłosy a rěče. Wopytajće našu <languagesLink>stronu rěčow</languagesLink>, zo byšće rěč požadał abo započał sobu přinošować.
 want-dataset-update = Chceće aktualizacije, hdyž nowu wersiju datoweje sadźby Common Voice wozjewjamy? Abonujće naš powěsćowy list.
 subscribe = Abonować
 get-started-speech = Prěnje kroki z rěčenskim spóznaćom
 other-datasets = Druhe hłosowe datowe sadźby
 feedback-q = Maće komentary?
-deepspeech-info = Datowa sadźba Common Voice wudsopołnja Deep Speech, mašinu hłosoweho spóznaća wotewrjeneho žórła Mozilla, kotruž móžeće wužiwać, zo byšće nałoženja hłosoweho spóznaća wuwiwać. Čitajće naš <githubLink>přehlad Github</githubLink> abo přidružće so forumej <discourseLink>DeepSpeech Discourse</discourseLink>, zo byšće zhoniła, kak móžeće započeć.
+deepspeech-info = Datowa sadźba Common Voice wudospołnja Deep Speech, mašinu hłosoweho spóznaća wotewrjeneho žórła Mozilla, kotruž móžeće wužiwać, zo byšće nałoženja hłosoweho spóznaća wuwiwać. Čitajće naš <githubLink>přehlad Github</githubLink> abo přidružće so forumej <discourseLink>DeepSpeech Discourse</discourseLink>, zo byšće zhonił, kak móžeće započeć.
 common-voice-info = Maće prašenja wo Common Voice? Přidružće so nam w našim <discourseLink>forumje Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech je korpus nimale 1.000 hodźin w jendźelskej rěči (natočene z 16 Khz), kotrež ze słuchoknihow projekta LibriVox pochadźeja.
 data-other-ted-name = Korpus TED-LIUM
