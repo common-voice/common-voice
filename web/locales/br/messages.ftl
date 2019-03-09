@@ -414,17 +414,25 @@ review-delete-recordings = Dilemel ma enrolladennoù
 
 ## New Datasets Page
 
+# File size in gigabytes
+size = Ment
+cv-license = Lañvaz
+audio-format = Stumm aodio
+number-of-voices = Niver a vouezhioù
 size-gigabyte = Go
 size-megabyte = Mo
 download-language = Pellgargañ { $language }
 validated-hours = Eurvezhioù gwiriet
 recorded-hours = Eurvezhioù enrollet
 subscribe = Koumanantiñ
+feedback-q = Evezhiadennoù ho peus?
 data-other-librispeech-description = LibriSpeech a zo anezhañ ur c'horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Savet eo bet ar c'horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c'haller kavout war lec'hienn TED.
 data-other-voxforge-description = VoxForge a zo bet savet evit dastum mouezhioù treuzskrivet da vezañ implijet e luskerioù anaout ar vouezh frank.
 data-other-tatoeba-description = Tatoeba a zo anezhañ ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù komzet implijet en deskiñ yezhoù. Ar bellgargadenn-mañ a ya d'he ober saozneg komzet enrollet gant o c'humuniezh.
+go-languages-page = Mont da bajenn ar yezh
+ready-to-validate = Prest da sikour gwiriañ frazennoù?
 more = Muioc'h
 close = Serriñ
 download = Pellgargañ
@@ -455,6 +463,7 @@ request-language-form-language =
     .label = Yezh
 request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras deoc'h.
 request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nemeur gant muioc'h a ditouroù war ar mod da ouzhpennañ ho yezh da gCommon Voice.
+select-language = Diuzañ ur yezh...
 
 ## Languages Overview
 
