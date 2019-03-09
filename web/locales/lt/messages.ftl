@@ -140,6 +140,7 @@ logout = Atsijungti
 ## Home Page
 
 home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti apmokyti įrenginius tikrų žmonių kalbos.
+home-cta = Prisijunk prie mūsų veiklos čia!
 wall-of-text-start = Balsas yra natūralus ir žmogiškas. Todėl mes džiaugiamės kurdami naudingas balso technologijas. Tačiau jas kuriant, reikalingas labai didelis balso duomenų kiekis.
 wall-of-text-more-mobile = Dauguma didelių kompanijų duomenų nėra prienami plačiajai publikai. Mes manome, jog tai slopina inovacijas, dėl to vykdome „Common Voice“ – projektą, kurio pagalba kalbos atpažinimo technologijos taps atviros ir pasiekiamos visiems.
 wall-of-text-more-desktop = Dabar ir tu gali sudalyvauti kuriant atvirojo kodo balso duomenų bazę, prieinamą kiekvienam, norinčiam kurti naujoviškas programas įrenginiams ir saitynui. Balsu perskaityk sakinį – taip padėsi apmokyti kompiuterį, kaip kalba tikri žmonės. Patikrink kitų padarytus įrašus – taip padėsi užtikrinti rezultato kokybę. Tai tikrai paprasta!
@@ -148,6 +149,7 @@ wall-of-text-second = Dauguma didelių kompanijų duomenų nėra prienami plači
 show-wall-of-text = Skaityti daugiau
 help-us-title = Padėk mums patvirtinti sakinius!
 help-us-explain = Spustelėk atkūrimo mygtuką, išklausyk įrašą ir atsakyk: ar diktorius tiksliai perskaitė žemiau pateiktą sakinį?
+no-clips-to-validate = Panašu, jog šia kalba neturime parengtų patikrai garso įrašų. Padėk mums papildyti jų eilę – įrašyk keletą sakinių dabar.
 vote-yes = Taip
 vote-no = Ne
 toggle-play-tooltip = Spustelėk { shortcut-play-toggle } įrašui atkurti
@@ -155,6 +157,7 @@ speak-subtitle = Pasidalink savo balsu
 speak-paragraph = Balso įrašymas – pamatinė mūsų atvirųjų duomenų kūrimo dalis; kai kurie pasakytų, kad ji ir yra įdomioji.
 speak-goal-text = Padaryta įrašų
 listen-subtitle = Padėk mums patvirtinti balso įrašus
+listen-paragraph = Pateiktų garso įrašų patikra yra ne mažiau svarbi „Common Voice- misijos dalis. Išklausyk ir patikrink keletą įrašų – taip padėsi užtikrinti kaupiamų atvirųjų balso duomenų kokybę.
 listen-goal-text = Patvirtinta įrašų
 hours-recorded = Įrašyta valandų
 hours-validated = Patvirtinta valandų
