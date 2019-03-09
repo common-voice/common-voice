@@ -365,14 +365,40 @@ contact-required = *privalomas laukas
 
 ## Request Language Modal
 
+request-language-title = Prašymas aktyvinti kalbą
+request-language-form-language =
+    .label = Kalba
+request-language-success-title = Prašymas sėkmingai pateiktas, dėkojame.
 
 ## Languages Overview
 
+language-section-launched = Aktyvios
+languages-show-more = Rodyti daugiau
+languages-show-less = Rodyti mažiau
+language-speakers = Diktoriai
+language-meter-in-progress = Eiga
+language-total-progress = Iš viso
+language-search-input =
+    .placeholder = Ieškoti
+language-speakers = Diktoriai
+localized = Lokalizacija
+sentences = Sakiniai
+total-hours = Patvirtinta valandų
 
 ## New Contribution
 
+action-click = Spustelėk
 contribute = Prisidėti
 listen = Klausyk
+skip = Praleisti
+record-cta = Pradėk įrašymą
+record-platform-not-supported = Atsiprašome, tavo platforma kol kas nepalaikoma.
+record-platform-not-supported-desktop = Staliniam kompiuteriui gali parsisiųsti naujausią:
+record-no-mic-found = Mikrofonas nerastas.
+record-error-too-short = Įrašas buvo per trumpas.
+record-error-too-long = Įrašas buvo per ilgas.
+record-error-too-quiet = Įrašas buvo per tylus.
+record-cancel = Atsisakyti pakartotinio įrašymo
 
 ## Goals
 
