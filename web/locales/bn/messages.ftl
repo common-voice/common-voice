@@ -185,6 +185,7 @@ x-years-short =
         [one] বছর
        *[other] { $count }বছর
     }
+help-make-dataset = একটি উচ্চ মানসম্পন্ন, সর্বজনীনভাবে উন্মুক্ত ডেটাসেট তৈরীতে আমাদের সহায়তা করুন
 
 ## Account Benefits
 
