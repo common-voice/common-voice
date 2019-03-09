@@ -53,6 +53,7 @@ fo = Farerų
 fr = Prancūzų
 fy-NL = Fryzų
 ga-IE = Airių
+gl = Galisų
 he = Hebrajų
 hr = Kroatų
 hsb = Auštutinių Sorbų
@@ -119,12 +120,12 @@ zh-TW = Kinų (Taivanas)
 ## Layout
 
 speak = Kalbėk
-speak-now = Kalbėkite dabar
+speak-now = Kalbėk dabar
 datasets = Duomenų rinkiniai
 languages = Kalbos
 profile = Profilis
 help = Pagalba
-contact = Susisiekite
+contact = Susisiek
 privacy = Privatumas
 terms = Sąlygos
 cookies = Slapukai
@@ -141,7 +142,7 @@ logout = Atsijungti
 home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti apmokyti įrenginius tikrų žmonių kalbos.
 wall-of-text-start = Balsas yra natūralus ir žmogiškas. Todėl mes džiaugiamės kurdami naudingas balso technologijas. Tačiau jas kuriant, reikalingas labai didelis balso duomenų kiekis.
 wall-of-text-more-mobile = Dauguma didelių kompanijų duomenų nėra prienami plačiajai publikai. Mes manome, jog tai slopina inovacijas, dėl to vykdome „Common Voice“ – projektą, kurio pagalba kalbos atpažinimo technologijos taps atviros ir pasiekiamos visiems.
-wall-of-text-more-desktop = Dabar ir tu gali sudalyvauti kuriant atvirojo kodo balso duomenų bazę, prieinamą kiekvienam, norinčiam kurti naujoviškas programas įrenginiams ir saitynui. Balsu perskaityk sakinį – taip padėsi apmokyti kompiuterį, kaip kalba tikri žmonės. Patikrink kitų talkininkų padarytus įrašus – taip padėsi užtikrinti rezultato kokybę. Tai tikrai paprasta!
+wall-of-text-more-desktop = Dabar ir tu gali sudalyvauti kuriant atvirojo kodo balso duomenų bazę, prieinamą kiekvienam, norinčiam kurti naujoviškas programas įrenginiams ir saitynui. Balsu perskaityk sakinį – taip padėsi apmokyti kompiuterį, kaip kalba tikri žmonės. Patikrink kitų padarytus įrašus – taip padėsi užtikrinti rezultato kokybę. Tai tikrai paprasta!
 wall-of-text-first = Balsas yra natūralus ir žmogiškas. Todėl mes džiaugiamės kurdami naudingas balso technologijas. Tačiau jas kuriant, reikalingas labai didelis balso duomenų kiekis.
 wall-of-text-second = Dauguma didelių kompanijų duomenų nėra prienami plačiajai publikai. Mes manome, jog tai slopina inovacijas, dėl to vykdome „Common Voice“ – projektą, kurio pagalba kalbos atpažinimo technologijos taps atviros ir pasiekiamos visiems.
 show-wall-of-text = Skaityti daugiau
@@ -185,7 +186,7 @@ x-years-short =
 help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą duomenų rinkinį
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 sign-up-account = Užsiregistruok ir susikurk paskyrą
-email-subscription-title = Užsiprenumeruok naujienas el. paštu
+email-subscription-title = Gauk naujienas el. paštu
 
 ## Account Benefits
 
@@ -292,7 +293,7 @@ faq-what-cv-a =
     Mes kaupiame balso įrašus ne tik plačiai vartojamose, bet ir mažiau kalbėtojų turinčiose kalbose. Įvairių balsų rinkinių publikavimas įgalins kūrėjus, verslininkus ir bendruomenes spręsti šią problemą. Be „Common Voice“ balso duomenų rinkinių, mes taip pat kuriame atvirojo kodo balso atpažinimo variklį „Deep Speech“.
 faq-why-important-q = Kodėl tai svarbu?
 faq-how-get-q = Kaip galiu gauti „Common Voice“ duomenis?
-faq-when-release-q = Kada išleisite „Common Voice“ duomenis kitomis kalbomis?
+faq-when-release-q = Kada bus išleisti „Common Voice“ duomenys kitomis kalbomis?
 faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
 faq-is-goal-assistant-q = Ar „Common Voice“ tikslas – sukurti balso asistentą?
 faq-why-different-speakers-q = Kodėl jums reikia tiek daug skirtingų kalbančiųjų?
@@ -355,7 +356,7 @@ download = Atsisiųsti
 ## Download Modal
 
 download-form-email =
-    .label = Įveskite savo el. paštą
+    .label = Įvesk savo el. paštą
     .value = Ačiū, susisieksime su jumis.
 download-no = Ne, ačiū
 
@@ -393,6 +394,7 @@ total-hours = Patvirtinta valandų
 ## New Contribution
 
 action-click = Spustelėk
+action-tap = Bakstelėk
 contribute = Prisidėti
 listen = Klausyk
 skip = Praleisti
