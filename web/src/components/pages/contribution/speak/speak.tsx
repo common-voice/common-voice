@@ -392,12 +392,13 @@ class SpeakPage extends React.Component<Props, State> {
             }
             retries = 0;
           } catch (error) {
+            console.log(error, 'frontend error console');
             let msg;
             if (error.status >= 400) {
               msg =
-                'Upload of this clip keeps failing at server, keep retrying?';
+                'Upload of this clip keeps failing at server, keep retrying?m';
             } else {
-              msg = 'Upload of this clip keeps failing, keep retrying?';
+              msg = 'Upload of this clip keeps failing, keep retrying?m';
             }
             retries--;
             await new Promise(resolve => setTimeout(resolve, 1000));
