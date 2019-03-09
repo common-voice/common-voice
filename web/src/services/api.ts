@@ -50,7 +50,6 @@ export default class API {
     if (path.startsWith(location.origin) && !this.user.account) {
       finalHeaders.client_id = this.user.userId;
     }
-
     const response = await fetch(path, {
       method: method || 'GET',
       headers: finalHeaders,
