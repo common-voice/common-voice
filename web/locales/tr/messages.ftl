@@ -19,6 +19,7 @@ indicates-required = * Gerekli alanları gösterir
 
 ab = Abhazca
 ace = Açece
+ady = Adıgece
 af = Afrikaans
 am = Amharca
 an = Aragonca
@@ -39,6 +40,7 @@ cy = Galce
 da = Danca
 de = Almanca
 dsb = Aşağı Sorbca
+dv = Maldivce
 el = Yunanca
 en = İngilizce
 eo = Esperanto
@@ -52,6 +54,7 @@ fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
 he = İbranice
+hr = Hırvatça
 hsb = Yukarı Sorbca
 hu = Macarca
 ia = Interlingua
@@ -66,6 +69,8 @@ ko = Korece
 kpv = Komi Zıryan
 kw = Kernevekçe
 ky = Kırgızca
+lt = Litvanca
+lv = Letonca
 mdf = Mokşa
 mk = Makedonca
 mn = Moğolca
@@ -175,6 +180,7 @@ x-years-short =
 help-make-dataset = Kaliteli, herkese açık bir veri kümesi oluşturmamıza yardım edin
 profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
 sign-up-account = Hesap açın
+email-subscription-title = e-posta haberlerine kaydolun
 
 ## Account Benefits
 
@@ -217,6 +223,7 @@ shortcut-vote-no = h
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
 request-language-button = Yeni dil iste
 
@@ -315,6 +322,7 @@ faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizlili�
 
 glossary = Sözlük
 localization = Yerelleştirme
+sentence-collection = Cümle derleme
 sst = Konuşmadan metne (STT)
 sst-explanation = Konuşmadan metne (STT) teknolojileri ses verilerini metne dönüştürür.
 
@@ -369,6 +377,12 @@ data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur.
 data-other-voxforge-description = VoxForge, Özgür ve Açık Kaynaklı Konuşma Tanıma Motorları ile kullanım için okunmuş metinler toplamak üzere kuruldu.
 data-other-tatoeba-description = Tatoeba, dil öğrenmede kullanılmak üzere geniş bir cümle, çeviri ve konuşma veritabanıdır. Bu dosya, Tatoeba gönüllüleri tarafından kaydedilen İngilizce konuşmaları içerir.
+go-discourse = Discourse'a git
+go-languages-page = Diller sayfasına git
+ready-to-validate = Cümleleri doğrulamaya hazır mısınız?
+more = Daha fazla
+close = Kapat
+download = İndir
 
 ## Download Modal
 
@@ -396,13 +410,12 @@ request-language-form-language =
     .label = Dil
 request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür ederiz.
 request-language-success-content = Dilinizi Common Voice’a nasıl ekleyeceğiniz hakkında daha fazla bilgi vermek için yakında size ulaşacağız.
+select-language = Bir dil seçin...
 
 ## Languages Overview
 
 language-section-in-progress = Devam ediyor
-language-section-in-progress-description = Devam eden diller, gönüllülerimiz tarafından katkıya açılmaya hazırlanmaktadır. İlerleme durumları, web sitesi çevirisinde ve cümle derlemede ne durumda olduklarını göstermektedir.
 language-section-launched = Yayımlandı
-language-section-launched-new-description = Web sitemiz aşağıdaki dillere tamamen çevrilmiş ve yeterli sayıda yazılı cümle toplanmıştır. <italic>Konuşma</italic> ve <italic>dinleme</italic> desteğinde bulunabilirsiniz.
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-speakers = Konuşmacı
