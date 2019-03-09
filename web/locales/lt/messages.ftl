@@ -340,14 +340,28 @@ download-language = Parsisiųsti – { $language }
 validated-hours = Patvirtinta valandų
 recorded-hours = Įrašyta valandų
 feedback-q = Turi komentarų?
+deepspeech-info = „Common Voice“ duomenų rinkinys papildo „Mozillos“ atvirojo kodo balso atpažinimo variklį „Deep Speech“, kuri gali naudoti kalbos atpažinimo programoms kurti. Perskaityk <githubLink>„Github“ apžvalgą </githubLink> arba prisijunk prie <discourseLink>„DeepSpeech“ grupės „Discourse“ platformoje</discourseLink> ir sužinok kaip gali pradėti naudotis šiais duomenimis.
+common-voice-info = Turi klausimų apie „Common Voice“? Prisijunk prie mūsų <discourseLink>„Discourse“ forumo</discourseLink>.
+data-other-librispeech-description = „LibriSpeech“ yra maždaug 1000 valandų 16 kHz skaitomos anglų kalbos įrašų rinkinys, gautas iš „LibriVox“ projekte įgarsintų garsaknygių.
+go-discourse = Eiti į „Discourse“
+more = Išsamiau
+close = Užverti
+download = Atsisiųsti
 
 ## Download Modal
 
+download-form-email =
+    .label = Įveskite savo el. paštą
+    .value = Ačiū, susisieksime su jumis.
+download-no = Ne, ačiū
 
 ## Contact Modal
 
 contact-form-name =
     .label = Vardas
+contact-form-message =
+    .label = Pranešimas
+contact-required = *privalomas laukas
 
 ## Request Language Modal
 
