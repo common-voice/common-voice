@@ -406,12 +406,43 @@ record-last-instruction = <recordIcon></recordIcon> Paskutinis!
 unable-speak = Dabar negali šnekėti?
 record-submit-tooltip = { $actionType }, kad pateiktum šį savo įnašą
 clips-uploaded = Įkelta įrašų
+record-abort-title = Ar nori pirma užbaigti įrašymą?
+record-abort-text = Jeigu išeisi dabar, prarasi ką tik įrašytas frazes
+record-abort-submit = Pateikti įrašus
+record-abort-continue = Tęsti įrašymą
+record-abort-delete = Išeiti ir atmesti įrašus
+listen-instruction = { $actionType }<playIcon></playIcon>. Ar diktorius teisingai perskaitė sakinį?
+listen-again-instruction = Šaunu! <playIcon></playIcon> Kai galėsi, klausyk vėl
+listen-3rd-time-instruction = Du įrašai išklausyti, taip ir toliau!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Paskutinis!
+record-button-label = Įrašyk savo balsą
+share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
 
 ## Goals
 
+streaks = Serijos
+days =
+    { $count ->
+        [one] diena
+        [few] dienos
+       *[other] dienų
+    }
+recordings =
+    { $count ->
+        [one] Įrašas
+        [few] įrašai
+       *[other] įrašų
+    }
+validations =
+    { $count ->
+        [one] patvirtinimas
+        [few] patvirtinimai
+       *[other] patvirtinimų
+    }
 
 ## Dashboard
 
+your-languages = Tavo kalbos
 
 ## Profile Delete
 
