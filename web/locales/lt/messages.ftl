@@ -264,7 +264,7 @@ profile-close = Užverti
 thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo profilį.
 why-demographic = Kodėl tai svarbu?
 keep-me-posted =
-    .label = Norėčiau gauti naujienas „Common Voice“ naujienas.
+    .label = Norėčiau gauti „Common Voice“ projekto naujienas.
 login-identity = Prisijungimo tapatybė
 login-signup = Prisijungti / registruotis
 edit = Keisti
@@ -293,12 +293,23 @@ faq-when-release-q = Kada išleisite „Common Voice“ duomenis kitomis kalbomi
 faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
 faq-is-goal-assistant-q = Ar „Common Voice“ tikslas – sukurti balso asistentą?
 faq-why-different-speakers-q = Kodėl jums reikia tiek daug skirtingų kalbančiųjų?
+faq-why-different-speakers-a =
+    Dauguma kalbos duomenų bazių yra apmokomos, neišlaikant proporcijų tarp atskirų demografinių grupių. Todėl atsiranda šališkumas <articleLink> viduriniosios klasės atstovų ir vyrų</articleLink> atžvilgiu. Akcentai ir dialektai, dažniausiai nepakankamai atstovaujami mokymo duomenų rinkiniuose, dažnai yra susiję su jau ir taip marginalizuotomis žmonių grupėmis. Dažnai įrenginiai nesugeba gerai suprasti moterų balsų.
+    Todėl mūsų balsų duomenų bazėje siekiama įvairovės!
+faq-why-my-lang-q = Kodėl mano kalba dar neįtraukta?
+faq-what-quality-q = Kokios garso kokybės turi būti balso įrašas, kad jis būtų panaudotas duomenų rinkinyje?
+faq-why-10k-hours-q = Kodėl kiekvienos kalbos tikslas yra 10 000 patvirtintų valandų?
+faq-how-calc-hours-q = Kaip „Common Voice“ apskaičiuoja valandas?
+faq-where-src-from-2-q = Iš kur gaunamas šaltinio tekstas?
+faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipedijos“ straipsnių įvairiomis kalbomis?
 
 ## Glossary
 
+localization = Lokalizavimas
 
 ## NotFound
 
+notfound-title = Nerasta
 
 ## Data
 
@@ -307,13 +318,28 @@ data-download-deny = Ne
 data-download-license = Licencija: <licenseLink>CC-0</licenseLink>
 terms-agree = Sutinku
 terms-disagree = Nesutinku
+review-submit-title = Peržiūrėti ir pateikti
+review-recording = Peržiūrėti
 
 ## New Datasets Page
 
 language = Kalba
 # File size in gigabytes
 size = Dydis
+validated-hr-total = Viso patvirtinta valandų
+overall-hr-total = Viso valandų
 cv-license = Licencija
+audio-format = Garso formatas
+number-of-voices = Balsų kiekis
+splits = Sudėtis
+email-to-download = Įvesk el. paštą parsisiuntimui
+confirm-size = Esi pasirengęs pradėti siųstis <b>{ $size }</b> duomenų
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Parsisiųsti – { $language }
+validated-hours = Patvirtinta valandų
+recorded-hours = Įrašyta valandų
+feedback-q = Turi komentarų?
 
 ## Download Modal
 
