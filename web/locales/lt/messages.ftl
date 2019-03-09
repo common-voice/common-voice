@@ -283,7 +283,16 @@ add-language = Pridėti kalbą
 
 faq-title = Dažniausiai užduodami klausimai
 faq-what-cv-q = Kas yra „Common Voice“?
+faq-what-cv-a =
+    Balso atpažinimo technologijos keičia mūsų bendravimą su kompiuteriais, tačiau dabartinės sistemos yra brangios ir nuosavybinės. „Common Voice“ yra „Mozillos“ iniciatyvos pagerinti balso atpažinimo sistemas ir jas padaryti prieinamesnes visiems dalis. „Common Voice“ yra pasaulinė balsų duomenų bazė, leidžianti visiems greitai ir lengvai mokyti su balsu dirbančias programas potencialiai kiekvienos kalbos.
+    
+    Mes kaupiame balso įrašus ne tik plačiai vartojamose, bet ir mažiau kalbėtojų turinčiose kalbose. Įvairių balsų rinkinių publikavimas įgalins kūrėjus, verslininkus ir bendruomenes spręsti šią problemą. Be „Common Voice“ balso duomenų rinkinių, mes taip pat kuriame atvirojo kodo balso atpažinimo variklį „Deep Speech“.
 faq-why-important-q = Kodėl tai svarbu?
+faq-how-get-q = Kaip galiu gauti „Common Voice“ duomenis?
+faq-when-release-q = Kada išleisite „Common Voice“ duomenis kitomis kalbomis?
+faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
+faq-is-goal-assistant-q = Ar „Common Voice“ tikslas – sukurti balso asistentą?
+faq-why-different-speakers-q = Kodėl jums reikia tiek daug skirtingų kalbančiųjų?
 
 ## Glossary
 
