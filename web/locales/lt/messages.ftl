@@ -399,6 +399,13 @@ record-error-too-short = Įrašas buvo per trumpas.
 record-error-too-long = Įrašas buvo per ilgas.
 record-error-too-quiet = Įrašas buvo per tylus.
 record-cancel = Atsisakyti pakartotinio įrašymo
+record-three-more-instruction = Liko dar trys!
+record-again-instruction = Šaunu!<recordIcon></recordIcon> Dabar įrašyk kitą sakinį
+record-again-instruction2 = Puiku, įrašinėkime toliau <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Paskutinis!
+unable-speak = Dabar negali šnekėti?
+record-submit-tooltip = { $actionType }, kad pateiktum šį savo įnašą
+clips-uploaded = Įkelta įrašų
 
 ## Goals
 
