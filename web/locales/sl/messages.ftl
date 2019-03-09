@@ -439,6 +439,7 @@ subscribe = Naroči se
 get-started-speech = Začnite s prepoznavanjem govora
 other-datasets = Drugi glasovni nabori podatkov
 feedback-q = Želite poslati povratne informacije?
+deepspeech-info = Nabor podatkov Common Voice dopolnjuje Mozillin odprtokodni sistem za prepoznavanje govora Deep Speech, ki ga lahko uporabite za izdelavo aplikacij za prepoznavanje govora. Če želite izvedeti, kako začeti, preberite naš <githubLink>priročnik na Githubu</githubLink> ali se nam pridružite <DiscourseLink>na forumu Discourse</discourseLink>.
 common-voice-info = Imate vprašanja o projektu Common Voice? Pridružite se nam na <discourseLink>forumu Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
 data-other-ted-name = Korpus TED-LIUM
