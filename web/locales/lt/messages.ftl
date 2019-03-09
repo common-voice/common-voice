@@ -71,6 +71,7 @@ kpv = Komių-Zyrų
 kw = Kornų
 ky = Kirgizų
 lt = Lietuvių
+lv = Latvių
 mdf = Mokšų
 mhr = Pievų marių
 mk = Makedonų
@@ -85,6 +86,7 @@ oc = Oksitanų
 or = Orijų
 pl = Lenkų
 pt-BR = Portugalų (Brazilija)
+rm-sursilv = Retoromanų (sursilvanų)
 ro = Rumunų
 ru = Rusų
 rw = Kinjaruanda
@@ -136,7 +138,7 @@ logout = Atsijungti
 
 ## Home Page
 
-home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti apmokyti tikrų žmonių kalbos.
+home-title = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti apmokyti įrenginius tikrų žmonių kalbos.
 wall-of-text-start = Balsas yra natūralus ir žmogiškas. Todėl mes džiaugiamės kurdami naudingas balso technologijas. Tačiau jas kuriant, reikalingas labai didelis balso duomenų kiekis.
 wall-of-text-more-mobile = Dauguma didelių kompanijų duomenų nėra prienami plačiajai publikai. Mes manome, jog tai slopina inovacijas, dėl to vykdome „Common Voice“ – projektą, kurio pagalba kalbos atpažinimo technologijos taps atviros ir pasiekiamos visiems.
 wall-of-text-more-desktop = Dabar ir tu gali sudalyvauti kuriant atvirojo kodo balso duomenų bazę, prieinamą kiekvienam, norinčiam kurti naujoviškas programas įrenginiams ir saitynui. Balsu perskaityk sakinį – taip padėsi apmokyti kompiuterį, kaip kalba tikri žmonės. Patikrink kitų talkininkų padarytus įrašus – taip padėsi užtikrinti rezultato kokybę. Tai tikrai paprasta!
@@ -270,6 +272,7 @@ login-signup = Prisijungti / registruotis
 edit = Keisti
 email-subscriptions = El. pašto prenumeratos
 download-profile = Parsisiųsti mano duomenis
+skip-submission-feedback = Praleisti padėkos už indėlį žingsnį
 off = Išjungta
 on = Įjungta
 browse-file-title = Įkelk paveiksliuką
@@ -305,6 +308,7 @@ faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipe
 
 ## Glossary
 
+glossary = Terminai
 localization = Lokalizavimas
 
 ## NotFound
@@ -372,6 +376,7 @@ request-language-success-title = Prašymas sėkmingai pateiktas, dėkojame.
 
 ## Languages Overview
 
+language-section-in-progress = Ruošiamos
 language-section-launched = Aktyvios
 languages-show-more = Rodyti daugiau
 languages-show-less = Rodyti mažiau
@@ -435,14 +440,31 @@ recordings =
     }
 validations =
     { $count ->
-        [one] patvirtinimas
-        [few] patvirtinimai
-       *[other] patvirtinimų
+        [one] patikra
+        [few] patikros
+       *[other] patikrų
     }
 
 ## Dashboard
 
 your-languages = Tavo kalbos
+stats = Statistika
+you = Tu
+everyone = Visi
+recorded-clips = Pateikti įrašai
+validated-clips = Patvirtinti įrašai
+total-approved = Iš viso patvirtinta
+overall-accuracy = Bendras tikslumas
 
 ## Profile Delete
 
+delete-q = Ar nori, kad tavo balso įrašai būtų pašalinti ar palikti „Common Voice“ duomenų rinkinyje?
+keep = Palikti
+remove = Pašalinti
+keep-info = Tavo anoniminiai balso įrašai išliks „Common Voice“ duomenų rinkinyje. Jeigu pašalinsi savo profilį, vėliau nebegalėsi pateikti prašymo savo padarytus įrašus iš duomenų rinkinio pašalinti.
+remove-info = Peržiūrėsime tavo prašymą pašalinti balso įrašus iš duomenų rinkinio. Jei prašymas bus patvirtintas, mes susisieksime su juos parsisiuntusiais asmenimis ir paprašysime, kad jie juos taipogi pašalintų.
+why-delete-recordings =
+    „Common Voice“ įrašus naudoja akademikai, smulkios įmonės ir balso atpažinimo entuziastai, siekiantys apmokyti ir vystyti viešai prieinamus išteklius, pavyzdžiui, balso modelius.
+    
+    Ar gali parašyti kodėl pageidauji, kad tavo įrašai būtų pašalinti?
+profile-form-delete = Pašalinti profilį
