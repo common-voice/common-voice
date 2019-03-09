@@ -104,7 +104,6 @@ export default class Clip {
    * Save the request body as an audio file.
    */
   saveClip = async (request: Request, response: Response) => {
-    console.log('calledDDDDDDDDDDDDDDDDDDDDDDDDDDD');
     const { client_id, headers, params } = request;
     const sentence = decodeURIComponent(headers.sentence as string);
 
