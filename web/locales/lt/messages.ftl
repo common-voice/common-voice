@@ -243,9 +243,15 @@ request-language-button = Paprašyk aktyvinti kalbą
 
 status-title = Bendra projekto būklė: pamatyk, kiek jau nuėjome kartu!
 status-contribute = Prisidėk savo balsu
+status-hours =
+    { $hours ->
+        [one] Patvirtinta { $hours } valanda įrašų!
+        [few] Patvirtintos { $hours } valandos įrašų!
+       *[other] Patvirtinta { $hours } valandų įrašų!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Kiti tikslai: { $goal }
+status-goal = Kitas tikslas: { $goal }
 english = Anglų
 
 ## ProfileForm
