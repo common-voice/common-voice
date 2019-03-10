@@ -303,7 +303,7 @@ edit = Keisti
 email-subscriptions = El. pašto prenumeratos
 download-profile = Parsisiųsti mano duomenis
 contribution-experience = Indėlio pateikimo eiga
-skip-submission-feedback = Praleisti padėkos už indėlį žingsnį
+skip-submission-feedback = Praleisti progreso apžvalgos žingsnį
 skip-submission-description = Pateikus indėlį (paspaudus mygtuką „Pateikti“), padėkos už jį ir progreso apžvalgos žingsnis bus praleistas – bus iškart pereita prie kitos penkių sakinių ar įrašų grupės.
 skip-submission-note = Pastaba: jeigu norėsi pakeisti indėlio tipą, ir toliau galėsi pasinaudoti saitais „Kalbėk“ ir „Klausyk“.
 off = Išjungta
@@ -417,14 +417,14 @@ language-section-in-progress = Ruošiamos
 language-section-launched = Aktyvios
 languages-show-more = Rodyti daugiau
 languages-show-less = Rodyti mažiau
-language-speakers = Diktoriai
+language-speakers = Diktorių
 language-meter-in-progress = Eiga
 language-total-progress = Iš viso
 language-search-input =
     .placeholder = Ieškoti
-language-speakers = Diktoriai
-localized = Lokalizacija
-sentences = Sakiniai
+language-speakers = Diktorių
+localized = Lokalizuota
+sentences = Sakinių
 total-hours = Patvirtinta valandų
 
 ## New Contribution
@@ -486,6 +486,9 @@ validations =
 ## Dashboard
 
 your-languages = Tavo kalbos
+toward-next-goal = Link kito tikslo
+clips-you-recorded = Tavo pateikti garso įrašai
+clips-you-validated = Tavo patvirtinti garso įrašai
 stats = Statistika
 you = Tu
 everyone = Visi
