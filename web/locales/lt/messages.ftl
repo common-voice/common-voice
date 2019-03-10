@@ -199,7 +199,7 @@ improve-audio = Profilio informacija pagerina balso duomenų, naudojamų kalbos 
 keep-track = Sek savo progresą ir rodiklius norimose kalbose.
 compare-progress = Palygink savo ir kitų talkininkų visame pasaulyje indėlius.
 view-goals = Stebėk, kaip tavo progresas kinta asmeninių ir projekto tikslų kontekste.
-join-newsletter = Jeigu nori, užsiprenumeruok projekto naujienlaiškį.
+join-newsletter = Jeigu nori, užsiprenumeruok ir gauk projekto naujienas el. paštu.
 
 ## What's public
 
@@ -207,13 +207,19 @@ whats-public = Kas yra vieša?
 email-not-public = Mes neskelbsime tavo el. pašto.
 recordings-and-locale-public = Įrašų skaičius ir kalbų, prie kurių prisidedi, sąrašas yra vieši.
 username-optin-public = Gali pasirinkti, ar tavo naudotojo vardas bus matomas kitiems.
+demographic-deidentified = Jeigu pateiksi savo demografinius duomenis (tokius, kaip amžius, lytis, kalba ar tarmė), jie bus atsieti nuo tavo pateiktų garso įrašų ir niekada nebus skelbiami tavo profilyje.
 username-email-not-demographic = Tavo naudotojo vardas ir el. paštas nebus susieti su paskelbtais duomenimis.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = p
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = a
 shortcut-play-toggle-label = Atkurti / Stabdyti
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -227,9 +233,15 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Rašyti / stabdyti
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Kartoti įrašymą
+request-language-text = Tarp „Common Voice“ kalbų dar nematai savosios?
+request-language-button = Paprašyk aktyvinti kalbą
 
 ## ProjectStatus
 
+status-title = Bendra projekto būklė: pamatyk, kiek jau nuėjome kartu!
 status-contribute = Prisidėk savo balsu
 # Variables:
 # $goal - number of hours representing the next goal
