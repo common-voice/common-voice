@@ -365,11 +365,16 @@ review-delete-recordings = Видалити мої записи
 
 ## New Datasets Page
 
+size-gigabyte = ГБ
+size-megabyte = МБ
 data-other-librispeech-description = LibriSpeech є збіркою, що містить приблизно 1000 годин 16 кГц аудіозаписів англійської вимови, отриманих з проекту LibriVox.
 data-other-ted-name = Збірка TED-LIUM
 data-other-ted-description = Збірка TED-LIUM створена з аудіо-розмов та їхніх транскрипцій, доступних на веб-сайті TED.
 data-other-voxforge-description = VoxForge було створено для збирання транскрибованої вимови для використання в засобах розпізнавання мови з відкритим кодом.
 data-other-tatoeba-description = Tatoeba - це велика база даних речень, перекладів та аудіо для використання при вивченні мов. Це завантаження містить записи англійської мови від їхньої спільноти.
+more = Більше
+close = Закрити
+download = Завантажити
 
 ## Download Modal
 
@@ -484,6 +489,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Ваші мови
 toward-next-goal = Наступна ціль
 stats = Статистика
 you = Ви
