@@ -284,7 +284,7 @@ why-profile-title = Kokia profilio nauda?
 why-profile-text = Jei pateiksi truputį savo duomenų, tavo „Common Voice“ projektui pateikti garso įrašai bus naudingesni kalbos atpažinimo varikliams, kurie šiuos duomenis naudoja didesniam tikslumui pasiekti.
 dashboard = Skydelis
 build-profile = Kurti profilį
-avatar = Portretas
+avatar = Pseudoortretas
 goals = Tikslai
 settings = Nuostatos
 edit-profile = Keisti profilį
@@ -304,18 +304,24 @@ email-subscriptions = El. pašto prenumeratos
 download-profile = Parsisiųsti mano duomenis
 contribution-experience = Indėlio pateikimo eiga
 skip-submission-feedback = Praleisti padėkos už indėlį žingsnį
+skip-submission-description = Pateikus indėlį (paspaudus mygtuką „Pateikti“), padėkos už jį ir progreso apžvalgos žingsnis bus praleistas – bus iškart pereita prie kitos penkių sakinių ar įrašų grupės.
+skip-submission-note = Pastaba: jeigu norėsi pakeisti indėlio tipą, ir toliau galėsi pasinaudoti saitais „Kalbėk“ ir „Klausyk“.
 off = Išjungta
 on = Įjungta
+add-avatar-title = Susiek su savo profiliu pseudoportretą
 browse-file-title = Įkelk paveiksliuką
+browse-file = Užtempk norimą failą čia arba <browseWrap>parink iš kompiuterio</browseWrap>
 connect-gravatar = Naudoti „Gravatar“ tarnybą
+gravatar_not_found = „Gravatar“ neturi su tavo el. paštu susieto pseudoportreto
 file_too_large = Pasirinktas failas yra per didelis
 manage-subscriptions = Tvarkyti prenumeratas
 email-already-used = Šis el. paštas jau naudojamas kitoje paskyroje
 add-language = Pridėti kalbą
+change-email-setings = Savo el. pašto adresą gali pakeisti nuostatų skiltyje „Prisijungimo tapatybė“
 
 ## FAQ
 
-faq-title = Dažniausiai užduodami klausimai
+faq-title = Klausimai ir atsakymai
 faq-what-cv-q = Kas yra „Common Voice“?
 faq-what-cv-a =
     Balso atpažinimo technologijos keičia mūsų bendravimą su kompiuteriais, tačiau dabartinės sistemos yra brangios ir nuosavybinės. „Common Voice“ yra „Mozillos“ iniciatyvos pagerinti balso atpažinimo sistemas ir jas padaryti prieinamesnes visiems dalis. „Common Voice“ yra pasaulinė balsų duomenų bazė, leidžianti visiems greitai ir lengvai mokyti su balsu dirbančias programas potencialiai kiekvienos kalbos.
