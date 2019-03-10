@@ -197,6 +197,9 @@ benefits = Privalumai
 rich-data = Praturtink pateiktus duomenis – pasidalink anonimiškais demografiniais duomenimis. Prieš viešindami, mes juos nuasmeniname.
 improve-audio = Profilio informacija pagerina balso duomenų, naudojamų kalbos atpažinime, tikslumą.
 keep-track = Sek savo progresą ir rodiklius norimose kalbose.
+compare-progress = Palygink savo ir kitų talkininkų visame pasaulyje indėlius.
+view-goals = Stebėk, kaip tavo progresas kinta asmeninių ir projekto tikslų kontekste.
+join-newsletter = Jeigu nori, užsiprenumeruok projekto naujienlaiškį.
 
 ## What's public
 
