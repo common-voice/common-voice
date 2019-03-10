@@ -186,7 +186,7 @@ x-years-short =
         [few] { $count } m.
        *[other] { $count } m.
     }
-help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą duomenų rinkinį
+help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą balso duomenų rinkinį
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 sign-up-account = Užsiregistruok ir susikurk paskyrą
 email-subscription-title = Gauk naujienas el. paštu
@@ -263,11 +263,13 @@ profile-form-native-language =
 profile-form-additional-language =
     .label = Papildoma kalba
 profile-form-accent =
-    .label = Akcentas
+    .label = Tarmė (akcentas)
 profile-form-age =
     .label = Amžius
 profile-form-gender =
     .label = Lytis
+leaderboard-visibility =
+    .label = Matomumas lyderių lentelėje
 hidden = Nerodyti
 visible = Rodyti
 native-language =
@@ -288,15 +290,19 @@ settings = Nuostatos
 edit-profile = Keisti profilį
 profile-create-success = Profilis sėkmingai sukurtas!
 profile-close = Užverti
+profile-explanation = Profilis tau padės sekti savo progresą, o mums – padaryti balso duomenų rinkinį tikslesniu.
 thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo profilį.
 why-demographic = Kodėl tai svarbu?
+why-demographic-explanation = Anonimizuoti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su tavo garso įrašais. Be to, tu gali priimti sprendimą, ar nori, jog tavo naudotojo vardas būtų matomas svetainėje.
 keep-me-posted =
     .label = Norėčiau gauti „Common Voice“ projekto naujienas.
+accept-privacy = Sutinku, kad mano duomenys būtų tvarkomi kaip aprašyta „Mozillos“ <privacyLink>Privatumo nuostatuose</privacyLink>
 login-identity = Prisijungimo tapatybė
 login-signup = Prisijungti / registruotis
 edit = Keisti
 email-subscriptions = El. pašto prenumeratos
 download-profile = Parsisiųsti mano duomenis
+contribution-experience = Indėlio pateikimo eiga
 skip-submission-feedback = Praleisti padėkos už indėlį žingsnį
 off = Išjungta
 on = Įjungta
@@ -322,7 +328,7 @@ faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
 faq-is-goal-assistant-q = Ar „Common Voice“ tikslas – sukurti balso asistentą?
 faq-why-different-speakers-q = Kodėl jums reikia tiek daug skirtingų kalbančiųjų?
 faq-why-different-speakers-a =
-    Dauguma kalbos duomenų bazių yra apmokomos, neišlaikant proporcijų tarp atskirų demografinių grupių. Todėl atsiranda šališkumas <articleLink> viduriniosios klasės atstovų ir vyrų</articleLink> atžvilgiu. Akcentai ir dialektai, dažniausiai nepakankamai atstovaujami mokymo duomenų rinkiniuose, dažnai yra susiję su jau ir taip marginalizuotomis žmonių grupėmis. Dažnai įrenginiai nesugeba gerai suprasti moterų balsų.
+    Dauguma kalbos duomenų bazių yra apmokomos, neišlaikant proporcijų tarp atskirų demografinių grupių. Todėl atsiranda šališkumas <articleLink> viduriniosios klasės atstovų ir vyrų</articleLink> atžvilgiu. Tarmės, akcentai ir dialektai, dažniausiai nepakankamai atstovaujami apmokymo duomenų rinkiniuose, dažnai yra susiję su jau ir taip marginalizuotomis žmonių grupėmis. Dažnai įrenginiai nesugeba gerai suprasti moterų balsų.
     Todėl mūsų balsų duomenų bazėje siekiama įvairovės!
 faq-why-my-lang-q = Kodėl mano kalba dar neįtraukta?
 faq-what-quality-q = Kokios garso kokybės turi būti balso įrašas, kad jis būtų panaudotas duomenų rinkinyje?
