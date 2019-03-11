@@ -52,7 +52,11 @@ function LanguageAutocomplete({
             <Localized id="language-autocomplete" attrs={{ label: true }}>
               <Input
                 {...getInputProps({
-                  label: 'Other Language',
+                  label: (
+                    <Localized id="other-language">
+                      <span />
+                    </Localized>
+                  ),
                   required: true,
                   type: 'text',
                 })}
