@@ -350,7 +350,7 @@ faq-why-different-speakers-a =
     Nejwěcej głosowych datowych bankow se z nadreprezentaciju wěstych demografijow treněrujo, pśez kótarež se <articleLink>muskece a žeńscyne wobźělniki a wobźělniki srjejźneje klase</articleLink> preferěruju. Akcenty a dialekty, kótarež su zwětšego pódreprezentěrowane w datowych sajźbach su typiski zwězane ze kupkami luźi, kótarež su južo na kšomu śišćane. Wjele mašinow ma južo śěže, žeńscyne głose rozměś.
     Togodla comy wjelerakosć w swójej głosowej datowej bance!
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
-faq-why-my-lang-a = Mozilla se wěstu rěc njewusněkujo a wěste rěcy njepreferěrujo. Město togo jo Common Voice iniciatiwa, kótaraž se dopołnje wót zgromaźeństwa doprědka póra, ale su trěbne <multilangLink>někotare kšace, aby se nowa rěc pśidała</multilangLink> a aby se gromaźenje rěcnych darow zachopiło. Nejpjerwjej musy se websedło Common Voice pśełožowaś, aby cłonki zgromaźeństwa pśistup k nazgónjenjam sobustatkujucych w swójej rěcy měli. Ako pśiduce trjebamy wjeliku zběrku sadow bźez awtorskopšawniskego šćita, kótrež luźe mógu głosnje pśedcytaś. Gaž stej toś tej pominani docynjonej, sr rěv na Common Voice "startujo", aby luźe mógli swój głos nagraś a dary drugich wobkšuśiś. Jolic cośo pomagaś, nowu rěc startowaś, woglědajśo se naš <sentenceCollectorLink>rěd za gromaźenje sadow</sentenceCollectorLink>, aby zachopił.
+faq-why-my-lang-new-a = Mozilla se wěstu rěc njewusněkujo a wěste rěcy njepreferěrujo. Město togo jo Common Voice iniciatiwa, kótaraž se dopołnje wót zgromaźeństwa doprědka póra, ale su trěbne <multilangLink>někotare kšace, aby se nowa rěc pśidała</multilangLink> a aby se gromaźenje rěcnych darow zachopiło. Nejpjerwjej musy se websedło Common Voice pśełožowaś, aby cłonki zgromaźeństwa pśistup k nazgónjenjam sobustatkujucych w swójej rěcy měli. Ako pśiduce trjebamy wjeliku zběrku sadow bźez awtorskopšawniskego šćita, kótrež luźe mógu głosnje pśedcytaś. Gaž stej toś tej pominani docynjonej, sr rěv na Common Voice "startujo", aby luźe mógli swój głos nagraś a dary drugich wobkšuśiś. Jolic cośo pomagaś, nowu rěc startowaś, woglědajśo se naš <sentenceCollectorLink>rěd za gromaźenje sadow</sentenceCollectorLink>, aby zachopił.
 faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w datowej sajźbje wužywał?
 faq-what-quality-a = Comy, až datowa sajźba Common Voice awdiokwalitu wótbłyšćujo, kótaruž mašina powědanja do teksta w lichej pśiroźe słyša, pytamy pótakem za wjelerakosću. Mimo wjelerakego zgromaźeństwa powědarjow, datowa sajźba ze wšakeju awdiokwalitu mašinu powědanja do teksta wuzamóžnijo, z rozdźělnymi situacijami z napšawdnego žywjenja wobchadaś, wót rozgronow w slězynje do  awtowego zogola. Tak dłujko ako waš głosowy klip jo k rozměśu, dejał dobry dosć za datowu sajźbu byś.
 faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za awdionagraśe?
@@ -460,7 +460,7 @@ get-started-speech = Prědne kšace z powědańskim spóznaśim
 other-datasets = Druge głosowe datowe sajźby
 feedback-q = Maśo komentary?
 deepspeech-info = Datowa sajźba Common Voice wudopołnjujo Deep Speech, mašinu głosowego spóznaśa wótwórjonego žrědła Mozilla, kótaruž móžośo wužywaś, aby nałoženja głosowego spóznaśa wuwijaś. Cytajśo naš <githubLink>pśeglěd Github</githubLink> abo pśizamkniśo se forumoju <discourseLink>DeepSpeech Discourse</discourseLink>, aby zgónił, kak móžośo zachopiś.
-common-voice-info = Maśo pšašanja wó Common Voice? Pśizamkniśo se nam w našom <discourseLink>forumje Discourse</discourseLink>.
+common-voice-info-new = Maśo pšašanja wó Common Voice? Ideje za pólěpšenja abo komentary wó wěstej rěcy? Pśizamkniśo se nam na našom <discourseLink>forumje Discourse</discourseLink> a dajśo je nam k wěsći.
 data-other-librispeech-description = LibriSpeech jo korpus skóro 1.000 góźinow wjengelskej rěcy (nagrate z 16 Khz), kótarež z wótsłuchańskich knigłow projekta LibriVox póchadaju.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM jo napórał z awdiopśednoskow a jich transkripcijow, kótarež su na websedle TED k dispoziciji.
@@ -502,6 +502,7 @@ request-language-form-language =
 request-language-success-title = Póžedanje na rěc jo se wuspěšnje wótpósłało, wjeliki źěk.
 request-language-success-content = Dajomy wjelgin skóro z dalšnymi informacijami wót se wó tom słyšaś, kak móžośo Common Voice swóju rěc pśidaś.
 select-language = Rěc wubraś...
+other-language = Druga rěc
 
 ## Languages Overview
 
