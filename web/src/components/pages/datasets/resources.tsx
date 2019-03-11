@@ -158,7 +158,7 @@ export default React.memo(() => {
             ],
             [
               'Discourse',
-              'common-voice-info',
+              'common-voice-info-new',
               'discourse',
               {
                 discourseLink: (
