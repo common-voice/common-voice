@@ -53,6 +53,7 @@ fo = Féroïen
 fr = Français
 fy-NL = Frison
 ga-IE = Irlandais
+gl = Galicien
 he = Hébreu
 hr = Croate
 hsb = Haut-sorabe
@@ -69,6 +70,8 @@ ko = Coréen
 kpv = Komi-zyriène
 kw = Cornique
 ky = Kirghize
+lt = Lituanien
+lv = Letton
 mdf = Mokcha
 mhr = Mari des prairies
 mk = Macédonien
@@ -229,6 +232,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
 shortcut-record-toggle-label = Enregistrer/Arrêter
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Votre langue n’est pas encore disponible ?
 request-language-button = Proposer une langue
 
@@ -338,7 +342,6 @@ faq-why-different-speakers-a =
     La plupart des bases de données vocales sont construites avec une surreprésentation de certaines démographies et cela génère un biais en faveur <articleLink>des hommes de la classe moyenne</articleLink>. Les accents et les dialectes qui tendent à être sous-représentés sont typiquement ceux de populations déjà marginalisées. Ainsi, souvent, les machines ont du mal à reconnaître les voix féminines.
     C’est pourquoi nous voulons de la diversité dans notre base de données !
 faq-why-my-lang-q = Pourquoi ma langue n’est-elle pas déjà incluse ?
-faq-why-my-lang-a = Mozilla ne choisit ni ne favorise aucune langue par rapport à une autre. Au contraire, Common Voice est entièrement contrôlé par la communauté, mais il faut <multilangLink>plusieurs étapes pour ajouter une langue</multilangLink> et être capable de démarrer la collecte. D’abord, le site web Common Voice nécessite d’être traduit pour que les membres de la communauté aient accès à la contribution dans leur langue. Ensuite, nous avons besoin d’une large quantité de texte qui soit libre de droits afin que les gens puissent les lire. Une fois que ces deux prérequis sont satisfaits, la langue est « lancée » sur Common Voice et les contributeurs peuvent s’enregistrer et valider les enregistrements.
 faq-what-quality-q = Quel niveau de qualité audio est requis pour les échantillons présents dans la base de données ?
 faq-what-quality-a = Nous souhaitons que le jeu de données Common Voice reflète la qualité audio qu’un système de reconnaissance vocale rencontrera dans la réalité, nous avons donc besoin de diversité. En plus d’une communauté représentant une large diversité de locuteurs, un jeu de données avec une qualité sonore variable permettra d’apprendre au moteur de reconnaissance vocale comment s’adapter dans différentes situations de la vie réelle, que ce soit avec des conversations en arrière-plan ou le bruit d’une voiture. Du moment que vos échantillons sont compréhensibles, alors c’est parfait pour le jeu de données.
 faq-why-10k-hours-q = Pourquoi l’objectif est-il de 10 000 heures d’audio ?
@@ -448,7 +451,6 @@ get-started-speech = S’initier à la reconnaissance vocale
 other-datasets = Autres jeux de données vocales
 feedback-q = Vous avez des suggestions ?
 deepspeech-info = Le jeu de données Common Voice est un complément au moteur open source de reconnaissance vocale de Mozilla, Deep Speech, que vous pouvez utiliser pour créer des applications de reconnaissance vocale. Consultez notre <githubLink>aperçu sur GitHub</githubLink> ou rejoignez le <discourseLink>Discourse de DeepSpeech</discourseLink> pour bien commencer.
-common-voice-info = Vous avez des questions à propos de Common Voice ? Rejoignez-nous sur le forum <discourseLink>Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Le corpus TED-LIUM est construit à partir des dialogues audio et de leurs transcriptions disponibles sur le site TED.
@@ -459,6 +461,8 @@ go-discourse = Aller sur Discourse
 missing-language = Votre langue ne fait pas partie du jeu de données ? Pour demander l’ajout d’une nouvelle langue, rendez-vous sur notre page des langues.
 go-languages-page = Aller sur la page des langues
 ready-to-validate = Prêt·e à nous aider à valider des phrases ?
+close = Fermer
+download = Télécharger
 
 ## Download Modal
 
