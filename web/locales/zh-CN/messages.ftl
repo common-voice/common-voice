@@ -338,7 +338,7 @@ faq-why-different-speakers-a =
     大多数语音数据库的语音来源偏重于某一特定人群，造成结果偏向于<articleLink>男性与中产阶级</articleLink>。而在训练数据集中，代表性不足的口音与方言往往会与被边缘化的人群相关联。许多机器也很难理解女性的声音。
     这就是为何我们的语音数据库应该海纳百川，收集各种语音！
 faq-why-my-lang-q = 为什么还没有我的语言？
-faq-why-my-lang-a = Mozilla 不会偏好某一语言，然而 Common Voice 是一个纯社区驱动的项目，需要<multilangLink>几个步骤才能添加新语言</multilangLink>并开始收集语音片段。首先，需要翻译 Common Voice 网站，以便社区成员可以用自己的语言进行贡献。其次，我们需要大量的无版权语句，供人们大声说出来。一旦满足上述两条件， Common Voice 即可“上线”该语言，让人们开始录音，并验证其他人所录制的片段。
+faq-why-my-lang-new-a = Mozilla 不会偏好某一语言，然而 Common Voice 是一个纯社区驱动的项目，需要<multilangLink>几个步骤才能添加新语言</multilangLink>并开始收集语音片段。首先，需要翻译 Common Voice 网站，以便社区成员可以用自己的语言进行贡献。其次，我们需要大量的无版权语句，供人们大声说出来。一旦满足上述两条件， Common Voice 即可“上线”该语言，让人们开始录音，并验证其他人所录制的片段。如果您想帮助上线一种新语言，请前往我们的<sentenceCollectorLink>语句收集工具页</sentenceCollectorLink>以开始。
 faq-what-quality-q = 录音片段的音质要达到什么等级，才可用于数据集中？
 faq-what-quality-a = 我们希望 Common Voice 数据集能够反映出语音转文字引擎就算在野外也会听到的音频质量，所以我们希望能够收集各种环境与录音质量下的片段。除了各种说话者以外，具有不同音频质量的数据集，可让语音转文字引擎更能处理各种真实情况，例如背景中有人在讲话，或是有车辆的噪音。只要您的片段能让人听得懂，即可收录至数据集中。
 faq-why-10k-hours-q = 为什么每种语言均有 10,000 小时的有效音频采集目标？
@@ -448,7 +448,7 @@ get-started-speech = 语音识别入门
 other-datasets = 其他语音数据集
 feedback-q = 有反馈要提供？
 deepspeech-info = Common Voice 数据集与 Mozilla 的开源语音识别引擎 Deep Speech 相辅相成，您可以使用其构建语音识别应用程序。您可以阅读我们的 <githubLink>Github 概述</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入门。
-common-voice-info = 对 Common Voice 有疑问？请加入我们的 <discourseLink>Discourse 论坛</discourseLink>。
+common-voice-info-new = 对 Common Voice 有疑问？有针对特定语言的改进或反馈意见？欢迎加入我们的 <discourseLink>Discourse  论坛</discourseLink>告诉我们。
 data-other-librispeech-description = Librispeech 是从 Librivox 项目中得到的大约 1000 小时的 16khz 有声读物的英文语音语料库。
 data-other-ted-name = TED-LIUM 语料库
 data-other-ted-description = TED-LIUM 语料库由在 TED 网站上提供的讲话音频和转录文字制作而成。
@@ -490,6 +490,7 @@ request-language-form-language =
 request-language-success-title = 非常感谢，您的语言请求已成功提交。
 request-language-success-content = 我们将尽快披露更多有关如何将您的语言添加到 Common Voice 的信息。
 select-language = 选择语言...
+other-language = 其他语言
 
 ## Languages Overview
 
