@@ -18,333 +18,73 @@ indicates-required = * Nurodo privalomą lauką
 ## Languages
 
 ab = Abchazų
-ace =
-    { $case ->
-        [lower] ačehų
-       *[default] Ačehų
-    }
-ady =
-    { $case ->
-        [lower] adygų
-       *[default] Adygų
-    }
-af =
-    { $case ->
-        [lower] afrikanų
-       *[default] Afrikanų
-    }
-am =
-    { $case ->
-        [lower] amharų
-       *[default] Amharų
-    }
-an =
-    { $case ->
-        [lower] aragonezų
-       *[default] Aragonezų
-    }
-ar =
-    { $case ->
-        [lower] arabų
-       *[default] Arabų
-    }
-as =
-    { $case ->
-        [lower] asamų
-       *[default] Asamų
-    }
-ast =
-    { $case ->
-        [lower] astūrų
-       *[default] Astūrų
-    }
-az =
-    { $case ->
-        [lower] azerbaidžaniečių
-       *[default] Azerbaidžaniečių
-    }
-bg =
-    { $case ->
-        [lower] bulgarų
-       *[default] Bulgarų
-    }
-bn =
-    { $case ->
-        [lower] bengalų
-       *[default] Bengalų
-    }
-br =
-    { $case ->
-        [lower] bretonų
-       *[default] Bretonų
-    }
-bxr =
-    { $case ->
-        [lower] buriatų
-       *[default] Buriatų
-    }
-ca =
-    { $case ->
-        [lower] katalonų
-       *[default] Katalonų
-    }
-cak =
-    { $case ->
-        [lower] kakčikelių
-       *[default] Kakčikelių
-    }
-cnh =
-    { $case ->
-        [lower] hakų činų
-       *[default] Hakų činų
-    }
-cs =
-    { $case ->
-        [lower] čekų
-       *[default] Čekų
-    }
-cv =
-    { $case ->
-        [lower] čiuvašų
-       *[default] Čiuvašų
-    }
-cy =
-    { $case ->
-        [lower] valų
-       *[default] Valų
-    }
-da =
-    { $case ->
-        [lower] danų
-       *[default] Danų
-    }
-de =
-    { $case ->
-        [lower] vokiečių
-       *[default] Vokiečių
-    }
-dsb =
-    { $case ->
-        [lower] žemutinių sorbų
-       *[default] Žemutinių sorbų
-    }
+ace = Ačehų
+ady = Adygų
+af = Afrikanų
+am = Amharų
+an = Aragonezų
+ar = Arabų
+as = Asamų
+ast = Astūrų
+az = Azerbaidžaniečių
+bg = Bulgarų
+bn = Bengalų
+br = Bretonų
+bxr = Buriatų
+ca = Katalonų
+cak = Kakčikelių
+cnh = Hakų činų
+cs = Čekų
+cv = Čiuvašų
+cy = Valų
+da = Danų
+de = Vokiečių
+dsb = Žemutinių sorbų
 dv = Maldyvų
-el =
-    { $case ->
-        [lower] graikų
-       *[default] Graikų
-    }
-en =
-    { $case ->
-        [lower] anglų
-       *[default] Anglų
-    }
-eo =
-    { $case ->
-        [lower] esperanto
-       *[default] Esperanto
-    }
-es =
-    { $case ->
-        [lower] ispanų
-       *[default] Ispanų
-    }
-et =
-    { $case ->
-        [lower] estų
-       *[default] Estų
-    }
-eu =
-    { $case ->
-        [lower] baskų
-       *[default] Baskų
-    }
-fa =
-    { $case ->
-        [lower] persų
-       *[default] Persų
-    }
-fi =
-    { $case ->
-        [lower] suomių
-       *[default] Suomių
-    }
+el = Graikų
+en = Anglų
+eo = Esperanto
+es = Ispanų
+et = Estų
+eu = Baskų
+fa = Persų
+fi = Suomių
 fo = Farerų
-fr =
-    { $case ->
-        [lower] prancūzų
-       *[default] Prancūzų
-    }
-fy-NL =
-    { $case ->
-        [lower] fryzų
-       *[default] Fryzų
-    }
-ga-IE =
-    { $case ->
-        [lower] airių
-       *[default] Airių
-    }
-gl =
-    { $case ->
-        [lower] galisų
-       *[default] Galisų
-    }
-he =
-    { $case ->
-        [lower] hebrajų
-       *[default] Hebrajų
-    }
-hr =
-    { $case ->
-        [lower] kroatų
-       *[default] Kroatų
-    }
-hsb =
-    { $case ->
-        [lower] aukštutinių sorbų
-       *[default] Aukštutinių sorbų
-    }
-hu =
-    { $case ->
-        [lower] vengrų
-       *[default] Vengrų
-    }
-ia =
-    { $case ->
-        [lower] interlingua
-       *[default] Interlingua
-    }
-id =
-    { $case ->
-        [lower] indoneziečių
-       *[default] Indoneziečių
-    }
-is =
-    { $case ->
-        [lower] islandų
-       *[default] Islandų
-    }
-it =
-    { $case ->
-        [lower] italų
-       *[default] Italų
-    }
-izh =
-    { $case ->
-        [lower] ižorų
-       *[default] Ižorų
-    }
-ja =
-    { $case ->
-        [lower] japonų
-       *[default] Japonų
-    }
-ka =
-    { $case ->
-        [lower] gruzinų
-       *[default] Gruzinų
-    }
-kab =
-    { $case ->
-        [lower] kabilų
-       *[default] Kabilų
-    }
-kk =
-    { $case ->
-        [lower] kazachų
-       *[default] Kazachų
-    }
-ko =
-    { $case ->
-        [lower] korėjiečių
-       *[default] Korėjiečių
-    }
-kpv =
-    { $case ->
-        [lower] komių-zyrų
-       *[default] Komių-zyrų
-    }
-kw =
-    { $case ->
-        [lower] kornų
-       *[default] Kornų
-    }
-ky =
-    { $case ->
-        [lower] kirgizų
-       *[default] Kirgizų
-    }
-lt =
-    { $case ->
-        [lower] lietuvių
-       *[default] Lietuvių
-    }
-lv =
-    { $case ->
-        [lower] latvių
-       *[default] Latvių
-    }
-mdf =
-    { $case ->
-        [lower] mokšų
-       *[default] Mokšų
-    }
-mhr =
-    { $case ->
-        [lower] pievų marių
-       *[default] Pievų marių
-    }
-mk =
-    { $case ->
-        [lower] makedonų
-       *[default] Makedonų
-    }
-mn =
-    { $case ->
-        [lower] mongolų
-       *[default] Mongolų
-    }
-mrj =
-    { $case ->
-        [lower] aukštumų marių
-       *[default] Aukštumų marių
-    }
-myv =
-    { $case ->
-        [lower] erzių
-       *[default] Erzių
-    }
-nb-NO =
-    { $case ->
-        [lower] norvegų (bukmolas)
-       *[default] Norvegų (bukmolas)
-    }
-ne-NP =
-    { $case ->
-        [lower] nepalų
-       *[default] Nepalų
-    }
-nl =
-    { $case ->
-        [lower] olandų
-       *[default] Olandų
-    }
-nn-NO =
-    { $case ->
-        [lower] norvegų (naujoji)
-       *[default] Norvegų (naujoji)
-    }
-oc =
-    { $case ->
-        [lower] oksitanų
-       *[default] Oksitanų
-    }
-or =
-    { $case ->
-        [lower] orijų
-       *[default] Orijų
-    }
+fr = Prancūzų
+fy-NL = Fryzų
+ga-IE = Airių
+gl = Galisų
+he = Hebrajų
+hr = Kroatų
+hsb = Auštutinių sorbų
+hu = Vengrų
+ia = Interlingua
+id = Indoneziečių
+is = Islandų
+it = Italų
+izh = Ižorų
+ja = Japonų
+ka = Gruzinų
+kab = Kabilų
+kk = Kazachų
+ko = Korėjiečių
+kpv = Komių-zyrų
+kw = Hakų činų
+ky = Kirgizų
+lt = Lietuvių
+lv = Latvių
+mdf = Mokšų
+mhr = Pievų marių
+mk = Makedonų
+mn = Mongolų
+mrj = Aukštumų marių
+myv = Erzių
+nb-NO = Norvegų (bukmolas)
+ne-NP = Nepalų
+nl = Olandų
+nn-NO = Norvegų (naujoji)
+oc = Oksitanų
+or = Orijų
 pl = Lenkų
 pt-BR = Portugalų (Brazilija)
 rm-sursilv = Retoromanų (sursilvanų)
