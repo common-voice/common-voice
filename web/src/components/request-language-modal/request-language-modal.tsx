@@ -112,7 +112,9 @@ class RequestLanguageModal extends React.Component<Props, State> {
                     {name}
                   </option>
                 ))}
-                <option value="other">Other</option>
+                <Localized id="other">
+                  <option value="other" />
+                </Localized>
               </LabeledSelect>
             </Localized>
 
