@@ -341,7 +341,7 @@ faq-why-different-speakers-a =
     Hầu hết các cơ sở dữ liệu giọng nói được đào tạo với sự biểu hiện quá mức của các nhóm nhân khẩu học nhất định, dẫn đến ưu tiên cho <articleLink>nam giới và tầng lớp trung lưu</articleLink>. Điểm nhấn và phương ngữ thường được thể hiện trong bộ dữ liệu đào tạo thường được liên kết với các nhóm người đã bị thiệt thòi. Nhiều máy cũng gặp khó khăn trong việc hiểu giọng nói của phụ nữ.
     Đây là lý do tại sao chúng tôi muốn thay đổi trong cơ sở dữ liệu lời nói của chúng tôi!
 faq-why-my-lang-q = Tại sao ngôn ngữ của tôi chưa được đưa vào?
-faq-why-my-lang-a = Mozilla không chọn hay ưu tiên bất kỳ ngôn ngữ nào hơn ngôn ngữ khác. Thay vào đó, Common Voice là một sáng kiến hoàn toàn dựa vào cộng đồng, nhưng cần có <multilangLink>một vài bước để thêm một ngôn ngữ mới</multilangLink> và bắt đầu thu thập giọng nói. Đầu tiên, trang web Common Voice cần được dịch để các thành viên cộng đồng có thể truy cập vào trải nghiệm của người đóng góp bằng ngôn ngữ của họ. Tiếp theo, chúng tôi cần một bộ lớn các câu không có bản quyền để mọi người đọc thành tiếng. Khi cả hai yêu cầu đó được thỏa mãn, một ngôn ngữ sẽ ra mắt trên nền tảng Common Voice để mọi người bắt đầu ghi âm giọng nói của mình và xác thực các đóng góp của người khác.
+faq-why-my-lang-new-a = Mozilla không chọn hay ưu tiên bất kỳ ngôn ngữ nào hơn ngôn ngữ khác. Thay vào đó, Common Voice là một sáng kiến hoàn toàn dựa vào cộng đồng, nhưng cần có <multilangLink>một vài bước để thêm một ngôn ngữ mới</multilangLink> và bắt đầu thu thập giọng nói. Đầu tiên, trang web Common Voice cần được dịch để các thành viên cộng đồng có thể truy cập vào trải nghiệm của người đóng góp bằng ngôn ngữ của họ. Tiếp theo, chúng tôi cần một bộ lớn các câu không có bản quyền để mọi người đọc thành tiếng. Khi cả hai yêu cầu đó được thỏa mãn, một ngôn ngữ sẽ ra mắt trên nền tảng Common Voice để mọi người bắt đầu ghi âm giọng nói của mình và xác thực các đóng góp của người khác. Nếu bạn muốn giúp khởi chạy một ngôn ngữ mới, hãy đến <sentenceCollectorLink>công cụ thu thập câu</sentenceCollectorLink> của chúng tôi để bắt đầu.
 faq-what-quality-q = Mức chất lượng âm thanh nào được yêu cầu cho một clip thoại được sử dụng trong bộ dữ liệu?
 faq-what-quality-a = Chúng tôi muốn bộ dữ liệu Common Voice phản ánh chất lượng âm thanh mà một công cụ chuyển lời nói thành văn bản sẽ nghe thấy trong tự nhiên, vì vậy chúng tôi đang tìm kiếm sự đa dạng. Ngoài cộng đồng người nói đa dạng, bộ dữ liệu với chất lượng âm thanh khác nhau sẽ nghiên cứu cho công cụ chuyển lời nói thành văn bản để xử lý các tình huống thực tế khác nhau, từ nói chuyện nền tảng đến tiếng ồn xe hơi. Miễn là clip thoại của bạn dễ hiểu, nó sẽ đủ tốt cho bộ dữ liệu.
 faq-why-10k-hours-q = Tại sao 10.000 giờ được xác thực là mục tiêu cho mỗi ngôn ngữ để thu âm thanh?
@@ -451,7 +451,7 @@ get-started-speech = Bắt đầu với nhận dạng giọng nói
 other-datasets = Bộ dữ liệu thoại khác
 feedback-q = Có phản hồi?
 deepspeech-info = Bộ dữ liệu Common Voice bổ sung cho công cụ nhận dạng giọng nói mã nguồn mở Mozilla, Deep Speech, mà bạn có thể sử dụng để xây dựng các ứng dụng nhận dạng giọng nói. Đọc <githubLink>tổng quan về Github</githubLink> của chúng tôi hoặc tham gia <discourseLink>diễn ngôn DeepSpeech</discourseLink> để tìm hiểu cách bắt đầu.
-common-voice-info = Có câu hỏi nào về Common Voice? Tham gia trên <discourseLink>diễn đàn Discourse</discourseLink>.
+common-voice-info-new = Có câu hỏi nào về Common Voice? Ý tưởng cho cải tiến hoặc phản hồi về một ngôn ngữ cụ thể? Tham gia với chúng tôi trên <discourseLink>diễn đàn Discourse</discourseLink> và cho chúng tôi biết.
 data-other-librispeech-description = LibriSpeech là một kho tàng khoảng 1000 giờ của 16Khz bài phát biểu tiếng Anh có nguồn gốc từ các audiobook từ dự án LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM corpus được tạo từ các cuộc nói chuyện, và các bản ghi chép của họ có sẵn trên trang web của TED.
@@ -493,6 +493,7 @@ request-language-form-language =
 request-language-success-title = Đã gửi yêu cầu ngôn ngữ thành công, cảm ơn bạn.
 request-language-success-content = Chúng tôi sẽ giữ liên lạc với bạn để biết thêm thông tin về cách thêm ngôn ngữ của bạn vào Common Voice thật sớm.
 select-language = Chọn một ngôn ngữ...
+other-language = Ngôn ngữ khác
 
 ## Languages Overview
 
