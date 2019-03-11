@@ -492,6 +492,7 @@ request-language-form-language =
 request-language-success-title = La langue a été proposée, merci.
 request-language-success-content = Nous vous contacterons très bientôt avec de plus amples informations sur la façon d’ajouter votre langue à Common Voice.
 select-language = Sélectionnez une langue…
+other-language = Autre langue
 
 ## Languages Overview
 
