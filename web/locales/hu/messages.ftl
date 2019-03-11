@@ -458,7 +458,6 @@ get-started-speech = Első lépések a beszédfelismeréssel
 other-datasets = Más hangadatkészletek
 feedback-q = Visszajelzése van?
 deepspeech-info = A Common Voice adatkészlet kiegészíti a Mozilla nyílt forráskódú hangfelismerő motorját, a Deep Speech-et, amelyet beszédfelismerő alkalmazások készítéséhez használhat. Olvassa el a <githubLink>Github áttekintést</githubLink>, vagy az első lépésekhez csatlakozzon a <discourseLink>DeepSpeech Discourse-hoz</discourseLink>.
-common-voice-info = Kérdése van a Common Voice-szal kapcsolatban? Csatlakozzon hozzánk a <discourseLink>Discourse fórumon</discourseLink>.
 data-other-librispeech-description = A LibriSpeech egy közel 1000 órás 16 KHz-es korpusz, ami a LibriVox projekt hangoskönyveinek felolvasott angol szövegéből áll.
 data-other-ted-name = TED-LIUM korpusz
 data-other-ted-description = A TED-LIUM korpusz a TED weboldalon elérhető előadások hanganyagából és a hozzájuk tartozó feliratokból készült.
@@ -500,6 +499,7 @@ request-language-form-language =
 request-language-success-title = Nyelvkérés sikeresen beküldve, köszönjük.
 request-language-success-content = Hamarosan jelenkezünk további információkkal arról, hogy tudja hozzáadni a nyelvét a Common Voice projekthez.
 select-language = Válasszon nyelvet…
+other-language = Más nyelv
 
 ## Languages Overview
 
