@@ -40,6 +40,7 @@ en = Англисче
 eo = Эсперанто
 es = Испанча
 et = Эстончо
+eu = Баскча
 fa = Персче
 fi = Финче
 fo = Фарерче
@@ -167,13 +168,26 @@ x-years-short =
        *[other] ж.
     }
 help-make-dataset = Жогорку сапаттагы, ачык жеткиликтүү үн корун курууга жардам бериңиз
+profile-not-required = Салым кошуу үчүн профайл түзүү талап кылынбайт, бирок пайдалуу болмок
+sign-up-account = Эсеп түзүү
+email-subscription-title = эмейл жаңылыктарына жазылуу
 
 ## Account Benefits
 
+benefits = Пайдалары
+rich-data = Айрым демографиялык берилиштерди анонимдүү кошуп, салымдарыңызды максималдуу пайдалуу кылыңыз. Бардык демографиялык берилиштер ачык чыкканга чейин жеке таандыгынан ажыратылат.
+improve-audio = Профайлдагы маалымат сөз таанууда колдонулган аудио берилиштердин тактыгын арттыруу үчүн колдонулат.
+keep-track = Көп тилдердеги прогрессиңизди жана көрсөткүчтөрүңүздү карап туруңуз.
+compare-progress = Прогрессиңизди дүйнөдөгү башка салым кошуучулар менен салыштырып көрүңүз.
+view-goals = Жеке жана долбоордун максатына кылган прогрессиңизди көрүңүз.
 
 ## What's public
 
 whats-public = Ачык деген эмне?
+email-not-public = Эмейлиңизди ачыкка чыгарбайбыз.
+recordings-and-locale-public = Жаздыруулардын саны жана кайсы тилге салым кошуп жатканыңыз ачык көрсөтүлөт.
+username-optin-public = Атыңызды ачык же анонимдүү кылуу - сиздин чечимиңиз.
+username-email-not-demographic = Атыңыз жана эмейлиңиз жарыяланган берилиштер менен байланыштырылбайт.
 
 ## Speak & Listen Shortcuts
 
@@ -200,6 +214,7 @@ shortcut-vote-no = ж
 shortcut-record-toggle = к
 shortcut-record-toggle-label = Жаздыруу/Токтот
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Кайра жаздыруу
 request-language-text = Сиздин тилиңиз Common Voice'то жок бекен?
 request-language-button = Тил талап кылуу
 
@@ -246,6 +261,7 @@ other = Башка
 why-profile-title = Профайл эмнеге керек?
 why-profile-text = Өзүңөр жөнүндө маалымат берүү, сиз Common Voice'ко кошкон аудио берилиштин Үн Таануу машинесинин тактыгын арттырууга болгон пайдасын көбөйтөт.
 dashboard = Жыйынтыктар
+build-profile = Профайл түзүү
 avatar = Аватар
 goals = Максаттар
 settings = Туралоо
@@ -260,6 +276,7 @@ keep-me-posted =
     .label = Common Voice жаңыртууларын жана учурдагы жаңылыктарын алып турууну каалайм.
 accept-privacy = Бул маалымат Mozilla'нын <privacyLink>Купуялуулук саясатында</privacyLink> көрсөтүлгөн тартипте колдонулушуна макулмун.
 login-identity = Кирүү идентификаторы
+login-signup = Кирүү/Катталуу
 edit = Өзгөртүү
 email-subscriptions = Эмейл жазылуулары
 download-profile = Берилиштеримди жүктөп алуу
@@ -270,15 +287,36 @@ skip-submission-note = Эскертүү: Салым түрүн өзгөртүү 
 off = Өчүр
 on = Иштет
 add-avatar-title = Профайлыңызга аватар кошуңуз
+browse-file-title = сүрөт файл жүктөп берүү
+browse-file = Сүйрөп коюңуз же <browseWrap>файл тандаңыз</browseWrap>
+connect-gravatar = Gravatar менен байлаштыруу
+gravatar_not_found = Эмейлиңиз үчүн gravatar табылган жок
+file_too_large = Тандалган файл өтө чоң
+manage-subscriptions = Жазылууну башкаруу
+email-already-used = Бул эмейлди башка аккаунт колдонуп жүрөт
 add-language = Тил кошуу
 
 ## FAQ
 
 faq-title = Көп Берилген Суроолор
+faq-what-cv-q = Common Voice деген эмне?
 faq-why-important-q = Бул эмне үчүн маанилүү?
+faq-how-get-q = Common Voice берилиштерин кантип алса болот?
+faq-why-mission-q = Эмне үчүн Common Voice Mozilla миссиясына кирет?
+faq-why-mission-a = Mozilla интернетти ачык жана баарына жеткиликтүү сактоого умтулат. Максатыбызга жетүү үчүн биз Common Voice сыяктуу долбоорлор аркылуу желе кызматтарын жаратуучуларын колдошубуз керек. Үн технологиялары тар максаттуу колдонмолор аркылуу тез өнүгүп жаткандыктан, алар бардык колдонуучуларга тең иштеши керек деп ишенебиз. Бул үн технологияларын түзүп жана сынап жатканда көп тилдерге, акценттерге жана демографиялык топторго көңүл бурулушу керек дегенди түшүндүрөт. Common Voice дүйнө жүзүндөгү бардык өнүктүрүүчүлөргө, Mozilla командаларына жеткиликтүү жана учурда колдонулуп жаткан ачык ресурс.
+faq-what-cv-and-deepspeech-q = Common Voice менен Deep Speech айырмасы эмнеде?
+faq-how-calc-hours-q = Common Voice сааттарды кантип санайт?
+faq-where-src-from-2-q = Жаздырылуучу тексттер кайдан алынат?
+faq-why-account-q = Эмне үчүн эсеп түзүшүм керек?
+faq-is-account-public-q = Эсебимдин маалыматтарды ачыкпы?
 
 ## Glossary
 
+glossary = Глоссарий
+localization = Локализация
+sentence-collection = Сүйлөмдөр топтому
+sst = Сөздү-текстке (STT)
+sst-explanation = Сөздү-текстке (STT) технологиялары берилген үндү текстке айлантат.
 
 ## NotFound
 
@@ -319,11 +357,26 @@ review-delete-recordings = Жаздырууларды жок кылуу
 language = Тил
 # File size in gigabytes
 size = Өлчөм
+validated-hr-total = Саат текшерилди
+overall-hr-total = Бардыгы саат
+cv-license = Лицензия
+audio-format = Аудиоформат
+number-of-voices = Үндөрдүн саны
+validated-hours = саат текшерилди
+recorded-hours = саат жаздырылды
+whats-inside = Common Voice берилиштерине эмнелер кирет?
+subscribe = Жазылуу
+get-started-speech = Сөз таануу менен иштеп баштоо
+other-datasets = Башка үн топтомдору
+feedback-q = Пикир барбы?
 data-other-librispeech-description = LibriSpeech - LibriVox долбоорунун англисче окулган аудио китептеринен алынган корпус. Болжолдуу көлөмү 1000 саат, сапаты 16Khz .
 data-other-ted-name = TED-LIUM корпусу
 data-other-ted-description = TED-LIUM корпусу - TED сайтындагы ачык жеткиликтүү аудио сүйлөшүүлөрдүн жана алардын транскрипцияларынан түзүлгөн корпус.
 data-other-voxforge-description = VoxForge - бекер жана ачык булактуу сөз таануу машинелеринин пайдалануусу үчүн чечмеленген сөздөрдү чогултуу максатында түзүлгөн.
 data-other-tatoeba-description = Tatoeba - тил үйрөнүү максатында колдонулган сүйлөмдөрдүн, котормолордун жана айтылган аудиолордун кору. Бул жүктөп алуу англис тил коомдоштугу жаздырган айтымдарды камтыйт.
+go-discourse = Discourse'ка өтүү
+go-languages-page = Тилдер барагына өтүү
+ready-to-validate = Сүйлөмдөрдү текшерүүгө жардам берүүгө даярсызбы?
 more = Дагы
 close = Жабуу
 download = Жүктөп алуу
@@ -423,6 +476,7 @@ share-title-new = Дагы үн тапканга <bold>бизге жардам</
 
 ## Goals
 
+streaks = Катары менен
 days =
     { $count ->
         [one] күн
@@ -433,10 +487,25 @@ recordings =
         [one] жаздыруу
        *[other] жаздыруу
     }
+validations =
+    { $count ->
+        [one] текшерүү
+       *[other] текшерүү
+    }
 
 ## Dashboard
 
 your-languages = Сиздин тилдериңиз
+toward-next-goal = эмки максатка
+clips-you-recorded = Сиз жаздырган үзүндүлөр
+clips-you-validated = Сиз текшерген үзүндүлөр
+todays-recorded-progress = Common Voice'тун бүгүнкү жаздыруулар прогресси
+stats = Статистика
+you = Сиз
+everyone = Ар ким
+top-contributors = Көп салым кошкондор
+recorded-clips = Жаздырылгандар
+validated-clips = Текшерилгендер
 
 ## Profile Delete
 
