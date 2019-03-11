@@ -355,7 +355,6 @@ faq-do-want-native-a = Ya, c'hoant hon eus ho mouezh! Ul lodenn eus pal Common V
 faq-why-different-speakers-q = Perak ho peus ezhomm kement a gomzerien disheñvel dre yezh?
 faq-why-different-speakers-a = Lodenn vrasañ an diaz roadennoù mouezhioù a zo gourdonet gant un dreistdileuridigezh eus poblañsoù 'zo, dreist-holl ar <articleLink>gwazed a renkad etre</articleLink>. An taolioù-mouezh hag ar rannyezhoù a zo is-dileuriet er roadennoù gourdonañ a zo peurvuiañ liammet gant strolladoù a zo arlezekaet endeo. Meur a vekanik o deus diaesterioù evit adanavezout mouezhioù maouezed. Setu perak e fell deomp kaout liesseurted en hor diaz-roadennoù!
 faq-why-my-lang-q = Perak n'eo ket enkorfet ma yezh c'hoazh?
-faq-why-my-lang-a = Ne vez ket dibabet pe aesaet an traoù evit yezhoù resis. Un intrudu lusket gant ar c'humuniezhioù eo Common Voice. Dav eo ober <multilangLink>meur a bazenn evit ouzhpennañ ur yezh nevez</multilangLink> ha kregiñ gant dastum ar mouezhioù. Da gentañ penn e rank al lec'hienn Common Voice bezañ troet evit ma c'hallfe izili ar gumuniezh kavout an ostilh kendeurel en o yezh. Da heul eo ret dastum un niver bras a frazennoù frank a wirioù evit ma c'hallfent bezañ lennet a vouezh uhel gant an dud. Ur wech m'eo leuniet an daou dra-se e c'hall bezañ "lañset" ur yezh war Common Voice evit ma c'hallfe kregiñ an dud da enrollañ o mouezh ha kadarnaat an enrolladennoù all.
 faq-what-quality-q = Peseurt perzhded son a zo goulennet evit implijout ur c'hlip mouezh er roadennoù?
 faq-what-quality-a = Fellout a ra deomp e vefe roadennoù Common Voice heverk eus perzhded ar son a vo enrollet gant un anaoudeger ar vouezh neuze e klaskomp kaout liesseurted. Asambles gant ur gumuniezh liesseurt e c'hallo roadennoù gant perzhded son disheñvel deskiñ d'al lusker anaoudegezh ar vouezh merañ meur a zegouezhioù er bed gwirion, gant trouzioù ur c'harr pe gant tud o komz.en drekleur. Keit ha m'eo komprenus ho klip mouezh eo mat a-walc'h da vezañ enkorfet er roadennoù.
 faq-why-10k-hours-q = Perak eo 10 000 eurvezh gwiriekaet ar pal dre yezh evit tapout ar son?
@@ -414,11 +413,15 @@ review-delete-recordings = Dilemel ma enrolladennoù
 
 ## New Datasets Page
 
+language = Yezh
 # File size in gigabytes
 size = Ment
+validated-hr-total = Hollad eurvezhioù gwiriekaet
+overall-hr-total = Hollad eurvezhioù en holl
 cv-license = Lañvaz
 audio-format = Stumm aodio
 number-of-voices = Niver a vouezhioù
+email-to-download = Enankit ur c'homlec'h postel evit pellgargañ
 size-gigabyte = Go
 size-megabyte = Mo
 download-language = Pellgargañ { $language }
