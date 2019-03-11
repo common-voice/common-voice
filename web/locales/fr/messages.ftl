@@ -498,6 +498,7 @@ other-language = Autre langue
 
 language-section-in-progress = En cours
 language-section-launched = Lancées
+language-section-launched-description = Pour les langues suivantes le site web a été <localizationGlossaryLink>localisé</localizationGlossaryLink>, et propose suffisamment de <sentenceCollectionGlossaryLink>phrases collectées</sentenceCollectionGlossaryLink> pour permettre de contribuer aussi bien en <speakLink>parlant</speakLink> qu’en <listenLink>écoutant</listenLink>.
 languages-show-more = Afficher davantage
 languages-show-less = Afficher moins
 language-speakers = Locuteurs et locutrices
