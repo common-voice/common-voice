@@ -345,7 +345,7 @@ faq-why-different-speakers-a =
     Die meisten Sprachdatenbanken werden mit einer Überrepräsentation bestimmter Demografien trainiert, was zu einer Bevorzugung <articleLink>männlicher und Mittelklasse-Teilnehmern</articleLink> führt. Akzente und Dialekte, die in Trainingsdatensätzen tendenziell unterrepräsentiert sind, werden typischerweise mit Gruppen von Personen in Verbindung gebracht, die bereits an den Rand gedrängt sind. Viele Maschinen haben auch Mühe, weibliche Stimmen zu verstehen.
     Deshalb wollen wir in unserer Sprachdatenbank Abwechslung!
 faq-why-my-lang-q = Warum gibt es meine Sprache noch nicht?
-faq-why-my-lang-a = Mozilla wählt oder bevorzugt keine Sprache gegenüber einer anderen. Stattdessen handelt es sich bei Common Voice um eine rein gemeinschaftsorientierte Initiative, es erfordert jedoch <multilangLink>mehrere Schritte, um eine neue Sprache aufzunehmen</multilangLink> und das Sammeln von Sprachspenden zu beginnen. Erstens muss die Common-Voice-Website übersetzt werden, damit Mitglieder der Gemeinschaft in ihrer eigenen Sprache auf die Erfahrungen der Mitwirkenden zugreifen können. Als nächstes benötigen wir eine große Sammlung urheberrechtsfreier Sätze, die die Menschen vorlesen können. Sobald beide Anforderungen erfüllt sind, wird auf Common Voice eine Sprache „gestartet“, damit die Menschen ihre Stimme aufnehmen und die Spenden anderer bestätigen können.
+faq-why-my-lang-new-a = Mozilla wählt oder bevorzugt keine Sprache gegenüber einer anderen. Stattdessen handelt es sich bei Common Voice um eine rein gemeinschaftsorientierte Initiative, es erfordert jedoch <multilangLink>mehrere Schritte, um eine neue Sprache aufzunehmen</multilangLink> und das Sammeln von Sprachspenden zu beginnen. Erstens muss die Common-Voice-Website übersetzt werden, damit Mitglieder der Gemeinschaft in ihrer eigenen Sprache auf die Erfahrungen der Mitwirkenden zugreifen können. Als nächstes benötigen wir eine große Sammlung urheberrechtsfreier Sätze, die die Menschen vorlesen können. Sobald beide Anforderungen erfüllt sind, wird auf Common Voice eine Sprache „gestartet“, damit die Menschen ihre Stimme aufnehmen und die Spenden anderer bestätigen können. Wenn Sie beim Start einer neuen Sprache helfen möchten, besuchen Sie unser <sentenceCollectorLink>Werkzeug zur Sammlung von Sätzen</sentenceCollectorLink>, um loszulegen.
 faq-what-quality-q = Welche Audioqualität ist erforderlich, damit ein Sprachclip im Datensatz verwendet werden kann?
 faq-what-quality-a = Wir möchten, dass der Common-Voice-Datensatz die Audioqualität widerspiegelt, die eine Sprach-zu-Text-Engine in der freien Natur hört. Wir suchen also nach Abwechslung. Zusätzlich zu einer vielfältigen Gemeinschaft von Sprechern wird ein Datensatz mit unterschiedlicher Audioqualität die Sprach-zu-Text-Engine in die Lage versetzen, mit verschiedenen Situationen der realen Welt umzugehen, vom Hintergrundgespräch bis zum Autolärm. Solange Ihr Sprachclip verständlich ist, sollte er für den Datensatz gut genug sein.
 faq-why-10k-hours-q = Warum sind 10&thinsp;000 validierte Stunden das für die Audioaufnahme pro Sprache bestimmte Ziel?
@@ -455,7 +455,7 @@ get-started-speech = Erste Schritte mit der Spracherkennung
 other-datasets = Andere Sprachdatensätze
 feedback-q = Möchten Sie uns etwas mitteilen?
 deepspeech-info = Der Common-Voice-Datasatz ist eine Ergänzung zu Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, mit der Sie Spracherkennungsanwendungen entwickeln können. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen
-common-voice-info = Haben Sie Fragen zu Common Voice? Besuchen Sie unser <discourseLink>Discourse-Forum</discourseLink>.
+common-voice-info-new = Haben Sie Fragen zu Common Voice? Verbesserungsvorschläge oder Feedback zu einer bestimmten Sprache? Besuchen Sie unser <discourseLink>Discourse-Forum</discourseLink>und teilen Sie uns dies mit.
 data-other-librispeech-description = LibriSpeech ist ein Korpus aus ca. 1000 Stunden vorgelesener Texte in englischer Sprache (aufgenommen in 16kHz), welche ursprünglich aus Hörbüchern des LibriVox-Projektes entnommen wurden.
 data-other-ted-name = TED-LIUM-Korpus
 data-other-ted-description = Der TED-LIUM-Korpus wurde aus Audio-Vorträgen und deren Abschriften erstellt, die auf der TED-Webseite verfügbar sind.
@@ -497,6 +497,7 @@ request-language-form-language =
 request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
 request-language-success-content = Wir melden uns bald mit weiteren Informationen darüber, wie Sie Ihre Sprache bei Common Voice hinzufügen können.
 select-language = Sprache auswählen…
+other-language = Andere Sprache
 
 ## Languages Overview
 
