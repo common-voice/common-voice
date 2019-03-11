@@ -8,12 +8,15 @@ import { BENEFITS, WHATS_PUBLIC } from '../../constants';
 function renderQA(content: any[]) {
   return content
     .map(c => (Array.isArray(c) ? c : [c, {}]))
-    .map(([id, props]) => (
-      <React.Fragment key={id}>
-        <Localized id={'faq-' + id + '-q'}>
+    .map(([id, ...rest]) =>
+      Array.isArray(id) ? [id, ...rest] : [[id, id], ...rest]
+    )
+    .map(([[qId, aId], props]) => (
+      <React.Fragment key={qId}>
+        <Localized id={'faq-' + qId + '-q'}>
           <h3 />
         </Localized>
-        <Localized id={'faq-' + id + '-a'} {...props}>
+        <Localized id={'faq-' + aId + '-a'} {...props}>
           <p />
         </Localized>
       </React.Fragment>
@@ -58,7 +61,7 @@ export default () => (
         { articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank /> },
       ],
       [
-        'why-my-lang',
+        ['why-my-lang', 'why-my-lang-new'],
         {
           multilangLink: (
             <StyledLink
