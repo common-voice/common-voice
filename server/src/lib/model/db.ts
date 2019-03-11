@@ -193,14 +193,16 @@ export default class DB {
       `
       SELECT *
       FROM (
-        SELECT *
+        SELECT clips.*
         FROM clips
-        WHERE is_valid IS NULL AND locale_id = ? AND client_id <> ? AND NOT EXISTS(
-          SELECT *
-          FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
-        )
-        ORDER BY created_at ASC
+        LEFT JOIN sentences on clips.original_sentence_id = sentences.id
+        WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ? AND
+              NOT EXISTS(
+                SELECT *
+                FROM votes
+                WHERE votes.clip_id = clips.id AND client_id = ?
+              )
+        ORDER BY sentences.clips_count ASC, clips.created_at ASC
         LIMIT ?
       ) t
       ORDER BY RAND()
