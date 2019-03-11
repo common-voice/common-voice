@@ -345,7 +345,7 @@ faq-why-different-speakers-a =
     A maioria dos bancos de dados de voz é treinado com uma representação excessiva de certos grupos demográficos, o que resulta em um viés <articleLink>masculino e de classe média</articleLink>. Sotaques e dialetos que tendem a ser sub-representados em conjuntos de dados de treinamento são tipicamente associados a grupos de pessoas que já estão marginalizadas. Muitas máquinas também têm dificuldades para entender vozes femininas.
     É por isso que, no nosso banco de dados de voz, queremos variedade!
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
-faq-why-my-lang-a = A Mozilla não escolhe ou favorece qualquer idioma em detrimento de outro. Em vez disso, o Common Voice é uma iniciativa puramente voltada para a comunidade, mas são necessárias <multilangLink>diversas etapas para adicionar um novo idioma</multilangLink> e começar a coletar doações de voz. Primeiro, o site do Common Voice precisa ser traduzido para que os membros da comunidade possam acessar a experiência do contribuinte em seu próprio idioma. Em seguida, precisamos de uma grande coleção de sentenças sem limitação de direitos autorais para as pessoas lerem em voz alta. Uma vez que ambos os requisitos estejam satisfeitos, um idioma é “lançado” no Common Voice para que as pessoas comecem a gravar suas vozes e validar outras doações.
+faq-why-my-lang-new-a = A Mozilla não escolhe ou favorece nenhum idioma sobre outro. Pelo contrário, o Common Voice é uma iniciativa puramente orientada à comunidade, mas são necessárias <multilangLink>diversas etapas para adicionar um novo idioma</multilangLink> e começar a coletar doações de voz. Primeiro, o site do Common Voice precisa estar traduzido para que membros da comunidade possam acessar a experiência de colaborador em seus próprios idiomas. Depois, precisamos de uma grande coleção de frases livres de direitos autorais para que as pessoas leiam em voz alta. Uma vez que ambos os requisitos estejam satisfeitos, um idioma é “lançado” no Common Voice para as pessoas começarem a gravar suas vozes e validar doações de outros. Se você quer ajudar a lançar um novo idioma, siga para nossa <sentenceCollectorLink>ferramenta de coleta de frases</sentenceCollectorLink> para começar.
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
 faq-what-quality-a = Queremos que o conjunto de dados do Common Voice reflita a qualidade de áudio que um mecanismo de conversão de fala para texto ouvirá no mundo real, por isso, estamos procurando variedade. Além de uma comunidade diversificada de falantes, um conjunto de dados com qualidade de áudio variada ensinará o mecanismo de conversão de fala para texto a lidar com várias situações do mundo real, desde conversas ao fundo até ruído de carro. Contanto que o seu clipe de voz seja inteligível, ele deve ser bom o suficiente para o conjunto de dados.
 faq-why-10k-hours-q = Por que 10.000 horas validadas é a meta por idioma de captura de áudio?
@@ -455,7 +455,7 @@ get-started-speech = Introdução ao reconhecimento de voz
 other-datasets = Outros conjuntos de dados de voz
 feedback-q = Quer fazer comentários?
 deepspeech-info = O conjunto de dados do Common Voice complementa o mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, que você pode usar para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
-common-voice-info = Tem dúvidas sobre o Common Voice? Participe do nosso <discourseLink>fórum no Discourse</discourseLink>.
+common-voice-info-new = Tem perguntas sobre o Common Voice? Ideias para aprimorar, ou comentários sobre um idioma específico? Junte-se a nós em nosso <discourseLink>fórum do Discourse</discourseLink> e nos conte.
 data-other-librispeech-description = LibriSpeech é um corpus de aproximadamente 1000 horas de leitura em inglês em 16Khz, derivado de audiolivros do projeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM Corpus foi criado a partir de áudios de palestras e suas transcrições, que estão disponíveis no site TED.
@@ -497,6 +497,7 @@ request-language-form-language =
 request-language-success-title = A solicitação de idioma foi enviada com sucesso, obrigado.
 request-language-success-content = Nós entraremos em contato com mais informações sobre como adicionar o seu idioma ao Common Voice muito em breve.
 select-language = Selecionar um idioma...
+other-language = Outro idioma
 
 ## Languages Overview
 
