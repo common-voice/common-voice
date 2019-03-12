@@ -345,7 +345,7 @@ faq-why-different-speakers-a =
     La mayoría de las bases de datos de voz están creadas con una representación excesiva de ciertos datos demográficos que dan como resultado un sesgo hacia el <articleLink> masculino de clase media </articleLink>. Los acentos y dialectos que tienden a estar poco representados en las bases de datos de entrenamiento suelen corresponder con grupos de personas que ya están marginados. A muchas máquinas también les cuesta entender las voces femeninas.
     ¡Por eso queremos variedad en nuestra base de datos de voces!
 faq-why-my-lang-q = ¿Por qué mi idioma aún no está incluido?
-faq-why-my-lang-a = Mozilla no elige ni favorece ningún idioma sobre otro. Al contrario, Common Voice es una iniciativa puramente comunitaria, pero hacen falta <multilangLink>varios pasos para agregar un nuevo idioma</multilangLink> y comenzar a recopilar donaciones de voz. Primero, el sitio web de Common Voice debe traducirse para que los miembros de la comunidad puedan acceder a la experiencia del colaborador en su propio idioma. A continuación, necesitamos una gran recopilación de frases sin derechos de autor para que las personas puedan leerlas en voz alta. Una vez que se cumplan ambos requisitos, se "inicia" un idioma en Common Voice para que las personas comiencen a grabar su voz y validar las donaciones de otros.
+faq-why-my-lang-new-a = Mozilla no elige ni favorece ningún idioma sobre otro. Al contrario, Common Voice es una iniciativa impulsada por la comunidad, pero <multilangLink>lleva tiempo agregar un nuevo idioma</multilangLink> y comenzar a recopilar donaciones de voz. Primero, el sitio web de Common Voice debe traducirse para que los miembros de la comunidad puedan acceder a la experiencia del colaborador en su propio idioma. A continuación, necesitamos una gran colección de frases sin derechos de autor que se puedan leer en voz alta. Una vez que se cumplan estos dos requisitos, se “inicia” un idioma en Common Voice para que se pueda empezar a grabar y validar las donaciones de otros. Si quieres ayudar a lanzar un nuevo idioma, dirígete a nuestra <sentenceCollectorLink>herramienta de recopilación de frases</sentenceCollectorLink> para comenzar.
 faq-what-quality-q = ¿Qué nivel de calidad de audio se requiere para que un fragmento de voz se use en la base de datos?
 faq-what-quality-a = Queremos que la base de datos de Common Voice refleje la calidad de audio que un motor de voz a texto escuchará en la realidad, así que estamos buscando variedad. Además de una comunidad diversa de oradores, una base de datos con una calidad de audio variable enseñará al motor de voz a texto a manejar diversas situaciones del mundo real, desde hablar en segundo plano hasta ruido de autos. Si el fragmento de voz es inteligible, debería ser válido para la base de datos.
 faq-why-10k-hours-q = ¿Por qué el objetivo son 10.000 horas validadas?
@@ -455,7 +455,7 @@ get-started-speech = Empieza hoy mismo con el Reconocimiento de voz
 other-datasets = Otras bases de datos de voces
 feedback-q = ¿Tienes algún comentario?
 deepspeech-info = La base de datos de Common Voice complementa el motor de reconocimiento de voz de código abierto de Deep Speech, que puedes utilizar para crear aplicaciones de reconocimiento de voz. Consulta nuestra <githubLink>sinopsis de Github</githubLink> o únete a <discourseLink>DeepSpeech Discourse</discourseLink> para saber más sobre cómo y por dónde empezar.
-common-voice-info = ¿Tienes dudas sobre Common Voice? Únete a nuestro <discourseLink>foro de Discourse</discourseLink>.
+common-voice-info-new = ¿Tienes dudas sobre Common Voice? ¿Ideas para mejorar o comentarios de un idioma en concreto? Únete a nuestro <discourseLink>foro de Discourse</discourseLink> y cuéntanoslo.
 data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16Khz derivado de lecturas de audiolibros del proyecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
@@ -497,6 +497,7 @@ request-language-form-language =
 request-language-success-title = Solicitud de idioma enviada correctamente, gracias.
 request-language-success-content = Estaremos en contacto con más información sobre cómo añadir tu idioma a Common Voice muy pronto.
 select-language = Seleccionar un idioma...
+other-language = Otro idioma
 
 ## Languages Overview
 
