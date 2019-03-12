@@ -287,11 +287,19 @@ faq-is-goal-assistant-q = Vai Common Voice mērķis ir veidot balss asistentu?
 faq-do-want-native-q = Šī nav mana dzimtā valoda un es runāju ar akcentu, vai jums tomēr vajag manus balss ierakstus?
 faq-why-different-speakers-q = Kāpēc jums ir nepieciešams tik daudz dažādu runātāju vienā valodā?
 faq-why-my-lang-q = Kāpēc mana valoda vēl nav iekļauta?
+faq-where-src-from-2-q = No kurienes nāk teksti ierakstiem?
+faq-why-account-q = Kāpēc man jāreģistrējas?
 faq-is-account-public-q = Vai mana konta informācija ir publiski pieejama?
+faq-how-privacy-q = Kā jūs nodrošināsiet to cilvēku anonimitāti un privātumu, kuri ziedoja savas balsis?
 
 ## Glossary
 
 localization = Lokalizācija
+localization-explanation = Šis ir mūsu process, lai tulkotu un pielāgotu mūsu saturu daudzām vietnēm (valodām).
+sentence-collection = Teikumu kolekcija
+sst = Runa uz tekstu (STT)
+sst-explanation = Runas-teksta (STT) tehnoloģijas pārvērš balss datus tekstā.
+de-identified = Atbrīvots no identifikācijas
 
 ## NotFound
 
@@ -306,6 +314,7 @@ data-download-deny = Nē
 data-download-license = Licence: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Jūs gatavojaties lejupielādēt <size>{ $size }GB</size>, turpināt?
 data-subtitle = Mēs veidojam atklātu un publiski pieejamu balsu datu kopu, ko ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
+data-get-started = <speechBlogLink>Darba sākšana ar runas atpazīšanu</speechBlogLink>
 data-other-title = Citas balss datu kopas…
 data-other-goto = Dodieties uz { $name }
 data-other-download = Lejupielādēt datus
