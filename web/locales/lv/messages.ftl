@@ -139,6 +139,9 @@ logout = Izrakstīties
 ## Home Page
 
 home-title = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
+home-cta = Runā skaļi, veic ieguldījumu šeit!
+wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
+wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 show-wall-of-text = Lasīt vairāk
 help-us-title = Palīdziet mums pārbaudīt teikumus!
 help-us-explain = Nospiediet atskaņošanas pogu, klausieties un pārbaudiet vai viņi precīzi izrunāja zemāk norādīto teikumu?
@@ -148,10 +151,14 @@ vote-no = Nē
 listen-subtitle = Palīdziet mums apstiprināt balsis
 listen-goal-text = Apstiprinātie ieraksti
 hours-recorded = Ierakstītās stundas
+hours-validated = Stundas validētas
+voices-online = Ierakstu veicēji tiešsaistē tagad
 todays-progress = Šodienas progress
 read-terms-q = Vai esat izlasījis mūsu noteikumus?
+ready-to-record = Vai esat gatavs ziedot savu balsi?
 all-locales = Visas
 today = Šodien
+help-make-dataset = Palīdziet mums izveidot augstas kvalitātes publiski atvērtu datu kopu
 
 ## Account Benefits
 
