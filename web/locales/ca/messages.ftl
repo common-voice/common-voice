@@ -343,8 +343,18 @@ faq-what-quality-q = Quin nivell de qualitat d'àudio ha de tenir un tall de veu
 faq-why-10k-hours-q = Per què hi ha l'objectiu de 10.000 hores validades d'enregistrament d'àudio per a cada llengua?
 faq-why-10k-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per entrenar un sistema de reconeixement de la veu en producció.
 faq-how-calc-hours-q = Com calcula les hores el Common Voice?
+faq-how-calc-hours-a = Calculem les hores estimant la durada mitjana de cada enregistrament i, a continuació, multipliquem aquest nombre pel nombre total d'enregistraments en totes les llengües.
+faq-where-src-from-2-q = D'on provenen els texts?
+faq-where-src-from-2-a =
+    Els textos provenen de contribucions originals, també d'obres literàries de domini públic, refranys i fraseologia comuna.
+    
+    Podeu veure les frases en aquesta <githubLink>carpeta del GitHub</githubLink>.
+faq-why-not-ask-read-q = Per què no demaneu a la gent que llegeixi llibres o articles de la Viquipèdia en diverses llengües?
 faq-why-account-q = Per què hauria de crear un compte?
 faq-is-account-public-q = La informació del meu compte és pública?
+faq-how-privacy-q = Com assegureu l'anonimat i la privadesa de les persones que han donat la veu?
+faq-how-privacy-a = La informació d'identificació personal se suprimeix de tots els talls de veu del conjunt de dades. Si un col·laborador proporciona dades demogràfiques en el seu perfil, aquesta informació s'anonimitza en el talls de veu abans d'incloure'ls en el conjunt de dades disponible per baixar, i aquesta informació no és mai pública en la seva pàgina de perfil.
+faq-what-determine-identity-q = Què vol dir que no puc «determinar la identitat» dels parlants en el conjunt de dades del Common Voice?
 
 ## Glossary
 
@@ -415,12 +425,17 @@ download-language = Baixa { $language }
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
 whats-inside = Què inclou el conjunt de dades de veu?
+dataset-description-hours =
+    Cada entrada del conjunt de dades consisteix en un únic fitxer MP3 i el fitxer de text corresponent. Moltes de les <b>{ $total }</b> hores enregistrades del conjunt de dades també inclouen metadades demogràfiques, com ara l'edat, el sexe i l'accent, que poden ajudar a millorar la precisió dels motors de reconeixement de veu.
+    
+    Actualment, el conjunt de dades inclou <b>{ $valid }</b> hores validades en <b>{ $languages }</b> llengües, però constantment s'hi van afegint més veus i llengües. Visiteu la <languagesLink>pàgina Llengües</languagesLink> per sol·licitar una llengua o per començar a col·laborar-hi.
 want-dataset-update = Voleu rebre actualitzacions quan publiquem una nova versió del conjunt de dades del Common Voice? Subscriviu-vos al nostre butlletí.
 subscribe = Subscriu-m'hi
 get-started-speech = Introducció al reconeixement de veu
 other-datasets = Altres conjunts de dades de veu
 feedback-q = Teniu algun comentari?
 deepspeech-info = El conjunt de dades del Common Voice complementa el motor de reconeixement de veu de codi obert Deep Speech de Mozilla, que podeu utilitzar per crear aplicacions de reconeixement de veu. Llegiu-ne la <githubLink>descripció general al Github</githubLink> o visiteu el <discourseLink>fòrum DeepSpeech al Discourse</discourseLink> per obtenir informació sobre com començar.
+common-voice-info-new = Teniu cap pregunta sobre el Common Voice? Idees de millora o comentaris sobre una llengua en particular? Uniu-vos al <discourseLink>fòrum Discourse</discourseLink> i feu-nos-ho saber.
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregistraments d'àudio i llurs transcripcions disponibles en el lloc web de TED.
@@ -467,6 +482,7 @@ other-language = Un altra llengua
 ## Languages Overview
 
 language-section-in-progress = En curs
+language-section-in-progress-new-description = Aquestes llengües estan en desenvolupament per part de la comunitat. Les barres de progrés indiquen quant falta per completar la fase de <localizationGlossaryLink>traducció del lloc web</localizationGlossaryLink> i la <sentenceCollectionGlossaryLink>recol·lecció de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = En producció
 languages-show-more = Mostra'n més
 languages-show-less = Mostra'n menys
@@ -574,4 +590,8 @@ keep = Conserva
 remove = Elimina
 keep-info = Els vostres enregistraments anònims es conservaran al conjunt de dades del Common Voice. Un cop suprimit el vostre perfil, ja no podreu sol·licitar eliminar els vostres enregistraments del conjunt de dades
 remove-info = Revisarem la vostra sol·licitud per a eliminar els enregistraments de veu del conjunt de dades. Si s'aprova la sol·licitud, ens posarem en contacte amb qui hagi baixat el conjunt de dades i els demanarem que també eliminin els vostres enregistraments de veu.
+why-delete-recordings =
+    Acadèmics, petites empreses i entusiastes del reconeixement de la parla usen els enregistraments del Common Voice per ajudar a entrenar i a fer créixer els recursos disponibles públicament, com ara models de veu.
+    
+    Podríeu fer-nos saber per què voleu suprimir els vostres enregistraments?
 profile-form-delete = Suprimeix el perfil
