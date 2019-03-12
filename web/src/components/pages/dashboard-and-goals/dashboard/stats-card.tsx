@@ -3,7 +3,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import LanguageSelect, {
   ALL_LOCALES,
-} from '../../language-select/language-select';
+} from '../../../language-select/language-select';
 
 import './stats-card.css';
 

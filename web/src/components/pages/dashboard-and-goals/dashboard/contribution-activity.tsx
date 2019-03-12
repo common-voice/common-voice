@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import API from '../../../services/api';
-import StateTree from '../../../stores/tree';
-import { BarPlot } from '../../plot/plot';
+import API from '../../../../services/api';
+import StateTree from '../../../../stores/tree';
+import { BarPlot } from '../../../plot/plot';
 
 interface PropsFromState {
   api: API;

@@ -1,18 +1,18 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import API from '../../../services/api';
-import { trackDashboard } from '../../../services/tracker';
-import { Locale } from '../../../stores/locale';
-import StateTree from '../../../stores/tree';
+import API from '../../../../services/api';
+import { trackDashboard } from '../../../../services/tracker';
+import { Locale } from '../../../../stores/locale';
+import StateTree from '../../../../stores/tree';
 import {
   CheckIcon,
   InfoIcon,
   MicIcon,
   OldPlayIcon,
   PlayOutlineIcon,
-} from '../../ui/icons';
-import { Avatar } from '../../ui/ui';
+} from '../../../ui/icons';
+import { Avatar } from '../../../ui/ui';
 import StatsCard from './stats-card';
 
 import './leaderboard.css';

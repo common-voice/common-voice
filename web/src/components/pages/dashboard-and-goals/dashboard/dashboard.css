@@ -1,0 +1,29 @@
+@import url('../../../vars.css');
+
+.dashboard-page {
+    & .cards {
+        display: flex;
+
+        & > * {
+            min-width: calc(50% - 10px);
+            margin-bottom: 20px;
+        }
+
+        @media (--sm-down) {
+            flex-direction: column;
+        }
+
+        @media (--md-up) {
+            flex-direction: row;
+
+            & > :nth-child(odd) {
+                margin-inline-end: 20px;
+            }
+        }
+    }
+
+    & .plot {
+        position: relative;
+        right: 10px;
+    }
+}

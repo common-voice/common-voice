@@ -18,10 +18,8 @@ import {
   UserIcon,
   UserPlusIcon,
 } from '../../ui/icons';
-import { Button } from '../../ui/ui';
 import AvatarSetup from './avatar-setup/avatar-setup';
 import DeleteProfile from './delete/delete';
-import Goals from './goals/goals';
 import InfoPage from './info/info';
 import Settings from './settings/settings';
 
@@ -64,10 +62,9 @@ interface PropsFromState {
 interface Props extends LocalePropsFromState, PropsFromState {}
 
 const Layout = ({ toLocaleRoute, user }: Props) => {
-  const [infoRoute, avatarRoute, goalsRoute, prefRoute, deleteRoute] = [
+  const [infoRoute, avatarRoute, prefRoute, deleteRoute] = [
     URLS.PROFILE_INFO,
     URLS.PROFILE_AVATAR,
-    URLS.PROFILE_GOALS,
     URLS.PROFILE_SETTINGS,
     URLS.PROFILE_DELETE,
   ].map(r => toLocaleRoute(r));
@@ -83,7 +80,6 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
                 : { icon: <UserPlusIcon />, id: 'build-profile' }),
             },
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
-            { route: goalsRoute, icon: <BarChartIcon />, id: 'goals' },
             { route: prefRoute, icon: <CogIcon />, id: 'settings' },
             {
               route: deleteRoute,
@@ -115,7 +111,6 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
           <Route exact path={infoRoute} component={InfoPage} />
           {[
             { route: avatarRoute, Component: AvatarSetup },
-            { route: goalsRoute, Component: Goals },
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
           ].map(({ route, Component }) => (

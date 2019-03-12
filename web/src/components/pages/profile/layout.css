@@ -3,7 +3,6 @@
 .profile {
     &.info,
     &.avatar,
-    &.goals,
     &.settings,
     &.delete {
         & header {

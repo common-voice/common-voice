@@ -1,16 +1,16 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { DAILY_GOAL } from '../../../constants';
-import API from '../../../services/api';
-import { trackDashboard } from '../../../services/tracker';
-import URLS from '../../../urls';
-import { Locale } from '../../../stores/locale';
-import StateTree from '../../../stores/tree';
-import { ALL_LOCALES } from '../../language-select/language-select';
-import { toLocaleRouteBuilder } from '../../locale-helpers';
-import { MicIcon, OldPlayIcon } from '../../ui/icons';
-import { LinkButton } from '../../ui/ui';
+import { DAILY_GOAL } from '../../../../constants';
+import API from '../../../../services/api';
+import { trackDashboard } from '../../../../services/tracker';
+import URLS from '../../../../urls';
+import { Locale } from '../../../../stores/locale';
+import StateTree from '../../../../stores/tree';
+import { ALL_LOCALES } from '../../../language-select/language-select';
+import { toLocaleRouteBuilder } from '../../../locale-helpers';
+import { MicIcon, OldPlayIcon } from '../../../ui/icons';
+import { LinkButton } from '../../../ui/ui';
 
 import './progress-card.css';
 
