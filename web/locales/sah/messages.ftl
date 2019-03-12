@@ -136,12 +136,14 @@ logout = Тахсыы
 
 ## Home Page
 
+home-cta = Саҥар, манна кыттыс!
 show-wall-of-text = Өссө аах
 help-us-title = Этиилэр сөпкө оҥоһуллубуттарын көрөргө көмөлөс!
 help-us-explain = Холбоон иһит уонна биһиэхэ биллэр: үчүгэйдик саҥарбыттар дуо, аллараа суруллубут этиини?
 no-clips-to-validate = Бу тылынан этиллибит истэргэ сөптөөх саҥа суох курдук. Биһиэхэ көмөлөс саҥа этиини киллэрэн.
 vote-yes = Сөп
 vote-no = Суох
+toggle-play-tooltip = Оонньотор режим уларытарга { shortcut-play-toggle } баттаа
 speak-subtitle = Куоласкын босхо биэр
 hours-recorded = Чаас суруллубут
 hours-validated = Чаас тургутуллубут
@@ -168,6 +170,9 @@ shortcut-play-toggle-label = Оонньот/Тохтот
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Суруттар/Тохтот
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Хат суруттар
+request-language-button = Тылы ыйытыктаа
 
 ## ProjectStatus
 
@@ -255,6 +260,7 @@ listen = Иһит
 skip = Көтүт
 record-no-mic-found = Микрофон булуллубата
 record-three-more-instruction = Үс хаалла!
+unable-speak = Билигин сатаан саҥарар кыаҕыҥ суох?
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
 record-button-label = Куоласкын суруттар
 share-title-new = Өссө куоластары буларга <bold>биһиэхэ көмөлөс</bold>
