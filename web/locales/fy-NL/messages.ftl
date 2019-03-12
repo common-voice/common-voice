@@ -355,7 +355,7 @@ faq-why-different-speakers-a =
     De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy't faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy't al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
     Dit is de reden wêrom wy fariaasje yn ús spraakdatabase wolle!
 faq-why-my-lang-q = Wêrom sit myn taal der noch net by?
-faq-why-my-lang-a = Mozilla kiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy't minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne.
+faq-why-my-lang-new-a = Mozilla ferkiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy't minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne. As jo in nije taal beskikber helpe meitsje wolle, gean dan nei 'us <sentenceCollectorLink>helpmiddel foar sinnensamling</sentenceCollectorLink> om te begjinnen.
 faq-what-quality-q = Hokker lûdskwaliteitsnivo is nedich foar in spraakfragmint om yn de gegevensset brûkt wurde te kinnen?
 faq-what-quality-a = Wy wolle dat de Common Voice-gegevensset de audiokwaliteit wjerspegelet dy't yn spraak-nei-tekst-engine yn it wyld hearre sil, dus wy binne op syk nei ôfwikseling. Neist in fariearre sprekkersmienskip leart in gegevensset mei ferskate audiokwaliteiten de spraak-nei-tekst-engine om ferskate libbensechte situaasjes oan te kinnen, fan achtergrûnlûd oant autolawaai. Sa lang jo spraakopname begryplik is, moat dizze goed genôch wêze foar de gegevensset.
 faq-why-10k-hours-q = Wêrom is de doelstelling foar lûdsopnamen 10.000 oer per taal?
@@ -465,7 +465,7 @@ get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
 deepspeech-info = De Common Voice-gegevensset is in oanfolling op Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, dy't jo brûke kinne om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
-common-voice-info = Hawwe jo fragen oer Common Voice? Start by ús <discourseLink>Discuorse-foarum</ discourseLink>.
+common-voice-info-new = Hawwe jo fragen oer Common Voice? Ideeën foar ferbetteringen of kommentaar oer in spesifike taal? Praat mei op 'us <discourseLink>Discourse-foarum</discourseLink> en lit it 'us witte.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
@@ -507,6 +507,7 @@ request-language-form-language =
 request-language-success-title = Taaloanfraach mei sukses yntsjinne, tank.
 request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynformaasje oer hoe't jo taal oan Common Voice tafoege wurde kin .
 select-language = Selektearje in taal…
+other-language = Oare taal
 
 ## Languages Overview
 
