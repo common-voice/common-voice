@@ -362,7 +362,7 @@ faq-why-different-speakers-a =
     Mae'r rhan fwyaf o gronfeydd data llais wedi'u hyfforddi gyda gormod o ddemograffeg penodol sy'n arwain at ragfarn tuag at <articleLink>dynion dosbarth canol</articleLink>. Fel arfer, mae acenion a thafodieithoedd sy'n dueddol o gael eu tangynrychioli mewn hyfforddiant yn gosod setiau data yn adlewyrchu'r grwpiau o bobl sydd eisoes wedi'u hymyleiddio. Mae llawer o beiriannau hefyd yn cael trafferth i ddeall lleisiau merched.
     Dyna pam rydym eisiau amrywiaeth yn ein cronfa ddata llais!
 faq-why-my-lang-q = Pam nad yw fy iaith wedi'i chynnwys eto?
-faq-why-my-lang-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru gan y gymuned yn unig, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau heb hawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill. nOs hoffech chi helpu lansio iaith newydd, ewch draw i'n <sentenceCollectorLink>teclyn casglu brawddegau</sentenceCollectorLink>i gychwyn arni.
+faq-why-my-lang-new-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru dim ond gan y gymuned, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau heb hawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill. Os hoffech chi helpu lansio iaith newydd, ewch draw i'n <sentenceCollectorLink>teclyn casglu brawddegau</sentenceCollectorLink>i gychwyn arni.
 faq-what-quality-q = Pa lefel o ansawdd sain sydd ei angen ar gyfer clip llais i'w ddefnyddio yn y set ddata?
 faq-what-quality-a = Rydyn eisiau i set ddata Common Voice adlewyrchu ansawdd sain y bydd peiriant llais-i-destun yn ei glywed yn gyffredin, felly rydym yn chwilio am amrywiaeth. Yn ogystal â chymuned amrywiol o siaradwyr, bydd set ddata gydag ansawdd sain amrywiol yn dysgu'r peiriant llais-i-destun i drin gwahanol sefyllfaoedd o'r byd go iawn, o gefndir gyda siarad i sŵn ceir. Cyn belled â bod eich clip llais yn ddealladwy, dylai fod yn ddigon da i'r set ddata.
 faq-why-10k-hours-q = Pam mae 10,000 awr wedi'i ddilysu y nod ar gyfer casglu sain iaith ?
@@ -472,7 +472,7 @@ get-started-speech = Cychwyn gydag Adnabod Lleferydd
 other-datasets = Setiau Data Eraill
 feedback-q = Adborth?
 deepspeech-info = Mae set ddataCommopn Voice yn ategu peiriant adnabod lleferydd cod agored Mozilla, sef Deep Speech, y gallwch ei ddefnyddio i adeiladu rhaglenni adnabod lleferydd. Darllenwch ein <githubLink>trosolwg ar Github</ githubLink> neu ymuno â <discourseLink> DeepSpeech Discourse </ discourseLink> i wybod sut i gychwyn.
-common-voice-info = Oes gennych chi gwestiynau am Common Voice? Ymunwch â ni ar ein fforwm <discourseLink>Discourse <discourseLink>.
+common-voice-info-new = Oes gennych chi gwestiynau am Common Voice? Syniadau ar gyfer gwelliannau neu adborth am iaith benodol? Ymunwch â ni ar ein <discourseLink>fforwm Discource</discourseLink> a rhowch wybod i ni.
 data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oriau o lefaru Saesneg 15Khz wedi ei ddarllen o lyfrau sain o broject LibriVox.
 data-other-ted-name = Corpws TED-LIUM
 data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
@@ -514,6 +514,7 @@ request-language-form-language =
 request-language-success-title = Mae'r cais am iaith wedi ei gyflwyno'n llwyddiannus, diolch.
 request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaeth am sut i ychwanegu eich iaith i Common Voice yn fuan.
 select-language = Dewiswch iaith...
+other-language = Iaith Arall
 
 ## Languages Overview
 
