@@ -345,7 +345,7 @@ faq-why-different-speakers-a =
     De meeste spraakdatabases worden getraind met een oververtegenwoordiging van bepaalde demografische groepen, wat leidt tot een voorkeur voor <articleLink>mannelijk en uit de middenklasse</articleLink>. Accenten en dialecten die vaak ondervertegenwoordigd zijn in trainingsgegevenssets worden meestal in verband gebracht met groepen mensen die al gemarginaliseerd zijn. Veel machines hebben ook moeite met het begrijpen van vrouwelijke stemmen.
     Dit is de reden waarom we variatie in onze spraakdatabase willen!
 faq-why-my-lang-q = Waarom zit mijn taal er nog niet bij?
-faq-why-my-lang-a = Mozilla verkiest niet de ene taal boven de andere. In plaats daarvan is Common Voice een initiatief dat uitsluitend door de gemeenschap wordt aangestuurd, maar het vergt <multilangLink>diverse stappen om een nieuwe taal toe te voegen</multilangLink> en met het verzamelen van spraakdonaties te beginnen. Allereerst moet de Common Voice-website worden vertaald, zodat gemeenschapsleden toegang hebben tot de ervaring van de bijdrager in hun eigen taal. Vervolgens hebben we een grote verzameling auteursrechtvrije zinnen nodig die mensen kunnen voorlezen. Zodra aan beide vereisten is voldaan, wordt een taal ‘uitgebracht’ op Common Voice, zodat mensen hun stem kunnen opnemen en donaties van anderen kunnen valideren. Als u een nieuwe taal beschikbaar wilt helpen maken, ga dan naar ons <sentenceCollectorLink>hulpmiddel voor zinnenverzameling</sentenceCollectorLink> om te beginnen.
+faq-why-my-lang-new-a = Mozilla verkiest niet de ene taal boven de andere. In plaats daarvan is Common Voice een initiatief dat uitsluitend door de gemeenschap wordt aangestuurd, maar het vergt <multilangLink>diverse stappen om een nieuwe taal toe te voegen</multilangLink> en met het verzamelen van spraakdonaties te beginnen. Allereerst moet de Common Voice-website worden vertaald, zodat gemeenschapsleden in hun eigen taal toegang hebben tot de ervaring van de bijdrager. Vervolgens hebben we een grote verzameling auteursrechtvrije zinnen nodig die mensen kunnen voorlezen. Zodra aan beide vereisten is voldaan, wordt een taal ‘uitgebracht’ op Common Voice, zodat mensen hun stem kunnen opnemen en donaties van anderen kunnen valideren. Als u een nieuwe taal beschikbaar wilt helpen maken, ga dan naar ons <sentenceCollectorLink>hulpmiddel voor zinnenverzameling</sentenceCollectorLink> om te beginnen.
 faq-what-quality-q = Welk geluidskwaliteitsniveau is nodig voor een spraakfragment om in de gegevensset te kunnen worden gebruikt?
 faq-what-quality-a = We willen dat de Common Voice-gegevensset de audiokwaliteit weerspiegelt die een spraak-naar-tekst-engine in het wild zal horen, dus we zijn op zoek naar afwisseling. Naast een gevarieerde sprekersgemeenschap leert een gegevensset met verschillende audiokwaliteiten de spraak-naar-tekst-engine om verschillende levensechte situaties aan te kunnen, van achtergrondgeluid tot autolawaai. Zolang uw spraakopname begrijpelijk is, moet deze goed genoeg zijn voor de gegevensset.
 faq-why-10k-hours-q = Waarom is de doelstelling voor geluidsopnamen 10.000 uur per taal?
@@ -455,8 +455,8 @@ get-started-speech = Beginnen met spraakherkenning
 other-datasets = Andere spraakgegevenssets
 feedback-q = Hebt u feedback?
 deepspeech-info = De Common Voice-gegevensset is een aanvulling op Deep Speech, de opensource-spraakherkenningsengine van Mozilla, die u kunt gebruiken om spraakherkenningstoepassingen te bouwen. Lees ons <githubLink>GitHub-overzicht</githubLink> of bezoek het <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ontdekken hoe u kunt beginnen.
-common-voice-info = Hebt u vragen over Common Voice? Schrijf u in bij ons <discourseLink>Discourse-forum</discourseLink>.
-data-other-librispeech-description = LibriSpeech is een pakket met circa 1000 uur aan 16 kHz gesproken Engels, afgeleid van opgelezen audioboeken uit het LibriVox-project.
+common-voice-info-new = Hebt u vragen over Common Voice? Ideeën voor verbeteringen of feedback over een specifieke taal? Praat mee op ons <discourseLink>Discourse-forum</discourseLink> en laat het ons weten.
+data-other-librispeech-description = LibriSpeech is een pakket met circa 1.000 uur aan 16 kHz gesproken Engels, afgeleid van opgelezen audioboeken uit het LibriVox-project.
 data-other-ted-name = TED-LIUM-corpus
 data-other-ted-description = Het TED-LIUM-corpus is samengesteld uit audiotoespraken en hun transcripties, zoals beschikbaar op de TED-website.
 data-other-voxforge-description = VoxForge is opgezet om spraaktranscripties te verzamelen voor gebruik met gratis en opensource-spraakherkenningsengines.
@@ -497,6 +497,7 @@ request-language-form-language =
 request-language-success-title = Taalaanvraag met succes ingediend, bedankt.
 request-language-success-content = We nemen binnenkort contact op met meer informatie over hoe u uw taal aan Common Voice kunt toevoegen.
 select-language = Selecteer een taal…
+other-language = Andere taal
 
 ## Languages Overview
 
