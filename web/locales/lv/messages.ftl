@@ -284,6 +284,7 @@ faq-when-release-q = Kad tiks izlaists Common Voice citās valodās?
 faq-why-mission-q = Kādēļ Common Voice ir daļa no Mozilla misijas?
 faq-what-cv-and-deepspeech-q = Kāda atšķirība starp Common Voice un Deep Speech?
 faq-is-goal-assistant-q = Vai Common Voice mērķis ir veidot balss asistentu?
+faq-do-want-native-q = Šī nav mana dzimtā valoda un es runāju ar akcentu, vai jums tomēr vajag manus balss ierakstus?
 faq-why-different-speakers-q = Kāpēc jums ir nepieciešams tik daudz dažādu runātāju vienā valodā?
 faq-why-my-lang-q = Kāpēc mana valoda vēl nav iekļauta?
 faq-is-account-public-q = Vai mana konta informācija ir publiski pieejama?
