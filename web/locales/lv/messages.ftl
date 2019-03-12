@@ -256,10 +256,12 @@ profile-create-success = Profils izveidots veiksmīgi!
 profile-close = Aizvērt
 profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mūsu balss datiem būt precīzākiem.
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
+why-demographic = Kāpēc tas ir svarīgi?
 login-identity = Pieteikšanās identitāte
 login-signup = Ielogoties / Reģistrēties
 edit = Rediģēt
 download-profile = Lejupielādēt manu datus
+skip-submission-feedback = Izlaist atsauksmes
 off = Izslēgts
 on = Ieslēgts
 add-avatar-title = Pievieno savam profilam avatāru
@@ -292,12 +294,17 @@ localization = Lokalizācija
 
 ## NotFound
 
+notfound-title = Nav atrasts
+notfound-content = Es baidos, ka nezinu, ko jūs meklējat.
 
 ## Data
 
+data-download-button = Lejupielādējiet Common Voice datus
 data-download-yes = Jā
 data-download-deny = Nē
 data-download-license = Licence: <licenseLink> CC-0 </licenseLink>
+data-download-modal = Jūs gatavojaties lejupielādēt <size>{ $size }GB</size>, turpināt?
+data-subtitle = Mēs veidojam atklātu un publiski pieejamu balsu datu kopu, ko ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
 data-other-title = Citas balss datu kopas…
 data-other-goto = Dodieties uz { $name }
 data-other-download = Lejupielādēt datus
@@ -369,6 +376,8 @@ request-language-title = Valodas pieprasījums
 request-language-form-language =
     .label = Valoda
 request-language-success-title = Valodas pieprasījums ir veiksmīgi iesniegts, paldies.
+select-language = Uzstādiet valodu...
+other-language = Cita valoda
 
 ## Languages Overview
 
@@ -389,6 +398,7 @@ total-hours = Pārbaudītās st.
 
 action-click = Klikšķis
 action-tap = Piesit
+contribute = Veic ieguldījumu
 listen = Klausīties
 skip = Izlaist
 shortcuts = Īsceļi
@@ -401,11 +411,23 @@ record-no-mic-found = Nav atrasts neviens mikrofons.
 record-error-too-short = Ieraksts bija pārāk īss.
 record-error-too-long = Ieraksts bija pārāk garš.
 record-error-too-quiet = Ieraksts bija pārāk kluss.
+record-cancel = Atcelt atkārtotu ierakstīšanu
+record-three-more-instruction = Vel palikuši trīs!
+record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu nākamo ierakstu
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
+unable-speak = Pašlaik nevar ierakstīt?
+clips-uploaded = Augšupielādētie ieraksti
+record-abort-title = Varbūt vispirms pabeidz ierakstu?
+record-abort-text = Aizejot, jūs zaudēsiet savu progresu
 record-abort-submit = Iesniegt ierakstu
 record-abort-continue = Pabeigt ierakstu
 record-abort-delete = Iziet un dzēst ierakstus
+listen-instruction = { $actionType } <playIcon> </playIcon> vai viņi precīzi ierunāja teikumu?
+listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klausieties vēlreiz, kad esat gatavs
+listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
+listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
 record-button-label = Ierakstiet savu balsi
+share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 
 ## Goals
 
@@ -439,6 +461,8 @@ todays-validated-progress = Šodienas Common Voice progress ierakstu pārbaudī�
 stats = Statistika
 you = Jūs
 everyone = Citi
+contribution-activity = Ieguldījumu aktivitāte
+top-contributors = Populārākie ieguldītāji
 recorded-clips = Ierakstītie ieraksti
 validated-clips = Pārbaudītie ieraksti
 total-approved = Kopā apstiprinātie
