@@ -341,7 +341,10 @@ faq-why-different-speakers-q = Per què calen tants parlants diferents per a cad
 faq-why-my-lang-q = Per què encara no hi ha la meva llengua?
 faq-what-quality-q = Quin nivell de qualitat d'àudio ha de tenir un tall de veu per poder-lo usar en el conjunt de dades?
 faq-why-10k-hours-q = Per què hi ha l'objectiu de 10.000 hores validades d'enregistrament d'àudio per a cada llengua?
+faq-why-10k-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per entrenar un sistema de reconeixement de la veu en producció.
 faq-how-calc-hours-q = Com calcula les hores el Common Voice?
+faq-why-account-q = Per què hauria de crear un compte?
+faq-is-account-public-q = La informació del meu compte és pública?
 
 ## Glossary
 
@@ -425,6 +428,12 @@ data-other-voxforge-description = VoxForge es va crear per recollir transcripcio
 data-other-tatoeba-description = Tatoeba és una gran base de dades de frases, traduccions i enregistraments d'àudio per a l'ús en l'aprenentatge de llengües. Aquesta baixada conté tots els enregistraments d'anglès parlat fets per la comunitat.
 your-feedback = Teniu idees sobre com millorar el conjunt de dades del Common Voice? Feu-nos-ho saber al Discourse
 go-discourse = Vés al Discourse
+missing-language = No veieu la vostra llengua al conjunt de dades? Per sol·licitar una llengua, aneu a la pàgina de llengües.
+go-languages-page = Vés a la pàgines de llengües
+ready-to-validate = Esteu preparat per a validar frases?
+more = Més
+close = Tanca
+download = Baixa
 
 ## Download Modal
 
@@ -452,6 +461,8 @@ request-language-form-language =
     .label = Llengua
 request-language-success-title = La sol·licitud de llengua s'ha enviat correctament, gràcies.
 request-language-success-content = Aviat ens posarem en contacte amb més informació sobre com afegir la vostra llengua al Common Voice.
+select-language = Seleccioneu una llengua...
+other-language = Un altra llengua
 
 ## Languages Overview
 
