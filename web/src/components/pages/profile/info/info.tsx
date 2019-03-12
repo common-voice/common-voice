@@ -3,12 +3,16 @@ import {
   Localized,
   withLocalization,
 } from 'fluent-react/compat';
+const pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
+const { Tooltip } = require('react-tippy');
 import { RouteComponentProps, withRouter } from 'react-router';
 import API from '../../../../services/api';
 import { NATIVE_NAMES } from '../../../../services/localization';
+import { trackProfile } from '../../../../services/tracker';
 import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
+import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -25,9 +29,6 @@ import {
 } from '../../../ui/ui';
 
 import './info.css';
-
-const pick = require('lodash.pick');
-const { Tooltip } = require('react-tippy');
 
 const Options = withLocalization(
   ({
@@ -48,6 +49,7 @@ const Options = withLocalization(
 
 interface PropsFromState {
   api: API;
+  locale: Locale.State;
   user: User.State;
 }
 
@@ -170,9 +172,13 @@ class ProfilePage extends React.Component<Props, State> {
       addUploads,
       api,
       getString,
+      locale,
       user,
       saveAccount,
     } = this.props;
+    if (!user.account) {
+      trackProfile('create', locale);
+    }
     this.setState({ isSaving: true, isSubmitted: true }, () => {
       addUploads([
         async () => {
@@ -378,8 +384,9 @@ class ProfilePage extends React.Component<Props, State> {
 }
 
 export default connect<PropsFromState, PropsFromDispatch>(
-  ({ api, user }: StateTree) => ({
+  ({ api, locale, user }: StateTree) => ({
     api,
+    locale,
     user,
   }),
   {
