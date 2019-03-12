@@ -59,14 +59,13 @@
     "webpack-cli": "^3.2.3"
   },
   "devDependencies": {
-    "bundlesize": "^0.17.1",
     "react-dev-utils": "^7.0.2",
     "webpack-bundle-analyzer": "^3.0.3"
   },
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack --mode=development --watch --display=errors-only",
-    "test": "yarn build && bundlesize -f \"dist/*.js\" -s 100kb"
+    "test": "yarn build"
   },
   "browserslist": [
     "Firefox ESR",
