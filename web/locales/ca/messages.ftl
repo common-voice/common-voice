@@ -53,13 +53,16 @@ fo = feroès
 fr = francès
 fy-NL = frisó
 ga-IE = irlandès
+gl = gallec
 he = hebreu
+hr = croat
 hsb = alt sòrab
 hu = hongarès
 ia = interlingua
 id = indonesi
 is = islandès
 it = italià
+izh = ingrià
 ja = japonès
 ka = georgià
 kab = cabilenc
@@ -68,6 +71,8 @@ ko = coreà
 kpv = komi
 kw = còrnic
 ky = kirguís
+lt = lituà
+lv = letó
 mdf = mokxa
 mhr = mari oriental
 mk = macedònic
@@ -85,6 +90,7 @@ pt-BR = portuguès (Brasil)
 rm-sursilv = romanx (sobreselvà)
 ro = romanès
 ru = rus
+rw = ruandès
 sah = iacut
 sc = sard
 sk = eslovac
@@ -188,6 +194,8 @@ rich-data = Enriquiu les dades que envieu afegint-hi informació demogràfica an
 improve-audio = La informació del perfil millora les dades d'àudio utilitzades per entrenar la precisió del reconeixement de veu.
 keep-track = Feu el seguiment del vostre progrés i de les mètriques de les llengües en què col·laboreu.
 compare-progress = Compareu el vostre progrés amb el dels altres col·laboradors de tot el món.
+view-goals = Vegeu el vostre progrés cap als objectius personals i del projecte.
+join-newsletter = Opcionalment, uniu-vos a la nostra llista de correu per rebre actualitzacions i novetats sobre el projecte.
 
 ## What's public
 
@@ -379,17 +387,12 @@ download-language = Baixa { $language }
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
 whats-inside = Què inclou el conjunt de dades de veu?
-dataset-description =
-    Cada entrada del conjunt de dades consisteix en un únic MP3 i el fitxer de text corresponent. Moltes de les <b>{ $hours }</b> hores registrades del conjunt de dades també inclouen metadades demogràfiques, com l'edat, el sexe i l'accent, que poden ajudar a millorar la precisió dels motors de reconeixement de veu.
-    
-    Actualment, el conjunt de dades inclou <b>{ $hours }</b> hores validades en <b>{ $languageCount }</b> llengües, però constantment s'hi van afegint més veus i llengües. Visiteu la <languagesLink>pàgina Llengües</languagesLink> per sol·licitar una llengua o per començar a col·laborar.
 want-dataset-update = Voleu rebre actualitzacions quan publiquem una nova versió del conjunt de dades del Common Voice? Subscriviu-vos al nostre butlletí.
 subscribe = Subscriu-m'hi
 get-started-speech = Introducció al reconeixement de veu
 other-datasets = Altres conjunts de dades de veu
 feedback-q = Teniu algun comentari?
 deepspeech-info = El conjunt de dades del Common Voice complementa el motor de reconeixement de veu de codi obert Deep Speech de Mozilla, que podeu utilitzar per crear aplicacions de reconeixement de veu. Llegiu-ne la <githubLink>descripció general al Github</githubLink> o visiteu el <discourseLink>fòrum DeepSpeech al Discourse</discourseLink> per obtenir informació sobre com començar.
-common-voice-info = Teniu preguntes sobre el Common Voice? Visiteu el nostre <discourseLink>fòrum al Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregistraments d'àudio i llurs transcripcions disponibles en el lloc web de TED.
@@ -428,9 +431,7 @@ request-language-success-content = Aviat ens posarem en contacte amb més inform
 ## Languages Overview
 
 language-section-in-progress = En curs
-language-section-in-progress-description = Les llengües en curs s'estan preparant per rebre contribucions de la comunitat. El seu progrés reflecteix l'estat en què es troben pel que fa a la traducció del lloc web i a la recol·lecció de frases.
 language-section-launched = En producció
-language-section-launched-new-description = Les llengües en producció tenen el lloc web totalment traduït i s'han reunit prou frases per permetre les col·laboracions (<italic>Parla</italic> i <italic>Escolta</italic>).
 languages-show-more = Mostra'n més
 languages-show-less = Mostra'n menys
 language-speakers = Locutors
