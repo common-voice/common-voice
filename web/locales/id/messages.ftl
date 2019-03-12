@@ -343,7 +343,6 @@ faq-why-different-speakers-a =
     Kebanyakan data wicara dilatih dengan representasi demografis tertentu yang terlalu berlebihan akan mengakibatkan bias terhadap <articleLink> pria dan kelas menengah </articleLink>. Aksen dan dialek yang cenderung kurang terwakili dalam set data pelatihan biasanya dikaitkan dengan kelompok orang yang sudah terpinggirkan. Banyak mesin juga kesulitan memahami suara wanita.
     Inilah sebabnya mengapa di data suara kami, kami menginginkan banyak variasi!
 faq-why-my-lang-q = Mengapa bahasa saya belum termasuk?
-faq-why-my-lang-a = Mozilla tidak memilih atau mengutamakan salah satu bahasa dari yang lain. Alih-alih, Common Voice adalah inisiatif murni berbasis komunitas, tetapi <multilangLink> butuh beberapa langkah untuk menambahkan bahasa baru </multilangLink> dan mulai mengumpulkan sumbangan suara. Pertama, situs web Common Voice perlu diterjemahkan agar anggota komunitas dapat mengakses pengalaman kontributor dalam bahasa mereka sendiri. Selanjutnya, kita memerlukan banyak koleksi kalimat bebas hak cipta untuk dibaca kontributor. Setelah kedua persyaratan tersebut terpenuhi, sebuah bahasa baru bisa “diluncurkan” di Common Voice bagi orang-orang untuk mulai merekam suara mereka dan memvalidasi sumbangan orang lain.
 faq-what-quality-q = Berapa tingkat kualitas audio yang diperlukan untuk klip suara yang akan digunakan dalam himpunan data?
 faq-what-quality-a = Kami ingin set data Common Voice mencerminkan kualitas audio yang akan didengar oleh mesin suara-ke-teks, jadi kami mencari banyak variasi. Selain komunitas pembicara yang beragam, data dengan kualitas audio yang bervariasi akan mengajarkan mesin suara-ke-teks untuk menangani berbagai situasi dunia nyata, dari pembicaraan di latar belakang hingga kebisingan mobil. Selama klip suara Anda dapat dipahami, itu sudah cukup untuk menjadi set data.
 faq-why-10k-hours-q = Mengapa 10.000 jam tervalidasi merupakan sasaran per bahasa untuk mengumpulkan data suara?
@@ -453,7 +452,6 @@ get-started-speech = Memulai dengan Pengenalan Wicara
 other-datasets = Set Data Suara Lain
 feedback-q = Punya Saran?
 deepspeech-info = Kumpulan data Common Voice melengkapi mesin pengenalan suara open source Mozilla, Deep Speech, yang dapat Anda gunakan untuk membuat aplikasi pengenalan suara. Baca <githubLink> gambaran umum</githubLink>  Github kami atau bergabung dengan <discourseLink> Discourse DeepSpeech </discourseLink> untuk mempelajari cara memulai.
-common-voice-info = Punya pertanyaan tentang Common Voice? Bergabunglah bersama kami di <discourseLink> forum Discourse kami </discourseLink>.
 data-other-librispeech-description = LibriSpeech adalah sebuah korpus berdurasi sekitar 1000 jam dengan pembacaan teks berbahasa Inggris dalam frekuensi 16Khz yang berasal dari pembacaan buku audio dari proyek LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Korpus TED-LIUM dibangun dari perbincangan audio dan naskah salinannya yang tersedia di situs web TED.
@@ -495,6 +493,7 @@ request-language-form-language =
 request-language-success-title = Terima kasih, permintaan bahasa baru berhasil dikirimkan.
 request-language-success-content = Kami akan tetap terhubung dengan lebih banyak informasi tentang bagaimana menambahkan bahasa Anda ke Common Voice segera.
 select-language = Pilih Bahasa...
+other-language = Bahasa Lainnya
 
 ## Languages Overview
 
