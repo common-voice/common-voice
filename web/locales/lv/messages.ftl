@@ -142,23 +142,32 @@ home-title = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašī
 home-cta = Runā skaļi, veic ieguldījumu šeit!
 wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
 wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
+wall-of-text-first = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
+wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 show-wall-of-text = Lasīt vairāk
 help-us-title = Palīdziet mums pārbaudīt teikumus!
 help-us-explain = Nospiediet atskaņošanas pogu, klausieties un pārbaudiet vai viņi precīzi izrunāja zemāk norādīto teikumu?
 no-clips-to-validate = Izskatās, ka šajā valodā nav audio failu. Palīdziet mums, ierakstot dažus tagad.
 vote-yes = Jā
 vote-no = Nē
+toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
+speak-subtitle = Ziedot savu balsi
+speak-goal-text = Ieraksti ierakstīti
 listen-subtitle = Palīdziet mums apstiprināt balsis
 listen-goal-text = Apstiprinātie ieraksti
 hours-recorded = Ierakstītās stundas
 hours-validated = Stundas validētas
 voices-online = Ierakstu veicēji tiešsaistē tagad
 todays-progress = Šodienas progress
+help-reach-goal = Palīdziet mums nokļūt līdz { $goal }
 read-terms-q = Vai esat izlasījis mūsu noteikumus?
 ready-to-record = Vai esat gatavs ziedot savu balsi?
 all-locales = Visas
 today = Šodien
 help-make-dataset = Palīdziet mums izveidot augstas kvalitātes publiski atvērtu datu kopu
+profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
+sign-up-account = Reģistrē savu kontu
+email-subscription-title = Piesakieties jaunumiem epastā
 
 ## Account Benefits
 
@@ -166,21 +175,45 @@ benefits = Ieguvumi
 
 ## What's public
 
+whats-public = Kas ir publiski pieejms?
+email-not-public = Mēs nepublicēsim jūsu epastu publiski.
+recordings-and-locale-public = Ieguldīto Ierakstu skaits un valodas, būs pieejmas publiski.
+username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
+username-email-not-demographic = Jūsu lietotājvārds un epasts netiks piesaistīti publicētajiem datiem.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Atskaņot/Apturēt
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Ierakstīt/Apturēt
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Atkārtoti ierakstīt
+request-language-text = Vai vēl neredzat savu valodu Common Voice projektā?
 request-language-button = Pieprasīt valodu
 
 ## ProjectStatus
 
+status-title = Kopējais projekta statuss: redziet, cik tālu mēs esam!
+status-contribute = Ziedo savu balsi
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nākamie mērķi: { $goal }
@@ -200,6 +233,8 @@ profile-form-age =
     .label = Vecums
 profile-form-gender =
     .label = Dzimums
+leaderboard-visibility =
+    .label = Līderu saraksta redzamība
 hidden = Paslēpts
 visible = Redzams
 native-language =
@@ -210,18 +245,30 @@ male = Vīrietis
 female = Sieviete
 # Gender
 other = Cits
+why-profile-title = Kāpēc veidot profilu?
+dashboard = Darba galds
+build-profile = Veidot profilu
+avatar = Avatārs
 goals = Mērķi
 settings = Iestatījumi
 edit-profile = Rediģēt profilu
+profile-create-success = Profils izveidots veiksmīgi!
 profile-close = Aizvērt
+profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mūsu balss datiem būt precīzākiem.
+thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
+login-identity = Pieteikšanās identitāte
+login-signup = Ielogoties / Reģistrēties
 edit = Rediģēt
 download-profile = Lejupielādēt manu datus
 off = Izslēgts
 on = Ieslēgts
+add-avatar-title = Pievieno savam profilam avatāru
 browse-file-title = Augšupielādējiet attēlu
 browse-file = Velciet un nometiet vai <browseWrap> Pārlūkojiet </browseWrap>
 connect-gravatar = Savienoties ar Gravatar
+gravatar_not_found = Jūsu epastam nav atrasts gravatārs
 file_too_large = Atlasītais fails ir pārāk liels
+manage-subscriptions = Pārvaldīt abonementus
 email-already-used = Epasts jau tiek izmantots citam kontam
 add-language = Pievienot valodu
 
