@@ -186,6 +186,7 @@ x-years-short =
 help-make-dataset = Ajudeu-nos a crear un conjunt de dades d'alta qualitat obert i disponible públicament
 profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
 sign-up-account = Crea un compte
+email-subscription-title = registreu-vos per rebre actualitzacions per correu
 
 ## Account Benefits
 
@@ -230,6 +231,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
 shortcut-record-toggle-label = Enregistra/atura
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Torna a enregistrar el tall
 request-language-text = No trobeu la vostra llengua al Common Voice?
 request-language-button = Sol·licita una llengua
 
@@ -310,12 +313,34 @@ file_too_large = El fitxer seleccionat és massa gran
 manage-subscriptions = Gestiona les subscripcions
 email-already-used = Aquesta adreça electrònica ja s'usa per a un altre compte
 add-language = Afegeix una llengua
+change-email-setings = Canvieu la vostra adreça electrònica a la secció Identitat d'inici de sessió dels paràmetres
 
 ## FAQ
 
 faq-title = Preguntes més freqüents
 faq-what-cv-q = Què és el Common Voice?
+faq-what-cv-a =
+    La tecnologia de reconeixement de veu està revolucionant la manera com interactuem amb les màquines, però els sistemes disponibles actualment són cars i privatius. El Common Voice forma part de la iniciativa de Mozilla per fer que les tecnologies de reconeixement de veu siguin millors i més accessibles per a tothom. El Common Voice és una base de dades mundial massiva de donacions de veus que permet a qualsevol persona entrenar ràpidament i fàcil les aplicacions de veu en pràcticament qualsevol llengua.
+    
+    No només recollim mostres de veu de llengües molt esteses; també de llengües amb una població de parlants més petita. La publicació d'un conjunt de dades diverses veus permetrà als desenvolupadors, empresaris i comunitats solucionar aquesta manca per ells mateixos. A més del conjunt de dades del Common Voice, també estem construint un motor de reconeixement de veu de codi obert anomenat Deep Speech.
 faq-why-important-q = Per què és important?
+faq-why-important-a =
+    La parla és sovint la manera més natural de comunicar-nos entre nosaltres i les tecnologies de veu aporten aquesta comoditat als ordinadors i dispositius mòbils. Volem capacitar els desenvolupadors per crear aplicacions sorprenents de reconeixement de veu, com per exemple, traductors en temps real i assistents digitals controlats per la veu. Ara mateix, però,  la majoria de les dades de veu necessàries per construir aquests tipus d'aplicacions són cares i propietàries. Esperem que el conjunt de dades del Common Voice proporcioni als desenvolupadors allò que necessiten per innovar i que la tecnologia de la parla estigui disponible en la seva respectiva llengua.
+    
+    Per fer que el reconeixement de veu sigui encara més universal, estem recollint mostres de veu en llengües amb molts parlants, així com en aquelles que tenen una població més petita de parlants i que sovint no tenen accés als serveis de reconeixement de veu comercials. La publicació d'un conjunt de dades de veu divers permetrà resoldre aquest buit als desenvolupadors, als empresaris i a totes les comunitats de tecnologies de veu.
+faq-how-get-q = Com puc obtenir les dades del Common Voice?
+faq-how-get-a = El conjunt de dades del Common Voice es pot baixar sota la llicència <licenseLink>CC0</licenseLink> des de <datasetLink>la nostra pàgina de conjunts de dades</datasetLink>. També podeu baixar diversos conjunts de dades disponibles públicament des de la mateixa pàgina.
+faq-when-release-q = Quan publicareu les dades del Common Voice en altres llengües?
+faq-why-mission-q = Per què el Common Voice forma part de la missió de Mozilla?
+faq-what-cv-and-deepspeech-q = Quina diferència hi ha entre el Common Voice i el Deep Speech?
+faq-what-cv-and-deepspeech-a = El conjunt de dades del Common Voice complementa el motor de reconeixement de veu de codi obert Deep Speech de Mozilla. La primera versió del Deep Speech es va publicar el novembre de 2017 i ha continuat evolucionant des d'aleshores. Juntament amb el conjunt de dades del Common Voice, creiem que aquesta tecnologia de reconeixement de veu de codi obert hauria d'estar disponible per a tothom. Esperem que aquestes tecnologies permetin als desenvolupadors construir una onada de productes i serveis innovadors.
+faq-is-goal-assistant-q = L'objectiu del Common Voice és construir un assistent de veu?
+faq-is-goal-assistant-a = L'objectiu del conjunt de dades del Common Voice és permetre que qualsevol persona del món pugui crear aplicacions de reconeixement de veu, de reconeixement de parlants o qualsevol altre tipus d'aplicació que requereixi dades de veu. Un assistent de veu és només un dels molts tipus d'aplicacions que podeu crear utilitzant el conjunt de dades.
+faq-do-want-native-q = No sóc parlant nadiu i parlo amb accent. Voleu la meva veu igualment?
+faq-why-different-speakers-q = Per què calen tants parlants diferents per a cada llengua?
+faq-why-my-lang-q = Per què encara no hi ha la meva llengua?
+faq-what-quality-q = Quin nivell de qualitat d'àudio ha de tenir un tall de veu per poder-lo usar en el conjunt de dades?
+faq-why-10k-hours-q = Per què hi ha l'objectiu de 10.000 hores validades d'enregistrament d'àudio per a cada llengua?
 faq-how-calc-hours-q = Com calcula les hores el Common Voice?
 
 ## Glossary
