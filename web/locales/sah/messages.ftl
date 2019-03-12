@@ -244,7 +244,9 @@ request-language-form-language =
 
 ## Languages Overview
 
+language-section-in-progress = Бэлэмнэнэ турар
 language-speakers = Саҥарааччылар
+language-meter-in-progress = Прогресс
 language-total-progress = Уопсайа
 language-search-input =
     .placeholder = Көрдөөһүн
@@ -261,6 +263,7 @@ skip = Көтүт
 record-no-mic-found = Микрофон булуллубата
 record-three-more-instruction = Үс хаалла!
 unable-speak = Билигин сатаан саҥарар кыаҕыҥ суох?
+record-abort-text = Билигин таҕыстаххына прогресскын сүтэриэҥ
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
 record-button-label = Куоласкын суруттар
 share-title-new = Өссө куоластары буларга <bold>биһиэхэ көмөлөс</bold>
