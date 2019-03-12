@@ -147,6 +147,7 @@ toggle-play-tooltip = Оонньотор режим уларытарга { short
 speak-subtitle = Куоласкын босхо биэр
 hours-recorded = Чаас суруллубут
 hours-validated = Чаас тургутуллубут
+voices-online = Билигин онлайн куоластар
 todays-progress = Бүгүҥҥү прогресс
 read-terms-q = Усулуобуйалары аахтыҥ дуо?
 ready-to-record = Куоласкын босхо биэрэргэ бэлэмҥин?
