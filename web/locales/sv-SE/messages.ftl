@@ -348,7 +348,6 @@ faq-why-different-speakers-a =
     De flesta taldatabaser tränas med en överrepresentation av en viss demografi vilket resulterar i en partiskhet mot <articleLink>man och medelklass</articleLink>. Accenter och dialekter som tenderar att vara underrepresenterade i träningsdata är vanligtvis förknippade med grupper av människor som redan är marginaliserade. Många maskiner kämpar också för att förstå kvinnliga röster.
     Det är därför vi vill ha variation i vår röstdatabas!
 faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
-faq-why-my-lang-a = Mozilla väljer inte eller favoriserar ett språk över ett annat. Istället är Common Voice ett rent community-drivet initiativ, men det krävs <multilangLink>flera steg att lägga till ett nytt språk</multilangLink> och att börja samla röstdonationer. Först måste Common Voice-webbplatsen översättas så att medlemmar i communityn kan få tillgång till det på sitt eget språk. Därefter behöver vi en stor samling upphovsrättsfria meningar som människor ska kunna läsa upp. När båda dessa krav är uppfyllda, lanseras ett språk på Common Voice för att folk ska börja spela in sin röst och att bekräfta andras donationer.
 faq-what-quality-q = Vilken nivå på ljudkvalitet krävs för att ett röstklipp ska kunna användas i datamängden?
 faq-what-quality-a = Vi vill att Common Voice-datamängd ska återspegla ljudkvaliteten som en tal-till-text-motor kommer att höra naturligt, så vi letar efter en variation. Förutom en blandning av talare kommer en datamängd med varierande ljudkvalitet att lära tal-till-text-motorn att hantera olika verkliga situationer, från samtal i bakgrunden till oljud från en bil. Så länge ditt röstklipp är förståeligt ska det vara tillräckligt bra för datamängden.
 faq-why-10k-hours-q = Varför är 10 000 validerade timmar per språk målet för inspelat ljud?
@@ -458,7 +457,6 @@ get-started-speech = Kom igång med taligenkänning
 other-datasets = Andra röstdatamängder
 feedback-q = Har du feedback?
 deepspeech-info = Common Voice-datamängd kompletterar Mozillas taligenkännande motor Deep Voice (öppen källkod), som du kan använda för att bygga taligenkänningsprogram. Läs vår <githubLink>Github-översikt</githubLink> eller gå med i <discourseLink>DeepSpeech Discourse</discourseLink> för att lära dig hur du kommer igång.
-common-voice-info = Har du frågor om Common Voice? Gå med i vårt <discourseLink>Discourse forum</discourseLink>.
 data-other-librispeech-description = LibriSpeech är ett korpus på cirka 1000 timmar av 16Khz inläst från engelska ljudböcker från LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM-korpuset gjordes av föredrag och deras transkriptioner tillgängliga från TED-webbplatsen.
@@ -500,6 +498,7 @@ request-language-form-language =
 request-language-success-title = Språkförfrågan har skickats in, tack.
 request-language-success-content = Vi hör av oss med mer information om hur du lägger till ditt språk i Common Voice väldigt snart.
 select-language = Välj ett språk...
+other-language = Andra språk
 
 ## Languages Overview
 
