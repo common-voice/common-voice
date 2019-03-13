@@ -355,12 +355,20 @@ faq-do-want-native-a = Ya, c'hoant hon eus ho mouezh! Ul lodenn eus pal Common V
 faq-why-different-speakers-q = Perak ho peus ezhomm kement a gomzerien disheñvel dre yezh?
 faq-why-different-speakers-a = Lodenn vrasañ an diaz roadennoù mouezhioù a zo gourdonet gant un dreistdileuridigezh eus poblañsoù 'zo, dreist-holl ar <articleLink>gwazed a renkad etre</articleLink>. An taolioù-mouezh hag ar rannyezhoù a zo is-dileuriet er roadennoù gourdonañ a zo peurvuiañ liammet gant strolladoù a zo arlezekaet endeo. Meur a vekanik o deus diaesterioù evit adanavezout mouezhioù maouezed. Setu perak e fell deomp kaout liesseurted en hor diaz-roadennoù!
 faq-why-my-lang-q = Perak n'eo ket enkorfet ma yezh c'hoazh?
+faq-why-my-lang-new-a = Ne vez ket lakaet ur yezh a-us d'eben gant Mozilla. Un intrudu lusket gant ar gumuniezh eo, met <multilangLink>meur a bazenn a zo evit ouzhpennañ ur yezh nevez</multilangLink> ha kregiñ da zastum enrolladennoù. Da gentañ penn eo dav treiñ lec'hienn ar gumuniezh evit ma c'hallfe bezañ merdeet gant izili ar gumuniezh en o yezh. Da c'houde hon eus ezhomm eus un dastumadeg bras a frazennoù hep gwirioù aozer evit ma c'hallfent bezañ lennet a vouezh uhel gant an dud. Ur wech m'eo leuniet an daou dra-se e c'hall bezañ "lañset" ar yezh war Common Voice evit ma krogfe an dud da enrollañ o mouezh ha da wiriekaat ar roadoù all. Ma fell deoc'h skoazellañ evit lañsañ ur yezh nevez, kit da welet hon ostilh <sentenceCollectorLink>dastum frazennoù</sentenceCollectorLink> evit kregiñ.
 faq-what-quality-q = Peseurt perzhded son a zo goulennet evit implijout ur c'hlip mouezh er roadennoù?
 faq-what-quality-a = Fellout a ra deomp e vefe roadennoù Common Voice heverk eus perzhded ar son a vo enrollet gant un anaoudeger ar vouezh neuze e klaskomp kaout liesseurted. Asambles gant ur gumuniezh liesseurt e c'hallo roadennoù gant perzhded son disheñvel deskiñ d'al lusker anaoudegezh ar vouezh merañ meur a zegouezhioù er bed gwirion, gant trouzioù ur c'harr pe gant tud o komz.en drekleur. Keit ha m'eo komprenus ho klip mouezh eo mat a-walc'h da vezañ enkorfet er roadennoù.
 faq-why-10k-hours-q = Perak eo 10 000 eurvezh gwiriekaet ar pal dre yezh evit tapout ar son?
 faq-why-10k-hours-a = Ar c'hementad a eurioù dleet evit gourdonañ ur reizhiad anaoudegezh ar vouezh an hini eo, tamm pe damm.
 faq-how-calc-hours-q = Penaos e vez jede an eurioù gant Common Voice?
 faq-how-calc-hours-a = Jediñ a reomp an eurioù en ur vrasjediñ hirder keidennel an enrolladennoù, ha lieskementet e vez an niver-mañ dre an niver hollek a enrolladennoù e-touez an holl yezhoù.
+faq-where-src-from-2-q = Eus pelec'h e teu an destenn vammenn?
+faq-where-src-from-2-a =
+    Hor mammennoù testenn a zo savet gant roadoù hiniennoù kement ha divizoù filmoù en domani foran evel <italic>It’s a Wonderful Life</italic>.
+    
+    Gallout a rit gwelout ar frazennoù mammenn en <githubLink>teuliad Github</githubLink>.
+faq-why-not-ask-read-q = Perak ne c'houlennit ket gant an dud lenn levrioù pe pennadoù Wikipedia e yezhoù disheñvel?
+faq-why-not-ask-read-a = Evit ma vefe roadennoù Common Voice an talvoudusañ posupl hon eus divizet aotre testennoù mammenn a zo dindan ul lañvaz Creative Commons (CC0). Ober gant ar CC0 a dalv eo diaesoc'h kavout ha dastum testennoù mammenn, met aotren a ra an holl da implij ar roadennoù mouezh hep bevenn hag hep aotre da gaout eus perzh Mozilla. Da ziwezhañ e fell deomp sevel ar roadennoù liesyezh ken an talvoudusañ posupl evit an holl, en o zouez: klaskerien, skolioù-meur, embregerezhioù, gouarnamantoù, aozadurioù gant palioù kevredadel ha n'eus forzh piv a vefe dedennet.
 faq-why-account-q = Perak e rankfen krouiñ ur gont?
 faq-is-account-public-q = Ha foran eo titouroù ma c'hont?
 faq-how-privacy-q = Penaos e vezit sur e chom dizanv ha prevez titouroù an dud a ro o mouezh?
