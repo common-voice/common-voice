@@ -295,12 +295,18 @@ profile-close = Aizvērt
 profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mūsu balss datiem būt precīzākiem.
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
 why-demographic = Kāpēc tas ir svarīgi?
+why-demographic-explanation = Anonimizēti lietotāja dati, piemēram, vecums, dzimums un akcents, palīdz uzlabot ierakstus, ko izmanto, lai trenētu runas atpazīšanas algoritmu precizitāti. Jūsu lietotājvārds un epasts nekad netiks piesaistīti jūsu iesniegtajiem datiem, un jūs varat izvēlēties, vai padarīt savu lietotājvārdu publisku vai anonīmu.
+keep-me-posted =
+    .label = Es vēlos saņemt jaunumus par to, kas notiek ar Common Voice projektu.
+accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
 login-identity = Pieteikšanās identitāte
 login-signup = Ielogoties / Reģistrēties
 edit = Rediģēt
+email-subscriptions = Jaunumu abonēšana epastā
 download-profile = Lejupielādēt manu datus
 contribution-experience = Piedalīšanās pieredze
 skip-submission-feedback = Izlaist atsauksmes
+skip-submission-note = Piezīme: mainot ieguldījuma veidu, jums būs jāizvēlas ierakstīt vai klausīties.
 off = Izslēgts
 on = Ieslēgts
 add-avatar-title = Pievieno savam profilam avatāru
@@ -312,6 +318,7 @@ file_too_large = Atlasītais fails ir pārāk liels
 manage-subscriptions = Pārvaldīt abonementus
 email-already-used = Epasts jau tiek izmantots citam kontam
 add-language = Pievienot valodu
+change-email-setings = Mainiet savu epastu, iestatījumus sadaļā "Pieteikšanās identitāte"
 
 ## FAQ
 
@@ -319,6 +326,7 @@ faq-title = Biežāk uzdotie jautājumi
 faq-what-cv-q = Kas ir Common Voice?
 faq-why-important-q = Kāpēc tas ir svarīgi?
 faq-how-get-q = Kā es varu iegūt Common Voice datus?
+faq-how-get-a = Common Voice datu kopa ir pieejama lejupielādei, izmantojot <licenseLink> CC0 </licenseLink> licenci lapā <datasetLink>datu kopa</datasetLink>. Jūs arī šajā lapā varat lejupielādēt vairākas citas publiski pieejamas datu kopas.
 faq-when-release-q = Kad tiks izlaists Common Voice citās valodās?
 faq-why-mission-q = Kādēļ Common Voice ir daļa no Mozilla misijas?
 faq-what-cv-and-deepspeech-q = Kāda atšķirība starp Common Voice un Deep Speech?
