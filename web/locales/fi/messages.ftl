@@ -44,7 +44,7 @@ es = Espanja
 et = Viro
 eu = Baski
 fa = Persia
-fi = Suomi
+fi = suomi
 fo = Fääri
 fr = Ranska
 fy-NL = Friisi
@@ -236,8 +236,6 @@ english = Englanti
 
 profile-form-username =
     .label = Käyttäjänimi
-profile-form-language =
-    .label = Kieli
 profile-form-accent =
     .label = Murre
 profile-form-age =
@@ -323,7 +321,6 @@ faq-do-want-native-a = Kyllä, me haluamme erityisesti sinun äänesi! Osa Commo
 faq-why-different-speakers-q = Miksi tarvitsette niin monta jokaisen kielen puhujaa?
 faq-why-different-speakers-a = Useimmat ääniaineistot on opetettu tietyn väestöryhmän yliedustuksella, mikä johtaa vinoumaan <articeLink>valkoihoisten ja keskiluokkaista</articleLink> suuntaan. Tyypillisesti ennalta syrjäytyneiden väestöryhmien korostukset ja murteet tapaavat olla aliedustettuja ääniaineistoissa. Monilla koneilla on lisäksi haasteita naisten ymmärtämisessä. Tästä syystä me haluamme monipuolisuutta aineistoomme!
 faq-why-my-lang-q = Miksei kieleni ole vielä mukana?
-faq-why-my-lang-a = Mozilla ei valitse tai suosi yksittäisiä kieliä. Sen sijaan Common Voice on yhteisöpohjainen projekti, jossa uuden kielen lisäämiseksi tarvitaan <multiLangLink>useita vaiheita</multiLangLink> ennen äänilahjoitusten keräämistä. Ensimmäiseksi Common Voice -sivusto on käännettävä, jotta yhteisön jäsenet voivat osallistua omalla kielellään. Seuraavaksi me tarvitsemme laajan kokoelman tekijänoikeuksista vapaita lauseita ihmisten luettavaksi. Kun molemmat vaatimukset täyttyvät, kieli "julkaistaan" Common Voice -palvelussa, jotta ihmiset voivat aloittaa oman äänensä tallentamisen ja toisten lahjoitusten tarkastamisen.
 faq-what-quality-q = Minkä tasoinen äänenlaatu tarvitaan näytteen käyttämiseksi aineistossa?
 faq-what-quality-a = Haluamme Common Voice -aineiston heijastelevan puheentunnistusmoottorin luonnossa kuulemaa äänenlaatua, joten toivomme vaihtelua. Monipuolisen puhujien yhteisön lisäksi erilaista äänenlaatua sisältävä aineisto opettaa puheentunnistusmoottoria käsittelemään erilaisia tosielämän tilanteita, taustalla puhumisesta liikenteen meluun. Niin kauan kuin ääninäytteesi on ymmärrettävä, sen pitäisi olla tarpeeksi hyvä aineistoon.
 faq-why-10k-hours-q = Miksi tavoitteena on 10 000 tuntia tarkistettuja ääninäytteitä jokaista kieltä kohden?
@@ -379,11 +376,6 @@ data-get-started = <speechBlogLink>Lähde liikkeelle puheentunnistuksessa</speec
 data-other-title = Muut ääniaineistot...
 data-other-goto = Siirry sivustolle { $name }
 data-other-download = Lataa aineisto
-data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
-data-other-ted-name = TED-LIUM-korpus
-data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
-data-other-voxforge-description = VoxForge-projekti perustettiin keräämään tekstitettyä puhetta vapaista avoimen lähdekoodin puheentunnistusmoottoreista.
-data-other-tatoeba-description = Tatoeba on laaja virketietokanta, joka sisältää käännöksiä ja puhenauhoitteita kielenoppimistarkoituksiin. Tämä aineisto on englanniksi.
 data-bundle-button = Lataa koottu aineistokokoelma
 data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineistot
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
@@ -399,6 +391,14 @@ review-rerecord = Uudelleennauhoita
 review-cancel = Peru lähetys
 review-keep-recordings = Säilytä nauhoitteet
 review-delete-recordings = Poista nauhoitukset
+
+## New Datasets Page
+
+data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
+data-other-ted-name = TED-LIUM-korpus
+data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
+data-other-voxforge-description = VoxForge-projekti perustettiin keräämään tekstitettyä puhetta vapaista avoimen lähdekoodin puheentunnistusmoottoreista.
+data-other-tatoeba-description = Tatoeba on laaja virketietokanta, joka sisältää käännöksiä ja puhenauhoitteita kielenoppimistarkoituksiin. Tämä aineisto on englanniksi.
 
 ## Download Modal
 
@@ -430,9 +430,7 @@ request-language-success-content = Otamme yhteyttä siitä miten voidaan lisät�
 ## Languages Overview
 
 language-section-in-progress = Työn alla
-language-section-in-progress-description = Työn alla olevia kieliä yhteisö työstää parhaillaan. Niiden kehitys kertoo missä vaiheessa ne ovat verkkosivujen kääntämisessä ja lauseiden keräämisessä.
 language-section-launched = Julkistettu
-language-section-launched-new-description = Seuraavien kielten web-sivusto on käännetty ja niille on kerätty tarpeeksi virkkeitä <italic>puhumisen</italic> sekä <italic>kuuntelemisen</italic> aloittamiseksi.
 languages-show-more = Lisää
 languages-show-less = Vähemmän
 language-speakers = Puhujat
