@@ -95,7 +95,7 @@ ur = 烏都文
 uz = 烏茲別克文
 vi = 越南文
 zh-CN = 中文 (大陸)
-zh-HK = 中文 (香港)
+zh-HK = 中文（香港）
 zh-TW = 中文 (臺灣)
 
 # [/]
@@ -363,9 +363,7 @@ request-language-success-content = 我們會很快將如何在 Common Voice 新�
 ## Languages Overview
 
 language-section-in-progress = 準備中
-language-section-in-progress-description = 準備中嘅語言，代表該語言社群正在貢獻中。當中嘅進度反映了網站本地化的翻譯進度，以及語句收集的進度。
 language-section-launched = 已上線
-language-section-launched-new-description = 已上線的語言代表該網站的本地化經已完成，並已收集足夠的語句，可接受<italic>聽話</italic>與<italic>說話</italic>的貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 錄音人數
