@@ -330,13 +330,13 @@ faq-why-different-speakers-a =
     Většina databází mluveného slova je trénována s nadměrným zastoupením určitých demografických skupin, zpravidla <articleLink>mužů  střední třídy</articleLink>. Méně zastoupeny jsou poté přízvuky a dialekty tradičně asociované s minoritními etnickými skupinami. Mnoho strojů má taktéž problémy s ženskými hlasy.
     Proto v naší databázi chceme slyšet všechny!
 faq-why-my-lang-q = Proč můj jazyk ještě není zahrnut?
-faq-why-my-lang-a = Organizace Mozilla nevybírá žádné jazyky ani je navzájem nijak neupřednostňuje. Místo toho je projekt Common Voice řízen čistě požadavky a aktivitou komunity. Přidání nového jazyka a zahájení sběru je však <multilangLink>procesem na více kroků</multilangLink>. Prvně je třeba přeložit stránky projektu Common Voice do daného jazyka, aby byla mluvčím daného jazyka práce se stránkou umožněna bez znalosti jakéhokoliv jiného jazyka. Dále potřebujeme sesbírat značnou databázi veřejně použitelných vět, jež mohou poté mluvčí v rámci přispívání číst. Jakmile jsou oba tyto požadavky splněny, jazyk je již na stránce projektu Common Voice spuštěn a mluvčí mohou začít nahrávat svůj hlas a ověřovat nahrávky jiných.
 faq-what-quality-q = Jaká úroveň kvality audio záznamu je potřebná pro nahrání klipu do databáze?
 faq-what-quality-a = Chceme, aby databáze projektu Common Voice odrážela kvalitu audio záznamů, s kterými se poté budoucí systémy rozpoznání hlasu mohou setkat v běžném provozu, takže se snažíme o co největší spektrum rozdílných kvalit. Systémy rozpoznávání hlasu si tedy budou moci snadněji poradit s různými běžnými situacemi, od rozhovorů na pozadí po zvuky projíždějících aut. Je-li tedy váš audio záznam slyšitelný, měl by pro naši databázi vyhovovat.
 faq-why-10k-hours-q = Proč je cílem pro nahrávání zvukových záznamů zrovna 10 000 ověřených hodin za jazyk?
 faq-why-10k-hours-a = Je to počet hodin potřebných k natrénování produkčního systému pro převod hlasu na text.
 faq-how-calc-hours-q = Jak projekt Common Voice počítá nahrané hodiny?
 faq-how-calc-hours-a = Celkovou nahranou dobu počítáme odhadnutím průměrné délky audio záznamu, kterou vynásobíme celkovým počtem audio záznamů.
+faq-where-src-from-2-q = Odkud pochází původní text?
 faq-why-not-ask-read-q = Proč prostě nepožádáte lidi, aby četli z knih či články na Wikipedii?
 faq-why-account-q = Proč bych si měl(a) vytvořit účet?
 faq-is-account-public-q = Jsou informace o mém účtu veřejně přístupné?
@@ -411,7 +411,6 @@ get-started-speech = Začínáme s rozpoznáváním řeči
 other-datasets = Ostatní hlasové datasety
 feedback-q = Máte zpětnou vazbu?
 deepspeech-info = Dataset Common Voice doplňuje open source systém Mozilly Deep Speech pro rozpoznávání hlavu, který můžete použít pro tvorbu aplikací rozpoznávajících řeč. Pro začátek si přečtěte naše <githubLink>shrnutí na GitHubu</githubLink> nebo se připojte na <discourseLink>DeepSpeech Discourse</discourseLink>.
-common-voice-info = Máte otázky ohledně Common Voice? Připojte se k nám na našem <discourseLink>Discourse fóru</discourseLink>.
 data-other-librispeech-description = LibriSpeech je korpus přibližně 1 000 hodin 16 kHz čtené angličtiny odvozený od čtených audioknih z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvořen zvukem přednášek a jejich přepisů dostupných na webu TED.
@@ -456,9 +455,7 @@ request-language-success-content = Velmi brzy vám dáme vědět, jak můžete p
 ## Languages Overview
 
 language-section-in-progress = Spouští se
-language-section-in-progress-description = Jazyky, které se spouští, jsou v současné době připravovány našimi komunitami; jejich postup reflektuje, jak jsou daleko v lokalizaci webu a sbírání vět.
 language-section-launched = Spuštěno
-language-section-launched-new-description = Web těchto spuštěných jazyků byl úspěšně přeložen a bylo sesbíráno dostatečné množství vět, takže je možné přispívat <italic>Nahráváním</italic> a <italic>Kontrolou</italic>.
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-speakers = Mluvčí
