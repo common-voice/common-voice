@@ -8,6 +8,7 @@ email-input =
     .label = Epasts
 submit-form-action = Nosūtīt
 loading = Ielāde...
+email-opt-in-privacy = Izvēloties saņemt epasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā<privacyLink>.
 indicates-required = * Obligātie lauki
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -142,6 +143,9 @@ home-title = Common Voice ir Mozilla iniciatīva, lai palīdzētu mācīt mašī
 home-cta = Runā skaļi, veic ieguldījumu šeit!
 wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
 wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
+wall-of-text-more-desktop =
+    Tagad jūs varat ziedot savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens
+    veidojot inovatīvas lietotnes ierīcēm un tīmeklim. Lasiet teikumu, lai palīdzētu mašīnām iemācīt, kā runā cilvēki . Pārbaudiet citu cilvēku ierakstus, lai uzlabotu to kvalitāti. Tas ir tik vienkārši!
 wall-of-text-first = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju ir nepieciešams liels balss ierakstu skaits.
 wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Mēs domājam, ka tas kavē inovāciju. Tāpēc mēs esam uzsākuši projektu Common Voice, projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 show-wall-of-text = Lasīt vairāk
@@ -192,6 +196,7 @@ email-subscription-title = Piesakieties jaunumiem epastā
 ## Account Benefits
 
 benefits = Ieguvumi
+rich-data = Padariet savus iesniegtos datus pēc iespējas kvalitatīvākus, sniedzot dažus anonīmus demogrāfiskos datus. Pirms to publiskošanas mēs atdalīsim visus demogrāfiskos datus no jūsu identitātes.
 improve-audio = Profila informācija uzlabo audio ierakstu datus, ko izmanto runas atpazīšanas precizitātes apmācībā.
 keep-track = Sekojiet līdzi savam progresam un datiem vairākās valodās.
 compare-progress = Skatiet, kā jūsu progress ir salīdzināms ar citiem ieguldītājiem visā pasaulē.
@@ -277,6 +282,7 @@ female = Sieviete
 # Gender
 other = Cits
 why-profile-title = Kāpēc veidot profilu?
+why-profile-text = Sniedzot nelielu informāciju par sevi, ieraksti, kurus ierakstāt Common Voice, būs labāk noderīgi runas atpazīšanas algoritmiem, kas izmanto šos datus, lai uzlabotu to precizitāti.
 dashboard = Darba galds
 build-profile = Veidot profilu
 avatar = Avatārs
