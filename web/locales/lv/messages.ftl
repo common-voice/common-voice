@@ -164,6 +164,24 @@ read-terms-q = Vai esat izlasījis mūsu noteikumus?
 ready-to-record = Vai esat gatavs ziedot savu balsi?
 all-locales = Visas
 today = Šodien
+x-weeks-short =
+    { $count ->
+        [zero] { $count }n
+        [one] { $count }n
+       *[other] { $count }n
+    }
+x-months-short =
+    { $count ->
+        [zero] { $count }m
+        [one] { $count }m
+       *[other] { $count }m
+    }
+x-years-short =
+    { $count ->
+        [zero] { $count }g
+        [one] { $count }g
+       *[other] { $count }g
+    }
 help-make-dataset = Palīdziet mums izveidot augstas kvalitātes publiski atvērtu datu kopu
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 sign-up-account = Reģistrē savu kontu
@@ -214,6 +232,12 @@ request-language-button = Pieprasīt valodu
 
 status-title = Kopējais projekta statuss: redziet, cik tālu mēs esam!
 status-contribute = Ziedo savu balsi
+status-hours =
+    { $hours ->
+        [zero] { $hours } validētas stundas līdz šim!
+        [one] { $hours } validēta stunda līdz šim!
+       *[other] { $hours } validētas stundas līdz šim!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nākamie mērķi: { $goal }
