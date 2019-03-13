@@ -209,6 +209,7 @@ whats-public = Kas ir publiski pieejms?
 email-not-public = Mēs nepublicēsim jūsu epastu publiski.
 recordings-and-locale-public = Ieguldīto Ierakstu skaits un valodas, būs pieejmas publiski.
 username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
+demographic-deidentified = Pēc jūsu izvēles iesnigtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) tiks noņemti no jūsu iesniegtajiem balss datiem un nekad netiks publiskoti jūsu profilā.
 username-email-not-demographic = Jūsu lietotājvārds un epasts netiks piesaistīti publicētajiem datiem.
 
 ## Speak & Listen Shortcuts
