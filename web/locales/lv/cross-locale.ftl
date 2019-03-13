@@ -1,9 +1,11 @@
 ## Languages
 
-contribute = Sniedz ieguldījumu
+contribute = Piedalies
 get-involved-button = Iesaisties
 get-involved-title = Sniedz ieguldījumu { $lang } valodā
-get-involved-text = Paldies, ka interesējaties par ieguldījumu { $lang } valodā. Mēs smagi strādājam, lai visas valodas būtu gatavas startam un veicam dalībnieku apziņošanu par progresu lietojot epastu. Ja vēlaties sniegt ieguldījumu, lūdzu zemāk norādiet epasta adresi.
+get-involved-text =
+    Paldies par jūsu interesi piedalīties { $lang } valodā. Mēs cītīgi strādājam, lai ikviena valoda būtu gatava startam un regulāri
+    informējam komandas ar epasta palīdzību. Ja vēlaties piedalīties, lūdzu, norādiet savu epasta adresi zemāk.
 get-involved-form-title = Pierakstieties uz { $lang } valodas jaunumiem:
 get-involved-email =
     .label = Epasts

@@ -153,10 +153,10 @@ vote-no = Nē
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
 speak-subtitle = Ziedot savu balsi
 speak-goal-text = Ieraksti ierakstīti
-listen-subtitle = Palīdziet mums apstiprināt balsis
+listen-subtitle = Palīdziet mums pārbaudīt balsis
 listen-goal-text = Apstiprinātie ieraksti
 hours-recorded = Ierakstītās stundas
-hours-validated = Stundas validētas
+hours-validated = Stundas pārbaudītas
 voices-online = Ierakstu veicēji tiešsaistē tagad
 todays-progress = Šodienas progress
 help-reach-goal = Palīdziet mums nokļūt līdz { $goal }
@@ -234,9 +234,9 @@ status-title = Kopējais projekta statuss: redziet, cik tālu mēs esam!
 status-contribute = Ziedo savu balsi
 status-hours =
     { $hours ->
-        [zero] { $hours } validētas stundas līdz šim!
-        [one] { $hours } validēta stunda līdz šim!
-       *[other] { $hours } validētas stundas līdz šim!
+        [zero] Līdz šim pārbaudīta { $hours } stunda!
+        [one] Līdz šim pārbaudītas { $hours } stundas!
+       *[other] Līdz šim pārbaudītas { $hours } stundas!
     }
 # Variables:
 # $goal - number of hours representing the next goal
