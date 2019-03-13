@@ -190,6 +190,11 @@ email-subscription-title = Piesakieties jaunumiem epastā
 ## Account Benefits
 
 benefits = Ieguvumi
+improve-audio = Profila informācija uzlabo audio ierakstu datus, ko izmanto runas atpazīšanas precizitātes apmācībā.
+keep-track = Sekojiet līdzi savam progresam un datiem vairākās valodās.
+compare-progress = Skatiet, kā jūsu progress ir salīdzināms ar citiem ieguldītājiem visā pasaulē.
+view-goals = Skatiet savu progresu pret personiskajiem un projekta mērķiem.
+join-newsletter = Ja vēlaties pievienojieties mūsu epasta sarakstam projekta jaunumu un informācijas saņemšanai.
 
 ## What's public
 
@@ -285,6 +290,7 @@ login-identity = Pieteikšanās identitāte
 login-signup = Ielogoties / Reģistrēties
 edit = Rediģēt
 download-profile = Lejupielādēt manu datus
+contribution-experience = Piedalīšanās pieredze
 skip-submission-feedback = Izlaist atsauksmes
 off = Izslēgts
 on = Ieslēgts
@@ -311,16 +317,22 @@ faq-is-goal-assistant-q = Vai Common Voice mērķis ir veidot balss asistentu?
 faq-do-want-native-q = Šī nav mana dzimtā valoda un es runāju ar akcentu, vai jums tomēr vajag manus balss ierakstus?
 faq-why-different-speakers-q = Kāpēc jums ir nepieciešams tik daudz dažādu runātāju vienā valodā?
 faq-why-my-lang-q = Kāpēc mana valoda vēl nav iekļauta?
+faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
+faq-how-calc-hours-a = Mēs aprēķinām stundas, aprēķinot katra ieraksta vidējo garumu un tad reizinot šo skaitu ar kopējo ierakstu skaitu visās valodās.
 faq-where-src-from-2-q = No kurienes nāk teksti ierakstiem?
+faq-why-not-ask-read-q = Kāpēc jūs nelūdzat, lai cilvēki lasītu grāmatas vai Wikipedia rakstus dažādās valodās?
 faq-why-account-q = Kāpēc man jāreģistrējas?
 faq-is-account-public-q = Vai mana konta informācija ir publiski pieejama?
 faq-how-privacy-q = Kā jūs nodrošināsiet to cilvēku anonimitāti un privātumu, kuri ziedoja savas balsis?
 
 ## Glossary
 
+glossary = Apraksts
 localization = Lokalizācija
 localization-explanation = Šis ir mūsu process, lai tulkotu un pielāgotu mūsu saturu daudzām vietnēm (valodām).
 sentence-collection = Teikumu kolekcija
+sentence-collection-explanation = Iegūt teikumus no publiskā domēna (public domain) vai rakstīt jaunus publiskā domēna tekstus.
+hours-recorded-explanation = Līdz šim savākto balss ierakstu stundu skaits.
 sst = Runa uz tekstu (STT)
 sst-explanation = Runas-teksta (STT) tehnoloģijas pārvērš balss datus tekstā.
 de-identified = Atbrīvots no identifikācijas
@@ -362,6 +374,7 @@ language = Valoda
 # File size in gigabytes
 size = Izmērs
 validated-hr-total = Pārbaudītas st. kopā
+overall-hr-total = Pavisam kopā st.
 cv-license = Licence
 audio-format = Audio formāts
 number-of-voices = Balsu skaits
