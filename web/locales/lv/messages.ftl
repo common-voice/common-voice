@@ -152,8 +152,10 @@ vote-yes = Jā
 vote-no = Nē
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
 speak-subtitle = Ziedot savu balsi
+speak-paragraph = Balss klipu ierakstīšana ir neatņemama sastāvdaļa, veidojot mūsu atvērto datu kopu; daži varētu teikt, ka tas ir arī jautri.
 speak-goal-text = Ieraksti ierakstīti
 listen-subtitle = Palīdziet mums pārbaudīt balsis
+listen-paragraph = Ierakstīto ierakstu apstiprināšana ir ļoti svarīga Common Voice projektam. Klausieties ierakstus un palīdziet izveidot kvalitatīvus atvērtā pirmkoda balss datus.
 listen-goal-text = Apstiprinātie ieraksti
 hours-recorded = Ierakstītās stundas
 hours-validated = Stundas pārbaudītas
@@ -378,6 +380,7 @@ overall-hr-total = Pavisam kopā st.
 cv-license = Licence
 audio-format = Audio formāts
 number-of-voices = Balsu skaits
+splits = Statisktika
 email-to-download = Ievadiet epastu, lai lejupielādētu
 why-email = <b>Kāpēc epasts?</b> Mums, iespējams, nākotnē būs jāsazinās ar jums par izmaiņām datu kopā, to darīsim ar epasta palīdzību.
 confirm-size = Jūs esat gatavs sākt lejupielādēt <b>{ $size }</b>
@@ -429,6 +432,7 @@ other-language = Cita valoda
 ## Languages Overview
 
 language-section-in-progress = Procesā
+language-section-launched = Uzsākts
 languages-show-more = Rādīt vairāk
 languages-show-less = Rādīt mazāk
 language-speakers = Runātāji
@@ -473,6 +477,7 @@ listen-instruction = { $actionType } <playIcon> </playIcon> vai viņi precīzi i
 listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klausieties vēlreiz, kad esat gatavs
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
+nothing-to-validate = Mums nav nekas, kas jāapstiprina šajā valodā, palīdziet mums aizpildīt rindu.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 
@@ -517,6 +522,13 @@ overall-accuracy = Kopējā precizitāte
 
 ## Profile Delete
 
+delete-q = Vai vēlaties pieprasīt, lai arī jūsu balss ieraksti tiktu dzēsti, vai arī vēlaties tos saglabāt Common Voice datu kopā?
 keep = Saglabāt
 remove = Noņemt
+keep-info = Jūsu anonīmie balss ieraksti paliks Common Voice datu kopā. Kad būsiet izdzēsis savu profilu, jūs vairs nevarēsiet iesniegt pieprasījumu savu ierakstu dēšanai no datu kopas
+remove-info = Mēs pārskatīsim jūsu pieprasījumu, lai no datu kopas noņemtu jūsu ierakstus. Ja jūsu pieprasījums tiks apstiprināts, mēs sazināsimies arī ar tiem, kas ir lejupielādējuši datu kopu un viņiem pieprasīsim, lai dzēš jūsu ierakstus.
+why-delete-recordings =
+    Common Voice ierakstus izmanto akadēmiķi, mazie uzņēmumi un balss atpazīšanas entuziasti, lai palīdzētu apmācīt un attīstīt publiski pieejamos resursus, piemēram, balss atpazīšanas modeļus.
+    
+    Vai jūs varat mums paziņot, kāpēc vēlaties, lai jūsu ieraksti tiktu dzēsti?
 profile-form-delete = Dzēst profilu
