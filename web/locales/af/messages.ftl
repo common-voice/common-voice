@@ -33,6 +33,8 @@ toggle-play-tooltip = Druk { shortcut-play-toggle } om die speelmodus te wissel
 speak-subtitle = Skenk jou stem
 speak-paragraph = Opneem van stemsnitte is 'n noodsaaklike deel van die opbou van ons ope datastel; sommige sou sê dis ook die prettige deel.
 speak-goal-text = Snitte opgeneem
+ready-to-record = Gereed om jou stem te skenk?
+today = Vandag
 
 ## Account Benefits
 
