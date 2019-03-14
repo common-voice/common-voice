@@ -1,0 +1,53 @@
+[
+  {
+    "valid": ["irvin", "Allen", "bobchao"],
+    "source": "https://jrf.sayit.mysociety.org/1999%E5%B9%B4%E5%85%A8%E5%9C%8B%E5%8F%B8%E6%B3%95%E6%94%B9%E9%9D%A9%E6%9C%83%E8%AD%B0/%E5%85%A8%E5%9C%8B%E5%8F%B8%E6%B3%95%E6%94%B9%E9%9D%A9%E6%9C%83%E8%AD%B0%E7%B1%8C%E5%82%99%E5%A7%94%E5%93%A1%E6%9C%83%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%9C%83%E8%AD%B0",
+    "invalid": [],
+    "approved": true,
+    "sentence": "承蒙各位在百忙中前來參加",
+    "username": "irvin",
+    "createdAt": 1552107306961,
+    "approvalDate": 1552318479966,
+    "Sentences_Meta_UserVote_Allen": true,
+    "Sentences_Meta_UserVote_irvin": true,
+    "Sentences_Meta_UserVote_bobchao": true,
+    "Sentences_Meta_UserVoteDate_Allen": 1552218505486,
+    "Sentences_Meta_UserVoteDate_bobchao": 1552318479966,
+    "id": "cefc60d6a5f10703850341b232b6f1d776423153c03d80649374a385904ea135",
+    "last_modified": 1552318480655
+  },
+  {
+    "valid": ["irvin", "Allen", "bobchao"],
+    "source": "https://jrf.sayit.mysociety.org/1999%E5%B9%B4%E5%85%A8%E5%9C%8B%E5%8F%B8%E6%B3%95%E6%94%B9%E9%9D%A9%E6%9C%83%E8%AD%B0/%E5%85%A8%E5%9C%8B%E5%8F%B8%E6%B3%95%E6%94%B9%E9%9D%A9%E6%9C%83%E8%AD%B0%E7%B1%8C%E5%82%99%E5%A7%94%E5%93%A1%E6%9C%83%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%9C%83%E8%AD%B0",
+    "invalid": [],
+    "approved": true,
+    "sentence": "今天我們開全國司法改革籌備會",
+    "username": "irvin",
+    "createdAt": 1552107306961,
+    "approvalDate": 1552318479966,
+    "Sentences_Meta_UserVote_Allen": true,
+    "Sentences_Meta_UserVote_irvin": true,
+    "Sentences_Meta_UserVote_bobchao": true,
+    "Sentences_Meta_UserVoteDate_Allen": 1552218505486,
+    "Sentences_Meta_UserVoteDate_bobchao": 1552318479966,
+    "id": "09d827f88f9d4d33f984dafc5e69faffb93a0b7da7390122c7f63efe19124e6b",
+    "last_modified": 1552318480626
+  },
+  {
+    "valid": ["irvin", "Allen", "bobchao"],
+    "source": "https://jrf.sayit.mysociety.org/1999%E5%B9%B4%E5%85%A8%E5%9C%8B%E5%8F%B8%E6%B3%95%E6%94%B9%E9%9D%A9%E6%9C%83%E8%AD%B0/%E5%85%A8%E5%9C%8B%E5%8F%B8%E6%B3%95%E6%94%B9%E9%9D%A9%E6%9C%83%E8%AD%B0%E7%B1%8C%E5%82%99%E5%A7%94%E5%93%A1%E6%9C%83%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%9C%83%E8%AD%B0",
+    "invalid": [],
+    "approved": true,
+    "sentence": "各位前輩、各位同仁",
+    "username": "irvin",
+    "createdAt": 1552107306960,
+    "approvalDate": 1552318479966,
+    "Sentences_Meta_UserVote_Allen": true,
+    "Sentences_Meta_UserVote_irvin": true,
+    "Sentences_Meta_UserVote_bobchao": true,
+    "Sentences_Meta_UserVoteDate_Allen": 1552218505486,
+    "Sentences_Meta_UserVoteDate_bobchao": 1552318479966,
+    "id": "dc688e76192bfdbb8be1b158c86b75295d58ab2f2778203a3ceadbf6d6b476dd",
+    "last_modified": 1552318480597
+  }
+]
