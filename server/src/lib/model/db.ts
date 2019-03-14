@@ -8,7 +8,7 @@ import { IDEAL_SPLIT, randomBucketFromDistribution } from './split';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
-const SHUFFLE_SIZE = 1000;
+const SHUFFLE_SIZE = 500;
 
 let localeIds: { [name: string]: number };
 export async function getLocaleId(locale: string): Promise<number> {
