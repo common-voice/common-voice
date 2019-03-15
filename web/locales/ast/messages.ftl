@@ -48,7 +48,9 @@ fo = Feroés
 fr = Francés
 fy-NL = Frisiu
 ga-IE = Irlandés
+gl = Gallegu
 he = Hebréu
+hr = Croata
 hsb = Altu sórabu
 hu = Húngaru
 ia = Interlingua
@@ -63,6 +65,8 @@ ko = Coreanu
 kpv = Komi
 kw = Córnicu
 ky = Kirguís
+lt = Lituanu
+lv = Letón
 mdf = Moksha
 mk = Macedoniu
 mn = Mongol
@@ -184,6 +188,12 @@ x-years-short =
        *[other] { $count } años
     }
 
+## Account Benefits
+
+
+## What's public
+
+
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
@@ -208,6 +218,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabar/Parar
+shortcut-rerecord-toggle = [1-5]
 request-language-text = ¿Entá nun ves la to llingua en Common Voice?
 request-language-button = Solicitar una llingua
 
@@ -229,8 +240,10 @@ english = Inglés
 
 profile-form-username =
     .label = Nome d'usuariu
-profile-form-language =
-    .label = Llingüa
+profile-form-native-language =
+    .label = Llingua nativa
+profile-form-additional-language =
+    .label = Llingua adicional
 profile-form-accent =
     .label = Acentu
 profile-form-age =
@@ -292,25 +305,9 @@ change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de se
 ## FAQ
 
 faq-title = Entrugues frecuentes
-faq-what-q = ¿Qué ye Common Voice?
-faq-what-a = La teunoloxía de reconocencia de voz podría revolucionar el mou nel qu'interactuamos coles máquines, pero los sistemes disponibles anguaño son caros y privativos. Common Voice ye un proyeutu pa facer d'accesu fácil la teunoloxía de reconocencia de voz a tol mundu. La xente empresta la so voz a una base de datos masiva que va permitir entrenar aína a les aplicaciones qu'usen la voz. Tolos datos de voz van tar disponibles pa los desendolcadores.
-faq-important-q = ¿Por qué ye importante?
-faq-important-a = La voz ye natural, tamién humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a crear proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
-faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
-faq-get-a = Agora'l conxuntu de datos ta disponible na nuesa <downloadLink>páxina de descargues</downloadLink> so la llicencia <licenseLink>CC-0</licenseLink>.
-faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
-faq-mission-a = Mozilla ta dedicada a caltener la web abierta y accesible pa tol mundu. Pa facelo, precisamos ufrir ferramientes a los creadores de la web pente proyeutos como Common Voice. Darréu que les teunoloxíes per voz tán proliferando acullá de les aplicaciones más especializaes, creyemos qu'hemos servir a tolos usuarios n'igualdá de condiciones. Vemos una necesidá d'incluyir más llingües, acentos y datos demográficos al crear y probar eses teunoloxíes. Mozilla quier ver un internet sanu y vivu. Esto significa apurrir a los creadores nuevos accesu a los datos de voz pa que puean construyir proyeutos nuevos y estraordinarios. Common Voice va ser un recursu públicu que va ayudar a los equipos y desendolcadores de Mozilla de tol mundu.
-faq-native-q = Nun soi un falante nativu de { $lang } y falo con acentu, ¿entá quedríeis la mio voz?
-faq-native-a = Sí, ¡claro que queremos la to voz! Parte del oxetivu de Common Voice ye atropar tantos acentos estremaos como seya posible, pa qu'asina los ordenadores puean entender meyor <bold>a tol mundu</bold> cuando fala.
-faq-firefox-q = ¿La voz a testu, pente Common Voice, va ser dalcuando parte de Firefox?
-faq-firefox-a = Common Voice tien un potencial infinitu y tamos, de fechu, esplorando l'usu les interfaces per voz en munchos productos de Mozilla, incluyendo Firefox.
-faq-quality-q = ¿Cuálu ye'l nivel de calidá precisu pa que puean usase los audios?
-faq-quality-a = Queremos que la calidá d'audiu reflexe la calidá qu'un motor de voz a testu va tener na vida real, poro, queremos variedá. Esto va enseñar a esi motor a remanar situaciones variaes (charres de fondu, ruiu de coches o d'aventadores) ensin fallos.
-faq-hours-q = ¿Por qué l'oxetivu son 10000 hores en grabaciones?
-faq-hours-a = Ye'l númberu aproximáu d'hores riquíes pa entrenar a un sistema STT en producción.
-faq-source-q = ¿D'ónde vien el testu fonte?
-faq-source-a1 = Les frases actuales vienen de donaciones de collaboradores, tamién de guiones de películes de dominiu públicu como <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Pues ver l'orixe de les nueses frases <dataLink>nesta carpeta de GitHub</dataLink>.
+
+## Glossary
+
 
 ## NotFound
 
@@ -330,11 +327,6 @@ data-get-started = <speechBlogLink>Entamar cola reconocencia de voz</speechBlogL
 data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
-data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
-data-other-ted-name = Corpus de TED-LIUM
-data-other-ted-description = El corpus de TED-LIUM fízose de magar audios de charres y les sos trescripciones disponibles nel sitiu web TED.
-data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuitos y de códigu abiertu.
-data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
 data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
@@ -350,6 +342,23 @@ review-rerecord = Grabar de nueves
 review-cancel = Encaboxar xuba
 review-keep-recordings = Caltener grabaciones
 review-delete-recordings = Desaniciar les mios grabaciones
+
+## New Datasets Page
+
+language = Llingua
+# File size in gigabytes
+size = Tamañu
+cv-license = Llicencia
+number-of-voices = Númberu de voces
+size-gigabyte = GB
+size-megabyte = MB
+data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
+data-other-ted-name = Corpus de TED-LIUM
+data-other-ted-description = El corpus de TED-LIUM fízose de magar audios de charres y les sos trescripciones disponibles nel sitiu web TED.
+data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuitos y de códigu abiertu.
+data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
+more = Más
+close = Zarrar
 
 ## Download Modal
 
@@ -377,13 +386,12 @@ request-language-form-language =
     .label = Llingua
 request-language-success-title = Unvióse con ésitu la solicitú de la llingua, gracies.
 request-language-success-content = Mui pronto vamos ponenos en contautu con más información tocante a cómo amestar la to llingua a Common Voice.
+other-language = Otres llingües
 
 ## Languages Overview
 
 language-section-in-progress = En cursu
-language-section-in-progress-description = Les llingües en cursu son traducciones feches pola comunidá, el so progresu reflexa en que fas s'alcuentren la traducción del sitiu web y la recoyida de frases.
 language-section-launched = Llanzáronse
-language-section-launched-new-description = Pa estes llingües llanzaes, el sitiu web tradúxose dafechu y recoyéronse abondes frases pa permitir la collaboración en <italic>Falar</italic> y <italic>Sentir</italic>.
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-speakers = Falantes
