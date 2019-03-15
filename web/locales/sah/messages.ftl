@@ -187,10 +187,14 @@ profile-form-age =
     .label = Сааһын
 profile-form-gender =
     .label = Пол
+leaderboard-visibility =
+    .label = Лидердар таблицаларыгар көстөрө
 hidden = Көстүбэт
 visible = Көстөр
 native-language =
     .label = Төрөөбүт тыл
+profile-form-submit-save = Бигэргэт
+profile-form-submit-saved = Бигэргэтилиннэ
 male = Эр киһи
 female = Дьахтар
 # Gender
@@ -198,6 +202,8 @@ other = Атын
 profile-close = Сап
 login-signup = Киирии / Бэлиэтэнии
 edit = Уларытыы
+off = Араар
+on = Холбоо
 
 ## FAQ
 
