@@ -150,10 +150,26 @@ hours-recorded = Чаас суруллубут
 hours-validated = Чаас тургутуллубут
 voices-online = Билигин онлайн куоластар
 todays-progress = Бүгүҥҥү прогресс
+help-reach-goal = { $goal } толорорго биһиэхэ көмөлөс
 read-terms-q = Усулуобуйалары аахтыҥ дуо?
 ready-to-record = Куоласкын босхо биэрэргэ бэлэмҥин?
 all-locales = Барыта
 today = Бүгүн
+x-weeks-short =
+    { $count ->
+        [one] Нэдиэлэ
+       *[other] { $count } нэдиэлэ
+    }
+x-months-short =
+    { $count ->
+        [one] Ый
+       *[other] ый
+    }
+x-years-short =
+    { $count ->
+        [one] Сыл
+       *[other] сыл
+    }
 sign-up-account = Бэлиэтэнии
 
 ## Account Benefits
@@ -179,10 +195,19 @@ request-language-button = Тылы ыйытыктаа
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Аныгыскы сыал: { $goal }
 english = Английскай
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = Төрөөбүт тыл
+profile-form-additional-language =
+    .label = Эбии тыл
+profile-form-accent =
+    .label = Акцент
 profile-form-age =
     .label = Сааһын
 profile-form-gender =
@@ -199,6 +224,7 @@ male = Эр киһи
 female = Дьахтар
 # Gender
 other = Атын
+goals = Сыал
 profile-close = Сап
 login-signup = Киирии / Бэлиэтэнии
 edit = Уларытыы
@@ -240,6 +266,7 @@ size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = { $language } хачайдаа
 validated-hours = Чаас үчүгэйэ биллибит
+recorded-hours = Чаас суруллубут
 whats-inside = Common Voice дааннай наборын иһигэр туох баарый?
 subscribe = Суруттар
 get-started-speech = Common Voice атын программаларга хайдах туттулларый
@@ -254,6 +281,7 @@ your-feedback = Common Voice тупсарар идеялааххын? Биһиэ
 go-discourse = Discourse-ка көс
 missing-language = Наборга эһиги тылгыт суох? Тыллар диэн сирэйгэ киирэн ыйытыкта ыытыҥ.
 ready-to-validate = Этиилэр сөпкө суруллубуттарын көрөн көмөлөһөргө бэлэмҥин?
+more = Өссө
 
 ## Download Modal
 
@@ -283,6 +311,7 @@ language-section-in-progress-new-description = Бу тыллар билигин 
 language-section-launched = Киирбиттэр
 language-section-launched-description = Бу киирбит тылларга вебсайт <localizationGlossaryLink>тылбаастаммыт</localizationGlossaryLink> уонна <sentenceCollectionGlossaryLink>этиилэрэ</sentenceCollectionGlossaryLink> толору хамыллыбыт, онон <speakLink>куолаһы хаммыйыахха</speakLink> уонна <listenLink>истиэххэ</listenLink> сөп.
 languages-show-more = Элбэхтэ
+languages-show-less = Аҕыйахта
 language-speakers = Саҥарааччылар
 language-meter-in-progress = Прогресс
 language-total-progress = Уопсайа
