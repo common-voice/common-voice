@@ -231,6 +231,8 @@ validated-hours = Чаас үчүгэйэ биллибит
 whats-inside = Common Voice дааннай наборын иһигэр туох баарый?
 subscribe = Суруттар
 get-started-speech = Common Voice атын программаларга хайдах туттулларый
+other-datasets = Атын куолас дааннайын набордара
+feedback-q = Сыанабыл хаалларыы
 go-discourse = Discourse-ка көс
 ready-to-validate = Этиилэр сөпкө суруллубуттарын көрөн көмөлөһөргө бэлэмҥин?
 
