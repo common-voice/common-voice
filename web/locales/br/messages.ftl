@@ -373,12 +373,19 @@ faq-why-account-q = Perak e rankfen krouiñ ur gont?
 faq-is-account-public-q = Ha foran eo titouroù ma c'hont?
 faq-how-privacy-q = Penaos e vezit sur e chom dizanv ha prevez titouroù an dud a ro o mouezh?
 faq-how-privacy-a = Skarzhet e vez an titouroù personel en holl glipoù en diaz roadennoù. Pa vez roet roadennoù poblañsouriezh gant ur c'hendaoler dre o frofil eo dizanvet an titour-mañ eus o klip mouezh a-raok bezañ paket evit bezañ pellgarget er roadennoù ha n'eo morse diskouezet d'an holl war o fajenn brofil.
+faq-what-determine-identity-q = Petra dalv ne c'hallan ket "despizañ pivelezh" ar gomzerien e roadennoù Common Voice?
+faq-what-determine-identity-a =
+    Digor hag hegerz d'ar foran eo roadennoù Common Voice ha gallout a ra bezañ implijet evit gourdonañ arloadoù a-bep seurt a implij anaoudegezh ar vouezh. Evit gwareziñ diogelroez hor c'hendaolerien e c'houlennomp gant an holl a bellgarg roadennoù Common Voice da zoujañ ouzh buhez prevez ar gendaloerien.
+    
+    Skarzhet e vez an titouroù a c'hallfe servijout da adanavezout ar c'homzer er c'hlipoù son. Pa pellgargit ar roadennoù ec'h asantit da chom hep klask kavout pivelezh ar gendaolerien. Talvezout a ra ne c'hallit ket klask liammañ titouroù er roadennoù da ditouroù personel ur c'hendaoler. Gallout a rit avat ober gant ar roadennoù evit gourdonañ anaoudegezh ar vouezh, anaoudegezh ar c'homzer pe un arload all, da skouer evit liammañ titouroù er roadennoù da ditouroù all er roadennoù.
 
 ## Glossary
 
 glossary = Geriaoueg
 localization = Lec'hiadur
+localization-explanation = Hon hentenn evit evit treiñ hag azasaat hon endalc'had evit meur a yezh an hini eo.
 sentence-collection = Dastumadeg frazennoù
+sentence-collection-explanation = Dastum frazennoù en domani foran pe skrivañ reoù nevez evit an domani foran.
 hours-recorded-explanation = An niver a eurvezhioù enrollañ hag a zo bet dastumet ganeomp betek-hen.
 hours-validated-explanation = Niver a eurvezhioù enrolladennoù mouezh gwiriekaet gant 2 pe 3 implijer gant ur vot "Ya". Ar re-se a verk pal hollek ar raktres hag a zo da dizhout, 10 000 eurvezh.
 sst = Komz-da-destenn (KDD)
