@@ -173,6 +173,7 @@ shortcut-play-toggle-label = Оонньот/Тохтот
 shortcut-record-toggle-label = Суруттар/Тохтот
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Хат суруттар
+request-language-text = Өссө даҕаны бэйэҕит тылгыт Common Voice көстүбэт?
 request-language-button = Тылы ыйытыктаа
 
 ## ProjectStatus
@@ -201,6 +202,7 @@ faq-why-account-q = Мин тоҕо бэлиэтэниэхтээхпиний?
 
 ## Glossary
 
+sentence-collection = Этиилэр коллекциялара
 
 ## NotFound
 
@@ -225,6 +227,7 @@ size-gigabyte = ГБ
 size-megabyte = МБ
 subscribe = Суруттар
 go-discourse = Discourse-ка көс
+ready-to-validate = Этиилэр сөпкө суруллубуттарын көрөн көмөлөһөргө бэлэмҥин?
 
 ## Download Modal
 
@@ -245,7 +248,11 @@ request-language-form-language =
 
 ## Languages Overview
 
-language-section-in-progress = Бэлэмнэнэ турар
+language-section-in-progress = Бэлэмнэнэ сылдьаллар
+language-section-in-progress-new-description = Бу тыллар билигин сообщество көмөтүнэн бэлэмнэнэ сылдьаллар. Прогресс индикатора хас биирдии тылга  <localizationGlossaryLink>вебсайт тылбаастааһына</localizationGlossaryLink> уонна <sentenceCollectionGlossaryLink>этиилэри хамыйыы</sentenceCollectionGlossaryLink> төһө ыраах тиийбиттэрин көрдөрөр
+language-section-launched = Киирбиттэр
+language-section-launched-description = Бу киирбит тылларга вебсайт <localizationGlossaryLink>тылбаастаммыт</localizationGlossaryLink> уонна <sentenceCollectionGlossaryLink>этиилэрэ</sentenceCollectionGlossaryLink> толору хамыллыбыт, онон <speakLink>куолаһы хаммыйыахха</speakLink> уонна <listenLink>истиэххэ</listenLink> сөп.
+languages-show-more = Элбэхтэ
 language-speakers = Саҥарааччылар
 language-meter-in-progress = Прогресс
 language-total-progress = Уопсайа
