@@ -7,6 +7,7 @@ return-to-cv = Common Voice-ка төҥүн
 email-input =
     .label = Электроннай почта
 submit-form-action = Ыыт
+loading = Хачайдааһын...
 indicates-required = * Толорорго булгуччулаах
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -225,7 +226,11 @@ size = Кээмэй
 cv-license = Лицензия
 size-gigabyte = ГБ
 size-megabyte = МБ
+download-language = { $language } хачайдаа
+validated-hours = Чаас үчүгэйэ биллибит
+whats-inside = Common Voice дааннай наборын иһигэр туох баарый?
 subscribe = Суруттар
+get-started-speech = Common Voice атын программаларга хайдах туттулларый
 go-discourse = Discourse-ка көс
 ready-to-validate = Этиилэр сөпкө суруллубуттарын көрөн көмөлөһөргө бэлэмҥин?
 
@@ -245,6 +250,10 @@ contact-required = *булгуччулаах
 request-language-title = Тыл ирдэбилэ
 request-language-form-language =
     .label = Тыл
+request-language-success-title = Тылы киллэрэр ыйытыгыҥ ыытылынна, махтал.
+request-language-success-content = Биһиги төһө кыалларынан түргэнник биллиэхпит уонна эһиги тылгытын хайдах Common Voice киллэрэр туһунан кэпсиэхпит.
+select-language = Тылы талыҥ...
+other-language = Атын тыллар
 
 ## Languages Overview
 
@@ -260,6 +269,7 @@ language-search-input =
     .placeholder = Көрдөөһүн
 language-speakers = Саҥарааччылар
 sentences = Этиилэр
+total-hours = Чаас киирбит
 
 ## New Contribution
 
