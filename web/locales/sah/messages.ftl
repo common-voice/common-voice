@@ -233,6 +233,9 @@ subscribe = Суруттар
 get-started-speech = Common Voice атын программаларга хайдах туттулларый
 other-datasets = Атын куолас дааннайын набордара
 feedback-q = Сыанабыл хаалларыы
+deepspeech-info = Common Voice дааннайын набора Mozilla Deep Speech диэн аһаҕас тылы өйдүүр движогу толорон биэрэр, ону эһиги бэйэҕит программаҕытыгар туттуоххутун сөп. Хайдах туттар туһунан, биһиги <githubLink>Github-пытыгар</githubLink> ааҕыҥ эбэтэр <discourseLink>Discource форум DeepSpeech разделыгар</discourseLink> киирэн көрүҥ.
+data-other-ted-name = TED-LIUM Хомуур
+data-other-ted-description = TED-LIUM Хомуур диэн TED сайтка баар аудио кэпсэтиилэр уонна кинилэр транскрипцияларыттан оҥоһуллубут.
 go-discourse = Discourse-ка көс
 ready-to-validate = Этиилэр сөпкө суруллубуттарын көрөн көмөлөһөргө бэлэмҥин?
 
