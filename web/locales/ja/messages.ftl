@@ -369,6 +369,8 @@ size = サイズ
 validated-hr-total = 検証された時間合計
 overall-hr-total = 全体の時間合計
 cv-license = ライセンス
+audio-format = 音声フォーマット
+number-of-voices = 音声数
 splits = 分割
 email-to-download = ダウンロードを案内するメールアドレスを入力
 why-email = <b>なぜメールアドレスが必要なのですか？</b> データセットの変更について、将来的に連絡が必要になる場合があります。その連絡のためのメールアドレスをお知らせください。
@@ -417,9 +419,7 @@ request-language-success-content = Common Voice にあなたの言語を追加�
 ## Languages Overview
 
 language-section-in-progress = 現在進行中
-language-section-in-progress-description = 現在進行中の言語は、コミュニティーの貢献によって構築中です。進捗は、ウェブサイトのローカライズと、文章の収集の進み具合を表しています。
 language-section-launched = 公開中
-language-section-launched-new-description = ある言語についてプロジェクトを開始するには、ウェブサイトが正常にローカライズされ、<italic>読み上げ</italic>・<italic>検証</italic>両方の継続的な貢献を可能にするのに十分な文章が用意されている必要があります。
 languages-show-more = もっと見る
 languages-show-less = 閉じる
 language-speakers = スピーカー
