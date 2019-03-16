@@ -301,6 +301,7 @@ review-submit-title = Тургут & Ыыт
 review-submit-msg = Суруттарбыккытыгар махтал!<lineBreak></lineBreak>Аны клиптары тургутан көрүҥ уонна ыытыҥ.
 review-recording = Тургут
 review-rerecord = Хат суруттар
+review-cancel = Ыытары уурат
 review-keep-recordings = Хааллар суруттарыыларбын
 review-delete-recordings = Соттор суруттарыыларбын
 
@@ -387,7 +388,9 @@ record-error-too-quiet = Суруттарыы сатаан иһиллибэт.
 record-instruction = <recordIcon></recordIcon> { $actionType } уонна суруллубут этиини аах
 record-stop-instruction = Бүттэххинэ <stopIcon></stopIcon>{ $actionType }
 record-three-more-instruction = Үс хаалла!
+review-tooltip = Манна клиптары тургут & хат суруттар
 unable-speak = Билигин сатаан саҥарар кыаҕыҥ суох?
+review-instruction = Клиптары тургут & хат суруттарыаххын сөп
 record-submit-tooltip = Бэлэм буоллаҕына { $actionType }
 record-abort-text = Билигин таҕыстаххына прогресскын сүтэриэҥ
 record-abort-submit = Клиптары ыыт
