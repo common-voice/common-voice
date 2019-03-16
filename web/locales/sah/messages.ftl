@@ -137,6 +137,7 @@ logout = Тахсыы
 
 ## Home Page
 
+home-title = Common Voice - Mozilla көмпүүтэри киһи курдук саҥарар гына үөрэтэргэ көҕүлээһинэ
 home-cta = Саҥар, манна кыттыс!
 show-wall-of-text = Өссө аах
 help-us-title = Этиилэр сөпкө оҥоһуллубуттарын көрөргө көмөлөс!
@@ -262,6 +263,7 @@ language = Тыл
 # File size in gigabytes
 size = Кээмэй
 cv-license = Лицензия
+confirm-size = Эһиги <b>{ $size }</b> хачайдаары сылдьаҕыт
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = { $language } хачайдаа
