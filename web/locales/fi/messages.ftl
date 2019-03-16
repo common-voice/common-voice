@@ -236,6 +236,10 @@ english = Englanti
 
 profile-form-username =
     .label = Käyttäjänimi
+profile-form-native-language =
+    .label = Äidinkieli
+profile-form-additional-language =
+    .label = Lisäkieli
 profile-form-accent =
     .label = Murre
 profile-form-age =
@@ -319,7 +323,7 @@ faq-is-goal-assistant-a = Common Voice -ääniaineiston tavoitteena on mahdollis
 faq-do-want-native-q = En ole syntyperäinen puhuja ja puhun korostaen. Haluatteko silti ääneni?
 faq-do-want-native-a = Kyllä, me haluamme erityisesti sinun äänesi! Osa Common Voice -projektin tavoitteita on kerätä mahdollisimman paljon korostuksia, jotta puheentunnistus toimisi yhtä hyvin kaikille. Tämän vuoksi lahjoitukset ei-syntyperäisiltä puhujilta ovat erityisen tärkeitä.
 faq-why-different-speakers-q = Miksi tarvitsette niin monta jokaisen kielen puhujaa?
-faq-why-different-speakers-a = Useimmat ääniaineistot on opetettu tietyn väestöryhmän yliedustuksella, mikä johtaa vinoumaan <articeLink>valkoihoisten ja keskiluokkaista</articleLink> suuntaan. Tyypillisesti ennalta syrjäytyneiden väestöryhmien korostukset ja murteet tapaavat olla aliedustettuja ääniaineistoissa. Monilla koneilla on lisäksi haasteita naisten ymmärtämisessä. Tästä syystä me haluamme monipuolisuutta aineistoomme!
+faq-why-different-speakers-a = Useimmat ääniaineistot on opetettu tietyn väestöryhmän yliedustuksella, mikä johtaa vinoumaan <articeLink>valkoihoisten ja keskiluokkaisten</articleLink> suuntaan. Tyypillisesti ennalta syrjäytyneiden väestöryhmien korostukset ja murteet tapaavat olla aliedustettuja ääniaineistoissa. Monilla koneilla on lisäksi haasteita naisten ymmärtämisessä. Tästä syystä me haluamme monipuolisuutta aineistoomme!
 faq-why-my-lang-q = Miksei kieleni ole vielä mukana?
 faq-what-quality-q = Minkä tasoinen äänenlaatu tarvitaan näytteen käyttämiseksi aineistossa?
 faq-what-quality-a = Haluamme Common Voice -aineiston heijastelevan puheentunnistusmoottorin luonnossa kuulemaa äänenlaatua, joten toivomme vaihtelua. Monipuolisen puhujien yhteisön lisäksi erilaista äänenlaatua sisältävä aineisto opettaa puheentunnistusmoottoria käsittelemään erilaisia tosielämän tilanteita, taustalla puhumisesta liikenteen meluun. Niin kauan kuin ääninäytteesi on ymmärrettävä, sen pitäisi olla tarpeeksi hyvä aineistoon.
@@ -394,11 +398,23 @@ review-delete-recordings = Poista nauhoitukset
 
 ## New Datasets Page
 
+language = Kieli
+# File size in gigabytes
+size = Koko
+cv-license = Lisenssi
+email-to-download = Anna sähköpostiosoite ladataksesi
+confirm-size = Olet aloittamassa <b>{ $size }</b> gigatavun latausta.
+size-gigabyte = Gt
+size-megabyte = Mt
+download-language = Lataa { $language }
+feedback-q = Haluatko antaa palautetta?
 data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
 data-other-voxforge-description = VoxForge-projekti perustettiin keräämään tekstitettyä puhetta vapaista avoimen lähdekoodin puheentunnistusmoottoreista.
 data-other-tatoeba-description = Tatoeba on laaja virketietokanta, joka sisältää käännöksiä ja puhenauhoitteita kielenoppimistarkoituksiin. Tämä aineisto on englanniksi.
+go-discourse = Siirry Discourseen
+go-languages-page = Siirry sivulle Kielet.
 
 ## Download Modal
 
