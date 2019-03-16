@@ -17,8 +17,11 @@ indicates-required = * Pakollinen kenttä
 
 ## Languages
 
+ab = abhaasi
 ace = Atšeh
+ady = adyge
 af = Afrikaans
+am = amhara
 an = Aragonia
 ar = Arabia
 as = Assami
@@ -37,6 +40,7 @@ cy = Kymri
 da = Tanska
 de = Saksa
 dsb = Alasorbi
+dv = divehi
 el = Kreikka
 en = Englanti
 eo = Esperanto
@@ -91,6 +95,7 @@ te = Telugu
 th = Thai
 tr = Turkki
 tt = Tataari
+udm = udmurtti
 uk = Ukraina
 ur = Urdu
 uz = Uzbekki
@@ -398,23 +403,40 @@ review-delete-recordings = Poista nauhoitukset
 
 ## New Datasets Page
 
+datasets-headline = Rakennamme avointa ja monikielistä ääniaineistoa, jota kuka tahansa voi käyttää puheeseen liittyvien sovellusten kehittämisessä.
 language = Kieli
 # File size in gigabytes
 size = Koko
+validated-hr-total = Tarkistettuja tunteja yhteensä
+overall-hr-total = Tunteja kaikkiaan yhteensä.
 cv-license = Lisenssi
+audio-format = Äänimuoto
+number-of-voices = Äänien määrä
+splits = Osat
 email-to-download = Anna sähköpostiosoite ladataksesi
+why-email = <b>Miksi sähköpostiosoite?</b> Meille voi tulla tarve olla sinuun yhteyksissä aineistoon muutoksiin liittyen, jolloin sähköposti on  yksi yhteystieto.
 confirm-size = Olet aloittamassa <b>{ $size }</b> gigatavun latausta.
 size-gigabyte = Gt
 size-megabyte = Mt
 download-language = Lataa { $language }
+validated-hours = Tarkistetut tunnit
+recorded-hours = Äänitetyt tunnit
+whats-inside = Mitä on Common Voicen datapaketeissa?
+want-dataset-update = Haluatko tiedotteen kun julkaisemme uuden version Common Voice -aineistosta? Tilaa uutiskirjeemme.
+subscribe = Tilaa
+get-started-speech = Aloita puheentunnistuksen parissa
+other-datasets = Muut puheaineistot
 feedback-q = Haluatko antaa palautetta?
 data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
 data-other-voxforge-description = VoxForge-projekti perustettiin keräämään tekstitettyä puhetta vapaista avoimen lähdekoodin puheentunnistusmoottoreista.
 data-other-tatoeba-description = Tatoeba on laaja virketietokanta, joka sisältää käännöksiä ja puhenauhoitteita kielenoppimistarkoituksiin. Tämä aineisto on englanniksi.
+your-feedback = Onko sinulla ajatuksia, kuinka voisimme tehdä Common Voice -aineistosta paremman? Kerro meille Discoursessa
 go-discourse = Siirry Discourseen
+missing-language = Etkö löydä omaa kieltä aineistosta? Pyytääksesi kielen lisäämistä siirry sivulle Kielet.
 go-languages-page = Siirry sivulle Kielet.
+ready-to-validate = Oletko valmis tarkistamaan lauseita?
 
 ## Download Modal
 
@@ -553,4 +575,8 @@ keep = Säilytä
 remove = Poista
 keep-info = Ääninäytteesi säilyvät nimettöminä Common Voice -tietoaineistossa. Poistettuasi profiilisi et voi enää pyytää näytteidesi poistamista tietoaineistosta.
 remove-info = Käsittelemme pyyntösi poistaa ääninäytteesi aineistosta. Jos pyyntösi hyväksytään, otamme yhteyttä aineiston ladanneisiin ja pyydämme myös heitä poistamaan ääninäytteesi.
+why-delete-recordings =
+    Common Voice -nauhoitteita voivat käyttää tutkijat, yritykset ja puheentunnistuksen harrastajat uusien ja karttuvien resurssien, kuten kielimallien, luomiseksi.
+    
+    Haluatko kertoa, miksi haluat poistaa tekemäsi nauhoitukset?
 profile-form-delete = Poista profiili
