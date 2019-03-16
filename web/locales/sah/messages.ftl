@@ -381,6 +381,7 @@ skip = Көтүт
 shortcuts = Сочетаниялар
 clips-with-count = <bold>{ $count }</bold> клип
 record-cta = Саҕалаа суруттарыыны
+record-must-allow-microphone = Микрофоҥҥа доступ биэриэххэ наада.
 record-no-mic-found = Микрофон булуллубата
 record-error-too-short = Суруттарыы наһаа кылгас.
 record-error-too-long = Суруттарыы наһаа уһун.
