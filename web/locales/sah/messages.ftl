@@ -296,6 +296,13 @@ data-other-download = Дааннайдары хачайдаа
 review-terms = Эһиги Common Voice туттаргытыгар биһиги <termsLink>Усулуобуйабытын</termsLink> уонна <privacyLink>Конфиденциальность политикабыт</privacyLink> кытта сөбүлэһэҕит
 terms-agree = Сөбүлэһэбин
 terms-disagree = Сөбүлэспэппин
+review-aborted = Хачайдаан киллэрии быһынна. Суруттарыыларгытын соттороҕут?
+review-submit-title = Тургут & Ыыт
+review-submit-msg = Суруттарбыккытыгар махтал!<lineBreak></lineBreak>Аны клиптары тургутан көрүҥ уонна ыытыҥ.
+review-recording = Тургут
+review-rerecord = Хат суруттар
+review-keep-recordings = Хааллар суруттарыыларбын
+review-delete-recordings = Соттор суруттарыыларбын
 
 ## New Datasets Page
 
@@ -372,13 +379,18 @@ listen = Иһит
 skip = Көтүт
 shortcuts = Сочетаниялар
 clips-with-count = <bold>{ $count }</bold> клип
+record-cta = Саҕалаа суруттарыыны
 record-no-mic-found = Микрофон булуллубата
+record-error-too-short = Суруттарыы наһаа кылгас.
+record-error-too-long = Суруттарыы наһаа уһун.
+record-error-too-quiet = Суруттарыы сатаан иһиллибэт.
 record-instruction = <recordIcon></recordIcon> { $actionType } уонна суруллубут этиини аах
 record-stop-instruction = Бүттэххинэ <stopIcon></stopIcon>{ $actionType }
 record-three-more-instruction = Үс хаалла!
 unable-speak = Билигин сатаан саҥарар кыаҕыҥ суох?
 record-submit-tooltip = Бэлэм буоллаҕына { $actionType }
 record-abort-text = Билигин таҕыстаххына прогресскын сүтэриэҥ
+record-abort-submit = Клиптары ыыт
 listen-instruction = <playIcon></playIcon>{ $actionType } Этии сөпкө чуолкайдын иһиллэр да?
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
 record-button-label = Куоласкын суруттар
