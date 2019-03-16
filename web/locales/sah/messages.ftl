@@ -228,6 +228,7 @@ female = Дьахтар
 other = Атын
 goals = Сыал
 profile-close = Сап
+accept-privacy = Мин сөбүлэһэбин эһиги хайдах Mozilla <privacyLink>конфиденциальность политикатын</privacyLink> тутуһан информацияны обработкалыыргытыгар
 login-signup = Киирии / Бэлиэтэнии
 edit = Уларытыы
 off = Араар
@@ -240,6 +241,7 @@ faq-what-cv-q = Common Voice диэн тугуй?
 faq-why-important-q = Тоҕо бу улахан суолталааҕый?
 faq-how-get-q = Common Voice дааннайдарын мин хайдах ылыахпын сөбүй?
 faq-why-account-q = Мин тоҕо бэлиэтэниэхтээхпиний?
+faq-how-privacy-q = Эһиги куоластарын босхо биэрбит дьону хайдах анонимностарын уонна конфиденциальностарын хааччыйаҕыт?
 
 ## Glossary
 
