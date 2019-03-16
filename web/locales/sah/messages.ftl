@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Миэхэ электроннай сурукта ыытын. Мин Common Voice проект туһунан сонуну истиэхпин баҕарабын.
+yes-receive-emails = Миэхэ электроннай сурукта ыытыҥ. Мин Common Voice проект туһунан сонуну истиэхпин баҕарабын.
 stayintouch = Биһиги Mozilla-ҕа саҥа технологиятын тула холбоһугу тутабыт. Биһиги саҥатытыы, саҥа даннайдар источниктарын туһунан биллэриэхпитин баҕарабыт уонна бу даннайдары хайдах туттаргытын туһунан истиэхпитин баҕарабыт.
 privacy-info = Эһиги информацияҕытын сэрэнэн туттуохпут диэн тылбытын биэрэбит. Салгыы биһиги <privacyLink>конфиденциальность биллэриибитигэр</privacyLink> аах.
 return-to-cv = Common Voice-ка төҥүн
@@ -148,6 +148,9 @@ vote-yes = Сөп
 vote-no = Суох
 toggle-play-tooltip = Оонньотор режим уларытарга { shortcut-play-toggle } баттаа
 speak-subtitle = Куоласкын босхо биэр
+speak-goal-text = Клиптар суруллубуттар
+listen-subtitle = Суруллубут куоластары тургутууга биһиэхэ көмөлөс
+listen-goal-text = Клиптар тургутуллубуттар
 hours-recorded = Чаас суруллубут
 hours-validated = Чаас тургутуллубут
 voices-online = Билигин онлайн куоластар
@@ -172,23 +175,42 @@ x-years-short =
         [one] Сыл
        *[other] сыл
     }
+help-make-dataset = Биһиэхэ көмөлөс үрдүк хаачыстыбалаах аһаҕас дааннай наборын оҥорорго
+profile-not-required = Профиль кыттыһарга хайаан даҕаны буотах, ол гынан баран туһалаах
 sign-up-account = Бэлиэтэнии
+email-subscription-title = Бэлиэтэн саҥардыллыы туһунан email-га суруттарарга
 
 ## Account Benefits
 
+benefits = Ордуктара
+rich-data = Анонимнай демографическай дааннайы биэрэҥҥит, эһиги максимально толору оҥороҕут. Биһиги демографическай дааннайы барытын бэчээттиэхпит иннинэ личнай информацията суох гынабыт.
 
 ## What's public
 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = к
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = о
 shortcut-play-toggle-label = Оонньот/Тохтот
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = д
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = н
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = с
 shortcut-record-toggle-label = Суруттар/Тохтот
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Хат суруттар
@@ -226,6 +248,7 @@ male = Эр киһи
 female = Дьахтар
 # Gender
 other = Атын
+avatar = Аватар
 goals = Сыал
 profile-close = Сап
 accept-privacy = Мин сөбүлэһэбин эһиги хайдах Mozilla <privacyLink>конфиденциальность политикатын</privacyLink> тутуһан информацияны обработкалыыргытыгар
