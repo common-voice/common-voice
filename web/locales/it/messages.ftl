@@ -341,6 +341,7 @@ faq-do-want-native-a = Sì, cerchiamo soprattutto voci come la tua! Uno degli ob
 faq-why-different-speakers-q = Perché avete bisogno di così tante voci diverse per ogni lingua?
 faq-why-different-speakers-a = Nella stragrande maggioranza dei database per l’apprendimento vocale troviamo una netta sproporzione demografica a favore delle voci <articleLink>maschili e di classe media</articleLink>. Invece gli accenti e i dialetti associati ai gruppi già di per sé marginalizzati ricevono una rappresentazione minore nei dataset per l’apprendimento del software. Inoltre diversi dispositivi faticano a comprendere le voci femminili. Ecco perché vogliamo che il nostro database sia così vario.
 faq-why-my-lang-q = Perché la mia lingua non è stata ancora inclusa?
+faq-why-my-lang-new-a = Mozilla non auspica o favorisce in alcun modo il progresso di alcune lingue rispetto ad altre. Common Voice è infatti un’iniziativa gestita interamente dalla comunità, ma richiede <multilangLink>diversi passaggi per aggiungere una nuova lingua</multilangLink> e iniziare a raccogliere donazioni vocali. Per prima cosa è necessario tradurre il sito web di Common Voice, in modo da offrire ai membri della comunità uno strumento di collaborazione nella propria lingua. In seguito è necessario caricare una vasta raccolta di frasi prive di copyright che i collaboratori possano leggere ad alta voce. Una volta soddisfatti tutti questi requisiti, una lingua viene “lanciata” su Common Voice e i collaboratori possono iniziare a registrare la propria voce e convalidare le registrazioni di altri. Puoi iniziare a collaborare al lancio di una nuova lingua dal nostro <sentenceCollectorLink>strumento per la raccolta frasi</sentenceCollectorLink>.
 faq-what-quality-q = Quale livello di qualità audio è richiesto da una registrazione vocale per essere utilizzata nel dataset?
 faq-what-quality-a = Vogliamo che il dataset di Common Voice rifletta la qualità audio che un motore di riconoscimento vocale “ascolterà” nella vita di tutti i giorni, per questo cerchiamo la varietà. Oltre a una comunità diversificata di parlanti, un dataset con qualità audio variabile insegnerà al motore di riconoscimento vocale a gestire varie situazioni del mondo reale, dal parlato di sottofondo al rumore dell’automobile. In poche parole, finché si distinguono le parole la tua registrazione va benissimo per il dataset!
 faq-why-10k-hours-q = Perché l’obiettivo di registrazione è proprio 10.000 ore convalidate per ogni lingua?
@@ -446,6 +447,7 @@ get-started-speech = Inizia con il riconoscimento vocale
 other-datasets = Altri dataset vocali
 feedback-q = Hai suggerimenti?
 deepspeech-info = Il dataset di Common Voice integra il motore di riconoscimento vocale open source di Mozilla, Deep Speech, utilizzabile per creare applicazioni di riconoscimento vocale. Leggi la <githubLink>panoramica GitHub</githubLink> o unisciti a <discourseLink>DeepSpeech su Discourse</discourseLink> per sapere come cominciare.
+common-voice-info-new = Hai domande su Common Voice? Vuoi comunicarci opinioni o suggerimenti per migliorare una specifica lingua? Scrivici sul <discourseLink>forum Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech è un corpus contenente circa 1000 ore di registrazioni in lingua inglese a 16Khz tratto dalla lettura di audiolibri del progetto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Il corpus TED-LIUM è realizzato con registrazioni audio di conferenze e relative trascrizioni disponibili sul sito TED.
@@ -487,6 +489,7 @@ request-language-form-language =
 request-language-success-title = Richiesta per una nuova lingua inviata. Grazie per il tuo interessamento.
 request-language-success-content = Presto riceverai istruzioni su come aggiungere la tua lingua a Common Voice.
 select-language = Seleziona una lingua…
+other-language = Altra lingua
 
 ## Languages Overview
 
