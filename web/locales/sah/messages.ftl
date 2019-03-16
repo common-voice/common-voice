@@ -8,6 +8,7 @@ email-input =
     .label = Электроннай почта
 submit-form-action = Ыыт
 loading = Хачайдааһын...
+email-opt-in-privacy = Сурук тутарга сөбүлэһэҥҥит, эһиги сөпсөһөҕүт Mozilla хайдах бу информацияны обработкалыырыгар <privacyLink>конфиденциальность политикатын<privacyLink> тутуһан
 indicates-required = * Толорорго булгуччулаах
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -253,6 +254,7 @@ data-download-button = Common Voice дааннайдарын хачайдаа
 data-download-yes = Сөп
 data-download-deny = Суох
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-download-modal = Эһиги <size>{ $size }ГБ</size> хачайдаары сылдьаҕыт, сылҕыыбыт?
 data-other-download = Дааннайдары хачайдаа
 terms-agree = Сөбүлэһэбин
 terms-disagree = Сөбүлэспэппин
