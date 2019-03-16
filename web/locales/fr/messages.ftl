@@ -462,6 +462,7 @@ go-discourse = Aller sur Discourse
 missing-language = Votre langue ne fait pas partie du jeu de données ? Pour demander l’ajout d’une nouvelle langue, rendez-vous sur notre page des langues.
 go-languages-page = Aller sur la page des langues
 ready-to-validate = Prêt·e à nous aider à valider des phrases ?
+more = Informations supplémentaires
 close = Fermer
 download = Télécharger
 
