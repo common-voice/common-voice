@@ -53,7 +53,9 @@ fo = Fääri
 fr = Ranska
 fy-NL = Friisi
 ga-IE = Iiri
+gl = galicia
 he = Heprea
+hr = kroatia
 hsb = Yläsorbi
 hu = Unkari
 ia = Interlingua
@@ -68,9 +70,13 @@ ko = Korea
 kpv = Komisyrjääni
 kw = Korni
 ky = Kirgiisi
+lt = liettua
+lv = latvia
 mdf = Mokša
+mhr = niittymari
 mk = Makedonia
 mn = Mongoli
+mrj = vuorimari
 myv = Ersä
 nb-NO = Norjan bokmål
 ne-NP = Nepali
@@ -83,6 +89,7 @@ pt-BR = Brasilianportugali
 rm-sursilv = Sursilvan retoromaani
 ro = Romania
 ru = Venäjä
+rw = ruanda
 sah = Jakuutti
 sc = Sardi
 sk = Slovakki
@@ -95,11 +102,13 @@ te = Telugu
 th = Thai
 tr = Turkki
 tt = Tataari
+uby = ubyh
 udm = udmurtti
 uk = Ukraina
 ur = Urdu
 uz = Uzbekki
 vi = Vietnam
+vot = vatja
 zh-CN = Kiina (Kiina)
 zh-HK = Kiina (Hong Kong)
 zh-TW = Kiina (Taiwan)
@@ -176,6 +185,7 @@ x-years-short =
 help-make-dataset = Auta meitä keräämään korkealaatuinen ja avoin aineisto
 profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
 sign-up-account = Rekisteröidy palvelun käyttäjäksi
+email-subscription-title = tilaa sähköpostipäivitykset
 
 ## Account Benefits
 
@@ -220,6 +230,7 @@ shortcut-vote-no = e
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = n
 shortcut-record-toggle-label = Nauhoita / pysäytä
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
 request-language-button = Pyydä kieltä lisättäväksi
 
@@ -437,6 +448,8 @@ go-discourse = Siirry Discourseen
 missing-language = Etkö löydä omaa kieltä aineistosta? Pyytääksesi kielen lisäämistä siirry sivulle Kielet.
 go-languages-page = Siirry sivulle Kielet.
 ready-to-validate = Oletko valmis tarkistamaan lauseita?
+close = Sulje
+download = Lataa
 
 ## Download Modal
 
@@ -464,6 +477,8 @@ request-language-form-language =
     .label = Kieli
 request-language-success-title = Kielipyyntö lähetetty, kiitos.
 request-language-success-content = Otamme yhteyttä siitä miten voidaan lisätä kielesi Common Voiceen piakkoin.
+select-language = Valitse kieli...
+other-language = Muu kieli
 
 ## Languages Overview
 
