@@ -457,6 +457,7 @@ get-started-speech = Kom igång med taligenkänning
 other-datasets = Andra röstdatamängder
 feedback-q = Har du feedback?
 deepspeech-info = Common Voice-datamängd kompletterar Mozillas taligenkännande motor Deep Voice (öppen källkod), som du kan använda för att bygga taligenkänningsprogram. Läs vår <githubLink>Github-översikt</githubLink> eller gå med i <discourseLink>DeepSpeech Discourse</discourseLink> för att lära dig hur du kommer igång.
+common-voice-info-new = Har du frågor om Common Voice? Idéer för förbättringar eller feedback om ett visst språk? Gå med i vårt <discourseLink>Discourse-forum</discourseLink> och låt oss veta.
 data-other-librispeech-description = LibriSpeech är ett korpus på cirka 1000 timmar av 16Khz inläst från engelska ljudböcker från LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM-korpuset gjordes av föredrag och deras transkriptioner tillgängliga från TED-webbplatsen.
