@@ -147,12 +147,23 @@ download = Descargar
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Nome
+contact-form-message =
+    .label = Mensaxe
+contact-required = *requirido
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Idioma
+select-language = Seleccione un idioma...
+other-language = Outro idioma
 
 ## Languages Overview
 
+languages-show-more = Ver máis
+languages-show-less = Ver menos
 
 ## New Contribution
 
