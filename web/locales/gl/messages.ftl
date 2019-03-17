@@ -13,15 +13,65 @@ loading = Cargando...
 
 ## Languages
 
+an = Aragonés
+ar = Árabe
+ast = Asturiano
+bg = Búlgaro
+bn = Bengalí
+br = Bretón
+ca = Catalán
+cs = Checo
+cy = Galés
+da = Danés
+de = Alemán
+el = Grego
+en = Inglés
+eo = Esperanto
+es = Castelán
+eu = Éuscaro
+fa = Persa
+fi = Finés
+fr = Francés
+ga-IE = Irlandés
+gl = Galego
+he = Hebreo
+hr = Croata
+hu = Húngaro
+ia = Interlingua
+id = Indonesio
+is = Islandés
+it = Italiano
+ja = Xaponés
+ko = Coreano
+ne-NP = Nepalí
+oc = Occitano
+pl = Polaco
+pt-BR = Portugués (Brasil)
+ro = Romanés
+ru = Ruso
+sv-SE = Sueco
+tr = Turco
 
 # [/]
 
 
 ## Layout
 
+datasets = Conxunto de datos
+languages = Idiomas
+profile = Perfil
+help = Axuda
+contact = Contacto
+privacy = Privacidade
+terms = Termos
+content-license-text = Contido dispoñíbel con <licenseLink>licenza Creative Commons</licenseLink>
 
 ## Home Page
 
+show-wall-of-text = Máis información
+vote-yes = Si
+vote-no = Non
+today = Hoxe
 
 ## Account Benefits
 
@@ -43,21 +93,54 @@ loading = Cargando...
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nome de usuario
+profile-form-native-language =
+    .label = Idioma nativo
+profile-form-additional-language =
+    .label = Idioma adicional
+profile-form-accent =
+    .label = Acento
+profile-form-age =
+    .label = Idade
+profile-form-gender =
+    .label = Xénero
+native-language =
+    .label = Idioma nativo
+profile-form-submit-save = Gardar
+male = Masculino
+female = Feminino
+# Gender
+other = Outro
+dashboard = Taboleiro
+goals = Obxectivos
 
 ## FAQ
 
 
 ## Glossary
 
+glossary = Glosario
+localization = Localización
 
 ## NotFound
 
 
 ## Data
 
+data-download-yes = Si
+data-download-deny = Non
+data-download-license = Licenza <licenseLink>CC-0</licenseLink>
 
 ## New Datasets Page
 
+language = Idioma
+# File size in gigabytes
+size = Tamaño
+cv-license = Licenza
+more = Máis
+close = Pechar
+download = Descargar
 
 ## Download Modal
 
