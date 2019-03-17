@@ -53,6 +53,7 @@ fo = Tafirwanit
 fr = Tafransist
 fy-NL = Tafrizunt
 ga-IE = Tirlandit
+gl = Tagalisit
 he = Taɛebrit
 hr = Takarwasit
 hsb = Sorbyan, Tameqqrant
@@ -71,6 +72,7 @@ kpv = Takumt Zyrian
 kw = Takuṛnikt
 ky = Takirgizt
 lt = Talitwaynit
+lv = Talitunit
 mdf = Mukca
 mhr = Tamarit n uzaɣar
 mk = Tamasidunit
@@ -340,7 +342,6 @@ faq-why-different-speakers-a =
     Tuget n taffiwin n yisefka n taɣect bnant ɣef kra n tdimugrafin, ayen i d-yeglan s kra n usmenyef i  <articleLink> irgazen d tneɣrit talemmast</articleLink>. Isusruyen akked tutlayin ur d-nettban ara  s waṭas d tid n yimdanen yuɣalen yakan deg rrif. Ihi, deg ṭaqa, timacinin ur zmirent ara ad ɛeqlent tuɣac n tlawin.
     Ɣef aya i nebɣa ddeqs n yisusruyen d yimdanen deg taffa-nneɣ n yisefka.
 faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
-faq-why-my-lang-a = Mozilla ur tferren ur tetteg maḥyaf gar tutlayin. Common Voice tqeddec deg-s terbaɛt n yimdanen seg umaḍal meṛṛa, maca laqen <multilangLink>ddeqs n yimecwaṛen i tmerna n tutlayt</multilangLink> daɣen ad yizmir umdan ad d-yelqeḍ tifyar. Deg tazwara, yessefk ad yettwasideg meṛṛa usmel web n Common Voice. Sakin, nesra ddeqs n yiḍrisen ilelliyen akken imdanen ad izmiren ad ten-id-ɣren. Ticki ihegga waya, tutlayt ad tekker deg Common Voice, daɣen imttekkiyen ad izmiren ad skelsen neɣ ad sneqden ikalasen.
 faq-what-quality-q = D acu-t uswir n tɣara n umeslaw i yelaqen i tukkisin yellan deg taffa n yisefka?
 faq-what-quality-a = Nessaram d akken tagrumma n yisefka Common Voice ad terr udem n tɣara tameslawt ara d-yemmager unagraw n taɣect deg tilawt, ihi nesra ddeqs n ususru yemgaraden. Ɣer tama n terbaɛt yemmalen amgarad wessiɛen n wid yettmeslayen, tagrumma n yisefka s tɣara timeslit yemgaraden ad iselmed amsedday n uɛqal n taɣect amek ara yegzu taɣect deg tudert n yal ass, ama s udiwenni deg ugilal neɣ ṣṣut n tkeṛṛust. Ma yella tukkisin ttwafhament, ihi yelha i tegrumma n yisefka.
 faq-why-10k-hours-q = Acuɣer iswi n 10 000 n yisragen imeslawen?
@@ -450,7 +451,7 @@ get-started-speech = Bdu s uɛqal n taɣect
 other-datasets = Tigrummiwin-nniḍen n tuɣac
 feedback-q = Ɣur-k tikti?
 deepspeech-info = Tagrumma n yisefka Common Voice tettkemmil amsedday n taɣect n uɣbalu yeldin n Mozilla Deep Speech, win i tzemred ad tesqedceḍ akken ad tebnuḍ isnasen n uɛqal n taɣect. Ɣer <githubLink> Tazwart Github</githubLink> neɣ ddu ɣer <discourseLink>DeepSpeech Discourse</discourseLink> akken ad tissineḍ ansa ara tebduḍ.
-common-voice-info = Ɣur-k isteqsiyen ɣef Common Voice? Ddu-d ɣer-neɣ ɣer <discourseLink> unmager Discourse</discourseLink>.
+common-voice-info-new = Tesεiḍ asteqsi ɣef Common Voice? tikti neɣ awennit ɣef yiwet n tutlayt? Ddu  ɣer <discourseLink>agraw n usqerdec n wawal</discourseLink> sakin ibbi-av-d fell-as.
 data-other-librispeech-description = LibriSpeech d ammud n wazal 1000 n yisragen n tɣuri s tneglizit 16Khz i d-yekkan seg yidlisen s taɣect seg usenfar LibriVox.
 data-other-ted-name = Ammud n TED-LIUM
 data-other-ted-description = Ammud n TED-LIUM yettwaxdem-d seg yinawen s taɣect ajerred-nsen yella deg usmel n TED.
@@ -491,6 +492,8 @@ request-language-form-language =
     .label = Tutlayt
 request-language-success-title = Asuter-inek/inem i tmerniwt n tutlayt yettwaceyyeɛ. Tenemmirt.
 request-language-success-content = A nennadi aṭas amek ara nernu tulayt-nwen ar Common Voice deg teswiɛt iqeṛben.
+select-language = Fren tutlayt...
+other-language = Tutlayin nniḍen
 
 ## Languages Overview
 
