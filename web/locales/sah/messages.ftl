@@ -130,6 +130,7 @@ privacy = Конфиденциальность
 terms = Усулуобуйалар
 cookies = Кукилар
 faq = Субу-субу биэриллэр ыйытыылар
+content-license-text = Иһинээҕитэ <licenseLink>Creative Commons лицензия</licenseLink> көҥүллээх
 share-title = Куолас босхо биэрэр дьону буларга биһиэхэ көмөлөс!
 share-text = Роботтар киһи курдук саҥаралларыгар көмөлөс, бэйэҥ куоласкын босхо биэр { $link }
 link-copied = Сигэ куопуйаланна
@@ -187,6 +188,7 @@ rich-data = Анонимнай демографическай дааннайы �
 
 ## What's public
 
+whats-public = Туох барыларыгар көстөрүй?
 
 ## Speak & Listen Shortcuts
 
@@ -219,6 +221,7 @@ request-language-button = Тылы ыйытыктаа
 
 ## ProjectStatus
 
+status-contribute = Куоласкын суруттар
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Аныгыскы сыал: { $goal }
@@ -226,6 +229,8 @@ english = Английскай
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Пользователь аата
 profile-form-native-language =
     .label = Төрөөбүт тыл
 profile-form-additional-language =
@@ -267,6 +272,9 @@ download-profile = Мин дааннайдарбын хачайдаа
 contribution-experience = Common Voice кытта үлэҕит опыта
 off = Араар
 on = Холбоо
+add-avatar-title = Профильга аватар киллэрии
+connect-gravatar = Gravatar холбооһун
+email-already-used = Email атын аккауҥҥа туттулла сылдьар
 
 ## FAQ
 
@@ -281,6 +289,7 @@ faq-how-privacy-a = Бары суруттарбыт куоластар перс�
 ## Glossary
 
 sentence-collection = Этиилэр коллекциялара
+sst = Speech-to-text (STT)
 
 ## NotFound
 
@@ -292,6 +301,7 @@ data-download-yes = Сөп
 data-download-deny = Суох
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
 data-download-modal = Эһиги <size>{ $size }ГБ</size> хачайдаары сылдьаҕыт, сылҕыыбыт?
+data-other-title = Атын куолас дааннайын набордара...
 data-other-download = Дааннайдары хачайдаа
 data-bundle-button = Дааннай наборын хачайдаа
 review-terms = Эһиги Common Voice туттаргытыгар биһиги <termsLink>Усулуобуйабытын</termsLink> уонна <privacyLink>Конфиденциальность политикабыт</privacyLink> кытта сөбүлэһэҕит
@@ -312,6 +322,7 @@ language = Тыл
 # File size in gigabytes
 size = Кээмэй
 cv-license = Лицензия
+number-of-voices = Куолас ахсаана
 email-to-download = Email суруйуҥ хачайдыырга
 confirm-size = Эһиги <b>{ $size }</b> хачайдаары сылдьаҕыт
 size-gigabyte = ГБ
@@ -334,6 +345,7 @@ go-discourse = Discourse-ка көс
 missing-language = Наборга эһиги тылгыт суох? Тыллар диэн сирэйгэ киирэн ыйытыкта ыытыҥ.
 ready-to-validate = Этиилэр сөпкө суруллубуттарын көрөн көмөлөһөргө бэлэмҥин?
 more = Өссө
+close = Сап
 download = Хачайдааһын
 
 ## Download Modal
@@ -411,6 +423,11 @@ share-title-new = Өссө куоластары буларга <bold>биһиэ�
 
 ## Goals
 
+days =
+    { $count ->
+        [one] күн
+       *[other] күн
+    }
 
 ## Dashboard
 
