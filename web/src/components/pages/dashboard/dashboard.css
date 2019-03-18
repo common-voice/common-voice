@@ -1,6 +1,6 @@
 @import url('../../vars.css');
 
-.dashboard,
+.stats,
 .goals {
     & header {
         @media (--lg-up) {
@@ -21,7 +21,7 @@
     }
 }
 
-.dashboard-and-goals {
+.dashboard {
     max-width: initial !important;
     padding: 0 !important;
 
@@ -39,18 +39,17 @@
 
 .top-bar {
     border-bottom: 1px solid var(--darker-grey);
+    padding: 0 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     @media (--sm-down) {
-        padding-top: 19px;
-        margin-bottom: 28px;
+        padding-top: 20px;
     }
 
     @media (--md-up) {
         padding-top: 30px;
-        margin-bottom: 20px;
     }
 
     & nav {

@@ -1,0 +1,256 @@
+@import url('../../../vars.css');
+
+.custom-goal {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white);
+
+    @media (--md-up) {
+        border-left: 1px solid var(--darker-grey);
+        max-width: 445px;
+    }
+
+    & h1,
+    h2 {
+        text-align: center;
+        font-family: var(--base-font-family);
+        font-weight: 300;
+    }
+
+    & h1 {
+        margin-bottom: 8px;
+        letter-spacing: 1.3px;
+        font-size: var(--font-size-xl);
+    }
+
+    & h2 {
+        margin: 0 20px 20px;
+        font-size: var(--font-size-lg);
+    }
+
+    & .waves {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: url('/img/goals/wave.svg') no-repeat 0 center;
+        background-size: contain;
+    }
+
+    & .mars {
+        max-height: 230px;
+    }
+
+    & .padded {
+        margin: 0 auto;
+        max-width: 350px;
+    }
+
+    & .box {
+        border-radius: 2px;
+        border: 1.6px solid var(--light-grey);
+        margin-bottom: 10px;
+        padding: 20px 30px 20px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+
+        & input {
+            margin-right: 10px;
+        }
+
+        & .content {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            & button {
+                border: none;
+                padding: 0;
+            }
+
+            & .right {
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                color: var(--near-black);
+                font-style: italic;
+            }
+        }
+    }
+
+    & .fields {
+        margin-bottom: 30px;
+
+        &.completed .box {
+            background: #efefef;
+        }
+    }
+
+    & .step-buttons {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        & button {
+            border: 3px solid transparent;
+            border-radius: 50%;
+            width: 34px;
+            height: 34px;
+            font-weight: 600;
+            color: var(--blue);
+            background: color-mod(var(--blue) alpha(20%));
+            transition: background linear var(--transition-duration),
+                color linear var(--transition-duration);
+        }
+
+        & .active {
+            border-radius: 50%;
+            border: 1px solid var(--blue);
+
+            & button {
+                border: 3px solid var(--desert-storm);
+            }
+        }
+
+        & .completed button {
+            background: var(--blue);
+            color: var(--white);
+        }
+
+        & .line {
+            border-top: 2px solid var(--blue);
+            width: 37px;
+            opacity: 0.2;
+            transition: opacity linear var(--transition-duration);
+
+            @media (max-width: 360px) {
+                width: 20px;
+            }
+
+            &.fill {
+                opacity: 1;
+            }
+        }
+    }
+
+    & .arrow-button {
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        transform: scaleX(-1);
+        background: var(--blue);
+        transition: background linear var(--transition-duration);
+
+        & path {
+            fill: var(--white);
+        }
+
+        &:disabled {
+            background: var(--warm-grey);
+        }
+    }
+
+    &.step-0 {
+        padding-top: 100px;
+
+        @media (--md-up) {
+            padding-bottom: 0;
+        }
+
+        & .sub-head {
+            margin-bottom: 60px;
+            line-height: 1.5;
+        }
+
+        & .waves {
+            margin-bottom: 80px;
+        }
+
+        & button {
+            border: none;
+            padding: 0 33px;
+            min-width: auto;
+            height: 57px;
+            background: var(--blue);
+            color: var(--white);
+        }
+    }
+
+    &.step-1 {
+        padding-bottom: 0;
+
+        & .waves {
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-image: url('/img/goals/wave-2.svg');
+            background-position-y: bottom;
+
+            & .text {
+                margin-left: 40px;
+                max-width: 160px;
+                font-size: 14px;
+                line-height: 1.7;
+                color: var(--near-black);
+            }
+
+            & h4 {
+                margin-bottom: 5px;
+                font-family: var(--base-font-family);
+            }
+        }
+    }
+
+    &.step-4 {
+        text-align: center;
+
+        & p {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        & a {
+            color: var(--blue);
+            text-decoration: underline;
+        }
+
+        & .terms {
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        & .submit {
+            border: none;
+            margin: 0 auto;
+            padding: 0 30px;
+            height: 57px;
+            min-width: auto;
+            background: var(--blue);
+            color: var(--white);
+
+            &:hover {
+                border: 1px solid var(--black);
+            }
+
+            & svg {
+                margin-right: 20px;
+            }
+
+            & path {
+                fill: var(--white);
+            }
+        }
+    }
+}

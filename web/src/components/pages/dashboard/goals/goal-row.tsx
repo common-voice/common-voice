@@ -1,9 +1,8 @@
-import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { Localized } from 'fluent-react/compat';
 import { Goal } from 'common/goals';
-import Props from '../props';
 
-import './goals.css';
+import './goal-row.css';
 
 const Wave = () => (
   <svg width="160" height="70" viewBox="0 0 160 70">
@@ -61,28 +60,23 @@ const GoalBox = ({
   </div>
 );
 
-const GoalsPage = ({ allGoals }: Props) => (
-  <div className="goals">
-    {Object.entries(allGoals || {}).map(
-      ([type, [current, goals]]: [string, [number, Goal[]]]) => (
-        <React.Fragment>
-          <Localized
-            id={({ clips: 'speak', votes: 'listen' } as any)[type] || type}>
-            <h3 />
-          </Localized>
-          <div className="goal-boxes">
-            {goals.map((goal, i) => (
-              <GoalBox
-                {...goal}
-                type={type}
-                isNext={(goals[i - 1] || ({} as any)).date}
-              />
-            ))}
-          </div>
-        </React.Fragment>
-      )
-    )}
+export default ({
+  goalInfo: [type, [current, goals]],
+}: {
+  goalInfo: [string, [number, Goal[]]];
+}) => (
+  <div className="goal-row">
+    <Localized id={({ clips: 'speak', votes: 'listen' } as any)[type] || type}>
+      <h3 />
+    </Localized>
+    <div className="goal-boxes">
+      {goals.map((goal, i) => (
+        <GoalBox
+          {...goal}
+          type={type}
+          isNext={(goals[i - 1] || ({} as any)).date}
+        />
+      ))}
+    </div>
   </div>
 );
-
-export default GoalsPage;

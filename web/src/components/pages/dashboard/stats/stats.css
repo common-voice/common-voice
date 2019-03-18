@@ -1,6 +1,16 @@
 @import url('../../../vars.css');
 
-.dashboard-page {
+.stats-page {
+    padding: 0 20px;
+
+    @media (--sm-down) {
+        margin-top: 30px;
+    }
+
+    @media (--md-up) {
+        margin-top: 20px;
+    }
+
     & .cards {
         display: flex;
 

@@ -5,10 +5,10 @@ import LeaderboardCard from './leaderboard-card';
 import ProgressCard from './progress-card';
 import StatsCard from './stats-card';
 
-import './dashboard.css';
+import './stats.css';
 
-const Dashboard = ({ allGoals, locale }: Props) => (
-  <div className="dashboard-page">
+const Stats = ({ allGoals, locale }: Props) => (
+  <div className="stats-page">
     <div className="cards">
       {['speak', 'listen'].map(type => {
         const [current, goals] = allGoals
@@ -49,4 +49,4 @@ const Dashboard = ({ allGoals, locale }: Props) => (
   </div>
 );
 
-export default Dashboard;
+export default Stats;

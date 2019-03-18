@@ -1,0 +1,38 @@
+@import url('../../../vars.css');
+
+.goals footer {
+    margin-top: 0;
+}
+
+.goals-inner {
+    display: flex;
+
+    @media (--sm-down) {
+        flex-direction: column;
+
+        & .custom-goal {
+            order: 0;
+        }
+
+        & .goal-rows {
+            order: 1;
+        }
+    }
+
+    @media (--md-up) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    & .goal-rows {
+        padding: 0 20px;
+
+        @media (--sm-down) {
+            margin-top: 30px;
+        }
+
+        @media (--md-up) {
+            margin-top: 20px;
+        }
+    }
+}

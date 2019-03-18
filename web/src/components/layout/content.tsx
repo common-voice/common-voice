@@ -13,9 +13,7 @@ import { Spinner } from '../ui/ui';
 const HomePage = React.lazy(() => import('../pages/home/home'));
 const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'));
 const LanguagesPages = React.lazy(() => import('../pages/languages/languages'));
-const DashboardGoalsPage = React.lazy(() =>
-  import('../pages/dashboard-and-goals/index')
-);
+const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
 const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
 
 export default localeConnector(
@@ -65,8 +63,13 @@ export default localeConnector(
             component={ProfileLayoutPage}
           />
           <Route
-            path={[URLS.DASHBOARD, URLS.GOALS].map(toLocaleRoute)}
-            component={DashboardGoalsPage}
+            path={[URLS.STATS, URLS.GOALS].map(toLocaleRoute)}
+            component={DashboardPage}
+          />
+          <Route
+            exact
+            path={toLocaleRoute(URLS.DASHBOARD)}
+            render={() => <Redirect to={toLocaleRoute(URLS.STATS)} />}
           />
           <Route
             exact

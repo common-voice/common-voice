@@ -1,6 +1,6 @@
 @import url('../../../vars.css');
 
-.goals {
+.goal-row {
     & h3 {
         margin-bottom: 15px;
         font-weight: normal;

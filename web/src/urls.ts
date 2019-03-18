@@ -12,9 +12,10 @@ export default Object.freeze({
   PROFILE_SETTINGS: PROFILE_ROOT + '/settings',
   PROFILE_DELETE: PROFILE_ROOT + '/delete',
 
+  DASHBOARD: '/dashboard', // old, here for redirect purposes
+  STATS: '/stats',
   PROFILE_GOALS: PROFILE_ROOT + '/goals', // old, here for redirect purposes
   GOALS: '/goals',
-  DASHBOARD: '/dashboard',
 
   DATA: '/data', // old, here for redirect purposes
   DATASETS: '/datasets',
