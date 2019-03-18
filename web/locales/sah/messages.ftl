@@ -332,6 +332,7 @@ review-delete-recordings = Соттор суруттарыыларбын
 language = Тыл
 # File size in gigabytes
 size = Кээмэй
+validated-hr-total = Барыта чаас тургутуллубут
 cv-license = Лицензия
 number-of-voices = Куолас ахсаана
 email-to-download = Email суруйуҥ хачайдыырга
@@ -420,6 +421,7 @@ record-error-too-quiet = Суруттарыы сатаан иһиллибэт.
 record-instruction = <recordIcon></recordIcon> { $actionType } уонна суруллубут этиини аах
 record-stop-instruction = Бүттэххинэ <stopIcon></stopIcon>{ $actionType }
 record-three-more-instruction = Үс хаалла!
+record-last-instruction = <recordIcon></recordIcon> Бүтэһик!
 review-tooltip = Манна клиптары тургут & хат суруттар
 unable-speak = Билигин сатаан саҥарар кыаҕыҥ суох?
 review-instruction = Клиптары тургут & хат суруттарыаххын сөп
@@ -427,7 +429,10 @@ record-submit-tooltip = Бэлэм буоллаҕына { $actionType }
 clips-uploaded = Клип киирдэ
 record-abort-text = Билигин таҕыстаххына прогресскын сүтэриэҥ
 record-abort-submit = Клиптары ыыт
+record-abort-continue = Суруттаран бүт
+record-abort-delete = Тахсыы & Клиптары сотторуу
 listen-instruction = <playIcon></playIcon>{ $actionType } Этии сөпкө чуолкайдын иһиллэр да?
+listen-3rd-time-instruction = 2 бэлэм, салҕыы тур!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
 record-button-label = Куоласкын суруттар
 share-title-new = Өссө куоластары буларга <bold>биһиэхэ көмөлөс</bold>
@@ -439,11 +444,29 @@ days =
         [one] күн
        *[other] күн
     }
+validations =
+    { $count ->
+        [one] тургутуу
+       *[other] тургутуу
+    }
 
 ## Dashboard
 
+your-languages = Эн тылларыҥ
+toward-next-goal = Аныгыскы сыал
+clips-you-recorded = Эһиги суруттардыгыт
+clips-you-validated = Эһиги тургуттугут
+todays-recorded-progress = Бүгүн Common Voice-ка суруттарылынна
+todays-validated-progress = Бүгүн Common Voice-ка тургутулунна
+stats = Статистика
 you = Эн
 everyone = Бары
+contribution-activity = Кыттааччылар активностара
+top-contributors = Бастыҥ кыттааччылар
+recorded-clips = Клип суруллубут
+validated-clips = Клип тургутуллубут
+total-approved = Бигэргэтиллибит
+overall-accuracy = Төһө туочунайа
 
 ## Profile Delete
 
