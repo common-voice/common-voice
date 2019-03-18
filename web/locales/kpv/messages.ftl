@@ -186,6 +186,7 @@ x-years-short =
 help-make-dataset = Отсалӧй миянлы вӧчны бур, восьса юӧрчукӧр (набор данных)
 profile-not-required = Профиль вӧчӧм абу зэв колана, но сійӧ вермас отсавны
 sign-up-account = Вӧчны аккаунт
+email-subscription-title = Гижӧдчыны email пыр выльторъяс ысталӧм вылӧ
 
 ## Account Benefits
 
@@ -253,6 +254,8 @@ profile-form-username =
     .label = Ним
 profile-form-native-language =
     .label = Чужан кыв
+profile-form-additional-language =
+    .label = Содтӧд кыв
 profile-form-accent =
     .label = Сёрнитанног
 profile-form-age =
