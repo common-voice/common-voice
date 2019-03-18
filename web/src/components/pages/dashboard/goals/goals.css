@@ -25,7 +25,9 @@
     }
 
     & .goal-rows {
+        flex-shrink: 1;
         padding: 0 20px;
+        overflow-x: auto;
 
         @media (--sm-down) {
             margin-top: 30px;

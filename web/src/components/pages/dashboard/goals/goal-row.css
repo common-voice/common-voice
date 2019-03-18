@@ -1,6 +1,9 @@
 @import url('../../../vars.css');
 
 .goal-row {
+    flex-shrink: 1;
+    overflow-x: auto;
+
     & h3 {
         margin-bottom: 15px;
         font-weight: normal;
