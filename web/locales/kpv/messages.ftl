@@ -298,6 +298,8 @@ email-subscriptions = Email гижӧдчӧм
 download-profile = Босьт датаӧй
 contribution-experience = Донъялӧй асьыныд киподалӧмнытӧ (опыт)
 skip-submission-feedback = Ӧтдортны донъялӧм
+skip-submission-description = Донъялӧм лоӧ кольӧма-ӧтдортӧма «Ыстыны» личкӧм бӧрын. Водзӧ лоӧ вуджӧма мӧд 5 гижӧм либӧ видлалӧм дорӧ.
+skip-submission-note = Пасйӧд: Тіянлы ковмас бӧрйыны Сёрнитӧм либӧ Кывзӧм костын медым вежны отсалан ногсӧ
 off = Кусӧдны
 on = Ӧзтыны
 add-avatar-title = Содтӧй серпас профиляныд
@@ -316,6 +318,12 @@ change-email-setings = Вежӧй ассьыныд email Ладмӧдӧм пыр
 faq-title = Унаысь сетана юалӧм
 faq-what-cv-q = Мый сэтшӧмыс Common Voice?
 faq-why-important-q = Мыйла тайӧ колӧ?
+faq-how-get-q = Кыдзи ме верма босьтны Common Voice юӧрсӧ?
+faq-how-get-a = Ті верманныд босьтны Common Voice юӧрчукӧрсӧ <licenseLink>CC0</licenseLink> лизенция кузя <datasetLink>миян Юӧрчукӧр листбокысь</datasetLink>. Нӧшта Ті верманныд на босьтны мӧд восьса юӧрчукӧръяс сійӧ листбок вывсьыс.
+faq-when-release-q = Кор Ті лэдзанныд Common Voice юӧрчукӧръяс мӧд кывъяс вылын?
+faq-why-mission-q = Мыйла Common Voice лоӧ пайӧн Mozilla'лӧн миссияын?
+faq-what-cv-and-deepspeech-q = Мыйӧн торъялӧны Common Voice да Deep Speech?
+faq-is-goal-assistant-q = Лоӧ-ӧ Common Voice'лӧн могнас вӧчны сёрнитысь отсасьысьӧс?
 
 ## Glossary
 
