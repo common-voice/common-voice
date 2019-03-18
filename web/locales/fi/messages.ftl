@@ -448,6 +448,7 @@ go-discourse = Siirry Discourseen
 missing-language = Etkö löydä omaa kieltä aineistosta? Pyytääksesi kielen lisäämistä siirry sivulle Kielet.
 go-languages-page = Siirry sivulle Kielet.
 ready-to-validate = Oletko valmis tarkistamaan lauseita?
+more = Lisää
 close = Sulje
 download = Lataa
 
