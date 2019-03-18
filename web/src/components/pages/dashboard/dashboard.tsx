@@ -68,72 +68,76 @@ const TopBar = ({ account, api, children, toLocaleRoute }: Props) => {
 
   return (
     <div className="dashboard">
-      <div className="top-bar">
-        <nav>
-          {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(
-            ([label, url]) => (
-              <LocaleNavLink to={url}>
-                <Localized id={label}>
-                  <h2 />
-                </Localized>
-              </LocaleNavLink>
-            )
-          )}
-        </nav>
+      <div className="inner">
+        <div className="top-bar">
+          <nav>
+            {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(
+              ([label, url]) => (
+                <LocaleNavLink to={url}>
+                  <Localized id={label}>
+                    <h2 />
+                  </Localized>
+                </LocaleNavLink>
+              )
+            )}
+          </nav>
 
-        <div className="languages">
-          <span>
-            <Localized id="your-languages">
-              <span />
-            </Localized>
-            :
-          </span>
-          {titleBarLocales.map(l => (
-            <label key={l}>
-              <input
-                type="radio"
-                name="language"
-                checked={l == locale}
-                onChange={() => setLocale(l)}
-              />
-              <Localized id={l}>
+          <div className="languages">
+            <span>
+              <Localized id="your-languages">
                 <span />
               </Localized>
-            </label>
-          ))}
-          {dropdownLocales.length > 0 && (
-            <select
-              className={dropdownLocales.includes(locale) ? 'selected' : ''}
-              name="language"
-              value={locale}
-              onChange={({ target: { value } }) => {
-                if (value) {
-                  setLocale(value);
-                }
-              }}>
-              {titleBarLocales.length > 0 && <option value="" />}
-              {dropdownLocales.map(l => (
-                <Localized key={l} id={l}>
-                  <option value={l} />
+              :
+            </span>
+            {titleBarLocales.map(l => (
+              <label key={l}>
+                <input
+                  type="radio"
+                  name="language"
+                  checked={l == locale}
+                  onChange={() => setLocale(l)}
+                />
+                <Localized id={l}>
+                  <span />
                 </Localized>
-              ))}
-            </select>
-          )}
+              </label>
+            ))}
+            {dropdownLocales.length > 0 && (
+              <select
+                className={dropdownLocales.includes(locale) ? 'selected' : ''}
+                name="language"
+                value={locale}
+                onChange={({ target: { value } }) => {
+                  if (value) {
+                    setLocale(value);
+                  }
+                }}>
+                {titleBarLocales.length > 0 && <option value="" />}
+                {dropdownLocales.map(l => (
+                  <Localized key={l} id={l}>
+                    <option value={l} />
+                  </Localized>
+                ))}
+              </select>
+            )}
+          </div>
         </div>
+        <Switch>
+          {[
+            { route: URLS.STATS, Component: Stats },
+            { route: URLS.GOALS, Component: GoalsPage },
+          ].map(({ route, Component }) => (
+            <Route
+              key={route}
+              exact
+              path={toLocaleRoute(route)}
+              render={props => (
+                <Component {...{ allGoals, locale }} {...props} />
+              )}
+            />
+          ))}
+        </Switch>
       </div>
-      <Switch>
-        {[
-          { route: URLS.STATS, Component: Stats },
-          { route: URLS.GOALS, Component: GoalsPage },
-        ].map(({ route, Component }) => (
-          <Route
-            key={route}
-            exact
-            path={toLocaleRoute(route)}
-            render={props => <Component {...{ allGoals, locale }} {...props} />}
-          />
-        ))}
-      </Switch>
     </div>
   );
 };
