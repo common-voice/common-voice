@@ -462,7 +462,6 @@ stats = Статистика
 you = Эн
 everyone = Бары
 contribution-activity = Кыттааччылар активностара
-top-contributors = Бастыҥ кыттааччылар
 recorded-clips = Клип суруллубут
 validated-clips = Клип тургутуллубут
 total-approved = Бигэргэтиллибит
