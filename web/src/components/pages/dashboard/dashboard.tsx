@@ -36,7 +36,8 @@ const TopBar = ({ account, api, children, toLocaleRoute }: Props) => {
 
   useEffect(() => {
     if (!account) {
-      window.location.href = '/';
+      sessionStorage.setItem('redirectURL', location.pathname);
+      window.location.href = '/login';
     }
   }, []);
 
