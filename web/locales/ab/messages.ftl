@@ -72,6 +72,7 @@ kpv = Коми-Зыриан
 kw = Қерноуеқ
 ky = Қыргызча
 lt = Леҭовиу
+lv = Лаҭвиашу
 mdf = Моқшен
 mhr = Олыкмарла
 mk = Македонски
@@ -216,6 +217,7 @@ shortcut-vote-no = м
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Азеиԥш Бжьы аҟны уара убышәа макьана иумбаӡои?
 request-language-button = Абызшәа уазҵаа
 
@@ -341,6 +343,7 @@ recorded-hours = Асааҭкәа абжьы ахарҵеит
 data-other-ted-name = TED-LIUM аизганҵа
 go-discourse = Дисқорс ахь ицо
 go-languages-page = Абызшәақәа рдаҟьахь ицо
+download = Иҭагалатәуп
 
 ## Download Modal
 
