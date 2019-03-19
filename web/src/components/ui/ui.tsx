@@ -12,7 +12,7 @@ export const Avatar = ({ url }: { url?: string }) => (
     ) : (
       <img
         className="mars-avatar"
-        src="~img/mars-avatar.svg"
+        src="img/mars-avatar.svg"
         alt="Robot Avatar"
       />
     )}

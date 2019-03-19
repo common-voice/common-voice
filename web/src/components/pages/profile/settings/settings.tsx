@@ -161,12 +161,12 @@ function Settings(props: Props) {
         <div className="images">
           <img
             className="hidden-sm-down"
-            src="~img/submission-screenshot-lg.png"
+            src="img/submission-screenshot-lg.png"
             alt="Submission Success Screenshot"
           />
           <img
             className="hidden-md-up"
-            src="~img/submission-screenshot-xs.png"
+            src="img/submission-screenshot-xs.png"
             alt="Submission Success Screenshot"
           />
         </div>

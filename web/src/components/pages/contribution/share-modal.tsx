@@ -8,7 +8,7 @@ import './share-modal.css';
 export default (props: { onRequestClose: () => any }) => (
   <Modal innerClassName="share-modal" {...props}>
     <div className="image-container">
-      <img className="mars" src="~img/mars.svg" alt="Robot" />
+      <img className="mars" src="img/mars.svg" alt="Robot" />
     </div>
     <Localized id="share-title-new" bold={<b />}>
       <h1 />
