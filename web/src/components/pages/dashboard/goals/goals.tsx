@@ -9,8 +9,8 @@ import './goals.css';
 const GoalsPage = ({ allGoals }: Props) => (
   <div className="goals-inner">
     <div className="goal-rows">
-      {Object.entries(allGoals || {}).map(goalInfo => (
-        <GoalRow goalInfo={goalInfo} />
+      {Object.entries(allGoals || {}).map((goalInfo, i) => (
+        <GoalRow key={i} goalInfo={goalInfo} />
       ))}
     </div>
     {!isProduction() && <CustomGoal />}

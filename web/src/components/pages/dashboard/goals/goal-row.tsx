@@ -60,23 +60,27 @@ const GoalBox = ({
   </div>
 );
 
-export default ({
+export default function GoalRow({
   goalInfo: [type, [current, goals]],
 }: {
   goalInfo: [string, [number, Goal[]]];
-}) => (
-  <div className="goal-row">
-    <Localized id={({ clips: 'speak', votes: 'listen' } as any)[type] || type}>
-      <h3 />
-    </Localized>
-    <div className="goal-boxes">
-      {goals.map((goal, i) => (
-        <GoalBox
-          {...goal}
-          type={type}
-          isNext={(goals[i - 1] || ({} as any)).date}
-        />
-      ))}
+}) {
+  return (
+    <div className="goal-row">
+      <Localized
+        id={({ clips: 'speak', votes: 'listen' } as any)[type] || type}>
+        <h3 />
+      </Localized>
+      <div className="goal-boxes">
+        {goals.map((goal, i) => (
+          <GoalBox
+            key={i}
+            {...goal}
+            type={type}
+            isNext={(goals[i - 1] || ({} as any)).date}
+          />
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+}

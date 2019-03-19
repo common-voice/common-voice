@@ -73,7 +73,7 @@ const TopBar = ({ account, api, children, toLocaleRoute }: Props) => {
           <nav>
             {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(
               ([label, url]) => (
-                <LocaleNavLink to={url}>
+                <LocaleNavLink key={url} to={url}>
                   <Localized id={label}>
                     <h2 />
                   </Localized>

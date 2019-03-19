@@ -3,7 +3,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
-import { ArrowLeft, CheckIcon, PenIcon } from '../../../ui/icons';
+import { ArrowLeft, CheckIcon, PenIcon, ShareIcon } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
 
 import './custom-goal.css';
@@ -138,9 +138,26 @@ const steps: (React.ComponentType<{
       </Button>
     </div>
   ),
+
+  () => (
+    <div className="padded">
+      <div>
+        <CheckIcon />
+      </div>
+      <h2>Your weekly goal has  been created</h2>
+      <p>
+        Track progress here and on your stats page.
+        <br />
+        Return here to edit your goal anytime.
+      </p>
+      <Button rounded>
+        <ShareIcon /> Share my goal
+      </Button>
+    </div>
+  ),
 ];
 
-export default () => {
+export default function CustomGoal() {
   const [stepIndex, setStepIndex] = useState(0);
   const [state, setState] = useState<State>({
     daysInterval: null,
@@ -159,10 +176,11 @@ export default () => {
     type: [['Speak', 'speak'], ['Listen', 'listen'], ['Both', 'both']],
   };
 
-  const completedStates = STATE_KEYS.slice(1, stepIndex);
+  const completedStates = stepIndex > 4 ? [] : STATE_KEYS.slice(1, stepIndex);
   const completedRadios = (
     <div className="fields completed">
       {completedStates.map(stateKey => {
+        if (!states[stateKey]) return null;
         const [label, value] = states[stateKey].find(
           ([label, value]: any) => value == state[stateKey]
         );
@@ -225,19 +243,19 @@ export default () => {
     <div className={'custom-goal step-' + stepIndex}>
       <div className="padded step-buttons">
         {stepIndex > 0 &&
-          [...Array(4).keys()].map(i => {
+          [...(Array(4) as any).keys()].map(i => {
             const n = i + 1;
             const hasValue = state[STATE_KEYS[n]] != null;
             const isActive = n == stepIndex;
             return [
               <div
+                key={i}
                 className={[
                   'step-button',
                   isActive ? 'active' : '',
                   hasValue ? 'completed' : '',
                 ].join(' ')}>
                 <button
-                  key={i}
                   type="button"
                   onClick={() => setStepIndex(n)}
                   disabled={n > 1 && state[STATE_KEYS[n - 1]] == null}>
@@ -264,4 +282,4 @@ export default () => {
       />
     </div>
   );
-};
+}
