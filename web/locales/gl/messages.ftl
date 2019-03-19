@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Si, envíeme correos. Gustaríame estar informado sobre o proxecto Common Voice.
 privacy-info = Prometemos manexar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
 return-to-cv = Volver a Common Voice
 email-input =
