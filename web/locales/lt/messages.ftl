@@ -342,11 +342,13 @@ faq-why-10k-hours-q = Kodėl kiekvienos kalbos tikslas yra 10 000 patvirtintų 
 faq-how-calc-hours-q = Kaip „Common Voice“ apskaičiuoja valandas?
 faq-where-src-from-2-q = Iš kur gaunamas šaltinio tekstas?
 faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipedijos“ straipsnių įvairiomis kalbomis?
+faq-is-account-public-q = Ar mano paskyros informacija yra vieša?
 
 ## Glossary
 
 glossary = Terminai
 localization = Lokalizavimas
+sentence-collection = Sakinių rinkimas
 
 ## NotFound
 
@@ -354,13 +356,23 @@ notfound-title = Nerasta
 
 ## Data
 
+data-download-button = Pasisiųsti „Common Voice“ duomenis
 data-download-yes = Taip
 data-download-deny = Ne
 data-download-license = Licencija: <licenseLink>CC-0</licenseLink>
+data-other-title = Kiti balso duomenų rinkiniai…
+data-other-goto = Eiti į { $name }
+data-other-download = Parsisiųsti duomenis
+license = Licencija: <licenseLink>{ $license }</licenseLink>
 terms-agree = Sutinku
 terms-disagree = Nesutinku
+review-aborted = Įkėlimas atšauktas. Ar nori pašalinti savo įrašus?
 review-submit-title = Peržiūrėti ir pateikti
+review-submit-msg = Kol kas įrašymas baigtas! <lineBreak> </lineBreak>Dabar peržiūrėk ir pateik savo įrašus žemiau.
 review-recording = Peržiūrėti
+review-rerecord = Įrašyti iš naujo
+review-keep-recordings = Palikti įrašus
+review-delete-recordings = Pašalinti mano įrašus
 
 ## New Datasets Page
 
@@ -380,6 +392,8 @@ size-megabyte = MB
 download-language = Parsisiųsti – { $language }
 validated-hours = Patvirtinta valandų
 recorded-hours = Įrašyta valandų
+whats-inside = Kas yra „Common Voice“ duomenų rinkinyje?
+subscribe = Prenumeruoti
 feedback-q = Turi komentarų?
 deepspeech-info = „Common Voice“ duomenų rinkinys papildo „Mozillos“ atvirojo kodo balso atpažinimo variklį „Deep Speech“, kuri gali naudoti kalbos atpažinimo programoms kurti. Perskaityk <githubLink>„Github“ apžvalgą </githubLink> arba prisijunk prie <discourseLink>„DeepSpeech“ grupės „Discourse“ platformoje</discourseLink> ir sužinok kaip gali pradėti naudotis šiais duomenimis.
 data-other-librispeech-description = „LibriSpeech“ yra maždaug 1000 valandų 16 kHz skaitomos anglų kalbos įrašų rinkinys, gautas iš „LibriVox“ projekte įgarsintų garsaknygių.
