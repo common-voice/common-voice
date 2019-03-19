@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = Prisidėti
+contribute = Top talkininkai
 get-involved-button = Įsitraukti
 get-involved-title = Prisidėk prie { $lang } kalbos
 get-involved-text = Džiaugiamės ir dėkojame, jog nori prisidėti prie { $lang } kalbos. Mes labai stengiamės parengti kiekvieną kalbą jos aktyvinimui, o kalbų komandas palaikome informuotas el. paštu. Jeigu nori įsitraukti, prašom įvesti savo el. pašto adresą žemiau.
