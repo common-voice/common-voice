@@ -254,4 +254,79 @@
             }
         }
     }
+
+    &.step-5 {
+        padding-top: 125px;
+        background: color-mod(var(--valid-green) alpha(15%));
+
+        & .padded {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        & .check {
+            margin-bottom: 50px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &,
+            & .shadow {
+                border-radius: 50%;
+                width: 88px;
+                height: 88px;
+                background: var(--valid-green);
+            }
+
+            & .shadow {
+                position: absolute;
+                top: 15px;
+                opacity: 0.5;
+                filter: blur(7.6px);
+            }
+
+            & svg {
+                z-index: var(--middle-z-index);
+            }
+
+            & path {
+                fill: var(--white);
+            }
+        }
+
+        & p {
+            margin-bottom: 20px;
+            text-align: center;
+            color: var(--near-black);
+        }
+
+        & .share-button {
+            margin-bottom: 140px;
+            padding: 0 30px;
+            height: 57px;
+            min-width: auto;
+            background: var(--black);
+
+            & svg {
+                margin-right: 20px;
+            }
+
+            & path {
+                fill: var(--white);
+            }
+        }
+
+        & .close-button {
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--white);
+        }
+    }
 }

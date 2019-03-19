@@ -3,7 +3,13 @@ import * as React from 'react';
 import { useState } from 'react';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
-import { ArrowLeft, CheckIcon, PenIcon, ShareIcon } from '../../../ui/icons';
+import {
+  ArrowLeft,
+  CheckIcon,
+  CrossIcon,
+  PenIcon,
+  ShareIcon,
+} from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
 
 import './custom-goal.css';
@@ -116,7 +122,7 @@ const steps: (React.ComponentType<{
     </>
   ),
 
-  ({ completedRadios }) => (
+  ({ buttonProps, completedRadios }) => (
     <div className="padded">
       {completedRadios}
       <label className="box">
@@ -133,15 +139,16 @@ const steps: (React.ComponentType<{
       <Localized id="read-terms-q">
         <LocaleLink to={URLS.TERMS} className="terms" blank />
       </Localized>
-      <Button rounded className="submit">
+      <Button rounded className="submit" {...buttonProps}>
         <CheckIcon /> Confirm Goal
       </Button>
     </div>
   ),
 
-  () => (
+  ({ buttonProps }) => (
     <div className="padded">
-      <div>
+      <div className="check">
+        <div className="shadow" />
         <CheckIcon />
       </div>
       <h2>Your weekly goal has  been created</h2>
@@ -150,34 +157,75 @@ const steps: (React.ComponentType<{
         <br />
         Return here to edit your goal anytime.
       </p>
-      <Button rounded>
+      <Button rounded className="share-button">
         <ShareIcon /> Share my goal
       </Button>
+      <button type="button" className="close-button" {...buttonProps}>
+        <CrossIcon />
+      </button>
     </div>
   ),
 ];
 
-export default function CustomGoal() {
-  const [stepIndex, setStepIndex] = useState(0);
-  const [state, setState] = useState<State>({
-    daysInterval: null,
-    amount: null,
-    type: null,
-    remind: false,
-  });
+function StepButtons({
+  setStepIndex,
+  state,
+  stepIndex,
+}: {
+  setStepIndex: (index: number) => void;
+  state: State;
+  stepIndex: number;
+}) {
+  return (
+    <div className="padded step-buttons">
+      {stepIndex > 0 &&
+        stepIndex < 5 &&
+        [...(Array(4) as any).keys()].map(i => {
+          const n = i + 1;
+          const hasValue = state[STATE_KEYS[n]] != null;
+          const isActive = n == stepIndex;
+          return [
+            <div
+              key={i}
+              className={[
+                'step-button',
+                isActive ? 'active' : '',
+                hasValue ? 'completed' : '',
+              ].join(' ')}>
+              <button
+                type="button"
+                onClick={() => setStepIndex(n)}
+                disabled={n > 1 && state[STATE_KEYS[n - 1]] == null}>
+                {n}
+              </button>
+            </div>,
+            n < 4 && (
+              <>
+                <div
+                  className={'line ' + (hasValue || isActive ? 'fill' : '')}
+                />
+                <div className={'line ' + (hasValue ? 'fill' : '')} />
+              </>
+            ),
+          ];
+        })}
+    </div>
+  );
+}
 
-  const Step = steps[stepIndex];
-
-  const states: any = {
-    daysInterval: [['Daily Goal', 1], ['Weekly Goal', 7]],
-    amount: [['Easy', 5], ['Average', 10], ['Difficult', 15], ['Pro', 20]].map(
-      ([label, value]) => [label, (state.daysInterval || 0) * (value as number)]
-    ),
-    type: [['Speak', 'speak'], ['Listen', 'listen'], ['Both', 'both']],
-  };
-
+function CompletedRadios({
+  setStepIndex,
+  state,
+  states,
+  stepIndex,
+}: {
+  setStepIndex: (index: number) => void;
+  state: State;
+  states: any;
+  stepIndex: number;
+}) {
   const completedStates = stepIndex > 4 ? [] : STATE_KEYS.slice(1, stepIndex);
-  const completedRadios = (
+  return (
     <div className="fields completed">
       {completedStates.map(stateKey => {
         if (!states[stateKey]) return null;
@@ -202,8 +250,21 @@ export default function CustomGoal() {
       })}
     </div>
   );
+}
+
+function CurrentRadios({
+  setState,
+  state,
+  states,
+  stepIndex,
+}: {
+  setState: (state: State) => void;
+  state: State;
+  states: any;
+  stepIndex: number;
+}) {
   const currentStateKey = STATE_KEYS[stepIndex];
-  const currentRadios = (
+  return (
     <div className="fields">
       {(states[currentStateKey] || []).map(([label, value]: any) =>
         value == null ? null : (
@@ -238,47 +299,45 @@ export default function CustomGoal() {
       )}
     </div>
   );
+}
+
+export default function CustomGoal() {
+  const [stepIndex, setStepIndex] = useState(0);
+  const [state, setState] = useState<State>({
+    daysInterval: null,
+    amount: null,
+    type: null,
+    remind: false,
+  });
+
+  const Step = steps[stepIndex];
+
+  const states: any = {
+    daysInterval: [['Daily Goal', 1], ['Weekly Goal', 7]],
+    amount: [['Easy', 5], ['Average', 10], ['Difficult', 15], ['Pro', 20]].map(
+      ([label, value]) => [label, (state.daysInterval || 0) * (value as number)]
+    ),
+    type: [['Speak', 'speak'], ['Listen', 'listen'], ['Both', 'both']],
+  };
 
   return (
     <div className={'custom-goal step-' + stepIndex}>
-      <div className="padded step-buttons">
-        {stepIndex > 0 &&
-          [...(Array(4) as any).keys()].map(i => {
-            const n = i + 1;
-            const hasValue = state[STATE_KEYS[n]] != null;
-            const isActive = n == stepIndex;
-            return [
-              <div
-                key={i}
-                className={[
-                  'step-button',
-                  isActive ? 'active' : '',
-                  hasValue ? 'completed' : '',
-                ].join(' ')}>
-                <button
-                  type="button"
-                  onClick={() => setStepIndex(n)}
-                  disabled={n > 1 && state[STATE_KEYS[n - 1]] == null}>
-                  {n}
-                </button>
-              </div>,
-              n < 4 && (
-                <>
-                  <div
-                    className={'line ' + (hasValue || isActive ? 'fill' : '')}
-                  />
-                  <div className={'line ' + (hasValue ? 'fill' : '')} />
-                </>
-              ),
-            ];
-          })}
-      </div>
+      <StepButtons {...{ setStepIndex, state, stepIndex }} />
       <Step
-        {...{ completedRadios, currentRadios, state }}
         buttonProps={{
-          disabled: stepIndex > 0 && state[STATE_KEYS[stepIndex]] == null,
-          onClick: () => setStepIndex(stepIndex + 1),
+          disabled:
+            stepIndex > 0 &&
+            stepIndex < 4 &&
+            state[STATE_KEYS[stepIndex]] == null,
+          onClick: () => setStepIndex((stepIndex + 1) % steps.length),
         }}
+        completedRadios={
+          <CompletedRadios {...{ setStepIndex, state, states, stepIndex }} />
+        }
+        currentRadios={
+          <CurrentRadios {...{ setState, state, states, stepIndex }} />
+        }
+        state={state}
       />
     </div>
   );
