@@ -74,9 +74,12 @@ ky = คีร์กีซ
 lt = ลิทัวเนีย
 lv = ลัตเวีย
 mdf = มอคชา
+mhr = มารีสำเนียงทุ่งหญ้า
 mk = มาซิโดเนีย
 mn = มองโกเลีย
+mrj = มารีสำเนียงเขา
 myv = เอิร์สยา
+nb-NO = นอร์เวย์บุคมอล
 ne-NP = เนปาล
 nl = ดัตช์
 nn-NO = นอร์เวย์ไนนอสก์
@@ -84,8 +87,10 @@ oc = อ็อกซิตัน
 or = โอเดีย
 pl = โปแลนด์
 pt-BR = โปรตุเกส (บราซิล)
+rm-sursilv = โรมานช์เซอร์ซิลวาน
 ro = โรมาเนีย
 ru = รัสเซีย
+rw = รวันดา
 sah = ซาฮา
 sc = ซาดิเนีย
 sk = สโลวัก
@@ -98,10 +103,13 @@ te = เตลูกู
 th = ไทย
 tr = ตุรกี
 tt = ตาตาร์
+uby = อูบึก
+udm = อุดมูร์ต
 uk = ยูเครน
 ur = อูรดู
 uz = อุซเบกิสถาน
 vi = เวียดนาม
+vot = โวต
 zh-CN = จีน (จีน)
 zh-HK = จีน (ฮ่องกง)
 zh-TW = จีน (ไต้หวัน)
@@ -133,6 +141,26 @@ logout = ออกจากระบบ
 
 home-title = Common Voice เป็นเครื่องมือที่ Mozilla สร้างขึ้นเพื่อช่วยสอนให้เครื่องจักรเข้าใจคำพูดของมนุษย์
 home-cta = พูดคุย, ร่วมให้ข้อมูลที่นี่!
+wall-of-text-start =
+    เสียงคือธรรมชาติ เสียงคือมนุษย์ นั่นคือเหตุผลที่เราหลงใหลในการสร้าง
+    เทคโนโลยีเสียงที่ใช้ได้สำหรับเครื่องของเรา แต่เพื่อให้สร้างระบบเสียงได้ ก็จำเป็นต้องมีข้อมูล
+    เสียงในปริมาณมาก
+wall-of-text-more-mobile =
+    ข้อมูลส่วนใหญ่ที่ใช้โดยบริษัทขนาดใหญ่นั้นไม่สามารถใช้งานได้กับคนส่วนใหญ่ เราคิดว่า
+    นั่นเป็นการยับยั้งนวัตกรรม ดังนั้นเราจึงได้เปิดตัวโครงการ Common Voice ซึ่งเป็นโครงการที่เปิดให้ทุกคนใช้
+    การรับรู้เสียงได้
+wall-of-text-more-desktop =
+    ตอนนี้คุณสามารถบริจาคเสียงของคุณเพื่อช่วยเราสร้างฐานข้อมูลเสียงโอเพนซอร์สที่ทุกคนสามารถใช้ได้
+    เพื่อสร้างแอปที่เป็นนวัตกรรมใหม่สำหรับอุปกรณ์และเว็บ อ่านประโยคหนึ่งเพื่อช่วยให้เครื่องเรียนรู้ว่าผู้คนจริง ๆ พูดอย่างไร ตรวจสอบงานของ
+    ผู้มีส่วนร่วมคนอื่นเพื่อปรับปรุงคุณภาพ มันง่ายมาก!
+wall-of-text-first =
+    เสียงคือธรรมชาติ เสียงคือมนุษย์ นั่นคือเหตุผลที่เราตื่นเต้นเกี่ยวกับการสร้าง
+    เทคโนโลยีเสียงที่ใช้ได้สำหรับเครื่องของเรา แต่เพื่อให้สร้างระบบเสียงได้ ก็จำเป็นต้องมีข้อมูล
+    เสียงในปริมาณมาก
+wall-of-text-second =
+    ข้อมูลส่วนใหญ่ที่ใช้โดยบริษัทขนาดใหญ่นั้นไม่สามารถใช้งานได้กับคนส่วนใหญ่ เราคิดว่า
+    นั่นเป็นการยับยั้งนวัตกรรม ดังนั้นเราจึงได้เปิดตัวโครงการ Common Voice ซึ่งเป็นโครงการที่เปิดให้ทุกคนเข้าถึง
+    การรับรู้เสียงได้
 show-wall-of-text = อ่านเพิ่มเติม
 help-us-title = ช่วยเราตรวจสอบประโยค!
 help-us-explain = กดปุ่ม เล่น ฟัง และบอกเรา: พวกเขาพูดประโยคด้านล่างนี้ถูกต้องหรือไม่?
@@ -141,18 +169,55 @@ vote-yes = ใช่
 vote-no = ไม่
 toggle-play-tooltip = กด { shortcut-play-toggle } เพื่อสลับโหมดการเล่น
 speak-subtitle = บริจาคเสียงของคุณ
+speak-paragraph = การบันทึกคลิปเสียงเป็นส่วนหนึ่งของการสร้างชุดข้อมูลแบบเปิดกว้างของเรา บางคนอาจจะบอกว่ามันเป็นส่วนที่สนุกเช่นเดียวกัน
+speak-goal-text = คลิปที่ถูกบันทึก
+listen-subtitle = ช่วยเราตรวจสอบเสียง
+listen-paragraph = การตรวจสอบคลิปที่ถูกบริจาคเป็นส่วนที่สำคัญพอๆ กันสำหรับภารกิจ Common Voice ช่วยเราฟัง และช่วยเราสร้างชุดข้อมูลเสียงที่มีคุณภาพ
+listen-goal-text = คลิปที่ได้รับการตรวจสอบ
 hours-recorded = ชั่วโมงที่บันทึก
+hours-validated = ชั่วโมงที่ได้รับการตรวจสอบ
+voices-online = เสียงที่ออนไลน์ในขณะนี้
+todays-progress = ความคืบหน้าของวันนี้
+help-reach-goal = ช่วยเราให้ไปถึง { $goal }
+read-terms-q = คุณได้อ่านเงื่อนไขของเราหรือยัง?
+ready-to-record = พร้อมที่จะบริจาคเสียงของคุณหรือยัง?
+all-locales = ทั้งหมด
 today = วันนี้
 x-weeks-short =
     { $count ->
        *[other] { $count } สัปดาห์
     }
+x-months-short =
+    { $count ->
+       *[other] { $count } เดือน
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } ปี
+    }
+help-make-dataset = ช่วยเราสร้างชุดข้อมูลที่เปิดกว้างและเปิดเผยต่อสาธารณะ
+profile-not-required = การมีโปรไฟล์ไม่จำเป็นสำหรับการมีส่วนร่วมถึงแม้ว่าจะเป็นประโยชน์ก็ตาม
+sign-up-account = ลงทะเบียนบัญชี
+email-subscription-title = ลงทะเบียนเพื่อรับข่าวสารทางอีเมล
 
 ## Account Benefits
 
+benefits = ประโยชน์
+rich-data = ทำข้อมูลที่คุณส่งให้สมบูรณ์ที่สุดเท่าที่จะเป็นไปได้โดยระบุข้อมูลพื้นฐานของบุคคลโดยไม่ระบุตัวตน เราจะนำข้อมูลพื้นฐานของบุคคลทั้งหมดออกก่อนจะเปิดเผยต่อสาธารณะ
+improve-audio = ข้อมูลโปรไฟล์ช่วยปรับปรุงให้ข้อมูลเสียงที่นำไปใช้ในการฝึกการรู้จำเสียงพูดแม่นยำขึ้น
+keep-track = ติดตามความคืบหน้าและข้อมูลสถิติของคุณในหลายภาษา
+compare-progress = ดูว่าความคืบหน้าของคุณเปรียบเทียบกับผู้มีส่วนร่วมคนอื่นๆ ทุกคนทั่วโลกแล้วเป็นอย่างไร
+view-goals = ดูความคืบหน้าของคุณโดยเทียบกับเป้าหมายส่วนบุคคลและเป้าหมายโครงการ
+join-newsletter = เลือกที่จะเข้าร่วมในอีเมลรายชื่อของเราเพื่อรับข่าวสารและข้อมูลใหม่เกี่ยวกับโครงการ
 
 ## What's public
 
+whats-public = สาธารณะคืออะไร?
+email-not-public = เราจะไม่แสดงอีเมลของคุณต่อสาธารณะ
+recordings-and-locale-public = จำนวนเสียงที่บันทึกและภาษาที่คุณมีส่วนร่วมจะถูกแสดงต่อสาธารณะ
+username-optin-public = คุณสามารถเลือกแสดงชื่อผู้ใช้ของคุณต่อสาธารณะหรือไม่ระบุชื่อก็ได้
+demographic-deidentified = ข้อมูลพื้นฐานของบุคคลที่ไม่บังคับกรอก (เช่น อายุ เพศ ภาษา และสำเนียง) จะถูกลบออกจากเสียงที่คุณส่งและจะไม่ถูกแสดงต่อสาธารณะบนโปรไฟล์ของคุณ
+username-email-not-demographic = ชื่อผู้ใช้และอีเมลของคุณจะไม่เชื่อมโยงกับข้อมูลที่เผยแพร่
 
 ## Speak & Listen Shortcuts
 
@@ -177,7 +242,9 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = อัด/หยุด
+shortcut-record-toggle-label = บันทึก/หยุด
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = บันทึกคลิปใหม่
 request-language-text = ยังไม่พบภาษาของคุณบน Common Voice งั้นหรือ?
 request-language-button = ขอภาษา
 
@@ -185,6 +252,10 @@ request-language-button = ขอภาษา
 
 status-title = สถานะโครงการโดยรวม: ดูว่าเรามาได้ไกลแค่ไหนแล้ว!
 status-contribute = บริจาคเสียงของคุณ
+status-hours =
+    { $hours ->
+       *[other] ตรวจสอบไปแล้ว { $hours } ชั่วโมงจนถึงขณะนี้!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = เป้าหมายถัดไป: { $goal }
@@ -194,14 +265,22 @@ english = อังกฤษ
 
 profile-form-username =
     .label = ชื่อผู้ใช้
+profile-form-native-language =
+    .label = ภาษาท้องถิ่น
+profile-form-additional-language =
+    .label = ภาษาอื่นๆ
 profile-form-accent =
     .label = สำเนียง
 profile-form-age =
     .label = อายุ
 profile-form-gender =
     .label = เพศ
+leaderboard-visibility =
+    .label = การแสดงผลกระดานผู้นำ
 hidden = ซ่อน
 visible = แสดงผล
+native-language =
+    .label = ภาษาท้องถิ่น
 profile-form-submit-save = บันทึก
 profile-form-submit-saved = บันทึกแล้ว
 male = ชาย
@@ -209,6 +288,11 @@ female = หญิง
 # Gender
 other = อื่น ๆ
 why-profile-title = ทำไมถึงต้องมีโปรไฟล์?
+dashboard = แดชบอร์ด
+build-profile = สร้างโปรไฟล์
+avatar = อวตาร
+goals = เป้าหมาย
+settings = การตั้งค่า
 edit-profile = แก้ไขโปรไฟล์
 profile-create-success = สำเร็จ สร้างโปรไฟล์แล้ว!
 profile-close = ปิด
