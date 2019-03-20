@@ -2,10 +2,13 @@
 
 yes-receive-emails = हाँ, मुझे ईमेल भेजें। मैं Common Voice प्रोजेक्ट के बारे में अवगत रहना चाहता हूँ।
 stayintouch = Mozilla में हम ध्वनि प्रौद्योगिकी के करीब एक समुदाय बना रहे हैं। हम नवीनताओं, नए डेटा स्रोतों से जुड़े रहना चाहते हैं और इस बारे में सुनना चाहते हैं कि आप इस डेटा का उपयोग कैसे कर रहे हैं।
+privacy-info = हम आपकी जानकारी को सावधानीपूर्वक संभालने का वादा करते हैं। हमारे <privacyLink>गोपनीयता सुचना</privacyLink> के बारे में और जानें।
+return-to-cv = Common Voice पर वापस आएं
 email-input =
     .label = ईमेल
 submit-form-action = जमा करें
 loading = लोड कर रहा है…
+email-opt-in-privacy = ईमेल प्राप्त करने का चयन करके आप मान रहें कि Mozilla के <privacyLink>गोपनीयता निति<privacyLink> के अनुसार Mozilla द्वारा इस जानकारी को संभाले जाने से आप संतुष्ट हैं।
 indicates-required = * आवश्यक क्षेत्र हैं
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -15,6 +18,7 @@ indicates-required = * आवश्यक क्षेत्र हैं
 ## Languages
 
 ab = अबख़ाज़िया
+ace = आचेही
 ady = अदिघे
 af = अफ़्रीकान्स
 am = अम्हारी
@@ -57,9 +61,26 @@ ia = अंतरभाषा
 id = इंडोनेशियाई
 is = आइसलैण्डिक
 it = इतालवी
+izh = इंग्रियन
 ja = जापानी
 ka = जॉर्जियाई
 kab = कबाइल
+kk = कज़ाख़
+ko = कोरियाई
+kpv = कोमी-ज़िरियन
+kw = कॉर्निश
+ky = किर्गिज़
+lt = लिथुआनियाई
+lv = लातवियाई
+mdf = मोक्ष
+mhr = मीडो मारी
+mk = मेसिडोनियन
+mn = मंगोल
+mrj = हिल मारी
+nb-NO = नॉर्वेजियन बोकमाल
+ne-NP = नेपाली
+nl = डच
+nn-NO = नॉरकोर्स नॉर्वेजियन
 tr = तुर्कीयाई
 tt = तातार
 udm = उदमूर्त
