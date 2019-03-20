@@ -53,6 +53,7 @@ fo = Фарерча
 fr = Французча
 fy-NL = Фризча
 ga-IE = Ирландча
+gl = Галисийча
 he = Яһүдчә
 hr = Хорватча
 hsb = Сорбча, Югары
@@ -71,7 +72,8 @@ kpv = Коми-зырянча
 kw = Корнча
 ky = Кыргызча
 lt = Литвача
-mdf = Мокшача
+lv = Латышча
+mdf = Мукшыча
 mhr = Болын марича
 mk = Македонча
 mn = Монголча
@@ -398,6 +400,7 @@ review-delete-recordings = Аудиоязмаларымны бетерү
 
 ## New Datasets Page
 
+datasets-headline = Без күптелле, ачык аудиоязмалар базасын төзибез. Аны кулланып, һәркем дә сөйләм белән эш итүче кушымталар төзи алачак.
 language = Тел
 # File size in gigabytes
 size = Үлчәм
@@ -421,6 +424,7 @@ subscribe = Язылу
 get-started-speech = Сөйләм тану системасын ясый башлау
 other-datasets = Башка аудиоязма җыентыклары
 feedback-q = Тәнкыйть-тәкъдимнәрегез бармы?
+common-voice-info-new = Common Voice турында сорауларыгыз бармы? Тәкъдимнәрегез я билгеле бер тел турында фикерләрегез бармы? <discourseLink>Discourse форумында </discourseLink> безгә кушылыгыз һәм фикерләрегезне безгә җиткерегез.
 data-other-librispeech-description = LibriSpeech корпусы — LibriVox проекты кысаларында хасил булган аудиокитаплардан төзелгән, 16kHz ешлыкта яздырылган якынча 1000 сәгатьлек инглиз сөйләменнән гыйбарәт бер корпус.
 data-other-ted-name = «TED-LIUM» корпусы
 data-other-ted-description = «TED-LIUM» корпусы — TED веб-сәхифәсендәге чыгышларның аудиосыннан һәм аларның транскрипциясеннән төзелгән бер җыентык.
@@ -461,6 +465,8 @@ request-language-form-language =
     .label = Тел
 request-language-success-title = Телнең өстәлүен сорау тапшырылды, рәхмәт Сезгә!
 request-language-success-content = Common Voice'ка Сезнең телне өстәү өчен нишләргә кирәк икәнен аңлатучы өстәмә мәгълүматны якын арада җибәрербез.
+select-language = Телне сайлау...
+other-language = Башка тел
 
 ## Languages Overview
 
