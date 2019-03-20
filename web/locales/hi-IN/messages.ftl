@@ -140,6 +140,17 @@ home-cta = बोलें, यहाँ योगदान दें!
 wall-of-text-start = आवाज़ प्राकृतिक है, आवाज़ मानवीय है। यही कारण है कि हम मशीन हेतु उपयोग किए जा सकने वाले तकनीक को बनाने की ओर आकर्षित हैं। लेकिन आवाज-प्रणालियों को बनाने हेतु बहुत बड़ी मात्रा में वॉयस डेटा की आवश्यकता है।
 show-wall-of-text = अधिक जानें
 help-us-title = वाक्यों की पुष्टि करने में हमारी मदद करें!
+help-us-explain = प्ले दबाएं, सुनें एवं हमें बताएं: क्या उन्होंने नीचे दिए गए वाक्य को सही ढंग से कहा?
+no-clips-to-validate = लगता है कि इस भाषा में सुनने हेतु कोई क्लिप नहीं है। अभी कुछ रिकॉर्ड कर कतार को भरने में हमारी मदद करें।
+vote-yes = हाँ
+vote-no = नहीं
+toggle-play-tooltip = प्ले मोड टॉगल करने के लिए { shortcut-play-toggle } दबाएं
+speak-subtitle = अपनी आवाज़ दान करें
+speak-goal-text = रिकॉर्ड किए क्लिप
+listen-subtitle = हमें आवाजों की पुष्टि करने में मदद करें
+read-terms-q = क्या आपने हमारी शर्तें पढ़ी?
+ready-to-record = अपनी आवाज़ दान करने को तैयार हैं?
+all-locales = सभी
 today = आज
 x-weeks-short =
     { $count ->
@@ -159,6 +170,7 @@ x-years-short =
 help-make-dataset = उच्च गुणवत्ता और सार्वजनिक डेटासेट को बनाने में हमारी सहायता करें
 profile-not-required = योगदान करने हेतु प्रोफाइल की आवश्यकता नहीं है फिर भी यह मददगार है
 sign-up-account = खाते के लिए साइन अप करें
+email-subscription-title = ईमेल द्वारा अवगत रहने हेतु साइन अप करें
 
 ## Account Benefits
 
@@ -169,12 +181,31 @@ benefits = लाभ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = चलाएं/रोकें
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = रिकॉर्ड करें/रोकें
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = क्लिप पुनः रिकॉर्ड करें
+request-language-text = अपनी भाषा अभी तक Common Voice पर नहीं देख रहे हैं?
 
 ## ProjectStatus
 
