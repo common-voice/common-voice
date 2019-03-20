@@ -8,11 +8,11 @@ import { CheckIcon } from './icons';
 export const Avatar = ({ url }: { url?: string }) => (
   <div className="avatar-wrap">
     {url ? (
-      <img src={url} />
+      <img src={require(url)} />
     ) : (
       <img
         className="mars-avatar"
-        src="img/mars-avatar.svg"
+        src={require('img/mars-avatar.svg')}
         alt="Robot Avatar"
       />
     )}

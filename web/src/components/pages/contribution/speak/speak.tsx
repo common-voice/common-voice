@@ -74,7 +74,7 @@ const UnsupportedInfo = () => (
       </Localized>
     </p>
     <a target="_blank" href={getItunesURL()}>
-      <img src="img/appstore.svg" />
+      <img src={require('img/appstore.svg')} />
     </a>
   </div>
 );

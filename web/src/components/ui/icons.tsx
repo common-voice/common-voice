@@ -112,7 +112,7 @@ export const ChevronRight = (props: any) => (
 );
 
 export const CloseIcon = ({ black, ...props }: any) => {
-  const RealIcon = Icon(`img/close${black ? '-black' : ''}.svg`);
+  const RealIcon = Icon(require(`img/close${black ? '-black' : ''}.svg`));
   return <RealIcon {...props} />;
 };
 
@@ -154,7 +154,7 @@ export const CogIcon = uniqueIcon(id => (
   </svg>
 ));
 
-export const ContactIcon = Icon('img/contact.svg');
+export const ContactIcon = Icon(require('img/contact.svg'));
 
 export const CrossIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -194,7 +194,7 @@ export const DashboardIcon = uniqueIcon(id => (
   </svg>
 ));
 
-export const DiscourseIcon = Icon('img/discourse.svg');
+export const DiscourseIcon = Icon(require('img/discourse.svg'));
 
 export const DownIcon = () => (
   <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1">
@@ -224,7 +224,7 @@ export const DownloadIcon = (props: any) => (
   </svg>
 );
 
-export const GithubIcon = Icon('img/github.svg');
+export const GithubIcon = Icon(require('img/github.svg'));
 
 export const GlobeIcon = uniqueIcon(id => (
   <svg width="16" height="16" viewBox="0 0 16 16">
@@ -265,7 +265,7 @@ export const InfoIcon = uniqueIcon(id => (
   </svg>
 ));
 
-export const KeyboardIcon = Icon('img/keyboard.svg');
+export const KeyboardIcon = Icon(require('img/keyboard.svg'));
 
 export const LinkIcon = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -396,7 +396,7 @@ export const PlayOutlineIcon = uniqueIcon(id => (
   </svg>
 ));
 
-export const PlayIcon = Icon('img/play.svg', 'play');
+export const PlayIcon = Icon(require('img/play.svg'), 'play');
 
 export const RedoIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -417,7 +417,7 @@ export const RedoIcon = uniqueIcon(id => (
   </svg>
 ));
 
-export const SearchIcon = Icon('img/search.svg', 'search');
+export const SearchIcon = Icon(require('img/search.svg'), 'search');
 
 export const SettingsIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -497,9 +497,9 @@ export const StopIcon = uniqueIcon(id => (
   </svg>
 ));
 
-export const SuccessIcon = Icon('img/success.svg', 'success');
+export const SuccessIcon = Icon(require('img/success.svg'), 'success');
 
-export const SupportIcon = Icon('img/support.svg', 'support');
+export const SupportIcon = Icon(require('img/support.svg'), 'support');
 
 export const ThumbsDownIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -615,7 +615,7 @@ export const UserPlusIcon = uniqueIcon(id => (
   </svg>
 ));
 
-export const CautionIcon = Icon('img/exclamation.svg', 'exclamation');
+export const CautionIcon = Icon(require('img/exclamation.svg'), 'exclamation');
 
 const FONT_ICONS = {
   chrome: '',
