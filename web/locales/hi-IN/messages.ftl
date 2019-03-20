@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = हाँ, मुझे ईमेल भेजें। मैं Common Voice प्रोजेक्ट के बारे में अवगत रहना चाहता हूँ।
+stayintouch = Mozilla में हम ध्वनि प्रौद्योगिकी के करीब एक समुदाय बना रहे हैं। हम नवीनताओं, नए डेटा स्रोतों से जुड़े रहना चाहते हैं और इस बारे में सुनना चाहते हैं कि आप इस डेटा का उपयोग कैसे कर रहे हैं।
 email-input =
     .label = ईमेल
 submit-form-action = जमा करें
@@ -85,12 +87,37 @@ contact = संपर्क करें
 privacy = गोपनीयता
 terms = शर्तें
 cookies = कुकीज़
+faq = सामान्य प्रश्न
+back-top = शीर्ष पर वापस जाएँ
+logout = लॉग आउट
 
 ## Home Page
 
+home-title = Common Voice Mozilla की मशीनों को सिखाने की एक पहल है कि वास्तविक लोग कैसे बोलते हैं।
+home-cta = बोलें, यहाँ योगदान दें!
+today = आज
+x-weeks-short =
+    { $count ->
+        [one] सप्ताह
+       *[other] { $count } सप्ताह
+    }
+x-months-short =
+    { $count ->
+        [one] महीना
+       *[other] महीने
+    }
+x-years-short =
+    { $count ->
+        [one] साल
+       *[other] साल
+    }
+help-make-dataset = उच्च गुणवत्ता और सार्वजनिक डेटासेट को बनाने में हमारी सहायता करें
+profile-not-required = योगदान करने हेतु प्रोफाइल की आवश्यकता नहीं है फिर भी यह मददगार है
+sign-up-account = खाते के लिए साइन अप करें
 
 ## Account Benefits
 
+benefits = लाभ
 
 ## What's public
 
@@ -109,6 +136,8 @@ cookies = कुकीज़
 
 ## ProfileForm
 
+off = बंद
+on = चालू
 
 ## FAQ
 
@@ -139,6 +168,11 @@ cookies = कुकीज़
 
 ## New Contribution
 
+action-tap = दबाएँ
+contribute = योगदान दें
+listen = सुनें
+skip = छोड़ें
+shortcuts = शॉर्टकट
 
 ## Goals
 
