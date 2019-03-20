@@ -206,12 +206,51 @@ shortcut-record-toggle-label = रिकॉर्ड करें/रोके�
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = क्लिप पुनः रिकॉर्ड करें
 request-language-text = अपनी भाषा अभी तक Common Voice पर नहीं देख रहे हैं?
+request-language-button = भाषा का अनुरोध करें
 
 ## ProjectStatus
 
+status-contribute = अपनी आवाज़ दान दें
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = अगले लक्ष्य: { $goal }
+english = अंग्रेज़ी
 
 ## ProfileForm
 
+profile-form-username =
+    .label = उपयोक्ता नाम
+profile-form-native-language =
+    .label = मूल भाषा
+profile-form-additional-language =
+    .label = अन्य भाषा
+profile-form-accent =
+    .label = उच्चारण
+profile-form-age =
+    .label = उम्र
+profile-form-gender =
+    .label = लिंग
+native-language =
+    .label = मूल भाषा
+profile-form-submit-save = सहेजें
+profile-form-submit-saved = सहेजे गए
+male = नर
+female = नारी
+# Gender
+other = अन्य
+why-profile-title = प्रोफाइल क्यों बनाएं?
+dashboard = डैशबोर्ड
+build-profile = प्रोफाइल बनाएं
+avatar = अवतार
+goals = लक्ष्य
+settings = सेटिंग
+edit-profile = प्रोफ़ाइल संपादित करें
+profile-create-success = सफलतापूर्वक, प्रोफाइल बनाई गई!
+profile-close = बंद करें
+login-signup = लॉग इन / साइन अप करें
+edit = संपादित करें
+download-profile = मेरे डेटा को डाउनलोड करें
+contribution-experience = योगदान अनुभव
 off = बंद
 on = चालू
 
@@ -226,9 +265,12 @@ on = चालू
 
 ## Data
 
+data-download-yes = हाँ
 
 ## New Datasets Page
 
+size-gigabyte = GB
+size-megabyte = MB
 
 ## Download Modal
 
@@ -241,6 +283,7 @@ on = चालू
 
 ## Languages Overview
 
+languages-show-more = और देखें
 
 ## New Contribution
 
@@ -255,6 +298,12 @@ shortcuts = शॉर्टकट
 
 ## Dashboard
 
+top-contributors = शीर्ष योगदानकर्ता
+recorded-clips = रिकॉर्ड किए गए क्लिप
+validated-clips = पुष्टि किए गए क्लिप
+total-approved = कुल स्वीकृत
 
 ## Profile Delete
 
+keep = रखें
+remove = हटाएँ
