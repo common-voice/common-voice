@@ -15,7 +15,7 @@ const daysBetween = (date1: Date, date2: Date) =>
 export default async function getGoals(
   client_id: string,
   locale?: string
-): Promise<AllGoals> {
+): Promise<AllGoals['globalGoals']> {
   const [rows] = await db.query(
     `
       SELECT type, created_at

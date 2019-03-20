@@ -12,7 +12,7 @@ const Stats = ({ allGoals, locale }: Props) => (
     <div className="cards">
       {['speak', 'listen'].map(type => {
         const [current, goals] = allGoals
-          ? allGoals[type == 'speak' ? 'clips' : 'votes']
+          ? allGoals.globalGoals[type == 'speak' ? 'clips' : 'votes']
           : [null, null];
         return (
           <ProgressCard

@@ -1,6 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
+import { CustomGoal, CustomGoalParams } from 'common/goals';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
 import {
@@ -14,10 +15,14 @@ import { Button } from '../../../ui/ui';
 
 import './custom-goal.css';
 
-type State = {
+interface RunningGoal {
   daysInterval: 1 | 7;
   amount: number;
-  type: 'speak' | 'listen' | 'both';
+  created_at: string;
+  current: { speak?: number; listen?: number };
+}
+
+type State = CustomGoalParams & {
   remind: boolean;
 };
 
@@ -184,30 +189,31 @@ function StepButtons({
           const n = i + 1;
           const hasValue = state[STATE_KEYS[n]] != null;
           const isActive = n == stepIndex;
-          return [
-            <div
-              key={i}
-              className={[
-                'step-button',
-                isActive ? 'active' : '',
-                hasValue ? 'completed' : '',
-              ].join(' ')}>
-              <button
-                type="button"
-                onClick={() => setStepIndex(n)}
-                disabled={n > 1 && state[STATE_KEYS[n - 1]] == null}>
-                {n}
-              </button>
-            </div>,
-            n < 4 && (
-              <>
-                <div
-                  className={'line ' + (hasValue || isActive ? 'fill' : '')}
-                />
-                <div className={'line ' + (hasValue ? 'fill' : '')} />
-              </>
-            ),
-          ];
+          return (
+            <React.Fragment key={i}>
+              <div
+                className={[
+                  'step-button',
+                  isActive ? 'active' : '',
+                  hasValue ? 'completed' : '',
+                ].join(' ')}>
+                <button
+                  type="button"
+                  onClick={() => setStepIndex(n)}
+                  disabled={n > 1 && state[STATE_KEYS[n - 1]] == null}>
+                  {n}
+                </button>
+              </div>
+              {n < 4 && (
+                <>
+                  <div
+                    className={'line ' + (hasValue || isActive ? 'fill' : '')}
+                  />
+                  <div className={'line ' + (hasValue ? 'fill' : '')} />
+                </>
+              )}
+            </React.Fragment>
+          );
         })}
     </div>
   );
@@ -301,7 +307,52 @@ function CurrentRadios({
   );
 }
 
-export default function CustomGoal() {
+function ViewGoal({
+  onNext,
+  customGoal: { amount, current, days_interval },
+}: {
+  onNext: () => any;
+  customGoal: CustomGoal;
+}) {
+  return (
+    <div className="padded">
+      <div className="top">
+        <h2>Custom Goals</h2>
+        <button type="button" onClick={onNext}>
+          <PenIcon />
+        </button>
+      </div>
+      {Object.keys(current).map(key => {
+        const value = (current as any)[key];
+        return (
+          <div key={key} className={'goal-box ' + key}>
+            <div className="absolute">
+              {value} / {amount}
+            </div>
+            <div className="relative">
+              <div className="circle">
+                {Math.round((100 * value) / amount)}%
+              </div>
+              <div className="interval">
+                {days_interval == 7 ? 'Of weekly goal' : 'Of daily goal'}
+              </div>
+            </div>
+
+            <Button rounded>{key[0].toUpperCase() + key.slice(1)}</Button>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+export default function CustomGoal({
+  customGoal,
+  saveCustomGoal,
+}: {
+  customGoal?: CustomGoal;
+  saveCustomGoal: (data: CustomGoalParams) => any;
+}) {
   const [stepIndex, setStepIndex] = useState(0);
   const [state, setState] = useState<State>({
     daysInterval: null,
@@ -320,25 +371,37 @@ export default function CustomGoal() {
     type: [['Speak', 'speak'], ['Listen', 'listen'], ['Both', 'both']],
   };
 
+  function handleNext() {
+    const nextIndex = (stepIndex + 1) % steps.length;
+    setStepIndex(nextIndex);
+    if (nextIndex == 5) {
+      saveCustomGoal(state);
+    }
+  }
+
   return (
     <div className={'custom-goal step-' + stepIndex}>
       <StepButtons {...{ setStepIndex, state, stepIndex }} />
-      <Step
-        buttonProps={{
-          disabled:
-            stepIndex > 0 &&
-            stepIndex < 4 &&
-            state[STATE_KEYS[stepIndex]] == null,
-          onClick: () => setStepIndex((stepIndex + 1) % steps.length),
-        }}
-        completedRadios={
-          <CompletedRadios {...{ setStepIndex, state, states, stepIndex }} />
-        }
-        currentRadios={
-          <CurrentRadios {...{ setState, state, states, stepIndex }} />
-        }
-        state={state}
-      />
+      {stepIndex == 0 && customGoal ? (
+        <ViewGoal onNext={handleNext} customGoal={customGoal} />
+      ) : (
+        <Step
+          buttonProps={{
+            disabled:
+              stepIndex > 0 &&
+              stepIndex < 4 &&
+              state[STATE_KEYS[stepIndex]] == null,
+            onClick: handleNext,
+          }}
+          completedRadios={
+            <CompletedRadios {...{ setStepIndex, state, states, stepIndex }} />
+          }
+          currentRadios={
+            <CurrentRadios {...{ setState, state, states, stepIndex }} />
+          }
+          state={state}
+        />
+      )}
     </div>
   );
 }

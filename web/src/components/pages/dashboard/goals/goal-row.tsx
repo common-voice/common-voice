@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Localized } from 'fluent-react/compat';
-import { Goal } from 'common/goals';
+import { GlobalGoal } from 'common/goals';
 
 import './goal-row.css';
 
@@ -32,7 +32,7 @@ const GoalBox = ({
   goal,
   isNext,
   type,
-}: Goal & { isNext: boolean; type: string }) => (
+}: GlobalGoal & { isNext: boolean; type: string }) => (
   <div className={'goal-box ' + type + (date ? ' done' : '')}>
     {(date || isNext) && <Wave />}
     <div className="goal">{goal}</div>
@@ -63,7 +63,7 @@ const GoalBox = ({
 export default function GoalRow({
   goalInfo: [type, [current, goals]],
 }: {
-  goalInfo: [string, [number, Goal[]]];
+  goalInfo: [string, [number, GlobalGoal[]]];
 }) {
   return (
     <div className="goal-row">

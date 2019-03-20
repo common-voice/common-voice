@@ -3,6 +3,7 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch } from 'react-router';
+import { CustomGoalParams } from 'common/goals';
 import { UserClient } from 'common/user-clients';
 import URLS from '../../../urls';
 import API from '../../../services/api';
@@ -33,6 +34,10 @@ const TopBar = ({ account, api, children, toLocaleRoute }: Props) => {
   const [allGoals, setAllGoals] = useState(null);
   const [locale, setLocale] = useState(ALL_LOCALES);
   const [showTitleBarLocales, setShowTitleBarLocales] = useState(true);
+
+  async function saveCustomGoal(data: CustomGoalParams) {
+    setAllGoals(await api.createGoal(data));
+  }
 
   useEffect(() => {
     if (!account) {
@@ -132,7 +137,10 @@ const TopBar = ({ account, api, children, toLocaleRoute }: Props) => {
               exact
               path={toLocaleRoute(route)}
               render={props => (
-                <Component {...{ allGoals, locale }} {...props} />
+                <Component
+                  {...{ allGoals, locale, saveCustomGoal }}
+                  {...props}
+                />
               )}
             />
           ))}

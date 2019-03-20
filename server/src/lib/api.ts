@@ -4,12 +4,12 @@ import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from 'common/user-clients';
 import { getConfig } from '../config-helper';
+import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
 import UserClient from './model/user-client';
 import Model from './model';
 import Clip from './clip';
 import Prometheus from './prometheus';
-import { AWS } from './aws';
 import { ClientParameterError } from './utility';
 
 const PromiseRouter = require('express-promise-router');
@@ -78,6 +78,7 @@ export default class API {
       this.saveAvatar
     );
 
+    router.post('/user_client/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/:locale/goals', this.getGoals);
 
@@ -264,11 +265,21 @@ export default class API {
     );
   };
 
+  createCustomGoal = async (request: Request, response: Response) => {
+    await CustomGoal.create(request.client_id, request.body);
+    await this.getGoals(request, response);
+  };
+
   getGoals = async (
     { client_id, params: { locale } }: Request,
     response: Response
   ) => {
-    response.json(await getGoals(client_id, locale));
+    response.json(
+      await Promise.all([
+        getGoals(client_id, locale),
+        CustomGoal.find(client_id),
+      ]).then(([globalGoals, customGoal]) => ({ globalGoals, customGoal }))
+    );
   };
 
   claimUserClient = async (

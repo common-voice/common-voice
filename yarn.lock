@@ -887,7 +887,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.8.2":
+"@types/react@*", "@types/react@16.8.2", "@types/react@^16.8.2":
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.2.tgz#3b7a7f7ea89d1c7d68b00849fb5de839011c077b"
   integrity sha512-6mcKsqlqkN9xADrwiUz2gm9Wg4iGnlVGciwBRYFQSMWG6MQjhOZ/AVnxn+6v8nslFgfYTV8fNdE6XwKu6va5PA==
@@ -1830,16 +1830,7 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@4.4.1:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.4.1.tgz#42e828954b6b29a7a53e352277be429478a69062"
-  integrity sha512-pEBxEXg7JwaakBXjATYw/D1YZh4QUSCX/Mnd/wnqSRPPSi1U39iDhDoKGoBUcraKdxDlrYqJxSI5nNvD+dWP2A==
-  dependencies:
-    caniuse-lite "^1.0.30000929"
-    electron-to-chromium "^1.3.103"
-    node-releases "^1.1.3"
-
-browserslist@^4.0.0, browserslist@^4.3.4, browserslist@^4.3.5, browserslist@^4.4.0:
+browserslist@4.4.0, browserslist@4.4.1, browserslist@^4.0.0, browserslist@^4.3.4, browserslist@^4.3.5, browserslist@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.4.0.tgz#7050d1412cbfc5274aba609ed5e50359ca1a5fdf"
   integrity sha512-tQkHS8VVxWbrjnNDXgt7/+SuPJ7qDvD0Y2e6bLtoQluR2SPvlmPUcfcU75L1KAalhqULlIFJlJ6BDfnYyJxJsw==
@@ -1992,11 +1983,6 @@ caniuse-lite@^1.0.30000928:
   version "1.0.30000928"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000928.tgz#805e828dc72b06498e3683a32e61c7507fd67b88"
   integrity sha512-aSpMWRXL6ZXNnzm8hgE4QDLibG5pVJ2Ujzsuj3icazlIkxXkPXtL+BWnMx6FBkWmkZgBHGUxPZQvrbRw2ZTxhg==
-
-caniuse-lite@^1.0.30000929:
-  version "1.0.30000950"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000950.tgz#8c559d66e332b34e919d1086cc6d29c1948856ae"
-  integrity sha512-Cs+4U9T0okW2ftBsCIHuEYXXkki7mjXmjCh4c6PzYShk04qDEr76/iC7KwhLoWoY65wcra1XOsRD+S7BptEb5A==
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -3096,11 +3082,6 @@ electron-to-chromium@^1.3.100:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.103.tgz#a695777efdbc419cad6cbb0e58458251302cd52f"
   integrity sha512-tObPqGmY9X8MUM8i3MEimYmbnLLf05/QV5gPlkR8MQ3Uj8G8B2govE1U4cQcBYtv3ymck9Y8cIOu4waoiykMZQ==
 
-electron-to-chromium@^1.3.103:
-  version "1.3.116"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.116.tgz#1dbfee6a592a0c14ade77dbdfe54fef86387d702"
-  integrity sha512-NKwKAXzur5vFCZYBHpdWjTMO8QptNLNP80nItkSIgUOapPAo9Uia+RvkCaZJtO7fhQaVElSvBPWEc2ku6cKsPA==
-
 elliptic@^6.0.0:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.1.tgz#c2d0b7776911b86722c632c3c06c60f2f819939a"
@@ -3282,7 +3263,7 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
 
-event-stream@=3.3.4:
+event-stream@3.3.4, event-stream@=3.3.4:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/event-stream/-/event-stream-3.3.4.tgz#4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571"
   integrity sha1-SrTJoPWlTbkzi0w02Gv86PSzVXE=

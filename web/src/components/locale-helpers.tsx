@@ -32,17 +32,22 @@ export const localeConnector: any = connect<LocalePropsFromState>(
 
 export const LocaleLink = localeConnector(
   ({
+    blank,
     dispatch,
     locale,
     to,
     toLocaleRoute,
     ...props
-  }: LinkProps & LocaleProps) =>
-    props.target ? (
-      <a href={toLocaleRoute(to)} {...props} />
+  }: { blank: boolean } & LinkProps & LocaleProps) => {
+    const blankProps = blank
+      ? { target: '_blank', rel: 'noopener noreferrer' }
+      : {};
+    return props.target ? (
+      <a href={toLocaleRoute(to)} {...blankProps} {...props} />
     ) : (
-      <Link to={toLocaleRoute(to)} {...props} />
-    )
+      <Link to={toLocaleRoute(to)} {...blankProps} {...props} />
+    );
+  }
 );
 
 export const LocaleNavLink = localeConnector(

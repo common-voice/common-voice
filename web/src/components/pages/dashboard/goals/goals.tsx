@@ -6,14 +6,20 @@ import GoalRow from './goal-row';
 
 import './goals.css';
 
-const GoalsPage = ({ allGoals }: Props) => (
+const GoalsPage = ({ allGoals, saveCustomGoal }: Props) => (
   <div className="goals-inner">
     <div className="goal-rows">
-      {Object.entries(allGoals || {}).map((goalInfo, i) => (
-        <GoalRow key={i} goalInfo={goalInfo} />
-      ))}
+      {allGoals &&
+        Object.entries(allGoals.globalGoals).map((goalInfo, i) => (
+          <GoalRow key={i} goalInfo={goalInfo} />
+        ))}
     </div>
-    {!isProduction() && <CustomGoal />}
+    {allGoals && !isProduction() && (
+      <CustomGoal
+        customGoal={allGoals.customGoal}
+        saveCustomGoal={saveCustomGoal}
+      />
+    )}
   </div>
 );
 

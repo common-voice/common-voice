@@ -1,4 +1,4 @@
-import { AllGoals } from 'common/goals';
+import { AllGoals, CustomGoalParams } from 'common/goals';
 import { LanguageStats } from 'common/language-stats';
 import { UserClient } from 'common/user-clients';
 import { Locale } from '../stores/locale';
@@ -222,6 +222,13 @@ export default class API {
         '/leaderboard' +
         (cursor ? '?cursor=' + JSON.stringify(cursor) : '')
     );
+  }
+
+  createGoal(body: CustomGoalParams): Promise<AllGoals> {
+    return this.fetch(API_PATH + '/user_client/goals', {
+      method: 'POST',
+      body,
+    });
   }
 
   fetchGoals(locale?: string): Promise<AllGoals> {
