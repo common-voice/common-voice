@@ -259,6 +259,7 @@ on = चालू
 
 ## Glossary
 
+localization = स्थानीयकरण
 
 ## NotFound
 
@@ -266,6 +267,9 @@ on = चालू
 ## Data
 
 data-download-yes = हाँ
+data-download-deny = नहीं
+terms-agree = मैं सहमत हूँ
+terms-disagree = मैं असहमत हूँ
 
 ## New Datasets Page
 
