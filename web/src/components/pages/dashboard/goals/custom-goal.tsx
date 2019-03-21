@@ -210,10 +210,11 @@ export default function CustomGoal({
     }
   }
 
+  const showViewGoal = stepIndex == 0 && customGoal;
   return (
-    <div className={'custom-goal step-' + stepIndex}>
+    <div className={'custom-goal ' + (showViewGoal ? '' : 'step-' + stepIndex)}>
       <StepButtons {...{ setStepIndex, state, stepIndex }} />
-      {stepIndex == 0 && customGoal ? (
+      {showViewGoal ? (
         <ViewGoal onNext={handleNext} customGoal={customGoal} />
       ) : (
         <Step

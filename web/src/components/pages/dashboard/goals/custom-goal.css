@@ -369,7 +369,7 @@
         & .goal-box {
             border: 1.6px solid var(--grey);
             margin-bottom: 70px;
-            padding: 30px 12px 60px 30px;
+            padding: 30px 12px 50px 30px;
             position: relative;
             display: flex;
             flex-direction: row;
