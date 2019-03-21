@@ -121,6 +121,8 @@ profile = Profî
 help = Agiùtto
 contact = Contàtti
 privacy = Vìtta privâ
+terms = Condiçioìn
+cookies = Cookie
 
 ## Home Page
 
