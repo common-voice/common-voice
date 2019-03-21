@@ -126,9 +126,15 @@ cookies = Cookie
 faq = Domànde frequénte
 link-copied = Colegaménto copiòu
 back-top = Vànni in çìmma
+logout = Desconétite
 
 ## Home Page
 
+home-cta = Dìnni quarcösa! Sciàcca chi pe contriboî!
+show-wall-of-text = Informaçioìn in ciù
+vote-yes = Sci
+vote-no = No
+toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ a letûa
 
 ## Account Benefits
 
