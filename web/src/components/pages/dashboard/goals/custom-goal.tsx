@@ -175,9 +175,20 @@ export default function CustomGoal({
 }) {
   const [stepIndex, setStepIndex] = useState(0);
   const [state, setState] = useState<State>({
-    daysInterval: null,
-    amount: null,
-    type: null,
+    ...(customGoal
+      ? {
+          daysInterval: customGoal.days_interval,
+          amount: customGoal.amount,
+          type:
+            Object.keys(customGoal.current).length == 1
+              ? Object.keys(customGoal.current)[0]
+              : 'both',
+        }
+      : {
+          daysInterval: null,
+          amount: null,
+          type: null,
+        }),
     remind: false,
   });
 

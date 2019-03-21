@@ -53,6 +53,7 @@ export const ViewGoal = ({
           <LinkButton
             className="cta"
             rounded
+            absolute
             to={'/en' + (key == 'speak' ? URLS.SPEAK : URLS.LISTEN)}>
             {key[0].toUpperCase() + key.slice(1)}
           </LinkButton>
