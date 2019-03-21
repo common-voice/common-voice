@@ -123,6 +123,9 @@ contact = Contàtti
 privacy = Vìtta privâ
 terms = Condiçioìn
 cookies = Cookie
+faq = Domànde frequénte
+link-copied = Colegaménto copiòu
+back-top = Vànni in çìmma
 
 ## Home Page
 
