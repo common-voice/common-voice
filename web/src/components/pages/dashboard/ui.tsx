@@ -45,7 +45,7 @@ export function CircleProgress({ value }: { value: number }) {
         <Circle
           className="progress-circle"
           strokeDasharray={CIRCUM}
-          strokeDashoffset={CIRCUM * (1 - value)}
+          strokeDashoffset={CIRCUM * Math.max(1 - value, 0)}
         />
         <text
           x={CENTER}
