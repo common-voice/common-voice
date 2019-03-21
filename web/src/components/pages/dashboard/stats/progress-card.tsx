@@ -11,6 +11,7 @@ import { ALL_LOCALES } from '../../../language-select/language-select';
 import { toLocaleRouteBuilder } from '../../../locale-helpers';
 import { MicIcon, OldPlayIcon } from '../../../ui/icons';
 import { LinkButton } from '../../../ui/ui';
+import { Fraction } from '../ui';
 
 import './progress-card.css';
 
@@ -62,19 +63,18 @@ class ProgressCard extends React.Component<Props, State> {
     return (
       <div className={'progress-card ' + type}>
         <div className="personal">
-          <div className="numbers">
-            <div className="current">
-              {typeof personalCurrent == 'number' ? personalCurrent : '?'}
-            </div>
-            <div className="total">
-              {' / '}
-              {(personalGoal == Infinity ? (
+          <Fraction
+            numerator={
+              typeof personalCurrent == 'number' ? personalCurrent : '?'
+            }
+            denominator={
+              (personalGoal == Infinity ? (
                 <div className="infinity">∞</div>
               ) : (
                 personalGoal
-              )) || '?'}
-            </div>
-          </div>
+              )) || '?'
+            }
+          />
           <Localized
             id={isSpeak ? 'clips-you-recorded' : 'clips-you-validated'}>
             <div className="description" />
@@ -107,15 +107,10 @@ class ProgressCard extends React.Component<Props, State> {
         </div>
 
         <div className="overall">
-          <div className="numbers">
-            <div className="current">
-              {overallCurrent == null ? '?' : overallCurrent}
-            </div>
-            <div className="total">
-              {' / '}
-              {overallGoal}
-            </div>
-          </div>
+          <Fraction
+            numerator={overallCurrent == null ? '?' : overallCurrent}
+            denominator={overallGoal}
+          />
           <Localized
             id={
               isSpeak ? 'todays-recorded-progress' : 'todays-validated-progress'

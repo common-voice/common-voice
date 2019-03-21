@@ -26,7 +26,8 @@ export default {
       ON DUPLICATE KEY UPDATE
         type = VALUES(type),
         days_interval = VALUES(days_interval),
-        amount = VALUES(amount);
+        amount = VALUES(amount),
+        created_at = NOW();
     `,
       [client_id, data.type, data.daysInterval, data.amount]
     );

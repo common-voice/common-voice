@@ -4,7 +4,7 @@
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 
     &.speak {
-        & .personal .numbers {
+        & .personal .fraction {
             color: var(--red);
         }
 
@@ -24,7 +24,7 @@
     }
 
     &.listen {
-        & .personal .numbers {
+        & .personal .fraction {
             color: var(--valid-green);
         }
 
@@ -59,7 +59,7 @@
         align-items: center;
         background: var(--white);
 
-        & .numbers {
+        & .fraction {
             border-inline-end: 1px solid var(--desert-storm);
             margin-inline-end: 20px;
             padding-inline-end: 20px;
@@ -121,7 +121,6 @@
     }
 
     & .overall {
-        margin-top: -24px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -150,26 +149,6 @@
         & .button {
             flex-grow: 100;
             min-width: auto;
-        }
-    }
-
-    & .numbers {
-        display: flex;
-        flex-direction: row;
-
-        & .current {
-            line-height: 1;
-            font-size: 48px;
-
-            @media (--md-down) {
-                font-size: 24px;
-            }
-        }
-
-        & .total {
-            display: flex;
-            flex-direction: row;
-            white-space: pre-wrap;
         }
     }
 }

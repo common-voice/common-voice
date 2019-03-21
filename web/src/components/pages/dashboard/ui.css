@@ -1,0 +1,41 @@
+.fraction {
+    display: flex;
+    flex-direction: row;
+
+    & .numerator {
+        line-height: 1;
+        font-size: 48px;
+
+        @media (--md-down) {
+            font-size: 24px;
+        }
+    }
+
+    & .denominator {
+        display: flex;
+        flex-direction: row;
+        white-space: pre-wrap;
+    }
+}
+
+.circle-progress {
+    & svg {
+        width: 68px;
+        height: 68px;
+    }
+
+    & circle {
+        stroke: var(--grey);
+    }
+
+    & .progress-circle {
+        transform-origin: center;
+        transform: rotate(-90deg);
+        stroke: var(--progress-color);
+    }
+
+    & text {
+        fill: var(--progress-color);
+        font-weight: bold;
+    }
+}
