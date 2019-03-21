@@ -53,6 +53,7 @@ fo = Faroera
 fr = Frantsesa
 fy-NL = Frisiera
 ga-IE = Irlandako gaelikoa
+gl = Galiziera
 he = Hebreera
 hr = Kroaziera
 hsb = Goi-sorabiera
@@ -71,6 +72,7 @@ kpv = Komiera
 kw = Kornubiera
 ky = Kirgizera
 lt = Lituaniera
+lv = Letoniera
 mdf = Moksha
 mhr = Larreetako mariera
 mk = Mazedoniera
@@ -447,7 +449,6 @@ get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
 deepspeech-info = Common Voice datu-sortak, Mozillaren Deep Speech ahotsaren ezagutzarako motor librea osatzen du, hizketaren ezagutzadun aplikazioak garatzeko erabil dezakezuna. Irakurri gure <githubLink>GitHub laburpena</githubLink> edo batu zaitez <discourseLink>DeepSpeecheko Discourse forora</discourseLink> nondik hasi ikasteko.
-common-voice-info = Common Voicen inguruko galderak dauzkazu? Batu zaitez <discourseLink>Discourse forora</discourseLink>.
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
@@ -488,6 +489,7 @@ request-language-form-language =
     .label = Hizkuntza
 request-language-success-title = Hizkuntza-eskaera ondo bidali da, eskerrik asko.
 request-language-success-content = Laster jarriko gara zurekin harremanetan Common Voice proiektuan zure hizkuntza nola gehitu azaltzen duen informazioarekin.
+select-language = Hautatu hizkuntza bat...
 
 ## Languages Overview
 
