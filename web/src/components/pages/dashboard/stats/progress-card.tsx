@@ -91,18 +91,6 @@ class ProgressCard extends React.Component<Props, State> {
                 <OldPlayIcon style={{ position: 'relative', left: 3 }} />
               )}
             </div>
-            <div className="bar">
-              <div
-                className="current"
-                style={{
-                  width:
-                    Math.min(
-                      (100 * (personalCurrent || 0)) / (personalGoal || 1),
-                      100
-                    ) + '%',
-                }}
-              />
-            </div>
           </div>
         </div>
 

@@ -4,43 +4,13 @@
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 
     &.speak {
-        & .personal .fraction {
-            color: var(--red);
-        }
-
-        & .progress {
-            & .icon-wrap {
-                background: var(--red);
-            }
-
-            & .bar {
-                background: color-mod(var(--red) alpha(20%));
-            }
-
-            & .current {
-                background: var(--red);
-            }
-        }
+        --type-color: var(--red);
+        --type-color-opaque: color-mod(var(--red) alpha(20%));
     }
 
     &.listen {
-        & .personal .fraction {
-            color: var(--valid-green);
-        }
-
-        & .progress {
-            & .icon-wrap {
-                background: var(--valid-green);
-            }
-
-            & .bar {
-                background: color-mod(var(--valid-green) alpha(20%));
-            }
-
-            & .current {
-                background: var(--valid-green);
-            }
-        }
+        --type-color: var(--valid-green);
+        --type-color-opaque: color-mod(var(--valid-green) alpha(20%));
     }
 
     & .personal,
@@ -63,6 +33,7 @@
             border-inline-end: 1px solid var(--desert-storm);
             margin-inline-end: 20px;
             padding-inline-end: 20px;
+            color: var(--type-color);
         }
 
         & .infinity {
@@ -99,6 +70,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background: var(--type-color);
 
             & svg {
                 width: 24px;
@@ -109,25 +81,16 @@
                 }
             }
         }
-
-        & .bar {
-            width: 100%;
-            height: 6px;
-
-            & .current {
-                height: 100%;
-            }
-        }
     }
 
     & .overall {
+        border-top: 2px solid var(--type-color-opaque);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         background: #f9f9f8;
 
         & > * {
-            margin-top: 24px;
             margin-inline-end: 30px;
 
             &:last-child {
