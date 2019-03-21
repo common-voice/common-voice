@@ -24,9 +24,13 @@ az = Azerbaigiàn
 bg = Bùlgaro
 bn = Bengaléize
 br = Bréton
+bxr = Buriàto
 ca = Catalàn
 cak = Kaqchikel
 cnh = Hakha Chin
+cs = Cêco
+cv = Ciuvàscio
+cy = Galéize
 da = Danéize
 de = Tedésco
 dsb = Sòrabo bàsso
@@ -52,17 +56,71 @@ ia = Interléngoa
 id = Indoneziàn
 is = Izlandéize
 it = Italiàn
+izh = Izoriàn
 ja = Giaponéize
 ka = Zòrzàn
 kab = Cabîlo
 kk = Kazàko
 ko = Coreàn
+kpv = Komi-Zyriàn
+kw = Còrneco
+ky = Kirghìzo
+lt = Lituàn
+lv = Lètone
+mdf = Mokša
+mhr = Màri òrientâle
+mk = Macédone
+mn = Móngolo
+mrj = Màri òcindentâle
+myv = Èrza
+nb-NO = Norvegéize Bokmål
+ne-NP = Nepaléize
+nl = Olandéize
+nn-NO = Norvegéize Nynorsk
+oc = Òcitàn
+or = Oriya
+pl = Polàcco
+pt-BR = Portoghéize (Braxî)
+rm-sursilv = Romàncio sotoscilvàn
+ro = Roméno
+ru = Rùscio
+rw = Kinyarwanda
+sah = Sakha
+sc = Sàrdo
+sk = Slovàcco
+sl = Slovéno
+sq = Albanéize
+sr = Sèrbo
+sv-SE = Svedéize
+ta = Tamìl
+te = Telógo
+th = Tailandéize
+tr = Tùrco
+tt = Tàtaro
+uby = Ubykh
+udm = Oudmùrto
+uk = Ucraìn
+ur = Órdo
+uz = Uzbéco
+vi = Vietnamìtto
+vot = Vòtico
+zh-CN = Cinéize (Cìnn-a)
+zh-HK = Cinéize (Hong Kong)
+zh-TW = Cinéize (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Pàrla
+speak-now = Pàrla òua
+datasets = Dataset
+languages = Léngoe
+profile = Profî
+help = Agiùtto
+contact = Contàtti
+privacy = Vìtta privâ
 
 ## Home Page
 
