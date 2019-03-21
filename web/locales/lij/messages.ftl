@@ -11,10 +11,20 @@ loading = Caregaménto...
 
 ## Languages
 
+eo = Esperànto
+es = Spagnòllo
+et = Èstone
+eu = Bàsco
+fa = Persiàn
+fr = Françéize
+he = Ebràico
+hr = Croâto
 it = Italiàn
 ja = Giaponéize
 ka = Zòrzàn
-kab = Kabyle
+kab = Cabîlo
+kk = Kazàko
+ko = Coreàn
 
 # [/]
 
