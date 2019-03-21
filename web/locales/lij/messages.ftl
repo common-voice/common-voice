@@ -135,6 +135,7 @@ show-wall-of-text = Informaçioìn in ciù
 vote-yes = Sci
 vote-no = No
 toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ a letûa
+speak-subtitle = Dònn-a a teu vôxe
 
 ## Account Benefits
 
