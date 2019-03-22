@@ -274,9 +274,22 @@ off = Dizatîva
 on = Atîva
 add-avatar-title = Azónzi 'na föto a-o teu profî
 browse-file-title = Càrega 'na föto
+browse-file = Rebéla e mòlla òpû <browseWrap>sfêuggia</browseWrap>
+connect-gravatar = Conétti con Gravatar
+gravatar_not_found = Nisciùn profî Gravatar asociòu a-o teu indirìsso de pòsta eletrònica
+file_too_large = O schedâio seleçionòu o l'é tròppo grànde
+manage-subscriptions = Gestìsci e sotoscriçioìn
+email-already-used = Sto indirìsso de pòsta o l'é za in ûzo pe 'n âtro cònto
+add-language = Azónzi léngoa
 
 ## FAQ
 
+faq-title = Domànde frequénte
+faq-what-cv-q = Cös'a l'é Common Voice?
+faq-why-important-q = Perché a l'é inportànte?
+faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
+faq-when-release-q = Quànde saiàn pùblicæ i dæti de Common Voice in âtre léngoe?
+faq-why-mission-q = In che mòddo Common Voice o l'é pàrte da misción de Mozilla?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçiòn l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 
 ## Glossary
