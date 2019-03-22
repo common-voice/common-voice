@@ -84,23 +84,28 @@ class ProgressCard extends React.Component<Props, State> {
             <div className="description" />
           </Localized>
           <div />
-          {customGoal ? (
-            customGoal.current[type] === undefined ? null : (
-              <Link className="custom-goal-link" to={URLS.GOALS}>
-                <CircleProgress
-                  value={customGoal.current[type] / customGoal.amount}
-                />
-                <div className="custom-goal-text">
-                  <span>Toward</span>
-                  <span>next goal</span>
-                </div>
-              </Link>
-            )
-          ) : (
-            <LinkButton className="custom-goal-button" rounded to={URLS.GOALS}>
-              Create a Custom Goal
-            </LinkButton>
-          )}
+          <div className="custom-goal-section">
+            {customGoal ? (
+              customGoal.current[type] === undefined ? null : (
+                <Link className="custom-goal-link" to={URLS.GOALS}>
+                  <CircleProgress
+                    value={customGoal.current[type] / customGoal.amount}
+                  />
+                  <div className="custom-goal-text">
+                    <span>Toward</span>
+                    <span>next goal</span>
+                  </div>
+                </Link>
+              )
+            ) : (
+              <LinkButton
+                className="custom-goal-button"
+                rounded
+                to={URLS.GOALS}>
+                Create a Custom Goal
+              </LinkButton>
+            )}
+          </div>
         </div>
 
         <div className="progress-wrap">

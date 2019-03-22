@@ -17,7 +17,7 @@
     & .overall {
         padding-right: 20px;
         padding-left: 68px;
-        height: 130px;
+        min-height: 130px;
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
@@ -31,6 +31,13 @@
 
     & .personal {
         background: var(--white);
+
+        @media (--lg-down) {
+            padding-top: 30px;
+            padding-bottom: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
         & .fraction {
             border-inline-end: 1px solid var(--desert-storm);
@@ -46,9 +53,20 @@
         }
 
         & .description {
+            margin-right: 20px;
             font-family: var(--strong-font-family);
             font-size: 20px;
             line-height: 1.4;
+        }
+
+        & .custom-goal-section {
+            @media (--md-down) {
+                width: 100%;
+            }
+
+            @media (--lg-down) {
+                margin-top: 20px;
+            }
         }
 
         & .custom-goal-button {
@@ -59,6 +77,11 @@
             height: 50px;
             background: var(--type-color);
             color: var(--white);
+
+            @media (--md-down) {
+                display: flex;
+                width: 100%;
+            }
 
             &:hover {
                 border: 1px solid var(--black);
@@ -127,6 +150,12 @@
         flex-wrap: wrap;
         background: #f9f9f8;
 
+        @media (--lg-down) {
+            padding-top: 50px;
+            padding-bottom: 30px;
+            justify-content: center;
+        }
+
         & > * {
             margin-inline-end: 30px;
 
@@ -147,10 +176,17 @@
         }
 
         & .button {
-            margin-left: auto;
             padding: 0 30px;
             min-width: auto;
             min-height: 50px;
+
+            @media (--lg-down) {
+                margin-top: 20px;
+            }
+
+            @media (--xl-up) {
+                margin-left: auto;
+            }
         }
     }
 }
