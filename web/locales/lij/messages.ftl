@@ -137,7 +137,10 @@ vote-no = No
 toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ a letûa
 speak-subtitle = Dònn-a a teu vôxe
 speak-goal-text = Registraçioìn
-listen-subtitle = Agiùtane a controlâ e registraçioìn
+listen-subtitle = Agiùtane a convalidâ e registraçioìn
+listen-goal-text = Registraçioìn convalidæ
+hours-recorded = Ôe registræ
+hours-validated = Ôe validæ
 
 ## Account Benefits
 
