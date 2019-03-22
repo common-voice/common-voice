@@ -141,6 +141,8 @@ listen-subtitle = Agiùtane a convalidâ e registraçioìn
 listen-goal-text = Registraçioìn convalidæ
 hours-recorded = Ôe registræ
 hours-validated = Ôe validæ
+voices-online = Vôxe atoalménte in lìnia
+todays-progress = Progrèsso d'ancheu
 
 ## Account Benefits
 
