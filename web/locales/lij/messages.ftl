@@ -230,6 +230,50 @@ english = Ingléize
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nómme uténte
+profile-form-native-language =
+    .label = Léngoa moæ
+profile-form-additional-language =
+    .label = Âtra léngoa
+profile-form-accent =
+    .label = Acénto
+profile-form-age =
+    .label = Etæ
+profile-form-gender =
+    .label = Sèsso
+leaderboard-visibility =
+    .label = Vixibilitæ inta clasìfica
+hidden = Ascôzo
+visible = Vixìbile
+native-language =
+    .label = Léngoa moæ
+profile-form-submit-save = Sàrva
+profile-form-submit-saved = Sarvòu
+male = Màsccio
+female = Dònna
+# Gender
+other = Âtro
+why-profile-title = Perché registrâ 'n profî?
+dashboard = Panéllo
+build-profile = Crêa o teu profî
+avatar = Föto de profî
+goals = Òbietîvi
+settings = Inpostaçioìn
+edit-profile = Modìfica profî
+profile-create-success = Sucèsso, profî creòu!
+profile-close = Særa
+login-identity = Identitæ de conesción
+login-signup = Ìntra / Regìstrite
+edit = Modìfica
+email-subscriptions = Sotoscriçioìn a-a pòsta
+download-profile = Descàrega i mæ dæti
+contribution-experience = Esperiénsa de contribûti
+skip-submission-feedback = Sâta la spediçiòn di coménti
+off = Dizatîva
+on = Atîva
+add-avatar-title = Azónzi 'na föto a-o teu profî
+browse-file-title = Càrega 'na föto
 
 ## FAQ
 
