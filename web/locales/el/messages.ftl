@@ -49,6 +49,7 @@ fr = Γαλλικά
 fy-NL = Φριζιακά
 ga-IE = Ιρλανδικά
 he = Εβραϊκά
+hr = Κροατικά
 hsb = Άνω Σορβικά
 hu = Ουγγρικά
 ia = Ιντερλίνγκουα
@@ -212,6 +213,7 @@ shortcut-vote-no = χ
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = γ
 shortcut-record-toggle-label = Εγγραφή/Διακοπή
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Δεν βλέπετε τη γλώσσα σας στο Common Voice;
 request-language-button = Αίτημα για γλώσσα
 
@@ -374,6 +376,9 @@ data-other-ted-description = Το Corpus TED-LIUM δημιουργήθηκε α�
 data-other-voxforge-description = Το VoxForge  δημιουργήθηκε για τη συλλογή ομιλίας και της μεταγραφής της, για τη χρήση με μηχανές αναγνώρισης ομιλίας ανοιχτού λοσμικού.
 data-other-tatoeba-description = Το Tatoeba  είναι μια μεγάλη βάση δεδομένων προτάσεων, μεταφράσεων και ομιλίας για χρήση στην εκμάθηση γλώσσας. Η λήψη περιέχει ομιλία στα αγγλικά, που ηχογραφήθηκε από την κοινότητα.
 ready-to-validate = Είστε έτοιμοι να βοηθήσετε στην επαλήθευση προτάσεων;
+more = Περισσότερα
+close = Κλείσιμο
+download = Λήψη
 
 ## Download Modal
 
@@ -401,13 +406,13 @@ request-language-form-language =
     .label = Γλώσσα
 request-language-success-title = Η υποβολή αιτήματος γλώσσας ήταν επιτυχής, ευχαριστούμε.
 request-language-success-content = Θα σας ενημερώσουμε πώς να προσθέσετε τη γλώσσα σας στο Common Voice πολύ σύντομα.
+select-language = Επιλέξτε γλώσσα...
+other-language = Άλλη γλώσσα
 
 ## Languages Overview
 
 language-section-in-progress = Σε εξέλιξη
-language-section-in-progress-description = Οι γλώσσες υπό κατασκευή δημιουργούνται με τη συνεισφορά των κοινοτήτων μας. Η πρόοδός τους αντανακλά την πορεία της μετάφρασης της ιστοσελίδας και της συλλογής προτάσεων.
 language-section-launched = Σε λειτουργία
-language-section-launched-new-description = Για αυτές τις ενεργές γλώσσες, η ιστοσελίδα έχει μεταφραστεί επιτυχώς και έχουν συλλεχθεί αρκετές προτάσεις έτσι, ώστε να επιτρέπεται συνεχής συνεισφορά <italic>ομιλίας</italic> και <italic>ακρόασης</italic>.
 languages-show-more = Δείτε περισσότερα
 languages-show-less = Λιγότερα
 language-speakers = Ομιλητές
