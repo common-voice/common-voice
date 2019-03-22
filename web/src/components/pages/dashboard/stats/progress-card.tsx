@@ -1,6 +1,8 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { CustomGoal } from 'common/goals';
 import { DAILY_GOAL } from '../../../../constants';
 import API from '../../../../services/api';
 import { trackDashboard } from '../../../../services/tracker';
@@ -11,7 +13,7 @@ import { ALL_LOCALES } from '../../../language-select/language-select';
 import { toLocaleRouteBuilder } from '../../../locale-helpers';
 import { MicIcon, OldPlayIcon } from '../../../ui/icons';
 import { LinkButton } from '../../../ui/ui';
-import { Fraction } from '../ui';
+import { CircleProgress, Fraction } from '../ui';
 
 import './progress-card.css';
 
@@ -23,6 +25,7 @@ interface PropsFromState {
 interface Props extends PropsFromState {
   type: 'speak' | 'listen';
   locale: string;
+  customGoal?: CustomGoal;
   personalCurrent?: number;
   personalGoal?: number;
 }
@@ -52,6 +55,7 @@ class ProgressCard extends React.Component<Props, State> {
     const {
       globalLocale,
       locale,
+      customGoal,
       personalCurrent,
       personalGoal,
       type,
@@ -80,6 +84,23 @@ class ProgressCard extends React.Component<Props, State> {
             <div className="description" />
           </Localized>
           <div />
+          {customGoal ? (
+            customGoal.current[type] === undefined ? null : (
+              <Link className="custom-goal-link" to={URLS.GOALS}>
+                <CircleProgress
+                  value={customGoal.current[type] / customGoal.amount}
+                />
+                <div className="custom-goal-text">
+                  <span>Toward</span>
+                  <span>next goal</span>
+                </div>
+              </Link>
+            )
+          ) : (
+            <LinkButton className="custom-goal-button" rounded to={URLS.GOALS}>
+              Create a Custom Goal
+            </LinkButton>
+          )}
         </div>
 
         <div className="progress-wrap">

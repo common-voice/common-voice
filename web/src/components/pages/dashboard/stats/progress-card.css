@@ -15,7 +15,13 @@
 
     & .personal,
     & .overall {
-        padding: 41px 20px 41px 68px;
+        padding-right: 20px;
+        padding-left: 68px;
+        height: 130px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
         @media (--lg-down) {
             padding-left: 30px;
@@ -24,9 +30,6 @@
     }
 
     & .personal {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         background: var(--white);
 
         & .fraction {
@@ -46,6 +49,40 @@
             font-family: var(--strong-font-family);
             font-size: 20px;
             line-height: 1.4;
+        }
+
+        & .custom-goal-button {
+            border: none;
+            margin-left: auto;
+            padding: 0 30px;
+            min-width: auto;
+            height: 50px;
+            background: var(--type-color);
+            color: var(--white);
+
+            &:hover {
+                border: 1px solid var(--black);
+            }
+        }
+
+        & .custom-goal-link {
+            margin-left: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        & .custom-goal-text {
+            margin-left: 10px;
+            margin-right: 30px;
+            display: flex;
+            flex-direction: column;
+            font-size: var(--font-size-xs);
+            letter-spacing: 0.5px;
+
+            & > :first-child {
+                color: var(--warm-grey);
+            }
         }
     }
 
@@ -110,8 +147,10 @@
         }
 
         & .button {
-            flex-grow: 100;
+            margin-left: auto;
+            padding: 0 30px;
             min-width: auto;
+            min-height: 50px;
         }
     }
 }
