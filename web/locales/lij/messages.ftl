@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = Sci, màndime a pòsta eletrònica. Me piaxéiva restâ informòu in sciô progètto Common Voice.
+stayintouch = Mozilla sta costroéndo 'na comunitæ de persónn-e interesæ a-e tecnologîe vocâle. A noiâtri ne piaxéiva restâ in contàtto con ti con agiornaménti, nêuve fónte de dæti, e pe conósce cómme t'adêuvi i dæti de Common Voice.
 return-to-cv = Ritòrna a Common Voice
 email-input =
     .label = Indirìsso de pòsta eletrònica
