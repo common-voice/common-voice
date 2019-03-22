@@ -156,8 +156,10 @@ vote-yes = Sci
 vote-no = No
 toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ a letûa
 speak-subtitle = Dónn-a a teu vôxe
+speak-paragraph = La registraçión vocâle de frâze a l'é 'na pàrte fondamentâle da costruçión da nòstra bâze de dæti; segóndo çèrtidùn, a ciù diverténte ascì.
 speak-goal-text = Registraçioìn
 listen-subtitle = Agiùtane a convalidâ e registraçioìn
+listen-paragraph = Convalidâ e registraçioìn fæte da-i âtri l'é âtretànto inportànte pe-a misción de Common Voice. Séntile, e Agiùtane a creâ 'na bâze de dæti avèrta e de qualitæ.
 listen-goal-text = Registraçioìn convalidæ
 hours-recorded = Ôe registræ
 hours-validated = Ôe validæ
@@ -183,7 +185,7 @@ x-years-short =
         [one] ànno
        *[other] { $count } ànni
     }
-help-make-dataset = Agiùtane a realizâ 'na bâze de dæti de bónn-a qualitæ e pùblica
+help-make-dataset = Agiùtane a realizâ 'na bâze de dæti de âta qualitæ e pùblica
 profile-not-required = Registrâ 'n profî o no l'é òbligatöio pe colaborâ, ma o l'é incoragiòu
 sign-up-account = Regìstrite
 email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
@@ -361,6 +363,9 @@ total-hours = Ôe convalidæ
 contribute = Contriboìsci
 skip = Sâta
 contribute-more = T'ê prónto a fâne ancón { $count }?
+record-cta = Inàndia a registraçiòn
+record-platform-not-supported = A piatafórma in ûzo a no l'é atoalménte suportâ.
+record-platform-not-supported-desktop = In sce computer da scrivanîa ti peu descaregâ l'ùrtima versción:
 nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtane registràndo quàrche frâze.
 
 ## Goals
