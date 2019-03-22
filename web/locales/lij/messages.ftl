@@ -212,6 +212,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Regìstra/Interónpi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regìstra tórna
+request-language-text = No t'atròvi a teu léngoa in sce Common Voice?
 request-language-button = Propónn-i 'na léngoa
 
 ## ProjectStatus
@@ -263,6 +264,7 @@ settings = Inpostaçioìn
 edit-profile = Modìfica profî
 profile-create-success = Sucèsso, profî creòu!
 profile-close = Særa
+why-demographic = Perché l'é inportànte?
 login-identity = Identitæ de conesción
 login-signup = Ìntra / Regìstrite
 edit = Modìfica
@@ -290,26 +292,41 @@ faq-why-important-q = Perché a l'é inportànte?
 faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
 faq-when-release-q = Quànde saiàn pùblicæ i dæti de Common Voice in âtre léngoe?
 faq-why-mission-q = In che mòddo Common Voice o l'é pàrte da misción de Mozilla?
+faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçiòn l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 
 ## Glossary
 
+glossary = Glosâio
+localization = Localizaçiòn
 sentence-collection = Coleçión de frâze
+sst = Riconosciménto vocâle (Speech-to-text, STT)
+sst-explanation = E tecnologîe de riconosciménto vocâle (Speech-to-text, STT) convèrtan o parlòu in tèsto.
 
 ## NotFound
 
+notfound-title = No trovòu
+notfound-content = Inposcìbile trovâ i contegnûi çercæ.
 
 ## Data
 
+data-download-button = Descàrega i dæti de Common Voice
+data-download-yes = Sci
+data-download-deny = No
+data-download-license = Licénsa: <licenseLink>CC-0</licenseLink>
 
 ## New Datasets Page
 
 validated-hr-total = Totâle d'ôe convalidæ
+email-to-download = Inserìsci o teu indirìsso de pòsta eletrònica pe inandiâ o descaregaménto
 validated-hours = Ôe convalidæ
 ready-to-validate = T'ê prónto a convalidâ e frâze?
 
 ## Download Modal
 
+download-form-email =
+    .label = Inserìsci o teu indirìsso de pòsta eletrònica
+    .value = Graçie, te contatiêmo fîto.
 
 ## Contact Modal
 

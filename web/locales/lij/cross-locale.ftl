@@ -7,5 +7,7 @@ get-involved-text = Gràçie pe-o teu interèsse a contriboî into { $lang }. No
 get-involved-form-title = Regìstrite pe riçéive agiornaménti in sciâ léngoa { $lang }:
 get-involved-email =
     .label = Indirìsso de pòsta eletrònica
+get-involved-opt-in = Sci, màndime a pòsta eletrònica. Me piaxéiva restâ informòu in scî progrèssi de Common Voice in sta léngoa.
 get-involved-submit = Invîa
+get-involved-success-title = Ti t'é registròu cómme colaboratô pe-a léngoa { $language }. Gràçie.
 get-involved-return-to-languages = Ritòrna a-e léngoe
