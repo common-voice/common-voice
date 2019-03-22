@@ -137,6 +137,7 @@ home-cta = Dìnni quarcösa! Sciàcca chi pe contriboî!
 show-wall-of-text = Informaçioìn in ciù
 help-us-title = Agiùtane a convalidâ e frâze!
 help-us-explain = Sciàcca Riprodûxi, sénti e dìnine: l'àn dîta bèn a frâze chi de sótta?
+no-clips-to-validate = Pâ che no ghe són registraçioìn in sta léngoa. Contriboìsci registràndo quarcösa.
 vote-yes = Sci
 vote-no = No
 toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ a letûa
@@ -168,6 +169,8 @@ x-years-short =
         [one] ànno
        *[other] { $count } ànni
     }
+help-make-dataset = Agiùtane a realizâ 'na bâze de dæti de bónn-a qualitæ e pùblica
+profile-not-required = Registrâ 'n profî o no l'é òbligatöio pe colaborâ, ma o l'é incoragiòu
 sign-up-account = Regìstrite
 email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
 
@@ -179,8 +182,9 @@ benefits = Avantàggi
 
 whats-public = Quæ dæti són pùblici?
 email-not-public = No rendiêmo o teu indirìsso de pòsta eletrònica pùblico.
-recordings-and-locale-public = O nùmero de registraçioìn e e léngoe a-e quæ contriboîsci saiàn pùblici.
+recordings-and-locale-public = O nùmero de registraçioìn e e léngoe a-e quæ contriboìsci saiàn pùblici.
 username-optin-public = Ti peu çèrne de rénde o teu nómme uténte pùblico ò anònimo.
+username-email-not-demographic = O teu nómme uténte e indirìsso de pòsta eletrònica no saiàn asociæ a-i dæti pùblici.
 
 ## Speak & Listen Shortcuts
 
@@ -205,15 +209,24 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Regìstra/Interónpi
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Regìstra tórna
+request-language-button = Propónn-i 'na léngoa
 
 ## ProjectStatus
 
+status-title = Condiçión generâle do progètto: amîa quànta stràdda émmo fæto!
 status-contribute = Dónn-a a teu vôxe
 status-hours =
     { $hours ->
         [one] N'ôa convalidâ scìnn-a chi
        *[other] { $hours } ôe convalidæ scìnn-a chi
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Pròscimo tragoàrdo: { $goal }
+english = Ingléize
 
 ## ProfileForm
 
@@ -253,9 +266,10 @@ total-hours = Ôe convalidæ
 
 ## New Contribution
 
-contribute = Contriboîsci
+contribute = Contriboìsci
 skip = Sâta
 contribute-more = T'ê prónto a fâne ancón { $count }?
+nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtane registràndo quàrche frâze.
 
 ## Goals
 
@@ -263,6 +277,8 @@ contribute-more = T'ê prónto a fâne ancón { $count }?
 ## Dashboard
 
 clips-you-validated = Registraçioìn quæ t'æ convalidòu
+todays-validated-progress = O progrèsso de Common Voice d'ancheu in scê registraçioìn convalidæ
+validated-clips = Registraçioìn convalidæ
 
 ## Profile Delete
 
