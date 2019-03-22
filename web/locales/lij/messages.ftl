@@ -173,15 +173,33 @@ benefits = Avantàggi
 ## What's public
 
 whats-public = Quæ dæti són pùblici?
+email-not-public = No rendiêmo o teu indirìsso de pòsta eletrònica pùblico.
+recordings-and-locale-public = O nùmero de registraçioìn e e léngoe a-e quæ contriboîsci saiàn pùblici.
+username-optin-public = Ti peu çèrne de rénde o teu nómme uténte pùblico ò anònimo.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Riprodûxi/Interónpi
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 
 ## ProjectStatus
 
@@ -218,6 +236,7 @@ whats-public = Quæ dæti són pùblici?
 
 ## New Contribution
 
+skip = Sâta
 
 ## Goals
 
