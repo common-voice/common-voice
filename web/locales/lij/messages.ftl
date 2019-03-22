@@ -2,11 +2,13 @@
 
 yes-receive-emails = Sci, màndime a pòsta eletrònica. Me piaxéiva restâ informòu in sciô progètto Common Voice.
 stayintouch = Mozilla sta costroéndo 'na comunitæ de persónn-e interesæ a-e tecnologîe vocâle. A noiâtri ne piaxéiva restâ in contàtto con ti con agiornaménti, nêuve fónte de dæti, e pe conósce cómme t'adêuvi i dæti de Common Voice.
+privacy-info = Prométemmo de gestî e teu informaçioìn personæ con cûra. Lêzi de ciù inta nòstra <privacyLink>informatìva in sciâ privacy</privacyLink>.
 return-to-cv = Ritòrna a Common Voice
 email-input =
     .label = Indirìsso de pòsta eletrònica
 submit-form-action = Invîa
 loading = Caregaménto...
+email-opt-in-privacy = Çernéndo de riçéive a pòsta eletrònica, acètti che Mozilla utilîze ste informaçioìn cómme l'é riportòu inta <privacyLink>informatìva in sciâ privacy</privacyLink> de Mozilla.
 indicates-required = * ìndica 'n cànpo òbligatöio
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -128,13 +130,16 @@ privacy = Vìtta privâ
 terms = Condiçioìn
 cookies = Cookie
 faq = Domànde frequénte
+content-license-text = Contegnûo disponìbile sótta <licenseLink>licénsa Creative Commons </licenseLink>
 share-title = Agiùtane a trovâ âtri donatoî de vôxe!
+share-text = Agiùtta a mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ: dónn-a a teu vôxe in sce { $link }
 link-copied = Colegaménto copiòu
 back-top = Vànni in çìmma
 logout = Desconétite
 
 ## Home Page
 
+home-title = O progètto Common Voice o l'é 'n'iniçiatîva de Mozilla pe mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ.
 home-cta = Dìnni quarcösa! Sciàcca chi pe contriboî!
 show-wall-of-text = Informaçioìn in ciù
 help-us-title = Agiùtane a convalidâ e frâze!
