@@ -136,6 +136,7 @@ logout = Desconétite
 home-cta = Dìnni quarcösa! Sciàcca chi pe contriboî!
 show-wall-of-text = Informaçioìn in ciù
 help-us-title = Agiùtane a convalidâ e frâze!
+help-us-explain = Sciàcca Riprodûxi, sénti e dìnine: l'àn dîta bèn a frâze chi de sótta?
 vote-yes = Sci
 vote-no = No
 toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ a letûa
@@ -208,15 +209,22 @@ shortcut-record-toggle = r
 ## ProjectStatus
 
 status-contribute = Dónn-a a teu vôxe
+status-hours =
+    { $hours ->
+        [one] N'ôa convalidâ scìnn-a chi
+       *[other] { $hours } ôe convalidæ scìnn-a chi
+    }
 
 ## ProfileForm
 
 
 ## FAQ
 
+faq-why-10k-hours-q = Perché l'òbietîvo de registraçiòn l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 
 ## Glossary
 
+sentence-collection = Coleçión de frâze
 
 ## NotFound
 
@@ -226,6 +234,9 @@ status-contribute = Dónn-a a teu vôxe
 
 ## New Datasets Page
 
+validated-hr-total = Totâle d'ôe convalidæ
+validated-hours = Ôe convalidæ
+ready-to-validate = T'ê prónto a convalidâ e frâze?
 
 ## Download Modal
 
@@ -238,6 +249,7 @@ status-contribute = Dónn-a a teu vôxe
 
 ## Languages Overview
 
+total-hours = Ôe convalidæ
 
 ## New Contribution
 
@@ -250,6 +262,7 @@ contribute-more = T'ê prónto a fâne ancón { $count }?
 
 ## Dashboard
 
+clips-you-validated = Registraçioìn quæ t'æ convalidòu
 
 ## Profile Delete
 
