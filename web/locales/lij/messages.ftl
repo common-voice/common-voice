@@ -373,6 +373,18 @@ record-error-too-short = A registraçión a l'é tròppu brêve.
 record-error-too-long = A registraçión a l'é tròppu lónga.
 record-error-too-quiet = O volùmme da registraçión o l'é tròppu bàsso.
 record-cancel = Anùlla  a nêuva registraçión.
+record-instruction = { $actionType }<recordIcon></recordIcon>, pöi lêzi a frâze a vôxe èrta
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> quànde t'æ finîo
+record-three-more-instruction = Ancón træ!
+record-again-instruction = Benìscimo! <recordIcon></recordIcon> Regìstra a pròscima
+record-again-instruction2 = Contìnoa coscì, regìstra tórna <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> L'ùrtima!
+review-tooltip = Sénti tórna e registraçioìn e, se l'é necesâio, ripêtile
+unable-speak = No pòsso parlâ in sto moménto
+review-instruction = Sénti tórna e registraçioìn e, se l'é necesâio, ripêtile
+record-submit-tooltip = { $actionType } Invîa quànde t'é prónto
+clips-uploaded = Registraçioìn caregæ
+record-abort-title = No ti veu finî a registraçiòn prìmma?
 nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtane registràndo quàrche frâze.
 
 ## Goals
