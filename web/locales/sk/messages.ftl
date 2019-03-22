@@ -205,6 +205,7 @@ benefits = Výhody
 
 whats-public = Čo všetko zverejňujeme?
 email-not-public = Vašu e-mailovú adresu nezverejňujeme.
+username-optin-public = Môžete si vybrať, či bude vaše používateľské meno verejné alebo anonymné.
 demographic-deidentified = Dobrovoľne poskytnuté demografické údaje (vek, pohlavie a prízvuk) sú anonymizované a nikdy nebudú zverejnené na vašom profile.
 username-email-not-demographic = Vaše používateľské meno a e-mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
 
@@ -278,6 +279,7 @@ other = Iné
 why-profile-title = Prečo chcete profil?
 why-profile-text = Tým, že nám o sebe poskytnete nejaké informácie, budú údaje, ktoré odošlete do Common Voice, užitočnejšie pre systémy rozpoznávania reči, ktoré tieto údaje využívajú na zvýšenie presnosti.
 dashboard = Nástenka
+build-profile = Vytvorenie profilu
 avatar = Avatar
 goals = Ciele
 settings = Nastavenia
@@ -313,12 +315,17 @@ add-language = Pridať jazyk
 
 faq-title = Často kladené otázky
 faq-what-cv-q = Čo je Common Voice?
+faq-why-important-q = Prečo je to dôležité?
+faq-how-get-q = Ako môžem získať údaje služby Common Voice?
+faq-how-get-a = Dataset služby Common Voice je dostupný na prevzatie v rámci licencie <licenseLink>CC0</licenseLink> na <datasetLink>stránke našich datasetov</datasetLink>. Z tej istej stránky si taktiež môžete prevziať niekoľko ďalších verejne dostupných datasetov.
 faq-when-release-q = Kedy uverejníte údaje projektu Common Voice aj v ďalších jazykoch?
+faq-when-release-a = Viacjazyčná verzia Common Voice datasetu v súčastnosti prechádza čistením a spájaním. Ak sa chcete dozvedieť viac o tom, ako podporiť toto úsilie, prosím, <contactLink>kontaktujte nás</contactLink>. Momentálne plánujeme dátum vydania na január 2019. Po tomto dátume budeme pravidelne aktualizovať dataset novými jazykmi a hlasovými klipmi, keď budú k dispozícii. Frekvencia pravidelného vydavateľského cyklu ešte stále nie je určená.
 faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
 faq-what-cv-and-deepspeech-q = Aký je rozdiel medzi projektami Common Voice a Deep Speech?
 faq-is-goal-assistant-q = Je cieľom projektu Common Voice vytvorenie hlasového asistenta?
 faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
 faq-how-calc-hours-q = Ako projekt Common Voice počíta nahrané hodiny?
+faq-how-calc-hours-a = Hodiny počítame odhadom priemernej dĺžky každého záznamu, ktorú potom vynásobíme celkovým počtom záznamov vo všetkých jazykoch.
 faq-where-src-from-2-q = Odkiaľ pochádza zdrojový text?
 faq-is-account-public-q = Sú informácie o mojom účte verejne prístupné?
 
