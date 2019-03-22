@@ -309,7 +309,7 @@ faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
 faq-when-release-q = Quànde saiàn pùblicæ i dæti de Common Voice in âtre léngoe?
 faq-why-mission-q = In che mòddo Common Voice o l'é pàrte da misción de Mozilla?
 faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
-faq-why-10k-hours-q = Perché l'òbietîvo de registraçiòn l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
+faq-why-10k-hours-q = Perché l'òbietîvo de registraçión l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 
 ## Glossary
 
@@ -363,9 +363,16 @@ total-hours = Ôe convalidæ
 contribute = Contriboìsci
 skip = Sâta
 contribute-more = T'ê prónto a fâne ancón { $count }?
-record-cta = Inàndia a registraçiòn
+record-cta = Inàndia a registraçión
 record-platform-not-supported = A piatafórma in ûzo a no l'é atoalménte suportâ.
 record-platform-not-supported-desktop = In sce computer da scrivanîa ti peu descaregâ l'ùrtima versción:
+record-platform-not-supported-ios = I uténti de <bold>iOS</bold> pêuan descaregâ a nòstra aplicaçión de bàdda:
+record-must-allow-microphone = L'é necesâio consentî l'acesso a-o micròfono do dispoxitîvo.
+record-no-mic-found = Inposcìbile trovâ o micròfono.
+record-error-too-short = A registraçión a l'é tròppu brêve.
+record-error-too-long = A registraçión a l'é tròppu lónga.
+record-error-too-quiet = O volùmme da registraçión o l'é tròppu bàsso.
+record-cancel = Anùlla  a nêuva registraçión.
 nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtane registràndo quàrche frâze.
 
 ## Goals
