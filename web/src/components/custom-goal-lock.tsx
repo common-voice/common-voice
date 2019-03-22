@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { isProduction } from '../utility';
 import StateTree from '../stores/tree';
 import { User } from '../stores/user';
+import { ALL_LOCALES } from './language-select/language-select';
 
 const CUSTOM_GOAL_LOCALE = 'en';
 
@@ -12,20 +13,23 @@ interface PropsFromState {
 }
 
 type Props = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
+  render?: (args: { hasCustomGoal: boolean }) => React.ReactNode;
   currentLocale?: string;
 } & PropsFromState;
 
 class CustomGoalLock extends React.Component<Props> {
   render() {
-    const { children, currentLocale, locale, user } = this.props;
-    return !isProduction() &&
+    const { children, currentLocale, locale, render, user } = this.props;
+    const hasCustomGoal =
+      !isProduction() &&
       user.account &&
       (user.account.locales.some(l => l.locale == CUSTOM_GOAL_LOCALE) ||
         locale == CUSTOM_GOAL_LOCALE) &&
-      (!currentLocale || currentLocale == CUSTOM_GOAL_LOCALE)
-      ? children
-      : null;
+      (!currentLocale ||
+        currentLocale == CUSTOM_GOAL_LOCALE ||
+        currentLocale == ALL_LOCALES);
+    return render ? render({ hasCustomGoal }) : hasCustomGoal ? children : null;
   }
 }
 

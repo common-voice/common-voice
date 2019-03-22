@@ -1,7 +1,8 @@
 @import url('../../vars.css');
 
 .stats,
-.goals {
+.goals,
+.awards {
     & header {
         @media (--lg-up) {
             max-width: var(--wide-desktop-width);
@@ -25,7 +26,8 @@
     max-width: initial !important;
     padding: 0 !important;
 
-    & .inner {
+    & .inner,
+    & .top-bar {
         margin: 0 auto;
         max-width: var(--wide-desktop-width);
         box-sizing: border-box;

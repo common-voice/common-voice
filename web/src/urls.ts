@@ -16,6 +16,7 @@ export default Object.freeze({
   STATS: '/stats',
   PROFILE_GOALS: PROFILE_ROOT + '/goals', // old, here for redirect purposes
   GOALS: '/goals',
+  AWARDS: '/awards',
 
   DATA: '/data', // old, here for redirect purposes
   DATASETS: '/datasets',

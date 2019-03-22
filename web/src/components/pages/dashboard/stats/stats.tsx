@@ -7,7 +7,7 @@ import StatsCard from './stats-card';
 
 import './stats.css';
 
-const Stats = ({ allGoals, locale }: Props) =>
+const StatsPage = ({ allGoals, locale }: Props) =>
   allGoals ? (
     <div className="stats-page">
       <div className="cards">
@@ -54,4 +54,4 @@ const Stats = ({ allGoals, locale }: Props) =>
     </div>
   ) : null;
 
-export default Stats;
+export default StatsPage;

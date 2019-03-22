@@ -1,6 +1,5 @@
 import * as React from 'react';
 import CustomGoalLock from '../../../custom-goal-lock';
-import { ALL_LOCALES } from '../../../language-select/language-select';
 import Props from '../props';
 import CustomGoal from './custom-goal';
 import GoalRow from './goal-row';
@@ -16,7 +15,7 @@ const GoalsPage = ({ allGoals, locale, saveCustomGoal }: Props) => (
         ))}
     </div>
     {allGoals && (
-      <CustomGoalLock currentLocale={locale == ALL_LOCALES ? null : locale}>
+      <CustomGoalLock currentLocale={locale}>
         <CustomGoal
           customGoal={allGoals.customGoal}
           saveCustomGoal={saveCustomGoal}

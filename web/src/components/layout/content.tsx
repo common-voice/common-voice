@@ -63,7 +63,7 @@ export default localeConnector(
             component={ProfileLayoutPage}
           />
           <Route
-            path={[URLS.STATS, URLS.GOALS].map(toLocaleRoute)}
+            path={[URLS.STATS, URLS.GOALS, URLS.AWARDS].map(toLocaleRoute)}
             component={DashboardPage}
           />
           <Route

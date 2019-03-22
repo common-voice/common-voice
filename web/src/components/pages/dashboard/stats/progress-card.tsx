@@ -84,7 +84,7 @@ class ProgressCard extends React.Component<Props, State> {
             id={isSpeak ? 'clips-you-recorded' : 'clips-you-validated'}>
             <div className="description" />
           </Localized>
-          <CustomGoalLock currentLocale={locale == ALL_LOCALES ? null : locale}>
+          <CustomGoalLock currentLocale={locale}>
             <div className="custom-goal-section">
               {customGoal ? (
                 customGoal.current[type] === undefined ? null : (
