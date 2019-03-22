@@ -141,6 +141,8 @@ logout = Desconétite
 
 home-title = O progètto Common Voice o l'é 'n'iniçiatîva de Mozilla pe mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ.
 home-cta = Dìnni quarcösa! Sciàcca chi pe contriboî!
+wall-of-text-start = A vôxe a l'é naturâle, a vôxe a l'é umanitæ. L'é pe quésto che l'idêa de creâ 'na tecnologìa vocâle utilizàbile da-e nòstre màchine ne incànta così tànto. Ma pe creâ scistêmi bazæ in scê tecnologîe vocâle, l'é necesâio 'n fràcco de registraçioìn.
+wall-of-text-more-mobile = 'Na bónn-a pàrte di dæti uzæ de grénde aziénde a no l'é acescìbile a-a magiorànsa de persónn-e. Segóndo noiâtri, quésto o sófoca l'inovaçión. Dónca émmo creòu Common Voice, un progètto pe agiuttâ a rénde o riconosciménto vocâle avèrto a tùtti.
 show-wall-of-text = Informaçioìn in ciù
 help-us-title = Agiùtane a convalidâ e frâze!
 help-us-explain = Sciàcca Riprodûxi, sénti e dìnine: l'àn dîta bèn a frâze chi de sótta?
