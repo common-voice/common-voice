@@ -143,12 +143,36 @@ hours-recorded = Ôe registræ
 hours-validated = Ôe validæ
 voices-online = Vôxe atoalménte in lìnia
 todays-progress = Progrèsso d'ancheu
+help-reach-goal = Agiùtane a arivâ a { $goal }
+read-terms-q = T'æ lètto e condiçioìn d'ûzo do servìçio?
+ready-to-record = T'ê prónto a donâ a teu vôxe?
+all-locales = Tùtto
+today = Ancheu
+x-weeks-short =
+    { $count ->
+        [one] setemànn-a
+       *[other] { $count } set.
+    }
+x-months-short =
+    { $count ->
+        [one] méize
+       *[other] { $count } méixi
+    }
+x-years-short =
+    { $count ->
+        [one] ànno
+       *[other] { $count } ànni
+    }
+sign-up-account = Regìstrite
+email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
 
 ## Account Benefits
 
+benefits = Avantàggi
 
 ## What's public
 
+whats-public = Quæ dæti són pùblici?
 
 ## Speak & Listen Shortcuts
 
