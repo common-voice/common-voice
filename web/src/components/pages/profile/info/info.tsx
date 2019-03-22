@@ -202,7 +202,7 @@ class ProfilePage extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString, user } = this.props;
+    const { getString, locale, user } = this.props;
     const {
       username,
       sendEmails,
@@ -337,8 +337,11 @@ class ProfilePage extends React.Component<Props, State> {
               </Tooltip>
 
               <div className="checkboxes">
-                <Localized id="keep-me-posted" attrs={{ label: true }}>
+                <Localized
+                  id={locale == 'en' ? '' : 'keep-me-posted'}
+                  attrs={{ label: true }}>
                   <LabeledCheckbox
+                    label="I’d like updates and goal reminders to keep current with Common Voice"
                     onChange={this.handleChangeFor('sendEmails')}
                     checked={sendEmails}
                   />

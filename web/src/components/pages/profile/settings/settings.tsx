@@ -45,6 +45,7 @@ const Section = ({
 
 interface PropsFromState {
   account: UserClient;
+  locale: string;
 }
 
 interface PropsFromDispatch {
@@ -55,7 +56,7 @@ interface PropsFromDispatch {
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 function Settings(props: Props) {
-  const { account, addNotification, getString, saveAccount } = props;
+  const { account, addNotification, getString, locale, saveAccount } = props;
   const firstLanguage = account.locales[0];
 
   useEffect(() => {
@@ -114,8 +115,14 @@ function Settings(props: Props) {
             </a>
           }>
           <div className="email-section">
-            <Localized id="keep-me-posted" attrs={{ label: true }}>
-              <LabeledCheckbox disabled={true} checked={true} />
+            <Localized
+              id={locale == 'en' ? '' : 'keep-me-posted'}
+              attrs={{ label: true }}>
+              <LabeledCheckbox
+                disabled={true}
+                checked={true}
+                label="I’d like updates and goal reminders to keep current with Common Voice"
+              />
             </Localized>
             <div className="privacy-and-terms">
               <InfoIcon />
@@ -176,8 +183,9 @@ function Settings(props: Props) {
 }
 
 export default connect<PropsFromState, PropsFromDispatch>(
-  ({ api, user }: StateTree) => ({
+  ({ locale, user }: StateTree) => ({
     account: user.account,
+    locale,
   }),
   {
     addNotification: Notifications.actions.add,

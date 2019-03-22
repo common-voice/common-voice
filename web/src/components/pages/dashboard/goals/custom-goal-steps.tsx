@@ -132,7 +132,7 @@ export default [
       <label className="box">
         <input type="checkbox" />
         <div className="content">
-          Email me personal goal reminders to help me stay on track
+          I’d like updates and goal reminders to keep current with Common Voice
         </div>
       </label>
       <Localized
