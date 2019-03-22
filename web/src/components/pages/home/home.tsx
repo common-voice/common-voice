@@ -26,7 +26,7 @@ function RegisterSection(props: { locale: string }) {
       <div className="tabs">
         <img
           className="waves"
-          src={require('img/signup-waves.png')}
+          src={require('./signup-waves.png')}
           alt="Waves"
         />
         {['benefits', 'whats-public'].map(l => (
@@ -94,11 +94,10 @@ function RegisterSection(props: { locale: string }) {
           {info}
         </div>
         <div className="images-container">
-          <img className="mars" src={require('img/mars.svg')} alt="Mars" />
+          <img className="mars" src={require('./mars.svg')} alt="Mars" />
           <img
             className="screenshot"
-            src={require(`img/screenshots/${isBenefits ? 1 : 2}-${index +
-              1}.png`)}
+            src={require(`./${isBenefits ? 1 : 2}-${index + 1}.png`)}
             alt=""
           />
         </div>
@@ -162,14 +161,10 @@ function HomePage({ heroes, locale, user }: PropsFromState) {
             <div className="non-contributable-hero">
               <img
                 className="fading"
-                src={require('img/fading.svg')}
+                src={require('./fading.svg')}
                 alt="Fading"
               />
-              <img
-                className="waves"
-                src={require('img/home-waves/speak.svg')}
-                alt="Waves"
-              />
+              <img className="waves" src={require('./speak.svg')} alt="Waves" />
             </div>
           )
         }
@@ -230,7 +225,7 @@ function HomePage({ heroes, locale, user }: PropsFromState) {
       {user.account ? (
         <section className="contribute-section">
           <div className="mars-container">
-            <img src={require('img/mars.svg')} alt="Mars" />
+            <img src={require('./mars.svg')} alt="Mars" />
           </div>
           <div className="cta">
             <ContributableLocaleLock

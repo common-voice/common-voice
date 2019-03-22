@@ -26,13 +26,13 @@
 
         @media (--md-down) {
             min-height: 475px;
-            background: url('~img/datasets/waves-md.svg');
+            background: url('image/waves-md.svg');
             background-size: cover;
         }
 
         @media (--lg-up) {
             min-height: 520px;
-            background: url('~img/datasets/waves.png');
+            background: url('image/waves.png');
             background-size: cover;
 
             & > * {

@@ -82,7 +82,7 @@
             appearance: none;
             font-family: var(--base-font-family);
             background-size: 10px;
-            background: url('~img/down-arrow.svg') no-repeat top 5px right 5px;
+            background: url('./down-arrow.svg') no-repeat top 5px right 5px;
 
             @media (--md-down) {
                 width: initial;
