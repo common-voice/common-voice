@@ -1,9 +1,11 @@
 ## General
 
+return-to-cv = Ritòrna a Common Voice
 email-input =
     .label = Indirìsso de pòsta eletrònica
 submit-form-action = Invîa
 loading = Caregaménto...
+indicates-required = * ìndica 'n cànpo òbligatöio
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -124,6 +126,7 @@ privacy = Vìtta privâ
 terms = Condiçioìn
 cookies = Cookie
 faq = Domànde frequénte
+share-title = Agiùtane a trovâ âtri donatoî de vôxe!
 link-copied = Colegaménto copiòu
 back-top = Vànni in çìmma
 logout = Desconétite
@@ -132,10 +135,11 @@ logout = Desconétite
 
 home-cta = Dìnni quarcösa! Sciàcca chi pe contriboî!
 show-wall-of-text = Informaçioìn in ciù
+help-us-title = Agiùtane a convalidâ e frâze!
 vote-yes = Sci
 vote-no = No
 toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ a letûa
-speak-subtitle = Dònn-a a teu vôxe
+speak-subtitle = Dónn-a a teu vôxe
 speak-goal-text = Registraçioìn
 listen-subtitle = Agiùtane a convalidâ e registraçioìn
 listen-goal-text = Registraçioìn convalidæ
@@ -203,6 +207,7 @@ shortcut-record-toggle = r
 
 ## ProjectStatus
 
+status-contribute = Dónn-a a teu vôxe
 
 ## ProfileForm
 
@@ -236,7 +241,9 @@ shortcut-record-toggle = r
 
 ## New Contribution
 
+contribute = Contriboîsci
 skip = Sâta
+contribute-more = T'ê prónto a fâne ancón { $count }?
 
 ## Goals
 
