@@ -10,4 +10,5 @@ get-involved-email =
 get-involved-opt-in = Sci, màndime a pòsta eletrònica. Me piaxéiva restâ informòu in scî progrèssi de Common Voice in sta léngoa.
 get-involved-submit = Invîa
 get-involved-success-title = Ti t'é registròu cómme colaboratô pe-a léngoa { $language }. Gràçie.
+get-involved-success-text = Te contatiêmo cómme saiàn disponìbili nêuvi agiornaménti.
 get-involved-return-to-languages = Ritòrna a-e léngoe
