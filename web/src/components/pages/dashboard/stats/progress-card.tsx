@@ -9,6 +9,7 @@ import { trackDashboard } from '../../../../services/tracker';
 import URLS from '../../../../urls';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
+import CustomGoalLock from '../../../custom-goal-lock';
 import { ALL_LOCALES } from '../../../language-select/language-select';
 import { toLocaleRouteBuilder } from '../../../locale-helpers';
 import { MicIcon, OldPlayIcon } from '../../../ui/icons';
@@ -83,29 +84,30 @@ class ProgressCard extends React.Component<Props, State> {
             id={isSpeak ? 'clips-you-recorded' : 'clips-you-validated'}>
             <div className="description" />
           </Localized>
-          <div />
-          <div className="custom-goal-section">
-            {customGoal ? (
-              customGoal.current[type] === undefined ? null : (
-                <Link className="custom-goal-link" to={URLS.GOALS}>
-                  <CircleProgress
-                    value={customGoal.current[type] / customGoal.amount}
-                  />
-                  <div className="custom-goal-text">
-                    <span>Toward</span>
-                    <span>next goal</span>
-                  </div>
-                </Link>
-              )
-            ) : (
-              <LinkButton
-                className="custom-goal-button"
-                rounded
-                to={URLS.GOALS}>
-                Create a Custom Goal
-              </LinkButton>
-            )}
-          </div>
+          <CustomGoalLock currentLocale={locale == ALL_LOCALES ? null : locale}>
+            <div className="custom-goal-section">
+              {customGoal ? (
+                customGoal.current[type] === undefined ? null : (
+                  <Link className="custom-goal-link" to={URLS.GOALS}>
+                    <CircleProgress
+                      value={customGoal.current[type] / customGoal.amount}
+                    />
+                    <div className="custom-goal-text">
+                      <span>Toward</span>
+                      <span>next goal</span>
+                    </div>
+                  </Link>
+                )
+              ) : (
+                <LinkButton
+                  className="custom-goal-button"
+                  rounded
+                  to={URLS.GOALS}>
+                  Create a Custom Goal
+                </LinkButton>
+              )}
+            </div>
+          </CustomGoalLock>
         </div>
 
         <div className="progress-wrap">

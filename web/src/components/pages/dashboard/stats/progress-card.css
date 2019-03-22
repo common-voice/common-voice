@@ -60,6 +60,8 @@
         }
 
         & .custom-goal-section {
+            margin-left: auto;
+
             @media (--md-down) {
                 width: 100%;
             }
@@ -71,7 +73,6 @@
 
         & .custom-goal-button {
             border: none;
-            margin-left: auto;
             padding: 0 30px;
             min-width: auto;
             height: 50px;
