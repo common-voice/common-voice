@@ -341,9 +341,13 @@ cv-license = Licensa
 email-to-download = Inserìsci o teu indirìsso de pòsta eletrònica pe inandiâ o descaregaménto
 validated-hours = Ôe convalidæ
 ready-to-validate = T'ê prónto a convalidâ e frâze?
+more = Âtro
+close = Særa
+download = Descàrega
 
 ## Download Modal
 
+download-title = Descaregaménto comensòu
 download-form-email =
     .label = Inserìsci o teu indirìsso de pòsta eletrònica
     .value = Graçie, te contatiêmo fîto.
