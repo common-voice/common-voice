@@ -297,7 +297,7 @@ connect-gravatar = Conétti con Gravatar
 gravatar_not_found = Nisciùn profî Gravatar asociòu a-o teu indirìsso de pòsta eletrònica
 file_too_large = O schedâio seleçionòu o l'é tròppo grànde
 manage-subscriptions = Gestìsci e sotoscriçioìn
-email-already-used = Sto indirìsso de pòsta o l'é za in ûzo pe 'n âtro cònto
+email-already-used = Sto indirìsso de pòsta o l'é za in ûzo pe 'n âtro cónto
 add-language = Azónzi léngoa
 change-email-setings = Modìfica a teu indirìsso de pòsta eletrònica da-e impostaçioìn, a-a vôxe Identitæ de conesción
 
@@ -314,6 +314,8 @@ faq-is-goal-assistant-q = L'òbietîvo de Common Voice l'é de prodûe 'n ascist
 faq-why-different-speakers-q = Perché éi bezéugno de coscì tànte vôxe pe ògni léngoa?
 faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçión l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
+faq-where-src-from-2-q = Dónde o vêgne o tésto d'òrìgine?
+faq-why-account-q = Perché mi doviæ registrâ 'n cónto?
 
 ## Glossary
 
@@ -322,6 +324,7 @@ localization = Localizaçiòn
 sentence-collection = Coleçión de frâze
 sst = Riconosciménto vocâle (Speech-to-text, STT)
 sst-explanation = E tecnologîe de riconosciménto vocâle (Speech-to-text, STT) convèrtan o parlòu in tèsto.
+de-identified = Anonimizòu
 
 ## NotFound
 
@@ -334,6 +337,7 @@ data-download-button = Descàrega i dæti de Common Voice
 data-download-yes = Sci
 data-download-deny = No
 data-download-license = Licénsa: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Instruçioìn pe-o riconosciménto vocâle</speechBlogLink>
 data-other-title = Âtri dataset vocâle...
 data-other-goto = Vànni a { $name }
 data-other-download = Descàrega i dæti
@@ -465,6 +469,8 @@ record-abort-submit = Invîa e registraçioìn
 record-abort-continue = Tèrmina a registraçión
 record-abort-delete = Sciòrti e scancèlla e registraçioìn
 nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtane registràndo quàrche frâze.
+record-button-label = Regìstra a teu vôxe
+share-title-new = <bold>Agiùtane</bold> a trovâ âtre vôxe
 
 ## Goals
 
