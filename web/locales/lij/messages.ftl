@@ -330,6 +330,14 @@ data-download-button = Descàrega i dæti de Common Voice
 data-download-yes = Sci
 data-download-deny = No
 data-download-license = Licénsa: <licenseLink>CC-0</licenseLink>
+review-aborted = Caregaménto anulòu. Ti veu scancelâ e teu registraçioìn?
+review-submit-title = Sénti tórna e spedìsci
+review-submit-msg = Graçie pe-o teu contribûto!<lineBreak></lineBreak>Òua sénti tórna e registraçioìn chi de sótta e çèrni se spedîle.
+review-recording = Sénti tórna
+review-rerecord = Régistra tórna
+review-cancel = Scancélla a spediçión
+review-keep-recordings = Consèrva e registraçioìn
+review-delete-recordings = Scancèlla e mæ registraçioìn
 
 ## New Datasets Page
 
@@ -337,6 +345,7 @@ language = Lengoa
 # File size in gigabytes
 size = Dimenscion
 validated-hr-total = Totâle d'ôe convalidæ
+overall-hr-total = Totâle d'ôe conplescìve
 cv-license = Licensa
 audio-format = Formòu òudio
 number-of-voices = Nùmero de vôxe
