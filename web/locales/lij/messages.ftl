@@ -299,6 +299,7 @@ file_too_large = O schedâio seleçionòu o l'é tròppo grànde
 manage-subscriptions = Gestìsci e sotoscriçioìn
 email-already-used = Sto indirìsso de pòsta o l'é za in ûzo pe 'n âtro cònto
 add-language = Azónzi léngoa
+change-email-setings = Modìfica a teu indirìsso de pòsta eletrònica da-e impostaçioìn, a-a vôxe Identitæ de conesción
 
 ## FAQ
 
@@ -308,6 +309,9 @@ faq-why-important-q = Perché a l'é inportànte?
 faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
 faq-when-release-q = Quànde saiàn pùblicæ i dæti de Common Voice in âtre léngoe?
 faq-why-mission-q = In che mòddo Common Voice o l'é pàrte da misción de Mozilla?
+faq-what-cv-and-deepspeech-q = Quæ l'é a diferénsa tra Common Voice e Deep Speech?
+faq-is-goal-assistant-q = L'òbietîvo de Common Voice l'é de prodûe 'n ascisténte vocâle?
+faq-why-different-speakers-q = Perché éi bezéugno de coscì tànte vôxe pe ògni léngoa?
 faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçión l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 
@@ -505,3 +509,8 @@ delete-q = T'eu domandâ ànche a scancelaçión de registraçioìn vocâle, ò 
 keep = Consèrva
 remove = Scancèlla
 remove-info = Ezaminiêmo a teu domànda de scancelaçión de teu registraçioìn vocâle da-o dataset. Se a domànda a saiâ aprovâ, contatiêmo chi o l'æ descaregòu o dataset, e ghe domandiêmo de scancelâ e teu registraçioìn vocâle.
+why-delete-recordings =
+    E registraçioìn de Common Voice són utilizæ da studiôzi, aziénde picìnn-e e apascionæ de riconosciménto vocâle pe perfeçionâ e fâ crésce risòrse disponìbile publicaménte còmme modélli vocâle.
+    
+    Ti peu spiêgâne perché t'eu scancelâ e teu registraçioìn?
+profile-form-delete = Scancèlla profî
