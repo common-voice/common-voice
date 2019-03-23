@@ -347,6 +347,7 @@ ready-to-validate = T'ê prónto a convalidâ e frâze?
 download-form-email =
     .label = Inserìsci o teu indirìsso de pòsta eletrònica
     .value = Graçie, te contatiêmo fîto.
+download-back = Tórna a-e bâze de dæti de Common Voice
 download-no = No, gràçie
 
 ## Contact Modal
