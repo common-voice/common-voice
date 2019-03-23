@@ -330,6 +330,16 @@ data-download-button = Descàrega i dæti de Common Voice
 data-download-yes = Sci
 data-download-deny = No
 data-download-license = Licénsa: <licenseLink>CC-0</licenseLink>
+data-other-title = Âtri dataset vocâle...
+data-other-goto = Vànni a { $name }
+data-other-download = Descàrega i dæti
+data-bundle-button = Descàrega 'n pachétto de dataset
+data-bundle-description = Dæti de Common Voice ciù tùtti i dataset precedénte.
+license = Licénsa: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mésccio
+review-terms = Deuviàndo Common Voice, acètti e nòstre <termsLink>condiçioìn</termsLink> e l'<termsLink>informatìva in sciâ privacy</termsLink>
+terms-agree = Acètto
+terms-disagree = No acètto
 review-aborted = Caregaménto anulòu. Ti veu scancelâ e teu registraçioìn?
 review-submit-title = Sénti tórna e spedìsci
 review-submit-msg = Graçie pe-o teu contribûto!<lineBreak></lineBreak>Òua sénti tórna e registraçioìn chi de sótta e çèrni se spedîle.
@@ -341,12 +351,12 @@ review-delete-recordings = Scancèlla e mæ registraçioìn
 
 ## New Datasets Page
 
-language = Lengoa
+language = Léngoa
 # File size in gigabytes
-size = Dimenscion
+size = Dimensción
 validated-hr-total = Totâle d'ôe convalidæ
 overall-hr-total = Totâle d'ôe conplescìve
-cv-license = Licensa
+cv-license = Licénsa
 audio-format = Formòu òudio
 number-of-voices = Nùmero de vôxe
 splits = Divixoìn
@@ -356,6 +366,7 @@ size-megabyte = MB
 download-language = Descàrega { $language }
 validated-hours = Ôe convalidæ
 recorded-hours = Ôe registræ
+whats-inside = Cöse gh'é drénto o dataset de Common Voice?
 subscribe = Abón-ite
 get-started-speech = Inìçia co-o riconosciménto vocâle
 other-datasets = Âtri dataset de dæti vocâle
@@ -394,6 +405,7 @@ contact-required = *òbligatöio
 request-language-title = Richièsta de nêuva léngoa
 request-language-form-language =
     .label = Léngoa
+select-language = Seleçiónn-a 'na léngoa...
 other-language = Âtra léngoa
 
 ## Languages Overview
@@ -461,3 +473,4 @@ validated-clips = Registraçioìn convalidæ
 
 ## Profile Delete
 
+remove-info = Ezaminiêmo a teu domànda de scancelaçión de teu registraçioìn vocâle da-o dataset. Se a domànda a saiâ aprovâ, contatiêmo chi o l'æ descaregòu o dataset, e ghe domandiêmo de scancelâ e teu registraçioìn vocâle.
