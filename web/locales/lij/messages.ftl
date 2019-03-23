@@ -464,13 +464,44 @@ nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agi
 
 ## Goals
 
+streaks = Perîodi recòrd
+days =
+    { $count ->
+        [one] Giórno
+       *[other] Giórni
+    }
+recordings =
+    { $count ->
+        [one] Registraçiòn
+       *[other] Registraçioìn
+    }
+validations =
+    { $count ->
+        [one] Convalidaçiòn
+       *[other] Convalidaçioìn
+    }
 
 ## Dashboard
 
+your-languages = E teu léngoe
+toward-next-goal = Vèrso o pròscimo òbietîvo
+clips-you-recorded = Registraçioìn che t'æ inserîo
 clips-you-validated = Registraçioìn quæ t'æ convalidòu
+todays-recorded-progress = Progrèsso de Common Voice d'anchêu in scê registraçioìn fæte
 todays-validated-progress = O progrèsso de Common Voice d'ancheu in scê registraçioìn convalidæ
+stats = Statìstiche
+you = Ti
+everyone = Tùtti
+contribution-activity = Contribûti
+top-contributors = Contribotoî prinçipæ
+recorded-clips = Registraçioìn fæte
 validated-clips = Registraçioìn convalidæ
+total-approved = Totâle aprovòu
+overall-accuracy = Precixón conplescìva
 
 ## Profile Delete
 
+delete-q = T'eu domandâ ànche a scancelaçión de registraçioìn vocâle, ò preferìsci conservâle into dataset de Common Voice?
+keep = Consèrva
+remove = Scancèlla
 remove-info = Ezaminiêmo a teu domànda de scancelaçión de teu registraçioìn vocâle da-o dataset. Se a domànda a saiâ aprovâ, contatiêmo chi o l'æ descaregòu o dataset, e ghe domandiêmo de scancelâ e teu registraçioìn vocâle.
