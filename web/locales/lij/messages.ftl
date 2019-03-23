@@ -340,6 +340,8 @@ validated-hr-total = Totâle d'ôe convalidæ
 cv-license = Licensa
 email-to-download = Inserìsci o teu indirìsso de pòsta eletrònica pe inandiâ o descaregaménto
 validated-hours = Ôe convalidæ
+go-discourse = Vànni in sce Discourse
+go-languages-page = Vànni a-a pàgina de-e léngoe
 ready-to-validate = T'ê prónto a convalidâ e frâze?
 more = Âtro
 close = Særa
@@ -348,6 +350,7 @@ download = Descàrega
 ## Download Modal
 
 download-title = Descaregaménto comensòu
+download-helpus = Agiùtane a radunâ na comunitæ de persónn-e interesæ a-e tecnologîe vocâle, résta 'n contàtto vîa pòsta eletrònica.
 download-form-email =
     .label = Inserìsci o teu indirìsso de pòsta eletrònica
     .value = Graçie, te contatiêmo fîto.
