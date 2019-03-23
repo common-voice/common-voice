@@ -347,21 +347,49 @@ ready-to-validate = T'ê prónto a convalidâ e frâze?
 download-form-email =
     .label = Inserìsci o teu indirìsso de pòsta eletrònica
     .value = Graçie, te contatiêmo fîto.
+download-no = No, gràçie
 
 ## Contact Modal
 
+contact-title = Mòdolo de contàtto
+contact-form-name =
+    .label = Nómme
+contact-form-message =
+    .label = Mesàggio
+contact-required = *òbligatöio
 
 ## Request Language Modal
 
+request-language-title = Richièsta de nêuva léngoa
+request-language-form-language =
+    .label = Léngoa
+other-language = Âtra léngoa
 
 ## Languages Overview
 
+language-section-in-progress = In córso
+language-section-launched = Òperatîve
+languages-show-more = Móstra ciù eleménti
+languages-show-less = Móstra mêno eleménti
+language-speakers = Parlòu da
+language-meter-in-progress = Progrèsso
+language-total-progress = Totâle
+language-search-input =
+    .placeholder = Çèrca
+language-speakers = Parlòu da
+localized = Localizæ
+sentences = Frâze
 total-hours = Ôe convalidæ
 
 ## New Contribution
 
+action-click = Clìcca
+action-tap = Sciàcca
 contribute = Contriboìsci
+listen = Sénti
 skip = Sâta
+shortcuts = Scorsaiéu
+clips-with-count = <bold>{ $count }</bold> registraçioìn
 contribute-more = T'ê prónto a fâne ancón { $count }?
 record-cta = Inàndia a registraçión
 record-platform-not-supported = A piatafórma in ûzo a no l'é atoalménte suportâ.
@@ -384,7 +412,11 @@ unable-speak = No pòsso parlâ in sto moménto
 review-instruction = Sénti tórna e registraçioìn e, se l'é necesâio, ripêtile
 record-submit-tooltip = { $actionType } Invîa quànde t'é prónto
 clips-uploaded = Registraçioìn caregæ
-record-abort-title = No ti veu finî a registraçiòn prìmma?
+record-abort-title = No ti veu finî a registraçión prìmma?
+record-abort-text = Se ti sciòrti òua ti perdiæ i progrèssi fæti
+record-abort-submit = Invîa e registraçioìn
+record-abort-continue = Tèrmina a registraçión
+record-abort-delete = Sciòrti e scancèlla e registraçioìn
 nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtane registràndo quàrche frâze.
 
 ## Goals
