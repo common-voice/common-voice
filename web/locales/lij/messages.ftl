@@ -194,6 +194,11 @@ email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
 
 benefits = Avantàggi
 rich-data = Arichîsci i dæati spedîi fornéndo çèrtidùn informaçioìn demogràfiche anònime. I dæti demogràfici són de-identificæ prìmma de réndili pùblici.
+improve-audio = E informaçioìn do profî agiùtan a megiorâ a precixón di dæti òudio utilizæ in sciô svilùppo do riconosciménto vocâle.
+keep-track = Têgni tràccia de tùtti i progrèssi e-e mêtriche in ciù léngoe.
+compare-progress = Confrónta i teu progrèssi con quélli de âtri colaboratoî de tùtto o móndo.
+view-goals = Confrónta i teu progrèssi con i òbietîvi personæ e do progètto.
+join-newsletter = Se ti veu, scrîvite a-a nòstra lìsta de spediçión pe riçéive agiornaménti e novitæ in sciô progétto.
 
 ## What's public
 
