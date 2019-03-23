@@ -193,6 +193,7 @@ email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
 ## Account Benefits
 
 benefits = Avantàggi
+rich-data = Arichîsci i dæati spedîi fornéndo çèrtidùn informaçioìn demogràfiche anònime. I dæti demogràfici són de-identificæ prìmma de réndili pùblici.
 
 ## What's public
 
