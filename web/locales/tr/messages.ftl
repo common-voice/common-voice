@@ -53,6 +53,7 @@ fo = Faroece
 fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
+gl = Galce
 he = İbranice
 hr = Hırvatça
 hsb = Yukarı Sorbca
@@ -224,6 +225,7 @@ shortcut-vote-no = h
 shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Yeniden kaydedin
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
 request-language-button = Yeni dil iste
 
@@ -311,7 +313,10 @@ faq-title = Sıkça Sorulan Sorular
 faq-what-cv-q = Common Voice nedir?
 faq-why-important-q = Ne önemi var?
 faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
+faq-when-release-q = Dil dillerdeki Common Voice verilerini ne zaman yayımlayacaksınız?
 faq-why-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
+faq-what-cv-and-deepspeech-q = Deep Speech ile Common Voice arasındaki fark nedir?
+faq-why-different-speakers-q = Neden her dil için bu kadar fazla konuşmacıya ihtiyacınız var?
 faq-why-my-lang-q = Neden dilim henüz eklenmedi?
 faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
 faq-why-account-q = Neden hesap açayım?
@@ -365,13 +370,22 @@ review-delete-recordings = Kayıtlarımı sil
 language = Dil
 # File size in gigabytes
 size = Boyut
+validated-hr-total = Doğrulanmış toplam saat
+overall-hr-total = Genel toplam saat
 cv-license = Lisans
 audio-format = Ses biçimi
+number-of-voices = Ses sayısı
+splits = Ayrımlar
 email-to-download = İndirmek için e-postanızı yazın
 size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } indir
+validated-hours = Doğrulanmış saat
+recorded-hours = Kaydedilen saat
+whats-inside = Bu Common Voice veri kümesinde neler var?
 subscribe = Abone ol
+other-datasets = Diğer ses veri kümeleri
+feedback-q = Görüşleriniz mi var?
 data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
 data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur.
@@ -411,6 +425,7 @@ request-language-form-language =
 request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür ederiz.
 request-language-success-content = Dilinizi Common Voice’a nasıl ekleyeceğiniz hakkında daha fazla bilgi vermek için yakında size ulaşacağız.
 select-language = Bir dil seçin...
+other-language = Başka bir dil
 
 ## Languages Overview
 
@@ -517,4 +532,5 @@ overall-accuracy = Genel doğruluk
 
 keep = Tut
 remove = Sil
+remove-info = Ses kayıtlarınızı veri kümelerinden kaldırma isteğinizi inceleyeceğiz. İsteğiniz onaylanırsa, veri kümesini indirenlerle iletişim kuracak ve ses kayıtlarınızı kaldırmalarını isteyeceğiz.
 profile-form-delete = Profilimi sil
