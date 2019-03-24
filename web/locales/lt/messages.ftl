@@ -331,6 +331,7 @@ faq-why-important-q = Kodėl tai svarbu?
 faq-how-get-q = Kaip galiu gauti „Common Voice“ duomenis?
 faq-when-release-q = Kada bus išleisti „Common Voice“ duomenys kitomis kalbomis?
 faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
+faq-what-cv-and-deepspeech-q = Kuo skiriasi „Common Voice“ ir „Deep Speech“?
 faq-is-goal-assistant-q = Ar „Common Voice“ tikslas – sukurti balso asistentą?
 faq-why-different-speakers-q = Kodėl jums reikia tiek daug skirtingų kalbančiųjų?
 faq-why-different-speakers-a =
@@ -342,6 +343,7 @@ faq-why-10k-hours-q = Kodėl kiekvienos kalbos tikslas yra 10 000 patvirtintų 
 faq-how-calc-hours-q = Kaip „Common Voice“ apskaičiuoja valandas?
 faq-where-src-from-2-q = Iš kur gaunamas šaltinio tekstas?
 faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipedijos“ straipsnių įvairiomis kalbomis?
+faq-why-account-q = Kodėl turėčiau susikurti paskyrą?
 faq-is-account-public-q = Ar mano paskyros informacija yra vieša?
 
 ## Glossary
@@ -394,6 +396,7 @@ validated-hours = Patvirtinta valandų
 recorded-hours = Įrašyta valandų
 whats-inside = Kas yra „Common Voice“ duomenų rinkinyje?
 subscribe = Prenumeruoti
+get-started-speech = Susipažinkite su kalbos atpažinimu
 other-datasets = Kiti balso duomenų rinkiniai
 feedback-q = Turi komentarų?
 deepspeech-info = „Common Voice“ duomenų rinkinys papildo „Mozillos“ atvirojo kodo balso atpažinimo variklį „Deep Speech“, kuri gali naudoti kalbos atpažinimo programoms kurti. Perskaityk <githubLink>„Github“ apžvalgą </githubLink> arba prisijunk prie <discourseLink>„DeepSpeech“ grupės „Discourse“ platformoje</discourseLink> ir sužinok kaip gali pradėti naudotis šiais duomenimis.
