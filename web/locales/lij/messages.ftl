@@ -206,6 +206,7 @@ whats-public = Quæ dæti són pùblici?
 email-not-public = No rendiêmo o teu indirìsso de pòsta eletrònica pùblico.
 recordings-and-locale-public = O nùmero de registraçioìn e e léngoe a-e quæ contriboìsci saiàn pùblici.
 username-optin-public = Ti peu çèrne de rénde o teu nómme uténte pùblico ò anònimo.
+demographic-deidentified = E informaçioìn personæ fornîæ facoltativaménte (prezénpio etæ, sèsso, léngoa e acénto) són de-identificæ da-e teu registraçioìn e no saiàn réize pùbliche in sciô teu profî.
 username-email-not-demographic = O teu nómme uténte e indirìsso de pòsta eletrònica no saiàn asociæ a-i dæti pùblici.
 
 ## Speak & Listen Shortcuts
@@ -278,6 +279,7 @@ female = Dònna
 # Gender
 other = Âtro
 why-profile-title = Perché registrâ 'n profî?
+why-profile-text = Se ti fornîsci ste informaçioìn insémme a-e teu registraçioìn vocâle, loiâtre saiàn ûzæ per megioâ a precixón di motoî de riconosciménto vocâle.
 dashboard = Panéllo
 build-profile = Crêa o teu profî
 avatar = Föto de profî
@@ -330,7 +332,7 @@ localization = Localizaçiòn
 sentence-collection = Coleçión de frâze
 sst = Riconosciménto vocâle (Speech-to-text, STT)
 sst-explanation = E tecnologîe de riconosciménto vocâle (Speech-to-text, STT) convèrtan o parlòu in tèsto.
-de-identified = Anonimizòu
+de-identified = De-identificaçión
 
 ## NotFound
 
