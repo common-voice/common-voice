@@ -365,9 +365,11 @@ review-delete-recordings = Чышкыны гижӧдъясӧс
 language = Кыв
 # File size in gigabytes
 size = Ыджда
+overall-hr-total = Ставнас часъяс
 size-gigabyte = ГБ
 size-megabyte = МБ
 data-other-ted-name = TED-LIUM корпус
+more = Унджык
 
 ## Download Modal
 
