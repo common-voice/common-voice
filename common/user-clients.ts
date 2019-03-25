@@ -11,4 +11,5 @@ export type UserClient = {
   avatar_url?: string;
   clips_count?: number;
   votes_count?: number;
+  awards?: any[];
 };

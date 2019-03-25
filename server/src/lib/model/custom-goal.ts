@@ -23,11 +23,6 @@ export default {
       `
       INSERT INTO custom_goals (client_id, type, days_interval, amount)
       VALUES (?, ?, ?, ?)
-      ON DUPLICATE KEY UPDATE
-        type = VALUES(type),
-        days_interval = VALUES(days_interval),
-        amount = VALUES(amount),
-        created_at = NOW();
     `,
       [client_id, data.type, data.daysInterval, data.amount]
     );
@@ -36,9 +31,11 @@ export default {
   async find(client_id: string) {
     const [[row]] = await db.query(
       `
-        SELECT type, days_interval, amount, created_at
+        SELECT id, type, days_interval, amount, created_at
         FROM custom_goals
         WHERE client_id = ?
+        ORDER BY created_at DESC
+        LIMIT 1;
       `,
       [client_id]
     );
@@ -48,7 +45,7 @@ export default {
     const localeId = await getLocaleId('en');
     const { type, ...data } = row;
 
-    const [[{ start }]] = await db.query(
+    const [[{ current_interval_start }]] = await db.query(
       `
         SELECT TIMESTAMPADD(
           DAY,
@@ -56,7 +53,7 @@ export default {
             TIMESTAMPDIFF(DAY, TIMESTAMP(:created_at), NOW()) / :days_interval
           ) * :days_interval,
           :created_at
-        ) AS start
+        ) AS current_interval_start
       `,
       data
     );
@@ -72,13 +69,18 @@ export default {
           throw new Error('Unknown type: ' + type);
         }
 
-        const [rows] = await db.query(query, [client_id, localeId, start]);
+        const [rows] = await db.query(query, [
+          client_id,
+          localeId,
+          current_interval_start,
+        ]);
         return [type, rows[0].count];
       })
     );
 
     return {
       ...data,
+      current_interval_start: new Date(current_interval_start).toISOString(),
       current: counts.reduce((obj: any, [key, value]) => {
         obj[key] = value;
         return obj;

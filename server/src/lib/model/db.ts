@@ -290,6 +290,7 @@ export default class DB {
         `
           INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)
           VALUES (?, ?, ?, ?, ?, ?)
+          ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
         [client_id, sentenceId, path, sentence, localeId, bucket]
       );
