@@ -4,6 +4,7 @@ import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from 'common/user-clients';
 import { getConfig } from '../config-helper';
+import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
 import UserClient from './model/user-client';
@@ -81,6 +82,7 @@ export default class API {
     router.post('/user_client/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/:locale/goals', this.getGoals);
+    router.post('/user_client/awards/seen', this.seenAwards);
 
     router.get('/:locale/sentences', this.getRandomSentences);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
@@ -297,6 +299,11 @@ export default class API {
     response: Response
   ) => {
     await this.model.db.insertDownloader(params.locale, params.email);
+    response.json({});
+  };
+
+  seenAwards = async ({ client_id }: Request, response: Response) => {
+    await Awards.seen(client_id);
     response.json({});
   };
 }

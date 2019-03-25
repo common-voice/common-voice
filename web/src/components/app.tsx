@@ -1,3 +1,4 @@
+const { LocalizationProvider } = require('fluent-react/compat');
 import * as React from 'react';
 import { Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
@@ -10,6 +11,7 @@ import {
 } from 'react-router';
 import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
+import { UserClient } from 'common/user-clients';
 import store from '../stores/root';
 import URLS from '../urls';
 import {
@@ -39,11 +41,10 @@ import { Spinner } from './ui/ui';
 import {
   isContributable,
   localeConnector,
+  LocaleLink,
   LocalePropsFromState,
 } from './locale-helpers';
 import { Flags } from '../stores/flags';
-
-const { LocalizationProvider } = require('fluent-react/compat');
 const rtlLocales = require('../../../locales/rtl.json');
 const ListenPage = React.lazy(() =>
   import('./pages/contribution/listen/listen')
@@ -52,12 +53,14 @@ const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
 interface PropsFromState {
   api: API;
+  account: UserClient;
   notifications: Notifications.State;
   uploads: Uploads.State;
   messageOverwrites: Flags.MessageOverwrites;
 }
 
 interface PropsFromDispatch {
+  addNotification: typeof Notifications.actions.add;
   removeUpload: typeof Uploads.actions.remove;
   setLocale: typeof Locale.actions.set;
   refreshUser: typeof User.actions.refresh;
@@ -81,6 +84,7 @@ let LocalizedPage: any = class extends React.Component<
   LocalizedPagesProps,
   LocalizedPagesState
 > {
+  seenAwardIds: number[] = [];
   state: LocalizedPagesState = {
     hasScrolled: false,
     bundleGenerator: null,
@@ -97,7 +101,7 @@ let LocalizedPage: any = class extends React.Component<
   }
 
   async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
-    const { uploads, userLocales } = nextProps;
+    const { account, addNotification, api, uploads, userLocales } = nextProps;
 
     this.runUploads(uploads).catch(e => console.error(e));
 
@@ -110,6 +114,19 @@ let LocalizedPage: any = class extends React.Component<
 
     if (userLocales.find((locale, i) => locale !== this.props.userLocales[i])) {
       await this.prepareBundleGenerator(nextProps);
+    }
+
+    if (
+      account &&
+      account.awards.some(a => !a.seen_at && !this.seenAwardIds.includes(a.id))
+    ) {
+      this.seenAwardIds.push(...account.awards.map(a => a.id));
+      addNotification(
+        <LocaleLink to={URLS.AWARDS}>
+          You got an award! Click here to see it.
+        </LocaleLink>
+      );
+      await api.seenAwards();
     }
   }
 
@@ -247,13 +264,15 @@ let LocalizedPage: any = class extends React.Component<
 LocalizedPage = withRouter(
   localeConnector(
     connect<PropsFromState, PropsFromDispatch>(
-      ({ api, flags, notifications, uploads }: StateTree) => ({
+      ({ api, flags, notifications, uploads, user }: StateTree) => ({
+        account: user.account,
         api,
         messageOverwrites: flags.messageOverwrites,
         notifications,
         uploads,
       }),
       {
+        addNotification: Notifications.actions.add,
         removeUpload: Uploads.actions.remove,
         setLocale: Locale.actions.set,
         refreshUser: User.actions.refresh,

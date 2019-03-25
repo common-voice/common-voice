@@ -25,6 +25,10 @@
         margin-top: 0;
     }
 
+    & a {
+        color: var(--white);
+    }
+
     & .icon,
     & svg {
         font-size: 9px;

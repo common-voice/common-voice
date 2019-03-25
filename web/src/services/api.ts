@@ -249,4 +249,10 @@ export default class API {
       method: 'POST',
     });
   }
+
+  seenAwards(): Promise<void> {
+    return this.fetch(API_PATH + '/user_client/awards/seen', {
+      method: 'POST',
+    });
+  }
 }
