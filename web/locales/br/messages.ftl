@@ -121,7 +121,7 @@ zh-TW = Sinaeg (Taiwan)
 
 speak = Komz
 speak-now = Komz bremañ
-datasets = Hollad roadennoù
+datasets = Spletadoù roadennoù
 languages = Yezhoù
 profile = Profil
 help = Skoazell
@@ -154,7 +154,7 @@ vote-yes = Ya
 vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
 speak-subtitle = Roit ho mouezh
-speak-paragraph = Enrollañ ar vouezh a zo ul lodenn bouezus evit sevel hon hollad roadennoù digor; lod a lavar eo al lodenn blijus ivez.
+speak-paragraph = Enrollañ ar vouezh a zo ul lodenn bouezus evit sevel hon spletad roadennoù digor; lod a lavar eo al lodenn blijus ivez.
 speak-goal-text = Klipoù enrollet
 listen-subtitle = Skoazellit ac'hanomp da wiriañ mouezhioù
 listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Common Voice. Selaouit ha skoazellit ac'hanomp da grouiñ roadennoù mouezh digor a galite.
@@ -192,7 +192,7 @@ x-years-short =
         [many] a vloazioù
        *[other] bloaz
     }
-help-make-dataset = Skoazellit ac'hanomp da sevel un diaz-roadennoù foran, digor hag a galite uhel
+help-make-dataset = Skoazellit ac'hanomp da sevel ur spletad roadennoù foran, digor hag a galite uhel
 profile-not-required = Kaout ur profil n'eo ket un dra ret met evit kemer perzh met talvoudus eo memestra
 sign-up-account = Krouit ur gont
 email-subscription-title = marilhit evit keleier dre bostel
@@ -334,7 +334,7 @@ faq-what-cv-q = Petra eo Common Voice?
 faq-what-cv-a =
     Teknologiezhioù anaoudegezh ar vouezh a zo un dispac'h en doare da etrewezhiat gant ar mekanikoù, met ar reizhiadoù a zo diouto a zo ker ha perc'hennek. Common Voice a zo ul lodenn eus intrudu Mozilla evit lakaat anaoudegezh ar vouezh da vezañ gwelloc'h hag hegerzoc'h evit an holl. Un diaz roadennoù divent a vouezhioù roet evit gallout gourdonañ arloadoù mouezh en un doare eeun ha prim a c'hallfe bezañ implijet evit an holl yezhoù eo Common Voice.
     
-    Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann roadennoù liesseurt a roio gallout d'an diorroerien, d'an embregerien ha d'ar c'humuniezhioù. Ouzhpenn da-se e savomp ul lusker anaoudegezh ar vouezh digor e darzh anvet Deep Speech.
+    Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann ur spletad roadennoù liesseurt a roio gallout d'an diorroerien, d'an embregerien ha d'ar c'humuniezhioù. Ouzhpenn da-se e savomp ul lusker anaoudegezh ar vouezh digor e darzh anvet Deep Speech.
 faq-why-important-q = Abalamour da betra e vez a-bouez?
 faq-why-important-a =
     Ar gomz eo an doare naturelañ da zaremprediñ an eil gant ar re all, ha teknologiezhioù ar vouezh a zegas an aester-mañ d'ho urzhiataerioù ha d'ho pellgomzerioù. Fellout a ra deomp reiñ gallout d'an diorroerien evit ma c'hallfent sevel arloadoù anaoudegezh ar vouezh dreistordinal evel troerien en amzer gwirion pe skoazellerien elektronek. Evit ar mare, ar roadennoù mouezh goulennet gant an arloadoù-mañ a zo ker ha perc'hennek. Spi hon eus  e tegaso Common Voice ar pezh o deus ezhomm d'an diorroerien evit nevezadenniñ ha lakaat teknologiezhioù ar yezh da vezañ implijadus en o yezh.
@@ -391,6 +391,7 @@ hours-validated-explanation = Niver a eurvezhioù enrolladennoù mouezh gwirieka
 sst = Komz-da-destenn (KDD)
 sst-explanation = Teknologiezhioù komz-da-destenn (KDD) a amdroy roadennoù mouezh e testennoù.
 de-identified = Dizanvet
+de-identified-explanation = An doare m'eo kuzhet titouroù profil ur c'hendaoler eus e klipoù mouezh roet pa vez fardet ar pakad da bellgargañ evel lodenn eus ar roadennoù.
 
 ## NotFound
 
@@ -428,6 +429,7 @@ review-delete-recordings = Dilemel ma enrolladennoù
 
 ## New Datasets Page
 
+datasets-headline = Sevel a reomp rikoù roadennoù mouezhioù digor o zarzh, lies-yezh hag a c'hall bezañ implijet gant forzh piv evit gourdonañ arloadoù anaoudegezh ar vouezh.
 language = Yezh
 # File size in gigabytes
 size = Ment
