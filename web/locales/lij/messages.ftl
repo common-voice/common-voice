@@ -474,6 +474,7 @@ record-abort-text = Se ti sciòrti òua ti perdiæ i progrèssi fæti
 record-abort-submit = Invîa e registraçioìn
 record-abort-continue = Tèrmina a registraçión
 record-abort-delete = Sciòrti e scancèlla e registraçioìn
+listen-last-time-instruction = <playIcon></playIcon>L'urtima!
 nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtane registràndo quàrche frâze.
 record-button-label = Regìstra a teu vôxe
 share-title-new = <bold>Agiùtane</bold> a trovâ âtre vôxe
