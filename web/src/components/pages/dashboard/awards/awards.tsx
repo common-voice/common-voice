@@ -46,7 +46,7 @@ const Wave = () => (
 );
 
 const AwardBox = ({ award }: any) => (
-  <div className={'award-box ' + award.type}>
+  <li className={'award-box ' + award.type}>
     <Wave />
     <div className="interval">
       {INTERVAL_LABELS[award.days_interval] || award.days_interval}
@@ -59,7 +59,7 @@ const AwardBox = ({ award }: any) => (
     <div className="icon">
       {({ speak: <MicIcon />, listen: <PlayOutlineIcon /> } as any)[award.type]}
     </div>
-  </div>
+  </li>
 );
 
 interface PropsFromState {

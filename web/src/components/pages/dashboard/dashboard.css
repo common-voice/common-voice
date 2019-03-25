@@ -42,7 +42,7 @@
     justify-content: space-between;
 
     @media (--sm-down) {
-        padding-top: 20px;
+        padding: 20px 20px 0;
     }
 
     @media (--md-up) {

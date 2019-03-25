@@ -45,6 +45,10 @@
         margin: 60px auto 0;
         max-width: var(--wide-desktop-width);
 
+        @media (--md-down) {
+            padding: 0 20px;
+        }
+
         & h2 {
             margin-bottom: 15px;
             font-family: var(--base-font-family);
@@ -56,7 +60,15 @@
         & ul {
             margin: 0 0 40px;
             padding: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
             list-style: none;
+        }
+
+        & li {
+            margin-right: 10px;
+            margin-bottom: 10px;
         }
     }
 
