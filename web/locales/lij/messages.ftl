@@ -159,7 +159,7 @@ speak-subtitle = Dónn-a a teu vôxe
 speak-paragraph = La registraçión vocâle de frâze a l'é 'na pàrte fondamentâle da costruçión da nòstra bâze de dæti; segóndo çèrtidùn, a ciù diverténte ascì.
 speak-goal-text = Registraçioìn
 listen-subtitle = Agiùtane a convalidâ e registraçioìn
-listen-paragraph = Convalidâ e registraçioìn fæte da-i âtri l'é âtretànto inportànte pe-a misción de Common Voice. Séntile, e Agiùtane a creâ 'na bâze de dæti avèrta e de qualitæ.
+listen-paragraph = Convalidâ e registraçioìn fæte da-i âtri l'é âtretànto inportànte pe-a misción de Common Voice. Séntile, e agiùtane a creâ 'na bâze de dæti avèrta e de qualitæ.
 listen-goal-text = Registraçioìn convalidæ
 hours-recorded = Ôe registræ
 hours-validated = Ôe validæ
@@ -193,7 +193,7 @@ email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
 ## Account Benefits
 
 benefits = Avantàggi
-rich-data = Arichîsci i dæati spedîi fornéndo çèrtidùn informaçioìn demogràfiche anònime. I dæti demogràfici són de-identificæ prìmma de réndili pùblici.
+rich-data = Arichîsci i dæti spedîi fornéndo çèrtidùn informaçioìn demogràfiche anònime. I dæti demogràfici són de-identificæ prìmma de réndili pùblici.
 improve-audio = E informaçioìn do profî agiùtan a megiorâ a precixón di dæti òudio utilizæ in sciô svilùppo do riconosciménto vocâle.
 keep-track = Têgni tràccia de tùtti i progrèssi e-e mêtriche in ciù léngoe.
 compare-progress = Confrónta i teu progrèssi con quélli de âtri colaboratoî de tùtto o móndo.
@@ -316,10 +316,10 @@ faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
 faq-when-release-q = Quànde saiàn pùblicæ i dæti de Common Voice in âtre léngoe?
 faq-why-mission-q = In che mòddo Common Voice o l'é pàrte da misción de Mozilla?
 faq-what-cv-and-deepspeech-q = Quæ l'é a diferénsa tra Common Voice e Deep Speech?
-faq-is-goal-assistant-q = L'òbietîvo de Common Voice l'é de prodûe 'n ascisténte vocâle?
+faq-is-goal-assistant-q = L'òbietîvo de Common Voice o l'é de prodûe 'n ascisténte vocâle?
 faq-why-different-speakers-q = Perché éi bezéugno de coscì tànte vôxe pe ògni léngoa?
 faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
-faq-why-10k-hours-q = Perché l'òbietîvo de registraçión l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
+faq-why-10k-hours-q = Perché l'òbietîvo de registraçión o l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 faq-where-src-from-2-q = Dónde o vêgne o tésto d'òrìgine?
 faq-why-account-q = Perché mi doviæ registrâ 'n cónto?
 
@@ -344,11 +344,11 @@ data-download-yes = Sci
 data-download-deny = No
 data-download-license = Licénsa: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>Instruçioìn pe-o riconosciménto vocâle</speechBlogLink>
-data-other-title = Âtri dataset vocâle...
+data-other-title = Âtri dataset vocâli...
 data-other-goto = Vànni a { $name }
 data-other-download = Descàrega i dæti
 data-bundle-button = Descàrega 'n pachétto de dataset
-data-bundle-description = Dæti de Common Voice ciù tùtti i dataset precedénte.
+data-bundle-description = Dæti de Common Voice ciù tùtti i dataset precedénti.
 license = Licénsa: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mésccio
 review-terms = Deuviàndo Common Voice, acètti e nòstre <termsLink>condiçioìn</termsLink> e l'<termsLink>informatìva in sciâ privacy</termsLink>
@@ -383,7 +383,7 @@ recorded-hours = Ôe registræ
 whats-inside = Cöse gh'é drénto o dataset de Common Voice?
 subscribe = Abón-ite
 get-started-speech = Inìçia co-o riconosciménto vocâle
-other-datasets = Âtri dataset de dæti vocâle
+other-datasets = Âtri dataset de dæti vocâli
 feedback-q = Ti gh'é de drîte?
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIM o l'é realizòu con registraçión òudio de conferénse e-e relatîve trascriçioìn disponìbile in sciô scìto TED.
@@ -523,7 +523,7 @@ keep = Consèrva
 remove = Scancèlla
 remove-info = Ezaminiêmo a teu domànda de scancelaçión de teu registraçioìn vocâle da-o dataset. Se a domànda a saiâ aprovâ, contatiêmo chi o l'æ descaregòu o dataset, e ghe domandiêmo de scancelâ e teu registraçioìn vocâle.
 why-delete-recordings =
-    E registraçioìn de Common Voice són utilizæ da studiôzi, aziénde picìnn-e e apascionæ de riconosciménto vocâle pe perfeçionâ e fâ crésce risòrse disponìbile publicaménte còmme modélli vocâle.
+    E registraçioìn de Common Voice són utilizæ da studiôzi, aziénde picìnn-e e apascionæ de riconosciménto vocâle pe perfeçionâ e fâ crésce risòrse disponìbile publicaménte còmme modélli vocâli.
     
     Ti peu spiêgâne perché t'eu scancelâ e teu registraçioìn?
 profile-form-delete = Scancèlla profî
