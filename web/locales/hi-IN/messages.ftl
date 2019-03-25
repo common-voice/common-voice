@@ -178,6 +178,7 @@ benefits = लाभ
 
 ## What's public
 
+email-not-public = हम आपके ईमेल को सार्वजनिक नहीं करेंगे।
 
 ## Speak & Listen Shortcuts
 
@@ -288,14 +289,26 @@ size-megabyte = MB
 ## Languages Overview
 
 languages-show-more = और देखें
+languages-show-less = कम देखें
+language-speakers = वक्ता
+language-meter-in-progress = प्रगति
+language-search-input =
+    .placeholder = खोजें
+language-speakers = वक्ता
+localized = स्थानीयकृत
+sentences = वाक्य
 
 ## New Contribution
 
+action-click = क्लिक
 action-tap = दबाएँ
 contribute = योगदान दें
 listen = सुनें
 skip = छोड़ें
 shortcuts = शॉर्टकट
+record-cta = रिकॉर्डिंग शुरू करें
+record-platform-not-supported = हमें खेद है, पर आपका प्लेटफार्म वर्तमान में समर्थित नहीं है।
+record-platform-not-supported-desktop = डेस्कटॉप कंप्यूटर पर, आप नवीनतम डाउनलोड कर सकते हैं:
 
 ## Goals
 
