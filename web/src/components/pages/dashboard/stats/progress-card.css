@@ -44,6 +44,10 @@
             margin-inline-end: 20px;
             padding-inline-end: 20px;
             color: var(--type-color);
+
+            @media (max-width: 420px) {
+                border-inline-end: 0;
+            }
         }
 
         & .infinity {
@@ -64,6 +68,9 @@
 
             @media (--md-down) {
                 width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
             }
 
             @media (--lg-down) {
@@ -90,7 +97,6 @@
         }
 
         & .custom-goal-link {
-            margin-left: auto;
             display: flex;
             flex-direction: row;
             align-items: center;
