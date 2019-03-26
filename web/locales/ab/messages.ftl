@@ -289,8 +289,14 @@ off = Аҿх
 on = Аҿк
 add-avatar-title = Уҷыдахәра аватар ацуҵароуп
 browse-file-title = Асахьатә фаил иҭагалатәуп
+browse-file = Ииауга ма <browseWrap>афаил алицәх</browseWrap>
+connect-gravatar = Иацҵа Граватар
+gravatar_not_found = Ари аелектронтә ԥошьҭа аҭыӡҭа Граватвр аҟны иҭагалаӡом
+file_too_large = Иалху афаил амҽхак мыцхәы идууп
 manage-subscriptions = Анапаҵаҩрақәа рнапхгара
+email-already-used = Ари аелектронтә ԥошьҭа даҽа ҳасабрбатә нҵамҭак аҟны ахархәара амоуп
 add-language = Абызшәа ацҵара
+change-email-setings = Аҭагаларазы аидентификатор архиага аҟәшала ,уелектронтә ԥошьҭа аҭыӡҭа ԥсах
 
 ## FAQ
 
