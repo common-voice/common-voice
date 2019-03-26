@@ -1,6 +1,7 @@
 import pick = require('lodash.pick');
 import { UserClient } from 'common/user-clients';
 import Awards from './awards';
+import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 
@@ -108,7 +109,10 @@ const UserClient = {
       [email]
     );
 
-    const awards: any = rows[0] ? await Awards.find(rows[0].client_id) : [];
+    const clientId = rows[0] ? rows[0].client_id : null;
+    const [customGoal, awards]: any = clientId
+      ? await Promise.all([CustomGoal.find(clientId), Awards.find(clientId)])
+      : [[], []];
     return rows.length == 0
       ? null
       : rows.reduce(
@@ -133,6 +137,7 @@ const UserClient = {
                 : []
             ),
             awards,
+            customGoal,
           }),
           { locales: [] }
         );

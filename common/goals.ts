@@ -22,5 +22,4 @@ export interface AllGoals {
     clips: [number, GlobalGoal[]];
     votes: [number, GlobalGoal[]];
   };
-  customGoal: CustomGoal;
 }

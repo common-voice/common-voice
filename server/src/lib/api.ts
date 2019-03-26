@@ -276,12 +276,7 @@ export default class API {
     { client_id, params: { locale } }: Request,
     response: Response
   ) => {
-    response.json(
-      await Promise.all([
-        getGoals(client_id, locale),
-        CustomGoal.find(client_id),
-      ]).then(([globalGoals, customGoal]) => ({ globalGoals, customGoal }))
-    );
+    response.json({ globalGoals: await getGoals(client_id, locale) });
   };
 
   claimUserClient = async (

@@ -1,10 +1,14 @@
 import * as React from 'react';
 import { useState } from 'react';
-import { CustomGoal, CustomGoalParams } from 'common/goals';
+import { connect } from 'react-redux';
+import { CustomGoal } from 'common/goals';
+import API from '../../../../services/api';
+import StateTree from '../../../../stores/tree';
 import { PenIcon } from '../../../ui/icons';
 import steps, { State, ViewGoal } from './custom-goal-steps';
 
 import './custom-goal.css';
+import { User } from '../../../../stores/user';
 
 const STATE_KEYS: ReadonlyArray<keyof State> = [
   null, // first step has no state
@@ -166,13 +170,18 @@ function CurrentRadios({
   );
 }
 
-export default function CustomGoal({
-  customGoal,
-  saveCustomGoal,
-}: {
-  customGoal?: CustomGoal;
-  saveCustomGoal: (data: CustomGoalParams) => any;
-}) {
+interface PropsFromState {
+  api: API;
+  customGoal: CustomGoal;
+}
+
+interface PropsFromDispatch {
+  refreshUser: typeof User.actions.refresh;
+}
+
+type Props = PropsFromState & PropsFromDispatch;
+
+function CustomGoal({ api, customGoal, refreshUser }: Props) {
   const [stepIndex, setStepIndex] = useState(0);
   const [state, setState] = useState<State>({
     ...(customGoal
@@ -202,11 +211,12 @@ export default function CustomGoal({
     type: [['Speak', 'speak'], ['Listen', 'listen'], ['Both', 'both']],
   };
 
-  function handleNext() {
+  async function handleNext() {
     const nextIndex = (stepIndex + 1) % steps.length;
     setStepIndex(nextIndex);
     if (nextIndex == 5) {
-      saveCustomGoal(state);
+      await api.createGoal(state);
+      refreshUser();
     }
   }
 
@@ -237,3 +247,11 @@ export default function CustomGoal({
     </div>
   );
 }
+
+export default connect<PropsFromState, PropsFromDispatch>(
+  ({ api, user }: StateTree) => ({
+    api,
+    customGoal: user.account.customGoal,
+  }),
+  { refreshUser: User.actions.refresh }
+)(CustomGoal);

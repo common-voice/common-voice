@@ -48,9 +48,10 @@ interface Props extends LocalizationProps, PropsFromState {
   activeIndex: number;
   errorContent?: any;
   extraButton?: React.ReactNode;
-  instruction: (
-    props: { $actionType: string; children: any }
-  ) => React.ReactNode;
+  instruction: (props: {
+    $actionType: string;
+    children: any;
+  }) => React.ReactNode;
   isFirstSubmit?: boolean;
   isPlaying: boolean;
   isSubmitted: boolean;
@@ -309,7 +310,7 @@ class ContributionPage extends React.Component<Props, State> {
     } = this.props;
     const { selectedPill } = this.state;
 
-    return isSubmitted ? (
+    return true || isSubmitted ? (
       <Success onReset={onReset} type={type} />
     ) : (
       errorContent ||

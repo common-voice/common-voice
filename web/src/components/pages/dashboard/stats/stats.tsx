@@ -20,7 +20,6 @@ const StatsPage = ({ allGoals, locale }: Props) =>
               key={type + locale}
               type={type as any}
               locale={locale}
-              customGoal={allGoals.customGoal}
               personalCurrent={current}
               personalGoal={
                 allGoals

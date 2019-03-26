@@ -20,13 +20,13 @@ import './progress-card.css';
 
 interface PropsFromState {
   api: API;
+  customGoal: CustomGoal;
   globalLocale: Locale.State;
 }
 
 interface Props extends PropsFromState {
   type: 'speak' | 'listen';
   locale: string;
-  customGoal?: CustomGoal;
   personalCurrent?: number;
   personalGoal?: number;
 }
@@ -65,19 +65,27 @@ class ProgressCard extends React.Component<Props, State> {
 
     const overallGoal = DAILY_GOAL[type];
     const isSpeak = type == 'speak';
+    const currentCustomGoal = customGoal.current[type];
+    const hasCustomGoal = currentCustomGoal !== undefined;
     return (
       <div className={'progress-card ' + type}>
         <div className="personal">
           <Fraction
             numerator={
-              typeof personalCurrent == 'number' ? personalCurrent : '?'
+              hasCustomGoal
+                ? currentCustomGoal
+                : typeof personalCurrent == 'number'
+                ? personalCurrent
+                : '?'
             }
             denominator={
-              (personalGoal == Infinity ? (
-                <div className="infinity">∞</div>
-              ) : (
-                personalGoal
-              )) || '?'
+              hasCustomGoal
+                ? customGoal.amount
+                : (personalGoal == Infinity ? (
+                    <div className="infinity">∞</div>
+                  ) : (
+                    personalGoal
+                  )) || '?'
             }
           />
           <Localized
@@ -87,17 +95,17 @@ class ProgressCard extends React.Component<Props, State> {
           <CustomGoalLock currentLocale={locale}>
             <div className="custom-goal-section">
               {customGoal ? (
-                customGoal.current[type] === undefined ? null : (
+                hasCustomGoal ? (
                   <Link className="custom-goal-link" to={URLS.GOALS}>
                     <CircleProgress
-                      value={customGoal.current[type] / customGoal.amount}
+                      value={currentCustomGoal / customGoal.amount}
                     />
                     <div className="custom-goal-text">
                       <span>Toward</span>
                       <span>next goal</span>
                     </div>
                   </Link>
-                )
+                ) : null
               ) : (
                 <LinkButton
                   className="custom-goal-button"
@@ -155,7 +163,8 @@ class ProgressCard extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>(({ api, locale }: StateTree) => ({
+export default connect<PropsFromState>(({ api, locale, user }: StateTree) => ({
   api,
+  customGoal: user.account.customGoal,
   globalLocale: locale,
 }))(ProgressCard);

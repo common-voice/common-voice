@@ -6,7 +6,7 @@ import GoalRow from './goal-row';
 
 import './goals.css';
 
-const GoalsPage = ({ allGoals, locale, saveCustomGoal }: Props) => (
+const GoalsPage = ({ allGoals, locale }: Props) => (
   <div className="goals-inner">
     <div className="goal-rows">
       {allGoals &&
@@ -16,10 +16,7 @@ const GoalsPage = ({ allGoals, locale, saveCustomGoal }: Props) => (
     </div>
     {allGoals && (
       <CustomGoalLock currentLocale={locale}>
-        <CustomGoal
-          customGoal={allGoals.customGoal}
-          saveCustomGoal={saveCustomGoal}
-        />
+        <CustomGoal />
       </CustomGoalLock>
     )}
   </div>
