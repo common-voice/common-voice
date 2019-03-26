@@ -302,6 +302,7 @@ email-subscriptions = Sotoscriçioìn a-a pòsta
 download-profile = Descàrega i mæ dæti
 contribution-experience = Esperiénsa de contribûti
 skip-submission-feedback = Sâta la spediçiòn di coménti
+skip-submission-description = Dòppo avéi sciacòu Spedìsci inta a spediçiòn do contribûto, ti pasiæ drîto drîto a-o pròscimo set de çìnque registraçioìn o convàlide, sâtàndo a richièsta de fornî coménti.
 skip-submission-note = Nòtta: saiâ in tùtti i câxi necesâio seleçionâ Pàrla ò Sénti pe modificâ o tîpo de contribûto.
 off = Dizatîva
 on = Atîva
