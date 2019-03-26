@@ -16,7 +16,7 @@ export default () => (
     <Resources />
     <div className="mars-validate">
       <div>
-        <img src="/img/datasets/mars.svg" alt="" />
+        <img src={require('./images/mars.svg')} alt="" />
       </div>
       <div>
         <div className="cta-container">

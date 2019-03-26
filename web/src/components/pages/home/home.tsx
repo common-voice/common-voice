@@ -24,7 +24,11 @@ function RegisterSection(props: { locale: string }) {
   const info = (
     <div className="signup-info">
       <div className="tabs">
-        <img className="waves" src="/img/signup-waves.png" alt="Waves" />
+        <img
+          className="waves"
+          src={require('./images/signup-waves.png')}
+          alt="Waves"
+        />
         {['benefits', 'whats-public'].map(l => (
           <label key={l}>
             <input
@@ -93,7 +97,7 @@ function RegisterSection(props: { locale: string }) {
           <img className="mars" src="/img/mars.svg" alt="Mars" />
           <img
             className="screenshot"
-            src={`/img/screenshots/${isBenefits ? 1 : 2}-${index + 1}.png`}
+            src={require(`./images/${isBenefits ? 1 : 2}-${index + 1}.png`)}
             alt=""
           />
         </div>
@@ -155,10 +159,14 @@ function HomePage({ heroes, locale, user }: PropsFromState) {
             </div>
           ) : (
             <div className="non-contributable-hero">
-              <img className="fading" src="/img/fading.svg" alt="Fading" />
+              <img
+                className="fading"
+                src={require('./images/fading.svg')}
+                alt="Fading"
+              />
               <img
                 className="waves"
-                src="/img/home-waves/speak.svg"
+                src={require('./images/speak.svg')}
                 alt="Waves"
               />
             </div>

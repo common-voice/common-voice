@@ -25,6 +25,10 @@ module.exports = {
      * ".js" included to make some Webpack plugins work.
      */
     extensions: ['.ts', '.tsx', '.js'],
+
+    alias: {
+      img: path.join(__dirname, 'img/'),
+    },
   },
   module: {
     rules: [
@@ -74,6 +78,10 @@ module.exports = {
             },
           },
         ],
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        loader: 'file-loader?name=/img/[name].[ext]',
       },
     ],
   },
