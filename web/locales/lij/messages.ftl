@@ -131,7 +131,7 @@ terms = Condiçioìn
 cookies = Cookie
 faq = Domànde frequénte
 content-license-text = Contegnûo disponìbile sótta <licenseLink>licénsa Creative Commons</licenseLink>
-share-title = Agiùtane a trovâ âtri donatoî de vôxe!
+share-title = Agiùtine a trovâ âtri donatoî de vôxe!
 share-text = Agiùtta a mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ: dónn-a a teu vôxe in sce { $link }
 link-copied = Colegaménto copiòu
 back-top = Vànni in çìmma
@@ -142,14 +142,14 @@ logout = Desconétite
 home-title = O progètto Common Voice o l'é 'n'iniçiatîva de Mozilla pe mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ.
 home-cta = Dìnni quarcösa! Sciàcca chi pe contriboî!
 wall-of-text-start = A vôxe a l'é naturâle, a vôxe a l'é umanitæ. L'é pe quésto che l'idêa de creâ 'na tecnologìa vocâle utilizàbile da-e nòstre màchine ne incànta così tànto. Ma pe creâ scistêmi bazæ in scê tecnologîe vocâle, l'é necesâio 'n fràcco de registraçioìn.
-wall-of-text-more-mobile = 'Na bónn-a pàrte di dæti uzæ de grénde aziénde a no l'é acescìbile a-a magiorànsa de persónn-e. Segóndo noiâtri, quésto o sófoca l'inovaçión. Dónca émmo creòu Common Voice, un progètto pe agiuttâ a rénde o riconosciménto vocâle avèrto a tùtti.
+wall-of-text-more-mobile = 'Na bónn-a pàrte di dæti uzæ de grénde aziénde a no l'é acescìbile a-a magiorànsa de persónn-e. Segóndo noiâtri, quésto o sófoca l'inovaçión. Dónca émmo creòu Common Voice, un progètto pe agiutâ a rénde o riconosciménto vocâle avèrto a tùtti.
 wall-of-text-more-desktop =
     Òua ti peu dónn-a a teu vôxe pe agiutâne a costroî 'na bâze de dæti avèrta, utilizàbile da tùtti pe svilupâ de aplicaçioìn inovatîve pe dispoxitîvi o pe-a Ræ.<lineBreak></lineBreak>
     Contriboî l'é sénplicìscimo! Lêzi 'na frâze pe mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ. Verìfica e registraçioìn di âtri colaboratô pe megioâ a qualitæ da bâze de dæti.
 wall-of-text-first = A vôxe a l'é naturâle, a vôxe a l'é umanitæ. L'é pe quésto che l'idêa de creâ 'na tecnologìa vocâle utilizàbile da-e nòstre màchine ne incànta così tànto. Ma pe creâ scistêmi bazæ in scê tecnologîe vocâle, i svilupatoî àn bezéugno de 'n fràcco de registraçioìn de vôxe.
-wall-of-text-second = 'Na bónn-a pàrte di dæti uzæ de grénde aziénde a no l'é acescìbile a-a magiorànsa de persónn-e. Segóndo noiâtri, quésto o sófoca l'inovaçión. Dónca émmo creòu Common Voice, un progètto pe agiuttâ a rénde o riconosciménto vocâle avèrto e acescìbile a tùtti.
+wall-of-text-second = 'Na bónn-a pàrte di dæti uzæ de grénde aziénde a no l'é acescìbile a-a magiorànsa de persónn-e. Segóndo noiâtri, quésto o sófoca l'inovaçión. Dónca émmo creòu Common Voice, un progètto pe agiutâ a rénde o riconosciménto vocâle avèrto e acescìbile a tùtti.
 show-wall-of-text = Informaçioìn in ciù
-help-us-title = Agiùtane a convalidâ e frâze!
+help-us-title = Agiùtine a convalidâ e frâze!
 help-us-explain = Sciàcca Riprodûxi, sénti e dìnine: l'àn dîta bèn a frâze chi de sótta?
 no-clips-to-validate = Pâ che no ghe són registraçioìn in sta léngoa. Contriboìsci registràndo quarcösa.
 vote-yes = Sci
@@ -158,14 +158,14 @@ toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ 
 speak-subtitle = Dónn-a a teu vôxe
 speak-paragraph = La registraçión vocâle de frâze a l'é 'na pàrte fondamentâle da costruçión da nòstra bâze de dæti; segóndo çèrtidùn, a ciù diverténte ascì.
 speak-goal-text = Registraçioìn
-listen-subtitle = Agiùtane a convalidâ e registraçioìn
-listen-paragraph = Convalidâ e registraçioìn fæte da-i âtri l'é âtretànto inportànte pe-a misción de Common Voice. Séntile, e agiùtane a creâ 'na bâze de dæti avèrta e de qualitæ.
+listen-subtitle = Agiùtine a convalidâ e registraçioìn
+listen-paragraph = Convalidâ e registraçioìn fæte da-i âtri l'é âtretànto inportànte pe-a misción de Common Voice. Séntile, e agiùtine a creâ 'na bâze de dæti avèrta e de qualitæ.
 listen-goal-text = Registraçioìn convalidæ
 hours-recorded = Ôe registræ
 hours-validated = Ôe validæ
 voices-online = Vôxe atoalménte in lìnia
 todays-progress = Progrèsso d'ancheu
-help-reach-goal = Agiùtane a arivâ a { $goal }
+help-reach-goal = Agiùtine a arivâ a { $goal }
 read-terms-q = T'æ lètto e condiçioìn d'ûzo do servìçio?
 ready-to-record = T'ê prónto a donâ a teu vôxe?
 all-locales = Tùtto
@@ -185,7 +185,7 @@ x-years-short =
         [one] ànno
        *[other] { $count } ànni
     }
-help-make-dataset = Agiùtane a realizâ 'na bâze de dæti de âta qualitæ e pùblica
+help-make-dataset = Agiùtine a realizâ 'na bâze de dæti de âta qualitæ e pùblica
 profile-not-required = Registrâ 'n profî o no l'é òbligatöio pe colaborâ, ma o l'é incoragiòu
 sign-up-account = Regìstrite
 email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
@@ -325,9 +325,11 @@ faq-why-important-q = Perché a l'é inportànte?
 faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
 faq-how-get-a = O dataset de Common Voice o l'é disponìbile pe êse descaregòu sótta a licénsa <licenseLink>CC0 </licenseLink> da-a <datasetLink>pàgina Dataset</datasetLink>. Inta mæxima pàgina ti peu trovâ tànti âtri dataset descaregàbili publicaménte.
 faq-when-release-q = Quànde saiàn pùblicæ i dæti de Common Voice in âtre léngoe?
+faq-when-release-a = A versción moltiléngoa do dataset de Common Voice a l'é atoalménte in fâze de svilùppo e rifinitûa da-a comunitæ. Se ti veu savéi de ciù in sce cómme sostegnî 'sto progétto, pe piâxéi  <contactLink>contàtine</contactLink>. A-o moménto, a publicaçión a l'é prevìsta pe zenâ do 2019. Sucesivaménte agiorniêmo periodicaménte o dataset con nêuve léngoe e con registraçioìn vocâle cómme saiàn disponìbili. A cadénsa do agiornaménto periòdico a l'é ancón da determinâ.
 faq-why-mission-q = In che mòddo Common Voice o l'é pàrte da misción de Mozilla?
 faq-what-cv-and-deepspeech-q = Quæ l'é a diferénsa tra Common Voice e Deep Speech?
 faq-is-goal-assistant-q = L'òbietîvo de Common Voice o l'é de prodûe 'n ascisténte vocâle?
+faq-do-want-native-q = No són de léngoa moæ ma pàrlo co-in acénto foestê. Éi bezéugno da mæ vôxe o mæximo?
 faq-why-different-speakers-q = Perché éi bezéugno de coscì tànte vôxe pe ògni léngoa?
 faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçión o l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
@@ -411,7 +413,7 @@ download = Descàrega
 ## Download Modal
 
 download-title = Descaregaménto comensòu
-download-helpus = Agiùtane a radunâ na comunitæ de persónn-e interesæ a-e tecnologîe vocâle, résta 'n contàtto vîa pòsta eletrònica.
+download-helpus = Agiùtine a radunâ na comunitæ de persónn-e interesæ a-e tecnologîe vocâle, résta 'n contàtto vîa pòsta eletrònica.
 download-form-email =
     .label = Inserìsci o teu indirìsso de pòsta eletrònica
     .value = Graçie, te contatiêmo fîto.
@@ -493,9 +495,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> L'àn dîta bèn a fr�
 listen-again-instruction = Òtimo travàggio! <playIcon></playIcon> Sénti tórna quànde t'ê prónto
 listen-3rd-time-instruction = Dôe fæte <playIcon></playIcon>, avànti 'n'âtra!
 listen-last-time-instruction = <playIcon></playIcon>L'urtima!
-nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtane registràndo quàrche frâze.
+nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtine registràndo quàrche frâze.
 record-button-label = Regìstra a teu vôxe
-share-title-new = <bold>Agiùtane</bold> a trovâ âtre vôxe
+share-title-new = <bold>Agiùtine</bold> a trovâ âtre vôxe
 
 ## Goals
 
