@@ -21,7 +21,7 @@ const Dataset = React.memo(
     return (
       <div className="other-dataset box">
         <div className="banner" style={{ backgroundColor: color }} />
-        <img src={`/img/datasets/${nick}.png`} alt="" />
+        <img src={require(`./images/${nick}.png`)} alt="" />
         <div className="dots-and-content">
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
           <div className="content">
@@ -171,7 +171,7 @@ export default React.memo(() => {
             ],
           ].map(([title, descriptionId, imgSrc, props]) => (
             <div className="box">
-              <img src={`/img/datasets/${imgSrc}.png`} />
+              <img src={require(`./images/${imgSrc}.png`)} />
               <div className="dots-and-content">
                 <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
                 <div className="content">
@@ -202,7 +202,7 @@ export default React.memo(() => {
           name={NAV_IDS.feedback}
           onChangeIntersection={handleIntersectionChange}>
           <div className="box feedback">
-            <img src="/img/datasets/feedback.png" />
+            <img src={require('./images/feedback.png')} />
             <div className="dots-and-content">
               <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
               <div className="content">

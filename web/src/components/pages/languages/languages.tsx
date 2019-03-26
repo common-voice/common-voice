@@ -261,12 +261,12 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
         <div className="top">
           <div className="waves">
-            <img src="/img/waves/_1.svg" />
-            <img src="/img/waves/_2.svg" />
-            <img src="/img/waves/_3.svg" className="red" />
+            <img src={require('./images/_1.svg')} />
+            <img src={require('./images/_2.svg')} />
+            <img src={require('./images/_3.svg')} className="red" />
 
-            <img src="/img/waves/fading.svg" style={{ right: -5 }} />
-            <img src="/img/waves/Eq.svg" className="eq" />
+            <img src={require('./images/fading.svg')} style={{ right: -5 }} />
+            <img src={require('./images/Eq.svg')} className="eq" />
           </div>
 
           <div className="text">
