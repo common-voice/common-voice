@@ -141,6 +141,10 @@
                 width: initial;
             }
 
+            &.selected {
+                width: initial;
+            }
+
             & option[value='none'] {
                 background: grey;
             }
