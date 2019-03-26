@@ -1,4 +1,4 @@
-@import url('../../vars.css');
+@import url('../vars.css');
 
 .share-modal.inner {
     display: flex;
@@ -9,6 +9,14 @@
     & h1 {
         font-weight: normal;
         font-size: var(--font-size-xxl);
+    }
+
+    & p {
+        margin-top: 10px;
+        max-width: 520px;
+        font-size: var(--font-size-lg);
+        font-style: italic;
+        font-weight: 300;
     }
 
     @media (--xs-down) {

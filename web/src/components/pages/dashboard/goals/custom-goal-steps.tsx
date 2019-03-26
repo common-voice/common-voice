@@ -1,8 +1,10 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { useState } from 'react';
 import { CustomGoal, CustomGoalParams } from 'common/goals';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
+import ShareModal from '../../../share-modal/share-modal';
 import {
   ArrowLeft,
   CheckIcon,
@@ -173,24 +175,41 @@ export default [
     </div>
   ),
 
-  ({ nextButtonProps }) => (
-    <div className="padded">
-      <div className="check">
-        <div className="shadow" />
-        <CheckIcon />
+  ({ nextButtonProps }) => {
+    const [showShareModal, setShowShareModal] = useState(false);
+    return (
+      <div className="padded">
+        {showShareModal && (
+          <ShareModal
+            title={
+              <>
+                <b>Help us</b> Find more voices, share your goal
+              </>
+            }
+            text="Share your 105 Clip Weekly Goal for Speaking and Listening"
+            onRequestClose={() => setShowShareModal(false)}
+          />
+        )}
+        <div className="check">
+          <div className="shadow" />
+          <CheckIcon />
+        </div>
+        <h2>Your weekly goal has been created</h2>
+        <p>
+          Track progress here and on your stats page.
+          <br />
+          Return here to edit your goal anytime.
+        </p>
+        <Button
+          rounded
+          className="share-button"
+          onClick={() => setShowShareModal(true)}>
+          <ShareIcon /> Share my goal
+        </Button>
+        <CloseButton {...nextButtonProps} />
       </div>
-      <h2>Your weekly goal has  been created</h2>
-      <p>
-        Track progress here and on your stats page.
-        <br />
-        Return here to edit your goal anytime.
-      </p>
-      <Button rounded className="share-button">
-        <ShareIcon /> Share my goal
-      </Button>
-      <CloseButton {...nextButtonProps} />
-    </div>
-  ),
+    );
+  },
 ] as (React.ComponentType<{
   closeButtonProps: React.HTMLProps<HTMLButtonElement>;
   completedRadios: React.ReactNode;
