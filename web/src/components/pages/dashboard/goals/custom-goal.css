@@ -396,7 +396,7 @@
             }
 
             color: var(--color);
-            --progress-color: var(--color);
+            --type-color: var(--color);
 
             & .relative {
                 display: flex;
