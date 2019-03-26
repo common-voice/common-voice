@@ -430,6 +430,12 @@ review-delete-recordings = Dilemel ma enrolladennoù
 ## New Datasets Page
 
 datasets-headline = Sevel a reomp spletadoù roadennoù mouezhioù digor o zarzh, lies-yezh hag a c'hall bezañ implijet gant forzh piv evit gourdonañ arloadoù anaoudegezh ar vouezh.
+datasets-positioning =
+    Soñjal a ra deomp e c'hall spletadoù roadennoù bras hag hegerz d'ar foran degas nevezenti ha kevezerezh kenwerzhel yac'h e teknologiezhioù ar vouezh diazezet war an deskadurezh emgefreek.
+    
+    Spletad roadennoù lies-yezh Common Voice a zo ar spletad roadennoù brasañ hegerz d'ar foran a c'haller kaout, met n'eo ket an hini nemetañ.
+    
+    Sellit ouzh ar bajenn-mañ evel un dave d'ar spletadoù roadennoù digor all, ha dre ma kresko Common Voice, un degemer evit hon hizivadennoù da zont.
 language = Yezh
 # File size in gigabytes
 size = Ment
@@ -438,12 +444,18 @@ overall-hr-total = Hollad eurvezhioù en holl
 cv-license = Lañvaz
 audio-format = Stumm aodio
 number-of-voices = Niver a vouezhioù
+splits = Troc'hadennoù
 email-to-download = Enankit ur c'homlec'h postel evit pellgargañ
+why-email = <b>Perak ur chomlec'h postel?</b> Gallout a rafec'h kaout ezhomm kelaouiñ ac'hanoc'h eus kemmoù er spletad roadennoù, gant ur chomlec'h postel hon eus un doare da vont e darempred ganeoc'h.
+confirm-size = Emaoc'h o vont da lañsañ ur bellgagadenn <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
+confirm-no-identify = <b>Asantiñ a rit</b> da chom hep klask despizañ pivelezh ar gomzerien e spletad roadennoù Common Voice
 download-language = Pellgargañ { $language }
 validated-hours = Eurvezhioù gwiriet
 recorded-hours = Eurvezhioù enrollet
+whats-inside = Petra zo e diabarzh spletad roadennoù Common Voice?
+dataset-description-hours = Pep elfenn er spletad roadennoù a zo ur restr MP3 hag ur restr testenn a glot. Ul lodenn vras eus an <b>{ $total }</b> eur enrollet er spletad roadennoù a enkorf ivez metaroadennoù poblañsouriezh evel an oad, ar reizh  hag ar pouez-mouezh hag a c'hall sikour gourdonañ spister al luskerioù anaoudegezh ar vouezh.
 subscribe = Koumanantiñ
 feedback-q = Evezhiadennoù ho peus?
 data-other-librispeech-description = LibriSpeech a zo anezhañ ur c'horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
