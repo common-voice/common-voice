@@ -455,14 +455,25 @@ download-language = Pellgargañ { $language }
 validated-hours = Eurvezhioù gwiriet
 recorded-hours = Eurvezhioù enrollet
 whats-inside = Petra zo e diabarzh spletad roadennoù Common Voice?
-dataset-description-hours = Pep elfenn er spletad roadennoù a zo ur restr MP3 hag ur restr testenn a glot. Ul lodenn vras eus an <b>{ $total }</b> eur enrollet er spletad roadennoù a enkorf ivez metaroadennoù poblañsouriezh evel an oad, ar reizh  hag ar pouez-mouezh hag a c'hall sikour gourdonañ spister al luskerioù anaoudegezh ar vouezh.
+dataset-description-hours =
+    Pep elfenn er spletad roadennoù a zo ur restr MP3 hag ur restr testenn a glot. Ul lodenn vras eus an <b>{ $total }</b> eur enrollet er spletad roadennoù a enkorf ivez metaroadennoù poblañsouriezh evel an oad, ar reizh  hag ar pouez-mouezh hag a c'hall sikour gourdonañ spister al luskerioù anaoudegezh ar vouezh.
+    
+    <b>{ $valid }</b> eur gwiriekaet e <b>{ $languages }</b> yezh a zo er spletad roadennoù evit ar mare, met ouzhpennañ a reomp mouezhioù ha yezhoù bepred. Taolit ur sell d'hor <languagesLink>pajenn Yezhoù</languagesLink> evit goulenn ur yezh pe kregiñ da gendeurel.
+want-dataset-update = Fellout a ra deoc'h kaout keleier pa ermaeziomp un handelv nevez eus spletad roadennoù Common Voice? Koumanantit d'al lizher kelaouiñ.
 subscribe = Koumanantiñ
+get-started-speech = Kregiñ gant anaoudegezh ar vouezh
+other-datasets = Spletadoù roadennoù all
 feedback-q = Evezhiadennoù ho peus?
+deepspeech-info = Spletad roadennoù Common Voice a gloka lusker anaoudegezh digor e darzh Mozilla, Deep Speech e anv. Gallout a rit e implij evit sevel arloadoù anaoudegezh ar vouezh. Lennit hon <githubLink>alberz war Github</githubLink> pe kejit gant an <discourseLink>Discourse DeepSpeech</discourseLink> evit gouzout penaos kregiñ ganit.
+common-voice-info-new = Goulennoù hoc'h eus a-zivout Common Voice? Mennozhioù evit gwellaat pe alioù a-zivout ur yezh resis? Deuit ganeomp war ar <discourseLink>forom Discourse</discourseLink> ha lârit deomp.
 data-other-librispeech-description = LibriSpeech a zo anezhañ ur c'horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Savet eo bet ar c'horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c'haller kavout war lec'hienn TED.
 data-other-voxforge-description = VoxForge a zo bet savet evit dastum mouezhioù treuzskrivet da vezañ implijet e luskerioù anaout ar vouezh frank.
 data-other-tatoeba-description = Tatoeba a zo anezhañ ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù komzet implijet en deskiñ yezhoù. Ar bellgargadenn-mañ a ya d'he ober saozneg komzet enrollet gant o c'humuniezh.
+your-feedback = Mennozhioù ho peus evit ma vefe gwelloc'h spletad roadennoù Common Voice? Lârit deomp war Discourse
+go-discourse = Mont betek Discourse
+missing-language = Na welit ket ho yezh er spletad roadennoù? Kit war ar bajenn yezhoù evit goulenn ur yezh nevez.
 go-languages-page = Mont da bajenn ar yezh
 ready-to-validate = Prest da sikour gwiriañ frazennoù?
 more = Muioc'h
@@ -496,11 +507,14 @@ request-language-form-language =
 request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras deoc'h.
 request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nemeur gant muioc'h a ditouroù war ar mod da ouzhpennañ ho yezh da gCommon Voice.
 select-language = Diuzañ ur yezh...
+other-language = Yezhoù all
 
 ## Languages Overview
 
 language-section-in-progress = War ober
+language-section-in-progress-new-description = Ar yezhoù-mañ a zo war ziorren gant ar gumuniezh evit ar mare. Ar barrennoù araokadur a ziskouez pegen pell eo aet pep yezh evit <localizationGlossaryLink>treiñ al lec'hienn</localizationGlossaryLink> ha <sentenceCollectionGlossaryLink>dastum frazennoù</sentenceCollectionGlossaryLink>.
 language-section-launched = Loc'het
+language-section-launched-description = Evit ar yezhoù lañset-mañ eo bet <localizationGlossaryLink>troet</localizationGlossaryLink> al lec'hienn ha dastumet et bet trawalc'h a <sentenceCollectionGlossaryLink>frazennoù</sentenceCollectionGlossaryLink> evit aotren kendaoladoù <speakLink>Komz</speakLink> ha <listenLink>Selaou</listenLink>.
 languages-show-more = Gouzout hiroc'h
 languages-show-less = Gwelet nebeutoc'h
 language-speakers = Komzerien
@@ -612,4 +626,8 @@ keep = Mirout
 remove = Dilemel
 keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh spletad roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest da gas ur goulenn dilemel ken war hoc'h enrolladennoù diwar ar spletad roadennoù
 remove-info = Sellout a raimp a dostoc'h d'ho koulenn dilamadur enrolladennoù mouezh diwar ar spletad roadennoù. Ma vez aprouet ho koulenn ez aimp e darempred gant an dud o deus pellgarget ar spletad roadennoù hag e c'houlennimp diganto dilemel hoc'h enrolladennoù ivez.
+why-delete-recordings =
+    Enrolladennoù Common Voice a zo implijet gant imbourc'herien, stalioù bihan ha tud sot gant anaoudegezh ar vouezh evit skoazellañ ac'hanomp da wellaat loazioù hegerz d'ar foran evit patromoù mouezh.
+    
+    Ha gallout a rafec'h lavar deomp perak e fell deoc'h dilemel hoc'h enrolladennoù?
 profile-form-delete = Dilemel ar profil
