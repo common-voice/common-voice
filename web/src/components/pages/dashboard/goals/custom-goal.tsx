@@ -4,11 +4,12 @@ import { connect } from 'react-redux';
 import { CustomGoal } from 'common/goals';
 import API from '../../../../services/api';
 import StateTree from '../../../../stores/tree';
+import { User } from '../../../../stores/user';
+import Modal from '../../../modal/modal';
 import { PenIcon } from '../../../ui/icons';
 import steps, { State, ViewGoal } from './custom-goal-steps';
 
 import './custom-goal.css';
-import { User } from '../../../../stores/user';
 
 const STATE_KEYS: ReadonlyArray<keyof State> = [
   null, // first step has no state
@@ -200,6 +201,7 @@ function CustomGoal({ api, customGoal, refreshUser }: Props) {
         }),
     remind: false,
   });
+  const [showOverwriteModal, setShowOverwriteModal] = useState(false);
 
   const Step = steps[stepIndex];
 
@@ -211,8 +213,12 @@ function CustomGoal({ api, customGoal, refreshUser }: Props) {
     type: [['Speak', 'speak'], ['Listen', 'listen'], ['Both', 'both']],
   };
 
-  async function handleNext() {
+  async function handleNext(confirmed = false) {
     const nextIndex = (stepIndex + 1) % steps.length;
+    if (customGoal && !confirmed && nextIndex == 1) {
+      setShowOverwriteModal(true);
+      return;
+    }
     setStepIndex(nextIndex);
     if (nextIndex == 5) {
       await api.createGoal(state);
@@ -223,17 +229,28 @@ function CustomGoal({ api, customGoal, refreshUser }: Props) {
   const showViewGoal = stepIndex == 0 && customGoal;
   return (
     <div className={'custom-goal ' + (showViewGoal ? '' : 'step-' + stepIndex)}>
+      {showOverwriteModal && (
+        <Modal
+          buttons={{
+            No: () => setShowOverwriteModal(false),
+            Yes: () => {
+              setShowOverwriteModal(false);
+              handleNext(true);
+            },
+          }}
+          onRequestClose={() => setShowOverwriteModal(false)}>
+          By editing your goal, you lose your existing progress. Do you want to
+          continue?
+        </Modal>
+      )}
       <StepButtons {...{ setStepIndex, state, stepIndex }} />
       {showViewGoal ? (
-        <ViewGoal onNext={handleNext} customGoal={customGoal} />
+        <ViewGoal onNext={() => handleNext()} customGoal={customGoal} />
       ) : (
         <Step
-          buttonProps={{
-            disabled:
-              stepIndex > 0 &&
-              stepIndex < 4 &&
-              state[STATE_KEYS[stepIndex]] == null,
-            onClick: handleNext,
+          closeButtonProps={{
+            onClick: () => setStepIndex(0),
+            style: customGoal ? {} : { display: 'none' },
           }}
           completedRadios={
             <CompletedRadios {...{ setStepIndex, state, states, stepIndex }} />
@@ -241,6 +258,13 @@ function CustomGoal({ api, customGoal, refreshUser }: Props) {
           currentRadios={
             <CurrentRadios {...{ setState, state, states, stepIndex }} />
           }
+          nextButtonProps={{
+            disabled:
+              stepIndex > 0 &&
+              stepIndex < 4 &&
+              state[STATE_KEYS[stepIndex]] == null,
+            onClick: () => handleNext(),
+          }}
           state={state}
         />
       )}

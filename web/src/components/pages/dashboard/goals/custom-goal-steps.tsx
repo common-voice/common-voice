@@ -23,6 +23,12 @@ const ArrowButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   </button>
 );
 
+const CloseButton = (props: React.HTMLProps<HTMLButtonElement>) => (
+  <button type="button" className="close-button" {...props}>
+    <CrossIcon />
+  </button>
+);
+
 export const ViewGoal = ({
   onNext,
   customGoal: { amount, current, days_interval },
@@ -64,7 +70,7 @@ export const ViewGoal = ({
 );
 
 export default [
-  ({ buttonProps }) => (
+  ({ nextButtonProps }) => (
     <>
       <h1>Build a custom goal</h1>
       <span className="sub-head">and help us reach 10k hours in English</span>
@@ -74,20 +80,23 @@ export default [
       </div>
 
       <div className="padded">
-        <Button className="get-started-button" rounded {...buttonProps}>
+        <Button className="get-started-button" rounded {...nextButtonProps}>
           Get Started
         </Button>
       </div>
     </>
   ),
 
-  ({ buttonProps, currentRadios }) => (
+  ({ closeButtonProps, currentRadios, nextButtonProps }) => (
     <>
       <div className="padded">
         <h2>What kind of goal do you want to build?</h2>
         {currentRadios}
       </div>
-      <ArrowButton {...buttonProps} style={{ marginBottom: 20 }} />
+      <div className="buttons" style={{ marginBottom: 20 }}>
+        <CloseButton {...closeButtonProps} />
+        <ArrowButton {...nextButtonProps} />
+      </div>
       <div className="waves">
         <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
         <div className="text">
@@ -101,7 +110,13 @@ export default [
     </>
   ),
 
-  ({ buttonProps, completedRadios, currentRadios, state }) => (
+  ({
+    closeButtonProps,
+    completedRadios,
+    currentRadios,
+    nextButtonProps,
+    state,
+  }) => (
     <>
       <div className="padded">
         {completedRadios}
@@ -111,22 +126,28 @@ export default [
         </h2>
         {currentRadios}
       </div>
-      <ArrowButton {...buttonProps} />
+      <div className="buttons">
+        <CloseButton {...closeButtonProps} />
+        <ArrowButton {...nextButtonProps} />
+      </div>
     </>
   ),
 
-  ({ buttonProps, completedRadios, currentRadios }) => (
+  ({ closeButtonProps, completedRadios, currentRadios, nextButtonProps }) => (
     <>
       <div className="padded">
         {completedRadios}
         <h2>Do you want to Speak, Listen or both?</h2>
         {currentRadios}
       </div>
-      <ArrowButton {...buttonProps} />
+      <div className="buttons">
+        <CloseButton {...closeButtonProps} />
+        <ArrowButton {...nextButtonProps} />
+      </div>
     </>
   ),
 
-  ({ buttonProps, completedRadios }) => (
+  ({ closeButtonProps, completedRadios, nextButtonProps }) => (
     <div className="padded">
       {completedRadios}
       <label className="box">
@@ -143,13 +164,16 @@ export default [
       <Localized id="read-terms-q">
         <LocaleLink to={URLS.TERMS} className="terms" blank />
       </Localized>
-      <Button rounded className="submit" {...buttonProps}>
-        <CheckIcon /> Confirm Goal
-      </Button>
+      <div className="buttons">
+        <CloseButton {...closeButtonProps} />
+        <Button rounded className="submit" {...nextButtonProps}>
+          <CheckIcon /> Confirm Goal
+        </Button>
+      </div>
     </div>
   ),
 
-  ({ buttonProps }) => (
+  ({ nextButtonProps }) => (
     <div className="padded">
       <div className="check">
         <div className="shadow" />
@@ -164,14 +188,13 @@ export default [
       <Button rounded className="share-button">
         <ShareIcon /> Share my goal
       </Button>
-      <button type="button" className="close-button" {...buttonProps}>
-        <CrossIcon />
-      </button>
+      <CloseButton {...nextButtonProps} />
     </div>
   ),
 ] as (React.ComponentType<{
-  buttonProps: React.HTMLProps<HTMLButtonElement>;
+  closeButtonProps: React.HTMLProps<HTMLButtonElement>;
   completedRadios: React.ReactNode;
   currentRadios: React.ReactNode;
+  nextButtonProps: React.HTMLProps<HTMLButtonElement>;
   state: State;
 }>)[];

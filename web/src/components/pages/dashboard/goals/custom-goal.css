@@ -144,6 +144,18 @@
         }
     }
 
+    & .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        & .close-button {
+            border: 2px solid black;
+            margin-right: 20px;
+        }
+    }
+
     & .arrow-button {
         border: none;
         border-radius: 50%;
@@ -160,6 +172,17 @@
         &:disabled {
             background: var(--warm-grey);
         }
+    }
+
+    & .close-button {
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--white);
     }
 
     &.step-0 {
@@ -234,7 +257,6 @@
 
         & .submit {
             border: none;
-            margin: 0 auto;
             padding: 0 30px;
             height: 57px;
             min-width: auto;
@@ -316,17 +338,6 @@
             & path {
                 fill: var(--white);
             }
-        }
-
-        & .close-button {
-            border: none;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: var(--white);
         }
     }
 
