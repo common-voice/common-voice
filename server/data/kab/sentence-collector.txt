@@ -1,8 +1,10 @@
 A Caɛban, ah ya Caɛban, taqbaylit anda k-tt-rran?
+A Caɛban, awi-d astilu-nni ik-muddeɣ iḍelli!
 A Rabaḥ! Zzi-d udem-k ad nerbeḥ.
 A Tehriruc a mmi, rwaḥ ad teččeḍ imensi, imensi semmeḍ.
 A Werdiya ur kem-in-uwiḍeɣ ara akken ad d-tawḍeḍ yessi.
 A Werdiya, ur kem-in-uwiḍeɣ ara akken ad d-tawḍeḍ yessi.
+A baba, Caɛban yewwet-iyi.
 A bu uqamum n uyaziḍ!
 A cacca!
 A ccmata!
@@ -22,6 +24,8 @@ A taɣyult!
 A tiddewt!
 A wi iwalan tamurt ula deg targit.
 A wi yufan ad yuɣal d afrux, ad yefferfer deg yigenwan.
+A yemma, Dehbeya tewwet-iyi.
+A yemma, anda-t uqrab-nni ara awiɣ ɣer lakul?
 A yemma, awi-d ad eččeɣ cwiṭ n cikula!
 A yemma, uḍneɣ taɛebbuḍt-iw!
 A yir argaz!
@@ -592,6 +596,7 @@ Azalen, fessin am udfel deg yiṭij.
 Azberbur d tiẓurin urɛad wwint, mazal-itent d tisemmamin.
 Azegḍuf d yiwen n yimɣi iteqsen.
 Azekka ad asent-d-yaɣ akk ayen steḥqent.
+Azekka ad dduɣ ɣer lbilaǧ akked baba.
 Azekka ad hedreɣ i Tom.
 Azekka ad ruḥeɣ. Anwa ara yeddun yid-i?
 Azekka ad uraren ddabax n uḍar.
@@ -1392,6 +1397,7 @@ Jerḥeɣ deg uḍar dɣa yeffeɣ-iyi-d uwles.
 Jida tezga tḥekku-iyi-d timucuha rrif ukanun.
 Kanada d tamurt n usemmiḍ.
 Kanada d tamurt tameqqrant.
+Karima iḥemmel-itt gma.
 Katya Bengana tettwanɣa zdat n weltma-s.
 Kecmen yimariren s anrar, bdan tturaren.
 Kecment-tt tissmin.
@@ -1759,6 +1765,7 @@ Nesɛa aṭas n tmucuha.
 Nesɛa sebɛa tyuẓaḍ ticebḥanin akked yiwen uyaẓiḍ azeggaɣ.
 Nesɛa sebɛa wakraren, tixsi akked uɣyul.
 Nesɛa tmanyin n tzemrin deg uzaɣar.
+Nesṭebṭeb-as i Nna Malḥa ɣef tewwurt sakin nerwel.
 Netta yekkat abendayer, ma d ameddakel-is d lɣiṭa.
 Netta yesraɣay ulman.
 Nettarra-k deg uɛewwiq.
@@ -2633,6 +2640,7 @@ Tuker-it lqaɛa meskin.
 Tuker-iyi tnafa.
 Tukert-it lqawɛa.
 Tuklaleḍ nnig n waya.
+Tukreḍ-iyi tacacit-iw, tewwiḍ-as-tt i gma-k.
 Tuli lḥamu ɣer ṛebɛin n tseddarin.
 Tullas akk ttasment seg-i.
 Tullist taneggarut i uriɣ aṭas i tt-yeɣran.
@@ -2870,6 +2878,7 @@ Ur sliɣ ara d acu i d-yenna.
 Ur sliɣ ara.
 Ur ssalay ara taɣect-ik.
 Ur ssineɣ anda yezdeɣ.
+Ur ssineɣ ara ad selḥuɣ avilu.
 Ur steḥqeɣ ara aɛiwen-ik.
 Ur t-yettawi ara yid-s.
 Ur tebɣiḍ ara ad tedduḍ yid-i.
@@ -3010,6 +3019,8 @@ Urǧin walaɣ yiwen umagad am kečč.
 Urǧin yenna-d tidet.
 Urǧin yenɣa usgunfu yiwen.
 Urǧin yewwet-d udfel deg unebdu.
+Usiɣ-d d tis snat di lakul dɣa fkan-iyi-d amawal d akadu.
+Usiɣ-d d wis xemsa u ɛecrin di lakul dɣa yewwet-iyi baba.
 Ussan i d-iteddun ad ruḥeɣ ɣer kanada.
 Ussan-a ad yekfu useggas.
 Uwiɣ afenǧal n lqahwa s imi-w, jeɣmeɣ tiqqit n lqahwa.
@@ -3040,7 +3051,11 @@ Voṭan medden fell-as s tesɛa utesɛin ticert tesɛa utesɛin ɣef meyya.
 Vuṭṭan medden fell-as xas akken yettmettat.
 Wa Dihya ṛwaḥ ad nurar taɛcuct!
 Wa Masi ṛwaḥ ad nurar s uvilu!
+Wa Meẓyan, ṛwaḥ ad nurar labil!
 Wa Samir awi-d azemmur-nni ad nandi yis-s i yefrax!
+Wa Samir awi-d ibarriqen-nni ad nandi yis-sen i yefrax!
+Wa Samir awi-d taqqurin-nni ad nandi yis-sent i yefrax!
+Wa Samir awi-d tiwekkiwin-nni ad nandi yis-sent i yefrax!
 Wa d asaru mačči d targit!
 Wa ibedd, wa yeqqim.
 Wa ibennu, wa yetthuddu.
@@ -3933,6 +3948,7 @@ Zedmeɣ-d isɣaren si lexla-nneɣ.
 Zewwaɣ wudem-is mi yenneḥcam.
 Zewwaɣet, melliḥet, tettiqi seg sser.
 Zeɛfeɣ aṭas.
+Zgiɣ d tamezwarut di lakul.
 Zher ur s-izmir ddreɛ, meskint temger tuẓedla.
 Zher-iw, irewwel fell-i, ur ẓriɣ acimi i iyi-yugi.
 Zik aɣerbaz-nneɣ yessuffuɣ-d imussnawen.
@@ -4071,6 +4087,7 @@ yewwi-tent s axxam-nsent.
 Ḥader ad tettuḍ ur as-tettarraḍ ara i tebrat-is.
 Ḥader-t win ara awen-yinin lḥeb yif-it ukerfa!
 Ḥareɣ ad kem-waliɣ.
+Ḥareɣ melmi ara nuɣal ɣer lakul iwakken ad lseɣ icetiḍen-iw ijdiden.
 Ḥebseɣ akeyyef n ddexxan.
 Ḥemleɣ ad aruɣ isefra.
 Ḥemleɣ ad waliɣ udem-iw deg wallen-im.
@@ -4101,6 +4118,7 @@ yewwi-tent s axxam-nsent.
 Ḥuzaɣ afus-iw s umger.
 Ḥṣiɣ d tidet i iyi-infan, acḥal d amedyaz tenfa.
 Ṛuḥ ssefhem-asen tura kečč.
+Ṛuḥeɣ akked Samir ad andiɣ tifextin.
 Ṛwaḥ a baba ad nurar lwaḥid!
 Ṭawes yuɣ-itt Yidir ilindi.
 Ṭbib n ucelleḥ yekcem ɣer umuḍin-is mbaɛd mi d-yuki.
