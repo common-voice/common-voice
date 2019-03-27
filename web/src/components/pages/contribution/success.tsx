@@ -7,6 +7,7 @@ import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import URLS from '../../../urls';
+import CustomGoalLock from '../../custom-goal-lock';
 import { LocaleLink } from '../../locale-helpers';
 import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
@@ -153,8 +154,21 @@ function Success({ api, onReset, type, user }: Props) {
         />
       </div>
 
-      {!hasAccount && (
-        <div className="profile-card">
+      {hasAccount ? (
+        !customGoal && (
+          <CustomGoalLock>
+            <div className="info-card">
+              <p>
+                Build a personal goal and help us reach 10k hours in English
+              </p>
+              <LinkButton rounded href={URLS.GOALS}>
+                Get started with goals
+              </LinkButton>
+            </div>
+          </CustomGoalLock>
+        )
+      ) : (
+        <div className="info-card">
           <Localized id="profile-explanation">
             <p />
           </Localized>
