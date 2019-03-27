@@ -335,6 +335,8 @@ faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçión o l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 faq-where-src-from-2-q = Dónde o vêgne o tésto d'òrìgine?
 faq-why-account-q = Perché mi doviæ registrâ 'n cónto?
+faq-is-account-public-q = E informaçioìn in sciô mæ cónto són pùbliche?
+faq-how-privacy-q = Cómme aseghiæ l'anonimâto e o rispètto da vìtta privâ da génte che l'à regalòu e seu vôxe?
 
 ## Glossary
 
@@ -357,6 +359,7 @@ data-download-button = Descàrega i dæti de Common Voice
 data-download-yes = Sci
 data-download-deny = No
 data-download-license = Licénsa: <licenseLink>CC-0</licenseLink>
+data-download-modal = Saiàn descaregâti <size>{ $size }GB</size> de dæti. Procêde co-o descaregaménto?
 data-get-started = <speechBlogLink>Instruçioìn pe-o riconosciménto vocâle</speechBlogLink>
 data-other-title = Âtri dataset vocâli...
 data-other-goto = Vànni a { $name }
