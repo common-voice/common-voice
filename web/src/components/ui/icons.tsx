@@ -112,7 +112,7 @@ export const ChevronRight = (props: any) => (
 );
 
 export const CloseIcon = ({ black, ...props }: any) => {
-  const RealIcon = Icon(require(`./close${black ? '-black' : ''}.svg`));
+  const RealIcon = Icon(require(`./icons/close${black ? '-black' : ''}.svg`));
   return <RealIcon {...props} />;
 };
 
