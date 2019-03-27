@@ -408,6 +408,7 @@ deepspeech-info = „Common Voice“ duomenų rinkinys papildo „Mozillos“ at
 common-voice-info-new = Turi klausimų apie „Common Voice“? Idėjų ar atsiliepimų apie konkrečią kalbą? Prisijunk prie mūsų <discourseLink>„Discourse“ forumo</discourseLink> ir papasakok.
 data-other-librispeech-description = „LibriSpeech“ yra maždaug 1000 valandų 16 kHz skaitomos anglų kalbos įrašų rinkinys, gautas iš „LibriVox“ projekte įgarsintų garsaknygių.
 data-other-ted-name = „TED-LIUM“ rinkinys
+data-other-ted-description = „TED-LIUM“ rinkinys sukurtas panaudojant „TED“ svetainėje esančias prakalbas ir jų nuorašus.
 go-discourse = Eiti į „Discourse“
 go-languages-page = Eiti į kalbų tinklalapį
 more = Išsamiau
@@ -416,9 +417,11 @@ download = Atsisiųsti
 
 ## Download Modal
 
+download-title = Parsiuntimas prasidėjo.
 download-form-email =
     .label = Įvesk savo el. paštą
     .value = Ačiū, susisieksime su jumis.
+download-back = Grįžti į „Common Voice“  duomenų rinkinius
 download-no = Ne, ačiū
 
 ## Contact Modal
@@ -435,6 +438,9 @@ request-language-title = Prašymas aktyvinti kalbą
 request-language-form-language =
     .label = Kalba
 request-language-success-title = Prašymas sėkmingai pateiktas, dėkojame.
+request-language-success-content = Netrukus su tavimi susisieksime ir papasakosime, kaip pridėti tavo norimą kalbą į „Common Voice“.
+select-language = Pasirink kalbą…
+other-language = Kita kalba
 
 ## Languages Overview
 
