@@ -1,6 +1,4 @@
-/**
- * Functions to be shared across mutiple modules.
- */
+import { UserClient } from 'common/user-clients';
 
 /**
  * Generate RFC4122 compliant globally unique identifier.
@@ -97,4 +95,11 @@ export function replacePathLocale(pathname: string, locale: string) {
   const pathParts = pathname.split('/');
   pathParts[1] = locale;
   return pathParts.join('/');
+}
+
+export function getManageSubscriptionURL(account: UserClient) {
+  const firstLanguage = account.locales[0];
+  return `https://www.mozilla.org/${
+    firstLanguage ? firstLanguage.locale + '/' : ''
+  }newsletter/existing/${account.basket_token}`;
 }

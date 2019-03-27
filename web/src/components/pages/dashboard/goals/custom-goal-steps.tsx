@@ -1,8 +1,12 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
+import { connect } from 'react-redux';
 import { CustomGoal, CustomGoalParams } from 'common/goals';
+import { UserClient } from 'common/user-clients';
 import URLS from '../../../../urls';
+import { getManageSubscriptionURL } from '../../../../utility';
+import StateTree from '../../../../stores/tree';
 import { LocaleLink } from '../../../locale-helpers';
 import ShareModal from '../../../share-modal/share-modal';
 import {
@@ -10,14 +14,11 @@ import {
   CheckIcon,
   CrossIcon,
   PenIcon,
+  SettingsIcon,
   ShareIcon,
 } from '../../../ui/icons';
 import { Button, LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
-
-export type State = CustomGoalParams & {
-  remind: boolean;
-};
 
 const ArrowButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <button className="arrow-button" type="button" {...props}>
@@ -71,6 +72,66 @@ export const ViewGoal = ({
   </div>
 );
 
+interface CustomGoalStepProps {
+  closeButtonProps: React.HTMLProps<HTMLButtonElement>;
+  completedFields: React.ReactNode;
+  currentFields: React.ReactNode;
+  nextButtonProps: React.HTMLProps<HTMLButtonElement>;
+  state: CustomGoalParams;
+}
+
+interface AccountProps {
+  account: UserClient;
+}
+
+const SubmitStep = ({
+  account,
+  closeButtonProps,
+  completedFields,
+  currentFields,
+  nextButtonProps,
+}: CustomGoalStepProps & AccountProps) => (
+  <div className="padded">
+    {completedFields}
+    {account.basket_token ? (
+      <a
+        className="manage-subscriptions"
+        href={getManageSubscriptionURL(account)}
+        target="__blank"
+        rel="noopener noreferrer">
+        <Localized id="manage-subscriptions">
+          <span />
+        </Localized>
+        <SettingsIcon />
+      </a>
+    ) : (
+      <>
+        <label className="box">
+          {currentFields}
+          <div className="content">
+            I’d like updates and goal reminders to keep current with Common
+            Voice
+          </div>
+        </label>
+        <Localized
+          id="email-opt-in-privacy"
+          privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+          <p />
+        </Localized>
+        <Localized id="read-terms-q">
+          <LocaleLink to={URLS.TERMS} className="terms" blank />
+        </Localized>
+      </>
+    )}
+    <div className="buttons">
+      <CloseButton {...closeButtonProps} />
+      <Button rounded className="submit" {...nextButtonProps}>
+        <CheckIcon /> Confirm Goal
+      </Button>
+    </div>
+  </div>
+);
+
 export default [
   ({ nextButtonProps }) => (
     <>
@@ -89,11 +150,11 @@ export default [
     </>
   ),
 
-  ({ closeButtonProps, currentRadios, nextButtonProps }) => (
+  ({ closeButtonProps, currentFields, nextButtonProps }) => (
     <>
       <div className="padded">
         <h2>What kind of goal do you want to build?</h2>
-        {currentRadios}
+        {currentFields}
       </div>
       <div className="buttons" style={{ marginBottom: 20 }}>
         <CloseButton {...closeButtonProps} />
@@ -114,19 +175,19 @@ export default [
 
   ({
     closeButtonProps,
-    completedRadios,
-    currentRadios,
+    completedFields,
+    currentFields,
     nextButtonProps,
     state,
   }) => (
     <>
       <div className="padded">
-        {completedRadios}
+        {completedFields}
         <h2>
           Great! How many clips
           {state.daysInterval == 7 ? ' a week' : ' per day'}?
         </h2>
-        {currentRadios}
+        {currentFields}
       </div>
       <div className="buttons">
         <CloseButton {...closeButtonProps} />
@@ -135,12 +196,12 @@ export default [
     </>
   ),
 
-  ({ closeButtonProps, completedRadios, currentRadios, nextButtonProps }) => (
+  ({ closeButtonProps, completedFields, currentFields, nextButtonProps }) => (
     <>
       <div className="padded">
-        {completedRadios}
+        {completedFields}
         <h2>Do you want to Speak, Listen or both?</h2>
-        {currentRadios}
+        {currentFields}
       </div>
       <div className="buttons">
         <CloseButton {...closeButtonProps} />
@@ -149,33 +210,11 @@ export default [
     </>
   ),
 
-  ({ closeButtonProps, completedRadios, nextButtonProps }) => (
-    <div className="padded">
-      {completedRadios}
-      <label className="box">
-        <input type="checkbox" />
-        <div className="content">
-          I’d like updates and goal reminders to keep current with Common Voice
-        </div>
-      </label>
-      <Localized
-        id="email-opt-in-privacy"
-        privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
-        <p />
-      </Localized>
-      <Localized id="read-terms-q">
-        <LocaleLink to={URLS.TERMS} className="terms" blank />
-      </Localized>
-      <div className="buttons">
-        <CloseButton {...closeButtonProps} />
-        <Button rounded className="submit" {...nextButtonProps}>
-          <CheckIcon /> Confirm Goal
-        </Button>
-      </div>
-    </div>
+  connect<AccountProps>(({ user }: StateTree) => ({ account: user.account }))(
+    SubmitStep
   ),
 
-  ({ nextButtonProps }) => {
+  ({ nextButtonProps, state }) => {
     const [showShareModal, setShowShareModal] = useState(false);
     return (
       <div className="padded">
@@ -186,7 +225,15 @@ export default [
                 <b>Help us</b> Find more voices, share your goal
               </>
             }
-            text="Share your 105 Clip Weekly Goal for Speaking and Listening"
+            text={`Share your ${state.amount} Clip ${
+              state.daysInterval == 7 ? 'Weekly' : 'Daily'
+            } Goal for ${
+              ({
+                speak: 'Speaking',
+                listen: 'Listening',
+                both: 'Speaking and Listening',
+              } as any)[state.type]
+            }`}
             onRequestClose={() => setShowShareModal(false)}
           />
         )}
@@ -210,10 +257,4 @@ export default [
       </div>
     );
   },
-] as (React.ComponentType<{
-  closeButtonProps: React.HTMLProps<HTMLButtonElement>;
-  completedRadios: React.ReactNode;
-  currentRadios: React.ReactNode;
-  nextButtonProps: React.HTMLProps<HTMLButtonElement>;
-  state: State;
-}>)[];
+] as (React.ComponentType<CustomGoalStepProps>)[];

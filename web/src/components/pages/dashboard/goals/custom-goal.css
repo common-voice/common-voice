@@ -49,6 +49,7 @@
     & .padded {
         margin: 0 auto;
         max-width: 350px;
+        width: 100%;
     }
 
     & .box {
@@ -253,6 +254,20 @@
         & .terms {
             margin-bottom: 20px;
             display: block;
+        }
+
+        & .manage-subscriptions {
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: var(--black);
+
+            & svg {
+                margin-inline-start: 5px;
+            }
         }
 
         & .submit {

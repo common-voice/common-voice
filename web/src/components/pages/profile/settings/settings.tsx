@@ -11,6 +11,7 @@ import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
+import { getManageSubscriptionURL } from '../../../../utility';
 import { LocaleLink } from '../../../locale-helpers';
 import { InfoIcon, PenIcon, SettingsIcon } from '../../../ui/icons';
 import {
@@ -57,7 +58,6 @@ interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 function Settings(props: Props) {
   const { account, addNotification, getString, locale, saveAccount } = props;
-  const firstLanguage = account.locales[0];
 
   useEffect(() => {
     const { pathname, search } = location;
@@ -103,9 +103,7 @@ function Settings(props: Props) {
           titleAction={
             <a
               className="manage-subscriptions"
-              href={`https://www.mozilla.org/${
-                firstLanguage ? firstLanguage.locale + '/' : ''
-              }newsletter/existing/${account.basket_token}`}
+              href={getManageSubscriptionURL(account)}
               target="__blank"
               rel="noopener noreferrer">
               <Localized id="manage-subscriptions">

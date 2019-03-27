@@ -1,22 +1,30 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
-import { CustomGoal } from 'common/goals';
+import { CustomGoalParams } from 'common/goals';
+import { UserClient } from 'common/user-clients';
 import API from '../../../../services/api';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import Modal from '../../../modal/modal';
 import { PenIcon } from '../../../ui/icons';
-import steps, { State, ViewGoal } from './custom-goal-steps';
+import steps, { ViewGoal } from './custom-goal-steps';
 
 import './custom-goal.css';
 
-const STATE_KEYS: ReadonlyArray<keyof State> = [
+const STATE_KEYS: ReadonlyArray<keyof CustomGoalParams> = [
   null, // first step has no state
   'daysInterval',
   'amount',
   'type',
 ];
+
+const STEPS = {
+  INTRO: 0,
+  EDIT_START: 1,
+  SUBMIT: 4,
+  COMPLETED: 5,
+};
 
 const Radio = ({
   children,
@@ -42,7 +50,7 @@ function StepButtons({
   stepIndex,
 }: {
   setStepIndex: (index: number) => void;
-  state: State;
+  state: CustomGoalParams;
   stepIndex: number;
 }) {
   return (
@@ -83,18 +91,19 @@ function StepButtons({
   );
 }
 
-function CompletedRadios({
+function CompletedFields({
   setStepIndex,
   state,
   states,
   stepIndex,
 }: {
   setStepIndex: (index: number) => void;
-  state: State;
+  state: CustomGoalParams;
   states: any;
   stepIndex: number;
 }) {
-  const completedStates = stepIndex > 4 ? [] : STATE_KEYS.slice(1, stepIndex);
+  const completedStates =
+    stepIndex > STEPS.SUBMIT ? [] : STATE_KEYS.slice(1, stepIndex);
   return (
     <div className="fields completed">
       {completedStates.map(stateKey => {
@@ -122,14 +131,14 @@ function CompletedRadios({
   );
 }
 
-function CurrentRadios({
+function CurrentFields({
   setState,
   state,
   states,
   stepIndex,
 }: {
-  setState: (state: State) => void;
-  state: State;
+  setState: (state: CustomGoalParams) => void;
+  state: CustomGoalParams;
   states: any;
   stepIndex: number;
 }) {
@@ -172,8 +181,8 @@ function CurrentRadios({
 }
 
 interface PropsFromState {
+  account: UserClient;
   api: API;
-  customGoal: CustomGoal;
 }
 
 interface PropsFromDispatch {
@@ -182,10 +191,15 @@ interface PropsFromDispatch {
 
 type Props = PropsFromState & PropsFromDispatch;
 
-function CustomGoal({ api, customGoal, refreshUser }: Props) {
-  const [stepIndex, setStepIndex] = useState(0);
-  const [state, setState] = useState<State>({
-    ...(customGoal
+function CustomGoal({
+  account: { customGoal, email },
+  api,
+  refreshUser,
+}: Props) {
+  const [stepIndex, setStepIndex] = useState(STEPS.INTRO);
+  const [subscribed, setSubscribed] = useState(false);
+  const [state, setState] = useState<CustomGoalParams>(
+    customGoal
       ? {
           daysInterval: customGoal.days_interval,
           amount: customGoal.amount,
@@ -198,9 +212,8 @@ function CustomGoal({ api, customGoal, refreshUser }: Props) {
           daysInterval: null,
           amount: null,
           type: null,
-        }),
-    remind: false,
-  });
+        }
+  );
   const [showOverwriteModal, setShowOverwriteModal] = useState(false);
 
   const Step = steps[stepIndex];
@@ -215,18 +228,21 @@ function CustomGoal({ api, customGoal, refreshUser }: Props) {
 
   async function handleNext(confirmed = false) {
     const nextIndex = (stepIndex + 1) % steps.length;
-    if (customGoal && !confirmed && nextIndex == 1) {
+    if (customGoal && !confirmed && nextIndex == STEPS.EDIT_START) {
       setShowOverwriteModal(true);
       return;
     }
     setStepIndex(nextIndex);
-    if (nextIndex == 5) {
+    if (nextIndex == STEPS.COMPLETED) {
       await api.createGoal(state);
+      if (subscribed) {
+        await api.subscribeToNewsletter(email);
+      }
       refreshUser();
     }
   }
 
-  const showViewGoal = stepIndex == 0 && customGoal;
+  const showViewGoal = stepIndex == STEPS.INTRO && customGoal;
   return (
     <div className={'custom-goal ' + (showViewGoal ? '' : 'step-' + stepIndex)}>
       {showOverwriteModal && (
@@ -249,19 +265,27 @@ function CustomGoal({ api, customGoal, refreshUser }: Props) {
       ) : (
         <Step
           closeButtonProps={{
-            onClick: () => setStepIndex(0),
+            onClick: () => setStepIndex(STEPS.INTRO),
             style: customGoal ? {} : { display: 'none' },
           }}
-          completedRadios={
-            <CompletedRadios {...{ setStepIndex, state, states, stepIndex }} />
+          completedFields={
+            <CompletedFields {...{ setStepIndex, state, states, stepIndex }} />
           }
-          currentRadios={
-            <CurrentRadios {...{ setState, state, states, stepIndex }} />
+          currentFields={
+            stepIndex == STEPS.SUBMIT ? (
+              <input
+                type="checkbox"
+                checked={subscribed}
+                onChange={event => setSubscribed(event.target.checked)}
+              />
+            ) : (
+              <CurrentFields {...{ setState, state, states, stepIndex }} />
+            )
           }
           nextButtonProps={{
             disabled:
-              stepIndex > 0 &&
-              stepIndex < 4 &&
+              stepIndex > STEPS.INTRO &&
+              stepIndex < STEPS.SUBMIT &&
               state[STATE_KEYS[stepIndex]] == null,
             onClick: () => handleNext(),
           }}
@@ -274,8 +298,8 @@ function CustomGoal({ api, customGoal, refreshUser }: Props) {
 
 export default connect<PropsFromState, PropsFromDispatch>(
   ({ api, user }: StateTree) => ({
+    account: user.account,
     api,
-    customGoal: user.account.customGoal,
   }),
   { refreshUser: User.actions.refresh }
 )(CustomGoal);
