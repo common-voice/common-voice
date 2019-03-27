@@ -10,6 +10,7 @@ import './awards.css';
 
 const NoAwardsPage = () => (
   <div className="no-awards-page">
+    <img src={require('./stars.svg')} alt="Stars" />
     <h1>Earn your first award, create a goal</h1>
     <LinkButton rounded to={URLS.GOALS}>
       Get started with goals

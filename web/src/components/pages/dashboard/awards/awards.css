@@ -1,12 +1,17 @@
 @import url('../../../vars.css');
 
 .no-awards-page {
+    padding: 50px 20px 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url('./wave.svg');
     background-size: cover;
     background-position: center bottom;
+
+    & img {
+        max-width: 100%;
+    }
 
     & h1 {
         margin-bottom: 30px;
