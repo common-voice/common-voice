@@ -4,6 +4,7 @@
 "Cepatlah berangkat!" ia berujar padaku.
 "Kosong" sama dengan "nol".
 "Selamat pagi," kata Tom sambil tersenyum.
+"Tatoeba" dalam Bahasa Jepang berarti "contohnya".
 Ada banyak bangunan tua yang terkenal di Kyoto.
 Ada banyak kata yang ditulis dengan katakana dalam bahasa Jepang.
 Ada barang lain yang Anda mau.
@@ -19,6 +20,7 @@ Ada tujuh potong keik.
 Ada yang membawa bolpoin saya.
 Adakah toko bangunan yang terdekat dari sini?
 Adalah penting, di usia berapapun, untuk takut akan Tuhan dan menghormati orang tua.
+Adalah perlu untuk mencintai ibu.
 Adalah tidak mungkin untuk kembali ke masa lalu.
 Adik laki-laki Pak Kobayashi sedang bermain sepak bola.
 Adik laki-laki saya badannya sangat kuat.
@@ -51,6 +53,8 @@ Aku ingin minum kopi.
 Aku ingin pergi ke Belitung untuk melihat pemandangan laut yang indah.
 Aku ingin sekali minum kopi.
 Aku kangen kamu.
+Aku malu pada diriku sendiri.
+Aku mau mati bersama Getter Jaani.
 Aku melihat dari jendela garasi, terkejut pada apa yang aku lihat.
 Aku memanggil namamu.
 Aku mengatakan ini dari hati.
@@ -68,6 +72,7 @@ Aku sudah tidak tahan dengan hal itu.
 Aku sudah tidak tahan dengannya.
 Aku sudah tidak tahan lagi!
 Aku sudah tidak tahan lagi.
+Aku tak dapat hidup tanpamu.
 Aku tidak bercanda.
 Aku tidak dapat hidup tanpa kamu.
 Aku tidak dapat membayangkan hidup tanpa kamu.
@@ -142,6 +147,7 @@ Apakah kamu pernah ke Jepang?
 Apakah kamu tahu siapa duta besar Inggris untuk Jepang?
 Apakah kita diperbolehkan menggunakan lift?
 Apakah masakan Jepang pedas.
+Apakah orang tuamu setuju kamu menjadi pramugari?
 Apakah saya boleh keluar.
 Apakah tertawa hanya ada pada manusia?
 Apartemen ini biaya sewanya mahal.
@@ -161,6 +167,7 @@ Baca musiknya, dengar fiksinya.
 Bagaimana Anda bisa saling kenal?
 Bagaimana Anda bisa tahu nomor telepon saya.
 Bagaimana bisa tercapai simpulan seperti ini?
+Bagaimana cinta dapat mencintai cinta?
 Bagaimana cuaca hari ini?
 Bagaimana dengan kamu, Dina?
 Bagaimana kabar Anda?
@@ -209,10 +216,12 @@ Bepergian naik pesawat berapa ongkosnya?
 Berapa buah roti yang Anda beli.
 Berapa gaji yang harus kubayar, tergantung pada kemampuanmu.
 Berapa harga dasi ini?
+Berapa lama waktu yang dibutuhkan?
 Berapa orang yang ikut bepergian?
 Berbicara dalam bahasa Inggris sulit.
 Berbicara dengan orang asing sangat menyenangkan.
 Berikutnya akan ditayangkan berita lokal.
+Beritahu saya kenapa dia menangis.
 Beritahukan semuanya kepada saya.
 Berkat pesawat, orang dapat melakukan perjalanan jarak jauh dengan cepat.
 Berlomba - lomba dalam kebaikan.
@@ -300,7 +309,9 @@ Burung sedang minum air.
 Bus yang pergi ke bandara akan tiba di jalan yang berlawanan.
 Cerita ini benar.
 Cinta adalah misteri dan penderitaan tanpa batas waktu.
+Cinta ialah suatu penipuan.
 Cinta yang tulus adalah cinta yang tanpa paksaan.
+Cintai teman kelasmu! Cintai kedua orang tuamu! Cintai tanah airmu!
 Coba lebih baik lagi lain kali.
 Cuaca akan semakin panas setelah masuk bulan Juli.
 Cuaca pagi ini cerah.
@@ -440,6 +451,7 @@ Dia belum datang. Dia pasti ketinggalan bis.
 Dia berduduk di situ dengan mata tertutup.
 Dia berhasil dalam ujian itu.
 Dia dapat berenang dengan cepat.
+Dia dipercayai tidak bersalah.
 Dia disukai teman-temannya.
 Dia ditemukan terbaring tidak sadar di lantai dapur.
 Dia gugup sebelum ujian masuk.
@@ -618,6 +630,7 @@ Ibunya sedang menulis surat.
 Ibunya selalu mengeluh tentang hal itu.
 Ini adalah pertama kali saya naik pesawat.
 Ini adalah semacam hewan yang tinggal di laut.
+Ini alamat e-mail saya.
 Ini bukan lelucon.
 Ini bukan tipuan.
 Ini buku tulis saya.
@@ -648,6 +661,7 @@ Itu koran kapan.
 Itu luar biasa.
 Itu makanan yang bagaimana.
 Itu milik Pak Tanaka.
+Itu nampak seperti telor.
 Itulah kamus bahasa Jepang.
 Itulah yang saya ingin tahu.
 Jadi kamu menyerah, benar?
@@ -668,6 +682,7 @@ Jangan mandi hari ini.
 Jangan merokok, bertenggang rasalah dengan yang lainnya.
 Jangan pergi ke situ karena berbahaya.
 Janji adalah janji.
+Jauh dimata dekat dihati.
 Jawaban pertanyaan ini ada tiga buah.
 Jendela sudah ditutup.
 Jendela terbuka.
@@ -750,6 +765,7 @@ Kamu mau pergi?
 Kamu membutuhkan sedikit keberanian untuk menyatakan cinta padanya.
 Kamu mengambil kunci yang salah.
 Kamu sebaiknya memperhatikan apa yang dia katakan.
+Kamu seharusnya malu dengan tingkah laku kamu itu.
 Kamu sudah dari dulu ingin kesana bukan?
 Kamu sudah membuat keputusan ke belum?
 Kamu tak akan bisa menyelesaikan tanpa kamus yang bagus.
@@ -828,6 +844,7 @@ Kata ini diturunkan dari Bahasa Jerman.
 Katakan padanya untuk tidak ikut campur.
 Kau harus membayar harganya
 Kaus kaki ini kuat dan murah.
+Ke manapun kau pergi, aku ikut.
 Keberatan anda telah dicatat.
 Kecepatan pesawat jauh lebih tinggi daripada helikopter.
 Kedai itu murah, tetapi tidak enak.
@@ -918,6 +935,7 @@ Kita harus tetap tenang.
 Kita teman sekelas.
 Kita tidak bisa bermain tenis saat angin bertiup kencang.
 Kita tidak bisa pergi karena badai.
+Kita tidak dapat lepas dari masa lalu.
 Komputer ini mahal tetapi sangat bagus.
 Kopi sebagai hidangan penutup.
 Kota Kibune terletak dekat Kyoto.
@@ -937,11 +955,13 @@ Lampu sudah dimatikan.
 Langit berwarna biru.
 Langit menjadi sedikit mendung.
 Langit timur mendung.
+Lanjutkan ceritanya. Benar-benar menarik.
 Laut di sekitar sini kotor.
 Laut sana sangat cantik.
 Lawan kata "berat" adalah "ringan".
 Lebih baik berhenti membaca buku di tempat gelap.
 Lebih baik tinggal di rumah daripada pergi keluar.
+Lebih baik untuk saya tidak pergi.
 Ledakan populasi adalah masalah yang serius.
 Lelaki itu jelas mengelabui kami.
 Lepas jasmu dan silakan bersantai.
@@ -998,6 +1018,7 @@ Mari makan malam sebelum ke pertandingan baseball.
 Mari naik kereta bawah tanah.
 Mari saya bawakan barang itu.
 Mary adalah gadis yang enak diajak bicara.
+Mary adalah yang paling malas diantara teman-teman sekolahnya.
 Mary belum mulai.
 Mary gagal lagi. Meski begitu, dia masih muda.
 Mary memutuskan untuk tidak akan menemuinya lagi.
@@ -1262,8 +1283,10 @@ Peringatan, dilarang cabul.
 Perjalanan jauh melelahkan saya.
 Perjodohan adalah suatu bentuk pelanggaran terhadap hak asasi manusia.
 Perkataannya telah membuat kesan yang dalam terhadap murid-murid.
+Permisi, apa waktu itu?
 Permisi, tetapi kamu bisa bantu saya?
 Pernah bepergian naik pesawat?
+Pernahkan kamu melihat patung Liberty?
 Pernikahan yang indah adalah pernikahan yang didasari oleh kasih sayang dan cinta yang tulus.
 Perpustakaan buka dari pukul sembilan pagi sampai pukul delapan malam.
 Pertanyaannya sesulit itu hingga tiada siapapun mampu menjawabnya.
@@ -1278,6 +1301,7 @@ Pesawat terbang ke selatan.
 Pesta kemarin menyenangkan. Tetapi, saya sedikit lelah.
 Pesta kemarin sangat menyenangkan.
 Peter jatuh cinta dengan gadis itu.
+Pidatomu jauh dari memuaskan.
 Pintu kamar saya tidak bisa ditutup.
 Pintu kereta akan menutup.
 Polisi menunjukkan jalan sampai stasiun kepada saya.
@@ -1373,6 +1397,7 @@ Saya akan menyetor uang selambat-lambatnya tanggal tujuh.
 Saya akan tinggal di kota ini mulai tahun depan.
 Saya akan tinggal di sini selama seminggu.
 Saya baik-baik saja, terima kasih.
+Saya bangun pada pukul lima pagi.
 Saya bangun pada pukul tujuh pagi, sarapan di kantin, dan berlatih dari pukul delapan.
 Saya bangun pukul setengah delapan.
 Saya baru selesai membaca buku itu.
@@ -1439,6 +1464,7 @@ Saya guru bahasa Jepang.
 Saya hanya makan roti.
 Saya harap Anda berkenan menerima barang yang tak berharga ini.
 Saya harap saya dapat bertemu anda lagi, segera.
+Saya harus melakukan sesuatu.
 Saya harus membeli delapan buah oleh-oleh dari jalan-jalan.
 Saya harus memecatmu bila sering terlambat datang.
 Saya harus mengembalikan buku selambat-lambatnya hari Selasa.
@@ -1474,6 +1500,7 @@ Saya juga pergi.
 Saya kadang-kadang berbelanja di toko sayur ini.
 Saya kadang-kadang pergi ke toko buku di sana.
 Saya kehabisan uang.
+Saya kehilangan dompet saya.
 Saya kehilangan kepercayaan padanya.
 Saya kehilangan majalah yang saya pinjam dari Pak Matsui.
 Saya kehilangan paspor di stasiun.
@@ -1605,6 +1632,7 @@ Saya memotong buah menjadi separuh.
 Saya memotong keik dengan pisau menjadi empat bagian.
 Saya memotong kertas ini dari atas ke bawah.
 Saya memotong sayur dan mencucinya.
+Saya memperhatikan bahwa seekor binatang kecil sedang melihat ke arah kita.
 Saya menangis ketika menonton film.
 Saya menanyakan jalan ke polisi di pos polisi.
 Saya menanyakan nomor telepon restoran yang akan saya kunjungi malam ini kepada Pak Matsui.
@@ -1678,6 +1706,7 @@ Saya menyusun dua buah vas di atas meja.
 Saya menyusun mangkuk dan sumpit di atas meja.
 Saya menyusun piring di meja.
 Saya merasa agak tidak enak badan hari ini.
+Saya merasa buruk.
 Saya merasa sedih tanpa alasan.
 Saya merasa senang sekali berjumpa dengan anda.
 Saya merasa senang sekali bertemu denganmu.
@@ -1813,6 +1842,7 @@ Saya tidak bisa mendengar cerita semacam itu tanpa menangis.
 Saya tidak bisa menyetujui proyek ini. Masih banyak hal yang tidak memuaskan.
 Saya tidak bisa pergi ke sekolah karena demam tinggi.
 Saya tidak bisa selesai membaca buku tebal ini dalam seminggu.
+Saya tidak dapat berpikir bahwa ceritamu benar.
 Saya tidak dapat melihat akhir.
 Saya tidak dapat membantumu.
 Saya tidak dapat mempercayai itu!
@@ -1832,6 +1862,7 @@ Saya tidak mengerti.
 Saya tidak mengetahui cara penggunaan komputer ini.
 Saya tidak menyangka ia bisa berbuat sekejam itu
 Saya tidak naik lift, tetapi naik tangga.
+Saya tidak paham dengan perkataanmu.
 Saya tidak pandai bernyanyi.
 Saya tidak pandai menggambar.
 Saya tidak peduli.
@@ -1861,6 +1892,7 @@ Sebelum tidur, saya selalu menggosok gigi.
 Sebenarnya saya ingin pergi ke universitas di Tokyo.
 Seberapa pun kerasnya dia mencoba, dia tidak akan berhasil.
 Seberapa tinggi kamu?
+Seharusnya kamu tak perlu merasa malu.
 Sejak kapan belajar bahasa Jepang.
 Sejauh yang saya tahu, desas-desus itu tidak benar.
 Sejuk di bawah pohon.
@@ -2007,6 +2039,7 @@ Tahun lalu tahun yang baik.
 Tahun lalu tidak begitu banyak salju yang turun.
 Tak ada hubungan antara mereka
 Tak terpikir bisa berjumpa denganmu.
+Taksi itu menunggu di luar.
 Tampaknya dia berubah pikiran.
 Tangannya terluka waktu jatuh.
 Tanggal dua puluh bulan ini ada ujian bahasa Jepang.
@@ -2066,7 +2099,9 @@ Tidak, tidak bisa.
 Tidak, tidak pedas.
 Tidak, tidak pergi.
 Tidak, tidak sakit.
+Tidakkah kamu merasa malu mengatakan seperti itu?
 Tiga hari yang lalu saya memotong rambut.
+Tikus itu diperangkap ke dalam jebakan dengan potongan keju besar.
 Toilet ada di lantai dua.
 Toilet ada di sebelah kiri koridor.
 Toko ini buka sepanjang tahun.
@@ -2078,6 +2113,7 @@ Tolong berbicara dengan lebih pelan.
 Tolong beritahu cara penulisan nama Anda.
 Tolong bertanya lewat telepon kalau tidak tahu jalan.
 Tolong buka jendela di sana.
+Tolong ceritakan. Saya akan benar-benar mendengarkan.
 Tolong datang ke rumahku.
 Tolong gantung jasmu!
 Tolong hubungi perusahaan melalui telepon.
@@ -2090,6 +2126,7 @@ Tolong sampaikan salamku kepadanya.
 Tolong tunggu sebentar.
 Tolong tutup pintu di belakangmu.
 Tom bukan anak yang pemalas.
+Tom lahir di mana?
 Tom tidak pernah datang tepat waktu.
 Tom tidak tahu berapa biayanya.
 Tuhan memberkatimu!

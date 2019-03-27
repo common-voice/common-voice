@@ -962,6 +962,7 @@ Nemá zlomeniny.
 Nemám hlad, nemám žízeň.
 Nemám rád šmouly.
 Nemám špatnou paměť a běžně si dobře pamatuji události.
+Nemám, kam si pověsit frak.
 Neméně důležité jsou jiné sporty, například přetahování.
 Nemýlil jsem se.
 Nemůžete pro něho už nic udělat.
@@ -1228,6 +1229,7 @@ Poradní skále předchází její příprava a večeře.
 Poslanecká sněmovna může vyslovit vládě nedůvěru.
 Poslední dobou jsem s tím různě experimentoval.
 Poslední známej.
+Posledně jsem si všiml, že máte nábytku dost.
 Posledně mu právě tahle část příliš nevyšla.
 Poslyšte, co je to?
 Postaraly se o ni ty dvě babičky.
@@ -1340,6 +1342,7 @@ Právě se vracím z Hradu od prezidenta republiky.
 Pulírovala by schody nebo okna jinde, dokud by nepadla.
 Pán v kabátu snad z latexu.
 Pár lidí taky smrdí.
+Pár mistrovských tahů uhlem ťalo Katynku do srdce.
 Péče o děti a jejich výchova je právem rodičů.
 Písečná stezka přešla v kořenové schodiště na holé skále.
 Pěstujte duchovní sílu, aby vás chránila v náhlém neštěstí.
