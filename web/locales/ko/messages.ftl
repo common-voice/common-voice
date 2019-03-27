@@ -8,6 +8,7 @@ email-input =
     .label = 이메일
 submit-form-action = 보내기
 loading = 로딩중…
+indicates-required = * 표시는 필수 항목
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -85,6 +86,7 @@ pt-BR = 포르투갈어(브라질)
 rm-sursilv = 로만슈 수르실반어
 ro = 루마니아어
 ru = 러시아어
+rw = 키냐르완다어
 sah = 사하어
 sc = 사르데냐어
 sk = 슬로바키아어
@@ -97,10 +99,13 @@ te = 텔루구어
 th = 태국어
 tr = 터키어
 tt = 타타르어
+uby = 우비흐어
+udm = 우드무르트어
 uk = 우크라이나어
 ur = 우르두어
 uz = 우즈베키스탄어
 vi = 베트남어
+vot = 바트어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
 zh-TW = 중국어(중화민국)
@@ -159,6 +164,7 @@ todays-progress = 오늘의 성과
 help-reach-goal = { $goal }를 달성하도록 도와주세요.
 read-terms-q = 약관을 읽어보셨나요?
 ready-to-record = 목소리를 기부할 준비가 되셨나요?
+all-locales = 전체
 today = 오늘
 x-weeks-short =
     { $count ->
@@ -203,6 +209,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 녹음/멈추기
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = 레코드클립 재녹음
 request-language-text = 아직도 Common Voice에서 사용하는 언어가 보이지 않나요?
 request-language-button = 언어 요청하기
 
@@ -223,6 +231,10 @@ english = 영어
 
 profile-form-username =
     .label = 사용자 이름
+profile-form-native-language =
+    .label = 모국어
+profile-form-additional-language =
+    .label = 추가 언어
 profile-form-accent =
     .label = 억양
 profile-form-age =
@@ -277,6 +289,7 @@ gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
 file_too_large = 선택한 파일이 너무 큽니다.
 manage-subscriptions = 구독 관리
 email-already-used = 다른 계정에 이미 이메일이 사용되었습니다.
+add-language = 언어 추가
 
 ## FAQ
 
@@ -321,11 +334,19 @@ review-delete-recordings = 내 녹음 삭제
 
 ## New Datasets Page
 
+language = 언어
+# File size in gigabytes
+size = 크기
+cv-license = 라이선스
+audio-format = 오디오 포멧
 data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
 data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
 data-other-voxforge-description = VoxForge는 무료 및 오픈 소스 음성 인식 엔진에서 사용하기 위한 변환된 음성을 수집하도록 설립 되었습니다.
 data-other-tatoeba-description = Tatoeba는 언어 학습에 사용하기 위한 문장, 번역, 음성 오디오의 대규모 데이터베이스입니다. 이 다운로드에는 커뮤니티에서 녹음한 구어체 영어가 포함되어 있습니다.
+go-languages-page = 언어 페이지로 이동
+close = 닫기
+download = 다운로드
 
 ## Download Modal
 
@@ -353,6 +374,8 @@ request-language-form-language =
     .label = 언어
 request-language-success-title = 언어 요청을 제출하였습니다, 감사합니다.
 request-language-success-content = 곧 언어를 Common Voice에 추가하는 방법에 대해 더 많은 정보를 알려 드리겠습니다.
+select-language = 언어를 선택하세요...
+other-language = 다른 언어
 
 ## Languages Overview
 
