@@ -15,7 +15,11 @@ loading = 로딩중…
 
 ## Languages
 
+ab = 압하지야
 ace = 아체어
+ady = 아디게어
+af = 아프리칸스어
+am = 암하라어
 an = 아라곤어
 ar = 아랍어
 as = 아삼어
@@ -34,6 +38,7 @@ cy = 웨일스어
 da = 덴마크어
 de = 독일어
 dsb = 저지 소르브어
+dv = 디베히어
 el = 그리스어
 en = 영어
 eo = 에스페란토어
@@ -46,7 +51,9 @@ fo = 페로어
 fr = 프랑스어
 fy-NL = 프리지아어
 ga-IE = 아일랜드어
+gl = 갈리시아어
 he = 히브리어
+hr = 크로아티아어
 hsb = 고지 소르브어
 hu = 헝가리어
 ia = 인테르링구아어
@@ -61,6 +68,8 @@ ko = 한국어
 kpv = 코미지리안어
 kw = 콘월어
 ky = 키르기스스탄어
+lt = 리투아니아어
+lv = 라트비아어
 mdf = 목샤어
 mk = 마케도니아어
 mn = 몽골어
@@ -348,9 +357,7 @@ request-language-success-content = 곧 언어를 Common Voice에 추가하는 �
 ## Languages Overview
 
 language-section-in-progress = 진행중
-language-section-in-progress-description = 진행 중인 언어는 현재 우리 커뮤니티의 기여로 만들어지고 있습니다. 진행 상태는 웹 사이트의 지역화와 문장 수집을 종합하여 반영합니다.
 language-section-launched = 출시됨
-language-section-launched-new-description = 이러한 런칭된 언어의 경우 웹사이트가 성공적으로 지역화되었으며 지속적인 <italic>말하기</italic>와 <italic>듣기</italic> 기여가 가능하도록 충분한 문장이 수집되었습니다.
 languages-show-more = 더 보기
 languages-show-less = 접기
 language-speakers = 말한 사람
