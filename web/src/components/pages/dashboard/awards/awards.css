@@ -21,10 +21,13 @@
     }
 
     & a {
+        border: none;
         margin-bottom: 30px;
         padding: 0 20px;
+        min-width: 265px;
         height: 57px;
-        min-width: auto;
+        box-sizing: border-box;
+        background: var(--blue);
     }
 
     & p {
