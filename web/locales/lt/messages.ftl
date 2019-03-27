@@ -379,6 +379,7 @@ review-submit-title = Peržiūrėti ir pateikti
 review-submit-msg = Kol kas įrašymas baigtas! <lineBreak> </lineBreak>Dabar peržiūrėk ir pateik savo įrašus žemiau.
 review-recording = Peržiūrėti
 review-rerecord = Įrašyti iš naujo
+review-cancel = Atšaukti indėlį
 review-keep-recordings = Palikti įrašus
 review-delete-recordings = Pašalinti mano įrašus
 
@@ -411,8 +412,10 @@ common-voice-info-new = Turi klausimų apie „Common Voice“? Idėjų ar atsil
 data-other-librispeech-description = „LibriSpeech“ yra maždaug 1000 valandų 16 kHz skaitomos anglų kalbos įrašų rinkinys, gautas iš „LibriVox“ projekte įgarsintų garsaknygių.
 data-other-ted-name = „TED-LIUM“ rinkinys
 data-other-ted-description = „TED-LIUM“ rinkinys sukurtas panaudojant „TED“ svetainėje esančias prakalbas ir jų nuorašus.
+data-other-voxforge-description = „VoxForge“ projektas įkurtas siekiant kaupti transkribuotus balso įrašus naudojimui laisvuosiuose ir atvirojo kodo kalbos atpažinimo varikliuose.
 go-discourse = Eiti į „Discourse“
 go-languages-page = Eiti į kalbų tinklalapį
+ready-to-validate = Ar pasiruošei padėti patvirtinti frazes?
 more = Išsamiau
 close = Užverti
 download = Atsisiųsti
@@ -420,6 +423,7 @@ download = Atsisiųsti
 ## Download Modal
 
 download-title = Parsiuntimas prasidėjo.
+download-helpus = Padėk mums kurti balto technologijų bendruomenę, palaikykime ryšį el. paštu.
 download-form-email =
     .label = Įvesk savo el. paštą
     .value = Ačiū, susisieksime su jumis.
@@ -470,6 +474,12 @@ listen = Klausyk
 skip = Praleisti
 shortcuts = Spartieji klavišai
 clips-with-count = <bold>{ $count }</bold> įrašų
+contribute-more =
+    { $count ->
+        [one] Gal nori padėti dar { $count } fraze?
+        [few] Gal nori padėti dar { $count } frazėmis?
+       *[other] Gal nori padėti dar { $count } frazių?
+    }
 record-cta = Pradėk įrašymą
 record-platform-not-supported = Atsiprašome, tavo platforma kol kas nepalaikoma.
 record-platform-not-supported-desktop = Staliniam kompiuteriui gali parsisiųsti naujausią:
@@ -486,6 +496,7 @@ record-three-more-instruction = Liko dar trys!
 record-again-instruction = Šaunu!<recordIcon></recordIcon> Dabar įrašyk kitą frazę
 record-again-instruction2 = Puiku, įrašinėkime toliau <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Paskutinis!
+review-tooltip = Čia peržiūrėk ir, jei reikia, iš naujo atlik įrašus
 unable-speak = Dabar negali šnekėti?
 review-instruction = Peržiūrėk ir, jei reikia, iš naujo atlik įrašus
 record-submit-tooltip = { $actionType }, kad pateiktum šį savo įnašą
@@ -499,6 +510,7 @@ listen-instruction = { $actionType }<playIcon></playIcon>. Ar diktorius teisinga
 listen-again-instruction = Šaunu! <playIcon></playIcon> Kai galėsi, klausyk vėl
 listen-3rd-time-instruction = Du įrašai išklausyti, taip ir toliau!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Paskutinis!
+nothing-to-validate = Neturime jokių frazių šia kalba, kurias galėtum patvirtinti – padėk tai pakeisti.
 record-button-label = Įrašyk savo balsą
 share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
 
