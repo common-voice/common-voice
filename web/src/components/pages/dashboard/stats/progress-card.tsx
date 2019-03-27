@@ -65,10 +65,8 @@ class ProgressCard extends React.Component<Props, State> {
 
     const overallGoal = DAILY_GOAL[type];
     const isSpeak = type == 'speak';
-    const currentCustomGoal = customGoal
-      ? customGoal.current[type] || null
-      : null;
-    const hasCustomGoal = currentCustomGoal !== null;
+    const currentCustomGoal = customGoal ? customGoal.current[type] : undefined;
+    const hasCustomGoal = currentCustomGoal !== undefined;
     return (
       <div className={'progress-card ' + type}>
         <div className="personal">
