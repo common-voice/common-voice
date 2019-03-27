@@ -62,6 +62,7 @@ ia = Interlingua
 id = Indonesia
 is = Islanti
 it = Italia
+izh = Inkeroinen
 ja = Japani
 ka = Georgia
 kab = Kabyyli
@@ -231,6 +232,7 @@ shortcut-vote-no = e
 shortcut-record-toggle = n
 shortcut-record-toggle-label = Nauhoita / pysäytä
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Uudelleennauhoita äänite
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
 request-language-button = Pyydä kieltä lisättäväksi
 
@@ -484,6 +486,7 @@ other-language = Muu kieli
 ## Languages Overview
 
 language-section-in-progress = Työn alla
+language-section-in-progress-new-description = Nämä kielet ovat tällä hetkellä yhteisöjen kehitettävinä. Etenemispalkki näyttää, kuinka pitkällä kukin kieli on  <localizationGlossaryLink>verkkosivun lokalisaatiossa</localizationGlossaryLink> ja <sentenceCollectionGlossaryLink>lauseiden keräämisessä</sentenceCollectionGlossaryLink>.
 language-section-launched = Julkistettu
 languages-show-more = Lisää
 languages-show-less = Vähemmän
