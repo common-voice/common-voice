@@ -486,6 +486,8 @@ request-language-form-language =
     .label = زبان
 request-language-success-title = درخواست زبان با موفقیت ارسال شد، متشکرم
 request-language-success-content = خیلی زود با اطلاعات بیشتری در مورد چگونگی افزودن زبان شما به صدای مشترک در تماس خواهیم بود.
+select-language = انتخاب یک زبان...
+other-language = زبان‌های دیگر
 
 ## Languages Overview
 
