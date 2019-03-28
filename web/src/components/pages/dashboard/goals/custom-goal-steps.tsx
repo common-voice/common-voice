@@ -135,20 +135,20 @@ const SubmitStep = ({
 export default [
   ({ nextButtonProps }) => (
     <>
-      <h1>Build a custom goal</h1>
-      <span className="sub-head">
-        Help reach 10,000 hours in English with a personal goal
-      </span>
+      <div className="padded">
+        <h1>Build a custom goal</h1>
+        <span className="sub-head">
+          Help reach 10,000 hours in English with a personal goal
+        </span>
+      </div>
 
       <div className="waves">
         <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
       </div>
 
-      <div className="padded">
-        <Button className="get-started-button" rounded {...nextButtonProps}>
-          Set a goal
-        </Button>
-      </div>
+      <Button className="get-started-button" rounded {...nextButtonProps}>
+        Set a goal
+      </Button>
     </>
   ),
 

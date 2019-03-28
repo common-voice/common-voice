@@ -48,10 +48,12 @@ function StepButtons({
   setStepIndex,
   state,
   stepIndex,
+  touchedStepIndex,
 }: {
   setStepIndex: (index: number) => void;
   state: CustomGoalParams;
   stepIndex: number;
+  touchedStepIndex: number;
 }) {
   return (
     <div className="padded step-buttons">
@@ -59,7 +61,8 @@ function StepButtons({
         stepIndex < 5 &&
         [...(Array(4) as any).keys()].map(i => {
           const n = i + 1;
-          const hasValue = state[STATE_KEYS[n]] != null;
+          const isCompleted =
+            state[STATE_KEYS[n]] != null && touchedStepIndex >= n;
           const isActive = n == stepIndex;
           return (
             <React.Fragment key={i}>
@@ -67,7 +70,7 @@ function StepButtons({
                 className={[
                   'step-button',
                   isActive ? 'active' : '',
-                  hasValue ? 'completed' : '',
+                  isCompleted ? 'completed' : '',
                 ].join(' ')}>
                 <button
                   type="button"
@@ -79,9 +82,11 @@ function StepButtons({
               {n < 4 && (
                 <>
                   <div
-                    className={'line ' + (hasValue || isActive ? 'fill' : '')}
+                    className={
+                      'line ' + (isCompleted || isActive ? 'fill' : '')
+                    }
                   />
-                  <div className={'line ' + (hasValue ? 'fill' : '')} />
+                  <div className={'line ' + (isCompleted ? 'fill' : '')} />
                 </>
               )}
             </React.Fragment>
@@ -197,23 +202,23 @@ function CustomGoal({
   refreshUser,
 }: Props) {
   const [stepIndex, setStepIndex] = useState(STEPS.INTRO);
+  const [touchedStepIndex, setTouchedStepIndex] = useState(STEPS.INTRO);
   const [subscribed, setSubscribed] = useState(false);
-  const [state, setState] = useState<CustomGoalParams>(
-    customGoal
-      ? {
-          daysInterval: customGoal.days_interval,
-          amount: customGoal.amount,
-          type:
-            Object.keys(customGoal.current).length == 1
-              ? Object.keys(customGoal.current)[0]
-              : 'both',
-        }
-      : {
-          daysInterval: null,
-          amount: null,
-          type: null,
-        }
-  );
+  const initialState = customGoal
+    ? {
+        daysInterval: customGoal.days_interval,
+        amount: customGoal.amount,
+        type:
+          Object.keys(customGoal.current).length == 1
+            ? Object.keys(customGoal.current)[0]
+            : 'both',
+      }
+    : {
+        daysInterval: null,
+        amount: null,
+        type: null,
+      };
+  const [state, setState] = useState<CustomGoalParams>(initialState);
   const [showOverwriteModal, setShowOverwriteModal] = useState(false);
 
   const Step = steps[stepIndex];
@@ -233,7 +238,9 @@ function CustomGoal({
       return;
     }
     setStepIndex(nextIndex);
+    setTouchedStepIndex(Math.max(touchedStepIndex, nextIndex));
     if (nextIndex == STEPS.COMPLETED) {
+      setTouchedStepIndex(STEPS.INTRO);
       await api.createGoal(state);
       if (subscribed) {
         await api.subscribeToNewsletter(email);
@@ -255,17 +262,27 @@ function CustomGoal({
             },
           }}
           onRequestClose={() => setShowOverwriteModal(false)}>
-          By editing your goal, you lose your existing progress. Do you want to
-          continue?
+          By editing your goal, you may lose your existing progress. Do you want
+          to continue?
         </Modal>
       )}
-      <StepButtons {...{ setStepIndex, state, stepIndex }} />
+      <StepButtons
+        setStepIndex={i => {
+          setTouchedStepIndex(Math.max(touchedStepIndex, i));
+          setStepIndex(i);
+        }}
+        {...{ state, stepIndex, touchedStepIndex }}
+      />
       {showViewGoal ? (
         <ViewGoal onNext={() => handleNext()} customGoal={customGoal} />
       ) : (
         <Step
           closeButtonProps={{
-            onClick: () => setStepIndex(STEPS.INTRO),
+            onClick: () => {
+              setState(initialState);
+              setTouchedStepIndex(STEPS.INTRO);
+              setStepIndex(STEPS.INTRO);
+            },
             style: customGoal ? {} : { display: 'none' },
           }}
           completedFields={
