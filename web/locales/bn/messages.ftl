@@ -199,6 +199,8 @@ rich-data = কিছু বেনামি জনসংখ্যাতাত্
 
 whats-public = পাবলিক কি?
 email-not-public = আমরা আপনার ইমেইল প্রকাশ করি না।
+username-optin-public = আপনি ব্যবহারকারী নাম পাবলিক করতে বা আড়াল করতে পারুন।
+username-email-not-demographic = আপনার ব্যবহারকারী নাম এবং ইমেইল প্রকাশিত ডাটার সংশ্লিষ্ট নয়।
 
 ## Speak & Listen Shortcuts
 
@@ -310,6 +312,8 @@ add-language = ভাষা যোগ করুন
 faq-title = প্রায়শই জিজ্ঞাসিত প্রশ্ন
 faq-what-cv-q = Common Voice কি?
 faq-why-important-q = কেন এটা গুরুত্বপূর্ণ?
+faq-how-get-q = আমি কিভাবে Common Voice ডাটা পেতে পারি?
+faq-why-mission-q = Common Voice কেন Mozilla মিশনে অংশ মনে করা হয়?
 faq-why-my-lang-q = আমার ভাষা কেন এখনো অন্তর্ভুক্ত করা হয়নি?
 
 ## Glossary
@@ -369,6 +373,7 @@ validated-hours = বৈধ ঘন্টা
 recorded-hours = রেকর্ডকরা সময়
 whats-inside = Common Voice ডাটাসেটে কি আছে?
 subscribe = সাবস্ক্রাইব
+get-started-speech = স্পিচ রিকগনিশন দিয়ে শুরু করুন
 other-datasets = অন্য ভয়েস ডাটাসেট
 feedback-q = মতামত রয়েছে?
 data-other-librispeech-description = লিব্রিস্পীচ (LibriSpeech) হচ্ছে ১৬ কিলোহার্টজে রেকর্ড করা ১০০০ ঘন্টার ইংরেজী স্পীচ যা লিব্রিভক্স (LibriVox) প্রকল্পের অডিও বুক থেকে উদ্ভুত হয়েছে।
@@ -376,6 +381,7 @@ data-other-ted-name = TED-LIUM করপাস
 data-other-ted-description = TED ওয়েবসাইটে প্রাপ্ত টেড-টক সমূহের অডিও আলোচনা এবং সেগুলোর লিখিত প্রতিলিপি থেকে তৈরী করা TED-LIUM করপাস।
 data-other-voxforge-description = মুক্ত সোর্স কথাবার্তা সনাক্তকরণ ইঞ্জিনের মাধ্যমে বর্ণান্তরিত করা কথাবার্তা সংগ্রহের জন্য ভক্সফোর্জ (VoxForge) শুরু করা হয়েছিল।
 data-other-tatoeba-description = টাটুয়েবা (Tatoeba) বাক্যের, অনুবাদের, এবং বলা কথার অডিও সমূহের একটি বৃহদাকার ডাটাবেজ যা ভাষা শিক্ষায় ব্যবহার করা হয়। এই ডাউনলোডে তাদের কমিউনিটির সদস্যদের রেকর্ড করা ইংরেজী কথা রয়েছে।
+your-feedback = কিভাবে Common Voice ডাটাসেট আরও ভাল করা যায় আপনার এ বিষয়ে কোন আইডিয়া আছে? Discourse এ জানান
 go-discourse = Discourse এ যান
 go-languages-page = ভাষার পাতায় যান
 more = আরো
