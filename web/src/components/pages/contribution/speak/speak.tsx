@@ -392,7 +392,6 @@ class SpeakPage extends React.Component<Props, State> {
             }
             retries = 0;
           } catch (error) {
-            console.log(error, 'frontend error console');
             let msg;
             if (error.status >= 400) {
               msg =
