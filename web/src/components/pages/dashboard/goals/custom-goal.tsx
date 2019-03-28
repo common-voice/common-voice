@@ -220,7 +220,7 @@ function CustomGoal({
 
   const states: any = {
     daysInterval: [['Daily Goal', 1], ['Weekly Goal', 7]],
-    amount: [['Easy', 5], ['Average', 10], ['Difficult', 15], ['Pro', 20]].map(
+    amount: [['Easy', 15], ['Average', 30], ['Difficult', 45], ['Pro', 60]].map(
       ([label, value]) => [label, (state.daysInterval || 0) * (value as number)]
     ),
     type: [['Speak', 'speak'], ['Listen', 'listen'], ['Both', 'both']],

@@ -136,7 +136,9 @@ export default [
   ({ nextButtonProps }) => (
     <>
       <h1>Build a custom goal</h1>
-      <span className="sub-head">and help us reach 10k hours in English</span>
+      <span className="sub-head">
+        Help reach 10,000 hours in English with a personal goal
+      </span>
 
       <div className="waves">
         <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
@@ -144,7 +146,7 @@ export default [
 
       <div className="padded">
         <Button className="get-started-button" rounded {...nextButtonProps}>
-          Get Started
+          Set a goal
         </Button>
       </div>
     </>
@@ -165,8 +167,8 @@ export default [
         <div className="text">
           <h4>Can't decide?</h4>
           <p>
-            If just 100 people submitted 15 clips/day or 105 clips/week), we'd
-            reach our 10 k hour goal in XX months.
+            10,000 hours is achievable in just over 6 months if 1000 people
+            record 45 clips a day.
           </p>
         </div>
       </div>

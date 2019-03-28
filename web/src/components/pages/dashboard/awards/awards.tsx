@@ -15,7 +15,7 @@ const NoAwardsPage = () => (
     <LinkButton rounded to={URLS.GOALS}>
       Get started with goals
     </LinkButton>
-    <p>When you complete a custom goal, your awards will show up here.</p>
+    <p>When you complete a personal goal, your awards will show up here.</p>
   </div>
 );
 
