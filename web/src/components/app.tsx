@@ -118,6 +118,7 @@ let LocalizedPage: any = class extends React.Component<
 
     if (
       account &&
+      account.awards &&
       account.awards.some(a => !a.seen_at && !this.seenAwardIds.includes(a.id))
     ) {
       this.seenAwardIds.push(...account.awards.map(a => a.id));
