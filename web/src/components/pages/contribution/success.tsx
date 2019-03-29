@@ -41,15 +41,18 @@ interface Props extends PropsFromState {
 }
 
 function Success({ api, onReset, type, user }: Props) {
-  const killAnimation = useRef(false);
-  const startedAt = useRef(null);
-  const [contributionCount, setContributionCount] = useState(null);
-  const [currentCount, setCurrentCount] = useState(null);
-
   const hasAccount = user.account;
   const customGoal = hasAccount && user.account.customGoal;
-  const hasCustomGoal = customGoal && customGoal.current[type] !== undefined;
-  const goalValue = hasCustomGoal ? customGoal.amount : DAILY_GOAL[type];
+  const hasCustomGoalForThis =
+    customGoal && customGoal.current[type] !== undefined;
+  const goalValue = hasCustomGoalForThis ? customGoal.amount : DAILY_GOAL[type];
+
+  const killAnimation = useRef(false);
+  const startedAt = useRef(null);
+  const [contributionCount, setContributionCount] = useState(
+    hasCustomGoalForThis ? customGoal.current[type] + SET_COUNT : null
+  );
+  const [currentCount, setCurrentCount] = useState(null);
 
   function countUp(time: number) {
     if (killAnimation.current) return;
@@ -66,6 +69,9 @@ function Success({ api, onReset, type, user }: Props) {
   }
 
   useEffect(() => {
+    if (hasCustomGoalForThis) {
+      return;
+    }
     (type === 'speak'
       ? api.fetchDailyClipsCount()
       : api.fetchDailyVotesCount()
@@ -126,7 +132,7 @@ function Success({ api, onReset, type, user }: Props) {
 
       <Localized
         id={
-          hasCustomGoal
+          hasCustomGoalForThis
             ? ''
             : type === 'speak'
             ? 'goal-help-recording'
@@ -135,7 +141,7 @@ function Success({ api, onReset, type, user }: Props) {
         goalPercentage={goalPercentage}
         $goalValue={goalValue}>
         <h1>
-          {hasCustomGoal && (
+          {hasCustomGoalForThis && (
             <>
               You've reached {goalPercentage} of your{' '}
               {customGoal.days_interval == 1 ? 'daily' : 'weekly'} {goalValue}{' '}
