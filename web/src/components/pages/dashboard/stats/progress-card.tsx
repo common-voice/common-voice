@@ -66,26 +66,32 @@ class ProgressCard extends React.Component<Props, State> {
     const overallGoal = DAILY_GOAL[type];
     const isSpeak = type == 'speak';
     const currentCustomGoal = customGoal ? customGoal.current[type] : undefined;
-    const hasCustomGoal = currentCustomGoal !== undefined;
+    const hasCustomGoalForThis = currentCustomGoal !== undefined;
     return (
       <div className={'progress-card ' + type}>
         <div className="personal">
-          <Fraction
-            numerator={
-              hasCustomGoal
-                ? currentCustomGoal
-                : typeof personalCurrent == 'number'
-                ? personalCurrent
-                : '?'
-            }
-            denominator={
-              hasCustomGoal
-                ? customGoal.amount
-                : (personalGoal == Infinity ? (
-                    <div className="infinity">∞</div>
-                  ) : (
-                    personalGoal
-                  )) || '?'
+          <CustomGoalLock
+            currentLocale={locale}
+            render={({ hasCustomGoal }) =>
+              hasCustomGoal && hasCustomGoalForThis ? (
+                <Fraction
+                  numerator={currentCustomGoal}
+                  denominator={customGoal.amount}
+                />
+              ) : (
+                <Fraction
+                  numerator={
+                    typeof personalCurrent == 'number' ? personalCurrent : '?'
+                  }
+                  denominator={
+                    (personalGoal == Infinity ? (
+                      <div className="infinity">∞</div>
+                    ) : (
+                      personalGoal
+                    )) || '?'
+                  }
+                />
+              )
             }
           />
           <Localized
@@ -95,7 +101,7 @@ class ProgressCard extends React.Component<Props, State> {
           <CustomGoalLock currentLocale={locale}>
             <div className="custom-goal-section">
               {customGoal ? (
-                hasCustomGoal ? (
+                hasCustomGoalForThis ? (
                   <Link className="custom-goal-link" to={URLS.GOALS}>
                     <CircleProgress
                       value={currentCustomGoal / customGoal.amount}
