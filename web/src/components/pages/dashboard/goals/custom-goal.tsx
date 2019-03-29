@@ -220,6 +220,7 @@ function CustomGoal({
       };
   const [state, setState] = useState<CustomGoalParams>(initialState);
   const [showOverwriteModal, setShowOverwriteModal] = useState(false);
+  const [showAbortEditModal, setShowAbortEditModal] = useState(false);
 
   const Step = steps[stepIndex];
 
@@ -255,15 +256,33 @@ function CustomGoal({
       {showOverwriteModal && (
         <Modal
           buttons={{
-            No: () => setShowOverwriteModal(false),
+            Cancel: () => setShowOverwriteModal(false),
             Yes: () => {
               setShowOverwriteModal(false);
               handleNext(true);
             },
           }}
           onRequestClose={() => setShowOverwriteModal(false)}>
-          By editing your goal, you may lose your existing progress. Do you want
-          to continue?
+          By editing your goal, you may lose your existing progress.
+          <br />
+          Do you want to continue?
+        </Modal>
+      )}
+      {showAbortEditModal && (
+        <Modal
+          buttons={{
+            Exit: () => setShowAbortEditModal(false),
+            Yes: () => {
+              setShowAbortEditModal(false);
+              setState(initialState);
+              setTouchedStepIndex(STEPS.INTRO);
+              setStepIndex(STEPS.INTRO);
+            },
+          }}
+          onRequestClose={() => setShowAbortEditModal(false)}>
+          Finish editing first?
+          <br />
+          Leaving now means you’ll lose your changes
         </Modal>
       )}
       <StepButtons
@@ -279,9 +298,7 @@ function CustomGoal({
         <Step
           closeButtonProps={{
             onClick: () => {
-              setState(initialState);
-              setTouchedStepIndex(STEPS.INTRO);
-              setStepIndex(STEPS.INTRO);
+              setShowAbortEditModal(true);
             },
             style: customGoal ? {} : { display: 'none' },
           }}
