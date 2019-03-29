@@ -187,9 +187,13 @@ email-subscription-title = 이메일 업데이트 수신 등록
 ## Account Benefits
 
 benefits = 혜택
+rich-data = 익명의 통계 자료를 제공하여 가능한 풍부한 데이터가 수집되도록 해 주세요. 모든 통계 자료는 공개되기 전에 익명으로 처리됩니다.
+improve-audio = 프로파일 정보는 음성인식 기계학습에 사용되어 정확도를 높입니다.
+join-newsletter = 선택적으로 프로젝트의 새로운 정보와 업데이트 내용을 받기 위한 메일링 리스트에 가입하세요.
 
 ## What's public
 
+whats-public = 어떤 것이 공개됩니까?
 
 ## Speak & Listen Shortcuts
 
@@ -296,13 +300,33 @@ file_too_large = 선택한 파일이 너무 큽니다.
 manage-subscriptions = 구독 관리
 email-already-used = 다른 계정에 이미 이메일이 사용되었습니다.
 add-language = 언어 추가
+change-email-setings = 로그인 후 설정 페이지에서 이메일을 변경하십시오.
 
 ## FAQ
 
 faq-title = 자주 묻는 질문
+faq-why-important-q = 이것이 왜 중요할까요?
+faq-how-get-q = Common Voice 데이터는 어떻게 얻을 수 있습니까?
+faq-how-get-a = Common Voice 데이터세트는 <licenseLink>CC0</licenseLink> 라이선스 하에 <datasetLink>데이터세트 페이지</datasetLink>에서 다운로드 하실 수 있습니다. 또한 공개된 다른 몇몇 데이터 세트도 같은 페이지에서 다운로드 가능합니다.
+faq-when-release-q = 다른 언어의 Common Voice 데이터세트는 언제 출시 되나요?
+faq-what-cv-and-deepspeech-q = Common Voice와 Deep Speech의 차이는 무엇입니까?
+faq-do-want-native-q = 모국어가 아니고 억양이 있는데도 목소리 기부가 가능한가요?
+faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
+faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
+faq-how-calc-hours-q = Common Voice는 녹음된 시간을 어떻게 계산하나요?
+faq-why-account-q = 계정을 왜 만들어야 하나요?
+faq-is-account-public-q = 나의 계정 정보는 공개됩니까?
+faq-how-privacy-q = 기부된 음성의 익명성과 개인정보는 어떻게 보장되나요?
 
 ## Glossary
 
+glossary = 용어
+localization = 지역화
+localization-explanation = 이것은 여러 지역(언어)의 컨텐츠를 번역하고 적용하기 위한 프로세스입니다.
+sentence-collection = 문장 모음
+sst = 음성 문자 변환(STT)
+sst-explanation = 음성 문자 변환(STT) 기술은 음성 데이터를 문자로 변환합니다.
+de-identified = 개인정보가 제거된
 
 ## NotFound
 
@@ -345,12 +369,28 @@ language = 언어
 size = 크기
 cv-license = 라이선스
 audio-format = 오디오 포멧
+number-of-voices = 음성 갯수
+splits = 분리
+confirm-size = <b>{ $size }</b>의 다운로드를 시작할 준비가 되었습니다.
+confirm-no-identify = Common Voice 데이터세트의 녹음기부자의 신원을 밝히려는 시도를 하지 않는데에 <b>동의</b>합니다.
+download-language = { $language } 다운로드
+validated-hours = 검증된 분량
+recorded-hours = 녹음된 분량
+whats-inside = Common Voice 데이터 세트에는 어떤것이 포함되어 있습니까?
+want-dataset-update = 새 버전의 Common Voice 데이터 세트의 릴리즈 소식을 받기 원하시나요? 뉴스 레터를 구독 하십시오.
+subscribe = 구독하기
+get-started-speech = 음성인식 시작하기
+other-datasets = 기타 음성 데이터세트
+feedback-q = 제안 사항이 있습니까?
 data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
 data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
 data-other-voxforge-description = VoxForge는 무료 및 오픈 소스 음성 인식 엔진에서 사용하기 위한 변환된 음성을 수집하도록 설립 되었습니다.
 data-other-tatoeba-description = Tatoeba는 언어 학습에 사용하기 위한 문장, 번역, 음성 오디오의 대규모 데이터베이스입니다. 이 다운로드에는 커뮤니티에서 녹음한 구어체 영어가 포함되어 있습니다.
+go-discourse = Discourse로 이동
 go-languages-page = 언어 페이지로 이동
+ready-to-validate = 문장 검증에 기여하실 준비가 되셨습니까?
+more = 더보기
 close = 닫기
 download = 다운로드
 
@@ -467,6 +507,10 @@ validations =
 ## Dashboard
 
 toward-next-goal = 다음 목표를 향해
+clips-you-recorded = 녹음한 레코드 클립
+clips-you-validated = 검증한 레코드 클립
+todays-recorded-progress = 오늘의 Common Voice 레코드 클립 녹음 진행 현황
+todays-validated-progress = 오늘의 Common Voice 레코드 클립 검증 진행 현황
 stats = 통계
 you = 나
 everyone = 모두
@@ -474,7 +518,10 @@ contribution-activity = 기여 활동
 top-contributors = 상위 공헌자
 recorded-clips = 녹음된 클립
 validated-clips = 검증된 클립
+total-approved = 승인 전체
+overall-accuracy = 종합적 정확도
 
 ## Profile Delete
 
+keep = 유지
 profile-form-delete = 프로필 지우기
