@@ -146,14 +146,19 @@
     }
 
     & .buttons {
+        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
 
         & .close-button {
-            border: 2px solid black;
-            margin-right: 20px;
+            border: 2px solid var(--grey);
+            align-self: center;
+        }
+
+        & .filler {
+            width: 50px;
         }
     }
 

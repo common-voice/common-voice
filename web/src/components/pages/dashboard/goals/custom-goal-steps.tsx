@@ -20,6 +20,13 @@ import {
 import { Button, LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
 
+const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
+  <div className="buttons padded" {...props}>
+    {children}
+    <div className="filler" />
+  </div>
+);
+
 const ArrowButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <button className="arrow-button" type="button" {...props}>
     <ArrowLeft />
@@ -123,12 +130,12 @@ const SubmitStep = ({
         </Localized>
       </>
     )}
-    <div className="buttons">
+    <Buttons>
       <CloseButton {...closeButtonProps} />
       <Button rounded className="submit" {...nextButtonProps}>
         <CheckIcon /> Confirm Goal
       </Button>
-    </div>
+    </Buttons>
   </div>
 );
 
@@ -158,10 +165,10 @@ export default [
         <h2>What kind of goal do you want to build?</h2>
         {currentFields}
       </div>
-      <div className="buttons" style={{ marginBottom: 20 }}>
+      <Buttons style={{ marginBottom: 20 }}>
         <CloseButton {...closeButtonProps} />
         <ArrowButton {...nextButtonProps} />
-      </div>
+      </Buttons>
       <div className="waves">
         <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
         <div className="text">
@@ -191,10 +198,10 @@ export default [
         </h2>
         {currentFields}
       </div>
-      <div className="buttons">
+      <Buttons>
         <CloseButton {...closeButtonProps} />
         <ArrowButton {...nextButtonProps} />
-      </div>
+      </Buttons>
     </>
   ),
 
@@ -205,10 +212,10 @@ export default [
         <h2>Do you want to Speak, Listen or both?</h2>
         {currentFields}
       </div>
-      <div className="buttons">
+      <Buttons>
         <CloseButton {...closeButtonProps} />
         <ArrowButton {...nextButtonProps} />
-      </div>
+      </Buttons>
     </>
   ),
 
