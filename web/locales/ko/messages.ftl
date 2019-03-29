@@ -8,6 +8,7 @@ email-input =
     .label = 이메일
 submit-form-action = 보내기
 loading = 로딩중…
+email-opt-in-privacy = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -178,9 +179,14 @@ x-years-short =
     { $count ->
        *[other] { $count }년
     }
+help-make-dataset = 고품질의 공개 데이터 세트를 만드는 일을 도와주세요.
+profile-not-required = 프로파일이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
+sign-up-account = 새 계정 생성
+email-subscription-title = 이메일 업데이트 수신 등록
 
 ## Account Benefits
 
+benefits = 혜택
 
 ## What's public
 
