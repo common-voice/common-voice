@@ -70,6 +70,7 @@ kpv = Komi-Zyrian
 kw = Kornike
 ky = Kirgize
 lt = Lituanisht
+lv = Letonisht
 mdf = Moksha
 mk = Maqedonisht
 mn = Mongolisht
@@ -342,7 +343,7 @@ faq-why-different-speakers-a =
     Shumica e bazave të të dhënave për të folurën përgatiten bazuar në një përfaqësim të tepruar të disa shtresave demografike, çka sjell anshmëri kah  <articleLink>meshkujt dhe klasa e mesme</articleLink>. Theksat dhe dialektet që priren të jenë të përfaqësuar më dobët në grupe të dhënash të përdorura për stërvitjen e aplikacioneve zakonisht kanë lidhje me grupe njerëzish që janë tashmë të lënë mënjanë. Plot makina e kanë gjithashtu të zorshme të kuptojnë zëra femërorë.
     This is why in our voice database we want variety!
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
-faq-why-my-lang-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët.
+faq-why-my-lang-new-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi, që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët. Nëse doni të ndihmoni në shtimin e një gjuhe të re, shkoni te <sentenceCollectorLink>mjeti ynë për grumbullim frazash</sentenceCollectorLink> që t’ia filloni.
 faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
 faq-what-quality-a = Dëshirojmë që grupi i të dhënave Common Voice të pasqyrojë cilësinë e audios që një mekanizëm nga-e-folura-në-tekst do të ndeshë në përgjithësi, ndaj kërkojmë larmi. Përveç një bashkësie të larmishme folësish, një grup të dhënash me cilësi audio të larmishme do t’i mësojë mekanizmit nga-e-folura-në-tekst të trajtojë situata të ndryshme nga jeta reale, nga e folura nën zë e deri te zhurma e automjeteve. Për sa kohë që copëza juaj zanore është e kuptueshme,  i bie të jetë e mjaftueshme për grupin e të dhënave.
 faq-why-10k-hours-q = Pse për incizimet audio synimi është 10 mijë orë të vleftësuara për gjuhë?
@@ -448,7 +449,7 @@ get-started-speech = Fillojani me Kuptimin e të Folurës
 other-datasets = Grupe të Tjera të Dhënash Zëri
 feedback-q = Keni Diçka Për të Thënë?
 deepspeech-info = Grupi i të dhënave Common Voice plotëson mekanizmin me burim të hapur të Mozilla-s për kuptimin e të folurës, Deep Speech, të cilin mund ta përdorni për të ndërtuar aplikacione që bazohen ose përdorin kuptimin e të folurës. Për të mësuar se si t’ia fillohet, lexoni <githubLink>përmbledhjen tonë në Github</githubLink> ose ejani te <discourseLink>DeepSpeech Discourse</discourseLink>.
-common-voice-info = Keni pyetje mbi Common Voice? Merrni pjesë te <discourseLink>forumi ynë Discourse</discourseLink>.
+common-voice-info-new = Keni pyetje rreth Common Voice? Ide për përmirësime apo përshtypje rreth një gjuhe të dhënë? Merrni pjesë në <discourseLink>forumin tonë Discourse</discourseLink> dhe na i bëni të ditura.
 data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
 data-other-ted-name = Korpusi TED-LIUM
 data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
@@ -489,6 +490,8 @@ request-language-form-language =
     .label = Gjuhë
 request-language-success-title = Kërkesa për gjuhë u parashtrua me sukses, ju faleminderit.
 request-language-success-content = Shumë shpejt do të lidhemi me ju me më tepër të dhëna rreth se si të shtoni gjuhën tuaj te Common Voice.
+select-language = Përzgjidhni një Gjuhë…
+other-language = Gjuhë Tjetër
 
 ## Languages Overview
 
