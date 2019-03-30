@@ -284,7 +284,9 @@ off = Араар
 on = Холбоо
 add-avatar-title = Профильга аватар киллэрии
 connect-gravatar = Gravatar холбооһун
+manage-subscriptions = Суруттарыыны салайыы
 email-already-used = Email атын аккауҥҥа туттулла сылдьар
+add-language = Тылы эбии
 
 ## FAQ
 
@@ -343,6 +345,7 @@ download-language = { $language } хачайдаа
 validated-hours = Чаас үчүгэйэ биллибит
 recorded-hours = Чаас суруллубут
 whats-inside = Common Voice дааннай наборын иһигэр туох баарый?
+want-dataset-update = Common Voice сана дааннайдарын наборын туһунан билиэххин баҕараҕын? Биһиги сонуннарбытыгар суруттар.
 subscribe = Суруттар
 get-started-speech = Common Voice атын программаларга хайдах туттулларый
 other-datasets = Атын куолас дааннайын набордара
@@ -462,6 +465,7 @@ stats = Статистика
 you = Эн
 everyone = Бары
 contribution-activity = Кыттааччылар активностара
+top-contributors = Бастыҥ кыттааччылар
 recorded-clips = Клип суруллубут
 validated-clips = Клип тургутуллубут
 total-approved = Бигэргэтиллибит
