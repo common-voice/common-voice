@@ -194,7 +194,7 @@ email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
 
 benefits = Avantàggi
 rich-data = Arichîsci i dæti spedîi fornéndo çèrtidùn informaçioìn demogràfiche anònime. I dæti demogràfici són de-identificæ prìmma de réndili pùblici.
-improve-audio = E informaçioìn do profî agiùtan a megiorâ a precixón di dæti òudio utilizæ into svilùppo do riconosciménto vocâle.
+improve-audio = E informaçioìn do profî agiùttan a megiorâ a precixón di dæti òudio utilizæ into svilùppo do riconosciménto vocâle.
 keep-track = Têgni tràccia de tùtti i progrèssi e-e mêtriche in ciù léngoe.
 compare-progress = Confrónta i teu progrèssi con quélli de âtri colaboratoî de tùtto o móndo.
 view-goals = Confrónta i teu progrèssi con i òbietîvi personæ e do progètto.
@@ -348,7 +348,7 @@ localization = Localizaçiòn
 sentence-collection = Coleçión de frâze
 sentence-collection-explanation = Arechéugge frâze de pùblico domìnio, ò scrîvine de nêuve sótta licénsa de pùblico domìnio.
 hours-recorded-explanation = O contézzo de ôe de registraçiòn vocâle ch'émmo arecheugéito fìnn-a chi.
-hours-validated-explanation = O contézzo de ôe de registraçioìn vocâle che són stæte convalidæ da doî uténti in sce tréi co-in “Sci”. Sti progrèssi agiùtan a razónze o nòstro òbietîvo: 10 000 ôe.
+hours-validated-explanation = O contézzo de ôe de registraçioìn vocâle che són stæte convalidæ da doî uténti in sce tréi co-in “Sci”. Sti progrèssi agiùttan a razónze o nòstro òbietîvo: 10 000 ôe.
 sst = Riconosciménto vocâle (Speech-to-text, STT)
 sst-explanation = E tecnologîe de riconosciménto vocâle (Speech-to-text, STT) convèrtan o parlòu in tèsto.
 de-identified = De-identificaçión
