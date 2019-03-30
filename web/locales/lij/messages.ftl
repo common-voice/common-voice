@@ -469,6 +469,7 @@ listen = Sénti
 skip = Sâta
 shortcuts = Scorsaiéu
 clips-with-count = <bold>{ $count }</bold> registraçioìn
+goal-help-recording = T'æ agiutòu Common Voice a razónze <goalPercentage></goalPercentage> do òbietîvo giornaliêro { $goalValue } pe-e registraçioìn!
 contribute-more = T'ê prónto a fâne ancón { $count }?
 record-cta = Inàndia a registraçión
 record-platform-not-supported = A piatafórma in ûzo a no l'é atoalménte suportâ.
@@ -546,6 +547,7 @@ overall-accuracy = Precixón conplescìva
 delete-q = T'eu domandâ ànche a scancelaçión de registraçioìn vocâle, ò preferìsci conservâle into dataset de Common Voice?
 keep = Consèrva
 remove = Scancèlla
+keep-info = E teu registraçioìn anònime arestaiàn into dataset de Common Voice. Unn-a vòtta eliminòu o teu profî, no ti poriæ ciù domandâ che ségian scancelæ.
 remove-info = Ezaminiêmo a teu domànda de scancelaçión de teu registraçioìn vocâle da-o dataset. Se a domànda a saiâ aprovâ, contatiêmo chi o l'æ descaregòu o dataset, e ghe domandiêmo de scancelâ e teu registraçioìn vocâle.
 why-delete-recordings =
     E registraçioìn de Common Voice són utilizæ da studiôzi, aziénde picìnn-e e apascionæ de riconosciménto vocâle pe perfeçionâ e fâ crésce risòrse disponìbile publicaménte còmme modélli vocâli.
