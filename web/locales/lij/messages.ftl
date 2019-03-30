@@ -335,6 +335,7 @@ faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
 faq-what-quality-q = Quæ livéllo de òudio a l'é domandòu da unn-a registraçión vocâle pe êse utilizâ into dataset?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçión o l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 faq-how-calc-hours-q = Cómme càlcola o nùmero d'ôe Common Voice?
+faq-how-calc-hours-a = Calcolémmo e ôe estimàndo a longhéssa média de ciaschedùnn-a registraçión e moltiplicàndo quéllo nùmero pe-o nùmero totâle de registraçioìn in tùtte e léngoe.
 faq-where-src-from-2-q = Dónde o vêgne o tésto d'òrìgine?
 faq-why-account-q = Perché mi doviæ registrâ 'n cónto?
 faq-is-account-public-q = E informaçioìn in sciô mæ cónto són pùbliche?
@@ -347,6 +348,7 @@ localization = Localizaçiòn
 sentence-collection = Coleçión de frâze
 sentence-collection-explanation = Arechéugge frâze de pùblico domìnio, ò scrîvine de nêuve sótta licénsa de pùblico domìnio.
 hours-recorded-explanation = O contézzo de ôe de registraçiòn vocâle ch'émmo arecheugéito fìnn-a chi.
+hours-validated-explanation = O contézzo de ôe de registraçioìn vocâle che són stæte convalidæ da doî uténti in sce tréi co-in “Sci”. Sti progrèssi agiùtan a razónze o nòstro òbietîvo: 10 000 ôe.
 sst = Riconosciménto vocâle (Speech-to-text, STT)
 sst-explanation = E tecnologîe de riconosciménto vocâle (Speech-to-text, STT) convèrtan o parlòu in tèsto.
 de-identified = De-identificaçión
@@ -386,6 +388,7 @@ review-delete-recordings = Scancèlla e mæ registraçioìn
 
 ## New Datasets Page
 
+datasets-headline = Stémmo realizàndo 'n dataset de vôxe moltiléngoa e avèrto quæ chiónque poriâ utilizâ pe svilupâ aplicaçioìn con riconosciménto vocâle.
 language = Léngoa
 # File size in gigabytes
 size = Dimensción
