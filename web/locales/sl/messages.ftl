@@ -354,6 +354,10 @@ faq-why-account-q = Zakaj naj si ustvarim račun?
 faq-is-account-public-q = Ali so podatki o mojem računu javni?
 faq-how-privacy-q = Kako zagotavljate anonimnost in zasebnost ljudi, ki so prispevali svoje glasove?
 faq-what-determine-identity-q = Kaj pomeni, da ne smem določiti identitete govorcev v naboru podatkov Common Voice?
+faq-what-determine-identity-a =
+    Nabor podatkov Common Voice je odprt in javno dostopen vir, ki ga lahko uporabite za izboljšanje aplikacij za prepoznavanje govora. Da bi zaščitili varnost naših sodelavcev, prosimo vse, ki bodo prenesli nabor podatkov Common Voice, da spoštujejo njihovo zasebnost.
+    
+    Osebni identifikacijski podatki so izločeni iz vseh glasovnih posnetkov v naboru podatkov. S prenosom nabora podatkov se strinjate, da ne boste poskušali določiti identitete sodelujočih. To pomeni, da ne smete poskusiti povezati podatkov v naboru podatkov z osebnimi podatki sodelujočih. Lahko pa nabor podatkov uporabite za izboljšanje prepoznavanja govora, prepoznavanja govorcev ali drugih aplikacij, na primer s povezovanjem podatkov v naboru podatkov z drugimi podatki, ki so že v naboru podatkov.
 
 ## Glossary
 
@@ -441,6 +445,7 @@ get-started-speech = Začnite s prepoznavanjem govora
 other-datasets = Drugi glasovni nabori podatkov
 feedback-q = Želite poslati povratne informacije?
 deepspeech-info = Nabor podatkov Common Voice dopolnjuje Mozillin odprtokodni sistem za prepoznavanje govora Deep Speech, ki ga lahko uporabite za izdelavo aplikacij za prepoznavanje govora. Če želite izvedeti, kako začeti, preberite naš <githubLink>priročnik na Githubu</githubLink> ali se nam pridružite <DiscourseLink>na forumu Discourse</discourseLink>.
+common-voice-info-new = Imate vprašanja o projektu Common Voice? Zamisli za izboljšave ali povratne informacije o določenem jeziku? Pridružite se nam na <discourseLink>forumu Discourse</discourseLink> in nam to sporočite.
 data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
