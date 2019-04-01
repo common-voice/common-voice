@@ -455,7 +455,7 @@ other-language = Âtra léngoa
 ## Languages Overview
 
 language-section-in-progress = In córso
-language-section-in-progress-new-description = Ste léngoe són atoalménte in svilùppo da-a comunitæ. E bâre de avansaménto ìndican i progrèssi de ciaschedùnn-a léngoa into procésso de <localizationGlossaryLink>localizaçiòn do scìto web</localizationGlossaryLink> e de <sentenceCollectionGlossaryLink>arecugéita de frâze</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Ste léngoe són atoalménte in svilùppo da-a comunitæ. E bâre de avansaménto ìndican i progrèssi de ciaschedùnn-a léngoa into procésso de <localizationGlossaryLink>localizaçiòn do scìto web</localizationGlossaryLink> e d'<sentenceCollectionGlossaryLink>arecugéita de frâze</sentenceCollectionGlossaryLink>.
 language-section-launched = Òperatîve
 languages-show-more = Móstra ciù eleménti
 languages-show-less = Móstra mêno eleménti
