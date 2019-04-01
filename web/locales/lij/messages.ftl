@@ -321,6 +321,7 @@ change-email-setings = Modìfica a teu indirìsso de pòsta eletrònica da-e imp
 
 faq-title = Domànde frequénte
 faq-what-cv-q = Cös'a l'é Common Voice?
+faq-what-cv-a = A tecnologîa de riconosciménto vocâle a sta rivoluçionàndo a manêa inta quæ interagìmmo co-e màchine, ma pe-o moménto i scistêmi disponìbili són câi e privæ. Common Voice o l'é pàrte de l'iniçiatîva de Mozilla per megioâ e tecnologîe de riconosciménto vocâle e réndile ciù acescìbile a tùtti. Common Voice o l'é 'na gigantésca bâze de dæti de vôxe donæ da-i uténti, che permétan a chiónque de svilupâ in mainêa lèsta e fàçile e seu aplicaçioìn che dêuvian o riconosciménto vocâle in potençialménte qualónque léngoa.
 faq-why-important-q = Perché a l'é inportànte?
 faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
 faq-how-get-a = O dataset de Common Voice o l'é disponìbile pe êse descaregòu sótta a licénsa <licenseLink>CC0 </licenseLink> da-a <datasetLink>pàgina Dataset</datasetLink>. Inta mæxima pàgina ti peu trovâ tànti âtri dataset descaregàbili publicaménte.
