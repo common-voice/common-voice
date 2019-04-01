@@ -352,11 +352,16 @@ faq-is-account-public-q = Ar mano paskyros informacija yra vieša?
 
 glossary = Terminai
 localization = Lokalizavimas
+localization-explanation = procesas, kurio metu išverčiamas ir pritaikomas daugeliui kalbų bei šalių svetainės turinys.
 sentence-collection = Frazių rinkimas
+hours-recorded-explanation = iki šiol balsu įrašytų valandų kiekis.
+sst = Šnekos atpažinimas
+sst-explanation = šnekos atpažinimo technologijos balso duomenis paverčia tekstu.
 
 ## NotFound
 
 notfound-title = Nerasta
+notfound-content = Deja, nežinome ko ieškai.
 
 ## Data
 
