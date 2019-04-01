@@ -12,6 +12,7 @@ loading = Pumeuhah...
 
 ## Languages
 
+ab = Bahsa Abkhaz
 ace = Bahsa Acèh
 af = Bahsa Afrikaans
 an = Bahsa Aragon
