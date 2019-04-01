@@ -321,7 +321,10 @@ change-email-setings = Modìfica a teu indirìsso de pòsta eletrònica da-e imp
 
 faq-title = Domànde frequénte
 faq-what-cv-q = Cös'a l'é Common Voice?
-faq-what-cv-a = A tecnologîa de riconosciménto vocâle a sta rivoluçionàndo a manêa inta quæ interagìmmo co-e màchine, ma pe-o moménto i scistêmi disponìbili són câi e privæ. Common Voice o l'é pàrte de l'iniçiatîva de Mozilla per megioâ e tecnologîe de riconosciménto vocâle e réndile ciù acescìbile a tùtti. Common Voice o l'é 'na gigantésca bâze de dæti de vôxe donæ da-i uténti, che permétan a chiónque de svilupâ in mainêa lèsta e fàçile e seu aplicaçioìn che dêuvian o riconosciménto vocâle in potençialménte qualónque léngoa.
+faq-what-cv-a =
+    A tecnologîa de riconosciménto vocâle a sta rivoluçionàndo a manêa inta quæ interagìmmo co-e màchine, ma pe-o moménto i scistêmi disponìbili són câi e privæ. Common Voice o l'é pàrte de l'iniçiatîva de Mozilla per megioâ e tecnologîe de riconosciménto vocâle e réndile ciù acescìbile a tùtti. Common Voice o l'é 'na gigantésca bâze de dæti de vôxe donæ da-i uténti, che permétan a chiónque de svilupâ in mainêa lèsta e fàçile e seu aplicaçioìn che dêuvian o riconosciménto vocâle in potençialménte qualónque léngoa.
+    
+    No memorizémmo sôlo canpioìn de vôxe de léngoe ciù difûze a-o móndo, ma quélle parlæ da-e comunitæ minoritâie ascì. A publicaçión de 'n'arecugéita de vôxe divèrsce consentiâ a svilupatoî, inprenditoî e comunitæ de afrontâ da sôli sta lacùnn-a. Óltre a-o dataset de Common Voice, stémmo ànche svilupàndo 'n motô de riconosciménto vocâle avèrto ciamòu Deep Speech.
 faq-why-important-q = Perché a l'é inportànte?
 faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
 faq-how-get-a = O dataset de Common Voice o l'é disponìbile pe êse descaregòu sótta a licénsa <licenseLink>CC0 </licenseLink> da-a <datasetLink>pàgina Dataset</datasetLink>. Inta mæxima pàgina ti peu trovâ tànti âtri dataset descaregàbili publicaménte.
