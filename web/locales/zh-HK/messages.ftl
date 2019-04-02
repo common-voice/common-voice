@@ -18,6 +18,7 @@ indicates-required = * 表示必填欄位
 ## Languages
 
 ace = 亞齊文
+af = 南非荷蘭文
 an = 阿拉貢文
 ar = 阿拉伯文
 as = 阿薩姆文
@@ -49,6 +50,7 @@ fr = 法文
 fy-NL = 菲士蘭文
 ga-IE = 愛爾蘭文
 he = 希伯來文
+hr = 克羅地亞文
 hsb = 上索布文
 hu = 匈牙利文
 ia = 因特文
@@ -64,6 +66,7 @@ kpv = 科米-齊良文
 kw = 康和文
 ky = 吉爾吉斯文
 lt = 立陶宛文
+lv = 拉脫維亞文
 mdf = 莫克沙文
 mk = 馬其頓文
 mn = 蒙古文
@@ -167,6 +170,7 @@ x-years-short =
     { $count ->
        *[other] 年
     }
+help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
 sign-up-account = 註冊帳戶
 
 ## Account Benefits
@@ -175,6 +179,9 @@ benefits = 益處
 
 ## What's public
 
+whats-public = 有哪些資料會公開？
+email-not-public = 我們不會公開您的電郵地址。
+username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
 
 ## Speak & Listen Shortcuts
 
@@ -201,6 +208,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = 重新錄製片段
 request-language-text = 沒在 Common Voice 見到您的語言嗎？
 request-language-button = 申請增加一款語言
 
@@ -283,11 +291,16 @@ add-language = 增加語言
 
 faq-title = 常見問題
 faq-what-cv-q = Common Voice 係咩嘢？
+faq-why-important-q = 點解咁重要？
+faq-why-my-lang-q = 點解還沒有我的語言？
 
 ## Glossary
 
 glossary = 字彙
 localization = 本地化
+sentence-collection = 語句收集
+sst = 語音轉文字（STT）
+sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字。
 
 ## NotFound
 
@@ -329,13 +342,19 @@ language = 語言
 # File size in gigabytes
 size = 大小
 validated-hr-total = 已驗證總時數
+cv-license = 授權條款
 audio-format = 音檔格式
+number-of-voices = 錄音人數
+email-to-download = 輸入電郵即可下載
 size-gigabyte = GB
 size-megabyte = MB
 download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
 subscribe = 訂閱
+get-started-speech = 語音識辨新手入門
+other-datasets = 其他語音數據集
+feedback-q = 有意見要回饋嗎？
 data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
@@ -380,6 +399,7 @@ other-language = 其他語言
 ## Languages Overview
 
 language-section-in-progress = 準備中
+language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
