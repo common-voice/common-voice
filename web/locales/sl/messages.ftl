@@ -337,22 +337,31 @@ faq-how-get-q = Kako lahko prenesem podatke Common Voice?
 faq-how-get-a = Podatkovni niz Common Voice je na voljo za prenos pod licenco <licenseLink>CC0</licenseLink> na <datasetLink>naši strani podatkovnih nizov</datasetLink>. Z iste strani lahko prenesete tudi več drugih javno dostopnih podatkovnih nizov.
 faq-when-release-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
 faq-why-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
+faq-why-mission-a = Mozilla se zavzema za splet, ki je odprt in dostopen vsem. Za to želimo opolnomočiti ustvarjalce spleta s pomočjo projektov, kot je Common Voice. Medtem ko se govorne tehnologije širijo preko meja nišnih aplikacij, si prizadevamo, da bi vsem uporabnikom služile enako dobro. Pri razvoju in testiranju govorne tehnologije tako vidimo potrebo po investiranju v čim več jezikov in vključevanju različnih naglasov ter demografskih skupin. Common Voice je prostodostopen javni vir, ki ga ekipe Mozille, kot tudi razvijalci po celem svetu že uporabljajo pri svojih projektih.
 faq-what-cv-and-deepspeech-q = Kakšna je razlika med projektoma Common Voice in Deep Speech?
+faq-what-cv-and-deepspeech-a = Nabor podatkov Common Voice dopolnjuje Mozillin odprtokodni sistem za prepoznavanje govora Deep Speech. Prva različica sistema Deep Speech je bila izdana novembra 2017 in se od takrat še naprej razvija. Verjamemo, da bi morala biti ta odprtokodna tehnologija za prepoznavanje govora, skupaj z nabori podatkov Common Voice, na voljo vsem. Upamo, da bodo te tehnologije razvijalcem omogočile ustvariti številne inovativne izdelke in storitve.
 faq-is-goal-assistant-q = Ali je cilj projekta Common Voice ustvariti glasovnega pomočnika?
+faq-is-goal-assistant-a = Cilj nabora podatkov Common Voice je omogočiti, da lahko vsakdo ustvari aplikacije za prepoznavanje govora ali katero drugo vrsto aplikacije, ki zahteva glasovne podatke. Glasovni pomočnik je le ena od mnogih aplikacij, za katero lahko uporabite nabor podatkov.
 faq-do-want-native-q = Nisem materni govorec in govorim z naglasom; ali vseeno želite moj glas?
 faq-do-want-native-a = Da, še posebej želimo vaš glas! Del cilja Common Voice je zbrati čim več različnih naglasov, tako da lahko storitve prepoznavanja govora delujejo enako dobro za vse. To pomeni, da so prispevki tujih govorcev še posebej pomembni.
 faq-why-different-speakers-q = Zakaj potrebujete toliko različnih govorcev za en jezik?
 faq-why-my-lang-q = Zakaj moj jezik še ni vključen?
 faq-what-quality-q = Kolikšna kakovost zvoka je zahtevana za posnetke, da so uporabni za nabor podatkov?
+faq-what-quality-a = Želimo, da nabor podatkov Common Voice odraža kakovost zvoka, ki ga bo sistem za pretvarjanje govora v besedilo zaznal v naravnem okolju, zato iščemo raznolikost. Poleg raznolike skupnosti govorcev, bo nabor podatkov z različno kakovostjo zvoka naučil sisteme za pretvarjanje govora v besedilo, da bodo ti lahko upoštevali različne situacije v naravnem okolju, od različnih zvokov v ozadju, do hrupa avtomobilov. Dokler je vaš glasovni posnetek razumljiv, bi moral biti dovolj dober za nabor podatkov.
 faq-why-10k-hours-q = Zakaj je 10 000 potrjenih ur na jezik cilj za snemanje zvoka?
 faq-why-10k-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v besedilo potrebuje za učenje.
 faq-how-calc-hours-q = Kako Common Voice računa ure?
 faq-how-calc-hours-a = Ure računamo tako, da ocenimo povprečno dolžino vsakega posnetka in nato to število pomnožimo s skupnim številom posnetkov v vseh jezikih.
 faq-where-src-from-2-q = Od kod prihaja izvorno besedilo?
+faq-where-src-from-2-a =
+    Naše izvorno besedilo je sestavljeno iz prispevkov sodelavcev in dialogov iz filmov v javni domeni, kot je <italic>Čudovito življenje</italic>.
+    
+    Naše izvorne stavke si lahko ogledate v <githubLink>tej mapi na GitHubu</githubLink>.
 faq-why-not-ask-read-q = Zakaj ne prosite ljudi, da berejo iz knjig ali člankov na Wikipediji v različnih jezikih?
 faq-why-account-q = Zakaj naj si ustvarim račun?
 faq-is-account-public-q = Ali so podatki o mojem računu javni?
 faq-how-privacy-q = Kako zagotavljate anonimnost in zasebnost ljudi, ki so prispevali svoje glasove?
+faq-how-privacy-a = Vsi osebni identifikacijski podatki se izločijo iz glasovnih posnetkov v naboru podatkov. Ko sodelavec preko svojega profila posreduje demografske podatke, se te informacije iz njegovih glasovnih posnetkov prikrijejo, preden se posnetki prenesejo v zbirko podatkov za prenos, in nikoli niso objavljeni na njegovi strani profila.
 faq-what-determine-identity-q = Kaj pomeni, da ne smem določiti identitete govorcev v naboru podatkov Common Voice?
 faq-what-determine-identity-a =
     Nabor podatkov Common Voice je odprt in javno dostopen vir, ki ga lahko uporabite za izboljšanje aplikacij za prepoznavanje govora. Da bi zaščitili varnost naših sodelavcev, prosimo vse, ki bodo prenesli nabor podatkov Common Voice, da spoštujejo njihovo zasebnost.
