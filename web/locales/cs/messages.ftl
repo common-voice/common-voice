@@ -61,6 +61,7 @@ ia = Interlingua
 id = Indonéština
 is = Islandština
 it = Italština
+izh = Ižorština
 ja = Japonština
 ka = Gruzínština
 kab = Kabylština
@@ -229,6 +230,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrát/Zastavit
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
 
@@ -461,6 +463,8 @@ request-language-form-language =
     .label = Jazyk
 request-language-success-title = Žádost o jazyk byla odeslána. Děkujeme vám.
 request-language-success-content = Velmi brzy vám dáme vědět, jak můžete přidat váš jazyk do Common Voice.
+select-language = Vyberte jazyk...
+other-language = Ostatní jazyky
 
 ## Languages Overview
 
