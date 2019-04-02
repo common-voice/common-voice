@@ -63,6 +63,7 @@ ko = 韓文
 kpv = 科米-齊良文
 kw = 康和文
 ky = 吉爾吉斯文
+lt = 立陶宛文
 mdf = 莫克沙文
 mk = 馬其頓文
 mn = 蒙古文
@@ -166,6 +167,7 @@ x-years-short =
     { $count ->
        *[other] 年
     }
+sign-up-account = 註冊帳戶
 
 ## Account Benefits
 
@@ -198,6 +200,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
+shortcut-rerecord-toggle = [1-5]
 request-language-text = 沒在 Common Voice 見到您的語言嗎？
 request-language-button = 申請增加一款語言
 
@@ -322,16 +325,28 @@ review-delete-recordings = 刪除我的錄音
 
 ## New Datasets Page
 
+language = 語言
+# File size in gigabytes
+size = 大小
 validated-hr-total = 已驗證總時數
+audio-format = 音檔格式
 size-gigabyte = GB
 size-megabyte = MB
 download-language = 下載{ $language }
 validated-hours = 已驗證時數
+recorded-hours = 已錄製時數
+subscribe = 訂閱
 data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
 data-other-voxforge-description = VoxForge 的成立，是用來收集被抄寫的對話內容，給自由與開放源碼的語音辨識引擎使用。
 data-other-tatoeba-description = Tatoeba 是一套用於語言學習的大型數據庫，當中包含了各種句子、翻譯、以及錄音。這個下載項目包含了其社群所錄下的英語語音。
+go-discourse = 前往 Discourse
+go-languages-page = 前往語言版面
+ready-to-validate = 準備好幫手驗證句子了嗎？
+more = 更多
+close = 關閉
+download = 下載
 
 ## Download Modal
 
@@ -359,6 +374,8 @@ request-language-form-language =
     .label = 語言
 request-language-success-title = 已收到新語言請求，感謝您。
 request-language-success-content = 我們會很快將如何在 Common Voice 新增語言的資訊寄給您。
+select-language = 選擇語言…
+other-language = 其他語言
 
 ## Languages Overview
 
