@@ -462,6 +462,7 @@ other-language = Âtra léngoa
 language-section-in-progress = In córso
 language-section-in-progress-new-description = Ste léngoe són atoalménte in svilùppo da-a comunitæ. E bâre de avansaménto ìndican i progrèssi de ciaschedùnn-a léngoa into procésso de <localizationGlossaryLink>localizaçiòn do scìto web</localizationGlossaryLink> e d'<sentenceCollectionGlossaryLink>arecugéita de frâze</sentenceCollectionGlossaryLink>.
 language-section-launched = Òperatîve
+language-section-launched-description = Pe ste léngue o scito web a l'é stæto <localizationGlossaryLink>tradûto</localizationGlossaryLink> conpletaménte, e l'<phraseCollectionGlossaryLink>arecugéita de frâze</sentenceCollectionGlossaryLink> a l'à razónto 'na dimensción tâ da garantî suficénte materiâle da <speakLink>registrâ</ speakLink> e <listenLink>sentî</listenLink> de mòddo continoatîvo.
 languages-show-more = Móstra ciù eleménti
 languages-show-less = Móstra mêno eleménti
 language-speakers = Parlòu da
