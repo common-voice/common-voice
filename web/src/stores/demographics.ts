@@ -183,6 +183,7 @@ export const ACCENTS: any = {
     penghu_county: '出生地：澎湖縣',
     kinmen_county: '出生地：金門縣',
     lienchiang_county: '出生地：連江縣',
+    hong_kong: '香港',
   },
 };
 
