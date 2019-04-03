@@ -8,6 +8,8 @@ email-input =
     .label = Э-мэйл
 submit-form-action = Илгээх
 loading = Ачаалж байна...
+email-opt-in-privacy = Мэйл хүлээн авахыг сонгосноор Mozilla-н хувьд энэ мэдээллийг Mozilla-ийн <privacyLink> Нууцлалын бодлого <privacyLink> -н тайлбарт заасны дагуу харьцуулан авч үзэж байгаа гэж үзнэ.
+indicates-required = * заавал оруулах ёстой талбарыг заана.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,11 +17,17 @@ loading = Ачаалж байна...
 
 ## Languages
 
+ab = Абхааз хэл
+ace = Эйс хэл
+ady = Адихэ хэл
+af = Африк хэл
+am = Амхаар хэл
 an = Арагон хэл
 ar = Араб хэл
 as = Ассам хэл
 ast = Астури хэл
 az = Азербайжан хэл
+bg = Болгар хэл
 bn = Бенгал хэл
 br = Бретон хэл
 bxr = Буриад хэл
@@ -32,23 +40,29 @@ cy = Уэльс хэл
 da = Дани хэл
 de = Герман хэл
 dsb = Доод Сорб хэл
+dv = Мальдив хэл
 el = Грек хэл
 en = Англи хэл
 eo = Эсперанто хэл
 es = Испани хэл
 et = Эстони хэл
+eu = Баски хэл
+fa = Перс хэл
 fi = Финлянд хэл
 fo = Фарер хэл
 fr = Франц хэл
 fy-NL = Фриз хэл
 ga-IE = Ирланд хэл
+gl = Галик хэл
 he = Жүүд хэл
+hr = Хорват хэл
 hsb = Дээд Сорб хэл
 hu = Мажаар хэл
 ia = Зуучлагч хэл
 id = Индонез хэл
 is = Исланд хэл
 it = Итали хэл
+izh = Ижор хэл
 ja = Япон хэл
 ka = Гүрж хэл
 kab = Кабил хэл
@@ -57,19 +71,26 @@ ko = Солонгос хэл
 kpv = Коми хэл
 kw = Корн хэл
 ky = Киргиз хэл
+lt = Литв хэл
+lv = Латв хэл
+mdf = Мокша хэл
 mk = Македон хэл
+mn = Монгол хэл
+mrj = Хилл мари хэл
 myv = Эрзя хэл
 nb-NO = Норвеги хэл (бокмэл)
 ne-NP = Балба хэл
 nl = Недерланд хэл
 nn-NO = Норвеги хэл (нинорск)
+oc = Окситан хэл
 or = Одиа хэл
 pl = Польш хэл
 pt-BR = Португали хэл (Бразил)
-rm = Роман хэл
 ro = Румын хэл
 ru = Орос хэл
+rw = Кинярванда хэл
 sah = Якут хэл
+sc = Сардини хэл
 sk = Словак хэл
 sl = Словен хэл
 sq = Албани хэл
@@ -80,9 +101,12 @@ te = Телугу хэл
 th = Тайланд хэл
 tr = Турк хэл
 tt = Татаар хэл
+uby = Убых хэл
 uk = Украйн хэл
 ur = Урдү хэл
 uz = Узбек хэл
+vi = Ветьнам хэл
+vot = Водск хэл
 zh-CN = Хятад хэл (Хятад)
 zh-HK = Хятад хэл (Хонг конг)
 zh-TW = Хятад хэл (Тайвань)
@@ -108,9 +132,7 @@ share-title = Дуу хоолойгоо бичүүлэх хүн олж өгч т
 share-text = Жинхэнэ хүмүүс яаж ярьдагийг машинуудад үзүүлэхийн тулд, { $link } руу ороод дуу хоолойгоо хандивлана уу.
 link-copied = Холбоос хуулагдлаа
 back-top = Эхлэл рүү
-contribution-banner-text = Хамтран ажиллах шинэ боломж гарлаа
-contribution-banner-button = Шалгаж үзэх
-report-bugs-link = Алдаа мэдээлэх
+logout = Гарах
 
 ## Home Page
 
@@ -135,9 +157,12 @@ listen-paragraph = Хандивласан дуу бичлэгийг бататг
 listen-goal-text = Бататгасан дуу бичлэг
 hours-recorded = Бичигдсэн хугацаа
 hours-validated = Бататгасан хугацаа
+voices-online = Дуу хоолойнууд одоо идэвхижлээ
+todays-progress = Өнөөдрийн ахиц
+help-reach-goal = { $goal } зорилгод хүрэхэд бидэнд тусална уу.
 read-terms-q = Та манай нөхцөлийг уншсан уу?
 ready-to-record = Та дуу хоолойгоо хандивлахад бэлэн үү?
-all-languages = Бүх хэл
+all-locales = Бүх
 today = Өнөөдөр
 x-weeks-short =
     { $count ->
@@ -154,6 +179,25 @@ x-years-short =
         [one] Жил
        *[other] { $count } жил
     }
+help-make-dataset = Өндөр чанартай, нийтэд нээлттэй  өгөгдлийн цогц бүтээхэд бидэнд туслна уу
+profile-not-required = Хувийн эрхтэй байх шаардлагагүй ч хэрэг болж мэднэ
+sign-up-account = Хэрэглэгчээр бүртгүүлэх
+email-subscription-title = И-мэйл мэдээнд бүртгүүлэх
+
+## Account Benefits
+
+benefits = Ашиг тус
+rich-data = Илгээсэн өгөгдлөө аль болох баялаг болгоорой үүний тулд хүн амзүйн өгөгдлөө бүрдүүлэх хэрэгтэй. Нийтийн болгохоосоо өмнө бид бүх хүн ам зүйн өгөгдлийг тодорхойлох болно.
+improve-audio = Хэрэглэгчийн эрхийн мэдээлэл нь дуу хоолой таних машин сургалтын нарийвчлалд хэрэглэгддэг аудио өгөгдлийг сайжруулдаг.
+compare-progress = Таны оролцооны явц дэлхийн бусад хувь нэмэр оруулагчидтай харьцуулбал хэр байгааг харах.
+view-goals = Хувийн болон төслийн зорилготой зэрэгцүүлсэн явцаа харах.
+
+## What's public
+
+whats-public = Нийтийн гэж юу вэ?
+email-not-public = Бид таны имэйл хаягийг нийтэд ил тавихгүй.
+recordings-and-locale-public = Бичлэгнүүдийн тоо буюу нийтийн болгох таны хувь нэмэр оруулсан хэлнүүд.
+username-optin-public = Хэрэглэгчийн нэрээ нийтэд ил болгох аль эсвэл нууц болгох боломжтой.
 
 ## Speak & Listen Shortcuts
 
@@ -179,6 +223,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Бичих/Болих
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Дахин бичих
 request-language-text = Таны хэл Common Voice-д алга байна уу?
 request-language-button = Хэл нэмүүлэх хүсэлт илгээх
 
@@ -198,12 +244,12 @@ english = Англи хэл
 
 ## ProfileForm
 
-profile-form-cancel = Маягтаас гарах
-profile-form-delete = Профайл устгах
 profile-form-username =
     .label = Хэрэглэгчийн нэр
-profile-form-language =
-    .label = Хэл
+profile-form-native-language =
+    .label = Эх хэл
+profile-form-additional-language =
+    .label = Гадаад хэл
 profile-form-accent =
     .label = Аялга
 profile-form-age =
@@ -212,49 +258,57 @@ profile-form-gender =
     .label = Хүйс
 leaderboard-visibility =
     .label = Leaderboard харагдац
+hidden = Далд
+visible = Ил
 native-language =
     .label = Төрөлх хэл
 profile-form-submit-save = Хадгалах
 profile-form-submit-saved = Хадгалагдлаа
-profile-keep-data = Өгөгдөл нөөшлөх
-profile-delete-data = Өгөгдөл устгах
 male = Эр
 female = Эм
 # Gender
 other = Бусад
 why-profile-title = Яагаад профайл гэж?
 why-profile-text = Дуу таних системүүдийн нарийвчлалыг сайжруулахад Common Voice руу илгээсэн дууны өгөгдлийг илүү хэрэглэхийн тулд та өөрийн тухай мэдээллээ нийлүүлнэ үү.
+dashboard = Хянах самбар
+build-profile = Хэрэглэгчийн эрх бүтээх
+avatar = Хөрөг
+goals = Зорилго
+settings = Тохиргоо
 edit-profile = Профайл өөрчлөх
-profile-create = Профайл үүсгэх
 profile-create-success = Профайл амжилттай үүслээ!
 profile-close = Хаах
-profile-clear-modal = Хэрэв та профайлаа устгавал таны бичлэгтэй хамт Common Voice руу хүн ам зүйн мэдээлэл тань илгээгдэхгүй.
 profile-explanation = Та профайлтай байснаар ахиц, явцаа харж бидний дууны өгөгдлийн нарийвчлалыг нэмэгдүүлнэ.
 thanks-for-account = Профайлаа баталгаажуулсанд баярлалаа, та одоо профайлаа  тохируулж болно.
+why-demographic = Яагаад хамаатай вэ?
+login-signup = Нэвтрэх / бүртгүүлэх
+edit = Засах
+email-subscriptions = И-мэйл бүртгэлүүд
+download-profile = Өөрийн өгөгдлийг татах
+contribution-experience = Хувь нэмэр оруулсан туршлага
+skip-submission-feedback = Санал хүсэлт илгээлтийг алгасан
+off = унтраах
+on = асаах
+add-avatar-title = Хэрэглэгчийн эрх дээрээ зураг нэмэх
+browse-file-title = Зураг серверт илгээх
+connect-gravatar = Gravatar-тай холбох
+gravatar_not_found = И-мэйлтэй холбоотой gravatar алга
+file_too_large = Энэ файл хэтэрхий том байна
+manage-subscriptions = Бүртгэлүүдээ янзлах
+email-already-used = Энэ и-мэйл аль хэдийн өөр хэрэглэгчийн эрхээр ашиглагдаж байна
+add-language = Хэл нэмэх
 
 ## FAQ
 
 faq-title = Түгээмэл Тавигддаг Асуултууд
-faq-what-q = Common Voice гэж юу вэ?
-faq-important-q = Яагаад энэ чухал гэж?
-faq-get-q = Common Voice-ын санг яаж татаж авах вэ?
-faq-get-a = Өгөгдлийн цогц одоо <licenseLink>CC0-Lizenz</licenseLink> нөхцөлтэйгээр манай вэб хаягийн <downloadLink>холбоосоос татаж авах</downloadLink> боломжтой боллоо.
-faq-mission-q = Яагаад Common Voice Мозилла миссионы нэг хэсэг болж байгаа вэ?
-faq-native-q = { $lang } миний эх хэл биш бөгөөд би их аялгатай ярьдаг. Гэсэн ч гэсэн миний дуу бичлэг хэрэг болох болов уу?
-faq-native-a = Тийм ээ, бид ямар ч тохиолдолд таны дуу бичлэгийг авахыг хүсэж байна. Common Voice -н нэг зорилго бол компьютерыг аль болох <bold>хүн бүрийг</bold> ойлгодог болгохын тулд олон төрлийн аялга цуглуулах явдал юм.
-faq-firefox-q = Хэзээ нэгэн цагт Firefox нь Common Voice дээх суурилан цээжээр бичүүлэх боломжтой болох уу?
-faq-firefox-a = Common Voice нь үнэндээ Firefox гэх мэт Мозиллагийн маш олон бүтээгдэхүүнтэй холбогдож ажиллах хязгааргүй боломжтой.
-faq-quality-q = Дуу бичлэг хэрэглэгдэхийн тулд хэр чанартай байх ёстой вэ?
-faq-hours-q = Яагаад 10&thinsp;000 цагийн дуу бичлэг зорилт болоод байна?
-faq-hours-a = Үр ашигтай дуу таних системүүдийг сургахын тулд ойролцоогоор шаардагдах цагийг гаргасан юм.
-faq-source-q = Бичвэрүүдийн эх сурвалж хаанаас ирж байгаа вэ?
-faq-source-a1 = Одоогийн өгүүлбэрүүд олон нийтийн <italic>It’s a Wonderful Life</italic> гэх мэт киноны харилцан ярианы хандиваар цугларч байна.
-faq-source-a2 = Та хэрэглэгдэж буй өгүүлбэрүүдийг энэ <dataLink>GitHub-Хавтас</dataLink>-наас үзэх боломжтой.
+faq-what-cv-q = Common Voice гэж юу вэ?
+faq-why-important-q = Яагаад энэ чухал вэ?
+faq-why-my-lang-q = Яагаад манай хэл байхгүй байна вэ?
 
-## Profile
+## Glossary
 
-profile-why-title = Яагаад профайл үүсгэх хэрэгтэй вэ?
-profile-why-content = Дуу таних системүүдийн нарийвчлалыг сайжруулахад Common Voice руу илгээсэн дууны өгөгдлийг илүү хэрэглэхийн тулд та өөрийн тухай мэдээллээ нийлүүлнэ үү.
+glossary = Нэр томьёо
+localization = Нутагшуулалт
 
 ## NotFound
 
@@ -273,27 +327,10 @@ data-get-started = <speechBlogLink>Дуу таних эхний алхам</spee
 data-other-title = Өөр хэлний өгөгдлийн цогц...
 data-other-goto = { $name } рүү очих
 data-other-download = Өгөгдөл татах
-data-other-ted-name = TED-LIUM хөмрөг
-data-other-ted-description = TED-LIUM хөмрөг бол TED вэб сайтад байдаг дуун илтгэл ба түүний бичвэрээс бүрддэг.
 data-bundle-button = Өгөгдлийн цогцыг татах
 data-bundle-description = Common Voice болон дээрх бусад бүх өгөгдлийн цогцууд.
 license = Лиценз: <licenseLink>{ $license }</licenseLink>
 license-mixed = Холимог лиценз
-
-## Record Page
-
-record-platform-not-supported = Уучлаарай, таны платформ одоогоор дэмжигдээгүй байна.
-record-platform-not-supported-desktop = Ширээний компьютерүүд дээр та дараах шинэ хувилбарыг татаж авна уу:
-record-platform-not-supported-ios = <bold>iOS</bold> хэрэглэгчид манай төлбөргүй Аппыг татаж авна уу:
-record-must-allow-microphone = Та микрофон руу хандах эрхийг нээх ёстой.
-record-retry = Дахин оролдох
-record-no-mic-found = Микрофон олдсонгүй.
-record-error-too-short = Бичлэг хэтэрхий богино байна.
-record-error-too-long = Бичлэг хэтэрхий урт байна.
-record-error-too-quiet = Бичлэг хэтэрхий сул байна.
-record-submit-success = Амжилттай илгээгдлээ. Дахин бичихийг хүсэж байна уу?
-record-help = Бичлэг хийхийн тулд ёвроод дээр өгүүлбэрийг  дуудаж уншина уу.
-record-cancel = Дахин бичихээ болих
 review-terms = Common Voice -г хэрэглэхийн тулд та манай <termsLink>үйлчилгээний нөхцөл</termsLink> болон <privacyLink>Нууцлалын заалт</privacyLink>-ыг зөвшөөрсөн байх ёстой.
 terms-agree = Зөвшөөрч байна
 terms-disagree = Үл зөвшөөрч байна
@@ -305,6 +342,11 @@ review-rerecord = Засах
 review-cancel = Илгээхээ болих
 review-keep-recordings = Бичлэгүүдийг хадгалах
 review-delete-recordings = Бичлэг устгах
+
+## New Datasets Page
+
+data-other-ted-name = TED-LIUM хөмрөг
+data-other-ted-description = TED-LIUM хөмрөг бол TED вэб сайтад байдаг дуун илтгэл ба түүний бичвэрээс бүрддэг.
 
 ## Download Modal
 
@@ -336,9 +378,7 @@ request-language-success-content = Та Common Voice-д хэлээ яаж нэм
 ## Languages Overview
 
 language-section-in-progress = Бэлтгэл үе шат
-language-section-in-progress-description = Бэлтгэл үе шатанд байгаа хэлний хувьд манай нийгэмлэгүүд  хамтын ажиллагааг бэлтгэж байна. Тэд вэб сайтыг хэр орчуулсан болон хэр өгүүлбэр цуглуулсныг энэ явц харуулна.
 language-section-launched = Бичих үе шат
-language-section-launched-new-description = Эдгээр идэвхтэй хэлний хувьд вэб хуудас орчуулагдаад, цааш <italic>Ярих</italic> болон <italic>Сонсох</italic> хангалттай өгүүлбэр цуглажээ.
 languages-show-more = Дэлгэрэнгүй харах
 languages-show-less = Тоймлон харах
 language-speakers = Яригч
@@ -368,6 +408,15 @@ contribute-more =
        *[other] Дахиад { $count } -г хийх үү?
     }
 record-cta = Бичлэг эхлүүлэх
+record-platform-not-supported = Уучлаарай, таны платформ одоогоор дэмжигдээгүй байна.
+record-platform-not-supported-desktop = Ширээний компьютерүүд дээр та дараах шинэ хувилбарыг татаж авна уу:
+record-platform-not-supported-ios = <bold>iOS</bold> хэрэглэгчид манай төлбөргүй Аппыг татаж авна уу:
+record-must-allow-microphone = Та микрофон руу хандах эрхийг нээх ёстой.
+record-no-mic-found = Микрофон олдсонгүй.
+record-error-too-short = Бичлэг хэтэрхий богино байна.
+record-error-too-long = Бичлэг хэтэрхий урт байна.
+record-error-too-quiet = Бичлэг хэтэрхий сул байна.
+record-cancel = Дахин бичихээ болих
 record-instruction = { $actionType }<recordIcon></recordIcon> дараад өгүүлбэрийг дуудаж уншина уу
 record-stop-instruction = Дуусгах бол { $actionType }<stopIcon></stopIcon> дээр дарна уу
 record-three-more-instruction = Дахиад гурвыг!
@@ -391,3 +440,52 @@ listen-last-time-instruction = <playIcon></playIcon> сүүлчийнх!
 nothing-to-validate = Энэ хэл дээр бататгах зүйл одоогоор алга, та бидэнд дарааллыг нөхөхөд тусална уу.
 record-button-label = Хоолойгоо бичих
 share-title-new = Илүү хоолой олоход бидэнд <bold>тусална уу</bold>
+
+## Goals
+
+days =
+    { $count ->
+        [one] Өдөр
+       *[other] Өдөр
+    }
+recordings =
+    { $count ->
+        [one] Бичлэг
+       *[other] Бичлэг
+    }
+validations =
+    { $count ->
+        [one] баталгаажилт
+       *[other] баталгаажилтууд
+    }
+
+## Dashboard
+
+your-languages = Таны хэлнүүд
+toward-next-goal = Дараагийн зорилгоруу чиглэх
+clips-you-recorded = Таны бичсэн клипүүд
+clips-you-validated = Таны баталгаажуулсан клипүүд
+todays-recorded-progress = Өнөөдрийн Common Voice-д бичлэг хийгдсэн клипүүдийн явц
+todays-validated-progress = Өнөөдрийн Common Voice-д баталгаажсан клипүүдийн явц
+stats = Статистик
+you = Та
+everyone = Хүн бүр
+contribution-activity = Хувь нэмэр оруулсан үйл ажиллагаа
+top-contributors = Шилдэг хувь нэмэр оруулагчид
+recorded-clips = Бичигдсэн бичлэг
+validated-clips = Шалгагдсан бичлэг
+total-approved = Нийт зөвшөөрөгдсөн
+overall-accuracy = Ерөнхий нарийвчлал
+
+## Profile Delete
+
+delete-q = Та өөрийнхөө дуу хоолойны бичлэгүүдийг бас устгамаар байна уу эсвэл тэднийг Common Voice-н өгөгдлийн цогцод үлдээмээр байна уу?
+keep = Хадгалах
+remove = Устгах
+keep-info = Таны нууц нэрээр илгээсэн дуу хоолойны бичлэгүүд Common Voice-н өгөгдлийн цогцод цаашид үлдэх болно. Та хэрэглэгчийн эрхээ устгавал цаашид өгөгдлийн цогцоос бичлэгүүдээ устгах хүсэлт илгээх боломжгүй.
+remove-info = Өгөгдлийн цогцоос бичлэгүүдээ хасах гэсэн таны хүсэлтийг удахгүй шалгах болноо. Хэрэв таны хүсэлт баталгаажвал өгөгдлийн цогцыг татаж авсан хүмүүстэй ч мөн холбогдож тэдэнд байгаа таны бичлэгүүдийг хасахыг мөн хүснээ.
+why-delete-recordings =
+    Common Voice-н бичлэгүүдийг академик, жижиг дунд бизнесүүд, сонирхогчид гээд олон хүмүүс хэрэглэдэг бас дуу хоолойн моделийн хувьд нийтэд хэрэглэгдэх нөөцийг нэмэгдүүлдэг.
+    
+    Та яагаад өөрийнхөө бичлэгүүдээ устгах гэж байгаа талаараа бидэнд хэлж болох уу?
+profile-form-delete = Профайл устгах
