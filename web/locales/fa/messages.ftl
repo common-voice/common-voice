@@ -506,6 +506,7 @@ other-language = زبان‌های دیگر
 language-section-in-progress = در حال پیشرفت
 language-section-in-progress-new-description = این زبان در حال حاضر تحت توسعه انجمن می‌باشد. این نوار توسعه متشکل از روند توسعه  هر زبان در مرحله<localizationGlossaryLink> محلی سازی وب سایت</localizationGlossaryLink> و <sentenceCollectionGlossaryLink> جمع اوری عبارت‌ها می باشد</sentenceCollectionGlossaryLink>.
 language-section-launched = منتشر شده
+language-section-launched-description = برای زبان های زیر پایگاه اطلاع رسانی با موفقیت آغاز به کار کرد و به صورت کامل <localizationGlossaryLink> محلی سازی شده</localizationGlossaryLink> و به صورت کامل<sentenceCollectionGlossaryLink> عبارت ذخیره شده دارد</sentenceCollectionGlossaryLink> تا به مشارکت کنندگان امکان<speakLink> شنیدن</speakLink> و <listenLink> شنیدن </listenLink> بدهد.
 languages-show-more = مشاهده بیشتر…
 languages-show-less = کم‌تر
 language-speakers = گویندگان
