@@ -49,6 +49,7 @@ fo = 法羅文
 fr = 法文
 fy-NL = 菲士蘭文
 ga-IE = 愛爾蘭文
+gl = 加利西亞文
 he = 希伯來文
 hr = 克羅地亞文
 hsb = 上索布文
@@ -68,8 +69,10 @@ ky = 吉爾吉斯文
 lt = 立陶宛文
 lv = 拉脫維亞文
 mdf = 莫克沙文
+mhr = 草原馬里文
 mk = 馬其頓文
 mn = 蒙古文
+mrj = 山地馬里文
 myv = 厄爾茲亞文
 nb-NO = 挪威文（書面語）
 ne-NP = 尼泊爾文
@@ -182,6 +185,7 @@ benefits = 益處
 whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
 username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
+username-email-not-demographic = 您的使用者名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
 ## Speak & Listen Shortcuts
 
@@ -292,6 +296,7 @@ add-language = 增加語言
 faq-title = 常見問題
 faq-what-cv-q = Common Voice 係咩嘢？
 faq-why-important-q = 點解咁重要？
+faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
 faq-why-my-lang-q = 點解還沒有我的語言？
 
 ## Glossary
@@ -299,8 +304,10 @@ faq-why-my-lang-q = 點解還沒有我的語言？
 glossary = 字彙
 localization = 本地化
 sentence-collection = 語句收集
+hours-recorded-explanation = 到目前為止我們收集到的錄音時數。
 sst = 語音轉文字（STT）
 sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字。
+de-identified = 去識別化
 
 ## NotFound
 
@@ -342,15 +349,18 @@ language = 語言
 # File size in gigabytes
 size = 大小
 validated-hr-total = 已驗證總時數
+overall-hr-total = 綜合總時數
 cv-license = 授權條款
 audio-format = 音檔格式
 number-of-voices = 錄音人數
 email-to-download = 輸入電郵即可下載
+confirm-size = 您將開始一個<b>{ $size }</b>的下載項目
 size-gigabyte = GB
 size-megabyte = MB
 download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
+whats-inside = Common Voice 數據集當中有什麼？
 subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
