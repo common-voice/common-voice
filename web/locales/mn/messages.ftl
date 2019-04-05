@@ -55,6 +55,7 @@ fy-NL = Фриз хэл
 ga-IE = Ирланд хэл
 gl = Галик хэл
 he = Жүүд хэл
+hi-IN = Хинди хэл
 hr = Хорват хэл
 hsb = Дээд Сорб хэл
 hu = Мажаар хэл
@@ -71,6 +72,7 @@ ko = Солонгос хэл
 kpv = Коми хэл
 kw = Корн хэл
 ky = Киргиз хэл
+lij = Лигурия хэл
 lt = Литв хэл
 lv = Латв хэл
 mdf = Мокша хэл
@@ -100,6 +102,7 @@ sr = Серб хэл
 sv-SE = Швед хэл
 ta = Тамил хэл
 te = Телугу хэл
+tg = Тажик хэл
 th = Тайланд хэл
 tr = Турк хэл
 tt = Татаар хэл
@@ -121,7 +124,7 @@ zh-TW = Хятад хэл (Тайвань)
 
 speak = Ярих
 speak-now = Одоо ярина уу
-datasets = Өгөгдлийн цогц
+datasets = Датасетүүд
 languages = Хэл
 profile = Профайл
 help = Тусламж
@@ -134,13 +137,13 @@ content-license-text = Агуулга <licenseLink>Creative Commons license</lic
 share-title = Дуу хоолойгоо бичүүлэх хүн олж өгч тусална уу!
 share-text = Жинхэнэ хүмүүс яаж ярьдагийг машинуудад үзүүлэхийн тулд, { $link } руу ороод дуу хоолойгоо хандивлана уу.
 link-copied = Холбоос хуулагдлаа
-back-top = Эхлэл рүү
+back-top = Дээш буцах
 logout = Гарах
 
 ## Home Page
 
 home-title = Common Voice төсөл бол Мозиллагийн санаачилгаар машинуудад жинхэнэ хүмүүс яг яаж ярьдагийг заахад туслах зориулалттай төсөл юм.
-home-cta = Амаа нээ, төслийг дэмж, хамтран ажиллана уу!
+home-cta = Амаа нээ, төслийг дэмжиж, хамтран ажилла!
 wall-of-text-start = Хэл бол байгалийнх, хэл бол хүнийх. Тиймээс бид төхөөрөмжүүддээ хэрэглэх яриа таних технологи үүсгэх сонирхол хөдөлсөн юм. Мэдээж ярианд суурилсан систем хөгжүүлэхэд асар их хэмжээний ярианы өгөгдөл шаардлагатай.
 wall-of-text-more-mobile = Томоохон компаниудын хэрэглэдэг өгөгдөл олон нийтэд хүрэх боломжгүй байдаг. Бидний зүгээс үүнийг инновацийг тушиж байна гэж үзэж байна. Тиймээс бид олон нийтэд нээлттэй байх Common Voice төслийг эхлүүлсэн юм.
 wall-of-text-more-desktop = Та одоо нээлттэй эх бүхий дуу хоолойны датасет байгуулахад туслахын тулд өөрийн дуу хоолойг хандивлах боломжтой бөгөөд үүнийг ашиглаад хэнч янз бүрийн төхөөрөмжүүд болон вебд зориулагдсан шинэлэг аппуудыг бий болгох боломжтой юм. Машинд бодит хүмүүс хэрхэн ярьдагийг сургахын тулд түүнд өгүүлбэр уншиж өгөх хэрэгтэй. Чанарыг нь сайжруулахын тулд бусад хувь нэмэр оруулагчдын ажлыг шалгаарай. Энэ бол ийм л энгийн зүйл юм!
@@ -217,7 +220,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Play/Stop
+shortcut-play-toggle-label = Тоглуулах/Зогсоох
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -283,7 +286,7 @@ build-profile = Хэрэглэгчийн эрх бүтээх
 avatar = Хөрөг
 goals = Зорилго
 settings = Тохиргоо
-edit-profile = Профайл өөрчлөх
+edit-profile = Профиль өөрчлөх
 profile-create-success = Профайл амжилттай үүслээ!
 profile-close = Хаах
 profile-explanation = Та профайлтай байснаар ахиц, явцаа харж бидний дууны өгөгдлийн нарийвчлалыг нэмэгдүүлнэ.
@@ -323,7 +326,7 @@ faq-what-cv-a =
     Дуу хоолой таних технологи нь машинтай харилцах арга замыг бүрэн хувьсгаж өөрчилж байна. Гэвч одоо байгаа системүүд нь үнэтэй, мөн хувь хүн компаниудын өмчлөл дор байдаг. Common Voice нь Mozilla-ийн санаачлагын нэг хэсэг бөгөөд дуу хоолой таних технологиудыг илүү сайн, хүн бүрт илүү хүртээмжтэй болгох санаачлага юм. Common Voice нь дэлхий даяархи хүмүүсийн хандивласан датасет бөгөөд дуу хоолойтой аппликейшнуудыг бүх хэл дээр хурдан, хялбараар сургах боломжийг олгодог.
     
     Бид зөвхөн өргөн хэмжээнд ашиглагддаг хэлээр ярих дуу хоолойг цуглуулдаг төдийгүй мөн бага хэмжээний хүн амыг хамарч хэрэглэгддэг хэлүүдийг ч гэсэн багтаан цуглуулж байна. Дуу хоолойн янз бүрийн мэдээллийн санг түгээх нь хөгжүүлэгчид, бизнес эрхлэгчид, олон нийтийн дундахэнэ ялгаатай байдлыг арилгахад тус дөхөм болно. Common Voice мэдээллийн сангаас гадна Deep Speech нэртэй нээлттэй эхийн ярианы таних системийг бий болгож байна.
-faq-why-important-q = Яагаад энэ чухал вэ?
+faq-why-important-q = Энэ яагаад чухал вэ?
 faq-why-important-a =
     Яриа нь бие биентэйгээ харилцах хамгийн энгийн арга бөгөөд дуу ярианы технологи нь компьютер болон хөдөлгөөнт төхөөрөмжүүдтэй харилцахад хялбар байдлыг бий болгодог. Шууд орчуулагч, дуут ажиллагаатай дижитал туслах гэх мэт гайхалтай дуу хоолой таних технологитой програмуудыг хөгжүүлэх боломжийг хөгжүүлэгчдэд олгохыг бид хүсч байна. Гэвч одоогоор эдгээр төрлийн аппликейшнийг бий болгоход шаардагдах дуут мэдээллийн ихэнх нь үнэтэй, хувийн хүмүүс компаниудын өмчлөлд байдаг. Common Voice датасет нь шинийг санаачлах, хэл ярианы технологийг өөрийн хэл дээр ашиглах боломжийг хөгжүүлэгч нарт олгох болно гэдэгт найдаж байна.
     
@@ -525,7 +528,7 @@ contribute = Хувь нэмэр оруулах
 listen = Сонсох
 skip = Алгасах
 shortcuts = Товчилбор
-clips-with-count = <bold>{ $count }</bold> дуу бичлэг
+clips-with-count = <bold>{ $count }</bold> клип
 goal-help-recording = Та өнөөдөр бичихээр зорьсон  »{ $goalValue }« -н <goalPercentage></goalPercentage> хувийг гүйцээхэд Common Voice-д тусаллаа!
 goal-help-validation = Та өнөөдөр бататгахаар зорьсон  »{ $goalValue }« -н <goalPercentage></goalPercentage> хувийг гүйцээхэд Common Voice-д тусаллаа!
 contribute-more =
@@ -543,7 +546,7 @@ record-error-too-short = Бичлэг хэтэрхий богино байна.
 record-error-too-long = Бичлэг хэтэрхий урт байна.
 record-error-too-quiet = Бичлэг хэтэрхий сул байна.
 record-cancel = Дахин бичихээ болих
-record-instruction = { $actionType }<recordIcon></recordIcon> дараад өгүүлбэрийг дуудаж уншина уу
+record-instruction = { $actionType }<recordIcon></recordIcon> хийгээд өгүүлбэрийг дуудаж уншина уу
 record-stop-instruction = Дуусгах бол { $actionType }<stopIcon></stopIcon> дээр дарна уу
 record-three-more-instruction = Дахиад гурвыг!
 record-again-instruction = Гайхалтай! Дараагийн бичлэгээ хийхийн тулд <recordIcon></recordIcon> дээр дарна уу
@@ -551,14 +554,14 @@ record-again-instruction2 = Хадгалаад, дахиад бичих бол <
 record-last-instruction = <recordIcon></recordIcon> сүүлчийнх!
 review-tooltip = Энд та бичлэг шалгаж, шинээр бичих боломжтой
 unable-speak = Ярих боломжгүй байна уу?
-review-instruction = Шалгаад, шаардлагатай бол дахин бичих
+review-instruction = Шаардлагатай бол шалгаад, дахин бичих
 record-submit-tooltip = Та бэлэн бол { $actionType } илгээнэ үү
 clips-uploaded = Дуу бичлэг илгээгдлээ
 record-abort-title = Эхлээд бичлэгийг дуусгах уу?
 record-abort-text = Хэрэв одоо боливол бүх явц устана
-record-abort-submit = Дуу бичлэг дамжуулах
+record-abort-submit = Клип илгээх
 record-abort-continue = Бичлэг дуусгах
-record-abort-delete = Бичлэгүүдийг устгаад, гарах
+record-abort-delete = Клипүүдийг устгаад, гарах
 listen-instruction = <playIcon></playIcon>{ $actionType } - Өгүүлбэрийг тодорхой уншсан байна уу?
 listen-again-instruction = Сайн байна! <playIcon></playIcon> болж байвал та үргэлжлүүлнэ үү
 listen-3rd-time-instruction = Хоёрыг хийв, Урагшаа!<playIcon></playIcon>
