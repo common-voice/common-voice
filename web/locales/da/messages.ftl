@@ -95,6 +95,7 @@ sr = Serbisk
 sv-SE = Svensk
 ta = Tamil
 te = Telugu
+tg = Tadsjikisk
 th = Thai
 tr = Tyrkisk
 tt = Tatarisk
