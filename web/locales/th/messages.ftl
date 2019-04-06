@@ -55,6 +55,7 @@ fy-NL = ฟรีเซียน
 ga-IE = ไอริช
 gl = กาลิเชีย
 he = ฮิบรู
+hi-IN = ฮินดี
 hr = โครเอเชีย
 hsb = ซอร์เบียตอนบน
 hu = ฮังการี
@@ -71,6 +72,7 @@ ko = เกาหลี
 kpv = โคมิซิเรียน
 kw = คอร์นิช
 ky = คีร์กีซ
+lij = ลีคูเลียน
 lt = ลิทัวเนีย
 lv = ลัตเวีย
 mdf = มอคชา
@@ -100,6 +102,7 @@ sr = เซอร์เบีย
 sv-SE = สวีเดน
 ta = ทมิฬ
 te = เตลูกู
+tg = ทาจิก
 th = ไทย
 tr = ตุรกี
 tt = ตาตาร์
@@ -355,6 +358,8 @@ faq-is-account-public-q = ข้อมูลบัญชีของฉันเ
 
 glossary = อภิธานศัพท์
 localization = การแปล
+sentence-collection = การรวบรวมประโยค
+sentence-collection-explanation = รวบรวมประโยคจากโดเมนสาธารณะ หรือเขียนประโยคใหม่สำหรับโดเมนสาธารณะ
 sst = การแปลงเสียงพูดเป็นข้อความ (STT)
 sst-explanation = เทคโนโลยีการแปลงเสียงพูดเป็นข้อความ (STT) แปลงข้อมูลเสียงเป็นข้อความ
 
@@ -406,14 +411,23 @@ whats-inside = ภายในชุดข้อมูล Common Voice มีอ
 subscribe = บอกรับ
 other-datasets = ชุดข้อมูลเสียงอื่น ๆ
 feedback-q = มีข้อคิดเห็นหรือไม่?
+data-other-librispeech-description = LibriSpeech เป็นคลังข้อมูลเสียงพูดภาษาอังกฤษในรูปแบบ 16Khz ซึ่งมีความยาวประมาณ 1000 ชั่วโมงซึ่งได้จากการอ่านหนังสือเสียงจากโครงการ LibriVox
+data-other-ted-name = คลังข้อมูล TED-LIUM
 data-other-voxforge-description = VoxForge ได้รับการจัดตั้งขึ้นเพื่อรวบรวมคำพูดที่มีการถอดเสียงเพื่อใช้กับเครื่องมือ Speech Recognitio ฟรีและเปิดต้นฉบับ
+data-other-tatoeba-description = Tatoeba เป็นฐานข้อมูลขนาดใหญ่ที่มีประโยค, คำแปล, และเสียงพูดสำหรับใช้ในการเรียนรู้ภาษา การดาวน์โหลดนี้จะประกอบด้วยเสียงพูดภาษาอังกฤษที่อัดโดยชุมชนของพวกเขา
+ready-to-validate = พร้อมที่จะช่วยตรวจสอบประโยคหรือยัง?
+more = เพิ่มเติม
+close = ปิด
+download = ดาวน์โหลด
 
 ## Download Modal
 
 download-title = การดาวน์โหลดของคุณได้เริ่มขึ้นแล้ว
+download-helpus = ช่วยเราสร้างชุมชนเกี่ยวกับเทคโนโลยีเสียง รับข่าวสารได้ผ่านทางอีเมล
 download-form-email =
     .label = ป้อนอีเมลของคุณ
-    .value = ป้อนอีเมลของคุณ
+    .value = ขอบคุณ เราจะส่งข่าวสารให้คุณ
+download-back = กลับไปยังชุดข้อมูล Common Voice
 download-no = ไม่ ขอบคุณ
 
 ## Contact Modal
@@ -430,6 +444,10 @@ contact-required = *จำเป็น
 request-language-title = ขอเพิ่มภาษา
 request-language-form-language =
     .label = ภาษา
+request-language-success-title = ส่งคำขอภาษาเรียบร้อยแล้ว ขอบคุณ
+request-language-success-content = เราจะติดต่อข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเพิ่มภาษาของคุณไปยัง Common Voice เร็ว ๆ นี้
+select-language = เลือกภาษา...
+other-language = ภาษาอื่น ๆ
 
 ## Languages Overview
 
@@ -445,6 +463,7 @@ language-search-input =
 language-speakers = ผู้พูด
 localized = ภาษาท้องถิ่น
 sentences = ประโยค
+total-hours = จำนวนชั่วโมงที่ตรวจสอบ
 
 ## New Contribution
 
@@ -454,25 +473,74 @@ contribute = สนับสนุน
 listen = ฟัง
 skip = ข้าม
 shortcuts = ทางลัด
+clips-with-count = <bold>{ $count }</bold> คลิป
+goal-help-validation = คุณได้ช่วยให้ Common Voice บรรลุ <goalPercentage></goalPercentage> ของเป้าหมายการตรวจสอบ { $goalValue } รายวันของเรา!
+contribute-more =
+    { $count ->
+       *[other] พร้อมที่จะทำเพิ่มเติม { $count } หรือยัง?
+    }
+record-cta = เริ่มอัดเสียง
+record-platform-not-supported = เราขออภัย ไม่รองรับแพลตฟอร์มของคุณในขณะนี้
+record-platform-not-supported-desktop = บนคอมพิวเตอร์เดสก์ท็อป คุณสามารถดาวน์โหลดโปรแกรมรุ่นล่าสุดดังต่อไปนี้:
+record-platform-not-supported-ios = ผู้ใช้ <bold>iOS</bold> สามารถดาวน์โหลดแอปฟรีของเรา:
 record-must-allow-microphone = คุณต้องอนุญาตให้ใช้ไมโครโฟนได้
 record-no-mic-found = ไม่พบไมโครโฟน
-record-error-too-short = การอัดเสียงสั้นเกินไป
-record-error-too-long = การอัดเสียงยาวเกินไป
+record-error-too-short = เสียงที่อัดสั้นเกินไป
+record-error-too-long = เสียงที่อัดยาวเกินไป
 record-error-too-quiet = การอัดเสียงนั้นเบาเกินไป
+record-cancel = ยกเลิกการอัดเสียงใหม่
+record-instruction = { $actionType }<recordIcon></recordIcon> แล้วอ่านประโยคดังต่อไปนี้ดัง ๆ
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> เมื่อเสร็จแล้ว
+record-three-more-instruction = เหลืออีก 3!
+record-again-instruction = ยอดเยี่ยม!<recordIcon></recordIcon> อัดคลิปถัดไปของคุณ
+record-again-instruction2 = ทำต่อไป อัดเสียงอีกครั้ง <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> อันสุดท้ายแล้ว!
+review-tooltip = ตรวจทานและอัดคลิปเสียงใหม่ที่นี่ตามที่คุณต้องการ
 unable-speak = คุณไม่สามารถพูดได้ในขณะนี้?
+review-instruction = ตรวจทานและอัดคลิปเสียงใหม่หากจำเป็น
+record-submit-tooltip = { $actionType } ส่งเมื่อพร้อม
 clips-uploaded = อัปโหลดคลิปแล้ว
 record-abort-title = บันทึกให้เสร็จสิ้นก่อนหรือไม่?
+record-abort-text = หากคุณออกตอนนี้ คุณจะสูญเสียความคืบหน้าของคุณ
 record-abort-submit = ส่งคลิป
 record-abort-continue = เสร็จสิ้นการอัดเสียง
 record-abort-delete = ออกและลบคลิป
+listen-instruction = { $actionType }<playIcon></playIcon> พวกเขาพูดประโยคถูกต้องหรือไม่?
+listen-again-instruction = ทำได้ดีมาก!<playIcon></playIcon> ฟังอีกครั้งเมื่อคุณพร้อม
+listen-3rd-time-instruction = เหลืออีก 2 ทำต่อไป!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>อันสุดท้ายแล้ว!
+nothing-to-validate = เราไม่มีอะไรเหลือที่จะตรวจสอบในภาษานี้แล้ว ช่วยเราเติมคิว
 record-button-label = อัดเสียงของคุณ
+share-title-new = <bold>ช่วยเรา</bold>หาเสียงเพิ่มเติม
 
 ## Goals
 
+days =
+    { $count ->
+       *[other] วัน
+    }
+recordings =
+    { $count ->
+       *[other] เสียงที่อัด
+    }
+validations =
+    { $count ->
+       *[other] ครั้งที่ตรวจสอบ
+    }
 
 ## Dashboard
 
+your-languages = ภาษาของคุณ
+stats = สถิติ
+you = คุณ
+everyone = ทุกคน
+contribution-activity = กิจกรรมการมีส่วนร่วม
+recorded-clips = คลิปที่อัด
+total-approved = ได้รับการอนุมัติทั้งหมด
+overall-accuracy = ความแม่นยำทั้งหมด
 
 ## Profile Delete
 
+keep = เก็บ
+remove = เอาออก
 profile-form-delete = ลบโปรไฟล์
