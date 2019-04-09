@@ -489,6 +489,7 @@ other-language = Altere linguas
 
 language-section-in-progress = In corso
 language-section-launched = Lanceate
+language-section-launched-description = Le sito web ha essite <localizationGlossaryLink>localisate</localizationGlossaryLink> con successo pro iste linguas lanceate, e il ha satis <sentenceCollectionGlossaryLink>phrases colligite</sentenceCollectionGlossaryLink> pro consentir de contribuer con continuitate tamben per <speakLink>Parlar</speakLink> que per <listenLink>Ascoltar</listenLink>.
 languages-show-more = Vider plus
 languages-show-less = Vider minus
 language-speakers = Locutores
