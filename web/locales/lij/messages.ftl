@@ -343,18 +343,25 @@ faq-why-different-speakers-q = Perché éi bezéugno de coscì tànte vôxe pe �
 faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
 faq-what-quality-q = Quæ livéllo de òudio a l'é domandòu da unn-a registraçión vocâle pe êse utilizâ into dataset?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçión o l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
+faq-why-10k-hours-a = O l'é aproscimativaménte o nùmero d'ôe necesâie pe svilupâ 'n motô de riconosciménto vocâle.
 faq-how-calc-hours-q = Cómme càlcola o nùmero d'ôe Common Voice?
 faq-how-calc-hours-a = Calcolémmo e ôe estimàndo a longhéssa média de ciaschedùnn-a registraçión e moltiplicàndo quéllo nùmero pe-o nùmero totâle de registraçioìn in tùtte e léngoe.
 faq-where-src-from-2-q = Dónde o vêgne o tésto d'òrìgine?
+faq-where-src-from-2-a =
+    O tésto d'òrìgine o l'é frûto de donaçioìn da pàrte di colaboratoî e da diàloghi de pùblico domìnio træti da pelìcole cómme <italic>It's a Wonderful Life</italic>.
+    
+    Ti peu védde o tésto d'òrìgine inta sta <githubLink>cartélla de GitHub</githubLink>.
 faq-why-not-ask-read-a = Pe no limitâ e poscìbile aplicaçioìn do dataset Common Voice, émmo decîzo de adêuviâ unicaménte e frâze che són disponìbile co-a licénsa Creative Commons (CC0). O stàndar CC0 rénde ciù difìçile trovâ e arechéugge frâze adàtte, ma garantîsce a chiónque o dirìtto de adêuviâ i dæti acugéiti sénsa restriçioìn d'ûzo o bezéugno d'aotorizaçión da pàrte de Mozilla. A-a fìn di fæti, noiâtri voêmo ch'o dataset moltiléngoa o l'àgge mêno restriçioìn poscìbile, de mòddo da êse adêuviòu liberaménte da chiónque, conpréizi riçercatoî, universcitæ, startup, govèrni, òrganizaçioìn a motîvi sociâli, e diletànti.
 faq-why-account-q = Perché mi doviæ registrâ 'n cónto?
 faq-is-account-public-q = E informaçioìn in sciô mæ cónto són pùbliche?
 faq-how-privacy-q = Cómme aseghiæ l'anonimâto e o rispètto da vìtta privâ da génte che l'à regalòu e seu vôxe?
+faq-what-determine-identity-q = Cöse scignificâ che o l'é proibîo de «determinâ l'identitæ» de vôxe prezénte into dataset de Common Voice?
 
 ## Glossary
 
 glossary = Glosâio
 localization = Localizaçiòn
+localization-explanation = O l'é o nòstro procèsso pe tradûe e adatâ i contegnûi inte tànte léngoe.
 sentence-collection = Coleçión de frâze
 sentence-collection-explanation = Arechéugge frâze de pùblico domìnio, ò scrîvine de nêuve sótta licénsa de pùblico domìnio.
 hours-recorded-explanation = O contézzo de ôe de registraçiòn vocâle ch'émmo arecheugéito fìnn-a chi.
@@ -413,7 +420,7 @@ why-email = <b>Percöse domandémmo l'indirìsso de pòsta eletrònica?</b> O se
 confirm-size = T'ê prónto a inandiâ 'n descaregaménto de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Acètti</b> de no provâ a determinâ l'identitæ di parlànti prezénti into dataset de Common Voice
+confirm-no-identify = <b>Acètti</b> de no provâ a determinâ l'identitæ de vôxe prezénte into dataset de Common Voice
 download-language = Descàrega { $language }
 validated-hours = Ôe convalidæ
 recorded-hours = Ôe registræ
