@@ -566,7 +566,7 @@ listen-instruction = <playIcon></playIcon>{ $actionType } - Өгүүлбэрий
 listen-again-instruction = Сайн байна! <playIcon></playIcon> болж байвал та үргэлжлүүлнэ үү
 listen-3rd-time-instruction = Хоёрыг хийв, Урагшаа!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> сүүлчийнх!
-nothing-to-validate = Энэ хэл дээр бататгах зүйл одоогоор алга, та бидэнд дарааллыг нөхөхөд тусална уу.
+nothing-to-validate = Энэ хэлээр бататгах зүйл одоогоор алга, та дараагийн ээлжийн ажлуудыг гүйцэтгэхэд туслана уу!
 record-button-label = Хоолойгоо бичих
 share-title-new = Илүү хоолой олоход бидэнд <bold>тусална уу</bold>
 
