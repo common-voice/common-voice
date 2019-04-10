@@ -336,7 +336,7 @@ faq-why-important-a =
 faq-how-get-q = Common Voice мәгълүматын мин ничек ала алам?
 faq-how-get-a = Common Voice мәгълүмат җыелмасы <licenseLink>CC0</licenseLink> лицензиясе астында <datasetLink>безнең Мәгълүмат тупланмалары битендә</datasetLink> йөкләп алынырга мөмкин. Шул ук биттән сез  башка ирекле мәгълүмат җыелмаларын да йөкләп ала аласыз.
 faq-when-release-q = Башка телләрдәге Common Voice мәгълүматын сез кайчан нәшер итәчәксез?
-faq-when-release-a = Common Voice мәгълүмат тупланмасының күптелле версиясе әлеге вакытта иреклеләр ярдәме белән тупланып һәм чистартылып ята. Ничек ярдәм итеп була икәне турында күбрәк беләсегез килсә, зинһар безнең белән <contactLink>элемтәгә керегез.</contactLink>.  2019-ның гыйнварында нәшер итә алырбыз дип торабыз. Аннан соң мәгълүмат тупланмасын, сайтта яңа телләр һәм аудиоязмалар пәйда булган саен, периодик рәвештә яңартып торычакбыз. Әлегә мондый яңартуларның ешлыгы төгәл билгеләнмәде.
+faq-when-release-a = Common Voice мәгълүмат тупланмасының күптелле версиясе әлеге вакытта иреклеләр ярдәме белән тупланып һәм чистартылып ята. Ничек ярдәм итеп була икәне турында күбрәк беләсегез килсә, зинһар безнең белән <contactLink>элемтәгә керегез.</contactLink>.  Без аны 2019-ның гыйнварында нәшер итә алырбыз дип торабыз. Аннан соң мәгълүмат тупланмасын, сайтта яңа телләр һәм аудиоязмалар пәйда булган саен, периодик рәвештә яңартып торачакбыз. Әлегә мондый яңартуларның ешлыгы төгәл билгеләнмәде.
 faq-why-mission-q = Common Voice ни өчен Mozilla миссиясенең өлеше булып тора?
 faq-what-cv-and-deepspeech-q = Common Voice һәм Deep Speech нәрсә белән аерыла?
 faq-is-goal-assistant-q = Common Voice'ның максаты тавышлы ярдәмче булдырумы?
@@ -487,6 +487,7 @@ other-language = Башка тел
 
 language-section-in-progress = Әзерләнә
 language-section-launched = Эшли башлаганнар
+language-section-launched-description = Эшкә кушылган әлеге телләр өчен сайт уңышлы <localizationGlossaryLink>тәрҗемә ителеп</localizationGlossaryLink>, <speakLink>Сөйләү</speakLink> һәм <listenLink>Тыңлау</listenLink> өчен җитәрлек күләмдә <sentenceCollectionGlossaryLink>җөмләләр җыелды</sentenceCollectionGlossaryLink>.
 languages-show-more = Күбрәк
 languages-show-less = Әзрәк
 language-speakers = Сөйләүчеләр
