@@ -533,10 +533,10 @@ goal-help-recording = Вы помогли Common Voice достичь <goalPerce
 goal-help-validation = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по проверке в { $goalValue }!
 contribute-more =
     { $count ->
-        [one] өссө { $count } оҥорорго бэлэмҥит?
-       *[other] өссө { $count } оҥорорго бэлэмҥит?
+        [one] эбии { $count } оҥорорго бэлэмҥин дуо?
+       *[other] эбии { $count } оҥорорго бэлэмҥит дуо?
     }
-record-cta = Саҕалаа суруттарыыны
+record-cta = Суруттарыыны саҕалаа
 record-platform-not-supported = Нам жаль, в настоящее время ваша платформа не поддерживается.
 record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:
 record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
@@ -550,11 +550,11 @@ record-instruction = <recordIcon></recordIcon> { $actionType } уонна сур
 record-stop-instruction = Бүттэххинэ <stopIcon></stopIcon>{ $actionType }
 record-three-more-instruction = Үс хаалла!
 record-again-instruction = Бэртээхэй! <recordIcon></recordIcon> Аныгыскы клипкытын суруйуҥ
-record-again-instruction2 = Салҕаан иһиҥ, өссө суруттарыҥ <recordIcon></recordIcon>
+record-again-instruction2 = Салҕаан ис, өссө суруттар <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Бүтэһик!
 review-tooltip = Манна клиптары тургут & хат суруттар
-unable-speak = Билигин сатаан саҥарар кыаҕыҥ суох?
-review-instruction = Клиптары тургут & хат суруттарыаххын сөп
+unable-speak = Билигин саҥарар кыаҕыҥ суох дуо?
+review-instruction = Клиптары тургутуоххун & хат суруттарыаххын сөп
 record-submit-tooltip = Бэлэм буоллаҕына { $actionType }
 clips-uploaded = Клип киирдэ
 record-abort-title = Бастаан суруттарыыны тохтотоҕут?
@@ -566,9 +566,9 @@ listen-instruction = <playIcon></playIcon>{ $actionType } этии сөпкө ч
 listen-again-instruction = Туйгун үлэ! <playIcon></playIcon> Өссө истиҥ, бэлэм буоллаххытына
 listen-3rd-time-instruction = 2 бэлэм, салҕыы тур!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
-nothing-to-validate = У нас нет ничего для проверки на этом языке, помогите нам заполнить очередь.
-record-button-label = Куоласкын суруттар
-share-title-new = Өссө куоластары буларга <bold>биһиэхэ көмөлөс</bold>
+nothing-to-validate = Бу тылга тургутар туох да суох эбит. Хата, көмө буол, эбэн биэр.
+record-button-label = Саҥаҕын суруттар
+share-title-new = Саҥарар дьону буларга <bold>көмөлөс дуу</bold>
 
 ## Goals
 
@@ -593,23 +593,23 @@ validations =
 
 your-languages = Эн тылларыҥ
 toward-next-goal = Аныгыскы сыал
-clips-you-recorded = Эһиги суруттардыгыт
-clips-you-validated = Эһиги тургуттугут
+clips-you-recorded = Эн суруттарыыҥ
+clips-you-validated = Эн тургутууҥ
 todays-recorded-progress = Бүгүн Common Voice-ка суруттарылынна
 todays-validated-progress = Бүгүн Common Voice-ка тургутулунна
 stats = Статистика
 you = Эн
 everyone = Бары
-contribution-activity = Кыттааччылар активностара
+contribution-activity = Кыттааччылар көхтөрө
 top-contributors = Бастыҥ кыттааччылар
 recorded-clips = Клип суруллубут
 validated-clips = Клип тургутуллубут
 total-approved = Бигэргэтиллибит
-overall-accuracy = Төһө туочунайа
+overall-accuracy = Төһө чопчута
 
 ## Profile Delete
 
-delete-q = Эһиги суруттарбыт куоластаргыт эмиэ сотуллуохтарын баҕараҕыт дуу, эбэтэр кинилэри Common Voice наборыгар хаалларыаххытын баҕараҕыт дуу?
+delete-q = Бэйэҥ суруттарыыгын түөрэтин эмиэ сотторуоххун баҕараҕын дуу, эбэтэр ону Common Voice хомууругар хаалларыаххын баҕараҕын дуу?
 keep = Хааллар
 remove = Соттор
 keep-info = Эһиги суруттарбыт куоластаргыт Common Voice наборыгар анонимнайдык хаалыахтара. Эһиги профиль сотторбуккутун кэннэ куоластаргытын сотторор ыйытык ыытар кыаҕа суох буолаҕыт.
