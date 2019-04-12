@@ -187,6 +187,8 @@ x-years-short =
         [one] { $count } añu
        *[other] { $count } años
     }
+help-make-dataset = Ayúdanos a construyir un conxuntu de datos abiertu, públicu y de calidá alta
+profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
 
 ## Account Benefits
 
@@ -349,9 +351,13 @@ language = Llingua
 # File size in gigabytes
 size = Tamañu
 cv-license = Llicencia
+audio-format = Formatu d'audiu
 number-of-voices = Númberu de voces
 size-gigabyte = GB
 size-megabyte = MB
+validated-hours = Hores validaes
+recorded-hours = Hores grabaes
+want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión nueva del conxuntu de datos de Common Voice? Soscríbite al boletín.
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose de magar audios de charres y les sos trescripciones disponibles nel sitiu web TED.
