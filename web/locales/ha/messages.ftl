@@ -1,6 +1,8 @@
 ## General
 
 return-to-cv = Koma zuwa ga Gama-garin Muryuka
+email-input =
+    .label = Adreshin yanar gizo
 submit-form-action = Tura
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
