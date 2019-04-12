@@ -124,6 +124,7 @@ Al final no he podido leer el periódico.
 Al mal trabajador no le viene bien ningún azadón.
 Al menos podrías haber dejado la galleta.
 Al pan, pan y al vino, vino.
+Al pasar la saludé.
 Al perro que duerme, no lo despiertes.
 Al perro y al gato no les pongas en el mismo plato.
 Al que al cielo escupe, en la cara le cae.
@@ -152,6 +153,7 @@ Amores reñidos son los más queridos.
 Ande yo caliente y ríase la gente.
 Andrés prosiguió están muy pobres.
 Andrés y tía pepa permanecían de pie delante de nosotros.
+Angelina estaba en la ventana.
 Anoche tuve un sueño muy extraño.
 Ante casa cada día hay más contenedores.
 Antes que acabes, no te alabes.
@@ -160,6 +162,7 @@ Aplique el producto directamente sobre la frente.
 Aprender a sonreír es aprender a ser libres.
 Aprendiz de mucho, maestro de nada.
 Aquí abundan las cigüeñas.
+Aquí estamos para servirte y obedecerte.
 Aquí hay gato encerrado.
 Aquí mismo en la camioneta. Estoy seguro que está allí .
 Arranca el ventilador.
@@ -170,6 +173,7 @@ Arriesgué todo, pero no hubo suerte.
 Asistió a un acto organizado por el Rotary Club.
 Aspiro a alguien mejor.
 Así, yo sería... El depredador dominante .
+Así durante los meses invernales.
 Así me gusta, Manuel, que te hagas la cama solo.
 Así mismo. Tus juguetes .
 Así que juega bien.
@@ -350,6 +354,7 @@ De noche todos los gatos son pardos.
 De repente escuchamos un ruido enorme.
 De repente se encontró haciendo de ministro.
 De tal palo tal astilla.
+De todo esto nada se sabía en la ciudad.
 Debe haber otra forma de salir de aquí.
 Debemos estar aquí para él cuando nos necesite.
 Debemos hacer más frases.
@@ -398,6 +403,7 @@ Dios le da pan, al que no tiene dientes.
 Dios los cría y ellos se juntan.
 Discúlpenme, señoras. Ahora mismo vuelvo .
 Domingo vamos de boda y todavía no sabemos qué nos pondremos.
+Don román se detuvo a dos pasos de mí.
 Donde hay confianza, da asco.
 Donde hay vida hay esperanza.
 Donde labores no enamores.
@@ -407,6 +413,7 @@ Donde no hay cabeza, todo se vuelven patas.
 Dos cabezas piensan mejor que una.
 Dos estudiantes encendieron el petardo.
 Dos no discuten si uno no quiere.
+Dos son los principales.
 Dulce, estoy segura que está por ahí. Lo encontrarás .
 Durante el día los escorpiones se esconden bajo las piedras.
 Durante las vacaciones no desconectar del trabajo ni un día.
@@ -580,6 +587,7 @@ El verbo tiene más interés sintáctico que el nombre.
 El viaje a China lo dejaremos para pasado fiestas.
 El viaje se iba a realizar en septiembre.
 El vino para los reyes y el agua para los bueyes.
+El vive muy satisfecho.
 El volante del Lamborghini es de piel de pantera.
 El zumo de uva es popular.
 Elige el idioma por defecto.
@@ -590,6 +598,7 @@ Ella no te ama.
 Ella sabe tocar el piano, y yo el violín.
 Ellos dicen que sí y yo digo que no.
 Ellos hacen buena pareja, se van a casar en mayo.
+Elogié las habilidades de angelina.
 Elsa sale de la reunión con los vecinos del cuarto segunda.
 Empieza la función. Ya es la hora .
 En Castilla, nueve meses de invierno y tres de infierno.
@@ -616,6 +625,7 @@ En ella debían vivir mis tías.
 En enero todo el mundo se apunta al gimnasio.
 En esa casa hay un niño que piensa que eres el mejor.
 En esta playa, antes había muchas conchas.
+En esto encontró la doncella su salvación.
 En julio haremos una excursión al Possets.
 En la boca del discreto lo público es secreto.
 En la radio han dicho que mañana lloverá.
@@ -632,9 +642,11 @@ En prisión y enfermedad, se conoce la amistad.
 En realidad a los toros no les enfada el color rojo.
 En septiembre iremos a cosechar por José de Carro.
 En serio, sígueme, tengo una corazonada.
+En su localismo se advierte una originalidad digna de ser apuntada.
 En teoría, a las ocho estoy allí, pero igual se retrasa.
 En trece y martes ni te cases ni te embarques.
 En un par de días todo volverá a ser como antes.
+En villaverde dicen sus hijos no se hace política.
 En zonas costeras existe un mayor acúmulo de moléculas de agua en el aire.
 Encargo un pastel para mañana ¿o ya lo has encargado?
 Encendí la bujía y cerré la vidriera.
@@ -648,6 +660,7 @@ Entonces yo los tengo también.
 Entrevistan el pintor en la radio.
 Entro en casa, me quito la ropa y, reventado, me tiro en el sofá.
 Era el encanto de la casa.
+Era mi sitio predilecto.
 Era preciso que te presentaras bien.
 Era raquítico y sordo.
 Era un bar de ambiente y ambos teníamos ganas de comernos el mundo.
@@ -673,6 +686,7 @@ Es capaz de rascarse la oreja con el dedo del pie.
 Es de Sitges, esta chica.
 Es de bien nacidos ser agradecidos.
 Es demasiado tarde, el tiempo nos ha ganado.
+Es el dueño de la hacienda de santa clara.
 Es el rey de las excusas.
 Es el último regalo. ¡ el último regalo!
 Es el único que he tenido.
@@ -742,6 +756,7 @@ Estaba en la cima del mundo viviendo bien
 Estaba justo en mi bolsillo ¡ uau!
 Estaba tan sonado que pudo ser el protagonista de la cena de los idiotas.
 Estaba yo en la casa de los míos.
+Estaba yo en villaverde.
 Estaban contentos con los resultados del proyecto.
 Estaban presentes todos, cuando lo hizo.
 Estamos construyendo una plataforma de lanzamiento.
@@ -779,6 +794,7 @@ Esto va bien para irse espabilando.
 Estos dos pasan cada día a la misma hora.
 Estos días se ve Marte a simple vista.
 Estos fideos a la cazuela son deliciosos.
+Estos son muy celosos de sus glorias y admiradores fidelísimos de sus hombres ilustres.
 Estoy aquí. Esta vez elijo las rojas .
 Estoy bien. Muy bien .
 Estoy buscando el caracol que has perdido.
@@ -1124,6 +1140,7 @@ La verdad, intento ser aterrador , pero no lo consigo.
 La verdad como el aceite, quedan encima siempre.
 La verdad era que no había tarta.
 La verdad es que sí me apetece despejarme un poco.
+La vida como las cosas y las personas.
 La vida es bella.
 La vida está llena de nuevas experiencias cada día.
 La violencia me tranquiliza.
@@ -1252,6 +1269,7 @@ Los locutores del clásico llaman como unos energúmenos.
 Los loros viven muchos años.
 Los mensajes que me enviaba el abogado me confundían.
 Los mozos son altos y firmes.
+Los muchachos le obedecieron cuchicheando.
 Los niños optan por el juego psicomotor.
 Los partidos políticos tradicionales compiten con los populismos y los movimientos asamblearios.
 Los perros son los amigos más fieles del humano.
@@ -1321,6 +1339,7 @@ Me crucé con María en el centro comercial
 Me da mucha pena María.
 Me das lástima. Adiós .
 Me dejó húmedo el rostro.
+Me detuve en el puente.
 Me dispuse a salir cuando sentí que me tocaban el hombro.
 Me duele la cabeza
 Me duele la espalda si estoy mucho tiempo sentado.
@@ -1479,6 +1498,8 @@ Ni siquiera puedo salir volando por una ventana.
 Ni tengo padre, ni madre, ni perro que me ladre.
 Ni tristezas domésticas ni el recuerdo de venturas desvanecidas nos quitan el sueño.
 Ni un dedo hace mano, ni una golondrina verano.
+Ni un día ha pasado sin que pregunten por tí.
+Ni uno solo de estos bribones sacará buey de barranco.
 Nieves, ¡salta!
 Ninguna lectura si el aire es respirable.
 Niño, ve a correr un rato, a ver si te relajas.
@@ -1489,6 +1510,7 @@ No, fue un accidente , chicos. Vamos .
 No, no , esperad. Puedo explicarlo todo .
 No actives el altavoz, deja el móvil en modo vibración.
 No chatees con tu primo, ¡que ya nos conocemos!
+No como estos asnillos que para nada sirven.
 No conozco ninguna editorial que le quiera publicar los poemas.
 No creo que este hombre alguna vez haya ido a la escuela médica.
 No da quien tiene, sino quien quiere.
@@ -1707,6 +1729,7 @@ Pedro era un bailarín profesional.
 Pedro ha montado la tarima verde.
 Pedro no tiene un Porsche sino un Audi.
 Pedro viajaba a Suecia día sí, día también.
+Pedírselo a san antonio.
 Pendiente una conversación, quizá algo más por hablar.
 Pensará que nunca habían visto un juguete nuevo antes.
 Pensé que estaba en el campamento de verano.
@@ -1723,6 +1746,7 @@ Pero no estamos en mi planeta.
 Pero no no puede ser cierto
 Pero sabes que siempre tendrá un lugar especial para ti.
 Pero sabes que él siempre tendrá un lugar de especial para ti.
+Pero tal era de bondadoso el señor don román.
 Pero... ¿Qué te parece la idea? Sé totalmente sincero.
 Perro ladrador poco mordedor.
 Perro ladrador, poco mordedor.
@@ -1871,6 +1895,7 @@ Roger siempre llega tarde.
 Rompe los cristales y me golpea en el pecho.
 Romperemos algunas reglas, pero si sale bien...
 Rosalía ha sido la artista revelación.
+Ruido de la chiquillería que se ponía en pie.
 Ríos era un cómico fenomenal, ¡el mejor actor de la comarca!
 Sabe mas el diablo por viejo, que por diablo.
 Sacarse el carné de conducir es una ruina.
@@ -1924,6 +1949,7 @@ Senterada está en Valle de Fosca.
 Septiembre o seca las fuentes o se lleva los puentes.
 Ser vegano o vegetariano son cosas distintas.
 Seremos cinco a comer, tres adultos y dos niños.
+Señora juana a ver qué le hace usted a rodolfo.
 Señores y señoras, bienvenidos a está nueva aventura.
 Si compras las entradas anticipadas ahorras seis euros.
 Si creyese que puedo volar
@@ -1963,6 +1989,7 @@ Siempre pagan justos por pecadores.
 Siempre quiere tener razón.
 Siempre tiene tiempo para todo.
 Siento que alguien me está mirando ahora mismo.
+Sin duda había salido a verme.
 Sin solidaridad no somos nada.
 Sin ti no lo habríamos conseguido.
 Sino porque eres un juguete.
@@ -2049,6 +2076,7 @@ Tengo demasiada hambre para ir a montar en bici ahora.
 Tengo devoción por las ciruelas.
 Tengo el estómago revuelto.
 Tengo mucha hambre.
+Tengo muchas ganas de platicar contigo.
 Tengo más sueño que hambre.
 Tengo novia.
 Tengo que estudiar.
@@ -2120,6 +2148,7 @@ Un abismo llama a otro y un pecado a otro pecado.
 Un buen cartel incluiría los Gansos Grasas.
 Un buen soldado jamás abandona a sus hombres.
 Un candidato demasiado joven no nos conviene.
+Un chico abrió la puerta.
 Un concurso literario es, siempre, una esperanza.
 Un dedo no hace mano, pero sí con sus hermanos.
 Un dibujo autografiado por Dalí puede valer muchos euros.
@@ -2149,6 +2178,7 @@ Una figura emergente nos eclipsará enseguida.
 Una imagen vale más que mil palabras.
 Una manzana cada día, el médico te ahorraría.
 Una mariposa nocturna pasó rozándome la frente.
+Una me veía de arriba abajo con aires de satisfacción maternal.
 Una palabra deja caer una casa.
 Una pantalla de marca buena nunca falla.
 Una retirada a tiempo es una victoria.
@@ -2194,6 +2224,7 @@ Verás, no ha sido nada.
 Verás que es nuestro destino.
 Viene el nirvana. El portal místico aguarda .
 Vigila, ¡que te rompes la cabeza!
+Villaverde es una ciudad en petrificación.
 Vilma, Vilma... hay que encontrar corriente .
 Vilma, la mano te estoy diciendo. ¡ eres muy pesado!
 Vilma, lo limpiamos esto a fondo , me ayudaron todos.
@@ -2220,6 +2251,7 @@ Y cuando lleguemos allí, encontraremos un modo de llevarte a tu hogar.
 Y es el único que tengo.
 Y estoy haciendo lo mejor que puedo
 Y estás a millas y millas de tu bonita y tibia cama.
+Y gasta y consume hoy lo mismo que gastaba y consumía hace veinte lustros.
 Y hago lo que puedo para superarlo.
 Y me hubieras quitado todo lo que era importante para mí
 Y nadie me lo va a arrebatar.
@@ -2241,8 +2273,10 @@ Ya lo digo yo; de personas como tú, no quedan.
 Ya pasado lo de atrás, lo de menos es lo demás.
 Ya sabe cómo. ¡ sí, señor!
 Ya sabes como doña carmelita está un poco mala.
+Ya sé que has salido muy aprovechado.
 Ya tengo compañero de mudanza.
 Ya veo que te resistes.
+Ya verás ¡Tiene una hija como una plata! aquí no le faltan pretendientes.
 Ya voy, ya voy.
 Yo diría que pedo.
 Yo les dije que no lo hicieran pero fué preciso.
@@ -6003,6 +6037,7 @@ yo ya no puedo estar contigo.
 ¡ yo pagaré! ¡ yo pagaré !
 ¡ Él tortura juguetes, sólo por diversión!
 ¡A la cama! un soplo.
+¡Andrés trajo ya el baúl!
 ¡Andrés! ¿Tú? ¡Qué grande está usted! no me hables así.
 ¡Antonio, ven, corre!
 ¡Apaga la televisión!
@@ -6039,6 +6074,8 @@ yo ya no puedo estar contigo.
 ¡Me parece genial que la hayas conocido!
 ¡Mira! un niño.
 ¡Mujer, de de alta a todos los usuarios!
+¡Muy buena persona! ya irás con pepa.
+¡Muy buena! ¡Muy buena! ¡Cómo un pan de gloria! y te quiere mucho.
 ¡Muy formal! no sabía yo por dónde dirigirme.
 ¡No cantes tan mal, Selma!
 ¡No era un buen complot para involucrar a Gloria!
@@ -6067,6 +6104,7 @@ yo ya no puedo estar contigo.
 ¡Qué palo de anuncios que pasan en el cine!
 ¡Qué pereza!
 ¡Qué pérdida de interés tan grande, Manolo!
+¡Qué tiene eso! dice que si ya tienes novio.
 ¡Qué viajes que hace el rubio!
 ¡Recoge todo lo que has esparcido, Ernesto!
 ¡Se come tan mal por esos caminos!
@@ -6074,6 +6112,7 @@ yo ya no puedo estar contigo.
 ¡Si tu mamá pudiera verte!
 ¡Son interesantes estas pinturas!
 ¡Ten en consideración su buena voluntad!
+¡Tú dirás! por unos cacharros cualesquiera.
 ¡Un queso tan agujereado es una estafa!
 ¡Un reto como éste no está al alcance de Isabel!
 ¡Vamos! que si se puede.
@@ -6479,6 +6518,7 @@ yo ya no puedo estar contigo.
 ¿Me lo contarás?
 ¿Me podrías decir las respuestas del test?
 ¿No dejas nada? no mañana temprano vendrás por el baúl.
+¿No deseabas conocerlo? pues aquí lo tienes.
 ¿Os gusta el pescado azul?
 ¿Os gusta la miel de azahar?
 ¿Playa o montaña?
@@ -6516,6 +6556,7 @@ yo ya no puedo estar contigo.
 ¿Qué tienen de menú hoy?
 ¿Qué títulos acredita el candidato?
 ¿Qué zonas son más caras?
+¿Qué? ¿Qué dices? que ya tendrá novio.
 ¿Ríes o sólo lo haces ver, Alberto?
 ¿Sabes algún remedio casero para las picaduras de medusa?
 ¿Sabéis donde puedo comprar un clarinete de segunda mano?
