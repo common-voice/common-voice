@@ -25,9 +25,11 @@ Attente al lacuna.
 Attention, melancholia avante!
 Bastones, petras rumpera mi ossos, ma illo que non me occide me rende forte.
 Batte le ferro durante que illo es calde.
+Ben que toto deberea ser sub le controlo, il ha multe violentia in carceres.
 Benvenite a mi casa.
 Benvenite in nostre laboratorio de recerca.
 Benvenite!
+Biber trop aqua in un breve periodo de tempore pote ser letal.
 Bon anno nove
 Bon appetito!
 Bon die
@@ -44,8 +46,10 @@ Chacos es un simulation de guerra.
 Charles Darwin deveniva famose pro su theoria del evolution.
 Chocolate con un farce de caramello.
 Clara tu cache de navigator e prova de novo.
+Classification es i. a. un disciplina del apprendimento automatic.
 Communismo es le opposito de capitalismo.
 Como pote io clauder iste fenestra?
+Como poterea isto evenir?
 Como produce tu isto?
 Como sape io si io ha un attacco de corde?
 Como sona mi voce?
@@ -60,9 +64,11 @@ Depende ab te.
 Diamantes es producite sub pression.
 Diesel es le solo plus incostose, per le taxas inferior.
 Disactivar dispositivos que non es in uso pote sparniar multe energia.
+Duo feminas era ancora disperse quando le pumperos arrivava.
 Durante que ille era in hospital, le infirmera prendeva un radiographia de su brachio.
 Ecce methodos conventional.
 Education es multo importante.
+Emoticones es jam familiar a totes.
 Es illo economic?
 Es infantes plus creative que adultos?
 Es le infantes plus creative que le adultos?
@@ -91,6 +97,7 @@ Il era un pellicula refacite, jam bastante mal.
 Il era un profunde, obscur e desolate position.
 Il es le puncta del iceberg.
 Il es nihil
+Il es prohibite de fumar.
 Il es recommendate de biber al minus duo litros de aqua pro die.
 Il es ridiculo, nos simplemente filma un publicitate.
 Il es sempre bon si on pote apprender alco nove, nonne?
@@ -109,7 +116,9 @@ Il ha nulle tempore como lo presente.
 Il ha quatro differente sortas de combustibile in iste station de gasolina.
 Il ha un contator sur le summitate sinistre del pagina web.
 Il ha un dentista e qualque altere doctores intra iste clinica.
+Il ha un installation social sur le altere latere del itinere.
 Il habeva octo personas in un linea.
+Il habeva un tabula ronde in medio al camera
 Il me rendeva vertiginose.
 Il non debeva esser.
 Il non ha mesmo le possibilitate de facer lo.
@@ -120,23 +129,32 @@ Illa era accusate de facer calumnias.
 Illa era accusate de facer false accusationes.
 Illa era belle ab detra, ma ille non pote vider ancora su facie.
 Illa es un athleta.
+Illa ha comprate cucumbros al mercato.
 Illa ha essite accusate de facer false accusationes.
 Illa ha essite un grande fan del musica country
 Illa ha mi summe respecto.
 Illa habeva un mal tusse.
 Illa monstra su credentiales ambiental per bicyclar al compras sur su bicyclo.
+Illa non pote montar sur le barriera.
 Illa non poteva decider qual habito vestir.
+Illa non poteva decider si prender un ducha o un banio.
+Illa non succedeva de trovar un corbe de immunditia.
+Illa passava su examine de guida a su primo tentativa.
 Illa sedeva al altere latere del camera.
 Illa simulava offensa in cata opportunitate.
 Illa succedeva de creder a sex cosas impossibile ante le jentaculo
 Illa trovava ambular in le boscos un maniera multo bon de relaxar se
 Illa tussiva pesantemente e pois suspirava.
 Illa veniva al pharmacia pro procurar se su pilulas.
+Ille apprendeva a natar a schola.
 Ille comprava carta de aluminium pro crear un cappello.
 Ille es ric qui es satisfacite.
 Ille ha essite imprisionate pro nulle ration.
 Ille ha offerite al pueros qualque gelato.
+Ille ha perdite multe moneta per joco de hasardo in le casino.
 Ille non poteva cessar de rider.
+Ille non poteva trovar le parolas pro su sentimentos.
+Ille nutava e diceva nihil.
 Ille poterea vider lacrimas in su oculos.
 Ille poteva vider le lacrimas in su oculos.
 Ille prendeva su dose quotidian de vitaminas.
@@ -145,10 +163,15 @@ Ille requireva al personas de stabilir se.
 Ille robava ab le immunditia.
 Ille se ha approximate sin facer ruito.
 Ille se sentiva non secur como durante su prime lection al schola de guidar.
+Ille veniva a gymnastica pro reinfortiar su musculos.
+Ille veniva al distributor automatic e comprava un caffe.
+Ille viagiava sur un nave appellate The Beagle.
 Illes duplava le altitude.
 Illes forsan succedeva post cinque tentativas fallite
 Illes locava un barca e adveniva a basso per le fluvio.
 Illes locava un barca e veniva a basso per le fluvio.
+Illes se basiava in le patio posterior.
+Illo contine courgette.
 Illo contine cucurbitas.
 Illo es un video ephemere.
 Illo que ille ha facite era decisemente illegal.
@@ -169,8 +192,10 @@ Io es polonese.
 Io expendeva troppo sur mi carta de credito.
 Io ha ascendentia celtic.
 Io ha demandate le collection publicate.
+Io ha essite al Africa.
 Io ha essite blocate in le traffico tote le die!
 Io ha jammais viagiava per traino, como es illo?
+Io ha le plus belle voce que tu ha mais ascoltate.
 Io ha previemente legite le libro.
 Io habeva vidite ab mi fenestra un bufon.
 Io inrola le bobina de filos.
@@ -181,6 +206,7 @@ Io lassava le auto in le garage.
 Io le lassava infra.
 Io me reguardava in le speculo.
 Io non comprende
+Io non ha appetito, io es famelic.
 Io non habeva ben comprendite su intentiones.
 Io non pote natar.
 Io non pote vider clarmente.
@@ -189,6 +215,7 @@ Io pensa que le solution es obvie.
 Io practica medicina clinic.
 Io preca pro que tu tosto stara ben.
 Io sera al triathlon.
+Io spectava le concerto vive.
 Io suffre de arthritis.
 Io suffre de syndrome de tunnel carpal.
 Io te ama
@@ -196,8 +223,11 @@ Io te ama troppo.
 Io veni de Brasil
 Io videva le advertimento sur le maniera de laborar.
 Iste area de parco es solo pro le clientes.
+Iste bira ha essite preparate in Germania, plus specificamente in Bavaria.
 Iste cavallo ha plus que un cavallo-vapor de potentia.
 Iste comportamento de retes neural es aliquando appellate sonio.
+Iste ferma habeva stabulo, pullos, oves e multe altere animales.
+Iste parte del citate ha essite medietate residential, medietate industrial.
 Iste pictura es pur arte.
 Iste projecto sera troppo costose.
 Iste senior pagara toto
@@ -209,11 +239,15 @@ Java non es identic a JavaScript.
 Jenny veniva in Italia le anno passate.
 Lassa me in pace!
 Le Arctico es frigide.
+Le Union europee ha sovente essite criticate pro su regulationes.
 Le aciero es facilemente recyclabile.
 Le aciero es largemente recyclate.
+Le advocato ha defendite con successo su cliente.
+Le agente entrava secretemente in le ambassada ab le tecto.
 Le amor del moneta es le radice de tote le mal.
 Le anno-luce es un unitate de distantia, non de tempore.
 Le apertura del codification fonte pote ser un mesura pro crear fiducia in software.
+Le appello telephonic era interrumpite pro rationes incognite.
 Le arbores de limon non es jalne, illo es simplemente le fructo.
 Le astronomia pote ser complicate, ma il non es scientia del missiles.
 Le auto comocunque non era damnificate.
@@ -228,6 +262,7 @@ Le calor excessive ha evaporate quasi tote le aqua.
 Le casa es ubi es le corde.
 Le casa ha essite construite de beton.
 Le casa ha essite dividite in sectiones.
+Le cassero non habeva bastante cambio.
 Le cerebro human es ancora non plenmente comprendite.
 Le cerebro human non es ancora plenmente comprendite.
 Le chirurgia plastic ha devenite plus popular.
@@ -236,15 +271,22 @@ Le contos ha discrepantias.
 Le contracto de location va expirar.
 Le corte federal.
 Le creativitate non es alco exclusive del homines.
+Le cura del sanitate in Italia es fornite per le Servizio Sanitario Nazionale.
 Le dica hydroelectric genera incostose electricitate pro le communitate.
 Le duodeno es parte del intestino tenue.
 Le ecclesia es justo presso al station de gas.
 Le elementos pote variar de precio.
 Le equipa de emergentia veniva rapidemente.
+Le equipa de salvamento de montania ha facite su labor.
 Le evolution del scientia del computator ha transformate le mundo.
 Le file habeva un dimension de plure gigabytes.
+Le firewalles pote ser usate pro proteger un rete contra intrusos.
 Le gala ha essite amusante.
+Le governamento decideva reinfortiar le controlo del frontieras a causa del refugiatos.
+Le guardas del corpore stava sur un turre, a reguardar le aqua.
+Le historia insenia nos que le humanitate non apprende per su historia.
 Le honestate es le melior politica.
+Le horologio in le centro del citate ha essite damnificate per un fulgure.
 Le intolerantia al lactosa es causate per un carentia de enzyma lactase.
 Le inveloppe habeva jam essite aperite.
 Le labor scientific es dur.
@@ -254,13 +296,17 @@ Le locution "solo mi duo centesimos" es re le opinion, non re le moneta.
 Le luna es responsabile del mareas sur le terra.
 Le luna es responsabile pro mareas sur le terra.
 Le major parte del autos ha le area conditionate, iste dies.
+Le major parte del human corpore consiste de aqua
 Le margarina es un alternativa al butyro.
+Le mayonnaise es un condimento ideal pro le patatas frites.
 Le melior tiro de datos es non jocar.
 Le mesme cosa es ver pro le animales.
 Le motor arrivava sur un pallet.
 Le motorcyclo faceva un alte rumor.
+Le mundo hodierne es plen de publicitates.
 Le oculos dilatate.
 Le pacchetto ha essite signalate como obsolete.
+Le paneteria era proxime al macello.
 Le pasta italian es deliciose.
 Le patata es plen de carbohydratos.
 Le pavor es sovente le causa del violentia.
@@ -268,6 +314,7 @@ Le pictura mural mantene le muros in bon condition.
 Le pista de atterrage pare un via troppo breve pro iste typo de aeroplano.
 Le pneumatico de mi bicyclo habeva un punctura e io lo ha debite cambiar
 Le polemicas re le brevetos
+Le policiero investiga in iste caso.
 Le porta clause.
 Le processo Haber es un processo industrial pro producer ammoniaco
 Le projecto es complete.
@@ -275,17 +322,23 @@ Le pueros ama le yogurt.
 Le pueros amava ascoltar su historias.
 Le pueros ha promittite de non robar alco.
 Le pueros jocava con lor granparentes.
+Le regula del catena es applicate duo vices a iste formula.
 Le restaurant ha essite bastante costose.
 Le retes neural artificial pote facer alco multo simile.
+Le retes peer-to-peer es plus robuste que architecturas client-server.
 Le riso es le melior medicina.
 Le saccos de plastica ha cessate de ser un problema pro le ambiente.
+Le scala sur le camion de pumperos non esseva longe bastante.
 Le scripts integrate ex fontes externe pote violar le confidentialitate del usatores.
 Le servitores del projecto Common voice non pote gerer le pesante carga.
+Le simulation de necamento es un terribile forma de tortura.
 Le sitos web debe respectar le confidentialitate de su usatores.
 Le sorbet es dulce.
 Le station ferroviari ha essite blocate per le policia.
 Le stilos es facite de plumbo.
 Le strata esseva assi scarpate que le motocyclista habeva a abassar alcun velocitate.
+Le surveliantia non sempre apporta securitate.
+Le telephono non functiona sin electricitate.
 Le telesede les portava al montania.
 Le television pote render te imbecille, ma illo pote alsi ser bon education.
 Le torta es un mentita.
@@ -294,14 +347,17 @@ Le version beta sera publicate tosto.
 Le vita es complicate.
 Le volo al Australia ha essite longe.
 Lege e ordine pro mantener le pace.
+Leger de non es identic a comprender.
 Leger inter le lineas require comprension.
 Leger non significa comprender.
 Lentemente, ma securmente.
+Linus es note pro su linguage clar e explicite.
 Marcar le area de aqua con un boa.
 Maria lege ille libro
 Melio prevenir que curar.
 Melio tarde que jammais.
 Meliorar le systema de transporto public adjutarea a evitar obstructiones de traffico.
+Mesmo le rail de protection non pote retener le camion de cader.
 Mesmo pro un experte, leger toto es sovente irrealisabile per carentia de tempore.
 Mesmo un homine ordinari ha plus de un cavallo-vapor de potentia
 Mi granmatre ha habite chirurgia de cataractas e ora pote vider clarmente de novo.
@@ -312,6 +368,7 @@ Multe gratias
 Multe guttas face un pluvia.
 Multe linguas de programmation es appellate per le nomine de personas real.
 Multe linguas occidental deriva ad radices indian-europee
+Multe milites del secunde guerra mundial ha essite mais sepelite in un cemeterio.
 Multe personas gaude de gustar le conservas.
 Multe personas non sape usar correctemente lor prime lingua.
 Multe personas pensa que le computatores jammais habera sentimentos.
@@ -332,22 +389,27 @@ Nos appellara le nave Aegis.
 Nos es foras del banda adhesive.
 Nos ha parlate sovente.
 Nos partira inter vinti minutas.
+Nostalgia non es plus illo de olim.
 Nostre experientias defini qui nos es.
 Nostre genetica defini nostre apparentias e tractos.
 Novembre es le dece-prime mense, immediatemente ante decembre.
+Nulle preoccupation, io prendeva un taxi pro retornar a casa con securitate.
 Oblidar illo, il ha nulle cosa simile.
 Observa tu grado!
 On deberea meliorar projectos libere in vice de adjutar companias a dominar le mercato.
+Oxygeno es importante pro nos, ma qualque bacterio non besonia de illo del toto.
 Pace initia simplemente ubi ambition fini.
 Paracaditismo es periculose.
 Parentes deberea cercar le correcte grammatica e pronunciation quando parla a lor filios.
 Parla me in interlingua
 Parla plus lentemente, per favor
 Parla vos interlingua?
+Parte de illes habeva binoculos.
 Peccato que le major parte del personas non sape a que servi le velocitates.
 Pensa re illo.
 Per favor
 Per favor indica si tu prefere option A o option B
+Per favor non alimentar le anates!
 Per favor non proteger me.
 Per favor offere tu punctos e perspectivas.
 Per favor rende mute le sono.
@@ -358,10 +420,13 @@ Post le accidente, su bicyclo debeva ser reparate.
 Post le signalation de un defecto, on deberea regularmente controlar si alcuno responde.
 Pote io haber un espresso, per favor.
 Pote io haber un taco, per favor.
+Prende ille extinctor e extingue le foco!
+Prender parte al traffico de strata es potentialmente periculose post le donation de sanguine.
 Primo venite, primo servite.
 Pro calibrar le systema de motion capture, face un T-pose.
 Pro expedir un littera, cerca un cassa postal rubie.
 Pro le usatores es importante que illes pote fider in lor systema operative.
+Pro mesurar accuratemente le performance nos besonia un test.
 Proteinas ha multe functiones in le corpore human.
 Qual es le altitude, longor e largessa del receptaculo?
 Qual es le melior route pro mi destination?
@@ -369,11 +434,15 @@ Qual es los pro e los contra?
 Qual es tu progresso?
 Qual es tu recepta?
 Qual es vostre nomine?
+Quando illa entrava in le pista de ballo totes la reguardava.
 Quando illa ha appellate su amico pro adjutar la con su computator
+Quando illa probava a retirar qualque pecunia ex su conto bancari
 Quando joca, le pueros sovente reinterpreta solo illo que ha experite antea.
+Quando le judice ha pronunciate le sententia de morte
 Quando tu trova un defecto in le software, reporta illo.
 Quante tempore!
 Quanto costa isto?
+Quaranta-duo non es un numero aleatori.
 Que ama mangiar le kangurus?
 Que es le medicina homeopathic?
 Que estranie color mauve!
@@ -397,18 +466,26 @@ Silicon Valley es un centro de talentos de technologia.
 Sin corrector disgratia!
 Sin surprisas
 Solo poc metros distante il ha un station de bus.
+Solo un tertio del immunditia es recyclate in iste pais.
 Stoppa!
 Su connexion a internet era troppo lente.
 Su discurso finiva con un standing ovation.
 Totes deberea haber le derecto al education.
+Totes ha ascoltate le problema del pullo e del ovo.
+Totes, in le club nocturne, la reguardava.
+Troppo alimentos es perdite.
+Tu besoniara qualque bottas de gumma.
 Tu face un grande labor adhuc.
 Tu non pote perder illo que tu jammais ha habite.
 Tux non es surridente, ille simplemente pare bon tote le tempore.
 Ubi es le lavatorio?
+Un damno pardonate es melior que un damno vindicate.
 Un del maxime problemas mundial es le crescimento del human population.
+Un del punctos de referentia del citate es le cinctura de muralias.
 Un euro sparniate es un euro ganiate.
 Un homine paupere es melior que un mentitor.
 Un importante differentia es le amonta de experientias, i.e. le entratas.
+Un multitude de personas stava circum le fontana.
 Un nove pellicula es presentate per le prime vice in le cinema.
 Un semibreve es un nota musical con un durata equivalente a un nota integre.
 Usa butyro moderatemente.
@@ -417,7 +494,11 @@ Velocitate incrementa le risco de accidentes de auto.
 Vide!
 Visitar un universitate offere grande chances pro tu carriera.
 Vos placerea dansar con me?
+Voyager One ha lassate nostre systema solar.
+Wikipedia es un organisation non-lucrative.
 ben que ser occidite in un accidente de auto es multo plus probabile
 illa repetitemente evidentiava que illa non habeva facite alco
+le accusator non ha monstrate ulle emotion.
+le cassa automatic assereva que su carta non era valide.
 ma ille deveni rapidemente fatigate
 ma ille lo ha meliorate notabilemente
