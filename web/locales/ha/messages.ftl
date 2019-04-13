@@ -4,6 +4,7 @@ return-to-cv = Koma zuwa ga Gama-garin Muryuka
 email-input =
     .label = Adreshin yanar gizo
 submit-form-action = Tura
+loading = Yana budewa...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -29,6 +30,7 @@ show-wall-of-text = Ci gaba Karantawa
 help-us-title = Taimaka mana mu inganta kalmomi!
 vote-yes = E
 vote-no = A'a
+speak-subtitle = Ba da gudumuwar muryarka
 
 ## Account Benefits
 
