@@ -196,6 +196,8 @@ join-newsletter = 선택적으로 프로젝트의 새로운 정보와 업데이�
 whats-public = 어떤 것이 공개됩니까?
 email-not-public = 사용자의 이메일을 공개하지 않습니다.
 username-optin-public = 사용자 이름의 공개여부를 선택하실 수 있습니다.
+demographic-deidentified = 추가적으로 제출된 통계 데이터(예: 나이, 성별, 언어, 억양)는 음성 데이터에서 개인을 식별할 수 없게 처리되고 사용자의 프로필에 공개되지 않습니다.
+username-email-not-demographic = 사용자 이름과 이메일은 공개된 데이터와 연관되지 않습니다.
 
 ## Speak & Listen Shortcuts
 
@@ -307,15 +309,21 @@ change-email-setings = 로그인 후 설정 페이지에서 이메일을 변경�
 ## FAQ
 
 faq-title = 자주 묻는 질문
+faq-what-cv-q = Common Voice 란 무엇인가요?
 faq-why-important-q = 이것이 왜 중요할까요?
 faq-how-get-q = Common Voice 데이터는 어떻게 얻을 수 있습니까?
 faq-how-get-a = Common Voice 데이터세트는 <licenseLink>CC0</licenseLink> 라이선스 하에 <datasetLink>데이터세트 페이지</datasetLink>에서 다운로드 하실 수 있습니다. 또한 공개된 다른 몇몇 데이터 세트도 같은 페이지에서 다운로드 가능합니다.
 faq-when-release-q = 다른 언어의 Common Voice 데이터세트는 언제 출시 되나요?
+faq-why-mission-q = Mozilla에서는 Common Voice를 왜 수행하게 되었나요?
 faq-what-cv-and-deepspeech-q = Common Voice와 Deep Speech의 차이는 무엇입니까?
+faq-is-goal-assistant-q = 보이스 어시스턴스를 만드는 것이 Common Voice의 목적인가요?
 faq-do-want-native-q = 모국어가 아니고 억양이 있는데도 목소리 기부가 가능한가요?
+faq-why-different-speakers-q = 언어별로 왜 수많고 다양한 목소리 기부자가 필요한가요?
 faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
 faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
+faq-why-10k-hours-q = 왜 언어별로 수집되어야 할 오디오의 유효한 길이가 10,000 시간인가요?
 faq-how-calc-hours-q = Common Voice는 녹음된 시간을 어떻게 계산하나요?
+faq-where-src-from-2-q = 원본 글의 출처는 어디인가요?
 faq-why-account-q = 계정을 왜 만들어야 하나요?
 faq-is-account-public-q = 나의 계정 정보는 공개됩니까?
 faq-how-privacy-q = 기부된 음성의 익명성과 개인정보는 어떻게 보장되나요?
@@ -373,6 +381,7 @@ cv-license = 라이선스
 audio-format = 오디오 포멧
 number-of-voices = 음성 갯수
 splits = 분리
+email-to-download = 다운로드 하기 위한 이메일을 입력하십시오.
 confirm-size = <b>{ $size }</b>의 다운로드를 시작할 준비가 되었습니다.
 confirm-no-identify = Common Voice 데이터세트의 녹음기부자의 신원을 밝히려는 시도를 하지 않는데에 <b>동의</b>합니다.
 download-language = { $language } 다운로드
@@ -428,6 +437,7 @@ other-language = 다른 언어
 ## Languages Overview
 
 language-section-in-progress = 진행중
+language-section-in-progress-new-description = 이 언어들은 현재 커뮤니티에서 개발중에 있습니다. 진행 상태 바는 각 언어의 <localizationGlossaryLink>웹사이트 지역화</localizationGlossaryLink>와  <sentenceCollectionGlossaryLink>문장 수집</sentenceCollectionGlossaryLink>이 어떻게 되고 있는지를 보여줍니다.
 language-section-launched = 출시됨
 languages-show-more = 더 보기
 languages-show-less = 접기
