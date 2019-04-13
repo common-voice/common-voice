@@ -7,5 +7,7 @@ get-involved-text = Mun gode da nuna sha'awarka wajen taimaka wa yaren { $lang }
 get-involved-form-title = Shigo don samun abubuwan da ke gudana a yaren { $lang }
 get-involved-email =
     .label = Adreshin yanar gizo
+get-involved-opt-in = Na amince a aika min sakon yanar gizo. Ina son in samu bayanai akan cigaban da ake samu a kan wannan yaren ta kafar Common Voice.
 get-involved-submit = Tura
+get-involved-success-title = Kayi nasarar sanya hannu don tallafa wa  yaran { $language } . Mun gode.
 get-involved-return-to-languages = Komo zuwa ga Harsuna

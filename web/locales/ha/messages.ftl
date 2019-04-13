@@ -17,9 +17,18 @@ submit-form-action = Tura
 
 ## Layout
 
+languages = Yaruka
+help = Taimako
+faq = Tambayoyin da aka fi tambaya
+back-top = Koma zuwa sama
+logout = Fita Daga ciki
 
 ## Home Page
 
+show-wall-of-text = Ci gaba Karantawa
+help-us-title = Taimaka mana mu inganta kalmomi!
+vote-yes = E
+vote-no = A'a
 
 ## Account Benefits
 
@@ -41,6 +50,8 @@ submit-form-action = Tura
 
 ## ProfileForm
 
+off = Kashe
+on = Kunna
 
 ## FAQ
 
