@@ -181,7 +181,7 @@ x-weeks-short =
 x-months-short =
     { $count ->
         [one] ай
-       *[other] ай
+       *[other] { $count } ай
     }
 x-years-short =
     { $count ->
