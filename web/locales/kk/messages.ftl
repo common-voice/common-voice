@@ -290,6 +290,16 @@ profile-close = Жабу
 profile-explanation = Профайлыңызбен прогресіңізді қадағалаңыз және дауыс деректерімізді дәлірек анықтауға көмектесіңіз.
 thanks-for-account = Тіркелгіңізді растағаныңыз үшін рахмет, енді сіздің профиліңізді құрайық.
 why-demographic = Бұл неліктен маңызды?
+why-demographic-explanation = Пайдаланушының жасы, жынысы және диалекты туралы анонімді көрсеткіштер сөйлем тану жүйелерін үйретуде қолданылатын аудио деректерді жақсартуға көмектеседі. Сіз тапсырған деректерде пайдаланушы атыңыз және email'ыңыз ешқашан көрсетілмейді, және пайдаланушы атыңыздың ашық немесе анонимді болуын өздеріңіз сайлай аласыздар.
+keep-me-posted =
+    .label = Менің Common Voice-қа байланысты жағдайлар және жаңалықтар туралы хабардар болып тұрғым келеді.
+accept-privacy = Бергі мағлұматты Mozilla'ның <privacyLink>Құпиялық Саясатында</privacyLink> түсіндірілгенше өңдеуіңіздермен келісемін.
+login-identity = Пайдаланушы аты
+login-signup = Кіру немесе тіркелгіні жасау
+edit = Өзгерту
+email-subscriptions = Хаттарға жазылулар
+download-profile = Деректерімді жүктеп алу
+contribution-experience = Жобаға қатысу тәжрибесі
 
 ## FAQ
 
@@ -413,6 +423,7 @@ review-tooltip = Қарап шығып, жазуларды қайта жазың
 unable-speak = Қазір сөйлей алмайсыз ба?
 review-instruction = Клиптерді қарап шығыңыз, қажет болса, қайта жазыңыз.
 record-submit-tooltip = { $actionType } Дайын болғанда жіберіңіз.
+clips-uploaded = Клиптер жүктелді
 record-abort-title = Жазуды бірінші аяқтайсыз ба?
 record-abort-text = Қазір шығып кетсеңіз, Сіздің жетістігіңіз сақталынбайды
 record-abort-submit = Клиптерді жіберу
@@ -422,14 +433,42 @@ listen-instruction = { $actionType } <playIcon></playIcon> Олар сөйлем
 listen-again-instruction = Керемет жұмыс! <playIcon></playIcon> Дайын болған кезіңізде қайта тыңдаңыз
 listen-3rd-time-instruction = 2 дайын, жалғастырыңыз! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Соңғысы!
+record-button-label = Дауысыңызды жазыңыз
 share-title-new = Көбірек дауыс табуға <bold>бізге көмектесіңіз</bold>
 
 ## Goals
 
+streaks = Күн қатар
+days =
+    { $count ->
+        [one] Күн
+       *[other] Күн
+    }
+recordings =
+    { $count ->
+        [one] Жазба
+       *[other] Жазба
+    }
+validations =
+    { $count ->
+        [one] Тексеру
+       *[other] Тексеру
+    }
 
 ## Dashboard
 
+your-languages = Сіздің тілдеріңіз
+toward-next-goal = Келесі мақсатқа қарай
+clips-you-recorded = Сіз жазған клиптер
+clips-you-validated = Сіз растаған клиптер
+stats = Статистика
+you = Сіз
+everyone = Әркім
+total-approved = Жалпы мақұлданды
+overall-accuracy = Жалпы дәлдік
 
 ## Profile Delete
 
+keep = Қалдыру
+remove = Өшіру
 profile-form-delete = Профайлды өшіру
