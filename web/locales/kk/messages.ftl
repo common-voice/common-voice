@@ -300,10 +300,26 @@ edit = Өзгерту
 email-subscriptions = Хаттарға жазылулар
 download-profile = Деректерімді жүктеп алу
 contribution-experience = Жобаға қатысу тәжрибесі
+skip-submission-feedback = Кері байланыстан бас тарту
+skip-submission-description = Қосымшаны беру кезінде кері байланыс «Жіберу» басқаннан кейін өткізілмейді. Қатысу келесі 5 жазба немесе тексерулердің келесі жинағына тікелей жалғасады.
+skip-submission-note = Ескерту: көмектесу түрін өзгерту үшін Сөйлеу немесе Тыңдау арасында таңдау қажет болады.
+off = Сөндірулі
+on = Іске қосулы
+add-avatar-title = Профайлыңызға аватар қосыңыз
+browse-file-title = Сурет файлын жүктеңіз
+browse-file = Өстерәп әкелу немесе <browseWrap>Қарап шығу</browseWrap>
+connect-gravatar = Gravatar-мен байланысыңыз
+gravatar_not_found = Электрондық поштаңыз үшін gravatar табылған жоқ
+file_too_large = Таңдалған файл тым үлкен
+manage-subscriptions = Жазылуларды басқару
+email-already-used = Электрондық пошта әлдеқашан басқа тіркелгі үшін пайдаланылды
+add-language = Тіл қосу
+change-email-setings = Электрондық поштаңызды Логин бөлігіндегі баптаулар арқылы өзгертіңіз
 
 ## FAQ
 
 faq-title = Жиі қойылатын сұрақтар
+faq-what-cv-q = Common Voice деген не?
 
 ## Glossary
 
