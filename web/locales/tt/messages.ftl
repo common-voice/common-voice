@@ -8,7 +8,7 @@ email-input =
     .label = Эл. почта
 submit-form-action = Җибәрү
 loading = Йөкләнелә...
-email-opt-in-privacy = Эл. хатларга язылу белән сез Мозилланың әлеге мәгълүматны <privacyLink>Хосусыйлык Сәясәтендә<privacyLink> аңлатылганча эшкәртүе белән килешәсез.
+email-opt-in-privacy = Эл. хатларга язылу белән Cез Мозилланың әлеге мәгълүматны <privacyLink>Хосусыйлык Сәясәтендә<privacyLink> аңлатылганча эшкәртүе белән килешәсез.
 indicates-required = * Тиешле юлны күрсәтә
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
