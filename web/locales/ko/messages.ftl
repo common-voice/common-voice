@@ -194,6 +194,8 @@ join-newsletter = 선택적으로 프로젝트의 새로운 정보와 업데이�
 ## What's public
 
 whats-public = 어떤 것이 공개됩니까?
+email-not-public = 사용자의 이메일을 공개하지 않습니다.
+username-optin-public = 사용자 이름의 공개여부를 선택하실 수 있습니다.
 
 ## Speak & Listen Shortcuts
 
