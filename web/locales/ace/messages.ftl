@@ -221,6 +221,7 @@ clips-with-count = <bold>{ $count }</bold> Klip
 
 stats = Statistik
 you = Droeneuh
+everyone = Tiep ureueng
 
 ## Profile Delete
 
