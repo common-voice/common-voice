@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = Nyo, neupeu-ét keu lôn surat-e. Lôn meuh'eut sabé geubri haba bhaih Proyèk Common Voice.
+stayintouch = Kamoe bak Mozilla meupeugöt saboh tumpôk bhaih tèknologi su. Kamoe meuh'eut sabé geubri haba barô, nè data barô dan meudeungo leubèh le pakriban neungui data nyoe.
 return-to-cv = Gisa u Common Voice
 email-input =
     .label = Surat-e
