@@ -8,6 +8,8 @@ email-input =
     .label = Surat-e
 submit-form-action = Peuét
 loading = Pumeuhah...
+email-opt-in-privacy = Ngön ka neutém teurimöng surat-e, droeneuh ka akô ngön Mozilla keu jingui haba nyoe lagèe ka geupeutrang lam <privacyLink>Reusam Privasi<privacyLink> Mozilla.
+indicates-required = * Suwah geupasoe
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,7 +19,9 @@ loading = Pumeuhah...
 
 ab = Bahsa Abkhaz
 ace = Bahsa Acèh
+ady = Basa Adyghe
 af = Bahsa Afrikaans
+am = Basa Amhara
 an = Bahsa Aragon
 ar = Bahsa Arab
 as = Bahsa Assam
@@ -36,6 +40,7 @@ cy = Bahsa Wales
 da = Bahsa Denmark
 de = Bahsa Jeureuman
 dsb = Bahsa Sorbia Yup
+dv = Basa Dhivehi
 el = Bahsa Yunani
 en = Bahsa Inggréh
 eo = Bahsa Èspèranto
@@ -50,6 +55,7 @@ fy-NL = Bahsa Frisia
 ga-IE = Bahsa Irlandia
 gl = Bahsa Galisia
 he = Bahsa Ibrani
+hi-IN = Basa Hindi
 hr = Bahsa Kroasia
 hsb = Bahsa Sorbia Ateueh
 hu = Bahsa Hongaria
@@ -66,11 +72,14 @@ ko = Bahsa Korèa
 kpv = Bahsa Komi-Zyrian
 kw = Bahsa Kornish
 ky = Bahsa Kirgiz
+lij = Basa Liguria
 lt = Bahsa Lithuania
 lv = Bahsa Latvia
 mdf = Bahsa Moksha
+mhr = Basa Mari Timu
 mk = Bahsa Makèdonia
 mn = Bahsa Mongol
+mrj = Basa Mari Cöt
 myv = Bahsa Èrzya
 nb-NO = Bahsa Norwègia Bokmal
 ne-NP = Bahsa Nèpal
@@ -93,9 +102,12 @@ sr = Bahsa Sèrbia
 sv-SE = Bahsa Swèdia
 ta = Bahsa Tamil
 te = Bahsa Tèlugu
+tg = Basa Tajik
 th = Bahsa Thai
 tr = Bahsa Turuki
 tt = Bahsa Tatar
+uby = Basa Ubykh
+udm = Basa Udmurt
 uk = Bahsa Ukraina
 ur = Bahsa Urdu
 uz = Bahsa Uzbèk
@@ -124,9 +136,12 @@ faq = Tanyöng Seuôt
 share-text = Bantu peurunoe meusén pakriban ureueng geumarit, neujôk su droeneuh bak { $link }
 link-copied = Peunawôt Geusalén
 back-top = Gisa u Ateueh
+logout = Teubiet
 
 ## Home Page
 
+show-wall-of-text = Beuet Le Lom
+help-us-title = Neutulông kamoe peusahèh kalimat!
 vote-yes = Nyo
 vote-no = H'an
 today = Uroë Nyoë
@@ -158,6 +173,7 @@ profile-close = Tôp
 
 ## FAQ
 
+faq-what-cv-q = Peue nyan Common Voice?
 
 ## Glossary
 
@@ -203,6 +219,8 @@ clips-with-count = <bold>{ $count }</bold> Klip
 
 ## Dashboard
 
+stats = Statistik
+you = Droeneuh
 
 ## Profile Delete
 
