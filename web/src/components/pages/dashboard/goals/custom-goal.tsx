@@ -300,7 +300,7 @@ function CustomGoal({
             onClick: () => {
               setShowAbortEditModal(true);
             },
-            style: customGoal ? {} : { display: 'none' },
+            style: customGoal ? {} : { visibility: 'hidden' },
           }}
           completedFields={
             <CompletedFields {...{ setStepIndex, state, states, stepIndex }} />
