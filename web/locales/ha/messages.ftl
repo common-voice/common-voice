@@ -44,8 +44,11 @@ zh-CN = Cinanci (Sin)
 
 ## Layout
 
+speak = Yi Magana
+speak-now = Yi magana yanzu
 languages = Yaruka
 help = Taimako
+privacy = Sirri
 faq = Tambayoyin da aka fi tambaya
 back-top = Koma zuwa sama
 logout = Fita Daga ciki
@@ -74,20 +77,47 @@ today = Yau
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Kunna/Tsayar
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 
 ## ProjectStatus
 
+english = Turanci
 
 ## ProfileForm
 
+profile-form-age =
+    .label = Shekaru
+profile-form-gender =
+    .label = Jinsi
+hidden = An ɓoye
+visible = A bayyane
+male = Namiji
+female = Mace
+# Gender
+other = Saura
+goals = Manufofi
+profile-close = Rufe
+edit = Gyara
 off = Kashe
 on = Kunna
+add-language = Ƙara Yare
 
 ## FAQ
 
@@ -100,25 +130,48 @@ on = Kunna
 
 ## Data
 
+data-download-yes = Ee
+data-download-deny = A'a
+data-other-download = Sauke Bayanai
 terms-agree = Na yarda
 
 ## New Datasets Page
 
+language = Yare
+# File size in gigabytes
+size = Girma
+close = Rufe
 
 ## Download Modal
 
+download-no = A'a Nagode
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Suna
+contact-form-message =
+    .label = Saƙo
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Yare
+other-language = Sauran Yare
 
 ## Languages Overview
 
+language-section-in-progress = Yana cigaba
+language-speakers = Masu Magana
+language-meter-in-progress = Cigaba
+language-total-progress = Jimilla
+language-search-input =
+    .placeholder = Nemo
+language-speakers = Masu Magana
 
 ## New Contribution
 
+contribute = Gudunmawa
 
 ## Goals
 
@@ -136,3 +189,5 @@ everyone = Kowane mutum
 
 ## Profile Delete
 
+keep = Ajiye
+remove = Cire
