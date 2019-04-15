@@ -10,6 +10,7 @@ submit-form-action = Wyślij
 loading = Wczytywanie…
 email-opt-in-privacy = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności<privacyLink>.
 indicates-required = * wskazuje pole obowiązkowe
+not-available-abbreviation = Niedostępne
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
