@@ -28,6 +28,7 @@ ru = Rashanci
 ta = Tamilanci
 te = Telugunci
 ur = Urdanci
+zh-CN = Cinanci (Sin)
 
 # [/]
 
@@ -47,6 +48,14 @@ help-us-title = Taimaka mana mu inganta kalmomi!
 vote-yes = E
 vote-no = A'a
 speak-subtitle = Ba da gudumuwar muryarka
+hours-recorded = Awannin da aka ɗauka
+hours-validated = Awannin da aka tantance
+todays-progress = Cigaban da aka samu yau
+help-reach-goal = Taimaka mana mu cika burinmu { $goal }
+read-terms-q = Ka karanta ƙa'idojinmu?
+ready-to-record = Ka shirya don ba da muryaka?
+all-locales = Duka
+today = Yau
 
 ## Account Benefits
 
@@ -82,6 +91,7 @@ on = Kunna
 
 ## Data
 
+terms-agree = Na yarda
 
 ## New Datasets Page
 
@@ -103,9 +113,17 @@ on = Kunna
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Kwana
+       *[other] Kwanaki
+    }
 
 ## Dashboard
 
+your-languages = Yarenku
+you = Kai
+everyone = Kowane mutum
 
 ## Profile Delete
 
