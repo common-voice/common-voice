@@ -8,6 +8,9 @@ email-input =
     .label = Adreshin yanar gizo
 submit-form-action = Tura
 loading = Yana budewa...
+email-opt-in-privacy = Ta hanyar shigar da kanka don samun saƙonnin yanar gizo ka yadda cewa Mozilla suna kula da bayanai kamar yada suka bayyana a <privacyLink> Tsarin Gudanar da sirrinsu <privacyLink>
+indicates-required = * Yana nuna cewa wajibi ne ka cike gurbin
+not-available-abbreviation = Babu Bayani
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -50,6 +53,9 @@ languages = Yaruka
 help = Taimako
 privacy = Sirri
 faq = Tambayoyin da aka fi tambaya
+content-license-text = Ana iya samun bayanan nan a ƙarƙashin tsarin <licenseLink>Creative Commons license</licenseLink>
+share-title = Taimaka mana mu sami wasu don su ba da gudummawar muryarsu!
+share-text = Taimaka don koyar da injuna yadda mutane suke magana, taimaka da muryarka a { $link }
 back-top = Koma zuwa sama
 logout = Fita Daga ciki
 
@@ -62,6 +68,7 @@ vote-no = A'a
 speak-subtitle = Ba da gudumuwar muryarka
 hours-recorded = Awannin da aka ɗauka
 hours-validated = Awannin da aka tantance
+voices-online = Muryoyin da suke a kan yanar gizo
 todays-progress = Cigaban da aka samu yau
 help-reach-goal = Taimaka mana mu cika burinmu { $goal }
 read-terms-q = Ka karanta ƙa'idojinmu?
@@ -102,6 +109,10 @@ english = Turanci
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = Yaren asali
+profile-form-additional-language =
+    .label = Ƙarin Harshe
 profile-form-age =
     .label = Shekaru
 profile-form-gender =
@@ -113,6 +124,7 @@ female = Mace
 # Gender
 other = Saura
 goals = Manufofi
+settings = Saituna
 profile-close = Rufe
 edit = Gyara
 off = Kashe
@@ -124,6 +136,7 @@ add-language = Ƙara Yare
 
 ## Glossary
 
+localization = Fassarawa
 
 ## NotFound
 
@@ -162,6 +175,7 @@ other-language = Sauran Yare
 ## Languages Overview
 
 language-section-in-progress = Yana cigaba
+language-section-launched = An ƙaddamar
 language-speakers = Masu Magana
 language-meter-in-progress = Cigaba
 language-total-progress = Jimilla
@@ -186,6 +200,7 @@ days =
 your-languages = Yarenku
 you = Kai
 everyone = Kowane mutum
+total-approved = Jimillar da aka amince
 
 ## Profile Delete
 
