@@ -102,6 +102,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
@@ -170,6 +171,7 @@ contact-form-message =
 
 request-language-form-language =
     .label = Yare
+select-language = Zaɓi yare...
 other-language = Sauran Yare
 
 ## Languages Overview
