@@ -10,6 +10,7 @@ submit-form-action = Invîa
 loading = Caregaménto...
 email-opt-in-privacy = Çernéndo de riçéive a pòsta eletrònica, acètti che Mozilla utilîze ste informaçioìn cómme l'é riportòu inta <privacyLink>informatìva in sciâ privacy</privacyLink> de Mozilla.
 indicates-required = * ìndica 'n cànpo òbligatöio
+not-available-abbreviation = n.d.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -437,7 +438,7 @@ data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIM o l'é realizòu con registraçión òudio de conferénse e-e relatîve trascriçioìn disponìbile in sciô scìto TED.
 data-other-voxforge-description = VoxForge o l'é stæto creòu apoxitaménte pe arechéugge trascriçioìn de detâti da dêuviâ inti motoî de riconosciménto vocâle de bàdda e lìberi.
 data-other-tatoeba-description = Tatoeba a l'é 'n gràn database che arechéugge frâze, traduçioìn, e registraçioìn vocâle pe l'aprendiménto de léngoe. Sto descaregaménto contégne tràcce òudio de ingléize parlòu, registræ da-a comunitæ de Tatoeba.
-your-feedback = Ti gh'æ de idêa in sce cómme megioâ o dataset de Common Voice? Fànigou savéi in sce Discourse
+your-feedback = Ti gh'æ de idêa in sce cómme megioâ o dataset de Common Voice? Fànelo savéi in sce Discourse
 go-discourse = Vànni in sce Discourse
 missing-language = No ti trêuvi a teu léngoa in sciô dataset? Pe propón-ine unn-a, vanni in sciâ pàgina Léngoe.
 go-languages-page = Vànni a-a pàgina de-e léngoe
