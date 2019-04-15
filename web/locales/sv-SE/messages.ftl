@@ -10,6 +10,7 @@ submit-form-action = Skicka in
 loading = Laddar…
 email-opt-in-privacy = Genom att ta emot e-postmeddelanden godkänner du Mozillas hantering av denna information som förklaras i Mozillas <privacyLink>sekretesspolicy<privacyLink>.
 indicates-required = * Indikerar obligatoriska fält
+not-available-abbreviation = inte tillgänglig
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
