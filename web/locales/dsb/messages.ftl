@@ -10,6 +10,7 @@ submit-form-action = Wótpósłaś
 loading = Cyta se…
 email-opt-in-privacy = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći<privacyLink> Mozilla rozjasnjuju.
 indicates-required = * Wóznamjenijo trěbne pólo
+not-available-abbreviation = Nic k dispoziciji
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
