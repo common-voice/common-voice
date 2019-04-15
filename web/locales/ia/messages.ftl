@@ -10,6 +10,7 @@ submit-form-action = Inviar
 loading = Cargamento…
 email-opt-in-privacy = Si ti opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
 indicates-required = * indica un campo obligatori
+not-available-abbreviation = N/D
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
