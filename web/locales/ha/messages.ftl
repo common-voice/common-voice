@@ -178,6 +178,8 @@ other-language = Sauran Yare
 
 language-section-in-progress = Yana cigaba
 language-section-launched = An ƙaddamar
+languages-show-more = Duba Ƙari
+languages-show-less = Duba Kadan
 language-speakers = Masu Magana
 language-meter-in-progress = Cigaba
 language-total-progress = Jimilla
@@ -187,7 +189,9 @@ language-speakers = Masu Magana
 
 ## New Contribution
 
+action-click = Danna
 contribute = Gudunmawa
+record-three-more-instruction = Saura uku!
 
 ## Goals
 
