@@ -10,6 +10,7 @@ submit-form-action = Жіберу
 loading = Жүктелу барысында…
 email-opt-in-privacy = Электрондық поштаға жазылумен сендер Мозилланың бергі мағлұматты <privacyLink>Құпиялылық Саясатында<privacyLink> түсіндірілгендей өңдеуі мен келісесіздер.
 indicates-required = * Қажетті өрісті көрсетеді
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -460,10 +461,15 @@ data-other-tatoeba-description = Tatoeba - бұл сөйлемдер, аудар
 your-feedback = Сізде Common Voice деректер жиынтығын қалай жақсартуға болатындығы туралы идеяларыңыз бар ма? Discourse-та бізге сөйлеңіз
 go-discourse = Дискурсқа өту
 missing-language = Мағлұмат жиынтығында сізге керекті тілді көрмейсіз бе? Жаңа бір тіл үстелуін сұрау үшін, «Тілдер» бетіне өтіңіз.
+go-languages-page = Тілдер бетіне өту
+ready-to-validate = Сөйлемдерді растауға көмектесуге дайынсыз ба?
+more = Көбірек
+close = Жабу
+download = Жүктеп алу
 
 ## Download Modal
 
-download-title = Сіздің жүктеуіңіз басталды.
+download-title = Сіздің жүктемеңіз басталдыі
 download-helpus = Дауыстық технологияның айналасында қауымдастық құруға көмектесіп, электрондық пошта арқылы байланыста болыңыз.
 download-form-email =
     .label = Эл. пошта адресіңізді енгізіңіз
@@ -487,10 +493,13 @@ request-language-form-language =
     .label = Тіл
 request-language-success-title = Тілге сұрау салу сәтті жіберілді. Рахмет.
 request-language-success-content = Жақын арада өз тіліңізді Common Voice жобасына қалай қосу керектігі туралы көбірек ақпаратты аласыз.
+select-language = Тілді таңдаңыз ...
+other-language = Басқа тіл
 
 ## Languages Overview
 
 language-section-in-progress = Орындалуда
+language-section-in-progress-new-description = Қазіргі уақытта бұл тілдер қауымдастықтың дамуында. Әрекет жолдары <localizationGlossaryLink> веб-сайтты оқшаулау </ localizationGlossaryLink> және <sentenceCollectionGlossaryLink> сөйлем жиынтығы </ sentenceCollectionGlossaryLink> процесінде қаншалықты алыс екенін көрсетеді.
 language-section-launched = Іске қосылған
 language-section-launched-description = Іске қосылған тілдер үшін веб-сайт сәтті аударылды, сонымен қоса, <italic>{ speak }</italic> және <italic>{ listen }</italic> түрінде үлес қосуға рұқсат берілу үшін жеткілікті сөйлемдер жиналды.
 languages-show-more = Толығырақ көру
@@ -501,6 +510,9 @@ language-total-progress = Барлығы
 language-search-input =
     .placeholder = Іздеу
 language-speakers = Сөйлейтіндер
+localized = Аударылған
+sentences = Сөйлемдер
+total-hours = Тексерілген сағаттар
 
 ## New Contribution
 
@@ -510,6 +522,9 @@ contribute = Үлес қосу
 listen = Тыңдаңыз
 skip = Өткізіңіз
 shortcuts = Таңбашалар
+clips-with-count = <bold>{ $count }</bold> клип
+goal-help-recording = Сіз Common Voice'ка күндік { $goalValue } аудиожазба жаздыру мақсатының <goalPercentage></goalPercentage> көрсеткішіне қолжетуде көмек еттіңіз!
+goal-help-validation = Сіз Common Voice'ка күндік { $goalValue } аудиожазба тексеру мақсатының <goalPercentage></goalPercentage> көрсеткішіне қолжетуде көмек еттіңіз!
 contribute-more =
     { $count ->
        *[other] Тағы { $count } -н жасауға дайынсыз ба?
@@ -544,6 +559,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> Олар сөйлем
 listen-again-instruction = Керемет жұмыс! <playIcon></playIcon> Дайын болған кезіңізде қайта тыңдаңыз
 listen-3rd-time-instruction = 2 дайын, жалғастырыңыз! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Соңғысы!
+nothing-to-validate = Бізде осы тілде тексеру үшін ештеңе жоқ, кезекті толтыруға көмектесіңіз.
 record-button-label = Дауысыңызды жазыңыз
 share-title-new = Көбірек дауыс табуға <bold>бізге көмектесіңіз</bold>
 
@@ -572,14 +588,27 @@ your-languages = Сіздің тілдеріңіз
 toward-next-goal = Келесі мақсатқа қарай
 clips-you-recorded = Сіз жазған клиптер
 clips-you-validated = Сіз растаған клиптер
+todays-recorded-progress = Жаздырған клиптернің бүгінгі Common Voice прогресі
+todays-validated-progress = Тексерілген клиптернің бүгінгі Common Voice прогресі
 stats = Статистика
 you = Сіз
 everyone = Әркім
+contribution-activity = Көмек ету белсенділігі
+top-contributors = Ең көп қатысқаннар
+recorded-clips = Жазылған клиптер
+validated-clips = Тексерілген клиптер
 total-approved = Жалпы мақұлданды
 overall-accuracy = Жалпы дәлдік
 
 ## Profile Delete
 
+delete-q = Дауыс жазбаларының да өшіруін тілейсіз бе немесе оларды Common Voice құрамасында сақтау қажет ме?
 keep = Қалдыру
 remove = Өшіру
+keep-info = Сіздің аноним дауыс жазбаларыңыз Common Voice мағлұмат жиынтығында сақталады. Өз профилігізні құртқалы, сіздер базадағы өз жазбалараңызды өшіруді талап ете алмайсыз.
+remove-info = Мағлұмат жиынтығынан сіздердің дауыс жазбаларын өшіру туралы сұрағыңдарды біз қараймыз. Егер сіздердің сұрағыңдар қанағаттандырылса, біз мағлұмат жиынтығын жүктеп алған адамдар мен байланысқа кіріп, олардан сіздердің дауыс жазбаларын өшірулерін сұраймыз.
+why-delete-recordings =
+    Common Voice жазбалары академиялық ұйымдар, кіші бизнес және сөйлеу танумен тәуелді энтузиастлар тарабынан сөйлеу модельдері сияқты әркімге ашық болған ресурстар әзірлеуде және өсіруде көмек көрсету үшін қолданылады.
+    
+    Жазбаларыңыздың не себертен өшірілуін қалауыңыз жөнінде бізге хабар ете аласыз ба?
 profile-form-delete = Профайлды өшіру
