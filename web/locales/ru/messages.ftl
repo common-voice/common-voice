@@ -10,6 +10,7 @@ submit-form-action = Отправить
 loading = Загрузка…
 email-opt-in-privacy = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
+not-available-abbreviation = Недоступно
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
