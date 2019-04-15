@@ -15,7 +15,7 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
              username,
              total,
              valid,
-             ROUND(100 * COALESCE(valid / validated, 0), 2) AS rate
+             ROUND(100 * valid / validated, 2) AS rate
       FROM (
         SELECT user_clients.*,
                COUNT(clip_id) AS total,
@@ -53,7 +53,7 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
              username,
              total,
              valid,
-             ROUND(100 * COALESCE(valid / validated, 0), 2) AS rate
+             ROUND(100 * valid / validated, 2) AS rate
       FROM (
         SELECT user_clients.*,
                COUNT(vote_id) AS total,

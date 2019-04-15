@@ -1,4 +1,8 @@
-import { Localized } from 'fluent-react/compat';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../../services/api';
@@ -24,7 +28,7 @@ interface PropsFromState {
   globalLocale: Locale.State;
 }
 
-interface Props extends PropsFromState {
+interface Props extends LocalizationProps, PropsFromState {
   locale: string;
   type: 'clip' | 'vote';
 }
@@ -86,12 +90,14 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
   }
 
   render() {
+    const { getString } = this.props;
     const { rows, isAtEnd } = this.state;
 
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
       const nextPosition =
         i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
+      const hasRate = row.rate != null;
       return [
         prevPosition && prevPosition + 1 < row.position ? (
           <FetchRow
@@ -140,8 +146,14 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.valid}
           </div>
           <div className="rate">
-            <div className="exact">{row.rate}</div>
-            <div className="rounded">{Math.round(row.rate)}</div>
+            <div className="exact">
+              {hasRate ? row.rate : getString('not-available-abbreviation')}
+            </div>
+            <div className="rounded">
+              {hasRate
+                ? Math.round(row.rate)
+                : getString('not-available-abbreviation')}
+            </div>
             <div className="percent">{'%'}</div>
           </div>
         </li>,
@@ -171,7 +183,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
 const Leaderboard = connect<PropsFromState>(({ api, locale }: StateTree) => ({
   api,
   globalLocale: locale,
-}))(UnconnectedLeaderboard);
+}))(withLocalization(UnconnectedLeaderboard));
 
 const FilledCheckIcon = () => (
   <div className="filled-check">
