@@ -83,6 +83,7 @@
             padding: 0 30px;
             min-width: auto;
             height: 50px;
+            white-space: pre;
             background: var(--type-color);
             color: var(--white);
 
@@ -154,8 +155,11 @@
         border-top: 2px solid var(--type-color-opaque);
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         background: #f9f9f8;
+
+        @media (--md-down) {
+            flex-wrap: wrap;
+        }
 
         @media (--lg-down) {
             padding-top: 50px;
@@ -186,6 +190,7 @@
             padding: 0 30px;
             min-width: auto;
             min-height: 50px;
+            white-space: pre;
 
             @media (--lg-down) {
                 margin-top: 20px;
