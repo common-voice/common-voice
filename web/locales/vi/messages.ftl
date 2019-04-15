@@ -10,6 +10,7 @@ submit-form-action = Gửi
 loading = Đang tải...
 email-opt-in-privacy = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật<privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
