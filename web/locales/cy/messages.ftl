@@ -10,6 +10,7 @@ submit-form-action = Cyflwyno
 loading = Llwytho…
 email-opt-in-privacy = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
 indicates-required = Mae * yn dynodi maes angenrheidiol
+not-available-abbreviation = Dim Ar Gael
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
