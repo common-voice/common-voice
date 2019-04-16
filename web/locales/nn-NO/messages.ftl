@@ -10,6 +10,7 @@ submit-form-action = Send inn
 loading = Lastar…
 email-opt-in-privacy = Ved å vejle å ta i mot e-post seier du deg samd i at Mozilla kan handtere denne informasjonen slik det er skildra i <privacyLink>personvernfråsegna<privacyLink> til Mozilla.
 indicates-required = * Viser påkravd felt
+not-available-abbreviation = Ikkje tilgjengeleg
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -284,6 +285,7 @@ login-signup = Logg inn/Meld deg på
 edit = Rediger
 email-subscriptions = E-postabonnement
 download-profile = Last ned mine data
+contribution-experience = Bidragserfaring
 off = Av
 on = På
 add-avatar-title = Legg til ein avatar  i profilen din
