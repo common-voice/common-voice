@@ -7,6 +7,7 @@ import { getConfig } from '../config-helper';
 import { AWS } from './aws';
 import Model from './model';
 import getLeaderboard from './model/leaderboard';
+import * as Basket from './basket';
 import Bucket from './bucket';
 import { ClientParameterError } from './utility';
 import Awards from './model/awards';
@@ -100,6 +101,8 @@ export default class Clip {
     console.log('clip vote written to s3', voteFile);
 
     response.json(glob);
+
+    Basket.sync(client_id).catch(e => console.error(e));
   };
 
   /**
@@ -178,6 +181,8 @@ export default class Clip {
     await Awards.checkProgress(client_id);
 
     response.json(filePrefix);
+
+    Basket.sync(client_id).catch(e => console.error(e));
   };
 
   serveRandomClips = async (

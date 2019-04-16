@@ -8,6 +8,7 @@ import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
 import UserClient from './model/user-client';
+import * as Basket from './basket';
 import Model from './model';
 import Clip from './clip';
 import Prometheus from './prometheus';
@@ -190,7 +191,7 @@ export default class API {
 
     const { email } = request.params;
     const basketResponse = await sendRequest({
-      uri: 'https://basket.mozilla.org/news/subscribe/',
+      uri: Basket.API_URL + '/news/subscribe/',
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
@@ -270,6 +271,7 @@ export default class API {
   createCustomGoal = async (request: Request, response: Response) => {
     await CustomGoal.create(request.client_id, request.body);
     await this.getGoals(request, response);
+    Basket.sync(request.client_id).catch(e => console.error(e));
   };
 
   getGoals = async (
