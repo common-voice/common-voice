@@ -23,6 +23,7 @@ af = Afirkaanci
 ar = Larabci
 bn = Yaren Bengali
 ca = Catalanci
+cnh = Yaran Hakha Cin
 cs = Yaren Cek
 da = Yaren Danish
 de = Jamusanci
@@ -39,6 +40,9 @@ it = Italiyanci
 ja = Jafananci
 ko = Koriyanci
 lv = Yaren Latbiyan
+or = Yaran Odiya
+pl = Yaran Folish
+ro = Romaniyanci
 ru = Rashanci
 ta = Tamilanci
 te = Telugunci
@@ -169,12 +173,14 @@ data-download-yes = Ee
 data-download-deny = A'a
 data-other-download = Sauke Bayanai
 terms-agree = Na yarda
+terms-disagree = Ban yarda ba
 
 ## New Datasets Page
 
 language = Yare
 # File size in gigabytes
 size = Girma
+size-megabyte = MB
 close = Rufe
 
 ## Download Modal
