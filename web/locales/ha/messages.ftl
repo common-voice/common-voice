@@ -21,6 +21,7 @@ not-available-abbreviation = Babu Bayani
 ab = Abkhazanci
 af = Afirkaanci
 ar = Larabci
+bn = Yaren Bengali
 ca = Catalanci
 cs = Yaren Cek
 da = Yaren Danish
@@ -29,12 +30,15 @@ el = Girkanci
 en = Turanci
 es = Sifaniyanci
 fr = Faransanci
+ga-IE = Yaren Irish
 he = Ibrananci
 hi-IN = Indiyanci
 hu = Hungoriyanci
+id = Yaren Indonisia
 it = Italiyanci
 ja = Jafananci
 ko = Koriyanci
+lv = Yaren Latbiyan
 ru = Rashanci
 ta = Tamilanci
 te = Telugunci
@@ -49,18 +53,26 @@ zh-CN = Cinanci (Sin)
 
 speak = Yi Magana
 speak-now = Yi magana yanzu
+datasets = Tuƙullumar Bayanai
 languages = Yaruka
+profile = Bayananka
 help = Taimako
+contact = Tuntuɓi
 privacy = Sirri
+terms = Sharuɗɗa
+cookies = Kukis
 faq = Tambayoyin da aka fi tambaya
 content-license-text = Ana iya samun bayanan nan a ƙarƙashin tsarin <licenseLink>Creative Commons license</licenseLink>
 share-title = Taimaka mana mu sami wasu don su ba da gudummawar muryarsu!
 share-text = Taimaka don koyar da injuna yadda mutane suke magana, taimaka da muryarka a { $link }
+link-copied = An kopi link
 back-top = Koma zuwa sama
 logout = Fita Daga ciki
 
 ## Home Page
 
+home-title = Common Voice wani aiki ne na Moxilla don taimakawa Injuna gane yadda mutanen gaske suke magana
+home-cta = Yi Magana, don ka taimaka!
 show-wall-of-text = Ci gaba Karantawa
 help-us-title = Taimaka mana mu inganta kalmomi!
 vote-yes = E
@@ -78,6 +90,7 @@ today = Yau
 
 ## Account Benefits
 
+benefits = Amfani
 
 ## What's public
 
@@ -89,6 +102,9 @@ shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Kunna/Tsayar
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -106,6 +122,7 @@ shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
+status-contribute = Taimaka da Muryarka
 english = Turanci
 
 ## ProfileForm
@@ -134,6 +151,10 @@ add-language = Ƙara Yare
 
 ## FAQ
 
+faq-title = Tambayoyin da aka fi tambaya
+faq-what-cv-q = Me ne ne Common Voice?
+faq-why-important-q = Me ya sa yake da muhimmanci?
+faq-how-get-q = Ta yaya zan iya samun bayanan Common Voice ?
 
 ## Glossary
 
@@ -212,3 +233,4 @@ total-approved = Jimillar da aka amince
 
 keep = Ajiye
 remove = Cire
+profile-form-delete = Cire Bayananka
