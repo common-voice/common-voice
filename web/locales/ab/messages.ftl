@@ -193,6 +193,8 @@ benefits = Аԥыжәара
 
 ## What's public
 
+whats-public = Иарбан адыррақәа аицзеиԥш ауп?
+email-not-public = Ҳара уԥошьҭа аицзеиԥш иҟаҳҵаӡом.
 recordings-and-locale-public = Иҟауҵаз анҵамҭақәеи излаҟауҵаз абызшәақәеи иагьа ирацәазаргьы зегьы рхы иадырхәар рылшоит.
 username-optin-public = Уара ахархәаразы иалухыз ухьӡ иаргамоутәыр ма иурмаӡар улшоит.
 demographic-deidentified = Хатәгәаԥхарала ицақәо демографиатә дыррақәа (иаҳҳәап: ақәра, ахаҵара/ аԥҳәысра, абызшәа, акцент уҳәа) хаҿыдатәхоит, уҷыдахәраҿы ианакәзаалак ицәыргахаӡом.
@@ -223,6 +225,7 @@ shortcut-vote-no = м
 shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Анҵамҭақәа еита-ианҵатәуп
 request-language-text = Азеиԥш Бжьы аҟны уара убышәа макьана иумбаӡои?
 request-language-button = Абызшәа уазҵаа
 
