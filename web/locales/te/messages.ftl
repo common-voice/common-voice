@@ -8,6 +8,8 @@ email-input =
     .label = ఈమెయిలు
 submit-form-action = సమర్పించు
 loading = లోడవుతున్నది...
+indicates-required = * ఖచ్చితంగా పూరించవలసిన ఖాళీ
+not-available-abbreviation = వర్తించదు
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -44,6 +46,7 @@ fr = ఫ్రెంచ్
 fy-NL = ఫ్రిసియన్
 ga-IE = ఐరిష్
 he = హీబ్రూ
+hi-IN = హిందీ
 hsb = సోర్బియన్, ఎగువ
 hu = హంగేరియన్
 ia = ఇంటర్‌లింగువా
@@ -201,6 +204,8 @@ english = ఆంగ్లం
 
 profile-form-username =
     .label = వాడుకరి పేరు
+profile-form-native-language =
+    .label = స్థానిక భాష
 profile-form-additional-language =
     .label = అదనపు భాష
 profile-form-accent =
@@ -284,6 +289,8 @@ language = భాష
 # File size in gigabytes
 size = పరిమాణం
 cv-license = లైసెన్సు
+number-of-voices = గొంతుల సంఖ్య
+subscribe = చందాచేరండి
 data-other-librispeech-description = LibriSpeech అనేది లిబ్రివోక్స్ ప్రాజెక్టు వారి ఆడియో పుస్తకాలు చదవగా తయారైన సుమారు 1000 గంటల 16Khz ఆంగ్ల ప్రసంగ నిధి.
 data-other-ted-name = TED-LIUM కార్పస్
 data-other-ted-description = TED-LIUM నిధి TED వెబ్‌సైటులో అందుబాటులో ఉన్న ప్రసంగాలు, వాటి రాతప్రతుల నుండి తయారుచేయబడింది.
@@ -319,6 +326,7 @@ request-language-form-language =
 request-language-success-title = భాష అభ్యర్థన విజయవంతంగా సమర్పించబడింది, ధన్యవాదాలు.
 request-language-success-content = త్వరలో మీ భాషని కామన్ వాయిస్‌కి ఎలా జోడించాలో అన్న విషయం మీద మరింత సమాచారంతో అందుబాటులో ఉంటాము.
 select-language = భాషను ఎంచుకోండి...
+other-language = ఇతర భాష
 
 ## Languages Overview
 
