@@ -367,6 +367,7 @@ size-megabyte = МБ
 download-language = Иҭагалатәуп { $language }
 validated-hours = Асааҭкәа гәаҭан
 recorded-hours = Асааҭкәа абжьы ахарҵеит
+feedback-q = Агәаанагара умоума?
 data-other-ted-name = TED-LIUM аизганҵа
 go-discourse = Дисқорс ахь ицо
 go-languages-page = Абызшәақәа рдаҟьахь ицо
