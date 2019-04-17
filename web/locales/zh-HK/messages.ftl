@@ -101,6 +101,7 @@ uk = 烏克蘭文
 ur = 烏都文
 uz = 烏茲別克文
 vi = 越南文
+vot = 沃特文
 zh-CN = 中文 (大陸)
 zh-HK = 中文（香港）
 zh-TW = 中文 (臺灣)
@@ -175,6 +176,7 @@ x-years-short =
     }
 help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
 sign-up-account = 註冊帳戶
+email-subscription-title = 訂閱最新消息電子報
 
 ## Account Benefits
 
@@ -297,6 +299,7 @@ faq-title = 常見問題
 faq-what-cv-q = Common Voice 係咩嘢？
 faq-why-important-q = 點解咁重要？
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
+faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
 faq-why-my-lang-q = 點解還沒有我的語言？
 
 ## Glossary
