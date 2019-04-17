@@ -18,6 +18,7 @@ indicates-required = * 表示必填欄位
 ## Languages
 
 ace = 亞齊文
+ady = 阿第蓋文
 af = 南非荷蘭文
 an = 阿拉貢文
 ar = 阿拉伯文
@@ -37,6 +38,7 @@ cy = 威爾斯文
 da = 丹麥文
 de = 德文
 dsb = 下索布文
+dv = 迪維西文
 el = 希臘文
 en = 英文
 eo = 世界語
@@ -97,6 +99,7 @@ te = 泰盧固文
 th = 泰文
 tr = 土耳其文
 tt = 韃靼文
+udm = 烏德穆爾特文
 uk = 烏克蘭文
 ur = 烏都文
 uz = 烏茲別克文
@@ -181,6 +184,7 @@ email-subscription-title = 訂閱最新消息電子報
 ## Account Benefits
 
 benefits = 益處
+improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
 
 ## What's public
 
