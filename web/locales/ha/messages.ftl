@@ -158,14 +158,18 @@ profile-form-gender =
     .label = Jinsi
 hidden = An ɓoye
 visible = A bayyane
+native-language =
+    .label = Harshen uwa
 male = Namiji
 female = Mace
 # Gender
 other = Saura
 goals = Manufofi
 settings = Saituna
+edit-profile = Gyara Bayananka
 profile-close = Rufe
 edit = Gyara
+download-profile = Sakko da Bayanaina
 off = Kashe
 on = Kunna
 add-language = Ƙara Yare
@@ -183,13 +187,17 @@ localization = Fassarawa
 
 ## NotFound
 
+notfound-title = Ba a samo shi ba
+notfound-content = Ina jin tsoro ban san abin da kake nema ba.
 
 ## Data
 
 data-download-button = Sauke bayanan Common Voice
 data-download-yes = Ee
 data-download-deny = A'a
+data-other-goto = Je zuwa { $name }
 data-other-download = Sauke Bayanai
+license-mixed = An cakuda
 terms-agree = Na yarda
 terms-disagree = Ban yarda ba
 
@@ -203,6 +211,9 @@ close = Rufe
 
 ## Download Modal
 
+download-form-email =
+    .label = Shigar da adreshinka na yanar gizo
+    .value = Mungode, za mu ci gaba da tuntunbarka
 download-no = A'a Nagode
 
 ## Contact Modal
@@ -231,12 +242,18 @@ language-total-progress = Jimilla
 language-search-input =
     .placeholder = Nemo
 language-speakers = Masu Magana
+sentences = Jumloli
+total-hours = Awannin da aka tantance
 
 ## New Contribution
 
 action-click = Danna
+action-tap = Shafa
 contribute = Gudunmawa
-record-three-more-instruction = Saura uku!
+listen = Saurari
+skip = Wuce
+record-three-more-instruction = Saura uku ka gama!
+unable-speak = Ba za ka iya magana ba a yanzu?
 
 ## Goals
 
