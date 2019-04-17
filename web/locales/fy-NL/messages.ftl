@@ -10,6 +10,7 @@ submit-form-action = Yntsjinje
 loading = Lade…
 email-opt-in-privacy = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied<privacyLink>.
 indicates-required = * jout fereaske fjild oan
+not-available-abbreviation = NB
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
