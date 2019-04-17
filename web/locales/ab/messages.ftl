@@ -361,6 +361,7 @@ language = Абызшәа
 # File size in gigabytes
 size = Ашәагаа
 cv-license = Алицензиа
+email-to-download = Уҭагал уԥошьҭа аҭагаларазы
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = Иҭагалатәуп { $language }
