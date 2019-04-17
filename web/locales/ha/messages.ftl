@@ -19,9 +19,14 @@ not-available-abbreviation = Babu Bayani
 ## Languages
 
 ab = Abkhazanci
+ace = Yaran Acehnese
+ady = Yaran Adyghe
 af = Afirkaanci
+am = Yaran Amharik
+an = Yaran Aragonese
 ar = Larabci
 bn = Yaren Bengali
+bxr = Yaran Buryat
 ca = Catalanci
 cnh = Yaran Hakha Cin
 cs = Yaren Cek
@@ -46,8 +51,11 @@ ro = Romaniyanci
 ru = Rashanci
 ta = Tamilanci
 te = Telugunci
+th = Yaran Thai
 tt = Yaren Tatar
+uk = Yaran Yukreniya
 ur = Urdanci
+vot = Yaran Votic
 zh-CN = Cinanci (Sin)
 
 # [/]
@@ -81,7 +89,10 @@ show-wall-of-text = Ci gaba Karantawa
 help-us-title = Taimaka mana mu inganta kalmomi!
 vote-yes = E
 vote-no = A'a
+toggle-play-tooltip = Danna { shortcut-play-toggle } don Cigaba ko ka tsayar da sauraro
 speak-subtitle = Ba da gudumuwar muryarka
+listen-subtitle = Taimaka mana mu tantance muryoyi
+listen-goal-text = Sautukan da aka tantance
 hours-recorded = Awannin da aka ɗauka
 hours-validated = Awannin da aka tantance
 voices-online = Muryoyin da suke a kan yanar gizo
@@ -91,6 +102,11 @@ read-terms-q = Ka karanta ƙa'idojinmu?
 ready-to-record = Ka shirya don ba da muryaka?
 all-locales = Duka
 today = Yau
+x-weeks-short =
+    { $count ->
+        [one] Sati
+       *[other] sati { $count }
+    }
 
 ## Account Benefits
 
@@ -98,6 +114,7 @@ benefits = Amfani
 
 ## What's public
 
+whats-public = Menene a bainan  Jama'a?
 
 ## Speak & Listen Shortcuts
 
@@ -169,6 +186,7 @@ localization = Fassarawa
 
 ## Data
 
+data-download-button = Sauke bayanan Common Voice
 data-download-yes = Ee
 data-download-deny = A'a
 data-other-download = Sauke Bayanai
