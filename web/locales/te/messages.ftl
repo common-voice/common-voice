@@ -8,6 +8,8 @@ email-input =
     .label = ఈమెయిలు
 submit-form-action = సమర్పించు
 loading = లోడవుతున్నది...
+indicates-required = * ఖచ్చితంగా పూరించవలసిన ఖాళీ
+not-available-abbreviation = వర్తించదు
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -44,6 +46,7 @@ fr = ఫ్రెంచ్
 fy-NL = ఫ్రిసియన్
 ga-IE = ఐరిష్
 he = హీబ్రూ
+hi-IN = హిందీ
 hsb = సోర్బియన్, ఎగువ
 hu = హంగేరియన్
 ia = ఇంటర్‌లింగువా
@@ -132,6 +135,7 @@ speak-subtitle = మీ గొంతును దానమివ్వండి
 hours-validated = సరిచూసిన గంటలు
 todays-progress = నేటి పురోగతి
 read-terms-q = మీరు మా నిబంధనలను చదివారా?
+all-locales = అన్నీ
 today = ఈరోజు
 x-weeks-short =
     { $count ->
@@ -143,9 +147,15 @@ x-months-short =
         [one] నెల
        *[other] { $count }నె
     }
+x-years-short =
+    { $count ->
+        [one] { $count }సం
+       *[other] { $count }సం
+    }
 
 ## Account Benefits
 
+benefits = ప్రయోజనాలు
 
 ## What's public
 
@@ -172,6 +182,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-rerecord-toggle = [1-5]
 request-language-text = ఇంకా కామన్ వాయిస్‍లో మీ భాష కనబడలేదా?
 request-language-button = ఒక భాషని అభ్యర్థించండి
 
@@ -193,6 +204,10 @@ english = ఆంగ్లం
 
 profile-form-username =
     .label = వాడుకరి పేరు
+profile-form-native-language =
+    .label = స్థానిక భాష
+profile-form-additional-language =
+    .label = అదనపు భాష
 profile-form-accent =
     .label = యాస
 profile-form-age =
@@ -222,13 +237,17 @@ off = ఆఫ్
 on = ఆన్
 file_too_large = ఎంచుకున్న ఫైలు చాలా పెద్దగా ఉంది
 manage-subscriptions = చందాల నిర్వహణ
+add-language = భాషను చేర్చు
 
 ## FAQ
 
 faq-title = తరచూ అడిగే ప్రశ్నలు
+faq-why-important-q = ఇది ఎందుకు ముఖ్యం?
 
 ## Glossary
 
+glossary = పదకోశం
+localization = స్థానికీకరణ
 
 ## NotFound
 
@@ -266,11 +285,20 @@ review-delete-recordings = నా రికార్డింగులను త
 
 ## New Datasets Page
 
+language = భాష
+# File size in gigabytes
+size = పరిమాణం
+cv-license = లైసెన్సు
+number-of-voices = గొంతుల సంఖ్య
+subscribe = చందాచేరండి
 data-other-librispeech-description = LibriSpeech అనేది లిబ్రివోక్స్ ప్రాజెక్టు వారి ఆడియో పుస్తకాలు చదవగా తయారైన సుమారు 1000 గంటల 16Khz ఆంగ్ల ప్రసంగ నిధి.
 data-other-ted-name = TED-LIUM కార్పస్
 data-other-ted-description = TED-LIUM నిధి TED వెబ్‌సైటులో అందుబాటులో ఉన్న ప్రసంగాలు, వాటి రాతప్రతుల నుండి తయారుచేయబడింది.
 data-other-voxforge-description = VoxForge ను లిఖిత ప్రసంగాలను సేకరించడానికి ఏర్పాటు చేశారు ఇది ఉచిత మరియు ఓపెన్ సోర్స్ స్పీచ్ రికగ్నిషన్ ఇంజిన్లతో ఉపయోగం కోసం.
 data-other-tatoeba-description = Tatoeba అనేది భాష నేర్చుకోవటంలో వాడే వాక్యాలు, అనువాదాలు మరియు మాటల ఆడియోల పెద్ద డేటాబేసు. ఈ దింపుకోలులో రికార్డు చేసిన మాట్లాడే ఆంగ్లం ఉంది.
+more = మరింత
+close = మూసివేయి
+download = దింపుకోలు
 
 ## Download Modal
 
@@ -298,6 +326,8 @@ request-language-form-language =
     .label = భాష
 request-language-success-title = భాష అభ్యర్థన విజయవంతంగా సమర్పించబడింది, ధన్యవాదాలు.
 request-language-success-content = త్వరలో మీ భాషని కామన్ వాయిస్‌కి ఎలా జోడించాలో అన్న విషయం మీద మరింత సమాచారంతో అందుబాటులో ఉంటాము.
+select-language = భాషను ఎంచుకోండి...
+other-language = ఇతర భాష
 
 ## Languages Overview
 
@@ -356,6 +386,7 @@ days =
 
 ## Dashboard
 
+your-languages = మీ భాషలు
 stats = గణాంకాలు
 you = మీరు
 everyone = అందరూ

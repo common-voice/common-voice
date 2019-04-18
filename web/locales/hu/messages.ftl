@@ -10,6 +10,7 @@ submit-form-action = Elküldés
 loading = Betöltés…
 email-opt-in-privacy = Azzal hogy az e-mailek fogadását kéri, kijelenti hogy beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben<privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
+not-available-abbreviation = Nincs
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]

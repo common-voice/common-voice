@@ -10,6 +10,7 @@ submit-form-action = Kas
 loading = O kargañ...
 email-opt-in-privacy = En ur asantiñ da zegemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fed buhez prevez<privacyLink> Mozilla.
 indicates-required = * Maeziennoù azgoulennet
+not-available-abbreviation = Dihegerz
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]

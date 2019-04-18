@@ -10,6 +10,7 @@ submit-form-action = Azen
 loading = Asali…
 email-opt-in-privacy = Ma tferneḍ armas n yimaylen, ad tqebleḍ d akken Mozilla ad tesseqdec talɣut-a akken i tettwasegza deg <privacyLink>Tasertit Tabaḍnit <privacyLink> n Mozilla.
 indicates-required = * Yemmal-d urti ilaqen
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
