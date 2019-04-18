@@ -10,7 +10,7 @@ export const API_URL = PROD
   : 'https://basket-dev.allizom.org';
 
 function toISO(date: string) {
-  return new Date(date).toISOString().slice(0, -5) + 'Z';
+  return date ? new Date(date).toISOString().slice(0, -5) + 'Z' : null;
 }
 
 export async function sync(client_id: string) {
