@@ -103,3 +103,13 @@ export function getManageSubscriptionURL(account: UserClient) {
     firstLanguage ? firstLanguage.locale + '/' : ''
   }newsletter/existing/${account.basket_token}`;
 }
+
+export async function hash(text: string) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(text);
+  const digest = await window.crypto.subtle.digest('SHA-256', data);
+
+  return [...new Uint8Array(digest)]
+    .map(value => value.toString(16).padStart(2, '0'))
+    .join('');
+}

@@ -2,6 +2,7 @@ import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import API from '../services/api';
 import { trackProfile } from '../services/tracker';
+import { hash } from '../utility';
 import { Flags } from './flags';
 import { Clips } from './clips';
 import { Locale } from './locale';
@@ -110,9 +111,16 @@ const fieldTrackers: any = {
   gender: trackProfile.bind(null, 'give-gender'),
 };
 
+declare const ga: any;
+
 let prevUser: User.State = null;
-store.subscribe(() => {
+store.subscribe(async () => {
   const { locale, user } = store.getState();
+
+  if ((!prevUser || !prevUser.account) && user.account) {
+    ga('set', 'userId', await hash(user.account.client_id));
+  }
+
   for (const field of Object.keys(fieldTrackers)) {
     const typedField = field as keyof User.State;
     if (prevUser && user[typedField] !== prevUser[typedField]) {
