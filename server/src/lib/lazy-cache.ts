@@ -1,21 +1,4 @@
-import * as Redis from 'ioredis';
-import * as Redlock from 'redlock';
-import { getConfig } from '../config-helper';
-
-const redis = new Redis(getConfig().REDIS_URL);
-const redlock = new Redlock([redis]);
-const useRedis = new Promise(resolve => {
-  redis.on('ready', () => {
-    resolve(true);
-  });
-  redis.on('error', err => {
-    resolve(false);
-    return redis.quit();
-  });
-}).then(val => {
-  console.log('Cache is', val ? 'redis' : 'in-memory');
-  return val;
-});
+import { redis, redlock, useRedis } from './redis';
 
 type Fn<T, S> = (...args: S[]) => Promise<T>;
 

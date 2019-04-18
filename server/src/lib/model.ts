@@ -2,13 +2,6 @@ import * as request from 'request-promise-native';
 import { LanguageStats } from 'common/language-stats';
 import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
-import {
-  IDEAL_SPLIT,
-  randomBucketFromDistribution,
-  rowsToDistribution,
-  Split,
-} from './model/split';
-import { getConfig } from '../config-helper';
 import lazyCache from './lazy-cache';
 
 const locales = require('locales/all.json') as string[];
@@ -59,20 +52,6 @@ const DAY = MINUTE * 60 * 24;
  */
 export default class Model {
   db = new DB();
-  clipDistribution: Split = IDEAL_SPLIT;
-
-  constructor() {
-    this.cacheClipDistribution().catch((e: any) => {
-      console.error(e);
-    });
-  }
-
-  cacheClipDistribution = async () => {
-    this.clipDistribution = rowsToDistribution(
-      await this.db.getClipBucketCounts()
-    );
-    console.log('clip distribution', JSON.stringify(this.clipDistribution));
-  };
 
   /**
    * Fetch a random clip but make sure it's not the user's.
@@ -94,14 +73,8 @@ export default class Model {
     locale: string,
     count: number
   ): Promise<Sentence[]> {
-    const bucket = await this.db.getOrSetUserBucket(
-      client_id,
-      locale,
-      randomBucketFromDistribution(IDEAL_SPLIT)
-    );
     return this.db.findSentencesWithFewClips(
       client_id,
-      bucket,
       locale,
       Math.min(count, 50)
     );
@@ -129,10 +102,7 @@ export default class Model {
   }
 
   async saveClip(clipData: any) {
-    const bucket = await this.db.saveClip(clipData);
-    if (bucket) {
-      (this.clipDistribution as any)[bucket]++;
-    }
+    await this.db.saveClip(clipData);
   }
 
   getValidatedHours = lazyCache(

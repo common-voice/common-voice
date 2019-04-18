@@ -1,10 +1,10 @@
 import { getConfig } from '../../config-helper';
+import store from '../store';
 import { hash } from '../utility';
 import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
-import { IDEAL_SPLIT, randomBucketFromDistribution } from './split';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -56,42 +56,6 @@ export default class DB {
       return '';
     }
     return email.toLowerCase();
-  }
-
-  async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
-    const localeId = await getLocaleId(locale);
-
-    let userBucket = await this.getUserBucket(client_id, localeId);
-    if (userBucket) return userBucket;
-
-    try {
-      await this.mysql.query(
-        `
-          INSERT INTO user_client_locale_buckets (client_id, locale_id, bucket) VALUES (?, ?, ?)
-        `,
-        [client_id, localeId, bucket]
-      );
-      userBucket = await this.getUserBucket(client_id, localeId);
-      if (!userBucket) {
-        console.error('Error: No bucket found after insert');
-        return bucket;
-      }
-      return userBucket;
-    } catch (error) {
-      console.error('Error setting user bucket', error);
-      return bucket;
-    }
-  }
-
-  async getUserBucket(
-    client_id: string,
-    localeId: number
-  ): Promise<string | null> {
-    const [[row]] = await this.mysql.query(
-      'SELECT bucket FROM user_client_locale_buckets WHERE client_id = ? AND locale_id = ?',
-      [client_id, localeId]
-    );
-    return row ? row.bucket : null;
   }
 
   /**
@@ -158,7 +122,6 @@ export default class DB {
 
   async findSentencesWithFewClips(
     client_id: string,
-    bucket: string,
     locale: string,
     count: number
   ): Promise<Sentence[]> {
@@ -168,18 +131,26 @@ export default class DB {
         FROM (
           SELECT id, text
           FROM sentences
-          WHERE is_used AND bucket = ? AND locale_id = ? AND NOT EXISTS(
-            SELECT *
-            FROM clips
-            WHERE clips.original_sentence_id = sentences.id AND clips.client_id = ?
-          )
+          WHERE is_used AND locale_id = ? AND version - ? BETWEEN 0 AND 50 AND
+                NOT EXISTS (
+                  SELECT *
+                  FROM clips
+                  WHERE clips.original_sentence_id = sentences.id AND
+                        clips.client_id = ?
+                )
           ORDER BY clips_count ASC
           LIMIT ?
         ) t
         ORDER BY RAND()
         LIMIT ?
       `,
-      [bucket, await getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
+      [
+        await getLocaleId(locale),
+        store.sentencesVersion,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
@@ -276,23 +247,18 @@ export default class DB {
     path: string;
     sentence: string;
     sentenceId: string;
-  }): Promise<string> {
+  }): Promise<void> {
     try {
       sentenceId = sentenceId || hash(sentence);
       const localeId = await getLocaleId(locale);
-      const bucket = await this.getOrSetUserBucket(
-        client_id,
-        locale,
-        randomBucketFromDistribution(IDEAL_SPLIT)
-      );
 
       await this.mysql.query(
         `
-          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)
-          VALUES (?, ?, ?, ?, ?, ?)
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
+          VALUES (?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
-        [client_id, sentenceId, path, sentence, localeId, bucket]
+        [client_id, sentenceId, path, sentence, localeId]
       );
       await this.mysql.query(
         `
@@ -302,7 +268,6 @@ export default class DB {
         `,
         [sentenceId]
       );
-      return bucket;
     } catch (e) {
       console.error('error saving clip', e);
     }
@@ -511,13 +476,6 @@ export default class DB {
       `,
       [requestedLanguageId, client_id]
     );
-  }
-
-  async getClipBucketCounts() {
-    const [rows] = await this.mysql.query(
-      'SELECT bucket, COUNT(bucket) AS count FROM clips WHERE bucket IS NOT NULL GROUP BY bucket'
-    );
-    return rows;
   }
 
   async getUserClient(client_id: string) {

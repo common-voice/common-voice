@@ -13,6 +13,8 @@ import {
 } from './lib/model/leaderboard';
 import API from './lib/api';
 import Logger from './lib/logger';
+import { redis } from './lib/redis';
+import store from './lib/store';
 import { getElapsedSeconds, ClientError, APIError } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
@@ -230,6 +232,8 @@ export default class Server {
     this.listen();
     const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
 
+    store.sentencesVersion = Number(await redis.get('sentences-version'));
+
     if (!ENVIRONMENT || ENVIRONMENT === 'default') {
       await this.performMaintenance(options.doImport);
       // await this.warmUpCaches();
@@ -251,6 +255,7 @@ export default class Server {
           await this.performMaintenance(options.doImport);
           await consul.kv.set(key, JSON.stringify(true));
         }
+        store.sentencesVersion = Number(await redis.get('sentences-version'));
       } catch (e) {
         this.print('error during maintenance', e);
       }

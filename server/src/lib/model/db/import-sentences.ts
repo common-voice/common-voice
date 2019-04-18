@@ -1,64 +1,18 @@
+import * as eventStream from 'event-stream';
 import * as fs from 'fs';
 import * as path from 'path';
+import { PassThrough } from 'stream';
 import promisify from '../../../promisify';
 import { hash } from '../../clip';
-import { IDEAL_SPLIT, randomBucketFromDistribution } from '../split';
+import { redis, useRedis } from '../../redis';
+import store from '../../store';
 
 const CWD = process.cwd();
 const SENTENCES_FOLDER = path.resolve(CWD, 'server/data/');
 
-const CHUNK_SIZE = 50;
-
-function getFileExt(path: string): string {
-  const i = path.lastIndexOf('.');
-  if (i === -1) {
-    return '';
-  }
-  return path.substr(i - path.length);
-}
-
 function print(...args: any[]) {
   args.unshift('IMPORT --');
   console.log.apply(console, args);
-}
-
-/**
- * This is a job queue that will only process CHUNK_SIZE jobs concurrently.
- */
-async function processInChunks(
-  list: any[],
-  context: any,
-  method: Function
-): Promise<any> {
-  // Trap function for ignoring inividual task errors.
-  let trap = (err: any) => {
-    console.error('chunked job fail', err.code);
-  };
-
-  let resultList: string[] = [];
-  let i = 0;
-
-  // Run chunk of tasks until we have processed everything.
-  while (i < list.length) {
-    // Calculate the size of current chunk.
-    // If we are at the last chunk, calculate how many tasks are left.
-    let size = i + CHUNK_SIZE > list.length ? list.length - i : CHUNK_SIZE;
-    const slice = new Array(size);
-
-    // Store tasks promises in chunk sized array to process concurrently.
-    for (let j = 0; j < size; j++) {
-      let params = list[i + j];
-      // Trap and essentially ignore any read errors.
-      slice[j] = promisify(context, method, params).catch(trap);
-    }
-
-    // We already trap errors, so simply await for all tasks to finish.
-    let results = await Promise.all(slice);
-    resultList = resultList.concat(results);
-    i += size;
-  }
-
-  return resultList;
 }
 
 async function getFilesInFolder(path: string): Promise<string[]> {
@@ -68,106 +22,146 @@ async function getFilesInFolder(path: string): Promise<string[]> {
   });
 }
 
-/**
- * Get all the contents from a list of files.
- */
-async function getAllFileContents(fileList: string[]): Promise<any> {
-  const withEncoding = fileList.map((fileName: string) => {
-    return [fileName, 'utf8'];
-  });
-  return await processInChunks(withEncoding, fs, fs.readFile);
-}
-
-const loadSentences = async (path: string): Promise<string[]> => {
-  let allSentences: string[] = [];
-  // Get all text files in the sentences folder.
-  const filePaths = (await getFilesInFolder(path)).filter(
-    (name: string) => getFileExt(name) === '.txt'
-  );
-
-  const fileContents = await getAllFileContents(filePaths);
-
-  for (let i = 0; i < fileContents.length; i++) {
-    const content = fileContents[i];
-    if (!content) {
-      console.error('missing file content', filePaths[i]);
-      continue;
-    }
-
-    const sentences = content.split('\n');
-    if (sentences.length < 1) {
-      console.error('empty file content', filePaths[i]);
-      continue;
-    }
-
-    allSentences = allSentences.concat(sentences.filter((s: string) => !!s));
-  }
-
-  return allSentences;
-};
-
 const SENTENCES_PER_CHUNK = 500;
 
-async function importLocaleSentences(pool: any, locale: string) {
-  await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
+function streamSentences(localePath: string) {
+  const stream = new PassThrough({ objectMode: true });
+
+  getFilesInFolder(localePath)
+    .then(p => p.filter((name: string) => name.endsWith('.txt')))
+    .then(async filePaths => {
+      for (const filePath of filePaths) {
+        const source = path.basename(filePath).split('.')[0];
+        let sentences: string[] = [];
+        function write() {
+          stream.write({
+            sentences,
+            source,
+          });
+          sentences = [];
+        }
+        await new Promise(resolve => {
+          const fileStream = fs
+            .createReadStream(filePath)
+            .pipe(eventStream.split())
+            .pipe(
+              eventStream
+                .mapSync((line: string) => {
+                  fileStream.pause();
+
+                  sentences.push(line);
+
+                  if (sentences.length >= SENTENCES_PER_CHUNK) {
+                    write();
+                  }
+
+                  fileStream.resume();
+                })
+                .on('end', () => {
+                  if (sentences.length > 0) {
+                    write();
+                  }
+                  resolve();
+                })
+            );
+        });
+      }
+      stream.end();
+    });
+
+  return stream;
+}
+
+async function importLocaleSentences(
+  pool: any,
+  locale: string,
+  version: number
+) {
   const [[{ localeId }]] = await pool.query(
     'SELECT id AS localeId FROM locales WHERE name = ? LIMIT 1',
     [locale]
   );
 
-  const sentences = await loadSentences(path.join(SENTENCES_FOLDER, locale));
-  if (sentences.length == 0) return;
-
-  await pool.query(
-    `
-      DELETE FROM sentences
-      WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
-            id NOT IN (SELECT sentence_id FROM skipped_sentences) AND 
-            locale_id = ?
-    `,
-    [localeId]
-  );
-
-  await pool.query('UPDATE sentences SET is_used = FALSE WHERE locale_id = ?', [
-    localeId,
-  ]);
-
-  print('importing', locale, sentences.length);
-  const chunks = [];
-  for (let i = 0; i < sentences.length; i += SENTENCES_PER_CHUNK) {
-    chunks.push(sentences.slice(i, i + SENTENCES_PER_CHUNK));
-  }
-
-  for (const chunk of chunks) {
-    await pool.query(
-      `
-      INSERT INTO sentences (id, text, is_used, bucket, locale_id)
-      VALUES ${chunk
-        .map(sentence => {
-          const id = hash(sentence);
-          const bucket = randomBucketFromDistribution(IDEAL_SPLIT);
-          const values = [id, sentence, true, bucket, localeId];
-          return `(${values.map(v => pool.escape(v)).join(', ')})`;
-        })
-        .join(', ')}
-      ON DUPLICATE KEY UPDATE is_used = TRUE;
-    `
-    );
-  }
-  print('actually imported', locale);
+  await new Promise(async resolve => {
+    print('importing', locale);
+    const stream = streamSentences(path.join(SENTENCES_FOLDER, locale));
+    stream
+      .on(
+        'data',
+        async ({
+          sentences,
+          source,
+        }: {
+          sentences: string[];
+          source: string;
+        }) => {
+          stream.pause();
+          try {
+            await pool.query(
+              `
+              INSERT INTO sentences
+              (id, text, is_used, locale_id, source, version)
+              VALUES ${sentences
+                .map(
+                  sentence =>
+                    `(${[
+                      hash(sentence),
+                      sentence,
+                      true,
+                      localeId,
+                      source,
+                      version,
+                    ]
+                      .map(v => pool.escape(v))
+                      .join(', ')})`
+                )
+                .join(', ')}
+              ON DUPLICATE KEY UPDATE
+                source = VALUES(source),
+                version = VALUES(version),
+                is_used = VALUES(is_used);
+            `
+            );
+          } catch (e) {
+            console.error(
+              'error when inserting sentence batch from "',
+              sentences[0],
+              '" to "',
+              sentences[sentences.length - 1],
+              '":',
+              e
+            );
+          }
+          stream.resume();
+        }
+      )
+      .on('end', resolve);
+  });
 }
 
 export async function importSentences(pool: any) {
+  const version = ((store.sentencesVersion || 0) + 1) % 256; // 256 == max size of version column
   const locales = ((await new Promise(resolve =>
     fs.readdir(SENTENCES_FOLDER, (_, names) => resolve(names))
   )) as string[]).filter(name => name !== 'LICENSE');
 
   print('locales', locales.join(','));
 
-  await locales.reduce(
-    (promise, locale) =>
-      promise.then(() => importLocaleSentences(pool, locale)),
-    Promise.resolve()
+  for (const locale of locales) {
+    await importLocaleSentences(pool, locale, version);
+  }
+
+  (await useRedis) &&
+    (await redis.set('sentences-version', version.toString()));
+
+  await pool.query(
+    `
+      DELETE FROM sentences
+      WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
+            id NOT IN (SELECT sentence_id FROM skipped_sentences) AND
+            version <> ?
+    `,
+    [version]
   );
 
   const [localeCounts] = (await pool.query(
