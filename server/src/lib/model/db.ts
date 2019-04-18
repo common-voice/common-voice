@@ -1,5 +1,4 @@
 import { getConfig } from '../../config-helper';
-import store from '../store';
 import { hash } from '../utility';
 import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
@@ -131,26 +130,19 @@ export default class DB {
         FROM (
           SELECT id, text
           FROM sentences
-          WHERE is_used AND locale_id = ? AND version - ? BETWEEN 0 AND 50 AND
-                NOT EXISTS (
-                  SELECT *
-                  FROM clips
-                  WHERE clips.original_sentence_id = sentences.id AND
-                        clips.client_id = ?
-                )
+          WHERE is_used AND locale_id = ? AND NOT EXISTS (
+            SELECT *
+            FROM clips
+            WHERE clips.original_sentence_id = sentences.id AND
+                  clips.client_id = ?
+          )
           ORDER BY clips_count ASC
           LIMIT ?
         ) t
         ORDER BY RAND()
         LIMIT ?
       `,
-      [
-        await getLocaleId(locale),
-        store.sentencesVersion,
-        client_id,
-        SHUFFLE_SIZE,
-        count,
-      ]
+      [await getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }

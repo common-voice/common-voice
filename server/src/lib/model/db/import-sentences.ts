@@ -163,6 +163,14 @@ export async function importSentences(pool: any) {
     `,
     [version]
   );
+  await pool.query(
+    `
+      UPDATE sentences
+      SET is_used = FALSE
+      WHERE version <> ?
+    `,
+    [version]
+  );
 
   const [localeCounts] = (await pool.query(
     `
