@@ -5,7 +5,6 @@ import { PassThrough } from 'stream';
 import promisify from '../../../promisify';
 import { hash } from '../../clip';
 import { redis, useRedis } from '../../redis';
-import store from '../../store';
 
 const CWD = process.cwd();
 const SENTENCES_FOLDER = path.resolve(CWD, 'server/data/');
@@ -140,7 +139,10 @@ async function importLocaleSentences(
 }
 
 export async function importSentences(pool: any) {
-  const version = ((store.sentencesVersion || 0) + 1) % 256; // 256 == max size of version column
+  const oldVersion = Number(
+    (await useRedis) ? await redis.get('sentences-version') : 0
+  );
+  const version = ((oldVersion || 0) + 1) % 256; //== max size of version column
   const locales = ((await new Promise(resolve =>
     fs.readdir(SENTENCES_FOLDER, (_, names) => resolve(names))
   )) as string[]).filter(name => name !== 'LICENSE');
