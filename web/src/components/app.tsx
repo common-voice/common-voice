@@ -196,7 +196,9 @@ let LocalizedPage: any = class extends React.Component<
   }
 
   handleScroll = () => {
-    this.setState({ hasScrolled: true });
+    if (!this.state.hasScrolled) {
+      this.setState({ hasScrolled: true });
+    }
   };
 
   render() {

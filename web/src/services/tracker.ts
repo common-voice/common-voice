@@ -28,7 +28,8 @@ export function trackGlobal(
     | 'github'
     | 'discourse'
     | 'contact'
-    | 'footer-newsletter',
+    | 'footer-newsletter'
+    | 'slack',
   locale: string
 ) {
   track('Global', action, locale);
