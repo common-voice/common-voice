@@ -10,6 +10,7 @@ submit-form-action = Ыыт
 loading = Хачайдааһын...
 email-opt-in-privacy = Сурук тутартан батыннаххына, Mozilla хайдах бу информацияны таҥастыыра <privacyLink>кистэлэҥи хааччыйыы политикатыгар<privacyLink> суруллубутун кытта сөбүлэһэргин биллэрэҕин,
 indicates-required = * Толорорго булгуччулаах
+not-available-abbreviation = Суох
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
