@@ -168,6 +168,7 @@ hours-validated = Асааҭқәа гәаҭан
 voices-online = Абыжьқәа Алабҿаба Абыржәы
 todays-progress = Иахьатәи аԥхьаҿиара
 help-reach-goal = Уҳацхраа анагӡараҿы { $goal }
+read-terms-q = Ҳара ҳаиқәшаҳаҭра азҭо уаԥхьахьоума?
 all-locales = Зегьы
 today = Иахьа
 x-weeks-short =
