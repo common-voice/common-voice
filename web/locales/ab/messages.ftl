@@ -10,6 +10,7 @@ submit-form-action = Ашьҭра
 loading = Аҭагалара
 email-opt-in-privacy = Асалам шәҟәқәа риура уанақәшаҳаҭха, уи ианагоит, Mozilla уинформациа аус шаднауло уақәшаҳаҭуп ҳәа. <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = *Хымԥада ихарҭәаатәуп аҭыԥ
+not-available-abbreviation = Анеишьа Амам
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
