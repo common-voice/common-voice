@@ -145,6 +145,8 @@ logout = Fita Daga ciki
 
 home-title = Common Voice wani aiki ne na Moxilla don taimakawa Injuna gane yadda mutanen gaske suke magana
 home-cta = Yi Magana, don ka taimaka!
+wall-of-text-start = Murya wani abu ne na asali kuma mutane kan yi. Wannan ne ya sa muke sha'awar samar da fasahar murya ga injunanmu. Sai dai kafin mu samar da wannan fasahar, dole mu samu bayanai na muryoyi masu yawa.
+wall-of-text-more-mobile = Mafi yawan bayanai da manyan kamfanoni suke amfani da su mutane ba sa samunsu. Hakan ya sa muka ƙirƙiro wata sabuwar hanyar muka yi manhajar Common Voice. Mun yi manhajar ne don ta taimaka wajen ba wa kowa damar aiki da fasahar gane murya.
 show-wall-of-text = Ci gaba Karantawa
 help-us-title = Taimaka mana mu inganta kalmomi!
 vote-yes = E
