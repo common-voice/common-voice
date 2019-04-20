@@ -563,6 +563,7 @@ overall-accuracy = Συνολική ακρίβεια
 
 ## Profile Delete
 
+delete-q = Θα θέλατε να ζητήσετε τη διαγραφή των ηχογραφήσεων φωνής σας, ή προτιμάτε να τις αφήσετε στο σύνολο δεδομένων του Common Voice;
 keep = Διατήρηση
 remove = Αφαίρεση
 why-delete-recordings =
