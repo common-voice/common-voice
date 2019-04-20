@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ναι, επιθυμώ να λαμβάνω emails και να ενημερώνομαι για το έργο Common Voice.
 stayintouch = Στη Mozilla, χτίζουμε μια κοινότητα γύρω από τη φωνητική τεχνολογία. Θα θέλαμε να επικοινωνούμε μαζί σας για ενημερώσεις, νέες πηγές δεδομένων και για να μαθαίνουμε πώς χρησιμοποιείτε αυτά τα δεδομένα.
-privacy-info = Υποσχόμαστε να χειριζόμαστε τις πληροφορίες σας με προσοχή. Διαβάστε περισσότερα στη <privacyLink>σημείωση απορρήτου</privacyLink>.
+privacy-info = Υποσχόμαστε να χειριστούμε τις πληροφορίες σας με προσοχή. Διαβάστε περισσότερα στη <privacyLink>σημείωση απορρήτου</privacyLink>.
 return-to-cv = Επιστροφή στο Common Voice
 email-input =
     .label = Email
@@ -384,6 +384,7 @@ review-delete-recordings = Διαγραφή ηχογραφήσεων
 
 ## New Datasets Page
 
+datasets-headline = Αναπτύσσουμε ένα σύνολο δεδομένων φωνής ανοικτού κώδικα, σε πολλαπλές γλώσσες, που μπορεί να χρησιμοποιήσει οποιοσδήποτε για να εκπαιδεύσει εφαρμογές με δυνατότητες ομιλίας.
 language = Γλώσσα
 # File size in gigabytes
 size = Μέγεθος
@@ -402,10 +403,13 @@ confirm-no-identify = <b>Αποδέχεστε</b> να μην αποπειραθ
 download-language = Λήψη στα { $language }
 validated-hours = Ώρες επαλήθευσης
 recorded-hours = Ώρες ηχογράφησης
+whats-inside = Τι περιέχεται στο σύνολο δεδομένων του Common Voice;
 subscribe = Εγγραφή
 get-started-speech = Ξεκινήστε με την αναγνώριση ομιλίας
 other-datasets = Άλλα σύνολα δεδομένων φωνής
 feedback-q = Έχετε σχόλια;
+deepspeech-info = Το σύνολο δεδομένων του Common Voice συμπληρώνει το Deep Speech, την ανοικτού κώδικα μηχανή αναγνώρισης φωνής της Mozilla, το οποίο μπορείτε να χρησιμοποιήσετε για να αναπτύξετε εφαρμογές αναγνώρισης ομιλίας. Διαβάστε την <githubLink>επισκόπηση στο Github</githubLink> ή γίνετε μέλος του <discourseLink>DeepSpeech Discourse</discourseLink> για να μάθετε πώς να ξεκινήσετε.
+common-voice-info-new = Έχετε απορίες σχετικά με το Common Voice; Ιδέες για βελτιώσεις ή σχόλια για μια συγκεκριμένη γλώσσα; Ελάτε στο <discourseLink>φόρουμ μας στο Discourse</discourseLink> και πείτε μας.
 data-other-librispeech-description = Το LibriSpeech είναι ένα σύνολο στοιχείων με περίπου 1000 ώρες από 16Khz αναγνωσμένων ομιλιών στα Αγγλικά, που προέρχονται από τα ηχητικά βιβλία του έργου LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Το Corpus TED-LIUM δημιουργήθηκε από ηχητικές συνομιλίες και τις μεταγραφές τους, που είναι διαθέσιμες στον ιστότοπο TED.
@@ -451,7 +455,9 @@ other-language = Άλλη γλώσσα
 ## Languages Overview
 
 language-section-in-progress = Σε εξέλιξη
+language-section-in-progress-new-description = Αυτές οι γλώσσες αναπτύσσονται προς το παρόν από την κοινότητα. Οι γραμμές προόδου δείχνουν σε ποιο στάδιο έχει φτάσει κάθε γλώσσα, όσον αφορά τη <localizationGlossaryLink>μετάφραση της ιστοσελίδας</localizationGlossaryLink> και τη <sentenceCollectionGlossaryLink>συλλογή προτάσεων</sentenceCollectionGlossaryLink>.
 language-section-launched = Σε λειτουργία
+language-section-launched-description = Για αυτές τις εν λειτουργία γλώσσες, η ιστοσελίδα έχει <localizationGlossaryLink>μεταφραστεί</localizationGlossaryLink> επιτυχώς και έχει αρκετές <sentenceCollectionGlossaryLink>συλλεγμένες προτάσεις</sentenceCollectionGlossaryLink> για να είναι η δυνατή η συνεχής συνεισφορά <speakLink>ομιλίας</speakLink> και <listenLink>ακρόασης</listenLink>.
 languages-show-more = Δείτε περισσότερα
 languages-show-less = Λιγότερα
 language-speakers = Ομιλητές
@@ -460,7 +466,7 @@ language-total-progress = Σύνολο
 language-search-input =
     .placeholder = Αναζήτηση
 language-speakers = Ομιλητές
-localized = Μεταφρασμένα
+localized = Μετάφραση
 sentences = Προτάσεις
 total-hours = Ώρες επαλήθευσης
 
