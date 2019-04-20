@@ -82,8 +82,10 @@ mk = Yaren Macedonia
 mn = Yaren Mongolia
 mrj = Yaren Hill Mari
 myv = Yaren Erzya
+nb-NO = Yaren Norway Bokmål
 ne-NP = Yaran Nepali
 nl = Yaren Dutch
+nn-NO = Yaren Norwegian Nynorsk
 oc = Yaren Occitan
 or = Yaran Odiya
 pl = Yaran Folish
@@ -91,14 +93,30 @@ pt-BR = Yaren Portuguese (Mazauna Brazil)
 rm-sursilv = Yaren Romawa Sursilbaniya
 ro = Romaniyanci
 ru = Rashanci
-ta = Tamilanci
+rw = Yaren Kinyarwanda
+sah = Yaren Sakha
+sc = Yaran  Sardiniya
+sk = Yaran Slobak
+sl = Yaren Slobaniya
+sq = Yaren Albaniya
+sr = Yaren Serbiya
+sv-SE = Yaren  Swedin
+ta = Yaran Tamil
 te = Telugunci
+tg = Yaren Tajik
 th = Yaran Thai
+tr = Yaren Turkish
 tt = Yaren Tatar
+uby = Yaren Ubykh
+udm = Yaren Udmurt
 uk = Yaran Yukreniya
 ur = Urdanci
+uz = Yaren Uzbek
+vi = Yaren Vietnamese
 vot = Yaran Votic
 zh-CN = Cinanci (Sin)
+zh-HK = Yaren chananci (Hong Kong)
+zh-TW = Yaren chananci (Taiwan)
 
 # [/]
 
@@ -202,6 +220,8 @@ hidden = An ɓoye
 visible = A bayyane
 native-language =
     .label = Harshen uwa
+profile-form-submit-save = Ajiye
+profile-form-submit-saved = An Ajiye
 male = Namiji
 female = Mace
 # Gender
@@ -248,7 +268,9 @@ terms-disagree = Ban yarda ba
 language = Yare
 # File size in gigabytes
 size = Girma
+size-gigabyte = GB
 size-megabyte = MB
+go-languages-page = Jeka zuwa shafin yaruka
 close = Rufe
 
 ## Download Modal
@@ -294,6 +316,7 @@ action-tap = Shafa
 contribute = Gudunmawa
 listen = Saurari
 skip = Wuce
+record-cta = Fara daukar Murya
 record-three-more-instruction = Saura uku ka gama!
 unable-speak = Ba za ka iya magana ba a yanzu?
 
