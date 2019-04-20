@@ -10,6 +10,7 @@ submit-form-action = გადაგზავნა
 loading = იტვირთება...
 email-opt-in-privacy = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არაფერი გაქვთ საწინააღმდეგო, Mozilla-მ ეს მონაცემები გამოიყენოს, <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
 indicates-required = * მიუთითებს აუცილებელ ველს
+not-available-abbreviation = მიუწვდომელია
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
