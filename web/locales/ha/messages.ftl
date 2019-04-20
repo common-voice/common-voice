@@ -177,6 +177,7 @@ benefits = Amfani
 ## What's public
 
 whats-public = Menene a bainan  Jama'a?
+email-not-public = Ba za mu bayyana adireshin yanar gizonka ba ga jama'a.
 
 ## Speak & Listen Shortcuts
 
@@ -202,6 +203,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-rerecord-toggle = [1-5]
+request-language-button = Nemi izinin wani yaren
 
 ## ProjectStatus
 
@@ -236,10 +238,14 @@ goals = Manufofi
 settings = Saituna
 edit-profile = Gyara Bayananka
 profile-close = Rufe
+why-demographic = Me yasa wannan al'amarin yake da muhimmanci?
+login-identity = Bayanan sirrin ka
 edit = Gyara
+email-subscriptions = Karɓar saƙonnin yanar gizo
 download-profile = Sakko da Bayanaina
 off = Kashe
 on = Kunna
+file_too_large = Fayil ɗin da aka zaɓa ya yi girma sosai
 add-language = Ƙara Yare
 
 ## FAQ
