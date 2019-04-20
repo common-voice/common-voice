@@ -208,6 +208,8 @@ english = Turanci
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Sunan mai Amfani
 profile-form-native-language =
     .label = Yaren asali
 profile-form-additional-language =
@@ -226,6 +228,8 @@ male = Namiji
 female = Mace
 # Gender
 other = Saura
+why-profile-title = Meyasa ake buƙatar bayanai na?
+build-profile = Gina Bayananka
 goals = Manufofi
 settings = Saituna
 edit-profile = Gyara Bayananka
@@ -246,6 +250,7 @@ faq-how-get-q = Ta yaya zan iya samun bayanan Common Voice ?
 ## Glossary
 
 localization = Fassarawa
+sst = Mangana-Zuwa-Rubutu(STT)
 
 ## NotFound
 
@@ -268,6 +273,7 @@ terms-disagree = Ban yarda ba
 language = Yare
 # File size in gigabytes
 size = Girma
+cv-license = Lasisi
 size-gigabyte = GB
 size-megabyte = MB
 go-languages-page = Jeka zuwa shafin yaruka
@@ -286,6 +292,7 @@ contact-form-name =
     .label = Suna
 contact-form-message =
     .label = Saƙo
+contact-required = * Ana buƙata
 
 ## Request Language Modal
 
@@ -316,9 +323,11 @@ action-tap = Shafa
 contribute = Gudunmawa
 listen = Saurari
 skip = Wuce
-record-cta = Fara daukar Murya
+shortcuts = Gajerun hanyoyi
+record-cta = Fara Ɗaukar Murya
 record-three-more-instruction = Saura uku ka gama!
 unable-speak = Ba za ka iya magana ba a yanzu?
+record-abort-continue = Kammala Ɗaukar Murya
 
 ## Goals
 
