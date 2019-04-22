@@ -351,6 +351,7 @@ data-other-title = Даҽа бжьытә дыррақәак-реизга...
 data-other-goto = { $name } ииастәуп
 data-other-download = Адыррақәа ҭагалатәуп
 data-bundle-button = Адырра аизга ҭагалатәуп
+data-bundle-description = Азеиԥш Бжьы адыррақәа еиманы зегь даҽа бжьытә дыррақәак реизгақәа хыхь ыҟоу.
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
 terms-agree = Сақәшаҳаҭуп
