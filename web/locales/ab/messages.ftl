@@ -327,6 +327,7 @@ faq-why-important-a =
 faq-how-get-q = Азеиԥш Бжьы адыррақәа излазго?
 faq-why-my-lang-q = Избан сбызшәа макьана иҟамлаӡацт?
 faq-where-src-from-2-q = Иабантәи зегь аҳәоуқәа ахыҵхырҭа?
+faq-is-account-public-q = Сҳасабрбатә нҵамҭа адыррақәа аицзеиԥшоума?
 
 ## Glossary
 
