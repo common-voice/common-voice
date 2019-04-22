@@ -169,6 +169,11 @@ x-weeks-short =
         [one] Sati
        *[other] sati { $count }
     }
+x-years-short =
+    { $count ->
+        [one] Shekara { $count }
+       *[other] Shekaru { $count }
+    }
 
 ## Account Benefits
 
@@ -245,6 +250,7 @@ email-subscriptions = Karɓar saƙonnin yanar gizo
 download-profile = Sakko da Bayanaina
 off = Kashe
 on = Kunna
+browse-file-title = Ɗora hoto.
 file_too_large = Fayil ɗin da aka zaɓa ya yi girma sosai
 add-language = Ƙara Yare
 
