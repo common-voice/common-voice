@@ -40,6 +40,22 @@ export async function sync(client_id: string) {
   if (!row.basket_token) {
     return;
   }
+  console.log(
+    'basket',
+    JSON.stringify(
+      {
+        email: row.email,
+
+        first_contribution_date: toISO(row.first_contribution_date),
+
+        created_at: toISO(row.goal_created_at),
+        days_interval: row.days_interval,
+        goal_reached_at: toISO(row.goal_reached_at),
+      },
+      null,
+      2
+    )
+  );
   await sendRequest({
     uri: API_URL + '/news/common-voice-goals/',
     method: 'POST',
