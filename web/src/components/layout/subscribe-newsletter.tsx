@@ -5,8 +5,11 @@ import { connect } from 'react-redux';
 import API from '../../services/api';
 import { trackGlobal } from '../../services/tracker';
 import StateTree from '../../stores/tree';
-import { LocalizedGetAttribute } from '../locale-helpers';
+import URLS from '../../urls';
+import CustomGoalLock from '../custom-goal-lock';
+import { LocaleLink, LocalizedGetAttribute } from '../locale-helpers';
 import { CautionIcon, CheckIcon, OldPlayIcon } from '../ui/icons';
+import { LabeledCheckbox } from '../ui/ui';
 
 import './subscribe-newsletter.css';
 
@@ -17,6 +20,7 @@ interface PropsFromState {
 
 const SubscribeNewsletter = ({ api, locale }: PropsFromState) => {
   const [email, setEmail] = useState('');
+  const [privacyAgreed, setPrivacyAgreed] = useState(false);
   const [status, setStatus] = useState<
     null | 'submitting' | 'submitted' | 'error'
   >(null);
@@ -26,6 +30,12 @@ const SubscribeNewsletter = ({ api, locale }: PropsFromState) => {
       className="subscribe-newsletter"
       onSubmit={async e => {
         e.preventDefault();
+
+        if (!privacyAgreed) {
+          setStatus('error');
+          return;
+        }
+
         setStatus('submitting');
         try {
           await api.subscribeToNewsletter(email);
@@ -36,10 +46,22 @@ const SubscribeNewsletter = ({ api, locale }: PropsFromState) => {
           console.error(e);
         }
       }}>
-      <label>
-        <Localized id="email-subscription-title">
-          <div className="title" />
-        </Localized>
+      <CustomGoalLock
+        currentLocale={locale}
+        render={({ hasCustomGoal }) =>
+          hasCustomGoal ? (
+            <div className="goal-title">
+              Sign up for Common Voice newsletters, goal reminders and progress
+              updates
+            </div>
+          ) : (
+            <Localized id="email-subscription-title">
+              <div className="title" />
+            </Localized>
+          )
+        }
+      />
+      <div className="submittable-field">
         <LocalizedGetAttribute id="download-form-email" attribute="label">
           {label => (
             <input
@@ -55,24 +77,38 @@ const SubscribeNewsletter = ({ api, locale }: PropsFromState) => {
             />
           )}
         </LocalizedGetAttribute>
-      </label>
-      <button
-        type="submit"
-        disabled={status != null}
-        {...(status == 'submitted'
-          ? {
-              className: 'success-button',
-              children: <CheckIcon className="icon" />,
-            }
-          : status == 'error'
-          ? {
-              className: 'error-button',
-              children: <CautionIcon className="icon" />,
-            }
-          : {
-              className: 'submit-button',
-              children: <OldPlayIcon className="icon" />,
-            })}
+        <button
+          type="submit"
+          disabled={status != null}
+          {...(status == 'submitted'
+            ? {
+                className: 'success-button',
+                children: <CheckIcon className="icon" />,
+              }
+            : status == 'error'
+            ? {
+                className: 'error-button',
+                children: <CautionIcon className="icon" />,
+              }
+            : {
+                className: 'submit-button',
+                children: <OldPlayIcon className="icon" />,
+              })}
+        />
+      </div>
+      <LabeledCheckbox
+        label={
+          <Localized
+            id="accept-privacy"
+            privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+            <span />
+          </Localized>
+        }
+        checked={privacyAgreed}
+        onChange={(event: any) => {
+          setStatus(null);
+          setPrivacyAgreed(event.target.checked);
+        }}
       />
     </form>
   );

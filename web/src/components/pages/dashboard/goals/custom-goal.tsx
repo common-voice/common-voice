@@ -306,15 +306,7 @@ function CustomGoal({
             <CompletedFields {...{ setStepIndex, state, states, stepIndex }} />
           }
           currentFields={
-            stepIndex == STEPS.SUBMIT ? (
-              <input
-                type="checkbox"
-                checked={subscribed}
-                onChange={event => setSubscribed(event.target.checked)}
-              />
-            ) : (
-              <CurrentFields {...{ setState, state, states, stepIndex }} />
-            )
+            <CurrentFields {...{ setState, state, states, stepIndex }} />
           }
           nextButtonProps={{
             disabled:
@@ -324,6 +316,7 @@ function CustomGoal({
             onClick: () => handleNext(),
           }}
           state={state}
+          {...{ subscribed, setSubscribed }}
         />
       )}
     </div>

@@ -7,6 +7,7 @@ import * as React from 'react';
 import { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from 'common/user-clients';
+import { EN_EMAIL_CONSENT } from '../../../../constants';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -119,7 +120,7 @@ function Settings(props: Props) {
               <LabeledCheckbox
                 disabled={true}
                 checked={true}
-                label="I’d like updates and goal reminders to keep current with Common Voice"
+                label={EN_EMAIL_CONSENT}
               />
             </Localized>
             <div className="privacy-and-terms">

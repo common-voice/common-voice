@@ -16,3 +16,6 @@ export const WHATS_PUBLIC = [
   'demographic-deidentified',
   'username-email-not-demographic',
 ];
+
+export const EN_EMAIL_CONSENT =
+  "I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.";

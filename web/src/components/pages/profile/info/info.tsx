@@ -8,6 +8,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 const { Tooltip } = require('react-tippy');
 import { RouteComponentProps, withRouter } from 'react-router';
+import { EN_EMAIL_CONSENT } from '../../../../constants';
 import API from '../../../../services/api';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
@@ -341,7 +342,7 @@ class ProfilePage extends React.Component<Props, State> {
                   id={locale == 'en' ? '' : 'keep-me-posted'}
                   attrs={{ label: true }}>
                   <LabeledCheckbox
-                    label="I’d like updates and goal reminders to keep current with Common Voice"
+                    label={EN_EMAIL_CONSENT}
                     onChange={this.handleChangeFor('sendEmails')}
                     checked={sendEmails}
                   />

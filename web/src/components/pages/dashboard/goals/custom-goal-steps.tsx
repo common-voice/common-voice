@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { connect } from 'react-redux';
 import { CustomGoal, CustomGoalParams } from 'common/goals';
 import { UserClient } from 'common/user-clients';
+import { EN_EMAIL_CONSENT } from '../../../../constants';
 import URLS from '../../../../urls';
 import { getManageSubscriptionURL } from '../../../../utility';
 import StateTree from '../../../../stores/tree';
@@ -17,7 +18,7 @@ import {
   SettingsIcon,
   ShareIcon,
 } from '../../../ui/icons';
-import { Button, LinkButton } from '../../../ui/ui';
+import { Button, LabeledCheckbox, LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
 
 const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
@@ -80,11 +81,16 @@ export const ViewGoal = ({
 );
 
 interface CustomGoalStepProps {
-  closeButtonProps: React.HTMLProps<HTMLButtonElement>;
   completedFields: React.ReactNode;
   currentFields: React.ReactNode;
+
+  closeButtonProps: React.HTMLProps<HTMLButtonElement>;
   nextButtonProps: React.HTMLProps<HTMLButtonElement>;
+
   state: CustomGoalParams;
+
+  subscribed: boolean;
+  setSubscribed: (subscribed: boolean) => void;
 }
 
 interface AccountProps {
@@ -95,49 +101,68 @@ const SubmitStep = ({
   account,
   closeButtonProps,
   completedFields,
-  currentFields,
   nextButtonProps,
-}: CustomGoalStepProps & AccountProps) => (
-  <div className="padded">
-    {completedFields}
-    {account.basket_token ? (
-      <a
-        className="manage-subscriptions"
-        href={getManageSubscriptionURL(account)}
-        target="__blank"
-        rel="noopener noreferrer">
-        <Localized id="manage-subscriptions">
-          <span />
-        </Localized>
-        <SettingsIcon />
-      </a>
-    ) : (
-      <>
-        <label className="box">
-          {currentFields}
-          <div className="content">
-            I’d like updates and goal reminders to keep current with Common
-            Voice
-          </div>
-        </label>
-        <Localized
-          id="email-opt-in-privacy"
-          privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
-          <p />
-        </Localized>
-        <Localized id="read-terms-q">
-          <LocaleLink to={URLS.TERMS} className="terms" blank />
-        </Localized>
-      </>
-    )}
-    <Buttons>
-      <CloseButton {...closeButtonProps} />
-      <Button rounded className="submit" {...nextButtonProps}>
-        <CheckIcon /> Confirm Goal
-      </Button>
-    </Buttons>
-  </div>
-);
+
+  subscribed,
+  setSubscribed,
+}: CustomGoalStepProps & AccountProps) => {
+  const [privacyAgreed, setPrivacyAgreed] = useState(false);
+  return (
+    <div className="padded">
+      {completedFields}
+      {account.basket_token ? (
+        <a
+          className="manage-subscriptions"
+          href={getManageSubscriptionURL(account)}
+          target="__blank"
+          rel="noopener noreferrer">
+          <Localized id="manage-subscriptions">
+            <span />
+          </Localized>
+          <SettingsIcon />
+        </a>
+      ) : (
+        <>
+          <label className="box">
+            <input
+              type="checkbox"
+              checked={subscribed}
+              onChange={event => setSubscribed(event.target.checked)}
+            />
+            <div className="content">{EN_EMAIL_CONSENT}</div>
+          </label>
+          <label className="box">
+            <input
+              type="checkbox"
+              checked={privacyAgreed}
+              onChange={event => setPrivacyAgreed(event.target.checked)}
+            />
+            <div className="content">
+              <Localized
+                id="accept-privacy"
+                privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                <span />
+              </Localized>
+            </div>
+          </label>
+          <Localized id="read-terms-q">
+            <LocaleLink to={URLS.TERMS} className="terms" blank />
+          </Localized>
+        </>
+      )}
+      <Buttons>
+        <CloseButton {...closeButtonProps} />
+        <Button
+          rounded
+          className="submit"
+          {...nextButtonProps}
+          disabled={subscribed && !privacyAgreed}>
+          <CheckIcon /> Confirm Goal
+        </Button>
+      </Buttons>
+    </div>
+  );
+};
 
 export default [
   ({ nextButtonProps }) => (

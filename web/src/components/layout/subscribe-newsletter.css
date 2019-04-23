@@ -2,19 +2,31 @@
 
 .subscribe-newsletter {
     display: flex;
+    flex-direction: column;
     font-family: var(--base-font-family);
     font-size: var(--font-size-xs);
     letter-spacing: 0.4px;
 
-    & label {
-        flex: 1;
+    & .title,
+    & .goal-title {
+        margin-bottom: 10px;
+        color: var(--warm-grey);
     }
 
     & .title {
-        margin-bottom: 10px;
         text-transform: uppercase;
         font-weight: 600;
-        color: var(--warm-grey);
+    }
+
+    & .goal-title {
+        font-size: 14px;
+        line-height: 1.71;
+    }
+
+    & .submittable-field {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
     }
 
     & input,
@@ -86,6 +98,14 @@
         transform: translate(-50%, -50%);
         & path {
             fill: white;
+        }
+    }
+
+    & .checkbox-container {
+        border-color: var(--white);
+
+        & path {
+            fill: var(--white);
         }
     }
 }
