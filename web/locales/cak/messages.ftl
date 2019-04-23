@@ -8,6 +8,7 @@ email-input =
     .label = Taqoya'l
 submit-form-action = Titaq
 loading = Nisamajib'ëx...
+not-available-abbreviation = M/O
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -355,9 +356,7 @@ request-language-success-content = Xtiqatzijoj chawe ch'aqa' chik etamab'äl pa 
 ## Languages Overview
 
 language-section-in-progress = Nik'ïy
-language-section-in-progress-description = Ja ri qatinamit yetz'ukun richin yek'iyïr ri taq ch'ab'äl; achi'el achike peraj k'o wi chi rij ri ruk'iyirisanem ajk'amaya'l rutzalq'omanem chuqa' ri kimolik taq q'aptzij.
 language-section-launched = E'elesan
-language-section-launched-new-description = Pa re taq ch'ab'äl re' ri ajk'amaya'l ruxaq tzalq'omin chik ronojel chuqa' k'ïy taq q'aptzij emolon richin nitikïr yeruk'ül taq to'ïk <italic>Nich'ab'ëx</italic> chuqa' <italic>Nak'axäx</italic>.
 languages-show-more = Titz'et Ch'aqa' Chik
 languages-show-less = Titz'et Jub'a'
 language-speakers = Ch'ab'anela'
