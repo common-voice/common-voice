@@ -56,6 +56,7 @@ fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
 gl = Galiciska
+ha = Hausa
 he = Hebreiska
 hi-IN = Hindi
 hr = Kroatiska
