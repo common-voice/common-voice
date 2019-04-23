@@ -479,6 +479,8 @@ clips-you-validated = Игәауҭаз анҵамҭақәа
 stats = Аҭагылазаашьа
 you = Уара
 everyone = Ахархәаҩцәа зегьы
+contribution-activity = Аҽалархәра Аусушьа
+top-contributors = Ахыхь Алахәылацәа
 recorded-clips = Анҵамҭақәа абжьы ахарҵеит
 validated-clips = Анҵамҭақәа гәаҭан
 
