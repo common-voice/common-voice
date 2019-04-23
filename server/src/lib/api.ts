@@ -223,7 +223,7 @@ export default class API {
           avatarURL =
             'https://gravatar.com/avatar/' +
             MD5(user.emails[0].value).toString() +
-            '.png?s=24';
+            '.png';
           await sendRequest(avatarURL + '&d=404');
         } catch (e) {
           if (e.name != 'StatusCodeError') {
