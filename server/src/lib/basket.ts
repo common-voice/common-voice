@@ -2,12 +2,13 @@ import * as sendRequest from 'request-promise-native';
 import { getConfig } from '../config-helper';
 import { getMySQLInstance } from './model/db/mysql';
 
-const { BASKET_API_KEY, PROD } = getConfig();
+const { BASKET_API_KEY, ENVIRONMENT } = getConfig();
 const db = getMySQLInstance();
 
-export const API_URL = PROD
-  ? 'https://basket.mozilla.org'
-  : 'https://basket-dev.allizom.org';
+export const API_URL =
+  ENVIRONMENT == 'prod'
+    ? 'https://basket.mozilla.org'
+    : 'https://basket-dev.allizom.org';
 
 function toISO(date: string) {
   return date ? new Date(date).toISOString().slice(0, -5) + 'Z' : null;
