@@ -475,6 +475,7 @@ recordings =
 ## Dashboard
 
 your-languages = Убызшәақәа
+clips-you-recorded = Абжьы рхаурҵаз анҵамҭақәа
 clips-you-validated = Игәауҭаз анҵамҭақәа
 stats = Аҭагылазаашьа
 you = Уара
