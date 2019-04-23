@@ -117,8 +117,13 @@ let prevUser: User.State = null;
 store.subscribe(async () => {
   const { locale, user } = store.getState();
 
-  if ((!prevUser || !prevUser.account) && user.account) {
+  if (ga && (!prevUser || !prevUser.account) && user.account) {
     ga('set', 'userId', await hash(user.account.client_id));
+    const { customGoal } = user.account;
+    if (customGoal) {
+      const goals = Object.keys(customGoal.current);
+      ga('set', 'custom_goal_type', goals.length > 1 ? 'both' : goals[0]);
+    }
   }
 
   for (const field of Object.keys(fieldTrackers)) {
