@@ -133,8 +133,10 @@ languages = زمانەکان
 profile = پرۆفایل
 help = یارمەتی
 contact = پەیوەندی
+terms = مەرجەکان
 cookies = کووکیەکان
 faq = پرسیارە باوەکان
+content-license-text = نهێنێتی
 link-copied = لینک کۆپی کرا
 back-top = بگەڕێوە بۆ سەرەوە
 logout = دەرچوون
@@ -149,12 +151,20 @@ vote-no = نەخێر
 speak-subtitle = دەنگت ببەخشە
 speak-goal-text = دەنگی تۆمارکراو
 listen-subtitle = یارمەتیمان بدە دەنگەکان بسەلمێنین
+listen-goal-text = کلیپی سەلماندراو
+hours-recorded = کاژێرت تۆمارکراو
 voices-online = دەنگی ئێستا ئانڵاین
 todays-progress = پێشکەوتنی ئەمڕۆ
 help-reach-goal = یارمەتیمان بدە بگەین بە { $goal }
+read-terms-q = مەرجەکانی ئێمەت خوێندوەتەوە؟
 ready-to-record = ئامادەی دەنگی خۆت ببەخشی؟
 all-locales = هەموو
 today = ئەمڕۆ
+x-weeks-short =
+    { $count ->
+        [one] هەفتە
+       *[other] هەفتە
+    }
 x-months-short =
     { $count ->
         [one] مانگ
@@ -250,9 +260,10 @@ avatar = ئاڤاتار
 goals = ئامانجەکان
 settings = ڕێکخستنەکان
 edit-profile = دەسکاریکردنی پرۆفایل
-profile-create-success = سەرکەوتن! پرۆفایل ساز کرا!
+profile-create-success = سەرکەوتن! پرۆفایل ساز کرا
 profile-close = بەستن
 why-demographic = گرینگی ئەوە چییە؟
+login-identity = ناسنامەی تێپەڕبوون
 edit = دەسکاریکردن
 email-subscriptions = ئابوونەی ئیمەیلی
 download-profile = داگرتنی دەیتای من
@@ -260,6 +271,9 @@ off = خامۆش
 on = ڕۆشن
 add-avatar-title = ئەڤاترێک بە پرۆفایلی خۆت زیاد بکە
 browse-file-title = فایلێکی وێنە ئاپلۆد بکە
+connect-gravatar = بەستنەوە لەگەڵ Gravatar
+manage-subscriptions = کارگێڕی ئابوونەکان
+email-already-used = ئەم ئیمەیلە بۆ هەژمارێکی تر بە کار هێنراوە
 add-language = زمان زیاد کە
 
 ## FAQ
@@ -267,9 +281,12 @@ add-language = زمان زیاد کە
 faq-title = پرسیارە زۆر باوەکان
 faq-what-cv-q = دەنگی گشتی چییە؟
 faq-why-important-q = بۆچی گرینگە؟
+faq-why-my-lang-q = بۆچی هێشتا زمانی منی تیا نییە؟
+faq-how-calc-hours-q = ئەم پڕۆژە چۆن کاژێرەکان لێک دەدات؟
 
 ## Glossary
 
+glossary = فه‌رهه‌نگۆک
 sentence-collection = کۆکردنی ڕەستە
 sst = وتار-بۆ-تێکست
 sst-explanation = تەکنۆلۆژیار وتار-بۆ-تێکست، دەیتای دەنگی دەکات بە تێکست
@@ -287,19 +304,27 @@ data-other-goto = بڕۆ بۆ { $name }
 data-other-download = داگرتنی دەیتا
 license-mixed = تێکەڵ
 terms-agree = ڕەزامەندم
+terms-disagree = ڕەزامەند نیم
 review-submit-title = پێداچوونەوەو ناردن
 review-recording = پێداچوونەوە
+review-cancel = لاوەنانی ناردن
+review-keep-recordings = دەنگەکان ڕاگرە
+review-delete-recordings = دەنگەکانی من بسڕەوە
 
 ## New Datasets Page
 
 language = زمان
 # File size in gigabytes
 size = قەبارە
+cv-license = بڕوانامە
+audio-format = فۆرماتی دەنگ
 number-of-voices = ژمارەی دەنگەکان
+splits = لەتەکان
 email-to-download = ئیمەیلی خۆت بنووسە تا بتوانی دانڵۆد بکەی
 size-gigabyte = گ.ب
 size-megabyte = م.ب
 download-language = داگرتنی { $language }
+feedback-q = ڕەخنەوپێشنیارت هەیە؟
 more = زیاتر
 close = بەستن
 download = داگرتن
@@ -313,6 +338,7 @@ download-no = نەخێر سوپاس
 
 ## Contact Modal
 
+contact-title = فۆڕمی پەیوەندی
 contact-form-name =
     .label = ناو
 contact-form-message =
@@ -329,6 +355,7 @@ other-language = زمانی تر
 
 ## Languages Overview
 
+language-section-in-progress = خەریکی پێشکەوتن
 language-section-launched = دەست پێکراو
 languages-show-more = بینینی زیاتر
 languages-show-less = بینینی کەمتر
@@ -343,7 +370,9 @@ sentences = ڕەستەکان
 ## New Contribution
 
 action-click = کلیک
+action-tap = لێدان
 listen = ببیستە
+skip = باز دان
 record-three-more-instruction = سێ دانە ماوە
 unable-speak = ئێستا ناتوانی قسە بکەی؟
 clips-uploaded = دەنگی ئاپلۆدکراو
