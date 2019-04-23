@@ -38,6 +38,6 @@
 
     & text {
         fill: var(--type-color);
-        font-weight: bold;
+        font-weight: 600;
     }
 }

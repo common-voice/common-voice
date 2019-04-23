@@ -404,8 +404,9 @@
 
         & .goal-box {
             border: 1.6px solid var(--grey);
+            border-radius: 5px;
             margin-bottom: 70px;
-            padding: 30px 12px 50px 30px;
+            padding: 30px 30px 50px;
             position: relative;
             display: flex;
             flex-direction: row;
@@ -422,6 +423,11 @@
 
             color: var(--color);
             --type-color: var(--color);
+
+            & .fraction {
+                position: relative;
+                top: 9px;
+            }
 
             & .relative {
                 display: flex;
