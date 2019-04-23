@@ -156,23 +156,23 @@ export async function importSentences(pool: any) {
   (await useRedis) &&
     (await redis.set('sentences-version', version.toString()));
 
-  await pool.query(
-    `
-      DELETE FROM sentences
-      WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
-            id NOT IN (SELECT sentence_id FROM skipped_sentences) AND
-            version <> ?
-    `,
-    [version]
-  );
-  await pool.query(
-    `
-      UPDATE sentences
-      SET is_used = FALSE
-      WHERE version <> ?
-    `,
-    [version]
-  );
+  // await pool.query(
+  //   `
+  //     DELETE FROM sentences
+  //     WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
+  //           id NOT IN (SELECT sentence_id FROM skipped_sentences) AND
+  //           version <> ?
+  //   `,
+  //   [version]
+  // );
+  // await pool.query(
+  //   `
+  //     UPDATE sentences
+  //     SET is_used = FALSE
+  //     WHERE version <> ?
+  //   `,
+  //   [version]
+  // );
 
   const [localeCounts] = (await pool.query(
     `
