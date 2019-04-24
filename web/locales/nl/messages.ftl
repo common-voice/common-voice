@@ -8,6 +8,7 @@ email-input =
     .label = E-mailadres
 submit-form-action = Indienen
 loading = Laden…
+email-opt-in-info = Ik wil graag e-mailberichten zoals herinneringen aan doelstellingen, mijn voortgangsupdates en nieuwsbrieven over Common Voice ontvangen.
 email-opt-in-privacy = Door u in te schrijven voor het ontvangen van e-mailberichten, verklaart u dat u akkoord gaat met het verwerken van deze informatie door Mozilla in overeenstemming met Mozilla’s <privacyLink>Privacybeleid<privacyLink>.
 indicates-required = * Geeft verplicht veld aan
 not-available-abbreviation = NB
