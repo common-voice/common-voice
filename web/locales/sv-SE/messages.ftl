@@ -8,6 +8,7 @@ email-input =
     .label = E-post
 submit-form-action = Skicka in
 loading = Laddar…
+email-opt-in-info = Jag vill få e-postmeddelanden med påminnelser om mål, mina framstegsuppdateringar och nyhetsbrev om Common Voice.
 email-opt-in-privacy = Genom att ta emot e-postmeddelanden godkänner du Mozillas hantering av denna information som förklaras i Mozillas <privacyLink>sekretesspolicy<privacyLink>.
 indicates-required = * Indikerar obligatoriska fält
 not-available-abbreviation = inte tillgänglig
