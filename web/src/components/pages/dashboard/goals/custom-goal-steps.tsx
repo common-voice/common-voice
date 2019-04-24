@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { connect } from 'react-redux';
 import { CustomGoal, CustomGoalParams } from 'common/goals';
 import { UserClient } from 'common/user-clients';
-import { EN_EMAIL_CONSENT } from '../../../../constants';
 import URLS from '../../../../urls';
 import { getManageSubscriptionURL } from '../../../../utility';
 import StateTree from '../../../../stores/tree';
@@ -129,7 +128,9 @@ const SubmitStep = ({
               checked={subscribed}
               onChange={event => setSubscribed(event.target.checked)}
             />
-            <div className="content">{EN_EMAIL_CONSENT}</div>
+            <Localized id="email-opt-in-info">
+              <div className="content" />
+            </Localized>
           </label>
           <label className="box">
             <input

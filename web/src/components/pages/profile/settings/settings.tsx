@@ -7,7 +7,6 @@ import * as React from 'react';
 import { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from 'common/user-clients';
-import { EN_EMAIL_CONSENT } from '../../../../constants';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -120,7 +119,11 @@ function Settings(props: Props) {
               <LabeledCheckbox
                 disabled={true}
                 checked={true}
-                label={EN_EMAIL_CONSENT}
+                label={
+                  <Localized id="email-opt-in-info">
+                    <span />
+                  </Localized>
+                }
               />
             </Localized>
             <div className="privacy-and-terms">

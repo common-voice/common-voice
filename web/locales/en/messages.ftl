@@ -7,6 +7,7 @@ email-input =
     .label = Email
 submit-form-action = Submit
 loading = Loading…
+email-opt-in-info = I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.
 email-opt-in-privacy = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy<privacyLink>.
 indicates-required = * Indicates required field
 not-available-abbreviation = N/A
