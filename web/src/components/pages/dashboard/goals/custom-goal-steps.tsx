@@ -269,7 +269,13 @@ export default [
                 both: 'Speaking and Listening',
               } as any)[state.type]
             }`}
-            onRequestClose={() => setShowShareModal(false)}
+            onRequestClose={() => {
+              setShowShareModal(false);
+              const { onClick } = nextButtonProps as any;
+              if (onClick) {
+                onClick();
+              }
+            }}
           />
         )}
         <div className="check">
