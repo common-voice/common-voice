@@ -37,7 +37,10 @@ export async function sync(client_id: string) {
     `,
     [client_id]
   );
-  if (!row.basket_token) {
+  if (
+    !row.basket_token ||
+    (!row.first_contribution_date && !row.goal_created_at)
+  ) {
     return;
   }
   console.log(
