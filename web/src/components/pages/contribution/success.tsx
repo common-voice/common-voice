@@ -43,15 +43,11 @@ interface Props extends PropsFromState {
 function Success({ api, onReset, type, user }: Props) {
   const hasAccount = user.account;
   const customGoal = hasAccount && user.account.customGoal;
-  const hasCustomGoalForThis =
-    customGoal && customGoal.current[type] !== undefined;
-  const goalValue = hasCustomGoalForThis ? customGoal.amount : DAILY_GOAL[type];
+  const goalValue = DAILY_GOAL[type];
 
   const killAnimation = useRef(false);
   const startedAt = useRef(null);
-  const [contributionCount, setContributionCount] = useState(
-    hasCustomGoalForThis ? customGoal.current[type] + SET_COUNT : null
-  );
+  const [contributionCount, setContributionCount] = useState(null);
   const [currentCount, setCurrentCount] = useState(null);
 
   function countUp(time: number) {
@@ -69,9 +65,6 @@ function Success({ api, onReset, type, user }: Props) {
   }
 
   useEffect(() => {
-    if (hasCustomGoalForThis) {
-      return;
-    }
     (type === 'speak'
       ? api.fetchDailyClipsCount()
       : api.fetchDailyVotesCount()
@@ -131,24 +124,10 @@ function Success({ api, onReset, type, user }: Props) {
       </div>
 
       <Localized
-        id={
-          hasCustomGoalForThis
-            ? ''
-            : type === 'speak'
-            ? 'goal-help-recording'
-            : 'goal-help-validation'
-        }
+        id={type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'}
         goalPercentage={goalPercentage}
         $goalValue={goalValue}>
-        <h1>
-          {hasCustomGoalForThis && (
-            <>
-              You've reached {goalPercentage} of your{' '}
-              {customGoal.days_interval == 1 ? 'daily' : 'weekly'} {goalValue}{' '}
-              {type == 'speak' ? 'recording' : 'validation'} goal!
-            </>
-          )}
-        </h1>
+        <h1 />
       </Localized>
 
       <div className="progress">
