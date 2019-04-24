@@ -6,7 +6,7 @@ const { BASKET_API_KEY, ENVIRONMENT } = getConfig();
 const db = getMySQLInstance();
 
 export const API_URL =
-  ENVIRONMENT == 'prod'
+  ENVIRONMENT == 'prod' || ENVIRONMENT == 'stage'
     ? 'https://basket.mozilla.org'
     : 'https://basket-dev.allizom.org';
 
