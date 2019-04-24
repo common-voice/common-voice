@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Υποβολή
 loading = Φόρτωση...
+email-opt-in-info = Θα ήθελα να λαμβάνω emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 email-opt-in-privacy = Επιλέγοντας να λαμβάνετε emails, δηλώνετε ότι συμφωνείτε με το χειρισμό αυτών των πληροφοριών από τη Mozilla, όπως εξηγείται στην <privacyLink>πολιτική απορρήτου<privacyLink> της Mozilla.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
