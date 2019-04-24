@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Inviar
 loading = Cargamento…
+email-opt-in-info = Io amarea reciper emails como mementos de  propositos, actualisationes de mi progressos e litteras de novas re Common Voice.
 email-opt-in-privacy = Si ti opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
