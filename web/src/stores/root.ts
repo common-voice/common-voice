@@ -134,7 +134,7 @@ store.subscribe(async () => {
   }
   prevUser = user;
 
-  localStorage[USER_KEY] = JSON.stringify(user);
+  localStorage[USER_KEY] = JSON.stringify({ ...user, account: null });
 });
 
 // Only check for storage events in non-IE browsers, as it misfires in IE
