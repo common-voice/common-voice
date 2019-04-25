@@ -8,8 +8,10 @@ email-input =
     .label = Tölvupóstur
 submit-form-action = Senda inn
 loading = Hleður...
+email-opt-in-info = Ég vil gjarnan fá tölvupóst um markmiðsáminningar, framvindu mína og fréttabréf Samróms.
 email-opt-in-privacy = Með því að kjósa að fá tölvupóst frá okkur samþykkir þú að Mozilla notist við þær upplýsingar eins og lýst er í <privacyLink>Meðferð persónuupplýsinga<privacyLink>.
 indicates-required = * táknar nauðsynlegan reit
+not-available-abbreviation = Á ekki við
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
