@@ -266,6 +266,10 @@
             display: block;
         }
 
+        & .subscription-info {
+            color: var(--warm-grey);
+        }
+
         & .manage-subscriptions {
             margin-bottom: 30px;
             display: flex;

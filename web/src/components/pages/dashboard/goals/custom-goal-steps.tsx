@@ -110,16 +110,22 @@ const SubmitStep = ({
     <div className="padded">
       {completedFields}
       {account.basket_token ? (
-        <a
-          className="manage-subscriptions"
-          href={getManageSubscriptionURL(account)}
-          target="__blank"
-          rel="noopener noreferrer">
-          <Localized id="manage-subscriptions">
-            <span />
-          </Localized>
-          <SettingsIcon />
-        </a>
+        <>
+          <p className="subscription-info">
+            You're currently set to receive emails such as goal reminders, my
+            progress updates and newsletters about Common Voice
+          </p>
+          <a
+            className="manage-subscriptions"
+            href={getManageSubscriptionURL(account)}
+            target="__blank"
+            rel="noopener noreferrer">
+            <Localized id="manage-email-subscriptions">
+              <span />
+            </Localized>
+            <SettingsIcon />
+          </a>
+        </>
       ) : (
         <>
           <label className="box">
