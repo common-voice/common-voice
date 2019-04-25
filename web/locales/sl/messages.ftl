@@ -10,6 +10,7 @@ submit-form-action = Pošlji
 loading = Nalaganje …
 email-opt-in-privacy = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti<privacyLink>.
 indicates-required = * Zahtevano polje
+not-available-abbreviation = Ni na voljo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +99,7 @@ ru = ruščina
 rw = ruandščina
 sah = jakutščina
 sc = sardinščina
+si = sinhalščina
 sk = slovaščina
 sl = slovenščina
 sq = albanščina
@@ -309,8 +311,6 @@ profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagaj
 thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja vašega profila.
 why-demographic = Zakaj je to pomembno?
 why-demographic-explanation = Anonimni uporabniški podatki, kot so starost, spol in naglas, izboljšajo glasovne podatke, ki se uporabljajo za zagotavljanje natančnosti sistemov za prepoznavanje govora. Vaše uporabniško ime in e-pošta ne bosta nikoli povezana z vašimi posredovanimi podatki, zato lahko izberete, ali bo vaše uporabniško ime javno ali anonimno.
-keep-me-posted =
-    .label = Želim prejemati posodobitve in novosti o poteku projekta Common Voice.
 accept-privacy = Strinjam se z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>
 login-identity = Identiteta prijave
 login-signup = Prijava / Registracija
