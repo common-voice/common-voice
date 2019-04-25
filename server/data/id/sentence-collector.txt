@@ -185,7 +185,10 @@ Apa yang kamu lakukan lebih penting daripada apa yang kamu katakan.
 Apa yang keluar dari hati, datang ke hati.
 Apa yang membuat dia tetap datang ke pesta itu?
 Apa yang sedang dilakukan Ken?
+Apa yang sedang kamu baca?
 Apa yang sedang kamu kerjakan?
+Apa yang sedang kamu khawatirkan?
+Apa yang sedang kamu tulis?
 Apakah Anda mau kopi.
 Apakah Anda mau kuenya satu.
 Apakah Anda percaya pada Tuhan?
@@ -217,6 +220,7 @@ Apakah tertawa hanya ada pada manusia?
 Apartemen ini biaya sewanya mahal.
 Api itu membakar habis sepuluh rumah.
 Api telah padam dan ruangan itu menjadi dingin.
+Arloji saya dicuri.
 Awal bulan depan saya akan pulang ke negara saya.
 Awas! Ada truk lewat!
 Awas, Ada lubang di jalanan.
@@ -374,6 +378,7 @@ Bukan itu yang aku cari.
 Buku di dalam tas.
 Buku ini ada seratus dua puluh halaman.
 Buku ini membosankan.
+Buku ini milikmu?
 Buku ini sulit karena huruf kanjinya banyak.
 Buku ini tentang perbintangan.
 Buku itu punya saya.
@@ -960,6 +965,7 @@ Kamu harus hati-hati jangan membuatnya marah.
 Kamu harus melakukannya, suka tidak suka.
 Kamu harus memperhatikan rambu-rambu lalu lintas.
 Kamu ingin pergi?
+Kamu kelas berapa?
 Kamu lebih memilih pergi ke kebun binatang atau bioskop?
 Kamu masih muda.
 Kamu mau pergi?

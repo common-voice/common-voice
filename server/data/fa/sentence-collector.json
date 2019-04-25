@@ -1,0 +1,20 @@
+[
+  {
+    "valid": ["medise", "guftall", "dehghaniomid"],
+    "source": "myself",
+    "invalid": [],
+    "approved": true,
+    "sentence": "چرا چرند میگی",
+    "username": "alza",
+    "createdAt": 1550567408813,
+    "approvalDate": 1555416897302,
+    "Sentences_Meta_UserVote_medise": true,
+    "Sentences_Meta_UserVote_guftall": true,
+    "Sentences_Meta_UserVoteDate_medise": 1554982664624,
+    "Sentences_Meta_UserVoteDate_guftall": 1555414847135,
+    "Sentences_Meta_UserVote_dehghaniomid": true,
+    "Sentences_Meta_UserVoteDate_dehghaniomid": 1555416897302,
+    "id": "6eaed1d9e024b06083081dc7badb980540fb39627296be1da715be51a24acad0",
+    "last_modified": 1555416897837
+  }
+]
