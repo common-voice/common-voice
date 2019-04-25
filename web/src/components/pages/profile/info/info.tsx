@@ -337,19 +337,15 @@ class ProfilePage extends React.Component<Props, State> {
               </Tooltip>
 
               <div className="checkboxes">
-                <Localized
-                  id={locale == 'en' ? '' : 'keep-me-posted'}
-                  attrs={{ label: true }}>
-                  <LabeledCheckbox
-                    label={
-                      <Localized id="email-opt-in-info">
-                        <span />
-                      </Localized>
-                    }
-                    onChange={this.handleChangeFor('sendEmails')}
-                    checked={sendEmails}
-                  />
-                </Localized>
+                <LabeledCheckbox
+                  label={
+                    <Localized id="email-opt-in-info">
+                      <span />
+                    </Localized>
+                  }
+                  onChange={this.handleChangeFor('sendEmails')}
+                  checked={sendEmails}
+                />
 
                 {!user.account && !isSubmitted && (
                   <React.Fragment>

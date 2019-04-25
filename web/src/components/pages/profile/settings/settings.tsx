@@ -113,19 +113,15 @@ function Settings(props: Props) {
             </a>
           }>
           <div className="email-section">
-            <Localized
-              id={locale == 'en' ? '' : 'keep-me-posted'}
-              attrs={{ label: true }}>
-              <LabeledCheckbox
-                disabled={true}
-                checked={true}
-                label={
-                  <Localized id="email-opt-in-info">
-                    <span />
-                  </Localized>
-                }
-              />
-            </Localized>
+            <LabeledCheckbox
+              disabled={true}
+              checked={true}
+              label={
+                <Localized id="email-opt-in-info">
+                  <span />
+                </Localized>
+              }
+            />
             <div className="privacy-and-terms">
               <InfoIcon />
               <div>
