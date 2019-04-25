@@ -55,7 +55,9 @@ fo = Færeyska
 fr = Franska
 fy-NL = Frísneska
 ga-IE = Írska
+gl = Galisíska
 he = Hebreska
+hi-IN = Hindí
 hr = Króatíska
 hsb = Hásorbíska
 hu = Ungverska
@@ -69,8 +71,11 @@ kab = Kabýlska
 kk = Kasakska
 ko = Kóreska
 kpv = Kómíska
+ku = Kúrdíska
 kw = Kornbreska
 ky = Kyrgíska
+lt = Litháenska
+lv = Lettneska
 mdf = Mokseska
 mhr = Austur-mari
 mk = Makedónska
@@ -91,6 +96,7 @@ ru = Rússneska
 rw = Rúandíska
 sah = Jakútíska
 sc = Sardiníska
+si = Singalíska
 sk = Slóvaska
 sl = Slóvenska
 sq = Albanska
@@ -231,6 +237,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Taka upp/Stöðva
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Taka upp aftur
 request-language-text = Sérðu enn engan Samróm fyrir tungumálið þitt?
 request-language-button = Biðja um tungumál
 
@@ -408,6 +416,7 @@ recorded-hours = Uppteknar klukkustundir
 whats-inside = Hvað er í málheild Samróms?
 subscribe = Gerast áskrifandi
 other-datasets = Aðrar málheildir
+feedback-q = Ertu með ábendingar?
 data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
@@ -417,6 +426,9 @@ your-feedback = Ertu með hugmyndir um hvernig mætti bæta Samróms-gagnasafni�
 go-discourse = Fara á Discourse
 go-languages-page = Fara á tungumálasíðu
 ready-to-validate = Tilbúin(n) til að hjálpa okkur að staðfesta setningar?
+more = Meira
+close = Loka
+download = Niðurhala
 
 ## Download Modal
 
@@ -444,6 +456,8 @@ request-language-form-language =
     .label = Tungumál
 request-language-success-title = Tungumálabeiðni tókst að senda inn. Takk fyrir.
 request-language-success-content = Við munum vera í sambandi fljótlega til að útskýra betur hvernig hægt er að bæta þínu tungumáli við Samróm.
+select-language = Velja tungumál...
+other-language = Annað tungumál
 
 ## Languages Overview
 
