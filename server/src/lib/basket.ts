@@ -20,12 +20,13 @@ export async function sync(client_id: string) {
       SELECT
         email,
         basket_token,
-        MIN(clips.created_at) AS first_contribution_date,
+        LEAST(MIN(clips.created_at), MIN(votes.created_at)) AS first_contribution_date,
         current_goal.created_at AS goal_created_at,
         current_goal.days_interval,
         MAX(awards.created_at) AS goal_reached_at
       FROM user_clients
       LEFT JOIN clips ON user_clients.client_id = clips.client_id
+      LEFT JOIN votes ON user_clients.client_id = votes.client_id
       LEFT JOIN custom_goals goals ON user_clients.client_id = goals.client_id
       LEFT JOIN custom_goals current_goal ON (
         user_clients.client_id = current_goal.client_id AND
