@@ -35,6 +35,7 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
+import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
 import { LoginFailure, LoginSuccess } from './pages/login';
 import { Spinner } from './ui/ui';
@@ -60,7 +61,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.add;
+  addNotification: typeof Notifications.actions.addBanner;
   removeUpload: typeof Uploads.actions.remove;
   setLocale: typeof Locale.actions.set;
   refreshUser: typeof User.actions.refresh;
@@ -116,16 +117,23 @@ let LocalizedPage: any = class extends React.Component<
       await this.prepareBundleGenerator(nextProps);
     }
 
-    if (
-      account &&
-      account.awards &&
-      account.awards.some(a => !a.seen_at && !this.seenAwardIds.includes(a.id))
-    ) {
+    const award =
+      account && account.awards
+        ? account.awards.find(
+            a => !a.seen_at && !this.seenAwardIds.includes(a.id)
+          )
+        : null;
+
+    if (award) {
       this.seenAwardIds.push(...account.awards.map(a => a.id));
       addNotification(
-        <LocaleLink to={URLS.AWARDS}>
-          You got an award! Click here to see it.
-        </LocaleLink>
+        `Success, ${award.amount} Clip ${
+          award.days_interval == 1 ? 'daily' : 'weekly'
+        } goal achieved!`,
+        {
+          children: 'Check out your award!',
+          to: URLS.AWARDS,
+        }
       );
       await api.seenAwards();
     }
@@ -230,9 +238,19 @@ let LocalizedPage: any = class extends React.Component<
               {notifications
                 .slice()
                 .reverse()
-                .map(notification => (
-                  <NotificationPill key={notification.id} {...notification} />
-                ))}
+                .map(notification =>
+                  notification.kind == 'pill' ? (
+                    <NotificationPill
+                      key={notification.id}
+                      {...{ notification }}
+                    />
+                  ) : (
+                    <NotificationBanner
+                      key={notification.id}
+                      {...{ notification }}
+                    />
+                  )
+                )}
             </div>
 
             <Switch>
@@ -273,7 +291,7 @@ LocalizedPage = withRouter(
         uploads,
       }),
       {
-        addNotification: Notifications.actions.add,
+        addNotification: Notifications.actions.addBanner,
         removeUpload: Uploads.actions.remove,
         setLocale: Locale.actions.set,
         refreshUser: User.actions.refresh,

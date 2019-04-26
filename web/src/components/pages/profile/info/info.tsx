@@ -54,7 +54,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.add;
+  addNotification: typeof Notifications.actions.addPill;
   addUploads: typeof Uploads.actions.add;
   saveAccount: typeof User.actions.saveAccount;
 }
@@ -394,7 +394,7 @@ export default connect<PropsFromState, PropsFromDispatch>(
   }),
   {
     addUploads: Uploads.actions.add,
-    addNotification: Notifications.actions.add,
+    addNotification: Notifications.actions.addPill,
     saveAccount: User.actions.saveAccount,
   }
 )(withLocalization(withRouter(ProfilePage)));

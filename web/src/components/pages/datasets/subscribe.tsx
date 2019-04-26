@@ -18,7 +18,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.add;
+  addNotification: typeof Notifications.actions.addPill;
 }
 
 interface Props extends PropsFromState, PropsFromDispatch {}
@@ -130,5 +130,5 @@ export default connect<PropsFromState, PropsFromDispatch>(
     account: user.account,
     api,
   }),
-  { addNotification: Notifications.actions.add }
+  { addNotification: Notifications.actions.addPill }
 )(Subscribe);

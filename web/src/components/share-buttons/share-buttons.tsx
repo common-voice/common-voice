@@ -16,7 +16,7 @@ import './share-buttons.css';
 const SHARE_URL = 'https://voice.mozilla.org/';
 
 interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.add;
+  addNotification: typeof Notifications.actions.addPill;
 }
 
 type Props = LocalizationProps & PropsFromDispatch & LocalePropsFromState;
@@ -75,6 +75,6 @@ function ShareButtons({ addNotification, getString, locale }: Props) {
 export default connect<void, PropsFromDispatch>(
   null,
   {
-    addNotification: Notifications.actions.add,
+    addNotification: Notifications.actions.addPill,
   }
 )(localeConnector(withLocalization(ShareButtons)));

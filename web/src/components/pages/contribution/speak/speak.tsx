@@ -88,7 +88,7 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   addUploads: typeof Uploads.actions.add;
-  addNotification: typeof Notifications.actions.add;
+  addNotification: typeof Notifications.actions.addPill;
   removeSentences: typeof Sentences.actions.remove;
   tallyRecording: typeof User.actions.tallyRecording;
   refreshUser: typeof User.actions.refresh;
@@ -618,7 +618,7 @@ const mapStateToProps = (state: StateTree) => {
 };
 
 const mapDispatchToProps = {
-  addNotification: Notifications.actions.add,
+  addNotification: Notifications.actions.addPill,
   addUploads: Uploads.actions.add,
   removeSentences: Sentences.actions.remove,
   tallyRecording: User.actions.tallyRecording,

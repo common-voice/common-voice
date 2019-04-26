@@ -11,9 +11,9 @@ interface PropsFromDispatch {
   removeNotification: typeof Notifications.actions.remove;
 }
 
-type Props = Notifications.Notification & PropsFromDispatch;
+type Props = { notification: Notifications.Notification } & PropsFromDispatch;
 
-function NotificationPill({ content, id, removeNotification, type }: Props) {
+function NotificationPill({ notification, removeNotification }: Props) {
   const [show, setShow] = useState(true);
 
   useEffect(() => {
@@ -23,10 +23,13 @@ function NotificationPill({ content, id, removeNotification, type }: Props) {
 
   return (
     <div
-      className={'notification-pill ' + type}
+      className={
+        'notification-pill ' +
+        (notification.kind == 'pill' ? notification.type : '')
+      }
       style={{ opacity: show ? 1 : 0 }}
-      onTransitionEnd={() => removeNotification(id)}>
-      {content}
+      onTransitionEnd={() => removeNotification(notification.id)}>
+      {notification.content}
     </div>
   );
 }

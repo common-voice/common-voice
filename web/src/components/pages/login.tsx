@@ -7,13 +7,13 @@ import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 
 interface NotificationProps {
-  addNotification: typeof Notifications.actions.add;
+  addNotification: typeof Notifications.actions.addPill;
 }
 
 export const LoginFailure = connect<void, NotificationProps>(
   null,
   {
-    addNotification: Notifications.actions.add,
+    addNotification: Notifications.actions.addPill,
   }
 )(
   withRouter(

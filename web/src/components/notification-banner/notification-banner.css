@@ -1,0 +1,55 @@
+@import url('../vars.css');
+
+.notification-banner {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: var(--middle-z-index);
+    background: var(--black);
+    transform: translateY(0);
+    transition: transform var(--easing) var(--transition-duration);
+
+    & > * {
+        margin: 20px;
+    }
+
+    & .spacer {
+        margin-right: auto;
+
+        @media (--sm-down) {
+            display: none;
+        }
+    }
+
+    & h1 {
+        background-image: linear-gradient(to right, #f89096, #b1b4e5);
+        color: transparent;
+        font-size: var(--font-size-xl);
+        text-align: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    & a {
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        border-radius: 30px;
+        margin-left: 30px;
+        min-width: 150px;
+        width: auto;
+        background-color: transparent;
+    }
+
+    & .close {
+        border: none;
+        margin-left: auto;
+
+        & path {
+            fill: var(--white);
+        }
+    }
+}

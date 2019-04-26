@@ -77,7 +77,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.add;
+  addNotification: typeof Notifications.actions.addPill;
   refreshUser: typeof User.actions.refresh;
 }
 
@@ -180,7 +180,7 @@ class AvatarSetup extends React.Component<Props> {
 export default connect<PropsFromState, PropsFromDispatch>(
   ({ api, locale, user }: StateTree) => ({ api, locale, user }),
   {
-    addNotification: Notifications.actions.add,
+    addNotification: Notifications.actions.addPill,
     refreshUser: User.actions.refresh,
   }
 )(withLocalization(AvatarSetup));
