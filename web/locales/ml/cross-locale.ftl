@@ -13,3 +13,4 @@ get-involved-stayintouch = ഞങ്ങൾ മോസില്ലയിൽ ഒര
 get-involved-privacy-info = നിങ്ങളുടെ വിവരങ്ങൾ ശ്രദ്ധയോടെ കൈകാര്യം ചെയ്യുമെന്ന് ഞങ്ങൾ വാഗ്ദാനം ചെയ്യുന്നു. കൂടുതൽ വിവരങ്ങള്‍ക്ക് ഞങ്ങളുടെ <privacyLink>സ്വകാര്യതാ അറിയിപ്പ്</privacyLink>  വായിക്കുക.
 get-involved-success-title = നന്ദി. നിങ്ങൾ { $language } ഭാഷയ്ക്ക് സംഭാവന ചെയ്യുന്നതിന്  വിജയകരമായി സൈൻ അപ്പ് ചെയ്തിരിയ്ക്കുന്നു.
 get-involved-success-text = കൂടുതൽ വിവരങ്ങൾ ലഭ്യമാകുമ്പോൾ ഞങ്ങൾ ബന്ധപ്പെടുന്നതാണ്.
+get-involved-return-to-languages = ഭാഷകളിലേക്ക് മടങ്ങുക
