@@ -314,6 +314,17 @@ faq-what-determine-identity-q = Mida tähendab, et "kõnelejat ei saa tuvastada"
 
 ## Glossary
 
+glossary = Sõnastik
+localization = Lokaliseerimise ülevaade
+localization-explanation = Sellise protsessiga tõlgime ja kohandame oma sisu paljude keelte jaoks.
+sentence-collection = Lausete kogumine
+sentence-collection-explanation = Vabalt kasutatavate lausete kogumine või uute lausete kirjutamine vabaks kasutuseks.
+hours-recorded-explanation = Siiani kogutud helisalvestustundide arv.
+hours-validated-explanation = Nende helisalvestiste maht tundides, mille kaks kolmest kasutajast on kinnitanud, hääletades "jah". See näitab edenemist 10 000 tunni eesmärgi suunas.
+sst = Kõnetuvastus
+sst-explanation = Kõnetuvastustehnoloogiad teisendavad hääleandmed tekstiks.
+de-identified = Anonümiseeritud
+de-identified-explanation = Protsess, mille abil panustaja profiiliandmed varjatakse nende salvestatud häälklippidest, kui need andmestiku allalaadimiseks kokku pakitakse.
 
 ## NotFound
 
@@ -351,18 +362,31 @@ review-delete-recordings = Kustuta mu salvestised
 
 ## New Datasets Page
 
+datasets-headline = Me ehitame avatud ligipääsuga mitmekeelset häälte kogumit, mida igaüks saab kasutada kõnetehnoloogiliste rakenduste loomiseks.
 language = Keel
 # File size in gigabytes
 size = Suurus
+validated-hr-total = Kontrollitud tunde kokku
 overall-hr-total = Tunde kokku
 cv-license = Litsents
 audio-format = Heliformaat
 number-of-voices = Häälte arv
+splits = Jaotused
+email-to-download = Sisesta allalaadimiseks e-posti aadress
+size-gigabyte = GB
+size-megabyte = MB
+validated-hours = Kontrollitud tunde
+recorded-hours = Salvestatud tunde
+whats-inside = Mis on Common Voice'i andmekogu sees?
+feedback-q = Sul on tagasisidet?
 data-other-librispeech-description = LibriSpeech on kõneandmestik, mis koosneb umbes 1000st tunnist 16Khz kvaliteediga salvestatud ingliskeelsest kõnest, mis on saadud LibriVoxi projekti audioraamatutest.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus koosneb audio kõnedest ja nende transkriptsioonidest, mis on kättesaadavad TEDi veebilehel.
 data-other-voxforge-description = VoxForge käivitati, et koguda transkribeeritud kõnet kasutamaks tasuta ja avatud lähtekoodiga kõnetuvastuse mootorites.
 data-other-tatoeba-description = Tatoeba on suur lausete, nende tõlgete ja kõneldud heli andmebaas, mida kasutatakse keeleõppes. Käesolev allalaadimise komplekt sisaldab nende kogukonna poolt salvestatud inglise keelt.
+go-discourse = Vaata foorumit
+go-languages-page = Ava keelte leht
+ready-to-validate = Valmis lausete kontrollimiseks?
 
 ## Download Modal
 
@@ -417,7 +441,7 @@ skip = Jäta vahele
 shortcuts = Otseteed
 clips-with-count = <bold>{ $count }</bold> salvestist
 goal-help-recording = Oled aidanud Common Voice'il saavutada <goalPercentage></ goalPercentage> meie igapäevasest salvestamise eesmärgist ({ $goalValue })!
-goal-help-validation = Oled aidanud Common Voice'il saavutada <goalPercentage></ goalPercentage> meie igapäevasest valideerimise eesmärgist ({ $goalValue })!
+goal-help-validation = Oled aidanud Common Voice'il saavutada <goalPercentage></ goalPercentage> meie igapäevasest kontrollimise eesmärgist ({ $goalValue })!
 contribute-more =
     { $count ->
         [one] Valmis tegema { $count } veel?
@@ -459,6 +483,7 @@ share-title-new = <bold>Aita meil</bold> leida rohkem hääli
 
 ## Goals
 
+streaks = Seeriad
 days =
     { $count ->
         [one] päev
@@ -478,6 +503,9 @@ validations =
 ## Dashboard
 
 your-languages = Sinu keeled
+toward-next-goal = Edasi järgmise eesmärgi poole
+clips-you-recorded = Sinu lindistatud heliklipid
+clips-you-validated = Sinu kontrollitud heliklipid
 stats = Statistika
 you = Sina
 everyone = Kõik
@@ -485,8 +513,11 @@ contribution-activity = Panustamise aktiivsus
 top-contributors = Panustajate edetabel
 recorded-clips = Salvestatud salvestisi
 validated-clips = Kontrollitud salvestisi
+total-approved = Kinnitatud kokku
+overall-accuracy = Üldine korrektsus
 
 ## Profile Delete
 
 keep = Säilita
+remove = Kustuta
 profile-form-delete = Kustuta profiil
