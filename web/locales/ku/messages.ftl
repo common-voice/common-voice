@@ -8,6 +8,7 @@ email-input =
     .label = ئیمەیل
 submit-form-action = ناردن
 loading = ئامادەسازی
+email-opt-in-info = بەڵێ پێم خۆشە ئیمەیل وەرگرم بۆ وەبیرخستنەوەی ئامانجەکانی من، پێشکەوتی من و هەروەها هەواڵەکانی پڕۆژەی دەنگی گشتی.
 indicates-required = فیلدی پێویست
 not-available-abbreviation = نادیار
 
