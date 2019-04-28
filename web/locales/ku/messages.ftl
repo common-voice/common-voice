@@ -201,12 +201,18 @@ email-subscription-title = ناونووسی بۆ ئاپدەیت لە ڕێگای 
 benefits = کەڵکەکان
 rich-data = دەیتای ناردراوی خۆت دەوڵەمەندتر بکە بە دابین کردنی کۆمەڵێک دەیتات دێمۆگڕافیک بە شێەوی نەناسراو. ئێمە پێش بڵاو کردنی دەیتاکان هەموو زانیاری دێمۆگڕافیک دەسڕینەوە.
 improve-audio = زانیاری پڕۆفایل دەیتای دەنگ باشتر دەکات کە بۆ باشترکردنی سەرنجی فێرکاری ناسینەوەی وتار.
+keep-track = ئاگادار بە لە پێشکەوتن و ئاماری خۆت بۆ زمانەکان.
+compare-progress = بزانە پێشکەوتنی تۆ چۆنە بەرامبەر بە بەشدارانی دیکەی جیهان.
+view-goals = پێشکەوتنی خۆت ببینیە بەرامبەر ئامانجەکانی خۆت و پڕۆژەکە.
+join-newsletter = بە دلخوازی خۆت ناونووسی بکە بۆ لیستی ئیمەلی ئێمە بۆ وەرگرتنی ئاپدەیتەکان و زانیاری زیاتر سەبارەت بەم پڕۆژە.
 
 ## What's public
 
 whats-public = چی گشتییە؟
 email-not-public = ئیمەیلی تۆ بۆ کەس نیشان نادریت
 recordings-and-locale-public = ژمارەی دەنگەکان و ئەو زمانانەی بەشداری تێدا دەکەی گشتی ئەبێت
+username-optin-public = دەتوانی هەڵبژێری کە ناوی بەکارهێنەری تۆ گشتی بێت یان نەناسراو.
+username-email-not-demographic = ناوی بەکارهێنەر و ئیمەیلی تۆ دیار نابێت لە دەیتای نەشرکراو.
 
 ## Speak & Listen Shortcuts
 
@@ -265,6 +271,8 @@ profile-form-age =
     .label = تەمەن
 profile-form-gender =
     .label = ڕەگەز
+leaderboard-visibility =
+    .label = دیاربوونی لیدێربۆڕد
 hidden = شاراوە
 visible = دیار
 native-language =
@@ -284,17 +292,23 @@ settings = ڕێکخستنەکان
 edit-profile = دەسکاریکردنی پرۆفایل
 profile-create-success = سەرکەوتن! پرۆفایل ساز کرا
 profile-close = بەستن
+profile-explanation = ئاگادار بە لە پێشکەوتنی خۆت لە ڕێێگای پڕۆفایل و یارمەتی ئێمە بدە دەیتاکەمان دەقیقتر بێت.
+thanks-for-account = سوپاس بۆ سەلماندنی هەژماری خۆت، ئێستا وەرە پڕۆفایلێک ساز کەین.
 why-demographic = گرینگی ئەوە چییە؟
+accept-privacy = ڕازیم بە چۆنیەتی بەکارهێنانی ئام زانیاریانە بەرامبەر بۆ <privacyLink>نهێنی پارێزی</privacyLink> مووزیلا.
 login-identity = ناسنامەی تێپەڕبوون
 login-signup = چوونەژوور/هەژمارکردنی خۆت
 edit = دەسکاریکردن
 email-subscriptions = ئابوونەی ئیمەیلی
 download-profile = داگرتنی دەیتای من
 contribution-experience = جەڕبی بەشداری
+skip-submission-feedback = بێخیاڵ بوونی فیدبەک بۆ ناردنەکان
+skip-submission-note = ئاگاداری: پێویستە لە نێوان قسەکردن یان گوێ دان هەڵبأێری.
 off = خامۆش
 on = ڕۆشن
 add-avatar-title = ئەڤاترێک بە پرۆفایلی خۆت زیاد بکە
 browse-file-title = فایلێکی وێنە ئاپلۆد بکە
+browse-file = دڕاگی کە ئێرە یان <browseWrap>بگەڕێ بۆ فایل</browseWrap>
 connect-gravatar = بەستنەوە لەگەڵ Gravatar
 gravatar_not_found = هێچ گراڤاتارێک پەیدا نەبوو بۆ ئیمەیلی تۆ
 file_too_large = فایلی هەڵبژێردراو زۆر گەورەیە
@@ -302,6 +316,7 @@ manage-subscriptions = کارگێڕی ئابوونەکان
 manage-email-subscriptions = پیاچوونەوەی ئابوونەی ئێمەیلی
 email-already-used = ئەم ئیمەیلە بۆ هەژمارێکی تر بە کار هێنراوە
 add-language = زمان زیاد کە
+change-email-setings = ئیمەیلی خۆت لە بەشی تەنزیمات و ناسنامەی چوونەژوور بگۆڕە.
 
 ## FAQ
 
@@ -309,11 +324,23 @@ faq-title = پرسیارە زۆر باوەکان
 faq-what-cv-q = دەنگی گشتی چییە؟
 faq-why-important-q = بۆچی گرینگە؟
 faq-how-get-q = چۆن دەتوانم دەیتای دەنگی گشتی وەرگرم؟
+faq-when-release-q = کەی دەیتای دەنگی گشتی بۆ زمانەکانی تر بڵاو دەکەنەوە؟
 faq-why-mission-q = بۆچی دەنگی گشتی بەشێکە لە ئامانجەکانی مووزیلا؟
+faq-what-cv-and-deepspeech-q = جیاوازە دەنگی گشتی و Deep Speech چییە؟
+faq-is-goal-assistant-q = ئایا ئامانجی دەنگی گشتی سازکردنی دەستیاری دەنگییە؟
+faq-do-want-native-q = من بێژەرێکی نەیتیڤ نیم و شێوەزارم جیاوازە. ئایا دەنگی منتان دەوێت؟
+faq-why-different-speakers-q = بۆچی بێژەرانێکی زۆرتان بۆ هەر زمانێک دەوێت؟
 faq-why-my-lang-q = بۆچی هێشتا زمانی منی تیا نییە؟
+faq-what-quality-q = دەبێ ئاستی کوالیتی دەنگەکان چەندە بێت تا لە دەیتاسێت بەکار بێت؟
+faq-why-10k-hours-q = بۆچی ١٠،٠٠٠ کاژێر دەنگی سەلمێندراو بۆ هەر زمانێک ئامانجتانە؟
+faq-why-10k-hours-a = ئەمە بە تەقریب ژمارەی کاژێری پێویستە بۆ ساز کردنی سیستەمی وتار-بۆ-تێکستی کاری.
 faq-how-calc-hours-q = ئەم پڕۆژە چۆن کاژێرەکان لێک دەدات؟
+faq-where-src-from-2-q = تێکستی سەرچاوە لە کوێوە دێت؟
+faq-why-not-ask-read-q = بۆچی داوا لە خەڵک ناکەن تێکستەکانی ویکیپێدیا یان کتێب بە زمانەکانی پێویست بخوێننەوە؟
 faq-why-account-q = بۆچی دەبێ ناونووسی بکەم بۆ هەژماری خۆم؟
 faq-is-account-public-q = ئایا زانیارییەکانی هەژماری من گشتییە؟
+faq-how-privacy-q = چون دڵنیا دەبن لە نەناسراو بوونی ئەو کەسانە کە دەنگی خۆیان دەبەخشن؟
+faq-what-determine-identity-q = ئەوەی کە ناتوانم ناسنامەی بێژەرەکانی دەنگی گشتی دیاری بکەم یانی چی؟
 
 ## Glossary
 
@@ -325,24 +352,33 @@ sentence-collection-explanation = کۆکردنی ڕەستەی دۆمەینی گ�
 hours-recorded-explanation = ژمارەی کاژێر دەنگی زەبتکراوی ئێمە تا ئێستا
 sst = وتار-بۆ-تێکست
 sst-explanation = تەکنۆلۆژیار وتار-بۆ-تێکست، دەیتای دەنگی دەکات بە تێکست
+de-identified = نەشناس-کراو
 
 ## NotFound
 
 notfound-title = پەیدا نەبوو
+notfound-content = ببوورە نازانم بە شوێن چی دا دەگەڕێی.
 
 ## Data
 
 data-download-button = داگرتنی دەیتای دەنگی گشتی
 data-download-yes = بەڵێ
 data-download-deny = نەخێر
+data-download-license = مۆڵەت: <licenseLink>CC-0</licenseLink>
+data-download-modal = خەریکی دانڵۆدی <size>{ $size } گیگابایت</size> دەست پێ دەکەی. دڵنیای؟
+data-get-started = <speechBlogLink> باسی وتارناسە دەست پێ بکە</speechBlogLink>
 data-other-title = دەیتاسێتە دەنگییەکانی تر...
 data-other-goto = بڕۆ بۆ { $name }
 data-other-download = داگرتنی دەیتا
 data-bundle-button = دانڵۆد کردنی دەیتاسێت
+data-bundle-description = دەنگی گشتی و هەمووی دەیتاسێتەکانی سەرەوە.
+license = مۆڵەت: <licenseLink>{ $license }</licenseLink>
 license-mixed = تێکەڵ
 terms-agree = ڕەزامەندم
 terms-disagree = ڕەزامەند نیم
+review-aborted = ئاپڵۆد لەغو کرا. دەتهەوێ زەبتەکانی تۆ بسڕینەوە؟
 review-submit-title = پێداچوونەوەو ناردن
+review-submit-msg = سوپاس بۆ زەبت کردن!<lineBreak></lineBreak> ئێستا دەنگەکانی خۆت بسەلمێنە و بیاننێرە.
 review-recording = پێداچوونەوە
 review-rerecord = زەبتی دووبارە
 review-cancel = لاوەنانی ناردن
@@ -351,6 +387,7 @@ review-delete-recordings = دەنگەکانی من بسڕەوە
 
 ## New Datasets Page
 
+datasets-headline = ئێمە خەریکی ساز کردنی دەیتاسێتێکی کراوە و چەند زمانەین کە هەمووکەس دەتوانن بەکاری بێنن بۆ ساز کردنی نەرمەکالای وتارناسی.
 language = زمان
 # File size in gigabytes
 size = قەبارە
@@ -361,17 +398,22 @@ audio-format = فۆرماتی دەنگ
 number-of-voices = ژمارەی دەنگەکان
 splits = لەتەکان
 email-to-download = ئیمەیلی خۆت بنووسە تا بتوانی دانڵۆد بکەی
+why-email = <b>بۆچی ئیمەیل؟</b> شایەد پێویست بێت لە داهاتوو دا سەبارەت بە گۆڕانکارییەکانی دەیتاسێت لە ڕێگای ئیمەیل پەیوەندیت پێ بکەین.
+confirm-size = تۆ ئامادەی بۆ دەست پێکردنی دانڵۆدی <b>{ $size }</b>
 size-gigabyte = گ.ب
 size-megabyte = م.ب
+confirm-no-identify = <b>تۆ ڕەزامەندی</b> کە هەوڵ نەدەی ناسنامەی بێژەرەکانی ئەم دەیتاسێتە دیارە بکەی.
 download-language = داگرتنی { $language }
 validated-hours = کاژێری سەلماندراو
 recorded-hours = کاژێری زەبت کراو
 whats-inside = نێو دەیتاسێتی دەنگی گشتی چی تێدایە؟
+want-dataset-update = پێت خۆشە هەواڵی بۆ بنێرین لە کاتی بڵاوکردنەوەی وەشانی نوێی دەیتاسێتی دەنگی گشتی؟ خۆت ئابوونە کە بۆ هەواڵ نامەکەمان.
 subscribe = ئابوونەکردن
 get-started-speech = دەست پێ بکە بۆ ناسینەوە وتار
 other-datasets = دەیتاسێتەکانی تری دەنگ
 feedback-q = ڕەخنەوپێشنیارت هەیە؟
 data-other-ted-name = دەیتاسێتی TED-LIUM
+your-feedback = پێت وایە ڕات هەیە بۆ باشتر کردنی دەنگی گشتی؟ لە Discourse پێمان بڵێ
 go-discourse = بچۆ بۆ Discourse
 go-languages-page = بچۆ بۆ بەرگەی زمانەکان
 ready-to-validate = ئامادەی بۆ یارمەتی سەلماندنی ڕەستەکان؟
@@ -382,6 +424,7 @@ download = داگرتن
 ## Download Modal
 
 download-title = دانڵۆدی تۆ دەستی پێکرد
+download-helpus = یارمەتیمان بدە کۆمەڵگەیێک بۆ تەکنۆلۆژیای وتار ساز کەین، لە ڕێگای ئیمەیل لەگەڵمان بە.
 download-form-email =
     .label = ئیمەیلی خۆت بنووسە
     .value = سوپاس، پەیوەندیت پێ دەکەین
@@ -403,6 +446,7 @@ request-language-title = داواکردنی زمان
 request-language-form-language =
     .label = زمان
 request-language-success-title = داواکاری زمان ناردرا. سوپاس بۆ تۆ.
+request-language-success-content = بەم زووانە لە ڕێگای ئیمەیل زانیاریت بۆ دەنێرین کە چۆن زمانی خۆت زیاد بکەی لە دەنگی گشتی.
 select-language = زمانێک هەڵبژێرە
 other-language = زمانی تر
 
@@ -431,23 +475,42 @@ listen = ببیستە
 skip = باز دان
 shortcuts = شۆرتکات
 clips-with-count = <bold>{ $count }</bold> کلیپ
+contribute-more =
+    { $count ->
+        [one] ئامادەی کە { $count }دانەی دەکەش ئەنجام بدەی؟
+       *[other] ئامادەی کە { $count }دانەی دەکەش ئەنجام بدەی؟
+    }
 record-cta = دەست پێ کردنی زەبت
 record-platform-not-supported = ببوورە بەڵام پلاتفۆڕمی تۆ ئێستا پشتیوانی ناکرێت.
 record-platform-not-supported-desktop = لە سیستەمی دێسکتاپ دەتوانت نەوتری داگری:
+record-platform-not-supported-ios = بەکارهێنەرانی <bold>iOS</bold> دەتوانن نەرمەکالای خۆڕایی ئێمە داگرن:
 record-must-allow-microphone = پێویستە ئیزنی مایکڕۆفۆن بدەیت
 record-no-mic-found = میکڕۆفۆن پەیدا نەبوو
 record-error-too-short = زەبتەکە زۆر کوورت بوو
 record-error-too-long = زەبتەکە زۆر درێژ بوو
 record-error-too-quiet = زەبتەکە زۆر کەم دەنگ بوو
 record-cancel = بێخیاڵی زەبتی دووبارە
+record-instruction = { $actionType }<recordIcon></recordIcon> ئەمجار ڕەستەکە بە دەنگی بەرز بخوێنەوە
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> کاتێک تەواو بووی
 record-three-more-instruction = سێ دانە ماوە
 record-again-instruction = بژی!<recordIcon></recordIcon>کلیپی داهاتوو زەبت کە
+record-again-instruction2 = بەردەوام بە، دیسان زەبت کە<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> دواهەمین دانە!
+review-tooltip = هاوکات لەگەڵ پێشکەوتنت کلیپەکان لێرە چاو لێ بکە و دیسان زەبتی کەوە
 unable-speak = ئێستا ناتوانی قسە بکەی؟
+review-instruction = کلیپەکان چاو لێ بکە ، لە کاتی پێویست دیسان زەبتی کەوە
+record-submit-tooltip = { $actionType } کاتێک ئامادە بووی بینێرە
 clips-uploaded = دەنگی ئاپلۆدکراو
+record-abort-title = ئەوەڵ زەبتەکە تەواو کەین؟
+record-abort-text = ئەگەر ئێستا بڕۆی ئەوە پێشکەوتنی خۆت لە دەست دەدەی
 record-abort-submit = ناردنی دەنگەکان
 record-abort-continue = تەواوکردنی زەبت
 record-abort-delete = دەرچوون و سڕینەوەی کلیپەکان
+listen-instruction = { $actionType }<playIcon></playIcon> ئایا بە درووستی ڕەستەکانیان خوێندەوە؟
+listen-again-instruction = بژی! <playIcon></playIcon> هەر کاتێک ئامدە بووی دیسان گوێ بدە
+listen-3rd-time-instruction = ٢ دانە ماوە، بەردەوام بە! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>دواهەمین دانە
+nothing-to-validate = هیچمان نییە بۆ ئەم زمانە کە بیسەلمێنین، یارمەتیمان بدە کە سەفەکە پڕ کەین.
 record-button-label = دەنگت زەبت کە
 share-title-new = <bold>یارمەتیمان بدە</bold> دەنگی زیاتر پەیدا کەین
 
@@ -458,6 +521,16 @@ days =
         [one] ڕۆژ
        *[other] ڕۆژ
     }
+recordings =
+    { $count ->
+        [one] زەبتەکان
+       *[other] زەبتەکان
+    }
+validations =
+    { $count ->
+        [one] سەلماندنەکان
+       *[other] سەلماندنەکان
+    }
 
 ## Dashboard
 
@@ -465,6 +538,8 @@ your-languages = زمانەکانی تۆ
 toward-next-goal = بەرەو ئامانجی داهاتوو
 clips-you-recorded = کلیپ کە تۆ زەبتت کردووە
 clips-you-validated = کلیپ کە تۆ سەلماندووتە
+todays-recorded-progress = پێشکەوتنی ئەمڕۆی دەنگی گشتی بۆ کلیپی زەبتکراو
+todays-validated-progress = پێشکەوتنی ئەمڕۆی دەنگی گشتی بۆ کلیپی سەلمێندراو
 stats = ئامار
 you = تۆ
 everyone = هەمووکەس
