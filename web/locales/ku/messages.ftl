@@ -335,8 +335,10 @@ notfound-title = پەیدا نەبوو
 data-download-button = داگرتنی دەیتای دەنگی گشتی
 data-download-yes = بەڵێ
 data-download-deny = نەخێر
+data-other-title = دەیتاسێتە دەنگییەکانی تر...
 data-other-goto = بڕۆ بۆ { $name }
 data-other-download = داگرتنی دەیتا
+data-bundle-button = دانڵۆد کردنی دەیتاسێت
 license-mixed = تێکەڵ
 terms-agree = ڕەزامەندم
 terms-disagree = ڕەزامەند نیم
@@ -433,10 +435,21 @@ record-cta = دەست پێ کردنی زەبت
 record-platform-not-supported = ببوورە بەڵام پلاتفۆڕمی تۆ ئێستا پشتیوانی ناکرێت.
 record-platform-not-supported-desktop = لە سیستەمی دێسکتاپ دەتوانت نەوتری داگری:
 record-must-allow-microphone = پێویستە ئیزنی مایکڕۆفۆن بدەیت
+record-no-mic-found = میکڕۆفۆن پەیدا نەبوو
+record-error-too-short = زەبتەکە زۆر کوورت بوو
+record-error-too-long = زەبتەکە زۆر درێژ بوو
+record-error-too-quiet = زەبتەکە زۆر کەم دەنگ بوو
+record-cancel = بێخیاڵی زەبتی دووبارە
 record-three-more-instruction = سێ دانە ماوە
+record-again-instruction = بژی!<recordIcon></recordIcon>کلیپی داهاتوو زەبت کە
 unable-speak = ئێستا ناتوانی قسە بکەی؟
 clips-uploaded = دەنگی ئاپلۆدکراو
 record-abort-submit = ناردنی دەنگەکان
+record-abort-continue = تەواوکردنی زەبت
+record-abort-delete = دەرچوون و سڕینەوەی کلیپەکان
+listen-last-time-instruction = <playIcon></playIcon>دواهەمین دانە
+record-button-label = دەنگت زەبت کە
+share-title-new = <bold>یارمەتیمان بدە</bold> دەنگی زیاتر پەیدا کەین
 
 ## Goals
 
@@ -449,11 +462,21 @@ days =
 ## Dashboard
 
 your-languages = زمانەکانی تۆ
+toward-next-goal = بەرەو ئامانجی داهاتوو
+clips-you-recorded = کلیپ کە تۆ زەبتت کردووە
+clips-you-validated = کلیپ کە تۆ سەلماندووتە
 stats = ئامار
 you = تۆ
 everyone = هەمووکەس
+contribution-activity = مێژووی بەشداری
+top-contributors = بەشدارانی سەر
+recorded-clips = کلیپی زەبتکراو
+validated-clips = کلیپی سەلمێندراو
+total-approved = کۆی سەلمێندراو
+overall-accuracy = دیقەتی گشتی
 
 ## Profile Delete
 
 keep = ڕاگرتن
+remove = سڕینەوە
 profile-form-delete = سڕینەوەی پرۆفایل
