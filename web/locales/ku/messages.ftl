@@ -9,6 +9,7 @@ email-input =
 submit-form-action = ناردن
 loading = ئامادەسازی
 email-opt-in-info = بەڵێ پێم خۆشە ئیمەیل وەرگرم بۆ وەبیرخستنەوەی ئامانجەکانی من، پێشکەوتی من و هەروەها هەواڵەکانی پڕۆژەی دەنگی گشتی.
+email-opt-in-privacy = بە قبووڵ کردنی ئەوەی کە ئیمەیل وەرگری، ڕەزامەندی خۆت نێشان دەدەی کە زانیاری تۆ وەک لە <privacyLink>نهێنی پارێزی<privacyLink> باس کراوە بەکار بهێنرێت.
 indicates-required = فیلدی پێویست
 not-available-abbreviation = نادیار
 
@@ -212,6 +213,7 @@ whats-public = چی گشتییە؟
 email-not-public = ئیمەیلی تۆ بۆ کەس نیشان نادریت
 recordings-and-locale-public = ژمارەی دەنگەکان و ئەو زمانانەی بەشداری تێدا دەکەی گشتی ئەبێت
 username-optin-public = دەتوانی هەڵبژێری کە ناوی بەکارهێنەری تۆ گشتی بێت یان نەناسراو.
+demographic-deidentified = بە دڵخوازی خۆت دەیتای دێمۆگڕافیک (وەک تەمەن، ڕەگەز، زمان و شێوەزار) لە دەیتای دەنگی تۆ لا دەبرێت و هەرگیز ناکرێت بە گشتی.
 username-email-not-demographic = ناوی بەکارهێنەر و ئیمەیلی تۆ دیار نابێت لە دەیتای نەشرکراو.
 
 ## Speak & Listen Shortcuts
@@ -284,6 +286,7 @@ female = ژن
 # Gender
 other = جیاواز
 why-profile-title = بۆچی پرۆفایل؟
+why-profile-text = بە دیاری کردنی هەندێک زانیاری سەبارەت بە خۆت، دەیتای ناردراوی تۆ بۆ دەنگی گشتی سوودمەندتر دەبێت. مۆتۆڕەکانە ناسینەوەی وتار ئەم دەیتایە بەکار دێنن بۆ باشتر کردنی دیقەتی خۆیان.
 dashboard = داشبۆڕد
 build-profile = پرۆفایل درووست کە
 avatar = ئاڤاتار
@@ -324,10 +327,12 @@ faq-title = پرسیارە زۆر باوەکان
 faq-what-cv-q = دەنگی گشتی چییە؟
 faq-why-important-q = بۆچی گرینگە؟
 faq-how-get-q = چۆن دەتوانم دەیتای دەنگی گشتی وەرگرم؟
+faq-how-get-a = دەیتاسێتی دەنگی گشتی دەتوانە بە مۆڵەتی <licenseLink>CC0</licenseLink> لە <datasetLink>بەرگەی دەیتاسێتەکانی ئێمە</datasetLink> دانڵۆد بکەی. هەروەها دەتوانی چەند دەیتاسێتی کراوەی دیکش لە هەمان بەرگە دانڵۆد بکەی.
 faq-when-release-q = کەی دەیتای دەنگی گشتی بۆ زمانەکانی تر بڵاو دەکەنەوە؟
 faq-why-mission-q = بۆچی دەنگی گشتی بەشێکە لە ئامانجەکانی مووزیلا؟
 faq-what-cv-and-deepspeech-q = جیاوازە دەنگی گشتی و Deep Speech چییە؟
 faq-is-goal-assistant-q = ئایا ئامانجی دەنگی گشتی سازکردنی دەستیاری دەنگییە؟
+faq-is-goal-assistant-a = ئامانجی دەیتاسێتی دەنگی گشتی ئەوەیە کە هەمووکەس لە سەرانسەری جیهان بتوانێت نەرمەکالای ناسینەوەی وتار و بێژەر یان هار شتێکی دیکە کە پێویستی بە دەنگ هەیە ساز بکات. دەستیاری دەنگی تەنها یەکێکە لە زۆرەها سوودی ئەم دەیتاسێتە.
 faq-do-want-native-q = من بێژەرێکی نەیتیڤ نیم و شێوەزارم جیاوازە. ئایا دەنگی منتان دەوێت؟
 faq-why-different-speakers-q = بۆچی بێژەرانێکی زۆرتان بۆ هەر زمانێک دەوێت؟
 faq-why-my-lang-q = بۆچی هێشتا زمانی منی تیا نییە؟
@@ -350,9 +355,11 @@ localization-explanation = ئەمە پڕۆسەی وەرگێڕانی ناوەڕۆ
 sentence-collection = کۆکردنی ڕەستە
 sentence-collection-explanation = کۆکردنی ڕەستەی دۆمەینی گشتی یا نووسینی ڕەستەی تازە بۆ دۆمەینی گشتی
 hours-recorded-explanation = ژمارەی کاژێر دەنگی زەبتکراوی ئێمە تا ئێستا
+hours-validated-explanation = ژمارەی کاژێرەکانی زەبت کراو کە لە هەر ٣ کەس ٢یان ڕای ىەڵێ یان پی داوە. ئەمە نیشاندەری پيشکەوتنی پرۆژەکەیە بۆ ئامانجی ١٠ هەزار کاژێر بۆ هەر زمان.
 sst = وتار-بۆ-تێکست
 sst-explanation = تەکنۆلۆژیار وتار-بۆ-تێکست، دەیتای دەنگی دەکات بە تێکست
 de-identified = نەشناس-کراو
+de-identified-explanation = پڕۆسەی لابردنی زانیاری پڕۆفیالە هەر کەس لە دەنگەکانی کە بەخشیویەتی، لە پەکەیجی دەیتاسێتەکە لە کاتی دانڵۆد.
 
 ## NotFound
 
@@ -366,6 +373,7 @@ data-download-yes = بەڵێ
 data-download-deny = نەخێر
 data-download-license = مۆڵەت: <licenseLink>CC-0</licenseLink>
 data-download-modal = خەریکی دانڵۆدی <size>{ $size } گیگابایت</size> دەست پێ دەکەی. دڵنیای؟
+data-subtitle = ئێمە خەریکین دەیتاسێتێکی کراوە و گشتی لە دەنگی مرۆڤ ساز دەکەین کە هەمووکەس دەتوانن بەکاری بێنن بۆ ساز کردنی نەرمەکالای وتارناسی.
 data-get-started = <speechBlogLink> باسی وتارناسە دەست پێ بکە</speechBlogLink>
 data-other-title = دەیتاسێتە دەنگییەکانی تر...
 data-other-goto = بڕۆ بۆ { $name }
@@ -475,6 +483,8 @@ listen = ببیستە
 skip = باز دان
 shortcuts = شۆرتکات
 clips-with-count = <bold>{ $count }</bold> کلیپ
+goal-help-recording = تۆ یارمەتی دەنگی گشتیت داوە بگات بە <goalPercentage></goalPercentage> لە ئامانجی زەبت کردنی { $goalValue } رۆژانە.
+goal-help-validation = تۆ یارمەتی دەنگی گشتیت داوە بگات بە <goalPercentage></goalPercentage> لە ئامانجی سەلماندنی { $goalValue } رۆژانە.
 contribute-more =
     { $count ->
         [one] ئامادەی کە { $count }دانەی دەکەش ئەنجام بدەی؟
@@ -552,6 +562,8 @@ overall-accuracy = دیقەتی گشتی
 
 ## Profile Delete
 
+delete-q = دەتهەوێ زەبتەکانیشت بسڕینەوە یان لە دەیتاسێتی دەنگی گشتی ڕای گرین؟
 keep = ڕاگرتن
 remove = سڕینەوە
+remove-info = ئێمە بە داواکاری تۆ بۆ سڕینەوەی دەنگەکانت ڕا دەگەین. ئەگەر داواکاری تۆ قبووڵ بێت، ئەوکات پەیوەندی دەکەین بۆ هەرکەسێک کە دەیتاسێتەکەیان دانڵۆد کردووە و داوایان لە دەکەێن ئەوانیش دەنگی تۆ بسڕێنەوە.
 profile-form-delete = سڕینەوەی پرۆفایل
