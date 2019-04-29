@@ -400,6 +400,7 @@ about-is-it-valid-text = Hłosowy klip so jako „płaćiwy markěruje, hdyž wu
 about-yes-votes = ≥ 2 hajhłosaj
 about-no-votes = ≥ 2 něhłosaj
 about-dataset = Datowa sadźba Common Voice
+about-clip-graveyard = Klipowy kěrchow
 about-partners = Partnerojo
 about-become-a-partner = Budźće partner
 about-get-involved = Čińće sobu
