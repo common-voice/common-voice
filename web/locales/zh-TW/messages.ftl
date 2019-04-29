@@ -390,14 +390,14 @@ about-header-description =
     這兩個專案都是我們努力弭平數位語音落差的一部份。語音識別技術可讓我們的裝置帶來人性，但開發者需要極為龐大數量的語音資料，才能打造出這樣的系統。目前大部分語音資料都相當昂貴，也是專有的資料。
     我們希望讓語音資料能夠公開自由使用，並確保資料反映出人們實際的多樣性。讓我們一起為所有人把語音識別技術變得更好吧！
 how-does-it-work-title = 原理是什麼？
-how-does-it-work-text = 我們正在集合眾人之力，打造一組開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
+how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
 about-speak = 說話
 about-speak-text = 貢獻者透過讀出一系列由他人捐贈的語料庫句子，將語音片段錄音下來。
 about-listen-queue = 聆聽佇列
 about-listen-queue-text = 錄下的片段將進入佇列中排隊，準備接受聆聽確認。
 about-listen = 聆聽確認
-about-listen-text = 使用者確認錄音片段的正確度，並確認說話者是否正確讀出了句子。
-about-is-it-valid = 片段有效嗎？
+about-listen-text = 使用者確認錄音片段是否精準，並確認說話者是否正確讀出了句子。
+about-is-it-valid = 片段正確嗎？
 about-is-it-valid-text = 若使用者投下「正確」，就會標示為有效。
 about-yes-votes = ≥ 2 張「正確」票
 about-yes-votes-text = 必須經過兩位不同的使用者確認過，片段才會進入 Common Voice 資料集。
