@@ -394,6 +394,7 @@ about-header-description =
 how-does-it-work-title = Como funciona
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
 about-speak = Falar
+about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
 about-listen = Ouvir
 about-is-it-valid = O clipe é válido?
 about-yes-votes = ≥ 2 votos Sim
