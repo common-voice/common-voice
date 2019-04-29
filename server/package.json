@@ -34,7 +34,7 @@
     "express-promise-router": "^3.0.1",
     "express-session": "^1.15.6",
     "ioredis": "^4.6.2",
-    "jest": "^23.6.0",
+    "jest": "^24.0.0",
     "js-md5": "^0.7.3",
     "locales": "file:../locales",
     "lodash.omit": "^4.4.0",
