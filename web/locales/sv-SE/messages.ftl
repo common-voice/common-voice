@@ -389,6 +389,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Varför Common Voice?
+how-does-it-work-title = Hur fungerar det
 about-listen = Lyssna
 about-yes-votes = ≥ 2 Ja röster
 about-no-votes = ≥ 2 Nej röster
