@@ -2,6 +2,7 @@ import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
+import { isProduction } from '../../utility';
 import {
   ContributableLocaleLock,
   localeConnector,
@@ -27,7 +28,7 @@ export default ({ children, ...props }: { [key: string]: any }) => (
       </ContributableLocaleLock>
       <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
       <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
-      <LocalizedNavLink id="about" to={URLS.ABOUT} />
+      {!isProduction() && <LocalizedNavLink id="about" to={URLS.ABOUT} />}
     </div>
     {children}
   </nav>
