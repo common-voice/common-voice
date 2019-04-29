@@ -392,6 +392,8 @@ how-does-it-work-title = Bagaimana cara kerjanya
 how-does-it-work-text = Kami mengurundayakan penghimpunan data suara sumber terbuka. Sumbangkan suara Anda, validasi akurasi klip yang ada, jadikan himpunan data lebih baik bagi siapa saja.
 about-speak = Bicara
 about-speak-text = Kontributor merekam klip suara dengan membaca dari bank donasi kalimat.
+about-listen-queue = Antrean-Dengar
+about-listen-queue-text = Klip suara dimasukkan ke antrean ajuan agar siap untuk didengarkan.
 about-listen = Dengarkan
 about-is-it-valid = Apakah klipnya valid?
 about-dataset = Himpunan Data Common Voice
@@ -400,6 +402,26 @@ about-clip-graveyard = Kober Klip
 about-clip-graveyard-text = Kober Klip terdiri dari klip suara yang ditolak masuk ke himpunan data Common Voice. Sebagaimana himpunan data, Kober Klip juga tersedia untuk diunduh.
 about-partners = Mitra
 about-become-a-partner = Jadilah mitra
+about-partnership =
+    Common Voice adalah proyek kolaboratif, dan kami bergantung kepada komunitas mitra dan kontributor kami dalam membangun himpunan data suara sumber terbuka yang pernah ada.
+    
+    Kami ingin berterima kasih kepada orang-orang dan organisasi berikut atas bantuan mereka dalam proyek ini:
+about-get-involved = Mari berperan
+about-get-involved-text =
+    Ingin menjadikan Common Voice lebih baik lagi?
+    Bagus! Hubungi kami melalui surel atau di <discourseLink>Discourse</discourseLink>,
+    sampaikan tanggapan melalui <githubLink>GitHub</githubLink>,
+    atau bergabunglah bersama kami di <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Mengapa?
+about-nav-how-it-works = Bagaimana?
+about-nav-partners = Mitra
+about-nav-get-involved = Mari berperan
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Kecerdasan buatan
+mycroft-description =
+    Mycroft adalah asisten sumber terbuka pertama di dunia.
+    Mycroft berfungsi di mana saja - di komputer desktop, di dalam mobil, atau di Raspberry Pi.
+mycroft-secondary-description = Ini adalah perangkat lunak sumber terbuka yang dapat secara bebas dicampur aduk, diperluas, dan diperbagus. Mycroft dapat digunakan dalam segala hal mulai dari proyek sains hingga aplikasi perangkat lunak perusahaan.
 
 ## Glossary
 
