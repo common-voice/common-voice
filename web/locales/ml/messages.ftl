@@ -374,6 +374,16 @@ about-is-it-valid = ശബ്ദശകലം സാധുവാണോ?
 about-yes-votes = രണ്ടിലധികം അതെ വോട്ടുകള്‍
 about-no-votes = രണ്ടിലധികം ഇല്ല വോട്ടുകൾ
 about-dataset = കോമണ്‍ വോയ്സ് വിവരസഞ്ചയം
+about-clip-graveyard = ശബ്ദശകലങ്ങളുടെ ശ്‌മശാനഭൂമി
+about-partners = പങ്കാളികള്‍
+about-become-a-partner = ഒരു പങ്കാളിയാകൂ
+about-get-involved = പങ്കെടുക്കുക
+about-nav-why-common-voice = എന്തുകൊണ്ട്?
+about-nav-how-it-works = എങ്ങനെ ?
+about-nav-partners = പങ്കാളികള്‍
+about-nav-get-involved = പങ്കെടുക്കുക
+mycroft-title = മൈക്രോഫ്റ്റ് നിര്‍മ്മിതബുദ്ധി
+mycroft-subtitle = നിർമ്മിത ബുദ്ധി
 
 ## Glossary
 
