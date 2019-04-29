@@ -403,13 +403,19 @@ about-clip-graveyard = 片段垃圾桶
 about-clip-graveyard-text = 垃圾桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，垃圾桶內容也有提供下載。
 about-partners = 夥伴
 about-become-a-partner = 成為夥伴
+about-partnership =
+    Common Voice 是一套由眾人鼎力相助的專案。我們依賴由夥伴與貢獻者所組成的社群，來打有史以來最大的開放原始碼語音資料集。
+    
+    特別感謝下列人員與組織單位，協助本專案:
 about-get-involved = 參與我們
+about-get-involved-text = 想要幫忙讓 Common Voice 變得更棒嗎？沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、透過 <githubLink>GitHub</githubLink> 送出意見回饋、也可以加入我們的 <slackLink>Slack</slackLink>。
 about-nav-why-common-voice = 為什麼？
 about-nav-how-it-works = 怎麼做？
 about-nav-partners = 夥伴
 about-nav-get-involved = 參與我們
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智慧
+mycroft-description = Mycroft 是全球第一套的開放原始碼語音助理，不論是在電腦、車子、Raspberry Pi 或是任何地方都能運作。
 
 ## Glossary
 
