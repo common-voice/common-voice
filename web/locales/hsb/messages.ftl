@@ -394,6 +394,7 @@ faq-search-for-answers =
 about-title = Čehodla Common Voice?
 how-does-it-work-title = Kak to funguje
 about-speak = Rěčeć
+about-listen-queue = Słuchowy čakanski rynk
 about-listen = Poskać
 about-is-it-valid = Je klip płaćiwy?
 about-is-it-valid-text = Hłosowy klip so jako „płaćiwy markěruje, hdyž wužiwar jemu hajhłós da.
