@@ -83,6 +83,7 @@ lv = Letišćina
 mdf = Mokša
 mhr = Łučna marišćina
 mk = Makedonšćina
+ml = Malajalamšćina
 mn = Mongolšćina
 mrj = Hórska marišćina
 myv = Erzya
