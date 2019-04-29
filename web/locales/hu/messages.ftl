@@ -403,6 +403,16 @@ about-no-votes-text = Ha egy felhasználó elutasít egy hangklipet, akkor vissz
 about-dataset = Common Voice adatkészlet
 about-dataset-text = Ha egy felhasználó elutasít egy hangklipet, akkor visszakerül a sorba. Ha másodszor is elutasítják, akkor a klip átkerül a Kliptemetőbe.
 about-clip-graveyard = Kliptemető
+about-clip-graveyard-text = A Kliptemető azokból a hangfájlokból áll, amelyek nem kerültek bele a Common Voice adatkészletve. Csakúgy, mint a rendes adatkészlet, a Kliptemető is letölthető.
+about-partners = Partnerek
+about-become-a-partner = Legyen partnerünk
+about-get-involved = Csatlakozzon
+about-nav-why-common-voice = Miért?
+about-nav-how-it-works = Hogyan?
+about-nav-partners = Partnerek
+about-nav-get-involved = Csatlakozzon
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Mesterséges intelligencia
 
 ## Glossary
 
