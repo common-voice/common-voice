@@ -83,6 +83,7 @@ lv = Letsk
 mdf = Moksja
 mhr = Greide-Mari
 mk = Masedoanysk
+ml = Malayalam
 mn = Mongoalsk
 mrj = Berch-Mari
 myv = Erzja
@@ -132,6 +133,7 @@ speak = Sprekke
 speak-now = Sprek no
 datasets = Datasets
 languages = Talen
+about = Oer ús
 profile = Profyl
 help = Help
 contact = Kontakt
@@ -309,8 +311,6 @@ profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om 
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
 why-demographic-explanation = Anonime brûkersgegevens lykas leeftyd, geslacht en aksint helpe de audiogegevens dy't foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
-keep-me-posted =
-    .label = Ik ûntfang graach nijs en wol op de hichte bliuwe fan wat der mei Common Voice bart.
 accept-privacy = Ik gean akkoard mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 login-identity = Oanmeldingsidentiteit
 login-signup = Oanmelde / Registrearje
@@ -330,6 +330,7 @@ connect-gravatar = Mei Gravatar ferbine
 gravatar_not_found = Foar jo e-mailadres waard gjin Gravatar fûn
 file_too_large = It selektearre bestân is te grut
 manage-subscriptions = Abonneminten beheare
+manage-email-subscriptions = E-mailabonneminten beheare
 email-already-used = E-mailadres wurdt al foar in oar account brûkt
 add-language = Taal tafoegje
 change-email-setings = Wizigje jo e-mailadres fia Ynstellingen ûnder Oanmeldingsidentiteit
@@ -387,6 +388,31 @@ faq-what-determine-identity-a =
     De Common Voice-gegevensset is in frij tagonklike en iepenbiere boarne dy't brûkt wurde kin om in breed skala oan spraakstjoerde tapassingen te trainen. Om de feilichheid fan ús meiwurkers te beskermen, freegje wy elkenien dy't de Common Voice-gegevensset downloadt om de privacy fan de meiwurkers te respektearjen.
     
     Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear't jo de gegevensset downloade, geane jo dermei akkoard net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy't al yn de gegevensset stiet.
+faq-what-is-cv = Wat is Common Voice?
+faq-using-cv = Common Voice brûke
+faq-search-for-answers =
+    .label = Sykje nei antwurden
+
+## ABOUT US
+
+about-title = Wêrom Common Voice?
+how-does-it-work-title = Hoe't it wurket
+about-speak = Sprek
+about-listen-queue = Harkwachtrige
+about-listen = Harkje
+about-is-it-valid = Is it fragmint jildich?
+about-yes-votes = ≥ 2 Ja-stimmen
+about-no-votes = ≥ 2 Gjin stimmen
+about-dataset = Common Voice-gegevensset
+about-partners = Partners
+about-become-a-partner = Partner wurde
+about-get-involved = Meiwurkje
+about-nav-why-common-voice = Wêrom?
+about-nav-how-it-works = Hoe?
+about-nav-partners = Partners
+about-nav-get-involved = Meiwurkje
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Artificial intelligence
 
 ## Glossary
 
