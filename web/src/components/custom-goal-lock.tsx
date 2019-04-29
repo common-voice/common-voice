@@ -4,7 +4,7 @@ import StateTree from '../stores/tree';
 import { User } from '../stores/user';
 import { ALL_LOCALES } from './language-select/language-select';
 
-const CUSTOM_GOAL_LOCALE = 'en';
+export const CUSTOM_GOAL_LOCALE = 'en';
 
 interface PropsFromState {
   locale: string;

@@ -37,6 +37,7 @@ function NotificationBanner({ notification, removeNotification }: Props) {
       {notification.kind == 'banner' && (
         <LinkButton
           {...notification.actionProps}
+          className="cta"
           onClick={() => setShow(false)}
         />
       )}

@@ -39,6 +39,7 @@ import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
 import { LoginFailure, LoginSuccess } from './pages/login';
 import { Spinner } from './ui/ui';
+import { CUSTOM_GOAL_LOCALE } from './custom-goal-lock';
 import {
   isContributable,
   localeConnector,
@@ -55,6 +56,7 @@ const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 interface PropsFromState {
   api: API;
   account: UserClient;
+  isFetchingAccount: boolean;
   notifications: Notifications.State;
   uploads: Uploads.State;
   messageOverwrites: Flags.MessageOverwrites;
@@ -102,7 +104,15 @@ let LocalizedPage: any = class extends React.Component<
   }
 
   async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
-    const { account, addNotification, api, uploads, userLocales } = nextProps;
+    const {
+      account,
+      addNotification,
+      api,
+      isFetchingAccount,
+      locale,
+      uploads,
+      userLocales,
+    } = nextProps;
 
     this.runUploads(uploads).catch(e => console.error(e));
 
@@ -136,6 +146,29 @@ let LocalizedPage: any = class extends React.Component<
         }
       );
       await api.seenAwards();
+    }
+
+    const GOALS_NOTIFICATION_KEY = 'seenGoalsNotification';
+    if (
+      locale == CUSTOM_GOAL_LOCALE &&
+      !isFetchingAccount &&
+      !(account && account.customGoal) &&
+      !localStorage.getItem(GOALS_NOTIFICATION_KEY)
+    ) {
+      this.props.addNotification(
+        <>
+          Help reach 10,000 hours in English, set a{' '}
+          <a
+            href="https://discourse.mozilla.org/t/common-voice-launches-personal-goals/38794"
+            target="_blank">
+            personal goal
+          </a>
+        </>,
+        account
+          ? { children: 'Get Started', to: URLS.GOALS }
+          : { children: 'Create an account', href: '/login' }
+      );
+      localStorage.setItem(GOALS_NOTIFICATION_KEY, JSON.stringify(true));
     }
   }
 
@@ -287,6 +320,7 @@ LocalizedPage = withRouter(
     connect<PropsFromState, PropsFromDispatch>(
       ({ api, flags, notifications, uploads, user }: StateTree) => ({
         account: user.account,
+        isFetchingAccount: user.isFetchingAccount,
         api,
         messageOverwrites: flags.messageOverwrites,
         notifications,

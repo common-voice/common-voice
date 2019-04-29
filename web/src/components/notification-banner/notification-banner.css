@@ -27,15 +27,23 @@
     }
 
     & h1 {
-        background-image: linear-gradient(to right, #f89096, #b1b4e5);
-        color: transparent;
-        font-size: var(--font-size-xl);
-        text-align: center;
-        background-clip: text;
-        -webkit-background-clip: text;
+        &,
+        & a {
+            background-image: linear-gradient(to right, #f89096, #b1b4e5);
+            color: transparent;
+            font-size: var(--font-size-xl);
+            text-align: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+
+        & a {
+            text-decoration: underline;
+            border-bottom: 2px solid #f89096;
+        }
     }
 
-    & a {
+    & .cta {
         border: 2px solid hsla(0, 0%, 100%, 0.5);
         border-radius: 30px;
         margin-left: 30px;
