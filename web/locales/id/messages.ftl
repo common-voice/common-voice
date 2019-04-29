@@ -385,6 +385,21 @@ faq-search-for-answers =
 
 about-title = Mengapa Common Voice?
 about-subtitle = Common Voice adalah bagian dari inisiatif Mozilla untuk membantu mengajari mesin bagaimana manusia sebenarnya berbicara. Selain himpunan data Common Voice, kami juga membangun mesin pengenalan ucapan sumber terbuka yang disebut Deep Speech.
+about-header-description =
+    Kedua proyek ini adalah bagian dari upaya kami untuk menjembatani kesenjangan ucapan digital. Teknologi pengenalan suara membawa dimensi manusia ke perangkat kami, tetapi pengembang membutuhkan sejumlah besar data suara untuk membangunnya. Saat ini, sebagian besar datanya mahal dan eksklusif.
+    Kami ingin agar data suara bisa tersedia secara bebas dan untuk umum, serta memastikan bahwa data tersebut mewakili keragaman manusia sebenarnya. Kita bisa bersama-sama menjadikan pengenalan suara lebih baik bagi semua orang.
+how-does-it-work-title = Bagaimana cara kerjanya
+how-does-it-work-text = Kami mengurundayakan penghimpunan data suara sumber terbuka. Sumbangkan suara Anda, validasi akurasi klip yang ada, jadikan himpunan data lebih baik bagi siapa saja.
+about-speak = Bicara
+about-speak-text = Kontributor merekam klip suara dengan membaca dari bank donasi kalimat.
+about-listen = Dengarkan
+about-is-it-valid = Apakah klipnya valid?
+about-dataset = Himpunan Data Common Voice
+about-dataset-text = Ketika ditolak oleh pengguna, klip suara akan kembali ke Antrean. Apabila ditolak lagi, klip suara akan dialihkan ke Kober Klip.
+about-clip-graveyard = Kober Klip
+about-clip-graveyard-text = Kober Klip terdiri dari klip suara yang ditolak masuk ke himpunan data Common Voice. Sebagaimana himpunan data, Kober Klip juga tersedia untuk diunduh.
+about-partners = Mitra
+about-become-a-partner = Jadilah mitra
 
 ## Glossary
 
