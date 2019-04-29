@@ -83,6 +83,7 @@ lv = Latviano
 mdf = Moksha
 mhr = Mari oriental
 mk = Macedone
+ml = Malayalam
 mn = Mongol
 mrj = Mari occidental
 myv = Erzya
@@ -132,6 +133,7 @@ speak = Parla
 speak-now = Parla ora
 datasets = Collection de datos
 languages = linguas
+about = A proposito de nos
 profile = Profilo
 help = Auxilio
 contact = Contacto
@@ -364,6 +366,21 @@ faq-how-privacy-q = Como assecura vos le anonymitate e le confidentialitate del 
 faq-how-privacy-a = Tote le retalios vocal in le collection de datos es depurate del informationes de identification personal. Quando un collaborator forni datos demographic via su profilo, ille informationes es de-identificate de lor retalios vocal ante que esser paccate pro le discarga in le collection de datos e es jammais rendite public sur su pagina del profilo.
 faq-what-determine-identity-q = Que significa que io non pote “determinar le identitate” del parlantes in le collection de datos de Common Voice?
 faq-what-determine-identity-a = Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote ser usate pro maestrar un large varietate de applicationes ad activation vocal. Pro proteger le securitate de nostre collaboratores, <s0/>nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del collaboratores.
+faq-what-is-cv = Que es Common Voice?
+faq-using-cv = Uso de Common Voice
+
+## ABOUT US
+
+about-title = Perque Common Voice?
+how-does-it-work-title = Como functiona illo?
+about-speak = Parlar
+about-listen = Ascoltar
+about-partners = Partners
+about-get-involved = Collabora
+about-nav-why-common-voice = Perque ?
+about-nav-how-it-works = Como ?
+about-nav-partners = Partners
+about-nav-get-involved = Collabora
 
 ## Glossary
 
