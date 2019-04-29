@@ -388,6 +388,44 @@ faq-search-for-answers =
 
 about-title = Waarom Common Voice?
 about-subtitle = Common Voice is deel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken. In aanvulling op de Common Voice-gegevensset bouwen we ook een open source spraakherkenningsengine genaamd Deep Speech.
+about-header-description =
+    Beide projecten maken deel uit van onze inspanningen om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
+    We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
+how-does-it-work-title = Hoe werkt het
+how-does-it-work-text = We crowdsourcen en open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
+about-speak = Spreken
+about-speak-text = Bijdragers nemen spraakfragmenten op door te lezen van een databank van gedoneerde zinnen.
+about-listen-queue = Luisterwachtrij
+about-listen-queue-text = Spraakclips worden ingevoerd in een indieningswachtrij waar ze klaarstaan om beluisterd te worden.
+about-listen = Luisteren
+about-listen-text = Gebruikers valideren de nauwkeurigheid van gedoneerde fragmenten en controleren of de spreker de zin correct leest.
+about-is-it-valid = Is het fragment geldig?
+about-is-it-valid-text = Een spraakfragment wordt gemarkeerd als ‘geldig’ wanneer een gebruiker het een ja-stem geeft.
+about-yes-votes = ≥ 2 ja-stemmen
+about-yes-votes-text = Om opgenomen te worden in de Common Voice-gegevensset moet een fragment worden gevalideerd door twee afzonderlijke gebruikers.
+about-no-votes = ≥ 2 nee-stemmen
+about-dataset = Common Voice-gegevensset
+about-partners = Partners
+about-become-a-partner = Een partner worden
+about-partnership =
+    Common Voice is een samenwerkingsproject en we zijn afhankelijk van onze gemeenschap van partners en medewerkers om de grootste open source gegevensset van stemmen ooit te bouwen.
+    
+    We willen de volgende mensen en organisaties bedanken voor hun hulp bij het project:
+about-get-involved = Meedoen
+about-get-involved-text =
+    Wilt u Common Voice nog beter helpen maken?
+    Geweldig! Neem contact op via e-mail of op <discourseLink>Discourse</discourseLink>,
+    geef feedback via <githubLink>GitHub</githubLink>,
+    of doe mee op <slackLink>Slack </slackLink>.
+about-nav-why-common-voice = Waarom?
+about-nav-how-it-works = Hoe?
+about-nav-partners = Partners
+about-nav-get-involved = Meedoen
+mycroft-title = Mycroft AI
+mycroft-subtitle = Kunstmatige intelligentie
+mycroft-description =
+    Mycroft is ’s werelds eerste open source assistent.
+    Mycroft draait overal – op een desktopcomputer, in een auto of op een Raspberry Pi.
 
 ## Glossary
 
