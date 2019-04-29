@@ -330,7 +330,7 @@ faq-what-cv-a =
     
     我们不只收集被广泛使用的语言的语音样本，也收集较少人使用的语言的语音样本。发布多种多样的语音数据集，可帮助开发者、创业者，以及各个社区来缩小彼此之间的鸿沟。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
 faq-why-important-q = 为什么如此重要？
-faq-why-important-a = 说话是人类相互沟通最自然的方式。而语音技术把这种方便感带到了计算机与移动设备上。我们想让开发者能够打造效果极好的语音识别程序，比如实时翻译器和语音数字助理。但此刻，大多数打造这类应用所必需的语音数据都是私有且昂贵的。我们希望 Common Voice 提供的数据集能满足开发者所需，把语音技术带到他们所说的语言。
+faq-why-important-a = 说话是人类相互沟通最自然的方式。而语音技术把这种方便感带到了计算机与移动设备上。我们想让开发者能够打造效果极好的语音识别程序，比如实时翻译器和语音数字助手。但此刻，大多数打造这类应用所必需的语音数据都是私有且昂贵的。我们希望 Common Voice 提供的数据集能满足开发者所需，把语音技术带到他们所说的语言。
 faq-how-get-q = 我要如何获取 Common Voice 数据？
 faq-how-get-a = 可到 <datasetLink>Common Voice 数据集页面</datasetLink>下载，本数据集遵循<licenseLink>CC0</licenseLink> 进行授权。您也可以在该页面中下载其他几组公开可用的数据集。
 faq-when-release-q = 你们什么时候会发布其他语言的 Common Voice 数据？
@@ -382,23 +382,40 @@ faq-search-for-answers =
 about-title = 为什么会有 Common Voice？
 about-subtitle = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
 how-does-it-work-title = 原理是什么？
+how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出您的声音、帮助验证录音片段是否正确，让数据集能够变得更好。
 about-speak = 说话
+about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
 about-listen-queue = 聆听队列
+about-listen-queue-text = 录制的片段将进入提交队列中，准备接受聆听确认。
 about-listen = 聆听
+about-listen-text = 用户确认录音片段是否精准，并检查说话者是否正确读出了语句。
 about-is-it-valid = 片段正确吗？
-about-yes-votes = ≥ 2 张“同意”票
+about-yes-votes = ≥ 2 张“正确”票
+about-yes-votes-text = 必须经过两位不同的用户确认，片段才能进入 Common Voice 数据集。
 about-no-votes = ≥ 2 张“否决”票
 about-dataset = Common Voice 数据集
 about-clip-graveyard = 片段回收站
+about-clip-graveyard-text = 回收站中包含无法进入 Common Voice 数据集的语音片段。与数据集一样，回收站内容也提供下载。
 about-partners = 合作伙伴
 about-become-a-partner = 成为合作伙伴
+about-partnership =
+    Common Voice 是一个协作项目。我们依靠由合作伙伴与贡献者所组成的社区，来构建有史以来最大的开源语音数据集。
+    
+    我们要感谢以下人员和组织对项目的帮助：
 about-get-involved = 参与进来
+about-get-involved-text =
+    想要帮忙使 Common Voice 变得更好吗？
+    太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 留言、
+    通过 <githubLink>GitHub</githubLink> 提交反馈意见、
+    也可以加入我们的 <slackLink>Slack</slackLink>。
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
 about-nav-get-involved = 参与进来
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
+mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。
+mycroft-secondary-description = 这是一个可以自由混搭、扩展、改进的开源软件。 Mycroft 可以用于科学项目，或企业软件应用等各种情境中。
 
 ## Glossary
 
