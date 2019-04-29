@@ -133,6 +133,7 @@ speak = Rěčeć
 speak-now = Rěčće nětko
 datasets = Datowe sadźby
 languages = Rěče
+about = Wo nas
 profile = Profil
 help = Pomoc
 contact = Kontakt
@@ -382,6 +383,32 @@ faq-what-determine-identity-a =
     Datowa sadźba Common Voice je wotewrjena a zjawnje přistupna resursa, kotraž hodźi so za trenowanje šěrokeje wšelakorosće přez rěčenje wodźenych nałoženjow wužiwać. Zo bychmy wěstotu našich sobuskutkowarjow škitali, prosymy kóždeho, kotryž datowu sadźbu Common Voice sćahuje, priwatnosć našich sobuskutkowarjow respektować.
     
     Ze wšěch hłosowych klipow w datowej sadźbje so informacije wotstronjeja, kotrež wosoby identifikuja. Hdyž datowu sadźbu sćahujeće, zwoliće do toho, zo njepospytujeće identitu sobuskutkowarja postajić. To rěka, zo njemóžeće spytać, informacije w datowej sadźbje z wosobinskimi informacijemi sobuskutkowarja zwjazać.  Móžeće wšak datowu sadźbu wužiwać, zo byšće rěčenske spóznaće, spóznaće rěčnikow abo druhe nałoženja přez to trenował, zo, na přikład, informacije w datowej sadźbje z druhimi informacijemi zwjazujeće, kotrež su hižo w datowej sadźbje.
+faq-what-is-cv = Što je Common Vocie?
+faq-using-cv = Common Voice wužiwać
+faq-description = Common Voice je dźěl iniciatiwy Mozilla, kotryž pomha, mašiny wučić, kal woprawdźići ludźo rěča.
+faq-search-for-answers =
+    .label = Za wotmołwami pytać
+
+## ABOUT US
+
+about-title = Čehodla Common Voice?
+how-does-it-work-title = Kak to funguje
+about-speak = Rěčeć
+about-listen = Poskać
+about-is-it-valid = Je klip płaćiwy?
+about-is-it-valid-text = Hłosowy klip so jako „płaćiwy markěruje, hdyž wužiwar jemu hajhłós da.
+about-yes-votes = ≥ 2 hajhłosaj
+about-no-votes = ≥ 2 něhłosaj
+about-dataset = Datowa sadźba Common Voice
+about-partners = Partnerojo
+about-become-a-partner = Budźće partner
+about-get-involved = Čińće sobu
+about-nav-why-common-voice = Čehodla?
+about-nav-how-it-works = Kak?
+about-nav-partners = Partnerojo
+about-nav-get-involved = Čińće sobu
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Kumšnta inteligenca
 
 ## Glossary
 
