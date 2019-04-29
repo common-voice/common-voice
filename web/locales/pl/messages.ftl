@@ -132,6 +132,7 @@ speak = Nagrywaj
 speak-now = Wymów teraz
 datasets = Zbiory danych
 languages = Języki
+about = O nas
 profile = Profil
 help = Pomoc
 contact = Kontakt
@@ -320,6 +321,20 @@ faq-title = Często zadawane pytania
 faq-what-cv-q = Czym jest Common Voice?
 faq-why-important-q = Dlaczego to jest ważne?
 faq-why-account-q = Po co mam zarejestrować konto?
+faq-description = Projekt Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi.
+
+## ABOUT US
+
+how-does-it-work-title = Jak to działa
+about-partners = Partnerzy
+about-become-a-partner = Zostań partnerem
+about-get-involved = Dołącz do nas
+about-nav-why-common-voice = Dlaczego?
+about-nav-how-it-works = Jak?
+about-nav-partners = Partnerzy
+about-nav-get-involved = Dołącz do nas
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Sztuczna inteligencja
 
 ## Glossary
 
