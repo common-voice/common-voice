@@ -381,6 +381,9 @@ faq-search-for-answers =
 
 about-title = 为什么会有 Common Voice？
 about-subtitle = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
+about-header-description =
+    这两个项目都是我们努力弭平数字语音鸿沟的一部分。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
+    我们希望能够自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
 how-does-it-work-title = 原理是什么？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出您的声音、帮助验证录音片段是否正确，让数据集能够变得更好。
 about-speak = 说话
@@ -390,10 +393,13 @@ about-listen-queue-text = 录制的片段将进入提交队列中，准备接受
 about-listen = 聆听
 about-listen-text = 用户确认录音片段是否精准，并检查说话者是否正确读出了语句。
 about-is-it-valid = 片段正确吗？
+about-is-it-valid-text = 若用户投下“正确”，就会标记为有效。
 about-yes-votes = ≥ 2 张“正确”票
 about-yes-votes-text = 必须经过两位不同的用户确认，片段才能进入 Common Voice 数据集。
-about-no-votes = ≥ 2 张“否决”票
+about-no-votes = ≥ 2 张“不正确”票
+about-no-votes-text = 若用户投下“不正确”，片段会返回队列。若被拒绝两次，片段就会就会被丢进回收站。
 about-dataset = Common Voice 数据集
+about-dataset-text = 若用户投下“不正确”，片段会返回队列。若被拒绝两次，片段就会就会被丢进回收站。
 about-clip-graveyard = 片段回收站
 about-clip-graveyard-text = 回收站中包含无法进入 Common Voice 数据集的语音片段。与数据集一样，回收站内容也提供下载。
 about-partners = 合作伙伴
@@ -425,7 +431,7 @@ localization-explanation = 这是我们为许多语系（语言）进行翻译�
 sentence-collection = 语句集合
 sentence-collection-explanation = 收集公共领域的语句，或为公共领域编写新的语句。
 hours-recorded-explanation = 到目前为止我们收集到的录音小时数。
-hours-validated-explanation = 每 3 位用户中有 2 位投票赞成“是”的已验证录音小时数。这也就是整个项目 10000 小时目标的进度。
+hours-validated-explanation = 每 3 位用户中有 2 位投票“正确”的已验证录音小时数。这也就是整个项目 10000 小时目标的进度。
 sst = 语音转文字（STT）
 sst-explanation = 语音转文字（STT）技术将语音数据转换为文字。
 de-identified = 去识别化
