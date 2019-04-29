@@ -82,6 +82,7 @@ lv = Letton
 mdf = Mokcha
 mhr = Mari des prairies
 mk = Macédonien
+ml = Malayalam
 mn = Mongol
 mrj = Mari des montagnes
 myv = Erzya
@@ -131,6 +132,7 @@ speak = Parler
 speak-now = Parler
 datasets = Jeux de données
 languages = Langues
+about = Qui sommes-nous
 profile = Profil
 help = Aide
 contact = Nous contacter
@@ -300,8 +302,6 @@ profile-explanation = Gardez un œil sur votre progression en créant un profil 
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 why-demographic = Pourquoi est-ce important ?
 why-demographic-explanation = Les données utilisateur anonymes comme l’âge, le sexe, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur et garder l’anonymat.
-keep-me-posted =
-    .label = Je voudrais profiter des mises à jour et être tenu au courant des avancées du projet Common Voice.
 accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
 login-identity = Identité de connexion
 login-signup = Se connecter / S’inscrire
@@ -321,6 +321,7 @@ connect-gravatar = Connectez-vous avec Gravatar
 gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse électronique
 file_too_large = Le fichier sélectionné est trop volumineux
 manage-subscriptions = Gérer vos abonnements
+manage-email-subscriptions = Gérer les abonnements aux courriels
 email-already-used = Cette adresse électronique est déjà utilisée par un compte différent
 add-language = Ajouter une langue
 change-email-setings = Modifiez votre adresse de courriel dans les Préférences, section « Identité de connexion »
@@ -375,6 +376,15 @@ faq-what-determine-identity-a =
     Le jeu de données Common Voice est une ressource ouverte et accessible à tous qui peut être utilisée pour de nombreuses applications liées à la voix. Pour protéger la sécurité de nos contributeurs, nous demandons à tous ceux qui téléchargent les données de respecter la vie privée des contributeurs.
     
     Tous les échantillons sont expurgés d’informations permettant d’identifier les locuteurs. Quand vous téléchargez le jeu de données, vous acceptez de ne pas essayer de déterminer l’identité des contributeurs. Cela signifie que vous ne devez pas essayer de faire le lien entre le jeu de données et des informations personnelles d’un contributeur. Vous pouvez par contre utiliser le jeu de données pour permettre la reconnaissance vocale, l’identification de différents locuteurs dans une conversation, par exemple en utilisant les données présentes uniquement dans le jeu de données.
+faq-what-is-cv = Qu’est-ce que Common Voice ?
+faq-using-cv = Utilisation de Common Voice
+faq-description = Le projet Common Voice fait partie des initiatives de Mozilla pour aider à apprendre aux machines comment les humains parlent vraiment.
+faq-search-for-answers =
+    .label = Rechercher des réponses
+
+## ABOUT US
+
+about-title = Pourquoi Common Voice ?
 
 ## Glossary
 
