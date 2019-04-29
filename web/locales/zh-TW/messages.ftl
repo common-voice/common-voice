@@ -402,11 +402,11 @@ about-is-it-valid-text = 若使用者投下「正確」，就會標示為有效�
 about-yes-votes = ≥ 2 張「正確」票
 about-yes-votes-text = 必須經過兩位不同的使用者確認過，片段才會進入 Common Voice 資料集。
 about-no-votes = ≥ 2 張「不正確」票
-about-no-votes-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進垃圾桶。
+about-no-votes-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
 about-dataset = Common Voice 資料集
-about-dataset-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進垃圾桶。
-about-clip-graveyard = 片段垃圾桶
-about-clip-graveyard-text = 垃圾桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，垃圾桶內容也有提供下載。
+about-dataset-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
+about-clip-graveyard = 片段回收桶
+about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，回收桶內容也有提供下載。
 about-partners = 夥伴
 about-become-a-partner = 成為夥伴
 about-partnership =
@@ -414,7 +414,11 @@ about-partnership =
     
     特別感謝下列人員與組織單位，協助本專案:
 about-get-involved = 參與我們
-about-get-involved-text = 想要幫忙讓 Common Voice 變得更棒嗎？沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、透過 <githubLink>GitHub</githubLink> 送出意見回饋、也可以加入我們的 <slackLink>Slack</slackLink>。
+about-get-involved-text =
+    想要幫忙讓 Common Voice 變得更棒嗎？
+    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、
+    透過 <githubLink>GitHub</githubLink> 送出意見回饋、
+    也可以加入我們的 <slackLink>Slack</slackLink>。
 about-nav-why-common-voice = 為什麼？
 about-nav-how-it-works = 怎麼做？
 about-nav-partners = 夥伴
