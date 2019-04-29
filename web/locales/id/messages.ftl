@@ -28,6 +28,7 @@ ar = Bahasa Arab
 as = Bahasa Assam
 ast = Bahasa Asturia
 az = Bahasa Azeri
+ba = Bahasa Bashkir
 bg = Bahasa Bulgaria
 bn = Bahasa Bengali
 br = Bahasa Breton
@@ -55,6 +56,7 @@ fr = Bahasa Perancis
 fy-NL = Bahasa Frisia
 ga-IE = Bahasa Irlandia
 gl = Bahasa Galisia
+ha = Bahasa Hausa
 he = Bahasa Ibrani
 hi-IN = Bahasa Hindi
 hr = Bahasa Kroasia
@@ -71,6 +73,7 @@ kab = Bahasa Kabyle
 kk = Bahasa Kazak
 ko = Bahasa Korea
 kpv = Bahasa Komi-Zyrian
+ku = Bahasa Kurdi
 kw = Bahasa Kornish
 ky = Bahasa Kirgiz
 lij = Bahasa Liguria
@@ -79,6 +82,7 @@ lv = Bahasa Latvia
 mdf = Bahasa Moksha
 mhr = Meadow Mari
 mk = Bahasa Makedonia
+ml = Bahasa Malayalam
 mn = Bahasa Mongol
 mrj = Hill Mari
 myv = Bahasa Erzya
@@ -96,6 +100,7 @@ ru = Bahasa Rusia
 rw = Bahasa Kinyarwanda
 sah = Bahasa Sakha
 sc = Bahasa Sardinia
+si = Bahasa Sinhala
 sk = Bahasa Slowakia
 sl = Bahasa Slovenia
 sq = Bahasa Albania
@@ -127,6 +132,7 @@ speak = Bicara
 speak-now = Bicara sekarang
 datasets = Himpunan Data
 languages = Bahasa
+about = Tentang Kami
 profile = Profil
 help = Bantuan
 contact = Kontak
@@ -292,8 +298,6 @@ profile-explanation = Pantau progres Anda dengan sebuah profil dan bantu data su
 thanks-for-account = Terima kasih telah mengkonfimasi akun, sekarang mari buat profil Anda.
 why-demographic = Mengapa ini berpengaruh?
 why-demographic-explanation = Data pengguna yang dianonimkan seperti usia, jenis kelamin, dan logat membantu memperbaiki data suara yang digunakan untuk melatih akurasi mesin pengenalan ucapan. Nama pengguna dan surel Anda tidak akan dikaitkan dengan data yang Anda kirimkan, dan Anda dapat memilih untuk mempublikkan nama pengguna Anda atau menjadikannya anonim.
-keep-me-posted =
-    .label = Saya ingin menerima pembaruan & terus diberitahu berita terbaru tentang Common Voice.
 accept-privacy = Saya setuju Mozilla mengelola infomasi saya sesuai yang tertera pada <privacyLink>Kebijakan Privasi</privacyLink>
 login-identity = Identitas Masuk
 login-signup = Masuk / Daftar
@@ -313,6 +317,7 @@ connect-gravatar = Sambungkan ke Gravatar
 gravatar_not_found = Tidak ditemukan gravatar untuk surel Anda
 file_too_large = Berkas yang dipilih terlalu besar
 manage-subscriptions = Kelola Langganan
+manage-email-subscriptions = Kelola Langganan Surel
 email-already-used = Surel telah digunakan untuk akun yang berbeda
 add-language = Tambah Bahasa
 change-email-setings = Ubah email Anda melalui Pengaturan di bawah Identitas Login
@@ -370,6 +375,16 @@ faq-what-determine-identity-a =
     Set data Common Voice adalah sumber daya terbuka dan tersedia untuk umum yang dapat digunakan untuk melatih berbagai aplikasi yang berkemampuan-bicara. Untuk melindungi keamanan kontributor kami, kami meminta semua orang yang mengunduh set data Common Voice untuk menghormati privasi kontributor.
     
     Semua klip suara dalam set data telah terpisahkan dari informasi pengenal pribadi. Ketika Anda mengunduh set data, Anda setuju untuk tidak mencoba menentukan identitas kontributor manapun. Itu berarti Anda tidak dapat mencoba menautkan informasi dalam set data ke informasi pribadi kontributor. Namun, Anda dapat menggunakan set data untuk melatih pengenalan ucapan, pengenalan pembicara, atau aplikasi lain, dengan, misalnya, menghubungkan informasi dalam set data ke informasi lain yang sudah ada dalam set data.
+faq-what-is-cv = Apa itu Common Voice?
+faq-using-cv = Menggunakan Common Voice
+faq-description = Common Voice adalah bagian dari inisiatif Mozilla untuk membantu mengajari mesin bagaimana manusia sebenarnya berbicara.
+faq-search-for-answers =
+    .label = Cari jawaban
+
+## ABOUT US
+
+about-title = Mengapa Common Voice?
+about-subtitle = Common Voice adalah bagian dari inisiatif Mozilla untuk membantu mengajari mesin bagaimana manusia sebenarnya berbicara. Selain himpunan data Common Voice, kami juga membangun mesin pengenalan ucapan sumber terbuka yang disebut Deep Speech.
 
 ## Glossary
 
