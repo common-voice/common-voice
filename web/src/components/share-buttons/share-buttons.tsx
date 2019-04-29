@@ -19,11 +19,23 @@ interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
 }
 
-type Props = LocalizationProps & PropsFromDispatch & LocalePropsFromState;
+interface Props
+  extends LocalizationProps,
+    PropsFromDispatch,
+    LocalePropsFromState {
+  shareText?: string;
+}
 
-function ShareButtons({ addNotification, getString, locale }: Props) {
+function ShareButtons({
+  addNotification,
+  getString,
+  locale,
+  shareText,
+}: Props) {
   const encodedShareText = encodeURIComponent(
-    getString('share-text', { link: SHARE_URL })
+    shareText
+      ? shareText.replace('{link}', SHARE_URL)
+      : getString('share-text', { link: SHARE_URL })
   );
   const shareURLInputRef = useRef(null);
 

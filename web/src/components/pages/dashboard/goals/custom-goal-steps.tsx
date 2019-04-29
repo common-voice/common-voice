@@ -271,6 +271,7 @@ export default [
                 both: 'Speaking and Listening',
               } as any)[state.type]
             }`}
+            shareText="I just created a personal goal for voice donation to #CommonVoice -- join me and help teach machines how real people speak {link}"
             onRequestClose={() => {
               setShowShareModal(false);
               const { onClick } = nextButtonProps as any;
