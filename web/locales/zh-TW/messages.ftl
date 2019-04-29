@@ -83,6 +83,7 @@ lv = 拉脫維亞語
 mdf = 莫克沙語
 mhr = 草原馬里語
 mk = 馬其頓語
+ml = 馬拉亞拉姆語
 mn = 蒙古語
 mrj = 山地馬里語
 myv = 厄茲亞語
@@ -132,6 +133,7 @@ speak = 說話
 speak-now = 現在說話
 datasets = 資料集
 languages = 語言
+about = 關於我們
 profile = 帳號資料
 help = 說明
 contact = 聯絡我們
@@ -374,6 +376,40 @@ faq-what-determine-identity-a =
     Common Voice 資料集是一份開放，可公開使用的資源。含有語音功能的應用程式可使用這份資料來訓練程式。為了保護貢獻者的安全，我們要求所有下載 Common Voice 資料集的人確保貢獻者的隱私安全。
     
     所有語音片段中的個人識別資料已經清除。當您下載資料集時，就代表您同意不會識別資料集當中的任何貢獻者。這代表您不得嘗試將資料集中的資訊，與貢獻者的個人資訊連結起來。但您可以將資料集中的不同資訊互相連結起來，用來訓練語音識別、說話者識別等功能，或其他應用程式。
+faq-what-is-cv = Common Voice 是什麼？
+faq-using-cv = 使用 Common Voice
+faq-search-for-answers =
+    .label = 搜尋解答
+
+## ABOUT US
+
+about-title = 為什麼會有 Common Voice？
+how-does-it-work-title = 原理是什麼？
+about-speak = 說話
+about-speak-text = 貢獻者透過讀出一系列由他人捐贈的語料庫句子，將語音片段錄音下來。
+about-listen-queue = 聆聽佇列
+about-listen-queue-text = 錄下的片段將進入佇列中排隊，準備接受聆聽確認。
+about-listen = 聆聽確認
+about-listen-text = 使用者確認錄音片段的正確度，並確認說話者是否正確讀出了句子。
+about-is-it-valid = 片段有效嗎？
+about-is-it-valid-text = 若使用者投下「正確」，就會標示為有效。
+about-yes-votes = ≥ 2 張「正確」票
+about-yes-votes-text = 必須經過兩位不同的使用者確認過，片段才會進入 Common Voice 資料集。
+about-no-votes = ≥ 2 張「不正確」票
+about-no-votes-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進垃圾桶。
+about-dataset = Common Voice 資料集
+about-dataset-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進垃圾桶。
+about-clip-graveyard = 片段垃圾桶
+about-clip-graveyard-text = 垃圾桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，垃圾桶內容也有提供下載。
+about-partners = 夥伴
+about-become-a-partner = 成為夥伴
+about-get-involved = 參與我們
+about-nav-why-common-voice = 為什麼？
+about-nav-how-it-works = 怎麼做？
+about-nav-partners = 夥伴
+about-nav-get-involved = 參與我們
+mycroft-title = Mycroft Ai
+mycroft-subtitle = 人工智慧
 
 ## Glossary
 
