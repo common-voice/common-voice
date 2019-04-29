@@ -83,6 +83,7 @@ lv = Letão
 mdf = Moksha
 mhr = Meadow Mari
 mk = Macedônio
+ml = Malaiala
 mn = Mongol
 mrj = Hill Mari
 myv = Erzya
@@ -379,10 +380,14 @@ faq-what-determine-identity-a =
     Todos os clipes de voz no conjunto de dados são limpos de informações de identificação pessoal. Ao baixar o conjunto de dados, você concorda em não tentar determinar a identidade de nenhum colaborador. Isso significa que você não pode tentar vincular informações no conjunto de dados a informações pessoais de um colaborador. Você pode, no entanto, usar o conjunto de dados para treinar reconhecimento de voz, reconhecimento de quem fala, ou outras aplicações, por exemplo, vinculando informações no conjunto de dados a outras informações já contidas no conjunto de dados.
 faq-what-is-cv = O que é Common Voice?
 faq-using-cv = Como usar o Common Voice
+faq-description = O Common Voice faz parte da iniciativa da Mozilla de ajudar a ensinar às máquinas como pessoas de verdade falam.
+faq-search-for-answers =
+    .label = Pesquisar respostas
 
 ## ABOUT US
 
 about-title = Por que o Common Voice?
+about-subtitle = O Common Voice faz parte da iniciativa da Mozilla de ajudar a ensinar às máquinas como pessoas de verdade falam. Em paralelo ao conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto an open source speech recognition engine called Deep Speech.
 how-does-it-work-title = Como funciona
 about-speak = Falar
 about-listen = Ouvir
@@ -402,6 +407,7 @@ mycroft-subtitle = Inteligência artificial
 mycroft-description =
     Mycroft é o primeiro assistente mundial de código aberto.
     Mycroft funciona em qualquer lugar - em um computador de mesa, dentro de um automóvel, ou em um Raspberry Pi.
+mycroft-secondary-description = Este é um software de código aberto que pode ser livremente remixado, estendido e aprimorado. O Mycroft pode ser usado em qualquer coisa, desde um projeto científico até uma aplicação de software empresarial.
 
 ## Glossary
 
