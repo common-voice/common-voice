@@ -66,8 +66,8 @@ export default class API {
       location.reload();
       return;
     }
-    if (response.status >= 400) {
-      throw response;
+    if (response.statusText === 'Error in saveClip server') {
+      throw new Error('saveclipError');
     }
     return isJSON ? response.json() : response.text();
   }

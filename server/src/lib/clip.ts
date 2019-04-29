@@ -188,8 +188,9 @@ export default class Clip {
     Basket.sync(client_id).catch(e => console.error(e));
       response.json(filePrefix);
     } catch (error) {
-      console.log(error);
-      response.status(error.statusCode || 500).json(error);
+      console.error(error);
+      response.statusMessage = 'Error in saveClip server';
+      response.json(error);
     }
   };
 
