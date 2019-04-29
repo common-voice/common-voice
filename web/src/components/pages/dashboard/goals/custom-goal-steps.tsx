@@ -261,11 +261,7 @@ export default [
       <div className="padded">
         {showShareModal && (
           <ShareModal
-            title={
-              <>
-                <b>Help us</b> Find more voices, share your goal
-              </>
-            }
+            title={<>Help us find more voices, share your goal</>}
             text={`Share your ${state.amount} Clip ${
               state.daysInterval == 7 ? 'Weekly' : 'Daily'
             } Goal for ${

@@ -51,14 +51,6 @@ function ShareButtons({ addNotification, getString, locale }: Props) {
       </button>
       <a
         className="share-button"
-        href={'https://twitter.com/intent/tweet?text=' + encodedShareText}
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={() => trackSharing('twitter', locale)}>
-        <FontIcon type="twitter" />
-      </a>
-      <a
-        className="share-button"
         href={
           'https://www.facebook.com/sharer/sharer.php?u=' +
           encodeURIComponent(SHARE_URL)
@@ -67,6 +59,14 @@ function ShareButtons({ addNotification, getString, locale }: Props) {
         rel="noopener noreferrer"
         onClick={() => trackSharing('facebook', locale)}>
         <FontIcon type="facebook" />
+      </a>
+      <a
+        className="share-button"
+        href={'https://twitter.com/intent/tweet?text=' + encodedShareText}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => trackSharing('twitter', locale)}>
+        <FontIcon type="twitter" />
       </a>
     </React.Fragment>
   );

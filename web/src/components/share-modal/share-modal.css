@@ -1,10 +1,11 @@
 @import url('../vars.css');
 
 .share-modal.inner {
+    padding: 0;
+    max-width: 750px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
 
     & h1 {
         font-weight: normal;
@@ -39,9 +40,9 @@
             margin-bottom: 23px;
             width: 100%;
             height: 370px;
-            background: url('./wave-red.svg') no-repeat;
-            background-size: 100% 95%;
-            background-position-y: bottom;
+            background: url('/img/wave.svg') no-repeat;
+            background-size: 100% 75%;
+            background-position-y: top;
             display: flex;
             justify-content: center;
             align-items: flex-end;
@@ -61,11 +62,13 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background: var(--near-black);
+        background: var(--black);
 
         & .share-button {
             margin: 16px 20px;
             height: 24px;
+            position: relative;
+            bottom: 2px;
         }
     }
 }
