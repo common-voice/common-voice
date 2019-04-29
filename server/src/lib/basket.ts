@@ -33,7 +33,7 @@ export async function sync(client_id: string) {
         current_goal.created_at >= goals.created_at
       )
       LEFT JOIN awards ON current_goal.id = awards.custom_goal_id
-      WHERE user_clients.client_id = ?
+      WHERE user_clients.client_id = ? AND has_login
       GROUP BY user_clients.client_id
     `,
     [client_id]
