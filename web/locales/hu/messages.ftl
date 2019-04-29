@@ -83,6 +83,7 @@ lv = Lett
 mdf = Moksa
 mhr = Mezei mari
 mk = Macedón
+ml = Malajálam
 mn = Mongol
 mrj = Hegyi mari
 myv = Erza
