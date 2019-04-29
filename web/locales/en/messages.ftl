@@ -79,6 +79,7 @@ lv = Latvian
 mdf = Moksha
 mhr = Meadow Mari
 mk = Macedonian
+ml = Malayalam
 mn = Mongolian
 mrj = Hill Mari
 myv = Erzya
