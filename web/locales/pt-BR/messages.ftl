@@ -377,9 +377,31 @@ faq-what-determine-identity-a =
     O conjunto de dados do Common Voice é um recurso aberto e disponível publicamente que pode ser usado para treinar uma ampla variedade de aplicativos habilitados para fala. Para proteger a segurança de nossos colaboradores, pedimos a todos que baixarem o conjunto de dados do Common Voice que respeitem a privacidade dos colaboradores.
     
     Todos os clipes de voz no conjunto de dados são limpos de informações de identificação pessoal. Ao baixar o conjunto de dados, você concorda em não tentar determinar a identidade de nenhum colaborador. Isso significa que você não pode tentar vincular informações no conjunto de dados a informações pessoais de um colaborador. Você pode, no entanto, usar o conjunto de dados para treinar reconhecimento de voz, reconhecimento de quem fala, ou outras aplicações, por exemplo, vinculando informações no conjunto de dados a outras informações já contidas no conjunto de dados.
+faq-what-is-cv = O que é Common Voice?
+faq-using-cv = Como usar o Common Voice
 
 ## ABOUT US
 
+about-title = Por que o Common Voice?
+how-does-it-work-title = Como funciona
+about-speak = Falar
+about-listen = Ouvir
+about-is-it-valid = O clipe é válido?
+about-yes-votes = ≥ 2 votos Sim
+about-no-votes = ≥ 2 votos Não
+about-dataset = Conjunto de dados do Common Voice
+about-partners = Parceiros
+about-become-a-partner = Torne-se um parceiro
+about-get-involved = Envolva-se
+about-nav-why-common-voice = Por que?
+about-nav-how-it-works = Como?
+about-nav-partners = Parceiros
+about-nav-get-involved = Envolva-se
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Inteligência artificial
+mycroft-description =
+    Mycroft é o primeiro assistente mundial de código aberto.
+    Mycroft funciona em qualquer lugar - em um computador de mesa, dentro de um automóvel, ou em um Raspberry Pi.
 
 ## Glossary
 
