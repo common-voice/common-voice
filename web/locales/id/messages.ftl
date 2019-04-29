@@ -402,6 +402,7 @@ about-is-it-valid-text = Klip suara ditandai "valid" ketika pengguna memilih Ya.
 about-yes-votes = ≥ 2 pilihan Ya
 about-yes-votes-text = Supaya diterima dalam himpunan data Common Voice, klip suara harus divalidasi oleh dua pengguna berbeda.
 about-no-votes = ≥ 2 pilihan Tidak
+about-no-votes-text = Ketika ditolak oleh pengguna, klip suara akan kembali ke Antrean. Apabila ditolak lagi, klip suara akan dialihkan ke Kober Klip.
 about-dataset = Himpunan Data Common Voice
 about-dataset-text = Ketika ditolak oleh pengguna, klip suara akan kembali ke Antrean. Apabila ditolak lagi, klip suara akan dialihkan ke Kober Klip.
 about-clip-graveyard = Kober Klip
