@@ -380,15 +380,19 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 为什么会有 Common Voice？
+about-subtitle = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
 how-does-it-work-title = 原理是什么？
 about-speak = 说话
 about-listen-queue = 聆听队列
 about-listen = 聆听
 about-is-it-valid = 片段正确吗？
+about-yes-votes = ≥ 2 张“同意”票
+about-no-votes = ≥ 2 张“否决”票
 about-dataset = Common Voice 数据集
 about-clip-graveyard = 片段回收站
 about-partners = 合作伙伴
 about-become-a-partner = 成为合作伙伴
+about-get-involved = 参与进来
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
