@@ -24,7 +24,7 @@ class CustomGoalLock extends React.Component<Props> {
     const hasCustomGoal =
       !isProduction() &&
       user.account &&
-      (user.account.locales.some(l => l.locale == CUSTOM_GOAL_LOCALE) ||
+      (user.account.locales.some(l => l.locale == CUSTOM_GOAL_LOCALE) &&
         locale == CUSTOM_GOAL_LOCALE) &&
       (!currentLocale ||
         currentLocale == CUSTOM_GOAL_LOCALE ||
