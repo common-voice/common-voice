@@ -1,9 +1,7 @@
 import * as React from 'react';
-import { useState } from 'react';
 import { Localized } from 'fluent-react/compat';
-import { trackGlobal, trackNav } from '../../services/tracker';
+import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
-import ContactModal from '../contact-modal/contact-modal';
 import ShareButtons from '../share-buttons/share-buttons';
 import {
   ContactIcon,
@@ -19,6 +17,7 @@ import {
 } from '../locale-helpers';
 import Logo from './logo';
 import SubscribeNewsletter from './subscribe-newsletter';
+import { ContactLink, DiscourseLink, GitHubLink } from '../shared/links';
 
 import './footer.css';
 
@@ -31,12 +30,8 @@ const LocalizedLocaleLink = localeConnector(
 );
 
 const Footer = React.memo(({ locale }: LocalePropsFromState) => {
-  const [showContactModal, setShowContactModal] = useState(false);
   return (
     <footer>
-      {showContactModal && (
-        <ContactModal onRequestClose={() => setShowContactModal(false)} />
-      )}
       <div id="help-links">
         <LocaleLink id="help" to={URLS.FAQ}>
           <SupportIcon />
@@ -45,34 +40,22 @@ const Footer = React.memo(({ locale }: LocalePropsFromState) => {
           </Localized>
         </LocaleLink>
         <div className="divider" />
-        <a
-          id="contribute"
-          target="_blank"
-          href="https://github.com/mozilla/voice-web"
-          onClick={() => trackGlobal('github', locale)}>
+        <GitHubLink id="contribute">
           <GithubIcon />
           <div>GitHub</div>
-        </a>
+        </GitHubLink>
         <div className="divider" />
-        <a
-          id="discourse"
-          target="blank"
-          href="https://discourse.mozilla-community.org/c/voice"
-          onClick={() => trackGlobal('discourse', locale)}>
+        <DiscourseLink id="discourse">
           <DiscourseIcon />
           <div>Discourse</div>
-        </a>
+        </DiscourseLink>
         <div className="divider" />
-        <TextButton
-          onClick={() => {
-            trackGlobal('contact', locale);
-            setShowContactModal(true);
-          }}>
+        <ContactLink>
           <ContactIcon />
           <Localized id="contact">
             <div />
           </Localized>
-        </TextButton>
+        </ContactLink>
       </div>
       <div id="moz-links">
         <div className="logo-container">

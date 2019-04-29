@@ -63,6 +63,7 @@ header {
         font-size: var(--font-size-xs);
         text-transform: uppercase;
         font-weight: 600;
+        white-space: nowrap;
     }
 
     & .user-menu {

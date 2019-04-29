@@ -126,6 +126,7 @@ speak = Speak
 speak-now = Speak now
 datasets = Datasets
 languages = Languages
+about = About Us
 profile = Profile
 help = Help
 contact = Contact
@@ -399,6 +400,58 @@ faq-what-determine-identity-a =
 
     All voice clips in the dataset are scrubbed of personally identifying information. When you download the dataset, you agree to not attempt to determine the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
 
+faq-what-is-cv = What is Common Voice?
+faq-using-cv = Using Common Voice
+faq-description = Common Voice is part of Mozilla's initiative to help teach machines how real people speak.
+faq-search-for-answers =
+    .label = Search for answers
+
+## ABOUT US
+about-title = Why Common Voice?
+about-subtitle = Common Voice is part of Mozilla's initiative to help teach machines how real people speak. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+about-header-description = Both of these projects are part of our efforts to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
+    We want to make voice data freely and publicly available, and make sure the data represents the diversity of real people. Together we can make voice recognition better for everyone.
+how-does-it-work-title = How does it work
+how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
+
+about-speak = Speak
+about-speak-text = Contributors record voice clips by reading from a bank of donated sentences.
+about-listen-queue = Listen-Queue
+about-listen-queue-text = Voice clips are entered into a submission queue that readies them for listening.
+about-listen = Listen
+about-listen-text = Users validate the accuracy of donated clips, checking that the speaker read the sentence correctly.
+about-is-it-valid = Is the clip valid?
+about-is-it-valid-text = A voice clip is marked "valid" when a user gives it a Yes vote.
+about-yes-votes = ≥ 2 Yes votes
+about-yes-votes-text = To make it into the Common Voice dataset, a voice clip must be validated by two separate users.
+about-no-votes = ≥ 2 No votes
+about-no-votes-text = When a user rejects a voice clip it returns to the Queue. If rejected a second time, the voice clip is moved to the Clip Graveyard.
+about-dataset = Common Voice Dataset
+about-dataset-text = When a user rejects a voice clip it returns to the Queue. If rejected a second time, the voice clip is moved to the Clip Graveyard.
+about-clip-graveyard = Clip Graveyard
+about-clip-graveyard-text = The Clip Graveyard consists of voice clips that didn't make it into the Common Voice dataset. Just like the dataset, the Clip Graveyard is available for download.
+
+about-partners = Partners
+about-become-a-partner = Become a partner
+about-partnership = Common Voice is a collaborative project, and we're depending on our community of partners and contributors to build the largest open-source dataset of voices ever.
+
+    We would like to thank the following people and organizations for their help with the project:
+about-get-involved = Get involved
+about-get-involved-text = Want to help make Common Voice even better?
+    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
+    submit feedback through <githubLink>GitHub</githubLink>,
+    or join us on <slackLink>Slack</slackLink>.
+
+about-nav-why-common-voice = Why ?
+about-nav-how-it-works = How ?
+about-nav-partners = Partners
+about-nav-get-involved = Get involved
+
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Artificial intelligence
+mycroft-description = Mycroft is the world’s first open source assistant.
+    Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Raspberry Pi.
+mycroft-secondary-description = This is open source software which can be freely remixed, extended, and improved. Mycroft may be used in anything from a science project to an enterprise software application.
 
 ## Glossary
 glossary = Glossary

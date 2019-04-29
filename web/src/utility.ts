@@ -1,5 +1,7 @@
 import { UserClient } from 'common/user-clients';
 
+const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
+
 /**
  * Generate RFC4122 compliant globally unique identifier.
  */
@@ -112,4 +114,13 @@ export async function hash(text: string) {
   return [...new Uint8Array(digest)]
     .map(value => value.toString(16).padStart(2, '0'))
     .join('');
+}
+
+export function stringContains(haystack: string, needles: string) {
+  return (
+    haystack
+      .toUpperCase()
+      .replace(SEARCH_REG_EXP, '')
+      .indexOf(needles) !== -1
+  );
 }

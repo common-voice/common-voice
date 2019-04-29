@@ -6,7 +6,8 @@ import {
   localeConnector,
   LocalePropsFromState,
 } from '../locale-helpers';
-import FAQPage from '../pages/faq';
+import FAQPage from '../pages/faq/faq';
+import AboutPage from '../pages/about/about';
 import DocumentPage from '../pages/document-page';
 import NotFoundPage from '../pages/not-found';
 import { Spinner } from '../ui/ui';
@@ -77,6 +78,7 @@ export default localeConnector(
             render={() => <Redirect to={toLocaleRoute(URLS.GOALS)} />}
           />
           <Route exact path={toLocaleRoute(URLS.FAQ)} component={FAQPage} />
+          <Route exact path={toLocaleRoute(URLS.ABOUT)} component={AboutPage} />
           <Route
             exact
             path={toLocaleRoute(URLS.PRIVACY)}
