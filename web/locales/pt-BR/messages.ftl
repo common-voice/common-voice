@@ -132,6 +132,7 @@ speak = Falar
 speak-now = Fale agora
 datasets = Conjuntos de dados
 languages = Idiomas
+about = Sobre nós
 profile = Perfil
 help = Ajuda
 contact = Contato
@@ -376,6 +377,9 @@ faq-what-determine-identity-a =
     O conjunto de dados do Common Voice é um recurso aberto e disponível publicamente que pode ser usado para treinar uma ampla variedade de aplicativos habilitados para fala. Para proteger a segurança de nossos colaboradores, pedimos a todos que baixarem o conjunto de dados do Common Voice que respeitem a privacidade dos colaboradores.
     
     Todos os clipes de voz no conjunto de dados são limpos de informações de identificação pessoal. Ao baixar o conjunto de dados, você concorda em não tentar determinar a identidade de nenhum colaborador. Isso significa que você não pode tentar vincular informações no conjunto de dados a informações pessoais de um colaborador. Você pode, no entanto, usar o conjunto de dados para treinar reconhecimento de voz, reconhecimento de quem fala, ou outras aplicações, por exemplo, vinculando informações no conjunto de dados a outras informações já contidas no conjunto de dados.
+
+## ABOUT US
+
 
 ## Glossary
 
