@@ -394,6 +394,15 @@ how-does-it-work-title = Hogyan működik
 about-speak = Beszéljen
 about-listen-queue = Figyelési sor
 about-listen = Figyeljen
+about-is-it-valid = Érvényes-e a klip?
+about-is-it-valid-text = A hangfájl „érvényesként” jelölt, ha egy felhasználó igen szavazatot adott.
+about-yes-votes = ≥ 2 igen szavazat
+about-yes-votes-text = Ahhoz, hogy bekerüljön a Common Voice hangadatkészletbe, a hangklipet két különböző felhasználónak kell érvényesítenie.
+about-no-votes = ≥ 2 nem szavazat
+about-no-votes-text = Ha egy felhasználó elutasít egy hangklipet, akkor visszakerül a sorba. Ha másodszor is elutasítják, akkor a klip átkerül a Kliptemetőbe.
+about-dataset = Common Voice adatkészlet
+about-dataset-text = Ha egy felhasználó elutasít egy hangklipet, akkor visszakerül a sorba. Ha másodszor is elutasítják, akkor a klip átkerül a Kliptemetőbe.
+about-clip-graveyard = Kliptemető
 
 ## Glossary
 
