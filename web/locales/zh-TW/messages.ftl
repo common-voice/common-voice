@@ -378,13 +378,19 @@ faq-what-determine-identity-a =
     所有語音片段中的個人識別資料已經清除。當您下載資料集時，就代表您同意不會識別資料集當中的任何貢獻者。這代表您不得嘗試將資料集中的資訊，與貢獻者的個人資訊連結起來。但您可以將資料集中的不同資訊互相連結起來，用來訓練語音識別、說話者識別等功能，或其他應用程式。
 faq-what-is-cv = Common Voice 是什麼？
 faq-using-cv = 使用 Common Voice
+faq-description = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。
 faq-search-for-answers =
     .label = 搜尋解答
 
 ## ABOUT US
 
 about-title = 為什麼會有 Common Voice？
+about-subtitle = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。除了 Common Voice 資料集外，我們也正在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
+about-header-description =
+    這兩個專案都是我們努力弭平數位語音落差的一部份。語音識別技術可讓我們的裝置帶來人性，但開發者需要極為龐大數量的語音資料，才能打造出這樣的系統。目前大部分語音資料都相當昂貴，也是專有的資料。
+    我們希望讓語音資料能夠公開自由使用，並確保資料反映出人們實際的多樣性。讓我們一起為所有人把語音識別技術變得更好吧！
 how-does-it-work-title = 原理是什麼？
+how-does-it-work-text = 我們正在集合眾人之力，打造一組開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
 about-speak = 說話
 about-speak-text = 貢獻者透過讀出一系列由他人捐贈的語料庫句子，將語音片段錄音下來。
 about-listen-queue = 聆聽佇列
@@ -416,6 +422,7 @@ about-nav-get-involved = 參與我們
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智慧
 mycroft-description = Mycroft 是全球第一套的開放原始碼語音助理，不論是在電腦、車子、Raspberry Pi 或是任何地方都能運作。
+mycroft-secondary-description = 這是一套可以自由混搭、延伸、改進的開放原始碼軟體。Mycroft 可以用於科學專案，或企業軟體應用等各種情境中。
 
 ## Glossary
 
