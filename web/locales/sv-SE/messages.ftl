@@ -83,6 +83,7 @@ lv = Lettiska
 mdf = Moksha
 mhr = Östmariska
 mk = Makedonska
+ml = Malayalam
 mn = Mongoliska
 mrj = Västmariska
 myv = Erzya
@@ -132,6 +133,7 @@ speak = Tala
 speak-now = Prata nu
 datasets = Datamängder
 languages = Språk
+about = Om oss
 profile = Profil
 help = Hjälp
 contact = Kontakt
@@ -379,6 +381,24 @@ faq-what-determine-identity-a =
     Common Voice-datamängd är en öppen och allmänt tillgänglig resurs som kan användas för att träna ett brett utbud av röstaktiverade applikationer. För att skydda våra bidragsgivares säkerhet ber vi alla som hämtar Common Voice-datamängd att respektera bidragsgivarnas integritet.
     
     Alla röstklipp i datamängden rensas på personidentifierande information. När du hämtar datamängden godkänner du att du inte försöker ta reda på identiteten hos någon bidragsgivare. Det betyder att du inte får försöka länka information i datamängden till en bidragsgivares personuppgifter. Du kan dock använda datamängden för att träna taligenkänning, talarigenkänning eller andra program, t.ex. genom att länka information i datamängden till annan information som redan finns i datamängden.
+faq-what-is-cv = Vad är Common Voice?
+faq-using-cv = Använda Common Voice
+faq-search-for-answers =
+    .label = Sök efter svar
+
+## ABOUT US
+
+about-title = Varför Common Voice?
+about-listen = Lyssna
+about-yes-votes = ≥ 2 Ja röster
+about-no-votes = ≥ 2 Nej röster
+about-partners = Partners
+about-become-a-partner = Bli en partner
+about-nav-why-common-voice = Varför ?
+about-nav-how-it-works = Hur ?
+about-nav-partners = Partners
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Artificiell intelligens
 
 ## Glossary
 
