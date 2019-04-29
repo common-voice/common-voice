@@ -133,6 +133,7 @@ speak = Beszéljen
 speak-now = Most beszéljen
 datasets = Adatkészletek
 languages = Nyelvek
+about = Rólunk
 profile = Profil
 help = Súgó
 contact = Kapcsolat
@@ -380,6 +381,19 @@ faq-how-privacy-q = Hogyan biztosítják a hangjukat felajánló emberek névtel
 faq-how-privacy-a = Az adatkészletben lévő összes hangklipről eltávolításra kerülnek a személyazonosító információk. Ha egy közreműködő demográfiai adatokat ad meg a profilján, akkor ez az információ eltávolításra kerül a hangklipekről az adatkészlet letöltése előtt, és ez nem lesz nyilvánosságra hozva a profiloldalán.
 faq-what-determine-identity-q = Mit jelent a „beszélők személyazonosságának meghatározása” a Common Voice adatkészletben?
 faq-what-determine-identity-a = A Common Voice adatkészlet egy nyílt és nyilvánosan elérhető erőforrás, amely különféle hangfelismerést használó alkalmazások tanítására használható. A közreműködőink biztonságának védelme érdekében, mindenkit, aki letölti a Common Voice adatkészletet, megkérünk, hogy tartsa tiszteletben a közreműködők magánszféráját. Az adatkészletben lévő összes klipről eltávolításra kerülnek a személyazonosító információk. Ha letölti az adatkészletet, akkor beleegyezik, hogy nem próbálja meg egy közreműködő személyét sem meghatározni. Ez azt jelenti, hogy nem próbálhatja meg összekapcsolni az adatkészletet a közreműködő személyes adataival. Viszont használhatja az adatkészletet hangfelismerés tanításához, beszélőfelismeréshez, vagy más alkalmazásokhoz, például az adatkészletben lévő információk egymással összekapcsolásához.
+faq-what-is-cv = Mi az a Common Voice?
+faq-using-cv = A Common Voice használata
+faq-description = A Common Voice projekt része a Mozilla azon kezdeményezésének, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
+faq-search-for-answers =
+    .label = Válaszok keresése
+
+## ABOUT US
+
+about-title = Miért a Common Voice?
+how-does-it-work-title = Hogyan működik
+about-speak = Beszéljen
+about-listen-queue = Figyelési sor
+about-listen = Figyeljen
 
 ## Glossary
 
