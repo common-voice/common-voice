@@ -83,6 +83,7 @@ lv = Latvian
 mdf = Moksha
 mhr = Meadow Mari
 mk = مەقدۆنی
+ml = Malayalam
 mn = Mongolian
 mrj = Hill Mari
 myv = Erzya
@@ -132,6 +133,7 @@ speak = قسەکردن
 speak-now = ئێستا قسە بکە
 datasets = کۆدەیتاکان
 languages = زمانەکان
+about = دەربارەی ئێمە
 profile = پرۆفایل
 help = یارمەتی
 contact = پەیوەندی
@@ -347,6 +349,31 @@ faq-why-account-q = بۆچی دەبێ ناونووسی بکەم بۆ هەژما�
 faq-is-account-public-q = ئایا زانیارییەکانی هەژماری من گشتییە؟
 faq-how-privacy-q = چون دڵنیا دەبن لە نەناسراو بوونی ئەو کەسانە کە دەنگی خۆیان دەبەخشن؟
 faq-what-determine-identity-q = ئەوەی کە ناتوانم ناسنامەی بێژەرەکانی دەنگی گشتی دیاری بکەم یانی چی؟
+faq-what-is-cv = دەنگی گشتی چیەە؟
+faq-using-cv = بەکارهێنانی دەنگی گشتی
+faq-search-for-answers =
+    .label = بگەڕێ بۆ وەڵامەکان
+
+## ABOUT US
+
+about-title = بۆچی دەنگی گشتی؟
+how-does-it-work-title = چۆن ئیش دەکات؟
+about-speak = قسەبکە
+about-listen-queue = سەفی بیستن
+about-listen = گوێ بدە
+about-is-it-valid = ئایا ئەم کلیپە درووستە؟
+about-yes-votes = زیاتر یان بەرامبەر ٢ دەنگی بەڵێ
+about-no-votes = زیاتر یان بەرامبەر ٢ دەنگی نەخێر
+about-dataset = دەیتاسێتی دەنگی گشتی
+about-clip-graveyard = گۆڕستانی کلیپ
+about-partners = یارمەتیدەران
+about-become-a-partner = ببە بە یارمەتیدەر
+about-get-involved = بەشدار بە
+about-nav-why-common-voice = بۆچی؟
+about-nav-how-it-works = چۆن؟
+about-nav-partners = یارمەتیدەران
+about-nav-get-involved = بەشدار بە
+mycroft-subtitle = عەقڵی دەستکرد
 
 ## Glossary
 
