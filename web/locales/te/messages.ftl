@@ -248,6 +248,7 @@ edit = సరిచేయు
 email-subscriptions = ఈమెయిలు చందాలు
 off = ఆఫ్
 on = ఆన్
+browse-file-title = ఒక బొమ్మ ఫైలును ఎక్కించండి
 file_too_large = ఎంచుకున్న ఫైలు చాలా పెద్దగా ఉంది
 manage-subscriptions = చందాల నిర్వహణ
 add-language = భాషను చేర్చు
