@@ -132,6 +132,7 @@ speak = Govori
 speak-now = Začnite govoriti
 datasets = Nabori podatkov
 languages = Jeziki
+about = O nas
 profile = Profil
 help = Pomoč
 contact = Kontakt
@@ -375,6 +376,20 @@ faq-what-determine-identity-a =
     Nabor podatkov Common Voice je odprt in javno dostopen vir, ki ga lahko uporabite za izboljšanje aplikacij za prepoznavanje govora. Da bi zaščitili varnost naših sodelavcev, prosimo vse, ki bodo prenesli nabor podatkov Common Voice, da spoštujejo njihovo zasebnost.
     
     Osebni identifikacijski podatki so izločeni iz vseh glasovnih posnetkov v naboru podatkov. S prenosom nabora podatkov se strinjate, da ne boste poskušali določiti identitete sodelujočih. To pomeni, da ne smete poskusiti povezati podatkov v naboru podatkov z osebnimi podatki sodelujočih. Lahko pa nabor podatkov uporabite za izboljšanje prepoznavanja govora, prepoznavanja govorcev ali drugih aplikacij, na primer s povezovanjem podatkov v naboru podatkov z drugimi podatki, ki so že v naboru podatkov.
+faq-what-is-cv = Kaj je Common Voice?
+faq-search-for-answers =
+    .label = Išči odgovore
+
+## ABOUT US
+
+about-title = Zakaj Common Voice?
+how-does-it-work-title = Kako deluje
+about-nav-why-common-voice = Zakaj?
+about-nav-how-it-works = Kako?
+about-nav-partners = Partnerji
+about-nav-get-involved = Pridružite se
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Umetna inteligenca
 
 ## Glossary
 
