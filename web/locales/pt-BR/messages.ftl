@@ -395,14 +395,32 @@ how-does-it-work-title = Como funciona
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
 about-speak = Falar
 about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
+about-listen-queue = Fila de audição
+about-listen-queue-text = Os clipes de voz são inseridos em uma fila de envio que as disponibiliza para ser ouvidas.
 about-listen = Ouvir
+about-listen-text = Os usuários validam a exatidão de clipes doados, verificando se quem falou leu a frase corretamente.
 about-is-it-valid = O clipe é válido?
+about-is-it-valid-text = Um clipe de voz é marcado como "válido" quando um usuário lhe dá um voto Sim.
 about-yes-votes = ≥ 2 votos Sim
+about-yes-votes-text = Para entrar no conjunto de dados do Common Voice, um clipe de voz precisa ser validado por dois diferentes usuários.
 about-no-votes = ≥ 2 votos Não
+about-no-votes-text = Quando um usuário rejeita um clipe de voz, este volta para a fila. Se for rejeitado uma segunda vez, o clipe de voz é movido para o cemitério de clipes.
 about-dataset = Conjunto de dados do Common Voice
+about-dataset-text = Quando um usuário rejeita um clipe de voz, este volta para a fila. Se for rejeitado uma segunda vez, o clipe de voz é movido para o cemitério de clipes.
+about-clip-graveyard = Cemitério de clipes
+about-clip-graveyard-text = O cemitério de clipes consiste de clipes de voz que não entraram no conjunto de dados do Common Voice. Assim como o conjunto de dados, o cemitério de clipes está disponível para ser baixado.
 about-partners = Parceiros
 about-become-a-partner = Torne-se um parceiro
+about-partnership =
+    O Common Voice é um projeto colaborativo e estamos dependendo de nossa comunidade de parceiros e colaboradores para construir o maior conjunto de dados de voz de código aberto já feito.
+    
+    Gostaríamos de agradecer as seguintes pessoas e organizações pela ajuda neste projeto:
 about-get-involved = Envolva-se
+about-get-involved-text =
+    Quer ajudar a tornar o Common Voice ainda melhor?
+    Ótimo! Entre em contato por e-mail ou no <discourseLink>Discourse</discourseLink>,
+    envie comentários pelo <githubLink>GitHub</githubLink>,
+    ou junte-se a nós no <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Por que?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
