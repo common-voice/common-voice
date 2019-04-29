@@ -108,6 +108,7 @@ speak = మాట్లాడండి
 speak-now = ఇప్పుడు మాల్టాడండి
 datasets = దత్తాంశసమితులు
 languages = భాషలు
+about = మా గురించి
 profile = ప్రొఫైలు
 help = సహాయం
 contact = సంప్రదింపులు
@@ -248,12 +249,22 @@ add-language = భాషను చేర్చు
 ## FAQ
 
 faq-title = తరచూ అడిగే ప్రశ్నలు
+faq-what-cv-q = కామన్ వాయిస్ అంటే ఏమిటి?
 faq-why-important-q = ఇది ఎందుకు ముఖ్యం?
+faq-why-my-lang-q = నా భాష ఇంకా ఎందుకు చేర్చబడలేదు?
+
+## ABOUT US
+
+about-nav-why-common-voice = ఎందుకు?
+about-nav-how-it-works = ఎలా?
+about-nav-get-involved = పాల్గొనండి
+mycroft-subtitle = కృత్రిమ మేధ
 
 ## Glossary
 
 glossary = పదకోశం
 localization = స్థానికీకరణ
+sentence-collection = వాక్యాల సేకరణ
 
 ## NotFound
 
@@ -296,12 +307,17 @@ language = భాష
 size = పరిమాణం
 cv-license = లైసెన్సు
 number-of-voices = గొంతుల సంఖ్య
+size-gigabyte = గిబై
+size-megabyte = మెబై
+recorded-hours = రికార్డయిన గంటలు
+whats-inside = కామన్ వాయిస్ డేటాసెట్ లోపల ఏముంది?
 subscribe = చందాచేరండి
 data-other-librispeech-description = LibriSpeech అనేది లిబ్రివోక్స్ ప్రాజెక్టు వారి ఆడియో పుస్తకాలు చదవగా తయారైన సుమారు 1000 గంటల 16Khz ఆంగ్ల ప్రసంగ నిధి.
 data-other-ted-name = TED-LIUM కార్పస్
 data-other-ted-description = TED-LIUM నిధి TED వెబ్‌సైటులో అందుబాటులో ఉన్న ప్రసంగాలు, వాటి రాతప్రతుల నుండి తయారుచేయబడింది.
 data-other-voxforge-description = VoxForge ను లిఖిత ప్రసంగాలను సేకరించడానికి ఏర్పాటు చేశారు ఇది ఉచిత మరియు ఓపెన్ సోర్స్ స్పీచ్ రికగ్నిషన్ ఇంజిన్లతో ఉపయోగం కోసం.
 data-other-tatoeba-description = Tatoeba అనేది భాష నేర్చుకోవటంలో వాడే వాక్యాలు, అనువాదాలు మరియు మాటల ఆడియోల పెద్ద డేటాబేసు. ఈ దింపుకోలులో రికార్డు చేసిన మాట్లాడే ఆంగ్లం ఉంది.
+go-languages-page = భాషల పేజీకి వెళ్ళండి
 more = మరింత
 close = మూసివేయి
 download = దింపుకోలు
@@ -398,6 +414,8 @@ you = మీరు
 everyone = అందరూ
 contribution-activity = తోడ్పాటు కలాపం
 top-contributors = మేటి తోడ్పాటుదార్లు
+total-approved = మొత్తం ఆమోదించబడినవి
+overall-accuracy = మొత్తం ఖచ్చితత్వం
 
 ## Profile Delete
 
