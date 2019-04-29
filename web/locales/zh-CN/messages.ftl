@@ -83,6 +83,7 @@ lv = 拉脱维亚语
 mdf = 莫克沙语
 mhr = 草原马里语
 mk = 马其顿语
+ml = 马拉雅拉姆语
 mn = 蒙古语
 mrj = 山地马里语
 myv = 厄尔兹亚语
@@ -132,6 +133,7 @@ speak = 说话
 speak-now = 开始朗读
 datasets = 数据集
 languages = 语言
+about = 关于我们
 profile = 用户资料
 help = 帮助
 contact = 联系我们
@@ -369,6 +371,30 @@ faq-what-determine-identity-a =
     Common Voice 数据集是一个开放且可公开获取的资源，可用于训练各种支持语音的应用程序。为了保护我们的贡献者的安全，我们要求下载 Common Voice 数据集的每个人都尊重贡献者的隐私。
     
     数据集中的所有语音片段都会抹除个人识别信息。下载数据集时，您须同意不试图去确定任何贡献者的身份。这意味着您不可尝试将数据集中的信息关联到贡献者的个人信息。但是，您可以使用数据集来训练语音识别，声纹识别或其他应用程序，例如，将数据集中的信息关联到数据集中已有的其他信息。
+faq-what-is-cv = Common Voice 是什么？
+faq-using-cv = 使用 Common Voice
+faq-description = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。
+faq-search-for-answers =
+    .label = 搜索答案
+
+## ABOUT US
+
+about-title = 为什么会有 Common Voice？
+how-does-it-work-title = 原理是什么？
+about-speak = 说话
+about-listen-queue = 聆听队列
+about-listen = 聆听
+about-is-it-valid = 片段正确吗？
+about-dataset = Common Voice 数据集
+about-clip-graveyard = 片段回收站
+about-partners = 合作伙伴
+about-become-a-partner = 成为合作伙伴
+about-nav-why-common-voice = 为什么？
+about-nav-how-it-works = 怎么做？
+about-nav-partners = 合作伙伴
+about-nav-get-involved = 参与进来
+mycroft-title = Mycroft Ai
+mycroft-subtitle = 人工智能
 
 ## Glossary
 
