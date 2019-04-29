@@ -83,6 +83,7 @@ lv = Lets
 mdf = Moksja
 mhr = Weide-Mari
 mk = Macedonisch
+ml = Malayalam
 mn = Mongools
 mrj = Berg-Mari
 myv = Erzja
@@ -132,6 +133,7 @@ speak = Spreken
 speak-now = Nu spreken
 datasets = Gegevenssets
 languages = Talen
+about = Over ons
 profile = Profiel
 help = Help
 contact = Contact
@@ -376,6 +378,16 @@ faq-what-determine-identity-a =
     De Common Voice-gegevensset is een vrij toegankelijke en openbare bron die kan worden gebruikt om een breed scala aan spraakgestuurde toepassingen te trainen. Om de veiligheid van onze bijdragers te beschermen, vragen we iedereen die de Common Voice-gegevensset downloadt om de privacy van de bijdragers te respecteren.
     
     Alle spraakfragmenten in de gegevensset worden geschoond van persoonlijk identificeerbare gegevens. Wanneer u de gegevensset downloadt, gaat u ermee akkoord niet te proberen de identiteit van een bijdrager te bepalen. Dat betekent dat u niet mag proberen om gegevens in de gegevensset aan de persoonlijke informatie van een bijdrager te koppelen. U mag de gegevensset echter wel gebruiken om spraakherkenning, sprekerherkenning of andere toepassingen te trainen, bijvoorbeeld door gegevens in de gegevensset te koppelen aan andere informatie die al in de gegevensset staat.
+faq-what-is-cv = Wat is Common Voice?
+faq-using-cv = Common Voice gebruiken
+faq-description = Common Voice is deel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
+faq-search-for-answers =
+    .label = Antwoorden zoeken
+
+## ABOUT US
+
+about-title = Waarom Common Voice?
+about-subtitle = Common Voice is deel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken. In aanvulling op de Common Voice-gegevensset bouwen we ook een open source spraakherkenningsengine genaamd Deep Speech.
 
 ## Glossary
 
