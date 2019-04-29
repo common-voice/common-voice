@@ -384,6 +384,7 @@ faq-search-for-answers =
 
 about-title = Zakaj Common Voice?
 how-does-it-work-title = Kako deluje
+about-yes-votes-text = Glasovni posnetek mora biti potrjen s strani dveh različnih uporabnikov, preden je uvrščen v nabor podatkov Common Voice.
 about-dataset = Nabor podatkov Common Voice
 about-partners = Partnerji
 about-become-a-partner = Postanite partner
