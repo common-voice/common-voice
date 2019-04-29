@@ -384,6 +384,10 @@ faq-search-for-answers =
 
 about-title = Zakaj Common Voice?
 how-does-it-work-title = Kako deluje
+about-dataset = Nabor podatkov Common Voice
+about-partners = Partnerji
+about-become-a-partner = Postanite partner
+about-get-involved = Pridružite se
 about-nav-why-common-voice = Zakaj?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
