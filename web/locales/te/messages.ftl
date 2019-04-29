@@ -17,6 +17,7 @@ not-available-abbreviation = వర్తించదు
 
 ## Languages
 
+ace = ఎసెహ్నీస్
 af = ఆఫ్రికాన్స్
 am = అమ్హారిక్
 an = అరగోనీసు
@@ -139,9 +140,11 @@ vote-yes = అవును
 vote-no = కాదు
 toggle-play-tooltip = ప్లే మోడుని ఆన్ లేదా ఆఫ్ చెయ్యడానికి { shortcut-play-toggle } నొక్కండి
 speak-subtitle = మీ గొంతును దానమివ్వండి
+hours-recorded = రికార్డయిన గంటలు
 hours-validated = సరిచూసిన గంటలు
 todays-progress = నేటి పురోగతి
 read-terms-q = మీరు మా నిబంధనలను చదివారా?
+ready-to-record = మీ గొంతును దానం చేయడానికి సిద్ధంగా ఉన్నారా?
 all-locales = అన్నీ
 today = ఈరోజు
 x-weeks-short =
@@ -159,6 +162,8 @@ x-years-short =
         [one] { $count }సం
        *[other] { $count }సం
     }
+sign-up-account = ఖాతా కోసం నమోదవండి
+email-subscription-title = ఈమెయిలు ద్వారా తాజాసమాచారం కోసం నమోదవండి
 
 ## Account Benefits
 
@@ -166,6 +171,7 @@ benefits = ప్రయోజనాలు
 
 ## What's public
 
+email-not-public = మేము మీ ఈమెయిలును బహిరంగపరచము.
 
 ## Speak & Listen Shortcuts
 
