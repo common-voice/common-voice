@@ -16,11 +16,14 @@ loading = Yuklanmoqda...
 ## Languages
 
 ace = Aceh
+am = Amharik
 an = Aragon
 ar = Arab
 as = Assam
 ast = Astur
 az = Ozarbayjon
+ba = Boshqird
+bg = Bolgar
 bn = Bengal
 br = Breton
 bxr = Buryat
@@ -38,19 +41,25 @@ en = Ingliz
 eo = Esperanto
 es = Ispan
 et = Eston
+eu = Bask
 fa = Fors
 fi = Fin
 fo = Farer
 fr = Fransuz
 fy-NL = Friz
 ga-IE = Irland
+gl = Galisiy
+ha = Hausa
 he = Yahudiy
+hi-IN = Hind
+hr = Xorvat
 hsb = Sorb, Yuqori
 hu = Vengriya
 ia = Interlingua
 id = Indonez
 is = Island
 it = Italyan
+izh = Izhor
 ja = Yapon
 ka = Gruzin
 kab = Kabili
@@ -114,9 +123,6 @@ share-title = Ovozi bilan yordam qiladigan insonlarni topishda yordam bering!
 share-text = { $link } havolasi orqali ovozingiz bilan yordam qilib, mashinalarga haqiqiy insonlar qanday gapirishini o‘rgating
 link-copied = Havoladan nusxa olindi
 back-top = Yuqoriga qaytish
-contribution-banner-text = Yordamchilar uchun ish jarayonini yaxshiladik
-contribution-banner-button = Tanishing
-report-bugs-link = Nosozliklar haqida xabar bering
 
 ## Home Page
 
@@ -144,7 +150,6 @@ hours-recorded = Yozib olingan soat
 hours-validated = Soat tekshirildi
 read-terms-q = Shartlarimiz bilan tanishdingizmi?
 ready-to-record = Ovozingiz bilan yordam qilishga tayyormisiz?
-all-languages = Barcha tillar
 today = Bugun
 x-weeks-short =
     { $count ->
@@ -161,6 +166,12 @@ x-years-short =
         [one] 1 yil
        *[other] { $count } yil
     }
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -205,12 +216,8 @@ english = Ingliz
 
 ## ProfileForm
 
-profile-form-cancel = Anketadan chiqish
-profile-form-delete = Profilni o‘chirish
 profile-form-username =
     .label = Foydalanuvchi nomi
-profile-form-language =
-    .label = Til
 profile-form-accent =
     .label = Aksent
 profile-form-age =
@@ -221,8 +228,6 @@ native-language =
     .label = Ona tili
 profile-form-submit-save = Saqlash
 profile-form-submit-saved = Saqlandi
-profile-keep-data = Ma’lumotlarni saqlab qo‘yish
-profile-delete-data = Ma’lumotlarni o‘chirish
 male = Erkak
 female = Ayol
 # Gender
@@ -230,16 +235,12 @@ other = Boshqa
 why-profile-title = Nega profil?
 why-profile-text = O‘zingiz haqingizda ma’lumot kiritib, Common Voice loyihasiga audio ma’lumotlarni yuborsangiz, nutqni tanish tizimiga yordamlashgan bo‘lasiz. Bu ovozli yozuvlar ovozni tanish aniqligi va sifatini oshirishda yordam beradi.
 edit-profile = Profilni tahrirlash
-profile-create = Profil yaratish
 profile-create-success = Profil yaratildi!
 profile-close = Yopish
-profile-clear-modal = Profilingizni tozalab tashlasangiz, Common Voice loyihasiga sizning demografik ma’lumotlaringiz ovozli yozuvlaringiz bilan birga yuborilmaydi.
 profile-explanation = Profilingiz yordamida jarayonni kuzatib boring va ovoz ma’lumotlarining aniqligiga yordam bering.
 thanks-for-account = Hisobingizni tasdiqlaganingiz uchun rahmat. Endi profil yarating.
 why-demographic = Bu nega kerak?
 why-demographic-explanation = Foydalanuvchilarning yoshi, jinsi va talaffuzi  kabi anonim maʼlumotlari nutqni tanish tizimlariga oʻrgatishda foydalaniladigan audio maʼlumotlari sifatini oshirishda yordam beradi. Taxallus va e-pochta manzilingiz siz yuborgan maʼlumotlariga qoʻshilmaydi va taxallusingizni hamma koʻradigan yoki maxfiy qilishni tanlashingiz mumkin.
-keep-me-posted =
-    .label = Common Voice loyihasidagi yangilanishlardan xabardor boʻlish uchun xat olib turishga roziman.
 accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da koʻrsatilganidek maʼlumotlarimdan foydalanishlariga roziman.
 login-identity = Kirish uchun identifikator
 edit = Tahrirlash
@@ -254,19 +255,12 @@ on = Yoniq
 ## FAQ
 
 faq-title = Savol-javob
-faq-what-q = Common Voice nima?
-faq-important-q = Nega u bunchalik muhim?
-faq-get-q = Common Voice maʼlumotlarini qanday yuklab olsam boʻladi?
-faq-get-a = Maʼlumotlar bazasi hozirda <licenseLink>CC-0</licenseLink> litsenzyasi ostida <downloadLink>yuklab olish sahifasida</downloadLink>.
-faq-mission-q = Nega Common Voice loyihasi Mozilla missiyasining bir qismi hisoblanadi?
-faq-source-q = Manba matni qayerdan olingan?
-faq-source-a1 = Joriy jumlalar yordamchilarning gaplaridan, shuningdek, <italic>Itʻs Wonderful Life</italic> kabi ochiq turdagi kinolardagi dialoglardan olingan.
-faq-source-a2 = Siz bizning manba jumlalarimizni <dataLink>ushbu GitHub jildi</dataLink>da koʻrishingiz mumkin.
 
-## Profile
+## ABOUT US
 
-profile-why-title = Nega profil kerak?
-profile-why-content = Common Voice loyihasiga yuborilgan audio maʼlumotlaringizga oʻzingiz haqingizda biroz maʼlumot qoʻshsangiz, ovozni tanish tizimlarida bu maʼlumotlardan foydalanish sifatini oshirishda yordam bergan boʻlasiz.
+
+## Glossary
+
 
 ## NotFound
 
@@ -285,30 +279,10 @@ data-get-started = <speechBlogLink>Nutqni tanish bilan ishlashni boshlash</speec
 data-other-title = Boshqa ovoz ma’lumotlari to‘plamlari
 data-other-goto = { $name }ga o‘tish
 data-other-download = Ma’lumotlarni yuklab olish
-data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
-data-other-ted-name = TED-LIUM to‘plami
-data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan audio suhbatlar va ularning transkripsiyasidan iborat.
-data-other-voxforge-description = VoxForge – erkin va ochiq manbali nutqni tanish tizimlaridagi transkripsiya qilingan nutqlarni to‘plash uchun sozlangan.
-data-other-tatoeba-description = Tatoeba –  katta hajmdagi til o‘rganish uchun talaffuz qilingan audio fayllar, jumlalar va tarjima bazasidan iborat. Yuklanayotgan to‘plamda ingliz tilida talaffuz qilingan jumlalar mavjud.
 data-bundle-button = Ma’lumotlar bazasi paketini yuklab olish
 data-bundle-description = Common Voice ma’lumotlari va yuqoridagi boshqa ovoz ma’lumotlar bazasi.
 license = Litsenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Aralash
-
-## Record Page
-
-record-platform-not-supported = Uzr, platformangiz hozirda ishlamaydi.
-record-platform-not-supported-desktop = Kompyuterlaringizga eng oxirgisini yuklab olishingiz mumkin:
-record-platform-not-supported-ios = <bold>iOS</bold> foydalanuvchilari bizning bepul ilovamizni yuklab olishi mumkin:
-record-must-allow-microphone = Mikrofonga ruxsat berishingiz kerak.
-record-retry = Qayta yozish
-record-no-mic-found = Hech qanday mikrofon topilmadi.
-record-error-too-short = Bu yozuv juda qisqa.
-record-error-too-long = Bu yozuv juda uzun.
-record-error-too-quiet = Yozuv juda sokin.
-record-submit-success = Yozuv yuborildi! Yana yozishni xohlaysizmi?
-record-help = Yozish uchun ustiga bosing, keyin esa jumlalarni ovoz chiqarib baland ovozda o‘qing.
-record-cancel = Qayta yozishni bekor qilish
 review-terms = Common Voice loyihasidan foydalanish bilan siz bizning <termsLink>Shartlar</termsLink>imiz va <privacyLink>Maxfiylik siyosati</privacyLink>mizga rozilik bildirgan hisoblanasiz.
 terms-agree = Roziman
 terms-disagree = Noroziman
@@ -320,6 +294,14 @@ review-rerecord = Qayta yozish
 review-cancel = Yuborishni bekor qilish
 review-keep-recordings = Yozuvlarni saqlash
 review-delete-recordings = Yozuvlarni o‘chirish
+
+## New Datasets Page
+
+data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
+data-other-ted-name = TED-LIUM to‘plami
+data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan audio suhbatlar va ularning transkripsiyasidan iborat.
+data-other-voxforge-description = VoxForge – erkin va ochiq manbali nutqni tanish tizimlaridagi transkripsiya qilingan nutqlarni to‘plash uchun sozlangan.
+data-other-tatoeba-description = Tatoeba –  katta hajmdagi til o‘rganish uchun talaffuz qilingan audio fayllar, jumlalar va tarjima bazasidan iborat. Yuklanayotgan to‘plamda ingliz tilida talaffuz qilingan jumlalar mavjud.
 
 ## Download Modal
 
@@ -351,9 +333,7 @@ request-language-success-content = Ona tilingizni Common Voice loyihasiga qo‘s
 ## Languages Overview
 
 language-section-in-progress = Tayyor bo‘lmagan tillar
-language-section-in-progress-description = Tayyor bo‘lmagan tillar hozirda jamoamiz tomonidan ishga tushirish uchun tayyorlanmoqda. Quyidagi jarayon sayt tarjimasi va  jumlalarni qayta ishlash bosqichini ko‘rsatadi.
 language-section-launched = Ishga tushirilgan tillar
-language-section-launched-new-description = Ishga tushirilgan tillar uchun sayt to‘liq tarjima qilingan va yetarlicha jumlalar to‘plangan. Ular bilan ishlashni xohlasangiz,  <italic>gapirib</italic> va <italic>tinglab</italic> yordam qilishingiz mumkin.
 languages-show-more = Ko‘proq
 languages-show-less = Kamroq
 language-speakers = So‘zlovchilar
@@ -383,6 +363,15 @@ contribute-more =
        *[other] Yana { $count } ta bajarishga tayyormisiz?
     }
 record-cta = Yozishni boshlash
+record-platform-not-supported = Uzr, platformangiz hozirda ishlamaydi.
+record-platform-not-supported-desktop = Kompyuterlaringizga eng oxirgisini yuklab olishingiz mumkin:
+record-platform-not-supported-ios = <bold>iOS</bold> foydalanuvchilari bizning bepul ilovamizni yuklab olishi mumkin:
+record-must-allow-microphone = Mikrofonga ruxsat berishingiz kerak.
+record-no-mic-found = Hech qanday mikrofon topilmadi.
+record-error-too-short = Bu yozuv juda qisqa.
+record-error-too-long = Bu yozuv juda uzun.
+record-error-too-quiet = Yozuv juda sokin.
+record-cancel = Qayta yozishni bekor qilish
 record-instruction = { $actionType }<recordIcon></recordIcon> keyin jumlalarni ovoz chiqarib o‘qing
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>, tayyor bo‘lganda
 record-three-more-instruction = Uchta qoldi!
@@ -406,3 +395,13 @@ listen-last-time-instruction = <playIcon></playIcon>Oxirgisi!
 nothing-to-validate = Bu tilda tekshirish uchun hech nima yo‘q, navbatni to‘ldirishda bizga yordam bering.
 record-button-label = Ovozingizni yozing
 share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Profilni o‘chirish
