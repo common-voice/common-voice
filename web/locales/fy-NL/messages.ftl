@@ -412,17 +412,35 @@ about-listen-text = Brukers falidearje de sekuerens fan donearre fragminten en k
 about-is-it-valid = Is it fragmint jildich?
 about-is-it-valid-text = In spraakfragmint wurdt markearre as ‘jildich’ wannear in brûker it in ja-stim jout.
 about-yes-votes = ≥ 2 Ja-stimmen
+about-yes-votes-text = Om opnommen te wurden yn de Common Voice-gegevensset moat in fragmint falidearre wurde troch twa ôfsûnderlike brûkers.
 about-no-votes = ≥ 2 Gjin stimmen
+about-no-votes-text = Wannear in bruker in spraakfragmint ôfwiist, keart dizze werom nei de wachtrige. By in twadde ôfwizing wurdt it spraakfragmint ferpleatst nei it Fragmintetsjerkhôf.
 about-dataset = Common Voice-gegevensset
+about-dataset-text = Wannear in bruker in spraakfragmint ôfwiist, keart dizze werom nei de wachtrige. By in twadde ôfwizing wurdt it spraakfragmint ferpleatst nei it Fragmintetsjerkhôf.
+about-clip-graveyard = Fragmintetsjerkhôf
+about-clip-graveyard-text = It Fragmintetsjerkhôf bestiet ut stimfragminten dy't de Common Voice-gegevensset net helle hawwe. Krekt as de gegevensset kin it Fragmintetsjerkhôf download wurde.
 about-partners = Partners
 about-become-a-partner = Partner wurde
+about-partnership =
+    Common Voice is in gearwurkingsprojekt en wy binne ôfhinklik fan ús mienskip fan partners en meiwurkers om de grutste iepen boarne gegevensset fan stimmen ea te bouwen.
+    
+    Wy wolle de folgjende minsken en organisaasjes tankje foar harren help by it projekt:
 about-get-involved = Meiwurkje
+about-get-involved-text =
+    Wolle jo Common Voice noch better helpe meitsje?
+    Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>,
+    jou kommentaar fia <githubLink>GitHub</githubLink>,
+    of doch mei op <slackLink>Slack </slackLink>.
 about-nav-why-common-voice = Wêrom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
 about-nav-get-involved = Meiwurkje
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
+mycroft-description =
+    Mycroft is de earste iepen boarne assistint fan 'e wrâld.
+    Mycroft draait oeral – op in desktopkompjûter, yn in auto of op in Raspberry Pi.
+mycroft-secondary-description = Dit is opensourcesoftware dy't frij remikst wurde kin, útwreide en ferbettere. Mycroft mei brûkt wurde yn alles fan in wittenskiplik projekt oant in saaklike softwaretapassing.
 
 ## Glossary
 
