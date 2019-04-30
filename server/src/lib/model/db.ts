@@ -385,6 +385,8 @@ export default class DB {
   ): Promise<{ date: string; value: number }[]> {
     const hours = Array.from({ length: 10 }).map((_, i) => i);
 
+    return [];
+
     const [rows] = await this.mysql.query(
       `
         SELECT date,

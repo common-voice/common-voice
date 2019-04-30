@@ -122,6 +122,7 @@ export default async function getLeaderboard({
   cursor?: [number, number];
   locale: string;
 }) {
+  return [];
   const prepareRows = (rows: any[]) =>
     rows.map(row => ({
       ...omit(row, 'client_id'),
