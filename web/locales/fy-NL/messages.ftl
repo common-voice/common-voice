@@ -390,17 +390,27 @@ faq-what-determine-identity-a =
     Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear't jo de gegevensset downloade, geane jo dermei akkoard net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy't al yn de gegevensset stiet.
 faq-what-is-cv = Wat is Common Voice?
 faq-using-cv = Common Voice brûke
+faq-description = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke.
 faq-search-for-answers =
     .label = Sykje nei antwurden
 
 ## ABOUT US
 
 about-title = Wêrom Common Voice?
+about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke. Yn oanfolling op de Common Voice-gegevensset bouwe wy ek in iepen boarne spraakwerkenningsmasine mei de namme Deep Speech.
+about-header-description =
+    Beide projekten meitsje diel út fan ús ynspanningen om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe us apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
+    Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
 how-does-it-work-title = Hoe't it wurket
+how-does-it-work-text = Wy crowdsource in iepen boarne stimgegevensset. Donearje jo stim, falidearje de sekuerens fan opnamen fan oaren en meitsje de gegevensset better foar elkenien.
 about-speak = Sprek
+about-speak-text = Bydragers nimme spraakfragminten op troch te lêzen fan in databank mei donearre sinnen.
 about-listen-queue = Harkwachtrige
+about-listen-queue-text = Spraakfragminten wurde ynfierd yn in yntsjinningswachtrige dêr't se klearstean om belustere te wurden.
 about-listen = Harkje
+about-listen-text = Brukers falidearje de sekuerens fan donearre fragminten en kontrolearje oft de sprekker de sin korrekt lêst.
 about-is-it-valid = Is it fragmint jildich?
+about-is-it-valid-text = In spraakfragmint wurdt markearre as ‘jildich’ wannear in brûker it in ja-stim jout.
 about-yes-votes = ≥ 2 Ja-stimmen
 about-no-votes = ≥ 2 Gjin stimmen
 about-dataset = Common Voice-gegevensset
