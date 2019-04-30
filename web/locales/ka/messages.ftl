@@ -393,6 +393,8 @@ about-subtitle = Common Voice პროექტი არის Mozilla-ს წ
 how-does-it-work-title = როგორ მუშაობს?
 about-speak = წარმოთქმა
 about-speak-text = მოხალისეები აკეთებენ ხმოვან ჩანაწერებს, შემოწირულობით შეგროვებული წინადადებების წაკითხვით.
+about-nav-why-common-voice = რატომ?
+about-nav-how-it-works = როგორ?
 
 ## Glossary
 
