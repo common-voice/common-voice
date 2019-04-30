@@ -386,6 +386,37 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pourquoi Common Voice ?
+how-does-it-work-title = Mode d’emploi
+how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
+about-speak = Parler
+about-speak-text = Les contributeurs et contributrices lisent et enregistrent des échantillons vocaux issus d’une banque de phrases données par la communauté.
+about-listen-queue-text = Les échantillons vocaux sont enregistrés dans une file d’attente de soumissions qui les prépare pour l’écoute.
+about-listen = Écouter
+about-is-it-valid = Cet échantillon est-il valide ?
+about-is-it-valid-text = Un échantillon vocal est marqué comme « valide » quand un utilisateur ou une utilisatrice l’approuve avec un OUI.
+about-yes-votes = ≥ 2 votes OUI
+about-yes-votes-text = Pour faire partie du jeu de données Common Voice, un échantillon vocal doit être validé par deux personnes distinctes.
+about-no-votes = ≥ 2 votes NON
+about-dataset = Jeu de données Common Voice
+about-clip-graveyard = Cimetière des échantillons
+about-clip-graveyard-text = Le cimetière des échantillons est constitué d’échantillons qui n’ont pas été admis à faire partie du jeu de données Common Voice. Tout comme ce dernier, le cimetière des échantillons est disponible au téléchargement.
+about-partners = Partenaires
+about-become-a-partner = Devenir partenaire
+about-get-involved = Participer
+about-get-involved-text =
+    Vous voulez aider à améliorer Common Voice ?
+    Super ! Contactez-nous par courriel ou bien sur <discourseLink>Discourse</discourseLink>,
+    envoyez des commentaires sur <githubLink>GitHub</githubLink>,
+    ou rejoignez-nous sur <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Pourquoi ?
+about-nav-how-it-works = Comment ?
+about-nav-partners = Partenaires
+about-nav-get-involved = Participer
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelligence artificielle
+mycroft-description =
+    Mycroft est le premier assistant open source au monde.
+    Mycroft fonctionne n’importe où : sur un ordinateur de bureau, dans une voiture ou sur un Raspberry Pi.
 
 ## Glossary
 
