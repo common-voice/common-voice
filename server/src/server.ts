@@ -301,6 +301,10 @@ process.on('uncaughtException', function(err: any) {
   }
 });
 
+process.on('unhandledRejection', r =>
+  console.error('unhandled promise rejection', r)
+);
+
 // If this file is run directly, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
