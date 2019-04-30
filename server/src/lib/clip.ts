@@ -218,7 +218,7 @@ export default class Clip {
   };
 
   serveVoicesStats = async ({ params }: Request, response: Response) => {
-    response.json([]); //await this.model.getVoicesStats(params.locale));
+    response.json(await this.model.getVoicesStats(params.locale));
   };
 
   serveClipLeaderboard = async (
