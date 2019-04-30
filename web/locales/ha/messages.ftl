@@ -71,6 +71,7 @@ kab = Yaren Kabyle
 kk = Yaren Kazakh
 ko = Koriyanci
 kpv = Yaren Komi-Zyrian
+ku = Yaren Kurdish
 kw = Yaren Cornish
 ky = Yaren Kyrgyz
 lij = Yaren Liguriya
@@ -96,6 +97,7 @@ ru = Rashanci
 rw = Yaren Kinyarwanda
 sah = Yaren Sakha
 sc = Yaran  Sardiniya
+si = Yaren Sinhala
 sk = Yaran Slobak
 sl = Yaren Slobaniya
 sq = Yaren Albaniya
@@ -260,10 +262,21 @@ faq-title = Tambayoyin da aka fi tambaya
 faq-what-cv-q = Me ne ne Common Voice?
 faq-why-important-q = Me ya sa yake da muhimmanci?
 faq-how-get-q = Ta yaya zan iya samun bayanan Common Voice ?
+faq-what-cv-and-deepspeech-q = Meye bambancin dake tsakanin Common Voice da Deep Speech?
+faq-is-goal-assistant-q = Shin manufar gina Common Voice shine domin gina maƙallin murya?
+faq-why-different-speakers-q = Me ya sa kuke bukatar masu magana da yawa a kowane harshe?
+faq-why-my-lang-q = Me ya sanya ba'a saka yarena ba har yanzu?
+faq-how-calc-hours-q = Ta yaya Common Voice yake auna sa'o'i?
+faq-why-account-q = Don me zan buɗe asusu?
+faq-is-account-public-q = Shin bayanan asusuna a buɗe suke?
+
+## ABOUT US
+
 
 ## Glossary
 
 localization = Fassarawa
+hours-recorded-explanation = Ƙidayar sa'o'in da muka naɗa na sauti kawo yanzu.
 sst = Mangana-Zuwa-Rubutu(STT)
 
 ## NotFound
@@ -276,11 +289,14 @@ notfound-content = Ina jin tsoro ban san abin da kake nema ba.
 data-download-button = Sauke bayanan Common Voice
 data-download-yes = Ee
 data-download-deny = A'a
+data-other-title = Sauran bayanai (datasets) na muryoyi
 data-other-goto = Je zuwa { $name }
 data-other-download = Sauke Bayanai
+data-bundle-button = Sauke dunƙulen bayanai (dataset)
 license-mixed = An cakuda
 terms-agree = Na yarda
 terms-disagree = Ban yarda ba
+review-recording = Nazari
 
 ## New Datasets Page
 
@@ -288,13 +304,21 @@ language = Yare
 # File size in gigabytes
 size = Girma
 cv-license = Lasisi
+number-of-voices = Adadin muryoyi
+email-to-download = Shigar da imel ɗinka don ka sauke
 size-gigabyte = GB
 size-megabyte = MB
+validated-hours = Sa'o'in da aka tantance
+recorded-hours = Sa'o'in da aka naɗa
+whats-inside = Meye a cikin bayanan Common Voice?
 go-languages-page = Jeka zuwa shafin yaruka
+more = Ƙari
 close = Rufe
+download = Sauke
 
 ## Download Modal
 
+download-title = Abunda ka ke son saukewa ya fara saukuwa.
 download-form-email =
     .label = Shigar da adreshinka na yanar gizo
     .value = Mungode, za mu ci gaba da tuntunbarka
@@ -342,6 +366,7 @@ record-cta = Fara Ɗaukar Murya
 record-three-more-instruction = Saura uku ka gama!
 unable-speak = Ba za ka iya magana ba a yanzu?
 record-abort-continue = Kammala Ɗaukar Murya
+record-button-label = Naɗi muryarka
 
 ## Goals
 
@@ -356,12 +381,14 @@ days =
 your-languages = Yarenku
 you = Kai
 everyone = Kowane mutum
+top-contributors = Waɗanda suka fi bada gudummawa
 total-approved = Jimillar da aka amince
 
 ## Profile Delete
 
 keep = Ajiye
 remove = Cire
+remove-info = Za mu duba buƙatarka ta cire sautikan muryarka daga cikin bayanan (dataset). Idan an yarda da buƙatarka, za mu tuntuɓi waɗanda suka sauke bayanan (dataset) ɗin domin suma su cire sautikan muryarka.
 why-delete-recordings =
     Muryoyin da aka ɗauka a Common Voice za a iya amafani da su don Harkar ilimi, ko ƙananan sana'o'i da kuma masu shawa'awar fasahar murya don su taimaka wajen horaswa da kuma bunƙasa baynai na fili kamar manhajar murya.
     
