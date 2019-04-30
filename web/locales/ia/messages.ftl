@@ -381,6 +381,8 @@ about-nav-why-common-voice = Perque ?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
 about-nav-get-involved = Collabora
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelligentia artificial
 
 ## Glossary
 
