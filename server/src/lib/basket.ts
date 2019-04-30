@@ -15,6 +15,7 @@ function toISO(date: string) {
 }
 
 export async function sync(client_id: string) {
+  return;
   const [[row]] = await db.query(
     `
       SELECT
