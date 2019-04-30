@@ -392,7 +392,7 @@ about-header-description =
     Beide projecten maken deel uit van onze inspanningen om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
     We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
 how-does-it-work-title = Hoe werkt het
-how-does-it-work-text = We crowdsourcen en open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
+how-does-it-work-text = We crowdsourcen een open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
 about-speak = Spreken
 about-speak-text = Bijdragers nemen spraakfragmenten op door te lezen van een databank van gedoneerde zinnen.
 about-listen-queue = Luisterwachtrij
