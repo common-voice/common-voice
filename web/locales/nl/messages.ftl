@@ -426,6 +426,7 @@ mycroft-subtitle = Kunstmatige intelligentie
 mycroft-description =
     Mycroft is ’s werelds eerste open source assistent.
     Mycroft draait overal – op een desktopcomputer, in een auto of op een Raspberry Pi.
+mycroft-secondary-description = Dit is opensourcesoftware die vrij kan worden geremixt, uitgebreid en verbeterd. Mycroft mag worden gebruikt in alles van een wetenschappelijk project tot een zakelijke softwaretoepassing.
 
 ## Glossary
 
