@@ -381,6 +381,7 @@ about-header-description =
     Nos vole render le datos vocal liberemente e publicamente disponibile e verificar que le datos representa le diversitate del personas de real. Insimul nos pote render le recognition vocal melior pro totes.
 how-does-it-work-title = Como functiona illo?
 about-speak = Parlar
+about-speak-text = Le collaboratores registra retalios vocal legente ab un banca de phrases donate.
 about-listen = Ascoltar
 about-partners = Partners
 about-get-involved = Collabora
