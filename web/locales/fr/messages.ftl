@@ -8,6 +8,7 @@ email-input =
     .label = Adresse électronique
 submit-form-action = Envoyer
 loading = Chargement…
+email-opt-in-info = J’aimerais recevoir des courriels tels que des rappels d’objectifs, des rapports sur mes progrès et les lettres d’information de Common Voice.
 email-opt-in-privacy = En acceptant de recevoir des courriels, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité<privacyLink> de Mozilla.
 indicates-required = * indique un champ obligatoire
 not-available-abbreviation = Non disponible
