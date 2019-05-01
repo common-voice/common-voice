@@ -387,6 +387,10 @@ about-is-it-valid = La registrazione è valida?
 about-dataset = Dataset di Common Voice
 about-partners = Partner
 about-get-involved = Collabora
+about-nav-partners = Partner
+about-nav-get-involved = Collabora
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelligenza artificiale
 
 ## Glossary
 
