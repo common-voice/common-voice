@@ -403,17 +403,29 @@ about-is-it-valid-text = Secvența de voce este marcată cu „validă” când 
 about-yes-votes = ≥ 2 voturi de Da
 about-yes-votes-text = Pentru a ajunge în setul de date Common Voice, o secvență audio trebuie validată de doi utilizatori diferiți.
 about-no-votes = ≥ 2 voturi de Nu
-about-no-votes-text = Când un utilizator respinge secvența audio, aceasta reintră în Coadă. Dacă este respinsă a doua oară, secvența este mutată în Cimitirul de secvențe audio.
+about-no-votes-text = Când un utilizator respinge o secvență audio, aceasta reintră în Coadă. Dacă este respinsă a doua oară, secvența este mutată în Cimitirul de secvențe audio.
 about-dataset = Set de date Common Voice
+about-dataset-text = Când un utilizator respinge o secvență audio, aceasta reintră în Coadă. Dacă este respinsă a doua oară, secvența este mutată în Cimitirul de secvențe audio.
+about-clip-graveyard = Cimitir de secvențe audio
+about-clip-graveyard-text = Cimitirul de secvențe audio constă din secvențe de voce care nu au ajuns în setul de date Common Voice. Ca setul de date Common Voice, și Cimitirul de secvențe audio este disponibil pentru descărcare.
 about-partners = Parteneri
 about-become-a-partner = Devino un partener
+about-partnership = Common Voice este un proiect de colaborare și depindem de comunitatea de parteneri și colaboratori ca să construim cel mai mare set de date vocale cu sursă deschisă. Am dori să mulțumim următoarelor persoane și organizații pentru ajutorul acordat în cadrul proiectului:
 about-get-involved = Implică-te
+about-get-involved-text =
+    Vrei să ajuți la îmbunătățirea Common Voice?
+    Grozav! Ia legătura cu noi prin e-mail sau intră pe <discourseLink>Discurs</discourseLink>,
+    dă-ne feedback prin <githubLink>GitHub</githubLink> sau alătură-te pe <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri
 about-nav-get-involved = Implică-te
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligență artificială
+mycroft-description =
+    Mycroft este primul asistent cu sursă deschisă din lume.
+    Mycroft rulează pe orice - pe calculator, în automobil sau pe Raspberry Pi.
+mycroft-secondary-description = Este un software cu sursă deschisă care poate fi remixat, extins și îmbunătățit liber. Mycroft poate fi utilizat în orice, de la proiecte științifice până la aplicații de software pentru întreprinderi.
 
 ## Glossary
 
@@ -501,6 +513,7 @@ get-started-speech = Familiarizează-te cu recunoașterea vocală
 other-datasets = Alte seturi de date vocale
 feedback-q = Ai sugestii?
 deepspeech-info = Setul de date Common Voice este complementar motorului de recunoaștere vocală Deep Speech cu sursă deschisă de la Mozilla, pe care îl poți folosi pentru a construi aplicații de recunoaștere vocală. Citește <githubLink>Prezentarea generală de pe Github</githubLink> sau intră pe <discourseLink>forumul DeepSpeech Discourse</discourseLink> ca să afli cum să începi.
+common-voice-info-new = Ai întrebări despre Common Voice? Idei de îmbunătățire sau feedback despre o limbă anume? Alătură-te pe <discourseLink>forumul Discurs</discourseLink> și spune-ne.
 data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de vorbire, codate la 16Khz, în limba engleză, derivate din cărți audio citite, preluate din proiectul LibriVox.
 data-other-ted-name = Corpusul TED-LIUM
 data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile aferente, disponibile pe site-ul TED.
@@ -547,7 +560,9 @@ other-language = Altă limbă
 ## Languages Overview
 
 language-section-in-progress = În lucru
+language-section-in-progress-new-description = Aceste limbi sunt în prezent în curs de dezvoltare de către comunitate. Barele de progres arată cât de departe am ajuns cu fiecare limbă în <localizationGlossaryLink>localizarea site-ului</localizationGlossaryLink> și <sentenceCollectionGlossaryLink>colectarea de propoziții</sentenceCollectionGlossaryLink>.
 language-section-launched = Lansate
+language-section-launched-description = Pentru aceste limbi lansate, site-ul web a fost <localizationGlossaryLink>localizat</localizationGlossaryLink> cu succes și are suficiente <sentenceCollectionGlossaryLink>propoziții colectate</sentenceCollectionGlossaryLink> pentru a permite contribuții curente de <speakLink>Vorbire</speakLink> și <listenLink>Ascultare</listenLink> contributions.
 languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
 language-speakers = Vorbitori
