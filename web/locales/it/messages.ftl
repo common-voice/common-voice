@@ -373,6 +373,8 @@ faq-what-determine-identity-a =
     Tutte le registrazioni nel set di dati vengono anonimizzate. Scaricando il dataset acconsenti a rinunciare a ogni tentativo di determinare l’identità dei donatori di voce. Ciò significa che non devi collegare le informazioni nel dataset alle informazioni personali di un collaboratore. Tuttavia, è possibile utilizzare il set di dati per addestrare il software di riconoscimento vocale, di riconoscimento del soggetto parlante o altre applicazioni, o anche correlare le informazioni nel dataset ad altre informazioni sempre presenti nello stesso dataset.
 faq-what-is-cv = Che cos’è Common Voice?
 faq-description = Common Voice è parte di un’iniziativa Mozilla per insegnare alle macchine come le persone parlano nella vita reale.
+faq-search-for-answers =
+    .label = Ricerca per risposte
 
 ## ABOUT US
 
