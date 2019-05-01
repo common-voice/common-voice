@@ -395,6 +395,7 @@ about-header-description =
     Båda dessa projekt är en del av våra ansträngningar att överbrygga den digitala talklyftan. Röstigenkänningsteknik ger en mänsklig dimension till våra enheter, men utvecklare behöver en enorm mängd röstdata för att bygga dem. För närvarande är de flesta av dessa data dyra och proprietära.
     Vi vill göra röstdata fritt och allmänt tillgängliga, och se till att uppgifterna representerar mångfalden av riktiga människor. Tillsammans kan vi göra röstigenkänning bättre för alla.
 how-does-it-work-title = Hur fungerar det
+how-does-it-work-text = Vi crowdsourcar en röstdatamängd med öppen källkod. Donera din röst, bekräfta noggrannheten i inspelningar från andra och gör datamängden bättre för alla.
 about-speak = Tala
 about-speak-text = Bidragsgivare spelar in röstklipp genom att läsa från en bank med givna meningar.
 about-listen-queue = Lyssna-kö
@@ -408,15 +409,31 @@ about-yes-votes-text = För att göra det i Common Voice-datamängd måste ett r
 about-no-votes = ≥ 2 Nej röster
 about-no-votes-text = När en användare avvisar ett röstklipp återgår det till kön. Om det avvisas för andra gången flyttas röstklippet till klippkyrkogården.
 about-dataset = Common Voice-datamängd
+about-dataset-text = När en användare avvisar ett röstklipp återgår det till kön. Om det avvisas för andra gången flyttas röstklippet till klippkyrkogården.
+about-clip-graveyard = Klippkyrkogården
+about-clip-graveyard-text = Klippkyrkogården består av röstklipp som inte platsar i Common Voice-datamängd. Precis som datamängden är klippkyrkogården tillgänglig för nedladdning.
 about-partners = Partners
 about-become-a-partner = Bli en partner
+about-partnership =
+    Common Voice är ett samarbetsprojekt och vi är beroende av våra samarbetspartners och medarbetares sammansättning för att skapa den största datamängden med öppen källkod för röster någonsin.
+    
+    Vi vill tacka följande personer och organisationer för deras hjälp med projektet:
 about-get-involved = Engagera dig
+about-get-involved-text =
+    Vill du hjälpa till att göra Common Voice ännu bättre?
+    Bra! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
+    skicka in återkoppling via <githubLink>GitHub</ githubLink>,
+    eller gå med oss på <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Varför ?
 about-nav-how-it-works = Hur ?
 about-nav-partners = Partners
 about-nav-get-involved = Engagera dig
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificiell intelligens
+mycroft-description =
+    Mycroft är världens första assistent med öppen källkod. 
+    Mycroft körs var som helst - på en stationär dator, inuti en bil, eller på en Raspberry Pi.
+mycroft-secondary-description = Detta är öppen källkodsprogramvara som kan remixas, utvidgas och förbättras fritt. Mycroft kan användas i allt från ett vetenskapligt projekt till en företagsprogramvara.
 
 ## Glossary
 
