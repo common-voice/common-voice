@@ -391,14 +391,33 @@ about-is-it-valid-text = Un retalio vocal es marcate "valide" quando un usator d
 about-yes-votes = ≥ 2 votos Si
 about-yes-votes-text = Pro lo introducer in le collection de datos de Common Voice, un retalio vocal debe ser validate per duo diverse usatores.
 about-no-votes = ≥ 2 votos No
+about-no-votes-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
+about-dataset = Collection de datos de Common Voice
+about-dataset-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
+about-clip-graveyard = Cemeterio del retalios
+about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal que non es admittite in le collection de datos de Common Voice. Justo como le collection de datos, le Cemeterio del retalios es disponibile pro discarga.
 about-partners = Partners
+about-become-a-partner = Deveni un partner
+about-partnership =
+    Common Voice es un projecto in collaboration, e nos es dependente de nostre communitate de socios e collaboratores pro crear le major collection de datos de voces open-source de sempre.
+    
+    Nos place regratiar le sequente personas e organisationes pro lor adjuta al projecto:
 about-get-involved = Collabora
+about-get-involved-text =
+    Vole tu adjutar a render Common Voice mesmo melior?
+    Grande! Tener te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
+    invia un commentario per <githubLink>GitHub</githubLink>,
+    o junge te a nos sur <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Perque ?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
 about-nav-get-involved = Collabora
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligentia artificial
+mycroft-description =
+    Mycroft es le prime assistente open-source al mundo.
+    Mycroft flue ubicunque: sur un computator de scriptorio, intra un automobile o sur un Raspberry Pi.
+mycroft-secondary-description = Isto es un software open-source que pote ser liberemente re-miscite, extendite e meliorate. Mycroft pote ser usate in toto, ab un projecto scientific a un application software de interprisa.
 
 ## Glossary
 
