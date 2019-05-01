@@ -429,6 +429,7 @@ mycroft-subtitle = Intelligence artificielle
 mycroft-description =
     Mycroft est le premier assistant open source au monde.
     Mycroft fonctionne n’importe où : sur un ordinateur de bureau, dans une voiture ou sur un Raspberry Pi.
+mycroft-secondary-description = C’est un logiciel open source qui peut être librement remixé, développé et amélioré. Mycroft peut être utilisé dans tous les domaines, du projet scientifique au logiciel d’entreprise.
 
 ## Glossary
 
