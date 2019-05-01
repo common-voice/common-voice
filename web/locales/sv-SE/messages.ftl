@@ -393,11 +393,14 @@ how-does-it-work-title = Hur fungerar det
 about-listen = Lyssna
 about-yes-votes = ≥ 2 Ja röster
 about-no-votes = ≥ 2 Nej röster
+about-dataset = Common Voice Dataset
 about-partners = Partners
 about-become-a-partner = Bli en partner
+about-get-involved = Engagera dig
 about-nav-why-common-voice = Varför ?
 about-nav-how-it-works = Hur ?
 about-nav-partners = Partners
+about-nav-get-involved = Engagera dig
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificiell intelligens
 
