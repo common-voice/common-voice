@@ -133,6 +133,7 @@ speak = Powědaś
 speak-now = Powědajśo něnto
 datasets = Datowe sajźby
 languages = Rěcy
+about = Wó nas
 profile = Profil
 help = Pomoc
 contact = Kontakt
@@ -382,6 +383,36 @@ faq-what-determine-identity-a =
     Datowa sajźba Common Voice jo wótwórjona a zjawnje pśistupna resursa, kótaraž dajo se za treněrowanje šyrokeje wjelerakosći pśez powědanje wóźonych nałoženjow wužywaś. Aby my wěstotu našych sobustatkujucych šćitali, pšosymy kuždego, kótaryž datowu sajźbu Common Voice ześěgujo, priwatnosć našych sobustatkujucych respektěrowaś.
     
     Ze wšych głosowych klipow w datowej sajźbje se informacije wótwónoźuju, kótarež wósoby identificěruju. Gaž datowu sajźbu ześěgujośo, zwolijośo do togo, až njewopytujośo identitu sobustatkujucego póstajiś. To groni, až njamóžośo wopytaś, informacije w datowej sajźbje z wósobinskimi informacijami sobustatkujucego zwěazaś.  Móžośo pak datowu sajźbu wužywaś, aby powědańske spóznaśe, spóznaśe powědarjow abo druge nałoženja pśez to treněrował, až, na pśikład, informacije w datowej sajźbje z drugimi informacijami zwězujośo, kótarež su južo w datowej sajźbje.
+faq-what-is-cv = Co jo Common Vocie?
+faq-using-cv = Common Voice wužywaś
+faq-description = Common Voice jo źěl iniciatiwy Mozilla, kótaryž pomaga, mašiny wucyś, kak napšawdne luźe powědaju.
+faq-search-for-answers =
+    .label = Za wótegronami pytaś
+
+## ABOUT US
+
+about-title = Cogodla Common Voice?
+how-does-it-work-title = Kak to funkcioněrujo
+about-speak = Powědaś
+about-speak-text = Sobustatkujuce cytaju z datoweje banki sadow a nagrawaju głosowe klipy.
+about-listen-queue = Słuchowy cakański rěd
+about-listen-queue-text = Głosowe klipy se do pśenosowańskego cakańskego rěda zapódawaju, kótaryž je za słuchanje k dispoziciji staja.
+about-listen = Pśisłuchaś
+about-is-it-valid = Jo klip płaśiwy?
+about-is-it-valid-text = Głosowy klip se ako „płaśiwy markěrujo, gaž wužywaŕ jomu jogłos dajo.
+about-yes-votes = ≥ 2 jogłosa
+about-no-votes = ≥ 2 něgłosa
+about-dataset = Datowa sajźba Common Voice
+about-clip-graveyard = Klipowy kjarchob
+about-partners = Partnarje
+about-become-a-partner = Buźćo partnaŕ
+about-get-involved = Cyńśo sobu
+about-nav-why-common-voice = Cogodla?
+about-nav-how-it-works = Kak?
+about-nav-partners = Partnarje
+about-nav-get-involved = Cyńśo sobu
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Kumštna inteligenca
 
 ## Glossary
 
