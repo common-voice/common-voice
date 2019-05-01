@@ -386,22 +386,34 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pourquoi Common Voice ?
+about-subtitle = Common Voice fait partie de l’initiative de Mozilla aidant les machines à apprendre comment parlent les vraies personnes. Outre le jeu de données Common Voice, nous créons également un moteur de reconnaissance vocale open source appelé Deep Speech.
+about-header-description =
+    Ces deux projets font partie de nos efforts pour réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
+    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous.
 how-does-it-work-title = Mode d’emploi
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
 about-speak = Parler
 about-speak-text = Les contributeurs et contributrices lisent et enregistrent des échantillons vocaux issus d’une banque de phrases données par la communauté.
+about-listen-queue = File d’attente de l’écoute
 about-listen-queue-text = Les échantillons vocaux sont enregistrés dans une file d’attente de soumissions qui les prépare pour l’écoute.
 about-listen = Écouter
+about-listen-text = Les utilisateurs valident l’exactitude des échantillons en vérifiant que le locuteur ou la locutrice a correctement lu la phrase.
 about-is-it-valid = Cet échantillon est-il valide ?
 about-is-it-valid-text = Un échantillon vocal est marqué comme « valide » quand un utilisateur ou une utilisatrice l’approuve avec un OUI.
 about-yes-votes = ≥ 2 votes OUI
 about-yes-votes-text = Pour faire partie du jeu de données Common Voice, un échantillon vocal doit être validé par deux personnes distinctes.
 about-no-votes = ≥ 2 votes NON
+about-no-votes-text = Si une personne invalide un échantillon vocal, celui-ci retourne dans la file d’attente. S’il est rejeté une seconde fois, l’échantillon vocal est déplacé vers le cimetière des échantillons.
 about-dataset = Jeu de données Common Voice
+about-dataset-text = Si une personne invalide un échantillon vocal, celui-ci retourne dans la file d’attente. S’il est rejeté une seconde fois, l’échantillon vocal est déplacé vers le cimetière des échantillons.
 about-clip-graveyard = Cimetière des échantillons
 about-clip-graveyard-text = Le cimetière des échantillons est constitué d’échantillons qui n’ont pas été admis à faire partie du jeu de données Common Voice. Tout comme ce dernier, le cimetière des échantillons est disponible au téléchargement.
 about-partners = Partenaires
 about-become-a-partner = Devenir partenaire
+about-partnership =
+    Common Voice est un projet collaboratif et nous comptons sur notre communauté de partenaires et de contributeurs et contributrices pour créer le plus grand ensemble de données open source de voix.
+    
+    Nous voudrions remercier les personnes et organisations suivantes pour leur aide dans le projet :
 about-get-involved = Participer
 about-get-involved-text =
     Vous voulez aider à améliorer Common Voice ?
