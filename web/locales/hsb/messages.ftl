@@ -385,7 +385,7 @@ faq-what-determine-identity-a =
     Ze wšěch hłosowych klipow w datowej sadźbje so informacije wotstronjeja, kotrež wosoby identifikuja. Hdyž datowu sadźbu sćahujeće, zwoliće do toho, zo njepospytujeće identitu sobuskutkowarja postajić. To rěka, zo njemóžeće spytać, informacije w datowej sadźbje z wosobinskimi informacijemi sobuskutkowarja zwjazać.  Móžeće wšak datowu sadźbu wužiwać, zo byšće rěčenske spóznaće, spóznaće rěčnikow abo druhe nałoženja přez to trenował, zo, na přikład, informacije w datowej sadźbje z druhimi informacijemi zwjazujeće, kotrež su hižo w datowej sadźbje.
 faq-what-is-cv = Što je Common Vocie?
 faq-using-cv = Common Voice wužiwać
-faq-description = Common Voice je dźěl iniciatiwy Mozilla, kotryž pomha, mašiny wučić, kal woprawdźići ludźo rěča.
+faq-description = Common Voice je dźěl iniciatiwy Mozilla, kotryž pomha, mašiny wučić, kak woprawdźići ludźo rěča.
 faq-search-for-answers =
     .label = Za wotmołwami pytać
 
@@ -395,7 +395,7 @@ about-title = Čehodla Common Voice?
 how-does-it-work-title = Kak to funguje
 about-speak = Rěčeć
 about-listen-queue = Słuchowy čakanski rynk
-about-listen-queue-text = Hłosowe klipy so do přenošowanskeho čakanskeho rynka zapodawaja, kotrež je za słuchanje k dispoziciji staja.
+about-listen-queue-text = Hłosowe klipy so do přenošowanskeho čakanskeho rynka zapodawaja, kotryž je za słuchanje k dispoziciji staja.
 about-listen = Poskać
 about-is-it-valid = Je klip płaćiwy?
 about-is-it-valid-text = Hłosowy klip so jako „płaćiwy markěruje, hdyž wužiwar jemu hajhłós da.
