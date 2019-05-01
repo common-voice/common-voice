@@ -383,17 +383,31 @@ faq-what-determine-identity-a =
     Alla röstklipp i datamängden rensas på personidentifierande information. När du hämtar datamängden godkänner du att du inte försöker ta reda på identiteten hos någon bidragsgivare. Det betyder att du inte får försöka länka information i datamängden till en bidragsgivares personuppgifter. Du kan dock använda datamängden för att träna taligenkänning, talarigenkänning eller andra program, t.ex. genom att länka information i datamängden till annan information som redan finns i datamängden.
 faq-what-is-cv = Vad är Common Voice?
 faq-using-cv = Använda Common Voice
+faq-description = Projektet Common Voice är Mozillas initiativ att hjälpa till att lära maskiner hur riktiga människor talar.
 faq-search-for-answers =
     .label = Sök efter svar
 
 ## ABOUT US
 
 about-title = Varför Common Voice?
+about-subtitle = Common Voice är en del av Mozillas initiativ för att hjälpa till att lära maskiner hur riktiga människor talar. Förutom Common Voice-datamängd bygger vi också en taligenkänningsmotor med öppen källkod som heter Deep Speech.
+about-header-description =
+    Båda dessa projekt är en del av våra ansträngningar att överbrygga den digitala talklyftan. Röstigenkänningsteknik ger en mänsklig dimension till våra enheter, men utvecklare behöver en enorm mängd röstdata för att bygga dem. För närvarande är de flesta av dessa data dyra och proprietära.
+    Vi vill göra röstdata fritt och allmänt tillgängliga, och se till att uppgifterna representerar mångfalden av riktiga människor. Tillsammans kan vi göra röstigenkänning bättre för alla.
 how-does-it-work-title = Hur fungerar det
+about-speak = Tala
+about-speak-text = Bidragsgivare spelar in röstklipp genom att läsa från en bank med givna meningar.
+about-listen-queue = Lyssna-kö
+about-listen-queue-text = Röstklipp läggs in i en kö som läser dem för lyssning.
 about-listen = Lyssna
+about-listen-text = Användare bekräftar noggrannheten av donerade klipp, kontrollera att talaren läser meningen korrekt.
+about-is-it-valid = Är klippet giltigt?
+about-is-it-valid-text = Ett röstklipp är markerat "giltigt" när en användare ger den en, Ja röst.
 about-yes-votes = ≥ 2 Ja röster
+about-yes-votes-text = För att göra det i Common Voice-datamängd måste ett röstklipp valideras av två separata användare.
 about-no-votes = ≥ 2 Nej röster
-about-dataset = Common Voice Dataset
+about-no-votes-text = När en användare avvisar ett röstklipp återgår det till kön. Om det avvisas för andra gången flyttas röstklippet till klippkyrkogården.
+about-dataset = Common Voice-datamängd
 about-partners = Partners
 about-become-a-partner = Bli en partner
 about-get-involved = Engagera dig
