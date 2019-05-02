@@ -393,6 +393,7 @@ about-no-votes = ≥ 2 voti No
 about-dataset = Dataset di Common Voice
 about-partners = Partner
 about-become-a-partner = Diventa partner
+about-partnership = Common Voice è un progetto in collaborazione e, per creare la più grande raccolta dati vocali di dominio pubblico di sempre, dipendiamo dalla comunità di soci e collaboratori. Per il loro contributo al progetto, abbiamo il piacere di ringraziare le persone e le organizzazioni seguenti:
 about-get-involved = Collabora
 about-get-involved-text = Vuoi aiutarci a migliorare Common Voice? Ottimo! Contattaci via email o su <discourseLink>Discourse</discourseLink>, lascia un feedback su <githubLink>GitHub</githubLink> o unisciti a noi su <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Perché?
@@ -401,6 +402,8 @@ about-nav-partners = Partner
 about-nav-get-involved = Collabora
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artificiale
+mycroft-description = Mycroft è il primo assistente digitale open source al mondo. Puoi installare Mycroft ovunque: computer fissi, automobili e perfino Raspberry Pi.
+mycroft-secondary-description = Si tratta di un software open source che tutti possono modificare, ampliare e migliorare. Mycroft si può utilizzare in qualsiasi ambito, da un progetto scientifico a un’applicazione software d’impresa.
 
 ## Glossary
 
