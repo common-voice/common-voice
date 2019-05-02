@@ -1,9 +1,7 @@
 @import url('../vars.css');
 
-.notification-banner {
+.banner {
     width: 100%;
-    position: fixed;
-    top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,28 +16,15 @@
         margin: 20px;
     }
 
+    & h1 {
+        text-align: center;
+    }
+
     & .spacer {
         margin-right: auto;
 
         @media (--sm-down) {
             display: none;
-        }
-    }
-
-    & h1 {
-        &,
-        & a {
-            background-image: linear-gradient(to right, #f89096, #b1b4e5);
-            color: transparent;
-            font-size: var(--font-size-xl);
-            text-align: center;
-            background-clip: text;
-            -webkit-background-clip: text;
-        }
-
-        & a {
-            text-decoration: underline;
-            border-bottom: 2px solid #f89096;
         }
     }
 
@@ -58,6 +43,28 @@
 
         & path {
             fill: var(--white);
+        }
+    }
+}
+
+.notification-banner {
+    position: fixed;
+    top: 0;
+
+    & h1 {
+        &,
+        & a {
+            background-image: linear-gradient(to right, #f89096, #b1b4e5);
+            color: transparent;
+            font-size: var(--font-size-xl);
+            text-align: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+
+        & a {
+            text-decoration: underline;
+            border-bottom: 2px solid #f89096;
         }
     }
 }
