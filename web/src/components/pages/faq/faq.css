@@ -165,19 +165,18 @@
                 position: sticky;
                 max-width: 310px;
                 flex: 1;
-
                 @media (--md-down) {
                     top: 0;
                     margin-bottom: 30px;
                     padding-bottom: 10px;
-                    z-index: var(--middle-z-index);
+                    z-index: var(--top-z-index);
                     overflow: auto;
                     max-width: inherit;
+                    background-color: rgba(249, 249, 249, 1);
                 }
                 @media (--sm-down) {
                     padding: 0 1.25rem;
                     padding-bottom: 20px;
-                    background-color: rgba(249, 249, 249, 0.8);
                 }
 
                 @media (--lg-up) {
