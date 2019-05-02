@@ -71,6 +71,7 @@ kab = Yaren Kabyle
 kk = Yaren Kazakh
 ko = Koriyanci
 kpv = Yaren Komi-Zyrian
+ku = Yaren Kurdish
 kw = Yaren Cornish
 ky = Yaren Kyrgyz
 lij = Yaren Liguriya
@@ -96,6 +97,7 @@ ru = Rashanci
 rw = Yaren Kinyarwanda
 sah = Yaren Sakha
 sc = Yaran  Sardiniya
+si = Yaren Sinhala
 sk = Yaran Slobak
 sl = Yaren Slobaniya
 sq = Yaren Albaniya
@@ -147,8 +149,12 @@ home-title = Common Voice wani aiki ne na Moxilla don taimakawa Injuna gane yadd
 home-cta = Yi Magana, don ka taimaka!
 wall-of-text-start = Murya wani abu ne na asali kuma mutane kan yi. Wannan ne ya sa muke sha'awar samar da fasahar murya ga injunanmu. Sai dai kafin mu samar da wannan fasahar, dole mu samu bayanai na muryoyi masu yawa.
 wall-of-text-more-mobile = Mafi yawan bayanai da manyan kamfanoni suke amfani da su mutane ba sa samunsu. Hakan ya sa muka ƙirƙiro wata sabuwar hanyar muka yi manhajar Common Voice. Mun yi manhajar ne don ta taimaka wajen ba wa kowa damar aiki da fasahar gane murya.
+wall-of-text-more-desktop = Yanzu zaka iya bayar da gudummawar muryarka domin gina database ɗin muryoyin jama'a na kyauta wanda kuma kowa ka iya yin amfani dashi domin ƙirƙirar manhajojin nau'ra mai ƙwaƙwalwa da kuma yanar gizo. Karanta jimla domin ka taimakawa na'ura mai ƙwaƙwalwa wajen fahimttar yadda mutane na gaske suke magana. Ka binciki ayyukan sauran masu bada gudummawa domin haɓaka ingancinsu. Abu mai sauƙi!
+wall-of-text-first = Murya wani abu ne na asali kuma mutane kan yi. Wannan ne ya sa muke sha'awar samar da fasahar murya ga nau'rorinmu. Sai dai kafin mu samar da wannan fasahar, muna buƙatar bayanai na muryoyi masu matuƙar yawa.
+wall-of-text-second = Mafi yawan bayanai da manyan kamfanoni suke amfani da su basu samuwa ga mafi yawan mutane. Hakan kuwa naƙasu ne ga ƙirƙira. Hakan ya sa muka fara aikin Common Voice. Aikin zai taimaka wajen sauƙaƙa fasahar gane murya ga kowa da kowa.
 show-wall-of-text = Ci gaba Karantawa
 help-us-title = Taimaka mana mu inganta kalmomi!
+help-us-explain = Danna fara, sai ka saurara sannan ka bayyana mana: Yadda suka faɗi wannan jimla ta ƙasa dai dai ne?
 vote-yes = E
 vote-no = A'a
 toggle-play-tooltip = Danna { shortcut-play-toggle } don Cigaba ko ka tsayar da sauraro
@@ -194,7 +200,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Kunna/Tsayar
+shortcut-play-toggle-label = Fara/Tsaya
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -260,10 +266,24 @@ faq-title = Tambayoyin da aka fi tambaya
 faq-what-cv-q = Me ne ne Common Voice?
 faq-why-important-q = Me ya sa yake da muhimmanci?
 faq-how-get-q = Ta yaya zan iya samun bayanan Common Voice ?
+faq-when-release-q = Yaushe zaku saki bayanan Common Voice a sauran harsuna?
+faq-why-mission-q = Me yasa Common Voice yake cikin burikan Mozilla?
+faq-why-mission-a = Mozilla ta jajurce don tabbatar da yanar gizo buɗaɗɗiya kuma sassauƙa ga kowa da kowa. Don haka muna buƙatar ƙarfafar masu ƙirƙirar fasahar yanar gizo ta hanyar ayyuka irin Common Voice. Yayin da fasahar murya ta bunƙasa, akwai tabbacin zai hidimtawa masu amfani dashi. Wannan na nufin ƙarfafar harsuna da yawa da kuma shigar da karin harsuna mabambanta da juna yarin gini da kuma jarraba fasahohin murya. Common Voice abune na jama'a, ma'aikatan Mozilla da sauran masu fasahar na'ura mai ƙwaƙwalwa suna amfani dashi a ayyuka dabam dabam a faɗin duniya.
+faq-what-cv-and-deepspeech-q = Meye bambancin dake tsakanin Common Voice da Deep Speech?
+faq-is-goal-assistant-q = Shin manufar gina Common Voice shine domin gina maƙallin murya?
+faq-why-different-speakers-q = Me ya sa kuke bukatar masu magana da yawa a kowane harshe?
+faq-why-my-lang-q = Me ya sanya ba'a saka yarena ba har yanzu?
+faq-how-calc-hours-q = Ta yaya Common Voice yake auna sa'o'i?
+faq-why-account-q = Don me zan buɗe asusu?
+faq-is-account-public-q = Shin bayanan asusuna a buɗe suke?
+
+## ABOUT US
+
 
 ## Glossary
 
 localization = Fassarawa
+hours-recorded-explanation = Ƙidayar sa'o'in da muka naɗa na sauti kawo yanzu.
 sst = Mangana-Zuwa-Rubutu(STT)
 
 ## NotFound
@@ -276,11 +296,14 @@ notfound-content = Ina jin tsoro ban san abin da kake nema ba.
 data-download-button = Sauke bayanan Common Voice
 data-download-yes = Ee
 data-download-deny = A'a
+data-other-title = Sauran bayanai (datasets) na muryoyi
 data-other-goto = Je zuwa { $name }
 data-other-download = Sauke Bayanai
+data-bundle-button = Sauke dunƙulen bayanai (dataset)
 license-mixed = An cakuda
 terms-agree = Na yarda
 terms-disagree = Ban yarda ba
+review-recording = Nazari
 
 ## New Datasets Page
 
@@ -288,13 +311,21 @@ language = Yare
 # File size in gigabytes
 size = Girma
 cv-license = Lasisi
+number-of-voices = Adadin muryoyi
+email-to-download = Shigar da imel ɗinka don ka sauke
 size-gigabyte = GB
 size-megabyte = MB
+validated-hours = Sa'o'in da aka tantance
+recorded-hours = Sa'o'in da aka naɗa
+whats-inside = Meye a cikin bayanan Common Voice?
 go-languages-page = Jeka zuwa shafin yaruka
+more = Ƙari
 close = Rufe
+download = Sauke
 
 ## Download Modal
 
+download-title = Abunda ka ke son saukewa ya fara saukuwa.
 download-form-email =
     .label = Shigar da adreshinka na yanar gizo
     .value = Mungode, za mu ci gaba da tuntunbarka
@@ -342,6 +373,7 @@ record-cta = Fara Ɗaukar Murya
 record-three-more-instruction = Saura uku ka gama!
 unable-speak = Ba za ka iya magana ba a yanzu?
 record-abort-continue = Kammala Ɗaukar Murya
+record-button-label = Naɗi muryarka
 
 ## Goals
 
@@ -356,12 +388,14 @@ days =
 your-languages = Yarenku
 you = Kai
 everyone = Kowane mutum
+top-contributors = Waɗanda suka fi bada gudummawa
 total-approved = Jimillar da aka amince
 
 ## Profile Delete
 
 keep = Ajiye
 remove = Cire
+remove-info = Za mu duba buƙatarka ta cire sautikan muryarka daga cikin bayanan (dataset). Idan an yarda da buƙatarka, za mu tuntuɓi waɗanda suka sauke bayanan (dataset) ɗin domin suma su cire sautikan muryarka.
 why-delete-recordings =
     Muryoyin da aka ɗauka a Common Voice za a iya amafani da su don Harkar ilimi, ko ƙananan sana'o'i da kuma masu shawa'awar fasahar murya don su taimaka wajen horaswa da kuma bunƙasa baynai na fili kamar manhajar murya.
     

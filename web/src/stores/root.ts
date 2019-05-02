@@ -122,8 +122,9 @@ store.subscribe(async () => {
     const { customGoal } = user.account;
     if (customGoal) {
       const goals = Object.keys(customGoal.current);
-      ga('set', 'custom_goal_type', goals.length > 1 ? 'both' : goals[0]);
+      ga('set', 'dimension1', goals.length > 1 ? 'both' : goals[0]);
     }
+    ga('send', 'pageview');
   }
 
   for (const field of Object.keys(fieldTrackers)) {

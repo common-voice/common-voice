@@ -4,7 +4,7 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from 'common/user-clients';
 import { Notifications } from '../../../../stores/notifications';
@@ -58,6 +58,17 @@ interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 function Settings(props: Props) {
   const { account, addNotification, getString, locale, saveAccount } = props;
+  const [isSubscribed, setIsSubscribed] = useState<boolean>(null);
+
+  useEffect(() => {
+    if (!account.basket_token) return;
+    fetch(
+      'https://basket.mozilla.org/news/lookup-user/?token=' +
+        account.basket_token
+    )
+      .then(response => response.json())
+      .then(body => setIsSubscribed(body.newsletters.includes('common-voice')));
+  }, []);
 
   useEffect(() => {
     const { pathname, search } = location;
@@ -113,15 +124,19 @@ function Settings(props: Props) {
             </a>
           }>
           <div className="email-section">
-            <LabeledCheckbox
-              disabled={true}
-              checked={true}
-              label={
-                <Localized id="email-opt-in-info">
-                  <span />
-                </Localized>
-              }
-            />
+            {isSubscribed == null ? (
+              <div />
+            ) : (
+              <LabeledCheckbox
+                disabled={true}
+                checked={isSubscribed}
+                label={
+                  <Localized id="email-opt-in-info">
+                    <span />
+                  </Localized>
+                }
+              />
+            )}
             <div className="privacy-and-terms">
               <InfoIcon />
               <div>

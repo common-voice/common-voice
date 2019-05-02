@@ -13,6 +13,32 @@ interface PropsFromDispatch {
 
 type Props = { notification: Notifications.Notification } & PropsFromDispatch;
 
+export const Banner = React.forwardRef(
+  (
+    {
+      className,
+      children,
+      ctaButtonProps,
+      onClose,
+      ...props
+    }: {
+      children: React.ReactNode;
+      ctaButtonProps: any;
+      onClose: () => any;
+    } & React.HTMLProps<HTMLDivElement>,
+    ref: any
+  ) => (
+    <div ref={ref} className={'banner ' + className} {...props}>
+      <div className="spacer" />
+      <h1>{children}</h1>
+      <LinkButton {...ctaButtonProps} className="cta" onClick={onClose} />
+      <button type="button" className="close" onClick={onClose}>
+        <CrossIcon />
+      </button>
+    </div>
+  )
+);
+
 function NotificationBanner({ notification, removeNotification }: Props) {
   const [show, setShow] = useState(false);
 
@@ -23,8 +49,17 @@ function NotificationBanner({ notification, removeNotification }: Props) {
   }, []);
 
   return (
-    <div
+    <Banner
       ref={el}
+      ctaButtonProps={
+        notification.kind == 'banner'
+          ? {
+              ...notification.actionProps,
+              className: 'cta',
+            }
+          : {}
+      }
+      onClose={() => setShow(false)}
       className="notification-banner"
       style={{ transform: `translateY(${show ? 0 : -100}%)` }}
       onTransitionEnd={event => {
@@ -32,19 +67,8 @@ function NotificationBanner({ notification, removeNotification }: Props) {
 
         removeNotification(notification.id);
       }}>
-      <div className="spacer" />
-      <h1>{notification.content}</h1>
-      {notification.kind == 'banner' && (
-        <LinkButton
-          {...notification.actionProps}
-          className="cta"
-          onClick={() => setShow(false)}
-        />
-      )}
-      <button type="button" className="close" onClick={() => setShow(false)}>
-        <CrossIcon />
-      </button>
-    </div>
+      {notification.content}
+    </Banner>
   );
 }
 

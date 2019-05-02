@@ -3,7 +3,7 @@
 contribute = Mitmachen
 get-involved-button = Mitmachen
 get-involved-title = An { $lang } mitwirken
-get-involved-text = Danke für Ihr Interesse, an Team { $lang } mitzuarbeiten. Wir arbeiten hart daran, alle Sprachen zu vervollständigen, um sie ins Projekt aufnehmen zu können, und halten die Teams per E-Mail darüber auf dem Laufenden.<lineBreak></lineBreak>Sie möchten dazustoßen und mitmachen? Dann teilen Sie uns bitte Ihre E-Mail-Adresse mit.
+get-involved-text = Danke für Ihr Interesse, an Team { $lang } mitzuarbeiten. Wir arbeiten hart daran, alle Sprachen zu vervollständigen, um sie ins Projekt aufnehmen zu können, und halten die Teams per E-Mail darüber auf dem Laufenden.<lineBreak></lineBreak>Sie möchten mitmachen? Dann teilen Sie uns bitte Ihre E-Mail-Adresse mit.
 get-involved-form-title = Neuigkeiten von Team { $lang } abonnieren:
 get-involved-email =
     .label = E-Mail-Adresse

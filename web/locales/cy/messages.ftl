@@ -83,6 +83,7 @@ lv = Latfieg
 mdf = Moksha
 mhr = Mari Dwyreiniol
 mk = Macedoneg
+ml = Malayalam
 mn = Mongolieg
 mrj = Mari Gorllewinol
 myv = Erzya
@@ -132,6 +133,7 @@ speak = Siarad
 speak-now = Siaradwch nawr
 datasets = Setiau data
 languages = Ieithoedd
+about = Amdanom Ni
 profile = Proffil
 help = Cymorth
 contact = Cysylltu
@@ -393,6 +395,59 @@ faq-what-determine-identity-a =
     Mae set ddata Common Voice yn adnodd agored a chyhoeddus y mae modd ei ddefnyddio i hyfforddi amrywiaeth eang o raglenni llais. Er mwyn diogelu ein cyfranwyr, gofynnwn i bawb sy'n llwytho i lawr set ddata Common Voice i barchu preifatrwydd cyfranwyr.
     
     Mae'r holl glipiau llais yn y set ddata yn cael eu dinoethu o fanylion personol. Pan fyddwch yn llwytho i lawr y set ddata, rydych yn cytuno i beidio â cheisio dyfalu hunaniaeth unrhyw gyfrannwr. Mae hynny'n golygu na allwch geisio cysylltu gwybodaeth yn y set ddata i fanylion personol cyfrannwr. Fodd bynnag, gallwch ddefnyddio'r set ddata i hyfforddi adnabod llais, adnabod siaradwr, neu raglenni eraill, trwy, er enghraifft, gysylltu gwybodaeth yn y set ddata i wybodaeth arall sydd eisoes yn y set ddata.
+faq-what-is-cv = Beth yw Common Voice
+faq-using-cv = Defnyddio Common Voice
+faq-description = Mae Common Voice yn rhan o fenter Mozilla i helpu i ddysgu peiriannau sut mae pobl go iawn yn siarad.
+faq-search-for-answers =
+    .label = Chwilio am atebion
+
+## ABOUT US
+
+about-title = Pam Common Voice?
+about-subtitle = Mae Common Voice yn rhan o fenter Mozilla i helpu i ddysgu peiriannau sut mae pobl go iawn yn siarad. Yn ogystal â set ddata Common Voice, rydym hefyd yn adeiladu peiriant adnabod lleferydd cod agored o'r enw Deep Speech.
+about-header-description =
+    Mae'r ddau brosiect hyn yn rhan o'n hymdrechion i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
+    Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
+how-does-it-work-title = Sut mae'n gweithio?
+how-does-it-work-text = Rydym yn torfoli set ddata cod agored o leisiau. Rhowch eich llais, dilyswch gywirdeb clipiau pobl eraill, gwnewch y set ddata yn well i bawb.
+about-speak = Siarad
+about-speak-text = Mae cyfranwyr yn recordio clipiau llais trwy ddarllen o gronfa o frawddegau a gyfrannwyd.
+about-listen-queue = Gwrando-Ciw
+about-listen-queue-text = Mae clipiau llais yn cael eu rhoi mewn ciw cyflwyno sy'n eu paratoi ar gyfer gwrando.
+about-listen = Gwrando
+about-listen-text = Mae defnyddwyr yn dilysu cywirdeb clipiau a gyfrannwyd, gan wirio bod y siaradwr yn darllen y frawddeg yn gywir.
+about-is-it-valid = Ydy'r clip yn ddilys?
+about-is-it-valid-text = Mae clip llais wedi'i farcio yn "ddilys" pan fydd defnyddiwr yn ei nodi'n Iawn.
+about-yes-votes = ≥ 2 Iawn
+about-yes-votes-text = Iddo gael ei dderbyn i set ddata Common Voice, rhaid i ddau ddefnyddiwr gwahanol ddilysu clip llais.
+about-no-votes = ≥ 2 Na
+about-no-votes-text = Pan fydd defnyddiwr yn gwrthod clip llais mae'n dychwelyd i'r Ciw. Os caiff ei wrthod yr ail dro, caiff y clip llais ei symud i Fynwent y Clipiau.
+about-dataset = Set Ddata Common Voice
+about-dataset-text = Pan fydd defnyddiwr yn gwrthod clip llais mae'n dychwelyd i'r Ciw. Os caiff ei wrthod yr ail dro, caiff y clip llais ei symud i Fynwent y Clipiau.
+about-clip-graveyard = Mynwent y Clipiau
+about-clip-graveyard-text = Mae Mynwent y Clipiau yn cynnwys clipiau llais sydd heb gyrraedd set ddata Common Voice. Fel gyda'r set ddata, mae'r Mynwent Clipiau ar gael i'w lwytho i lawr.
+about-partners = Partneriaid
+about-become-a-partner = Dod yn bartner
+about-partnership =
+    Mae Common Voice yn brosiect cydweithredol, ac rydym yn dibynnu ar ein cymuned o bartneriaid a chyfranwyr i adeiladu'r set ddata o leisiau cod agored fwyaf erioed.
+    
+    Hoffem ddiolch i'r bobl a'r sefydliadau canlynol am eu cymorth gyda'r prosiect:
+about-get-involved = Ymunwch
+about-get-involved-text =
+    Eisiau helpu i wneud Common Voice hyd yn oed yn well?
+    Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
+    cyflwyno adborth trwy <githubLink>GitHub</githubLink>,
+    neu ymunwch â ni ar <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Pam ?
+about-nav-how-it-works = Sut ?
+about-nav-partners = Partneriaid
+about-nav-get-involved = Ymunwch
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Deallusrwydd artiffisial
+mycroft-description =
+    Mycroft yw cynorthwy-ydd cod agored cyntaf y byd.
+    Mae Mycroft yn rhedeg yn unrhyw le - ar gyfrifiadur bwrdd gwaith, o fewn car, neu ar Raspberry Pi.
+mycroft-secondary-description = Mae hwn yn feddalwedd cod agored y mae modd ei ail-gylchu, ei ymestyn a'i wella'n rhydd. Mae modd defnyddio Mycroft mewn unrhyw beth o brosiect gwyddoniaeth i raglen meddalwedd menter.
 
 ## Glossary
 

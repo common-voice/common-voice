@@ -54,6 +54,7 @@ fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
 gl = galícijčina
+ha = hauština
 he = hebrejčina
 hi-IN = hindčina
 hr = chorvátčina
@@ -69,6 +70,7 @@ kab = kabylčina
 kk = kazaština
 ko = kórejčina
 kpv = komi-zyriančina
+ku = kurdčina
 kw = kornčina
 ky = kirgizština
 lij = ligúrčina
@@ -77,6 +79,7 @@ lv = lotyština
 mdf = mokša
 mhr = lúčnovýchodná marijčina
 mk = macedónčina
+ml = malajálamčina
 mn = mongolčina
 mrj = hornomarijská marijčina
 myv = erzya
@@ -94,6 +97,7 @@ ru = ruština
 rw = rwandčina
 sah = jakutčina
 sc = sardínčina
+si = sinhalčina
 sk = slovenčina
 sl = slovinčina
 sq = albánčina
@@ -124,6 +128,7 @@ speak = Hovorte
 speak-now = Hovorte teraz
 datasets = Datasety
 languages = Jazyky
+about = O nás
 profile = Profil
 help = Pomocník
 contact = Kontakt
@@ -204,11 +209,15 @@ profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 ## Account Benefits
 
 benefits = Výhody
+rich-data = Obohaťte odoslané dáta poskytnutím niektorých anonymných demografických údajov. Pred zverejnením všetky demografické údaje de-identifikujeme.
+improve-audio = Profilové informácie zlepšujú zvukové dáta používané pri tréningu presnosti rozpoznávania reči.
+compare-progress = Porovnajte sa s ostatnými prispievateľmi z celého sveta.
 
 ## What's public
 
 whats-public = Čo všetko zverejňujeme?
 email-not-public = Vašu e-mailovú adresu nezverejňujeme.
+recordings-and-locale-public = Počet nahrávok a jazyky, do ktorých prispievate, budú verejné.
 username-optin-public = Môžete si vybrať, či bude vaše používateľské meno verejné alebo anonymné.
 demographic-deidentified = Dobrovoľne poskytnuté demografické údaje (vek, pohlavie a prízvuk) sú anonymizované a nikdy nebudú zverejnené na vašom profile.
 username-email-not-demographic = Vaše používateľské meno a e-mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
@@ -238,6 +247,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrať/zastaviť
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Nahrať klip nanovo
 request-language-text = Nevidíte na Common Voice svoj jazyk?
 request-language-button = Požiadajte o jazyk
 
@@ -294,8 +304,6 @@ profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spre
 thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
 why-demographic = Prečo na tom záleží?
 why-demographic-explanation = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
-keep-me-posted =
-    .label = Chcem dostávať novinky o projekte Common Voice.
 accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>
 login-identity = Identita pre prihlásenie
 login-signup = Prihlásenie/registrácia
@@ -319,19 +327,49 @@ add-language = Pridať jazyk
 
 faq-title = Často kladené otázky
 faq-what-cv-q = Čo je Common Voice?
+faq-what-cv-a =
+    Technológia rozpoznávania hlasu je revolúciou v spôsobe, akým pracujeme so strojmi, ale v súčasnosti dostupné systémy sú drahé a proprietárne. Common Voice je súčasťou iniciatívy Mozilly, aby technológie rozpoznávania hlasu boli lepšie a dostupnejšie pre každého. Common Voice je masívna globálna databáza darovaných hlasov, ktorá umožňuje komukoľvek ľahko a rýchlo trénovať aplikácie podporujúce hlas, potenciálne v každom jazyku.¶
+    ¶
+    Zhromažďujeme hlasové vzorky nielen pre najpoužívanejšie jazyky, ale aj pre jazyky s menšou populáciou hovoriacich. Publikovanie rôznorodého súboru hlasov umožní vývojárom, podnikateľom a komunitám aby túto medzeru riešili sami. Popri dátovom súbore Common Voice taktiež budujeme aj open source nástroj na rozpoznávanie reči s názvom Deep Speech.
 faq-why-important-q = Prečo je to dôležité?
+faq-why-important-a =
+    Reč je často najprirodzenejším spôsobom, akým navzájom komunikujeme, a hlasové technológie prinášajú toto pohodlie do našich počítačov a mobilných zariadení. Chceme umožniť vývojárom vybudovať úžasné aplikácie na rozpoznávanie hlasu, ako sú prekladatelia v reálnom čase a hlasom ovládaní digitálni asistenti. Ale práve teraz je väčšina hlasových dát potrebných na vybudovanie takýchto aplikácií drahá a proprietárna. Dúfame, že dátový súbor Common Voice poskytne vývojárom to, čo potrebujú na inováciu a sprístupnenie technológie reči v ich vlastnom jazyku.¶
+    ¶
+    Aby sa rozpoznávanie hlasu stalo ešte univerzálnejším, zhromažďujeme hlasové vzorky v často hovorených jazykoch, rovnako ako v jazykoch s menším počtom hovoriacich, ktorí sú často prehliadaní komerčnými službami rozpoznávania reči. Publikovanie rôznorodého súboru hlasov umožní vývojárom, podnikateľom a celým rečovým komunitám vyriešiť túto medzeru .
 faq-how-get-q = Ako môžem získať údaje služby Common Voice?
 faq-how-get-a = Dataset služby Common Voice je dostupný na prevzatie v rámci licencie <licenseLink>CC0</licenseLink> na <datasetLink>stránke našich datasetov</datasetLink>. Z tej istej stránky si taktiež môžete prevziať niekoľko ďalších verejne dostupných datasetov.
 faq-when-release-q = Kedy uverejníte údaje projektu Common Voice aj v ďalších jazykoch?
 faq-when-release-a = Viacjazyčná verzia Common Voice datasetu v súčastnosti prechádza čistením a spájaním. Ak sa chcete dozvedieť viac o tom, ako podporiť toto úsilie, prosím, <contactLink>kontaktujte nás</contactLink>. Momentálne plánujeme dátum vydania na január 2019. Po tomto dátume budeme pravidelne aktualizovať dataset novými jazykmi a hlasovými klipmi, keď budú k dispozícii. Frekvencia pravidelného vydavateľského cyklu ešte stále nie je určená.
 faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
 faq-what-cv-and-deepspeech-q = Aký je rozdiel medzi projektami Common Voice a Deep Speech?
+faq-what-cv-and-deepspeech-a = Dataset Common Voice dopĺňa open-source systém rozpoznávania hlasu Deep Speech spoločnosti Mozilla. Prvá verzia systému Deep Speech bola vydaná v novembri 2017 a odvtedy sa neustále vyvíja. Veríme, že táto open-source technológia rozpoznávania hlasu, spoločne s datasetom Common Voice, by mala byť dostupná pre každého. Dúfame, že tieto technológie umožnia vývojárom vybudovať vlnu inovatívnych produktov a služieb.
 faq-is-goal-assistant-q = Je cieľom projektu Common Voice vytvorenie hlasového asistenta?
+faq-is-goal-assistant-a = Cieľom datasetu Common Voice je umožniť komukoľvek na svete vytvárať aplikácie využívajúce rozpoznávanie reči, hovoriaceho alebo akékoľvek spracovanie hlasových údajov. Hlasový asistent je len jedným z mnohých typov aplikácií, na ktoré môžete použiť tento dataset.
 faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
+faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasového klipu v datasete?
+faq-what-quality-a = Chceme, aby dataset Common Voice odrážal kvalitu zvuku, ktorú bude systém prevodu reči na text počuť v teréne, takže hľadáme rozmanitosť. Okrem rôznorodej komunity hovoriacich, dataset s rôznou kvalitou zvuku naučí systém prevodu reči na text zvládať rôzne situácie v reálnom svete, od rozhovoru v pozadí až po hluk z auta. Pokiaľ je váš hlasový klip zrozumiteľný, mal by byť pre dataset dostatočne dobrý.
 faq-how-calc-hours-q = Ako projekt Common Voice počíta nahrané hodiny?
 faq-how-calc-hours-a = Hodiny počítame odhadom priemernej dĺžky každého záznamu, ktorú potom vynásobíme celkovým počtom záznamov vo všetkých jazykoch.
 faq-where-src-from-2-q = Odkiaľ pochádza zdrojový text?
+faq-why-not-ask-read-a = Aby bol Common Voice dataset čo najužitočnejší, rozhodli sme sa prijímať len zdrojové texty dostupné pod licenciou Creative Commons (CC0). Použitie štandardu CC0 znamená, že je ťažšie nájsť a zozbierať zdrojový text, ale umožní komukoľvek použiť výsledné hlasové údaje bez obmedzení alebo povolení od Mozilly. V konečnom dôsledku chceme vytvoriť čo najužitočnejší mnohojazyčný dataset pre každého, vrátane vedcov, univerzít, startupov, vlád, sociálnych organizácii a hobbistov.
 faq-is-account-public-q = Sú informácie o mojom účte verejne prístupné?
+faq-how-privacy-a = Všetky hlasové klipy v datasete sú očistené od osobne identifikujúcich údajov . Keď prispievateľ poskytne demografické údaje prostredníctvom svojho profilu, tieto informácie sa de-identifikujú od jeho hlasových klipov predtým, než sa pridajú do datasetu na stiahnutie a nikdy sa na profilovej stránke nezverejnia.
+faq-what-determine-identity-q = Čo to znamená, že nemôžem „určiť identitu“ rečníkov v datasete Common Voice?
+faq-what-is-cv = Čo je Common Voice?
+faq-description = Projekt Common Voice je súčasťou iniciatívy Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
+
+## ABOUT US
+
+about-title = Prečo Common Voice?
+about-clip-graveyard = Clip Graveyard
+about-partners = Partneri
+about-become-a-partner = Staňte sa partnerom
+about-get-involved = Zapojte sa
+about-nav-why-common-voice = Prečo?
+about-nav-how-it-works = Ako?
+about-nav-partners = Partneri
+about-nav-get-involved = Zapojte sa
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
@@ -380,8 +418,10 @@ language = Jazyk
 size = Veľkosť
 cv-license = Licencia
 audio-format = Formát zvuku
+email-to-download = Pre prevzatie zadajte svoju e-mailovú adresu
 size-gigabyte = GB
 size-megabyte = MB
+download-language = Prevziať jazyk { $language }
 subscribe = Odoberať
 feedback-q = Máte spätnú väzbu?
 data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
@@ -430,6 +470,7 @@ other-language = Ostatné jazyky
 ## Languages Overview
 
 language-section-in-progress = Jazyky, ktoré sa pripravujú
+language-section-in-progress-new-description = Tieto jazyky sa momentálne pripravujú. Pri každom jazyku je uvedené, v akom stave je <localizationGlossaryLink>preklad stránky</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zber viet</sentenceCollectionGlossaryLink>.
 language-section-launched = Spustené jazyky
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
@@ -521,7 +562,7 @@ your-languages = Vaše jazyky
 stats = Štatistiky
 you = Vy
 everyone = Všetci
-contribution-activity = Aktivita príspevateľov
+contribution-activity = Aktivita prispievateľov
 top-contributors = Najlepší prispievatelia
 overall-accuracy = Celková presnosť
 

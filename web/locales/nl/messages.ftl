@@ -380,19 +380,19 @@ faq-what-determine-identity-a =
     Alle spraakfragmenten in de gegevensset worden geschoond van persoonlijk identificeerbare gegevens. Wanneer u de gegevensset downloadt, gaat u ermee akkoord niet te proberen de identiteit van een bijdrager te bepalen. Dat betekent dat u niet mag proberen om gegevens in de gegevensset aan de persoonlijke informatie van een bijdrager te koppelen. U mag de gegevensset echter wel gebruiken om spraakherkenning, sprekerherkenning of andere toepassingen te trainen, bijvoorbeeld door gegevens in de gegevensset te koppelen aan andere informatie die al in de gegevensset staat.
 faq-what-is-cv = Wat is Common Voice?
 faq-using-cv = Common Voice gebruiken
-faq-description = Common Voice is deel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
+faq-description = Common Voice is onderdeel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
 faq-search-for-answers =
     .label = Antwoorden zoeken
 
 ## ABOUT US
 
 about-title = Waarom Common Voice?
-about-subtitle = Common Voice is deel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken. In aanvulling op de Common Voice-gegevensset bouwen we ook een open source spraakherkenningsengine genaamd Deep Speech.
+about-subtitle = Common Voice is onderdeel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken. In aanvulling op de Common Voice-gegevensset bouwen we ook een open source spraakherkenningsengine genaamd Deep Speech.
 about-header-description =
     Beide projecten maken deel uit van onze inspanningen om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
     We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
 how-does-it-work-title = Hoe werkt het
-how-does-it-work-text = We crowdsourcen en open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
+how-does-it-work-text = We crowdsourcen een open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
 about-speak = Spreken
 about-speak-text = Bijdragers nemen spraakfragmenten op door te lezen van een databank van gedoneerde zinnen.
 about-listen-queue = Luisterwachtrij
@@ -404,7 +404,11 @@ about-is-it-valid-text = Een spraakfragment wordt gemarkeerd als ‘geldig’ wa
 about-yes-votes = ≥ 2 ja-stemmen
 about-yes-votes-text = Om opgenomen te worden in de Common Voice-gegevensset moet een fragment worden gevalideerd door twee afzonderlijke gebruikers.
 about-no-votes = ≥ 2 nee-stemmen
+about-no-votes-text = Wanneer een gebruiker een spraakfragment afwijst, keert deze terug naar de wachtrij. Bij een tweede afwijzing wordt het spraakfragment verplaatst naar het Fragmentenkerkhof.
 about-dataset = Common Voice-gegevensset
+about-dataset-text = Wanneer een gebruiker een spraakfragment afwijst, keert deze terug naar de wachtrij. Bij een tweede afwijzing wordt het spraakfragment verplaatst naar het Fragmentenkerkhof.
+about-clip-graveyard = Fragmentenkerkhof
+about-clip-graveyard-text = Het Fragmentenkerkhof bestaat uit stemfragmenten die de Common Voice-gegevensset niet hebben gehaald. Net als de gegevensset kan het Fragmentenkerkhof worden gedownload.
 about-partners = Partners
 about-become-a-partner = Een partner worden
 about-partnership =

@@ -368,19 +368,57 @@ faq-what-determine-identity-q = Que significa que io non pote “determinar le i
 faq-what-determine-identity-a = Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote ser usate pro maestrar un large varietate de applicationes ad activation vocal. Pro proteger le securitate de nostre collaboratores, <s0/>nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del collaboratores.
 faq-what-is-cv = Que es Common Voice?
 faq-using-cv = Uso de Common Voice
+faq-description = Common Voice es parte del initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real.
+faq-search-for-answers =
+    .label = Cercar responsas
 
 ## ABOUT US
 
 about-title = Perque Common Voice?
+about-subtitle = Common Voice es parte del initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real. Ultra al collection de datos Common Voice, nos alsi produce un motor open-source de recognition de voce appellate Deep Speech.
+about-header-description =
+    Ambe iste projectos es parte de nostre effortios pro crear un ponte contra le division digital  vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores besonia de un enorme amonta de datos vocal pro los crear. Actualmente, le major parte de ille datos es costose e proprietari.
+    Nos vole render le datos vocal liberemente e publicamente disponibile e verificar que le datos representa le diversitate del personas de real. Insimul nos pote render le recognition vocal melior pro totes.
 how-does-it-work-title = Como functiona illo?
+how-does-it-work-text = Nos collecta un collection open-source de voces donate. Dona tu voce, valida le precision del retalios vocal del alteres, rende melior le collection de datos pro totes!
 about-speak = Parlar
+about-speak-text = Le collaboratores registra retalios vocal legente ab un banca de phrases donate.
+about-listen-queue = Cauda pro le ascolta
+about-listen-queue-text = Le retalios vocal es introducite in un cauda de invio que los appresta pro le ascolta.
 about-listen = Ascoltar
+about-listen-text = Le usatores valida le precision del retalios donate e controla que le lector lege le phrase correctemente.
+about-is-it-valid = Es le retalio valide?
+about-is-it-valid-text = Un retalio vocal es marcate "valide" quando un usator da illo un voto Si.
+about-yes-votes = ≥ 2 votos Si
+about-yes-votes-text = Pro lo introducer in le collection de datos de Common Voice, un retalio vocal debe ser validate per duo diverse usatores.
+about-no-votes = ≥ 2 votos No
+about-no-votes-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
+about-dataset = Collection de datos de Common Voice
+about-dataset-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
+about-clip-graveyard = Cemeterio del retalios
+about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal que non es admittite in le collection de datos de Common Voice. Justo como le collection de datos, le Cemeterio del retalios es disponibile pro discarga.
 about-partners = Partners
+about-become-a-partner = Deveni un partner
+about-partnership =
+    Common Voice es un projecto in collaboration, e nos es dependente de nostre communitate de socios e collaboratores pro crear le major collection de datos de voces open-source de sempre.
+    
+    Nos place regratiar le sequente personas e organisationes pro lor adjuta al projecto:
 about-get-involved = Collabora
+about-get-involved-text =
+    Vole tu adjutar a render Common Voice mesmo melior?
+    Grande! Tener te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
+    invia un commentario per <githubLink>GitHub</githubLink>,
+    o junge te a nos sur <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Perque ?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
 about-nav-get-involved = Collabora
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelligentia artificial
+mycroft-description =
+    Mycroft es le prime assistente open-source al mundo.
+    Mycroft flue ubicunque: sur un computator de scriptorio, intra un automobile o sur un Raspberry Pi.
+mycroft-secondary-description = Isto es un software open-source que pote ser liberemente re-miscite, extendite e meliorate. Mycroft pote ser usate in toto, ab un projecto scientific a un application software de interprisa.
 
 ## Glossary
 

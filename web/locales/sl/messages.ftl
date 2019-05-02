@@ -8,6 +8,7 @@ email-input =
     .label = E-pošta
 submit-form-action = Pošlji
 loading = Nalaganje …
+email-opt-in-info = Želim prejemati e-poštna sporočila, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
 email-opt-in-privacy = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti<privacyLink>.
 indicates-required = * Zahtevano polje
 not-available-abbreviation = Ni na voljo
@@ -384,8 +385,10 @@ faq-search-for-answers =
 
 about-title = Zakaj Common Voice?
 how-does-it-work-title = Kako deluje
+about-is-it-valid = Ali je posnetek veljaven?
 about-yes-votes-text = Glasovni posnetek mora biti potrjen s strani dveh različnih uporabnikov, preden je uvrščen v nabor podatkov Common Voice.
 about-dataset = Nabor podatkov Common Voice
+about-clip-graveyard = Pokopališče posnetkov
 about-partners = Partnerji
 about-become-a-partner = Postanite partner
 about-get-involved = Pridružite se
@@ -395,6 +398,9 @@ about-nav-partners = Partnerji
 about-nav-get-involved = Pridružite se
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Umetna inteligenca
+mycroft-description =
+    Mycroft je prvi odprtokodni asistent.
+    Mycroft deluje kjerkoli – na namiznem računalniku, v avtomobilu ali na Raspberry Pi.
 
 ## Glossary
 
