@@ -18,3 +18,6 @@ nubis/Puppetfile.lock
 nubis/.tmp
 nubis/.librarian
 nubis/builder/artifacts/*
+
+# WebStorm
+.idea/

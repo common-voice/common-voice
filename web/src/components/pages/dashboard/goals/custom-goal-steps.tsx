@@ -257,20 +257,21 @@ export default [
 
   ({ nextButtonProps, state }) => {
     const [showShareModal, setShowShareModal] = useState(false);
+    const goalType = state.daysInterval == 7 ? 'Weekly' : 'Daily';
     return (
       <div className="padded">
         {showShareModal && (
           <ShareModal
             title={<>Help us find more voices, share your goal</>}
-            text={`Share your ${state.amount} Clip ${
-              state.daysInterval == 7 ? 'Weekly' : 'Daily'
-            } Goal for ${
-              ({
-                speak: 'Speaking',
-                listen: 'Listening',
-                both: 'Speaking and Listening',
-              } as any)[state.type]
-            }`}
+            text={`Share your ${state.amount} Clip ${goalType} Goal for 
+              ${
+                ({
+                  speak: 'Speaking',
+                  listen: 'Listening',
+                  both: 'Speaking and Listening',
+                } as any)[state.type]
+              }`
+            }
             shareText="I just created a personal goal for voice donation to #CommonVoice -- join me and help teach machines how real people speak {link}"
             onRequestClose={() => {
               setShowShareModal(false);
@@ -285,7 +286,7 @@ export default [
           <div className="shadow" />
           <CheckIcon />
         </div>
-        <h2>Your weekly goal has been created</h2>
+        <h2>Your {goalType} goal has been created</h2>
         <p>
           Track progress here and on your stats page.
           <br />
