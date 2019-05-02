@@ -46,7 +46,7 @@
     }
 
     @media (--md-up) {
-        padding-top: 30px;
+        padding: 30px 20px 0;
     }
 
     & nav {
