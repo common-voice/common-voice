@@ -378,6 +378,7 @@ faq-what-determine-identity-a =
     
     Osebni identifikacijski podatki so izločeni iz vseh glasovnih posnetkov v naboru podatkov. S prenosom nabora podatkov se strinjate, da ne boste poskušali določiti identitete sodelujočih. To pomeni, da ne smete poskusiti povezati podatkov v naboru podatkov z osebnimi podatki sodelujočih. Lahko pa nabor podatkov uporabite za izboljšanje prepoznavanja govora, prepoznavanja govorcev ali drugih aplikacij, na primer s povezovanjem podatkov v naboru podatkov z drugimi podatki, ki so že v naboru podatkov.
 faq-what-is-cv = Kaj je Common Voice?
+faq-using-cv = Uporaba Common Voicea
 faq-search-for-answers =
     .label = Išči odgovore
 
@@ -386,7 +387,10 @@ faq-search-for-answers =
 about-title = Zakaj Common Voice?
 how-does-it-work-title = Kako deluje
 about-is-it-valid = Ali je posnetek veljaven?
+about-is-it-valid-text = Glasovni posnetek je označen kot "veljaven", ko uporabnik zanj glasuje "Da".
+about-yes-votes = ≥ 2 glasova Da
 about-yes-votes-text = Glasovni posnetek mora biti potrjen s strani dveh različnih uporabnikov, preden je uvrščen v nabor podatkov Common Voice.
+about-no-votes = ≥ 2 glasova Ne
 about-dataset = Nabor podatkov Common Voice
 about-clip-graveyard = Pokopališče posnetkov
 about-partners = Partnerji
