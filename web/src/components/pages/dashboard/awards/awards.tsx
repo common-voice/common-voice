@@ -1,7 +1,10 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from 'common/user-clients';
+import API from '../../../../services/api';
 import StateTree from '../../../../stores/tree';
+import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { MicIcon, PlayOutlineIcon } from '../../../ui/icons';
 import { LinkButton } from '../../../ui/ui';
@@ -65,10 +68,24 @@ const AwardBox = ({ award }: any) => (
 
 interface PropsFromState {
   account: UserClient;
+  api: API;
 }
 
-function AwardsPage({ account }: PropsFromState) {
+interface PropsFromDispatch {
+  refreshUser: typeof User.actions.refresh;
+}
+
+type Props = PropsFromState & PropsFromDispatch;
+
+function AwardsPage({ account, api, refreshUser }: Props) {
+  useEffect(() => {
+    api.seenAwards().then(() => {
+      refreshUser();
+    });
+  }, []);
+
   const { awards } = account;
+
   if (awards.length == 0) {
     return <NoAwardsPage />;
   }
@@ -97,6 +114,10 @@ function AwardsPage({ account }: PropsFromState) {
   );
 }
 
-export default connect<PropsFromState>(({ user }: StateTree) => ({
-  account: user.account,
-}))(AwardsPage);
+export default connect<PropsFromState, PropsFromDispatch>(
+  ({ api, user }: StateTree) => ({
+    account: user.account,
+    api,
+  }),
+  { refreshUser: User.actions.refresh }
+)(AwardsPage);

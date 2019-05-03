@@ -250,9 +250,14 @@ export default class API {
     });
   }
 
-  seenAwards(): Promise<void> {
-    return this.fetch(API_PATH + '/user_client/awards/seen', {
-      method: 'POST',
-    });
+  seenAwards(kind: 'award' | 'notification' = 'award'): Promise<void> {
+    return this.fetch(
+      API_PATH +
+        '/user_client/awards/seen' +
+        (kind == 'notification' ? '?notification' : ''),
+      {
+        method: 'POST',
+      }
+    );
   }
 }

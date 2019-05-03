@@ -119,7 +119,7 @@ let LocalizedPage: any = class extends React.Component<
     const award =
       account && account.awards
         ? account.awards.find(
-            a => !a.seen_at && !this.seenAwardIds.includes(a.id)
+            a => !a.notification_seen_at && !this.seenAwardIds.includes(a.id)
           )
         : null;
 
@@ -134,7 +134,7 @@ let LocalizedPage: any = class extends React.Component<
           to: URLS.AWARDS,
         }
       );
-      await api.seenAwards();
+      await api.seenAwards('notification');
     }
   }
 

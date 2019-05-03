@@ -299,8 +299,11 @@ export default class API {
     response.json({});
   };
 
-  seenAwards = async ({ client_id }: Request, response: Response) => {
-    await Awards.seen(client_id);
+  seenAwards = async ({ client_id, query }: Request, response: Response) => {
+    await Awards.seen(
+      client_id,
+      query.hasOwnProperty('notification') ? 'notification' : 'award'
+    );
     response.json({});
   };
 }

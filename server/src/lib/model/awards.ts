@@ -46,16 +46,24 @@ export default {
       [client_id]
     );
     return rows.map((row: any) =>
-      pick(row, 'seen_at', 'type', 'days_interval', 'amount')
+      pick(
+        row,
+        'notification_seen_at',
+        'seen_at',
+        'type',
+        'days_interval',
+        'amount'
+      )
     );
   },
 
-  async seen(client_id: string) {
+  async seen(client_id: string, kind: 'notification' | 'award') {
+    const column = kind == 'notification' ? 'notification_seen_at' : 'seen_at';
     await db.query(
       `
         UPDATE awards
-        SET seen_at = now()
-        WHERE seen_at IS NULL AND client_id = ?
+        SET ${column} = now()
+        WHERE ${column} IS NULL AND client_id = ?
       `,
       [client_id]
     );

@@ -31,16 +31,11 @@ interface PropsFromState {
   api: API;
 }
 
-interface Props
-  extends LocalePropsFromState,
-    PropsFromState,
-    RouteComponentProps {
-  children?: React.ReactNode;
-}
+type Props = LocalePropsFromState & PropsFromState & RouteComponentProps;
 
 const TITLE_BAR_LOCALE_COUNT = 3;
 
-const TopBar = ({ account, api, children, history, toLocaleRoute }: Props) => {
+const TopBar = ({ account, api, history, toLocaleRoute }: Props) => {
   const [allGoals, setAllGoals] = useState(null);
   const [locale, setLocale] = useState(ALL_LOCALES);
   const [showTitleBarLocales, setShowTitleBarLocales] = useState(true);
@@ -66,6 +61,8 @@ const TopBar = ({ account, api, children, history, toLocaleRoute }: Props) => {
       window.removeEventListener('resize', checkSize);
     };
   }, []);
+
+  const unseenAwards = account.awards.filter(a => !a.seen_at).length;
 
   const locales = [ALL_LOCALES].concat(
     (account ? account.locales : []).map(({ locale }) => locale)
@@ -93,7 +90,14 @@ const TopBar = ({ account, api, children, history, toLocaleRoute }: Props) => {
             )}
             <CustomGoalLock currentLocale={locale}>
               <LocaleNavLink to={URLS.AWARDS}>
-                <h2>Awards</h2>
+                <h2>
+                  Awards{' '}
+                  {unseenAwards > 0 && (
+                    <span className="badge">
+                      {unseenAwards > 9 ? '9+' : unseenAwards}
+                    </span>
+                  )}
+                </h2>
               </LocaleNavLink>
             </CustomGoalLock>
           </nav>
