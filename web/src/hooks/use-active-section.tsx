@@ -37,7 +37,6 @@ export default function useActiveSection(sections: any): string {
     const sectionsElements: HTMLElement[] = sections
       .map((s: string) => document.getElementById(s))
       .filter((e: HTMLElement) => !!e);
-
     const observer = new IntersectionObserver(intersectionObserverCallback, {
       threshold: [
         0,
@@ -63,6 +62,7 @@ export default function useActiveSection(sections: any): string {
         0.99,
         1,
       ],
+      rootMargin: '-20%'
     });
 
     sectionsElements.map((e: HTMLElement) => observer.observe(e));
