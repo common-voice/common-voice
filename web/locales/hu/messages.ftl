@@ -390,6 +390,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miért a Common Voice?
+about-subtitle = A Common Voice a Mozilla azon kezdeményezésének része, hogy megtanítsuk a gépeket arra, hogyan beszélnek az emberek. A Common Voice adatkészlet mellett egy nyílt forráskódú szövegfelismerési motort is fejlesztünk, melyet Deep Searchnek hívnak.
 how-does-it-work-title = Hogyan működik
 about-speak = Beszéljen
 about-listen-queue = Figyelési sor
