@@ -385,6 +385,7 @@ about-header-description = Entrambi i progetti rientrano nella nostra missione d
 how-does-it-work-title = Come funziona
 how-does-it-work-text = Stiamo realizzando un dataset vocale open source attraverso il crowdsourcing. Dona la tua voce, convalida le registrazioni inviate da altre persone, rendi il dataset migliore per tutti.
 about-speak = Parla
+about-speak-text = I collaboratori leggono e registrano un breve testo tratto da una banca dati di frasi donate.
 about-listen-queue = Coda di ascolto
 about-listen-queue-text = Le registrazioni vengono caricate e inserite in una coda di clip pronti per l’ascolto.
 about-listen = Ascolta
