@@ -132,6 +132,7 @@ speak = Hablar
 speak-now = Habla ahora
 datasets = Archivos de datos
 languages = Idiomas
+about = Sobre Common Voice
 profile = Perfil
 help = Ayuda
 contact = Contacto
@@ -376,6 +377,26 @@ faq-what-determine-identity-a =
     La base de datos de Common Voice es un recurso abierto y accesible para todo el público que se puede usar para formar y crear una amplia variedad de aplicaciones habilitadas para la voz. Para proteger la seguridad de nuestros colaboradores, pedimos a todos los que descarguen la base de datos de Common Voice que respeten la privacidad de los colaboradores.
     
     A todos los fragmentos de voz de la base de datos se les filtra la información de identificación personal. Cuando descargas la base de datos, estás aceptando que no intentarás determinar la identidad de ningún colaborador. Eso significa que no puedes intentar vincular la información de la base de datos con la información personal de un colaborador. Sin embargo, puedes usar la base de datos para entrenar el reconocimiento de voz, el reconocimiento del hablante u otras aplicaciones; por ejemplo, vinculando la información de la base de datos con otra información que ya se encuentra en ella.
+faq-what-is-cv = ¿Qué es Common Voice?
+faq-using-cv = Cómo usar Common Voice
+faq-description = Common Voice forma parte de la iniciativa de Mozilla para enseñar a las máquinas cómo hablan en realidad los seres humanos.
+faq-search-for-answers =
+    .label = Busca respuestas a tus preguntas
+
+## ABOUT US
+
+about-title = ¿Por qué utilizar Common Voice?
+about-subtitle = Common Voice forma parte de la iniciativa de Mozilla para enseñar a las máquinas cómo hablan en realidad los seres humanos. Además de la base de datos, también estamos creando un motor de reconocimiento de voz de código abierto, denominado Deep Speech.
+how-does-it-work-title = Cómo funciona
+about-speak = Hablar
+about-speak-text = Los colaboradores graban su voz mientras leen frases donadas por los usuarios.
+about-listen-queue = Cola de escucha
+about-listen-queue-text = Las grabaciones de voz se envían a una cola que las prepara para poder escucharlas.
+about-listen = Escuchar
+about-listen-text = Los usuarios validan la calidad de las grabaciones, comprobando que el colaborador leyó la frase correctamente.
+about-is-it-valid = ¿La grabación es válida?
+about-is-it-valid-text = Cuando un usuario aprueba una grabación, aparecerá como "válida".
+about-yes-votes = Más de dos votos positivos (Sí)
 
 ## Glossary
 
