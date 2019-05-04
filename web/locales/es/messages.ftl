@@ -83,6 +83,7 @@ lv = Letón
 mdf = moksha
 mhr = Mari oriental
 mk = Macedonio
+ml = Malabar
 mn = mongol
 mrj = Mari occidental
 myv = Erzya
@@ -387,7 +388,9 @@ faq-search-for-answers =
 
 about-title = ¿Por qué utilizar Common Voice?
 about-subtitle = Common Voice forma parte de la iniciativa de Mozilla para enseñar a las máquinas cómo hablan en realidad los seres humanos. Además de la base de datos, también estamos creando un motor de reconocimiento de voz de código abierto, denominado Deep Speech.
+about-header-description = Ambos proyectos son el resultado de nuestros esfuerzos para luchar contra la brecha del discurso digital. Las tecnologías de reconocimiento de voz brindan una dimensión humana a nuestros dispositivos, pero los desarrolladores necesitan una enorme cantidad de datos de voz para poder crearlas. Actualmente, la mayoría de esos datos son caros y de propiedad pribada. Queremos que los datos de voz estén disponibles de forma libre y pública, y asegurarnos de que los datos representan la diversidad de personas reales. Juntos podemos hacer que el reconocimiento de voz sea mejor para todos.
 how-does-it-work-title = Cómo funciona
+how-does-it-work-text = Nuestro objetivo es crear una base de datos de voces de código abierto. Dona tu voz, valida la precisión de las grabaciones de otros usuarios y ayuda a mejorar la base de datos.
 about-speak = Hablar
 about-speak-text = Los colaboradores graban su voz mientras leen frases donadas por los usuarios.
 about-listen-queue = Cola de escucha
@@ -397,6 +400,22 @@ about-listen-text = Los usuarios validan la calidad de las grabaciones, comproba
 about-is-it-valid = ¿La grabación es válida?
 about-is-it-valid-text = Cuando un usuario aprueba una grabación, aparecerá como "válida".
 about-yes-votes = Más de dos votos positivos (Sí)
+about-yes-votes-text = Dos usuarios independientes tienen que aprobar una grabación de voz para que se almacene en la base de datos de Common Voice.
+about-no-votes = Más de dos votos negativos (No)
+about-dataset = Base de datos de Common Voice
+about-partners = Socios
+about-become-a-partner = Convertirse en socio
+about-partnership = Common Voice es un proyecto de colaboración y dependemos de nuestros socios y colaboradores para poder crear la mayor base de datos de voces jamás conocida. Nos gustaría darles las gracias por su ayuda a las siguientes personas y organizaciones:
+about-get-involved = Colaborar
+about-get-involved-text = ¿Quieres ayudar a mejorar Common Voice? ¡Genial! Contáctanos por correo o a través de <discourseLink>Discourse</discourseLink>, envía tus comentarios a través de <githubLink>GitHub</githubLink>, o únete a <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = ¿Por qué?
+about-nav-how-it-works = ¿Cómo?
+about-nav-partners = Patrocinadores
+about-nav-get-involved = Colaborar
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Inteligencia artificial
+mycroft-description = Mycroft es el mayor asistente de código abierto. Puedes ejecutarlo donde quieras: en un equipo de escritorio, en un automóvil o en una Raspberry Pi.
+mycroft-secondary-description = Este software de código abierto se puede mejorar, apliar y mezclar. Se puede usar tanto en un proyecto de ciencias como en una aplicación de software de una gran corporación.
 
 ## Glossary
 
