@@ -4,6 +4,8 @@ import { Button } from '../../ui/ui';
 import { ArrowLeft } from '../../ui/icons';
 import { Localized } from 'fluent-react/compat';
 
+import './partners.css';
+
 const Partners: React.ComponentType = () => {
   return (
     <>

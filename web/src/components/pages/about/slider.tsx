@@ -1,8 +1,9 @@
 import * as React from 'react';
 import * as cx from 'classnames';
-import { useReducer } from 'react';
 import { ChevronRight } from '../../ui/icons';
 import { Localized } from 'fluent-react/compat';
+
+import './slider.css';
 
 type Slide = {
   title: string;
@@ -12,58 +13,19 @@ type Slide = {
   logo: any;
 };
 
-interface SliderState {
-  slides: Slide[];
-  activeSlide: number;
-  nextSlide: number | null;
-  prevSlide: number | null;
-}
-
-const initialState: SliderState = {
-  slides: [
-    {
-      title: 'mycroft-title',
-      subtitle: 'mycroft-subtitle',
-      description: 'mycroft-description',
-      secondaryDescription: 'mycroft-secondary-description',
-      logo: require('./images/partner-logo/mycroftAI.jpg'),
-    },
-  ],
-  activeSlide: 0,
-  nextSlide: null, // 1
-  prevSlide: null,
-};
-
-type Reducer = (state: SliderState, action: any) => any;
-
-const reducer: Reducer = (state: SliderState, action: any) => {
-  switch (action.type) {
-    case 'next':
-    case 'prev':
-      const activeSlide =
-        action.type === 'next' ? state.nextSlide : state.prevSlide;
-
-      if (activeSlide === null) {
-        return state;
-      }
-
-      return {
-        ...state,
-        activeSlide,
-        nextSlide:
-          activeSlide + 1 < state.slides.length ? activeSlide + 1 : null,
-        prevSlide: activeSlide >= 1 ? activeSlide - 1 : null,
-      };
-
-    default:
-      throw new Error();
-  }
-};
+const Slides: Slide[] = [
+  {
+    title: 'mycroft-title',
+    subtitle: 'mycroft-subtitle',
+    description: 'mycroft-description',
+    secondaryDescription: 'mycroft-secondary-description',
+    logo: require('./images/partner-logo/mycroftAI.jpg'),
+  },
+];
 
 const Slider: React.ComponentType = () => {
-  const [{ slides, activeSlide, nextSlide, prevSlide }, dispatch] = useReducer<
-    Reducer
-  >(reducer, initialState);
+  const [activeSlide, setActiveSlide] = React.useState<number>(0);
+  const lastSlideIndex = Slides.length - 1;
 
   return (
     <div className="partner-slider">
@@ -75,7 +37,7 @@ const Slider: React.ComponentType = () => {
         />
         <div className="partner-logo-container">
           <div className="partner-logo">
-            <img src={slides[activeSlide].logo} alt="" />
+            <img src={Slides[activeSlide].logo} alt="" />
           </div>
         </div>
 
@@ -84,18 +46,28 @@ const Slider: React.ComponentType = () => {
             <div className="count">
               <span>{`${activeSlide + 1}`.padStart(2, '0')}</span>
               {` / `}
-              {`${slides.length}`.padStart(2, '0')}
+              {`${Slides.length}`.padStart(2, '0')}
             </div>
             <div className="line" />
             <div className="arrows">
               <div
-                className={cx('slider-arrow', { disabled: prevSlide === null })}
-                onClick={() => dispatch({ type: 'prev' })}>
+                className={cx('slider-arrow', { disabled: activeSlide === 0 })}
+                onClick={() => {
+                  if (activeSlide !== 0) {
+                    setActiveSlide(activeSlide - 1);
+                  }
+                }}>
                 <ChevronRight />
               </div>
               <div
-                className={cx('slider-arrow', { disabled: nextSlide === null })}
-                onClick={() => dispatch({ type: 'next' })}>
+                className={cx('slider-arrow', {
+                  disabled: activeSlide === lastSlideIndex,
+                })}
+                onClick={() => {
+                  if (activeSlide !== lastSlideIndex) {
+                    setActiveSlide(activeSlide + 1);
+                  }
+                }}>
                 <ChevronRight />
               </div>
             </div>
@@ -104,7 +76,7 @@ const Slider: React.ComponentType = () => {
           <div
             className="slides-viewport"
             style={{ left: `-${activeSlide * 100}%` }}>
-            {slides.map((slide: Slide, index: number) => (
+            {Slides.map((slide: Slide, index: number) => (
               <div key={`slider-${index}`} className="slider-data">
                 <div className="partner-name">
                   <Localized id={slide.subtitle}>
@@ -114,7 +86,7 @@ const Slider: React.ComponentType = () => {
                     <h1 />
                   </Localized>
                 </div>
-                <div className="partner-description">
+                <div className="partner-text">
                   <Localized id={slide.description}>
                     <p className="large" />
                   </Localized>

@@ -126,7 +126,7 @@ speak = Speak
 speak-now = Speak now
 datasets = Datasets
 languages = Languages
-about = About Us
+about = About
 profile = Profile
 help = Help
 contact = Contact
@@ -334,7 +334,7 @@ faq-title = Frequently Asked Questions
 
 faq-what-cv-q = What is Common Voice?
 faq-what-cv-a =
-    Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone.  Common Voice is a  massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+    Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
 
     We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
 

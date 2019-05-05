@@ -319,16 +319,16 @@ export const DiscourseIconCode = () => (
   <svg width="26" height="22" viewBox="0 0 26 22">
     <defs>
       <path
-        id="a"
+        id="discoursea"
         d="M3.074 17.094H.887A.887.887 0 0 1 0 16.207V2.99c0-.49.397-.887.887-.887h17.42c.49 0 .886.397.886.887v13.216c0 .49-.397.887-.886.887H8.373L4.517 20.2a.887.887 0 0 1-1.443-.69v-2.417zM17.42 3.878H1.774V15.32H3.96c.49 0 .887.397.887.887v1.45l2.655-2.14a.887.887 0 0 1 .557-.197h9.36V3.878zM4.37 8.598a.887.887 0 1 1 0-1.774h10.453a.887.887 0 1 1 0 1.774H4.37zm0 3.54a.887.887 0 0 1 0-1.774h6.969a.887.887 0 1 1 0 1.774H4.37zm17.335-4.72a.887.887 0 1 1 0-1.774h2.408c.49 0 .887.397.887.887v13.216c0 .49-.397.886-.887.886h-2.329v2.417a.887.887 0 0 1-1.428.703l-4.049-3.12h-6.13a.887.887 0 0 1 0-1.773h6.432c.196 0 .386.065.542.184l2.86 2.204v-1.501c0-.49.396-.887.886-.887h2.33V7.418h-1.522z"
       />
     </defs>
     <g fill="none" fillRule="evenodd" transform="translate(0 -2)">
-      <mask id="b" fill="#fff">
-        <use xlinkHref="#a" />
+      <mask id="discourseb" fill="#fff">
+        <use xlinkHref="#discoursea" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#a" />
-      <g fill="#4A4A4A" mask="url(#b)">
+      <use fill="#000" fillRule="nonzero" xlinkHref="#discoursea" />
+      <g fill="#4A4A4A" mask="url(#discourseb)">
         <path d="M0 0h25v25H0z" />
       </g>
     </g>
@@ -582,16 +582,16 @@ export const SearchIconCode = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
     <defs>
       <path
-        id="a"
+        id="searcha"
         d="M19.7 18.3l-4.5-4.5c1.1-1.4 1.8-3.3 1.8-5.3C17 3.8 13.2 0 8.5 0S0 3.8 0 8.5 3.8 17 8.5 17c2 0 3.8-.7 5.3-1.8l4.5 4.5c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4zM2 8.5C2 4.9 4.9 2 8.5 2S15 4.9 15 8.5c0 1.8-.7 3.4-1.9 4.6A6.42 6.42 0 0 1 8.5 15C4.9 15 2 12.1 2 8.5z"
       />
     </defs>
     <g fill="none" fillRule="evenodd" transform="translate(2 2)">
-      <mask id="b" fill="#fff">
-        <use xlinkHref="#a" />
+      <mask id="searchb" fill="#fff">
+        <use xlinkHref="#searcha" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#a" />
-      <g fill="#4A4A4A" mask="url(#b)">
+      <use fill="#000" fillRule="nonzero" xlinkHref="#searcha" />
+      <g fill="#4A4A4A" mask="url(#searchb)">
         <path d="M-2-2h24v24H-2z" />
       </g>
     </g>

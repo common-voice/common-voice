@@ -2,6 +2,11 @@ import * as React from 'react';
 import * as cx from 'classnames';
 import { Localized } from 'fluent-react/compat';
 
+import './how-it-works.css';
+
+const CHART_NODE_REQUIRED_COUNT = 4;
+const CHART_NODE_BLOCK_WITHOUT_OPTIONS_COUNT = 2;
+
 const FLOWCHART: any[] = [
   [['01', 'microphone.png', 'about-speak']],
   [
@@ -144,13 +149,13 @@ const FLOWCHART: any[] = [
   ],
 ];
 
-interface FlowchartProps {
-  flowchart: any[];
+interface ChartNodeProps {
+  chartNode: any[];
 }
 
-const Flowchart: React.ComponentType<FlowchartProps> = React.memo(
-  ({ flowchart }: FlowchartProps) => {
-    const [id, icon, key, { className, children, ...props }] = flowchart;
+const ChartNode: React.ComponentType<ChartNodeProps> = React.memo(
+  ({ chartNode }: ChartNodeProps) => {
+    const [id, icon, key, { className, children, ...props }] = chartNode;
 
     return (
       <div className={cx('flowchart-block', className)} {...props}>
@@ -208,36 +213,38 @@ const HowItWorks: React.ComponentType = React.memo(() => {
           </Localized>
 
           {FLOWCHART.map(f => {
-            const flowchart = f
-              .map((flowchart: any[]) =>
-                flowchart.length === 4 || !Array.isArray(flowchart)
-                  ? flowchart
-                  : flowchart.length < 3
-                  ? null
-                  : [...flowchart, {}]
-              )
-              .filter((e: any[] | null) => e);
+            const chartNodes = f.map((chartNode: any[]) =>
+              chartNode.length === CHART_NODE_REQUIRED_COUNT ||
+              !Array.isArray(chartNode)
+                ? chartNode
+                : [...chartNode, {}]
+            );
 
-            return flowchart.length == 2 ? [...flowchart, {}] : flowchart;
-          }).map((flowchart: any[], index: number) => {
-            if (flowchart.length === 1) {
+            return chartNodes.length == CHART_NODE_BLOCK_WITHOUT_OPTIONS_COUNT
+              ? [...chartNodes, {}]
+              : chartNodes;
+          }).map((chartNodes: any[], index: number) => {
+            if (chartNodes.length === 1) {
               return (
-                <Flowchart
-                  key={`flowchart-${index}`}
-                  flowchart={flowchart[0]}
+                <ChartNode
+                  key={`chart-node-${index}`}
+                  chartNode={chartNodes[0]}
                 />
               );
             }
 
-            const { className, ...props } = flowchart.pop();
+            const { className, ...props } = chartNodes.pop();
 
             return (
               <div
-                key={`flowchart-${index}`}
+                key={`chart-node-block-${index}`}
                 className={cx('fork-group', className)}
                 {...props}>
-                {flowchart.map((flowchart: any[], index: number) => (
-                  <Flowchart key={`flowchart-${index}`} flowchart={flowchart} />
+                {chartNodes.map((chartNode: any[], index: number) => (
+                  <ChartNode
+                    key={`chart-node-${index}`}
+                    chartNode={chartNode}
+                  />
                 ))}
               </div>
             );

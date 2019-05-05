@@ -4,6 +4,8 @@ import { SECTIONS } from './constants';
 import { Localized } from 'fluent-react/compat';
 import { FlagIcon, LayersIcon, UsersIcon, HeartIcon } from '../../ui/icons';
 
+import './nav.css';
+
 interface Props {
   activeSection: string;
   navType: string;
@@ -57,13 +59,15 @@ const Nav: React.ComponentType<Props> = React.memo((props: Props) => {
             <img src={require(`./images/nav/${activeBg}`)} className="active" />
 
             {props.navType === 'mobile' && (
-              <img
-                src={require('./images/nav/nav-mobile.png')}
-                className="mobile-rounded"
-              />
-            )}
+              <>
+                <img
+                  src={require('./images/nav/nav-mobile.png')}
+                  className="mobile-rounded"
+                />
 
-            {props.navType === 'mobile' && <MobileIcon />}
+                <MobileIcon />
+              </>
+            )}
 
             <Localized id={`about-nav-${key}`}>
               <div className="text" />
