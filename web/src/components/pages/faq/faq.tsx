@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import * as cx from 'classnames';
 import { LocalizedGetAttribute } from '../../locale-helpers';
 import { SearchIconCode, ChevronDown } from '../../ui/icons';
@@ -21,6 +21,11 @@ type SectionProps = {
 
 const Section: React.ComponentType<SectionProps> = React.memo(
   ({ section, activeQuestion, setActiveQuestion }: SectionProps) => {
+    useEffect(() => {
+      if (activeQuestion) {
+        document.querySelector('.question-block.active').scrollIntoView({block: 'nearest'});
+      }
+    });
     return (
       <div id={section.key} className="faq-q-and-a">
         {section.content.map(([[qId, aId], props]) => {
