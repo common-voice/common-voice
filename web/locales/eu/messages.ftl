@@ -10,6 +10,7 @@ submit-form-action = Bidali
 loading = Kargatzen…
 email-opt-in-privacy = E-postak jaso nahi dituzula adieraziz, Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -81,6 +82,7 @@ lv = Letoniera
 mdf = Moksha
 mhr = Larreetako mariera
 mk = Mazedoniera
+ml = Malabarera
 mn = Mongoliera
 mrj = Mendietako mariera
 myv = Erziera
@@ -298,7 +300,7 @@ profile-explanation = Egin zure aurrerapenen jarraipena profil batekin eta lagun
 thanks-for-account = Eskerrik asko zure kontua baieztatzeagatik, orain osatu zure profila.
 why-demographic = Zergatik da garrantzitsua hau?
 why-demographic-explanation = Adina, sexua eta azentua bezalako anonimizatutako datuek, hizketaren ezagutza motorren zehaztasuna hobetzen laguntzen dute hauek entrenatzeko audioen ezaugarriak osatzen dituztelako. Zure erabiltzaile-izena eta e-posta ez dira inoiz lotzen zuk bidalitako datuekin eta zure erabiltzaile-izena publikoa ala anonimoa izatea aukera dezakezu.
-accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan<privacyLink> azaltzen den bezala kudeatzea
+accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan</privacyLink> azaltzen den bezala kudeatzea.
 login-identity = Saioa hasteko identitatea
 login-signup = Hasi saioa / Eman izena
 edit = Editatu
@@ -371,6 +373,8 @@ faq-what-determine-identity-a =
     Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Datu-sorta deskargatzen duzunean, laguntzaile bat bera ere nor den ondorioztatzen saiatuko ez zarela onartzen duzu. Horrek esan nahi du ezin duzula datu-sortako datu bat ere laguntzaile baten datu pertsonalekin lotu. Hala ere, lotu dezakezu datu-sortako informazio bat datu-sorta barruko beste datu batekin, adibidez hizketaren ezagutza, hizlariaren detekzioa edo bestelako aplikazioak burutzeko.
 faq-what-is-cv = Zer da Common Voice?
 faq-using-cv = Common Voice erabiltzen
+faq-search-for-answers =
+    .label = Erantzunak bilatu
 
 ## ABOUT US
 
@@ -384,6 +388,8 @@ about-is-it-valid-text = Ahots grabaketa bat "baliozkoa" bezala markatzen da era
 about-yes-votes = ≥ 2 Bai bozka
 about-no-votes = ≥ 2 Ez bozka
 about-dataset = Common Voice datu-sorta
+about-clip-graveyard = Grabaketen hilerria
+about-clip-graveyard-text = Grabaketen hilerria Common Voice datu-sortan sartu ez diren ahots grabaketez osatuta dago. Datu-sorta bezala, Grabaketen hilerria ere deskargagarri dago.
 about-partners = Babesleak
 about-become-a-partner = Babesle bihurtu
 about-get-involved = Parte hartu
@@ -480,6 +486,7 @@ get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
 deepspeech-info = Common Voice datu-sortak, Mozillaren Deep Speech ahotsaren ezagutzarako motor librea osatzen du, hizketaren ezagutzadun aplikazioak garatzeko erabil dezakezuna. Irakurri gure <githubLink>GitHub laburpena</githubLink> edo batu zaitez <discourseLink>DeepSpeecheko Discourse forora</discourseLink> nondik hasi ikasteko.
+common-voice-info-new = Common Voice-ri buruzko galderak dituzu? Hobekuntzak egiteko ideiak edo hizkuntza zehatz bati buruzko informazioa? Batu zaitez <discourseLink>Discourseko forora</discourseLink> eta esaguzu.
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
@@ -521,6 +528,7 @@ request-language-form-language =
 request-language-success-title = Hizkuntza-eskaera ondo bidali da, eskerrik asko.
 request-language-success-content = Laster jarriko gara zurekin harremanetan Common Voice proiektuan zure hizkuntza nola gehitu azaltzen duen informazioarekin.
 select-language = Hautatu hizkuntza bat...
+other-language = Bestelako hizkuntza
 
 ## Languages Overview
 
