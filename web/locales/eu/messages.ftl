@@ -130,6 +130,7 @@ speak = Hitz egin
 speak-now = Hitz egin orain
 datasets = Datu-sortak
 languages = Hizkuntzak
+about = Guri buruz
 profile = Profila
 help = Laguntza
 contact = Kontaktua
@@ -368,6 +369,30 @@ faq-what-determine-identity-a =
     Common Voice datu-sorta baliabide irekia eta publikoki atzigarria da, hizketa baliatzen duten hainbat aplikazio trebatzeko erabil daitekeena. Gure laguntzaile guztien segurtasuna babesteko, Common Voice datu-sorta deskargatzen duen orori, gure laguntzaileen pribatutasuna errespetatzeko eskatzen diogu.
     
     Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Datu-sorta deskargatzen duzunean, laguntzaile bat bera ere nor den ondorioztatzen saiatuko ez zarela onartzen duzu. Horrek esan nahi du ezin duzula datu-sortako datu bat ere laguntzaile baten datu pertsonalekin lotu. Hala ere, lotu dezakezu datu-sortako informazio bat datu-sorta barruko beste datu batekin, adibidez hizketaren ezagutza, hizlariaren detekzioa edo bestelako aplikazioak burutzeko.
+faq-what-is-cv = Zer da Common Voice?
+faq-using-cv = Common Voice erabiltzen
+
+## ABOUT US
+
+about-title = Zergatik Common Voice?
+how-does-it-work-title = Nola dabilen
+about-speak = Hitz egin
+about-listen-queue = Entzuketa ilara
+about-listen = Entzun
+about-is-it-valid = Grabaketa baliozkoa da?
+about-is-it-valid-text = Ahots grabaketa bat "baliozkoa" bezala markatzen da erabiltzaile batek Bai bozkatzen duenean.
+about-yes-votes = ≥ 2 Bai bozka
+about-no-votes = ≥ 2 Ez bozka
+about-dataset = Common Voice datu-sorta
+about-partners = Babesleak
+about-become-a-partner = Babesle bihurtu
+about-get-involved = Parte hartu
+about-nav-why-common-voice = Zergatik?
+about-nav-how-it-works = Nola?
+about-nav-partners = Babesleak
+about-nav-get-involved = Parte hartu
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Adimen artifiziala
 
 ## Glossary
 
