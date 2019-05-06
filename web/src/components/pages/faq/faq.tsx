@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import * as cx from 'classnames';
 import { LocalizedGetAttribute } from '../../locale-helpers';
 import { SearchIconCode, ChevronDown } from '../../ui/icons';
@@ -20,56 +20,66 @@ type SectionProps = {
 };
 
 const Section: React.ComponentType<SectionProps> = React.memo(
-  ({ section, activeQuestion, setActiveQuestion }: SectionProps) => (
-    <div id={section.key} className="faq-q-and-a">
-      {section.content.map(([question, answers, props]) => {
-        return (
-          <React.Fragment key={question}>
-            <div
-              id={question}
-              className={cx('question-block', section.key, {
-                active: question == activeQuestion,
-              })}>
+  ({ section, activeQuestion, setActiveQuestion }: SectionProps) => {
+    useEffect(() => {
+      if (activeQuestion) {
+        document
+          .querySelector('.question-block.active')
+          .scrollIntoView({ block: 'nearest' });
+      }
+    });
+
+    return (
+      <div id={section.key} className="faq-q-and-a">
+        {section.content.map(([question, answers, props]) => {
+          return (
+            <React.Fragment key={question}>
               <div
-                className="faq-q"
-                onClick={() => {
-                  setActiveQuestion(
-                    question === activeQuestion ? null : question
-                  );
-                }}>
-                <div className="faq-icon">
-                  <ChevronDown />
-                </div>
-                <Localized id={question}>
-                  <h3 />
-                </Localized>
-              </div>
-
-              <div className="faq-a">
-                {answers.length > 1 && (
-                  <p>
-                    {answers.map((answer: string) => (
-                      <Localized key={answer} id={answer}>
-                        <li />
-                      </Localized>
-                    ))}
-                  </p>
-                )}
-
-                {answers.length === 1 && (
-                  <Localized id={answers[0]} {...props}>
-                    <p />
+                id={question}
+                className={cx('question-block', section.key, {
+                  active: question == activeQuestion,
+                })}>
+                <div
+                  className="faq-q"
+                  onClick={() => {
+                    setActiveQuestion(
+                      question === activeQuestion ? null : question
+                    );
+                  }}>
+                  <div className="faq-icon">
+                    <ChevronDown />
+                  </div>
+                  <Localized id={question}>
+                    <h3 />
                   </Localized>
-                )}
+                </div>
 
-                <div className="line" />
+                <div className="faq-a">
+                  {answers.length > 1 && (
+                    <p>
+                      {answers.map((answer: string) => (
+                        <Localized key={answer} id={answer}>
+                          <li />
+                        </Localized>
+                      ))}
+                    </p>
+                  )}
+
+                  {answers.length === 1 && (
+                    <Localized id={answers[0]} {...props}>
+                      <p />
+                    </Localized>
+                  )}
+
+                  <div className="line" />
+                </div>
               </div>
-            </div>
-          </React.Fragment>
-        );
-      })}
-    </div>
-  )
+            </React.Fragment>
+          );
+        })}
+      </div>
+    );
+  }
 );
 
 export default withLocalization(({ getString }: LocalizationProps) => {
