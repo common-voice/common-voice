@@ -94,7 +94,7 @@ export default withLocalization(({ getString }: LocalizationProps) => {
         />
         <div className="faq-header">
           <div className="text">
-            <div className="line" />
+            <div className="header-line" />
             <Localized id="faq-title">
               <h1 />
             </Localized>
@@ -164,7 +164,7 @@ export default withLocalization(({ getString }: LocalizationProps) => {
               </ul>
             </nav>
 
-            <section>
+            <section className="faq-section">
               {sections.map(section => (
                 <Section
                   section={section}

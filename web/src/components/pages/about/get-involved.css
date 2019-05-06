@@ -9,6 +9,7 @@
         align-items: flex-start;
         box-sizing: border-box;
         padding-top: 2rem;
+        padding-right: 1rem;
 
         @media (--lg-up) {
             padding-top: 6rem;
@@ -52,6 +53,7 @@
 
             @media (--sm-down) {
                 padding: 0 25%;
+                margin: 0 auto;
                 img {
                     max-width: 100%;
                 }

@@ -80,8 +80,8 @@ const SECTION_CONTENTS: any = {
     'faq-why-not-ask-read',
     'faq-how-calc-hours',
     [
-      'faq-where-src-from-2-a',
       'faq-where-src-from-2-q',
+      'faq-where-src-from-2-a',
       {
         italic: <i />,
         githubLink: (
