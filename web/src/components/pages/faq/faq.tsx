@@ -20,57 +20,56 @@ type SectionProps = {
 };
 
 const Section: React.ComponentType<SectionProps> = React.memo(
-  ({ section, activeQuestion, setActiveQuestion }: SectionProps) => {
-    return (
-      <div id={section.key} className="faq-q-and-a">
-        {section.content.map(([[qId, aId], props]) => {
-          return (
-            <React.Fragment key={qId}>
+  ({ section, activeQuestion, setActiveQuestion }: SectionProps) => (
+    <div id={section.key} className="faq-q-and-a">
+      {section.content.map(([question, answers, props]) => {
+        return (
+          <React.Fragment key={question}>
+            <div
+              id={question}
+              className={cx('question-block', section.key, {
+                active: question == activeQuestion,
+              })}>
               <div
-                className={cx('question-block', section.key, {
-                  active: qId == activeQuestion,
-                })}>
-                <div
-                  className="faq-q"
-                  onClick={(e: React.SyntheticEvent<HTMLElement>) => {
-                    e.preventDefault();
-
-                    setActiveQuestion(qId === activeQuestion ? null : qId);
-                  }}>
-                  <div className="faq-icon">
-                    <ChevronDown />
-                  </div>
-                  <Localized id={qId}>
-                    <h3 />
-                  </Localized>
+                className="faq-q"
+                onClick={() => {
+                  setActiveQuestion(
+                    question === activeQuestion ? null : question
+                  );
+                }}>
+                <div className="faq-icon">
+                  <ChevronDown />
                 </div>
-
-                <div className="faq-a">
-                  {aId.length > 1 && (
-                    <p>
-                      {aId.map((l: any) => (
-                        <Localized key={l} id={l}>
-                          <li />
-                        </Localized>
-                      ))}
-                    </p>
-                  )}
-
-                  {aId.length === 1 && (
-                    <Localized id={aId[0]} {...props}>
-                      <p />
-                    </Localized>
-                  )}
-
-                  <div className="line" />
-                </div>
+                <Localized id={question}>
+                  <h3 />
+                </Localized>
               </div>
-            </React.Fragment>
-          );
-        })}
-      </div>
-    );
-  }
+
+              <div className="faq-a">
+                {answers.length > 1 && (
+                  <p>
+                    {answers.map((answer: string) => (
+                      <Localized key={answer} id={answer}>
+                        <li />
+                      </Localized>
+                    ))}
+                  </p>
+                )}
+
+                {answers.length === 1 && (
+                  <Localized id={answers[0]} {...props}>
+                    <p />
+                  </Localized>
+                )}
+
+                <div className="line" />
+              </div>
+            </div>
+          </React.Fragment>
+        );
+      })}
+    </div>
+  )
 );
 
 export default withLocalization(({ getString }: LocalizationProps) => {
@@ -141,12 +140,9 @@ export default withLocalization(({ getString }: LocalizationProps) => {
               )}
             </LocalizedGetAttribute>
 
-            <button
-              type="submit"
-              disabled={false}
-              className="search-button"
-              children={<SearchIconCode className="icon" />}
-            />
+            <button type="submit" className="search-button">
+              <SearchIconCode className="icon" />
+            </button>
           </form>
 
           <div className="faq-section-container">
@@ -183,17 +179,6 @@ export default withLocalization(({ getString }: LocalizationProps) => {
               )}
             </section>
           </div>
-
-          <a
-            href="https://voice.allizom.org"
-            style={{ color: 'rgba(0, 0, 0, 0.05)' }}>
-            Go to staging
-          </a>
-          <a
-            href="https://localhost:9000"
-            style={{ color: 'rgba(0, 0, 0, 0.05)' }}>
-            Go to localhost
-          </a>
         </div>
       </section>
     </section>

@@ -170,14 +170,14 @@
                     top: 0;
                     margin-bottom: 30px;
                     padding-bottom: 10px;
-                    z-index: var(--middle-z-index);
+                    z-index: var(--override-z-index);
                     overflow: auto;
                     max-width: inherit;
+                    background-color: rgba(249, 249, 249, 1);
                 }
                 @media (--sm-down) {
                     padding: 0 1.25rem;
                     padding-bottom: 20px;
-                    background-color: rgba(249, 249, 249, 0.8);
                 }
 
                 @media (--lg-up) {
@@ -456,11 +456,19 @@
     .faq-content {
         background-image: linear-gradient(
             to bottom,
-            var(--lighter-grey),
+            var(--lighter-grey) 50%,
             var(--white)
         );
         position: relative;
         z-index: var(--middle-z-index);
+
+        @media (--sm-up) {
+            background-image: linear-gradient(
+                to bottom,
+                var(--lighter-grey),
+                var(--white)
+            );
+        }
 
         & .faq-search {
             display: flex;
@@ -492,12 +500,10 @@
 
             & input {
                 flex: 10;
-                border: none;
                 width: 100%;
                 padding: 30px;
                 font-size: 20px;
                 font-family: var(--strong-font-family);
-                background: hsla(0, 0%, 100%, 0.1);
                 border: solid 1px var(--light-grey);
                 border-radius: 4px;
                 border-top-right-radius: 0;
@@ -520,13 +526,11 @@
                 outline: none;
                 width: 100px;
                 position: relative;
-                transition: all 300ms;
                 background: var(--blue);
                 border-top-right-radius: 4px;
                 border-bottom-right-radius: 4px;
                 flex: 0 0 100px;
-                transition: background-color var(--transition-duration)
-                    var(--easing);
+                transition: all var(--transition-duration) var(--easing);
                 cursor: pointer;
 
                 &:hover {

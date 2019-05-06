@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Localized } from 'fluent-react/compat';
 
+import './why-common-voice.css';
+
 const WhyCommonVoice: React.ComponentType<{}> = () => {
   return (
     <>
@@ -10,9 +12,9 @@ const WhyCommonVoice: React.ComponentType<{}> = () => {
         alt="Wave"
       />
 
-      <div className="about-container heading">
+      <div className="about-container about-heading">
         <div className="about-header">
-          <div className="text">
+          <div className="about-header-text">
             <div className="line" />
 
             <Localized id="about-title">

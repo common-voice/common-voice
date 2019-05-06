@@ -15,6 +15,8 @@ import {
 } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 
+import './get-involved.css';
+
 const GetInvolved: React.ComponentType = () => {
   return (
     <>

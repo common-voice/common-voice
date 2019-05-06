@@ -22,15 +22,16 @@ const SECTION_NAMES: any = {
 
 const SECTION_CONTENTS: any = {
   [SECTIONS.whatIsCV]: [
-    'what-cv',
-    'why-important',
-    'why-mission',
-    'what-cv-and-deepspeech',
-    'is-goal-assistant',
+    'faq-what-cv',
+    'faq-why-important',
+    'faq-why-mission',
+    'faq-what-cv-and-deepspeech',
+    'faq-is-goal-assistant',
   ],
   [SECTIONS.usingCV]: [
     [
-      'how-get',
+      'faq-how-get-q',
+      'faq-how-get-a',
       {
         licenseLink: (
           <StyledLink
@@ -42,20 +43,23 @@ const SECTION_CONTENTS: any = {
       },
     ],
     [
-      'when-release',
+      'faq-when-release-q',
+      'faq-when-release-a',
       {
         contactLink: <StyledLink href="mailto:commonvoice@mozilla.com" blank />,
       },
     ],
-    'do-want-native',
+    'faq-do-want-native',
     [
-      'why-different-speakers',
+      'faq-why-different-speakers-q',
+      'faq-why-different-speakers-a',
       {
         articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank />,
       },
     ],
     [
-      ['faq-why-my-lang-q', ['faq-why-my-lang-new-a']],
+      'faq-why-my-lang-q',
+      'faq-why-my-lang-new-a',
       {
         multilangLink: (
           <StyledLink
@@ -71,12 +75,13 @@ const SECTION_CONTENTS: any = {
         ),
       },
     ],
-    'what-quality',
-    'why-10k-hours',
-    'why-not-ask-read',
-    'how-calc-hours',
+    'faq-what-quality',
+    'faq-why-10k-hours',
+    'faq-why-not-ask-read',
+    'faq-how-calc-hours',
     [
-      'where-src-from-2',
+      'faq-where-src-from-2-a',
+      'faq-where-src-from-2-q',
       {
         italic: <i />,
         githubLink: (
@@ -87,18 +92,18 @@ const SECTION_CONTENTS: any = {
         ),
       },
     ],
-    [['faq-why-account-q', BENEFITS]],
-    [['faq-is-account-public-q', WHATS_PUBLIC]],
-    'how-privacy',
-    'what-determine-identity',
+    ['faq-why-account-q', BENEFITS],
+    ['faq-is-account-public-q', WHATS_PUBLIC],
+    'faq-how-privacy',
+    'faq-what-determine-identity',
   ],
   [SECTIONS.glossary]: [
-    [['localization', 'localization-explanation']],
-    [['sentence-collection', 'sentence-collection-explanation']],
-    [['hours-recorded', 'hours-recorded-explanation']],
-    [['hours-validated', 'hours-validated-explanation']],
-    [['sst', 'sst-explanation']],
-    [['de-identified', 'de-identified-explanation']],
+    ['localization', 'localization-explanation'],
+    ['sentence-collection', 'sentence-collection-explanation'],
+    ['hours-recorded', 'hours-recorded-explanation'],
+    ['hours-validated', 'hours-validated-explanation'],
+    ['sst', 'sst-explanation'],
+    ['de-identified', 'de-identified-explanation'],
   ],
 };
 
@@ -117,7 +122,7 @@ export const faqSearchSelector = memoize(
     getString,
     searchString,
   }: LocalizationProps & FaqSearchSelectorProps): FaqSection[] => {
-    const search = searchString.toUpperCase();
+    const search = searchString.trim().toUpperCase();
 
     return Object.values(SECTIONS)
       .map((section: string) => {
@@ -127,30 +132,27 @@ export const faqSearchSelector = memoize(
           key: section,
           label: SECTION_NAMES[section] || SECTIONS[section],
           content: content
-            .map(c => (Array.isArray(c) ? c : [c, {}]))
-            .map(([id, ...rest]) => {
+            .map(c => (Array.isArray(c) ? c : [c + '-q', c + '-a', {}]))
+            .map(([question, answers, ...rest]) => {
               const params = rest.length === 0 ? [{}] : rest;
 
-              return Array.isArray(id)
-                ? Array.isArray(id[1])
-                  ? [id, ...params]
-                  : [[id[0], [id[1]]], ...params]
-                : [['faq-' + id + '-q', ['faq-' + id + '-a']], ...params];
+              return [
+                question,
+                Array.isArray(answers) ? answers : [answers],
+                ...params,
+              ];
             })
-            .filter(([[qId, aId], props]) => {
-              if (search) {
-                const answerFound = aId.reduce(
-                  (carry: boolean, aId: string) =>
-                    carry || stringContains(getString(aId, props), search),
-                  false
-                );
-
-                if (!stringContains(getString(qId), search) && !answerFound) {
-                  return null;
-                }
+            .filter(([question, answers, props]) => {
+              if (!search) {
+                return true;
               }
 
-              return true;
+              return (
+                stringContains(getString(question), search) ||
+                answers.some((answer: string) =>
+                  stringContains(getString(answer, props), search)
+                )
+              );
             }),
         };
       })

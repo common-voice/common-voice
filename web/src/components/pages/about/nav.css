@@ -1,0 +1,250 @@
+@import url('../../vars.css');
+
+.about {
+    .nav {
+        display: flex;
+        flex: 1;
+        z-index: var(--top-z-index);
+        height: 15vw;
+        position: sticky;
+        top: -6.3vw;
+        margin: 0 auto;
+        max-width: 100%;
+
+        &.desktop {
+            @media (--sm-down) {
+                display: none;
+            }
+        }
+
+        & .menu-item {
+            width: 20%;
+            position: relative;
+            cursor: pointer;
+            display: flex;
+
+            & .text {
+                font-size: var(--font-size-xs);
+                letter-spacing: 0.5px;
+                font-weight: 600;
+                align-self: center;
+                z-index: var(--top-z-index);
+                text-align: center;
+                width: 100%;
+                margin-top: 11%;
+                position: relative;
+                text-transform: uppercase;
+                font-family: var(--base-font-family);
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    bottom: calc(100% + 10px);
+                    height: 14px;
+                    width: 1px;
+                    background-color: #bed9ff;
+                    transition: height 0.5s 0s;
+                }
+            }
+
+            &.i1 {
+                width: 30.37%;
+                top: -1px;
+
+                & .text {
+                    margin-left: 35%;
+                }
+
+                & .active {
+                    max-width: 110%;
+                    left: 0;
+                    top: 0;
+                    z-index: var(--top-z-index);
+                }
+            }
+
+            &.i2 {
+                width: 19.89%;
+                & .active {
+                    max-width: 120%;
+                    left: -10%;
+                    z-index: var(--top-z-index);
+                }
+            }
+
+            &.i3 {
+                width: 21.28%;
+                position: relative;
+                & .active {
+                    max-width: 120%;
+                    left: -10%;
+                    z-index: var(--top-z-index);
+                }
+            }
+            &.i4 {
+                width: 28.46%;
+
+                & .text {
+                    margin-right: 35%;
+                }
+
+                & .active {
+                    max-width: 108%;
+                    left: -9.3%;
+                    top: 3px;
+                    z-index: var(--top-z-index);
+                }
+            }
+
+            &.i1,
+            &.i4 {
+                & .text {
+                    margin-top: 8.2%;
+                }
+            }
+
+            & img {
+                max-width: 100%;
+                position: absolute;
+                transition: all 0.5s 0.3s;
+
+                &.active {
+                    opacity: 0;
+                    transition: transform 0.8s 0s, opacity 0.8s 0s;
+                    transform: scale(1, 0.8);
+                }
+            }
+
+            &:hover,
+            &.active {
+                img {
+                    opacity: 1;
+
+                    &:not(.active) {
+                    }
+
+                    &.active {
+                        opacity: 1;
+                        transform: scale(1, 1);
+                        transition: transform 0.5s 0s, opacity 0.1s 0s;
+                    }
+                }
+
+                .text {
+                    &:before {
+                        height: 32px;
+                        background-color: var(--black);
+                    }
+                }
+            }
+        }
+
+        &.mobile {
+            position: sticky;
+            bottom: -3px;
+            height: 20vw;
+            max-height: 5rem;
+            background: var(--white);
+
+            &:before {
+                content: '';
+
+                background: linear-gradient(
+                    to bottom,
+                    rgba(249, 249, 247, 0) 0%,
+                    rgba(237, 237, 237, 0.65) 66%
+                );
+                position: absolute;
+                bottom: 100%;
+                width: 100%;
+                height: 21vw;
+            }
+
+            @media (--md-up) {
+                display: none;
+            }
+
+            img {
+                display: none;
+
+                &.mobile-rounded {
+                    display: block;
+                }
+            }
+
+            & .menu-item {
+                flex: 1;
+                display: flex;
+                position: relative;
+                background: var(--white);
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-end;
+                min-height: 60px;
+
+                &.i1,
+                &.i4 {
+                    top: 0;
+
+                    & .text {
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                }
+
+                & .mobile-rounded {
+                    position: absolute;
+                    width: 100%;
+                    transition: all 0.5s 0s;
+                    transform: scaleY(1);
+                    transform-origin: bottom;
+                    bottom: calc(100% - 1px);
+                }
+
+                & .text {
+                    text-align: center;
+                    width: 100%;
+                    font-size: 11px;
+                    position: relative;
+                    max-height: 0;
+                    opacity: 0;
+                    overflow: hidden;
+                    transition: all 0.8s 0s;
+                    z-index: var(--middle-z-index);
+                    margin-bottom: 1rem;
+                }
+
+                & svg {
+                    opacity: 0.5;
+                    transition: opacity 0.8s 0s;
+                    z-index: var(--middle-z-index);
+                    position: relative;
+                    & path {
+                        fill: var(--near-black);
+                    }
+                }
+
+                &.active {
+                    &:before {
+                        opacity: 0.7;
+                    }
+
+                    & img {
+                        transform: scaleY(2);
+                        bottom: calc(100% - 1px);
+                    }
+
+                    & .text {
+                        max-height: 20px;
+                        opacity: 1;
+                    }
+
+                    & svg {
+                        opacity: 0.9;
+                    }
+                }
+            }
+        }
+    }
+}
