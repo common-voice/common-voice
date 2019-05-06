@@ -143,9 +143,10 @@
         &.mobile {
             position: sticky;
             bottom: -3px;
-            height: 20vw;
-            max-height: 5rem;
+            height: 17vw;
+            max-height: 3rem;
             background: var(--white);
+            display: none;
 
             &:before {
                 content: '';
@@ -161,8 +162,8 @@
                 height: 21vw;
             }
 
-            @media (--md-up) {
-                display: none;
+            @media (--sm-down) {
+                display: flex;
             }
 
             img {
@@ -213,6 +214,8 @@
                     transition: all 0.8s 0s;
                     z-index: var(--middle-z-index);
                     margin-bottom: 1rem;
+                    margin-top: 4%;
+                    top: -1rem;
                 }
 
                 & svg {
@@ -220,6 +223,9 @@
                     transition: opacity 0.8s 0s;
                     z-index: var(--middle-z-index);
                     position: relative;
+                    max-width: 20px;
+                    top: -1rem;
+
                     & path {
                         fill: var(--near-black);
                     }

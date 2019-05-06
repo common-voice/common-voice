@@ -1,7 +1,7 @@
 @import url('../../vars.css');
 
 .about {
-    &.why-common-voice {
+    .why-common-voice {
         &:after {
             content: '';
             position: absolute;
