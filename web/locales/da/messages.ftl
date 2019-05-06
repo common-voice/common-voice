@@ -17,6 +17,8 @@ indicates-required = * Betyder at feltet skal udfyldes
 ## Languages
 
 ab = Abkhasisk
+ace = Achinesisk
+ady = Adyghe
 af = Afrikaans
 am = Amharisk
 an = Aragonsk
@@ -37,6 +39,7 @@ cy = Walisisk
 da = Dansk
 de = Tysk
 dsb = Nedresorbisk
+dv = Divehi
 el = Græsk
 en = Engelsk
 eo = Esperanto
@@ -51,6 +54,7 @@ fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galicisk
 he = Hebraisk
+hi-IN = Hindi
 hr = Kroatisk
 hsb = Øvresorbisk
 hu = Ungarnsk
@@ -67,6 +71,7 @@ ko = Koreansk
 kpv = Komi
 kw = Cornisk
 ky = Kirgisisk
+lij = Ligurisk
 lt = Litauisk
 lv = Lettisk
 mdf = Moksha
@@ -83,6 +88,7 @@ oc = Occitansk
 or = Oriya
 pl = Polsk
 pt-BR = Portugisisk (Brasilien)
+rm-sursilv = Rætoromansk sursilvansk
 ro = Rumænsk
 ru = Russisk
 rw = Kinyarwanda
@@ -181,14 +187,17 @@ x-years-short =
 help-make-dataset = Hjælp os med at opbygge et offentligt og åbent datasæt af høj kvalitet.
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 sign-up-account = Opret en konto
+email-subscription-title = Tilmeld dig nyheder via mail
 
 ## Account Benefits
 
 benefits = Fordele
+improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges til træning af talegenkendelse.
 
 ## What's public
 
 whats-public = Hvad er offentligt?
+username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
 
@@ -215,6 +224,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = O
 shortcut-record-toggle-label = Optag/Stop
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Optag klip igen
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
@@ -269,8 +279,12 @@ profile-close = Luk
 profile-explanation = Hold styr på din fremgang med en profil, samtidig med at du gør vores stemme-data mere præcist.
 thanks-for-account = Tak fordi du bekræftede din konto, lad os nu udfylde din profil.
 why-demographic = Hvorfor er dette vigtigt?
+why-demographic-explanation = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
+accept-privacy = Det er helt fint, at I håndterer disse oplysninger som beskrevet i Mozillas <privacyLink>privatlivspolitik</privacyLink>
+login-identity = Login-identitet
 login-signup = Log ind / Opret dig
 edit = Rediger
+email-subscriptions = Mail-abonnementer
 download-profile = Hent mine data
 contribution-experience = Bidragserfaring
 skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
@@ -280,13 +294,20 @@ add-avatar-title = Tilføj en avatar til din profil
 browse-file-title = Upload en billedfil
 browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
+gravatar_not_found = Ingen gravatar fundet for din mailadresse
 file_too_large = Den valgte fil er for stor
 manage-subscriptions = Håndter abonnementer
+email-already-used = Mailadressen bruges allerede af en anden konto
 add-language = Tilføj sprog
 
 ## FAQ
 
 faq-title = Ofte stillede spørgsmål
+faq-what-cv-q = Hvad er Common Voice?
+faq-why-important-q = Hvorfor er det vigtigt?
+faq-how-get-q = Hvordan får jeg fat i data fra Common Voice?
+faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</licenseLink>-licensen på vores <datasetLink>side med datasæt</datasetLink>. Du kan også hente flere andre offentligt tilgængelige datasæt fra samme side.
+faq-when-release-q = Hvornår planlægger I at udgive data fra Common Voice på andre sprog?
 faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
@@ -299,10 +320,15 @@ faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige l�
 faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt som muligt, har vi besluttet kun at tillade tekst, der er tilgængeligt under en Creative Commons (CC0) licens. Brugen af CC0-standarden betyder, at det er sværere at finde og indsamle tekst, men tillader at alle kan bruge datasættet uden brugsbegrænsninger eller tilladelse fra Mozilla. I sidste ende ønsker vi at gøre det flersprogede datasæt så nyttigt som muligt for alle, herunder forskere, universiteter, iværksættere, regeringer, sociale formål og hobbyfolk.
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
 faq-is-account-public-q = Er mine kontooplysninger offentlige?
+faq-how-privacy-q = Hvordan sikrer I anonymitet og privatliv for de mennesker, der har doneret deres stemme?
+
+## ABOUT US
+
 
 ## Glossary
 
 glossary = Ordliste
+localization = Oversættelse
 
 ## NotFound
 
