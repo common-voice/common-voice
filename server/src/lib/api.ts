@@ -37,6 +37,17 @@ export default class API {
         this.metrics.countRequest(request);
 
         const client_id = request.headers.client_id as string;
+        if (request.user) {
+          const accountClientId = await UserClient.findClientId(
+            request.user.emails[0].value
+          );
+          if (accountClientId) {
+            request.client_id = accountClientId;
+            next();
+            return;
+          }
+        }
+
         if (client_id) {
           if (await UserClient.hasSSO(client_id)) {
             response.sendStatus(401);
@@ -45,10 +56,6 @@ export default class API {
             await this.model.db.saveUserClient(client_id);
           }
           request.client_id = client_id;
-        } else if (request.user) {
-          request.client_id = await UserClient.findClientId(
-            request.user.emails[0].value
-          );
         }
 
         next();
