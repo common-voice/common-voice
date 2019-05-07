@@ -360,6 +360,7 @@ data-download-yes = Ааи
 data-download-deny = Мап
 data-download-license = Алицензиа: <licenseLink>CC-0</licenseLink>
 data-download-modal = Уара <size>{ $size }ГБ</size> ҭаугалар уҭахума, иацҵатәума?
+data-subtitle = Ажәаҳәа еилыркаага апрограммақәа рзы ҳара иаԥаҳҵоит иаарту, зегьы рхы иадырхәаша абжьытә дыррақәа реизга.
 data-other-title = Даҽа бжьытә дыррақәак-реизга...
 data-other-goto = { $name } ииастәуп
 data-other-download = Адыррақәа ҭагалатәуп
