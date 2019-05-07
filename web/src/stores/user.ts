@@ -96,7 +96,7 @@ export namespace User {
       dispatch: Dispatch<UpdateAction>,
       getState: () => StateTree
     ) => {
-      const { api } = getState();
+      const { api, user } = getState();
       dispatch({
         type: ActionType.UPDATE,
         state: { isFetchingAccount: true },
@@ -134,7 +134,9 @@ export namespace User {
   export function reducer(state = getDefaultState(), action: Action): State {
     state = {
       ...state,
-      userId: state.userId || (state.account ? null : generateGUID()),
+      userId:
+        state.userId ||
+        (state.isFetchingAccount || state.account ? null : generateGUID()),
     };
     switch (action.type) {
       case ActionType.UPDATE:
