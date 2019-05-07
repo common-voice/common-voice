@@ -427,7 +427,7 @@ about-yes-votes-text = To make it into the Common Voice dataset, a voice clip mu
 about-no-votes = ≥ 2 No votes
 about-no-votes-text = When a user rejects a voice clip it returns to the Queue. If rejected a second time, the voice clip is moved to the Clip Graveyard.
 about-dataset = Common Voice Dataset
-about-dataset-text = When a user rejects a voice clip it returns to the Queue. If rejected a second time, the voice clip is moved to the Clip Graveyard.
+about-dataset-text = The Common Voice Dataset contains hundreds of thousands of voice samples that help developers build voice recognition tools.
 about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = The Clip Graveyard consists of voice clips that didn't make it into the Common Voice dataset. Just like the dataset, the Clip Graveyard is available for download.
 
