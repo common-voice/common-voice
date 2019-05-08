@@ -386,6 +386,7 @@ review-delete-recordings = Сынҵамҭақәа ықәгатәуп
 
 ## New Datasets Page
 
+datasets-headline = Ҳара иаԥаҳҵоит иаарту, зхыԥхьаӡара рацәоу абыжьқәа реизгақәа, дарбанызаалак абызшәа зҵарц зҭаху ихы иаирхәарц.
 language = Абызшәа
 # File size in gigabytes
 size = Ашәагаа
