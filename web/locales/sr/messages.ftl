@@ -1,12 +1,13 @@
 ## General
 
+yes-receive-emails = Да, шаљите ми е-поруке. Желим да останем обавештен о пројекту Common Voice.
 stayintouch = У Mozilla-и градимо заједницу око гласовне технологије. Желимо да останемо у контакту тако што ћемо вам слати вести, нове изворе података и тако што ћемо чути како користите ове податке.
 privacy-info = Обећавамо вам да ћемо пажљиво баратати са вашим подацима. Прочитајте о томе више у нашем <privacyLink>обавештењу о приватности</privacyLink>.
+return-to-cv = Назад на Common Voice
 email-input =
     .label = Е-адреса
 submit-form-action = Пошаљи
 loading = Учитавам…
-audio-loading-error = Извињавамо се! Обрађујемо аудио датотеке, покушајте поново нешто касније.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -24,8 +25,6 @@ de = Немачки
 el = Грчки
 en = Енглески
 es = Шпански
-es-AR = Шпански (Аргентина)
-es-CL = Шпански (Чиле)
 fr = Француски
 fy-NL = Фризијски
 ga-IE = Ирски
@@ -90,7 +89,19 @@ help-us-explain = Притисните дугме за пуштање, посл�
 vote-yes = Да
 vote-no = Не
 
-## Shortcuts
+## Account Benefits
+
+
+## What's public
+
+
+## Speak & Listen Shortcuts
+
+
+## Listen Shortcuts
+
+
+## Speak Shortcuts
 
 request-language-button = Затражи језик
 
@@ -111,13 +122,8 @@ english = Енглески
 
 ## ProfileForm
 
-profile-form-cancel = Изађи из формулара
-profile-form-delete = Обриши профил
 profile-form-username =
     .label = Корисничко име
-profile-form-language =
-    .label = Језик
-profile-form-more-languages = Више језика стиже ускоро!
 profile-form-accent =
     .label = Нагласак
 profile-form-age =
@@ -126,22 +132,22 @@ profile-form-gender =
     .label = Пол
 profile-form-submit-save = Сачувај
 profile-form-submit-saved = Сачувано
-profile-keep-data = Задржи податке
-profile-delete-data = Обриши податке
 male = Мушки
 female = Женски
 # Gender
 other = Друго
 why-profile-title = Зашто профил?
 edit-profile = Уреди профил
-profile-create = Направи профил
 profile-create-success = Профил је успешно направљен!
 profile-close = Затвори
 
 ## FAQ
 
 
-## Profile
+## ABOUT US
+
+
+## Glossary
 
 
 ## NotFound
@@ -150,12 +156,11 @@ profile-close = Затвори
 ## Data
 
 license-mixed = Помешано
-
-## Record Page
-
-record-platform-not-supported = Нажалост, ваша платформа није тренутно подржана.
 terms-agree = Слажем се
 terms-disagree = Не слажем се
+
+## New Datasets Page
+
 
 ## Download Modal
 
@@ -164,7 +169,6 @@ download-no = Не хвала
 ## Contact Modal
 
 contact-title = Формулар за контакт
-contact-cancel = Откажи
 contact-form-name =
     .label = Име
 contact-form-message =
@@ -174,7 +178,6 @@ contact-required = *обавезно
 ## Request Language Modal
 
 request-language-title = Захтев за језик
-request-language-cancel = Напусти формулар
 request-language-form-language =
     .label = Језик
 request-language-success-title = Захтев за новим језиком предат, хвала вам.
@@ -189,3 +192,18 @@ language-speakers = Говорници
 language-total-progress = Укупно
 language-search-input =
     .placeholder = Претрага
+language-speakers = Говорници
+
+## New Contribution
+
+record-platform-not-supported = Нажалост, ваша платформа није тренутно подржана.
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Обриши профил
