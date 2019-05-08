@@ -377,6 +377,7 @@ terms-agree = Сақәшаҳаҭуп
 terms-disagree = Сақәшаҳаҭӡам
 review-aborted = Аҭагалара еиԥҟьоуп. Уанҵамҭақәа анышәхыр уҭахума?
 review-submit-title = Агәаҭареи Ашьҭреи
+review-submit-msg = Иҭабуп уанҵамҭазы! <lineBreak></lineBreak>Уажәшьҭа ирҽеины, ҵаҟатәи уанҵамҭақәа ушьҭы.
 review-recording = Агәаҭара
 review-rerecord = Аиҭаҭаҩра
 review-cancel = Ашьҭра мап ацәктәуп
