@@ -15,16 +15,46 @@
             padding-top: 6rem;
         }
 
-        & .become-a-partner {
+        & .text-button {
             display: none;
         }
 
         @media (--sm-down) {
             padding-bottom: 5rem;
 
-            & .become-a-partner {
-                display: inherit;
-                top: -2rem;
+            & .become-partner {
+                width: 100%;
+
+                & .text-button {
+                    display: inherit;
+                    top: -2rem;
+                    position: relative;
+                    align-items: center;
+                    height: auto;
+                    width: fit-content;
+                    margin: auto;
+                    border-color: transparent;
+                    padding: 15px 30px;
+                    background: var(--blue);
+                    color: var(--white);
+                    text-transform: uppercase;
+                    border-radius: 2rem;
+                    display: flex;
+                    font-size: 0.9rem;
+                    font-weight: 600;
+
+                    & svg {
+                        transform: rotate(180deg);
+                        left: 5px;
+                        position: relative;
+                        transition: left var(--transition-duration)
+                            var(--easing);
+
+                        & path {
+                            fill: var(--white);
+                        }
+                    }
+                }
             }
         }
 
