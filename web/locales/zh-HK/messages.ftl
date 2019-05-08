@@ -118,6 +118,7 @@ speak = 說話
 speak-now = 現在開始說話
 datasets = 數據集
 languages = 所有語言
+about = 關於我們
 profile = 個人檔案
 help = 說明
 contact = 聯絡我們
@@ -273,8 +274,6 @@ profile-explanation = 使用您的個人檔案可以保留您的進展，並幫�
 thanks-for-account = 多謝您確認您的帳戶, 現在讓我們建立您的個人資料。
 why-demographic = 點解咁重要？
 why-demographic-explanation = 已匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與電郵不會與您提交的數據相關，您也可以決定公開您的帳號或保持匿名。
-keep-me-posted =
-    .label = 我想收到 Common Voice 的最新消息。
 accept-privacy = 我同意你依照 Mozilla 的<privacyLink>私隱保護政策</privacyLink>中描述的方式處理這些資料
 login-identity = 登入身分
 login-signup = 登入 / 註冊
@@ -304,7 +303,13 @@ faq-what-cv-q = Common Voice 係咩嘢？
 faq-why-important-q = 點解咁重要？
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
 faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
+faq-do-want-native-q = 我並非母語人仕，而且講話有點口音，你們仍想要我的聲音嗎？
+faq-do-want-native-a = 當然，我們特別想要您的聲音！Common Voice 的其中一個目標是盡可能收集各種口音，讓語音識別服務能適用於每一個人。這代表非母語人士的貢獻尤其重要。
+faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言的人？
 faq-why-my-lang-q = 點解還沒有我的語言？
+
+## ABOUT US
+
 
 ## Glossary
 
