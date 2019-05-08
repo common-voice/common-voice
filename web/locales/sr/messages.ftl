@@ -8,6 +8,7 @@ email-input =
     .label = Е-адреса
 submit-form-action = Пошаљи
 loading = Учитавам…
+email-opt-in-info = Желео бих да примим е-поруке које садрже подсетнике о циљевима, ажурирања напретка и билтене о пројекту Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -81,13 +82,17 @@ back-top = Назад на врх
 
 ## Home Page
 
+home-title = Пројекат Common Voice је Mozilla-ина иницијатива за подучавање машина о начину говора стварних људи.
 home-cta = Проговорите, допринесите овде!
 wall-of-text-start = Глас је природан и људски. Зато смо одушевљени са стварањем употребљиве гласовне технологије за наше машине. Али да бисмо створили гласовне системе, потребна је огромна количина гласовних података.
+wall-of-text-more-mobile = Већина података коју користе велика предузећа није доступна већини људи. Мислимо да то успорава иновацију. Због тога смо покренули пројекат Common Voice да бисмо учинили препознавање гласа доступно свима.
+wall-of-text-second = Већина података које користе велике компаније није доступна већини људи. Мислимо да то гуши иновацију. Због тога смо покренули Common Voice, пројекат који ће помоћи да препознавање гласа буде отворено и доступно свима.
 show-wall-of-text = Сазнајте више
 help-us-title = Помозите нам са провером реченица!
 help-us-explain = Притисните дугме за пуштање, послушајте и кажите нам да ли је реченица испод изговорена правилно?
 vote-yes = Да
 vote-no = Не
+listen-paragraph = Потврђивање донираних исечака једнако је важно за мисију Common Voice. Послушајте и помозите нам да створимо квалитетне отворене гласовне податке.
 
 ## Account Benefits
 
@@ -103,6 +108,7 @@ vote-no = Не
 
 ## Speak Shortcuts
 
+request-language-text = Још не видите ваш језик у пројекту Common Voice?
 request-language-button = Затражи језик
 
 ## ProjectStatus
@@ -143,6 +149,8 @@ profile-close = Затвори
 
 ## FAQ
 
+faq-what-cv-q = Шта је Common Voice?
+faq-how-get-q = Како могу да добијем Common Voice податке?
 
 ## ABOUT US
 
