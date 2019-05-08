@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Button } from '../../ui/ui';
 import { ArrowLeft } from '../../ui/icons';
 import { Localized } from 'fluent-react/compat';
+import { ContactLink } from '../../shared/links';
 
 import './partners.css';
 
@@ -17,12 +18,14 @@ const Partners: React.ComponentType = () => {
             <h1 />
           </Localized>
 
-          <Button className="become-a-partner" rounded onClick={() => {}}>
-            <Localized id="about-become-a-partner">
-              <span />
-            </Localized>
-            <ArrowLeft />
-          </Button>
+          <ContactLink>
+            <Button className="become-a-partner" rounded>
+              <Localized id="about-become-a-partner">
+                <span />
+              </Localized>
+              <ArrowLeft />
+            </Button>
+          </ContactLink>
         </div>
 
         <Localized id="about-partnership">
