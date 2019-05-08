@@ -370,8 +370,12 @@ data-bundle-button = Адырра аизга ҭагалатәуп
 data-bundle-description = Азеиԥш Бжьы иамоу адыррақәа ирыцу абыжьқәа реизгақәа зегьы ҵаҟа иарбоуп.
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
+review-terms =
+    Азеиԥш Бжьы ухы ианаурхәа, уи иаанагоит ҳара <termsLink>ахархәашьа</termsLink> егьы <privacyLink>Ир­ма­
+    ӡоу Ардырра</privacyLink> урықәшаҳаҭуп ҳәа.
 terms-agree = Сақәшаҳаҭуп
 terms-disagree = Сақәшаҳаҭӡам
+review-aborted = Аҭагалара еиԥҟьоуп. Уанҵамҭақәа анышәхыр уҭахума?
 review-submit-title = Агәаҭареи Ашьҭреи
 review-recording = Агәаҭара
 review-rerecord = Аиҭаҭаҩра
