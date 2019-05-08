@@ -512,7 +512,7 @@
                 }
 
                 &::placeholder {
-                    color: var(--warm-grey);
+                    color: var(--black);
                 }
             }
 
