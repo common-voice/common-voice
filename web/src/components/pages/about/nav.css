@@ -148,20 +148,6 @@
             background: var(--white);
             display: none;
 
-            &:before {
-                content: '';
-
-                background: linear-gradient(
-                    to bottom,
-                    rgba(249, 249, 247, 0) 0%,
-                    rgba(237, 237, 237, 0.65) 66%
-                );
-                position: absolute;
-                bottom: 100%;
-                width: 100%;
-                height: 21vw;
-            }
-
             @media (--sm-down) {
                 display: flex;
             }
@@ -201,6 +187,7 @@
                     transform: scaleY(1);
                     transform-origin: bottom;
                     bottom: calc(100% - 1px);
+                    filter: drop-shadow(0px -1px var(--grey));
                 }
 
                 & .text {
@@ -238,7 +225,7 @@
 
                     & img {
                         transform: scaleY(2);
-                        bottom: calc(100% - 1px);
+                        bottom: calc(100% - 2px);
                     }
 
                     & .text {
