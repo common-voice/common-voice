@@ -26,14 +26,14 @@ const GetInvolved: React.ComponentType = () => {
         alt="Wave"
       />
 
-      <div className="become-partner">
+      {/*<div className="become-partner">
         <ContactLink>
           <Localized id="about-become-a-partner">
             <span />
           </Localized>
           <ArrowLeft />
         </ContactLink>
-      </div>
+      </div>*/}
 
       <div className="robot-section">
         <img src={require('./images/robot-footer.svg')} alt="Robot" />
