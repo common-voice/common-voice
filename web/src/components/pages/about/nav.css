@@ -7,13 +7,20 @@
         z-index: var(--top-z-index);
         height: 15vw;
         position: sticky;
-        top: -6.3vw;
+        top: -7.4vw;
         margin: 0 auto;
         max-width: 100%;
 
         &.desktop {
             @media (--sm-down) {
                 display: none;
+            }
+
+            & .menu-item {
+                & .text {
+                    position: sticky;
+                    top: 1.4vw;
+                }
             }
         }
 
@@ -40,7 +47,7 @@
                     content: '';
                     position: absolute;
                     left: 50%;
-                    bottom: calc(100% + 10px);
+                    bottom: calc(100% + 6px);
                     height: 14px;
                     width: 1px;
                     background-color: #bed9ff;
@@ -187,7 +194,6 @@
                     transform: scaleY(1);
                     transform-origin: bottom;
                     bottom: calc(100% - 1px);
-                    filter: drop-shadow(0px -1px var(--grey));
                 }
 
                 & .text {
@@ -225,7 +231,7 @@
 
                     & img {
                         transform: scaleY(2);
-                        bottom: calc(100% - 2px);
+                        bottom: calc(100% - 0.7vw);
                     }
 
                     & .text {
