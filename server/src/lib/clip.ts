@@ -183,13 +183,12 @@ export default class Clip {
       });
       await Awards.checkProgress(client_id);
 
-    response.json(filePrefix);
-
-    Basket.sync(client_id).catch(e => console.error(e));
+      Basket.sync(client_id).catch(e => console.error(e));
       response.json(filePrefix);
     } catch (error) {
       console.error(error);
-      response.statusMessage = 'Error in saveClip server';
+      response.statusCode = error.statusCode || 500;
+      response.statusMessage = 'save_clip_error';
       response.json(error);
     }
   };

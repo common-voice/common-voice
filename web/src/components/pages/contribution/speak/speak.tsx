@@ -393,7 +393,7 @@ class SpeakPage extends React.Component<Props, State> {
             retries = 0;
           } catch (error) {
             let msg;
-            if (error.message === 'saveclipError') {
+            if (error.message === 'save_clip_error') {
               msg =
                 'Upload of this clip keeps failing at server, reload the page or try after sometime';
             } else {
