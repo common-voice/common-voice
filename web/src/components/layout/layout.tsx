@@ -30,6 +30,8 @@ import LocalizationSelect from './localization-select';
 import Logo from './logo';
 import Nav from './nav';
 import UserMenu from './user-menu';
+import * as cx from 'classnames';
+import { isStaging } from '../../utility';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
@@ -66,7 +68,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     isMenuVisible: false,
     hasScrolled: false,
     hasScrolledDown: false,
-    showStagingBanner: true,
+    showStagingBanner: isStaging(),
   };
 
   componentDidMount() {
@@ -154,7 +156,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
 
     const pathParts = location.pathname.split('/');
-    const className = pathParts[2] ? pathParts.slice(2).join(' ') : 'home';
+    const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
+      'staging-banner-is-visible': showStagingBanner,
+    });
 
     return (
       <div id="main" className={className}>
@@ -169,7 +173,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             <a onClick={this.closeOpenInApp}>X</a>
           </div>
         )}
-        {window.location.hostname == 'voice.allizom.org' && showStagingBanner && (
+        {showStagingBanner && (
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}
             <a href="https://voice.mozilla.org" target="_blank">
