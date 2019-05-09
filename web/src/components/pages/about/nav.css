@@ -247,4 +247,12 @@
             }
         }
     }
+
+    &.staging-banner-is-visible {
+        & .nav {
+            &.desktop {
+                top: -5.4vw;
+            }
+        }
+    }
 }

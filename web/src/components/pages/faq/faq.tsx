@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import * as cx from 'classnames';
+import { isMobileResolution } from '../../../utility';
 import { LocalizedGetAttribute } from '../../locale-helpers';
 import { SearchIconCode, ChevronDown } from '../../ui/icons';
 import useActiveSection from '../../../hooks/use-active-section';
@@ -11,16 +12,18 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 
+const throttle = require('lodash.throttle');
+
 import './faq.css';
 
 type SectionProps = {
   section: FaqSection;
-  activeQuestion: string;
+  activeQuestions: string[];
   setActiveQuestion: (question: string) => void;
 };
 
 const Section: React.ComponentType<SectionProps> = React.memo(
-  ({ section, activeQuestion, setActiveQuestion }: SectionProps) => (
+  ({ section, activeQuestions, setActiveQuestion }: SectionProps) => (
     <div id={section.key} className="faq-q-and-a">
       {section.content.map(([question, answers, props]) => {
         return (
@@ -28,14 +31,12 @@ const Section: React.ComponentType<SectionProps> = React.memo(
             <div
               id={question}
               className={cx('question-block', section.key, {
-                active: question == activeQuestion,
+                active: activeQuestions.indexOf(question) !== -1,
               })}>
               <div
                 className="faq-q"
                 onClick={() => {
-                  setActiveQuestion(
-                    question === activeQuestion ? null : question
-                  );
+                  setActiveQuestion(question);
                 }}>
                 <div className="faq-icon">
                   <ChevronDown />
@@ -75,7 +76,36 @@ const Section: React.ComponentType<SectionProps> = React.memo(
 export default withLocalization(({ getString }: LocalizationProps) => {
   const activeSection = useActiveSection(Object.values(SECTIONS));
   const [searchString, setSearchString] = useState<string>('');
-  const [activeQuestion, setActiveQuestion] = useState<string | null>(null);
+  const [activeQuestions, setActiveQuestions] = useState<string[]>([]);
+  const [isMobile, setIsMobile] = useState<boolean>(isMobileResolution());
+
+  React.useEffect(() => {
+    if (activeQuestions.length !== 0) {
+      setActiveQuestions([]);
+    }
+
+    const windowResized = throttle(() => {
+      if (isMobile !== isMobileResolution()) {
+        setIsMobile(!isMobile);
+      }
+    }, 200);
+
+    window.addEventListener('resize', windowResized);
+
+    return () => {
+      window.removeEventListener('resize', windowResized);
+    };
+  }, [isMobile]);
+
+  const setActiveQuestion = (question: string) => {
+    if (activeQuestions.indexOf(question) === -1) {
+      return setActiveQuestions(
+        isMobile ? [...activeQuestions, question] : [question]
+      );
+    }
+
+    setActiveQuestions(activeQuestions.filter((e: string) => e !== question));
+  };
 
   const sections: FaqSection[] = faqSearchSelector({ getString, searchString });
 
@@ -128,8 +158,8 @@ export default withLocalization(({ getString }: LocalizationProps) => {
                   type="text"
                   value={searchString}
                   onChange={event => {
-                    if (activeQuestion !== null) {
-                      setActiveQuestion(null);
+                    if (activeQuestions.length !== 0) {
+                      setActiveQuestions([]);
                     }
 
                     setSearchString(event.target.value);
@@ -169,7 +199,7 @@ export default withLocalization(({ getString }: LocalizationProps) => {
                 <Section
                   section={section}
                   key={`section-${section.key}`}
-                  activeQuestion={activeQuestion}
+                  activeQuestions={activeQuestions}
                   setActiveQuestion={setActiveQuestion}
                 />
               ))}

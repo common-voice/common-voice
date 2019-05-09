@@ -78,6 +78,10 @@ export function isMobileWebkit(): boolean {
   );
 }
 
+export function isMobileResolution(): boolean {
+  return window.matchMedia('(max-width: 768px)').matches;
+}
+
 export function isProduction(): boolean {
   return window.location.origin === 'https://voice.mozilla.org';
 }
