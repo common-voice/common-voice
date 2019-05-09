@@ -2,7 +2,6 @@ import * as React from 'react';
 import { Localized } from 'fluent-react/compat';
 import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
-import { isProduction } from '../../utility';
 import ShareButtons from '../share-buttons/share-buttons';
 import {
   ContactIcon,
@@ -87,10 +86,7 @@ const Footer = React.memo(({ locale }: LocalePropsFromState) => {
                 href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
               />
             </Localized>
-            <LocalizedLocaleLink
-              id="faq"
-              to={URLS.FAQ + (isProduction() ? '' : '-new')}
-            />
+            <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
           </div>
         </div>
 

@@ -259,12 +259,6 @@ body:not(.focus) #scroller {
     }
 }
 
-#profile-container,
-#record-container,
-#faq-container {
-    animation: slide-fade-in var(--transition-duration) var(--easing);
-}
-
 #content {
     position: relative;
     min-height: 80vh;
@@ -307,12 +301,6 @@ body:not(.focus) #scroller {
     }
 }
 
-#content > #faq-container,
-#content > #profile-container {
-    margin-top: var(--standard-margin);
-    text-align: start;
-}
-
 .loading {
     animation: loading 2.5s ease infinite;
     background-size: 600% 600%;
@@ -327,21 +315,6 @@ body:not(.focus) #scroller {
     }
     100% {
         background-position: 0% 50%;
-    }
-}
-
-#faq-container {
-    & h3 {
-        margin: 1.5rem 0 0.5rem;
-    }
-
-    & h2 a {
-        color: var(--black);
-    }
-
-    & p {
-        margin-bottom: 1rem;
-        white-space: pre-line;
     }
 }
 
