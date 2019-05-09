@@ -26,12 +26,12 @@ const MENU_SECTIONS: any[] = [
     LayersIcon,
     { className: 'i2' },
   ],
-  [
-    SECTIONS.PARTNERS,
-    ['menu3-active.png', 'menu3-inactive.png'],
-    UsersIcon,
-    { className: 'i3' },
-  ],
+  // [
+  //   SECTIONS.PARTNERS,
+  //   ['menu3-active.png', 'menu3-inactive.png'],
+  //   UsersIcon,
+  //   { className: 'i3' },
+  // ],
   [
     SECTIONS.GET_INVOLVED,
     ['menu4-active.png', 'menu4-inactive.png'],

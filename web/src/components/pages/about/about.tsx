@@ -25,7 +25,7 @@ const About: React.ComponentType = React.memo(() => {
           Nav,
         ],
         [SECTIONS.HOW_IT_WORKS, HowItWorks],
-        [SECTIONS.PARTNERS, Partners],
+        // [SECTIONS.PARTNERS, Partners],
         [SECTIONS.GET_INVOLVED, GetInvolved],
         [
           {

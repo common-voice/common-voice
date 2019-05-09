@@ -4,6 +4,7 @@
     .nav {
         display: flex;
         flex: 1;
+        justify-content: center;
         z-index: var(--top-z-index);
         height: 15vw;
         position: sticky;
