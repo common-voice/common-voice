@@ -391,21 +391,32 @@ about-speak-text = Imttekiyyen akke timttekkiyin ad ɣren sakin ad skelsen tukki
 about-listen-queue = Adras n uṛaǧu n tmesliwt
 about-listen-queue-text = Tukkisin yettwaqeblen ttwaskensent deg udras n uraǧu n usumer ara d-yettwaheggin i tmesliwt.
 about-listen = Sel
+about-listen-text = Iseqdacen qqebblen tiseddi n tukkisin s usenqed ma yella win neɣ tin yettmeslayen yeɣra-d neɣ teɣra-d akken iwata tafyirt.
 about-is-it-valid = Tukkist-a d tameɣtut?
 about-is-it-valid-text = Tukkist n taɣect tettwacreḍ "tettwaqbel" ticki aseqdac neɣ taseqdact teqblet-itt s IH.
 about-yes-votes = ≥ 2 n tefranin IH
+about-yes-votes-text = Akken ad yekcem ɣer tegrumma n yisefka Common Voice, yessefk tukkist n taɣect ad tettwaqbel sɣur sin n yimdanen yemgaraden.
 about-no-votes = ≥ 2 n tefranin UHU
 about-dataset = Tagrumma n yisefka Common Voice
 about-clip-graveyard = Tajebbant n tukkisin
 about-partners = Imendiden
 about-become-a-partner = Uɣal d amendid
 about-get-involved = Ttekki
+about-get-involved-text =
+    Tabɣiḍ ad tesnerniḍ Common Voice ?
+    Igerrez! Nermes-aɣ-d s yimayl neɣ deg <discourseLink>Discourse</discourseLink>,
+    azen-d iwenniten deg <githubLink>GitHub</githubLink>,
+    neɣ ddu-d yid-neɣ deg <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Acuɣer?
 about-nav-how-it-works = Amek?
 about-nav-partners = Imendiden
 about-nav-get-involved = Ttekki
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tigzi n tmacint
+mycroft-description =
+    Mycroft d amarag amenzu n uɣbalu yeldin deg umaḍal.
+    Mycroft yettwaselkam deg yal amḍiq - deg uselkim, deg tkeṛṛust, neɣ deg Raspberry Pi.
+mycroft-secondary-description = D aseɣzan neɣ d ahil n uɣbalu yeldin i tzemreḍ ad tbeddleḍ akken tebɣiḍ, ad tesnefliḍ neɣ ad tesnerniḍ. Mycroft yezmer ad yettwaseqdec deg tɣula meṛṛa, seg usenfaṛ ussnan neɣ aseɣẓan n tkebbanit.
 
 ## Glossary
 
