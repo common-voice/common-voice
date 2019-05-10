@@ -389,6 +389,7 @@ how-does-it-work-title = Amek iteddu?
 about-speak = Mmeslay
 about-speak-text = Imttekiyyen akke timttekkiyin ad ɣren sakin ad skelsen tukkisin n taɣect i d-yekkan seg tegrumma n tefyar i d-tmudd terbaɣt n yimttekkiyen.
 about-listen-queue = Adras n uṛaǧu n tmesliwt
+about-listen-queue-text = Tukkisin yettwaqeblen ttwaskensent deg udras n uraǧu n usumer ara d-yettwaheggin i tmesliwt.
 about-listen = Sel
 about-is-it-valid = Tukkist-a d tameɣtut?
 about-is-it-valid-text = Tukkist n taɣect tettwacreḍ "tettwaqbel" ticki aseqdac neɣ taseqdact teqblet-itt s IH.
