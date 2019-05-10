@@ -403,6 +403,7 @@ audio-format = Анҵамҭа Аформат
 number-of-voices = Абыжьқәа рхыԥхьаӡара
 splits = Реихшашьа
 email-to-download = Уҭагал уԥошьҭа аҭагаларазы
+why-email = <b>Изаҭахузеи аԥошьҭа?</b> ҳаԥхьаҟа уара ҳаҽумаадар ҟалоит адыррақәа реизга аԥсахрақәа ралагаларазы. Убри азы алшара ҳнаҭоит аԥошьҭа.
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = Иҭагалатәуп { $language }
