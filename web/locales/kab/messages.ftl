@@ -385,7 +385,11 @@ faq-search-for-answers =
 
 about-title = Acuɣer Common Voice?
 about-subtitle = Common Voice d asenfaṛ n Mozilla i uselmed n tmacinin ad mmeslayent tutlayin n yimdanen. Ɣer tama n tegrumma n yisefka Common Voice, aqlaɣ nbennu daɣen amsedday neɣ amutur n uɛqal n taɣect n uɣbalu yeldin s yisem Deep Speech.
+about-header-description =
+    Sin-agi n yisenfaren ttekkan deg uxeddim-nneɣ i d-nger akken ad nsenɣes aceqqiq yellan deg taɣect tumḍint. Titiknulujiyin n uɛqal n taɣect rennunt-d kra n umaynut icudden ɣer umdan deg yisuga neɣ ibenkan-nneɣ, maca ineflayen sran ddeqs n yisefka n taɣect akken ad fefṣṣlen ifecka. Akka tura, tuget n yisefka-a ɣlay-it yerna ɣur-sen imawlan.
+    Nebɣa ad nerr isefka n taɣect baṭel daɣen ttwakcamen s wudem azayaz, daɣen ad neḍmen d akken isefka-a ḍummen-d meṛṛa imdanen deg tudert tilawt. Lwaḥid, nezmer ad nerr aɛqal n taɣect d ufrin i yal yiwen.
 how-does-it-work-title = Amek iteddu?
+how-does-it-work-text = Ad d-nemmekti attekki lwaḥid deg usbeddi n tegrumma n yisefka n uɣbalu yeldin. Mudd-d taɣect-ik, senqed tiseddi n tuɣac n wiyaḍ, snerni tagrumma n yisefka i yal yiwen.
 about-speak = Mmeslay
 about-speak-text = Imttekiyyen akke timttekkiyin ad ɣren sakin ad skelsen tukkisin n taɣect i d-yekkan seg tegrumma n tefyar i d-tmudd terbaɣt n yimttekkiyen.
 about-listen-queue = Adras n uṛaǧu n tmesliwt
@@ -397,10 +401,17 @@ about-is-it-valid-text = Tukkist n taɣect tettwacreḍ "tettwaqbel" ticki aseqd
 about-yes-votes = ≥ 2 n tefranin IH
 about-yes-votes-text = Akken ad yekcem ɣer tegrumma n yisefka Common Voice, yessefk tukkist n taɣect ad tettwaqbel sɣur sin n yimdanen yemgaraden.
 about-no-votes = ≥ 2 n tefranin UHU
+about-no-votes-text = Ticki aseqdac yugi tukkist n taɣect, taneggarut-a ad tuɣal ɣer udras n uraǧu. Ma yugin-tt tikkelt-nniḍen, tukkist ad teddu ɣer tjebbant n tukkisin.
 about-dataset = Tagrumma n yisefka Common Voice
+about-dataset-text = Tagrumma n yisefka Common Voice tegber timeyyatin n luluf n tukkisin n taɣect ara imudden ineflayen afus deg usnefli n yifecka n uɛqal n taɣect.
 about-clip-graveyard = Tajebbant n tukkisin
+about-clip-graveyard-text = Tajebbant n tukkisin tegber tukkisin ur nettwaqbel ara deg tegrumma n yisefka Common Voice. Am uneggaru-a, tajebbant n tukkisin tella i usider.
 about-partners = Imendiden
 about-become-a-partner = Uɣal d amendid
+about-partnership =
+    Common Voice a asenfaṛ s uttekki daɣen nettkel ɣer terbaɛt-nneɣ n yimendiden akked imttekkiyen d timttekkiyin akken ad rnun tagrumma n yisefka n uɣbalu yeldin n taɣect tameqqrant deg umaḍal.
+    
+    Ad nesnemmer meṛṛa imdanen akked tuddsiwin-a ɣef tallelt deg usenfaṛ:
 about-get-involved = Ttekki
 about-get-involved-text =
     Tabɣiḍ ad tesnerniḍ Common Voice ?
