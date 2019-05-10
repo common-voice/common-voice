@@ -377,7 +377,7 @@ faq-what-determine-identity-a =
     Akk tukkisin ad tettwakkes seg-sent telɣut ara yeǧǧen tifin n wid yettmeslayen. Ticki tessidreḍ-d taffa n yisefka, ad tqebleḍ d akken ur tettaɛraḍeḍ ara ad tafeḍ timagit n yimttekkiyen. Aya yemmal-d d akken ur yessefk ara ad tafeḍ assaɣ gar tagrumma n yisefka akked telɣut tudmawant n yimttekki. Maca tzemreḍ ad tesqedceḍ tagrumma n yisefka akken ad tesnulfuḍ taneɣruft n uɛqal n taɣect, neɣ tigin n wassaɣ gar tagrumma n yisefka akked telɣut yellan deg-s.
 faq-what-is-cv = D acu-t Common Voice?
 faq-using-cv = Aseqdec n Common Voice
-faq-description = Common Voice d asenfaṛ seg yisenfaṛen n Mozilla i uselmed n tmacinin ad mmeslayent tutlayin n yimdanen.
+faq-description = Common Voice d asenfaṛ seg yisenfaṛen n Mozilla i uselmed n tmacinin akken ad mmeslayent tutlayin n yimdanen.
 faq-search-for-answers =
     .label = Nadi tiriryin
 
