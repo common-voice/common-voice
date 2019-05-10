@@ -381,6 +381,8 @@ faq-what-determine-identity-a =
 ## ABOUT US
 
 how-does-it-work-title = Хайдах үлэлиирэ
+about-speak = Саҥар
+about-listen = Иһит
 about-nav-why-common-voice = Тоҕо?
 about-nav-how-it-works = Хайдах?
 mycroft-subtitle = Оҥоруу өй
