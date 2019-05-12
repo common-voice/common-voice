@@ -8,6 +8,7 @@ email-input =
     .label = E-mail
 submit-form-action = Wyślij
 loading = Wczytywanie…
+email-opt-in-info = Chcę otrzymywać wiadomości e-mail, takie jak przypomnienia o celach, informacje o moim postępie oraz biuletyny na temat Common Voice.
 email-opt-in-privacy = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności<privacyLink>.
 indicates-required = * wskazuje pole obowiązkowe
 not-available-abbreviation = Niedostępne
@@ -199,10 +200,14 @@ x-years-short =
 help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
 profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
 sign-up-account = Zarejestruj konto
+email-subscription-title = zapisz się, aby otrzymywać informacje przez e-mail
 
 ## Account Benefits
 
 benefits = Korzyści
+rich-data = Udostępnij anonimowe dane demograficzne, aby jak najbardziej wzbogacić wysyłane dane. Przed upublicznieniem usuwamy z nich informacje o Twojej tożsamości.
+improve-audio = Informacje profilowe zwiększają jakość danych dźwiękowych wykorzystywanych w trenowania dokładności rozpoznawania mowy.
+keep-track = Śledź swoje postępy i parametry w wielu językach.
 
 ## What's public
 
