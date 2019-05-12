@@ -205,7 +205,7 @@ email-subscription-title = zapisz się, aby otrzymywać informacje przez e-mail
 ## Account Benefits
 
 benefits = Korzyści
-rich-data = Udostępnij anonimowe dane demograficzne, aby jak najbardziej wzbogacić wysyłane dane. Przed upublicznieniem usuwamy z nich informacje o Twojej tożsamości.
+rich-data = Udostępnij anonimowe dane demograficzne, aby jak najbardziej wzbogacić wysyłane dane. Anonimizujemy je przed upublicznieniem.
 improve-audio = Informacje profilowe zwiększają jakość danych dźwiękowych wykorzystywanych w trenowania dokładności rozpoznawania mowy.
 keep-track = Śledź swoje postępy i parametry w wielu językach.
 compare-progress = Porównaj swoje postępy z innymi uczestnikami z całego świata.
@@ -218,7 +218,7 @@ whats-public = Co jest publiczne?
 email-not-public = Twój adres e-mail nie będzie dostępny publicznie.
 recordings-and-locale-public = Liczba nagrań i języki, w których uczestniczysz, będą publiczne.
 username-optin-public = Możesz ustawić swoją nazwę użytkownika jako publiczną lub anonimową.
-demographic-deidentified = Opcjonalnie przesłane dane demograficzne (np. wiek, płeć, język i akcent) są usuwane z przesłanych danych głosowych i nigdy nie zostaną upublicznione w Twoim profilu.
+demographic-deidentified = Opcjonalnie przesłane dane demograficzne (np. wiek, płeć, język i akcent) są anonimizowane z przesłanych danych głosowych i nigdy nie zostaną upublicznione w Twoim profilu.
 username-email-not-demographic = Twoja nazwa użytkownika i adres e-mail nie będą powiązane z opublikowanymi danymi.
 
 ## Speak & Listen Shortcuts
@@ -338,6 +338,11 @@ faq-what-cv-a =
     
     Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 faq-why-important-q = Dlaczego to jest ważne?
+faq-how-get-q = Jak mogę pobrać dane z Common Voice?
+faq-when-release-q = Kiedy wydacie dane Common Voice w innych językach?
+faq-why-mission-q = Dlaczego Common Voice jest częścią misji Mozilli?
+faq-what-cv-and-deepspeech-q = Jaka jest różnica między Common Voice a Deep Speech?
+faq-is-goal-assistant-q = Czy celem Common Voice jest zbudowanie asystenta głosowego?
 faq-why-account-q = Po co mam zarejestrować konto?
 faq-what-is-cv = Czym jest Common Voice?
 faq-using-cv = Jak używać Common Voice
@@ -350,6 +355,7 @@ faq-search-for-answers =
 about-title = Dlaczego Common Voice?
 about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 how-does-it-work-title = Jak to działa
+how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
 about-speak = Nagrywanie
 about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
 about-listen-queue = Kolejka do odsłuchania
@@ -376,8 +382,7 @@ about-get-involved = Dołącz do nas
 about-get-involved-text =
     Chcesz pomóc jeszcze bardziej ulepszyć projekt Common Voice?
     Wspaniale! Skontaktuj się z nami przez e-mail lub serwis <discourseLink>Discourse</discourseLink>,
-    prześlij opinię przez <githubLink>GitHub</githubLink>
-    lub dołącz do nas w aplikacji <slackLink>Slack</slackLink>.
+    prześlij opinię przez <githubLink>GitHub</githubLink> lub dołącz do nas w aplikacji <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
@@ -395,6 +400,13 @@ glossary = Glosariusz
 localization = Lokalizacja
 localization-explanation = To nasz proces tłumaczenia i dostosowywania treści do wielu lokalizacji (języków).
 sentence-collection = Zbieranie zdań
+sentence-collection-explanation = Zbieranie zdań będących w domenie publicznej lub pisanie nowych, które staną się domeną publiczną.
+hours-recorded-explanation = Liczba godzin nagrań mowy, które zebraliśmy do tej pory.
+hours-validated-explanation = Liczba godzin nagrań mowy, które zostały zatwierdzone przez 2 z 3 użytkowników głosem na tak. Są one liczone jako postęp w kierunku ogólnego celu projektu (10 tysięcy godzin).
+sst = Rozpoznawanie mowy
+sst-explanation = Technologie rozpoznawania mowy zamieniają dane głosowe na tekst.
+de-identified = Anonimizacja
+de-identified-explanation = Proces, w wyniku którego informacje profilowe uczestnika są usuwane z przekazanych nagrań mowy podczas pakowania ich do pobrania jako część zbioru danych.
 
 ## NotFound
 
