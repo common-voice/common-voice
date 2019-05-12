@@ -396,6 +396,13 @@ review-delete-recordings = Usuń moje nagrania
 
 ## New Datasets Page
 
+datasets-headline = Tworzymy wielojęzyczny zbiór danych mowy open source, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
+datasets-positioning =
+    Uważamy, że duże, publicznie dostępne zbiory danych głosowych będą promować innowacje i zdrową konkurencję w dziedzinie technologii mowy opartej na uczeniu maszynowym.
+    
+    Wielojęzykowy zbiór danych Common Voice jest już największym publicznie dostępnym zbiorem danych mowy tego typu, ale nie jest jedynym.
+    
+    Ta strona może służyć jako centrum informacji o innych zbiorach danych mowy open source oraz, wraz z rozwojem Common Voice, miejsce na nasze nowe wydania.
 language = Język
 # File size in gigabytes
 size = Rozmiar
@@ -414,6 +421,7 @@ confirm-no-identify = <b>Zgadzasz się</b>, że nie będziesz próbować ustala�
 download-language = Pobierz język: { $language }
 validated-hours = Sprawdzone godziny
 recorded-hours = Nagrane godziny
+whats-inside = Co znajduje się w zbiorze danych Common Voice?
 subscribe = Subskrybuj
 other-datasets = Inne zbiory danych
 data-other-librispeech-description = LibriSpeech to zbiór około 1000 godzin angielskiej mowy w jakości 16 KHz, z tekstów audiobooków z projektu LibriVox.
