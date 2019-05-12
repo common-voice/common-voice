@@ -339,6 +339,7 @@ faq-what-cv-a =
     Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 faq-why-important-q = Dlaczego to jest ważne?
 faq-how-get-q = Jak mogę pobrać dane z Common Voice?
+faq-how-get-a = Zbiór danych Common Voice jest dostępny do pobrania w ramach licencji <licenseLink>CC0</licenseLink> na <datasetLink>naszej stronie zbioru danych</datasetLink>. Z tej samej strony można pobrać także kilka innych publicznie dostępnych zbiorów danych.
 faq-when-release-q = Kiedy wydacie dane Common Voice w innych językach?
 faq-why-mission-q = Dlaczego Common Voice jest częścią misji Mozilli?
 faq-what-cv-and-deepspeech-q = Jaka jest różnica między Common Voice a Deep Speech?
@@ -350,7 +351,12 @@ faq-what-quality-q = Jakiej jakości musi być nagranie, aby zostało użyte w 
 faq-why-10k-hours-q = Dlaczego celem dla każdego z języków jest 10 tysięcy sprawdzonych godzin nagrań?
 faq-why-10k-hours-a = Jest to przybliżona liczba godzin wymagana do uruchomienia systemu rozpoznawania mowy.
 faq-how-calc-hours-q = W jaki sposób Common Voice oblicza godziny?
+faq-how-calc-hours-a = Godziny obliczamy szacując średnią długość każdego nagrania, a następnie mnożąc tę liczbę przez całkowitą liczbę nagrań we wszystkich językach.
 faq-where-src-from-2-q = Skąd pochodzi tekst źródłowy?
+faq-where-src-from-2-a =
+    Nasz tekst źródłowy składa się z oryginalnych zdań przekazanych przez uczestników, a także dialogów ze scenariuszy filmów będących w domenie publicznej, takich jak <italic>To wspaniałe życie</italic>.
+    
+    Nasze zdania źródłowe można zobaczyć w tym <githubLink>folderze w serwisie GitHub</githubLink>.
 faq-why-not-ask-read-q = Dlaczego nie prosicie uczestników o czytanie z książek lub artykułów z Wikipedii w różnych językach?
 faq-why-account-q = Po co mam zarejestrować konto?
 faq-is-account-public-q = Czy informacje zawarte na moim koncie są publiczne?
