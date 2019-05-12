@@ -208,10 +208,18 @@ benefits = Korzyści
 rich-data = Udostępnij anonimowe dane demograficzne, aby jak najbardziej wzbogacić wysyłane dane. Przed upublicznieniem usuwamy z nich informacje o Twojej tożsamości.
 improve-audio = Informacje profilowe zwiększają jakość danych dźwiękowych wykorzystywanych w trenowania dokładności rozpoznawania mowy.
 keep-track = Śledź swoje postępy i parametry w wielu językach.
+compare-progress = Porównaj swoje postępy z innymi uczestnikami z całego świata.
+view-goals = Zobacz swoje postępy na tle celów własnych i projektu.
+join-newsletter = Opcjonalnie dołącz do naszej listy pocztowej, aby otrzymywać wiadomości i nowe informacje o projekcie.
 
 ## What's public
 
 whats-public = Co jest publiczne?
+email-not-public = Twój adres e-mail nie będzie dostępny publicznie.
+recordings-and-locale-public = Liczba nagrań i języki, w których uczestniczysz, będą publiczne.
+username-optin-public = Możesz ustawić swoją nazwę użytkownika jako publiczną lub anonimową.
+demographic-deidentified = Opcjonalnie przesłane dane demograficzne (np. wiek, płeć, język i akcent) są usuwane z przesłanych danych głosowych i nigdy nie zostaną upublicznione w Twoim profilu.
+username-email-not-demographic = Twoja nazwa użytkownika i adres e-mail nie będą powiązane z opublikowanymi danymi.
 
 ## Speak & Listen Shortcuts
 
@@ -316,6 +324,7 @@ connect-gravatar = Połącz z serwisem Gravatar
 gravatar_not_found = Nie odnaleziono awatara Gravatar dla tego adresu e-mail
 file_too_large = Wybrany plik jest za duży
 manage-subscriptions = Zarządzaj subskrypcjami
+manage-email-subscriptions = Zarządzaj subskrypcjami wiadomości
 email-already-used = Adres e-mail jest już używany przez inne konto
 add-language = Dodaj język
 change-email-setings = Zmień swój adres e-mail w ustawieniach tożsamości logowania
