@@ -361,21 +361,39 @@ about-is-it-valid-text = Nagranie zostaje oznaczone jako „prawidłowe”, kied
 about-yes-votes = ≥ 2 głosy na tak
 about-yes-votes-text = Aby trafić do zbioru danych Common Voice, nagranie musi zostać sprawdzone przez dwóch użytkowników.
 about-no-votes = ≥ 2 głosy na nie
+about-no-votes-text = Po odrzuceniu przez użytkownika nagranie wraca do kolejki. Jeśli zostanie odrzucone drugi raz, to zostaje przeniesione na cmentarz nagrań.
 about-dataset = Zbiór danych Common Voice
+about-dataset-text = Zbiór danych Common Voice zawiera setki tysięcy próbek głosowych pomagających deweloperom tworzyć narzędzia do rozpoznawania mowy.
+about-clip-graveyard = Cmentarz nagrań
+about-clip-graveyard-text = Cmentarz nagrań składa się z nagrań, które nie trafiły do zbioru Common Voice. Tak jak główny zbiór, cmentarz nagrań jest dostępny do pobrania.
 about-partners = Partnerzy
 about-become-a-partner = Zostań partnerem
+about-partnership =
+    Common Voice to wspólny projekt i budowa największego zbioru danych mowy open source w historii jest zależna od naszej społeczności partnerów i uczestników.
+    
+    Chcielibyśmy podziękować następującym osobom i organizacjom za pomoc przy projekcie:
 about-get-involved = Dołącz do nas
+about-get-involved-text =
+    Chcesz pomóc jeszcze bardziej ulepszyć projekt Common Voice?
+    Wspaniale! Skontaktuj się z nami przez e-mail lub serwis <discourseLink>Discourse</discourseLink>,
+    prześlij opinię przez <githubLink>GitHub</githubLink>
+    lub dołącz do nas w aplikacji <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
 about-nav-get-involved = Dołącz do nas
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Sztuczna inteligencja
+mycroft-description =
+    Mycroft to pierwszy asystent open source na świecie.
+    Mycroft działa na każdym sprzęcie — na komputerze, w samochodzie czy na Raspberry Pi.
+mycroft-secondary-description = To oprogramowanie open source, które może być dowolnie zmieniane, rozszerzane i ulepszane. Mycroft może być używany we wszystkim od projektu naukowego po aplikację korporacyjną.
 
 ## Glossary
 
 glossary = Glosariusz
 localization = Lokalizacja
+localization-explanation = To nasz proces tłumaczenia i dostosowywania treści do wielu lokalizacji (języków).
 sentence-collection = Zbieranie zdań
 
 ## NotFound
