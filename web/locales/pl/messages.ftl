@@ -333,6 +333,10 @@ change-email-setings = Zmień swój adres e-mail w ustawieniach tożsamości lo
 
 faq-title = Często zadawane pytania
 faq-what-cv-q = Czym jest Common Voice?
+faq-what-cv-a =
+    Technologia rozpoznawania głosu rewolucjonizuje sposób używania maszyn, ale obecnie dostępne systemy są kosztowne i zastrzeżone. Common Voice jest częścią inicjatywy Mozilli mającej na celu uczynienie rozpoznawania głosu lepszym i dostępnym dla każdego. Common Voice to ogromna globalna baza nagrań głosu, która pozwala każdemu szybko i łatwo trenować aplikacje obsługujące głos w potencjalnie każdym języku.
+    
+    Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści. Oprócz zbioru danych Common Voice budujemy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 faq-why-important-q = Dlaczego to jest ważne?
 faq-why-account-q = Po co mam zarejestrować konto?
 faq-description = Projekt Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi.
