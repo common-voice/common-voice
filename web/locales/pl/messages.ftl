@@ -248,7 +248,7 @@ shortcut-record-toggle-label = Nagraj/zatrzymaj
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nagraj ponownie
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
-request-language-button = Poproś o dodanie języka
+request-language-button = Zaproponuj dodanie języka
 
 ## ProjectStatus
 
@@ -422,15 +422,27 @@ download-language = Pobierz język: { $language }
 validated-hours = Sprawdzone godziny
 recorded-hours = Nagrane godziny
 whats-inside = Co znajduje się w zbiorze danych Common Voice?
+dataset-description-hours =
+    Każdy zapis w zbiorze danych składa się z unikalnego pliku MP3 i odpowiadającemu mu pliku tekstowego. Wiele z <b>{ $total }</b> nagranych godzin w zbiorze zawiera także metadane demograficzne, takie jak wiek, płeć i akcent, które mogą pomóc w trenowaniu dokładności mechanizmów rozpoznawania mowy.
+    
+    Obecnie zbiór danych składa się z <b>{ $valid }</b> sprawdzonych godzin nagrań w <b>{ $languages }</b> językach, ale zawsze dodajemy więcej głosów i języków. <languagesLink>Strona języków</languagesLink> umożliwia zaproponowanie języka i rozpoczęcie nagrywania.
+want-dataset-update = Chcesz otrzymywać informację, gdy wydamy nową wersję zbioru danych Common Voice? Subskrybuj nasz biuletyn.
 subscribe = Subskrybuj
+get-started-speech = Poznaj rozpoznawanie mowy
 other-datasets = Inne zbiory danych
+feedback-q = Masz sugestie?
+deepspeech-info = Zbiór danych Common Voice stanowi uzupełnienie mechanizmu rozpoznawania mowy open source o nazwie Deep Speech od Mozilli, którego można używać do tworzenia aplikacji rozpoznających mowę. Przeczytaj <githubLink>podsumowanie w serwisie GitHub</githubLink> lub dołącz do <discourseLink>DeepSpeech w serwisie Discourse</discourseLink>, aby dowiedzieć się, jak zacząć.
+common-voice-info-new = Masz pytania dotyczące Common Voice? Pomysły na ulepszenia lub sugestie na temat konkretnego języka? Dołącz do nas na naszym <discourseLink>forum Discourse</discourseLink> i daj znam znać.
 data-other-librispeech-description = LibriSpeech to zbiór około 1000 godzin angielskiej mowy w jakości 16 KHz, z tekstów audiobooków z projektu LibriVox.
 data-other-ted-name = Zbiór TED-LIUM
 data-other-ted-description = Zbiór TED-LIUM został utworzony z nagrań przemów i ich transkrypcji dostępnych na stronie konferencji TED.
 data-other-voxforge-description = VoxForge został stworzony w celu zbierania transkrybowanej mowy do użytku z wolnymi i otwartymi silnikami rozpoznawania mowy.
 data-other-tatoeba-description = Tatoeba jest wielką bazą danych zdań, tłumaczeń i mowy do użytku w nauczaniu maszynowym. Ten plik zawiera wszystkie angielskie nagrania mowy stworzone przez ich społeczność.
+your-feedback = Masz pomysły, jak możemy ulepszyć zbiór danych Common Voice? Daj nam znać w serwisie Discourse
 go-discourse = Przejdź do serwisu Discourse
+missing-language = Nie widzisz swojego języka w zbiorze danych? Możesz go zaproponować na stronie języków.
 go-languages-page = Przejdź do listy języków
+ready-to-validate = Chcesz rozpocząć sprawdzanie zdań?
 more = Więcej
 close = Zamknij
 download = Pobierz
@@ -456,10 +468,10 @@ contact-required = * wymagane
 
 ## Request Language Modal
 
-request-language-title = Poproś o język
+request-language-title = Propozycja języka
 request-language-form-language =
     .label = Język
-request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
+request-language-success-title = Propozycja języka została pomyślnie przesłana, dziękujemy.
 request-language-success-content = Już niedługo udzielimy więcej informacji o tym, jak dodać swój język do projektu Common Voice.
 select-language = Wybierz język…
 other-language = Inny język
