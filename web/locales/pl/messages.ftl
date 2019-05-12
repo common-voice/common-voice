@@ -343,7 +343,19 @@ faq-when-release-q = Kiedy wydacie dane Common Voice w innych językach?
 faq-why-mission-q = Dlaczego Common Voice jest częścią misji Mozilli?
 faq-what-cv-and-deepspeech-q = Jaka jest różnica między Common Voice a Deep Speech?
 faq-is-goal-assistant-q = Czy celem Common Voice jest zbudowanie asystenta głosowego?
+faq-do-want-native-q = Nie jestem rodzimym użytkownikiem języka i mówię z akcentem. Czy dalej chcecie mój głos?
+faq-why-different-speakers-q = Dlaczego potrzeba tylu różnych osób mówiących w danym języku?
+faq-why-my-lang-q = Dlaczego mój język nie jest jeszcze dodany?
+faq-what-quality-q = Jakiej jakości musi być nagranie, aby zostało użyte w zbiorze danych?
+faq-why-10k-hours-q = Dlaczego celem dla każdego z języków jest 10 tysięcy sprawdzonych godzin nagrań?
+faq-why-10k-hours-a = Jest to przybliżona liczba godzin wymagana do uruchomienia systemu rozpoznawania mowy.
+faq-how-calc-hours-q = W jaki sposób Common Voice oblicza godziny?
+faq-where-src-from-2-q = Skąd pochodzi tekst źródłowy?
+faq-why-not-ask-read-q = Dlaczego nie prosicie uczestników o czytanie z książek lub artykułów z Wikipedii w różnych językach?
 faq-why-account-q = Po co mam zarejestrować konto?
+faq-is-account-public-q = Czy informacje zawarte na moim koncie są publiczne?
+faq-how-privacy-q = W jaki sposób zapewniacie anonimowość i prywatność osób, które przekazały nagrania?
+faq-what-determine-identity-q = Co to znaczy, że nie mogę „ustalać tożsamości” osób mówiących w zbiorze danych Common Voice?
 faq-what-is-cv = Czym jest Common Voice?
 faq-using-cv = Jak używać Common Voice
 faq-description = Projekt Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi.
@@ -354,6 +366,9 @@ faq-search-for-answers =
 
 about-title = Dlaczego Common Voice?
 about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
+about-header-description =
+    Oba te projekty są częścią naszych wysiłków na rzecz zniwelowania podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
+    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
 how-does-it-work-title = Jak to działa
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
 about-speak = Nagrywanie
@@ -474,7 +489,7 @@ dataset-description-hours =
     Każdy zapis w zbiorze danych składa się z unikalnego pliku MP3 i odpowiadającemu mu pliku tekstowego. Wiele z <b>{ $total }</b> nagranych godzin w zbiorze zawiera także metadane demograficzne, takie jak wiek, płeć i akcent, które mogą pomóc w trenowaniu dokładności mechanizmów rozpoznawania mowy.
     
     Obecnie zbiór danych składa się z <b>{ $valid }</b> sprawdzonych godzin nagrań w <b>{ $languages }</b> językach, ale zawsze dodajemy więcej głosów i języków. <languagesLink>Strona języków</languagesLink> umożliwia zaproponowanie języka i rozpoczęcie nagrywania.
-want-dataset-update = Chcesz otrzymywać informację, gdy wydamy nową wersję zbioru danych Common Voice? Subskrybuj nasz biuletyn.
+want-dataset-update = Chcesz otrzymywać powiadomienia, gdy wydajemy nową wersję zbioru danych Common Voice? Subskrybuj nasz biuletyn.
 subscribe = Subskrybuj
 get-started-speech = Poznaj rozpoznawanie mowy
 other-datasets = Inne zbiory danych
@@ -527,7 +542,7 @@ other-language = Inny język
 ## Languages Overview
 
 language-section-in-progress = W trakcie
-language-section-in-progress-new-description = Te języki są obecnie w trakcie rozwoju przez społeczność. Paski postępu wskazują postęp <localizationGlossaryLink>tłumaczenia strony</localizationGlossaryLink> oraz <sentenceCollectionGlossaryLink>zbierania zdań</sentenceCollectionGlossaryLink> danego języka.
+language-section-in-progress-new-description = Te języki są obecnie w trakcie rozwoju przez społeczność. Paski postępu wskazują postęp <localizationGlossaryLink>tłumaczenia strony</localizationGlossaryLink> oraz <sentenceCollectionGlossaryLink>zbierania zdań</sentenceCollectionGlossaryLink> dla danego języka.
 language-section-launched = Działające
 language-section-launched-description = Dla tych języków strona została pomyślnie <localizationGlossaryLink>przetłumaczona</localizationGlossaryLink> i jest dość <sentenceCollectionGlossaryLink>zebranych zdań</sentenceCollectionGlossaryLink>, aby umożliwić <speakLink>nagrywanie</speakLink> i <listenLink>odsłuchiwanie</listenLink>.
 languages-show-more = Więcej
