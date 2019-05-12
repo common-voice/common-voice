@@ -150,7 +150,7 @@ logout = Wyloguj się
 
 ## Home Page
 
-home-title = Projekt Common Voice to inicjatywa Mozilli pomagająca w uczeniu maszyn mowy prawdziwych ludzi.
+home-title = Common Voice to inicjatywa Mozilli pomagająca w uczeniu maszyn mowy prawdziwych ludzi.
 home-cta = Nagrywaj i pomagaj!
 wall-of-text-start = Mowa to dla nas coś naturalnego i ludzkiego. Dlatego tak bardzo fascynuje nas tworzenie systemu rozpoznawania mowy, który mogłyby wykorzystywać maszyny. Ale aby to osiągnąć, potrzeba niezwykle obszernej bazy danych z nagraniami ludzkiej mowy.
 wall-of-text-more-mobile = Dane wykorzystywane przez duże firmy są niedostępne dla większości. Uważamy, że to hamuje rozwój. Dlatego uruchomiliśmy projekt Common Voice, który ma sprawić, aby systemy rozpoznawania głosu były dostępne dla każdego.
@@ -294,7 +294,7 @@ other = Inna
 why-profile-title = Po co profil?
 why-profile-text = Podając pewne informacje o sobie, dane dźwiękowe wysyłane do projektu Common Voice będą bardziej przydatne dla mechanizmów rozpoznawania mowy, które korzystają z tych danych do zwiększenia dokładności.
 dashboard = Panel
-build-profile = Zbuduj profil
+build-profile = Utwórz profil
 avatar = Awatar
 goals = Cele
 settings = Ustawienia
@@ -302,7 +302,7 @@ edit-profile = Edytuj profil
 profile-create-success = Pomyślnie utworzono profil.
 profile-close = Zamknij
 profile-explanation = Kontroluj swój postęp za pomocą profilu i pomóż zwiększyć dokładność naszych danych.
-thanks-for-account = Dziękujemy za potwierdzenie konta. Zbudujmy teraz Twój profil.
+thanks-for-account = Dziękujemy za potwierdzenie konta. Utworzymy teraz Twój profil.
 why-demographic = Dlaczego to ważne?
 why-demographic-explanation = Anonimowe dane o użytkowniku, takie jak wiek, płeć i akcent zwiększają jakość danych dźwiękowych używanych do trenowania dokładności mechanizmów rozpoznawania mowy. Twoja nazwa użytkownika i adres e-mail nigdy nie będą powiązane z przesyłanymi danymi, a także możesz ustawić, czy nazwa użytkownika ma być publiczna lub anonimowa.
 accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
@@ -336,14 +336,32 @@ faq-what-cv-q = Czym jest Common Voice?
 faq-what-cv-a =
     Technologia rozpoznawania głosu rewolucjonizuje sposób używania maszyn, ale obecnie dostępne systemy są kosztowne i zastrzeżone. Common Voice jest częścią inicjatywy Mozilli mającej na celu uczynienie rozpoznawania głosu lepszym i dostępnym dla każdego. Common Voice to ogromna globalna baza nagrań głosu, która pozwala każdemu szybko i łatwo trenować aplikacje obsługujące głos w potencjalnie każdym języku.
     
-    Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści. Oprócz zbioru danych Common Voice budujemy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
+    Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 faq-why-important-q = Dlaczego to jest ważne?
 faq-why-account-q = Po co mam zarejestrować konto?
+faq-what-is-cv = Czym jest Common Voice?
+faq-using-cv = Jak używać Common Voice
 faq-description = Projekt Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi.
+faq-search-for-answers =
+    .label = Wyszukaj odpowiedzi
 
 ## ABOUT US
 
+about-title = Dlaczego Common Voice?
+about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 how-does-it-work-title = Jak to działa
+about-speak = Nagrywanie
+about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
+about-listen-queue = Kolejka do odsłuchania
+about-listen-queue-text = Nagrania są umieszczane w kolejce, która przygotowuje je do odsłuchu.
+about-listen = Odsłuchiwanie
+about-listen-text = Użytkownicy sprawdzają dokładność nagrań, kontrolując czy zdanie zostało poprawie przeczytane.
+about-is-it-valid = Czy nagranie jest prawidłowe?
+about-is-it-valid-text = Nagranie zostaje oznaczone jako „prawidłowe”, kiedy użytkownik zagłosuje na tak.
+about-yes-votes = ≥ 2 głosy na tak
+about-yes-votes-text = Aby trafić do zbioru danych Common Voice, nagranie musi zostać sprawdzone przez dwóch użytkowników.
+about-no-votes = ≥ 2 głosy na nie
+about-dataset = Zbiór danych Common Voice
 about-partners = Partnerzy
 about-become-a-partner = Zostań partnerem
 about-get-involved = Dołącz do nas
@@ -479,7 +497,9 @@ other-language = Inny język
 ## Languages Overview
 
 language-section-in-progress = W trakcie
+language-section-in-progress-new-description = Te języki są obecnie w trakcie rozwoju przez społeczność. Paski postępu wskazują postęp <localizationGlossaryLink>tłumaczenia strony</localizationGlossaryLink> oraz <sentenceCollectionGlossaryLink>zbierania zdań</sentenceCollectionGlossaryLink> danego języka.
 language-section-launched = Działające
+language-section-launched-description = Dla tych języków strona została pomyślnie <localizationGlossaryLink>przetłumaczona</localizationGlossaryLink> i jest dość <sentenceCollectionGlossaryLink>zebranych zdań</sentenceCollectionGlossaryLink>, aby umożliwić <speakLink>nagrywanie</speakLink> i <listenLink>odsłuchiwanie</listenLink>.
 languages-show-more = Więcej
 languages-show-less = Mniej
 language-speakers = Osoby mówiące
@@ -497,7 +517,7 @@ total-hours = Razem godzin
 action-click = Kliknij
 action-tap = Stuknij
 contribute = Nagraj
-listen = Posłuchaj
+listen = Odsłuchaj
 skip = Pomiń
 shortcuts = Skróty
 clips-with-count = Nagrania <bold>{ $count }</bold>
@@ -531,7 +551,7 @@ record-abort-submit = Wyślij nagrania
 record-abort-continue = Dokończ nagrywanie
 record-abort-delete = Wyjdź i usuń nagrania
 listen-instruction = { $actionType } <playIcon></playIcon> czy poprawnie wymówiono zdanie?
-listen-again-instruction = Świetna robota! <playIcon></playIcon> Posłuchaj ponownie
+listen-again-instruction = Świetna robota! <playIcon></playIcon> Odsłuchaj ponownie
 listen-3rd-time-instruction = Dwa zrobione <playIcon></playIcon>, tak trzymaj!
 listen-last-time-instruction = <playIcon></playIcon> Ostatnie!
 nothing-to-validate = Nie mamy nic do zweryfikowania w tym języku, pomóż nam wypełnić kolejkę.
@@ -585,4 +605,8 @@ keep = Zachowaj
 remove = Usuń
 keep-info = Twoje anonimowe nagrania pozostaną w zbiorze danych Common Voice. Po usunięciu profilu nie będzie już można wysłać prośby o ich usunięcie
 remove-info = Zweryfikujemy Twoją prośbę o usunięcie nagrań ze zbioru danych. Jeśli zostanie zatwierdzona, skontaktujemy się z tymi, którzy pobrali zbiór i poprosimy ich o usunięcie Twoich nagrań.
+why-delete-recordings =
+    Nagrania projektu Common Voice są używane przez naukowców, małe firmy i entuzjastów technologii rozpoznawania głosu, aby pomóc w trenowaniu i rozwijaniu publicznie dostępnych zasobów, takich jak modele głosu.
+    
+    Czy możesz nam powiedzieć, dlaczego chcesz, aby Twoje nagrania zostały usunięte?
 profile-form-delete = Usuń profil
