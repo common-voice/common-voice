@@ -403,15 +403,29 @@ about-no-votes-text = Kur një përdorues e hedh poshtë një copëz zanore, ajo
 about-dataset = Grup të Dhënash Common Voice
 about-dataset-text = Grupi i të Dhënave Common Voice përmban qindra mijëra copëza zanore që u vijnë në ndihmë zhvilluesve të ndërtojnë mjete kuptimi të folure.
 about-clip-graveyard = Varrezë Copëzash
+about-clip-graveyard-text = Varreza e Copëzave përbëhet nga copëza zanore që nuk arritën të bëhen pjesë e grupit të të dhënave Common Voice. Ashtu si grupi i të dhënave, edhe Varreza e Copëzave mund të shkarkohet.
 about-partners = Partnerë
 about-become-a-partner = Bëhuni një partner
+about-partnership =
+    Common Voice është një projekt i ngritur mbi bashkëpunimin, dhe për të krijuar grupin e zërave me burim të hapur, më të madh deri sot, varemi nga partnerët dhe bashkëpunëtorët e bashkësisë.
+    
+    We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Përfshihuni
+about-get-involved-text =
+    Doni të ndihmoni për ta bërë edhe më të mirë Common Voice-in?
+    Bukur! Lidhuni përmes email-i, ose përmes <discourseLink>Discourse</discourseLink>,
+    parashtroni mendime përmes <githubLink>GitHub</githubLink>,
+    ose merrni pjesë në kanalin tonë <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Pse?
 about-nav-how-it-works = Si?
 about-nav-partners = Partnerë
 about-nav-get-involved = Përfshihuni
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligjencë Artificiale
+mycroft-description =
+    Mycroft është asistenti i parë në botë me burim të hapur.
+    Mycroft xhiron kudo - në kompjuter desktop, brenda një automjeti, ose në një Raspberry Pi.
+mycroft-secondary-description = Ky është <em>software</em> që mund të ripërzihet, zgjerohet dhe përmirësohet lirisht. Mycroft mund të përdoret për gjithçka, nga projekte shkencore deri te aplikacione  software-i në shkallë industriale.
 
 ## Glossary
 
