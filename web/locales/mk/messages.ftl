@@ -103,12 +103,15 @@ wall-of-text-more-desktop =
     Сега можете да го донирате вашиот глас за да ни помогнете да создадеме гласовна база на податоци
     со отворен код која секој може да ја користи за да креира иновативни апликации за уреди и за веб.<lineBreak></lineBreak>
     Прочитајте реченица за да им помогнете на машините да научат како вистинските луѓе зборуваат. Проверете ја работата на други соработници за да го подобрите квалитетот. Тоа е толку едноставно!
+wall-of-text-second = Најголемиот дел на податоците кои ги користат големите компании не е достапен за мнозинството луѓе. Ние мислиме дека тоа ја стагнира иновацијата. Па затоа го создадовме Common Voice, проект со кој ќе го направиме препознавањето на глас отворено и достапно за сите.
 show-wall-of-text = Прочитај повеќе
 help-us-title = Помогнете ни да валидираме реченици!
 help-us-explain = Слушнете и кажете ни: дали подолната реченица беше прочитана точно?
 vote-yes = Да
 vote-no = Не
 toggle-play-tooltip = Притиснете { shortcut-play-toggle } за преслушување
+speak-subtitle = Донирај го својот глас
+today = Денес
 
 ## Account Benefits
 
@@ -160,6 +163,8 @@ profile-form-age =
     .label = Возраст
 profile-form-gender =
     .label = Пол
+native-language =
+    .label = Мајчин јазик
 profile-form-submit-save = Сними
 profile-form-submit-saved = Снимено
 male = Maшки
@@ -267,14 +272,21 @@ language-speakers = Говорници
 
 ## New Contribution
 
+listen = Слушај
+skip = Прескокни
+shortcuts = Кратенки
 record-platform-not-supported = Се извинуваме, но вашата платформа сѐ уште не е поддржана.
 record-platform-not-supported-desktop = На компјутер, можете да ги преземете најновите:
 record-platform-not-supported-ios = Корисниците на <bold>iOS</bold> може да ја преземат нашата бесплатна апликација:
 record-must-allow-microphone = Морате да дозволите пристап до микрофонот.
+record-no-mic-found = Не е пронајден микрофон.
 record-error-too-short = Снимката беше премногу кратка.
 record-error-too-long = Снимката беше премногу долга.
 record-error-too-quiet = Снимката беше премногу тивка.
 record-cancel = Откажи преснимување
+record-three-more-instruction = Уште три!
+listen-last-time-instruction = <playIcon></playIcon>Последен!
+share-title-new = <bold>Помогни ни</bold> да најдеме повеќе гласови
 
 ## Goals
 
