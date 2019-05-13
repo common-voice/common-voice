@@ -167,7 +167,7 @@ button.card-action:focus.focus-visible path {
         top: -6px;
 
         & path {
-            fill: var(--black);
+            fill: var(--near-black);
         }
     }
 
