@@ -129,7 +129,7 @@ zh-TW = Ҳан (Ҳаиуан)
 
 speak = Аҭаҩра
 speak-now = Абжьы ҭаҩра алагара
-datasets = Адыррақәа-реизга
+datasets = Адыррақәа реизга
 languages = Абызшәақәа
 profile = Аҷыдахәра
 help = Аилыркаа
@@ -332,12 +332,19 @@ faq-where-src-from-2-q = Иабантәи зегь аҳәоуқәа ахыҵхы
 faq-is-account-public-q = Сҳасабрбатә нҵамҭа адыррақәа аицзеиԥшоума?
 faq-what-is-cv = Изакәузеи Common Voice?
 faq-using-cv = Common Voice ахархәара
+faq-search-for-answers =
+    .label = Аҭакқәа аԥшаара
 
 ## ABOUT US
 
+about-title = Изаҭахузеи Common Voice?
 about-speak = Уцәажәа
 about-listen = Уазыӡырҩы
+about-dataset = Common Voice адыррақәа реизга
+about-nav-why-common-voice = Избан?
+about-nav-how-it-works = Ишԥа?
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Иԥсабаратәым аин­тел­лект
 
 ## Glossary
 
