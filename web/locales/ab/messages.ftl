@@ -330,9 +330,14 @@ faq-how-get-q = Common Voice адыррақәа излазго?
 faq-why-my-lang-q = Избан сбызшәа макьана иҟамлаӡацт?
 faq-where-src-from-2-q = Иабантәи зегь аҳәоуқәа ахыҵхырҭа?
 faq-is-account-public-q = Сҳасабрбатә нҵамҭа адыррақәа аицзеиԥшоума?
+faq-what-is-cv = Изакәузеи Common Voice?
+faq-using-cv = Common Voice ахархәара
 
 ## ABOUT US
 
+about-speak = Уцәажәа
+about-listen = Уазыӡырҩы
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
