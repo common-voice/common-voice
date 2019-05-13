@@ -29,6 +29,7 @@ ar = Arabisht
 as = Asamezisht
 ast = Asturisht
 az = Azerbajxhanisht
+ba = Bashkire
 bg = Bullgarisht
 bn = Bengalisht
 br = Bretonisht
@@ -101,6 +102,7 @@ sr = Serbisht
 sv-SE = Suedisht
 ta = Tamileze
 te = Telugu
+tg = Taxhike
 th = Tajlandisht
 tr = Turqisht
 tt = Tatare
@@ -124,6 +126,7 @@ speak = Flisni
 speak-now = Flisni tani
 datasets = Grupe të dhënash
 languages = Gjuhë
+about = Mbi
 profile = Profil
 help = Ndihmë
 contact = Kontakt
@@ -312,6 +315,7 @@ connect-gravatar = Lidhuni përmes Gravatari
 gravatar_not_found = S’u gjet gravatar për email-in tuaj
 file_too_large = Kartela e përzgjedhur është shumë e madhe
 manage-subscriptions = Administroni Pajtime
+manage-email-subscriptions = Administroni Pajtime Me Email
 email-already-used = Email-i është tashmë i përdorur për një tjetër llogari
 add-language = Shtoni Gjuhë
 change-email-setings = Ndryshojeni email-in tuaj që nga Rregullimet , te ndarja Identitet Hyrjesh
@@ -369,6 +373,45 @@ faq-what-determine-identity-a =
     Grupi i të dhënave Common Voice është një burim i hapur dhe i përdorshëm publikisht, që mund të përdoret për të stërvitur një gamë të gjerë aplikacionesh që përdorin të folurën. Për të mbrojtur sigurinë e kontribuesve tanë,  i kërkojmë cilitdo që shkarkon grupin e të dhënave Common Voice të respektojë privatësinë e kontribuesve.
     
     All voice clips in the dataset are scrubbed of personally identifying information.  When you download the dataset, you agree to not attempt  to determine  the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
+faq-what-is-cv = Ç’është Common Voice?
+faq-using-cv = Si të përdoret Common Voice
+faq-description = Common Voice është pjesë e nismës së Mozilla-s për të ndihmuar që makinat të mësojnë se si flasin njerëzit realë.
+faq-search-for-answers =
+    .label = Kërkoni për përgjigje
+
+## ABOUT US
+
+about-title = Ç’duhet Common Voice?
+about-subtitle = Common Voice është pjesë e nismës së Mozilla-s për të ndihmuar që makinat të mësojnë se si flasin njerëzit realë. Përveç grupeve të të dhënave Common Voice, po krijojmë edhe një motor kuptimi të folure, me burim të hapët, të quajtur Deep Speech.
+about-header-description =
+    Që të dy këta projekte janë pjesë e përpjekjeve tona për të mbushur hendekun në të folurën digitale. Teknologjitë për kuptimin e të folurës sjellin një përmasë njerëzore te pajisjet tona, por për t’i krijuar ato zhvilluesve u duhen sasi të stërmëdha të dhënash zanore. Hëpërhë, shumica e këtyre të dhënave janë të shtrenjta dhe pronësore.
+    Duam t’i bëjmë të dhënat zanore të përdorshme lirisht dhe publikisht, dhe të bëjmë të mundur që të dhënat përfaqësojnë larminë e njerëzve realë. Tok, mund ta bëjmë kuptimin e të folurës më të mirë për këdo.
+how-does-it-work-title = Si funksionon?
+how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të regjistruara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
+about-speak = Flisni
+about-speak-text = Kontribuesit incizojnë copëza zanore duke lexuar prej një fondi frazash të dhuruara.
+about-listen-queue = Radhë Dëgjimi
+about-listen-queue-text = Copëzat zanore parashtrohen në një radhë ku përgatiten për dëgjim.
+about-listen = Dëgjoni
+about-listen-text = Përdoruesit gjykojnë përpikërinë e copëzave të dhuruara, duke kontrolluar që folësi e lexon frazën saktësisht.
+about-is-it-valid = Është e vlefshme copëza?
+about-is-it-valid-text = Një copëze zanore i vihet shenjë si "e vlefshme" kur një përdorues i jep një votë Po.
+about-yes-votes = ≥ 2 vota Po
+about-yes-votes-text = Për t’u bërë pjesë e grupit të të dhënave Common Voice, një copëz zanore duhet vleftësuar nga dy përdorues të ndryshëm.
+about-no-votes = ≥ 2 vota Jo
+about-no-votes-text = Kur një përdorues e hedh poshtë një copëz zanore, ajo rikthehet te Radha. Nëse hidhet poshtë edhe një herë, copëza zanore shpihet te Varreza e Copëzave.
+about-dataset = Grup të Dhënash Common Voice
+about-dataset-text = Grupi i të Dhënave Common Voice përmban qindra mijëra copëza zanore që u vijnë në ndihmë zhvilluesve të ndërtojnë mjete kuptimi të folure.
+about-clip-graveyard = Varrezë Copëzash
+about-partners = Partnerë
+about-become-a-partner = Bëhuni një partner
+about-get-involved = Përfshihuni
+about-nav-why-common-voice = Pse?
+about-nav-how-it-works = Si?
+about-nav-partners = Partnerë
+about-nav-get-involved = Përfshihuni
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Inteligjencë Artificiale
 
 ## Glossary
 
