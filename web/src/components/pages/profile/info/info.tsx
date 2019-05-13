@@ -19,6 +19,7 @@ import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
+import TermsModal from '../../../terms-modal';
 import { DownIcon } from '../../../ui/icons';
 import {
   Button,
@@ -79,6 +80,7 @@ interface State {
   isSubmitted: boolean;
   privacyAgreed: boolean;
   showDemographicInfo: boolean;
+  termsStatus: null | 'show' | 'agreed';
 }
 
 class ProfilePage extends React.Component<Props, State> {
@@ -118,6 +120,7 @@ class ProfilePage extends React.Component<Props, State> {
       isSubmitted: false,
       privacyAgreed: Boolean(account) || props.user.privacyAgreed,
       showDemographicInfo: false,
+      showTermsModal: false,
     };
   }
 
@@ -178,27 +181,35 @@ class ProfilePage extends React.Component<Props, State> {
     } = this.props;
     if (!user.account) {
       trackProfile('create', locale);
+
+      if (this.state.termsStatus == null) {
+        this.setState({ termsStatus: 'show' });
+        return;
+      }
     }
-    this.setState({ isSaving: true, isSubmitted: true }, () => {
-      addUploads([
-        async () => {
-          if (
-            !(user.account && user.account.basket_token) &&
-            this.state.sendEmails
-          ) {
-            await api.subscribeToNewsletter(user.userClients[0].email);
-          }
-          saveAccount({
-            ...pick(this.state, 'username', 'age', 'gender'),
-            locales: this.state.locales.filter(l => l.locale),
-            visible: JSON.parse(this.state.visible.toString()),
-            client_id: user.userId,
-          });
-          this.setState({ isSaving: false });
-          addNotification(getString('profile-form-submit-saved'));
-        },
-      ]);
-    });
+    this.setState(
+      { isSaving: true, isSubmitted: true, termsStatus: 'agreed' },
+      () => {
+        addUploads([
+          async () => {
+            if (
+              !(user.account && user.account.basket_token) &&
+              this.state.sendEmails
+            ) {
+              await api.subscribeToNewsletter(user.userClients[0].email);
+            }
+            saveAccount({
+              ...pick(this.state, 'username', 'age', 'gender'),
+              locales: this.state.locales.filter(l => l.locale),
+              visible: JSON.parse(this.state.visible.toString()),
+              client_id: user.userId,
+            });
+            this.setState({ isSaving: false });
+            addNotification(getString('profile-form-submit-saved'));
+          },
+        ]);
+      }
+    );
   };
 
   render() {
@@ -215,6 +226,7 @@ class ProfilePage extends React.Component<Props, State> {
       isSubmitted,
       privacyAgreed,
       showDemographicInfo,
+      termsStatus,
     } = this.state;
 
     if (!user.account && user.userClients.length == 0) {
@@ -223,6 +235,12 @@ class ProfilePage extends React.Component<Props, State> {
 
     return (
       <div className="profile-info">
+        {termsStatus == 'show' && (
+          <TermsModal
+            onAgree={this.submit}
+            onDisagree={() => this.setState({ termsStatus: null })}
+          />
+        )}
         {!user.account && (
           <Localized id="thanks-for-account">
             <h2 />
@@ -270,7 +288,7 @@ class ProfilePage extends React.Component<Props, State> {
           </Localized>
 
           <Localized id="profile-form-age" attrs={{ label: true }}>
-            <LabeledSelect value={age} onChange={this.handleChangeFor('age')}>
+            <LabeledSelect val ue={age} onChange={this.handleChangeFor('age')}>
               <Options>{AGES}</Options>
             </LabeledSelect>
           </Localized>

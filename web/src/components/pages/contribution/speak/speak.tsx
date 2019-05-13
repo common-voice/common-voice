@@ -22,6 +22,7 @@ import {
   LocalePropsFromState,
 } from '../../../locale-helpers';
 import Modal, { ModalButtons } from '../../../modal/modal';
+import TermsModal from '../../../terms-modal';
 import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
 import { Button, TextButton } from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
@@ -493,17 +494,10 @@ class SpeakPage extends React.Component<Props, State> {
           )}
         </NavigationPrompt>
         {showPrivacyModal && (
-          <Localized
-            id="review-terms"
-            termsLink={<LocaleLink to={URLS.TERMS} blank />}
-            privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
-            <Modal
-              buttons={{
-                [getString('terms-agree')]: this.agreeToTerms,
-                [getString('terms-disagree')]: this.toggleDiscardModal,
-              }}
-            />
-          </Localized>
+          <TermsModal
+            onAgree={this.agreeToTerms}
+            onDisagree={this.toggleDiscardModal}
+          />
         )}
         {showDiscardModal && (
           <Localized id="review-aborted">
