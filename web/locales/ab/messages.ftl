@@ -440,6 +440,7 @@ download = Иҭагалатәуп
 ## Download Modal
 
 download-title = Уҭагалара иалагеит.
+download-helpus = Абызшәақәа ртехнологиақәа рзы аилазаара аԥҵараҿы ацхыраара ҳауҭа, аелектронтә ԥошьҭала ҳаимадараҟны уҟаз.
 download-form-email =
     .label = Уелектронтә ԥошьҭа ҭагал
     .value = Иҭабуп, аимадараҿ ҳаҟоуп.
@@ -460,6 +461,8 @@ contact-required = *Иаҭахуп
 request-language-title = Абызшәазы адҵаалара
 request-language-form-language =
     .label = Абызшәа
+request-language-success-title = Абызшәа ҿыц ацҵаразы аҳәара иманшәаланы ишьҭуп, иҭабуп.
+request-language-success-content = Ҳара излауала ирласны иуаҳҳәоит Common Voice аҟны уара убызшәагьы шацҵатәу.
 select-language = Иалх Абызшәа...
 other-language = Даҽа абызшәа
 
