@@ -544,7 +544,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> ииаиганы иа�
 listen-again-instruction = Аус бзиоуп! <playIcon></playIcon> Уаназошоу даҽазнык уазыӡырҩы.
 listen-3rd-time-instruction = Ҩба мазеиуп <playIcon></playIcon> иацуҵа!
 listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
+nothing-to-validate = Аишьҭагыла ахархәараҟны уҳацхраа, ари абызшәала арҽеирақәа злаҟаҳҵаша акгьы ҳамам.
 record-button-label = Убжьы ҭаҩтәуп
+share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны рыԥшаараҿы.
 
 ## Goals
 
@@ -559,12 +561,20 @@ recordings =
         [one] нҵамҭак
        *[other] нҵамҭак
     }
+validations =
+    { $count ->
+        [one] Гәаҭарак
+       *[other] Гәаҭарак
+    }
 
 ## Dashboard
 
 your-languages = Убызшәақәа
+toward-next-goal = Анаҩстәи ахықәкы.
 clips-you-recorded = Абжьы рхаурҵаз анҵамҭақәа
 clips-you-validated = Игәауҭаз анҵамҭақәа
+todays-recorded-progress = Common Voice аҟны иахьа анҵамҭақәа ҟаҵоуп.
+todays-validated-progress = Common Voice аҟны иахьа анҵамҭақәа гәаҭоуп.
 stats = Аҭагылазаашьа
 you = Уара
 everyone = Ахархәаҩцәа зегьы
@@ -572,6 +582,8 @@ contribution-activity = Аҽалархәра Аусушьа
 top-contributors = Ахыхь Алахәылацәа
 recorded-clips = Анҵамҭақәа абжьы ахарҵеит
 validated-clips = Анҵамҭақәа гәаҭан
+total-approved = Зынӡа игәаҭоуп.
+overall-accuracy = Азеиԥш иашара.
 
 ## Profile Delete
 
