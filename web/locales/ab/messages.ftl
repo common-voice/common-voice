@@ -507,7 +507,16 @@ shortcuts = Арыд ласқәа
 clips-with-count = <bold>{ $count }</bold> анҵамҭақәа
 goal-help-recording = Ҳара есымшатәи ҳхықәкы { $goalValue } <goalPercentage></goalPercentage> аҩаӡара Common Voice аҟынӡа ашьҭыхраҿы уара ацхыраара ҳауҭеит.
 goal-help-validation = Ҳара есымшатәи ҳхықәкы { $goalValue } <goalPercentage></goalPercentage> аҩаӡара Common Voice аҟынӡа агәаҭараҿы уара ацхыраара ҳауҭеит.
+contribute-more =
+    { $count ->
+        [one] Уара уазхиоума даҽа { $count } аҟаҵара?
+       *[other] Уара уазхиоума даҽа { $count } аҟаҵара?
+    }
 record-cta = Абжьы ҭаҩра иалагоит
+record-platform-not-supported = Ҳгәы иалоуп уажәазы уара уплатформа ацхыраара ахьамам.
+record-platform-not-supported-desktop = Астол иқәдыргыло акомпиутерқәа ирҭаугалар улшоит аҵыхәтәантәи:
+record-platform-not-supported-ios = <bold>iOS</bold> ахархәаҩцәа ирылшоит ҳара ҳацҵамҭақәа амалаҳәа аҭагалара:
+record-must-allow-microphone = Уара азин ҟауҵароуп амикрафон ахархәара.
 record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Абжьы ҭаҩра кьаҿуп
 record-error-too-long = Абжьы ҭаҩра аууп
@@ -516,6 +525,8 @@ record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
 record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны аҳәоу уаԥхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ихианы ианбаҟало
 record-three-more-instruction = Х-ҳәоук аанхеит!
+record-again-instruction = Ихазыноуп! <recordIcon></recordIcon> Ианыуҵа анаҩстәи уклип.
+record-again-instruction2 = Иацыуҵа, ианыуҵа еиҭа <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> аҵыхәтәантәи!
 clips-uploaded = Анҵамҭақәа ҭагалан
 record-abort-submit = Анҵамҭақәа шьҭтәуп
