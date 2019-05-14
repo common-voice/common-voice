@@ -181,18 +181,18 @@ all-locales = Барыта
 today = Бүгүн
 x-weeks-short =
     { $count ->
-        [one] Нэдиэлэ
-       *[other] { $count } нэдиэлэ
+        [one] { $count }нэдиэлэ
+       *[other] { $count }нэдиэлэ
     }
 x-months-short =
     { $count ->
-        [one] Ый
-       *[other] ый
+        [one] { $count }ый
+       *[other] { $count }ый
     }
 x-years-short =
     { $count ->
-        [one] Сыл
-       *[other] сыл
+        [one] { $count }сыл
+       *[other] { $count }сыл
     }
 help-make-dataset = Биһиэхэ көмөлөс үрдүк хаачыстыбалаах аһаҕас дааннай наборын оҥорорго
 profile-not-required = Профиль хайаан да ирдэммэт, ол гынан баран туһалаах
