@@ -309,6 +309,7 @@ connect-gravatar = Иацҵа Граватар
 gravatar_not_found = Ари аелектронтә ԥошьҭа аҭыӡҭа Граватвр аҟны иҭагалаӡом
 file_too_large = Иалху афаил амҽхак мыцхәы идууп
 manage-subscriptions = Анапаҵаҩрақәа рнапхгара
+manage-email-subscriptions = Аԥошьҭа анапаҵаҩрақәа рнапхгара
 email-already-used = Ари аелектронтә ԥошьҭа даҽа ҳасабрбатә нҵамҭак аҟны ахархәара амоуп
 add-language = Абызшәа ацҵара
 change-email-setings = Аҭагаларазы аидентификатор архиага аҟәшала ,уелектронтә ԥошьҭа аҭыӡҭа ԥсах
@@ -332,6 +333,7 @@ faq-where-src-from-2-q = Иабантәи зегь аҳәоуқәа ахыҵхы
 faq-is-account-public-q = Сҳасабрбатә нҵамҭа адыррақәа аицзеиԥшоума?
 faq-what-is-cv = Изакәузеи Common Voice?
 faq-using-cv = Common Voice ахархәара
+faq-description = Common Voice ари Mozilla иаҵанакуа ауаа хаҭала рцәажәашьа амашьынақәа идзырҵо ԥшьгамҭоуп.
 faq-search-for-answers =
     .label = Аҭакқәа аԥшаара
 
