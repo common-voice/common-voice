@@ -481,7 +481,9 @@ other-language = Даҽа абызшәа
 ## Languages Overview
 
 language-section-in-progress = Анагӡара иаҿуп
+language-section-in-progress-new-description = Ҳусзуҩцәа, апрограмма алаҵаразы зазырхиара иаҿу, абызшәақәа ирызку адыррақәа реизҳашьа рныԥшуеит <localizationGlossaryLink>асаити</localizationGlossaryLink> <sentenceCollectionGlossaryLink>алагаламҭақәа аус рыдулара</sentenceCollectionGlossaryLink> аетапқәеи.
 language-section-launched = Аус арууп
+language-section-launched-description = Урҭ абызшәақәа иманшәаланы иалхуп <sentenceCollectionGlossaryLink>алагалақәагьы маҷымқәа</sentenceCollectionGlossaryLink> <localizationGlossaryLink>иацҵоуп авеб-саит</localizationGlossaryLink>, урҭ <speakLink>ахҳәааҟаҵареи</speakLink> <listenLink>азыӡырҩреи</listenLink> амҩақәа рыла аус рыдулара ацҵаразы.
 languages-show-more = Арҭбаара
 languages-show-less = Армаҷра
 language-speakers = Ицәажәо
@@ -503,6 +505,8 @@ listen = Азыӡырҩра
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
 clips-with-count = <bold>{ $count }</bold> анҵамҭақәа
+goal-help-recording = Ҳара есымшатәи ҳхықәкы { $goalValue } <goalPercentage></goalPercentage> аҩаӡара Common Voice аҟынӡа ашьҭыхраҿы уара ацхыраара ҳауҭеит.
+goal-help-validation = Ҳара есымшатәи ҳхықәкы { $goalValue } <goalPercentage></goalPercentage> аҩаӡара Common Voice аҟынӡа агәаҭараҿы уара ацхыраара ҳауҭеит.
 record-cta = Абжьы ҭаҩра иалагоит
 record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Абжьы ҭаҩра кьаҿуп
