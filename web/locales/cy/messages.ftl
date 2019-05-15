@@ -350,11 +350,11 @@ faq-what-cv-q = Beth yw Common Voice?
 faq-what-cv-a =
     Mae technoleg adnabod llais yn chwyldroi'r ffordd rydym yn rhyngweithio â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn berchnogol. Mae Common Voice yn rhan o fenter Mozilla i wneud technolegau adnabod llais yn well ac yn fwy hygyrch i bawb. Mae Common Voice yn gronfa ddata fyd-eang enfawr o leisiau rhodd sy'n rhoi cyfle i unrhyw un apiau llais yn gyflym a rhwydd ym mhob iaith ac i bob pwrpas.
     
-    Rydym nid yn unig yn casglu samplau llais mewn ieithoedd llafar eang ond hefyd yn y rheiny â phoblogaeth lai o siaradwyr. Bydd cyhoeddi set ddata amrywiol o leisiau yn rhoi grym i ddatblygwyr, entrepreneuriaid a chymunedau i fynd i'r afael â'r bwlch hwn eu hunain. Yn ogystal â set ddata'r Llais Cyffredin, rydym hefyd yn adeiladu peiriant adnabod lleferydd agored o'r enw Llefarydd Deep.
+    Rydym nid yn unig yn casglu samplau llais mewn ieithoedd llafar eang ond hefyd yn y rheiny â phoblogaeth lai o siaradwyr. Bydd cyhoeddi set ddata amrywiol o leisiau yn rhoi grym i ddatblygwyr, entrepreneuriaid a chymunedau i fynd i'r afael â'r bwlch hwn eu hunain. Yn ogystal â set ddata Common Voice, rydym hefyd yn adeiladu peiriant adnabod lleferydd agored o'r enw Deep Speech.
 faq-why-important-q = Pam mae hyn yn bwysig?
 faq-why-important-a =
     Yn aml, defnyddio ein llais yw'r ffordd fwyaf naturiol rydym yn ei ddefnyddio i gyfathrebu â'n gilydd ac mae technolegau llais yn dod â'r cyfleustra hwnnw i'n cyfrifiaduron a'n dyfeisiau symudol. Rydyn am roi grym i ddatblygwyr adeiladu apiau adnabod llais anhygoel fel cyfieithwyr amser real a chynorthwywyr digidol sy'n defnyddio llais. Ond ar hyn o bryd mae'r rhan fwyaf o'r data llais sydd ei angen i adeiladu'r mathau hyn o apiau yn ddrud ac yn berchnogol. Rydym yn gobeithio y bydd set ddata Common Voice yn rhoi i'r datblygwyr hyn yr hyn sydd ei angen arnyn nhw i arloesi a gwneud technoleg llais ar gael yn eu hiaith eu hunain.
-    Er mwyn gwneud adnabod llais hyd yn oed yn fwy cyffredin, rydym yn casglu samplau llais mewn ieithoedd sydd á phoblogaethau mawr llafar yn ogystal â rhai sydd â llai o siaradwyr yn aml wedi'u tanwasanaethu gan wasanaethau adnabod llais masnachol. Bydd cyhoeddi set ddata amrywiol o leisiau yn grymuso datblygwyr, entrepreneuriaid a chymunedau llais cyfan i fynd i'r afael â'r bwlch hwn eu hunain.
+    Er mwyn gwneud adnabod llais hyd yn oed yn fwy cyffredin, rydym yn casglu samplau llais mewn ieithoedd sydd â phoblogaethau mawr llafar yn ogystal â rhai sydd â llai o siaradwyr yn aml wedi'u tan-wasanaethu gan wasanaethau adnabod llais masnachol. Bydd cyhoeddi set ddata amrywiol o leisiau yn grymuso datblygwyr, entrepreneuriaid a chymunedau llais cyfan i fynd i'r afael â'r bwlch hwn eu hunain.
 faq-how-get-q = Sut mae cmodd i mi ael gafael ar ddata Common Voice?
 faq-how-get-a = Mae set ddata Common Voice ar gael i'w lwytho i lawr o dan y drwydded <licenseLink> CC0 </licenseLink> ar <datasetLink> ein tudalen Setiau Data</datasetLink>. Gallwch hefyd lwytho i lawr nifer o setiau data eraill sydd ar gael i'r cyhoedd o'r un dudalen.
 faq-when-release-q = Pryd fyddwch chi'n rhyddhau data Common Voice mewn ieithoedd eraill?
@@ -390,7 +390,7 @@ faq-why-account-q = Pam ddylwn i gofrestru am gyfrif?
 faq-is-account-public-q = A yw manylion fy nghyfrif yn gyhoeddus?
 faq-how-privacy-q = Sut ydych chi'n sicrhau anhysbysrwydd a phreifatrwydd y bobl sydd wedi cyfrannu eu lleisiau?
 faq-how-privacy-a = Mae'r holl glipiau llais yn y set ddata yn cael eu dinoethu o fanyliony byddai modd eich adnabod. Pan mae cyfrannwr yn darparu data demograffig trwy eu proffil, caiff y wybodaeth honno ei dynodi o'u clipiau llais cyn cael ei fwndelu i'w lwytho i lawr yn y set ddata ac ni fydd byth yn cael ei gyhoeddi ar eu tudalen proffil.
-faq-what-determine-identity-q = Beth mae'n ei olygu na allaf "benderfynu ar hunaniaeth" siaradwyr yn y set ddata Llais Cyffredin?
+faq-what-determine-identity-q = Beth mae'n ei olygu na allaf "benderfynu ar hunaniaeth" siaradwyr yn y set ddata Common Voice?
 faq-what-determine-identity-a =
     Mae set ddata Common Voice yn adnodd agored a chyhoeddus y mae modd ei ddefnyddio i hyfforddi amrywiaeth eang o raglenni llais. Er mwyn diogelu ein cyfranwyr, gofynnwn i bawb sy'n llwytho i lawr set ddata Common Voice i barchu preifatrwydd cyfranwyr.
     
