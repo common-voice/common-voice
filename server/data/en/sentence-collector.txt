@@ -1924,6 +1924,7 @@ Billinger may arrive in time.
 Bill’s to go down—Here, Bill!
 Bin garbage, don't flush it down a toilet.
 Binary code is simply zero's and ones.
+Bingley was the principal spokesman, and Miss Bennet the principal object.
 Bio-mechanical engineering skills can be used to design prosthetics for amputees.
 Biotechnology is progressively advancing.
 Biotechnology, or Biotech, is a very popular degree choice
@@ -2655,6 +2656,7 @@ Competitiveness in the industry drives innovation and growth. The consumer wins.
 Complete silence followed upon his words.
 Complexity in code should be avoided to enhance maintainability.
 Compliance of Ethics by the industry will build trust.
+Compliments always take you by surprise, and me never.
 Compose for me an email to Gary.
 Compounded by debt.
 Computer scientists have banged their heads trying to solve this problem until now.
@@ -3163,6 +3165,7 @@ Electronic exports may be subject to tax at the destination country.
 Eli Harding asked, as Shunk started to follow.
 Elizabeth felt Jane's pleasure.
 Elizabeth took an opportunity of thanking her.
+Elizabeth took leave of the whole party in the liveliest of spirits.
 Elizabeth went away with her head full of him.
 Else why should the gate again be open at midnight?
 Elsewhere in the world, the birds were chirping and wildlife was thriving.
@@ -3267,6 +3270,7 @@ Except where I have moved it about to make more room, miss.
 Excessive heat had warped the motherboard.
 Excitement was gaining upon her.
 Exciting times are the lot of the fish patrol.
+Excuse my interference — it was kindly meant.
 Exemplary, the teacher beamed, awarding Karen an A.
 Exercise and diet can restore vitality.
 Exercise caution in your business affairs, for the world is full of trickery.
@@ -4093,6 +4097,7 @@ He is not very well tonight.
 He is on his holiday.
 He is quite clear that he had better not.
 He is reserved and serious, which is a further mark of respectability.
+He is so excessively handsome!
 He is still asleep, and nothing is astir.
 He is such a cheery fellow.
 He is the Duke of Edinburgh.
@@ -4287,6 +4292,7 @@ He remembered some words spoken by a stranger.
 He repeated the question, with some surprise at her silence.
 He replaced his measure in his pocket.
 He replaced the sheet and gazed about the room.
+He replied, and was again silent.
 He responded with apathy.
 He resumed them immediately after your departure.
 He retires to his former place.
@@ -4373,6 +4379,7 @@ He spoke slowly, coldly.
 He spoke very quietly.
 He spoke with a tone of respect.
 He sprang up from his chair.
+He stammered a little, like a man picking his words.
 He stammered and finally said, "is it really you?".
 He stared at Hanaud as though he were mad.
 He stared at him for a second, then smiled.
@@ -4399,6 +4406,7 @@ He stopped of his own accord and spoke to her.
 He stopped sidling.
 He stopped, and Philip nodded at the horrified question in his eyes.
 He stops there, looks round, and beckons Jo.
+He strolled round to the tennis lawn and was welcomed riotously by the players.
 He studies her at his leisure, not speaking for a time.
 He stuffed his sleeping bag into his rucksack, and headed along the canal towpath
 He submitted his thesis last Wednesday.
@@ -5099,6 +5107,7 @@ How was your trip to Shanghai?
 How we roared!
 How will that help us?
 How wonderful she must have looked in beach pyjamas!
+How wonderfully these sort of things occur!
 How would you characterize fast food?
 How would you classify a bus and a coach?
 How would you compare the two?
@@ -5192,6 +5201,7 @@ I am a university graduate.
 I am a vegan.
 I am able to come next week.
 I am afraid you are tired.
+I am all astonishment.
 I am allergic to bees.
 I am allergic to nuts.
 I am almost sure.
@@ -5283,6 +5293,7 @@ I am ready to go.
 I am really a wild beast, you know.
 I am responsible to no Lord Chancellor.
 I am safe now.
+I am satisfied.
 I am so very miserable, and I like you so much!
 I am somewhat risk-averse when it comes to babies.
 I am sorry I cannot comply with this request.
@@ -5450,7 +5461,6 @@ I can't wait for Father Christmas to come and fill my stocking
 I can't wait for summer!
 I can't wait for the advent of self driving cars.
 I can't wait to have a long warm, relaxing bath.
-I can't wait!
 I can't wear those trousers; the zip’s broken
 I cannot admit that I implied anything.
 I cannot do justice to his kindness.
@@ -5599,6 +5609,7 @@ I do not as yet hold pigheadedly to it.
 I do not blame you for anything; remember that.
 I do not care one iota about selfies.
 I do not dispute your hypothetical case.
+I do not get on at all.
 I do not have the authority to repair this item free of charge.
 I do not know what to think.
 I do not mean to imply you are wrong.
@@ -5930,6 +5941,7 @@ I have been here very often.
 I have been in prison for contempt of court.
 I have been in prison for threatening the solicitor.
 I have been kept a prisoner here.
+I have been most highly gratified indeed, my dear Sir.
 I have been much concerned to hear it.
 I have been quite alarmed.
 I have been robbed, sir, I amended.
@@ -6533,6 +6545,7 @@ I shout that every single day!
 I simply could not accept his hospitality on false pretences.
 I simply said nothing, and stood there looking brave.
 I simply stared at him and stuttered.
+I slackened speed some yards off and walked briskly up to the door.
 I smoked in a chair till daylight, for I could not sleep.
 I snapped the switch, but there was nobody there.
 I soon found myself very busy.
@@ -6891,6 +6904,7 @@ I will tell her what you say.
 I will tell you.
 I will watch over you.
 I will write anything, here and now, that you will dictate.
+I wish I could call her amiable.
 I wish I was dead!
 I wish in business to be exact and open.
 I wish to compare his writing with some that I have.
@@ -7292,6 +7306,7 @@ Iliac artery.
 Illuminating oil was becoming all profit.
 Illustrate a cat.
 Images used on Wikipedia are normally stored in its image repository, Wikimedia Commons
+Implacable resentment is a shade in a character.
 In Britain we say Anti-clockwise rather than Counterclockwise
 In Britain, A-levels are taken in the sixth form
 In Britain, a furnace is known as a central heating boiler
@@ -7314,6 +7329,7 @@ In a flash Philip followed its direction.
 In a flash he was on his feet, facing him.
 In a frenzy she tried to shake her head free.
 In a good cause one is prepared to suffer.
+In a maze of wild fancies I heard the street door close behind him.
 In a moment she would be free.
 In a nutshell, a car is a motorized vehicle.
 In a safe in her bedroom, monsieur.
@@ -7551,6 +7567,7 @@ It asked me, would I be the mistress of Bleak House.
 It beat me why she hadn't done it already.
 It became immediately apparent this was an affluent area.
 It came as a complete surprise. However, there it is.
+It came involuntarily, for in a moment it died, and he passed on.
 It came, then, into her possession last night.
 It can be improved; I know that.
 It can be proved, sir.
@@ -7621,6 +7638,7 @@ It has twenty phenotype features.
 It has upset him very much.
 It hid its secret well.
 It is Harry's glove; there are his initials stamped upon the lining.
+It is Mr. Bingley, I am sure!
 It is a binary star system.
 It is a blessing in disguise.
 It is a conglomerate organization.
@@ -8471,6 +8489,7 @@ Kidney stones could be avoided by regularly drinking water.
 Kids get bored of toys way too quickly.
 Kids love Yogurt.
 Kids love fictional animated characters.
+Kind regards.
 Kindest to be frank and straightforward?
 Kinetic energy can generate heat energy.
 King Charles the First was executed during the English Civil War
@@ -9118,6 +9137,7 @@ My son's fashionable trainers are his pride and joy
 My study is crammed full of books.
 My stupor can scarcely have lasted beyond a few seconds.
 My teacher always told people to "apply yourself!".
+My temper would perhaps be called resentful.
 My third grader is learning long division right now.
 My train has been delayed yet again.
 My uncle is a quantity surveyor
@@ -9685,6 +9705,7 @@ One tablespoonful should be enough.
 One teaspoonful should be plenty.
 One to come, and one to go.
 One touched his cap in salute, and I responded graciously.
+One was old and bald, one was stout, one was dark and thin.
 One who is too passionless.
 Online Education has become accessible and is growing in popularity.
 Online gaming can become addictive to many gamers.
@@ -9741,6 +9762,7 @@ Other options are available.
 Other people had thought of such things, if I had not.
 Other priorities in life can take over.
 Others have only half thrown themselves into it.
+Others of the party were now applied to.
 Otherwise no restriction is put upon their seafaring.
 Otherwise there was only the calling of plovers and the tinkling of little streams.
 Otherwise there will be disgrace, imprisonment, penal servitude.
@@ -10545,6 +10567,7 @@ She is the child of the universe.
 She is the dearest friend I have!
 She is the highest performing worker indeed.
 She is the lead lecturer of informatics.
+She is the most beautiful creature I ever beheld!
 She is the pivot it all turns on.
 She is training to be a veterinary surgeon
 She is very fortunate in her guardian.
@@ -11267,6 +11290,7 @@ Such a dog the wise driver kills, or turns loose.
 Such a soft sweet voice it had!
 Such an act was in direct violation of the laws of the land.
 Such an inflexible little woman, too, through all!
+Such doings discomposed Mr. Bennet exceedingly.
 Such is my passage engaged on the steamer.
 Such is my reward and doom.
 Such men believe, when they come together.
@@ -11468,6 +11492,7 @@ That old chestnut.
 That picture's askew, you know.
 That really doesn't seem appropriate.
 That really takes the biscuit
+That reply will do for the present.
 That retaining wall doesn’t look very secure
 That roller coaster ride was truly breathtaking.
 That room had been dark an hour before.
@@ -11520,6 +11545,7 @@ That will be ten dollars and thirty-eight cents please.
 That will protect the upstairs rooms from water damage.
 That will require congressional approval.
 That won’t help you.
+That would be the greatest misfortune of all!
 That would be very foolish.
 That would have been a change indeed.
 That would lead to developments.
@@ -12859,6 +12885,7 @@ The recent breakthrough in machine learning is due to advances in deep neural ne
 The recollection seemed to upset him, and he gulped down some more whisky.
 The recovery driver inflated the flat tire.
 The recovery man got it up and running in no time.
+The rector of a parish has much to do.
 The red-haired woman called Adele; the man with the little black moustache.
 The referendum did not end as expected.
 The reflection on the ice was distorted.
@@ -12878,6 +12905,7 @@ The research demonstrates poor analysis and critique of the method.
 The researchers cited previous research to support their conclusions.
 The responsibility falls on humans that design and operates systems.
 The rest is mere detail work.
+The rest of the evening brought her little amusement.
 The rest of the house was in darkness.
 The restaurant had a health inspection and rated highly.
 The restaurant was heaving and we couldn't get a seat.
@@ -13023,6 +13051,7 @@ The sun will shine, although the day's a grey one.
 The sundial is an ancient method of telling time.
 The sunsets grow more bizarre and spectacular off this coast of the Argentine.
 The superintendent will hear about this.
+The supposition did not pain her.
 The surgeon scrubbed up before commencing the operation.
 The suspect hasn't been identified.
 The suspect was arrested at midnight
@@ -13123,6 +13152,7 @@ The typical holidaymaker in the nineteen-fifties would often go to a seaside res
 The ultrasound confirmed the baby is healthy.
 The university students devised a cunning way to extract minerals from rock.
 The university was my Alma Mata.
+The usual inquiries as to his success were made by the latter.
 The usual wardrobe of the English gentleman paying a country-house visit.
 The valley of the kings has the tombs of ancient Egyptian pharaohs.
 The vast majority of emails is Spam.
@@ -13297,6 +13327,7 @@ Then he bent once more over the woman.
 Then he bolted back.
 Then he brought her hat, and she pinned it on.
 Then he came to a stop.
+Then he gave them it.
 Then he hastened on, as Pierre had guided him.
 Then he laughed in a friendly way at himself.
 Then he lit another cigarette.
@@ -13339,6 +13370,7 @@ Then suddenly the car stopped.
 Then the conversation petered out.
 Then the dark fell, and silence.
 Then the light was turned up again.
+Then the plump one spoke up.
 Then the vision faded, the tambourines and cymbals rattled again.
 Then there are plenty of Marine Parades, if that’s what you mean.
 Then there is no more to be said.
@@ -13519,6 +13551,7 @@ There is only one course to pursue.
 There is something grotesque in it.
 There is something in this house which I do not understand.
 There is something — a presence here — some one who means harm!
+There is still a chance.
 There is that magnificent Bob, eating his head off in the stable.
 There is the question.
 There is value in the aggregation of research content.
@@ -14262,6 +14295,7 @@ Thus was momentum gained in the Younger World.
 Tight controls are in effect to prevent software piracy.
 Tim allegedly shocked Finn, Ash is looking into it.
 Time and tide wait for no man.
+Time flies.
 Time is a great healer.
 Time is no object here.
 Time to get up! Rise and shine!
@@ -14285,6 +14319,7 @@ To become better at what you know.
 To change gears you need to use the gear-lever
 To constrain content piracy, digital rights management technology was introduced.
 To dominate the self-driving car revolution.
+To find a man agreeable whom one is determined to hate!
 To fix a poster to a noticeboard you should use a drawing pin
 To fix this problem we'll have to involve the specialists.
 To get from London to Bath you need to drive down the motorway
@@ -15493,6 +15528,7 @@ What, after all, could he have told them?
 What, in your opinion, will the harvest be?
 What, you were thirsty, were you?
 Whatever he guessed he locked away in the taboo room of Naomi.
+Whatever he said, was said well; and whatever he did, done gracefully.
 Whatever the old girl says, do.
 Whatever you do, do not frighten her.
 What’s bugging you?
@@ -15653,6 +15689,8 @@ Whisky would seem to be what he filled the radiator with.
 White Leghorns, said Mrs Mortimer.
 White spirit is quite useful for removing oily stains
 Whitefish, Gregson, whitefish and trout.
+Whittaker brightened up.
+Whittaker was looking very glum.
 Whiz-zip-bang. Lop-Ear screamed with sudden anguish.
 Who Stole the Tarts?
 Who are you? asked the Scarecrow.
@@ -16124,6 +16162,7 @@ You do it!—That I won’t, then!
 You do not admire this jacket?
 You do not know of what service it might be.
 You do not think he is ill?
+You do not understand the habits of the spy.
 You do that for all of us, all day long, housekeeper!
 You do yourself an injustice.
 You do, do you?
@@ -16900,6 +16939,7 @@ whispered Richard, not thinking she could hear him.
 “Good,” said Sir Harry.
 “Have they gone?” I asked.
 “He is safe,” he cried.
+“He must be an oddity, I think,” said she.
 “Here!” piped Paul, small and inadequate.
 “Here’s the most I can make of it,” I said.
 “How Nellie will chuckle,” said the plump man.
@@ -16929,6 +16969,7 @@ whispered Richard, not thinking she could hear him.
 “It’s up the entry,” said Paul.
 “I’m a colonial and travel light.” “A colonial,” he cried.
 “I’m very sorry,” he said humbly.
+“I’ve brought you the Portland Place murderer,” was Sir Walter’s introduction.
 “Let us get on,” he said.
 “Listen, Sir Harry,” I said.
 “Look at the time,” said the old man.
