@@ -379,6 +379,7 @@ Buku di dalam tas.
 Buku ini ada seratus dua puluh halaman.
 Buku ini membosankan.
 Buku ini milikmu?
+Buku ini sesuai dengan kebutuhanmu.
 Buku ini sulit karena huruf kanjinya banyak.
 Buku ini tentang perbintangan.
 Buku itu punya saya.
@@ -619,7 +620,9 @@ Dia orang yang baik.
 Dia orang yang tidak banyak berbicara, tapi selalu menepati janjinya.
 Dia pandai berbahasa Inggris dan Perancis.
 Dia pasti berhasil.
+Dia pasti sangat cantik ketika muda.
 Dia pasti sudah berkata bohong.
+Dia pria pertama yang saya wawancarai untuk pekerjaan.
 Dia punya masa depan yang cerah.
 Dia punya sawah luas di Colorado.
 Dia punya sedikit gigi.
@@ -869,6 +872,7 @@ Janji adalah janji.
 Jauh dimata dekat dihati.
 Jawaban pertanyaan ini ada tiga buah.
 Jembatan Golden Gate terbuat dari besi.
+Jembatan itu dibangun dalam kurun waktu dua tahun.
 Jembatan itu terbuka untuk lalu lintas.
 Jendela sudah ditutup.
 Jendela terbuka.
@@ -969,6 +973,7 @@ Kamu kelas berapa?
 Kamu lebih memilih pergi ke kebun binatang atau bioskop?
 Kamu masih muda.
 Kamu mau pergi?
+Kamu membuatku bahagia.
 Kamu membutuhkan sedikit keberanian untuk menyatakan cinta padanya.
 Kamu mengambil kunci yang salah.
 Kamu percaya padaku?
@@ -1069,6 +1074,7 @@ Kecelakaan itu mengakibatkan kemacetan.
 Kecepatan pesawat jauh lebih tinggi daripada helikopter.
 Kedai itu murah, tetapi tidak enak.
 Kedai kopi itu ada di sebelah toko buku.
+Kedua orang tua Tom adalah guru.
 Kedua orang tua saya tinggal dekat laut.
 Kedua orang tuanya baik-baik saja.
 Keiko memberitahu aku tentang kedatangan pesawatnya.
@@ -1130,6 +1136,7 @@ Ken mengkoleksi uang-uang kuno.
 Ken sama tingginya dengan Bill.
 Kenapa tidak dicoba?
 Kenapa tidak kau lepas jasmu?
+Kenapa tidak makan malam bersama kami?
 Kepala saya masih merasa pusing.
 Keraguan-raguan menjaga dari risiko.
 Keren!
@@ -1831,6 +1838,7 @@ Saya khawatir akan kesehatanmu.
 Saya khawatir karena adik perempuan saya hari ini juga demam tinggi terus-menerus.
 Saya kira kereta lebih cepat daripada bus sampai ke sekolah.
 Saya kira orang itu guru bahasa Jepang.
+Saya kuatir, mungkin dia mendapatkan luka.
 Saya lahir di kota kecil.
 Saya lahir pada tanggal dua puluh enam Agustus.
 Saya lapar karena saya tidak sarapan.
@@ -2124,6 +2132,7 @@ Saya setiap pagi pergi jalan-jalan.
 Saya setuju dengan pendapat kamu.
 Saya simpati terhadap orang yang terkena penyakit itu.
 Saya staf yang paling junior di kantor saya.
+Saya sudah beberapa kali keluar negeri tahun ini.
 Saya sudah berhenti merokok.
 Saya sudah jelaskan padanya.
 Saya sudah kenyang, terima kasih.
@@ -2131,6 +2140,7 @@ Saya sudah lulus sekolah.
 Saya sudah makan siang di kantin.
 Saya sudah membaca buku.
 Saya sudah mengenalnya sejak kecil
+Saya sudah menunggu sejak pukul enam dan masih belum mendapat giliran.
 Saya sudah menunggu selama dua jam. Saya tidak bisa menunggu lebih lama lagi.
 Saya sudah merasa baik karena minum obat.
 Saya suka baik roti maupun nasi.
@@ -2256,6 +2266,7 @@ Selamat siang. Permisi, saya mencari Loretta.
 Selamat ulang tahun!
 Selamat!
 Semenjak dia tidak dapat menyelesaikan masalah dengan cara itu, dia mencoba dengan cara lain.
+Semua apel yang jatuh dimakan oleh babi.
 Semua bayangan kebahagiaannya hilang begitu saja dalam waktu singkat.
 Semua binatang menyukai sarangnya.
 Semua kota besar menghadapi masalah lalu lintas.
@@ -2304,6 +2315,7 @@ Setelah lulus universitas, saya ingin menjadi dokter.
 Setelah masuk kamar, saya menutup pintu.
 Setelah memasukkan gula, kemudian saya memasukkan sedikit kecap.
 Setelah memasukkan uang, saya menekan tombol.
+Setelah memberikan kuliah, dia mengadakan wawancara dengan beberapa murid.
 Setelah mendaki Gunung Fuji, saya mendapat inspirasi menulis puisi.
 Setelah menyeberang jalan, mari kita berjalan di sebelah kiri.
 Setelah menyeberang jembatan, akan ada taman.
