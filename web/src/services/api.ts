@@ -67,6 +67,9 @@ export default class API {
       return;
     }
     if (response.status >= 400) {
+      if (response.statusText === 'save_clip_error') {
+        throw new Error(response.statusText);
+      }
       throw new Error(await response.text());
     }
     return isJSON ? response.json() : response.text();

@@ -123,66 +123,74 @@ export default class Clip {
     const sentenceFileName = folder + filePrefix + '.txt';
 
     // if the folder does not exist, we create it
-    await this.s3
-      .putObject({ Bucket: getConfig().BUCKET_NAME, Key: folder })
-      .promise();
+    try {
+      await this.s3
+        .putObject({ Bucket: getConfig().BUCKET_NAME, Key: folder })
+        .promise();
 
-    // If upload was base64, make sure we decode it first.
-    let transcoder;
-    if ((headers['content-type'] as string).includes('base64')) {
-      // If we were given base64, we'll need to concat it all first
-      // So we can decode it in the next step.
-      const chunks: Buffer[] = [];
-      await new Promise(resolve => {
-        request.on('data', (chunk: Buffer) => {
-          chunks.push(chunk);
+      // If upload was base64, make sure we decode it first.
+      let transcoder;
+      if ((headers['content-type'] as string).includes('base64')) {
+        // If we were given base64, we'll need to concat it all first
+        // So we can decode it in the next step.
+        const chunks: Buffer[] = [];
+        await new Promise(resolve => {
+          request.on('data', (chunk: Buffer) => {
+            chunks.push(chunk);
+          });
+          request.on('end', resolve);
         });
-        request.on('end', resolve);
+
+        const passThrough = new PassThrough();
+        passThrough.end(
+          Buffer.from(Buffer.concat(chunks).toString(), 'base64')
+        );
+        transcoder = new Transcoder(passThrough);
+      } else {
+        // For non-base64 uploads, we can just stream data.
+        transcoder = new Transcoder(request);
+      }
+
+      await Promise.all([
+        this.s3
+          .upload({
+            Bucket: getConfig().BUCKET_NAME,
+            Key: clipFileName,
+            Body: transcoder
+              .audioCodec('mp3')
+              .format('mp3')
+              .stream(),
+          })
+          .promise(),
+        this.s3
+          .putObject({
+            Bucket: getConfig().BUCKET_NAME,
+            Key: sentenceFileName,
+            Body: sentence,
+          })
+          .promise(),
+      ]);
+
+      console.log('file written to s3', clipFileName);
+
+      await this.model.saveClip({
+        client_id: client_id,
+        locale: params.locale,
+        original_sentence_id: filePrefix,
+        path: clipFileName,
+        sentence,
+        sentenceId: headers.sentence_id,
       });
+      await Awards.checkProgress(client_id);
 
-      const passThrough = new PassThrough();
-      passThrough.end(Buffer.from(Buffer.concat(chunks).toString(), 'base64'));
-      transcoder = new Transcoder(passThrough);
-    } else {
-      // For non-base64 uploads, we can just stream data.
-      transcoder = new Transcoder(request);
+      Basket.sync(client_id).catch(e => console.error(e));
+      response.json(filePrefix);
+    } catch (error) {
+      console.error(error);
+      response.statusCode = error.statusCode || 500;
+      response.statusMessage = 'save_clip_error';
+      response.json(error);
     }
-
-    await Promise.all([
-      this.s3
-        .upload({
-          Bucket: getConfig().BUCKET_NAME,
-          Key: clipFileName,
-          Body: transcoder
-            .audioCodec('mp3')
-            .format('mp3')
-            .stream(),
-        })
-        .promise(),
-      this.s3
-        .putObject({
-          Bucket: getConfig().BUCKET_NAME,
-          Key: sentenceFileName,
-          Body: sentence,
-        })
-        .promise(),
-    ]);
-
-    console.log('file written to s3', clipFileName);
-
-    await this.model.saveClip({
-      client_id: client_id,
-      locale: params.locale,
-      original_sentence_id: filePrefix,
-      path: clipFileName,
-      sentence,
-      sentenceId: headers.sentence_id,
-    });
-    await Awards.checkProgress(client_id);
-
-    response.json(filePrefix);
-
-    Basket.sync(client_id).catch(e => console.error(e));
   };
 
   serveRandomClips = async (
