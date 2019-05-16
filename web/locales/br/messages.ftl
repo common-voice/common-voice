@@ -83,6 +83,7 @@ lv = Latvian
 mdf = Moksha
 mhr = Mari ar pradoù
 mk = Makedoneg
+ml = Malayalam
 mn = Mongoleg
 mrj = Mari ar menez
 myv = Erzya
@@ -132,6 +133,7 @@ speak = Komz
 speak-now = Komz bremañ
 datasets = Spletadoù roadennoù
 languages = Yezhoù
+about = A-zivout
 profile = Profil
 help = Skoazell
 contact = Darempred
@@ -386,6 +388,26 @@ faq-what-determine-identity-a =
     Digor hag hegerz d'ar foran eo spletad roadennoù Common Voice ha gallout a ra bezañ implijet evit gourdonañ arloadoù a-bep seurt a implij anaoudegezh ar vouezh. Evit gwareziñ diogelroez hor c'hendaolerien e c'houlennomp gant an holl a bellgarg spletad roadennoù Common Voice da zoujañ ouzh buhez prevez ar gendaloerien.
     
     Skarzhet e vez an titouroù a c'hallfe servijout da adanavezout ar c'homzer er c'hlipoù son. Pa pellgargit ar spletad roadennoù ec'h asantit da chom hep klask kavout pivelezh ar gendaolerien. Talvezout a ra ne c'hallit ket klask liammañ titouroù er spletad roadennoù da ditouroù personel ur c'hendaoler. Gallout a rit avat ober gant ar spletad roadennoù evit gourdonañ anaoudegezh ar vouezh, anaoudegezh ar c'homzer pe un arload all, da skouer evit liammañ titouroù er spletad roadennoù da ditouroù all er roadennoù.
+faq-what-is-cv = Petra eo Common Voice?
+faq-using-cv = Implij Common Voice
+faq-description = Ul lodenn eus intrudu Mozilla evit sikour da gelenn d'ar mekanikoù penaos e komz an dud wirion eo Common Voice.
+faq-search-for-answers =
+    .label = Klask respontoù
+
+## ABOUT US
+
+about-title = Perak Common Voice?
+about-subtitle = Ul lodenn eus intrudu Mozilla evit sikour da gelenn d'ar mekanikoù penaos e komz an dud wirion eo Common Voice. E-kichen ar spletad roadennoù Common Voice e savomp ul lusker adanaoudegezh ar vouezh digor e darzh anvet Deep Speech.
+about-header-description = An daou raktres-se a zo ul lodenn eus hon strivoù evit gwellaat stad ar vouezh niverel. Teknologiezhioù adanaoudegezh ar vouezh a ro ur ment denel d'hon mekanikoù, met ezhomm a zo ur sammad bras-kenañ a roadennoù evit o sevel. Evit ar mare eo koustus ha perc'hennet ar roadennoù-se.
+about-nav-why-common-voice = Perak?
+about-nav-how-it-works = Penaos?
+about-nav-partners = Kevelerien
+about-nav-get-involved = Kemer perzh
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Speredegezh kalvezadel
+mycroft-description =
+    Kentañ skoazeller open-source ar bed eo Mycroft.
+    Mycroft a c'hall bezañ lañset e pep lec'h - war un urzhiataer burev, e-barzh ur c'harr pe war ur Raspberry Pi.
 
 ## Glossary
 
