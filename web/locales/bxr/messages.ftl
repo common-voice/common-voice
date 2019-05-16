@@ -20,11 +20,16 @@ not-available-abbreviation = Ү/Х
 ## Languages
 
 ab = Абхаз
+ady = Адыг
+af = Африкаанс
+am = Амһар
 an = Арагон
 ar = Араб
 as = Ассам
 ast = Астур
 az = Азербайджан
+ba = Башкир
+bg = Болгар
 bn = Бенгал
 br = Бретон
 bxr = Буряад
@@ -42,32 +47,48 @@ en = Англи
 eo = Эсперанто
 es = Испан
 et = Эстон
+eu = Баск
+fa = Перс
 fi = Фин
 fo = Фөөрис
 fr = Франци
 fy-NL = Фриз
 ga-IE = Ирланд
+gl = Галиси
+ha = Һауса
 he = Еврей
+hi-IN = Энэдхэг
+hr = Хорват
 hsb = Дээдэ Сорб
 hu = Унгар
 ia = Интэрлингва
 id = Индонези
 is = Исланд
 it = Итали
+izh = Ижор
 ja = Япон
 ka = Гүржэ
 kab = Кабайл
 kk = Хасаг
 ko = Солонгос
 kpv = Зырян Коми
+ku = Күрд
 kw = Корн
 ky = Киргиз
+lij = Лигүри
+lt = Литва
+lv = Латви
+mdf = Мокша
+mhr = Нугын Мари
 mk = Македон
+mn = Монгол
+mrj = Уулын Мари
 myv = Эрзя
 nb-NO = Букмол Норвег
 ne-NP = Балба
 nl = Һолланд
 nn-NO = Нюноршк Норвег
+oc = Окситан
 or = Одия
 pl = Польша
 pt-BR = Португал (Бразил)
@@ -85,6 +106,7 @@ tg = Таджиг
 th = Тай
 tr = Түрк
 tt = Татаар
+uby = Үбых
 udm = Үдмүрт
 uk = Украин
 ur = Үрдү
@@ -110,6 +132,7 @@ privacy = Хубиин эрхэ
 terms = Нүхэсэл
 cookies = Күүкис
 faq = ХАА
+logout = Гараха
 
 ## Home Page
 
@@ -182,12 +205,20 @@ female = Эхэнэр
 # Gender
 other = Ондоо
 why-profile-title = Хэрэглэгшын данса юундэ хэрэгтэйб?
+avatar = Хии дүрэ
+goals = Зорилго
+settings = Тааруулга
 edit-profile = Хэрэглэгшын данса заһаха
 profile-create-success = Хэрэглэгшын данса амжалтатай үүсхэгдэбэ!
 profile-close = Хааха
+login-signup = Нэбтэрхэ/Бүридхүүлхэ
+edit = Заһаха
+add-language = Хэлэ нэмээхэ
 
 ## FAQ
 
+faq-title = Дандаа асуудаг зүйл
+faq-what-cv-q = Common Voice гэжэ юун бэ?
 
 ## ABOUT US
 
