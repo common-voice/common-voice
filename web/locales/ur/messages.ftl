@@ -16,6 +16,7 @@ indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا
 
 ## Languages
 
+af = افریقانی
 an = ایراگونیز
 ar = عربى
 as = آسامی
@@ -45,6 +46,7 @@ fr = فرانسیسی
 fy-NL = فریسیئن
 ga-IE = آئرش
 he = عبرانى
+hi-IN = ہندی
 hsb = سوربیئن، بالائی
 hu = ‏‏ہنگارین
 ia = انٹرلنگوا
@@ -77,6 +79,7 @@ sr = سرویائی
 sv-SE = ‏‏سویدیش
 ta = تامل
 te = تلگو
+tg = تاجک
 th = تھائى
 tr = ترک
 tt = ‏‏طاطاری
@@ -130,6 +133,7 @@ benefits = فوائد
 
 ## What's public
 
+whats-public = عوامی کیا ہے؟
 
 ## Speak & Listen Shortcuts
 
@@ -155,6 +159,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = ریکارڈ/روکیں
+shortcut-rerecord-toggle = [1-5]
 request-language-text = اب تک Common Voice پر اپنی زبان نہیں دیکھ رہے ہیں؟
 request-language-button = ایک زبان کی درخواست کریں
 
@@ -176,8 +181,6 @@ english = انگريزى
 
 profile-form-username =
     .label = صارف کا نام
-profile-form-language =
-    .label = زبان
 profile-form-accent =
     .label = ‏‏لہجا
 profile-form-age =
@@ -207,10 +210,14 @@ profile-explanation = ایک پروفائل کے ساتھ اپنی پیش رفت
 edit = تدوین
 off = بند
 on = چالو
+add-language = زبان شامل کریں
 
 ## FAQ
 
 faq-title = اکثر پوچھے گئے سوالات
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -229,7 +236,6 @@ data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>کلام شناسی کے ساتھ شروع کریں</speechBlogLink>
 data-other-goto = { $name } پر جائیں
 data-other-download = ڈائونلوڈ شدہ کوائف
-data-other-ted-name = TED-LIUM Corpus
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ملا جلا
 review-terms = Common Voice کے استعمال کے ساتھ آُپ ہماری <termsLink>شرائط</termsLink> اور <privacyLink>رازداری نوٹس</privacyLink> سے متفق ہیں
@@ -243,6 +249,10 @@ review-rerecord = دوبارہ ریکارڈ کریں
 review-cancel = جمع منسوخ کریں
 review-keep-recordings = ریکارڈنگ رکھیں
 review-delete-recordings = میری رکارڈنگ حزف کریں
+
+## New Datasets Page
+
+data-other-ted-name = TED-LIUM Corpus
 
 ## Download Modal
 
