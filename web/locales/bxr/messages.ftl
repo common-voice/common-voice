@@ -141,6 +141,13 @@ help-us-title = Үгүүлбэри баталалсажа үгыт!
 vote-yes = Тии
 vote-no = Үгы
 toggle-play-tooltip = Тоглуулхын түлөө { shortcut-play-toggle } тобшо дарана гүт
+all-locales = Хуу
+today = Мүнөөдэр
+x-weeks-short =
+    { $count ->
+        [one] долоо хоног
+       *[other] { $count } дх
+    }
 
 ## Account Benefits
 
@@ -213,6 +220,8 @@ profile-create-success = Хэрэглэгшын данса амжалтатай 
 profile-close = Хааха
 login-signup = Нэбтэрхэ/Бүридхүүлхэ
 edit = Заһаха
+download-profile = Үгэгдэлөө татажа абаха
+add-avatar-title = Хэрэглэгшын дансадаа хии дүрэ нэмэхэ
 email-already-used = Тус сахим хаягые ондоо хэрэглэшэ бүридхүүлэнхэй
 add-language = Хэлэ нэмээхэ
 
@@ -226,18 +235,37 @@ faq-what-cv-a =
     Бидэ гансал олон хүнэй яридаг бэшэ, мүн үсөөн яригшатайшье хэлэнэй дуу хоолойн дээжэ суглуулнабди. Олон янзын дуу хоолойн үгэгдэлые ниитэлһэнээр хүгжүүлэгшэ, дэлгэрүүлэгшэ, яригшад тус технологитой программануудые өөһэдөө болбосоруулха аргатай болоно. Common Voice-һоо гадна, Deep Speech гэһэн нээлтэтэй, хэлэхы таниха хүдэлгүүр хэжэ байнабди.
 faq-why-important-q = Юундэ энэ шухалаб?
 faq-how-get-q = Common Voice-ой үгэгдэлые яажа абахаар бэ?
+faq-why-my-lang-q = Минии эхэ хэлэн юундэ ороодүй байнаб?
+faq-where-src-from-2-q = Уг бэшэбэри хаанаһаа абтааб?
+faq-what-is-cv = Common Voice гэжэ юун бэ?
+faq-using-cv = Common Voice хэрэглэхэ
+faq-search-for-answers =
+    .label = Харюу бэдэрхэ
 
 ## ABOUT US
 
+about-title = Юундэ Common Voice бэ?
+how-does-it-work-title = Яажа хүдэлдэг бэ?
+about-speak = Дуугарха
 about-listen = Шагнаха
 about-is-it-valid = Бэшэлгэ зүб гү?
+about-partners = Хамтарагшад
+about-become-a-partner = Хамтарагша болохо
 about-nav-why-common-voice = Юундэ?
 about-nav-how-it-works = Яажа?
 about-nav-partners = Хамтарагшад
 about-nav-get-involved = Оролсохо
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Хэмэл ухаан
+mycroft-description =
+    Mycroft хадаа дэлхэйн түрүүшын нээлтэтэй туһалагша.
+    Mycroft-ые шэрээгэй компьютер, машина, Raspberry Pi соо ажаллуулхаар.
+mycroft-secondary-description = Энэ хадаа нээлтэтэй программа тула, дураараа ондоо программатай холбожо, нэмэжэ, һайжаруулжа болохо. Mycroft-ые эрдэм шэнжэлгын түһэл, бизнесэй программа мэтэ алибаа зүйлдэ ашаглажа болохо.
 
 ## Glossary
 
+glossary = Үгын тайлбари
+localization = Нютагшуулха
 
 ## NotFound
 
@@ -265,6 +293,20 @@ review-delete-recordings = Бэшэлгэнүүдээ усадхая
 
 ## New Datasets Page
 
+language = Хэлэн
+# File size in gigabytes
+size = Хэмжээн
+number-of-voices = Дуу хоолойн тоо
+size-gigabyte = GB
+size-megabyte = MB
+download-language = { $language } хэлэ татажа абаха
+validated-hours = Баталгажуулһан саг
+recorded-hours = Бэшэлгын саг
+subscribe = Захиха
+get-started-speech = Хэлэхы таниха оньһон ухаанай оршол
+more = Дэлгэрэнгы
+close = Хааха
+download = Татажа абаха
 
 ## Download Modal
 
@@ -291,12 +333,17 @@ request-language-title = Шэнэ хэлэ үүсхэхэ
 request-language-form-language =
     .label = Хэлэн
 request-language-success-title = Шэнэ хэлэ үүсхэхэ хүсэлтэ амжалтатай эльгээгдэбэ. Һайн даа!
+select-language = Хэлэ шэлэхэ
+other-language = Ондоо хэлэн
 
 ## Languages Overview
 
+language-section-in-progress = Татагдажа байна
 language-total-progress = Ниитэ
 language-search-input =
     .placeholder = Бэдэрхэ
+sentences = Үгүүлбэри
+total-hours = Баталгажуулһан саг
 
 ## New Contribution
 
@@ -336,10 +383,37 @@ share-title-new = Шэнэ дуу хоолой олоходомнай <bold>ту
 
 ## Goals
 
+days =
+    { $count ->
+        [one] үдэр
+       *[other] үдэр
+    }
+recordings =
+    { $count ->
+        [one] бэшэлгэ
+       *[other] бэшэлгэ
+    }
+validations =
+    { $count ->
+        [one] баталгажуулга
+       *[other] баталгажуулга
+    }
 
 ## Dashboard
 
+your-languages = Хэлэнүүдтнай
+clips-you-recorded = Танай бэшэлгэ
+clips-you-validated = Баталгажуулһан бэшэлгэтнай
+stats = Тоо дүн
+you = Та
+everyone = Хүн бүхэн
+contribution-activity = Баялигжуулһан үйлэ ажаллалга
+top-contributors = Түрүү баялигжуулагшад
+total-approved = Ниитэ зүбшөөрһэн
+overall-accuracy = Юрэнхы нарин нягта байдал
 
 ## Profile Delete
 
+keep = Байлгаха
+remove = Усадхаха
 profile-form-delete = Хэрэглэгшын данса усадхаха
