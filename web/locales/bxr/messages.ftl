@@ -148,9 +148,20 @@ x-weeks-short =
         [one] долоо хоног
        *[other] { $count } дх
     }
+x-months-short =
+    { $count ->
+        [one] һара
+       *[other] { $count }һара
+    }
+x-years-short =
+    { $count ->
+        [one] жэл
+       *[other] { $count }жэл
+    }
 
 ## Account Benefits
 
+benefits = Дабуу тала
 
 ## What's public
 
@@ -179,6 +190,8 @@ shortcut-vote-no = ү
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = б
 shortcut-record-toggle-label = Бэшэ/Зогсо
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Дахин бэшэжэ үзэхэ
 request-language-text = Танай хэлэн Ниитын дуу хоолой соо үгы байна гү?
 request-language-button = Шэнэ хэлэ үүсхэхэ
 
@@ -199,12 +212,22 @@ english = Англи
 
 profile-form-username =
     .label = Хэрэглэгшын нэрэ
+profile-form-native-language =
+    .label = Эхэ хэлэн
+profile-form-additional-language =
+    .label = Бусад хэлэн
 profile-form-accent =
     .label = Аялга
 profile-form-age =
     .label = Наһан
 profile-form-gender =
     .label = Хүйһэн
+leaderboard-visibility =
+    .label = Түрүүшүүлэй самбарта харагдуулха
+hidden = Нюуха
+visible = Харагдуулха
+native-language =
+    .label = Эхэ хэлэн
 profile-form-submit-save = Хадгалха
 profile-form-submit-saved = Хадгалагдаа
 male = Эрэ
@@ -212,6 +235,7 @@ female = Эхэнэр
 # Gender
 other = Ондоо
 why-profile-title = Хэрэглэгшын данса юундэ хэрэгтэйб?
+dashboard = Нюур самбар
 avatar = Хии дүрэ
 goals = Зорилго
 settings = Тааруулга
@@ -220,8 +244,11 @@ profile-create-success = Хэрэглэгшын данса амжалтатай 
 profile-close = Хааха
 login-signup = Нэбтэрхэ/Бүридхүүлхэ
 edit = Заһаха
+email-subscriptions = Сахим шууданаар захиха
 download-profile = Үгэгдэлөө татажа абаха
 add-avatar-title = Хэрэглэгшын дансадаа хии дүрэ нэмэхэ
+browse-file-title = Зураг ашаалха
+file_too_large = Шэлэһэн файлтнай дэн томо
 email-already-used = Тус сахим хаягые ондоо хэрэглэшэ бүридхүүлэнхэй
 add-language = Хэлэ нэмээхэ
 
@@ -235,7 +262,10 @@ faq-what-cv-a =
     Бидэ гансал олон хүнэй яридаг бэшэ, мүн үсөөн яригшатайшье хэлэнэй дуу хоолойн дээжэ суглуулнабди. Олон янзын дуу хоолойн үгэгдэлые ниитэлһэнээр хүгжүүлэгшэ, дэлгэрүүлэгшэ, яригшад тус технологитой программануудые өөһэдөө болбосоруулха аргатай болоно. Common Voice-һоо гадна, Deep Speech гэһэн нээлтэтэй, хэлэхы таниха хүдэлгүүр хэжэ байнабди.
 faq-why-important-q = Юундэ энэ шухалаб?
 faq-how-get-q = Common Voice-ой үгэгдэлые яажа абахаар бэ?
+faq-when-release-q = Ондоо хэлэнэй Common Voice үгэгдэлые хэзээ ниитэлхэбта?
+faq-why-different-speakers-q = Юундэ нэгэ хэлэндэ иимэ олон яригша байха ёһотойб?
 faq-why-my-lang-q = Минии эхэ хэлэн юундэ ороодүй байнаб?
+faq-how-calc-hours-q = Common Voice саг яажа тоолодог бэ?
 faq-where-src-from-2-q = Уг бэшэбэри хаанаһаа абтааб?
 faq-what-is-cv = Common Voice гэжэ юун бэ?
 faq-using-cv = Common Voice хэрэглэхэ
