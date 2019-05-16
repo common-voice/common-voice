@@ -1,10 +1,17 @@
 ## General
 
+yes-receive-emails = За, сахим шуудангаар Common Voice тухай мэдээ эльгээхыетнай зүбшөөрнэб.
+stayintouch = Mozilla-ынхид бидэ дуу хоолойн технологи һонирхогшодой бүлгэм байгуулан, шэнэ үгэгдэлэй эхэ үүсбэри, шэнэшэлэлтын талаар мэдээ тараажа, эдээнииемнай яажа хэрэглэжэ байһан тухайтнай дуулаха хүсэлтэйбди.
+privacy-info = Танай хубиин мэдээсэл болгоомжотойгоор хэрэглэхэеэ найдуулан,  <privacyLink>Хубиин эрхын тэмдэглэл</privacyLink> дурадханабди.
 return-to-cv = Ниитын Дуу хоолой руу бусаха
 email-input =
     .label = Сахим шуудан
 submit-form-action = Эльгээхэ
 loading = Ашаалагдажа байна...
+email-opt-in-info = Зорилго һануулһан, ажалай ябаса харуулһан, Common Voice-ын һонинуудые мэдээсэһэн сахим шуудан абахаа һананаб.
+email-opt-in-privacy = Сахим шуудан абахые зүбшөөрһэн хадатнай, Mozilla <privacyLink>Хубиин эрхын тэмдэглэл</privacyLink> соо зааһан ёһоор энэ мэдээсэлыетнай хэрэглэхэ болоно.
+indicates-required = *Заабол бүглэхэ ёһотой мэдээсэл
+not-available-abbreviation = Ү/Х
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -12,6 +19,7 @@ loading = Ашаалагдажа байна...
 
 ## Languages
 
+ab = Абхаз
 an = Арагон
 ar = Араб
 as = Ассам
@@ -63,7 +71,6 @@ nn-NO = Нюноршк Норвег
 or = Одия
 pl = Польша
 pt-BR = Португал (Бразил)
-rm = Руманш
 ro = Румын
 ru = Ород
 sah = Яхад
@@ -74,12 +81,15 @@ sr = Серб
 sv-SE = Швед
 ta = Тамил
 te = Тэлүгү
+tg = Таджиг
 th = Тай
 tr = Түрк
 tt = Татаар
+udm = Үдмүрт
 uk = Украин
 ur = Үрдү
 uz = Үзбек
+vi = Вьетнам
 zh-CN = Хятад (БНХАУ)
 zh-HK = Хятад (Һонкон)
 zh-TW = Хятад (Тайван)
@@ -108,6 +118,12 @@ help-us-title = Үгүүлбэри баталалсажа үгыт!
 vote-yes = Тии
 vote-no = Үгы
 toggle-play-tooltip = Тоглуулхын түлөө { shortcut-play-toggle } тобшо дарана гүт
+
+## Account Benefits
+
+
+## What's public
+
 
 ## Speak & Listen Shortcuts
 
@@ -151,12 +167,8 @@ english = Англи
 
 ## ProfileForm
 
-profile-form-cancel = Гараха маягта
-profile-form-delete = Хэрэглэгшын данса усадхаха
 profile-form-username =
     .label = Хэрэглэгшын нэрэ
-profile-form-language =
-    .label = Хэлэн
 profile-form-accent =
     .label = Аялга
 profile-form-age =
@@ -165,25 +177,23 @@ profile-form-gender =
     .label = Хүйһэн
 profile-form-submit-save = Хадгалха
 profile-form-submit-saved = Хадгалагдаа
-profile-keep-data = Үгэгдэлым байлгаха
-profile-delete-data = Үгэгдэлым усадхаха
 male = Эрэ
 female = Эхэнэр
 # Gender
 other = Ондоо
 why-profile-title = Хэрэглэгшын данса юундэ хэрэгтэйб?
 edit-profile = Хэрэглэгшын данса заһаха
-profile-create = Хэрэглэгшын данса үүсхэхэ
 profile-create-success = Хэрэглэгшын данса амжалтатай үүсхэгдэбэ!
 profile-close = Хааха
 
 ## FAQ
 
-faq-important-q = Энэ юундэ шухалаб?
 
-## Profile
+## ABOUT US
 
-profile-why-title = Хэрэглэгшын данса юундэ хэрэгтэйб?
+
+## Glossary
+
 
 ## NotFound
 
@@ -197,18 +207,6 @@ data-download-deny = Үгы
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 data-other-goto = { $name } руу
 data-other-download = Татажа абаха
-
-## Record Page
-
-record-must-allow-microphone = Микрофон хэрэглэхые зүбшөөрнэ гүт.
-record-retry = Дахин үзэхэ
-record-no-mic-found = Микрофон олдоногүй
-record-error-too-short = Бэшэлгэ дэн богони байна
-record-error-too-long = Бэшэлгэ дэн ута байна
-record-error-too-quiet = Бэшэлгэ дэн аалин байна
-record-submit-success = Амжалтатай эльгээгдэбэ! Ондоо бэшэлгэ хэхэ гүт?
-record-help = Бэшэлгэ хэхын тула тобшоод, үгүүлбэриие шангаар уншаарайгты.
-record-cancel = Дахин бэшэһэеэ сусалха
 review-terms = Ниитын дуу хоолой ашаглаһанаараа <termsLink>Нүхэсэл</termsLink> болон <privacyLink>Хубиин эрхэ тухай тэмдэглэл</privacyLink> зүбшөөрһэн болонот.
 terms-agree = Зүбшөөрнэб
 terms-disagree = Зүбшөөрнэгүйб
@@ -220,6 +218,9 @@ review-rerecord = Дахин бэшэхэ
 review-cancel = Эльгээлтэ сусалха
 review-keep-recordings = Бэшэлгэнүүдээ байлгаха
 review-delete-recordings = Бэшэлгэнүүдээ усадхая
+
+## New Datasets Page
+
 
 ## Download Modal
 
@@ -260,8 +261,13 @@ action-tap = Тобшохо
 contribute = Баяжуулха
 listen = Шагнаха
 skip = Алгасаха
-clips = Клипнүүд
 record-cta = Бэшэлгэ эхилхэ
+record-must-allow-microphone = Микрофон хэрэглэхые зүбшөөрнэ гүт.
+record-no-mic-found = Микрофон олдоногүй
+record-error-too-short = Бэшэлгэ дэн богони байна
+record-error-too-long = Бэшэлгэ дэн ута байна
+record-error-too-quiet = Бэшэлгэ дэн аалин байна
+record-cancel = Дахин бэшэһэеэ сусалха
 record-three-more-instruction = Гурбал үлөө!
 record-again-instruction = Гоё даа!<recordIcon></recordIcon> Удаадахи клип бэшэнэ гүт
 record-again-instruction2 = Бү зогсогты, дахин бэшэе <recordIcon></recordIcon>
@@ -283,3 +289,13 @@ listen-last-time-instruction = <playIcon></playIcon>Һүүлшынхи!
 nothing-to-validate = Тус хэлэндэ баталха зүйл үгы байна. Баталха юумэ бии болголсоно гүт.
 record-button-label = Дуугарһанаа бэшэхэ
 share-title-new = Шэнэ дуу хоолой олоходомнай <bold>туһална гүт</bold>
+
+## Goals
+
+
+## Dashboard
+
+
+## Profile Delete
+
+profile-form-delete = Хэрэглэгшын данса усадхаха
