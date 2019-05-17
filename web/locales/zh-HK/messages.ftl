@@ -55,7 +55,9 @@ fr = 法文
 fy-NL = 菲士蘭文
 ga-IE = 愛爾蘭文
 gl = 加利西亞文
+ha = 豪薩文
 he = 希伯來文
+hi-IN = 印地文
 hr = 克羅地亞文
 hsb = 上索布文
 hu = 匈牙利文
@@ -338,6 +340,7 @@ about-speak = 講話
 about-listen-queue = 聆聽隊列
 about-listen = 聆聽
 about-is-it-valid = 片段正確嗎？
+about-is-it-valid-text = 若使用者投下「正確」，錄音片段就會標示為有效。
 about-yes-votes = ≥ 2 張「正確」票
 about-no-votes = ≥ 2 張「不正確」票
 about-no-votes-text = 若使用者投下不正確票，錄音片段就會回到隊列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
@@ -567,4 +570,8 @@ keep = 保留
 remove = 移除
 keep-info = 您的錄音會以匿名的形式保留喺 Common Voice 嘅資料集。當您刪除咗個人資料後，就唔能夠再從資料集中刪除錄音。
 remove-info = 我們將會審核您從資料集中刪除錄音的請求。如果您的請求獲得批准，我們將會聯絡已下載資料集的使用者，並請他們也刪除您的錄音。
+why-delete-recordings =
+    學術界、小企業與語音識別愛好者會使用 Common Voice 的錄音片段來幫助訓練、發展語音模型等公共資源。
+    
+    可以讓我們知道您為什麼想要刪除錄音片段嗎？
 profile-form-delete = 刪除個人檔案
