@@ -217,7 +217,10 @@ class DatasetInfo extends React.Component<Props, State> {
                   splits: Object.entries(localeStats.splits)
                     .filter(([, values]) => Object.keys(values).length > 1)
                     .map(([category, values]) => (
-                      <Splits {...{ category, values, locale }} />
+                      <Splits
+                        key={category}
+                        {...{ category, values, locale }}
+                      />
                     )),
                 }).map(([id, value], i) => (
                   <li key={id}>
