@@ -382,8 +382,10 @@ mycroft-subtitle = ปัญญาประดิษฐ์
 
 glossary = อภิธานศัพท์
 localization = การแปล
+localization-explanation = นี่คือกระบวนการของเราในการแปลและปรับเนื้อหาของภาษาแต่ละท้องถิ่น
 sentence-collection = การรวบรวมประโยค
 sentence-collection-explanation = รวบรวมประโยคจากโดเมนสาธารณะ หรือเขียนประโยคใหม่สำหรับโดเมนสาธารณะ
+hours-recorded-explanation = จำนวนชั่วโมงการบันทึกเสียงที่เราได้รวบรวมไว้
 sst = การแปลงเสียงพูดเป็นข้อความ (STT)
 sst-explanation = เทคโนโลยีการแปลงเสียงพูดเป็นข้อความ (STT) แปลงข้อมูลเสียงเป็นข้อความ
 
@@ -422,6 +424,7 @@ review-delete-recordings = ลบการบันทึกของฉัน
 
 ## New Datasets Page
 
+datasets-headline = เรากำลังสร้างชุดข้อมูลเสียงแบบโอเพนซอร์สหลายภาษาที่ทุกคนสามารถใช้สอนโปรแกรมที่รับรู้เสียงพูด
 language = ภาษา
 # File size in gigabytes
 size = ขนาด
