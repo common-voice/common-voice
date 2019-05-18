@@ -260,6 +260,7 @@ class DatasetInfo extends React.Component<Props, State> {
                       </Localized>
                     }
                     name="confirmSize"
+                    checked={confirmSize}
                     onChange={this.handleInputChange}
                     style={{ marginBottom: 40 }}
                   />
@@ -270,6 +271,7 @@ class DatasetInfo extends React.Component<Props, State> {
                       </Localized>
                     }
                     name="confirmNoIdentify"
+                    checked={confirmNoIdentify}
                     onChange={this.handleInputChange}
                     style={{ marginBottom: 20 }}
                   />
