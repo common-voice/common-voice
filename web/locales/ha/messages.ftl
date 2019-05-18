@@ -129,6 +129,7 @@ speak = Yi Magana
 speak-now = Yi magana yanzu
 datasets = Tuƙullumar Bayanai
 languages = Yaruka
+about = Gameda mu
 profile = Bayananka
 help = Taimako
 contact = Tuntuɓi
@@ -155,11 +156,15 @@ wall-of-text-second = Mafi yawan bayanai da manyan kamfanoni suke amfani da su b
 show-wall-of-text = Ci gaba Karantawa
 help-us-title = Taimaka mana mu inganta kalmomi!
 help-us-explain = Danna fara, sai ka saurara sannan ka bayyana mana: Yadda suka faɗi wannan jimla ta ƙasa dai dai ne?
+no-clips-to-validate = Da alamar ba'a saka sautikan da za'a saurara a wannan yaren ba. Taimaka mana wajen naɗar naka sautin yanzu.
 vote-yes = E
 vote-no = A'a
 toggle-play-tooltip = Danna { shortcut-play-toggle } don Cigaba ko ka tsayar da sauraro
 speak-subtitle = Ba da gudumuwar muryarka
+speak-paragraph = naɗar sautikan murya yana cikin ayyukan gina dataset na kyauta; wasu ma cewa suke shine abu mafi daɗi a cikin aikin.
+speak-goal-text = Sautukan da aka naɗa
 listen-subtitle = Taimaka mana mu tantance muryoyi
+listen-paragraph = Tabbatar da kyautatuwar sautikan da aka bada gudummawarsu na cikin muhimman ayyukan Common Voice. Saurari sautikan domin ka taimaka mana wajen samar da bayanai na muryoyi mai inganci.
 listen-goal-text = Sautukan da aka tantance
 hours-recorded = Awannin da aka ɗauka
 hours-validated = Awannin da aka tantance
@@ -175,15 +180,25 @@ x-weeks-short =
         [one] Sati
        *[other] sati { $count }
     }
+x-months-short =
+    { $count ->
+        [one] wata
+       *[other] watanni { $count }
+    }
 x-years-short =
     { $count ->
         [one] Shekara { $count }
        *[other] Shekaru { $count }
     }
+help-make-dataset = Taimaka mana wajen gina dataset mai inganci, kuma kyauta ga jama'a.
+profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
+sign-up-account = Yi rajista.
+email-subscription-title = Yi rajista domin samin saƙonnin email.
 
 ## Account Benefits
 
 benefits = Amfani
+compare-progress = Gwada yawan gudummawarka da ta sauran masu bada gudummawa a duk faɗin duniya.
 
 ## What's public
 
@@ -214,6 +229,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Kara daukan shirin
 request-language-button = Nemi izinin wani yaren
 
 ## ProjectStatus
@@ -229,10 +245,14 @@ profile-form-native-language =
     .label = Yaren asali
 profile-form-additional-language =
     .label = Ƙarin Harshe
+profile-form-accent =
+    .label = Karin harshe
 profile-form-age =
     .label = Shekaru
 profile-form-gender =
     .label = Jinsi
+leaderboard-visibility =
+    .label = Nuna allon jagora.
 hidden = An ɓoye
 visible = A bayyane
 native-language =
@@ -245,10 +265,14 @@ female = Mace
 other = Saura
 why-profile-title = Meyasa ake buƙatar bayanai na?
 build-profile = Gina Bayananka
+avatar = Hoto
 goals = Manufofi
 settings = Saituna
 edit-profile = Gyara Bayananka
+profile-create-success = Anyi Nasarar ƙirƙiri profile dinka.
 profile-close = Rufe
+profile-explanation = Ka lura da ci gabanka tare da profile ɗinka domin ka taimakawa ingancin bayananmu na muryoyi.
+thanks-for-account = Mungode da ka tabbatar mana da account ɗinka, yanzu bari mu gina profile ɗinka.
 why-demographic = Me yasa wannan al'amarin yake da muhimmanci?
 login-identity = Bayanan sirrin ka
 edit = Gyara
@@ -256,9 +280,13 @@ email-subscriptions = Karɓar saƙonnin yanar gizo
 download-profile = Sakko da Bayanaina
 off = Kashe
 on = Kunna
+add-avatar-title = Ɗora hoto akan profile ɗinka.
 browse-file-title = Ɗora hoto.
+gravatar_not_found = Ba'a samu hoton gravatar na imel ɗinka ba
 file_too_large = Fayil ɗin da aka zaɓa ya yi girma sosai
+email-already-used = Ana amfani da wannan imel ɗin a wani asusun  na daban
 add-language = Ƙara Yare
+change-email-setings = Ka sauya imel ɗinka ta cikin saituna ƙarƙashin shaidar shiga
 
 ## FAQ
 
@@ -276,13 +304,33 @@ faq-why-my-lang-q = Me ya sanya ba'a saka yarena ba har yanzu?
 faq-how-calc-hours-q = Ta yaya Common Voice yake auna sa'o'i?
 faq-why-account-q = Don me zan buɗe asusu?
 faq-is-account-public-q = Shin bayanan asusuna a buɗe suke?
+faq-what-is-cv = Mene ne Common Voice?
+faq-using-cv = Amfani da Common Voice
+faq-search-for-answers =
+    .label = Binciko amsoshi
 
 ## ABOUT US
 
+about-title = Me yasa muke Common Voice?
+how-does-it-work-title = Yaya ya ke aiki?
+about-speak = Yi magana
+about-listen-queue = Layin sauraro
+about-listen = Saurara
+about-is-it-valid = Shin naɗin yana da kyau?
+about-is-it-valid-text = Ana alamta naɗin murya a matsayin mai kyau idan mai amfani ya bashi ƙuri'a ta ƙwarai.
+about-yes-votes = ƙuri'ar ƙwarai 2 ko fiye da haka
+about-no-votes = ƙuri'ar a'a 2 ko fiye da haka
+about-partners = Abokan hulɗa
+about-become-a-partner = Zamo abokin hulɗa
+about-get-involved = Shiga a dama da kai
+about-nav-why-common-voice = Me yasa?
+about-nav-how-it-works = Ta yaya?
 
 ## Glossary
 
+glossary = Fihirisa
 localization = Fassarawa
+sentence-collection = Haɗe-haɗen jimloli?
 hours-recorded-explanation = Ƙidayar sa'o'in da muka naɗa na sauti kawo yanzu.
 sst = Mangana-Zuwa-Rubutu(STT)
 
@@ -304,6 +352,8 @@ license-mixed = An cakuda
 terms-agree = Na yarda
 terms-disagree = Ban yarda ba
 review-recording = Nazari
+review-keep-recordings = Bar naɗe-naɗe na
+review-delete-recordings = Goge naɗe-naɗe na
 
 ## New Datasets Page
 
@@ -318,6 +368,8 @@ size-megabyte = MB
 validated-hours = Sa'o'in da aka tantance
 recorded-hours = Sa'o'in da aka naɗa
 whats-inside = Meye a cikin bayanan Common Voice?
+feedback-q = Kana da wani shawari?
+go-discourse = Je zuwa Discourse
 go-languages-page = Jeka zuwa shafin yaruka
 more = Ƙari
 close = Rufe
@@ -370,7 +422,12 @@ listen = Saurari
 skip = Wuce
 shortcuts = Gajerun hanyoyi
 record-cta = Fara Ɗaukar Murya
+record-no-mic-found = Ba'a samu makirfo ba
+record-error-too-long = Naɗin yai tsawo da yawa
+record-error-too-quiet = Naɗin yai shiru da yawa.
+record-cancel = Katse naɗin
 record-three-more-instruction = Saura uku ka gama!
+record-again-instruction2 = Cigaba da ƙoƙari, ƙara naɗar <recordIcon></recordIcon>
 unable-speak = Ba za ka iya magana ba a yanzu?
 record-abort-continue = Kammala Ɗaukar Murya
 record-button-label = Naɗi muryarka
@@ -389,6 +446,8 @@ your-languages = Yarenku
 you = Kai
 everyone = Kowane mutum
 top-contributors = Waɗanda suka fi bada gudummawa
+recorded-clips = Sautikan da aka naɗa
+validated-clips = Naɗe-naɗen da aka tabbatar
 total-approved = Jimillar da aka amince
 
 ## Profile Delete
