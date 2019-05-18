@@ -366,9 +366,11 @@ faq-search-for-answers =
 
 how-does-it-work-title = ทำงานอย่างไร?
 about-speak = พูด
+about-partners = ผู้มีส่วนร่วม
 about-get-involved = มีส่วนร่วม
 about-nav-why-common-voice = ทำไม ?
 about-nav-how-it-works = อย่างไร ?
+about-nav-partners = ผู้มีส่วนร่วม
 about-nav-get-involved = มีส่วนร่วม
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ปัญญาประดิษฐ์
