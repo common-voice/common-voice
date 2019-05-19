@@ -399,7 +399,9 @@ how-does-it-work-text = Közösségi munkában gyűjtjük a hangok nyílt forrá
 about-speak = Beszéljen
 about-speak-text = A közreműködők hangfelvételeket készítenek a felajánlott mondatok felolvasásával.
 about-listen-queue = Figyelési sor
+about-listen-queue-text = A hangfelvételek egy benyújtási sorba kerülnek, amely felkészíti őket a meghallgatásukra.
 about-listen = Figyeljen
+about-listen-text = A felhasználók ellenőrzik a felajánlott felvételek pontosságát, ellenőrizve, hogy a beszélő helyesen olvassa-e fel a mondatot.
 about-is-it-valid = Érvényes-e a klip?
 about-is-it-valid-text = A hangfájl „érvényesként” jelölt, ha egy felhasználó igen szavazatot adott.
 about-yes-votes = ≥ 2 igen szavazat
@@ -412,13 +414,26 @@ about-clip-graveyard = Kliptemető
 about-clip-graveyard-text = A Kliptemető azokból a hangfájlokból áll, amelyek nem kerültek bele a Common Voice adatkészletve. Csakúgy, mint a rendes adatkészlet, a Kliptemető is letölthető.
 about-partners = Partnerek
 about-become-a-partner = Legyen partnerünk
+about-partnership =
+    A Common Voice egy együttműködésre épülő projekt, és a partnereink és közreműködőink közösségére építve készítjük el a valaha volt legnagyobb nyílt forráskódú hangadatkészletet.
+    
+    A következő emberek és szervezetek segítségét szeretnénk megköszönni:
 about-get-involved = Csatlakozzon
+about-get-involved-text =
+    Szeretné még jobbá tenni a Common Voice-ot?
+    Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse-on</discourseLink>,
+    küldjön visszajelzést a <githubLink>GitHubon</githubLink>,
+    vagy csatlakozzon hozzánk a <slackLink>Slacken</slackLink>.
 about-nav-why-common-voice = Miért?
 about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek
 about-nav-get-involved = Csatlakozzon
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Mesterséges intelligencia
+mycroft-description =
+    A Mycroft a világ első nyílt forráskódú asszisztense.
+    A Mycroft mindenütt fut – asztali számítógépen, egy autóban vagy egy Raspberry Pi-on.
+mycroft-secondary-description = Ez egy nyílt forráskódú szoftver, amely szabadon remixelhető, bővíthető és fejleszthető. A Mycroft bármire használható, egy tudományos projekttől kezdve egy nagyvállalati szoftveralkalmazásig.
 
 ## Glossary
 
