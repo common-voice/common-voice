@@ -11,7 +11,13 @@ import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
-import { CheckIcon, LinkIcon } from '../../../ui/icons';
+import { CheckIcon, LinkIcon, MicIcon, StopIcon } from '../../../ui/icons';
+import AudioIOS from '../../contribution/speak/audio-ios';
+import AudioWeb, {
+  AudioError,
+  AudioInfo,
+} from '../../contribution/speak/audio-web';
+import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 
 import './avatar-setup.css';
 
@@ -84,7 +90,34 @@ interface PropsFromDispatch {
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 class AvatarSetup extends React.Component<Props> {
-  state = { isSaving: false };
+  state = { isSaving: false, recordingStatus: false };
+
+  audio: AudioWeb | AudioIOS;
+  isUnsupportedPlatform = false;
+  maxVolume = 0;
+  recordingStartTime = 0;
+  recordingStopTime = 0;
+
+  componentDidMount() {
+    this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
+    this.audio.setVolumeCallback(this.updateVolume.bind(this));
+
+    document.addEventListener('visibilitychange', this.releaseMicrophone);
+
+    if (
+      !this.audio.isMicrophoneSupported() ||
+      !this.audio.isAudioRecordingSupported() ||
+      isFirefoxFocus()
+    ) {
+      this.isUnsupportedPlatform = true;
+    }
+  }
+
+  async componentWillUnmount() {
+    document.removeEventListener('visibilitychange', this.releaseMicrophone);
+    if (!this.state.recordingStatus) return;
+    await this.audio.stop();
+  }
 
   async saveFileAvatar(files: FileList) {
     const { addNotification, api, getString, locale, refreshUser } = this.props;
@@ -98,6 +131,65 @@ class AvatarSetup extends React.Component<Props> {
     refreshUser();
     this.setState({ isSaving: false });
   }
+
+  private updateVolume = (volume: number) => {
+    if (volume !== 100 && volume > this.maxVolume) {
+      this.maxVolume = volume;
+    }
+  };
+
+  private handleRecordClick = async () => {
+    console.log('called mic');
+
+    if (this.state.recordingStatus) {
+      this.saveRecording();
+      return;
+    }
+
+    try {
+      await this.audio.init();
+      await this.startRecording();
+    } catch (err) {
+      if (err in AudioError) {
+        this.setState({ error: err });
+      } else {
+        throw err;
+      }
+    }
+  };
+
+  private startRecording = async () => {
+    console.log('startrecording called');
+    await this.audio.start();
+    this.maxVolume = 0;
+    this.recordingStartTime = Date.now();
+    this.recordingStopTime = 0;
+    this.setState({
+      // showSubmitSuccess: false,
+      recordingStatus: true,
+      error: null,
+    });
+  };
+
+  private saveRecording = () => {
+    console.log('saverecording called');
+    const RECORD_STOP_DELAY = 500;
+    setTimeout(async () => {
+      const info = await this.audio.stop();
+      console.log(info, 'save recording info');
+      //this.processRecording(info);
+    }, RECORD_STOP_DELAY);
+    this.recordingStopTime = Date.now();
+    this.setState({
+      recordingStatus: false,
+    });
+  };
+
+  private releaseMicrophone = () => {
+    if (!document.hidden) {
+      return;
+    }
+  };
 
   render() {
     const {
@@ -144,6 +236,12 @@ class AvatarSetup extends React.Component<Props> {
             />
           </label>
         </div>
+
+        <button
+          className="connect"
+          type="button"
+          onClick={this.handleRecordClick}
+        />
 
         <button
           className="connect"
