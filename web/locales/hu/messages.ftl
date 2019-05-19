@@ -391,8 +391,13 @@ faq-search-for-answers =
 
 about-title = Miért a Common Voice?
 about-subtitle = A Common Voice a Mozilla azon kezdeményezésének része, hogy megtanítsuk a gépeket arra, hogyan beszélnek az emberek. A Common Voice adatkészlet mellett egy nyílt forráskódú szövegfelismerési motort is fejlesztünk, melyet Deep Searchnek hívnak.
+about-header-description =
+    Mindkét projekt azon erőfeszítésünk része, hogy áthidaljuk a digitális beszéd szakadékát. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
+    A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
 how-does-it-work-title = Hogyan működik
+how-does-it-work-text = Közösségi munkában gyűjtjük a hangok nyílt forráskódú készletét. Adja a hangját, ellenőrizze más emberek klipjeinek pontosságát, és tegye mindenki számára jobbá az adatkészletet.
 about-speak = Beszéljen
+about-speak-text = A közreműködők hangfelvételeket készítenek a felajánlott mondatok felolvasásával.
 about-listen-queue = Figyelési sor
 about-listen = Figyeljen
 about-is-it-valid = Érvényes-e a klip?
