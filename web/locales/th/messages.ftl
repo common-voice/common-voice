@@ -369,6 +369,7 @@ faq-search-for-answers =
 
 how-does-it-work-title = ทำงานอย่างไร?
 about-speak = พูด
+about-listen = ฟัง
 about-is-it-valid = คลิปเสียงนี้ใช้ได้หรือไม่?
 about-dataset = ชุดข้อมูล Common Voice
 about-partners = ผู้มีส่วนร่วม
