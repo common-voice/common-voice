@@ -418,6 +418,7 @@ days =
 ## Dashboard
 
 your-languages = మీ భాషలు
+toward-next-goal = తదుపరి లక్ష్యం వైపు
 stats = గణాంకాలు
 you = మీరు
 everyone = అందరూ
