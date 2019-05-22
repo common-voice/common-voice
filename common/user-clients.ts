@@ -11,6 +11,7 @@ export type UserClient = {
   basket_token?: string;
   skip_submission_feedback?: boolean;
   avatar_url?: string;
+  avatar_clip_url?: string;
   clips_count?: number;
   votes_count?: number;
   awards?: any[];

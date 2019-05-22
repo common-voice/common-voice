@@ -178,12 +178,19 @@ class AvatarSetup extends React.Component<Props> {
       const info = await this.audio.stop();
       console.log(info, 'save recording info');
       //this.processRecording(info);
+      this.uploadAvatarClip(info.blob);
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
     this.setState({
       recordingStatus: false,
     });
   };
+
+  async uploadAvatarClip(blob: Blob) {
+    const { api, refreshUser } = this.props;
+    await api.saveAvatarClip(blob);
+    refreshUser();
+  }
 
   private releaseMicrophone = () => {
     if (!document.hidden) {
@@ -240,8 +247,10 @@ class AvatarSetup extends React.Component<Props> {
         <button
           className="connect"
           type="button"
-          onClick={this.handleRecordClick}
-        />
+          onClick={this.handleRecordClick}>
+          {' '}
+          Record Avatar clip tag{' '}
+        </button>
 
         <button
           className="connect"

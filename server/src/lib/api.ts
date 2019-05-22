@@ -13,6 +13,10 @@ import Model from './model';
 import Clip from './clip';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
+import { PassThrough } from 'stream';
+import { S3 } from 'aws-sdk';
+import { AWS } from './aws';
+const Transcoder = require('stream-transcoder');
 
 const PromiseRouter = require('express-promise-router');
 
@@ -20,11 +24,13 @@ export default class API {
   model: Model;
   clip: Clip;
   metrics: Prometheus;
+  private s3: S3;
 
   constructor(model: Model) {
     this.model = model;
     this.clip = new Clip(this.model);
     this.metrics = new Prometheus();
+    this.s3 = AWS.getS3();
   }
 
   getRouter(): Router {
@@ -86,6 +92,7 @@ export default class API {
       bodyParser.raw({ type: 'image/*' }),
       this.saveAvatar
     );
+    router.post('/user_client/avatarclip', this.saveAvatarClip);
 
     router.post('/user_client/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
@@ -262,6 +269,62 @@ export default class API {
     }
 
     response.json(error ? { error } : {});
+  };
+
+  saveAvatarClip = async (request: Request, response: Response) => {
+    const { client_id, headers, user } = request;
+
+    const folder = client_id;
+    const clipFileName = folder + '.mp3';
+    try {
+      // If upload was base64, make sure we decode it first.
+      let transcoder;
+      if ((headers['content-type'] as string).includes('base64')) {
+        // If we were given base64, we'll need to concat it all first
+        // So we can decode it in the next step.
+        const chunks: Buffer[] = [];
+        await new Promise(resolve => {
+          request.on('data', (chunk: Buffer) => {
+            chunks.push(chunk);
+          });
+          request.on('end', resolve);
+        });
+        const passThrough = new PassThrough();
+        passThrough.end(
+          Buffer.from(Buffer.concat(chunks).toString(), 'base64')
+        );
+        transcoder = new Transcoder(passThrough);
+      } else {
+        // For non-base64 uploads, we can just stream data.
+        transcoder = new Transcoder(request);
+      }
+
+      await Promise.all([
+        this.s3
+          .upload({
+            Bucket: getConfig().BUCKET_NAME,
+            Key: clipFileName,
+            Body: transcoder
+              .audioCodec('mp3')
+              .format('mp3')
+              .stream(),
+          })
+          .promise(),
+      ]);
+      console.log('file written to s3', clipFileName);
+      let d = await UserClient.updateAvatarClipURL(
+        user.emails[0].value,
+        clipFileName
+      );
+      console.log(d);
+
+      response.json('mohit');
+    } catch (error) {
+      console.error(error);
+      response.statusCode = error.statusCode || 500;
+      response.statusMessage = 'save avatar clip error';
+      response.json(error);
+    }
   };
 
   getContributionActivity = async (

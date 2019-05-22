@@ -110,6 +110,7 @@ export default class Clip {
    */
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
+    //console.log(headers)
     const sentence = decodeURIComponent(headers.sentence as string);
 
     if (!client_id || !sentence) {
@@ -136,6 +137,10 @@ export default class Clip {
         const chunks: Buffer[] = [];
         await new Promise(resolve => {
           request.on('data', (chunk: Buffer) => {
+            console.log(
+              chunks,
+              'clip chunks called YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY'
+            );
             chunks.push(chunk);
           });
           request.on('end', resolve);
