@@ -311,14 +311,14 @@ export default class API {
           })
           .promise(),
       ]);
-      console.log('file written to s3', clipFileName);
+      console.log('avatar clip uploaded to s3', clipFileName);
       let d = await UserClient.updateAvatarClipURL(
         user.emails[0].value,
         clipFileName
       );
       console.log(d);
 
-      response.json('mohit');
+      response.json(d);
     } catch (error) {
       console.error(error);
       response.statusCode = error.statusCode || 500;

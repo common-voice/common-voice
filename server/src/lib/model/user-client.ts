@@ -250,10 +250,16 @@ const UserClient = {
   },
 
   async updateAvatarClipURL(email: string, url: string) {
-    return await db.query(
+    await db.query(
       'UPDATE user_clients SET avatar_clip_url = ? WHERE email = ?',
       [url, email]
     );
+  },
+
+  async getAvatarClipURL(email: string, url: string) {
+    await db.query('SELECT avatar_clip_url FROM user_clients WHERE email = ?', [
+      email,
+    ]);
   },
 
   async findClientId(email: string): Promise<null | string> {
