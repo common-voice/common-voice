@@ -102,8 +102,6 @@ class AvatarSetup extends React.Component<Props> {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
-    document.addEventListener('visibilitychange', this.releaseMicrophone);
-
     if (
       !this.audio.isMicrophoneSupported() ||
       !this.audio.isAudioRecordingSupported() ||
@@ -114,7 +112,6 @@ class AvatarSetup extends React.Component<Props> {
   }
 
   async componentWillUnmount() {
-    document.removeEventListener('visibilitychange', this.releaseMicrophone);
     if (!this.state.recordingStatus) return;
     await this.audio.stop();
   }
@@ -177,7 +174,6 @@ class AvatarSetup extends React.Component<Props> {
     setTimeout(async () => {
       const info = await this.audio.stop();
       console.log(info, 'save recording info');
-      //this.processRecording(info);
       this.uploadAvatarClip(info.blob);
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();

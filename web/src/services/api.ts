@@ -96,7 +96,6 @@ export default class API {
   }
 
   uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
-    //console.log(blob,"front api clip last ")
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
@@ -220,8 +219,6 @@ export default class API {
   }
 
   saveAvatarClip(blob: Blob): Promise<void> {
-    console.log(blob, 'web api blob passed');
-    //console.log(blob,"front api clip last ")
     return this.fetch(API_PATH + '/user_client/avatarclip', {
       method: 'POST',
       headers: {

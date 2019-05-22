@@ -137,10 +137,6 @@ export default class Clip {
         const chunks: Buffer[] = [];
         await new Promise(resolve => {
           request.on('data', (chunk: Buffer) => {
-            console.log(
-              chunks,
-              'clip chunks called YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY'
-            );
             chunks.push(chunk);
           });
           request.on('end', resolve);

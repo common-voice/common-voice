@@ -235,13 +235,8 @@ class SpeakPage extends React.Component<Props, State> {
     if (error) {
       return this.setState({ error });
     }
-    console.log(this.state, 'before setstate with info and recording');
+
     const { clips } = this.state;
-    console.log(
-      clips,
-      'clips from state which have both sentence and recording but how ?',
-      this.state
-    );
     this.setState({
       clips: clips.map(({ recording, sentence }, i) => ({
         recording: i === this.getRecordingIndex() ? info : recording,
@@ -249,7 +244,6 @@ class SpeakPage extends React.Component<Props, State> {
       })),
       rerecordIndex: null,
     });
-    console.log(this.state, 'After setstate with info and recording');
     trackRecording('record', this.props.locale);
   };
 
@@ -329,7 +323,6 @@ class SpeakPage extends React.Component<Props, State> {
     const RECORD_STOP_DELAY = 500;
     setTimeout(async () => {
       const info = await this.audio.stop();
-      console.log(info.blob, 'info now calling process recording');
       this.processRecording(info);
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
@@ -383,7 +376,6 @@ class SpeakPage extends React.Component<Props, State> {
     }
 
     const clips = this.state.clips.filter(clip => clip.recording);
-    //console.log(clips)
     removeSentences(clips.map(c => c.sentence.id));
 
     this.setState({ clips: [], isSubmitted: true });
