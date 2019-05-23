@@ -367,6 +367,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
+about-title = ทำไมต้องมี Common Voice?
 how-does-it-work-title = ทำงานอย่างไร?
 about-speak = พูด
 about-listen = ฟัง
