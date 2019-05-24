@@ -67,7 +67,7 @@
   "devDependencies": {
     "file-loader": "^3.0.1",
     "react-dev-utils": "^7.0.2",
-    "webpack-bundle-analyzer": "^3.0.3"
+    "webpack-bundle-analyzer": "^3.3.2"
   },
   "scripts": {
     "build": "webpack --mode=production",
