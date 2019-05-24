@@ -368,9 +368,16 @@ faq-how-privacy-a = Мәгълүмат тупланмасындагы барлы
 faq-what-determine-identity-q = Common Voice тупланмасындагы сөйләүчеләрнең кем икәнлеген минем билгели алмавым нәрсәне аңлата?
 faq-what-is-cv = Common Voice нәрсә ул?
 faq-using-cv = Common Voice'ны куллану
+faq-description = Common Voice — Mozilla'ның машиналарга кешеләр ничек сөйләшә икәнен өйрәтүгә юнәлдерелгән инициативасы.
+faq-search-for-answers =
+    .label = Җавап эзләү
 
 ## ABOUT US
 
+about-title = Нигә Common Voice?
+how-does-it-work-title = Ул ничек эшли?
+about-speak = Сөйләү
+about-speak-text = Катнашучылар, иганә ителгән җөмләләрне укып, аудиоязмалар булдыралар.
 
 ## Glossary
 
