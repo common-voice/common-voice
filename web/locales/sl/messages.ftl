@@ -51,6 +51,7 @@ es = španščina
 et = estonščina
 eu = baskovščina
 fa = perzijščina
+ff = fulščina
 fi = finščina
 fo = ferščina
 fr = francoščina
