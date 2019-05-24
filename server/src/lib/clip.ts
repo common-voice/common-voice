@@ -110,7 +110,6 @@ export default class Clip {
    */
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
-    //console.log(headers)
     const sentence = decodeURIComponent(headers.sentence as string);
 
     if (!client_id || !sentence) {

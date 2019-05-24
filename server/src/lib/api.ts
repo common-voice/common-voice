@@ -16,6 +16,7 @@ import { ClientParameterError } from './utility';
 import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import { AWS } from './aws';
+import Bucket from './bucket';
 const Transcoder = require('stream-transcoder');
 
 const PromiseRouter = require('express-promise-router');
@@ -25,12 +26,14 @@ export default class API {
   clip: Clip;
   metrics: Prometheus;
   private s3: S3;
+  private bucket: Bucket;
 
   constructor(model: Model) {
     this.model = model;
     this.clip = new Clip(this.model);
     this.metrics = new Prometheus();
     this.s3 = AWS.getS3();
+    this.bucket = new Bucket(this.model, this.s3);
   }
 
   getRouter(): Router {
@@ -93,7 +96,7 @@ export default class API {
       this.saveAvatar
     );
     router.post('/user_client/avatarclip', this.saveAvatarClip);
-
+    router.get('/user_client/avatarclip', this.getAvatarClip);
     router.post('/user_client/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/:locale/goals', this.getGoals);
@@ -325,6 +328,14 @@ export default class API {
       response.statusMessage = 'save avatar clip error';
       response.json(error);
     }
+  };
+
+  getAvatarClip = async (request: Request, response: Response) => {
+    const { client_id, headers, user } = request;
+    let path = await UserClient.getAvatarClipURL(user.emails[0].value);
+    path = path[0][0].avatar_clip_url;
+    let avatarclip = await this.bucket.getAvatarClipsUrl(path);
+    response.json(avatarclip);
   };
 
   getContributionActivity = async (

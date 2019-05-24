@@ -256,10 +256,11 @@ const UserClient = {
     );
   },
 
-  async getAvatarClipURL(email: string, url: string) {
-    await db.query('SELECT avatar_clip_url FROM user_clients WHERE email = ?', [
-      email,
-    ]);
+  async getAvatarClipURL(email: string) {
+    return await db.query(
+      'SELECT avatar_clip_url FROM user_clients WHERE email = ?',
+      [email]
+    );
   },
 
   async findClientId(email: string): Promise<null | string> {

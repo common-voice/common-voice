@@ -230,6 +230,10 @@ export default class API {
       .catch(err => console.log(err));
   }
 
+  fetchAvatarClip() {
+    return this.fetch(API_PATH + '/user_client/avatarclip');
+  }
+
   fetchLeaderboard(type: 'clip' | 'vote', cursor?: [number, number]) {
     return this.fetch(
       this.getClipPath() +

@@ -11,7 +11,7 @@ import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
-import { CheckIcon, LinkIcon, MicIcon, StopIcon } from '../../../ui/icons';
+import { CheckIcon, LinkIcon, MicIcon, PlayIcon } from '../../../ui/icons';
 import AudioIOS from '../../contribution/speak/audio-ios';
 import AudioWeb, {
   AudioError,
@@ -97,10 +97,13 @@ class AvatarSetup extends React.Component<Props> {
   maxVolume = 0;
   recordingStartTime = 0;
   recordingStopTime = 0;
+  avatarClipUrl: string;
 
-  componentDidMount() {
+  async componentDidMount() {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
+
+    //this.avatarClipUrl = await this.getAvatarClipUrl()
 
     if (
       !this.audio.isMicrophoneSupported() ||
@@ -135,8 +138,21 @@ class AvatarSetup extends React.Component<Props> {
     }
   };
 
+  private playAvatarClip = async () => {
+    const { api } = this.props;
+    let url = await api.fetchAvatarClip();
+    const a = new Audio(url);
+    a.play();
+    //console.log(f,"aa gaya")
+  };
+
+  private getee = async () => {
+    var a = new Audio('https://www.w3schools.com/tags/horse.ogg');
+    a.play();
+  };
+
   private handleRecordClick = async () => {
-    console.log('called mic');
+    console.log('recording');
 
     if (this.state.recordingStatus) {
       this.saveRecording();
@@ -156,7 +172,6 @@ class AvatarSetup extends React.Component<Props> {
   };
 
   private startRecording = async () => {
-    console.log('startrecording called');
     await this.audio.start();
     this.maxVolume = 0;
     this.recordingStartTime = Date.now();
@@ -169,11 +184,9 @@ class AvatarSetup extends React.Component<Props> {
   };
 
   private saveRecording = () => {
-    console.log('saverecording called');
     const RECORD_STOP_DELAY = 500;
     setTimeout(async () => {
       const info = await this.audio.stop();
-      console.log(info, 'save recording info');
       this.uploadAvatarClip(info.blob);
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
@@ -188,12 +201,6 @@ class AvatarSetup extends React.Component<Props> {
     refreshUser();
   }
 
-  private releaseMicrophone = () => {
-    if (!document.hidden) {
-      return;
-    }
-  };
-
   render() {
     const {
       addNotification,
@@ -202,6 +209,7 @@ class AvatarSetup extends React.Component<Props> {
       refreshUser,
       user: { account },
     } = this.props;
+    const avatarSrc = this.avatarClipUrl;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
@@ -240,14 +248,20 @@ class AvatarSetup extends React.Component<Props> {
           </label>
         </div>
 
-        <button
-          className="connect"
-          type="button"
-          onClick={this.handleRecordClick}>
-          {' '}
-          Record Avatar clip tag{' '}
-        </button>
-
+        <div className="file-upload">
+          <button
+            className="connect"
+            type="button"
+            onClick={this.handleRecordClick}>
+            <MicIcon />
+          </button>
+          <button
+            className="connect"
+            type="button"
+            onClick={this.playAvatarClip}>
+            <PlayIcon />
+          </button>
+        </div>
         <button
           className="connect"
           type="button"
