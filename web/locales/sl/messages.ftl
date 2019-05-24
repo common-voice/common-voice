@@ -392,6 +392,7 @@ about-is-it-valid-text = Glasovni posnetek je označen kot "veljaven", ko uporab
 about-yes-votes = ≥ 2 glasova Da
 about-yes-votes-text = Glasovni posnetek mora biti potrjen s strani dveh različnih uporabnikov, preden je uvrščen v nabor podatkov Common Voice.
 about-no-votes = ≥ 2 glasova Ne
+about-no-votes-text = Ko uporabnik zavrne glasovni posnetek, se ta vrne v čakalno vrsto. Če je zavrnjen drugič, se glasovni posnetek premakne v pokopališče posnetkov.
 about-dataset = Nabor podatkov Common Voice
 about-clip-graveyard = Pokopališče posnetkov
 about-partners = Partnerji
