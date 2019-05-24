@@ -8,8 +8,13 @@
         font-weight: 600;
     }
 
+    .hide-input {
+        display: none;
+    }
+
     & .file-upload,
-    & .connect {
+    & .connect,
+    & .clip-upload {
         border-radius: 4px;
         margin-bottom: 30px;
         width: 100%;

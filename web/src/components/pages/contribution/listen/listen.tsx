@@ -129,6 +129,7 @@ class ListenPage extends React.Component<Props, State> {
   private vote = (isValid: boolean) => {
     const { clips } = this.state;
     const clipIndex = this.getClipIndex();
+
     this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
     this.setState({

@@ -11,13 +11,16 @@ import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
-import { CheckIcon, LinkIcon, MicIcon, PlayIcon } from '../../../ui/icons';
+import {
+  CheckIcon,
+  LinkIcon,
+  MicIcon,
+  StopIcon,
+  PlayIcon,
+} from '../../../ui/icons';
 import AudioIOS from '../../contribution/speak/audio-ios';
-import AudioWeb, {
-  AudioError,
-  AudioInfo,
-} from '../../contribution/speak/audio-web';
-import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
+import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
+import { isFirefoxFocus, isNativeIOS } from '../../../../utility';
 
 import './avatar-setup.css';
 
@@ -97,13 +100,10 @@ class AvatarSetup extends React.Component<Props> {
   maxVolume = 0;
   recordingStartTime = 0;
   recordingStopTime = 0;
-  avatarClipUrl: string;
 
   async componentDidMount() {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
-
-    //this.avatarClipUrl = await this.getAvatarClipUrl()
 
     if (
       !this.audio.isMicrophoneSupported() ||
@@ -142,12 +142,6 @@ class AvatarSetup extends React.Component<Props> {
     const { api } = this.props;
     let url = await api.fetchAvatarClip();
     const a = new Audio(url);
-    a.play();
-    //console.log(f,"aa gaya")
-  };
-
-  private getee = async () => {
-    var a = new Audio('https://www.w3schools.com/tags/horse.ogg');
     a.play();
   };
 
@@ -209,7 +203,7 @@ class AvatarSetup extends React.Component<Props> {
       refreshUser,
       user: { account },
     } = this.props;
-    const avatarSrc = this.avatarClipUrl;
+    const { recordingStatus } = this.state;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
@@ -241,6 +235,7 @@ class AvatarSetup extends React.Component<Props> {
             <input
               type="file"
               accept="image/*"
+              className="hide-input"
               onChange={event => {
                 this.saveFileAvatar(event.target.files);
               }}
@@ -253,7 +248,7 @@ class AvatarSetup extends React.Component<Props> {
             className="connect"
             type="button"
             onClick={this.handleRecordClick}>
-            <MicIcon />
+            {recordingStatus == true ? <StopIcon /> : <MicIcon />}
           </button>
           <button
             className="connect"
