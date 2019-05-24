@@ -406,6 +406,7 @@ about-no-votes-text = Cuando un usuario rechaza una grabación de voz, vuelve a 
 about-dataset = Base de datos de Common Voice
 about-dataset-text = La base de datos de Common Voice contiene cientos de miles de muestras de voz que ayudan a los desarrolladores a crear herramientas de reconocimiento de voz.
 about-clip-graveyard = Cementerio de grabaciones
+about-clip-graveyard-text = El cementerio de grabaciones consiste en grabaciones de voz que no consiguieron acceder a la base de datos de Common Voice. Al igual que ocurre con la base de datos, el cementerio de grabaciones se encuentra disponible para descargar.
 about-partners = Socios
 about-become-a-partner = Convertirse en socio
 about-partnership = Common Voice es un proyecto de colaboración y dependemos de nuestros socios y colaboradores para poder crear la mayor base de datos de voces jamás conocida. Nos gustaría darles las gracias por su ayuda a las siguientes personas y organizaciones:
