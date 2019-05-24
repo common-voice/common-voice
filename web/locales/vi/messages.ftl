@@ -51,6 +51,7 @@ es = Tiếng Tây Ban Nha
 et = Tiếng Estonia
 eu = Tiếng Basque
 fa = Tiếng Ba Tư
+ff = Tiếng Fulah
 fi = Tiếng Phần Lan
 fo = Tiếng Faroe
 fr = Tiếng Pháp
