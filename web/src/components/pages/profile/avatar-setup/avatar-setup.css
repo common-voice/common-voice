@@ -8,6 +8,10 @@
         font-weight: 600;
     }
 
+    .hide-input {
+        display: none;
+    }
+
     & .file-upload,
     & .connect {
         border-radius: 4px;
