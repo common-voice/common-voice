@@ -51,6 +51,7 @@ es = hiszpański
 et = estoński
 eu = baskijski
 fa = perski
+ff = ful
 fi = fiński
 fo = farerski
 fr = francuski
