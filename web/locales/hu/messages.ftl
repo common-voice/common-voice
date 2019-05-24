@@ -51,6 +51,7 @@ es = Spanyol
 et = Észt
 eu = Baszk
 fa = Perzsa
+ff = Fula
 fi = Finn
 fo = Feröeri
 fr = Francia
