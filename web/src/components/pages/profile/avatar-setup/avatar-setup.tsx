@@ -235,7 +235,6 @@ class AvatarSetup extends React.Component<Props> {
             <input
               type="file"
               accept="image/*"
-              className="hide-input"
               onChange={event => {
                 this.saveFileAvatar(event.target.files);
               }}

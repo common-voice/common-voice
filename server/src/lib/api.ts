@@ -314,14 +314,10 @@ export default class API {
           })
           .promise(),
       ]);
-      console.log('avatar clip uploaded to s3', clipFileName);
-      let d = await UserClient.updateAvatarClipURL(
-        user.emails[0].value,
-        clipFileName
-      );
-      console.log(d);
 
-      response.json(d);
+      await UserClient.updateAvatarClipURL(user.emails[0].value, clipFileName);
+
+      response.json(clipFileName);
     } catch (error) {
       console.error(error);
       response.statusCode = error.statusCode || 500;
