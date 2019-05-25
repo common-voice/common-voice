@@ -51,6 +51,7 @@ es = Ισπανικά
 et = Εσθονικά
 eu = Βασκικά
 fa = Περσικά
+ff = Φουλά
 fi = Φιλανδικά
 fo = Φεροϊκά
 fr = Γαλλικά
@@ -83,6 +84,7 @@ lv = Λετονικά
 mdf = Μόκσα
 mhr = Ανατολική Μάρι
 mk = Σλαβομακεδονικά
+ml = Μαλαγιάλαμ
 mn = Μογγολικά
 mrj = Δυτική Μάρι
 myv = Erzya
@@ -132,6 +134,7 @@ speak = Ομιλία
 speak-now = Μιλήστε τώρα
 datasets = Σύνολα δεδομένων
 languages = Γλώσσες
+about = Σχετικά
 profile = Προφίλ
 help = Βοήθεια
 contact = Επικοινωνία
@@ -364,6 +367,28 @@ faq-why-account-q = Γιατί να δημιουργήσω λογαριασμό;
 faq-is-account-public-q = Είναι δημόσιες οι πληροφορίες του λογαριασμού μου;
 faq-how-privacy-q = Πώς εξασφαλίζετε την ανωνυμία και το απόρρητο των ατόμων που δώρισαν τις φωνές τους;
 faq-what-determine-identity-q = Τι σημαίνει ότι δεν μπορώ να “προσδιορίσω την ταυτότητα” των ομιλητών στο σύνολο δεδομένων του Common Voice;
+faq-what-is-cv = Τι είναι το Common Voice;
+faq-using-cv = Χρήση του Common Voice
+faq-search-for-answers =
+    .label = Αναζήτηση απαντήσεων
+
+## ABOUT US
+
+about-title = Γιατί το Common Voice;
+how-does-it-work-title = Πώς λειτουργεί;
+about-speak = Ομιλία
+about-is-it-valid = Είναι έγκυρο το κλιπ;
+about-dataset = Σύνολο δεδομένων Common Voice
+about-clip-graveyard = Κοιμητήριο κλιπ
+about-partners = Συνεργάτες
+about-become-a-partner = Γίνετε συνεργάτης
+about-get-involved = Συμμετοχή
+about-nav-why-common-voice = Γιατί;
+about-nav-how-it-works = Πώς;
+about-nav-partners = Συνεργάτες
+about-nav-get-involved = Συμμετοχή
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Τεχνητή νοημοσύνη
 
 ## Glossary
 
