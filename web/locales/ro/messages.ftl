@@ -51,6 +51,7 @@ es = Spaniolă
 et = Estonă
 eu = Bască
 fa = Persană
+ff = Fulah
 fi = Finlandeză
 fo = Feroeză
 fr = Franceză
