@@ -373,10 +373,16 @@ faq-where-src-from-2-a =
     
     Nasze zdania źródłowe można zobaczyć w tym <githubLink>folderze w serwisie GitHub</githubLink>.
 faq-why-not-ask-read-q = Dlaczego nie prosicie uczestników o czytanie z książek lub artykułów z Wikipedii w różnych językach?
+faq-why-not-ask-read-a = Aby zbiór danych Common Voice był jak najbardziej użyteczny, zdecydowaliśmy się zezwolić tylko na tekst źródłowy, który jest dostępny na licencji Creative Commons (CC0). Korzystanie ze standardu CC0 oznacza większy trud w znalezieniu i zebraniu odpowiednich tekstów źródłowych, ale pozwala każdemu na wykorzystanie uzyskanych danych głosowych bez ograniczeń użytkowania lub upoważnienia od Mozilli. Ostatecznie chcemy, aby wielojęzyczny zbiór danych był jak najbardziej przydatny dla wszystkich, w tym dla naukowców, uniwersytetów, start-upów, rządów, organizacji pożytku publicznego i hobbystów.
 faq-why-account-q = Po co mam zarejestrować konto?
 faq-is-account-public-q = Czy informacje zawarte na moim koncie są publiczne?
 faq-how-privacy-q = W jaki sposób zapewniacie anonimowość i prywatność osób, które przekazały nagrania?
+faq-how-privacy-a = Wszystkie nagrania głosowe w zbiorze danych są czyszczone z danych osobowych. Gdy uczestnik przekazuje dane demograficzne za pośrednictwem swojego profilu, informacje te są usuwane z ich nagrań przed dołączeniem do pobrania w zbiorze danych i nigdy nie są upubliczniane na stronie profilu.
 faq-what-determine-identity-q = Co to znaczy, że nie mogę „ustalać tożsamości” osób mówiących w zbiorze danych Common Voice?
+faq-what-determine-identity-a =
+    Zbiór danych Common Voice to otwarty i publicznie dostępny zasób, który można wykorzystywać do szkolenia szerokiej gamy aplikacji obsługujących mowę. Aby chronić bezpieczeństwo naszych uczestników, prosimy wszystkich, którzy pobierają zbiór Common Voice, o poszanowanie ich prywatności.
+    
+    Wszystkie nagrania głosowe w zbiorze danych są czyszczone z danych osobowych. Po pobraniu zbioru zgadzasz się nie podejmować prób ustalenia tożsamości jakiegokolwiek uczestnika. Oznacza to, że nie możesz próbować łączyć informacji w zbiorze danych z danymi osobowymi uczestnika. Możesz jednak użyć zbioru danych do szkolenia rozpoznawania mowy, rozpoznawania mówców lub innych aplikacji, na przykład poprzez łączenie informacji z innymi informacjami zawartymi w zbiorze danych.
 faq-what-is-cv = Czym jest Common Voice?
 faq-using-cv = Jak używać Common Voice
 faq-description = Projekt Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi.
