@@ -51,6 +51,7 @@ es = Sbaeneg
 et = Estoneg
 eu = Basgeg
 fa = Persieg
+ff = Fulah
 fi = Ffinneg
 fo = Ffaroeg
 fr = Ffrangeg
