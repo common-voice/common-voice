@@ -2,7 +2,7 @@
 
 yes-receive-emails = Da, vreau să primesc e-mailuri. Aș dori să primesc informații despre proiectul Common Voice.
 stayintouch = La Mozilla construim o comunitate în jurul tehnologiei vocale. Am vrea să te ținem la curent cu noutăți, surse noi de date și să aflăm mai multe despre cum folosești aceste date.
-privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Pentru mai multe informații, citește <privacyLink>Politica noastră de confidențialitate</privacyLink>.
+privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Pentru mai multe informații, citește <privacyLink>Declarația noastră de confidențialitate</privacyLink>.
 return-to-cv = Întoarce-te la Common Voice
 email-input =
     .label = E-mail
@@ -464,7 +464,7 @@ data-bundle-button = Descarcă pachetul cu setul de date
 data-bundle-description = Datele Common Voice plus toate celelalte seturi de date de mai sus.
 license = Licență: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixtă
-review-terms = Prin utilizarea Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Politica de confidențialitate</privacyLink>
+review-terms = Prin utilizarea Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Declarația de confidențialitate</privacyLink>
 terms-agree = De acord
 terms-disagree = Nu sunt de acord
 review-aborted = Încărcare abandonată. Vrei să-ți ștergi înregistrările?
