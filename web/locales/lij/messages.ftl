@@ -296,8 +296,6 @@ profile-explanation = Regìstra 'n profiî pe tegnî tràccia di teu progrèssi 
 thanks-for-account = Gràçie pe avéi confermòu o teu cónto, òua conpletémmo o teu profî.
 why-demographic = Perché l'é inportànte?
 why-demographic-explanation = Dæti cómme etæ, sèsso, e acénto agiùtano a megioâ i dæti òudio utilizæ pe svilupâ a precixón di motoî de riconosciménto vocâle. O teu nómme uténte e l'indirìsso de pòsta eletrònica no saiàn mâi asociæ a-i dæti spedîi, e ti poriæ çèrne se rénde o teu nómme uténte pùblico ò privòu.
-keep-me-posted =
-    .label = Mi piaxiéiva riçéive agiornaménti in sce Common Voice.
 accept-privacy = Aconsénto a-o trataménto di dæti cómme l'é indicòu inta <privacyLink>informatìva in sciâ privacy</privacyLink> de Mozilla.
 login-identity = Identitæ de conesción
 login-signup = Ìntra / Regìstrite
@@ -357,6 +355,12 @@ faq-why-account-q = Perché mi doviæ registrâ 'n cónto?
 faq-is-account-public-q = E informaçioìn in sciô mæ cónto són pùbliche?
 faq-how-privacy-q = Cómme aseghiæ l'anonimâto e o rispètto da vìtta privâ da génte che l'à regalòu e seu vôxe?
 faq-what-determine-identity-q = Cöse scignificâ che o l'é proibîo de «determinâ l'identitæ» de vôxe prezénte into dataset de Common Voice?
+
+## ABOUT US
+
+about-speak = Parla
+about-yes-votes = ≥ 2 voti Sci
+about-no-votes = ≥ 2 voti No
 
 ## Glossary
 
