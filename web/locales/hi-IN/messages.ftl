@@ -318,6 +318,11 @@ shortcuts = शॉर्टकट
 record-cta = रिकॉर्डिंग शुरू करें
 record-platform-not-supported = हमें खेद है, पर आपका प्लेटफार्म वर्तमान में समर्थित नहीं है।
 record-platform-not-supported-desktop = डेस्कटॉप कंप्यूटर पर, आप नवीनतम डाउनलोड कर सकते हैं:
+record-cancel = पुनः रिकॉर्डिंग रद्द करें
+record-instruction = { $actionType }<recordIcon></recordIcon> करें फिर वाक्य को जोर से पढ़ें
+unable-speak = अभी बोलने में असमर्थ हैं?
+record-abort-submit = क्लिप जमा करें
+record-abort-continue = रिकॉर्डिंग समाप्त करें
 
 ## Goals
 
