@@ -51,6 +51,7 @@ es = Espagnol
 et = Estonien
 eu = Basque
 fa = Persan
+ff = Peul
 fi = Finnois
 fo = Féroïen
 fr = Français
