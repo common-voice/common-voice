@@ -25,7 +25,7 @@ data "aws_iam_policy_document" "allow_fetch_cloudwatch_metrics" {
 
     principals {
       type        = "AWS"
-      identifiers = ["arn:aws:iam::517826968395:root"]
+      identifiers = ["${var.metrics_user}"]
     }
   }
 }

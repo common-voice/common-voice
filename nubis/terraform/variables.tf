@@ -27,3 +27,8 @@ variable "read_only_public_users" {
 variable "bundler_read_only_public_users" {
   default = "1"
 }
+
+variable "metrics_user" {
+  default     = "arn:aws:iam::517826968395:root"
+  description = "ARN of the user/account fetching ELB metrics. Defaults to mozilla-itsre account"
+}
