@@ -387,6 +387,7 @@ faq-search-for-answers =
 
 about-title = Zakaj Common Voice?
 how-does-it-work-title = Kako deluje
+about-listen-text = Uporabniki preverijo točnost posnetkov in ali je govornik pravilno prebral stavek.
 about-is-it-valid = Ali je posnetek veljaven?
 about-is-it-valid-text = Glasovni posnetek je označen kot "veljaven", ko uporabnik zanj glasuje "Da".
 about-yes-votes = ≥ 2 glasova Da
