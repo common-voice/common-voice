@@ -10,6 +10,7 @@ submit-form-action = জমা দিন
 loading = লোড করা হচ্ছে…
 email-opt-in-privacy = আপনি ইমেল গ্রহণ করার অনুমতি দিয়ে আপনি মজিলাকে আপনার এই তথ্য ব্যবহস্থাপনা করার বিষয়ে সম্মত হচ্ছেন, যেমনটা মজিলার <privacyLink> গোপনীয়তা নীতিতে <privacyLink> ব্যাখ্যা করা হয়েছে।
 indicates-required = * প্রয়োজনীয় ক্ষেত্র নির্দেশ করে
+not-available-abbreviation = প্রযোজ্য নয়
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
