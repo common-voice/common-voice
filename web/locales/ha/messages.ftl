@@ -8,6 +8,7 @@ email-input =
     .label = Adreshin yanar gizo
 submit-form-action = Tura
 loading = Yana budewa...
+email-opt-in-info = Ina son karɓar saƙonnin email kan tunatarwa akan abinda na ke son cimmawa, ko ci gabana ko kuma labarai a kan Common Voice
 email-opt-in-privacy = Ta hanyar shigar da kanka don samun saƙonnin yanar gizo ka yadda cewa Mozilla suna kula da bayanai kamar yada suka bayyana a <privacyLink> Tsarin Gudanar da sirrinsu <privacyLink>
 indicates-required = * Yana nuna cewa wajibi ne ka cike gurbin
 not-available-abbreviation = Babu Bayani
@@ -50,6 +51,7 @@ es = Sifaniyanci
 et = Yaren Istoniya
 eu = Yaren Basque
 fa = Yaren Fasha
+ff = Filatanci
 fi = Yaren Finnish
 fo = Yaren Faroese
 fr = Faransanci
@@ -267,6 +269,7 @@ female = Mace
 # Gender
 other = Saura
 why-profile-title = Meyasa ake buƙatar bayanai na?
+dashboard = Dashboard
 build-profile = Gina Bayananka
 avatar = Hoto
 goals = Manufofi
@@ -287,6 +290,8 @@ add-avatar-title = Ɗora hoto akan profile ɗinka.
 browse-file-title = Ɗora hoto.
 gravatar_not_found = Ba'a samu hoton gravatar na imel ɗinka ba
 file_too_large = Fayil ɗin da aka zaɓa ya yi girma sosai
+manage-subscriptions = Sarrafa Abubabuwan da ka sa kanka
+manage-email-subscriptions = Sarrafa Abubuwan da ka sa Imel ɗinka ya dinga ƙarɓa
 email-already-used = Ana amfani da wannan imel ɗin a wani asusun  na daban
 add-language = Ƙara Yare
 change-email-setings = Ka sauya imel ɗinka ta cikin saituna ƙarƙashin shaidar shiga
@@ -295,6 +300,7 @@ change-email-setings = Ka sauya imel ɗinka ta cikin saituna ƙarƙashin shaidar
 
 faq-title = Tambayoyin da aka fi tambaya
 faq-what-cv-q = Me ne ne Common Voice?
+faq-what-cv-a = Fasahar Magana wani juyin-juya hali ne da zai sauya yadda muke ma'amala da na'ura, amma kimiyyar da muke da su yanzu suna da tsada kuma na neman kuɗi ne. Common voice na daga cikin Ayyukan sa kai na Mozilla don samar da fasahar murya mai inganci kuma sauƙaƙƙa ga kowa, Common Voice wani babban ma'ajiya ta tattara muryoyin da aka ba da gudun mowa kuma a ba ka damar horar da vurya ko sawa cikin manhajarka da kowanne yare
 faq-why-important-q = Me ya sa yake da muhimmanci?
 faq-how-get-q = Ta yaya zan iya samun bayanan Common Voice ?
 faq-when-release-q = Yaushe zaku saki bayanan Common Voice a sauran harsuna?
@@ -328,6 +334,8 @@ about-become-a-partner = Zamo abokin hulɗa
 about-get-involved = Shiga a dama da kai
 about-nav-why-common-voice = Me yasa?
 about-nav-how-it-works = Ta yaya?
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Artificial intelligence
 
 ## Glossary
 
@@ -364,13 +372,16 @@ language = Yare
 # File size in gigabytes
 size = Girma
 cv-license = Lasisi
+audio-format = Tsarin bidiyo
 number-of-voices = Adadin muryoyi
+splits = Rarraba
 email-to-download = Shigar da imel ɗinka don ka sauke
 size-gigabyte = GB
 size-megabyte = MB
 validated-hours = Sa'o'in da aka tantance
 recorded-hours = Sa'o'in da aka naɗa
 whats-inside = Meye a cikin bayanan Common Voice?
+subscribe = Saka kanka
 feedback-q = Kana da wani shawari?
 go-discourse = Je zuwa Discourse
 go-languages-page = Jeka zuwa shafin yaruka
