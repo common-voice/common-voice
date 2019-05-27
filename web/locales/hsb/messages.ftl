@@ -51,6 +51,7 @@ es = Španišćina
 et = Estnišćina
 eu = Baskišćina
 fa = Persišćina
+ff = Fulašćina
 fi = Finšćina
 fo = Ferejšćina
 fr = Francosćina
