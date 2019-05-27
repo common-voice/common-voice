@@ -16,6 +16,7 @@ const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
 const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
 const FAQPage = React.lazy(() => import('../pages/faq/faq'));
 const AboutPage = React.lazy(() => import('../pages/about/about'));
+const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 
 export default localeConnector(
   ({ locale, toLocaleRoute }: LocalePropsFromState) => (
@@ -88,6 +89,11 @@ export default localeConnector(
             exact
             path={toLocaleRoute(URLS.TERMS)}
             render={() => <DocumentPage key="t" name="terms" />}
+          />
+          <Route
+            exact
+            path={toLocaleRoute('/landing/sodedif')}
+            component={LandingPage}
           />
           <Route component={NotFoundPage} />
         </Switch>

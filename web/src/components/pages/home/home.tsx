@@ -3,7 +3,6 @@ import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from 'common/user-clients';
-import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
 import { trackHome } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
@@ -13,102 +12,13 @@ import { CUSTOM_GOAL_LOCALE } from '../../custom-goal-lock';
 import { ContributableLocaleLock } from '../../locale-helpers';
 import { Banner } from '../../notification-banner/notification-banner';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
+import RegisterSection from '../../register-section/register-section';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { LinkButton } from '../../ui/ui';
 import Hero from './hero';
 import { ClipsStats, VoiceStats } from './stats';
 
 import './home.css';
-
-function RegisterSection(props: { locale: string }) {
-  const { locale } = props;
-  const [index, setIndex] = useState(0);
-  const [tab, setTab] = useState('benefits');
-  const isBenefits = tab == 'benefits';
-  const info = (
-    <div className="signup-info">
-      <div className="tabs">
-        <img
-          className="waves"
-          src={require('./images/signup-waves.png')}
-          alt="Waves"
-        />
-        {['benefits', 'whats-public'].map(l => (
-          <label key={l}>
-            <input
-              type="radio"
-              name="tab"
-              checked={tab == l}
-              onChange={() => {
-                setTab(l);
-                setIndex(0);
-                trackHome('change-benefits-tabs', locale);
-              }}
-            />
-            <Localized id={l}>
-              <div />
-            </Localized>
-          </label>
-        ))}
-      </div>
-      <div className="list-and-bg">
-        <div className="bg" />
-        <ul key={tab}>
-          {(isBenefits ? BENEFITS : WHATS_PUBLIC).map((l, i) => (
-            <li
-              key={l}
-              className={i == index ? 'active' : ''}
-              onClick={() => {
-                setIndex(i);
-                trackHome(
-                  isBenefits
-                    ? 'click-benefits-item'
-                    : 'click-whats-public-item',
-                  locale
-                );
-              }}>
-              <span>{i + 1}.</span>
-              <Localized id={l}>
-                <span />
-              </Localized>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  );
-
-  return (
-    <section className="register-section">
-      <div className="top">
-        <div className="cta-container">
-          <Localized id="help-make-dataset">
-            <h1 />
-          </Localized>
-          <Localized id="profile-not-required">
-            <h2 />
-          </Localized>
-          <Localized id="sign-up-account">
-            <LinkButton
-              rounded
-              href="/login"
-              onClick={() => trackHome('click-benefits-register', locale)}
-            />
-          </Localized>
-          {info}
-        </div>
-        <div className="images-container">
-          <img className="mars" src="/img/mars.svg" alt="Mars" />
-          <img
-            className="screenshot"
-            src={require(`./images/${isBenefits ? 1 : 2}-${index + 1}.png`)}
-            alt=""
-          />
-        </div>
-      </div>
-    </section>
-  );
-}
 
 type HeroType = 'speak' | 'listen';
 
@@ -314,7 +224,21 @@ function HomePage({
           </div>
         </section>
       ) : (
-        <RegisterSection locale={locale} />
+        <RegisterSection marsSrc="/img/mars.svg">
+          <Localized id="help-make-dataset">
+            <h1 />
+          </Localized>
+          <Localized id="profile-not-required">
+            <h2 />
+          </Localized>
+          <Localized id="sign-up-account">
+            <LinkButton
+              rounded
+              href="/login"
+              onClick={() => trackHome('click-benefits-register', locale)}
+            />
+          </Localized>
+        </RegisterSection>
       )}
     </div>
   );

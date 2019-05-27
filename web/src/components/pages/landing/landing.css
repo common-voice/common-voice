@@ -1,0 +1,139 @@
+@import url('../../vars.css');
+
+.landing {
+    & header {
+        @media (--lg-up) {
+            max-width: var(--wide-desktop-width);
+        }
+    }
+
+    & #content {
+        padding: 0;
+
+        & > div {
+            max-width: none;
+
+            @media (--lg-down) {
+                padding: 0;
+            }
+        }
+    }
+
+    & footer {
+        margin-top: 0;
+    }
+}
+
+.partner-landing {
+    & .partner-header {
+        margin: 0 auto;
+        max-width: var(--wide-desktop-width);
+        box-sizing: border-box;
+
+        @media (--sm-down) {
+            display: flex;
+            justify-content: center;
+        }
+
+        & img {
+            max-width: 120px;
+        }
+    }
+
+    & .register-section {
+        margin-bottom: 50px;
+
+        & .cta-container {
+            @media (--md-up) {
+                max-width: 476px;
+            }
+
+            & > * {
+                z-index: var(--middle-z-index);
+            }
+
+            & h1 {
+                margin-bottom: 30px;
+                font-size: var(--font-size-xxl);
+                font-weight: normal;
+
+                @media (--md-up) {
+                    margin-top: -90px;
+                }
+            }
+
+            & .main-paragraph {
+                margin-bottom: 30px;
+                font-size: var(--font-size-lg);
+                font-weight: 300;
+            }
+
+            & .button {
+                margin-bottom: 30px;
+            }
+
+            & .profile-not-required {
+                max-width: 337px;
+                line-height: 1.5;
+                color: var(--near-black);
+            }
+        }
+
+        .top .images-container .mars {
+            width: 400px;
+
+            @media (--sm-down) {
+                display: none;
+            }
+        }
+    }
+
+    & .about-section {
+        height: 550px;
+        background: url('./wave.png');
+        background-size: cover;
+
+        @media (--sm-down) {
+            background: url('./wave.png') no-repeat bottom center;
+            background-size: contain;
+            height: auto;
+            padding-bottom: 100px;
+        }
+
+        & .inner {
+            padding: 0 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            @media (--md-down) {
+                flex-direction: column;
+            }
+        }
+
+        & h1 {
+            max-width: 525px;
+            font-size: var(--font-size-xxl);
+            font-weight: normal;
+            margin-right: 100px;
+
+            @media (--md-down) {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+
+        & .button {
+            height: 57px;
+            background: var(--black);
+            white-space: pre;
+
+            @media (--sm-down) {
+                padding: 0 40px;
+                width: auto;
+                min-width: auto;
+            }
+        }
+    }
+}
