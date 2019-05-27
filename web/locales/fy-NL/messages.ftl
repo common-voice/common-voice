@@ -51,6 +51,7 @@ es = Spaansk
 et = Estysk
 eu = Baskysk
 fa = Perzysk
+ff = Fula
 fi = Finsk
 fo = Fariseesk
 fr = Frânsk
