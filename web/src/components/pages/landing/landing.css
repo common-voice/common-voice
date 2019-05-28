@@ -134,6 +134,10 @@
                 width: auto;
                 min-width: auto;
             }
+
+            &:focus {
+                background: var(--white);
+            }
         }
     }
 }
