@@ -1,5 +1,6 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { trackLanding } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
@@ -14,56 +15,73 @@ interface PropsFromState {
   hasAccount: boolean;
 }
 
-const Landing = ({ hasAccount }: PropsFromState) => (
-  <div className="partner-landing">
-    <div className="partner-header">
-      <img src={require('./sodedif.png')} alt="Sodedif Logo" />
-    </div>
-    <RegisterSection flipped marsSrc={require('./mars.svg')}>
-      <h1>Welcome Sodedif staff!</h1>
-      <p className="main-paragraph">
-        You can help build a diverse, open-source dataset by creating a Common
-        Voice profile and contributing your voice.
-      </p>
-      {hasAccount ? (
-        <LinkButton
-          rounded
-          to={URLS.SPEAK}
-          onClick={() => trackLanding('speak')}>
-          Donate Your Voice
-        </LinkButton>
-      ) : (
-        <LinkButton
-          rounded
-          href="/login"
-          onClick={() => trackLanding('profile')}>
-          Create a Profile
-        </LinkButton>
-      )}
-      <p className="profile-not-required">
-        Having a profile is not required to contribute though it is helpful, see
-        why below.
-      </p>
-    </RegisterSection>
+const Landing = ({ hasAccount }: PropsFromState) => {
+  const [isImgLoaded, setIsImgLoaded] = useState(false);
+  const imgSrc = require('./sodedif.png');
 
-    <section className="about-section">
-      <div className="inner">
-        <Localized id="home-title">
-          <h1 />
-        </Localized>
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => {
+      setIsImgLoaded(true);
+    };
+    img.src = imgSrc;
+  }, []);
 
-        <LinkButton
-          rounded
-          to={URLS.ABOUT}
-          onClick={() => trackLanding('about')}>
-          <div className="hidden-md-up">Read more</div>
-          <div className="hidden-sm-down">Read more on our About page</div>
-          <ArrowLeft />
-        </LinkButton>
+  if (!isImgLoaded) {
+    return null;
+  }
+
+  return (
+    <div className="partner-landing">
+      <div className="partner-header">
+        <img src={imgSrc} alt="Sodedif Logo" />
       </div>
-    </section>
-  </div>
-);
+      <RegisterSection flipped marsSrc={require('./mars.svg')}>
+        <h1>Welcome Sodedif staff!</h1>
+        <p className="main-paragraph">
+          You can help build a diverse, open-source dataset by creating a Common
+          Voice profile and contributing your voice.
+        </p>
+        {hasAccount ? (
+          <LinkButton
+            rounded
+            to={URLS.SPEAK}
+            onClick={() => trackLanding('speak')}>
+            Donate Your Voice
+          </LinkButton>
+        ) : (
+          <LinkButton
+            rounded
+            href="/login"
+            onClick={() => trackLanding('profile')}>
+            Create a Profile
+          </LinkButton>
+        )}
+        <p className="profile-not-required">
+          Having a profile is not required to contribute though it is helpful,
+          see why below.
+        </p>
+      </RegisterSection>
+
+      <section className="about-section">
+        <div className="inner">
+          <Localized id="home-title">
+            <h1 />
+          </Localized>
+
+          <LinkButton
+            rounded
+            to={URLS.ABOUT}
+            onClick={() => trackLanding('about')}>
+            <div className="hidden-md-up">Read more</div>
+            <div className="hidden-sm-down">Read more on our About page</div>
+            <ArrowLeft />
+          </LinkButton>
+        </div>
+      </section>
+    </div>
+  );
+};
 
 export default connect<PropsFromState>(({ user }: StateTree) => ({
   hasAccount: Boolean(user && user.account),
