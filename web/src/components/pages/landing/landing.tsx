@@ -1,6 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { trackLanding } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import RegisterSection from '../../register-section/register-section';
@@ -24,11 +25,17 @@ const Landing = ({ hasAccount }: PropsFromState) => (
         Voice profile and contributing your voice.
       </p>
       {hasAccount ? (
-        <LinkButton rounded to={URLS.SPEAK}>
+        <LinkButton
+          rounded
+          to={URLS.SPEAK}
+          onClick={() => trackLanding('speak')}>
           Donate Your Voice
         </LinkButton>
       ) : (
-        <LinkButton rounded href="/login">
+        <LinkButton
+          rounded
+          href="/login"
+          onClick={() => trackLanding('profile')}>
           Create a Profile
         </LinkButton>
       )}
@@ -44,7 +51,10 @@ const Landing = ({ hasAccount }: PropsFromState) => (
           <h1 />
         </Localized>
 
-        <LinkButton rounded to={URLS.ABOUT}>
+        <LinkButton
+          rounded
+          to={URLS.ABOUT}
+          onClick={() => trackLanding('about')}>
           <div className="hidden-md-up">Read more</div>
           <div className="hidden-sm-down">Read more on our About page</div>
         </LinkButton>

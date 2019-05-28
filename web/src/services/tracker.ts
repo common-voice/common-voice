@@ -13,9 +13,10 @@ export function track(
     | 'Sharing'
     | 'Dashboard'
     | 'Global'
-    | 'Nav',
+    | 'Nav'
+    | 'Landing',
   action: string,
-  locale: string
+  locale?: string
 ) {
   if (isProduction() && typeof ga === 'function') {
     ga('send', 'event', category, action, locale);
@@ -128,4 +129,8 @@ export function trackDashboard(
   locale: string
 ) {
   track('Dashboard', action, locale);
+}
+
+export function trackLanding(action: 'speak' | 'profile' | 'about') {
+  track('Landing', action);
 }
