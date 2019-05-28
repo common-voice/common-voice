@@ -51,6 +51,7 @@ es = Taspanit
 et = Tastunit
 eu = Tabaskit
 fa = Tafarsit
+ff = Tafulaht
 fi = Tafinit
 fo = Tafirwanit
 fr = Tafransist
