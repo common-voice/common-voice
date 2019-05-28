@@ -5,6 +5,7 @@ import { trackLanding } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import RegisterSection from '../../register-section/register-section';
+import { ArrowLeft } from '../../ui/icons';
 import { LinkButton } from '../../ui/ui';
 
 import './landing.css';
@@ -57,6 +58,7 @@ const Landing = ({ hasAccount }: PropsFromState) => (
           onClick={() => trackLanding('about')}>
           <div className="hidden-md-up">Read more</div>
           <div className="hidden-sm-down">Read more on our About page</div>
+          <ArrowLeft />
         </LinkButton>
       </div>
     </section>

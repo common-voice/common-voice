@@ -125,6 +125,7 @@
         }
 
         & .button {
+            padding: 0 30px;
             height: 57px;
             background: var(--black);
             white-space: pre;
@@ -137,6 +138,20 @@
 
             &:focus {
                 background: var(--white);
+            }
+
+            & svg {
+                margin-left: 15px;
+                width: 20px;
+                transform: scaleX(-1);
+            }
+
+            & path {
+                fill: var(--white);
+
+                &:hover {
+                    fill: var(--black);
+                }
             }
         }
     }

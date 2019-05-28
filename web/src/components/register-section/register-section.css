@@ -116,7 +116,7 @@
 
         & .waves {
             position: absolute;
-            bottom: -2px;
+            bottom: -5px;
             width: 100vw;
             pointer-events: none;
         }
