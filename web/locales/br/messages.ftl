@@ -205,7 +205,7 @@ x-years-short =
        *[other] bloaz
     }
 help-make-dataset = Skoazellit ac'hanomp da sevel ur spletad roadennoù foran, digor hag a galite uhel
-profile-not-required = Kaout ur profil n'eo ket un dra ret met evit kemer perzh met talvoudus eo memestra
+profile-not-required = Kaout ur profil n'eo ket un dra ret evit kemer perzh met talvoudus eo memestra
 sign-up-account = Krouit ur gont
 email-subscription-title = marilhit evit keleier dre bostel
 
@@ -401,7 +401,7 @@ about-title = Perak Common Voice?
 about-subtitle = Ul lodenn eus intrudu Mozilla evit sikour da gelenn d'ar mekanikoù penaos e komz an dud wirion eo Common Voice. E-kichen ar spletad roadennoù Common Voice e savomp ul lusker adanaoudegezh ar vouezh digor e darzh anvet Deep Speech.
 about-header-description = An daou raktres-se a zo ul lodenn eus hon strivoù evit gwellaat stad ar vouezh niverel. Teknologiezhioù adanaoudegezh ar vouezh a ro ur ment denel d'hon mekanikoù, met ezhomm a zo ur sammad bras-kenañ a roadennoù evit o sevel. Evit ar mare eo koustus ha perc'hennet ar roadennoù-se.
 how-does-it-work-title = Penaos ec'h a en-dro?
-how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait an teskad roadennoù da vezañ gwelloc'h evit an holl.
+how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait ar spletad roadennoù da vezañ gwelloc'h evit an holl.
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -411,10 +411,10 @@ about-listen-text = Gant an implijerien e vez kadarnaet ar c'hlipoù roet, evit 
 about-is-it-valid = Reizh eo ar c'hlip?
 about-is-it-valid-text = Ur c'hlip mouezh a zo lakaet da "talvoudek" pa 'z eo bet lakaet "Ya" gant un implijer.
 about-yes-votes = ≥ 2 vouezh "Ya"
-about-yes-votes-text = Evit mont en teskad roadennoù Common Voice e rank ur c'hlip mouezh bezañ talvoudekaet gant daou implijer disheñvel.
+about-yes-votes-text = Evit mont er spletad roadennoù Common Voice e rank ur c'hlip mouezh bezañ talvoudekaet gant daou implijer disheñvel.
 about-no-votes = ≥ 2 vouezh "Ket"
 about-no-votes-text = Pa 'z eo argaset ur c'hlip mouezh e zistro er roll gortoz. Mard eo nac'het un eil wech eo kaset d'ar vered klipoù.
-about-dataset = Teskad roadennoù Common VOice
+about-dataset = Spletad roadennoù Common VOice
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
