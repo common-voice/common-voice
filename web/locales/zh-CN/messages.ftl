@@ -664,3 +664,11 @@ why-delete-recordings =
     
     能让我们知道您为什么想要删除录音片段吗？
 profile-form-delete = 删除用户资料
+
+## Landing
+
+welcome-staff = 欢迎 { $company } 员工！
+help-contribute = 您可以通过创建 Common Voice 用户资料并贡献您的声音，来帮助构建多元化的开源数据集。
+login-company = 使用 { $company } 邮箱登录 / 注册
+profile-not-required = 不需注册个人资料即可贡献，但如果注册的话会更有帮助
+read-more-about = 阅读我们的“关于”页面了解更多
