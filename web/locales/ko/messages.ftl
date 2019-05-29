@@ -180,7 +180,7 @@ x-years-short =
        *[other] { $count }년
     }
 help-make-dataset = 고품질의 공개 데이터 세트를 만드는 일을 도와주세요.
-profile-not-required = 프로파일이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
+profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
 sign-up-account = 새 계정 생성
 email-subscription-title = 이메일 업데이트 수신 등록
 
@@ -188,7 +188,7 @@ email-subscription-title = 이메일 업데이트 수신 등록
 
 benefits = 혜택
 rich-data = 익명의 통계 자료를 제공하여 가능한 풍부한 데이터가 수집되도록 해 주세요. 모든 통계 자료는 공개되기 전에 익명으로 처리됩니다.
-improve-audio = 프로파일 정보는 음성인식 기계학습에 사용되어 정확도를 높입니다.
+improve-audio = 프로필 정보는 음성인식 기계학습에 사용되어 정확도를 높입니다.
 join-newsletter = 선택적으로 프로젝트의 새로운 정보와 업데이트 내용을 받기 위한 메일링 리스트에 가입하세요.
 
 ## What's public
@@ -281,8 +281,6 @@ profile-explanation = 프로필을 사용하여 진행 상황을 파악하고 �
 thanks-for-account = 계정을 확인해 주셔서 감사 드리며 이제 프로필을 작성하겠습니다.
 why-demographic = 왜 이 문제가 중요합니까?
 why-demographic-explanation = 연령, 성별, 억양과 같은 익명 사용자 데이터는 음성 인식 엔진의 정확성을 교육하는 데 사용되는 오디오 데이터를 개선하는 데 도움이 됩니다. 사용자 이름과 이메일은 제출된 데이터와 연결되지 않으며 사용자 이름을 공개할지 익명으로 할지 선택할 수 있습니다.
-keep-me-posted =
-    .label = 나는 Common Voice에서 일어나는 일에 대한 최신 정보를 얻고 싶습니다.
 accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
 login-identity = 로그인 정보
 login-signup = 로그인 / 회원가입
@@ -327,6 +325,9 @@ faq-where-src-from-2-q = 원본 글의 출처는 어디인가요?
 faq-why-account-q = 계정을 왜 만들어야 하나요?
 faq-is-account-public-q = 나의 계정 정보는 공개됩니까?
 faq-how-privacy-q = 기부된 음성의 익명성과 개인정보는 어떻게 보장되나요?
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -388,7 +389,7 @@ download-language = { $language } 다운로드
 validated-hours = 검증된 분량
 recorded-hours = 녹음된 분량
 whats-inside = Common Voice 데이터 세트에는 어떤것이 포함되어 있습니까?
-want-dataset-update = 새 버전의 Common Voice 데이터 세트의 릴리즈 소식을 받기 원하시나요? 뉴스 레터를 구독 하십시오.
+want-dataset-update = 새 버전의 Common Voice 데이터 세트의 출시 소식을 받기 원하시나요? 뉴스 레터를 구독 하십시오.
 subscribe = 구독하기
 get-started-speech = 음성인식 시작하기
 other-datasets = 기타 음성 데이터세트
@@ -536,4 +537,5 @@ overall-accuracy = 종합적 정확도
 ## Profile Delete
 
 keep = 유지
+keep-info = 당신의 익명화된 음성 녹음은 Common Voice 데이터세트에 남아있습니다. 프로필이 삭제되면 더이상 개인 레코딩 파일을 데이터 세트에서 삭제해달라는 요청을 하실수가 없습니다.
 profile-form-delete = 프로필 지우기
