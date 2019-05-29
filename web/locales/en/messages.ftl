@@ -319,6 +319,7 @@ skip-submission-note = Note: You will still need to select between Speak or List
 off = Off
 on = On
 add-avatar-title = Add an avatar to your profile
+add-avatar-clip = Add an avatar clip to your profile
 browse-file-title = Upload an image file
 browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
 connect-gravatar = Connect with Gravatar

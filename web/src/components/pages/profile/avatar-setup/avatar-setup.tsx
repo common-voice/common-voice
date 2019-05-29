@@ -146,8 +146,6 @@ class AvatarSetup extends React.Component<Props> {
   };
 
   private handleRecordClick = async () => {
-    console.log('recording');
-
     if (this.state.recordingStatus) {
       this.saveRecording();
       return;
@@ -156,6 +154,11 @@ class AvatarSetup extends React.Component<Props> {
     try {
       await this.audio.init();
       await this.startRecording();
+
+      const clipTime = 5000;
+      setTimeout(async () => {
+        this.saveRecording();
+      }, clipTime);
     } catch (err) {
       if (err in AudioError) {
         this.setState({ error: err });
@@ -242,6 +245,9 @@ class AvatarSetup extends React.Component<Props> {
           </label>
         </div>
 
+        <Localized id="add-avatar-clip">
+          <h2 />
+        </Localized>
         <div className="file-upload">
           <button
             className="connect"
