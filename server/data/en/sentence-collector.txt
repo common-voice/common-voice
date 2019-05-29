@@ -1086,6 +1086,7 @@ Already he had sidled some six feet.
 Already you knew of her guilt?
 Also a fellow Senator, Chauncey Depew, said.
 Also it took a load off my mind.
+Also my servants came presently with rifles.
 Also my shoulder was in a bad way.
 Also the plus fours and the Old Etonian spats.
 Also when we met last year, I forgot to return your pen.
@@ -1936,6 +1937,7 @@ Blind with rage, he darted in.
 Blood vessels can atrophy in elderly patients.
 Blood was oozing slowly from the wounded man's right breast.
 Blue collar workers have contributed a lot to the economy through sheer hard work.
+Boat small—trawler, yacht, or launch.
 Bob allegedly drove without any car insurance.
 Bob was practising his song, very badly.
 Bob, growing disgusted, turned back suddenly and attempted to pass Mab.
@@ -3263,6 +3265,7 @@ Everything seems to happen on Tuesday.
 Everything was as public and above-board as a charity bazaar.
 Everything was working smoothly, better than I had expected.
 Everything’s against me.
+Evidently they were chaffing him, and their chaff sounded horribly English.
 Exactly what is it you want?
 Exceedingly true, sir.
 Excellent, just come on through to the kitchen.
@@ -4283,6 +4286,7 @@ He read his fragments aloud.
 He read it through slowly.
 He really is a bit of an anorak
 He received us very affectionately, and we sat down.
+He receives personally his reward, and he delivers personally his intelligence.
 He reflected a minute or two.
 He regretted not having made himself clearer.
 He relinquished the bank rather than play against that note.
@@ -4573,6 +4577,7 @@ He was surprised; but it was natural, wasn't it?
 He was the associate of them both.
 He was the founder of a now-defunct journal.
 He was the leader, and Tudor was his lieutenant.
+He was the man of action among fumblers.
 He was the master of the situation.
 He was the national featherweight champion of ninety-six.
 He was the only breadwinner of the family.
@@ -5844,6 +5849,7 @@ I had had fresh air, good clothes, and freedom.
 I had had one of my ideas.
 I had heard of it already without an offended or angry word.
 I had him into my room.
+I had him out of bed — very grumpy.
 I had just dropped off when you did your bell-ringing act.
 I had kept his flowers.
 I had known him up in London.
@@ -6049,6 +6055,7 @@ I heard a story the other day.
 I heard a whistle being blown, and the rush of men behind me.
 I heard her give a sort of gulp.
 I heard him cough, and sniped him with a sideways glance.
+I heard his very words — “I’ve got into a proper lather,” he said.
 I heard them speaking on the staircase.
 I heard you call her by that name.
 I heard you were writing in the library.
@@ -8630,6 +8637,7 @@ Like a flash he launched himself into the feathered mass of the owl.
 Like it or lump it.
 Like older generations had to.
 Like something lovely and fragrant laid away in lavender.
+Like your own Macaulay.
 Limited lighting made it a dark looking house.
 Linear Regression, Calculus, Algebra, Bayesian statistics are ingredients of Machine Learning.
 Lip balm will help you avoid chapped lips.
@@ -8805,6 +8813,7 @@ Mazda used to make cars with rotary engines.
 McCoy found a stifling, poisonous atmosphere in the pent cabin.
 McVeigh when he returns from a trip to Honolulu.
 Me and Angela?
+Means of transport must be tramp - unlikely - yacht, or fishing-boat.
 Meanwhile I'll go out to breathe a spell.
 Meanwhile, of course, I made my inquiries into Harry's circumstances.
 Meanwhile, the book has forced him to relive painful decisions.
@@ -9192,6 +9201,7 @@ Never change a running system.
 Never change a winning team.
 Never had he been in so strait a predicament.
 Never had she looked so lovely.
+Never in my life have I faced a job with greater disinclination.
 Never look down on someone unless you're helping them up.
 Never mind about your Scripture prize.
 Never run a changing system.
@@ -9250,6 +9260,7 @@ No one else shall hear.
 No one has ever ventured this far out.
 No one is allowed to stir up hatred towards people.
 No one noticed her.
+No one was ready to gainsay him.
 No one who has ever seen you together can doubt his affection.
 No one would suspect that the car had ever left the garage.
 No one, however, of her audience was inclined to laugh.
@@ -9937,6 +9948,7 @@ Physical Education is an essential module.
 Physicists really don't understand what happened during the big bang
 Pick up a copy of our brochure on the way home.
 Pierre obeys me when we are together.
+Place not harbour but open coast.
 Place somewhere on East Coast between Cromer and Dover.
 Plagiarized work will be rejected, please cite your source.
 Please accept my condolences.
@@ -10993,6 +11005,7 @@ Sir Leicester was very lofty indeed.
 Sir Leicester's magnificence explodes.
 Sir Leicester, I am quite aware of it.
 Sir Leicester, these particulars have only lately become known to me.
+Sir Walter had joined us, and presently MacGillivray arrived.
 Sir Walter is engaged, sir, and I have orders to admit no one.
 Sir Walter’s face showed surprise and annoyance.
 Sir, I did not think what power I was putting into her hands.
@@ -11024,6 +11037,7 @@ So I asked her — 'Was she not wearing them?'
 So I make four pounds — in a lump — by the transaction!
 So I promised I would ask you.
 So I said, "Come in!"
+So I set out all my conclusions on a bit of Admiralty paper.
 So I shall not say good-bye, Richard.
 So I take my precautions — never mind for the moment what they were.
 So I was right, you see!
@@ -11254,6 +11268,7 @@ Steel is inherently heavy.
 Steel is widely recycled.
 Stephen caught a huge pike yesterday
 Stephen unraveled the bandage carefully.
+Steps, not dock steps, and so place probably not harbour.
 Steve grossly underestimated the magnitude of the problem.
 Stick the stamp on the envelope.
 Still I managed to pull myself together.
@@ -12959,6 +12974,7 @@ The seams of the trousers began to unravel.
 The search continued for five days.
 The search is not being overlooked.
 The seemingly ceaseless tide of water enveloped the whole community.
+The selection of the man shows their acumen.
 The sentence is too long.
 The sentence was long and convoluted.
 The sergeant who discovered the crime will be here at once.
@@ -13261,6 +13277,7 @@ Their lifelong hobby is breeding rare pigs.
 Their love burned with increasing brightness.
 Their manners are not equal to his.
 Their mother sat sewing below.
+Their object was to get these dispositions without our knowing it.
 Their pet iguana obviously takes a lot of looking after.
 Their powers of conversation were considerable.
 Their prized collection of ornaments was stolen.
@@ -13279,6 +13296,7 @@ Then I described my meeting with Sir Harry, and the speeches at the hall.
 Then I got into a suit of clothes I had kept waiting for emergencies.
 Then I got to the murder, and he grew solemn again.
 Then I groped among the sacks and boxes.
+Then I had a sudden thought, and hunted up all the steamer sailings.
 Then I must tell you this.
 Then I proceeded to go off into an old-fashioned swoon.
 Then I realised that my vantage-ground might be in reality a trap.
@@ -13669,6 +13687,7 @@ There were lights outside.
 There were many limitations to the research.
 There were many routes, the sat-nav picked the fastest one.
 There were no further imprints.
+There were no sets of staircases on any harbour that I had ever seen.
 There were none.
 There were orange-green, gold-green, and a copper-green.
 There were people still dining at the tables.
@@ -13885,6 +13904,7 @@ They handled two men already, both grub-thieves.
 They have been expectant of a new baby for a few months now.
 They have brought in both their people.
 They have gone.
+They have their own snug secret way, and they won’t be hurried.
 They have won popular sentiment through the newspapers.
 They helped her to sit up.
 They hung on my lips.
@@ -14428,6 +14448,7 @@ Two gigantic owls were tearing at the carcass.
 Two major companies made an alliance to compliment each other's limitations.
 Two minds with but a single thought.
 Two of the Folk were already up.
+Two plump thrushes had blundered into it.
 Two subjects I forbid — must forbid.
 Two weeks passed, and in that time Thorpe left camp three times.
 Two years ago I gave up civilization for this.
@@ -14804,6 +14825,8 @@ We hired a contractor the plaster the passageway and loft.
 We hired a personal tour guide on our trip to Istanbul.
 We hired former silicon roundabout employees.
 We host our data on-premise for independence from third-party decisions.
+We hurried back to the town and sent a wire to MacGillivray.
+We in France know something of the breed.
 We initiated a data cleanup which will take several hours.
 We know all that there is to be known.
 We know nothing of him.
@@ -15151,6 +15174,7 @@ Well, it's a pretty anecdote.
 Well, it's no business of yours.
 Well, look about you.
 Well, one has to be civil.
+Well, one morning I had good sport, and the mare was unaccountably restless.
 Well, right-ho, of course, but I think you ought to have.
 Well, she has nothing but the diamond earrings.
 Well, she was never gratified.
@@ -15283,6 +15307,7 @@ What could he mean?
 What could she mean by it?
 What damn silliness!
 What did I do to her?
+What did Scudder mean by steps?
 What did actually happen in the salon?
 What did he do it for?
 What did it ask you?’
@@ -17018,6 +17043,7 @@ whispered Richard, not thinking she could hear him.
 “What’s my dad eating his snap for now?” asked Arthur.
 “What’s that?” I asked.
 “Where did you find out this story?” I asked.
+“Where is Scudder’s book?” I cried to Sir Walter.
 “Who dost reckon this is?” he asked of his wife.
 “Who the devil are you?” he gasped.
 “Will yer?” he said, quiet and intense.
