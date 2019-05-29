@@ -687,3 +687,11 @@ why-delete-recordings = Common Voice recordings are used by academics, small bus
 
     Can you let us know why you would like your recordings deleted?
 profile-form-delete = Delete Profile
+
+
+## Landing
+welcome-staff = Welcome { $company } staff!
+help-contribute = You can help build a diverse, open-source dataset by creating a Common Voice profile and contributing your voice.
+login-company = Log In / Sign Up with { $company } email
+profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
+read-more-about = Read more on our About page
