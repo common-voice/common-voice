@@ -51,6 +51,7 @@ es = Espaniol
 et = Estoniano
 eu = Basco
 fa = Persiano
+ff = Fula
 fi = Finnese
 fo = Faroese
 fr = Francese
@@ -664,3 +665,8 @@ keep-info = Tu registrationes de voce anonyme remanera in le collection de datos
 remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contingera illes qui ha discargate le collection de datos e requirera les de remover tu registrationes vocal.
 why-delete-recordings = Le registrationes de Common Voice es utilisate per le academicos, le micre negotios e per le enthusiastas del recognition vocal pro adjutar a provar e facer crescer ressources publicamente disponibile como le modellos vocal.
 profile-form-delete = Deler le profilo
+
+## Landing
+
+welcome-staff = Benvenite staff de { $company }!
+profile-not-required = Haber un profilo non es obligatori pro collaborar ben que illo sia utile
