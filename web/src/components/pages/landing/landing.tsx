@@ -20,7 +20,7 @@ const Landing = ({ hasAccount }: PropsFromState) => (
       <img
         src={require('./sodedif.png')}
         alt="Sodedif Logo"
-        style={{ height: 120 }}
+        style={{ height: 140 }}
       />
     </div>
     <RegisterSection flipped marsSrc={require('./mars.svg')}>

@@ -34,10 +34,6 @@
             display: flex;
             justify-content: center;
         }
-
-        & img {
-            max-width: 120px;
-        }
     }
 
     & .register-section {
@@ -54,7 +50,7 @@
 
             & h1 {
                 margin-bottom: 30px;
-                font-size: var(--font-size-xxl);
+                font-size: 36px;
                 font-weight: normal;
 
                 @media (--md-up) {
