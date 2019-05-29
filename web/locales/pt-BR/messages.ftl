@@ -676,3 +676,11 @@ why-delete-recordings =
     
     Poderia nos dizer por que gostaria que suas gravações sejam apagadas?
 profile-form-delete = Excluir perfil
+
+## Landing
+
+welcome-staff = Boas-vindas, equipe do { $company }!
+help-contribute = Você pode ajudar a construir um conjunto de dados de código aberto diverso criando um perfil no Common Voice e contribuindo com sua voz.
+login-company = Entrar / Cadastrar-se com e-mail de { $company }
+profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
+read-more-about = Saiba mais sobre o Common Voice
