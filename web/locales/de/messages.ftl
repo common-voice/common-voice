@@ -676,3 +676,11 @@ why-delete-recordings =
     
     Können Sie uns mitteilen, warum Sie Ihre Aufnahmen löschen möchten?
 profile-form-delete = Profil löschen
+
+## Landing
+
+welcome-staff = { $company }, Mitarbeiter von { $company }!
+help-contribute = Sie können beim Erstellen eines vielfältigen Open-Source-Datensatzes helfen, indem Sie ein Common-Voice-Profil erstellen und Ihre Stimme einbringen.
+login-company = Anmelden / Registrieren mit { $company }-E-Mail-Adresse
+profile-not-required = Ein Profil ist für die Mitarbeit nicht notwendig, aber hilfreich
+read-more-about = Weitere Informationen über Common Voice
