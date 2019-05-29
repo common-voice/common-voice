@@ -20,34 +20,36 @@ const Landing = ({ hasAccount }: PropsFromState) => (
       <img
         src={require('./sodedif.png')}
         alt="Sodedif Logo"
-        style={{ height: 140 }}
+        style={{ padding: 10, height: 50 }}
       />
     </div>
     <RegisterSection flipped marsSrc={require('./mars.svg')}>
-      <h1>Welcome Sodedif staff!</h1>
-      <p className="main-paragraph">
-        You can help build a diverse, open-source dataset by creating a Common
-        Voice profile and contributing your voice.
-      </p>
+      <Localized id="welcome-staff" $company="Sodedif">
+        <h1 />
+      </Localized>
+      <Localized id="help-contribute">
+        <p className="main-paragraph" />
+      </Localized>
       {hasAccount ? (
-        <LinkButton
-          rounded
-          to={URLS.SPEAK}
-          onClick={() => trackLanding('speak')}>
-          Donate Your Voice
-        </LinkButton>
+        <Localized id="speak-subtitle">
+          <LinkButton
+            rounded
+            to={URLS.SPEAK}
+            onClick={() => trackLanding('speak')}
+          />
+        </Localized>
       ) : (
-        <LinkButton
-          rounded
-          href="/login"
-          onClick={() => trackLanding('profile')}>
-          Log In / Sign Up with Sodedif email
-        </LinkButton>
+        <Localized id="login-company" $company="Sodedif">
+          <LinkButton
+            rounded
+            href="/login"
+            onClick={() => trackLanding('profile')}
+          />
+        </Localized>
       )}
-      <p className="profile-not-required">
-        Having a profile is not required to contribute though it is helpful, see
-        why below.
-      </p>
+      <Localized id="profile-not-required">
+        <p className="profile-not-required" />
+      </Localized>
     </RegisterSection>
 
     <section className="about-section">
@@ -60,8 +62,12 @@ const Landing = ({ hasAccount }: PropsFromState) => (
           rounded
           to={URLS.ABOUT}
           onClick={() => trackLanding('about')}>
-          <div className="hidden-md-up">Read more</div>
-          <div className="hidden-sm-down">Read more on our About page</div>
+          <Localized id="show-wall-of-text">
+            <div className="hidden-md-up" />
+          </Localized>
+          <Localized id="read-more-about">
+            <div className="hidden-sm-down" />
+          </Localized>
           <ArrowLeft />
         </LinkButton>
       </div>
