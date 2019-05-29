@@ -669,4 +669,7 @@ profile-form-delete = Deler le profilo
 ## Landing
 
 welcome-staff = Benvenite staff de { $company }!
+help-contribute = Tu pote adjutar a producer un collection de datos open-source, diverse, per le creation de un profilo Common Voice e contribuente per tu voce.
+login-company = Accede / Inscribe te con le<t0/> email de { $company }
 profile-not-required = Haber un profilo non es obligatori pro collaborar ben que illo sia utile
+read-more-about = Lege plus in nostre pagina: A proposito
