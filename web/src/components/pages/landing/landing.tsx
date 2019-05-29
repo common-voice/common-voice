@@ -41,7 +41,7 @@ const Landing = ({ hasAccount }: PropsFromState) => (
           rounded
           href="/login"
           onClick={() => trackLanding('profile')}>
-          Create a Profile
+          Log In / Sign Up with Sodedif email
         </LinkButton>
       )}
       <p className="profile-not-required">
