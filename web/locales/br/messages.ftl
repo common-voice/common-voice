@@ -415,6 +415,17 @@ about-yes-votes-text = Evit mont er spletad roadennoù Common Voice e rank ur c'
 about-no-votes = ≥ 2 vouezh "Ket"
 about-no-votes-text = Pa 'z eo argaset ur c'hlip mouezh e zistro er roll gortoz. Mard eo nac'het un eil wech eo kaset d'ar vered klipoù.
 about-dataset = Spletad roadennoù Common VOice
+about-dataset-text = Spletad roadennoù Common Voice a zo kantadoù a viliadoù a standilhonoù mouezh ennañ. Sikour a reont an diorroerien da sevel ostilhoù adanaoudegezh ar vouezh.
+about-clip-graveyard = Bered ar c'hlipoù
+about-clip-graveyard-text = Bered ar c'hlipoù a zo ar c'hlipoù mouezh n'int ket bet asantet e spletad roadennoù Common Voice. Gallout a raer pellgargañ bered ar c'hlipoù evel ar spletad roadennoù.
+about-partners = Kevelerien
+about-become-a-partner = Dont da vezañ keveler
+about-partnership =
+    Ur raktres a-stroll eo Common Voice, gant ar gumuniezh a gevelerien hag a gendaolerien e savomp ar spletad roadennoù digor o zarzh brasañ zo bet.
+    
+    Fellout a rafe deomp trugarekaat an dud hag an aozadurioù da-heul evit o sikour gant ar raktres:
+about-get-involved = Kemer perzh
+about-get-involved-text = Fellout a ra deoc'h lakaat Common Voice da vezañ gwelloc'h c'hoazh? Dispar! Deuit e darempred dre bostel pe dre <discourseLink>Discourse</discourseLink>, roit ho ali dre <githubLink>GitHub</githubLink>, pe deuit ganeomp war <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
@@ -424,6 +435,7 @@ mycroft-subtitle = Speredegezh kalvezadel
 mycroft-description =
     Kentañ skoazeller open-source ar bed eo Mycroft.
     Mycroft a c'hall bezañ lañset e pep lec'h - war un urzhiataer burev, e-barzh ur c'harr pe war ur Raspberry Pi.
+mycroft-secondary-description = Ur meziant frank a c'hall bezañ admesket, astennet ha gwellaet an hini eo. Gallout a ra Mycroft bezañ implijet e raktresoù liesseurt, eus ur raktres skiantel betek un meziant evit an embregerezhioù.
 
 ## Glossary
 
