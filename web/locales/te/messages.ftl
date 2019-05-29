@@ -97,6 +97,7 @@ uk = యుక్రేనియన్
 ur = ఉర్దూ
 uz = ఉజ్బెక్
 vi = వియెత్నామీ
+vot = వోటిక్
 zh-CN = చైనీస్ (చైనా)
 zh-HK = చైనీ (హాంకాంగ్)
 zh-TW = చైనీస్ (తైవాన్)
@@ -249,6 +250,7 @@ edit = సరిచేయు
 email-subscriptions = ఈమెయిలు చందాలు
 off = ఆఫ్
 on = ఆన్
+add-avatar-title = మీ ప్రొఫైలుకి అవతారాన్ని చేర్చండి
 browse-file-title = ఒక బొమ్మ ఫైలును ఎక్కించండి
 file_too_large = ఎంచుకున్న ఫైలు చాలా పెద్దగా ఉంది
 manage-subscriptions = చందాల నిర్వహణ
@@ -260,12 +262,24 @@ add-language = భాషను చేర్చు
 faq-title = తరచూ అడిగే ప్రశ్నలు
 faq-what-cv-q = కామన్ వాయిస్ అంటే ఏమిటి?
 faq-why-important-q = ఇది ఎందుకు ముఖ్యం?
+faq-how-get-q = కామన్ వాయిస్ డేటాను నేను ఎలా పొందగలను?
+faq-why-mission-q = కామన్ వాయిస్ ఎందుకు మొజిల్లా ఆశయంలో భాగమైంది?
 faq-why-my-lang-q = నా భాష ఇంకా ఎందుకు చేర్చబడలేదు?
+faq-is-account-public-q = నా ఖాతా సమాచారం బహిరంగమా?
+faq-what-is-cv = కామన్ వాయిస్ అంటే ఏమిటి?
+faq-using-cv = కామన్ వాయిన్‌ని వాడటం
 
 ## ABOUT US
 
+about-title = కామన్ వాయిస్ ఎందుకు?
+how-does-it-work-title = ఇది ఎలా పనిచేస్తుంది?
+about-speak = మాట్లాడండి
+about-listen = వినండి
+about-partners = భాగస్వాములు
+about-get-involved = పాలుపంచుకోండి
 about-nav-why-common-voice = ఎందుకు?
 about-nav-how-it-works = ఎలా?
+about-nav-partners = భాగస్వాములు
 about-nav-get-involved = పాల్గొనండి
 mycroft-subtitle = కృత్రిమ మేధ
 
@@ -384,6 +398,7 @@ contribute = తోడ్పడండి
 listen = వినండి
 skip = దాటవేయి
 shortcuts = సత్వరమార్గాలు
+clips-with-count = <bold>{ $count }</bold> క్లిప్పులు
 contribute-more =
     { $count ->
         [one] ఇంకో { $count } చెయ్యడానికి తయారుగా ఉన్నారా?
