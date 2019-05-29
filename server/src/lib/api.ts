@@ -327,7 +327,7 @@ export default class API {
   };
 
   getAvatarClip = async (request: Request, response: Response) => {
-    const { client_id, headers, user } = request;
+    const { user } = request;
     let path = await UserClient.getAvatarClipURL(user.emails[0].value);
     path = path[0][0].avatar_clip_url;
     let avatarclip = await this.bucket.getAvatarClipsUrl(path);
