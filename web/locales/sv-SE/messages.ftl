@@ -686,6 +686,8 @@ profile-form-delete = Ta bort profil
 
 ## Landing
 
-login-company = Logga in / registrera dig med { $company } email
+welcome-staff = Välkomna anställda på { $company }!
+help-contribute = Du kan hjälpa till att bygga en mångsidig, öppen datamängd genom att skapa en gemensam röstprofil och bidra med din röst.
+login-company = Logga in / registrera dig med { $company } e-post
 profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 read-more-about = Läs mer på vår om sida
