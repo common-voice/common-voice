@@ -679,3 +679,11 @@ why-delete-recordings =
     
     Meg tudja mondani, hogy miért akarja töröltetni a rögzítéseit?
 profile-form-delete = Profil törlése
+
+## Landing
+
+welcome-staff = Üdvözöljük a { $company } kötelékében!
+help-contribute = Az Ön segítségével sokoldalú, nyílt forráskódú adatkészletet hozhatunk létre, ha létrehoz egy Common Voice profilt, és a hangját adja.
+login-company = Jelentkezzen be / regisztráljon a { $company } e-mail címével
+profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
+read-more-about = További információk a Névjegy oldalon
