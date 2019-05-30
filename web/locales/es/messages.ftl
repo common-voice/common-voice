@@ -51,6 +51,7 @@ es = Español
 et = Estonio
 eu = euskera
 fa = persa
+ff = Fula
 fi = Finlandés
 fo = Feroés
 fr = Francés
@@ -664,3 +665,11 @@ why-delete-recordings =
     
     ¿Nos puedes indicar por qué quieres eliminar tus grabaciones?
 profile-form-delete = Eliminar perfil
+
+## Landing
+
+welcome-staff = ¡Te damos la bienvenida, empleado de { $company }!
+help-contribute = Puedes ayudar a crear una amplia base de datos de código abierto creándote un perfil de Common Voice y colaborando con tu voz.
+login-company = Inicia sesión / Regístrate con el correo de { $company }
+profile-not-required = No es necesario tener un perfil para colaborar, aunque puede resultar útil.
+read-more-about = Descubre más en nuestra página Sobre Common Voice
