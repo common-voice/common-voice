@@ -669,3 +669,11 @@ why-delete-recordings =
     
     能讓我們知道您為什麼想要刪除錄音片段嗎？
 profile-form-delete = 刪除帳號
+
+## Landing
+
+welcome-staff = 歡迎 { $company } 的員工！
+help-contribute = 您可以透過註冊 Common Voice 資料並貢獻語音，來協助打造一套多樣化、開放原始碼的資料集。
+login-company = 登入 / 使用 { $company } 註冊
+profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
+read-more-about = 到我們的「關於」頁面了解更多資訊
