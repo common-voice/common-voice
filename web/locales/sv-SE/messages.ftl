@@ -683,3 +683,9 @@ why-delete-recordings =
     
     Kan du låta oss veta varför du vill att dina inspelningar raderas?
 profile-form-delete = Ta bort profil
+
+## Landing
+
+login-company = Logga in / registrera dig med { $company } email
+profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
+read-more-about = Läs mer på vår om sida
