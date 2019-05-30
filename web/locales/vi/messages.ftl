@@ -672,3 +672,11 @@ why-delete-recordings =
     
     Bạn có thể cho chúng tôi biết lý do tại sao bạn muốn xóa bản ghi của mình không?
 profile-form-delete = Xóa hồ sơ
+
+## Landing
+
+welcome-staff = Chào mừng đến với nhân viên của { $company }!
+help-contribute = Bạn có thể giúp xây dựng bộ dữ liệu nguồn mở đa dạng bằng cách tạo hồ sơ Common Voice và đóng góp giọng nói của bạn.
+login-company = Đăng nhập / Đăng ký bằng email { $company }
+profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
+read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
