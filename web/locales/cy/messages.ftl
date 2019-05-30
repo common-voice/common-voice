@@ -705,3 +705,11 @@ why-delete-recordings =
     
     A wnewch chi roi gwybod i ni pam yr hoffech i'ch cofnodion gael eu dileu?
 profile-form-delete = Dileu Proffil
+
+## Landing
+
+welcome-staff = Croeso staff { $company }!
+help-contribute = Gallwch helpu i adeiladu set ddata cod agored amrywiol trwy greu proffil Common Voice a chyfrannu'ch llais.
+login-company = Mewngofnodi/Ymuno gydag e-bost { $company }
+profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
+read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
