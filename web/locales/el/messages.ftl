@@ -377,7 +377,10 @@ faq-search-for-answers =
 about-title = Γιατί το Common Voice;
 how-does-it-work-title = Πώς λειτουργεί;
 about-speak = Ομιλία
+about-listen = Ακρόαση
 about-is-it-valid = Είναι έγκυρο το κλιπ;
+about-yes-votes = ≥ 2 θετικές ψήφοι
+about-no-votes = ≥ 2 αρνητικές ψήφοι
 about-dataset = Σύνολο δεδομένων Common Voice
 about-clip-graveyard = Κοιμητήριο κλιπ
 about-partners = Συνεργάτες
@@ -631,3 +634,8 @@ why-delete-recordings =
     
     Μπορείτε να μάς ενημερώσετε γιατί θέλετε να διαγραφούν οι ηχογραφήσεις σας;
 profile-form-delete = Διαγραφή προφίλ
+
+## Landing
+
+login-company = Σύνδεση/Εγγραφή με { $company } email
+profile-not-required = Δεν απαιτείται να έχετε προφίλ για να συνεισφέρετε, αν και είναι χρήσιμο
