@@ -687,4 +687,6 @@ profile-form-delete = Usuń profil
 
 welcome-staff = Witamy pracowników firmy { $company }!
 help-contribute = Możesz pomóc zbudować różnorodny zbiór danych open source tworząc profil Common Voice i użyczając swój głos.
+login-company = Zaloguj/zarejestruj się za pomocą adresu e-mail firmy { $company }
 profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
+read-more-about = Przeczytaj więcej na stronie informacji o nas
