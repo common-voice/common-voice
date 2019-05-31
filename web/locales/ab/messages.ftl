@@ -345,6 +345,7 @@ faq-search-for-answers =
 about-title = Изаҭахузеи Common Voice?
 about-speak = Уцәажәа
 about-listen = Уазыӡырҩы
+about-is-it-valid = Ари анҵамҭа ииашаҵәҟьоума?
 about-dataset = Common Voice адыррақәа реизга
 about-partners = Алахәылаҩцәа
 about-nav-why-common-voice = Избан?
