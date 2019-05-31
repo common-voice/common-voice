@@ -347,6 +347,7 @@ about-speak = Уцәажәа
 about-listen = Уазыӡырҩы
 about-is-it-valid = Ари анҵамҭа ииашаҵәҟьоума?
 about-dataset = Common Voice адыррақәа реизга
+about-clip-graveyard = Анҵамҭа Анышәынҭра
 about-partners = Алахәылаҩцәа
 about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
