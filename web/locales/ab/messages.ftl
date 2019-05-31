@@ -349,9 +349,11 @@ about-is-it-valid = Ари анҵамҭа ииашаҵәҟьоума?
 about-dataset = Common Voice адыррақәа реизга
 about-clip-graveyard = Анҵамҭа Анышәынҭра
 about-partners = Алахәылаҩцәа
+about-get-involved = Уҽалаурхәырц
 about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
 about-nav-partners = Алахәылаҩцәа
+about-nav-get-involved = Уҽалаурхәырц
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Иԥсабаратәым аин­тел­лект
 
