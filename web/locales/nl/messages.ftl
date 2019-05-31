@@ -676,3 +676,7 @@ why-delete-recordings =
     
     Kunt u ons laten weten waarom u uw opnamen wilt laten verwijderen?
 profile-form-delete = Profiel verwijderen
+
+## Landing
+
+profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
