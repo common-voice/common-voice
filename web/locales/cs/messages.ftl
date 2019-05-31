@@ -27,6 +27,7 @@ ar = Arabština
 as = Ásámština
 ast = Asturština
 az = Ázerbájdžánština
+ba = Baškirština
 bg = Bulharština
 bn = Bengálština
 br = Bretonština
@@ -53,7 +54,10 @@ fo = Faerština
 fr = Francouzština
 fy-NL = Fríština
 ga-IE = Irština
+gl = Galicijština
+ha = Hauština
 he = Hebrejština
+hi-IN = Hindština
 hr = Chorvatština
 hsb = Hornosrbština
 hu = Maďarština
@@ -68,11 +72,16 @@ kab = Kabylština
 kk = Kazaština
 ko = Korejština
 kpv = Komi-zyrjanština
+ku = Kurdština
 kw = Kornština
 ky = Kyrgyzština
+lij = Ligurština
+lt = Litevština
+lv = Lotyština
 mdf = Mókša
 mhr = Lužní Marijština
 mk = Makedonština
+ml = Malajálamština
 mn = Mongolština
 mrj = Horská Marijština
 myv = Erzja
@@ -89,6 +98,7 @@ ru = Ruština
 rw = Rwandština
 sah = Jakutština
 sc = Sardinština
+si = Sinhalština
 sk = Slovenština
 sl = Slovinština
 sq = Albánština
@@ -96,6 +106,7 @@ sr = Srbština
 sv-SE = Švédština
 ta = Tamilština
 te = Telugština
+tg = Tádžičtina
 th = Thajština
 tr = Turečtina
 tt = Tatarština
@@ -289,8 +300,6 @@ profile-explanation = Sledujte svůj pokrok díky profilu a pomozte zpřesnit na
 thanks-for-account = Děkujeme za potvrzení vašeho účtu, nyní si sestavte svůj profil.
 why-demographic = Proč na tomhle záleží?
 why-demographic-explanation = Anonymizovaná uživatelská data jako jsou věk, pohlaví a přízvuk pomáhají zlepšovat kvalitu audio dat pro trénování systémů rozpoznávání hlasu. Vaše uživatelské jméno a e-mail nebudou nikdy propojovány s vámi poskytnutými daty. Můžete také zvolit, jestli chcete zveřejnit vaše uživatelské jméno.
-keep-me-posted =
-    .label = Chtěl bych dostávat novinky o tom, co se v projektu Common Voice děje.
 accept-privacy = Souhlasím se zpracováním těchto informací jak je popsáno v zásadách Mozilly pro <privacyLink>ochranu osobních údajů</privacyLink>
 login-identity = Identita pro přihlášení
 login-signup = Přihlášení / Registrace
@@ -354,6 +363,9 @@ faq-why-account-q = Proč bych si měl(a) vytvořit účet?
 faq-is-account-public-q = Jsou informace o mém účtu veřejně přístupné?
 faq-how-privacy-q = Jak zajišťujete anonymitu a soukromí jednotlivých přispěvatelů projektu Common Voice?
 faq-what-determine-identity-q = Co to znamená že "nelze určit identity" mluvčích v databázi projektu Common Voice?
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -579,3 +591,7 @@ why-delete-recordings =
     
     Řeknete nám, proč chcete smazat vaše nahrávky?
 profile-form-delete = Smazat profil
+
+## Landing
+
+profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
