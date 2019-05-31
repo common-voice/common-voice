@@ -37,4 +37,3 @@ data "aws_iam_policy_document" "allow_fetch_cloudwatch_metrics" {
     resources = ["*"]
   }
 }
-

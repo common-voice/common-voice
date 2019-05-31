@@ -12,7 +12,7 @@ module "worker" {
   purpose       = "webserver"
   ami           = "${var.ami}"
   elb           = "${module.load_balancer.name}"
-  min_instances = 3
+  min_instances = "${var.environment == "prod" ? 5 : 3}"
   max_instances = 30
   instance_type = "t2.large"
 
