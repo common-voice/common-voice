@@ -660,5 +660,8 @@ profile-form-delete = Elimina profilo
 
 ## Landing
 
+welcome-staff = Benvenuto, membro di { $company }.
+help-contribute = Crea un profilo Common Voice e dona la tua voce per aiutarci a costruire un dataset diversificato e open source.
 login-company = Accedi / Registrati con l’email di { $company }
 profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
+read-more-about = Scopri di più sulla pagina Informazioni
