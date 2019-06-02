@@ -106,6 +106,7 @@ sr = Serbia
 sv-SE = Ruotsi
 ta = Tamili
 te = Telugu
+tg = Tadžikki
 th = Thai
 tr = Turkki
 tt = Tataari
@@ -316,6 +317,7 @@ connect-gravatar = Yhdistä Gravatariin
 gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
 file_too_large = Valittu tiedosto on liian suuri
 manage-subscriptions = Muokkaa tilauksia
+manage-email-subscriptions = Hallitse sähköpostitilauksia
 email-already-used = Sähköpostiosoite on jo käytössä toisessa tilissä
 add-language = Lisää kieli
 change-email-setings = Vaihta sähköpostiosoitteesi Asetuksissa kohdassa Käyttäjätunnus
@@ -370,10 +372,19 @@ faq-what-determine-identity-a =
     Common Voice -aineisto on avoin ja julkisesti saatavilla oleva resurssi, jota voidaan käyttää monenlaisiin puheominaisuuksia sisältäviin sovelluksiin. Suojellaksemme avustajiemme turvallisuuden pyydämme Common Voice -ääniaineiston lataajia kunnioittamaan avustajien yksityisyyttä.
     
     Kaikista aineiston ääninäytteistä poistetaan henkilötiedot. Kun lataat aineiston, sitoudut olemaan yrittämättä tunnistaa ketään osallistujaa. Tämä tarkoittaa, että et voi yrittää yhdistää aineiston tietoja osallistujien henkilöllisyyteen. Voit sen sijaan käyttää aineistoa puheentunnistuksen opettamiseen, puhujien tunnistamiseen, tai muihin sovelluksiin esimerkiksi liittämällä aineiston tietoja muihin aineistosta löytyviin tietoihin.
+faq-what-is-cv = Mikä Common Voice on?
 faq-using-cv = Common Voicen käyttö
+faq-description = Common Voice on osa Mozillan aloitetta opettaa koneille, kuinka ihmiset puhuvat.
+faq-search-for-answers =
+    .label = Etsi vastauksia
 
 ## ABOUT US
 
+about-title = Miksi Common Voice?
+how-does-it-work-title = Miten se toimii?
+about-speak = Puhu
+about-listen-queue = Kuuntelujono
+about-listen = Kuuntele
 about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 mycroft-title = Mycroft Ai
