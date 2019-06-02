@@ -123,6 +123,7 @@ speak = Runā
 speak-now = Runā tagad
 datasets = Datu kopas
 languages = Valodas
+about = Par
 profile = Profils
 help = Palīdzība
 contact = Kontakti
@@ -296,8 +297,6 @@ profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mū
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
 why-demographic = Kāpēc tas ir svarīgi?
 why-demographic-explanation = Anonimizēti lietotāja dati, piemēram, vecums, dzimums un akcents, palīdz uzlabot ierakstus, ko izmanto, lai trenētu runas atpazīšanas algoritmu precizitāti. Jūsu lietotājvārds un epasts nekad netiks piesaistīti jūsu iesniegtajiem datiem, un jūs varat izvēlēties, vai padarīt savu lietotājvārdu publisku vai anonīmu.
-keep-me-posted =
-    .label = Es vēlos saņemt jaunumus par to, kas notiek ar Common Voice projektu.
 accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
 login-identity = Pieteikšanās identitāte
 login-signup = Ielogoties / Reģistrēties
@@ -345,6 +344,15 @@ faq-why-not-ask-read-q = Kāpēc jūs nelūdzat, lai cilvēki lasītu grāmatas 
 faq-why-account-q = Kāpēc man jāreģistrējas?
 faq-is-account-public-q = Vai mana konta informācija ir publiski pieejama?
 faq-how-privacy-q = Kā jūs nodrošināsiet to cilvēku anonimitāti un privātumu, kuri ziedoja savas balsis?
+
+## ABOUT US
+
+about-partners = Partneri
+about-become-a-partner = Kļūsti par partneri
+about-nav-why-common-voice = Kāpēc?
+about-nav-how-it-works = Kā?
+about-nav-partners = Partneri
+mycroft-subtitle = Mākslīgais intelekts
 
 ## Glossary
 
@@ -554,3 +562,7 @@ why-delete-recordings =
     
     Vai jūs varat mums paziņot, kāpēc vēlaties, lai jūsu ieraksti tiktu dzēsti?
 profile-form-delete = Dzēst profilu
+
+## Landing
+
+profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
