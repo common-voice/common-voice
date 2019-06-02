@@ -54,7 +54,9 @@ fr = Ranska
 fy-NL = Friisi
 ga-IE = Iiri
 gl = galicia
+ha = Hausa
 he = Heprea
+hi-IN = Hindi
 hr = kroatia
 hsb = Yläsorbi
 hu = Unkari
@@ -69,13 +71,16 @@ kab = Kabyyli
 kk = Kazakki
 ko = Korea
 kpv = Komisyrjääni
+ku = Kurdi
 kw = Korni
 ky = Kirgiisi
+lij = Liguuri
 lt = liettua
 lv = latvia
 mdf = Mokša
 mhr = niittymari
 mk = Makedonia
+ml = Malajalam
 mn = Mongoli
 mrj = vuorimari
 myv = Ersä
@@ -93,6 +98,7 @@ ru = Venäjä
 rw = ruanda
 sah = Jakuutti
 sc = Sardi
+si = Sinhala
 sk = Slovakki
 sl = Sloveeni
 sq = Albania
@@ -123,6 +129,7 @@ speak = Puhu
 speak-now = Puhu nyt
 datasets = Aineistot
 languages = Kielet
+about = Tietoja
 profile = Profiili
 help = Ohje
 contact = Yhteystiedot
@@ -290,8 +297,6 @@ profile-explanation = Pidä kirjaa edistymisestäsi profiilin avulla ja auta tar
 thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
 why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja murre, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
-keep-me-posted =
-    .label = Haluan saada päivityksiä ja pysyä ajan tasalla Common Voice -projektin tapahtumista.
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
 login-identity = Käyttäjätunnus
 login-signup = Kirjaudu / Rekisteröidy
@@ -365,6 +370,14 @@ faq-what-determine-identity-a =
     Common Voice -aineisto on avoin ja julkisesti saatavilla oleva resurssi, jota voidaan käyttää monenlaisiin puheominaisuuksia sisältäviin sovelluksiin. Suojellaksemme avustajiemme turvallisuuden pyydämme Common Voice -ääniaineiston lataajia kunnioittamaan avustajien yksityisyyttä.
     
     Kaikista aineiston ääninäytteistä poistetaan henkilötiedot. Kun lataat aineiston, sitoudut olemaan yrittämättä tunnistaa ketään osallistujaa. Tämä tarkoittaa, että et voi yrittää yhdistää aineiston tietoja osallistujien henkilöllisyyteen. Voit sen sijaan käyttää aineistoa puheentunnistuksen opettamiseen, puhujien tunnistamiseen, tai muihin sovelluksiin esimerkiksi liittämällä aineiston tietoja muihin aineistosta löytyviin tietoihin.
+faq-using-cv = Common Voicen käyttö
+
+## ABOUT US
+
+about-nav-why-common-voice = Miksi?
+about-nav-how-it-works = Miten?
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Tekoäly
 
 ## Glossary
 
@@ -599,3 +612,7 @@ why-delete-recordings =
     
     Haluatko kertoa, miksi haluat poistaa tekemäsi nauhoitukset?
 profile-form-delete = Poista profiili
+
+## Landing
+
+profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
