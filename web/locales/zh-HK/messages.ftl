@@ -28,6 +28,7 @@ ar = 阿拉伯文
 as = 阿薩姆文
 ast = 阿斯圖里亞斯文
 az = 亞塞拜然文
+ba = 巴什基爾文
 bg = 保加利亞語
 bn = 孟加拉文
 br = 布里多尼文
@@ -75,11 +76,13 @@ kpv = 科米-齊良文
 ku = 庫爾德文
 kw = 康和文
 ky = 吉爾吉斯文
+lij = 利古里亞文
 lt = 立陶宛文
 lv = 拉脫維亞文
 mdf = 莫克沙文
 mhr = 草原馬里文
 mk = 馬其頓文
+ml = 馬拉亞拉姆文
 mn = 蒙古文
 mrj = 山地馬里文
 myv = 厄爾茲亞文
@@ -97,6 +100,7 @@ ru = 俄文
 rw = 盧旺達文
 sah = 薩哈文
 sc = 薩丁尼亞語
+si = 僧加羅文
 sk = 斯洛伐克文
 sl = 斯洛維尼亞文
 sq = 阿爾巴尼亞文
@@ -104,6 +108,7 @@ sr = 塞爾維亞文
 sv-SE = 瑞典文
 ta = 泰米爾文
 te = 泰盧固文
+tg = 塔吉克文
 th = 泰文
 tr = 土耳其文
 tt = 韃靼文
@@ -194,6 +199,7 @@ email-subscription-title = 訂閱最新消息電子報
 ## Account Benefits
 
 benefits = 益處
+rich-data = 提供一些人口統計資料，可讓您提交的數據更加豐富。我們會在公開錄音檔前，將這些統計資料去識別化。
 improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
 
 ## What's public
@@ -349,6 +355,7 @@ about-clip-graveyard = 片段回收桶
 about-partners = 合作夥伴
 about-become-a-partner = 成為合作夥伴
 about-get-involved = 參與我們
+about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與我們
@@ -575,3 +582,6 @@ why-delete-recordings =
     
     可以讓我們知道您為什麼想要刪除錄音片段嗎？
 profile-form-delete = 刪除個人檔案
+
+## Landing
+
