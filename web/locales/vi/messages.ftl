@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Hãy gửi email cho tôi. Tôi muốn được biết các thông tin mới nhất về Dự án Common Voice
+yes-receive-emails = Vâng, hãy email cho tôi. Tôi muốn nhận thông báo từ dự án Common Voice.
 stayintouch = Mozilla chúng tôi đang xây dựng một cộng đồng xoay quanh công nghệ giọng nói. Chúng tôi muốn giữ liên hệ với các cập nhật, các nguồn dữ liệu mới và biết thêm về cách bạn sử dụng dữ liệu này.
 privacy-info = Chúng tôi cam kết sẽ xử lý thông tin của bạn một cách cẩn thận. Tìm hiểu thêm ở <privacyLink>Thông Báo Bảo Mật</privacyLink> của chúng tôi.
 return-to-cv = Trở về Common Voice
@@ -335,11 +335,11 @@ faq-why-important-a =
     Lời nói thường là cách tự nhiên nhất mà chúng ta giao tiếp với nhau và công nghệ giọng nói đang mang lại sự thuận tiện cho máy tính và thiết bị di động của chúng ta. Chúng tôi muốn trao quyền cho các nhà phát triển để xây dựng các ứng dụng nhận dạng giọng nói tuyệt vời như dịch giả thời gian thực và trợ lý kỹ thuật số hỗ trợ giọng nói. Nhưng ngay bây giờ hầu hết dữ liệu giọng nói cần thiết để xây dựng các loại ứng dụng này là đắt tiền và độc quyền. Chúng tôi hy vọng bộ dữ liệu Common Voice sẽ cung cấp cho các nhà phát triển những gì họ cần để đổi mới và cung cấp công nghệ giọng nói bằng ngôn ngữ của họ.
     
     Để làm cho nhận dạng giọng nói trở nên tổng quát hơn, chúng tôi đang thu thập các mẫu giọng nói bằng các ngôn ngữ được sử dụng rộng rãi cũng như những người có số lượng người nói nhỏ hơn thường bị các dịch vụ nhận dạng giọng nói thương mại đánh giá thấp. Xuất bản một tập dữ liệu đa dạng về giọng nói sẽ trao quyền cho các nhà phát triển, doanh nhân và toàn bộ cộng đồng lời nói để tự giải quyết khoảng trống này.
-faq-how-get-q = Làm cách nào tôi có thể nhận được dữ liệu Common Voice?
+faq-how-get-q = Làm sao để tôi có thể lấy dữ liệu Common Voice?
 faq-how-get-a = Bộ dữ liệu của Common Voice có sẵn để tải xuống theo giấy phép <licenseLink>CC0</licenseLink> trên <datasetLink>trang dữ liệu của chúng tôi</datasetLink>. Bạn cũng có thể tải xuống một số bộ dữ liệu có sẵn công khai khác từ cùng một trang.
 faq-when-release-q = Khi nào bạn sẽ phát hành dữ liệu Common Voice bằng các ngôn ngữ khác?
 faq-when-release-a = Phiên bản đa ngôn ngữ của bộ dữ liệu Common Voice hiện đang được cộng đồng hỗ trợ và dọn dẹp. Nếu bạn muốn tìm hiểu thêm về việc nỗ lực hỗ trợ này, xin vui lòng <contactLink>liên hệ với chúng tôi</contactLink>. Chúng tôi hiện đang nhắm mục tiêu ngày xuất bản vào tháng 1 năm 2019. Sau đó, chúng tôi sẽ cập nhật dữ liệu định kỳ với các ngôn ngữ và clip thoại mới khi chúng có sẵn. Một nhịp lặp phát hành lặp đi lặp lại vẫn còn được xác định.
-faq-why-mission-q = Tại sao Common Voice là một phần của nhiệm vụ Mozilla?
+faq-why-mission-q = Tại sao Common Voice lại là một phần của sứ mệnh Mozilla?
 faq-why-mission-a = Mozilla được dành riêng để giữ cho web mở và có thể truy cập được cho mọi người. Để làm được điều đó, chúng tôi cần trao quyền cho người tạo web thông qua các dự án như Common Voice. Khi công nghệ giọng nói phát triển vượt ra ngoài các ứng dụng thích hợp, chúng tôi tin rằng chúng phải phục vụ tất cả người dùng như nhau. Điều đó có nghĩa là đầu tư vào nhiều ngôn ngữ hơn và cung cấp các điểm nhấn và nhân khẩu học đa dạng khi xây dựng và thử nghiệm các công nghệ giọng nói. Common Voice là tài nguyên công cộng có sẵn cho tất cả mọi người và các nhóm và nhà phát triển Mozilla trên toàn thế giới cũng đã sử dụng nó cho các dự án của chúng tôi.
 faq-what-cv-and-deepspeech-q = Điểm gì khác biệt giữa Common Voice và Deep Speech?
 faq-what-cv-and-deepspeech-a = Bộ dữ liệu của Common Voice bổ sung cho công cụ nhận dạng giọng nói mã nguồn mở Mozilla, Deep Speech. Phiên bản đầu tiên của Deep Speech được phát hành vào tháng 11 năm 2017 và tiếp tục phát triển kể từ đó. Cùng với bộ dữ liệu Common Voice, chúng tôi tin rằng công nghệ nhận dạng giọng nói nguồn mở này sẽ có sẵn cho mọi người. Chúng tôi hy vọng những công nghệ này sẽ cho phép các nhà phát triển xây dựng một làn sóng các sản phẩm và dịch vụ sáng tạo.
