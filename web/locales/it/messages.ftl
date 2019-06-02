@@ -657,3 +657,8 @@ why-delete-recordings =
     
     Puoi spiegarci per quale motivo desideri cancellare le tue registrazioni?
 profile-form-delete = Elimina profilo
+
+## Landing
+
+login-company = Accedi / Registrati con l’email di { $company }
+profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
