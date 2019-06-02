@@ -341,6 +341,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 點解會有 Common Voice？
+about-header-description =
+    這兩個計劃都是我們努力糾正電子語音落差的一部份。語音識別技術可讓我們的電子裝置更人性化，但開發者需要非常大量的語音數據，才能打造出這樣的系統。目前大部分語音數據都相當昂貴，並受專有權限制。
+    我們想令語音數據能被公開自由地使用，並確保這些數據反映出我們大衆的多樣性。合衆人之力，我們可為大家將語音識別技術變得更好！
 how-does-it-work-title = 原理是甚麼？
 about-speak = 講話
 about-listen-queue = 聆聽隊列
