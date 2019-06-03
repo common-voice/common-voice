@@ -627,4 +627,6 @@ profile-form-delete = ลบโปรไฟล์
 
 ## Landing
 
+welcome-staff = ยินดีต้อนรับพนักงาน { $company }!
+login-company = เข้าสู่ระบบ / ลงทะเบียนด้วยอีเมล { $company }
 profile-not-required = การมีโปรไฟล์ไม่จำเป็นสำหรับการมีส่วนร่วมถึงแม้ว่าจะเป็นประโยชน์ก็ตาม
