@@ -512,7 +512,7 @@ dataset-description-hours =
     Chaque entrée du jeu de données consiste en un seul fichier MP3 accompagné d’un fichier du texte correspondant. Une grande partie des <b>{ $total }</b> heures enregistrées dans le jeu de données comprennent également des métadonnées démographiques, telles que l’âge, le sexe et l’accent, qui peuvent contribuer à améliorer la précision des moteurs de reconnaissance vocale.
     
     Le jeu de données contient actuellement <b>{ $valid }</b> heures validées dans <b>{ $languages }</b> langues, mais nous ajoutons en permanence plus de voix et de langues. Jetez un œil à la <languagesLink>page des langues</languagesLink> pour demander une langue ou commencer à contribuer.
-want-dataset-update = Vous souhaitez être informé·e lorsque nous publions une nouvelle version du jeu de données Common Voice ? Inscrivez-vous à notre lettre d’information.
+want-dataset-update = Vous souhaitez être informé(e) lorsque nous publions une nouvelle version du jeu de données Common Voice ? Inscrivez-vous à notre lettre d’information.
 subscribe = S’abonner
 get-started-speech = S’initier à la reconnaissance vocale
 other-datasets = Autres jeux de données vocales
@@ -528,7 +528,7 @@ your-feedback = Vous avez des idées pour améliorer le jeu de données Common V
 go-discourse = Aller sur Discourse
 missing-language = Votre langue ne fait pas partie du jeu de données ? Pour demander l’ajout d’une nouvelle langue, rendez-vous sur notre page des langues.
 go-languages-page = Aller sur la page des langues
-ready-to-validate = Prêt·e à nous aider à valider des phrases ?
+ready-to-validate = Prêt(e) à nous aider à valider des phrases ?
 more = Informations supplémentaires
 close = Fermer
 download = Télécharger
@@ -675,3 +675,7 @@ why-delete-recordings =
     
     Pourriez-vous nous indiquer pourquoi vous souhaitez supprimer vos enregistrements ?
 profile-form-delete = Supprimer le profil
+
+## Landing
+
+profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
