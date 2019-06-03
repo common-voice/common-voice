@@ -246,6 +246,16 @@ request-language-button = Solicitar un idioma
 ## ProjectStatus
 
 status-title = Estado xeral do proxecto: mire ata onde chegamos!
+status-contribute = Contribúa coa súa voz
+status-hours =
+    { $hours ->
+        [one] Ata agora, validouse unha hora
+       *[other] Ata agora, validáronse { $hours }
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Seguintes obxectivos: { $goal }
+english = Inglés
 
 ## ProfileForm
 
