@@ -51,7 +51,9 @@ fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
 gl = Galisisk
+ha = Hausa
 he = Hebraisk
+hi-IN = Hindi
 hr = Kroatisk
 hsb = Oversorbisk
 hu = Ungarsk
@@ -66,8 +68,10 @@ kab = Kabylsk
 kk = Kasakhisk
 ko = Koreansk
 kpv = Komi (syriansk)
+ku = Kurdisk
 kw = Kornisk
 ky = Kirgisk
+lij = Ligurisk
 lt = Litauisk
 lv = Latvisk
 mdf = Moksja
@@ -90,6 +94,7 @@ ru = Russisk
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardinsk
+si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
 sq = Albansk
@@ -119,6 +124,7 @@ speak = Snakk
 speak-now = Snakk no
 datasets = Datamengder
 languages = Språk
+about = Om oss
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -291,9 +297,11 @@ on = På
 add-avatar-title = Legg til ein avatar  i profilen din
 browse-file-title = Last opp ei bildefil
 browse-file = Dra og slepp, eller <browseWrap>bla</browseWrap>
+connect-gravatar = Kople til med Gravatar
 gravatar_not_found = Fann ingen gravatar for e-postadressa di
 file_too_large = Den valde fila er for stor
 manage-subscriptions = Handter abonnement
+manage-email-subscriptions = Handter e-postabonnement
 email-already-used = E-postadressa vert allereie brukt med ein annan konto
 add-language = Legg til språk
 change-email-setings = Endre e-postkontoen din via Innstillingar under Innloggingsidentitet
@@ -305,9 +313,14 @@ faq-what-cv-q = Kva er Common Voice?
 faq-why-important-q = Kvifor er det viktig?
 faq-how-get-q = Korleis kan eg få tak i Common Voice-data?
 faq-why-mission-q = Kvifor er Common Voice ein del av Mozillas oppdrag?
+faq-why-my-lang-q = Kvifor er ikkje språket mitt inkludert enno?
+faq-how-calc-hours-q = Korleis bereknar Common Voice timar?
 faq-where-src-from-2-q = Kvar kjem denne kjeldeteksten frå?
 faq-why-account-q = Kvifor skal eg registrere meg med ein konto?
 faq-is-account-public-q = Er kontoinformasjonen min offentleg?
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -515,3 +528,7 @@ overall-accuracy = Nøyaktigheit jamt over
 keep = Behald
 remove = Fjern
 profile-form-delete = Slett profilen
+
+## Landing
+
+profile-not-required = Du treng ikkje ein konto for å bidra, men det er til hjelp
