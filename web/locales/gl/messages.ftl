@@ -7,6 +7,7 @@ email-input =
     .label = Correo
 submit-form-action = Enviar
 loading = Cargando...
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -14,35 +15,59 @@ loading = Cargando...
 
 ## Languages
 
+ab = Abkhazo
+ace = Achinés
+ady = Adigués
+af = Afrikaans
+am = Amhárico
 an = Aragonés
 ar = Árabe
+as = Assamés
 ast = Asturiano
+az = Acerbaixano
+ba = Baskir
 bg = Búlgaro
 bn = Bengalí
 br = Bretón
+bxr = Buriata
 ca = Catalán
+cak = Kaqchikel
+cnh = Lai
 cs = Checo
+cv = Chuvaxo
 cy = Galés
 da = Danés
 de = Alemán
+dsb = Sorabo, baixo
+dv = Maldivano
 el = Grego
 en = Inglés
 eo = Esperanto
 es = Castelán
+et = Estonio
 eu = Éuscaro
 fa = Persa
+ff = Fula
 fi = Finés
+fo = Feroés
 fr = Francés
+fy-NL = Frisio
 ga-IE = Irlandés
 gl = Galego
+ha = Hausa
 he = Hebreo
+hi-IN = Hindi
 hr = Croata
+hsb = Sorabo, alto
 hu = Húngaro
 ia = Interlingua
 id = Indonesio
 is = Islandés
 it = Italiano
+izh = Ingrio
 ja = Xaponés
+ka = Xeorxiano
+kab = Cabilo
 ko = Coreano
 ne-NP = Nepalí
 oc = Occitano
@@ -119,6 +144,9 @@ goals = Obxectivos
 ## FAQ
 
 
+## ABOUT US
+
+
 ## Glossary
 
 glossary = Glosario
@@ -176,4 +204,7 @@ languages-show-less = Ver menos
 
 
 ## Profile Delete
+
+
+## Landing
 
