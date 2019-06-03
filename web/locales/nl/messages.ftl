@@ -679,4 +679,5 @@ profile-form-delete = Profiel verwijderen
 
 ## Landing
 
+welcome-staff = Welkom medewerkers van { $company }!
 profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
