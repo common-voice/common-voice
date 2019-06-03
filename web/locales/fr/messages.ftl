@@ -678,4 +678,6 @@ profile-form-delete = Supprimer le profil
 
 ## Landing
 
+welcome-staff = Bienvenue au personnel de { $company } !
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
+read-more-about = Pour en savoir plus lisez notre page À propos
