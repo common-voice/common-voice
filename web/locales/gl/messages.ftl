@@ -271,13 +271,19 @@ profile-form-age =
     .label = Idade
 profile-form-gender =
     .label = Xénero
+leaderboard-visibility =
+    .label = Visibilidade da táboa de clasificación
+hidden = Agochada
+visible = Visíbel
 native-language =
     .label = Idioma nativo
 profile-form-submit-save = Gardar
+profile-form-submit-saved = Gardado
 male = Masculino
 female = Feminino
 # Gender
 other = Outro
+why-profile-title = Por que un perfil?
 dashboard = Taboleiro
 goals = Obxectivos
 
