@@ -182,7 +182,7 @@ x-years-short =
        *[other] { $count } år
     }
 help-make-dataset = Hjelp oss å byggje eit offentleg, ope datasett med høg kvalitet
-profile-not-required = Du treng ikkje ein konto for å bidra, men det er til hjelp
+profile-not-required = Du treng ikkje ein konto for å bidra, men det hjelper. Sjå kvifor nedanfor.
 sign-up-account = Be om konto
 email-subscription-title = registrer deg for oppdateringar via e-post
 
@@ -318,9 +318,31 @@ faq-how-calc-hours-q = Korleis bereknar Common Voice timar?
 faq-where-src-from-2-q = Kvar kjem denne kjeldeteksten frå?
 faq-why-account-q = Kvifor skal eg registrere meg med ein konto?
 faq-is-account-public-q = Er kontoinformasjonen min offentleg?
+faq-what-is-cv = Kva er Common Voice?
+faq-using-cv = Bruke Common Voice
+faq-search-for-answers =
+    .label = Søk etter svar
 
 ## ABOUT US
 
+about-title = Kvifor Common Voice?
+how-does-it-work-title = Korleis fungerer det?
+about-speak = Tal
+about-listen-queue = Lyttekø
+about-listen = Lytt
+about-is-it-valid = Er klippet gyldig?
+about-yes-votes = ≥ 2 Ja-røyster
+about-no-votes = ≥ 2 Nej-røyster
+about-clip-graveyard = Klippkyrkjegard
+about-partners = Partnarar
+about-become-a-partner = Bli ein partnar
+about-get-involved = Ver med
+about-nav-why-common-voice = Kvifor ?
+about-nav-how-it-works = Korleis ?
+about-nav-partners = Partnarar
+about-nav-get-involved = Ver med
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Kunstig intelligens
 
 ## Glossary
 
@@ -385,6 +407,7 @@ whats-inside = Kva finst i Common Voice-datamengda?
 subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatamengder
+feedback-q = Har du ei tilbakemelding?
 data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 timar med engelsk tale (16Khz-opptak) henta frå lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpuset er laga på bakgrunn av lydsamtalar og transkripsjonar av desse, på TED-nettsida.
@@ -423,6 +446,8 @@ request-language-form-language =
     .label = Språk
 request-language-success-title = Språkførespurnaden er sendt inn. Takk skal du ha.
 request-language-success-content = Vi kontaktar deg snart med meir informasjon om korleis du legg til ditt språk i Common Voice.
+select-language = Vel eit språk…
+other-language = Anna språk
 
 ## Languages Overview
 
@@ -531,4 +556,7 @@ profile-form-delete = Slett profilen
 
 ## Landing
 
-profile-not-required = Du treng ikkje ein konto for å bidra, men det er til hjelp
+welcome-staff = Velkomne tilsette på { $company }!
+login-company = Logg inn/Registrer deg med { $company } e-post
+profile-not-required = Du treng ikkje ein konto for å bidra, men det hjelper. Sjå kvifor nedanfor.
+read-more-about = Les meir på Om oss-sida vår
