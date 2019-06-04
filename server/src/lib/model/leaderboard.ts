@@ -4,6 +4,14 @@ import { getLocaleId } from './db';
 import { getConfig } from '../../config-helper';
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
+import Bucket from '../bucket';
+import { S3 } from 'aws-sdk';
+import { AWS } from '../aws';
+import Model from '../model';
+
+const s3: S3 = AWS.getS3();
+const model: Model = new Model();
+const bucket = new Bucket(model, s3);
 
 const db = getMySQLInstance();
 
@@ -12,6 +20,7 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
     `
       SELECT client_id,
              avatar_url,
+             avatar_clip_url,
              username,
              total,
              valid,
@@ -50,6 +59,7 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
     `
       SELECT client_id,
              avatar_url,
+             avatar_clip_url,
              username,
              total,
              valid,
@@ -124,7 +134,8 @@ export default async function getLeaderboard({
 }) {
   const prepareRows = (rows: any[]) =>
     rows.map(row => ({
-      ...omit(row, 'client_id'),
+      ...omit(row, 'client_id', 'avatar_clip_url'),
+      avatarClipUrl: bucket.getAvatarClipsUrl(row.avatar_clip_url),
       clientHash: SHA256(row.client_id + getConfig().SECRET).toString(),
       you: row.client_id == client_id,
     }));

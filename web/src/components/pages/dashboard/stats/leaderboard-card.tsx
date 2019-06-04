@@ -68,6 +68,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
         this.scroller.current.scrollTop = row.getBoundingClientRect().top;
       }
     );
+    console.log(await api.forLocale(locale).fetchLeaderboard(type));
   }
 
   async fetchMore(cursor: [number, number]) {
