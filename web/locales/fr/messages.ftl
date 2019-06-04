@@ -679,5 +679,7 @@ profile-form-delete = Supprimer le profil
 ## Landing
 
 welcome-staff = Bienvenue au personnel de { $company } !
+help-contribute = Vous pouvez aider à créer un jeu de données open source et diversifié en créant un profil Common Voice et en faisant don de votre voix.
+login-company = Connexion / Inscription avec l’adresse électronique de { $company }
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 read-more-about = Pour en savoir plus lisez notre page À propos
