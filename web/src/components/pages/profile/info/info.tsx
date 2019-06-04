@@ -288,7 +288,7 @@ class ProfilePage extends React.Component<Props, State> {
           </Localized>
 
           <Localized id="profile-form-age" attrs={{ label: true }}>
-            <LabeledSelect val ue={age} onChange={this.handleChangeFor('age')}>
+            <LabeledSelect value={age} onChange={this.handleChangeFor('age')}>
               <Options>{AGES}</Options>
             </LabeledSelect>
           </Localized>
