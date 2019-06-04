@@ -345,11 +345,13 @@ faq-search-for-answers =
 
 about-title = Изаҭахузеи Common Voice?
 about-speak = Уцәажәа
+about-listen-queue = Азыӡырҩра-Аишьҭагыла
 about-listen = Уазыӡырҩы
 about-is-it-valid = Ари анҵамҭа ииашаҵәҟьоума?
 about-dataset = Common Voice адыррақәа реизга
 about-clip-graveyard = Анҵамҭа Анышәынҭра
 about-partners = Алахәылаҩцәа
+about-become-a-partner = Алахәылаҩ иҟаларц
 about-get-involved = Уҽалаурхәырц
 about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
@@ -609,3 +611,4 @@ profile-form-delete = Аҷыдахәра аныхтәуп
 
 welcome-staff = Бзиала шәаабеит { $company } аусуҩцәа!
 login-company = Аҭалара/Аҽҭагалара { $company } ԥошьҭала
+read-more-about = Нарҭбааны Иазкны ҳдаҟьаҿы
