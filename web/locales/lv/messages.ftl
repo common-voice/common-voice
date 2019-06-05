@@ -10,6 +10,7 @@ submit-form-action = Nosūtīt
 loading = Ielāde...
 email-opt-in-privacy = Izvēloties saņemt epasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā<privacyLink>.
 indicates-required = * Obligātie lauki
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
