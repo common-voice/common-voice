@@ -51,6 +51,7 @@ es = Bahasa Spanyol
 et = Bahasa Estonia
 eu = Bahasa Basque
 fa = Bahasa Persia
+ff = Bahasa Fulah
 fi = Bahasa Finlandia
 fo = Bahasa Faroe
 fr = Bahasa Perancis
@@ -670,3 +671,11 @@ why-delete-recordings =
     
     Bisakah Anda memberi tahu kami mengapa rekaman Anda ingin dihapus?
 profile-form-delete = Hapus Profil
+
+## Landing
+
+welcome-staff = Selamat datang staf { $company }!
+help-contribute = Anda dapat bantu membantu set data sumber-terbuka nan beragama dengan membuat profil Common Voice dan kontribusikan suara Anda.
+login-company = Masuk/Daftar dengan surel { $company }
+profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
+read-more-about = Baca lebih lanjut pada laman Tentang Kami
