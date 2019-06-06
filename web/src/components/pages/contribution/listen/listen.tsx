@@ -171,6 +171,8 @@ class ListenPage extends React.Component<Props, State> {
           ? { ...this.props.clips.slice(SET_COUNT)[0], isValid: null }
           : clip
       ),
+      hasPlayed: false,
+      hasPlayedSome: false,
     });
   };
 
