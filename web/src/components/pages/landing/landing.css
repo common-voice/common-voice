@@ -133,10 +133,6 @@
                 min-width: auto;
             }
 
-            &:focus {
-                background: var(--white);
-            }
-
             & svg {
                 margin-left: 15px;
                 width: 20px;
