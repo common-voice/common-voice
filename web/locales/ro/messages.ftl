@@ -682,6 +682,7 @@ profile-form-delete = Șterge profilul
 
 ## Landing
 
+welcome-staff = Bun venit, angajaților { $company }!
 help-contribute = Poți ajuta la clădirea unui set de date divers, cu cursă deschisă, creând un profil Common Voice și contribuind cu vocea ta.
 login-company = Autentifică-te / Înregistrează-te cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
