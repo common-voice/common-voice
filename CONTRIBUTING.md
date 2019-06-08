@@ -10,7 +10,7 @@ By participating in this project, you're agreeing to uphold the [Mozilla Communi
 
 ### Add More Sentences
 
-Help us add more sentences for other volunteers to read. See [this topic](https://discourse.mozilla.org/t/readme-how-to-see-my-language-on-common-voice/31530) for details.
+Use the [Common Voice Sentence Collector](https://common-voice.github.io/sentence-collector/) to add more sentences for other volunteers to read.
 
 ### Bug Fixes and Feature Enhancements
 
