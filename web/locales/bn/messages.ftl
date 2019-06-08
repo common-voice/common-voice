@@ -8,6 +8,7 @@ email-input =
     .label = ইমেইল
 submit-form-action = জমা দিন
 loading = লোড করা হচ্ছে…
+email-opt-in-info = আমি Common Voice সম্পর্কিত ইমেইল যেমন গোল রিমাইন্ডার, আমার অগ্রগতি হালনাগাদ এবং নিউজলেটার পেতে চাই।
 email-opt-in-privacy = আপনি ইমেল গ্রহণ করার অনুমতি দিয়ে আপনি মজিলাকে আপনার এই তথ্য ব্যবহস্থাপনা করার বিষয়ে সম্মত হচ্ছেন, যেমনটা মজিলার <privacyLink> গোপনীয়তা নীতিতে <privacyLink> ব্যাখ্যা করা হয়েছে।
 indicates-required = * প্রয়োজনীয় ক্ষেত্র নির্দেশ করে
 not-available-abbreviation = প্রযোজ্য নয়
@@ -532,3 +533,7 @@ overall-accuracy = সামগ্রিক নির্ভুলতা
 keep = রেখে দিন
 remove = মুছে ফেলুন
 profile-form-delete = প্রোফাইল মুছে ফেলুন
+
+## Landing
+
+profile-not-required = অবদান রাখার জন্যে কোন প্রোফাইল থাকার প্রয়োজন হয় না, যদিও এটি সহায়ক হবে।
