@@ -5,7 +5,6 @@
     "endpoint": "http://s3proxy:80",
     "accessKeyId": "local-identity",
     "secretAccessKey": "local-credential",
-    "s3ForcePathStyle": true,
-    "s3proxy.cors-allow-all": true
+    "s3ForcePathStyle": true
   }
 }
