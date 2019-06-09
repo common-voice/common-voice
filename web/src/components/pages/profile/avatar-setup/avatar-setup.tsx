@@ -141,8 +141,8 @@ class AvatarSetup extends React.Component<Props> {
   private playAvatarClip = async () => {
     const { api } = this.props;
     let url = await api.fetchAvatarClip();
-    const a = new Audio(url);
-    a.play();
+    const audio = new Audio(url);
+    audio.play();
   };
 
   private handleRecordClick = async () => {
@@ -193,8 +193,22 @@ class AvatarSetup extends React.Component<Props> {
   };
 
   async uploadAvatarClip(blob: Blob) {
-    const { api, refreshUser } = this.props;
-    await api.saveAvatarClip(blob);
+    const { api, refreshUser, addNotification } = this.props;
+    await api
+      .saveAvatarClip(blob)
+      .then(data => {
+        addNotification(
+          <React.Fragment>
+            <CheckIcon />{' '}
+            <Localized id="clips-uploaded">
+              <span />
+            </Localized>
+          </React.Fragment>
+        );
+      })
+      .catch(err => {
+        confirm('Upload of this avatar clip keeps failing, keep retrying?');
+      });
     refreshUser();
   }
 

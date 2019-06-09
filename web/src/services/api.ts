@@ -226,8 +226,8 @@ export default class API {
       },
       body: blob,
     })
-      .then(body => console.log(body))
-      .catch(err => console.log(err));
+      .then(body => body)
+      .catch(err => err);
   }
 
   fetchAvatarClip() {
