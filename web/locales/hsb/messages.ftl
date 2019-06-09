@@ -669,3 +669,10 @@ why-delete-recordings =
     
     Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil zhašeć
+
+## Landing
+
+welcome-staff = Witajće, sobudźěłaćerjo { $company }!
+login-company = Z e-mejlowej adresu { $company } přizjewić / registrować
+profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
+read-more-about = Čitajće wjace wo stronje Wo Common Voice
