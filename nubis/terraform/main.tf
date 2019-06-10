@@ -3,6 +3,11 @@ provider "aws" {
   version = "~> 1"
 }
 
+resource "aws_acm_certificate" "voice" {
+  domain_name       = "${var.service_name}.${var.environment == "prod" ? "mozilla" : "allizom" }.org"
+  validation_method = "EMAIL"
+}
+
 module "worker" {
   source        = "github.com/gozer/nubis-terraform//worker?ref=v2.4.0"
   region        = "${var.region}"
