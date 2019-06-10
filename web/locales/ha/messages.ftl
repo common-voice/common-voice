@@ -209,6 +209,7 @@ compare-progress = Gwada yawan gudummawarka da ta sauran masu bada gudummawa a d
 
 whats-public = Menene a bainan  Jama'a?
 email-not-public = Ba za mu bayyana adireshin yanar gizonka ba ga jama'a.
+username-optin-public = Zaka iya zaɓar bayyana username a fili ko a asurce.
 
 ## Speak & Listen Shortcuts
 
@@ -240,6 +241,9 @@ request-language-button = Nemi izinin wani yaren
 ## ProjectStatus
 
 status-contribute = Taimaka da Muryarka
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Burin gaba: { $goal }
 english = Turanci
 
 ## ProfileForm
@@ -289,6 +293,7 @@ off = Kashe
 on = Kunna
 add-avatar-title = Ɗora hoto akan profile ɗinka.
 browse-file-title = Ɗora hoto.
+browse-file = Jawo ka saka ko ka <browseWrap>Dakko</browseWrap>
 connect-gravatar = Haɗa tare da Gravatar
 gravatar_not_found = Ba'a samu hoton gravatar na imel ɗinka ba
 file_too_large = Fayil ɗin da aka zaɓa ya yi girma sosai
@@ -332,12 +337,14 @@ about-is-it-valid = Shin naɗin yana da kyau?
 about-is-it-valid-text = Ana alamta naɗin murya a matsayin mai kyau idan mai amfani ya bashi ƙuri'a ta ƙwarai.
 about-yes-votes = ƙuri'ar ƙwarai 2 ko fiye da haka
 about-no-votes = ƙuri'ar a'a 2 ko fiye da haka
+about-dataset = Dataset na Common Voice
 about-partners = Abokan hulɗa
 about-become-a-partner = Zamo abokin hulɗa
 about-get-involved = Shiga a dama da kai
 about-nav-why-common-voice = Me yasa?
 about-nav-how-it-works = Ta yaya?
 about-nav-partners = Abokan hulɗa
+about-nav-get-involved = Sami Shiga
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 
@@ -364,11 +371,13 @@ data-other-title = Sauran bayanai (datasets) na muryoyi
 data-other-goto = Je zuwa { $name }
 data-other-download = Sauke Bayanai
 data-bundle-button = Sauke dunƙulen bayanai (dataset)
+license = Lasisi: <licenseLink>{ $license }
 license-mixed = An cakuda
 terms-agree = Na yarda
 terms-disagree = Ban yarda ba
 review-submit-title = Sake Nazari ka Tura
 review-recording = Nazari
+review-rerecord = Sake rikodi
 review-cancel = Soke Turawa
 review-keep-recordings = Bar naɗe-naɗe na
 review-delete-recordings = Goge naɗe-naɗe na
@@ -391,6 +400,7 @@ whats-inside = Meye a cikin bayanan Common Voice?
 subscribe = Saka kanka
 get-started-speech = Fara da gane Managana (Speech Recognition)
 feedback-q = Kana da wani shawari?
+data-other-ted-name = TED-LIUM Corpus
 go-discourse = Je zuwa Discourse
 go-languages-page = Jeka zuwa shafin yaruka
 more = Ƙari
@@ -446,6 +456,7 @@ skip = Wuce
 shortcuts = Gajerun hanyoyi
 record-cta = Fara Ɗaukar Murya
 record-no-mic-found = Ba'a samu makirfo ba
+record-error-too-short = Rikodin yayi kadan sosai.
 record-error-too-long = Naɗin yai tsawo da yawa
 record-error-too-quiet = Naɗin yai shiru da yawa.
 record-cancel = Katse naɗin
@@ -461,6 +472,11 @@ days =
     { $count ->
         [one] Kwana
        *[other] Kwanaki
+    }
+recordings =
+    { $count ->
+        [one] Rekodin
+       *[other] Rekodin
     }
 
 ## Dashboard
@@ -483,3 +499,7 @@ why-delete-recordings =
     
     Za ka iya gaya mana me yasa ka ke son goge muryoyinka da aka ɗauka?
 profile-form-delete = Cire Bayananka
+
+## Landing
+
+profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
