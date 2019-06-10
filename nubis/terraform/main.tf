@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "worker" {
-  source        = "github.com/gozer/nubis-terraform//worker?ref=issue%2F254%2Fworker-desired-instances"
+  source        = "github.com/gozer/nubis-terraform//worker?ref=v2.4.0"
   region        = "${var.region}"
   environment   = "${var.environment}"
   account       = "${var.account}"
@@ -29,7 +29,7 @@ module "worker" {
 }
 
 module "load_balancer" {
-  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=6b91794839523ab5b3806824369efde2f61b3c17"
+  source       = "github.com/gozer/nubis-terraform//load_balancer?ref=issue%2F283%2Felb-acm"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -43,7 +43,7 @@ module "load_balancer" {
 }
 
 module "dns" {
-  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v2.3.1"
+  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v2.4.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -63,7 +63,7 @@ resource "aws_db_parameter_group" "slow_query_enabled" {
 }
 
 module "database" {
-  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.3.1"
+  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.4.0"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
@@ -79,7 +79,7 @@ module "database" {
 
 module "clips" {
   #XXX: cors_rules will be added in Nubis v2.4.0
-  source       = "github.com/gozer/nubis-terraform//bucket?ref=issue%2F249%2Fcors"
+  source       = "github.com/gozer/nubis-terraform//bucket?ref=v2.4.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -97,7 +97,7 @@ module "clips" {
 }
 
 module "bundler_bucket" {
-  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.3.1"
+  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.4.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -108,7 +108,7 @@ module "bundler_bucket" {
 
 # Add elastic cache (memcache)
 module "cache" {
-  source                 = "github.com/gozer/nubis-terraform//cache?ref=issue%2F257%2Fredis"
+  source                 = "github.com/gozer/nubis-terraform//cache?ref=v2.4.0"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
