@@ -282,6 +282,7 @@ edit-profile = ପ୍ରୋଫାଇଲ ସମ୍ପାଦନା
 profile-create-success = ପ୍ରୋଫାଇଲଟି ସଫଳ ଭାବେ ଗଢ଼ାଗଲା!
 profile-close = ବନ୍ଦକରନ୍ତୁ
 thanks-for-account = ଆପଣଙ୍କର ଖାତା ସୁନିଶ୍ଚିତ କରିଥିବାରୁ ଧନ୍ୟବାଦ, ବର୍ତ୍ତମାନ ଚାଲନ୍ତୁ ଆପଣଙ୍କର ପ୍ରୋଫାଇଲ ତିଆରି କରିବା ।
+why-demographic = କାହିଁକି ଏହା ଜରୁରୀ?
 login-identity = ଲଗଇନ ପରିଚୟ
 login-signup = ଲଗ ଇନ / ସାଇନ ଅପ
 edit = ସମ୍ପାଦନା
@@ -289,11 +290,38 @@ email-subscriptions = ଇମେଲ ସବସ୍କ୍ରିପସନ
 download-profile = ମୋ ତଥ୍ୟ ଡାଉନଲୋଡ଼ କରନ୍ତୁ
 contribution-experience = ଅବଦାନ ଅଭିଜ୍ଞତା
 skip-submission-feedback = ଜମା ମତ ଅଣଦେଖା କରନ୍ତୁ
+off = ବନ୍ଦ
+on = ଚାଲୁ
+add-avatar-title = ଆପଣଙ୍କର ପ୍ରୋଫାଇଲରେ ଏକ ଅବତାର ଯୋଡ଼ନ୍ତୁ
+browse-file-title = ଗୋଟିଏ ଛବି ଫାଇଲ ଅପଲୋଡ଼ କରନ୍ତୁ
+browse-file = ଭିଡିଆଣି କଚାଡ଼ିଦିଅନ୍ତୁ କିମ୍ବା <browseWrap> ଦେଖନ୍ତୁ </browseWrap>
+connect-gravatar = ଗ୍ରାବତାର ସହିତ ଯୋଡ଼ନ୍ତୁ
+gravatar_not_found = ଆପଣଙ୍କର ଇମେଲ ପାଇଁ କୌଣସି ଗ୍ରାବତାର ମିଳିଲା ନାହିଁ
+file_too_large = ଚୟନିତ ଫାଇଲଟି ବହୁତ ବଡ଼ ଅଟେ
+manage-subscriptions = ସବସ୍କ୍ରିପସନକୁ ପରିଚାଳନା କରନ୍ତୁ
+manage-email-subscriptions = ଇମେଲ ସବସ୍କ୍ରିପସନକୁ ପରିଚାଳନା କରନ୍ତୁ
+email-already-used = ଅନ୍ୟ ଏକ ଖାତା ପାଇଁ ଏହି ଇମେଲଟି ଉପଯୋଗ ହେଉଛି
 add-language = ଭାଷା ଯୋଡ଼ନ୍ତୁ
 
 ## FAQ
 
 faq-title = ଅଧିକ ପଚରାଯାଉଥିବା ପ୍ରଶ୍ନ
+faq-what-cv-q = କମନ ଭଏସ କଣ?
+faq-why-important-q = ଏହା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?
+faq-how-get-q = ମୁଁ କିଭଳି କମନ ଭଏସ ତଥ୍ୟ ପାଇପାରିବି?
+faq-when-release-q = କେବେ ଆପଣ ଅନ୍ୟାନ୍ୟ ଭାଷାରେ କମନ ଭଏସ ଛାଡ଼ିବେ?
+faq-why-mission-q = କମନ ଭଏସ କାହିଁକି ମୋଜିଲାର ଲକ୍ଷ୍ୟର ଅନ୍ତର୍ଭୁକ୍ତ?
+faq-what-cv-and-deepspeech-q = କମନ ଭଏସ ଏବଂ ଡିପ ସ୍ପିଚ ମଧ୍ୟରେ କଣ ପାର୍ଥକ୍ୟ?
+faq-is-goal-assistant-q = କଣ କମନ ଭଏସର ଲକ୍ଷ୍ୟ ଏକ କଥାବାର୍ତ୍ତା ସହଯୋଗୀ ତିଆରି କରିବା କି?
+faq-do-want-native-q = ମୁଁ ଜଣେ ସ୍ଥାନୀୟ ଭାଷୀ ନୁହଁ ଏବଂ ମୁଁ ଟିକିଏ ଅଲଗା ସ୍ୱରରେ କଥା କୁହେ, କଣ ଆପଣ ତଥାପି ମୋ ସ୍ୱର ଚାହାଁନ୍ତି?
+faq-why-different-speakers-q = ଆପଣ କାହିଁକି ଗୋଟିଏ ଭାଷାକୁ ଅଲଗା ଅଲଗା ସ୍ୱରରେ କହୁଥିବା ସ୍ୱେଚ୍ଛାସେବୀ ଚାହାଁନ୍ତି?
+faq-why-my-lang-q = ମୋର ଭାଷା କାହିଁକି ବର୍ତ୍ତମାନ ସୁଦ୍ଧା ଯୋଗ କରାଯାଇନାହିଁ?
+faq-how-calc-hours-q = କମନ ଭଏସ କିଭଳି ଘଣ୍ଟା ଗଣନା କରିଥାଏ?
+faq-where-src-from-2-q = ସୂତ୍ର ବାକ୍ୟଟି କେଉଁଠାରୁ ଆସିଛି?
+faq-why-account-q = ମୁଁ କାହିଁକି ଖାତା ଖୋଲିବି?
+faq-is-account-public-q = କଣ ମୋର ଖାତା ସମ୍ପର୍କିତ ତଥ୍ୟ ସର୍ବସାଧାରଣରେ ଉପଲବ୍ଧ?
+faq-what-is-cv = କମନ ଭଏସ କଣ?
+faq-using-cv = କମନ ଭଏସ ବ୍ୟବହାର କରି
 faq-search-for-answers =
     .label = ଉତ୍ତରପାଇଁ ଖୋଜନ୍ତୁ
 
@@ -301,6 +329,18 @@ faq-search-for-answers =
 
 about-title = କାହିଁକି Common Voice?
 how-does-it-work-title = ଏହା କିଭଳି କାମ କରେ?
+about-speak = କୁହନ୍ତୁ
+about-listen-queue = ଶୁଣିବା-ଧାଡ଼ି
+about-listen = ଶୁଣନ୍ତୁ
+about-is-it-valid = କ୍ଲିପଟି ସଠିକ କି?
+about-yes-votes = ଦୁଇରୁ ଅଧିକ ସକାରାତ୍ମକ ମତ
+about-no-votes = ଦୁଇରୁ ଅଧିକ ନକାରାତ୍ମକ ମତ
+about-dataset = କମନ ଭଏସର ତଥ୍ୟ ଭଣ୍ଡାର
+about-clip-graveyard = କ୍ଲିପ ଶ୍ମଶାନ
+about-partners = ଯୋଡିଦାର
+about-become-a-partner = ଯୋଡିଦାର ହୁଅନ୍ତୁ
+about-get-involved = ଜଡ଼ିତ ହୁଅନ୍ତୁ
+about-nav-why-common-voice = କାହିଁକି?
 
 ## Glossary
 
@@ -328,7 +368,7 @@ review-cancel = ପଠାଇବା ନାକଚ
 review-keep-recordings = ରେକର୍ଡ଼ିଂଟି ରଖନ୍ତୁ
 review-delete-recordings = ମୋ ରେକ୍ଡ଼ିଂସବୁ ହଟାନ୍ତୁ
 
-## New Datasets Page
+## Datasets Page
 
 language = ଭାଷା
 # File size in gigabytes
