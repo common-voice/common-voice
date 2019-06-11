@@ -41,6 +41,7 @@
     "lodash.pick": "^4.4.0",
     "mkdirp": "^0.5.1",
     "mysql2": "^1.6.5",
+    "newrelic": "^5.9.1",
     "node-random-name": "^1.0.1",
     "passport": "^0.4.0",
     "passport-auth0": "^0.6.1",
