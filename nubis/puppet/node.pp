@@ -72,6 +72,7 @@ Group=${project_name}-data
 WorkingDirectory=/var/www/${project_name}
 
 Environment=HOME=/var/www/${project_name}
+EnvironmentFile=/var/www/${project_name}/newrelic.env
 
 # Ensure logfile has proper permissions
 PermissionsStartOnly=true
