@@ -321,6 +321,7 @@ skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszélj
 off = Ki
 on = Be
 add-avatar-title = Avatár hozzáadása a profiljához
+add-avatar-clip = Egy avatár klip hozzáadása a profiljához
 browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
 connect-gravatar = Kapcsolódás a Gravatarral
