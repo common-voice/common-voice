@@ -397,3 +397,4 @@ profile-form-delete = ପ୍ରଫାଇଲ ହଟାନ୍ତୁ
 
 ## Landing
 
+read-more-about = ଆମ ସମ୍ପର୍କିତ ପୃଷ୍ଠାରେ ଅଧିକ ପଢନ୍ତୁ
