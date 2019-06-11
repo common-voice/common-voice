@@ -311,6 +311,7 @@ skip-submission-note = Lưu ý: Bạn vẫn cần chọn giữa Nói hoặc Nghe
 off = Tắt
 on = Bật
 add-avatar-title = Thêm ảnh đại diện cho hồ sơ của bạn
+add-avatar-clip = Thêm một clip đại diện vào hồ sơ của bạn
 browse-file-title = Tải lên hình ảnh
 browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
 connect-gravatar = Kết nối với Gravatar
@@ -477,7 +478,7 @@ review-cancel = Hủy gửi
 review-keep-recordings = Giữ bản ghi âm
 review-delete-recordings = Xóa bản ghi âm của tôi
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Chúng tôi đã xây dựng một bộ dữ liệu giọng nói đa ngôn ngữ mã nguồn mở mà bất kỳ ai cũng có thể sử dụng để huấn luyện các ứng dụng hỗ trợ giọng nói.
 datasets-positioning =
