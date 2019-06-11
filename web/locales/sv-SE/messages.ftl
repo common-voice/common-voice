@@ -410,8 +410,6 @@ about-yes-votes = ≥ 2 Ja röster
 about-yes-votes-text = För att göra det i Common Voice-datamängd måste ett röstklipp valideras av två separata användare.
 about-no-votes = ≥ 2 Nej röster
 about-no-votes-text = När en användare avvisar ett röstklipp återgår det till kön. Om det avvisas för andra gången flyttas röstklippet till klippkyrkogården.
-about-dataset = Common Voice-datamängd
-about-dataset-text = När en användare avvisar ett röstklipp återgår det till kön. Om det avvisas för andra gången flyttas röstklippet till klippkyrkogården.
 about-clip-graveyard = Klippkyrkogården
 about-clip-graveyard-text = Klippkyrkogården består av röstklipp som inte platsar i Common Voice-datamängd. Precis som datamängden är klippkyrkogården tillgänglig för nedladdning.
 about-partners = Partners
@@ -485,7 +483,7 @@ review-cancel = Avbryt inskickning
 review-keep-recordings = Behåll inspelningarna
 review-delete-recordings = Ta bort mina inspelningar
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Vi skapar en flerspråkig röstinspelning med öppen källkod som alla kan använda för att träna röstbaserade applikationer.
 datasets-positioning =
@@ -537,6 +535,7 @@ ready-to-validate = Är du redo för att hjälpa till att validera meningar?
 more = Mer
 close = Stäng
 download = Hämta
+dataset-version = Version
 
 ## Download Modal
 
