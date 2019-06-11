@@ -218,6 +218,22 @@ export default class API {
     }).then(body => JSON.parse(body));
   }
 
+  saveAvatarClip(blob: Blob): Promise<void> {
+    return this.fetch(API_PATH + '/user_client/avatar_clip', {
+      method: 'POST',
+      headers: {
+        'Content-Type': blob.type,
+      },
+      body: blob,
+    })
+      .then(body => body)
+      .catch(err => err);
+  }
+
+  fetchAvatarClip() {
+    return this.fetch(API_PATH + '/user_client/avatar_clip');
+  }
+
   fetchLeaderboard(type: 'clip' | 'vote', cursor?: [number, number]) {
     return this.fetch(
       this.getClipPath() +

@@ -61,4 +61,8 @@ export default class Bucket {
       return [];
     }
   }
+
+  async getAvatarClipsUrl(path: string) {
+    return await this.getPublicUrl(path);
+  }
 }

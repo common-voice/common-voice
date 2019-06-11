@@ -11,7 +11,16 @@ import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
-import { CheckIcon, LinkIcon } from '../../../ui/icons';
+import {
+  CheckIcon,
+  LinkIcon,
+  MicIcon,
+  StopIcon,
+  PlayIcon,
+} from '../../../ui/icons';
+import AudioIOS from '../../contribution/speak/audio-ios';
+import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
+import { isFirefoxFocus, isNativeIOS, isProduction } from '../../../../utility';
 
 import './avatar-setup.css';
 
@@ -84,7 +93,31 @@ interface PropsFromDispatch {
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 class AvatarSetup extends React.Component<Props> {
-  state = { isSaving: false };
+  state = { isSaving: false, recordingStatus: false };
+
+  audio: AudioWeb | AudioIOS;
+  isUnsupportedPlatform = false;
+  maxVolume = 0;
+  recordingStartTime = 0;
+  recordingStopTime = 0;
+
+  async componentDidMount() {
+    this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
+    this.audio.setVolumeCallback(this.updateVolume.bind(this));
+
+    if (
+      !this.audio.isMicrophoneSupported() ||
+      !this.audio.isAudioRecordingSupported() ||
+      isFirefoxFocus()
+    ) {
+      this.isUnsupportedPlatform = true;
+    }
+  }
+
+  async componentWillUnmount() {
+    if (!this.state.recordingStatus) return;
+    await this.audio.stop();
+  }
 
   async saveFileAvatar(files: FileList) {
     const { addNotification, api, getString, locale, refreshUser } = this.props;
@@ -99,6 +132,86 @@ class AvatarSetup extends React.Component<Props> {
     this.setState({ isSaving: false });
   }
 
+  private updateVolume = (volume: number) => {
+    if (volume !== 100 && volume > this.maxVolume) {
+      this.maxVolume = volume;
+    }
+  };
+
+  private playAvatarClip = async () => {
+    const { api } = this.props;
+    let url = await api.fetchAvatarClip();
+    const audio = new Audio(url);
+    audio.play();
+  };
+
+  private handleRecordClick = async () => {
+    if (this.state.recordingStatus) {
+      this.saveRecording();
+      return;
+    }
+
+    try {
+      await this.audio.init();
+      await this.startRecording();
+
+      const clipTime = 5000;
+      setTimeout(async () => {
+        this.saveRecording();
+      }, clipTime);
+    } catch (err) {
+      if (err in AudioError) {
+        this.setState({ error: err });
+      } else {
+        throw err;
+      }
+    }
+  };
+
+  private startRecording = async () => {
+    await this.audio.start();
+    this.maxVolume = 0;
+    this.recordingStartTime = Date.now();
+    this.recordingStopTime = 0;
+    this.setState({
+      // showSubmitSuccess: false,
+      recordingStatus: true,
+      error: null,
+    });
+  };
+
+  private saveRecording = () => {
+    const RECORD_STOP_DELAY = 500;
+    setTimeout(async () => {
+      const info = await this.audio.stop();
+      this.uploadAvatarClip(info.blob);
+    }, RECORD_STOP_DELAY);
+    this.recordingStopTime = Date.now();
+    this.setState({
+      recordingStatus: false,
+    });
+  };
+
+  async uploadAvatarClip(blob: Blob) {
+    const { api, refreshUser, addNotification } = this.props;
+    await api
+      .saveAvatarClip(blob)
+      .then(data => {
+        addNotification(
+          <React.Fragment>
+            <CheckIcon />{' '}
+            <Localized id="clips-uploaded">
+              <span />
+            </Localized>
+          </React.Fragment>
+        );
+      })
+      .catch(err => {
+        confirm('Upload of this avatar clip keeps failing, keep retrying?');
+      });
+    refreshUser();
+  }
+
   render() {
     const {
       addNotification,
@@ -107,6 +220,7 @@ class AvatarSetup extends React.Component<Props> {
       refreshUser,
       user: { account },
     } = this.props;
+    const { recordingStatus } = this.state;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
@@ -145,6 +259,25 @@ class AvatarSetup extends React.Component<Props> {
           </label>
         </div>
 
+        <div style={{ display: isProduction() ? 'none' : 'block' }}>
+          <Localized id="add-avatar-clip">
+            <h2 />
+          </Localized>
+          <div className="file-upload">
+            <button
+              className="connect"
+              type="button"
+              onClick={this.handleRecordClick}>
+              {recordingStatus == true ? <StopIcon /> : <MicIcon />}
+            </button>
+            <button
+              className="connect"
+              type="button"
+              onClick={this.playAvatarClip}>
+              <PlayIcon />
+            </button>
+          </div>
+        </div>
         <button
           className="connect"
           type="button"
