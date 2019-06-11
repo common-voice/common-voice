@@ -9,11 +9,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['My Application'],
+  app_name: [],
   /**
    * Your New Relic license key.
    */
-  license_key: 'license key here',
+  license_key: '',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
@@ -21,6 +21,13 @@ exports.config = {
      * production applications.
      */
     level: 'info',
+  },
+  transaction_tracer: {
+    enabled: true,
+    record_sql: 'raw',
+  },
+  slow_sql: {
+    enabled: true,
   },
   /**
    * When true, all request headers except for those listed in attributes.exclude
