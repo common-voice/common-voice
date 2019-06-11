@@ -394,7 +394,6 @@ about-yes-votes = ≥ 2 glasova Da
 about-yes-votes-text = Glasovni posnetek mora biti potrjen s strani dveh različnih uporabnikov, preden je uvrščen v nabor podatkov Common Voice.
 about-no-votes = ≥ 2 glasova Ne
 about-no-votes-text = Ko uporabnik zavrne glasovni posnetek, se ta vrne v čakalno vrsto. Če je zavrnjen drugič, se glasovni posnetek premakne v pokopališče posnetkov.
-about-dataset = Nabor podatkov Common Voice
 about-clip-graveyard = Pokopališče posnetkov
 about-partners = Partnerji
 about-become-a-partner = Postanite partner
@@ -457,7 +456,7 @@ review-cancel = Prekliči pošiljanje
 review-keep-recordings = Ohrani posnetke
 review-delete-recordings = Izbriši moje posnetke
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Gradimo odprtokodni, večjezični nabor podatkov glasov, ki ga lahko vsakdo uporablja za izboljšanje aplikacij za prepoznavanje govora.
 datasets-positioning =
@@ -509,6 +508,7 @@ ready-to-validate = Ste pripravljeni pomagati potrjevati stavke?
 more = Več
 close = Zapri
 download = Prenesi
+dataset-version = Različica
 
 ## Download Modal
 
@@ -664,3 +664,7 @@ why-delete-recordings =
     
     Bi nam bili pripravljeni povedati, zakaj želite izbrisati svoje posnetke?
 profile-form-delete = Izbriši profil
+
+## Landing
+
+profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
