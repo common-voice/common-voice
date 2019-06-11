@@ -335,25 +335,37 @@ about-listen = ଶୁଣନ୍ତୁ
 about-is-it-valid = କ୍ଲିପଟି ସଠିକ କି?
 about-yes-votes = ଦୁଇରୁ ଅଧିକ ସକାରାତ୍ମକ ମତ
 about-no-votes = ଦୁଇରୁ ଅଧିକ ନକାରାତ୍ମକ ମତ
-about-dataset = କମନ ଭଏସର ତଥ୍ୟ ଭଣ୍ଡାର
+about-dataset-new = କମନ ଭଏସ ତଥ୍ୟଭଣ୍ଡାର
 about-clip-graveyard = କ୍ଲିପ ଶ୍ମଶାନ
 about-partners = ଯୋଡିଦାର
 about-become-a-partner = ଯୋଡିଦାର ହୁଅନ୍ତୁ
 about-get-involved = ଜଡ଼ିତ ହୁଅନ୍ତୁ
 about-nav-why-common-voice = କାହିଁକି?
+about-nav-how-it-works = କେମିତି?
+about-nav-partners = ସହଯୋଗୀଗଣ
+about-nav-get-involved = ଜଡ଼ିତ ହୁଅନ୍ତୁ
+mycroft-title = ମାଇକ୍ରଫ୍ଟ ଆଇ
+mycroft-subtitle = କୁତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା
 
 ## Glossary
 
+glossary = ଗ୍ଳୋସାରି
+localization = ସ୍ଥାନୀୟକରଣ
+sentence-collection = ବାକ୍ୟ ସଂଗ୍ରହ
 
 ## NotFound
 
 notfound-title = ମିଳିଲା ନାହିଁ
+notfound-content = କ୍ଷମା କରିବେ, ଆପଣ ଯାହା ଖୋଜୁଛନ୍ତି ତାହା ମୁଁ ଜାଣିନାହିଁ ।
 
 ## Data
 
+data-download-button = କମନ ଭଏସ ତଥ୍ୟ ଡାଉନଲୋଡ କରନ୍ତୁ
 data-download-yes = ହଁ
 data-download-deny = ନାଁ
 data-download-license = ଲାଇସେନ୍ସ: <licenseLink>CC-0</licenseLink>
+data-download-modal = ଆପଣ <size>{ $size } GB </size> ଆକାରର ଏକ ଡାଉନଲୋଡ଼ କରିବାକୁ ଯାଉଛନ୍ତି, ଆଗେଇବେ?
+data-other-title = ଅନ୍ୟାନ୍ୟ ଭଏସ ତଥ୍ୟଭଣ୍ଡାର
 data-other-goto = { $name }କୁ ଯାଆନ୍ତୁ
 data-other-download = ଡାଟା ଡାଉନଲୋଡ଼ କରନ୍ତୁ
 data-bundle-button = ଡାଟାସେଟସମୂହ ଡାଉନଲୋଡ଼ କରନ୍ତୁ
@@ -373,8 +385,25 @@ review-delete-recordings = ମୋ ରେକ୍ଡ଼ିଂସବୁ ହଟାନ
 language = ଭାଷା
 # File size in gigabytes
 size = ଆକାର
+cv-license = ଲାଇସେନ୍ସ
+audio-format = ଅଡିଓ ଫର୍ମାଟ
+number-of-voices = ସ୍ୱର ସଂଖ୍ୟା
+splits = ବଣ୍ଟନ
+email-to-download = ଡାଉନଲୋଡ଼ କରିବାକୁ ଇମେଲ ଲେଖନ୍ତୁ
+size-gigabyte = GB
+size-megabyte = MB
+download-language = { $language } ଡାଲଦ କରନ୍ତୁ
+validated-hours = ଯାଞ୍ଚ ସାରିଥିବ ଘଣ୍ଟାଗୁଡ଼ିକ
+recorded-hours = ରେକର୍ଡ ହେଇଥିବା ଘଣ୍ଟା
+subscribe = ସବସକ୍ରାଇବ
+other-datasets = ଅନ୍ୟ ଭଏସ ତଥ୍ୟଭଣ୍ଡାର
+feedback-q = ମତାମତ ଅଛି କି?
+go-discourse = ଡିସ୍କୋର୍ସକୁ ଯାଆନ୍ତୁ
+go-languages-page = ଭାଷା ପୃଷ୍ଠାକୁ ଯାଆନ୍ତୁ
 more = ଅଧିକ
 close = ବନ୍ଦକରନ୍ତୁ
+download = ଡାଉନଲୋଡ଼
+dataset-version = ଭର୍ସନ
 
 ## Download Modal
 
@@ -398,6 +427,8 @@ contact-required = *ଦରକାରୀ
 request-language-title = ଭାଷା ଅନୁରୋଧ
 request-language-form-language =
     .label = ଭାଷା
+select-language = ଗୋଟିଏ ଭାଷା ଚୟନ କରନ୍ତୁ
+other-language = ଅନ୍ୟାନ୍ୟ ଭାଷା
 
 ## Languages Overview
 
