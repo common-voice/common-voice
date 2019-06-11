@@ -354,7 +354,7 @@ faq-search-for-answers =
 
 about-title = Изаҭахузеи Common Voice?
 about-speak = Уцәажәа
-about-listen-queue = Азыӡырҩра-Аишьҭагыла
+about-listen-queue = Азыӡырҩра-Араанра
 about-listen = Уазыӡырҩы
 about-is-it-valid = Ари анҵамҭа ииашаҵәҟьоума?
 about-yes-votes = ≥ 2 Ааи ралхра
