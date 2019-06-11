@@ -315,6 +315,7 @@ skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad fer
 off = Sens
 on = Rmed
 add-avatar-title = Rnu avataṛ i umiḍan-ik/im
+add-avatar-clip = Rnu avaṭar n usekles i umaɣnu-ik
 browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
@@ -478,7 +479,7 @@ review-cancel = Sefsex tuzna
 review-keep-recordings = Eǧǧ ikalasen
 review-delete-recordings = Kkes ikalasen-iw
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Nesnulfuy-d tagrumma n yisefka n taɣect n uɣbalu yeldin, deg ddeqs n tutlayin i zemren ad sqedcen yimdanen meṛṛa i usluɣmu deg yisnasen yesseqdacen taɣect.
 datasets-positioning =
