@@ -315,6 +315,7 @@ skip-submission-note = Nota: você ainda precisará escolher entre Falar ou Ouvi
 off = Desligar
 on = Ligar
 add-avatar-title = Adicione um avatar ao seu perfil
+add-avatar-clip = Adicionar um clipe de avatar ao seu perfil
 browse-file-title = Enviar um arquivo de imagem
 browse-file = Arraste e solte, ou <browseWrap>selecione</browseWrap>
 connect-gravatar = Conectar com Gravatar
@@ -406,8 +407,7 @@ about-yes-votes = ≥ 2 votos Sim
 about-yes-votes-text = Para entrar no conjunto de dados do Common Voice, um clipe de voz precisa ser validado por dois diferentes usuários.
 about-no-votes = ≥ 2 votos Não
 about-no-votes-text = Quando um usuário rejeita um clipe de voz, este volta para a fila. Se for rejeitado uma segunda vez, o clipe de voz é movido para o cemitério de clipes.
-about-dataset = Conjunto de dados do Common Voice
-about-dataset-text = Quando um usuário rejeita um clipe de voz, este volta para a fila. Se for rejeitado uma segunda vez, o clipe de voz é movido para o cemitério de clipes.
+about-dataset-new = Conjunto de dados do Common Voice
 about-clip-graveyard = Cemitério de clipes
 about-clip-graveyard-text = O cemitério de clipes consiste de clipes de voz que não entraram no conjunto de dados do Common Voice. Assim como o conjunto de dados, o cemitério de clipes está disponível para ser baixado.
 about-partners = Parceiros
@@ -481,7 +481,7 @@ review-cancel = Cancelar envio
 review-keep-recordings = Manter as gravações
 review-delete-recordings = Excluir minhas gravações
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Estamos construindo um conjunto de dados de voz multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
 datasets-positioning =
@@ -533,6 +533,7 @@ ready-to-validate = Pronto para ajudar a validar frases?
 more = Mais
 close = Fechar
 download = Baixar
+dataset-version = Versão
 
 ## Download Modal
 
