@@ -28,13 +28,13 @@ import './listen.css';
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
 const VoteButton = ({
-  type,
+  kind,
   ...props
-}: { type: 'yes' | 'no' } & React.ButtonHTMLAttributes<any>) => (
-  <button type="button" className={['vote-button', type].join(' ')} {...props}>
-    {type === 'yes' && <ThumbsUpIcon />}
-    {type === 'no' && <ThumbsDownIcon />}
-    <Localized id={'vote-' + type}>
+}: { kind: 'yes' | 'no' } & React.ButtonHTMLAttributes<any>) => (
+  <button type="button" className={['vote-button', kind].join(' ')} {...props}>
+    {kind === 'yes' && <ThumbsUpIcon />}
+    {kind === 'no' && <ThumbsDownIcon />}
+    <Localized id={'vote-' + kind}>
       <span />
     </Localized>
   </button>
@@ -191,7 +191,7 @@ class ListenPage extends React.Component<Props, State> {
     return (
       <React.Fragment>
         <audio
-          {...activeClip && { src: activeClip.audioSrc }}
+          {...(activeClip && { src: activeClip.audioSrc })}
           preload="auto"
           onEnded={this.hasPlayed}
           ref={this.audioRef}
@@ -246,13 +246,13 @@ class ListenPage extends React.Component<Props, State> {
           primaryButtons={
             <React.Fragment>
               <VoteButton
-                type="yes"
+                kind="yes"
                 onClick={this.voteYes}
                 disabled={!hasPlayed}
               />
               <PlayButton isPlaying={isPlaying} onClick={this.play} />
               <VoteButton
-                type="no"
+                kind="no"
                 onClick={this.voteNo}
                 disabled={!hasPlayed && !hasPlayedSome}
               />
@@ -320,7 +320,7 @@ const mapDispatchToProps = {
   vote: Clips.actions.vote,
 };
 
-export default connect<PropsFromState, PropsFromDispatch>(
+export default connect<PropsFromState, any>(
   mapStateToProps,
   mapDispatchToProps
 )(ListenPage);

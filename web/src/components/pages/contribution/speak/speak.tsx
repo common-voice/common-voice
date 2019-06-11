@@ -626,7 +626,7 @@ const mapDispatchToProps = {
 export default withRouter(
   localeConnector(
     withLocalization(
-      connect<PropsFromState, PropsFromDispatch>(
+      connect<PropsFromState, any>(
         mapStateToProps,
         mapDispatchToProps
       )(SpeakPage)

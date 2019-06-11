@@ -163,7 +163,7 @@ const mapDispatchToProps = {
   updateUser: User.actions.update,
 };
 
-export default connect<PropsFromState, PropsFromDispatch>(
+export default connect<PropsFromState, any>(
   mapStateToProps,
   mapDispatchToProps
-)(GetInvolvedModal);
+)(GetInvolvedModal) as any;

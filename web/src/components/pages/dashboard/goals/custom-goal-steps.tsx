@@ -28,13 +28,13 @@ const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
 );
 
 const ArrowButton = (props: React.HTMLProps<HTMLButtonElement>) => (
-  <button className="arrow-button" type="button" {...props}>
+  <button className="arrow-button" type={'button' as any} {...props}>
     <ArrowLeft />
   </button>
 );
 
 const CloseButton = (props: React.HTMLProps<HTMLButtonElement>) => (
-  <button type="button" className="close-button" {...props}>
+  <button type={'button' as any} className="close-button" {...props}>
     <CrossIcon />
   </button>
 );
@@ -270,8 +270,7 @@ export default [
                   listen: 'Listening',
                   both: 'Speaking and Listening',
                 } as any)[state.type]
-              }`
-            }
+              }`}
             shareText="I just created a personal goal for voice donation to #CommonVoice -- join me and help teach machines how real people speak {link}"
             onRequestClose={() => {
               setShowShareModal(false);

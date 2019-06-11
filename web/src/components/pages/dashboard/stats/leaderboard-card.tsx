@@ -35,7 +35,7 @@ interface Props extends LocalizationProps, PropsFromState {
 
 const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
   <li className="more">
-    <button {...props}>
+    <button {...(props as any)}>
       <div>...</div>
     </button>
   </li>

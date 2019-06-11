@@ -51,7 +51,7 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
-  saveAccount: typeof User.actions.saveAccount;
+  saveAccount: any;
 }
 
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}

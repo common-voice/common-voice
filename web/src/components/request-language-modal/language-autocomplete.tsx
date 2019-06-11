@@ -119,7 +119,7 @@ const mapDispatchToProps = {
   fetchRequestedLanguages: RequestedLanguages.actions.fetch,
 };
 
-export default connect<PropsFromState, PropsFromDispatch>(
+export default connect<PropsFromState, any>(
   mapStateToProps,
   mapDispatchToProps
 )(LanguageAutocomplete) as any;

@@ -404,7 +404,7 @@ class ProfilePage extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState, PropsFromDispatch>(
+export default connect<PropsFromState, any>(
   ({ api, locale, user }: StateTree) => ({
     api,
     locale,

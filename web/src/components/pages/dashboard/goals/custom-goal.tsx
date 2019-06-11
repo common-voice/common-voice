@@ -323,10 +323,10 @@ function CustomGoal({
   );
 }
 
-export default connect<PropsFromState, PropsFromDispatch>(
+export default connect<PropsFromState, any>(
   ({ api, user }: StateTree) => ({
     account: user.account,
     api,
   }),
   { refreshUser: User.actions.refresh }
-)(CustomGoal);
+)(CustomGoal) as any;

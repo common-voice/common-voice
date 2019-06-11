@@ -310,7 +310,7 @@ class AvatarSetup extends React.Component<Props> {
   }
 }
 
-export default connect<PropsFromState, PropsFromDispatch>(
+export default connect<PropsFromState, any>(
   ({ api, locale, user }: StateTree) => ({ api, locale, user }),
   {
     addNotification: Notifications.actions.addPill,

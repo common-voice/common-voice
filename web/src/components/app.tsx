@@ -258,7 +258,7 @@ let LocalizedPage: any = class extends React.Component<
               {[
                 { route: URLS.SPEAK, Component: SpeakPage },
                 { route: URLS.LISTEN, Component: ListenPage },
-              ].map(({ route, Component }) => (
+              ].map(({ route, Component }: any) => (
                 <Route
                   key={route}
                   exact

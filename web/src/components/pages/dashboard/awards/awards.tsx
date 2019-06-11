@@ -114,7 +114,7 @@ function AwardsPage({ account, api, refreshUser }: Props) {
   );
 }
 
-export default connect<PropsFromState, PropsFromDispatch>(
+export default connect<PropsFromState, any>(
   ({ api, user }: StateTree) => ({
     account: user.account,
     api,
