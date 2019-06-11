@@ -102,7 +102,7 @@ const FLOWCHART: any[] = [
     [
       '6.1',
       'brain.png',
-      'about-dataset',
+      'about-dataset-new',
       {
         className: 'inside-fork',
         children: (
