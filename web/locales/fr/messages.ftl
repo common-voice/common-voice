@@ -405,7 +405,7 @@ about-yes-votes = ≥ 2 votes OUI
 about-yes-votes-text = Pour faire partie du jeu de données Common Voice, un échantillon vocal doit être validé par deux personnes distinctes.
 about-no-votes = ≥ 2 votes NON
 about-no-votes-text = Si une personne invalide un échantillon vocal, celui-ci retourne dans la file d’attente. S’il est rejeté une seconde fois, l’échantillon vocal est déplacé vers le cimetière des échantillons.
-about-dataset = Jeu de données Common Voice
+about-dataset-new-text = Le jeu de données Common Voice contient des centaines de milliers d’échantillons vocaux pour aider les développeurs à créer des applications vocales.
 about-clip-graveyard = Cimetière des échantillons
 about-clip-graveyard-text = Le cimetière des échantillons est constitué d’échantillons qui n’ont pas été admis à faire partie du jeu de données Common Voice. Tout comme ce dernier, le cimetière des échantillons est disponible au téléchargement.
 about-partners = Partenaires
@@ -479,7 +479,7 @@ review-cancel = Annuler l’envoi
 review-keep-recordings = Conserver les enregistrements
 review-delete-recordings = Supprimer les enregistrements
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Nous créons un jeu de données vocales open source et multilingue que tout le monde peut utiliser pour entraîner des applications utilisant la voix.
 datasets-positioning =
