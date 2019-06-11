@@ -323,6 +323,7 @@ skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wub
 off = Wupinjeny
 on = Zapinjeny
 add-avatar-title = Přidajće wašemu profilej awatar
+add-avatar-clip = Přidajće wašemu profilej awatarowy klip
 browse-file-title = Wobrazowu dataju nahrać
 browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
 connect-gravatar = Z gravatarom zwjazać
@@ -402,7 +403,7 @@ about-is-it-valid = Je klip płaćiwy?
 about-is-it-valid-text = Hłosowy klip so jako „płaćiwy markěruje, hdyž wužiwar jemu hajhłós da.
 about-yes-votes = ≥ 2 hajhłosaj
 about-no-votes = ≥ 2 něhłosaj
-about-dataset = Datowa sadźba Common Voice
+about-dataset-new = Datowa sadźba Common Voice
 about-clip-graveyard = Klipowy kěrchow
 about-partners = Partnerojo
 about-become-a-partner = Budźće partner
@@ -462,7 +463,7 @@ review-cancel = Wotpósłanje přetorhnyć
 review-keep-recordings = Natočenja wobchować
 review-delete-recordings = Natočenja zhašeć
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Tworimy wjacerěčnu datowu sadźbu hłosow wotewrjeneho žórła, kotruž móže kóždy wužiwać, zo by rěčenske nałoženja trenował.
 datasets-positioning =
@@ -514,6 +515,7 @@ ready-to-validate = Sće hotowy nam pomhać, sady přepruwować?
 more = Wjace
 close = Začinić
 download = Sćahnyć
+dataset-version = Wersija
 
 ## Download Modal
 
