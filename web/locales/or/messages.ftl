@@ -53,6 +53,7 @@ hsb = ଉପର ସର୍ବିଆନ
 hu = ହଙ୍ଗାରିଆନ
 ia = ଇଣ୍ଟରଲିଙ୍ଗୁଆ
 id = ଇଣ୍ଡୋନେସିଆନ
+is = ଆଇସଲାଣ୍ଡୀୟ
 it = ଇଟାଲୀୟ
 izh = ଇଝୋରିଆନ
 ja = ଜାପାନୀ
@@ -137,9 +138,18 @@ home-cta = କହନ୍ତୁ, ଏଠାରେ ଅଂଶଗ୍ରହଣ କର�
 show-wall-of-text = ଅଧିକ ପଢ଼ନ୍ତୁ
 vote-yes = ହଁ
 vote-no = ନାଁ
+speak-subtitle = ଆପଣଙ୍କ ଭାଷା ଦିଅନ୍ତୁ
+todays-progress = ଆଜିର ଅଗ୍ରଗତି
+today = ଆଜି
+x-weeks-short =
+    { $count ->
+        [one] ଗୋଟିଏ (ଯଥା ୧)
+       *[other] ଅନ୍ୟକିଛି (ଯଥା ୨)
+    }
 
 ## Account Benefits
 
+benefits = ଲାଭ
 
 ## What's public
 
@@ -168,6 +178,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = ରେକର୍ଡ଼/ବନ୍ଦ
+shortcut-rerecord-toggle = [୧-୫]
 request-language-text = Common Voiceରେ ଏଯାଏ ନିଜ ଭାଷା ପାଉନାହାନ୍ତି?
 request-language-button = ଭାଷାଟିଏ ପାଇଁ ଅନୁରୋଧ କରନ୍ତୁ
 
@@ -189,12 +200,16 @@ english = ଇଂରାଜୀ
 
 profile-form-username =
     .label = ବ୍ୟବହାରକାରୀ ନାମ
+profile-form-native-language =
+    .label = ମାତୃଭାଷା
 profile-form-accent =
     .label = ଉଚ୍ଚାରଣ
 profile-form-age =
     .label = ବୟସ
 profile-form-gender =
     .label = ଲିଙ୍ଗ
+native-language =
+    .label = ମାତୃଭାଷା
 profile-form-submit-save = ସାଇତିବେ
 profile-form-submit-saved = ସାଇତାଗଲା
 male = ପୁରୁଷ
@@ -206,10 +221,14 @@ why-profile-text = ନିଜ ବିଷୟରେ କିଛି ତଥ୍ୟ ଦେ
 edit-profile = ପ୍ରୋଫାଇଲ ସମ୍ପାଦନା
 profile-create-success = ପ୍ରୋଫାଇଲଟି ସଫଳ ଭାବେ ଗଢ଼ାଗଲା!
 profile-close = ବନ୍ଦକରନ୍ତୁ
+add-language = ଭାଷା ଯୋଡ଼ନ୍ତୁ
 
 ## FAQ
 
 faq-title = ଅଧିକ ପଚରାଯାଉଥିବା ପ୍ରଶ୍ନ
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -239,6 +258,11 @@ review-delete-recordings = ମୋ ରେକ୍ଡ଼ିଂସବୁ ହଟାନ
 
 ## New Datasets Page
 
+language = ଭାଷା
+# File size in gigabytes
+size = ଆକାର
+more = ଅଧିକ
+close = ବନ୍ଦକରନ୍ତୁ
 
 ## Download Modal
 
@@ -250,7 +274,7 @@ download-no = ନାଁ ଥାଉ
 
 ## Contact Modal
 
-contact-title = ଯୋଗାଯୋଗ ଆବେଦନ
+contact-title = ଯୋଗାଯୋଗ ଫର୍ମ
 contact-form-name =
     .label = ନାମ
 contact-form-message =
@@ -275,6 +299,7 @@ language-total-progress = ମୋଟ
 language-search-input =
     .placeholder = ଖୋଜନ୍ତୁ
 language-speakers = ବକ୍ତା
+sentences = ଧାଡ଼ିଗୁଡ଼ିକ
 
 ## New Contribution
 
@@ -317,7 +342,13 @@ share-title-new = ଅଧିକ ସ୍ୱର ପାଇବା ପାଇଁ ଆମ�
 
 ## Dashboard
 
+you = ଆପଣ
+everyone = ସମସ୍ତେ
 
 ## Profile Delete
 
+keep = ରଖନ୍ତୁ
 profile-form-delete = ପ୍ରଫାଇଲ ହଟାନ୍ତୁ
+
+## Landing
+
