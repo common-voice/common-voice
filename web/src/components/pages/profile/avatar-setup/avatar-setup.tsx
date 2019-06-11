@@ -20,7 +20,7 @@ import {
 } from '../../../ui/icons';
 import AudioIOS from '../../contribution/speak/audio-ios';
 import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
-import { isFirefoxFocus, isNativeIOS } from '../../../../utility';
+import { isFirefoxFocus, isNativeIOS, isProduction } from '../../../../utility';
 
 import './avatar-setup.css';
 
@@ -259,22 +259,24 @@ class AvatarSetup extends React.Component<Props> {
           </label>
         </div>
 
-        <Localized id="add-avatar-clip">
-          <h2 />
-        </Localized>
-        <div className="file-upload">
-          <button
-            className="connect"
-            type="button"
-            onClick={this.handleRecordClick}>
-            {recordingStatus == true ? <StopIcon /> : <MicIcon />}
-          </button>
-          <button
-            className="connect"
-            type="button"
-            onClick={this.playAvatarClip}>
-            <PlayIcon />
-          </button>
+        <div style={{ display: isProduction() ? 'none' : 'block' }}>
+          <Localized id="add-avatar-clip">
+            <h2 />
+          </Localized>
+          <div className="file-upload">
+            <button
+              className="connect"
+              type="button"
+              onClick={this.handleRecordClick}>
+              {recordingStatus == true ? <StopIcon /> : <MicIcon />}
+            </button>
+            <button
+              className="connect"
+              type="button"
+              onClick={this.playAvatarClip}>
+              <PlayIcon />
+            </button>
+          </div>
         </div>
         <button
           className="connect"

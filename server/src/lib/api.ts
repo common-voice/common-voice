@@ -95,8 +95,8 @@ export default class API {
       bodyParser.raw({ type: 'image/*' }),
       this.saveAvatar
     );
-    router.post('/user_client/avatarclip', this.saveAvatarClip);
-    router.get('/user_client/avatarclip', this.getAvatarClip);
+    router.post('/user_client/avatar_clip', this.saveAvatarClip);
+    router.get('/user_client/avatar_clip', this.getAvatarClip);
     router.post('/user_client/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/:locale/goals', this.getGoals);
