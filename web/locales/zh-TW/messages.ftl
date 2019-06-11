@@ -313,6 +313,7 @@ skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢�
 off = 關
 on = 開
 add-avatar-title = 在您的個人資料中加入大頭照
+add-avatar-clip = 為您的資料頁加入大頭照
 browse-file-title = 上傳圖片
 browse-file = 拖曳至此處，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
