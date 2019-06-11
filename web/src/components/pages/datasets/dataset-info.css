@@ -166,6 +166,10 @@
                 font-weight: 600;
             }
 
+            & .version {
+                white-space: pre;
+            }
+
             & .splits {
                 margin-bottom: 10px;
 

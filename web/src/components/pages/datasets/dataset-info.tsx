@@ -164,6 +164,7 @@ class DatasetInfo extends React.Component<Props, State> {
       megabytes > 1000
         ? Math.floor(megabytes / 1000) + ' ' + getString('size-gigabyte')
         : megabytes + ' ' + getString('size-megabyte');
+    const totalHours = msToHours(localeStats.duration);
     return (
       <div className="dataset-info">
         <div className="top">
@@ -207,10 +208,13 @@ class DatasetInfo extends React.Component<Props, State> {
               <ul className="facts">
                 {Object.entries({
                   size,
+                  'dataset-version': (
+                    <div className="version">
+                      {[locale, totalHours + 'h', stats.date].join('_')}
+                    </div>
+                  ),
                   'validated-hr-total': validHours[locale],
-                  'overall-hr-total': msToHours(
-                    localeStats.duration
-                  ).toLocaleString(),
+                  'overall-hr-total': totalHours.toLocaleString(),
                   'cv-license': 'CC-0',
                   'number-of-voices': localeStats.users.toLocaleString(),
                   'audio-format': 'MP3',

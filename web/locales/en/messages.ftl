@@ -501,7 +501,7 @@ review-cancel = Cancel Submission
 review-keep-recordings = Keep the recordings
 review-delete-recordings = Delete my recordings
 
-## New Datasets Page
+## Datasets Page
 datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 datasets-positioning =
     We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
@@ -552,6 +552,7 @@ ready-to-validate = Ready to help validate sentences?
 more = More
 close = Close
 download = Download
+dataset-version = Version
 
 ## Download Modal
 download-title = Your download has started.
