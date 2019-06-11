@@ -318,6 +318,7 @@ skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata o
 off = Av
 on = På
 add-avatar-title = Lägg till en avatar till din profil
+add-avatar-clip = Lägg till ett avatar-klipp till din profil
 browse-file-title = Ladda upp en bildfil
 browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
 connect-gravatar = Anslut med Gravatar
