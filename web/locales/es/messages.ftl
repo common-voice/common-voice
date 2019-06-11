@@ -315,6 +315,7 @@ skip-submission-note = Nota: Deberás seleccionar entre Hablar o Escuchar para c
 off = Desactivado
 on = Activado
 add-avatar-title = Añadir un avatar a tu perfil
+add-avatar-clip = Agregar un clip de avatar a tu perfil
 browse-file-title = Subir un archivo de imagen
 browse-file = Arrastra y suelta o <browseWrap>navega</browseWrap>
 connect-gravatar = Conectar con Gravatar
@@ -404,8 +405,8 @@ about-yes-votes = Más de dos votos positivos (Sí)
 about-yes-votes-text = Dos usuarios independientes tienen que aprobar una grabación de voz para que se almacene en la base de datos de Common Voice.
 about-no-votes = Más de dos votos negativos (No)
 about-no-votes-text = Cuando un usuario rechaza una grabación de voz, vuelve a la cola. Si se rechaza una segunda vez, la grabación de voz se traslada al cementerio de grabaciones.
-about-dataset = Base de datos de Common Voice
-about-dataset-text = La base de datos de Common Voice contiene cientos de miles de muestras de voz que ayudan a los desarrolladores a crear herramientas de reconocimiento de voz.
+about-dataset-new = Base de datos de Common Voice
+about-dataset-new-text = La base de datos de Common Voice incluye cientos de miles de ejemplos de voz que ayudan a los desarrolladores a crear herramientas de reconocimiento de voz.
 about-clip-graveyard = Cementerio de grabaciones
 about-clip-graveyard-text = El cementerio de grabaciones consiste en grabaciones de voz que no consiguieron acceder a la base de datos de Common Voice. Al igual que ocurre con la base de datos, el cementerio de grabaciones se encuentra disponible para descargar.
 about-partners = Socios
@@ -470,7 +471,7 @@ review-cancel = Cancelar envío
 review-keep-recordings = Mantener las grabaciones
 review-delete-recordings = Eliminar mis grabaciones
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Estamos creando una base de datos de voces, abierta y multi idioma, que cualquiera puede usar para entrenar aplicaciones que utilicen la voz como interfaz.
 datasets-positioning =
@@ -522,6 +523,7 @@ ready-to-validate = ¿Estás listo para validar frases?
 more = Más
 close = Cerrar
 download = Descargar
+dataset-version = Versión
 
 ## Download Modal
 
