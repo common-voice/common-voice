@@ -406,7 +406,6 @@ about-yes-votes-text = Pour faire partie du jeu de données Common Voice, un éc
 about-no-votes = ≥ 2 votes NON
 about-no-votes-text = Si une personne invalide un échantillon vocal, celui-ci retourne dans la file d’attente. S’il est rejeté une seconde fois, l’échantillon vocal est déplacé vers le cimetière des échantillons.
 about-dataset = Jeu de données Common Voice
-about-dataset-text = Si une personne invalide un échantillon vocal, celui-ci retourne dans la file d’attente. S’il est rejeté une seconde fois, l’échantillon vocal est déplacé vers le cimetière des échantillons.
 about-clip-graveyard = Cimetière des échantillons
 about-clip-graveyard-text = Le cimetière des échantillons est constitué d’échantillons qui n’ont pas été admis à faire partie du jeu de données Common Voice. Tout comme ce dernier, le cimetière des échantillons est disponible au téléchargement.
 about-partners = Partenaires
