@@ -407,8 +407,8 @@ about-yes-votes = ≥ 2 Ja-Stimmen
 about-yes-votes-text = Um in den Common-Voice-Datensatz aufgenommen zu werden, muss ein Sprach-Clip von zwei verschiedenen Benutzern geprüft werden.
 about-no-votes = ≥ 2 Nein-Stimmen
 about-no-votes-text = Wenn ein Benutzer einen Sprachclip ablehnt, kehrt er zur Warteschlange zurück. Wenn er ein zweites Mal abgelehnt wird, wird der Sprachclip in den Clip-Friedhof verschoben.
-about-dataset = Common-Voice-Datensatz
-about-dataset-text = Wenn ein Benutzer einen Sprachclip ablehnt, kehrt er zur Warteschlange zurück. Wenn er ein zweites Mal abgelehnt wird, wird der Sprachclip in den Clip-Friedhof verschoben.
+about-dataset-new = Common-Voice-Datensatz
+about-dataset-new-text = Der Common-Voice-Datensatz enthält Hunderttausende von Sprachmustern, mit denen Entwickler Werkzeuge zur Spracherkennung erstellen können.
 about-clip-graveyard = Clip-Friedhof
 about-clip-graveyard-text = Der Clip-Friedhof besteht aus Sprachclips, die nicht in den Common-Voice-Datensatz aufgenommen wurden. Der Clip-Friedhof steht wie der Datensatz zum Download zur Verfügung.
 about-partners = Partner
@@ -482,7 +482,7 @@ review-cancel = Absenden abbrechen
 review-keep-recordings = Aufnahmen behalten
 review-delete-recordings = Aufnahmen löschen
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Wir erstellen einen mehrsprachigen, quelloffenen Datensatz aus Stimmen, mit dem jeder sprachgestützte Anwendungen trainieren kann.
 datasets-positioning =
@@ -534,6 +534,7 @@ ready-to-validate = Sind Sie bereit, um Sätze zu bestätigen?
 more = Mehr
 close = Schließen
 download = Herunterladen
+dataset-version = Version
 
 ## Download Modal
 
