@@ -315,6 +315,7 @@ skip-submission-note = Hinweis: Sie müssen sich weiterhin zwischen »Sprechen«
 off = Aus
 on = An
 add-avatar-title = Fügen Sie Ihrem Profil ein Bild hinzu
+add-avatar-clip = Fügen Sie Ihrem Profil eine Avatar-Aufzeichnung hinzu
 browse-file-title = Grafikdatei hochladen
 browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
 connect-gravatar = Mit Gravatar verbinden
