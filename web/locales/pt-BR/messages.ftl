@@ -408,6 +408,7 @@ about-yes-votes-text = Para entrar no conjunto de dados do Common Voice, um clip
 about-no-votes = ≥ 2 votos Não
 about-no-votes-text = Quando um usuário rejeita um clipe de voz, este volta para a fila. Se for rejeitado uma segunda vez, o clipe de voz é movido para o cemitério de clipes.
 about-dataset-new = Conjunto de dados do Common Voice
+about-dataset-new-text = O conjunto de dados do Common Voice contém centenas de milhares de amostras de voz que ajudam os desenvolvedores a construir ferramentas de reconhecimento de voz.
 about-clip-graveyard = Cemitério de clipes
 about-clip-graveyard-text = O cemitério de clipes consiste de clipes de voz que não entraram no conjunto de dados do Common Voice. Assim como o conjunto de dados, o cemitério de clipes está disponível para ser baixado.
 about-partners = Parceiros
