@@ -406,8 +406,6 @@ about-yes-votes = ≥ 2 ja-stemmen
 about-yes-votes-text = Om opgenomen te worden in de Common Voice-gegevensset moet een fragment worden gevalideerd door twee afzonderlijke gebruikers.
 about-no-votes = ≥ 2 nee-stemmen
 about-no-votes-text = Wanneer een gebruiker een spraakfragment afwijst, keert deze terug naar de wachtrij. Bij een tweede afwijzing wordt het spraakfragment verplaatst naar het Fragmentenkerkhof.
-about-dataset = Common Voice-gegevensset
-about-dataset-text = Wanneer een gebruiker een spraakfragment afwijst, keert deze terug naar de wachtrij. Bij een tweede afwijzing wordt het spraakfragment verplaatst naar het Fragmentenkerkhof.
 about-clip-graveyard = Fragmentenkerkhof
 about-clip-graveyard-text = Het Fragmentenkerkhof bestaat uit stemfragmenten die de Common Voice-gegevensset niet hebben gehaald. Net als de gegevensset kan het Fragmentenkerkhof worden gedownload.
 about-partners = Partners
@@ -481,7 +479,7 @@ review-cancel = Inzending annuleren
 review-keep-recordings = Opnamen behouden
 review-delete-recordings = Mijn opnamen verwijderen
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = We bouwen een opensource, meertalige spraakgegevensset die iedereen kan gebruiken om spraaktoepassingen te trainen.
 datasets-positioning =
@@ -533,6 +531,7 @@ ready-to-validate = Klaar om zinnen te helpen valideren?
 more = Meer
 close = Sluiten
 download = Downloaden
+dataset-version = Versie
 
 ## Download Modal
 
