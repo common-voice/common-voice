@@ -350,9 +350,20 @@ faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
 faq-what-is-cv = Hvað er Samrómur?
 faq-using-cv = Notkunn Samróms
 faq-description = Samrómur er verkefni á vegum Mozilla sem gengur út á það að fkenna tölvum að skilja hvernig mannfólk talar.
+faq-search-for-answers =
+    .label = Leita af svörum
 
 ## ABOUT US
 
+about-title = Afhverju Samrómur?
+about-subtitle = Samrómur er þáttur í framtaki Mozilla til að hjálpa vélum að skilja hvernig alvöru fólk talar. Fyrir utan Samróms gagnasettið, stendur Mozilla að opninni talgreiningar vél sem kallast Djúp Tal.
+about-header-description =
+    Bæði þessi verkefni eiga þátt í að brúa bil stafrænna radda. Raddkennslabúnaður bætir mannlegum þætti við tækin okkar, en gífurlegt magn radd gagna þarf til þess að búa þá til. Í dag er meiruhluti gagnanna kostnaðarsöm og í eigu einka aðila. 
+    Við viljum gera raddgögn ókeypis og aðgengileg öllum, svo gögnin endurspegli fjölbreytileika alvöru fólks. Saman getum við bætt gæði raddkennslabúnaðar fyrir alla.
+how-does-it-work-title = Hvernig virkar það?
+about-speak = Tal
+about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
+about-listen-queue = Hlustunar röð
 
 ## Glossary
 
@@ -580,4 +591,6 @@ profile-form-delete = Eyða prófíl
 
 ## Landing
 
+help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms aðgang og gefa raddsýni.
 profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
+read-more-about = Lestu meira á um síðuna okkar
