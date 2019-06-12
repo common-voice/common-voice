@@ -410,8 +410,8 @@ about-yes-votes = ≥ 2 igen szavazat
 about-yes-votes-text = Ahhoz, hogy bekerüljön a Common Voice hangadatkészletbe, a hangklipet két különböző felhasználónak kell érvényesítenie.
 about-no-votes = ≥ 2 nem szavazat
 about-no-votes-text = Ha egy felhasználó elutasít egy hangklipet, akkor visszakerül a sorba. Ha másodszor is elutasítják, akkor a klip átkerül a Kliptemetőbe.
-about-dataset = Common Voice adatkészlet
-about-dataset-text = Ha egy felhasználó elutasít egy hangklipet, akkor visszakerül a sorba. Ha másodszor is elutasítják, akkor a klip átkerül a Kliptemetőbe.
+about-dataset-new = Common Voice adatkészlet
+about-dataset-new-text = A Common Voice adatkészlet több százezer hangmintát tartalmaz, amelyek segítenek a fejlesztőknek a hangfelismerő eszközök létrehozásában.
 about-clip-graveyard = Kliptemető
 about-clip-graveyard-text = A Kliptemető azokból a hangfájlokból áll, amelyek nem kerültek bele a Common Voice adatkészletve. Csakúgy, mint a rendes adatkészlet, a Kliptemető is letölthető.
 about-partners = Partnerek
@@ -485,7 +485,7 @@ review-cancel = Beküldés megszakítása
 review-keep-recordings = Felvételek megtartása
 review-delete-recordings = Felvételeim törlése
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Egy nyílt forráskódú, többnyelvű adatkészletet készítünk, amelyet bárki használhat beszédképességekkel rendelkező alkalmazások betanításához.
 datasets-positioning =
@@ -537,6 +537,7 @@ ready-to-validate = Készen áll, hogy segítsen a mondatok ellenőrzésében?
 more = Több
 close = Bezárás
 download = Letöltés
+dataset-version = Verzió
 
 ## Download Modal
 
