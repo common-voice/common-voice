@@ -1,12 +1,16 @@
 ## General
 
 yes-receive-emails = Si, envíeme correos. Gustaríame estar informado sobre o proxecto Common Voice.
+stayintouch = En Mozilla estamos a construír unha comunidade arredor da tecnoloxía de voz. Gustaríanos estar en contacto para as actualizacións, novas fontes de datos e escoitarte sobre como está a usar estes datos.
 privacy-info = Prometemos manexar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
 return-to-cv = Volver a Common Voice
 email-input =
     .label = Correo
 submit-form-action = Enviar
 loading = Cargando...
+email-opt-in-info = Gustaríame recibir correos para lembrar os obxectivos, actualizacións sobre o meu progreso e novas sobre Common Voice.
+email-opt-in-privacy = Ao optar por recibir correos, declara que está conforme con que Mozilla xestione esta info consonte o explicado na <privacyLink>Política de privacidade<privacyLink> de Mozilla.
+indicates-required = * Indica un campo requirido
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -284,11 +288,48 @@ female = Feminino
 # Gender
 other = Outro
 why-profile-title = Por que un perfil?
+why-profile-text = Ao fornecer algunha información sobre si, os datos de son que vostede envía a Common Voice serán máis adecuados para os motores de recoñecemento da fala que os utilicen con fin de mellorar a súa precisión.
 dashboard = Taboleiro
+build-profile = Construír o perfil
+avatar = Avatar
 goals = Obxectivos
+settings = Configuración
+edit-profile = Editar o perfil
+profile-create-success = Creouse o perfil correctamente!
+profile-close = Pechar
+profile-explanation = Seguir o seu progreso cun perfil e axudar a que os datos de voz sexan máis precisos.
+thanks-for-account = Grazas por confirmar a súa conta, agora imos construír o seu perfil.
+why-demographic = Por que é importante?
+why-demographic-explanation = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos motores de recoñecemento de voz. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
+accept-privacy = Estou de acordo con que xestionen esta info nos termos explicados na <privacyLink>Política de privacidade</privacyLink>
+login-identity = Identidade de inicio de sesión
+login-signup = Iniciar sesión/Rexistrarse
+edit = Editar
+email-subscriptions = Subscricións por correo
+download-profile = Descargar os meus datos
+contribution-experience = Experiencia de colaboración
+skip-submission-feedback = Saltar o comentario de envío
+skip-submission-description = Durante o envío da súa colaboración, saltaremos o comentario despois de premer en «Enviar. A colaboración continuará directamente co seguinte conxunto de 5 gravacións ou validacións»
+skip-submission-note = Nota: Necesitará seleccionar entre Falar ou Escoitar para cambiar o tipo de colaboración.
+off = Apagado
+on = Aceso
+add-avatar-title = Engadir un avatar ao seu perfil
+add-avatar-clip = Engadir un clip de avatar ao seu perfil
+browse-file-title = Cargar un ficheiro de imaxe
+browse-file = Arrastrar e soltar ou <browseWrap>Navegar</browseWrap>
+connect-gravatar = Conectar con Gravatar
+gravatar_not_found = Non se atopou un gravatar para o seu correo
+file_too_large = O ficheiro seleccionado é demasiado longo
+manage-subscriptions = Xestionar subscricións
+manage-email-subscriptions = Xestionar as subscricións por correo
+email-already-used = Este enderezo de correo xa está en uso por unha conta diferente
+add-language = Engadir idioma
+change-email-setings = Cambiar o seu enderezo de correo en Configuración estando coa identidade de Inicio de sesión.
 
 ## FAQ
 
+faq-title = Preguntas máis frecuentes
+faq-what-cv-q = Que é Common Voice?
 
 ## ABOUT US
 
@@ -307,7 +348,7 @@ data-download-yes = Si
 data-download-deny = Non
 data-download-license = Licenza <licenseLink>CC-0</licenseLink>
 
-## New Datasets Page
+## Datasets Page
 
 language = Idioma
 # File size in gigabytes
