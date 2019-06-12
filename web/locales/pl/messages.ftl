@@ -319,6 +319,7 @@ skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a
 off = Wyłączone
 on = Włączone
 add-avatar-title = Dodaj awatar do profilu
+add-avatar-clip = Dodaj awatar w formie nagrania do profilu
 browse-file-title = Wyślij plik obrazu
 browse-file = Przeciągnij tutaj lub <browseWrap>przeglądaj</browseWrap>
 connect-gravatar = Połącz z serwisem Gravatar
@@ -410,8 +411,8 @@ about-yes-votes = ≥ 2 głosy na tak
 about-yes-votes-text = Aby trafić do zbioru danych Common Voice, nagranie musi zostać sprawdzone przez dwóch użytkowników.
 about-no-votes = ≥ 2 głosy na nie
 about-no-votes-text = Po odrzuceniu przez użytkownika nagranie wraca do kolejki. Jeśli zostanie odrzucone drugi raz, to zostaje przeniesione na cmentarz nagrań.
-about-dataset = Zbiór danych Common Voice
-about-dataset-text = Zbiór danych Common Voice zawiera setki tysięcy próbek głosowych pomagających deweloperom tworzyć narzędzia do rozpoznawania mowy.
+about-dataset-new = Zbiór danych Common Voice
+about-dataset-new-text = Zbiór danych Common Voice zawiera setki tysięcy próbek głosowych pomagających deweloperom tworzyć narzędzia do rozpoznawania mowy.
 about-clip-graveyard = Cmentarz nagrań
 about-clip-graveyard-text = Cmentarz nagrań składa się z nagrań, które nie trafiły do zbioru Common Voice. Tak jak główny zbiór, cmentarz nagrań jest dostępny do pobrania.
 about-partners = Partnerzy
@@ -484,7 +485,7 @@ review-cancel = Anuluj wysyłanie
 review-keep-recordings = Zachowaj nagrania
 review-delete-recordings = Usuń moje nagrania
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Tworzymy wielojęzyczny zbiór danych mowy open source, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
 datasets-positioning =
@@ -536,6 +537,7 @@ ready-to-validate = Chcesz rozpocząć sprawdzanie zdań?
 more = Więcej
 close = Zamknij
 download = Pobierz
+dataset-version = Wersja
 
 ## Download Modal
 
