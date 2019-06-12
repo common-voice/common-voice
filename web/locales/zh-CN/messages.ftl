@@ -311,6 +311,7 @@ skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献
 off = 关
 on = 开
 add-avatar-title = 在您的个人资料中添加头像
+add-avatar-clip = 为您的个人资料添加头像
 browse-file-title = 上传图片
 browse-file = 拖放至此，或者<browseWrap>浏览</browseWrap>
 connect-gravatar = 连接 Gravatar
@@ -399,8 +400,8 @@ about-yes-votes = ≥ 2 张“正确”票
 about-yes-votes-text = 必须经过两位不同的用户确认，片段才能进入 Common Voice 数据集。
 about-no-votes = ≥ 2 张“不正确”票
 about-no-votes-text = 若用户投下“不正确”，片段会返回队列。若被拒绝两次，片段就会就会被丢进回收站。
-about-dataset = Common Voice 数据集
-about-dataset-text = 若用户投下“不正确”，片段会返回队列。若被拒绝两次，片段就会就会被丢进回收站。
+about-dataset-new = Common Voice 数据集
+about-dataset-new-text = Common Voice 数据集包含数十万条语音样本，可帮助开发者打造语音识别工具。
 about-clip-graveyard = 片段回收站
 about-clip-graveyard-text = 回收站中包含无法进入 Common Voice 数据集的语音片段。与数据集一样，回收站内容也提供下载。
 about-partners = 合作伙伴
@@ -472,7 +473,7 @@ review-cancel = 取消提交
 review-keep-recordings = 保留录音
 review-delete-recordings = 删除我的录音
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = 我们正在构建一组开源、多语言的语音数据集，让任何人都可以用来开发语音相关的应用。
 datasets-positioning =
@@ -524,6 +525,7 @@ ready-to-validate = 准备好帮助验证语句了吗？
 more = 更多
 close = 关闭
 download = 下载
+dataset-version = 版本
 
 ## Download Modal
 
