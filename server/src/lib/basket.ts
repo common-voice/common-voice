@@ -1,6 +1,5 @@
 import * as sendRequest from 'request-promise-native';
 import { getConfig } from '../config-helper';
-import getGoals from './model/goals';
 import { getMySQLInstance } from './model/db/mysql';
 
 const { BASKET_API_KEY, ENVIRONMENT } = getConfig();
@@ -16,9 +15,8 @@ function toISO(date: string) {
 }
 
 export async function sync(client_id: string) {
-  const [[[row]], goals] = await Promise.all([
-    db.query(
-      `
+  const [[row]] = await db.query(
+    `
       SELECT
         email,
         basket_token,
@@ -28,8 +26,7 @@ export async function sync(client_id: string) {
         ) AS first_contribution_date,
         current_goal.created_at AS goal_created_at,
         current_goal.days_interval,
-        MAX(awards.created_at) AS goal_reached_at,
-        NOW() as last_active_date
+        MAX(awards.created_at) AS goal_reached_at
       FROM user_clients
       LEFT JOIN custom_goals goals ON user_clients.client_id = goals.client_id
       LEFT JOIN custom_goals current_goal ON (
@@ -40,10 +37,8 @@ export async function sync(client_id: string) {
       WHERE user_clients.client_id = ? AND has_login
       GROUP BY user_clients.client_id
     `,
-      [client_id]
-    ),
-    getGoals(client_id),
-  ]);
+    [client_id]
+  );
   if (
     !row ||
     !row.basket_token ||
@@ -59,15 +54,6 @@ export async function sync(client_id: string) {
     created_at: toISO(row.goal_created_at),
     days_interval: row.days_interval,
     goal_reached_at: toISO(row.goal_reached_at),
-
-    last_active_date: toISO(row.last_active_date),
-
-    two_day_streak: goals.streaks[1].every(
-      ({ goal, date }) =>
-        (goal == 1 && date != null) ||
-        (goal == 3 && date == null) ||
-        (goal != 1 && goal != 3)
-    ),
   };
   console.log('basket', JSON.stringify(data, null, 2));
   await sendRequest({
