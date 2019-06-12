@@ -333,6 +333,7 @@ skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrand
 off = Diffodd
 on = Ymlaen
 add-avatar-title = Ychwanegu afatar i'ch proffil
+add-avatar-clip = Ychwanegwch glip afatar i'ch proffil
 browse-file-title = Llwytho ffeil delwedd
 browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
 connect-gravatar = Cysylltu â Gravatar
@@ -423,8 +424,8 @@ about-yes-votes = ≥ 2 Iawn
 about-yes-votes-text = Iddo gael ei dderbyn i set ddata Common Voice, rhaid i ddau ddefnyddiwr gwahanol ddilysu clip llais.
 about-no-votes = ≥ 2 Na
 about-no-votes-text = Pan fydd defnyddiwr yn gwrthod clip llais mae'n dychwelyd i'r Ciw. Os caiff ei wrthod yr ail dro, caiff y clip llais ei symud i Fynwent y Clipiau.
-about-dataset = Set Ddata Common Voice
-about-dataset-text = Pan fydd defnyddiwr yn gwrthod clip llais mae'n dychwelyd i'r Ciw. Os caiff ei wrthod yr ail dro, caiff y clip llais ei symud i Fynwent y Clipiau.
+about-dataset-new = Set Data Common Voice
+about-dataset-new-text = Mae Set Data Common Voice yn cynnwys cannoedd o filoedd o samplau lleisiau sy'n cynorthwyo datblygwyr i adeiladu offer adnabod lleisiau.
 about-clip-graveyard = Mynwent y Clipiau
 about-clip-graveyard-text = Mae Mynwent y Clipiau yn cynnwys clipiau llais sydd heb gyrraedd set ddata Common Voice. Fel gyda'r set ddata, mae'r Mynwent Clipiau ar gael i'w lwytho i lawr.
 about-partners = Partneriaid
@@ -498,7 +499,7 @@ review-cancel = Diddymu'r Cyflwyno
 review-keep-recordings = Cadw'r recordiadau
 review-delete-recordings = Dileu fy recordiadau
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Rydym yn adeiladu setiau data o leisiau amlieithog y gall unrhyw un eu defnyddio i hyfforddi rhaglenni sy'n cael eu galluogi drwy lais.
 datasets-positioning =
@@ -550,6 +551,7 @@ ready-to-validate = Yn barod i helpu i ddilysu brawddegau?
 more = Rhagor
 close = Cau
 download = Llwytho i Lawr
+dataset-version = Fersiwn
 
 ## Download Modal
 
