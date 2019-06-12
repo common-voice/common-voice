@@ -405,8 +405,8 @@ about-yes-votes = ≥ 2 張「正確」票
 about-yes-votes-text = 必須經過兩位不同的使用者確認過，片段才會進入 Common Voice 資料集。
 about-no-votes = ≥ 2 張「不正確」票
 about-no-votes-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
-about-dataset = Common Voice 資料集
-about-dataset-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
+about-dataset-new = Common Voice 資料集
+about-dataset-new-text = Common Voice 資料集包含數十萬筆語音樣本，可幫助開發者打造語音識別工具。
 about-clip-graveyard = 片段回收桶
 about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，回收桶內容也有提供下載。
 about-partners = 夥伴
@@ -478,7 +478,7 @@ review-cancel = 取消送出
 review-keep-recordings = 保留錄音
 review-delete-recordings = 刪除我的錄音
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = 我們想建立一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
 datasets-positioning =
@@ -530,6 +530,7 @@ ready-to-validate = 準備好要幫助驗證句子了嗎？
 more = 更多
 close = 關閉
 download = 下載
+dataset-version = 版本
 
 ## Download Modal
 
