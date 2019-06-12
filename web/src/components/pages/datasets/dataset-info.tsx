@@ -294,8 +294,6 @@ class DatasetInfo extends React.Component<Props, State> {
                     onClick={this.saveHasDownloaded}
                     rounded
                     className="download-language"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     style={{ minWidth: 300 }}>
                     <Localized
                       id="download-language"
