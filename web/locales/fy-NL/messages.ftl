@@ -325,6 +325,7 @@ skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Lú
 off = Ut
 on = Oan
 add-avatar-title = In avatar oan jo profyl tafoegje
+add-avatar-clip = Foegje in avatarfragmint ta oan jo profyl
 browse-file-title = In ôfbyldingsbestân oplade
 browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
 connect-gravatar = Mei Gravatar ferbine
@@ -416,8 +417,8 @@ about-yes-votes = ≥ 2 Ja-stimmen
 about-yes-votes-text = Om opnommen te wurden yn de Common Voice-gegevensset moat in fragmint falidearre wurde troch twa ôfsûnderlike brûkers.
 about-no-votes = ≥ 2 Gjin stimmen
 about-no-votes-text = Wannear in bruker in spraakfragmint ôfwiist, keart dizze werom nei de wachtrige. By in twadde ôfwizing wurdt it spraakfragmint ferpleatst nei it Fragmintetsjerkhôf.
-about-dataset = Common Voice-gegevensset
-about-dataset-text = Wannear in bruker in spraakfragmint ôfwiist, keart dizze werom nei de wachtrige. By in twadde ôfwizing wurdt it spraakfragmint ferpleatst nei it Fragmintetsjerkhôf.
+about-dataset-new = Common Voice-gegevensset
+about-dataset-new-text = De Common Voice-gegevensset befettet hûnderttûzenen spraakfragminten dy't ûntwikkelers spraakwerkenningshelpmiddelen helpe bouwe.
 about-clip-graveyard = Fragmintetsjerkhôf
 about-clip-graveyard-text = It Fragmintetsjerkhôf bestiet ut stimfragminten dy't de Common Voice-gegevensset net helle hawwe. Krekt as de gegevensset kin it Fragmintetsjerkhôf download wurde.
 about-partners = Partners
@@ -491,7 +492,7 @@ review-cancel = Ynstjoering annulearje
 review-keep-recordings = Opnamen bewarje
 review-delete-recordings = Myn opnamen fuortsmite
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy't elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
 datasets-positioning =
@@ -543,6 +544,7 @@ ready-to-validate = Ree om te helpen sinnen te falidearjen?
 more = Mear
 close = Slute
 download = Downloade
+dataset-version = Ferzje
 
 ## Download Modal
 
