@@ -127,6 +127,7 @@ speak = Tala
 speak-now = Talaðu núna
 datasets = Gagnasöfn
 languages = Tungumál
+about = Um
 profile = Prófíll
 help = Hjálp
 contact = Hafa samband
@@ -296,8 +297,6 @@ profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpa
 thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
 why-demographic = Hvers vegna skiptir þetta máli?
 why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögn sem notuð eru til að skilyrða af nákvæmni talgreiningarvélar. Notendanafn þitt og netfang verða aldrei opinberlega tengd gögnum sem þú hefur deilt og þér er frjálst að hafa notendanafn þitt ósýnilegt eða opið almenningi.
-keep-me-posted =
-    .label = Ég þigg fréttir og stöðuuppfærslur af framgangi Samróms.
 accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar, líkt og útskýrt er í <privacyLink>friðhelgisstefnu</privacyLink> Mozilla.
 login-identity = Innskráningarauðkenni
 login-signup = Innskrá sig / Skrá sig
@@ -317,6 +316,7 @@ connect-gravatar = Tengja við Gravatar
 gravatar_not_found = Enginn gravatar fannst fyrir netfangið þitt
 file_too_large = Myndin sem var valin er of stór
 manage-subscriptions = Stjórna áskriftum
+manage-email-subscriptions = Umsjón með netfanga lista
 email-already-used = Netfang er þegar í notkun á öðrum reikningi
 add-language = Bæta við tungumáli
 change-email-setings = Breyta netfangi með því að nota stillingar undir Innskráningarauðkenni
@@ -347,6 +347,12 @@ faq-where-src-from-2-q = Hvaðan kemur lestextinn?
 faq-why-not-ask-read-q = Hvers vegna biðjið þið ekki fólk að lesa úr bókum eða greinum af Wikipedia í ólíkum tungumálum?
 faq-why-account-q = Af hverju ætti ég að skrá mig?
 faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
+faq-what-is-cv = Hvað er Samrómur?
+faq-using-cv = Notkunn Samróms
+faq-description = Samrómur er verkefni á vegum Mozilla sem gengur út á það að fkenna tölvum að skilja hvernig mannfólk talar.
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -393,7 +399,7 @@ review-cancel = Hætta við að senda inn
 review-keep-recordings = Geyma upptökur
 review-delete-recordings = Eyða upptökum
 
-## New Datasets Page
+## Datasets Page
 
 language = Tungumál
 # File size in gigabytes
@@ -571,3 +577,7 @@ keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þ
 remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa halað niður gagnasafninu og þeir líka beðnir um að eyða út raddgögnunum þínum.
 why-delete-recordings = Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
 profile-form-delete = Eyða prófíl
+
+## Landing
+
+profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
