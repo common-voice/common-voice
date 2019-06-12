@@ -319,6 +319,7 @@ skip-submission-note = Obs: Tot va trebui să selectezi Vorbește sau Ascultă p
 off = Dezactivat
 on = Activat
 add-avatar-title = Adaugă un avatar la profilul tău
+add-avatar-clip = Adaugă un clip de avatar pe profilul tău
 browse-file-title = Încarcă un fișier de imagine
 browse-file = Trage și plasează sau <browseWrap>Navighează</browseWrap>
 connect-gravatar = Conectează-te cu Gravatar
@@ -405,8 +406,7 @@ about-yes-votes = ≥ 2 voturi de Da
 about-yes-votes-text = Pentru a ajunge în setul de date Common Voice, o secvență audio trebuie validată de doi utilizatori diferiți.
 about-no-votes = ≥ 2 voturi de Nu
 about-no-votes-text = Când un utilizator respinge o secvență audio, aceasta reintră în Coadă. Dacă este respinsă a doua oară, secvența este mutată în Cimitirul de secvențe audio.
-about-dataset = Set de date Common Voice
-about-dataset-text = Când un utilizator respinge o secvență audio, aceasta reintră în Coadă. Dacă este respinsă a doua oară, secvența este mutată în Cimitirul de secvențe audio.
+about-dataset-new = Set de date Common Voice
 about-clip-graveyard = Cimitir de secvențe audio
 about-clip-graveyard-text = Cimitirul de secvențe audio constă din secvențe de voce care nu au ajuns în setul de date Common Voice. Ca setul de date Common Voice, și Cimitirul de secvențe audio este disponibil pentru descărcare.
 about-partners = Parteneri
@@ -476,7 +476,7 @@ review-cancel = Anulează trimiterea
 review-keep-recordings = Păstrează înregistrările
 review-delete-recordings = Șterge înregistrările mele
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Construim un set de date multilingv, cu sursă deschisă, cu voci pe care oricine le poate utiliza pentru antrenarea aplicațiilor cu comandă vocală.
 datasets-positioning =
@@ -488,8 +488,8 @@ datasets-positioning =
 language = Limbă
 # File size in gigabytes
 size = Mărime
-validated-hr-total = Total ore validate
-overall-hr-total = Total general ore
+validated-hr-total = Total de ore validate
+overall-hr-total = Total de ore per general
 cv-license = Licență
 audio-format = Format audio
 number-of-voices = Număr de voci
@@ -528,6 +528,7 @@ ready-to-validate = Ești gata să ne ajuți să validăm propoziții?
 more = Mai multe
 close = Închide
 download = Descarcă
+dataset-version = Versiune
 
 ## Download Modal
 
