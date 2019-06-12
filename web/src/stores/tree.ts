@@ -1,3 +1,4 @@
+import { TypedUseSelectorHook, useSelector } from 'react-redux';
 import API from '../services/api';
 import { Clips } from './clips';
 import { Flags } from './flags';
@@ -18,3 +19,5 @@ export default interface StateTree {
   uploads: Uploads.State;
   user: User.State;
 }
+
+export const useTypedSelector: TypedUseSelectorHook<StateTree> = useSelector;

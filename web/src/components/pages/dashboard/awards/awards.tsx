@@ -1,9 +1,6 @@
 import * as React from 'react';
 import { useEffect } from 'react';
-import { connect } from 'react-redux';
-import { UserClient } from 'common/user-clients';
-import API from '../../../../services/api';
-import StateTree from '../../../../stores/tree';
+import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { MicIcon, PlayOutlineIcon } from '../../../ui/icons';
@@ -66,18 +63,11 @@ const AwardBox = ({ award }: any) => (
   </li>
 );
 
-interface PropsFromState {
-  account: UserClient;
-  api: API;
-}
+export default function AwardsPage() {
+  const account = useAccount();
+  const api = useAPI();
+  const refreshUser = useAction(User.actions.refresh);
 
-interface PropsFromDispatch {
-  refreshUser: typeof User.actions.refresh;
-}
-
-type Props = PropsFromState & PropsFromDispatch;
-
-function AwardsPage({ account, api, refreshUser }: Props) {
   useEffect(() => {
     api.seenAwards().then(() => {
       refreshUser();
@@ -100,24 +90,16 @@ function AwardsPage({ account, api, refreshUser }: Props) {
     <div className="award-lists">
       {buckets.map((bucket: any[], i: number) =>
         bucket ? (
-          <>
+          <React.Fragment key={i}>
             <h2>{INTERVAL_LABELS[i] || i}</h2>
             <ul>
               {bucket.map((award, i) => (
                 <AwardBox key={i} award={award} />
               ))}
             </ul>
-          </>
+          </React.Fragment>
         ) : null
       )}
     </div>
   );
 }
-
-export default connect<PropsFromState, any>(
-  ({ api, user }: StateTree) => ({
-    account: user.account,
-    api,
-  }),
-  { refreshUser: User.actions.refresh }
-)(AwardsPage);

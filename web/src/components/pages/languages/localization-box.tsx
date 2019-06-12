@@ -3,14 +3,11 @@ import * as React from 'react';
 import { useState } from 'react';
 import { RouteComponentProps, withRouter } from 'react-router';
 import ContentLoader from 'react-content-loader';
-import { connect } from 'react-redux';
 import { InProgressLanguage, LaunchedLanguage } from 'common/language-stats';
 import URLS from '../../../urls';
 import { createCrossLocaleBundleGenerator } from '../../../services/localization';
 import { trackLanguages } from '../../../services/tracker';
-import { Locale } from '../../../stores/locale';
-import StateTree from '../../../stores/tree';
-import { toLocaleRouteBuilder } from '../../locale-helpers';
+import { toLocaleRouteBuilder, useLocale } from '../../locale-helpers';
 import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
@@ -121,19 +118,17 @@ export function LoadingLocalizationBox() {
   return <Skeleton loading />;
 }
 
-interface PropsFromState {
-  globalLocale: Locale.State;
-}
-
-type Props = PropsFromState &
-  RouteComponentProps<{}> & {
-    localeMessages: string[][];
-  } & (
+type Props = RouteComponentProps<{}> & {
+  localeMessages: string[][];
+} & (
     | (InProgressLanguage & { type: 'in-progress' })
     | (LaunchedLanguage & { type: 'launched' }));
 
 const LocalizationBox = React.memo((props: Props) => {
-  const { globalLocale, history, locale, localeMessages } = props;
+  const { history, locale, localeMessages } = props;
+
+  const [globalLocale] = useLocale();
+
   const [showModal, setShowModal] = useState(false);
 
   const buildBundleGenerator = () =>
@@ -212,6 +207,4 @@ const LocalizationBox = React.memo((props: Props) => {
   );
 });
 
-export default connect<PropsFromState>(({ locale }: StateTree) => ({
-  globalLocale: locale,
-}))(withRouter(LocalizationBox));
+export default withRouter(LocalizationBox);

@@ -1,7 +1,6 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { connect } from 'react-redux';
 import {
   Redirect,
   Route,
@@ -9,33 +8,24 @@ import {
   Switch,
   withRouter,
 } from 'react-router';
-import { UserClient } from 'common/user-clients';
+import { useAccount, useAPI } from '../../../hooks/store-hooks';
 import URLS from '../../../urls';
-import API from '../../../services/api';
-import StateTree from '../../../stores/tree';
 import CustomGoalLock from '../../custom-goal-lock';
 import { ALL_LOCALES } from '../../language-select/language-select';
-import {
-  localeConnector,
-  LocaleNavLink,
-  LocalePropsFromState,
-} from '../../locale-helpers';
+import { LocaleNavLink, useLocale } from '../../locale-helpers';
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
 
 import './dashboard.css';
 
-interface PropsFromState {
-  account: UserClient;
-  api: API;
-}
-
-type Props = LocalePropsFromState & PropsFromState & RouteComponentProps;
-
 const TITLE_BAR_LOCALE_COUNT = 3;
 
-const TopBar = ({ account, api, history, toLocaleRoute }: Props) => {
+const TopBar = ({ history }: RouteComponentProps) => {
+  const account = useAccount();
+  const api = useAPI();
+  const [, toLocaleRoute] = useLocale();
+
   const [allGoals, setAllGoals] = useState(null);
   const [locale, setLocale] = useState(ALL_LOCALES);
   const [showTitleBarLocales, setShowTitleBarLocales] = useState(true);
@@ -178,7 +168,4 @@ const TopBar = ({ account, api, history, toLocaleRoute }: Props) => {
   );
 };
 
-export default connect<PropsFromState>(({ api, user }: StateTree) => ({
-  api,
-  account: user.account,
-}))(localeConnector(withRouter(TopBar)));
+export default withRouter(TopBar);

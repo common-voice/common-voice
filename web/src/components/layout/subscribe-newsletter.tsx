@@ -1,24 +1,23 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
-import { connect } from 'react-redux';
-import API from '../../services/api';
+import { useAPI } from '../../hooks/store-hooks';
 import { trackGlobal } from '../../services/tracker';
-import StateTree from '../../stores/tree';
 import URLS from '../../urls';
 import CustomGoalLock from '../custom-goal-lock';
-import { LocaleLink, LocalizedGetAttribute } from '../locale-helpers';
+import {
+  LocaleLink,
+  LocalizedGetAttribute,
+  useLocale,
+} from '../locale-helpers';
 import { CautionIcon, CheckIcon, OldPlayIcon } from '../ui/icons';
 import { LabeledCheckbox } from '../ui/ui';
 
 import './subscribe-newsletter.css';
 
-interface PropsFromState {
-  api: API;
-  locale: string;
-}
-
-const SubscribeNewsletter = ({ api, locale }: PropsFromState) => {
+export default function SubscribeNewsletter() {
+  const api = useAPI();
+  const [locale] = useLocale();
   const [email, setEmail] = useState('');
   const [privacyAgreed, setPrivacyAgreed] = useState(false);
   const [status, setStatus] = useState<
@@ -112,9 +111,4 @@ const SubscribeNewsletter = ({ api, locale }: PropsFromState) => {
       />
     </form>
   );
-};
-
-export default connect<PropsFromState>(({ api, locale }: StateTree) => ({
-  api,
-  locale,
-}))(SubscribeNewsletter);
+}

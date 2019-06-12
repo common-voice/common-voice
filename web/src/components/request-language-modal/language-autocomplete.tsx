@@ -2,28 +2,21 @@ import Downshift from 'downshift';
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect } from 'react';
-import { connect } from 'react-redux';
+import { useAction } from '../../hooks/store-hooks';
 import { RequestedLanguages } from '../../stores/requested-languages';
-import StateTree from '../../stores/tree';
+import { useTypedSelector } from '../../stores/tree';
 import { LabeledInput } from '../ui/ui';
 
-interface PropsFromState {
-  requestedLanguages: string[];
-}
-
-interface PropsFromDispatch {
-  fetchRequestedLanguages: typeof RequestedLanguages.actions.fetch;
-}
-
-interface Props extends PropsFromState, PropsFromDispatch {
-  onChange: (...args: any[]) => any;
-}
-
-function LanguageAutocomplete({
-  fetchRequestedLanguages,
+export default function LanguageAutocomplete({
   onChange,
-  requestedLanguages,
-}: Props) {
+}: {
+  onChange: (...args: any[]) => any;
+}) {
+  const requestedLanguages = useTypedSelector(
+    store => store.requestedLanguages.languages
+  );
+  const fetchRequestedLanguages = useAction(RequestedLanguages.actions.fetch);
+
   // Types for Downshift haven't caught up yet. Can be removed in the future
   const Input = LabeledInput as any;
 
@@ -110,16 +103,3 @@ function LanguageAutocomplete({
     </Downshift>
   );
 }
-
-const mapStateToProps = ({ requestedLanguages }: StateTree) => ({
-  requestedLanguages: requestedLanguages.languages,
-});
-
-const mapDispatchToProps = {
-  fetchRequestedLanguages: RequestedLanguages.actions.fetch,
-};
-
-export default connect<PropsFromState, any>(
-  mapStateToProps,
-  mapDispatchToProps
-)(LanguageAutocomplete) as any;

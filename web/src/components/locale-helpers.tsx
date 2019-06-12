@@ -2,8 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link, LinkProps, NavLink, NavLinkProps } from 'react-router-dom';
 import { Locale } from '../stores/locale';
-import StateTree from '../stores/tree';
-import { isProduction } from '../utility';
+import StateTree, { useTypedSelector } from '../stores/tree';
 import { Localized } from 'fluent-react/compat';
 
 export const contributableLocales = require('../../../locales/contributable.json');
@@ -29,6 +28,12 @@ export const localeConnector: any = connect<LocalePropsFromState>(
   null,
   { pure: false }
 );
+
+export function useLocale(): [string, (path: string) => string] {
+  const locale = useTypedSelector(({ locale }) => locale);
+
+  return [locale, toLocaleRouteBuilder(locale)];
+}
 
 export const LocaleLink = localeConnector(
   ({

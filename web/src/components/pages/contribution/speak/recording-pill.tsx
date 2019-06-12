@@ -6,7 +6,7 @@ import {
 import * as React from 'react';
 import { useRef, useState } from 'react';
 import { trackRecording } from '../../../../services/tracker';
-import { localeConnector, LocalePropsFromState } from '../../../locale-helpers';
+import { useLocale } from '../../../locale-helpers';
 import {
   PlayOutlineIcon,
   RedoIcon,
@@ -21,10 +21,7 @@ import './recording-pill.css';
 
 const { Tooltip } = require('react-tippy');
 
-interface Props
-  extends ContributionPillProps,
-    LocalizationProps,
-    LocalePropsFromState {
+interface Props extends ContributionPillProps, LocalizationProps {
   children?: React.ReactNode;
   clip: SentenceRecording;
   onRerecord: () => any;
@@ -40,12 +37,12 @@ function RecordingPill({
   status,
   ...props
 }: Props) {
+  const [locale] = useLocale();
   const [isPlaying, setIsPlaying] = useState(false);
   const [showSentenceTooltip, setShowSentenceTooltip] = useState(false);
   const audioRef = useRef(null);
 
   const toggleIsPlaying = () => {
-    const { locale } = props;
     const { current: audio } = audioRef;
     let nextIsPlaying = !isPlaying;
     if (nextIsPlaying) {
@@ -116,4 +113,4 @@ function RecordingPill({
   );
 }
 
-export default localeConnector(withLocalization(RecordingPill));
+export default withLocalization(RecordingPill);

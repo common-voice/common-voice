@@ -1,11 +1,8 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
-import { connect } from 'react-redux';
 import { DAILY_GOAL } from '../../../constants';
-import API from '../../../services/api';
-import StateTree from '../../../stores/tree';
-import { User } from '../../../stores/user';
+import { useAccount, useAPI } from '../../../hooks/store-hooks';
 import URLS from '../../../urls';
 import CustomGoalLock from '../../custom-goal-lock';
 import { LocaleLink } from '../../locale-helpers';
@@ -30,19 +27,18 @@ const GoalPercentage = ({
   </span>
 );
 
-interface PropsFromState {
-  api: API;
-  user: User.State;
-}
-
-interface Props extends PropsFromState {
+export default function Success({
+  onReset,
+  type,
+}: {
   type: 'speak' | 'listen';
   onReset: () => any;
-}
+}) {
+  const api = useAPI();
+  const account = useAccount();
 
-function Success({ api, onReset, type, user }: Props) {
-  const hasAccount = user.account;
-  const customGoal = hasAccount && user.account.customGoal;
+  const hasAccount = Boolean(account);
+  const customGoal = hasAccount && account.customGoal;
   const goalValue = DAILY_GOAL[type];
 
   const killAnimation = useRef(false);
@@ -178,8 +174,3 @@ function Success({ api, onReset, type, user }: Props) {
     </div>
   );
 }
-
-export default connect<PropsFromState>(({ api, user }: StateTree) => ({
-  api,
-  user,
-}))(Success);

@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { useState } from 'react';
-import { connect } from 'react-redux';
 import { CustomGoalParams } from 'common/goals';
-import { UserClient } from 'common/user-clients';
-import API from '../../../../services/api';
-import StateTree from '../../../../stores/tree';
+import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
+import { useTypedSelector } from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import Modal from '../../../modal/modal';
 import { PenIcon } from '../../../ui/icons';
@@ -185,22 +183,11 @@ function CurrentFields({
   );
 }
 
-interface PropsFromState {
-  account: UserClient;
-  api: API;
-}
+export default function CustomGoal() {
+  const api = useAPI();
+  const { customGoal, email } = useAccount();
+  const refreshUser = useAction(User.actions.refresh);
 
-interface PropsFromDispatch {
-  refreshUser: typeof User.actions.refresh;
-}
-
-type Props = PropsFromState & PropsFromDispatch;
-
-function CustomGoal({
-  account: { customGoal, email },
-  api,
-  refreshUser,
-}: Props) {
   const [stepIndex, setStepIndex] = useState(STEPS.INTRO);
   const [touchedStepIndex, setTouchedStepIndex] = useState(STEPS.INTRO);
   const [subscribed, setSubscribed] = useState(false);
@@ -322,11 +309,3 @@ function CustomGoal({
     </div>
   );
 }
-
-export default connect<PropsFromState, any>(
-  ({ api, user }: StateTree) => ({
-    account: user.account,
-    api,
-  }),
-  { refreshUser: User.actions.refresh }
-)(CustomGoal) as any;

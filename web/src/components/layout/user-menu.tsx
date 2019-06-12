@@ -1,13 +1,10 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
-import { connect } from 'react-redux';
+import { useAccount } from '../../hooks/store-hooks';
 import { trackNav } from '../../services/tracker';
-import { Locale } from '../../stores/locale';
-import StateTree from '../../stores/tree';
-import { User } from '../../stores/user';
 import URLS from '../../urls';
-import { LocaleLink } from '../locale-helpers';
+import { LocaleLink, useLocale } from '../locale-helpers';
 import {
   CogIcon,
   DashboardIcon,
@@ -19,12 +16,9 @@ import { Avatar, Hr } from '../ui/ui';
 
 import './user-menu.css';
 
-interface PropsFromState {
-  locale: Locale.State;
-  user: User.State;
-}
-
-function UserMenu({ locale, user: { account } }: PropsFromState) {
+export default function UserMenu() {
+  const [locale] = useLocale();
+  const account = useAccount();
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div
@@ -84,10 +78,3 @@ function UserMenu({ locale, user: { account } }: PropsFromState) {
     </div>
   );
 }
-
-const mapStateToProps = (state: StateTree) => ({
-  locale: state.locale,
-  user: state.user,
-});
-
-export default connect<PropsFromState>(mapStateToProps)(UserMenu);

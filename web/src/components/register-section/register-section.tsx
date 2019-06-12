@@ -4,20 +4,20 @@ import * as React from 'react';
 import { useState } from 'react';
 import { trackHome } from '../../services/tracker';
 import { BENEFITS, WHATS_PUBLIC } from '../../constants';
-import { localeConnector, LocalePropsFromState } from '../locale-helpers';
+import { useLocale } from '../locale-helpers';
 
 import './register-section.css';
 
-function RegisterSection({
+export default function RegisterSection({
   children,
   flipped = false,
-  locale,
   marsSrc,
 }: {
   children: React.ReactNode[];
-  flipped: boolean;
+  flipped?: boolean;
   marsSrc: string;
-} & LocalePropsFromState) {
+}) {
+  const [locale] = useLocale();
   const [index, setIndex] = useState(0);
   const [tab, setTab] = useState('benefits');
   const isBenefits = tab == 'benefits';
@@ -93,5 +93,3 @@ function RegisterSection({
     </section>
   );
 }
-
-export default localeConnector(RegisterSection);

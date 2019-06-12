@@ -16,14 +16,7 @@ export default ({
   onChange: (locale: string) => any;
 }) => (
   <Downshift initialInputValue={value} onChange={onChange}>
-    {({
-      closeMenu,
-      getItemProps,
-      highlightedIndex,
-      isOpen,
-      openMenu,
-      toggleMenu,
-    }) => (
+    {({ getItemProps, highlightedIndex, isOpen, toggleMenu }) => (
       <div className="language-select" onClick={() => toggleMenu()}>
         <Localized id={value}>
           <div className="current" />

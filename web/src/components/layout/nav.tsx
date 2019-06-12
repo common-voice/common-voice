@@ -4,20 +4,20 @@ import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
 import {
   ContributableLocaleLock,
-  localeConnector,
   LocaleNavLink,
-  LocalePropsFromState,
+  useLocale,
 } from '../locale-helpers';
 
 import './nav.css';
 
-const LocalizedNavLink = localeConnector(
-  ({ id, locale, to }: { id: string; to: string } & LocalePropsFromState) => (
+const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
+  const [locale] = useLocale();
+  return (
     <Localized id={id}>
       <LocaleNavLink to={to} exact onClick={() => trackNav(id, locale)} />
     </Localized>
-  )
-);
+  );
+};
 
 export default ({ children, ...props }: { [key: string]: any }) => (
   <nav {...props} className="nav-list">

@@ -1,11 +1,7 @@
 import * as React from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 import URLS from '../../urls';
-import {
-  isContributable,
-  localeConnector,
-  LocalePropsFromState,
-} from '../locale-helpers';
+import { isContributable, useLocale } from '../locale-helpers';
 import DocumentPage from '../pages/document-page';
 import NotFoundPage from '../pages/not-found';
 import { Spinner } from '../ui/ui';
@@ -18,8 +14,9 @@ const FAQPage = React.lazy(() => import('../pages/faq/faq'));
 const AboutPage = React.lazy(() => import('../pages/about/about'));
 const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 
-export default localeConnector(
-  ({ locale, toLocaleRoute }: LocalePropsFromState) => (
+export default function Content() {
+  const [locale, toLocaleRoute] = useLocale();
+  return (
     <div id="content">
       <React.Suspense fallback={<Spinner />}>
         <Switch>
@@ -99,5 +96,5 @@ export default localeConnector(
         </Switch>
       </React.Suspense>
     </div>
-  )
-);
+  );
+}

@@ -10,26 +10,24 @@ import {
   SupportIcon,
 } from '../ui/icons';
 import { TextButton } from '../ui/ui';
-import {
-  localeConnector,
-  LocaleLink,
-  LocalePropsFromState,
-} from '../locale-helpers';
+import { LocaleLink, useLocale } from '../locale-helpers';
 import Logo from './logo';
 import SubscribeNewsletter from './subscribe-newsletter';
 import { ContactLink, DiscourseLink, GitHubLink } from '../shared/links';
 
 import './footer.css';
 
-const LocalizedLocaleLink = localeConnector(
-  ({ id, locale, to }: { id: string; to: string } & LocalePropsFromState) => (
+const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
+  const [locale] = useLocale();
+  return (
     <Localized id={id} onClick={() => trackNav(id, locale)}>
       <LocaleLink to={to} />
     </Localized>
-  )
-);
+  );
+};
 
-const Footer = React.memo(({ locale }: LocalePropsFromState) => {
+export default React.memo(() => {
+  const [locale] = useLocale();
   return (
     <footer>
       <div id="help-links">
@@ -116,5 +114,3 @@ const Footer = React.memo(({ locale }: LocalePropsFromState) => {
     </footer>
   );
 });
-
-export default localeConnector(Footer);

@@ -1,19 +1,18 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { connect } from 'react-redux';
+import { useAction } from '../../hooks/store-hooks';
 import { Notifications } from '../../stores/notifications';
 
 import './notification-pill.css';
 
 const NOTIFICATION_TIMEOUT_MS = 3000;
 
-interface PropsFromDispatch {
-  removeNotification: typeof Notifications.actions.remove;
-}
-
-type Props = { notification: Notifications.Notification } & PropsFromDispatch;
-
-function NotificationPill({ notification, removeNotification }: Props) {
+export default function NotificationPill({
+  notification,
+}: {
+  notification: Notifications.Notification;
+}) {
+  const removeNotification = useAction(Notifications.actions.remove);
   const [show, setShow] = useState(true);
 
   useEffect(() => {
@@ -33,10 +32,3 @@ function NotificationPill({ notification, removeNotification }: Props) {
     </div>
   );
 }
-
-export default connect<void, PropsFromDispatch>(
-  null,
-  {
-    removeNotification: Notifications.actions.remove,
-  }
-)(NotificationPill);

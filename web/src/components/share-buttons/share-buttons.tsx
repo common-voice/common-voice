@@ -5,33 +5,23 @@ import {
 } from 'fluent-react/compat';
 import * as React from 'react';
 import { useRef } from 'react';
-import { connect } from 'react-redux';
 import { trackSharing } from '../../services/tracker';
 import { Notifications } from '../../stores/notifications';
 import { FontIcon } from '../ui/icons';
-import { localeConnector, LocalePropsFromState } from '../locale-helpers';
+import { useLocale } from '../locale-helpers';
 
 import './share-buttons.css';
+import { useAction } from '../../hooks/store-hooks';
 
 const SHARE_URL = 'https://voice.mozilla.org/';
 
-interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.addPill;
-}
-
-interface Props
-  extends LocalizationProps,
-    PropsFromDispatch,
-    LocalePropsFromState {
+interface Props extends LocalizationProps {
   shareText?: string;
 }
 
-function ShareButtons({
-  addNotification,
-  getString,
-  locale,
-  shareText,
-}: Props) {
+function ShareButtons({ getString, shareText }: Props) {
+  const [locale] = useLocale();
+  const addNotification = useAction(Notifications.actions.addPill);
   const encodedShareText = encodeURIComponent(
     shareText
       ? shareText.replace('{link}', SHARE_URL)
@@ -84,9 +74,4 @@ function ShareButtons({
   );
 }
 
-export default connect<void, PropsFromDispatch>(
-  null,
-  {
-    addNotification: Notifications.actions.addPill,
-  }
-)(localeConnector(withLocalization(ShareButtons)));
+export default withLocalization(ShareButtons);

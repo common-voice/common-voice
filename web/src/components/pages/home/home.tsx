@@ -1,12 +1,9 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
-import { connect } from 'react-redux';
-import { UserClient } from 'common/user-clients';
+import { shallowEqual } from 'react-redux';
 import { trackHome } from '../../../services/tracker';
-import { Locale } from '../../../stores/locale';
-import StateTree from '../../../stores/tree';
-import { User } from '../../../stores/user';
+import { useTypedSelector } from '../../../stores/tree';
 import URLS from '../../../urls';
 import { CUSTOM_GOAL_LOCALE } from '../../custom-goal-lock';
 import { ContributableLocaleLock } from '../../locale-helpers';
@@ -22,23 +19,20 @@ import './home.css';
 
 type HeroType = 'speak' | 'listen';
 
-interface PropsFromState {
-  account: UserClient;
-  heroes: string[];
-  isFetchingAccount: boolean;
-  locale: Locale.State;
-  user: User.State;
-}
-
 const GOALS_NOTIFICATION_KEY = 'seenGoalsNotification';
 
-function HomePage({
-  account,
-  heroes,
-  isFetchingAccount,
-  locale,
-  user,
-}: PropsFromState) {
+export default function HomePage() {
+  const { account, heroes, isFetchingAccount, locale, user } = useTypedSelector(
+    ({ flags, locale, user }) => ({
+      account: user.account,
+      heroes: flags.homeHeroes,
+      isFetchingAccount: user.isFetchingAccount,
+      locale,
+      user,
+    }),
+    shallowEqual
+  );
+
   const [showGoalsBanner, setShowGoalsBanner] = useState(false);
   const [activeHero, setActiveHero] = useState<null | HeroType>(null);
   const [showRequestLanguageModal, setShowRequestLanguageModal] = useState(
@@ -243,13 +237,3 @@ function HomePage({
     </div>
   );
 }
-
-export default connect<PropsFromState>(
-  ({ flags, locale, user }: StateTree) => ({
-    account: user.account,
-    heroes: flags.homeHeroes,
-    isFetchingAccount: user.isFetchingAccount,
-    locale,
-    user,
-  })
-)(HomePage);

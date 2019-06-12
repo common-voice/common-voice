@@ -1,17 +1,11 @@
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
-import { connect } from 'react-redux';
+import { useAction } from '../../hooks/store-hooks';
 import { Notifications } from '../../stores/notifications';
 import { CrossIcon } from '../ui/icons';
 import { LinkButton } from '../ui/ui';
 
 import './notification-banner.css';
-
-interface PropsFromDispatch {
-  removeNotification: typeof Notifications.actions.remove;
-}
-
-type Props = { notification: Notifications.Notification } & PropsFromDispatch;
 
 export const Banner = React.forwardRef(
   (
@@ -39,7 +33,12 @@ export const Banner = React.forwardRef(
   )
 );
 
-function NotificationBanner({ notification, removeNotification }: Props) {
+export default function NotificationBanner({
+  notification,
+}: {
+  notification: Notifications.Notification;
+}) {
+  const removeNotification = useAction(Notifications.actions.remove);
   const [show, setShow] = useState(false);
 
   const el = useRef(null);
@@ -71,10 +70,3 @@ function NotificationBanner({ notification, removeNotification }: Props) {
     </Banner>
   );
 }
-
-export default connect<void, PropsFromDispatch>(
-  null,
-  {
-    removeNotification: Notifications.actions.remove,
-  }
-)(NotificationBanner);

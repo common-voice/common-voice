@@ -1,12 +1,11 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
-import { connect } from 'react-redux';
 import { CustomGoal, CustomGoalParams } from 'common/goals';
 import { UserClient } from 'common/user-clients';
 import URLS from '../../../../urls';
+import { useAccount } from '../../../../hooks/store-hooks';
 import { getManageSubscriptionURL } from '../../../../utility';
-import StateTree from '../../../../stores/tree';
 import { LocaleLink } from '../../../locale-helpers';
 import ShareModal from '../../../share-modal/share-modal';
 import {
@@ -17,7 +16,7 @@ import {
   SettingsIcon,
   ShareIcon,
 } from '../../../ui/icons';
-import { Button, LabeledCheckbox, LinkButton } from '../../../ui/ui';
+import { Button, LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
 
 const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
@@ -95,81 +94,6 @@ interface CustomGoalStepProps {
 interface AccountProps {
   account: UserClient;
 }
-
-const SubmitStep = ({
-  account,
-  closeButtonProps,
-  completedFields,
-  nextButtonProps,
-
-  subscribed,
-  setSubscribed,
-}: CustomGoalStepProps & AccountProps) => {
-  const [privacyAgreed, setPrivacyAgreed] = useState(false);
-  return (
-    <div className="padded">
-      {completedFields}
-      {account.basket_token ? (
-        <>
-          <p className="subscription-info">
-            You're currently set to receive emails such as goal reminders, my
-            progress updates and newsletters about Common Voice
-          </p>
-          <a
-            className="manage-subscriptions"
-            href={getManageSubscriptionURL(account)}
-            target="__blank"
-            rel="noopener noreferrer">
-            <Localized id="manage-email-subscriptions">
-              <span />
-            </Localized>
-            <SettingsIcon />
-          </a>
-        </>
-      ) : (
-        <>
-          <label className="box">
-            <input
-              type="checkbox"
-              checked={subscribed}
-              onChange={event => setSubscribed(event.target.checked)}
-            />
-            <Localized id="email-opt-in-info">
-              <div className="content" />
-            </Localized>
-          </label>
-          <label className="box">
-            <input
-              type="checkbox"
-              checked={privacyAgreed}
-              onChange={event => setPrivacyAgreed(event.target.checked)}
-            />
-            <div className="content">
-              <Localized
-                id="accept-privacy"
-                privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
-                <span />
-              </Localized>
-            </div>
-          </label>
-          <Localized id="read-terms-q">
-            <LocaleLink to={URLS.TERMS} className="terms" blank />
-          </Localized>
-        </>
-      )}
-      <Buttons>
-        <CloseButton {...closeButtonProps} />
-        <Button
-          rounded
-          className="submit"
-          {...nextButtonProps}
-          disabled={subscribed && !privacyAgreed}>
-          <CheckIcon /> Confirm Goal
-        </Button>
-      </Buttons>
-    </div>
-  );
-};
 
 export default [
   ({ nextButtonProps }) => (
@@ -251,9 +175,80 @@ export default [
     </>
   ),
 
-  connect<AccountProps>(({ user }: StateTree) => ({ account: user.account }))(
-    SubmitStep
-  ),
+  ({
+    closeButtonProps,
+    completedFields,
+    nextButtonProps,
+
+    subscribed,
+    setSubscribed,
+  }: CustomGoalStepProps & AccountProps) => {
+    const account = useAccount();
+    const [privacyAgreed, setPrivacyAgreed] = useState(false);
+    return (
+      <div className="padded">
+        {completedFields}
+        {account.basket_token ? (
+          <>
+            <p className="subscription-info">
+              You're currently set to receive emails such as goal reminders, my
+              progress updates and newsletters about Common Voice
+            </p>
+            <a
+              className="manage-subscriptions"
+              href={getManageSubscriptionURL(account)}
+              target="__blank"
+              rel="noopener noreferrer">
+              <Localized id="manage-email-subscriptions">
+                <span />
+              </Localized>
+              <SettingsIcon />
+            </a>
+          </>
+        ) : (
+          <>
+            <label className="box">
+              <input
+                type="checkbox"
+                checked={subscribed}
+                onChange={event => setSubscribed(event.target.checked)}
+              />
+              <Localized id="email-opt-in-info">
+                <div className="content" />
+              </Localized>
+            </label>
+            <label className="box">
+              <input
+                type="checkbox"
+                checked={privacyAgreed}
+                onChange={event => setPrivacyAgreed(event.target.checked)}
+              />
+              <div className="content">
+                <Localized
+                  id="accept-privacy"
+                  privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                  <span />
+                </Localized>
+              </div>
+            </label>
+            <Localized id="read-terms-q">
+              <LocaleLink to={URLS.TERMS} className="terms" blank />
+            </Localized>
+          </>
+        )}
+        <Buttons>
+          <CloseButton {...closeButtonProps} />
+          <Button
+            rounded
+            className="submit"
+            {...nextButtonProps}
+            disabled={subscribed && !privacyAgreed}>
+            <CheckIcon /> Confirm Goal
+          </Button>
+        </Buttons>
+      </div>
+    );
+  },
 
   ({ nextButtonProps, state }) => {
     const [showShareModal, setShowShareModal] = useState(false);
