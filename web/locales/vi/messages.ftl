@@ -46,7 +46,7 @@ dsb = Tiếng Sorb vùng Hạ
 dv = Tiếng Dhivehi
 el = Tiếng Hi Lạp
 en = Tiếng Anh
-eo = Quốc tế ngữ
+eo = Tiếng Esperanto
 es = Tiếng Tây Ban Nha
 et = Tiếng Estonia
 eu = Tiếng Basque
@@ -147,7 +147,7 @@ share-title = Giúp chúng tôi tìm những người khác để cung cấp gi�
 share-text = Hãy giúp dạy cho các phần mềm cách nói chuyện của con người, đóng góp giọng nói của bạn tại { $link }
 link-copied = Đã sao chép liên kết
 back-top = Trở về đầu trang
-logout = Đăng Xuất
+logout = Đăng xuất
 
 ## Home Page
 
@@ -403,8 +403,8 @@ about-yes-votes = ≥2 phiếu bầu đồng ý
 about-yes-votes-text = Để đưa nó vào bộ dữ liệu Common Voice, một clip thoại phải được xác thực bởi hai người dùng riêng biệt.
 about-no-votes = ≥ 2 phiếu bầu không đồng ý
 about-no-votes-text = Khi người dùng từ chối clip thoại, nó sẽ trở về hàng đợi. Nếu bị từ chối lần thứ hai, clip thoại sẽ được chuyển sang clip không hợp lệ.
-about-dataset = Bộ dữ liệu Common Voice
-about-dataset-text = Khi người dùng từ chối clip thoại, nó sẽ trở về hàng đợi. Nếu bị từ chối lần thứ hai, clip thoại sẽ được chuyển sang clip không hợp lệ.
+about-dataset-new = Bộ dữ liệu Common Voice
+about-dataset-new-text = Bộ dữ liệu Common Voice chứa hàng trăm ngàn mẫu giọng nói giúp các nhà phát triển xây dựng các công cụ nhận dạng giọng nói.
 about-clip-graveyard = Clip không hợp lệ
 about-clip-graveyard-text = Clip không hợp lệ bao gồm các clip thoại không được đưa vào bộ dữ liệu Common Voice. Giống như tập dữ liệu, clip không hợp lệ có sẵn để tải xuống.
 about-partners = Đối tác
@@ -530,6 +530,7 @@ ready-to-validate = Sẵn sàng để giúp xác nhận các câu?
 more = Thêm
 close = Đóng
 download = Tải xuống
+dataset-version = Phiên bản
 
 ## Download Modal
 
