@@ -407,6 +407,7 @@ about-yes-votes-text = Pentru a ajunge în setul de date Common Voice, o secven�
 about-no-votes = ≥ 2 voturi de Nu
 about-no-votes-text = Când un utilizator respinge o secvență audio, aceasta reintră în Coadă. Dacă este respinsă a doua oară, secvența este mutată în Cimitirul de secvențe audio.
 about-dataset-new = Set de date Common Voice
+about-dataset-new-text = Setul de date Common Voice conține sute de mii de mostre de voce care ajută dezvoltatorii să construiască instrumente de recunoaștere vocală.
 about-clip-graveyard = Cimitir de secvențe audio
 about-clip-graveyard-text = Cimitirul de secvențe audio constă din secvențe de voce care nu au ajuns în setul de date Common Voice. Ca setul de date Common Voice, și Cimitirul de secvențe audio este disponibil pentru descărcare.
 about-partners = Parteneri
