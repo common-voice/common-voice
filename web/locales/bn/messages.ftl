@@ -319,6 +319,7 @@ connect-gravatar = Gravatar সঙ্গে সংযোগ করুন
 gravatar_not_found = আপনার ইমেইল জন্য কোন gravatar পাওয়া যায় নি
 file_too_large = নির্বাচিত ফাইল আকারে খুব বড়
 manage-subscriptions = সাবস্ক্রিপশন ব্যবস্থাপনা
+manage-email-subscriptions = ইমেইল সাবস্ক্রিপশন ব্যবস্থাপনা
 email-already-used = ইমেইলটি ইতিমধ্যে ভিন্ন অ্যাকাউন্টের জন্য ব্যবহৃত হয়েছে
 add-language = ভাষা যোগ করুন
 change-email-setings = লগইন আইডেন্টিটির অধীনে সেটিংস এর মাধ্যমে আপনার ইমেইল পরিবর্তন করুন
@@ -331,7 +332,9 @@ faq-why-important-q = কেন এটা গুরুত্বপূর্ণ?
 faq-how-get-q = আমি কিভাবে Common Voice ডাটা পেতে পারি?
 faq-why-mission-q = Common Voice কেন Mozilla মিশনে অংশ মনে করা হয়?
 faq-what-cv-and-deepspeech-q = কমন ভয়েস এবং ডিপ স্পিচ এর মধ্যে পার্থক্য কী?
+faq-why-different-speakers-q = প্রতিটি ভাষায় কেন এতো বেশি ভিন্ন ভিন্ন বক্তা প্রয়োজন?
 faq-why-my-lang-q = আমার ভাষা কেন এখনো অন্তর্ভুক্ত করা হয়নি?
+faq-what-is-cv = Common Voice কি?
 
 ## ABOUT US
 
@@ -376,7 +379,7 @@ review-cancel = জমাদান বাতিল
 review-keep-recordings = রেকর্ডিং রাখো
 review-delete-recordings = আমার রেকর্ডিং মুছে ফেলো
 
-## New Datasets Page
+## Datasets Page
 
 language = ভাষা
 # File size in gigabytes
