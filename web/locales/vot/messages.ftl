@@ -132,7 +132,7 @@ zh-TW = Китайский (Тайвань)
 
 speak = Pajatõ
 speak-now = Pajatõ nütt
-datasets = Riissad
+datasets = Salvod
 languages = Čeeled
 about = Meiss
 profile = Профиль
@@ -183,17 +183,17 @@ today = Tänävä
 x-weeks-short =
     { $count ->
         [one] nätel̕i
-       *[other] nätel̕iä
+       *[other] { $count } nätel̕iä
     }
 x-months-short =
     { $count ->
         [one] kuu
-       *[other] kuutõ
+       *[other] { $count } kuutõ
     }
 x-years-short =
     { $count ->
         [one] voosi
-       *[other] voottõ
+       *[other] { $count } voottõ
     }
 help-make-dataset = Помогите нам создать высококачественный открытый набор данных
 profile-not-required = Наличие профиля не обязательно для участия, хотя это полезно
@@ -273,7 +273,7 @@ profile-form-additional-language =
 profile-form-accent =
     .label = Акцент
 profile-form-age =
-    .label = Возраст
+    .label = Ičä
 profile-form-gender =
     .label = Пол
 leaderboard-visibility =
@@ -407,7 +407,7 @@ about-yes-votes = ≥ 2 голосов «за»
 about-yes-votes-text = Чтобы попасть в набор данных Common Voice, запись должна быть проверена двумя разными пользователями.
 about-no-votes = ≥ 2 голосов «против»
 about-no-votes-text = Если пользователь выбирает «Нет», запись возвращается в очередь. Если она получает второй голос «против», то запись отправляется на «Кладбище записей».
-about-dataset-new = Набор данных Common Voice
+about-dataset-new = Common Voice salvo
 about-dataset-new-text = Набор данных Common Voice содержит сотни тысяч образцов голосов, которые помогают разработчикам создавать инструменты распознавания голоса.
 about-clip-graveyard = «Кладбище записей»
 about-clip-graveyard-text = «Кладбище записей» состоит из голосовых записей, которые не вошли в голосовой набор Common Voice. Также как и основной набор, набор «Кладбища записей» тоже доступен для загрузки.
@@ -456,8 +456,8 @@ notfound-content = Я боюсь, что не знаю, что вы ищете.
 ## Data
 
 data-download-button = Загрузить данные Common Voice
-data-download-yes = Да
-data-download-deny = Нет
+data-download-yes = Da
+data-download-deny = Eb
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
 data-download-modal = Вы собираетесь совершить загрузку <size>{ $size } ГБ</size>, продолжить?
 data-subtitle = Мы создаём открытый и общедоступный набор голосовых данных, чтобы любой человек мог использовать его для обучения программ с распознаванием речи.
@@ -503,8 +503,8 @@ splits = Разделение
 email-to-download = Введите адрес электронной почты для загрузки
 why-email = <b>Зачем нужен ваш адрес?</b> В будущем нам может понадобиться связаться с вами по поводу изменений в наборе данных, и электронная почта позволит нам сделать это.
 confirm-size = Вы собираетесь совершить загрузку <b>{ $size }</b>
-size-gigabyte = ГБ
-size-megabyte = МБ
+size-gigabyte = GB
+size-megabyte = MB
 confirm-no-identify = <b>Вы соглашаетесь</b> не пытаться определять личность дикторов в наборе данных Common Voice
 download-language = Загрузить { $language }
 validated-hours = Часов проверено
@@ -532,7 +532,7 @@ missing-language = Вашего языка нет в наборе? Запрос�
 go-languages-page = Перейти на страницу Языки
 ready-to-validate = Готовы помочь с проверкой предложений?
 more = Rohkap
-close = Закрыть
+close = Lummõ
 download = Загрузить
 dataset-version = Версия
 
@@ -562,8 +562,8 @@ request-language-form-language =
     .label = Čeeli
 request-language-success-title = Запрос о добавлении языка успешно отправлен, спасибо.
 request-language-success-content = Мы максимально быстро свяжемся с вами, рассказав о том, как добавить ваш язык в Common Voice.
-select-language = Выберите язык...
-other-language = Другой язык
+select-language = Valitsõ čeeli...
+other-language = Tõisõd čeeled
 
 ## Languages Overview
 
@@ -571,14 +571,14 @@ language-section-in-progress = Идёт подготовка
 language-section-in-progress-new-description = Эти языки в настоящее время находятся на стадии развития сообществом. Индикаторы прогресса отображают, насколько далеко для каждого языка продвинулся процесс <localizationGlossaryLink>локализации веб-сайта </localizationGlossaryLink> и <sentenceCollectionGlossaryLink>сбора предложений</sentenceCollectionGlossaryLink>.
 language-section-launched = Запущены
 language-section-launched-description = Для этих языков веб-сайт был успешно <localizationGlossaryLink>локализован</localizationGlossaryLink>, и на нём было собрано <sentenceCollectionGlossaryLink>достаточно предложений</sentenceCollectionGlossaryLink>, чтобы начать <speakLink>сбор голосов</speakLink> и <listenLink>их проверку</listenLink>.
-languages-show-more = Больше языков
-languages-show-less = Меньше языков
-language-speakers = Носителей
+languages-show-more = Näe rohkap
+languages-show-less = Näe vähep
+language-speakers = Pajatõjõd
 language-meter-in-progress = Ход выполнения
-language-total-progress = Всего
+language-total-progress = Ühtee
 language-search-input =
-    .placeholder = Поиск
-language-speakers = Носителей
+    .placeholder = Etsi
+language-speakers = Pajatõjõd
 localized = Локализовано
 sentences = Предложения
 total-hours = Всего часов
@@ -687,6 +687,6 @@ profile-form-delete = Удалить профиль
 
 welcome-staff = Добро пожаловать, сотрудники { $company }!
 help-contribute = Вы можете помочь в создании разнообразного и открытого набора данных, создав профиль Common Voice и помогая своим голосом.
-login-company = Войти / Зарегистрироваться с помощью почты { $company }
+login-company = Čirja süäme / Čirjoittassa pruukkimizi { $company } poštika
 profile-not-required = Наличие профиля не обязательно для участия, хотя это полезно
 read-more-about = Узнайте больше на нашей странице «Meiss»
