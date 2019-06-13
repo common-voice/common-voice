@@ -8,8 +8,10 @@ email-input =
     .label = E-mail
 submit-form-action = Odeslat
 loading = Načítání…
+email-opt-in-info = Chci dostávat e-maily jako jsou přimínky k nedosaženým cílům, informace o mém postupu nebo novinky o projektu Common Voice.
 email-opt-in-privacy = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů<privacyLink> společnosti Mozilla.
 indicates-required = * označuje povinná pole
+not-available-abbreviation = není k dispozici
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -130,6 +132,7 @@ speak = Mluvte
 speak-now = Nyní mluvte
 datasets = Datasety
 languages = Jazyky
+about = O projektu
 profile = Profil
 help = Nápověda
 contact = Kontakt
@@ -242,6 +245,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrát/Zastavit
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Nahrát klip znovu
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
 
@@ -319,6 +323,7 @@ connect-gravatar = Propojit s Gravatarem
 gravatar_not_found = Pro váš e-mail nebyl nalezen žádný gravatar
 file_too_large = Zvolený soubor je příliš velký
 manage-subscriptions = Spravovat odběr
+manage-email-subscriptions = Spravovat odběry e-mailů
 email-already-used = E-mail je již používán pro jiný účet
 add-language = Přidat jazyk
 
@@ -362,6 +367,7 @@ faq-why-not-ask-read-q = Proč prostě nepožádáte lidi, aby četli z knih či
 faq-why-account-q = Proč bych si měl(a) vytvořit účet?
 faq-is-account-public-q = Jsou informace o mém účtu veřejně přístupné?
 faq-how-privacy-q = Jak zajišťujete anonymitu a soukromí jednotlivých přispěvatelů projektu Common Voice?
+faq-how-privacy-a = Všechny hlasové záznamy v databázi jsou očištěny od osobně identifikujících informací. Poskytne-li uživatel skrz svůj profil nějaká demografická data, tato jsou před uložením do databáze ze záznamu taktéž odstraněna a navíc nejsou nikdy zveřejněna na uživatelském profilu.
 faq-what-determine-identity-q = Co to znamená že "nelze určit identity" mluvčích v databázi projektu Common Voice?
 
 ## ABOUT US
@@ -409,7 +415,7 @@ review-cancel = Zrušit odeslání
 review-keep-recordings = Uchovat nahrávky
 review-delete-recordings = Smazat nahrávky
 
-## New Datasets Page
+## Datasets Page
 
 language = Jazyk
 # File size in gigabytes
