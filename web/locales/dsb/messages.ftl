@@ -51,6 +51,7 @@ es = Špańšćina
 et = Estnišćina
 eu = Baskišćina
 fa = Persišćina
+ff = Fulašćina
 fi = Finšćina
 fo = Ferejšćina
 fr = Francojšćina
@@ -322,6 +323,7 @@ skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś
 off = Wušaltowany
 on = Zašaltowany
 add-avatar-title = Pśidajśo wašomu profiloju awatar
+add-avatar-clip = Pśidajśo wašomu profiloju awatarowy klip
 browse-file-title = Wobrazowu dataju nagraś
 browse-file = Śěgniśo a pušććo abo <browseWrap>pśeglědujśo</browseWrap>
 connect-gravatar = Z gravatarom zwězaś
@@ -402,7 +404,7 @@ about-is-it-valid = Jo klip płaśiwy?
 about-is-it-valid-text = Głosowy klip se ako „płaśiwy markěrujo, gaž wužywaŕ jomu jogłos dajo.
 about-yes-votes = ≥ 2 jogłosa
 about-no-votes = ≥ 2 něgłosa
-about-dataset = Datowa sajźba Common Voice
+about-dataset-new = Datowa sajźba Common Voice
 about-clip-graveyard = Klipowy kjarchob
 about-partners = Partnarje
 about-become-a-partner = Buźćo partnaŕ
@@ -462,7 +464,7 @@ review-cancel = Wótpósłanje pśetergnuś
 review-keep-recordings = Nagraśa wobchować
 review-delete-recordings = Nagraśa wulašowaś
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Twórimy wěcejrěcnu datowu sajźbu głosow wótwórjonego žrědła, kótaruž móžo kuždy wužywaś, aby powědańske nałoženja treněrował.
 datasets-positioning =
@@ -514,6 +516,7 @@ ready-to-validate = Sćo gótowy nam pomagaś, sady pśeglědowaś?
 more = Wěcej
 close = Zacyniś
 download = Ześěgnuś
+dataset-version = Wersija
 
 ## Download Modal
 
@@ -669,3 +672,10 @@ why-delete-recordings =
     
     Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil wulašowaś
+
+## Landing
+
+welcome-staff = Witajśo, sobuźěłaśerje { $company }!
+login-company = Z e-mailoweju adresu { $company } pśizjawiść / registrěrowaś
+profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
+read-more-about = Cytajśo wěcej wó boku Wó Common Voice
