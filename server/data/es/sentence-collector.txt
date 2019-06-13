@@ -548,6 +548,7 @@ El servicio del restaurante era bastante bueno.
 El siglo veinte es el más trágico de la historia.
 El sobrino siempre pagaba las Fantas.
 El sol de enero poco duradero.
+El sol del mediodía y el sereno de la noche.
 El suyo será de hilo de cobre.
 El sábado fui al Sweet Pachá.
 El teclado estaba lleno de muelles.
@@ -596,6 +597,7 @@ En diciembre, hielos y nieve.
 En el año mil seiscientos ochenta no había coches.
 En el examen sólo se permite un bolígrafo azul o negro.
 En el medio está la virtud.
+En el mes de enero, los ojos de las muchachas campesinas, el amor.
 En el país de los ciegos el tuerto es el rey.
 En el peligro, se conoce al amigo.
 En el zoo hay un tigre blanco.
@@ -604,8 +606,10 @@ En esa casa hay un niño que piensa que eres el mejor.
 En esta playa, antes había muchas conchas.
 En julio haremos una excursión al Possets.
 En la boca del discreto lo público es secreto.
+En la que describe la belleza de El Salvador.
 En la radio han dicho que mañana lloverá.
 En la sala de espera no cabía nadie más.
+En la época en que le tocó vivir, el poeta.
 En largos caminos, se conocen los amigos.
 En los malos momentos tienes que contar con tus amigos.
 En martes ni te cases ni te embarques.
@@ -973,6 +977,7 @@ Julia, ¿ y crema depilatoria?
 Julia quiere estudiar ingeniería.
 Julia tiene ganas de celebrar algo, ¿ no?
 Junio ​​es el mejor mes del año.
+Jícaras Tristes es una recopilación de seis poemarios del poeta Alfredo Espino.
 Jódete, ¡alcaudón!
 La Concepción tiene anginas.
 La Marina juega al bingo.
@@ -1145,6 +1150,7 @@ Las vitaminas son buenas para tí.
 Le concedieron el préstamo porque pensaban que era una persona solvente.
 Le daré una lección.
 Le entró un virus en el ordenador y perdió los trabajos.
+Le escribe con enorme sencillez, a su amada.
 Le gusta la chica de la falda de cuadros.
 Le gustaban las películas bélicas.
 Le habían engatusado bien, pobre niño.
@@ -1716,6 +1722,7 @@ Por favor, ¿podéis bajar el volumen de la música?
 Por gusto, diría que es queso feta.
 Por la boca muere el pez.
 Por la noche todos los gatos son pardos.
+Por lo pintoresco de su poesía.
 Por supuesto, me gustaría verle como un cráter. ¡ sí!
 Por un mal chiste un buen amigo perdiste.
 Por un perro que maté, mataperros me llamaron.
@@ -1810,6 +1817,7 @@ Recuperarse no será fácil.
 Reggae, ¿dices que es?
 Reinicie el ordenador.
 Reserva plazas de parking por Internet.
+Retrata también, en sus versos, el sufrimiento del campesino.
 Reunión de personal, chicos. Vamos .
 Ricardo, a cubierta. ¡ vamos!
 Ricardo, estamos preparados , te escuchamos.
@@ -1871,6 +1879,7 @@ Se puso el nuevo vestido que se compró en Zara.
 Se relaja pintando mandalas.
 Se toma su trabajo muy en serio.
 Se trabaja mejor en grupos pequeños.
+Se transporte a la campiña salvadoreña, muy similar a la centroamericana.
 Se ve que ha habido dos víctimas mortales por la ola de calor.
 Se ve que se conocieron en el instituto.
 Sea arduo y estés muy, muy lejos de tu dulce hogar...
@@ -1919,6 +1928,7 @@ Siempre pagan justos por pecadores.
 Siempre quiere tener razón.
 Siempre tiene tiempo para todo.
 Siento que alguien me está mirando ahora mismo.
+Sin duda Alfredo Espino es un poeta cautivador.
 Sin solidaridad no somos nada.
 Sin ti no lo habríamos conseguido.
 Sino porque eres un juguete.
@@ -1950,6 +1960,7 @@ Su sueño era regentar una taberna.
 Subamos atrás. Ahí no nos verá nadie .
 Suegros, ricos y tacaños, no se mueren ni en cien años.
 Surgió ese tipo en su cohete
+Sus fiestas, sus amores, algunos acontecimientos cotidianos como una tarde en el pueblo.
 Sus piernas parecían las columnas del Partenón.
 Susana batió el récord de atletismo de la escuela esta mañana.
 Sábado comienza la Fiesta Mayor.
@@ -2027,6 +2038,8 @@ Tienes razón, sólo estoy un poco deprimido.
 Tienes un chisporroteo sospechoso a la mirada.
 Tita Cervera es la heredera moral de los Medici.
 Toca muy bien el clarinete.
+Todas esas pequeñas cosas que rodean la vida en el campo.
+Todas las anteriores ediciones de Jicaras tristes se agotaron.
 Todo depende de la decisión del juez.
 Todo el mundo habla de dignidad, estos días.
 Todo era silencio, no se sentía ni un alma.
@@ -2170,12 +2183,14 @@ Y es el único que tengo.
 Y estoy haciendo lo mejor que puedo
 Y estás a millas y millas de tu bonita y tibia cama.
 Y hago lo que puedo para superarlo.
+Y lo hace tan descriptivo, que hace que el lector, al leer sus versos.
 Y me hubieras quitado todo lo que era importante para mí
 Y nadie me lo va a arrebatar.
 Y no parece haber ningún signo de vida inteligente. ¡ Hola!
 Y no pueden enseñarte nada nuevo, nada nuevo.
 Y si nos gusta la zona podemos quedarnos un par de añitos.
 Y si vamos a comprar antes de ir a la playa.
+Y sienta el olor de la tierra, el aroma de las flores.
 Y susurras en mi oído que me quieres, pero lejos.
 Y todo por mi culpa. Tenemos que salvarle .
 Y tú, ¿de dónde eres?
@@ -6442,6 +6457,7 @@ yo ya no puedo estar contigo.
 ¿Qué paté te gusta más, el de escalivada o el de finas hierbas?
 ¿Qué pista me has dejado?
 ¿Qué salida que tiene esta marca de cervezas?
+¿Qué tal?
 ¿Qué territorios adscribirán a la comarca del Molinés?
 ¿Qué tienen de menú hoy?
 ¿Qué títulos acredita el candidato?
@@ -6463,6 +6479,7 @@ yo ya no puedo estar contigo.
 ¿Ustedes son aquellos chicos tan alegres y divertidos?
 ¿Vamos a hacer una cerveza bien fresquita?
 ¿Vamos a la playa?
+¿Viste las señas?
 ¿Y si lo discutimos todo tomándonos unas Moritz?
 ¿Y te han hecho pagar por unos pantalones desgarrados?
 ¿Ya has comido suficiente?
