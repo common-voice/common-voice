@@ -27,6 +27,7 @@ ar = アラビア語
 as = アッサム語
 ast = アストゥリアス語
 az = アゼルバイジャン語
+ba = バシキール語
 bg = ブルガリア語
 bn = ベンガル語
 br = ブルトン語
@@ -53,7 +54,10 @@ fo = フェロー語
 fr = フランス語
 fy-NL = フリジア語
 ga-IE = アイルランド語
+gl = ガリシア語
+ha = ハウサ語
 he = ヘブライ語
+hi-IN = ヒンディー語
 hr = クロアチア語
 hsb = 高地ソルブ語
 hu = ハンガリー語
@@ -279,8 +283,6 @@ profile-explanation = プロファイルを登録すると進捗の把握や、�
 thanks-for-account = 登録ありがとうございます。次はプロフィールの入力をお願いします。
 why-demographic = どうしてこれが問題なのですか？
 why-demographic-explanation = 年齢や性別、アクセントといった音声に関わるより詳細なユーザーデータは、匿名化した上で音声認識エンジンの精度向上に利用されます。あなたのユーザー名およびメールアドレスが送信したデータと関連付けられることは決してありません。また、ユーザー名を公開するか匿名にしておくかも選択できます。
-keep-me-posted =
-    .label = Common Voice についての最新の情報を入手します。
 accept-privacy = Mozillaの<privacyLink>プライバシーポリシー</privacyLink>の下でこの情報が用いられることに同意します。
 login-identity = ログイン用アカウント
 login-signup = ログイン / アカウント登録
@@ -318,6 +320,9 @@ faq-how-calc-hours-q = Common Voice はどのように時間を計算します�
 faq-where-src-from-2-q = 原文の出典はどこですか？
 faq-why-account-q = アカウント登録する必要があるのはなぜですか？
 faq-is-account-public-q = 私のアカウント情報は公開されていますか？
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -361,7 +366,7 @@ review-cancel = 提出をキャンセル
 review-keep-recordings = 録音を保持
 review-delete-recordings = 録音を削除
 
-## New Datasets Page
+## Datasets Page
 
 language = 言語
 # File size in gigabytes
@@ -523,3 +528,7 @@ remove = 削除
 keep-info = あなたの匿名の音声録音データは、Common Voice データセットに残ります。プロファイルを削除すると、録音データのデータセットからの削除を要求することができなくなります。
 remove-info = 私たちは、あなたの要求を確認してから音声録音データをデータセットから削除します。要求が承認された場合、同様にデータセットをダウンロードした人々に連絡を取り、あなたの音声録音データを削除してもらうように要請します。
 profile-form-delete = プロファイルを削除
+
+## Landing
+
+profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
