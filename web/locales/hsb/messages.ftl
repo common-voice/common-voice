@@ -396,6 +396,7 @@ faq-search-for-answers =
 about-title = Čehodla Common Voice?
 how-does-it-work-title = Kak to funguje
 about-speak = Rěčeć
+about-speak-text = Sobuskutkowarjo čitaja z datoweje banki sadow a nahrawaja hłosowe klipy.
 about-listen-queue = Słuchowy čakanski rynk
 about-listen-queue-text = Hłosowe klipy so do přenošowanskeho čakanskeho rynka zapodawaja, kotryž je za słuchanje k dispoziciji staja.
 about-listen = Poskać
