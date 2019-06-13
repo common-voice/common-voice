@@ -404,8 +404,6 @@ about-yes-votes = ≥ 2 n tefranin IH
 about-yes-votes-text = Akken ad yekcem ɣer tegrumma n yisefka Common Voice, yessefk tukkist n taɣect ad tettwaqbel sɣur sin n yimdanen yemgaraden.
 about-no-votes = ≥ 2 n tefranin UHU
 about-no-votes-text = Ticki aseqdac yugi tukkist n taɣect, taneggarut-a ad tuɣal ɣer udras n uraǧu. Ma yugin-tt tikkelt-nniḍen, tukkist ad teddu ɣer tjebbant n tukkisin.
-about-dataset = Tagrumma n yisefka Common Voice
-about-dataset-text = Tagrumma n yisefka Common Voice tegber timeyyatin n luluf n tukkisin n taɣect ara imudden ineflayen afus deg usnefli n yifecka n uɛqal n taɣect.
 about-clip-graveyard = Tajebbant n tukkisin
 about-clip-graveyard-text = Tajebbant n tukkisin tegber tukkisin ur nettwaqbel ara deg tegrumma n yisefka Common Voice. Am uneggaru-a, tajebbant n tukkisin tella i usider.
 about-partners = Imendiden
@@ -531,6 +529,7 @@ ready-to-validate = Theggaḍ i usenqed n tefyar?
 more = Ugar
 close = Mdel
 download = Sider
+dataset-version = Lqem
 
 ## Download Modal
 
