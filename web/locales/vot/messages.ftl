@@ -132,9 +132,9 @@ zh-TW = Китайский (Тайвань)
 
 speak = Pajatõ
 speak-now = Pajatõ nütt
-datasets = Наборы данных
+datasets = Riissad
 languages = Čeeled
-about = О нас
+about = Meiss
 profile = Профиль
 help = Api
 contact = Контакты
@@ -689,4 +689,4 @@ welcome-staff = Добро пожаловать, сотрудники { $company
 help-contribute = Вы можете помочь в создании разнообразного и открытого набора данных, создав профиль Common Voice и помогая своим голосом.
 login-company = Войти / Зарегистрироваться с помощью почты { $company }
 profile-not-required = Наличие профиля не обязательно для участия, хотя это полезно
-read-more-about = Узнайте больше на нашей странице «О нас»
+read-more-about = Узнайте больше на нашей странице «Meiss»
