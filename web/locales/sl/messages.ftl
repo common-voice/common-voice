@@ -388,6 +388,10 @@ faq-search-for-answers =
 
 about-title = Zakaj Common Voice?
 how-does-it-work-title = Kako deluje
+about-speak = Govori
+about-speak-text = Sodelujoči posnamejo glasovne posnetke iz nabora zbranih stavkov.
+about-listen-queue = Poslušaj – Čakalna vrsta
+about-listen = Poslušaj
 about-listen-text = Uporabniki preverijo točnost posnetkov in ali je govornik pravilno prebral stavek.
 about-is-it-valid = Ali je posnetek veljaven?
 about-is-it-valid-text = Glasovni posnetek je označen kot "veljaven", ko uporabnik zanj glasuje "Da".
@@ -396,10 +400,17 @@ about-yes-votes-text = Glasovni posnetek mora biti potrjen s strani dveh različ
 about-no-votes = ≥ 2 glasova Ne
 about-no-votes-text = Ko uporabnik zavrne glasovni posnetek, se ta vrne v čakalno vrsto. Če je zavrnjen drugič, se glasovni posnetek premakne v pokopališče posnetkov.
 about-dataset-new = Nabor podatkov Common Voice
+about-dataset-new-text = Nabor podatkov Common Voice vsebuje več sto tisoč glasovnih posnetkov, ki razvijalcem pomagajo pri izdelavi orodij za prepoznavanje govora.
 about-clip-graveyard = Pokopališče posnetkov
+about-clip-graveyard-text = Pokopališče posnetkov sestavljajo glasovni posnetki, ki niso bili vključeni v nabor podatkov Common Voice. Tako kot nabor podatkov, je tudi pokopališče posnetkov na voljo za prenos.
 about-partners = Partnerji
 about-become-a-partner = Postanite partner
 about-get-involved = Pridružite se
+about-get-involved-text =
+    Želite izboljšati Common Voice?
+    Odlično! Pridružite se nam po e-pošti ali na <discourseLink>forumu Discourse</discourseLink>,
+    pošljite povratne informacije na <githubLink>Githubu</githubLink>
+    ali se nam pridružite na <slackLink>kanalu Slack</slackLink>.
 about-nav-why-common-voice = Zakaj?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
@@ -670,3 +681,4 @@ profile-form-delete = Izbriši profil
 ## Landing
 
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
+read-more-about = Preberite več na naši strani O nas
