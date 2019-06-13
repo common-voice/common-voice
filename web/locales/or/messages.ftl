@@ -542,10 +542,13 @@ overall-accuracy = ମୋଟାମୋଟି ସଠିକତା
 
 ## Profile Delete
 
+delete-q = ଆପଣ କଣ ଆପଣଙ୍କର କଣ୍ଠ ରେକର୍ଡଗୁଡିକୁ ମଧ୍ୟ ଲିଭାଇବାକୁ ଅନୁରୋଧ କରିବେ, କିମ୍ବା ଆପଣ ତାହାକୁ କମନ ଭଏସ ତଥ୍ୟଭଣ୍ଡାରରେ ରଖିବାକୁ ଚାହିଁବେ?
 keep = ରଖନ୍ତୁ
 remove = ବାହାର କରନ୍ତୁ
 profile-form-delete = ପ୍ରଫାଇଲ ହଟାନ୍ତୁ
 
 ## Landing
 
+welcome-staff = { $company } ସଦସ୍ୟ ସ୍ୱାଗତମ!
+login-company = { $company } ଇମେଲଦ୍ୱାରା ଖାତା ଖୋଲନ୍ତୁ/ଲଗ ଇନ କରନ୍ତୁ
 read-more-about = ଆମ ସମ୍ପର୍କିତ ପୃଷ୍ଠାରେ ଅଧିକ ପଢନ୍ତୁ
