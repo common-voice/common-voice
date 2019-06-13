@@ -275,7 +275,7 @@ profile-form-accent =
 profile-form-age =
     .label = Ičä
 profile-form-gender =
-    .label = Пол
+    .label = Suku
 leaderboard-visibility =
     .label = Показывать меня в топе
 hidden = Скрытый
@@ -552,7 +552,7 @@ contact-title = Форма связи
 contact-form-name =
     .label = Nimi
 contact-form-message =
-    .label = Сообщение
+    .label = Čirjotuz
 contact-required = *обязательно
 
 ## Request Language Modal
