@@ -3,22 +3,19 @@ import {
   Localized,
   withLocalization,
 } from 'fluent-react/compat';
-const pick = require('lodash.pick');
 import * as React from 'react';
-import { connect } from 'react-redux';
-const { Tooltip } = require('react-tippy');
+import { useCallback, useEffect, useState } from 'react';
 import { RouteComponentProps, withRouter } from 'react-router';
-import API from '../../../../services/api';
+import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
 import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
-import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
-import StateTree from '../../../../stores/tree';
+import { useTypedSelector } from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
-import { LocaleLink } from '../../../locale-helpers';
+import { LocaleLink, useLocale } from '../../../locale-helpers';
 import TermsModal from '../../../terms-modal';
 import { DownIcon } from '../../../ui/icons';
 import {
@@ -30,6 +27,9 @@ import {
 } from '../../../ui/ui';
 
 import './info.css';
+
+const pick = require('lodash.pick');
+const { Tooltip } = require('react-tippy');
 
 const Options = withLocalization(
   ({
@@ -48,50 +48,76 @@ const Options = withLocalization(
   )
 );
 
-interface PropsFromState {
-  api: API;
-  locale: Locale.State;
-  user: User.State;
-}
-
-interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.addPill;
-  addUploads: typeof Uploads.actions.add;
-  saveAccount: typeof User.actions.saveAccount;
-}
-
-interface Props
-  extends LocalizationProps,
-    PropsFromState,
-    PropsFromDispatch,
-    RouteComponentProps<any> {}
-
 type Locales = { locale: string; accent: string }[];
 
-interface State {
-  username: string;
-  visible: number | string;
-  age: string;
-  gender: string;
-  locales: Locales;
-  sendEmails: boolean;
+function ProfilePage({
+  getString,
+  history,
+}: LocalizationProps & RouteComponentProps<any>) {
+  const api = useAPI();
+  const [locale] = useLocale();
+  const user = useTypedSelector(({ user }) => user);
+  const { account, userClients } = user;
 
-  isSaving: boolean;
-  isSubmitted: boolean;
-  privacyAgreed: boolean;
-  showDemographicInfo: boolean;
-  termsStatus: null | 'show' | 'agreed';
-}
+  const addNotification = useAction(Notifications.actions.addPill);
+  const addUploads = useAction(Uploads.actions.add);
+  const saveAccount = useAction(User.actions.saveAccount);
 
-class ProfilePage extends React.Component<Props, State> {
-  constructor(props: Props, context: any) {
-    super(props, context);
+  const [userFields, setUserFields] = useState<{
+    username: string;
+    visible: number | string;
+    age: string;
+    gender: string;
+    sendEmails: boolean;
+    privacyAgreed: boolean;
+  }>({
+    username: '',
+    visible: 0,
+    age: '',
+    gender: '',
+    sendEmails: false,
+    privacyAgreed: false,
+  });
+  const {
+    username,
+    visible,
+    age,
+    gender,
+    sendEmails,
+    privacyAgreed,
+  } = userFields;
+  const [locales, setLocales] = useState<Locales>([]);
+  const [isInitialized, setIsInitialized] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [showDemographicInfo, setShowDemographicInfo] = useState(false);
+  const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(
+    null
+  );
 
-    const { account, userClients } = props.user;
+  useEffect(() => {
+    if (user.isFetchingAccount || isInitialized) {
+      return;
+    }
+    setIsInitialized(true);
 
     if (!account && userClients.length == 0) {
-      props.history.push('/');
+      history.push('/');
     }
+
+    setUserFields({
+      ...userFields,
+      sendEmails: account && Boolean(account.basket_token),
+      visible: 0,
+      ...pick(user, 'age', 'username', 'gender'),
+      ...(account
+        ? pick(account, 'age', 'username', 'gender', 'visible')
+        : {
+            age: userClients.reduce((init, u) => u.age || init, ''),
+            gender: userClients.reduce((init, u) => u.gender || init, ''),
+          }),
+      privacyAgreed: Boolean(account) || user.privacyAgreed,
+    });
 
     let locales: Locales = [];
     if (!account) {
@@ -103,316 +129,246 @@ class ProfilePage extends React.Component<Props, State> {
         (l1, i) => i == locales.findIndex(l2 => l2.locale == l1.locale)
       );
     }
+    setLocales(account ? account.locales : locales);
+  }, [user]);
 
-    this.state = {
-      sendEmails: account && Boolean(account.basket_token),
-      visible: 0,
-      locales,
-      ...pick(props.user, 'age', 'username', 'gender'),
-      ...(account
-        ? pick(account, 'age', 'username', 'gender', 'locales', 'visible')
-        : {
-            age: userClients.reduce((init, u) => u.age || init, ''),
-            gender: userClients.reduce((init, u) => u.gender || init, ''),
-          }),
-
-      isSaving: false,
-      isSubmitted: false,
-      privacyAgreed: Boolean(account) || props.user.privacyAgreed,
-      showDemographicInfo: false,
-      showTermsModal: false,
-    };
-  }
-
-  toggleDemographicInfo = () => {
-    this.setState({
-      showDemographicInfo: !this.state.showDemographicInfo,
-    });
-  };
-
-  handleChangeFor = (field: keyof State) => ({
+  const handleChangeFor = (field: string) => ({
     target,
   }: React.ChangeEvent<any>) => {
-    this.setState({
+    setUserFields({
+      ...userFields,
       [field]: target.type == 'checkbox' ? target.checked : target.value,
-    } as any);
-  };
-
-  addLocale = () => {
-    const { locales } = this.state;
-    if (locales.length && !locales[locales.length - 1].locale) {
-      return;
-    }
-    this.setState({
-      locales: locales.concat({ locale: '', accent: '' }),
     });
   };
 
-  handleLocaleChangeFor = (i: number) => ({
-    target: { value },
-  }: React.ChangeEvent<HTMLSelectElement>) => {
-    const locales = this.state.locales.slice();
-    locales[i] = { locale: value, accent: '' };
-    if (!value) {
-      locales.splice(i, 1);
-    }
-    this.setState({
-      locales: locales.filter(({ locale }, i2) => i2 === i || locale !== value),
-    });
-  };
-
-  handleAccentChangeFor = (i: number) => ({
-    target: { value },
-  }: React.ChangeEvent<HTMLSelectElement>) => {
-    const locales = this.state.locales.slice();
-    locales[i].accent = value;
-    this.setState({ locales });
-  };
-
-  submit = () => {
-    const {
-      addNotification,
-      addUploads,
-      api,
-      getString,
-      locale,
-      user,
-      saveAccount,
-    } = this.props;
+  const submit = useCallback(() => {
     if (!user.account) {
       trackProfile('create', locale);
 
-      if (this.state.termsStatus == null) {
-        this.setState({ termsStatus: 'show' });
+      if (termsStatus == null) {
+        setTermsStatus('show');
         return;
       }
     }
-    this.setState(
-      { isSaving: true, isSubmitted: true, termsStatus: 'agreed' },
-      () => {
-        addUploads([
-          async () => {
-            if (
-              !(user.account && user.account.basket_token) &&
-              this.state.sendEmails
-            ) {
-              await api.subscribeToNewsletter(user.userClients[0].email);
-            }
-            saveAccount({
-              ...pick(this.state, 'username', 'age', 'gender'),
-              locales: this.state.locales.filter(l => l.locale),
-              visible: JSON.parse(this.state.visible.toString()),
-              client_id: user.userId,
-            });
-            this.setState({ isSaving: false });
-            addNotification(getString('profile-form-submit-saved'));
-          },
-        ]);
-      }
-    );
-  };
 
-  render() {
-    const { getString, locale, user } = this.props;
-    const {
-      username,
-      sendEmails,
-      visible,
-      age,
-      gender,
-      locales,
+    setIsSaving(true);
+    setIsSubmitted(true);
+    setTermsStatus('agreed');
 
-      isSaving,
-      isSubmitted,
-      privacyAgreed,
-      showDemographicInfo,
-      termsStatus,
-    } = this.state;
+    const data = {
+      ...pick(userFields, 'username', 'age', 'gender'),
+      locales: locales.filter(l => l.locale),
+      visible: JSON.parse(visible.toString()),
+      client_id: user.userId,
+    };
+    addUploads([
+      async () => {
+        if (!(user.account && user.account.basket_token) && sendEmails) {
+          await api.subscribeToNewsletter(user.userClients[0].email);
+        }
+        saveAccount(data);
+        setIsSaving(false);
+        addNotification(getString('profile-form-submit-saved'));
+      },
+    ]);
+  }, [api, getString, locale, locales, termsStatus, user, userFields]);
 
-    if (!user.account && user.userClients.length == 0) {
-      return null;
-    }
+  if (!isInitialized) {
+    return null;
+  }
 
-    return (
-      <div className="profile-info">
-        {termsStatus == 'show' && (
-          <TermsModal
-            onAgree={this.submit}
-            onDisagree={() => this.setState({ termsStatus: null })}
-          />
-        )}
-        {!user.account && (
-          <Localized id="thanks-for-account">
-            <h2 />
-          </Localized>
-        )}
-        <Localized id="why-profile-text">
-          <p />
+  return (
+    <div className="profile-info">
+      {termsStatus == 'show' && (
+        <TermsModal onAgree={submit} onDisagree={() => setTermsStatus(null)} />
+      )}
+      {!user.account && (
+        <Localized id="thanks-for-account">
+          <h2 />
         </Localized>
+      )}
+      <Localized id="why-profile-text">
+        <p />
+      </Localized>
 
-        <div
-          className={
-            'demographic-info ' + (showDemographicInfo ? 'expanded' : '')
-          }>
-          <button type="button" onClick={this.toggleDemographicInfo}>
-            <Localized id="why-demographic">
-              <span />
-            </Localized>
-
-            <DownIcon />
-          </button>
-          <Localized id="why-demographic-explanation">
-            <div className="explanation" />
-          </Localized>
-        </div>
-
-        <div className="form-fields">
-          <Localized id="profile-form-username" attrs={{ label: true }}>
-            <LabeledInput
-              value={username}
-              onChange={this.handleChangeFor('username')}
-            />
-          </Localized>
-
-          <Localized id="leaderboard-visibility" attrs={{ label: true }}>
-            <LabeledSelect
-              value={visible.toString()}
-              onChange={this.handleChangeFor('visible')}>
-              <Localized id="hidden">
-                <option value={0} />
-              </Localized>
-              <Localized id="visible">
-                <option value={1} />
-              </Localized>
-            </LabeledSelect>
-          </Localized>
-
-          <Localized id="profile-form-age" attrs={{ label: true }}>
-            <LabeledSelect value={age} onChange={this.handleChangeFor('age')}>
-              <Options>{AGES}</Options>
-            </LabeledSelect>
-          </Localized>
-
-          <Localized id="profile-form-gender" attrs={{ label: true }}>
-            <LabeledSelect
-              value={gender}
-              onChange={this.handleChangeFor('gender')}>
-              <Options>{SEXES}</Options>
-            </LabeledSelect>
-          </Localized>
-
-          {locales.map(({ locale, accent }, i) => (
-            <React.Fragment key={i}>
-              <Localized
-                id={
-                  i == 0
-                    ? 'profile-form-native-language'
-                    : 'profile-form-additional-language'
-                }
-                attrs={{ label: true }}>
-                <LabeledSelect
-                  value={locale}
-                  onChange={this.handleLocaleChangeFor(i)}>
-                  <option value="" />
-                  {Object.entries(NATIVE_NAMES).map(([locale, name]) => (
-                    <option key={locale} value={locale}>
-                      {name}
-                    </option>
-                  ))}
-                </LabeledSelect>
-              </Localized>
-              <Localized id="profile-form-accent" attrs={{ label: true }}>
-                <LabeledSelect
-                  value={accent}
-                  onChange={this.handleAccentChangeFor(i)}>
-                  <option value="" />
-                  {ACCENTS[locale] && <Options>{ACCENTS[locale]}</Options>}
-                </LabeledSelect>
-              </Localized>
-            </React.Fragment>
-          ))}
-        </div>
-
-        <Button className="add-language" outline onClick={this.addLocale}>
-          <Localized id="add-language">
+      <div
+        className={
+          'demographic-info ' + (showDemographicInfo ? 'expanded' : '')
+        }>
+        <button
+          type="button"
+          onClick={() => setShowDemographicInfo(!showDemographicInfo)}>
+          <Localized id="why-demographic">
             <span />
           </Localized>
-          <span>+</span>
-        </Button>
 
-        <Hr />
-
-        {!(user.account && user.account.basket_token) && (
-          <React.Fragment>
-            <div className="signup-section">
-              <Tooltip
-                arrow
-                html={getString('change-email-setings')}
-                theme="grey-tooltip">
-                <Localized id="email-input" attrs={{ label: true }}>
-                  <LabeledInput value={user.userClients[0].email} disabled />
-                </Localized>
-              </Tooltip>
-
-              <div className="checkboxes">
-                <LabeledCheckbox
-                  label={
-                    <Localized id="email-opt-in-info">
-                      <span />
-                    </Localized>
-                  }
-                  onChange={this.handleChangeFor('sendEmails')}
-                  checked={sendEmails}
-                />
-
-                {!user.account && !isSubmitted && (
-                  <React.Fragment>
-                    <LabeledCheckbox
-                      label={
-                        <Localized
-                          id="accept-privacy"
-                          privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
-                          <span />
-                        </Localized>
-                      }
-                      checked={privacyAgreed}
-                      onChange={this.handleChangeFor('privacyAgreed')}
-                    />
-
-                    <Localized id="read-terms-q">
-                      <LocaleLink to={URLS.TERMS} className="terms" blank />
-                    </Localized>
-                  </React.Fragment>
-                )}
-              </div>
-            </div>
-
-            <Hr />
-          </React.Fragment>
-        )}
-
-        <Localized id="profile-form-submit-save">
-          <Button
-            className="save"
-            rounded
-            disabled={isSaving || !privacyAgreed}
-            onClick={this.submit}
-          />
+          <DownIcon />
+        </button>
+        <Localized id="why-demographic-explanation">
+          <div className="explanation" />
         </Localized>
       </div>
-    );
-  }
+
+      <div className="form-fields">
+        <Localized id="profile-form-username" attrs={{ label: true }}>
+          <LabeledInput
+            value={username}
+            onChange={handleChangeFor('username')}
+          />
+        </Localized>
+
+        <Localized id="leaderboard-visibility" attrs={{ label: true }}>
+          <LabeledSelect
+            value={visible.toString()}
+            onChange={handleChangeFor('visible')}>
+            <Localized id="hidden">
+              <option value={0} />
+            </Localized>
+            <Localized id="visible">
+              <option value={1} />
+            </Localized>
+          </LabeledSelect>
+        </Localized>
+
+        <Localized id="profile-form-age" attrs={{ label: true }}>
+          <LabeledSelect value={age} onChange={handleChangeFor('age')}>
+            <Options>{AGES}</Options>
+          </LabeledSelect>
+        </Localized>
+
+        <Localized id="profile-form-gender" attrs={{ label: true }}>
+          <LabeledSelect value={gender} onChange={handleChangeFor('gender')}>
+            <Options>{SEXES}</Options>
+          </LabeledSelect>
+        </Localized>
+
+        {locales.map(({ locale, accent }, i) => (
+          <React.Fragment key={i}>
+            <Localized
+              id={
+                i == 0
+                  ? 'profile-form-native-language'
+                  : 'profile-form-additional-language'
+              }
+              attrs={{ label: true }}>
+              <LabeledSelect
+                value={locale}
+                onChange={({
+                  target: { value },
+                }: React.ChangeEvent<HTMLSelectElement>) => {
+                  const newLocales = locales.slice();
+                  newLocales[i] = { locale: value, accent: '' };
+                  if (!value) {
+                    newLocales.splice(i, 1);
+                  }
+                  setLocales(
+                    newLocales.filter(
+                      ({ locale }, i2) => i2 === i || locale !== value
+                    )
+                  );
+                }}>
+                <option value="" />
+                {Object.entries(NATIVE_NAMES).map(([locale, name]) => (
+                  <option key={locale} value={locale}>
+                    {name}
+                  </option>
+                ))}
+              </LabeledSelect>
+            </Localized>
+            <Localized id="profile-form-accent" attrs={{ label: true }}>
+              <LabeledSelect
+                value={accent}
+                onChange={({
+                  target: { value },
+                }: React.ChangeEvent<HTMLSelectElement>) => {
+                  const newLocales = locales.slice();
+                  newLocales[i].accent = value;
+                  setLocales(newLocales);
+                }}>
+                <option value="" />
+                {ACCENTS[locale] && <Options>{ACCENTS[locale]}</Options>}
+              </LabeledSelect>
+            </Localized>
+          </React.Fragment>
+        ))}
+      </div>
+
+      <Button
+        className="add-language"
+        outline
+        onClick={() => {
+          if (locales.length && !locales[locales.length - 1].locale) {
+            return;
+          }
+          setLocales(locales.concat({ locale: '', accent: '' }));
+        }}>
+        <Localized id="add-language">
+          <span />
+        </Localized>
+        <span>+</span>
+      </Button>
+
+      <Hr />
+
+      {!(user.account && user.account.basket_token) && (
+        <React.Fragment>
+          <div className="signup-section">
+            <Tooltip
+              arrow
+              html={getString('change-email-setings')}
+              theme="grey-tooltip">
+              <Localized id="email-input" attrs={{ label: true }}>
+                <LabeledInput value={user.userClients[0].email} disabled />
+              </Localized>
+            </Tooltip>
+
+            <div className="checkboxes">
+              <LabeledCheckbox
+                label={
+                  <Localized id="email-opt-in-info">
+                    <span />
+                  </Localized>
+                }
+                onChange={handleChangeFor('sendEmails')}
+                checked={sendEmails}
+              />
+
+              {!user.account && !isSubmitted && (
+                <React.Fragment>
+                  <LabeledCheckbox
+                    label={
+                      <Localized
+                        id="accept-privacy"
+                        privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                        <span />
+                      </Localized>
+                    }
+                    checked={privacyAgreed}
+                    onChange={handleChangeFor('privacyAgreed')}
+                  />
+
+                  <Localized id="read-terms-q">
+                    <LocaleLink to={URLS.TERMS} className="terms" blank />
+                  </Localized>
+                </React.Fragment>
+              )}
+            </div>
+          </div>
+
+          <Hr />
+        </React.Fragment>
+      )}
+
+      <Localized id="profile-form-submit-save">
+        <Button
+          className="save"
+          rounded
+          disabled={isSaving || !privacyAgreed}
+          onClick={submit}
+        />
+      </Localized>
+    </div>
+  );
 }
 
-export default connect<PropsFromState, any>(
-  ({ api, locale, user }: StateTree) => ({
-    api,
-    locale,
-    user,
-  }),
-  {
-    addUploads: Uploads.actions.add,
-    addNotification: Notifications.actions.addPill,
-    saveAccount: User.actions.saveAccount,
-  }
-)(withLocalization(withRouter(ProfilePage)));
+export default withLocalization(withRouter(ProfilePage));
