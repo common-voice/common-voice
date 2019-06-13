@@ -26,7 +26,8 @@ export async function sync(client_id: string) {
         ) AS first_contribution_date,
         current_goal.created_at AS goal_created_at,
         current_goal.days_interval,
-        MAX(awards.created_at) AS goal_reached_at
+        MAX(awards.created_at) AS goal_reached_at,
+        NOW() as last_active_date
       FROM user_clients
       LEFT JOIN custom_goals goals ON user_clients.client_id = goals.client_id
       LEFT JOIN custom_goals current_goal ON (
@@ -54,6 +55,9 @@ export async function sync(client_id: string) {
     created_at: toISO(row.goal_created_at),
     days_interval: row.days_interval,
     goal_reached_at: toISO(row.goal_reached_at),
+
+    last_active_date: toISO(row.last_active_date),
+    two_day_streak: false,
   };
   console.log('basket', JSON.stringify(data, null, 2));
   await sendRequest({
