@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useState } from 'react';
 import { CustomGoalParams } from 'common/goals';
 import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
-import { useTypedSelector } from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import Modal from '../../../modal/modal';
 import { PenIcon } from '../../../ui/icons';
