@@ -317,6 +317,7 @@ skip-submission-note = Remarque : vous devez encore choisir entre Parler et Éc
 off = Désactivé
 on = Activé
 add-avatar-title = Ajouter un avatar à votre profil
+add-avatar-clip = Ajouter un clip d’avatar à votre profil
 browse-file-title = Envoyer une image
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
 connect-gravatar = Connectez-vous avec Gravatar
@@ -405,6 +406,7 @@ about-yes-votes = ≥ 2 votes OUI
 about-yes-votes-text = Pour faire partie du jeu de données Common Voice, un échantillon vocal doit être validé par deux personnes distinctes.
 about-no-votes = ≥ 2 votes NON
 about-no-votes-text = Si une personne invalide un échantillon vocal, celui-ci retourne dans la file d’attente. S’il est rejeté une seconde fois, l’échantillon vocal est déplacé vers le cimetière des échantillons.
+about-dataset-new = Jeu de données Common Voice
 about-dataset-new-text = Le jeu de données Common Voice contient des centaines de milliers d’échantillons vocaux pour aider les développeurs à créer des applications vocales.
 about-clip-graveyard = Cimetière des échantillons
 about-clip-graveyard-text = Le cimetière des échantillons est constitué d’échantillons qui n’ont pas été admis à faire partie du jeu de données Common Voice. Tout comme ce dernier, le cimetière des échantillons est disponible au téléchargement.
@@ -531,6 +533,7 @@ ready-to-validate = Prêt(e) à nous aider à valider des phrases ?
 more = Informations supplémentaires
 close = Fermer
 download = Télécharger
+dataset-version = Version
 
 ## Download Modal
 
