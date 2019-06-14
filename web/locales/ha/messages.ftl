@@ -175,7 +175,7 @@ hours-recorded = Awannin da aka ɗauka
 hours-validated = Awannin da aka tantance
 voices-online = Muryoyin da suke a kan yanar gizo
 todays-progress = Cigaban da aka samu yau
-help-reach-goal = Taimaka mana mu cika burinmu { $goal }
+help-reach-goal = Taimaka mu je zuwa { $goal }
 read-terms-q = Ka karanta ƙa'idojinmu?
 ready-to-record = Ka shirya don ba da muryaka?
 all-locales = Duka
@@ -403,6 +403,7 @@ recorded-hours = Sa'o'in da aka naɗa
 whats-inside = Meye a cikin bayanan Common Voice?
 subscribe = Saka kanka
 get-started-speech = Fara da gane Managana (Speech Recognition)
+other-datasets = Sauran Bayanai(Dataset) na Muryoyi
 feedback-q = Kana da wani shawari?
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Je zuwa Discourse
@@ -459,6 +460,7 @@ listen = Saurari
 skip = Wuce
 shortcuts = Gajerun hanyoyi
 record-cta = Fara Ɗaukar Murya
+record-must-allow-microphone = Dole ne ka ƙyale samun damar microphone.
 record-no-mic-found = Ba'a samu makirfo ba
 record-error-too-short = Rikodin yayi kadan sosai.
 record-error-too-long = Naɗin yai tsawo da yawa
@@ -466,8 +468,15 @@ record-error-too-quiet = Naɗin yai shiru da yawa.
 record-cancel = Katse naɗin
 record-three-more-instruction = Saura uku ka gama!
 record-again-instruction2 = Cigaba da ƙoƙari, ƙara naɗar <recordIcon></recordIcon>
+record-last-instruction = <recordIcon> </ recordIcon> Na karshe!
 unable-speak = Ba za ka iya magana ba a yanzu?
+record-submit-tooltip = { $actionType } aika in ka gama
+clips-uploaded = An ɗora Clips ɗin
+record-abort-title = Fara gama rikodin ɗin?
+record-abort-submit = Shigar da Clips
 record-abort-continue = Kammala Ɗaukar Murya
+record-abort-delete = Fita & share clips
+listen-last-time-instruction = <playIcon> </ playIcon> Na karshe!
 record-button-label = Naɗi muryarka
 
 ## Goals
@@ -481,6 +490,11 @@ recordings =
     { $count ->
         [one] Rekodin
        *[other] Rekodin
+    }
+validations =
+    { $count ->
+        [one] Tabbatarwa
+       *[other] Tabbatarwa
     }
 
 ## Dashboard
