@@ -361,6 +361,7 @@ about-listen = Уазыӡырҩы
 about-is-it-valid = Ари анҵамҭа ииашаҵәҟьоума?
 about-yes-votes = ≥ 2 Ааи ралхра
 about-no-votes = ≥ 2 Мап ралхра
+about-dataset-new = Common Voice Адыррақәа реизга
 about-clip-graveyard = Анҵамҭа Анышәынҭра
 about-partners = Алахәылаҩцәа
 about-become-a-partner = Алахәылаҩ иҟаларц
@@ -474,6 +475,7 @@ ready-to-validate = Иудгалоу анҵамҭақәа ргәаҭаразы �
 more = Иҵегь
 close = Иарктәуп
 download = Иҭагалатәуп
+dataset-version = Аверсиа
 
 ## Download Modal
 
