@@ -210,6 +210,7 @@ compare-progress = Gwada yawan gudummawarka da ta sauran masu bada gudummawa a d
 whats-public = Menene a bainan  Jama'a?
 email-not-public = Ba za mu bayyana adireshin yanar gizonka ba ga jama'a.
 username-optin-public = Zaka iya zaɓar bayyana username a fili ko a asurce.
+username-email-not-demographic = Ba za a haɗa sunanka ba ko email ɗinka ba tare da bayanan da aka buga.
 
 ## Speak & Listen Shortcuts
 
@@ -234,6 +235,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Yi Rekodin/ Tsaya
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Kara daukan shirin
 request-language-button = Nemi izinin wani yaren
@@ -337,7 +339,7 @@ about-is-it-valid = Shin naɗin yana da kyau?
 about-is-it-valid-text = Ana alamta naɗin murya a matsayin mai kyau idan mai amfani ya bashi ƙuri'a ta ƙwarai.
 about-yes-votes = ƙuri'ar ƙwarai 2 ko fiye da haka
 about-no-votes = ƙuri'ar a'a 2 ko fiye da haka
-about-dataset = Dataset na Common Voice
+about-clip-graveyard = Clip Graveyard
 about-partners = Abokan hulɗa
 about-become-a-partner = Zamo abokin hulɗa
 about-get-involved = Shiga a dama da kai
@@ -382,11 +384,12 @@ review-cancel = Soke Turawa
 review-keep-recordings = Bar naɗe-naɗe na
 review-delete-recordings = Goge naɗe-naɗe na
 
-## New Datasets Page
+## Datasets Page
 
 language = Yare
 # File size in gigabytes
 size = Girma
+overall-hr-total = Jumullar Awowin da aka ƙirga
 cv-license = Lasisi
 audio-format = Tsarin bidiyo
 number-of-voices = Adadin muryoyi
@@ -394,6 +397,7 @@ splits = Rarraba
 email-to-download = Shigar da imel ɗinka don ka sauke
 size-gigabyte = GB
 size-megabyte = MB
+download-language = Ɗakko { $language }
 validated-hours = Sa'o'in da aka tantance
 recorded-hours = Sa'o'in da aka naɗa
 whats-inside = Meye a cikin bayanan Common Voice?
