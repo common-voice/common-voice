@@ -6,6 +6,7 @@ import StateTree, { useTypedSelector } from '../stores/tree';
 import { Localized } from 'fluent-react/compat';
 
 export const contributableLocales = require('../../../locales/contributable.json');
+export const discourseLocales = require('../../../locales/discourse.json');
 
 export interface LocalePropsFromState {
   locale: Locale.State;
@@ -33,6 +34,12 @@ export function useLocale(): [string, (path: string) => string] {
   const locale = useTypedSelector(({ locale }) => locale);
 
   return [locale, toLocaleRouteBuilder(locale)];
+}
+
+export function useLocalizedDiscourseURL() {
+  const [locale] = useLocale();
+  const base = 'https://discourse.mozilla.org/c/voice';
+  return discourseLocales.includes(locale) ? `${base}/${locale}` : base;
 }
 
 export const LocaleLink = localeConnector(

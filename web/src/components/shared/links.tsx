@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { TextButton } from '../ui/ui';
 import { trackGlobal } from '../../services/tracker';
 import ContactModal from '../contact-modal/contact-modal';
-import { useLocale } from '../locale-helpers';
+import { useLocale, useLocalizedDiscourseURL } from '../locale-helpers';
 
 interface SharedLinkProps {
   id?: string;
@@ -26,10 +26,11 @@ export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
 
 export const DiscourseLink = ({ dispatch, ...props }: SharedLinkProps) => {
   const [locale] = useLocale();
+  const discourseURL = useLocalizedDiscourseURL();
   return (
     <a
       target="blank"
-      href="https://discourse.mozilla-community.org/c/voice"
+      href={discourseURL}
       onClick={() => trackGlobal('discourse', locale)}
       {...props}
     />

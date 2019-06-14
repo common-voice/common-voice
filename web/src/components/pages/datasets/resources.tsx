@@ -3,6 +3,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { InView } from 'react-intersection-observer';
 import URLS from '../../../urls';
+import { useLocalizedDiscourseURL } from '../../locale-helpers';
 import { Button, LinkButton, StyledLink } from '../../ui/ui';
 import Dots from './dots';
 import datasets from './other-datasets';
@@ -112,6 +113,8 @@ export default React.memo(() => {
       value > maxValue ? [id, value] : [maxId, maxValue],
     [null, 0]
   )[0];
+  const discourseURL = useLocalizedDiscourseURL();
+
   return (
     <div className="dataset-resources">
       <nav>
@@ -161,12 +164,7 @@ export default React.memo(() => {
               'common-voice-info-new',
               'discourse',
               {
-                discourseLink: (
-                  <StyledLink
-                    href="https://discourse.mozilla.org/c/voice"
-                    blank
-                  />
-                ),
+                discourseLink: <StyledLink href={discourseURL} blank />,
               },
             ],
           ].map(([title, descriptionId, imgSrc, props]) => (
@@ -211,12 +209,7 @@ export default React.memo(() => {
                     <p />
                   </Localized>
                   <Localized id="go-discourse">
-                    <LinkButton
-                      href="https://discourse.mozilla.org/c/voice"
-                      blank
-                      rounded
-                      outline
-                    />
+                    <LinkButton href={discourseURL} blank rounded outline />
                   </Localized>
                 </div>
                 <div className="described-button">
