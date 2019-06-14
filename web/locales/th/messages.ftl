@@ -391,8 +391,8 @@ about-yes-votes = ≥ 2 โหวต ใช่
 about-yes-votes-text = ในการที่กลายเป็นส่วนหนึ่งชุดข้อมูล Common Voice คลิปเสียงจะต้องได้รับการตรวจสอบโดยผู้ใช้แยกกันสองคน
 about-no-votes = ≥ 2 โหวต ไม่
 about-no-votes-text = เมื่อผู้ใช้ปฏิเสธคลิปเสียง คลิปเสียงดังกล่าวก็จะกลับไปที่คิว หากถูกปฏิเสธ 2 ครั้ง คลิปเสียงดังกล่าวจะถูกย้ายไปที่สุสานคลิปเสียง
-about-dataset = ชุดข้อมูล Common Voice
-about-dataset-text = ชุดข้อมูล Common Voice มีตัวอย่างเสียงนับแสนที่ช่วยให้นักพัฒนาซอฟต์แวร์สร้างเครื่องมือการรู้จำเสียง
+about-dataset-new = ชุดข้อมูล Common Voice
+about-dataset-new-text = ชุดข้อมูล Common Voice มีตัวอย่างเสียงนับแสนที่ช่วยให้นักพัฒนาซอฟต์แวร์สร้างเครื่องมือรู้จำเสียง
 about-clip-graveyard = สุสานคลิปเสียง
 about-clip-graveyard-text = สุสานคลิปเสียงประกอบด้วยคลิปเสียงที่ไม่ถูกบรรจุอยู่ในชุดข้อมูลของ Common Voice ซึ่งคุณสามารถดาวน์โหลดสุสานคลิปเสียงได้เช่นเดียวกับชุดข้อมูล
 about-partners = ผู้มีส่วนร่วม
@@ -455,7 +455,7 @@ review-cancel = ยกเลิกการส่ง
 review-keep-recordings = เก็บการบันทึกไว้ต่อไป
 review-delete-recordings = ลบการบันทึกของฉัน
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = เรากำลังสร้างชุดข้อมูลเสียงแบบโอเพนซอร์สหลายภาษาที่ทุกคนสามารถใช้สอนโปรแกรมที่รับรู้เสียงพูด
 datasets-positioning =
@@ -500,6 +500,7 @@ ready-to-validate = พร้อมที่จะช่วยตรวจสอ
 more = เพิ่มเติม
 close = ปิด
 download = ดาวน์โหลด
+dataset-version = รุ่น
 
 ## Download Modal
 
