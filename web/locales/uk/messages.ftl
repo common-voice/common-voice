@@ -28,6 +28,7 @@ ar = Арабська
 as = Ассамська
 ast = Астурійська
 az = Азербайджанська
+ba = Башкирська
 bg = Болгарська
 bn = Бенгальська
 br = Бретонська
@@ -49,12 +50,16 @@ es = Іспанська
 et = Естонська
 eu = Баскська
 fa = Перська
+ff = Фульфульде
 fi = Фінська
 fo = Фарерська
 fr = Французька
 fy-NL = Фризька
 ga-IE = Ірландська
+gl = Галісійська
+ha = Хауса
 he = Іврит
+hi-IN = Гінді
 hr = Хорватська
 hsb = Верхньолужицька
 hu = Угорська
@@ -69,13 +74,16 @@ kab = Кабільська
 kk = Казахська
 ko = Корейська
 kpv = Комі-зирянська
+ku = Курдська
 kw = Корнська
 ky = Киргизька
+lij = Лігурійська
 lt = Литовська
 lv = Латвійська
 mdf = Мокшанська
 mhr = Луговомарійська
 mk = Македонська
+ml = Малаялам
 mn = Монгольська
 mrj = Гірськомарійська
 myv = Ерзянська
@@ -93,6 +101,7 @@ ru = Російська
 rw = Руандійська
 sah = Якутська
 sc = Сардинська
+si = Сингальська
 sk = Словацька
 sl = Словенська
 sq = Албанська
@@ -100,6 +109,7 @@ sr = Сербська
 sv-SE = Шведська
 ta = Тамільська
 te = Телугу
+tg = Таджицька
 th = Тайська
 tr = Турецька
 tt = Татарська
@@ -123,6 +133,7 @@ speak = Озвучити
 speak-now = Говорити зараз
 datasets = Набори даних
 languages = Мови
+about = Про нас
 profile = Профіль
 help = Допомога
 contact = Зв'язок
@@ -199,6 +210,7 @@ x-years-short =
 help-make-dataset = Допоможіть нам створити високоякісний, публічно-відкритий набір даних
 profile-not-required = Для допомоги необов'язково мати профіль, але він був би корисним
 sign-up-account = Зареєструвати обліковий запис
+email-subscription-title = Підпишіться на оновлення
 
 ## Account Benefits
 
@@ -216,6 +228,7 @@ whats-public = Які дані доступні всім?
 email-not-public = Ми не розкриваємо вашу адресу електронної пошти.
 recordings-and-locale-public = Кількість записів та мови, з якими ви допомагаєте, будуть загальнодоступними.
 username-optin-public = Ви можете зробити своє ім’я користувача загальнодоступним або анонімним.
+username-email-not-demographic = Ваше ім'я користувача та електронна пошта не будуть пов’язані з опублікованими даними.
 
 ## Speak & Listen Shortcuts
 
@@ -313,12 +326,14 @@ skip-submission-note = Примітка: Вам все одно необхідн
 off = Вимкнено
 on = Увімкнено
 add-avatar-title = Додати аватар у свій профіль
+add-avatar-clip = Додати аватар до профілю
 browse-file-title = Завантажити файл зображення
 browse-file = Перетягніть або <browseWrap>Огляд</browseWrap>
 connect-gravatar = З'єднатися з Gravatar
 gravatar_not_found = Для вашої електронної пошти не знайдено gravatar
 file_too_large = Обраний файл надто великий
 manage-subscriptions = Керувати підписками
+manage-email-subscriptions = Керувати підписками електронної пошти
 email-already-used = Електронна пошта уже використовується для іншого облікового запису
 add-language = Додати мову
 
@@ -328,12 +343,30 @@ faq-title = Часті питання
 faq-what-cv-q = Що таке Common Voice?
 faq-why-important-q = Чому це важливо?
 faq-how-get-q = Як я можу одержати дані Common Voice?
+faq-why-mission-q = Чому Common Voice є частиною місії Mozilla?
+faq-what-cv-and-deepspeech-q = У чому різниця між Common Voice та Deep Speech?
+faq-is-goal-assistant-q = Чи є метою Common Voice створення голосового помічника?
 
 ## ABOUT US
 
+about-speak = Говорити
+about-listen = Прослухати
+about-get-involved = Долучитися
+about-nav-partners = Партнери
+about-nav-get-involved = Долучитися
+mycroft-subtitle = Штучний інтелект
 
 ## Glossary
 
+localization = Локалізація
+localization-explanation = Це наш процес перекладу та адаптації нашого вмісту для багатьох мов.
+sentence-collection = Збірка речень
+sentence-collection-explanation = Збір речень з публічного ресурсу або написання нових для спільного доступу.
+hours-recorded-explanation = Підрахунок годин запису голосу, які ми зібрали на цей час.
+hours-validated-explanation = Кількість годин голосового запису, підтверджених 2 з 3 користувачів голосуванням ”Так”. Вони відзначають прогрес у загальному обсязі проекту на 10 тисяч годин.
+sst-explanation = Технології Speech-to-text (STT) перетворюють голосові дані в текст.
+de-identified = Знеособлений
+de-identified-explanation = Процес, за допомогою якого інформація про профіль учасника приховується в наданих голосових кліпах під час запаковування для завантаження, як частина набору даних.
 
 ## NotFound
 
@@ -371,16 +404,43 @@ review-delete-recordings = Видалити мої записи
 
 ## Datasets Page
 
+datasets-headline = Ми створюємо багатомовний набір даних із відкритим вихідним кодом, який може використовувати будь-хто для підготовки додатків з підтримкою мовлення.
+language = Мова
+# File size in gigabytes
+size = Розмір
+validated-hr-total = Всього годин перевірено
+overall-hr-total = Всього годин
+cv-license = Ліцензія
+audio-format = Формат аудіо
+number-of-voices = Кількість голосів
+why-email = <b>Навіщо електронна пошта?</b> У майбутньому може знадобитися зв’язатися з вами щодо змін у наборі даних, електронна пошта надасть нам таку можливість.
+confirm-size = Ви готові розпочати завантаження файлу <b>{ $size }</b>
 size-gigabyte = ГБ
 size-megabyte = МБ
+confirm-no-identify = <b>Ви погоджуєтеся</b> не намагатися визначити особистість спікерів у наборі даних Common Voice
+download-language = Завантажити { $language }
+validated-hours = Перевірено годин
+recorded-hours = Записано годин
+whats-inside = Що входить до набору даних Common Voice?
+want-dataset-update = Хочете бути в курсі нових випусків набору даних Common Voice? Підпишіться на нашу розсилку.
+subscribe = Підписатись
+get-started-speech = Початок роботи з розпізнаванням мови
+other-datasets = Інші набори голосових даних
+feedback-q = Залишити відгук
 data-other-librispeech-description = LibriSpeech є збіркою, що містить приблизно 1000 годин 16 кГц аудіозаписів англійської вимови, отриманих з проекту LibriVox.
 data-other-ted-name = Збірка TED-LIUM
 data-other-ted-description = Збірка TED-LIUM створена з аудіо-розмов та їхніх транскрипцій, доступних на веб-сайті TED.
 data-other-voxforge-description = VoxForge було створено для збирання транскрибованої вимови для використання в засобах розпізнавання мови з відкритим кодом.
 data-other-tatoeba-description = Tatoeba - це велика база даних речень, перекладів та аудіо для використання при вивченні мов. Це завантаження містить записи англійської мови від їхньої спільноти.
+your-feedback = У вас є ідеї про те, як ми можемо покращити набір даних Common Voice? Дайте нам знати про це на сторінці Discourse
+go-discourse = Перейти до Discourse
+missing-language = Не знайшли свою мову в наборі даних? Щоб надіслати запит на мову, перейдіть на сторінку Мови.
+go-languages-page = Перейти на сторінку Мови
+ready-to-validate = Готові допомогти в перевірці речень?
 more = Більше
 close = Закрити
 download = Завантажити
+dataset-version = Версія
 
 ## Download Modal
 
@@ -408,6 +468,8 @@ request-language-form-language =
     .label = Мова
 request-language-success-title = Запит мови успішно відправлений. Дякуємо вам.
 request-language-success-content = Ми дуже скоро зв'яжемося з вами та розповімо про те, як додати вашу мову до проекту Common Voice.
+select-language = Оберіть мову...
+other-language = Інша мова
 
 ## Languages Overview
 
@@ -497,6 +559,10 @@ validations =
 
 your-languages = Ваші мови
 toward-next-goal = Наступна ціль
+clips-you-recorded = Кліпи, які ви записали
+clips-you-validated = Кліпи, які ви перевірили
+todays-recorded-progress = Прогрес запису кліпів на Common Voice за сьогодні
+todays-validated-progress = Прогрес перевірки кліпів на Common Voice за сьогодні
 stats = Статистика
 you = Ви
 everyone = Усі користувачі
@@ -518,4 +584,8 @@ profile-form-delete = Видалити профіль
 
 ## Landing
 
+welcome-staff = Вітаємо співробітників { $company }!
+help-contribute = Ви можете допомогти у створенні різноманітного набору даних з відкритим кодом, створивши профіль Common Voice і надіславши свій голос.
+login-company = Вхід / Реєстрація з електронною поштою { $company }
 profile-not-required = Для допомоги необов'язково мати профіль, але він був би корисним
+read-more-about = Докладніше на сторінці Про нас
