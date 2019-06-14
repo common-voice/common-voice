@@ -10,6 +10,7 @@ submit-form-action = Відправити
 loading = Завантаження…
 email-opt-in-privacy = Погоджуючись отримувати листи, ви заявляєте, що згодні з тим, як Mozilla обробляє цю інформацію, згідно з <privacyLink>Політикою приватності<privacyLink> Mozilla.
 indicates-required = * поля, обов'язкові для заповнення
+not-available-abbreviation = Недоступно
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,6 +18,7 @@ indicates-required = * поля, обов'язкові для заповненн
 
 ## Languages
 
+ab = Абхазька
 ace = Ачеська
 ady = Адигейська
 af = Африкаанс
@@ -298,8 +300,6 @@ profile-explanation = Спостерігайте за прогресом, кор
 thanks-for-account = Дякуємо, що підтвердили свій обліковий запис, тепер створімо ваш профіль.
 why-demographic = Чому це важливо?
 why-demographic-explanation = Анонімні дані користувачів про вік, стать і акцент допомагають вдосконалити аудіо-дані, що використовуються для навчання точності розпізнавання мови. Ваше ім'я користувача і адреса електронної пошти ніколи не будуть пов'язані з відправленими вами даними, крім того ви також можете керувати доступністю свого імені користувача іншим, чи залишатися анонімними.
-keep-me-posted =
-    .label = Я бажаю бути в курсі останніх новин про Common Voice.
 accept-privacy = Я погоджуюся з тим, як ви поводитеся з цією інформацією, як це описано в <privacyLink>Політиці приватності</privacyLink> Mozilla
 login-identity = Запис для входу
 login-signup = Увійти / Зареєструватися
@@ -328,6 +328,9 @@ faq-title = Часті питання
 faq-what-cv-q = Що таке Common Voice?
 faq-why-important-q = Чому це важливо?
 faq-how-get-q = Як я можу одержати дані Common Voice?
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -366,7 +369,7 @@ review-cancel = Скасувати відправлення
 review-keep-recordings = Зберегти записи
 review-delete-recordings = Видалити мої записи
 
-## New Datasets Page
+## Datasets Page
 
 size-gigabyte = ГБ
 size-megabyte = МБ
@@ -512,3 +515,7 @@ remove = Видалити
 keep-info = Ваші анонімні записи голосу залишаться в наборі даних Common Voice. Після видалення вашого профілю ви більше не зможете відправити запит на видалення ваших записів з набору даних
 remove-info = Ми розглянемо ваш запит на видалення ваших голосових записів з набору даних. Якщо ваш запит буде схвалений, ми зв'яжемося з тими, хто завантажив цей набір даних, і попросимо їх видалити ваші записи голосу.
 profile-form-delete = Видалити профіль
+
+## Landing
+
+profile-not-required = Для допомоги необов'язково мати профіль, але він був би корисним
