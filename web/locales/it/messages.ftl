@@ -313,6 +313,7 @@ skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascol
 off = Disattiva
 on = Attiva
 add-avatar-title = Aggiungi un avatar al tuo profilo
+add-avatar-clip = Aggiungi un’immagine di profilo
 browse-file-title = Carica un’immagine
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
 connect-gravatar = Connetti Gravatar
@@ -397,8 +398,8 @@ about-yes-votes = ≥ 2 voti Sì
 about-yes-votes-text = Per essere inclusa nel dataset di Common Voice, una registrazione vocale deve essere validata da due utenti diversi.
 about-no-votes = ≥ 2 voti No
 about-no-votes-text = Quando un utente boccia una registrazione, essa torna nella Coda. Se bocciata una seconda volta, viene trasferita nel Cimitero delle registrazioni.
-about-dataset = Dataset di Common Voice
-about-dataset-text = Quando un utente boccia una registrazione, essa torna nella Coda. Se bocciata una seconda volta, viene trasferita nel Cimitero delle registrazioni.
+about-dataset-new = Dataset di Common Voice
+about-dataset-new-text = Il dataset di Common Voice contiene centinaia di migliaia di tipi di voce che aiutano gli sviluppatori a realizzare strumenti di riconoscimento vocale.
 about-clip-graveyard = Cimitero delle registrazioni
 about-clip-graveyard-text = Il Cimitero delle registrazioni è costituito dalle registrazioni vocali scartate dal dataset di Common Voice; anch’esso può essere scaricato liberamente.
 about-partners = Partner
@@ -463,7 +464,7 @@ review-cancel = Annulla invio
 review-keep-recordings = Conserva le registrazioni
 review-delete-recordings = Cancella le mie registrazioni
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite riconoscimento vocale.
 datasets-positioning =
@@ -514,6 +515,7 @@ ready-to-validate = Sei pronto a convalidare qualche frase?
 more = Altro
 close = Chiudi
 download = Scarica
+dataset-version = Versione
 
 ## Download Modal
 
