@@ -228,6 +228,7 @@ whats-public = Які дані доступні всім?
 email-not-public = Ми не розкриваємо вашу адресу електронної пошти.
 recordings-and-locale-public = Кількість записів та мови, з якими ви допомагаєте, будуть загальнодоступними.
 username-optin-public = Ви можете зробити своє ім’я користувача загальнодоступним або анонімним.
+demographic-deidentified = Демографічні дані (наприклад, вік, стать, мова та акцент), що надаються за бажанням, видаляються з наданих голосових даних і ніколи не будуть опубліковані у вашому профілі.
 username-email-not-demographic = Ваше ім'я користувача та електронна пошта не будуть пов’язані з опублікованими даними.
 
 ## Speak & Listen Shortcuts
@@ -346,6 +347,9 @@ faq-how-get-q = Як я можу одержати дані Common Voice?
 faq-why-mission-q = Чому Common Voice є частиною місії Mozilla?
 faq-what-cv-and-deepspeech-q = У чому різниця між Common Voice та Deep Speech?
 faq-is-goal-assistant-q = Чи є метою Common Voice створення голосового помічника?
+faq-do-want-native-q = Я не носій мови і я розмовляю з акцентом, чи потрібен вам мій голос?
+faq-do-want-native-a = Так, нам особливо потрібен ваш голос! Частина цілі Common Voice - зібрати якомога більше акцентів, щоб послуги розпізнавання голосу працювали однаково добре для всіх. Це означає, що внески від не носіїв мови є особливо важливими.
+faq-why-different-speakers-q = Чому вам потрібно стільки різних спікерів для кожної мови?
 
 ## ABOUT US
 
@@ -354,7 +358,11 @@ about-listen = Прослухати
 about-get-involved = Долучитися
 about-nav-partners = Партнери
 about-nav-get-involved = Долучитися
+mycroft-title = Mycroft Ai
 mycroft-subtitle = Штучний інтелект
+mycroft-description =
+    Mycroft - перший у світі асистент з відкритим кодом.
+    Mycroft працює будь-де - на настільному комп'ютері, в автомобілі або на Raspberry Pi.
 
 ## Glossary
 
@@ -427,6 +435,7 @@ subscribe = Підписатись
 get-started-speech = Початок роботи з розпізнаванням мови
 other-datasets = Інші набори голосових даних
 feedback-q = Залишити відгук
+common-voice-info-new = Маєте запитання стосовно Common Voice? Маєте ідеї щодо поліпшення або зворотного зв'язку про певну мову? Приєднуйтесь до нас на нашому <discourseLink>форумі Discourse</discourseLink> і повідомте нам.
 data-other-librispeech-description = LibriSpeech є збіркою, що містить приблизно 1000 годин 16 кГц аудіозаписів англійської вимови, отриманих з проекту LibriVox.
 data-other-ted-name = Збірка TED-LIUM
 data-other-ted-description = Збірка TED-LIUM створена з аудіо-розмов та їхніх транскрипцій, доступних на веб-сайті TED.
