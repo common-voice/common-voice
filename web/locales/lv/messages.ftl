@@ -355,25 +355,75 @@ faq-why-mission-a = Mozilla fokusējas uz tīmekļa atvēršanau un pieejamību 
 faq-what-cv-and-deepspeech-q = Kāda atšķirība starp Common Voice un Deep Speech?
 faq-what-cv-and-deepspeech-a = Kopējā balss datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech. Pirmā Deep Speech versija tika izlaista 2017. gada novembrī un turpina attīstīties kopš tā laika. Kopā ar kopējo balss datu kopu mēs uzskatām, ka atvērtā pirmkoda balss atpazīšanas tehnoloģijai jābūt pieejamai ikvienam. Mēs ceram, ka šīs tehnoloģijas ļaus izstrādātājiem izstrādāt inovatīvu produktu un pakalpojumu vilni.
 faq-is-goal-assistant-q = Vai Common Voice mērķis ir veidot balss asistentu?
+faq-is-goal-assistant-a = Kopējās balss datu kopas mērķis ir ļaut ikvienam pasaulē veidot runas atpazīšanu, runātāju atpazīšanu vai jebkāda cita veida lietojumprogrammu, kas strādā ar balss datiem. Balss palīgs ir tikai viens no daudziem lietojumprogrammu veidiem, kurus var veidot ar šo datu kopu.
 faq-do-want-native-q = Šī nav mana dzimtā valoda un es runāju ar akcentu, vai jums tomēr vajag manus balss ierakstus?
 faq-do-want-native-a = Jā, mēs īpaši vēlamies jūsu balsi! Common Voice mērķis ir apkopot pēc iespējas vairāk dažādu akcentu, lai balss atpazīšanas pakalpojumi darbotos vienlīdz labi visiem. Tas nozīmē, ka īpaši nozīmīgi ir ziedojumi no cilvēkiem, kuriem šī valoda nav dzimtā valoda.
 faq-why-different-speakers-q = Kāpēc jums ir nepieciešams tik daudz dažādu runātāju vienā valodā?
+faq-why-different-speakers-a =
+    Lielākā daļa runas datu bāzu tiek apmācītas ar dažu demogrāfisko datu pārmērīgu attēlošanu, kas rada novirzi attiecībā uz <articleLink>vidušķiras vīriešiem</articleLink>. Akcenti un dialekti, kas parasti ir nepietiekami pārstāvēti mācību datu kopās, parasti ir saistīti ar cilvēku grupām, kuras jau tā ir atstumtas. Daudzas mašīnas arī cenšas izprast sieviešu balsis.
+    Tāpēc mūsu balss datu bāzē mēs vēlamies daudzveidību!
 faq-why-my-lang-q = Kāpēc mana valoda vēl nav iekļauta?
+faq-why-my-lang-new-a = Mozilla neizvēlas nevienu valodu un nepiešķir prioritātes. Tā vietā, kopīgā balss ir tikai kopienas iniciatīva, bet, lai pievienotu jaunu valodu, nepieciešams <multilangLink>vairāki soļi</multilangLink>, lai sāktu balss ziedojumu apkopošanu. Pirmkārt, kopīgā balss tīmekļa vietne ir jātulko, lai kopienas locekļi varētu piekļūt tai savā valodā. Tālāk mums ir vajadzīgs plašs no autortiesībām brīvu teikumu krājums, lai cilvēki varētu lasīt. Tiklīdz abas šīs prasības ir izpildītas, valoda tiek iekļauta kopīgajā balsī, lai cilvēki varētu sākt ierakstīt savu balsi un apstiprināt citus ziedojumus. Ja vēlaties palīdzēt sākt jaunu valodu, dodieties uz mūsu <sentenceCollectorLink>teikuma vākšanas rīku</sentenceCollectorLink>, lai sāktu darbu.
 faq-what-quality-q = Kāda līmeņa audio kvalitāte ir nepieciešama, lai balss ierakstu varētu izmantot datu kopā?
+faq-what-quality-a = Mēs vēlamies, lai kopīgā balss datu kopa atspoguļotu skaņas kvalitāti, ko runātājs dzirdēs savvaļā, tāpēc mēs meklējam dažādību. Papildus daudzveidīgai runātāju kopai datu kopa ar atšķirīgu skaņas kvalitāti iemācīs runas-teksta dzinējam, rīkoties ar dažādām reālām situācijām, piemēram no fona ar automašīnu troksni. Kamēr jūsu balss klips ir saprotams, tas ir pietiekami labs datu kopai.
 faq-why-10k-hours-q = Kādēļ 10000 stundas ir mērķis ierakstu pārbaudē?
 faq-why-10k-hours-a = Tas ir aptuvenais stundu skaits, kas nepieciešams, lai kvalitatīvi apmācītu runas-teksta atpazīšanas sistēmu.
 faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
 faq-how-calc-hours-a = Mēs aprēķinām stundas, aprēķinot katra ieraksta vidējo garumu un tad reizinot šo skaitu ar kopējo ierakstu skaitu visās valodās.
 faq-where-src-from-2-q = No kurienes nāk teksti ierakstiem?
+faq-where-src-from-2-a =
+    Mūsu teksti sastāv no sākotnējiem ziedojumiem, kā arī no publiskā domēna filmu subtitriem, piemēram, <italic>It’s a Wonderful Life</italic>.
+    
+    Jūs varat apskatīt mūsu teikumus šajā <githubLink> GitHub mapē </githubLink>.
 faq-why-not-ask-read-q = Kāpēc jūs nelūdzat, lai cilvēki lasītu grāmatas vai Wikipedia rakstus dažādās valodās?
+faq-why-not-ask-read-a = Lai kopīgo balss datu kopu padarītu pēc iespējas lietderīgāku, mēs esam nolēmuši atļaut tajā tikai tekstu, kas ir pieejams saskaņā ar Creative Commons (CC0) licenci. Izmantojot CC0 standartu, ir grūtāk atrast un savākt avota tekstu, bet tas ļauj ikvienam izmantot iegūtos balss datus bez lietošanas ierobežojumiem vai Mozilla atļaujas. Galu galā mēs vēlamies padarīt daudzvalodu datu bāzi lietderīgu ikvienam, tostarp pētniekiem, universitātēm, uzņēmumiem, valdībām, sociālā mērķa organizācijām un vienkārši tehnoloģiju entuziastiem.
 faq-why-account-q = Kāpēc man jāreģistrējas?
 faq-is-account-public-q = Vai mana konta informācija ir publiski pieejama?
 faq-how-privacy-q = Kā jūs nodrošināsiet to cilvēku anonimitāti un privātumu, kuri ziedoja savas balsis?
+faq-how-privacy-a = Visos datu kopas balss klipos tiek noņemta visa personas identificējoša informācijas. Ja dalībnieks sniedz demogrāfiskos datus, izmantojot savu profilu, šī informācija tiek noņemta no viņu balss klipiem, pirms tie tiek pievienoti lejupielādei datu kopā un nekad netiek publiskoti profila lapā.
+faq-what-determine-identity-q = Ko tas nozīmē, ka es “nevaru noteikt runātāju identitāti kopīgajā balss datu kopā”?
+faq-what-determine-identity-a =
+    Kopējā balss datu kopa ir atvērts un publiski pieejams resurss, ko var izmantot, lai apmācītu dažādas runas iespējotas lietojumprogrammas. Lai aizsargātu mūsu dalībnieku drošību, mēs lūdzam ikvienu, kas lejupielādē kopīgo balss datu kopu, ievērot ieguldītāju privātumu.
+    
+    Visiem datu kopas balss klipiem tiek noņemta personas identifikācijas informācijas. Lejupielādējot datu kopu, jūs piekrītat nemēģināt noteikt dalībnieku identitāti. Tas nozīmē, ka jūs nevarat mēģināt saistīt informācijas kopu ar ierunātāja personisko informāciju. Tomēr jūs varat izmantot datu kopu, lai apmācītu runas atpazīšanu, runātāju atpazīšanu vai citas lietojumprogrammas, piemēram, saistot informāciju datu kopā ar citu informāciju, kas jau atrodas datu kopā.
+faq-what-is-cv = Kas ir kopējā balss?
+faq-using-cv = Kopējās balss izmantošana
+faq-description = Kopējā balss ir daļa no Mozilla iniciatīvas, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
+faq-search-for-answers =
+    .label = Meklēt atbildes
 
 ## ABOUT US
 
+about-title = Kāpēc ir kopīgā balss?
+about-subtitle = Kopējā balss ir daļa no Mozilla iniciatīvas, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā. Papildus kopīgajai balss datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
+about-header-description =
+    Abi šie projekti ir daļa no mūsu centieniem pārvarēt digitālās runas dalījumu. Balss atpazīšanas tehnoloģijas mūsu ierīcēm rada cilvēcisku dimensiju, bet izstrādātājiem ir nepieciešams milzīgs balss datu apjoms. Pašlaik lielākā daļa šo datu ir dārgi un patentēti.
+    Mēs vēlamies, lai balss dati būtu brīvi un publiski pieejami, un pārliecinieties, ka dati atspoguļo reālo cilvēku daudzveidību. Kopā mēs varam uzlabot balss atpazīstamību ikvienam.
+how-does-it-work-title = Kā tas darbojās?
+how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamsu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku klipu precizitāti, uzlabojiet datu kopu visiem.
+about-speak = Runājiet
+about-speak-text = Dalībnieki ieraksta balss klipus, lasot no apkopoto teikumu datu bāzes.
+about-listen-queue = Klausīšanās rinda
+about-listen-queue-text = Balss klipi tiek ievietoti apstrādes rindā, kas tos gatavo uz klausīšanos.
+about-listen = Klausieties
+about-listen-text = Lietotāji apstiprina iesniegto klipu precizitāti, pārbaudot, vai runātājs ir pareizi nolasījis teikumu.
+about-is-it-valid = Vai klips ir derīgs?
+about-is-it-valid-text = Balss klips ir atzīmēts kā "derīgs", ja lietotājs dod tam "jā" vērtējumu.
+about-yes-votes = ≥ 2 jā balsis
+about-yes-votes-text = Lai padarītu par daļu no balss datu kopas, klips ir jāapstiprina diviem atsevišķiem lietotājiem.
+about-no-votes = ≥ 2 nē balsis
+about-no-votes-text = Ja lietotājs noraida balss klipu, tas atgriežas rindā. Ja to noraida otro reizi, tas tiek pārvietots uz klipu kapu.
+about-dataset-new = Balss datu kopa
+about-dataset-new-text = Balss datu kopai ir simtiem tūkstošu balss paraugu, kas palīdz izstrādātājiem izveidot balss atpazīšanas rīkus.
+about-clip-graveyard = Klipu kapsēta
+about-clip-graveyard-text = Klipu kapsēta sastāv no balss klipiem, kas netika iekļauti balss datu kopā. Tāpat kā datu kopa, klipu kapsēta ir pieejama lejupielādei.
 about-partners = Partneri
 about-become-a-partner = Kļūsti par partneri
+about-partnership =
+    Kopējā balss ir kopējs sadarbības projekts, un mēs esam atkarīgi no mūsu partneru un dalībnieku kopienas, lai izveidotu lielāko atklāto balss datu kopu.
+    
+    Mēs vēlētos pateikties šādiem cilvēkiem un organizācijām par viņu palīdzību projektā:
+about-get-involved = Iesaistieties
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
