@@ -327,6 +327,7 @@ skip-submission-note = Evezhiadenn: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe
 off = Diweredekaet
 on = Gweredekaet
 add-avatar-title = Ouzhpennañ un avatar d'ho profil
+add-avatar-clip = Ouzhpennañ ur c'hlip avatar d'ho profil
 browse-file-title = Pellgasit ur restr skeudenn
 browse-file = Riklañ-leuskel pe <browseWrap>verdeit</browseWrap>
 connect-gravatar = Kevreañ gant Gravatar
@@ -414,8 +415,8 @@ about-yes-votes = ≥ 2 vouezh "Ya"
 about-yes-votes-text = Evit mont er spletad roadennoù Common Voice e rank ur c'hlip mouezh bezañ talvoudekaet gant daou implijer disheñvel.
 about-no-votes = ≥ 2 vouezh "Ket"
 about-no-votes-text = Pa 'z eo argaset ur c'hlip mouezh e zistro er roll gortoz. Mard eo nac'het un eil wech eo kaset d'ar vered klipoù.
-about-dataset = Spletad roadennoù Common VOice
-about-dataset-text = Spletad roadennoù Common Voice a zo kantadoù a viliadoù a standilhonoù mouezh ennañ. Sikour a reont an diorroerien da sevel ostilhoù adanaoudegezh ar vouezh.
+about-dataset-new = Spletad roadennoù Common Voice
+about-dataset-new-text = Spletad roadennoù Common Voice a endalc'h kantadoù a viliadoù standilhonoù mouezh a skoazell an diorroerien da sevel ostilhoù adanaoudegezh ar vouezh.
 about-clip-graveyard = Bered ar c'hlipoù
 about-clip-graveyard-text = Bered ar c'hlipoù a zo ar c'hlipoù mouezh n'int ket bet asantet e spletad roadennoù Common Voice. Gallout a raer pellgargañ bered ar c'hlipoù evel ar spletad roadennoù.
 about-partners = Kevelerien
@@ -485,7 +486,7 @@ review-cancel = Nullañ ar gasadenn
 review-keep-recordings = Mirout an enrolladennoù
 review-delete-recordings = Dilemel ma enrolladennoù
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Sevel a reomp spletadoù roadennoù mouezhioù digor o zarzh, lies-yezh hag a c'hall bezañ implijet gant forzh piv evit gourdonañ arloadoù anaoudegezh ar vouezh.
 datasets-positioning =
@@ -537,6 +538,7 @@ ready-to-validate = Prest da sikour gwiriañ frazennoù?
 more = Muioc'h
 close = Serriñ
 download = Pellgargañ
+dataset-version = Stumm
 
 ## Download Modal
 
