@@ -424,10 +424,21 @@ about-partnership =
     
     Mēs vēlētos pateikties šādiem cilvēkiem un organizācijām par viņu palīdzību projektā:
 about-get-involved = Iesaistieties
+about-get-involved-text =
+    Vēlaties palīdzēt uzlabot kopējo balss kvalitāti?
+    Lieliski! Sazinieties pa e-pastu vai <discourseLink>Discourse</discourseLink>,
+    iesniedziet atsauksmes, izmantojot <githubLink>GitHub</githubLink>,
+    vai pievienojieties mums <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
+about-nav-get-involved = Iesaistieties
+mycroft-title = Mycroft Ai
 mycroft-subtitle = Mākslīgais intelekts
+mycroft-description =
+    Mycroft ir pasaulē pirmais atklātā pirmkoda palīgs.
+    Mycroft darbojas jebkurā vietā - uz galda datora, automobiļa iekšienē vai Raspberry Pi.
+mycroft-secondary-description = Tā ir atvērtā koda programmatūra, ko var brīvi pārveidot, paplašināt un uzlabot. Mycroft var izmantot visur no zinātnes projekta līdz biznesa programmatūrai.
 
 ## Glossary
 
@@ -437,9 +448,11 @@ localization-explanation = Šis ir mūsu process, lai tulkotu un pielāgotu mūs
 sentence-collection = Teikumu kolekcija
 sentence-collection-explanation = Iegūt teikumus no publiskā domēna (public domain) vai rakstīt jaunus publiskā domēna tekstus.
 hours-recorded-explanation = Līdz šim savākto balss ierakstu stundu skaits.
+hours-validated-explanation = Balss ieraksta stundu skaits, ko apstiprinājuši 2 no 3 lietotājiem, balsojot „jā”. Tie iezīmē progresu virzībā uz vispārējo projekta 10k stundu mērķi.
 sst = Runa uz tekstu (STT)
 sst-explanation = Runas-teksta (STT) tehnoloģijas pārvērš balss datus tekstā.
 de-identified = Atbrīvots no identifikācijas
+de-identified-explanation = Process, kurā ierunātāja profila informācija tiek maskēta viņu ziedotajos balss klipos, ja tie ir pieejami lejupielādei kā datu kopas daļa.
 
 ## NotFound
 
@@ -454,13 +467,16 @@ data-download-deny = Nē
 data-download-license = Licence: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Jūs gatavojaties lejupielādēt <size>{ $size }GB</size>, turpināt?
 data-subtitle = Mēs veidojam atklātu un publiski pieejamu balsu datu kopu, ko ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
+data-explanatory-text = Mēs uzskatām, ka lielas un publiski pieejamas balss datu kopas veicina inovāciju un veselīgu komerciālu konkurenci mašīnmācības balstītā runas tehnoloģijā. Tas ir globāls darbs, un mēs aicinām ikvienu piedalīties. Mūsu mērķis ir palīdzēt runas tehnoloģijai būt iekļaujošākai, atspoguļojot dažādu pasaules balsu daudzveidību.
 data-get-started = <speechBlogLink>Darba sākšana ar runas atpazīšanu</speechBlogLink>
 data-other-title = Citas balss datu kopas…
 data-other-goto = Dodieties uz { $name }
 data-other-download = Lejupielādēt datus
 data-bundle-button = Lejupielādēt datu kopas komplektu
+data-bundle-description = Kopējie balss dati, kā arī visas citas balss datu kopas.
 license = Licence: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+review-terms = Izmantojot kopīgo balsi, jūs piekrītat mūsu <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes atrunai</privacyLink>
 terms-agree = Es piekrītu
 terms-disagree = Es nepiekrītu
 review-aborted = Augšupielāde tiek pārtraukta. Vai vēlaties dzēst savus ierakstus?
@@ -474,6 +490,13 @@ review-delete-recordings = Dzēst manus ierakstus
 
 ## Datasets Page
 
+datasets-headline = Mēs veidojam atvērtā pirmkoda, daudzvalodu datu kopu, kurā ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
+datasets-positioning =
+    Mēs uzskatām, ka lielas, publiski pieejamas balss datu kopas veicinās inovācijas un veselīgu komerciālu konkurenci mašīnmācībā balstītā runas tehnoloģijā.
+    
+    Kopējā balss daudzvalodu datu bāze jau ir lielākā šāda veida publiski pieejama balss datu kopa, bet tā nav vienīgā.
+    
+    Paskatieties uz šo lapu kā informācijas centru par citām atvērtā pirmkoda balss datu kopām un, tā kā kopējā balss turpina augt, mājās mūsu nākotnes atjauninājumiem.
 language = Valoda
 # File size in gigabytes
 size = Izmērs
@@ -493,23 +516,36 @@ download-language = Lejupielādēt { $language }
 validated-hours = Pārbaudītās stundas
 recorded-hours = Ierakstītās stundas
 whats-inside = Kas atrodas Common Voice datu kopā?
+dataset-description-hours =
+    Katrs datu kopas ieraksts sastāv no unikāla MP3 un atbilstoša teksta faila. Daudzās no <b>{ $total }</b> ierakstu stundām datu kopā ir arī demogrāfiskie metadati, piemēram, vecums, dzimums un akcents, kas var palīdzēt apmācīt runas atpazīšanas dzinēju precizitāti.
+    
+    Datu kopums pašlaik sastāv no <b>{ $valid }</b> pārbaudītām stundām <b>{ $languages }</b> valodās, bet mēs vienmēr pievienojam vairāk balsu un valodu. Apskatiet mūsu <languagesLink>valodu lapu</languagesLink>, lai pieprasītu valodu vai sāktu sniegt ieguldījumu.
+want-dataset-update = Vēlaties zināt, kad mēs izlaižam jaunu kopējās balss datu kopas versiju? Pierakstieties jaunumiem.
 subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
 feedback-q = Vai jum ir atsauksmes?
+deepspeech-info = Kopējā balss datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas lietojumprogrammas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
+common-voice-info-new = Vai jums ir jautājumi par kopējo balsi? Idejas uzlabojumiem vai atsauksmes par konkrētu valodu? Pievienojieties mums mūsu <discourseLink>Diskursa forumā</discourseLink> un informējiet mūs.
+data-other-librispeech-description = LibriSpeech ir aptuveni 1000 stundu 16Khz ar angļu valodas runu, kas iegūta no LibriVox projekta lasītajām audio grāmatām.
 data-other-ted-name = TED-LIUM korpuss
 data-other-ted-description = TED-LIUM korpuss tika izgatavots no audio ierakstiem un to transkripcijām, kas pieejamas TED tīmekļa vietnē.
+data-other-voxforge-description = VoxForge tika izveidots, lai savāktu transkribētu runu lietošanai bezmaksas un atvērtā koda runas atpazīšanas dzinējos.
+data-other-tatoeba-description = Tatoeba ir plaša teikumu, tulkojumu un runas audio datu bāze, kas izmantojama valodu apguvē. Šī lejupielāde satur runātās angļu valodas ierakstus, ko reģistrē viņu kopiena.
 your-feedback = Vai jums ir idejas par to, kā mēs varam padarīt labāku Common Voice datu kopu? Informējiet mūs par to Discourse servisā
 go-discourse = Doties uz Discourse
+missing-language = Vai neredzat savu valodu datu kopā? Lai pieprasītu valodu, ejiet uz mūsu valodu lapu.
 go-languages-page = Dodieties uz valodu lapu
 ready-to-validate = Vai esat gatavs palīdzēt pārbaudīt teikumus?
 more = Vairāk
 close = Aizvērt
 download = Lejupielādēt
+dataset-version = Versija
 
 ## Download Modal
 
 download-title = Jūsu lejupielāde ir sākusies.
+download-helpus = Palīdziet mums veidot balss tehnoloģiju kopienu, sazināties ar e-pastu.
 download-form-email =
     .label = Ievadi savu epastu
     .value = Paldies, mēs ar jums sazināsimies.
@@ -531,13 +567,16 @@ request-language-title = Valodas pieprasījums
 request-language-form-language =
     .label = Valoda
 request-language-success-title = Valodas pieprasījums ir veiksmīgi iesniegts, paldies.
+request-language-success-content = Mēs nosūtīsim vairāk informācijas par to, kā ļoti ātri pievienot valodu kopīgajai balsij.
 select-language = Uzstādiet valodu...
 other-language = Cita valoda
 
 ## Languages Overview
 
 language-section-in-progress = Procesā
+language-section-in-progress-new-description = Šīs valodas pašlaik ir kopienas attīstībā. Progresa joslas norāda, cik lielā mērā katrai valodai ir veikta <localizationGlossaryLink>vietnes lokalizācija</localizationGlossaryLink> un <sentenceCollectionGlossaryLink>teikumu kolekcijas izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Uzsākts
+language-section-launched-description = Šīm palaistām valodām vietne ir veiksmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
 languages-show-more = Rādīt vairāk
 languages-show-less = Rādīt mazāk
 language-speakers = Runātāji
