@@ -8,6 +8,7 @@ email-input =
     .label = Epasts
 submit-form-action = Nosūtīt
 loading = Ielāde...
+email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 email-opt-in-privacy = Izvēloties saņemt epasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā<privacyLink>.
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
@@ -398,7 +399,7 @@ review-cancel = Atcelt iesniegšanu
 review-keep-recordings = Saglabāt ierakstus
 review-delete-recordings = Dzēst manus ierakstus
 
-## New Datasets Page
+## Datasets Page
 
 language = Valoda
 # File size in gigabytes
