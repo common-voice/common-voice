@@ -598,8 +598,17 @@ listen = Klausīties
 skip = Izlaist
 shortcuts = Īsceļi
 clips-with-count = <bold>{ $count }</bold> ieraksti
+goal-help-recording = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } ierakstu mērķa!
+goal-help-validation = Jūs esat palīdzējuši kopējai balsij sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas { $goalValue } pārbaudīto ierakstu mērķa!
+contribute-more =
+    { $count ->
+        [zero] Vai esat gatavi vēl { $count }?
+        [one] Vai esat gatavi vēl { $count }?
+       *[other] Vai esat gatavi vēl { $count }?
+    }
 record-cta = Sāciet ierakstīšanu
 record-platform-not-supported = Diemžēl jūsu platforma pašlaik netiek atbalstīta.
+record-platform-not-supported-desktop = Datoros varat lejupielādēt jaunāko:
 record-platform-not-supported-ios = <bold>iOS</bold> lietotāji var lejupielādēt mūsu bezmaksas lietotni:
 record-must-allow-microphone = Jums jāļauj piekļūt mikrofonam.
 record-no-mic-found = Nav atrasts neviens mikrofons.
@@ -607,10 +616,16 @@ record-error-too-short = Ieraksts bija pārāk īss.
 record-error-too-long = Ieraksts bija pārāk garš.
 record-error-too-quiet = Ieraksts bija pārāk kluss.
 record-cancel = Atcelt atkārtotu ierakstīšanu
+record-instruction = { $actionType }<recordIcon></recordIcon> pēc tam skaļi nolasiet teikumu
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> kad viss gatavs
 record-three-more-instruction = Vel palikuši trīs!
 record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu nākamo ierakstu
+record-again-instruction2 = Turpinām, ierakstiet vēlreiz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
+review-tooltip = Pārskatiet un atkārtoti ierakstiet klipus
 unable-speak = Pašlaik nevar ierakstīt?
+review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet klipus
+record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
 clips-uploaded = Augšupielādētie ieraksti
 record-abort-title = Varbūt vispirms pabeidz ierakstu?
 record-abort-text = Aizejot, jūs zaudēsiet savu progresu
@@ -627,6 +642,7 @@ share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 
 ## Goals
 
+streaks = Sērijas
 days =
     { $count ->
         [zero] Dienas
@@ -679,4 +695,8 @@ profile-form-delete = Dzēst profilu
 
 ## Landing
 
+welcome-staff = Sveicināti { $company } darbinieki!
+help-contribute = Jūs varat palīdzēt veidot daudzveidīgu, atvērtā pirmkoda datu kopu, izveidojot kopīgās balss profilu un ierakstot savu balsi.
+login-company = Piesakieties / pierakstieties ar { $company } e-pastu
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
+read-more-about = Lasiet vairāk mūsu lapā Par mums
