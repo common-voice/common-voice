@@ -48,13 +48,16 @@ es = İspanyolca
 et = Estonca
 eu = Baskça
 fa = Farsça
+ff = Fulaca
 fi = Fince
 fo = Faroece
 fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
 gl = Galce
+ha = Hausaca
 he = İbranice
+hi-IN = Hintçe
 hr = Hırvatça
 hsb = Yukarı Sorbca
 hu = Macarca
@@ -68,12 +71,15 @@ kab = Berberice
 kk = Kazakça
 ko = Korece
 kpv = Komi Zıryan
+ku = Kürtçe
 kw = Kernevekçe
 ky = Kırgızca
+lij = Liguryanca
 lt = Litvanca
 lv = Letonca
 mdf = Mokşa
 mk = Makedonca
+ml = Malayalam
 mn = Moğolca
 myv = Erzyanca
 nb-NO = Norveç Bokmål
@@ -89,6 +95,7 @@ ro = Rumence
 ru = Rusça
 sah = Yakutça
 sc = Sardinya dili
+si = Seylanca
 sk = Slovakça
 sl = Slovakça
 sq = Arnavutça
@@ -96,6 +103,7 @@ sr = Sırpça
 sv-SE = İsveççe
 ta = Tamilce
 te = Telugu
+tg = Tacikçe
 th = Tayca
 tr = Türkçe
 tt = Tatarca
@@ -118,6 +126,7 @@ speak = Konuş
 speak-now = Şimdi konuşun
 datasets = Veri kümeleri
 languages = Diller
+about = Hakkında
 profile = Profil
 help = Yardım
 contact = İletişim
@@ -283,8 +292,6 @@ profile-explanation = Profil oluşturarak hem ilerlemenizi takip edebilir hem de
 thanks-for-account = Hesabınızı onayladığınız için teşekkür ederiz. Şimdi profilinizi oluşturalım.
 why-demographic = Bu neden önemli?
 why-demographic-explanation = Yaş, cinsiyet ve aksan gibi anonim kullanıcı verileri, konuşma tanıma motorlarının doğruluğunu eğitmek için kullanılan ses verilerini geliştirmeye yardımcı olur. Kullanıcı adınız ve e-postanız gönderilen verilerinizle asla ilişkilendirilmez. Kullanıcı adınızın başkaları tarafından görünüp görünmeyeceğini de seçebilirsiniz.
-keep-me-posted =
-    .label = Common Voice hakkındaki yenilik ve gelişmelerden haberdar olmak istiyorum.
 accept-privacy = Bu bilgilerin Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanılmasını kabul ediyorum
 login-identity = Giriş kimliği
 login-signup = Giriş / Kayıt
@@ -322,6 +329,13 @@ faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
 faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
+faq-what-is-cv = Common Voice nedir?
+
+## ABOUT US
+
+about-nav-why-common-voice = Neden ?
+about-nav-how-it-works = Nasıl ?
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
@@ -365,7 +379,7 @@ review-cancel = Gönderimi iptal et
 review-keep-recordings = Kayıtları tut
 review-delete-recordings = Kayıtlarımı sil
 
-## New Datasets Page
+## Datasets Page
 
 language = Dil
 # File size in gigabytes
@@ -397,6 +411,7 @@ ready-to-validate = Cümleleri doğrulamaya hazır mısınız?
 more = Daha fazla
 close = Kapat
 download = İndir
+dataset-version = Sürüm
 
 ## Download Modal
 
@@ -534,3 +549,7 @@ keep = Tut
 remove = Sil
 remove-info = Ses kayıtlarınızı veri kümelerinden kaldırma isteğinizi inceleyeceğiz. İsteğiniz onaylanırsa, veri kümesini indirenlerle iletişim kuracak ve ses kayıtlarınızı kaldırmalarını isteyeceğiz.
 profile-form-delete = Profilimi sil
+
+## Landing
+
+profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
