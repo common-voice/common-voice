@@ -349,6 +349,9 @@ faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lona
 
 ## ABOUT US
 
+about-nav-why-common-voice = Zei Ruangah?
+about-nav-how-it-works = Zeitin?
+about-nav-get-involved = I tal ve
 
 ## Glossary
 
@@ -413,6 +416,11 @@ data-other-voxforge-description = VoxForge cu mikip  nih zalong tele tling tein 
 data-other-tatoeba-description =
     Tatoeba cu holh cawnpiaknak ding ah biatlang, bialeh, le holh tuun mi chiahnak a si.
     Hi dawnlok mi chungah hin mikip nih mirang holh an tuun mi aa tal.
+ready-to-validate = Biatlang a hman le hman lo check dingah nai manh maw?
+more = Tamdeuh
+close = Khar
+download = Download
+dataset-version = A phun
 
 ## Download Modal
 
@@ -440,11 +448,15 @@ request-language-form-language =
     .label = Holh-phun
 request-language-success-title = Holh phun halnak a kuat cang, ka lawm.
 request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah ve lai ti kan in chimh tthan te lai.
+select-language = Holhphun thimnak...
+other-language = Holhphun dang
 
 ## Languages Overview
 
 language-section-in-progress = Tuah lio mi
+language-section-in-progress-new-description = Hi holhphun hna cu an miphun nih ser cuahmah lio an si. An ṭuanzat hna cu hi ka ah hin zoh khawh an si hna <localizationGlossaryLink> Website lehnak </localizationGlossaryLink> le <sentenceCollectionGlossaryLink> biatlang khawmhnak </sentenceCollectionGlossaryLink>.
 language-section-launched = Thlah cangmi
+language-section-launched-description = Hi thlah cangmi holhphun hna caah cun an website cu tling tein <localizationGlossaryLink> holh lehpiak </localizationGlossaryLink>, tling tein <sentenceCollectionGlossaryLink> biatlang khumh cia </sentenceCollectionGlossaryLink> le <speakLink>Holh</speakLink> le<listenLink> Ngai</listenLink> khawhnak zong tuah dih an si cang.
 languages-show-more = Tam deuh zoh
 languages-show-less = Tawm deuh zoh
 language-speakers = Biachimtu
