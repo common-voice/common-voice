@@ -335,6 +335,7 @@ faq-how-get-a = Gögn Samróms verður hægt að niðurhala með <licenseLink>CC
 faq-when-release-q = Hvenær verður Samrómur í boði fyrir fleiri tungumál?
 faq-when-release-a = Mozilla-samfélagið vinnur um þessar mundir að fjöltunguútgáfu af Samrómsgögnunum, með því takmarki að gefa út í janúar 2019. Ef þú hefur áhuga á að læra meira um þetta ferli eða hjálpa til, <contactLink>hafðu þá endilega samband</contactLink>. Eftir þessa útgáfu munum við reglulega uppfæra gagna safnið þegar ný tungumál og hljóðklippur bætast við. Ekki er búið að ákveða hversu langt verður á milli útgáfa.
 faq-why-mission-q = Hví er Samrómur eitt af markmiðum Mozilla?
+faq-why-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Samróm. Líkt og raddbúnaðartæknin þróast umfram sértæk forrit, trúum við að hún verði að þjóna öllum notendum jafnt. Það þýðir að fjölga tungumálum, framburðarsýnum og lýðfræðiupplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Samrómur verður opinn grunnur sem mun gagnast öllum en Mozilla teymi og forritarar úti um allan heim eru þegar byrjaðir að nota hann fyrir sín verkefni.
 faq-what-cv-and-deepspeech-q = Hver er munurinn á Samrómi og Deep Speech?
 faq-is-goal-assistant-q = Er það markmið Samróms að búa til raddaðstoðarkerfi?
 faq-do-want-native-q = Ég tala ekki þetta tungumál að móðurmáli og er með framburð, er enn áhugi fyrir því að ég leggi til raddupptökur?
@@ -441,11 +442,13 @@ data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum
 data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
 your-feedback = Ertu með hugmyndir um hvernig mætti bæta Samróms-gagnasafnið? Láttu okkur vita á Discourse
 go-discourse = Fara á Discourse
+missing-language = Sérðu ekki tungumálið þitt í gagnasafninu? Biddu um að því verði bætt við á Tungumála síðunni.
 go-languages-page = Fara á tungumálasíðu
 ready-to-validate = Tilbúin(n) til að hjálpa okkur að staðfesta setningar?
 more = Meira
 close = Loka
 download = Niðurhala
+dataset-version = Útgáfa
 
 ## Download Modal
 
@@ -591,6 +594,7 @@ profile-form-delete = Eyða prófíl
 
 ## Landing
 
+welcome-staff = Velkomin/n { $company }!
 help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms aðgang og gefa raddsýni.
 profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
 read-more-about = Lestu meira á um síðuna okkar
