@@ -10,6 +10,7 @@ submit-form-action = Kua
 loading = Thunlio...
 email-opt-in-privacy = Kan email i luh duhnak nai thim cu Mozilla nih <privacyLink> Kilvennak Policy <privacyLink> ning bantuk in keimah kong tawlrel ko, na ti duhnak a si.
 indicates-required = * aherh mi a um
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +28,7 @@ ar = Arabic holh
 as = Assam holh
 ast = Asturia holh (Spain)
 az = Azerbaijan holh
+ba = Bashkirs holh
 bg = Bulgarian holh
 bn = Bangla holh
 br = Brittany holh
@@ -48,29 +50,40 @@ es = Spanish holh
 et = Estonia holh
 eu = Basque holh
 fa = Persian holh
+ff = Fulah holh
 fi = Finland holh
 fo = Faroe Islands holh
 fr = France holh
 fy-NL = Frisia holh
 ga-IE = Ireland holh
+gl = Galician holh
+ha = Hausa holh
 he = Hebrew holh
+hi-IN = Hindi holh
+hr = Croatian holh
 hsb = Sorbian holh (chak lei)
 hu = Hungary holh
 ia = Interlingua
 id = Indonesia holh
 is = Iceland holh
 it = Italy holh
+izh = Izhorian holh
 ja = Japan holh
 ka = Georgia holh (Ram)
 kab = Kabyle holh
 kk = Kazakhstan holh
 ko = Korea holh
 kpv = Komi-Zyrian holh
+ku = Kurdish holh
 kw = Cornwall holh (England)
 ky = Kyrgyzstan holh
+lij = Ligurian holh
+lt = Lithuanian holh
+lv = Latvian holh
 mdf = Moksha holh
 mhr = Meadow Mari holh
 mk = Macedonia holh
+ml = Malayalam holh
 mn = Mongolia Holh
 mrj = Hill Mari holh
 myv = Erzia holh (Russia)
@@ -85,8 +98,10 @@ pt-BR = Portugal holh (Brazil)
 rm-sursilv = Romansh Sursilvan holh (Switzerland)
 ro = Romania holh
 ru = Russia holh
+rw = Kinyarwanda holh
 sah = Sakha holh (Yakut)
 sc = Sardinian holh
+si = Sinhala holh
 sk = Slovakia holh
 sl = Slovenia holh
 sq = Albania holh
@@ -94,6 +109,7 @@ sr = Serbia holh
 sv-SE = Sweden holh
 ta = Tamil holh (India)
 te = Telugu holh (India)
+tg = Tajik holh
 th = Thailand holh
 tr = Turkey holh
 tt = Tatar holh (Russia)
@@ -117,6 +133,7 @@ speak = Chim
 speak-now = Chim Ve.
 datasets = Pumhmi Data
 languages = Holhphun
+about = About
 profile = Nangmah Kong
 help = Bawmhnak
 contact = Pehtlaihnak
@@ -180,6 +197,7 @@ x-years-short =
 help-make-dataset = Mipi nih hman awktlak pumhmi data ser kan bawm
 profile-not-required = Aw tunnak dingah profile ngeih cu a herh lo nain na ngei ahcun a kan bawmh deuh lai
 sign-up-account = Account sernak
+email-subscription-title = Thawngpang thanhnak dingah cun account ser
 
 ## Account Benefits
 
@@ -224,6 +242,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Tun/Dinhter
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Aw-tun ṭhan
 request-language-text = Common Voice ah na holhphun na hmu maw?
 request-language-button = Holhphun kan hal
 
@@ -280,8 +300,6 @@ profile-explanation = Na tuahcia mi vialte zoh ṭhan hna law, aw kan lak ciami 
 thanks-for-account = Na account na fehter caah kan i lawm, atucu profile sersiam cang sih.
 why-demographic = Zei ruangah dah biapi a si?
 why-demographic-explanation = Na kum, nu maw pa sinak, na awcawi ti bantuk na kan theihter nak nih computer kan cawnpiaknak ah tampi a kan bawmhchanh lai. Na aw na kan kuatmi ah na email le na min zei tik hmanh ah a lang lai lo, cun mipi nih na min hmuhter na duh le duh lo zong nangmah nih na thim khawh.
-keep-me-posted =
-    .label = Common Voice konghi chimh peng le theih peng ka duh ko.
 accept-privacy = Keimah kong hi Mozilla <privacyLink> Kilvennak Pawlisi </privacyLink> i nan ṭial bantuk in hmang ko uh.
 login-identity = Lutnak
 login-signup = Luhnak / Min Peknak
@@ -295,12 +313,14 @@ skip-submission-note = Theihternak: Na aw pekchanhnak thlen na duh ahcun Chim si
 off = Phih
 on = Nunh
 add-avatar-title = Na hmanthlak chia
+add-avatar-clip = Na profile ah na hmanthlak cawlmi tar
 browse-file-title = Hmanthlak van khumh
 browse-file = Ṭhial law thla silole <browseWrap> Zoh </browseWrap>
 connect-gravatar = Gravatar he pehtonh
 gravatar_not_found = Na email ah hmanthlak kan hmu lo
 file_too_large = Na thimmi a lian tuk
 manage-subscriptions = Cakuat Zohkhenhnak
+manage-email-subscriptions = Email thawngthanhnak remh
 email-already-used = Na email cu midang nih an hman cang
 add-language = Holhphun Chapnak
 change-email-setings = Na email setting cu luhnak ahkhan thlen khawh a si
@@ -326,6 +346,9 @@ faq-why-not-ask-read-q = Zeiruangah dah cauk silole Wikipedia ca pawl mipi nan r
 faq-why-account-q = Zei ruangah dah account cu ka ser lai?
 faq-is-account-public-q = Ka account pawl hi mipi nih an hmu kho maw?
 faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lonak hnga nan tuah?
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -375,7 +398,7 @@ review-cancel = Kuatmi letṭhan
 review-keep-recordings = Tuun mi i chiah
 review-delete-recordings = Tuun mi hlonh
 
-## New Datasets Page
+## Datasets Page
 
 language = Holh phun
 validated-hr-total = Chek cangmi suimilam
@@ -421,9 +444,7 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 ## Languages Overview
 
 language-section-in-progress = Tuah lio mi
-language-section-in-progress-description = Tuah lio cuahmah mi holhphun hna cu anmah ram le miphun cio nih bawmhnak in ser an si; An ṭhanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
 language-section-launched = Thlah cangmi
-language-section-launched-new-description = Hi thlah cangmi holhphun hna caah cun tlamtling tein website hi an mah le holh cio in leh piak dih an si cang, cun biatlang zong a zatawk tein <italic> Chim</italic> le <italic> Ngaih</italic> khawhnak caah an khomh khawh cang.
 languages-show-more = Tam deuh zoh
 languages-show-less = Tawm deuh zoh
 language-speakers = Biachimtu
@@ -487,6 +508,7 @@ share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
 
 ## Goals
 
+streaks = Streaks
 days =
     { $count ->
         [one] Ni
@@ -528,4 +550,16 @@ keep = Chiah
 remove = Hlonh
 keep-info = Min hngalh loin na tun mi vialte cu Common Voice pumh mi data ah chiah an si lai. Na profile na hlonh hnu in cun aw hlonh fialnak cakuat a ngah ti lai lo.
 remove-info = Na aw data chungin tunmi hlonh dingin ca na kan kuat ahcun kan in zoh piak lai.  Hlonh awkah a tlak ko kan ti ahcun kan data a dawnlok tu vialte na aw hlonh dingin ca kan kuat chih hna lai.
+why-delete-recordings =
+    Common Voice aw tunmi cu sianginn kaimi, sipuaizi, le computer chawnhnak lei thiam sangmi hna nih aw le computer he a pehtlaimi sernak dingah an hman.
+    
+    Na aw tun ciami hlonh na duhnak ruang na kan chim kho hnga maw?
 profile-form-delete = Profile hlonhnak
+
+## Landing
+
+welcome-staff = { $company } rianṭuan kan in don!
+help-contribute = Aw phuntling le miphun caah a sunglawi mi dataset ser dingah profile i ser ve law na aw kan kua ve.
+login-company = { $company } email in Lutnak / Account sernak tuah
+profile-not-required = Aw tunnak dingah profile ngeih cu a herh lo nain na ngei ahcun a kan bawmh deuh lai
+read-more-about = 'About' ah tam deuh in rel
