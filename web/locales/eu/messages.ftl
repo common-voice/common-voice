@@ -50,6 +50,7 @@ es = Gaztelania
 et = Estoniera
 eu = Euskara
 fa = Pertsiera
+ff = Fula
 fi = Suomiera
 fo = Faroera
 fr = Frantsesa
@@ -387,7 +388,7 @@ about-is-it-valid = Grabaketa baliozkoa da?
 about-is-it-valid-text = Ahots grabaketa bat "baliozkoa" bezala markatzen da erabiltzaile batek Bai bozkatzen duenean.
 about-yes-votes = ≥ 2 Bai bozka
 about-no-votes = ≥ 2 Ez bozka
-about-dataset = Common Voice datu-sorta
+about-dataset-new = Common Voice datu-sorta
 about-clip-graveyard = Grabaketen hilerria
 about-clip-graveyard-text = Grabaketen hilerria Common Voice datu-sortan sartu ez diren ahots grabaketez osatuta dago. Datu-sorta bezala, Grabaketen hilerria ere deskargagarri dago.
 about-partners = Babesleak
@@ -448,7 +449,7 @@ review-cancel = Ezeztatu bidalketa
 review-keep-recordings = Mantendu grabazioak
 review-delete-recordings = Ezabatu nire grabazioak
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena hizketa baliatzen duten aplikazioak trebatzeko.
 datasets-positioning =
@@ -500,6 +501,7 @@ ready-to-validate = Esaldiak baliozkotzen laguntzeko prest?
 more = Gehiago
 close = Itxi
 download = Deskargatu
+dataset-version = Bertsioa
 
 ## Download Modal
 
@@ -647,3 +649,7 @@ why-delete-recordings =
     
     Esango al zeniguke zergatik nahi duzun zure grabaketak ezabatzea?
 profile-form-delete = Ezabatu profila
+
+## Landing
+
+profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
