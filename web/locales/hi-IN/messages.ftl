@@ -10,6 +10,7 @@ submit-form-action = जमा करें
 loading = लोड कर रहा है…
 email-opt-in-privacy = ईमेल प्राप्त करने का चयन करके आप मान रहें कि Mozilla के <privacyLink>गोपनीयता निति<privacyLink> के अनुसार Mozilla द्वारा इस जानकारी को संभाले जाने से आप संतुष्ट हैं।
 indicates-required = * आवश्यक क्षेत्र हैं
+not-available-abbreviation = उपलब्ध नहीं
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -26,7 +27,6 @@ ar = अरबी
 as = असामी
 ast = एस्चुरियन
 az = अज़रबैजानी
-bg = बल्गेरियाई
 bn = बंगाली
 br = ब्रेटन
 bxr = बुर्यात
@@ -174,7 +174,6 @@ x-years-short =
        *[other] साल
     }
 help-make-dataset = उच्च गुणवत्ता और सार्वजनिक डेटासेट को बनाने में हमारी सहायता करें
-profile-not-required = योगदान करने हेतु प्रोफाइल की आवश्यकता नहीं है फिर भी यह मददगार है
 sign-up-account = खाते के लिए साइन अप करें
 email-subscription-title = ईमेल द्वारा अवगत रहने हेतु साइन अप करें
 
@@ -342,7 +341,9 @@ validations =
 
 your-languages = आपकी भाषाएँ
 toward-next-goal = अगले लक्ष्य की ओर
-clips-you-recorded = ध्वनियां जो आपने रिकॉर्ड की है
+stats = आँकड़े
+you = आप
+everyone = सभी
 top-contributors = शीर्ष योगदानकर्ता
 recorded-clips = रिकॉर्ड किए गए क्लिप
 validated-clips = पुष्टि किए गए क्लिप
@@ -355,4 +356,3 @@ remove = हटाएँ
 
 ## Landing
 
-profile-not-required = योगदान करने हेतु प्रोफाइल की आवश्यकता नहीं है फिर भी यह मददगार है
