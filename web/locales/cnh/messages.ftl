@@ -349,9 +349,16 @@ faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lona
 
 ## ABOUT US
 
+about-get-involved = I tal ve
+about-get-involved-text =
+    Common Voice ṭhat ter deuh na duh maw?
+    <discourseLink> Discourse</discourseLink> ah na ruahnak kan kua, <githubLink>GitHub</githubLink> ah na ruahnak rak ṭial, silole <slackLink> Slack</slackLink> rak kan talpi.
 about-nav-why-common-voice = Zei Ruangah?
 about-nav-how-it-works = Zeitin?
+about-nav-partners = Partners
 about-nav-get-involved = I tal ve
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Artificial intelligence
 
 ## Glossary
 
@@ -404,8 +411,14 @@ review-delete-recordings = Tuun mi hlonh
 ## Datasets Page
 
 language = Holh phun
+# File size in gigabytes
+size = Hmetngan
 validated-hr-total = Chek cangmi suimilam
 overall-hr-total = Suimilam dihlak
+cv-license = Lisen
+splits = Ṭhen
+email-to-download = Download dingah cun na Email ṭial
+why-email = <b> Email cu zei ah?</b> Hmailei ah kan dataset ai thlenmi a um sual ahcun nangmah he pehtlaihnak ah kan hman lai.
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Dawnlok
