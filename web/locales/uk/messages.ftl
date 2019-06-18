@@ -8,6 +8,7 @@ email-input =
     .label = Е-пошта
 submit-form-action = Відправити
 loading = Завантаження…
+email-opt-in-info = Я хочу отримувати електронні листи з нагадуванням про цілі, повідомлення про досягнення та новини про Common Voice.
 email-opt-in-privacy = Погоджуючись отримувати листи, ви заявляєте, що згодні з тим, як Mozilla обробляє цю інформацію, згідно з <privacyLink>Політикою приватності<privacyLink> Mozilla.
 indicates-required = * поля, обов'язкові для заповнення
 not-available-abbreviation = Недоступно
@@ -256,6 +257,7 @@ shortcut-vote-no = н
 shortcut-record-toggle = в
 shortcut-record-toggle-label = Записати/Зупинити
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Перезаписати
 request-language-text = Не можете знайти свою мову в Common Voice?
 request-language-button = Запит нової мови
 
@@ -337,6 +339,7 @@ manage-subscriptions = Керувати підписками
 manage-email-subscriptions = Керувати підписками електронної пошти
 email-already-used = Електронна пошта уже використовується для іншого облікового запису
 add-language = Додати мову
+change-email-setings = Змініть свою адресу електронної пошти в налаштуваннях у розділі Запис для входу
 
 ## FAQ
 
@@ -344,18 +347,53 @@ faq-title = Часті питання
 faq-what-cv-q = Що таке Common Voice?
 faq-why-important-q = Чому це важливо?
 faq-how-get-q = Як я можу одержати дані Common Voice?
+faq-how-get-a = Набір даних Common Voice доступний для завантаження за ліцензією <licenseLink>CC0</licenseLink> на <datasetLink>нашій сторінці Наборів даних</datasetLink>. Також можна завантажити кілька інших загальнодоступних наборів даних з цієї ж сторінки.
+faq-when-release-q = Коли буде випущено дані Common Voice іншими мовами?
+faq-when-release-a = Багатомовна версія набору даних Common Voice в даний час підлягає спільній підтримці та очищенню. Якщо ви хочете дізнатися більше про підтримку цих зусиль, <contactLink>зв’яжіться з нами</contactLink>. Наразі ми орієнтуємося на січень 2019 року. Після цього ми періодично оновлюватимемо набір даних новими мовами та голосовими кліпами, коли вони стануть доступними. Регулярна каденція циклу випуску все ще визначається.
 faq-why-mission-q = Чому Common Voice є частиною місії Mozilla?
 faq-what-cv-and-deepspeech-q = У чому різниця між Common Voice та Deep Speech?
+faq-what-cv-and-deepspeech-a = Набір даних Common Voice доповнює механізм розпізнавання мовлення Deep Speech Mozilla. Перша версія Deep Speech була випущена в листопаді 2017 року і продовжує розвиватися. Разом із набором даних Common Voice, ми вважаємо, що ця технологія розпізнавання голосу з відкритим вихідним кодом повинна бути доступною для всіх. Ми сподіваємося, що ці технології дозволять розробникам створити хвилю інноваційних продуктів і послуг.
 faq-is-goal-assistant-q = Чи є метою Common Voice створення голосового помічника?
 faq-do-want-native-q = Я не носій мови і я розмовляю з акцентом, чи потрібен вам мій голос?
 faq-do-want-native-a = Так, нам особливо потрібен ваш голос! Частина цілі Common Voice - зібрати якомога більше акцентів, щоб послуги розпізнавання голосу працювали однаково добре для всіх. Це означає, що внески від не носіїв мови є особливо важливими.
 faq-why-different-speakers-q = Чому вам потрібно стільки різних спікерів для кожної мови?
+faq-why-my-lang-q = Чому мою мову досі не включено?
+faq-what-quality-q = Який рівень якості звуку повинен мати голосовий запис для використання в наборі даних?
+faq-how-calc-hours-q = Як Common Voice підраховує години?
+faq-where-src-from-2-q = Звідки походить вихідний текст?
+faq-is-account-public-q = Чи є інформація про мій обліковий запис загальнодоступною?
+faq-how-privacy-q = Як ви забезпечуєте анонімність і конфіденційність людей, які додали свої голоси?
+faq-what-is-cv = Що таке Common Voice?
+faq-using-cv = Використання Common Voice
+faq-search-for-answers =
+    .label = Пошук відповідей
 
 ## ABOUT US
 
+about-title = Чому Common Voice?
+how-does-it-work-title = Як це працює?
 about-speak = Говорити
 about-listen = Прослухати
+about-yes-votes = ≥ 2 голосів за
+about-no-votes = ≥ 2 голосів проти
+about-no-votes-text = Коли користувач відхиляє голосовий кліп, він повертається до черги. Якщо відхилено другий раз, голосовий кліп переміщується до Кладовища записів.
+about-dataset-new = Набір даних Common Voice
+about-clip-graveyard = Кладовище записів
+about-clip-graveyard-text = Кладовище записів складається з голосових файлів, які не входять до набору даних Common Voice. Подібно до набору даних, Кладовище записів доступне для завантаження.
+about-partners = Партнери
+about-become-a-partner = Стати партнером
+about-partnership =
+    Common Voice - це спільний проект, і ми залежимо від нашої спільноти партнерів і учасників у створенні найбільшого набору даних із відкритим вихідним кодом.
+    
+    Ми хочемо подякувати наступним людям і організаціям за допомогу в проекті:
 about-get-involved = Долучитися
+about-get-involved-text =
+    Хочете допомогти зробити Common Voice ще кращим?
+    Чудово! Зв'яжіться через електронну пошту або на сторінці <discourseLink>Discourse</discourseLink>,
+    залиште відгук на <githubLink>GitHub</githubLink>,
+    або приєднайтеся до нас на <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Чому?
+about-nav-how-it-works = Як?
 about-nav-partners = Партнери
 about-nav-get-involved = Долучитися
 mycroft-title = Mycroft Ai
@@ -363,6 +401,7 @@ mycroft-subtitle = Штучний інтелект
 mycroft-description =
     Mycroft - перший у світі асистент з відкритим кодом.
     Mycroft працює будь-де - на настільному комп'ютері, в автомобілі або на Raspberry Pi.
+mycroft-secondary-description = Це програмне забезпечення з відкритим вихідним кодом, яке можна вільно реміксувати, розширювати і вдосконалювати. Mycroft може використовуватися всюди – від наукового проекту до корпоративного програмного забезпечення.
 
 ## Glossary
 
@@ -413,6 +452,12 @@ review-delete-recordings = Видалити мої записи
 ## Datasets Page
 
 datasets-headline = Ми створюємо багатомовний набір даних із відкритим вихідним кодом, який може використовувати будь-хто для підготовки додатків з підтримкою мовлення.
+datasets-positioning =
+    Ми вважаємо, що великі, загальнодоступні набори голосових даних сприятимуть інноваціям і здоровій комерційній конкуренції в технології мовлення на основі машинного навчання.
+    
+    Багатомовний набір даних Common Voice вже є найбільшим загальнодоступним набором голосів у своєму роді, але він не єдиний.
+    
+    Розглядайте цю сторінку як опорний вузол для інших голосових наборів даних з відкритим вихідним кодом і, зі зростанням Common Voice, як домівку для наших оновлень.
 language = Мова
 # File size in gigabytes
 size = Розмір
@@ -421,6 +466,7 @@ overall-hr-total = Всього годин
 cv-license = Ліцензія
 audio-format = Формат аудіо
 number-of-voices = Кількість голосів
+email-to-download = Вкажіть адресу електронної пошти для завантаження
 why-email = <b>Навіщо електронна пошта?</b> У майбутньому може знадобитися зв’язатися з вами щодо змін у наборі даних, електронна пошта надасть нам таку можливість.
 confirm-size = Ви готові розпочати завантаження файлу <b>{ $size }</b>
 size-gigabyte = ГБ
@@ -435,6 +481,7 @@ subscribe = Підписатись
 get-started-speech = Початок роботи з розпізнаванням мови
 other-datasets = Інші набори голосових даних
 feedback-q = Залишити відгук
+deepspeech-info = Набір даних Common Voice доповнює механізм розпізнавання голосу з відкритим вихідним кодом Mozilla, який можна використовувати для створення програм розпізнавання мовлення. Прочитайте наш <githubLink>огляд на Github</githubLink> або приєднайтеся до <discourseLink>DeepSpeech Discourse</discourseLink>, щоб дізнатися, як розпочати роботу.
 common-voice-info-new = Маєте запитання стосовно Common Voice? Маєте ідеї щодо поліпшення або зворотного зв'язку про певну мову? Приєднуйтесь до нас на нашому <discourseLink>форумі Discourse</discourseLink> і повідомте нам.
 data-other-librispeech-description = LibriSpeech є збіркою, що містить приблизно 1000 годин 16 кГц аудіозаписів англійської вимови, отриманих з проекту LibriVox.
 data-other-ted-name = Збірка TED-LIUM
@@ -483,6 +530,7 @@ other-language = Інша мова
 ## Languages Overview
 
 language-section-in-progress = В процесі
+language-section-in-progress-new-description = Наразі ці мови розвиваються спільнотою. Індикатори прогресу вказують, наскільки далеко кожна мова просунулася в процесі <localizationGlossaryLink>локалізації веб-сайту</localizationGlossaryLink> і <sentenceCollectionGlossaryLink>збору речень</sentenceCollectionGlossaryLink>.
 language-section-launched = Запущено
 languages-show-more = Більше мов
 languages-show-less = Менше мов
@@ -589,6 +637,10 @@ keep = Залишити
 remove = Видалити
 keep-info = Ваші анонімні записи голосу залишаться в наборі даних Common Voice. Після видалення вашого профілю ви більше не зможете відправити запит на видалення ваших записів з набору даних
 remove-info = Ми розглянемо ваш запит на видалення ваших голосових записів з набору даних. Якщо ваш запит буде схвалений, ми зв'яжемося з тими, хто завантажив цей набір даних, і попросимо їх видалити ваші записи голосу.
+why-delete-recordings =
+    Записи Common Voice використовуються науковцями, малими підприємствами та ентузіастами розпізнавання голосу, які допомагають навчати та нарощувати доступні для громадськості ресурси, такі як голосові моделі.
+    
+    Чи можете ви повідомити нам, чому ви бажаєте, щоб ваші записи були видалені?
 profile-form-delete = Видалити профіль
 
 ## Landing
