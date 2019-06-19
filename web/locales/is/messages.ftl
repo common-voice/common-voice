@@ -358,13 +358,23 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Af hverju er mitt tungumál ekki enn hluti af verkefninu?
 faq-why-my-lang-new-a = Mozilla setur ekkert eitt tungumál framar öðrum. Verkefnið Samrómur er algjörlega keyrt áfram af samfélaginu, en það eru <multilangLink>nokkur skref sem þarf að fylgja til að bæta nýju tungumáli við</multilangLink> og geta byrjað að safna raddgjöfum. Fyrst þarf vefsíða Samróms að vera þýdd svo meðlimir samfélagsins geti haft aðgang að verkfærum Samróms á eigin máli. Næst þarf nægilegt safn af setningum sem leyfi liggur fyrir að nota til þess að gefa upptökur af. Þegar þessar forkröfur eru uppfylltar er tungumálið "gefið út" á Samrómi fyrir fólk að byrja að taka upp raddhljóðbrot og staðfesta hljóðbrot annarra. Ef þú vilt hjálpa til við að bæta nýju máli við, kíktu á <sentenceCollectorLink>setningasöfnunartólið</sentenceCollectorLink> okkar.
 faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
+faq-what-quality-a = Við viljum að Samrómsgagnasafnið endurspegli hljóðgæðum sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðum og slæmum gæðum. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
 faq-why-10k-hours-q = Hvers vegna er upptökumarkmiðið 10.000 klst á tungumál?
+faq-why-10k-hours-a = Þetta er u.þ.b. sá fjöldi klukkustunda sem þarf til að þjálfa markaðshæfan raddgreini.
 faq-how-calc-hours-q = Hvernig reiknar Samrómur þessa klukkutíma?
+faq-how-calc-hours-a = Við teljum klukkustundirnar með því að áætla meðallengd hverrar upptöku og mörgföldum svo þá tölu með heildarfjölda upptaka í öllum tungumálum.
 faq-where-src-from-2-q = Hvaðan kemur lestextinn?
+faq-where-src-from-2-a =
+    Lestrartextinn samanstendur af frumsömdum framlögum frá einstaklingum og frá kvikmyndahandritum í almenningseign eins og <italic>It’s a Wonderful Life</italic>.
+    
+    Hægt er að sjá allar lestarsetningar <githubLink>á GitHub</githubLink>.
 faq-why-not-ask-read-q = Hvers vegna biðjið þið ekki fólk að lesa úr bókum eða greinum af Wikipedia í ólíkum tungumálum?
+faq-why-not-ask-read-a = Til að gera Samrómsgagnasafnið eins nýtilegt og hægt er höfum við ákveðið að leyfa aðeins lestrarsetningar sem falla undir leyfið Creative Commons (CC0). Það gerir það erfiðara að finna lestrarsetningar til að nota, en gerir okkur kleyft að gefa út raddupptökurnar undir sama leyfi sem þýðir að hver sem er getur notað það í hvaða tilgangi sem er án afskipta. Á endanum er það markmiðið hjá okkur, að hafa fjöltungugagnasafn sem nýtist eins mörgum og mögulegt er, þ.á.m. vísindamönnum, háskólum, sprotafyrirtækjum, ríkisstjórnum, félagsstofnunum og áhugafólki.
 faq-why-account-q = Af hverju ætti ég að skrá mig?
 faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
+faq-how-privacy-a = Persónulega einkennani gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðilega stika á síðuna þeirra, eru þær upplýsingar aftengar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á síðu raddgjafans.
+faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samómsgagnasafninu?
 faq-what-is-cv = Hvað er Samrómur?
 faq-using-cv = Notkunn Samróms
 faq-description = Samrómur er verkefni á vegum Mozilla sem gengur út á það að fkenna tölvum að skilja hvernig mannfólk talar.
