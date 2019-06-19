@@ -356,6 +356,7 @@ faq-why-different-speakers-a =
     Flest gagnasöfn hafa verið þjálfuð með lýðfræðilega bjöguðum gögnum, þar sem hallar á alla þjóðfélagshópa nema <articleLink>karlmenn í millistétt</articleLink>. Oft vantar líka upptökur með hreimum og í mállýskum sem tilheyra minnihlutahópum sem nú þegar eiga undir högg að sækja í samfélaginu. Mörgum tækjum reynist erfitt að skilja kvenmannsaddir.
     Þess vegna viljum við fá fjölbreytileika í okkar raddgagnasafn!
 faq-why-my-lang-q = Af hverju er mitt tungumál ekki enn hluti af verkefninu?
+faq-why-my-lang-new-a = Mozilla setur ekkert eitt tungumál framar öðrum. Verkefnið Samrómur er algjörlega keyrt áfram af samfélaginu, en það eru <multilangLink>nokkur skref sem þarf að fylgja til að bæta nýju tungumáli við</multilangLink> og geta byrjað að safna raddgjöfum. Fyrst þarf vefsíða Samróms að vera þýdd svo meðlimir samfélagsins geti haft aðgang að verkfærum Samróms á eigin máli. Næst þarf nægilegt safn af setningum sem leyfi liggur fyrir að nota til þess að gefa upptökur af. Þegar þessar forkröfur eru uppfylltar er tungumálið "gefið út" á Samrómi fyrir fólk að byrja að taka upp raddhljóðbrot og staðfesta hljóðbrot annarra. Ef þú vilt hjálpa til við að bæta nýju máli við, kíktu á <sentenceCollectorLink>setningasöfnunartólið</sentenceCollectorLink> okkar.
 faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
 faq-why-10k-hours-q = Hvers vegna er upptökumarkmiðið 10.000 klst á tungumál?
 faq-how-calc-hours-q = Hvernig reiknar Samrómur þessa klukkutíma?
@@ -413,6 +414,7 @@ about-nav-partners = Samstarfsaðilar
 about-nav-get-involved = Taka þátt
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Gervigreind
+mycroft-secondary-description = Þetta er opinn hugbúnaður sem má breyta, bæta við og þróa að vild. Mycroft má nota við rannsóknir, fyrirtækjalausnir og allt þar á milli.
 
 ## Glossary
 
