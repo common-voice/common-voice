@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Já, sendið mér tölvupóst. Ég vil vera upplýstur um Samróm.
+yes-receive-emails = Já, sendið mér tölvupóst. Ég vil fylgjast með Samrómi.
 stayintouch = Við hjá Mozilla erum að setja á laggirnar raddtæknisamfélag. Við viljum vera í sambandi varðandi uppfærslur, nýjar gagnaveitur og til að fá að heyra meira um hvernig þessi gögn eru nýtt.
 privacy-info = Við heitum því að meðhöndla upplýsingarnar þínar af varkárni. Nánar í <privacyLink>Tilkynningu um persónuvernd</privacyLink>.
 return-to-cv = Til baka í Samróm
@@ -144,7 +144,6 @@ logout = Útskrá
 
 ## Home Page
 
-home-title = Samrómur er frumkvæði Mozilla til þess að kenna vélum hvernig alvöru fólk talar.
 home-cta = Hækkið róminn, deilið hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
 wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
@@ -310,6 +309,7 @@ skip-submission-note = Athugið: Maður verður samt að velja á milli tals eð
 off = Af
 on = Ǻ
 add-avatar-title = Hlaða inn prófílmynd
+add-avatar-clip = Settu inn forsíðumynd af þér
 browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
@@ -330,6 +330,7 @@ faq-what-cv-a =
     
     Við söfnum ekki einungis raddsýnum af útbreiddum málum heldur einnig þeim sem hafa fámennari mælendahópa. Með útgáfu fjölbreyttra gagna mun Samrómur styrkja þróendur, frumkvöðla og samfélög til að brúa bilið sjálf. Til viðbótar við Samróms-gagnasafnið er einnig unnið undir frjálsu hugbúnaðarleyfi að raddgreiningartækinu Deep Speech.
 faq-why-important-q = Hvers vegna er þetta mikilvægt?
+faq-why-important-a = Ein af okkar allra náttúrulegustu leiðum til þess að tjá okkur og eiga samskipti er með tali og tækniframfarir eru að gera okkur kleift að eiga í samskiptum við tölvurnar okkar, síma og önnur tæki. Við viljum efla þróunaraðila til þess að gera frábærar máltæknilausnir eins og rauntíma textaþýðingar og raddstýrðar aðstoðartæki. En núverandi gagnasett sem eru nauðsynleg til þróa svona lausnir eru skammt á veg komin og haldinn notkunarskilmálum. Okkar von er að gagnasettið á Samróm muni gefa þróunaraðilum það sem þeir þurfa til þess að búa til nýjungar og gera máltæknilausnir aðgengilegar á öllum tungumálum.
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
 faq-how-get-a = Gögn Samróms verður hægt að niðurhala með <licenseLink>CC0-leyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig verður hægt að niðurhala nokkur önnur gagnasöfn á síðunni sem opin eru almenningi.
 faq-when-release-q = Hvenær verður Samrómur í boði fyrir fleiri tungumál?
