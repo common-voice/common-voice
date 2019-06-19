@@ -330,7 +330,7 @@ faq-what-cv-a =
     
     Við söfnum ekki einungis raddsýnum af útbreiddum málum heldur einnig þeim sem hafa fámennari mælendahópa. Með útgáfu fjölbreyttra gagna mun Samrómur styrkja þróendur, frumkvöðla og samfélög til að brúa bilið sjálf. Til viðbótar við Samróms-gagnasafnið er einnig unnið undir frjálsu hugbúnaðarleyfi að raddgreiningartækinu Deep Speech.
 faq-why-important-q = Hvers vegna er þetta mikilvægt?
-faq-why-important-a = Ein af okkar allra náttúrulegustu leiðum til þess að tjá okkur og eiga samskipti er með tali og tækniframfarir eru að gera okkur kleift að eiga í samskiptum við tölvurnar okkar, síma og önnur tæki. Við viljum efla þróunaraðila til þess að gera frábærar máltæknilausnir eins og rauntíma textaþýðingar og raddstýrðar aðstoðartæki. En núverandi gagnasett sem eru nauðsynleg til þróa svona lausnir eru skammt á veg komin og haldinn notkunarskilmálum. Okkar von er að gagnasettið á Samróm muni gefa þróunaraðilum það sem þeir þurfa til þess að búa til nýjungar og gera máltæknilausnir aðgengilegar á öllum tungumálum.
+faq-why-important-a = Ein af okkar allra náttúrulegustu leiðum til þess að tjá okkur og eiga samskipti er með tali og tækniframfarir eru að gera okkur kleift að eiga slík samskipti við tölvurnar okkar, síma og önnur tæki. Við viljum efla þróunaraðila til þess að gera frábærar máltæknilausnir eins og textaþýðingar í rauntíma og raddstýrð aðstoðartæki. En til þess þarf góð og nothæf gagnasett, og því miður eru núverandi aðgengileg gagnasett kostnaðarsöm og háð notkunarskilmálum. Okkar von er að gagnasettið á Samrómi muni gefa þróunaraðilum það sem þeir þurfa til þess að búa til nýjungar og gera máltæknilausnir aðgengilegar á öllum tungumálum.
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
 faq-how-get-a = Gögn Samróms verður hægt að niðurhala með <licenseLink>CC0-leyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig verður hægt að niðurhala nokkur önnur gagnasöfn á síðunni sem opin eru almenningi.
 faq-when-release-q = Hvenær verður Samrómur í boði fyrir fleiri tungumál?
@@ -366,13 +366,45 @@ how-does-it-work-title = Hvernig virkar það?
 about-speak = Tal
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
 about-listen-queue = Hlustunar röð
+about-listen = Hlusta
+about-listen-text = Notendur staðfesta nákvæmnina af gefnum hljóðbrotum og athuga hvort mælandinn hafi sagt setninguna rétt.
+about-is-it-valid = Er þetta hljóðbrot gilt?
+about-is-it-valid-text = Hljóðbrot er merkt "staðfest" þegar notandi gefur því Já atkvæði.
+about-yes-votes = ≥ 2 Já atkvæði
+about-yes-votes-text = Til þess að komast inn í Samrómsgagnasafnið, þá þarf hljóðbrot að vera yfirfarið af tveim einstaklingum.
+about-no-votes = ≥ 2 Nei atkvæði
+about-no-votes-text = Þegar notandi hafnar hljóðbroti þá fer það aftur í Röðina. Ef því er hafnað í annað sinn, þá fer hljóðbrotið í Hljóðbrotagrafreitinn.
+about-dataset-new = Samrómsgagnasafnið
+about-dataset-new-text = Samsrómsgagnasafnið samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreina.
+about-clip-graveyard = Hljóðbrotagrafreitur
+about-clip-graveyard-text = Hljóðbrotagrafreiturinn samanstendur af raddhljóðbrotum sem gátu ekki orðið hluti af Samrómsgagnasafninu. Rétt eins og gagnasafnið er Hljóðbrotagrafreiturinn aðgengilegur til niðurhals.
+about-partners = Samstarfsaðilar
+about-become-a-partner = Skráðu þig sem samstarfsaðila
+about-partnership =
+    Samrómur er samstarfsverkefni, og við erum háð samfélaginu okkar af samstarfsaðilum og almeningi sem leggur sitt að mörkum til þess að byggja stærsta opna raddgagnasafn sem fyrirfinnst.
+    
+    Við þökkum eftirfarandi aðilum og samtökum fyrir þeirra framlag til verkefnisins:
+about-get-involved = Taktu þátt
+about-get-involved-text =
+    Viltu aðstoða við að gera Samróm enn betri?
+    Frábært! Settu þig í samband með tölvupósti eða á <discourseLink>Discourse</discourseLink>,
+    sendu inn athugasemdir á <githubLink>GitHub</githubLink>,
+    eða kíktu við á <slackLink>Slack-rásinni okkar</slackLink>.
+about-nav-why-common-voice = Af hverju?
+about-nav-how-it-works = Hvernig?
+about-nav-partners = Samstarfsaðilar
+about-nav-get-involved = Taka þátt
+mycroft-subtitle = Gervigreind
 
 ## Glossary
 
 glossary = Orðaskýringar
 localization = Staðfærsla
+localization-explanation = Þetta er ferlið okkar í þýðingu og aðlögun á efni verkefnisins fyrir fjölda tungumála.
 sentence-collection = Setningaforði
 sentence-collection-explanation = Söfnun á almennum setningum eða að skrifa nýjar fyrir almenning.
+hours-recorded-explanation = Fjöldi klukkutíma af raddupptökum sem við höfum safnað nú þegar.
+hours-validated-explanation = Fjöldi klukkutíma af yfirförnum hljóðbrotum sem hafa verið yfirfarnir og fengið "já" atkvæði frá tveim af hverjum þrem notendum. Þessir klukkutímar telja upp í 10 þúsund klukkutíma markmiðið.
 sst = Tal-í-texta (TÍT)
 sst-explanation = Tal-í-texta (TÍT) er tækni sem breytir raddupptökum í texta.
 de-identified = Einkennissneiðing
@@ -414,6 +446,13 @@ review-delete-recordings = Eyða upptökum
 
 ## Datasets Page
 
+datasets-headline = Við erum að byggja opið og aðgengilegt, fjöltyngt gagnasafn af röddum sem hver sem er getur notað til þess að þjálfa raddstýrð forrit.
+datasets-positioning =
+    Við trúum því að að stór gagnasett sem eru opin almenningi muni styðja við nýsköpun og stuðla að heilbrigðri markaðssamkeppni innan tæknigeirans á sviði máltæknilausna.
+    
+    Samrómsgagnasafnið er nú þegar stærsta opna radd gagnasafnið sinnar tegundar, en það er ekki það eina.
+    
+    Þú getur litið til þessarar síðu sem miðlægrar upplýsingasíðu fyrir önnur opin raddgagnasöfn og, samhliða því sem Samrómur vex, sem heimasíðu fyrir okkar uppfærslur.
 language = Tungumál
 # File size in gigabytes
 size = Stærð
