@@ -394,8 +394,6 @@ about-yes-votes = ≥ 2 votos Si
 about-yes-votes-text = Pro lo introducer in le collection de datos de Common Voice, un retalio vocal debe ser validate per duo diverse usatores.
 about-no-votes = ≥ 2 votos No
 about-no-votes-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
-about-dataset = Collection de datos de Common Voice
-about-dataset-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
 about-clip-graveyard = Cemeterio del retalios
 about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal que non es admittite in le collection de datos de Common Voice. Justo como le collection de datos, le Cemeterio del retalios es disponibile pro discarga.
 about-partners = Partners
@@ -469,7 +467,7 @@ review-cancel = Cancellar invio
 review-keep-recordings = Retener le registrationes
 review-delete-recordings = Deler mi registrationes
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Nos produce un collection de datos open-source e multe-lingua que omnes pote usar pro provar applicationes activate per le voce.
 datasets-positioning =
@@ -521,6 +519,7 @@ ready-to-validate = Preste a adjutar validar phrases?
 more = Altero
 close = Clauder
 download = Discargar
+dataset-version = Version
 
 ## Download Modal
 
