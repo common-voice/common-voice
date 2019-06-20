@@ -18,6 +18,7 @@ RUN apt-get update && \
     apt-get install --no-install-recommends -y yarn ffmpeg
 
 # Install yarn dependencies
+RUN yarn config set strict-ssl false
 RUN yarn
 
 # Default command to start the server
