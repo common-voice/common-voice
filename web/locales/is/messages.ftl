@@ -134,7 +134,7 @@ speak = Tala
 speak-now = Talaðu núna
 datasets = Gagnasöfn
 languages = Tungumál
-about = Um
+about = Um okkur
 profile = Prófíll
 help = Hjálp
 contact = Hafa samband
@@ -375,6 +375,10 @@ faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
 faq-how-privacy-a = Persónulega einkennani gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðilega stika á síðuna þeirra, eru þær upplýsingar aftengar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á síðu raddgjafans.
 faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samómsgagnasafninu?
+faq-what-determine-identity-a =
+    Samrómsgagnasafnið er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
+    
+    Persónulega einkennandi upplýsingar hafa verið fjarlægðar úr öllum raddhljóðbrotum í safninu. Þegar maður sækir gagnasafnið samþykkir maður að reyna ekki að bera kennsl á neinn raddgjafanna. Það þýðir að það má ekki reyna að tengja upptökur í gagnasafninu við einstaklinga sem hafa lagt til upptökur. Það má hins vegar nota gagnasafnið til að þjálfa raddgreina, málshafagreina og fleiri kerfi, t.d. með því að tengja saman upplýsingar innan gagnasafnsins.
 faq-what-is-cv = Hvað er Samrómur?
 faq-using-cv = Notkunn Samróms
 faq-description = Samrómur er verkefni á vegum Mozilla sem gengur út á það að fkenna tölvum að skilja hvernig mannfólk talar.
@@ -383,7 +387,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = Afhverju Samrómur?
+about-title = Af hverju?
 about-subtitle = Samrómur er þáttur í framtaki Mozilla til að hjálpa vélum að skilja hvernig alvöru fólk talar. Fyrir utan Samróms gagnasettið, stendur Mozilla að opninni talgreiningar vél sem kallast Djúp Tal.
 about-header-description =
     Bæði þessi verkefni eiga þátt í að brúa bil stafrænna radda. Raddkennslabúnaður bætir mannlegum þætti við tækin okkar, en gífurlegt magn radd gagna þarf til þess að búa þá til. Í dag er meiruhluti gagnanna kostnaðarsöm og í eigu einka aðila. 
@@ -424,6 +428,9 @@ about-nav-partners = Samstarfsaðilar
 about-nav-get-involved = Taka þátt
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Gervigreind
+mycroft-description =
+    Mycroft er heimsins fyrsta raddhjálpari sem keyrir á opnum hugbúnaði.
+    Mycroft keyrir á hverju sem er - borðtölvu, innbyggðri tölvu í bíl eða jafnvel á Raspbery Pi.
 mycroft-secondary-description = Þetta er opinn hugbúnaður sem má breyta, bæta við og þróa að vild. Mycroft má nota við rannsóknir, fyrirtækjalausnir og allt þar á milli.
 
 ## Glossary
