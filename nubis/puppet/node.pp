@@ -58,7 +58,7 @@ exec { 'build':
 }
 
 systemd::unit_file { "${project_name}.service":
-  content => @("EOT")
+  content => @("EOT"/$)
 [Unit]
 Description=Mozilla Common Voice
 Wants=basic.target
