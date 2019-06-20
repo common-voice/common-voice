@@ -393,10 +393,10 @@ about-header-description =
     Bæði þessi verkefni eiga þátt í að brúa bil stafrænna radda. Raddkennslabúnaður bætir mannlegum þætti við tækin okkar, en gífurlegt magn radd gagna þarf til þess að búa þá til. Í dag er meiruhluti gagnanna kostnaðarsöm og í eigu einka aðila. 
     Við viljum gera raddgögn ókeypis og aðgengileg öllum, svo gögnin endurspegli fjölbreytileika alvöru fólks. Saman getum við bætt gæði raddkennslabúnaðar fyrir alla.
 how-does-it-work-title = Hvernig virkar það?
-how-does-it-work-text = Við erum að "hópvirkja" öflun opins raddgagnasafns. Legðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
+how-does-it-work-text = Við erum að "hópvirkja" öflun opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
 about-speak = Tal
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
-about-listen-queue = Hlustunar röð
+about-listen-queue = Hlustunarröð
 about-listen-queue-text = Þegar hljóðbrot kemur inn þá fer það í stafla og er undirbúið fyrir hlustun.
 about-listen = Hlusta
 about-listen-text = Notendur staðfesta nákvæmnina af gefnum hljóðbrotum og athuga hvort mælandinn hafi sagt setninguna rétt.
@@ -405,11 +405,11 @@ about-is-it-valid-text = Hljóðbrot er merkt "staðfest" þegar notandi gefur �
 about-yes-votes = ≥ 2 Já atkvæði
 about-yes-votes-text = Til þess að komast inn í Samrómsgagnasafnið, þá þarf hljóðbrot að vera yfirfarið af tveim einstaklingum.
 about-no-votes = ≥ 2 Nei atkvæði
-about-no-votes-text = Þegar notandi hafnar hljóðbroti þá fer það aftur í Röðina. Ef því er hafnað í annað sinn, þá fer hljóðbrotið í Hljóðbrotagrafreitinn.
+about-no-votes-text = Þegar notandi hafnar hljóð&shy;broti þá fer það aftur í Röðina. Ef því er hafnað í annað sinn, þá fer hljóð&shy;brotið í Hljóð&shy;brota&shy;graf&shy;reitinn.
 about-dataset-new = Samrómsgagnasafnið
 about-dataset-new-text = Samsrómsgagnasafnið samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreina.
 about-clip-graveyard = Hljóðbrotagrafreitur
-about-clip-graveyard-text = Hljóðbrotagrafreiturinn samanstendur af raddhljóðbrotum sem gátu ekki orðið hluti af Samrómsgagnasafninu. Rétt eins og gagnasafnið er Hljóðbrotagrafreiturinn aðgengilegur til niðurhals.
+about-clip-graveyard-text = Hljóð&shy;brota&shy;graf&shy;reiturinn saman&shy;stendur af radd&shy;hljóð&shy;brotum sem gátu ekki orðið hluti af Samróms&shy;gagna&shy;safninu. Rétt eins og gagna&shy;safnið er Hljóð&shy;brota&shy;graf&shy;reiturinn aðgengi&shy;legur til niðurhals.
 about-partners = Samstarfsaðilar
 about-become-a-partner = Skráðu þig sem samstarfsaðila
 about-partnership =
