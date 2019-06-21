@@ -407,8 +407,8 @@ about-yes-votes = ≥ 2 vota Po
 about-yes-votes-text = Për t’u bërë pjesë e grupit të të dhënave Common Voice, një copëz zanore duhet vleftësuar nga dy përdorues të ndryshëm.
 about-no-votes = ≥ 2 vota Jo
 about-no-votes-text = Kur një përdorues e hedh poshtë një copëz zanore, ajo rikthehet te Radha. Nëse hidhet poshtë edhe një herë, copëza zanore shpihet te Varreza e Copëzave.
-about-dataset = Grup të Dhënash Common Voice
-about-dataset-text = Grupi i të Dhënave Common Voice përmban qindra mijëra copëza zanore që u vijnë në ndihmë zhvilluesve të ndërtojnë mjete kuptimi të folure.
+about-dataset-new = Grup të Dhënash <em>Common Voice</em>
+about-dataset-new-text = Grupi i të Dhënave <em>Common Voice</em> përmban qindra mijëra copëza zanore që i ndihmojnë zhvilluesit të krijojnë mjete të të kuptuarit të të folurit.
 about-clip-graveyard = Varrezë Copëzash
 about-clip-graveyard-text = Varreza e Copëzave përbëhet nga copëza zanore që nuk arritën të bëhen pjesë e grupit të të dhënave Common Voice. Ashtu si grupi i të dhënave, edhe Varreza e Copëzave mund të shkarkohet.
 about-partners = Partnerë
@@ -482,7 +482,7 @@ review-cancel = Anuloje Parashtrimin
 review-keep-recordings = Mbaji incizimet
 review-delete-recordings = Fshiji incizimet e mia
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Po krijojmë një grup të dhënash zanore me burim të hapur, shumëgjuhëshe, të cilin mund ta përdorë gjithkush për të stërvitur aplikacione që njohin të folurën.
 datasets-positioning =
@@ -531,6 +531,7 @@ ready-to-validate = Gati për vleftësim frazash?
 more = Më tepër
 close = Mbylle
 download = Shkarkoje
+dataset-version = Version
 
 ## Download Modal
 
@@ -677,3 +678,11 @@ why-delete-recordings =
     
     Can you let us know why you would like your recordings deleted?
 profile-form-delete = Fshini Profil
+
+## Landing
+
+welcome-staff = Mirë se vini, anëtar i { $company }!
+help-contribute = Mund të ndihmoni në ndërtimin e një grupi të dhënash të larmishëm, me burim të hapur, duke krijuar një profil te Common Voice dhe duke dhuruar zërin tuaj.
+login-company = Bëni Hyrjen / Regjistrohuni me email { $company }
+profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
+read-more-about = Lexoni më tepër te faqja jonë Mbi
