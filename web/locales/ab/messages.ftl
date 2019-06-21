@@ -413,8 +413,10 @@ about-partnership =
 about-get-involved = Уҽалаурхәырц
 about-get-involved-text =
     Иуҭахума Common Voice аизытәра уацхраар?
-    Азамана! Уҳадҵаал ҳара, аелектронтә ԥошьҭала, ма <discourseLink>Discourse форум аҟны</discourseLink>,
-    угәаанагара аанужь <githubLink>GitHub</githubLink>, мамзаргьы <slackLink>Slack</slackLink> аҟны.
+    Азамана! Уҳадҵаал ҳара, аелектронтә ԥошьҭала, 
+    ма <discourseLink>Discourse</discourseLink> форум аҟны,
+    угәаанагара аанужь <githubLink>GitHub</githubLink> аҟны, 
+    мамзаргьы <slackLink>Slack</slackLink> аҟны.
 about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
 about-nav-partners = Алахәылаҩцәа
