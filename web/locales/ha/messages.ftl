@@ -204,6 +204,7 @@ email-subscription-title = Yi rajista domin samin saƙonnin email.
 
 benefits = Amfani
 rich-data = Tabbar da bayanan da ka zura suna cike da gamsassun bayanai da za ka iya bayawar ta hanyar sanya baynai inda aka samo. Ba za mu sanya bayanan inda aka samo ba a fili
+improve-audio = Bayanan da ka sa a Profile dinla suna taimakawa wajen horasta kimiyyar gane murya.
 compare-progress = Gwada yawan gudummawarka da ta sauran masu bada gudummawa a duk faɗin duniya.
 
 ## What's public
