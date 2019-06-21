@@ -407,7 +407,15 @@ about-clip-graveyard = Анҵамҭақәа рнышәынҭра
 about-clip-graveyard-text = "Анҵамҭақәа рнышәынҭра" шьақәгылоуп Common Voice абыжьқәа реизгала. Ихадоу аизгаеиԥш "Анҵамҭақәа рнышәынҭрагьы" ахархәаразы иаартуп.
 about-partners = Алахәылаҩцәа
 about-become-a-partner = Алахәылаҩ иҟаларц
+about-partnership =
+    Common Voice еицырзеиԥшу проектуп, зегьы иреиҳау, иаарҭу абжьытә дыррақәа реизга аԥҵара аларшахоит аус еицызуа алахәылаҩцәа зегьы русеицурала. 
+    
+    Ҳара иаҳҭахуп ҭабуп ҳәа раҳҳәарц апроект ацхыраара азыҟазҵаз аилазаарақәеи ауааи:
 about-get-involved = Уҽалаурхәырц
+about-get-involved-text =
+    Иуҭахума Common Voice аизытәра уацхраар?
+    Азамана! Уҳадҵаал ҳара, аелектронтә ԥошьҭала, ма <discourseLink>Discourse форум аҟны</discourseLink>,
+    угәаанагара аанужь <githubLink>GitHub</githubLink>, мамзаргьы <slackLink>Slack</slackLink> аҟны.
 about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
 about-nav-partners = Алахәылаҩцәа
