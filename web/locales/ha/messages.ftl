@@ -203,6 +203,7 @@ email-subscription-title = Yi rajista domin samin saƙonnin email.
 ## Account Benefits
 
 benefits = Amfani
+rich-data = Tabbar da bayanan da ka zura suna cike da gamsassun bayanai da za ka iya bayawar ta hanyar sanya baynai inda aka samo. Ba za mu sanya bayanan inda aka samo ba a fili
 compare-progress = Gwada yawan gudummawarka da ta sauran masu bada gudummawa a duk faɗin duniya.
 
 ## What's public
