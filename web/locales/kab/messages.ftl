@@ -404,6 +404,8 @@ about-yes-votes = ≥ 2 n tefranin IH
 about-yes-votes-text = Akken ad yekcem ɣer tegrumma n yisefka Common Voice, yessefk tukkist n taɣect ad tettwaqbel sɣur sin n yimdanen yemgaraden.
 about-no-votes = ≥ 2 n tefranin UHU
 about-no-votes-text = Ticki aseqdac yugi tukkist n taɣect, taneggarut-a ad tuɣal ɣer udras n uraǧu. Ma yugin-tt tikkelt-nniḍen, tukkist ad teddu ɣer tjebbant n tukkisin.
+about-dataset-new = Tagrumma n yisefka Common Voice
+about-dataset-new-text = Tagrumma n yisefka Common Voice tegber timeyyatin n luluf n tukkisin n taɣect ara imudden i yineflayen afus deg usnefli n yifecka n uɛqal n taɣect.
 about-clip-graveyard = Tajebbant n tukkisin
 about-clip-graveyard-text = Tajebbant n tukkisin tegber tukkisin ur nettwaqbel ara deg tegrumma n yisefka Common Voice. Am uneggaru-a, tajebbant n tukkisin tella i usider.
 about-partners = Imendiden
@@ -563,7 +565,7 @@ other-language = Tutlayin nniḍen
 ## Languages Overview
 
 language-section-in-progress = Ad d-iteddu
-language-section-in-progress-new-description = Tutlayin-agi atentan tura ddaw n temɣiwent n ineflayen afeggag n tulya ad d-isken aswir <localizationGlossaryLink> n yal tutlayt deg usmel n usideg </localizationGlossaryLink> akked <sentenceCollectionGlossaryLink> ulqqa d n tefyar </sentenceCollectionGlossaryLink>
+language-section-in-progress-new-description = Tutlayin-agi akka sneflayent-tent trebbaɛ.  Afeggag n n usfari yemmal-d anida tewweḍ yal yiwet seg tutlayin deg <localizationGlossaryLink> usmel n usideg </localizationGlossaryLink> akked <sentenceCollectionGlossaryLink> ulqaḍ n tefyar </sentenceCollectionGlossaryLink>
 language-section-launched = Yekker
 language-section-launched-description = I tutlayt-a asmel <localizationGlossaryLink> ittwasideg akken iwata </localizationGlossaryLink>, isεa <sentenceCollectionGlossaryLink> ddeqs n tefyar </sentenceCollectionGlossaryLink> akken ad ittwasireg <speakLink> asekles </speakLink> akked <listenLink> usentem </listenLink> n ittekiyen n iwiziwen
 languages-show-more = Wali ugar
