@@ -44,12 +44,14 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
 interface State {
   rows: { position: number; [key: string]: any }[];
   isAtEnd: boolean;
+  avatarClipPlaying: boolean;
 }
 
 class UnconnectedLeaderboard extends React.Component<Props, State> {
   state: State = {
     rows: [],
     isAtEnd: false,
+    avatarClipPlaying: false,
   };
 
   scroller: { current: HTMLUListElement | null } = React.createRef();
@@ -89,6 +91,16 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       };
     });
   }
+  playAvatarClip = function(clipUrl: string) {
+    if (!this.state.avatarClipPlaying) {
+      const audio = new Audio(clipUrl);
+      this.setState({ avatarClipPlaying: true });
+      audio.play();
+      audio.onended = () => this.setState({ avatarClipPlaying: false });
+      audio.onerror = () => this.setState({ avatarClipPlaying: false });
+      console.log(clipUrl);
+    }
+  };
 
   render() {
     const { getString } = this.props;
@@ -119,7 +131,10 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position < 9 && '0'}
             {row.position + 1}
           </div>
-          <div className="avatar-container">
+          <div
+            className="avatar-container"
+            title="Click to play avatar"
+            onClick={() => this.playAvatarClip(row.avatarClipUrl)}>
             <Avatar url={row.avatar_url} />
           </div>
           <div className="username" title={row.username}>
