@@ -4,7 +4,6 @@ web/dist/
 web/index.html
 server/js/
 server/upload/
-server/src/config-helper.ts
 xcuserdata/
 .ignore
 .ignored_files/
