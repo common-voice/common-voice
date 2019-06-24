@@ -115,6 +115,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     // TODO: Enable custom protocol when we publish an ios app update.
     // window.location.href = 'commonvoice://';
 
+    //Sunnevu pælings:
+    /**
+     * Tökum út hamburger menu til þess að taka allt fyrir mobile
+     */
     window.location.href = getItunesURL();
   };
 
