@@ -34,19 +34,22 @@ const DEFAULTS: CommonVoiceConfig = {
   RELEASE_VERSION: null, // release version set by nubis,
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
-  DB_ROOT_USER: 'root', // For running schema migrations.
-  DB_ROOT_PASS: '',
-  MYSQLUSER: 'voicecommons', // For normal DB interactions.
-  MYSQLPASS: 'voicecommons',
+  DB_ROOT_USER: 'voicecommon', // For running schema migrations.
+  DB_ROOT_PASS: 'voicecommon',
+  MYSQLUSER: 'voicecommon', // For normal DB interactions.
+  MYSQLPASS: 'voicecommon',
   MYSQLDBNAME: 'voiceweb',
-  MYSQLHOST: 'localhost',
+  MYSQLHOST: 'voiceweb-island.c0npytokrpbc.us-east-2.rds.amazonaws.com',
   MYSQLPORT: 3306,
-  BUCKET_NAME: 'common-voice-corpus',
+  BUCKET_NAME: 'samromur-test',
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
   SECRET: 'TODO: Set a secure SECRET in config.json',
   ADMIN_EMAILS: '[]', // array of admin emails, as JSON
   S3_CONFIG: {
+    accessKeyId: 'AKIA524CW7OH4FCLU3LV',
+    secretAccessKey: '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',
+    region: 'us-east-2',
     signatureVersion: 'v4',
     useDualstack: true,
   },
