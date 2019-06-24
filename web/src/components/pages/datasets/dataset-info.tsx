@@ -145,6 +145,11 @@ class DatasetInfo extends React.Component<Props, State> {
 
   saveHasDownloaded = async () => {
     const { email, locale } = this.state;
+    console.log(
+      Object.keys(stats.locales)
+        .map(locale => stats.bundleURLTemplate.replace('{locale}', locale))
+        .join(' ')
+    );
     await this.props.api.forLocale(locale).saveHasDownloaded(email);
   };
 
@@ -226,7 +231,7 @@ class DatasetInfo extends React.Component<Props, State> {
                         {...{ category, values, locale }}
                       />
                     )),
-                }).map(([id, value], i) => (
+                }).map(([id, value]) => (
                   <li key={id}>
                     <Localized id={id}>
                       <span className="label" />
@@ -291,6 +296,7 @@ class DatasetInfo extends React.Component<Props, State> {
                         ? stats.bundleURLTemplate.replace('{locale}', locale)
                         : null
                     }
+                    blank
                     onClick={this.saveHasDownloaded}
                     rounded
                     className="download-language"
