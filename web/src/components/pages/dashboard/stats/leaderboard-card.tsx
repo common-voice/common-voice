@@ -15,6 +15,7 @@ import {
   MicIcon,
   OldPlayIcon,
   PlayOutlineIcon,
+  PlayIcon,
 } from '../../../ui/icons';
 import { Avatar } from '../../../ui/ui';
 import StatsCard from './stats-card';
@@ -45,6 +46,7 @@ interface State {
   rows: { position: number; [key: string]: any }[];
   isAtEnd: boolean;
   avatarClipPlaying: boolean;
+  clipPosition: number;
 }
 
 class UnconnectedLeaderboard extends React.Component<Props, State> {
@@ -52,6 +54,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     rows: [],
     isAtEnd: false,
     avatarClipPlaying: false,
+    clipPosition: null,
   };
 
   scroller: { current: HTMLUListElement | null } = React.createRef();
@@ -91,20 +94,29 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       };
     });
   }
-  playAvatarClip = function(clipUrl: string) {
+  playAvatarClip = function(clipUrl: string, position: any) {
     if (!this.state.avatarClipPlaying) {
+      this.setState({ clipPosition: position });
+
       const audio = new Audio(clipUrl);
       this.setState({ avatarClipPlaying: true });
       audio.play();
-      audio.onended = () => this.setState({ avatarClipPlaying: false });
-      audio.onerror = () => this.setState({ avatarClipPlaying: false });
-      console.log(clipUrl);
+
+      audio.onended = () => {
+        this.setState({ avatarClipPlaying: false });
+        this.setState({ clipPosition: null });
+      };
+
+      audio.onerror = () => {
+        this.setState({ avatarClipPlaying: false });
+        this.setState({ clipPosition: null });
+      };
     }
   };
 
   render() {
     const { getString } = this.props;
-    const { rows, isAtEnd } = this.state;
+    const { rows, isAtEnd, clipPosition } = this.state;
 
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
@@ -134,8 +146,11 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
           <div
             className="avatar-container"
             title="Click to play avatar"
-            onClick={() => this.playAvatarClip(row.avatarClipUrl)}>
+            onClick={() =>
+              this.playAvatarClip(row.avatarClipUrl, row.position)
+            }>
             <Avatar url={row.avatar_url} />
+            {clipPosition === row.position ? <PlayIcon /> : ''}
           </div>
           <div className="username" title={row.username}>
             {row.username || '???'}

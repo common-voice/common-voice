@@ -140,7 +140,7 @@
 
         & .avatar-container {
             display: flex;
-
+            cursor: pointer;
             & .avatar-wrap {
                 width: 24px;
                 height: 24px;
