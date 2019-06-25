@@ -265,10 +265,17 @@ on = चालू
 
 ## ABOUT US
 
+about-get-involved = शामिल हों
+about-nav-why-common-voice = क्यों ?
+about-nav-how-it-works = कैसे ?
+about-nav-partners = सहभागी
+about-nav-get-involved = शामिल हों
 
 ## Glossary
 
+glossary = शब्दकोश
 localization = स्थानीयकरण
+sentence-collection = वाक्य संग्रह
 
 ## NotFound
 
@@ -277,22 +284,38 @@ localization = स्थानीयकरण
 
 data-download-yes = हाँ
 data-download-deny = नहीं
+data-other-goto = { $name } पर जाएं
+data-other-download = डेटा डाउनलोड करें
+license = लाइसेंस: <licenseLink>{ $license }</licenseLink>
+license-mixed = मिश्रित
 terms-agree = मैं सहमत हूँ
 terms-disagree = मैं असहमत हूँ
+review-submit-title = समीक्षा करें और जमा करें
+review-submit-msg = रिकॉर्डिंग के लिए धन्यवाद! <lineBreak> </lineBreak> अब समीक्षा करें और नीचे अपनी क्लिप को जमा करें।
+review-recording = समीक्षा
+review-rerecord = पुनः रिकॉर्ड करें
+review-cancel = सबमिशन रद्द करें
+review-keep-recordings = रिकॉर्डिंग रखें
+review-delete-recordings = मेरी रिकॉर्डिंग्स को डिलीट करें
 
 ## Datasets Page
 
+email-to-download = डाउनलोड करने के लिए ईमेल दर्ज करें
 size-gigabyte = GB
 size-megabyte = MB
+recorded-hours = रिकॉर्ड किए गए घंटे
+subscribe = सबस्क्राइब
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-title = संपर्क फ़ॉर्म
 
 ## Request Language Modal
 
+select-language = एक भाषा चुनें...
 
 ## Languages Overview
 
@@ -300,6 +323,7 @@ languages-show-more = और देखें
 languages-show-less = कम देखें
 language-speakers = वक्ता
 language-meter-in-progress = प्रगति
+language-total-progress = कुल
 language-search-input =
     .placeholder = खोजें
 language-speakers = वक्ता
@@ -317,11 +341,16 @@ shortcuts = शॉर्टकट
 record-cta = रिकॉर्डिंग शुरू करें
 record-platform-not-supported = हमें खेद है, पर आपका प्लेटफार्म वर्तमान में समर्थित नहीं है।
 record-platform-not-supported-desktop = डेस्कटॉप कंप्यूटर पर, आप नवीनतम डाउनलोड कर सकते हैं:
+record-error-too-short = रिकॉर्डिंग बहुत छोटी थी.
+record-error-too-long = रिकॉर्डिंग बहुत लंबी थी.
+record-error-too-quiet = रिकॉर्डिंग बहुत शांत थी.
 record-cancel = पुनः रिकॉर्डिंग रद्द करें
 record-instruction = { $actionType }<recordIcon></recordIcon> करें फिर वाक्य को जोर से पढ़ें
+record-last-instruction = <recordIcon></recordIcon> अंतिम वाला!
 unable-speak = अभी बोलने में असमर्थ हैं?
 record-abort-submit = क्लिप जमा करें
 record-abort-continue = रिकॉर्डिंग समाप्त करें
+listen-last-time-instruction = <playIcon></playIcon> अंतिम वाला!
 record-button-label = अपनी आवाज रिकॉर्ड करें
 
 ## Goals
