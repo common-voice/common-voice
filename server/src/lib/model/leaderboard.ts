@@ -9,8 +9,8 @@ import { S3 } from 'aws-sdk';
 import { AWS } from '../aws';
 import Model from '../model';
 
-const s3: S3 = AWS.getS3();
-const model: Model = new Model();
+const s3 = AWS.getS3();
+const model = new Model();
 const bucket = new Bucket(model, s3);
 
 const db = getMySQLInstance();
