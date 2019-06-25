@@ -137,7 +137,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position < 9 && '0'}
             {row.position + 1}
           </div>
-          <div
+          <button
             className="avatar-container"
             title="Click to play avatar"
             onClick={() =>
@@ -145,7 +145,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             }>
             <Avatar url={row.avatar_url} />
             {playingClipIndex === row.position && <PlayIcon />}
-          </div>
+          </button>
           <div className="username" title={row.username}>
             {row.username || '???'}
             {row.you && (
