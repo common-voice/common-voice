@@ -45,16 +45,14 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
 interface State {
   rows: { position: number; [key: string]: any }[];
   isAtEnd: boolean;
-  avatarClipPlaying: boolean;
-  clipPosition: number;
+  playingClipIndex: number;
 }
 
 class UnconnectedLeaderboard extends React.Component<Props, State> {
   state: State = {
     rows: [],
     isAtEnd: false,
-    avatarClipPlaying: false,
-    clipPosition: null,
+    playingClipIndex: null,
   };
 
   scroller: { current: HTMLUListElement | null } = React.createRef();
@@ -94,28 +92,25 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     });
   }
   playAvatarClip = function(clipUrl: string, position: any) {
-    if (!this.state.avatarClipPlaying) {
-      this.setState({ clipPosition: position });
+    if (this.state.playingClipIndex === null) {
+      this.setState({ playingClipIndex: position });
 
       const audio = new Audio(clipUrl);
-      this.setState({ avatarClipPlaying: true });
       audio.play();
 
       audio.onended = () => {
-        this.setState({ avatarClipPlaying: false });
-        this.setState({ clipPosition: null });
+        this.setState({ playingClipIndex: null });
       };
 
       audio.onerror = () => {
-        this.setState({ avatarClipPlaying: false });
-        this.setState({ clipPosition: null });
+        this.setState({ playingClipIndex: null });
       };
     }
   };
 
   render() {
     const { getString } = this.props;
-    const { rows, isAtEnd, clipPosition } = this.state;
+    const { rows, isAtEnd, playingClipIndex } = this.state;
 
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
@@ -149,7 +144,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               this.playAvatarClip(row.avatarClipUrl, row.position)
             }>
             <Avatar url={row.avatar_url} />
-            {clipPosition === row.position ? <PlayIcon /> : ''}
+            {playingClipIndex === row.position && <PlayIcon />}
           </div>
           <div className="username" title={row.username}>
             {row.username || '???'}
