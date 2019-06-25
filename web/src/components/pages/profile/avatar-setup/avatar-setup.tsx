@@ -250,6 +250,7 @@ class AvatarSetup extends React.Component<Props> {
               <span className="upload-label" />
             </Localized>
             <input
+              className="hide-input"
               type="file"
               accept="image/*"
               onChange={event => {
