@@ -158,7 +158,7 @@ wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgeng
 wall-of-text-more-desktop =
     Nú geturðu deilt raddprufum til þess að hjálpa okkur að byggja upp úr frjálsum hugbúnaði raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
     Lesið setningu til að hjálpa vélum að læra hvernig fólk talar í alvörunni. Skoðið verk annarra til þess að taka út gæðin. Svo einfalt er það!
-wall-of-text-first = Röddin er mannlegt, náttúrulegt fyrirbæri. Við erum því mjög spennt yfir tilhugsuninni að endurskapa hana fyrir tækin okkar. En til að þróa raddkerfi þurfa þróendur að hafa fyrir hendi gríðarlegt magn raddgagna.
+wall-of-text-first = Að tjá sig með röddinni er okkur náttúrulegt, og nátengt mannlífinu. Þess vegna erum við svo spennt fyrir því að búa til nothæfa raddtækni fyrir tækin okkar. En til að þróa raddkerfi þarf gríðarlegt magn raddgagna.
 wall-of-text-second = Megnið af þeim raddgögnum sem stórfyrirtæki nota er ekki aðgengilegt, sem hindrar framþróun að okkar mati. Þess vegna efndum við til þessa verkefnis, Samróms, með því markmiði að stuðla að opinni raddgreiningartækni, sem allir geta notað.
 show-wall-of-text = Lesa meira
 help-us-title = Hjálpaðu okkur að meta setningar!
@@ -306,7 +306,7 @@ why-demographic = Hvers vegna skiptir þetta máli?
 why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögn sem notuð eru til að skilyrða af nákvæmni talgreiningarvélar. Notendanafn þitt og netfang verða aldrei opinberlega tengd gögnum sem þú hefur deilt og þér er frjálst að hafa notendanafn þitt ósýnilegt eða opið almenningi.
 accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar, líkt og útskýrt er í <privacyLink>friðhelgisstefnu</privacyLink> Mozilla.
 login-identity = Innskráningarauðkenni
-login-signup = Innskrá sig / Skrá sig
+login-signup = Innskrá / nýskrá
 edit = Breyta
 email-subscriptions = Tölvupóstáskrift
 download-profile = Sækja gögnin mín
@@ -683,6 +683,6 @@ profile-form-delete = Eyða prófíl
 
 welcome-staff = Velkomin/n { $company }!
 help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms aðgang og gefa raddsýni.
-login-company = Innskráning / nýskráning með netfangi hjá { $company }
+login-company = Innskrá / nýskrá með netfangi hjá { $company }
 profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
 read-more-about = Lestu meira á um síðuna okkar
