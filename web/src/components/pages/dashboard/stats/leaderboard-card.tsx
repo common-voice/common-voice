@@ -19,6 +19,7 @@ import {
 } from '../../../ui/icons';
 import { Avatar } from '../../../ui/ui';
 import StatsCard from './stats-card';
+import { isProduction } from '../../../../utility';
 
 import './leaderboard.css';
 
@@ -137,15 +138,23 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position < 9 && '0'}
             {row.position + 1}
           </div>
-          <button
-            className="avatar-container"
-            title="Click to play avatar"
-            onClick={() =>
-              this.playAvatarClip(row.avatarClipUrl, row.position)
-            }>
-            <Avatar url={row.avatar_url} />
-            {playingClipIndex === row.position && <PlayIcon />}
-          </button>
+
+          {isProduction() ? (
+            <div className="avatar-container">
+              <Avatar url={row.avatar_url} />
+            </div>
+          ) : (
+            <button
+              className="avatar-container"
+              title="Click to play avatar"
+              onClick={() =>
+                this.playAvatarClip(row.avatarClipUrl, row.position)
+              }>
+              <Avatar url={row.avatar_url} />
+              {playingClipIndex === row.position && <PlayIcon />}
+            </button>
+          )}
+
           <div className="username" title={row.username}>
             {row.username || '???'}
             {row.you && (
