@@ -156,8 +156,8 @@ home-cta = Hækkið róminn, deilið hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
 wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
 wall-of-text-more-desktop =
-    Nú geturðu deilt raddprufum til þess að hjálpa okkur að byggja upp úr frjálsum hugbúnaði raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
-    Lesið setningu til að hjálpa vélum að læra hvernig fólk talar í alvörunni. Skoðið verk annarra til þess að taka út gæðin. Svo einfalt er það!
+    Hér geturðu deilt raddprufum sem hjálpar okkur að setja saman opinn raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
+    Lesið inn setningar til að hjálpa vélum að læra hvernig fólk talar í raun og veru. Staðfestið framlög annarra til að bæta kerfið. Svo einfalt er það!
 wall-of-text-first = Að tjá sig með röddinni er okkur náttúrulegt, og nátengt mannlífinu. Þess vegna erum við svo spennt fyrir því að búa til nothæfa raddtækni fyrir tækin okkar. En til að þróa raddkerfi þarf gríðarlegt magn raddgagna.
 wall-of-text-second = Megnið af þeim raddgögnum sem stórfyrirtæki nota er ekki aðgengilegt, sem hindrar framþróun að okkar mati. Þess vegna efndum við til þessa verkefnis, Samróms, með því markmiði að stuðla að opinni raddgreiningartækni, sem allir geta notað.
 show-wall-of-text = Lesa meira
