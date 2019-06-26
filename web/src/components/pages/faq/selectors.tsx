@@ -6,6 +6,10 @@ import { stringContains } from '../../../utility';
 import { LocalizationProps } from 'fluent-react/compat';
 import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
 
+/**
+ * Hér má breyta innihaldi síðunnar FAQ, taka út spurningar og þannig
+ */
+
 const memoize = require('lodash.memoize');
 
 export const SECTIONS: any = {
@@ -31,8 +35,9 @@ const SECTION_CONTENTS: any = {
   [SECTIONS.usingCV]: [
     [
       'faq-how-get-q',
-      'faq-how-get-a',
+      'faq-how-get-a' /*,
       {
+        //Taka út
         licenseLink: (
           <StyledLink
             href="https://creativecommons.org/publicdomain/zero/1.0/"
@@ -40,26 +45,26 @@ const SECTION_CONTENTS: any = {
           />
         ),
         datasetLink: <LocaleLink to={URLS.DATASETS} />,
-      },
+      },*/,
     ],
-    [
+    /*[
       'faq-when-release-q',
       'faq-when-release-a',
       {
         contactLink: <StyledLink href="mailto:commonvoice@mozilla.com" blank />,
       },
-    ],
+    ],*/
     'faq-do-want-native',
     [
       'faq-why-different-speakers-q',
-      'faq-why-different-speakers-a',
+      'faq-why-different-speakers-a' /*,
       {
         articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank />,
-      },
+      },*/,
     ],
     [
       'faq-why-my-lang-q',
-      'faq-why-my-lang-new-a',
+      'faq-why-my-lang-new-a' /*,
       {
         multilangLink: (
           <StyledLink
@@ -73,15 +78,15 @@ const SECTION_CONTENTS: any = {
             blank
           />
         ),
-      },
+      },*/,
     ],
     'faq-what-quality',
     'faq-why-10k-hours',
-    'faq-why-not-ask-read',
+    //'faq-why-not-ask-read',
     'faq-how-calc-hours',
     [
       'faq-where-src-from-2-q',
-      'faq-where-src-from-2-a',
+      'faq-where-src-from-2-a' /*,
       {
         italic: <i />,
         githubLink: (
@@ -90,7 +95,7 @@ const SECTION_CONTENTS: any = {
             blank
           />
         ),
-      },
+      },*/,
     ],
     ['faq-why-account-q', BENEFITS],
     ['faq-is-account-public-q', WHATS_PUBLIC],

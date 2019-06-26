@@ -17,7 +17,7 @@ export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
   return (
     <a
       target="_blank"
-      href="https://github.com/mozilla/voice-web"
+      href="https://www2.deloitte.com/is/is.html"
       onClick={() => trackGlobal('github', locale)}
       {...props}
     />
@@ -30,8 +30,8 @@ export const DiscourseLink = ({ dispatch, ...props }: SharedLinkProps) => {
   return (
     <a
       target="blank"
-      href={discourseURL}
-      onClick={() => trackGlobal('discourse', locale)}
+      href="https://www.rannis.is/sjodir/menntun/nyskopunarsjodur-namsmanna/"
+      onClick={() => trackGlobal('slack', locale)}
       {...props}
     />
   );
@@ -42,7 +42,7 @@ export const SlackLink = ({ dispatch, ...props }: SharedLinkProps) => {
   return (
     <a
       target="blank"
-      href="https://common-voice-slack-invite.herokuapp.com/"
+      href="https://www.ru.is/skema//"
       onClick={() => trackGlobal('slack', locale)}
       {...props}
     />

@@ -1,6 +1,6 @@
 @import url('../../vars.css');
-
-.about {
+/*Breytti about í um svo css virki*/
+.um {
     .why-common-voice {
         &:after {
             content: '';
