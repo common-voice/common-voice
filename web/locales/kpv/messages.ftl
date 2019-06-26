@@ -27,6 +27,7 @@ ar = Араб
 as = Ассам
 ast = Астур
 az = Азербайджан
+ba = Башкиръяс
 bg = Болгар
 bn = Бенгал
 br = Брезон
@@ -54,6 +55,7 @@ fr = Прансуз
 fy-NL = Фриз
 ga-IE = Ирландса
 gl = Галис
+ha = Хауса
 he = Иврит
 hr = Хорват
 hsb = Сорб
@@ -123,6 +125,7 @@ speak = Гижӧм
 speak-now = Заводитны гижӧм
 datasets = Юӧр чукӧр
 languages = Кывъяс
+about = Йылысь
 profile = Ас листбок
 help = Отсӧг
 contact = Йитӧд
@@ -288,8 +291,6 @@ profile-explanation = Сӧвмӧм позьӧ видзӧдны профиль о
 thanks-for-account = Аттьӧ аккаунт эскӧдӧмысь. Ӧні колӧ тэчны профильнытӧ.
 why-demographic = Мыйла тайӧ колӧ?
 why-demographic-explanation = Нимтӧмалӧм тӧдӧг, сэтшӧм, кыдз арлыд, пӧв (пол) да акцент отсалӧны бурмӧдны аудио тӧдӧгсӧ, код отсӧгӧн лоӧ велӧдӧма сёрни гӧгӧрвоан текнология. Тіян ним да email некор оз лоны йитӧмаӧсь ыстӧм тӧдӧгкӧд. Ті верманнд бӧрйыны, йӧзӧдны-ӧ  нимнытӧ, либӧ кольны йӧзӧдтӧмӧн.
-keep-me-posted =
-    .label = Кӧсъя шедӧдны выльторъяс да тӧдны, мый керсьӧ Common Voice пректкӧд.
 accept-privacy = Ме бурася тӧдӧг видлалӧмкӧд, кыдзи висьталӧ Mozilla-лӧн <privacyLink>Приватлун политика</privacyLink>.
 login-identity = Пыран индӧг (идентификатор)
 login-signup = Пырны / Вӧчны профиль
@@ -303,12 +304,14 @@ skip-submission-note = Пасйӧд: Тіянлы ковмас бӧрйыны С
 off = Кусӧдны
 on = Ӧзтыны
 add-avatar-title = Содтӧй серпас профиляныд
+add-avatar-clip = Содты аватар пас тэнад профильӧ.
 browse-file-title = Пыртны серпас файл
 browse-file = Кыскӧй да лэдзӧй либӧ <browseWrap>корсьӧй</browseWrap>
 connect-gravatar = Йитны Gravatar-кӧд
 gravatar_not_found = Тіян email-кӧд йитӧм gravatar абу
 file_too_large = Бӧрйӧм файл вывті ыджыд
 manage-subscriptions = Вежлавны гижсьӧмъяс
+manage-email-subscriptions = Контроллируйт эмайль гижӧдъяс
 email-already-used = Тайӧ email вылӧ вӧчӧма нин мӧд аккаунт.
 add-language = Содтыны кыв
 change-email-setings = Вежӧй ассьыныд email Ладмӧдӧм пыр «Пыран индӧг» юкӧдын
@@ -328,6 +331,18 @@ faq-do-want-native-q = Ме абу чужан кывъя моз сёрнитыс
 faq-do-want-native-a = Ковмас. Ми торйӧн нин кӧсъям Тіянлысь сёрнигорнытӧ! Common Voice'лӧн мог – чукӧртны торъя акцентъяс медым сёрни гӧгӧрвоысь программа вермасны уджавны бура ставныслы. Та вӧсна зэв ёна колӧ сёрнигор йӧзсянь, коді сёрнитӧ оз чужан кывъя моз.
 faq-why-different-speakers-q = Мыйла Тіянлы колӧ тамында сёрнитысь ӧтик кывлы?
 faq-why-my-lang-q = Мыйла менам кыв абу на пыртӧма?
+faq-how-calc-hours-q = Кыдзи Common Voice лыддьысьӧ часъяс?
+faq-where-src-from-2-q = Кытысь воӧны оригинальнӧй текстъяс?
+faq-what-determine-identity-q = Мый сійӧ Common Voice?
+
+## ABOUT US
+
+how-does-it-work-title = Кыдзи сійӧ уджалӧ?
+about-speak = Сёрнит
+about-listen = Кывзы
+about-nav-why-common-voice = Мыйла?
+about-nav-how-it-works = Кыдз?
+about-nav-partners = Партнеръяс
 
 ## Glossary
 
@@ -360,7 +375,7 @@ review-rerecord = Гиж вылысь
 review-keep-recordings = Кольны гижӧдъяссӧ
 review-delete-recordings = Чышкыны гижӧдъясӧс
 
-## New Datasets Page
+## Datasets Page
 
 language = Кыв
 # File size in gigabytes
@@ -491,3 +506,7 @@ delete-q = Кӧсъянныд-ӧ ті чыщкыны гижӧм сёрниныт
 keep = Кольны
 remove = Чышкыны
 profile-form-delete = Чышкы ас листбок
+
+## Landing
+
+profile-not-required = Профиль вӧчӧм абу зэв колана, но сійӧ вермас отсавны
