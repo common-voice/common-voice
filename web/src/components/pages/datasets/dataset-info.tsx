@@ -296,7 +296,6 @@ class DatasetInfo extends React.Component<Props, State> {
                         ? stats.bundleURLTemplate.replace('{locale}', locale)
                         : null
                     }
-                    blank
                     onClick={this.saveHasDownloaded}
                     rounded
                     className="download-language"
