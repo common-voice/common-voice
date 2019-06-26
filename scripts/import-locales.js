@@ -157,7 +157,7 @@ async function buildLocaleNativeNameMapping() {
 
 async function importLocales() {
   await Promise.all([
-    importPontoonLocales(),
+    //importPontoonLocales(),
     importContributableLocales(),
     buildLocaleNativeNameMapping(),
   ]);

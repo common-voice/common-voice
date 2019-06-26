@@ -7,6 +7,7 @@ server/upload/
 xcuserdata/
 .ignore
 .ignored_files/
+newrelic_agent.log
 .DS_Store
 .vscode/
 ZZidea
