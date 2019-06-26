@@ -385,6 +385,8 @@ size-gigabyte = ГБ
 size-megabyte = МБ
 data-other-ted-name = TED-LIUM корпус
 more = Унджык
+close = Тюпкысь
+dataset-version = Версия
 
 ## Download Modal
 
@@ -408,6 +410,8 @@ request-language-title = Корӧм содтыны кыв
 request-language-form-language =
     .label = Кыв
 request-language-success-title = Корӧм ыстӧма, аттьӧ.
+select-language = Бӧрйы кыв…
+other-language = Мӧд кыв
 
 ## Languages Overview
 
@@ -441,6 +445,7 @@ contribute-more =
     }
 record-cta = Заводит гижны
 record-platform-not-supported = Тэнад платформ оз на лӧсяв.
+record-must-allow-microphone = Тэныд колӧ сетны микропонлы кывзыны.
 record-no-mic-found = Микрофон абу аддзӧма.
 record-error-too-short = Гижӧд вывти дзеньыд.
 record-error-too-long = Гижӧд вывті кузь.
@@ -509,4 +514,5 @@ profile-form-delete = Чышкы ас листбок
 
 ## Landing
 
+welcome-staff = Виддза корам, { $company } уджалысьяс!
 profile-not-required = Профиль вӧчӧм абу зэв колана, но сійӧ вермас отсавны
