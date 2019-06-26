@@ -35,7 +35,8 @@
     }
 }
 
-.languages {
+/*Breytti languages í tungumal*/
+.tungumal {
     & .top {
         display: flex;
         flex-direction: column;

@@ -13,7 +13,7 @@ import { useLocale } from '../locale-helpers';
 import './share-buttons.css';
 import { useAction } from '../../hooks/store-hooks';
 
-const SHARE_URL = 'https://voice.mozilla.org/';
+const SHARE_URL = 'https://voice.mozilla.org/'; //Breyta í Almannaróms url eða hitt urlið sem við notum
 
 interface Props extends LocalizationProps {
   shareText?: string;
@@ -54,6 +54,7 @@ function ShareButtons({ getString, shareText }: Props) {
       <a
         className="share-button"
         href={
+          //Breyta í viðeigandi fb síðu
           'https://www.facebook.com/sharer/sharer.php?u=' +
           encodeURIComponent(SHARE_URL)
         }
@@ -64,6 +65,7 @@ function ShareButtons({ getString, shareText }: Props) {
       </a>
       <a
         className="share-button"
+        //Breyta í veiðeigandi twitter síðu
         href={'https://twitter.com/intent/tweet?text=' + encodedShareText}
         target="_blank"
         rel="noopener noreferrer"

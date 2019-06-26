@@ -274,19 +274,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               <Localized id="request-language-text">
                 <h2 />
               </Localized>
-              <Localized id="request-language-button">
-                <Button
-                  outline
-                  rounded
-                  onClick={() => {
-                    trackLanguages(
-                      'open-request-language-modal',
-                      this.props.locale
-                    );
-                    this.setState({ showLanguageRequestModal: true });
-                  }}
-                />
-              </Localized>
             </div>
           </div>
         </div>
@@ -311,16 +298,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               {getString('language-section-launched')}
               {launchedCountLabel}
             </h2>
-
-            <h2
-              className="in-progress"
-              onClick={this.changeSection.bind(this, 'in-progress')}>
-              {getString('language-section-in-progress')}
-              {inProgressCountLabel}
-            </h2>
           </div>
-
-          {this.renderSearch(this.smallSearchInputRef)}
         </div>
 
         <div className="language-sections">
@@ -330,7 +308,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 {getString('language-section-launched')}
                 {launchedCountLabel}
               </h1>
-              {this.renderSearch(this.largeSearchInputRef)}
               <Hr />
             </div>
 
@@ -339,82 +316,13 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               {...descriptionProps}>
               <p />
             </Localized>
-            <ul>
-              {launched.length > 0
-                ? (query || showAllLaunched
-                    ? filteredLaunched
-                    : filteredLaunched.slice(0, 3)
-                  ).map((localization, i) => (
-                    <LocalizationBox
-                      key={localization.locale}
-                      localeMessages={localeMessages}
-                      type="launched"
-                      {...localization}
-                    />
-                  ))
-                : [1, 2, 3].map((n, i) => <LoadingLocalizationBox key={i} />)}
-            </ul>
-
-            {!query && (
-              <Localized
-                id={'languages-show-' + (showAllLaunched ? 'less' : 'more')}>
-                <button
-                  disabled={launched.length === 0}
-                  className="show-all-languages"
-                  onClick={this.toggleShowAllLaunched}
-                />
-              </Localized>
-            )}
-          </section>
-
-          <section className="in-progress">
-            <div className="md-block">
-              <div style={{ display: 'flex', flexDirection: 'row' }}>
-                <h1 style={{ marginRight: '1.5rem' }}>
-                  {getString('language-section-in-progress')}
-                  {inProgressCountLabel}
-                </h1>
-              </div>
-              <Hr />
-            </div>
-
-            <Localized
-              id="language-section-in-progress-new-description"
-              {...descriptionProps}>
-              <p />
-            </Localized>
-            <ul>
-              {inProgress.length > 0
-                ? (query || showAllInProgress
-                    ? filteredInProgress
-                    : filteredInProgress.slice(0, 3)
-                  ).map((localization, i) => (
-                    <LocalizationBox
-                      key={localization.locale}
-                      localeMessages={localeMessages}
-                      type="in-progress"
-                      {...localization}
-                    />
-                  ))
-                : [1, 2, 3].map(i => <LoadingLocalizationBox key={i} />)}
-            </ul>
-
-            {!query && (
-              <Localized
-                id={'languages-show-' + (showAllInProgress ? 'less' : 'more')}>
-                <button
-                  disabled={inProgress.length === 0}
-                  className="show-all-languages"
-                  onClick={this.toggleShowAllInProgress}
-                />
-              </Localized>
-            )}
+            <div className="thank-cards"></div>
           </section>
         </div>
       </div>
     );
   }
-
+  /*
   renderSearch(inputRef: { current: null | HTMLInputElement }) {
     const { query } = this.state;
     return (
@@ -447,7 +355,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
         )}
       </div>
     );
-  }
+  }*/
 }
 
 const mapStateToProps = ({ api, locale }: StateTree) => ({

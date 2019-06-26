@@ -9,7 +9,7 @@ import { CUSTOM_GOAL_LOCALE } from '../../custom-goal-lock';
 import { ContributableLocaleLock } from '../../locale-helpers';
 import { Banner } from '../../notification-banner/notification-banner';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
-import RegisterSection from '../../register-section/register-section';
+//import RegisterSection from '../../register-section/register-section';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { LinkButton } from '../../ui/ui';
 import Hero from './hero';
@@ -218,6 +218,10 @@ export default function HomePage() {
           </div>
         </section>
       ) : (
+        <div></div>
+      )
+
+      /* (
         <RegisterSection marsSrc="/img/mars.svg">
           <Localized id="help-make-dataset">
             <h1 />
@@ -233,7 +237,8 @@ export default function HomePage() {
             />
           </Localized>
         </RegisterSection>
-      )}
+      )*/
+      }
     </div>
   );
 }
