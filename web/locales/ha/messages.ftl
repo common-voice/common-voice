@@ -245,6 +245,11 @@ request-language-button = Nemi izinin wani yaren
 ## ProjectStatus
 
 status-contribute = Taimaka da Muryarka
+status-hours =
+    { $hours ->
+        [one] Awan da aka tanatance kawo yanzu!
+       *[other] Awannin da aka tantance kawo yanzu!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Burin gaba: { $goal }
@@ -277,6 +282,7 @@ female = Mace
 # Gender
 other = Saura
 why-profile-title = Meyasa ake buƙatar bayanai na?
+why-profile-text = Idan ka ba da bayanai a kanaka, muryar da ka tura zuwa Common Voice za ta fi amfani da fasahar tantance muryaya kuma zai taimaka matuka don samarda sakamako mai kyau.
 dashboard = Dashboard
 build-profile = Gina Bayananka
 avatar = Hoto
