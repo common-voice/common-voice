@@ -1,6 +1,6 @@
 @import url('../../vars.css');
-
-.about {
+/*Breytti about í um svo þetta matchi við endinguna*/
+.um {
     & #content {
         padding: 0;
     }

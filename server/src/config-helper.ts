@@ -35,20 +35,20 @@ const DEFAULTS: CommonVoiceConfig = {
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.
-  DB_ROOT_PASS: '',
+  DB_ROOT_PASS: 'voicecommons',
   MYSQLUSER: 'voicecommons', // For normal DB interactions.
-  MYSQLPASS: 'voicecommons',
+  MYSQLPASS: 'NoMan',
   MYSQLDBNAME: 'voiceweb',
-  MYSQLHOST: 'localhost',
+  MYSQLHOST: 'voiceweb-island.c0npytokrpbc.us-east-2.rds.amazonaws.com',
   MYSQLPORT: 3306,
-  BUCKET_NAME: 'common-voice-corpus',
+  BUCKET_NAME: 'samromur-test',
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
   SECRET: 'TODO: Set a secure SECRET in config.json',
   ADMIN_EMAILS: '[]', // array of admin emails, as JSON
   S3_CONFIG: {
+    region: 'us-east-2',
     signatureVersion: 'v4',
-    useDualstack: true,
   },
   AUTH0: {
     DOMAIN: '',
