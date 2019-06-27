@@ -133,31 +133,37 @@ button.card-action:focus.focus-visible path {
     background-color: rgba(230, 229, 227, 0.6);
 }
 
-.labeled-checkbox {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+.checkbox-container {
+    flex-shrink: 0;
+    margin-top: 5px;
+    margin-inline-end: 10px;
+    position: relative;
+    border: 1.6px solid var(--near-black);
+    border-radius: 2px;
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
 
-    & .checkbox-container {
-        flex-shrink: 0;
-        margin-top: 5px;
-        margin-inline-end: 10px;
-        position: relative;
-        border: 1.6px solid var(--near-black);
-        border-radius: 2px;
-        width: 15px;
-        height: 15px;
-        box-sizing: border-box;
+    &:focus-within {
+        border-width: 3px;
+
+        & .checkmark {
+            top: -7.5px;
+        }
     }
 
     & input {
         position: absolute;
         top: 0;
         left: 0;
+        margin: 0 !important;
+        padding: 0 !important;
         width: 100%;
         height: 100%;
         appearance: none;
-        visibility: hidden;
+        border: none !important;
+        outline: none !important;
+        background: transparent;
     }
 
     & .checkmark {
@@ -165,6 +171,7 @@ button.card-action:focus.focus-visible path {
         display: none;
         position: absolute;
         top: -6px;
+        pointer-events: none;
 
         & path {
             fill: var(--near-black);
@@ -176,7 +183,14 @@ button.card-action:focus.focus-visible path {
     }
 }
 
-.labeled-form-control {
+.labeled-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.labeled-form-control,
+.checkbox-container {
     position: relative;
     display: flex;
     flex-direction: column;

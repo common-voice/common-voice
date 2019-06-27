@@ -370,22 +370,6 @@
             }
         }
 
-        & .extra-button {
-            display: flex;
-            align-items: center;
-            font-size: var(--font-size-xs);
-            text-decoration: underline;
-            font-weight: 600 !important;
-
-            &:hover {
-                text-decoration-color: var(--blue);
-
-                & a {
-                    color: var(--blue);
-                }
-            }
-        }
-
         & .skip {
             display: inline-flex;
 

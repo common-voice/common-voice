@@ -199,15 +199,6 @@ class ContributionPage extends React.Component<Props, State> {
     event.preventDefault();
   };
 
-  private handleSkip = () => {
-    const { locale, onSkip, type } = this.props;
-    ((type === 'listen' ? trackListening : trackRecording) as any)(
-      'skip',
-      locale
-    );
-    onSkip();
-  };
-
   render() {
     const { errorContent, getString, isSubmitted, type, user } = this.props;
     const { showShareModal, showShortcutsModal } = this.state;

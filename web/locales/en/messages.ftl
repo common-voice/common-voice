@@ -628,7 +628,6 @@ record-again-instruction = Great!<recordIcon></recordIcon> Record your next clip
 record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last one!
 review-tooltip = Review & re-record clips here as you go
-unable-speak = Unable to speak right now?
 review-instruction = Review & re-record clips if needed
 record-submit-tooltip = { $actionType } submit when ready
 clips-uploaded = Clips Uploaded
@@ -644,6 +643,23 @@ listen-last-time-instruction = <playIcon></playIcon>Last one!
 nothing-to-validate = We don't have anything to validate in this language, help us fill the queue.
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
+
+## Reporting
+report = Report
+report-title = Submit a report
+report-ask = What issues are you experiencing with this sentence?
+report-grammar-spelling = Grammatical / spelling error
+report-grammar-spelling-detail = The sentence has disrespectful or offensive language.
+report-wrong-language = Wrong language
+report-wrong-language-detail = The sentence has a grammatical or spelling error.
+report-difficult-pronounce = Difficult to pronounce
+report-difficult-pronounce-detail = It contains words or phrases that are hard to read or pronounce.
+report-other-comment =
+        .placeholder = Comment
+success = Success
+continue = Continue
+report-success = Report was passed successfully
+
 
 ## Goals
 streaks = Streaks

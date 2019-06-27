@@ -46,13 +46,22 @@ export const CardAction = ({ className, ...props }: any) =>
 
 export const Hr = (props: any) => <hr className="hr" {...props} />;
 
+export const Checkbox = React.forwardRef(
+  (
+    props: HTMLProps<HTMLInputElement>,
+    ref: React.RefObject<HTMLInputElement>
+  ) => (
+    <span className="checkbox-container">
+      <input ref={ref} type="checkbox" {...props} />
+      <CheckIcon className="checkmark" />
+    </span>
+  )
+);
+
 export const LabeledCheckbox = React.forwardRef(
   ({ label, style, ...props }: any, ref) => (
     <label className="labeled-checkbox" style={style}>
-      <span className="checkbox-container">
-        <input ref={ref} type="checkbox" {...props} />
-        <CheckIcon className="checkmark" />
-      </span>
+      <Checkbox ref={ref} {...props} />
       <span className="label">{label}</span>
     </label>
   )

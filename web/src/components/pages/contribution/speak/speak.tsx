@@ -34,6 +34,7 @@ import {
   RecordButton,
   RecordingStatus,
 } from '../../../primary-buttons/primary-buttons';
+import { ReportButton } from '../report/report';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
@@ -516,9 +517,17 @@ class SpeakPage extends React.Component<Props, State> {
           activeIndex={recordingIndex}
           errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
           extraButton={
-            <Localized id="unable-speak">
-              <LocaleLink to={URLS.LISTEN} />
-            </Localized>
+            recordingIndex != -1 && (
+              <ReportButton
+                reasons={[
+                  'grammar-spelling',
+                  'wrong-language',
+                  'difficult-pronounce',
+                ]}
+                kind="sentence"
+                id={clips[recordingIndex].sentence.id}
+              />
+            )
           }
           instruction={props =>
             error ? (
