@@ -32,7 +32,15 @@ const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
               <SubscribeNewsletter />
             </div>
  */
-
+/**
+ *Ath fyrir neðan
+ * <Localized id="cookies">
+              <a
+                target="_blank"
+                href="http://www.gottimatinn.is/uppskriftir/kokur/smakokur"
+              />
+            </Localized>
+ */
 export default React.memo(() => {
   const [locale] = useLocale();
   return (
@@ -63,7 +71,7 @@ export default React.memo(() => {
             <Localized id="cookies">
               <a
                 target="_blank"
-                href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
+                href="http://www.gottimatinn.is/uppskriftir/kokur/smakokur"
               />
             </Localized>
             <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
