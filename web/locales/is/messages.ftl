@@ -264,6 +264,18 @@ status-hours =
 status-goal = Næsta markmið: { $goal }
 english = Enska
 
+## demographicForm
+demography-form-title = Lýðfræðiupplýsingar
+demography-form-gender =
+    .label = Kyn
+demography-form-age =
+    .label = Aldur
+demography-form-has-accent = Ég tala með erlendum hreim
+why-demographic = Hvers vegna skiptir þetta máli? 
+why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa nákvæmni talgreiningarvéla.
+
+demography-form-submit = Áfram
+
 ## ProfileForm
 
 profile-form-username =
@@ -302,8 +314,6 @@ profile-create-success = Gerð prófíls tókst!
 profile-close = Loka
 profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpaðu okkur að auka á heilindi raddgagnanna.
 thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
-why-demographic = Hvers vegna skiptir þetta máli?
-why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögn sem notuð eru til að skilyrða af nákvæmni talgreiningarvélar. Notendanafn þitt og netfang verða aldrei opinberlega tengd gögnum sem þú hefur deilt og þér er frjálst að hafa notendanafn þitt ósýnilegt eða opið almenningi.
 accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar, líkt og útskýrt er í <privacyLink>friðhelgisstefnu</privacyLink> Mozilla.
 login-identity = Innskráningarauðkenni
 login-signup = Innskrá sig / Skrá sig

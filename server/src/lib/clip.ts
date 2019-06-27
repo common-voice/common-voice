@@ -111,6 +111,9 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
     const sentence = decodeURIComponent(headers.sentence as string);
+    const age = decodeURIComponent(headers.age as string);
+    const sex = decodeURIComponent(headers.sex as string);
+    const accent = decodeURIComponent(headers.accent as string);
 
     if (!client_id || !sentence) {
       throw new ClientParameterError();
@@ -166,7 +169,7 @@ export default class Clip {
           .putObject({
             Bucket: getConfig().BUCKET_NAME,
             Key: sentenceFileName,
-            Body: sentence,
+            Body: sentence + ',' + sex + ',' + age + ',' + accent,
           })
           .promise(),
       ]);
@@ -180,6 +183,9 @@ export default class Clip {
         path: clipFileName,
         sentence,
         sentenceId: headers.sentence_id,
+        age: headers.age,
+        sex: headers.sex,
+        accent: headers.accent,
       });
       await Awards.checkProgress(client_id);
 
