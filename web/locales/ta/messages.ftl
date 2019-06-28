@@ -391,7 +391,10 @@ download-language = { $language } பதிவிறக்கம்
 validated-hours = சரிபார்த்த மணிநேரங்கள்
 recorded-hours = பதிவுசெய்த மணிநேரங்கள்
 whats-inside = பொதுக்குரல் தரவுத்தளத்திற்குள் என்ன இருக்கிறது?
+want-dataset-update = பொதுக்குரல் தரவுத்தளத்தின் புதிய பதிப்பை வெளியிடும்போது அறிய வேண்டுமா? எங்கள் செய்திமடலில் குழுசேருங்கள்.
 subscribe = குழுசேர்
+get-started-speech = பேச்சு அறிதலுடன் தொடங்குங்கள்
+other-datasets = பிற குரல் தரவுத்தளங்கள்
 feedback-q = கருத்துகள் உள்ளனவா?
 data-other-librispeech-description = லிப்ரிஸ்பீச் என்பது லிப்ரிவாக்ஸ் திட்டத்திலிருந்து படிக்கப்பட்டு பெறப்பட்ட தோரயாமக 16Khz ன் 1000 மணிநேர தொகுப்புகளைக் கொண்டுள்ளது.
 data-other-ted-name = TED-LIUM கார்பசு
@@ -400,7 +403,9 @@ data-other-voxforge-description = வாக்ஸ்போர்ஜ் கட்
 data-other-tatoeba-description = டோட்டிபா என்பது மொழிப் பயிற்சிக்காக பயன்படும் சொற்றொடர்கள், மொழிபெயர்ப்புகள், மற்றும் பேச்சு பதிவுகளின் பெரும் தரவுதளம் ஆகும். இந்த பதிவிறக்கும் அவர்கள் சமூகத்தால் பதிவுசெய்யப்பட்ட ஆங்கிலப் பேச்சுகளைக் கொண்டுள்ளது.
 your-feedback = பொதுக் குரல் தரவுத்தளத்தை சிறந்ததாக்குவது எப்படி என்பது குறித்த யோசனைகள் உங்களிடம் உள்ளனவா? டிசுகோர்சில் எங்களுக்குத் தெரிவியுங்கள்
 go-discourse = டிசுகோர்சிற்கு செல்க
+missing-language = தரவுத்தளத்தில் உங்களது மொழி இல்லையா? ஒரு மொழியைக் கோருவதற்கு எங்கள் மொழிகள் பக்கத்திற்குச் செல்லுங்கள்.
 go-languages-page = மொழிகள் பக்கத்திற்கு செல்
+ready-to-validate = சொற்றொடர்களைச் சரிபார்ப்பதற்கு உதவ தயாரா?
 
 ## Download Modal
 
@@ -441,6 +446,7 @@ language-total-progress = மொத்தம்
 language-search-input =
     .placeholder = தேடு
 language-speakers = பேசுபவர்கள்
+localized = மொழிபெயர்க்கப்பட்டது
 sentences = சொற்றொடர்கள்
 total-hours = சரிபார்க்கப்பட்ட மணிகள்
 
@@ -453,6 +459,13 @@ listen = கவனி
 skip = தவிர்க்க
 shortcuts = குறுக்குவழிகள்
 clips-with-count = <bold>{ $count }</bold> துணுக்குகள்
+goal-help-recording = நீங்கள் எங்கள் பொதுக்குரலின் தினசரி பதிவு இலக்கு { $goalValue } ல் <goalPercentage> </goalPercentage> அடைய உதவியுள்ளீர்கள்!
+goal-help-validation = நீங்கள் எங்கள் பொதுக்குரலின் தினசரி சரிபார்த்தல் இலக்கு { $goalValue } ல் <goalPercentage> </goalPercentage> அடைய உதவியுள்ளீர்கள்!
+contribute-more =
+    { $count ->
+        [one] கூடுதலாக { $count } செய்வதற்குத் தயாரா?
+       *[other] கூடுதலாக { $count } செய்வதற்குத் தயாரா?
+    }
 record-cta = பதிவிட துவங்கு
 record-platform-not-supported = மன்னிக்கவும், உங்கள் தளம் தற்போது ஆதரிக்கப்படவில்லை.
 record-platform-not-supported-desktop = பணித்திரைக் கணினிகளில், நீங்கள் சமீபத்தியதைப் பதிவிறக்கலாம்;
@@ -466,9 +479,20 @@ record-cancel = மறுபதிவினை இரத்து செய்
 record-instruction = { $actionType } <recordIcon></recordIcon>பின்னர் சொற்றொடரைச் சத்தமாக வாசியுங்கள்
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> சிறப்பான செயல்
 record-three-more-instruction = மூன்று மீதம் உள்ளன!
+record-again-instruction = மிகஅருமை! <recordIcon> </recordIcon> உங்களது அடுத்த துணுக்கை பதிவு செய்க
+record-again-instruction2 = இப்படியே தொடருங்கள், மீண்டும் பதிவிடுக <recordIcon> </recordIcon>
+record-last-instruction = <recordIcon> </ recordIcon> கடைசியாக ஒன்று!
+review-tooltip = அப்படியே இங்கு துணுக்குகளை மீளாய்வு செய்க & மறுபதிக
+unable-speak = தற்பொழுது பேசுவதற்கு இயலவில்லையா?
+review-instruction = தேவைப்பட்டால் துணுக்குகளை மீளாய்வு செய்க & மறுபதிக
+record-submit-tooltip = { $actionType } தயாரெனில் சமர்ப்பிக்க
+clips-uploaded = துணுக்குகள் பதிவேற்றப்பட்டன
+record-abort-title = முதலில் பதிவுசெய்தீர்களா?
+record-abort-text = நீங்கள் இப்போது வெளியேறினால் உங்கள் செயல்பாட்டை இழந்துவிடுவீர்கள்
 record-abort-submit = பதிவுகளைச் சமர்ப்பியுங்கள்
 record-abort-continue = பதிவை முடிக்கிறது
 record-abort-delete = வெளியேறு & துணுக்குகளை அழி
+listen-instruction = { $actionType }<playIcon></playIcon>அவர்கள் சொற்றொடர்களைத் துல்லியமாகப் பேசினார்களா?
 listen-last-time-instruction = கடைசி!
 
 ## Goals
