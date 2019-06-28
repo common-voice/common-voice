@@ -142,6 +142,12 @@ export const ACCENTS: any = {
     st_pierre_et_miquelon: 'Français de Saint-Pierre-et-Miquelon',
     rwanda: 'Français du Rwanda',
   },
+  kab:{
+    asammar_amtarfu: 'Asammar amḍarfu',
+    asammar: 'Asammar',
+    amalu: 'Amalu',
+    amalu_amtarfu: 'Amalu amḍarfu',
+  },
   nl: {
     netherlands: 'Nederlands Nederlands',
     belgium: 'Belgisch Nederlands',
