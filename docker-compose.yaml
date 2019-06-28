@@ -4,6 +4,8 @@ services:
     image: mysql:5.6.39
     networks:
       - voice-web
+    container_name: db
+    restart: unless-stopped
     environment:
       - MYSQL_DATABASE=voiceweb
       - MYSQL_USER=voicecommons
@@ -11,6 +13,7 @@ services:
       - MYSQL_ROOT_PASSWORD=voicewebroot
   s3proxy:
     image: andrewgaul/s3proxy
+    container_name: s3proxy
     networks:
       - voice-web
     environment:
@@ -19,6 +22,9 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile
+    container_name: web
+    links:
+      - db
     volumes:
       - .:/code
     environment:
