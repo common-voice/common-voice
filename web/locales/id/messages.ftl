@@ -404,8 +404,7 @@ about-yes-votes = ≥ 2 pilihan Ya
 about-yes-votes-text = Supaya diterima dalam himpunan data Common Voice, klip suara harus divalidasi oleh dua pengguna berbeda.
 about-no-votes = ≥ 2 pilihan Tidak
 about-no-votes-text = Ketika ditolak oleh pengguna, klip suara akan kembali ke Antrean. Apabila ditolak lagi, klip suara akan dialihkan ke Kober Klip.
-about-dataset = Himpunan Data Common Voice
-about-dataset-text = Ketika ditolak oleh pengguna, klip suara akan kembali ke Antrean. Apabila ditolak lagi, klip suara akan dialihkan ke Kober Klip.
+about-dataset-new = Himpunan Data Common Voice
 about-clip-graveyard = Kober Klip
 about-clip-graveyard-text = Kober Klip terdiri dari klip suara yang ditolak masuk ke himpunan data Common Voice. Sebagaimana himpunan data, Kober Klip juga tersedia untuk diunduh.
 about-partners = Mitra
@@ -479,7 +478,7 @@ review-cancel = Batalkan Pengajuan
 review-keep-recordings = Simpan rekaman
 review-delete-recordings = Hapus rekaman saya
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Kami membuat kumpulan data multi-bahasa dan sumber terbuka yang dapat digunakan siapa pun untuk melatih aplikasi yang berkemampuan-bicara.
 datasets-positioning =
@@ -531,6 +530,7 @@ ready-to-validate = Siap membantu validasi kalimat?
 more = Lainnya
 close = Tutup
 download = Unduh
+dataset-version = Versi
 
 ## Download Modal
 
