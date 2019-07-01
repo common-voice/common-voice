@@ -330,8 +330,6 @@ profile-create-success = Gerð prófíls tókst!
 profile-close = Loka
 profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpaðu okkur að auka á heilindi raddgagnanna.
 thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
-why-demographic = Hvers vegna skiptir þetta máli?
-why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögn sem notuð eru til að skilyrða af nákvæmni talgreiningarvélar. Notendanafn þitt og netfang verða aldrei opinberlega tengd gögnum sem þú hefur deilt og þér er frjálst að hafa notendanafn þitt ósýnilegt eða opið almenningi.
 #Changed:
 accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar í samræmi við persónuverndarlög.
 login-identity = Innskráningarauðkenni
