@@ -117,7 +117,7 @@
         & .waves {
             position: absolute;
             bottom: -5px;
-            width: 100vw;
+            width: var(--desktop-width);
             pointer-events: none;
         }
 
@@ -148,7 +148,7 @@
     }
 
     & .bg {
-        width: 100vw;
+        width: var(--desktop-width);
         height: 100%;
         position: absolute;
         left: 0;
