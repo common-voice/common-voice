@@ -245,7 +245,7 @@ shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Анҵамҭақәа еита-ианҵатәуп
-request-language-text = Common Voice аҟны уара убышәа макьана иумбаӡои?
+request-language-text = Common Voice аҟны уара убызшәа макьана иумбаӡои?
 request-language-button = Абызшәа уазҵаа
 
 ## ProjectStatus
