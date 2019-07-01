@@ -280,16 +280,17 @@ status-goal = Næsta markmið: { $goal }
 english = Enska
 
 ## demographicForm
-demography-form-title = Lýðfræðiupplýsingar
-demography-form-gender =
+demographic-form-title = Lýðfræðiupplýsingar
+demographic-form-gender =
     .label = Kyn
-demography-form-age =
+demographic-form-age =
     .label = Aldur
-demography-form-has-accent = Ég tala með erlendum hreim
+demographic-form-native-language =
+    .label = Móðurmál
 why-demographic = Hvers vegna skiptir þetta máli? 
-why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa nákvæmni talgreiningarvéla.
-
-demography-form-submit = Áfram
+why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og móðurmál hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa nákvæmni talgreiningarvéla.
+demographic-form-other-native-language = Íslenska er mitt móðurmál
+demographic-form-submit = Áfram
 
 ## ProfileForm
 
@@ -630,6 +631,10 @@ sentences = Setningar
 total-hours = Staðfestar klst
 
 ## New Contribution
+
+no-age = Vinsamlegast settu inn þitt aldursbil
+no-native-language = Vinsamlegast settu inn þitt móðurmál
+no-sex = Vinsamlegast settu inn þitt kyn
 
 action-click = Smella
 action-tap = Snerta
