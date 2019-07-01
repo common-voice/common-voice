@@ -13,6 +13,12 @@ export interface Clip {
   sound: string;
 }
 
+interface DemoInfo {
+  sex: string;
+  age: string;
+  accent: boolean;
+}
+
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
   isJSON?: boolean;
@@ -95,13 +101,21 @@ export default class API {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 
-  uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
+  uploadClip(
+    blob: Blob,
+    sentenceId: string,
+    sentence: string,
+    info: DemoInfo
+  ): Promise<void> {
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
         sentence_id: sentenceId,
+        sex: info.sex,
+        age: info.age,
+        accent: info.accent.toString(),
       },
       body: blob,
     });

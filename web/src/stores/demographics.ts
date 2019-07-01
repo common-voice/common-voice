@@ -62,22 +62,28 @@ export const ACCENTS: any = {
     internacia: 'Internacia',
   },
   es: {
-    nortepeninsular: 'España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca)',
-    centrosurpeninsular: 'España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)',
+    nortepeninsular:
+      'España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca)',
+    centrosurpeninsular:
+      'España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)',
     surpeninsular: 'España: Sur peninsular (Andalucia, Extremadura, Murcia)',
     canario: 'España: Islas Canarias',
     mexicano: 'México',
     americacentral: 'América central',
-    caribe: 'Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México',
-    andino: 'Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina',
+    caribe:
+      'Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México',
+    andino:
+      'Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina',
     rioplatense: 'Rioplatense: Argentina, Uruguay, este de Bolivia, Paraguay',
     chileno: 'Chileno: Chile, Cuyo',
     filipinas: 'Español de Filipinas',
   },
   eu: {
-    mendebalekoa: 'Mendebalekoa (Araka, Bizkaia, Gipuzkoako mendebaleko herri batzuk)',
+    mendebalekoa:
+      'Mendebalekoa (Araka, Bizkaia, Gipuzkoako mendebaleko herri batzuk)',
     erdialdekoa_nafarra: 'Erdialdekoa edo Nafarra (Gipuzkoa, Nafarroa)',
-    nafarlapurtarra_zuberoatarra: 'Nafar-lapurtarra edo Zuberotarra (Lapurdi, Nafarroa Beherea, Zuberoa)',
+    nafarlapurtarra_zuberoatarra:
+      'Nafar-lapurtarra edo Zuberotarra (Lapurdi, Nafarroa Beherea, Zuberoa)',
   },
   fr: {
     france: 'Français de France',
@@ -220,12 +226,13 @@ export const ACCENTS: any = {
     '710000': '出生地：71 台湾省',
     '810000': '出生地：81 香港特别行政区',
     '820000': '出生地：82 澳门特别行政区',
-  },  
+  },
 };
 
 export const AGES = {
   '': '',
-  teens: '< 19',
+  childen: '< 12',
+  teens: '13 - 18',
   twenties: '19 - 29',
   thirties: '30 - 39',
   fourties: '40 - 49',
@@ -238,7 +245,7 @@ export const AGES = {
 
 export const SEXES = {
   '': '',
+  other: 'Other',
   male: 'Male',
   female: 'Female',
-  other: 'Other',
 };

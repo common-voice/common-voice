@@ -19,7 +19,6 @@ import {
   Button,
   LabeledCheckbox,
   LabeledInput,
-  LabeledSelect,
   LinkButton,
   TextButton,
 } from '../../ui/ui';
@@ -193,18 +192,6 @@ class DatasetInfo extends React.Component<Props, State> {
           </div>
           <div className="info">
             <div className="inner">
-              <LabeledSelect
-                label={getString('language')}
-                value={locale}
-                onChange={(event: any) =>
-                  this.setState({ locale: event.target.value })
-                }>
-                {Object.keys(stats.locales).map(locale => (
-                  <Localized key={locale} id={locale}>
-                    <option value={locale} />
-                  </Localized>
-                ))}
-              </LabeledSelect>
               <ul className="facts">
                 {Object.entries({
                   size,

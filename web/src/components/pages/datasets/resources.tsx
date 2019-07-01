@@ -160,11 +160,14 @@ export default React.memo(() => {
               },
             ],
             [
-              'Discourse',
+              'Tal',
               'common-voice-info-new',
               'discourse',
               {
-                discourseLink: <StyledLink href={discourseURL} blank />,
+                discourseLink: <StyledLink href="https://tal.ru.is/" blank />,
+                githubLink: (
+                  <StyledLink href="https://github.com/kaldi-asr/kaldi" blank />
+                ),
               },
             ],
           ].map(([title, descriptionId, imgSrc, props]) => (

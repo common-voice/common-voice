@@ -1,6 +1,7 @@
 @import url('../../vars.css');
 
-.datasets {
+/*Breytti datasets í gagnasafn*/
+.gagnasafn {
     & #content {
         padding: 0;
 

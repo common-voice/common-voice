@@ -26,35 +26,17 @@ const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
   );
 };
 
+/**
+ * Það sem búið er að taka út: 
+ *          <div id="email-subscription">
+              <SubscribeNewsletter />
+            </div>
+ */
+
 export default React.memo(() => {
   const [locale] = useLocale();
   return (
     <footer>
-      <div id="help-links">
-        <LocaleLink id="help" to={URLS.FAQ}>
-          <SupportIcon />
-          <Localized id="help" onClick={() => trackNav('help', locale)}>
-            <div />
-          </Localized>
-        </LocaleLink>
-        <div className="divider" />
-        <GitHubLink id="contribute">
-          <GithubIcon />
-          <div>GitHub</div>
-        </GitHubLink>
-        <div className="divider" />
-        <DiscourseLink id="discourse">
-          <DiscourseIcon />
-          <div>Discourse</div>
-        </DiscourseLink>
-        <div className="divider" />
-        <ContactLink>
-          <ContactIcon />
-          <Localized id="contact">
-            <div />
-          </Localized>
-        </ContactLink>
-      </div>
       <div id="moz-links">
         <div className="logo-container">
           <Logo reverse />
@@ -96,10 +78,6 @@ export default React.memo(() => {
           <div className="icons">
             <ShareButtons />
           </div>
-        </div>
-
-        <div id="email-subscription">
-          <SubscribeNewsletter />
         </div>
 
         <Localized id="back-top">

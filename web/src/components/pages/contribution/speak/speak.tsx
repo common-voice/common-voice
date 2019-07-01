@@ -23,8 +23,19 @@ import {
 } from '../../../locale-helpers';
 import Modal, { ModalButtons } from '../../../modal/modal';
 import TermsModal from '../../../terms-modal';
-import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
-import { Button, TextButton } from '../../../ui/ui';
+import {
+  CheckIcon,
+  FontIcon,
+  MicIcon,
+  StopIcon,
+  DownIcon,
+} from '../../../ui/icons';
+import {
+  Button,
+  TextButton,
+  LabeledSelect,
+  LabeledCheckbox,
+} from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import ContributionPage, {
   ContributionPillProps,
@@ -38,6 +49,7 @@ import AudioIOS from './audio-ios';
 import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
+import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
 
 import './speak.css';
 
@@ -111,6 +123,13 @@ interface State {
   rerecordIndex?: number;
   showPrivacyModal: boolean;
   showDiscardModal: boolean;
+  showDemographicInfo: boolean;
+  showDemographyModal: boolean;
+  demography: {
+    sex: string;
+    age: string;
+    accent: boolean;
+  };
 }
 
 const initialState: State = {
@@ -121,7 +140,31 @@ const initialState: State = {
   rerecordIndex: null,
   showPrivacyModal: false,
   showDiscardModal: false,
+  showDemographicInfo: false,
+  showDemographyModal: true,
+  demography: {
+    sex: '',
+    age: '',
+    accent: false,
+  },
 };
+
+const Options = withLocalization(
+  ({
+    children,
+    getString,
+  }: {
+    children: { [key: string]: string };
+  } & LocalizationProps) => (
+    <React.Fragment>
+      {Object.entries(children).map(([key, value]) => (
+        <option key={key} value={key}>
+          {getString(key, null, value)}
+        </option>
+      ))}
+    </React.Fragment>
+  )
+);
 
 class SpeakPage extends React.Component<Props, State> {
   state: State = initialState;
@@ -371,6 +414,8 @@ class SpeakPage extends React.Component<Props, State> {
       refreshUser,
     } = this.props;
 
+    const { demography } = this.state;
+
     if (!hasAgreed && !(user.privacyAgreed || user.account)) {
       this.setState({ showPrivacyModal: true });
       return false;
@@ -387,7 +432,12 @@ class SpeakPage extends React.Component<Props, State> {
         let retries = 3;
         while (retries) {
           try {
-            await api.uploadClip(recording.blob, sentence.id, sentence.text);
+            await api.uploadClip(
+              recording.blob,
+              sentence.id,
+              sentence.text,
+              demography
+            );
             if (!user.account) {
               tallyRecording();
             }
@@ -428,6 +478,13 @@ class SpeakPage extends React.Component<Props, State> {
   private resetState = (callback?: any) =>
     this.setState(initialState, callback);
 
+  private submitDemography = () => {
+    this.setState({
+      showDemographyModal: false,
+      //TODO: save info to cookies/store/...
+    });
+  };
+
   private agreeToTerms = async () => {
     this.setState({ showPrivacyModal: false });
     this.props.updateUser({ privacyAgreed: true });
@@ -452,6 +509,30 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
+  private handleChangeForDemoSelect = (e: any) => {
+    this.setState({
+      demography: {
+        ...this.state.demography,
+        [e.target.name]: e.target.value,
+      },
+    });
+  };
+
+  private handleChangeForDemoCheck = (e: any) => {
+    this.setState({
+      demography: {
+        ...this.state.demography,
+        [e.target.name]: e.target.checked,
+      },
+    });
+  };
+
+  private setShowDemographicInfo() {
+    this.setState({
+      showDemographicInfo: !this.state.showDemographicInfo,
+    });
+  }
+
   render() {
     const { getString, user } = this.props;
     const {
@@ -462,8 +543,11 @@ class SpeakPage extends React.Component<Props, State> {
       rerecordIndex,
       showPrivacyModal,
       showDiscardModal,
+      showDemographyModal,
+      demography,
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
+    console.log(this.state.demography);
     return (
       <React.Fragment>
         <NavigationPrompt
@@ -511,6 +595,77 @@ class SpeakPage extends React.Component<Props, State> {
               }}
             />
           </Localized>
+        )}
+        {showDemographyModal && (
+          <Modal innerClassName="" onRequestClose={this.resetAndGoHome}>
+            <Localized id="demography-form-title" className="form-title">
+              <h1 className="title" />
+            </Localized>
+
+            <div className="form-fields">
+              <Localized id="demography-form-age" attrs={{ label: true }}>
+                <LabeledSelect
+                  name="age"
+                  value={demography.age}
+                  onChange={(e: any) => this.handleChangeForDemoSelect(e)}>
+                  <Options>{AGES}</Options>
+                </LabeledSelect>
+              </Localized>
+
+              <Localized id="demography-form-gender" attrs={{ label: true }}>
+                <LabeledSelect
+                  name="sex"
+                  value={demography.sex}
+                  onChange={(e: any) => this.handleChangeForDemoSelect(e)}>
+                  <Options>{SEXES}</Options>
+                </LabeledSelect>
+              </Localized>
+
+              <LabeledCheckbox
+                name="accent"
+                checked={demography.accent}
+                label={
+                  <Localized id="demography-form-has-accent">
+                    <span />
+                  </Localized>
+                }
+                onChange={(e: React.ChangeEvent<HTMLSelectElement>) =>
+                  this.handleChangeForDemoCheck(e)
+                }
+              />
+
+              <ModalButtons>
+                <Localized>
+                  <Localized id="demography-form-submit">
+                    <Button
+                      outline
+                      rounded
+                      onClick={() => this.submitDemography()}
+                    />
+                  </Localized>
+                </Localized>
+              </ModalButtons>
+            </div>
+
+            <div
+              className={
+                'demographic-info ' +
+                (this.state.showDemographicInfo ? 'expanded' : '')
+              }>
+              <button
+                type="button"
+                onClick={() => this.setShowDemographicInfo()}>
+                <Localized id="why-demographic">
+                  <span />
+                </Localized>
+
+                <DownIcon />
+              </button>
+              <Localized id="why-demographic-explanation">
+                <div className="explanation" />
+              </Localized>
+            </div>
+          </Modal>
         )}
         <ContributionPage
           activeIndex={recordingIndex}
