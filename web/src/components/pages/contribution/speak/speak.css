@@ -9,6 +9,11 @@
     margin: 2rem;
 }
 
+.modal-error {
+    color: var(--red);
+    margin-bottom: 2rem;
+}
+
 .demographic-info {
     border-inline-start: 2px solid var(--blue);
     margin: 30px 0;

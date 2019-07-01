@@ -49,7 +49,7 @@ import AudioIOS from './audio-ios';
 import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
-import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
+import { LANGUAGES, AGES, SEXES } from '../../../../stores/demographics';
 
 import './speak.css';
 
@@ -57,10 +57,18 @@ const MIN_RECORDING_MS = 1000;
 const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 1;
 
+const DEFAULT_LANGUAGE = 'islenska';
+
 enum RecordingError {
   TOO_SHORT = 'TOO_SHORT',
   TOO_LONG = 'TOO_LONG',
   TOO_QUIET = 'TOO_QUIET',
+}
+
+enum DemographicError {
+  NO_SEX = 'NO_SEX',
+  NO_AGE = 'NO_AGE',
+  NO_NATIVE_LANGUAGE = 'NO_NATIVE_LANGUAGE',
 }
 
 const UnsupportedInfo = () => (
@@ -119,16 +127,18 @@ interface State {
   clips: SentenceRecording[];
   isSubmitted: boolean;
   error?: RecordingError | AudioError;
+  demographicError?: DemographicError;
   recordingStatus: RecordingStatus;
   rerecordIndex?: number;
   showPrivacyModal: boolean;
   showDiscardModal: boolean;
   showDemographicInfo: boolean;
-  showDemographyModal: boolean;
-  demography: {
+  showDemographicModal: boolean;
+  showLanguageSelect: boolean;
+  demographic: {
     sex: string;
     age: string;
-    accent: boolean;
+    native_language: string;
   };
 }
 
@@ -136,16 +146,18 @@ const initialState: State = {
   clips: [],
   isSubmitted: false,
   error: null,
+  demographicError: null,
   recordingStatus: null,
   rerecordIndex: null,
   showPrivacyModal: false,
   showDiscardModal: false,
   showDemographicInfo: false,
-  showDemographyModal: true,
-  demography: {
+  showDemographicModal: true,
+  showLanguageSelect: false,
+  demographic: {
     sex: '',
     age: '',
-    accent: false,
+    native_language: DEFAULT_LANGUAGE,
   },
 };
 
@@ -414,10 +426,19 @@ class SpeakPage extends React.Component<Props, State> {
       refreshUser,
     } = this.props;
 
-    const { demography } = this.state;
-
     if (!hasAgreed && !(user.privacyAgreed || user.account)) {
       this.setState({ showPrivacyModal: true });
+      return false;
+    }
+
+    const { demographic } = this.state;
+
+    const demographicError = this.getDemographicError();
+    if (demographicError) {
+      this.setState({
+        demographicError,
+        showDemographicModal: true,
+      });
       return false;
     }
 
@@ -436,7 +457,7 @@ class SpeakPage extends React.Component<Props, State> {
               recording.blob,
               sentence.id,
               sentence.text,
-              demography
+              demographic
             );
             if (!user.account) {
               tallyRecording();
@@ -446,9 +467,12 @@ class SpeakPage extends React.Component<Props, State> {
             let msg;
             if (error.message === 'save_clip_error') {
               msg =
-                'Upload of this clip keeps failing at server, reload the page or try after sometime';
+                'Innsending raddsýnis mistekst sífellt á netþjóni, prófaðu að endurhlaða síðunni eða reyndu aftur eftir smá stund';
+            } else if (error.message === 'demographic_error') {
+              msg =
+                'Villa kom upp í tengslum við lýðfræðiupplýsingar, vinsamlegast settu þær aftur inn';
             } else {
-              msg = 'Upload of this clip keeps failing, keep retrying?';
+              msg = 'Innsending raddsýnis mistekst sífellt, reyna áfram?';
             }
             retries--;
             await new Promise(resolve => setTimeout(resolve, 1000));
@@ -478,11 +502,40 @@ class SpeakPage extends React.Component<Props, State> {
   private resetState = (callback?: any) =>
     this.setState(initialState, callback);
 
-  private submitDemography = () => {
-    this.setState({
-      showDemographyModal: false,
-      //TODO: save info to cookies/store/...
-    });
+  private submitDemographic = () => {
+    const demographicError = this.getDemographicError();
+    if (demographicError) {
+      return this.setState({
+        demographicError,
+      });
+    } else {
+      this.setState({
+        showDemographicModal: false,
+        demographicError,
+        //TODO: save info to cookies/store/...
+      });
+    }
+  };
+
+  private getDemographicError = (): DemographicError => {
+    const { demographic } = this.state;
+    return null;
+
+    if (demographic.age == '' || !(demographic.age in AGES)) {
+      return DemographicError.NO_AGE;
+    }
+    if (
+      !(
+        demographic.native_language in LANGUAGES ||
+        demographic.native_language == ''
+      )
+    ) {
+      return DemographicError.NO_NATIVE_LANGUAGE;
+    }
+    if (demographic.sex == '' || !(demographic.sex in SEXES)) {
+      return DemographicError.NO_SEX;
+    }
+    return null;
   };
 
   private agreeToTerms = async () => {
@@ -509,22 +562,27 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private handleChangeForDemoSelect = (e: any) => {
+  private handleChangeFor = (e: any) => {
     this.setState({
-      demography: {
-        ...this.state.demography,
+      demographic: {
+        ...this.state.demographic,
         [e.target.name]: e.target.value,
       },
     });
   };
 
-  private handleChangeForDemoCheck = (e: any) => {
+  private toggleNativeIcelandic = () => {
     this.setState({
-      demography: {
-        ...this.state.demography,
-        [e.target.name]: e.target.checked,
-      },
+      showLanguageSelect: !this.state.showLanguageSelect,
     });
+    if (!this.state.showLanguageSelect) {
+      this.setState({
+        demographic: {
+          ...this.state.demographic,
+          native_language: DEFAULT_LANGUAGE,
+        },
+      });
+    }
   };
 
   private setShowDemographicInfo() {
@@ -539,15 +597,17 @@ class SpeakPage extends React.Component<Props, State> {
       clips,
       isSubmitted,
       error,
+      demographicError,
       recordingStatus,
       rerecordIndex,
       showPrivacyModal,
       showDiscardModal,
-      showDemographyModal,
-      demography,
+      showDemographicModal,
+      demographic,
+      showLanguageSelect,
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
-    console.log(this.state.demography);
+    console.log(this.state.demographic);
     return (
       <React.Fragment>
         <NavigationPrompt
@@ -596,51 +656,75 @@ class SpeakPage extends React.Component<Props, State> {
             />
           </Localized>
         )}
-        {showDemographyModal && (
+        {showDemographicModal && (
           <Modal innerClassName="" onRequestClose={this.resetAndGoHome}>
-            <Localized id="demography-form-title" className="form-title">
+            <Localized id="demographic-form-title" className="form-title">
               <h1 className="title" />
             </Localized>
 
+            {demographicError && (
+              <div className="modal-error">
+                <Localized
+                  id={
+                    {
+                      [DemographicError.NO_AGE]: 'no-age',
+                      [DemographicError.NO_NATIVE_LANGUAGE]:
+                        'no-native-language',
+                      [DemographicError.NO_SEX]: 'no-sex',
+                    }[demographicError]
+                  }
+                />
+              </div>
+            )}
+
             <div className="form-fields">
-              <Localized id="demography-form-age" attrs={{ label: true }}>
+              <Localized id="demographic-form-age" attrs={{ label: true }}>
                 <LabeledSelect
                   name="age"
-                  value={demography.age}
-                  onChange={(e: any) => this.handleChangeForDemoSelect(e)}>
+                  value={demographic.age}
+                  onChange={(e: any) => this.handleChangeFor(e)}>
                   <Options>{AGES}</Options>
                 </LabeledSelect>
               </Localized>
 
-              <Localized id="demography-form-gender" attrs={{ label: true }}>
+              <Localized id="demographic-form-gender" attrs={{ label: true }}>
                 <LabeledSelect
                   name="sex"
-                  value={demography.sex}
-                  onChange={(e: any) => this.handleChangeForDemoSelect(e)}>
+                  value={demographic.sex}
+                  onChange={(e: any) => this.handleChangeFor(e)}>
                   <Options>{SEXES}</Options>
                 </LabeledSelect>
               </Localized>
 
               <LabeledCheckbox
-                name="accent"
-                checked={demography.accent}
+                checked={!showLanguageSelect}
                 label={
-                  <Localized id="demography-form-has-accent">
+                  <Localized id="demographic-form-other-native-language">
                     <span />
                   </Localized>
                 }
-                onChange={(e: React.ChangeEvent<HTMLSelectElement>) =>
-                  this.handleChangeForDemoCheck(e)
-                }
+                onChange={(e: any) => this.toggleNativeIcelandic()}
               />
+              {showLanguageSelect && (
+                <Localized
+                  id="demographic-form-native-language"
+                  attrs={{ label: true }}>
+                  <LabeledSelect
+                    name="native_language"
+                    value={demographic.native_language}
+                    onChange={(e: any) => this.handleChangeFor(e)}>
+                    <Options>{LANGUAGES}</Options>
+                  </LabeledSelect>
+                </Localized>
+              )}
 
               <ModalButtons>
                 <Localized>
-                  <Localized id="demography-form-submit">
+                  <Localized id="demographic-form-submit">
                     <Button
                       outline
                       rounded
-                      onClick={() => this.submitDemography()}
+                      onClick={() => this.submitDemographic()}
                     />
                   </Localized>
                 </Localized>

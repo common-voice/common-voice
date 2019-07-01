@@ -5,18 +5,13 @@ import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
 import { Sentences } from '../stores/sentences';
+import { DemoInfo } from '../stores/demographics';
 
 export interface Clip {
   id: string;
   glob: string;
   text: string;
   sound: string;
-}
-
-interface DemoInfo {
-  sex: string;
-  age: string;
-  accent: boolean;
 }
 
 interface FetchOptions {
@@ -115,7 +110,7 @@ export default class API {
         sentence_id: sentenceId,
         sex: info.sex,
         age: info.age,
-        accent: info.accent.toString(),
+        native_language: info.native_language,
       },
       body: blob,
     });
