@@ -151,7 +151,7 @@ const initialState: State = {
   rerecordIndex: null,
   showPrivacyModal: false,
   showDiscardModal: false,
-  showDemographicInfo: true,
+  showDemographicInfo: false,
   showDemographicModal: true,
   showLanguageSelect: false,
   demographic: {
@@ -597,6 +597,7 @@ class SpeakPage extends React.Component<Props, State> {
       showPrivacyModal,
       showDiscardModal,
       showDemographicModal,
+      showDemographicInfo,
       demographic,
       showLanguageSelect,
     } = this.state;
@@ -727,10 +728,9 @@ class SpeakPage extends React.Component<Props, State> {
             </ModalButtons>
 
             <div
-              className={
-                'demographic-info ' +
-                (this.state.showDemographicInfo ? 'expanded' : '')
-              }>
+              className={`demographic-info ${
+                showDemographicInfo ? 'expanded' : ''
+              }`}>
               <button
                 type="button"
                 onClick={() => this.setShowDemographicInfo()}>
