@@ -28,9 +28,19 @@ const SECTION_CONTENTS: any = {
   [SECTIONS.whatIsCV]: [
     'faq-what-cv',
     'faq-why-important',
-    'faq-why-mission',
+    [
+      'faq-why-mission-q',
+      'faq-why-mission-a',
+      {
+        mozillaLink: <StyledLink href="https://voice.mozilla.org/en" blank />,
+      },
+    ],
     'faq-what-cv-and-deepspeech',
     'faq-is-goal-assistant',
+    /*[
+      'faq-when-release-q',
+      'faq-when-release-a',
+    ],*/
   ],
   [SECTIONS.usingCV]: [
     [
@@ -47,38 +57,20 @@ const SECTION_CONTENTS: any = {
         datasetLink: <LocaleLink to={URLS.DATASETS} />,
       },*/,
     ],
-    /*[
-      'faq-when-release-q',
-      'faq-when-release-a',
-      {
-        contactLink: <StyledLink href="mailto:commonvoice@mozilla.com" blank />,
-      },
-    ],*/
     'faq-do-want-native',
     [
       'faq-why-different-speakers-q',
-      'faq-why-different-speakers-a' /*,
+      'faq-why-different-speakers-a',
       {
         articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank />,
-      },*/,
+      },
     ],
     [
       'faq-why-my-lang-q',
-      'faq-why-my-lang-new-a' /*,
+      'faq-why-my-lang-new-a',
       {
-        multilangLink: (
-          <StyledLink
-            href="https://medium.com/mozilla-open-innovation/more-common-voices-24a80c879944"
-            blank
-          />
-        ),
-        sentenceCollectorLink: (
-          <StyledLink
-            href="https://common-voice.github.io/sentence-collector/"
-            blank
-          />
-        ),
-      },*/,
+        articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank />,
+      },
     ],
     'faq-what-quality',
     'faq-why-10k-hours',
@@ -97,8 +89,8 @@ const SECTION_CONTENTS: any = {
         ),
       },*/,
     ],
-    ['faq-why-account-q', BENEFITS],
-    ['faq-is-account-public-q', WHATS_PUBLIC],
+    ['faq-why-account-q', 'faq-why-account-a'],
+    /*['faq-is-account-public-q', WHATS_PUBLIC],*/
     'faq-how-privacy',
     'faq-what-determine-identity',
   ],

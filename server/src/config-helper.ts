@@ -37,7 +37,7 @@ const DEFAULTS: CommonVoiceConfig = {
   DB_ROOT_USER: 'root', // For running schema migrations.
   DB_ROOT_PASS: 'voicecommons',
   MYSQLUSER: 'voicecommons', // For normal DB interactions.
-  MYSQLPASS: 'NoMan',
+  MYSQLPASS: 'NMyDockerBail123',
   MYSQLDBNAME: 'voiceweb',
   MYSQLHOST: 'voiceweb-island.c0npytokrpbc.us-east-2.rds.amazonaws.com',
   MYSQLPORT: 3306,
