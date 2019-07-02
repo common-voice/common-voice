@@ -47,7 +47,8 @@
         @media (--md-down) {
             padding: 70px 0;
             background: url('images/intro-bg-md.svg');
-            background-size: 100% 100%;
+            max-width: 100%;
+            background-size: 100%;
 
             & h1,
             & button,

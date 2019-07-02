@@ -227,7 +227,8 @@ class DatasetInfo extends React.Component<Props, State> {
                   <Button
                     className="show-email-form"
                     rounded
-                    onClick={this.showEmailForm}>
+                    onClick={this.showEmailForm}
+                    disabled>
                     <Localized id="email-to-download">
                       <span />
                     </Localized>
