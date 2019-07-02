@@ -1,16 +1,11 @@
 export default [
   {
     color: 'var(--red)',
-    name: 'LibriSpeech',
+    name: 'Tal',
     nick: 'librispeech',
-    size: 57.2,
-    url: 'https://www.openslr.org/12',
-    download: null,
-    license: {
-      name: 'CC-BY-4.0',
-      url: 'https://creativecommons.org/licenses/by/4.0/',
-    },
+    url: 'https://tal.ru.is/',
   },
+  /** 
   {
     color: '#7e9ed2',
     nick: 'ted',
@@ -34,17 +29,11 @@ export default [
       name: 'GNU-GPL',
       url: 'https://www.gnu.org/licenses/gpl-3.0.en.html',
     },
-  },
+  },*/
   {
     color: 'var(--valid-green)',
-    name: 'Tatoeba',
+    name: 'Málföng',
     nick: 'tatoeba',
-    size: 3.8,
-    url: 'https://tatoeba.org/eng/downloads',
-    download: 'https://downloads.tatoeba.org/audio/tatoeba_audio_eng.zip',
-    license: {
-      name: 'license-mixed',
-      url: 'https://tatoeba.org/eng/downloads',
-    },
+    url: 'http://www.malfong.is/',
   },
 ];

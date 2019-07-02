@@ -20,6 +20,8 @@ import RequestLanguageModal from '../../request-language-modal/request-language-
 import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { Button, Hr, StyledLink, TextButton } from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
+import JonGnarrLesa from './images/JonGnarrLesa.jpg';
+import Kikka from './images/Kikkan.jpg';
 
 interface PropsFromState {
   api: API;
@@ -270,14 +272,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
           </div>
 
           <div className="text">
-            <div className="inner">
-              <Localized id="request-language-text">
-                <h2 />
-              </Localized>
-            </div>
+            <div className="inner"></div>
           </div>
         </div>
-
         <br />
 
         {showLanguageRequestModal && (
@@ -288,35 +285,47 @@ class LanguagesPage extends React.PureComponent<Props, State> {
           />
         )}
 
-        <div className="mobile-headings">
-          <Hr />
-
-          <div className="labels">
-            <h2
-              className="launched"
-              onClick={this.changeSection.bind(this, 'launched')}>
-              {getString('language-section-launched')}
-              {launchedCountLabel}
-            </h2>
-          </div>
-        </div>
-
         <div className="language-sections">
           <section className="launched">
             <div className="title-and-search">
-              <h1>
-                {getString('language-section-launched')}
-                {launchedCountLabel}
-              </h1>
-              <Hr />
+              <h1>{getString('language-section-launched')}</h1>
             </div>
-
-            <Localized
-              id="language-section-launched-description"
-              {...descriptionProps}>
-              <p />
-            </Localized>
-            <div className="thank-cards"></div>
+            <Hr />
+            <ul>
+              <li>
+                <h2>
+                  <strong>Kristlaugu Maríu Sigurðardóttur</strong>
+                </h2>
+                <div>
+                  <p>
+                    Fyrir setningar úr verkum sínum þar á meðal Ávaxtakörfunni.
+                  </p>
+                </div>
+              </li>
+              <Hr />
+              <li>
+                <h2>
+                  <strong>Vísindavefnum</strong>
+                </h2>
+                <div>
+                  <p>
+                    Fyrir setningar úr greinum sínum sem finna má í íslensku
+                    málheildinni RMH.
+                  </p>
+                </div>
+              </li>
+              <Hr />
+              <li>
+                <h2>
+                  <strong>Common Voice</strong>
+                </h2>
+                <p>
+                  Samrómur er byggt á Mozilla verkefninu Common Voice. Við
+                  þökkum fallega grafík og góða undirstöðu til að byggja
+                  verkefnið okkar ofan á.
+                </p>
+              </li>
+            </ul>
           </section>
         </div>
       </div>

@@ -36,7 +36,7 @@
 }
 
 /*Breytti languages í tungumal*/
-.tungumal {
+.takk {
     & .top {
         display: flex;
         flex-direction: column;
@@ -141,10 +141,6 @@
             padding: 1rem;
             cursor: pointer;
             font-size: 18px;
-
-            @media (--xs-up) {
-                font-size: var(--font-size-lg);
-            }
         }
 
         & button {
@@ -245,6 +241,15 @@
             margin-bottom: 0;
             padding: 0;
             list-style: none;
+        }
+
+        & div {
+            display: flex;
+        }
+
+        & img {
+            border-radius: 50%;
+            width: 15%;
         }
 
         & section {

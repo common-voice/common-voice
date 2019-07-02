@@ -1,0 +1,15 @@
+<svg width="203" height="66" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="205" height="68" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="43" id="svg_4" y="33.6" x="0.000001" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Samrómur</text>
+  <rect stroke="#000" id="svg_5" height="24.999999" width="150.000002" y="38.500009" x="0" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"/>
+  <text stroke="#000" transform="matrix(8.319862365722656,0,0,0.07593947459730588,-208.6160774230957,116.01988770014243) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="76" id="svg_6" y="330.723016" x="31.838047" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="21" id="svg_7" y="58.6" x="0.8125" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">Almannarómur</text>
+ </g>
+</svg>

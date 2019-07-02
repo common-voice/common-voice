@@ -13,7 +13,6 @@ import './resources.css';
 const NAV_IDS = {
   getStarted: 'get-started',
   other: 'other-datasets',
-  feedback: 'feedback',
 };
 
 const Dataset = React.memo(
@@ -40,23 +39,7 @@ const Dataset = React.memo(
             </Localized>
             {!collapsed && (
               <ul>
-                {[
-                  [
-                    'cv-license',
-                    <Localized id={license.name}>
-                      <StyledLink href={license.url}>{license.name}</StyledLink>
-                    </Localized>,
-                  ],
-                  [
-                    'size',
-                    <span>
-                      {size}{' '}
-                      <Localized id="size-gigabyte">
-                        <span />
-                      </Localized>
-                    </span>,
-                  ],
-                ].map(([label, value]) => (
+                {[].map(([label, value]) => (
                   <li key={label as any}>
                     <Localized id={label as any}>
                       <div className="label" />
@@ -66,25 +49,6 @@ const Dataset = React.memo(
                 ))}
               </ul>
             )}
-            <div className="buttons">
-              <Localized id={collapsed ? 'more' : 'close'}>
-                <Button
-                  onClick={() => setCollapsed(!collapsed)}
-                  rounded
-                  outline
-                />
-              </Localized>
-              {!collapsed && download && (
-                <Localized id="download">
-                  <LinkButton
-                    rounded
-                    outline
-                    className="download"
-                    href={download}
-                  />
-                </Localized>
-              )}
-            </div>
           </div>
         </div>
       </div>
@@ -122,7 +86,6 @@ export default React.memo(() => {
           {[
             ['get-started-speech', NAV_IDS.getStarted],
             ['other-datasets', NAV_IDS.other],
-            ['feedback-q', NAV_IDS.feedback],
           ].map(([labelId, id]) => (
             <li key={id} className={id == activeSection ? 'active' : ''}>
               <div className="line" />
@@ -160,14 +123,14 @@ export default React.memo(() => {
               },
             ],
             [
-              'Tal',
+              'Kaldi',
               'common-voice-info-new',
               'discourse',
               {
-                discourseLink: <StyledLink href="https://tal.ru.is/" blank />,
-                githubLink: (
-                  <StyledLink href="https://github.com/kaldi-asr/kaldi" blank />
+                discourseLink: (
+                  <StyledLink href="http://kaldi-asr.org/" blank />
                 ),
+                githubLink: <StyledLink href="https://tal.ru.is/" blank />,
               },
             ],
           ].map(([title, descriptionId, imgSrc, props]) => (
@@ -197,35 +160,6 @@ export default React.memo(() => {
           {datasets.map(props => (
             <Dataset key={props.nick} {...props} />
           ))}
-        </Section>
-
-        <Section
-          name={NAV_IDS.feedback}
-          onChangeIntersection={handleIntersectionChange}>
-          <div className="box feedback">
-            <img src={require('./images/feedback.png')} />
-            <div className="dots-and-content">
-              <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
-              <div className="content">
-                <div className="described-button">
-                  <Localized id="your-feedback">
-                    <p />
-                  </Localized>
-                  <Localized id="go-discourse">
-                    <LinkButton href={discourseURL} blank rounded outline />
-                  </Localized>
-                </div>
-                <div className="described-button">
-                  <Localized id="missing-language">
-                    <p />
-                  </Localized>
-                  <Localized id="go-languages-page">
-                    <LinkButton to={URLS.LANGUAGES} rounded outline />
-                  </Localized>
-                </div>
-              </div>
-            </div>
-          </div>
         </Section>
       </div>
     </div>

@@ -27,7 +27,7 @@ import { Avatar, LabeledSelect, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
 import LocalizationSelect from './localization-select';
-import Logo from './logo';
+//import Logo from './logo';
 import Nav from './nav';
 import UserMenu from './user-menu';
 import * as cx from 'classnames';
@@ -203,8 +203,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           ref={header => {
             this.header = header as HTMLElement;
           }}>
+          <h1>
+            <strong>Samrómur</strong>
+          </h1>
           <div>
-            <Logo />
             <Nav id="main-nav" />
           </div>
           <div>
@@ -234,56 +236,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         <div
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
-          <Nav>
-            <div className="user-nav">
-              {LOCALES.length > 1 && (
-                <LabeledSelect
-                  className="localization-select"
-                  value={locale}
-                  onChange={(event: any) =>
-                    this.selectLocale(event.target.value)
-                  }>
-                  {LOCALES_WITH_NAMES.map(([code, name]) => (
-                    <option key={code} value={code}>
-                      {name}
-                    </option>
-                  ))}
-                </LabeledSelect>
-              )}
-
-              {user.account && (
-                <div>
-                  <LocaleNavLink className="user-nav-link" to={URLS.DASHBOARD}>
-                    <DashboardIcon />
-                    <Localized id="dashboard">
-                      <span />
-                    </Localized>
-                  </LocaleNavLink>
-                  <LocaleNavLink
-                    className="user-nav-link"
-                    to={URLS.PROFILE_SETTINGS}>
-                    <CogIcon />
-                    <Localized id="settings">
-                      <span />
-                    </Localized>
-                  </LocaleNavLink>
-                </div>
-              )}
-              {!isBuildingProfile && (
-                <React.Fragment>
-                  {user.account ? (
-                    <Localized id="logout">
-                      <LinkButton rounded href="/logout" />
-                    </Localized>
-                  ) : (
-                    <Localized id="login-signup">
-                      <LinkButton rounded href="/login" />
-                    </Localized>
-                  )}
-                </React.Fragment>
-              )}
-            </div>
-          </Nav>
+          <Nav></Nav>
         </div>
       </div>
     );
