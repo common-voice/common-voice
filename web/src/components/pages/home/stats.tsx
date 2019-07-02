@@ -45,17 +45,7 @@ function StatsCard({
   const [locale, setLocale] = useState(ALL_LOCALES);
   return (
     <div className="home-card">
-      <div className="head">
-        {header}
-        <LanguageSelect
-          value={locale}
-          onChange={locale => {
-            trackHome('metric-locale-change', locale);
-            setLocale(locale);
-            onLocaleChange(locale == ALL_LOCALES ? null : locale);
-          }}
-        />
-      </div>
+      <div className="head">{header}</div>
       {children}
     </div>
   );

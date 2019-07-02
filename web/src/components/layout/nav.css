@@ -37,10 +37,6 @@ header {
         }
     }
 
-    & .main-logo {
-        margin-bottom: -3px;
-    }
-
     & > * {
         display: flex;
         width: 100%;
@@ -219,7 +215,7 @@ header {
         font-family: var(--strong-font-family);
 
         & a {
-            padding: 0 1rem;
+            padding: 0 2.5rem;
             display: block;
 
             &.active {

@@ -3,8 +3,8 @@ export default Object.freeze({
   ROOT: '',
 
   RECORD: '/record', // old, here for redirect purposes
-  SPEAK: '/speak', //Þarf að breyta
-  LISTEN: '/listen', //Þarf að breytas
+  SPEAK: '/tala',
+  LISTEN: '/hlusta',
 
   PROFILE: PROFILE_ROOT,
   PROFILE_INFO: PROFILE_ROOT + '/info',
@@ -19,12 +19,12 @@ export default Object.freeze({
   AWARDS: '/awards',
 
   DATA: '/data', // old, here for redirect purposes
-  DATASETS: '/gagnasafn',
+  DATASETS: '/gagnasofn',
 
   FAQ: '/spurtogsvarad',
   PRIVACY: '/privacy',
   TERMS: '/terms',
   NOTFOUND: '/not-found',
-  LANGUAGES: '/tungumal',
+  LANGUAGES: '/takk',
   ABOUT: '/um',
 });

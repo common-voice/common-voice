@@ -173,72 +173,44 @@ export default function HomePage() {
         <ClipsStats.Root />
         <VoiceStats />
       </div>
-
-      {user.account ? (
-        <section className="contribute-section">
-          <div className="mars-container">
-            <img src="/img/mars.svg" alt="Mars" />
-          </div>
-          <div className="cta">
-            <ContributableLocaleLock
-              render={({ isContributable }: any) =>
-                isContributable ? (
-                  <>
-                    <RecordLink
-                      onClick={() => trackHome('speak-mars', locale)}
+      <section className="contribute-section">
+        <div className="mars-container">
+          <img src="/img/mars.svg" alt="Mars" />
+        </div>
+        <div className="cta">
+          <ContributableLocaleLock
+            render={({ isContributable }: any) =>
+              isContributable ? (
+                <>
+                  <RecordLink onClick={() => trackHome('speak-mars', locale)} />
+                  <Localized id="ready-to-record">
+                    <h1 />
+                  </Localized>
+                </>
+              ) : (
+                <>
+                  <Localized id="request-language-text">
+                    <h1 />
+                  </Localized>
+                  <div style={{ width: '100%' }} />
+                  <Localized id="request-language-button">
+                    <button
+                      type="button"
+                      className="request-language"
+                      onClick={() => setShowRequestLanguageModal(true)}
                     />
-                    <Localized id="ready-to-record">
-                      <h1 />
-                    </Localized>
-                  </>
-                ) : (
-                  <>
-                    <Localized id="request-language-text">
-                      <h1 />
-                    </Localized>
-                    <div style={{ width: '100%' }} />
-                    <Localized id="request-language-button">
-                      <button
-                        type="button"
-                        className="request-language"
-                        onClick={() => setShowRequestLanguageModal(true)}
-                      />
-                    </Localized>
-                    {showRequestLanguageModal && (
-                      <RequestLanguageModal
-                        onRequestClose={() =>
-                          setShowRequestLanguageModal(false)
-                        }
-                      />
-                    )}
-                  </>
-                )
-              }
-            />
-          </div>
-        </section>
-      ) : (
-        <div></div>
-      )
-
-      /* (
-        <RegisterSection marsSrc="/img/mars.svg">
-          <Localized id="help-make-dataset">
-            <h1 />
-          </Localized>
-          <Localized id="profile-not-required">
-            <h2 />
-          </Localized>
-          <Localized id="sign-up-account">
-            <LinkButton
-              rounded
-              href="/login"
-              onClick={() => trackHome('click-benefits-register', locale)}
-            />
-          </Localized>
-        </RegisterSection>
-      )*/
-      }
+                  </Localized>
+                  {showRequestLanguageModal && (
+                    <RequestLanguageModal
+                      onRequestClose={() => setShowRequestLanguageModal(false)}
+                    />
+                  )}
+                </>
+              )
+            }
+          />
+        </div>
+      </section>
     </div>
   );
 }

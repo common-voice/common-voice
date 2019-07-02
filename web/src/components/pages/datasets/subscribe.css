@@ -10,14 +10,14 @@
         padding: 30px 20px;
         flex-direction: column;
         background: url('images/email-bg-md.svg');
-        background-size: 100% 100%;
+        background-size: 100%;
     }
 
     @media (--lg-up) {
         padding: 70px 0;
         flex-direction: row;
         background: url('images/email-bg.png');
-        background-size: 100% 100%;
+        background-size: 100%;
     }
 
     & h2 {

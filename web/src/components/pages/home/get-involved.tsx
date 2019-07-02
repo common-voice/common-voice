@@ -18,6 +18,16 @@ const GetInvolved: React.ComponentType = () => {
         src={require('./images/wave-footer@3x.png')}
         alt="Wave"
       />
+
+      {/*<div className="become-partner">
+        <ContactLink>
+          <Localized id="about-become-a-partner">
+            <span />
+          </Localized>
+          <ArrowLeft />
+        </ContactLink>
+      </div>*/}
+
       <div className="robot-section">
         <img src={require('./images/robot-footer.svg')} alt="Robot" />
       </div>

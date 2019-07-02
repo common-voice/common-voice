@@ -139,7 +139,7 @@ about = Um okkur
 profile = Prófíll
 help = Hjálp
 contact = Hafa samband
-privacy = Persónuvernd
+privacy = Persónu- vernd
 terms = Skilmálar
 cookies = Smákökur
 faq = Algengar spurningar
@@ -154,7 +154,7 @@ logout = Útskrá
 ## Home Page
 
 #Changed: 
-home-title = Samrómur, saman munum við bjarga íslenskunni!
+home-title = Samrómur er fyrsta íslenska opna hópaflaða gagnasafnið. Við viljum raddir allra hópa svo tækni framtíðarinnar skilji alla þá sem nota hana.
 home-cta = Hækkið róminn, deilið hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
 wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
@@ -320,7 +320,7 @@ thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa �
 why-demographic = Hvers vegna skiptir þetta máli?
 why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögn sem notuð eru til að skilyrða af nákvæmni talgreiningarvélar. Notendanafn þitt og netfang verða aldrei opinberlega tengd gögnum sem þú hefur deilt og þér er frjálst að hafa notendanafn þitt ósýnilegt eða opið almenningi.
 #Changed:
-accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar í samræmi við persónuverndarlög.
+accept-privacy = Það er í lagi að meðhöndla þessar upplýsingar í samræmi við persónuverndarlög.
 login-identity = Innskráningarauðkenni
 login-signup = Innskrá sig / Skrá sig
 edit = Breyta
@@ -350,53 +350,54 @@ change-email-setings = Breyta netfangi með því að nota stillingar undir Inns
 faq-title = Algengar spurningar
 faq-what-cv-q = Hvað er Samrómur?
 faq-what-cv-a =
-    Raddgreiningartækni umbyltir samskiptum okkar við vélar, en þau kerfi sem eru í boði sem stendur eru kostnaðarsamur séreignarhugbúnaður. Samrómur er hluti af Samskiptaverkefninu Önnu en á rætur að rekja til Common Voice verkefnis Mozilla. Samrómur er umfangsmikill gagnagrunnur, en hann samanstendur af raddsýnum sem fólk leggur til og gerir hverjum manni hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað. 
+    Samrómur er málheild sem á rætur sínar að rekja til Common Voice verkefnis Mozilla. Samrómur samanstendur af raddsýnum og setningum sem fólk leggur til og gerir hverjum sem er hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað. 
 #Changed:
 faq-why-important-q = Afhverju er Samrómur mikilvægur?
 #Changed:
-faq-why-important-a = Á stafrænum tímum er margt sem breytist. Raddtækni er ein þessara breytinga en nú þegar er búið að þróa hana fyrir ensku og nokkur önnur stærri mál. Í framtíðinni mun slík tækni verða útbreidd og þar með spili stóran þátt í okkar daglega lífi.
-    Það sem við notum lærum við og ef við þurfum ekki að nota íslenskuna deyr hún út. Þessvegna er mikilvægt að missa ekki af lestinni. Við viljum búa til opið gagnasafn radda svo hægt verði að nýta það við hugbúnaðargerð jafnt öðrum málum. Með þessu tryggjum við öryggi íslenskunnar á stafrænum tímum.
+faq-why-important-a = Á stafrænum tímum er margt sem breytist. Raddtækni er ein þessara breytinga en nú þegar er búið að þróa hana fyrir ensku og nokkur önnur stærri mál. Í framtíðinni mun slík tækni verða útbreidd og þar með spila stóran þátt í okkar daglega lífi.
+    Það sem við notum lærum við og ef við þurfum ekki að nota íslenskuna deyr hún út. Þessvegna er mikilvægt að missa ekki af lestinni. Við viljum búa til opið gagnasafn radda svo hægt verði að nýta íslenskuna við hugbúnaðargerð jafnt öðrum tungumálum.
 #Changed:
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
 #Changed:
 faq-how-get-a = Gögn Samróms eru ekki aðgengileg sem stendur en verða gerð aðgengileg hér á síðunni þegar gagnasafnið er orðið nægjanlega stórt.
-faq-when-release-q = Hvenær verður Samrómur í boði fyrir fleiri tungumál?
-faq-when-release-a = Mozilla-samfélagið vinnur um þessar mundir að fjöltunguútgáfu af Samrómsgögnunum, með því takmarki að gefa út í janúar 2019. Ef þú hefur áhuga á að læra meira um þetta ferli eða hjálpa til, <contactLink>hafðu þá endilega samband</contactLink>. Eftir þessa útgáfu munum við reglulega uppfæra gagna safnið þegar ný tungumál og hljóðklippur bætast við. Ekki er búið að ákveða hversu langt verður á milli útgáfa.
-faq-why-mission-q = Hvernig tengist Samrómur Mozilla?
-faq-why-mission-a = Sammrómur byggir á Mozilla verkefninu Common Voice. Það má skoða hér: https://voice.mozilla.org. Eins og sjá má eru vefsíðurnar keimlíkar og tilgangur beggja verkefna svipaður, nema hvað Common Voice er alþjóðlegt.  
+faq-when-release-q = Hverjir eru að vinna að Samróm?
+faq-when-release-a = Fjórir nemendur í Tölvunar- og Rekstrarverkfræði eru að vinna að verkefninu í sumar.  
+faq-why-mission-q = Hver er munurinn á Samróm og Common Voice?
+faq-why-mission-a = Sammrómur byggir á Mozilla verkefninu <mozillaLink>Common Voice</mozillaLink>. Meðal annars vegna þess hve erfit er að fá mikin fjölda setninga með CC-0 leyfi og til að auka nýtingargildi gagnanna var ákveðið að þróa Samróm sem einskonar grein út frá Common Voice verkefninu.  
 #Changed: 
 faq-what-cv-and-deepspeech-q = Hver er munurinn á Samrómi og Deep Speech?
 #Changed:
-faq-what-cv-and-deepspeech-a = Samrómsgagnasafnið er hannað til þess að vinna með raddgreini Mozilla, Deep Speech, sem er aðgengilegur öllum. Fyrsta útgáfan af Deep Speech var gefin út í nóvember árið 2017 og er í stöðugri þróun. Líkt og Samrómsgagnasafnið, finnst okkur að þessi raddgreiningartækni ætti að vera aðgengileg öllum. Það er okkar von að þessi tól muni gera hugbúnaðarhönnuðum kleift að skapa og þróa nýjar lausnir, vörur og þjónustur.
+faq-what-cv-and-deepspeech-a = Þar sem Samrómur byggir á Common Voice er Samrómsgagnasafnið hannað til þess að vinna með raddgreini Mozilla, Deep Speech, sem er aðgengilegur öllum. Fyrsta útgáfan af Deep Speech var gefin út í nóvember árið 2017 og er í stöðugri þróun.
 #Changed:
 faq-is-goal-assistant-q = Hver er munurinn á Almannaróm og Samróm?
-faq-is-goal-assistant-a = Samrómur er gagnasafnið sem við erum að búa til en Almannarómur eru góðgerðarsamtök sem vilja vernda íslenska tungu, tryggja að hún standi jafnfætis öðrum málum  
+faq-is-goal-assistant-a = Samrómur er gagnasafnið sem við erum að búa til en Almannarómur eru góðgerðarsamtök sem vilja vernda íslenska tungu og tryggja að hún standi jafnfætis öðrum tungumálum.  
 faq-do-want-native-q = Ég tala ekki þetta tungumál að móðurmáli og er með hreim, er enn áhugi fyrir því að ég leggi til raddupptökur?
-faq-do-want-native-a = Já, við viljum sérstaklega fá þína rödd! Hluti af stefnu Samróms er að safna saman eins mörgum mismunandi hreimum og hægt er til þess að raddstýrðar þjónustur virki jafn vel fyrir alla. Það gerir það að verkum að raddframlög frá einstaklingum með annað móðurmál eru sérstaklega mikilvæg.
-faq-why-different-speakers-q = Hvers vegna þarf svona marga talendur fyrir hvert tungumál?
+faq-do-want-native-a = Já, við viljum endilega fá þína rödd! Við viljum að talgreinir geti skilið alla en til þess þarf gögn frá öllum. Það gerir það að verkum að raddframlög einstaklinga með annað móðurmál eru sérstaklega mikilvæg.
+faq-why-different-speakers-q = Hvers vegna þarf svona margar mismunandi raddir fyrir hvert tungumál?
 faq-why-different-speakers-a =
     Flest gagnasöfn hafa verið þjálfuð með lýðfræðilega bjöguðum gögnum, þar sem hallar á alla þjóðfélagshópa nema <articleLink>karlmenn í millistétt</articleLink>. Oft vantar líka upptökur með hreimum og í mállýskum sem tilheyra minnihlutahópum sem nú þegar eiga undir högg að sækja í samfélaginu. Mörgum tækjum reynist erfitt að skilja kvenmannsaddir.
     Þess vegna viljum við fá fjölbreytileika í okkar raddgagnasafn!
 #Change:
 faq-why-my-lang-q = Afhverju þarf ég að gefa lýðfræðilegar upplýsingar?
 #Changed:
-faq-why-my-lang-new-a = Í stuttu máli er það til að auka gæði gagnanna. Mörg gögn eru líðfræðilega bjöguð og viljum við tryggja að lausnir sem búnar til með Samróm skilji alla notendur, ekki bara fámennan hóp.
+faq-why-my-lang-new-a = Einfaldlega til að auka gæði gagnanna. Mörg gögn eru lýðfræðilega bjöguð þar sem hallar á alla nema <articleLink>karlmenn í millistétt</articleLink> og viljum við tryggja fjölbreytileika í okkar gagnasafni. 
 faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
 faq-what-quality-a = Við viljum að Samrómsgagnasafnið endurspegli hljóðgæðum sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðum og slæmum gæðum. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
 faq-why-10k-hours-q = Hvers vegna er upptökumarkmiðið 10.000 klst á tungumál?
-faq-why-10k-hours-a = Þetta er u.þ.b. sá fjöldi klukkustunda sem þarf til að þjálfa markaðshæfan raddgreini.
+faq-why-10k-hours-a = Þetta er um það bil sá fjöldi klukkustunda sem þarf til að þjálfa markaðshæfan raddgreini.
 faq-how-calc-hours-q = Hvernig reiknar Samrómur þessa klukkutíma?
 #Changed:
 faq-how-calc-hours-a = Við teljum klukkustundirnar með því að áætla meðallengd hverrar upptöku og mörgföldum svo þá tölu með heildarfjölda upptaka.
 faq-where-src-from-2-q = Hvaðan kemur lestextinn?
 #Changed:
-faq-where-src-from-2-a = Settningarnar eru meðal annars fengnar frá Wikipedia en einnig frá rithöfunum og leikritaskáldum svo sem Kikku (Ávaxtakarfan ofl.), Jóni Gnarr, og fleirum. Listi allra þeirra sem gáfu settningar má finna undir Þakkir.    
+faq-where-src-from-2-a = Settningarnar eru meðal annars fengnar frá Wikipedia og Vísindavefnum en einnig frá rithöfundum. Listi allra þeirra sem gáfu setningar má finna undir Þakkir.    
 faq-why-not-ask-read-q = !Laust!
 faq-why-not-ask-read-a = ...
 faq-why-account-q = Af hverju ætti ég að skrá mig?
+faq-why-account-a = Þú hjálpar til við að vernda íslenskuna og þitt framlag stuðlar að því að máltæknilausnir framtíðarinnar skilji fólk eins og þig.
 faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
-faq-how-privacy-a = Persónulega einkennani gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðilega stika á síðuna þeirra, eru þær upplýsingar aftengar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á síðu raddgjafans.
+faq-how-privacy-a = Persónulega einkennani gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Lýðfræðilegu upplýsingarnar eru aftengar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu.
 faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samómsgagnasafninu?
 faq-what-determine-identity-a =
     Samrómsgagnasafnið er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
@@ -404,7 +405,7 @@ faq-what-determine-identity-a =
     Persónulega einkennandi upplýsingar hafa verið fjarlægðar úr öllum raddhljóðbrotum í safninu. Þegar maður sækir gagnasafnið samþykkir maður að reyna ekki að bera kennsl á neinn raddgjafanna. Það þýðir að það má ekki reyna að tengja upptökur í gagnasafninu við einstaklinga sem hafa lagt til upptökur. Það má hins vegar nota gagnasafnið til að þjálfa raddgreina, málshafagreina og fleiri kerfi, t.d. með því að tengja saman upplýsingar innan gagnasafnsins.
 faq-what-is-cv = Hvað er Samrómur?
 faq-using-cv = Notkunn Samróms
-faq-description = Samrómur er verkefni sem gengur út á að kenna tölvum að skilja mannamál. Hvað langar þig að vita?
+faq-description = Samrómur er fyrsta íslenska hópaflaða málheildin. Hvað langar þig að vita?
 faq-search-for-answers =
     .label = Leita af svörum
 
@@ -412,13 +413,13 @@ faq-search-for-answers =
 
 about-title = Af hverju?
 #Changed:
-about-subtitle = Á stafrænum tímum er margt sem breytist. Raddtækni er ein þessara breytinga en nú þegar er búið að þróa hana fyrir ensku og nokkur önnur stærri mál. Í framtíðinni mun slík tækni verða útbreidd og þar með spili stóran þátt í okkar daglega lífi. 
+about-subtitle = Á stafrænum tímum er margt sem breytist. Raddtækni er ein þessara breytinga en nú þegar er búið að þróa hana fyrir ensku og nokkur önnur stærri tungumál. Í framtíðinni mun slík tækni verða enn útbreiddari og spili stóran þátt í okkar daglega lífi. 
 #Changed:
 about-header-description =
     Það sem við notum lærum við og ef við þurfum ekki að nota íslenskuna deyr hún út. Þessvegna er mikilvægt að missa ekki af lestinni. Við viljum búa til opið gagnasafn radda svo hægt verði að nýta það við hugbúnaðargerð jafnt öðrum málum. Með þessu tryggjum við öryggi íslenskunnar á stafrænum tímum.  
 how-does-it-work-title = Hvernig virkar það?
 #Changed:
-how-does-it-work-text = Við erum að hópvæða öflun opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
+how-does-it-work-text = Við hópvæðum öflun opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
 about-speak = Tal
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
 about-listen-queue = Hlustunarröð
@@ -444,11 +445,11 @@ about-partnership =
 
 about-get-involved = Samstarfsaðilar
 about-get-involved-text =
-    Samrómur er hluti af Samskiptaverkefninu Önnu. Þeir sem standa þar að baki eru <githubLink>Deloitte</githubLink>, <discourseLink>Nýsköpunnarsjóður námsmanna</discourseLink>, <slackLink>Skema í Háskólanum í Reykjavík</slackLink> og auðvitað Almannarómur. 
+    Þeir sem standa við bakið á Samróm eru <githubLink>Deloitte</githubLink>, <discourseLink>Nýsköpunnarsjóður námsmanna</discourseLink>, <slackLink>Skema í Háskólanum í Reykjavík</slackLink> og <almannaLink>Almannarómur</almannaLink>. 
 about-nav-why-common-voice = Af hverju?
 about-nav-how-it-works = Hvernig?
 about-nav-partners = Samstarfsaðilar
-about-nav-get-involved = Taka þátt
+about-nav-get-involved = Samstarfsaðilar
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Gervigreind
 mycroft-description =
@@ -512,9 +513,9 @@ datasets-headline = Við viljum byggja opið og aðgengilegt gagnasafn radda sem
 datasets-positioning =
     Við trúum því að að stór gagnasett sem eru opin almenningi muni styðja við nýsköpun og stuðla að heilbrigðri markaðssamkeppni innan tæknigeirans á sviði máltæknilausna.
     
-    Við bindum vonir við að Samrómsgagnasafnið verði það stærsta sinnar tegundar. Það er þó það eina en nokkrar málheildir og önnur tól eru þegar til. 
+    Við bindum vonir við að Samrómsgagnasafnið verði það stærsta sinnar tegundar. Það er þó ekki það eina en nokkrar málheildir og önnur tól eru þegar til. 
     
-    Þú getur litið til þessarar síðu sem miðlægrar upplýsingasíðu fyrir önnur opin raddgagnasöfn, málheildir, talgervla og fleira máltækni tengt. 
+    Þú getur litið til þessarar síðu sem miðlægrar upplýsingasíðu fyrir önnur opin raddgagnasöfn, talgreina, málheilda og fleira máltækni efnis. 
 language = Tungumál
 # File size in gigabytes
 size = Stærð
@@ -536,27 +537,25 @@ recorded-hours = Uppteknar klukkustundir
 whats-inside = Hvað er í málheild Samróms?
 #Changed:
 dataset-description-hours =
-    Hver færsla í gagnasafninu samanstendur af einstöku MP3 hljóðbroti og samsavarandi textaskrá. Mikill fjöldi þeirra <b>{ $total }</b> klukkustunda sem hefur verið safnað innihalda einnig lýðfræðilegar stika eins og aldur, kyn og hreim sem getur aðstoðað við að gera raddgervilinn nákvæmari.
+    Hver færsla í gagnasafninu samanstendur af einstöku MP3 hljóðbroti og samsavarandi textaskrá. Allir þessara <b>{ $total }</b> klukkustunda sem hafa safnast innihalda einnig lýðfræðilegar upplýsingar um aldur, kyn og hvort viðkomandi hafi hreim. Þetta getur aðstoðað við að gera raddgervilinn nákvæmari.
     
-    Gagnasafnið samanstendur af <b>{ $valid }</b> staðfestum klukkustundum af hljóðbortum, en alltaf má bæta við fleiri röddum.
+    Gagnasafnið samanstendur af <b>{ $valid }</b> staðfestum klukkustundum hljóðborta, en alltaf má bæta við fleiri röddum.
 #Changed:
 want-dataset-update = Langar þig að heyra meira um starf Almannaróms? Skráðu þig þá á póstlistann.
 subscribe = Gerast áskrifandi
 #Changed:
 get-started-speech = Hefjast handa við talgreiningu
-other-datasets = Aðrar málheildir
+#Changed:
+other-datasets = Annað gagnlegt
 feedback-q = Ertu með ábendingar?
 deepspeech-info = Þar sem Samrómsgagnasafnið er byggt á Common Voice er þægilegt að nýta það með talgreini Mozilla, Deep Speech, sem er aðgengilegur öllum. Með honum getur þú hannað talgreiningarforrit. Kynntu þér <githubLink>yfirlitið á Github</githubLink> eða taktu þátt á <discourseLink>DeepSpeech umræðuvefnum</discourseLink> til að læra um hvernig best er að byrja.
 #Changed:
-common-voice-info-new = Hefuru áhuga á talgreiningu? Tal er fyrsti íslenski talgreinirinn. Við gerð Tals var stuðst við Málróms málheildina og <githubLink>Kaldi</githubLink> sem er sjálfvirkt talgreiningarumhverfi fyrir íslensku. 
-data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
+common-voice-info-new = Módelið Kaldi er sjálfvirkt talgreiningarumhverfi fyrir íslensku. Það hefur núþegar verið nýtt til þess að búa til fyrsta íslenska talgreininn, <githubLink>Tal</githubLink> en nánar um hann má sjá hér að neðan. 
+data-other-librispeech-description = Tal er íslenskur talgreinir. Hann var þróaður af Mál- og raddtæknistofu Gervigreindarseturs Háskólans í Reykjavík með hugbúnaðinum Kalda og gögnum söfnuðum í samstarfi við google. 
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
 data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum hljóðupptökum sem nota má í opnum og frjálsum raddgreiningarhugbúnaði.
-data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
-#Changed:
-data-other-malromur-name = Málrómur baby
-data-other-malromur-description = ye bisss
+data-other-tatoeba-description = Málföng er vefsíða sem inniheldur upplýsingar um flest sem við kemur íslenskri máltækni. Þar má meðal annars finna málheildir og orðasöfn.  
 
 your-feedback = Ertu með hugmyndir um hvernig mætti bæta Samróms-gagnasafnið? Láttu okkur vita á Discourse
 go-discourse = Fara á Discourse
@@ -602,9 +601,9 @@ other-language = Annað tungumál
 language-section-in-progress = Í vinnslu
 language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samómssamfélaginu. Stikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>vefsíðuþýðingu</localizationGlossaryLink> og <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
 #Changed:
-language-section-launched = Málheildin
+language-section-launched = Við viljum þakka...
 #Changed:
-language-section-launched-description = Við viljum þakka öllum þeim sem gáfu settningar úr verkum sínum til þess að Samrómur gat orðið að veruleika. Þeirra framlag má sjá hér að neðan.
+language-section-launched-description = Við viljum þakka öllum þeim sem gáfu settningar úr verkum sínum til þess að Samrómur geti orðið að veruleika. Þeirra framlag má sjá hér að neðan.
 languages-show-more = Sjá meira
 languages-show-less = Sjá minna
 language-speakers = Talendur
@@ -624,6 +623,7 @@ action-tap = Snerta
 contribute = Leggðu lið
 listen = Hlusta
 skip = Fara í næstu
+home = Forsíða
 shortcuts = Flýtileiðir
 clips-with-count = <bold>{ $count }</bold> upptökur
 goal-help-recording = Þú hefur hjálpað Samrómi að ná <goalPercentage></goalPercentage> af daglegu { $goalValue } upptöku markmiði!

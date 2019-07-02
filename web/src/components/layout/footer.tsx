@@ -13,7 +13,7 @@ import { TextButton } from '../ui/ui';
 import { LocaleLink, useLocale } from '../locale-helpers';
 import Logo from './logo';
 import SubscribeNewsletter from './subscribe-newsletter';
-import { ContactLink, DiscourseLink, GitHubLink } from '../shared/links';
+import { DiscourseLink, GitHubLink } from '../shared/links';
 
 import './footer.css';
 
@@ -25,29 +25,14 @@ const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
     </Localized>
   );
 };
-
-/**
- * Það sem búið er að taka út: 
- *          <div id="email-subscription">
-              <SubscribeNewsletter />
-            </div>
- */
-/**
- *Ath fyrir neðan
- * <Localized id="cookies">
-              <a
-                target="_blank"
-                href="http://www.gottimatinn.is/uppskriftir/kokur/smakokur"
-              />
-            </Localized>
- */
 export default React.memo(() => {
-  const [locale] = useLocale();
   return (
     <footer>
       <div id="moz-links">
         <div className="logo-container">
-          <Logo reverse />
+          <h1>
+            <strong>Samrómur</strong>
+          </h1>
           <p className="license">
             <Localized
               id="content-license-text"
@@ -86,6 +71,10 @@ export default React.memo(() => {
           <div className="icons">
             <ShareButtons />
           </div>
+        </div>
+
+        <div id="email-subscription">
+          <SubscribeNewsletter />
         </div>
 
         <Localized id="back-top">
