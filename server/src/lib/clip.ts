@@ -9,7 +9,7 @@ import Model from './model';
 import getLeaderboard from './model/leaderboard';
 import * as Basket from './basket';
 import Bucket from './bucket';
-import { ClientParameterError } from './utility';
+import { ClientParameterError, validateDemographic } from './utility';
 import Awards from './model/awards';
 
 const Transcoder = require('stream-transcoder');
@@ -111,6 +111,15 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
     const sentence = decodeURIComponent(headers.sentence as string);
+    const age = decodeURIComponent(headers.age as string);
+    const sex = decodeURIComponent(headers.sex as string);
+    const native_language = decodeURIComponent(
+      headers.native_language as string
+    );
+
+    if (!validateDemographic({ sex, age, native_language })) {
+      return;
+    }
 
     if (!client_id || !sentence) {
       throw new ClientParameterError();
@@ -166,7 +175,7 @@ export default class Clip {
           .putObject({
             Bucket: getConfig().BUCKET_NAME,
             Key: sentenceFileName,
-            Body: sentence,
+            Body: sentence + ',' + sex + ',' + age + ',' + native_language,
           })
           .promise(),
       ]);
@@ -180,6 +189,9 @@ export default class Clip {
         path: clipFileName,
         sentence,
         sentenceId: headers.sentence_id,
+        sex: headers.sex,
+        age: headers.age,
+        native_language: headers.native_language,
       });
       await Awards.checkProgress(client_id);
 

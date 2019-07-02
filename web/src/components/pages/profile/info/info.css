@@ -38,7 +38,7 @@
             display: none;
         }
 
-        &.expanded {
+        & .expanded {
             & svg {
                 transform: rotate(180deg);
             }

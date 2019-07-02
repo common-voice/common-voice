@@ -232,6 +232,9 @@ export default class DB {
     path,
     sentence,
     sentenceId,
+    sex,
+    age,
+    native_language,
   }: {
     client_id: string;
     locale: string;
@@ -239,6 +242,9 @@ export default class DB {
     path: string;
     sentence: string;
     sentenceId: string;
+    sex: string;
+    age: string;
+    native_language: string;
   }): Promise<void> {
     try {
       sentenceId = sentenceId || hash(sentence);
@@ -246,11 +252,20 @@ export default class DB {
 
       await this.mysql.query(
         `
-          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
-          VALUES (?, ?, ?, ?, ?)
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, sex, age, native_language)
+          VALUES (?, ?, ?, ?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
-        [client_id, sentenceId, path, sentence, localeId]
+        [
+          client_id,
+          sentenceId,
+          path,
+          sentence,
+          localeId,
+          sex,
+          age,
+          native_language,
+        ]
       );
       await this.mysql.query(
         `

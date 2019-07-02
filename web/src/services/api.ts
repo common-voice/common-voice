@@ -5,6 +5,7 @@ import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
 import { Sentences } from '../stores/sentences';
+import { DemoInfo } from '../stores/demographics';
 
 export interface Clip {
   id: string;
@@ -95,13 +96,21 @@ export default class API {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 
-  uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
+  uploadClip(
+    blob: Blob,
+    sentenceId: string,
+    sentence: string,
+    info: DemoInfo
+  ): Promise<void> {
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
         sentence_id: sentenceId,
+        sex: info.sex,
+        age: info.age,
+        native_language: info.native_language,
       },
       body: blob,
     });

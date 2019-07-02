@@ -9,7 +9,7 @@ import { RouteComponentProps, withRouter } from 'react-router';
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
-import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
+import { LANGUAGES, AGES, SEXES } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
 import { useTypedSelector } from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -286,7 +286,7 @@ function ProfilePage({
                   setLocales(newLocales);
                 }}>
                 <option value="" />
-                {ACCENTS[locale] && <Options>{ACCENTS[locale]}</Options>}
+                {LANGUAGES[locale] && <Options>{LANGUAGES[locale]}</Options>}
               </LabeledSelect>
             </Localized>
           </React.Fragment>
