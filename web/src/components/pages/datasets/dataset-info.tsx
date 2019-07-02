@@ -8,7 +8,7 @@ import { useState } from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import { ACCENTS, AGES } from '../../../stores/demographics';
+import { LANGUAGES, AGES } from '../../../stores/demographics';
 import {
   localeConnector,
   LocalePropsFromState,
@@ -83,8 +83,8 @@ const Splits = ({
                     <span />
                   </Localized>
                 ) : category == 'accent' ? (
-                  ACCENTS[locale] ? (
-                    ACCENTS[locale][key]
+                  LANGUAGES[locale] ? (
+                    LANGUAGES[locale][key]
                   ) : (
                     key
                   )

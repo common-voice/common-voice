@@ -279,6 +279,19 @@ status-hours =
 status-goal = Næsta markmið: { $goal }
 english = Enska
 
+## demographicForm
+demographic-form-title = Lýðfræðiupplýsingar
+demographic-form-gender =
+    .label = Kyn
+demographic-form-age =
+    .label = Aldur
+demographic-form-native-language =
+    .label = Móðurmál
+why-demographic = Hvers vegna skiptir þetta máli? 
+why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og móðurmál hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa nákvæmni talgreiningarvéla.
+demographic-form-other-native-language = Íslenska er mitt móðurmál
+demographic-form-submit = Áfram
+
 ## ProfileForm
 
 profile-form-username =
@@ -317,8 +330,6 @@ profile-create-success = Gerð prófíls tókst!
 profile-close = Loka
 profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpaðu okkur að auka á heilindi raddgagnanna.
 thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
-why-demographic = Hvers vegna skiptir þetta máli?
-why-demographic-explanation = Nafnlaus notendagögn líkt og aldur, kyn og hreimur hjálpa til við að bæta hljóðgögn sem notuð eru til að skilyrða af nákvæmni talgreiningarvélar. Notendanafn þitt og netfang verða aldrei opinberlega tengd gögnum sem þú hefur deilt og þér er frjálst að hafa notendanafn þitt ósýnilegt eða opið almenningi.
 #Changed:
 accept-privacy = Það er í lagi að meðhöndla þessar upplýsingar í samræmi við persónuverndarlög.
 login-identity = Innskráningarauðkenni
@@ -617,6 +628,10 @@ sentences = Setningar
 total-hours = Staðfestar klst
 
 ## New Contribution
+
+no-age = Vinsamlegast settu inn þitt aldursbil
+no-native-language = Vinsamlegast settu inn þitt móðurmál
+no-sex = Vinsamlegast settu inn þitt kyn
 
 action-click = Smella
 action-tap = Snerta
