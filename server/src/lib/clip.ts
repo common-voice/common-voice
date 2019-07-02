@@ -118,9 +118,7 @@ export default class Clip {
     );
 
     if (!validateDemographic({ sex, age, native_language })) {
-      console.log('validated!!');
-    } else {
-      console.log('invalidated!!');
+      return;
     }
 
     if (!client_id || !sentence) {

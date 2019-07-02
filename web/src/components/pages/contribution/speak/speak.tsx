@@ -151,7 +151,7 @@ const initialState: State = {
   rerecordIndex: null,
   showPrivacyModal: false,
   showDiscardModal: false,
-  showDemographicInfo: false,
+  showDemographicInfo: true,
   showDemographicModal: true,
   showLanguageSelect: false,
   demographic: {
@@ -468,9 +468,6 @@ class SpeakPage extends React.Component<Props, State> {
             if (error.message === 'save_clip_error') {
               msg =
                 'Innsending raddsýnis mistekst sífellt á netþjóni, prófaðu að endurhlaða síðunni eða reyndu aftur eftir smá stund';
-            } else if (error.message === 'demographic_error') {
-              msg =
-                'Villa kom upp í tengslum við lýðfræðiupplýsingar, vinsamlegast settu þær aftur inn';
             } else {
               msg = 'Innsending raddsýnis mistekst sífellt, reyna áfram?';
             }
@@ -512,23 +509,20 @@ class SpeakPage extends React.Component<Props, State> {
       this.setState({
         showDemographicModal: false,
         demographicError,
-        //TODO: save info to cookies/store/...
       });
+      //TODO: save info to cookies/store/...
     }
   };
 
   private getDemographicError = (): DemographicError => {
     const { demographic } = this.state;
-    return null;
 
     if (demographic.age == '' || !(demographic.age in AGES)) {
       return DemographicError.NO_AGE;
     }
     if (
-      !(
-        demographic.native_language in LANGUAGES ||
-        demographic.native_language == ''
-      )
+      demographic.native_language == '' ||
+      !(demographic.native_language in LANGUAGES)
     ) {
       return DemographicError.NO_NATIVE_LANGUAGE;
     }
@@ -657,7 +651,9 @@ class SpeakPage extends React.Component<Props, State> {
           </Localized>
         )}
         {showDemographicModal && (
-          <Modal innerClassName="" onRequestClose={this.resetAndGoHome}>
+          <Modal
+            innerClassName="demographic-modal"
+            onRequestClose={this.resetAndGoHome}>
             <Localized id="demographic-form-title" className="form-title">
               <h1 className="title" />
             </Localized>
@@ -717,19 +713,18 @@ class SpeakPage extends React.Component<Props, State> {
                   </LabeledSelect>
                 </Localized>
               )}
-
-              <ModalButtons>
-                <Localized>
-                  <Localized id="demographic-form-submit">
-                    <Button
-                      outline
-                      rounded
-                      onClick={() => this.submitDemographic()}
-                    />
-                  </Localized>
-                </Localized>
-              </ModalButtons>
             </div>
+            <ModalButtons>
+              <Localized>
+                <Localized id="demographic-form-submit">
+                  <Button
+                    outline
+                    rounded
+                    onClick={() => this.submitDemographic()}
+                  />
+                </Localized>
+              </Localized>
+            </ModalButtons>
 
             <div
               className={

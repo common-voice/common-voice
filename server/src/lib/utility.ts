@@ -1,4 +1,4 @@
-import { SEXES, AGES, LANGUAGES, DemoInfo } from './demographics';
+import { SEXES, AGES, LANGUAGES, DemoInfo } from './valid-demographics';
 
 const md5 = require('js-md5');
 const DEFAULT_SALT = '8shd9fg3oi0fj';
@@ -7,13 +7,17 @@ const DEFAULT_SALT = '8shd9fg3oi0fj';
  * Validate the demographic info
  */
 export function validateDemographic({ sex, age, native_language }: DemoInfo) {
+  console.log(sex);
+  console.log(age);
+  console.log(native_language);
+  console.log(SEXES.includes(sex));
+  console.log(AGES.includes(age));
+  console.log(LANGUAGES.includes(native_language));
+
   if (
-    sex in SEXES &&
-    sex != '' &&
-    age in AGES &&
-    age != '' &&
-    native_language in LANGUAGES &&
-    native_language != ''
+    SEXES.includes(sex) &&
+    AGES.includes(age) &&
+    LANGUAGES.includes(native_language)
   ) {
     return true;
   }

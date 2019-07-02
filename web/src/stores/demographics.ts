@@ -68,9 +68,9 @@ export const AGES = {
 
 export const SEXES = {
   '': '',
-  annad: 'Annað',
   karl: 'Karl',
   kona: 'Kona',
+  annad: 'Annað',
 };
 
 export interface DemoInfo {
