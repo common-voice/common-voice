@@ -9,7 +9,7 @@ email-input =
 submit-form-action = 提交
 loading = 載入中…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
-email-opt-in-privacy = 如果同意接收電郵，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法處理呢啲資訊。
+email-opt-in-privacy = 如果您同意接收電郵，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法處理呢啲資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
 
@@ -202,6 +202,8 @@ email-subscription-title = 訂閱最新消息電子報
 benefits = 益處
 rich-data = 提供一些人口統計資料，可讓您提交的數據更加豐富。我們會在公開錄音檔前，將這些統計資料去識別化。
 improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
+keep-track = 跟蹤您的進度，以及各種語言的統計指標。
+view-goals = 檢視個人和整個計劃的目標進度。
 
 ## What's public
 
@@ -425,6 +427,7 @@ why-email = <b>為什麼需要電郵地址?</b>我們可能會在未來聯絡您
 confirm-size = 您將開始一個<b>{ $size }</b>的下載項目
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>您同意</b>不嘗試識別 Common Voice 資料集内談話人士的個人身分
 download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
