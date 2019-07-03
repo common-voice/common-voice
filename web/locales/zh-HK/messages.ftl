@@ -203,12 +203,14 @@ benefits = 益處
 rich-data = 提供一些人口統計資料，可讓您提交的數據更加豐富。我們會在公開錄音檔前，將這些統計資料去識別化。
 improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
 keep-track = 跟蹤您的進度，以及各種語言的統計指標。
+compare-progress = 睇下您的進度同全球其他貢獻者如何相比
 view-goals = 檢視個人和整個計劃的目標進度。
 
 ## What's public
 
 whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
+recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
 username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
 username-email-not-demographic = 您的使用者名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
@@ -336,6 +338,7 @@ faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-where-src-from-2-q = 這些文本來源出自何處？
 faq-why-account-q = 我點解應該去註冊帳戶？
 faq-is-account-public-q = 我的帳戶資料是公開的嗎？
+faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音人士的隱私？
 faq-what-is-cv = Common Voice 是甚麼？
 faq-using-cv = 使用 Common Voice
 faq-search-for-answers =
