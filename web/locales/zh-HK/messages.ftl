@@ -1,13 +1,14 @@
 ## General
 
-yes-receive-emails = 好，寄電郵給我。我想追蹤和 Common Voice 計劃有關的各種資訊。
+yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
 stayintouch = 在 Mozilla 我們正在打造一個和語音技術相關的社群。我們想與您保持聯繫，提供新的技術、資料來源，和瞭解您會如何使用這些資料。
-privacy-info = 我們保證會小心處理您的資訊。若要了解更多，請閲讀我們的<privacyLink>私隱權公告</privacyLink>。
+privacy-info = 我哋保證會小心處理您嘅資訊。如果要了解更多，請閲讀我們嘅<privacyLink>私隱權公告</privacyLink>。
 return-to-cv = 返回 Common Voice
 email-input =
     .label = 電郵
 submit-form-action = 提交
 loading = 載入中…
+email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-privacy = 如果同意接收電郵，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法處理呢啲資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
@@ -353,7 +354,6 @@ about-is-it-valid-text = 若使用者投下「正確」，錄音片段就會標�
 about-yes-votes = ≥ 2 張「正確」票
 about-no-votes = ≥ 2 張「不正確」票
 about-no-votes-text = 若使用者投下不正確票，錄音片段就會回到隊列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
-about-dataset = Common Voice 數據集
 about-clip-graveyard = 片段回收桶
 about-partners = 合作夥伴
 about-become-a-partner = 成為合作夥伴
@@ -409,7 +409,7 @@ review-cancel = 取消提交
 review-keep-recordings = 保存錄音
 review-delete-recordings = 刪除我的錄音
 
-## New Datasets Page
+## Datasets Page
 
 language = 語言
 # File size in gigabytes
@@ -419,7 +419,9 @@ overall-hr-total = 綜合總時數
 cv-license = 授權條款
 audio-format = 音檔格式
 number-of-voices = 錄音人數
+splits = 分割
 email-to-download = 輸入電郵即可下載
+why-email = <b>為什麼需要電郵地址?</b>我們可能會在未來聯絡您，提供與數據集相關的新資訊。電郵可作為我們聯絡您的方式。
 confirm-size = 您將開始一個<b>{ $size }</b>的下載項目
 size-gigabyte = GB
 size-megabyte = MB
