@@ -134,6 +134,7 @@ speak = Räägi
 speak-now = Räägi nüüd
 datasets = Andmestikud
 languages = Keeled
+about = Teave
 profile = Profiil
 help = Abi
 contact = Kontakt
@@ -197,6 +198,7 @@ x-years-short =
 help-make-dataset = Aita meil luua kvaliteetne ja kõigile avalik andmestik
 profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem
 sign-up-account = Loo konto
+email-subscription-title = telli endale uuendused e-postiga
 
 ## Account Benefits
 
