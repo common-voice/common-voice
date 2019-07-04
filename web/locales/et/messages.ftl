@@ -363,12 +363,22 @@ faq-why-10k-hours-a = Sest umbes nii palju kõnetunde on vaja kõnetuvastussüst
 faq-how-calc-hours-q = Kuidas Common Voice tunde arvestab?
 faq-how-calc-hours-a = Arvutame tunde hinnates salvestuste keskmist pikkust ja korrutades selle numbri kõigi keelte salvestuste koguarvuga.
 faq-where-src-from-2-q = Kust etteloetavad tekstid tulevad?
+faq-where-src-from-2-a =
+    Meie laused on kokku pandud kogukonna annetustest ja samuti avaliku omandi filmide nagu <italic>It’s a Wonderful Life</italic> stsenaariumite dialoogidest.
+    
+    Sa võid vaadata meie lauseid järgnevast <githubLink>GitHubi kataloogist</githubLink>.
 faq-why-not-ask-read-q = Miks te ei lase inimestel ette lugeda raamatuid või Vikipeedia artikleid?
+faq-why-not-ask-read-a = Selleks, et muuta Common Voice'i andmekogu võimalikult kasulikuks, oleme otsustanud lubada ettelugemiseks ainult sellise allika teksti, mis on saadaval Creative Commons (CC0) litsentsi alusel. CC0 standardi kasutamine tähendab seda, et lähtetekstide leidmine ja kogumine on raskem, kuid see võimaldab igaühel kasutada saadud hääleandmeid ilma kasutuspiirangute või Mozilla loata. Lõppkokkuvõttes tahame, et mitmekeelne andmestik oleks võimalikult kasulik kõigile, sealhulgas teadlastele, ülikoolidele, alustavatele ettevõtetele, valitsustele, mittetulundusühingutele ja harrastajatele.
 faq-why-account-q = Miks ma peaksin konto registreerima?
 faq-is-account-public-q = Kas minu konto teave on avalik?
 faq-how-privacy-q = Kuidas tagate oma hääle annetanud inimeste anonüümsuse ja privaatsuse?
 faq-how-privacy-a = Kõigist andmestikus olevatest heliklippidest eemaldatakse isikuandmed. Kui osaleja esitab oma profiili kaudu demograafilisi andmeid, eemaldatakse see teave tema häälklippidest enne, kui need allalaadimiseks kokku pakitakse ja seda ei avaldata kunagi tema profiililehel.
 faq-what-determine-identity-q = Mida tähendab, et "kõnelejat ei saa tuvastada" Common Voice'i andmekogus?
+faq-what-determine-identity-a =
+    Common Voice on avatud ja avalikult kättesaadav ressurss, mida saab kasutada mitmesuguste kõnesid toetavate rakenduste treenimiseks. Meie osalejate turvalisuse kaitsmiseks palume kõigil, kes laadivad ühise häälandmebaasi, austada osalejate privaatsust.
+    
+    Kõik andmefailis olevad salvestised puhastatakse isikut tuvastavast teabest. Andmekogumi allalaadimisel nõustute, et te ei püüa kindlaks määrata mis tahes osaleja identiteeti. See tähendab, et te ei tohi proovida andmestikus sisalduvat teavet siduda isikuandmetega. Te võite siiski kasutada andmestikku kõnetuvastuse, kõnelejatuvastamise või muude rakenduste treenimiseks, näiteks sidudes andmekogumis oleva teabe teiste andmekogumis sisalduvate andmetega.
+faq-what-is-cv = Mis on Common Voice?
 
 ## ABOUT US
 
@@ -424,6 +434,12 @@ review-delete-recordings = Kustuta mu salvestised
 ## Datasets Page
 
 datasets-headline = Me ehitame avatud ligipääsuga mitmekeelset häälte kogumit, mida igaüks saab kasutada kõnetehnoloogiliste rakenduste loomiseks.
+datasets-positioning =
+    Usume, et suured, avalikult kättesaadavad häälandmestikud soodustavad innovatsiooni ja tervislikku kaubanduslikku konkurentsi masinõppepõhises kõnetehnoloogias.
+    
+    Common Voice'i mitmekeelne andmestik on juba suurim avalikult kättesaadav omalaadne häälandmebaas, kuid see ei ole ainus.
+    
+    Vaadake seda lehte teiste avatud lähtekoodiga hääleandmete kogumite võrdlusuuringute koondpunktina ning kui Common Voice kasvab jätkuvalt, samuti ka meie versiooniuuenduste koduna.
 language = Keel
 # File size in gigabytes
 size = Suurus
@@ -434,12 +450,21 @@ audio-format = Heliformaat
 number-of-voices = Häälte arv
 splits = Jaotused
 email-to-download = Sisesta allalaadimiseks e-posti aadress
+why-email = <b>Miks e-post?</b> Võib juhtuda, et peame tulevikus sinuga ühendust võtma, et anda infot muutustest meie andmekogus, ning siis on meil sinu kontaktinfo. olemas
+confirm-size = Oled valmis alustama allalaadimist suuruses <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Sa nõustud</b>, et ei ürita kindlaks määrata kõnelejate identiteeti Common Voice andmekogus
+download-language = Laadi alla { $language } keel
 validated-hours = Kontrollitud tunde
 recorded-hours = Salvestatud tunde
 whats-inside = Mis on Common Voice'i andmekogu sees?
+want-dataset-update = Kas soovid saada teadet, kui me avaldame Common Voice'i uusi versioone? Telli meie uudiskiri.
+subscribe = Telli
+get-started-speech = Tee algust kõnetuvastusega
+other-datasets = Muud häälandmestikud
 feedback-q = Sul on tagasisidet?
+deepspeech-info = Common Voice andmestik tuleb koos Mozilla avatud ligipääsuga kõnetuvastuse mootoriga Deep Speech, mida saate kasutada kõnetuvastusrakenduste loomiseks. Lugege meie <githubLink>Githubi ülevaadet</githubLink> või liituge <discourseLink>DeepSpeechi foorumitega</discourseLink>, et teada saada, kuidas alustada võib.
 data-other-librispeech-description = LibriSpeech on kõneandmestik, mis koosneb umbes 1000st tunnist 16Khz kvaliteediga salvestatud ingliskeelsest kõnest, mis on saadud LibriVoxi projekti audioraamatutest.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus koosneb audio kõnedest ja nende transkriptsioonidest, mis on kättesaadavad TEDi veebilehel.
