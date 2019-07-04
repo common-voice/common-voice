@@ -212,6 +212,7 @@ join-newsletter = Projekti kohta värske info saamiseks võid liituda meie meili
 
 ## What's public
 
+whats-public = Mis on avalik?
 email-not-public = Me ei avalikusta sinu e-posti aadressi.
 recordings-and-locale-public = Salvestiste arv ja teave selle kohta, milliste keelte andmetesse panustamises oled osalenud, on avalik.
 username-optin-public = Saad valida, kas sinu kasutajanimi on avalik või anonüümne.
@@ -243,6 +244,7 @@ shortcut-vote-no = E
 shortcut-record-toggle = a
 shortcut-record-toggle-label = Salvesta/Peata
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Salvesta uuesti
 request-language-text = Kas sa ei leia veel oma keelt Common Voice projektis?
 request-language-button = Esita soov keele lisamiseks
 
@@ -313,12 +315,14 @@ skip-submission-note = Märkus: panustamise tüübi muutmiseks tuleb valida "rä
 off = Väljas
 on = Sees
 add-avatar-title = Lisa oma profiilile avatar
+add-avatar-clip = Lisa oma profiilile avatarsalvestis
 browse-file-title = Laadi üles pilt
 browse-file = Lohista siia või <browseWrap>sirvi faile</browseWrap>
 connect-gravatar = Ühenda Gravatariga
 gravatar_not_found = Selle e-posti aadressiga pole seotud ühtki gravatari
 file_too_large = Valitud fail on liiga suur
 manage-subscriptions = Halda tellimusi
+manage-email-subscriptions = Halda e-posti tellimusi
 email-already-used = See e-posti aadress on juba kasutuses teise konto jaoks
 add-language = Lisa keel
 change-email-setings = Muuda oma e-posti aadressi menüü Sätted valikus Kasutajatunnus.
@@ -327,6 +331,10 @@ change-email-setings = Muuda oma e-posti aadressi menüü Sätted valikus Kasuta
 
 faq-title = Korduma kippuvad küsimused
 faq-what-cv-q = Mis on Common Voice?
+faq-what-cv-a =
+    Hääletuvastuse tehnoloogia muudab kardinaalselt viisi, kuidas me masinatega suhtleme, kuid olemasolevad süsteemid on kallid ja suletud lähtekoodiga. Common Voice on osa Mozilla algatusesest, mille eesmärgiks on parandada kõnetuvastust ja selle kättesaadavust. Common Voice on suuremahuline ülemaailmne annetatud häälte andmebaas, mis võimaldab igaühel kiiresti ja lihtsalt treenida kõnepõhiseid rakendusi kõigi keelte jaoks.
+    
+    Me ei kogu mitte ainult suure kasutajaskonnaga, vaid ka nn väiksemate keelte hääleandmeid. Paljukeelse andmestiku avaldamine võimaldab arendajatel, ettevõtjatel ja kogukondadel ise vähendada suurte ja väikeste keelte vahelist tehnoloogilist lõhet. Lisaks Common Voice'i andmekogumile loome ka avatud lähtekoodiga kõnetuvastusmootori Deep Speech.
 faq-why-important-q = Miks on see tähtis?
 faq-how-get-q = Kuidas ma saaksin endale Common Voice'i andmestikke?
 faq-how-get-a = Common Voice'i andmestik on allalaaditav <licenseLink>CC0</licenseLink> litsentsiga <datasetLink>meie andmestike lehelt</datasetLink>. Samalt lehelt saad alla laadida ka teisi avalikult kasutatavaid andmestikke.
