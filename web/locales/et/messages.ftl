@@ -8,8 +8,10 @@ email-input =
     .label = E-posti aadress
 submit-form-action = Saada
 loading = Laadimine…
+email-opt-in-info = Soovin saada e-kirju eesmärkide meeldetuletuste ja edenemise uuendustega ning uudiskirju Common Voice'i kohta.
 email-opt-in-privacy = Lubades saata endale e-kirju, nõustud ühtlasi sellega, et Mozilla kasutab seda infot nii, nagu on kirjeldatud <privacyLink>Privaatsuspoliitikas<privacyLink>.
 indicates-required = * tähistab kohustuslikku välja
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,12 +19,17 @@ indicates-required = * tähistab kohustuslikku välja
 
 ## Languages
 
+ab = abhaasi
 ace = atšehi
+ady = adõgee
+af = afrikaani
+am = amhara
 an = aragoni
 ar = araabia
 as = assami
 ast = astuuria
 az = aserbaidžaani
+ba = baškiiri
 bg = bulgaaria
 bn = bengali
 br = bretooni
@@ -36,6 +43,7 @@ cy = kõmri
 da = taani
 de = saksa
 dsb = alasorbi
+dv = maldiivi
 el = kreeka
 en = inglise
 eo = esperanto
@@ -43,26 +51,36 @@ es = hispaania
 et = eesti
 eu = baski
 fa = pärsia
+ff = fulbe
 fi = soome
 fo = fääri
 fr = prantsuse
 fy-NL = friisi
 ga-IE = iiri
+gl = galeegi
+ha = hausa
 he = heebrea
+hi-IN = hindi
+hr = horvaadi
 hsb = ülemsorbi
 hu = ungari
 ia = interlingua
 id = indoneesia
 is = islandi
 it = itaalia
+izh = isuri
 ja = jaapani
 ka = gruusia
 kab = kabiili
 kk = kasahhi
 ko = korea
 kpv = sürjakomi
+ku = kurdi
 kw = korni
 ky = kirgiisi
+lij = liguuri
+lt = leedu
+lv = läti
 mdf = mokša
 mk = makedoonia
 mn = mongoolia
@@ -375,7 +393,7 @@ review-cancel = Tühista saatmine
 review-keep-recordings = Jäta salvestised alles
 review-delete-recordings = Kustuta mu salvestised
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Me ehitame avatud ligipääsuga mitmekeelset häälte kogumit, mida igaüks saab kasutada kõnetehnoloogiliste rakenduste loomiseks.
 language = Keel
@@ -536,3 +554,7 @@ overall-accuracy = Üldine korrektsus
 keep = Säilita
 remove = Kustuta
 profile-form-delete = Kustuta profiil
+
+## Landing
+
+profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem
