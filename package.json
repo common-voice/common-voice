@@ -10,7 +10,8 @@
     "prettier": "^1.18.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "typescript": "3.5.2"
+    "typescript": "3.5.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "husky": "^2.5.0",
@@ -35,11 +36,14 @@
     "prettier": "yarn lint --write",
     "start": "concurrently -p \"[{name}]\" -n \"BE,FE\" -c \"bgBlue.bold,bgMagenta.bold\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "node server/js/server.js",
-    "test": "concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && yarn test\""
+    "test": "concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && yarn test\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "snyk": true
 }
