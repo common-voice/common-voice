@@ -10,6 +10,7 @@ submit-form-action = சமர்ப்பி
 loading = ஏற்றுகிறது…
 email-opt-in-privacy = மின்னஞ்சல்கள் பெறுவதை தேர்வுசெய்வதன் மூலம், மொசில்லாவின் <privacyLink>தனியுரிமைக் கொள்கையில்<privacyLink> விவரிக்கப்பட்டுள்ளபடி மொசில்லாவுடன் இந்த தகவலைக் கையாளும் விதம் நன்றாக இருப்பதாக நீங்கள் உறுதியளிக்கிறீர்கள்
 indicates-required = * தேவையான பகுதிகளைக் குறிக்கிறது
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
