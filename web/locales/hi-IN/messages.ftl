@@ -258,6 +258,9 @@ profile-form-age =
     .label = उम्र
 profile-form-gender =
     .label = लिंग
+leaderboard-visibility =
+    .label = लीडरबोर्ड की दृश्यता
+hidden = छुपा हुआ
 native-language =
     .label = मूल भाषा
 profile-form-submit-save = सहेजें
@@ -275,15 +278,29 @@ settings = सेटिंग
 edit-profile = प्रोफ़ाइल संपादित करें
 profile-create-success = सफलतापूर्वक, प्रोफाइल बनाई गई!
 profile-close = बंद करें
+login-identity = लॉगइन पहचान
 login-signup = लॉग इन / साइन अप करें
 edit = संपादित करें
+email-subscriptions = ईमेल सदस्यताएँ
 download-profile = मेरे डेटा को डाउनलोड करें
 contribution-experience = योगदान अनुभव
 off = बंद
 on = चालू
+add-avatar-title = अपनी प्रोफ़ाइल में एक अवतार जोड़ें
+file_too_large = चयनित फ़ाइल बहुत बड़ा है
+manage-subscriptions = सदस्यता प्रबंधित करें
+manage-email-subscriptions = ईमेल सदस्यता प्रबंधित करें
+email-already-used = ईमेल का उपयोग पहले से ही एक अलग खाते के लिए किया जा चुका हैं
+add-language = भाषा जोड़ें
+change-email-setings = लॉगइन पहचान के तहत सेटिंग्स के माध्यम से अपना ईमेल बदलें
 
 ## FAQ
 
+faq-title = अधिकतर पूछे जाने वाले प्रश्न
+faq-what-cv-q = आम आवाज क्या है?
+faq-why-important-q = ये क्यू महत्वपूर्ण है?
+faq-how-get-q = मैं Common Voice डेटा कैसे प्राप्त कर सकता हूं?
+faq-when-release-q = आप अन्य भाषाओं में Common Voice डेटा कब जारी करेंगे?
 
 ## ABOUT US
 
