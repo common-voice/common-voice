@@ -229,6 +229,7 @@ profile-form-age =
     .label = వయస్సు
 profile-form-gender =
     .label = లింగం
+visible = కనిపించే
 native-language =
     .label = స్థానిక భాష
 profile-form-submit-save = భద్రపరచు
@@ -323,7 +324,7 @@ review-cancel = సమర్పణను రద్దు చేయండి
 review-keep-recordings = రికార్డింగులను ఉంచు
 review-delete-recordings = నా రికార్డింగులను తొలగించు
 
-## New Datasets Page
+## Datasets Page
 
 language = భాష
 # File size in gigabytes
@@ -447,3 +448,6 @@ overall-accuracy = మొత్తం ఖచ్చితత్వం
 keep = ఉంచు
 remove = తొలగించు
 profile-form-delete = ప్రొఫైలును తొలగించు
+
+## Landing
+
