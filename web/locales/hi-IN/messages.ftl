@@ -261,6 +261,7 @@ profile-form-gender =
 leaderboard-visibility =
     .label = लीडरबोर्ड की दृश्यता
 hidden = छुपा हुआ
+visible = दृश्यमान
 native-language =
     .label = मूल भाषा
 profile-form-submit-save = सहेजें
@@ -301,9 +302,23 @@ faq-what-cv-q = आम आवाज क्या है?
 faq-why-important-q = ये क्यू महत्वपूर्ण है?
 faq-how-get-q = मैं Common Voice डेटा कैसे प्राप्त कर सकता हूं?
 faq-when-release-q = आप अन्य भाषाओं में Common Voice डेटा कब जारी करेंगे?
+faq-why-mission-q = Common Voice Mozilla मिशन का हिस्सा क्यों है?
+faq-what-cv-and-deepspeech-q = Common Voice और Deep Speech में क्या अंतर है?
+faq-why-my-lang-q = मेरी भाषा को अभी तक क्यों शामिल नहीं किया गया है?
+faq-how-calc-hours-q = Common Voice  घंटों की गणना कैसे करती है?
+faq-what-is-cv = Common Voice क्या है?
+faq-using-cv = Common Voice का उपयोग करके
+faq-search-for-answers =
+    .label = जवाब के लिए खोजें
 
 ## ABOUT US
 
+about-title = Common Voice क्यों?
+how-does-it-work-title = यह कैसे काम करता है?
+about-speak = बोले
+about-listen = सुनिए
+about-partners = भागीदारों
+about-become-a-partner = भागीदार बनें
 about-get-involved = शामिल हों
 about-nav-why-common-voice = क्यों ?
 about-nav-how-it-works = कैसे ?
