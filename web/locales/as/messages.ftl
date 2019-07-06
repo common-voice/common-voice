@@ -169,6 +169,7 @@ hours-recorded = ৰেকৰ্ডেড ঘণ্টা
 hours-validated = বৈধকৃত ঘণ্টা
 voices-online = কণ্ঠ এতিয়া অনলাইন
 todays-progress = আজিৰ প্ৰগতি
+help-reach-goal = আমাক { $goal }-লৈ গৈ পোৱাত সহায় কৰক
 all-locales = সকলো
 today = আজি
 x-weeks-short =
