@@ -361,6 +361,7 @@ faq-how-privacy-a = La informació d'identificació personal se suprimeix de tot
 faq-what-determine-identity-q = Què vol dir que no puc «determinar la identitat» dels parlants en el conjunt de dades del Common Voice?
 faq-what-is-cv = Què és el Common Voice?
 faq-using-cv = Ús del Common Voice
+faq-description = El projecte Common Voice forma part de la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò.
 faq-search-for-answers =
     .label = Cerca respostes
 
@@ -389,6 +390,11 @@ about-clip-graveyard-text = El cementiri de talls inclou els talls de veu que no
 about-partners = Socis
 about-become-a-partner = Feu-vos soci
 about-get-involved = Col·laboreu-hi
+about-get-involved-text =
+    Voleu ajudar a millorar el Common Voice?
+    Genial! Poseu-vos en contacte per correu electrònic o pel <discourseLink>Discourse</discourseLink>,
+    envieu comentaris mitjançant el <githubLink>GitHub</githubLink>
+    o uniu-vos al nostre <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Per què?
 about-nav-how-it-works = Com?
 about-nav-partners = Socis
@@ -490,6 +496,7 @@ ready-to-validate = Esteu preparat per a validar frases?
 more = Més
 close = Tanca
 download = Baixa
+dataset-version = Versió
 
 ## Download Modal
 
@@ -640,5 +647,7 @@ profile-form-delete = Suprimeix el perfil
 
 ## Landing
 
+welcome-staff = Personal de { $company }, us donem la benvinguda!
+login-company = Inici de sessió / Registre amb l'adreça electrònica de { $company }
 profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
 read-more-about = Vegeu més informació a la pàgina «Qui som»
