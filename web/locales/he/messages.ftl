@@ -376,6 +376,7 @@ download-language = הורדת { $language }
 validated-hours = שעות שאומתו
 recorded-hours = שעות שהוקלטו
 subscribe = הרשמה
+get-started-speech = התחילו לעבוד עם זיהוי דיבור
 other-datasets = מאגרי קול אחרים
 feedback-q = יש לכם משוב?
 data-other-librispeech-description = LibriSpeech הוא מאגר של כ־1000 שעות של דיבור באנגלית באיכות של 16Khz שנגזר מספרי שמע שהוקראו עבור מיזם LibriVox.
@@ -383,7 +384,12 @@ data-other-ted-name = מאגר TED-LIUM
 data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
 data-other-voxforge-description = VoxForge הוקם לטובת איסוף של קול מתומלל לטובת שימוש במנועי זיהוי קולי בקוד פתוח.
 data-other-tatoeba-description = Tatoeba הוא מסד נתונים נרחב של משפטים, תרגומים ודיבור לשימוש לטובת לימודי שפה. הורדה זו מכילה את כל האנגלית המדוברת שהוקלטה על ידי הקהילה שלהם.
+go-discourse = מעבר אל Discourse
+missing-language = אינך רואה את השפה שלך במאגר המידע? ניתן לבקש שפה בעמוד השפות שלנו.
 go-languages-page = מעבר לעמוד השפות
+ready-to-validate = מוכנים לעזור לאמת משפטים?
+more = עוד
+dataset-version = גרסה
 
 ## Download Modal
 
@@ -411,6 +417,7 @@ request-language-form-language =
     .label = שפה
 request-language-success-title = בקשת השפה הוגשה בהצלחה, תודה רבה.
 request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף את השפה שלך ל־Common Voice בקרוב.
+other-language = שפה אחרת
 
 ## Languages Overview
 
@@ -457,7 +464,7 @@ record-again-instruction = מושלם! <recordIcon></recordIcon> הקלטת המ
 record-again-instruction2 = עבודה יפה, עכשיו להקליט שוב <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> אחרון חביב!
 review-tooltip = ניתן לסקור ולהקליט מקטעים מחדש דרך כאן תוך כדי תנועה
-unable-speak = לא ניתן לדבר כרגע
+unable-speak = לא ניתן לדבר כרגע?
 review-instruction = ניתן לסקור ולהקליט מקטעים מחדש במקרה הצורך
 record-submit-tooltip = { $actionType } ניתן להגיש כשהמקטע מוכן
 clips-uploaded = מקטעים הועלו
