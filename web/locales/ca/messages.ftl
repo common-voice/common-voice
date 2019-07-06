@@ -306,6 +306,7 @@ skip-submission-note = Nota: Igualment haureu de seleccionar entre Parla o Escol
 off = Desactivat
 on = Activat
 add-avatar-title = Afegiu un avatar al perfil
+add-avatar-clip = Afegiu una imatge d'avatar al vostre perfil
 browse-file-title = Puja un fitxer d'imatge
 browse-file = Arrossegueu i deixeu anar o feu clic a <browseWrap>Navega</browseWrap>
 connect-gravatar = Connecta amb Gravatar
@@ -359,14 +360,23 @@ faq-how-privacy-a = La informació d'identificació personal se suprimeix de tot
 faq-what-determine-identity-q = Què vol dir que no puc «determinar la identitat» dels parlants en el conjunt de dades del Common Voice?
 faq-what-is-cv = Què és el Common Voice?
 faq-using-cv = Ús del Common Voice
+faq-search-for-answers =
+    .label = Cerca respostes
 
 ## ABOUT US
 
 about-title = Per què Common Voice?
-about-dataset = Conjunt de dades del Common Voice
+how-does-it-work-title = Com funciona?
+about-speak = Parla
+about-listen-queue = Cua d'escolta
+about-listen = Escolta
+about-is-it-valid = El tall és vàlid?
+about-partners = Socis
+about-become-a-partner = Feu-vos soci
 about-get-involved = Col·laboreu-hi
 about-nav-why-common-voice = Per què?
 about-nav-how-it-works = Com?
+about-nav-partners = Socis
 about-nav-get-involved = Col·laboreu-hi
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intel·ligència artificial
@@ -419,7 +429,7 @@ review-cancel = Cancel·la l'enviament
 review-keep-recordings = Conserva els enregistraments
 review-delete-recordings = Suprimeix els meus enregistraments
 
-## New Datasets Page
+## Datasets Page
 
 language = Llengua
 # File size in gigabytes
@@ -611,3 +621,8 @@ why-delete-recordings =
     
     Podríeu fer-nos saber per què voleu suprimir els vostres enregistraments?
 profile-form-delete = Suprimeix el perfil
+
+## Landing
+
+profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
+read-more-about = Vegeu més informació a la pàgina «Qui som»
