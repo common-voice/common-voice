@@ -1,10 +1,107 @@
 @import url('../vars.css');
 
+.test {
+    color: red;
+
+    & .cover {
+        width: 51%;
+
+        /*box-shadow: inset 75px -14px 146px -10px rgba(245,235,245,1), inset -68px 10px 135px 2px rgba(245,235,245,1);*/
+        box-shadow: inset 0 30px 40px rgba(0, 0, 0, 0.1);
+    }
+    section {
+        z-index: -1;
+        padding-left: px;
+        position: absolute;
+        top: 32px;
+        width: 30%;
+        height: 50px;
+        background-color: white;
+        background: linear-gradient(to right, white, transparent 90%);
+        -webkit-box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+        -moz-box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+        box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+    }
+
+    & .top {
+        z-index: 15;
+        opacity: 0.5;
+        /*
+        box-shadow: inset 75px -14px 146px -10px rgba(245,235,245,1), inset -68px 10px 135px 2px rgba(245,235,245,1);*/
+    }
+
+    & .wave {
+        opacity: 0.75;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+        -moz-box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+        box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+        background: url('./wave2.svg');
+        background-size: 40%;
+        background-repeat: repeat-x;
+
+        animation: mymovea 17s linear infinite;
+    }
+
+    & .wavea {
+        opacity: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+        -moz-box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+        box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
+            inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
+        background: url('./wave1.svg');
+        background-size: 40%;
+        background-repeat: repeat-x;
+
+        animation: mymove 15s linear infinite;
+    }
+
+    & .waveb {
+        position: relative;
+        width: 50%;
+        height: 10%;
+    }
+
+    @keyframes mymove {
+        from {
+            background-position: 0px;
+        }
+        to {
+            background-position: 1920px;
+        }
+    }
+
+    @keyframes mymovea {
+        from {
+            background-position: 0px;
+        }
+        to {
+            background-position: 1920px;
+        }
+    }
+}
+
 .user-menu {
     margin: 0 20px;
 
     @media (--sm-up) {
         max-width: 200px;
+    }
+    & .test {
+        color: red;
     }
 
     & .toggle {
