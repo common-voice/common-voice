@@ -335,6 +335,7 @@ faq-how-get-q = Com puc obtenir les dades del Common Voice?
 faq-how-get-a = El conjunt de dades del Common Voice es pot baixar sota la llicència <licenseLink>CC0</licenseLink> des de <datasetLink>la nostra pàgina de conjunts de dades</datasetLink>. També podeu baixar diversos conjunts de dades disponibles públicament des de la mateixa pàgina.
 faq-when-release-q = Quan publicareu les dades del Common Voice en altres llengües?
 faq-why-mission-q = Per què el Common Voice forma part de la missió de Mozilla?
+faq-why-mission-a = La missió de Mozilla és mantenir el Web obert i accessible a tothom. Per fer-ho, necessitem oferir eines als creadors de contingut web mitjançant projectes com el Common Voice. Les tecnologies de veu estan proliferant més enllà d'aplicacions molt especialitzades, i creiem que han de servir a tots els usuaris en igualtat de condicions. Això significa incloure més llengües, més diversitat d'accents i de dades demogràfiques a l'hora de crear i provar les tecnologies de veu. El Common Voice és un recurs públic, disponible per a tothom, i els equips de Mozilla i els desenvolupadors d'arreu del món ja l'utilitzen en els seus propis projectes.
 faq-what-cv-and-deepspeech-q = Quina diferència hi ha entre el Common Voice i el Deep Speech?
 faq-what-cv-and-deepspeech-a = El conjunt de dades del Common Voice complementa el motor de reconeixement de veu de codi obert Deep Speech de Mozilla. La primera versió del Deep Speech es va publicar el novembre de 2017 i ha continuat evolucionant des d'aleshores. Juntament amb el conjunt de dades del Common Voice, creiem que aquesta tecnologia de reconeixement de veu de codi obert hauria d'estar disponible per a tothom. Esperem que aquestes tecnologies permetin als desenvolupadors construir una onada de productes i serveis innovadors.
 faq-is-goal-assistant-q = L'objectiu del Common Voice és construir un assistent de veu?
@@ -366,8 +367,11 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Per què Common Voice?
+about-subtitle = El projecte Common Voice forma part de la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò. A més del conjunt de dades del Common Voice, també estem construint un motor de reconeixement de veu de codi obert anomenat Deep Speech.
 how-does-it-work-title = Com funciona?
+how-does-it-work-text = Estem creant de forma col·laborativa un conjunt de dades de veu obert. Doneu la vostra veu, valideu la precisió dels talls d'altres persones i feu que el conjunt de dades sigui millor per a tothom.
 about-speak = Parla
+about-speak-text = Els col·laboradors enregistren talls de veu llegint textos que provenen d'un banc de frases donades.
 about-listen-queue = Cua d'escolta
 about-listen = Escolta
 about-is-it-valid = El tall és vàlid?
@@ -431,6 +435,7 @@ review-delete-recordings = Suprimeix els meus enregistraments
 
 ## Datasets Page
 
+datasets-headline = Estem creant un conjunt de dades de veus obert i multilingüe que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
 language = Llengua
 # File size in gigabytes
 size = Mida
