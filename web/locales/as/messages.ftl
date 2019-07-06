@@ -43,6 +43,17 @@ cy = ৱেল্‌ছ
 da = ডেনিছ
 de = জাৰ্মান
 dsb = চৰ্বিয়েন, নিম্ন
+dv = ধিৱেহি
+el = গ্ৰীক
+en = ইংৰাজী
+eo = এচপাৰেণ্টো
+es = স্পেনিছ
+et = ইষ্ট'নিয়ান
+eu = বাস্ক
+fa = ফাৰ্চী
+ff = ফুলাহ
+fi = ফিনিছ
+fo = ফেৰ'ইজ
 
 # [/]
 
@@ -99,9 +110,13 @@ shortcut-rerecord-toggle-label = ক্লিপ পুনঃৰেকৰ্ড 
 
 ## FAQ
 
+faq-what-cv-and-deepspeech-a = Common Voice ডাটাছেটে Mozilla-ৰ মুকলি উৎসৰ কণ্ঠ চিনাক্তকৰণ ইঞ্জিন Deep Speech-ক পূৰ্ণ কৰে। Deep Speech-ৰ প্ৰথম সংস্কৰণ নৱেম্বৰ 2017-ত মুকলি কৰা হৈছিল আৰু তেতিয়াৰে পৰা ইয়াৰ বিকাশ হৈ আহিছে। Common Voice ডাটাছেটৰ লগত, আমাৰ বিশ্বাস যে এই মুকলি উৎসৰ কণ্ঠ চিনাক্তকৰণ প্ৰযুক্তি সকলোৰে বাবে উপলব্ধ হ'ব। আমাৰ আশা যে এই প্ৰযুক্তিবোৰে ডেভেল'পাৰসকলক অভিনৱ প্ৰডাক্ট আৰু সেৱাৰ ঢৌ অনাত সক্ষম কৰিব।
 
 ## ABOUT US
 
+about-get-involved = জড়িত হওক
+about-get-involved-text = Common Voice উন্নত কৰাত সহায় কৰিব বিচাৰে? বঢ়িয়া! ইমেইল যোগে বা <discourseLink>Discourse</discourseLink>-ত যোগাযোগ কৰক, <githubLink>GitHub</githubLink>-ৰ মাধ্যমে সঁহাৰি দাখিল কৰক বা আমাক <slackLink>Slack</slackLink>-ত যোগদান কৰক।
+about-nav-get-involved = জড়িত হওক
 
 ## Glossary
 
