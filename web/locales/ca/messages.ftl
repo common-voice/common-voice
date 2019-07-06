@@ -369,12 +369,15 @@ faq-search-for-answers =
 
 about-title = Per què Common Voice?
 about-subtitle = El projecte Common Voice forma part de la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò. A més del conjunt de dades del Common Voice, també estem construint un motor de reconeixement de veu de codi obert anomenat Deep Speech.
+about-header-description =
+    Ambdós projectes formen part dels nostres esforços per reduir les desigualtats en el món de la veu digital. Les tecnologies de reconeixement de veu aporten una dimensió humana als nostres dispositius, però els desenvolupadors necessiten una gran quantitat de dades de veu per crear-les. Actualment, la majoria d'aquestes dades són cares i propietàries.
+    Volem que les dades de veu siguin lliures i públiques, i garantir que les dades representin la diversitat de la gent real. Junts podem fer que el reconeixement de veu sigui millor per a tothom.
 how-does-it-work-title = Com funciona?
 how-does-it-work-text = Estem creant de forma col·laborativa un conjunt de dades de veu obert. Doneu la vostra veu, valideu la precisió dels talls d'altres persones i feu que el conjunt de dades sigui millor per a tothom.
 about-speak = Parla
 about-speak-text = Els col·laboradors enregistren talls de veu llegint textos que provenen d'un banc de frases donades.
 about-listen-queue = Cua d'escolta
-about-listen-queue-text = Els talls de veu es posen en una cua i ja estan llestos per escoltar.
+about-listen-queue-text = Els talls de veu es posen en una cua de talls llestos per escoltar.
 about-listen = Escolta
 about-listen-text = Els usuaris validen la precisió dels talls comprovant que el locutor llegeixi la frase correctament.
 about-is-it-valid = El tall és vàlid?
