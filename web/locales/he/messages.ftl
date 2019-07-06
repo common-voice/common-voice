@@ -178,6 +178,7 @@ x-years-short =
 help-make-dataset = מזמינים אותך לבנות מערך נתונים איכותי ופתוח לציבור
 profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב
 sign-up-account = יצירת חשבון
+email-subscription-title = הרשמה לעדכונים בדוא״ל
 
 ## Account Benefits
 
@@ -272,8 +273,6 @@ profile-close = סגירה
 profile-explanation = ניתן לעקוב אחר התהליך שעברת בעזרת פרופיל ולסייע לנתוני הקול שלנו להיות מדויקים יותר
 thanks-for-account = תודה לך על אישור החשבון שלך, כעת הבה נבנה את הפרופיל שלך.
 why-demographic = למה  זה משנה?
-keep-me-posted =
-    .label = ברצוני לקבל עדכונים וחידושים ב־Common Voice.
 accept-privacy = מקובל עלי האופן בו המידע הזה מטופל כפי שמפורט ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla
 login-identity = זהות כניסה
 login-signup = כניסה / הרשמה
@@ -301,13 +300,29 @@ faq-title = תשובות לשאלות נפוצות
 faq-what-cv-q = מה זה Common Voice?
 faq-why-important-q = מדוע זה חשוב?
 faq-how-calc-hours-q = איך מחושבות השעות ב־Common Voice?
+faq-where-src-from-2-q = מהיכן מגיע טקסט המקור?
 faq-why-account-q = מדוע עלי ליצור חשבון?
+faq-is-account-public-q = האם פרטי החשבון שלי חשופים לציבור?
+faq-how-privacy-q = איך אתם מבטיחים לשמור על האלמוניות והפרטיות של אלו שתרמו את קולם?
+
+## ABOUT US
+
+about-speak = דבר
+about-nav-partners = שותפים
+mycroft-subtitle = בינה מלאכותית
 
 ## Glossary
 
 glossary = מונחים
 localization = לוקליזציה
+localization-explanation = זהו התהליך שלנו לתרגום והתאמה של התוכן שלנו לשפות ומקומות רבים.
 sentence-collection = אוסף משפטים
+sentence-collection-explanation = איסוף משפטים מן הציבור, או כתיבת חדשים עבור הציבור.
+hours-recorded-explanation = מספר שעות הדיבור שאספנו עד עתה.
+hours-validated-explanation = ספירת שעות ההקלטה הקולית שאומתו על ידי 2 מתוך 3 משתמשים עם הצבעה של "כן". זה סימן התקדמות הפרויקט אל היעד של 10,000 שעות.
+sst = דיבור־לטקסט
+sst-explanation = טכנולוגיות דיבור־לטקסט ממירות הקלטת דיבור לטקסט כתוב.
+de-identified = ניתוק זיהוי
 
 ## NotFound
 
@@ -343,7 +358,7 @@ review-cancel = ביטול שליחה
 review-keep-recordings = שמירת ההקלטות שלי
 review-delete-recordings = מחיקת ההקלטות שלי
 
-## New Datasets Page
+## Datasets Page
 
 language = שפה
 # File size in gigabytes
@@ -400,7 +415,6 @@ request-language-success-content = נהיה בקשר כשיהיו פרטים נ�
 ## Languages Overview
 
 language-section-in-progress = בתהליך
-language-section-in-progress-description = שפות שנמצאות כעת בתהליך נבנות לצורכי תרומה על ידי הקהילות שלנו, ההתקדמות שלהן משקפת את המצב מבחינת תרגום האתר ושלבי איסוף המשפטים.
 language-section-launched = הושקו
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
@@ -500,3 +514,7 @@ overall-accuracy = דיוק כללי
 keep = להשאיר
 remove = להסיר
 profile-form-delete = מחיקת פרופיל
+
+## Landing
+
+profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב
