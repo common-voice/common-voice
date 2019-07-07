@@ -28,6 +28,7 @@ ar = அராபிக்
 as = அஸ்ஸாமி
 ast = அஸ்டூரியன்
 az = அஸர்பைஜானி
+ba = பாஷ்கிர்
 bg = பல்கேரியன்
 bn = வங்காளம்
 br = பிரெடான்
@@ -224,6 +225,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = பதிவிடு/நிறுத்து
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = துணுக்கை மீண்டும் பதிவுசெய்க
 request-language-text = பொதுக் குரலில் உங்கள் மொழி இல்லையா?
 request-language-button = மொழியைக் கோருங்கள்
 
