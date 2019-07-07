@@ -403,6 +403,7 @@ about-listen = Poskać
 about-is-it-valid = Je klip płaćiwy?
 about-is-it-valid-text = Hłosowy klip so jako „płaćiwy markěruje, hdyž wužiwar jemu hajhłós da.
 about-yes-votes = ≥ 2 hajhłosaj
+about-yes-votes-text = Zo by so hłosowy klip do datoweje sadźby Connon Voice přewzał, dyrbi so wot dweju rozdźělneju wužiwarjow přepruwować.
 about-no-votes = ≥ 2 něhłosaj
 about-dataset-new = Datowa sadźba Common Voice
 about-clip-graveyard = Klipowy kěrchow
