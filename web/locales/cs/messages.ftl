@@ -326,6 +326,7 @@ manage-subscriptions = Spravovat odběr
 manage-email-subscriptions = Spravovat odběry e-mailů
 email-already-used = E-mail je již používán pro jiný účet
 add-language = Přidat jazyk
+change-email-setings = Svou e-mailovou adresu můžete změnit v Nastavení v části Identita pro přihlášení
 
 ## FAQ
 
@@ -369,6 +370,10 @@ faq-is-account-public-q = Jsou informace o mém účtu veřejně přístupné?
 faq-how-privacy-q = Jak zajišťujete anonymitu a soukromí jednotlivých přispěvatelů projektu Common Voice?
 faq-how-privacy-a = Všechny hlasové záznamy v databázi jsou očištěny od osobně identifikujících informací. Poskytne-li uživatel skrz svůj profil nějaká demografická data, tato jsou před uložením do databáze ze záznamu taktéž odstraněna a navíc nejsou nikdy zveřejněna na uživatelském profilu.
 faq-what-determine-identity-q = Co to znamená že "nelze určit identity" mluvčích v databázi projektu Common Voice?
+faq-what-determine-identity-a =
+    Databáze projektu Common Voice je otevřeným a veřejně přístupným zdrojem použitelným k vytrénování široké škály hlasových aplikací. Pro ochranu bezpečnosti vašich příspěvků vyzýváme každého stahujícího databáze Common Voice k respektování soukromí jednotlivých přispěvatelů.
+    
+    Všechny hlasové záznamy v databázi jsou zbaveny osobně identifikujících údajů. Stáhnutím databáze se zavazujete nepokoušet se zjistit identitu jednotlivých přispěvatelů. To znamená, že se nesmíte pokoušet propojit informace získané z databáze s informacemi v databázi uživatelských profilů. Na druhou stranu ale můžete použít databázi projektu Common Voice k vytrénování algoritmů rozpoznávání mluveného slova, mluvčího, či jiné aplikace, použitím čistě údajů obsažených v databázi a jejich různým vzájemným propojováním.
 
 ## ABOUT US
 
