@@ -610,7 +610,6 @@ record-again-instruction = Hebat! <recordIcon></recordIcon> Rekam klip Anda beri
 record-again-instruction2 = Lanjut terus, rekam lagi <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> Yang terakhir!
 review-tooltip = Tinjau & rekam ulang klip di sini selagi melanjutkan
-unable-speak = Tidak bisa berbicara sekarang
 review-instruction = Tinjau & rekam ulang klip jika perlu
 record-submit-tooltip = { $actionType } kirimkan jika sudah siap
 clips-uploaded = Klip Diunggah
@@ -626,6 +625,23 @@ listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
 nothing-to-validate = Kami tidak memiliki apa pun untuk divalidasi dalam bahasa ini, bantu kami mengisi antreannya.
 record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
+
+## Reporting
+
+report = Laporkan
+report-title = Kirim laporan
+report-ask = Apa masalah yang Anda alami dengan kalimat ini?
+report-grammar-spelling = Kesalahan tata bahasa / ejaan
+report-grammar-spelling-detail = Kalimat tersebut memiliki bahasa yang tidak sopan atau menyinggung.
+report-wrong-language = Salah bahasa
+report-wrong-language-detail = Kalimat tersebut memiliki kesalahan tata bahasa atau ejaan.
+report-difficult-pronounce = Sulit diucapkan
+report-difficult-pronounce-detail = Kalimat ini berisi kata atau frasa yang sulit dibaca atau diucapkan.
+report-other-comment =
+    .placeholder = Komentar
+success = Berhasil
+continue = Lanjut
+report-success = Laporan berhasil diteruskan
 
 ## Goals
 
