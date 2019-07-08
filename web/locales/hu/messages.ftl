@@ -615,7 +615,6 @@ record-again-instruction = Nagyszerű! <recordIcon></recordIcon> A következő k
 record-again-instruction2 = Csak így tovább, vegyen fel újra <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Az utolsó!
 review-tooltip = Ellenőrizze, és ha kell, vegye fel újra a klipeket sorban
-unable-speak = Most nem tud beszélni
 review-instruction = Ellenőrizze, és ha kell, vegye fel újra a klipeket
 record-submit-tooltip = { $actionType } a beküldéshez, ha kész
 clips-uploaded = Klipek feltöltve
@@ -631,6 +630,23 @@ listen-last-time-instruction = <playIcon></playIcon> Utolsó!
 nothing-to-validate = Még nincs semmit ellenőrizni ezen a nyelven, segítsen feltölteni a sort.
 record-button-label = Rögzítse a hangját
 share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
+
+## Reporting
+
+report = Jelentés
+report-title = Jelentés beküldése
+report-ask = Milyen problémákat tapasztal ennél a mondatnál?
+report-grammar-spelling = Nyelvtani / helyesírási hiba
+report-grammar-spelling-detail = A mondat tiszteletlen vagy sértő nyelvezetet használ.
+report-wrong-language = Hibás nyelv
+report-wrong-language-detail = A mondat nyelvtani vagy helyesírási hibát tartalmaz.
+report-difficult-pronounce = Nehéz kimondani
+report-difficult-pronounce-detail = Olyan szavakat vagy kifejezéseket tartalmaz, amelyeket nehéz elolvasni vagy kiejteni.
+report-other-comment =
+    .placeholder = Megjegyzés
+success = Sikeres
+continue = Folytatás
+report-success = A jelentés sikeresen beküldve
 
 ## Goals
 
