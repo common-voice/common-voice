@@ -601,7 +601,6 @@ record-again-instruction = বঢ়িয়া!<recordIcon></recordIcon>আপোন
 record-again-instruction2 = কৰি থাকক, আকৌ ৰেকৰ্ড কৰক <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> অন্তিম এটা!
 review-tooltip = ক্লিপবোৰ ইয়াতেই সমীক্ষা কৰি পুনঃৰেকৰ্ড কৰক
-unable-speak = বৰ্তমান কথা ক'ব নোৱাৰে?
 review-instruction = প্ৰয়োজন হ'লে ক্লিপবোৰৰ সমীক্ষা কৰি পুনঃৰেকৰ্ড কৰক
 record-submit-tooltip = { $actionType } সাজু হ'লে দাখিল কৰিব
 clips-uploaded = ক্লিপবোৰ আপল'ড হ'ল
@@ -617,6 +616,22 @@ listen-last-time-instruction = <playIcon></playIcon>অন্তিম এটা
 nothing-to-validate = এই ভাষাত বৈধকৰণ কৰিবলৈ আমাৰ একো নাই, শাৰীটো পূৰ্ণ কৰাত আমাক সহায় কৰক।
 record-button-label = আপোনাৰ কণ্ঠ ৰেকৰ্ড কৰক
 share-title-new = আৰু কণ্ঠ বিচৰাত <bold>আমাক সহায় কৰক</bold>
+
+## Reporting
+
+report = সদৰি কৰক
+report-title = প্ৰতিবেদন দাখিল কৰক
+report-grammar-spelling = ব্যাকৰণ / বানান ভুল
+report-grammar-spelling-detail = এই বাক্যত অপমানজনক বা ঘৃণাজনক ভাষা আছে।
+report-wrong-language = ভুল ভাষা
+report-wrong-language-detail = এই বাক্যত ব্যাকৰণ বা বানান ভুল দিয়া আছে।
+report-difficult-pronounce = উচ্চাৰণ কৰা কঠিন
+report-difficult-pronounce-detail = এইটোত এনে কিছু শব্দ বা বাক্যাংশ আছে যিবোৰ পঢ়া বা উচ্চাৰণ কৰা কঠিন।
+report-other-comment =
+    .placeholder = মন্তব্য
+success = সফল
+continue = অব্যাহত ৰাখক
+report-success = প্ৰতিবেদন সফলভাৱে গৃহীত হ'ল
 
 ## Goals
 
