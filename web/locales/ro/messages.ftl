@@ -612,7 +612,6 @@ record-again-instruction = Perfect!<recordIcon></recordIcon> Înregistrează urm
 record-again-instruction2 = Ține-o tot așa! Înregistrează din nou <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ultima!
 review-tooltip = Aici revezi și reînregistrezi secvențe audio din mers
-unable-speak = Nu poți vorbi acum?
 review-instruction = Revezi și reînregistrează secvențe audio dacă este nevoie
 record-submit-tooltip = { $actionType } trimite când ești gata
 clips-uploaded = Secvențe audio încărcate
@@ -628,6 +627,22 @@ listen-last-time-instruction = <playIcon></playIcon>Ultima!
 nothing-to-validate = Nu avem nimic de validat în această limbă. Ajută-ne să umplem acest gol.
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
+
+## Reporting
+
+report = Raportează
+report-title = Trimite un raport
+report-ask = Ce probleme întâmpini cu această propoziție?
+report-grammar-spelling = Greșeală gramaticală / ortografică
+report-grammar-spelling-detail = Propoziția are un limbaj disprețuitor sau ofensator.
+report-wrong-language = Limbă greșită
+report-wrong-language-detail = Propoziția conține o greșeală gramaticală sau ortografică.
+report-difficult-pronounce = Dificilă de pronunțat
+report-other-comment =
+    .placeholder = Comentariu
+success = Succes
+continue = Continuă
+report-success = Raportul a fost transmis cu succes
 
 ## Goals
 
