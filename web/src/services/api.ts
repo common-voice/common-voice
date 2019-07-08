@@ -279,4 +279,8 @@ export default class API {
       }
     );
   }
+
+  report(body: any) {
+    return this.fetch(API_PATH + '/reports', { method: 'POST', body });
+  }
 }

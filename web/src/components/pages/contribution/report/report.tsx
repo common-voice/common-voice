@@ -1,6 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
+import { useAPI } from '../../../../hooks/store-hooks';
 import { isProduction } from '../../../../utility';
 import Modal, { ModalProps } from '../../../modal/modal';
 import { ArrowLeft } from '../../../ui/icons';
@@ -8,7 +9,7 @@ import { Button, Checkbox } from '../../../ui/ui';
 
 import './report.css';
 
-interface ReportProps {
+interface ReportProps extends ModalProps {
   kind: 'clip' | 'sentence';
   id: string;
   reasons: string[];
@@ -26,12 +27,8 @@ const CheckboxRow = ({ children, title, ...props }: any) => (
   </div>
 );
 
-const ReportModal = ({
-  kind,
-  id,
-  reasons,
-  ...props
-}: ReportProps & ModalProps) => {
+let ReportModal = ({ kind, id, reasons, ...props }: ReportProps) => {
+  const api = useAPI();
   const [selectedReasons, setSelectedReasons] = useState<{
     [key: string]: boolean;
   }>({});
@@ -104,7 +101,17 @@ const ReportModal = ({
           otherText == '' ||
           !Object.values(selectedReasons).some(Boolean)
         }
-        onClick={() => setSubmitStatus('submitted')}>
+        onClick={() => {
+          api.report({
+            kind,
+            id,
+            reasons: Object.entries(selectedReasons)
+              .filter(([key, value]) => value)
+              .map(([key]) => key)
+              .concat(otherText || []),
+          });
+          setSubmitStatus('submitted');
+        }}>
         <Localized id="report">
           <span />
         </Localized>

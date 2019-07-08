@@ -126,6 +126,8 @@ export default class API {
 
     router.post('/:locale/downloaders/:email', this.insertDownloader);
 
+    router.post('/reports', this.createReport);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -381,6 +383,11 @@ export default class API {
       client_id,
       query.hasOwnProperty('notification') ? 'notification' : 'award'
     );
+    response.json({});
+  };
+
+  createReport = async ({ client_id, body }: Request, response: Response) => {
+    await this.model.db.createReport(client_id, body);
     response.json({});
   };
 }

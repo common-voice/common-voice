@@ -582,4 +582,24 @@ export default class DB {
       [await getLocaleId(locale), email]
     );
   }
+
+  async createReport(
+    client_id: string,
+    {
+      kind,
+      id,
+      reasons,
+    }: { kind: 'clip' | 'sentence'; id: string; reasons: string[] }
+  ) {
+    const [table, column] =
+      kind == 'clip'
+        ? ['reported_clips', 'clip_id']
+        : ['reported_sentences', 'sentence_id'];
+    for (const reason of reasons) {
+      await this.mysql.query(
+        `INSERT INTO ${table} (client_id, ${column}, reason) VALUES (?, ?, ?)`,
+        [client_id, id, reason]
+      );
+    }
+  }
 }
