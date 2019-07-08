@@ -638,6 +638,7 @@ report-grammar-spelling-detail = Propoziția are un limbaj disprețuitor sau ofe
 report-wrong-language = Limbă greșită
 report-wrong-language-detail = Propoziția conține o greșeală gramaticală sau ortografică.
 report-difficult-pronounce = Dificilă de pronunțat
+report-difficult-pronounce-detail = Aceasta conține cuvinte sau sintagme care sunt dificil de citit sau de pronunțat.
 report-other-comment =
     .placeholder = Comentariu
 success = Succes
