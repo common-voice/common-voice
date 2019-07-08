@@ -621,8 +621,20 @@ share-title-new = <bold>请帮助我们</bold>找到更多声音
 
 ## Reporting
 
+report = 反馈
+report-title = 提交反馈
+report-ask = 该语句存在什么问题？
+report-grammar-spelling = 语法 / 拼写错误
+report-grammar-spelling-detail = 该语句有不尊重或冒犯性的言论。
+report-wrong-language = 错误的语言
+report-wrong-language-detail = 该语句有语法错误或拼写错误。
+report-difficult-pronounce = 难以发音
+report-difficult-pronounce-detail = 其中包含难以阅读或发音的单词或短语。
+report-other-comment =
+    .placeholder = 备注
 success = 成功
 continue = 继续
+report-success = 反馈成功通过
 
 ## Goals
 
