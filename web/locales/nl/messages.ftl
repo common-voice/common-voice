@@ -612,7 +612,6 @@ record-again-instruction = Geweldig! <recordIcon></recordIcon> Neem uw volgende 
 record-again-instruction2 = Ga zo door, neem nog een keer op <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> De laatste!
 review-tooltip = Beoordeel en neem nogmaals fragmenten op als u wilt
-unable-speak = Kunt u nu niet spreken?
 review-instruction = Beoordeel fragmenten en neem ze zo nodig opnieuw op
 record-submit-tooltip = { $actionType } Indienen wanneer gereed
 clips-uploaded = Fragmenten geüpload
@@ -628,6 +627,23 @@ listen-last-time-instruction = <playIcon></playIcon> De laatste!
 nothing-to-validate = Er is niets in deze taal te valideren; help ons de rij te vullen.
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
+
+## Reporting
+
+report = Rapporteren
+report-title = Een rapport verzenden
+report-ask = Welke problemen ervaart u met deze zin?
+report-grammar-spelling = Grammaticale / spellingfout
+report-grammar-spelling-detail = De zin bevat respectloze of beledigende taal.
+report-wrong-language = Verkeerde taal
+report-wrong-language-detail = De zin bevat een grammaticale of spellingfout.
+report-difficult-pronounce = Moeilijk uit te spreken
+report-difficult-pronounce-detail = Het bevat woorden of zinnen die moeilijk zijn te lezen of uit te spreken.
+report-other-comment =
+    .placeholder = Opmerking
+success = Geslaagd
+continue = Doorgaan
+report-success = Rapport met succes doorgegeven
 
 ## Goals
 
