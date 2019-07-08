@@ -385,7 +385,7 @@ review-cancel = Avbryt innsending
 review-keep-recordings = Behald opptaka
 review-delete-recordings = Slett opptaka mine
 
-## New Datasets Page
+## Datasets Page
 
 language = Språk
 # File size in gigabytes
@@ -496,7 +496,6 @@ record-again-instruction = Bra!<recordIcon></recordIcon> Spel inn det neste klip
 record-again-instruction2 = Fortset slik og spel inn ein gong til <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den siste!
 review-tooltip = Her kan du vurdere og spele inn klipp på nytt
-unable-speak = Kan du ikkje snakke inn no?
 review-instruction = Vurder og spel inn klipp på nytt om det trengst
 record-submit-tooltip = { $actionType } send inn når du er klar
 clips-uploaded = Klipp opplasta
@@ -512,6 +511,15 @@ listen-last-time-instruction = <playIcon></playIcon>Det siste!
 nothing-to-validate = Vi har ikkje noko å validere på dette språket. Hjelp oss med å fylle opp køen.
 record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
+
+## Reporting
+
+report = Rapporter
+report-title = Send inn ein rapport
+report-wrong-language = Feil språk
+report-other-comment =
+    .placeholder = Kommentar
+continue = Fortset
 
 ## Goals
 
