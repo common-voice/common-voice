@@ -642,6 +642,7 @@ report-title = Skicka in en rapport
 report-wrong-language = Fel språk
 report-other-comment =
     .placeholder = Kommentar
+success = Lyckades
 continue = Fortsätt
 
 ## Goals
