@@ -622,7 +622,6 @@ record-again-instruction = Fantastysk! <recordIcon></recordIcon> Nim jo folgjend
 record-again-instruction2 = Gean sa troch, nim noch in kear op <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> De lêste!
 review-tooltip = Beoardielje en nim nochris fragminten op as jo wolle
-unable-speak = Kin op dit stuit net sprekke
 review-instruction = Beoardielje en nim nochris fragminten op as jo wolle
 record-submit-tooltip = { $actionType } yntsjinje wannear ree
 clips-uploaded = Clips opladen
@@ -638,6 +637,23 @@ listen-last-time-instruction = <playIcon></playIcon> De lêste!
 nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús de rige te foljen.
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
+
+## Reporting
+
+report = Rapportearje
+report-title = In rapport ferstjoere
+report-ask = Hokker problemen ûnderfine jo mei dizze sin?
+report-grammar-spelling = Grammatikale / staveringsflater
+report-grammar-spelling-detail = De sin befettet respektleaze of beledigjende taal.
+report-wrong-language = Ferkearde taal
+report-wrong-language-detail = De sin befettet in grammatikale of staveringsflater.
+report-difficult-pronounce = Swier om út te sprekken
+report-difficult-pronounce-detail = It befettet wurden of sinnen dy't hurd te lêzen of út te sprekken binne.
+report-other-comment =
+    .placeholder = Opmerking
+success = Slagge
+continue = Trochgean
+report-success = Rapport mei sukses trochjûn
 
 ## Goals
 
