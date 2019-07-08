@@ -632,13 +632,13 @@ share-title-new = <bold>Help ons</bold> meer stemmen te vinden
 
 report = Rapporteren
 report-title = Een rapport verzenden
-report-ask = Welke problemen ervaart u met deze zin?
+report-ask = Welke problemen ondervindt u met deze zin?
 report-grammar-spelling = Grammaticale / spellingfout
 report-grammar-spelling-detail = De zin bevat respectloze of beledigende taal.
 report-wrong-language = Verkeerde taal
 report-wrong-language-detail = De zin bevat een grammaticale of spellingfout.
 report-difficult-pronounce = Moeilijk uit te spreken
-report-difficult-pronounce-detail = Het bevat woorden of zinnen die moeilijk zijn te lezen of uit te spreken.
+report-difficult-pronounce-detail = Hij bevat woorden of zinnen die moeilijk te lezen of uit te spreken zijn.
 report-other-comment =
     .placeholder = Opmerking
 success = Geslaagd
