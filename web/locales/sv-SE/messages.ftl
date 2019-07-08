@@ -619,7 +619,6 @@ record-again-instruction = Bra! <recordIcon></recordIcon> Spela in ditt nästa k
 record-again-instruction2 = Bra jobbat, spela in igen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Sista!
 review-tooltip = Här kan du kontrollera och återuppta inspelningar
-unable-speak = Kan inte prata just nu?
 review-instruction = Om det behövs kan du granska och återuppta inspelningar
 record-submit-tooltip = { $actionType } skicka in när du är redo
 clips-uploaded = Klipp uppladdade
@@ -635,6 +634,15 @@ listen-last-time-instruction = <playIcon></playIcon> Sista!
 nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
+
+## Reporting
+
+report = Rapportera
+report-title = Skicka in en rapport
+report-wrong-language = Fel språk
+report-other-comment =
+    .placeholder = Kommentar
+continue = Fortsätt
 
 ## Goals
 
