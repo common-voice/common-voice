@@ -612,7 +612,6 @@ record-again-instruction = Toll! <recordIcon></recordIcon> Nehmen Sie jetzt noch
 record-again-instruction2 = Weiter so, <recordIcon></recordIcon> erneut aufnehmen
 record-last-instruction = <recordIcon></recordIcon> Einmal noch!
 review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
-unable-speak = Ich kann gerade nicht reden
 review-instruction = Falls nötig, prüfen & neu aufnehmen
 record-submit-tooltip = Senden { $actionType }, wenn Sie fertig sind
 clips-uploaded = Aufzeichnungen hochgeladen
@@ -628,6 +627,23 @@ listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 nothing-to-validate = Es gibt momentan nichts mehr in dieser Sprache, was Sie bestätigen könnten, bitte helfen Sie uns, indem Sie die Warteschlange wieder auffüllen.
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
+
+## Reporting
+
+report = Melden
+report-title = Eine Meldung einreichen
+report-ask = Welche Probleme haben Sie mit diesem Satz?
+report-grammar-spelling = Grammatik- / Rechtschreibfehler
+report-grammar-spelling-detail = Der Satz beinhaltet respektlose oder beleidigende Sprache.
+report-wrong-language = Falsche Sprache
+report-wrong-language-detail = Der Satz hat einen grammatikalischen oder Rechtschreibfehler.
+report-difficult-pronounce = Schwer auszusprechen
+report-difficult-pronounce-detail = Es enthält Wörter oder Ausdrücke, die schwer zu lesen oder auszusprechen sind.
+report-other-comment =
+    .placeholder = Kommentar
+success = Geschafft
+continue = Weiter
+report-success = Die Meldung wurde erfolgreich abgesendet
 
 ## Goals
 
