@@ -608,7 +608,6 @@ record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下下個片�
 record-again-instruction2 = 繼續加油，再錄一筆！<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>最後一筆了！
 review-tooltip = 在此確認或重錄片段
-unable-speak = 現在無法說話
 review-instruction = 確認錄音內容，有需要的話可以重錄
 record-submit-tooltip = 準備好即可{ $actionType }送出
 clips-uploaded = 已上傳片段
@@ -624,6 +623,23 @@ listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
+
+## Reporting
+
+report = 回報
+report-title = 回報問題
+report-ask = 這句話有什麼問題？
+report-grammar-spelling = 文法 / 拼字錯誤
+report-grammar-spelling-detail = 這句話當中有不尊重或冒犯性的內容。
+report-wrong-language = 錯誤內容
+report-wrong-language-detail = 這句話當中有文法或拼字錯誤。
+report-difficult-pronounce = 難以發音
+report-difficult-pronounce-detail = 這句話當中有難以發音的文字或詞彙。
+report-other-comment =
+    .placeholder = 附註
+success = 成功
+continue = 繼續
+report-success = 成功送出回報內容
 
 ## Goals
 
