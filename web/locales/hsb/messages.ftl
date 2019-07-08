@@ -601,7 +601,6 @@ record-again-instruction = Wulkotne! <recordIcon></recordIcon> Natočće swój p
 record-again-instruction2 = Dale tak, <recordIcon></recordIcon> znowa natočić
 record-last-instruction = <recordIcon></recordIcon> Poslednje!
 review-tooltip = Tu móžeće klipy přepruwować a znowa natočić
-unable-speak = Njemóžeće runje rěčeć?
 review-instruction = Klipy přepruwować a znowa natočić, jeli trěbne
 record-submit-tooltip = { $actionType } wotpósłać, hdyž sće hotowy
 clips-uploaded = Natočenja nahrate
@@ -617,6 +616,23 @@ listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 nothing-to-validate = Nimamy ničo, kotrež móžemy w tutej rěči přepruwować, prošu pomhajće nam čakanski rynk pjelnić.
 record-button-label = Nahrajće swój hłós
 share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
+
+## Reporting
+
+report = Rozprawa
+report-title = Rozprawu wotpósłać
+report-ask = Na kotre problemy z tutej sadu storkaće?
+report-grammar-spelling = Gramatiski / prawopisny zmylk
+report-grammar-spelling-detail = Sada ma njezdwórliwu abo pohóršliwu rěč.
+report-wrong-language = Wopačna rěč
+report-wrong-language-detail = Sada ma gramatiski abo pisanski zmylk.
+report-difficult-pronounce = Je ćežko wurjekować
+report-difficult-pronounce-detail = Wobahuje słowa abo frazy, kotrež dadźa so ćežko čitać abo wurjekować.
+report-other-comment =
+    .placeholder = Komentar
+success = Wuspěch
+continue = Dale
+report-success = Rozprawa je so wuspěšnje wotpósłała
 
 ## Goals
 
