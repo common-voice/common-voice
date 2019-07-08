@@ -639,11 +639,18 @@ share-title-new = <bold>Hjälp oss</bold> hitta mer röster
 
 report = Rapportera
 report-title = Skicka in en rapport
+report-ask = Vilka problem upplever du med den här meningen?
+report-grammar-spelling = Grammatiskt / stavfel
+report-grammar-spelling-detail = Meningen har respektlöst eller kränkande språk.
 report-wrong-language = Fel språk
+report-wrong-language-detail = Meningen har ett grammatiskt eller stavfel.
+report-difficult-pronounce = Svårt att uttala
+report-difficult-pronounce-detail = Den innehåller ord eller fraser som är svåra att läsa eller uttala.
 report-other-comment =
     .placeholder = Kommentar
 success = Lyckades
 continue = Fortsätt
+report-success = Rapporten godkändes framgångsrikt
 
 ## Goals
 
