@@ -600,7 +600,6 @@ record-again-instruction = Wjelicny!<recordIcon></recordIcon> Nagrajśo swój p�
 record-again-instruction2 = Dalej tak, <recordIcon></recordIcon> znowego nagraś
 record-last-instruction = <recordIcon></recordIcon> Slědne!
 review-tooltip = How móžośo klipy pśeglědowaś a znowego nagraś
-unable-speak = Njamóžośo rowno powědaś?
 review-instruction = Klipy pśeglědowaś a znowego nagraś, jolic trěbne
 record-submit-tooltip = { $actionType } wótpósłaś, gaž sćo gótowy
 clips-uploaded = Klipy nagrate
@@ -616,6 +615,23 @@ listen-last-time-instruction = <playIcon></playIcon> Slědny!
 nothing-to-validate = Njamamy nico, kótarež móžomy w toś tej rěcy pśekontrolěrowaś, pšosym pomagajśo nam cakański rěd połniś.
 record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
+
+## Reporting
+
+report = Rozpšawa
+report-title = Rozpšawu wótpósłaś
+report-ask = Na kótare problemy z toś teju sadu starcyjośo?
+report-grammar-spelling = Gramatiska / pšawopisna zmólka
+report-grammar-spelling-detail = Sada ma njezdwórliwu abo njepśistojnu rěc.
+report-wrong-language = Wopacna rěc
+report-wrong-language-detail = Sada ma gramatisku abo pisańsku zmólku.
+report-difficult-pronounce = Jo śěžko wugroniś
+report-difficult-pronounce-detail = Wopśimujo słowa abo fraze, kótarež daju se śěžko cytaś abo wugroniś.
+report-other-comment =
+    .placeholder = Komentar
+success = Wuspěch
+continue = Dalej
+report-success = Rozpšawa jo se wuspěšnje wótpósłała
 
 ## Goals
 
