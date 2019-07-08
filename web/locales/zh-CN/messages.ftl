@@ -603,7 +603,6 @@ record-again-instruction = 太棒了！<recordIcon></recordIcon> 来录制下一
 record-again-instruction2 = 继续加油，再录一次 <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> 最后一个！
 review-tooltip = 在此确认或重新录制片段
-unable-speak = 现在无法朗读
 review-instruction = 确认录音内容，有需要的话可以重录
 record-submit-tooltip = { $actionType } 确认无误即可提交
 clips-uploaded = 片段已上传
@@ -619,6 +618,11 @@ listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 nothing-to-validate = 我们没有这个语言可供验证的录音，请帮助我们多录一些。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
+
+## Reporting
+
+success = 成功
+continue = 继续
 
 ## Goals
 
