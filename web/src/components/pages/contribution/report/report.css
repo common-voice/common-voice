@@ -1,6 +1,9 @@
 @import url('../../../vars.css');
 
 .report-modal {
+    max-height: 100vh;
+    overflow: auto;
+
     @media (--md-up) {
         padding: 60px 130px !important;
         max-width: 775px !important;
