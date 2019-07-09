@@ -172,10 +172,6 @@ button.card-action:focus.focus-visible path {
         position: absolute;
         top: -6px;
         pointer-events: none;
-
-        & path {
-            fill: var(--near-black);
-        }
     }
 
     & input:checked ~ .checkmark {
