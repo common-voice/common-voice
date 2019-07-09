@@ -605,7 +605,6 @@ record-again-instruction = მშვენიერია! <recordIcon></recordI
 record-again-instruction2 = ასე განაგრძეთ, კვლავ ჩაწერეთ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ბოლო!
 review-tooltip = აქედან შეგიძლიათ შეამოწმოთ და ხელახლა შექმნათ ჩანაწერები
-unable-speak = ვერ ხერხდება ამჟამად, ჩაწერა?
 review-instruction = შეამოწმეთ ჩანაწერები ან ხელახლა ჩაწერეთ, თუ საჭიროა
 record-submit-tooltip = { $actionType } გადაგზავნას როცა მზად იქნებით
 clips-uploaded = ჩანაწერები ატვირთულია
@@ -621,6 +620,23 @@ listen-last-time-instruction = <playIcon></playIcon> ბოლო!
 nothing-to-validate = ამ ენაზე შესამოწმებელი არაფერია, დაგვეხმარეთ მასალების შევსებაში.
 record-button-label = ჩაწერეთ თქვენი ხმა
 share-title-new = <bold>დაგვეხმარეთ</bold> ხმების მოძიებაში
+
+## Reporting
+
+report = მოხსენება
+report-title = მოხსენების გაგზავნა
+report-ask = რა ხარვეზს გადააწყდით წინადადებაში?
+report-grammar-spelling = გრამატიკული / მართლწერის შეცდომა
+report-grammar-spelling-detail = წინადადება შეუსაბამო ან უხამსი შინაარსისაა.
+report-wrong-language = არასწორ ენაზეა
+report-wrong-language-detail = წინადადებაში გრამატიკული და მართლწერის შეცდომებია.
+report-difficult-pronounce = რთულად წარმოსათქმელია
+report-difficult-pronounce-detail = შეიცავს სიტყვებს ან ფრაზებს, რომლებიც ძნელად იკითხება ან წარმოითქმის.
+report-other-comment =
+    .placeholder = შენიშვნა
+success = შესრულდა
+continue = გაგრძელება
+report-success = მოხსენება წარმატებით გაიგზავნა
 
 ## Goals
 
