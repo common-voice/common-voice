@@ -516,20 +516,6 @@ class SpeakPage extends React.Component<Props, State> {
         <ContributionPage
           activeIndex={recordingIndex}
           errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
-          extraButton={
-            recordingIndex != -1 && (
-              <ReportButton
-                reasons={[
-                  'offensive-language',
-                  'grammar-or-spelling',
-                  'different-language',
-                  'difficult-pronounce',
-                ]}
-                kind="sentence"
-                id={clips[recordingIndex].sentence.id}
-              />
-            )
-          }
           instruction={props =>
             error ? (
               <div className="error">
@@ -595,6 +581,16 @@ class SpeakPage extends React.Component<Props, State> {
               )}
             </RecordingPill>
           ))}
+          reportModalProps={{
+            reasons: [
+              'offensive-language',
+              'grammar-or-spelling',
+              'different-language',
+              'difficult-pronounce',
+            ],
+            kind: 'sentence',
+            id: recordingIndex == -1 ? null : clips[recordingIndex].sentence.id,
+          }}
           sentences={clips.map(({ sentence }) => sentence && sentence.text)}
           shortcuts={[
             {

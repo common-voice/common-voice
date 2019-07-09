@@ -220,19 +220,6 @@ class ListenPage extends React.Component<Props, State> {
               </div>
             )
           }
-          extraButton={
-            activeClip && (
-              <ReportButton
-                reasons={[
-                  'offensive-speech',
-                  'grammar-or-spelling',
-                  'different-language',
-                ]}
-                kind="clip"
-                id={activeClip.id}
-              />
-            )
-          }
           instruction={props =>
             activeClip &&
             !isPlaying &&
@@ -295,6 +282,15 @@ class ListenPage extends React.Component<Props, State> {
               );
             }
           )}
+          reportModalProps={{
+            reasons: [
+              'offensive-speech',
+              'grammar-or-spelling',
+              'different-language',
+            ],
+            kind: 'clip',
+            id: activeClip ? activeClip.id : null,
+          }}
           sentences={clips.map(clip => clip.sentence)}
           shortcuts={[
             {
