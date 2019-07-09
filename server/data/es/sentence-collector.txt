@@ -2,6 +2,7 @@
 " la Dalila " quizá permanezca en el puerto:
 A Dios rogando y con el mazo dando.
 A Dios, al padre y al maestro, tenga el niño gran respeto.
+A beberse las lágrimas que llora la montaña.
 A buen caballo buen jinete.
 A buen entendedor, pocas palabras bastan.
 A buen hambre no hay pan duro.
@@ -21,6 +22,7 @@ A falta de caballos que troten los asnos.
 A falta de hombres buenos, a mi padre hicieron alcalde.
 A falta de pan, buenas son tortas.
 A grandes males, grandes remedios.
+A inspirarnos sencillos y tiernos madrigales.
 A la cama no te irás sin saber una cosa más.
 A la cara más fea, la alegría la hermosea.
 A la chita callando, hay quien se va aprovechando.
@@ -44,6 +46,7 @@ A quien madruga, dios le ayuda.
 A quien mucho miente, le huye la gente.
 A quien no le sobra pan, no críe can.
 A quien trabaja, el día nunca le parece largo.
+A qué buscar la dicha por suelos extranjeros.
 A río revuelto, ganancia de pescadores.
 A salvar el día.
 A sereno otoño, invierno ventoso.
@@ -111,6 +114,7 @@ Ainhoa y yo estamos juntos. pues has aguantado mucho
 Ajo, cebolla y limón y déjate de inyección.
 Al alguacil local y yo parecemos estar en algún tipo de estación de combustible.
 Al amigo y al caballo, no hay que cansarlos.
+Al borde del estanque, y al doblar la testuz.
 Al buen entendedor, pocas palabras bastan.
 Al buen pagador no le duelen prendas.
 Al caballo más manso le ponen más montura.
@@ -132,6 +136,7 @@ Al saber lo llaman suerte.
 Alcalde tonto, sentencia pronto.
 Alegría, belleza cría.
 Alfredo Espino murió en San Salvador.
+Alfredo Espino nació en Ahuachapán en enero.
 Alguacil, puedo ver su morada desde aquí. Ya casi está en casa .
 Alguien ha envenenado el charco.
 Alguien vendrá que bueno te hará.
@@ -156,6 +161,7 @@ Aprender a sonreír es aprender a ser libres.
 Aprendiz de mucho, maestro de nada.
 Aquí abundan las cigüeñas.
 Aquí hay gato encerrado.
+Aquí he visto una cosa muy más dulce y extraña.
 Aquí mismo en la camioneta. Estoy seguro que está allí .
 Arranca el ventilador.
 Arrancada de caballo y parada de asno.
@@ -260,7 +266,9 @@ Colaborar siempre en algún proyecto.
 Come para vivir y no vivas para comer.
 Come poco y cena más, duerme en alto y vivirás.
 Comer sopas y sorber, no puede ser.
+Como es la de haber visto llorando una montaña.
 Como se vive, se muere.
+Como si una tormenta rodara por la cuesta.
 Como te quiero yo
 Como un aerogenerador.
 Como un ave por el cielo
@@ -317,6 +325,7 @@ Cuanto más seamos, menos teca nos tocará por barba.
 Cuanto más tienes más quieres.
 Cuenta hasta diez e intenta no echar más leña al fuego.
 Cuentas claras, amistades largas.
+Cumbres, divinas cumbres, excelsos miradores.
 Córcholis, mejor me afeito.
 Da siempre lo mejor de ti y el resto vendrá.
 Dale cuerda a la rana.
@@ -340,6 +349,7 @@ De la actual situación política no quiero saber nada.
 De momento, continúan las protestas.
 De músico, poeta y loco, todos tenemos un poco.
 De noche todos los gatos son pardos.
+De púrpura y de nácar, donde muere la aurora.
 De repente escuchamos un ruido enorme.
 De repente se encontró haciendo de ministro.
 De tal palo tal astilla.
@@ -363,6 +373,8 @@ Demasiado corto. Necesitamos más monos .
 Demasiado pastel y demasiado helado, supongo. ¡ es un error!
 Demasiados dulces y helados. Sólo es un error .
 Dentro de un rato conectarán en directo con la rueda de prensa.
+Desciende a las estancias de pálidos poetas.
+Desciende coronada de plumas de quetzales.
 Desde ayer que la tía no se encuentra demasiado bien.
 Después de comer en Sort, subiremos en Esterri d'Àneu, y haremos noche.
 Después de comer siempre me apetece tomarme un café con leche.
@@ -376,6 +388,7 @@ Dicen que este año el exámen ha sido más difícil que nunca.
 Dicen que este año será año de setas.
 Dicen que la música calma a las fieras.
 Dichos parecían morcillas.
+Diciembre las miríadas de todos sus luceros.
 Diez, nueve , ocho , siete...
 Digamos todos adiós, casa.
 Dijo el gitano, pleitos te dé Dios, y los ganes.
@@ -413,6 +426,7 @@ El Salvador se encuentra en centromerica y es un buen país.
 El aborto es una acción.
 El abril, aguas mil
 El agrado en la persona, cuantos bienes proporciona.
+El agua brota lenta, y en su remanso brilla.
 El aire no es tóxico.
 El amigo, lo escojo yo, el pariente, no.
 El anterior era Marta.
@@ -618,7 +632,9 @@ En mi nave de plata navego yo.
 En mis tiempos, todo esto era campo.
 En mucho más se ha de estimar un diente que un diamante.
 En noviembre tomaremos una castaña que no te la puedes ni imaginar.
+En nuestra musa autóctona que habita en las glorietas
 En perro flaco todo son pulgas.
+En poemas que pertenecen a nuevas y viejas generaciones.
 En prisión y enfermedad, se conoce la amistad.
 En realidad a los toros no les enfada el color rojo.
 En septiembre iremos a cosechar por José de Carro.
@@ -676,6 +692,7 @@ Es la mejor tortilla de patatas que he probado nunca.
 Es mi escritor preferido.
 Es muy nervioso.
 Es más fácil estudiar un idioma cuando eres un niño.
+Es nuestra indiana musa que, desde su cabaña.
 Es porque eres un juguete. Eres su juguete .
 Es respirable. No veo indicios de vida inteligente .
 Es un asunto que no tiene ninguna trascendencia.
@@ -725,6 +742,7 @@ Esta semana voy a entrar media hora antes cada día.
 Esta tarde he estado dándole una segunda vida a mi viejo ordenador.
 Esta tarde la ciudad era un caos.
 Esta tarde saldremos de compras.
+Esta tarde, en la cumbre, casi las he tenido.
 Esta vez casi me asustas.
 Estaba en la cima del mundo viviendo bien
 Estaba justo en mi bolsillo ¡ uau!
@@ -900,6 +918,7 @@ Hay vigilancia. Necesitamos un modo de entrar .
 Haz bien y no mires a quien.
 Haz promoción del apartamento y seguro que te lo alquilarán.
 Haz un esfuerzo por no llorar, ¡Olga!
+He aquí, pues, una nueva edición de Jicaras tristes.
 He cambiado mi láser de aturdir a matar.
 He comprado un escáner de bolígrafo.
 He ido al médico dos veces este mes.
@@ -1042,6 +1061,7 @@ La jungla es un lugar peligroso.
 La justicia ha archivado el caso.
 La lengua no tiene hueso, pero corta lo más grueso.
 La lingüística es una materia hecha de palabras.
+La luz; un ternerito viene, y luego se arrodilla.
 La magia no me gusta mucho.
 La manifestación de los corsetera me cogió desprevenido.
 La manifestación ha acabado sin incidentes.
@@ -1097,6 +1117,7 @@ La sierra de Pàndols fue testigo de batallas sangrientas.
 La subida a la ermita se hacía de rodillas.
 La tasca de Telma siempre tenía parroquianos.
 La temporada de fútbol comienza antes de que acabe la anterior temporada de fútbol.
+La temática de Alfredo Espino está hecha de todas las cosas.
 La tercera planta es de infecciosos.
 La ternera de Mollerussa tiene un gustito especial.
 La vecina del cuarto es un caso como un capazo.
@@ -1183,6 +1204,7 @@ Lo que no mata, engorda.
 Lo que no se empieza, no se acaba.
 Lo que poco cuesta poco se aprecia.
 Lo que uno no quiere el otro lo desea.
+Lo rastrero no sube: esta cumbre es el reino.
 Lo siento, pensé que ibais...
 Lo siento. Es que me pongo me pongo tan nervioso antes de viajar .
 Lo siento. Es que me pongo muy nervioso antes de viajar .
@@ -1350,6 +1372,7 @@ Mira, en esa casa hay un niño que piensa que eres lo mejor.
 Mira, ya han vuelto.
 Mira adelante y no caerás atrás.
 Mira un insecto
+Miramos los corrales donde mugen las vacas.
 Mireia, ¡pásame los tapones!
 Mis abuelos se conocieron yendo a cosechar uvas.
 Mis abuelos vivieron en la guerra.
@@ -1446,6 +1469,8 @@ Necoxtla está en mi camino.
 Negativo. No hay arneses de restricción en el área de carga .
 Neus rechazó todos los honores.
 Ni el aire podremos respirar gratis.
+Ni el clamor desbordante de las malas pasiones.
+Ni el grito horripilante con que aúlla el deseo.
 Ni la actualidad trepidante le distraía cuando leía poesía.
 Ni primavera sin golondrina, ni despensa sin harina.
 Ni siquiera pienses en eso, vaquero. ¿ O sí , muchacho rudo?
@@ -1468,6 +1493,7 @@ No creo que este hombre alguna vez haya ido a la escuela médica.
 No da quien tiene, sino quien quiere.
 No deberíamos darle la oportunidad.
 No deberíamos leer tanto.
+No del Pagano Monte la musa inspiradora.
 No enfurezcas al gancho. ¿ Qué hacéis? ¡ Basta, fanáticos!
 No era mi intención.
 No es como éste.
@@ -1603,6 +1629,7 @@ Nunca nos ha fallado.
 Nunca vi mayor afán, que muchos hijos y poco pan.
 Nuria fuma farias.
 Obras son amores y no buenas razones.
+Octubre nos regala sus rosas y vesperales.
 Odio interrumpir la reunión, pero... ¡ ya están aquí!
 Oh, genial. ¿ cómo voy a convencer a los muchachos que fue un accidente?
 Oh, lo está poniendo al revés. ¡ Lo estás lo estás poniendo al revés!
@@ -1614,6 +1641,7 @@ Oh. Oh, eso es bueno . pero no estamos en mi planeta .
 Ojalá haya bastantes sillas.
 Ojalá no llueva durante las vacaciones.
 Ojos que no ven, corazón que no siente.
+Olorosos a selva y a flores de montaña.
 Orden y prisa no son de la misma familia.
 Ordénalas por orden alfabético.
 Os dije que era culpable.
@@ -1705,6 +1733,7 @@ Podemos leer el porvenir mirando el pasado.
 Podes hacer enojar a la pinza. ¿ qué está haciendo? ¡ basta!
 Podremos encontrar la manera de transportarte a tu casa.
 Podríamos ir a Figureros antes de la fiesta mayor, ¿Luisa?
+Poesía que no conoce tiempo...
 Pon una canción de Doctor Prats para animarles.
 Ponme doscientos cincuenta gramos de jamón dulce.
 Ponte en pie, alza el puño y ven a la fiesta pagana.
@@ -1712,6 +1741,7 @@ Por San Blas, la cigüeña verás; y si no la vieres año de nieves.
 Por San Matías se igualan las noches y los días.
 Por Santa Catalina, la nieve en la cocina.
 Por Todos los Santos, la nieve en los altos.
+Por beber agua limpia, bebe agua y bebe luz.
 Por el hilo se saca el ovillo.
 Por el humo se sabe donde está el fuego.
 Por el puente de la Purísima iremos a Finlandia.
@@ -1759,7 +1789,9 @@ Que la venganza no es una idea que promocionemos en mi planeta.
 Que lo dejé ahí.
 Que los pilotos aéreos hagan huelga durante el verano, ya es un clásico.
 Que montón de cosas hay en esta página.
+Que más bien está en el trasfondo de cada uno de sus poemas.
 Que se alce el telón.
+Que si no hiera un mar, bien sería otro cielo.
 Que sueñes con los angelitos.
 Que te afecte es malo.
 Que vienes ¿de Arbeca?
@@ -1912,6 +1944,8 @@ Si quieres con tu familia reñir, echa algo a repartir.
 Si quieres que te siga el can, dale pan.
 Si quieres vivir sano, madruga en el verano.
 Si tarda mucho ya no estaremos a tiempo.
+Si tenemos diciembres cuajados de luceros.
+Si tenemos octubres preñados de ilusiones.
 Si termino temprano, iré a mirar ropa.
 Si tuviera buena conectividad iría un poco más deprisa.
 Si vas a Nueva York te recomiendo que vayas a ver un musical.
@@ -1929,6 +1963,7 @@ Siempre pagan justos por pecadores.
 Siempre quiere tener razón.
 Siempre tiene tiempo para todo.
 Siento que alguien me está mirando ahora mismo.
+Silos natales vientos en sus ligeras alas
 Sin duda Alfredo Espino es un poeta cautivador.
 Sin solidaridad no somos nada.
 Sin ti no lo habríamos conseguido.
@@ -1957,6 +1992,7 @@ Su comida favorita es la tortilla con cebolla.
 Su hija se llamaba Selene.
 Su padre hacía de camello y su madre de mula.
 Su primo es juez.
+Su sensibilidad capta el paisaje y el ambiente salvadoreño.
 Su sueño era regentar una taberna.
 Subamos atrás. Ahí no nos verá nadie .
 Suegros, ricos y tacaños, no se mueren ni en cien años.
@@ -2062,6 +2098,7 @@ Trabajaba en la oficina del fiscal.
 Trabajar es virtud; pero trabaja tú.
 Trabajas menos que la chaqueta de un guardia.
 Trabajo de común, trabajo de ningún.
+Traen ecos perdidos de músicas de arroyos.
 Tranquilo. Todo está bajo control .
 Tranquilos, saben hacer su trabajo.
 Tronada lejana, lluvia cercana.
@@ -2114,6 +2151,7 @@ Una declaración de principios es exigible, en este caso.
 Una figura emergente nos eclipsará enseguida.
 Una imagen vale más que mil palabras.
 Una manzana cada día, el médico te ahorraría.
+Una obra juvenil escrita junto al latido del corazón del pueblo.
 Una palabra deja caer una casa.
 Una pantalla de marca buena nunca falla.
 Una retirada a tiempo es una victoria.
@@ -2180,15 +2218,21 @@ Walter y Skyler White deberían tener una estatua humana en la Rambla.
 Y ahora, de pronto , cosas extrañas me suceden
 Y ahora, vacía esa caja fuerte.
 Y cuando lleguemos allí, encontraremos un modo de llevarte a tu hogar.
+Y entre un intenso aroma de lirios y albahacas.
 Y es el único que tengo.
 Y estoy haciendo lo mejor que puedo
 Y estás a millas y millas de tu bonita y tibia cama.
 Y hago lo que puedo para superarlo.
+Y lo devuelve con fuerza expresiva, sin olvidar la ternura.
 Y lo hace tan descriptivo, que hace que el lector, al leer sus versos.
+Y luego se oye un ruido por lomas y floresta.
 Y me hubieras quitado todo lo que era importante para mí
+Y música de nidos, como mansos instrumentos.
 Y nadie me lo va a arrebatar.
 Y no parece haber ningún signo de vida inteligente. ¡ Hola!
 Y no pueden enseñarte nada nuevo, nada nuevo.
+Y oímos las estrofas del murmurante río.
+Y qué asco y qué tristeza comenzar a bajar.
 Y si nos gusta la zona podemos quedarnos un par de añitos.
 Y si vamos a comprar antes de ir a la playa.
 Y sienta el olor de la tierra, el aroma de las flores.
@@ -5970,6 +6014,8 @@ yo ya no puedo estar contigo.
 ¡Cuánto tiempo sin verte!
 ¡Cuéntame uno de esos cuentos tan tristes!
 ¡De la exposición no quiero saber nada más!
+¡Desde aquí veo el mar, tan azul, tan dormido!
+¡Dos alas!... ¡Quién tuviera dos alas para el vuelo!
 ¡El sábado iré a Valls!
 ¡Elías ha ganado un premio!
 ¡Eres el mejor!
@@ -6017,6 +6063,7 @@ yo ya no puedo estar contigo.
 ¡Qué mañana más asquerosa que hace!
 ¡Qué miedo!
 ¡Qué palo de anuncios que pasan en el cine!
+¡Qué pequeños los hombres!
 ¡Qué pereza!
 ¡Qué pérdida de interés tan grande, Manolo!
 ¡Qué viajes que hace el rubio!

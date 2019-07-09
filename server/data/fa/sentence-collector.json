@@ -1,5 +1,23 @@
 [
   {
+    "valid": ["dehghaniomid", "alikhakbaz", "roxima"],
+    "source": "http://platelets.blog.ir/",
+    "invalid": [],
+    "approved": true,
+    "sentence": "آدم ها از نژاد های متفاوتی، با جنسیت های متفاوتی به دنیا میان،",
+    "username": "dehghaniomid",
+    "createdAt": 1555417251820,
+    "approvalDate": 1562182758489,
+    "Sentences_Meta_UserVote_roxima": true,
+    "Sentences_Meta_UserVoteDate_roxima": 1562182758489,
+    "Sentences_Meta_UserVote_alikhakbaz": true,
+    "Sentences_Meta_UserVote_dehghaniomid": true,
+    "Sentences_Meta_UserVoteDate_alikhakbaz": 1557794860547,
+    "Sentences_Meta_UserVoteDate_dehghaniomid": 1555417308176,
+    "id": "57d956dd76efb85edcb0f844e5e3b0e2dd4768ec552c1feacdf7b7b10b0622ed",
+    "last_modified": 1562182760391
+  },
+  {
     "valid": ["dehghaniomid", "medise", "alikhakbaz"],
     "source": "http://platelets.blog.ir/",
     "invalid": [],

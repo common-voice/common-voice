@@ -1,26 +1,42 @@
 "Makdonaldā" ienesis šnabi! Lielisks pirmais randiņš.
 Abas jāatslēdz vienlaicīgi.
+Absolūta nāves mašīna.
 Acis kāro, sirds nepieņem.
+Acis par daudz uzmālētas, bet skaisti.
 Acs nobrīnās, roka padara.
 Acs pret aci, zobs pret zobu.
 Acīmredzot neesam.
 Agri dzēris, agri mirs.
 Agri vai vēlu tomēr jāpamostas.
+Aicināju, jo esi mans labākais draugs.
 Aiz šīs sienas.
 Aizcirst slazdu.
+Aizej vienreiz kaut kur kopā ar mani.
 Aiziet pa gaisu!
+Aiziet!
 Aiziet, aiziet! Veicīgāk!
+Aiziet, aiziet, aiziet!
 Aiziet. Es tevi noķeršu.
 Aiziešu pēc saldējuma. Tev paņemt?
 Aizjozīšu turp un atpakaļ.
+Aizkadra baumas citādi neuzzinātu.
 Aizliegts auglis ir salds.
 Aizslēdziet durvis!
+Aizstieptu uz pagrabu un lēnām grieztu gabalos.
+Aizstāsi mani uz brīdi? Jāaiziet uz žani.
 Aizturiet elpu. Jums tā būs nepieciešama.
 Aizvedīšu tevi līdz vannai.
 Aizveries, tev saka!
 Aizvien jauneklīgs! Jūsu vecumā...
 Aizvāc to!
 Aizvāc, tev saka!
+Ak kungs!
+Ak kungs! Sasodīti liels nams!
+Ak kungs, Amerika iet bojā.
+Ak kungs, cik ērmīgas zivis.
+Ak kungs, ir slikti?
+Ak kungs, jā!
+Ak kungs, nosmērēju īkšķi!
 Ak mūžs!
 Ak tagad gribi runāt, zilacīt?
 Ak! Mana mīļā.
@@ -36,14 +52,22 @@ Apkrāpt nāvi ir pratis tikai viens.
 Aplaupīti trīs dzīvokļi elitārā namā!
 Apnicis. Lai zina, ka esam precējušies.
 Apraksti viņu sīkāk!
+Aprunāsimies? Kā tevi sauc?
 Apsardzes priekšnieks.
 Apskaties kartē.
 Apskauj mani, tāpat kā toreiz pie ezera, kad nebija nekā cita, tik mūsu mīlestība.
+Apskauj mani.
+Apskausimies. Nu taču.
+Apskausimies. Panāc šurp.
+Apskaut šaujamo?
+Apspriedīsim to citreiz, nevis gadadienā?
+Apstājies! Tie ir viņi, griez riņķī!
 Apsveic mani.
 Apsēdies, lūdzu.
 Apsūdzības atsauktas.
 Apžēliņ! Pārkārtojies!
 Apžēliņ! Tas ir viņš.
+Apžēliņ.
 Ar atgriešanos.
 Ar cita sviedriem tālu netiksi.
 Ar dzīvokļu remontiem, brāl.
@@ -56,9 +80,12 @@ Ar labunakti mīlumiņ.
 Ar netaisnību pasauli iziesi, bet atpakaļ netiksi.
 Ar otra rokām var kvēlošas ogles rušināt.
 Ar perfekti izteiktu garšu.
+Ar pēdējo draugu piedzīvoju ko līdzīgu.
 Ar sievu un bērnu uz Melnkalni!
 Ar sāli paēdis nebūsi, ar domām bēdas neizkliedēsi.
+Ar tevi?
 Ar to par visu tiek maksāts.
+Ar to roku ēst vairs netaisīsi!
 Ar tādu attieksmi nudien ne.
 Ar vadītāju dalīsimies?
 Ar varu otram mīļš nebūsi.
@@ -72,14 +99,18 @@ Arī man to nevajag.
 Arī visgarākajam ceļam reiz pienāk gals.
 Asa mēle griež vairāk nekā nazis.
 Ass cirvis ātri atcērtas.
+Ass kā elektriskais zobens, visu nocērt.
 Astes dēļ var aiziet bojā galva.
 Astotā ir brīva.
 Atbrīvojiet vietu zvaigznēm.
 Atceries pirmās mācības.
 Atceries savu pirmo reizi?
+Atceries, viņdien teicu, cik Sandai lieliski izskatās mati.
 Atcerieties savu uzdevumu.
 Atcerieties to ik mirkli.
 Atceros, kad tev to uzdāvināju.
+Atdod mašīnas atslēgas.
+Atgriezīšos pēc pusstundas.
 Atgādina ik dienas, kas mūs tur ārā sagaida.
 Atkal bija atvests pašdzītais spirts.
 Atkal biji internetā?
@@ -90,8 +121,13 @@ Atkarīgs no tā, vai varam ko sarunāt.
 Atlikt uguni! Tas nelīdz.
 Atnes vairākas, lai varu izvēlēties.
 Atoms liek kļūt pazemīgam.
+Atpūtināšu žokli un pasaukšu draugu.
+Atradīsim labāku vietu, kur kaifot.
+Atrasti pazudušie tūristi.
+Atrodi darbu, svinēsim pēc tam.
 Atrodi kancleru!
 Atsienies!
+Atskrien gan.
 Atslābinies un ne par ko nedomā.
 Atslābsti, es neesmu kruķis.
 Atslābsti, tu mani uztrauc.
@@ -102,11 +138,16 @@ Atsprādzēt stiprinājumus! Viena minūte!
 Atstrādājiet čunguru!
 Atstāj man to un mēs būsim draugi.
 Atstājiet mūs vienus.
+Atsūtīsi turpinājumu pa e-pastu?
+Atvaino. Neredzēju tevi. Nejauši gadījās.
+Atvainojiet, ka traucēju, bet mēs ar dēlu apbrīnojam jūsu lāci.
 Atvainojiet, kas esat jūs?
 Atvainojiet, rezultāts ir zināms.
+Atvainojiet.
 Atvainojos par šo. Mums vajadzēja parunāt ar tevi.
 Atver durvis!
 Atver lūkas.
+Atvilkšu no algas par auto un kavēšanos.
 Atvēru bagāžnieku no salona.
 Atzīšanās ir ceļš uz labošanos.
 Atļauj iepazīstināt. Šī ir Betija.
@@ -116,6 +157,7 @@ Austrumu puslodē lielākās antikvāro priekšmetu kolekcijas īpašnieks.
 Autobusu pieturā.
 Bada laikā pat vilks lasa dzērveņu ogas.
 Bads māca lūgties, trūkums diedelēt.
+Bagātinājis mūsu aktiermākslas izpratni.
 Bagāts dara kā grib, nabags kā var.
 Bagāts dara, kā grib, nabags kā var.
 Bagāts nabagam nav brālis.
@@ -124,10 +166,16 @@ Baidās kā velns no krusta.
 Bailes aizmiglo apziņu.
 Bailēm lielas acis.
 Bailīgs pats no savas ēnas mūk.
+Ballēsimies kā astoņdesmitajos gados.
 Balta ķēve jāmazgā, skaista sieva jāsargā.
 Bargi kungi ilgi nevalda.
 Baumoja, ka tu esot nogalināts.
+Beidz ālēties!
 Beidz, esmu lietpratējs.
+Beidzot bija pienācis Ziemassvētku rīts.
+Beidzot kādam tevi jānovērtē.
+Beidzot.
+Beidzās mana sasodītā dzīve!
 Beigas labas, viss labs.
 Ber kā caurā maisā.
 Bet es gribu.
@@ -154,30 +202,48 @@ Bez darba nekas no gaisa nebirst.
 Bez jokiem?
 Bez lietus nav auglības, bez asarām nav laimes.
 Bezkauņam visi pliki, tik viņš pats apģērbts.
+Bija Ziemassvētku vakars, un visi bērni līksmoja.
 Bija auksts, un uz zemes bija sniegs.
 Bija jauki jūs satikt.
 Bija kāds interesants?
+Bija vēl tikai trīs veidi.
 Biju gaidījis, ka tik slavens vīrs būs drusku vecāks.
+Bijusī slavenība pieķerta ar sēnēm.
+Bijusī zvaigzne strādā par minimālo algu.
+Bijām kopā astoņus mēnešus, mīlēju viņu.
 Bitīt matos.
+Blakus dzīvoklī aziātu ģimene.
 Blakus kafejnīcām.
+Blēņas! Labi der.
+Blēņas! Tīrās blēņas!
 Braucam ātrāk prom no šejienes!
 Braucu saņemt pasūtījumu.
 Braukšu agrāk un sagatavošu bērnistabu.
 Bremzē. Es negribu.
+Briesmīga iedoma. Pasaulē ir krīze.
 Brīnišķīgi. Par to ir jāiedzer.
+Burgeri ar tītara gaļu.
 Bārs ir atvērts visiem.
+Bērni priecīgi izsaiņoja dāvanas.
 Bērniņš pārvērtīs mūsu dzīvi.
 Bērnu dienās daudz par to dzirdējām, bet nebiju domājis, ka kādreiz turp došos.
+Bērnu klātbūtnē nedrīkst lamāties.
+Bērnībā es nebiju cieņā.
 Bīstami savest viņus tik cieši kopā.
 Bļāviens! Nedēļu nebiju smēķējis.
 Bļāviens, galva sāp.
 Bļāviens, viņus reāli varēja piečakarēt.
 Būs neveikli.
 Būsim godīgi. šodien tu biji varonis.
+Būsim visi labākie draugi.
 Būtu jāapmainās ar polisēm.
 Būtu pie kā pieturēties.
 Būtībā viss ir pa pirmo.
+Būšu astoņos.
+Centies rīt izturēties atbildīgāk.
 Cepti zvirbuļi paši mutē neskrien.
+Cerams, mēs paliksim draugi.
+Ceri, ka netiksi sodīts par nolaupīšanu?
 Ceru, ka tev taisnība.
 Ceru, ka tu man uzticies.
 Cieni citus, tad citi tevi cienīs.
@@ -190,6 +256,8 @@ Cik labs priekšnieks!
 Cik liela ir tava pieredze darbā laboratorijā?
 Cik mīļi.
 Cik necilvēcīgi.
+Cik pretīgi!
+Cik reižu esmu teicis, ka šie skaitļi neiet kopā.
 Cik skaisti!
 Cik tas ir jauki.
 Cilvēks aiziet, viņa darbs paliek.
@@ -206,6 +274,7 @@ Dabū gatavus zilus brīnumus.
 Dabūja ko pelnījis.
 Dabūjiet prom, es viņam palīdzēšu.
 Dabūjis ar elektrošoku.
+Dabūju viņu tavā vecumā.
 Dalīta bēda ir pusbēda, dalīts prieks ir dubultprieks.
 Darbam sūras saknes, bet saldi augļi.
 Darbs ceļ, slinkums peļ.
@@ -217,26 +286,34 @@ Darbs māca darītāju.
 Darbs nav zaķis – projām neskries.
 Darbs un pacietība pārspēj visu.
 Darbs, kas daudzreiz darīts, viegls kļūst.
+Darbā iet labi? Viss ir labi?
 Dari ko darīdams, apdomā galu.
 Dari tā, ka vilks paēdis un kaza dzīva.
 Dari ātri, bet labi.
 Dari, ko spēj, un gādā man rezultātus.
+Darīsim muļķības.
 Darīšu visu, ko liksi.
 Daudz jaunāks un daudz varenāks.
 Daļiņas sašķels mikročipus gabalos.
 Daži bija diezgan tuvu, bet neviens neuzminēja precīzi.
+Der gan.
 Detaļas paziņošu vēlāk.
 Devies pie miera?
 Devos pa taku cauri kalniem.
 Diagnostika ir pabeigta, esam gatavi ieslēgt motoru.
+Diemžēl es nepārdodu savu lāci.
 Diemžēl mums ir aizliegts staigāt pa parketu.
 Dieva dēļ, tava māsa pati neko nevar izdarīt.
+Diez vai tas ir prātīgi.
+Diez vai tu gribi dzirdēt tādas blēņas.
 Diezgan daudz naudas.
 Divas galvas vienmēr gudrākas nekā viena.
+Divi līdzinieki esam, arvien mums saskan.
 Diviem zaķiem pakaļ dzīdamies, nevienu nenoķersi.
 Dod man minūti.
 Dod pieci.
 Dod telefonu.
+Dod viņam iespēju.
 Dod, dieviņi, otram dot, ne no otra mīļi lūgt.
 Dodiet atslēgas.
 Dokumentus atvedīsim rīt.
@@ -245,13 +322,18 @@ Domā lēni, strādā drīz.
 Domā vakarā, bet dari rītā.
 Domā ātri!
 Domā, ka es esmu stulba?
+Domā, ko saki.
+Domā, proti visu, kas jāprot?
 Domājat, ka pareizie jautājumi palīdzēs jums atklāt patiesību?
 Domāju ka viņš varētu pabraukt vēl nedaudz, varbūt.
 Domāju, ka mums jāpārtrauc tikties.
 Domāju, ka tas tevi iepriecinās.
+Domāju, ka tu būsi jautrāks.
 Domāju, piekritīs. Viņiem vajag tevi.
 Dots devējām atdodas.
 Dots pret dotu.
+Došu tev sešus tūkstošus dolāru dzelzceļa akcijās.
+Draudzenes dēļ cenšos kļūt pieaudzis.
 Draudziņ, esmu dzirdējis, ka viņa ir maita.
 Draudzība ir dārgāka par zeltu.
 Draugam dosi, no ienaidnieka atprasīsi.
@@ -259,8 +341,11 @@ Draugu grūti iegūt, bet vēl grūtāk paturēt.
 Draņķa spirts. Gandrīz kļuvu akls.
 Drošam pieder pasaule.
 Droši vien saputroju. Vainīgs, Jāni.
+Droši vien šausmīgi.
 Drusku gribas kakāt.
 Drusku par vēlu ir daudz par vēlu.
+Drīkstu paspēlēties?
+Drīkstu sadot tavam bosam?
 Drīz man būs jauns māceklis.
 Drīz piestrādāšu pie viņiem par tulku.
 Drīz pēc tam man paziņoja, ka no Abū Dabī ierodas šeihs.
@@ -283,31 +368,46 @@ Dzīvo, cepuri kuldams.
 Dāmas un kungi, esam jau gaidījuši labu laiku.
 Dārgā, šī būs visneticamākā pieredze mūsu dzīvē.
 Dārgā? Nāc šurpu!
+Dārta ir firmas viceprezidente.
 Dēls, es par savējiem rūpējos.
 Dīvaini. Man ir tikai pelēkie.
 Ei, tu!
 Ej dillēs, Valter!
+Ej dēt! Esi no biznesa pasaules?
+Ej dēt. Negribu ar tevi runāt.
 Ej nu ej? Interesanti.
 Ej piedzeries.
+Ej prom.
+Ej tu nost! Jauki.
+Ej un parādi visiem.
+Ej. Pastāstīsi, kā viņa jūtas.
 Ejiet malā.
 Ejiet uzreiz iekšā. Gaidiet manu komandu!
+Eju pa naža asmeni.
 Elpo dziļi.
 Es apsolu.
 Es apsolu. Nāc.
 Es ar savējiem tā izdarīju.
 Es ar tevi ļoti lepojos.
 Es ar viņu satikšos tur.
+Es arī mīlu tevi, Tedij.
 Es arī senāk spēlēju. Niekojos. Tagad esmu metis mieru.
 Es arī tevi mīlu.
+Es atnesīšu ledu.
 Es atradu mūsu zemes gabalu.
+Es atradu telefonu.
 Es atstāju telefonu mašīnā.
 Es atvainojos.
 Es atļaušu tev un pārējiem padomāt par to saukli kamēr atklāšu kādu ziņu.
 Es biju brīvs.
 Es biju iedomīgs un lūdzu piedošanu.
+Es biju prom, pirms viņa pamodās.
 Es biju zirga mugurā un jāju pa kalniem. Bija nakts.
+Es braucu.
 Es būšu tev vajadzīgs.
 Es būšu.
+Es centīšos, lai dabūtu kāroto darbu.
+Es cenšos kaut kā paturēt jūs abus.
 Es ceru, ka jūties lietderīgi iztērējies.
 Es dodos mājās, dārgā.
 Es domāju - izdabū to saukli.
@@ -316,11 +416,15 @@ Es domāju ka vajag vēl.
 Es domāju, ja tev ir monēta.
 Es domāju, ka tas varētu būt pagrūti.
 Es domāju, ka tavs plāns ir sūds.
+Es domāju, ka tu būsi garāks.
 Es domāju, ka tu to patiešām gribi.
 Es domāju, ka viņš ir citā laikā zonā.
+Es domāju: Viņš ir tik skaists, ka patīkami satikt viņa vāverīti.
 Es drusku izklāstīšu.
 Es drīz vien aizrakšos līdz patiesībai.
+Es dzirdu, kā resnis skrien.
 Es eju šim visam cauri ar lielām grūtībām.
+Es eju, mīļā.
 Es esmu laimīgs katru dienu.
 Es esmu laimīgs.
 Es esmu laimīgs. Vai tu neesi laimīga?
@@ -332,6 +436,7 @@ Es esmu tik nogurusi.
 Es esmu tikai pircējs. Labi.
 Es esmu viņa saimniece. Vienīgā, kas var doties ar viņu izjādē.
 Es esmu šeit, lai tev palīdzētu.
+Es forši kustos.
 Es gluži tā neteiktu.
 Es gribu ko vairāk.
 Es gribu lai tas ir ar tevi visu laiku.
@@ -344,24 +449,33 @@ Es gribu, lai mēs esam kopā, kad tas notiks.
 Es gribu, lai tu uz to paskatītos caur teleskopu - kopā ar mani.
 Es gribu, lai viņi to visu dzird!
 Es gribēju teikt to pašu.
+Es gribēju tev pateikties.
 Es gribēju tev šo iedot rīt.
+Es gribēju tikai papriecāties kādu stundu vai divas.
 Es gribētu uzsaukt tostu.
 Es ielūdzu tevi vakariņās. Šovakar.
 Es ienīstu Tevi un tavu firmu tik ļoti, ka nespēju pat vārdos aprakstīt.
 Es ilgāk nevaru noturēt.
+Es izdauzīšu sienu.
 Es izdomāju, kā tevi glābt.
 Es iztēlojos vissliktāko variantu.
 Es izņemšu kaut ko no somas.
+Es jau sen gribu tev pasniegt.
 Es jau sen to gaidīju.
 Es jums vēlu labu veselību un ilgu dzīvi.
+Es jūs mīlu, meitenes.
 Es jūtu slazdu.
 Es jūtu tavas dusmas.
 Es jūtu tevī lielas bailes.
 Es jūtu tevī lielu apjukumu.
 Es ko palaidu garām?
 Es krītu!
+Es lūdzu tētim burvju spēļlācīti.
 Es mēgināju izsviest ārā tavu māti.
 Es mēģināju.
+Es mīlu tevi par to un, manuprāt, tas mums ir jauns sākums.
+Es mīlu tevi!
+Es mīlu tevi.
 Es mīlu to sajūtu, ko viņa manī rada.
 Es mīlu to, kā dzirdu šo dziesmu katru reizi, kad iedomājos par viņu.
 Es mīlu to, kā viņa dažreiz aplaiza lūpas, pirms sāk runāt.
@@ -372,11 +486,17 @@ Es mīlu viņas smaidu.
 Es mīlu viņas smieklu skaņu.
 Es naudu ieguldīšu nanotehnoloģijās.
 Es nebiju baznīcā. Es neticu laulībām.
+Es neciešu to vārdu!
 Es nedomāju ka viņš manīs domas no rīta.
 Es neesmu armijā.
+Es neesmu runājošs rotaļlācis, bet mani tu dabūji bez burvestībām.
+Es neesmu tas, esmu viņš.
+Es neesmu tevi pelnījis.
 Es neesmu viens no viņiem.
 Es neesmu šeit, lai jūs vainotu.
+Es negribu ar tevi to apspriest.
 Es negribu nepatikšanas.
+Es negribu strādāt veikalā.
 Es negribu viņu aizmirst.
 Es negribēju, lai tev tas būtu jādara.
 Es nejūtu savu roku.
@@ -388,15 +508,21 @@ Es nerunāju par šiem mēsliem.
 Es nespēju dzīvot bez viņas.
 Es nevaru saplānot tavu dienu.
 Es nevaru.
+Es nevaru. Viņš būtu sagrauts.
 Es nevēlos teikt runu.
 Es nezinu kur tu to iemācījies, bet to mēs varam izmantot.
 Es nezinu, ko teikt.
 Es nezinu, vai viņam ir ģimene.
 Es nezinu. Man vienalga.
 Es nezinu. Sen neesam sazinājušies.
+Es nezinu. Varbūt.
 Es neļaušu šīm vīzijām piepildīties.
+Es neņēmu nopietni mūsu attiecības.
+Es nopirdos. Kā vīrs.
 Es nopirkšu kaimiņu ciemu.
 Es pagaidīšu šeit.
+Es palīdzēšu tev iekārtoties.
+Es par daudz aizraujos ar dzeršanu.
 Es parakstīju līgumu vakar.
 Es pat necentīšos izskaidrot, cik ļoti jūs kavējat.
 Es pat reāli tam nepieskāros.
@@ -412,6 +538,7 @@ Es redzu, ka tu šovakar labi nejūties.
 Es redzu. Tas būs viegli.
 Es redzēju sapni.
 Es redzēju tevi.
+Es reiz pateicu sliktu vārdu.
 Es runāju ar tevi!
 Es saku - pacietību.
 Es saplēsu šķīvi.
@@ -420,6 +547,9 @@ Es saprotu, skolotāj.
 Es saprotu.
 Es sasveicinājos. Mēs esam suņi.
 Es sasveicināšos ar visiem.
+Es saukšu tevi par Tediju.
+Es sekoju tavām gaitām kopš bērnības, redzēju tevi tv šovā.
+Es skaitīšu, saki stop.
 Es slīdu nost!
 Es smaidu un smaidu un smaidu…
 Es solos sekot tavām mācībām.
@@ -428,34 +558,55 @@ Es tam neticu.
 Es taču saku - seši, melna.
 Es teicu - nometiet!
 Es teiktu, ka mums te ir zināms potenciāls.
+Es teikšu skaidri un gaiši.
+Es tev ko nopirku pretēji norunai.
+Es tev ko pajautāšu.
 Es tev piekrītu.
 Es tev teicu, ka tas notiks.
 Es tev teicu, ka tu to atpakaļ nedabūsi.
+Es tevi aizvedīšu. Es jūtos labi.
 Es tevi mīlu, dārgā.
 Es tevi nepametīšu.
+Es tevi nepievilšu.
+Es tevi nevilku uz ballīti ar varu.
 Es tevi nezaudēšu.
 Es tevi nomazgāšu, labi?
 Es tevi nēsāju uz rokām.
+Es tevi piesegšu.
+Es tevi segšu. Viņa neko neuzzinās.
 Es tevi tik ļoti mīlu…
+Es tevi vedīšu uz vislabāko restorānu.
+Es tevi āzēju.
+Es tevi čakarēju?
 Es ticu tev. Tu to atradīsi.
 Es tiešām priecājos, ka mēs to izdarījām.
+Es tik ļoti mīlu tevi. Tu to nenožēlosi.
 Es tikai domāju, ja nu mēs tā vietā mēģinātu pārdot publikai tevi?
 Es tikai gribēju būt laba.
 Es tikai iesildos. Vai vieglāka nav?
 Es tikai nedaudz nosnaudīšos.
 Es tikai nesaprotu.
+Es tikai pajautāju.
+Es tikai saku, ka sievietes Bostonā ir bālākas un neglītākas nekā citur.
+Es tikai saku.
+Es to gribu.
 Es to izdarīšu.
+Es to saku tāpēc, ka mīlu tevi.
+Es to tā neatceros.
 Es tos neesmu redzējis kopš deviņdesmitajiem.
 Es trīsdesmit gadu vācu aiz jums.
 Es tur nedrīkstu.
 Es tur zinu katru stūri.
 Es tā teicu?
 Es uzskatu, ka esmu laimīgākais vīrietis uz Zemes.
+Es vairs negaidīšu, kad sāksies dzīve.
 Es vairs nespēju.
 Es vairs nevaru būt tavs elks.
 Es vairs nevaru klusēt.
+Es vakar vēlējos, lai Tedijs būtu dzīvs, un vēlēšanās piepildījās.
 Es varu pa taisno pievienot pie barošanas.
 Es varu uzticēties tikai tev.
+Es varētu teikt: atvaino, pārpratums, esmu gatavs mainīties, bet...
 Es varētu tādu kā tevi izmantot.
 Es vienmēr izvēlēšos darbinieku.
 Es vienmēr to nēsāšu līdz.
@@ -463,23 +614,31 @@ Es vienu pazīstu.
 Es viņai jau pateicu.
 Es viņam atbildēšu.
 Es viņam neuzticos.
+Es viņam rādīšu!
 Es viņam tūlīt piezvanīšu.
 Es viņu aizvedīšu un uzmanīšu.
 Es viņu apciemoju.
 Es viņu atvedīšu.
+Es viņu mīlu.
 Es viņu norīkoju tavas grupas drošības eskortā.
 Es viņu pazaudēju!
 Es viņu redzu!
 Es viņu visur izmeklējos.
 Es viņu ļoti pievīlu.
 Es zinu lielisku vietu. Pie dārza.
+Es zinu, Kārli.
 Es zinu, es neesmu no šejienes.
 Es zinu, ka ir.
 Es zinu, ka ne šo.
 Es zinu, ka tu negribi to dzirdēt.
 Es zinu, kas tevi nomāc.
 Es zinu, kas tu esi.
+Es zinu, ko tu pārdzīvo.
+Es zinu, tas ir stulbi.
+Es zinu. Es nebiju vainīgs.
+Es zinu. Taču nezinu, kā lai rīkojos.
 Es zinu. Viņa ir baigi pievilcīga.
+Es zināju.
 Es ļoti baidos, Mamm.
 Es ļoti ilgojos pēc tevis.
 Es šeit esmu dzīvojusi visu mūžu.
@@ -489,27 +648,37 @@ Es? Tas nav iespējams.
 Esam atmosfērā.
 Esam izgājuši cauri daudz kam, bet tu neko neesi iemācījies.
 Esam klāt.
+Esam kopā jau četrus gadus.
 Esam sadraudzējušies.
 Esam tak pieauguši.
 Esam te piekto stundu. Visu izstāstījām.
 Esam te sacūkojuši.
 Esam tev astē, ģenerāl.
+Esam zaudējuši pa spalvainam draudziņam.
 Esam ķezā.
+Esam ļoti ieinteresēti.
+Esat kopā četrus gadus?
 Esat sveiks un vesels?
 Esi drošs?
+Esi gatavs.
 Esi kaut kā negatīvi ietekmējusi savu māsu.
 Esi laimīga, lūdzu.
 Esi loti akurāts.
+Esi man parādā par omāru.
 Esi pats labs, tad visi būs labi; esi kašķīgs, tad visi kašķīgi.
 Esi pelnījis slavas mirkli politiķu vidū.
 Esi rāms. Skaties uz priekšu.
+Esi sveicināts mājās.
 Esi vien atpakaļ no kurienes nācis, vai ne, draudziņ?
 Esiet uzmanīgi, lūdzu. Šī nav mana mašīna.
 Esmu apjucis.
 Esmu daudz laba par tevi dzirdējusi.
+Esmu dzirdējusi ko citu.
+Esmu glīts, tēvam pieder firma.
 Esmu iekūlies ķezā.
 Esmu izkūkojis prātu!
 Esmu jau te mazliet iejuties.
+Esmu kopā ar Daigu. Pārbaudes laiks.
 Esmu mierīgs, dēliņ.
 Esmu neredzams!
 Esmu parasts zobārsts!
@@ -519,10 +688,17 @@ Esmu pārsteigts, ka vari to saskatīt.
 Esmu pārāk vārgs.
 Esmu sajūsmā par šīm kāzām un es zinu, ka viņš ir pamatīgi iztērējies.
 Esmu sameklējis itāliešu restorānu.
+Esmu stulbs, vai?
+Esmu sūtījis ražotājiem niknas vēstules.
 Esmu tam izgājis cauri.
+Esmu tev ziedojusi lielu dzīves daļu.
 Esmu tevi apbēdinājis.
+Esmu ķertais.
 Esmu ļoti pieredzējusi auto vadītāja
+Esmu šeit.
 Fiksi iedod man buču.
+Filiāles vadītājs, trīsdesmit astoņas pakas gadā.
+Firmai divdesmit gadi?
 Forši papļāpājām.
 Forši pavizinājāmies.
 Forši šos piečakarēji.
@@ -531,27 +707,39 @@ Gaidi autostāvvietā. Turi acis vaļā.
 Gaidu limuzīnā.
 Gaita izlīdzinās, kungs.
 Gaiši sarkani un ļoti saldi.
+Galva sāp?
 Galvenais - dziedāt no sirds.
 Galvenais ir neapskādēt grīdu.
 Galīgi saostījies.
 Gan jau satiksi kādu citu.
+Garš laiks. Atskrien uz brītiņu.
 Garšo pēc pelniem.
 Gatavais posts.
 Gatavojamies nolaisties.
+Gatavs satriekt publiku?
 Gaļa jātaupa siena laikam.
 Glums kā zutis.
+Gluži kā filmā.
 Glābiet!
 Glābšanas operāciju izdomāji tu.
 Glāzē noslīkst vairāk nekā jūrā.
 Glīts krekls. Kur nopirki?
 Gods ir dārgākā manta.
 Godīgi dzīvot grūti, bet labi.
+Gonga šiem nav, nekādas vainas.
 Grab kā vecs kažoks.
 Gribam, lai tu apsver iespēju pārņemt viņa līgumu.
+Gribi būt nejauka?
 Gribi doties atpakaļ?
+Gribi kādu spēli?
 Gribi vienu?
+Gribu izdabāt abiem.
+Gribu kādu nobiedēt.
 Gribu platīna mikrofonu. Skaidrs?!
 Gribu tev kaut ko uzdāvināt.
+Gribu tikai, lai šķiramies ar mieru.
+Gribu viņu aizvest uz jauku vietu.
+Gribēja palikt, bet es viņu pierunāju.
 Gribēju izmēģināt kaut ko jaunu un satraucošu.
 Gribējāt ar mani runāt, pulkvedi?
 Gribētos jums novēlēt veselību, dimanta mūžu un zelta uzplaukumu.
@@ -560,23 +748,34 @@ Griez riņķī!
 Grāmatas? Vesela soma.
 Gudra māte, čakli bērni.
 Gudrs, jautrs, visiem patīc.
+Gāju, lai aprunātos, uzņemtos daļu vainas.
 Gāzi grīdā!
 Hei! Dari savu darbu!
 Hei, kā būtu ar vēl vienu dzērienu?
+Helikopters "Apache" ar ložmetējiem un reaktīvajiem šāviņiem.
 Identificējiet sevi.
+Ideālai dienai ir tikai viens noslēgums.
 Iedod man nolādēto grozu.
 Iedod man olu grozu.
 Iedod velnam mazo pirkstiņu, viņš tev paņems visu roku.
 Iedzersiet?
+Iedzersim pa mēriņam.
 Ieklausies sajūtās.
 Ieklausies savās sajūtās.
 Iekustināja kā lapseņu pūzni.
 Iekārtojies ērti?
+Iekārtosies, būs lieliski.
+Ielenēm būs gana labs.
 Ieliec to zem olām.
+Ielikšu svarīgo lietu nodalījumā. Labi?
 Iemācies atbrīvoties no visa, ko baidies zaudēt.
 Iemācīju visu, ko zinu pats.
 Iemīlēt var arī čūsku, taču reiz tā tev iekodīs.
 Iemūrēts pagraba sienā.
+Ienāc manā kabinetā.
+Ienāciet.
+Iepazinos ar meiteni. Kasieri.
+Iepazīsties ar manu draugu.
 Ieradāties agrāk, nekā biju gaidījis.
 Iesim uz policiju.
 Iesim uz virtuvi. Kafiju dzersiet?
@@ -602,22 +801,33 @@ Ir mazliet par agru.
 Ir noticis kas brīnišķīgs.
 Ir pirmā saikne.
 Ir sievietes, un ir vīrieši.
+Ir spēļu laiks, vai ne?
 Ir vērts pamēģināt.
 It kā būtu vērts dzīvot.
+It kā pats būtu to piedzīvojis.
+It kā tev būtu pārkinsonisms.
 It kā viss būtu iespējams.
+Izbaudi to kopā ar mani.
 Izbeigšu to reizi par visām reizēm.
 Izdabūt no tevis to sasodīto reklāmas saukli šonakt.
 Izdevās?
 Izdomājuši kaut ko jaunu.
 Izdzer šo.
+Izjūti lepnumu.
 Izklausās nelāgi.
 Izklausās varen labi, ser.
 Izlietu ūdeni nesasmelsi.
 Izmanto manas zināšanas, es lūdzu.
 Izmeklējos visur, līgavas nav.
+Izmetīšu. Kārli, man ir tevi jāizmet.
 Iznīciniet viņus!
+Izraudāsies. Rīt parunāsiet.
 Izrunāts vārds nav atsaucams.
+Izrādījās, viņš bija izvēlējies īsto nakti.
+Izsaki ultimātu. Vai nu tu, vai lācis.
+Izsauciet ātros!
 Izskaties pēc skursteņslauķa.
+Izskaties satraukta.
 Izskaties tieši kā viņš.
 Izskatās pēc viņa.
 Izskatās, noticis kas nopietns.
@@ -627,33 +837,52 @@ Izvieto savu nodaļu aiz manis.
 Izņemot tevi!
 Izšķērdība badam tuva radiniece.
 Ja amerikāņiem būtu tāda tehnoloģija, domā, viņi to dotu mums?
+Ja domājam atvērt restorānu, jāsāk plānot tūlīt.
+Ja dosi viņam vēl vienu iespēju, es aiziešu un neatgriezīšos.
 Ja es to uzdrošinos, tu arī to vari.
 Ja esi ar mieru, mēs aizvedīsim tevi šodien pat.
 Ja gribat izdzīvot, vajadzīgi dzelzs nervi.
 Ja gribi, vari celties sēdus.
+Ja gribēsiet vienoties, te būs mana adrese un telefons.
 Ja jums ir kādi karotāji, lai gatavojas.
+Ja jutīsies slikti un tev nepatiks, es vairs to nepieminēšu.
 Ja kalps nestrādās, kungs ar karieti nebrauks.
 Ja man būtu šāda iespēja...
+Ja man liktu minēt, es teiktu: izgudroji stulbu ieganstu, lai aizbēgtu pie draugiem.
 Ja nav iepinuši tevi savās intrigās, tad drīz to izdarīs.
+Ja neatradīšu, tik un tā uzsmēķēsim?
 Ja nu demokrātija, kurai it kā kalpojam, vairs nepastāv?
 Ja nu es izgāzīšos?
 Ja nu es to pazaudēšu?
 Ja nu mēs to nenotīrīsim?
 Ja nu vienīgi negribi doties viņiem līdzi?
+Ja padomā, nav godīgi, ka viņš tevi tā samulsināja.
 Ja reiz iedod viņai darbu, viņa nemetīs mieru.
 Ja riekstu nekodīsi, tad kodolu nedabūsi.
 Ja rukāt, tad rukāt.
 Ja tas viņu neizdabūs no gultas, nekas cits nelīdzēs.
 Ja tavs tētis tā teica, tad viņš kaut ko ir aizmirsis.
 Ja tev ir nauda, tu vari pat velnam likt kokā rāpties.
+Ja tev ko vajag...
+Ja tev kāja iesprūstu zem klintsbluķa, es to nokostu, lai tu tiktu brīvībā.
 Ja tev zināms, kur viņš ir, saki.
 Ja tevis teiktais ir taisnība, tu esi iemantojis manu uzticību.
+Ja tu aiziesi un aprunāsies ar viņu, es būšu prom, kad atgriezīsies.
+Ja tu domā, ka ar meliem pastumsi viņu malā, neesi pie pilna prāta.
+Ja tu grasies aizstāvēt Kārli...
+Ja tu mani segsi, es visu piecietīšu.
+Ja tu neiebilsti, pateikšu, kas sakāms.
+Ja tu no manis atšūsies, būs vēl viens ieguvums.
 Ja uzbrauci kalnā, tad nobraukt būs viegli.
 Ja viņa tā grib tāda būt, lai ir.
 Ja vēl uznāk dienas, kad jūties nedaudz skumji…
+Ja vēlies.
 Jau esmu ceļā.
 Jau ķeros klāt, kaptein!
+Jauki, Marta, jauki.
+Jauki. Labi, vai ne? Apsveicu.
 Jauns slinko, vecs mocies.
+Jaunā kasiere.
 Jaunība nezin, vecums nevar.
 Jaunībā krāsi, vecumā ņemsi.
 Jo droši vien ir pāri desmitiem.
@@ -685,64 +914,94 @@ Jums veicas. Tas esmu es.
 Jums, jūsu ģimenei un kolektīvam.
 Jumtā ir caurums.
 Jupis! Kas notiek?
+Jā gan, mans mazais burunduk.
 Jā gan.
+Jā! Viņš to izdarīja!
 Jā, Es domāju ka vajadzētu.
 Jā, bet viņš ir mūsu draugs.
 Jā, ciet klusu!
+Jā, darbā iet labi.
 Jā, domāju ka ir labi, ja?
+Jā, es gribu spēlēt spēli.
 Jā, es lietoju lietas kas man ir pa rokai.
 Jā, es saprotu. Man kaut kas ir...
+Jā, es tiešām to vēlējos.
 Jā, es to dabūju rietumos.
 Jā, es varēšu.
 Jā, es zinu.
+Jā, esmu aušīgs priekšnieks.
+Jā, iesaiņojiet man.
 Jā, iespaidīgi.
 Jā, ja tu par to vari samaksāt.
+Jā, jokaini.
 Jā, jāpierod visu dokumentēt.
 Jā, kā vēja plēsti.
 Jā, lai viss būtu pa pirmo.
 Jā, man arī žēl.
 Jā, man vajadzētu būt.
 Jā, manam tēvam tas patiktu.
+Jā, mans mazais veiksminiek.
 Jā, mans pavēlniek.
 Jā, mēs nedrīkstam zaudēt šo sistēmu.
 Jā, nebrauciet vairāk. Tikai taisni.
+Jā, nejūtos lāgā.
 Jā, protams, mīļais.
 Jā, protams.
 Jā, protams. Protams, sarunājuši.
 Jā, saulstariņ, esam klāt.
 Jā, skats nav patīkams.
 Jā, skolotāj.
+Jā, stipri sāp.
 Jā, tagad.
 Jā, tas mani darītu laimīgu.
 Jā, tu mēģināji.
 Jā, tu parasti tā dari.
 Jā, tu vari. Protams, ka vari.
+Jā, tā bija savāda intervija.
 Jā, tā es daru.
 Jā, tā tik bija naksniņa!
+Jā, tāda viņa ir.
 Jā, un vāverei nevajag riekstus.
 Jā, vajadzētu beidzot celties augšā.
+Jā, viņa ir ļoti satraukta.
+Jā, viņa saprot.
 Jā, viņš ir lielisks.
 Jā, šeit bija ienācis ķīnietis.
 Jā, šim iet pie dūšas.
 Jā. Jā. Vajag tik uzlādēt.
 Jā. Laiks skrien.
+Jā. Nebēdā, Kārli. Viss būs labi.
 Jā. Paldies, Viktor.
+Jā. Tik un tā mēs satiksimies.
 Jā. Tur dzīvoklī viens bija.
 Jā. Tā patiešām esmu es.
+Jā. Tūlīt pat brauc šurp.
+Jā... es arī ne.
 Jāaizbrauc samaksāt par restorānu.
 Jāatzīst, mana uzticība viņiem ir iedragāta.
 Jābrauc trīs stundas.
+Jābūt vaļā trim kasēm.
 Jāievēro noteikumi.
 Jāizturas neuzkrītoši.
+Jākārto lērums lāču dokumentu.
+Jāmācās gatavot ar kreiso.
+Jāni, izdari to!
 Jāni, paklausies.
 Jāpazūd, pirms nav par vēlu.
 Jāpārbauda vēl daži kustību refleksi.
+Jārunā ar to čali.
+Jāsadomā kaut kas četratā.
+Jāsameklē tev darbs.
+Jāstrādā, lai nopelnītu īres naudu.
 Jā… protams.
+Jēziņ! Ko, ellē, tev vajag?
+Jēziņ! Martai bija taisnība.
 Jūrā ir daudz citu zivju.
 Jūs aizmirsāt maisiņu.
 Jūs būsiet izsalkuši.
 Jūs būsiet vāji.
 Jūs esat brīvi.
+Jūs esat forši čaļi. Patīk ballēties?
 Jūs esat kolēgi. Es viņu nolīgu, tiklīdz kā padzirdēju par viņa izglītību.
 Jūs esat labākais cilvēks pasaulē!
 Jūs esat malači.
@@ -771,6 +1030,7 @@ Jūsuprāt, tā ir spēle?
 Jūti smaržu?
 Ka tavam zinātniekam ir dvīņubrālis, un ka viņš nav zobu higiēnists vai kas tamlīdzīgs.
 Kad bļoda apgāzta, tad visi gudri.
+Kad dzīvē klājas grūti, es atnāku un palūkojos uz to.
 Kad esmu ar tevi, citiem jācieš.
 Kad esmu pievīlis?
 Kad ir, tad ēd; kad nav, tad ciet.
@@ -779,6 +1039,7 @@ Kad miegs nāk, tad arī akmens būs labs spilvens.
 Kad mēle mutē, tad visa pasaule vaļā.
 Kad mēs beidzot uzticēsimies viens otram?
 Kad mēs kopā būvēsim alas?
+Kad mēs tiekamies, pirmais jautājums dienas kārtībā ir - kā klājas mammai?
 Kad nauda runā, patiesība cieš klusu.
 Kad nelaime notikusi, tad visi gudri.
 Kad nolaidīs trapu, pa taisno uz bāzi. Neapstāties!
@@ -796,7 +1057,10 @@ Kam droša sirds, tam laimējas.
 Kam es saku? Stāvi!
 Kam nauda, tam bauda.
 Kam nauda, tam vara.
+Kam tev bija tas jāizdomā?
+Kamēr esi līdzās, dzīves nebūs.
 Kamēr nav villas, jāiztiek ar pirti.
+Kamēr viņam būs lācītis, viņš būs puika.
 Kancler, kā jūs jūtaties?
 Kanclera signāls nāk no turienes - novērošanas platforma smailes virsotnē.
 Kara beigas ir tuvu, ģenerāl.
@@ -805,6 +1069,7 @@ Karš izcēlās no nespējas uzklausīt.
 Kas aplaupīts?
 Kas ar viņu notika?
 Kas atvedis uz mūsu nomaļo patvērumu?
+Kas bija noticis?
 Kas gan cits, aunapiere?
 Kas ir ar Tomu?
 Kas ir?
@@ -813,29 +1078,39 @@ Kas nav skaidrs?
 Kas notiek? Ļoņa, tu esi piedzēries?
 Kas notika?
 Kas par absurdām muļķībām!
+Kas par maitu.
 Kas tad vainas?
 Kas tas bija?
+Kas tas ir? Izklausās nelāgi.
 Kas tas par kolhoznieku?
 Kas tas?
+Kas te dzīvo?
+Kas te notiek?
 Kas tev bija prātā?
 Kas tev kaiš?
 Kas tev lēcies?
 Kas tev maisiņā?
 Kas tev tas par kreklu?
+Kas tev vainas?
+Kas to palaidis?
 Kas tu esi?
+Kas tur citādi grūts?
 Kas tur dzīvo?
 Kas tur ir?
 Kas tur notika?
 Kas tā par zvaigzni?
 Kas tā par ātro palīdzību?
+Kas tā tāda?
 Kas tās par muļķībām?
 Kas tās par zvaigznēm?
+Kas, ellē, tas?
 Kas, pie joda, notiek?
 Katrai ziemai sava vasara.
 Katram darbam savs laiks.
 Katram patīk sava dziesma.
 Katram putnam sava ligzda mīļa.
 Katru dienu.
+Kaut būtu dabūjis lāci ar baterijām.
 Kaut es to zinātu.
 Kaut gan, iespējams, tas ir tiesa.
 Kaut kas ir?
@@ -845,13 +1120,18 @@ Kaut kas neticams!
 Kaut kas neticams.
 Kaut kas notiek.
 Kaut ko iedzert?
+Kaut kur ir četri briesmīgi tēvi, esmu viņiem pateicīgs par šo nakti.
 Kaut kāds miljonārs. Nekad nav mājās.
 Kaut kāds stulbums!
+Kaut tu pa īstam prastu runāt, tad mēs mūžam būtu labākie draugi.
+Kaut viņš sakārtotu savu dzīvi. Mūsu dzīvi.
 Klau, kas tie tādi?
+Klausi mammu!
 Klausies, ko es saku.
 Klausies. Mēs sarunājām, ka tu šonakt netaisīsi nekādas scēnas.
 Klausieties uzmanīgi! Man būs kāzas.
 Klēra, tu esi sarīkojusi satriecošu pasākumu.
+Klīst baumas, ka tu tagad esot viena.
 Ko "jā"? Tev piķis ir?
 Ko acis neredz, to sirds aizmirst.
 Ko ar šīm?
@@ -867,6 +1147,7 @@ Ko iesāksim?
 Ko jūs darāt?
 Ko jūs gribat zināt?
 Ko jūs teicāt?
+Ko lai saku Artūram?
 Ko mēs darīsim?
 Ko mēs esam izdarījuši...
 Ko mēs tik ļoti gaidām?
@@ -876,6 +1157,7 @@ Ko otram nevēl, tas pašam netiek.
 Ko pats sev negribi, to citam nedari.
 Ko redzam, ko jūtam.
 Ko smaidi?
+Ko tas sīkais sūds ar mani darītu?
 Ko teiksi? Ar katliņu vai bez?
 Ko tev vajag?
 Ko tu ar to domā?
@@ -887,10 +1169,15 @@ Ko tu gribi no manis?
 Ko tu gribi?
 Ko tu par to zini?
 Ko tu īsti gribi no šīs vietas?
+Ko tu šeit dari?
+Ko vien vēlies.
 Ko viņš gribēja?
 Ko viņš ir sastrādājis?
 Ko viņš teica?
+Ko, ellē, tas nozīmē?
+Ko? Es esmu mērglis?
 Ko? Tā bija fonogramma?
+Ko? Vai tu zini, kas tikko notika?
 Kolosāli.
 Kolosāli. Vai ne?
 Kolēģi, man steidzami vajag uz tualeti.
@@ -899,18 +1186,25 @@ Kompānija ir ieguvusi sev jaunu mākslas direktoru.
 Kopīgiem spēkiem mēs noteikti atklāsim noslēpumu.
 Kopš satiku jūs, mana dzīve ir pārvērtusies par pasaku.
 Kungi! Tādā izskatā nedrīkst.
+Kungs un kundze, lūdzu, deserts un šampanietis.
 Kur brigāde?
+Kur ir mans riņķis?
 Kur ir mans sauklis?
+Kur mans riņķis?
 Kur medus, tur mušas.
 Kur palikusi līgava?
+Kur tad manieres?
 Kur tad viņš ir?
 Kur tavs ūdens?
 Kur te ir pirmais stāvs?
 Kur tie dabū ēdienu?
 Kur to dodies?
 Kur tu dodies?
+Kur tu esi? Tev jābrauc šurp.
 Kur tu iemācījies angļu valodu?
+Kur tu iesi?
 Kur tu to nopirki?
+Kur viņi ir šodien?
 Kur viņi ir?
 Kur vēl šie ko tādu atradīs?
 Kurp braucam?
@@ -925,36 +1219,57 @@ Kuģis jūs gaida.
 Kā ar rotaļlietām? Tev ir kāda?
 Kā ar viņiem?
 Kā ar šo lielo platību?
+Kā esmu nogrēkojies?
 Kā gulēji?
+Kā gāja darbā?
 Kā gāja?
+Kā iet darbā?
+Kā iet sliktajam bosam?
+Kā iet, zēniņ? Kur tavs trusītis?
+Kā iet? Atnāksi, uzvilksim dūmu?
+Kā jau redzi, tu sen piederi mūsu ģimenei.
 Kā jums izdevies izsisties?
 Kā jūs to domājat?
 Kā jūs varat? Kaut kas nedzirdēts.
+Kā klājas? Sen neesam runājuši.
 Kā lai es pārslēdzu?
 Kā lai es zinu, kāpēc tas uzsprāga?
 Kā lai mēs piesaistām pusaudžu grupu mūsu otrās šķiras produktam?
+Kā lupatu lelle.
 Kā man patīk šī kleita.
+Kā mazais Jēzus.
 Kā mēs redzējām tā ir robeža.
+Kā noaugusi augšlūpa. Kā vīram.
 Kā paiet tava brīnišķīgā nakts?
 Kā redzat, jumtam ir trīs līmeņi.
+Kā redzi, mana deju grāmatiņa ir pilna.
 Kā sazināties ar viņu, tevi iemācīšu.
+Kā sokas?
+Kā tad to atceries?
 Kā tas atgadījās?
 Kā tas gadījās?
 Kā tas ir iespējams?
+Kā tas jāsaprot?
+Kā tas jāsaprot? Vai viņu bijis daudz?
 Kā teiksi, dok.
 Kā tev tas patiktu? Nāc nu.
+Kā tev šķiet, vai viņa gaida ko īpašu?
 Kā tev šķiet?
 Kā tie zinās, ka esam te?
 Kā to paskaidrosim priekšniekam?
 Kā to saprast?
+Kā tu domā, vai viņa no manis to gaida?
 Kā tu to domā?
+Kā tu to zini?
 Kā tu vari man palīdzēt?
 Kā tu zini?
 Kā vairumam no jums jau zināms, es šonakt spēlēju dubultu lomu.
 Kā varat iedomāties, tā nebija viegla saruna.
 Kā vienmēr. Viņš ir gļēvulis.
 Kā viņa jūtas?
+Kā viņu sauc?
 Kā viņš izskatījās?
+Kā, lūdzu?
 Kāda dzija, tāda drēbe.
 Kāda izglītība ir vislabākā, ja gribi gūt panākumus sabiedriskajās attiecībās?
 Kāda jēga no maka, ja tajā nav naudas.
@@ -963,33 +1278,58 @@ Kāda man starpība, vai tas ir droši?
 Kāda runa! Ejam pie galda! Uz priekšu!
 Kāda situācija, kaptein?
 Kāda velna pēc esat ielīduši vienā koferī?
+Kāda velna pēc viņš to saka?
 Kāda vārna pērta, tāda nepērta.
 Kādas, pie velna, anekdotes?
+Kādi ir kaimiņi?
+Kāds bērns nebija līksms.
 Kāds celms, tāda atvase.
 Kāds darbs, tāda alga.
+Kāds man nozaga lācīti.
 Kāds pamats, tāda ēka.
 Kāds podiņš, tāds vāciņš.
 Kāds tam iemesls?
 Kāds tēvs, tāds dēls; kāda māte, tāda meita.
 Kāds āķis, ko tu liec Tomam izdarīt?
 Kādu aizdomīgu personu?
+Kādu dienu kārbiņā būs gredzens.
 Kādus trīs vai četrus gadus.
 Kādā ziņā tā ir veiksme?
+Kādā ķezā?
 Kādās kamanās iekāp, tādās brauc.
 Kāp mašīnā, dārgā.
 Kāp nost, kamēr neesi nosities!
+Kāpēc es tev nepatīku?
+Kāpēc gan ne?
 Kāpēc gribat mani sazāļot?
+Kāpēc ieminējies?
 Kāpēc jūs to prasāt?
+Kāpēc lai tu to darītu?
 Kāpēc man jādzied šajā muļķīgajā zelta mikrofonā?
 Kāpēc mēs vienmēr lidojam koferos?
 Kāpēc mēģini man iesmērēt savus draņķa eiro?
 Kāpēc neņēma mašīnu?
 Kāpēc tev nepatīk?
 Kāpēc tu no manis to prasi?
+Kāpēc tu raudi?
 Kāpēc tu to dari?
+Kāpēc tu tā teici?
 Kāpēc tu vispār ieradies?
+Kārli, gribi alu?
+Kārli, ir jau gandrīz desmit.
+Kārli, labi, ka tu atbrauci.
+Kārli, lūdzu. Gribu aprunāties.
+Kārli, man bail.
+Kārli, man enerģijas pārpārēm.
+Kārli, pagaidi. Paklausies.
+Kārli, piedod. Uzradās nez no kurienes.
+Kārli, tas esmu es.
 Kārli, tā vairs nerunā.
 Kārli, ēst gribi?
+Kārlis acumirklī pieķērās Tedijam.
+Kārlis no visas sirds ilgojās pēc vienīgā īstā drauga.
+Kārlis nu bija laimīgākais zēns pasaulē un alka to ātrāk visiem izstāstīt.
+Kārlis ļoti mīl tevi, vairāk par visu pasaulē, un bez tevis viņš iet postā.
 Kārtībā?
 Kāzas mums būs kā normāliem cilvēkiem.
 Kāzas mēs svinēsim īstā itāliešu restorānā.
@@ -1003,36 +1343,47 @@ Labi vien ka saskrējāmies, es tieši tevi meklēju.
 Labi! Man viņi ir vajadzīgi!
 Labi, atpakaļ pie darba. Ejam.
 Labi, bet tu šo visu gribi?
+Labi, bet šī būs pēdējā reize.
 Labi, būsim uzmanīgi.
 Labi, es negribu nepatikšanas.
+Labi, es saprotu.
 Labi, esmu šeit.
 Labi, iesim nu.
 Labi, ko vēlies?
 Labi, labi. Es atvainojos.
+Labi, labi. Redzēsim.
+Labi, lai būtu, kā tu saki.
 Labi, lasieties prom.
 Labi, tad atdod.
 Labi. Brauksim mājās.
 Labi. Dod man dažas stundas.
 Labi. Lielāka lepnība, zemāks kritiens.
 Labi. Pagaidiet mani.
+Labi. Slēpies pirmais.
 Labi. Tad mēs esam gatavi.
 Labi. Tagad es.
 Labi. Uz "trīs"!
 Labi. Vai nu tu, vai es. Nav nozīmes.
 Labi. Čau.
 Labs darbs divus mūžus dzīvo.
+Labs ir, Kristap!
 Labs ir, banda. Izdzēšam gaismu.
+Labs ir, ej. Es izbraukšu.
+Labs ir, iesim.
+Labs joks.
 Labs nāk ar gaidīšanu.
 Labs raksturs.
 Labs signāls.
 Labs tas darbiņš, kas padarīts.
 Labums ir strīdīgs jēdziens.
 Labāk ne.
+Labāk nekā katru vakaru raudāt.
 Labāk paēdīsim un parunāsim par to vēlāk.
 Labāk turēsimies pie plāna.
 Labākais no visiem priekšniekiem.
 Lai Spēks ar tevi.
 Lai aizbrauktu līdz Polārzvaigznei un atgrieztos uz Zemes, vajadzētu vismaz sešsimt gadu.
+Lai cik skaļu slavu kāds gūtu pasaulē - beigās tāpat visiem ir pie pakaļas.
 Lai citi liek viņu mierā.
 Lai dievs dod bagātam palikt, bet lepnam nē.
 Lai gan zinu, ka to nevajadzētu.
@@ -1040,13 +1391,21 @@ Lai ik pa laikam varētu paskatīties.
 Lai izlido starp mums.
 Lai ko izdarīju, atvainojos.
 Lai laiž darbā diplomātiju, ne ieročus.
+Lai mēģina.
 Lai nebāž degunu manā nodaļā.
 Lai notiek, atklāšu savu noslēpumu.
+Lai tik nāk.
+Lai tikai nāk.
 Lai veicas sadzīt rokā zobārstu.
 Lai viss būtu pa pirmo!
+Lai viņš izvācas, dzīvosim savu dzīvi.
 Lai šis uzdevums netiktu ieprotokolēts.
+Laid mani ārā!
 Laid vaļā, mērgli!
 Laidīsimies lejā, līdz balkonam būs vēl pāris metru.
+Laikam gan.
+Laikam jums patīk koka zirdziņi.
+Laikam jāatsakās.
 Laikam vajadzēja ņemt ko mazāku.
 Laiks doties.
 Laiks ir nauda; ko dari, to dari drīz.
@@ -1059,16 +1418,26 @@ Leonīd! Rīt visam jābūt paveiktam.
 Lido prom! Tu neko nevari darīt.
 Lidojums bija lielisks.
 Liec kareivjiem doties uz augšējiem stāviem.
+Liegt snikeru reizēm nenāktu par ļaunu.
+Liela muiža.
+Lieliska dziesma.
 Lieliska ideja.
 Lieliski izskaties.
+Lieliski.
 Lieliski. Kur viņš ir?
+Lieliski. Vakariņas četratā.
 Lielisks puisis.
+Liels paldies, ka ieradies.
 Liels paldies.
+Lielākā daļa čaļu to nedarītu.
 Lien nost!
 Lien ārā no mašīnas!
 Lifts nedarbojas.
+Liku izkaltēt un pārklāt ar bronzu.
 Lācim ne katrs var teikt, ka viņš ir lācis.
+Lācī bija kas tāds, ka viņš tūlīt juta - atradis draugu, kam uzticēt lielākos noslēpumus.
 Lēnāk taču.
+Lēnāk. Kur tu esi?
 Lēnām, nesasteidz.
 Līdz nāve mūs šķirs un mūžīgi mūžos.
 Līgavas tēvs vēlas teikt runu.
@@ -1084,8 +1453,11 @@ Lūdzu, neaizmirstiet. Liels paldies.
 Lūdzu, nespļaudies mašīnā.
 Lūdzu, nāc lejā cik drīz vien iespējams, labi?
 Lūdzu, piecelieties.
+Lūdzu, uzvedies labi.
 Lūdzu, vai es varu uz mirkli ievilkt elpu?
 Lūdzu. Paņemiet vēl gabaliņu.
+Lūdzu. Re nu.
+Lūk, ko paveicis Jēzus!
 Maikls nesekmīgi centās tevi uzmundrināt visu vakaru.
 Maikls tagad ir mans vīrs.
 Maita! Es taču liku nākt vienam!
@@ -1093,7 +1465,10 @@ Maize vienmēr ir ar garozu.
 Malā, resni!
 Mamma teica, lai stājos arhitektos.
 Mamma, man ir klients!
+Mamma, tēt! Mans rotaļlācītis ir dzīvs!
+Man ar tevi jārunā.
 Man arvien vairāk šķiet, viņi tev neuzticas.
+Man arī ir kas sakāms.
 Man arī ne.
 Man arī pašam derētu noregulēšana.
 Man bija jāstrādā, un te nu es esmu.
@@ -1101,7 +1476,13 @@ Man bija taisnība.
 Man gan nepatīk!
 Man gan šķiet, ka mums ar viņu paveicās.
 Man garšo šīs pankūkas.
+Man ienāca prātā lieliska doma.
 Man ir bail.
+Man ir biļetes uz koncertu, un es vēlētos, lai nāktu man līdzi.
+Man ir daudz darba.
+Man ir daudz darba...
+Man ir desmit minūtes. Kur desa?
+Man ir draugs, esmu to teikusi.
 Man ir ideja.
 Man ir jāiet, mazais.
 Man ir jāsaņemās.
@@ -1112,41 +1493,61 @@ Man ir nobriedusi ģeniāla ideja.
 Man ir nospļauties!
 Man ir slikta priekšnojauta.
 Man ir slikti.
+Man ir sūdīgs darbs, un esmu apmierināts.
 Man ir tikai divi noteikumi.
+Man ir trīsdesmit pieci gadi, neko neesmu sasniedzis.
+Man jābrauc.
 Man jādodas prom kaut kā tāda dēļ, ko es neredzu?
+Man jādzīvo vienam. Mums jāšķiras.
+Man jāglābj attiecības.
 Man jāiet kopā ar jums.
 Man jāstrādā.
 Man jāziņo Padomei.
+Man kas sakāms.
+Man klājas labi.
+Man laikam šis tas jāpaskaidro.
 Man likās, tas ir viss.
 Man likās, tur rakstīts "uz redzi".
 Man nav attaisnojuma.
+Man nav bail!
 Man nav ne jausmas, kas tur bija.
+Man nekas nav jāspēj. Esmu sūda lācis.
 Man nekas nekaiš.
 Man neko nevajag.
 Man nevajag kabeļus.
 Man nospļauties, ko domājāt.
 Man patiešām vajadzētu būt.
 Man patiešām žēl.
+Man patīk paslēpes. Es slēpšos.
 Man patīk tava smarža.
 Man patīk.
 Man pietiek, viņa ir ārā no šejienes.
+Man prieks, ka nāc līdzi.
 Man tas ir jānopelna lai to pārdotu, tas nenāk viegli.
 Man tas neizdosies.
 Man tas patīk!
 Man taču nebija čungura. Tūlīt braukšu un samaksāšu.
+Man te ir improvizēta ballīte.
 Man teica savādāk.
 Man tepat ir labi.
 Man tev ir pusdienās sagatavots pārsteigums.
+Man tik ļoti žēl.
 Man trūkst vārdu, lai paustu prieku par iespēju dziedāt jūsu priekšā.
 Man tāpat ir labi. Es gribu mājās.
+Man tāpat labi.
 Man uzmetās zosāda!
 Man vajadzēja doties līdzi.
+Man vajadzēja svaigu gaisu.
+Man vajadzētu iziet laukā.
 Man vajadzētu?
 Man vajag draugu.
 Man vajag eksperta palīdzību.
 Man vajag jūsu palīdzību.
 Man vajag tavu palīdzību, dēls.
+Man vajag tikai minūti.
+Man vajag vīrieti, nevis puiku ar lācīti.
 Man vajag šos dokumentus.
+Man vienalga, ja vien esam kopā.
 Man viņi patīk.
 Man vēl kaut kas jāizdara.
 Man šis plāns neiet pie dūšas.
@@ -1155,23 +1556,34 @@ Mana māja.
 Mana māsa strādā bankā kopā ar šā līgavu.
 Mana pacietība ir galā.
 Mana paradīze zemes virsū.
+Mana sirds tika salauzta.
 Manai dzīvei ir jāmainās.
 Manas kājas joprojām sāp.
 Manas mājas pārdeva izsolē.
 Manas spējas ir dubultojušās.
 Mani brāļi neatgriezās mājās, bet es paliku. Un vēl esmu šeit.
+Mani nodomi nesaistās ar tavu draudzeni.
 Mani pajoliņi būs jau atlidojuši.
+Mani sabiedrības pīlāra gēni un tavs... tumšais, dūmakainais skaistums...
 Mans draugs.
 Mans humors ir nepārspējams.
 Mans jaunais labākais draugs.
+Mans labākais draugs kopš astoņu gadu vecuma.
 Mans mīļais burgers! Kur biji pazudis?
+Mans prieks par viņu ir tik viltots.
 Mans tētis arī bija lielisks.
 Mans tētis gribētu palikt pa nakti.
+Mans čoms Kārlis.
 Manu dārgo meitēn, tu šodien izskaties starojoša.
 Manu mūžīgo sievu.
+Manā mājā ir daudz jūsu bilžu.
+Manējā pēc pusgada miegā nopirdās.
+Martai bija taisnība.
 Maskavā ik dienu saplūst tūristi no visām pasaules malām.
 Maza apkalpošana, arī, kompliments no viesnīcas.
 Mazais, tu šodien biji ļoti labs.
+Mazajam Kārlim Ziemassvētkos tika kas īpašs.
+Mazajam Kārlim vienīgajam visā apkaimē bija grūti atrast draugus.
 Mazi cirtieni gāž lielus kokus.
 Mazos blēžus kar, lielos ceļ godā.
 Mazs cinītis gāž lielu vezumu.
@@ -1179,15 +1591,19 @@ Mazulīt, no kuras pasakas esi?
 Mazāk pļāpu, vairāk darbu.
 Medicīnisko kapsulu!
 Meistars nekrīt no debesīm.
+Melnie bagātnieki taču nemēdz kļūdīties.
 Met prom, ellē ratā!
 Metru uz priekšu, metru atpakaļ.
 Mierīgi, uzmanīgi.
+Mums ar Daigu jāpadzīvo divatā.
 Mums ar viņu jāauklējas līdz mūža galam, jo mēs esam viss, kas viņam ir.
 Mums arī.
 Mums bija tikšanās kaut kur pilsētā.
 Mums būs jāsniedz ekspertu liecības.
+Mums būtu kolosāli bērni.
 Mums ir beigas.
 Mums ir darbs darāms.
+Mums ir grūtības, bet viņš centās.
 Mums ir lemts viens liktenis.
 Mums ir lielākas problēmas.
 Mums ir maza ķibele ar kāzu kleitu.
@@ -1198,11 +1614,13 @@ Mums jākustas, nevis jāizkāpj.
 Mums jārīkojas ātri.
 Mums jātiek galā ar dzīvniekiem.
 Mums nav autiņa.
+Mums nekas nedraud.
 Mums neko neteiks.
 Mums tas ir jāizdara.
 Mums tas vēl noderēs.
 Mums tevis pietrūka.
 Mums vajag būt ļoti uzmanīgiem.
+Mums vajag iekšas.
 Mums vajag jaunu telefonu.
 Mums vajag mašīnu.
 Mums vajag plānu.
@@ -1214,17 +1632,28 @@ Mums viņa palīdzība nav vajadzīga.
 Mums ļoti žēl.
 Muļķis esi, vai?
 Mācos piecus gadus, bet vēl daudz kas jāapgūst.
+Mācījis atšķirt labu no ļauna.
 Mācīju tevi kopš zēna gadiem.
 Mājā ir divas signalizācijas sistēmas.
 Mājās atgriezīsimies bagāti.
+Mājās iedzersim šņabi ar zemeņu pieniņu.
+Māksla. Saproti?
+Māri, nokavēsim vakariņas ar draugiem.
 Māsiņas galīgi izlaidušās.
+Mēbeles par četrdesmit septiņiem dolāriem.
+Mēs ar Kārli aiziesim uz bāru.
+Mēs ar lāci būsim labākie draugi.
 Mēs ar puišiem gribam paplosīties.
+Mēs atkal varētu to izdarīt.
 Mēs centāmies tev palīdzēt.
 Mēs dodamies izjādē.
 Mēs domājām, ka tavi puiši paši tiks galā.
 Mēs dzīvojam brīnišķīgākajā valstī pasaulē, un pārējās valstis mūs apskauž.
 Mēs esam Maskavā.
+Mēs esam iemīlējušies.
+Mēs esam kopā divdesmit septiņus gadus.
 Mēs esam liftā!
+Mēs esam pērkona čomi, pērkons to zina.
 Mēs esam tik saderīgi, ka vājprāts.
 Mēs esam uz kara robežas, un tev būtu jārod diplomātisks risinājums.
 Mēs esam ķīlnieki.
@@ -1236,16 +1665,20 @@ Mēs jūs pavadīsim.
 Mēs kaut ko pazaudējām.
 Mēs kopā būvēsim daudz alas.
 Mēs kādu laiku uzkavēsimies.
+Mēs lūdzām Jāni izvākties, lai dzīvotu bez viņa.
 Mēs negribam nekādas scēnas.
+Mēs nevaram izlīgt. Viņa mani ienīst.
 Mēs nezinājām citu, kam zvanīt.
 Mēs nezinājām!
 Mēs nezinājām, ko darīt.
 Mēs neļausim cilvēkam kāpt uz jumta.
 Mēs samaksāsim, kad atbrauksi.
+Mēs saucām smieklīgus vārdus.
 Mēs savācām visu.
 Mēs taču esam gudrāki.
 Mēs tikai lūdzam piezvanīt un uzzināt, kur viņš ir.
 Mēs to dabūsim.
+Mēs varam iet citur.
 Mēs varam kaut kur aiziet parunāt?
 Mēs varētu būt perfektais pāris.
 Mēs varētu to izkausēt un uzliet no virspuses.
@@ -1261,9 +1694,13 @@ Mēģināju viņu sazvanīt, bet varbūt telefons ir sabojājies.
 Mēģināts nav vēl pazaudēts.
 Mēģināšu notriekt. Atceries uzdevumu!
 Mīlestība padarījusi tevi aklu?
+Mīlētu viņu, ja viņš būtu sētnieks.
+Mīļais! Zelta zvaigzne.
+Mīļais, nezinu, vai tur kas sanāks.
 Mīļo stundiņ.
 Mīļumiņ, ne tagad. Bet drīz, pavisam drīz.
 Mīļā, mēs esam gatavi griezt torti.
+Mūsu attiecībās nekas nav labojams.
 Mūsu bērniņš ir svētība.
 Mūsu dēls ir izgudrojis ļoti labu instrumentu.
 Mūsu mērķis ir cilvēces laime.
@@ -1274,24 +1711,44 @@ Nav jau pirmā reize.
 Nav laika.
 Nav ne jausmas.
 Nav nekā baisāka par nozaudētu mobilo.
+Nav nekā spēcīgāka par maza puikas vēlēšanos.
+Nav nemaz tik slikti.
 Nav par ko.
+Nav slikta dzīve, vai ne?
 Nav slikti. Tikai pārāk formāli.
 Nav tiesa.
+Nav tiesa. Esmu smalka dāmīte.
 Nav tā, kā tu domā.
 Nav viegli, ja?
+Nav vis.
+Nav vis. Jestrs paskats.
+Nav īstais brīdis.
+Ne jau omārs.
 Ne politikas, ne intrigu, ne kara.
 Ne tik priecīgi, nav gada jaunums.
 Ne tikai ar mani - viņš vispār ne ar vienu nerunāja.
+Ne viens, ne otrs neaizmirsa solījumu.
 Nebaidieties, mēs savu izcīnīsim.
+Nebaudāms gabals.
+Nebija ne jausmas.
+Nebiju gaidījis nākamo jautājumu.
+Nebrīnies tik ļoti.
+Nebīsties, kad dzirdi pērkona dārdus, ņem pērkona čomu un skaiti burvju vārdus.
+Nebūs karjeras, ja tērēsi laiku ar lāci.
 Nebūs kur paslēpties.
 Nebūs viegli kaut ko izvilināt.
 Nedari to!
 Nedomāju, ka jauneklis tiks galā.
 Nedomāju, ka tā ir laba ideja.
 Nedomāju, ka viņš tevi dzird.
+Nedēļu pēc šķiršanās ar draugu?
+Neesat domājis pārdot lāci?
 Neesi ko pazaudējusi?
+Neesi sevišķi iecietīgs?
 Neesi taču tāds egoists, Vilni!
+Neesmu apprecējis īsto un to nožēloju.
 Neesmu gana drosmīgs politikai.
+Neesmu vainīga, ka viņa nerunā angliski!
 Neesmu ņēmis vērā tavas mācības.
 Negaidīju, ka atsauksieties šai maskuballes tematikai.
 Negribēju vēl neko teikt.
@@ -1307,6 +1764,9 @@ Nekas, vēlāk sakopsim.
 Nekas? Nav nemaz tik slikts sauklis.
 Nekavējoties jāsūta turp kaujas vienība.
 Neklausies viņā!
+Neko neatceries?
+Neko neatceros. Biju tādā ķirsī.
+Neko negribu dzirdēt! Tu savāci?
 Neko neredzu!
 Neko neredzu. Viss aizmiglojies.
 Neko vairāk man nevajag.
@@ -1315,37 +1775,58 @@ Nekusties, es cenšos palīdzēt.
 Nekustieties un neko neaiztieciet.
 Nekustēties!
 Nekā nebija.
+Nekāda kaifa. Jārunā ar to čali.
+Nekādu bremžu.
 Nekādā gadījumā.
 Neliec man uz tevi gaidīt!
+Neliec nost! Es esmu ķezā.
 Neliecieties zinis. Turiet kuģi orbītā!
 Neliekas, ka pagājuši seši gadi.
 Nelūdz man to.
+Nemaz tā neizklausās.
+Nenorunājām.
 Nenoslēdzies sevī, ļauj man palīdzēt.
 Nenoturējās biznesā diez ko ilgi, bet tas ir ļoti neparedzams bizness.
 Nenovērsiet uzmanību!
 Nepateicīgais lops.
 Nepazaudē viņu!
+Nepazīstu tevi, ticu vīra vārdam.
+Nepierunāšu tevi ņemt mani atpakaļ.
+Nepievērs uzmanību.
+Neprotam smalki sarunāties, vai ne?
 Neprāts! Mēs nezinām, kur viņš ir!
+Nerunā man rupjības.
 Nerunā tā.
+Nesabojā visu.
 Nesaka gan, tas nav tiesa.
+Nesakiet, ka neesat nomēģinājuši.
+Nesalaid visu dēlī.
+Nesaprotu, kāpēc tu to pieciet.
 Nesatraucieties, es neesmu vājprātīgs.
 Nesauc mani tā!
 Nesen atveda vienu ūsainu, pārsistu seju, dabūjis ar strāvu.
 Nespirinies pretī.
 Nespēju, esmu vājš.
 Netaisiet nepatikšanas.
+Neticami iespaidīgs ieroču komplekts.
+Neticami, ka jau četri gadi.
 Neticami, vai ne?
 Netirinies!
 Netrakojiet!
 Netālu no Kišiņevas dzīvo čigānu zīlniece.
 Neuztraucies par to.
+Neuztraucies, es neko neriju.
 Nevajadzēja tā darīt.
+Nevajadzēja uzticēties. Esmu salietojies.
 Nevajag, šīs ir tavas kāzas.
 Nevajag. Es pats.
 Nevar būt, ka bija tik traki.
+Nevaru pamest darbu.
 Nevaru! Pedālis iestrēga!
 Nevienai no blakussēdošajām dāmām nav karotes.
 Nevienam nedrīkst ticēt.
+Neviens nav tā runājis ar mani.
+Neviens negaida nekādu bildinājumu.
 Neviens nezina.
 Neviens neēd tik daudz zefīru!
 Neviens no mums to nezināja.
@@ -1356,46 +1837,66 @@ Neviens to pat nenojauš.
 Neviens viņu neizārstēs.
 Neviens! Gribējām satikties!
 Nez kāpēc sen nav zvanījis.
+Nez vai vajag sūdzēties.
+Nezinu, bet es gaidītu bildinājumu.
 Nezinu, kas tas ir.
+Nezinu, vai spēšu stūrēt!
+Nezinu, vakar pietempos.
 Nezinu. Labāki pasaki tu.
 Nezinu. Lai viņi iet ellē.
+Nezinu. Man patīk skuķi.
 Nezinu. Sapņoju.
+Nezinu. Teica, ka esot ķezā.
 Nezinu. Veca.
 Nezināju, ka esi dzīvnieku aizstāvis.
+Nezināju, ka tev ir bērns.
+Nečakarē mani.
 Neķer kreņķi.
+Neļauj man aizmirst, ka mums kas jāizdomā par rītdienas spēli.
 Neņem ļaunā, mamma, bet žāvas nāk.
 Nešūpojies.
 Nežēlīgi sodu.
 Nieka lieta.
+No Bostonas priekšpilsētas nācis pats neticamākais stāsts.
 No karaļa par ubagu dienas laikā.
 No kreisās uz labo.
+No kurienes esi?
 No kurienes tu viņu zini?
 No kā man jāpiesargās?
 No maniem murgiem.
 No rīta varēsim kopā ieturēt broksastis.
+No tirdzniecības centra.
 No visas sirds lūdzos.
 Noaujiet kājas, bail no mikrobiem.
 Nodarbojos ar zinātni.
+Nodziedāsim pērkona dziesmu.
 Nokrita no griestiem!
 Noliec uz pakaļējā sēdekļa.
+Nolādēts! Esmu te darba darīšanās!
 Nolādēts, ja cilvēki grib gulēt vannā, lai paliek mājās.
 Nolādētā tehnika!
 Nometiet ieročus.
+Nomierinies.
 Nomierinies. Tas ir liels pagodinājums.
 Nomierinieties, stāstiet pēc kārtas.
+Nomēģini šo.
 Nopietni, es nekad iepriekš neesmu teicis runu.
 Noruna paliek noruna.
+Norunas nebija.
+Norunājām - nekādu dāvanu.
 Nosaka vietu.
 Nosaukumu aizmirsu, bet tur ir forši.
 Noskūpstiet viņu!
 Nost no ceļa!
 Nost no ceļa.
 Nost no manis.
+Noteikti, es apsolu.
 Noteikti, tie ir tavi.
 Novelc kreklu. Tā būs vieglāk.
 Noņem paneli.
 Nožēlosiet!
 Nu gan esmu iekritis!
+Nu ir pa īstam. Īstas briesmas.
 Nu ja!
 Nu ja. Saprotams.
 Nu jā, hormoni niķojās.
@@ -1406,11 +1907,15 @@ Nu ko...
 Nu ko? Ik pa laikam es arī dodos ar viņu izjādē.
 Nu kāpēc tik ilgi?
 Nu labi, lai kundzes likme paliek atvērta.
+Nu tad laikam šķiramies.
+Nu tad zini: es neesmu samulsusi.
 Nu tad, laipni lūdzu, Tom.
+Nu tad...
 Nu taču, pamēģini.
 Nu taču, uz priekšu. Nu taču!
 Nu taču, veči!
 Nu taču.
+Nu viņš pieder man, tēt?
 Nu! Uz priekšu!
 Nu, jā. Es jau īstenībā studēju, lai kļūtu par arhitektu.
 Nu, re...
@@ -1420,39 +1925,60 @@ Nu, un kā klājas?
 Nu, vai redzi?
 Nu, varbūt vairāk nekā pāris.
 Nu, viņi melo.
+Nudien būsim labākie draugi?
+Nudien neticami.
+Nudien.
 Nāc atpakaļ! Iedod buču!
+Nāc augšā.
 Nāc palīdzi sievišķiem.
 Nāc tik šurp!
+Nāc šurp.
 Nāc, laiks doties.
 Nāciet iekšā.
+Nāciet līdzi. Uz priekšu.
 Nākamais gājiens?
 Nāve ir dabiska dzīves daļa.
 Nē tu neesi no šejienes.
 Nē! Ko tas nozīmē?
 Nē! Pat nedomā!
 Nē! Viņiem savs darbs, mums - savs.
+Nē, Kārli. Mēs varam viņu atgūt.
+Nē, aiziešu.
+Nē, diez vai... Turklāt nelaikā.
 Nē, es apsolu tev.
 Nē, es arī tagad to nevēlos.
 Nē, es neesmu pensijā.
 Nē, es negribu.
 Nē, es nespēlējos...
+Nē, es nevaru. Vedīšu Daci vakariņās.
 Nē, es pagaidīšu šeit.
 Nē, izskatās pēc tevis.
+Nē, labāk aizved mani mājās.
+Nē, mamma, tiešām dzīvs. Paskaties.
 Nē, man ir labi. Paldies.
 Nē, man ir tikai viens.
+Nē, man nav noskaņojuma.
 Nē, mums tevis pietrūka.
 Nē, mēs negribam!
 Nē, mēs tos iemidzinājām.
 Nē, mēs vairs neesam draugi.
 Nē, ne tāpēc.
+Nē, neder.
+Nē, neesmu viens.
 Nē, nesaki tā.
 Nē, nē, neko sarežģītu.
 Nē, par restorānu neesmu samaksājis.
 Nē, paturi sev.
+Nē, pie durvīm bija tas pretīgais mūlis.
+Nē, sasodītu zelta saderināšanās riņķi.
 Nē, tas ir kas cits...
 Nē, tas ir lieliski.
+Nē, tas ir no "Piezīmju grāmatiņas".
+Nē, tas neder.
 Nē, tie visi ir satinušies kopā.
+Nē, tikai jūs abi.
 Nē, tu skatījies monitorā.
+Nē, tā arī nesaka.
 Nē, tāpēc ka es esmu iemīlējies tevī.
 Nē, un tu?
 Nē, šonakt ir tava nakts.
@@ -1460,16 +1986,24 @@ Nē. Ejiet prom.
 Nē. Es esmu.
 Nē. Man jātiek vaļā no tiem vadiem.
 Nē. Pagaidi.
+Nē. Paldies.
 Nē. Tev taisnība.
+Nē... Nekas.
 O, jā.
 Oho, tik ātri?
 Otrā sapnī mēs abi bijām atpakaļ vecajos laikos.
 Pa labi!
 Pa labi.
+Paaugstinu tevi amatā.
+Pabāz pirkstiņu man zem birkas.
 Pacel galvu.
+Padarīju tevi par varoni.
+Padod, šaujamo.
 Padomā par to.
 Paejiet malā, fiksāk!
+Pagaidi mazliet.
 Pagaidi mirkli.
+Pagaidi, atvaino.
 Pagaidi, es tūlīt būšu.
 Pagaidi, gribu tev kaut ko uzdāvināt.
 Pagaidi, kam?
@@ -1481,43 +2015,67 @@ Pagaidi. Tev vajadzēs šo.
 Pagājušoreiz pat paldies nepateica.
 Paietu astoņi gadi lai pabūtu uz šīs zvaigznes un atgrieztos.
 Paklau, tev ir jāiekaro vietējo sirdis un prāti.
+Paldies par jūsu izvēli. Laimīgu ceļu.
 Paldies par palīdzību.
+Paldies par to, ka esi godīgs.
 Paldies! Es jūs mīlu!
 Paldies, bet es neesmu ieinteresēts.
 Paldies, bet man ir kaut kur citur jābūt.
+Paldies, ka atnāci.
+Paldies, ka glābi mūs.
+Paldies, nāciet atkal. Preču ir daudz.
 Paldies, tā ir tēta.
+Paldies, vakars būs baiss.
+Paldies.
+Paldies. Atgriezīsimies pēc pārtraukuma.
+Paldies. Es atgriezīšos.
 Paldies. Īsts brīnums.
 Paldies. Ļoti patīkami...
+Paliec mierā.
 Paliec pa nakti. Pamēģini atslābināties, paskaties kā tev te patīk.
 Paliec pie helikoptera.
 Paliec pie kuģa.
 Paliec sveiks, draugs.
 Palieciet vietās!
 Palīdzi man! Palīdzi!
+Palīdzības dienests?
 Palīgā!
 Pameklēsim kaut ko lidotspējīgu.
 Pametis mašīnu.
 Panāksim vienošanos.
+Par daudz čupojos ar draugiem.
 Par greznu pasaku ar visām ērtībām.
 Par ko mēs vispār runājam?
 Par spīti tam, es neiebilstu pret boulingu otrdienās un daudz kaut ko citu svētdienās.
+Par tevi vien runājam.
+Par to es nebēdāju.
 Par to jāpateicas tavai apmācībai.
 Par to man šaubu nav.
+Par to neiedomājos.
 Par to neuztraucies.
 Par uzticību.
 Par viņiem nesēro.
+Par vēl četriem gadiem.
 Par vēlu. Lec!
 Parunāsim rīt no rīta.
 Parunāsim rīt.
+Parādi mums, Viktor.
 Parādi, kurš vads jāgriež.
+Parādīšu, ko man netīk citiem rādīt, negribu, lai pret mani izturas citādi.
 Pasaki man saukli, kad ienāk prātā, un es pierakstīšu…
 Pasaki man, uz kuru skaitli likt. Uzlikšu jūsu vietā.
 Pasaki tiem idiotiem, ko viņi izdarīja!
+Pasaki to vēlreiz.
+Pasaki, kad savāksi!
 Pasakiet, kad varēsim to kustināt.
 Pasaules gala pareģotāji rakstīs vienalga ko, lai tikai pievērstu sev uzmanību
 Pasaulē ir tikai divi cilvēku veidi.
+Pasaulīt!
+Paskat tik. Jūs esat burvīgas.
 Paskat, cik daudz svaigas gaļas!
 Paskaties uz sevi! Brauc mājās, tevi tur droši vien gaida sieva.
+Paskaties uz to čali.
+Paskaties uz to. Uz balto zivi.
 Paskaties uz viņa ģīmi!
 Paskaties, vecīt.
 Pasmaržo šo.
@@ -1530,26 +2088,37 @@ Pateicos... manu skolotāj.
 Pateiksi viņam?
 Patiesības nav.
 Patiesībā, priekš vairuma cilvēku, vai mūža iekrājums.
+Patlaban man nav naudas.
+Pats svarīgākais tavā dzīvē.
 Pavaicāšu kādam.
 Pavisam dīvains.
+Pazīstu to čali sen.
 Paņem kādu pīrādziņu.
 Paņem pēdējo somu.
 Paņem šo un piepildi.
 Pašnovērtējums - augsts, finansiālais stāvoklis - brīnišķīgs.
 Pelnrušķīte atpakaļ no balles.
+Pie Roberta un manis tev labi klāsies.
 Pie darba.
 Pie durvīm apsardze.
 Pie velna jūsu vienošanos.
 Pie velna, jā, ser.
+Pie velna, jā.
+Pie velna. Labi.
 Pie ģimenes sūtīsim viņu.
+Piecas minūtes, un tevi izdzīšu.
 Pieci tūkstoši.
 Piedod, aizkavējos.
 Piedod, es nevaru.
 Piedod, ka aizsvilos.
 Piedod, lūzeri.
+Piedod, piedod. Vai sāp?
+Piedod, salaidu dēlī.
 Piedod, ēzeļgalva.
 Piedod.
 Piedod. Mums patiešām žēl.
+Piedod. Tu esi noskaities.
+Piedodiet, es nevienu negribēju nobiedēt.
 Piedodiet. Man ir jāatbild uz zvanu.
 Piedāvāju noslēgt pamieru.
 Piekrītu, bet var izrādīties, ka ķeram vēju laukā.
@@ -1558,9 +2127,11 @@ Piemēram, zobārsts.
 Piesargies no sava drauga.
 Piesedz to stūri!
 Piesien viņus pie radiatoriem.
+Pievaldi mēli!
 Piezvanīšu tam, kurš izrakstīja recepti.
 Pieķeršanās rada greizsirdību.
 Pilnu jaudu, gatavojies bremzēt.
+Pilnīgs juceklis. Kas ir šīs meitenes?
 Pilotēšanas māka šeit nav būtiska.
 Pilsēta ar neatkārtojamu senatnīgu arhitektūru, platiem prospektiem.
 Pilsēta, kurā dzīvo laipni un inteliģenti ļaudis.
@@ -1569,32 +2140,46 @@ Pirmajā reizē tā notiek ar visiem.
 Pirmo atceros ne pārāk labi.
 Pirms gada apprecējos ar ķirurgu.
 Pirms četriem gadiem tas dulburis pārdeva tam muļķim narkotikas.
+Pirmā nakts manā skaistajā dzīvoklī.
+Pirmā nakts vienatnē.
 Piķis ir?
 Piķis, čungurs, dolāri, eiro, rubļi.
 Plāni mainās. Lidojam uz Vegasu.
 Plāno mūs visus nozāļot?
 Prasiet priekšniekiem, ko gribat. Jūs saņemsiet melus.
+Pretīgākais manā mūžā!
 Priecājies par tiem, kas apkārt.
+Priecīgu spēļu laiku.
+Priecīgus Ziemassvētkus, Daini.
 Prieks iepazīties.
+Prieks to dzirdēt.
 Priekš tevis viss ir tik vienkārši, vai ne?
 Priekšā nolaišanās ceļš.
+Prom no manis!
 Prom no šejienes! Bēdziet!
 Prom, ka tev saka!
+Prom, ņuņņa!
+Protams, Kārli.
 Protams, es zinu, ka viņi klausās!
 Protams, ka ne.
 Protams, ka tik labam darbam, par tik labu samaksu, ir kāds āķis…
 Protams, pārģērbām par kosmonautiem.
 Protams, tas tev jādara.
 Protams. Esmu pieaudzis.
+Protams. Labi.
 Protams. Tā tam ir jābūt.
+Prātīgi, trener, paldies.
 Puiši sadalījās.
 Puiši, brauciet.
 Puiši, man jau ir labāk.
 Pulkstens vienpadsmit. Ir laiks.
 Pupu daudzums pudelē ir saskaitīts.
+Purčikā labāk nerādies.
 Pusdienlaikā nekas nenāca prātā…
 Puškins atlidoja velns zina no kurienes un tomēr prata krievu valodu.
+Pārbaudīsim, vai esmu tev dārga.
 Pārbaudīts variants.
+Pārdevu to ģimenei ar četriem bērniem.
 Pāri drēbēm. Nolādēts.
 Pāris gadus pirms tevis.
 Pārslēgt stabilizatorus.
@@ -1602,19 +2187,31 @@ Pārsmieties var!
 Pārsteigsim viņus nesagatavotus.
 Pārāk smagi. Tie izkritīs cauri.
 Pārāk vājš.
+Pārākā jautrība.
+Pēc darba varētu.
 Pēc desmit gadiem kad koki būs izauguši, varēsi sēdēt paēnā, krēslā.
 Pēc deviņdesmit sekundēm es zvanīšu zvanu.
 Pēc divdesmit minūtēm.
+Pēc mēneša varēsi dzīvot, kā es dzīvoju.
 Pēc piecpadsmit minūtēm tev jādzied korporatīvajā pasākumā.
+Pēc piecām minūtēm izmetīsi?
+Pēc pāris stundām atjēgsies.
 Pēc sešiem mēnešiem.
 Pēc tam izvadāsi meitenes pa mājām.
 Pēc vakardienas pat es.
 Pēc visa, ko es esmu redzējusi...
 Pēc viņiem neskumsti.
+Pēc četriem gadiem tu vēl pārsteidz mani.
 Pēdējais, kas man ir vajadzīgs, ir vēl kāds uz šaušanu kārs plānprātiņš!
+Pēdējā laikā neesam.
 Pēdējā laikā neesmu par tevi pietiekami parūpējies.
+Pērkona čomi uz mūžu.
+Pērkona čomi uz mūžu?
+Pērkons mums netiks klāt, vai ne?
 Raizējas par tevi.
 Raķetes! Celies augšā!
+Re, kur dāmas!
+Re, kur viņa ir. Raizējos, ka neatnāksi.
 Reakcija varētu atklāt viņa nodomus.
 Redz tavu nākotni un apzinās, ka tavas spējas būs grūti savaldīt.
 Redzi? Viss kārtībā.
@@ -1623,43 +2220,68 @@ Redzu, ka joprojām vari pagrīļoties.
 Redzu, ka jūsu stāvoklis ir uzlabojies.
 Redzu, ka neizskatās labi.
 Redzu, ka to atceries.
+Redzēji, kā čalis gandrīz gāja bojā.
+Redzēji, kā čalis nokrita?
 Redzēsi, tev patiks.
+Redzēsim, cik labi pazīsti šīs ielas.
+Redzēsim, kurš pirmais to saodīs.
 Reiz bērnībā vienu pamēģināju.
+Reizēm es atceros to Ziemassvētku rītu.
+Rindā sadraudzējos ar kādu.
 Ripinies prom, citādi nožēlosi.
+Robert, drošības jostu.
+Roberta rotaļu stunda klāt.
 Robots nebūtu strādājis.
 Rokas augšā.
+Rokā esi, mērgli!
+Rokā esi. Labi...
 Rudiem matiem, gara auguma.
 Runa ir par tavu brāli.
 Runa jau nav par naudu.
+Runājot par smalkumu, šis ir dārgs restorāns.
+Runāju par nobriedušu cilvēku attiecībām.
 Rādi, ko spēj.
 Rīt lidosim pie tavas čigānietes.
+Rīt man daudz darāmā.
 Rūpējas par mums.
+Saderam uz simtnieku, rādīs nirēju bildi.
 Sadod viņiem!
 Sagatavoties uzbrukumam!
 Sakari pieņemti, jūrniek?
+Saki paldies Jurim.
 Saki savējiem, lai slēpjas.
 Saki viņiem es gribu tās redzēt tagad.
 Saki, ka tu joko.
+Salāti par puscenu, nekādu ierobežojumu.
 Salīdzinājumā ar viņu visi pārējie oligarhi ir bomži.
 Samaksa ir laba.
+Samaksāsiet daudz dolāru!
 Sameklē kādu, lai salabo.
 Sameklēsim aptieku.
 Sametīsimies un izremontēsim uz mūsu rēķina.
 Saprati?
 Saprati? Es runāju nopietni.
+Saproti, pirms viņa man nebija drauga.
 Saruna ir galā.
 Sarunu vedējs.
 Sarunāt, ka tu būsi laimīga.
 Sasodīts! Vediet viņu atpakaļ!
 Sasodīts, tu to esi godam nopelnījusi.
+Sasodītu spēļu lāci ar baterijām!
 Satiksimies ar viņu un saņemsim ciet.
 Satiksmi pilsētas centrā praktiski paralizējis nopietns negadījums.
 Satraucas vecāki, es sodu. Nežēlīgi sodu.
 Sauc apsardzi!
 Sauss gaiss.
+Savienojiet ar policiju.
+Savādi, ar mīlu vienmēr tā gadās, kad to nemeklē, ceļā tā trāpās.
+Savādi, ka neesmu teicis. Būšu piemirsis.
 Saņemsim ciet? Kādā veidā?
 Saša, šī ir pēdējā reize.
 Seko viņam!
+Seko viņiem.
+Sen jau grasījāmies...
+Sen jau nevajadzēja pīties ar tevi.
 Sen neesam tikušies!
 Sensenos laikos, tāltālā galaktikā...
 Ser, jūs mani dzirdat?
@@ -1668,42 +2290,65 @@ Simtiem reižu esmu teicis.
 Sit grīdā caurumu!
 Skaista māja.
 Skaisti, vai ne?
+Skaiti līdz simtam un tad meklē mani.
 Skat, cik brīnišķīgā slimnīcā ievietots priekšnieks.
 Skat, esmu precējusies.
+Skat, kas par krūšu muskuļiem. Kā vīram.
 Skaties uz mani, kad es ar tevi runāju.
 Skaties, cik priecīgs.
+Skolā tas nāca par labu, tāds reflekss.
 Skudras skrien pa kauliem.
+Skurbulis pagaist?
+Solīji, ka runāsim par darbu.
 Spriežot pēc dizaina, tas ir jaudīgs auto.
 Spēsi vadīt šo kreiseri?
+Starp citu, es nemaz nedejoju tik slikti.
 Starp citu, nav par ko.
 Starp citu, tas ir zaļš.
 Starp citu, tev ir kolosāla veste.
 Stop! Mums jābrauc augšā.
 Strādā kompānijai.
+Strādā šikā vietā, domā, tāpēc esi forša.
+Stulbi.
+Stulbs paskats.
 Stumiet pāri. Pagaidiet.
+Stāsta, ka burvestības sen izgaisušas no šīs pasaules.
 Stāt! Uz kurieni?
+Stāvi taisni, kad runā ar mani.
 Stāvi un neatkāpies!
 Stāvi, tev saka!
 Stāviet te un nekur neejiet!
 Stāvēt šeit!
+Suns ieķēra delmā un nelaida vaļā, līdz ugunsdzēsējs palīdzēja.
 Superīgi, vai ne?
 Sveiki visiem, mēs pārcelsimies uz dzīvojamo istabu
 Sveiki, dārgā. Kā tev iet?
 Sveiki, prieks iepazīties.
+Sveiki. Kā sviežas?
 Sveikiņi!
+Sveiks, Tedij.
+Sveiks, Tomas, kā klājas?
+Sveiks, kā veicas?
+Sveiks, vakar tiki klubā?
+Sveiks. Kā klājas?
 Sāc no sākuma un izstāsti mums, kas notika.
 Sākt.
+Sūdu būšana.
 Tad dariet savu darbu.
 Tad dodies ceļā.
+Tad es gaidīšu tevi augšā.
 Tad es pamodos.
 Tad es pie visa esmu vainīgs?
+Tad jau laikam labi.
 Tad jau redzēs.
 Tad mūs piemeklējis ļaunākais.
 Tad nevajag.
 Tad nu ir laiks, komandier.
 Tad palīdzēšu mājsolī.
+Tad saki, ko gribi.
 Tad tev jādara kaut kas cits.
 Tad tev jāzina, kas notika.
+Tad viņu izsūtīja atpakaļ uz Irānu.
 Tad, pārsteidzošā kārtā, es nonācu pie tā, ar ko es sāku.
 Tagad arī tu?
 Tagad ir citādāk.
@@ -1713,20 +2358,31 @@ Tagad pagaidi.
 Tagad pasaki, kur tu atradi to celtnieku?
 Tagad tev tiem ir laiks.
 Taisnība. Neienāca prātā. Paldies.
+Taisnību sakot, lieliski.
 Tajā viesnīcā arī nekā nav.
+Tajā īpašajā gada laikā, kad Bostonas bērni sapulcējas.
+Tam ir jānotiek.
+Tam jābūt netālu.
 Tam nav nekāds sakars ar ciematu.
 Tam tev vajadzētu padoties.
+Tam vajag iekšas.
 Tam šeit ir tiesības vairāk būt nekā tev.
 Tas arī viss.
+Tas atgādina, ka nav nemaz tik slikti.
 Tas bija diezgan iespaidīgi.
+Tas bija lieliski.
+Tas bija negadījums.
 Tas bija nepieciešams zaudējums.
 Tas bija noliktavā, viņi var uztaisīt vēl divus.
 Tas bija tikai sapnis.
 Tas bija viņš! Ķeriet rokā!
+Tas bija vājprāts.
 Tas brīdis ir pienācis.
 Tas būs smags.
 Tas būs sākums jaunai dzīvei jaunā pasaulē.
 Tas būs vissatriecošākais skats cilvēces vēsturē.
+Tas esmu es skolas nirēju komandā.
+Tas esmu es. Tu dzirdi?
 Tas esot bijis graujoši.
 Tas finansē tavu zinātni.
 Tas gan nav būtiski.
@@ -1734,20 +2390,25 @@ Tas ir Amerikāņu.
 Tas ir Antaress. Galvenā zvaigzne Skorpiona zvaigznājā.
 Tas ir brīnišķīgi, bet kāpēc man jāuzstājas šajā muļķīgajā tērpā?
 Tas ir brīnišķīgi.
+Tas ir brīnums.
 Tas ir bīstami.
 Tas ir gatavs.
 Tas ir gatavs?
 Tas ir grūtāk, nekā tu domā.
+Tas ir jāņem vērā.
 Tas ir jūsu pašu un jūsu biedru drošības labā.
 Tas ir klāt.
+Tas ir ko vērts.
 Tas ir kolosāli.
 Tas ir kā smagums man pie kājām.
 Tas ir labas.
 Tas ir labi.
+Tas ir mana zvana signāls?
 Tas ir mans kaķis.
 Tas ir mazliet dīvaini.
 Tas ir mazliet dīvaini. Pārbaudi.
 Tas ir mūsu profils.
+Tas ir nopietni.
 Tas ir nopietns solis, Alan.
 Tas ir normāli.
 Tas ir pats svarīgākais, vīri nedrīkst kāpt tur augšā.
@@ -1757,16 +2418,19 @@ Tas ir reāli kruts tipiņš. Oligarhs. Noplēsu šim septiņdesmit taukšķus e
 Tas ir skaidrs.
 Tas ir slikti?
 Tas ir smieklīgi.
+Tas ir stulbi, bet citādi zaudēšu viņu.
 Tas ir stāsts par zēnu un meiteni.
 Tas ir tavējais.
 Tas ir tikai šampūns, bet paldies.
 Tas ir tur.
+Tas ir viegli.
 Tas ir vienkārši, vai ne?
 Tas ir vienīgais iemesls.
 Tas ir viss?
 Tas ir zem ratiņiem.
 Tas ir šampūns.
 Tas kaķis šeit iegriežas reizi divos gados.
+Tas man ir pa prātam.
 Tas nav labi.
 Tas nav nekas apkaunojošs.
 Tas nav taisnīgi.
@@ -1775,6 +2439,9 @@ Tas nav šampānietis.
 Tas nenotiks.
 Tas nerada pazemību, tas ir apkaunojoši.
 Tas nomierina.
+Tas solis ar lāci nebija viegls.
+Tas sākās kādā pilsētiņā netālu no Bostonas.
+Tas taču neiespaidos darba attiecības?
 Tas taču tikai sapnis.
 Tas te nav kārtībā.
 Tas tev nevar būt pilnīgs pārsteigums.
@@ -1784,6 +2451,7 @@ Tas uz jums neattiecas.
 Tas vairs neatkārtosies, es apsolu.
 Tas viss ir zinātnes interesēs.
 Tas vārds tev piestāv labāk.
+Tas čalis ar lāci.
 Tas ļoti slikti izskatītos manā atskaitē.
 Tas, kuru meklējām.
 Tas, kurš kreisajā rokā.
@@ -1791,54 +2459,81 @@ Taupi spēkus.
 Tautai ir apnicis šis negadījums.
 Tava draudzība ar kancleru nesusi augļus.
 Tava kārta!
+Tava vēlēšanās piepildījusies!
 Tavas lietas nav nekas jauns.
 Tavs cimds.
 Tavs vecais skolotājs.
 Tavā vietā es būtu neprātīgi pārbijusies.
+Taču Martai nav tas jāzina.
+Taču birojā tā izturos pret visiem.
 Taču es zinu to, ko nezina neviens.
+Taču gribu sarūpēt ko īpašu.
 Taču laimes tik un tā nav.
+Taču lasu kā sešgadnieks, tā ka...
 Taču neesi drošs par viņu nodomiem, jā?
 Taču pagaidām paliec tepat.
+Taču tu esi man dārgāka par dzīvību.
 Taču tu gribēji to.
+Taču uzklausi mani acumirkli.
 Taču vairs nemānīsim cits citu.
 Taču vilku baram tas ir pa zobam.
 Taču viņa ir mana sirdsdāma.
+Taču viņš to nespēj.
 Taču šis bija kā akā iekritis.
+Te arī pavilksim svītru.
+Te būs atslēgas, nomas līgums un dāvana - atlaižu karte.
+Te ir manas mājas!
 Te ir vēl viens dzīvoklis.
 Te nav droši.
+Te nu es esmu.
 Te nu tas ir.
 Te pavadīsim daudz laika.
 Te viņa ir!
+Tedijs savā ziņā kļuva par slavenību.
+Teicu zāles čalim, lai uzlabo mantu.
 Teicu, ka man ir superīgākie strādnieki no Šveices.
+Teiksim tā.
 Teiktu gan.
+Telefons kaut kur iekritis.
 Telefonā ir aplikācija "Atrast mobilo".
 Tencinu.
 Tev gan ir iekšas te ierasties.
+Tev gan padodas.
 Tev ir brīnišķīgs dēls.
+Tev ir daudz problēmu, vai ne?
 Tev ir idejas, man ir ķēriens uz biznesu.
+Tev ir jāizvācas.
 Tev ir kaut mazākā nojausma, cik šis pasākums man izmaksāja?
 Tev ir rezerves plāns?
 Tev ir stipra sirds.
 Tev jābūt klāt iedvesmas brīdī, tāpēc seko viņai.
 Tev jāiet pie viņa.
 Tev jāizvēlas!
+Tev jāizvēlas, Kārli.
 Tev labāk neiejaukties.
 Tev nav jāsaprot.
 Tev nav te nekāda darīšana.
+Tev nebija jābūt tajā deju placī, bet es priecājos, ka tur biji.
 Tev nekad nevajag atvainoties.
 Tev nevajadzētu te atrasties.
+Tev patīk? Skaties.
 Tev pēdējā laikā esot gājis smagi.
 Tev taisnība. Tā bija kļūda.
+Tev tie patika.
+Tev vairs nav astoņi gadi. Tev ir trīsdesmit pieci.
 Tev vajag nomazgāties. Vai ne?
 Tev vajag vannu.
 Tev vienmēr padevās uz sitienu izdomāt saukli.
+Tev viss būs labi.
 Tev viss izdosies.
 Tev vēl ir viņas numurs?
 Tev ļoti gribas ar viņu satikties.
 Tevi apveda ap stūri.
 Tevi lūdza darīt ko negodīgu, vai ne?
 Tevi tas nomierina?
+Tevis dēļ es darītu visu.
 Tevī ir naids, tevī ir dusmas, bet tu neliec tās lietā.
+Tici man, es to varu.
 Tie ir mājdzīvnieki.
 Tie ir noziedznieki! Viņi jāaptur.
 Tie ir sūdīgi.
@@ -1851,6 +2546,9 @@ Tie noteikti jau tagad mūs vēro.
 Tie priecājas tevi redzēt, pieskrien klāt.
 Tie visi ir jāpārmet pāri malai.
 Tiekamies pusdienās, bērneļi.
+Tiekaties ik dienu, kopš esi izvācies.
+Tiem čaļiem nav tevis, kas pamudinātu.
+Tiem, kuri vairs neskatās ar bērna acīm, domāts stāsts par zēnu
 Tieši Maskavā piecdesmit procenti iedzīvotāju ir oligarhi.
 Tieši mērķī!
 Tieši tā!
@@ -1862,14 +2560,23 @@ Tieši šo pašu jautājumu uzdeva mans kolēģis.
 Tiešām nav nekā baisāka?
 Tiešām nē.
 Tiešām! Tāpēc es domāju pazīstamas sejas.
+Tiešām?
 Tiešām? Baigi labi.
+Tiešām? Vai tas nav aizraujoši?
 Tik daudz atmiņu.
 Tik daudz šņabja, cik vēlies, un vēl tūkstotis rubļu.
+Tik krasi mainīt savu dzīvi, lai draudzene būtu laimīga...
+Tik slikti nav.
+Tik slikti nemaz nav.
+Tik slikts un reizē tik labs ķinītis.
+Tik un tā mēs satiksimies. Visu laiku.
 Tik ļoti grūti tikt uz priekšu.
 Tikai Maskavā pat bomžiem ir pase ar Šengenas vīzu.
 Tikai Maskavā var piedzimt, laimīgi nodzīvot un ar cieņu nomirt sastrēgumā.
+Tikai neapmaldieties.
 Tikai nedomā lēkt.
 Tikai nekavējies.
+Tikai nepabrokastoju un netiku garāžā.
 Tikai nesaki, ka skrūvīte izkritusi.
 Tikai nevajag!
 Tikai personālam.
@@ -1880,6 +2587,7 @@ Tikai viena iemesla dēļ.
 Tikai viens pavediens - jūs!
 Tikko aizbrauca.
 Tikko aizgāja. Skrien, panāksi.
+Tikko esmu pārnācis no pilsoņu kara, tas izklausās vilinoši.
 Tikko uzzināju ko šausmīgu.
 Tiks izdarīts, pavēlniek.
 Tiksimies astoņos nulle nulle. Nāc viens.
@@ -1889,43 +2597,64 @@ Tiksimies sapulcē.
 Tiksimies ārpus pilsētas.
 Tirdzniecības centrā ir.
 To es zinu.
+To esmu tev parādā.
+To jau es saku.
 To mēs gribējām vaicāt jums.
 To mēs vēl redzēsim.
 To nedrīkst zināt pārāk ilgi.
 To nevar aprakstīt.
+Togad mums gāja ellīgi.
 Tom. Paņem mums zupu.
 Toms domāja, ka es neizdabūšu no tevis to reklāmas saukli šonakt.
 Toms sāka strādāt pie mums pirms divām dienām.
 Tomēr paldies ka pieturējies pie tā.
 Tomēr tā piedāvā ļoti savlaicīgu un unikālu iespēju.
+Tonakt pēc kluba līdz pieciem rītā ēdām olas un vafeles.
 Tos var dabūt tikai ar atļauju.
 Toties viņa tētis strādā Jemenas vēstniecībā.
+Tovakar mēs iepazināmies.
 Trakas lietas.
 Trako jūra, es sodu.
 Trakums!
 Trauks jāsūta no kreisās uz labo pusi.
+Trijos naktī kādam sūtīju ziņu, lai mani piekauj.
 Trīs mājas trīs dažādās valstīs.
+Trīsdesmit piecu gadu vecumā tev vēl bail no pērkona.
 Tu aizbrauksi, nodziedāsi viņa iemīļotāko dziesmu un pateiksi, kāds viņš ir zelta cilvēks.
 Tu apskaties apkārt.
 Tu apturēji to?
+Tu biji brīnišķīgs.
+Tu būsi jaunais filiāles vadītājs.
+Tu dari mani laimīgu.
 Tu droši zini?
+Tu drīksti noskūpstīt sievu, Kārli.
 Tu ej tur.
+Tu esi atgriezies!
 Tu esi auksts kā ledus.
+Tu esi briesmīgi uzpūtīga.
 Tu esi briesmīgs.
 Tu esi dakteris. Atrodi viņu.
 Tu esi diezgan tuvu.
+Tu esi foršs čalis, viņa - laimīga meitene.
 Tu esi gudrs.
+Tu esi ieradies īstajā brīdī.
 Tu esi jucis!
+Tu esi jucis! Jucis, vecīt!
 Tu esi klauns, vai?
 Tu esi kolosāls puisis.
 Tu esi kā bērns, trokšņo, pats nesaproti, ko dari.
 Tu esi kļuvis par varenāku.
 Tu esi labākais puisis, kādu zinu.
 Tu esi laimīgs?
+Tu esi lempis.
 Tu esi malacis. Mēs lepojamies ar tevi.
+Tu esi mans labākais draugs.
 Tu esi mans tētis?
 Tu esi mans čoms.
+Tu esi nejauka meitene.
+Tu esi nepārspējams.
 Tu esi nicināms, varaskārs vīrelis.
+Tu esi pieņemts.
 Tu esi pārāk prasīgs pret sevi.
 Tu esi pārāk satuvinājies ar kancleru.
 Tu esi stiprs un gudrs.
@@ -1934,10 +2663,16 @@ Tu esi tik... skaista.
 Tu esi vislabākā kandidatūra.
 Tu esi zaudējis.
 Tu esi ļoti gudrs.
+Tu esot dabūjis brāzienu.
 Tu gan esi pārdrošs.
 Tu gan esi ēzelis!
 Tu gribi lai es iedzeru vīna glāzi - uz tavas terases?
+Tu gribi, lai viņš būtu vīrietis.
+Tu izskaties draņkīgi. Kas vainas?
+Tu izskaties fantastiski.
 Tu izskaties lieliski.
+Tu izsmej mani? Esam kopā četrus gadus.
+Tu izturies kā mērglis.
 Tu joprojām esi mans labākais draugs!
 Tu kustini kāju pirkstus!
 Tu kādreiz dodies medīt?
@@ -1945,16 +2680,23 @@ Tu labi zini - ja nokavēsi, nedziedāsi vairs nekur.
 Tu labāk esi sasodīti laimīga.
 Tu lasi?
 Tu lieliski tiki galā.
+Tu lūdzi, lai atgriežos dzīvē.
 Tu mainīsies uz labo pusi.
 Tu man esi sarīkojis pasakainas kāzas.
 Tu man iespēri.
 Tu man neuzticies, vai ne?
+Tu mani neaizstāvēji.
 Tu mani nedzirdi?
+Tu mani pārsteidz.
 Tu mani slikti ietekmē.
+Tu maz klausies, ko saku? Tev tas rūp?
 Tu mums esi zvaigžņu eksperts, vai ne?
 Tu mums visiem melo.
 Tu mums ļoti palīdzētu.
+Tu nedabūsi manu lācīti!
+Tu neesi bijusi viena, kopš vien šeit strādā.
 Tu neesi daudz gulējis pēdējā laikā.
+Tu neesi pieklājīgs ciemiņš, vai ne?
 Tu neesi pieradis pie avatara ķermeņa.
 Tu neesi pirmais kareivis, kas šeit stāv ar pistoli.
 Tu neesi savā ādā.
@@ -1962,8 +2704,10 @@ Tu neesi tikai izglītots.
 Tu neesi vesels.
 Tu neesi?
 Tu nekad nezini.
+Tu nemaz necenties, bēdz no darba un kaifo ar rotaļlāci.
 Tu nesaprati.
 Tu nesaproti.
+Tu nespēj ne par ko uzņemties atbildību.
 Tu noteikti jūti, kādas man ir aizdomas.
 Tu nudien nesaproti.
 Tu nāksi?
@@ -1971,15 +2715,27 @@ Tu par tādu sapņoji.
 Tu pat neskaties.
 Tu patiešām centies.
 Tu pazaudēji signālu?
+Tu pārfrāzēji manu joku.
 Tu runā kā separātiste.
+Tu runā. Es saku: lai nāk.
+Tu saki, ka tik slikti nemaz nav, tātad ir gan slikti.
+Tu samaksāsi par sienu!
 Tu saproti, ko mēs šeit darām?
+Tu slikti jūties.
 Tu sūti veci kurš nemāk lasīt atrast vienu grāmatu.
+Tu taču arvien rūpēsies par mani?
+Tu taču neko neproti.
+Tu taču to vēlējies, vai ne?
 Tu teici ka viss būs labi.
+Tu tikai nedrīksti salaist visu dēlī, un drīz stāsies manā vietā.
 Tu to esi redzējis.
+Tu to izdarīsi?
 Tu to nevari darīt.
 Tu to neņemsi?
+Tu to paveici.
 Tu to vilksi atpakaļ uz auto.
 Tu to zini, es to zinu, mēs visi to zinām.
+Tu uzvarēji. Lai ir pēc tava prāta.
 Tu vairs neesi tu pats. Un nekad vairs nebūsi.
 Tu varēji būt sliktākā situācijā, mans draugs.
 Tu varētu pasēdēt kopā ar mani?
@@ -2006,15 +2762,19 @@ Tur mēs būsim drošībā.
 Turi līmenī.
 Turi muti!
 Turi rokas iekšā. Galvu uz leju.
+Turies no tā tālāk.
 Turklāt kādam jābūt par varoni.
 Turklāt tas tev palīdzēs nākamo sešu gadu laikā nesajukt prātā.
 Turp un atpakaļ.
 Turpini strādāt. Tas nekas nav.
 Tuvinieki uztraucas par tevi.
 Tuvojamies pārāk strauji.
+Tā arī būs.
 Tā arī ir.
 Tā arī stāviet.
 Tā bija tava ģeniālā idea noīrēt garāko limuzīnu.
+Tā biji tu.
+Tā dziedāja deviņdesmitajos.
 Tā es to nedomāju.
 Tā gan. Tieši to es gribēju.
 Tā ir alkatības ēna.
@@ -2027,12 +2787,15 @@ Tā ir mazāka.
 Tā ir metafora.
 Tā ir nodevība.
 Tā ir otrā puse.
+Tā ir patiesība, tici man.
 Tā ir pārāk maza.
 Tā ir taisnība!
 Tā ir taisnība.
 Tā ir te. Kolosāli.
 Tā ir ārkārtēja situācija, tā ka...
 Tā jau ir labāk.
+Tā jūtas aizmirsto seriālu zvaigznes.
+Tā ka es neesmu viens.
 Tā kuru tu gribi, ir šeit?
 Tā mēs līdz slimnīcai netiksim.
 Tā nav godīgi!
@@ -2043,6 +2806,7 @@ Tā nedrīkst. Visi paļaujas uz tevi.
 Tā nestrādā.
 Tā nu gluži nav taisnība.
 Tā nu sagadījies, ka viņš ir mans brāļadēls, bet neņem to vērā.
+Tā rīkojas pieaudzis cilvēks, sāc pamazām pierast.
 Tā tas beidzās... kā sacīt jāsaka.
 Tā teikts pareģojumā.
 Tā tik ir māja!
@@ -2056,6 +2820,8 @@ Tādā gadījumā tā ir nodevība.
 Tādā izskatā iekšā iet nedrīkst.
 Tāpat kā viss, kas atrodas šajā istabā.
 Tāpēc arī nezvana, ka piķa viņam ir kāliem.
+Tāpēc esmu zaudējis savu lielo mīlu.
+Tāpēc jau skatos.
 Tāpēc, ka es liku.
 Tāpēc, ka mūsu pasēm vienmēr jābūt pie priekšnieka.
 Tās ir muļķības.
@@ -2066,45 +2832,68 @@ Tātad naģene un ūsas. Vai tā?
 Tātad nolēmi ierasties šeit, pilnīgi bez nekādām iemaņām, lai redzētu, kas sanāks?
 Tātad palaidiet mani.
 Tātad tomēr atpazināt.
+Tātad viss ir labi.
 Tēt, Roberts taču ir malacis?
 Tēt, nomierinies!
 Tēt, varam aprunāties?
+Tētis mani sodīja.
 Tēvoci Vaņa!
 Tīrais nieks.
+Tīri labi.
 Tūliņ sāksies īstā jautrība.
 Tūlīt atlidos mani pajoliņi un par trim rubļiem visu saķimerēs.
+Tūlīt būsim atpakaļ. Ejam, čomiņ.
 Tūlīt es jums kaut ko sameklēšu.
+Tūlīt iešu.
 Tūlīt. Pamazītiņām.
+Ugunsdzēsēji tā nedara.
 Ugunsdzēsēju kuģi abās pusēs.
 Un Republika kļuvusi par ļaunumu, pret kuru cīnāmies?
 Un atalgojums ir labs.
 Un atstāji viņam stroķi?
 Un bērniņš?
+Un cilvēki nevar tikt pie kārotā, izsakot vēlēšanos.
 Un dabūsim tavu grāmatu.
 Un es esmu jūsu lielākā cerība.
 Un es esmu nonākusi pie slēdziena, attiecībā uz reklāmas saukli.
+Un es nosolījos: ja man reiz būs dēls, es viņam nekad neteikšu nē.
+Un es tevi nevainoju.
 Un es, muļķis, nodarbojos ar ainavu dizainu.
 Un ir cilvēki, kas gribētu zināt rezultātu.
+Un ja nu viņš izvēlas lāci?
 Un jūs arī tāds nemierīgs. Svīstat.
 Un jūs esat īsāks, nekā es biju gaidījis.
 Un kas tad notika?
+Un kā ar pērkona draugiem uz mūžu?
 Un kā vēl.
 Un kāds par to samaksās.
 Un kāpēc tu ieradies?
+Un mans draugs pērkona laikā neguļ bez sava lācīša.
 Un manu mammu arī.
 Un negurķojieties.
+Un nu pazūdi.
 Un par labu algu. Ko tu par to saki, Tom?
 Un pareizi, ka nevajag.
+Un reizēm ne.
 Un tad tu saproti, ka tāds tu esi. Tu tikai to nezināji.
 Un tad, pulkstens divdesmit trijos, līgava un līgavainis sagriezīs torti.
 Un tad?
+Un tagad es stūķēšu mutē kūku!
 Un tagad viņš apstājas. Vēl pusotrs metrs ko pabraukt.
 Un tas ir tavs.
 Un tas ir viss?
 Un tas mani dara bažīgu.
+Un tev?
 Un tevi vēl māca šaubas?
+Un tu esi labs ķēriens.
+Un tu esi nejauka.
+Un tu redzēsi, viņš vairs nebaidīsies no pērkona.
+Un tu?
+Un tā atdzīvojās.
 Un uz ko man jāskatās?
 Un visdārgāko kāzu plānotāju uz planētas.
+Un viņš vairs nav tavs vienīgais draugs.
+Un viņš zināja: ja atradīs šo draugu, nemūžam no viņa nešķirsies.
 Un zeltu arī.
 Un šis te ir mans mazulītis.
 Un šoreiz tu neizbēgsi.
@@ -2113,6 +2902,7 @@ Uz "trīs" pārgriez pelēko vadu.
 Uz Maskavu brauc zaudēt nevainību, taču zaudē naudu, dokumentus un mobilo telefonu.
 Uz Zemes šie puiši bija armijnieki, kareivji, kas cīnās par brīvību.
 Uz drīzu redzēšanos. Bučas no tava muļķīgā tēta.
+Uz dīvāna ir tavs kolēģis.
 Uz ielas tevi gaida taksis.
 Uz ko tu skaties?
 Uz ko tu īsti cerēji?
@@ -2121,28 +2911,40 @@ Uz kurieni tu?
 Uz kurieni viņu pavadīt?
 Uz kurieni? Uzvelciet bahilas!
 Uz kuru tu īsti skaties?
+Uz mani iedarbojas.
+Uz mūžīgiem laikiem?
 Uz redzi.
+Uz redzi. Ejam, Robert.
 Uz redzēšanos.
 Uz rietumiem.
 Uz tikšanos!
 Uz virtuvi.
+Uz visiem laikiem.
 Uz šo pusi?
 Uzdāvināja viņam to auto, kas pārsiets ar sarkanu lentīti.
 Uzklausi labāko draudzeni.
 Uzklausi mani.
+Uzliec modinātāju uz vienpadsmitiem.
 Uzlikt skābekļa maskas! Uz priekšu!
 Uzlikt skābekļa maskas! Veicīgi! Uzlikt maskas!
 Uzmanies!
 Uzmanību visiem. Šī ir mana jaunā palīdze.
 Uzmanību. Aiziet.
 Uzmanīgi klausieties manus norādījumus un dariet tieši to, ko jums liek.
+Uzmauc to manā spalvainajā pirkstā!
+Uzmini.
 Uzreiz tā būtu teicis.
 Uztaurē savai mammai!
+Uzticies man. Mīlu tevi.
 Uzņemam ātrumu.
+Uzņēmumam būs divdesmit gadu jubileja.
 Vadītāja personība nav noskaidrota, jo viņam nav bijis nekādu dokumentu.
+Vai apskausimies?
 Vai atceries mani?
 Vai dieniņ.
 Vai drošībā?
+Vai drīkstu apsēsties?
+Vai drīkstu paskaidrot?
 Vai drīkstu tev doties līdzi?
 Vai dzirdi mani?
 Vai dzirdi?
@@ -2152,8 +2954,10 @@ Vai es gribu?
 Vai esam klāt?
 Vai esat redzējusi tā minivena šoferi?
 Vai esi te ilgi strādājis?
+Vai iesaiņot pārpalikumu?
 Vai iespējams apgūt šīs spējas?
 Vai ir kāda brīva mašīna?
+Vai ir pusdesmit?
 Vai jūs bijāt kāpņutelpā?
 Vai jūs būtu tik laipni, un piedalītos kāzu pupu loterijā?
 Vai jūs esat redzējuši ko tādu?
@@ -2165,32 +2969,48 @@ Vai jūs varat man palīdzēt?
 Vai jūti tirpoņu vai sāpes?
 Vai jūti vājumu, reibst galva?
 Vai kaut kā tā.
+Vai kāds zina jauku restorānu kur, tualetē dod košļenes?
 Vai kādu tur manījāt?
 Vai mamma zina, ka tu esi šeit?
+Vai man ir taisnība?
 Vai mana jaunā adjutante lūdzu nepaskaidrotu konkrētāk savu domu gājienu attiecībā uz saukli?
 Vai mans uznāciens būs drīz?
+Vai ne, Kārli? Tā es teicu.
+Vai ne?
+Vai ne? Tu tā nedomāji.
 Vai neredzi, ka tu mums ar meitenēm nepatīc?
 Vai nesaprotat?
 Vai nevaram parunāt?
 Vai nu velti tev desmito reizi dzīvību glābu.
+Vai pastāstīsi mums par sevi?
 Vai pietiks?
+Vai pirms spēles jānomazgā rokas?
 Vai problēmu rada tas?
 Vai redzat grīdu, uz kuras stāvat?
 Vai spēsi, dēls?
+Vai tad ar mīlestību nepietiek? Pietiek!
 Vai tad es runāju ar tevi?
 Vai tad es tev neteicu? Viņa nevar vien beigt strādāt, pat ne kāzu naktī.
 Vai tas ir atlūgums?
+Vai tas ir kanibālisms?
 Vai tas ir normāli?
 Vai tas tevi uztrauc?
+Vai tev ir pieci gadi?
 Vai tev kas kaiš? Tu trīci.
 Vai tev kaut kas izdodas?
 Vai tev kāds sekoja?
+Vai tevi aizvest?
 Vai tevi pilnīgi pārņēma tava emocionālā dzīve?
+Vai tu apsoli, ka mēs vienmēr būsim kopā?
+Vai tu esi itālietis?
 Vai tu mani dzirdi?
+Vai tu mani precēsi?
 Vai tu maz saproti, kas notiek?
 Vai tu neiepļaukātu labi kārtīgi savu tēvu manā vārdā, lūdzu.
 Vai tu re! Kas tas?
 Vai tu saproti?
+Vai tu te esi viens?
+Vai tu tikko runāji?
 Vai tu turi to pašu vadu?
 Vai tu viņu dzirdēji?
 Vai tu vēlētos piebiedroties?
@@ -2202,18 +3022,25 @@ Vai vajag vēl kaut ko?
 Vai varam aprunāties aci pret aci?
 Vai varu ienākt?
 Vai varu jums uzticēties?
+Vai varētu atvērt vēl kādu kasi?
 Vai viss kārtībā?
 Vai viņa pateica, kāpēc?
 Vai viņi arī ir maskuballes tērpos?
 Vai viņi atrada tavu grāmatu?
+Vai vēlies ko iedzert?
 Vai zini, ka pāris kvartālus no šejienes ir Parīzes kopija?
 Vai zinājāt, ka šeit viss ir no marmora?
 Vai zināt, ka tā nav parasta grīda?
 Vai, atrodot savu dzīves vīrieti, tu pazaudēji spēju strādāt?
+Vaino mani par to, par ko jāvaino sevi.
+Vainojot mani, pataisi sevi par nīkuli.
+Vainīgs. Sūtīju tvītu.
 Vairs ne, mērgli.
 Vairs necerēju, ka lūgsi.
 Vairs nezina mēru.
+Vairs viņu nezaudē.
 Vairāk nekā tu.
+Vairāk pat par dzīvību.
 Vairāk, nekā tu spēj iedomāties.
 Vajadzēja ierīkot dušas viesu spārnā.
 Vajadzēja izdomāt kā nākas!
@@ -2221,14 +3048,20 @@ Vajadzēja saprast, ka nejūties gatava vakardien.
 Vajadzēs palīgus.
 Vajadzētu mazākais piecus miljonus gadu, lai sasniegtu Andromedas miglāju un atgrieztos.
 Vakar runāju ar šefpavāru.
+Vakariņas draugu lokā.
+Valdi! Vai varam aprunāties?
+Valdi, tas ir jauki, bet es no tevis to negaidu.
+Valdis rīko mājas ballīti, brīnos, ka Kārlis nav stāstījis.
 Valērij? Kas tas? Smaids?
 Var jau būt.
 Varam sagatavot priekš tava tēva.
 Varat lepoties ar sevi.
 Varat to pakustināt?
+Varat zvanīt dienā un naktī.
 Varbūt arī melojat.
 Varbūt došos izjādē.
 Varbūt es pazemīgi varētu piedāvāt savus pakalpojumus?
+Varbūt esi kādā pagrīdes biedrībā?
 Varbūt iedegsim sveces?
 Varbūt iedzeram vīna glāzi kopā?
 Varbūt iekodīsim?
@@ -2243,6 +3076,8 @@ Varbūt mēs varētu kādā no kokiem iekārt nelielas šūpoles.
 Varbūt ne tādēļ iedeva.
 Varbūt paziņot par mašīnas zādzību, lai policija sāktu meklēt?
 Varbūt paēdīsi sīpolu zupu kopā ar mums?
+Varbūt pēc četriem gadiem viņa cer uz ko lielāku par vakariņām?
+Varbūt spēlēsim paslēpes?
 Varbūt sviestmaizi?
 Varbūt tas ir pēdējais šampūns uz planētas.
 Varbūt viņa jums līdzēs kļūt laimīgam.
@@ -2251,23 +3086,39 @@ Varbūt viņai bija slikts garastāvoklis.
 Varbūt šādā laikā viņam jābūt kopā ar ģimeni.
 Varbūt, ka drošākā rīcība ir nepareiza.
 Varbūt. Bet tik un tā man nav krekla.
+Vareni!
 Vari aiztaisīt rāvējslēdzēju?
 Vari lūdzu paiet malā?
+Vari man piezvanīt?
+Vari viņam piezvanīt?
 Variet pabraukt vēl nedaudz atpakaļ.
 Varoņi cīnās abās pusēs, ļaunums visur.
+Varu apzvērēt, pie vainas ir tas lācis.
+Varu būt kaut vai jurists.
 Varu paskatīties, lūdzu?
 Varu pateikt tikai vienu, izbaudiet kamēr variet.
+Varu tev sadot.
 Varu uzreiz pateikt, ka darba tirgū nav nemaz tik daudz piedāvājumi.
 Varētu teikt, ka šī jumta daļa ir bīstamākā vieta pasaulē.
 Vecais, tas ir vienkārši nepareizi.
+Vecā balss.
 Vecīt, vai neredzēji divus pajoliņus oranžos tērpos?
+Vecītis būs ievērojis, ka biji labs zēns.
 Veicīgi braucam prom!
+Velc iekšā.
 Velna būšana!
+Velna milti! Ko?
+Velns lai parauj! Četri gadi, Kārli.
+Velns, es nevaru!
+Velns, man jāiet uz darbu!
 Velns. Ej laukā.
+Velns. Sasodīts, kopš tā laika, kad...
+Velns. Šodien man otrā maiņa.
 Veltīsim viņam aplausus.
 Veste un spieķis? Kolosāli.
 Veči, nu paklau!
 Veči, vai no šejienes aizbrauca divi viesstrādnieki ar bembi?
+Veļas mīkstinātāja fabrikas grāmatvedis.
 Viena dzīve beidzas, cita sākas.
 Viena no bandām ieradās pilsētā.
 Viena skrambiņa, un mums būs vāks.
@@ -2276,22 +3127,30 @@ Vienkārši atver durvis, un kāp iekšā.
 Vienkārši dari, kā es tev teicu.
 Vienkārši neticami.
 Vienkārši tā.
+Vienmēr esmu gribējusi tikai tevi.
+Vienmēr grib palīdzēt.
 Vienmēr ir izvēle.
 Vienmēr kustībā.
+Vienmēr lieliski! Gribas izsukāt.
+Vienmēr prieks satikt tavas draudzenes.
 Vienmēr visus tas uztrauc.
 Viens atgriezās, otrs ne.
 Viens es netikšu galā.
 Viens no jums rīkojās kā draugs.
+Vienu glāzi. Lūdzu.
 Vienu mirkli!
 Vienu uz priekšu.
 Viesi gaida jau vairāk nekā divas stundas.
 Viktor, viss būs labi. Nesatraucieties.
 Viktoram dzīvē nav laimes.
 Vilku bars.
+Vinš ir zelta vērts.
+Visforšākais vakars!
 Visi glābšanas moduļi palaisti.
 Visi gribēja zināt, kur viņš ņēmis tik daudz naudas.
 Visi jūs mīl.
 Visi, kas tikuši pie varas, baidās to zaudēt.
+Visiem bija grūts vakars.
 Visiem no ciemata ir jādodas.
 Visiem nomierināties!
 Visiem, lūdzu uzmanību.
@@ -2304,12 +3163,17 @@ Vispirms, noliec šķīvi.
 Vispār nekāda, protams!
 Viss bija salikts pa plauktiņiem.
 Viss bija tik labi.
+Viss būs labi, draudziņ.
 Viss būs labi.
 Viss ir labi!
 Viss ir labi! Kārtībā!
+Viss ir labi.
 Viss ir ļoti neparasti.
 Viss kārtībā!
+Viss kārtībā, mīļā?
 Viss kārtībā.
+Viss kārtībā. Pamazām sāku pierast.
+Viss kārtībā? Ak kungs, atvaino.
 Viss labi, tas ir par brīvu.
 Viss labi?
 Viss pareizi? Es klausos.
@@ -2317,8 +3181,11 @@ Viss uz mana rēķina, tāpat tu un tavi draugi var palikt.
 Viss varēja būt daudz savādāk.
 Viss. Autiņš ir zaudēts.
 Visu cieņu, bet vai viņš nav izredzētais?
+Visu dienu, katru dienu. Šausmīgi.
 Visu es neapdomāju.
 Visu esmu pareizi sašifrējis.
+Visu labu.
+Visu laiku.
 Visu pēc kārtas.
 Visām baterijām - uguni! Uguni!
 Viņa drīz būs šeit.
@@ -2326,12 +3193,18 @@ Viņa ieteica.
 Viņa ir lieliska.
 Viņa ir pārsteidzoša.
 Viņa ir slima.
+Viņa ir stāstījusi, kā tu izturies.
 Viņa joprojām guļ.
 Viņa man atkal uzsmaidīja!
 Viņa nemaz nav tāda, kā es domāju.
 Viņa sabojāja manas kāzas. Es uz viņu pat neskatīšos.
 Viņa slikti ietekmē tevi.
+Viņa tev to liek, vai ne?
+Viņa tā nedomāja.
+Viņa vairs nav tik glīta.
 Viņa var dabūt šo.
+Viņai patīk mani joki.
+Viņam ir krietna sirds, mums ir jautri.
 Viņam ir mana māja, mana dzīve.
 Viņam ir ģimene?
 Viņam ir ķīniešu akcents.
@@ -2340,6 +3213,8 @@ Viņam jāstājas tiesas priekšā.
 Viņam par to vajadzētu paklusēt.
 Viņam taisnība.
 Viņam truli gribējās palielīties.
+Viņam tu vairāk izdabāji.
+Viņam viss labi?
 Viņdien es saņēmu jocīgu e-pastu.
 Viņi aizskrēja uz dūzeni.
 Viņi atvieno vadību.
@@ -2361,6 +3236,7 @@ Viņi mūs novēro.
 Viņi neizņēma satura rādītāju.
 Viņi nezināja.
 Viņi nāk ārā!
+Viņi pašķīrušies, vienam kāja iesprūdusi klintī.
 Viņi piečakarēja arī mani.
 Viņi pieļāva kļūdu.
 Viņi rūpējas tikai par citiem.
@@ -2382,7 +3258,9 @@ Viņš atveda divas sievas un četrdesmit divus miljonus zelta stieņos.
 Viņš bija ietinies segā, galvu noliecis uz leju.
 Viņš bija tas, kurš gribēja lidot tālu visumā, lai rastu atbildes.
 Viņš bija ugunsdzēsējs.
+Viņš būs tavs, tikai tavs.
 Viņš cenšas.
+Viņš deva man pašpaļāvību.
 Viņš dzīvo ciematā.
 Viņš gandrīz uzreiz saprot, ka viņa ir tā, ko viņš meklējis.
 Viņš gribēja trīs lietas.
@@ -2393,6 +3271,7 @@ Viņš ir aizbēdzis.
 Viņš ir alkatīgs mērglis.
 Viņš ir ar mani, saprati?
 Viņš ir atlaists.
+Viņš ir foršulis, tas ir papildu pluss.
 Viņš ir izkūkojis prātu!
 Viņš ir nevaldāms.
 Viņš ir nodevējs!
@@ -2406,6 +3285,7 @@ Viņš izslēgs staru vairogus.
 Viņš jums visiem vēl parādīs...
 Viņš man iedeva naudu.
 Viņš man ir vajadzīgs!
+Viņš man ir ļoti dārgs.
 Viņš mani nepievils.
 Viņš mani sargā.
 Viņš mums samaksās piecsimt rubļu.
@@ -2416,12 +3296,17 @@ Viņš nepaliks.
 Viņš nezina nekā. Es viņu nolīgu uz vietas.
 Viņš nāk šurp.
 Viņš pamatīgi norausies.
+Viņš runā!
 Viņš saka, tā ir drošāk.
 Viņš spēja glābt cilvēkus no nāves?
 Viņš taču ir garā vājš kretīns.
+Viņš to atzina.
 Viņš to dara tīšām!
+Viņš visu salaidis dēlī, bet tici man, tā nebija tikai viņa vaina.
 Viņš šeit atpūšas.
 Viņš šo noskūpstīja?
+Vārdu nezinu. Šķiet jauka.
+Vēl divdesmit minūtes līdz darbam.
 Vēl gaidu.
 Vēl kādi stulbi jautājumi?
 Vēl pat neesam tikuši pusē.
@@ -2432,18 +3317,32 @@ Vēl viena laimīga nolaišanās.
 Vēl viena tāda izgāšanās un iesiet sargāt kioskus. Skaidrs?
 Vēl vienu glāzi, lūdzu.
 Vēl vienu kumosu.
+Vēlu tev laimi. Tu esi to pelnījusi.
+Vēlāk tev piezvanīšu.
+Vēlējos, lai mana dzīve atgriežas.
 Vērsieties pie manis jebkurā jautājumā.
 Vēstulē pēc vēstules gatavās muļķības.
+Vīrietis. Viņš ir tavā priekšā.
 Vīteņaugu vairogs joprojām vaļīgs!
 Zelts ir šeit.
 Zibens aizlido!
+Ziemassvētku brīnums.
+Zini ko? Pazūdi.
+Zini, Marta mani par to ienīstu.
 Zini, cik tur ir pudeļu?
+Zini, ka pēc vakarnakts negribu zaudēt tos, kuri man dārgi.
+Zini, kas man tevī patīk vislabāk?
+Zini, ko es ar viņu darītu?
 Zini, ko es domāju par tavu plānu?
+Zini, ko protu?
 Zini, kāda galoša mums trāpījusies.
 Zinu, ka viņi neuzticas jums.
 Zināt, cik ļoti viņam tas patīk.
+Zvanīja tavs šefs, jautāja par darbu.
 Zvēru, nezinu, kāpēc nozaga autiņu.
+Zvēru, runa būs par darbu.
 Zvērēju nekad šeit neatgriezties.
+Zēna spēļu zvēriņš brīnumainā kārtā atdzīvojies...
 Ā, tas esi tu.
 Ābols no ābeles tālu nekrīt.
 Ārā uz terases.
@@ -2451,29 +3350,42 @@ Zvērēju nekad šeit neatgriezties.
 Ātrāk, draugs!
 Čaklam vīram slinka sieva.
 Čakls zirgs iet bez pātagas.
+Čalim trīsdesmit pieci gadi, bet viņš strādā autonomā.
+Čalis, kas to vada.
+Četrus gadus biju draņķīgs draugs.
 Čigāniete patiesi palīdzēs?
+Čoms ar brālēnu ir te, uzmini, kas vēl!
 Čābīga glābšanas operācija.
 Čīkst kā neiesmērēti rati.
 Ēd gariem zobiem.
 Ēd kaut zāli, bet turi vārdu.
+Ēdamistabā skatījāmies televīziju.
 Ēdiens ar piegādi.
 Ēdienu viņam gatavo Parīzē viņa personīgajā restorānā.
 Ēdiet un apdomājiet, kā katram pelnāms.
 Ēdīsi tad, kad teikšu!
 Ģīmis šķiet līdzīgs.
 Īlenu maisā nenoslēpsi.
+Īpašs vakars. Esam kopā četrus gadus.
 Īsti aktieri!
 Īstie zinātnieki tā nesaka.
 Īsts itāliešu akcents.
 Īsts itāliešu restorāns.
 Īsākais ceļš ne vienmēr ir labākais.
 Ķeramies pie darba.
+Ķeriet viņu!
 Ļauj apskatīt.
 Ļauj man ievilk elpu.
+Ļauj man pateikt.
 Ļauj minēt, viņš ir tur?
 Ļauj paskatīties.
+Ļauj vēlreiz mēģināt. Es labošos.
+Ļauj, es tev palīdzēšu izlīgt ar Daigu.
+Ļaunākais, kas var notikt, tev būs jautrs randiņš.
+Ļaužu, ka čum.
 Ļoti daudz naudas.
 Ļoti gruntīgs pāris.
+Ļoti jauka.
 Ļoti laba alga.
 Ļoti labs.
 Ļoti patīkami. Priecājos.
@@ -2484,9 +3396,12 @@ Zvērēju nekad šeit neatgriezties.
 Ņem, aizbrauksi ar ģimeni uz Melnkalni atpūsties.
 Ņemiet pastāvīgā klienta karti ar desmit procentu atlaidi.
 Ņemot vērā darba apstākļus, jums katram būs tikai deviņdesmit sekundes, lai atrisinātu šo problēmu.
+Ņemšu taksi. Braukšu mājās.
 Šajā zemē mīt sarežģīti ļaudis.
+Šaujamo! Zvani policijai!
 Šeit ir tik kolosāli.
 Šeit ir tikai sarkans, zaļš un dzeltens.
+Šeit izskatās lieliski.
 Šeit mēs piedāvājam astoņpadsmit bedrīšu golfa laukumu.
 Šeit viss pareizi?
 Šeit. Uz priekšu.
@@ -2495,6 +3410,7 @@ Zvērēju nekad šeit neatgriezties.
 Šis ir mūsu jaunais cilvēks.
 Šis ir pēdējais brīdinājums.
 Šis ir tas, kā dēļ mēs te esam.
+Šis ir čalis, par kuru stāstīju.
 Šis ir ļoti dārgs remonts.
 Šis uzķērās.
 Šis zēns uzauga ar pārliecību, ka viņš reiz būs patiesi laimīgs.
@@ -2502,9 +3418,13 @@ Zvērēju nekad šeit neatgriezties.
 Šobrīd ne par ko neuztrauksimies.
 Šodien ir daudz.
 Šodien kompānija nav pazaudējusi reklāmas saukļu autoru.
+Šodien tikai vienreiz man uzmācās.
 Šoreiz rīkosimies kopā.
 Šoreiz tu neizspruksi.
 Šorīt bija iegriezies.
+Šovakar tev jāizvācas no dzīvokļa.
+Šī dziesma vienmēr atgādina par svarīgāko vakaru manā dzīvē.
+Šī ir brīnumaina Ziemassvētku vēlēšanās, kas mainīja viņa dzīvi uz mūžu.
 Šī ir civilizēta pilsēta.
 Šī ir darba zona.
 Šī ir labākā diena manā mūžā.
@@ -2517,8 +3437,11 @@ Zvērēju nekad šeit neatgriezties.
 Šķiet, es to pazaudēju.
 Šķiet, esam bijuši šķirti veselu mūžību.
 Šķiet, ka esi palikusi gan bez priekšnieka, gan vīra.
+Šķiet, mums ir atšķirīgas intereses.
+Šķiet, tas nebūs viegli.
 Šķiet, viņš nav cietis.
 Šķita pat pārāk labi.
 Šķērsojam robežu. Redzam raktuves.
+Žēl atteikt, jo es iepriecinu ļaudis.
 Žēl gan Toma.
 Žēl, ka tu neredzēji.

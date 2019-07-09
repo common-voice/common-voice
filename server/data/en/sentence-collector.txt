@@ -284,6 +284,7 @@
 "No idea of money," observed Mr. Bucket.
 "No knife made it," he asserted.
 "No one can pass," said he.
+"No", said Celia, with a contemptuous laugh.
 "No, my dear," said I.
 "No, my friend, she could not cry out," he replied very seriously.
 "No, my friend," he answered.
@@ -1590,6 +1591,7 @@ And, as he gazed, he closed his eyes and shivered.
 And, as he got out unnoticed, so he could return.
 And, as he stooped, his trousers split up the back.
 And, by Jove, he was absolutely right.
+And, how did they know the exact type of laptop that you want?
 And, in truth, she was not afraid of them.
 And, mind this, one of the two women is guilty.
 And, so far as they knew, they were quite right.
@@ -1901,6 +1903,7 @@ Be dutiful and affectionate towards me, and I ask no other return.
 Be optimists, boys.
 Be quiet, sir!
 Be skeptical of websites, check that the link matches the official website.
+Be so kind as to apologise for us to Miss Darcy.
 Be specific when talking to a voice assistant.
 Be wary of the man that knows little, and doesn't know it.
 Be yourself. Especially do not feign affection.
@@ -2065,6 +2068,7 @@ Businesses must have a responsible technology strategy.
 But Angela handed you your hat before Gussie ever got here.
 But Celia Harland is not one of them.
 But Celia Harland is not one of those women.
+But Georgiana would not join her.
 But Gussie isn't a parrot.
 But Harry already held the written sheet in his hand.
 But Harry was out of breath and shaking with agitation.
@@ -2099,6 +2103,7 @@ But I have no doubt he'll do it.
 But I have other provocations.
 But I knew I should persuade you at last.
 But I knew it, I knew it well now.
+But I knew not — I was afraid of doing too much.
 But I know the foundation is unjust.
 But I lay down, self-deceived, in that belief..
 But I longed so much to see you, my dear Mr. George.
@@ -2220,6 +2225,7 @@ But in the canyons water was plentiful and also a luxuriant forest growth.
 But in the room the settee puzzled me.
 But in these matters you have got to realize that tastes differ.
 But is it a kind heart?
+But is it certain — absolutely certain?
 But is that wise, monsieur?
 But is the secret safe so far?
 But it can't last for ever.
@@ -2281,6 +2287,7 @@ But on the third day I could see he was beginning to get restless.
 But one can picture the scene.
 But one thing I have never failed to hand the man: he is magnetic.
 But one way of communication I did not think of.
+But online, your privacy is being violated all the time.
 But only now did he exhibit any real animation.
 But only the echo came back from the rock.
 But other statements in the letter puzzled me.
@@ -2378,6 +2385,7 @@ But to Ricardo the whole story was now clear.
 But to culture the Revolution thus far had exhausted the Junta.
 But tonight I revised my views.
 But travelling from France into Switzerland is a very different affair.
+But unlike Google, your search still remains private.
 But vanity, not love, has been my folly.
 But very soon it began to seem less of a game.
 But virtually the same, virtually the same.
@@ -2607,6 +2615,7 @@ Celia covered her face with her hands for a few moments.
 Celia covered her face with her hands.
 Celia dragged herself out of the shop in despair.
 Celia dressed herself as she did last night.
+Celia drew her hands away from her face.
 Celia drove yesterday night to Geneva.
 Celia followed his advice.
 Celia had herself hidden them there for safety.
@@ -2631,6 +2640,7 @@ Celia raised her head to answer.
 Celia ran up the stairs.
 Celia should wear it tonight.
 Celia shrank back, shivering.
+Celia shrank from the renewal of these meetings.
 Celia sprang out on to the pavement.
 Celia stared at her in dread.
 Celia stood apparently unconcerned, apparently lost to all that was going on.
@@ -2680,6 +2690,7 @@ Charlotte is an excellent manager, I dare say.
 Charlotte the wife of Mr. Collins was a most humiliating picture!
 Cheap housing helps first time buyers get onto the property ladder.
 Check the calorimeter.
+Check this out.
 Cheer up, and tell us about it!
 Cheers, said the girl, and cheerio
 Cheese must be grated before being added.
@@ -2823,6 +2834,7 @@ Could I borrow a bit of cash?
 Could I speak to you alone for a moment?
 Could Jeeves have got you into Brinkley Court?
 Could bees survive if we made them resistant to pesticides?
+Could he expect that her friends would not step forward?
 Could he have Colonel Fitzwilliam in his thoughts?
 Could the incident have anything to do with Jeanne and Pierre.
 Could the tenors and basses please watch the conductor?
@@ -3181,6 +3193,7 @@ Don't miss the latest episode of the podcast. Out now!
 Don't say it wasn't done!
 Don't say that, don't say that.
 Don't scold the old lady.
+Don't shoot the messenger.
 Don't speak to me.
 Don't take all that guff of hers too literally, old man.
 Don't take them out.
@@ -3295,6 +3308,7 @@ Electronic exports may be subject to tax at the destination country.
 Eli Harding asked, as Shunk started to follow.
 Elizabeth accepted their company, and the three young ladies set off together.
 Elizabeth blushed and blushed again with shame and vexation.
+Elizabeth could not but be pleased, could not but triumph.
 Elizabeth felt Jane's pleasure.
 Elizabeth immediately began playing again.
 Elizabeth loved absurdities, but she had known Sir William's too long.
@@ -3381,6 +3395,7 @@ Every person is the king of the castle in their own home.
 Every person requires a driving license before they are allowed to drive.
 Every possible inquiry was made, and every place was searched.
 Every school child knows that six is three times two
+Every search you make, every link you click, and every email you send.
 Every seaside resort has them.
 Every time they met, it was more decided and remarkable.
 Everybody carries a mobile phone nowadays
@@ -3770,6 +3785,8 @@ Gussie, as he joined our little group, seemed upset about something.
 Gussie, for example, as we have seen, babbles of syncopated newts.
 Habeas corpus is a very ancient principle of the common law
 Habits die hard, but they do change.
+Had I known what I ought, what I dared to do!
+Had his character been known, this could not have happened.
 Had it struck squarely it would have killed him.
 Had you any other contributions for him?
 Had you known him long?
@@ -4203,6 +4220,7 @@ He has never missed a day before.
 He has no idea of the value of money.
 He has no risk factors.
 He has none, and no anger.
+He has not an ill-natured look.
 He has often boasted to me of his triumphs on the wheel.
 He has only just come home.
 He has openly mentioned it in many places.
@@ -4878,6 +4896,7 @@ Help! All the automated tests are failing!
 Help! It's the beast from the deep.
 Hence his admiration and his emulation of that shining enchanter.
 Henry dived headfirst into the stream.
+Her affections had continually been fluctuating but never without an object.
 Her ankles were free.
 Her answer was warmly in his favour.
 Her aunt asked her, smilingly, how she liked it.
@@ -4941,6 +4960,7 @@ Her mouth, however, and her feet were free.
 Her move, but they utter nothing.
 Her next appointment is in May.
 Her own betrayal of herself was like tonic to Philip.
+Her own thoughts were employing her.
 Her paw went into your eye?
 Her polo neck jumper is very stylish
 Her presentation was fantastic!
@@ -5139,9 +5159,11 @@ How I persuaded myself that this was likely, I don't know.
 How I wish I was one of them!
 How about my heart? asked the Tin Woodman.
 How about that newt bloke?
+How acutely did she now feel it!
 How am I going to solve my snoring problem?
 How am I to live?
 How are her vitals?
+How are they even to be discovered?
 How are we getting on?.
 How are you today honey?
 How are your spirits now, George?
@@ -5191,6 +5213,7 @@ How dare you ask me if I knew him?
 How did I lose her?
 How did he first come by that idea, though?
 How did he take the theory?
+How did the advertiser know you were shopping for a laptop?
 How did they begin?
 How did you assist?
 How did you go?
@@ -5248,6 +5271,7 @@ How humiliating is this discovery!
 How in hell did he know it was you in the dark.
 How is bread made? ‘I know that!’ Alice cried eagerly.
 How is my grammar?
+How is such a man to be worked on?
 How it could occur a second time, therefore, was very odd!
 How long have you been an old friend of mine, Bertie?
 How long have you known it?
@@ -5332,11 +5356,13 @@ How'd the operation go?
 How, indeed, should she know of them at all?
 However, I was in no mood to dissect and criticize.
 However, a Wooster's word is his bond.
+However, a right is not something that needs to be justified.
 However, don’t be discouraged.
 However, he consented to go on.
 However, he merely brushed a dead spider from his brow.
 However, he wouldn't be, and there was an end of it.
 However, the Multiplication Table doesn’t signify: let’s try Geography.
+However, this is simply not true.
 However, we will call the head waiter.
 However, when I did meet him I was frightened.
 However, ‘jurymen’ would have done just as well.
@@ -5554,6 +5580,7 @@ I am up against it a bit, Jeeves.
 I am up to all that.
 I am very glad you have somebody who thinks of these things.
 I am very grateful to you, and shall never forget your kindness.
+I am very, very sorry.
 I am violent, I know.
 I am working on attaining certification for my talents.
 I am writing these lines in Honolulu, Hawaii.
@@ -6216,6 +6243,7 @@ I have here a communication from Aunt Dahlia, specifically stating this.
 I have hopes that you may have a telegram very soon.
 I have hunted along this ridge, replied Philip.
 I have just been hearing of you.
+I have just had a letter from Jane, with such dreadful news.
 I have lived here many years.
 I have long expected this, as you know.
 I have long noted your thirst unquenchable.
@@ -6244,6 +6272,7 @@ I have not killed anything.
 I have not let him into this, you know.
 I have not that pain.
 I have not the power of counting.
+I have not the smallest hope.
 I have not thought of them till now.
 I have nothing left to say.
 I have nothing more to say to this young man!
@@ -7003,6 +7032,7 @@ I want to die in it.
 I want to know how all this is possible.
 I want to know your real thoughts, my dear.
 I want to learn Zoology.
+I want to look through everything you’ve ever sent, liked, watched, or posted online.
 I want to make you happy.
 I want to plug my lawnmower into mains power
 I want to pull his head off.
@@ -7092,6 +7122,7 @@ I was ready to die of laughter.
 I was relieved to find her in genial mood.
 I was rewarded with an idea.
 I was right, Alphonse.
+I was right, Celia, was I not?
 I was right, therefore, my last letter had never reached her.
 I was shattered at the news she had passed away.
 I was shocked.
@@ -7451,6 +7482,7 @@ I, I beg pardon, he drawled.
 I, too, Mr. Ricardo, have artistic inclinations.
 I, too, have been thinking of what will become of Celia.
 I, who have valued myself on my abilities!
+I, who knew what he was.
 Ibrahim is a member of the board of directors.
 Ice hockey players literally walk on water.
 Ice lollies are much nicer than ice cream cones
@@ -7588,6 +7620,7 @@ Iliac artery.
 Illuminating oil was becoming all profit.
 Illustrate a cat.
 Images used on Wikipedia are normally stored in its image repository, Wikimedia Commons
+Imagine our surprise.
 Implacable resentment is a shade in a character.
 Importance may sometimes be purchased too dearly.
 In Britain we say Anti-clockwise rather than Counterclockwise
@@ -7824,6 +7857,7 @@ Is there anything on your mind?
 Is there anything that you require of me?
 Is there no compensation for miscarriages of justice?
 Is there no one who can help me?
+Is there nothing you could take to give you present relief?
 Is this a hard water or a soft water area?
 Is this a healthy place to live in, Richard, do you think?
 Is this a vegan product?
@@ -7864,6 +7898,7 @@ It can be improved; I know that.
 It can be proved, sir.
 It can be readily imagined.
 It can't be eighty.
+It cannot be concealed from anyone.
 It cannot last long.
 It comes at a high price.
 It contains Zucchini.
@@ -7938,6 +7973,7 @@ It is a costume for a mood of quiet reflection.
 It is a freehold house.
 It is a good property, and worth more than that.
 It is a grievous affair to my poor girls, you must confess.
+It is a joint project with the Internet Archive.
 It is a large key, but the keys of prisons are larger.
 It is a mechanical clock.
 It is a mechanized clock tower.
@@ -9021,6 +9057,7 @@ Low bush whipped him in the face and left no sting.
 Low-interest rates can encourage greater spending.
 Low-skilled workers are at the risk of being replaced by automation.
 Luck is where opportunity meets preparation.
+Luckily, it is easy to protect your online privacy.
 Lucy has two sisters and three brothers, all of whom love the countryside
 Lucy was certainly lying when she said that.
 Luddites are not supportive of technological advances to a degree.
@@ -9288,6 +9325,7 @@ Mr. Darcy has not authorised me to make his communication public.
 Mr. Darcy may hug himself.
 Mr. Darcy said very little, and Mr. Hurst nothing at all.
 Mr. Darcy seemed much pleased with the attention.
+Mr. Gardiner left them soon after breakfast.
 Mr. George has recovered himself and stands up like a soldier.
 Mr. George laughs and drinks.
 Mr. George shook his head in the most emphatic manner.
@@ -9330,6 +9368,7 @@ Mrs. Bennet was quite disconcerted.
 Mrs. Bennet was really in a most pitiable state.
 Mrs. Collins knew not what to make of him.
 Mrs. Gardiner abused her stupidity.
+Mrs. Gardiner and her niece, however, did her justice, and pitied her.
 Mrs. Rachael, our young friend has no doubt heard of the case.
 Mrs. Reynolds could interest her on no other point.
 Mrs. Simmons's attitude had become unquestionably menacing.
@@ -9414,6 +9453,7 @@ My ethics professor's lessons are as exciting as watching paint dry.
 My experience in the industry means I can adapt to this new role quickly.
 My family and I lead a very peaceful existence in Cornwall.
 My family likes to watch movies every Friday night.
+My father bears it better.
 My father died a year ago and left me the business.
 My father had a stroke, but he is ok now.
 My father was a Squadron Leader in the Air Force
@@ -9510,12 +9550,14 @@ My partner was the young dark one.
 My phone uses a prepay network service.
 My plan had been to lie hid in my bedroom, and see what happened.
 My plan was based on psychology, sir.
+My poor mother is really ill, and keeps her room.
 My precious Lily!
 My printer seems to have packed up yet again.
 My prompt agility was not without its effect.
 My pursuers were patiently quartering the hillside and moving upwards.
 My reaction now was very similar.
 My record speaks for itself.
+My reproofs could not work such a change as this.
 My right foot feels like that of a Chinese debutante.
 My scheme is far more subtle.
 My second favourite cheese is cheddar.
@@ -9637,6 +9679,7 @@ No knocking or ringing for Mr. Bucket.
 No less than the trees and the stars
 No light gleamed anywhere.
 No living man or woman could.
+No look appeared on either side that spoke particular regard.
 No machine is an island.
 No man ate of the seal meat or the oil.
 No man is an island.
@@ -9807,6 +9850,7 @@ Nothing is heard of him, nothing is seen of him.
 Nothing is more refreshing than the smell of coffee in the morning.
 Nothing is taken except what she wore.
 Nothing more than a cautionary fable.
+Nothing occurred between them that could justify the hopes of his sister.
 Nothing of any importance whatever, one would have gathered, had occurred.
 Nothing of any kind was missing.
 Nothing strained or bizarre.
@@ -10224,6 +10268,7 @@ Our office is overworked and understaffed.
 Our opinion is distinctly different from theirs.
 Our politicians are working on bridging understanding between communities.
 Our poor devoted Richard was deaf and blind to all.
+Our poor mother is sadly grieved.
 Our profits have quintupled over the past three years.
 Our records show that you never existed.
 Our relationship eventually petered out.
@@ -10858,6 +10903,7 @@ She caught Toto by the ear.
 She caught her by the neck and lifted her up.
 She caught up the dress and tried again.
 She caught up with her before she reached the villa.
+She certainly did not hate him.
 She complained bitterly of all this to her husband.
 She concealed her wedding ring from the thief.
 She coughed heavily and then sighed.
@@ -11247,6 +11293,7 @@ She thought she was going to be stung.
 She thought; and she steeled herself against the thought.
 She told her share of the story — she told what happened.
 She told me herself.
+She told the news to Helene when they reached the villa.
 She told us so this morning.
 She told us that the strange woman Adele had black hair.
 She took a cheese straw.
@@ -11547,6 +11594,7 @@ So he whistles it off and marches on.
 So her jewels were, after all, never stolen?
 So here’s a question for you.
 So high and so conceited that there was no enduring him!
+So imprudent a match on both sides!
 So insurmountable, as you must well know, would be his objections.
 So little did I know of the world!
 So many ponies munching; very pretty!
@@ -11599,6 +11647,7 @@ So, as I was saying.
 So, how do you explain that?
 So, what do you propose?
 So, what now?
+So, why do they need all of this information anyway?
 Soaked in seawater they offset the heat rays.
 Soccer is called Football in England.
 Soccer is known as Football in England.
@@ -11852,6 +11901,7 @@ System on chip architectures has improved.
 Ta very much.
 Tack this picture to the wall.
 Taekwondo is a form of martial arts.
+Take DuckDuckGo for an example.
 Take a deep breath and try again.
 Take a little care of Pa while I am gone, Mama!
 Take any big Teutonic business concern.
@@ -12199,6 +12249,7 @@ The Flat Earth Society has members around the globe.
 The G-force pushed him back against the seat.
 The Gabriel voice of the Samurai rang out.
 The Gala was fun.
+The Gulf of Morbihan is a natural harbour on the coast of Brittany, France.
 The Haber Process is an industrial process for producing ammonia
 The Hallelujah Chorus from Handel's Messiah.
 The Hatter shook his head mournfully.
@@ -12782,6 +12833,7 @@ The eyes dilated.
 The fact is, I don't care much about it.
 The fact is, darling, I am terribly worried.
 The fact is, our roads are not the same.
+The fact that you searched for “car” is never stored or remembered anywhere.
 The facts are all docketed.
 The facts were plucked out of thin air.
 The fairness of trickle-down economics is debatable.
@@ -13168,6 +13220,7 @@ The millennium bug was predicted to cause the mayhem. That did not happen.
 The mincemeat used in mince pies doesn't contain any meat
 The minister has outstanding negotiating skills.
 The minute all this happened, I thought of him.
+The mischief of neglect and mistaken indulgence towards such a girl.
 The mists cleared away.
 The mob came on, but it could not advance.
 The mobile phone signal can be very patchy outside built-up areas
@@ -13741,6 +13794,7 @@ The whole business had mesmerised me.
 The whole country rings with it.
 The whole family, in short, were properly overjoyed on the occasion.
 The whole house is disgraceful.
+The whole party before them, indeed, excited a lively attention.
 The whole party stood like men stupefied.
 The whole place smelt of mould and disuse.
 The whole question was how much they understood about Scudder’s knowledge.
@@ -13964,6 +14018,7 @@ Then, in the silence, a tambourine jangled.
 Then, who taught you?
 Then, will you come to the lawyer?
 Then, with a remarkable air of consideration, he bowed.
+Then, you move on with your life.
 Therapy can help overcome addiction to cigarettes.
 There I breakfasted off a whisky-and-soda and some biscuits from the cupboard.
 There I was my own master.
@@ -14374,6 +14429,7 @@ They are big trees and require plenty of room.
 They are coming ashore, whoever they are.
 They are equally unfit for office
 They are going to defer taking a decision until the next meeting.
+They are gone off together from Brighton.
 They are greatly delighted with anything that is bright or giveth a sound.
 They are having eggs and bacon and champagne.
 They are his tongue, by which he makes his knowledge articulate.
@@ -14497,6 +14553,7 @@ They ran the canoe in and climbed the high earth bank.
 They reached the hotel in a few minutes.
 They robbed me a few years later.
 They saw each other for the first time in Boston.
+They saw much to interest, but nothing to justify inquiry.
 They seem to put everything upon Bill!
 They settled off the coast in a remote village.
 They shook hands upon it laughingly, but in deep earnestness.
@@ -14567,8 +14624,10 @@ They were seen together, walking slowly in the direction of the villa.
 They were terribly bruised.
 They were the presage of storm.
 They were three hundred yards apart.
+They were to be off as soon as possible.
 They were two cushions, both indented, and indented in different ways.
 They were waiting for strange things to happen in the darkness.
+They were, therefore, to go.
 They will be found there.
 They will do nothing until dark.
 They will never be distressed for money.
@@ -14723,6 +14782,7 @@ This is my favorite song!
 This is my fifth voyage.
 This is my frugal breakfast.
 This is my last will and testament.
+This is my own creation.
 This is no place for you.
 This is non-conventional.
 This is not a professional attendance.
@@ -14899,6 +14959,7 @@ Timing is essential when telling a good joke.
 Tip them the wink, and they’ll take extra precautions.
 Tires should have a suitable tread depth for better grip.
 To Ada and to me, that above all appeared the pervading influence.
+To Kitty, however, it does not seem so wholly unexpected.
 To Mr. Ricardo the words were startling.
 To Pemberley, therefore, they were to go.
 To Ricardo the proceedings seemed singularly irregular.
@@ -15787,6 +15848,7 @@ Well, there is a reason.
 Well, there is one who won’t shrink from my company!
 Well, there must be nothing of that.
 Well, there you have the explanation.
+Well, they use it to build a detailed profile on each individual user.
 Well, this finishes it.
 Well, this isn't Cannes.
 Well, this turn goes to the hill, I suppose—no, it doesn’t!
@@ -15813,6 +15875,7 @@ Wethermill leaned forward and shook his head with a smile.
 We’re all out of gin: send help!
 What I believe is called a frisson shook him.
 What I have to say may wound you.
+What I have to say relates to poor Lydia.
 What I have, I possess; what I hold, I own.
 What I saw I could not at first believe.
 What I want is that he should take charge of the case.
@@ -15923,6 +15986,7 @@ What did you want her for?
 What do I do when I get there?
 What do kangaroos like to eat?
 What do the aesthetics look like?
+What do they use it for?
 What do you call a country's total annual output?
 What do you do for recreation?
 What do you do on an ordinary day?
@@ -16226,6 +16290,7 @@ When morning came they started again.
 When my child was born, I was in tears.
 When my daughter finishes at primary school, she'll go on to secondary school
 When my daughter was at school she was very keen on hockey
+When my eyes were opened to his real character.
 When my judgment should be given.
 When shall Ada come to see you, my love?
 When shall we begin?
@@ -16719,6 +16784,7 @@ You are amongst good friends, mademoiselle.
 You are an extraordinary person.
 You are approaching a safety speed camera.
 You are as punctual as the sun.
+You are being watched.
 You are charmingly grouped, and appear to uncommon advantage.
 You are coming, then, to help us?
 You are going out into the great world.
@@ -16930,6 +16996,7 @@ You know St Albans, sir?
 You know Wakanda is not a real place, right?
 You know a little too much, Mr Hannay.
 You know her, then?
+You know him too well to doubt the rest.
 You know how she hates to be kept waiting at these times.
 You know it taints everybody.
 You know me, and I know you.
@@ -17208,6 +17275,7 @@ Your hairstylist appointment has been booked at your usual time.
 Your hard work is appreciated.
 Your ladyship is acquainted with the name of Hawdon?
 Your ladyship is very affable.
+Your life is your business - and no one else’s.
 Your luggage is in the boot of the car.
 Your membership is active.
 Your mother insists upon your accepting it.
@@ -17629,6 +17697,7 @@ whispered Richard, not thinking she could hear him.
 “But I don’t see,” he went on.
 “But I’m a strong teetotaller,” he said pugnaciously.
 “But he always gets better,” said Paul after a while.
+“But what is to be done about Pemberley?” cried Mrs. Gardiner.
 “By God, the murderer!” he cried.
 “Can I speak to you?” he said.
 “Can the dispositions not be changed?” I asked.
