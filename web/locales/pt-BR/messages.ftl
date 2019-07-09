@@ -97,6 +97,7 @@ or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
 rm-sursilv = Romanche (Sursilvan)
+rm-vallader = Romanche (Vallader)
 ro = Romeno
 ru = Russo
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Esloveno
 sq = Albanês
 sr = Sérvio
 sv-SE = Sueco
+syr = Siríaco
 ta = Tâmil
 te = Telugo
 tg = Tajique
@@ -612,7 +614,6 @@ record-again-instruction = Ótimo! <recordIcon></recordIcon> Grave a próxima fr
 record-again-instruction2 = Continue assim, grave novamente <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Última!
 review-tooltip = Revise e grave as frases enquanto prossegue
-unable-speak = Incapaz de falar agora
 review-instruction = Enquanto revisa, grave as frases novamente se precisar
 record-submit-tooltip = { $actionType } enviar quando estiver pronto
 clips-uploaded = Gravações carregadas
@@ -628,6 +629,27 @@ listen-last-time-instruction = <playIcon></playIcon> Última!
 nothing-to-validate = Não temos nada para validar neste idioma, ajude-nos a preencher a fila.
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
+
+## Reporting
+
+report = Relatar
+report-title = Enviar um relato
+report-ask = Que problemas você está experimentando com esta frase?
+report-offensive-language = Linguagem ofensiva
+report-offensive-language-detail = A frase é desrespeitosa ou usa linguagem ofensiva.
+report-grammar-or-spelling = Erro gramatical ou ortográfico
+report-grammar-or-spelling-detail = A frase tem um erro gramatical ou ortográfico.
+report-different-language = Idioma diferente
+report-different-language-detail = Ela é escrita em um idioma diferente do que estou falando.
+report-difficult-pronounce = Dificuldade de pronúncia
+report-difficult-pronounce-detail = Ela contém palavras ou trechos difíceis de ler ou pronunciar.
+report-offensive-speech = Discurso ofensivo
+report-offensive-speech-detail = O clipe tem linguagem desrespeitosa ou ofensiva.
+report-other-comment =
+    .placeholder = Comentário
+success = Sucesso
+continue = Continuar
+report-success = O relato foi enviado com sucesso
 
 ## Goals
 
