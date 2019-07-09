@@ -520,8 +520,9 @@ class SpeakPage extends React.Component<Props, State> {
             recordingIndex != -1 && (
               <ReportButton
                 reasons={[
-                  'grammar-spelling',
-                  'wrong-language',
+                  'offensive-language',
+                  'grammar-or-spelling',
+                  'different-language',
                   'difficult-pronounce',
                 ]}
                 kind="sentence"

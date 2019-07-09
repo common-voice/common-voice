@@ -224,9 +224,9 @@ class ListenPage extends React.Component<Props, State> {
             activeClip && (
               <ReportButton
                 reasons={[
-                  'grammar-spelling',
-                  'wrong-language',
-                  'difficult-pronounce',
+                  'offensive-speech',
+                  'grammar-or-spelling',
+                  'different-language',
                 ]}
                 kind="clip"
                 id={activeClip.id}
