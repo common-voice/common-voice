@@ -99,7 +99,7 @@ export function ReportModal({ kind, id, reasons, ...props }: ReportModalProps) {
         disabled={
           submitStatus == 'submitting' ||
           otherText == '' ||
-          !Object.values(selectedReasons).some(Boolean)
+          (!Object.values(selectedReasons).some(Boolean) && otherText == null)
         }
         onClick={() => {
           api.report({
