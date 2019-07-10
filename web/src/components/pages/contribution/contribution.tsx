@@ -48,7 +48,7 @@ interface PropsFromState {
 interface Props extends LocalizationProps, PropsFromState {
   activeIndex: number;
   errorContent?: any;
-  reportModalProps: ReportModalProps;
+  reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
   instruction: (props: {
     $actionType: string;
     children: any;
@@ -215,6 +215,7 @@ class ContributionPage extends React.Component<Props, State> {
       errorContent,
       getString,
       isSubmitted,
+      onSkip,
       reportModalProps,
       type,
       user,
@@ -248,6 +249,7 @@ class ContributionPage extends React.Component<Props, State> {
         {showReportModal && (
           <ReportModal
             onRequestClose={() => this.setState({ showReportModal: false })}
+            onSubmitted={onSkip}
             {...reportModalProps}
           />
         )}

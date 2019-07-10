@@ -34,7 +34,6 @@ import {
   RecordButton,
   RecordingStatus,
 } from '../../../primary-buttons/primary-buttons';
-import { ReportButton } from '../report/report';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';

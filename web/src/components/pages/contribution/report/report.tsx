@@ -13,6 +13,7 @@ export interface ReportModalProps extends ModalProps {
   kind: 'clip' | 'sentence';
   id: string;
   reasons: string[];
+  onSubmitted: () => any;
 }
 
 const CheckboxRow = ({ children, title, ...props }: any) => (
@@ -27,7 +28,13 @@ const CheckboxRow = ({ children, title, ...props }: any) => (
   </div>
 );
 
-export function ReportModal({ kind, id, reasons, ...props }: ReportModalProps) {
+export function ReportModal({
+  kind,
+  id,
+  reasons,
+  onSubmitted,
+  ...props
+}: ReportModalProps) {
   const api = useAPI();
   const [selectedReasons, setSelectedReasons] = useState<{
     [key: string]: boolean;
@@ -111,6 +118,7 @@ export function ReportModal({ kind, id, reasons, ...props }: ReportModalProps) {
               .concat(otherText || []),
           });
           setSubmitStatus('submitted');
+          onSubmitted();
         }}>
         <Localized id="report">
           <span />

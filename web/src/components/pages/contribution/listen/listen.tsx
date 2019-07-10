@@ -24,7 +24,6 @@ import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
 
 import './listen.css';
-import { ReportButton } from '../report/report';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
