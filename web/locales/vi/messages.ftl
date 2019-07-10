@@ -97,6 +97,7 @@ or = Tiếng Odia
 pl = Tiếng Ba Lan
 pt-BR = Tiếng Bồ Đào Nha (Brazil)
 rm-sursilv = Tiếng Romansh Sursilva
+rm-vallader = Tiếng Romansh
 ro = Tiếng Rumani
 ru = Tiếng Nga
 rw = Tiếng Kinyarwanda
@@ -108,6 +109,7 @@ sl = Tiếng Slovenia
 sq = Tiếng Albania
 sr = Tiếng Serbia
 sv-SE = Tiếng Thụy Điển
+syr = Tiếng Syriac
 ta = Tiếng Tamil
 te = Tiếng Telugu
 tg = Tiếng Tajik
@@ -611,7 +613,6 @@ record-again-instruction = Tuyệt!<recordIcon></recordIcon> Ghi âm clip tiếp
 record-again-instruction2 = Hãy tiếp tục! Ghi âm lại <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Cái cuối cùng!
 review-tooltip = Xem lại và ghi âm lại các clip ở đây khi bạn tiếp tục
-unable-speak = Không thể nói ngay bây giờ?
 review-instruction = Xem lại & quay lại clip nếu cần
 record-submit-tooltip = { $actionType } gửi khi sẵn sàng
 clips-uploaded = Đã tải clip lên
@@ -627,6 +628,27 @@ listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
 nothing-to-validate = Chúng tôi không có gì để xác thực của ngôn ngữ này. Hãy giúp chúng tôi điền nó vào danh sách.
 record-button-label = Ghi âm giọng nói của bạn
 share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
+
+## Reporting
+
+report = Báo cáo
+report-title = Gửi một báo cáo
+report-ask = Những vấn đề bạn đang gặp phải với câu này?
+report-offensive-language = Ngôn từ xúc phạm
+report-offensive-language-detail = Câu có ngôn ngữ thiếu tôn trọng hoặc gây khó chịu.
+report-grammar-or-spelling = Lỗi ngữ pháp / chính tả
+report-grammar-or-spelling-detail = Câu có lỗi ngữ pháp hoặc chính tả.
+report-different-language = Ngôn ngữ khác
+report-different-language-detail = Nó được viết bằng một ngôn ngữ khác với những gì tôi nói.
+report-difficult-pronounce = Khó phát âm
+report-difficult-pronounce-detail = Nó chứa các từ hoặc cụm từ khó đọc hoặc phát âm.
+report-offensive-speech = Lời nói xúc phạm
+report-offensive-speech-detail = Đoạn clip có ngôn từ thiếu tôn trọng hoặc gây khó chịu.
+report-other-comment =
+    .placeholder = Bình luận
+success = Thành công
+continue = Tiếp tục
+report-success = Báo cáo đã được gửi thành công
 
 ## Goals
 
