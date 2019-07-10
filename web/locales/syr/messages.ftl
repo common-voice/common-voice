@@ -2,6 +2,8 @@
 
 email-input =
     .label = ܐܸܓܲܪܬܵܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܵܐ
+submit-form-action = ܡܲܕܸܥ
+loading = ܡܲܛܥܵܢܬܵܐ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -81,6 +83,7 @@ email-input =
 
 ## Dashboard
 
+your-languages = ܠܹܫܵܢܘܟ݂ܘܢ
 
 ## Profile Delete
 
