@@ -613,10 +613,21 @@ share-title-new = <bold>Aiutaci</bold> a trovare altre voci
 
 ## Reporting
 
+report = Segnalazione
+report-title = Invia una segnalazione
 report-ask = Quali problemi stai riscontrando con questa frase?
 report-offensive-language = Linguaggio offensivo
 report-grammar-or-spelling-detail = La frase ha un errore grammaticale o di ortografia.
 report-different-language = Lingua diversa
+report-different-language-detail = È scritta in una lingua diversa da quella che sto parlando.
+report-difficult-pronounce = Difficile da pronunciare
+report-difficult-pronounce-detail = Contiene parole o frasi difficili da leggere o pronunciare.
+report-offensive-speech = Discorso offensivo
+report-other-comment =
+    .placeholder = Commento
+success = Completato
+continue = Continua
+report-success = La segnalazione è stata inviata correttamente.
 
 ## Goals
 
