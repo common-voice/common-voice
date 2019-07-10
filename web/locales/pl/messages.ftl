@@ -97,6 +97,7 @@ or = orija
 pl = polski
 pt-BR = portugalski (Brazylia)
 rm-sursilv = retoromański (sursilvan)
+rm-vallader = retoromański (vallader)
 ro = rumuński
 ru = rosyjski
 rw = kinyarwanda
@@ -108,6 +109,7 @@ sl = słoweński
 sq = albański
 sr = serbski
 sv-SE = szwedzki
+syr = syryjski
 ta = tamilski
 te = telugu
 tg = tadżycki
@@ -615,7 +617,6 @@ record-again-instruction = Świetnie! <recordIcon></recordIcon> Nagraj następne
 record-again-instruction2 = Tak trzymaj, nagraj jeszcze raz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ostatnie!
 review-tooltip = Weryfikuj i ponownie nagrywaj w czasie pracy
-unable-speak = Nie można teraz wymówić zdania
 review-instruction = Weryfikuj i ponownie nagrywaj w razie potrzeby
 record-submit-tooltip = { $actionType } „Wyślij” po ukończeniu
 clips-uploaded = Wysłano nagrania
@@ -631,6 +632,27 @@ listen-last-time-instruction = <playIcon></playIcon> Ostatnie!
 nothing-to-validate = Nie mamy nic do zweryfikowania w tym języku, pomóż nam wypełnić kolejkę.
 record-button-label = Nagraj swój głos
 share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
+
+## Reporting
+
+report = Zgłoś
+report-title = Wyślij zgłoszenie
+report-ask = Jakie są problemy z tym zdaniem?
+report-offensive-language = Obraźliwy język
+report-offensive-language-detail = Zdanie jest nieuprzejme lub obraźliwe.
+report-grammar-or-spelling = Błąd gramatyczny/ortograficzny
+report-grammar-or-spelling-detail = Zdanie ma błąd gramatyczny lub ortograficzny.
+report-different-language = Inny język
+report-different-language-detail = Jest napisane w języku innym niż ten, w którym mówię.
+report-difficult-pronounce = Trudne do wymówienia
+report-difficult-pronounce-detail = Zawiera słowa lub wyrażenia, które są trudne do odczytania lub wymówienia.
+report-offensive-speech = Obraźliwa mowa
+report-offensive-speech-detail = Nagranie jest nieuprzejme lub obraźliwe.
+report-other-comment =
+    .placeholder = Komentarz
+success = Powodzenie
+continue = Kontynuuj
+report-success = Pomyślnie przekazano zgłoszenie
 
 ## Goals
 
