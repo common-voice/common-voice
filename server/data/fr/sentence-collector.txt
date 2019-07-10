@@ -59,6 +59,7 @@ A priori il y aurait des applications en économie
 A priori, le marché semblait honnête.
 A quel âge doit-on donner un smartphone à un enfant?
 A quelle heure ferme le monoprix?
+A quelle heure part-il?
 A quelle heure tu décolles?
 A qui la faute si elle s'était éprise plus que de raison?
 A quoi bon payer une école qui générerait des citoyens autonomes
@@ -69,6 +70,7 @@ A sa coutume, elle fut altière et insolemment polie.
 A sa vue, du feu remplit mes veines.
 A son fusil de munition le prote adaptait une lanière.
 A son gré, Jésus obtenait la force des somnambules.
+A son retour, je saurai s'il est rangé, soigneux.
 A son uniforme de garde national on livra le passage des barricades improvisées.
 A son âge, c'était une indication d'aimable embonpoint.
 A supputer le bonheur de la jeune fille, il le goûtait aussi.
@@ -79,6 +81,7 @@ A tout prendre, cela vaudra mieux pour lui.
 A tout prendre, les soldats mangeront de la farine américaine.
 A travers le remous des gens, il rejoignit l'oncle Edme.
 A voix humble, elle disait les choses.
+A votre avis, je ferais donc bien de consentir à ce départ.
 A votre place, je m'enivrerais de mon triomphe.
 A vous revoir!
 A-t-il du cœur!
@@ -103,8 +106,10 @@ Aglaé entre, un plateau à la main.
 Aglaé l’a tenté.
 Aglaé, avec moi, on aide le nerd à porter son attirail.
 Agnès a dix minutes de vélo pour aller au travail.
+Ah! C'est bien fâcheux !
 Ah! Cʼest bien ! Fais-le entrer.
 Ah! C’est gentil ce que tu dis là.
+Ah! Et vous rentrez vous reposer?
 Ah! Je me disais aussi...
 Ah! Je ne saurais vous dire.
 Ah! Vous pouvez être fier !
@@ -237,6 +242,7 @@ Alors forcément ils vont marquer le coup.
 Alors il continue de le taire, comme par inertie.
 Alors il essaya de soutenir cet examen des yeux forts.
 Alors il la repoussa brusquement.
+Alors il ne tient pas de son père!
 Alors il se casse, il va se calmer dans sa voiture
 Alors il se défend.
 Alors je l’ai invité.
@@ -275,6 +281,7 @@ Alors tous s'apprêtèrent à sortir.
 Alors tu es ruiné? Complètement ruiné ?
 Alors tu me fais plus chier, tu retournes dans ta campagne pourrie
 Alors t’es pas obligé d’en parler mais... je te vois.
+Alors vous êtes bien pressé?
 Alors, comment faire?
 Alors, c’était vrai dans le fond.
 Alors, dans un salon illuminé, une femme en deuil fit la révérence.
@@ -284,6 +291,7 @@ Alors, il ne me restait qu’une solution: me débarrasser de lui.
 Alors, il y a du boulot!
 Alors, ils t’ont embauché?
 Alors, je me pose beaucoup de questions.
+Alors, je peux compter sur vous?
 Alors, j’ai fait une recommandation.
 Alors, la magie de la forêt opère.
 Alors, laisse-moi, de mon dernier souffle...
@@ -552,6 +560,7 @@ Avec ça l'esprit d'un niais!
 Avertit un gaillard que coiffait un bonnet de coton, et que chargeait une carnassière.
 Aveuglé par la fureur, il s'élança vers l'ennemi.
 Avez-vous bien dormi?
+Avez-vous des livres pour la route?
 Avez-vous donné à manger aux chats?
 Avez-vous entendu crier tout à l'heure?
 Avez-vous obtenu de notre Saint-Père une audience à Rome?
@@ -668,6 +677,7 @@ Bonjour ma vieille sainte!
 Bonjour madame, je prendrai une baguette tradition ce matin.
 Bonjour monsieur.
 Bonjour à Delphine et aux enfants!
+Bonjour, bonjour, j'avais peur d'arriver trop tard.
 Bonjour, je m’appelle Cassandre, et je suis ta narratrice.
 Bonjour, je m’appelle Madame Marquet et je suis une NoéNautomane anonyme.
 Bonjour, je veux la bleue, en aigue-marine, là.
@@ -744,8 +754,10 @@ C'est elle justement que je venais voir et à qui je voulais parler.
 C'est fort politique.
 C'est hallucinant le temps qu'il peut passer au téléphone.
 C'est honteux ce qu'elles font.
+C'est ici, monsieur, mais il vient de sortir.
 C'est incompréhensible! D'habitude, il est toujours à l'heure !
 C'est inutile. Je regrette de vous avoir dérangé.
+C'est inutile; je lui en dirai autant de mon côté.
 C'est irrationnel, mais c'est toujours là, tapis dans l'ombre.
 C'est l'ambiance un peu déprime.
 C'est l'histoire de Toto qui écoute des phrases.
@@ -780,6 +792,7 @@ C'est pour cette pièce que j'ai créé le personnage de Madame Marquet.
 C'est pour me dire ça que tu me déranges!
 C'est pour quand les avions électriques?
 C'est pourtant plus facile lorsqu'on travaille à plusieurs.
+C'est près du Panthéon, mais ce n'est pas la même chose.
 C'est quand mes amis ont commencé à se moquer de moi.
 C'est quand même chaud d'abandonner la viande pour passer aux légumineuses.
 C'est quoi ton poisson préféré?
@@ -790,10 +803,12 @@ C'est sans doute mieux si tu te renseignes avant d'y aller.
 C'est toi qui m'as glissé cette bague au doigt.
 C'est toi-même qu'il faut vaincre
 C'est toujours bon à savoir.
+C'est tout ce que je demande.
 C'est tout à fait entendable
 C'est trop stylé.
 C'est trop, malheureusement, vous devez le comprendre.
 C'est un danger de dictature!
+C'est un de tes amis qui habite cette chambre?
 C'est un défi en soi.
 C'est un hussard de l'Empereur qui régale!
 C'est un jeu bien dangereux que celui-là!
@@ -804,6 +819,7 @@ C'est un moment de courage à avoir, je l'aurai.
 C'est un monument à sa gloire.
 C'est un petit peu mon point
 C'est un peu la honte ce genre de tourisme.
+C'est un poste de confiance que vous m'offrez là.
 C'est un saint descendu du ciel.
 C'est un système hamiltonien dépendant du temps
 C'est une belle journée de février qui s'annonce.
@@ -978,6 +994,7 @@ Ce que je vais vous montrer à présent, c’est difficile…
 Ce que le Grand Scénariste attend de nous.
 Ce que les autres m’ont reproché, je l’ai cultivé.
 Ce que les gens ébahis ne paraissaient guère désirer.
+Ce que vous avez à lui dire est-il bien pressé?
 Ce que vous me proposez n'est pas possible.
 Ce que ça disait de notre complexe d’infériorité.
 Ce que, bien sûr, je ne vous souhaite pas...
@@ -1251,6 +1268,7 @@ Cette petite flaque de sang imprégnant le bitume sous la tête de maman.
 Cette phrase est erronée : il vaut mieux utiliser Word
 Cette phrase, prononcée furieusement pour avertir les assistants du péril orléaniste, les attira.
 Cette phraséologie agaçait sa fièvre.
+Cette proposition date de loin, de très loin.
 Cette présence fut heureuse, apaisante et chère au jeune homme.
 Cette pâtisserie fait les meilleurs Paris-Brest de toute la ville.
 Cette question est étrangère aux actes que nous avons votés.
@@ -1366,6 +1384,7 @@ Comment allez-vous, Madame?
 Comment avez-vous pu financer un truc comme celui-ci.
 Comment ce rustre a-t-il pu obéir avec un tel aveuglement?
 Comment cela est-il possible?
+Comment cela vous a-t-il paru?
 Comment celui-ci n'a-t-il pas peur?
 Comment est-ce que tu as su?
 Comment faire en sorte que Christiane ne s’en aperçoive pas?
@@ -1388,6 +1407,7 @@ Comment pouvons-nous expliquer un tel écart?
 Comment puis-je le démontrer?
 Comment punir les enfants?
 Comment reconnaitrai-je assez ton obligeance?
+Comment s'appelle-t-elle?
 Comment se pourrait-il que vous refusiez?
 Comment sont gérés les backups? Comment c’est alimenté ?
 Comment t'y prends-tu pour les tourner tous en ta faveur!
@@ -1929,6 +1949,7 @@ De petits nuages volèrent partout, firent leur ascension, s'évanouirent.
 De plus en plus, les brigands hurlent, effrayés.
 De quelle chanson viennent ces paroles?
 De quels engagements me parlez-vous?
+De qui parlez-vous?
 De quoi s'agissait-il?
 De quoi se mêle-t-elle?
 De quoi s’agit-il?
@@ -2333,6 +2354,7 @@ Effrayée la jument d'Omer se cabra.
 Eh! Bien, monsieur, quʼest-ce que vous avez?
 Eh! Bien, voyons, ouvre ! Qu’est-ce que tu attends?
 Eh bien! Délibérons...
+Eh bien! Non ! Je ne le veux pas !
 Eh bien, je dis: pas si sûr!
 Eh, toi, qu’est-ce que tu en penses?
 Elle a beaucoup de boulot de compta pour l'agence.
@@ -2877,6 +2899,7 @@ Est-ce que vous me faites un prix si je prends trois articles?
 Est-ce que vous nous quittez, monsieur?
 Est-ce que vous n’auriez pas mieux fait de le garder votre argent?
 Est-ce que vous n’êtes pas faits l’un pour l’autre?
+Est-ce que vous venez d'Orléans... ou de Pontoise?
 Est-ce que vous êtes d’accord?
 Est-ce que ça en valait la peine?
 Est-ce que ça vous convient?
@@ -3060,11 +3083,13 @@ Et puis vous, qu’est-ce que vous faites-là?
 Et puis, c’est qui cette cruche, d’abord?
 Et puis, c’est une tronche ton fils
 Et puis, remarque, tu n’as pas de scrupules à avoir.
+Et qu'a-t-elle répondu?
 Et qu'espérez-vous qu'il vous dise?
 Et quand votre coup de génie vous est-il venu?
 Et que c’est pas leur faute.
 Et que derrière toute cette organisation il y a des gens.
 Et que son public, tout rassuré de ce léger soulagement, en oubliera de penser.
+Et que voyez-vous là d'étonnant?
 Et quelle température, bigre!
 Et quelle était la force du plaisir, alors!
 Et quels vils subterfuges politiques!
@@ -3124,9 +3149,11 @@ Et vous avez gagné... la suite de l’histoire!
 Et vous avez une idée de comment faire la chose?
 Et vous me dites que c’est bien normal?
 Et vous ne nourrissez pas l'intention de vous faire pardonner!
+Et vous ne pouvez pas me dire son nom?
 Et vous voyez que je ne m’en porte pas plus mal!
 Et vous, major?
 Et vous, mon cousin, vous pataugez dans la chicane et la basoche?
+Et vous, monsieur, quel est le premier monument que vous avez vu?
 Et à moi aussi.
 Et à te rappeler que ceci n’est pas une histoire vraie.
 Et ça m’amuse.
@@ -3356,6 +3383,7 @@ Ici, c’est le moins deux. Nous ferons les présentations tout à l’heure.
 Ici, c’était son refuge.
 Ici, par contre, nous doutons que ce soit le cas.
 Ici, tu es respecté si tu forces le respect.
+Il a beaucoup d'argent?
 Il a caparaçonné son blanc cheval.
 Il a chopé la tourista en Tunisie.
 Il a chopé une maladie en Thaïlande.
@@ -3422,6 +3450,7 @@ Il aperçut Denis qui déboulait, l’arme de Requin à la main.
 Il aperçut le postillon de leur landau, les deux bêtes grises.
 Il appellerait François cet après-midi.
 Il apporte une bouteille?
+Il apprendra la vie à ses dépens comme tout le monde.
 Il appréhenda d'être surpris par Dubourg, le portier ou bien Ulysse Trélat.
 Il arracha son rabat qui l'étranglait.
 Il arrangeait certainement des projets dans sa grosse tête digne.
@@ -3560,6 +3589,7 @@ Il est en réinsertion celui-là ou quoi?
 Il est entièrement nu.
 Il est essentiel que nous prenions des mesures adaptées à la situation.
 Il est facile de recommander au citoyen des beaux quartiers de tolérer l'immigré
+Il est gentil, ce petit.
 Il est impressionnant ce pont-levis.
 Il est là, si vous désirez lui parler.
 Il est l’interprète et le guide d’un destin qui le dépasse.
@@ -3575,6 +3605,7 @@ Il est préférable de savoir à l’avance par quel bout la prendre.
 Il est préférable pour elle qu'elle sache à quoi s'en tenir.
 Il est revenu de Breteuil, aux premiers bruits.
 Il est situé au cœur du Parc naturel régional du Golfe du Morbihan.
+Il est sourd, c'est possible, mais je suis censé ne pas le savoir.
 Il est stocké où le kérosène des avions de ligne?
 Il est tard, je vais me coucher.
 Il est temps de dormir.
@@ -3759,6 +3790,7 @@ Il l’a, son certificat, je vous l’ai donné.
 Il m'a dit des chiffres!
 Il m'a expliqué un peu la situation.
 Il m'en fait voir de toutes les couleurs depuis mardi dernier.
+Il mange, au moment de quitter sa mère!
 Il me fallait quelque chose qui me tienne au corps.
 Il me lance un regard interrogatif, question muette.
 Il me montre la pointe de métal emmaillotée dans un linge.
@@ -3790,6 +3822,7 @@ Il m’avait repéré, moi le gamin enfui des foyers éducatifs.
 Il m’en a même filé deux gratos.
 Il m’est arrivé un truc bizarre en Avignon.
 Il n'a jamais su leur dire non.
+Il n'a pas perdu de temps.
 Il n'a rien pu faire, il s'est un peu moqué.
 Il n'a vu goutte, ton maître!
 Il n'aima point lui promettre de nouvelles rencontres adultères.
@@ -3831,6 +3864,7 @@ Il ne fut pas très surpris en les voyant arriver.
 Il ne leur venait même pas à l’idée d’allumer le poste.
 Il ne m'appartient pas de me précipiter dans ces hasards.
 Il ne manquait plus que ça.
+Il ne me l'écrit pas positivement, mais cela revient au même.
 Il ne me reste qu’une nuit pour me décider.
 Il ne m’a pas fallu longtemps pour comprendre.
 Il ne m’appelle pas non plus.
@@ -3994,6 +4028,7 @@ Il reste encore la possibilité que cela soit une vaste blague.
 Il reste le musée de la mine.
 Il reste néanmoins le quartier général de la maison Noire.
 Il revenait de la guerre.
+Il reçoit beaucoup de femmes.
 Il roule beaucoup trop vite, il va avoir un accident!
 Il ruisselait, monsieur!
 Il régnait dans l’ascenseur une ambiance étrange
@@ -4120,6 +4155,7 @@ Il trembla d'avoir à décider de ses actes.
 Il triomphait de sa mère et de sa sœur, de l'oncle Augustin.
 Il tutoyait tout le monde.
 Il t’accompagne donc?
+Il va au fond et dépose le paquet.
 Il va au guichet et en revient avec un billet de train.
 Il va comprendre que je fais ça pour l’aider.
 Il va devoir être restauré, ce qui demande un énorme budget.
@@ -4405,6 +4441,7 @@ Investissements massifs, fois dix.
 Irène s’en est mieux tirée.
 Isabelle, qu’est-ce qui se passe?
 J'accepte d'être l'ambassadeur des parties belligérantes.
+J'accepte votre invitation à une condition.
 J'accorde que ce soit vers Dieu.
 J'achète toujours du poulet label rouge.
 J'adore quand c'est la fête des moules.
@@ -4470,6 +4507,7 @@ J'ai pris au moins un kilo en vacances.
 J'ai pris du poids dimanche.
 J'ai puni ma fille.
 J'ai quarante de fièvre.
+J'ai remarqué seulement que vous vous endormiez après votre dîner.
 J'ai remplacé la moquette par du parquet.
 J'ai repris les illusions de ma jeunesse.
 J'ai reçu le colis en très mauvais état.
@@ -4621,6 +4659,7 @@ Je croyais que tu ne faisais jamais de cauchemar.
 Je croyais que ça finissait aujourd’hui, cette mission.
 Je descendais toutes les nuits aux mêmes horaires.
 Je deviens de plus en plus... disons dépassionnée, té.
+Je devrais vous planter là avec vos précautions et vos écritures.
 Je devrais être heureuse pour lui.
 Je devrais être pensive, tirer une leçon de cela.
 Je dirai ça quand nous aurons fait plus ample connaissance.
@@ -4661,6 +4700,7 @@ Je jure que j’ai entendu son ostéoporose craquer.
 Je jurerais que la personne est en ville.
 Je l'ai croisée dans le wagon du métro.
 Je l'ai vu cinq fois au cinéma.
+Je l'attends d'une minute à l'autre.
 Je la connais, je l’ai rencontrée lors d’un colloque à Boston
 Je la connais, l’Histoire, naine!
 Je la fais rire en lui racontant les frasques de ma jeunesse.
@@ -4735,6 +4775,7 @@ Je me fais jour
 Je me figeai en retenant mon souffle.
 Je me lève prendre le pain brioché.
 Je me mets à courir plus librement.
+Je me moque de Paris, d'Athènes, de la Chine!
 Je me mêle de ce qui me regarde pas, mais...
 Je me prendrai une glace à l'entracte.
 Je me projetais partout, dans ce Palais.
@@ -4814,6 +4855,7 @@ Je ne deviendrai cela ni pour eux ni pour personne.
 Je ne dis pas que ce sont eux, je fais une supposition.
 Je ne dis pas que je ne me remettrai pas au sport.
 Je ne distinguai que des silhouettes.
+Je ne dors pas, madame, je pense.
 Je ne désespère pas qu’une inspiration soudaine me le fasse écrire.
 Je ne fus pas moins coupable, hélas!
 Je ne juge pas, mais bon.
@@ -4851,6 +4893,7 @@ Je ne puis rien pour mon Dieu, sans cela: c'est la nouvelle nécessité.
 Je ne rebondirai même pas.
 Je ne regrette pas d’avoir acheté cette maison forestière.
 Je ne ressens nulle honte à dire que je ne sais pas.
+Je ne reviendrai pas sur le passé.
 Je ne risque rien sans doute.
 Je ne sais même pas si cela importe.
 Je ne sais pas compter, mais je veux apprendre.
@@ -4858,6 +4901,7 @@ Je ne sais pas d'autre métier, moi!
 Je ne sais pas de quoi il s’agit.
 Je ne sais pas encore si cela va m’aider à m’endormir.
 Je ne sais pas pourquoi vous l’avez fait venir, mais...
+Je ne sais pas si je dois dire oui ou non.
 Je ne sais pas si je vais m’en remettre.
 Je ne sais pas si tu as reçu mes messages.
 Je ne sais pas, c’est emballé.
@@ -4910,6 +4954,7 @@ Je ne vous demande pas d’intervenir.
 Je ne vous dérange pas?
 Je ne vous le fais pas dire.
 Je ne vous mentais pas, Madame Marquet.
+Je ne vous parais pas préoccupé, inquiet, avec des attitudes solennelles?
 Je ne vous promets pas de venir tous les dimanches.
 Je ne vous retiens plus.
 Je ne voyais pas comment entrer et le tirer de là.
@@ -4963,6 +5008,7 @@ Je passe quand même
 Je pencherai plutôt pour la seconde option.
 Je pensais le retour de Ghislain... rah comment le décrire, naine...
 Je pensais qu’on pourrait la convaincre.
+Je pense encore à ce que m'a dit cette somnambule.
 Je pense faire mon salut, même en vivant selon le siècle.
 Je pense que c'était au-dessus du niveau.
 Je pense que cela en vaut la peine.
@@ -5194,6 +5240,7 @@ Je vais au théâtre, je vois des tableaux, j'achète quelques livres.
 Je vais aux toilettes, quelqu'un veut y aller aussi?
 Je vais avoir besoin de main-d’œuvre.
 Je vais avoir pas mal de boulot lundi.
+Je vais cependant faire une dernière tentative sur mon mari.
 Je vais devoir racheter un téléphone car le mien est tombé en panne.
 Je vais essayer de me reposer un peu.
 Je vais faire préparer les chambres.
@@ -5322,6 +5369,7 @@ Juste une espèce de compréhension sur ce qui se vit dans cette pitchounette.
 Juste une petite décision.
 Juste à côté, une photo que je ne connais que trop bien.
 Justement ce que j'arrive pas à faire.
+Justement le voici, je reconnais son pas.
 Justement, chacun sa place, on est plus libre.
 Justement, tu vois, il a bien effectué son calcul.
 Justine a amené des croissants pour fêter son départ.
@@ -5612,6 +5660,7 @@ L'imbécile, ne voulut pas de la cocarde blanche.
 L'imprimante a un bourrage papier.
 L'imprimante n'a plus d'encre.
 L'incident a été résolu en deux jours.
+L'innocent! Il a attendu son dernier jour pour se déclarer.
 L'installation du logiciel est planifiée pour quatorze heures.
 L'instinct du peuple soupçonne la vanité de tels efforts.
 L'intendance ne trouve pas mes pots-de-vin assez forts.
@@ -6031,6 +6080,7 @@ La voiture avait rejoint l’autoroute à présent.
 La voiture démarra au quart de tour.
 La voiture entre doucement dans l'allée.
 La voiture radar des gendarmes était sournoisement cachée derrière le pont.
+La voiture va passer dans un quart d'heure.
 La voix de Kenneth poursuit, imperturbable.
 La voix du peuple peut foudroyer tout comme la voix de Dieu.
 La voix mélodieuse du jeune prédicateur ne tarissait pas.
@@ -6061,6 +6111,7 @@ Laissez-moi en tuer un!
 Laissez-moi faire.
 Laissez-moi finir, monsieur.
 Laissez-moi un peu respirer...
+Laissez-moi vous demander encore quelque chose.
 Laissons-le, peuchère, qu’il ne se prive de rien.
 Lance l'application de photo
 Lance le dernier film d'Audiard.
@@ -7170,6 +7221,7 @@ Ma vie à moi?
 Ma voiture de chasse est au Quai Pelletier.
 Ma voiture est cassée.
 Ma voix, mes choix de mise en valeur, les données que j’apportais...
+Madame Bernardin, voulez-vous, oui ou non, que votre fils fasse ce voyage?
 Madame Brière, je vous apporte votre commande.
 Madame Cardoche portait son tromblon à l'épaule.
 Madame Cardoche versait le sable noir à l'aide d'une cuiller.
@@ -7425,6 +7477,7 @@ Mais, de tout l'effort de sa corpulence, le major Gresloup vilipenda les Bourbon
 Mais, descendons, je vais vous présenter votre enfant.
 Mais, enfin, leur honneur de soldats, quels avantages obtenait-il?
 Mais, la générale n'ignorait point les trafics des courtisanes.
+Mais, mon ami, ce n'est pas la même chose.
 Mais, sachant leur temps aussi précieux que compté, il se ravise.
 Mais, telle Jessica Rabbit, j’ai juste été dessinée comme ça.
 Mais-euh Miss M!
@@ -8500,6 +8553,7 @@ Oui... enfin il était plus aux manettes, à l’époque... trop vieux.
 Ouverture des pièces jointes.
 Ouvrir la route
 Où ai-je bien pu ranger ce tournevis?
+Où allez-vous?
 Où allez-vous, les filles?
 Où en étais-je?
 Où est donc cet interprète?
@@ -8844,6 +8898,7 @@ Pourquoi vous me laissez pas faire comme je veux?
 Pourquoi vous ne le reprenez pas, vous?
 Pourquoi vous ne vous occupez pas de lui?
 Pourquoi y-a-t'il peu d'élèves?
+Pourquoi êtes-vous venu à Paris?
 Pourquoi, madame, ne voit-on jamais l'associé de votre mari?
 Pourquoi, pourquoi le vice de Lucifer avait-il redouté la claire vertu d'Eloa?
 Pourtant ce n'était pas qu'un cauchemar.
@@ -8904,6 +8959,7 @@ Probablement elle craignait qu'il ne soupçonnât la victoire de l'abbé sur ell
 Probablement sur un champ de bataille, mais peu importe.
 Probablement, mon pitchoun, probablement.
 Profitant de cette émotion, Omer questionna sur les leçons du séminaire.
+Promettez-moi de ne pas vous fâcher.
 Promettez-vous donc de ne la point relancer.
 Promirent le capitaine et le major, en claquant leurs sabres.
 Promis sur ce coup je n’y suis pour rien.
@@ -8963,9 +9019,11 @@ Pèse tes mots, Chloé, je t’en prie, pèse tes mots.
 Qu'a-t-elle gardé de cela.
 Qu'allons-nous faire?
 Qu'attendez-vous de moi qui vous persuade?
+Qu'avez-vous fait toute la journée?
 Qu'en dites-vous, Maître Héricourt?
 Qu'entend-t-on par système dissipatif?
 Qu'est ce que tu dis, Marie?
+Qu'est ce que vous faites ce soir?
 Qu'est-ce qu'il a décidément?
 Qu'est-ce qu'il aurait gagné?
 Qu'est-ce qu'il faut maintenant?
@@ -8976,11 +9034,13 @@ Qu'est-ce qu'il y a?
 Qu'est-ce qu'il y a sur ce fauteuil?
 Qu'est-ce qu'ils font?
 Qu'est-ce qu'on aurait pensé?
+Qu'est-ce que c'est que cette expression?
 Qu'est-ce que j'ai entendu là?
 Qu'est-ce que je vous sers, mesdames?
 Qu'est-ce que tu penses?
 Qu'est-ce que vous comptez faire?
 Qu'est-ce que vous dites, monsieur?
+Qu'est-ce que vous faites ce soir?
 Qu'est-ce que vous m'avez dit?
 Qu'est-ce que vous venez faire ici?
 Qu'est-ce qui est arrivé en premier? L'oeuf ou la poule?
@@ -9006,6 +9066,7 @@ Quand il est là, toutes mes appréhensions s’envolent.
 Quand il fut un peu loin, ils le huèrent en tambourinant sur leurs cartables.
 Quand il écrit c’est pas pour rien, naine!
 Quand je l’ai touché, je me suis mise à dessiner.
+Quand je parle d'aller à Paris, vous ne me retenez pas.
 Quand je pense que je me suis soumis à tous ses caprices!
 Quand je suis allé voir, les poubelles étaient comme d’habitude.
 Quand le domestique eut refermé la grille, Omer écouta retentir de chers sanglots.
@@ -9319,6 +9380,7 @@ Respirer avec l’estomac.
 Reste au lit ce matin, tu es malade.
 Reste cette troublante révélation.
 Reste à la maison, tu souffres trop.
+Restez donc chez vous, mon pauvre homme, et que mon fils en fasse autant.
 Restez zen!
 Restez, madame, restez, je vous en prie.
 Retire ce vit de ta bouche et commence par l’attiser.
@@ -9387,6 +9449,7 @@ Répétait la voix douce et tremblante de la foule maternelle.
 Répétèrent mille voix nerveuses.
 S'agissait-il de lâcheté tout simplement?
 S'il me cherche trop, il va finir par me trouver...
+S'il me trouve chez lui, je lui expliquerai pourquoi.
 S'il vous plaît.
 S'il y a pas ça, on va droit au mur
 S'ils viennent nous attaquer Nous les ferons sauter.
@@ -9455,6 +9518,7 @@ Saint Georges qui terrasse le Dragon.
 Saint-Cloud s'éveillait à peine.
 Sais-tu comment ils font pour grimper là-haut?
 Sais-tu comment on peut coudre un drapeau bleu, blanc, rouge?
+Sais-tu de qui est cette lettre?
 Sais-tu pourquoi elle représente la paix?
 Sait-on où s'arrêtera la rage de la canaille en délire?
 Salut, il y a longtemps que je n'ai pas de nouvelles de toi.
@@ -9656,6 +9720,7 @@ Si nous ne faisons rien, il meurt ici.
 Si on continue, pas de fondue ce soir.
 Si on ne les retient pas, ils vont faire un carnage.
 Si on veut gagner notre liberté, ce sera forcément à travers eux.
+Si on vous entendait me parler ainsi, on pourrait supposer...
 Si seulement mes voisins pouvaient partir plus souvent.
 Si tant est qu'à votre âge il seye de prendre femme.
 Si tes étourdissements te reprenaient, il faudrait faire venir un médecin.
@@ -9917,6 +9982,7 @@ Tendu, mais un peu soulagé, j’attendis que le dernier limier s’éloigne.
 Tenez! Moi aussi, il faut que je vous embrasse.
 Tenez, laissez-moi tranquille avec votre loi.
 Tenez, parlons un peu de vous, de vos succès...
+Tenez, sortez par ici, je vais vous montrer le chemin.
 Tenez, voilà de l’eau.
 Tenez, voilà un fauteuil!
 Tenez, voilà une chaise.
@@ -10310,6 +10376,7 @@ Tu seras à mes côtés, me rappelant que nul obstacle n’est trop haut.
 Tu sors pas de table tant que t'as pas fini ton plat.
 Tu t'attaques à un dieu.
 Tu t'es lavé les mains en sortant des toilettes?
+Tu t'intéresses beaucoup à la prospérité de cet arrondissement.
 Tu te rappelles pourquoi?
 Tu te souviens de Joseph Herman?
 Tu te souviens le grimoire?
@@ -10655,6 +10722,7 @@ Viens, on va s’asseoir, je te remets ma tournée.
 Vingt ou trente messieurs se disputaient là.
 Vingt regards explorèrent ses yeux, cherchèrent la vérité dans sa physionomie.
 Vingt énergumènes traînaient un misérable loqueteux par les poignets.
+Vingt-quatre mouchoirs.
 Vingt-trois pour cent.
 Visiblement, sa surdité ne la protège pas des vibrations.
 Vive la République!
@@ -10738,8 +10806,10 @@ Votre équipe. Un peu de paternalisme, tout au plus.
 Voui mon petit Stanislas.
 Voulez-vous attendre un instant?
 Voulez-vous me permettre de causer avec son père à ce propos?
+Voulez-vous que je recommence?
 Voulez-vous sortir et un peu plus vite!
 Voulez-vous sortir ou je vous fais jeter dehors!
+Voulez-vous vous asseoir un instant et écouter la fin de mon discours?
 Voulez-vous, oui ou non, renvoyer monsieur Bourdon et le remplacer?
 Vous a-t-il donné sa parole d’honneur?
 Vous acceptez de faire perdurer l'utilisation du format de fichier de cet éditeur.
@@ -10747,16 +10817,20 @@ Vous acceptez de prolonger votre accoutumance à sa suite bureautique célèbre.
 Vous acceptez de promouvoir les formats de fichiers et les logiciels de cet éditeur.
 Vous agissez en prescripteurs d'une marque à l'intérieur de l'école.
 Vous aimez bien le bridge?
+Vous allez donc partir, monsieur?
 Vous allez entendre notre architecte qui vous fera peut-être changer d'avis.
 Vous allez faire quoi, demain?
 Vous allez y goûter avec moi.
+Vous apprendrez cela plus facilement qu'autre chose.
 Vous avez belle mine, et vous auriez fait un bon chemin dans les ambassades.
+Vous avez bien une connaissance à Paris?
 Vous avez certainement déjà entendu cette expression.
 Vous avez changé, Madame Marquet.
 Vous avez combien de quantigraphies en base?
 Vous avez cru que c’était à vous.
 Vous avez de quoi noter?
 Vous avez des nouvelles d’Aspic?
+Vous avez des parents ici?
 Vous avez donc causé avec ma tante?
 Vous avez déjà entendu cette chanson?
 Vous avez eu des étudiantes vous?
@@ -10804,6 +10878,7 @@ Vous hameçonnez la pensée derrière l’idéogramme.
 Vous l'abandonnez fort méchamment, ce me semble!
 Vous laisserez-vous subjuguer sans vous défendre?
 Vous le connaissez, mon avis, il ne changera pas.
+Vous le connaissez, vous?
 Vous le dites!
 Vous le lirez à tête reposée.
 Vous le savez bien.
@@ -10811,10 +10886,12 @@ Vous le saviez Sara? Bien sûr, vous avez fait votre psycho sérieusement.
 Vous le voyez!
 Vous les enviez peut-être?
 Vous leur rendrez service en faisant leur travail.
+Vous lui parlerez avant le dîner, n'est-ce pas?
 Vous l’avez essayé? Comment faire autrement.
 Vous l’aviez préparé depuis longtemps?
 Vous manquez par trop d'assurance.
 Vous me laissez avec lui.
+Vous me placerez près de vous à table.
 Vous me suivez?
 Vous m’appelez dès que votre décision est prise.
 Vous m’avez demandé d’écrire, de prendre une feuille de papier.
@@ -10828,6 +10905,7 @@ Vous n'avez pas d'uniforme: suffit!
 Vous n'avez pas voulu parler de la souffrance, mais de la mort.
 Vous n'avez rencontré personne?
 Vous n'avez rien entendu?
+Vous n'en avez jamais tant reçu.
 Vous n'en avez pas marre de lire ces phrases à voix haute?
 Vous n'en avez pas marre de vérifier si les phrases sont bien prononcées?
 Vous n'hésitez pas?
@@ -10864,6 +10942,7 @@ Vous prépariez cette victoire des Grecs.
 Vous restez, n'est-ce pas, madame?
 Vous rougissez, monsieur, vous rougissez!
 Vous réalisiez ce que j'ai pu seulement souhaiter.
+Vous savez bien que j'ai une fille?
 Vous savez danser?
 Vous savez le reste.
 Vous savez pourtant ce que l’on dit: qui veut voyager loin...
@@ -10908,6 +10987,7 @@ Vous êtes bien bon.
 Vous êtes de la même génération et elle est originaire de Noyon
 Vous êtes encore plus tarés que ce que j’imaginais.
 Vous êtes jeune, assez pour vous permettre ce caprice.
+Vous êtes l'homme le plus galant que je connaisse.
 Vous êtes là depuis longtemps?
 Vous êtes pianiste, monsieur?
 Vous êtes qui, vous? Le gardien ?
@@ -11253,6 +11333,8 @@ vous pouvez vous contenter d'un salaire indécent.
 Écoute-moi, Xavier, écoute-moi bien maintenant. C’est comme ça.
 Écouter la rivière en contrebas.
 Écoutez, Madame M, c’est pas contre vous...
+Écoutez-moi ça, vous qui êtes de la partie.
+Écoutez-moi ça.
 Écoutons chacun des cris de son esprit.
 Écrire sans raison, c’est comme rire hors saison.
 Écrit en larges lettres sur le palier de leurs locaux.
