@@ -97,6 +97,7 @@ or = Odia
 pl = Polonais
 pt-BR = Portugais (Brésil)
 rm-sursilv = Romanche sursilvan
+rm-vallader = Bas-engadinois
 ro = Roumain
 ru = Russe
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Slovène
 sq = Albanais
 sr = Serbe
 sv-SE = Suédois
+syr = Syriaque
 ta = Tamoul
 te = Télougou
 tg = Tadjik
@@ -611,7 +613,6 @@ record-again-instruction = Formidable ! <recordIcon></recordIcon> Enregistrez v
 record-again-instruction2 = Continuez comme ça et enregistrez-en un de plus.
 record-last-instruction = <recordIcon></recordIcon> C’est le dernier !
 review-tooltip = Vérifier et réenregistrer au besoin
-unable-speak = Impossible de parler en ce moment
 review-instruction = Vérifiez et réenregistrez si nécessaire
 record-submit-tooltip = { $actionType } envoyer lorsque vous êtes prêt
 clips-uploaded = Clips mis en ligne
@@ -627,6 +628,21 @@ listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 nothing-to-validate = Nous n’avons rien à valider dans cette langue, aidez-nous à ajouter quelques enregistrements dans la file d’attente.
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
+
+## Reporting
+
+report = Signaler
+report-title = Envoyer un rapport
+report-ask = Quels problèmes rencontrez-vous avec cette phrase ?
+report-grammar-or-spelling = Erreur grammaticale / faute d’orthographe
+report-grammar-or-spelling-detail = La phrase comporte une faute de grammaire ou d’orthographe.
+report-different-language = Autre langue
+report-different-language-detail = La phrase est écrite dans une langue différente de celle que je parle.
+report-difficult-pronounce = Difficile à prononcer
+report-difficult-pronounce-detail = Certains mots ou certaines phrases sont difficiles à lire ou à prononcer.
+report-other-comment =
+    .placeholder = Commentaire
+continue = Continuer
 
 ## Goals
 
