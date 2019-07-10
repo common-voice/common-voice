@@ -85,6 +85,7 @@ uby = Ubykh
 udm = Udmurt
 uk = युक्रेनियन
 uz = उज्बेक
+vot = Votic
 zh-CN = चीनियाँ (चीन)
 zh-TW = चीनियाँ (ताइवान)
 
@@ -97,6 +98,7 @@ speak = बोल्नुहोस्
 speak-now = अहिले बोल्नुस्
 datasets = डाटासेटहरु
 languages = भाषाहरू
+about = बारेमा
 profile = प्रोफाइल
 help = मद्दत
 contact = सम्पर्क
@@ -154,6 +156,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = रेकर्ड गर्नुहोस्/रोक्नुहोस्
+shortcut-rerecord-toggle-label = क्लिप पुन: रेकर्ड गर्नुहोस्
 request-language-text = Common Voice मा तपाईँको भाषा अझै देख्नुभएन ?
 request-language-button = भाषा अनुरोध गर्नुहोस्
 
@@ -193,6 +196,9 @@ edit-profile = प्रोफाइल सम्पादन गर्नुह
 profile-create-success = सफलता, प्रोफाईल सिर्जना गरियो!
 profile-close = बन्द गर्नुहोस्
 profile-explanation = प्रोफाईलको साथ तपाईंको प्रगतिको ट्रयाक राख्नुहोस् र हाम्रो भ्वाईस डाटा अधिक सही बनाउन सहयोग गर्नुहोस् ।
+add-avatar-clip = तपाईंको प्रोफाइलमा एक अवतार क्लिप थप्नुहोस्
+manage-email-subscriptions = इमेल सब्सक्रिप्शनहरू व्यवस्थापन गर्नुहोस्
+change-email-setings = लगइन परिचय अन्तर्गत सेटिङहरू मार्फत तपाईंको इमेल परिवर्तन गर्नुहोस्
 
 ## FAQ
 
