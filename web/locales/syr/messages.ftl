@@ -77,6 +77,8 @@ loading = ܡܲܛܥܵܢܬܵܐ
 
 ## Reporting
 
+success = ܟܲܫܝܼܪܘܼܬܵܐ
+continue = ܐܡܵܢܵܐ
 
 ## Goals
 
