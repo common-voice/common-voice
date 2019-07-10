@@ -97,6 +97,7 @@ or = Oriya
 pl = Polacco
 pt-BR = Portoghese (Brasile)
 rm-sursilv = Romancio sottosilvano
+rm-vallader = Romancio Vallader
 ro = Rumeno
 ru = Russo
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Sloveno
 sq = Albanese
 sr = Serbo
 sv-SE = Svedese
+syr = Siriaco
 ta = Tamil
 te = Telugu
 tg = Tagico
@@ -593,7 +595,6 @@ record-again-instruction = Ottimo! <recordIcon></recordIcon> Registra la success
 record-again-instruction2 = Continua così, registra di nuovo <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> L’ultima!
 review-tooltip = Riascolta e, se necessario, ripeti le registrazioni prima di proseguire
-unable-speak = Non posso parlare in questo momento
 review-instruction = Riascolta le registrazioni e, se necessario, ripetile
 record-submit-tooltip = { $actionType } Invia quando sei pronto
 clips-uploaded = Registrazioni caricate
@@ -609,6 +610,13 @@ listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 nothing-to-validate = Non sono presenti registrazioni da convalidare in questa lingua, aiutaci registrando qualche frase.
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci
+
+## Reporting
+
+report-ask = Quali problemi stai riscontrando con questa frase?
+report-offensive-language = Linguaggio offensivo
+report-grammar-or-spelling-detail = La frase ha un errore grammaticale o di ortografia.
+report-different-language = Lingua diversa
 
 ## Goals
 
