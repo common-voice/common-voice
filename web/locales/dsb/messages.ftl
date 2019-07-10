@@ -405,6 +405,7 @@ about-listen = Pśisłuchaś
 about-is-it-valid = Jo klip płaśiwy?
 about-is-it-valid-text = Głosowy klip se ako „płaśiwy markěrujo, gaž wužywaŕ jomu jogłos dajo.
 about-yes-votes = ≥ 2 jogłosa
+about-yes-votes-text = Aby se głosowy klip do datoweje sajźby Common Voice pśewzeł, musy se wót dweju rozdźělneju wužywarjowu pśeglědowaś.
 about-no-votes = ≥ 2 něgłosa
 about-dataset-new = Datowa sajźba Common Voice
 about-clip-graveyard = Klipowy kjarchob
