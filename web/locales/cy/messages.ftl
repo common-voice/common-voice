@@ -97,6 +97,7 @@ or = Odia
 pl = Pwyleg
 pt-BR = Portiwgaleg (Brasil)
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = Rwmaneg
 ru = Rwsieg
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Slofeneg
 sq = Albaneg
 sr = Serbeg
 sv-SE = Swedeg
+syr = Syriac
 ta = Tamil
 te = Telugu
 tg = Tajik
@@ -629,7 +631,6 @@ record-again-instruction = Gwych! <recordIcon></recordIcon> Recordiwch eich clip
 record-again-instruction2 = Daliwch ati, recordiwch eto <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Yr un olaf!
 review-tooltip = Adolygu ac ail recordio clipiau yma wrth fynd
-unable-speak = Methu siarad nawr?
 review-instruction = Adolygu ac ail recordio clipiau os oes angen
 record-submit-tooltip = { $actionType } cyflwyno pan yn barod
 clips-uploaded = Clipiau Wedi'u Llwytho
@@ -645,6 +646,27 @@ listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 nothing-to-validate = Nid oes gennym unrhyw beth i ddilysu'r iaith hon, helpwch ni i lanw'r ciw
 record-button-label = Recordio eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
+
+## Reporting
+
+report = Adrodd
+report-title = Cyflwyno adroddiad
+report-ask = Pa anawsterau ydych yn eu profi gyda'r frawddeg hon?
+report-offensive-language = Iaith dramgwyddus
+report-offensive-language-detail = Mae gan y frawddeg iaith amharchus neu dramgwyddus.
+report-grammar-or-spelling = Gwall gramadegol / sillafu
+report-grammar-or-spelling-detail = Mae gwall gramadegol neu sillafu yn y frawddeg.
+report-different-language = Gwahanol iaith
+report-different-language-detail = Mae wedi'i hysgrifennu mewn iaith sy'n wahanol i'r hyn rwy'n ei siarad.
+report-difficult-pronounce = Anodd ei ynganu
+report-difficult-pronounce-detail = Mae'n cynnwys geiriau neu ymadroddion sy'n anodd eu darllen neu eu ynganu.
+report-offensive-speech = Araith dramgwyddus
+report-offensive-speech-detail = Mae gan y clip iaith amharchus neu dramgyddus.
+report-other-comment =
+    .placeholder = Sylwadau
+success = Llwyddiant
+continue = Parhau
+report-success = Mae'r adroddiad wedi ei gyflwyno'n llwyddiannus
 
 ## Goals
 
