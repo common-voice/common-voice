@@ -563,6 +563,9 @@ other-language = பிற மொழி
 ## Languages Overview
 
 language-section-in-progress = செயல்பாட்டிலுள்ளது
+language-section-in-progress-new-description =
+    இந்த மொழிகள் அனைத்தும் தற்போது சமூக மேம்பாட்டின்கீழ் இருக்கின்றன.
+    ஒவ்வொரு மொழியும் <localizationGlossaryLink> வலைத்தள மொழியாக்கம்</localizationGlossaryLink> மற்றும் <sentenceCollectionGlossaryLink> சொற்றொடர் சேகரிப்பு </sentenceCollectionGlossaryLink> ஆகியவற்றை எவ்வளவு முடித்துள்ளன  என்பதை முன்னேற்ற பட்டைகள் குறிப்பிடுகின்றன.
 language-section-launched = அறிமுகப்படுத்தப்பட்டது
 languages-show-more = மேலும் பார்க்க
 languages-show-less = குறைவாகப் பார்க்க
