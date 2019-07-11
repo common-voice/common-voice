@@ -97,6 +97,7 @@ or = ଓଡ଼ିଆ
 pl = ପୋଲିସ
 pt-BR = ପର୍ତ୍ତୁଗୀଜ (ବ୍ରାଜିଲ)
 rm-sursilv = ରୋମାନ୍ସ ସର୍ସିଲଭାନ
+rm-vallader = ରୋମାନ୍ସ ବାଲଡ଼ର
 ro = ରୋମାନିଆନ
 ru = ଋଷୀୟ
 rw = କିନ୍ୟାରୱାଣ୍ଡା
@@ -108,6 +109,7 @@ sl = ସ୍ଳୋଭେନିଆନ
 sq = ଆଲବାନିଆନ
 sr = ସର୍ବିଆନ
 sv-SE = ସୁଇଡିସ
+syr = ସୀରିୟ
 ta = ତାମିଲ
 te = ତେଲୁଗୁ
 tg = ତାଜିକ
@@ -607,7 +609,6 @@ record-again-instruction = ବଢ଼ିଆ! <recordIcon></recordIcon> ନିଜ 
 record-again-instruction2 = ଏମିତି ଚାଲିଥାଉ, ଆହୁରି ରେକର୍ଡ଼କରନ୍ତୁ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ଶେଷଟି!
 review-tooltip = ଆଗକୁ ବଢ଼ିଲାବେଳେ କ୍ଲିପଗୁଡ଼ିକ ଏଠାରେ ପରଖି ଓ ଆଉଥରେ ରେକର୍ଡ଼କରନ୍ତୁ
-unable-speak = ଏବେ କହିବାରେ ଅକ୍ଷମ?
 review-instruction = ଦରକାର ପଡ଼ିଲେ ପରଖି କ୍ଲିପଗୁଡ଼ିକୁ ଆଉଥରେ ରେକର୍ଡ଼ କରନ୍ତୁ
 record-submit-tooltip = ପ୍ରସ୍ତୁତ ହେଲେ ପଠାନ୍ତୁ { $actionType }
 clips-uploaded = ଧ୍ୱନୀଗୁଡିକ ଅପଲୋଡ଼ ହୋଇଗଲା ।
@@ -623,6 +624,27 @@ listen-last-time-instruction = <playIcon></playIcon> ଶେଷଟି!
 nothing-to-validate = ଏହି ଭାଷାରେ ଆମ ପାଖରେ କିଛି ଯାଞ୍ଚ କରିବାକୁ ନାହିଁ, ଭର୍ତ୍ତିକରିବାରେ ସାହାର୍ଯ୍ୟ କରନ୍ତୁ ।
 record-button-label = ଆପଣଙ୍କର ସ୍ୱରକୁ ରେକର୍ଡ କରନ୍ତୁ
 share-title-new = ଅଧିକ ସ୍ୱର ପାଇବା ପାଇଁ ଆମକୁ <bold>ସାହାଯ୍ୟ କରନ୍ତୁ</bold>
+
+## Reporting
+
+report = ରିପୋର୍ଟ୍
+report-title = ରିପୋର୍ଟ ଦିଅନ୍ତୁ
+report-ask = ଏହି ବାକ୍ୟରେ ଆପଣ କଣ ଅସୁବିଧା ସମ୍ମୁଖୀନ କରୁଛନ୍ତି?
+report-offensive-language = ଆକ୍ରଣାତ୍ମକ ଭାଷା
+report-offensive-language-detail = ବାକ୍ୟଟି ଅସମ୍ମାନବୋଧକ କିମ୍ବା ଆକ୍ରଣାତ୍ମକ ଭାଷା ଅଟେ ।
+report-grammar-or-spelling = ବାକ୍ୟରଣ/ବନାନଗତ ତ୍ରୁଟି
+report-grammar-or-spelling-detail = ବାକ୍ୟଟିର ବାକ୍ୟରଣଗତ କିମ୍ବା ବନାନଗତ ତ୍ରୁଟି ରହିଛି ।
+report-different-language = ଅନ୍ୟ ଭାଷା
+report-different-language-detail = ମୁଁ କହୁଥିବା ଭାଷାଠାରୁ ଭିନ୍ନ ଏହା ଅନ୍ୟ ଏକ ଭାଷାରେ ଲିଖିତ ।
+report-difficult-pronounce = ଉଚ୍ଚାରଣ କରିବାକୁ କଷ୍ଟ
+report-difficult-pronounce-detail = ଏଥିରେ ଉଚ୍ଚାରଣ କରିହେଉନଥିବା ଶବ୍ଦ କିମ୍ବା ପଦ ରହିଛି ।
+report-offensive-speech = ଆକ୍ରଣାତ୍ମକ ଭାଷଣ ।
+report-offensive-speech-detail = ଏହି ଧ୍ୱନିଟିରେ ଅସମ୍ମାନୀୟ କିମ୍ବା ଆକ୍ରଣାତ୍ମକ ଭାଷଣ ରହିଛି ।
+report-other-comment =
+    .placeholder = ମନ୍ତବ୍ୟ
+success = ସଫଳ
+continue = ଆଗକୁ ବଢ଼ନ୍ତୁ
+report-success = ରିପୋର୍ଟଟି ସଫଳତାର ସହିତ ଉତ୍ତୀର୍ଣ୍ଣ ହୋଇଯାଇଛି
 
 ## Goals
 
