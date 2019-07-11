@@ -16,16 +16,6 @@ import { Avatar, Hr } from '../ui/ui';
 
 import './user-menu.css';
 
-const Info = () => (
-  <div className="cover">
-    <p>sfsfgf</p>
-    <section>
-      <div className="wave top">kkkk</div>
-      <canvas className="wavea mid" id="bars"></canvas>
-    </section>
-  </div>
-);
-
 function Animation() {
   return (
     <div className="cover">
@@ -37,9 +27,349 @@ function Animation() {
   );
 }
 
+function ani(d: any) {
+  console.log(d);
+  var canvas = d.current;
+  var ctx = canvas.getContext('2d');
+
+  var pos = [
+    [
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+    ],
+    [
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+    ],
+    [
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+    ],
+    [
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+    ],
+    [
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      140,
+      120,
+      100,
+      80,
+      60,
+      80,
+    ],
+  ];
+
+  var t = 0;
+  doit();
+  setInterval(doit, 150);
+  function doit() {
+    //window.webkitRequestAnimationFrame(doit)
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = 'black';
+    for (var j = 0; j < 55; j++) {
+      var position = j * 5;
+      position = position + 20;
+      var width = 0.5;
+      var height = -(pos[t][j] / 2);
+      ctx.fillRect(position, canvas.height, width, height);
+    }
+    t++;
+    if (t === 5) t = 0;
+    console.log(t);
+  }
+}
+
 export default function UserMenu() {
+  const canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
   const [locale] = useLocale();
   const account = useAccount();
+  console.log(account.avatar_url, 'logged account');
   const [showMenu, setShowMenu] = useState(false);
   const [showAnimation, setShowAnimation] = useState(false);
   return (
@@ -49,7 +379,7 @@ export default function UserMenu() {
         onMouseEnter={() => setShowMenu(true)}
         onMouseLeave={() => setShowMenu(false)}>
         <button className="toggle" onClick={() => setShowMenu(!showMenu)}>
-          <div onClick={() => console.log('kkkkkkk')}>
+          <div onClick={() => ani(canvasRef)}>
             <Avatar url={account.avatar_url} />
           </div>
           <span className="name" title={account.username}>
@@ -101,7 +431,16 @@ export default function UserMenu() {
           </div>
         </div>
       </div>
-      <div className="test">{!showAnimation && <Animation />}</div>
+      <div className="test">
+        {!showAnimation && (
+          <div className="cover">
+            <section>
+              <div className="wave top"></div>
+              <canvas ref={canvasRef} className="wavea mid" id="bars"></canvas>
+            </section>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

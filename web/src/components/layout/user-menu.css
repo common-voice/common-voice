@@ -1,8 +1,6 @@
 @import url('../vars.css');
 
 .test {
-    color: red;
-
     & .cover {
         width: 51%;
 
@@ -13,7 +11,8 @@
         z-index: -1;
         padding-left: px;
         position: absolute;
-        top: 32px;
+        top: 27px;
+        left: 65%;
         width: 30%;
         height: 50px;
         background-color: white;
@@ -27,10 +26,8 @@
     }
 
     & .top {
-        z-index: 15;
-        opacity: 0.5;
-        /*
-        box-shadow: inset 75px -14px 146px -10px rgba(245,235,245,1), inset -68px 10px 135px 2px rgba(245,235,245,1);*/
+        /*z-index: 15;
+        opacity: 0.5;*/
     }
 
     & .wave {
@@ -45,7 +42,7 @@
         box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
             inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
         background: url('./wave2.svg');
-        background-size: 40%;
+        background-size: 50%;
         background-repeat: repeat-x;
 
         animation: mymovea 17s linear infinite;
@@ -63,7 +60,7 @@
         box-shadow: inset 25px 10px 41px 0px rgba(255, 255, 255, 1),
             inset -19px 10px 41px 0px rgba(255, 255, 255, 1);
         background: url('./wave1.svg');
-        background-size: 40%;
+        background-size: 50%;
         background-repeat: repeat-x;
 
         animation: mymove 15s linear infinite;
@@ -99,9 +96,6 @@
 
     @media (--sm-up) {
         max-width: 200px;
-    }
-    & .test {
-        color: red;
     }
 
     & .toggle {
