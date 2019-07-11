@@ -55,10 +55,15 @@ export async function sync(client_id: string) {
     created_at: toISO(row.goal_created_at),
     days_interval: row.days_interval,
     goal_reached_at: toISO(row.goal_reached_at),
-
-    last_active_date: toISO(row.last_active_date),
-    two_day_streak: false,
   };
+
+  if (getConfig().ENVIRONMENT != 'prod') {
+    Object.assign(data, {
+      last_active_date: toISO(row.last_active_date),
+      two_day_streak: false,
+    });
+  }
+
   console.log('basket', JSON.stringify(data, null, 2));
   await sendRequest({
     uri: API_URL + '/news/common-voice-goals/',
