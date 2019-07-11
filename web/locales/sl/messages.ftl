@@ -108,6 +108,7 @@ sl = slovenščina
 sq = albanščina
 sr = srbščina
 sv-SE = švedščina
+syr = sirščina
 ta = tamilščina
 te = teluščina
 tg = tadžiščina
@@ -624,7 +625,8 @@ share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 ## Reporting
 
 report = Prijavi
-report-wrong-language = Napačen jezik
+report-other-comment =
+    .placeholder = Komentar
 continue = Nadaljuj
 
 ## Goals
