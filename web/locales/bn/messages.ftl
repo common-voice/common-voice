@@ -363,10 +363,12 @@ about-is-it-valid = এই ক্লিপটি কি বৈধ?
 about-is-it-valid-text = একটি ভয়েস ক্লিপ তখনই "বৈধ" হিসেবে চিহ্নিত করা হয় যখন একজন ব্যবহারকারী সেটিকে হ্যাঁ ভোট দেয়।
 about-yes-votes = ≥ 2 হ্যাঁ ভোট
 about-yes-votes-text = Common Voice এর ডাটাসেটে একটি ভয়েস ক্লিপ অন্তর্ভুক্ত করতে চাইলে, দুজন পৃথক ব্যবহারকারী দ্বারা সেটির বৈধতা যাচাই করা আবশ্যক।
+about-get-involved = সম্পৃক্ত হোন
 about-nav-why-common-voice = কেন?
 about-nav-how-it-works = কিভাবে?
 about-nav-partners = অংশীদার
 about-nav-get-involved = সম্পৃক্ত হোন
+mycroft-title = Mycroft Ai
 mycroft-subtitle = কৃত্রিম বুদ্ধিমত্তা
 
 ## Glossary
@@ -534,6 +536,7 @@ share-title-new = <bold>আমাদের সাহায্য করুন</b
 
 ## Reporting
 
+success = সফল
 
 ## Goals
 
