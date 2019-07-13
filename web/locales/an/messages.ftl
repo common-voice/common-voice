@@ -136,10 +136,25 @@ speak = Parla
 speak-now = Parla agora
 datasets = Conchuntos de datos
 languages = Luengas
-about = Sobre
+about = Sobre nusatros
+profile = Perfil
+help = Aduya
+contact = Contacto
+privacy = Privacidat
+terms = Termens
+cookies = Cookies
+faq = Preguntas freqüents
+content-license-text = Conteniu disponible baixo una <licenseLink>licencia Creative Commons</licenseLink>
+share-title = Aduya-nos a trobar mas personas que donen la suya voz!
+share-text = Aduya-nos a amostrar a las maquinas cómo charra la chent real, dona la tuya voz en { $link }
+link-copied = Vinclo copiau
+back-top = Tornar ta l'inicio
+logout = Zarrar la sesión
 
 ## Home Page
 
+home-title = Lo prochecto Common Voice ye una iniciativa de Mozilla pa aduyar a amostrar-les a las maquinas cómo charran las personas.
+home-cta = Charra fuerte, contribuye aquí!
 
 ## Account Benefits
 
