@@ -290,9 +290,48 @@ female = Muller
 # Gender
 other = Atro
 why-profile-title = Per qué un perfil?
+why-profile-text = En entregar-nos un poquet d'información sobre tu, los datos d'audio que ninvies a Common Voice serán mas utils pa los motors de reconoiximiento de voz que los fagan servir amillorando la suya precisión.
+dashboard = Taulero
+build-profile = Crear un perfil
+avatar = Avatar
+goals = Obchectivos
+settings = Achustes
+edit-profile = Editar perfil
+profile-create-success = Feito, perfil creau!
+profile-close = Zarrar
 
 ## FAQ
 
+faq-why-different-speakers-q = Per qué fan falta tantos parladors diferents per idioma?
+faq-why-different-speakers-a =
+    La mayoría d'as bases de datos de voz son creyadas con una representación excesiva de bells datos demograficos que dan como resultau un sesgo enta lo <articleLink> masculino de clase media </articleLink>. Los accentos y dialectos que tienden a estar poco representaus en as bases de datos d'entrenamiento gosan corresponder con grupos de personas que ya son marguinaus. A muitas maquinas tamién les cuesta d'entender las voces femeninas. 
+    Per ixo queremos variedat en a nuestra base de datos de voces!
+faq-why-my-lang-q = Per qué lo mío idioma encara no ye incluyiu?
+faq-why-my-lang-new-a = Mozilla no tría ni afavoreix garra idioma sobre unatro. Per contra, Common Voice ye una iniciativa empentada per la comunidat, pero <multilangLink>leva tiempo adhibir un nuevo idioma</multilangLink> y prencipiar a recopilar donacions de voz. En primeras, lo puesto web de Common Voice ha de traducir-se pa que los miembros d'a comunidat puedan acceder a la experiencia d'estar colaborador en o suyo propio idioma. Contino, nos fará falta una gran colección de frases sin dreitos d'autor que se puedan leyer en voz alta. Malas que se cumplan estes dos requisitos, se “inicia” un idioma en Common Voice pa que se pueda empecipiar a gravar y validar las donacions d'atros. Si quiers aduyar a lanzar un nuevo idioma, ves ta la nuestra <sentenceCollectorLink>ferramienta de recopilación de frases</sentenceCollectorLink> pa prencipiar.
+faq-what-quality-q = Qué nivel de calidat d'audio se requiere pa que un fragmento de voz s'use en a base de datos?
+faq-what-quality-a = Queremos que la base de datos de Common Voice refleixe la calidat d'audio que un motor de voz a texto escuitará en a realidat, asinas que buscamos variedat. Amás d'una comunidat diversa d'oradors, una base de datos con una calidat d'audio variable amostrará a lo motor de voz a texto a maniar diversas situacions d'o mundo real, dende charrar en segundo plano dica rudio d'autos. Si lo fragmento de voz ye intelichible, habría d'estar valido pa la base de datos.
+faq-why-10k-hours-q = Per qué l'obchectivo son 10.000 horas validadas?
+faq-why-10k-hours-a = Ye aproximadament lo numero d'horas que fan falta pa formar un sistema de producción de voz a texto.
+faq-how-calc-hours-q = Cómo calcula Common Voice las horas?
+faq-how-calc-hours-a = Calculamos las horas estimando la duración meya de cada gravación, y dimpués multiplicando ixe numero per lo numero total de gravacions en totz los idiomas.
+faq-where-src-from-2-q = D'aón procede lo texto fuent?
+faq-where-src-from-2-a =
+    Los nuestros textos provienen de frases orichinals donadas per los propios colaboradors y de dialogos de cintas de dominio publico como <italic> Qué bello ye vivir </italic>.
+    
+    Puetz consultar las nuestras frases d'orichen en esta <githubLink>carpeta de GitHub</githubLink>.
+faq-why-not-ask-read-q = Per qué no peditz a la chent que leigan libros u articlos de Wikipedia en diferents idiomas?
+faq-why-not-ask-read-a = Pa fer que la base de datos de Common Voice sía lo mas util posible, hemos decidiu de permitir nomás los textos que sían disponibles baixo una licencia Creative Commons (CC0). En usar la licencia estandard CC0 ye muito mas dificil trobar y recopilar textos orichinals, pero permite que qualsequiera pueda usar los datos de voz resultants sin restriccions d'uso u autorización de Mozilla. Amás, queremos que la base de datos en quantos idiomas sía lo mas util posible pa totz, incluyius investigadors, universidatz, interpresas emerchents, gubiernos, organizacions de fins socials y aficionaus.
+faq-why-account-q = Per qué he de rechistrar-me?
+faq-is-account-public-q = La información d'a mía cuenta ye publica?
+faq-how-privacy-q = Cómo guarenciatz lo anonimato y la privacidat d'as personas que donan las suyas voces?
+faq-how-privacy-a = Totz los fragmentos de voz d'a base de datos se filtran y se les elimina la información d'identificación personal. Quan un colaborador proporciona datos demograficos a traviés d'o suyo perfil, ixa información se anonimiza en os suyas fragmentos de voz antes d'empaquetar-la y habilitar-la pa la descarga en a base de datos y nunca no se fa publica en a suya pachina de perfil.
+faq-what-determine-identity-q = Qué significa que no puedo "determinar la identidat" d'os oradors en a base de datos de Common Voice?
+faq-what-determine-identity-a =
+    La base de datos de Common Voice ye un recurso ubierto y accesible pa tot lo publico que se puede usar pa formar y creyar una amplia variedat d'aplicacions habilitadas pa la voz. Pa protecher la seguridat d'os nuestros colaboradors, demandamos a totz qui descarguen la base de datos de Common Voice que respecten la privacidat d'os colaboradors.
+    
+    A totz los fragmentos de voz d'a base de datos se les filtra la información d'identificación personal. Quan descargas la base de datos, yes acceptando que no mirarás de determinar la identidat de garra colaborador. Ixo significa que no puetz mirar de vincular la información d'a base de datos con a información personal d'un colaborador. Manimenos, puetz usar la base de datos pa entrenar la reconoixencia de voz, la reconoixencia d'o parlador u atras aplicacions; per eixemplo, vinculando la información d'a base de datos con belatra información que ya se trobe en ella.
+faq-what-is-cv = Qué ye Common Voice?
+faq-using-cv = Cómo usar Common Voice
 
 ## ABOUT US
 
