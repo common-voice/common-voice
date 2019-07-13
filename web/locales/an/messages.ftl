@@ -184,27 +184,83 @@ all-locales = Totas
 today = Hue
 x-weeks-short =
     { $count ->
-        [one] Setmana
-       *[other] { $count } setm.
+        [one] semana
+       *[other] { $count } sem
     }
+x-months-short =
+    { $count ->
+        [one] 1 mes
+       *[other] { $count } meses
+    }
+x-years-short =
+    { $count ->
+        [one] 1 anyo
+       *[other] { $count } anyos
+    }
+help-make-dataset = Aduya-nos a fer una base de datos d'alta calidad y accesible pa totz
+sign-up-account = Rechistra-te y crea una cuenta
+email-subscription-title = rechistra-te pa recibir información per correu
 
 ## Account Benefits
 
+benefits = Avantaches
+rich-data = Fe que los datos que ninvies sigan lo mas completos posibles, proporcionando datos demograficos anonimos. Totz estes datos pasarán a estar anonimos antes de fer-se publicos.
+improve-audio = La información de perfil millorar los datos d'audio usaus en l'entrenamiento de precisión de reconoiximiento de voz.
+keep-track = Mantiene un rechistro d'o tuyo progreso y metricas en multiples idiomas.
+compare-progress = Compara lo tuyo progreso con atros colaboradors de tot lo mundo.
+view-goals = Compara lo tuyo progreso con os tuyos obchectivos personals y de prochecto.
+join-newsletter = Opcionalment, une-te a la nuestra lista de correu pa tener actualizacions y novedatz sobre lo prochecto.
 
 ## What's public
 
+whats-public = Qué se fa publico?
+email-not-public = No faremos lo tuyo correu publico.
+recordings-and-locale-public = Lo numero de gravacions y en qué idiomas colaboras sí que serán publicos.
+username-optin-public = Puetz triar si fas publico u anonimo lo tuyo nombre d'usuario.
+demographic-deidentified = Los datos demograficos ninviaus opcionalment (per eixemplo: edat, sexo, idioma y accento) son desvinculaus d'os tuyos datos de voz y nunca no se farán publicos en o tuyo perfil.
+username-email-not-demographic = Lo tuyo nombre d'usuario y correu no serán asociaus con os datos publicaus.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = p
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+shortcut-play-toggle-label = Reproducir/Aturar
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
+shortcut-record-toggle-label = Gravar/Aturar
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Tornar a gravar lo fragmento
+request-language-text = No ye encara lo tuyo idioma en Common Voice?
+request-language-button = Demanda un idioma
 
 ## ProjectStatus
 
+status-title = Estau cheneral d'o prochecto: mira enta ón hemos veniu!
+status-contribute = Dona la tuya voz
+status-hours =
+    { $hours ->
+        [one] Una hora validada dica agora!
+       *[other] { $hours } horas validadas dica agora!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Siguients obchectivos: { $goal }
 english = Anglés
 
 ## ProfileForm
