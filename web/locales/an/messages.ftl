@@ -332,6 +332,9 @@ faq-what-determine-identity-a =
     A totz los fragmentos de voz d'a base de datos se les filtra la información d'identificación personal. Quan descargas la base de datos, yes acceptando que no mirarás de determinar la identidat de garra colaborador. Ixo significa que no puetz mirar de vincular la información d'a base de datos con a información personal d'un colaborador. Manimenos, puetz usar la base de datos pa entrenar la reconoixencia de voz, la reconoixencia d'o parlador u atras aplicacions; per eixemplo, vinculando la información d'a base de datos con belatra información que ya se trobe en ella.
 faq-what-is-cv = Qué ye Common Voice?
 faq-using-cv = Cómo usar Common Voice
+faq-description = Common Voice forma parte d'a iniciativa de Mozilla pa amostrar a las maquinas cómo charran en realidat los seres humans.
+faq-search-for-answers =
+    .label = Busca respuestas a las tuyas preguntas
 
 ## ABOUT US
 
