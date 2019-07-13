@@ -155,6 +155,38 @@ logout = Zarrar la sesión
 
 home-title = Lo prochecto Common Voice ye una iniciativa de Mozilla pa aduyar a amostrar-les a las maquinas cómo charran las personas.
 home-cta = Charra fuerte, contribuye aquí!
+wall-of-text-start = La voz ye natural, la voz ye humana. Per ixo somos entusiasmaus per creyar tecnolochías de voz utilizables pa las nuestras maquinas. Pero pa creyar sistemas de voz, los fa falta una gran cantidat de datos de voz.
+wall-of-text-more-mobile = La mayor parte d'os datos usaus per las grans interpresas no ye disponible pa la mayoría d'a chent. Nusatros pensamos que ixo safoca la innovación. Asinas que lanzamos lo prochecto Common Voice, un prochecto pa fer que lo reconoiximiento de voz sía disponible pa totz.
+wall-of-text-more-desktop = Agora puetz donar la tuya voz pa aduyar-nos a fer una base de datos de voz de codigo ubierto que qualsequiera pueda usar pa fer apps innovativas pa dispositivos y pa la web. Leye una frase pa aduyar a las maquinas a aprender cómo charra la chent real. Compreba lo treballo d'atros contribuidors pa millorar-ne la calidat. Asinas de facil!
+wall-of-text-first = La voz ye natural, la voz ye humana. Per ixo somos entusiasmaus per creyar tecnolochías de voz utilizables pa las nuestras maquinas. Pero pa creyar sistemas de voz, los fa falta una gran cantidat de datos de voz.
+wall-of-text-second = La mayor parte d'os datos usaus per las grans interpresas no ye disponible pa la mayoría d'a chent. Nusatros pensamos que ixo safoca la innovación. Asinas que lanzamos lo prochecto Common Voice, un prochecto pa fer que lo reconoiximiento de voz sía disponible pa totz.
+show-wall-of-text = Leyer mas
+help-us-title = Aduya-nos a validar frases!
+help-us-explain = Preta reproducir, escuita y di-nos: han dito correctament la frase d'abaixo?
+no-clips-to-validate = Pareix que no i hai garra fragmento a escuitar en este idioma. Aduya-nos a replenar la coda gravando-ne belún agora.
+vote-yes = Sí
+vote-no = No
+toggle-play-tooltip = Preta { shortcut-play-toggle } pa activar lo modo de reproducci´no
+speak-subtitle = Donar la tuya voz
+speak-paragraph = Gravar fragmentos de voz ye una parte integral pa construyir la nuestra base de datos ubierta; beluns dirían que tamién ye la parte divertida.
+speak-goal-text = Fragmentos gravaus
+listen-subtitle = Aduya-nos a validar voces
+listen-paragraph = Validar fragmentos donados ye igualment important pa la misión de Common Voice. Escuita y aduya-nos a creyar datos de voz ubiertos y de calidat.
+listen-goal-text = Fragmentos validaus
+hours-recorded = Horas gravadas
+hours-validated = Horas validadas
+voices-online = Voces en linia agora mesmo
+todays-progress = Progreso de hue
+help-reach-goal = Aduya-nos a arribar a { $goal }
+read-terms-q = Has leyiu las nuestras condicions d'uso?
+ready-to-record = Presto pa donar la tuya voz?
+all-locales = Totas
+today = Hue
+x-weeks-short =
+    { $count ->
+        [one] Setmana
+       *[other] { $count } setm.
+    }
 
 ## Account Benefits
 
@@ -173,9 +205,35 @@ home-cta = Charra fuerte, contribuye aquí!
 
 ## ProjectStatus
 
+english = Anglés
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nombre d'usuario
+profile-form-native-language =
+    .label = Idioma nativo
+profile-form-additional-language =
+    .label = Idioma adicional
+profile-form-accent =
+    .label = Accento
+profile-form-age =
+    .label = Edat
+profile-form-gender =
+    .label = Sexo
+leaderboard-visibility =
+    .label = Visibilidat en a taula de clasificación
+hidden = Amagau
+visible = Visible
+native-language =
+    .label = Idioma nativo
+profile-form-submit-save = Alzar
+profile-form-submit-saved = Alzau
+male = Hombre
+female = Muller
+# Gender
+other = Atro
+why-profile-title = Per qué un perfil?
 
 ## FAQ
 
