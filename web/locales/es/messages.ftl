@@ -601,7 +601,6 @@ record-again-instruction = ¡Genial! <recordIcon></recordIcon> Continúa con tu 
 record-again-instruction2 = Sigue así, graba de nuevo <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ¡La última!
 review-tooltip = Revisa y vuelve a grabar aquí sobre la marcha
-unable-speak = No se puede hablar en este momento
 review-instruction = Revisa y vuelve a grabar si es necesario
 record-submit-tooltip = { $actionType } enviar cuando acabes
 clips-uploaded = Grabaciones subidas
@@ -617,6 +616,27 @@ listen-last-time-instruction = <playIcon></playIcon> ¡La última!
 nothing-to-validate = No contamos con ningún recurso para validar este idioma, ¡ayúdanos!
 record-button-label = Grabar tu voz
 share-title-new = <bold>Ayúdanos</bold> a encontrar más voces.
+
+## Reporting
+
+report = Informar
+report-title = Enviar un informe
+report-ask = ¿Cuál es el problema de esta frase?
+report-offensive-language = Lenguaje ofensivo
+report-offensive-language-detail = La frase incluye lenguaje irrespetuoso u ofensivo.
+report-grammar-or-spelling = Error gramatical o de ortografía
+report-grammar-or-spelling-detail = La frase tiene un error gramatical o de ortografía.
+report-different-language = Otro idioma
+report-different-language-detail = Está escrita en un idioma distinto al que yo hablo.
+report-difficult-pronounce = Es difícil de pronunciar
+report-difficult-pronounce-detail = Incluye palabras o frases difíciles de leer o pronunciar.
+report-offensive-speech = Contenido ofensivo
+report-offensive-speech-detail = La grabación incluye un lenguaje ofensivo o irrespetuoso.
+report-other-comment =
+    .placeholder = Comentar
+success = Correcto
+continue = Continuar
+report-success = El informe se envió correctamente
 
 ## Goals
 
