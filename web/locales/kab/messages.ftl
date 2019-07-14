@@ -631,6 +631,7 @@ share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 
 ## Reporting
 
+report = Aneqqis
 report-title = Azen aneqqis
 report-different-language = Tutlayt nniḍen
 report-different-language-detail = Yura s tutlayt yemgaraden ɣef tin ttmeslayeɣ.
