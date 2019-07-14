@@ -351,8 +351,8 @@ faq-why-important-a =
 faq-how-get-q = How can I get the Common Voice data?
 faq-how-get-a = The Common Voice dataset is available for download under the <licenseLink>CC0</licenseLink> license on <datasetLink>our Datasets page</datasetLink>. You can also download several other publicly available datasets from the same page.
 
-faq-when-release-q = When will you release Common Voice data in other languages?
-faq-when-release-a = The multi-language version of the Common Voice dataset is currently undergoing community supported bundling and cleaning. If you would like to learn more about supporting this effort, please <contactLink>contact us</contactLink>. We are currently targeting a publish date of January 2019. After that, we’ll update the dataset periodically with new languages and voice clips as they become available. An iterative release cycle cadence is still to be determined.
+faq-when-release2-q = When will you release Common Voice data in other languages?
+faq-when-release2-a = The multi-language version of the Common Voice dataset is currently undergoing community supported bundling and cleaning. If you would like to help us bring Common Voice to new languages, go check out the Sentence Collection Tool for adding new sentences to the dataset, and Mozilla Pontoon for translating the website itself. New languages will be periodically added to the Common Voice dataset whenever a set number of approved sentences will be reached for them in the Sentence Collector Tool.
 
 faq-why-mission-q = Why is Common Voice part of the Mozilla mission?
 faq-why-mission-a = Mozilla is dedicated to keeping the web open and accessible for everyone. To do that we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally. That means investing in more languages and accommodating diverse accents and demographics when building and testing voice technologies. Common Voice is a public resource available to everyone and Mozilla teams and developers around the world are already using it on our own projects as well.
