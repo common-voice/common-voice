@@ -581,7 +581,6 @@ record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un al
 record-again-instruction2 = Seguiu així! Enregistreu-ne un altre <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> L'últim!
 review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí mateix
-unable-speak = No podeu parlar, ara?
 review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
 record-submit-tooltip = { $actionType } Envia quan hàgiu enllestit
 clips-uploaded = Talls pujats
@@ -597,6 +596,18 @@ listen-last-time-instruction = <playIcon></playIcon> L'últim!
 nothing-to-validate = No hi ha res per validar en aquesta llengua. Ajudeu-nos a enregistrar-ne més per omplir la cua.
 record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
+
+## Reporting
+
+report-ask = Quin problema teniu amb aquesta frase?
+report-offensive-language = Llenguatge ofensiu
+report-offensive-language-detail = La frase té un llenguatge ofensiu o irrespectuós.
+report-grammar-or-spelling = Error gramatical / ortogràfic
+report-grammar-or-spelling-detail = La frase té un error gramatical o ortogràfic.
+report-different-language = Una altra llengua
+report-different-language-detail = Està escrita en una llengua diferent de la que parlo.
+report-difficult-pronounce = Difícil de pronunciar
+report-difficult-pronounce-detail = Conté paraules o frases difícils de llegir o de pronunciar.
 
 ## Goals
 
