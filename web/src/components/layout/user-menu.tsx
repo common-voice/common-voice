@@ -15,361 +15,21 @@ import {
 import { Avatar, Hr } from '../ui/ui';
 
 import './user-menu.css';
-
-function Animation() {
-  return (
-    <div className="cover">
-      <section>
-        <div className="wave top"></div>
-        <canvas className="wavea mid" id="bars"></canvas>
-      </section>
-    </div>
-  );
-}
-
-function ani(d: any) {
-  console.log(d);
-  var canvas = d.current;
-  var ctx = canvas.getContext('2d');
-
-  var pos = [
-    [
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-    ],
-    [
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-    ],
-    [
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-    ],
-    [
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-    ],
-    [
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-      100,
-      120,
-      140,
-      160,
-      140,
-      120,
-      100,
-      80,
-      60,
-      80,
-    ],
-  ];
-
-  var t = 0;
-  doit();
-  setInterval(doit, 150);
-  function doit() {
-    //window.webkitRequestAnimationFrame(doit)
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = 'black';
-    for (var j = 0; j < 55; j++) {
-      var position = j * 5;
-      position = position + 20;
-      var width = 0.5;
-      var height = -(pos[t][j] / 2);
-      ctx.fillRect(position, canvas.height, width, height);
-    }
-    t++;
-    if (t === 5) t = 0;
-    console.log(t);
-  }
-}
+import Lottie from 'react-lottie';
+const animationData = require('./data.json');
 
 export default function UserMenu() {
-  const canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
+
   const [locale] = useLocale();
   const account = useAccount();
-  console.log(account.avatar_url, 'logged account');
   const [showMenu, setShowMenu] = useState(false);
   const [showAnimation, setShowAnimation] = useState(false);
   return (
@@ -378,8 +38,23 @@ export default function UserMenu() {
         className={'user-menu ' + (showMenu ? 'active' : '')}
         onMouseEnter={() => setShowMenu(true)}
         onMouseLeave={() => setShowMenu(false)}>
-        <button className="toggle" onClick={() => setShowMenu(!showMenu)}>
-          <div onClick={() => ani(canvasRef)}>
+        <button
+          className="toggle"
+          onClick={() => {
+            if (account.avatar_clip_url !== null) {
+              const audio = new Audio(account.avatar_clip_url);
+              audio.play();
+              setShowAnimation(!showAnimation);
+              audio.onended = () => {
+                setShowAnimation(false);
+              };
+              audio.onerror = () => {
+                setShowAnimation(false);
+              };
+            }
+            setShowMenu(!showMenu);
+          }}>
+          <div>
             <Avatar url={account.avatar_url} />
           </div>
           <span className="name" title={account.username}>
@@ -431,13 +106,10 @@ export default function UserMenu() {
           </div>
         </div>
       </div>
-      <div className="test">
-        {!showAnimation && (
-          <div className="cover">
-            <section>
-              <div className="wave top"></div>
-              <canvas ref={canvasRef} className="wavea mid" id="bars"></canvas>
-            </section>
+      <div className="animation">
+        {showAnimation && (
+          <div>
+            <Lottie options={defaultOptions} height={80} />
           </div>
         )}
       </div>

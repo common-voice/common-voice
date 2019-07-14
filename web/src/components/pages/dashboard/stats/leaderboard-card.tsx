@@ -139,7 +139,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position + 1}
           </div>
 
-          {isProduction() ? (
+          {isProduction() && row.avatar_url !== null ? (
             <div className="avatar-container">
               <Avatar url={row.avatar_url} />
             </div>
