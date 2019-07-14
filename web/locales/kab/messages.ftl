@@ -613,7 +613,6 @@ record-again-instruction = Ayyuz! <recordIcon></recordIcon> Sekles tukkist i d-i
 record-again-instruction2 = Kemmel akken, sekles tikelt-nniḍen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> D aneggaru!
 review-tooltip = Cegger & ales asekles dagi ticki teddiḍ
-unable-speak = Ur izmir ara ad yemmeslay akka tura
 review-instruction = Cegger & ales asekles ma tesriḍ
 record-submit-tooltip = { $actionType } azen ticki theggaḍ
 clips-uploaded = Tuṭṭfiwin ulint
@@ -629,6 +628,17 @@ listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
 nothing-to-validate = Ula kra ara nsentem deg tutlayt-a, mudd-aɣ-d afus ad neččaṛ adras.
 record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
+
+## Reporting
+
+report-title = Azen aneqqis
+report-different-language = Tutlayt nniḍen
+report-different-language-detail = Yura s tutlayt yemgaraden ɣef tin ttmeslayeɣ.
+report-other-comment =
+    .placeholder = Awennit
+success = Yedda
+continue = Kemmel
+report-success = Assaɣ yettwazen akken iwata
 
 ## Goals
 
