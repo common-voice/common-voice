@@ -634,15 +634,21 @@ share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 report = Signaler
 report-title = Envoyer un rapport
 report-ask = Quels problèmes rencontrez-vous avec cette phrase ?
+report-offensive-language = Langage grossier
+report-offensive-language-detail = La phrase comporte des propos irrespectueux ou insultants.
 report-grammar-or-spelling = Erreur grammaticale / faute d’orthographe
 report-grammar-or-spelling-detail = La phrase comporte une faute de grammaire ou d’orthographe.
 report-different-language = Autre langue
 report-different-language-detail = La phrase est écrite dans une langue différente de celle que je parle.
 report-difficult-pronounce = Difficile à prononcer
 report-difficult-pronounce-detail = Certains mots ou certaines phrases sont difficiles à lire ou à prononcer.
+report-offensive-speech = Propos offensants
+report-offensive-speech-detail = L’échantillon audio comporte des propos irrespectueux ou insultants.
 report-other-comment =
     .placeholder = Commentaire
+success = Opération réussie
 continue = Continuer
+report-success = Le rapport a été correctement envoyé
 
 ## Goals
 
