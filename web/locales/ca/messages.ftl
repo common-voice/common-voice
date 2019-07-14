@@ -599,6 +599,8 @@ share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
 
 ## Reporting
 
+report = Informa
+report-title = Envieu un informe
 report-ask = Quin problema teniu amb aquesta frase?
 report-offensive-language = Llenguatge ofensiu
 report-offensive-language-detail = La frase té un llenguatge ofensiu o irrespectuós.
@@ -608,6 +610,13 @@ report-different-language = Una altra llengua
 report-different-language-detail = Està escrita en una llengua diferent de la que parlo.
 report-difficult-pronounce = Difícil de pronunciar
 report-difficult-pronounce-detail = Conté paraules o frases difícils de llegir o de pronunciar.
+report-offensive-speech = Àudio ofensiu
+report-offensive-speech-detail = El tall té un llenguatge ofensiu o irrespectuós.
+report-other-comment =
+    .placeholder = Comentari
+success = Correcte
+continue = Continua
+report-success = L'informe s'ha enviat correctament
 
 ## Goals
 
