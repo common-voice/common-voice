@@ -43,10 +43,21 @@ const SECTION_CONTENTS: any = {
       },
     ],
     [
-      'faq-when-release-q',
-      'faq-when-release-a',
+      'faq-when-release2-q',
+      'faq-when-release2-a',
       {
-        contactLink: <StyledLink href="mailto:commonvoice@mozilla.com" blank />,
+        sentenceCollectorLink: (
+          <StyledLink
+            href="https://common-voice.github.io/sentence-collector/"
+            blank
+          />
+        ),
+        pontoonLink: (
+          <StyledLink
+            href="https://pontoon.mozilla.org/projects/common-voice/"
+            blank
+          />
+        )
       },
     ],
     'faq-do-want-native',
