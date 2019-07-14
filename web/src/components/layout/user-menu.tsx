@@ -40,6 +40,7 @@ export default function UserMenu() {
         onMouseLeave={() => setShowMenu(false)}>
         <button
           className="toggle"
+          title="click to play avatar"
           onClick={() => {
             if (account.avatar_clip_url !== null) {
               const audio = new Audio(account.avatar_clip_url);
