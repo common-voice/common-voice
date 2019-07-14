@@ -97,6 +97,7 @@ or = Orija
 pl = Puola
 pt-BR = Brasilianportugali
 rm-sursilv = Sursilvan retoromaani
+rm-vallader = Retoromaani (Vallader)
 ro = Romania
 ru = Venäjä
 rw = ruanda
@@ -108,6 +109,7 @@ sl = Sloveeni
 sq = Albania
 sr = Serbia
 sv-SE = Ruotsi
+syr = Syyria
 ta = Tamili
 te = Telugu
 tg = Tadžikki
@@ -481,6 +483,10 @@ review-delete-recordings = Poista nauhoitukset
 ## Datasets Page
 
 datasets-headline = Rakennamme avointa ja monikielistä ääniaineistoa, jota kuka tahansa voi käyttää puheeseen liittyvien sovellusten kehittämisessä.
+datasets-positioning =
+    Uskomme, että suuri ja avoin ääniaineisto lisää innovaatiota ja tervettä kaupallista kilpailua koneoppimiseen pohjautuvan puheteknologian saralla.
+    
+    Common Voicen monikielinen aineisto on jo nyt suurin avoimesti saatavilla oleva tällainen ääniaineisto, mutta se ei ole ainoa.
 language = Kieli
 # File size in gigabytes
 size = Koko
@@ -504,6 +510,7 @@ subscribe = Tilaa
 get-started-speech = Aloita puheentunnistuksen parissa
 other-datasets = Muut puheaineistot
 feedback-q = Haluatko antaa palautetta?
+common-voice-info-new = Onko sinulla kysymyksiä Common Voicesta? Ajatuksia sen parantamisesta tai palautetta tietystä kielestä? Liity <discourseLink>Discourse -keskusteluun</discourseLink> ja kerro meille!
 data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
@@ -618,13 +625,20 @@ share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
 
 report = Raportti
 report-title = Lähetä ilmoitus
+report-ask = Mitä ongelmia tässä lauseessa on?
 report-offensive-language = Loukkaavaa kieltä
 report-offensive-language-detail = Tämä lause sisältää asiatonta tai loukkaavaa kielenkäyttöä.
 report-grammar-or-spelling = Kielioppi- tai kirjoitusvirhe
+report-grammar-or-spelling-detail = Tämä lausee sisältää kielioppi- tai kirjoitusvirheen.
+report-different-language = Eri kieli
+report-different-language-detail = Se on kirjoitettu jollain muulla kielellä kuin mitä puhun.
 report-difficult-pronounce = Vaikea ääntää
 report-difficult-pronounce-detail = Sisältää sanoja tai lauseita, joita on vaikea lukea tai ääntää.
+report-offensive-speech = Loukkaavaa kielenkäyttöä
+report-offensive-speech-detail = Tämä äänite sisältää epäkunnioittavaa tai loukkaavaa kielenkäyttöä.
 report-other-comment =
     .placeholder = Kommentti
+success = Onnistui
 continue = Jatka
 report-success = Raportti lähetetty onnistuneesti
 
