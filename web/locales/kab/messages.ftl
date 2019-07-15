@@ -224,7 +224,7 @@ username-email-not-demographic = Isem-ik n useqdac akked tansa-ik imayl ur d-ttw
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = u
+shortcut-skip = r
 
 ## Listen Shortcuts
 
