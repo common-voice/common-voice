@@ -343,7 +343,7 @@ faq-why-important-a =
 faq-how-get-q = Kuidas ma saaksin endale Common Voice'i andmestikke?
 faq-how-get-a = Common Voice'i andmestik on allalaaditav <licenseLink>CC0</licenseLink> litsentsiga <datasetLink>meie andmestike lehelt</datasetLink>. Samalt lehelt saad alla laadida ka teisi avalikult kasutatavaid andmestikke.
 faq-when-release-q = Millal avaldate Common Voice'i teiste keelte andmestikud?
-faq-when-release-a = Common Voice'i andmekogumi mitmekeelset versiooni luuakse ja korrastatakse praegu kogukonna toel. Kui tahad rohkem teada selle kohta, kuidas saaks projekti toetada,  <contactLink>võta meiega ühendust</contactLink>. Meie eesmärgiks praegu on avaldada anmekogum jaanuaris 2019. Pärast seda täiendame perioodiliselt materjali uute keelte ja salvestistega.  Kui tihti uuendatud andmekogumit avaldama hakatakse, pole veel otsustatud.
+faq-when-release-a = Common Voice'i andmekogumi mitmekeelset versiooni luuakse ja korrastatakse praegu kogukonna toel. Kui tahad rohkem teada selle kohta, kuidas saaks projekti toetada,  <contactLink>võta meiega ühendust</contactLink>. Meie eesmärgiks praegu on avaldada andmekogum jaanuaris 2019. Pärast seda täiendame perioodiliselt materjali uute keelte ja salvestistega.  Kui tihti uuendatud andmekogumit avaldama hakatakse, pole veel otsustatud.
 faq-why-mission-q = Miks on Common Voice osa Mozilla missioonist?
 faq-why-mission-a = Mozilla eesmärgiks on hoida Internet vaba ja üldkasutatavana. Selle jaoks on meil vaja toetada veebiarendajaid selliste projektidega nagu Common Voice. Kui kõnetehnoloogia muutub üldkasutatavaks, peaks ta meie arvates olema üldkasutatav kõigile. Seetõttu tuleb meil panustada kõnetehnoloogia arendamisel ja testimisel suurema hulga keelte ja keelevariantide kaasamisse. Common Voice on kõigile avatud ressurss ning Mozilla töörühmad ja arendajad üle maailma juba kasutavad seda ka oma projektide jaoks.
 faq-what-cv-and-deepspeech-q = Mis vahe on Common Voice'il ja Deep Speech'il?
@@ -355,7 +355,7 @@ faq-do-want-native-a = Jah, me tahame eriti teie häält! Common Voice'i eesmär
 faq-why-different-speakers-q = Miks vajate iga keele kohta nii palju erinevaid kõnelejaid?
 faq-why-different-speakers-a = Enamikus kõneandmebaasides on teatud demograafilistele tunnustele vastavate inimeste andmed üle-esindatud, mille tulemusena on kõnetuvastussüsteemid kaldu <articleLink> meeste ja keskklassi </articleLink> poole. Aktsendiga ja murdeline kõne, mis seostuvad marginaliseerunud inimrühmadega, on sageli sellistes andmebaasides alaesindatud. Paljudel kõnetuvastussüsteemidel on raskusi ka naishäälte tuvastamisega. Sellepärast me tahame, et meie andmekogud oleksid mitmekesised.
 faq-why-my-lang-q = Miks minu keelt pole veel kaasatud?
-faq-why-my-lang-new-a = Mozilla ei eelista ühtki keelt teistele. Common Voice on hoopis täielikult kogukonnapõhine algatus. Sellegi poolest on uue keele lisamiseks ja salvestiste kogumiseks vaja läbida <multilangLink>mitu sammu</multilangLink>. Esiteks tuleb Common Voice'i veeb tõlkida kohalikku keelde, nii et kogukonna liikmed saaksid luua salvestisi omas keeles. Järgmiseks vajame me suurt hulka autoriõigustest vabu lauseid, mida inimesed saaksid salvestistesse sisse lugeda. Kui mõlemad need nõuded on täidetud, siis tehakse keel "avalikuks" Common Voice'i saidil ning inimesed saavad alustada oma hääle salvestamise ja teiste annetuste kontrollimisega. Kui soovid kaasa aidata uue keele lisamisel, siis suundu meie <sentenceCollectorLink>lausete kogumise tööriista lehele</sentenceCollectorLink> ja tee algust.
+faq-why-my-lang-new-a = Mozilla ei eelista ühtki keelt teistele. Common Voice on hoopis täielikult kogukonnapõhine algatus. Sellegi poolest on uue keele lisamiseks ja salvestiste kogumiseks vaja läbida <multilangLink>mitu sammu</multilangLink>. Esiteks tuleb Common Voice'i veeb tõlkida kohalikku keelde, nii et kogukonna liikmed saaksid luua salvestisi omas keeles. Järgmiseks vajame me suurt hulka autoriõigustest vabu lauseid, mida inimesed saaksid salvestistesse sisse lugeda. Kui mõlemad nõuded on täidetud, siis tehakse keel "avalikuks" Common Voice'i saidil ning inimesed saavad alustada oma hääle salvestamise ja teiste annetuste kontrollimisega. Kui soovid kaasa aidata uue keele lisamisel, siis suundu meie <sentenceCollectorLink>lausete kogumise tööriista lehele</sentenceCollectorLink> ja tee algust.
 faq-what-quality-q = Milline peab olema kõnesalvestise kvaliteet, et seda saaks andmekogus kasutada?
 faq-what-quality-a = Kuna me tahame, et Common Voice'i andmekogu kajastaks helikvaliteeti, millega kõnetuvastussüsteemil tuleb päris elus tegemist teha, siis taotleme me mitmekesisust. Lisaks mitmekesisele kõnelejaskonnale ka erineva kvaliteediga lindistusi sisaldav andmekogu õpetab kõnetuvastussüsteemile erinevate taustahelidega, nt liiklusmüra või vestlushäältega, toimetulemist. Kuni sinu helilõik on arusaadav, peaks ta olema ka piisavalt hea andmekogu jaoks.
 faq-why-10k-hours-q = Miks on eesmärgiks 10 000 tundi kontrollitud kõnenäiteid iga keele jaoks?
@@ -550,7 +550,6 @@ record-again-instruction = Suurepärane! <recordIcon></recordIcon> Salvesta jär
 record-again-instruction2 = Jätka samas vaimus, salvesta uuesti <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> viimane!
 review-tooltip = Kontrolli ja salvesta üle asja käigus.
-unable-speak = Ei saa hetkel rääkida?
 review-instruction = Kontrolli ja vajadusel salvesta üle
 record-submit-tooltip = { $actionType } saada, kui valmis
 clips-uploaded = Üles laaditud salvestised
@@ -566,6 +565,9 @@ listen-last-time-instruction = <playIcon></playIcon> Viimane!
 nothing-to-validate = Meil pole midagi kontrollida selles keeles, aita meil järjekorda täita.
 record-button-label = Salvesta oma hääl
 share-title-new = <bold>Aita meil</bold> leida rohkem hääli
+
+## Reporting
+
 
 ## Goals
 
