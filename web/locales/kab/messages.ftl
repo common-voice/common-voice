@@ -97,6 +97,7 @@ or = Odia
 pl = Tapulunit
 pt-BR = Tapuṛtugit (Brizil)
 rm-sursilv = Rumanc Sursilvan
+rm-vallader = Taṛumancit n wadda
 ro = Taṛumanit
 ru = Tarusit
 rw = Takinyaṛwandit
@@ -108,6 +109,7 @@ sl = Tasluvinit
 sq = Talbanit
 sr = Taṣirbit
 sv-SE = Taswidit
+syr = Tasiryakt
 ta = Taṭamilit
 te = Tatelgut
 tg = Tatajikt
@@ -565,7 +567,7 @@ other-language = Tutlayin nniḍen
 ## Languages Overview
 
 language-section-in-progress = Ad d-iteddu
-language-section-in-progress-new-description = Tutlayin-agi akka sneflayent-tent trebbaɛ.  Afeggag n n usfari yemmal-d anida tewweḍ yal yiwet seg tutlayin deg <localizationGlossaryLink> usmel n usideg </localizationGlossaryLink> akked <sentenceCollectionGlossaryLink> ulqaḍ n tefyar </sentenceCollectionGlossaryLink>
+language-section-in-progress-new-description = Tutlayin-agi akka tura sneflayent-tent trebbaɛ.  Afeggag n n usfari yemmal-d anida tewweḍ yal yiwet seg tutlayin deg <localizationGlossaryLink> usmel n usideg </localizationGlossaryLink> akked <sentenceCollectionGlossaryLink> ulqaḍ n tefyar </sentenceCollectionGlossaryLink>
 language-section-launched = Yekker
 language-section-launched-description = I tutlayt-a asmel <localizationGlossaryLink> ittwasideg akken iwata </localizationGlossaryLink>, isεa <sentenceCollectionGlossaryLink> ddeqs n tefyar </sentenceCollectionGlossaryLink> akken ad ittwasireg <speakLink> asekles </speakLink> akked <listenLink> usentem </listenLink> n ittekiyen n iwiziwen
 languages-show-more = Wali ugar
@@ -631,10 +633,19 @@ share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 
 ## Reporting
 
-report = Aneqqis
-report-title = Azen aneqqis
+report = Mmel ugur
+report-title = Azen ugur
+report-ask = Acu-ten wuguren yellan deg tefyirt-a?
+report-offensive-language = D awal n usesexseṛ
+report-offensive-language-detail = Tayirt-a tegber yir awal neɣ rregmat.
+report-grammar-or-spelling = Tuccḍa n tjerrumt / tuccḍa n tseddast
+report-grammar-or-spelling-detail = Tafyirt tegber tuccḍa n tjerrumt neɣ n tseddast.
 report-different-language = Tutlayt nniḍen
 report-different-language-detail = Yura s tutlayt yemgaraden ɣef tin ttmeslayeɣ.
+report-difficult-pronounce = Ẓẓayet i tɣuri
+report-difficult-pronounce-detail = Tegber awalen neɣ kra  tefyar iweɛren i tɣuri.
+report-offensive-speech = Yir awal
+report-offensive-speech-detail = Tukkist tameslawt tegber yir awalen neɣ asexseṛ.
 report-other-comment =
     .placeholder = Awennit
 success = Yedda
