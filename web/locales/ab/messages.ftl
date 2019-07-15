@@ -633,6 +633,12 @@ share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны 
 report = Ирдыртәуп
 report-title = Ардырра шьҭтәуп
 report-different-language = Даҽа бызшәоуп
+report-difficult-pronounce = Аҳәаразы цәгьоуп
+report-other-comment =
+    .placeholder = Аҿыхәҿаа
+success = Қәҿиа­рала
+continue = Ацҵатәуп
+report-success = Уцҳамҭа қәҿиа­рала дәықәҵоуп
 
 ## Goals
 
