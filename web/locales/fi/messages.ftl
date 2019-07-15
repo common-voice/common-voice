@@ -501,15 +501,21 @@ why-email = <b>Miksi sähköpostiosoite?</b> Meille voi tulla tarve olla sinuun 
 confirm-size = Olet aloittamassa <b>{ $size }</b> gigatavun latausta.
 size-gigabyte = Gt
 size-megabyte = Mt
+confirm-no-identify = <b>Sitoudut</b> olemaan yrittämättä tunnistaa Common Voice -aineiston puhujia.
 download-language = Lataa { $language }
 validated-hours = Tarkistetut tunnit
 recorded-hours = Äänitetyt tunnit
 whats-inside = Mitä on Common Voicen datapaketeissa?
+dataset-description-hours =
+    Jokainen tietue aineistossa koostuu MP3-tiedostosta ja sitä vastaavasti tekstitiedostosta. Suuri osa kaikkiaan nauhoitetusta <b>{ $total }</b> tunnista aineistossa sisältää myös demografisia kuvailutietoja kuten ikä, sukupuoli ja korostus, jotka auttavat parantamaan puheentunnistusmallien tarkkuutta.
+    
+    AIneisto sisältää tällä hetkellä <b>{ $valid }</b> validoitua tuntia <b>{ $languages }</b> kielellä, mutta lisäämme jatkuvasti uusia ääniä ja kieliä. Tutustu <languagesLink>Kieli-sivuun</languagesLink> pyytääksesi uuden kielen lisäämistä tai osallistuaksesi.
 want-dataset-update = Haluatko tiedotteen kun julkaisemme uuden version Common Voice -aineistosta? Tilaa uutiskirjeemme.
 subscribe = Tilaa
 get-started-speech = Aloita puheentunnistuksen parissa
 other-datasets = Muut puheaineistot
 feedback-q = Haluatko antaa palautetta?
+deepspeech-info = Common Voice -aineisto täydentää Mozillan avoimen lähdekoodin puheentunnistusohjelmaa Deep Speech, jota voit käyttää puheentunnistuksen sovellutuksissa. Lue <githubLink>yleiskatsaus GitHubista</githubLink> tai liity <discourseLink>DeepSpeech Discourseen</discourseLink> oppiaksesi, kuinka pääset alkuun.
 common-voice-info-new = Onko sinulla kysymyksiä Common Voicesta? Ajatuksia sen parantamisesta tai palautetta tietystä kielestä? Liity <discourseLink>Discourse -keskusteluun</discourseLink> ja kerro meille!
 data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
 data-other-ted-name = TED-LIUM-korpus
@@ -560,6 +566,7 @@ other-language = Muu kieli
 language-section-in-progress = Työn alla
 language-section-in-progress-new-description = Nämä kielet ovat tällä hetkellä yhteisöjen kehitettävinä. Etenemispalkki näyttää, kuinka pitkällä kukin kieli on  <localizationGlossaryLink>verkkosivun lokalisaatiossa</localizationGlossaryLink> ja <sentenceCollectionGlossaryLink>lauseiden keräämisessä</sentenceCollectionGlossaryLink>.
 language-section-launched = Julkistettu
+language-section-launched-description = Verkkosivusto on onnistuneesti <localizationGlossaryLink>lokalisoitu</localizationGlossaryLink> näille kielille, ja <sentenceCollectionGlossaryLink>kerättyjä lauseita</sentenceCollectionGlossaryLink> on tarpeeksi <speakLink>nauhoituksen</speakLink> ja <listenLink>kuuntelun</listenLink> mahdollistamiseksi.
 languages-show-more = Lisää
 languages-show-less = Vähemmän
 language-speakers = Puhujat
