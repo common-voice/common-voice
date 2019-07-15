@@ -109,6 +109,7 @@ sl = Словеншчына
 sq = Шқыԥ
 sr = Сырпски
 sv-SE = Свенска
+syr = Суриаиа
 ta = Ҭамыл
 te = Ҭелугу
 tg = Ҭаџики
@@ -629,6 +630,9 @@ share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны 
 
 ## Reporting
 
+report = Ирдыртәуп
+report-title = Ардырра шьҭтәуп
+report-different-language = Даҽа бызшәоуп
 
 ## Goals
 
