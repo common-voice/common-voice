@@ -150,7 +150,10 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               onClick={() =>
                 this.playAvatarClip(row.avatarClipUrl, row.position)
               }>
-              <Avatar url={row.avatar_url} />
+              <div
+                className={playingClipIndex === row.position ? 'rotate' : ''}>
+                <Avatar url={row.avatar_url} />
+              </div>
               {playingClipIndex === row.position && <PlayIcon />}
             </button>
           )}
