@@ -567,14 +567,14 @@ language-section-launched = ଆରମ୍ଭ ହେଲା
 language-section-launched-description = ଏହି ସବୁ ପ୍ରକାଶିତ ଭାଷାଗୁଡ଼ିକ ପାଇଁ ୱେବସାଇଟ ସଫଳତାର ସହିତ <localizationGlossaryLink>ସ୍ଥାନୀୟ</localizationGlossaryLink> କରାଯାଇଛି, ଏବଂ ଯଥେଷ୍ଟ ମାତ୍ରାରେ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink> ହୋଇଛି ଯାହାକୁ ଉପଯୋଗ କରି ଉଭୟ <speakLink>କଥାବାର୍ତ୍ତା</speakLink> ଏବଂ <listenLink>ଶୁଣିବାର</listenLink> ଯୋଗଦାନ ଦେଇହେବ ।
 languages-show-more = ଅଧିକ ଦେଖନ୍ତୁ
 languages-show-less = କମ ଦେଖନ୍ତୁ
-language-speakers = ବକ୍ତା
+language-speakers = ବକ୍ତାଗଣ
 language-meter-in-progress = ପ୍ରଗତି
 language-total-progress = ମୋଟ
 language-search-input =
     .placeholder = ଖୋଜନ୍ତୁ
-language-speakers = ବକ୍ତା
-localized = ସ୍ଥାନୀୟ
-sentences = ଧାଡ଼ିଗୁଡ଼ିକ
+language-speakers = ବକ୍ତାଗଣ
+localized = ସ୍ଥାନୀୟକରଣ ହୋଇଛି
+sentences = ବାକ୍ୟଗୁଡ଼ିକ
 total-hours = ଯାଞ୍ଚ କରାଯାଇଥିବା ଘଣ୍ଟାଗୁଡ଼ିକ
 
 ## New Contribution
