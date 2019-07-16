@@ -11,6 +11,7 @@ import * as Basket from './basket';
 import Bucket from './bucket';
 import { ClientParameterError } from './utility';
 import Awards from './model/awards';
+import { checkGoalsAfterContribution } from './model/goals';
 
 const Transcoder = require('stream-transcoder');
 
@@ -102,6 +103,7 @@ export default class Clip {
 
     response.json(glob);
 
+    await checkGoalsAfterContribution(client_id, { id: clip.locale_id });
     Basket.sync(client_id).catch(e => console.error(e));
   };
 
@@ -183,6 +185,7 @@ export default class Clip {
       });
       await Awards.checkProgress(client_id);
 
+      await checkGoalsAfterContribution(client_id, { name: params.locale });
       Basket.sync(client_id).catch(e => console.error(e));
       response.json(filePrefix);
     } catch (error) {
