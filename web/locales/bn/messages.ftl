@@ -363,6 +363,8 @@ about-is-it-valid = এই ক্লিপটি কি বৈধ?
 about-is-it-valid-text = একটি ভয়েস ক্লিপ তখনই "বৈধ" হিসেবে চিহ্নিত করা হয় যখন একজন ব্যবহারকারী সেটিকে হ্যাঁ ভোট দেয়।
 about-yes-votes = ≥ 2 হ্যাঁ ভোট
 about-yes-votes-text = Common Voice এর ডাটাসেটে একটি ভয়েস ক্লিপ অন্তর্ভুক্ত করতে চাইলে, দুজন পৃথক ব্যবহারকারী দ্বারা সেটির বৈধতা যাচাই করা আবশ্যক।
+about-partners = অংশীদারসমূহ
+about-become-a-partner = অংশীদার হোন
 about-get-involved = সম্পৃক্ত হোন
 about-nav-why-common-voice = কেন?
 about-nav-how-it-works = কিভাবে?
@@ -443,6 +445,7 @@ ready-to-validate = বাক্য যাচাই করতে সাহায
 more = আরো
 close = বন্ধ
 download = ডাউনলোড
+dataset-version = সংস্করণ
 
 ## Download Modal
 
@@ -536,7 +539,18 @@ share-title-new = <bold>আমাদের সাহায্য করুন</b
 
 ## Reporting
 
+report = প্রতিবেদন
+report-title = একটি রিপোর্ট জমা দিন
+report-offensive-language = আপত্তিজনক ভাষা
+report-grammar-or-spelling = ব্যাকরণগত / বানান ত্রুটি
+report-different-language = অন্য ভাষা
+report-difficult-pronounce = উচ্চারণে কঠিন
+report-offensive-speech = আপত্তিজনক বাক্য
+report-other-comment =
+    .placeholder = মন্তব্য
 success = সফল
+continue = অব্যাহত রাখুন
+report-success = প্রতিবেদন সফলভাবে জমা দেয়া হয়েছে!
 
 ## Goals
 
@@ -582,3 +596,4 @@ profile-form-delete = প্রোফাইল মুছে ফেলুন
 ## Landing
 
 profile-not-required = অবদান রাখার জন্যে কোন প্রোফাইল থাকার প্রয়োজন হয় না, যদিও এটি সহায়ক হবে।
+read-more-about = আমাদের সম্পর্কে আরও পাতা পড়ুন
