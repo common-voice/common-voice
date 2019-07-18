@@ -599,7 +599,7 @@ localized = Localized
 sentences = Sentences
 total-hours = Validated Hrs
 
-## New Contribution
+## Contribution
 action-click = Click
 action-tap = Tap
 contribute = Contribute
@@ -645,6 +645,8 @@ listen-last-time-instruction = <playIcon></playIcon>Last one!
 nothing-to-validate = We don't have anything to validate in this language, help us fill the queue.
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
+keep-track-profile = Keep track of your progress with a profile
+login-to-get-started = Log in or sign up to get started
 
 ## Reporting
 report = Report

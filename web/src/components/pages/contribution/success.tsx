@@ -9,6 +9,7 @@ import { LocaleLink } from '../../locale-helpers';
 import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
 import { SET_COUNT } from './contribution';
+import Modal, { ModalProps } from '../../modal/modal';
 
 import './success.css';
 
@@ -25,6 +26,26 @@ const GoalPercentage = ({
     <span className="final">{final}%</span>
     <span className="current">{current}%</span>
   </span>
+);
+
+const HAS_SEEN_ACCOUNT_MODAL_KEY = 'hasSeenAccountModal';
+
+const AccountModal = (props: ModalProps) => (
+  <Modal {...props} innerClassName="account-modal">
+    <div className="images">
+      <img src={require('./waves.svg')} alt="Waves" className="bg" />
+      <img src={require('./mars-blue.svg')} alt="Mars Robot" className="mars" />
+    </div>
+    <Localized id="keep-track-profile">
+      <h1 />
+    </Localized>
+    <Localized id="login-to-get-started">
+      <h2 />
+    </Localized>
+    <Localized id="login-signup">
+      <LinkButton rounded href="/login" />
+    </Localized>
+  </Modal>
 );
 
 export default function Success({
@@ -45,6 +66,10 @@ export default function Success({
   const startedAt = useRef(null);
   const [contributionCount, setContributionCount] = useState(null);
   const [currentCount, setCurrentCount] = useState(null);
+  const [showAccountModal, setShowAccountModal] = useState(
+    !hasAccount && !JSON.parse(localStorage.getItem(HAS_SEEN_ACCOUNT_MODAL_KEY))
+  );
+  localStorage.setItem(HAS_SEEN_ACCOUNT_MODAL_KEY, JSON.stringify(true));
 
   function countUp(time: number) {
     if (killAnimation.current) return;
@@ -109,6 +134,10 @@ export default function Success({
 
   return (
     <div className="contribution-success">
+      {showAccountModal && (
+        <AccountModal onRequestClose={() => setShowAccountModal(false)} />
+      )}
+
       <div className="counter done">
         <CheckIcon />
         <Localized
