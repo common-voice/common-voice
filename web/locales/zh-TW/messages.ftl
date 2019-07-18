@@ -343,6 +343,7 @@ faq-why-important-a =
 faq-how-get-q = 我要如何取得 Common Voice 資料？
 faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>下載，本資料集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的資料集。
 faq-when-release2-q = 你們什麼時候會發布其他語言的 Common Voice 資料？
+faq-when-release2-a = 多語言版本的 Common Voice 資料集，目前正交由社群進行清理與打包。若您想要幫助我們加入新語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來加入語句到資料集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 來將網站翻譯成該語言。每種語言有超過 5000 句語句審核完成後，就會加入 Common Voice。
 faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
 faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的專案來協助網路上的創作者來得到威力。隨著採用語音技術的程式激增，我們相信這些程式應該平等地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 與全球開發者們的公眾資源，並已用於專案開發當中。
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
