@@ -342,8 +342,7 @@ faq-why-important-a =
     為了讓語音識別技術能夠更加普遍，我們收集不論是有廣大使用者，或是較少使用者會說的語言（大部分商業語音識別服務對此類語言都缺少支援）的語音片段，並發布一組含多元語言與腔調的語音資料集，希望能提供給開發者、創業家、以及整個語音技術社群來跨越這個鴻溝。
 faq-how-get-q = 我要如何取得 Common Voice 資料？
 faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>下載，本資料集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的資料集。
-faq-when-release-q = 你們什麼時候會釋出其他語言的 Common Voice 資料？
-faq-when-release-a = 多語言版本的 Common Voice 資料集目前正由社群進行整理與維護。若想要了解如何參與這個工作，請<contactLink>聯絡我們</contactLink>。我們目標在 2019 年 1 月發布資料集，在那之後就會定期更新，在新語言與錄音片段加入時一併推出。定期發行的更新仍在確認中。
+faq-when-release2-q = 你們什麼時候會發布其他語言的 Common Voice 資料？
 faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
 faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的專案來協助網路上的創作者來得到威力。隨著採用語音技術的程式激增，我們相信這些程式應該平等地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 與全球開發者們的公眾資源，並已用於專案開發當中。
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
