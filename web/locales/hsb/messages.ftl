@@ -349,8 +349,7 @@ faq-why-important-a =
     Zo bychmy hłosowe spóznaće bóle uniwerselne činili, hromadźimy hłosowe přikłady w daloko rozšěrjenych rěčach, ale tež w rěčach z małej ličbu rěčnikow, kotrež so husto wot komercielnych słužbow hłosoweho spóznaća njepodpěruja. Wozjewjenje wšelakoreje datoweje sadźby hłosow wuwiwarjow, předewzaćelow a cyłe rěčenske zhromadźenstwa wukmani, tutu dźěru wupjelnić.
 faq-how-get-q = Kak móžu daty Common Voice dóstać?
 faq-how-get-a = Datowa sadźba Common Voice je pod licencu <licenseLink>CC0</licenseLink> na <datasetLink>našej stronje datowych sadźbow</datasetLink> za sćehnjenje k dispoziciji. Móžeće tež wjacore druhe zjawnje k dispoziciji stejace datowe sadźby ze samsneje strony sćahnyć.
-faq-when-release-q = Hdy Common Voice w druhich rěčach wozjewiće?
-faq-when-release-a = Wjacerěčna wersija datowje sadźby Common Voice so tuchwilu z pomocu zhromadźenstwa walčkuje a čisći. Jeli byšće rady wjace wo podpěranju tutych prócow zhonił, <contactLink>stajće so prošu z nami do zwiska</contactLink>. Měrimy so tuchwilu na wozjewjenski datum januara 2019. Potom budźemy datowu sadźbu prawidłownje z nowymi rěčemi a hłosowymi klipami aktualizować, hdyž su k dispoziciji. Iteratiwny wozjewjenski cyklus hišće postajeny njeje.
+faq-when-release2-q = Hdy daty Common Voice w druhich rěčach wozjewiće?
 faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
 faq-why-mission-a = Mozilla je sej předewzał, web za kóždeho wotewrjeny a přistupny dźeržeć. Zo bychmy to činili, dyrbimy webawtorow přez webprojekty kaž Common Voice wukmanić. Dokelž hłosowe technologije přez nišowe nałoženja wurostuja, wěrimy, zo dyrbja wšěm wužiwarjam jenak słužić. To rěka, do dalšich rěčow inwestować a wšelake akcenty a demografije wobkedźbować , hdyž so hłosowe technologije wuwiwaja a testuja. Common Voice je zjawna resursa, kotraž wšěm k dispoziciji steji, a teamy a wuwiwarjo Mozilla na cyłym swěće wužiwaja jón hižo za projekty.
 faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
@@ -402,6 +401,7 @@ about-speak-text = Sobuskutkowarjo čitaja z datoweje banki sadow a nahrawaja h�
 about-listen-queue = Słuchowy čakanski rynk
 about-listen-queue-text = Hłosowe klipy so do přenošowanskeho čakanskeho rynka zapodawaja, kotryž je za słuchanje k dispoziciji staja.
 about-listen = Poskać
+about-listen-text = Wužiwarjo kontroluja, hač rěčnik sadu korektnje wurjekuje, zo bychu akuratnosć darjenych klipow přepruwowali.
 about-is-it-valid = Je klip płaćiwy?
 about-is-it-valid-text = Hłosowy klip so jako „płaćiwy markěruje, hdyž wužiwar jemu hajhłós da.
 about-yes-votes = ≥ 2 hajhłosaj
