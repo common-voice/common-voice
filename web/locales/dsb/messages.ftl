@@ -349,8 +349,7 @@ faq-why-important-a =
     Aby my głosowe spóznaśe wěcej uniwerselne cynili, gromaźimy głosowe pśikłady w daloko rozšyrjonych rěcach, ale teke w rěcach z małeju licbu powědarjow, kótarež se cesto wót komercielnych słužbow głosowego spóznaśa njepódpěraju. Wózjawjenje wjelerakeje datoweje sajźby głosow wuwijarjow, pśedewześarjow a cełe powědańske zgromaźeństwa wuzamóžnijo, toś tu źěru zatkaś.
 faq-how-get-q = Kak mógu daty Common Voice dostaś?
 faq-how-get-a = Datowa sajźba Common Voice jo pód licencu <licenseLink>CC0</licenseLink> na <datasetLink>našomu bokoju datowych sajźbow</datasetLink> za ześěgnjenje k dispoziciji. Móžośo teke někotare druge zjawnje k dispoziciji stojece datowe sajźby z togo samskego boka ześěgnuś.
-faq-when-release-q = Gdy Common Voice w drugich rěcach wózjawijośo?
-faq-when-release-a = Wěcejrěcna wersija datowje sajźby Common Voice se tuchylu z pomocu zgromaźeństwa zeběra a cysći. Jolic by wy rady wěcej wó pódpěranju toś tych procow zgónił, <contactLink>stajśo se pšosym z nami do zwiska</contactLink>. Měrimy se tuchylu na wózjawjeński datum januara 2019. Pótom buźomy datowu sajźbu pšawidłownje z nowymi rěcami a głosowymi klipami aktualizěrowaś, gaž su k dispoziciji. Iteratiwny wózjawjeński cyklus hyšći njejo póstajony.
+faq-when-release2-q = Gdy daty Common Voice w drugich rěcach wózjawijośo?
 faq-why-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
 faq-why-mission-a = Mozilla jo se pśedewzeł, web za kuždego wótwórjony a pśistupny źaržaś. Aby my to cynili, musymy webawtory pśez webprojekty ako Common Voice wuzamóžniś. Dokulaž głosowe technologije nišowym nałoženjam wurostuju, wěrimy, až muse wšym wužywarjam jadnak słužyś. To groni, do dalšnych rěcow inwestěrowaś a wšake akcenty a demografije zapśimjeś, gaž se głosowe technologije wuwijaju a testuju. Common Voice jo zjawna resursa, kótaraž wšym k dispoziciji stoj, a teamy a wuwijarje Mozilla na cełym swěśe wužywaju jen južo za projekty.
 faq-what-cv-and-deepspeech-q = Co jo rozdźěl mjazy Common Voice a Deep Speech?
@@ -402,6 +401,7 @@ about-speak-text = Sobustatkujuce cytaju z datoweje banki sadow a nagrawaju gło
 about-listen-queue = Słuchowy cakański rěd
 about-listen-queue-text = Głosowe klipy se do pśenosowańskego cakańskego rěda zapódawaju, kótaryž je za słuchanje k dispoziciji staja.
 about-listen = Pśisłuchaś
+about-listen-text = Wužywarje kontrolěruju, lěc powědaŕ sadu korektnje wugranja, aby akuratnosć pósćonych klipow pśeglědowali.
 about-is-it-valid = Jo klip płaśiwy?
 about-is-it-valid-text = Głosowy klip se ako „płaśiwy markěrujo, gaž wužywaŕ jomu jogłos dajo.
 about-yes-votes = ≥ 2 jogłosa
