@@ -585,7 +585,7 @@ localized = Übersetzt
 sentences = Sätze
 total-hours = Stdn. bestätigt
 
-## New Contribution
+## Contribution
 
 action-click = klicken
 action-tap = antippen
@@ -629,6 +629,8 @@ listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 nothing-to-validate = Es gibt momentan nichts mehr in dieser Sprache, was Sie bestätigen könnten, bitte helfen Sie uns, indem Sie die Warteschlange wieder auffüllen.
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
+keep-track-profile = Verfolgen Sie Ihren Fortschritt mit einem Profil
+login-to-get-started = Melden Sie sich an oder registrieren Sie sich, um loszulegen
 
 ## Reporting
 
