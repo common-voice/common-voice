@@ -568,7 +568,7 @@ localized = Přełoženy
 sentences = Sady
 total-hours = Hodźiny dohromady
 
-## New Contribution
+## Contribution
 
 action-click = Kliknyć
 action-tap = Podótknyć so
@@ -618,6 +618,8 @@ listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 nothing-to-validate = Nimamy ničo, kotrež móžemy w tutej rěči přepruwować, prošu pomhajće nam čakanski rynk pjelnić.
 record-button-label = Nahrajće swój hłós
 share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
+keep-track-profile = Slědujće swojemu postupej z profilom
+login-to-get-started = Přizjewće so abo registrujće so, zo byšće započał
 
 ## Reporting
 
