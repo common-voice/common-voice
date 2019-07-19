@@ -97,6 +97,7 @@ or = Odia
 pl = Polonese
 pt-BR = Portugese (Brasil)
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romancio vallader
 ro = Romaniano
 ru = Russo
 rw = Ruanda
@@ -108,6 +109,7 @@ sl = Sloveno
 sq = Albanese
 sr = Serbo
 sv-SE = Svedese
+syr = Syriac
 ta = Tamil
 te = Telugu
 tg = Tajik
@@ -392,6 +394,7 @@ about-yes-votes = ≥ 2 votos Si
 about-yes-votes-text = Pro lo introducer in le collection de datos de Common Voice, un retalio vocal debe ser validate per duo diverse usatores.
 about-no-votes = ≥ 2 votos No
 about-no-votes-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
+about-dataset-new = Collection de datos de Common Voice
 about-clip-graveyard = Cemeterio del retalios
 about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal que non es admittite in le collection de datos de Common Voice. Justo como le collection de datos, le Cemeterio del retalios es disponibile pro discarga.
 about-partners = Partners
@@ -617,6 +620,14 @@ share-title-new = <bold>Adiuta nos</bold> a trovar altere voces
 
 ## Reporting
 
+report = Reporto
+report-title = Invia un reporto
+report-ask = Qual problemas ha tu con iste phrase?
+report-other-comment =
+    .placeholder = Commento
+success = Successo
+continue = Continuar
+report-success = Le reporto passava con successo!
 
 ## Goals
 
