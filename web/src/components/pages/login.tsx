@@ -5,6 +5,7 @@ import URLS from '../../urls';
 import { Notifications } from '../../stores/notifications';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
+import { trackProfile } from '../../services/tracker';
 
 interface NotificationProps {
   addNotification: typeof Notifications.actions.addPill;
@@ -57,6 +58,9 @@ export const LoginSuccess = connect<PropsFromState>(({ user }: StateTree) => ({
         if (isFetchingAccount) return;
         const redirectURL = sessionStorage.getItem('redirectURL');
         sessionStorage.removeItem('redirectURL');
+        if (account) {
+          trackProfile('login', null);
+        }
         history.replace(
           redirectURL || (account ? URLS.ROOT : URLS.PROFILE_INFO)
         );

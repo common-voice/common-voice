@@ -93,6 +93,7 @@ export function trackListening(
 export function trackProfile(
   action:
     | 'create'
+    | 'login'
     | 'give-email'
     | 'give-username'
     | 'give-accent'
