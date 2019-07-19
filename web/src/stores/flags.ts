@@ -1,3 +1,5 @@
+import { isProduction } from '../utility';
+
 export namespace Flags {
   export type MessageOverwrites = {
     [locale: string]: string;
@@ -31,7 +33,7 @@ export namespace Flags {
       messageOverwrites: JSON.parse(
         sessionStorage.getItem('messageOverwrites') || '{}'
       ),
-      showAccountConversionModal: false,
+      showAccountConversionModal: !isProduction(),
     },
     action: Action
   ): State {
