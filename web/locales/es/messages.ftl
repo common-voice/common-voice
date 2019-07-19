@@ -97,6 +97,7 @@ or = Odia
 pl = Polaco
 pt-BR = Portugués (Brasil)
 rm-sursilv = romanche sursilvano
+rm-vallader = Romansh Vallader
 ro = Rumano
 ru = Ruso
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Esloveno
 sq = Albanés
 sr = Serbio
 sv-SE = Sueco
+syr = Sirio
 ta = Tamil
 te = Telugú
 tg = Tayiko
@@ -342,8 +344,8 @@ faq-why-important-a =
     Para que el reconocimiento de voz sea aun más universal, estamos recopilando muestras de voz en multitud de idiomas, tanto los más hablados como en aquellos con menor incidencia que a menudo reciben servicios insuficientes de reconocimiento de voz. La publicación de una gran base de datos de voz ayudará a los desarrolladores, emprendedores, y a toda la comunidad de tecnologías de voz a hacer frente a esa brecha.
 faq-how-get-q = ¿Cómo puedo obtener los datos de Common Voice?
 faq-how-get-a = La base de datos de Common Voice está disponible para su descarga bajo la licencia <licenseLink>CC0</licenseLink> en <datasetLink>nuestra página de base de datos</datasetLink>. También puedes descargar muchos otros datos disponibles públicamente desde la misma página.
-faq-when-release-q = ¿Cuándo lanzaréis Common Voice en otros idiomas?
-faq-when-release-a = Mientras lees esto, nuestra comunidad está intentando crear y depurar la versión multilingüe de la base de datos de Common Voice. Si te gustaría saber más sobre cómo apoyar este proyecto, <contactLink>ponte en contacto con nosotros</contactLink>. Por ahora preveemos que pueda publicarse en enero de 2019. Una vez publicada, la actualizaremos periódicamente con nuevos idiomas y grabaciones según vayan estando disponibles. Aún no se ha determinado una cadencia del ciclo iterativo de publicación.
+faq-when-release2-q = ¿Cuándo publicaréis los datos de Common Voice en otros idiomas?
+faq-when-release2-a = La versión en varios idiomas del archivo de datos de Common Voice se encuentra actualmente en proceso de limpieza y ordenación por parte de la comunidad. Si deseas ayudarnos a llevar Common Voice a nuevos idiomas, visita la <sentenceCollectorLink>Herramienta de recopilación de frases</sentenceCollectorLink> para añadir nuevas frases al conjunto de datos, y <pontoonLink>Mozilla Pontoon</pontoonLink> para traducir el propio sitio web. Se añadirán nuevos idiomas a Common Voice para la contribución de voz cuando se hayan recopilado 5.000 frases validadas.
 faq-why-mission-q = ¿Por qué Common Voice forma parte de la misión de Mozilla?
 faq-why-mission-a = La misión de Mozilla es mantener la web abierta y accesible para todos. Para ello, necesitamos movilizar a los desarrolladores web con proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, creemos que deben servir a todos los usuarios por igual. Eso significa invertir en más idiomas y acomodar diversos acentos y características demográficas al crear y probar tecnologías de voz. Common Voice es un recurso público disponible para todos, y los equipos y desarrolladores de Mozilla en todo el mundo también lo están utilizando en nuestros propios proyectos.
 faq-what-cv-and-deepspeech-q = ¿Cuál es la diferencia entre Common Voice y Deep Speech?
@@ -572,7 +574,7 @@ localized = Traducido
 sentences = Frases
 total-hours = Horas validadas
 
-## New Contribution
+## Contribution
 
 action-click = Clic
 action-tap = Seleccionar
@@ -616,6 +618,8 @@ listen-last-time-instruction = <playIcon></playIcon> ¡La última!
 nothing-to-validate = No contamos con ningún recurso para validar este idioma, ¡ayúdanos!
 record-button-label = Grabar tu voz
 share-title-new = <bold>Ayúdanos</bold> a encontrar más voces.
+keep-track-profile = Haz un seguimiento de tu progreso con un perfil
+login-to-get-started = Inicia sesión o regístrate para comenzar
 
 ## Reporting
 
