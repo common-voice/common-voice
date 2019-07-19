@@ -5,7 +5,7 @@ export namespace Flags {
 
   export interface State {
     messageOverwrites: MessageOverwrites;
-    homeHeroes: ('speak' | 'listen')[];
+    showAccountConversionModal: boolean;
   }
 
   enum ActionType {
@@ -31,7 +31,7 @@ export namespace Flags {
       messageOverwrites: JSON.parse(
         sessionStorage.getItem('messageOverwrites') || '{}'
       ),
-      homeHeroes: ['speak', 'listen'],
+      showAccountConversionModal: false,
     },
     action: Action
   ): State {

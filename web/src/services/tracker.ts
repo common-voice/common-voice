@@ -20,6 +20,12 @@ export function track(
 ) {
   if (isProduction() && typeof ga === 'function') {
     ga('send', 'event', category, action, locale);
+  } else {
+    console.debug('analytics event (not tracked here)', {
+      category,
+      action,
+      locale,
+    });
   }
 }
 
@@ -92,7 +98,8 @@ export function trackProfile(
     | 'give-accent'
     | 'give-age'
     | 'give-gender'
-    | 'give-avatar',
+    | 'give-avatar'
+    | 'contribution-conversion-modal',
   locale: string
 ) {
   track('Profile', action, locale);
