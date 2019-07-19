@@ -576,7 +576,7 @@ localized = 本地化
 sentences = 句子
 total-hours = 总小时数
 
-## New Contribution
+## Contribution
 
 action-click = 点击
 action-tap = 点按
@@ -620,6 +620,8 @@ listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 nothing-to-validate = 我们没有这个语言可供验证的录音，请帮助我们多录一些。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
+keep-track-profile = 创建账户跟踪个人贡献进度
+login-to-get-started = 请完成登录或注册，即可开始使用
 
 ## Reporting
 
