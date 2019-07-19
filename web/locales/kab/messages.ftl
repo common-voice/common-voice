@@ -341,6 +341,8 @@ faq-why-important-a =
     Akken ad yuɣal uɛqal n taɣect d agraɣlan ugar, ad d-nelqeḍ tukkisin n taɣect deg tutlayin yettwameslayen s ṭaqa, daɣen ula d tid yesɛan drus n wid i tent-yettmeslayen, tid ur nufi ara iman-nsent des yimeẓla yettnuzun. Asuffeɣ n tegrumma n yisefka yemgaraden, ad yeǧǧ ineflayen, wid yesseftayen tadrimt akken trebbaɛ timesnilesin ad faṛsent tagnit seg-waya.
 faq-how-get-q = Amek zemreɣ ad d-awiɣ isefka n Common Voice?
 faq-how-get-a = Tagrumma n yisefka Common Voice tella i usider maca s uqadeṛ n tewtilin n turagt <licenseLink>CC0</licenseLink> deg <datasetLink>usebtere-nneɣ n tegrumma n yisefka</datasetLink>. Tzemreḍ daɣen ad tessidreḍ tigrummiwin-nniḍen tizuyaz seg usebter-nni.
+faq-when-release2-q = Melmi ad d-ffɣen yisefka Common Voice deg tutlayin-nniḍen?
+faq-when-release2-a = Lqem s ddeqs n yisefka n tegrumma n yisefka Common Voice iteddu akka tura sɣur tarbaɣt yessefraken asenqed akked usfaḍ. ma tebɣiḍ ad tekkiḍ akken  Common Voice ad yili deg tutlayin-nniḍen, ddu ad twaliḍ <sentenceCollectorLink>Afecku n ulqaḍ n tefyar </sentenceCollectorLink> akken ad ternuḍ tifyar tmaynutin ɣer tegrumma n yisefka, akked  <pontoonLink>Pontoon</pontoonLink> n Mozilla i tsuqilt n usmel web iman-is. Tutlayin timaynutin ad ttwarnun ɣer Common Voice i uttekki s taɣect ticki ttwaqeblent  5000 seg tefyar i d-yettwaleqḍen.
 faq-why-mission-q = Acuɣer Common Voice yettekka deg tuɣdaḍt n Mozilla?
 faq-why-mission-a = Mozilla iswi-is d aḥraz n web yeldin, yettwakcamen i yal yiwen. Akken ad naweḍ lebɣi-a, yessefk ad nmudd ifecka am Common Voice i wid i d-yesnulfuyen. Titiknulujiyin n taɣect ttnulfuyent-d deg kra n yimeḍqan, numen daɣen d akken yessefk ad faṛsent seg-sent yimdanen meṛṛa. Nwal d akken ilaq ad nseddu ugar n tutlayin, isusruyen akked tsutiwin yemgaraden i usnulfu akked usekyed n titiknulujiyin n taɣect. Mozilla tebɣa Internet urmid, s tezmert yelhan. Ayagi ad d-yeglu s umuddu n unekcum ɣer yisefka n taɣect i wid i d-yesnulfuyen deg Web, akken ad izmiren ad ten-sqedcen deg yisenfaṛen imaynuten. Common Voice ad yuɣal d taɣbalut tazayezt ara imudden tallelt i yigrawen n Mozilla akked ineflayen deg umaḍal meṛṛa.
 faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Speech?
@@ -628,6 +630,7 @@ listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
 nothing-to-validate = Ula kra ara nsentem deg tutlayt-a, mudd-aɣ-d afus ad neččaṛ adras.
 record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
+keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
 login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
 
 ## Reporting
