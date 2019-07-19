@@ -342,8 +342,6 @@ faq-why-important-a =
     Per rendere il riconoscimento vocale ancora più universale, stiamo raccogliendo campioni vocali nelle lingue più comuni, ma anche in quelle parlate da un ristretto numero di persone e che spesso vengono ignorate dai servizi di riconoscimento vocale commerciali. Pubblicando un insieme di dataset diversificato offriamo agli sviluppatori, agli imprenditori e a intere comunità linguistiche le risorse per colmare da soli questa lacuna.
 faq-how-get-q = Come posso ottenere i dati di Common Voice?
 faq-how-get-a = Il dataset di Common Voice è disponibile per essere scaricato sotto la licenza <licenseLink>CC0</licenseLink> dalla <datasetLink>pagina Dataset</datasetLink>. Nella stessa pagina puoi trovare molti altri dataset scaricabili pubblicamente.
-faq-when-release-q = Quando verranno pubblicati i dati di Common Voice in altre lingue?
-faq-when-release-a = La versione multilingua del dataset di Common Voice è attualmente in fase di costruzione e rifinitura per mano della nostra comunità. Se vuoi saperne di più su come sostenere questo sforzo, <contactLink>contattaci</contactLink>. Al momento la pubblicazione è prevista per gennaio 2019. Successivamente aggiorneremo periodicamente il dataset con nuove lingue e con registrazioni vocali appena diventano disponibili. È ancora da determinare la cadenza dell’aggiornamento periodico.
 faq-why-mission-q = In che modo Common Voice rientra nella missione di Mozilla?
 faq-why-mission-a = La missione di Mozilla è mantenere il Web aperto e accessibile a tutti. Questo include anche offrire opportunità agli autori di contenuti Web attraverso progetti come Common Voice. Ora che le tecnologie vocali non sono più applicazioni di nicchia, crediamo che dovrebbero essere disponibili per tutti senza alcuna discriminazione. Ciò significa investire nello sviluppo e nel collaudo di più lingue, tenendo in considerazione i diversi accenti e varianti demografiche. Common Voice è una risorsa pubblica disponibile per tutti: i team di Mozilla e gli sviluppatori in tutto il mondo lo stanno già utilizzando per propri progetti.
 faq-what-cv-and-deepspeech-q = Qual è la differenza tra Common Voice e Deep Speech?
@@ -447,7 +445,7 @@ data-download-modal = Verranno scaricati <size>{ $size }GB</size> di dati. Proce
 data-subtitle = Stiamo costruendo un dataset di voci pubblico e aperto che chiunque possa utilizzare per addestrare applicativi con supporto vocale.
 data-explanatory-text = Secondo noi un grande dataset disponibile pubblicamente promuoverà l’innovazione e una sana competizione commerciale nel campo dell’apprendimento automatico basato su tecnologie vocali. La nostra è un’iniziativa globale, tutti sono invitati a partecipare. Il nostro scopo è rendere le tecnologie vocali più inclusive e adatte a rispecchiare la diversità di voci nel mondo.
 data-get-started = <speechBlogLink>Istruzioni per il riconoscimento vocale</speechBlogLink>
-data-other-title = Altri dataset vocali...
+data-other-title = Altri dataset vocali…
 data-other-goto = Vai a { $name }
 data-other-download = Scarica i dati
 data-bundle-button = Scarica bundle di dataset
@@ -566,7 +564,7 @@ localized = Localizzate
 sentences = Frasi
 total-hours = Ore convalidate
 
-## New Contribution
+## Contribution
 
 action-click = Fai clic su
 action-tap = Tocca
