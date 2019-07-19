@@ -587,7 +587,7 @@ localized = Honosítva
 sentences = Mondatok
 total-hours = Órák összesen
 
-## New Contribution
+## Contribution
 
 action-click = Kattintson
 action-tap = Koppintson
@@ -631,6 +631,8 @@ listen-last-time-instruction = <playIcon></playIcon> Utolsó!
 nothing-to-validate = Még nincs semmit ellenőrizni ezen a nyelven, segítsen feltölteni a sort.
 record-button-label = Rögzítse a hangját
 share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
+keep-track-profile = Kövesse nyomon az előrehaladását egy profil segítségével
+login-to-get-started = A kezdéshez jelentkezzen be vagy regisztráljon
 
 ## Reporting
 
