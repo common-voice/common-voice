@@ -341,8 +341,6 @@ faq-why-important-a =
     Akken ad yuɣal uɛqal n taɣect d agraɣlan ugar, ad d-nelqeḍ tukkisin n taɣect deg tutlayin yettwameslayen s ṭaqa, daɣen ula d tid yesɛan drus n wid i tent-yettmeslayen, tid ur nufi ara iman-nsent des yimeẓla yettnuzun. Asuffeɣ n tegrumma n yisefka yemgaraden, ad yeǧǧ ineflayen, wid yesseftayen tadrimt akken trebbaɛ timesnilesin ad faṛsent tagnit seg-waya.
 faq-how-get-q = Amek zemreɣ ad d-awiɣ isefka n Common Voice?
 faq-how-get-a = Tagrumma n yisefka Common Voice tella i usider maca s uqadeṛ n tewtilin n turagt <licenseLink>CC0</licenseLink> deg <datasetLink>usebtere-nneɣ n tegrumma n yisefka</datasetLink>. Tzemreḍ daɣen ad tessidreḍ tigrummiwin-nniḍen tizuyaz seg usebter-nni.
-faq-when-release-q = Melmi ara d-ffɣen yisefka n Common Voice deg tutlayin-nniḍen?
-faq-when-release-a = Lqem s ddeqs n tutlayin n tagrumma n yisefka Common Voice ad tettwanbay daɣen ad tettwasizdeg akka tura sɣur tarbaɛt. MA tebɣiḍ ad teẓreḍ ɣef waya, <contactLink>nemes-aɣ-d</contactLink> ma ulac aɣilif. Nessaram ad d-ffɣen s wudem unṣib deg Yennayer 2019. Sakin ad d-nessuffuɣ ileqman si sya ɣer da s yikalasen imaynuten akken tutlayin-nniḍen, ticki heggant. Aql-aɣ ad nettnadi tawala neɣ imecwaṛen amek ara d-teffɣen ɣer zdat.
 faq-why-mission-q = Acuɣer Common Voice yettekka deg tuɣdaḍt n Mozilla?
 faq-why-mission-a = Mozilla iswi-is d aḥraz n web yeldin, yettwakcamen i yal yiwen. Akken ad naweḍ lebɣi-a, yessefk ad nmudd ifecka am Common Voice i wid i d-yesnulfuyen. Titiknulujiyin n taɣect ttnulfuyent-d deg kra n yimeḍqan, numen daɣen d akken yessefk ad faṛsent seg-sent yimdanen meṛṛa. Nwal d akken ilaq ad nseddu ugar n tutlayin, isusruyen akked tsutiwin yemgaraden i usnulfu akked usekyed n titiknulujiyin n taɣect. Mozilla tebɣa Internet urmid, s tezmert yelhan. Ayagi ad d-yeglu s umuddu n unekcum ɣer yisefka n taɣect i wid i d-yesnulfuyen deg Web, akken ad izmiren ad ten-sqedcen deg yisenfaṛen imaynuten. Common Voice ad yuɣal d taɣbalut tazayezt ara imudden tallelt i yigrawen n Mozilla akked ineflayen deg umaḍal meṛṛa.
 faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Speech?
@@ -582,7 +580,7 @@ localized = Yettwasideg
 sentences = Tifyar
 total-hours = Amḍan n yisragen
 
-## New Contribution
+## Contribution
 
 action-click = Senned
 action-tap = Sit ɣef
@@ -630,6 +628,7 @@ listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
 nothing-to-validate = Ula kra ara nsentem deg tutlayt-a, mudd-aɣ-d afus ad neččaṛ adras.
 record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
+login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
 
 ## Reporting
 
