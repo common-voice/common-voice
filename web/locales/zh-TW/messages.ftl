@@ -581,7 +581,7 @@ localized = 已翻譯
 sentences = 句子
 total-hours = 已驗證時數
 
-## New Contribution
+## Contribution
 
 action-click = 點擊
 action-tap = 點選
@@ -625,6 +625,8 @@ listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
+keep-track-profile = 註冊帳號來追蹤個人貢獻進度
+login-to-get-started = 請登入或註冊，即可開始使用
 
 ## Reporting
 
