@@ -332,7 +332,6 @@ faq-title = প্রায়শই জিজ্ঞাসিত প্রশ্ন
 faq-what-cv-q = Common Voice কি?
 faq-why-important-q = কেন এটা গুরুত্বপূর্ণ?
 faq-how-get-q = আমি কিভাবে Common Voice ডাটা পেতে পারি?
-faq-when-release-q = আপনারা কবে Common Voice ডেটা অন্যান্য ভাষায় প্রকাশ করবেন?
 faq-why-mission-q = Common Voice কেন Mozilla মিশনে অংশ মনে করা হয়?
 faq-what-cv-and-deepspeech-q = কমন ভয়েস এবং ডিপ স্পিচ এর মধ্যে পার্থক্য কী?
 faq-is-goal-assistant-q = একটি ভয়েস এসিসটেন্ট নির্মাণ করা কি Common Voice এর লক্ষ্য?
@@ -363,6 +362,8 @@ about-is-it-valid = এই ক্লিপটি কি বৈধ?
 about-is-it-valid-text = একটি ভয়েস ক্লিপ তখনই "বৈধ" হিসেবে চিহ্নিত করা হয় যখন একজন ব্যবহারকারী সেটিকে হ্যাঁ ভোট দেয়।
 about-yes-votes = ≥ 2 হ্যাঁ ভোট
 about-yes-votes-text = Common Voice এর ডাটাসেটে একটি ভয়েস ক্লিপ অন্তর্ভুক্ত করতে চাইলে, দুজন পৃথক ব্যবহারকারী দ্বারা সেটির বৈধতা যাচাই করা আবশ্যক।
+about-dataset-new = কমন ভয়েস ডাটাসেট
+about-dataset-new-text = Common Voice ডাটাসেটে হাজার হাজার নমুনা কণ্ঠ রয়েছে যা ডেভলাপারদের ভয়েস রিকগনিশন টুল তৈরিতে সহায়তা করে।
 about-partners = অংশীদারসমূহ
 about-become-a-partner = অংশীদার হোন
 about-get-involved = সম্পৃক্ত হোন
@@ -492,7 +493,7 @@ localized = লোকালাইজ্ড
 sentences = বাক্যসমূহ
 total-hours = যাচাইকৃত ঘন্টাসমূহ
 
-## New Contribution
+## Contribution
 
 action-click = ক্লিক করুন
 action-tap = টোকা দিন
@@ -542,10 +543,15 @@ share-title-new = <bold>আমাদের সাহায্য করুন</b
 report = প্রতিবেদন
 report-title = একটি রিপোর্ট জমা দিন
 report-offensive-language = আপত্তিজনক ভাষা
+report-offensive-language-detail = বাক্যটিতে অপমানজনক বা আপত্তিকর ভাষা আছে।
 report-grammar-or-spelling = ব্যাকরণগত / বানান ত্রুটি
+report-grammar-or-spelling-detail = বাক্যটিতে একটি ব্যাকরণগত বা বানান ত্রুটি আছে।
 report-different-language = অন্য ভাষা
+report-different-language-detail = আমি যে ভাষায় বলছি এটি তার চেয়ে ভিন্ন ভাষায় লেখা।
 report-difficult-pronounce = উচ্চারণে কঠিন
+report-difficult-pronounce-detail = এটিতে শব্দ বা বাক্যাংশ রয়েছে যা পড়তে বা উচ্চারণ করা কঠিন।
 report-offensive-speech = আপত্তিজনক বাক্য
+report-offensive-speech-detail = ক্লিপটিতে অপমানজনক বা আপত্তিকর ভাষা আছে।
 report-other-comment =
     .placeholder = মন্তব্য
 success = সফল
@@ -595,5 +601,7 @@ profile-form-delete = প্রোফাইল মুছে ফেলুন
 
 ## Landing
 
+welcome-staff = স্বাগতম { $company } কর্মীদের!
+login-company = { $company } ইমেল দিয়ে লগ ইন / সাইন আপ করুন
 profile-not-required = অবদান রাখার জন্যে কোন প্রোফাইল থাকার প্রয়োজন হয় না, যদিও এটি সহায়ক হবে।
 read-more-about = আমাদের সম্পর্কে আরও পাতা পড়ুন
