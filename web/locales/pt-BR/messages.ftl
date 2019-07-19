@@ -344,8 +344,7 @@ faq-why-important-a =
     Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amostras de voz em idiomas amplamente falados, bem como naqueles com uma população menor de falantes, frequentemente deixados de lado por serviços comerciais de reconhecimento de voz. A publicação de um conjunto de dados diversificado permitirá que desenvolvedores, empreendedores e comunidades inteiras resolvam essa lacuna eles mesmos.
 faq-how-get-q = Como posso obter os dados do Common Voice?
 faq-how-get-a = O conjunto de dados do Common Voice está disponível para download sob a licença <licenseLink>CC0</licenseLink> em <datasetLink>nossa página de Datasets</datasetLink>. Você também pode baixar diversos outros conjuntos de dados disponíveis publicamente a partir da mesma página.
-faq-when-release-q = Quando serão lançados os dados do Common Voice em outros idiomas?
-faq-when-release-a = A versão multilíngue do conjunto de dados do Common Voice está passando por um processo de limpeza e empacotamento suportado pela comunidade. Se você quiser saber mais sobre como apoiar esse esforço, <contactLink>entre em contato conosco</contactLink>. No momento, estamos almejando uma data de publicação em janeiro de 2019. Depois disso, atualizaremos o conjunto de dados periodicamente com novos idiomas e clipes de voz à medida que forem disponibilizados. Uma cadência de ciclos iterativos de lançamento ainda está por ser determinada.
+faq-when-release2-q = Quando você liberará dados do Common Voice em outros idiomas?
 faq-why-mission-q = Por que o Common Voice faz parte da missão Mozilla?
 faq-why-mission-a = A Mozilla dedica-se a manter a web aberta e acessível a todos. Para fazer isso, precisamos capacitar criadores da web através de projetos como o Common Voice. À medida que tecnologias de voz proliferam além de aplicações dedicadas, acreditamos que elas devem atender a todos os usuários igualmente. Isto significa investir em mais idiomas e acomodar diferentes sotaques e grupos demográficos ao criar e testar tecnologias de voz. O Common Voice é um recurso público, disponível a todos. Equipes da Mozilla e desenvolvedores no mundo todo já o estão usando em seus próprios projetos.
 faq-what-cv-and-deepspeech-q = Qual é a diferença entre Common Voice e Deep Speech?
@@ -585,7 +584,7 @@ localized = Traduzido
 sentences = Frases
 total-hours = Total de horas
 
-## New Contribution
+## Contribution
 
 action-click = Clique
 action-tap = Toque
@@ -629,6 +628,8 @@ listen-last-time-instruction = <playIcon></playIcon> Última!
 nothing-to-validate = Não temos nada para validar neste idioma, ajude-nos a preencher a fila.
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
+keep-track-profile = Acompanhe seu progresso com um perfil
+login-to-get-started = Entre ou cadastre-se para começar
 
 ## Reporting
 
