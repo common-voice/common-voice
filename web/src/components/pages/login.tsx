@@ -1,74 +1,45 @@
 import * as React from 'react';
-import { connect } from 'react-redux';
+import { useEffect } from 'react';
 import { RouteComponentProps, withRouter } from 'react-router';
+import { useAction } from '../../hooks/store-hooks';
 import URLS from '../../urls';
 import { Notifications } from '../../stores/notifications';
-import StateTree from '../../stores/tree';
-import { User } from '../../stores/user';
+import { useTypedSelector } from '../../stores/tree';
 import { trackProfile } from '../../services/tracker';
+import { useLocale } from '../locale-helpers';
 
-interface NotificationProps {
-  addNotification: typeof Notifications.actions.addPill;
-}
+export const LoginFailure = withRouter(
+  ({ history }: RouteComponentProps<any>) => {
+    const [, toLocaleRoute] = useLocale();
+    const addNotification = useAction(Notifications.actions.addPill);
 
-export const LoginFailure = connect<void, NotificationProps>(
-  null,
-  {
-    addNotification: Notifications.actions.addPill,
+    useEffect(() => {
+      addNotification('Login failed!');
+      history.replace(toLocaleRoute(URLS.ROOT));
+    }, []);
+
+    return null;
   }
-)(
-  withRouter(
-    class extends React.Component<
-      NotificationProps & RouteComponentProps<any>
-    > {
-      componentDidMount() {
-        const { addNotification, history } = this.props;
-        addNotification('Login failed!');
-        history.replace(URLS.ROOT);
-      }
-
-      render(): React.ReactNode {
-        return null;
-      }
-    }
-  )
 );
 
-interface PropsFromState {
-  user: User.State;
-}
+export const LoginSuccess = withRouter(
+  ({ history }: RouteComponentProps<any>) => {
+    const user = useTypedSelector(({ user }) => user);
+    const [locale, toLocaleRoute] = useLocale();
 
-type Props = PropsFromState & RouteComponentProps<any>;
-
-export const LoginSuccess = connect<PropsFromState>(({ user }: StateTree) => ({
-  user,
-}))(
-  withRouter(
-    class extends React.Component<Props> {
-      componentDidMount() {
-        this.redirect(this.props);
+    useEffect(() => {
+      const { account, isFetchingAccount } = user;
+      if (isFetchingAccount) return;
+      const redirectURL = sessionStorage.getItem('redirectURL');
+      sessionStorage.removeItem('redirectURL');
+      if (account) {
+        trackProfile('login', locale);
       }
+      history.replace(
+        toLocaleRoute(redirectURL || (account ? URLS.ROOT : URLS.PROFILE_INFO))
+      );
+    }, [user]);
 
-      componentWillReceiveProps(props: Props) {
-        this.redirect(props);
-      }
-
-      redirect({ history, user }: Props) {
-        const { account, isFetchingAccount } = user;
-        if (isFetchingAccount) return;
-        const redirectURL = sessionStorage.getItem('redirectURL');
-        sessionStorage.removeItem('redirectURL');
-        if (account) {
-          trackProfile('login', null);
-        }
-        history.replace(
-          redirectURL || (account ? URLS.ROOT : URLS.PROFILE_INFO)
-        );
-      }
-
-      render(): React.ReactNode {
-        return null;
-      }
-    }
-  )
+    return null;
+  }
 );

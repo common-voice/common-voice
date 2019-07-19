@@ -5,6 +5,7 @@ import { isContributable, useLocale } from '../locale-helpers';
 import DocumentPage from '../pages/document-page';
 import NotFoundPage from '../pages/not-found';
 import { Spinner } from '../ui/ui';
+import { LoginFailure, LoginSuccess } from '../pages/login';
 const HomePage = React.lazy(() => import('../pages/home/home'));
 const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'));
 const LanguagesPages = React.lazy(() => import('../pages/languages/languages'));
@@ -51,6 +52,16 @@ export default function Content() {
             exact
             path={toLocaleRoute(URLS.DATASETS)}
             component={DatasetsPage}
+          />
+          <Route
+            exact
+            path={toLocaleRoute('/login-failure')}
+            component={LoginFailure}
+          />
+          <Route
+            exact
+            path={toLocaleRoute('/login-success')}
+            component={LoginSuccess}
           />
           <Route
             exact
