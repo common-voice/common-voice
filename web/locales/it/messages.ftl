@@ -342,6 +342,7 @@ faq-why-important-a =
     Per rendere il riconoscimento vocale ancora più universale, stiamo raccogliendo campioni vocali nelle lingue più comuni, ma anche in quelle parlate da un ristretto numero di persone e che spesso vengono ignorate dai servizi di riconoscimento vocale commerciali. Pubblicando un insieme di dataset diversificato offriamo agli sviluppatori, agli imprenditori e a intere comunità linguistiche le risorse per colmare da soli questa lacuna.
 faq-how-get-q = Come posso ottenere i dati di Common Voice?
 faq-how-get-a = Il dataset di Common Voice è disponibile per essere scaricato sotto la licenza <licenseLink>CC0</licenseLink> dalla <datasetLink>pagina Dataset</datasetLink>. Nella stessa pagina puoi trovare molti altri dataset scaricabili pubblicamente.
+faq-when-release2-q = Quando verranno rilasciati i dati di Common Voice in altre lingue?
 faq-why-mission-q = In che modo Common Voice rientra nella missione di Mozilla?
 faq-why-mission-a = La missione di Mozilla è mantenere il Web aperto e accessibile a tutti. Questo include anche offrire opportunità agli autori di contenuti Web attraverso progetti come Common Voice. Ora che le tecnologie vocali non sono più applicazioni di nicchia, crediamo che dovrebbero essere disponibili per tutti senza alcuna discriminazione. Ciò significa investire nello sviluppo e nel collaudo di più lingue, tenendo in considerazione i diversi accenti e varianti demografiche. Common Voice è una risorsa pubblica disponibile per tutti: i team di Mozilla e gli sviluppatori in tutto il mondo lo stanno già utilizzando per propri progetti.
 faq-what-cv-and-deepspeech-q = Qual è la differenza tra Common Voice e Deep Speech?
@@ -608,6 +609,8 @@ listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 nothing-to-validate = Non sono presenti registrazioni da convalidare in questa lingua, aiutaci registrando qualche frase.
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci
+keep-track-profile = Tieni traccia dei progressi con un profilo
+login-to-get-started = Accedi o registrati per iniziare
 
 ## Reporting
 
