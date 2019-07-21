@@ -97,6 +97,7 @@ or = Odia
 pl = Poalsk
 pt-BR = Portugeesk (Braziliaansk)
 rm-sursilv = Reto-Romaansk Surselvysk
+rm-vallader = Reto-Romaansk Fallader
 ro = Roemeensk
 ru = Russysk
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Sloveensk
 sq = Albaneesk
 sr = Servysk
 sv-SE = Sweedsk
+syr = Syrysk
 ta = Tamilsk
 te = Telugu
 tg = Tadzjyksk
@@ -622,7 +624,6 @@ record-again-instruction = Fantastysk! <recordIcon></recordIcon> Nim jo folgjend
 record-again-instruction2 = Gean sa troch, nim noch in kear op <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> De lêste!
 review-tooltip = Beoardielje en nim nochris fragminten op as jo wolle
-unable-speak = Kin op dit stuit net sprekke
 review-instruction = Beoardielje en nim nochris fragminten op as jo wolle
 record-submit-tooltip = { $actionType } yntsjinje wannear ree
 clips-uploaded = Clips opladen
@@ -638,6 +639,27 @@ listen-last-time-instruction = <playIcon></playIcon> De lêste!
 nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús de rige te foljen.
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
+
+## Reporting
+
+report = Rapportearje
+report-title = In rapport ferstjoere
+report-ask = Hokker problemen ûnderfine jo mei dizze sin?
+report-offensive-language = Beledigjende taal
+report-offensive-language-detail = De sin befettet respektleaze of beledigjende taal.
+report-grammar-or-spelling = Grammatikale / staveringsflater
+report-grammar-or-spelling-detail = De sin hat in grammatikale of staveringsflater.
+report-different-language = Oare taal
+report-different-language-detail = It is skreaun yn in oare taal dan hokker ik sprek.
+report-difficult-pronounce = Swier om út te sprekken
+report-difficult-pronounce-detail = It befettet wurden of sinnen dy't hurd te lêzen of út te sprekken binne.
+report-offensive-speech = Beledigjende tekst
+report-offensive-speech-detail = De clip befettet respektleaze of beledigjende taal.
+report-other-comment =
+    .placeholder = Opmerking
+success = Slagge
+continue = Trochgean
+report-success = Rapport mei sukses trochjûn
 
 ## Goals
 

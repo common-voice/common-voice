@@ -97,6 +97,7 @@ or = Odia
 pl = Polnisch
 pt-BR = Portugiesisch (Brasilianisch)
 rm-sursilv = Surselvisch
+rm-vallader = Rätoromanisch Vallader
 ro = Rumänisch
 ru = Russisch
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Slowenisch
 sq = Albanisch
 sr = Serbisch
 sv-SE = Schwedisch
+syr = Syrisch
 ta = Tamil
 te = Telugu
 tg = Tadschikisch
@@ -342,8 +344,8 @@ faq-why-important-a =
     Um die Spracherkennung noch universeller zu gestalten, sammeln wir Sprachproben in weit verbreiteten Sprachen sowie solche mit einer geringeren Anzahl von Sprechern, die häufig von kommerziellen Spracherkennungsdiensten nicht ausreichend bedient werden. Durch die Veröffentlichung eines vielfältigen Datensatzes von Stimmen können Entwickler, Unternehmer und ganze Sprachgemeinschaften diese Lücke selbst beheben.
 faq-how-get-q = Wie komme ich an die Common-Voice-Daten?
 faq-how-get-a = Der Common-Voice-Datensatz steht unter der <licenseLink>CC0</licenseLink>-Lizenz und ist auf <datasetLink>unserer Seite mit Datensätzen</datasetLink> zum Download verfügbar. Sie können auch viele andere öffentliche Datensätze von derselben Seite herunterladen.
-faq-when-release-q = Wann werden Sie Common-Voice-Daten in anderen Sprachen veröffentlichen?
-faq-when-release-a = Die mehrsprachige Version des Common-Voice-Datensatzes wird derzeit mit Hilfe der Gemeinschaft gebündelt und bereinigt. Wenn Sie mehr über die Unterstützung dieser Bemühungen erfahren möchten, <contactLink>wenden Sie sich bitte an uns</contactLink>. Wir streben derzeit ein Veröffentlichungsdatum von Januar 2019 an. Danach werden wir den Datensatz regelmäßig mit neuen Sprachen und Sprachclips aktualisieren, sobald sie verfügbar sind. Ein iterativer Rhythmus der Veröffentlichungen steht noch nicht fest.
+faq-when-release2-q = Wann werden Sie Common-Voice-Daten in anderen Sprachen veröffentlichen?
+faq-when-release2-a = Die mehrsprachige Version des Common-Voice-Datasatzes wird derzeit von der Gemeinschaft unterstützt gebündelt und bereinigt. Wenn Sie uns dabei helfen möchten, Common Voice in neue Sprachen zu überführen, besuchen Sie das <sentenceCollectorLink>Satzsammlungs-Werkzeug</sentenceCollectorLink>, um dem Datensatz neue Sätze hinzuzufügen, und Mozilla <pontoonLink>Pontoon</pontoonLink>, um die Website selbst zu übersetzen. Common Voice wird um neue Sprachen für Sprachbeiträge erweitert, wenn 5&thinsp;000 freigeschaltete Sätze gesammelt wurden.
 faq-why-mission-q = Warum ist Common Voice Teil der Mozilla-Mission?
 faq-why-mission-a = Mozilla hat es sich zum Ziel gesetzt, das Internet für jedermann offen und zugänglich zu halten. Um dies zu erreichen, müssen Web-Ersteller durch Projekte wie Common Voice unterstützt werden. Da Sprachtechnologien über Nischenanwendungen hinaus wachsen, glauben wir, dass sie alle Benutzer gleichermaßen bedienen müssen. Das bedeutet, in mehr Sprachen zu investieren und unterschiedliche Akzente und Demografien beim Aufbau und Testen von Sprachtechnologien zu berücksichtigen. Common Voice ist eine öffentliche Ressource, die allen zur Verfügung steht, und Mozilla-Teams und -Entwickler auf der ganzen Welt verwenden sie bereits für unsere eigenen Projekte.
 faq-what-cv-and-deepspeech-q = Was ist der Unterschied zwischen Common Voice und Deep Speech?
@@ -583,7 +585,7 @@ localized = Übersetzt
 sentences = Sätze
 total-hours = Stdn. bestätigt
 
-## New Contribution
+## Contribution
 
 action-click = klicken
 action-tap = antippen
@@ -612,7 +614,6 @@ record-again-instruction = Toll! <recordIcon></recordIcon> Nehmen Sie jetzt noch
 record-again-instruction2 = Weiter so, <recordIcon></recordIcon> erneut aufnehmen
 record-last-instruction = <recordIcon></recordIcon> Einmal noch!
 review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
-unable-speak = Ich kann gerade nicht reden
 review-instruction = Falls nötig, prüfen & neu aufnehmen
 record-submit-tooltip = Senden { $actionType }, wenn Sie fertig sind
 clips-uploaded = Aufzeichnungen hochgeladen
@@ -628,6 +629,29 @@ listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 nothing-to-validate = Es gibt momentan nichts mehr in dieser Sprache, was Sie bestätigen könnten, bitte helfen Sie uns, indem Sie die Warteschlange wieder auffüllen.
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
+keep-track-profile = Verfolgen Sie Ihren Fortschritt mit einem Profil
+login-to-get-started = Melden Sie sich an oder registrieren Sie sich, um loszulegen
+
+## Reporting
+
+report = Melden
+report-title = Eine Meldung einreichen
+report-ask = Welche Probleme haben Sie mit diesem Satz?
+report-offensive-language = Beleidigende Sprache
+report-offensive-language-detail = Der Satz beinhaltet respektlose oder beleidigende Sprache.
+report-grammar-or-spelling = Grammatik- / Rechtschreibfehler
+report-grammar-or-spelling-detail = Der Satz beinhaltet einen grammatikalischen oder Rechtschreibfehler.
+report-different-language = Andere Sprache
+report-different-language-detail = Der Satz ist in einer Sprache geschrieben, die ich nicht spreche.
+report-difficult-pronounce = Schwer auszusprechen
+report-difficult-pronounce-detail = Es enthält Wörter oder Ausdrücke, die schwer zu lesen oder auszusprechen sind.
+report-offensive-speech = Anstößige Rede
+report-offensive-speech-detail = Der Satz beinhaltet eine respektlose oder anstößige Sprache.
+report-other-comment =
+    .placeholder = Kommentar
+success = Geschafft
+continue = Weiter
+report-success = Die Meldung wurde erfolgreich abgesendet
 
 ## Goals
 

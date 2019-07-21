@@ -7,7 +7,7 @@ interface ButtonConfig {
   [name: string]: () => any;
 }
 
-interface Props {
+export interface ModalProps {
   buttons?: ButtonConfig;
   children?: React.ReactNode;
   innerClassName?: string;
@@ -23,7 +23,7 @@ export default ({
   children,
   innerClassName = '',
   ...props
-}: Props) => (
+}: ModalProps) => (
   <Modal
     isOpen={true}
     contentLabel="modal"

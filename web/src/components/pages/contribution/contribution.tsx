@@ -23,6 +23,7 @@ import {
 import { Button } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
+import { ReportButton, ReportModal, ReportModalProps } from './report/report';
 import Success from './success';
 import Wave from './wave';
 
@@ -47,7 +48,7 @@ interface PropsFromState {
 interface Props extends LocalizationProps, PropsFromState {
   activeIndex: number;
   errorContent?: any;
-  extraButton?: React.ReactNode;
+  reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
   instruction: (props: {
     $actionType: string;
     children: any;
@@ -71,6 +72,7 @@ interface Props extends LocalizationProps, PropsFromState {
 
 interface State {
   selectedPill: number;
+  showReportModal: boolean;
   showShareModal: boolean;
   showShortcutsModal: boolean;
 }
@@ -82,6 +84,7 @@ class ContributionPage extends React.Component<Props, State> {
 
   state: State = {
     selectedPill: null,
+    showReportModal: false,
     showShareModal: false,
     showShortcutsModal: false,
   };
@@ -174,7 +177,15 @@ class ContributionPage extends React.Component<Props, State> {
       onSubmit,
       type,
     } = this.props;
-    if (event.ctrlKey || event.altKey || event.shiftKey) return;
+
+    if (
+      event.ctrlKey ||
+      event.altKey ||
+      event.shiftKey ||
+      this.state.showReportModal
+    ) {
+      return;
+    }
 
     const isEnter = event.key === 'Enter';
     if (isSubmitted && isEnter) {
@@ -199,18 +210,17 @@ class ContributionPage extends React.Component<Props, State> {
     event.preventDefault();
   };
 
-  private handleSkip = () => {
-    const { locale, onSkip, type } = this.props;
-    ((type === 'listen' ? trackListening : trackRecording) as any)(
-      'skip',
-      locale
-    );
-    onSkip();
-  };
-
   render() {
-    const { errorContent, getString, isSubmitted, type, user } = this.props;
-    const { showShareModal, showShortcutsModal } = this.state;
+    const {
+      errorContent,
+      getString,
+      isSubmitted,
+      onSkip,
+      reportModalProps,
+      type,
+      user,
+    } = this.props;
+    const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
     return (
       <div
@@ -235,6 +245,13 @@ class ContributionPage extends React.Component<Props, State> {
               ))}
             </div>
           </Modal>
+        )}
+        {showReportModal && (
+          <ReportModal
+            onRequestClose={() => this.setState({ showReportModal: false })}
+            onSubmitted={onSkip}
+            {...reportModalProps}
+          />
         )}
         <div
           className={[
@@ -295,7 +312,6 @@ class ContributionPage extends React.Component<Props, State> {
     const {
       activeIndex,
       errorContent,
-      extraButton,
       getString,
       instruction,
       isFirstSubmit,
@@ -419,7 +435,11 @@ class ContributionPage extends React.Component<Props, State> {
                     <span />
                   </Localized>
                 </Button>
-                <div className="extra-button">{extraButton}</div>
+                <div className="extra-button">
+                  <ReportButton
+                    onClick={() => this.setState({ showReportModal: true })}
+                  />
+                </div>
               </div>
               <div>
                 <Button

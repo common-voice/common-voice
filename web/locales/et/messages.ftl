@@ -8,8 +8,10 @@ email-input =
     .label = E-posti aadress
 submit-form-action = Saada
 loading = Laadimine…
+email-opt-in-info = Soovin saada e-kirju eesmärkide meeldetuletuste ja edenemise uuendustega ning uudiskirju Common Voice'i kohta.
 email-opt-in-privacy = Lubades saata endale e-kirju, nõustud ühtlasi sellega, et Mozilla kasutab seda infot nii, nagu on kirjeldatud <privacyLink>Privaatsuspoliitikas<privacyLink>.
 indicates-required = * tähistab kohustuslikku välja
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,12 +19,17 @@ indicates-required = * tähistab kohustuslikku välja
 
 ## Languages
 
+ab = abhaasi
 ace = atšehi
+ady = adõgee
+af = afrikaani
+am = amhara
 an = aragoni
 ar = araabia
 as = assami
 ast = astuuria
 az = aserbaidžaani
+ba = baškiiri
 bg = bulgaaria
 bn = bengali
 br = bretooni
@@ -36,6 +43,7 @@ cy = kõmri
 da = taani
 de = saksa
 dsb = alasorbi
+dv = maldiivi
 el = kreeka
 en = inglise
 eo = esperanto
@@ -43,29 +51,42 @@ es = hispaania
 et = eesti
 eu = baski
 fa = pärsia
+ff = fulbe
 fi = soome
 fo = fääri
 fr = prantsuse
 fy-NL = friisi
 ga-IE = iiri
+gl = galeegi
+ha = hausa
 he = heebrea
+hi-IN = hindi
+hr = horvaadi
 hsb = ülemsorbi
 hu = ungari
 ia = interlingua
 id = indoneesia
 is = islandi
 it = itaalia
+izh = isuri
 ja = jaapani
 ka = gruusia
 kab = kabiili
 kk = kasahhi
 ko = korea
 kpv = sürjakomi
+ku = kurdi
 kw = korni
 ky = kirgiisi
+lij = liguuri
+lt = leedu
+lv = läti
 mdf = mokša
+mhr = niidumari
 mk = makedoonia
+ml = malajalami
 mn = mongoolia
+mrj = mäemari
 myv = ersa
 nb-NO = norra (bokmåli)
 ne-NP = nepaali
@@ -78,8 +99,10 @@ pt-BR = portugali (brasiilia)
 rm-sursilv = romanši (surselva)
 ro = rumeenia
 ru = vene
+rw = kinyarwanda
 sah = jakuudi
 sc = sardiinia
+si = singali
 sk = slovaki
 sl = sloveeni
 sq = albaania
@@ -87,13 +110,17 @@ sr = serbia
 sv-SE = rootsi
 ta = tamili
 te = telugu
+tg = tadžiki
 th = tai
 tr = türgi
 tt = tatari
+uby = ubõhhi
+udm = udmurdi
 uk = ukraina
 ur = urdu
 uz = usbeki
 vi = vietnami
+vot = vadja
 zh-CN = hiina (Hiina)
 zh-HK = hiina (Hong Kong)
 zh-TW = hiina (Hiina Vabariik)
@@ -107,6 +134,7 @@ speak = Räägi
 speak-now = Räägi nüüd
 datasets = Andmestikud
 languages = Keeled
+about = Teave
 profile = Profiil
 help = Abi
 contact = Kontakt
@@ -170,6 +198,7 @@ x-years-short =
 help-make-dataset = Aita meil luua kvaliteetne ja kõigile avalik andmestik
 profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem
 sign-up-account = Loo konto
+email-subscription-title = telli endale uuendused e-postiga
 
 ## Account Benefits
 
@@ -183,6 +212,7 @@ join-newsletter = Projekti kohta värske info saamiseks võid liituda meie meili
 
 ## What's public
 
+whats-public = Mis on avalik?
 email-not-public = Me ei avalikusta sinu e-posti aadressi.
 recordings-and-locale-public = Salvestiste arv ja teave selle kohta, milliste keelte andmetesse panustamises oled osalenud, on avalik.
 username-optin-public = Saad valida, kas sinu kasutajanimi on avalik või anonüümne.
@@ -214,6 +244,7 @@ shortcut-vote-no = E
 shortcut-record-toggle = a
 shortcut-record-toggle-label = Salvesta/Peata
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Salvesta uuesti
 request-language-text = Kas sa ei leia veel oma keelt Common Voice projektis?
 request-language-button = Esita soov keele lisamiseks
 
@@ -284,12 +315,14 @@ skip-submission-note = Märkus: panustamise tüübi muutmiseks tuleb valida "rä
 off = Väljas
 on = Sees
 add-avatar-title = Lisa oma profiilile avatar
+add-avatar-clip = Lisa oma profiilile avatarsalvestis
 browse-file-title = Laadi üles pilt
 browse-file = Lohista siia või <browseWrap>sirvi faile</browseWrap>
 connect-gravatar = Ühenda Gravatariga
 gravatar_not_found = Selle e-posti aadressiga pole seotud ühtki gravatari
 file_too_large = Valitud fail on liiga suur
 manage-subscriptions = Halda tellimusi
+manage-email-subscriptions = Halda e-posti tellimusi
 email-already-used = See e-posti aadress on juba kasutuses teise konto jaoks
 add-language = Lisa keel
 change-email-setings = Muuda oma e-posti aadressi menüü Sätted valikus Kasutajatunnus.
@@ -298,12 +331,23 @@ change-email-setings = Muuda oma e-posti aadressi menüü Sätted valikus Kasuta
 
 faq-title = Korduma kippuvad küsimused
 faq-what-cv-q = Mis on Common Voice?
+faq-what-cv-a =
+    Hääletuvastuse tehnoloogia muudab kardinaalselt viisi, kuidas me masinatega suhtleme, kuid olemasolevad süsteemid on kallid ja suletud lähtekoodiga. Common Voice on osa Mozilla algatusesest, mille eesmärgiks on parandada kõnetuvastust ja selle kättesaadavust. Common Voice on suuremahuline ülemaailmne annetatud häälte andmebaas, mis võimaldab igaühel kiiresti ja lihtsalt treenida kõnepõhiseid rakendusi kõigi keelte jaoks.
+    
+    Me ei kogu mitte ainult suure kasutajaskonnaga, vaid ka nn väiksemate keelte hääleandmeid. Paljukeelse andmestiku avaldamine võimaldab arendajatel, ettevõtjatel ja kogukondadel ise vähendada suurte ja väikeste keelte vahelist tehnoloogilist lõhet. Lisaks Common Voice'i andmekogumile loome ka avatud lähtekoodiga kõnetuvastusmootori Deep Speech.
 faq-why-important-q = Miks on see tähtis?
+faq-why-important-a =
+    Kõne on kõige loomulikum viis inimestevaheliseks suhtluseks ja kõnetehnoloogia toob selle loomulikkuse ka meie arvutitesse ja mobiilsetesse seadmetesse. Tahame võimaldada arendajatel luua suurepäraseid kõnetuvastusel põhinevaid rakendusi nagu reaalajas toimiv masintõlge ja kõnekomponendiga digitaalsed abilised. Kuid praegu on selliste rakenduste loomiseks vajalikud kõneandmebaasid tavaliselt kallid ja suletud. Loodame, et Common Voice'i andmestik pakub arendajatele vajaliku, et teha kõnetehnoloogia kättesaadavaks nende omas keeles.
+    
+    Kogume kõneandmeid nii suure kõnelejaskonnaga kui ka väiksemates keeltes, viimaste jaoks puuduvad sageli kommertskõnetuvastussüsteemid. Mitmekesise ja mitmekeelse kõneandmestiku avaldamine annab arendajatele, ettevõtjatele ja keelekogukondadele võimaluse ise need kõnetuvastussüsteemid luua.
 faq-how-get-q = Kuidas ma saaksin endale Common Voice'i andmestikke?
 faq-how-get-a = Common Voice'i andmestik on allalaaditav <licenseLink>CC0</licenseLink> litsentsiga <datasetLink>meie andmestike lehelt</datasetLink>. Samalt lehelt saad alla laadida ka teisi avalikult kasutatavaid andmestikke.
 faq-when-release-q = Millal avaldate Common Voice'i teiste keelte andmestikud?
+faq-when-release-a = Common Voice'i andmekogumi mitmekeelset versiooni luuakse ja korrastatakse praegu kogukonna toel. Kui tahad rohkem teada selle kohta, kuidas saaks projekti toetada,  <contactLink>võta meiega ühendust</contactLink>. Meie eesmärgiks praegu on avaldada andmekogum jaanuaris 2019. Pärast seda täiendame perioodiliselt materjali uute keelte ja salvestistega.  Kui tihti uuendatud andmekogumit avaldama hakatakse, pole veel otsustatud.
 faq-why-mission-q = Miks on Common Voice osa Mozilla missioonist?
+faq-why-mission-a = Mozilla eesmärgiks on hoida Internet vaba ja üldkasutatavana. Selle jaoks on meil vaja toetada veebiarendajaid selliste projektidega nagu Common Voice. Kui kõnetehnoloogia muutub üldkasutatavaks, peaks ta meie arvates olema üldkasutatav kõigile. Seetõttu tuleb meil panustada kõnetehnoloogia arendamisel ja testimisel suurema hulga keelte ja keelevariantide kaasamisse. Common Voice on kõigile avatud ressurss ning Mozilla töörühmad ja arendajad üle maailma juba kasutavad seda ka oma projektide jaoks.
 faq-what-cv-and-deepspeech-q = Mis vahe on Common Voice'il ja Deep Speech'il?
+faq-what-cv-and-deepspeech-a = Common Voice'i andmekogu täiendab Mozilla avatud lähtekoodiga kõnetuvastuse mootorit Deep Speech. Deep Speechi esimene versioon avaldati 2017. aasta novembris ja seda on sellest ajast peale ka edasi arendatud. Usume, et see avatud lähtekoodiga kõnetuvastuse tehnoloogia peaks olema kättesaadav kõigile koos Common Voice'i andmekoguga. Loodame, et need tehnoloogiad võimaldavad arendajatel ehitada uuenduslikke tooteid ja teenuseid.
 faq-is-goal-assistant-q = Kas Common Voice'i eesmärgiks on luua häälassistent?
 faq-is-goal-assistant-a = Common Voice'i andmekogu eesmärk on võimaldada igaühel ehitada kõnetuvastus- või kõnelejatuvastussüsteem või ükskõik milline muu kõneandmeid vajav rakendus. Häälassistent on vaid üks võimalik rakendus.
 faq-do-want-native-q = Ma ei räägi seda keelt emakeelena ning mul on aktsent. Kas te ikka tahate minu häält?
@@ -311,18 +355,30 @@ faq-do-want-native-a = Jah, me tahame eriti teie häält! Common Voice'i eesmär
 faq-why-different-speakers-q = Miks vajate iga keele kohta nii palju erinevaid kõnelejaid?
 faq-why-different-speakers-a = Enamikus kõneandmebaasides on teatud demograafilistele tunnustele vastavate inimeste andmed üle-esindatud, mille tulemusena on kõnetuvastussüsteemid kaldu <articleLink> meeste ja keskklassi </articleLink> poole. Aktsendiga ja murdeline kõne, mis seostuvad marginaliseerunud inimrühmadega, on sageli sellistes andmebaasides alaesindatud. Paljudel kõnetuvastussüsteemidel on raskusi ka naishäälte tuvastamisega. Sellepärast me tahame, et meie andmekogud oleksid mitmekesised.
 faq-why-my-lang-q = Miks minu keelt pole veel kaasatud?
+faq-why-my-lang-new-a = Mozilla ei eelista ühtki keelt teistele. Common Voice on hoopis täielikult kogukonnapõhine algatus. Sellegi poolest on uue keele lisamiseks ja salvestiste kogumiseks vaja läbida <multilangLink>mitu sammu</multilangLink>. Esiteks tuleb Common Voice'i veeb tõlkida kohalikku keelde, nii et kogukonna liikmed saaksid luua salvestisi omas keeles. Järgmiseks vajame me suurt hulka autoriõigustest vabu lauseid, mida inimesed saaksid salvestistesse sisse lugeda. Kui mõlemad nõuded on täidetud, siis tehakse keel "avalikuks" Common Voice'i saidil ning inimesed saavad alustada oma hääle salvestamise ja teiste annetuste kontrollimisega. Kui soovid kaasa aidata uue keele lisamisel, siis suundu meie <sentenceCollectorLink>lausete kogumise tööriista lehele</sentenceCollectorLink> ja tee algust.
 faq-what-quality-q = Milline peab olema kõnesalvestise kvaliteet, et seda saaks andmekogus kasutada?
+faq-what-quality-a = Kuna me tahame, et Common Voice'i andmekogu kajastaks helikvaliteeti, millega kõnetuvastussüsteemil tuleb päris elus tegemist teha, siis taotleme me mitmekesisust. Lisaks mitmekesisele kõnelejaskonnale ka erineva kvaliteediga lindistusi sisaldav andmekogu õpetab kõnetuvastussüsteemile erinevate taustahelidega, nt liiklusmüra või vestlushäältega, toimetulemist. Kuni sinu helilõik on arusaadav, peaks ta olema ka piisavalt hea andmekogu jaoks.
 faq-why-10k-hours-q = Miks on eesmärgiks 10 000 tundi kontrollitud kõnenäiteid iga keele jaoks?
 faq-why-10k-hours-a = Sest umbes nii palju kõnetunde on vaja kõnetuvastussüsteemi treenimiseks.
 faq-how-calc-hours-q = Kuidas Common Voice tunde arvestab?
 faq-how-calc-hours-a = Arvutame tunde hinnates salvestuste keskmist pikkust ja korrutades selle numbri kõigi keelte salvestuste koguarvuga.
 faq-where-src-from-2-q = Kust etteloetavad tekstid tulevad?
+faq-where-src-from-2-a =
+    Meie laused on kokku pandud kogukonna annetustest ja samuti avaliku omandi filmide nagu <italic>It’s a Wonderful Life</italic> stsenaariumite dialoogidest.
+    
+    Sa võid vaadata meie lauseid järgnevast <githubLink>GitHubi kataloogist</githubLink>.
 faq-why-not-ask-read-q = Miks te ei lase inimestel ette lugeda raamatuid või Vikipeedia artikleid?
+faq-why-not-ask-read-a = Selleks, et muuta Common Voice'i andmekogu võimalikult kasulikuks, oleme otsustanud lubada ettelugemiseks ainult sellise allika teksti, mis on saadaval Creative Commons (CC0) litsentsi alusel. CC0 standardi kasutamine tähendab seda, et lähtetekstide leidmine ja kogumine on raskem, kuid see võimaldab igaühel kasutada saadud hääleandmeid ilma kasutuspiirangute või Mozilla loata. Lõppkokkuvõttes tahame, et mitmekeelne andmestik oleks võimalikult kasulik kõigile, sealhulgas teadlastele, ülikoolidele, alustavatele ettevõtetele, valitsustele, mittetulundusühingutele ja harrastajatele.
 faq-why-account-q = Miks ma peaksin konto registreerima?
 faq-is-account-public-q = Kas minu konto teave on avalik?
 faq-how-privacy-q = Kuidas tagate oma hääle annetanud inimeste anonüümsuse ja privaatsuse?
 faq-how-privacy-a = Kõigist andmestikus olevatest heliklippidest eemaldatakse isikuandmed. Kui osaleja esitab oma profiili kaudu demograafilisi andmeid, eemaldatakse see teave tema häälklippidest enne, kui need allalaadimiseks kokku pakitakse ja seda ei avaldata kunagi tema profiililehel.
 faq-what-determine-identity-q = Mida tähendab, et "kõnelejat ei saa tuvastada" Common Voice'i andmekogus?
+faq-what-determine-identity-a =
+    Common Voice on avatud ja avalikult kättesaadav ressurss, mida saab kasutada mitmesuguste kõnesid toetavate rakenduste treenimiseks. Meie osalejate turvalisuse kaitsmiseks palume kõigil, kes laadivad ühise häälandmebaasi, austada osalejate privaatsust.
+    
+    Kõik andmefailis olevad salvestised puhastatakse isikut tuvastavast teabest. Andmekogumi allalaadimisel nõustute, et te ei püüa kindlaks määrata mis tahes osaleja identiteeti. See tähendab, et te ei tohi proovida andmestikus sisalduvat teavet siduda isikuandmetega. Te võite siiski kasutada andmestikku kõnetuvastuse, kõnelejatuvastamise või muude rakenduste treenimiseks, näiteks sidudes andmekogumis oleva teabe teiste andmekogumis sisalduvate andmetega.
+faq-what-is-cv = Mis on Common Voice?
 
 ## ABOUT US
 
@@ -375,9 +431,15 @@ review-cancel = Tühista saatmine
 review-keep-recordings = Jäta salvestised alles
 review-delete-recordings = Kustuta mu salvestised
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Me ehitame avatud ligipääsuga mitmekeelset häälte kogumit, mida igaüks saab kasutada kõnetehnoloogiliste rakenduste loomiseks.
+datasets-positioning =
+    Usume, et suured, avalikult kättesaadavad häälandmestikud soodustavad innovatsiooni ja tervislikku kaubanduslikku konkurentsi masinõppepõhises kõnetehnoloogias.
+    
+    Common Voice'i mitmekeelne andmestik on juba suurim avalikult kättesaadav omalaadne häälandmebaas, kuid see ei ole ainus.
+    
+    Vaadake seda lehte teiste avatud lähtekoodiga hääleandmete kogumite võrdlusuuringute koondpunktina ning kui Common Voice kasvab jätkuvalt, samuti ka meie versiooniuuenduste koduna.
 language = Keel
 # File size in gigabytes
 size = Suurus
@@ -388,12 +450,21 @@ audio-format = Heliformaat
 number-of-voices = Häälte arv
 splits = Jaotused
 email-to-download = Sisesta allalaadimiseks e-posti aadress
+why-email = <b>Miks e-post?</b> Võib juhtuda, et peame tulevikus sinuga ühendust võtma, et anda infot muutustest meie andmekogus, ning siis on meil sinu kontaktinfo olemas.
+confirm-size = Oled valmis alustama allalaadimist suuruses <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Sa nõustud</b>, et ei ürita kindlaks määrata kõnelejate identiteeti Common Voice andmekogus
+download-language = Laadi alla { $language } keel
 validated-hours = Kontrollitud tunde
 recorded-hours = Salvestatud tunde
 whats-inside = Mis on Common Voice'i andmekogu sees?
+want-dataset-update = Kas soovid saada teadet, kui me avaldame Common Voice'i uusi versioone? Telli meie uudiskiri.
+subscribe = Telli
+get-started-speech = Tee algust kõnetuvastusega
+other-datasets = Muud häälandmestikud
 feedback-q = Sul on tagasisidet?
+deepspeech-info = Common Voice andmestik tuleb koos Mozilla avatud ligipääsuga kõnetuvastuse mootoriga Deep Speech, mida saate kasutada kõnetuvastusrakenduste loomiseks. Lugege meie <githubLink>Githubi ülevaadet</githubLink> või liituge <discourseLink>DeepSpeechi foorumitega</discourseLink>, et teada saada, kuidas alustada võib.
 data-other-librispeech-description = LibriSpeech on kõneandmestik, mis koosneb umbes 1000st tunnist 16Khz kvaliteediga salvestatud ingliskeelsest kõnest, mis on saadud LibriVoxi projekti audioraamatutest.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus koosneb audio kõnedest ja nende transkriptsioonidest, mis on kättesaadavad TEDi veebilehel.
@@ -479,7 +550,6 @@ record-again-instruction = Suurepärane! <recordIcon></recordIcon> Salvesta jär
 record-again-instruction2 = Jätka samas vaimus, salvesta uuesti <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> viimane!
 review-tooltip = Kontrolli ja salvesta üle asja käigus.
-unable-speak = Ei saa hetkel rääkida?
 review-instruction = Kontrolli ja vajadusel salvesta üle
 record-submit-tooltip = { $actionType } saada, kui valmis
 clips-uploaded = Üles laaditud salvestised
@@ -495,6 +565,9 @@ listen-last-time-instruction = <playIcon></playIcon> Viimane!
 nothing-to-validate = Meil pole midagi kontrollida selles keeles, aita meil järjekorda täita.
 record-button-label = Salvesta oma hääl
 share-title-new = <bold>Aita meil</bold> leida rohkem hääli
+
+## Reporting
+
 
 ## Goals
 
@@ -536,3 +609,7 @@ overall-accuracy = Üldine korrektsus
 keep = Säilita
 remove = Kustuta
 profile-form-delete = Kustuta profiil
+
+## Landing
+
+profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem

@@ -52,7 +52,9 @@ const TopBar = ({ history }: RouteComponentProps) => {
     };
   }, []);
 
-  const unseenAwards = account.awards.filter(a => !a.seen_at).length;
+  const unseenAwards = account
+    ? account.awards.filter(a => !a.seen_at).length
+    : 0;
 
   const locales = [ALL_LOCALES].concat(
     (account ? account.locales : []).map(({ locale }) => locale)

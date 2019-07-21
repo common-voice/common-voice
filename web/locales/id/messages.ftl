@@ -97,6 +97,7 @@ or = Bahasa Oriya
 pl = Bahasa Polandia
 pt-BR = Bahasa Portugis (Brasil)
 rm-sursilv = Bahasa Romansh Sursilvan
+rm-vallader = Bahasa Romansh Vallader
 ro = Bahasa Rumania
 ru = Bahasa Rusia
 rw = Bahasa Kinyarwanda
@@ -108,6 +109,7 @@ sl = Bahasa Slovenia
 sq = Bahasa Albania
 sr = Bahasa Serbia
 sv-SE = Bahasa Swedia
+syr = Bahasa Suryani
 ta = Bahasa Tamil
 te = Bahasa Telugu
 tg = Bahasa Tajik
@@ -313,6 +315,7 @@ skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Deng
 off = Nonaktif
 on = Aktif
 add-avatar-title = Tambahkan avatar ke profil Anda
+add-avatar-clip = Tambahkan klip avatar ke profil Anda
 browse-file-title = Unggah berkas gambar
 browse-file = Seret dan lepas atau <browseWrap>Telusuri</browseWrap>
 connect-gravatar = Sambungkan ke Gravatar
@@ -404,8 +407,8 @@ about-yes-votes = ≥ 2 pilihan Ya
 about-yes-votes-text = Supaya diterima dalam himpunan data Common Voice, klip suara harus divalidasi oleh dua pengguna berbeda.
 about-no-votes = ≥ 2 pilihan Tidak
 about-no-votes-text = Ketika ditolak oleh pengguna, klip suara akan kembali ke Antrean. Apabila ditolak lagi, klip suara akan dialihkan ke Kober Klip.
-about-dataset = Himpunan Data Common Voice
-about-dataset-text = Ketika ditolak oleh pengguna, klip suara akan kembali ke Antrean. Apabila ditolak lagi, klip suara akan dialihkan ke Kober Klip.
+about-dataset-new = Himpunan Data Common Voice
+about-dataset-new-text = Himpunan Data Common Voice berisi ratusan ribu sampel suara yang membantu para pengembang membangun peralatan pengenalan suara.
 about-clip-graveyard = Kober Klip
 about-clip-graveyard-text = Kober Klip terdiri dari klip suara yang ditolak masuk ke himpunan data Common Voice. Sebagaimana himpunan data, Kober Klip juga tersedia untuk diunduh.
 about-partners = Mitra
@@ -479,7 +482,7 @@ review-cancel = Batalkan Pengajuan
 review-keep-recordings = Simpan rekaman
 review-delete-recordings = Hapus rekaman saya
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Kami membuat kumpulan data multi-bahasa dan sumber terbuka yang dapat digunakan siapa pun untuk melatih aplikasi yang berkemampuan-bicara.
 datasets-positioning =
@@ -531,6 +534,7 @@ ready-to-validate = Siap membantu validasi kalimat?
 more = Lainnya
 close = Tutup
 download = Unduh
+dataset-version = Versi
 
 ## Download Modal
 
@@ -608,7 +612,6 @@ record-again-instruction = Hebat! <recordIcon></recordIcon> Rekam klip Anda beri
 record-again-instruction2 = Lanjut terus, rekam lagi <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> Yang terakhir!
 review-tooltip = Tinjau & rekam ulang klip di sini selagi melanjutkan
-unable-speak = Tidak bisa berbicara sekarang
 review-instruction = Tinjau & rekam ulang klip jika perlu
 record-submit-tooltip = { $actionType } kirimkan jika sudah siap
 clips-uploaded = Klip Diunggah
@@ -624,6 +627,27 @@ listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
 nothing-to-validate = Kami tidak memiliki apa pun untuk divalidasi dalam bahasa ini, bantu kami mengisi antreannya.
 record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
+
+## Reporting
+
+report = Laporkan
+report-title = Kirim laporan
+report-ask = Apa masalah yang Anda alami dengan kalimat ini?
+report-offensive-language = Bahasa yang menghina
+report-offensive-language-detail = Kalimat memiliki bahasa yang tidak sopan atau menghina.
+report-grammar-or-spelling = Kesalahan tata bahasa / ejaan
+report-grammar-or-spelling-detail = Kalimat memiliki kesalahan tata bahasa atau ejaan.
+report-different-language = Bahasa yang berbeda
+report-different-language-detail = Ditulis dalam bahasa yang berbeda dari apa yang saya ucapkan.
+report-difficult-pronounce = Sulit diucapkan
+report-difficult-pronounce-detail = Kalimat ini berisi kata atau frasa yang sulit dibaca atau diucapkan.
+report-offensive-speech = Ujaran yang menghina
+report-offensive-speech-detail = Klip memiliki bahasa yang tidak sopan atau menghina.
+report-other-comment =
+    .placeholder = Komentar
+success = Berhasil
+continue = Lanjut
+report-success = Laporan berhasil diteruskan
 
 ## Goals
 

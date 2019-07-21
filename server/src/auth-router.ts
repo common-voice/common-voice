@@ -1,3 +1,4 @@
+import { parse as parseURL } from 'url';
 import { AES, enc } from 'crypto-js';
 const Auth0Strategy = require('passport-auth0');
 import { Request, Response } from 'express';
@@ -95,13 +96,14 @@ if (DOMAIN) {
 router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
-  async ({ user, query, session }: Request, response: Response) => {
+  async ({ user, query: { state }, session }: Request, response: Response) => {
+    const { locale, old_user, old_email } = JSON.parse(
+      AES.decrypt(state, SECRET).toString(enc.Utf8)
+    );
+    const basePath = locale ? '/' + locale + '/' : '/';
     if (!user) {
-      response.redirect('/login-failure');
-    } else if (query.state) {
-      const { old_user, old_email } = JSON.parse(
-        AES.decrypt(query.state, SECRET).toString(enc.Utf8)
-      );
+      response.redirect(basePath + 'login-failure');
+    } else if (old_user) {
       const success = await UserClient.updateSSO(
         old_email,
         user.emails[0].value
@@ -111,24 +113,31 @@ router.get(
       }
       response.redirect('/profile/settings?success=' + success.toString());
     } else {
-      response.redirect('/login-success');
+      response.redirect(basePath + 'login-success');
     }
   }
 );
 
 router.get('/login', (request: Request, response: Response) => {
-  const { user, query } = request;
+  const { headers, user, query } = request;
+  let locale = '';
+  if (headers.referer) {
+    const pathParts = parseURL(headers.referer).pathname.split('/');
+    locale = pathParts[1] || '';
+  }
   passport.authenticate('auth0', {
-    state:
-      user && query.change_email !== undefined
-        ? AES.encrypt(
-            JSON.stringify({
+    state: AES.encrypt(
+      JSON.stringify({
+        locale,
+        ...(user && query.change_email !== undefined
+          ? {
               old_user: request.user,
               old_email: user.emails[0].value,
-            }),
-            SECRET
-          ).toString()
-        : '',
+            }
+          : {}),
+      }),
+      SECRET
+    ).toString(),
   } as any)(request, response);
 });
 

@@ -431,7 +431,7 @@ a.small,
     left: 0;
     right: 0;
     height: 5px;
-    z-index: var(--middle-z-index);
+    z-index: 3;
     background: linear-gradient(270deg, #e5868b, #a2a4d1);
     background-size: 400% 400%;
     animation: move-background 2s ease infinite;

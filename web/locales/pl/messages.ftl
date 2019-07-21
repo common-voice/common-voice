@@ -97,6 +97,7 @@ or = orija
 pl = polski
 pt-BR = portugalski (Brazylia)
 rm-sursilv = retoromański (sursilvan)
+rm-vallader = retoromański (vallader)
 ro = rumuński
 ru = rosyjski
 rw = kinyarwanda
@@ -108,6 +109,7 @@ sl = słoweński
 sq = albański
 sr = serbski
 sv-SE = szwedzki
+syr = syryjski
 ta = tamilski
 te = telugu
 tg = tadżycki
@@ -346,8 +348,8 @@ faq-why-important-a =
     Aby rozpoznawanie głosu stało się jeszcze bardziej uniwersalne, zbieramy próbki głosu w powszechnie używanych językach, a także tych z mniejszą liczbą użytkowników, które często nie są obsługiwane przez komercyjne usługi rozpoznawania mowy. Opublikowanie różnorodnego zbioru głosów umożliwi deweloperom, przedsiębiorcom i całym społecznościom danego języka wypełnienie tej przestrzeni samodzielnie.
 faq-how-get-q = Jak mogę pobrać dane z Common Voice?
 faq-how-get-a = Zbiór danych Common Voice jest dostępny do pobrania w ramach licencji <licenseLink>CC0</licenseLink> na <datasetLink>naszej stronie zbioru danych</datasetLink>. Z tej samej strony można pobrać także kilka innych publicznie dostępnych zbiorów danych.
-faq-when-release-q = Kiedy wydacie dane Common Voice w innych językach?
-faq-when-release-a = Wielojęzyczna wersja zbioru danych Common Voice jest obecnie na etapie pakietowania i oczyszczania przy wsparciu społeczności. Jeśli chcesz dowiedzieć się więcej o wspieraniu tych działań, <contactLink>skontaktuj się z nami</contactLink>. Naszym obecnym celem jest publikacja w styczniu 2019 r. Następnie będziemy okresowo aktualizować zbiór o nowe języki i nagrania, gdy staną się dostępne. Częstotliwość iteracyjnego cyklu publikowania aktualizacji nie została jeszcze ustalona.
+faq-when-release2-q = Kiedy zostaną wydane dane Common Voice w innych językach?
+faq-when-release2-a = Wielojęzyczna wersja zbioru danych Common Voice obecnie przechodzi wspierany przez społeczność proces zbierania i czyszczenia. Jeśli chcesz pomóc dodać nowy język do Common Voice, to wypróbuj <sentenceCollectorLink>Narzędzie do zbierania zdań</sentenceCollectorLink> służące do dodawania nowych zdań do zbioru oraz serwis <pontoonLink>Pontoon</pontoonLink> Mozilli służący do tłumaczenia samej strony. Możliwość nagrywania w nowym języku jest dodawana do Common Voice po zebraniu 5000 zatwierdzonych zdań.
 faq-why-mission-q = Dlaczego Common Voice jest częścią misji Mozilli?
 faq-why-mission-a = Celem Mozilli jest Internet otwarty i dostępny dla wszystkich. Aby to osiągnąć, musimy dać twórcom sieci więcej możliwości przez projekty takie jak Common Voice. Technologie rozpoznawania mowy rozwijają się poza pierwotną niszę, a my wierzymy, że muszą one służyć wszystkim użytkownikom w tym samym stopniu. Oznacza to inwestycję w większą liczbę języków, akcentów i grup ludzi podczas budowania i testowania technologii rozpoznawania mowy. Common Voice jest publicznym zasobem dostępnym dla wszystkich, a zespoły Mozilli i deweloperzy na całym świecie już używają go także w naszych projektach.
 faq-what-cv-and-deepspeech-q = Jaka jest różnica między Common Voice a Deep Speech?
@@ -586,7 +588,7 @@ localized = Przetłumaczone
 sentences = Zdania
 total-hours = Razem godzin
 
-## New Contribution
+## Contribution
 
 action-click = Kliknij
 action-tap = Stuknij
@@ -615,7 +617,6 @@ record-again-instruction = Świetnie! <recordIcon></recordIcon> Nagraj następne
 record-again-instruction2 = Tak trzymaj, nagraj jeszcze raz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ostatnie!
 review-tooltip = Weryfikuj i ponownie nagrywaj w czasie pracy
-unable-speak = Nie można teraz wymówić zdania
 review-instruction = Weryfikuj i ponownie nagrywaj w razie potrzeby
 record-submit-tooltip = { $actionType } „Wyślij” po ukończeniu
 clips-uploaded = Wysłano nagrania
@@ -631,6 +632,29 @@ listen-last-time-instruction = <playIcon></playIcon> Ostatnie!
 nothing-to-validate = Nie mamy nic do zweryfikowania w tym języku, pomóż nam wypełnić kolejkę.
 record-button-label = Nagraj swój głos
 share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
+keep-track-profile = Śledź swoje postępy za pomocą profilu
+login-to-get-started = Zaloguj się lub zarejestruj, aby zacząć
+
+## Reporting
+
+report = Zgłoś
+report-title = Wyślij zgłoszenie
+report-ask = Jakie są problemy z tym zdaniem?
+report-offensive-language = Obraźliwy język
+report-offensive-language-detail = Zdanie jest nieuprzejme lub obraźliwe.
+report-grammar-or-spelling = Błąd gramatyczny/ortograficzny
+report-grammar-or-spelling-detail = Zdanie ma błąd gramatyczny lub ortograficzny.
+report-different-language = Inny język
+report-different-language-detail = Jest napisane w języku innym niż ten, w którym mówię.
+report-difficult-pronounce = Trudne do wymówienia
+report-difficult-pronounce-detail = Zawiera słowa lub wyrażenia, które są trudne do odczytania lub wymówienia.
+report-offensive-speech = Obraźliwa mowa
+report-offensive-speech-detail = Nagranie jest nieuprzejme lub obraźliwe.
+report-other-comment =
+    .placeholder = Komentarz
+success = Powodzenie
+continue = Kontynuuj
+report-success = Pomyślnie przekazano zgłoszenie
 
 ## Goals
 

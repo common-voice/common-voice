@@ -5,16 +5,16 @@
   "repository": "mozilla/voice-web",
   "private": true,
   "dependencies": {
-    "concurrently": "^4.1.0",
+    "concurrently": "^4.1.1",
     "fluent-syntax": "^0.13.0",
     "prettier": "^1.18.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "typescript": "3.5.1"
+    "typescript": "3.5.2"
   },
   "devDependencies": {
-    "husky": "^2.4.0",
-    "pretty-quick": "^1.11.0"
+    "husky": "^3.0.0",
+    "pretty-quick": "^1.11.1"
   },
   "workspaces": [
     "common",

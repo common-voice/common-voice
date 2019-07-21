@@ -8,8 +8,10 @@ email-input =
     .label = Sähköposti
 submit-form-action = Lähetä
 loading = Ladataan…
+email-opt-in-info = Haluan vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseeni sekä Common Voice -uutiskirjeitä.
 email-opt-in-privacy = Tilaamalla uutiskirjeen hyväksyt Mozillan käsittelevän tätä tietoa Mozillan <privacyLink>tietosuojakäytännössä<privacyLink> kuvatulla tavalla.
 indicates-required = * Pakollinen kenttä
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +29,7 @@ ar = Arabia
 as = Assami
 ast = Astuaria
 az = Azeri
+ba = Bashkiirit
 bg = Bulgaria
 bn = Bengali
 br = Bretoni
@@ -48,6 +51,7 @@ es = Espanja
 et = Viro
 eu = Baski
 fa = Persia
+ff = Fulani
 fi = suomi
 fo = Fääri
 fr = Ranska
@@ -93,6 +97,7 @@ or = Orija
 pl = Puola
 pt-BR = Brasilianportugali
 rm-sursilv = Sursilvan retoromaani
+rm-vallader = Retoromaani (Vallader)
 ro = Romania
 ru = Venäjä
 rw = ruanda
@@ -104,6 +109,7 @@ sl = Sloveeni
 sq = Albania
 sr = Serbia
 sv-SE = Ruotsi
+syr = Syyria
 ta = Tamili
 te = Telugu
 tg = Tadžikki
@@ -311,6 +317,7 @@ skip-submission-note = Huomaa: Sinun täytyy silti valita Puhu tai Kuuntele vaih
 off = Pois päältä
 on = Päällä
 add-avatar-title = Lisää profiilikuva
+add-avatar-clip = Lisää kuvake profiiliisi.
 browse-file-title = Lataa kuvatiedosto
 browse-file = Vedä ja pudota tai <browseWrap>Selaa</BrowseWrap>
 connect-gravatar = Yhdistä Gravatariin
@@ -350,6 +357,7 @@ faq-do-want-native-a = Kyllä, me haluamme erityisesti sinun äänesi! Osa Commo
 faq-why-different-speakers-q = Miksi tarvitsette niin monta jokaisen kielen puhujaa?
 faq-why-different-speakers-a = Useimmat ääniaineistot on opetettu tietyn väestöryhmän yliedustuksella, mikä johtaa vinoumaan <articeLink>valkoihoisten ja keskiluokkaisten</articleLink> suuntaan. Tyypillisesti ennalta syrjäytyneiden väestöryhmien korostukset ja murteet tapaavat olla aliedustettuja ääniaineistoissa. Monilla koneilla on lisäksi haasteita naisten ymmärtämisessä. Tästä syystä me haluamme monipuolisuutta aineistoomme!
 faq-why-my-lang-q = Miksei kieleni ole vielä mukana?
+faq-why-my-lang-new-a = Mozilla ei valikoi tai suosi mitään yksittäistä kieltä muiden kustannuksella. Päinvastoin, Common Voice on täysin yhteisövetoinen hanke, ja <multilangLing>uuden kielen lisääminen</multilangLink> ja lauseiden keräämisen aloittaminen vaatii monia työvaiheita. Ensiksi, Common Voice -verkkosivu täytyy kääntää, jotta yhteisön jäsenet voivat osallistua nauhoitustyöhön omalla kielellään. Toiseksi, tarvitsemme suuren määrän tekijänoikeusvapaita lauseita, joita ihmiset voivat lukea ääneen. Kun molemmat vaatimukset on täytetty, voidaan kieli "julkaista" Common Voicessa, ja ihmiset voivat alkaa nauhoittaa omaa puhettaan ja tarkistaa muiden nauhoituksia. Jos haluat auttaa uuden kielen lisäämisessä, siirry <sentenceCollectorLink>lauseiden keräämiseksi tarkoitettuun työkaluumme</sentenceCollectorLink> niin pääset alkuun.
 faq-what-quality-q = Minkä tasoinen äänenlaatu tarvitaan näytteen käyttämiseksi aineistossa?
 faq-what-quality-a = Haluamme Common Voice -aineiston heijastelevan puheentunnistusmoottorin luonnossa kuulemaa äänenlaatua, joten toivomme vaihtelua. Monipuolisen puhujien yhteisön lisäksi erilaista äänenlaatua sisältävä aineisto opettaa puheentunnistusmoottoria käsittelemään erilaisia tosielämän tilanteita, taustalla puhumisesta liikenteen meluun. Niin kauan kuin ääninäytteesi on ymmärrettävä, sen pitäisi olla tarpeeksi hyvä aineistoon.
 faq-why-10k-hours-q = Miksi tavoitteena on 10 000 tuntia tarkistettuja ääninäytteitä jokaista kieltä kohden?
@@ -381,14 +389,48 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miksi Common Voice?
+about-subtitle = Common Voice on osa Mozillan aloitetta auttaa opettamaan koneelle, kuinka todelliset ihmiset puhuvat. Common Voice -aineiston lisäksi kehitämme myös avoimen lähdekoodin puheentunnistuskirjastoa, DeepSpeechiä.
+about-header-description = Kummatkin näistä projekteista ovat osa pyrkimyksiämme kaventaa digitaalisen puheen kuilua. Äänentunnistusteknologiat tuovat ihmisulottuvuuden laitteisiimme, mutta niiden kehitys vaatii valtavasti äänidataa. Tällä hetkellä tällainen data on pääasiassa kallista ja suljettujen ovien takana. Haluamme asettaa äänidatan vapaasti ja julkisesti saataville, sekä varmistaa, että kyseinen data edustaa ihmisten aitoa monimuotoisuutta. Rakennamme paremman äänentunnistusteknologian, yhdessä.
 how-does-it-work-title = Miten se toimii?
+how-does-it-work-text = Joukkoutamme avointa ääniaineistoa. Lahjoita äänesi, tarkasta muiden ihmisten ääninäytteiden tarkkuus, tee aineistosta kaikille parempi.
 about-speak = Puhu
+about-speak-text = Avustajat äänittävät äänileikkeitä lukemalla lahjoitettujen lauseiden varastoa.
 about-listen-queue = Kuuntelujono
+about-listen-queue-text = Äänileikkeet syötetään jonoon valmisteltavaksi kuuntelua varten.
 about-listen = Kuuntele
+about-listen-text = Käyttäjät arvioivat lahjoitettujen näytteiden tarkkuuden. Tarkastavat että puhuja lausuu oikein.
+about-is-it-valid = Onko äänileike hyväksyttävä?
+about-is-it-valid-text = Äänileike merkitään “hyväksytyksi” käyttäjän äänestäessä Kyllä.
+about-yes-votes = ≥ 2 Kyllä-ääntä
+about-yes-votes-text = Jotta lause sisällytetään Common Voice -aineistoon, ainakin kahden henkilön täytyy hyväksyä se.
+about-no-votes = ≥ 2 Ei-ääntä
+about-no-votes-text = Kerran hylätty äänileike palautuu jonoon. Kahdesti hylätty siirretään äänileikkeiden hautausmaalle.
+about-dataset-new = Common Voice -aineisto
+about-dataset-new-text = Common Voice -aineisto koostuu sadoistatuhansista ääninäytteistä, jotka helpottavat puheentunnistustyökalujen kehittämistyötä.
+about-clip-graveyard = Äänileikkeiden hautausmaa
+about-clip-graveyard-text = Äänileikkeiden hautausmaa koostuu äänileikkeistä jotka on hylätty Common Voice -aineistosta. Kyseisen aineiston lailla, äänileikkeiden hautausmaakin on ladattavissa.
+about-partners = Partnerit
+about-become-a-partner = Ryhdy partneriksi
+about-partnership =
+    Common voice on yhteistyöhanke. Olemme riippuvaisia kumppaniemme ja lahjoittajien muodostamasta yhteisöstä rakentaessamme kaikkien aikojen laajointa avointa ääniaineistoa.
+    
+    Haluaisimme kiittää seuraavia henkilöitä ja organisaatioita heidän panoksestaan hankkeen eteen:
+about-get-involved = Tule mukaan
+about-get-involved-text =
+    Haluatko tehdä Common Voice -hankeesta vielä paremman? 
+    Mahtavaa! Ota yhteyttä sähköpostilla tai <discourseLink>Discourse:n</discourseLink> kautta, 
+    lähetä palautetta <githubLink>GitHub:in</githubLink> kautta, 
+    tai liity joukoomme <slackLink>Slack:issä</slackLink>.
 about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
+about-nav-partners = Partnerit
+about-nav-get-involved = Tule mukaan
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tekoäly
+mycroft-description =
+    Mycroft on maailman ensimmäinen avoimen lähdekoodin assistentti. 
+    Mycroft pyörii missä tahansa - pöytätietokoneessa, auton sisällä tai Raspberry Pi -minitietokoneessa.
+mycroft-secondary-description = Tämä on avoimen lähdekoodin ohjelmisto, jota voi vapaasti yhdistää, laajentaa ja parantaa. Mycroftia voi käyttää mihin tahansa koululaisprojektin ja tuotannossa olevan yrityskäytön välillä.
 
 ## Glossary
 
@@ -438,9 +480,13 @@ review-cancel = Peru lähetys
 review-keep-recordings = Säilytä nauhoitteet
 review-delete-recordings = Poista nauhoitukset
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Rakennamme avointa ja monikielistä ääniaineistoa, jota kuka tahansa voi käyttää puheeseen liittyvien sovellusten kehittämisessä.
+datasets-positioning =
+    Uskomme, että suuri ja avoin ääniaineisto lisää innovaatiota ja tervettä kaupallista kilpailua koneoppimiseen pohjautuvan puheteknologian saralla.
+    
+    Common Voicen monikielinen aineisto on jo nyt suurin avoimesti saatavilla oleva tällainen ääniaineisto, mutta se ei ole ainoa.
 language = Kieli
 # File size in gigabytes
 size = Koko
@@ -455,15 +501,22 @@ why-email = <b>Miksi sähköpostiosoite?</b> Meille voi tulla tarve olla sinuun 
 confirm-size = Olet aloittamassa <b>{ $size }</b> gigatavun latausta.
 size-gigabyte = Gt
 size-megabyte = Mt
+confirm-no-identify = <b>Sitoudut</b> olemaan yrittämättä tunnistaa Common Voice -aineiston puhujia.
 download-language = Lataa { $language }
 validated-hours = Tarkistetut tunnit
 recorded-hours = Äänitetyt tunnit
 whats-inside = Mitä on Common Voicen datapaketeissa?
+dataset-description-hours =
+    Jokainen tietue aineistossa koostuu MP3-tiedostosta ja sitä vastaavasti tekstitiedostosta. Suuri osa kaikkiaan nauhoitetusta <b>{ $total }</b> tunnista aineistossa sisältää myös demografisia kuvailutietoja kuten ikä, sukupuoli ja korostus, jotka auttavat parantamaan puheentunnistusmallien tarkkuutta.
+    
+    AIneisto sisältää tällä hetkellä <b>{ $valid }</b> validoitua tuntia <b>{ $languages }</b> kielellä, mutta lisäämme jatkuvasti uusia ääniä ja kieliä. Tutustu <languagesLink>Kieli-sivuun</languagesLink> pyytääksesi uuden kielen lisäämistä tai osallistuaksesi.
 want-dataset-update = Haluatko tiedotteen kun julkaisemme uuden version Common Voice -aineistosta? Tilaa uutiskirjeemme.
 subscribe = Tilaa
 get-started-speech = Aloita puheentunnistuksen parissa
 other-datasets = Muut puheaineistot
 feedback-q = Haluatko antaa palautetta?
+deepspeech-info = Common Voice -aineisto täydentää Mozillan avoimen lähdekoodin puheentunnistusohjelmaa Deep Speech, jota voit käyttää puheentunnistuksen sovellutuksissa. Lue <githubLink>yleiskatsaus GitHubista</githubLink> tai liity <discourseLink>DeepSpeech Discourseen</discourseLink> oppiaksesi, kuinka pääset alkuun.
+common-voice-info-new = Onko sinulla kysymyksiä Common Voicesta? Ajatuksia sen parantamisesta tai palautetta tietystä kielestä? Liity <discourseLink>Discourse -keskusteluun</discourseLink> ja kerro meille!
 data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
@@ -477,6 +530,7 @@ ready-to-validate = Oletko valmis tarkistamaan lauseita?
 more = Lisää
 close = Sulje
 download = Lataa
+dataset-version = Versio
 
 ## Download Modal
 
@@ -512,6 +566,7 @@ other-language = Muu kieli
 language-section-in-progress = Työn alla
 language-section-in-progress-new-description = Nämä kielet ovat tällä hetkellä yhteisöjen kehitettävinä. Etenemispalkki näyttää, kuinka pitkällä kukin kieli on  <localizationGlossaryLink>verkkosivun lokalisaatiossa</localizationGlossaryLink> ja <sentenceCollectionGlossaryLink>lauseiden keräämisessä</sentenceCollectionGlossaryLink>.
 language-section-launched = Julkistettu
+language-section-launched-description = Verkkosivusto on onnistuneesti <localizationGlossaryLink>lokalisoitu</localizationGlossaryLink> näille kielille, ja <sentenceCollectionGlossaryLink>kerättyjä lauseita</sentenceCollectionGlossaryLink> on tarpeeksi <speakLink>nauhoituksen</speakLink> ja <listenLink>kuuntelun</listenLink> mahdollistamiseksi.
 languages-show-more = Lisää
 languages-show-less = Vähemmän
 language-speakers = Puhujat
@@ -557,7 +612,6 @@ record-again-instruction = Loistavaa! <recordIcon></recordIcon> Äänitä seuraa
 record-again-instruction2 = Hyvää työtä, äänitä uudelleen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Viimeinen!
 review-tooltip = Tarkasta ja uudelleenäänitä sitä mukaa kun etenet
-unable-speak = Etkö voi puhua tällä hetkellä?
 review-instruction = Tarkasta ja uudelleenäänitä tarvittaessa
 record-submit-tooltip = { $actionType } lähetä kun valmis
 clips-uploaded = Näytteitä ladattu
@@ -573,6 +627,27 @@ listen-last-time-instruction = <playIcon></playIcon> Viimeinen!
 nothing-to-validate = Meillä ei ole tarkistettavia näytteitä tälle kielelle, auta meitä täyttämään jono.
 record-button-label = Tallenna äänesi
 share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
+
+## Reporting
+
+report = Raportti
+report-title = Lähetä ilmoitus
+report-ask = Mitä ongelmia tässä lauseessa on?
+report-offensive-language = Loukkaavaa kieltä
+report-offensive-language-detail = Tämä lause sisältää asiatonta tai loukkaavaa kielenkäyttöä.
+report-grammar-or-spelling = Kielioppi- tai kirjoitusvirhe
+report-grammar-or-spelling-detail = Tämä lausee sisältää kielioppi- tai kirjoitusvirheen.
+report-different-language = Eri kieli
+report-different-language-detail = Se on kirjoitettu jollain muulla kielellä kuin mitä puhun.
+report-difficult-pronounce = Vaikea ääntää
+report-difficult-pronounce-detail = Sisältää sanoja tai lauseita, joita on vaikea lukea tai ääntää.
+report-offensive-speech = Loukkaavaa kielenkäyttöä
+report-offensive-speech-detail = Tämä äänite sisältää epäkunnioittavaa tai loukkaavaa kielenkäyttöä.
+report-other-comment =
+    .placeholder = Kommentti
+success = Onnistui
+continue = Jatka
+report-success = Raportti lähetetty onnistuneesti
 
 ## Goals
 
@@ -626,4 +701,8 @@ profile-form-delete = Poista profiili
 
 ## Landing
 
+welcome-staff = Tervetuloa, yrityksen { $company } työntekijä!
+help-contribute = Voit auttaa luomaan monipuolisen ja avoimen aineiston luomalla Common Voice -profiilin ja tuomalla mukaan oman äänesi.
+login-company = Kirjaudu sisään / Luo tunnukset yrityksen { $company } sähköpostilla
 profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
+read-more-about = Lue lisää Lisätietoja-sivulta

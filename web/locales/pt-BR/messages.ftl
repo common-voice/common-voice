@@ -97,6 +97,7 @@ or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
 rm-sursilv = Romanche (Sursilvan)
+rm-vallader = Romanche (Vallader)
 ro = Romeno
 ru = Russo
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Esloveno
 sq = Albanês
 sr = Sérvio
 sv-SE = Sueco
+syr = Siríaco
 ta = Tâmil
 te = Telugo
 tg = Tajique
@@ -342,8 +344,8 @@ faq-why-important-a =
     Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amostras de voz em idiomas amplamente falados, bem como naqueles com uma população menor de falantes, frequentemente deixados de lado por serviços comerciais de reconhecimento de voz. A publicação de um conjunto de dados diversificado permitirá que desenvolvedores, empreendedores e comunidades inteiras resolvam essa lacuna eles mesmos.
 faq-how-get-q = Como posso obter os dados do Common Voice?
 faq-how-get-a = O conjunto de dados do Common Voice está disponível para download sob a licença <licenseLink>CC0</licenseLink> em <datasetLink>nossa página de Datasets</datasetLink>. Você também pode baixar diversos outros conjuntos de dados disponíveis publicamente a partir da mesma página.
-faq-when-release-q = Quando serão lançados os dados do Common Voice em outros idiomas?
-faq-when-release-a = A versão multilíngue do conjunto de dados do Common Voice está passando por um processo de limpeza e empacotamento suportado pela comunidade. Se você quiser saber mais sobre como apoiar esse esforço, <contactLink>entre em contato conosco</contactLink>. No momento, estamos almejando uma data de publicação em janeiro de 2019. Depois disso, atualizaremos o conjunto de dados periodicamente com novos idiomas e clipes de voz à medida que forem disponibilizados. Uma cadência de ciclos iterativos de lançamento ainda está por ser determinada.
+faq-when-release2-q = Quando você liberará dados do Common Voice em outros idiomas?
+faq-when-release2-a = A versão multi-idioma do conjunto de dados do Common Voice está no momento submetida a agregação e limpeza com apoio da comunidade. Se você quiser nos ajudar a trazer o Common Voice para novos idiomas, dê uma olhada na <sentenceCollectorLink>Ferramenta de Coleta de Frases</sentenceCollectorLink>, para adicionar novas frases ao conjunto de dados, e no <pontoonLink>Pontoon</pontoonLink> da Mozilla para traduzir o próprio site. Novos idiomas são adicionados ao Common Voice para contribuições de voz quando 5000 frases aprovadas tiverem sido coletadas.
 faq-why-mission-q = Por que o Common Voice faz parte da missão Mozilla?
 faq-why-mission-a = A Mozilla dedica-se a manter a web aberta e acessível a todos. Para fazer isso, precisamos capacitar criadores da web através de projetos como o Common Voice. À medida que tecnologias de voz proliferam além de aplicações dedicadas, acreditamos que elas devem atender a todos os usuários igualmente. Isto significa investir em mais idiomas e acomodar diferentes sotaques e grupos demográficos ao criar e testar tecnologias de voz. O Common Voice é um recurso público, disponível a todos. Equipes da Mozilla e desenvolvedores no mundo todo já o estão usando em seus próprios projetos.
 faq-what-cv-and-deepspeech-q = Qual é a diferença entre Common Voice e Deep Speech?
@@ -583,7 +585,7 @@ localized = Traduzido
 sentences = Frases
 total-hours = Total de horas
 
-## New Contribution
+## Contribution
 
 action-click = Clique
 action-tap = Toque
@@ -612,7 +614,6 @@ record-again-instruction = Ótimo! <recordIcon></recordIcon> Grave a próxima fr
 record-again-instruction2 = Continue assim, grave novamente <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Última!
 review-tooltip = Revise e grave as frases enquanto prossegue
-unable-speak = Incapaz de falar agora
 review-instruction = Enquanto revisa, grave as frases novamente se precisar
 record-submit-tooltip = { $actionType } enviar quando estiver pronto
 clips-uploaded = Gravações carregadas
@@ -628,6 +629,29 @@ listen-last-time-instruction = <playIcon></playIcon> Última!
 nothing-to-validate = Não temos nada para validar neste idioma, ajude-nos a preencher a fila.
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
+keep-track-profile = Acompanhe seu progresso com um perfil
+login-to-get-started = Entre ou cadastre-se para começar
+
+## Reporting
+
+report = Relatar
+report-title = Enviar um relato
+report-ask = Que problemas você está experimentando com esta frase?
+report-offensive-language = Linguagem ofensiva
+report-offensive-language-detail = A frase é desrespeitosa ou usa linguagem ofensiva.
+report-grammar-or-spelling = Erro gramatical ou ortográfico
+report-grammar-or-spelling-detail = A frase tem um erro gramatical ou ortográfico.
+report-different-language = Idioma diferente
+report-different-language-detail = Ela é escrita em um idioma diferente do que estou falando.
+report-difficult-pronounce = Dificuldade de pronúncia
+report-difficult-pronounce-detail = Ela contém palavras ou trechos difíceis de ler ou pronunciar.
+report-offensive-speech = Discurso ofensivo
+report-offensive-speech-detail = O clipe tem linguagem desrespeitosa ou ofensiva.
+report-other-comment =
+    .placeholder = Comentário
+success = Sucesso
+continue = Continuar
+report-success = O relato foi enviado com sucesso
 
 ## Goals
 

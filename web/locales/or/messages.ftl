@@ -97,6 +97,7 @@ or = ଓଡ଼ିଆ
 pl = ପୋଲିସ
 pt-BR = ପର୍ତ୍ତୁଗୀଜ (ବ୍ରାଜିଲ)
 rm-sursilv = ରୋମାନ୍ସ ସର୍ସିଲଭାନ
+rm-vallader = ରୋମାନ୍ସ ବାଲଡ଼ର
 ro = ରୋମାନିଆନ
 ru = ଋଷୀୟ
 rw = କିନ୍ୟାରୱାଣ୍ଡା
@@ -108,6 +109,7 @@ sl = ସ୍ଳୋଭେନିଆନ
 sq = ଆଲବାନିଆନ
 sr = ସର୍ବିଆନ
 sv-SE = ସୁଇଡିସ
+syr = ସୀରିୟ
 ta = ତାମିଲ
 te = ତେଲୁଗୁ
 tg = ତାଜିକ
@@ -341,8 +343,8 @@ faq-why-important-a =
     ଧ୍ୱନିକୁ ଚିହ୍ନିବାକୁ ଆହୁରି ଅଧିକ ସାର୍ବଭୌମିକ କରିବାକୁ, ଆମେ ବ୍ୟାପକ ଭାବରେ ବ୍ୟବହୃତ ଭାଷାଗୁଡ଼ିକର ଅନେକ ନମୁନା ଏକତ୍ରିତ କରୁଛୁ ଏବଂ ଏହାସହିତ ବ୍ୟବସାୟଗତ ଦୃଷ୍ଟିରେ ହେଳାର ଶିକାର ହେଉଥିବା ଅଳ୍ପ ବ୍ୟବହୃତ ଭାଷାଗୁଡ଼ିକର ମଧ୍ୟ ରଖୁଛୁ । ଧ୍ୱନୀଗୁଡିକର ଏହି ବିବିଧ ତଥ୍ୟ ଭଣ୍ଡାର ଡେଭେଲପର, ଉଦ୍ୟୋକ୍ତା ଏବଂ ପୁରା ଭାଷା ସମୁଦାୟକୁ ଏହି ଅନ୍ତରକୁ ସମ୍ବୋଧିତ କରିବାର ସୁଯୋଗ ମିଳିବ ।
 faq-how-get-q = ମୁଁ କିଭଳି କମନ ଭଏସ ତଥ୍ୟ ପାଇପାରିବି?
 faq-how-get-a = କମନ ଭଏସ ତଥ୍ୟ <datasetLink>ଆମର ତଥ୍ୟଭଣ୍ଡାର ପୃଷ୍ଠାରେ</datasetLink>, <licenseLink>CC0 </licenseLink> ଲାଇସେନ୍ସରେ ଡାଉନଲୋଡ଼ କରିବାପାଇଁ ଉପଲବ୍ଧ ଅଟେ ।
-faq-when-release-q = କେବେ ଆପଣ ଅନ୍ୟାନ୍ୟ ଭାଷାରେ କମନ ଭଏସ ଛାଡ଼ିବେ?
-faq-when-release-a = କମନ ଭଏସ ତଥ୍ୟଭଣ୍ଡାରର ବହୁଭାଷୀ ସଂସ୍କରଣ ବର୍ତ୍ତମାନ ଲୋକମାନଙ୍କର ସହାୟତାରେ ସଫାସଫି ଏବଂ ଯୋଡ଼ାଯୋଡ଼ି ପର୍ଯ୍ୟାୟ ଦେଇ ଗତିକରୁଛି ।ଯଦି ଆପଣ ଏହି ପ୍ରୟାସକୁ ସମର୍ଥନ କରିବାରେ ଅଧିକ ତଥ୍ୟ ଆବଶ୍ୟକ କରୁଥାନ୍ତି ତେବେ ଆମକୁ ଦୟାକରି <contactLink>ଯୋଗାଯୋଗ </contactLink> କରନ୍ତୁ । ବର୍ତ୍ତମାନ ଆମେ ଜାନୁୟାରୀ ୨୦୧୯ରେ ଏହାକୁ ପ୍ରକାଶ କରିବା ପରେ ନୂଆ ଭାଷା ଏବଂ ସ୍ଵରବଳୀକୁ ସମୟାନୁକ୍ରମେ ଯୋଗ କରିଚାଲିବୁ । ଏକ ପୁନରାବୃତ୍ତ ମୁକ୍ତିଲାଭ ଚକ୍ର ସ୍ଥିର କରାଯିବାର ଅଛି ।
+faq-when-release2-q = ଅନ୍ୟ ଭାଷାରେ ଆପଣ କେବେ କମନ ଭଏସର ତଥ୍ୟ ମୁକ୍ତିଲାଭ କରାଇବେ?
+faq-when-release2-a = କମନ ଭଏସର ବହୁ-ଭାଷୀ ତଥ୍ୟ ଭଣ୍ଡାର ବର୍ତ୍ତମାନ ସମୁଦାୟର ସହାୟତାରେ ସଫାସଫି ଏବଂ ବନ୍ଧାବାନ୍ଧି ଚାଲିଛି । ଆପଣ ଯଦି ଆମକୁ କମନ ଭଏସକୁ ନୂତନ ଭାଷାରେ ପ୍ରକାଶରେ ସାହାର୍ଯ୍ୟ କରିବାକୁ ଚାହାଁନ୍ତି <sentenceCollectorLink>କୁ ଯାଇ ବାକ୍ୟ ସଂଗ୍ରହ ଟୁଲ </sentenceCollectorLink> ଦ୍ୱାରା ନୂଆ ବାକ୍ୟ ଯୋଗ କରିବା ଏବଂ ୱେବସାଇଟ ଅନୁବାଦ ପାଇଁ ମୋଜିଲା <pontoonLink>ପୋଣ୍ଟୁନ </pontoonLink> ଟୁଲକୁ ଦେଖିପାରନ୍ତି  । ୫୦୦୦ ଅନୁମୋଦିତ ବାକ୍ୟ ସଂଗ୍ରହ ଏବଂ ୱେବସାଇଟଟି ଅନୁବାଦିତ ହେଲାପରେ ନୂତନ ଭାଷାଟିକୁ କମନ ଭଏସରେ ଧ୍ଵନି ସଂଗ୍ରହ ପାଇଁ ଯୋଗ କରାଯାଏ ।
 faq-why-mission-q = କମନ ଭଏସ କାହିଁକି ମୋଜିଲାର ଲକ୍ଷ୍ୟର ଅନ୍ତର୍ଭୁକ୍ତ?
 faq-why-mission-a = ମୋଜିଲା, ଇଣ୍ଟରନେଟକୁ ସମସ୍ତଙ୍କ ପାଇଁ ଖୋଲା ଏବଂ ସୁଲଭ କରିବାକୁ ସମର୍ପିତ ଅଟେ । ଏଭଳି କରିବାପାଇଁ ଆମକୁ କମନ ଭଏସ ଭଳି ପ୍ରକଳ୍ପ ଜରିଆରେ ୱେବ ରଚନାକାରୀମାନଙ୍କୁ ସଶକ୍ତ କରିବା ଆବଶ୍ୟକ । ଯେମିତି କଥାବାର୍ତ୍ତା ପ୍ରଯୁକ୍ତି ବିଦ୍ୟା କେତେକେ ହାତମୁଠା ଆପ୍ଲିକେସନରୁ ଆଗକୁ ବଢ଼ିବ ସମସ୍ତ ବ୍ୟବହାରକାରୀମାନଙ୍କୁ ସମାନ ଦୃଷ୍ଟିରେ ଦେଖିବା ଉଚିତ । ଏହାର ଅର୍ଥ ଅଧିକ ଭାଷାକୁ ସମର୍ଥନ କରିବା ଏବଂ ଧ୍ୱନି ପ୍ରଦ୍ୟୋଗରେ ବିଭିନ୍ନ ସ୍ୱର ଏବଂ ଉଚ୍ଚାରଣର ଭାଷାକୁ ସମଯୋଜନା କରିବା । କମନ ଭଏସ ଏକ ସାର୍ବଜନିକ ସଂସାଧନ ଅଟେ ଯାହା ସମସ୍ତଙ୍କ ପାଇଁ ଉପଲବ୍ଧ ଅଟେ । ମୋଜିଲାର ଦଳ ଏବଂ ସାରା ବିଶ୍ୱର ଡେଭେଲପରଗଣ ଏହାକୁ ବିଭିନ୍ନ ପ୍ରକଳ୍ପରେ ଉପଯୋଗ କରିଆସୁଛନ୍ତି ।
 faq-what-cv-and-deepspeech-q = କମନ ଭଏସ ଏବଂ ଡିପ ସ୍ପିଚ ମଧ୍ୟରେ କଣ ପାର୍ଥକ୍ୟ?
@@ -565,17 +567,17 @@ language-section-launched = ଆରମ୍ଭ ହେଲା
 language-section-launched-description = ଏହି ସବୁ ପ୍ରକାଶିତ ଭାଷାଗୁଡ଼ିକ ପାଇଁ ୱେବସାଇଟ ସଫଳତାର ସହିତ <localizationGlossaryLink>ସ୍ଥାନୀୟ</localizationGlossaryLink> କରାଯାଇଛି, ଏବଂ ଯଥେଷ୍ଟ ମାତ୍ରାରେ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink> ହୋଇଛି ଯାହାକୁ ଉପଯୋଗ କରି ଉଭୟ <speakLink>କଥାବାର୍ତ୍ତା</speakLink> ଏବଂ <listenLink>ଶୁଣିବାର</listenLink> ଯୋଗଦାନ ଦେଇହେବ ।
 languages-show-more = ଅଧିକ ଦେଖନ୍ତୁ
 languages-show-less = କମ ଦେଖନ୍ତୁ
-language-speakers = ବକ୍ତା
+language-speakers = ବକ୍ତାଗଣ
 language-meter-in-progress = ପ୍ରଗତି
 language-total-progress = ମୋଟ
 language-search-input =
     .placeholder = ଖୋଜନ୍ତୁ
-language-speakers = ବକ୍ତା
-localized = ସ୍ଥାନୀୟ
-sentences = ଧାଡ଼ିଗୁଡ଼ିକ
+language-speakers = ବକ୍ତାଗଣ
+localized = ସ୍ଥାନୀୟକରଣ ହୋଇଛି
+sentences = ବାକ୍ୟଗୁଡ଼ିକ
 total-hours = ଯାଞ୍ଚ କରାଯାଇଥିବା ଘଣ୍ଟାଗୁଡ଼ିକ
 
-## New Contribution
+## Contribution
 
 action-click = କ୍ଲିକ
 action-tap = ଟ୍ୟାପ
@@ -607,7 +609,6 @@ record-again-instruction = ବଢ଼ିଆ! <recordIcon></recordIcon> ନିଜ 
 record-again-instruction2 = ଏମିତି ଚାଲିଥାଉ, ଆହୁରି ରେକର୍ଡ଼କରନ୍ତୁ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ଶେଷଟି!
 review-tooltip = ଆଗକୁ ବଢ଼ିଲାବେଳେ କ୍ଲିପଗୁଡ଼ିକ ଏଠାରେ ପରଖି ଓ ଆଉଥରେ ରେକର୍ଡ଼କରନ୍ତୁ
-unable-speak = ଏବେ କହିବାରେ ଅକ୍ଷମ?
 review-instruction = ଦରକାର ପଡ଼ିଲେ ପରଖି କ୍ଲିପଗୁଡ଼ିକୁ ଆଉଥରେ ରେକର୍ଡ଼ କରନ୍ତୁ
 record-submit-tooltip = ପ୍ରସ୍ତୁତ ହେଲେ ପଠାନ୍ତୁ { $actionType }
 clips-uploaded = ଧ୍ୱନୀଗୁଡିକ ଅପଲୋଡ଼ ହୋଇଗଲା ।
@@ -623,6 +624,29 @@ listen-last-time-instruction = <playIcon></playIcon> ଶେଷଟି!
 nothing-to-validate = ଏହି ଭାଷାରେ ଆମ ପାଖରେ କିଛି ଯାଞ୍ଚ କରିବାକୁ ନାହିଁ, ଭର୍ତ୍ତିକରିବାରେ ସାହାର୍ଯ୍ୟ କରନ୍ତୁ ।
 record-button-label = ଆପଣଙ୍କର ସ୍ୱରକୁ ରେକର୍ଡ କରନ୍ତୁ
 share-title-new = ଅଧିକ ସ୍ୱର ପାଇବା ପାଇଁ ଆମକୁ <bold>ସାହାଯ୍ୟ କରନ୍ତୁ</bold>
+keep-track-profile = ଗୋଟିଏ ପ୍ରୋଫାଇଲ ଦ୍ୱାରା ନିଜର ପ୍ରଗତିର ଅନୁକ୍ଷଣ ରଖନ୍ତୁ ।
+login-to-get-started = ଆରମ୍ଭ କରିବା ପାଇଁ ଲଗ-ଇନ କିମ୍ବା ସାଇନ-ଅପ କରନ୍ତୁ ।
+
+## Reporting
+
+report = ରିପୋର୍ଟ୍
+report-title = ରିପୋର୍ଟ ଦିଅନ୍ତୁ
+report-ask = ଏହି ବାକ୍ୟରେ ଆପଣ କଣ ଅସୁବିଧା ସମ୍ମୁଖୀନ କରୁଛନ୍ତି?
+report-offensive-language = ଆକ୍ରଣାତ୍ମକ ଭାଷା
+report-offensive-language-detail = ବାକ୍ୟଟି ଅସମ୍ମାନବୋଧକ କିମ୍ବା ଆକ୍ରଣାତ୍ମକ ଭାଷା ଅଟେ ।
+report-grammar-or-spelling = ବାକ୍ୟରଣ/ବନାନଗତ ତ୍ରୁଟି
+report-grammar-or-spelling-detail = ବାକ୍ୟଟିର ବାକ୍ୟରଣଗତ କିମ୍ବା ବନାନଗତ ତ୍ରୁଟି ରହିଛି ।
+report-different-language = ଅନ୍ୟ ଭାଷା
+report-different-language-detail = ମୁଁ କହୁଥିବା ଭାଷାଠାରୁ ଭିନ୍ନ ଏହା ଅନ୍ୟ ଏକ ଭାଷାରେ ଲିଖିତ ।
+report-difficult-pronounce = ଉଚ୍ଚାରଣ କରିବାକୁ କଷ୍ଟ
+report-difficult-pronounce-detail = ଏଥିରେ ଉଚ୍ଚାରଣ କରିହେଉନଥିବା ଶବ୍ଦ କିମ୍ବା ପଦ ରହିଛି ।
+report-offensive-speech = ଆକ୍ରଣାତ୍ମକ ଭାଷଣ ।
+report-offensive-speech-detail = ଏହି ଧ୍ୱନିଟିରେ ଅସମ୍ମାନୀୟ କିମ୍ବା ଆକ୍ରଣାତ୍ମକ ଭାଷଣ ରହିଛି ।
+report-other-comment =
+    .placeholder = ମନ୍ତବ୍ୟ
+success = ସଫଳ
+continue = ଆଗକୁ ବଢ଼ନ୍ତୁ
+report-success = ରିପୋର୍ଟଟି ସଫଳତାର ସହିତ ଉତ୍ତୀର୍ଣ୍ଣ ହୋଇଯାଇଛି
 
 ## Goals
 

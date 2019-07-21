@@ -97,6 +97,7 @@ or = Tiếng Odia
 pl = Tiếng Ba Lan
 pt-BR = Tiếng Bồ Đào Nha (Brazil)
 rm-sursilv = Tiếng Romansh Sursilva
+rm-vallader = Tiếng Romansh
 ro = Tiếng Rumani
 ru = Tiếng Nga
 rw = Tiếng Kinyarwanda
@@ -108,6 +109,7 @@ sl = Tiếng Slovenia
 sq = Tiếng Albania
 sr = Tiếng Serbia
 sv-SE = Tiếng Thụy Điển
+syr = Tiếng Syriac
 ta = Tiếng Tamil
 te = Tiếng Telugu
 tg = Tiếng Tajik
@@ -338,8 +340,8 @@ faq-why-important-a =
     Để làm cho nhận dạng giọng nói trở nên tổng quát hơn, chúng tôi đang thu thập các mẫu giọng nói bằng các ngôn ngữ được sử dụng rộng rãi cũng như những người có số lượng người nói nhỏ hơn thường bị các dịch vụ nhận dạng giọng nói thương mại đánh giá thấp. Xuất bản một tập dữ liệu đa dạng về giọng nói sẽ trao quyền cho các nhà phát triển, doanh nhân và toàn bộ cộng đồng lời nói để tự giải quyết khoảng trống này.
 faq-how-get-q = Làm sao để tôi có thể lấy dữ liệu Common Voice?
 faq-how-get-a = Bộ dữ liệu của Common Voice có sẵn để tải xuống theo giấy phép <licenseLink>CC0</licenseLink> trên <datasetLink>trang dữ liệu của chúng tôi</datasetLink>. Bạn cũng có thể tải xuống một số bộ dữ liệu có sẵn công khai khác từ cùng một trang.
-faq-when-release-q = Khi nào bạn sẽ phát hành dữ liệu Common Voice bằng các ngôn ngữ khác?
-faq-when-release-a = Phiên bản đa ngôn ngữ của bộ dữ liệu Common Voice hiện đang được cộng đồng hỗ trợ và dọn dẹp. Nếu bạn muốn tìm hiểu thêm về việc nỗ lực hỗ trợ này, xin vui lòng <contactLink>liên hệ với chúng tôi</contactLink>. Chúng tôi hiện đang nhắm mục tiêu ngày xuất bản vào tháng 1 năm 2019. Sau đó, chúng tôi sẽ cập nhật dữ liệu định kỳ với các ngôn ngữ và clip thoại mới khi chúng có sẵn. Một nhịp lặp phát hành lặp đi lặp lại vẫn còn được xác định.
+faq-when-release2-q = Khi nào bạn sẽ phát hành dữ liệu Common Voice bằng các ngôn ngữ khác?
+faq-when-release2-a = Phiên bản đa ngôn ngữ của bộ dữ liệu Common Voice hiện đang được cộng đồng hỗ trợ. Nếu bạn muốn giúp chúng tôi mang Common Voice sang các ngôn ngữ mới, hãy xem <sentenceCollectorLink>công cụ thu thập câu</sentenceCollectorLink> để thêm câu mới vào tập dữ liệu và Mozilla <pontoonLink>Pontoon</pontoonLink> để dịch trang web. Các ngôn ngữ mới được thêm vào Common Voice để đóng góp giọng nói khi 5000 câu được phê duyệt đã được thu thập.
 faq-why-mission-q = Tại sao Common Voice lại là một phần của sứ mệnh Mozilla?
 faq-why-mission-a = Mozilla được dành riêng để giữ cho web mở và có thể truy cập được cho mọi người. Để làm được điều đó, chúng tôi cần trao quyền cho người tạo web thông qua các dự án như Common Voice. Khi công nghệ giọng nói phát triển vượt ra ngoài các ứng dụng thích hợp, chúng tôi tin rằng chúng phải phục vụ tất cả người dùng như nhau. Điều đó có nghĩa là đầu tư vào nhiều ngôn ngữ hơn và cung cấp các điểm nhấn và nhân khẩu học đa dạng khi xây dựng và thử nghiệm các công nghệ giọng nói. Common Voice là tài nguyên công cộng có sẵn cho tất cả mọi người và các nhóm và nhà phát triển Mozilla trên toàn thế giới cũng đã sử dụng nó cho các dự án của chúng tôi.
 faq-what-cv-and-deepspeech-q = Điểm gì khác biệt giữa Common Voice và Deep Speech?
@@ -579,7 +581,7 @@ localized = Bản địa hóa
 sentences = Các câu
 total-hours = Giờ đã xác thực
 
-## New Contribution
+## Contribution
 
 action-click = Nhấp
 action-tap = Chạm
@@ -611,7 +613,6 @@ record-again-instruction = Tuyệt!<recordIcon></recordIcon> Ghi âm clip tiếp
 record-again-instruction2 = Hãy tiếp tục! Ghi âm lại <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Cái cuối cùng!
 review-tooltip = Xem lại và ghi âm lại các clip ở đây khi bạn tiếp tục
-unable-speak = Không thể nói ngay bây giờ?
 review-instruction = Xem lại & quay lại clip nếu cần
 record-submit-tooltip = { $actionType } gửi khi sẵn sàng
 clips-uploaded = Đã tải clip lên
@@ -627,6 +628,29 @@ listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
 nothing-to-validate = Chúng tôi không có gì để xác thực của ngôn ngữ này. Hãy giúp chúng tôi điền nó vào danh sách.
 record-button-label = Ghi âm giọng nói của bạn
 share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
+keep-track-profile = Theo dõi tiến trình của bạn với một hồ sơ
+login-to-get-started = Đăng nhập hoặc đăng ký để bắt đầu
+
+## Reporting
+
+report = Báo cáo
+report-title = Gửi một báo cáo
+report-ask = Những vấn đề bạn đang gặp phải với câu này?
+report-offensive-language = Ngôn từ xúc phạm
+report-offensive-language-detail = Câu có ngôn ngữ thiếu tôn trọng hoặc gây khó chịu.
+report-grammar-or-spelling = Lỗi ngữ pháp / chính tả
+report-grammar-or-spelling-detail = Câu có lỗi ngữ pháp hoặc chính tả.
+report-different-language = Ngôn ngữ khác
+report-different-language-detail = Nó được viết bằng một ngôn ngữ khác với những gì tôi nói.
+report-difficult-pronounce = Khó phát âm
+report-difficult-pronounce-detail = Nó chứa các từ hoặc cụm từ khó đọc hoặc phát âm.
+report-offensive-speech = Lời nói xúc phạm
+report-offensive-speech-detail = Đoạn clip có ngôn từ thiếu tôn trọng hoặc gây khó chịu.
+report-other-comment =
+    .placeholder = Bình luận
+success = Thành công
+continue = Tiếp tục
+report-success = Báo cáo đã được gửi thành công
 
 ## Goals
 

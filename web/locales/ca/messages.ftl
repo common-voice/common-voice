@@ -306,6 +306,7 @@ skip-submission-note = Nota: Igualment haureu de seleccionar entre Parla o Escol
 off = Desactivat
 on = Activat
 add-avatar-title = Afegiu un avatar al perfil
+add-avatar-clip = Afegiu una imatge d'avatar al vostre perfil
 browse-file-title = Puja un fitxer d'imatge
 browse-file = Arrossegueu i deixeu anar o feu clic a <browseWrap>Navega</browseWrap>
 connect-gravatar = Connecta amb Gravatar
@@ -334,6 +335,7 @@ faq-how-get-q = Com puc obtenir les dades del Common Voice?
 faq-how-get-a = El conjunt de dades del Common Voice es pot baixar sota la llicència <licenseLink>CC0</licenseLink> des de <datasetLink>la nostra pàgina de conjunts de dades</datasetLink>. També podeu baixar diversos conjunts de dades disponibles públicament des de la mateixa pàgina.
 faq-when-release-q = Quan publicareu les dades del Common Voice en altres llengües?
 faq-why-mission-q = Per què el Common Voice forma part de la missió de Mozilla?
+faq-why-mission-a = La missió de Mozilla és mantenir el Web obert i accessible a tothom. Per fer-ho, necessitem oferir eines als creadors de contingut web mitjançant projectes com el Common Voice. Les tecnologies de veu estan proliferant més enllà d'aplicacions molt especialitzades, i creiem que han de servir a tots els usuaris en igualtat de condicions. Això significa incloure més llengües, més diversitat d'accents i de dades demogràfiques a l'hora de crear i provar les tecnologies de veu. El Common Voice és un recurs públic, disponible per a tothom, i els equips de Mozilla i els desenvolupadors d'arreu del món ja l'utilitzen en els seus propis projectes.
 faq-what-cv-and-deepspeech-q = Quina diferència hi ha entre el Common Voice i el Deep Speech?
 faq-what-cv-and-deepspeech-a = El conjunt de dades del Common Voice complementa el motor de reconeixement de veu de codi obert Deep Speech de Mozilla. La primera versió del Deep Speech es va publicar el novembre de 2017 i ha continuat evolucionant des d'aleshores. Juntament amb el conjunt de dades del Common Voice, creiem que aquesta tecnologia de reconeixement de veu de codi obert hauria d'estar disponible per a tothom. Esperem que aquestes tecnologies permetin als desenvolupadors construir una onada de productes i serveis innovadors.
 faq-is-goal-assistant-q = L'objectiu del Common Voice és construir un assistent de veu?
@@ -359,14 +361,46 @@ faq-how-privacy-a = La informació d'identificació personal se suprimeix de tot
 faq-what-determine-identity-q = Què vol dir que no puc «determinar la identitat» dels parlants en el conjunt de dades del Common Voice?
 faq-what-is-cv = Què és el Common Voice?
 faq-using-cv = Ús del Common Voice
+faq-description = El projecte Common Voice forma part de la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò.
+faq-search-for-answers =
+    .label = Cerca respostes
 
 ## ABOUT US
 
 about-title = Per què Common Voice?
-about-dataset = Conjunt de dades del Common Voice
+about-subtitle = El projecte Common Voice forma part de la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò. A més del conjunt de dades del Common Voice, també estem construint un motor de reconeixement de veu de codi obert anomenat Deep Speech.
+about-header-description =
+    Ambdós projectes formen part dels nostres esforços per reduir les desigualtats en el món de la veu digital. Les tecnologies de reconeixement de veu aporten una dimensió humana als nostres dispositius, però els desenvolupadors necessiten una gran quantitat de dades de veu per crear-les. Actualment, la majoria d'aquestes dades són cares i propietàries.
+    Volem que les dades de veu siguin lliures i públiques, i garantir que les dades representin la diversitat de la gent real. Junts podem fer que el reconeixement de veu sigui millor per a tothom.
+how-does-it-work-title = Com funciona?
+how-does-it-work-text = Estem creant de forma col·laborativa un conjunt de dades de veu obert. Doneu la vostra veu, valideu la precisió dels talls d'altres persones i feu que el conjunt de dades sigui millor per a tothom.
+about-speak = Parla
+about-speak-text = Els col·laboradors enregistren talls de veu llegint textos que provenen d'un banc de frases donades.
+about-listen-queue = Cua d'escolta
+about-listen-queue-text = Els talls de veu es posen en una cua de talls llestos per escoltar.
+about-listen = Escolta
+about-listen-text = Els usuaris validen la precisió dels talls comprovant que el locutor llegeixi la frase correctament.
+about-is-it-valid = El tall és vàlid?
+about-is-it-valid-text = Un tall de veu es marca com a «vàlid» quan un usuari el vota amb Sí.
+about-yes-votes = 2 vots positius o més
+about-yes-votes-text = Per incloure un tall de veu en el conjunt de dades del Common Voice, cal que dos usuaris diferents el validin.
+about-no-votes = 2 vots negatius o més
+about-no-votes-text = Si un usuari rebutja un tall de veu, es torna a posar a la cua. Si es rebutja una segona vegada, el tall de veu passa al «cementiri de talls».
+about-dataset-new = Conjunt de dades del Common Voice
+about-dataset-new-text = El conjunt de dades del Common Voice conté centenars de milers de mostres de veu que ajuden els desenvolupadors a crear eines de reconeixement de veu.
+about-clip-graveyard = Cementiri de talls
+about-clip-graveyard-text = El cementiri de talls inclou els talls de veu que no han entrat al conjunt de dades del Common Voice. Igual que el conjunt de dades, el cementiri de talls també es pot descarregar.
+about-partners = Socis
+about-become-a-partner = Feu-vos soci
 about-get-involved = Col·laboreu-hi
+about-get-involved-text =
+    Voleu ajudar a millorar el Common Voice?
+    Genial! Poseu-vos en contacte per correu electrònic o pel <discourseLink>Discourse</discourseLink>,
+    envieu comentaris mitjançant el <githubLink>GitHub</githubLink>
+    o uniu-vos al nostre <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Per què?
 about-nav-how-it-works = Com?
+about-nav-partners = Socis
 about-nav-get-involved = Col·laboreu-hi
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intel·ligència artificial
@@ -419,8 +453,9 @@ review-cancel = Cancel·la l'enviament
 review-keep-recordings = Conserva els enregistraments
 review-delete-recordings = Suprimeix els meus enregistraments
 
-## New Datasets Page
+## Datasets Page
 
+datasets-headline = Estem creant un conjunt de dades de veus obert i multilingüe que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
 language = Llengua
 # File size in gigabytes
 size = Mida
@@ -464,6 +499,7 @@ ready-to-validate = Esteu preparat per a validar frases?
 more = Més
 close = Tanca
 download = Baixa
+dataset-version = Versió
 
 ## Download Modal
 
@@ -545,7 +581,6 @@ record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un al
 record-again-instruction2 = Seguiu així! Enregistreu-ne un altre <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> L'últim!
 review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí mateix
-unable-speak = No podeu parlar, ara?
 review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
 record-submit-tooltip = { $actionType } Envia quan hàgiu enllestit
 clips-uploaded = Talls pujats
@@ -561,6 +596,27 @@ listen-last-time-instruction = <playIcon></playIcon> L'últim!
 nothing-to-validate = No hi ha res per validar en aquesta llengua. Ajudeu-nos a enregistrar-ne més per omplir la cua.
 record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
+
+## Reporting
+
+report = Informa
+report-title = Envieu un informe
+report-ask = Quin problema teniu amb aquesta frase?
+report-offensive-language = Llenguatge ofensiu
+report-offensive-language-detail = La frase té un llenguatge ofensiu o irrespectuós.
+report-grammar-or-spelling = Error gramatical / ortogràfic
+report-grammar-or-spelling-detail = La frase té un error gramatical o ortogràfic.
+report-different-language = Una altra llengua
+report-different-language-detail = Està escrita en una llengua diferent de la que parlo.
+report-difficult-pronounce = Difícil de pronunciar
+report-difficult-pronounce-detail = Conté paraules o frases difícils de llegir o de pronunciar.
+report-offensive-speech = Àudio ofensiu
+report-offensive-speech-detail = El tall té un llenguatge ofensiu o irrespectuós.
+report-other-comment =
+    .placeholder = Comentari
+success = Correcte
+continue = Continua
+report-success = L'informe s'ha enviat correctament
 
 ## Goals
 
@@ -611,3 +667,10 @@ why-delete-recordings =
     
     Podríeu fer-nos saber per què voleu suprimir els vostres enregistraments?
 profile-form-delete = Suprimeix el perfil
+
+## Landing
+
+welcome-staff = Personal de { $company }, us donem la benvinguda!
+login-company = Inici de sessió / Registre amb l'adreça electrònica de { $company }
+profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
+read-more-about = Vegeu més informació a la pàgina «Qui som»

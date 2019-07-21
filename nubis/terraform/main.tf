@@ -44,9 +44,7 @@ module "load_balancer" {
   health_check_healthy_threshold   = 3
   health_check_unhealthy_threshold = 3
 
-  # This should take precedence over ssl_cert_name_prefix
   ssl_cert_arn         = "${aws_acm_certificate.voice.arn}"
-  ssl_cert_name_prefix = "${var.service_name}"
 }
 
 module "dns" {

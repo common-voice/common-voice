@@ -97,6 +97,7 @@ or = Odia
 pl = Polonese
 pt-BR = Portugese (Brasil)
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romancio vallader
 ro = Romaniano
 ru = Russo
 rw = Ruanda
@@ -108,6 +109,7 @@ sl = Sloveno
 sq = Albanese
 sr = Serbo
 sv-SE = Svedese
+syr = Syriac
 ta = Tamil
 te = Telugu
 tg = Tajik
@@ -315,6 +317,7 @@ skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pr
 off = Inactive
 on = Activar
 add-avatar-title = Adde un avatar a tu profilo
+add-avatar-clip = Adde un clip avatar a tu profilo
 browse-file-title = Carga un file imagine
 browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
@@ -335,8 +338,7 @@ faq-why-important-q = Perque es illo importante?
 faq-why-important-a = Le voce es sovente nostre maniera plus natural pro communicar le un con le alteres e le technologias del voce apporta ille convenientia a nostre computatores e apparatos mobile. Nos vole habilitar le disveloppatores a construer stupende applicationes del recognition del voce como traductores real-time e assistentes digital activate per le voce. Ma actualmente le major parte del datos vocal requirite pro construer iste typos de applicationes es costose e proprietari. Nos spera que le collection de datos de Common Voice dara al disveloppatores lo que illos besonia pro innovar e render disponibile le technologia del voce in lor proprie lingua.
 faq-how-get-q = Como pote io obtener le datos de Common Voice?
 faq-how-get-a = Le collection de datos de Common Voice es disponibile pro discargamento sub le licentia <licenseLink>CC0</licenseLink> sur <datasetLink>nostre pagina del collectiones de datos</datasetLink>. Tu pote alsi discargar ab le mesme pagina plure altere collectiones de datos publicamente disponibile.
-faq-when-release-q = Quando sera publicate le datos de Common Voice de tu version in altere linguas?
-faq-when-release-a = Le version multe-linguas del collection de datos de Common Voice es actualmente compilate e mundificate per le supporto del communitate. Si tu desira a saper plus re como supportar iste effortio, per favor <contactLink>continge nos</contactLink>.  Nos mira actualmente un data de publication de januario 2019. Postea, nos actualisara le collection de datos periodicamente con nove linguas e retalios vocal quando illos essera disponibile. Un cadentia iterative de cyclo del version debe ancora ser determinate.
+faq-when-release2-q = Quando vos publicara datos de Common Voice in altere linguas?
 faq-why-mission-q = Perque Common Voice es parte del mission de Mozilla?
 faq-why-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile a omnes. Pro facer illo nos necessita de habilitar le autores del web per projectos como Common Voice.  Quando le technologias del voce proliferara ultra le applicationes de niche, nos fide que illos debera servir tote le usatores equalmente. Illo significa investir in plus linguas e accommodar diverse accentos e datos demographic quando on compilara e testara le technologias del voce.  Common Voice es un public ressource disponibile a totes. Le equipas e le disveloppatores de Mozilla circum le mundo lo usa jam tam ben sur nostre proprie projectos.
 faq-what-cv-and-deepspeech-q = Qual es le differentia inter Common Voice e Deep Speech?
@@ -394,8 +396,7 @@ about-yes-votes = ≥ 2 votos Si
 about-yes-votes-text = Pro lo introducer in le collection de datos de Common Voice, un retalio vocal debe ser validate per duo diverse usatores.
 about-no-votes = ≥ 2 votos No
 about-no-votes-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
-about-dataset = Collection de datos de Common Voice
-about-dataset-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
+about-dataset-new = Collection de datos de Common Voice
 about-clip-graveyard = Cemeterio del retalios
 about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal que non es admittite in le collection de datos de Common Voice. Justo como le collection de datos, le Cemeterio del retalios es disponibile pro discarga.
 about-partners = Partners
@@ -469,7 +470,7 @@ review-cancel = Cancellar invio
 review-keep-recordings = Retener le registrationes
 review-delete-recordings = Deler mi registrationes
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Nos produce un collection de datos open-source e multe-lingua que omnes pote usar pro provar applicationes activate per le voce.
 datasets-positioning =
@@ -521,6 +522,7 @@ ready-to-validate = Preste a adjutar validar phrases?
 more = Altero
 close = Clauder
 download = Discargar
+dataset-version = Version
 
 ## Download Modal
 
@@ -569,7 +571,7 @@ localized = Localisate
 sentences = Phrases
 total-hours = Numero total de horas
 
-## New Contribution
+## Contribution
 
 action-click = Clic
 action-tap = Tocca
@@ -602,10 +604,9 @@ record-again-instruction = Grande!<recordIcon></recordIcon> Registra tu proxime 
 record-again-instruction2 = Continua assi, registra de novo <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Le ultime!
 review-tooltip = Reascolta e re-registra le retalios durante que tu va
-unable-speak = Non pote tu leger ora?
 review-instruction = Reascolta e re-registra retalios al besonio
 record-submit-tooltip = { $actionType } inviar quando preste
-clips-uploaded = Retalios gargate
+clips-uploaded = Retalios cargate
 record-abort-title = Finir antea de registrar?
 record-abort-text = Lassar ora significa que tu perde tu progresso
 record-abort-submit = Inviar le retalios
@@ -618,6 +619,28 @@ listen-last-time-instruction = <playIcon></playIcon>Ultimo!
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
 record-button-label = Registra tu voce
 share-title-new = <bold>Adiuta nos</bold> a trovar altere voces
+login-to-get-started = Accede o registrate pro comenciar
+
+## Reporting
+
+report = Reporto
+report-title = Invia un reporto
+report-ask = Qual problemas ha tu con iste phrase?
+report-offensive-language = Linguage offensive
+report-offensive-language-detail = Le phrase usa un linguage irrespectuose o offensive.
+report-grammar-or-spelling = Error grammatical o de orthographia
+report-grammar-or-spelling-detail = La phrase ha un error grammatical o de orthographia.
+report-different-language = Lingua diverse
+report-different-language-detail = Es scribite in un lingua diverse ab illo que io parla.
+report-difficult-pronounce = Difficile a pronunciar
+report-difficult-pronounce-detail = Contine parolas o phrases difficile a leger o pronunciar.
+report-offensive-speech = Discurso offensive
+report-offensive-speech-detail = La registration usa un linguage irrespectuose o offensive.
+report-other-comment =
+    .placeholder = Commento
+success = Successo
+continue = Continuar
+report-success = Le reporto passava con successo!
 
 ## Goals
 

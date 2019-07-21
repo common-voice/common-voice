@@ -517,45 +517,6 @@ export default class DB {
     );
   }
 
-  async fillCacheColumns() {
-    await Promise.all([
-      this.mysql.query(
-        `
-          UPDATE clips updated_clips
-          SET is_valid = (
-            SELECT
-              CASE
-                WHEN upvotes_count >= 2 AND upvotes_count > downvotes_count
-                  THEN TRUE
-                WHEN downvotes_count >= 2 AND downvotes_count > upvotes_count
-                  THEN FALSE
-                ELSE NULL
-              END
-            FROM (
-              SELECT
-                clips.id AS id,
-                COALESCE(SUM(votes.is_valid), 0)     AS upvotes_count,
-                COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
-              FROM clips
-              LEFT JOIN votes ON clips.id = votes.clip_id
-              GROUP BY clips.id
-            ) t
-            WHERE t.id = updated_clips.id
-          )
-        `
-      ),
-      this.mysql.query(
-        `
-          UPDATE sentences SET clips_count = (
-            SELECT COUNT(clips.id)
-            FROM clips
-            WHERE original_sentence_id = sentences.id
-          )
-        `
-      ),
-    ]);
-  }
-
   async createSkippedSentence(id: string, client_id: string) {
     await this.mysql.query(
       `
@@ -581,5 +542,25 @@ export default class DB {
       `,
       [await getLocaleId(locale), email]
     );
+  }
+
+  async createReport(
+    client_id: string,
+    {
+      kind,
+      id,
+      reasons,
+    }: { kind: 'clip' | 'sentence'; id: string; reasons: string[] }
+  ) {
+    const [table, column] =
+      kind == 'clip'
+        ? ['reported_clips', 'clip_id']
+        : ['reported_sentences', 'sentence_id'];
+    for (const reason of reasons) {
+      await this.mysql.query(
+        `INSERT INTO ${table} (client_id, ${column}, reason) VALUES (?, ?, ?)`,
+        [client_id, id, reason]
+      );
+    }
   }
 }

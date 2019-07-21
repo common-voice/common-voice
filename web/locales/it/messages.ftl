@@ -97,6 +97,7 @@ or = Oriya
 pl = Polacco
 pt-BR = Portoghese (Brasile)
 rm-sursilv = Romancio sottosilvano
+rm-vallader = Romancio Vallader
 ro = Rumeno
 ru = Russo
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Sloveno
 sq = Albanese
 sr = Serbo
 sv-SE = Svedese
+syr = Siriaco
 ta = Tamil
 te = Telugu
 tg = Tagico
@@ -340,8 +342,8 @@ faq-why-important-a =
     Per rendere il riconoscimento vocale ancora più universale, stiamo raccogliendo campioni vocali nelle lingue più comuni, ma anche in quelle parlate da un ristretto numero di persone e che spesso vengono ignorate dai servizi di riconoscimento vocale commerciali. Pubblicando un insieme di dataset diversificato offriamo agli sviluppatori, agli imprenditori e a intere comunità linguistiche le risorse per colmare da soli questa lacuna.
 faq-how-get-q = Come posso ottenere i dati di Common Voice?
 faq-how-get-a = Il dataset di Common Voice è disponibile per essere scaricato sotto la licenza <licenseLink>CC0</licenseLink> dalla <datasetLink>pagina Dataset</datasetLink>. Nella stessa pagina puoi trovare molti altri dataset scaricabili pubblicamente.
-faq-when-release-q = Quando verranno pubblicati i dati di Common Voice in altre lingue?
-faq-when-release-a = La versione multilingua del dataset di Common Voice è attualmente in fase di costruzione e rifinitura per mano della nostra comunità. Se vuoi saperne di più su come sostenere questo sforzo, <contactLink>contattaci</contactLink>. Al momento la pubblicazione è prevista per gennaio 2019. Successivamente aggiorneremo periodicamente il dataset con nuove lingue e con registrazioni vocali appena diventano disponibili. È ancora da determinare la cadenza dell’aggiornamento periodico.
+faq-when-release2-q = Quando verranno rilasciati i dati di Common Voice in altre lingue?
+faq-when-release2-a = La comunità di volontari sta ancora radunando e rielaborando la versione multilingua del dataset. Se desideri aiutarci ad aggiungere altre lingue su Common Voice, puoi immettere nuove frasi nel dataset usando il <sentenceCollectorLink>Sentence Collector Tool</sentenceCollectorLink> oppure tradurre la pagina web di Common Voice nella tua lingua con <pontoonLink>Pontoon</pontoonLink>, la piattaforma di localizzazione online di Mozilla. Le nuove lingue vengono attivate su Common Voice una volta raccolte e approvate 5000 frasi.
 faq-why-mission-q = In che modo Common Voice rientra nella missione di Mozilla?
 faq-why-mission-a = La missione di Mozilla è mantenere il Web aperto e accessibile a tutti. Questo include anche offrire opportunità agli autori di contenuti Web attraverso progetti come Common Voice. Ora che le tecnologie vocali non sono più applicazioni di nicchia, crediamo che dovrebbero essere disponibili per tutti senza alcuna discriminazione. Ciò significa investire nello sviluppo e nel collaudo di più lingue, tenendo in considerazione i diversi accenti e varianti demografiche. Common Voice è una risorsa pubblica disponibile per tutti: i team di Mozilla e gli sviluppatori in tutto il mondo lo stanno già utilizzando per propri progetti.
 faq-what-cv-and-deepspeech-q = Qual è la differenza tra Common Voice e Deep Speech?
@@ -445,7 +447,7 @@ data-download-modal = Verranno scaricati <size>{ $size }GB</size> di dati. Proce
 data-subtitle = Stiamo costruendo un dataset di voci pubblico e aperto che chiunque possa utilizzare per addestrare applicativi con supporto vocale.
 data-explanatory-text = Secondo noi un grande dataset disponibile pubblicamente promuoverà l’innovazione e una sana competizione commerciale nel campo dell’apprendimento automatico basato su tecnologie vocali. La nostra è un’iniziativa globale, tutti sono invitati a partecipare. Il nostro scopo è rendere le tecnologie vocali più inclusive e adatte a rispecchiare la diversità di voci nel mondo.
 data-get-started = <speechBlogLink>Istruzioni per il riconoscimento vocale</speechBlogLink>
-data-other-title = Altri dataset vocali...
+data-other-title = Altri dataset vocali…
 data-other-goto = Vai a { $name }
 data-other-download = Scarica i dati
 data-bundle-button = Scarica bundle di dataset
@@ -564,7 +566,7 @@ localized = Localizzate
 sentences = Frasi
 total-hours = Ore convalidate
 
-## New Contribution
+## Contribution
 
 action-click = Fai clic su
 action-tap = Tocca
@@ -593,7 +595,6 @@ record-again-instruction = Ottimo! <recordIcon></recordIcon> Registra la success
 record-again-instruction2 = Continua così, registra di nuovo <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> L’ultima!
 review-tooltip = Riascolta e, se necessario, ripeti le registrazioni prima di proseguire
-unable-speak = Non posso parlare in questo momento
 review-instruction = Riascolta le registrazioni e, se necessario, ripetile
 record-submit-tooltip = { $actionType } Invia quando sei pronto
 clips-uploaded = Registrazioni caricate
@@ -609,6 +610,29 @@ listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 nothing-to-validate = Non sono presenti registrazioni da convalidare in questa lingua, aiutaci registrando qualche frase.
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci
+keep-track-profile = Tieni traccia dei progressi con un profilo
+login-to-get-started = Accedi o registrati per iniziare
+
+## Reporting
+
+report = Segnalazione
+report-title = Invia una segnalazione
+report-ask = Quali problemi stai riscontrando con questa frase?
+report-offensive-language = Linguaggio offensivo
+report-offensive-language-detail = La frase utilizza un linguaggio irrispettoso o offensivo.
+report-grammar-or-spelling = Errore grammaticale o di ortografia
+report-grammar-or-spelling-detail = La frase ha un errore grammaticale o di ortografia.
+report-different-language = Lingua diversa
+report-different-language-detail = È scritta in una lingua diversa da quella che sto parlando.
+report-difficult-pronounce = Difficile da pronunciare
+report-difficult-pronounce-detail = Contiene parole o frasi difficili da leggere o pronunciare.
+report-offensive-speech = Discorso offensivo
+report-offensive-speech-detail = La registrazione utilizza un linguaggio irrispettoso o offensivo.
+report-other-comment =
+    .placeholder = Commento
+success = Completato
+continue = Continua
+report-success = La segnalazione è stata inviata correttamente.
 
 ## Goals
 

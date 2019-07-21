@@ -97,6 +97,7 @@ or = Odia
 pl = Pools
 pt-BR = Portugees (Brazilië)
 rm-sursilv = Reto-Romaans Surselvisch
+rm-vallader = Reto-Romaans Vallader
 ro = Roemeens
 ru = Russisch
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Sloveens
 sq = Albanees
 sr = Servisch
 sv-SE = Zweeds
+syr = Syrisch
 ta = Tamil
 te = Telugu
 tg = Tadzjieks
@@ -612,7 +614,6 @@ record-again-instruction = Geweldig! <recordIcon></recordIcon> Neem uw volgende 
 record-again-instruction2 = Ga zo door, neem nog een keer op <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> De laatste!
 review-tooltip = Beoordeel en neem nogmaals fragmenten op als u wilt
-unable-speak = Kunt u nu niet spreken?
 review-instruction = Beoordeel fragmenten en neem ze zo nodig opnieuw op
 record-submit-tooltip = { $actionType } Indienen wanneer gereed
 clips-uploaded = Fragmenten geüpload
@@ -628,6 +629,27 @@ listen-last-time-instruction = <playIcon></playIcon> De laatste!
 nothing-to-validate = Er is niets in deze taal te valideren; help ons de rij te vullen.
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
+
+## Reporting
+
+report = Rapporteren
+report-title = Een rapport verzenden
+report-ask = Welke problemen ondervindt u met deze zin?
+report-offensive-language = Beledigende taal
+report-offensive-language-detail = De zin bevat respectloze of beledigende taal.
+report-grammar-or-spelling = Grammaticale / spellingfout
+report-grammar-or-spelling-detail = De zin heeft een grammaticale of spellingfout.
+report-different-language = Andere taal
+report-different-language-detail = Het is geschreven in een andere taal dan welke ik spreek.
+report-difficult-pronounce = Moeilijk uit te spreken
+report-difficult-pronounce-detail = Hij bevat woorden of zinnen die moeilijk te lezen of uit te spreken zijn.
+report-offensive-speech = Beledigende tekst
+report-offensive-speech-detail = Het fragment bevat respectloze of beledigende taal.
+report-other-comment =
+    .placeholder = Opmerking
+success = Geslaagd
+continue = Doorgaan
+report-success = Rapport met succes doorgegeven
 
 ## Goals
 

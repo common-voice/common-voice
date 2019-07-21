@@ -97,6 +97,7 @@ or = Odia
 pl = Polonais
 pt-BR = Portugais (Brésil)
 rm-sursilv = Romanche sursilvan
+rm-vallader = Bas-engadinois
 ro = Roumain
 ru = Russe
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Slovène
 sq = Albanais
 sr = Serbe
 sv-SE = Suédois
+syr = Syriaque
 ta = Tamoul
 te = Télougou
 tg = Tadjik
@@ -341,8 +343,6 @@ faq-why-important-a =
     Pour rendre la reconnaissance vocale encore plus universelle, nous collectons des échantillons de voix dans des langues largement parlées, mais aussi dans celles qui ont une population de locuteurs réduite,  qui sont souvent mal desservies par les services commerciaux de reconnaissance vocale. La publication d'un jeu de données de voix diversifiées permettra aux développeurs, aux entrepreneurs et à des communautés linguistiques tout entières de combler cet écart.
 faq-how-get-q = Comment obtenir les données de Common Voice ?
 faq-how-get-a = Le jeu de données de Common Voice est disponible au téléchargement selon les termes de la licence <licenseLink>CC0</licenseLink> sur <datasetLink>la page des jeux de données</datasetLink>. Vous pouvez aussi télécharger plusieurs autres jeux de données publics sur cette page.
-faq-when-release-q = Quand publierez-vous les données de Common Voice dans d’autres langues ?
-faq-when-release-a = La version multilingue du jeu de données Common Voice est en cours de construction et de nettoyage par la communauté. Si vous souhaitez en apprendre plus à ce sujet, merci de <contactLink>nous contacter</contactLink>. Nous visons actuellement une date de sortie publique en janvier 2019. Après quoi nous ferons des mises à jour régulières avec les nouveaux enregistrements et les nouvelles langues, dès qu’ils seront disponibles. Un cycle de publication avec une cadence plus régulière reste à déterminer.
 faq-why-mission-q = Pourquoi Common Voice fait-il partie de la mission de Mozilla ?
 faq-why-mission-a = Mozilla a pour vocation de conserver le Web ouvert et accessible à tout le monde. Pour y parvenir, nous devons doter les créateurs d’outils comme Common Voice. Les technologies vocales prolifèrent maintenant au-delà de certaines niches, et nous pensons qu’elles doivent être équitablement utilisables. Nous voyons un besoin d’inclure plus de langues, d’accents et de tranches d’âge pour la création et le test des technologies vocales. Mozilla veut un Internet actif, en bonne santé. Cela implique de donner accès, aux créateurs sur le Web, à des données vocales qu’ils peuvent utiliser pour de nouveaux projets. Common Voice deviendra une ressource publique qui aidera les équipes de Mozilla et les développeurs du monde entier.
 faq-what-cv-and-deepspeech-q = Quelle est la différence entre Common Voice et Deep Speech ?
@@ -513,7 +513,7 @@ dataset-description-hours =
     Chaque entrée du jeu de données consiste en un seul fichier MP3 accompagné d’un fichier du texte correspondant. Une grande partie des <b>{ $total }</b> heures enregistrées dans le jeu de données comprennent également des métadonnées démographiques, telles que l’âge, le sexe et l’accent, qui peuvent contribuer à améliorer la précision des moteurs de reconnaissance vocale.
     
     Le jeu de données contient actuellement <b>{ $valid }</b> heures validées dans <b>{ $languages }</b> langues, mais nous ajoutons en permanence plus de voix et de langues. Jetez un œil à la <languagesLink>page des langues</languagesLink> pour demander une langue ou commencer à contribuer.
-want-dataset-update = Vous souhaitez être informé(e) lorsque nous publions une nouvelle version du jeu de données Common Voice ? Inscrivez-vous à notre lettre d’information.
+want-dataset-update = Vous souhaitez être informé·e lorsque nous publions une nouvelle version du jeu de données Common Voice ? Inscrivez-vous à notre lettre d’information.
 subscribe = S’abonner
 get-started-speech = S’initier à la reconnaissance vocale
 other-datasets = Autres jeux de données vocales
@@ -529,7 +529,7 @@ your-feedback = Vous avez des idées pour améliorer le jeu de données Common V
 go-discourse = Aller sur Discourse
 missing-language = Votre langue ne fait pas partie du jeu de données ? Pour demander l’ajout d’une nouvelle langue, rendez-vous sur notre page des langues.
 go-languages-page = Aller sur la page des langues
-ready-to-validate = Prêt(e) à nous aider à valider des phrases ?
+ready-to-validate = Prêt·e à nous aider à valider des phrases ?
 more = Informations supplémentaires
 close = Fermer
 download = Télécharger
@@ -582,7 +582,7 @@ localized = Traduction
 sentences = Phrases
 total-hours = Total d’heures
 
-## New Contribution
+## Contribution
 
 action-click = Cliquez sur
 action-tap = Appuyez sur
@@ -611,7 +611,6 @@ record-again-instruction = Formidable ! <recordIcon></recordIcon> Enregistrez v
 record-again-instruction2 = Continuez comme ça et enregistrez-en un de plus.
 record-last-instruction = <recordIcon></recordIcon> C’est le dernier !
 review-tooltip = Vérifier et réenregistrer au besoin
-unable-speak = Impossible de parler en ce moment
 review-instruction = Vérifiez et réenregistrez si nécessaire
 record-submit-tooltip = { $actionType } envoyer lorsque vous êtes prêt
 clips-uploaded = Clips mis en ligne
@@ -627,6 +626,27 @@ listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 nothing-to-validate = Nous n’avons rien à valider dans cette langue, aidez-nous à ajouter quelques enregistrements dans la file d’attente.
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
+
+## Reporting
+
+report = Signaler
+report-title = Envoyer un rapport
+report-ask = Quels problèmes rencontrez-vous avec cette phrase ?
+report-offensive-language = Langage grossier
+report-offensive-language-detail = La phrase comporte des propos irrespectueux ou insultants.
+report-grammar-or-spelling = Erreur grammaticale / faute d’orthographe
+report-grammar-or-spelling-detail = La phrase comporte une faute de grammaire ou d’orthographe.
+report-different-language = Autre langue
+report-different-language-detail = La phrase est écrite dans une langue différente de celle que je parle.
+report-difficult-pronounce = Difficile à prononcer
+report-difficult-pronounce-detail = Certains mots ou certaines phrases sont difficiles à lire ou à prononcer.
+report-offensive-speech = Propos offensants
+report-offensive-speech-detail = L’échantillon audio comporte des propos irrespectueux ou insultants.
+report-other-comment =
+    .placeholder = Commentaire
+success = Opération réussie
+continue = Continuer
+report-success = Le rapport a été correctement envoyé
 
 ## Goals
 

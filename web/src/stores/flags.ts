@@ -1,3 +1,5 @@
+import { isProduction } from '../utility';
+
 export namespace Flags {
   export type MessageOverwrites = {
     [locale: string]: string;
@@ -5,7 +7,7 @@ export namespace Flags {
 
   export interface State {
     messageOverwrites: MessageOverwrites;
-    homeHeroes: ('speak' | 'listen')[];
+    showAccountConversionModal: boolean;
   }
 
   enum ActionType {
@@ -31,7 +33,7 @@ export namespace Flags {
       messageOverwrites: JSON.parse(
         sessionStorage.getItem('messageOverwrites') || '{}'
       ),
-      homeHeroes: ['speak', 'listen'],
+      showAccountConversionModal: !isProduction(),
     },
     action: Action
   ): State {

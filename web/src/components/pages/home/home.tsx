@@ -22,10 +22,10 @@ type HeroType = 'speak' | 'listen';
 const GOALS_NOTIFICATION_KEY = 'seenGoalsNotification';
 
 export default function HomePage() {
-  const { account, heroes, isFetchingAccount, locale, user } = useTypedSelector(
-    ({ flags, locale, user }) => ({
+  const heroes = ['speak', 'listen'];
+  const { account, isFetchingAccount, locale, user } = useTypedSelector(
+    ({ locale, user }) => ({
       account: user.account,
-      heroes: flags.homeHeroes,
       isFetchingAccount: user.isFetchingAccount,
       locale,
       user,

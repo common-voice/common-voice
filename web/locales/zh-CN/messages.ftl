@@ -97,6 +97,7 @@ or = 奥里亚语
 pl = 波兰语
 pt-BR = 葡萄牙语（巴西）
 rm-sursilv = 罗曼什语（苏斯勒万）
+rm-vallader = 罗曼什瓦勒德语
 ro = 罗马尼亚语
 ru = 俄语
 rw = 卢旺达语
@@ -108,6 +109,7 @@ sl = 斯洛文尼亚语
 sq = 阿尔巴尼亚语
 sr = 塞尔维亚语
 sv-SE = 瑞典语
+syr = 叙利亚语
 ta = 泰米尔语
 te = 泰卢固语
 tg = 塔吉克语
@@ -335,8 +337,8 @@ faq-why-important-q = 为什么如此重要？
 faq-why-important-a = 说话是人类相互沟通最自然的方式。而语音技术把这种方便感带到了计算机与移动设备上。我们想让开发者能够打造效果极好的语音识别程序，比如实时翻译器和语音数字助手。但此刻，大多数打造这类应用所必需的语音数据都是私有且昂贵的。我们希望 Common Voice 提供的数据集能满足开发者所需，把语音技术带到他们所说的语言。
 faq-how-get-q = 我要如何获取 Common Voice 数据？
 faq-how-get-a = 可到 <datasetLink>Common Voice 数据集页面</datasetLink>下载，本数据集遵循<licenseLink>CC0</licenseLink> 进行授权。您也可以在该页面中下载其他几组公开可用的数据集。
-faq-when-release-q = 你们什么时候会发布其他语言的 Common Voice 数据？
-faq-when-release-a = 多语言版本的 Common Voice 数据集目前正由社区进行整理与维护。若想了解如何参与这个工作，请<contactLink>联系我们</contactLink>。我们的目标是在 2019 年 1 月发布数据集，之后会定期加入新语言与录音片段进行更新。迭代发布的周期仍待确定。
+faq-when-release2-q = 你们何时会发布其他语言的 Common Voice 数据？
+faq-when-release2-a = Common Voice 数据集的多语言版本目前正由社区的支持人员梳理中。如果您想协助我们为 Common Voice 增加新语言，请前往查看<sentenceCollectorLink>语句收集工具</ sentenceCollectorLink>，以便为数据集添加新句子，并可使用 Mozilla 的 <pontoonLink>Pontoon</pontoonLink> 工具翻译网站本身。当收集到不少于 5000 条核准的句子时，新语言就可添加到 Common Voice 中。
 faq-why-mission-q = 为什么 Common Voice 也是 Mozilla 使命的一部分？
 faq-why-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。这意味着在构建和测试语音技术时，应当满足更多语言、口音和人口特征的需求。Common Voice 将成为人人皆可使用的公共资源，Mozilla 团队和世界各地的开发者也已将其用于项目开发中。
 faq-what-cv-and-deepspeech-q = Common Voice 与 Deep Speech 有何不同？
@@ -574,7 +576,7 @@ localized = 本地化
 sentences = 句子
 total-hours = 总小时数
 
-## New Contribution
+## Contribution
 
 action-click = 点击
 action-tap = 点按
@@ -603,7 +605,6 @@ record-again-instruction = 太棒了！<recordIcon></recordIcon> 来录制下一
 record-again-instruction2 = 继续加油，再录一次 <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> 最后一个！
 review-tooltip = 在此确认或重新录制片段
-unable-speak = 现在无法朗读
 review-instruction = 确认录音内容，有需要的话可以重录
 record-submit-tooltip = { $actionType } 确认无误即可提交
 clips-uploaded = 片段已上传
@@ -619,6 +620,29 @@ listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 nothing-to-validate = 我们没有这个语言可供验证的录音，请帮助我们多录一些。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
+keep-track-profile = 创建账户跟踪个人贡献进度
+login-to-get-started = 请完成登录或注册，即可开始使用
+
+## Reporting
+
+report = 反馈
+report-title = 提交反馈
+report-ask = 该语句存在什么问题？
+report-offensive-language = 冒犯性的语言
+report-offensive-language-detail = 这句话有不尊重或冒犯性的语言。
+report-grammar-or-spelling = 语法 / 拼写错误
+report-grammar-or-spelling-detail = 这句话的语法或拼写有误。
+report-different-language = 其他语言
+report-different-language-detail = 这句话是其他语言的语句。
+report-difficult-pronounce = 难以发音
+report-difficult-pronounce-detail = 其中包含难以阅读或发音的单词或短语。
+report-offensive-speech = 冒犯性的录音片段
+report-offensive-speech-detail = 这个片段中有不尊重或冒犯性的语言。
+report-other-comment =
+    .placeholder = 备注
+success = 成功
+continue = 继续
+report-success = 反馈成功通过
 
 ## Goals
 

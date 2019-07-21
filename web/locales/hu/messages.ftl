@@ -97,6 +97,7 @@ or = Orija
 pl = Lengyel
 pt-BR = Portugál (Brazília)
 rm-sursilv = Romans sursilvan
+rm-vallader = Romans vallader
 ro = Román
 ru = Orosz
 rw = Ruandai
@@ -108,6 +109,7 @@ sl = Szlovén
 sq = Albán
 sr = Szerb
 sv-SE = Svéd
+syr = Szír
 ta = Tamil
 te = Telugu
 tg = Tádzsik
@@ -348,8 +350,8 @@ faq-why-important-a =
     Hogy a beszédfelismerést még univerzálisabbá tegyük, nem csak a széles körben beszélt nyelveken gyűjtünk adatokat, hanem a kisebb beszélőszámmal rendelkező nyelveken is, melyeket gyakran nem szolgálnak ki a kereskedelmi hangfelismerő szolgáltatások. A változatos hangadatkészlet lehetővé teszi, hogy a fejlesztők, vállalkozók és a nyelvi közösségek maguk küzdjék le ezt a különbséget.
 faq-how-get-q = Hogyan szerezhetem meg a Common Voice adatokat?
 faq-how-get-a = A Common Voice adatkészlet <licenseLink>CC0</licenseLink> licenc alatt érhető el, és az <datasetLink>Adatkészletek lapon</datasetLink> tölthető le.
-faq-when-release-q = Mikor kerülnek kiadásra a Common Voice adatok más nyelveken?
-faq-when-release-a = A Common Voice adatkészlet többnyelvű verziója jelenleg közösségi támogatású összeállítás és tisztítás alatt van. Ha többet akar tudni a törekvés támogatásáról, akkor <contactLink>lépjen velünk kapcsolatba</contactLink>. Jelenleg a 2019 januári kiadási dátumot célozzuk. Azután időnként új nyelvekkel és hangklipekkel fogjuk frissíteni az adatkészletet, amint azok elérhetővé válnak. Az iteratív kiadási ciklusok időköze még nincs eldöntve.
+faq-when-release2-q = Mikor fogják kiadni a Common Voice adatokat más nyelveken is?
+faq-when-release2-a = A Common Voice adatkészlet többnyelvű változata jelenleg közösség által támogatott feldolgozás és tisztítás alatt áll. Ha szeretne segíteni abban, hogy több új nyelven is elérhető legyen a Common Voice, akkor nézze meg a <sentenceCollectorLink>mondatgyűjtő eszközt</sentenceCollectorLink>, hogy további mondatokat adjon hozzá az adatkészlethez, és a Mozilla <pontoonLink>Pontoont</pontoonLink> hogy lefordítsa magát a weboldalt. Az új nyelvek akkor kerülnek hozzáadásra a Common Voice-hoz úgy, hogy már hangfelvételek is készíthetőek, ha 5000 jóváhagyott mondat kerül összegyűjtésre.
 faq-why-mission-q = Miért része a Common Voice a Mozilla küldetésének?
 faq-why-mission-a = A Mozilla elkötelezett abban, hogy a webet nyíltnak és mindenki számára szabadon hozzáférhetőnek tartsuk meg.  Ehhez szükséges, hogy a webalkotókat olyan projektekkel támogassuk mint a Common Voice. Mivel a beszédtechnológia túlmutat a rétegalkalmazásokon, ezért hiszünk abban, hogy minden felhasználót egyformán kell szolgáljon.  Ez azt jelenti, hogy több nyelvet is támogatunk, valamint a különböző akcentusokat és demográfiákat is figyelembe vesszük a hangtechnológiák készítésekor és tesztelésekor. A Common Voice egy nyilvános erőforrás, amely bárki számára elérhető, és a Mozilla csapatok és világ minden táján lévő fejlesztők már használják is a saját projektjeikben.
 faq-what-cv-and-deepspeech-q = Mi a különbség a Common Voice és a Deep Speech között?
@@ -586,7 +588,7 @@ localized = Honosítva
 sentences = Mondatok
 total-hours = Órák összesen
 
-## New Contribution
+## Contribution
 
 action-click = Kattintson
 action-tap = Koppintson
@@ -615,7 +617,6 @@ record-again-instruction = Nagyszerű! <recordIcon></recordIcon> A következő k
 record-again-instruction2 = Csak így tovább, vegyen fel újra <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Az utolsó!
 review-tooltip = Ellenőrizze, és ha kell, vegye fel újra a klipeket sorban
-unable-speak = Most nem tud beszélni
 review-instruction = Ellenőrizze, és ha kell, vegye fel újra a klipeket
 record-submit-tooltip = { $actionType } a beküldéshez, ha kész
 clips-uploaded = Klipek feltöltve
@@ -631,6 +632,29 @@ listen-last-time-instruction = <playIcon></playIcon> Utolsó!
 nothing-to-validate = Még nincs semmit ellenőrizni ezen a nyelven, segítsen feltölteni a sort.
 record-button-label = Rögzítse a hangját
 share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
+keep-track-profile = Kövesse nyomon az előrehaladását egy profil segítségével
+login-to-get-started = A kezdéshez jelentkezzen be vagy regisztráljon
+
+## Reporting
+
+report = Jelentés
+report-title = Jelentés beküldése
+report-ask = Milyen problémákat tapasztal ennél a mondatnál?
+report-offensive-language = Sértő szóhasználat
+report-offensive-language-detail = A mondat tiszteletlen vagy sértő nyelvezetet tartalmaz.
+report-grammar-or-spelling = Nyelvtani / helyesírási hiba
+report-grammar-or-spelling-detail = A mondat nyelvtani vagy helyesírási hibát tartalmaz.
+report-different-language = Más nyelv
+report-different-language-detail = Ez más nyelven íródott, mint amit beszélek.
+report-difficult-pronounce = Nehéz kimondani
+report-difficult-pronounce-detail = Olyan szavakat vagy kifejezéseket tartalmaz, amelyeket nehéz elolvasni vagy kiejteni.
+report-offensive-speech = Sértő beszéd
+report-offensive-speech-detail = A klip tiszteletlen vagy sértő nyelvezetet tartalmaz.
+report-other-comment =
+    .placeholder = Megjegyzés
+success = Sikeres
+continue = Folytatás
+report-success = A jelentés sikeresen beküldve
 
 ## Goals
 

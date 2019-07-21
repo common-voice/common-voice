@@ -76,6 +76,7 @@ async function importLocaleSentences(
   locale: string,
   version: number
 ) {
+  await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
   const [[{ localeId }]] = await pool.query(
     'SELECT id AS localeId FROM locales WHERE name = ? LIMIT 1',
     [locale]

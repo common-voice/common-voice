@@ -178,7 +178,6 @@ export default class Server {
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
-      await this.model.db.fillCacheColumns();
       this.print('Maintenance complete');
     } catch (err) {
       this.print('Maintenance error', err);

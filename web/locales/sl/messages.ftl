@@ -108,6 +108,7 @@ sl = slovenščina
 sq = albanščina
 sr = srbščina
 sv-SE = švedščina
+syr = sirščina
 ta = tamilščina
 te = teluščina
 tg = tadžiščina
@@ -605,7 +606,6 @@ record-again-instruction = Odlično! <recordIcon></recordIcon> Posnemite nasledn
 record-again-instruction2 = Odlično napredujete, začnite ponovno snemati <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Zadnji!
 review-tooltip = Tukaj lahko pregledate posnetke in jih ponovno posnamete.
-unable-speak = Ali trenutno ne morete govoriti?
 review-instruction = Če je potrebno, lahko posnetke pregledate in ponovno posnamete
 record-submit-tooltip = { $actionType } Pošlji, ko ste pripravljeni
 clips-uploaded = Posnetki naloženi
@@ -621,6 +621,13 @@ listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
 nothing-to-validate = Trenutno ni ničesar za preveriti v tem jeziku. Pomagaj nam zapolniti čakalno vrsto.
 record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
+
+## Reporting
+
+report = Prijavi
+report-other-comment =
+    .placeholder = Komentar
+continue = Nadaljuj
 
 ## Goals
 

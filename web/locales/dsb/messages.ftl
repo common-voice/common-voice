@@ -97,6 +97,7 @@ or = Odiašćina
 pl = Pólšćina
 pt-BR = Portugišćina (Brazilska)
 rm-sursilv = Retoromanišćina (Sursilvan)
+rm-vallader = Retoromanšćina Vallader
 ro = Rumunšćina
 ru = Rušćina
 rw = Kinjarwanda
@@ -108,6 +109,7 @@ sl = Słowjeńšćina
 sq = Albanšćina
 sr = Serbišćina
 sv-SE = Šwedšćina
+syr = Syrišćina
 ta = Tamilšćina
 te = Telugušćina
 tg = Tadžikšćina
@@ -347,8 +349,7 @@ faq-why-important-a =
     Aby my głosowe spóznaśe wěcej uniwerselne cynili, gromaźimy głosowe pśikłady w daloko rozšyrjonych rěcach, ale teke w rěcach z małeju licbu powědarjow, kótarež se cesto wót komercielnych słužbow głosowego spóznaśa njepódpěraju. Wózjawjenje wjelerakeje datoweje sajźby głosow wuwijarjow, pśedewześarjow a cełe powědańske zgromaźeństwa wuzamóžnijo, toś tu źěru zatkaś.
 faq-how-get-q = Kak mógu daty Common Voice dostaś?
 faq-how-get-a = Datowa sajźba Common Voice jo pód licencu <licenseLink>CC0</licenseLink> na <datasetLink>našomu bokoju datowych sajźbow</datasetLink> za ześěgnjenje k dispoziciji. Móžośo teke někotare druge zjawnje k dispoziciji stojece datowe sajźby z togo samskego boka ześěgnuś.
-faq-when-release-q = Gdy Common Voice w drugich rěcach wózjawijośo?
-faq-when-release-a = Wěcejrěcna wersija datowje sajźby Common Voice se tuchylu z pomocu zgromaźeństwa zeběra a cysći. Jolic by wy rady wěcej wó pódpěranju toś tych procow zgónił, <contactLink>stajśo se pšosym z nami do zwiska</contactLink>. Měrimy se tuchylu na wózjawjeński datum januara 2019. Pótom buźomy datowu sajźbu pšawidłownje z nowymi rěcami a głosowymi klipami aktualizěrowaś, gaž su k dispoziciji. Iteratiwny wózjawjeński cyklus hyšći njejo póstajony.
+faq-when-release2-q = Gdy daty Common Voice w drugich rěcach wózjawijośo?
 faq-why-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
 faq-why-mission-a = Mozilla jo se pśedewzeł, web za kuždego wótwórjony a pśistupny źaržaś. Aby my to cynili, musymy webawtory pśez webprojekty ako Common Voice wuzamóžniś. Dokulaž głosowe technologije nišowym nałoženjam wurostuju, wěrimy, až muse wšym wužywarjam jadnak słužyś. To groni, do dalšnych rěcow inwestěrowaś a wšake akcenty a demografije zapśimjeś, gaž se głosowe technologije wuwijaju a testuju. Common Voice jo zjawna resursa, kótaraž wšym k dispoziciji stoj, a teamy a wuwijarje Mozilla na cełym swěśe wužywaju jen južo za projekty.
 faq-what-cv-and-deepspeech-q = Co jo rozdźěl mjazy Common Voice a Deep Speech?
@@ -400,9 +401,11 @@ about-speak-text = Sobustatkujuce cytaju z datoweje banki sadow a nagrawaju gło
 about-listen-queue = Słuchowy cakański rěd
 about-listen-queue-text = Głosowe klipy se do pśenosowańskego cakańskego rěda zapódawaju, kótaryž je za słuchanje k dispoziciji staja.
 about-listen = Pśisłuchaś
+about-listen-text = Wužywarje kontrolěruju, lěc powědaŕ sadu korektnje wugranja, aby akuratnosć pósćonych klipow pśeglědowali.
 about-is-it-valid = Jo klip płaśiwy?
 about-is-it-valid-text = Głosowy klip se ako „płaśiwy markěrujo, gaž wužywaŕ jomu jogłos dajo.
 about-yes-votes = ≥ 2 jogłosa
+about-yes-votes-text = Aby se głosowy klip do datoweje sajźby Common Voice pśewzeł, musy se wót dweju rozdźělneju wužywarjowu pśeglědowaś.
 about-no-votes = ≥ 2 něgłosa
 about-dataset-new = Datowa sajźba Common Voice
 about-clip-graveyard = Klipowy kjarchob
@@ -600,7 +603,6 @@ record-again-instruction = Wjelicny!<recordIcon></recordIcon> Nagrajśo swój p�
 record-again-instruction2 = Dalej tak, <recordIcon></recordIcon> znowego nagraś
 record-last-instruction = <recordIcon></recordIcon> Slědne!
 review-tooltip = How móžośo klipy pśeglědowaś a znowego nagraś
-unable-speak = Njamóžośo rowno powědaś?
 review-instruction = Klipy pśeglědowaś a znowego nagraś, jolic trěbne
 record-submit-tooltip = { $actionType } wótpósłaś, gaž sćo gótowy
 clips-uploaded = Klipy nagrate
@@ -616,6 +618,27 @@ listen-last-time-instruction = <playIcon></playIcon> Slědny!
 nothing-to-validate = Njamamy nico, kótarež móžomy w toś tej rěcy pśekontrolěrowaś, pšosym pomagajśo nam cakański rěd połniś.
 record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
+
+## Reporting
+
+report = Rozpšawa
+report-title = Rozpšawu wótpósłaś
+report-ask = Na kótare problemy z toś teju sadu starcyjośo?
+report-offensive-language = Njepśistojna rěc
+report-offensive-language-detail = Sada ma njezdwórliwu a njepśistojnu rěc.
+report-grammar-or-spelling = Gramatiska / pšawopisna zmólka
+report-grammar-or-spelling-detail = Sada ma gramatisku abo pisańsku zmólku.
+report-different-language = Druga rěc
+report-different-language-detail = Jo w rěcy napisana, kótaruž njepowědam.
+report-difficult-pronounce = Jo śěžko wugroniś
+report-difficult-pronounce-detail = Wopśimujo słowa abo fraze, kótarež daju se śěžko cytaś abo wugroniś.
+report-offensive-speech = Njepśistojna rěc
+report-offensive-speech-detail = Klip ma njezdwórliwu abo njepśistojnu rěc.
+report-other-comment =
+    .placeholder = Komentar
+success = Wuspěch
+continue = Dalej
+report-success = Rozpšawa jo se wuspěšnje wótpósłała
 
 ## Goals
 

@@ -97,6 +97,7 @@ or = Odia
 pl = Tapulunit
 pt-BR = Tapuṛtugit (Brizil)
 rm-sursilv = Rumanc Sursilvan
+rm-vallader = Taṛumancit n wadda
 ro = Taṛumanit
 ru = Tarusit
 rw = Takinyaṛwandit
@@ -108,6 +109,7 @@ sl = Tasluvinit
 sq = Talbanit
 sr = Taṣirbit
 sv-SE = Taswidit
+syr = Tasiryakt
 ta = Taṭamilit
 te = Tatelgut
 tg = Tatajikt
@@ -151,13 +153,13 @@ logout = Ffeɣ
 
 ## Home Page
 
-home-title = Asenfaṛ n Common Voice yella-d s lmendad n Mozilla. Yella-d i uɛawen n yiselkimen ad issinen amek i heddṛen yimdanen n tidet.
+home-title = Asenfaṛ n Common Voice yella-d s lmendad n Mozilla. Yella-d i uɛiwen n yiselkimen akken ad issinen amek i heddṛen yimdanen n tidet.
 home-cta = Mmeslay, ttekki da!
 wall-of-text-start = Taɣect d tagamant, taɣect d ayla n umdan. Ɣef aya i nebɣa ad d-nexdem tatiknulujit n taɣect ara sseqdacent tmacinin-nneɣ. Acu kan, akken ad d-nesnulfu inagrawen n taɣect, yessefk ad d-nelqeḍ aṭas n yisefka s tuɣac n yimdanen.
-wall-of-text-more-mobile = Tuget n yisefka i seqdacent tkebbaniyin  ur llint ara i tuget n yimdanen. Nwala d akken ayagi yesseḥbas asnulfu. Ɣef aya, asenfaṛ Common Voice ilul-d. D asenfaṛ ara yessifsusen anekcum ar tmussni n taɣect, i yal yiwen.
+wall-of-text-more-mobile = Tuget n yisefka i seqdacent tkebbaniyin  ur llin ara i tuget n yimdanen. Nwala d akken ayagi yesseḥbas asnulfu. Ɣef aya, asenfaṛ Common Voice ilul-d. D asenfaṛ ara yessifsusen anekcum ɣer tmussni n taɣect, i yal yiwen.
 wall-of-text-more-desktop = Tura, tzemreḍ ad aɣ-d-tmuddeḍ affus s taɣect-ik akken ad nebnu taffa n yisefka n uɣbalu yeldin ara yesseqdec yal yiwen akken ad yesnulfu isnasen i yibenkan neɣ i web.<lineBreak></lineBreak> Ɣeṛ tafyir akken ad tmuddeḍ tallelt i tmacinin ad issinent amek ttmeslayen yimdanen ilawen. Senqed amahil n yimttekkiyen-nniḍen akken ad tesnerniḍ taɣara. D ayen fessusen!
 wall-of-text-first = Taɣect d tagamant, taɣect d ayla n umdan. Ɣef aya i nebɣa ad d-nexdem tatiknulujit n taɣect ara sseqdacent tmacinin-nneɣ. Acu kan, akken ad d-nesnulfu inagrawen n taɣect, ineflayen sran aṭas n yisefka s tuɣac n yimdanen.
-wall-of-text-second = Tuget n yisefka i seqdacent tkebbaniyin  ur llint ara i tuget n yimdanen. Nwala d akken ayagi yesseḥbas asnulfu.  Ɣef aya, asenfaṛ Common Voice ilul-d. D asenfaṛ ara yessifsusen anekcum ar uɛqal n taɣect, i yal yiwen.
+wall-of-text-second = Tuget n yisefka i seqdacent tkebbaniyin  ur llint ara i tuget n yimdanen. Nwala d akken ayagi yesseḥbas asnulfu.  Ɣef aya, asenfaṛ Common Voice ilul-d. D asenfaṛ ara yessifsusen anekcum ɣer uɛqal n taɣect, i yal yiwen.
 show-wall-of-text = Ɣeṛ ugar
 help-us-title = Fket-aɣ afus n tallelt akken ad nesseɣbel tifyar!
 help-us-explain = Tekki ɣef tqeffilt "urar", ḥess, tineḍ-aɣ-d ma yella tettwanṭaq-d akken iwata tefyirt-a ukessar!
@@ -165,12 +167,12 @@ no-clips-to-validate = Yettban d akken ulac yakan ikalasen ara tesleḍ deg tutl
 vote-yes = Ih
 vote-no = Uhu
 toggle-play-tooltip = Tekki ɣef { shortcut-play-toggle } i wakken ad yuɣal ɣer uskar n tɣuri.
-speak-subtitle = Mmud taɣect-ik
+speak-subtitle = Mudd-d taɣect-ik
 speak-paragraph = Asekles n tukkisin n taɣect yekcem di lebni n tagrumma n yisefka yeldin; llan wid ara d-yinin yelha i zhu.
 speak-goal-text = Tukkisin ittwaskelsen
 listen-subtitle = Fket-aɣ afus n tallelt akken ad nsentem tuɣac
 listen-paragraph = Asentem n tukkisin yesɛa azal meqqren i tuɣdaṭ n Common Voice. Sell akken aɣ-d-tefkeḍ tallalt ad nesnulfu isefka n taɣect n aɣbalu yeldin s tɣara.
-listen-goal-text = Tukkisin yettwasentmen
+listen-goal-text = Tukkisin yettwasnetmen
 hours-recorded = Isragen yettwaskelsen
 hours-validated = Isragen yettwaqeblen
 voices-online = Tuɣac srid akka tura
@@ -222,7 +224,7 @@ username-email-not-demographic = Isem-ik n useqdac akked tansa-ik imayl ur d-ttw
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = u
+shortcut-skip = r
 
 ## Listen Shortcuts
 
@@ -339,8 +341,8 @@ faq-why-important-a =
     Akken ad yuɣal uɛqal n taɣect d agraɣlan ugar, ad d-nelqeḍ tukkisin n taɣect deg tutlayin yettwameslayen s ṭaqa, daɣen ula d tid yesɛan drus n wid i tent-yettmeslayen, tid ur nufi ara iman-nsent des yimeẓla yettnuzun. Asuffeɣ n tegrumma n yisefka yemgaraden, ad yeǧǧ ineflayen, wid yesseftayen tadrimt akken trebbaɛ timesnilesin ad faṛsent tagnit seg-waya.
 faq-how-get-q = Amek zemreɣ ad d-awiɣ isefka n Common Voice?
 faq-how-get-a = Tagrumma n yisefka Common Voice tella i usider maca s uqadeṛ n tewtilin n turagt <licenseLink>CC0</licenseLink> deg <datasetLink>usebtere-nneɣ n tegrumma n yisefka</datasetLink>. Tzemreḍ daɣen ad tessidreḍ tigrummiwin-nniḍen tizuyaz seg usebter-nni.
-faq-when-release-q = Melmi ara d-ffɣen yisefka n Common Voice deg tutlayin-nniḍen?
-faq-when-release-a = Lqem s ddeqs n tutlayin n tagrumma n yisefka Common Voice ad tettwanbay daɣen ad tettwasizdeg akka tura sɣur tarbaɛt. MA tebɣiḍ ad teẓreḍ ɣef waya, <contactLink>nemes-aɣ-d</contactLink> ma ulac aɣilif. Nessaram ad d-ffɣen s wudem unṣib deg Yennayer 2019. Sakin ad d-nessuffuɣ ileqman si sya ɣer da s yikalasen imaynuten akken tutlayin-nniḍen, ticki heggant. Aql-aɣ ad nettnadi tawala neɣ imecwaṛen amek ara d-teffɣen ɣer zdat.
+faq-when-release2-q = Melmi ad d-ffɣen yisefka Common Voice deg tutlayin-nniḍen?
+faq-when-release2-a = Lqem s ddeqs n yisefka n tegrumma n yisefka Common Voice iteddu akka tura sɣur tarbaɣt yessefraken asenqed akked usfaḍ. ma tebɣiḍ ad tekkiḍ akken  Common Voice ad yili deg tutlayin-nniḍen, ddu ad twaliḍ <sentenceCollectorLink>Afecku n ulqaḍ n tefyar </sentenceCollectorLink> akken ad ternuḍ tifyar tmaynutin ɣer tegrumma n yisefka, akked  <pontoonLink>Pontoon</pontoonLink> n Mozilla i tsuqilt n usmel web iman-is. Tutlayin timaynutin ad ttwarnun ɣer Common Voice i uttekki s taɣect ticki ttwaqeblent  5000 seg tefyar i d-yettwaleqḍen.
 faq-why-mission-q = Acuɣer Common Voice yettekka deg tuɣdaḍt n Mozilla?
 faq-why-mission-a = Mozilla iswi-is d aḥraz n web yeldin, yettwakcamen i yal yiwen. Akken ad naweḍ lebɣi-a, yessefk ad nmudd ifecka am Common Voice i wid i d-yesnulfuyen. Titiknulujiyin n taɣect ttnulfuyent-d deg kra n yimeḍqan, numen daɣen d akken yessefk ad faṛsent seg-sent yimdanen meṛṛa. Nwal d akken ilaq ad nseddu ugar n tutlayin, isusruyen akked tsutiwin yemgaraden i usnulfu akked usekyed n titiknulujiyin n taɣect. Mozilla tebɣa Internet urmid, s tezmert yelhan. Ayagi ad d-yeglu s umuddu n unekcum ɣer yisefka n taɣect i wid i d-yesnulfuyen deg Web, akken ad izmiren ad ten-sqedcen deg yisenfaṛen imaynuten. Common Voice ad yuɣal d taɣbalut tazayezt ara imudden tallelt i yigrawen n Mozilla akked ineflayen deg umaḍal meṛṛa.
 faq-what-cv-and-deepspeech-q = D acu umgarad yellan gar Common Voice d Deep Speech?
@@ -386,9 +388,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Acuɣer Common Voice?
-about-subtitle = Common Voice d asenfaṛ n Mozilla i uselmed n tmacinin ad mmeslayent tutlayin n yimdanen. Ɣer tama n tegrumma n yisefka Common Voice, aqlaɣ nbennu daɣen amsedday neɣ amutur n uɛqal n taɣect n uɣbalu yeldin s yisem Deep Speech.
+about-subtitle = Common Voice d asenfaṛ n Mozilla i uselmed n tmacinin ad mmeslayent tutlayin n yimdanen. Ɣer tama n tegrumma n yisefka Common Voice, aql-aɣ nbennu daɣen amsedday neɣ amutur n uɛqal n taɣect n uɣbalu yeldin s yisem Deep Speech.
 about-header-description =
-    Sin-agi n yisenfaren ttekkan deg uxeddim-nneɣ i d-nger akken ad nsenɣes aceqqiq yellan deg taɣect tumḍint. Titiknulujiyin n uɛqal n taɣect rennunt-d kra n umaynut icudden ɣer umdan deg yisuga neɣ ibenkan-nneɣ, maca ineflayen sran ddeqs n yisefka n taɣect akken ad fefṣṣlen ifecka. Akka tura, tuget n yisefka-a ɣlay-it yerna ɣur-sen imawlan.
+    Sin-agi n yisenfaren ttekkan deg uxeddim-nneɣ i d-nger akken ad nsenɣes aceqqiq yellan deg taɣect tumḍint. Titiknulujiyin n uɛqal n taɣect rennunt-d kra n umaynut icudden ɣer umdan deg yisuga neɣ ibenkan-nneɣ, maca ineflayen sran ddeqs n yisefka n taɣect akken ad feṣṣlen ifecka. Akka tura, tuget n yisefka-a ɣlayit yerna ɣur-sen imawlan.
     Nebɣa ad nerr isefka n taɣect baṭel daɣen ttwakcamen s wudem azayaz, daɣen ad neḍmen d akken isefka-a ḍummen-d meṛṛa imdanen deg tudert tilawt. Lwaḥid, nezmer ad nerr aɛqal n taɣect d ufrin i yal yiwen.
 how-does-it-work-title = Amek iteddu?
 how-does-it-work-text = Ad d-nemmekti attekki lwaḥid deg usbeddi n tegrumma n yisefka n uɣbalu yeldin. Mudd-d taɣect-ik, senqed tiseddi n tuɣac n wiyaḍ, snerni tagrumma n yisefka i yal yiwen.
@@ -404,6 +406,8 @@ about-yes-votes = ≥ 2 n tefranin IH
 about-yes-votes-text = Akken ad yekcem ɣer tegrumma n yisefka Common Voice, yessefk tukkist n taɣect ad tettwaqbel sɣur sin n yimdanen yemgaraden.
 about-no-votes = ≥ 2 n tefranin UHU
 about-no-votes-text = Ticki aseqdac yugi tukkist n taɣect, taneggarut-a ad tuɣal ɣer udras n uraǧu. Ma yugin-tt tikkelt-nniḍen, tukkist ad teddu ɣer tjebbant n tukkisin.
+about-dataset-new = Tagrumma n yisefka Common Voice
+about-dataset-new-text = Tagrumma n yisefka Common Voice tegber timeyyatin n luluf n tukkisin n taɣect ara imudden i yineflayen afus deg usnefli n yifecka n uɛqal n taɣect.
 about-clip-graveyard = Tajebbant n tukkisin
 about-clip-graveyard-text = Tajebbant n tukkisin tegber tukkisin ur nettwaqbel ara deg tegrumma n yisefka Common Voice. Am uneggaru-a, tajebbant n tukkisin tella i usider.
 about-partners = Imendiden
@@ -489,7 +493,7 @@ datasets-positioning =
 language = Tutlayt
 # File size in gigabytes
 size = Teɣzi
-validated-hr-total = Amḍan n yisragen yettwasentmen. Amatu
+validated-hr-total = Amḍan n yisragen yettwasnetmen. Amatu
 overall-hr-total = Amḍan amatu s Sr.
 cv-license = Turagt
 audio-format = Amasal n umeslaw
@@ -502,7 +506,7 @@ size-gigabyte = GAṬ
 size-megabyte = MAṬ
 confirm-no-identify = <b>Ad tqebleḍ</b> d akken ur tetttaɛreḍeḍ ara ad tafeḍ timagit n wid yettmeslayen deg tagrumma n yisefka Common Voice.
 download-language = Sider { $language }
-validated-hours = Isragen yettwasentmen
+validated-hours = Isragen yettwasnetmen
 recorded-hours = Isragen yettwaskelsen
 whats-inside = Acu yellan deg taggruma n isefka n Common Voice?
 dataset-description-hours =
@@ -563,7 +567,7 @@ other-language = Tutlayin nniḍen
 ## Languages Overview
 
 language-section-in-progress = Ad d-iteddu
-language-section-in-progress-new-description = Tutlayin-agi atentan tura ddaw n temɣiwent n ineflayen afeggag n tulya ad d-isken aswir <localizationGlossaryLink> n yal tutlayt deg usmel n usideg </localizationGlossaryLink> akked <sentenceCollectionGlossaryLink> ulqqa d n tefyar </sentenceCollectionGlossaryLink>
+language-section-in-progress-new-description = Tutlayin-agi akka tura sneflayent-tent trebbaɛ.  Afeggag n n usfari yemmal-d anida tewweḍ yal yiwet seg tutlayin deg <localizationGlossaryLink> usmel n usideg </localizationGlossaryLink> akked <sentenceCollectionGlossaryLink> ulqaḍ n tefyar </sentenceCollectionGlossaryLink>
 language-section-launched = Yekker
 language-section-launched-description = I tutlayt-a asmel <localizationGlossaryLink> ittwasideg akken iwata </localizationGlossaryLink>, isεa <sentenceCollectionGlossaryLink> ddeqs n tefyar </sentenceCollectionGlossaryLink> akken ad ittwasireg <speakLink> asekles </speakLink> akked <listenLink> usentem </listenLink> n ittekiyen n iwiziwen
 languages-show-more = Wali ugar
@@ -578,7 +582,7 @@ localized = Yettwasideg
 sentences = Tifyar
 total-hours = Amḍan n yisragen
 
-## New Contribution
+## Contribution
 
 action-click = Senned
 action-tap = Sit ɣef
@@ -611,7 +615,6 @@ record-again-instruction = Ayyuz! <recordIcon></recordIcon> Sekles tukkist i d-i
 record-again-instruction2 = Kemmel akken, sekles tikelt-nniḍen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> D aneggaru!
 review-tooltip = Cegger & ales asekles dagi ticki teddiḍ
-unable-speak = Ur izmir ara ad yemmeslay akka tura
 review-instruction = Cegger & ales asekles ma tesriḍ
 record-submit-tooltip = { $actionType } azen ticki theggaḍ
 clips-uploaded = Tuṭṭfiwin ulint
@@ -627,6 +630,29 @@ listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
 nothing-to-validate = Ula kra ara nsentem deg tutlayt-a, mudd-aɣ-d afus ad neččaṛ adras.
 record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
+keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
+login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
+
+## Reporting
+
+report = Mmel ugur
+report-title = Azen ugur
+report-ask = Acu-ten wuguren yellan deg tefyirt-a?
+report-offensive-language = D awal n usesexseṛ
+report-offensive-language-detail = Tayirt-a tegber yir awal neɣ rregmat.
+report-grammar-or-spelling = Tuccḍa n tjerrumt / tuccḍa n tseddast
+report-grammar-or-spelling-detail = Tafyirt tegber tuccḍa n tjerrumt neɣ n tseddast.
+report-different-language = Tutlayt nniḍen
+report-different-language-detail = Yura s tutlayt yemgaraden ɣef tin ttmeslayeɣ.
+report-difficult-pronounce = Ẓẓayet i tɣuri
+report-difficult-pronounce-detail = Tegber awalen neɣ kra  tefyar iweɛren i tɣuri.
+report-offensive-speech = Yir awal
+report-offensive-speech-detail = Tukkist tameslawt tegber yir awalen neɣ asexseṛ.
+report-other-comment =
+    .placeholder = Awennit
+success = Yedda
+continue = Kemmel
+report-success = Assaɣ yettwazen akken iwata
 
 ## Goals
 
@@ -659,9 +685,9 @@ stats = Tiddadanin
 you = Kečč
 everyone = Yal yiwen
 contribution-activity = Armud n uttekki
-top-contributors = Imttekkiyen ifazen
+top-contributors = Imttekkiyen ufrinen
 recorded-clips = Tukkisin ittwaskelsen
-validated-clips = Tukkisin yettwasentmen
+validated-clips = Tukkisin yettwasnetmen
 total-approved = Amḍan yettwaqeblen
 overall-accuracy = Tiseddi tamatut
 

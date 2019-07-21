@@ -97,6 +97,7 @@ or = Odia
 pl = Polish
 pt-BR = پۆرتەغالی
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = Romanian
 ru = ڕووسی
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Slovenian
 sq = ئەلبانی
 sr = سێربی
 sv-SE = سوید
+syr = سیریاک
 ta = تامیل
 te = Telugu
 tg = تاجیکی
@@ -315,6 +317,7 @@ skip-submission-note = ئاگاداری: پێویستە لە نێوان قسەک
 off = خامۆش
 on = ڕۆشن
 add-avatar-title = ئەڤاترێک بە پرۆفایلی خۆت زیاد بکە
+add-avatar-clip = کلیپێکی ئاڤاتار بە پڕۆفایلی خۆت زیاد کە
 browse-file-title = فایلێکی وێنە ئاپلۆد بکە
 browse-file = دڕاگی کە ئێرە یان <browseWrap>بگەڕێ بۆ فایل</browseWrap>
 connect-gravatar = بەستنەوە لەگەڵ Gravatar
@@ -383,8 +386,7 @@ about-yes-votes = زیاتر یان بەرامبەر ٢ دەنگی بەڵێ
 about-yes-votes-text = بۆ ئەوەی کە کلیپێک بێتە نێو ئەم دەیتاسێتە پێویستە ٢ کەسی جیاواز بیسەلمێنن.
 about-no-votes = زیاتر یان بەرامبەر ٢ دەنگی نەخێر
 about-no-votes-text = کاتێک کە کەسێک کلیپێک ڕەد بکات کلیپەکە دێتەوە نێو سەف. ئەگەر بۆ جاری دووهەم ڕەد بکرێتەوە ئەمکات کلیپەکە دەچێتە گۆڕستانی کلیپەکان.
-about-dataset = دەیتاسێتی دەنگی گشتی
-about-dataset-text = کاتێک کە کەسێک کلیپێک ڕەد بکات کلیپەکە دێتەوە نێو سەف. ئەگەر بۆ جاری دووهەم ڕەد بکرێتەوە ئەمکات کلیپەکە دەچێتە گۆڕستانی کلیپەکان.
+about-dataset-new = دەیتاسێتی دەنگی گشتی
 about-clip-graveyard = گۆڕستانی کلیپ
 about-clip-graveyard-text = گۆڕستانی کلیپەکان ئەو کلیپانە لەخۆ دەگرێت کە نایانتوانیوە بێنە نێو دەیتاسێتی دەنگی گشتی، کلیپەکانی گۆڕستانیش دەتوانی وەک دەیتاسێتەکە دانڵۆد بکەی.
 about-partners = یارمەتیدەران
@@ -449,7 +451,7 @@ review-cancel = لاوەنانی ناردن
 review-keep-recordings = دەنگەکان ڕاگرە
 review-delete-recordings = دەنگەکانی من بسڕەوە
 
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = ئێمە خەریکی ساز کردنی دەیتاسێتێکی کراوە و چەند زمانەین کە هەمووکەس دەتوانن بەکاری بێنن بۆ ساز کردنی نەرمەکالای وتارناسی.
 datasets-positioning = ئێمە پێمان وایە دەیتاسێتی گەورە و گشتی گەشە دەدات بە ڕیقابەتی تیجاری و سازکردنی کالای نوێ بۆ تەکنۆلۆژیای فێرکاری ماشین. دەیتاسێتی چەندزمانەی دەنگی گشتی هەر ئێستاش گەورەترین دەیتاسێتی دەنگی لە جۆری خۆیەتی بەڵام بە تەنها خۆی نییە.
@@ -493,6 +495,7 @@ ready-to-validate = ئامادەی بۆ یارمەتی سەلماندنی ڕەس
 more = زیاتر
 close = بەستن
 download = داگرتن
+dataset-version = وەشان
 
 ## Download Modal
 
@@ -574,7 +577,6 @@ record-again-instruction = بژی!<recordIcon></recordIcon>کلیپی داهات
 record-again-instruction2 = بەردەوام بە، دیسان زەبت کە<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> دواهەمین دانە!
 review-tooltip = هاوکات لەگەڵ پێشکەوتنت کلیپەکان لێرە چاو لێ بکە و دیسان زەبتی کەوە
-unable-speak = ئێستا ناتوانی قسە بکەی؟
 review-instruction = کلیپەکان چاو لێ بکە ، لە کاتی پێویست دیسان زەبتی کەوە
 record-submit-tooltip = { $actionType } کاتێک ئامادە بووی بینێرە
 clips-uploaded = دەنگی ئاپلۆدکراو
@@ -590,6 +592,23 @@ listen-last-time-instruction = <playIcon></playIcon>دواهەمین دانە
 nothing-to-validate = هیچمان نییە بۆ ئەم زمانە کە بیسەلمێنین، یارمەتیمان بدە کە سەفەکە پڕ کەین.
 record-button-label = دەنگت زەبت کە
 share-title-new = <bold>یارمەتیمان بدە</bold> دەنگی زیاتر پەیدا کەین
+
+## Reporting
+
+report = ڕاپۆرت
+report-title = ناردنی ڕاپۆرت
+report-grammar-or-spelling = هەڵەی دەستووری/نووسینی
+report-grammar-or-spelling-detail = ئەم ڕەستەیە هەڵەی نووسین یان دەستووری هەیە
+report-different-language = زمانی دیکە
+report-different-language-detail = ئەمە بە زمانێکی جیاواز لەوەی من قسەی پێ دەکەم نووسراوە
+report-difficult-pronounce = وتنی ئەمە دژوارە
+report-offensive-speech = زمانی ناخۆش
+report-offensive-speech-detail = ئەم کلیپە زمانێکی ناخۆش یان دور لە ئدەبی هەیە
+report-other-comment =
+    .placeholder = کۆمێنت
+success = سەرکەوتن!
+continue = بەردەوام
+report-success = ڕاپۆرتی تۆ ناردرا
 
 ## Goals
 

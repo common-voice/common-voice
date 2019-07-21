@@ -203,6 +203,8 @@ email-subscription-title = Yi rajista domin samin saƙonnin email.
 ## Account Benefits
 
 benefits = Amfani
+rich-data = Tabbar da bayanan da ka zura suna cike da gamsassun bayanai da za ka iya bayawar ta hanyar sanya baynai inda aka samo. Ba za mu sanya bayanan inda aka samo ba a fili
+improve-audio = Bayanan da ka sa a Profile dinla suna taimakawa wajen horasta kimiyyar gane murya.
 compare-progress = Gwada yawan gudummawarka da ta sauran masu bada gudummawa a duk faɗin duniya.
 
 ## What's public
@@ -243,6 +245,11 @@ request-language-button = Nemi izinin wani yaren
 ## ProjectStatus
 
 status-contribute = Taimaka da Muryarka
+status-hours =
+    { $hours ->
+        [one] Awan da aka tanatance kawo yanzu!
+       *[other] Awannin da aka tantance kawo yanzu!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Burin gaba: { $goal }
@@ -275,6 +282,7 @@ female = Mace
 # Gender
 other = Saura
 why-profile-title = Meyasa ake buƙatar bayanai na?
+why-profile-text = Idan ka ba da bayanai a kanaka, muryar da ka tura zuwa Common Voice za ta fi amfani da fasahar tantance muryaya kuma zai taimaka matuka don samarda sakamako mai kyau.
 dashboard = Dashboard
 build-profile = Gina Bayananka
 avatar = Hoto

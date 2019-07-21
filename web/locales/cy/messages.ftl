@@ -97,6 +97,7 @@ or = Odia
 pl = Pwyleg
 pt-BR = Portiwgaleg (Brasil)
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = Rwmaneg
 ru = Rwsieg
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Slofeneg
 sq = Albaneg
 sr = Serbeg
 sv-SE = Swedeg
+syr = Syriac
 ta = Tamil
 te = Telugu
 tg = Tajik
@@ -162,7 +164,7 @@ wall-of-text-first = Mae llais yn naturiol ac yn ddynol. Dyna pam rydym yn awydd
 wall-of-text-second = Nid yw'r rhan fwyaf o ddata sy'n cael ei ddefnyddio gan y cwmnïau mawr ar gael i'r rhan fwyaf o bobl. Rydym ni'n credu fod hynny'n cyfyngu ar arloesedd. Felly rydym wedi lawnsio Common Voice, project i roi adnabod llais yn agored ac ar gael i bawb.
 show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
-help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn iawn?
+help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn gywir?
 no-clips-to-validate = Mae'n ymddangos nad oes unrhyw glipiau i wrando arnynt yn yr iaith hon. Helpwch ni i lanw'r bwlch dry recordio rhai nawr.
 vote-yes = Iawn
 vote-no = Na
@@ -359,8 +361,8 @@ faq-why-important-a =
     Er mwyn gwneud adnabod llais hyd yn oed yn fwy cyffredin, rydym yn casglu samplau llais mewn ieithoedd sydd â phoblogaethau mawr llafar yn ogystal â rhai sydd â llai o siaradwyr yn aml wedi'u tan-wasanaethu gan wasanaethau adnabod llais masnachol. Bydd cyhoeddi set ddata amrywiol o leisiau yn grymuso datblygwyr, entrepreneuriaid a chymunedau llais cyfan i fynd i'r afael â'r bwlch hwn eu hunain.
 faq-how-get-q = Sut mae cmodd i mi ael gafael ar ddata Common Voice?
 faq-how-get-a = Mae set ddata Common Voice ar gael i'w lwytho i lawr o dan y drwydded <licenseLink> CC0 </licenseLink> ar <datasetLink> ein tudalen Setiau Data</datasetLink>. Gallwch hefyd lwytho i lawr nifer o setiau data eraill sydd ar gael i'r cyhoedd o'r un dudalen.
-faq-when-release-q = Pryd fyddwch chi'n rhyddhau data Common Voice mewn ieithoedd eraill?
-faq-when-release-a = Mae fersiwn aml-iaith set ddata Common Voice yn cael ei fwndelu a'i lanhau ar hyn o bryd gyda chymorth cymunedol. Os hoffech chi ddysgu mwy am gefnogi'r ymdrech hon, <contactLink> cysylltwch â ni </contactLink>. Ar hyn o bryd rydym yn targedu cyhoeddi ym mis Ionawr 2019. Ar ôl hynny, byddwn yn diweddaru'r set ddata o bryd i'w gilydd gydag ieithoedd newydd a chlipiau llais wrth iddyn nhw ddod ar gael. Mae'r cylch rhyddhau i'r dyfodol eto i'w benderfynu.
+faq-when-release2-q = Pryd fyddwch chi'n ryddhau data Common Voice mewn ieithoedd eraill?
+faq-when-release2-a = Mae fersiwn iaith lluosog set ddata Common Voice yn cael ei grynhoi a'i lanhau gan y gymuned ar hyn o bryd. Os hoffech ein helpu i ddod â Common Voice i ieithoedd newydd, ewch i edrych ar y <sentenceCollectorLink>Teclyn Casglu Brawddegau</sentenceCollectorLink> ar gyfer ychwanegu brawddegau newydd i'r set ddata, a Mozilla <pontoonLink> Pontoon </pontoonLink> ar gyfer cyfieithu'r wefan ei hun. Bydd ieithoedd newydd yn cael eu hychwanegu at Common Voice am gyfraniadau llais pan fydd 5000 o frawddegau cymeradwy wedi'u casglu.
 faq-why-mission-q = Pam mae Common Voice yn rhan o genhadaeth Mozilla?
 faq-why-mission-a = Mae Mozilla'n wedi ymroi i gadw'r we yn agored ac ar gael i bawb. I wneud hynny mae angen i ni ymrymuso crëwyr y we drwy brojectau fel Common Voice. Wrth i dechnoleg llais gynyddu tu hwnt i raglenni arbenigol, mae'n rhaid iddyn nhw ddiwallu pob defnyddiwr gystal â'i gilydd. Rydym yn gweld yr angen i gynnwys rhagor o ieithoedd, acenion a demograffigau wrth adeiladu a phrofi technolegau llais. Mae Mozilla eisiau gweld rhyngrwyd iach a bywiog. Mae hynny'n golygu rhoi mynediad i grëwyr newydd at ddata llais fel bod modd iddyn nhw adeiladu projectau newydd, anhygoel. Mae Common Voice yn adnodd cyhoeddus sydd ar gael i bawb ac mae timau Mozilla a datblygwyr o amgylch y byd i gyd eisoes yn ei ddefnyddio ar ein projectau ni hefyd.
 faq-what-cv-and-deepspeech-q = Beth yw'r gwahaniaeth rhwng Common Voice ac Deep Speech?
@@ -600,7 +602,7 @@ localized = Wedi ei leoleiddio
 sentences = Brawddegau
 total-hours = Cyfanswm Oriau
 
-## New Contribution
+## Contribution
 
 action-click = Cliciwch
 action-tap = Tapiwch
@@ -629,7 +631,6 @@ record-again-instruction = Gwych! <recordIcon></recordIcon> Recordiwch eich clip
 record-again-instruction2 = Daliwch ati, recordiwch eto <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Yr un olaf!
 review-tooltip = Adolygu ac ail recordio clipiau yma wrth fynd
-unable-speak = Methu siarad nawr?
 review-instruction = Adolygu ac ail recordio clipiau os oes angen
 record-submit-tooltip = { $actionType } cyflwyno pan yn barod
 clips-uploaded = Clipiau Wedi'u Llwytho
@@ -638,13 +639,36 @@ record-abort-text = Bydd gadael nawr yn golygu eich bod yn colli eich cyfraniad
 record-abort-submit = Cyflwyno clipiau
 record-abort-continue = Gorffen recordio
 record-abort-delete = Gadael a Dileu clipiau
-listen-instruction = { $actionType } <playIcon> </playIcon> ydyn nhw wedi ynganu'r brawddegau'n gywir?
+listen-instruction = { $actionType }<playIcon></playIcon> os ydyn nhw wedi ynganu'r frawddeg yn gywir
 listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 nothing-to-validate = Nid oes gennym unrhyw beth i ddilysu'r iaith hon, helpwch ni i lanw'r ciw
 record-button-label = Recordio eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
+keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil
+login-to-get-started = Mewngofnodiwch neu gofrestru i ddechrau arni
+
+## Reporting
+
+report = Adrodd
+report-title = Cyflwyno adroddiad
+report-ask = Pa anawsterau ydych yn eu profi gyda'r frawddeg hon?
+report-offensive-language = Iaith dramgwyddus
+report-offensive-language-detail = Mae gan y frawddeg iaith amharchus neu dramgwyddus.
+report-grammar-or-spelling = Gwall gramadegol / sillafu
+report-grammar-or-spelling-detail = Mae gwall gramadegol neu sillafu yn y frawddeg.
+report-different-language = Gwahanol iaith
+report-different-language-detail = Mae wedi'i hysgrifennu mewn iaith sy'n wahanol i'r hyn rwy'n ei siarad.
+report-difficult-pronounce = Anodd ei ynganu
+report-difficult-pronounce-detail = Mae'n cynnwys geiriau neu ymadroddion sy'n anodd eu darllen neu eu ynganu.
+report-offensive-speech = Araith dramgwyddus
+report-offensive-speech-detail = Mae gan y clip iaith amharchus neu dramgyddus.
+report-other-comment =
+    .placeholder = Sylwadau
+success = Llwyddiant
+continue = Parhau
+report-success = Mae'r adroddiad wedi ei gyflwyno'n llwyddiannus
 
 ## Goals
 

@@ -37,7 +37,6 @@ import { User } from '../stores/user';
 import Layout from './layout/layout';
 import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
-import { LoginFailure, LoginSuccess } from './pages/login';
 import { Spinner } from './ui/ui';
 import {
   isContributable,
@@ -385,8 +384,6 @@ class App extends React.Component {
         <Provider store={store}>
           <Router history={history}>
             <Switch>
-              <Route exact path="/login-failure" component={LoginFailure} />
-              <Route exact path="/login-success" component={LoginSuccess} />
               {Object.values(URLS).map(url => (
                 <Route
                   key={url}

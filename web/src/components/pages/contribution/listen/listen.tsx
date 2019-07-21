@@ -281,6 +281,15 @@ class ListenPage extends React.Component<Props, State> {
               );
             }
           )}
+          reportModalProps={{
+            reasons: [
+              'offensive-speech',
+              'grammar-or-spelling',
+              'different-language',
+            ],
+            kind: 'clip',
+            id: activeClip ? activeClip.id : null,
+          }}
           sentences={clips.map(clip => clip.sentence)}
           shortcuts={[
             {

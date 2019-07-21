@@ -97,6 +97,7 @@ or = Odia
 pl = Polska
 pt-BR = Portugisiska (Brasilien)
 rm-sursilv = Rätoromanska
+rm-vallader = Rätoromanska Vallader
 ro = Rumänska
 ru = Ryska
 rw = Kinyarwanda
@@ -108,6 +109,7 @@ sl = Slovenska
 sq = Albanska
 sr = Serbiska
 sv-SE = Svenska
+syr = Syriska
 ta = Tamilska
 te = Telugu
 tg = Tadzjikiska
@@ -619,7 +621,6 @@ record-again-instruction = Bra! <recordIcon></recordIcon> Spela in ditt nästa k
 record-again-instruction2 = Bra jobbat, spela in igen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Sista!
 review-tooltip = Här kan du kontrollera och återuppta inspelningar
-unable-speak = Kan inte prata just nu?
 review-instruction = Om det behövs kan du granska och återuppta inspelningar
 record-submit-tooltip = { $actionType } skicka in när du är redo
 clips-uploaded = Klipp uppladdade
@@ -635,6 +636,27 @@ listen-last-time-instruction = <playIcon></playIcon> Sista!
 nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
+
+## Reporting
+
+report = Rapportera
+report-title = Skicka in en rapport
+report-ask = Vilka problem upplever du med den här meningen?
+report-offensive-language = Stötande språk
+report-offensive-language-detail = Den här meningen har respektlöst eller kränkande språk.
+report-grammar-or-spelling = Grammatiskt / stavfel
+report-grammar-or-spelling-detail = Den här meningen har ett grammatiskt eller stavfel
+report-different-language = Annat språk
+report-different-language-detail = Det är skrivet på ett annat språk än det jag pratar.
+report-difficult-pronounce = Svårt att uttala
+report-difficult-pronounce-detail = Den innehåller ord eller fraser som är svåra att läsa eller uttala.
+report-offensive-speech = Offensivt tal
+report-offensive-speech-detail = Klippet har respektlöst eller kränkande språk.
+report-other-comment =
+    .placeholder = Kommentar
+success = Lyckades
+continue = Fortsätt
+report-success = Rapporten godkändes framgångsrikt
 
 ## Goals
 

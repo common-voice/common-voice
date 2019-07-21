@@ -2,7 +2,7 @@
 
 contribute = Cyfrannu
 get-involved-button = Ymunwch
-get-involved-title = Cyfrannu: 
+get-involved-title = Cyfrannu: { $lang }
 get-involved-text = Diolch am eich diddordeb mewn cyfrannu i'r { $lang }. Rydym yn gweithio'n galed i gael pob iaith yn barod ar gyfer ei lansio a rhoi'r newyddion diweddaraf i'r timau drwy e-bost. Os hoffech chi gyfrannu, rhowch eich e-bost isod.
 get-involved-form-title = Cofrestrwch ar gyfer diweddariadau { $lang }:
 get-involved-email =

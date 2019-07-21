@@ -97,6 +97,7 @@ or = 奧里亞語
 pl = 波蘭語
 pt-BR = 葡萄牙語（巴西）
 rm-sursilv = 羅曼蘇塞瓦語
+rm-vallader = 羅曼什瓦拉德語
 ro = 羅馬尼亞語
 ru = 俄語
 rw = 盧安達語
@@ -108,6 +109,7 @@ sl = 斯洛維尼亞語
 sq = 阿爾巴尼亞語
 sr = 塞爾維亞語
 sv-SE = 瑞典語
+syr = 敘利亞語
 ta = 坦米爾語
 te = 泰盧固語
 tg = 塔吉克語
@@ -340,8 +342,8 @@ faq-why-important-a =
     為了讓語音識別技術能夠更加普遍，我們收集不論是有廣大使用者，或是較少使用者會說的語言（大部分商業語音識別服務對此類語言都缺少支援）的語音片段，並發布一組含多元語言與腔調的語音資料集，希望能提供給開發者、創業家、以及整個語音技術社群來跨越這個鴻溝。
 faq-how-get-q = 我要如何取得 Common Voice 資料？
 faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>下載，本資料集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的資料集。
-faq-when-release-q = 你們什麼時候會釋出其他語言的 Common Voice 資料？
-faq-when-release-a = 多語言版本的 Common Voice 資料集目前正由社群進行整理與維護。若想要了解如何參與這個工作，請<contactLink>聯絡我們</contactLink>。我們目標在 2019 年 1 月發布資料集，在那之後就會定期更新，在新語言與錄音片段加入時一併推出。定期發行的更新仍在確認中。
+faq-when-release2-q = 你們什麼時候會發布其他語言的 Common Voice 資料？
+faq-when-release2-a = 多語言版本的 Common Voice 資料集，目前正交由社群進行清理與打包。若您想要幫助我們加入新語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來加入語句到資料集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 來將網站翻譯成該語言。每種語言有超過 5000 句語句審核完成後，就會加入 Common Voice。
 faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
 faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的專案來協助網路上的創作者來得到威力。隨著採用語音技術的程式激增，我們相信這些程式應該平等地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 與全球開發者們的公眾資源，並已用於專案開發當中。
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
@@ -579,7 +581,7 @@ localized = 已翻譯
 sentences = 句子
 total-hours = 已驗證時數
 
-## New Contribution
+## Contribution
 
 action-click = 點擊
 action-tap = 點選
@@ -608,7 +610,6 @@ record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下下個片�
 record-again-instruction2 = 繼續加油，再錄一筆！<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>最後一筆了！
 review-tooltip = 在此確認或重錄片段
-unable-speak = 現在無法說話
 review-instruction = 確認錄音內容，有需要的話可以重錄
 record-submit-tooltip = 準備好即可{ $actionType }送出
 clips-uploaded = 已上傳片段
@@ -624,6 +625,29 @@ listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
+keep-track-profile = 註冊帳號來追蹤個人貢獻進度
+login-to-get-started = 請登入或註冊，即可開始使用
+
+## Reporting
+
+report = 回報
+report-title = 回報問題
+report-ask = 這句話有什麼問題？
+report-offensive-language = 冒犯人的語言
+report-offensive-language-detail = 這句話當中有不尊重他人或冒犯性的語言。
+report-grammar-or-spelling = 文法 / 拼字錯誤
+report-grammar-or-spelling-detail = 這句話的文法或拼法有誤。
+report-different-language = 其他語言
+report-different-language-detail = 這句話是其他語言的句子。
+report-difficult-pronounce = 難以發音
+report-difficult-pronounce-detail = 這句話當中有難以發音的文字或詞彙。
+report-offensive-speech = 冒犯人的錄音片段
+report-offensive-speech-detail = 這個片段中有不尊重他人或冒犯性的語言。
+report-other-comment =
+    .placeholder = 附註
+success = 成功
+continue = 繼續
+report-success = 成功送出回報內容
 
 ## Goals
 
