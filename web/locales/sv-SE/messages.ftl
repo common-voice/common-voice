@@ -347,8 +347,8 @@ faq-why-important-a =
     För att göra röstigenkänning mer universal, samlar vi in röstprover i brett talade språk, men även de som har en mindre befolkning av talare som oftast åsidosätts av kommersiella tjänster för röstigenkänning. Genom att publicera ett mångfaldig datamängd av röster möjliggör vi för utvecklare, entreprenörer och språkgemenskaper att själva täcka den här klyftan.
 faq-how-get-q = Hur kan jag hämta hem Common Voice-data?
 faq-how-get-a = Common Voice-datamängd finns tillgänglig för nedladdning under licensen <licenseLink>CC0</licenseLink> på <datasetLink>vår sida för datamängder</datasetLink>. Du kan också ladda ner flera andra publikt tillgängliga datamängder från samma sida.
-faq-when-release-q = När kommer ni släppa Common Voice-data på andra språk?
-faq-when-release-a = Den flerspråkiga versionen av Common Voice-datamängd genomgår för närvarande buntning och städning i vår community. Om du vill lära dig mer om hur du stödjer denna insats, vänligen <contactLink>kontakta oss</contactLink>. Vi riktar för närvarande in oss på ett publiceringsdatum i januari 2019. Därefter uppdaterar vi datamängd med nya språk och röstklipp när de blir tillgängliga. Inget beslut har tagits om hur ofta iterativa uppdateringar ska släppas.
+faq-when-release2-q = När kommer ni släppa Common Voice-data på andra språk?
+faq-when-release2-a = Flerspråkig version av Common Voice-datamängd genomgår för närvarande paketering och rengöring av gemenskapen. Om du vill hjälpa oss att ta med Common Voice till andra språk, gå till <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> för att lägga till nya meningar i datamängden och Mozilla <pontoonLink>Pontoon</pontoonLink> för att översätta webbplatsen. Nya språk läggs till i Common Voice när 5000 godkända meningar har samlats in.
 faq-why-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
 faq-why-mission-a = Mozilla är dedikerat till att hålla webben öppen och tillgänglig för alla. För att göra det behöver vi stärka webbskapare genom projekt som Common Voice. Eftersom röstteknologi växer utöver nischprogram, tycker vi att de måste vara tillgängliga för alla användare. Det innebär en investering i fler språk och anpassning efter fler accenter och större demografi när man bygger och testar röstteknik. Common Voice är en offentlig resurs tillgänglig för alla och Mozilla-team och utvecklare runt om i världen använder den redan i sina egna projekt.
 faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
@@ -588,7 +588,7 @@ localized = Översatt
 sentences = Meningar
 total-hours = Validerade timmar
 
-## New Contribution
+## Contribution
 
 action-click = Klicka
 action-tap = Tryck
@@ -636,6 +636,8 @@ listen-last-time-instruction = <playIcon></playIcon> Sista!
 nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
+keep-track-profile = Håll koll på dina framsteg med en profil
+login-to-get-started = Logga in eller registrera dig för att komma igång
 
 ## Reporting
 
