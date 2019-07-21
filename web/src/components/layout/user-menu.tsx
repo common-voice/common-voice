@@ -1,5 +1,6 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { Suspense, lazy } from 'react';
 import { useState } from 'react';
 import { useAccount } from '../../hooks/store-hooks';
 import { trackNav } from '../../services/tracker';
@@ -15,7 +16,7 @@ import {
 import { Avatar, Hr } from '../ui/ui';
 
 import './user-menu.css';
-import Lottie from 'react-lottie';
+const Lottie = lazy(() => import('react-lottie'));
 const animationData = require('./data.json');
 
 export default function UserMenu() {
@@ -107,13 +108,15 @@ export default function UserMenu() {
           </div>
         </div>
       </div>
-      <div className="animation">
-        {showAnimation && (
-          <div>
-            <Lottie options={defaultOptions} height={80} />
-          </div>
-        )}
-      </div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <div className="animation">
+          {showAnimation && (
+            <div>
+              <Lottie options={defaultOptions} height={80} />
+            </div>
+          )}
+        </div>
+      </Suspense>
     </div>
   );
 }
