@@ -1,6 +1,7 @@
 import * as sendRequest from 'request-promise-native';
 import { getConfig } from '../config-helper';
 import { getMySQLInstance } from './model/db/mysql';
+import { computeGoals } from './model/goals';
 
 const { BASKET_API_KEY, ENVIRONMENT } = getConfig();
 const db = getMySQLInstance();
@@ -15,6 +16,8 @@ function toISO(date: string) {
 }
 
 export async function sync(client_id: string) {
+  await computeGoals(client_id);
+
   const [[row]] = await db.query(
     `
       SELECT

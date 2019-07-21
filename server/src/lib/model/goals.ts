@@ -17,6 +17,140 @@ const ONE_DAY = 24 * 60 * 60 * 1000;
 const daysBetween = (date1: Date, date2: Date) =>
   Math.floor((date1.getTime() - date2.getTime()) / ONE_DAY);
 
+const formatDate = (date: Date) =>
+  date
+    .toISOString()
+    .slice(0, 19)
+    .replace('T', ' ');
+
+async function hasComputedGoals(client_id: string) {
+  const [[client]] = await db.query(
+    'SELECT has_computed_goals FROM user_clients WHERE client_id = ?',
+    [client_id]
+  );
+  return Boolean(client.has_computed_goals);
+}
+
+export async function computeGoals(client_id: string): Promise<any> {
+  if (await hasComputedGoals(client_id)) return;
+
+  await db.query('DELETE FROM reached_goals WHERE client_id = ?', [client_id]);
+
+  const [rows] = await db.query(
+    `
+      SELECT locale_id, type, created_at
+      FROM (
+        SELECT locale_id, created_at, 'clip' AS type
+        FROM clips
+        WHERE client_id = :client_id
+        UNION ALL
+        SELECT locale_id, votes.created_at, 'vote' AS type
+        FROM votes
+        LEFT JOIN clips on votes.clip_id = clips.id
+        WHERE votes.client_id = :client_id
+      ) dates
+      ORDER BY created_at ASC
+    `,
+    { client_id }
+  );
+
+  const localeStreakMap = new Map();
+  const countsMap = new Map();
+  for (const { locale_id, type, created_at } of rows) {
+    let counts = countsMap.get(locale_id);
+    if (!counts) {
+      counts = { clips: 0, votes: 0 };
+      countsMap.set(locale_id, counts);
+    }
+
+    const isClip = type == 'clip';
+    const count = isClip ? (counts.clips += 1) : (counts.votes += 1);
+    if (THRESHOLDS.some(t => t == count)) {
+      await db.query(
+        `
+          INSERT INTO reached_goals
+          (type, client_id, locale_id, count, reached_at)
+          VALUES (?, ?, ?, ?, ?)
+          ON DUPLICATE KEY UPDATE reached_at = VALUES(reached_at)
+        `,
+        [
+          isClip ? 'clips' : 'votes',
+          client_id,
+          locale_id,
+          count,
+          formatDate(new Date(created_at)),
+        ]
+      );
+    }
+
+    let streak = localeStreakMap.get(locale_id);
+    if (!streak) {
+      streak = {
+        startedAt: null,
+        lastActivityAt: null,
+      };
+      localeStreakMap.set(locale_id, streak);
+    }
+
+    const contributionAt = new Date(created_at);
+    const daysSinceLastActivity = streak.lastActivityAt
+      ? daysBetween(contributionAt, streak.lastActivityAt)
+      : 0;
+    if (!streak.startedAt) {
+      streak.startedAt = streak.lastActivityAt = contributionAt;
+    } else if (daysSinceLastActivity <= 1) {
+      streak.lastActivityAt = contributionAt;
+
+      const streakDays = daysBetween(contributionAt, streak.startedAt);
+      if (STREAK_THRESHOLDS.some(t => t == streakDays)) {
+        await db.query(
+          `
+            INSERT IGNORE INTO reached_goals
+              (type, client_id, locale_id, count, reached_at
+            )
+            VALUES (?, ?, ?, ?, ?)
+          `,
+          [
+            'streak',
+            client_id,
+            locale_id,
+            streakDays,
+            formatDate(contributionAt),
+          ]
+        );
+      }
+    }
+  }
+
+  const now = new Date();
+  for (const [
+    key,
+    { startedAt, lastActivityAt },
+  ] of localeStreakMap.entries()) {
+    if (daysBetween(now, lastActivityAt) > 1) {
+      continue;
+    }
+
+    const [locale_id, client_id] = JSON.parse(key);
+    await db.query(
+      `
+        INSERT INTO streaks
+        (client_id, locale_id, started_at, last_activity_at)
+        VALUES (?, ?, ?, ?)
+        ON DUPLICATE KEY UPDATE
+          started_at = VALUES(started_at),
+          last_activity_at = VALUES(last_activity_at)
+        `,
+      [client_id, locale_id, formatDate(startedAt), formatDate(lastActivityAt)]
+    );
+  }
+
+  await db.query(
+    'UPDATE user_clients SET has_computed_goals = true WHERE client_id = ?',
+    [client_id]
+  );
+}
+
 export default async function getGoals(
   client_id: string,
   locale?: string
@@ -110,6 +244,8 @@ export async function getGoalsNew(
   client_id: string,
   locale?: string
 ): Promise<AllGoals['globalGoals']> {
+  await computeGoals(client_id);
+
   const localeId = locale ? await getLocaleId(locale) : null;
   const [[reachedGoals], [[counts]]] = await Promise.all([
     db.query(
@@ -194,6 +330,8 @@ export async function checkGoalsAfterContribution(
   client_id: string,
   locale: { id: number } | { name: string }
 ) {
+  if (!(await hasComputedGoals(client_id))) return;
+
   const localeId =
     'name' in locale ? await getLocaleId(locale.name) : locale.id;
   let [
