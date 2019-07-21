@@ -183,9 +183,16 @@
 
     & .button {
         height: 57px;
-        position: absolute;
-        bottom: -27px;
-        left: 50%;
-        transform: translateX(-50%);
+
+        @media (--sm-down) {
+            margin-top: 20px;
+        }
+
+        @media (--md-up) {
+            position: absolute;
+            bottom: -27px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 }
