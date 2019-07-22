@@ -344,8 +344,8 @@ faq-why-important-a =
     Om spraakherkenning nog universeler te maken, verzamelen we spraakfragmenten in veelgesproken talen, evenals die met een kleinere populatie van sprekers, die vaak niet worden ondersteund door commerciële spraakherkenningsdiensten. Door een diverse gegevensset met stemmen te publiceren, kunnen ontwikkelaars, ondernemers en volledige spraakgemeenschappen zelf deze kloof overbruggen.
 faq-how-get-q = Hoe kan ik de gegevens van Common Voice verkrijgen?
 faq-how-get-a = De gegevensset van Common Voice is beschikbaar voor downloaden onder de <licenseLink>CC0</licenseLink>-licentie op <datasetLink>onze pagina met gegevenssets</datasetLink>. U kunt ook diverse andere openbaar beschikbare gegevenssets van diezelfde pagina downloaden.
-faq-when-release-q = Wanneer geven jullie gegevens van Common Voice in andere talen vrij?
-faq-when-release-a = De meertalige versie van de gegevensset van Common Voice wordt momenteel met hulp van de gemeenschap gebundeld en opgeschoond. Als u meer wilt weten over steun aan dit werk, neem dan <contactLink>contact met ons op</contactLink>. We mikken momenteel op een publicatiedatum in januari 2019. Daarna zullen we periodiek de gegevensset bijwerken met nieuwe talen en spraakfragmenten, als deze beschikbaar komen. Een iteratieve uitgavecyclus moet nog worden vastgesteld.
+faq-when-release2-q = Wanneer wordt Common Voice in andere talen uitgegeven?
+faq-when-release2-a = De meertalige versie van de Common Voice-gegevensset wordt momenteel door de gemeenschap gebundeld en opgeschoond. Als u ons wilt helpen om Common Voice naar nieuwe talen te brengen, kijk dan eens naar het <sentenceCollectorLink>Hulpmiddel voor het verzamelen van zinnen</sentenceCollectorLink> voor het toevoegen van nieuwe zinnen aan de gegevensset, en naar Mozilla <pontoonLink>Pontoon</pontoonLink> voor het vertalen van de website zelf. Nieuwe talen worden voor spraakdonatie aan Common Voice toegevoegd wanneer 5000 goedgekeurde zinnen zijn verzameld.
 faq-why-mission-q = Waarom is Common Voice onderdeel van de Mozilla-missie?
 faq-why-mission-a = Mozilla wijdt zich aan het voor iedereen open en toegankelijk houden van het internet. Om dat te doen, moeten we webmakers middelen geven met projecten als Common Voice. Omdat spraaktechnologieën steeds meer worden toegepast, geloven we dat ze alle gebruikers ten dienste moeten staan. Dat betekent investeren in meer talen, en ruimte bieden voor verschillende accenten en bevolkingsverschillen bij het bouwen en testen van spraaktechnologieën. Common Voice is een voor iedereen beschikbare publieke bron, en Mozilla-teams en ontwikkelaars over de hele wereld gebruiken het ook al voor onze eigen projecten.
 faq-what-cv-and-deepspeech-q = Wat is het verschil tussen Common Voice en Deep Speech?
@@ -585,7 +585,7 @@ localized = Vertaald
 sentences = Zinnen
 total-hours = Uren totaal
 
-## New Contribution
+## Contribution
 
 action-click = Klik op
 action-tap = Tik op
@@ -629,6 +629,8 @@ listen-last-time-instruction = <playIcon></playIcon> De laatste!
 nothing-to-validate = Er is niets in deze taal te valideren; help ons de rij te vullen.
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
+keep-track-profile = Houd uw voortgang bij met een profiel
+login-to-get-started = Meld u aan of registreer om te beginnen
 
 ## Reporting
 
