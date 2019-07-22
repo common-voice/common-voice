@@ -36,7 +36,7 @@ export const LoginSuccess = withRouter(
         trackProfile('login', locale);
       }
       history.replace(
-        toLocaleRoute(redirectURL || (account ? URLS.ROOT : URLS.PROFILE_INFO))
+        redirectURL || toLocaleRoute(account ? URLS.ROOT : URLS.PROFILE_INFO)
       );
     }, [user]);
 
