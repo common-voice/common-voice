@@ -306,7 +306,7 @@
             @media (--md-up) {
                 margin-top: 0;
                 margin-inline-start: auto;
-                width: min-content;
+                width: max-content;
                 flex-direction: column;
                 justify-content: flex-start;
             }

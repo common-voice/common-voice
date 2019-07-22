@@ -301,7 +301,7 @@ button.card-action:focus.focus-visible path {
     box-sizing: border-box;
     border-radius: 25px;
     padding: 0 var(--toggle-padding);
-    width: fit-content;
+    width: min-content;
     height: 36px;
 
     position: relative;

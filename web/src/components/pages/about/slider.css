@@ -54,7 +54,7 @@
         left: -70px;
         position: relative;
         box-sizing: border-box;
-        height: fit-content;
+        height: max-content;
 
         &:before {
             content: '';
@@ -133,7 +133,7 @@
     & .slider-controls {
         display: flex;
         align-items: center;
-        height: fit-content;
+        height: max-content;
         margin-top: 2.4rem;
         width: 100%;
 
