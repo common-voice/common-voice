@@ -201,6 +201,7 @@ help-make-dataset = Helfen Sie uns, einen qualitativ hochwertigen, öffentlich z
 profile-not-required = Ein Profil ist für die Mitarbeit nicht notwendig, aber hilfreich
 sign-up-account = Ein Konto erstellen
 email-subscription-title = Abonnieren Sie Neuigkeiten per E-Mail
+email-subscription-title-new = Abonnieren Sie Common-Voice-Newsletter, Zielerinnerungen und Fortschrittsmeldungen
 
 ## Account Benefits
 
@@ -689,6 +690,55 @@ recorded-clips = Aufgenommene Aufzeichnungen
 validated-clips = Überprüfte Aufzeichnungen
 total-approved = Angenommene Aufzeichnungen
 overall-accuracy = Gesamtgenauigkeit
+
+## Custom Goals
+
+get-started-goals = Erste Schritte mit Zielen
+toward-next-goal = Zum nächsten Ziel
+create-custom-goal = Ein benutzerdefiniertes Ziel erstellen
+both-speak-and-listen = Beides
+both-speak-and-listen-long = Beide (Sprechen und Hören)
+daily-goal = Tagesziel
+weekly-goal = Wochenziel
+easy-difficulty = Einfach
+average-difficulty = Mittel
+difficult-difficulty = Schwer
+pro-difficulty = Profi
+lose-goal-progress-warning = Wenn Sie Ihr Ziel bearbeiten, verlieren Sie möglicherweise Ihren vorhandenen Fortschritt.
+want-to-continue = Möchten Sie fortfahren?
+finish-editing = Erst die Bearbeitung beenden?
+lose-changes-warning = Wenn Sie jetzt abbrechen, gehen Ihre Änderungen verloren
+build-custom-goal = Ein benutzerdefiniertes Ziel erstellen
+help-reach-hours = Helfen Sie mit einem persönlichen Ziel dabei, { NUMBER($hours) } Stunden in { $language } zu erreichen
+set-a-goal = Ein Ziel setzen
+cant-decide = Sie können sich nicht entscheiden?
+activity-needed-calculation =
+    { NUMBER($totalHours) } Stunden sind in etwas mehr als { NUMBER($periodMonths) } erreichbar.
+    Monate, wenn { NUMBER($people) } Personen { NUMBER($clipsPerDay) } Clips pro Tag aufnehmen.
+how-many-per-day = Top! Wie viele Clips pro Tag?
+how-many-a-week = Top! Wie viele Clips pro Woche?
+which-goal-type = Möchten Sie Sprechen, Hören oder beides?
+receiving-emails-info =
+    Sie haben aktuell E-Mail wie Zielerinnerungen, meine Fortschrittsmeldungen
+    und Newsletter zu Common Voice abonniert
+n-clips = { NUMBER($count) } Clips
+help-share-goal = Teilen Sie Ihr Ziel und helfen Sie uns, mehr Stimmen zu finden
+confirm-goal = Ziel bestätigen
+goal-interval-weekly = Wöchentlich
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Teilen Sie Ihr tägliches { $count }-Clip-Ziel für { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Teilen Sie Ihr wöchentliches { $count }-Clip-Ziel für { $type }
+share-goal-type-speak = Sprechen
+share-goal-type-listen = Hören
+share-goal-type-both = Sprechen und Hören
+# LINK will be replaced with the current URL
+goal-share-text = Ich habe gerade ein persönliches Ziel für Sprachbeiträge bei #CommonVoice erstellt. Mach mit und bring Maschinen bei, wie echte Menschen sprechen. { $link }
+weekly-goal-created = Ihr Wochenziel wurde erstellt
+daily-goal-created = Ihr Tagesziel wurde erstellt
+track-progress = Verfolgen Sie den Fortschritt hier und auf Ihrer Statistikseite.
+return-to-edit-goal = Sie können hier jederzeit Ihr Ziel bearbeiten
+share-goal = Mein Ziel teilen
 
 ## Profile Delete
 
