@@ -201,6 +201,7 @@ help-make-dataset = Ajude-nos a construir um conjunto de dados de alta qualidade
 profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
 sign-up-account = Cadastre uma conta
 email-subscription-title = cadastre-se para receber notícias por e-mail
+email-subscription-title-new = Cadastre-se para recebe do Common Voice boletins, lembretes de metas e informações de progresso
 
 ## Account Benefits
 
@@ -689,6 +690,38 @@ recorded-clips = Clipes gravados
 validated-clips = Clipes validados
 total-approved = Total aprovado
 overall-accuracy = Precisão geral
+
+## Custom Goals
+
+get-started-goals = Introdução de metas
+toward-next-goal = Rumo à próxima meta
+create-custom-goal = Crie uma meta personalizada
+both-speak-and-listen = Ambos
+both-speak-and-listen-long = Ambos (falar e ouvir)
+daily-goal = Meta diária
+weekly-goal = Meta semanal
+easy-difficulty = Fácil
+average-difficulty = Médio
+difficult-difficulty = Difícil
+pro-difficulty = Pro
+lose-goal-progress-warning = Se editar sua meta, você pode perder seu progresso atual.
+want-to-continue = Quer continuar?
+finish-editing = Terminar a edição primeiro?
+lose-changes-warning = Se sair agora, perderá suas alterações
+build-custom-goal = Criar uma meta personalizada
+help-reach-hours = Ajude a alcançar { NUMBER($hours) } horas em { $language } com uma meta pessoal
+set-a-goal = Defina uma meta
+cant-decide = Está indeciso?
+activity-needed-calculation =
+    { NUMBER($totalHours) } horas se pode alcançar em apenas { NUMBER($periodMonths) }
+    meses se { NUMBER($people) } pessoas gravarem { NUMBER($clipsPerDay) } clipes por dia.
+how-many-per-day = Ótimo! Quantos clipes por dia?
+how-many-a-week = Ótimo! Quantos clipes por semana?
+which-goal-type = Quer falar, ouvir ou ambos?
+n-clips = { NUMBER($count) } clipes
+help-share-goal = Ajude-nos a encontrar mais vozes, compartilhe sua meta
+confirm-goal = Confirmar meta
+goal-interval-weekly = Semanal
 
 ## Profile Delete
 
