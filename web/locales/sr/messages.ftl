@@ -215,6 +215,8 @@ view-goals = Погледајте свој напредак у односу на
 
 whats-public = Шта је јавно?
 email-not-public = Нећемо учинити вашу е-пошту јавном.
+recordings-and-locale-public = Број снимака и језици којима доприносите биће јавни.
+username-optin-public = Можете одабрати да ваше корисничко име буде јавно или анонимно.
 
 ## Speak & Listen Shortcuts
 
