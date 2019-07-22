@@ -1,11 +1,13 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized, withLocalization } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
 import { CustomGoal, CustomGoalParams } from 'common/goals';
 import { UserClient } from 'common/user-clients';
 import URLS from '../../../../urls';
 import { useAccount } from '../../../../hooks/store-hooks';
+import { DEFAULT_LOCALE } from '../../../../services/localization';
 import { getManageSubscriptionURL } from '../../../../utility';
+import { ALL_LOCALES } from '../../../language-select/language-select';
 import { LocaleLink } from '../../../locale-helpers';
 import ShareModal from '../../../share-modal/share-modal';
 import {
@@ -79,6 +81,8 @@ export const ViewGoal = ({
 );
 
 interface CustomGoalStepProps {
+  locale: string;
+
   completedFields: React.ReactNode;
   currentFields: React.ReactNode;
 
@@ -96,24 +100,31 @@ interface AccountProps {
 }
 
 export default [
-  ({ nextButtonProps }) => (
+  withLocalization(({ getString, locale, nextButtonProps }: any) => (
     <>
       <div className="padded">
-        <h1>Build a custom goal</h1>
-        <span className="sub-head">
-          Help reach 10,000 hours in English with a personal goal
-        </span>
+        <Localized id="build-custom-goal">
+          <h1 />
+        </Localized>
+        <Localized
+          id="help-reach-hours"
+          $hours={10000}
+          $language={getString(
+            locale == ALL_LOCALES ? DEFAULT_LOCALE : locale
+          )}>
+          <span className="sub-head" />
+        </Localized>
       </div>
 
       <div className="waves">
         <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
       </div>
 
-      <Button className="get-started-button" rounded {...nextButtonProps}>
-        Set a goal
-      </Button>
+      <Localized id="set-a-goal">
+        <Button className="get-started-button" rounded {...nextButtonProps} />
+      </Localized>
     </>
-  ),
+  )),
 
   ({ closeButtonProps, currentFields, nextButtonProps }) => (
     <>
@@ -128,11 +139,17 @@ export default [
       <div className="waves">
         <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
         <div className="text">
-          <h4>Can't decide?</h4>
-          <p>
-            10,000 hours is achievable in just over 6 months if 1000 people
-            record 45 clips a day.
-          </p>
+          <Localized id="cant-decide">
+            <h4 />
+          </Localized>
+          <Localized
+            id="activity-needed-calculation"
+            $totalHours={10000}
+            $periodMonths={6}
+            $people={1000}
+            $clipsPerDay={45}>
+            <p />
+          </Localized>
         </div>
       </div>
     </>
@@ -148,10 +165,10 @@ export default [
     <>
       <div className="padded">
         {completedFields}
-        <h2>
-          Great! How many clips
-          {state.daysInterval == 7 ? ' a week' : ' per day'}?
-        </h2>
+        <Localized
+          id={state.daysInterval == 7 ? 'how-many-a-week' : 'how-many-per-day'}>
+          <h2 />
+        </Localized>
         {currentFields}
       </div>
       <Buttons>
@@ -165,7 +182,9 @@ export default [
     <>
       <div className="padded">
         {completedFields}
-        <h2>Do you want to Speak, Listen or both?</h2>
+        <Localized id="which-goal-type">
+          <h2 />
+        </Localized>
         {currentFields}
       </div>
       <Buttons>
@@ -190,10 +209,9 @@ export default [
         {completedFields}
         {account.basket_token ? (
           <>
-            <p className="subscription-info">
-              You're currently set to receive emails such as goal reminders, my
-              progress updates and newsletters about Common Voice
-            </p>
+            <Localized id="receiving-emails-info">
+              <p className="subscription-info" />
+            </Localized>
             <a
               className="manage-subscriptions"
               href={getManageSubscriptionURL(account)}
@@ -243,30 +261,35 @@ export default [
             className="submit"
             {...nextButtonProps}
             disabled={subscribed && !privacyAgreed}>
-            <CheckIcon /> Confirm Goal
+            <CheckIcon />{' '}
+            <Localized id="confirm-goal">
+              <span />
+            </Localized>
           </Button>
         </Buttons>
       </div>
     );
   },
 
-  ({ nextButtonProps, state }) => {
+  withLocalization(({ getString, nextButtonProps, state }: any) => {
     const [showShareModal, setShowShareModal] = useState(false);
     const goalType = state.daysInterval == 7 ? 'Weekly' : 'Daily';
+    const isWeekly = state.daysInterval == 7;
     return (
       <div className="padded">
         {showShareModal && (
           <ShareModal
-            title={<>Help us find more voices, share your goal</>}
-            text={`Share your ${state.amount} Clip ${goalType} Goal for 
-              ${
-                ({
-                  speak: 'Speaking',
-                  listen: 'Listening',
-                  both: 'Speaking and Listening',
-                } as any)[state.type]
-              }`}
-            shareText="I just created a personal goal for voice donation to #CommonVoice -- join me and help teach machines how real people speak {link}"
+            title={getString('help-share-goal')}
+            text={getString(
+              isWeekly
+                ? 'share-n-weekly-contribution-goal'
+                : 'share-n-daily-contribution-goal',
+              {
+                count: state.amount,
+                type: getString('share-goal-type-' + state.type),
+              }
+            )}
+            shareTextId="goal-share-text"
             onRequestClose={() => {
               setShowShareModal(false);
               const { onClick } = nextButtonProps as any;
@@ -280,20 +303,29 @@ export default [
           <div className="shadow" />
           <CheckIcon />
         </div>
-        <h2>Your {goalType} goal has been created</h2>
+        <Localized id={isWeekly ? 'weekly-goal-created' : 'daily-goal-created'}>
+          <h2 />
+        </Localized>
         <p>
-          Track progress here and on your stats page.
+          <Localized id="track-progress">
+            <span />
+          </Localized>
           <br />
-          Return here to edit your goal anytime.
+          <Localized id="return-to-edit-goal">
+            <span />
+          </Localized>
         </p>
         <Button
           rounded
           className="share-button"
           onClick={() => setShowShareModal(true)}>
-          <ShareIcon /> Share my goal
+          <ShareIcon />{' '}
+          <Localized id="share-goal">
+            <span />
+          </Localized>
         </Button>
         <CloseButton {...nextButtonProps} />
       </div>
     );
-  },
+  }),
 ] as (React.ComponentType<CustomGoalStepProps>)[];

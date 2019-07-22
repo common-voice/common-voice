@@ -6,13 +6,13 @@ import ShareButtons from '../share-buttons/share-buttons';
 import './share-modal.css';
 
 export default ({
-  shareText,
+  shareTextId,
   title,
   text,
   ...props
 }: {
   onRequestClose: () => any;
-  shareText?: string;
+  shareTextId?: string;
   title?: React.ReactNode;
   text?: React.ReactNode;
 }) => (
@@ -29,7 +29,7 @@ export default ({
     )}
     {text && <p>{text}</p>}
     <div className="share-buttons">
-      <ShareButtons {...{ shareText }} />
+      <ShareButtons {...{ shareTextId }} />
     </div>
   </Modal>
 );

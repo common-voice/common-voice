@@ -1,4 +1,8 @@
-import { Localized } from 'fluent-react/compat';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { DAILY_GOAL } from '../../../constants';
@@ -6,7 +10,6 @@ import { useAccount, useAPI } from '../../../hooks/store-hooks';
 import { trackProfile } from '../../../services/tracker';
 import { useTypedSelector } from '../../../stores/tree';
 import URLS from '../../../urls';
-import CustomGoalLock from '../../custom-goal-lock';
 import { LocaleLink, useLocale } from '../../locale-helpers';
 import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
@@ -63,13 +66,14 @@ const AccountModal = (props: ModalProps) => {
   );
 };
 
-export default function Success({
+function Success({
+  getString,
   onReset,
   type,
 }: {
   type: 'speak' | 'listen';
   onReset: () => any;
-}) {
+} & LocalizationProps) {
   const api = useAPI();
   const account = useAccount();
 
@@ -77,6 +81,7 @@ export default function Success({
   const customGoal = hasAccount && account.customGoal;
   const goalValue = DAILY_GOAL[type];
 
+  const [locale] = useLocale();
   const flags = useTypedSelector(({ flags }) => flags);
   const killAnimation = useRef(false);
   const startedAt = useRef(null);
@@ -188,16 +193,17 @@ export default function Success({
 
       {hasAccount ? (
         !customGoal && (
-          <CustomGoalLock>
-            <div className="info-card">
-              <p>
-                Build a personal goal and help us reach 10k hours in English
-              </p>
-              <LinkButton rounded href={URLS.GOALS}>
-                Get started with goals
-              </LinkButton>
-            </div>
-          </CustomGoalLock>
+          <div className="info-card">
+            <Localized
+              id="help-reach-hours"
+              $hours={10000}
+              $language={getString(locale)}>
+              <p />
+            </Localized>
+            <Localized id="get-started-goals">
+              <LinkButton rounded href={URLS.GOALS} />
+            </Localized>
+          </div>
         )
       ) : (
         <div className="info-card">
@@ -225,3 +231,5 @@ export default function Success({
     </div>
   );
 }
+
+export default withLocalization(Success);

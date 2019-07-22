@@ -1,3 +1,4 @@
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
 import { CustomGoalParams } from 'common/goals';
@@ -110,15 +111,22 @@ function CompletedFields({
     <div className="fields completed">
       {completedStates.map(stateKey => {
         if (!states[stateKey]) return null;
-        const [label, value] = states[stateKey].find(
-          ([label, value]: any) => value == state[stateKey]
+        const [labelId, value] = states[stateKey].find(
+          ([, value]: any) => value == state[stateKey]
         );
         return (
           <Radio key={stateKey} checked disabled>
-            {({
-              amount: value + ' clips',
-              type: value == 'both' ? 'Both (Speak and Listen)' : label,
-            } as any)[stateKey] || label}
+            <Localized
+              {...(stateKey == 'amount'
+                ? { id: 'n-clips', $count: value }
+                : {
+                    id:
+                      stateKey == 'type' && value == 'both'
+                        ? 'both-speak-and-listen-long'
+                        : labelId,
+                  })}>
+              <span />
+            </Localized>
             <button
               type="button"
               onClick={() =>
@@ -147,7 +155,7 @@ function CurrentFields({
   const currentStateKey = STATE_KEYS[stepIndex];
   return (
     <div className="fields">
-      {(states[currentStateKey] || []).map(([label, value]: any) =>
+      {(states[currentStateKey] || []).map(([labelId, value]: any) =>
         value == null ? null : (
           <Radio
             key={value}
@@ -167,14 +175,20 @@ function CurrentFields({
                 ),
               })
             }>
-            {({
-              amount: (
-                <>
-                  {value + ' clips'}
-                  <span className="right">{label}</span>
-                </>
-              ),
-            } as any)[currentStateKey] || label}
+            {currentStateKey == 'amount' ? (
+              <>
+                <Localized id="n-clips" $count={value}>
+                  <span />
+                </Localized>
+                <Localized id={labelId}>
+                  <span className="right" />
+                </Localized>
+              </>
+            ) : (
+              <Localized id={labelId}>
+                <span />
+              </Localized>
+            )}
           </Radio>
         )
       )}
@@ -182,7 +196,7 @@ function CurrentFields({
   );
 }
 
-export default function CustomGoal() {
+export default function CustomGoal({ locale }: { locale: string }) {
   const api = useAPI();
   const { customGoal, email } = useAccount();
   const refreshUser = useAction(User.actions.refresh);
@@ -211,11 +225,18 @@ export default function CustomGoal() {
   const Step = steps[stepIndex];
 
   const states: any = {
-    daysInterval: [['Daily Goal', 1], ['Weekly Goal', 7]],
-    amount: [['Easy', 15], ['Average', 30], ['Difficult', 45], ['Pro', 60]].map(
-      ([label, value]) => [label, (state.daysInterval || 0) * (value as number)]
+    daysInterval: [['daily-goal', 1], ['weekly-goal', 7]],
+    amount: [['easy', 15], ['average', 30], ['difficult', 45], ['pro', 60]].map(
+      ([labelId, value]) => [
+        labelId + '-difficulty',
+        (state.daysInterval || 0) * (value as number),
+      ]
     ),
-    type: [['Speak', 'speak'], ['Listen', 'listen'], ['Both', 'both']],
+    type: [
+      ['speak', 'speak'],
+      ['listen', 'listen'],
+      ['both-speak-and-listen', 'both'],
+    ],
   };
 
   async function handleNext(confirmed = false) {
@@ -249,9 +270,13 @@ export default function CustomGoal() {
             },
           }}
           onRequestClose={() => setShowOverwriteModal(false)}>
-          By editing your goal, you may lose your existing progress.
+          <Localized id="lose-goal-progress-warning">
+            <span />
+          </Localized>
           <br />
-          Do you want to continue?
+          <Localized id="want-to-continue">
+            <span />
+          </Localized>
         </Modal>
       )}
       {showAbortEditModal && (
@@ -266,9 +291,13 @@ export default function CustomGoal() {
             },
           }}
           onRequestClose={() => setShowAbortEditModal(false)}>
-          Finish editing first?
+          <Localized id="finish-editing">
+            <span />
+          </Localized>
           <br />
-          Leaving now means you’ll lose your changes
+          <Localized id="lose-changes-warning">
+            <span />
+          </Localized>
         </Modal>
       )}
       <StepButtons
@@ -302,7 +331,7 @@ export default function CustomGoal() {
             onClick: () => handleNext(),
           }}
           state={state}
-          {...{ subscribed, setSubscribed }}
+          {...{ locale, subscribed, setSubscribed }}
         />
       )}
     </div>

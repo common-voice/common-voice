@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { useAPI } from '../../hooks/store-hooks';
 import { trackGlobal } from '../../services/tracker';
 import URLS from '../../urls';
-import CustomGoalLock from '../custom-goal-lock';
 import {
   LocaleLink,
   LocalizedGetAttribute,
@@ -45,21 +44,9 @@ export default function SubscribeNewsletter() {
           console.error(e);
         }
       }}>
-      <CustomGoalLock
-        currentLocale={locale}
-        render={({ hasCustomGoal }) =>
-          hasCustomGoal ? (
-            <div className="goal-title">
-              Sign up for Common Voice newsletters, goal reminders and progress
-              updates
-            </div>
-          ) : (
-            <Localized id="email-subscription-title">
-              <div className="title" />
-            </Localized>
-          )
-        }
-      />
+      <Localized id="email-subscription-title-new">
+        <div className="goal-title" />
+      </Localized>
       <div className="submittable-field">
         <LocalizedGetAttribute id="download-form-email" attribute="label">
           {label => (

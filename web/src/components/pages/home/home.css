@@ -283,18 +283,3 @@
         margin-top: 50px;
     }
 }
-
-.goals-banner {
-    &,
-    & h1 a {
-        color: var(--white);
-    }
-
-    & h1 a {
-        text-decoration: underline;
-
-        &:hover {
-            color: var(--blue);
-        }
-    }
-}

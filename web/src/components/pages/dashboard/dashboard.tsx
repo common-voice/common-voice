@@ -1,16 +1,9 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import {
-  Redirect,
-  Route,
-  RouteComponentProps,
-  Switch,
-  withRouter,
-} from 'react-router';
+import { Route, RouteComponentProps, Switch, withRouter } from 'react-router';
 import { useAccount, useAPI } from '../../../hooks/store-hooks';
 import URLS from '../../../urls';
-import CustomGoalLock from '../../custom-goal-lock';
 import { ALL_LOCALES } from '../../language-select/language-select';
 import { LocaleNavLink, useLocale } from '../../locale-helpers';
 import StatsPage from './stats/stats';
@@ -80,18 +73,16 @@ const TopBar = ({ history }: RouteComponentProps) => {
                 </LocaleNavLink>
               )
             )}
-            <CustomGoalLock currentLocale={locale}>
-              <LocaleNavLink to={URLS.AWARDS}>
-                <h2>
-                  Awards{' '}
-                  {unseenAwards > 0 && (
-                    <span className="badge">
-                      {unseenAwards > 9 ? '9+' : unseenAwards}
-                    </span>
-                  )}
-                </h2>
-              </LocaleNavLink>
-            </CustomGoalLock>
+            <LocaleNavLink to={URLS.AWARDS}>
+              <h2>
+                Awards{' '}
+                {unseenAwards > 0 && (
+                  <span className="badge">
+                    {unseenAwards > 9 ? '9+' : unseenAwards}
+                  </span>
+                )}
+              </h2>
+            </LocaleNavLink>
           </nav>
 
           {!history.location.pathname.includes(URLS.AWARDS) && (
@@ -140,6 +131,7 @@ const TopBar = ({ history }: RouteComponentProps) => {
           {[
             { route: URLS.STATS, Component: StatsPage },
             { route: URLS.GOALS, Component: GoalsPage },
+            { route: URLS.AWARDS, Component: AwardsPage },
           ].map(({ route, Component }) => (
             <Route
               key={route}
@@ -150,20 +142,6 @@ const TopBar = ({ history }: RouteComponentProps) => {
               )}
             />
           ))}
-          <CustomGoalLock
-            currentLocale={locale}
-            render={({ hasCustomGoal }) =>
-              hasCustomGoal ? (
-                <Route
-                  exact
-                  path={toLocaleRoute(URLS.AWARDS)}
-                  component={AwardsPage}
-                />
-              ) : (
-                <Redirect to={toLocaleRoute(URLS.GOALS)} />
-              )
-            }
-          />
         </Switch>
       </div>
     </div>

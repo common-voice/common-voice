@@ -4,10 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { shallowEqual } from 'react-redux';
 import { trackHome } from '../../../services/tracker';
 import { useTypedSelector } from '../../../stores/tree';
-import URLS from '../../../urls';
-import { CUSTOM_GOAL_LOCALE } from '../../custom-goal-lock';
 import { ContributableLocaleLock } from '../../locale-helpers';
-import { Banner } from '../../notification-banner/notification-banner';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
 import RegisterSection from '../../register-section/register-section';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
@@ -19,21 +16,16 @@ import './home.css';
 
 type HeroType = 'speak' | 'listen';
 
-const GOALS_NOTIFICATION_KEY = 'seenGoalsNotification';
-
 export default function HomePage() {
   const heroes = ['speak', 'listen'];
-  const { account, isFetchingAccount, locale, user } = useTypedSelector(
+  const { locale, user } = useTypedSelector(
     ({ locale, user }) => ({
-      account: user.account,
-      isFetchingAccount: user.isFetchingAccount,
       locale,
       user,
     }),
     shallowEqual
   );
 
-  const [showGoalsBanner, setShowGoalsBanner] = useState(false);
   const [activeHero, setActiveHero] = useState<null | HeroType>(null);
   const [showRequestLanguageModal, setShowRequestLanguageModal] = useState(
     false
@@ -47,39 +39,10 @@ export default function HomePage() {
       statsRef.current.scrollIntoView(true);
       window.scrollBy(0, -130);
     }
-
-    if (
-      locale == CUSTOM_GOAL_LOCALE &&
-      !isFetchingAccount &&
-      !(account && account.customGoal) &&
-      !localStorage.getItem(GOALS_NOTIFICATION_KEY)
-    ) {
-      setShowGoalsBanner(true);
-    }
-  }, [account, isFetchingAccount, locale]);
+  }, []);
 
   return (
     <div className="home">
-      {showGoalsBanner && (
-        <Banner
-          className="goals-banner"
-          ctaButtonProps={
-            account
-              ? { children: 'Get Started', to: URLS.GOALS }
-              : { children: 'Log In / Sign Up', href: '/login' }
-          }
-          onClose={() => {
-            setShowGoalsBanner(false);
-            localStorage.setItem(GOALS_NOTIFICATION_KEY, JSON.stringify(true));
-          }}>
-          Help reach 10,000 hours in English, set a{' '}
-          <a
-            href="https://discourse.mozilla.org/t/common-voice-launches-personal-goals/38794"
-            target="_blank">
-            personal goal
-          </a>
-        </Banner>
-      )}
       <ContributableLocaleLock
         render={({ isContributable }: any) =>
           isContributable ? (

@@ -9,7 +9,6 @@ import { trackDashboard } from '../../../../services/tracker';
 import URLS from '../../../../urls';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
-import CustomGoalLock from '../../../custom-goal-lock';
 import { ALL_LOCALES } from '../../../language-select/language-select';
 import { toLocaleRouteBuilder } from '../../../locale-helpers';
 import { MicIcon, OldPlayIcon } from '../../../ui/icons';
@@ -70,58 +69,53 @@ class ProgressCard extends React.Component<Props, State> {
     return (
       <div className={'progress-card ' + type}>
         <div className="personal">
-          <CustomGoalLock
-            currentLocale={locale}
-            render={({ hasCustomGoal }) =>
-              hasCustomGoal && hasCustomGoalForThis ? (
-                <Fraction
-                  numerator={currentCustomGoal}
-                  denominator={customGoal.amount}
-                />
-              ) : (
-                <Fraction
-                  numerator={
-                    typeof personalCurrent == 'number' ? personalCurrent : '?'
-                  }
-                  denominator={
-                    (personalGoal == Infinity ? (
-                      <div className="infinity">∞</div>
-                    ) : (
-                      personalGoal
-                    )) || '?'
-                  }
-                />
-              )
-            }
-          />
+          {hasCustomGoalForThis ? (
+            <Fraction
+              numerator={currentCustomGoal}
+              denominator={customGoal.amount}
+            />
+          ) : (
+            <Fraction
+              numerator={
+                typeof personalCurrent == 'number' ? personalCurrent : '?'
+              }
+              denominator={
+                (personalGoal == Infinity ? (
+                  <div className="infinity">∞</div>
+                ) : (
+                  personalGoal
+                )) || '?'
+              }
+            />
+          )}
           <Localized
             id={isSpeak ? 'clips-you-recorded' : 'clips-you-validated'}>
             <div className="description" />
           </Localized>
-          <CustomGoalLock currentLocale={locale}>
-            <div className="custom-goal-section">
-              {customGoal ? (
-                hasCustomGoalForThis ? (
-                  <Link className="custom-goal-link" to={URLS.GOALS}>
-                    <CircleProgress
-                      value={currentCustomGoal / customGoal.amount}
-                    />
-                    <div className="custom-goal-text">
-                      <span>Toward</span>
-                      <span>next goal</span>
-                    </div>
-                  </Link>
-                ) : null
-              ) : (
+          <div className="custom-goal-section">
+            {customGoal ? (
+              hasCustomGoalForThis ? (
+                <Link className="custom-goal-link" to={URLS.GOALS}>
+                  <CircleProgress
+                    value={currentCustomGoal / customGoal.amount}
+                  />
+                  <div className="custom-goal-text">
+                    <Localized id="toward-next-goal">
+                      <span />
+                    </Localized>
+                  </div>
+                </Link>
+              ) : null
+            ) : (
+              <Localized id="create-custom-goal">
                 <LinkButton
                   className="custom-goal-button"
                   rounded
-                  to={URLS.GOALS}>
-                  Create a Custom Goal
-                </LinkButton>
-              )}
-            </div>
-          </CustomGoalLock>
+                  to={URLS.GOALS}
+                />
+              </Localized>
+            )}
+          </div>
         </div>
 
         <div className="progress-wrap">

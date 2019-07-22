@@ -1,5 +1,4 @@
 import * as React from 'react';
-import CustomGoalLock from '../../../custom-goal-lock';
 import Props from '../props';
 import CustomGoal from './custom-goal';
 import GoalRow from './goal-row';
@@ -14,11 +13,7 @@ const GoalsPage = ({ allGoals, locale }: Props) => (
           <GoalRow key={i} goalInfo={goalInfo} />
         ))}
     </div>
-    {allGoals && (
-      <CustomGoalLock currentLocale={locale}>
-        <CustomGoal />
-      </CustomGoalLock>
-    )}
+    {allGoals && <CustomGoal {...{ locale }} />}
   </div>
 );
 

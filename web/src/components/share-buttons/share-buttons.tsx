@@ -16,15 +16,15 @@ import { useAction } from '../../hooks/store-hooks';
 const SHARE_URL = 'https://voice.mozilla.org/';
 
 interface Props extends LocalizationProps {
-  shareText?: string;
+  shareTextId?: string;
 }
 
-function ShareButtons({ getString, shareText }: Props) {
+function ShareButtons({ getString, shareTextId }: Props) {
   const [locale] = useLocale();
   const addNotification = useAction(Notifications.actions.addPill);
   const encodedShareText = encodeURIComponent(
-    shareText
-      ? shareText.replace('{link}', SHARE_URL)
+    shareTextId
+      ? getString(shareTextId, { link: SHARE_URL })
       : getString('share-text', { link: SHARE_URL })
   );
   const shareURLInputRef = useRef(null);
