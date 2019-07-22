@@ -112,7 +112,11 @@ export default function UserMenu() {
         <div className="animation">
           {showAnimation && (
             <div>
-              <Lottie options={defaultOptions} height={80} />
+              <Lottie
+                options={defaultOptions}
+                height={80}
+                eventListeners={[]}
+              />
             </div>
           )}
         </div>
