@@ -168,17 +168,53 @@ vote-yes = Да
 vote-no = Не
 toggle-play-tooltip = Притисните { shortcut-play-toggle } да бисте укључили режим репродукције
 speak-subtitle = Донирајте свој глас
+speak-paragraph = Снимање гласовних исечака је саставни део изградње нашег отвореног скупа података, некима је то и најзабавнији део.
+speak-goal-text = Снимци су снимљени
+listen-subtitle = Помозите нам да потврдимо гласове
 listen-paragraph = Потврђивање донираних исечака једнако је важно за мисију Common Voice. Послушајте и помозите нам да створимо квалитетне отворене гласовне податке.
+listen-goal-text = Снимци су потврђени
+hours-recorded = Број снимљених сати
+hours-validated = Број потврђених сати
+voices-online = Укупно гласова на мрежи
 todays-progress = Данашњи напредак
+help-reach-goal = Помозите нам да стигнемо до { $goal }
+read-terms-q = Да ли сте прочитали наше услове?
+ready-to-record = Спремни сте да донирате свој глас?
 all-locales = Све
 today = Данас
+x-weeks-short =
+    { $count ->
+        [one] недеља
+        [few] недеље
+       *[other] недеља
+    }
+x-months-short =
+    { $count ->
+        [one] месец
+        [few] месеца
+       *[other] месеци
+    }
+x-years-short =
+    { $count ->
+        [one] година
+        [few] године
+       *[other] година
+    }
+help-make-dataset = Помозите нам да изградимо високо квалитетан, јаван и отворен скуп података
+sign-up-account = Региструјте налог
+email-subscription-title = пријавите се на новости преко е-поште
 
 ## Account Benefits
 
 benefits = Предности
+rich-data = Учините своје достављене податке што је могуће богатијим пружањем анонимних демографских података. Ми отклањамо свe демографске података пре објављивања.
+keep-track = Пратите ваш напредак и метрике за више језика.
+view-goals = Погледајте свој напредак у односу на личне и пројектне циљеве.
 
 ## What's public
 
+whats-public = Шта је јавно?
+email-not-public = Нећемо учинити вашу е-пошту јавном.
 
 ## Speak & Listen Shortcuts
 
