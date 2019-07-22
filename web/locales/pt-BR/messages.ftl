@@ -718,10 +718,25 @@ activity-needed-calculation =
 how-many-per-day = Ótimo! Quantos clipes por dia?
 how-many-a-week = Ótimo! Quantos clipes por semana?
 which-goal-type = Quer falar, ouvir ou ambos?
+receiving-emails-info = Sua conta está configurada para receber e-mails como lembretes de metas, informações de progresso e novidades sobre o Common Voice
 n-clips = { NUMBER($count) } clipes
 help-share-goal = Ajude-nos a encontrar mais vozes, compartilhe sua meta
 confirm-goal = Confirmar meta
 goal-interval-weekly = Semanal
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Compartilhe sua meta diária de { $type } { $count } clipes
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Compartilhe sua meta semanal de { $type } { $count } clipes
+share-goal-type-speak = Fala
+share-goal-type-listen = Audição
+share-goal-type-both = Fala e Audição
+# LINK will be replaced with the current URL
+goal-share-text = Acabei de criar uma meta pessoal de doação de voz para o #CommonVoice -- junte-se a mim e ajude a ensinar às máquinas como pessoas reais falam { $link }
+weekly-goal-created = Sua meta semanal foi criada
+daily-goal-created = Sua meta diária foi criada
+track-progress = Acompanhe o progresso aqui e na sua página de estatística.
+return-to-edit-goal = Volte aqui para editar sua meta quando quiser.
+share-goal = Compartilhar minha meta
 
 ## Profile Delete
 
