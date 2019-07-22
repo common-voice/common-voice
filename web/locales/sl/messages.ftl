@@ -347,7 +347,6 @@ faq-what-cv-q = Kaj je Common Voice?
 faq-why-important-q = Zakaj je to pomembno?
 faq-how-get-q = Kako lahko prenesem podatke Common Voice?
 faq-how-get-a = Podatkovni niz Common Voice je na voljo za prenos pod licenco <licenseLink>CC0</licenseLink> na <datasetLink>naši strani podatkovnih nizov</datasetLink>. Z iste strani lahko prenesete tudi več drugih javno dostopnih podatkovnih nizov.
-faq-when-release-q = Kdaj boste objavili podatke Common Voice v drugih jezikih?
 faq-why-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
 faq-why-mission-a = Mozilla se zavzema za splet, ki je odprt in dostopen vsem. Za to želimo opolnomočiti ustvarjalce spleta s pomočjo projektov, kot je Common Voice. Medtem ko se govorne tehnologije širijo preko meja nišnih aplikacij, si prizadevamo, da bi vsem uporabnikom služile enako dobro. Pri razvoju in testiranju govorne tehnologije tako vidimo potrebo po investiranju v čim več jezikov in vključevanju različnih naglasov ter demografskih skupin. Common Voice je prostodostopen javni vir, ki ga ekipe Mozille, kot tudi razvijalci po celem svetu že uporabljajo pri svojih projektih.
 faq-what-cv-and-deepspeech-q = Kakšna je razlika med projektoma Common Voice in Deep Speech?
@@ -571,7 +570,7 @@ localized = Lokalizirano
 sentences = Stavki
 total-hours = Skupaj ur
 
-## New Contribution
+## Contribution
 
 action-click = Kliknite
 action-tap = Tapnite
@@ -671,6 +670,16 @@ recorded-clips = Shranjeni posnetki
 validated-clips = Potrjeni posnetki
 total-approved = skupaj potrjenih
 overall-accuracy = natančnost
+
+## Custom Goals
+
+toward-next-goal = Do naslednjega cilja
+daily-goal = Dnevni cilj
+weekly-goal = Tedenski cilj
+average-difficulty = Srednje
+difficult-difficulty = Težko
+goal-interval-weekly = Tedensko
+share-goal-type-listen = Poslušanje
 
 ## Profile Delete
 
