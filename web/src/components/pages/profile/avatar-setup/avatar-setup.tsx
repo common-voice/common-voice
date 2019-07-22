@@ -93,13 +93,14 @@ interface PropsFromDispatch {
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 class AvatarSetup extends React.Component<Props> {
-  state = { isSaving: false, recordingStatus: false };
+  state = { isSaving: false, recordingStatus: false, avatarClipPlaying: false };
 
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform = false;
   maxVolume = 0;
   recordingStartTime = 0;
   recordingStopTime = 0;
+  avatarClipUrl: any = null;
 
   async componentDidMount() {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
@@ -112,6 +113,7 @@ class AvatarSetup extends React.Component<Props> {
     ) {
       this.isUnsupportedPlatform = true;
     }
+    this.avatarClipUrl = await this.props.api.fetchAvatarClip();
   }
 
   async componentWillUnmount() {
@@ -139,10 +141,11 @@ class AvatarSetup extends React.Component<Props> {
   };
 
   private playAvatarClip = async () => {
-    const { api } = this.props;
-    let url = await api.fetchAvatarClip();
-    const audio = new Audio(url);
+    const audio = new Audio(this.avatarClipUrl);
+    this.setState({ avatarClipPlaying: true });
     audio.play();
+    audio.onended = () => this.setState({ avatarClipPlaying: false });
+    audio.onerror = () => this.setState({ avatarClipPlaying: false });
   };
 
   private handleRecordClick = async () => {
@@ -220,7 +223,7 @@ class AvatarSetup extends React.Component<Props> {
       refreshUser,
       user: { account },
     } = this.props;
-    const { recordingStatus } = this.state;
+    const { recordingStatus, avatarClipPlaying } = this.state;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
@@ -275,7 +278,7 @@ class AvatarSetup extends React.Component<Props> {
               className="connect"
               type="button"
               onClick={this.playAvatarClip}>
-              <PlayIcon />
+              {avatarClipPlaying === false ? <PlayIcon /> : <StopIcon />}
             </button>
           </div>
         </div>

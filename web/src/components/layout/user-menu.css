@@ -1,5 +1,13 @@
 @import url('../vars.css');
 
+.animation {
+    z-index: -1000;
+    height: 0%;
+    position: absolute;
+    top: 47%;
+    right: 10%;
+}
+
 .user-menu {
     margin: 0 20px;
 

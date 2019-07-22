@@ -198,9 +198,18 @@ export default class API {
   };
 
   getAccount = async ({ user }: Request, response: Response) => {
-    response.json(
-      user ? await UserClient.findAccount(user.emails[0].value) : null
-    );
+    let userData = null;
+    if (user) {
+      userData = await UserClient.findAccount(user.emails[0].value);
+    }
+
+    if (userData !== null && userData.avatar_clip_url !== null) {
+      userData.avatar_clip_url = await this.bucket.getAvatarClipsUrl(
+        userData.avatar_clip_url
+      );
+    }
+
+    response.json(user ? userData : null);
   };
 
   subscribeToNewsletter = async (request: Request, response: Response) => {

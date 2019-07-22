@@ -15,9 +15,11 @@ import {
   MicIcon,
   OldPlayIcon,
   PlayOutlineIcon,
+  PlayIcon,
 } from '../../../ui/icons';
 import { Avatar } from '../../../ui/ui';
 import StatsCard from './stats-card';
+import { isProduction } from '../../../../utility';
 
 import './leaderboard.css';
 
@@ -44,12 +46,14 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
 interface State {
   rows: { position: number; [key: string]: any }[];
   isAtEnd: boolean;
+  playingClipIndex: number;
 }
 
 class UnconnectedLeaderboard extends React.Component<Props, State> {
   state: State = {
     rows: [],
     isAtEnd: false,
+    playingClipIndex: null,
   };
 
   scroller: { current: HTMLUListElement | null } = React.createRef();
@@ -88,10 +92,26 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       };
     });
   }
+  playAvatarClip = function(clipUrl: string, position: any) {
+    if (this.state.playingClipIndex === null) {
+      this.setState({ playingClipIndex: position });
+
+      const audio = new Audio(clipUrl);
+      audio.play();
+
+      audio.onended = () => {
+        this.setState({ playingClipIndex: null });
+      };
+
+      audio.onerror = () => {
+        this.setState({ playingClipIndex: null });
+      };
+    }
+  };
 
   render() {
     const { getString } = this.props;
-    const { rows, isAtEnd } = this.state;
+    const { rows, isAtEnd, playingClipIndex } = this.state;
 
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
@@ -118,9 +138,26 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position < 9 && '0'}
             {row.position + 1}
           </div>
-          <div className="avatar-container">
-            <Avatar url={row.avatar_url} />
-          </div>
+
+          {isProduction() && row.avatar_url !== null ? (
+            <div className="avatar-container">
+              <Avatar url={row.avatar_url} />
+            </div>
+          ) : (
+            <button
+              className="avatar-container"
+              title="Click to play avatar"
+              onClick={() =>
+                this.playAvatarClip(row.avatarClipUrl, row.position)
+              }>
+              <div
+                className={playingClipIndex === row.position ? 'rotate' : ''}>
+                <Avatar url={row.avatar_url} />
+              </div>
+              {playingClipIndex === row.position && <PlayIcon />}
+            </button>
+          )}
+
           <div className="username" title={row.username}>
             {row.username || '???'}
             {row.you && (

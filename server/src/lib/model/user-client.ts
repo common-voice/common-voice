@@ -128,6 +128,7 @@ const UserClient = {
               'skip_submission_feedback',
               'visible',
               'avatar_url',
+              'avatar_clip_url',
               'clips_count',
               'votes_count'
             ),
