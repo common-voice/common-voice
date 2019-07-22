@@ -568,7 +568,7 @@ localized = Pśełožony
 sentences = Sady
 total-hours = Góźiny dogromady
 
-## New Contribution
+## Contribution
 
 action-click = Kliknuś
 action-tap = Pótusnuś
@@ -618,6 +618,8 @@ listen-last-time-instruction = <playIcon></playIcon> Slědny!
 nothing-to-validate = Njamamy nico, kótarež móžomy w toś tej rěcy pśekontrolěrowaś, pšosym pomagajśo nam cakański rěd połniś.
 record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
+keep-track-profile = Slědujśo swójomu póstupoju z profilom
+login-to-get-started = Pśizjawśo se abo registrěrujśo se, aby zachopił
 
 ## Reporting
 
