@@ -686,7 +686,11 @@ overall-accuracy = 總體準確度
 
 ## Custom Goals
 
+get-started-goals = 設定目標開始貢獻
 toward-next-goal = 距離下一個目標
+create-custom-goal = 自訂目標
+both-speak-and-listen = 兩者
+both-speak-and-listen-long = 兩者（說與聽）
 daily-goal = 每日目標
 weekly-goal = 每週目標
 easy-difficulty = 簡單
@@ -696,6 +700,32 @@ pro-difficulty = 專業
 lose-goal-progress-warning = 編輯目標後，可能會失去現有進度。
 want-to-continue = 你想要繼續嗎？
 finish-editing = 要先完成編輯嗎？
+lose-changes-warning = 現在離開將不會儲存變更
+build-custom-goal = 自訂目標
+help-reach-hours = 設定個人目標，幫助讓 { $language } 的片段達到 { NUMBER($hours) } 小時
+set-a-goal = 設定目標
+cant-decide = 無法決定嗎？
+activity-needed-calculation = 若有 { NUMBER($people) } 每天錄下 { NUMBER($clipsPerDay) } 片段，就可以在 { NUMBER($periodMonths) } 個月後達到 { NUMBER($totalHours) } 小時的目標。
+how-many-per-day = 好的，每天要貢獻幾個片段？
+how-many-a-week = 好的，每週要貢獻幾個片段？
+which-goal-type = 想要錄音、聆聽確認，還是兩者都要？
+receiving-emails-info = 您已經設定要訂閱目標提醒、我的進度更新、Common Voice 相關最新消息的電子報。
+n-clips = { NUMBER($count) } 片段
+help-share-goal = 分享您的目標，幫助我們找到更多人參與錄音
+confirm-goal = 確認目標
+goal-interval-weekly = 每週
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = 分享您的每日 { $type } 目標: { $count } 片段
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = 分享您的每週 { $type } 目標: { $count } 片段
+share-goal-type-speak = 說話
+share-goal-type-listen = 聆聽
+share-goal-type-both = 說話與聆聽
+weekly-goal-created = 已建立您的每週目標
+daily-goal-created = 已建立您的每日目標
+track-progress = 您可以在此或到進度頁面，追蹤進度。
+return-to-edit-goal = 您可以隨時回到這裡編輯目標。
+share-goal = 分享我的目標
 
 ## Profile Delete
 
