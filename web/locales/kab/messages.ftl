@@ -701,6 +701,14 @@ weekly-goal = Iswi n yal ddurt
 easy-difficulty = Fessus
 average-difficulty = Talemmast
 difficult-difficulty = yewɛeṛ
+want-to-continue = Tebɣiḍ ad tkemleḍ?
+cant-decide = Ur tezmireḍ ara tferneḍ?
+how-many-per-day = Igerrez! Acḥal n tukkisin deg wass?
+how-many-a-week = Igerrez! Acḥal n tukkisin di ddurt?
+which-goal-type = Tebɣiḍ ad tmeslayeḍ,  ad tesleḍ neɣ di sin?
+n-clips = { NUMBER($count) } n tukkisin
+confirm-goal = Sentem iswi
+goal-interval-weekly = Yal ddurt
 
 ## Profile Delete
 
