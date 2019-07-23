@@ -690,7 +690,7 @@ overall-accuracy = Cyłkowna dokładnosć
 
 get-started-goals = Započńće z cilemi
 toward-next-goal = K přichodnemu cilej
-create-custom-goal = Śwójski cil wutworić
+create-custom-goal = Swójski cil wutworić
 both-speak-and-listen = Wobě
 both-speak-and-listen-long = Wobě (rěčenje a słuchanje)
 daily-goal = Dnjowy cil
