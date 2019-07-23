@@ -677,8 +677,11 @@ overall-accuracy = Азеиԥш иашара.
 
 ## Custom Goals
 
+get-started-goals = Ахықәкқәа уалага
 toward-next-goal = Анаҩстәи ахықәкы.
+both-speak-and-listen = Аҩбагьы
 easy-difficulty = Имариоуп
+average-difficulty = Ибжьаратәуп
 difficult-difficulty = Ицәгьоуп
 
 ## Profile Delete
