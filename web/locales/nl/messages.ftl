@@ -730,6 +730,13 @@ share-n-weekly-contribution-goal = Deel uw wekelijkse doel van { $count } fragme
 share-goal-type-speak = Spreken
 share-goal-type-listen = Luisteren
 share-goal-type-both = Spreken en luisteren
+# LINK will be replaced with the current URL
+goal-share-text = Ik heb zojuist een persoonlijke doelstelling gemaakt voor spraakdonatie aan #CommonVoice –– doe met me mee en help machines te leren hoe echte mensen spreken { $link }
+weekly-goal-created = Uw weekdoel is aangemaakt
+daily-goal-created = Uw dagelijkse doel is aangemaakt
+track-progress = Volg uw dagelijkse voortgang hier en op uw statistiekenpagina.
+return-to-edit-goal = Kom hier terug om elk gewenst moment uw doel te wijzigen.
+share-goal = Mijn doel delen
 
 ## Profile Delete
 
