@@ -680,9 +680,13 @@ overall-accuracy = Азеиԥш иашара.
 get-started-goals = Ахықәкқәа уалага
 toward-next-goal = Анаҩстәи ахықәкы.
 both-speak-and-listen = Аҩбагьы
+both-speak-and-listen-long = Аҩбагьы (Аҭаҩреи Азыӡырҩреи)
+daily-goal = Есымшатәи Ахықәкы
+weekly-goal = Есымчыб­жьатәи Ахықәкы
 easy-difficulty = Имариоуп
 average-difficulty = Ибжьаратәуп
 difficult-difficulty = Ицәгьоуп
+share-goal-type-speak = Абжьы ҭаҩра
 
 ## Profile Delete
 
