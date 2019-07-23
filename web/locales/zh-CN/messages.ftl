@@ -678,6 +678,18 @@ validated-clips = 验证的片段
 total-approved = 总核准数
 overall-accuracy = 总体准确度
 
+## Custom Goals
+
+toward-next-goal = 距离下一个目标
+create-custom-goal = 创建自定义目标
+daily-goal = 每日目标
+weekly-goal = 每周目标
+easy-difficulty = 简单
+average-difficulty = 普通
+difficult-difficulty = 困难
+pro-difficulty = 硬核
+goal-interval-weekly = 每周
+
 ## Profile Delete
 
 delete-q = 您是否想要一并删除语音，或是要将语音保留在 Common Voice 数据集中？
