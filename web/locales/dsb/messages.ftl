@@ -711,6 +711,7 @@ activity-needed-calculation = { NUMBER($totalHours) } góźin jo w pitśku wěce
 how-many-per-day = Wjelicnje! Wjele klipow na źeń?
 how-many-a-week = Wjelicnje! Wjele klipow na tyźeń?
 which-goal-type = Cośo powědaś, słuchaś abo wobej?
+receiving-emails-info = Sćo tuchylu aboněrował mejlki, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
 n-clips = { NUMBER($count) } klipow
 help-share-goal = Źělśo swój cel, aby nam pomagał, wěcej głosow namakaś
 confirm-goal = Cel wobkšuśiś
@@ -722,6 +723,13 @@ share-n-weekly-contribution-goal = Źělśo swój tyźeński cel { $count } klip
 share-goal-type-speak = Powědanje
 share-goal-type-listen = Słuchanje
 share-goal-type-both = Powědanje a słuchanje
+# LINK will be replaced with the current URL
+goal-share-text = Som rowno napórał wósobinski cel za głosowy dar #CommonVoice - pśizamkniśo se a pomagajśo mašinam wucyś, kak napšawdne luźe powědaju. { $link }
+weekly-goal-created = Waš tyźeński cel jo se napórał
+daily-goal-created = Waš wšedny cel jo se napórał
+track-progress = Slědujśo póstupoju how a na swójom boku statistiki.
+return-to-edit-goal = Wrośćo se kuždy cas, aby swój cel wobźěłował
+share-goal = Mój cel źěliś
 
 ## Profile Delete
 
