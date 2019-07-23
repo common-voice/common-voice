@@ -17,6 +17,8 @@ loading = ܡܲܛܥܵܢܬܵܐ ...
 
 ## Layout
 
+languages = ܠܹܫܵܢ̈ܐ
+about = ܒܘܼܬ
 
 ## Home Page
 
