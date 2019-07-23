@@ -347,8 +347,6 @@ faq-why-important-a =
     Pentru a crește nivelul de universalitate al recunoașterii vocale, colectăm mostre de voce în limbi de largă circulație, precum și în limbi vorbite de populații mai mici, adesea prea puțin deservite de serviciile comerciale de recunoaștere vocală. Publicarea unui set divers de date vocale va permite dezvoltatorilor, antreprenorilor și unor comunități lingvistice întregi să umple acest gol.
 faq-how-get-q = Cum pot obține datele Common Voice?
 faq-how-get-a = Setul de date Common Voice este disponibil pentru descărcare sub licență <licenseLink>CC0</licenseLink> de pe <datasetLink>pagina noastră de seturi de date</datasetLink>. De pe pagina respectivă puteți descărca și alte seturi de date disponibile publicului.
-faq-when-release-q = Când veți lansa datele Common Voice în alte limbi?
-faq-when-release-a = Versiunea multilingvistică a setului de date Common Voice este în prezent supusă procesului de împachetare și ordonare realizat de comunitate. Dacă vrei să afli mai multe despre susținerea acestui efort, te rugăm <contactLink>să ne contactezi</contactLink>. Data preconizată acum pentru publicare este undeva în ianuarie 2019. După aceea, vom actualiza periodic setul de date cu limbi și secvențe vocale noi pe măsură ce vor deveni disponibile. Urmează să determinăm un interval de publicare periodică.
 faq-why-mission-q = De ce face parte Common Voice din misiunea Mozilla?
 faq-why-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. În acest sens, trebuie să împuternicim creatorii web prin proiecte așa cum este Common Voice. Deoarece tehnologiile vocale se extind dincolo de aplicațiile de nișă, credem că trebuie să deservească toți utilizatorii în mod egal. Aceasta înseamnă investiții în mai multe limbi și includerea de accente și date demografice diverse în construcția și testarea tehnologiilor vocale. Common Voice este o resursă publică disponibilă tuturor, iar echipele și dezvoltatorii Mozilla din întreaga lume o utilizează deja în proiectele noastre proprii.
 faq-what-cv-and-deepspeech-q = Care este diferența dintre Common Voice și Deep Speech?
@@ -580,7 +578,7 @@ localized = Localizat
 sentences = Propoziții
 total-hours = Ore validate
 
-## New Contribution
+## Contribution
 
 action-click = Clic
 action-tap = Atinge
@@ -690,6 +688,17 @@ recorded-clips = Secvențe audio înregistrate
 validated-clips = Secvențe audio validate
 total-approved = Total aprobate
 overall-accuracy = Acuratețe generală
+
+## Custom Goals
+
+toward-next-goal = Spre obiectivul următor
+create-custom-goal = Creează un obiectiv personalizat
+daily-goal = Obiectiv zilnic
+weekly-goal = Obiectiv săptămânal
+want-to-continue = Vrei să continui?
+set-a-goal = Stabilește un obiectiv
+cant-decide = Nu te poți decide?
+confirm-goal = Confirmă obiectivul
 
 ## Profile Delete
 
