@@ -700,6 +700,31 @@ difficult-difficulty = Ćežki
 pro-difficulty = Pro
 lose-goal-progress-warning = Móžeće swój eksistowacy postup zhubić, hdyž swój cil wobdźěłujeće.
 want-to-continue = Chceće pokročować?
+finish-editing = Chceće wobdźěłowanje najprjedy dokónčić?
+lose-changes-warning = Hdyž nětko přetorhnjeće, zhubiće swoje změny
+build-custom-goal = Swójski cil wutworić
+help-reach-hours = Pomhajće z wosobinskim cilom { NUMBER($hours) } hodźin w rěči { $language } docpěć
+set-a-goal = Cil stajić
+cant-decide = Njemóžeće so rozsudźić?
+how-many-per-day = Wulkotnje! Kelko klipow wob dźeń?
+how-many-a-week = Wulkotnje! Kelko klipow wob tydźeń?
+which-goal-type = Chceće rěčeć, słuchać abo wobě?
+n-clips = { NUMBER($count) } klipow
+help-share-goal = Dźělće swój cil, zo byšće nam pomhał, wjace hłosow namakać
+confirm-goal = Cil wobkrućić
+goal-interval-weekly = Kóždy tydźeń
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Dźělće swój wšědny cil { $count } klipow za typ { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Dźělće swój tydźenski cil { $count } klipow za typ { $type }
+share-goal-type-speak = Rěčenje
+share-goal-type-listen = Słuchanje
+share-goal-type-both = Rěčenje a słuchanje
+weekly-goal-created = Waš tydźenski cil je so wutworił
+daily-goal-created = Waš wšědny cil je so wutworił
+track-progress = Slědujće postupej tu a na swojej stronje statistiki.
+return-to-edit-goal = Wróćće so kóždy čas, zo byšće swój cil wobdźěłował
+share-goal = Mój cil dźělić
 
 ## Profile Delete
 
