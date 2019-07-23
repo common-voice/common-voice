@@ -43,7 +43,7 @@ export default function UserMenu() {
           className="toggle"
           title="click to play avatar"
           onClick={() => {
-            if (account.avatar_clip_url !== null) {
+            if (account.avatar_clip_url !== null && !showAnimation) {
               const audio = new Audio(account.avatar_clip_url);
               audio.play();
               setShowAnimation(!showAnimation);
@@ -108,7 +108,7 @@ export default function UserMenu() {
           </div>
         </div>
       </div>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div></div>}>
         <div className="animation">
           {showAnimation && (
             <div>
