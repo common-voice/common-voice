@@ -207,6 +207,7 @@ help-make-dataset = Pomhajće nam, zjawnje přistupnu wotewrjenu datowu sadźbu 
 profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 sign-up-account = Konto załožić
 email-subscription-title = Registrujće so za e-mejlowe aktualizacije
+email-subscription-title-new = Registrujće so za powěsćowe listy Common Voice, cilowe dopomnjeća a postupowe aktualizacije
 
 ## Account Benefits
 
@@ -706,9 +707,11 @@ build-custom-goal = Swójski cil wutworić
 help-reach-hours = Pomhajće z wosobinskim cilom { NUMBER($hours) } hodźin w rěči { $language } docpěć
 set-a-goal = Cil stajić
 cant-decide = Njemóžeće so rozsudźić?
+activity-needed-calculation = { NUMBER($totalHours) } hodźin je w trochu wjace hač { NUMBER($periodMonths) } měsacow docpějomne, jeli { NUMBER($people) } ludźi { NUMBER($clipsPerDay) } klipow wob dźeń natoča.
 how-many-per-day = Wulkotnje! Kelko klipow wob dźeń?
 how-many-a-week = Wulkotnje! Kelko klipow wob tydźeń?
 which-goal-type = Chceće rěčeć, słuchać abo wobě?
+receiving-emails-info = Sće tuchwilu e-mejlki, kaž na přikład cilowe dopomnjeća, postupowe aktualizacije a powěsćowe listy wo Common Voice abonował
 n-clips = { NUMBER($count) } klipow
 help-share-goal = Dźělće swój cil, zo byšće nam pomhał, wjace hłosow namakać
 confirm-goal = Cil wobkrućić
@@ -720,6 +723,8 @@ share-n-weekly-contribution-goal = Dźělće swój tydźenski cil { $count } kli
 share-goal-type-speak = Rěčenje
 share-goal-type-listen = Słuchanje
 share-goal-type-both = Rěčenje a słuchanje
+# LINK will be replaced with the current URL
+goal-share-text = Sym runje wosobinski cil za hłosowy dar #CommonVoice wutworił - přidružće so a pomhajće mašinam wučić, kak woprawdźići ludźo rěča. { $link }
 weekly-goal-created = Waš tydźenski cil je so wutworił
 daily-goal-created = Waš wšědny cil je so wutworił
 track-progress = Slědujće postupej tu a na swojej stronje statistiki.
