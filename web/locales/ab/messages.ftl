@@ -686,7 +686,11 @@ weekly-goal = Есымчыб­жьатәи Ахықәкы
 easy-difficulty = Имариоуп
 average-difficulty = Ибжьаратәуп
 difficult-difficulty = Ицәгьоуп
+n-clips = { NUMBER($count) } анҵамҭақәа
+goal-interval-weekly = Есымчыб­жьатәи
 share-goal-type-speak = Абжьы ҭаҩра
+share-goal-type-listen = Азыӡырҩра
+share-goal-type-both = Абжьы ҭаҩреи Азыӡырҩреи
 
 ## Profile Delete
 
