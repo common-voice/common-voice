@@ -717,7 +717,7 @@ share-goal-type-speak = 说话
 share-goal-type-listen = 聆听
 share-goal-type-both = 说话和聆听
 # LINK will be replaced with the current URL
-goal-share-text = 我刚刚为 #CommonVoice 设立了献声目标 -- 请与我一同，帮助教会机器真人的说话方式。
+goal-share-text = 我刚刚为 #CommonVoice 设立了献声目标 -- 请与我一同，帮助教会机器真人的说话方式。{ $link }
 weekly-goal-created = 您的每周目标已创建
 daily-goal-created = 您的每日目标已创建
 track-progress = 您可以在此或到统计页面，跟踪进度。
