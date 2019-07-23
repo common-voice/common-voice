@@ -342,8 +342,6 @@ faq-why-important-a =
     Untuk membuat pengenalan suara menjadi lebih universal, kami mengumpulkan sampel suara dalam bahasa yang digunakan secara luas serta sampel dengan populasi penutur yang lebih kecil yang sering terlayani oleh layanan pengenalan suara komersial. Menerbitkan set data suara yang beragam akan memberdayakan pengembang, pengusaha, dan seluruh komunitas terkait untuk mengatasi kesenjangan ini sendiri.
 faq-how-get-q = Bagaimana saya bisa mendapatkan data Common Voice?
 faq-how-get-a = Kumpulan data Common Voice tersedia untuk diunduh di bawah lisensi <licenseLink> CC0 </licenseLink> di <datasetLink> laman Kumpulan data kami </datasetLink>. Anda juga dapat mengunduh beberapa set data yang tersedia untuk umum dari laman yang sama.
-faq-when-release-q = Kapan Anda akan merilis data Common Voice dalam bahasa lain?
-faq-when-release-a = Versi multi-bahasa dari set data Common Voice saat ini menjalani bundling dan pembersihan yang didukung komunitas. Jika Anda ingin mempelajari lebih lanjut tentang mendukung upaya ini, silakan <contactLink> hubungi kami </contactLink>. Kami saat ini menargetkan tanggal publikasi Januari 2019. Setelah itu, kami akan memperbarui set data secara berkala dengan bahasa dan klip suara baru saat tersedia. Jadwal rilis berikutnya akan ditentukan kemudian.
 faq-why-mission-q = Mengapa Common Voice merupakan bagian dari misi Mozilla?
 faq-why-mission-a = Mozilla didedikasikan untuk menjaga web tetap terbuka dan dapat diakses oleh semua orang. Untuk melakukan itu kita perlu memberdayakan pembuat web melalui proyek-proyek seperti Common Voice. Teknologi suara sudah mulai berkembang di dikehidupan sehari-hari, kami percaya semua pengguna memiliki hak yang sama untuk dapat menggunakannya. Itu berarti berinvestasi dalam lebih banyak bahasa dan mengakomodasi beragam aksen dan demografi untuk membuat dan menguji teknologi suara. Common Voice adalah sumber daya publik yang tersedia untuk semua orang dan tim dan pengembang Mozilla di seluruh dunia sudah menggunakannya pula pada proyek kami sendiri.
 faq-what-cv-and-deepspeech-q = Apa perbedaan antara Common Voice dan Deep Speech?
@@ -583,7 +581,7 @@ localized = Telah dilokalkan
 sentences = Kalimat
 total-hours = Total Jam
 
-## New Contribution
+## Contribution
 
 action-click = Klik
 action-tap = Ketuk
@@ -627,6 +625,7 @@ listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
 nothing-to-validate = Kami tidak memiliki apa pun untuk divalidasi dalam bahasa ini, bantu kami mengisi antreannya.
 record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
+login-to-get-started = Masuk atau daftar untuk memulai
 
 ## Reporting
 
@@ -682,6 +681,11 @@ recorded-clips = Klip Terekam
 validated-clips = Klip Tervalidasi
 total-approved = Jumlah yang Disetujui
 overall-accuracy = Akurasi Keseluruhan
+
+## Custom Goals
+
+toward-next-goal = Menuju capaian selanjutnya
+easy-difficulty = Mudah
 
 ## Profile Delete
 
