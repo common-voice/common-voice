@@ -691,8 +691,15 @@ overall-accuracy = Précision globale
 
 toward-next-goal = Vers le prochain objectif
 create-custom-goal = Créer un objectif personnalisé
+both-speak-and-listen = Faire les deux
+both-speak-and-listen-long = Les deux (parler et écouter)
 daily-goal = Objectif quotidien
 weekly-goal = Objectif hebdomadaire
+lose-goal-progress-warning = En modifiant votre objectif, vous risquez de perdre vos progrès existants.
+want-to-continue = Voulez-vous continuer ?
+which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
+n-clips = { NUMBER($count) } échantillons
+confirm-goal = Confirmer l’objectif
 
 ## Profile Delete
 
