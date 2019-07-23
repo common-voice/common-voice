@@ -11,14 +11,18 @@ loading = ܡܲܛܥܵܢܬܵܐ ...
 
 ## Languages
 
+syr = ܣܘܼܪܝܵܐܝܼܬ݂
 
 # [/]
 
 
 ## Layout
 
+speak = ܐܵܡܹܪ
+speak-now = ܐܵܡܹܪ ܗܵܕ݂ܝܼܵܐ
 languages = ܠܹܫܵܢ̈ܐ
 about = ܒܘܼܬ
+profile = ܨܲܠܡܵܐ
 help = ܥܘܼܕ݂ܪܵܢܵܐ
 
 ## Home Page
