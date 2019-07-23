@@ -3,7 +3,7 @@
 email-input =
     .label = ܐܸܓܲܪܬܵܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܵܐ
 submit-form-action = ܡܲܕܸܥ
-loading = ܡܲܛܥܵܢܬܵܐ
+loading = ܡܲܛܥܵܢܬܵܐ ...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -72,7 +72,7 @@ loading = ܡܲܛܥܵܢܬܵܐ
 ## Languages Overview
 
 
-## New Contribution
+## Contribution
 
 
 ## Reporting
@@ -86,6 +86,9 @@ continue = ܐܡܵܢܵܐ
 ## Dashboard
 
 your-languages = ܠܹܫܵܢܘܟ݂ܘܢ
+
+## Custom Goals
+
 
 ## Profile Delete
 
