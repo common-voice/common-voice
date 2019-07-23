@@ -217,6 +217,8 @@ whats-public = Шта је јавно?
 email-not-public = Нећемо учинити вашу е-пошту јавном.
 recordings-and-locale-public = Број снимака и језици којима доприносите биће јавни.
 username-optin-public = Можете одабрати да ваше корисничко име буде јавно или анонимно.
+demographic-deidentified = Изборно, достављени демографски подаци (нпр. старост, пол, језик и нагласак) се отклањају из ваших достављених говорних података и никада неће бити јавно објављени на вашем профилу.
+username-email-not-demographic = Ваше корисничко име и е-пошта неће бити повезани са објављеним подацима.
 
 ## Speak & Listen Shortcuts
 
@@ -226,6 +228,7 @@ username-optin-public = Можете одабрати да ваше корисн
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle-label = Сними поново
 request-language-text = Још не видите ваш језик у пројекту Common Voice?
 request-language-button = Затражи језик
 
@@ -248,12 +251,18 @@ english = Енглески
 
 profile-form-username =
     .label = Корисничко име
+profile-form-native-language =
+    .label = Матерњи језик
+profile-form-additional-language =
+    .label = Додатни језик
 profile-form-accent =
     .label = Нагласак
 profile-form-age =
     .label = Старост
 profile-form-gender =
     .label = Пол
+leaderboard-visibility =
+    .label = Видљивост на табели
 hidden = Сакривен
 visible = Видљиво
 native-language =
@@ -265,6 +274,11 @@ female = Женски
 # Gender
 other = Друго
 why-profile-title = Зашто профил?
+why-profile-text =
+    Пружајући неке информације о себи, аудио подаци које пошаљете у Common Voice ће бити кориснији за 
+    програме за 
+    препознавање говора који користе ове податке за побољшање њихове тачности.
+dashboard = Командна табла
 avatar = Аватар
 goals = Циљеви
 settings = Подешавања
