@@ -201,6 +201,7 @@ help-make-dataset = Help ons een openbaar toegankelijke gegevensset van hoge kwa
 profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
 sign-up-account = Een account aanmaken
 email-subscription-title = schrijf u in voor e-mailupdates
+email-subscription-title-new = Registreer voor nieuwsbrieven van Common Voice, herinneringen aan uw doelstellingen en updates over uw voortgang.
 
 ## Account Benefits
 
@@ -689,6 +690,46 @@ recorded-clips = Opgenomen fragmenten
 validated-clips = Gevalideerde fragmenten
 total-approved = Totaal goedgekeurd
 overall-accuracy = Algemene nauwkeurigheid
+
+## Custom Goals
+
+get-started-goals = Beginnen met doelstellingen
+toward-next-goal = Naar het volgende doel
+create-custom-goal = Een aangepaste doelstelling maken
+both-speak-and-listen = Beide
+both-speak-and-listen-long = Beide (spreken en luisteren)
+daily-goal = Dagelijks doel
+weekly-goal = Weekdoel
+easy-difficulty = Makkelijk
+average-difficulty = Gemiddeld
+difficult-difficulty = Moeilijk
+pro-difficulty = Pro
+lose-goal-progress-warning = Door uw doel te bewerken, verliest u mogelijk uw bestaande voortgang.
+want-to-continue = Wilt u doorgaan?
+finish-editing = Eerst bewerking voltooien?
+lose-changes-warning = Door nu af te sluiten verliest u uw wijzigingen
+build-custom-goal = Een aangepast doel bouwen
+help-reach-hours = Help mee { NUMBER($hours) } uren in het { $language } te bereiken met een persoonlijke doelstelling
+set-a-goal = Een doel stellen
+cant-decide = Kunt u geen besluit nemen?
+activity-needed-calculation = { NUMBER($totalHours) } is bereikbaar in iets meer dan { NUMBER($periodMonths) } maanden als { NUMBER($people) } personen { NUMBER($clipsPerDay) } fragmenten per dag opnemen.
+how-many-per-day = Geweldig! Hoeveel fragmenten per dag?
+how-many-a-week = Geweldig! Hoeveel fragmenten per week?
+which-goal-type = Wilt u spreken, luisteren of allebei?
+receiving-emails-info =
+    U ontvangt momenteel e-mailberichten zoals herinneringen aan doelen, updates
+    over uw voortgang en nieuwsbrieven over Common Voice
+n-clips = { NUMBER($count) } fragmenten
+help-share-goal = Help ons meer stemmen te vinden, deel uw doel
+confirm-goal = Doel bevestigen
+goal-interval-weekly = Wekelijks
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Deel u dagelijkse doel van { $count } fragmenten voor { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Deel uw wekelijkse doel van { $count } fragmenten voor { $type }
+share-goal-type-speak = Spreken
+share-goal-type-listen = Luisteren
+share-goal-type-both = Spreken en luisteren
 
 ## Profile Delete
 
