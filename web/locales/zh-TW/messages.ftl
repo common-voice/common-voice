@@ -721,6 +721,8 @@ share-n-weekly-contribution-goal = 分享您的每週 { $type } 目標: { $count
 share-goal-type-speak = 說話
 share-goal-type-listen = 聆聽
 share-goal-type-both = 說話與聆聽
+# LINK will be replaced with the current URL
+goal-share-text = 我剛建立好要獻聲給 #CommonVoice 的目標 -- 也來與我一起幫忙，讓機器可以學會真人說話的方式。{ $link }
 weekly-goal-created = 已建立您的每週目標
 daily-goal-created = 已建立您的每日目標
 track-progress = 您可以在此或到進度頁面，追蹤進度。
