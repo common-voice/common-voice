@@ -203,6 +203,7 @@ help-make-dataset = Aidez-nous à constituer une base de données libre et publi
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 sign-up-account = Créer un compte
 email-subscription-title = Recevez des informations par courriel
+email-subscription-title-new = Abonnez-vous aux lettres d’information, rappels d’objectifs, et bilan des progrès de Common Voice
 
 ## Account Benefits
 
@@ -626,6 +627,7 @@ listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 nothing-to-validate = Nous n’avons rien à valider dans cette langue, aidez-nous à ajouter quelques enregistrements dans la file d’attente.
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
+login-to-get-started = Connectez-vous ou inscrivez-vous pour commencer
 
 ## Reporting
 
@@ -684,6 +686,13 @@ recorded-clips = Échantillons enregistrés
 validated-clips = Échantillons validés
 total-approved = Total approuvé
 overall-accuracy = Précision globale
+
+## Custom Goals
+
+toward-next-goal = Vers le prochain objectif
+create-custom-goal = Créer un objectif personnalisé
+daily-goal = Objectif quotidien
+weekly-goal = Objectif hebdomadaire
 
 ## Profile Delete
 
