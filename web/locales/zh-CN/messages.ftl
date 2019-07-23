@@ -198,6 +198,7 @@ help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
 profile-not-required = 不需注册个人资料即可贡献，但如果注册的话会更有帮助
 sign-up-account = 注册账号
 email-subscription-title = 订阅邮件更新
+email-subscription-title-new = 订阅 Common Voice 新闻通讯、目标提醒和进度更新
 
 ## Account Benefits
 
@@ -680,6 +681,7 @@ overall-accuracy = 总体准确度
 
 ## Custom Goals
 
+get-started-goals = 从设定目标开始
 toward-next-goal = 距离下一个目标
 create-custom-goal = 创建自定义目标
 daily-goal = 每日目标
@@ -688,7 +690,22 @@ easy-difficulty = 简单
 average-difficulty = 普通
 difficult-difficulty = 困难
 pro-difficulty = 硬核
+lose-goal-progress-warning = 因编辑目标，您可能会丢失现有进度。
+want-to-continue = 是否继续？
+lose-changes-warning = 若现在离开，将丢失所有更改
+build-custom-goal = 建立自定义目标
+set-a-goal = 设定目标
+n-clips = { NUMBER($count) } 个片段
+help-share-goal = 帮助我们找到更多人献声，分享您的目标
+confirm-goal = 确认目标
 goal-interval-weekly = 每周
+share-goal-type-speak = 说话
+share-goal-type-listen = 聆听
+share-goal-type-both = 说话和聆听
+weekly-goal-created = 您的每周目标已创建
+daily-goal-created = 您的每日目标已创建
+return-to-edit-goal = 您可随时返回此处修改目标。
+share-goal = 分享我的目标
 
 ## Profile Delete
 
