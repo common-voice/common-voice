@@ -19,6 +19,7 @@ loading = ܡܲܛܥܵܢܬܵܐ ...
 
 languages = ܠܹܫܵܢ̈ܐ
 about = ܒܘܼܬ
+help = ܥܘܼܕ݂ܪܵܢܵܐ
 
 ## Home Page
 
