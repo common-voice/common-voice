@@ -207,6 +207,7 @@ help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és ny
 profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
 sign-up-account = Regisztráljon egy fiókot
 email-subscription-title = iratkozzon fel a hírlevélre
+email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a cél emlékeztetőkre és az előhaladásról szóló hírekre
 
 ## Account Benefits
 
@@ -692,6 +693,30 @@ recorded-clips = Rögzített klipek
 validated-clips = Ellenőrzött klipek
 total-approved = Összes jóváhagyott
 overall-accuracy = Összesített pontosság
+
+## Custom Goals
+
+get-started-goals = Kezdje el a célok használatát
+toward-next-goal = A következő cél felé
+create-custom-goal = Egyéni cél létrehozása
+both-speak-and-listen = Mindkettő
+both-speak-and-listen-long = Mindkettő (Beszéd és figyelés)
+daily-goal = Napi cél
+weekly-goal = Heti cél
+easy-difficulty = Könnyű
+average-difficulty = Átlagos
+difficult-difficulty = Nehéz
+pro-difficulty = Profi
+lose-goal-progress-warning = A cél szerkesztésével elveszítheti a meglévő előrehaladást.
+want-to-continue = Biztos, hogy folytatja?
+finish-editing = Előbb befejezi a szerkesztést?
+lose-changes-warning = A lap elhagyása azt jelenti, hogy elveszíti a változásokat
+which-goal-type = Beszélni, figyelni vagy mindkettőt szeretne?
+share-goal-type-speak = Beszéd
+share-goal-type-listen = Figyelés
+share-goal-type-both = Beszéd és figyelés
+# LINK will be replaced with the current URL
+goal-share-text = Létrehoztam egy személyes hangfelajánlási célt a #CommonVoice projektben – csatlakozz, és segíts megtanítani a gépeket arra, ahogyan a valódi emberek beszélnek { $link }
 
 ## Profile Delete
 
