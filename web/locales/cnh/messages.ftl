@@ -336,19 +336,25 @@ faq-why-important-a =
     
     Cucu vawleicung holh phun kip in a ngah khawhnak caah cun holhphun kip in holh mi aw, mi tampi siseh mi tlawmte holh siseh, kan lak. Hi vialte kan lakmi aw nih hin computer thiam mi hna le sipuaizi tuah tu hna nih an mah le ram cio in chawnh khawhmi computer ser hram an thok lai hi kan duh.
 faq-how-get-q = Common Voice data hi zeitindah ka lak khawh lai?
-faq-when-release-q = Zeitik ahdah Common Voice data hi holh dangin nan thlah te lai?
 faq-why-mission-q = Zei ruangah dah Common Voice hi Mozilla nih a khinhmi rian pakhat a si ve?
 faq-what-cv-and-deepspeech-q = Common le Deep Speech ai dannak hi zeidah a si?
 faq-is-goal-assistant-q = Common Voice nih ai tinhmi  hi holh bawmtu (voice assistant) ser a si maw?
 faq-why-my-lang-q = Zeiruangah dah ka holhphun ai tal ve lo?
 faq-how-calc-hours-q = Zeitiin dah Common Voice nih suimilam hi a tuak?
+faq-where-src-from-2-q = Khoi ka in dah biatlang le catlang hi kan lak?
 faq-why-not-ask-read-q = Zeiruangah dah cauk silole Wikipedia ca pawl mipi nan rel ter hna lo?
 faq-why-account-q = Zei ruangah dah account cu ka ser lai?
 faq-is-account-public-q = Ka account pawl hi mipi nih an hmu kho maw?
 faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lonak hnga nan tuah?
+faq-search-for-answers =
+    .label = A phi kawl
 
 ## ABOUT US
 
+about-title = Common Voice cu zei ruangah dah kan hman?
+about-speak = Chim
+about-speak-text = Biatlang hlutmi hi bawmtu nih an rel i an aw an tun.
+about-listen = Ngai
 about-get-involved = I tal ve
 about-get-involved-text =
     Common Voice ṭhat ter deuh na duh maw?
@@ -482,7 +488,7 @@ localized = Holh leh mi
 sentences = Catlang
 total-hours = Suimilam Dihlak
 
-## New Contribution
+## Contribution
 
 action-click = Hmet
 action-tap = Hmet
@@ -514,7 +520,6 @@ record-again-instruction = A ṭha!<recordIcon></recordIcon> A dang tuun ṭhan
 record-again-instruction2 = Na thiam, tuun ṭhan <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Donghnak!
 review-tooltip = A herh cun ngaiṭhan law tunṭhan
-unable-speak = Holh kho lo?
 review-instruction = A herh cun ngaiṭhan law tunṭhan
 record-submit-tooltip = Kua timi kha hmet
 clips-uploaded = Na aw aa khumh cang
@@ -530,6 +535,9 @@ listen-last-time-instruction = <playIcon></playIcon>Dongh nak!
 nothing-to-validate = Zeihmanh hi holh in tunmi kan ngei rih lo, na aw rak tuun ve.
 record-button-label = Na aw tuun
 share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
+
+## Reporting
+
 
 ## Goals
 
@@ -567,6 +575,10 @@ recorded-clips = Tun cangmi
 validated-clips = Check cangmi
 total-approved = Lungtlinmi Dihlak
 overall-accuracy = Ṭha tein Hmantlak
+
+## Custom Goals
+
+toward-next-goal = Hmailei tinhmi
 
 ## Profile Delete
 
