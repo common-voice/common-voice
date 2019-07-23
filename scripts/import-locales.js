@@ -3,7 +3,7 @@ const path = require('path');
 const { parse } = require('fluent-syntax');
 const request = require('request-promise-native');
 
-const TRANSLATED_MIN_PROGRESS = 0.95;
+const TRANSLATED_MIN_PROGRESS = 0.9;
 const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');

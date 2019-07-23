@@ -83,6 +83,7 @@ mk = Macedonian
 ml = Malayalam
 mn = Mongolian
 mrj = Hill Mari
+mt = Maltese
 myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
