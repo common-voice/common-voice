@@ -685,6 +685,22 @@ validated-clips = Přepruwowane klipy
 total-approved = Schwalene dohromady
 overall-accuracy = Cyłkowna dokładnosć
 
+## Custom Goals
+
+get-started-goals = Započńće z cilemi
+toward-next-goal = K přichodnemu cilej
+create-custom-goal = Śwójski cil wutworić
+both-speak-and-listen = Wobě
+both-speak-and-listen-long = Wobě (rěčenje a słuchanje)
+daily-goal = Dnjowy cil
+weekly-goal = Tydźenski cil
+easy-difficulty = Lochki
+average-difficulty = Přerězk
+difficult-difficulty = Ćežki
+pro-difficulty = Pro
+lose-goal-progress-warning = Móžeće swój eksistowacy postup zhubić, hdyž swój cil wobdźěłujeće.
+want-to-continue = Chceće pokročować?
+
 ## Profile Delete
 
 delete-q = Chceće, zo so waše hłosowe nahraća tež zhašeja, abo chceće je radšo w datowej sadźbje Common Voice wobchować?
