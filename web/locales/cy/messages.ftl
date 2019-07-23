@@ -215,6 +215,7 @@ help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel sy'n agored i'r 
 profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 sign-up-account = Cofrestru am gyfrif
 email-subscription-title = cofrestrwch am ddiweddariadau e-bost
+email-subscription-title-new = Cofrestrwch er mwyn derbyn cylchlythyron, hysbysiadau targedau a diweddariadau cynnydd Common Voice.
 
 ## Account Benefits
 
@@ -718,6 +719,48 @@ recorded-clips = Clipiau wedi'u Recordio
 validated-clips = Clipiau wedi'u Dilysu
 total-approved = Cyfanswm Cymeradwy
 overall-accuracy = Cywirdeb Cyffredinol
+
+## Custom Goals
+
+get-started-goals = Cychwyn gyda thargedau
+toward-next-goal = Ymlaen i'r nod nesaf
+create-custom-goal = Creu Targed Cyfaddas
+both-speak-and-listen = Y Ddau
+both-speak-and-listen-long = Y Ddau (Siarad a Gwrando)
+daily-goal = Targed Dyddiol
+weekly-goal = Targed Wythnosol
+easy-difficulty = Hawdd
+average-difficulty = Cymhedrol
+difficult-difficulty = Anodd
+pro-difficulty = Uwch
+lose-goal-progress-warning = Drwy olygu eich targed, efallai byddwch yn colli eich cynnydd presennol.
+want-to-continue = Hoffech chi barhau?
+finish-editing = Gorffen golygu yn gyntaf?
+lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidiadau
+build-custom-goal = Creu targed cyfaddas
+help-reach-hours = Cyrraedd { NUMBER($hours) } awr yn { $language } gyda tharged personol
+set-a-goal = Gosod targed
+cant-decide = Methu penderfynu?
+activity-needed-calculation = Mae { NUMBER($totalHours) } awr yn gyraeddadwy ymhen { NUMBER($periodMonths) } mis os fydd { NUMBER($people) } o bobl yn recordio { NUMBER($clipsPerDay) } clip y dydd.
+how-many-per-day = Gwych! Sawl clip y dydd?
+how-many-a-week = Gwych! Sawl clip yr wythnos?
+which-goal-type = Hoffech chi Siarad, Gwrando neu'r ddau?
+receiving-emails-info = Ar hyn o bryd rydych chi wedi eich gosod i dderbyn negeseuon e-bost i atgoffa am eich targed, diweddariadau cynnydd a chylchlythyrau am Common Voice
+n-clips = { NUMBER($count) } clip
+help-share-goal = Helpwch chi i ddenu rhagor o leisiau, rhannwch eich targed
+confirm-goal = Cadarnhau'r Targed
+goal-interval-weekly = Wythnosol
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Rhannwch eich Targed o { $count } Clip Dyddiol  gyda { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Rhannwch eich Targed o { $count } Clip Wythnosol  gyda { $type }
+share-goal-type-speak = Siarad
+share-goal-type-listen = Gwrando
+share-goal-type-both = Siarad a Gwrando
+# LINK will be replaced with the current URL
+goal-share-text = Rwyf newydd greu targed personol ar gyfer cyfrannu fy llais i #CommonVoice -- ymunwch â mi i helpu dysgu peiriannau sut mae pobl go iawn yn siarad { $link }
+weekly-goal-created = Mae eich targed wythnosol wedi'i greu
+daily-goal-created = Mae eich targed dyddiol wedi'i greu
 
 ## Profile Delete
 
