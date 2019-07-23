@@ -207,6 +207,7 @@ help-make-dataset = Pomagajśo nam, zjawnje pśistupnu wótwórjonu datowu sajź
 profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
 sign-up-account = Konto załožyś
 email-subscription-title = Registrěrujśo se za e-mailowe aktualizacije
+email-subscription-title-new = Registrěrujśo se za powěsćowe listy Common Voice, celowe dopomnjeśa a póstupowe aktualizacije
 
 ## Account Benefits
 
@@ -684,6 +685,43 @@ recorded-clips = Nagrate klipy
 validated-clips = Pśeglědane klipy
 total-approved = Pśizwólone dogromady
 overall-accuracy = Cełkowna dokradnosć
+
+## Custom Goals
+
+get-started-goals = Prědne kšace z cilami
+toward-next-goal = K pśiducemu celoju
+create-custom-goal = Swójski cel napóraś
+both-speak-and-listen = Wobej
+both-speak-and-listen-long = Wobej (powědanje a słuchanje)
+daily-goal = Dnjowny cel
+weekly-goal = Tyźeński cel
+easy-difficulty = Lažki
+average-difficulty = Pśerězk
+difficult-difficulty = Śěžki
+pro-difficulty = Pro
+lose-goal-progress-warning = Móžośo swój eksistěrujucy póstup zgubiś, gaž swój cel wobźěłujośo.
+want-to-continue = Cośo pókšacowaś?
+finish-editing = Cośo wobźěłowanje nejpjerwjej dokóńcyś?
+lose-changes-warning = Gaž něnto pśetergnjośo, zgubijośo swóje změny
+build-custom-goal = Swójski cel napóraś
+help-reach-hours = Pomagajśo z wósobinskim celom { NUMBER($hours) } góźin w rěcy { $language } dojśpiś
+set-a-goal = Cel stajiś
+cant-decide = Njamóžośo se rozsuźiś?
+activity-needed-calculation = { NUMBER($totalHours) } góźin jo w pitśku wěcej ako { NUMBER($periodMonths) } mjasecow k dostaśeju, jolic { NUMBER($people) } luźi { NUMBER($clipsPerDay) } klipow na źeń nagrawa.
+how-many-per-day = Wjelicnje! Wjele klipow na źeń?
+how-many-a-week = Wjelicnje! Wjele klipow na tyźeń?
+which-goal-type = Cośo powědaś, słuchaś abo wobej?
+n-clips = { NUMBER($count) } klipow
+help-share-goal = Źělśo swój cel, aby nam pomagał, wěcej głosow namakaś
+confirm-goal = Cel wobkšuśiś
+goal-interval-weekly = Kuždy tyźeń
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Źělśo swój wšedny cel { $count } klipow za typ { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Źělśo swój tyźeński cel { $count } klipow za typ { $type }
+share-goal-type-speak = Powědanje
+share-goal-type-listen = Słuchanje
+share-goal-type-both = Powědanje a słuchanje
 
 ## Profile Delete
 
