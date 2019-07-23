@@ -701,6 +701,7 @@ difficult-difficulty = Difficile
 pro-difficulty = Professionnel
 lose-goal-progress-warning = En modifiant votre objectif, vous risquez de perdre vos progrès existants.
 want-to-continue = Voulez-vous continuer ?
+help-reach-hours = Aidez à atteindre { NUMBER($hours) } heures en { $language } avec un objectif personnel
 set-a-goal = Fixer un objectif
 cant-decide = Vous ne pouvez pas décider ?
 how-many-per-day = Génial ! Combien d’échantillons par jour ?
@@ -709,6 +710,12 @@ which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
 n-clips = { NUMBER($count) } échantillons
 help-share-goal = Aidez-nous à trouver plus de voix, partagez votre objectif
 confirm-goal = Confirmer l’objectif
+goal-interval-weekly = Hebdomadaire
+weekly-goal-created = Votre objectif hebdomadaire a été créé
+daily-goal-created = Votre objectif quotidien a été créé
+track-progress = Suivez les progrès ici et sur votre page de statistiques.
+return-to-edit-goal = Revenez ici pour modifier votre objectif à tout moment.
+share-goal = Partager mon objectif
 
 ## Profile Delete
 
