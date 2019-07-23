@@ -198,7 +198,8 @@ function CurrentFields({
 
 export default function CustomGoal({ locale }: { locale: string }) {
   const api = useAPI();
-  const { customGoal, email } = useAccount();
+  const { custom_goals, email } = useAccount();
+  const customGoal = custom_goals.find(g => g.locale == locale);
   const refreshUser = useAction(User.actions.refresh);
 
   const [stepIndex, setStepIndex] = useState(STEPS.INTRO);
@@ -249,7 +250,7 @@ export default function CustomGoal({ locale }: { locale: string }) {
     setTouchedStepIndex(Math.max(touchedStepIndex, nextIndex));
     if (nextIndex == STEPS.COMPLETED) {
       setTouchedStepIndex(STEPS.INTRO);
-      await api.createGoal(state);
+      await api.createGoal(locale, state);
       if (subscribed) {
         await api.subscribeToNewsletter(email);
       }
@@ -308,7 +309,11 @@ export default function CustomGoal({ locale }: { locale: string }) {
         {...{ state, stepIndex, touchedStepIndex }}
       />
       {showViewGoal ? (
-        <ViewGoal onNext={() => handleNext()} customGoal={customGoal} />
+        <ViewGoal
+          locale={locale}
+          onNext={() => handleNext()}
+          customGoal={customGoal}
+        />
       ) : (
         <Step
           closeButtonProps={{

@@ -14,6 +14,7 @@ export interface CustomGoal {
   amount: number;
   created_at: string;
   current: { speak?: number; listen?: number };
+  locale: string;
 }
 
 export interface AllGoals {

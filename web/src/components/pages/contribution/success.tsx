@@ -77,14 +77,17 @@ function Success({
   const api = useAPI();
   const account = useAccount();
 
-  const hasAccount = Boolean(account);
-  const customGoal = hasAccount && account.customGoal;
-  const goalValue = DAILY_GOAL[type];
-
   const [locale] = useLocale();
   const flags = useTypedSelector(({ flags }) => flags);
+
+  const hasAccount = Boolean(account);
+  const customGoal =
+    hasAccount && account.custom_goals.find(g => g.locale == locale);
+  const goalValue = DAILY_GOAL[type];
+
   const killAnimation = useRef(false);
   const startedAt = useRef(null);
+
   const [contributionCount, setContributionCount] = useState(null);
   const [currentCount, setCurrentCount] = useState(null);
   const showAccountModalDefault =

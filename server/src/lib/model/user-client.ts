@@ -110,7 +110,7 @@ const UserClient = {
     );
 
     const clientId = rows[0] ? rows[0].client_id : null;
-    const [customGoal, awards]: any = clientId
+    const [custom_goals, awards]: any = clientId
       ? await Promise.all([CustomGoal.find(clientId), Awards.find(clientId)])
       : [[], []];
     return rows.length == 0
@@ -138,7 +138,7 @@ const UserClient = {
                 : []
             ),
             awards,
-            customGoal,
+            custom_goals,
           }),
           { locales: [] }
         );

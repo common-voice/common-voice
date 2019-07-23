@@ -119,11 +119,11 @@ store.subscribe(async () => {
 
   if (ga && (!prevUser || !prevUser.account) && user.account) {
     ga('set', 'userId', await hash(user.account.client_id));
-    const { customGoal } = user.account;
-    if (customGoal) {
-      const goals = Object.keys(customGoal.current);
-      ga('set', 'dimension1', goals.length > 1 ? 'both' : goals[0]);
-    }
+    // const { custom_goals } = user.account;
+    // if (custom_goals[0]) {
+    //   const goals = Object.keys(custom_goals[0].current);
+    //   ga('set', 'dimension1', goals.length > 1 ? 'both' : goals[0]);
+    // }
     ga('send', 'pageview');
   }
 

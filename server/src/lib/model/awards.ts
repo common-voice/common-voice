@@ -1,14 +1,21 @@
 import pick = require('lodash.pick');
+import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 import CustomGoal from './custom-goal';
 
 const db = getMySQLInstance();
 
 export default {
-  async checkProgress(client_id: string) {
-    const goal = await CustomGoal.find(client_id);
+  async checkProgress(
+    client_id: string,
+    locale: { id: number } | { name: string }
+  ) {
+    const localeId =
+      'id' in locale ? locale.id : await getLocaleId(locale.name);
+    const [goal] = await CustomGoal.find(client_id, localeId);
 
     if (!goal) return;
+
     const isReached = Object.values(goal.current).every(v => v >= goal.amount);
     if (!isReached) return;
 
@@ -38,9 +45,10 @@ export default {
   async find(client_id: string) {
     const [rows] = await db.query(
       `
-        SELECT *
+        SELECT *, locales.name AS locale
         FROM awards
         LEFT JOIN custom_goals ON awards.custom_goal_id = custom_goals.id
+        LEFT JOIN locales ON custom_goals.locale_id = locales.id
         WHERE awards.client_id = ?
       `,
       [client_id]
@@ -48,6 +56,7 @@ export default {
     return rows.map((row: any) =>
       pick(
         row,
+        'locale',
         'notification_seen_at',
         'seen_at',
         'type',

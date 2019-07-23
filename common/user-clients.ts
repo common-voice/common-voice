@@ -15,5 +15,5 @@ export type UserClient = {
   clips_count?: number;
   votes_count?: number;
   awards?: any[];
-  customGoal?: CustomGoal;
+  custom_goals?: CustomGoal[];
 };

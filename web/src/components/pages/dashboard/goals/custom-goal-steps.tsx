@@ -41,9 +41,11 @@ const CloseButton = (props: React.HTMLProps<HTMLButtonElement>) => (
 );
 
 export const ViewGoal = ({
+  locale,
   onNext,
   customGoal: { amount, current, days_interval },
 }: {
+  locale: string;
   onNext: () => any;
   customGoal: CustomGoal;
 }) => (
@@ -71,7 +73,7 @@ export const ViewGoal = ({
             className="cta"
             rounded
             absolute
-            to={'/en' + (key == 'speak' ? URLS.SPEAK : URLS.LISTEN)}>
+            to={'/' + locale + (key == 'speak' ? URLS.SPEAK : URLS.LISTEN)}>
             {key[0].toUpperCase() + key.slice(1)}
           </LinkButton>
         </div>

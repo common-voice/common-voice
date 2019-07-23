@@ -97,7 +97,7 @@ export default class API {
     );
     router.post('/user_client/avatar_clip', this.saveAvatarClip);
     router.get('/user_client/avatar_clip', this.getAvatarClip);
-    router.post('/user_client/goals', this.createCustomGoal);
+    router.post('/user_client/:locale/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/goals/new', this.getGoalsNew);
     router.get('/user_client/:locale/goals', this.getGoals);
@@ -359,7 +359,11 @@ export default class API {
   };
 
   createCustomGoal = async (request: Request, response: Response) => {
-    await CustomGoal.create(request.client_id, request.body);
+    await CustomGoal.create(
+      request.client_id,
+      request.params.locale,
+      request.body
+    );
     await this.getGoals(request, response);
     Basket.sync(request.client_id).catch(e => console.error(e));
   };

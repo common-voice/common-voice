@@ -243,8 +243,8 @@ export default class API {
     );
   }
 
-  createGoal(body: CustomGoalParams): Promise<AllGoals> {
-    return this.fetch(API_PATH + '/user_client/goals', {
+  createGoal(locale: string, body: CustomGoalParams): Promise<AllGoals> {
+    return this.fetch([API_PATH, 'user_client', locale, 'goals'].join('/'), {
       method: 'POST',
       body,
     });

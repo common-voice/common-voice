@@ -19,7 +19,7 @@ import './progress-card.css';
 
 interface PropsFromState {
   api: API;
-  customGoal: CustomGoal;
+  customGoals: CustomGoal[];
   globalLocale: Locale.State;
 }
 
@@ -55,7 +55,7 @@ class ProgressCard extends React.Component<Props, State> {
     const {
       globalLocale,
       locale,
-      customGoal,
+      customGoals,
       personalCurrent,
       personalGoal,
       type,
@@ -64,6 +64,7 @@ class ProgressCard extends React.Component<Props, State> {
 
     const overallGoal = DAILY_GOAL[type];
     const isSpeak = type == 'speak';
+    const customGoal = customGoals.find(g => g.locale == locale);
     const currentCustomGoal = customGoal ? customGoal.current[type] : undefined;
     const hasCustomGoalForThis = currentCustomGoal !== undefined;
     return (
@@ -93,27 +94,26 @@ class ProgressCard extends React.Component<Props, State> {
             <div className="description" />
           </Localized>
           <div className="custom-goal-section">
-            {customGoal ? (
-              hasCustomGoalForThis ? (
-                <Link className="custom-goal-link" to={URLS.GOALS}>
-                  <CircleProgress
-                    value={currentCustomGoal / customGoal.amount}
-                  />
-                  <div className="custom-goal-text">
-                    <Localized id="toward-next-goal">
-                      <span />
-                    </Localized>
-                  </div>
-                </Link>
-              ) : null
+            {customGoal && hasCustomGoalForThis ? (
+              <Link className="custom-goal-link" to={URLS.GOALS}>
+                <CircleProgress value={currentCustomGoal / customGoal.amount} />
+                <div className="custom-goal-text">
+                  <Localized id="toward-next-goal">
+                    <span />
+                  </Localized>
+                </div>
+              </Link>
             ) : (
-              <Localized id="create-custom-goal">
-                <LinkButton
-                  className="custom-goal-button"
-                  rounded
-                  to={URLS.GOALS}
-                />
-              </Localized>
+              !customGoal &&
+              locale !== ALL_LOCALES && (
+                <Localized id="create-custom-goal">
+                  <LinkButton
+                    className="custom-goal-button"
+                    rounded
+                    to={URLS.GOALS}
+                  />
+                </Localized>
+              )
             )}
           </div>
         </div>
@@ -165,6 +165,6 @@ class ProgressCard extends React.Component<Props, State> {
 
 export default connect<PropsFromState>(({ api, locale, user }: StateTree) => ({
   api,
-  customGoal: user.account.customGoal,
+  customGoals: user.account.custom_goals,
   globalLocale: locale,
 }))(ProgressCard);

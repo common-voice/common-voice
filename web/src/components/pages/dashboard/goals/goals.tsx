@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { ALL_LOCALES } from '../../../language-select/language-select';
 import Props from '../props';
 import CustomGoal from './custom-goal';
 import GoalRow from './goal-row';
@@ -13,7 +14,9 @@ const GoalsPage = ({ allGoals, locale }: Props) => (
           <GoalRow key={i} goalInfo={goalInfo} />
         ))}
     </div>
-    {allGoals && <CustomGoal {...{ locale }} />}
+    {allGoals && locale !== ALL_LOCALES && (
+      <CustomGoal key={locale} {...{ locale }} />
+    )}
   </div>
 );
 

@@ -86,7 +86,7 @@ export default class Clip {
     }
 
     await this.model.db.saveVote(id, client_id, isValid);
-    await Awards.checkProgress(client_id);
+    await Awards.checkProgress(client_id, { id: clip.locale_id });
 
     const glob = clip.path.replace('.mp3', '');
     const voteFile = glob + '-by-' + client_id + '.vote';
@@ -183,7 +183,7 @@ export default class Clip {
         sentence,
         sentenceId: headers.sentence_id,
       });
-      await Awards.checkProgress(client_id);
+      await Awards.checkProgress(client_id, { name: params.locale });
 
       await checkGoalsAfterContribution(client_id, { name: params.locale });
       Basket.sync(client_id).catch(e => console.error(e));
