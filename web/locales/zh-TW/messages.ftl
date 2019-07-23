@@ -200,6 +200,7 @@ help-make-dataset = 幫助我們打造高品質、可公開使用的資料集
 profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
 sign-up-account = 註冊帳號
 email-subscription-title = 訂閱最新消息電子報
+email-subscription-title-new = 訂閱 Common Voice 電子報、目標提醒與進度更新
 
 ## Account Benefits
 
@@ -682,6 +683,19 @@ recorded-clips = 錄製的片段
 validated-clips = 驗證的片段
 total-approved = 總批准數
 overall-accuracy = 總體準確度
+
+## Custom Goals
+
+toward-next-goal = 距離下一個目標
+daily-goal = 每日目標
+weekly-goal = 每週目標
+easy-difficulty = 簡單
+average-difficulty = 一般
+difficult-difficulty = 困難
+pro-difficulty = 專業
+lose-goal-progress-warning = 編輯目標後，可能會失去現有進度。
+want-to-continue = 你想要繼續嗎？
+finish-editing = 要先完成編輯嗎？
 
 ## Profile Delete
 
