@@ -697,6 +697,35 @@ validated-clips = Validerade klipp
 total-approved = Totalt godkända
 overall-accuracy = Övergripande noggrannhet
 
+## Custom Goals
+
+toward-next-goal = Till nästa mål
+both-speak-and-listen = Båda
+both-speak-and-listen-long = Båda (Prata och lyssna)
+daily-goal = Dagligt mål
+weekly-goal = Veckovist mål
+easy-difficulty = Lätt
+average-difficulty = Medel
+difficult-difficulty = Svårt
+pro-difficulty = Proffs
+want-to-continue = Vill du fortsätta?
+build-custom-goal = Bygg ett anpassat mål
+set-a-goal = Sätt ett mål
+cant-decide = Kan du inte bestämma?
+how-many-per-day = Bra! Hur många klipp per dag?
+how-many-a-week = Bra! Hur många klipp på en vecka?
+which-goal-type = Vill du prata, lyssna eller båda?
+help-share-goal = Hjälp oss att hitta fler röster, dela ditt mål
+confirm-goal = Bekräfta målet
+goal-interval-weekly = Veckovis
+share-goal-type-speak = Prata
+share-goal-type-listen = Lyssna
+share-goal-type-both = Prata och lyssna
+weekly-goal-created = Ditt veckomål har skapats
+daily-goal-created = Ditt dagliga mål har skapats
+return-to-edit-goal = Gå tillbaka hit för att redigera ditt mål när som helst.
+share-goal = Dela mitt mål
+
 ## Profile Delete
 
 delete-q = Vill du begära att dina röstinspelningar tas bort också, eller föredrar du att behålla dem i Common Voice datamängd?
