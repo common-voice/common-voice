@@ -695,10 +695,17 @@ both-speak-and-listen = Faire les deux
 both-speak-and-listen-long = Les deux (parler et écouter)
 daily-goal = Objectif quotidien
 weekly-goal = Objectif hebdomadaire
+easy-difficulty = Facile
+difficult-difficulty = Difficile
 lose-goal-progress-warning = En modifiant votre objectif, vous risquez de perdre vos progrès existants.
 want-to-continue = Voulez-vous continuer ?
+set-a-goal = Fixer un objectif
+cant-decide = Vous ne pouvez pas décider ?
+how-many-per-day = Génial ! Combien d’échantillons par jour ?
+how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
 n-clips = { NUMBER($count) } échantillons
+help-share-goal = Aidez-nous à trouver plus de voix, partagez votre objectif
 confirm-goal = Confirmer l’objectif
 
 ## Profile Delete
