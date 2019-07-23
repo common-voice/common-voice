@@ -8,7 +8,7 @@ email-input =
     .label = E-bost
 submit-form-action = Cyflwyno
 loading = Llwytho…
-email-opt-in-info = Hoffwn i dderbyn e-byst sy'n cynnwys atgoffwr targed, diweddariad ar fy nghynydd a newyddlen am Common Voice.
+email-opt-in-info = Hoffwn dderbyn e-byst sy'n cynnwys atgoffwr targed, diweddariad ar fy nghynydd a newyddlen am Common Voice.
 email-opt-in-privacy = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
 indicates-required = Mae * yn dynodi maes angenrheidiol
 not-available-abbreviation = Dim Ar Gael
@@ -224,7 +224,7 @@ rich-data = Gwnewch y data rydych wedi ei gyflwyno mor gyfoethog â phosibl trwy
 improve-audio = Mae manylion proffil yn gwella'r data sain sy'n cael ei ddefnyddio wrth hyfforddi cywirdeb adnabod llais.
 keep-track = Cadwch olwg ar eich cynnydd a'ch metrigau ar draws sawl iaith.
 compare-progress = Gweld sut mae'ch cynnydd yn cymharu â chyfranwyr eraill ledled y byd.
-view-goals = Gweld eich cynnydd yn erbyn nodau personol a phrosiectau.
+view-goals = Gweld eich cynnydd yn erbyn targedau personol a phrosiectau.
 join-newsletter = Neu, ymunwch á'n rhestr e-bost am ddiweddariadau a newyddion am y project.
 
 ## What's public
@@ -280,7 +280,7 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Nod Nesaf: { $goal }
+status-goal = Targed Nesaf: { $goal }
 english = Saesneg
 
 ## ProfileForm
@@ -314,7 +314,7 @@ why-profile-text = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, by
 dashboard = Bwrdd Gwaith
 build-profile = Adeiladu Proffil
 avatar = Afatar
-goals = Nodau
+goals = Targedau
 settings = Gosodiadau
 edit-profile = Golygu Proffil
 profile-create-success = Llwyddiant, wedi creu proffil!
@@ -380,7 +380,7 @@ faq-why-my-lang-q = Pam nad yw fy iaith wedi'i chynnwys eto?
 faq-why-my-lang-new-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru dim ond gan y gymuned, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau heb hawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill. Os hoffech chi helpu lansio iaith newydd, ewch draw i'n <sentenceCollectorLink>teclyn casglu brawddegau</sentenceCollectorLink>i gychwyn arni.
 faq-what-quality-q = Pa lefel o ansawdd sain sydd ei angen ar gyfer clip llais i'w ddefnyddio yn y set ddata?
 faq-what-quality-a = Rydyn eisiau i set ddata Common Voice adlewyrchu ansawdd sain y bydd peiriant llais-i-destun yn ei glywed yn gyffredin, felly rydym yn chwilio am amrywiaeth. Yn ogystal â chymuned amrywiol o siaradwyr, bydd set ddata gydag ansawdd sain amrywiol yn dysgu'r peiriant llais-i-destun i drin gwahanol sefyllfaoedd o'r byd go iawn, o gefndir gyda siarad i sŵn ceir. Cyn belled â bod eich clip llais yn ddealladwy, dylai fod yn ddigon da i'r set ddata.
-faq-why-10k-hours-q = Pam mae 10,000 awr wedi'i ddilysu y nod ar gyfer casglu sain iaith ?
+faq-why-10k-hours-q = Pam mae 10,000 awr wedi'i ddilysu y targed ar gyfer casglu sain iaith ?
 faq-why-10k-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system llais i destun.
 faq-how-calc-hours-q = Sut mae Common Voice yn cyfrifo oriau?
 faq-how-calc-hours-a = Rydym yn cyfrifo oriau trwy amcangyfrif hyd cyfartalog pob cofnod, ac yna lluosi'r rhif hwnnw gyda chyfanswm nifer y recordiadau ar draws yr holl ieithoedd.
@@ -612,8 +612,8 @@ listen = Gwrando
 skip = Hepgor
 shortcuts = Llwybrau Byr
 clips-with-count = <bold>{ $count }</bold> Clip
-goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod recordio dyddiol!
-goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod dilysu dyddiol!
+goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein targed recordio dyddiol!
+goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein targed dilysu dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
 record-cta = Cychwyn recordio
 record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
@@ -705,7 +705,7 @@ validations =
 ## Dashboard
 
 your-languages = Eich Ieithoedd
-toward-next-goal = Ymlaen i'r nod nesaf
+toward-next-goal = Ymlaen i'r targed nesaf
 clips-you-recorded = Clipiau Rydych Wedi'u Recordio
 clips-you-validated = Clipiau Rydych Wedi'u Dilysu
 todays-recorded-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u recordio
@@ -723,14 +723,14 @@ overall-accuracy = Cywirdeb Cyffredinol
 ## Custom Goals
 
 get-started-goals = Cychwyn gyda thargedau
-toward-next-goal = Ymlaen i'r nod nesaf
+toward-next-goal = Ymlaen i'r targed nesaf
 create-custom-goal = Creu Targed Cyfaddas
 both-speak-and-listen = Y Ddau
 both-speak-and-listen-long = Y Ddau (Siarad a Gwrando)
 daily-goal = Targed Dyddiol
 weekly-goal = Targed Wythnosol
 easy-difficulty = Hawdd
-average-difficulty = Cymhedrol
+average-difficulty = Cymedrol
 difficult-difficulty = Anodd
 pro-difficulty = Uwch
 lose-goal-progress-warning = Drwy olygu eich targed, efallai byddwch yn colli eich cynnydd presennol.
@@ -745,9 +745,9 @@ activity-needed-calculation = Mae { NUMBER($totalHours) } awr yn gyraeddadwy ymh
 how-many-per-day = Gwych! Sawl clip y dydd?
 how-many-a-week = Gwych! Sawl clip yr wythnos?
 which-goal-type = Hoffech chi Siarad, Gwrando neu'r ddau?
-receiving-emails-info = Ar hyn o bryd rydych chi wedi eich gosod i dderbyn negeseuon e-bost i atgoffa am eich targed, diweddariadau cynnydd a chylchlythyrau am Common Voice
+receiving-emails-info = Ar hyn o bryd rydych wedi trefnu i dderbyn negeseuon e-bost i'ch atgoffa am eich targed, diweddariadau cynnydd a chylchlythyron am Common Voice
 n-clips = { NUMBER($count) } clip
-help-share-goal = Helpwch chi i ddenu rhagor o leisiau, rhannwch eich targed
+help-share-goal = Helpwch ni i ddenu rhagor o leisiau, rhannwch eich targed
 confirm-goal = Cadarnhau'r Targed
 goal-interval-weekly = Wythnosol
 # $type is one of share-goal-type-*
@@ -761,6 +761,9 @@ share-goal-type-both = Siarad a Gwrando
 goal-share-text = Rwyf newydd greu targed personol ar gyfer cyfrannu fy llais i #CommonVoice -- ymunwch â mi i helpu dysgu peiriannau sut mae pobl go iawn yn siarad { $link }
 weekly-goal-created = Mae eich targed wythnosol wedi'i greu
 daily-goal-created = Mae eich targed dyddiol wedi'i greu
+track-progress = Dilyn eich cynnydd yma ac ar eich tudalen ystadegau.
+return-to-edit-goal = Dewch nôl yma unrhyw bryd, i olygu eich targed
+share-goal = Rhannu fy nharged
 
 ## Profile Delete
 
