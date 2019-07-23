@@ -711,12 +711,37 @@ lose-goal-progress-warning = A cél szerkesztésével elveszítheti a meglévő 
 want-to-continue = Biztos, hogy folytatja?
 finish-editing = Előbb befejezi a szerkesztést?
 lose-changes-warning = A lap elhagyása azt jelenti, hogy elveszíti a változásokat
+build-custom-goal = Egyéni cél létrehozása
+help-reach-hours = Segítsen elérni a(z) { NUMBER($hours) } órát { $language } nyelven egy személyes céllal
+set-a-goal = Cél kitűzése
+cant-decide = Nem tud dönteni?
+activity-needed-calculation =
+    { NUMBER($totalHours) } óra akár { NUMBER($periodMonths) } hónap alatt is elérhető,
+    ha { NUMBER($people) } ember napi { NUMBER($clipsPerDay) } klipet rögzít.
+how-many-per-day = Nagyszerű! Naponta hány klipet?
+how-many-a-week = Nagyszerű! Hetente hány klipet?
 which-goal-type = Beszélni, figyelni vagy mindkettőt szeretne?
+receiving-emails-info =
+    Jelenleg úgy állította be, hogy e-mailben megkapja a cél emlékeztetőket,
+    az előrehaladási híreket és a Common Voice hírlevelet
+n-clips = { NUMBER($count) } klip
+help-share-goal = Segítsen még több hangot találni, ossza meg a célját
+confirm-goal = Cél megerősítése
+goal-interval-weekly = Hetente
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Ossza meg a napi { $count } klipes „{ $type }” célját
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Ossza meg a heti { $count } klipes „{ $type }” célját
 share-goal-type-speak = Beszéd
 share-goal-type-listen = Figyelés
 share-goal-type-both = Beszéd és figyelés
 # LINK will be replaced with the current URL
 goal-share-text = Létrehoztam egy személyes hangfelajánlási célt a #CommonVoice projektben – csatlakozz, és segíts megtanítani a gépeket arra, ahogyan a valódi emberek beszélnek { $link }
+weekly-goal-created = Létrehozta a heti célját
+daily-goal-created = Létrehozta a napi célját
+track-progress = Előrehaladás nyomon követése  itt és a statisztika oldalon.
+return-to-edit-goal = A célja szerkesztéséhez bármikor visszatérhet ide.
+share-goal = Cél megosztása
 
 ## Profile Delete
 
