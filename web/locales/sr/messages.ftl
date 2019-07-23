@@ -298,32 +298,101 @@ email-subscriptions = Претплате путем е-поште
 download-profile = Преузми моје податке
 contribution-experience = Искуство доприношења
 skip-submission-feedback = Прескочи слање повратних података
+add-avatar-title = Додајте аватар у свој профил
+browse-file-title = Додајте слику
+connect-gravatar = Повежите са Gravatar-ом
+gravatar_not_found = Не постоји Gravatar за вашу е-пошту
+file_too_large = Одабрана датотека је превелика
+manage-subscriptions = Управљајте претплатама
+manage-email-subscriptions = Управљајте претплатама преко е-поште
+email-already-used = Е-пошта се већ користи за други налог
+add-language = Додај језик
 
 ## FAQ
 
+faq-title = Често постављана питања
 faq-what-cv-q = Шта је Common Voice?
+faq-why-important-q = Зашто је то важно?
 faq-how-get-q = Како могу да добијем Common Voice податке?
+faq-what-is-cv = Шта је Common Voice?
+faq-using-cv = Коришћење Common Voice-а
+faq-search-for-answers =
+    .label = Нађите одговоре
 
 ## ABOUT US
 
+about-title = Зашто Common Voice?
+how-does-it-work-title = Како то функционише?
+about-speak = Изговори
+about-listen-queue = Ред слушања
+about-listen = Слушај
+about-is-it-valid = Да ли је исечак исправан?
+about-yes-votes = ≥ 2  Потврдних гласова
+about-no-votes = ≥ 2 Одричних гласова
+about-clip-graveyard = Гробље исечака
+about-partners = Партнери
+about-become-a-partner = Постаните наш партнер
+about-get-involved = Прикључите се
+about-nav-why-common-voice = Зашто ?
+about-nav-how-it-works = Како ?
+about-nav-partners = Партнери
+about-nav-get-involved = Прикључите се
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Вештачка интелигенција
 
 ## Glossary
 
+glossary = Речник
+localization = Локализација
+sentence-collection = Скупљање реченица
 
 ## NotFound
 
+notfound-title = Није пронађен
+notfound-content = Бојим се да не знам шта тражите.
 
 ## Data
 
+data-download-button = Преузмите Common Voice податке
+data-download-yes = Да
+data-download-deny = Не
+data-download-license = Лиценца: <licenseLink>CC-0</licenseLink>
+data-other-goto = Иди на { $name }
+data-other-download = Преузми податке
 license-mixed = Помешано
 terms-agree = Слажем се
 terms-disagree = Не слажем се
+review-recording = Преглед
+review-rerecord = Поновно снимање
+review-cancel = Откажи слање
+review-keep-recordings = Задржите снимке
+review-delete-recordings = Избришите моје снимке
 
 ## Datasets Page
 
+language = Језик
+# File size in gigabytes
+size = Величина
+validated-hr-total = Укупно потврђених сати
+overall-hr-total = Свеукупно сати
+cv-license = Лиценца
+audio-format = Звучни формат
+number-of-voices = Број гласова
+email-to-download = Унесите е-пошту да започнете преузимање
+size-gigabyte = GB
+size-megabyte = MB
+validated-hours = Потврђених сати
+recorded-hours = Снимљених сати
+subscribe = Пријавите се
+go-discourse = Иди на Discourse
+more = Више
+close = Затвори
+download = Преузми
+dataset-version = Издање
 
 ## Download Modal
 
+download-title = Ваше преузимање је почело.
 download-no = Не хвала
 
 ## Contact Modal
@@ -341,6 +410,7 @@ request-language-title = Захтев за језик
 request-language-form-language =
     .label = Језик
 request-language-success-title = Захтев за новим језиком предат, хвала вам.
+other-language = Други језик
 
 ## Languages Overview
 
@@ -349,29 +419,67 @@ language-section-launched = Покренут
 languages-show-more = Погледајте више
 languages-show-less = Погледајте мање
 language-speakers = Говорници
+language-meter-in-progress = Напредак
 language-total-progress = Укупно
 language-search-input =
     .placeholder = Претрага
 language-speakers = Говорници
+localized = Локализоване
+sentences = Реченице
+total-hours = Потврђених сати
 
 ## Contribution
 
+action-click = Кликни
+action-tap = Тапни
+contribute = Допринеси
+listen = Слушај
+skip = Прескочи
+shortcuts = Пречице
+clips-with-count = <bold>{ $count }</bold> исечака
+record-cta = Почните снимање
 record-platform-not-supported = Нажалост, ваша платформа није тренутно подржана.
+record-no-mic-found = Микрофон није пронађен.
+record-error-too-short = Снимак је прекратак.
+record-error-too-long = Снимак је предуг.
+record-error-too-quiet = Снимак је сувише тих.
+record-cancel = Откажи поновно снимање
+record-three-more-instruction = Још три до краја!
+record-button-label = Снимите свој глас
 
 ## Reporting
 
+report = Пријави
+report-title = Поднеси пријаву
+report-offensive-language = Увредљив језик
+report-other-comment =
+    .placeholder = Коментар
+success = Успех
+continue = Настави
+report-success = Пријава је успешно поднета
 
 ## Goals
 
 
 ## Dashboard
 
+stats = Статистика
+you = Ви
+everyone = Сви
 
 ## Custom Goals
 
+both-speak-and-listen = Оба
+both-speak-and-listen-long = Оба (говори и слушај)
+easy-difficulty = Лако
+average-difficulty = Просечно
+difficult-difficulty = Тешко
+pro-difficulty = Професионално
 
 ## Profile Delete
 
+keep = Задржи
+remove = Уклони
 profile-form-delete = Обриши профил
 
 ## Landing
