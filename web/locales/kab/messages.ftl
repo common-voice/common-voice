@@ -691,6 +691,17 @@ validated-clips = Tukkisin yettwasnetmen
 total-approved = Amḍan yettwaqeblen
 overall-accuracy = Tiseddi tamatut
 
+## Custom Goals
+
+toward-next-goal = Ɣer iswi i d-iteddun
+both-speak-and-listen = Di sin
+both-speak-and-listen-long = Di sin (Mmeslay u Sel)
+daily-goal = Iswi n yal ass
+weekly-goal = Iswi n yal ddurt
+easy-difficulty = Fessus
+average-difficulty = Talemmast
+difficult-difficulty = yewɛeṛ
+
 ## Profile Delete
 
 delete-q = Tebɣiḍ ad tessutreḍ ikalasen-ik n taɣect akken ad ttwakksen daɣen, neɣ tebɣiḍ ad ten-teǧǧeḍ deg taffa n yisefka n Common Voice?
