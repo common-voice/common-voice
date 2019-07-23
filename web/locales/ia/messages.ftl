@@ -679,6 +679,11 @@ validated-clips = Retalios validate
 total-approved = Total approbate
 overall-accuracy = Precision general
 
+## Custom Goals
+
+toward-next-goal = Verso le proxime objectivo
+share-goal = Compartir mi objectivo
+
 ## Profile Delete
 
 delete-q = Vole tu requirer que tu registrationes vocal sia delite o prefere tu retener los in le collection de datos de Common Voice?
