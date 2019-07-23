@@ -711,6 +711,7 @@ n-clips = { NUMBER($count) } échantillons
 help-share-goal = Aidez-nous à trouver plus de voix, partagez votre objectif
 confirm-goal = Confirmer l’objectif
 goal-interval-weekly = Hebdomadaire
+share-goal-type-listen = écoutés
 weekly-goal-created = Votre objectif hebdomadaire a été créé
 daily-goal-created = Votre objectif quotidien a été créé
 track-progress = Suivez les progrès ici et sur votre page de statistiques.
