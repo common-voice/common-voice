@@ -225,9 +225,12 @@ username-email-not-demographic = Ваше корисничко име и е-по
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Пусти/заустави
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Снимај/заустави
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Сними поново
 request-language-text = Још не видите ваш језик у пројекту Common Voice?
 request-language-button = Затражи језик
@@ -298,7 +301,10 @@ email-subscriptions = Претплате путем е-поште
 download-profile = Преузми моје податке
 contribution-experience = Искуство доприношења
 skip-submission-feedback = Прескочи слање повратних података
+off = Искљ.
+on = Укљ.
 add-avatar-title = Додајте аватар у свој профил
+add-avatar-clip = Додај аватар снимак у свој профил
 browse-file-title = Додајте слику
 connect-gravatar = Повежите са Gravatar-ом
 gravatar_not_found = Не постоји Gravatar за вашу е-пошту
