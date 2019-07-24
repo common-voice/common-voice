@@ -96,6 +96,7 @@ or = Odia holh (India)
 pl = Poland holh
 pt-BR = Portugal holh (Brazil)
 rm-sursilv = Romansh Sursilvan holh (Switzerland)
+rm-vallader = Romansh Vallader holh
 ro = Romania holh
 ru = Russia holh
 rw = Kinyarwanda holh
@@ -347,6 +348,7 @@ faq-why-not-ask-read-q = Zeiruangah dah cauk silole Wikipedia ca pawl mipi nan r
 faq-why-account-q = Zei ruangah dah account cu ka ser lai?
 faq-is-account-public-q = Ka account pawl hi mipi nih an hmu kho maw?
 faq-how-privacy-q = Zeitiin dah aw a tuntu kilvennak caah le an min a langh lonak hnga nan tuah?
+faq-using-cv = Common Voice hmanning
 faq-search-for-answers =
     .label = A phi kawl
 
@@ -359,7 +361,7 @@ about-listen = Ngai
 about-get-involved = I tal ve
 about-get-involved-text =
     Common Voice ṭhat ter deuh na duh maw?
-    <discourseLink> Discourse</discourseLink> ah na ruahnak kan kua, <githubLink>GitHub</githubLink> ah na ruahnak rak ṭial, silole <slackLink> Slack</slackLink> rak kan talpi.
+    <discourseLink> Discourse</discourseLink> ah na ruahnak kan kua, <githubLink>GitHub</githubLink> ah na ruahnak rak ṭial, silole <slackLink> Slack</slackLink> ah rak kan talpi.
 about-nav-why-common-voice = Zei Ruangah?
 about-nav-how-it-works = Zeitin?
 about-nav-partners = Partners
@@ -539,6 +541,10 @@ share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
 
 ## Reporting
 
+report-offensive-language = Biachia
+report-different-language = Holh dang
+report-difficult-pronounce = Awchuah a har
+continue = Peh zulh
 
 ## Goals
 
