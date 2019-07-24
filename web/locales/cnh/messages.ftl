@@ -107,6 +107,7 @@ sl = Slovenia holh
 sq = Albania holh
 sr = Serbia holh
 sv-SE = Sweden holh
+syr = Syriac holh
 ta = Tamil holh (India)
 te = Telugu holh (India)
 tg = Tajik holh
