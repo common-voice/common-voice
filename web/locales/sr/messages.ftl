@@ -306,6 +306,7 @@ on = Укљ.
 add-avatar-title = Додајте аватар у свој профил
 add-avatar-clip = Додај аватар снимак у свој профил
 browse-file-title = Додајте слику
+browse-file = Превуци и пусти или <browseWrap>Прегледај</browseWrap>
 connect-gravatar = Повежите са Gravatar-ом
 gravatar_not_found = Не постоји Gravatar за вашу е-пошту
 file_too_large = Одабрана датотека је превелика
@@ -313,6 +314,7 @@ manage-subscriptions = Управљајте претплатама
 manage-email-subscriptions = Управљајте претплатама преко е-поште
 email-already-used = Е-пошта се већ користи за други налог
 add-language = Додај језик
+change-email-setings = Промените своју е-пошту путем подешавања у одељку Идентитет пријаве
 
 ## FAQ
 
@@ -320,6 +322,21 @@ faq-title = Често постављана питања
 faq-what-cv-q = Шта је Common Voice?
 faq-why-important-q = Зашто је то важно?
 faq-how-get-q = Како могу да добијем Common Voice податке?
+faq-when-release2-q = Када ћете издати Common Voice податке других језика?
+faq-why-mission-q = Зашто је Common Voice део Mozilla-ине мисије?
+faq-what-cv-and-deepspeech-q = Која је разлика између Common Voice  и Deep Speech пројеката?
+faq-is-goal-assistant-q = Да ли је циљ Common Voice-а да изгради гласовног помоћника?
+faq-do-want-native-q = Ја нисам изворни говорник и говорим са нагласком, да ли и даље желите мој глас?
+faq-why-different-speakers-q = Зашто вам је потребно толико различитих говорника по језику?
+faq-why-my-lang-q = Зашто мој језик још није укључен?
+faq-what-quality-q = Који ниво квалитета звука је потребан да би се гласовни исечак користио у скупу података?
+faq-why-10k-hours-q = Зашто је 10.000 тестираних сати по језику циљ за снимање звука?
+faq-how-calc-hours-q = Како Common Voice израчунава сате?
+faq-where-src-from-2-q = Одакле долази изворни текст?
+faq-why-not-ask-read-q = Зашто не тражите од људи да читају текст из књига или чланака на Википедији, на различитим језицима?
+faq-why-account-q = Зашто би требало да направим налог?
+faq-is-account-public-q = Да ли су моји подаци на налогу јавни?
+faq-how-privacy-q = На који начин постижете одржавање анонимности и приватности особа које су донирале свој глас?
 faq-what-is-cv = Шта је Common Voice?
 faq-using-cv = Коришћење Common Voice-а
 faq-search-for-answers =
