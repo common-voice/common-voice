@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Gie, tarmettei a mi e-mails. Jeu lessel star sil current davart il project Common Voice.
-stayintouch = Nus da Mozilla essan vid crear ina communitad per tecnologia vocala. Nus lein restar en contact per parter novitads, novas fontaunas da datas e per intervegnir co ti drovas quellas datas.
+yes-receive-emails = Gie, tarmettei a mi e-mails. Jeu lessel star al current davart il project Common Voice.
+stayintouch = Nus da Mozilla creein ina communitad per tecnologia vocala. Nus lein restar en contact cun tei per parter novitads, novas fontaunas da datas e per intervegnir co ti drovas quellas datas.
 privacy-info = Nus empermettein da tractar tias informaziuns precautamein. Legia dapli en nossas <privacyLink>informaziuns davart la protecziun da datas</privacyLink>.
 return-to-cv = Turnar a Common Voice
 email-input =
