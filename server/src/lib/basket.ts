@@ -47,6 +47,7 @@ export async function sync(client_id: string) {
         ) AS two_day_streak
       FROM user_clients
       LEFT JOIN custom_goals goals ON user_clients.client_id = goals.client_id
+                                      AND goals.locale_id = 1
       LEFT JOIN custom_goals current_goal ON (
         user_clients.client_id = current_goal.client_id AND
         current_goal.created_at >= goals.created_at
