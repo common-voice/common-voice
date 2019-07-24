@@ -682,6 +682,14 @@ overall-accuracy = Precision general
 ## Custom Goals
 
 toward-next-goal = Verso le proxime objectivo
+easy-difficulty = Facile
+average-difficulty = Normal
+difficult-difficulty = Difficile
+pro-difficulty = Professional
+goal-interval-weekly = Septimanal
+share-goal-type-speak = Parlar
+share-goal-type-listen = Ascoltar
+share-goal-type-both = Parlar e ascoltar
 share-goal = Compartir mi objectivo
 
 ## Profile Delete
