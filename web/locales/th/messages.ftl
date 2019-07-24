@@ -669,6 +669,11 @@ overall-accuracy = ความแม่นยำทั้งหมด
 ## Custom Goals
 
 toward-next-goal = ไปยังเป้าหมายถัดไป
+both-speak-and-listen = ทั้งคู่
+both-speak-and-listen-long = ทั้งคู่ (พูดและฟัง)
+easy-difficulty = ง่าย
+want-to-continue = คุณต้องการทำต่อไปหรือไม่?
+goal-interval-weekly = รายสัปดาห์
 
 ## Profile Delete
 
