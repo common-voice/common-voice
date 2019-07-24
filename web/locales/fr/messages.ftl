@@ -718,6 +718,8 @@ share-n-weekly-contribution-goal = Partagez votre objectif hebdomadaire de { $co
 share-goal-type-speak = parlés
 share-goal-type-listen = écoutés
 share-goal-type-both = parlés et écoutés
+# LINK will be replaced with the current URL
+goal-share-text = Je viens de créer un objectif personnel pour le don de voix à #CommonVoice - rejoignez-moi et aidez-moi à apprendre aux machines à parler comment les vraies personnes parlent { $link }
 weekly-goal-created = Votre objectif hebdomadaire a été créé
 daily-goal-created = Votre objectif quotidien a été créé
 track-progress = Suivez les progrès ici et sur votre page de statistiques.
