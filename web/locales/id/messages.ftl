@@ -200,6 +200,7 @@ help-make-dataset = Bantu kami membangun himpunan data yang terbuka untuk umum d
 profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
 sign-up-account = Daftarkan akun
 email-subscription-title = berlangganan pemberitahuan melalui surel
+email-subscription-title-new = Daftar untuk nawala, pengingat target, dan pembaruan progres Common Voice
 
 ## Account Benefits
 
@@ -684,8 +685,22 @@ overall-accuracy = Akurasi Keseluruhan
 
 ## Custom Goals
 
+get-started-goals = Memulai dengan target
 toward-next-goal = Menuju capaian selanjutnya
+daily-goal = Target Harian
+weekly-goal = Target Mingguan
 easy-difficulty = Mudah
+average-difficulty = Rerata
+difficult-difficulty = Sulit
+want-to-continue = Ingin melanjutkan?
+finish-editing = Selesai mengedit terlebih dahulu?
+set-a-goal = Tetapkan target
+confirm-goal = Konfirmasi Target
+goal-interval-weekly = Mingguan
+share-goal-type-speak = Berbicara
+share-goal-type-listen = Mendengarkan
+share-goal-type-both = Berbicara dan Mendengarkan
+share-goal = Bagikan target saya
 
 ## Profile Delete
 
