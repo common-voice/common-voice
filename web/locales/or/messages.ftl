@@ -685,6 +685,11 @@ validated-clips = ଯାଞ୍ଚ କରାଯାଇଥିବା ଧ୍ୱନୀ
 total-approved = ମୋଟ ଅନୁମୋଦିତ
 overall-accuracy = ମୋଟାମୋଟି ସଠିକତା
 
+## Custom Goals
+
+toward-next-goal = ଆଗାମୀ ଲକ୍ଷ୍ୟ ଆଡ଼କୁ
+daily-goal = ଦୈନିକ ଲକ୍ଷ୍ୟ
+
 ## Profile Delete
 
 delete-q = ଆପଣ କଣ ଆପଣଙ୍କର କଣ୍ଠ ରେକର୍ଡଗୁଡିକୁ ମଧ୍ୟ ଲିଭାଇବାକୁ ଅନୁରୋଧ କରିବେ, କିମ୍ବା ଆପଣ ତାହାକୁ କମନ ଭଏସ ତଥ୍ୟଭଣ୍ଡାରରେ ରଖିବାକୁ ଚାହିଁବେ?
