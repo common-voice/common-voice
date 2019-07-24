@@ -133,7 +133,7 @@ zh-TW = Chines (Taiwan)
 speak = Plidar
 speak-now = Plaida ussa
 datasets = Unitads da datas
-languages = Linguas
+languages = Lungatgs
 about = Informaziuns davart nus
 profile = Profil
 help = Agid
@@ -342,8 +342,6 @@ faq-why-important-a =
     Per saver far diever dalla reconuschientscha vocala a moda pli universala rimnein nus registraziuns da vuschs en lungatgs derasai sco era lungatgs che vegnan plidai d'ina pli pintga populaziun e che vegnan savens buca risguardai da survetschs commercials da reconuschientscha vocala. Cunquei che nus publichein ina collecziun varionta da datas cun vuschs han sviluppaders, interprendiders ed entiras communitads linguisticas la pusseivladad da serrar quella largia ord atgna forza.
 faq-how-get-q = Co survegnel jeu las datas da Common Voice?
 faq-how-get-a = La collecziun da datas da Common Voice stat a disposiziun per telecargar sut la licenzia <licenseLink>CC0</licenseLink> sin <datasetLink>nossa pagina culla collecziun da datas</datasetLink>. Ti sas era telecargar diversas autras collecziuns da datas publicas dalla medema pagina.
-faq-when-release-q = Cu vegnis vus a publicar datas da Common Voice en auters lungatgs?
-faq-when-release-a = Tut il necessari per la versiun plurilinguala dalla collecziun da datas da Common Voice vegn actualmein rimnau e surluvrau cun agid dalla communitad. Sche ti vul saver dapli co ti sas sustener quei, sche <contactLink>contactescha nus</contactLink>. Nus sespruein actualmein da publicar il schaner 2019. Suenter vegnin nus ad aschuntar alla collecziun da datas periodicamein novs lungatgs e clips da vuschs, sco che quels stattan a disposiziun. Nus vegnin aunc a fixar tgei cadenza ch'il ciclus da publicaziuns vegn ad haver.
 faq-why-mission-q = Pertgei fa Common Voice part dalla missiun da Mozilla?
 faq-why-mission-a = Mozilla ha la finamira da mantener la reit aviarta ed accessibla per mintgin. Perquei ston creaturs da cuntegn da web vegnir sustegni cun projects sco Common Voice. Damai che tecnologias da lingua ein neginas applicaziuns da nischa pli, cartein nus ch'ellas duein esser disponiblas per tuts a moda eguala. Quei munta d'investir en dapli linguas e da risguardar el svilup e las emprovas da tecnologias da lingua differents accents e demografias. Common Voice ei ina resursa publica che statt a disposiziun a tuts e ch'ils teams da Mozilla e sviluppaders sigl entir mund drovan gia per ils agens projects.
 faq-what-cv-and-deepspeech-q = Tgei ei la differenza denter Common Voice e Deep Speech?
@@ -585,7 +583,7 @@ localized = Translatau
 sentences = Construcziuns
 total-hours = Uras confirmadas
 
-## New Contribution
+## Contribution
 
 action-click = Cliccar
 action-tap = Tippar
@@ -618,7 +616,6 @@ record-again-instruction = Grondius!<recordIcon></recordIcon> Fai in'ulteriura r
 record-again-instruction2 = Stai vidlunder e fai aunc ina registraziun <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> L’ultima!
 review-tooltip = Cheu sas ti verificar e registrar danovamein sch'ei fa basegns
-unable-speak = Jeu sai gest buca discuorer.
 review-instruction = Verificar e registrar danovamein sch'igl ei necessari
 record-submit-tooltip = { $actionType } tarmetter sche ti eis pronts
 clips-uploaded = Registraziuns ein cargadas
@@ -634,6 +631,9 @@ listen-last-time-instruction = <playIcon></playIcon>L'ultim!
 nothing-to-validate = Ei dat aunc neginas registraziuns per valetar en questa lingua, gida nus d'emplenir la colona da spetga cun tias registraziuns.
 record-button-label = Registrescha tia vusch
 share-title-new = <bold>Gida nus</bold> d'anflar novas vuschs
+
+## Reporting
+
 
 ## Goals
 
@@ -671,6 +671,10 @@ recorded-clips = Registraziuns
 validated-clips = Registraziuns valetadas
 total-approved = Registraziuns approvadas
 overall-accuracy = Precisiun cumplessiva
+
+## Custom Goals
+
+toward-next-goal = Enviers la proxima finamira
 
 ## Profile Delete
 
