@@ -123,12 +123,28 @@ ur = ኡርዱ
 uz = ኡዝቤክ
 vi = ቬትናምኛ
 vot = ቮቲክ
+zh-CN = ቻይንኛ (ቻይና)
+zh-HK = ቻይንኛ (ሆንግ ኮንግ)
+zh-TW = ቻይንኛ (ታይዋን)
 
 # [/]
 
 
 ## Layout
 
+speak = ተናገር
+speak-now = አሁን ተናገር
+datasets = የመረጃ ቋት
+languages = ቋንቋዎች
+about = ስለ
+profile = መገለጫ
+help = እርዳታ
+contact = እውቂያ
+privacy = ግላዊነት
+terms = ደንቦች
+cookies = ኩኪዎች(የሚሸጎጡ)
+faq = FAQ (አዘውትረው የሚጠየቁ)
+content-license-text = ዝርዝሩ በ <licenseLink> በፈጠራ የጋራ ፈቃድ </licenseLink> ስር ይገኛል።
 
 ## Home Page
 
