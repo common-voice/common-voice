@@ -145,6 +145,7 @@ terms = ደንቦች
 cookies = ኩኪዎች(የሚሸጎጡ)
 faq = FAQ (አዘውትረው የሚጠየቁ)
 content-license-text = ዝርዝሩ በ <licenseLink> በፈጠራ የጋራ ፈቃድ </licenseLink> ስር ይገኛል።
+share-title = ሌሎች ድምፃቸውን አነዲሰጡ በማድረግ ይተባበሩን።
 
 ## Home Page
 
