@@ -203,7 +203,7 @@ help-make-dataset = Aidez-nous à constituer une base de données libre et publi
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 sign-up-account = Créer un compte
 email-subscription-title = Recevez des informations par courriel
-email-subscription-title-new = Abonnez-vous aux lettres d’information, rappels d’objectifs, et bilan des progrès de Common Voice
+email-subscription-title-new = Abonnez-vous aux lettres d’information, rappels d’objectifs et bilan des progrès de Common Voice
 
 ## Account Benefits
 
@@ -211,7 +211,7 @@ benefits = Avantages
 rich-data = Enrichissez au maximum les données que vous envoyez en incluant des informations démographiques anonymes. Nous nous assurons que ces informations ne sont pas liées à votre profil avant de les rendre publiques.
 improve-audio = Les informations du profil permettent d’améliorer la qualité des données audio et la précision de la reconnaissance vocale.
 keep-track = Gardez une trace de vos progrès pour toutes les langues auxquelles vous participez.
-compare-progress = Comparez vos progrès à ceux de contributeurs dans le monde entier.
+compare-progress = Comparez vos progrès à ceux de contributeurs et contributrices du monde entier.
 view-goals = Comparez vos progrès par rapport à vos objectifs personnels et à ceux du projet.
 join-newsletter = Inscrivez-vous à notre liste de diffusion pour être tenu au courant des évolutions du projet.
 
@@ -220,9 +220,9 @@ join-newsletter = Inscrivez-vous à notre liste de diffusion pour être tenu au 
 whats-public = Quelles informations sont publiques ?
 email-not-public = Nous ne rendrons pas publique votre adresse électronique.
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
-username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur public ou anonyme
+username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur ou d’utilisatrice public ou anonyme
 demographic-deidentified = Les informations démographiques facultatives (p. ex. l’âge, le sexe, la langue et l’accent) sont dissociées de vos enregistrements audio et ne seront jamais affichées publiquement sur votre profil.
-username-email-not-demographic = Votre nom d’utilisateur ou utilisatrice et votre adresse électronique ne seront pas associés aux données publiées.
+username-email-not-demographic = Votre nom d’utilisateur ou d’utilisatrice et votre adresse électronique ne seront pas associés aux données publiées.
 
 ## Speak & Listen Shortcuts
 
@@ -306,7 +306,7 @@ profile-close = Fermer
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 why-demographic = Pourquoi est-ce important ?
-why-demographic-explanation = Les données utilisateur anonymes comme l’âge, le sexe, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur et garder l’anonymat.
+why-demographic-explanation = Les données utilisateur anonymes comme l’âge, le sexe, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
 accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
 login-identity = Identité de connexion
 login-signup = Se connecter / S’inscrire
@@ -315,7 +315,7 @@ email-subscriptions = Abonnements par courriel
 download-profile = Télécharger mes données
 contribution-experience = Expérience de contribution
 skip-submission-feedback = Passer l’envoi de commentaires
-skip-submission-description = L’envoi de commentaires sera désactivé après avoir choisi « Envoyer ». La contribution reprendra directement avec le jeu de 5 enregistrements ou validations suivant.
+skip-submission-description = L’envoi de commentaires sera désactivé après avoir choisi « Envoyer ». La contribution reprendra directement avec le jeu suivant de 5 enregistrements ou validations.
 skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
 off = Désactivé
 on = Activé
@@ -336,28 +336,28 @@ change-email-setings = Modifiez votre adresse de courriel dans les Préférences
 
 faq-title = Questions fréquentes
 faq-what-cv-q = Qu’est-ce que Common Voice ?
-faq-what-cv-a = Les technologies de reconnaissance vocale révolutionnent notre façon d’interagir avec les machines, mais les systèmes disponibles sont chers et propriétaires. Common Voice fait partie des activités de Mozilla qui ont pour but d’améliorer les technologies de reconnaissance vocale et de les rendre plus accessibles à tous. Common Voice est une immense base de données d’enregistrements vocaux qui permet à n’importe qui de facilement et rapidement entraîner des applications interagissant avec la voix, potentiellement dans toutes les langues.
+faq-what-cv-a = Les technologies de reconnaissance vocale révolutionnent notre façon d’interagir avec les machines, mais les systèmes disponibles sont chers et propriétaires. Common Voice fait partie des activités de Mozilla qui ont pour but d’améliorer les technologies de reconnaissance vocale et de les rendre plus accessibles à tous et à toutes. Common Voice est une immense base de données d’enregistrements vocaux qui permet à n’importe qui de facilement et rapidement entraîner des applications interagissant avec la voix, potentiellement dans toutes les langues.
 faq-why-important-q = Pourquoi est-ce important ?
 faq-why-important-a =
-    La parole est souvent le moyen le plus naturel de communiquer les uns avec les autres et les technologies vocales apportent ce confort à nos ordinateurs et appareils mobiles. Nous voulons donner aux développeurs les moyens de créer des applications de reconnaissance vocale étonnantes, telles que des traducteurs en temps réel et des assistants numériques à commandes vocales. Mais pour le moment, la plupart des données vocales nécessaires à la création de ce type d'applications sont coûteuses et propriétaires. Nous espérons que le jeu de données Common Voice donnera aux développeurs ce dont ils ont besoin pour innover et rendre la technologie de la parole disponible dans leur propre langue.
+    La parole est souvent le moyen le plus naturel de communiquer les uns avec les autres et les technologies vocales apportent ce confort à nos ordinateurs et appareils mobiles. Nous voulons donner aux développeurs et développeuses les moyens de créer des applications de reconnaissance vocale étonnantes, telles que des traducteurs en temps réel et des assistants numériques à commandes vocales. Mais pour le moment, la plupart des données vocales nécessaires à la création de ce type d’applications sont coûteuses et propriétaires. Nous espérons que le jeu de données Common Voice donnera aux développeurs et développeuses ce dont ils ont besoin pour innover et rendre la technologie de la parole disponible dans leur propre langue.
     
-    Pour rendre la reconnaissance vocale encore plus universelle, nous collectons des échantillons de voix dans des langues largement parlées, mais aussi dans celles qui ont une population de locuteurs réduite,  qui sont souvent mal desservies par les services commerciaux de reconnaissance vocale. La publication d'un jeu de données de voix diversifiées permettra aux développeurs, aux entrepreneurs et à des communautés linguistiques tout entières de combler cet écart.
+    Pour rendre la reconnaissance vocale encore plus universelle, nous collectons des échantillons de voix dans des langues largement parlées, mais aussi dans celles qui ont une population de locuteurs réduite,  qui sont souvent mal desservies par les services commerciaux de reconnaissance vocale. La publication d’un jeu de données de voix diversifiées permettra aux développeurs et développeuses, aux entrepreneurs et entrepreneuses, et à des communautés linguistiques tout entières de combler cet écart.
 faq-how-get-q = Comment obtenir les données de Common Voice ?
 faq-how-get-a = Le jeu de données de Common Voice est disponible au téléchargement selon les termes de la licence <licenseLink>CC0</licenseLink> sur <datasetLink>la page des jeux de données</datasetLink>. Vous pouvez aussi télécharger plusieurs autres jeux de données publics sur cette page.
 faq-why-mission-q = Pourquoi Common Voice fait-il partie de la mission de Mozilla ?
-faq-why-mission-a = Mozilla a pour vocation de conserver le Web ouvert et accessible à tout le monde. Pour y parvenir, nous devons doter les créateurs d’outils comme Common Voice. Les technologies vocales prolifèrent maintenant au-delà de certaines niches, et nous pensons qu’elles doivent être équitablement utilisables. Nous voyons un besoin d’inclure plus de langues, d’accents et de tranches d’âge pour la création et le test des technologies vocales. Mozilla veut un Internet actif, en bonne santé. Cela implique de donner accès, aux créateurs sur le Web, à des données vocales qu’ils peuvent utiliser pour de nouveaux projets. Common Voice deviendra une ressource publique qui aidera les équipes de Mozilla et les développeurs du monde entier.
+faq-why-mission-a = Mozilla a pour vocation de conserver le Web ouvert et accessible à tout le monde. Pour y parvenir, nous devons doter les créateurs et créatrices d’outils comme Common Voice. Les technologies vocales prolifèrent maintenant au-delà de certaines niches, et nous pensons qu’elles doivent être équitablement utilisables. Nous voyons un besoin d’inclure plus de langues, d’accents et de tranches d’âge pour la création et le test des technologies vocales. Mozilla veut un Internet actif et en bonne santé. Cela implique de donner accès, aux créateurs et créatrices sur le Web, à des données vocales qui peuvent être utilisées pour de nouveaux projets. Common Voice deviendra une ressource publique qui aidera les équipes de Mozilla et les développeurs et développeuses du monde entier.
 faq-what-cv-and-deepspeech-q = Quelle est la différence entre Common Voice et Deep Speech ?
-faq-what-cv-and-deepspeech-a = Le jeu de données Common Voice complète le moteur Deep Speech du moteur de reconnaissance vocale open source de Mozilla. La première version de Deep Speech a été publiée en novembre 2017 et n’a cessé d’évoluer depuis. Avec le jeu de données Common Voice, nous pensons que cette technologie de reconnaissance vocale open source devrait être accessible à tous. Nous espérons que ces technologies permettront aux développeurs de créer une vague de produits et de services innovants.
+faq-what-cv-and-deepspeech-a = Le jeu de données Common Voice complète le moteur Deep Speech du moteur de reconnaissance vocale open source de Mozilla. La première version de Deep Speech a été publiée en novembre 2017 et n’a cessé d’évoluer depuis. Avec le jeu de données Common Voice, nous pensons que cette technologie de reconnaissance vocale open source devrait être accessible à tous. Nous espérons que ces technologies permettront aux développeurs et développeuses de créer une vague de produits et de services innovants.
 faq-is-goal-assistant-q = L’objectif de Common Voice est-il de créer un assistant vocal ?
-faq-is-goal-assistant-a = L’objectif du jeu de données Common Voice est de permettre à n’importe qui dans le monde de créer des applications de reconnaissance vocale, d’identification de locuteur, ou tout autre type d’application qui utilise la voix. Un assistant vocal n’est qu’une des applications qui peuvent être réalisées grâce au jeu de données.
-faq-do-want-native-q = Je ne suis pas un locuteur natif et je parle avec un accent. Voulez-vous toujours ma voix ?
-faq-do-want-native-a = Oui, nous voulons tout particulièrement votre voix ! Un des buts de Common Voice est justement de réunir la plus grande diversité d’accents possible, de telle sorte que personne ne soit exclu des services de reconnaissance vocale. Cela implique que les contributions des locuteurs d’une langue qui n’est pas leur langue maternelle sont primordiales.
+faq-is-goal-assistant-a = L’objectif du jeu de données Common Voice est de permettre à n’importe qui dans le monde de créer des applications de reconnaissance vocale, d’identification de locuteur ou tout autre type d’application qui utilise la voix. Un assistant vocal n’est qu’une des applications qui peuvent être réalisées grâce au jeu de données.
+faq-do-want-native-q = La langue que j’ai choisie n’est pas ma langue maternelle et je la parle avec un accent. Voulez-vous toujours ma voix ?
+faq-do-want-native-a = Oui, nous voulons tout particulièrement votre voix ! Un des buts de Common Voice est justement de réunir la plus grande diversité d’accents possible, de telle sorte que personne ne soit exclu des services de reconnaissance vocale. Cela implique que les contributions des locuteurs et locutrices d’une langue qui n’est pas leur langue maternelle sont primordiales.
 faq-why-different-speakers-q = Pourquoi avez-vous besoin de tant de locuteurs différents pour chaque langue ?
 faq-why-different-speakers-a =
     La plupart des bases de données vocales sont construites avec une surreprésentation de certaines démographies et cela génère un biais en faveur <articleLink>des hommes de la classe moyenne</articleLink>. Les accents et les dialectes qui tendent à être sous-représentés sont typiquement ceux de populations déjà marginalisées. Ainsi, souvent, les machines ont du mal à reconnaître les voix féminines.
     C’est pourquoi nous voulons de la diversité dans notre base de données !
 faq-why-my-lang-q = Pourquoi ma langue n’est-elle pas déjà incluse ?
-faq-why-my-lang-new-a = Mozilla ne choisit ni ne favorise aucune langue par rapport à une autre. Au contraire, Common Voice est entièrement piloté par la communauté, mais il faut <multilangLink>plusieurs étapes pour ajouter une langue</multilangLink> et démarrer la collecte d’échantillons de sonores. D’abord, le site web Common Voice nécessite d’être traduit pour que les membres de la communauté aient accès à la contribution dans leur langue. Ensuite, nous avons besoin d’une vaste quantité de textes qui soient libres de droits afin que les gens puissent les lire. Une fois que ces deux prérequis sont satisfaits, la langue est « lancée » sur Common Voice et les contributeurs peuvent s’enregistrer et valider les enregistrements. Si vous souhaitez contribuer au lancement d’une nouvelle langue, rejoignez pour commencer notre <sentenceCollectorLink>outil de collecte de phrases</sentenceCollectorLink>.
+faq-why-my-lang-new-a = Mozilla ne choisit ni ne favorise aucune langue par rapport à une autre. Au contraire, Common Voice est entièrement piloté par la communauté, mais il faut <multilangLink>plusieurs étapes pour ajouter une langue</multilangLink> et démarrer la collecte d’échantillons sonores. D’abord, le site web Common Voice nécessite d’être traduit pour que les membres de la communauté aient accès à la contribution dans leur langue. Ensuite, nous avons besoin d’une vaste quantité de textes qui soient libres de droits afin que les gens puissent les lire. Une fois que ces deux prérequis sont satisfaits, la langue est « lancée » sur Common Voice et les contributeurs et contributrices peuvent s’enregistrer et valider les enregistrements. Si vous souhaitez contribuer au lancement d’une nouvelle langue, rejoignez pour commencer notre <sentenceCollectorLink>outil de collecte de phrases</sentenceCollectorLink>.
 faq-what-quality-q = Quel niveau de qualité audio est requis pour les échantillons présents dans la base de données ?
 faq-what-quality-a = Nous souhaitons que le jeu de données Common Voice reflète la qualité audio qu’un système de reconnaissance vocale rencontrera dans la réalité, nous avons donc besoin de diversité. En plus d’une communauté représentant une large diversité de locuteurs, un jeu de données avec une qualité sonore variable permettra d’apprendre au moteur de reconnaissance vocale comment s’adapter dans différentes situations de la vie réelle, que ce soit avec des conversations en arrière-plan ou le bruit d’une voiture. Du moment que vos échantillons sont compréhensibles, alors c’est parfait pour le jeu de données.
 faq-why-10k-hours-q = Pourquoi l’objectif est-il de 10 000 heures d’audio ?
@@ -370,16 +370,16 @@ faq-where-src-from-2-a =
     
     Vous pouvez voir les phrases sources dans <githubLink>ce dossier sur GitHub.</githubLink>.
 faq-why-not-ask-read-q = Pourquoi ne pas demander aux gens de lire des livres ou des articles Wikipédia dans différentes langues ?
-faq-why-not-ask-read-a = Pour assurer un maximum d’utilisation au jeu de données Common Voice, nous avons décidé d’autoriser uniquement du texte source sous une licence Creative Commons (CC0). Utiliser le standard CC0 rend la collecte de texte source plus difficile, mais assure que quiconque peut utiliser le jeu de données sans restriction ni autorisation de Mozilla. De plus, vous voulons que le jeu de données multilingue soit le plus utile à tous, que ce soit des chercheurs, des universités, des startups, des gouvernements, des organisations à but social et des hobbyistes.
+faq-why-not-ask-read-a = Pour assurer un maximum d’utilisation au jeu de données Common Voice, nous avons décidé d’autoriser uniquement du texte source sous une licence Creative Commons (CC0). Utiliser le standard CC0 rend la collecte de texte source plus difficile, mais assure que quiconque peut utiliser le jeu de données sans restriction ni autorisation de Mozilla. De plus, vous voulons que le jeu de données multilingue soit le plus utile à tous et à toutes, que ce soit des chercheurs et chercheuses, des universités, des startups, des gouvernements, des organisations à but social et toute personne amatrice.
 faq-why-account-q = Pourquoi devrais-je créer un compte ?
 faq-is-account-public-q = Les informations de mon compte sont-elles publiques ?
-faq-how-privacy-q = Comment assurez-vous l’anonymat ainsi que le respect de la vie privée des contributeurs ?
-faq-how-privacy-a = Tous les échantillons sont expurgés d’informations qui permettent d’identifier les personnes. Quand un contributeur fournit des informations démographiques via son profil, celles-ci sont dé-identifiées des échantillons avant d’être proposées au téléchargement, et ne sont jamais rendues publiques sur leur page de profil.
-faq-what-determine-identity-q = Qu’est-ce que cela signifie que je ne « peux pas déterminer l’identité » des locuteurs dans le jeu de données de Common Voice ?
+faq-how-privacy-q = Comment assurez-vous l’anonymat ainsi que le respect de la vie privée des contributeurs et contributrices ?
+faq-how-privacy-a = Tous les échantillons sont expurgés d’informations qui permettent d’identifier les personnes. Quand un contributeur ou une contributrice fournit des informations démographiques via son profil, celles-ci sont déidentifiées des échantillons avant d’être proposées au téléchargement, et ne sont jamais rendues publiques sur leur page de profil.
+faq-what-determine-identity-q = Qu’est-ce que cela signifie que je ne « peux pas déterminer l’identité » des locuteurs et locutrices dans le jeu de données de Common Voice ?
 faq-what-determine-identity-a =
-    Le jeu de données Common Voice est une ressource ouverte et accessible à tous qui peut être utilisée pour de nombreuses applications liées à la voix. Pour protéger la sécurité de nos contributeurs, nous demandons à tous ceux qui téléchargent les données de respecter la vie privée des contributeurs.
+    Le jeu de données Common Voice est une ressource ouverte et accessible à tous et toutes qui peut être utilisée pour de nombreuses applications liées à la voix. Pour protéger la sécurité de nos contributeurs et contributrices, nous demandons à tous ceux et toutes celles qui téléchargent les données de respecter la vie privée des contributeurs et contributrices.
     
-    Tous les échantillons sont expurgés d’informations permettant d’identifier les locuteurs. Quand vous téléchargez le jeu de données, vous acceptez de ne pas essayer de déterminer l’identité des contributeurs. Cela signifie que vous ne devez pas essayer de faire le lien entre le jeu de données et des informations personnelles d’un contributeur. Vous pouvez par contre utiliser le jeu de données pour permettre la reconnaissance vocale, l’identification de différents locuteurs dans une conversation, par exemple en utilisant les données présentes uniquement dans le jeu de données.
+    Tous les échantillons sont expurgés d’informations permettant d’identifier les locuteurs et locutrices. Quand vous téléchargez le jeu de données, vous acceptez de ne pas essayer de déterminer l’identité des contributeurs et contributrices. Cela signifie que vous ne devez pas essayer de faire le lien entre le jeu de données et des informations personnelles d’un contributeur ou d’une contributrice. Vous pouvez par contre utiliser le jeu de données pour permettre la reconnaissance vocale, l’identification des différentes personnes qui participent à une conversation, par exemple en utilisant les données présentes uniquement dans le jeu de données.
 faq-what-is-cv = Qu’est-ce que Common Voice ?
 faq-using-cv = Utilisation de Common Voice
 faq-description = Le projet Common Voice fait partie des initiatives de Mozilla pour aider à apprendre aux machines comment les humains parlent vraiment.
@@ -391,8 +391,8 @@ faq-search-for-answers =
 about-title = Pourquoi Common Voice ?
 about-subtitle = Common Voice fait partie de l’initiative de Mozilla aidant les machines à apprendre comment parlent les vraies personnes. Outre le jeu de données Common Voice, nous créons également un moteur de reconnaissance vocale open source appelé Deep Speech.
 about-header-description =
-    Ces deux projets font partie de nos efforts pour réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
-    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous.
+    Ces deux projets font partie de nos efforts pour réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
+    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
 how-does-it-work-title = Mode d’emploi
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
 about-speak = Parler
@@ -400,7 +400,7 @@ about-speak-text = Les contributeurs et contributrices lisent et enregistrent de
 about-listen-queue = File d’attente de l’écoute
 about-listen-queue-text = Les échantillons vocaux sont enregistrés dans une file d’attente de soumissions qui les prépare pour l’écoute.
 about-listen = Écouter
-about-listen-text = Les utilisateurs valident l’exactitude des échantillons en vérifiant que le locuteur ou la locutrice a correctement lu la phrase.
+about-listen-text = Les utilisateurs et utilisatrices valident l’exactitude des échantillons en vérifiant que le locuteur ou la locutrice a correctement lu la phrase.
 about-is-it-valid = Cet échantillon est-il valide ?
 about-is-it-valid-text = Un échantillon vocal est marqué comme « valide » quand un utilisateur ou une utilisatrice l’approuve avec un OUI.
 about-yes-votes = ≥ 2 votes OUI
@@ -442,11 +442,11 @@ localization-explanation = Il s’agit de notre processus pour traduire et adapt
 sentence-collection = Collecte de phrases 
 sentence-collection-explanation = Collecter des phrases qui sont dans le domaine public, ou en écrire de nouvelles qui seront dans le domaine public.
 hours-recorded-explanation = La quantité d’heures d’enregistrements vocaux que nous avons collectés jusqu’à présent.
-hours-validated-explanation = La quantité d’heures d’enregistrements vocaux qui ont été validées par au moins deux ou trois utilisateurs qui ont voté « Oui ». Cela dénote les progrès quant à l’objectif de 10 000 heures du projet.
+hours-validated-explanation = La quantité d’heures d’enregistrements vocaux qui ont été validées par au moins deux ou trois utilisateurs ou utilisatrices qui ont voté « Oui ». Cela dénote les progrès quant à l’objectif de 10 000 heures du projet.
 sst = Reconnaissance vocale (Speech-to-text, STT) 
 sst-explanation = La reconnaissance vocale (STT) convertit de la voix en texte.
-de-identified = Dé-identifié 
-de-identified-explanation = Processus permettant de séparer les informations personnelles des contributeurs de leurs échantillons lors de la préparation du jeu de données.
+de-identified = Déidentifié 
+de-identified-explanation = Processus permettant de séparer les informations personnelles des contributeurs et contributrices de leurs échantillons lors de la préparation du jeu de données.
 
 ## NotFound
 
@@ -505,7 +505,7 @@ why-email = <b>Pourquoi demandons-nous une adresse électronique ?</b> Nous aur
 confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
-confirm-no-identify = <b>Vous acceptez</b> de ne pas essayer de découvrir l’identité des locuteurs du jeu de données Common Voice.
+confirm-no-identify = <b>Vous acceptez</b> de ne pas essayer de découvrir l’identité des locuteurs et locutrices du jeu de données Common Voice.
 download-language = Télécharger | { $language }
 validated-hours = Heures validées
 recorded-hours = Heures enregistrées
@@ -719,7 +719,7 @@ share-goal-type-speak = parlés
 share-goal-type-listen = écoutés
 share-goal-type-both = parlés et écoutés
 # LINK will be replaced with the current URL
-goal-share-text = Je viens de créer un objectif personnel pour le don de voix à #CommonVoice - rejoignez-moi et aidez-moi à apprendre aux machines à parler comment les vraies personnes parlent { $link }
+goal-share-text = Je viens de créer un objectif personnel pour le don de voix à #CommonVoice – rejoignez-moi et aidez-moi à apprendre aux machines à parler comment les vraies personnes parlent { $link }
 weekly-goal-created = Votre objectif hebdomadaire a été créé
 daily-goal-created = Votre objectif quotidien a été créé
 track-progress = Suivez les progrès ici et sur votre page de statistiques.
@@ -732,9 +732,9 @@ delete-q = Souhaitez-vous également demander la suppression de vos enregistreme
 keep = Les conserver
 remove = Les supprimer
 keep-info = Vos enregistrements vocaux anonymes resteront dans le jeu de données Common Voice. Une fois que vous avez supprimé votre profil, vous ne pourrez plus envoyer de requête pour supprimer vos enregistrements du jeu de données.
-remove-info = Nous allons étudier votre requête pour retirer vos enregistrements vocaux du jeu de données. Si votre demande est acceptée, nous contacterons ceux qui ont téléchargé le jeu de données et leur demanderons de le faire également.
+remove-info = Nous allons étudier votre requête pour retirer vos enregistrements vocaux du jeu de données. Si votre demande est acceptée, nous contacterons ceux et celles qui ont téléchargé le jeu de données et leur demanderons de le faire également.
 why-delete-recordings =
-    Les universitaires, les petites entreprises et les passionnés de reconnaissance vocale utilisent les enregistrements Common Voice pour entraîner et développer des ressources accessibles au public, telles que des modèles vocaux.
+    Les universitaires, les petites entreprises et les personnes passionnées de reconnaissance vocale utilisent les enregistrements Common Voice pour entraîner et développer des ressources accessibles au public, telles que des modèles vocaux.
     
     Pourriez-vous nous indiquer pourquoi vous souhaitez supprimer vos enregistrements ?
 profile-form-delete = Supprimer le profil
