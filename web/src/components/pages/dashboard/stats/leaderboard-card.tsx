@@ -4,20 +4,27 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
+import { useState } from 'react';
 import { connect } from 'react-redux';
+import { useAccount, useAction } from '../../../../hooks/store-hooks';
 import API from '../../../../services/api';
 import { trackDashboard } from '../../../../services/tracker';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
+import { User } from '../../../../stores/user';
+import URLS from '../../../../urls';
+import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers';
 import {
   CheckIcon,
+  CrossIcon,
+  EyeIcon,
   InfoIcon,
   MicIcon,
   OldPlayIcon,
   PlayOutlineIcon,
   PlayIcon,
 } from '../../../ui/icons';
-import { Avatar } from '../../../ui/ui';
+import { Avatar, Toggle } from '../../../ui/ui';
 import StatsCard from './stats-card';
 import { isProduction } from '../../../../utility';
 
@@ -230,23 +237,34 @@ const FilledCheckIcon = () => (
 
 const Percentage = () => <div className="percent">%</div>;
 
-export default class extends React.Component<{}, { showInfo: boolean }> {
-  state = { showInfo: false };
+export default function LeaderboardCard() {
+  const account = useAccount();
+  const saveAccount = useAction(User.actions.saveAccount);
 
-  hideInfo = () => this.setState({ showInfo: false });
-  showInfo = () => this.setState({ showInfo: true });
+  const [showInfo, setShowInfo] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(false);
 
-  render() {
-    const { showInfo } = this.state;
-    return (
-      <StatsCard
-        key="leaderboard"
-        title="top-contributors"
-        iconButtons={
+  return (
+    <StatsCard
+      key="leaderboard"
+      className={'leaderboard-card ' + (showOverlay ? 'has-overlay' : '')}
+      title="top-contributors"
+      iconButtons={
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
+          <button
+            className="open-overlay"
+            type="button"
+            onClick={() => setShowOverlay(true)}>
+            <EyeIcon />
+            <Localized id="set-visibility">
+              <span />
+            </Localized>
+          </button>
+
           <div
             className="leaderboard-info"
-            onMouseEnter={this.showInfo}
-            onMouseLeave={this.hideInfo}>
+            onMouseEnter={() => setShowInfo(true)}
+            onMouseLeave={() => setShowInfo(false)}>
             {showInfo && (
               <div className="info-menu">
                 <ul>
@@ -273,20 +291,58 @@ export default class extends React.Component<{}, { showInfo: boolean }> {
             )}
             <button
               className={showInfo ? 'active' : ''}
-              onClick={() => this.setState({ showInfo: !showInfo })}>
+              style={{ display: 'flex' }}
+              onClick={() => setShowInfo(!showInfo)}
+              type="button">
               <InfoIcon />
             </button>
           </div>
-        }
-        tabs={{
-          'recorded-clips': ({ locale }) => (
-            <Leaderboard key={'c' + locale} locale={locale} type="clip" />
-          ),
-          'validated-clips': ({ locale }) => (
-            <Leaderboard key={'v' + locale} locale={locale} type="vote" />
-          ),
-        }}
-      />
-    );
-  }
+        </div>
+      }
+      overlay={
+        showOverlay && (
+          <div className="leaderboard-overlay">
+            <button
+              className="close-overlay"
+              type="button"
+              onClick={() => setShowOverlay(false)}>
+              <CrossIcon />
+            </button>
+            <LocalizedGetAttribute
+              id="leaderboard-visibility"
+              attribute="label">
+              {label => <h2>{label}</h2>}
+            </LocalizedGetAttribute>
+            <Toggle
+              offText="hidden"
+              onText="visible"
+              defaultChecked={Boolean(account.visible)}
+              onChange={(event: any) => {
+                saveAccount({ visible: event.target.checked });
+              }}
+            />
+            <Localized id="visibility-explainer" $minutes={20}>
+              <p className="explainer" />
+            </Localized>
+            <div className="info">
+              <InfoIcon />
+              <Localized
+                id="visibility-overlay-note"
+                profileLink={<LocaleLink to={URLS.PROFILE_INFO} />}>
+                <p className="note" />
+              </Localized>
+            </div>
+          </div>
+        )
+      }
+      tabs={{
+        'recorded-clips': ({ locale }) => (
+          <Leaderboard key={'c' + locale} locale={locale} type="clip" />
+        ),
+        'validated-clips': ({ locale }) => (
+          <Leaderboard key={'v' + locale} locale={locale} type="vote" />
+        ),
+      }}
+    />
+  );
 }

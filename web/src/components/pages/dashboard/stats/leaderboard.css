@@ -1,7 +1,115 @@
 @import url('../../../vars.css');
 
+.leaderboard-card {
+    position: relative;
+
+    & .stats-card__inner {
+        transition: all var(--easing) var(--transition-duration-slow);
+    }
+
+    &.has-overlay {
+        overflow: hidden;
+
+        & .stats-card__inner {
+            transform: translate(60%, 70px);
+            filter: blur(4px);
+            pointer-events: none;
+        }
+    }
+
+    & .open-overlay {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: var(--base-font-family);
+        font-weight: 600;
+        color: var(--blue);
+
+        & svg {
+            margin-right: 10px;
+        }
+
+        & path {
+            fill: var(--blue) !important;
+        }
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+    }
+}
+
+.leaderboard-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 25px 40% 25px 25px;
+    box-sizing: border-box;
+    z-index: var(--middle-z-index);
+    overflow: auto;
+    animation: slide-in-left var(--easing) var(--transition-duration-slow);
+
+    & .close-overlay {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        border: none;
+        background: none;
+
+        & svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    & h2 {
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    & .toggle-input {
+        margin-bottom: 10px;
+
+        & :not(:checked)::before {
+            background: var(--near-black);
+        }
+    }
+
+    & .explainer {
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    & .info {
+        display: flex;
+        flex-direction: row;
+        color: var(--near-black);
+
+        & svg {
+            margin-right: 5px;
+        }
+
+        & path {
+            fill: var(--near-black);
+        }
+
+        & a {
+            color: var(--blue);
+            text-decoration: underline;
+        }
+    }
+}
+
 .leaderboard-info {
     position: relative;
+    border-left: 2px solid var(--light-grey);
+    margin-left: 10px;
+    padding-left: 10px;
 
     & .info-menu {
         min-width: 255px;

@@ -330,7 +330,8 @@ button.card-action:focus.focus-visible path {
             height: 100%;
             background: var(--valid-green);
             transform: translateX(0%);
-            transition: transform var(--easing) var(--transition-duration);
+            transition: transform var(--easing) var(--transition-duration),
+                background linear var(--transition-duration);
         }
 
         &:checked::before {
