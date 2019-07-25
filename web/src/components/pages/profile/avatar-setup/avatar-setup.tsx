@@ -18,6 +18,7 @@ import {
   StopIcon,
   PlayIcon,
 } from '../../../ui/icons';
+import { Button } from '../../../ui/ui';
 import AudioIOS from '../../contribution/speak/audio-ios';
 import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
 import { isFirefoxFocus, isNativeIOS, isProduction } from '../../../../utility';
@@ -230,86 +231,104 @@ class AvatarSetup extends React.Component<Props> {
         ? 'gravatar'
         : null;
     return (
-      <fieldset className="avatar-setup" disabled={this.state.isSaving}>
-        <Localized id="add-avatar-title">
-          <h2 />
-        </Localized>
-
-        <div className="file-upload">
-          <label
-            onDragOver={event => {
-              event.preventDefault();
-            }}
-            onDrop={event => {
-              this.saveFileAvatar(event.dataTransfer.files);
-              event.preventDefault();
-            }}>
-            <Localized id="browse-file-title">
-              <span className="title" />
-            </Localized>
-            <Localized
-              id="browse-file"
-              browseWrap={<span className="browse" />}>
-              <span className="upload-label" />
-            </Localized>
-            <input
-              className="hide-input"
-              type="file"
-              accept="image/*"
-              onChange={event => {
-                this.saveFileAvatar(event.target.files);
-              }}
-            />
-          </label>
-        </div>
-
-        <div style={{ display: isProduction() ? 'none' : 'block' }}>
+      <div className="full-avatar-setup">
+        <div className="clip">
           <Localized id="add-avatar-clip">
-            <h2 />
+            <h2 className="clip-title" />
           </Localized>
-          <div className="file-upload">
-            <button
-              className="connect"
-              type="button"
-              onClick={this.handleRecordClick}>
-              {recordingStatus == true ? <StopIcon /> : <MicIcon />}
-            </button>
-            <button
-              className="connect"
-              type="button"
-              onClick={this.playAvatarClip}>
-              {avatarClipPlaying === false ? <PlayIcon /> : <StopIcon />}
-            </button>
+          <div className="Group-1">
+            <img src={require('./group-1.svg')} />
           </div>
+          <Localized id="create-voice-wave">
+            <Button outline rounded className="Primary " />
+          </Localized>
+          <Localized id="about-avatar-clip">
+            <p className="Create-a-custom-voic" />
+          </Localized>
         </div>
-        <button
-          className="connect"
-          type="button"
-          onClick={async () => {
-            this.setState({ isSaving: true });
-            const { error } = await api.saveAvatar(
-              avatarType == 'gravatar' ? 'default' : 'gravatar'
-            );
+        <div>
+          <fieldset className="avatar-setup" disabled={this.state.isSaving}>
+            <Localized id="add-avatar-title">
+              <h2 />
+            </Localized>
 
-            if (['not_found'].includes(error)) {
-              addNotification(getString('gravatar_' + error));
-            }
+            <div className="file-upload">
+              <label
+                onDragOver={event => {
+                  event.preventDefault();
+                }}
+                onDrop={event => {
+                  this.saveFileAvatar(event.dataTransfer.files);
+                  event.preventDefault();
+                }}>
+                <Localized id="browse-file-title">
+                  <span className="title" />
+                </Localized>
+                <Localized
+                  id="browse-file"
+                  browseWrap={<span className="browse" />}>
+                  <span className="upload-label" />
+                </Localized>
+                <input
+                  className="hide-input"
+                  type="file"
+                  accept="image/*"
+                  onChange={event => {
+                    this.saveFileAvatar(event.target.files);
+                  }}
+                />
+              </label>
+            </div>
 
-            if (!error) {
-              refreshUser();
-            }
-            this.setState({ isSaving: false });
-          }}>
-          <Localized id="connect-gravatar">
-            <span />
-          </Localized>{' '}
-          {avatarType == 'gravatar' ? (
-            <CheckIcon className="check" />
-          ) : (
-            <LinkIcon className="link" />
-          )}
-        </button>
-      </fieldset>
+            <div style={{ display: isProduction() ? 'none' : 'block' }}>
+              <Localized id="">
+                <h2 />
+              </Localized>
+              <div className="file-upload">
+                <button
+                  className="connect"
+                  type="button"
+                  onClick={this.handleRecordClick}>
+                  {recordingStatus == true ? <StopIcon /> : <MicIcon />}
+                </button>
+                <button
+                  className="connect"
+                  type="button"
+                  onClick={this.playAvatarClip}>
+                  {avatarClipPlaying === false ? <PlayIcon /> : <StopIcon />}
+                </button>
+              </div>
+            </div>
+            <button
+              className="connect"
+              type="button"
+              onClick={async () => {
+                this.setState({ isSaving: true });
+                const { error } = await api.saveAvatar(
+                  avatarType == 'gravatar' ? 'default' : 'gravatar'
+                );
+
+                if (['not_found'].includes(error)) {
+                  addNotification(getString('gravatar_' + error));
+                }
+
+                if (!error) {
+                  refreshUser();
+                }
+                this.setState({ isSaving: false });
+              }}>
+              <Localized id="connect-gravatar">
+                <span />
+              </Localized>{' '}
+              {avatarType == 'gravatar' ? (
+                <CheckIcon className="check" />
+              ) : (
+                <LinkIcon className="link" />
+              )}
+            </button>
+          </fieldset>
+        </div>
+      </div>
     );
   }
 }
