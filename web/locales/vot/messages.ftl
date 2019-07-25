@@ -201,10 +201,11 @@ help-make-dataset = Avita meill kopitta kõvassi üvvä täätüsalvo, kumpa kõ
 profile-not-required = Наличие профиля не обязательно для участия, хотя это полезно
 sign-up-account = Зарегистрировать аккаунт
 email-subscription-title = Подписаться на рассылку обновлений
+email-subscription-title-new = Saattõga millõ uutisjuttua Common Voice progressass
 
 ## Account Benefits
 
-benefits = Преимущества
+benefits = Bariššad
 rich-data = Предоставляя анонимные демографические данные, вы делаете их максимально полными. Мы обезличиваем все демографические данные перед публикацией.
 improve-audio = Информация профиля улучшает точность распознавания аудиоданных.
 keep-track = Следите за своим прогрессом и показателями на нескольких языках.
