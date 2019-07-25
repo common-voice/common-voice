@@ -531,21 +531,55 @@ recordings =
         [few] снимка
        *[other] снимака
     }
+validations =
+    { $count ->
+        [one] потврда
+        [few] потврде
+       *[other] потврда
+    }
 
 ## Dashboard
 
+your-languages = Ваши језици
+toward-next-goal = Према следећем циљу
 stats = Статистика
 you = Ви
 everyone = Сви
+validated-clips = Потврђени снимци
+total-approved = Укупно одобрено
 
 ## Custom Goals
 
+get-started-goals = Почните са одређеним циљевима
+toward-next-goal = Према следећем циљу
+create-custom-goal = Направите сопствени циљ
 both-speak-and-listen = Оба
 both-speak-and-listen-long = Оба (говори и слушај)
+daily-goal = Дневни циљ
+weekly-goal = Недељни циљ
 easy-difficulty = Лако
 average-difficulty = Просечно
 difficult-difficulty = Тешко
 pro-difficulty = Професионално
+lose-goal-progress-warning = Изменом циља можете изгубити постојећи напредак.
+want-to-continue = Да ли желите да наставите?
+finish-editing = Завршити уређивање прво?
+lose-changes-warning = Ако напустите сада изгубићете своје промене
+build-custom-goal = Направите прилагођени циљ
+set-a-goal = Поставите циљ
+cant-decide = Не можете се одлучити?
+how-many-per-day = Одлично! Колико снимака дневно?
+how-many-a-week = Одлично! Колико снимака недељно?
+which-goal-type = Да ли желите да говорите, слушајте или и једно и друго?
+n-clips = { NUMBER($count) } снимака
+confirm-goal = Потврдите циљ
+goal-interval-weekly = Недељно
+share-goal-type-speak = Говор
+share-goal-type-listen = Слушање
+share-goal-type-both = Говор и слушање
+weekly-goal-created = Ваш недељни циљ је направљен
+daily-goal-created = Ваш дневни циљ је направљен
+share-goal = Подели мој циљ
 
 ## Profile Delete
 
