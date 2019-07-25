@@ -680,6 +680,8 @@ validated-clips = 验证的片段
 total-approved = 总核准数
 overall-accuracy = 总体准确度
 set-visibility = 设置是否在排行榜显示自己
+visibility-explainer = 此设置项控制您的排行榜可见性。若设为“隐藏”，您的进度将仅自己可见。这意味着您的照片、用户名和贡献进度均不会出现在排行榜上。请注意，排行榜信息的刷新需等待约 { $minutes } 分钟，以生效作出的更改。
+visibility-overlay-note = 注意：设为“可见”时，可在<profileLink>个人资料页面</profileLink>调整此设置
 
 ## Custom Goals
 
