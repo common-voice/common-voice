@@ -54,6 +54,26 @@ export const BarChartIcon = () => (
   </svg>
 );
 
+export const BookmarkIcon = uniqueIcon(id => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id={'bka' + id}
+        d="M17 2H7C5.3 2 4 3.3 4 5v16c0 .4.2.7.5.9.3.2.7.1 1-.1l6.4-4.6 6.4 4.6c.2.1.4.2.6.2.2 0 .3 0 .5-.1.3-.2.5-.5.5-.9V5c.1-1.7-1.2-3-2.9-3zm1 17.1l-5.4-3.9c-.2-.1-.4-.2-.6-.2-.2 0-.4.1-.6.2L6 19.1V5c0-.6.4-1 1-1h10c.6 0 1 .4 1 1v14.1z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd">
+      <mask id={'bkb' + id} fill="#fff">
+        <use xlinkHref={'#bka' + id} />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref={'#bka' + id} />
+      <g fill="#4A4A4A" mask={`url(#bkb${id})`}>
+        <path d="M0 0h24v24H0z" />
+      </g>
+    </g>
+  </svg>
+));
+
 export const CameraIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
@@ -143,6 +163,26 @@ export const EyeIcon = uniqueIcon(id => (
         <use xlinkHref={'#eye-a' + id} />
       </mask>
       <use fill="#000" xlinkHref={'#eye-a' + id} />
+      <g fill="#4A4A4A" mask={`url(#eye-b${id})`}>
+        <path d="M0 0h24v24H0z" />
+      </g>
+    </g>
+  </svg>
+));
+
+export const EyeOffIcon = uniqueIcon(id => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id={'eye-a' + id}
+        d="M8.9 4.5c-.1-.6.2-1.1.8-1.2.7-.2 1.5-.3 2.3-.3 7.5 0 11.7 8.2 11.9 8.6.1.3.1.6 0 .9-.6 1.2-1.4 2.3-2.3 3.4-.2.2-.5.4-.8.4-.2 0-.5-.1-.6-.2-.4-.4-.5-1-.1-1.4.7-.8 1.3-1.6 1.8-2.5-.9-1.6-4.5-7-9.9-7-.6 0-1.3.1-1.9.2-.5-.1-1-.4-1.2-.9zm14.8 19.2c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3l-4.5-4.5C16.1 20.4 14.1 21 12 21 4.5 21 .3 12.8.1 12.4c-.1-.3-.1-.6 0-.9 1.1-2.1 2.7-4 4.5-5.5L.3 1.7C-.1 1.3-.1.7.3.3c.4-.4 1-.4 1.4 0l22 22c.4.4.4 1 0 1.4zM9.9 12.1c0 .5.2 1 .6 1.4.6.5 1.3.6 2 .4L10 11.4c0 .3-.1.5-.1.7zm6.5 5.7L14 15.5c-.6.4-1.4.6-2.1.6-1 0-2-.4-2.7-1.1-.8-.7-1.2-1.7-1.3-2.8 0-.8.2-1.6.6-2.3L6 7.4C4.5 8.7 3.2 10.2 2.1 12c.9 1.6 4.5 7 9.9 7 1.5 0 3-.4 4.4-1.2z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd">
+      <mask id={'eye-b' + id} fill="#fff">
+        <use xlinkHref={'#eye-a' + id} />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref={'#eye-a' + id} />
       <g fill="#4A4A4A" mask={`url(#eye-b${id})`}>
         <path d="M0 0h24v24H0z" />
       </g>

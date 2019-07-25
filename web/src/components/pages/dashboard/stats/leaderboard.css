@@ -3,6 +3,13 @@
 .leaderboard-card {
     position: relative;
 
+    & .icon-divider {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 2px;
+        background: var(--light-grey);
+    }
+
     & .stats-card__inner {
         transition: all var(--easing) var(--transition-duration-slow);
     }
@@ -17,20 +24,38 @@
         }
     }
 
-    & .open-overlay {
+    & .icon-buttons {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        font-family: var(--base-font-family);
-        font-weight: 600;
-        color: var(--blue);
 
-        & svg {
-            margin-right: 10px;
-        }
+        & button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-family: var(--base-font-family);
+            font-weight: 600;
 
-        & path {
-            fill: var(--blue) !important;
+            & .text {
+                display: none;
+            }
+
+            &:hover {
+                opacity: 1;
+                color: var(--blue);
+
+                & path {
+                    fill: var(--blue) !important;
+                }
+
+                & svg {
+                    margin-right: 10px;
+                }
+
+                & .text {
+                    display: block;
+                    white-space: nowrap;
+                }
+            }
         }
     }
 }
@@ -107,9 +132,6 @@
 
 .leaderboard-info {
     position: relative;
-    border-left: 2px solid var(--light-grey);
-    margin-left: 10px;
-    padding-left: 10px;
 
     & .info-menu {
         min-width: 255px;

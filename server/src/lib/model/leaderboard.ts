@@ -135,7 +135,9 @@ export default async function getLeaderboard({
   const prepareRows = (rows: any[]) =>
     rows.map(row => ({
       ...omit(row, 'client_id', 'avatar_clip_url'),
-      avatarClipUrl: bucket.getAvatarClipsUrl(row.avatar_clip_url),
+      avatarClipUrl: row.avatar_clip_url
+        ? bucket.getAvatarClipsUrl(row.avatar_clip_url)
+        : null,
       clientHash: SHA256(row.client_id + getConfig().SECRET).toString(),
       you: row.client_id == client_id,
     }));

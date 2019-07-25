@@ -4,7 +4,7 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { useAccount, useAction } from '../../../../hooks/store-hooks';
 import API from '../../../../services/api';
@@ -15,9 +15,11 @@ import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers';
 import {
+  BookmarkIcon,
   CheckIcon,
   CrossIcon,
   EyeIcon,
+  EyeOffIcon,
   InfoIcon,
   MicIcon,
   OldPlayIcon,
@@ -37,7 +39,7 @@ interface PropsFromState {
   globalLocale: Locale.State;
 }
 
-interface Props extends LocalizationProps, PropsFromState {
+interface Props extends PropsFromState {
   locale: string;
   type: 'clip' | 'vote';
 }
@@ -48,6 +50,22 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
       <div>...</div>
     </button>
   </li>
+);
+
+const RateColumn = withLocalization(
+  ({ getString, value }: { value: number } & LocalizationProps) => (
+    <div className="rate">
+      <div className="exact">
+        {value == null ? getString('not-available-abbreviation') : value}
+      </div>
+      <div className="rounded">
+        {value == null
+          ? getString('not-available-abbreviation')
+          : Math.round(value)}
+      </div>
+      <div className="percent">{'%'}</div>
+    </div>
+  )
 );
 
 interface State {
@@ -72,12 +90,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       {
         rows: await api.forLocale(locale).fetchLeaderboard(type),
       },
-      () => {
-        const row = this.youRow.current;
-        if (!row) return;
-
-        this.scroller.current.scrollTop = row.getBoundingClientRect().top;
-      }
+      this.scrollToUser
     );
   }
 
@@ -99,6 +112,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       };
     });
   }
+
   playAvatarClip = function(clipUrl: string, position: any) {
     if (this.state.playingClipIndex === null) {
       this.setState({ playingClipIndex: position });
@@ -116,15 +130,22 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     }
   };
 
+  scrollToUser = () => {
+    const row = this.youRow.current;
+    if (!row) return;
+
+    this.scroller.current.scrollTop =
+      row.getBoundingClientRect().top -
+      this.scroller.current.getBoundingClientRect().top;
+  };
+
   render() {
-    const { getString } = this.props;
     const { rows, isAtEnd, playingClipIndex } = this.state;
 
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
       const nextPosition =
         i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
-      const hasRate = row.rate != null;
       return [
         prevPosition && prevPosition + 1 < row.position ? (
           <FetchRow
@@ -189,17 +210,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             <CheckIcon />
             {row.valid}
           </div>
-          <div className="rate">
-            <div className="exact">
-              {hasRate ? row.rate : getString('not-available-abbreviation')}
-            </div>
-            <div className="rounded">
-              {hasRate
-                ? Math.round(row.rate)
-                : getString('not-available-abbreviation')}
-            </div>
-            <div className="percent">{'%'}</div>
-          </div>
+          <RateColumn value={row.rate} />
         </li>,
         nextPosition &&
         nextPosition - 1 > row.position &&
@@ -224,10 +235,15 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     );
   }
 }
-const Leaderboard = connect<PropsFromState>(({ api, locale }: StateTree) => ({
-  api,
-  globalLocale: locale,
-}))(withLocalization(UnconnectedLeaderboard));
+const Leaderboard = connect<PropsFromState>(
+  ({ api, locale }: StateTree) => ({
+    api,
+    globalLocale: locale,
+  }),
+  null,
+  null,
+  { forwardRef: true }
+)(UnconnectedLeaderboard);
 
 const FilledCheckIcon = () => (
   <div className="filled-check">
@@ -244,22 +260,33 @@ export default function LeaderboardCard() {
   const [showInfo, setShowInfo] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
 
+  const leaderboardRef = useRef(null);
+
   return (
     <StatsCard
       key="leaderboard"
       className={'leaderboard-card ' + (showOverlay ? 'has-overlay' : '')}
       title="top-contributors"
       iconButtons={
-        <div style={{ display: 'flex', flexDirection: 'row' }}>
+        <div className="icon-buttons">
           <button
-            className="open-overlay"
             type="button"
-            onClick={() => setShowOverlay(true)}>
-            <EyeIcon />
+            onClick={() => {
+              leaderboardRef.current.scrollToUser();
+            }}>
+            <BookmarkIcon /> <span className="text">Show my rankings</span>
+          </button>
+
+          <div className="icon-divider" />
+
+          <button type="button" onClick={() => setShowOverlay(true)}>
+            {account.visible ? <EyeIcon /> : <EyeOffIcon />}
             <Localized id="set-visibility">
-              <span />
+              <span className="text" />
             </Localized>
           </button>
+
+          <div className="icon-divider" />
 
           <div
             className="leaderboard-info"
@@ -337,10 +364,20 @@ export default function LeaderboardCard() {
       }
       tabs={{
         'recorded-clips': ({ locale }) => (
-          <Leaderboard key={'c' + locale} locale={locale} type="clip" />
+          <Leaderboard
+            key={'c' + locale}
+            locale={locale}
+            type="clip"
+            ref={leaderboardRef}
+          />
         ),
         'validated-clips': ({ locale }) => (
-          <Leaderboard key={'v' + locale} locale={locale} type="vote" />
+          <Leaderboard
+            key={'v' + locale}
+            locale={locale}
+            type="vote"
+            ref={leaderboardRef}
+          />
         ),
       }}
     />

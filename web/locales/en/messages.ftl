@@ -703,6 +703,9 @@ recorded-clips = Recorded Clips
 validated-clips = Validated Clips
 total-approved = Total Approved
 overall-accuracy = Overall Accuracy
+set-visibility = Set my visibility
+visibility-explainer = This setting controls your leaderboard visibility. When hidden, your progress will be private. This means your image, user name and progress will not appear on the leaderboard. Note that leaderboard refresh takes ~{ $minutes }min to populate changes.
+visibility-overlay-note = Note: When set to 'Visible', this setting can be changed from the <profileLink>Profile page</profileLink>
 
 ## Custom Goals
 get-started-goals = Get started with goals
