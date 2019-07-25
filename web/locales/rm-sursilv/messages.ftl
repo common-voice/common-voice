@@ -395,7 +395,7 @@ about-header-description =
     Nus lein metter a disposiziun datas da lingua a moda libra e publica, e francar che las datas representan la diversitad da carstgauns reals. Ensemen savein nus migliurar l'identificaziun da lingua per tuts.
 how-does-it-work-title = Co funcziuna ei?
 how-does-it-work-text = Culla participaziun collectiva realisein nus in'unitad da datas vocalas open source. Contribuescha cun tia vusch, verifichescha las registraziuns dad autras persunas e migliurescha l'unitad da datas per tuts.
-about-speak = Plaida
+about-speak = Discuora
 about-speak-text = Contribuiders registreschan lur vusch enten preleger construcziuns ord ina banca da datas donada.
 about-listen-queue = Colona da spetga per tedlar
 about-listen-queue-text = Las registraziuns vegnan transmessas en ina colona da spetga nua ch'ellas vegnan preparadas per tedlar.
