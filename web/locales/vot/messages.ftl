@@ -97,6 +97,7 @@ or = Ория
 pl = Польский
 pt-BR = Португальский (Бразилия)
 rm-sursilv = Романшский Сурсельвский
+rm-vallader = Романшский Валладер
 ro = Румынский
 ru = Vennä
 rw = Руанда
@@ -108,6 +109,7 @@ sl = Словенский
 sq = Албанский
 sr = Сербский
 sv-SE = švietta
+syr = Сирийский
 ta = Тамильский
 te = Телугу
 tg = Таджикский
@@ -175,7 +177,7 @@ hours-recorded = Часов записано
 hours-validated = Часов проверено
 voices-online = Äänit paraikaa onlainiz
 todays-progress = Tämä päivä progressõ
-help-reach-goal = Avita meill saada { $goal }
+help-reach-goal = Avita meill tagotõlla { $goal }
 read-terms-q = Вы прочитали наши условия использования?
 ready-to-record = Готовы пожертвовать свой голос?
 all-locales = Kõik
@@ -342,6 +344,8 @@ faq-why-important-a =
     Чтобы сделать распознавание голоса ещё более универсальным, мы собираем образцы голоса на широко распространенных языках, а также образцы с меньшим количеством говорящих, которые часто недооцениваются коммерческими службами распознавания речи. Публикация разнообразных наборов голосов позволит разработчикам, предпринимателям и целым речевым сообществам самим устранить этот пробел.
 faq-how-get-q = Как я могу получить данные Common Voice?
 faq-how-get-a = Набор данных Common Voice доступен для загрузки по лицензии <licenseLink> CC0 </ licenseLink> на <datasetLink> нашей странице наборов данных </ datasetLink>. Вы также можете загрузить несколько других общедоступных наборов данных с той же страницы.
+faq-when-release2-q = Когда вы выпустите набор данных Common Voice на других языках?
+faq-when-release2-a = Мультиязычная версия набора данных Common Voice в настоящее время проходит объединение и валидацию при поддержке сообщества. Если вы хотите помочь нам перевести Common Voice на новые языки, перейдите на страницу <sentenceCollectorLink>инструмента для сбора предложений</sentenceCollectorLink> для добавления новых предложений в набор данных и Mozilla <pontoonLink>Pontoon</pontoonLink> для перевода самого веб-сайта. Новые языки добавляются в Common Voice, когда собирается 5000 утверждённых предложений.
 faq-why-mission-q = Почему Common Voice является частью миссии Mozilla?
 faq-why-mission-a = Mozilla стремится к тому, чтобы Интернет был открытым для всех и каждого. Для этого нам необходимо расширить возможности веб-разработчиков с помощью таких проектов, как Common Voice. Поскольку голосовые технологии распространяются за пределы нишевых приложений, мы считаем, что они должны одинаково обслуживать всех пользователей. Это означает инвестирование в большее количество языков и учёт различных акцентов и демографии при создании и тестировании голосовых технологий. Common Voice — это общедоступный ресурс, который активно используется командами и разработчиками Mozilla по всему миру в наших собственных проектах.
 faq-what-cv-and-deepspeech-q = В чем разница между Common Voice и Deep Speech?
@@ -629,9 +633,29 @@ listen-last-time-instruction = <playIcon></playIcon> Последний!
 nothing-to-validate = У нас нет ничего для проверки на этом языке, помогите нам заполнить очередь.
 record-button-label = Запишите свой голос
 share-title-new = <bold>Помогите нам</bold> найти больше голосов
+keep-track-profile = Отслеживайте свой прогресс с помощью профиля
+login-to-get-started = Войдите или зарегистрируйтесь, чтобы начать
 
 ## Reporting
 
+report = Пожаловаться
+report-title = Отправить жалобу
+report-ask = Какие проблемы вы испытываете с этим предложением?
+report-offensive-language = Оскорбительные выражения
+report-offensive-language-detail = Предложение содержит дискриминационные или оскорбительные выражения.
+report-grammar-or-spelling = Грамматическая / орфографическая ошибка
+report-grammar-or-spelling-detail = Предложение содержит грамматическую или орфографическую ошибку.
+report-different-language = Другой язык
+report-different-language-detail = Написано на языке, отличном от того, на котором я говорю.
+report-difficult-pronounce = Сложно произнести
+report-difficult-pronounce-detail = Содержит слова или фразы, которые трудно прочитать или произнести.
+report-offensive-speech = Оскорбительные выражения
+report-offensive-speech-detail = Запись содержит дискриминационные или оскорбительные выражения.
+report-other-comment =
+    .placeholder = Комментарий
+success = Готово
+continue = Продолжить
+report-success = Жалоба была успешно отправлена
 
 ## Goals
 
@@ -673,6 +697,8 @@ overall-accuracy = Общая точность
 ## Custom Goals
 
 toward-next-goal = Следующая цель
+both-speak-and-listen = Mõlõpõd
+both-speak-and-listen-long = Mõlõpõd (Pajatõ i Kuuntõ)
 
 ## Profile Delete
 
