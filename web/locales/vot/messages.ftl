@@ -199,13 +199,13 @@ x-years-short =
     }
 help-make-dataset = Avita meill kopitta kõvassi üvvä täätüsalvo, kumpa kõik savva takossa
 profile-not-required = Наличие профиля не обязательно для участия, хотя это полезно
-sign-up-account = Зарегистрировать аккаунт
+sign-up-account = Tuõ čäüttäjässi
 email-subscription-title = Подписаться на рассылку обновлений
 email-subscription-title-new = Saattõga millõ uutisjuttua Common Voice progressass
 
 ## Account Benefits
 
-benefits = Bariššad
+benefits = Čäüttäjä bariššad
 rich-data = Предоставляя анонимные демографические данные, вы делаете их максимально полными. Мы обезличиваем все демографические данные перед публикацией.
 improve-audio = Информация профиля улучшает точность распознавания аудиоданных.
 keep-track = Следите за своим прогрессом и показателями на нескольких языках.
@@ -705,6 +705,7 @@ average-difficulty = Keskolin
 difficult-difficulty = Rankkõ
 pro-difficulty = Maastõri
 want-to-continue = Tahatko jatkaa?
+cant-decide = Etkö saa valitsa?
 goal-interval-weekly = Nätälitta
 share-goal-type-speak = Pajattõmin
 share-goal-type-listen = Kuuntõmin
