@@ -87,6 +87,7 @@ mk = 馬其頓語
 ml = 馬拉亞拉姆語
 mn = 蒙古語
 mrj = 山地馬里語
+mt = 馬爾他語
 myv = 厄茲亞語
 nb-NO = 挪威語（Bokmål）
 ne-NP = 尼泊爾語
@@ -683,6 +684,7 @@ recorded-clips = 錄製的片段
 validated-clips = 驗證的片段
 total-approved = 總批准數
 overall-accuracy = 總體準確度
+set-visibility = 設定是否於排行榜顯示我的帳號
 
 ## Custom Goals
 
