@@ -87,6 +87,7 @@ mk = Macedônio
 ml = Malaiala
 mn = Mongol
 mrj = Hill Mari
+mt = Maltês
 myv = Erzya
 nb-NO = Norueguês (Bokmål)
 ne-NP = Nepalês
@@ -690,6 +691,9 @@ recorded-clips = Clipes gravados
 validated-clips = Clipes validados
 total-approved = Total aprovado
 overall-accuracy = Precisão geral
+set-visibility = Definir minha visibilidade
+visibility-explainer = Esta configuração controla sua visibilidade no painel de líderes. Quando oculta, seu progresso fica privativo. Significa que sua imagem, nome de usuário e progresso não aparecem no painel de líderes. Note que a atualização do painel de líderes demora ~{ $minutes }min para aplicar alterações.
+visibility-overlay-note = Nota: quando definido como 'Visível', esta configuração pode ser alterada na <profileLink>página de perfil</profileLink>
 
 ## Custom Goals
 
