@@ -87,6 +87,7 @@ mk = Macedonisch
 ml = Malayalam
 mn = Mongools
 mrj = Berg-Mari
+mt = Maltees
 myv = Erzja
 nb-NO = Noors Bokmål
 ne-NP = Nepalees
@@ -690,6 +691,9 @@ recorded-clips = Opgenomen fragmenten
 validated-clips = Gevalideerde fragmenten
 total-approved = Totaal goedgekeurd
 overall-accuracy = Algemene nauwkeurigheid
+set-visibility = Mijn zichtbaarheid instellen
+visibility-explainer = Deze instelling regelt de zichtbaarheid van uw voortgangsstatus. Als deze op Verborgen is ingesteld, is uw voortgang privé. Dit betekent dat uw afbeelding, gebruikersnaam en voortgang niet op het overzicht zullen verschijnen. Merk op dat het tot { $minutes } minuten duurt voordat wijzigingen in het overzicht zijn verwerkt.
+visibility-overlay-note = Noot: Wanneer dit op ‘Zichtbaar’ is ingesteld, dan kan deze instelling van uw <profileLink>Profielpagina</profileLink> worden gewijzigd
 
 ## Custom Goals
 
