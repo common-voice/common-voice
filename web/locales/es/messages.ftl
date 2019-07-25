@@ -87,6 +87,7 @@ mk = Macedonio
 ml = Malabar
 mn = mongol
 mrj = Mari occidental
+mt = Maltés
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepalí
@@ -201,6 +202,7 @@ help-make-dataset = Ayúdanos a crear una base de datos de alta calidad y accesi
 profile-not-required = No es necesario tener un perfil para colaborar, aunque puede resultar útil.
 sign-up-account = Regístrate para obtener una cuenta
 email-subscription-title = suscríbete para recibir actualizaciones por correo
+email-subscription-title-new = Suscríbete al boletín de noticias, a los recordatorios y actualizaciones de progreso de Common Voice
 
 ## Account Benefits
 
@@ -678,6 +680,30 @@ recorded-clips = Fragmentos grabados
 validated-clips = Fragmentos validados
 total-approved = Total aprobado
 overall-accuracy = Precisión general
+set-visibility = Establecer visibilidad
+
+## Custom Goals
+
+get-started-goals = Comenzar mis objetivos
+toward-next-goal = Hacia el siguiente objetivo
+create-custom-goal = Crear un objetivo personalizado
+both-speak-and-listen = Ambos
+both-speak-and-listen-long = Ambos (hablar y escuchar)
+daily-goal = Objetivo diario
+weekly-goal = Objetivo semanal
+easy-difficulty = Fácil
+average-difficulty = Medio
+difficult-difficulty = Difícil
+lose-goal-progress-warning = Si editas tu objetivo puede que pierdas el progreso existente.
+want-to-continue = ¿Quieres continuar?
+finish-editing = ¿Quieres terminar de editar antes?
+lose-changes-warning = Si lo dejas ahora, perderás los cambios
+build-custom-goal = Crear un objetivo personalizado
+help-reach-hours = Ayuda a alcanzar { NUMBER($hours) } horas en { $language } con un objetivo personal
+set-a-goal = Establecer objetivo
+cant-decide = ¿No te decides?
+confirm-goal = Confirmar objetivo
+goal-interval-weekly = Semanal
 
 ## Profile Delete
 
