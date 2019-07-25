@@ -197,7 +197,7 @@ x-years-short =
         [one] voosi
        *[other] { $count } voottõ
     }
-help-make-dataset = Помогите нам создать высококачественный открытый набор данных
+help-make-dataset = Avita meill kopitta kõvassi üvvä täätüsalvo, kumpa kõik savva takossa
 profile-not-required = Наличие профиля не обязательно для участия, хотя это полезно
 sign-up-account = Зарегистрировать аккаунт
 email-subscription-title = Подписаться на рассылку обновлений
