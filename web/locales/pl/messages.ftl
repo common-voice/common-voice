@@ -87,6 +87,7 @@ mk = macedoński
 ml = malajalam
 mn = mongolski
 mrj = maryjski górski
+mt = maltański
 myv = erzja
 nb-NO = norweski (bokmål)
 ne-NP = nepalski
@@ -695,6 +696,10 @@ recorded-clips = Nagrane
 validated-clips = Sprawdzone nagrania
 total-approved = Razem zatwierdzone
 overall-accuracy = Ogólna dokładność
+
+## Custom Goals
+
+toward-next-goal = Do następnego celu
 
 ## Profile Delete
 
