@@ -198,6 +198,7 @@ help-make-dataset = Hãy giúp chúng tôi xây dựng một bộ dữ liệu c�
 profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
 sign-up-account = Đăng kí một tài khoản
 email-subscription-title = đăng ký nhận email cập nhật
+email-subscription-title-new = Đăng ký nhận bản tin Common Voice, nhắc nhở mục tiêu và cập nhật tiến độ
 
 ## Account Benefits
 
@@ -685,6 +686,55 @@ recorded-clips = Clip đã ghi
 validated-clips = Clip đã xác thực
 total-approved = Tổng số được chấp nhận
 overall-accuracy = Độ chính xác tổng thể
+
+## Custom Goals
+
+get-started-goals = Bắt đầu với mục tiêu
+toward-next-goal = Hướng tới mục tiêu tiếp theo
+create-custom-goal = Tạo mục tiêu tùy chỉnh
+both-speak-and-listen = Cả hai
+both-speak-and-listen-long = Cả hai (nói và nghe)
+daily-goal = Mục tiêu hàng ngày
+weekly-goal = Mục tiêu hàng tuần
+easy-difficulty = Dễ
+average-difficulty = Trung bình
+difficult-difficulty = Khó
+pro-difficulty = Chuyên nghiệp
+lose-goal-progress-warning = Bằng cách chỉnh sửa mục tiêu của bạn, bạn có thể mất tiến trình hiện tại của bạn.
+want-to-continue = Bạn có muốn tiếp tục?
+finish-editing = Kết thúc chỉnh sửa trước?
+lose-changes-warning = Rời đi sẽ làm mất những thay đổi của bạn
+build-custom-goal = Xây dựng mục tiêu tùy chỉnh
+help-reach-hours = Trợ giúp đạt { NUMBER($hours) } giờ trong ngôn ngữ { $language } với mục tiêu cá nhân
+set-a-goal = Đặt một mục tiêu
+cant-decide = Không thể quyết định?
+activity-needed-calculation =
+    { NUMBER($totalHours) } giờ có thể đạt được chỉ trong hơn { NUMBER($periodMonths) }
+    tháng nếu { NUMBER($people) } người ghi { NUMBER($clipsPerDay) } clip mỗi ngày.
+how-many-per-day = Tuyệt quá! Có bao nhiêu clip mỗi ngày?
+how-many-a-week = Tuyệt quá! Có bao nhiêu clip một tuần?
+which-goal-type = Bạn có muốn nói, nghe hay cả hai?
+receiving-emails-info =
+    Bạn hiện đang được thiết lập để nhận email như lời nhắc mục tiêu, 
+    cập nhật tiến độ của tôi và bản tin về Common Voice.
+n-clips = { NUMBER($count) } clip
+help-share-goal = Hãy giúp chúng tôi tìm thêm tiếng nói, chia sẻ mục tiêu của bạn
+confirm-goal = Xác nhận mục tiêu
+goal-interval-weekly = Hàng tuần
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Chia sẻ { $count } clip mục tiêu hàng ngày của bạn cho { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Chia sẻ { $count } clip mục tiêu hàng tuần của bạn cho { $type }
+share-goal-type-speak = Nói
+share-goal-type-listen = Nghe
+share-goal-type-both = Nói và nghe
+# LINK will be replaced with the current URL
+goal-share-text = Tôi vừa tạo một mục tiêu cá nhân để quyên góp giọng nói cho #CommonVoice - tham gia với tôi và giúp đào tạo cho máy móc cách người thực nói chuyện { $link }
+weekly-goal-created = Mục tiêu hàng tuần của bạn đã được tạo
+daily-goal-created = Mục tiêu hàng ngày của bạn đã được tạo
+track-progress = Theo dõi tiến độ ở đây và trên trang thống kê của bạn.
+return-to-edit-goal = Quay trở lại đây để chỉnh sửa mục tiêu của bạn bất cứ lúc nào.
+share-goal = Chia sẻ mục tiêu của tôi
 
 ## Profile Delete
 
