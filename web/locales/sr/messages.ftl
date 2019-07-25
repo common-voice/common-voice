@@ -370,6 +370,7 @@ mycroft-subtitle = Вештачка интелигенција
 glossary = Речник
 localization = Локализација
 sentence-collection = Скупљање реченица
+sst = Говор у текст (ГУТ)
 
 ## NotFound
 
@@ -382,8 +383,11 @@ data-download-button = Преузмите Common Voice податке
 data-download-yes = Да
 data-download-deny = Не
 data-download-license = Лиценца: <licenseLink>CC-0</licenseLink>
+data-other-title = Други скупови гласовних података…
 data-other-goto = Иди на { $name }
 data-other-download = Преузми податке
+data-bundle-button = Преузми запакован скуп података
+license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Помешано
 terms-agree = Слажем се
 terms-disagree = Не слажем се
@@ -418,6 +422,7 @@ feedback-q = Имате ли повратних података?
 data-other-ted-name = TED-LIUM Збирка
 go-discourse = Иди на Discourse
 go-languages-page = Идите на страницу са језицима
+ready-to-validate = Спремни сте да потврдите реченице?
 more = Више
 close = Затвори
 download = Преузми
@@ -426,6 +431,9 @@ dataset-version = Издање
 ## Download Modal
 
 download-title = Ваше преузимање је почело.
+download-form-email =
+    .label = Унесите адресу е-поште
+    .value = Хвала, бићемо у контакту.
 download-no = Не хвала
 
 ## Contact Modal
@@ -443,6 +451,7 @@ request-language-title = Захтев за језик
 request-language-form-language =
     .label = Језик
 request-language-success-title = Захтев за новим језиком предат, хвала вам.
+select-language = Изаберите језик…
 other-language = Други језик
 
 ## Languages Overview
@@ -499,6 +508,9 @@ report-title = Поднеси пријаву
 report-ask = Шта није у реду са овом реченицом?
 report-offensive-language = Увредљив језик
 report-offensive-language-detail = Изјава садржи неучтив или увредљив језик.
+report-grammar-or-spelling = Граматичка грешка / грешка при куцању
+report-different-language = Другачији језик
+report-offensive-speech = Увредљив језик
 report-other-comment =
     .placeholder = Коментар
 success = Успех
@@ -507,6 +519,18 @@ report-success = Пријава је успешно поднета
 
 ## Goals
 
+days =
+    { $count ->
+        [one] дан
+        [few] дана
+       *[other] дана
+    }
+recordings =
+    { $count ->
+        [one] снимак
+        [few] снимка
+       *[other] снимака
+    }
 
 ## Dashboard
 
