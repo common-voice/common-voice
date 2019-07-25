@@ -164,7 +164,7 @@ show-wall-of-text = Lugõ rohkap
 help-us-title = Avitõ meill lukka!
 help-us-explain = Включите запись, послушайте и расскажите нам: хорошо ли озвучена фраза, расположенная ниже?
 no-clips-to-validate = Кажется, нет никаких записей для прослушивания на этом языке. Помогите нам создать новые, сделав несколько своих.
-vote-yes = Jaa
+vote-yes = Daa
 vote-no = Eb
 toggle-play-tooltip = Нажмите { shortcut-play-toggle } для переключения режима воспроизведения
 speak-subtitle = Õõ üvä I annaõ õma ääni!
@@ -458,7 +458,7 @@ notfound-content = Я боюсь, что не знаю, что вы ищете.
 ## Data
 
 data-download-button = Загрузить данные Common Voice
-data-download-yes = Da
+data-download-yes = Daa
 data-download-deny = Eb
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
 data-download-modal = Вы собираетесь совершить загрузку <size>{ $size } ГБ</size>, продолжить?
@@ -699,6 +699,15 @@ overall-accuracy = Общая точность
 toward-next-goal = Следующая цель
 both-speak-and-listen = Mõlõpõd
 both-speak-and-listen-long = Mõlõpõd (Pajatõ i Kuuntõ)
+easy-difficulty = Prosta
+average-difficulty = Keskolin
+difficult-difficulty = Rankkõ
+pro-difficulty = Maastõri
+want-to-continue = Tahatko jatkaa?
+goal-interval-weekly = Nätälitta
+share-goal-type-speak = Pajattõmin
+share-goal-type-listen = Kuuntõmin
+share-goal-type-both = Pajattõmin i kuuntõmin
 
 ## Profile Delete
 
