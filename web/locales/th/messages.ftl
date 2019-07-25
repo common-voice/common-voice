@@ -685,6 +685,7 @@ average-difficulty = เฉลี่ย
 difficult-difficulty = ยาก
 pro-difficulty = มืออาชีพ
 want-to-continue = คุณต้องการทำต่อไปหรือไม่?
+set-a-goal = ตั้งเป้าหมาย
 which-goal-type = คุณต้องการที่จะพูด หรือฟัง หรือทั้งคู่?
 confirm-goal = ยืนยันเป้าหมาย
 goal-interval-weekly = รายสัปดาห์
