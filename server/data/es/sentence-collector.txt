@@ -2,6 +2,7 @@
 " la Dalila " quizá permanezca en el puerto:
 A Dios rogando y con el mazo dando.
 A Dios, al padre y al maestro, tenga el niño gran respeto.
+A Juan y Mario les encantan los videojuegos de estrategia
 A beberse las lágrimas que llora la montaña.
 A buen caballo buen jinete.
 A buen entendedor, pocas palabras bastan.
@@ -139,6 +140,7 @@ Al que madruga Dios le ayuda.
 Al saber lo llaman suerte.
 Alcalde tonto, sentencia pronto.
 Alegría, belleza cría.
+Alfil come a la torre ¡jaque mate!
 Alfredo Espino murió en San Salvador.
 Alfredo Espino nació en Ahuachapán en enero.
 Alguacil, puedo ver su morada desde aquí. Ya casi está en casa .
@@ -186,6 +188,7 @@ Atenderemos los heridos en el porche.
 Aterrizaje forzoso en un extraño planeta.
 Aunque debe nacer quien me haga pasar por el aro.
 Aunque la mona se vista de seda, mona se queda.
+Avanzo presurosa entre la multitud buscando su rostro
 Ay madre, y yo que pensaba que nos sobraría tiempo.
 Ayer conocí el alcalde de Ripoll.
 Ayúdame a salir de esta cosa. ¡ chis!
@@ -273,6 +276,7 @@ Colaborar siempre en algún proyecto.
 Come para vivir y no vivas para comer.
 Come poco y cena más, duerme en alto y vivirás.
 Comer sopas y sorber, no puede ser.
+Comienza la temporada de verano
 Como el agua del cielo en una flor.
 Como es la de haber visto llorando una montaña.
 Como reconforta pisar la hierba con los pies descalzos
@@ -388,6 +392,7 @@ Demasiados dulces y helados. Sólo es un error .
 Dentro de un rato conectarán en directo con la rueda de prensa.
 Desciende a las estancias de pálidos poetas.
 Desciende coronada de plumas de quetzales.
+Descubrimos demasiado tarde la solución al problema
 Descubrí ese misterio inconfesable que te torturaba
 Desde allí se divisaba el jardín lleno de flores
 Desde ayer que la tía no se encuentra demasiado bien.
@@ -395,6 +400,7 @@ Después de comer en Sort, subiremos en Esterri d'Àneu, y haremos noche.
 Después de comer siempre me apetece tomarme un café con leche.
 Después de la tormenta viene la calma.
 Despídete de tu mujer y de tus patatitas.
+Destruir es fácil, construir lleva mucho más tiempo
 Dice el alcalde que somos unos contestatarios.
 Dice que estudia en la Universidad Autónoma de Barcelona.
 Dice que no ha sido un accidente.
@@ -418,6 +424,7 @@ Dios le da pan, al que no tiene dientes.
 Dios los cría y ellos se juntan.
 Discúlpenme, señoras. Ahora mismo vuelvo .
 Disponemos de saldo suficiente
+Dispuesto a descansar en mi hamaca, me tumbe plácidamente
 Domingo vamos de boda y todavía no sabemos qué nos pondremos.
 Donde hay confianza, da asco.
 Donde hay vida hay esperanza.
@@ -434,15 +441,18 @@ Durante las vacaciones no desconectar del trabajo ni un día.
 Días de mucho, vísperas de nada.
 Dónde deben ir tan mudados.
 Echar por el atajo no siempre ahorra trabajo.
+Efímero como un castillo de arena
 Eh, ¡que te dejas el móvil al cajero automático!
 El Espanyol es un club de fútbol.
 El José fue de los primeros que encontró trabajo de todo el grupo.
+El Naranjo de Bulnes o Pico Urriellu es la cumbre más visitada
 El Prat de Llobregat es un municipio que ha crecido mucho.
 El Salvador se encuentra en centromerica y es un buen país.
 El aborto es una acción.
 El abril, aguas mil
 El agrado en la persona, cuantos bienes proporciona.
 El agua brota lenta, y en su remanso brilla.
+El aire más fresco, más límpido, y todo.
 El aire no es tóxico.
 El amigo, lo escojo yo, el pariente, no.
 El anterior era Marta.
@@ -453,6 +463,8 @@ El ayuntamiento suele estar en el centro de la ciudad.
 El azul es el color que han elegido para la habitación de los invitados.
 El baile de tarde comienza a las ocho.
 El buen cirujano opera temprano.
+El camión de logística distribuye los productos rápidamente
+El cansancio se apodero de mí y mis pesados parpados cayeron
 El cantante de los Pets se llama Luís.
 El casado casa quiere.
 El casal de los abuelos huele a cerrado.
@@ -468,11 +480,14 @@ El cura se llama Miguel y tiene las mejillas rojas.
 El cámara recibió un puñetazo.
 El cómico era políticamente incorrecto.
 El delantal es demasiado.
+El desayuno está listo, tostadas con mantequilla y un zumito
 El descuento solo es aplicable los martes
+El desván estaba oscuro, un fino rayo de luz lo cruzaba
 El día que no me afeité, vino a mi casa quien no pensé.
 El espionaje ruso es heredero del soviético; ¡ríete!
 El estudio no tenía ventanas.
 El estímulo neurosensorial no ha tenido la intensidad esperada.
+El firmamento esculpió un bello paisaje de flores blancas
 El fuego se inició a las cuatro de la tarde.
 El gancho decide quién se va y quién se queda.
 El gato se durmió encima de la mesa.
@@ -495,15 +510,18 @@ El libro ha sido escrito por Cervantes.
 El licor tiene un sabor extraño.
 El limón más ácida será la escogida.
 El láser se enciende.
+El maltrato hacia las mujeres es una cobardía
 El mayordomo era el asesino.
 El mejor maestro echa un borrón.
 El mes que viene nos venden al peso.
 El monte tenía una altura ridícula.
 El muerto al hoyo y el vivo al bollo.
+El mundo lo construimos día a día con nuestras actitudes
 El mundo progresa con la gente que se atreve.
 El mundo será lo que nosotros queramos que sea
 El médico se mudó a un pueblo del norte.
 El necio cree que todo lo sabe.
+El nuevo coche eléctrico no se oye nada
 El número de guerras en el mundo es más bajo que nunca.
 El ojo del amo, engorda al caballo.
 El olivar hace el bien, aunque le hagan el mal.
@@ -513,6 +531,7 @@ El paciente esta listo.
 El pago se abona el día cinco de cada mes.
 El pan de higos tiene una blandura extraordinaria.
 El parkour está de moda ahora.
+El partido comienza a las ocho en punto asique prepárate
 El pasado siempre vuelve.
 El patinete no baja bien de la acera.
 El pavimento del paseo resbala y la abuela ha tomado mal.
@@ -530,10 +549,12 @@ El primer coche que tuve fue un seiscientos.
 El primer paso es reconocer que tienes un problema.
 El primero de octubre fue un día histórico que no olvidaremos nunca.
 El procesador de texto hace cosas extrañas con los guiones.
+El profesor de química nos enseñó la tabla periódica
 El profesorado está sobrecualificado.
 El programa de fiestas vale tres euros y medio.
 El proyecto pintaba muy interesante.
 El próximo viernes tendremos los resultados.
+El pueblo de Potes está en la falda de los Picos de Europa
 El párrafo inicial asustaba a los lectores.
 El que a hierro mata a hierro muere.
 El que adelante no mira, atrás se queda.
@@ -573,6 +594,7 @@ El que tenga tienda que la atienda, y si no que la venda.
 El que tiene boca se equivoca.
 El referéndum fue la excusa para abrir el gimnasio de la escuela y limpiarlo.
 El respeto siempre tiene que ser mutuo.
+El rio Pas discurre por el valle del mismo nombre
 El rio retomaba su curso entre intrincadas selvas
 El ritmo del swing engancha.
 El saber no ocupa lugar.
@@ -588,12 +610,14 @@ El sábado fui al Sweet Pachá.
 El teclado estaba lleno de muelles.
 El terreno parece inestable.
 El terreno parece un poco inestable.
+El terrorista huyo cobardemente dejando un baño de sangre
 El texto del pastel se debe hacer con letras de chocolate.
 El tiempo todo lo cura, menos vejez y locura.
 El tomate cada día es más caro.
 El tomate frito era casero.
 El trabajo bien hecho da alegría en el pecho.
 El transporte urbano es muy contaminante.
+El tren hará su entrada por el andén numero dos
 El tren pasaba por los túneles haciendo un estruendo horroroso.
 El tren sale de la estación a las seis y media
 El tsunami arrasó con toda la ciudad.
@@ -638,9 +662,12 @@ En el peligro, se conoce al amigo.
 En el zoo hay un tigre blanco.
 En enero todo el mundo se apunta al gimnasio.
 En esa casa hay un niño que piensa que eres el mejor.
+En esta isla de playas paradisiacas se paró el tiempo
 En esta playa, antes había muchas conchas.
+En este mundo tan globalizado se pierden las identidades
 En julio haremos una excursión al Possets.
 En la boca del discreto lo público es secreto.
+En la estancia vacía cualquier ruido era demoledor
 En la que describe la belleza de El Salvador.
 En la radio han dicho que mañana lloverá.
 En la sala de espera no cabía nadie más.
@@ -662,10 +689,12 @@ En serio, sígueme, tengo una corazonada.
 En teoría, a las ocho estoy allí, pero igual se retrasa.
 En trece y martes ni te cases ni te embarques.
 En un par de días todo volverá a ser como antes.
+En un receso, el presidente habla con Yasmina, interrogándola
 En zonas costeras existe un mayor acúmulo de moléculas de agua en el aire.
 Encargo un pastel para mañana ¿o ya lo has encargado?
 Encima de la leche, nada eches.
 Enlázalos, vaquero. Sólo recuerda lo que tu viejo amigo dijo .
+Enrique llamo a su puerta Marta estaba esplendida como una diosa
 Enseñemos a los chicos nuestro saludo secreto de amigos.
 Entonces, subamos a bordo. ¡ no , espera!
 Entonces, tenemos que hacer algo.
@@ -747,12 +776,15 @@ Esta acera no está adaptada para cochecitos.
 Esta carretera no se acaba nunca.
 Esta ciudad no es lo bastante grande
 Esta ciudad no es lo suficientemente grande para nosotros dos.
+Esta ciudad tiene una luz especial
 Esta cuestión es irrelevante en este caso.
 Esta despejado para entrar.
 Esta emisora ​​cada vez tiene más oyentes.
+Esta frutería es muy cara, Por favor ¿a cuánto está el kilo de manzanas?
 Esta interfaz tiene un diseño muy intuitivo.
 Esta legislatura no durará mucho.
 Esta mañana me he despertado muy cansado.
+Esta mañana recorrí los alrededores para inspeccionarlos
 Esta noche han quemado un contenedor frente a su casa.
 Esta operación no tiene comisiones
 Esta película es apta para todos los públicos.
@@ -775,6 +807,7 @@ Estamos obteniendo las varas de ignición.
 Estamos preparados.
 Estamos trazando otro plan.
 Estaremos más seguros en la cabina.
+Estas muy guapa esta mañana con tu vestido carmesí
 Este año haremos un viaje por los trópicos.
 Este año le habrán echado antes.
 Este café es muy popular.
@@ -782,6 +815,7 @@ Este cojín está duro como una piedra.
 Este es mi sitio.
 Este ha sido el verano más caluroso en muchos años.
 Este helado es dulce y salado.
+Este móvil se me ha quedado anticuado
 Este partido no se acaba nunca.
 Este perfume huele a fresas
 Este pijama de cuadritos es comodísimo.
@@ -865,6 +899,7 @@ Gato con guantes, no caza ratones.
 Gato que duerme no caza ratones.
 Gatos y niños siempre dicen: mío, mío.
 Gemma, ¿tienes un kleenex?
+Gemían zenzontles, lloraban torcaces.
 Gente haciendo cola para comprar un iPhone.
 Gerardo está enganchado a Juego de tronos.
 Gira, ¡Faraona!
@@ -915,6 +950,7 @@ Haciendo la maleta, siempre se me olvida algo.
 Han alquilado un apartamento en Figueres.
 Han dicho que no tendrán que entrar en prisión.
 Han llegado a Roma con tres horas de retraso.
+Han pedido un receso en el juicio
 Haremos un brindis para celebrar sus éxitos.
 Has de quererme un poquito.
 Has tenido una caída muy fuerte. No estás pensando con claridad .
@@ -959,22 +995,28 @@ He visto una nave especial. ¿ Tiene hiperpotencia?
 Hechos son amores y no buenas razones.
 Hemos hecho una comida rápida; un par de bocadillos y una caña.
 Hemos quedado en la torre del reloj.
+Hemos reconstruido la casa en su versión original
 Hemos sudado mucho y nos merecemos una clara.
 Hijos y hogar, son la única verdad.
 Hizo un arranque de caballo y una parada de burro.
 Hola, pequeña dama.
 Hola. Check . ¿ mejor? bien .
+Hola volved a casa se hace tarde ya
 Hola, buenos días.
 Hola. Hola mundo.
 Hombre, las muñecas realmente deben morir por usted. ¿ Me puede enseñar a hacer eso? .
 Hombre prevenido vale por dos.
 Hoy es el cumpleaños de mi hermana pequeña.
 Hoy es miércoles.
+Hoy hay fiesta en el barrio
+Hoy hemos recogido naranjas del árbol dulces y amargas
 Hoy la pescadilla iba barato, pero las gambas eran carísimas.
 Hoy me toca ir a la radio
 Hoy no me puedo levantar.
 Hoy por ti, y mañana por mi.
 Hoy que no llevo paraguas seguro que llueve.
+Hoy salimos a pasear en bicicleta por la vía verde
+Hoy se celebra el campus party de video gamer
 Hoy se celebran cien años de la muerte de Cervantes.
 Hoy tampoco ha querido salir.
 Hoy tengo que ir a una boda.
@@ -1030,13 +1072,16 @@ La Merced es muy simpática y agradable.
 La Montserrat sale al pasacalle.
 La Navidad es una fiesta religiosa.
 La Punta de Sitges es una postal típica.
+La Semana Santa ha llegado, los nazarenos de la Virgen Pura, recorren las calles
 La abuela se quedaba dormida mientras leía.
+La actitud y la voluntad son más importantes que la capacidad
 La alcaldesa ha hablado con el sector para encontrar vías de solución.
 La alegría rejuvenece; la tristeza envejece.
 La alergía hizo que la cara se le pusiese roja.
 La alta contaminación se centra en el centro de la ciudad.
 La ardilla salto de la rama con un tesoro entre los dientes
 La autoridad local. Ya era hora .
+La avispa asiática es una plaga peligrosa
 La base de datos ha sido actualizada.
 La base de lanzamiento está siendo construida.
 La belleza está en el interior de un Ferrero Rocher.
@@ -1054,6 +1099,7 @@ La ciudadanía tiene un comportamiento pésimo en este aspecto.
 La codicia rompe el saco.
 La comarca de las Garrigues tiene un enclave en el Valle.
 La conexión es inestable
+La construcción del camino está a punto de finalizar
 La convocatoria electoral los sorprendió haciendo el amor.
 La corrupción en su partido, hizo que perdiese votos.
 La crítica literaria es endogámica.
@@ -1078,11 +1124,16 @@ La fiesta se alargó bien entrada la noche.
 La foto de Marta me inquieta.
 La función va a comenzar.
 La fundación requiere una gestión cuidadosa.
+La fórmula uno llega hoy a Abudabí
 La garza vuela entre los algarrobos.
 La generosidad no abunda, mas bien escasea
 La gente de esta generación está muy confundida.
+La globalización ha sido una comida copiosa todavía no la hemos digerido
+La habitación del hotel no era igual a la de la foto
+La hallaba con el alma en el breviario.
 La harina, decían, pero era farlopa.
 La información es clave en este proyecto.
+La inocencia angelical de la pequeña relucía en toda la estancia
 La intervención de la entidad financiera fue un balón de oxígeno.
 La jornada de hoy ha sido tranquila.
 La jungla es un lugar peligroso.
@@ -1094,10 +1145,12 @@ La luz; un ternerito viene, y luego se arrodilla.
 La magia no me gusta mucho.
 La manifestación de los corsetera me cogió desprevenido.
 La manifestación ha acabado sin incidentes.
+La manifestación ha llegado hasta la calle Fuencarral
 La miel tiene aroma de tomillo e hinojo.
 La mitocondria es la central de energía de la célula.
 La máxima velocidad es esta.
 La música de Bach relaja.
+La música es un elixir que reconforta el alma
 La música estaba muy alta.
 La música estridente me alegra las mañanas.
 La música que más se escucha es del género reggaeton.
@@ -1115,8 +1168,10 @@ La pinza es nuestro amo. La garra escoge quién irá y quien se quedará .
 La plataforma petrolera se hundía en el mar.
 La playa me gusta más que la montaña.
 La plaza estaba muy concurrida
+La pleamar de hoy es a las cuatro de la tarde
 La pluma es la lengua del alma.
 La policía tardó cinco minutos en personarse.
+La política tiene mucho de escenografía y teatro
 La poética gástrica parte de un modelo teórico interdisciplinario.
 La preinscripción se realizará antes del día dieciséis.
 La primavera la sangre altera.
@@ -1144,6 +1199,7 @@ La salud no está en el plato, sino en el zapato.
 La serie ya se acaba.
 La sesión se hará a puerta cerrada.
 La sierra de Pàndols fue testigo de batallas sangrientas.
+La similitud era evidente
 La subida a la ermita se hacía de rodillas.
 La tasca de Telma siempre tenía parroquianos.
 La temporada de fútbol comienza antes de que acabe la anterior temporada de fútbol.
@@ -1151,6 +1207,7 @@ La temática de Alfredo Espino está hecha de todas las cosas.
 La tercera planta es de infecciosos.
 La ternera de Mollerussa tiene un gustito especial.
 La vecina del cuarto es un caso como un capazo.
+La vendimia se ha adelantado bastante este año
 La venganza no es algo que fomentemos en mi planeta.
 La verdad, intento ser aterrador , pero no lo consigo.
 La verdad como el aceite, quedan encima siempre.
@@ -1159,6 +1216,7 @@ La verdad es que sí me apetece despejarme un poco.
 La vida es bella.
 La vida está llena de nuevas experiencias cada día.
 La violencia me tranquiliza.
+La voz de las aves casi era un suspiro.
 La web de los filatélicos tiene un botón para mojar el dedo.
 La zona blanca es para comer pizza ¡ Alguacil!
 La zona de contacto entre los dos territorios está llena de torres.
@@ -1168,6 +1226,7 @@ Las Baleares son a pocas millas náuticas.
 Las apariencias engañan.
 Las aves iniciaron la migración a tierras cálidas.
 Las banderas ondean a media asta en señal de duelo.
+Las bicicletas eléctricas y los patines son la nueva movilidad en las ciudades
 Las calles están a rebosar en navidades.
 Las calles están muy mal barridos.
 Las chicas no querían ir a la piscina.
@@ -1181,6 +1240,7 @@ Las declaraciones de los acusados ​​eran verdaderas proclamas.
 Las estrellas no brillan para siempre.
 Las faltas del vecino hanse de conocer, no de aborrecer.
 Las fotografías que cuelga en Instagram me hacen pasar vergüenza.
+Las fresas son la fruta de temporada
 Las habas rehogadas con butifarra negra me vuelven loco.
 Las hojas secas danzan con las bolsas de plástico y los pañuelos de papel.
 Las lecturas eran cada vez más espaciadas.
@@ -1188,6 +1248,9 @@ Las luces de navidad son muy bonitas.
 Las muñecas estarán locas por ti. ¿ Me enseñarás eso?
 Las normas me inquietaban profundamente.
 Las noticias de la fábrica me empiezan a hacer sufrir.
+Las noticias están cargadas de sucesos esta semana
+Las olas de la playa se llevaron tu nombre esculpido en la arena
+Las olas del mar golpeaban fuertes sobre el acantilado
 Las opciones de fracasar aumentaban.
 Las palabras se las lleva el viento.
 Las películas de acción siempre me parecen violentas.
@@ -1211,6 +1274,7 @@ Les recibo fuerte y claro.
 Levanta, ya son las diez de la mañana.
 Leyendo, leyendo, se me hicieron las doce.
 Libro prestado, perdido o estropeado.
+Lisa miraba por la ventana, triste y melancólica jamás podría saber
 Listos para la cuenta atrás.
 Llama a Jordi Solà.
 Llegar y besar, suerte es singular.
@@ -1241,6 +1305,7 @@ Lo siento. Es que me pongo muy nervioso antes de viajar .
 Lo siento, chico.
 Lo tenía todo a mis pies
 Logré una puntuación muy alta.
+Lorito guapo, lorito guapo, ¡ ja! ¡ ja! que gracioso es este loro Amelia
 Los Xiquets de Valls hacen unas actuaciones muy largas.
 Los animales me cargan.
 Los artistas de la plaza se manifestaron desnudos.
@@ -1253,6 +1318,7 @@ Los caminos de la Dehesa tienen una grava que entra en las sandalias.
 Los centros de terapia médica se han esparcido por el barrio.
 Los chiflados están todos encerrados en la antigua lonja.
 Los clásicos de fútbol se me hacen pesados.
+Los cooperantes distribuyeron los alimentos entre la población
 Los dados tienen seis caras, al menos en mi pueblo.
 Los datos eran erróneos, ¿verdad?
 Los de la oposición nunca nos dedicamos a lamer el culo del Gobierno.
@@ -1260,6 +1326,7 @@ Los del ayuntamiento siempre se piensan que tienen razón.
 Los demás ya se habían elegido.
 Los detectives descubrieron huellas en la ventana.
 Los dibujos que los presos hacían en las paredes del castillo se conservan todos.
+Los disturbios fueron localizados aunque intensos
 Los dolores que debe soportar son terribles.
 Los duelos con pan son menos.
 Los días de verano son aburridos.
@@ -1286,6 +1353,7 @@ Los mozos son altos y firmes.
 Los niños optan por el juego psicomotor.
 Los olores a jazmín y rosas se entremezclaban en placentera fusión
 Los partidos políticos tradicionales compiten con los populismos y los movimientos asamblearios.
+Los pasacalles recorren la ciudad en ruidosa algarabía
 Los perros son los amigos más fieles del humano.
 Los planes que hagas no te servirán de nada.
 Los platos rotos los pagará tu madre.
@@ -1294,12 +1362,14 @@ Los protagonistas eran patéticos.
 Los protestantes han abierto un templo nuevo.
 Los proyectos económicos de Martirià están muy bien fundamentados.
 Los proyectos me maravillan.
+Los pájaros migratorios revoloteaban en el cielo azul
 Los ranchos de tejas por el sol doradas.
 Los recortes empiezan a tocar la pera de verdad.
 Los sables de San Pablo son dulces y tienen aroma de anís.
 Los sectores revolucionarios estaban cada día más motivados.
 Los siguientes capítulos harán pensar en ansias de poder.
 Los socialistas llevaban ordenador los plenos.
+Los soldados destruyeron el puente, la guerra ha terminado
 Los tacos que salen de tu boquita de piñón son deliciosos, Marc.
 Los taxistas han cortado los accesos al aeropuerto de El Prat.
 Los taxistas mantienen la huelga indefinida.
@@ -1329,6 +1399,7 @@ Mama ha ido a la peluquería.
 Mami ha sacado un regalo inesperado del armario.
 Mamá se ha divorciado de papá.
 Manolito ha comprado cuatro kilos de fruta.
+Manos que no dais que esperáis
 Mantener fuera del alcance de los niños.
 Manténgase detrás de la línea divisoria.
 Manuel, hijo, la distancia mas corta entre dos puntos, es la línea recta
@@ -1342,10 +1413,13 @@ Martín es un mozo que se casó con una amiga mía.
 Martínez, ¡no me cuentes historias!
 Marzo ventoso y abril lluvioso hacen de mayo florido y hermoso.
 María salta y baila.
+María tiene muchos seguidores en su Instagram
 Mas ninguno de ellos te querrá
 Mas no, no puede ser verdad
 Mas vale buena muerte que mala vida.
+Mayab, nombre original de Yucatán en idioma maya.
 Mañana cortan el agua de ocho a doce.
+Mañana entro pronto a trabajar
 Mañana hay huelga de trenes.
 Mañana iré a Madrid.
 Mañana iré al homeópata.
@@ -1361,6 +1435,7 @@ Me duele la espalda si estoy mucho tiempo sentado.
 Me encantan las velas aromáticas.
 Me encantaría aprobar esta asignatura.
 Me gusta cuando haces el pino puente en el césped.
+Me gusta el menú de este restaurante
 Me gusta ir a la piscina.
 Me gusta tu forma de pensar.
 Me gustan los trenes.
@@ -1402,6 +1477,7 @@ Mientras hay vida hay esperanza.
 Mientras tanto, la hija se le casó con un ocasional.
 Migraciones masivas es una realidad actualmente.
 Miguel Ángel era un artista integral.
+Miki mi asistente virtual me ha recordado la cita con Ana
 Millones de euros, hemos perdido.
 Mira, en esa casa hay un niño que piensa que eres lo mejor.
 Mira, ya han vuelto.
@@ -1409,6 +1485,7 @@ Mira adelante y no caerás atrás.
 Mira un insecto
 Miramos los corrales donde mugen las vacas.
 Mireia, ¡pásame los tapones!
+Mirian bajo la escalera, un ruido misterioso, como un crujido
 Mis abuelos se conocieron yendo a cosechar uvas.
 Mis abuelos vivieron en la guerra.
 Misión cumplida. Buen trabajo . Volvemos a casa .
@@ -1420,6 +1497,7 @@ Muchos pocos hacen un mucho.
 Muerde mis labios. Sangre que brota.
 Muerto el perro se acabó la rabia.
 Mujer enferma, mujer eterna.
+MusicBrainz es una enciclopedia abierta de música que recoge metadatos sobre música.
 Muy bien, el primer punto del orden del día.
 Muy bien, en marcha.
 Muy bien, lo haré.
@@ -1484,6 +1562,7 @@ Más vale una mala pierna que dos buenas muletas.
 Más vale una segura que dos en duda.
 Más vale vergüenza en cara que dolor de corazón.
 Máximo perdió hasta la camisa, haciendo política.
+Mérida es la capital y ciudad más poblada del estado de Yucatán, México.
 Mínimo hay que comer tres veces al día.
 Nada que interese a un hombre del espacio. Sólo a los juguetes .
 Nadie debe quedarse atrás.
@@ -1565,6 +1644,7 @@ No hay nada que yo no haga por tí.
 No hay ningún dato que lo confirme.
 No hay otra salida.
 No hay palabra mal dicha si no es mal entendida.
+No hay peor ciego que el que no quiere ver
 No hay tiempo que perder.
 No he comido nada de pescado azul y ya se acaba la temporada.
 No he comprado verduras.
@@ -1575,6 +1655,7 @@ No iremos al baile.
 No le gusta nada estudiar.
 No le gusta nada ir al centro de día.
 No le veo en el camino de acceso. ¿ viste lo qué ocurrió?
+No llegamos a tiempo al aeropuerto
 No llego a comprenderlo. Cerdo inculto .
 No llores, mañana haremos la suscripción a Netflix.
 No lo estas buscando bien.
@@ -1599,6 +1680,7 @@ No podemos ir en esa dirección.
 No podemos malinterpretar las cosas.
 No podemos pretender que no ha pasado nada.
 No podrás conmigo.
+No por mucho madrugar amanece más temprano
 No por mucho madrugar amanece más temprano.
 No puedes dejar que las pesadillas te hagan mella.
 No puedo abrir este documento.
@@ -1658,6 +1740,7 @@ Nuestra amistad jamás morirá
 Nuestra amistad nunca morirá.
 Nueve, ocho , siete , seis...
 Nueve de cada diez lo recomiendan.
+Nunca comprendí tu aptitud
 Nunca digas de este agua no beberé.
 Nunca llueve a gusto de todos.
 Nunca me gustaron demasiado las obras de Espronceda.
@@ -1722,6 +1805,7 @@ Para el demiurgo, el universo sensible tiene la textura de una oblea muelle.
 Para eso nos han hecho.
 Para ganar, forzoso es trabajar.
 Para hacer bien el amor hay que venir al sur.
+Para la tristeza de aquellos senderos.
 Para otro perro ese hueso, tan descarnado y tan tieso.
 Para ser bueno en algo solo necesitas practicar.
 Para todo hay remedio, si no es para la muerte.
@@ -1743,6 +1827,7 @@ Pensará que nunca habían visto un juguete nuevo antes.
 Pensé que estaba en el campamento de verano.
 Pepe coge la pomada.
 Perdimos una oportunidad de oro, ¡que no vuelva a pasar!
+Perdona, ¿esta es la calle Velázquez?
 Perdóneme. Odio romper la reunión, pero ¡ están aquí!
 Perifero la lluvia al calor.
 Pero... ¿ y si son caníbales? .
@@ -1789,6 +1874,7 @@ Por favor. Él es mi amigo .
 Por favor, conecte el dispositivo a la corriente.
 Por favor, siéntate bien.
 Por favor, ¿podéis bajar el volumen de la música?
+Por fin el gimnasio ha abierto sus puertas hoy
 Por gusto, diría que es queso feta.
 Por la boca muere el pez.
 Por la noche todos los gatos son pardos.
@@ -1806,6 +1892,7 @@ Prefiero una botella de Font Vella que dos latas de Fanta.
 Pretendía sorprendernos, pero al final pasó lo contrario.
 Primavera fría, cosecha tardía.
 Primero es la obligación que la devoción.
+Programamos un viaje diferente, fuera del turismo masificado
 Programar te da habiliades de organización.
 Progresaremos mediante su influencia.
 Protejo a la galaxia de la amenaza de invasión...
@@ -1851,6 +1938,7 @@ Quien mucho abarca, poco aprieta.
 Quien mucho habla, mucho yerra.
 Quien más tira, se lleva el gato al agua.
 Quien se pica ajos come.
+Quien siembra vientos recoge tempestades
 Quien tarde se levanta, todo el día trota.
 Quien tiene boca se equivoca.
 Quieres demostrar que eres gracioso y todo el mundo te tiene por un cerdo.
@@ -1864,6 +1952,7 @@ Quiero sacar todo: bebí demasiado.
 Quiero superar esta mala etapa.
 Quiero un ordenador por Navidad.
 Quiero visitar un agregado con alcalde pedáneo.
+Quieto, para, no des un paso más
 Quino, hazme un cortado y un bocadillo de calamares con mayonesa.
 Quitada la causa se quita el pecado.
 Quitar el palo al loco, no es hacer poco.
@@ -1886,10 +1975,14 @@ Ratón que no tiene más que un horado, pronto es cazado.
 Realmente eres hijo de tu padre.
 Realmente soy de una compañía más pequeña que fue comprada en una subasta.
 Recibi tu correo esta semana, espero impaciente tu respuesta
+Recibí un mensaje de mi tía por whatsapp
+Reconocer nuestros errores es de sabios
+Recorría el bulevar pensativo y taciturno
 Recuerda, sólo estoy a unos bloques de aquí.
 Recuerda lo que tu viejo amigo te dijo
 Recuperarse no será fácil.
 Recupero su compostura y dijo: esta vez no te lo perdono
+Recuérdame que te llame mañana
 Reggae, ¿dices que es?
 Reinicie el ordenador.
 Reserva plazas de parking por Internet.
@@ -1913,7 +2006,10 @@ Rodarán cabezas, ¡te lo juro!
 Roger siempre llega tarde.
 Rompe los cristales y me golpea en el pecho.
 Romperemos algunas reglas, pero si sale bien...
+Rosa que alegría, mirarme en tus ojos abiertos serenos y cálidos
 Rosalía ha sido la artista revelación.
+Rufo, acudía victorioso, moviendo su cola, lamiéndome las manos agradecido
+Rufo, mi perro, era feliz corriendo por la playa, yo lo llamaba…
 Ríos era un cómico fenomenal, ¡el mejor actor de la comarca!
 Sabe mas el diablo por viejo, que por diablo.
 Sacarse el carné de conducir es una ruina.
@@ -1993,11 +2089,13 @@ Si tenemos diciembres cuajados de luceros.
 Si tenemos octubres preñados de ilusiones.
 Si termino temprano, iré a mirar ropa.
 Si tuviera buena conectividad iría un poco más deprisa.
+Si vale, pero no estoy de acuerdo con lo que dices
 Si vas a Nueva York te recomiendo que vayas a ver un musical.
 Si vas al mercado, compra fruta.
 Si vas al súper, lleva jabón para la lavadora.
 Si vuelve a suspender, tendremos que castigarlo.
 Si yo quiero, podré volar
+Siempre andaba vestida de candor.
 Siempre hay un roto para un descosido.
 Siempre he querido poner a un hombre del espacio en órbita.
 Siempre he querido poner en órbita a un astronauta.
@@ -2014,12 +2112,14 @@ Sin duda Alfredo Espino es un poeta cautivador.
 Sin solidaridad no somos nada.
 Sin ti no lo habríamos conseguido.
 Sino porque eres un juguete.
+Situó la barca paralela a la dársena del puerto y atracó
 Sobre gustos no hay nada escrito.
 Sol que pica, lluvia indica.
 Solicito permiso para el lanzamiento.
 Somos tú y yo, muchacho.
 Son de plástico. No puede volar .
 Son influencias culturales a tener en cuenta.
+Son las siete de la mañana, la ciudad dormida despierta a la luz
 Son las tres y aún no he dormido nada.
 Son unas zapatillas de fútbol sala.
 Sonia siempre quiere mandar.
@@ -2078,6 +2178,7 @@ Ten cuidado con eso.
 Ten cuidado con eso. Es sumamente peligroso .
 Ten cuidado con las escaleras, están recién fregadas.
 Tendremos que hacer un ensayo extra.
+Tendré que hacer varias paradas de metro para llegar a mi destino
 Tendré que realizar una de mis operaciones.
 Tenemos dos ojos para ver mucho y una boca para hablar poco.
 Tenemos muchas ganas de veros.
@@ -2139,6 +2240,7 @@ Todos los niños y niñas esperan el verano.
 Todos los papeles de envolver están arrugados.
 Todos somos fuertes juntos.
 Tomaré leche con galletas.
+Tomas pregunto sobresaltado ¿es el arma del crimen?
 Trabaja como si vivieres siempre y vive como si murieses hoy.
 Trabaja en la Agencia Catalana del Agua, Iván.
 Trabaja para vivir y no vivas para trabajar.
@@ -2194,6 +2296,7 @@ Un sátiro, me pareció.
 Un técnico se pondrá en contacto con usted para solucionar el problema
 Un vidrio roto, pisó.
 Una aceituna por San Juan, ciento por Navidad.
+Una borrasca se acerca por el Cantábrico y dejara fuertes precipitaciones
 Una buena capa todo lo tapa.
 Una cosa es predicar y otra dar trigo.
 Una declaración de principios es exigible, en este caso.
@@ -2226,6 +2329,7 @@ Vamos, vamos. Los juguetes más pequeños delante .
 Vamos, vamos. Por aquí .
 Vamos. No incumplan en su trabajo .
 Vamos a esquiar.
+Vamos a ir a visitar el parque zoológico
 Vamos a morir. Yo me largo .
 Vamos a morir. ¡ Me voy de aquí!
 Vamos a reunir el ganado.
@@ -2252,11 +2356,14 @@ Vilma, lo que quiero decir es que lo nuestro es
 Vilma, no te vayas.
 Vilma, por favor.
 Vilma, puedes , claro que puedes confiar.
+Vimos la Estatua de la Libertad frente a la bahía de Hudson
 Virtudes vencen señales.
+Visite una tienda de móviles para renovar el que tengo
 Visto en perspectiva, tú y yo no nos deberíamos haber casado.
 Vive rodeado de gatos y perros que recoge de la calle.
 Vivía en la cima del mundo, era el rey
 Vivía la gran vida
+Voy a cocinar en mi impresora tres de
 Voy a lavar los platos.
 Voy a sacarte de ahí.
 Voy a sacarte de aquí.
@@ -2269,8 +2376,10 @@ Y ahora, de pronto , cosas extrañas me suceden
 Y ahora, vacía esa caja fuerte.
 Y cuando asomabas ¡qué linda se hacía la alegre mañana!
 Y cuando lleguemos allí, encontraremos un modo de llevarte a tu hogar.
+Y en la noche, a la luz del lampadario.
 Y en los tamarindos, con los clarineros.
 Y entre un intenso aroma de lirios y albahacas.
+Y era azul la sierra, la sierra lejana.
 Y es el único que tengo.
 Y estoy haciendo lo mejor que puedo
 Y estás a millas y millas de tu bonita y tibia cama.
@@ -2291,6 +2400,7 @@ Y si vamos a comprar antes de ir a la playa.
 Y sienta el olor de la tierra, el aroma de las flores.
 Y susurras en mi oído que me quieres, pero lejos.
 Y todo por mi culpa. Tenemos que salvarle .
+Y tú eras la esquiva, morena poblana.
 Y tú, ¿de dónde eres?
 Y yo era el viajero lleno de ilusión.
 Ya, os lo tomáis a broma.
@@ -2314,6 +2424,7 @@ Yo pude haberlo detenido.
 Yo quiero dos cortes.
 Yo soy quien debería estar atado a ese cohete.
 Yo también te quiero.
+Yucatán es una de las treinta y dos entidades federativas
 Zapatero a tus zapatos.
 Zapatero, haz tus zapatos, y déjate de otros tratos.
 Zapatitos de charol, ni para el agua ni para el sol.
@@ -5437,6 +5548,7 @@ y en el aire todo el calor de las fraguas de Vulcano.
 y en la enciclopedia vienen todos los insectos.
 y en las ramas medio sumergidas revoloteaban algunos pájaros de quimérico y legendario plumaje.
 y en vez de eso, se dedica a darle al arpa.
+y enfrente el cielo, el cerro y el cafetalito.
 y entonces recordé vagamente haber escuchado sus ladridos momentos antes, mientras dormía.
 y era tal el poder sugestivo del recuerdo
 y ese tul me lo dejas al lado de las taquillas.
@@ -6067,6 +6179,7 @@ yo ya no puedo estar contigo.
 ¡Antonio, ven, corre!
 ¡Apaga la televisión!
 ¡Baja del escenario, Elda!
+¡Corre! ¡corre! Que nos atrapan esta vez
 ¡Cuidado!
 ¡Cuánto tiempo sin verte!
 ¡Cuéntame uno de esos cuentos tan tristes!
@@ -6103,12 +6216,15 @@ yo ya no puedo estar contigo.
 ¡No me marees más, Cuca!
 ¡No se oye!
 ¡No tendremos tanta suerte, Ferran!
+¡Oh jamás lo hubiera pensado!
+¡Para! ¡Para! A dónde vas, alma de cántaro, así no
 ¡Pasaremos unos días en el balneario, Marta!
 ¡Pero que barbaridad, como has crecido!
 ¡Páginas y páginas de poesías ridículas me ha dejado en herencia!
 ¡Que buena pinta tiene la tarta!
 ¡Quiero decidirlo yo solito!
 ¡Quiero ser marinero!
+¡Qué bien! El mensajero ha llegado a casa con mi regalo
 ¡Qué contenido tan chapucero que hay en la revista de la escuela!
 ¡Qué dolor de cabeza que tengo!
 ¡Qué encanto el de la vida!
@@ -6123,6 +6239,7 @@ yo ya no puedo estar contigo.
 ¡Qué pequeños los hombres!
 ¡Qué pereza!
 ¡Qué pérdida de interés tan grande, Manolo!
+¡Qué suerte! las rebajas han empezado ¿todavía te queda dinero?
 ¡Qué viajes que hace el rubio!
 ¡Recoge todo lo que has esparcido, Ernesto!
 ¡Sed alegres y mentirosos!
@@ -6495,6 +6612,7 @@ yo ya no puedo estar contigo.
 ¿Cuando llegará el otoño?
 ¿Cuál de ellas tiene más gracia?
 ¿Cuál era el precio de venta?
+¿Cuál es el condimento especial de este plato?
 ¿Cuándo vas aprender a esquiar?
 ¿Cuándo vuelve de vacaciones?
 ¿Cuánta batería te queda?
@@ -6515,6 +6633,7 @@ yo ya no puedo estar contigo.
 ¿El cerebro de la derecha es el del señor Ambrosio?
 ¿Encargamos una pizza?
 ¿Entramos en el mar?
+¿Es cierto el cambio climático? Oh por supuesto que si
 ¿Es la hora del desayuno?
 ¿Es pleonástico o está bien escrito?
 ¿Esto es todo?
@@ -6574,6 +6693,7 @@ yo ya no puedo estar contigo.
 ¿Qué zonas son más caras?
 ¿Ríes o sólo lo haces ver, Alberto?
 ¿Sabes algún remedio casero para las picaduras de medusa?
+¿Sabes el horario de trenes?
 ¿Sabéis donde puedo comprar un clarinete de segunda mano?
 ¿Se pueden inventar verbos?
 ¿Se te ha ocurrido ya lo que vamos a cenar esta noche?
@@ -6583,6 +6703,7 @@ yo ya no puedo estar contigo.
 ¿Te importaría acercarte al supermercado a comprar?
 ¿Te parece bien la ubicación del proyecto?
 ¿Te piensas que devolveré el importe de la deuda?
+¿Tenemos suficiente comida en la nevera?
 ¿Tiene alguna alergia?
 ¿Tiene cerveza sin alcohol?
 ¿Tienes las llaves?
@@ -6590,6 +6711,7 @@ yo ya no puedo estar contigo.
 ¿Ustedes son aquellos chicos tan alegres y divertidos?
 ¿Vamos a hacer una cerveza bien fresquita?
 ¿Vamos a la playa?
+¿Viste el amanecer en este pueblo entre montañas?
 ¿Viste las señas?
 ¿Y si lo discutimos todo tomándonos unas Moritz?
 ¿Y te han hecho pagar por unos pantalones desgarrados?
