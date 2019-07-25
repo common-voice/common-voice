@@ -685,6 +685,7 @@ average-difficulty = เฉลี่ย
 difficult-difficulty = ยาก
 pro-difficulty = มืออาชีพ
 want-to-continue = คุณต้องการทำต่อไปหรือไม่?
+lose-changes-warning = ถ้าออกตอนนี้ที่สิ่งที่คุณเปลี่ยนแปลงแก้ไขจะไม่เกิดขึ้น
 set-a-goal = ตั้งเป้าหมาย
 which-goal-type = คุณต้องการที่จะพูด หรือฟัง หรือทั้งคู่?
 confirm-goal = ยืนยันเป้าหมาย
