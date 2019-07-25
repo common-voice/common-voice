@@ -87,6 +87,7 @@ mk = Macedoneg
 ml = Malayalam
 mn = Mongolieg
 mrj = Mari Gorllewinol
+mt = Malteg
 myv = Erzya
 nb-NO = Bokmål Norwyeg
 ne-NP = Nepaleg
@@ -719,6 +720,9 @@ recorded-clips = Clipiau wedi'u Recordio
 validated-clips = Clipiau wedi'u Dilysu
 total-approved = Cyfanswm Cymeradwy
 overall-accuracy = Cywirdeb Cyffredinol
+set-visibility = Gosod fy ngwelededd
+visibility-explainer = Mae'r gosodiad hwn yn rheoli gwelededd eich bwrdd arwain. Pan fydd wedi ei guddio, bydd eich cynnydd yn breifat. Mae hyn yn golygu na fydd eich delwedd, enw defnyddiwr na'ch cynnydd yn ymddangos ar y bwrdd arwain. Sylwer bod adnewyddu'r bwrdd arwain yn cymryd ~ { $minutes } munud i ddangos y newidiadau.
+visibility-overlay-note = Sylwer: Pan wedi ei osod i 'Gweladwy', mae modd newid y gosodiad hwn o'r <profileLink>Dudalen broffil</profileLink>
 
 ## Custom Goals
 
