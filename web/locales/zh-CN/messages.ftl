@@ -87,6 +87,7 @@ mk = 马其顿语
 ml = 马拉雅拉姆语
 mn = 蒙古语
 mrj = 山地马里语
+mt = 马耳他语
 myv = 厄尔兹亚语
 nb-NO = 书面挪威语
 ne-NP = 尼泊尔语
@@ -678,6 +679,7 @@ recorded-clips = 录制的片段
 validated-clips = 验证的片段
 total-approved = 总核准数
 overall-accuracy = 总体准确度
+set-visibility = 设置是否在排行榜显示自己
 
 ## Custom Goals
 
