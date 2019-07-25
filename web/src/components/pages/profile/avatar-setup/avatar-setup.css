@@ -10,7 +10,7 @@
     & h2 {
         width: 334px;
         height: 58px;
-        font-family: ZillaSlab;
+        font-family: var(--strong-font-family);
         font-size: 24px;
         font-weight: 600;
         font-style: normal;
@@ -53,6 +53,32 @@
         color: grey;
         padding-top: 36px;
         padding-left: 22px;
+    }
+
+    .Oval {
+        width: 118px;
+        height: 118px;
+        opacity: 0.7;
+        -webkit-filter: blur(7.6px);
+        filter: blur(7.6px);
+        background-image: linear-gradient(to right, #f89096, #b1b4e5);
+        border-radius: 70%;
+    }
+    .Oval-Copy {
+        width: 108px;
+        height: 108px;
+        background-color: var(--white);
+    }
+    .primary-button {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 18px;
+    }
+    .counter {
+        position: relative;
+        top: -22%;
     }
 }
 

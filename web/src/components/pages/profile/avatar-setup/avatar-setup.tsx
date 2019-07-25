@@ -19,6 +19,12 @@ import {
   PlayIcon,
 } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
+import {
+  PlayLink,
+  RecordLink,
+  PrimaryButton,
+  Voice,
+} from '../../../primary-buttons/primary-buttons';
 import AudioIOS from '../../contribution/speak/audio-ios';
 import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
 import { isFirefoxFocus, isNativeIOS, isProduction } from '../../../../utility';
@@ -90,11 +96,17 @@ interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
   refreshUser: typeof User.actions.refresh;
 }
+<MicIcon />;
 
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 class AvatarSetup extends React.Component<Props> {
-  state = { isSaving: false, recordingStatus: false, avatarClipPlaying: false };
+  state = {
+    isSaving: false,
+    recordingStatus: false,
+    avatarClipPlaying: false,
+    counter: 3,
+  };
 
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform = false;
@@ -216,6 +228,17 @@ class AvatarSetup extends React.Component<Props> {
     refreshUser();
   }
 
+  private counter = () => {
+    var downloadTimer = setInterval(() => {
+      console.log(this.state.counter, 'ggg');
+      let tl = this.state.counter - 1;
+      this.setState({ counter: tl });
+      if (this.state.counter <= 0) {
+        clearInterval(downloadTimer);
+      }
+    }, 1000);
+  };
+
   render() {
     const {
       addNotification,
@@ -224,7 +247,7 @@ class AvatarSetup extends React.Component<Props> {
       refreshUser,
       user: { account },
     } = this.props;
-    const { recordingStatus, avatarClipPlaying } = this.state;
+    const { recordingStatus, avatarClipPlaying, counter } = this.state;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
@@ -236,11 +259,22 @@ class AvatarSetup extends React.Component<Props> {
           <Localized id="add-avatar-clip">
             <h2 className="clip-title" />
           </Localized>
+
           <div className="Group-1">
             <img src={require('./group-1.svg')} />
           </div>
+          <div className="counter">
+            <Voice>
+              <p>{counter}</p>
+            </Voice>
+          </div>
           <Localized id="create-voice-wave">
-            <Button outline rounded className="Primary " />
+            <Button
+              outline
+              rounded
+              className="Primary "
+              onClick={this.counter}
+            />
           </Localized>
           <Localized id="about-avatar-clip">
             <p className="Create-a-custom-voic" />
