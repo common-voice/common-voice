@@ -87,6 +87,7 @@ mk = makedonščina
 ml = malajalamščina
 mn = mongolščina
 mrj = zahodna marijščina
+mt = malteščina
 myv = erzjanščina
 nb-NO = norveščina (bokmål)
 ne-NP = nepalščina
