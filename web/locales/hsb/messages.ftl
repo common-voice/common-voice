@@ -87,6 +87,7 @@ mk = Makedonšćina
 ml = Malajalamšćina
 mn = Mongolšćina
 mrj = Hórska marišćina
+mt = Maltašćina
 myv = Erzya
 nb-NO = Norwegski Bokmål
 ne-NP = Nepalšćina
@@ -685,6 +686,8 @@ recorded-clips = Natočene klipy
 validated-clips = Přepruwowane klipy
 total-approved = Schwalene dohromady
 overall-accuracy = Cyłkowna dokładnosć
+set-visibility = Moju widźomnosć nastajić
+visibility-overlay-note = Pokiw: Hdyž je 'Widźomny' nastajene, da so nastajenje z <profileLink>profiloweje strony</profileLink> změnić
 
 ## Custom Goals
 
