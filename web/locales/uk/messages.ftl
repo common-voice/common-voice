@@ -108,6 +108,7 @@ sl = Словенська
 sq = Албанська
 sr = Сербська
 sv-SE = Шведська
+syr = Сирійська
 ta = Тамільська
 te = Телугу
 tg = Таджицька
@@ -668,6 +669,10 @@ recorded-clips = Озвучено
 validated-clips = Перевірено
 total-approved = Всього затверджено
 overall-accuracy = Загальна точність
+
+## Custom Goals
+
+toward-next-goal = Наступна ціль
 
 ## Profile Delete
 
