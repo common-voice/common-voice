@@ -12,6 +12,7 @@
 "Michael" adalah nama laki-laki, tetapi "Michelle" adalah nama perempuan.
 "Selamat pagi," kata Tom sambil tersenyum.
 "Tatoeba" dalam Bahasa Jepang berarti "contohnya".
+"Tolong ambilkan garam." "Ini, silahkan"
 Abbot membunuh Mary.
 Ada baiknya tidak asal bicara.
 Ada banyak air.
@@ -90,6 +91,7 @@ Akhir pekan ini jika memungkinkan.
 Akhirat itu kekal selamanya.
 Akibat dari kemacetan lalu lintas, dia tidak dapat melihat keberangkatannya di stasiun.
 Akira pandai bermain tenis.
+Aksara Myanmar sangat indah.
 Aku adalah seorang laki-laki tanpa wanita
 Aku adalah seorang pengembang.
 Aku akan baik-baik saja besok.
@@ -475,6 +477,7 @@ Apa yang telah Tom pikirkan?
 Apa yang terjadi bukanlah kesalahan Tom.
 Apa yang terjadi dengan cahaya di dalam lubang hitam?
 Apa yang terjadi di sini?
+Apa yang tidak lazim di suatu tempat, bisa menjadi lumrah di tempat lain.
 Apakah Anda bisa berbicara bahasa Indonesia?
 Apakah Anda bisa memproduksi obat-obatan dari laboratorium?
 Apakah Anda butuh tempat tinggal?
@@ -2113,6 +2116,7 @@ Kamu bisa makan siang di ruangan ini.
 Kamu bisa masuk ke perpustakaan dengan bebas.
 Kamu bisa meminta bantuan darinya.
 Kamu bisa menebak apa yang terjadi.
+Kamu bodoh.
 Kamu boleh merokok di ruangan ini.
 Kamu dalang dibalik semua ini.
 Kamu dapat beristirahat sampai malam.
@@ -2192,6 +2196,7 @@ Kantor pos ada di sebelah stasiun.
 Kantor pos pasti sudah buka karena sekarang pukul sepuluh.
 Kantor pos terdekat ada di jalan Cavendon.
 Kantornya dekat dengan kantor saya.
+Kapal akan berlabuh di Cadiz.
 Kapal itu mengangkut bahan mentah dari Indonesia.
 Kapalnya mengangkut bahan mentah dari Indonesia.
 Kapan anda berulang tahun?
@@ -2489,6 +2494,7 @@ Kudengar mereka telah menemukan jejak kaki manusia salju yang mengerikan di Pegu
 Kuenya terlalu manis.
 Kuharap dia akan menungguku.
 Kuharap kita akan segera bertemu lagi.
+Kuis itu berhadiah satu milyar rupiah.
 Kukira dia sakit.
 Kuku saya patah.
 Kukuku patah.
@@ -2541,6 +2547,7 @@ Lihat gedung yang tinggi itu.
 Lihat saya.
 Lihat! Buku itu terbakar.
 Lihat, anjing saja tidak sekotor anjingmu.
+Lihatlah rumah Mary yang nyaman.
 Lima menit lagi pelajaran selesai.
 Lompatlah setinggi mungkin.
 Luar biasa!
@@ -2636,11 +2643,13 @@ Mary belum mulai.
 Mary gagal lagi. Meski begitu, dia masih muda.
 Mary harus pergi ke sekolah.
 Mary ingin menjadi seorang pengajar.
+Mary memiliki ketertarikan dalam bahasa Jepang dan sejarah.
 Mary memutuskan untuk tidak akan menemuinya lagi.
 Mary menolak undangan ke konser.
 Mary sangat suka susu.
 Mary selalu membantu pacarnya mengerjakan tugas.
 Mary tidak punya teman bicara, tapi dia tidak merasa kesepian.
+Mary, bisakah kamu lebih pelan?
 Masa kecilku menyenangkan.
 Masakan Prancis dimakan dengan menggunakan pisau dan garpu.
 Masakan buatan ibu sangat enak.
@@ -3768,6 +3777,7 @@ Saya mengucapkan "Selamat pagi" ketika bangun pagi.
 Saya menikahi istri saya lima tahun lalu.
 Saya menjadi pendek.
 Saya menjejerkan enam buah piring di atas meja.
+Saya menolong Tony.
 Saya menolong adik perempuan saya membuat pekerjaan rumah.
 Saya menulis huruf dengan pen.
 Saya menulis jawaban soal di kertas ini.
@@ -4179,6 +4189,7 @@ Sejak kecelakaan itu kesehatannya makin memburuk.
 Sejauh yang saya tahu, Tom tidak pernah mencoba membunuh diri.
 Sejauh yang saya tahu, desas-desus itu tidak benar.
 Sejuk di bawah pohon.
+Sejumlah mahasiswa melakukan aksi damai.
 Sejumlah orang meninggal dalam kecelakaan lalu-lintas.
 Sekarang Pak Kobayashi sedang membaca buku di perpustakaan.
 Sekarang aku bebas.
@@ -4302,6 +4313,7 @@ Seseorang mengalahkanku hingga seri.
 Seseorang mengetuk pintu.
 Seseorang telah mencuri semua uangku.
 Sesuatu telah terjadi.
+Sesuatu terjadi di jalan Park.
 Sesuatu yang kecil dapat menyebabkan hal yang besar.
 Sesuatu yang mengerikan telah terjadi.
 Setahu aku, museum itu tutup setiap hari Senin.
@@ -4362,6 +4374,7 @@ Sialan!
 Sialan, Tom. Jangan terulang kembali!
 Siapa anak itu?
 Siapa anak perempuan yang sedang berdiri di pintu?
+Siapa anggota The Beatles?
 Siapa bersungguh sungguh, dia akan sukses
 Siapa nama Anda?
 Siapa nama anda, pak?
@@ -4656,6 +4669,7 @@ Tom adalah mahasiswa.
 Tom adalah musuh pribadi saya.
 Tom adalah orang yang menanam mawar di kebun kita.
 Tom adalah satu-satunya orang yang tidak lulus ujian.
+Tom akhirnya bertemu dengan Mary.
 Tom bahkan tidak semestinya berada di sana.
 Tom banyak menghabiskan waktunya dengan membaca.
 Tom bekerja setiap hari kecuali hari minggu.
@@ -4704,6 +4718,8 @@ Tom bukan anak yang pemalas.
 Tom bukanlah penghianat.
 Tom butuh mengikuti saran saya.
 Tom dan Marie menghabiskan bulan madu mereka di luar negeri.
+Tom dan Mary bermain tenis seharian.
+Tom dan Mary putus.
 Tom datang kemari sendirian.
 Tom datang kemari untuk meminta kami menolongnya.
 Tom datang lebih awal untuk berlatih hari ini.
@@ -4738,6 +4754,7 @@ Tom melihat seorang anak laki-laki menunggu di halte.
 Tom memakai jas hujan.
 Tom memarahi anak laki-lakinya karena telah malas.
 Tom memarahi anak laki-lakinya karena telah terlambat.
+Tom membaca catatan dari Mary dan menyerahkannya kepada John.
 Tom membaca surat Mary berulang kali.
 Tom membatalkan pernikahannya karena kecelakaan lalu-lintas.
 Tom membenciku.
@@ -4746,6 +4763,7 @@ Tom membidik dan menembakkan tembakan peringatan.
 Tom membuat alasan atas keterlambatannya.
 Tom membuat saya menunggu selama tiga jam.
 Tom membutuhkan pelatihan.
+Tom memecahkan vas ming dari cina milik Mary yang mahal
 Tom memeriksa tulisan saya.
 Tom memetik banyak bunga.
 Tom memiliki tekanan darah rendah.
@@ -4763,6 +4781,7 @@ Tom mencucukkan pensilnya kedalam lubang.
 Tom mencuri cincinnya.
 Tom mendorong kursi roda melewati lorong.
 Tom menemui pacarnya di kafe siang ini.
+Tom menerima surat dari Mary.
 Tom mengabaikanmu.
 Tom mengaduk kopinya dengan sebuah sendok.
 Tom mengambil alih situasi.
@@ -4799,6 +4818,7 @@ Tom menunjuk suatu tempat di peta.
 Tom menutup kaca jendelanya.
 Tom menutup pintu kamar mandi secara keras.
 Tom menyadari Mary menunggu dirinya.
+Tom menyadari Mary tidak sedang bercanda.
 Tom menyadari dirinya sedang dihiraukan.
 Tom menyadari sekarang adalah waktu untuk pergi.
 Tom menyesal telah meninggalkan pekerjaannya.
@@ -4848,6 +4868,7 @@ Tom pindah keluar tiga minggu yang lalu.
 Tom sakit kepala.
 Tom sakit perut.
 Tom sangat membutuhkan bantuan.
+Tom sangat menyukai Mary.
 Tom sangat menyukai bermain basket.
 Tom sangat merindukan keluarganya.
 Tom sangat suka bermain gitar.
@@ -4859,6 +4880,7 @@ Tom sedang membaca buku sejarah.
 Tom seharusnya menutup mulutnya rapat.
 Tom seharusnya sudah kembali sekarang.
 Tom seharusnya sudah sampai sekarang.
+Tom sekarang menyadari Mary tidak sedang bercanda.
 Tom selalu meyakinkan Mary bahwa dia benar-benar mencintainya
 Tom seorang pembunuh.
 Tom sering bersumpah serapa ketika marah.
@@ -4889,6 +4911,7 @@ Tom terlihat terkejut.
 Tom terlihat tidak tertarik.
 Tom terluka parah saat kecelakaan lalu-lintas.
 Tom tidak akan membiarkanmu pergi.
+Tom tidak akan pernah berkencan dengan seseorang seperti Mary.
 Tom tidak akan pernah memaafkan kita jika kita melakukan itu.
 Tom tidak bermaksud demikian.
 Tom tidak berusaha melindungi dirinya sendiri.
@@ -4912,8 +4935,10 @@ Tom tidak tahu banyak tentang Indonesia.
 Tom tidak tahu berapa biayanya.
 Tom tidak takut gagal.
 Tom tidak takut mati.
+Tom tinggal di apartemen diatas tempat Mary.
 Tom tinggal sendiri di rumah yang besar
 Tom, aku ingin menunjukkan sesuatu.
+Tom, bisakah kamu lebih pelan?
 Tom, kamu dalang dibalik semua ini!
 Tom, katakan yang sejujurnya.
 Topi itu terlihat bagus dipakai oleh Tom.
