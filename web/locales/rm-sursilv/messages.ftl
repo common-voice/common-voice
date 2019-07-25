@@ -450,7 +450,7 @@ de-identified-explanation = Il process cun il qual las informaziun dil profil d'
 
 ## NotFound
 
-notfound-title = Buca anflau
+notfound-title = Buc anflau
 notfound-content = Perstgisa, jeu sai buca tgei che ti enqueras.
 
 ## Data
@@ -467,7 +467,7 @@ data-other-title = Autras unitads da datas vocalas
 data-other-goto = Va a
 data-other-download = Telecargar datas
 data-bundle-button = Telecargar unitad da datas
-data-bundle-description = Datas da Common Voice ed tut las autras datas da lingua numnadas sura.
+data-bundle-description = Datas da Common Voice e tut las autras datas da lingua numnadas sura.
 license = Licenzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mischedau
 review-terms = Cun duvrar Common Voice acceptas ti nossas <termsLink>cundiziuns d'utilisaziun</termsLink> e nies<privacyLink>avis dalla protecziun da datas</privacyLink>
