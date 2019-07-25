@@ -478,13 +478,27 @@ record-error-too-long = Снимак је предуг.
 record-error-too-quiet = Снимак је сувише тих.
 record-cancel = Откажи поновно снимање
 record-three-more-instruction = Још три до краја!
+clips-uploaded = Послати исечци
+record-abort-title = Завршити снимање прво?
+record-abort-text = Напуштање значи губитак досадашњег напретка
+record-abort-submit = Пошаљи исечке
+record-abort-continue = Заврши снимање
+record-abort-delete = Изађи и обриши снимке
+listen-instruction = { $actionType }<playIcon></playIcon> да ли су тачно изговорили реченицу?
+listen-again-instruction = Одличан посао!<playIcon></playIcon> Слушајте поново када будете спремни
+listen-3rd-time-instruction = Два урађена, само наставите тако!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Последњи!
 record-button-label = Снимите свој глас
+keep-track-profile = Пратите свој напредак преко профила
+login-to-get-started = Пријавите се или направите налог да бисте започели
 
 ## Reporting
 
 report = Пријави
 report-title = Поднеси пријаву
+report-ask = Шта није у реду са овом реченицом?
 report-offensive-language = Увредљив језик
+report-offensive-language-detail = Изјава садржи неучтив или увредљив језик.
 report-other-comment =
     .placeholder = Коментар
 success = Успех
