@@ -314,17 +314,21 @@ email-subscriptions = Retpoŝtaj abonoj
 download-profile = Elŝuti miajn datumojn
 contribution-experience = Kontribua sperto
 skip-submission-feedback = Ignori la sendon de opinio
+skip-submission-description = Dum la sendo de kontribuoj, komentoj estos malaktivaj post premo de 'Sendi'. La kontribuo pluiros al la venonta grupo de kvin registroj aŭ validigoj.
 off = Malŝaltita
 on = Ŝaltita
 add-avatar-title = Aldoni bildon al via profilo
 add-avatar-clip = Aldoni avataron al via profilo
 browse-file-title = Alŝuti bildon
+browse-file = Trenu kaj delasu aŭ <browseWrap>esploru</browseWrap>
 connect-gravatar = Konekti Gravatar
 gravatar_not_found = Via retpoŝta adreso ne estas asociita al Gravatar
 file_too_large = La elektita dosiero estas tro granda
 manage-subscriptions = Administri abonojn
+manage-email-subscriptions = Administri retpoŝtajn abonojn
 email-already-used = La retpoŝta adreso jam estas uzata de alia konto
 add-language = Aldoni lingvon
+change-email-setings = Ŝanĝu vian retpoŝton en Agordoj, Idento de seanco
 
 ## FAQ
 
@@ -536,6 +540,11 @@ days =
         [one] tago
        *[other] tagoj
     }
+validations =
+    { $count ->
+        [one] Validigo
+       *[other] Validigoj
+    }
 
 ## Dashboard
 
@@ -555,9 +564,11 @@ validated-clips = Validigitaj voĉregistroj
 
 ## Profile Delete
 
+keep = Gardi
 remove = Forigi
 profile-form-delete = Forigi profilon
 
 ## Landing
 
+welcome-staff = Estu bonvenaj, laboristoj de { $company }!
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
