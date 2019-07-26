@@ -202,6 +202,7 @@ help-make-dataset = Helpu nin krei altkvalitan, publikan kaj liberan datumaron
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
 sign-up-account = Krei konton
 email-subscription-title = Abonu retpoŝtajn novaĵojn
+email-subscription-title-new = Abonu la bultenojn de Common Voice, la memorigojn de celoj kaj la progresraportojn
 
 ## Account Benefits
 
@@ -316,6 +317,7 @@ skip-submission-feedback = Ignori la sendon de opinio
 off = Malŝaltita
 on = Ŝaltita
 add-avatar-title = Aldoni bildon al via profilo
+add-avatar-clip = Aldoni avataron al via profilo
 browse-file-title = Alŝuti bildon
 connect-gravatar = Konekti Gravatar
 gravatar_not_found = Via retpoŝta adreso ne estas asociita al Gravatar
@@ -351,6 +353,8 @@ about-nav-get-involved = Partopreni
 ## Glossary
 
 sst = Voĉrekono (Speech-to-text, STT)
+sst-explanation = Voĉrekoniloj (STT) transformas voĉon en tekston.
+de-identified = Anonimigita
 
 ## NotFound
 
@@ -402,11 +406,18 @@ why-email = <b>Kial ni petas retpoŝton</b> Ni povus bezoni kontakti vin en la e
 confirm-size = Vi pretas komenci la elŝuton de <b>{ $size }</b>
 size-gigabyte = GO
 size-megabyte = MO
+subscribe = Aboni
+other-datasets = Aliaj voĉaj datumaroj
+feedback-q = Ĉu vi ŝatus komenti?
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
 data-other-voxforge-description = VoxForge estis kreita kun la celo kolekti transskribitaj paroladoj, tiel ke ili estos uzeblaj de liberaj kaj malfermitkodaj voĉrekoniloj.
 data-other-tatoeba-description = Tatoeba estas granda datumbazo de frazoj, tradukoj kaj voĉaj registroj, por esti uzata dum lernado de lingvoj. Tiu ĉi elŝuto enhavas parolatan anglan, kiun registris ilia komunumo.
+more = Pli
+close = Fermi
+download = Elŝuti
+dataset-version = Versio
 
 ## Download Modal
 
@@ -434,6 +445,8 @@ request-language-form-language =
     .label = Lingvo
 request-language-success-title = La propono de lingvo estis sukcese sendita, dankon.
 request-language-success-content = Ni baldaŭ skribos al vi kun pli da informo pri la aldono de via lingvo al Common Voice.
+select-language = Elektu lingvon...
+other-language = Alia lingvo
 
 ## Languages Overview
 
@@ -502,6 +515,19 @@ share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
 
 ## Reporting
 
+report = Denunci
+report-title = Sendi denuncon
+report-ask = Kiun problemon vi havas kun tiu frazo?
+report-offensive-language = Ofenda lingvaĵo
+report-offensive-language-detail = La frazo enhavas malrespektan aŭ ofendan lingvaĵon.
+report-grammar-or-spelling = Gramatika aŭ literuma eraro
+report-grammar-or-spelling-detail = La frazo enhavas gramatikan aŭ literuman eraron.
+report-different-language = Malsama lingvo
+report-different-language-detail = La frazo estas skribita en lingvo, kiun mi ne parolas.
+report-difficult-pronounce = Malfacile eldirebla
+report-difficult-pronounce-detail = La frazo enhavas vortojn, kiuj estas malfacile legeblaj aŭ eldireblaj.
+report-offensive-speech = Ofenda lingvaĵo
+report-offensive-speech-detail = La voĉregistro enhavas malrespektan aŭ ofendan lingvaĵon.
 
 ## Goals
 
