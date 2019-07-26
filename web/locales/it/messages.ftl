@@ -677,7 +677,6 @@ set-visibility = Imposta la mia visibilità
 
 get-started-goals = Comincia a utilizzare gli obiettivi
 toward-next-goal = Verso il prossimo obiettivo
-create-custom-goal = Crea un obiettivo personalizzato
 both-speak-and-listen = Entrambi
 daily-goal = Obiettivo giornaliero
 weekly-goal = Obiettivo settimanale
@@ -686,6 +685,13 @@ average-difficulty = Medio
 difficult-difficulty = Difficile
 want-to-continue = Vuoi continuare?
 cant-decide = Sei indeciso?
+help-share-goal = Aiutaci a trovare più voci, condividi il tuo obiettivo
+confirm-goal = Conferma obiettivo
+goal-interval-weekly = Settimanale
+weekly-goal-created = Obiettivo settimanale creato
+daily-goal-created = Obiettivo quotidiano creato
+track-progress = Tieni traccia dei progressi qui e nella tua pagina delle statistiche.
+share-goal = Condividi il mio obiettivo
 
 ## Profile Delete
 
