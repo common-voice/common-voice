@@ -146,9 +146,31 @@ cookies = ኩኪዎች(የሚሸጎጡ)
 faq = FAQ (አዘውትረው የሚጠየቁ)
 content-license-text = ዝርዝሩ በ <licenseLink> በፈጠራ የጋራ ፈቃድ </licenseLink> ስር ይገኛል።
 share-title = ሌሎች ድምፃቸውን አነዲሰጡ በማድረግ ይተባበሩን።
+link-copied = የአገናኝ አድራሻ ቅዳ
+back-top = ወደ ላይ ተመለስ
+logout = ውጣ
 
 ## Home Page
 
+home-title = የተለመዱ(የጋራ) ልሳኖች በሞዚላ ተነሳሽነት እየተሠራ ያለ፤ ማሽኖችን እንዴት እውነተኛ ሠዎች እንደሚናሩ የሚያስተምር ነው።
+home-cta = ይናገሩ፦ እዚህ ያበርክቱ!
+show-wall-of-text = ተጨማሪ ያንብቡ
+help-us-title = ትክክለኛ ዓረፍተ ነገር በመስጠት ይርዱን!
+help-us-explain = ማጫወቻውን ይጫኑ፣ ያዳምጡ እና ይንገሩን፦ ከታች ያለውን ዓረፍተ-ነገር በትትክል ተናግረውታል?
+no-clips-to-validate = በዚህ ቋንቋ የተቀዳ ድምፅ ያለ አይመስልም። የተወሰኑ ድምፆችን በመቅዳት ይተባበሩን።
+vote-yes = አዎ
+vote-no = አይደለም
+toggle-play-tooltip = ወደ ማጫወቻ አሠራር ለመቀየር { shortcut-play-toggle } እዚህ ይጫኑ
+speak-subtitle = ድምፅዋን ይለግሱ
+speak-goal-text = የተቀዱ ድምፆች
+listen-subtitle = በትክክለኛ ድምፆች ይርዱን
+all-locales = ሁሉም
+today = ዛሬ
+x-weeks-short =
+    { $count ->
+        [one] ሳምንት
+       *[other] { $count }wk
+    }
 
 ## Account Benefits
 
