@@ -671,11 +671,21 @@ recorded-clips = Registrazioni immesse
 validated-clips = Registrazioni convalidate
 total-approved = Totale approvato
 overall-accuracy = Precisione complessiva
+set-visibility = Imposta la mia visibilità
 
 ## Custom Goals
 
+get-started-goals = Comincia a utilizzare gli obiettivi
 toward-next-goal = Verso il prossimo obiettivo
+create-custom-goal = Crea un obiettivo personalizzato
 both-speak-and-listen = Entrambi
+daily-goal = Obiettivo giornaliero
+weekly-goal = Obiettivo settimanale
+easy-difficulty = Facile
+average-difficulty = Medio
+difficult-difficulty = Difficile
+want-to-continue = Vuoi continuare?
+cant-decide = Sei indeciso?
 
 ## Profile Delete
 
