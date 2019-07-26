@@ -750,6 +750,7 @@ profile-form-delete = Profil zhašeć
 ## Landing
 
 welcome-staff = Witajće, sobudźěłaćerjo { $company }!
+help-contribute = Załožće profil Common Voice a přinošujće swój hłós, zo by pomhał, wšelakoru datowu sadźbu wotewrjeneho žórła wutworić.
 login-company = Z e-mejlowej adresu { $company } přizjewić / registrować
 profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 read-more-about = Čitajće wjace wo stronje Wo Common Voice
