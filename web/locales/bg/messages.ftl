@@ -377,6 +377,7 @@ how-does-it-work-title = Как работи?
 about-yes-votes-text = За да влезе в данните на Common Voice, един запис трябва да е проверен от двама отделни потребителя.
 about-nav-why-common-voice = Защо?
 about-nav-how-it-works = Как?
+about-nav-partners = Партньори
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Изкуствен интелект
 
@@ -551,6 +552,18 @@ share-title-new = <bold>Помогнете</bold> да намерим още г�
 ## Reporting
 
 report-ask = Какви проблеми срещате с това изречение?
+report-offensive-language = Обиден изказ
+report-offensive-language-detail = В изречението има неуважителен или обиден изказ.
+report-grammar-or-spelling = Граматична / правописна грешка
+report-grammar-or-spelling-detail = В изречението има граматична или правописна грешка.
+report-different-language = На друг език е
+report-different-language-detail = Написано е на език, различен от този, който говоря.
+report-difficult-pronounce = Трудно е за произнасяне
+report-difficult-pronounce-detail = Съдържа думи или фрази, които са трудни за прочитане или произнасяне.
+report-offensive-speech = Обидна реч
+report-offensive-speech-detail = В записа има неуважителен или обидна реч.
+report-other-comment =
+    .placeholder = Коментар
 
 ## Goals
 
@@ -565,9 +578,15 @@ recordings =
         [one] Запис
        *[other] Записи
     }
+validations =
+    { $count ->
+        [one] Проверка
+       *[other] Проверки
+    }
 
 ## Dashboard
 
+your-languages = Вашите езици
 toward-next-goal = Към следващата цел
 clips-you-recorded = Записани от вас
 clips-you-validated = Проверени от вас
@@ -578,10 +597,16 @@ contribution-activity = Активност на приноса
 top-contributors = Топ доброволци
 recorded-clips = Записи
 validated-clips = Проверени записи
+total-approved = Общо одобрени
+overall-accuracy = Обща точност
 
 ## Custom Goals
 
 toward-next-goal = Към следващата цел
+create-custom-goal = Създаване на лична цел
+share-goal-type-speak = Говорене
+share-goal-type-listen = Слушане
+share-goal-type-both = Говорене и слушане
 
 ## Profile Delete
 
