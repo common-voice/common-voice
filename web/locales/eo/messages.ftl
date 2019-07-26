@@ -51,6 +51,7 @@ es = Hispana
 et = Estona
 eu = Eŭska
 fa = Persa
+ff = Fula
 fi = Finna
 fo = Feroa
 fr = Franca
@@ -86,6 +87,7 @@ mk = Makedona
 ml = Malajalama
 mn = Mongola
 mrj = Okcidentmaria
+mt = Malta
 myv = Erzja
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
@@ -96,6 +98,7 @@ or = Odia
 pl = Pola
 pt-BR = Portugala (Brazilo)
 rm-sursilv = Romanĉa surselva
+rm-vallader = Valadera romanĉa
 ro = Rumana
 ru = Rusa
 rw = Ruanda
@@ -107,6 +110,7 @@ sl = Slovena
 sq = Albana
 sr = Serba
 sv-SE = Sveda
+syr = Siria
 ta = Tamila
 te = Telugua
 tg = Taĝika
@@ -333,9 +337,20 @@ faq-where-src-from-2-q = El kie venas la fonta teksto?
 
 ## ABOUT US
 
+about-title = Kial Common Voice?
+how-does-it-work-title = Kiel ĝi funkcias?
+about-speak = Paroli
+about-partners = Asociitoj
+about-become-a-partner = Iĝi asociito
+about-get-involved = Partopreni
+about-nav-why-common-voice = Kial?
+about-nav-how-it-works = Kiel?
+about-nav-partners = Asociitoj
+about-nav-get-involved = Partopreni
 
 ## Glossary
 
+sst = Voĉrekono (Speech-to-text, STT)
 
 ## NotFound
 
@@ -371,7 +386,7 @@ review-cancel = Nuligi sendon
 review-keep-recordings = Gardi la registrojn
 review-delete-recordings = Forigi miajn registrojn
 
-## New Datasets Page
+## Datasets Page
 
 language = Lingvo
 # File size in gigabytes
@@ -436,7 +451,7 @@ localized = Tradukita
 sentences = Frazoj
 total-hours = Validigitaj horoj
 
-## New Contribution
+## Contribution
 
 action-click = Alklaku
 action-tap = Tuŝetu
@@ -469,7 +484,6 @@ record-again-instruction = Bonege!<recordIcon></recordIcon>Faru vian venontan vo
 record-again-instruction2 = Daŭrigu tiel, registru denove <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Lasta!
 review-tooltip = Revizii kaj refari voĉregistrojn dum vi progresas
-unable-speak = Ĉu vi ne povas paroli nun?
 review-instruction = Revizii kaj refari voĉregistrojn se bezonatas
 record-submit-tooltip = { $actionType } sendi kiam vi pretas
 clips-uploaded = Alŝutitaj voĉregistroj
@@ -485,6 +499,9 @@ listen-last-time-instruction = <playIcon></playIcon>Lasta!
 nothing-to-validate = Ni ne havas ion ajn por validigi en tiu ĉi lingvo, helpu nin aldoni kelkajn registrojn al la atendovico.
 record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
+
+## Reporting
+
 
 ## Goals
 
@@ -507,7 +524,14 @@ top-contributors = Ĉefaj kontribuantoj
 recorded-clips = Faritaj voĉregistroj
 validated-clips = Validigitaj voĉregistroj
 
+## Custom Goals
+
+
 ## Profile Delete
 
 remove = Forigi
 profile-form-delete = Forigi profilon
+
+## Landing
+
+profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
