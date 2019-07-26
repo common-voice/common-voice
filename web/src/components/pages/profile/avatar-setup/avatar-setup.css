@@ -30,6 +30,7 @@
         width: 508px;
         height: 169px;
         object-fit: contain;
+        background-image: url('./group-1.svg');
     }
     .Primary {
         width: 30%;
@@ -37,6 +38,14 @@
         background-color: var(--white);
         position: relative;
         left: 29%;
+    }
+    .Primary-2 {
+        width: 30%;
+        height: 57px;
+        background-color: var(--white);
+        position: relative;
+        left: 29%;
+        color: green;
     }
 
     .Create-a-custom-voic {
@@ -55,30 +64,17 @@
         padding-left: 22px;
     }
 
-    .Oval {
-        width: 118px;
-        height: 118px;
-        opacity: 0.7;
-        -webkit-filter: blur(7.6px);
-        filter: blur(7.6px);
-        background-image: linear-gradient(to right, #f89096, #b1b4e5);
-        border-radius: 70%;
-    }
-    .Oval-Copy {
-        width: 108px;
-        height: 108px;
-        background-color: var(--white);
-    }
-    .primary-button {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 18px;
-    }
     .counter {
         position: relative;
-        top: -22%;
+        top: 35px;
+    }
+
+    .animation {
+    }
+
+    .fix {
+        height: 300px;
+        width: 500px;
     }
 }
 

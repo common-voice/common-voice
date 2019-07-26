@@ -19,17 +19,16 @@ import {
   PlayIcon,
 } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
-import {
-  PlayLink,
-  RecordLink,
-  PrimaryButton,
-  Voice,
-} from '../../../primary-buttons/primary-buttons';
+import { Voice } from '../../../primary-buttons/primary-buttons';
 import AudioIOS from '../../contribution/speak/audio-ios';
 import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
 import { isFirefoxFocus, isNativeIOS, isProduction } from '../../../../utility';
+import { Suspense, lazy } from 'react';
+const Lottie = lazy(() => import('react-lottie'));
+const animationData = require('../../../layout/data.json');
 
 import './avatar-setup.css';
+import { string, object } from 'prop-types';
 
 function resizeImage(file: File, maxSize: number): Promise<Blob> {
   const reader = new FileReader();
@@ -106,6 +105,8 @@ class AvatarSetup extends React.Component<Props> {
     recordingStatus: false,
     avatarClipPlaying: false,
     counter: 3,
+    clipStatus: 'notStarted',
+    blobUrl: new Blob(),
   };
 
   audio: AudioWeb | AudioIOS;
@@ -200,7 +201,10 @@ class AvatarSetup extends React.Component<Props> {
     const RECORD_STOP_DELAY = 500;
     setTimeout(async () => {
       const info = await this.audio.stop();
-      this.uploadAvatarClip(info.blob);
+      this.setState({ blobUrl: info.blob });
+      this.setState({ clipStatus: 'recorded' });
+      console.log(this.state.blobUrl, 'lallan bhaiya', typeof info.url);
+      //this.uploadAvatarClip(info.blob);
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
     this.setState({
@@ -208,11 +212,13 @@ class AvatarSetup extends React.Component<Props> {
     });
   };
 
-  async uploadAvatarClip(blob: Blob) {
+  private uploadAvatarClip() {
+    console.log(this.state.blobUrl, 'giiii', typeof this.state.blobUrl);
     const { api, refreshUser, addNotification } = this.props;
-    await api
-      .saveAvatarClip(blob)
+    api
+      .saveAvatarClip(this.state.blobUrl)
       .then(data => {
+        this.setState({ clipStatus: 'notStarted' });
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -229,11 +235,14 @@ class AvatarSetup extends React.Component<Props> {
   }
 
   private counter = () => {
+    this.setState({ clipStatus: 'starting' });
     var downloadTimer = setInterval(() => {
       console.log(this.state.counter, 'ggg');
       let tl = this.state.counter - 1;
       this.setState({ counter: tl });
       if (this.state.counter <= 0) {
+        this.setState({ clipStatus: 'started' });
+        this.handleRecordClick();
         clearInterval(downloadTimer);
       }
     }, 1000);
@@ -247,35 +256,81 @@ class AvatarSetup extends React.Component<Props> {
       refreshUser,
       user: { account },
     } = this.props;
-    const { recordingStatus, avatarClipPlaying, counter } = this.state;
+    const {
+      recordingStatus,
+      avatarClipPlaying,
+      counter,
+      clipStatus,
+    } = this.state;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
         ? 'gravatar'
         : null;
+
+    const defaultOptions = {
+      loop: true,
+      autoplay: true,
+      animationData: animationData,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice',
+      },
+    };
+
     return (
       <div className="full-avatar-setup">
         <div className="clip">
           <Localized id="add-avatar-clip">
             <h2 className="clip-title" />
           </Localized>
-
-          <div className="Group-1">
-            <img src={require('./group-1.svg')} />
+          <div className="fix">
+            {clipStatus === 'notStarted' || clipStatus === 'starting' ? (
+              <div>
+                <div className="Group-1">
+                  {clipStatus === 'starting' && (
+                    <div className="counter">
+                      <Voice>
+                        <p>{counter}</p>
+                      </Voice>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ) : (
+              <div>
+                <Suspense fallback={<div></div>}>
+                  <div>
+                    <Lottie options={defaultOptions} eventListeners={[]} />
+                  </div>
+                </Suspense>
+              </div>
+            )}
           </div>
-          <div className="counter">
-            <Voice>
-              <p>{counter}</p>
-            </Voice>
-          </div>
-          <Localized id="create-voice-wave">
-            <Button
-              outline
-              rounded
-              className="Primary "
-              onClick={this.counter}
-            />
-          </Localized>
+          {(clipStatus === 'notStarted' || clipStatus === 'starting') && (
+            <Localized id="create-voice-wave">
+              <Button
+                outline
+                rounded
+                className="Primary "
+                onClick={this.counter}
+              />
+            </Localized>
+          )}
+          {clipStatus === 'started' && (
+            <Localized id="recording-voice-wave">
+              <Button outline rounded className="Primary " />
+            </Localized>
+          )}
+          {clipStatus === 'recorded' && (
+            <Localized id="ready-to-upload">
+              <Button
+                outline
+                rounded
+                className="Primary-2 "
+                onClick={this.uploadAvatarClip.bind(this)}
+              />
+            </Localized>
+          )}
           <Localized id="about-avatar-clip">
             <p className="Create-a-custom-voic" />
           </Localized>
