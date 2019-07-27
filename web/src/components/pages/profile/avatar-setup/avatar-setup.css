@@ -32,6 +32,14 @@
         object-fit: contain;
         background-image: url('./group-1.svg');
     }
+
+    .lottiebg {
+        width: 508px;
+        height: 169px;
+        object-fit: contain;
+        background-image: url('./groupbg.svg');
+    }
+
     .Primary {
         width: 30%;
         height: 57px;

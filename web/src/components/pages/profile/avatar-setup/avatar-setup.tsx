@@ -203,7 +203,6 @@ class AvatarSetup extends React.Component<Props> {
       const info = await this.audio.stop();
       this.setState({ blobUrl: info.blob });
       this.setState({ clipStatus: 'recorded' });
-      console.log(this.state.blobUrl, 'lallan bhaiya', typeof info.url);
       //this.uploadAvatarClip(info.blob);
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
@@ -213,12 +212,11 @@ class AvatarSetup extends React.Component<Props> {
   };
 
   private uploadAvatarClip() {
-    console.log(this.state.blobUrl, 'giiii', typeof this.state.blobUrl);
     const { api, refreshUser, addNotification } = this.props;
     api
       .saveAvatarClip(this.state.blobUrl)
       .then(data => {
-        this.setState({ clipStatus: 'notStarted' });
+        this.setState({ clipStatus: 'notStarted', counter: 0 });
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -283,8 +281,9 @@ class AvatarSetup extends React.Component<Props> {
           <Localized id="add-avatar-clip">
             <h2 className="clip-title" />
           </Localized>
+          {/* Below fix div is for middle content of avatar setup like wave image, lottie animation */}
           <div className="fix">
-            {clipStatus === 'notStarted' || clipStatus === 'starting' ? (
+            {(clipStatus === 'notStarted' || clipStatus === 'starting') && (
               <div>
                 <div className="Group-1">
                   {clipStatus === 'starting' && (
@@ -296,7 +295,8 @@ class AvatarSetup extends React.Component<Props> {
                   )}
                 </div>
               </div>
-            ) : (
+            )}
+            {clipStatus === 'started' && (
               <div>
                 <Suspense fallback={<div></div>}>
                   <div>
@@ -305,6 +305,7 @@ class AvatarSetup extends React.Component<Props> {
                 </Suspense>
               </div>
             )}
+            {clipStatus === 'recorded' && <div className="lottiebg"></div>}
           </div>
           {(clipStatus === 'notStarted' || clipStatus === 'starting') && (
             <Localized id="create-voice-wave">
@@ -318,7 +319,12 @@ class AvatarSetup extends React.Component<Props> {
           )}
           {clipStatus === 'started' && (
             <Localized id="recording-voice-wave">
-              <Button outline rounded className="Primary " />
+              <Button
+                outline
+                rounded
+                className="Primary "
+                onClick={this.handleRecordClick}
+              />
             </Localized>
           )}
           {clipStatus === 'recorded' && (
