@@ -87,6 +87,7 @@ mk = Makedonska
 ml = Malayalam
 mn = Mongoliska
 mrj = Västmariska
+mt = Maltesiska
 myv = Erzya
 nb-NO = Norska Bokmål
 ne-NP = Nepali
@@ -699,7 +700,9 @@ overall-accuracy = Övergripande noggrannhet
 
 ## Custom Goals
 
+get-started-goals = get-started-goals = Kom igång med mål
 toward-next-goal = Till nästa mål
+create-custom-goal = create-custom-goal = Skapa ett anpassat mål
 both-speak-and-listen = Båda
 both-speak-and-listen-long = Båda (Prata och lyssna)
 daily-goal = Dagligt mål
@@ -715,6 +718,7 @@ cant-decide = Kan du inte bestämma?
 how-many-per-day = Bra! Hur många klipp per dag?
 how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?
+n-clips = n-clips = { NUMBER($count) } klipp
 help-share-goal = Hjälp oss att hitta fler röster, dela ditt mål
 confirm-goal = Bekräfta målet
 goal-interval-weekly = Veckovis
