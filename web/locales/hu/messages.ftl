@@ -87,6 +87,7 @@ mk = Macedón
 ml = Malajálam
 mn = Mongol
 mrj = Hegyi mari
+mt = Máltai
 myv = Erza
 nb-NO = Norvég bokmål
 ne-NP = Nepáli
@@ -693,6 +694,9 @@ recorded-clips = Rögzített klipek
 validated-clips = Ellenőrzött klipek
 total-approved = Összes jóváhagyott
 overall-accuracy = Összesített pontosság
+set-visibility = Láthatóság beállítása
+visibility-explainer = Ez a beállítás vezérli, hogy megjelenik-e a ranglistában. Rejtett állapotban az előhaladása privát lesz. Ez azt jelenti, hogy a képe, felhasználóneve és az előrehaladása nem fog megjelenni a ranglistán. Vegye figyelembe, hogy a ranglista frissítése ~ { $minutes } percet vesz igénybe.
+visibility-overlay-note = Megjegyzés: Ha „Látható” értékre van állítva, akkor ezt a beállítást a <profileLink>profiloldalon</profileLink> módosíthatja
 
 ## Custom Goals
 
