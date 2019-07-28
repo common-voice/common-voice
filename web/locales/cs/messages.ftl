@@ -164,10 +164,10 @@ vote-yes = Ano
 vote-no = Ne
 toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
 speak-subtitle = Darujte svůj hlas
-speak-paragraph = Nahrávání záznamů hlasu je nedílnou součástí tvorby naší otevřené databáze. A pro některé i zábava.
+speak-paragraph = Pořizování nahrávek hlasu je nedílnou součástí tvorby naší otevřené databáze. A pro některé i zábava.
 speak-goal-text = Počet nahrávek
 listen-subtitle = Pomozte nám ověřovat nahrávky
-listen-paragraph = Ověřování hlasových záznamů je pro projekt Common Voice také důležité. Zaposlouchejte se a pomozte nám vytvořit kvalitní veřejně přístupnou databázi.
+listen-paragraph = Ověřování hlasových nahrávek je pro projekt Common Voice také důležité. Zaposlouchejte se a pomozte nám vytvořit kvalitní veřejně přístupnou databázi.
 listen-goal-text = Klipů ověřeno
 hours-recorded = Hodin nahráno
 hours-validated = Hodin ověřeno
@@ -333,17 +333,18 @@ change-email-setings = Svou e-mailovou adresu můžete změnit v Nastavení v č
 faq-title = Často kladené otázky
 faq-what-cv-q = Co je projekt Common Voice?
 faq-what-cv-a =
-    Technologie rozpoznávání hlasu mění způsob, jakým komunikujeme se stroji, avšak většina v současnosti dostupných systémů je drahá a uzavřená. Projekt Common Voice je součástí iniciativy společnosti Mozilla s cílem technologie rozpoznávání hlasu vylepšit a zpřístupnit pro všechny. Projekt Common Voice je rozsáhlou celosvětovou databází darovaných hlasových záznamů, umožňující v podstatě komukoliv rychle a jednoduše vytrénovat hlasové aplikace v takřka jakémkoliv jazyce.
+    Technologie rozpoznávání hlasu mění způsob, jakým komunikujeme se stroji, avšak většina v současnosti dostupných systémů je drahá a uzavřená. Projekt Common Voice je součástí iniciativy společnosti Mozilla s cílem technologie rozpoznávání hlasu vylepšit a zpřístupnit pro všechny. Projekt Common Voice je rozsáhlou celosvětovou databází darovaných hlasových nahrávek, umožňující v podstatě komukoliv rychle a jednoduše vytrénovat hlasové aplikace v takřka jakémkoliv jazyce.
     
     Nesbíráme pouze hlasové záznamy v široce používaných jazycích, nýbrž i v těch méně používaných. Zveřejnění bohaté hlasové databáze umožní vývojářům, podnikatelům a komunitám zaplnit tuto mezeru vlastními silami. Kromě projektu Common Voice vytváříme také otevřený systém rozpoznávání hlasu nazvaný Deep Speech.
 faq-why-important-q = Proč je to důležité?
 faq-why-important-a =
     Lidský hlas je mnohdy nejpřirozenějším způsobem mezilidské komunikace a hlasové technologie přinášejí pohodlí tohoto způsobu komunikace do našich počítačů a mobilních zařízení. Chceme tedy umožnit vývojářům tvorbu skvělých hlasových aplikací, jako například překladače a hlasem ovládané digitální asistenty. Ale v současné době je většina hlasových dat potřebných pro tvorbu podobných aplikací velmi drahá či přímo nedostupná. Doufáme však, že projekt Common Voice dá vývojářům to, co potřebují, aby vytvořili podobné inovativní technologie i ve svém jazyce.
     
-    Abychom technologie rozpoznávání hlasu více rozšířili, sbíráme hlasové záznamy v široce rozšířených jazycích stejně jako v jazycích s menším počtem mluvčích, často nepokrytých komerčními systémy rozpoznávání hlasu. Zveřejnění rozsáhlé databáze hlasových záznamů umožní vývojářům, podnikatelům i celým komunitám zaměřeným na technologie rozpoznávání hlasu zaplnit tuto mezeru vlastními silami.
+    Abychom technologie rozpoznávání hlasu více rozšířili, sbíráme hlasové nahrávky v široce rozšířených jazycích stejně jako v jazycích s menším počtem mluvčích, často nepokrytých komerčními systémy rozpoznávání hlasu. Zveřejnění rozsáhlé databáze hlasových nahrávek umožní vývojářům, podnikatelům i celým komunitám zaměřeným na technologie rozpoznávání hlasu zaplnit tuto mezeru vlastními silami.
 faq-how-get-q = Jak mohu získat data projektu Common Voice?
 faq-how-get-a = Databáze projektu Common Voice je k dispozici ke stažení pod licencí <licenseLink>CC0</licenseLink> na <datasetLink>stránce Datasety</datasetLink>. Z této stránky si můžete stáhnout také několik jiných veřejně dostupných databází.
-faq-when-release-q = Kdy zveřejníte data projektu Common Voice i v dalších jazycích?
+faq-when-release2-q = Kdy bude projekt Common Voice spuštěn v dalších jazycích?
+faq-when-release2-a = Vícejazyčná verze databáze Common Voice v současné době prochází komunitní tvorbou a čištěním. Chcete-li pomoci rozšířít projekt Common Voice pro nové jazyky, zamiřte na stránky našeho <sentenceCollectorLink>nástroje pro sběr vět</sentenceCollectorLink> a jejich přidávání do databáze pro nahrávání, nebo na server <pontoonLink>Mozilla Pontoon</pontoonLink>, kde můžete pomoci s překladem stránky samotné. Nové jazyky jsou do projektu Common Voice zahrnovány v okamžiku, kdy je pro ně nashromážděno alespoň 5000 schválených vět.
 faq-why-mission-q = Proč je projekt Common Voice součástí projektů společnosti Mozilla?
 faq-why-mission-a = Hlavním cílem organizace Mozilla je udržet web otevřený a dostupný pro všechny. Tomu napomáhají i projekty jako je například Common Voice. S rozšiřováním hlasových technologií i mimo specializované aplikace se domníváme, že by tyto aplikace měly moci sloužit všem uživatelům stejně. To znamená, že je potřeba získat hlasová data všech možných národností, přízvuků a demografických skupin pro tvorbu a testování hlasových technologií. Projekt Common Voice je otevřeným a veřejným zdrojem těchto dat dostupným každému, a vývojářské týmy organizace Mozilla tento zdroj již v současné době používají i pro naše vlastní projekty.
 faq-what-cv-and-deepspeech-q = Jaký je rozdíl mezi projekty Common Voice a Deep Speech?
@@ -357,32 +358,77 @@ faq-why-different-speakers-a =
     Většina databází mluveného slova je trénována s nadměrným zastoupením určitých demografických skupin, zpravidla <articleLink>mužů  střední třídy</articleLink>. Méně zastoupeny jsou poté přízvuky a dialekty tradičně asociované s minoritními etnickými skupinami. Mnoho strojů má taktéž problémy s ženskými hlasy.
     Proto v naší databázi chceme slyšet všechny!
 faq-why-my-lang-q = Proč můj jazyk ještě není zahrnut?
-faq-what-quality-q = Jaká úroveň kvality audio záznamu je potřebná pro nahrání klipu do databáze?
-faq-what-quality-a = Chceme, aby databáze projektu Common Voice odrážela kvalitu audio záznamů, s kterými se poté budoucí systémy rozpoznání hlasu mohou setkat v běžném provozu, takže se snažíme o co největší spektrum rozdílných kvalit. Systémy rozpoznávání hlasu si tedy budou moci snadněji poradit s různými běžnými situacemi, od rozhovorů na pozadí po zvuky projíždějících aut. Je-li tedy váš audio záznam slyšitelný, měl by pro naši databázi vyhovovat.
-faq-why-10k-hours-q = Proč je cílem pro nahrávání zvukových záznamů zrovna 10 000 ověřených hodin za jazyk?
+faq-why-my-lang-new-a = Mozilla nevybírá žádné jazyky ani je navzájem nijak neupřednostňuje. Místo toho je projekt Common Voice řízen čistě požadavky a aktivitou komunity. Přidání nového jazyka a zahájení sběru je však <multilangLink>procesem na více kroků</multilangLink>. Prvně je třeba přeložit stránky projektu Common Voice do daného jazyka, aby byla práce se stránkou umožněna mluvčím daného jazyka bez znalosti jakéhokoliv jiného jazyka. Dále potřebujeme sesbírat značnou databázi veřejně dostupných vět, které poté mohou mluvčí číst. Jakmile jsou oba tyto požadavky splněny, jazyk je na stránce projektu Common Voice spuštěn a mluvčí mohou začít nahrávat svůj hlas a ověřovat nahrávky ostatních. Chcete-li pomoci spustit nový jazyk, zamiřte na stránky našeho <sentenceCollectorLink>nástroje pro sběr vět</sentenceCollectorLink>.
+faq-what-quality-q = Jaká kvalita nahrávek je potřebná pro jejich zařazení databáze?
+faq-what-quality-a = Chceme, aby databáze projektu Common Voice odrážela kvalitu nahrávek, s kterými se poté budoucí systémy rozpoznání hlasu mohou setkat v běžném provozu, takže se snažíme o co největší spektrum rozdílných kvalit. Systémy rozpoznávání hlasu si tedy budou moci snadněji poradit s různými běžnými situacemi, od rozhovorů na pozadí po zvuky projíždějících aut. Je-li tedy vaše nahrávka slyšitelná, měla by pro naši databázi vyhovovat.
+faq-why-10k-hours-q = Proč je cílem pro pořizování nahrávek zrovna 10 000 ověřených hodin pro daný jazyk?
 faq-why-10k-hours-a = Je to počet hodin potřebných k natrénování produkčního systému pro převod hlasu na text.
 faq-how-calc-hours-q = Jak projekt Common Voice počítá nahrané hodiny?
-faq-how-calc-hours-a = Celkovou nahranou dobu počítáme odhadnutím průměrné délky audio záznamu, kterou vynásobíme celkovým počtem audio záznamů.
+faq-how-calc-hours-a = Celkovou nahranou dobu počítáme odhadnutím průměrné délky nahrávky, kterou vynásobíme jejich celkovým počtem.
 faq-where-src-from-2-q = Odkud pochází původní text?
 faq-why-not-ask-read-q = Proč prostě nepožádáte lidi, aby četli z knih či články na Wikipedii?
+faq-why-not-ask-read-a = Aby mohl být dataset projektu Common Voice co nejužitečnější, rozhodli jsme se povolit použití pouze zdrojových textů dostupných pod licencí Creative Commons (CC0). Použití licence CC0 sice znamená, že je obtížnější najít a sesbírat použitelné věty, na druhou stranu ale umožňuje každému použít sesbíraná data bez jakýchkoliv omezení či nutnosti shánět si povolení. Koneckonců chceme učinit dataset Common Voice co nejužitečnějším každému, včetně výzkumníků, univerzit, startupů, vládních organizací, společenských organizací, a koníčkářů.
 faq-why-account-q = Proč bych si měl(a) vytvořit účet?
 faq-is-account-public-q = Jsou informace o mém účtu veřejně přístupné?
 faq-how-privacy-q = Jak zajišťujete anonymitu a soukromí jednotlivých přispěvatelů projektu Common Voice?
-faq-how-privacy-a = Všechny hlasové záznamy v databázi jsou očištěny od osobně identifikujících informací. Poskytne-li uživatel skrz svůj profil nějaká demografická data, tato jsou před uložením do databáze ze záznamu taktéž odstraněna a navíc nejsou nikdy zveřejněna na uživatelském profilu.
+faq-how-privacy-a = Všechny nahrávky v databázi jsou očištěny od osobně identifikujících informací. Poskytne-li uživatel skrz svůj profil nějaká demografická data, tato jsou před uložením do databáze s nahrávkami taktéž odstraněna a navíc nejsou nikdy zveřejněna na uživatelském profilu.
 faq-what-determine-identity-q = Co to znamená že "nelze určit identity" mluvčích v databázi projektu Common Voice?
 faq-what-determine-identity-a =
     Databáze projektu Common Voice je otevřeným a veřejně přístupným zdrojem použitelným k vytrénování široké škály hlasových aplikací. Pro ochranu bezpečnosti vašich příspěvků vyzýváme každého stahujícího databáze Common Voice k respektování soukromí jednotlivých přispěvatelů.
     
-    Všechny hlasové záznamy v databázi jsou zbaveny osobně identifikujících údajů. Stáhnutím databáze se zavazujete nepokoušet se zjistit identitu jednotlivých přispěvatelů. To znamená, že se nesmíte pokoušet propojit informace získané z databáze s informacemi v databázi uživatelských profilů. Na druhou stranu ale můžete použít databázi projektu Common Voice k vytrénování algoritmů rozpoznávání mluveného slova, mluvčího, či jiné aplikace, použitím čistě údajů obsažených v databázi a jejich různým vzájemným propojováním.
+    Všechny nahrávky v databázi jsou zbaveny osobně identifikujících údajů. Stáhnutím databáze se zavazujete nepokoušet se zjistit identitu jednotlivých přispěvatelů. To znamená, že se nesmíte pokoušet propojit informace získané z databáze s informacemi v databázi uživatelských profilů. Na druhou stranu ale můžete použít databázi projektu Common Voice k vytrénování algoritmů rozpoznávání mluveného slova, mluvčího, či jiné aplikace, použitím čistě údajů obsažených v databázi a jejich různým vzájemným propojováním.
+faq-what-is-cv = Co je Common Voice?
+faq-using-cv = Používání projektu Common Voice
+faq-description = Projekt Common Voice je součástí iniciativy Mozilly, která pomáhá strojům učit se, jak mluví skuteční lidé.
+faq-search-for-answers =
+    .label = Najít odpovědi
 
 ## ABOUT US
 
+about-title = Proč Common Voice?
+about-subtitle = Projekt Common Voice je součástí iniciativy Mozilly, která pomáhá strojům učit se, jak mluví skuteční lidé. Kromě datasetu Common Voice vytváříme také systém rozpoznávání hlasu s otevřeným zdrojovým kódem zvaný Deep Speech.
+how-does-it-work-title = Jak to funguje?
+about-speak = Čtení
+about-speak-text = Přispěvatelé pořizují nahrávky čtením z databáze vět.
+about-listen-queue = Fronta nahrávek
+about-listen-queue-text = Nahrávky jsou zanášeny do fronty, kde čekají na kontrolu.
+about-listen = Poslech
+about-listen-text = Uživatelé ověřují správnost nahrávek a kontrolují, že byly přečteny bez chyb.
+about-is-it-valid = Je nahrávka platná?
+about-is-it-valid-text = Nahrávka je označena jako platná po schválení jiným uživatelem.
+about-yes-votes = ≥ 2 hlasy pro Ano
+about-yes-votes-text = Aby se nahrávka natrvalo dostala do databáze Common Voice, musí být nezávisle schválena dvěma různými uživateli.
+about-no-votes = ≥ 2 hlasy pro Ne
+about-no-votes-text = Zamítne-li uživatel nahrávku jako nepřesnou, vrací ji tím zpět do fronty. Je-li zamítnuta i podruhé jiným uživatelem, je vyřazena.
+about-dataset-new = Databáze Common Voice
+about-dataset-new-text = Databáze Common Voice obsahuje stovky tisíc nahrávek pomáhajících vývojářům vytvářet systémy rozpoznávání hlasu.
+about-clip-graveyard = Hřbitov nahrávek
+about-clip-graveyard-text = Hřbitov nahrávak obsahuje všechny nahrávky, které se nedostaly do hlavní databáze Common Voice. Stejně jako hlavní databáze je i hřbitov k dispozici ke stažení.
+about-partners = Partneři
+about-become-a-partner = Staňte se partnerem
+about-partnership =
+    Projekt Common Voice je založený práci dobrovolníků a je závislý na naší komunitě partnerů a přispěvatelů, aby z něj učinili tu největší otevřenou databázi hlasových nahrávek, co kdy byla.
+    
+    Rádi bychom poděkovali následujícím lidem a organizacím za jejich pomoc:
+about-get-involved = Zapojte se
+about-get-involved-text =
+    Chcete pomoci projekt Common Voice dále zlepšovat?
+    Skvěle! Spojte se s námi prostřednictvím e-mailu nebo na <discourseLink>Discourse</discourseLink>,
+    odešlete zpětnou vazbu skrz <githubLink>GitHub</githubLink>,
+    nebo se připojte na náš <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Proč?
+about-nav-how-it-works = Jak?
+about-nav-partners = Partneři
+about-nav-get-involved = Zapojte se
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Umělá inteligence
 
 ## Glossary
 
 glossary = Slovník
 localization = Lokalizace
 sentence-collection = Sbírka vět
+sentence-collection-explanation = Sběr vět ve veřejné doméně, nebo tvorba nových vět ve veřejné doméně.
 sst = Převod řeči na text (STT)
 sst-explanation = Technologie převodu řeči na text (STT) převádí hlasová data na text.
 
@@ -459,6 +505,7 @@ ready-to-validate = Jste připraveni pomoci s ověřováním vět?
 more = Více
 close = Zavřít
 download = Stáhnout
+dataset-version = Verze
 
 ## Download Modal
 
@@ -505,7 +552,7 @@ localized = Přeloženo
 sentences = Věty
 total-hours = Ověřené hodiny
 
-## New Contribution
+## Contribution
 
 action-click = Klikněte
 action-tap = Klepněte
@@ -539,7 +586,6 @@ record-again-instruction = Skvělé! <recordIcon></recordIcon> Nahrajte váš da
 record-again-instruction2 = Jen tak dál, pokračujte v nahrávání <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Poslední!
 review-tooltip = Zde zkontrolujte nahrávky a nahrajte je znovu
-unable-speak = Nemůžete teď mluvit?
 review-instruction = Zkontrolujte nahrávky a nahrajte je znovu, pokud to bude potřeba
 clips-uploaded = Nahraných klipů
 record-abort-title = Nechcete napřed dokončit nahrávání?
@@ -554,6 +600,27 @@ listen-last-time-instruction = <playIcon></playIcon>Poslední!
 nothing-to-validate = V tomto jazyce nemáme nic ke kontrole, pomozte nám naplnit frontu.
 record-button-label = Nahrajte svůj hlas
 share-title-new = <bold>Pomozte nám</bold> najít další hlasy
+
+## Reporting
+
+report = Hlášení
+report-title = Nahlásit
+report-ask = Jaké máte potíže s touto větou?
+report-offensive-language = Urážky
+report-offensive-language-detail = Věta obsahuje urážlivé nebo sprosté výrazy.
+report-grammar-or-spelling = Gramatické chyby
+report-grammar-or-spelling-detail = Věta obsahuje gramatické chyby nebo překlepy.
+report-different-language = Jiný jazyk
+report-different-language-detail = Věta je v jiném jazyce než jaký mám nastaven.
+report-difficult-pronounce = Obtížná výslovnost
+report-difficult-pronounce-detail = Věta obsahuje těžko čitelná a vyslovitelná slova nebo fráze.
+report-offensive-speech = Urážky
+report-offensive-speech-detail = Věta obsahuje urážlivé nebo sprosté výrazy.
+report-other-comment =
+    .placeholder = Komentář
+success = Úspěch
+continue = Pokračovat
+report-success = Hlášení bylo odesláno
 
 ## Goals
 
@@ -590,12 +657,16 @@ validated-clips = Ověřené nahrávky
 total-approved = Celkem schváleno
 overall-accuracy = Celková přesnost
 
+## Custom Goals
+
+toward-next-goal = Další cíl
+
 ## Profile Delete
 
 delete-q = Chcete smazat i vaše nahrávky, nebo je raději ponecháte v datasetu Common Voice?
 keep = Zachovat
 remove = Odebrat
-keep-info = Vaše anonymní hlasové záznamy zůstanou v databázi Common Voice. Po odstranění profilu již nebudete moci zadat žádost o odstranění vašich záznamů z databáze
+keep-info = Vaše anonymní nahrávky zůstanou v databázi Common Voice. Po odstranění profilu již nebudete moci zadat žádost o odstranění vašich dat z databáze
 remove-info = Posoudíme váš požadavek na smazání vašich nahrávek z datasetu. Pokud ho schválíme, kontaktujeme ty, kteří si dataset stáhli, a požádáme je o smazání vašich nahrávek.
 why-delete-recordings =
     Nahrávky v Common Voice jsou používány akademiky, malými podniky a fanoušky rozpoznávání hlasu k trénování a rozšiřování veřejně dostupných zdrojů, jako například hlasových modelů.
@@ -605,4 +676,6 @@ profile-form-delete = Smazat profil
 
 ## Landing
 
+login-company = Přihlásit / Zaregistrovat se e-mailem { $company }
 profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
+read-more-about = Přečtěte si více na stránce O nás
