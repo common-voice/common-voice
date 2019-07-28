@@ -87,6 +87,7 @@ mk = মেচিডনীয়
 ml = মলয়ালম
 mn = মংগোলীয়
 mrj = হিল মাৰি
+mt = মাল্টিছ
 myv = এৰ্জ্যা
 nb-NO = ন'ৰ্ৱেইয়ান ব'কমাল
 ne-NP = নেপালি
@@ -568,7 +569,7 @@ localized = স্থানীয়কৃত
 sentences = বাক্য
 total-hours = বৈধকৃত ঘণ্টা
 
-## New Contribution
+## Contribution
 
 action-click = ক্লিক কৰক
 action-tap = টেপ কৰক
@@ -616,6 +617,7 @@ listen-last-time-instruction = <playIcon></playIcon>অন্তিম এটা
 nothing-to-validate = এই ভাষাত বৈধকৰণ কৰিবলৈ আমাৰ একো নাই, শাৰীটো পূৰ্ণ কৰাত আমাক সহায় কৰক।
 record-button-label = আপোনাৰ কণ্ঠ ৰেকৰ্ড কৰক
 share-title-new = আৰু কণ্ঠ বিচৰাত <bold>আমাক সহায় কৰক</bold>
+login-to-get-started = আৰম্ভ কৰিবলৈ লগ ইন বা ছাইন আপ কৰক
 
 ## Reporting
 
@@ -674,6 +676,28 @@ recorded-clips = ৰেকৰ্ড কৰা ক্লিপ
 validated-clips = বৈধকৃত ক্লিপ
 total-approved = মুঠ অনুমোদিত
 overall-accuracy = সৰ্বমুঠ সঠিকতা
+set-visibility = মোৰ দৃশ্যমানতা ছেট কৰক
+
+## Custom Goals
+
+toward-next-goal = পৰৱৰ্তী লক্ষ্যৰ দিশে
+both-speak-and-listen = দুয়োটা
+both-speak-and-listen-long = দুয়োটা (কথা কওঁক আৰু শুনক)
+daily-goal = দৈনিক লক্ষ্য
+weekly-goal = সাপ্তাহিক লক্ষ্য
+easy-difficulty = সহজ
+average-difficulty = গড়
+difficult-difficulty = কঠিন
+pro-difficulty = প্ৰ'
+want-to-continue = আপুনি অব্যাহত ৰাখিব বিচাৰে নেকি?
+finish-editing = প্ৰথমে সম্পাদনা শেষ কৰিবনে?
+lose-changes-warning = এতিয়া এৰি যোৱা মানে আপুনি আপোনাৰ সাল-সলনি হেৰুৱাব
+set-a-goal = লক্ষ্য ছেট কৰক
+cant-decide = সিদ্ধান্ত ল'ব পৰা নাই?
+n-clips = { NUMBER($count) }টা ক্লিপ
+share-goal-type-speak = কথা কোৱা
+share-goal-type-listen = শুনা
+share-goal-type-both = কথা কোৱা আৰু শুনা
 
 ## Profile Delete
 
