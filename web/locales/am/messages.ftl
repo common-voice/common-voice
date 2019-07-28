@@ -177,7 +177,7 @@ today = ዛሬ
 x-weeks-short =
     { $count ->
         [one] ሳምንት
-       *[other] { $count }wk
+       *[other] { $count }ሳም
     }
 x-months-short =
     { $count ->
@@ -189,6 +189,9 @@ x-years-short =
         [one] አመት
        *[other] { $count }አ
     }
+help-make-dataset = ጥራት ያለው እና ለህዝብ ክፍት የሆነ የመረጃ ስብስብ እንድንገነባ ይርዱን
+sign-up-account = መለያ ለማግኘት ይመዝገቡ
+email-subscription-title = ለኢሜይል ማሳወቂያ ይመዝገቡ
 
 ## Account Benefits
 
