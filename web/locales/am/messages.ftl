@@ -168,12 +168,26 @@ listen-goal-text = የተረጋገጡ ቅጂዎች
 hours-recorded = ለመቅዳት የፈጀው ሰዓት
 hours-validated = ለማረጋገጥ የፈጀው ሰዓት
 voices-online = በመስመር ላይ ያሉ ድምፆች
+todays-progress = የዛሬው ሂደት
+help-reach-goal = ወደ { $goal } እንድንደርስ ያግዙን
+read-terms-q = የእኛን ውሎች አንብበዋል?
+ready-to-record = ድምፅዎን ለመለገስ ዝግጁ ነዎት?
 all-locales = ሁሉም
 today = ዛሬ
 x-weeks-short =
     { $count ->
         [one] ሳምንት
        *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] ወር
+       *[other] { $count }ወር
+    }
+x-years-short =
+    { $count ->
+        [one] አመት
+       *[other] { $count }አ
     }
 
 ## Account Benefits
