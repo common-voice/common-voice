@@ -685,6 +685,8 @@ recorded-clips = คลิปที่อัด
 validated-clips = คลิปที่ตรวจสอบ
 total-approved = ได้รับการอนุมัติทั้งหมด
 overall-accuracy = ความแม่นยำทั้งหมด
+set-visibility = ตั้งค่าการมองเห็นของฉัน
+visibility-overlay-note = หมายเหตุ: เมื่อตั้งค่าเป็น 'มองเห็นได้' การตั้งค่านี้สามารถเปลี่ยนได้จาก <profileLink>หน้าโปรไฟล์</profileLink>
 
 ## Custom Goals
 
@@ -718,7 +720,8 @@ goal-interval-weekly = รายสัปดาห์
 share-goal-type-speak = กำลังพูด
 share-goal-type-listen = กำลังฟัง
 share-goal-type-both = การพูดและการฟัง
-daily-goal-created = สร้างเป้าหมายประจำวันของคุณแล้ว
+weekly-goal-created = สร้างเป้าหมายรายสัปดาห์ของคุณแล้ว
+daily-goal-created = สร้างเป้าหมายรายวันของคุณแล้ว
 track-progress = ติดตามความคืบหน้าได้ที่นี่และในหน้าสถิติของคุณ
 return-to-edit-goal = กลับมาที่นี่เพื่อแก้ไขเป้าหมายของคุณได้ทุกเวลา
 share-goal = แบ่งปันเป้าหมายของฉัน
