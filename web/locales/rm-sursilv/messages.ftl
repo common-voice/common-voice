@@ -514,39 +514,39 @@ validated-hours = Uras confirmadas
 recorded-hours = Uras registradas
 whats-inside = Tgei sesanfla ell'unitad da datas da Common Voice?
 dataset-description-hours =
-    Mintga endataziun ell'unitad da datas consista ord in singul MP3 ed ina datoteca corrispundenta da text. Biaras da las <b>{ $total }</b> uras registradas ell'unitad da datas cuntegnan era metadatas demograficas sco la vegliadetgna, la schlatteina ed igl  accent, cun las qualas ins po trenar l'exactadad da maschinas per l'identificaziun dalla vusch.
-    L'unitad da datas consista actualmein ord <b>{ $valid }</b> uras confirmadas en <b>{ $languages }</b> linguas, mo nus aschuntein adina dapli novas vuschs e linguas. Viseta nossa <languagesLink> pagina da linguas</languagesLink> per dumandar ina lingua ni per entscheiver a contribuir.
-want-dataset-update = Lessas ti vegnir informaus sche nus publichein ina nova versiuns dall'unitad da datas da Common Voice? S'inscriva per nossa brev electronica..
-subscribe = Abonnar
-get-started-speech = Emprems pass a l'identificaziun vocala
+    Mintga endataziun ell'unitad da datas consista d'in singul MP3 e d'ina datoteca da text corrispundenta. Biaras dallas <b>{ $total }</b> uras registradas ell'unitad da datas cuntegnan era metadatas demograficas sco la vegliadetgna, la schlatteina ed igl accent, cun las qualas ins sa trenar l'exactadad da maschinas per identificar la vusch.
+    L'unitad da datas consista actualmein da <b>{ $valid }</b> uras confirmadas en <b>{ $languages }</b> lungatgs, mo nus aschuntein adina dapli novas vuschs e novs lungatgs. Viseta nossa <languagesLink> pagina da lungatgs</languagesLink> per tschercar in lungatg ni per entscheiver a contribuir.
+want-dataset-update = Vul ti vegnir informaus/informada, cura che nus publichein ina nova versiun dall'unitad da datas da Common Voice? S'inscriva per nossa brev electronica.
+subscribe = abonnar
+get-started-speech = Ils emprems pass a l'identificaziun vocala
 other-datasets = Autras unitads da datas vocalas
-feedback-q = Lessas ti dar in resun a nus?
-deepspeech-info = L'unitad da datas da Common Voice cumpletescha la maschina d'identificaziun da vusch open source Deep Speech da Mozilla, cun la quala ti pos sviluppar applicaziuns per l'identificaziun da lingua. Legia nossa <githubLink>survesta sin Github</githubLink> ni entra ella <discourseLink>DeepSpeech Discourse</discourseLink> per emprender ils emprems pass.
-common-voice-info-new = Has ti damondas davart Common Voice? Has ti ideas per megliuraments ni resuns davart ina lingua specifica? Viseta nus sin nies <discourseLink>forum Discourse</discourseLink> e dai part.
-data-other-librispeech-description = LibriSpeech ei in corpus da biabein 1000 uras da registraziuns prelegidas en lingua englesa (registradas en 16Khz) che derivan da cudischs auditivs e dil project LibriVox.
+feedback-q = Vul ti dar in resun a nus?
+deepspeech-info = L'unitad da datas da Common Voice cumpletescha la maschina d'identificaziun vocala open source Deep Speech da Mozilla, cun la quala ti sas sviluppar applicaziuns per l'identificaziun da lungatg. Legia nossa <githubLink>survesta sin Github</githubLink> ni entra ella <discourseLink>DeepSpeech Discourse</discourseLink> per emprender ils emprems pass.
+common-voice-info-new = Has ti damondas davart Common Voice? Has ti ideas per meglieraziuns ni resuns davart in lungatg specific? Viseta nus sin nies <discourseLink>forum Discourse</discourseLink> e dai part.
+data-other-librispeech-description = LibriSpeech ei in corpus da biabein 1000 uras da registraziuns prelegidas en lungatg engles (registradas en 16Khz) che derivan da cudischs auditivs e dil project LibriVox.
 data-other-ted-name = Corpus TED-LIUM
-data-other-ted-description = Il TED-LIUM corpus ei vegnius realisaus cun registraziuns d'audio da referats e lur transcripziuns ch'ein disponibels silla pagina web TED.
-data-other-voxforge-description = VoxForge ei vegnius fundaus per rimnar transcripziuns da lingua pil diever liber da maschinas d'identificaziun da lingua open source .
-data-other-tatoeba-description = Tatoeba ei la pli gronda unitad da datas da construcziuns, translaziuns e lingua plidada pil diever d'emprender linguas. Questa telecargada cuntegn Engles plidau registraus da sia cuminonza.
-your-feedback = Has ti in'idea co ins pudess meglierar l'unitad da datas da Common Voice? Lura dai part sin Discourse
+data-other-ted-description = Il corpus TED-LIUM ei vegnius realisaus cun registraziuns d'audio da referats e lur transcripziuns ch'ein disponiblas silla pagina-web TED.
+data-other-voxforge-description = Il corpus VoxForge ei vegnius creaus per rimnar transcripziuns da lungatg pil diever liber da maschinas d'identificaziun da lungatg open source.
+data-other-tatoeba-description = Tatoeba ei la pli gronda unitad da datas da construcziuns, translaziuns e lungatg discurriu pil diever d'emprender lungatgs. Quei download cuntegn engles discurriu registrau da sia communitad.
+your-feedback = Has ti propostas co meglierar l'unitad da datas da Common Voice? Lura dai part sin Discourse
 go-discourse = Va sin Discourse
-missing-language = Maunca tia lingua aunc ell'unitad da datas? Per dumandar ina lingua, viseta nossa Pagina da linguas
-go-languages-page = Va silla Pagina da linguas
-ready-to-validate = Eis ti pronts da gidar nus da valetar construcziuns?
-more = Dapli
-close = Serrar
-download = Telecargar
+missing-language = Maunca tiu lungatg aunc ell'unitad da datas? Per tschercar in lungatg, viseta nossa Pagina da lungatgs.
+go-languages-page = Va alla Pagina da lungatgs
+ready-to-validate = Eis ti promts/promta da gidar nus a valetar las construcziuns?
+more = dapli
+close = serrar
+download = telecargar
 dataset-version = Versiun
 
 ## Download Modal
 
-download-title = Tia telecargada ha entschiet.
-download-helpus = Gida nus da d'ereger ina cuminonza interessada vid tecnologias vocalas, resta en contact cun nus via email.
+download-title = Tiu download ha entschiet.
+download-helpus = Gida nus a crear ina communitad interessada a tecnologias vocalas, resta en contact cun nus via e-mail.
 download-form-email =
-    .label = Endatar tia adressa dad email
-    .value = Grazia, nus restein en contact.
-download-back = Anavos tier las unitads da datas da Common Voice
-download-no = Na, grazia
+    .label = Endatescha tia adressa dad e-mail
+    .value = Engraziel fetg, nus restein en contact.
+download-back = Anavos allas unitads da datas da Common Voice
+download-no = Na, engraziel fetg.
 
 ## Contact Modal
 
@@ -559,19 +559,19 @@ contact-required = *necessari
 
 ## Request Language Modal
 
-request-language-title = Damonda per ina nova lingua
+request-language-title = Damonda per in niev lungatg
 request-language-form-language =
-    .label = Lingua
-request-language-success-title = Ti has tarmess cun success ina damonda per ina nova lingua, grazia fetg!
-request-language-success-content = Nus s'annunziein en cuort cun dapli informaziuns co che tia lingua po vegnir integrada tier Common Voice.
-select-language = Elegia ina lingua...
-other-language = Autra lingua
+    .label = Lungatg
+request-language-success-title = Ti has tarmess cun success ina damonda per in niev lungatg, engraziel fetg!
+request-language-success-content = Nus s'annunziein en cuort cun dapli informaziuns co tiu lungatg sa vegnir integraus en Common Voice.
+select-language = Elegia in lungatg ...
+other-language = Auter lungatg
 
 ## Languages Overview
 
-language-section-in-progress = En elavuraziun
-language-section-in-progress-new-description = Questas linguas vegnan presentamein sviluppadas dalla cuminonza. Las travs da progress indicheschan per mintga lingua con lunsch che l'elavuraziun dalla <localizationGlossaryLink>translaziun dalla pagina web</localizationGlossaryLink> e la <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> ei vegnida realisada.
-language-section-launched = Lantschau
+language-section-in-progress = en elavuraziun
+language-section-in-progress-new-description = Quels lungatgs vegnan actualmein sviluppai dalla communitad. Las travs da progress indicheschan per mintga lungatg con lunsch che la<localizationGlossaryLink>translaziun dalla pagina-web</localizationGlossaryLink> e la <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> ei vegnida realisada.
+language-section-launched = lantschau
 language-section-launched-description =
     Per las suandontas linguas activas ei la pagina web vegnida
     <localizationGlossaryLink>translatau</localizationGlossaryLink> cumpleinamein ed ei dat ina
