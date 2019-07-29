@@ -200,6 +200,7 @@ help-make-dataset = Aiutaci a realizzare un dataset di alta qualità e aperto
 profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
 sign-up-account = Registrati
 email-subscription-title = Iscriviti agli aggiornamenti via email
+email-subscription-title-new = Iscriviti alle newsletter di Common Voice, ai promemoria degli obiettivi e agli aggiornamenti dei progressi
 
 ## Account Benefits
 
@@ -672,25 +673,54 @@ validated-clips = Registrazioni convalidate
 total-approved = Totale approvato
 overall-accuracy = Precisione complessiva
 set-visibility = Imposta la mia visibilità
+visibility-explainer = Questa impostazione controlla la tua visibilità nella classifica. Selezionando l’opzione Nascosto le tue attività rimarranno riservate, cioè la tua immagine, il nome utente e i progressi non appariranno sulla classifica. Tieni presente che la classifica impiega { $minutes } minuti per aggiornarsi.
+visibility-overlay-note = Nota: l’opzione Visibile può essere modificata successivamente in <profileLink>Profilo</profileLink>
 
 ## Custom Goals
 
 get-started-goals = Comincia a utilizzare gli obiettivi
 toward-next-goal = Verso il prossimo obiettivo
+create-custom-goal = Crea un obiettivo personale
 both-speak-and-listen = Entrambi
+both-speak-and-listen-long = Entrambi (registrare e convalidare)
 daily-goal = Obiettivo giornaliero
 weekly-goal = Obiettivo settimanale
 easy-difficulty = Facile
 average-difficulty = Medio
 difficult-difficulty = Difficile
+pro-difficulty = Esperto
+lose-goal-progress-warning = Se modifichi l’obiettivo potresti perdere gli attuali progressi.
 want-to-continue = Vuoi continuare?
+finish-editing = Vuoi finire prima le modifiche?
+lose-changes-warning = Se esci ora, perderai le tue modifiche
+build-custom-goal = Crea un obiettivo personale
+help-reach-hours = Aiuta a raggiungere { NUMBER($hours) } ore in { $language } con un obiettivo personale
+set-a-goal = Imposta un obiettivo
 cant-decide = Sei indeciso?
+activity-needed-calculation =
+    Possiamo raggiungere { NUMBER($totalHours) } in soli { NUMBER($periodMonths) }
+    mesi se { NUMBER($people) } persone effettuano { NUMBER($clipsPerDay) } registrazioni al giorno.
+how-many-per-day = Ottimo! Quante registrazioni al giorno?
+how-many-a-week = Ottimo! Quante registrazioni a settimana?
+which-goal-type = Vuoi registrare, convalidare o entrambi?
+receiving-emails-info = Hai richiesto di ricevere email come: promemoria degli obiettivi, aggiornamenti sui progressi e newsletter su Common Voice.
+n-clips = { NUMBER($count) } registrazioni
 help-share-goal = Aiutaci a trovare più voci, condividi il tuo obiettivo
 confirm-goal = Conferma obiettivo
 goal-interval-weekly = Settimanale
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Condividi il tuo obiettivo quotidiano di { $count } registrazioni per { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Condividi il tuo obiettivo settimanale di { $count } registrazioni per { $type }
+share-goal-type-speak = Registrare
+share-goal-type-listen = Convalidare
+share-goal-type-both = Registrare e convalidare
+# LINK will be replaced with the current URL
+goal-share-text = Ho appena creato un obiettivo personale per donare la mia voce a #CommonVoice: unisciti a noi e aiutaci a insegnare alle macchine come parlano le persone reali { $link }
 weekly-goal-created = Obiettivo settimanale creato
 daily-goal-created = Obiettivo quotidiano creato
 track-progress = Tieni traccia dei progressi qui e nella tua pagina delle statistiche.
+return-to-edit-goal = Per modificare il tuo obiettivo ritorna qui quando vuoi.
 share-goal = Condividi il mio obiettivo
 
 ## Profile Delete
