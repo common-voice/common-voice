@@ -137,6 +137,7 @@
         width: 100%;
         min-height: 500px;
         position: relative;
+        right: 3%;
         z-index: var(--middle-z-index);
         overflow: auto;
 

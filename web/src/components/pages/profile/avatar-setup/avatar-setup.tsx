@@ -18,9 +18,14 @@ import {
   StopIcon,
   PlayIcon,
 } from '../../../ui/icons';
+import { Button } from '../../../ui/ui';
+import { Voice } from '../../../primary-buttons/primary-buttons';
 import AudioIOS from '../../contribution/speak/audio-ios';
 import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
 import { isFirefoxFocus, isNativeIOS, isProduction } from '../../../../utility';
+import { Suspense, lazy } from 'react';
+const Lottie = lazy(() => import('react-lottie'));
+const animationData = require('../../../layout/data.json');
 
 import './avatar-setup.css';
 
@@ -89,11 +94,19 @@ interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
   refreshUser: typeof User.actions.refresh;
 }
+<MicIcon />;
 
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 class AvatarSetup extends React.Component<Props> {
-  state = { isSaving: false, recordingStatus: false, avatarClipPlaying: false };
+  state = {
+    isSaving: false,
+    recordingStatus: false,
+    avatarClipPlaying: false,
+    counter: 3,
+    clipStatus: 'notStarted',
+    blobUrl: new Blob(),
+  };
 
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform = false;
@@ -187,7 +200,9 @@ class AvatarSetup extends React.Component<Props> {
     const RECORD_STOP_DELAY = 500;
     setTimeout(async () => {
       const info = await this.audio.stop();
-      this.uploadAvatarClip(info.blob);
+      this.setState({ blobUrl: info.blob });
+      this.setState({ clipStatus: 'recorded' });
+      //this.uploadAvatarClip(info.blob);
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
     this.setState({
@@ -195,11 +210,12 @@ class AvatarSetup extends React.Component<Props> {
     });
   };
 
-  async uploadAvatarClip(blob: Blob) {
+  private uploadAvatarClip() {
     const { api, refreshUser, addNotification } = this.props;
-    await api
-      .saveAvatarClip(blob)
+    api
+      .saveAvatarClip(this.state.blobUrl)
       .then(data => {
+        this.setState({ clipStatus: 'notStarted', counter: 0 });
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -215,6 +231,20 @@ class AvatarSetup extends React.Component<Props> {
     refreshUser();
   }
 
+  private counter = () => {
+    this.setState({ clipStatus: 'starting' });
+    var downloadTimer = setInterval(() => {
+      console.log(this.state.counter, 'ggg');
+      let tl = this.state.counter - 1;
+      this.setState({ counter: tl });
+      if (this.state.counter <= 0) {
+        this.setState({ clipStatus: 'started' });
+        this.handleRecordClick();
+        clearInterval(downloadTimer);
+      }
+    }, 1000);
+  };
+
   render() {
     const {
       addNotification,
@@ -223,93 +253,176 @@ class AvatarSetup extends React.Component<Props> {
       refreshUser,
       user: { account },
     } = this.props;
-    const { recordingStatus, avatarClipPlaying } = this.state;
+    const {
+      recordingStatus,
+      avatarClipPlaying,
+      counter,
+      clipStatus,
+    } = this.state;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
         ? 'gravatar'
         : null;
+
+    const defaultOptions = {
+      loop: true,
+      autoplay: true,
+      animationData: animationData,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice',
+      },
+    };
+
     return (
-      <fieldset className="avatar-setup" disabled={this.state.isSaving}>
-        <Localized id="add-avatar-title">
-          <h2 />
-        </Localized>
-
-        <div className="file-upload">
-          <label
-            onDragOver={event => {
-              event.preventDefault();
-            }}
-            onDrop={event => {
-              this.saveFileAvatar(event.dataTransfer.files);
-              event.preventDefault();
-            }}>
-            <Localized id="browse-file-title">
-              <span className="title" />
-            </Localized>
-            <Localized
-              id="browse-file"
-              browseWrap={<span className="browse" />}>
-              <span className="upload-label" />
-            </Localized>
-            <input
-              className="hide-input"
-              type="file"
-              accept="image/*"
-              onChange={event => {
-                this.saveFileAvatar(event.target.files);
-              }}
-            />
-          </label>
-        </div>
-
-        <div style={{ display: isProduction() ? 'none' : 'block' }}>
+      <div className="full-avatar-setup">
+        <div className="clip">
           <Localized id="add-avatar-clip">
-            <h2 />
+            <h2 className="clip-title" />
           </Localized>
-          <div className="file-upload">
-            <button
-              className="connect"
-              type="button"
-              onClick={this.handleRecordClick}>
-              {recordingStatus == true ? <StopIcon /> : <MicIcon />}
-            </button>
-            <button
-              className="connect"
-              type="button"
-              onClick={this.playAvatarClip}>
-              {avatarClipPlaying === false ? <PlayIcon /> : <StopIcon />}
-            </button>
+          {/* Below fix div is for middle content of avatar setup like wave image, lottie animation */}
+          <div className="fix">
+            {(clipStatus === 'notStarted' || clipStatus === 'starting') && (
+              <div>
+                <div className="Group-1">
+                  {clipStatus === 'starting' && (
+                    <div className="counter">
+                      <Voice>
+                        <p>{counter}</p>
+                      </Voice>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+            {clipStatus === 'started' && (
+              <div>
+                <Suspense fallback={<div></div>}>
+                  <div>
+                    <Lottie options={defaultOptions} eventListeners={[]} />
+                  </div>
+                </Suspense>
+              </div>
+            )}
+            {clipStatus === 'recorded' && <div className="lottiebg"></div>}
           </div>
-        </div>
-        <button
-          className="connect"
-          type="button"
-          onClick={async () => {
-            this.setState({ isSaving: true });
-            const { error } = await api.saveAvatar(
-              avatarType == 'gravatar' ? 'default' : 'gravatar'
-            );
-
-            if (['not_found'].includes(error)) {
-              addNotification(getString('gravatar_' + error));
-            }
-
-            if (!error) {
-              refreshUser();
-            }
-            this.setState({ isSaving: false });
-          }}>
-          <Localized id="connect-gravatar">
-            <span />
-          </Localized>{' '}
-          {avatarType == 'gravatar' ? (
-            <CheckIcon className="check" />
-          ) : (
-            <LinkIcon className="link" />
+          {(clipStatus === 'notStarted' || clipStatus === 'starting') && (
+            <Localized id="create-voice-wave">
+              <Button
+                outline
+                rounded
+                className="Primary "
+                onClick={this.counter}
+              />
+            </Localized>
           )}
-        </button>
-      </fieldset>
+          {clipStatus === 'started' && (
+            <Localized id="recording-voice-wave">
+              <Button
+                outline
+                rounded
+                className="Primary "
+                onClick={this.handleRecordClick}
+              />
+            </Localized>
+          )}
+          {clipStatus === 'recorded' && (
+            <Localized id="ready-to-upload">
+              <Button
+                outline
+                rounded
+                className="Primary-2 "
+                onClick={this.uploadAvatarClip.bind(this)}
+              />
+            </Localized>
+          )}
+          <Localized id="about-avatar-clip">
+            <p className="Create-a-custom-voic" />
+          </Localized>
+        </div>
+        <div>
+          <fieldset className="avatar-setup" disabled={this.state.isSaving}>
+            <Localized id="add-avatar-title">
+              <h2 />
+            </Localized>
+
+            <div className="file-upload">
+              <label
+                onDragOver={event => {
+                  event.preventDefault();
+                }}
+                onDrop={event => {
+                  this.saveFileAvatar(event.dataTransfer.files);
+                  event.preventDefault();
+                }}>
+                <Localized id="browse-file-title">
+                  <span className="title" />
+                </Localized>
+                <Localized
+                  id="browse-file"
+                  browseWrap={<span className="browse" />}>
+                  <span className="upload-label" />
+                </Localized>
+                <input
+                  className="hide-input"
+                  type="file"
+                  accept="image/*"
+                  onChange={event => {
+                    this.saveFileAvatar(event.target.files);
+                  }}
+                />
+              </label>
+            </div>
+
+            <div style={{ display: isProduction() ? 'none' : 'block' }}>
+              <Localized id="">
+                <h2 />
+              </Localized>
+              <div className="file-upload">
+                <button
+                  className="connect"
+                  type="button"
+                  onClick={this.handleRecordClick}>
+                  {recordingStatus == true ? <StopIcon /> : <MicIcon />}
+                </button>
+                <button
+                  className="connect"
+                  type="button"
+                  onClick={this.playAvatarClip}>
+                  {avatarClipPlaying === false ? <PlayIcon /> : <StopIcon />}
+                </button>
+              </div>
+            </div>
+            <button
+              className="connect"
+              type="button"
+              onClick={async () => {
+                this.setState({ isSaving: true });
+                const { error } = await api.saveAvatar(
+                  avatarType == 'gravatar' ? 'default' : 'gravatar'
+                );
+
+                if (['not_found'].includes(error)) {
+                  addNotification(getString('gravatar_' + error));
+                }
+
+                if (!error) {
+                  refreshUser();
+                }
+                this.setState({ isSaving: false });
+              }}>
+              <Localized id="connect-gravatar">
+                <span />
+              </Localized>{' '}
+              {avatarType == 'gravatar' ? (
+                <CheckIcon className="check" />
+              ) : (
+                <LinkIcon className="link" />
+              )}
+            </button>
+          </fieldset>
+        </div>
+      </div>
     );
   }
 }
