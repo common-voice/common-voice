@@ -319,6 +319,10 @@ off = Phih
 on = Nunh
 add-avatar-title = Na hmanthlak chia
 add-avatar-clip = Na profile ah na hmanthlak cawlmi tar
+create-voice-wave = Aw a cawlcang ning ser
+recording-voice-wave = Tun lio
+ready-to-upload = Khumh
+about-avatar-clip = I hngalhternak dingah hman dingmi na aw cawlcang ning ser. Midang pawl nih an ngaih khawh lai.
 browse-file-title = Hmanthlak van khumh
 browse-file = Ṭhial law thla silole <browseWrap> Zoh </browseWrap>
 connect-gravatar = Gravatar he pehtonh
@@ -619,14 +623,16 @@ overall-accuracy = Ṭha tein tuah khawhmi
 
 ## Custom Goals
 
+get-started-goals = Tinhmi in hram domh
 toward-next-goal = Hmailei tinhmi
+create-custom-goal = Tinhmi kawltung ser
 both-speak-and-listen = An pahnih in
 both-speak-and-listen-long = Pahnih in  (Chim le Ngai)
 daily-goal = Nifatin tinhmi
 weekly-goal = Zarhfatin tinhmi
 easy-difficulty = A Fawi
 average-difficulty = Vuaktlak
-difficult-difficulty = A har
+difficult-difficulty = A Har
 want-to-continue = Na peh duh maw?
 finish-editing = Na remh hmasa lai maw?
 lose-changes-warning = Na kal tak ahcun na thlen ciami na thlau lai
@@ -635,10 +641,19 @@ cant-decide = Thim kho lo?
 how-many-per-day = A ṭha! Nikhat ah tunmi zeizat?
 how-many-a-week = A ṭha! Zarhkhat ah tunmi zeizat?
 which-goal-type = Chim, Ngai, silole a pahnih in tuah na duh maw?
+help-share-goal = Tam deuh in aw kawl kan bawm, na tinhmi langhter
+confirm-goal = Tinhmi Fehter
 goal-interval-weekly = Zarhchiar
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $count } Nifatin tinhmi { $type } langhter
 share-goal-type-speak = Chim
 share-goal-type-listen = Ngai
-weekly-goal-created = Zarhfatain caah na tinhmi a ser cang
+share-goal-type-both = Chim le Ngaih
+# LINK will be replaced with the current URL
+goal-share-text = #CommonVoice aw hlutnak caah keimah pumpak tinhmi ka langhter-- ka telpi ve ulaw zeitindah minung an holh ti computer chim hna usih { $link }
+weekly-goal-created = Zarhfatin caah na tinhmi a ser cang
+daily-goal-created = Nifatin tinhmi cu ser a si cang.
+track-progress = Na ṭhanchonak hi ka hin zoh.
 return-to-edit-goal = Na tinhmi remh dingah zeitik paoh ah kir a ngah.
 share-goal = Na tinhmi langhter
 
