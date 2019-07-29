@@ -86,6 +86,7 @@ mk = Macedonia holh
 ml = Malayalam holh
 mn = Mongolia Holh
 mrj = Hill Mari holh
+mt = Maltese holh
 myv = Erzia holh (Russia)
 nb-NO = Norway holh (Bokmal)
 ne-NP = Nepal holh
