@@ -650,14 +650,23 @@ report-grammar-or-spelling = Sbagl grammatical / ortografic
 report-grammar-or-spelling-detail = La construcziun ha in sbagl grammatical ni ortografic.
 report-different-language = Auter lungatg
 report-different-language-detail = La construcziun ei scretta en in auter lungatg che quel che jeu discuorel.
+report-difficult-pronounce = Difficila da pronunziar
+report-difficult-pronounce-detail = Ella cuntegn plaids ni frasas ch'ein grevas da leger ni da pronunziar.
+report-offensive-speech = Lungatg offendent
+report-offensive-speech-detail = Il clip ha in lungatg senza respect ni offendent.
+report-other-comment =
+    .placeholder = Commentari
+success = Success
+continue = cuntinuar
+report-success = Il rapport ei vegnius tarmess cun success
 
 ## Goals
 
 streaks = Seria
 days =
     { $count ->
-        [one] Di
-       *[other] Dis
+        [one] di
+       *[other] dis
     }
 recordings =
     { $count ->
@@ -672,21 +681,22 @@ validations =
 
 ## Dashboard
 
-your-languages = Tia lingua
+your-languages = Tiu lungatg
 toward-next-goal = Enviers la proxima finamira
 clips-you-recorded = Tias registraziuns
 clips-you-validated = Registraziuns che ti has controllau
-todays-recorded-progress = Il progress da Common Voice davart las registraziuns ch'ein vegnidas fatgas oz
-todays-validated-progress = Il progress da Common Voice davart las registraziuns ch'ein vegnidas valetadas oz
-stats = Statisticaas
+todays-recorded-progress = Il progress dallas registraziuns dad oz en Common Voice
+todays-validated-progress = Il progress dallas registraziuns valetadas oz en Common Voice
+stats = Statisticas
 you = Ti
 everyone = Tuts
 contribution-activity = Activitad dils cooperaturs
-top-contributors = Ils pli activs cooperaturs
+top-contributors = Ils cooperaturs ils pli activs
 recorded-clips = Registraziuns
 validated-clips = Registraziuns valetadas
-total-approved = Registraziuns approvadas
-overall-accuracy = Precisiun cumplessiva
+total-approved = Registraziuns approbadas
+overall-accuracy = Exactadad cumplessiva
+set-visibility = Adattar mia visibladad
 
 ## Custom Goals
 
