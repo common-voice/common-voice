@@ -198,7 +198,7 @@ x-years-short =
        *[other] { $count } onns
     }
 help-make-dataset = Gida nus a crear in'unitad da datas aviarta, publica e d'aulta qualitad
-profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, denton d'avantatg. Daco vesas ti sut.
+profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, igl ei denton d'avantatg. Daco vesas ti sutvart.
 sign-up-account = Seregistrar per in conto
 email-subscription-title = Abonnar novitads per e-mail
 email-subscription-title-new = Seregistrar per las newsletters da Common Voice, regurdientschas da las finamiras ed actualisaziuns dil progress.
@@ -704,21 +704,21 @@ toward-next-goal = Enviers la proxima finamira
 
 ## Profile Delete
 
-delete-q = Giavischas ti che las registraziuns da tia vusch vegnan era stizzadas, ni prefereschas ti sche quellas restan ell'unitad da datas da Common Voice?
-keep = Mantener
-remove = Stizzar
-keep-info = Las registraziuns anonimas da tia vusch vegnan a restar ell'unitad da datas da Common Voice. Suenter che ti has stizzau ina gada tiu profil, vegns ti buca ad haver la pusseivladad pli da tschentar la damonda per stizzar tias registraziuns ord l'unitad da datas.
-remove-info = Nus vegnin ad examinar tia damonda per stizzar tias registraziuns vocalas dall'unitad da datas. Sch'ei vegn dau suatientscha a tia damonda, vegnin nus a contactar quels che han telecargau l'unitad da datas e supplichein els da medemamein stizzar tias registraziuns vocalas.
+delete-q = Giavischas ti che las registraziuns da tia vusch vegnien era stizzadas ni prefereschas ti che quellas restien ell'unitad da datas da Common Voice?
+keep = mantener
+remove = stizzar
+keep-info = Las registraziuns anonimas da tia vusch vegnan a restar ell'unitad da datas da Common Voice. Suenter che ti has stizzau tiu profil, has ti buca la pusseivladad pli da tschentar la damonda per stizzar tias registraziuns ord l'unitad da datas.
+remove-info = Nus vegnin ad examinar tia damonda per stizzar tias registraziuns vocalas dall'unitad da datas. Sch'ei vegn dau suatientscha a tia damonda, contactein nus quels che han telecargau l'unitad da datas e supplichein els da medemamein stizzar tias registraziuns vocalas.
 why-delete-recordings =
-    Las registraziuns da Common Voice vegnan duvradas d'academichers, interpresas pintgas ed entusiasts per l'identificaziun da vusch che gidan da trenar e cumpletar resursas accessiblas public sco models da lingua plidada.
+    Las registraziuns da Common Voice vegnan duvradas d'academichers, d'interpresas pintgas e d'entusiasts per l'identificaziun da vusch che gidan a trenar e cumpletar resursas accessiblas publicamein, sco models da lungatg discurriu.
     
-    Sas ti explicar a nus daco che ti lessas stizzar tias registraziuns?
-profile-form-delete = Stizzar il profil
+    Sas ti explicar a nus daco che ti vul stizzar tias registraziuns?
+profile-form-delete = stizzar il profil
 
 ## Landing
 
-welcome-staff = Beinvegni collaboratur da { $company } !
-help-contribute = Ti sas gidar da construir ina varionta unitad da datas open source cun endrizzar in profil da Common Voice e contribuir tia vusch.
-login-company = S'annunziar / S'inscriver cun l'adressa d'email da { $company }
-profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, denton d'avantatg. Daco vesas ti sut.
+welcome-staff = Beinvegni collaboratur/a da { $company } !
+help-contribute = Ti sas gidar a crear in'unitad da datas open source varionta cun endrizzar in profil da Common Voice e contribuir tia vusch.
+login-company = S'annunziar / s'inscriver cun l'adressa dad e-mail da { $company }
+profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, igl ei denton d'avantatg. Daco vesas ti sutvart.
 read-more-about = Legia dapli sin nossa pagina d'informaziuns davart Common Voice
