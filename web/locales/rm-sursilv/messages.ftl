@@ -132,8 +132,8 @@ zh-TW = chines (Taivan)
 
 ## Layout
 
-speak = Discuorer
-speak-now = Discuora ussa
+speak = discuorer
+speak-now = discuora ussa
 datasets = Unitads da datas
 languages = Lungatgs
 about = Informaziuns davart nus
@@ -149,7 +149,7 @@ share-title = Gida nus ad anflar autras persunas che contribueschan cun lur vusc
 share-text = Gida a mussar a maschinas co persunas realas discuoran, contribuescha cun tia vusch sin { $link }
 link-copied = Copiau la colligiaziun
 back-top = Ensi
-logout = Sortir
+logout = sortir
 
 ## Home Page
 
@@ -164,8 +164,8 @@ show-wall-of-text = Ulteriuras informaziuns
 help-us-title = Gida nus a validar las construcziuns!
 help-us-explain = Smacca Far ir, teidla e di a nus: vegn la suandonta construcziun pronunziada endretg?
 no-clips-to-validate = Ei para dad haver negins clips da tedlar en quei lungatg. Sche ti registreschas ussa enzacons, gidas ti nus ad emplenir la retscha.
-vote-yes = Gie
-vote-no = Na
+vote-yes = gie
+vote-no = na
 toggle-play-tooltip = Smacca { shortcut-play-toggle } per entscheiver a preleger ni per calar
 speak-subtitle = Contribuescha cun tia vusch
 speak-paragraph = Registrar clips da vuschs ei ina part integrala per crear nossa unitad da datas aviarta; biars schessen ch'ei seigi era la part divertenta.
@@ -180,8 +180,8 @@ todays-progress = Progress oz
 help-reach-goal = Gida nus a contonscher { $goal }
 read-terms-q = Has legiu nossas cundiziuns?
 ready-to-record = Eis promta/promts da contribuir tia vusch?
-all-locales = Finadin
-today = Oz
+all-locales = finadin
+today = oz
 x-weeks-short =
     { $count ->
         [one] jamna
@@ -270,21 +270,21 @@ english = engles
 profile-form-username =
     .label = Num d'utilisader
 profile-form-native-language =
-    .label = lungatg matern
+    .label = Lungatg matern
 profile-form-additional-language =
-    .label = lungatg supplementar
+    .label = Lungatg supplementar
 profile-form-accent =
-    .label = accent
+    .label = Accent
 profile-form-age =
-    .label = vegliadetgna
+    .label = Vegliadetgna
 profile-form-gender =
-    .label = schlatteina
+    .label = Schlatteina
 leaderboard-visibility =
     .label = Visibladad ella gliesta dils megliers
 hidden = buca  mussar
 visible = mussar
 native-language =
-    .label = lungatg matern
+    .label = Lungatg matern
 profile-form-submit-save = memorisar
 profile-form-submit-saved = memorisau
 male = masculin
@@ -293,12 +293,12 @@ female = feminin
 other = auter
 why-profile-title = Pertgei in profil?
 why-profile-text = Sche ti indicheschas enzacontas informaziuns davart tetez/tetezza, gidan las datas da tun che ti inoltreschas en Common Voice las maschinas da reconuschientscha vocala ad augmentar lur exactadad.
-dashboard = tabla d'armaturas
+dashboard = Tabla d'armaturas
 build-profile = Crear in profil
-avatar = avatar
-goals = finamiras
-settings = parameters
-edit-profile = Modificar il profil
+avatar = Avatar
+goals = Finamiras
+settings = Parameters
+edit-profile = modificar il profil
 profile-create-success = Il profil ei vegnius creaus cun success!
 profile-close = serrar
 profile-explanation = Cun in profil tegns ti en egl tiu progress e fas che nossas datas daventan pli exactas.
@@ -309,7 +309,7 @@ accept-privacy = Jeu acceptel che vus tracteis quellas informaziuns sco vus decl
 login-identity = Identitad d'annunzia
 login-signup = s'annunziar / seregistrar
 edit = modificar
-email-subscriptions = abonnaments dad e-mail
+email-subscriptions = Abonnaments dad e-mail
 download-profile = telecargar mias datas
 contribution-experience = Moda e maniera da contribuir
 skip-submission-feedback = sursiglir il resun alla contribuziun
@@ -324,7 +324,7 @@ browse-file = Drag and drop ni <browseWrap>Encurir en</browseWrap>
 connect-gravatar = colligiar cun Gravatar
 gravatar_not_found = Anflau negins gravatars per tia adressa dad e-mail
 file_too_large = La datoteca che ti has eligiu ei memia gronda
-manage-subscriptions = Administrar ils abonnaments
+manage-subscriptions = administrar ils abonnaments
 manage-email-subscriptions = Administrar ils abonnaments dad e-mail
 email-already-used = Quella adressa dad e-mail vegn gia duvrada per in auter conto
 add-language = aschuntar in lungatg
@@ -354,13 +354,13 @@ faq-what-cv-and-deepspeech-a = La collecziun da datas da Common Voice cumpletesc
 faq-is-goal-assistant-q = Ei la finamira da Common Voice da crear in assistent vocal?
 faq-is-goal-assistant-a = La finamira dall'unitad da datas da Common Voice ei da porscher a tuts sin quest mund la pusseivladad da crear applicaziuns per l'identificaziun da vuschs, plidaders ni autras funcziuns che pretendan datas da lungatg. In assistent da lungatg ei mo ina da biaras sorts d'applicaziuns che vus saveis crear cull'unitad da datas.
 faq-do-want-native-q = Jeu sun buc ina persuna da lungatg matern e discuorel cun accent. Essas vus tuttina interessai vid mia vusch?
-faq-do-want-native-a = Gie, nus essan interessai specialmein vid Vossa vusch. Ina finamira da Common Voice ei da rimnar aschi biars accents sco pusseivel per che survetschs d'identificaziun da la vusch funcziuneschan tuttina bein per tuts. Quei munta che contribuziuns vocalas da persunas ch'ein buca da lingua materna ein particularmein impurtontas.
-faq-why-different-speakers-q = Daco duvreis Vus aschi biars plidaders per lingua?
+faq-do-want-native-a = Gie, nus essan interessai specialmein vid vossa vusch. Ina finamira da Common Voice ei da rimnar aschi biars accents sco pusseivel per ch'ils survetschs d'identificaziun dalla vusch funcziuneschien tuttina bein per tuts. Quei munta che contribuziuns vocalas da persunas ch'ein buca da lungatg matern ein particularmein impurtontas.
+faq-why-different-speakers-q = Daco duvreis vus aschi biars plidaders per lungatg?
 faq-why-different-speakers-a =
-    Las pliras bancas da datas da lingua vegnan trenai d'ina surrepresentanza da certas demografias. Quei meina tier ina favorisazin <articleLink>d'umens e da participonts dalla classa da miez</articleLink>. Accents e dialects ch'ein tendenzialmein sutrepresentai en unitads da datas da trenament vegnan tipicamein mess en connex cun persunas ch'ein gia marginalisadas. Biaras maschinas han era breigias da capir vuschs femininas.
-    Perquei lein nus varietad en nossa banca da datas da lingua.
-faq-why-my-lang-q = Daco ei mia lingua aunc buca inclusa?
-faq-why-my-lang-new-a = Mozilla elegia ni favorisescha negina lingua avon in'autra. Cuntrari setracta ei tier Common Voice d'ina iniziativa che s'orientescha sulet alla cuminonza. Ei pretenda denton <multilangLink>plirs pass per integrar ina nova lingua</multilangLink> e d'entscheiver culla rimnada da donaziuns da lungatg. Sco emprem sto la pagina d'internet da Common-Voice vegnir translatada per che commembers dalla cuminonzia possien sesurvir dallas experienzas dils cooperaturs en lur atgna lingua. Sco proxim duvrein nus ina gronda rimnada da construcziuns ch'ein libras dils dretgs d'auturs ch'ils carstgauns san preleger. Aschispert che omisduas pretensiuns ein ademplidas, vegn sin Common Voice ina lingua "lantschada" per ch'ils carstgauns sappien registrar lur vusch e confirmar las donaziuns d'auters. Sche ti vul segidar culla partenza d'ina nova lingua, visetas ti per partir nies <sentenceCollectorLink> utensil per la rimnada da construcziuns </sentenceCollectorLink>.
+    Las pliras bancas da datas da lungatg vegnan trenadas d'ina surrepresentanza da certas demografias. Quei meina ad ina favorisaziun <articleLink>d'umens e da participonts dalla classa da miez</articleLink>. Accents e dialects ch'ein tendenzialmein sutrepresentai en unitads da datas da trenament vegnan tipicamein mess en connex cun persunas ch'ein gia marginalisadas. Biaras maschinas han era breigias da capir vuschs femininas.
+    Perquei lein nus varietad en nossa banca da datas da lungatg.
+faq-why-my-lang-q = Daco ei miu lungatg aunc buca inclus?
+faq-why-my-lang-new-a = Mozilla ni elegia ni favorisescha in lungatg ad in auter. Cuntrari, ei setracta tier Common Voice d'ina iniziativa che s'orientescha sulettamein alla communitad. Ei pretenda denton <multilangLink>plirs pass per integrar in niev lungatg</multilangLink> e d'entscheiver culla rimnada da contribuziuns vocalas. Igl emprem sto la pagina d'internet da Common Voice vegnir translatada per ch'ils commembers dalla communitad possien profitar dallas experienzas dils cooperaturs en lur agen lungatg. Sco proxim duvrein nus ina gronda collecziun da construcziuns per preleger, las qualas ein libras dils dretgs d'autur. Aschispert che omisduas pretensiuns ein ademplidas, vegn in lungatg "lantschaus" sin Common Voice, aschia che la glieud sa registrar la vusch e confirmar las contribuziuns d'auters. Sche ti vul segidar culla lantschada d'in niev lungatg, visetas ti nies <sentenceCollectorLink> utensil per rimnar construcziuns </sentenceCollectorLink>.
 faq-what-quality-q = Tgei nivel da qualitad d'audio ei neccessaria per ch'ina registraziun da lingua sa vegnir duvrada ell'unitad da datas?
 faq-what-quality-a = Nus lein che l'unitad da datas da Common Voice resplenda la qualitad d'audio ch'ina maschina d'identificaziun da vusch udess ella veta da mintgadi. Suplementar ad ina cuminonza diversa da plidaders vegn in'unitad da datas cun diversa qualitad d'audio a pretender d'ina maschina d'identificaziun da vusch d'agir en differentas situziuns dil mund real, naven dil discuors davostier alla canera d'autos. Aschiditg che Vossa registraziun da lingua ei capeivla, duess ella esser buna avunda per l'unitad da datas.
 faq-why-10k-hours-q = Daco ein 10.000 uras validadas la finamira per la registraziun da mintga lingua?
