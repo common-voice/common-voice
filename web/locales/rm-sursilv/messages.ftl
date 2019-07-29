@@ -175,11 +175,11 @@ listen-paragraph = Validar clips gia contribui ei gest aschi impurtont per la mi
 listen-goal-text = Clips gia validai
 hours-recorded = Uras gia registradas
 hours-validated = Uras gia validadas
-voices-online = Vuschs online gest uss
+voices-online = Vuschs online gest ussa
 todays-progress = Progress oz
 help-reach-goal = Gida nus a contonscher { $goal }
 read-terms-q = Has legiu nossas cundiziuns?
-ready-to-record = Promts da contribuir tia vusch?
+ready-to-record = Eis promta/promts da contribuir tia vusch?
 all-locales = Finadin
 today = Oz
 x-weeks-short =
@@ -197,29 +197,30 @@ x-years-short =
         [one] onn
        *[other] { $count } onns
     }
-help-make-dataset = Gida nus a construir in'unitad da datas aviarta, publica e d'aulta qualitad
+help-make-dataset = Gida nus a crear in'unitad da datas aviarta, publica e d'aulta qualitad
 profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, denton d'avantatg. Daco vesas ti sut.
 sign-up-account = Seregistrar per in conto
 email-subscription-title = Abonnar novitads per e-mail
+email-subscription-title-new = Seregistrar per las newsletters da Common Voice, regurdientschas da las finamiras ed actualisaziuns dil progress.
 
 ## Account Benefits
 
 benefits = Avantatgs
-rich-data = Las datas che ti inoltreschas survegnan dapli valeta, sche ti fas enzacontas indicaziuns demograficas anonimas. Ord las datas demograficas che nus publichein vegn ei denton buca ad esser pusseivel d'identificar tei.
+rich-data = Las datas che ti inoltreschas survegnan dapli valeta, sche ti fas enzacontas indicaziuns demograficas anonimas. A basa dallas datas demograficas che nus publichein vegn ei denton buc ad esser pusseivel d'identificar tei.
 improve-audio = Las informaziuns dil profil augmentan la qualitad dallas datas da tun che vegnan duvradas per trenar l'exactadad dalla reconuschientscha vocala.
 keep-track = Mantegn la survesta davart tiu progress e tia statistica en differents lungatgs.
 compare-progress = Cumpareglia tiu progress cun las contribuziuns d'autras persunas digl entir mund.
-view-goals = Veser tiu progress en cumparegliaziun cun las finamiras persunalas e talas dil project
-join-newsletter = Sche ti vul, sche sas ti s'inscriver en nossa gliesta per retscheiver e-mails cun novitads ed informaziuns davart il project.
+view-goals = Veser tiu progress en cumparegliaziun cun las finamiras persunalas e talas dil project.
+join-newsletter = Sche ti vul, sas ti s'inscriver en nossa gliesta per retscheiver e-mails cun novitads ed informaziuns davart il project.
 
 ## What's public
 
 whats-public = Tgei ei public?
 email-not-public = Nus vegnin buc a publicar tia adressa dad e-mail.
-recordings-and-locale-public = Ei vegn ad esser public, contas registraziuns ed a tgei lungatgs che ti contribueschas.
-username-optin-public = Ti sas decider, sche tiu num d'utilisader duess esser publics ni anonims.
-demographic-deidentified = Informaziuns demograficas facultativas (p. ex. vegliadetgna, schlatteina, lingua ed accent) vegnan de-identifitgadas da tias datas da vusch termessas e vegnan mai fatgas publicas sin tes profil.
-username-email-not-demographic = Tiu num d'utilisader e tia adressa dad e-mail vegn buc ad haver in connex cun las datas publicadas.
+recordings-and-locale-public = Il diember da tias registraziuns ed a tgei lungatgs che ti contribueschas vegnan publicai.
+username-optin-public = Ti sas decider, sche tiu num d'utilisader duei esser publics ni anonims.
+demographic-deidentified = Informaziuns demograficas facultativas (p. ex. vegliadetgna, schlatteina, lungatg ed accent) vegnan de-identificadas da tias datas da vusch tarmessas e vegnan mai publicadas sin tiu profil.
+username-email-not-demographic = Tiu num d'utilisader e tia adressa dad e-mail vegnan buc ad haver in connex cun las datas publicadas.
 
 ## Speak & Listen Shortcuts
 
@@ -231,7 +232,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = f
-shortcut-play-toggle-label = Play/Stop
+shortcut-play-toggle-label = play/stop
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = g
@@ -244,7 +245,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = Registrar/Stop
+shortcut-record-toggle-label = registrar/stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Repeter la registraziun dil clip
 request-language-text = Ei tiu lungatg aunc buca veseivels sin Common Voice?
@@ -252,7 +253,7 @@ request-language-button = Giavischar in lungatg
 
 ## ProjectStatus
 
-status-title = Status general dil project: Mira con lunsch che nus essan vegni!
+status-title = Status general dil project: mira con lunsch che nus essan gia!
 status-contribute = Contribuescha cun tia vusch
 status-hours =
     { $hours ->
@@ -262,7 +263,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Proxima finamira: { $goal }
-english = Engles
+english = engles
 
 ## ProfileForm
 
