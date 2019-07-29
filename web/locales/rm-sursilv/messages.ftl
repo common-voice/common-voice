@@ -459,57 +459,57 @@ notfound-content = Perstgisa, jeu sai buca tgei che ti enqueras.
 ## Data
 
 data-download-button = Telecargar l'unitad da datas da Common Voice
-data-download-yes = Gie
-data-download-deny = Na
+data-download-yes = gie
+data-download-deny = na
 data-download-license = Licenzia: <licenseLink>CC-0</licenseLink>
-data-download-modal = La telecargada giavischada cuntegn <size>{ $size }GB</size>. Lessas ti cuntinuar?
-data-subtitle = Nus construin in'unitad da datas vocalas aviarta ed accessibla public che mintgin sa duvrar per trenar applicaziuns che sustegnan lingua plidada.
-data-explanatory-text = Nus cartin che grondas e publicas unitads da datas promovan inovaziun ed ina sauna concurrenza commerziala sil camp da tecnologias da lingua che sebasan sin maschinas d'emprender. Quei ei in'ambiziun globala e nus envidein tuts da separticipar. Nossa finamira ei che las tecnologias da lingua daventan pli aviartas e ch'ellas resplendan la diversitad da vuschs digl entir mund.
-data-get-started = <speechBlogLink>Emprems pass tier l'identificaziun dalla vusch</speechBlogLink>
-data-other-title = Autras unitads da datas vocalas
-data-other-goto = Va a
-data-other-download = Telecargar datas
-data-bundle-button = Telecargar unitad da datas
-data-bundle-description = Datas da Common Voice e tut las autras datas da lingua numnadas sura.
+data-download-modal = Il download giavischau cuntegn <size>{ $size }GB</size>. Vul ti cuntinuar?
+data-subtitle = Nus creein in'unitad da datas vocalas aviarta ed accessibla publicamein che mintgin sa duvrar per trenar applicaziuns che sustegnan il lungatg discurriu.
+data-explanatory-text = Nus essan perschuadi che unitads da datas grondas e publicas promovan l'innovaziun ed ina sauna concurrenza commerciala sil camp da tecnologias da lungatg che sebasan sin maschinas d'emprender. Quei ei in'ambiziun globala e nus envidein tuts da separticipar. Nossa finamira ei che las tecnologias da lungatg daventien pli aviartas e ch'ellas resplendien la diversitad da vuschs digl entir mund.
+data-get-started = <speechBlogLink>Ils emprems pass per identificar la vusch</speechBlogLink>
+data-other-title = Autras unitads da datas vocalas ...
+data-other-goto = va a
+data-other-download = telecargar datas
+data-bundle-button = telecargar unitad da datas
+data-bundle-description = Datas da Common Voice e tut las autras datas da lungatg numnadas sura.
 license = Licenzia: <licenseLink>{ $license }</licenseLink>
-license-mixed = Mischedau
-review-terms = Cun duvrar Common Voice acceptas ti nossas <termsLink>cundiziuns d'utilisaziun</termsLink> e nies<privacyLink>avis dalla protecziun da datas</privacyLink>
-terms-agree = Jeu sun d'accord
-terms-disagree = Jeu refusel
-review-aborted = Cargament interrut. Lessas ti stizzar tia registraziun?
-review-submit-title = Verificar e transmetter
-review-submit-msg = Grazia fetg per registrar!<lineBreak></lineBreak>Verifichescha e transmetta tia registraziun sutvart.
-review-recording = Verificar
-review-rerecord = Registrar da niev
-review-cancel = Interrumper la transmissiun
-review-keep-recordings = Salvar la registraziun
-review-delete-recordings = Stizzar mias registraziuns
+license-mixed = mischedau
+review-terms = Cun duvrar Common Voice acceptas ti nossas <termsLink>cundiziuns d'utilisaziun</termsLink> e nossas<privacyLink>directivas davart la protecziun da datas</privacyLink>
+terms-agree = jeu sun d'accord
+terms-disagree = jeu refuseschel
+review-aborted = Interrut igl upload. Vul ti stizzar tia registraziun?
+review-submit-title = verificar e transmetter
+review-submit-msg = Engraziel fetg per la registraziun!<lineBreak></lineBreak>Verifichescha e transmetta tia registraziun sutvart.
+review-recording = verificar
+review-rerecord = registrar da niev
+review-cancel = interrumper la transmissiun
+review-keep-recordings = salvar la registraziun
+review-delete-recordings = stizzar mias registraziuns
 
 ## Datasets Page
 
-datasets-headline = Nus construin in'unitad da datas vocalas, open source e plurilingua che mintgin po duvrar per trenar apllicaziuns da lingua.
+datasets-headline = Nus creein in'unitad da datas vocalas open source e plurilingua che mintgin sa duvrar per trenar applicaziuns da lungatg.
 datasets-positioning =
-    Nus cartin che metter a disposiziun publicamein in'unitad da datas vocalas da gronda dimensiun possi promover innovaziun e sauna concurrenza commerciala per tecnologias d'emprender automatic basond sin l'identificaziun dalla vusch.
+    Nus essan perschuadi ch'ina unitad da datas vocalas publica e da gronda dimensiun promova l'innovaziun ed ina sauna concurrenza commerciala per tecnologias d'emprender a basa dall'identificaziun dalla vusch.
     
-    L'unitad da datas plurilinguas da Common Voice ei gia la pli gronda disponibla public, mo era l'unica.
+    L'unitad da datas plurilinguas da Common Voice ei gia la pli gronda disponibla publicamein, denton buca l'unica.
     
-    Considerescha questa pagiana sco punct da referenza per autras unitads da datas da lingua open source. En cass che Common Voice crescha vinavon, anflas ti cheu las pli novas actualisaziuns.
-language = Lingua
+    Considerescha questa pagina sco punct da referenza per autras unitads da datas da lungatg open source. En cass che Common Voice crescha vinavon, anflas ti cheu las pli novas actualisaziuns.
+language = Lungatg
 # File size in gigabytes
 size = Grondezia
-validated-hr-total = Total uras controlladas
-overall-hr-total = Total uras
+validated-hr-total = Total dallas uras controlladas
+overall-hr-total = Total dallas uras
 cv-license = Licenzia
 audio-format = Format audio
 number-of-voices = Diember da vuschs
 splits = Partiziuns
-email-to-download = Inscriva tia adressa d'email per iniziar la telecargada
-why-email = <b>Pertgei duvreis vus in'adressa d'email?</b> Probablamein stuein nus informar tei el futur davart midadas all'unitad da datas. In'adressa dad email dat a nus la pusseivladad da contactar tei.
-confirm-size = Ti eis pronts da telecargar ussa <b>{ $size }</b>
+email-to-download = Endatescha tia adressa d'e-mail per iniziar il download
+why-email = <b>Pertgei duvreis vus in'adressa dad e-mail?</b> Probablamein stuein nus informar tei el futur davart midadas ell'unitad da datas. In'adressa dad e-mail dat a nus la pusseivladad da contactar tei.
+confirm-size = Ti eis promts/promta da telecargar ussa <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Ti acceptas</b> da buca empruar d'eruir l'identitad dils plidaders dall'unitad da datas da Common Voice.
-download-language = Telecargar
+download-language = telecargar
 validated-hours = Uras confirmadas
 recorded-hours = Uras registradas
 whats-inside = Tgei sesanfla ell'unitad da datas da Common Voice?
