@@ -87,6 +87,7 @@ mk = Makedoneg
 ml = Malayalam
 mn = Mongoleg
 mrj = Mari ar menez
+mt = Malteg
 myv = Erzya
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
@@ -97,6 +98,7 @@ or = Oriya
 pl = Poloneg
 pt-BR = Portugaleg (Brazil)
 rm-sursilv = Romanch sursilvan
+rm-vallader = Vallader Romañch
 ro = Roumaneg
 ru = Rusianeg
 rw = Kinyarwanda
@@ -108,6 +110,7 @@ sl = Sloveneg
 sq = Albaneg
 sr = Serbeg
 sv-SE = Svedeg
+syr = Syirieg
 ta = Tamileg
 te = Telougoueg
 tg = Tajik
@@ -208,6 +211,7 @@ help-make-dataset = Skoazellit ac'hanomp da sevel ur spletad roadennoù foran, d
 profile-not-required = Kaout ur profil n'eo ket un dra ret evit kemer perzh met talvoudus eo memestra
 sign-up-account = Krouit ur gont
 email-subscription-title = marilhit evit keleier dre bostel
+email-subscription-title-new = Lakait hoc'h anv evit postel kelaouiñ Common Voice, palioù hag araokadennoù.
 
 ## Account Benefits
 
@@ -328,6 +332,10 @@ off = Diweredekaet
 on = Gweredekaet
 add-avatar-title = Ouzhpennañ un avatar d'ho profil
 add-avatar-clip = Ouzhpennañ ur c'hlip avatar d'ho profil
+create-voice-wave = Krouiñ gwagenn ar vouezh
+recording-voice-wave = Oc'h enrollañ
+ready-to-upload = Pellgas
+about-avatar-clip = Krouiñ ur wagenn vouezh personelaet evit ho kinnig. An implijerien all a vo gouest da zreistnijal warni ha selaou ho klip.
 browse-file-title = Pellgasit ur restr skeudenn
 browse-file = Riklañ-leuskel pe <browseWrap>verdeit</browseWrap>
 connect-gravatar = Kevreañ gant Gravatar
@@ -354,8 +362,7 @@ faq-why-important-a =
     Evit lakaat anaoudegezh ar mouezh da vezañ bedeloc'h c'hoazh e tastumomp mouezhioù yezhoù bras kement a reoù ar yezhoù gant nebeut a gomzerien, a vez dilezet gant ar servijoù kenwerzhel peurvuiañ. Embann ur spletad roadennoù liesseurt a roio gallout d'an diorroerien, d'an embregerien ha d'ar c'humuniezhioù.
 faq-how-get-q = Penaos e c'hallan kaout roadennoù Common Voice?
 faq-how-get-a = Spletad roadennoù Common Voice a zo hegerz dindan al lañvaz <licenseLink>CC0</licenseLink> war <datasetLink>bajenn ar roadennoù</datasetLink>. Gallout a rit ivez pellgargañ spletadoù roadennoù all war an hevelep pajenn.
-faq-when-release-q = Pegoulz e vo digoret roadennoù Common Voice e yezhoù all?
-faq-when-release-a = Stumm lies-yezh spletad roadennoù Common Voice a zo o vezañ paket ha naetaet gant ar gumuniezh. Ma fell deoc'h gouzout hiroc'h war ar striv-mañ e c'hallit <contactLink>mont e darempred ganeomp</contactLink>. Klask a raimp embann an dra-se e miz Genver 2019. Goude-se e hizivaimp ar spletad roadennoù ur wech an amzer gant yezhoù nevez ha klipoù mouezh a feur ma vezont hegerz. Emaomp c'hoazh o klask despizañ ur c'helc'hiad ermaeziadennoù reoliekoc'h.
+faq-when-release2-q = Pegoulz e vo ermaeziet roadennoù Common Voice er yezhoù all?
 faq-why-mission-q = Perak eo Common Voice ul lodenn eus kefridi Mozilla?
 faq-why-mission-a = Mennet eo Mozilla da virout ar Web digor ha tizhus d'an holl. Evit ober kement-mañ e rankomp galloudekat ar grouerien web dre raktresoù evel Common Voice. Teknologiezhioù ar vouezh a struj bremañ pelloc'h eget e tachennoùigoù zo evel a-raok. Kavout a ra deomp e rankont bezañ e gourc'hemenn pep hini hep diforc'hañ. Santout a reomp un ezhomm da ouzhpennañ muioc'h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit krouiñ hag amprouiñ an teknologiezhioù mouezh. Common Voice a zo ur vammenn foran implijet gant skipailhoù Mozilla ha diorroerien e pe plec'h er bed endeo.
 faq-what-cv-and-deepspeech-q = Petra eo an diforc'h etre Common Voice ha Deep Speech?
@@ -587,7 +594,7 @@ localized = Lec'helaet
 sentences = Frazennoù
 total-hours = Hollad eurvezhioù
 
-## New Contribution
+## Contribution
 
 action-click = Klikañ
 action-tap = Pouezit
@@ -616,7 +623,6 @@ record-again-instruction = FIskal! <recordIcon></recordIcon> Enrollit ur c'hlip 
 record-again-instruction2 = Dalc'hit da vont, enrollit adarre <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An hini diwezhañ!
 review-tooltip = Gwiriit & adenrollit klipoù tamm-ha-tamm
-unable-speak = N'on ket gouest da gomz bremañ
 review-instruction = Gwiriit & adenrollit ar c'hlipoù ma vez ezhomm
 record-submit-tooltip = { $actionType } kas p'eo prest
 clips-uploaded = Klipoù uskarget
@@ -632,6 +638,9 @@ listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
 nothing-to-validate = N'eus mann da wiriañ evit ar yezh-mañ, skoazellit ac'hanomp da leuniañ ar steudad-c'hortoz.
 record-button-label = Enrollit ho mouezh
 share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
+
+## Reporting
+
 
 ## Goals
 
@@ -678,6 +687,10 @@ recorded-clips = Klipoù enrollet
 validated-clips = Klipoù gwiriekaet
 total-approved = Hollad asantet
 overall-accuracy = Spister hollek
+
+## Custom Goals
+
+toward-next-goal = Betek ar pal da zont
 
 ## Profile Delete
 
