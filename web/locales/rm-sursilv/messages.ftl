@@ -573,41 +573,41 @@ language-section-in-progress = en elavuraziun
 language-section-in-progress-new-description = Quels lungatgs vegnan actualmein sviluppai dalla communitad. Las travs da progress indicheschan per mintga lungatg con lunsch che la<localizationGlossaryLink>translaziun dalla pagina-web</localizationGlossaryLink> e la <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> ei vegnida realisada.
 language-section-launched = lantschau
 language-section-launched-description =
-    Per las suandontas linguas activas ei la pagina web vegnida
-    <localizationGlossaryLink>translatau</localizationGlossaryLink> cumpleinamein ed ei dat ina
-    <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> ch'ei avunda gronda per cuntinuar cun <speakLink>plidar</speakLink> e <listenLink>tedlar</listenLink> contribuziuns.
-languages-show-more = Mussar dapli
-languages-show-less = Mussar pli pauc
-language-speakers = Plidader
+    Per ils suandonts lungatgs activs ei la pagina-web vegnida
+    <localizationGlossaryLink>translatada</localizationGlossaryLink> cumpleinamein ed ei dat ina
+    <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> ch'ei gronda avunda per cuntinuar cun <speakLink>discuorer</speakLink> e <listenLink>tedlar</listenLink> contribuziuns.
+languages-show-more = mussar dapli
+languages-show-less = mussar pli pauc
+language-speakers = Plidader/plidadra
 language-meter-in-progress = Progress
 language-total-progress = Total
 language-search-input =
-    .placeholder = Encurir
-language-speakers = Plidader
-localized = Translatau
+    .placeholder = encurir
+language-speakers = Plidader/plidadra
+localized = translatau
 sentences = Construcziuns
 total-hours = Uras confirmadas
 
 ## Contribution
 
-action-click = Cliccar
-action-tap = Tippar
-contribute = Contribuir
-listen = Tedlar
-skip = Sursiglir
+action-click = cliccar
+action-tap = tippar
+contribute = contribuir
+listen = tedlar
+skip = sursiglir
 shortcuts = Cumbinaziun da tastas
 clips-with-count = <bold>{ $count }</bold> Registraziuns
-goal-help-recording = Ti has gidau a Common Voice da contonscher <goalPercentage></goalPercentage> da nossa finamira dil di da { $goalValue } !
+goal-help-recording = Ti has gidau Common Voice a contonscher <goalPercentage></goalPercentage> da nossa finamira dil di da { $goalValue }!
 goal-help-validation = Ti has gidau a Common Voice da contonscher <goalPercentage></goalPercentage> da nossa finamira dil di da { $goalValue } !
 contribute-more =
     { $count ->
-        [one] Pronts da far { $count } dapli?
-       *[other] Pronts da far { $count } dapli?
+        [one] Promts/promta da far { $count } dapli?
+       *[other] Promts/promta da far { $count } dapli?
     }
-record-cta = Registrar
+record-cta = registrar
 record-platform-not-supported = Nus stein mal, tia plattafuorma vegn actualmein buca sustenida.
 record-platform-not-supported-desktop = Sin computers da desktop sas ti telecargar la pli nova versiun:
-record-platform-not-supported-ios = Utilisaders dad <bold>iOS</bold> pon telecargar nossa app gratuitamein:
+record-platform-not-supported-ios = Utilisaders dad <bold>iOS</bold> san telecargar nossa app gratuitamein:
 record-must-allow-microphone = Ti stos lubir igl access al microfon.
 record-no-mic-found = Anflau negin microfon.
 record-error-too-short = La registraziun ei memia cuorta.
@@ -619,26 +619,37 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> sche ti eis alla 
 record-three-more-instruction = Aunc treis!
 record-again-instruction = Grondius!<recordIcon></recordIcon> Fai in'ulteriura registraziun
 record-again-instruction2 = Stai vidlunder e fai aunc ina registraziun <recordIcon></recordIcon>
-record-last-instruction = <recordIcon></recordIcon> L’ultima!
-review-tooltip = Cheu sas ti verificar e registrar danovamein sch'ei fa basegns
-review-instruction = Verificar e registrar danovamein sch'igl ei necessari
-record-submit-tooltip = { $actionType } tarmetter sche ti eis pronts
-clips-uploaded = Registraziuns ein cargadas
-record-abort-title = Levas finir la registraziun avon?
-record-abort-text = Sche ti sortas ussa vegns ti a piarder tiu progress
-record-abort-submit = Transmetter la registraziun
-record-abort-continue = Finir la registraziun
-record-abort-delete = Sortir e stizzar las registraziuns
+record-last-instruction = <recordIcon></recordIcon> La davosa!
+review-tooltip = Cheu sas ti verificar e registrar danovamein, sch'ei fa basegns.
+review-instruction = Verificar e registrar danovamein, sch'igl ei necessari.
+record-submit-tooltip = { $actionType } tarmetter, sche ti eis promts/promta
+clips-uploaded = Las registraziuns ein cargadas si
+record-abort-title = Vul ti finir la registraziun avon?
+record-abort-text = Sche ti sortas ussa, piardas ti tiu progress.
+record-abort-submit = transmetter la registraziun
+record-abort-continue = finir la registraziun
+record-abort-delete = sortir e stizzar las registraziuns
 listen-instruction = { $actionType }<playIcon></playIcon> Ei la construcziun vegnida prelegida correctamein?
-listen-again-instruction = Excellenta lavur!<playIcon></playIcon>Teidla danovamein sche ti eis pronts.
+listen-again-instruction = Excellenta lavur!<playIcon></playIcon>Teidla danovamein, sche ti eis promts/promta.
 listen-3rd-time-instruction = Duas pli pauc, mo vinavon! <playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon>L'ultim!
-nothing-to-validate = Ei dat aunc neginas registraziuns per valetar en questa lingua, gida nus d'emplenir la colona da spetga cun tias registraziuns.
-record-button-label = Registrescha tia vusch
-share-title-new = <bold>Gida nus</bold> d'anflar novas vuschs
+listen-last-time-instruction = <playIcon></playIcon>La davosa!
+nothing-to-validate = Ei dat aunc neginas registraziuns per valetar en quei lungatg, gida nus ad emplenir la colonna da spetga cun tias registraziuns.
+record-button-label = registrescha tia vusch
+share-title-new = <bold>Gida nus</bold> ad anflar novas vuschs
+keep-track-profile = Teni en egl vies progress cun in profil
+login-to-get-started = S'annunziei ni seregistrei per entscheiver
 
 ## Reporting
 
+report = rapportar
+report-title = tarmetter in rapport
+report-ask = Tgei problems ein dai en egl a ti en quella construcziun?
+report-offensive-language = Lungatg offendent
+report-offensive-language-detail = La construcziun ha in lungatg senza respect ni offendent.
+report-grammar-or-spelling = Sbagl grammatical / ortografic
+report-grammar-or-spelling-detail = La construcziun ha in sbagl grammatical ni ortografic.
+report-different-language = Auter lungatg
+report-different-language-detail = La construcziun ei scretta en in auter lungatg che quel che jeu discuorel.
 
 ## Goals
 
