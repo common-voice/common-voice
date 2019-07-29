@@ -37,15 +37,19 @@ export default {
   async find(client_id: string, locale_id?: number): Promise<any[]> {
     const [rows] = await db.query(
       `
-        SELECT
-               custom_goals.id,
-               locale_id, type, days_interval, amount, created_at,
-               locales.name AS locale
-        FROM custom_goals
-        LEFT JOIN locales ON custom_goals.locale_id = locales.id
-        WHERE client_id = ? ${locale_id ? 'AND locale_id = ?' : ''}
+        SELECT *
+        FROM (
+          SELECT
+                 custom_goals.id,
+                 locale_id, type, days_interval, amount, created_at,
+                 locales.name AS locale
+          FROM custom_goals
+          LEFT JOIN locales ON custom_goals.locale_id = locales.id
+          WHERE client_id = ? ${locale_id ? 'AND locale_id = ?' : ''}
+          GROUP BY custom_goals.id
+          ORDER BY created_at DESC
+        ) t
         GROUP BY locale_id
-        ORDER BY created_at DESC
       `,
       [client_id, locale_id || null]
     );

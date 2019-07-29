@@ -364,7 +364,7 @@ export default class API {
       request.params.locale,
       request.body
     );
-    await this.getGoals(request, response);
+    response.json({});
     Basket.sync(request.client_id).catch(e => console.error(e));
   };
 
