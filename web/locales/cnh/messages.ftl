@@ -201,6 +201,7 @@ help-make-dataset = Mipi nih hman awktlak pumhmi data ser kan bawm
 profile-not-required = Aw tunnak dingah profile ngeih cu a herh lo nain na ngei ahcun a kan bawmh deuh lai
 sign-up-account = Account sernak
 email-subscription-title = Thawngpang thanhnak dingah cun account ser
+email-subscription-title-new = Common Voice thawngpang, tinhmi theihternak le tuah ciami theihternak dingah na min pe ve.
 
 ## Account Benefits
 
@@ -339,10 +340,11 @@ faq-why-important-a =
     
     Cucu vawleicung holh phun kip in a ngah khawhnak caah cun holhphun kip in holh mi aw, mi tampi siseh mi tlawmte holh siseh, kan lak. Hi vialte kan lakmi aw nih hin computer thiam mi hna le sipuaizi tuah tu hna nih an mah le ram cio in chawnh khawhmi computer ser hram an thok lai hi kan duh.
 faq-how-get-q = Common Voice data hi zeitindah ka lak khawh lai?
+faq-when-release2-q = Common Voice data zeitikdah holh phun dang in nan thlah te lai?
 faq-why-mission-q = Zei ruangah dah Common Voice hi Mozilla nih a khinhmi rian pakhat a si ve?
 faq-what-cv-and-deepspeech-q = Common le Deep Speech ai dannak hi zeidah a si?
 faq-is-goal-assistant-q = Common Voice nih ai tinhmi  hi holh bawmtu (voice assistant) ser a si maw?
-faq-why-my-lang-q = Zeiruangah dah ka holhphun ai tal ve lo?
+faq-why-my-lang-q = Zeiruangah dah ka holhphun ai tel ve lo?
 faq-how-calc-hours-q = Zeitiin dah Common Voice nih suimilam hi a tuak?
 faq-where-src-from-2-q = Khoi ka in dah biatlang le catlang hi kan lak?
 faq-why-not-ask-read-q = Zeiruangah dah cauk silole Wikipedia ca pawl mipi nan rel ter hna lo?
@@ -359,14 +361,14 @@ about-title = Common Voice cu zei ruangah dah kan hman?
 about-speak = Chim
 about-speak-text = Biatlang hlutmi hi bawmtu nih an rel i an aw an tun.
 about-listen = Ngai
-about-get-involved = I tal ve
+about-get-involved = I tel ve
 about-get-involved-text =
     Common Voice ṭhat ter deuh na duh maw?
-    <discourseLink> Discourse</discourseLink> ah na ruahnak kan kua, <githubLink>GitHub</githubLink> ah na ruahnak rak ṭial, silole <slackLink> Slack</slackLink> ah rak kan talpi.
+    <discourseLink> Discourse</discourseLink> ah na ruahnak kan kua, <githubLink>GitHub</githubLink> ah na ruahnak rak ṭial, silole <slackLink> Slack</slackLink> ah rak kan telpi.
 about-nav-why-common-voice = Zei Ruangah?
 about-nav-how-it-works = Zeitin?
 about-nav-partners = Partners
-about-nav-get-involved = I tal ve
+about-nav-get-involved = I tel ve
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 
@@ -432,6 +434,7 @@ why-email = <b> Email cu zei ah?</b> Hmailei ah kan dataset ai thlenmi a um sual
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Dawnlok
+recorded-hours = Khumh cangmi suimilam zat
 data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox in lak mi chiahnak a si.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM cu TED website i chiah mi holh le biatlang le catlang pawl hman in sermi a si.
@@ -439,6 +442,7 @@ data-other-voxforge-description = VoxForge cu mikip  nih zalong tele tling tein 
 data-other-tatoeba-description =
     Tatoeba cu holh cawnpiaknak ding ah biatlang, bialeh, le holh tuun mi chiahnak a si.
     Hi dawnlok mi chungah hin mikip nih mirang holh an tuun mi aa tal.
+go-languages-page = Holhphun thimnak ah kal
 ready-to-validate = Biatlang a hman le hman lo check dingah nai manh maw?
 more = Tamdeuh
 close = Khar
@@ -542,10 +546,22 @@ share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
 
 ## Reporting
 
+report-ask = Zei bantuk tlamtling lonak dah hi biatlang nih a ngeih?
 report-offensive-language = Biachia
+report-offensive-language-detail = Hi biatlang ah biachia siloah midang zomhteihnak a tel.
+report-grammar-or-spelling = Gramma / Biafang palh
+report-grammar-or-spelling-detail = A biatlang nih gramma silole biafang ṭial a palh.
 report-different-language = Holh dang
+report-different-language-detail = Ka holh phun a si lomi in a ṭial.
 report-difficult-pronounce = Awchuah a har
+report-difficult-pronounce-detail = Awchuah silole rel a har mi an i tel.
+report-offensive-speech = Bia ṭha lo
+report-offensive-speech-detail = Tunmi ah biachia siloah midang zomhteihnak a tel.
+report-other-comment =
+    .placeholder = Fianter
+success = Hlawh tlin
 continue = Peh zulh
+report-success = Theihternak pekmi cu a tlamtling
 
 ## Goals
 
@@ -582,11 +598,27 @@ top-contributors = Bawmtu Ṭhawngcem
 recorded-clips = Tun cangmi
 validated-clips = Check cangmi
 total-approved = Lungtlinmi Dihlak
-overall-accuracy = Ṭha tein Hmantlak
+overall-accuracy = Ṭha tein tuah khawhmi
 
 ## Custom Goals
 
 toward-next-goal = Hmailei tinhmi
+both-speak-and-listen = An pahnih in
+daily-goal = Nifatin tinhmi
+weekly-goal = Zarhfatin tinhmi
+easy-difficulty = A Fawi
+average-difficulty = Vuaktlak
+difficult-difficulty = A har
+want-to-continue = Na peh duh maw?
+finish-editing = Na remh hmasa lai maw?
+lose-changes-warning = Na kal tak ahcun na thlen ciami na thlau lai
+set-a-goal = Tinhmi ngei
+cant-decide = Thim kho lo?
+share-goal-type-speak = Chim
+share-goal-type-listen = Ngai
+weekly-goal-created = Zarhfatain caah na tinhmi a ser cang
+return-to-edit-goal = Na tinhmi remh dingah zeitik paoh ah kir a ngah.
+share-goal = Na tinhmi langhter
 
 ## Profile Delete
 
