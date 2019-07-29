@@ -1,17 +1,17 @@
 ## General
 
 yes-receive-emails = Gie, tarmettei a mi e-mails. Jeu less star al current davart il project Common Voice.
-stayintouch = Nus da Mozilla creein ina communitad per tecnologia vocala. Nus lein restar en contact cun tei per parter novitads, novas fontaunas da datas e per intervegnir co ti drovas quellas datas.
-privacy-info = Nus empermettein da tractar tias informaziuns cun quitau. Legia dapli en nossas <privacyLink>informaziuns davart la protecziun da datas</privacyLink>.
-return-to-cv = Turnar a Common Voice
+stayintouch = Nus da Mozilla creein ina communitad per la tecnologia vocala. Nus lein restar en contact cun tei per parter novitads, novas fontaunas da datas e per intervegnir co ti drovas quellas datas.
+privacy-info = Nus empermettein da tractar tias informaziuns cun quitau. Legia dapli en nossas <privacyLink>directivas davart la protecziun da datas</privacyLink>.
+return-to-cv = returnar a Common Voice
 email-input =
-    .label = E-mail
-submit-form-action = Tarmetter
-loading = Cargar...
-email-opt-in-info = Jeu less retscheiver e-mails sco regurdientschas da finamiras, mes rapports da progress e newsletters da Common Voice.
+    .label = e-mail
+submit-form-action = tarmetter
+loading = cargar ...
+email-opt-in-info = Jeu less retscheiver e-mails, per exempel regurdientschas da finamiras, mes rapports da progress e newsletters da Common Voice.
 email-opt-in-privacy = Cun dar il consentiment da retscheiver e-mails acceptas ti che Mozilla tracta quellas informaziuns sco explicau ellas <privacyLink>directivas davart la protecziun da datas<privacyLink> da Mozilla.
-indicates-required = * Indichescha in caum obligatori
-not-available-abbreviation = Buca disponibel
+indicates-required = * indichescha in caum obligatori
+not-available-abbreviation = buca disponibel
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -398,62 +398,62 @@ about-header-description =
     Nus lein metter a disposiziun datas da lungatg a moda libra e publica e garantir che las datas representien la diversitad dallas persunas realas. Ensemen savein nus migliurar l'identificaziun da lungatg per tuts.
 how-does-it-work-title = Co funcziunescha quei?
 how-does-it-work-text = Culla participaziun collectiva creein nus in'unitad da datas vocalas open source. Contribuescha cun tia vusch, verifichescha las registraziuns dad autras persunas e meglierescha l'unitad da datas per tuts.
-about-speak = Discuora
-about-speak-text = Contribuiders registreschan lur vusch enten preleger construcziuns ord ina banca da datas donada.
-about-listen-queue = Colona da spetga per tedlar
-about-listen-queue-text = Las registraziuns vegnan transmessas en ina colona da spetga nua ch'ellas vegnan preparadas per tedlar.
-about-listen = Tedlar
-about-listen-text = Utilisaders confirmeschan l'exactadad dallas registraziuns e controlleschan sch'il plidader ha legiu correctamein la cosnstrucziun.
+about-speak = discuora
+about-speak-text = Ils contribuiders registreschan lur vusch cun preleger construcziuns contribuidas en ina banca da datas.
+about-listen-queue = Colonna da spetga per tedlar
+about-listen-queue-text = Las registraziuns vegnan transmessas en ina colonna da spetga, nua ch'ellas vegnan preparadas per tedlar.
+about-listen = tedlar
+about-listen-text = Ils utilisaders confirmeschan l'exactadad dallas registraziuns e controlleschan, sch'il plidader ha legiu correctamein la construcziun.
 about-is-it-valid = Ei la registraziun correcta?
-about-is-it-valid-text = Ina registraziun vocala ei marcada sco "valeivel" sch'in utilisader valetescha ella cun in Gie.
+about-is-it-valid-text = Ina registraziun vocala ei marcada sco "valeivla", sch'in utilisader valetescha ella cun in Gie.
 about-yes-votes = ≥ 2 vuschs Gie
 about-yes-votes-text = Per vegnir integrada ell'unitad da datas da Common Voice, sto ina registraziun vocala vegnir controllada da dus differents utilisaders.
 about-no-votes = ≥ 2 vuschs Na
-about-no-votes-text = Sch'in utilisader refusescha ina registraziun vocala, tuorna quella ella colona da spetga. Sch'ella vegn refusada ina secunda gada vegn ella deplazzada sil santeri da registraziuns.
+about-no-votes-text = Sch'in utilisader refusescha ina registraziun vocala, tuorna quella ella colonna da spetga. Sch'ella vegn refusada ina secunda gada, vegn ella plazzada sil santeri da registraziuns.
 about-dataset-new = Unitad da datas da Common Voice
-about-dataset-new-text = L'unitad da datas da Common Voice cuntegn tschiensmellis exempels da vuschs che gidan a sviluppaders da construir utensils per l'identificaziun dalla vusch.
+about-dataset-new-text = L'unitad da datas da Common Voice cuntegn tschiensmellis exempels da vuschs che gidan ils sviluppaders a crear utensils per identificar la vusch.
 about-clip-graveyard = Santeri da registraziuns
-about-clip-graveyard-text = Il santeri da registraziuns consista ord registraziuns vocalas ch'ein buca vegnidas integradas ellu'nitad da datas. Il santeri da registraziuns stat a disposiziun da telecargar a medem'uisa sco l'unitad da datas.
+about-clip-graveyard-text = Il santeri da registraziuns consista da registraziuns vocalas ch'ein buca vegnidas integradas ell'unitad da datas. Sco l'unitad da datas stat era il santeri da registraziuns a disposiziun per telecargar.
 about-partners = Partenaris
 about-become-a-partner = Daventar partenari
 about-partnership =
-    Common Voice ei in project collaborativ e nus essan avisai sin nossa cuminonza da partenaris e cooperaturs per construir la pli gronda unitad da datas vocalas open source.
+    Common Voice ei in project collaborativ. Nus essan dependents da nossa communitad da partenaris e cooperaturs per crear la pli gronda unitad da datas vocalas open source.
     
-    Nus lein engraziar a suandontas persunas ed organisaziuns per lur agid cul project:
-about-get-involved = Seprarticipar
+    Nus engraziein allas suandontas persunas ed organisaziuns per lur agid en connex cul project:
+about-get-involved = separticipar
 about-get-involved-text =
-    Lessas ti segidar da megliurar Common Voice?
-    Grondius! Contactescha nus via email ni sin <discourseLink>Discourse </discourseLink>,
+    Vul ti segidar da meglierar Common Voice?
+    Grondius! Contactescha nus via e-mail ni sin <discourseLink>Discourse </discourseLink>,
     dai in resun a nus sur <githubLink> GitHub</githubLink>,
     ni viseta nus sin <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Daco?
 about-nav-how-it-works = Co?
 about-nav-partners = Partenaris
-about-nav-get-involved = Separticipescha
+about-nav-get-involved = separticipescha
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artifiziala
 mycroft-description =
     Mycroft ei igl emprem assistent digital open source dil mund.
     Mycroft funcziunescha dapertut - sin in computer, en in auto ni sin ina petta da puaunas (Raspberry Pi).
-mycroft-secondary-description = Ei setracta d'in program open source che sa vegnir modificaus, extendius e migliuraus libramein. Mycroft sa vegnir duvraus en tut las spartas, naven da projects scientifics entochen tier programs per interpresas.
+mycroft-secondary-description = Ei setracta d'in program open source che sa vegnir modificaus, extendius e meglieraus libramein. Mycroft sa vegnir duvraus en tut las spartas, seigi quei per projects scientifics ni programs per interpresas.
 
 ## Glossary
 
 glossary = Glossari
 localization = Localisaziun
-localization-explanation = Quei ei nies process per transtlatar ed adattar nies cuntegn per biaras linguas.
+localization-explanation = Quei ei nies process per translatar ed adattar nies cuntegn per bia lungatgs.
 sentence-collection = Collecziun da construcziuns
-sentence-collection-explanation = Rimnar construcziuns da domena publica ni scriver novas sut la licenzia dalla domena publica.
-hours-recorded-explanation = Il diember dallas uras dallas registraziuns rimnadas entochen ussa.
-hours-validated-explanation = Il diember dallas uras dallas registraziuns ch'ein vegnidas valetadas da 2 ord 3 utilisaders cun in "Gie". Qeui machescha il progress enviers la finamira da 10'000 uras.
+sentence-collection-explanation = Rimnar construcziuns dalla domena publica ni scriver novas per la domena publica.
+hours-recorded-explanation = Il diember d'uras da registraziun rimnadas entochen ussa.
+hours-validated-explanation = Il diember d'uras da registraziun ch'ein vegnidas valetadas da 2 da 3 utilisaders cun in "Gie". Quel marchescha il progress en vesta alla finamira da 10'000 uras.
 sst = da vusch a text (Speech-to-text, STT)
-sst-explanation = Tecnologias da vusch a text (STT) converteschan datotecas da lingua en text.
-de-identified = Anonimisau
-de-identified-explanation = Il process cun il qual las informaziun dil profil d'in cooperatur vegnan separadas da sias registraziuns contribuidas cura ch'ellas vegnan preparadas sco part dall'unitad da datas per telecargar.
+sst-explanation = Tecnologias da vusch a text (STT) converteschan datotecas da lungatg en text.
+de-identified = anonimisau
+de-identified-explanation = Il process, cun il qual las informaziuns dil profil d'in cooperatur vegnan separadas da sias registraziuns contribuidas, cura ch'ellas vegnan preparadas sco part dall'unitad da datas per telecargar.
 
 ## NotFound
 
-notfound-title = Buc anflau
+notfound-title = buc anflau
 notfound-content = Perstgisa, jeu sai buca tgei che ti enqueras.
 
 ## Data
