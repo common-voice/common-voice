@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Gie, tarmettei a mi e-mails. Jeu lessel star al current davart il project Common Voice.
+yes-receive-emails = Gie, tarmettei a mi e-mails. Jeu less star al current davart il project Common Voice.
 stayintouch = Nus da Mozilla creein ina communitad per tecnologia vocala. Nus lein restar en contact cun tei per parter novitads, novas fontaunas da datas e per intervegnir co ti drovas quellas datas.
 privacy-info = Nus empermettein da tractar tias informaziuns cun quitau. Legia dapli en nossas <privacyLink>informaziuns davart la protecziun da datas</privacyLink>.
 return-to-cv = Turnar a Common Voice
@@ -376,28 +376,28 @@ faq-why-not-ask-read-q = Pertgei supplicheis vus buca persunas da leger cudischs
 faq-why-not-ask-read-a = Per crear l'unitad da datas da Common Voice a moda aschi nizeivla sco pusseivel essan nus sedecidi da lubir mo texts da fontauna ch'ein suttamess ad ina licenzia tenor Creative Commons (CC0). Cun il standard CC0 eis ei d'ina vart pli difficil d'anflar e da rimnar texts da fontauna, da l'autra vart denton sa mintga utilisader duvrar las datas da lungatg che resulteschan, e quei senza restricziuns ni l'autorisaziun da Mozilla. La finfinala lein nus render l'unitad da datas plurilingua aschi nizeivla sco pusseivel per tuts, inclus perscrutaders, universitads, start-ups, regenzas, organisaziuns socialas e passiunai da computers.
 faq-why-account-q = Pertgei duei jeu endrizzar in conto?
 faq-is-account-public-q = Ein mias datas da conto publicas?
-faq-how-privacy-q = Co garantis vus l'anonimitad e la protecziun da datas da las persunas che han contribuiu lur vusch?
-faq-how-privacy-a = Ord tut las registraziuns ell'unitad da datas vegnan allontanadas las informaziuns d'identificaziun persunala. Sch'in cooperatur metta a disposiziun datas demograficas en siu profil vegnan quellas informaziuns allontanadas ord sias registraziuns avon ch'ellas vegnan messas a disposiziun sco unitad da datas per telecargar, plinavon vegnan ellas maina publicadas sin sia pagina da profil.
-faq-what-determine-identity-q = Tgei munta sch'jeu sai buca "eruir l'identitad" dil plidader ell'unitad da datas da Common Voice?
+faq-how-privacy-q = Co garantis vus l'anonimitad e la protecziun da datas dallas persunas che han contribuiu lur vusch?
+faq-how-privacy-a = Da tut las registraziuns ell'unitad da datas vegnan las informaziuns d'identificaziun persunala allontanadas. Sch'in cooperatur metta a disposiziun datas demograficas en siu profil, vegnan quellas informaziuns allontanadas da sias registraziuns avon ch'ellas vegnan messas a disposiziun sco unitad da datas per telecargar; plinavon vegnan ellas mai publicadas sin sia pagina da profil.
+faq-what-determine-identity-q = Tgei munta quei che jeu sai buca "eruir l'identitad" dil plidader ell'unitad da datas da Common Voice?
 faq-what-determine-identity-a =
-    L'unitad da datas da Common Voice ei ina resursa aviarta ch'ei accessibla public e cun la quala ins po trenar numerusas applicaziuns che vegnan manipuladas culla lingua. Per proteger la segirtad da nos cooperaturs, supplichein nus mintgin che telecarga l'unitad da datas da Common Voice, da respectar il schurmetg dalla sfera privata dils cooperaturs.
+    L'unitad da datas da Common Voice ei ina resursa aviarta ch'ei accessibla publicamein e cun la quala ins po trenar numerusas applicaziuns che vegnan dirigidas cul lungatg. Per proteger la segirtad da nos cooperaturs, supplichein nus mintgin che telecarga l'unitad da datas da Common Voice, da respectar la protecziun dalla sfera privata dils cooperaturs.
     
-    A tut las registraziuns ell'unitad da datas vegnan las informaziuns per l'identificaziun persunala allontanadas. Sche vus telecargheis las datas consentis Vus da buca eruir l'identitad dils cooperaturs. Quei munta che vus astgeis buca empruar da colligiar informaziuns ord il mantun da datas cun informaziuns persunalas d'in cooperatur. Vus saveis denton duvrar l'unitad da datas per trenar l'identificaziun da lingua ni l'identificaziun da plidaders ni autras applicaziuns essend che Vus colligeis per exempel informaziuns ell'unitad da datas cun autras informaziuns ch'ein gia en l'unitad da datas.
+    En tut las registraziuns dall'unitad da datas vegnan las informaziuns per l'identificaziun persunala allontanadas. Sche vus telecargheis las datas, consentis vus da buca eruir l'identitad dils cooperaturs. Quei munta che vus astgeis buc empruar da colligiar informaziuns dil mantun da datas cun informaziuns persunalas d'in cooperatur. Vus saveis denton duvrar l'unitad da datas per trenar l'identificaziun da lungatgs ni l'identificaziun da plidaders ni autras applicaziuns, per exempel cun colligiar informaziuns ell'unitad da datas cun autras informaziuns ch'ein gia ell'unitad da datas.
 faq-what-is-cv = Tgei ei Common Voice?
 faq-using-cv = Duvrar Common Voice
-faq-description = Common Voice ei part dall'inititiva da Mozilla per instruir a maschinas co carstgauns reals discuoran.
+faq-description = Common Voice fa part dall'iniziativa da Mozilla da mussar a maschinas co carstgauns reals discuoran.
 faq-search-for-answers =
-    .label = Encurir rispostas
+    .label = encurir rispostas
 
 ## ABOUT US
 
 about-title = Pertgei Common Voice?
-about-subtitle = Common Voice ei part dall'inititiva da Mozilla per gidar d'instruir maschinas co carstgauns reals discuoran. Supplementar a Common Voice sviluppein nus er ina maschina open source che distingua linguas cul num Deep Speech.
+about-subtitle = Common Voice fa part dall'iniziativa da Mozilla per gidar maschinas ad emprender co carstgauns reals discuoran. Ultra da Common Voice sviluppein nus era ina maschina open source cul num Deep Speech che distingua lungatgs.
 about-header-description =
-    Omisdus projects ein part da nos sforzs da surmuntar il cunfin da lingua digitala. Tecnologias d'identificaziun dalla vusch dattan ina dimensiun humana a nos apparats, mo sviluppaders drovan ina massa datas da lingua plidada per crear ellas. Presentamein ei la gronda part da quellas datas cara e proprietara.
-    Nus lein metter a disposiziun datas da lingua a moda libra e publica, e francar che las datas representan la diversitad da carstgauns reals. Ensemen savein nus migliurar l'identificaziun da lingua per tuts.
-how-does-it-work-title = Co funcziuna ei?
-how-does-it-work-text = Culla participaziun collectiva realisein nus in'unitad da datas vocalas open source. Contribuescha cun tia vusch, verifichescha las registraziuns dad autras persunas e migliurescha l'unitad da datas per tuts.
+    Omisdus projects fan part da nos sforzs da surmuntar il cunfin da lungatg digital. Las tecnologias d'identificaziun dalla vusch dattan a nos apparats ina dimensiun humana, mo ils sviluppaders drovan ina massa datas da lungatg discurriu per crear ellas. Actualmein ei la gronda part da quellas datas cara e protegida culs dretgs d'autur.
+    Nus lein metter a disposiziun datas da lungatg a moda libra e publica e garantir che las datas representien la diversitad dallas persunas realas. Ensemen savein nus migliurar l'identificaziun da lungatg per tuts.
+how-does-it-work-title = Co funcziunescha quei?
+how-does-it-work-text = Culla participaziun collectiva creein nus in'unitad da datas vocalas open source. Contribuescha cun tia vusch, verifichescha las registraziuns dad autras persunas e meglierescha l'unitad da datas per tuts.
 about-speak = Discuora
 about-speak-text = Contribuiders registreschan lur vusch enten preleger construcziuns ord ina banca da datas donada.
 about-listen-queue = Colona da spetga per tedlar
@@ -528,7 +528,7 @@ data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Il TED-LIUM corpus ei vegnius realisaus cun registraziuns d'audio da referats e lur transcripziuns ch'ein disponibels silla pagina web TED.
 data-other-voxforge-description = VoxForge ei vegnius fundaus per rimnar transcripziuns da lingua pil diever liber da maschinas d'identificaziun da lingua open source .
 data-other-tatoeba-description = Tatoeba ei la pli gronda unitad da datas da construcziuns, translaziuns e lingua plidada pil diever d'emprender linguas. Questa telecargada cuntegn Engles plidau registraus da sia cuminonza.
-your-feedback = Has ti in'idea co ins pudess migliurar l'unitad da datas da Common Voice? Lura dai part sin Discourse
+your-feedback = Has ti in'idea co ins pudess meglierar l'unitad da datas da Common Voice? Lura dai part sin Discourse
 go-discourse = Va sin Discourse
 missing-language = Maunca tia lingua aunc ell'unitad da datas? Per dumandar ina lingua, viseta nossa Pagina da linguas
 go-languages-page = Va silla Pagina da linguas
