@@ -636,16 +636,20 @@ difficult-difficulty = A Har
 want-to-continue = Na peh duh maw?
 finish-editing = Na remh hmasa lai maw?
 lose-changes-warning = Na kal tak ahcun na thlen ciami na thlau lai
+build-custom-goal = Tinhmi hma ser
 set-a-goal = Tinhmi ngei
 cant-decide = Thim kho lo?
 how-many-per-day = A ṭha! Nikhat ah tunmi zeizat?
 how-many-a-week = A ṭha! Zarhkhat ah tunmi zeizat?
 which-goal-type = Chim, Ngai, silole a pahnih in tuah na duh maw?
+n-clips = { NUMBER($count) } Tuncia
 help-share-goal = Tam deuh in aw kawl kan bawm, na tinhmi langhter
 confirm-goal = Tinhmi Fehter
 goal-interval-weekly = Zarhchiar
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $count } Nifatin tinhmi { $type } langhter
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $count } Zarhfatin tinhmi { $type } Langhter
 share-goal-type-speak = Chim
 share-goal-type-listen = Ngai
 share-goal-type-both = Chim le Ngaih
