@@ -124,8 +124,8 @@ yarn import-locales
 This creates/updates files in `/locales`:
 
 - fetch locale codes & names from Pontoon and save them in `all.json`
-- based on Pontoon translated data and a threshold defined in the script, save "completed" locales to `completed.json`
-- add codes that have a sentence folder in `/server/data` to `contributable.json`
+- based on Pontoon translated data and a threshold defined in the script, save "completed" locales to `translated.json`
+- add codes that have a sentence folder in `/server/data` and at least 5k sentences to `contributable.json`
 
 #### Need Help?
 
