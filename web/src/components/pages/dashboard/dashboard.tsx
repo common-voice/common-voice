@@ -6,7 +6,11 @@ import { useAccount, useAPI } from '../../../hooks/store-hooks';
 import { useRouter } from '../../../hooks/use-router';
 import URLS from '../../../urls';
 import { ALL_LOCALES } from '../../language-select/language-select';
-import { LocaleNavLink, useLocale } from '../../locale-helpers';
+import {
+  isContributable,
+  LocaleNavLink,
+  useLocale,
+} from '../../locale-helpers';
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
@@ -30,6 +34,22 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
     );
   }
 
+  const unseenAwards = account
+    ? account.awards.filter(a => !a.seen_at).length
+    : 0;
+
+  const locales = [''].concat(
+    (account ? account.locales : [])
+      .map(({ locale }) => locale)
+      .filter(l => isContributable(l))
+  );
+  const titleBarLocales = showTitleBarLocales
+    ? locales.slice(0, TITLE_BAR_LOCALE_COUNT)
+    : [];
+  const dropdownLocales = showTitleBarLocales
+    ? locales.slice(TITLE_BAR_LOCALE_COUNT)
+    : locales;
+
   useEffect(() => {
     const checkSize = () => {
       setShowTitleBarLocales(window.innerWidth > 992);
@@ -40,20 +60,6 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
       window.removeEventListener('resize', checkSize);
     };
   }, []);
-
-  const unseenAwards = account
-    ? account.awards.filter(a => !a.seen_at).length
-    : 0;
-
-  const locales = [''].concat(
-    (account ? account.locales : []).map(({ locale }) => locale)
-  );
-  const titleBarLocales = showTitleBarLocales
-    ? locales.slice(0, TITLE_BAR_LOCALE_COUNT)
-    : [];
-  const dropdownLocales = showTitleBarLocales
-    ? locales.slice(TITLE_BAR_LOCALE_COUNT)
-    : locales;
 
   return (
     <div className="top-bar">
