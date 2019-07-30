@@ -687,6 +687,7 @@ clips-you-validated = Ihre überprüften Aufzeichnungen
 todays-recorded-progress = Heutiger Fortschritt bei aufgenommenen Aufzeichnungen auf Common Voice
 todays-validated-progress = Heutiger Fortschritt bei überprüften Aufzeichnungen auf Common Voice
 stats = Statistiken
+awards = Auszeichnungen
 you = Sie
 everyone = Alle
 contribution-activity = Aktivität der Mitwirkenden
