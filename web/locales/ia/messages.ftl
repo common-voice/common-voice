@@ -408,7 +408,7 @@ about-partnership =
 about-get-involved = Collabora
 about-get-involved-text =
     Vole tu adjutar a render Common Voice mesmo melior?
-    Grande! Tener te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
+    Grande! Tene te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
     invia un commentario per <githubLink>GitHub</githubLink>,
     o junge te a nos sur <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Perque ?
