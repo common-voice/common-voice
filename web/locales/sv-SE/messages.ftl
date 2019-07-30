@@ -205,6 +205,7 @@ help-make-dataset = Hjälp oss bygga en högkvalitativ, öppen datamängd
 profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 sign-up-account = Registrera dig för ett konto
 email-subscription-title = registrera dig för uppdateringar via e-post
+email-subscription-title-new = Registrera dig för Common Voice nyhetsbrev, målpåminnelser och framstegsuppdateringar
 
 ## Account Benefits
 
@@ -322,9 +323,10 @@ off = Av
 on = På
 add-avatar-title = Lägg till en avatar till din profil
 add-avatar-clip = Lägg till ett avatar-klipp till din profil
-create-voice-wave = create-voice-wave = Skapa Voicewave
+create-voice-wave = Skapa Voicewave
 recording-voice-wave = Inspelning
 ready-to-upload = Ladda upp
+about-avatar-clip = Skapa en anpassad röstvåg för att presentera dig själv. Andra användare kommer att kunna sväva  över ditt klipp och lyssna på det.
 browse-file-title = Ladda upp en bildfil
 browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
 connect-gravatar = Anslut med Gravatar
@@ -692,7 +694,7 @@ clips-you-validated = Klipp du har validerat
 todays-recorded-progress = Dagens framsteg på Common Voice för inspelade klipp
 todays-validated-progress = Dagens framsteg på Common Voice för validerade klipp
 stats = Statistik
-awards = awards = Utmärkelser
+awards = Utmärkelser
 you = Du
 everyone = Alla
 contribution-activity = Bidragsaktivitet
@@ -702,7 +704,8 @@ validated-clips = Validerade klipp
 total-approved = Totalt godkända
 overall-accuracy = Övergripande noggrannhet
 set-visibility = Ställ in min synlighet
-visibility-overlay-note = visibility-overlay-note = Notera: När den är inställd på 'Synlig' kan den här inställningen ändras från <profileLink>Profilsidan</profileLink>
+visibility-explainer = Den här inställningen styr din topplistas synlighet. När du är dold är dina framsteg privata. Detta betyder att din bild, användarnamn och framsteg inte kommer att visas på topplistan. Observera att uppdatering av topplistan tar ~ { $minutes } min att fylla i ändringar.
+visibility-overlay-note = Notera: När den är inställd på 'Synlig', kan den här inställningen ändras från <profileLink>Profilsidan</profileLink>
 
 ## Custom Goals
 
@@ -717,28 +720,36 @@ easy-difficulty = Lätt
 average-difficulty = Medel
 difficult-difficulty = Svårt
 pro-difficulty = Proffs
-lose-goal-progress-warning = lose-goal-progress-warning = Genom att redigera ditt mål kan du tappa dina existerande framsteg.
+lose-goal-progress-warning = Genom att redigera ditt mål kan du tappa dina existerande framsteg.
 want-to-continue = Vill du fortsätta?
 finish-editing = Avsluta redigeringen först?
 lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
 build-custom-goal = Bygg ett anpassat mål
-help-reach-hours = help-reach-hours =  Hjälp oss att nå { NUMBER($hours) } timmar på { $language } med ett personligt mål
+help-reach-hours = Hjälp oss att nå { NUMBER($hours) } timmar för { $language } med ett personligt mål
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
+activity-needed-calculation =
+    { NUMBER($totalHours) } timmar kan uppnås på drygt { NUMBER($periodMonths) }
+    månader om { NUMBER($people) } personer spelar in { NUMBER($clipsPerDay) } klipp per dag.
 how-many-per-day = Bra! Hur många klipp per dag?
 how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?
+receiving-emails-info =
+    Du har valt att ta emot e-postmeddelanden som målpåminnelser, dina
+    framstegsuppdateringar och nyhetsbrev om Common Voice
 n-clips = { NUMBER($count) } klipp
 help-share-goal = Hjälp oss att hitta fler röster, dela ditt mål
 confirm-goal = Bekräfta målet
 goal-interval-weekly = Veckovis
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = share-n-daily-contribution-goal = Dela dina { $count } klipp dagsmål för { $type }
+share-n-daily-contribution-goal = Dela ditt dagliga mål med { $count } klipp för { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = share-n-weekly-contribution-goal= Dela dina { $count } klipp veckomål för { $type }
+share-n-weekly-contribution-goal = Dela veckans mål med { $count } klipp för { $type }
 share-goal-type-speak = Prata
 share-goal-type-listen = Lyssna
 share-goal-type-both = Prata och lyssna
+# LINK will be replaced with the current URL
+goal-share-text = Jag skapade precis ett personligt mål för röstdonation till #CommonVoice -- gå med mig och hjälpa till att lära maskiner hur riktiga människor talar { $link }
 weekly-goal-created = Ditt veckomål har skapats
 daily-goal-created = Ditt dagliga mål har skapats
 track-progress = Följa framstegen här och på din statistiksida.
