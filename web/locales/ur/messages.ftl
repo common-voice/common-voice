@@ -221,15 +221,28 @@ login-signup = لاگ ان کریں / سائن اپ کریں
 edit = تدوین
 off = بند
 on = چالو
+recording-voice-wave = ریکارڈنگ ہو رہا
 ready-to-upload = اپ لوڈ کریں
 add-language = زبان شامل کریں
 
 ## FAQ
 
 faq-title = اکثر پوچھے گئے سوالات
+faq-what-cv-q = Common Voice کیا ہے؟
+faq-what-is-cv = Common Voice کیا ہے؟
 
 ## ABOUT US
 
+about-title = Common Voice کیوں؟
+about-speak = بولیں
+about-listen = سنیں
+about-partners = ساتھی
+about-become-a-partner = شراکت دار بنیں۔
+about-get-involved = شامل ہوں
+about-nav-why-common-voice = کیوں؟
+about-nav-how-it-works = کیسے ؟
+about-nav-partners = ساتھی
+about-nav-get-involved = شامل ہوں
 
 ## Glossary
 
@@ -264,7 +277,16 @@ review-delete-recordings = میری رکارڈنگ حزف کریں
 
 ## Datasets Page
 
+language = زبانیں
+# File size in gigabytes
+size = سائز
+size-gigabyte = GB
+size-megabyte = MB
 data-other-ted-name = TED-LIUM Corpus
+more = مزید
+close = بند کریں
+download = ڈاؤن لوڈ کریں
+dataset-version = ورژن
 
 ## Download Modal
 
@@ -353,6 +375,7 @@ share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں
 
 ## Reporting
 
+success = کامیاب
 
 ## Goals
 
@@ -369,6 +392,12 @@ everyone = تمام
 
 ## Custom Goals
 
+both-speak-and-listen = دونوں
+easy-difficulty = آسان
+average-difficulty = اوسط
+difficult-difficulty = مشکل
+pro-difficulty = پرو
+want-to-continue = کیا آپ جاری رکھنا چاہتے ہیں؟
 
 ## Profile Delete
 
