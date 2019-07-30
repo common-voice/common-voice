@@ -5,6 +5,7 @@ import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { MicIcon, PlayOutlineIcon } from '../../../ui/icons';
 import { LinkButton } from '../../../ui/ui';
+import Props from '../props';
 
 import './awards.css';
 
@@ -63,7 +64,7 @@ const AwardBox = ({ award }: any) => (
   </li>
 );
 
-export default function AwardsPage() {
+export default function AwardsPage({ dashboardLocale }: Props) {
   const account = useAccount();
   const api = useAPI();
   const refreshUser = useAction(User.actions.refresh);
@@ -74,7 +75,13 @@ export default function AwardsPage() {
     });
   }, []);
 
-  const { awards } = account;
+  if (!account) {
+    return null;
+  }
+
+  const awards = account.awards.filter(
+    a => !dashboardLocale || a.locale == dashboardLocale
+  );
 
   if (awards.length == 0) {
     return <NoAwardsPage />;
