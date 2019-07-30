@@ -675,6 +675,7 @@ clips-you-validated = 您验证的片段
 todays-recorded-progress = 今日 Common Voice 已录片段进度
 todays-validated-progress = 今日 Common Voice 已录片段进度
 stats = 统计
+awards = 成就
 you = 您自己
 everyone = 所有人
 contribution-activity = 贡献记录
