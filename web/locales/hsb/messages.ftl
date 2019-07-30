@@ -328,6 +328,7 @@ off = Wupinjeny
 on = Zapinjeny
 add-avatar-title = Přidajće wašemu profilej awatar
 add-avatar-clip = Přidajće wašemu profilej awatarowy klip
+ready-to-upload = Nahrać
 browse-file-title = Wobrazowu dataju nahrać
 browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
 connect-gravatar = Z gravatarom zwjazać
