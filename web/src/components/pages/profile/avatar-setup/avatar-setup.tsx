@@ -298,7 +298,11 @@ class AvatarSetup extends React.Component<Props> {
               <div>
                 <Suspense fallback={<div></div>}>
                   <div className="lottie">
-                    <Lottie options={defaultOptions} eventListeners={[]} />
+                    <Lottie
+                      options={defaultOptions}
+                      eventListeners={[]}
+                      width={508}
+                    />
                   </div>
                 </Suspense>
               </div>
