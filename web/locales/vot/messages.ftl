@@ -701,13 +701,17 @@ set-visibility = Установите мою видимость
 ## Custom Goals
 
 toward-next-goal = Следующая цель
+create-custom-goal = Создать собственную цель
 both-speak-and-listen = Mõlõpõd
 both-speak-and-listen-long = Mõlõpõd (Pajatõ i Kuuntõ)
+daily-goal = Ежедневная цель
+weekly-goal = Еженедельная цель
 easy-difficulty = Prosta
 average-difficulty = Keskolin
 difficult-difficulty = Rankkõ
 pro-difficulty = Maastõri
 want-to-continue = Tahatko jatkaa?
+set-a-goal = Поставить цель
 cant-decide = Etkö saa valitsa?
 goal-interval-weekly = Nätälitta
 share-goal-type-speak = Pajattõmin
