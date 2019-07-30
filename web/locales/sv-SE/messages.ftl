@@ -691,6 +691,7 @@ clips-you-validated = Klipp du har validerat
 todays-recorded-progress = Dagens framsteg på Common Voice för inspelade klipp
 todays-validated-progress = Dagens framsteg på Common Voice för validerade klipp
 stats = Statistik
+awards = awards = Utmärkelser
 you = Du
 everyone = Alla
 contribution-activity = Bidragsaktivitet
@@ -718,6 +719,7 @@ want-to-continue = Vill du fortsätta?
 finish-editing = Avsluta redigeringen först?
 lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
 build-custom-goal = Bygg ett anpassat mål
+help-reach-hours = help-reach-hours =  Hjälp oss att nå { NUMBER($hours) } timmar på { $language } med ett personligt mål
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
 how-many-per-day = Bra! Hur många klipp per dag?
@@ -727,6 +729,10 @@ n-clips = { NUMBER($count) } klipp
 help-share-goal = Hjälp oss att hitta fler röster, dela ditt mål
 confirm-goal = Bekräfta målet
 goal-interval-weekly = Veckovis
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = share-n-daily-contribution-goal = Dela dina { $count } klipp dagsmål för { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = share-n-weekly-contribution-goal= Dela dina { $count } klipp veckomål för { $type }
 share-goal-type-speak = Prata
 share-goal-type-listen = Lyssna
 share-goal-type-both = Prata och lyssna
