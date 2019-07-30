@@ -699,6 +699,7 @@ recorded-clips = Inspelade klipp
 validated-clips = Validerade klipp
 total-approved = Totalt godkända
 overall-accuracy = Övergripande noggrannhet
+set-visibility = Ställ in min synlighet
 
 ## Custom Goals
 
@@ -714,6 +715,8 @@ average-difficulty = Medel
 difficult-difficulty = Svårt
 pro-difficulty = Proffs
 want-to-continue = Vill du fortsätta?
+finish-editing = Avsluta redigeringen först?
+lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
 build-custom-goal = Bygg ett anpassat mål
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
