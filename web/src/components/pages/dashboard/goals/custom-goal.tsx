@@ -196,10 +196,14 @@ function CurrentFields({
   );
 }
 
-export default function CustomGoal({ locale }: { locale: string }) {
+export default function CustomGoal({
+  dashboardLocale,
+}: {
+  dashboardLocale: string;
+}) {
   const api = useAPI();
   const { custom_goals, email } = useAccount();
-  const customGoal = custom_goals.find(g => g.locale == locale);
+  const customGoal = custom_goals.find(g => g.locale == dashboardLocale);
   const refreshUser = useAction(User.actions.refresh);
 
   const [stepIndex, setStepIndex] = useState(STEPS.INTRO);
@@ -250,7 +254,7 @@ export default function CustomGoal({ locale }: { locale: string }) {
     setTouchedStepIndex(Math.max(touchedStepIndex, nextIndex));
     if (nextIndex == STEPS.COMPLETED) {
       setTouchedStepIndex(STEPS.INTRO);
-      await api.createGoal(locale, state);
+      await api.createGoal(dashboardLocale, state);
       if (subscribed) {
         await api.subscribeToNewsletter(email);
       }
@@ -310,7 +314,7 @@ export default function CustomGoal({ locale }: { locale: string }) {
       />
       {showViewGoal ? (
         <ViewGoal
-          locale={locale}
+          locale={dashboardLocale}
           onNext={() => handleNext()}
           customGoal={customGoal}
         />
@@ -336,7 +340,7 @@ export default function CustomGoal({ locale }: { locale: string }) {
             onClick: () => handleNext(),
           }}
           state={state}
-          {...{ locale, subscribed, setSubscribed }}
+          {...{ dashboardLocale, subscribed, setSubscribed }}
         />
       )}
     </div>

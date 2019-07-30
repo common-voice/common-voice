@@ -1,8 +1,9 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { Route, RouteComponentProps, Switch, withRouter } from 'react-router';
+import { Redirect, Route, Switch } from 'react-router';
 import { useAccount, useAPI } from '../../../hooks/store-hooks';
+import { useRouter } from '../../../hooks/use-router';
 import URLS from '../../../urls';
 import { ALL_LOCALES } from '../../language-select/language-select';
 import { LocaleNavLink, useLocale } from '../../locale-helpers';
@@ -14,25 +15,20 @@ import './dashboard.css';
 
 const TITLE_BAR_LOCALE_COUNT = 3;
 
-const TopBar = ({ history }: RouteComponentProps) => {
-  const account = useAccount();
-  const api = useAPI();
+const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
+  const { history, location } = useRouter();
   const [, toLocaleRoute] = useLocale();
-
-  const [allGoals, setAllGoals] = useState(null);
-  const [locale, setLocale] = useState(ALL_LOCALES);
+  const account = useAccount();
   const [showTitleBarLocales, setShowTitleBarLocales] = useState(true);
 
-  useEffect(() => {
-    if (!account) {
-      sessionStorage.setItem('redirectURL', location.pathname);
-      window.location.href = '/login';
-    }
-  }, []);
-
-  useEffect(() => {
-    api.fetchGoals(locale == ALL_LOCALES ? null : locale).then(setAllGoals);
-  }, [locale]);
+  function setLocale(value: string) {
+    const pathParts = location.pathname.split('/');
+    history.push(
+      [toLocaleRoute(URLS.DASHBOARD), value, pathParts[pathParts.length - 1]]
+        .filter(Boolean)
+        .join('/')
+    );
+  }
 
   useEffect(() => {
     const checkSize = () => {
@@ -49,7 +45,7 @@ const TopBar = ({ history }: RouteComponentProps) => {
     ? account.awards.filter(a => !a.seen_at).length
     : 0;
 
-  const locales = [ALL_LOCALES].concat(
+  const locales = [''].concat(
     (account ? account.locales : []).map(({ locale }) => locale)
   );
   const titleBarLocales = showTitleBarLocales
@@ -60,92 +56,177 @@ const TopBar = ({ history }: RouteComponentProps) => {
     : locales;
 
   return (
-    <div className="dashboard">
-      <div className="inner">
-        <div className="top-bar">
-          <nav>
-            {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(
-              ([label, url]) => (
-                <LocaleNavLink key={url} to={url}>
-                  <Localized id={label}>
-                    <h2 />
-                  </Localized>
-                </LocaleNavLink>
-              )
-            )}
-            <LocaleNavLink to={URLS.AWARDS}>
-              <h2>
-                Awards{' '}
-                {unseenAwards > 0 && (
-                  <span className="badge">
-                    {unseenAwards > 9 ? '9+' : unseenAwards}
-                  </span>
-                )}
-              </h2>
-            </LocaleNavLink>
-          </nav>
-
-          {!history.location.pathname.includes(URLS.AWARDS) && (
-            <div className="languages">
-              <span>
-                <Localized id="your-languages">
-                  <span />
-                </Localized>
-                :
+    <div className="top-bar">
+      <nav>
+        {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(([label, path]) => (
+          <LocaleNavLink
+            key={path}
+            to={
+              URLS.DASHBOARD +
+              (dashboardLocale ? '/' + dashboardLocale : '') +
+              path
+            }>
+            <Localized id={label}>
+              <h2 />
+            </Localized>
+          </LocaleNavLink>
+        ))}
+        <LocaleNavLink
+          to={
+            URLS.DASHBOARD +
+            (dashboardLocale ? '/' + dashboardLocale : '') +
+            URLS.AWARDS
+          }>
+          <h2>
+            <Localized id="awards">
+              <span />
+            </Localized>{' '}
+            {unseenAwards > 0 && (
+              <span className="badge">
+                {unseenAwards > 9 ? '9+' : unseenAwards}
               </span>
-              {titleBarLocales.map(l => (
-                <label key={l}>
-                  <input
-                    type="radio"
-                    name="language"
-                    checked={l == locale}
-                    onChange={() => setLocale(l)}
-                  />
-                  <Localized id={l}>
-                    <span />
-                  </Localized>
-                </label>
-              ))}
-              {dropdownLocales.length > 0 && (
-                <select
-                  className={dropdownLocales.includes(locale) ? 'selected' : ''}
-                  name="language"
-                  value={locale}
-                  onChange={({ target: { value } }) => {
-                    if (value) {
-                      setLocale(value);
-                    }
-                  }}>
-                  {titleBarLocales.length > 0 && <option value="" />}
-                  {dropdownLocales.map(l => (
-                    <Localized key={l} id={l}>
-                      <option value={l} />
-                    </Localized>
-                  ))}
-                </select>
-              )}
-            </div>
-          )}
-        </div>
-        <Switch>
-          {[
-            { route: URLS.STATS, Component: StatsPage },
-            { route: URLS.GOALS, Component: GoalsPage },
-            { route: URLS.AWARDS, Component: AwardsPage },
-          ].map(({ route, Component }) => (
-            <Route
-              key={route}
-              exact
-              path={toLocaleRoute(route)}
-              render={props => (
-                <Component {...{ allGoals, locale }} {...props} />
-              )}
+            )}
+          </h2>
+        </LocaleNavLink>
+      </nav>
+
+      <div className="languages">
+        <span>
+          <Localized id="your-languages">
+            <span />
+          </Localized>
+          :
+        </span>
+        {titleBarLocales.map(l => (
+          <label key={l}>
+            <input
+              type="radio"
+              name="language"
+              checked={l == dashboardLocale}
+              onChange={() => setLocale(l)}
             />
-          ))}
-        </Switch>
+            <Localized id={l || ALL_LOCALES}>
+              <span />
+            </Localized>
+          </label>
+        ))}
+        {dropdownLocales.length > 0 && (
+          <select
+            className={
+              dropdownLocales.includes(dashboardLocale) ? 'selected' : ''
+            }
+            name="language"
+            value={dashboardLocale}
+            onChange={({ target: { value } }) => {
+              if (value) {
+                setLocale(value);
+              }
+            }}>
+            {titleBarLocales.length > 0 && <option value="" />}
+            {dropdownLocales.map(l => (
+              <Localized key={l || ALL_LOCALES} id={l}>
+                <option value={l} />
+              </Localized>
+            ))}
+          </select>
+        )}
       </div>
     </div>
   );
 };
 
-export default withRouter(TopBar);
+function DashboardContent({
+  Page,
+  dashboardLocale,
+}: {
+  Page: typeof StatsPage | typeof GoalsPage | typeof AwardsPage;
+  dashboardLocale: string;
+}) {
+  const api = useAPI();
+  const [allGoals, setAllGoals] = useState(null);
+
+  useEffect(() => {
+    api.fetchGoals(dashboardLocale || null).then(setAllGoals);
+  }, [dashboardLocale]);
+
+  return <Page {...{ allGoals, dashboardLocale }} />;
+}
+
+const PAGES = [
+  { subPath: URLS.STATS, Page: StatsPage },
+  { subPath: URLS.GOALS, Page: GoalsPage },
+  { subPath: URLS.AWARDS, Page: AwardsPage },
+];
+
+export default function Dashboard() {
+  const { match } = useRouter();
+  const account = useAccount();
+  const [, toLocaleRoute] = useLocale();
+
+  useEffect(() => {
+    if (!account) {
+      sessionStorage.setItem('redirectURL', location.pathname);
+      window.location.href = '/login';
+    }
+  }, []);
+
+  return (
+    <div className="dashboard">
+      <div className="inner">
+        <Switch>
+          {PAGES.map(({ subPath, Page }) => (
+            <Route
+              key={subPath}
+              exact
+              path={match.path + subPath}
+              render={() => (
+                <>
+                  <TopBar dashboardLocale="" />
+                  <DashboardContent dashboardLocale="" {...{ Page }} />
+                </>
+              )}
+            />
+          ))}
+          <Route
+            path={match.path + '/:dashboardLocale'}
+            render={({
+              match: {
+                params: { dashboardLocale },
+              },
+            }) => (
+              <>
+                <TopBar {...{ dashboardLocale }} />
+                <Switch>
+                  {PAGES.map(({ subPath, Page }) => (
+                    <Route
+                      key={subPath}
+                      exact
+                      path={match.path + '/' + dashboardLocale + subPath}
+                      render={() => (
+                        <DashboardContent {...{ dashboardLocale, Page }} />
+                      )}
+                    />
+                  ))}
+                  <Route
+                    render={() => (
+                      <Redirect
+                        to={toLocaleRoute(
+                          URLS.DASHBOARD + '/' + dashboardLocale + URLS.STATS
+                        )}
+                      />
+                    )}
+                  />
+                </Switch>
+              </>
+            )}
+          />
+          <Route
+            render={() => (
+              <Redirect to={toLocaleRoute(URLS.DASHBOARD + URLS.STATS)} />
+            )}
+          />
+        </Switch>
+      </div>
+    </div>
+  );
+}

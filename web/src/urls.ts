@@ -1,4 +1,5 @@
-const PROFILE_ROOT = '/profile';
+const PROFILE = '/profile';
+const DASHBOARD = '/dashboard';
 export default Object.freeze({
   ROOT: '',
 
@@ -6,15 +7,15 @@ export default Object.freeze({
   SPEAK: '/speak',
   LISTEN: '/listen',
 
-  PROFILE: PROFILE_ROOT,
-  PROFILE_INFO: PROFILE_ROOT + '/info',
-  PROFILE_AVATAR: PROFILE_ROOT + '/avatar',
-  PROFILE_SETTINGS: PROFILE_ROOT + '/settings',
-  PROFILE_DELETE: PROFILE_ROOT + '/delete',
+  PROFILE,
+  PROFILE_INFO: PROFILE + '/info',
+  PROFILE_AVATAR: PROFILE + '/avatar',
+  PROFILE_SETTINGS: PROFILE + '/settings',
+  PROFILE_DELETE: PROFILE + '/delete',
 
-  DASHBOARD: '/dashboard', // old, here for redirect purposes
+  DASHBOARD,
   STATS: '/stats',
-  PROFILE_GOALS: PROFILE_ROOT + '/goals', // old, here for redirect purposes
+  PROFILE_GOALS: PROFILE + '/goals', // old, here for redirect purposes
   GOALS: '/goals',
   AWARDS: '/awards',
 

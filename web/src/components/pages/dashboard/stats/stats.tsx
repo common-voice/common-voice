@@ -7,7 +7,7 @@ import StatsCard from './stats-card';
 
 import './stats.css';
 
-const StatsPage = ({ allGoals, locale }: Props) =>
+const StatsPage = ({ allGoals, dashboardLocale }: Props) =>
   allGoals ? (
     <div className="stats-page">
       <div className="cards">
@@ -17,9 +17,9 @@ const StatsPage = ({ allGoals, locale }: Props) =>
           ];
           return (
             <ProgressCard
-              key={type + locale}
+              key={type + dashboardLocale}
               type={type as any}
-              locale={locale}
+              locale={dashboardLocale}
               personalCurrent={current}
               personalGoal={
                 allGoals

@@ -73,18 +73,25 @@ export default function Content() {
             component={ProfileLayoutPage}
           />
           <Route
-            path={[URLS.STATS, URLS.GOALS, URLS.AWARDS].map(toLocaleRoute)}
+            path={toLocaleRoute(URLS.DASHBOARD)}
             component={DashboardPage}
           />
-          <Route
-            exact
-            path={toLocaleRoute(URLS.DASHBOARD)}
-            render={() => <Redirect to={toLocaleRoute(URLS.STATS)} />}
-          />
+          {[URLS.STATS, URLS.GOALS, URLS.AWARDS].map(path => (
+            <Route
+              key={path}
+              exact
+              path={toLocaleRoute(path)}
+              render={() => (
+                <Redirect to={toLocaleRoute(URLS.DASHBOARD + path)} />
+              )}
+            />
+          ))}
           <Route
             exact
             path={toLocaleRoute(URLS.PROFILE_GOALS)}
-            render={() => <Redirect to={toLocaleRoute(URLS.GOALS)} />}
+            render={() => (
+              <Redirect to={toLocaleRoute(URLS.DASHBOARD + '/' + URLS.GOALS)} />
+            )}
           />
           <Route exact path={toLocaleRoute(URLS.FAQ)} component={FAQPage} />
           <Route exact path={toLocaleRoute(URLS.ABOUT)} component={AboutPage} />

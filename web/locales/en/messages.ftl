@@ -699,6 +699,7 @@ clips-you-validated = Clips You've Validated
 todays-recorded-progress = Today's Common Voice progress on clips recorded
 todays-validated-progress = Today's Common Voice progress on clips validated
 stats = Stats
+awards = Awards
 you = You
 everyone = Everyone
 contribution-activity = Contribution Activity

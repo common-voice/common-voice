@@ -5,9 +5,7 @@ import { CustomGoal, CustomGoalParams } from 'common/goals';
 import { UserClient } from 'common/user-clients';
 import URLS from '../../../../urls';
 import { useAccount } from '../../../../hooks/store-hooks';
-import { DEFAULT_LOCALE } from '../../../../services/localization';
 import { getManageSubscriptionURL } from '../../../../utility';
-import { ALL_LOCALES } from '../../../language-select/language-select';
 import { LocaleLink } from '../../../locale-helpers';
 import ShareModal from '../../../share-modal/share-modal';
 import {
@@ -83,7 +81,7 @@ export const ViewGoal = ({
 );
 
 interface CustomGoalStepProps {
-  locale: string;
+  dashboardLocale: string;
 
   completedFields: React.ReactNode;
   currentFields: React.ReactNode;
@@ -102,7 +100,7 @@ interface AccountProps {
 }
 
 export default [
-  withLocalization(({ getString, locale, nextButtonProps }: any) => (
+  withLocalization(({ getString, dashboardLocale, nextButtonProps }: any) => (
     <>
       <div className="padded">
         <Localized id="build-custom-goal">
@@ -111,9 +109,7 @@ export default [
         <Localized
           id="help-reach-hours"
           $hours={10000}
-          $language={getString(
-            locale == ALL_LOCALES ? DEFAULT_LOCALE : locale
-          )}>
+          $language={getString(dashboardLocale)}>
           <span className="sub-head" />
         </Localized>
       </div>
