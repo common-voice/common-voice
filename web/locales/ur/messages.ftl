@@ -9,6 +9,7 @@ email-input =
 submit-form-action = ‏‏جمع کریں
 loading = لوڈ ہو رہا ہے…
 indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا
+not-available-abbreviation = عدم دستیاب
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,6 +17,7 @@ indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا
 
 ## Languages
 
+ab = ابخاز
 af = افریقانی
 an = ایراگونیز
 ar = عربى
@@ -97,7 +99,9 @@ zh-TW = چینی (تائیوان)
 
 speak = بولیں
 speak-now = ابھی بولیں
+datasets = ڈیٹا سیٹس
 languages = زبانیں
+about = متعلق
 profile = پروفائل
 help = مدد
 contact = رابطہ
@@ -125,6 +129,11 @@ speak-subtitle = اپنی آواز کا عطیہ کریں
 todays-progress = آج کی پیش رفت
 all-locales = تمام
 today = آج
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] { $count } ہفتہ
+    }
 sign-up-account = ایک اکاؤنٹ کے لئے سائن اپ کریں
 
 ## Account Benefits
@@ -201,15 +210,18 @@ why-profile-title = ایک پروفائل کیوں؟
 why-profile-text = اپنے بارے میں کچھ معلومات فراہم کرنے سے۔، صوتی کوائف جو آُپ Common Voice میں جمع کرائیں گے وہ گویاِی کے لیئے مزید فائدہ مند ہوں گے توثیق کار انجن اس کوائف کو استعمال کرکے اپنی درستکی کریں گے۔
 dashboard = ڈیش بورڈ
 build-profile = پروفائل بنائیں
+avatar = اوتار
 goals = مقاصد
 settings = ترتیبات
 edit-profile = پروفائل کی تدوین کریں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
 profile-explanation = ایک پروفائل کے ساتھ اپنی پیش رفت پر سراغ رکھیں اور ہماری صوتی کوائف کی مزید درستگی  میں مدد کریں
+login-signup = لاگ ان کریں / سائن اپ کریں
 edit = تدوین
 off = بند
 on = چالو
+ready-to-upload = اپ لوڈ کریں
 add-language = زبان شامل کریں
 
 ## FAQ
@@ -250,7 +262,7 @@ review-cancel = جمع منسوخ کریں
 review-keep-recordings = ریکارڈنگ رکھیں
 review-delete-recordings = میری رکارڈنگ حزف کریں
 
-## New Datasets Page
+## Datasets Page
 
 data-other-ted-name = TED-LIUM Corpus
 
@@ -294,7 +306,7 @@ localized = لوکلائز شدہ
 sentences = جملے
 total-hours = کل گھنٹے
 
-## New Contribution
+## Contribution
 
 action-click = کلک
 action-tap = تھپتپانا
@@ -323,7 +335,6 @@ record-again-instruction = بہت اچھے! <recordIcon></recordIcon> اپنا �
 record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>آخری!
 review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
-unable-speak = ابھی بول نہیں سکتے؟
 review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
 record-submit-tooltip = { $actionType } جمع کرائیں جب تیار ہوں
 clips-uploaded = اپ لوڈ شدہ تراشے
@@ -340,6 +351,9 @@ nothing-to-validate = اس زبان میں توژیق کاری کے لیئے ک�
 record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
 
+## Reporting
+
+
 ## Goals
 
 days =
@@ -353,8 +367,14 @@ days =
 you = آپ
 everyone = تمام
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = رکھیں
 remove = ہٹائیں
 profile-form-delete = پروفائل حزف کریں
+
+## Landing
+
