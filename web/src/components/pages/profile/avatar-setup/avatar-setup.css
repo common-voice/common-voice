@@ -40,6 +40,10 @@
         background-image: url('./groupbg.svg');
     }
 
+    .lottie {
+        width: 508px;
+    }
+
     .Primary {
         width: 30%;
         height: 57px;
@@ -81,14 +85,15 @@
     }
 
     .fix {
-        height: 300px;
-        width: 500px;
+        height: 240px;
     }
 }
 
 .avatar-setup {
+    width: 250px;
+
     border: none;
-    padding-left: 70px;
+    padding-left: 20px;
     & h2 {
         margin-bottom: 60px;
         font-weight: 600;
