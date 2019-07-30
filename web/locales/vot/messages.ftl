@@ -87,6 +87,7 @@ mk = Македонский
 ml = Малаялам
 mn = Монгольский
 mrj = Горномарийский
+mt = malta čeeli
 myv = Эрзянский
 nb-NO = Норвежский Букмол
 ne-NP = Непальский
@@ -319,6 +320,7 @@ off = Выкл.
 on = Вкл.
 add-avatar-title = Добавить аватар в свой профиль
 add-avatar-clip = Добавить аватар в ваш профиль
+ready-to-upload = Laadi ülelle
 browse-file-title = Загрузить файл изображения
 browse-file = Перетащите или <browseWrap>выберите файл</browseWrap>
 connect-gravatar = Присоединить Gravatar
@@ -694,6 +696,7 @@ recorded-clips = Озвучено
 validated-clips = Проверено
 total-approved = Всего проверено
 overall-accuracy = Общая точность
+set-visibility = Установите мою видимость
 
 ## Custom Goals
 
