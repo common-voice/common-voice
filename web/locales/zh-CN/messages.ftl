@@ -316,6 +316,7 @@ off = 关
 on = 开
 add-avatar-title = 在您的个人资料中添加头像
 add-avatar-clip = 为您的个人资料添加头像
+create-voice-wave = 创建 Voicewave
 recording-voice-wave = 正在录制
 ready-to-upload = 上传
 about-avatar-clip = 录制音频介绍自己，其他用户将可悬停聆听您的片段。
