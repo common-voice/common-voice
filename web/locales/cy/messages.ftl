@@ -716,6 +716,7 @@ clips-you-validated = Clipiau Rydych Wedi'u Dilysu
 todays-recorded-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u recordio
 todays-validated-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u dilysu
 stats = Ystadegau
+awards = Gwobrau
 you = Chi
 everyone = Pawb
 contribution-activity = Gweithgaredd Cyfrannu
