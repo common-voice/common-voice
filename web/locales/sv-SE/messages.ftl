@@ -322,6 +322,7 @@ off = Av
 on = På
 add-avatar-title = Lägg till en avatar till din profil
 add-avatar-clip = Lägg till ett avatar-klipp till din profil
+create-voice-wave = create-voice-wave = Skapa Voicewave
 recording-voice-wave = Inspelning
 ready-to-upload = Ladda upp
 browse-file-title = Ladda upp en bildfil
@@ -701,6 +702,7 @@ validated-clips = Validerade klipp
 total-approved = Totalt godkända
 overall-accuracy = Övergripande noggrannhet
 set-visibility = Ställ in min synlighet
+visibility-overlay-note = visibility-overlay-note = Notera: När den är inställd på 'Synlig' kan den här inställningen ändras från <profileLink>Profilsidan</profileLink>
 
 ## Custom Goals
 
@@ -715,6 +717,7 @@ easy-difficulty = Lätt
 average-difficulty = Medel
 difficult-difficulty = Svårt
 pro-difficulty = Proffs
+lose-goal-progress-warning = lose-goal-progress-warning = Genom att redigera ditt mål kan du tappa dina existerande framsteg.
 want-to-continue = Vill du fortsätta?
 finish-editing = Avsluta redigeringen först?
 lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
