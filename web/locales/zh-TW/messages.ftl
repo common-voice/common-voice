@@ -680,6 +680,7 @@ clips-you-validated = 您已驗證的片段
 todays-recorded-progress = 本日 Common Voice 錄音片段進度
 todays-validated-progress = 本日 Common Voice 驗證片段進度
 stats = 統計
+awards = 成就
 you = 您自己
 everyone = 所有人
 contribution-activity = 貢獻紀錄
