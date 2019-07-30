@@ -78,7 +78,7 @@ module "database" {
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
-  instance_class         = "${var.environment == "prod" ? "db.t2.large" : "db.t2.small"}"
+  instance_class         = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
   allocated_storage      = "${var.environment == "prod" ? "100" : "10"}"
 }
 
