@@ -77,6 +77,7 @@ Adik perempuan saya sudah tidur.
 Aduh, kenapa jadinya begini?
 Agar tak tertinggal pesawat, saya bergegas ke bandara.
 Ah!! Komputernya rusak!
+Ai dan Mariko adalah teman dekat. Mereka pergi ke mana pun bersama.
 Air dalam tanki tinggal sedikit, mungkin juga habis
 Air dan roti memberikan kesehatan.
 Air kolam renang dingin.
@@ -301,6 +302,7 @@ Aku ucapkan selamat ulang tahun.
 Alam itu kejam.
 Alam semesta penuh dengan misteri.
 Alessia tidak bisa berbahasa Inggris.
+Ambil dan pergi!
 Ambil jalan di sebelah kanan.
 Ambil semua barangmu dan pergilah.
 Ambilah jalan yang benar.
@@ -355,6 +357,7 @@ Anda sudah makan.
 Anda terlalu muda untuk menikah.
 Anda tidak boleh masuk.
 Anda tidak boleh merokok di ruangan ini.
+Anda tidak harus datang besok.
 Anda tidak perlu kuatir dengan hal itu.
 Anda tidak perlu mengatakan apa-apa lagi.
 Anda tidak perlu mengatakan apa-apa.
@@ -430,6 +433,7 @@ Apa pekerjaanmu?
 Apa saya masih mampu melakukannya?
 Apa warna ikan ini?
 Apa warna kesukaanmu?
+Apa yang Anda inginkan?
 Apa yang Anda ketahui tentang Brazil?
 Apa yang Anda ketahui tentang Israel?
 Apa yang Anda tahu tentang Jerman?
@@ -494,11 +498,13 @@ Apakah Anda percaya pada Tuhan?
 Apakah Anda pernah ke Amerika?
 Apakah Anda pernah makan seekor serangga?
 Apakah Anda pernah makan serangga?
+Apakah Anda pernah mendaki Gunung Fuji?
 Apakah Anda punya mobil?
 Apakah Anda sakit kepala.
 Apakah Anda setuju?
 Apakah Anda siap?
 Apakah Anda sudah diberitahu kapan harus datang?
+Apakah Anda suka apel?
 Apakah Anda tahu perbedaannya?
 Apakah Anda tinggal di sini?
 Apakah Anda yakin?
@@ -537,6 +543,7 @@ Apakah dia tau bagaimana perasaannya terhadap dia.
 Apakah ibumu di rumah?
 Apakah ini anak laki-lakimu, Betty?
 Apakah ini cinta?
+Apakah ini gambar yang tadi?
 Apakah ini mobil anda?
 Apakah ini penting?
 Apakah ini sangat sakit?
@@ -602,6 +609,8 @@ Apakah ransel ini miliknya?
 Apakah rumahmu jauh?
 Apakah saya bisa berbicara dengan Bapak Sato?
 Apakah saya boleh keluar.
+Apakah saya boleh meminjam kamus Anda?
+Apakah saya boleh menggunakan ponsel Anda?
 Apakah saya harus membelikannya barang?
 Apakah saya menghubungi anda pada saat yang kurang tepat?
 Apakah sensitivitas tinggi itu?
@@ -712,6 +721,7 @@ Bahasa jepang adalah bahasa ibu kita.
 Bahkan Tom sedikit terkejut.
 Bahkan Tom terkejut mendengarkan itu.
 Bahkan orang terkuat pun tidak bisa menghentikan angin topan.
+Baik, saya akan terima tawaran Anda.
 Baiklah, mari kita mulai pelajaran.
 Baiklah. Berapa banyak?
 Baju ini cantik, ya.
@@ -1131,6 +1141,7 @@ Di mana alamat kantormu yang sekarang?
 Di mana bumi dipijak, di situlah langit dijunjung.
 Di mana kamu beli baju itu?
 Di mana kamu mendapatkan kunci ini?
+Di mana kita akan bertemu.
 Di mana koranku?
 Di mana kucing itu tidur?
 Di mana mereka?
@@ -1248,6 +1259,7 @@ Dia dipojokkan.
 Dia disukai teman-temannya.
 Dia ditemukan terbaring tidak sadar di lantai dapur.
 Dia duduk di sofa dan membaca sebuah majalah.
+Dia duduk sambil dikelilingi cucu-cucunya.
 Dia dulu hidup dengan sederhana.
 Dia gila judi.
 Dia gugup sebelum ujian masuk.
@@ -1507,6 +1519,7 @@ Dimana kursi saya?
 Dimanakah Rumah Sakit terdekat?
 Dimengerti.
 Dinding kelas ini tebal.
+Dingin.
 Dinosaurus sekarang sudah punah.
 Dokter gigi yang murah hati itu memberikan sejumlah dua milyar yen untuk amal.
 Dokter hanya ada pada hari kerja.
@@ -1654,6 +1667,7 @@ Hari ulang tahun ayah saya tanggal lima Juni.
 Hari ulang tahun saya tanggal dua puluh enam Agustus.
 Hari ulang tahunku akan segera tiba.
 Hari yang indah.
+Harimau lebih besar dan lebih kuat dari kucing.
 Hat-hati jika bepergian malam hari sendirian.
 Hati-hati jangan salah jalan pada jalur satu arah.
 Hatiku penuh dengan kebahagiaan.
@@ -1757,6 +1771,7 @@ Ini adalah tanggungjawab kami untuk membantu.
 Ini akan menjadi mudah setelah kamu tahu caranya.
 Ini alamat e-mail saya.
 Ini bisa digunakan sebagai pisau.
+Ini bukan ikan.
 Ini bukan lelucon.
 Ini bukan soal uang.
 Ini bukan suatu ancaman.
@@ -1832,6 +1847,7 @@ Itu buah.
 Itu bukan masalahku.
 Itu bukan milikku.
 Itu bukan suatu jawaban.
+Itu kelinci yang jahat.
 Itu koran hari ini.
 Itu koran kapan.
 Itu luar biasa.
@@ -1842,7 +1858,9 @@ Itu milik Pak Tanaka.
 Itu nampak seperti telor.
 Itu sepertinya menyenangkan, ya?
 Itu tadi menarik, ya?
+Itu tergantung pada konteks.
 Itu tidak adil.
+Itu tidak akan terjadi.
 Itu yang sedang kucari.
 Itulah jawaban yang benar.
 Itulah kamus bahasa Jepang.
@@ -1913,6 +1931,7 @@ Jangan lupakan itu!
 Jangan mandi hari ini.
 Jangan membaca di kamar ini.
 Jangan membuatku kembali ke sana.
+Jangan mendekati mereka.
 Jangan menetap di sini.
 Jangan menuduh orang lain.
 Jangan merendahkanku.
@@ -2356,6 +2375,7 @@ Kemarin saya pergi ke dekat stasiun untuk berbelanja.
 Kemarin saya pergi ke karaoke tetapi tidak banyak menyanyi.
 Kemarin saya pergi ke konser bersama teman.
 Kemarin saya pergi ke sungai dengan teman dan bermain bersama.
+Kemarin saya pergi mencuci di sungai.
 Kemarin saya tidak keluar ke mana-mana.
 Kemarin saya tidak pergi ke perusahaan, tetapi pergi ke rumah sakit.
 Kemarin saya tidak sengaja bertemu dengannya di bandara.
@@ -2427,6 +2447,7 @@ Ketika naik kereta, dahulukan orang yang turun.
 Ketika saya datang ke sini, saya tidak kenal siapa pun.
 Ketika saya sampai stasiun, keretanya telah berangkat.
 Ketika saya sedang makan malam, teman saya datang ke rumah.
+Ketika semua anggota grup terhening, seseorang harus mencairkan suasana.
 Kiamat sudah dekat.
 Kimura seorang pelajar, tetapi Tanaka seorang pegawai perusahaan.
 Kita akan berjuang sampai akhir.
@@ -3045,6 +3066,7 @@ Paman di toko sayur itu selalu ceria.
 Panas dan terang dibutuhkan untuk eksistensi kita.
 Panggil ambulan！
 Panitia telah menerimal proposal itu.
+Para hadirin nampak bosan.
 Para ilmuwan memperdebatkan teorinya tentang kepunahan dinosaurus.
 Para murid berbaris lurus di koridor.
 Para murid memberikan selamat dengan hormat pada ulang tahun Dr. Baker.
@@ -3102,6 +3124,7 @@ Pengetahuan tentang komputer adalah dasar daripada segala ilmu pengetahuan.
 Penglihatannya sangat buruk.
 Peningkatan kendaraan bermotor yang mendadak mengakibatkan menambahnya jumlah kecelakaan.
 Penjelasan anda terdengar masuk akal, tapi air itu tidak bisa dipegang.
+Penonton tersebut nampak bosan.
 Pensil ini menjadi pendek karena selalu digunakan.
 Penting sekali mematuhi peraturan.
 Penyair sering membandingkan kematian dengan tidur.
@@ -3254,6 +3277,7 @@ Rumah saya ada di seberang sungai itu.
 Rumah saya berhantu.
 Rumah saya kecil dan sempit.
 Rumah saya terletak di sebuah bukit.
+Rumah tersebut berhantu.
 Rumahku berada di daratan selatan sungai Thames.
 Rumahku berada di seberang jalan.
 Rumahku dekat dengan Menara Tokyo.
@@ -3506,6 +3530,7 @@ Saya ingin meminum secangkir kopi.
 Saya ingin menaruh sebuah tanaman hias di pojok ruangan ini.
 Saya ingin mendengar musik Jepang.
 Saya ingin mengatakan sesuatu, tapi ini rahasia. Berjanjilah untuk tidak menyebarkannya.
+Saya ingin menginap semalam.
 Saya ingin mengundang kamu ke pesta.
 Saya ingin mengundang kamu ke sebuah pesta.
 Saya ingin mengunjungi Estonia.
@@ -3718,6 +3743,7 @@ Saya mencintaimu selamanya.
 Saya mencuci bajuku sampai bersih.
 Saya mencuci tangan dengan sabun.
 Saya mencuci tangan ketika keluar dari toilet.
+Saya mencuci tangan.
 Saya mendaki gunung ini dua tahun lalu.
 Saya mendapat gelas imut dari teman saya.
 Saya mendapat sapu tangan kuning pada hari ulang tahun.
@@ -3851,6 +3877,7 @@ Saya pergi ke pos polisi karena kehilangan dompet.
 Saya pergi ke rumah teman setelah pelajaran selesai.
 Saya pergi ke sekolah dari pagi hari pada hari Senin.
 Saya pergi ke sekolah dengan bus.
+Saya pergi ke sekolah pada Pukul delapan.
 Saya pergi ke sekolah.
 Saya pergi membeli baju.
 Saya pergi naik gunung.
@@ -3952,6 +3979,7 @@ Saya setiap pagi makan satu buah telur.
 Saya setiap pagi makan sayur dan buah.
 Saya setiap pagi minum kopi.
 Saya setiap pagi pergi jalan-jalan.
+Saya setuju dengan dia.
 Saya setuju dengan pendapat kamu.
 Saya setuju pada rencana ini.
 Saya siap.
@@ -4149,6 +4177,7 @@ Sayang sekali dia tidak bisa datang.
 Sayang sekali hujan.
 Sayang sekali kamu tidak bisa datang.
 Sayang sekali.
+Sayangnya itu benar.
 Sayangnya, dia menolak datang.
 Sayangnya, dia tidak datang.
 Seandainya dia satu tim dengan kita.
@@ -4261,6 +4290,7 @@ Semua orang dipersilahkan.
 Semua orang memerlukan tempat yang disebut rumah.
 Semua orang menatap padaku.
 Semua orang merasa tegang karena ceritanya.
+Semua orang tertarik pada cerita tersebut.
 Semua sekolah tutup pada hari libur itu.
 Semua siswa di kelasku sangat bersahabat.
 Semua tergantung cuaca.
@@ -4268,6 +4298,7 @@ Semua tuduhan Anda tidak berdasar, dia tidak bersalah dan kami akan membuktikann
 Semua yang telah hadir adalah orang Jepang.
 Semuanya ada sepuluh.
 Semuanya adalah teman, kelak harus banyak saling memperhatikan.
+Semuanya bisa digunakan.
 Semuanya ingin duduk disampingnya.
 Semuanya mahasiswa universitas ini.
 Semuanya menyanyikan lagu bersama-sama.
@@ -4435,6 +4466,7 @@ Sudah berapa kali kamu menonton film itu?
 Sudah berapa lama Tom di sana?
 Sudah berapa lama kamu dan Tom bersama?
 Sudah berapa lama menunggu bus?
+Sudah jam sebelas.
 Sudah lama sejak saya mengunjungi nenek saya
 Sudah lima tahun berlalu, semenjak mereka datang ke Jepang.
 Sudah pesan tempat di pesawat?
@@ -4540,6 +4572,7 @@ Terima kasih, kamu luar biasa!
 Terima kasih. Ini sudah cukup.
 Terima kasih. Tuhan memberkati Anda. Dan semoga Tuhan memberkati Amerika Serikat.
 Terimakasih sudah membantuku!
+Terkadang dia bertingkah seolah-olah dia adalah bosku.
 Terkadang dia bisa menjadi orang aneh.
 Terkadang ia berperilaku aneh.
 Terlalu banyak waktu yang hilang.
@@ -4961,6 +4994,7 @@ Uang kami habis.
 Uang saya habis.
 Uang telah menghilang.
 Ucapkan selamat tinggal.
+Udara bagi manusia layaknya air bagi ikan.
 Ujian akan mulai minggu depan.
 Ujian kemarin mudah.
 Ujian kemarin sangat sulit.
@@ -4991,6 +5025,7 @@ Walaupun dia melakukan ujian dengan baik, bicaranya dalam bahasa cina tidaklah s
 Walaupun hujan turun, saya pergi naik sepeda.
 Walaupun salju turun, saya ke sekolah.
 Walaupun sudah pukul dua belas malam, saya tetap belajar.
+Wanita mengubah dunia.
 Wanita yang ingin bertemu denganmu sudah datang.
 Warna ini sangat cantik.
 Warna kesukaan saya adalah biru.
