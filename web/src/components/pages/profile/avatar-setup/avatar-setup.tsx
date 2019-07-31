@@ -215,7 +215,7 @@ class AvatarSetup extends React.Component<Props> {
     api
       .saveAvatarClip(this.state.blobUrl)
       .then(data => {
-        this.setState({ clipStatus: 'notStarted', counter: 0 });
+        //this.setState({ clipStatus: 'notStarted', counter: 0 });
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -232,9 +232,8 @@ class AvatarSetup extends React.Component<Props> {
   }
 
   private counter = () => {
-    this.setState({ clipStatus: 'starting' });
+    this.setState({ clipStatus: 'starting', counter: 3 });
     var downloadTimer = setInterval(() => {
-      console.log(this.state.counter, 'ggg');
       let tl = this.state.counter - 1;
       this.setState({ counter: tl });
       if (this.state.counter <= 0) {
@@ -298,8 +297,12 @@ class AvatarSetup extends React.Component<Props> {
             {clipStatus === 'started' && (
               <div>
                 <Suspense fallback={<div></div>}>
-                  <div>
-                    <Lottie options={defaultOptions} eventListeners={[]} />
+                  <div className="lottie">
+                    <Lottie
+                      options={defaultOptions}
+                      eventListeners={[]}
+                      width={508}
+                    />
                   </div>
                 </Suspense>
               </div>
@@ -374,25 +377,6 @@ class AvatarSetup extends React.Component<Props> {
               </label>
             </div>
 
-            <div style={{ display: isProduction() ? 'none' : 'block' }}>
-              <Localized id="">
-                <h2 />
-              </Localized>
-              <div className="file-upload">
-                <button
-                  className="connect"
-                  type="button"
-                  onClick={this.handleRecordClick}>
-                  {recordingStatus == true ? <StopIcon /> : <MicIcon />}
-                </button>
-                <button
-                  className="connect"
-                  type="button"
-                  onClick={this.playAvatarClip}>
-                  {avatarClipPlaying === false ? <PlayIcon /> : <StopIcon />}
-                </button>
-              </div>
-            </div>
             <button
               className="connect"
               type="button"

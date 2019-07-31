@@ -111,7 +111,7 @@ export default function UserMenu() {
       <Suspense fallback={<div></div>}>
         <div className="animation">
           {showAnimation && (
-            <div>
+            <div className="lottie-size">
               <Lottie options={defaultOptions} eventListeners={[]} />
             </div>
           )}

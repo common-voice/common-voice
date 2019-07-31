@@ -87,6 +87,7 @@ mk = Tamasidunit
 ml = Tamalayalamit
 mn = Tamungult
 mrj = Tamarit n udrar
+mt = Tamalṭit
 myv = Erzya
 nb-NO = Tanuṛvijt Bokmål
 ne-NP = Tanipalit
@@ -201,6 +202,7 @@ help-make-dataset = Mudd-aɣ-d ad nebnu tagrumma n yisefka n tɣara ifazen, yeld
 profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
 sign-up-account = Jerred akken ad tesɛuḍ amiḍan amiḍan
 email-subscription-title = jerred akken ak-id-aweḍ telɣut s yimayl
+email-subscription-title-new = Jerred qer tebrat n yisallen n Common Voice, asmekti n yiswiyen akked ileqman n usfari
 
 ## Account Benefits
 
@@ -318,6 +320,8 @@ off = Sens
 on = Rmed
 add-avatar-title = Rnu avataṛ i umiḍan-ik/im
 add-avatar-clip = Rnu avaṭar n usekles i umaɣnu-ik
+recording-voice-wave = Asekles
+ready-to-upload = Asali
 browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
@@ -682,6 +686,7 @@ clips-you-validated = Tukkisin yettwaqeblen
 todays-recorded-progress = Asfari n Common Voice n tukkisin yettwaskelsen ass-a
 todays-validated-progress = Asfari n Common Voice n tukkinsin yettwaqeblen ass-a
 stats = Tiddadanin
+awards = Arrazen
 you = Kečč
 everyone = Yal yiwen
 contribution-activity = Armud n uttekki
@@ -690,10 +695,13 @@ recorded-clips = Tukkisin ittwaskelsen
 validated-clips = Tukkisin yettwasnetmen
 total-approved = Amḍan yettwaqeblen
 overall-accuracy = Tiseddi tamatut
+set-visibility = Sbadu  taduli-iw
 
 ## Custom Goals
 
+get-started-goals = Bdu d yiswiyen
 toward-next-goal = Ɣer iswi i d-iteddun
+create-custom-goal = Rnu iswi udmawan
 both-speak-and-listen = Di sin
 both-speak-and-listen-long = Di sin (Mmeslay u Sel)
 daily-goal = Iswi n yal ass
@@ -701,14 +709,29 @@ weekly-goal = Iswi n yal ddurt
 easy-difficulty = Fessus
 average-difficulty = Talemmast
 difficult-difficulty = yewɛeṛ
+lose-goal-progress-warning = Ma teskecmeḍ iswiyen-ik, izemer ad iṛuḥ usfari-ik yellan.
 want-to-continue = Tebɣiḍ ad tkemleḍ?
+finish-editing = Ar d-tefakeḍ deg tazwara tazrigt?
+lose-changes-warning = Ma teffɣeḍ tura ad ruḥen ibeddilen-ik
+build-custom-goal = Bnu iswi udmawan
+help-reach-hours = Mudd afus ad tawḍeḍ { NUMBER($hours) } n yisragen deg { $language } s yiswi udmawan
+set-a-goal = Sbadu iswi
 cant-decide = Ur tezmireḍ ara tferneḍ?
+activity-needed-calculation = { NUMBER($totalHours) } n yisragen i tzemred ad tawḍeḍ deg { NUMBER($periodMonths) } n wagguren ma yella { NUMBER($people) } n yimdanen skelsen { NUMBER($clipsPerDay) } n tefyar deg wass.
 how-many-per-day = Igerrez! Acḥal n tukkisin deg wass?
 how-many-a-week = Igerrez! Acḥal n tukkisin di ddurt?
 which-goal-type = Tebɣiḍ ad tmeslayeḍ,  ad tesleḍ neɣ di sin?
 n-clips = { NUMBER($count) } n tukkisin
 confirm-goal = Sentem iswi
 goal-interval-weekly = Yal ddurt
+share-goal-type-speak = Ammeslay
+share-goal-type-listen = Timesliwt
+share-goal-type-both = Ammeslay akked timesliwt
+weekly-goal-created = Iswi-ik n ulams yettwarna.
+daily-goal-created = Iswi-ik n wass yettwarna
+track-progress = Ḍfeṛ asfari dagin akked deg usebter n tiddadanin.
+return-to-edit-goal = Uɣal-d ɣer dagi akken ad ternuḍ iswi-ik melmi tebɣiḍ.
+share-goal = Bḍu iswi-iw
 
 ## Profile Delete
 
