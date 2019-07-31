@@ -19,7 +19,7 @@ import {
   PlayIcon,
 } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
-import { Voice } from '../../../primary-buttons/primary-buttons';
+import { Voice, PlayButton } from '../../../primary-buttons/primary-buttons';
 import AudioIOS from '../../contribution/speak/audio-ios';
 import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
 import { isFirefoxFocus, isNativeIOS, isProduction } from '../../../../utility';
@@ -281,19 +281,31 @@ class AvatarSetup extends React.Component<Props> {
           </Localized>
           {/* Below fix div is for middle content of avatar setup like wave image, lottie animation */}
           <div className="fix">
-            {(clipStatus === 'notStarted' || clipStatus === 'starting') && (
-              <div>
-                <div className="Group-1">
-                  {clipStatus === 'starting' && (
-                    <div className="counter">
-                      <Voice>
-                        <p>{counter}</p>
-                      </Voice>
-                    </div>
-                  )}
+            {(clipStatus === 'notStarted' || clipStatus === 'starting') &&
+              (this.avatarClipUrl === 'empty' ? (
+                <div>
+                  <div className="Group-1">
+                    {clipStatus === 'starting' && (
+                      <div className="counter">
+                        <Voice>
+                          <p>{counter}</p>
+                        </Voice>
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
-            )}
+              ) : (
+                <div>
+                  <div className="Group-1">
+                    <div className="counter">
+                      <PlayButton
+                        isPlaying={avatarClipPlaying}
+                        onClick={this.playAvatarClip}
+                      />
+                    </div>
+                  </div>
+                </div>
+              ))}
             {clipStatus === 'started' && (
               <div>
                 <Suspense fallback={<div></div>}>
