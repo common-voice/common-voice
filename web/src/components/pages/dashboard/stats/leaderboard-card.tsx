@@ -23,8 +23,8 @@ import {
   InfoIcon,
   MicIcon,
   OldPlayIcon,
-  PlayOutlineIcon,
   PlayIcon,
+  PlayOutlineIcon,
 } from '../../../ui/icons';
 import { Avatar, Toggle } from '../../../ui/ui';
 import StatsCard from './stats-card';
@@ -269,15 +269,22 @@ export default function LeaderboardCard() {
       title="top-contributors"
       iconButtons={
         <div className="icon-buttons">
-          <button
-            type="button"
-            onClick={() => {
-              leaderboardRef.current.scrollToUser();
-            }}>
-            <BookmarkIcon /> <span className="text">Show my rankings</span>
-          </button>
+          {Boolean(account.visible) && (
+            <>
+              <button
+                type="button"
+                onClick={() => {
+                  leaderboardRef.current.scrollToUser();
+                }}>
+                <BookmarkIcon />{' '}
+                <Localized id="show-ranking">
+                  <span className="text" />
+                </Localized>
+              </button>
 
-          <div className="icon-divider" />
+              <div className="icon-divider" />
+            </>
+          )}
 
           <button type="button" onClick={() => setShowOverlay(true)}>
             {account.visible ? <EyeIcon /> : <EyeOffIcon />}
