@@ -87,6 +87,7 @@ mk = Tiếng Macedonia
 ml = Tiếng Malayalam
 mn = Tiếng Mông Cổ
 mrj = Tiếng Mari Tây
+mt = Tiếng Malta
 myv = Tiếng Erzya
 nb-NO = Tiếng Na Uy Bokmål
 ne-NP = Tiếng Nepal
@@ -315,6 +316,10 @@ off = Tắt
 on = Bật
 add-avatar-title = Thêm ảnh đại diện cho hồ sơ của bạn
 add-avatar-clip = Thêm một clip đại diện vào hồ sơ của bạn
+create-voice-wave = Tạo Voicewave
+recording-voice-wave = Đang ghi
+ready-to-upload = Tải lên
+about-avatar-clip = Ghi lại âm thanh để giới thiệu bản thân, những người dùng khác sẽ có thể di chuột để nghe clip của bạn.
 browse-file-title = Tải lên hình ảnh
 browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
 connect-gravatar = Kết nối với Gravatar
@@ -678,6 +683,7 @@ clips-you-validated = Clip bạn đã xác thực
 todays-recorded-progress = Tiến trình giọng nói chung hôm nay trên các clip được ghi lại
 todays-validated-progress = Tiến trình giọng nói chung hôm nay trên các clip được xác thực
 stats = Thống kê
+awards = Giải thưởng
 you = Bạn
 everyone = Mọi người
 contribution-activity = Hoạt động đóng góp
@@ -686,6 +692,9 @@ recorded-clips = Clip đã ghi
 validated-clips = Clip đã xác thực
 total-approved = Tổng số được chấp nhận
 overall-accuracy = Độ chính xác tổng thể
+set-visibility = Hiển thị tôi trong bảng xếp hạng
+visibility-explainer = Cài đặt này kiểm soát khả năng hiển thị bảng xếp hạng của bạn. Khi ẩn, tiến trình của bạn sẽ được riêng tư. Điều này có nghĩa là hình ảnh, tên người dùng và tiến trình của bạn sẽ không xuất hiện trên bảng xếp hạng. Lưu ý rằng việc làm mới bảng xếp hạng sẽ mất ~ { $minutes } phút để đưa ra các thay đổi.
+visibility-overlay-note = Lưu ý: Khi được đặt thành 'Hiển thị', cài đặt này có thể được thay đổi từ <profileLink>trang hồ sơ</profileLink>
 
 ## Custom Goals
 
