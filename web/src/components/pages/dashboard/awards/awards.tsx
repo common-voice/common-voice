@@ -56,6 +56,7 @@ const Wave = () => (
 const AwardBox = ({ award }: any) => (
   <li className={'award-box ' + award.type}>
     <Wave />
+    <img className="star" src={require('./star.svg')} alt="Star" />
     <div className="interval">
       {INTERVAL_LABELS[award.days_interval] || award.days_interval}
     </div>
