@@ -9,11 +9,17 @@ import Props from '../props';
 
 import './awards.css';
 
-const NoAwardsPage = () => (
+const NoAwardsPage = ({ dashboardLocale }: { dashboardLocale: string }) => (
   <div className="no-awards-page">
     <img src={require('./stars.svg')} alt="Stars" />
     <h1>Earn your first award, create a goal</h1>
-    <LinkButton rounded to={URLS.GOALS}>
+    <LinkButton
+      rounded
+      to={
+        URLS.DASHBOARD +
+        (dashboardLocale ? '/' + dashboardLocale : '') +
+        URLS.GOALS
+      }>
       Get started with goals
     </LinkButton>
     <p>When you complete a personal goal, your awards will show up here.</p>
@@ -84,7 +90,7 @@ export default function AwardsPage({ dashboardLocale }: Props) {
   );
 
   if (awards.length == 0) {
-    return <NoAwardsPage />;
+    return <NoAwardsPage {...{ dashboardLocale }} />;
   }
 
   const buckets = awards.reduce((buckets, award) => {
