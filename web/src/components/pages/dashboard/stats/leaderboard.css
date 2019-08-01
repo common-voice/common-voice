@@ -47,11 +47,8 @@
                     fill: var(--blue) !important;
                 }
 
-                & svg {
-                    margin-right: 10px;
-                }
-
                 & .text {
+                    margin-left: 10px;
                     display: block;
                     white-space: nowrap;
                 }
