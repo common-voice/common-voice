@@ -431,7 +431,7 @@ about-get-involved-text =
     Ótimo! Entre em contato por e-mail ou no <discourseLink>Discourse</discourseLink>,
     envie comentários pelo <githubLink>GitHub</githubLink>,
     ou junte-se a nós no <slackLink>Slack</slackLink>.
-about-nav-why-common-voice = Por que?
+about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
 about-nav-get-involved = Envolva-se
