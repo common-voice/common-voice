@@ -722,11 +722,18 @@ how-many-per-day = Igerrez! Acḥal n tukkisin deg wass?
 how-many-a-week = Igerrez! Acḥal n tukkisin di ddurt?
 which-goal-type = Tebɣiḍ ad tmeslayeḍ,  ad tesleḍ neɣ di sin?
 n-clips = { NUMBER($count) } n tukkisin
+help-share-goal = Mudd-aɣ-d afus ad d-naf ugar n tuɣac, bḍu iswi-ik
 confirm-goal = Sentem iswi
 goal-interval-weekly = Yal ddurt
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Bḍu iswi-ik n yal ass n { $count } n tukkisin i { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Bḍu iswi-ik n yal amalas n { $count } n tukkisin i { $type }
 share-goal-type-speak = Ammeslay
 share-goal-type-listen = Timesliwt
 share-goal-type-both = Ammeslay akked timesliwt
+# LINK will be replaced with the current URL
+goal-share-text = Akken kan i rniɣ iswi udmawan i tikci n taɣect i #CommonVoice -- ddu-d yid-i ad nmudd afus i uselmed n tmacinin ad issinent ad mmeslayent { $link }
 weekly-goal-created = Iswi-ik n ulams yettwarna.
 daily-goal-created = Iswi-ik n wass yettwarna
 track-progress = Ḍfeṛ asfari dagin akked deg usebter n tiddadanin.
