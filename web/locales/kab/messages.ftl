@@ -320,8 +320,10 @@ off = Sens
 on = Rmed
 add-avatar-title = Rnu avataṛ i umiḍan-ik/im
 add-avatar-clip = Rnu avaṭar n usekles i umaɣnu-ik
+create-voice-wave = Rnu tamdeswalt n taɣect
 recording-voice-wave = Asekles
 ready-to-upload = Asali
+about-avatar-clip = Rnu tamsedwalt n taɣect tudmawant akken ad temmeslayeḍ ɣef yiman-ik. Iseqdacen-nniḍen ad izmiren ad slen i tikkusin-ik.
 browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
@@ -696,6 +698,7 @@ validated-clips = Tukkisin yettwasnetmen
 total-approved = Amḍan yettwaqeblen
 overall-accuracy = Tiseddi tamatut
 set-visibility = Sbadu  taduli-iw
+visibility-overlay-note = Tazmilt: Ticki tesbaduḍ ɣer 'Uman', aɣewwaṛ-a yezmer ad ibeddel seg <profileLink> Usebter n umaɣnu
 
 ## Custom Goals
 
@@ -709,6 +712,7 @@ weekly-goal = Iswi n yal ddurt
 easy-difficulty = Fessus
 average-difficulty = Talemmast
 difficult-difficulty = yewɛeṛ
+pro-difficulty = Amsadur
 lose-goal-progress-warning = Ma teskecmeḍ iswiyen-ik, izemer ad iṛuḥ usfari-ik yellan.
 want-to-continue = Tebɣiḍ ad tkemleḍ?
 finish-editing = Ar d-tefakeḍ deg tazwara tazrigt?
@@ -721,6 +725,9 @@ activity-needed-calculation = { NUMBER($totalHours) } n yisragen i tzemred ad ta
 how-many-per-day = Igerrez! Acḥal n tukkisin deg wass?
 how-many-a-week = Igerrez! Acḥal n tukkisin di ddurt?
 which-goal-type = Tebɣiḍ ad tmeslayeḍ,  ad tesleḍ neɣ di sin?
+receiving-emails-info =
+    Aql-ak tura theggaḍ ad tremseḍ imaylen n yismektiyen n yiswi,
+    ileqman n usfari-iw akked tebratin n yisallen ɣef Common Voice
 n-clips = { NUMBER($count) } n tukkisin
 help-share-goal = Mudd-aɣ-d afus ad d-naf ugar n tuɣac, bḍu iswi-ik
 confirm-goal = Sentem iswi
