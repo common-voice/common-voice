@@ -17,6 +17,7 @@ import {
   MicIcon,
   StopIcon,
   PlayIcon,
+  ShareIcon,
 } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
 import { Voice, PlayButton } from '../../../primary-buttons/primary-buttons';
@@ -106,6 +107,7 @@ class AvatarSetup extends React.Component<Props> {
     counter: 3,
     clipStatus: 'notStarted',
     blobUrl: new Blob(),
+    avatarClipUrl: 'empty',
   };
 
   audio: AudioWeb | AudioIOS;
@@ -113,7 +115,7 @@ class AvatarSetup extends React.Component<Props> {
   maxVolume = 0;
   recordingStartTime = 0;
   recordingStopTime = 0;
-  avatarClipUrl: any = null;
+  //avatarClipUrl: any = null;
 
   async componentDidMount() {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
@@ -126,7 +128,8 @@ class AvatarSetup extends React.Component<Props> {
     ) {
       this.isUnsupportedPlatform = true;
     }
-    this.avatarClipUrl = await this.props.api.fetchAvatarClip();
+    let clip = await this.props.api.fetchAvatarClip();
+    if (clip) this.setState({ avatarClipUrl: clip });
   }
 
   async componentWillUnmount() {
@@ -154,7 +157,7 @@ class AvatarSetup extends React.Component<Props> {
   };
 
   private playAvatarClip = async () => {
-    const audio = new Audio(this.avatarClipUrl);
+    const audio = new Audio(this.state.avatarClipUrl);
     this.setState({ avatarClipPlaying: true });
     audio.play();
     audio.onended = () => this.setState({ avatarClipPlaying: false });
@@ -244,6 +247,11 @@ class AvatarSetup extends React.Component<Props> {
     }, 1000);
   };
 
+  private updateAvatarClip = () => {
+    this.setState({ avatarClipUrl: 'empty', counter: 3 });
+    console.log(this.state.avatarClipUrl);
+  };
+
   render() {
     const {
       addNotification,
@@ -257,6 +265,7 @@ class AvatarSetup extends React.Component<Props> {
       avatarClipPlaying,
       counter,
       clipStatus,
+      avatarClipUrl,
     } = this.state;
     const avatarType =
       account.avatar_url &&
@@ -273,6 +282,7 @@ class AvatarSetup extends React.Component<Props> {
       },
     };
 
+    console.log(avatarClipUrl);
     return (
       <div className="full-avatar-setup">
         <div className="clip">
@@ -282,7 +292,7 @@ class AvatarSetup extends React.Component<Props> {
           {/* Below fix div is for middle content of avatar setup like wave image, lottie animation */}
           <div className="fix">
             {(clipStatus === 'notStarted' || clipStatus === 'starting') &&
-              (this.avatarClipUrl === 'empty' ? (
+              (avatarClipUrl === 'empty' ? (
                 <div>
                   <div className="Group-1">
                     {clipStatus === 'starting' && (
@@ -321,39 +331,65 @@ class AvatarSetup extends React.Component<Props> {
             )}
             {clipStatus === 'recorded' && <div className="lottiebg"></div>}
           </div>
-          {(clipStatus === 'notStarted' || clipStatus === 'starting') && (
-            <Localized id="create-voice-wave">
-              <Button
-                outline
-                rounded
-                className="Primary "
-                onClick={this.counter}
-              />
-            </Localized>
-          )}
+          {(clipStatus === 'notStarted' || clipStatus === 'starting') &&
+            (avatarClipUrl === 'empty' && (
+              <div>
+                <Button
+                  outline
+                  rounded
+                  className="Primary "
+                  onClick={this.counter}>
+                  <MicIcon />
+                  <Localized id="create-voice-wave">
+                    <span />
+                  </Localized>
+                </Button>
+              </div>
+            ))}
           {clipStatus === 'started' && (
-            <Localized id="recording-voice-wave">
-              <Button
-                outline
-                rounded
-                className="Primary "
-                onClick={this.handleRecordClick}
-              />
-            </Localized>
+            <Button
+              outline
+              rounded
+              className="Primary "
+              onClick={this.handleRecordClick}>
+              <StopIcon />
+              <Localized id="recording-voice-wave"></Localized>
+            </Button>
           )}
           {clipStatus === 'recorded' && (
-            <Localized id="ready-to-upload">
+            <div>
+              <Button
+                outline
+                rounded
+                className="Primary-3 "
+                onClick={this.uploadAvatarClip.bind(this)}>
+                <ShareIcon />
+                <Localized id="ready-to-upload"></Localized>
+              </Button>
               <Button
                 outline
                 rounded
                 className="Primary-2 "
-                onClick={this.uploadAvatarClip.bind(this)}
-              />
-            </Localized>
+                onClick={this.uploadAvatarClip.bind(this)}>
+                <ShareIcon />
+                <Localized id="ready-to-upload"></Localized>
+              </Button>
+            </div>
           )}
-          <Localized id="about-avatar-clip">
-            <p className="Create-a-custom-voic" />
-          </Localized>
+          {avatarClipUrl === 'empty' ? (
+            <Localized id="about-avatar-clip">
+              <p className="Create-a-custom-voic" />
+            </Localized>
+          ) : (
+            <div>
+              <Localized id="avatar-clip-fact">
+                <p className="Create-a-custom-voic" />
+              </Localized>
+              <Localized id="recreate-voice">
+                <p className="recreate-voice" onClick={this.updateAvatarClip} />
+              </Localized>
+            </div>
+          )}
         </div>
         <div>
           <fieldset className="avatar-setup" disabled={this.state.isSaving}>
