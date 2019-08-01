@@ -6,7 +6,7 @@ import { UserClient as UserClientType } from 'common/user-clients';
 import { getConfig } from '../config-helper';
 import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
-import getGoals, { getGoalsNew } from './model/goals';
+import getGoals from './model/goals';
 import UserClient from './model/user-client';
 import * as Basket from './basket';
 import Model from './model';
@@ -99,9 +99,7 @@ export default class API {
     router.get('/user_client/avatar_clip', this.getAvatarClip);
     router.post('/user_client/:locale/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
-    router.get('/user_client/goals/new', this.getGoalsNew);
     router.get('/user_client/:locale/goals', this.getGoals);
-    router.get('/user_client/:locale/goals/new', this.getGoalsNew);
     router.post('/user_client/awards/seen', this.seenAwards);
 
     router.get('/:locale/sentences', this.getRandomSentences);
@@ -373,13 +371,6 @@ export default class API {
     response: Response
   ) => {
     response.json({ globalGoals: await getGoals(client_id, locale) });
-  };
-
-  getGoalsNew = async (
-    { client_id, params: { locale } }: Request,
-    response: Response
-  ) => {
-    response.json({ globalGoals: await getGoalsNew(client_id, locale) });
   };
 
   claimUserClient = async (
