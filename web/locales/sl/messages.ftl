@@ -330,6 +330,7 @@ skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno mora
 off = Izklopljeno
 on = Vklopljeno
 add-avatar-title = Dodajte avatar svojemu profilu
+cancel-avatar-clip-recording = Prekliči
 browse-file-title = Naložite slikovno datoteko
 browse-file = Povlecite in spustite ali <browseWrap>prebrskajte</browseWrap>
 connect-gravatar = Poveži z Gravatarjem
