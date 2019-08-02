@@ -347,7 +347,7 @@ class AvatarSetup extends React.Component<Props> {
                   rounded
                   className="Primary "
                   onClick={this.counter}>
-                  <MicIcon />
+                  <MicIcon className="icon" />
                   <Localized id="create-voice-wave">
                     <span />
                   </Localized>

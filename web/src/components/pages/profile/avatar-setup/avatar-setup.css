@@ -49,20 +49,35 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .icon {
+        color: red;
+    }
     .Primary {
         width: 30%;
         height: 57px;
         background-color: var(--white);
         position: relative;
         left: 29%;
+        text-decoration: none;
+
+        &:hover {
+            border-color: rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
+        }
     }
     .Primary-2 {
         width: 30%;
         height: 57px;
-        background-color: var(--white);
+        background-color: #59cbb7;
         position: relative;
         left: 9%;
-        color: green;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            border-color: rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
+        }
     }
 
     .Primary-3 {
@@ -73,6 +88,13 @@
         position: relative;
         left: 8%;
         color: green;
+
+        text-decoration: none;
+
+        &:hover {
+            border-color: rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
+        }
     }
 
     .Create-a-custom-voic {
