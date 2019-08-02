@@ -532,11 +532,16 @@ download-language = डाउनलोड { $language }
 validated-hours = वैध घंटे
 recorded-hours = रिकॉर्ड किए गए घंटे
 whats-inside = कॉमन वॉयस डेटासेट के अंदर क्या है?
+dataset-description-hours =
+    डेटासेट में प्रत्येक प्रविष्टि में एक अद्वितीय एमपी 3 और संबंधित टेक्स्ट फ़ाइल शामिल है। डेटासेट में कई <b>{ $total }</b> दर्ज घंटों में उम्र, लिंग और उच्चारण जैसे जनसांख्यिकीय मेटाडेटा भी शामिल हैं जो भाषण पहचान इंजन की सटीकता को प्रशिक्षित करने में मदद कर सकते हैं।
+    
+    डेटासेट में वर्तमान में <b>{ $valid }</b> मान्य घंटे <b>{ $languages }</b> भाषाएँ हैं, लेकिन हम हमेशा अधिक आवाज़ें और भाषाएँ जोड़ रहे हैं। एक भाषा का अनुरोध करने या योगदान शुरू करने के लिए हमारे <languagesLink> भाषाएँ पृष्ठ </languagesLink> पर एक नज़र डालें।
 want-dataset-update = जब हम कॉमन वॉयस डेटासेट का नया संस्करण जारी करते हैं तो अपडेट चाहते हैं? हमारे समाचार पत्र के सदस्य बनें।
 subscribe = सबस्क्राइब
 get-started-speech = भाषण मान्यता के साथ प्रारंभ करें
 other-datasets = अन्य वॉयस डेटासेट
 feedback-q = प्रतिक्रिया है?
+deepspeech-info = कॉमन वॉयस डेटासेट मोज़िला के ओपन सोर्स वॉयस रिकग्निशन इंजन डीप स्पीच का पूरक है, जिसका उपयोग आप स्पीच रिकग्निशन एप्लिकेशन बनाने में कर सकते हैं। हमारा <githubLink> Github सिंहावलोकन </githubLink> पढ़ें या प्रारंभ करने के बारे में जानने के लिए <discourseLink> गहरी प्रवचन </discourseLink> में शामिल हों।
 common-voice-info-new = आम आवाज के बारे में प्रश्न हैं? किसी विशिष्ट भाषा के बारे में सुधार या प्रतिक्रिया के लिए विचार? हमारे <प्रवचन लिंक> प्रवचन मंच </ प्रवचनलिंक> पर हमसे जुड़ें और हमें बताएं।
 data-other-librispeech-description = लिब्रिस्पेक लगभग 1000 घंटों का एक कोष है जिसमें 16Khz का अंग्रेजी भाषण पढ़ा जाता है जो लिब्रीवॉक्स परियोजना से पढ़े गए ऑडियोबुक से प्राप्त होता है।
 data-other-ted-name = टेड-लाइम कॉर्पस
@@ -585,6 +590,7 @@ other-language = दूसरी भाषा
 ## Languages Overview
 
 language-section-in-progress = चालू
+language-section-in-progress-new-description = ये भाषाएँ वर्तमान में सामुदायिक विकास के अंतर्गत हैं। प्रगति की पट्टियाँ यह बताती हैं कि प्रत्येक भाषा <localizationGlossaryLink> वेबसाइट स्थानीयकरण </localizationGlossaryLink> और <sentenceCollectionGlossaryLink>वाक्य संग्रह</sentenceCollectionGlossaryLink> की प्रक्रिया में कितनी दूर है।
 language-section-launched = लॉन्च किया
 languages-show-more = और देखें
 languages-show-less = कम देखें
@@ -608,9 +614,11 @@ skip = छोड़ें
 shortcuts = शॉर्टकट
 clips-with-count = <bold>{ $count }</bold> क्लिप्स
 goal-help-recording = आपने सामान्य वॉइस तक पहुँचने में मदद की है <goalPercentage></goalPercentage> हमारे दैनिक { $goalValue } रिकॉर्डिंग लक्ष्य!
+goal-help-validation = आपने हमारे दैनिक { $goalValue } वैध लक्ष्य तक <goalPercentage></goalPercentage>  तक पहुंचने में मदद की है!
 record-cta = रिकॉर्डिंग शुरू करें
 record-platform-not-supported = हमें खेद है, पर आपका प्लेटफार्म वर्तमान में समर्थित नहीं है।
 record-platform-not-supported-desktop = डेस्कटॉप कंप्यूटर पर, आप नवीनतम डाउनलोड कर सकते हैं:
+record-platform-not-supported-ios = <bold>आईओएस </bold> उपयोगकर्ता हमारे मुफ्त ऐप डाउनलोड कर सकते हैं:
 record-must-allow-microphone = आपको माइक्रोफ़ोन एक्सेस की अनुमति देनी चाहिए।
 record-no-mic-found = कोई माइक्रोफ़ोन नहीं मिला।
 record-error-too-short = रिकॉर्डिंग बहुत छोटी थी.
@@ -618,7 +626,10 @@ record-error-too-long = रिकॉर्डिंग बहुत लंबी
 record-error-too-quiet = रिकॉर्डिंग बहुत शांत थी.
 record-cancel = पुनः रिकॉर्डिंग रद्द करें
 record-instruction = { $actionType }<recordIcon></recordIcon> करें फिर वाक्य को जोर से पढ़ें
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>जब किया जाता है
 record-three-more-instruction = तीन जाने के लिए!
+record-again-instruction = महान! <recordIcon></recordIcon>अपनी अगली क्लिप रिकॉर्ड करें
+record-again-instruction2 = इसे बनाए रखें, फिर से रिकॉर्ड करें <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> अंतिम वाला!
 review-tooltip = आप जाते ही यहां पुन: रिकॉर्ड क्लिप की समीक्षा करें
 review-instruction = यदि आवश्यक हो तो समीक्षा और पुन: रिकॉर्ड क्लिप

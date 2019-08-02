@@ -47,13 +47,11 @@
                     fill: var(--blue) !important;
                 }
 
-                & svg {
-                    margin-right: 10px;
-                }
-
                 & .text {
+                    margin-left: 10px;
                     display: block;
                     white-space: nowrap;
+                    font-size: var(--font-size);
                 }
             }
         }
@@ -219,8 +217,8 @@
 }
 
 .leaderboard {
-    margin: 20px 0 0;
-    padding: 0 10px;
+    margin: 10px 0 0;
+    padding: 0 20px;
     max-height: 170px;
     box-sizing: border-box;
     overflow: auto;
@@ -325,6 +323,7 @@
             }
 
             & svg {
+                flex-shrink: 0;
                 margin-inline-end: 5px;
                 height: 17px;
 
@@ -349,6 +348,7 @@
             background: var(--blue);
 
             & svg {
+                flex-shrink: 0;
                 width: 17px;
             }
 

@@ -328,7 +328,10 @@ off = Wupinjeny
 on = Zapinjeny
 add-avatar-title = Přidajće wašemu profilej awatar
 add-avatar-clip = Přidajće wašemu profilej awatarowy klip
+create-voice-wave = Hłosowu žołmu wutworić
+recording-voice-wave = Natoča so
 ready-to-upload = Nahrać
+about-avatar-clip = Wutworće swójsku hłosowu žołmu, zo byšće so předstajił. Druzy wužiwarjo móža z pokazowakom myški přez klip jěć a na njón posłuchać.
 browse-file-title = Wobrazowu dataju nahrać
 browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
 connect-gravatar = Z gravatarom zwjazać
@@ -679,6 +682,7 @@ clips-you-validated = Klipy, kotrež sće přepruwował
 todays-recorded-progress = Dźensniši postup Common Voice za natočene klipy
 todays-validated-progress = Dźensniši postup Common Voice za přepruwowane klipy
 stats = Statistika
+awards = Myta
 you = Wy
 everyone = Kóždy
 contribution-activity = Sobudźěłowa aktiwita
@@ -689,6 +693,7 @@ total-approved = Schwalene dohromady
 overall-accuracy = Cyłkowna dokładnosć
 set-visibility = Moju widźomnosć nastajić
 visibility-overlay-note = Pokiw: Hdyž je 'Widźomny' nastajene, da so nastajenje z <profileLink>profiloweje strony</profileLink> změnić
+show-ranking = Moje městno pokazać
 
 ## Custom Goals
 

@@ -6,14 +6,14 @@
   "private": true,
   "dependencies": {
     "concurrently": "^4.1.1",
-    "fluent-syntax": "^0.13.0",
+    "fluent-syntax": "^0.14.0",
     "prettier": "^1.18.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "typescript": "3.5.2"
+    "typescript": "3.5.3"
   },
   "devDependencies": {
-    "husky": "^3.0.0",
+    "husky": "^3.0.2",
     "pretty-quick": "^1.11.1"
   },
   "workspaces": [

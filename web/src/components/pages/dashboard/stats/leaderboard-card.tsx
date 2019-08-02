@@ -23,8 +23,8 @@ import {
   InfoIcon,
   MicIcon,
   OldPlayIcon,
-  PlayOutlineIcon,
   PlayIcon,
+  PlayOutlineIcon,
 } from '../../../ui/icons';
 import { Avatar, Toggle } from '../../../ui/ui';
 import StatsCard from './stats-card';
@@ -33,6 +33,14 @@ import { isProduction } from '../../../../utility';
 import './leaderboard.css';
 
 const FETCH_SIZE = 5;
+
+function createScrollHints(element: HTMLElement) {
+  element.addEventListener('scroll', () => {}, { passive: true });
+}
+
+function formatNumber(n: number) {
+  return n > 1000 ? Math.floor(n / 1000) + 'k' : n;
+}
 
 interface PropsFromState {
   api: API;
@@ -92,6 +100,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       },
       this.scrollToUser
     );
+    createScrollHints(this.scroller.current);
   }
 
   async fetchMore(cursor: [number, number]) {
@@ -135,8 +144,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     if (!row) return;
 
     this.scroller.current.scrollTop =
-      row.getBoundingClientRect().top -
-      this.scroller.current.getBoundingClientRect().top;
+      row.offsetTop - this.scroller.current.offsetTop;
   };
 
   render() {
@@ -198,17 +206,17 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               </React.Fragment>
             )}
           </div>
-          <div className="total">
+          <div className="total" title={row.total}>
             {this.props.type == 'clip' ? (
               <MicIcon />
             ) : (
               <OldPlayIcon className="play" />
             )}
-            {row.total}
+            {formatNumber(row.total)}
           </div>
-          <div className="valid">
+          <div className="valid" title={row.valid}>
             <CheckIcon />
-            {row.valid}
+            {formatNumber(row.valid)}
           </div>
           <RateColumn value={row.rate} />
         </li>,
@@ -269,15 +277,22 @@ export default function LeaderboardCard() {
       title="top-contributors"
       iconButtons={
         <div className="icon-buttons">
-          <button
-            type="button"
-            onClick={() => {
-              leaderboardRef.current.scrollToUser();
-            }}>
-            <BookmarkIcon /> <span className="text">Show my rankings</span>
-          </button>
+          {Boolean(account.visible) && (
+            <>
+              <button
+                type="button"
+                onClick={() => {
+                  leaderboardRef.current.scrollToUser();
+                }}>
+                <BookmarkIcon />{' '}
+                <Localized id="show-ranking">
+                  <span className="text" />
+                </Localized>
+              </button>
 
-          <div className="icon-divider" />
+              <div className="icon-divider" />
+            </>
+          )}
 
           <button type="button" onClick={() => setShowOverlay(true)}>
             {account.visible ? <EyeIcon /> : <EyeOffIcon />}

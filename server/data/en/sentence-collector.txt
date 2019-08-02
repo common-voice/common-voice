@@ -1419,6 +1419,7 @@ And poor Mr. Darcy!
 And pray has he done so?
 And pray what sort of guardians do you make?
 And presently he came back with all the things they wanted.
+And presently the Doctor saw the island they had spoken of.
 And really, for so smart a young lady, you look too ridiculous.
 And right there I saw and knew it all.
 And said he played the fife.
@@ -1459,11 +1460,13 @@ And suddenly his face grew very stern.
 And suddenly she smiled.
 And suddenly, Mr. Ricardo began to reflect.
 And thank you very much for asking,’ said Tweedledum.
+And thank you very much for coming to tell me.
 And that afternoon he had to take them.
 And that is not all.
 And that was like me!
 And that was the last of Francois and Perrault.
 And that's how I know how.
+And that’s something.
 And the Edinburgh Evening News says, with editorial gloom.
 And the Eurasian Chinese-Englishman bowed himself away.
 And the Queen seemed to guess her thoughts, for she cried, ‘Faster!’
@@ -1670,6 +1673,7 @@ Apply for the new position that's opened up.
 Apricot is healthy.
 April is tax season in the United States.
 Archivists have been arguing for copyright reform for years.
+Are all these other animals your pets, too?
 Are division and animosity your natural terms, Richard?
 Are kids these days really awkward or is that just made up?
 Are or are not our interests conflicting?
@@ -1815,6 +1819,7 @@ At all costs she must be prevented from giving that information.
 At any minute.
 At dusk he went into his chamber.
 At eleven o'clock his valet brought a telegram into the room.
+At first I thought it was my rheumatism coming back.
 At first I thought there was nobody in the street.
 At first he did not recognise me.
 At first he puzzled over something untoward he was sure had happened.
@@ -1929,6 +1934,8 @@ Be cheerful. Strive to be happy.
 Be cross to me if I deserve it.
 Be dutiful and affectionate towards me, and I ask no other return.
 Be optimists, boys.
+Be pleasant to him.
+Be pleasant, till the ship sinks under him.
 Be quiet, sir!
 Be skeptical of websites, check that the link matches the official website.
 Be so kind as to apologise for us to Miss Darcy.
@@ -2124,6 +2131,7 @@ But I do not believe that they are going to be married.
 But I don't drink.
 But I don't think it was any greater than my surprise.
 But I don’t mind admitting that I’m horribly nervous.
+But I don’t think it will be necessary to eat them.
 But I expect a judgment.
 But I had done my best service, I think, before I put on khaki.
 But I had the sense to see my danger.
@@ -2378,6 +2386,7 @@ But the Brinkley Court fire bell was too much for me.
 But the Captain had very long ears — though his hair was very short.
 But the Doctor didn’t worry at all.
 But the Doctor said he needed it to shave with.
+But the Doctor told him to stop.
 But the Leader of the Lions was a very proud creature.
 But the Monkey King shook his head.
 But the bearded bloke had shot his bolt.
@@ -2450,9 +2459,11 @@ But we are all liable to error.
 But we are coming to the end.
 But we are nearing the end.
 But we are plotting nothing against him, Tony.
+But we can’t open the door.
 But we have got the necklace — that's something.
 But we have them!
 But we want to avoid that if possible.
+But we wanted to warn you before we go.
 But we were without this momentum.
 But we'll just postpone this.
 But what I meant was this.
@@ -3085,6 +3096,7 @@ Do not respond to email blackmail threats or send any money to them.
 Do not speak a word of this to any one.
 Do not tremble and cry so much for me.
 Do not use this pen.
+Do not waste any more of his time.
 Do now, at last, dear godmother, if you please!
 Do people still use a phone directory?
 Do so much for my sake, and thus all ends between us!
@@ -3277,6 +3289,7 @@ Don't you see, I'm chewing this thing in two.
 Don't you think that's a rather risky course of action?
 Don't you think the spelling of weird is, well, weird?
 Don't you want to spend time with your loved ones?
+Don’t cry.
 Don’t drink and drive.
 Don’t fuss.
 Don’t let that interfere with your appetite.
@@ -3620,6 +3633,7 @@ For at times, no doubt, he is wrong too.
 For certain grave reasons his tale must wait for four hours.
 For everything, there is a season.
 For fifty pounds he had seen his mother that day.
+For furniture there was only one little stool.
 For generations, our families have lived here.
 For half an hour they ransacked the mill.
 For he has his pictures, ancient and modern.
@@ -3651,6 +3665,7 @@ For the first time in his life he was yearning for a scrap.
 For the last time she laced the girl's dress.
 For the moment he was off his balance.
 For the murder of Marthe.
+For the rest of your life you must be a peaceful farmer.
 For the rest, he was a mere automaton.
 For the room had very little information to give him.
 For the second time that day his professional calm deserted him.
@@ -3760,6 +3775,7 @@ Give me that coat of yours.
 Give me that telegraph form and pencil.
 Give me the key of the back door.
 Give my love to Colonel Forster.
+Give my regards to your aunt.
 Give the word, and I'll sell off every morsel.
 Give them their choice between a fine or an official whipping.
 Give us a kiss, my pet.
@@ -4995,6 +5011,7 @@ Hello hello. Why is this thing not working?
 Hello, I am here for my appointment booked at four o'clock.
 Help! All the automated tests are failing!
 Help! It's the beast from the deep.
+Help, help! — The sharks!
 Hence his admiration and his emulation of that shining enchanter.
 Henry dived headfirst into the stream.
 Her affections had continually been fluctuating but never without an object.
@@ -5431,6 +5448,7 @@ How shall we find him?
 How shall we get down?
 How should I know anything of her?
 How strange this is!
+How stupid of me!
 How surprised he’ll be when he finds out who I am!
 How the devil can it have got known?
 How they all came out of it Alice couldn’t guess.
@@ -6847,6 +6865,7 @@ I released the brakes just in time.
 I remember Augustus mentioning it in his speech.
 I remember faces very well.
 I remember fitting-in a floppy drive on my desktop tower.
+I remember her perfectly. Leave that rat alone, Jip!
 I remember that guy, I think it's Thomas.
 I remember that you did seem dubious, sir.
 I remember the young lady very well.
@@ -7172,6 +7191,7 @@ I want five hundred pound.
 I want my autonomous car to come to me on demand like night rider.
 I want my men to work by themselves.
 I want only one.
+I want that duck you’ve got — and the pig too.
 I want the facts.
 I want to be a published author when I grow up.
 I want to become a Restaurateur.
@@ -7298,6 +7318,7 @@ I was trained in the dark arts of assembly coding.
 I was trying to think who you reminded me of.
 I was uncomfortable enough, I may say unhappy.
 I was useful to him, and he was useful to me.
+I was very glad to find it was you.
 I was very much changed — oh, very, very much.
 I was very much in earnest.
 I was very retired and quiet, and tried to be very diligent.
@@ -8149,6 +8170,7 @@ It is a retired situation.
 It is a rudimentary design but still flies.
 It is a single cam engine.
 It is a slow, expensive, British, constitutional kind of thing.
+It is a small hand and a small face.
 It is a sub-type.
 It is a timeless quote.
 It is a transient error.
@@ -8303,6 +8325,7 @@ It is, indeed!
 It is, then, something belonging to her.
 It isn't a question of saying 'boo' to a goose.
 It isn’t a shelf.
+It isn’t safe.
 It issued a rate of forty two dollars a car on charcoal.
 It just describes him.
 It just got real.
@@ -8333,6 +8356,7 @@ It may be lost by another accident.
 It may be that he had other views for his son.
 It may frighten her.
 It may have been seen; it must be somewhere.
+It might be a woman.
 It might not be edifying and, poor woman, she is dead.
 It might seem as if costs were my object.
 It must be a cultural difference.
@@ -8376,6 +8400,7 @@ It seemed the words had no meaning for her.
 It seemed to her hardly possible.
 It seemed to me that the conversation was becoming difficult again.
 It seems a hopeless business.
+It seems a pleasant place.
 It seems hipsters have caught the innovation bug.
 It seems like a strange pointing of the hand of God.
 It seems like making a great disturbance about nothing particular.
@@ -8820,6 +8845,7 @@ It's worth eight dollars.
 Italian Pasta is delicious.
 Its banks were neither formal nor falsely adorned.
 Its beak was short and hooked – probably a raptor.
+Its boards are rotten.
 Its diameter was not more than two hundred yards.
 Its good to know the amortization of your mortgage to save money.
 Its three occupants descended as if to stretch their legs, and sauntered towards me.
@@ -8827,6 +8853,7 @@ Its written in our fate.
 Its written in our stars.
 It’ll be easy enough managed.
 It’ll come in handy if we find any plum-cake.
+It’s a bad ship, Doctor.
 It’s a cravat, child, and a beautiful one, as you say.
 It’s a nasty thing to find under the bed.
 It’s a plan of my own invention.
@@ -8890,6 +8917,7 @@ I’m too happy; and yet I’m not happy enough.
 I’m very sorry he has failed.
 I’m watching television with friends this evening
 I’ve changed my mind
+I’ve come to tell you that we are leaving this one.
 I’ve got an extra large meat lover’s pizza, without the meat?
 I’ve got him now.
 I’ve had you in my mind all this week when things got troublesome.
@@ -8938,6 +8966,7 @@ Jessie is a renowned comedian.
 Jesus was a man that some some call Christ.
 Jim picked her pocket while Fred created a diversion
 Jim squatted down, struggling to keep his balance.
+Jip says it must be where the pirates kept their treasure.
 Jo follows her a pace or two into a quiet court.
 Jo looks aghast at Mr. Bucket.
 Jo slowly munches as he slowly tells it.
@@ -9101,6 +9130,7 @@ Let sleeping dogs lie, so the saying goes.
 Let some one hold him back.
 Let the young man wait.
 Let them be taken with the old woman to the depot.
+Let them come on.
 Let them down gently.
 Let them go out and eat with my boys.
 Let us begin at the beginning
@@ -9109,6 +9139,7 @@ Let us drink to somebody.
 Let us drive to your hotel.
 Let us face the position, forcing ourselves to be calm.
 Let us formulate what we know.
+Let us get on to the ship before they eat us!
 Let us get this straight.
 Let us go out into the garden; it will be cooler there.
 Let us hear what happened on that terrible night.
@@ -9127,6 +9158,7 @@ Let us take the members of the household one by one.
 Let us talk about something else.
 Let us talk it over and find a way out.
 Let us walk on.
+Let ’em come.
 Let's coordinate with the rest of the team and pick this up again later.
 Let's get away for a nice holiday.
 Let's go altogether to Disney Land.
@@ -9353,9 +9385,11 @@ May drought destroy your crops.
 May is a time of stress for many students.
 May you be very happy!
 May you long live to share it with me!
+Maybe it’s a woman.
 Maybe later.
 Maybe not; still I don't like it.
 Maybe we should circle back round to that barbecue idea?
+Maybe your uncle is quite safe all the time.
 Mayonnaise is an ideal condiment to Fries.
 Mazda used to make cars with rotary engines.
 McCoy found a stifling, poisonous atmosphere in the pent cabin.
@@ -9937,6 +9971,7 @@ No, sir, but I will attend to the matter immediately.
 No, thanks, old man.
 No, that I cannot forgive.
 No, that doesn't make any sense at all.
+No, that would never do.
 No, there were no tears.
 No, this does not come as a surprise.
 No, to be sure, and he wouldn't have, of course.
@@ -10064,6 +10099,7 @@ Now I will leave you, for I have much to do.
 Now I'll tell you what you want.
 Now Irvine was a man of impulse, a poet.
 Now I’ll give you something to believe.
+Now all hold your breath a moment so I can listen well.
 Now all those fears were over.
 Now all was changed.
 Now and then a sheep wandered off the heather to stare at me.
@@ -10602,6 +10638,7 @@ Perhaps he knows there really is.
 Perhaps he thought her too young.
 Perhaps she had already met her fate a little deeper in the forest.
 Perhaps that was what those secret enemies were playing for.
+Perhaps we can find him for you.
 Perhaps we could compare our cells to algorithms.
 Perhaps we should join a wine club.
 Perhaps you do right to get used to one.
@@ -12098,6 +12135,7 @@ Such amiable qualities must speak for themselves.
 Such an act was in direct violation of the laws of the land.
 Such an inflexible little woman, too, through all!
 Such doings discomposed Mr. Bennet exceedingly.
+Such ignorance!” sniffed Too-Too.
 Such is my passage engaged on the steamer.
 Such is my reward and doom.
 Such men believe, when they come together.
@@ -12289,6 +12327,7 @@ That is scarcely fair, sir, scarcely fair!
 That is the manly policy.
 That is the only good that has ever come of it.
 That is the place to get husbands.
+That is the pushmi-pullyu.
 That is the strange part of it.
 That is to say, some time after midnight.
 That is ugly enough in itself.
@@ -12459,6 +12498,7 @@ That’s really not obvious
 That’s the end of my move.
 That’s the fourth personage these animals have driven away.
 That’s the proper style.
+That’s very interesting.
 That’s what the name is called.
 That’s what you call a History of England, that is.
 That’s what you ought to do.
@@ -12499,6 +12539,7 @@ The Director was decisive and accurate.
 The Doctor and all his animals were gone.
 The Doctor and the rest were taken before the King.
 The Doctor stooped and picked it up.
+The Doctor turned the handle but it wouldn’t open.
 The Dormouse slowly opened his eyes.
 The Dow Jones was down this period by three percent.
 The Duchess took her choice, and was gone in a moment.
@@ -13755,6 +13796,7 @@ The recollection seemed to upset him, and he gulped down some more whisky.
 The recovery driver inflated the flat tire.
 The recovery man got it up and running in no time.
 The rector of a parish has much to do.
+The red sails were being left far, far behind.
 The red-haired woman called Adele; the man with the little black moustache.
 The referendum did not end as expected.
 The reflection on the ice was distorted.
@@ -13804,6 +13846,7 @@ The roof sloped down in all directions.
 The room in which the ladies sat was backwards.
 The room was measurably cleaner.
 The room was opposite Celia's.
+The room was quite small; no window; the ceiling, low.
 The rooms lighting was dim and made me feel drowsy.
 The rotor spun at incredible speeds.
 The rowing boat can't accommodate any more.
@@ -13838,6 +13881,8 @@ The servant with the bandage was being soundly rated.
 The server was decentralized.
 The session timed out because there was no response from the server.
 The sewer systems could not cope and the roads were flooded.
+The shark is waiting.
+The sharks are coming!
 The sharp voice of Wolf Larsen aroused me.
 The shepherd protected his flock of sheep.
 The ship should be in within a week or ten days.
@@ -13853,6 +13898,7 @@ The shopping trolley provided by Tesco had very wonky casters
 The shot wasn't on the board.
 The show was broadcast live.
 The showcase is handcrafted using oak wood.
+The sides aren’t strong enough.
 The sight gave me a shock.
 The sight of Miss Lucas was odious to her.
 The sign said E Z Loans and Finance.
@@ -14271,6 +14317,7 @@ Then the vision faded, the tambourines and cymbals rattled again.
 Then there are plenty of Marine Parades, if that’s what you mean.
 Then there is no more to be said.
 Then there was the campaign.
+Then they all started to hunt for the key.
 Then they came outside, and stood just below the dovecot arguing fiercely.
 Then they do not know it yet?
 Then they passed out of his hearing.
@@ -14353,6 +14400,7 @@ There are no kiddies and half grown youths among them.
 There are no sounds audible in the vacuum of space.
 There are no tricks here.
 There are none left.
+There are only six of them.
 There are over a hundred noble laureates in the United Kingdom.
 There are scissors for both left-handed and right-handed people.
 There are several species of horse chestnut tree, all of which bear conkers
@@ -14511,6 +14559,7 @@ There was a seance held last night in the little salon.
 There was a second condition we laid down.
 There was a short note about me as the owner of the flat.
 There was a street lamp near to the door, he remembered.
+There was a strong, winey smell.
 There was a stronger personality than hers at work in the room.
 There was a tear on her eyes.
 There was also a legacy of one thousand pounds.
@@ -14729,6 +14778,7 @@ They are all so brittle!
 They are almost new, you see.
 They are big trees and require plenty of room.
 They are coming ashore, whoever they are.
+They are downstairs looking for things to steal.
 They are equally unfit for office
 They are going to defer taking a decision until the next meeting.
 They are gone off together from Brighton.
@@ -14819,6 +14869,7 @@ They handled two men already, both grub-thieves.
 They have been expectant of a new baby for a few months now.
 They have brought in both their people.
 They have gone.
+They have left their own ship with nobody on it.
 They have their own snug secret way, and they won’t be hurried.
 They have won popular sentiment through the newspapers.
 They helped her to sit up.
@@ -14830,6 +14881,7 @@ They laughed like two happy children.
 They lay next to each other in the hay, fast asleep.
 They led on, slashing their way through the dense forest.
 They left the train at Alfreton.
+They left two hours ago!
 They let her waltz with them.
 They likewise are disinclined to being eaten.
 They lit a candle in memory of their dear friend.
@@ -14872,6 +14924,7 @@ They spoke in whispers.
 They stood in the darkness listening.
 They stood looking at one another, white and trembling.
 They stopped at the gate.
+They sunk our fishing-boat and brought us both on to this ship.
 They talk with their ears, with their feet, with their tails — with everything.
 They tell me I owe more than that.
 They tell me downstairs that your wife is here.
@@ -15040,6 +15093,7 @@ This in its turn he moved quickly aside.
 This invaluable friend was a very young woman, and very lately married.
 This is a Fire door, please keep shut.
 This is a London particular.
+This is a bad ship you have here.
 This is a binding contract.
 This is a categorical problem for sure.
 This is a common experience with all of us.
@@ -15110,6 +15164,7 @@ This is our company charter.
 This is our dining area.
 This is public domain content.
 This is purpose built.
+This is really most attentive.
 This is semi-skimmed milk.
 This is skimmed milk.
 This is splendid news.
@@ -16203,6 +16258,7 @@ Were you happy in prison, dear child?
 Were you wise to come here and interfere?
 Were your theatre tickets for the stalls, dress circle or balcony?
 Wethermill leaned forward and shook his head with a smile.
+We’ll have pork-chops and roast duck for supper to-night.
 We’re all out of gin: send help!
 We’ve only a minute to do it.
 What I believe is called a frisson shook him.
@@ -16797,6 +16853,7 @@ Who wouldn't be?
 Who's brought the cake?
 Who's the managing director of this company?
 Who's the recipient?
+Whoever it is, they are coming after us.
 Whoever lived on the ranch did that.
 Why I was so nervous this morning I can't imagine.
 Why any fear of detection?
@@ -17137,6 +17194,7 @@ You are an extraordinary person.
 You are approaching a safety speed camera.
 You are as punctual as the sun.
 You are being watched.
+You are caught, my fine friend!
 You are charmingly grouped, and appear to uncommon advantage.
 You are coming, then, to help us?
 You are going out into the great world.
@@ -17184,6 +17242,7 @@ You can call model dot summary to see the model structure.
 You can choose either the fruit salad or the cheese
 You can choose the colour Navy or Azure for the baby's bedroom.
 You can convert a currency value from one to another using a conversion factor.
+You can count its three big sails — all red.
 You can do it. Just take baby steps.
 You can do nothing worse to me than you have done.
 You can do what you like, old boy!
@@ -17267,6 +17326,7 @@ You don't object to him?
 You don't quite credit me, my dear!
 You don't suppose she really wants to marry me, do you?
 You don't suspect any harm?
+You don’t know that he was drowned, do you?
 You drove the car on Tuesday morning?
 You find the long vacation exceedingly long, don't you?
 You find the rent too high, do you, sir?
@@ -17506,6 +17566,7 @@ You showed no less surprise than he did, my good friend.
 You smile, Jeeves. The thought amuses you?
 You stand silent and twiddle the fingers.
 You surprise me, sir.
+You surprise me.
 You take delight in vexing me.
 You take what?
 You think her guilty — like this detestable newspaper, like the police.
@@ -17526,6 +17587,7 @@ You were destroying my life.
 You were engaged.
 You were found in a doorway, weren't you?
 You were going to leave after you saw me on the rock.
+You were going to run off in my ship, eh?
 You were going to say, thirdly?
 You were hobbling along with a couple of sticks!
 You were in London, but you can explain what you were doing.
@@ -18067,6 +18129,7 @@ whispered Richard, not thinking she could hear him.
 “But I don’t see,” he went on.
 “But I’m a strong teetotaller,” he said pugnaciously.
 “But he always gets better,” said Paul after a while.
+“But that makes hardly any sound at all,” said the Doctor.
 “But what is to be done about Pemberley?” cried Mrs. Gardiner.
 “By God, the murderer!” he cried.
 “Can I speak to you?” he said.
@@ -18082,10 +18145,13 @@ whispered Richard, not thinking she could hear him.
 “Did you tell him what has happened?” he asked.
 “Do you certainly leave Kent on Saturday?” said she.
 “Do you like singing?” Miriam asked her.
+“Do you mean the master of The Saucy Sally?” asked the porpoises.
 “Do you swim?” said Paul.
 “Do you wonder?” he cried.
+“Doctor!” she cried.
 “Does the new Surveyor know you?” I asked.
 “Don’t get flustered, uncle,” he said.
+“Don’t you hear the canaries singing?” The Doctor stopped and listened.
 “Don’t you see it’s a clue,” I shouted.
 “Father!” said Paul, so that the word rang.
 “First turn to the right up by the long fir-wood,” he enjoined.
@@ -18111,6 +18177,7 @@ whispered Richard, not thinking she could hear him.
 “I apologise to the shade of Scudder,” he said.
 “I call it disgraceful,” he said, raising his voice.
 “I can’t, guv’nor,” I said in a real beggar’s whine.
+“I declare, it is the pirates’ rum-room!” said Jip in a whisper.
 “I didn’t ask you to eat them,” he said quietly.
 “I do indeed,” replied Elizabeth, colouring.
 “I do not know when I have been more shocked,” said she.
@@ -18153,6 +18220,7 @@ whispered Richard, not thinking she could hear him.
 “Let us get on,” he said.
 “Let us sit here a minute,” said Miriam.
 “Let’s see,” said Paul.
+“Listen, Ben Ali,” said John Dolittle, leaning over the side.
 “Listen, Sir Harry,” I said.
 “Look at the time,” said the old man.
 “Lord save us!” cried the duck.
@@ -18204,13 +18272,17 @@ whispered Richard, not thinking she could hear him.
 “This fellow is all right.” They asked one last question.
 “This is a great nuisance,” said the Doctor.
 “To tell the time by,” said the parrot.
+“True,” said the owl.
+“Very well,” he said sadly.
 “Very well,” replied the mother.
 “Walter he!” came the ringing voice.
 “Was it as bad as that?” he asked ruefully.
+“We always know,” answered the rat.
 “We have such jolly times,” Miriam said to Clara.
 “We mean regular staircases,” I said.
 “We must have run into Africa,” said the Doctor.
 “Well met, my lad!” He got a horrid fright.
+“Well now — wait a minute,” said the Doctor.
 “Well, my lad!” he’s eyes were wet.
 “Well, you can if you like,” said Fanny.
 “We’re on the scent at last,” I cried excitedly.
@@ -18235,6 +18307,7 @@ whispered Richard, not thinking she could hear him.
 “Who dost reckon this is?” he asked of his wife.
 “Who the devil are you?” he gasped.
 “Why not?” murmured Miriam huskily.
+“Why, to be sure — of course!” he said.
 “Will yer?” he said, quiet and intense.
 “Will you oblige me with the story of your recent doings?” he asked.
 “Yes and no,” he said.
@@ -18244,6 +18317,7 @@ whispered Richard, not thinking she could hear him.
 “Yes,” replied Miriam, as she walked at his side.
 “You are ridiculous,” said his sister, and walked out of the room.
 “You are too hasty, sir,” she cried.
+“You aren’t one of the pirates, are you?” he asked.
 “You begin to comprehend me, do you?” cried he, turning towards her.
 “You can take up your life where you left off,” I was told.
 “You may dismiss the police from your mind,” he said.

@@ -327,6 +327,9 @@ add-avatar-clip = Add an avatar to your profile and say “hello!”
 create-voice-wave = Create Voicewave
 recording-voice-wave = Recording
 ready-to-upload = Upload
+avatar-clip-fact = It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+recreate-voice = Recreate Voicewave 
+cancel-avatar-clip-recording = Cancel
 about-avatar-clip = Create a custom voice wave to introduce yourself. Other users will be able to hover and listen to your clip.
 browse-file-title = Upload an image file
 browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
@@ -711,6 +714,7 @@ overall-accuracy = Overall Accuracy
 set-visibility = Set my visibility
 visibility-explainer = This setting controls your leaderboard visibility. When hidden, your progress will be private. This means your image, user name and progress will not appear on the leaderboard. Note that leaderboard refresh takes ~{ $minutes }min to populate changes.
 visibility-overlay-note = Note: When set to 'Visible', this setting can be changed from the <profileLink>Profile page</profileLink>
+show-ranking = Show my ranking
 
 ## Custom Goals
 get-started-goals = Get started with goals
