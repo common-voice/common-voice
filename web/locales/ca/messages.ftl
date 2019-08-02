@@ -713,6 +713,32 @@ want-to-continue = Voleu continuar?
 finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
 build-custom-goal = Crea un objectiu personalitzat
+help-reach-hours = Ajudeu a arribar a { NUMBER($hours) } hores en { $language } amb un objectiu personal
+set-a-goal = Defineix un objectiu
+cant-decide = No sabeu què fer?
+activity-needed-calculation = Si { NUMBER($people) } persones enregistren { NUMBER($clipsPerDay) } talls per dia, es pot arribar a { NUMBER($totalHours) } hores en poc més de { NUMBER($periodMonths) } mesos.
+how-many-per-day = Genial! Quants talls per dia?
+how-many-a-week = Genial! Quants talls per setmana?
+which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
+receiving-emails-info = Actualment teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice.
+n-clips = { NUMBER($count) } talls
+help-share-goal = Ajudeu-nos a trobar més veus, compartiu el vostre objectiu
+confirm-goal = Confirmo l'objectiu
+goal-interval-weekly = Setmanal
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Compartiu el vostre objectiu diari de { $count } talls { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Compartiu el vostre objectiu setmanal de { $count } talls { $type }
+share-goal-type-speak = parlant
+share-goal-type-listen = escoltant
+share-goal-type-both = parlant i escoltant
+# LINK will be replaced with the current URL
+goal-share-text = Acabo de crear un objectiu personal per a donar la veu al #CommonVoice #CommonVoiceCAT. Uniu-vos-hi i ajudeu-nos a ensenyar les màquines com parlen les persones de debò { $link }
+weekly-goal-created = S'ha creat el vostre objectiu setmanal
+daily-goal-created = S'ha creat el vostre objectiu diari
+track-progress = Seguiu el vostre el progrés aquí i en la pàgina d'estadístiques.
+return-to-edit-goal = Torneu aquí en qualsevol moment per a editar el vostre objectiu.
+share-goal = Comparteix el meu objectiu
 
 ## Profile Delete
 
@@ -730,6 +756,7 @@ profile-form-delete = Suprimeix el perfil
 ## Landing
 
 welcome-staff = Personal de { $company }, us donem la benvinguda!
+help-contribute = Ajudeu a construir un conjunt de dades lliure i divers creant un perfil del Common Voice i col·laborant amb la vostra veu.
 login-company = Inici de sessió / Registre amb l'adreça electrònica de { $company }
 profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
 read-more-about = Vegeu més informació a la pàgina «Qui som»
