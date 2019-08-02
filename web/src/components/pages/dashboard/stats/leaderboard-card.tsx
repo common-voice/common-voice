@@ -38,6 +38,10 @@ function createScrollHints(element: HTMLElement) {
   element.addEventListener('scroll', () => {}, { passive: true });
 }
 
+function formatNumber(n: number) {
+  return n > 1000 ? Math.floor(n % 1000) + 'k' : n;
+}
+
 interface PropsFromState {
   api: API;
   globalLocale: Locale.State;
@@ -202,17 +206,17 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               </React.Fragment>
             )}
           </div>
-          <div className="total">
+          <div className="total" title={row.total}>
             {this.props.type == 'clip' ? (
               <MicIcon />
             ) : (
               <OldPlayIcon className="play" />
             )}
-            {row.total}
+            {formatNumber(row.total)}
           </div>
-          <div className="valid">
+          <div className="valid" title={row.valid}>
             <CheckIcon />
-            {row.valid}
+            {formatNumber(row.valid)}
           </div>
           <RateColumn value={row.rate} />
         </li>,

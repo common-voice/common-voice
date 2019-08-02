@@ -323,6 +323,7 @@
             }
 
             & svg {
+                flex-shrink: 0;
                 margin-inline-end: 5px;
                 height: 17px;
 
@@ -347,6 +348,7 @@
             background: var(--blue);
 
             & svg {
+                flex-shrink: 0;
                 width: 17px;
             }
 
