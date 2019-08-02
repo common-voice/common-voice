@@ -193,6 +193,7 @@ profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
 
 ## Account Benefits
 
+benefits = Beneficios
 
 ## What's public
 
@@ -222,6 +223,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabar/Parar
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Regrabar el clip
 request-language-text = ¿Entá nun ves la to llingua en Common Voice?
 request-language-button = Solicitar una llingua
 
@@ -306,12 +308,23 @@ change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de se
 ## FAQ
 
 faq-title = Entrugues frecuentes
+faq-what-cv-q = ¿Qué ye Common Voice?
+faq-why-important-q = ¿Por qué ye importante?
+faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
 
 ## ABOUT US
 
+about-title = ¿Por qué Common Voice?
+how-does-it-work-title = ¿Cómo funciona?
+about-nav-why-common-voice = ¿Por qué?
+about-nav-how-it-works = ¿Cómo?
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelixencia artificial
+mycroft-description = Mycroft ye'l primer asistente de códigu abiertu del mundu y pue executase en cualesquier llugar (ordenador, coche o nuna Raspberry Pi).
 
 ## Glossary
 
+sst = Fala a testu (STT)
 
 ## NotFound
 
@@ -359,7 +372,9 @@ size-gigabyte = GB
 size-megabyte = MB
 validated-hours = Hores validaes
 recorded-hours = Hores grabaes
+whats-inside = ¿Qué hai dientro del conxuntu de datos de Common Voice?
 want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión nueva del conxuntu de datos de Common Voice? Soscríbite al boletín.
+feedback-q = ¿Tienes comentarios?
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose de magar audios de charres y les sos trescripciones disponibles nel sitiu web TED.
@@ -367,6 +382,7 @@ data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
 more = Más
 close = Zarrar
+dataset-version = Versión
 
 ## Download Modal
 
@@ -463,6 +479,7 @@ share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
 
 ## Reporting
 
+report-offensive-language = Llinguaxe ofensivu
 report-different-language = Llingua diferente
 
 ## Goals
