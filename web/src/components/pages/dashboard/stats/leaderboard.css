@@ -220,9 +220,37 @@
     margin: 10px 0 0;
     padding: 0 20px;
     max-height: 170px;
+    width: 100%;
     box-sizing: border-box;
     overflow: auto;
     list-style: none;
+    position: absolute;
+
+    --before-height: 0;
+    --after-height: 0;
+
+    &::before,
+    &::after {
+        content: '';
+        position: sticky;
+        display: block;
+        width: 100%;
+        background: linear-gradient(white, transparent);
+        pointer-events: none;
+    }
+
+    &::before {
+        top: 0;
+        margin-bottom: calc(-1 * var(--before-height));
+        height: var(--before-height);
+    }
+
+    &::after {
+        bottom: -1px;
+        margin-top: calc(-1 * var(--after-height));
+        height: var(--after-height);
+        transform: rotateX(180deg);
+    }
 
     & .rotate {
         border-style: dotted;

@@ -34,10 +34,6 @@ import './leaderboard.css';
 
 const FETCH_SIZE = 5;
 
-function createScrollHints(element: HTMLElement) {
-  element.addEventListener('scroll', () => {}, { passive: true });
-}
-
 function formatNumber(n: number) {
   return n > 1000 ? Math.floor(n / 1000) + 'k' : n;
 }
@@ -100,26 +96,30 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       },
       this.scrollToUser
     );
-    createScrollHints(this.scroller.current);
   }
 
   async fetchMore(cursor: [number, number]) {
     const { api, globalLocale, locale, type } = this.props;
     trackDashboard('leaderboard-load-more', globalLocale);
     const newRows = await api.forLocale(locale).fetchLeaderboard(type, cursor);
-    this.setState(({ rows }) => {
-      const allRows = [
-        ...newRows,
-        ...rows.filter(
-          r1 => !newRows.find((r2: any) => r1.clientHash == r2.clientHash)
-        ),
-      ];
-      allRows.sort((r1, r2) => (r1.position > r2.position ? 1 : -1));
-      return {
-        rows: allRows,
-        isAtEnd: newRows.length == 0,
-      };
-    });
+    this.setState(
+      ({ rows }) => {
+        const allRows = [
+          ...newRows,
+          ...rows.filter(
+            r1 => !newRows.find((r2: any) => r1.clientHash == r2.clientHash)
+          ),
+        ];
+        allRows.sort((r1, r2) => (r1.position > r2.position ? 1 : -1));
+        return {
+          rows: allRows,
+          isAtEnd: newRows.length == 0,
+        };
+      },
+      () => {
+        this.updateScrollIndicator();
+      }
+    );
   }
 
   playAvatarClip = function(clipUrl: string, position: any) {
@@ -143,8 +143,22 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     const row = this.youRow.current;
     if (!row) return;
 
-    this.scroller.current.scrollTop =
-      row.offsetTop - this.scroller.current.offsetTop;
+    const scroller = this.scroller.current;
+    scroller.scrollTop = row.offsetTop - scroller.offsetTop;
+    this.updateScrollIndicator();
+  };
+
+  updateScrollIndicator = () => {
+    const SIZE = 40;
+    const el = this.scroller.current;
+    el.style.setProperty(
+      '--before-height',
+      Math.min(el.scrollTop, SIZE) + 'px'
+    );
+    el.style.setProperty(
+      '--after-height',
+      Math.min(el.scrollHeight - el.scrollTop - el.clientHeight, SIZE) + 'px'
+    );
   };
 
   render() {
@@ -237,7 +251,10 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     });
 
     return (
-      <ul className="leaderboard" ref={this.scroller}>
+      <ul
+        className="leaderboard"
+        ref={this.scroller}
+        onScroll={this.updateScrollIndicator}>
         {items}
       </ul>
     );
