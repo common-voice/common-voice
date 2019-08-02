@@ -158,7 +158,7 @@ home-title = El projecte Common Voice és la iniciativa de Mozilla per ajudar le
 home-cta = Alceu la veu i col·laboreu-hi!
 wall-of-text-start = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però el desenvolupament d'aquests sistemes requereix un gran volum de dades de veu.
 wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que la tecnologia de reconeixement de la veu estigui oberta a tothom.
-wall-of-text-more-desktop = Ara podeu donar la vostra veu per ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per ajudar les màquines a aprendre com parlem les persones de debò. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
+wall-of-text-more-desktop = Ara podeu donar la vostra veu per ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per ajudar les màquines a aprendre com parlem les persones de debò. Reviseu la feina d'altres col·laboradors per millorar la qualitat. Així de fàcil!
 wall-of-text-first = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però per crear aquests sistemes de veu, els desenvolupadors necessiten un gran volum de dades de veu.
 wall-of-text-second = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que el reconeixement de la veu sigui obert i accessible a tothom.
 show-wall-of-text = Més informació
@@ -202,7 +202,7 @@ help-make-dataset = Ajudeu-nos a crear un conjunt de dades d'alta qualitat obert
 profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
 sign-up-account = Crea un compte
 email-subscription-title = registreu-vos per rebre actualitzacions per correu
-email-subscription-title-new = Creeu un compte per a rebre les notícies del Common Voice, recordatoris dels objectius i actualitzacions de progrés
+email-subscription-title-new = Creeu un compte per rebre les notícies del Common Voice, recordatoris dels objectius i actualitzacions de progrés
 
 ## Account Benefits
 
@@ -326,7 +326,7 @@ ready-to-upload = Puja
 avatar-clip-fact = És un fet ben conegut que un lector es pot distreure del contingut que ha de llegir d'una pàgina en mirar-ne el disseny.
 recreate-voice = Torna a crear un tall de veu personal
 cancel-avatar-clip-recording = Cancel·la
-about-avatar-clip = Creeu un tall de veu personalitzat per a presentar-vos. Els altres usuaris podran escoltar el vostre tall en passar-hi per sobre.
+about-avatar-clip = Creeu un tall de veu personalitzat com a presentació. Els altres usuaris podran escoltar el vostre tall en passar-hi per sobre.
 browse-file-title = Puja un fitxer d'imatge
 browse-file = Arrossegueu i deixeu anar o feu clic a <browseWrap>Navega</browseWrap>
 connect-gravatar = Connecta amb Gravatar
@@ -354,7 +354,7 @@ faq-why-important-a =
 faq-how-get-q = Com puc obtenir les dades del Common Voice?
 faq-how-get-a = El conjunt de dades del Common Voice es pot baixar sota la llicència <licenseLink>CC0</licenseLink> des de <datasetLink>la nostra pàgina de conjunts de dades</datasetLink>. També podeu baixar diversos conjunts de dades disponibles públicament des de la mateixa pàgina.
 faq-when-release2-q = Quan publicareu les dades de Common Voice en altres llengües?
-faq-when-release2-a = La versió multilingüe del conjunt de dades del Common Voice actualment està en fase d'empaquetatge i neteja amb el suport de la comunitat. Si voleu ajudar-nos a afegir noves llengües al Common Voice, vegeu l'<sentenceCollectorLink>eina de recollida de frases</sentenceCollectorLink> per a afegir frases noves al conjunt de dades i el <pontoonLink>Pontoon</pontoonLink> de Mozilla per traduir el lloc web del projecte. Les llengües noves s'afegiran al Common Voice i podran començar a rebre aportacions de veu quan s'hagin recollit 5000 frases aprovades.
+faq-when-release2-a = La versió multilingüe del conjunt de dades del Common Voice actualment està en fase d'empaquetatge i neteja amb el suport de la comunitat. Si voleu ajudar-nos a afegir noves llengües al Common Voice, vegeu l'<sentenceCollectorLink>eina de recollida de frases</sentenceCollectorLink> per afegir frases noves al conjunt de dades i el <pontoonLink>Pontoon</pontoonLink> de Mozilla per traduir el lloc web del projecte. Les llengües noves s'afegiran al Common Voice i podran començar a rebre aportacions de veu quan s'hagin recollit i aprovat 5000 frases.
 faq-why-mission-q = Per què el Common Voice forma part de la missió de Mozilla?
 faq-why-mission-a = La missió de Mozilla és mantenir el Web obert i accessible a tothom. Per fer-ho, necessitem oferir eines als creadors de contingut web mitjançant projectes com el Common Voice. Les tecnologies de veu estan proliferant més enllà d'aplicacions molt especialitzades, i creiem que han de servir a tots els usuaris en igualtat de condicions. Això significa incloure més llengües, més diversitat d'accents i de dades demogràfiques a l'hora de crear i provar les tecnologies de veu. El Common Voice és un recurs públic, disponible per a tothom, i els equips de Mozilla i els desenvolupadors d'arreu del món ja l'utilitzen en els seus propis projectes.
 faq-what-cv-and-deepspeech-q = Quina diferència hi ha entre el Common Voice i el Deep Speech?
@@ -368,7 +368,7 @@ faq-why-different-speakers-a =
     La majoria de bases de dades de veu s'entrenen amb una sobrerepresentació  d'alguna característica demogràfica, això genera resultats amb biaix de <articleLink>gènere masculí i classe mitjana</articleLink>. Els accents i dialectes que habitualment són infrarepresentats en els conjunts de dades d'entrenament s'associen típicament amb persones que ja són marginades. Moltes màquines també tenen dificultat per entendre veus femenines.
     És per això que en la nostra base de dades de veu hi volem varietat!
 faq-why-my-lang-q = Per què encara no hi ha la meva llengua?
-faq-why-my-lang-new-a = Mozilla no tria ni afavoreix cap llengua sobre una altra. Al contrari: el Common Voice és una iniciativa impulsada exclusivament per la comunitat, però calen <multilangLink>diversos passos per a afegir una llengua</multilangLink> i començar a recollir donacions de veu. En primer lloc, cal traduir el lloc web del Common Voice perquè els membres de la comunitat puguin accedir a l'experiència de col·laborador en la seva llengua. A continuació, necessitem una gran col·lecció de frases lliures de drets d'autor perquè la gent pugui llegir-les en veu alta. Una vegada que es compleixin tots dos requisits, s'afegeix la llengua al Common Voice perquè la gent pugui començar a enregistrar la veu i validar les donacions d'altri. Si voleu ajudar a afegir una llengua, dirigiu-vos a l'<sentenceCollectorLink>eina de recollida de frases</sentenceCollectorLink> per a començar.
+faq-why-my-lang-new-a = Mozilla no tria ni afavoreix cap llengua sobre una altra. Al contrari: el Common Voice és una iniciativa impulsada exclusivament per la comunitat, però calen <multilangLink>diversos passos per afegir una llengua</multilangLink> i començar a recollir donacions de veu. En primer lloc, cal traduir el lloc web del Common Voice perquè els membres de la comunitat puguin accedir a l'experiència de col·laborador en la seva llengua. A continuació, necessitem una gran col·lecció de frases lliures de drets d'autor perquè la gent pugui llegir-les en veu alta. Una vegada que es compleixin tots dos requisits, s'afegeix la llengua al Common Voice perquè la gent pugui començar a enregistrar la veu i validar les donacions d'altri. Si voleu ajudar a afegir una llengua, dirigiu-vos a l'<sentenceCollectorLink>eina de recollida de frases</sentenceCollectorLink> per començar.
 faq-what-quality-q = Quin nivell de qualitat d'àudio ha de tenir un tall de veu per poder-lo usar en el conjunt de dades?
 faq-what-quality-a = Volem que el conjunt de dades del Common Voice reflecteixi la qualitat de l’àudio que un motor de veu a text sentirà en un entorn real, de manera que cerquem varietat. A més d'una comunitat plural de locutors, un conjunt de dades amb qualitat d'àudio variable permetrà entrenar el motor de veu a text a gestionar situacions diferents del món real, des de veus de fons fins al soroll del cotxe. Mentre que el  tall de veu sigui intel·ligible, hauria de ser prou bo per al conjunt de dades.
 faq-why-10k-hours-q = Per què hi ha l'objectiu de 10.000 hores validades d'enregistrament d'àudio per a cada llengua?
@@ -425,7 +425,7 @@ about-clip-graveyard-text = El cementiri de talls inclou els talls de veu que no
 about-partners = Socis
 about-become-a-partner = Feu-vos soci
 about-partnership =
-    El Common Voice és un projecte col·laboratiu i depenem de la comunitat de socis i col·laboradors per a crear el conjunt de dades de veu lliure més gran que s'hagi fet mai.
+    El Common Voice és un projecte col·laboratiu i depenem de la comunitat de socis i col·laboradors per crear el conjunt de dades de veu lliure més gran que s'hagi fet mai.
     
     Volem agrair les persones i organitzacions següents per la seva ajuda en el projecte:
 about-get-involved = Col·laboreu-hi
@@ -513,11 +513,11 @@ number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
 why-email = <b>Per què una adreça electrònica?</ b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
-confirm-size = Esteu preparat per iniciar una baixada de <b>{ $size }</ b>
+confirm-size = Estic preparat per iniciar una baixada de <b>{ $size }</ b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Accepteu</ b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
-download-language = Baixa { $language }
+confirm-no-identify = <b>Accepto</ b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
+download-language = Baixa ({ $language })
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
 whats-inside = Què inclou el conjunt de dades de veu?
@@ -541,7 +541,7 @@ your-feedback = Teniu idees sobre com millorar el conjunt de dades del Common Vo
 go-discourse = Vés al Discourse
 missing-language = No veieu la vostra llengua al conjunt de dades? Per sol·licitar una llengua, aneu a la pàgina de llengües.
 go-languages-page = Vés a la pàgines de llengües
-ready-to-validate = Esteu preparat per a validar frases?
+ready-to-validate = Esteu preparat per validar frases?
 more = Més
 close = Tanca
 download = Baixa
@@ -643,7 +643,7 @@ nothing-to-validate = No hi ha res per validar en aquesta llengua. Ajudeu-nos a 
 record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
 keep-track-profile = Feu seguiment del vostre progrés amb un perfil
-login-to-get-started = Inicieu sessió o creeu un compte per a començar
+login-to-get-started = Inicieu sessió o creeu un compte per començar
 
 ## Reporting
 
@@ -694,6 +694,7 @@ clips-you-validated = Talls que heu validat
 todays-recorded-progress = Progrés d'avui del Common Voice quant a talls enregistrats
 todays-validated-progress = Progrés d'avui del Common Voice quant a talls validats
 stats = Estadístiques
+awards = Distincions
 you = Vós
 everyone = Tothom
 contribution-activity = Activitat de col·laboració
@@ -745,11 +746,11 @@ share-goal-type-speak = parlant
 share-goal-type-listen = escoltant
 share-goal-type-both = parlant i escoltant
 # LINK will be replaced with the current URL
-goal-share-text = Acabo de crear un objectiu personal per a donar la veu al #CommonVoice #CommonVoiceCAT. Uniu-vos-hi i ajudeu-nos a ensenyar les màquines com parlen les persones de debò { $link }
+goal-share-text = Acabo de crear un objectiu personal per donar la veu al #CommonVoice #CommonVoiceCAT. Uniu-vos-hi i ajudeu-nos a ensenyar les màquines com parlen les persones de debò { $link }
 weekly-goal-created = S'ha creat el vostre objectiu setmanal
 daily-goal-created = S'ha creat el vostre objectiu diari
 track-progress = Seguiu el vostre el progrés aquí i en la pàgina d'estadístiques.
-return-to-edit-goal = Torneu aquí en qualsevol moment per a editar el vostre objectiu.
+return-to-edit-goal = Torneu aquí en qualsevol moment per editar el vostre objectiu.
 share-goal = Comparteix el meu objectiu
 
 ## Profile Delete
@@ -758,7 +759,7 @@ delete-q = Voleu demanar que també se suprimeixin els vostres enregistraments d
 keep = Conserva
 remove = Elimina
 keep-info = Els vostres enregistraments anònims es conservaran al conjunt de dades del Common Voice. Un cop suprimit el vostre perfil, ja no podreu sol·licitar eliminar els vostres enregistraments del conjunt de dades
-remove-info = Revisarem la vostra sol·licitud per a eliminar els enregistraments de veu del conjunt de dades. Si s'aprova la sol·licitud, ens posarem en contacte amb qui hagi baixat el conjunt de dades i els demanarem que també eliminin els vostres enregistraments de veu.
+remove-info = Revisarem la vostra sol·licitud d'eliminar els enregistraments de veu del conjunt de dades. Si s'aprova la sol·licitud, ens posarem en contacte amb qui hagi baixat el conjunt de dades i els demanarem que també eliminin els vostres enregistraments de veu.
 why-delete-recordings =
     Acadèmics, petites empreses i entusiastes del reconeixement de la parla usen els enregistraments del Common Voice per ajudar a entrenar i a fer créixer els recursos disponibles públicament, com ara models de veu.
     
