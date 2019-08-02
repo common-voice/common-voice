@@ -27,21 +27,21 @@
         padding-top: 10px;
     }
     .group-1 {
-        width: 108%;
+        width: 508px;
         height: 169px;
         object-fit: contain;
         background-image: url('./group-1.svg');
     }
 
     .lottiebg {
-        width: 100%;
+        width: 508px;
         height: 169px;
         object-fit: contain;
         background-image: url('./groupbg.svg');
     }
 
     .lottie {
-        width: 100%;
+        width: 508%;
         height: 169px;
     }
 
@@ -142,7 +142,7 @@
         font-size: 24px;
         font-weight: 600;
         text-align: center;
-        color: var(--greyish-brown);
+        color: #4a4a4a;
     }
 }
 
