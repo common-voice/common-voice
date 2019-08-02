@@ -320,9 +320,13 @@ off = Desactivat
 on = Activat
 add-avatar-title = Afegiu un avatar al perfil
 add-avatar-clip = Afegiu una imatge d'avatar al vostre perfil
+create-voice-wave = Crea un tall de veu personal
 recording-voice-wave = Enregistrament
 ready-to-upload = Puja
+avatar-clip-fact = És un fet ben conegut que un lector es pot distreure del contingut que ha de llegir d'una pàgina en mirar-ne el disseny.
+recreate-voice = Torna a crear un tall de veu personal
 cancel-avatar-clip-recording = Cancel·la
+about-avatar-clip = Creeu un tall de veu personalitzat per a presentar-vos. Els altres usuaris podran escoltar el vostre tall en passar-hi per sobre.
 browse-file-title = Puja un fitxer d'imatge
 browse-file = Arrossegueu i deixeu anar o feu clic a <browseWrap>Navega</browseWrap>
 connect-gravatar = Connecta amb Gravatar
@@ -359,8 +363,13 @@ faq-is-goal-assistant-a = L'objectiu del conjunt de dades del Common Voice és p
 faq-do-want-native-q = No sóc parlant nadiu i parlo amb accent. Voleu la meva veu igualment?
 faq-do-want-native-a = Sí, volem la teva veu en particular! Part de l'objectiu del Common Voice és obtenir tants accents diferents com sigui possible perquè els serveis de reconeixement de veu funcionin igual de bé per a tothom. Això significa que els donatius de parlants no nadius són particularment importants.
 faq-why-different-speakers-q = Per què calen tants parlants diferents per a cada llengua?
+faq-why-different-speakers-a =
+    La majoria de bases de dades de veu s'entrenen amb una sobrerepresentació  d'alguna característica demogràfica, això genera resultats amb biaix de <articleLink>gènere masculí i classe mitjana</articleLink>. Els accents i dialectes que habitualment són infrarepresentats en els conjunts de dades d'entrenament s'associen típicament amb persones que ja són marginades. Moltes màquines també tenen dificultat per entendre veus femenines.
+    És per això que en la nostra base de dades de veu hi volem varietat!
 faq-why-my-lang-q = Per què encara no hi ha la meva llengua?
+faq-why-my-lang-new-a = Mozilla no tria ni afavoreix cap llengua sobre una altra. Al contrari: el Common Voice és una iniciativa impulsada exclusivament per la comunitat, però calen <multilangLink>diversos passos per a afegir una llengua</multilangLink> i començar a recollir donacions de veu. En primer lloc, cal traduir el lloc web del Common Voice perquè els membres de la comunitat puguin accedir a l'experiència de col·laborador en la seva llengua. A continuació, necessitem una gran col·lecció de frases lliures de drets d'autor perquè la gent pugui llegir-les en veu alta. Una vegada que es compleixin tots dos requisits, s'afegeix la llengua al Common Voice perquè la gent pugui començar a enregistrar la veu i validar les donacions d'altri. Si voleu ajudar a afegir una llengua, dirigiu-vos a l'eina de <sentenceCollectorLink>recopilació de frases</sentenceCollectorLink> per a començar.
 faq-what-quality-q = Quin nivell de qualitat d'àudio ha de tenir un tall de veu per poder-lo usar en el conjunt de dades?
+faq-what-quality-a = Volem que el conjunt de dades del Common Voice reflecteixi la qualitat de l’àudio que un motor de veu a text sentirà en un entorn real, de manera que cerquem varietat. A més d'una comunitat plural de locutors, un conjunt de dades amb qualitat d'àudio variable permetrà entrenar el motor de veu a text a gestionar situacions diferents del món real, des de veus de fons fins al soroll del cotxe. Mentre que el  tall de veu sigui intel·ligible, hauria de ser prou bo per al conjunt de dades.
 faq-why-10k-hours-q = Per què hi ha l'objectiu de 10.000 hores validades d'enregistrament d'àudio per a cada llengua?
 faq-why-10k-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per entrenar un sistema de reconeixement de la veu en producció.
 faq-how-calc-hours-q = Com calcula les hores el Common Voice?
@@ -409,6 +418,10 @@ about-clip-graveyard = Cementiri de talls
 about-clip-graveyard-text = El cementiri de talls inclou els talls de veu que no han entrat al conjunt de dades del Common Voice. Igual que el conjunt de dades, el cementiri de talls també es pot descarregar.
 about-partners = Socis
 about-become-a-partner = Feu-vos soci
+about-partnership =
+    El Common Voice és un projecte col·laboratiu i depenem de la comunitat de socis i col·laboradors per a crear el conjunt de dades de veu lliure més gran que s'hagi fet mai.
+    
+    Volem agrair les persones i organitzacions següents per la seva ajuda en el projecte:
 about-get-involved = Col·laboreu-hi
 about-get-involved-text =
     Voleu ajudar a millorar el Common Voice?
@@ -421,6 +434,10 @@ about-nav-partners = Socis
 about-nav-get-involved = Col·laboreu-hi
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intel·ligència artificial
+mycroft-description =
+    El Mycroft és el primer assistent de codi obert mai creat.
+    Funciona a tot arreu: en l’ordinador, en el cotxe i en la Raspberry Pi.
+mycroft-secondary-description = Això és programari lliure que es pot remesclar, ampliar i millorar. El Mycroft es pot usar en qualsevol lloc, des d'un projecte científic fins a una aplicació d'una empresa.
 
 ## Glossary
 
@@ -613,6 +630,8 @@ listen-last-time-instruction = <playIcon></playIcon> L'últim!
 nothing-to-validate = No hi ha res per validar en aquesta llengua. Ajudeu-nos a enregistrar-ne més per omplir la cua.
 record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
+keep-track-profile = Feu seguiment del vostre progrés amb un perfil
+login-to-get-started = Inicieu sessió o creeu un compte per a començar
 
 ## Reporting
 
@@ -671,10 +690,29 @@ recorded-clips = Talls enregistrats
 validated-clips = Talls validats
 total-approved = Total d'aprovats
 overall-accuracy = Precisió global
+set-visibility = Defineix la meva visibilitat
+visibility-explainer = Aquesta opció controla la vostra visibilitat en la classificació. Si està oculta, el vostre progrés serà privat. Això significa que la vostra imatge, nom d'usuari i progrés no apareixeran a la classificació. Tingueu en compte que l'actualització de la classificació triga { $minutes } minuts a mostrar els canvis, aproximadament.
+visibility-overlay-note = Nota: si està definit com a «Visible», això es pot canviar des de la <profileLink>pàgina del perfil</profileLink>
+show-ranking = Mostra la meva classificació
 
 ## Custom Goals
 
+get-started-goals = Introducció als objectius
 toward-next-goal = Cap al següent objectiu
+create-custom-goal = Creeu un objectiu personalitzat
+both-speak-and-listen = Ambdós
+both-speak-and-listen-long = Ambdós (Parla i Escolta)
+daily-goal = Objectiu diari
+weekly-goal = Objectiu setmanal
+easy-difficulty = Fàcil
+average-difficulty = Normal
+difficult-difficulty = Difícil
+pro-difficulty = Professional
+lose-goal-progress-warning = En editar l'objectiu, podeu perdre el progrés actual.
+want-to-continue = Voleu continuar?
+finish-editing = Voleu acabar d'editar?
+lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
+build-custom-goal = Crea un objectiu personalitzat
 
 ## Profile Delete
 
