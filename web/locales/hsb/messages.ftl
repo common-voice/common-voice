@@ -693,6 +693,7 @@ total-approved = Schwalene dohromady
 overall-accuracy = Cyłkowna dokładnosć
 set-visibility = Moju widźomnosć nastajić
 visibility-overlay-note = Pokiw: Hdyž je 'Widźomny' nastajene, da so nastajenje z <profileLink>profiloweje strony</profileLink> změnić
+show-ranking = Moje městno pokazać
 
 ## Custom Goals
 
