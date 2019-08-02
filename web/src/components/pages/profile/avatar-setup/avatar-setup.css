@@ -44,6 +44,11 @@
         width: 508px;
     }
 
+    .but {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .Primary {
         width: 30%;
         height: 57px;
@@ -56,16 +61,17 @@
         height: 57px;
         background-color: var(--white);
         position: relative;
-        left: 29%;
+        left: 9%;
         color: green;
     }
 
     .Primary-3 {
-        width: 20%;
+        display: inline-flex;
+        width: 10%;
         height: 57px;
         background-color: var(--white);
         position: relative;
-        left: 29%;
+        left: 8%;
         color: green;
     }
 
@@ -112,6 +118,29 @@
 
     .fix {
         height: 240px;
+        width: 508px;
+    }
+    .Start-in {
+        position: relative;
+        top: -8px;
+        width: 39px;
+        height: 18px;
+        font-family: OpenSans;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: grey;
+    }
+
+    .counter-digit {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        color: var(--greyish-brown);
     }
 }
 

@@ -18,6 +18,7 @@ import {
   StopIcon,
   PlayIcon,
   ShareIcon,
+  RedoIcon,
 } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
 import { Voice, PlayButton } from '../../../primary-buttons/primary-buttons';
@@ -249,7 +250,12 @@ class AvatarSetup extends React.Component<Props> {
 
   private updateAvatarClip = () => {
     this.setState({ avatarClipUrl: 'empty', counter: 3 });
-    console.log(this.state.avatarClipUrl);
+  };
+
+  private cancelRecording = async () => {
+    let clip = await this.props.api.fetchAvatarClip();
+    if (clip) this.setState({ avatarClipUrl: clip });
+    this.setState({ clipStatus: 'notStarted' });
   };
 
   render() {
@@ -295,10 +301,12 @@ class AvatarSetup extends React.Component<Props> {
               (avatarClipUrl === 'empty' ? (
                 <div>
                   <div className="Group-1">
-                    {clipStatus === 'starting' && (
+                    {true && (
                       <div className="counter">
                         <Voice>
-                          <p>{counter}</p>
+                          <span className="Start-in">
+                            Start in <p className="counter-digit">{counter}</p>
+                          </span>
                         </Voice>
                       </div>
                     )}
@@ -357,14 +365,14 @@ class AvatarSetup extends React.Component<Props> {
             </Button>
           )}
           {clipStatus === 'recorded' && (
-            <div>
+            <div className="but">
               <Button
                 outline
                 rounded
                 className="Primary-3 "
-                onClick={this.uploadAvatarClip.bind(this)}>
-                <ShareIcon />
-                <Localized id="ready-to-upload"></Localized>
+                onClick={this.cancelRecording}>
+                <RedoIcon />
+                <Localized id="cancel-avatar-clip-recording"></Localized>
               </Button>
               <Button
                 outline
