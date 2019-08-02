@@ -218,8 +218,10 @@ class AvatarSetup extends React.Component<Props> {
     const { api, refreshUser, addNotification } = this.props;
     api
       .saveAvatarClip(this.state.blobUrl)
-      .then(data => {
-        //this.setState({ clipStatus: 'notStarted', counter: 0 });
+      .then(async data => {
+        this.setState({ clipStatus: 'notStarted' });
+        let clip = await this.props.api.fetchAvatarClip();
+        if (clip) this.setState({ avatarClipUrl: clip });
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -300,11 +302,11 @@ class AvatarSetup extends React.Component<Props> {
             {(clipStatus === 'notStarted' || clipStatus === 'starting') &&
               (avatarClipUrl === 'empty' ? (
                 <div>
-                  <div className="Group-1">
+                  <div className="group-1">
                     {clipStatus === 'starting' && (
                       <div className="counter">
                         <Voice>
-                          <span className="Start-in">
+                          <span className="start-in">
                             Start in <p className="counter-digit">{counter}</p>
                           </span>
                         </Voice>
@@ -314,7 +316,7 @@ class AvatarSetup extends React.Component<Props> {
                 </div>
               ) : (
                 <div>
-                  <div className="Group-1">
+                  <div className="group-1">
                     <div className="counter">
                       <PlayButton
                         isPlaying={avatarClipPlaying}
@@ -345,7 +347,7 @@ class AvatarSetup extends React.Component<Props> {
                 <Button
                   outline
                   rounded
-                  className="Primary "
+                  className="primary "
                   onClick={this.counter}>
                   <MicIcon className="icon" />
                   <Localized id="create-voice-wave">
@@ -358,7 +360,7 @@ class AvatarSetup extends React.Component<Props> {
             <Button
               outline
               rounded
-              className="Primary "
+              className="primary "
               onClick={this.handleRecordClick}>
               <StopIcon />
               <Localized id="recording-voice-wave"></Localized>
@@ -369,7 +371,7 @@ class AvatarSetup extends React.Component<Props> {
               <Button
                 outline
                 rounded
-                className="Primary-3 "
+                className="primary-3 "
                 onClick={this.cancelRecording}>
                 <RedoIcon />
                 <Localized id="cancel-avatar-clip-recording"></Localized>
@@ -377,7 +379,7 @@ class AvatarSetup extends React.Component<Props> {
               <Button
                 outline
                 rounded
-                className="Primary-2 "
+                className="primary-2 "
                 onClick={this.uploadAvatarClip.bind(this)}>
                 <ShareIcon />
                 <Localized id="ready-to-upload"></Localized>
@@ -386,12 +388,12 @@ class AvatarSetup extends React.Component<Props> {
           )}
           {avatarClipUrl === 'empty' ? (
             <Localized id="about-avatar-clip">
-              <p className="Create-a-custom-voic" />
+              <p className="create-a-custom-voice" />
             </Localized>
           ) : (
             <div>
               <Localized id="avatar-clip-fact">
-                <p className="Create-a-custom-voic" />
+                <p className="create-a-custom-voice" />
               </Localized>
               <Localized id="recreate-voice">
                 <p className="recreate-voice" onClick={this.updateAvatarClip} />

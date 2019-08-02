@@ -26,22 +26,23 @@
         left: 20%;
         padding-top: 10px;
     }
-    .Group-1 {
-        width: 508px;
+    .group-1 {
+        width: 108%;
         height: 169px;
         object-fit: contain;
         background-image: url('./group-1.svg');
     }
 
     .lottiebg {
-        width: 508px;
+        width: 100%;
         height: 169px;
         object-fit: contain;
         background-image: url('./groupbg.svg');
     }
 
     .lottie {
-        width: 508px;
+        width: 100%;
+        height: 169px;
     }
 
     .but {
@@ -52,7 +53,7 @@
     .icon {
         color: red;
     }
-    .Primary {
+    .primary {
         width: 30%;
         height: 57px;
         background-color: var(--white);
@@ -65,7 +66,7 @@
             box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
         }
     }
-    .Primary-2 {
+    .primary-2 {
         width: 30%;
         height: 57px;
         background-color: #59cbb7;
@@ -80,7 +81,7 @@
         }
     }
 
-    .Primary-3 {
+    .primary-3 {
         display: inline-flex;
         width: 10%;
         height: 57px;
@@ -97,16 +98,9 @@
         }
     }
 
-    .Create-a-custom-voic {
+    .create-a-custom-voice {
         width: 470px;
         height: 58px;
-        font-family: OpenSans;
-        font-size: 16px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
         text-align: center;
         color: grey;
         padding-top: 36px;
@@ -116,13 +110,6 @@
     .recreate-voice {
         width: 470px;
         height: 58px;
-        font-family: OpenSans;
-        font-size: 16px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
         text-align: center;
         color: #629ff4;
         cursor: pointer;
@@ -140,20 +127,13 @@
 
     .fix {
         height: 240px;
-        width: 508px;
+        width: 100%;
     }
-    .Start-in {
+    .start-in {
         position: relative;
         top: -8px;
         width: 39px;
         height: 18px;
-        font-family: OpenSans;
-        font-size: 12px;
-        font-weight: normal;
-        font-style: italic;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
         text-align: center;
         color: grey;
     }
