@@ -692,6 +692,7 @@ overall-accuracy = 總體準確度
 set-visibility = 設定是否於排行榜顯示我的帳號
 visibility-explainer = 此選項可用來設定是否要在排行榜上顯示您的資料。設為「隱藏」時，將不會顯示在排行榜上顯示您的照片、使用者名稱、貢獻進度。請注意調整設定後，需等 { $minutes } 分鐘，重新整理排行榜後才會生效。
 visibility-overlay-note = 設定為「可見」時，可於<profileLink>個人資料頁面</profileLink>調整此選項
+show-ranking = 顯示我的排名
 
 ## Custom Goals
 
