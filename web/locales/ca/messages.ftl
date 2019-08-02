@@ -29,6 +29,7 @@ ar = àrab
 as = assamès
 ast = asturià
 az = àzeri
+ba = baixkir
 bg = búlgar
 bn = bengalí
 br = bretó
@@ -50,13 +51,16 @@ es = espanyol
 et = estonià
 eu = basc
 fa = persa
+ff = ful
 fi = finès
 fo = feroès
 fr = francès
 fy-NL = frisó
 ga-IE = irlandès
 gl = gallec
+ha = haussa
 he = hebreu
+hi-IN = hindi
 hr = croat
 hsb = alt sòrab
 hu = hongarès
@@ -71,15 +75,19 @@ kab = cabilenc
 kk = kazakh
 ko = coreà
 kpv = komi
+ku = kurd
 kw = còrnic
 ky = kirguís
+lij = lígur
 lt = lituà
 lv = letó
 mdf = mokxa
 mhr = mari oriental
 mk = macedònic
+ml = malaiàlam
 mn = mongol
 mrj = mari occidental
+mt = maltès
 myv = mordovià erza
 nb-NO = Bokmål noruec
 ne-NP = nepalès
@@ -90,18 +98,22 @@ or = oriya
 pl = polonès
 pt-BR = portuguès (Brasil)
 rm-sursilv = romanx (sobreselvà)
+rm-vallader = romanx engiadinès
 ro = romanès
 ru = rus
 rw = ruandès
 sah = iacut
 sc = sard
+si = singalès
 sk = eslovac
 sl = eslovè
 sq = albanès
 sr = serbi
 sv-SE = suec
+syr = siríac
 ta = tamil
 te = telugu
+tg = tadjik
 th = tailandès
 tr = turc
 tt = tàtar
@@ -190,6 +202,7 @@ help-make-dataset = Ajudeu-nos a crear un conjunt de dades d'alta qualitat obert
 profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
 sign-up-account = Crea un compte
 email-subscription-title = registreu-vos per rebre actualitzacions per correu
+email-subscription-title-new = Creeu un compte per a rebre les notícies del Common Voice, recordatoris dels objectius i actualitzacions de progrés
 
 ## Account Benefits
 
@@ -307,6 +320,8 @@ off = Desactivat
 on = Activat
 add-avatar-title = Afegiu un avatar al perfil
 add-avatar-clip = Afegiu una imatge d'avatar al vostre perfil
+recording-voice-wave = Enregistrament
+ready-to-upload = Puja
 browse-file-title = Puja un fitxer d'imatge
 browse-file = Arrossegueu i deixeu anar o feu clic a <browseWrap>Navega</browseWrap>
 connect-gravatar = Connecta amb Gravatar
@@ -333,7 +348,6 @@ faq-why-important-a =
     Per fer que el reconeixement de veu sigui encara més universal, estem recollint mostres de veu en llengües amb molts parlants, així com en aquelles que tenen una població més petita de parlants i que sovint no tenen accés als serveis de reconeixement de veu comercials. La publicació d'un conjunt de dades de veu divers permetrà resoldre aquest buit als desenvolupadors, als empresaris i a totes les comunitats de tecnologies de veu.
 faq-how-get-q = Com puc obtenir les dades del Common Voice?
 faq-how-get-a = El conjunt de dades del Common Voice es pot baixar sota la llicència <licenseLink>CC0</licenseLink> des de <datasetLink>la nostra pàgina de conjunts de dades</datasetLink>. També podeu baixar diversos conjunts de dades disponibles públicament des de la mateixa pàgina.
-faq-when-release-q = Quan publicareu les dades del Common Voice en altres llengües?
 faq-why-mission-q = Per què el Common Voice forma part de la missió de Mozilla?
 faq-why-mission-a = La missió de Mozilla és mantenir el Web obert i accessible a tothom. Per fer-ho, necessitem oferir eines als creadors de contingut web mitjançant projectes com el Common Voice. Les tecnologies de veu estan proliferant més enllà d'aplicacions molt especialitzades, i creiem que han de servir a tots els usuaris en igualtat de condicions. Això significa incloure més llengües, més diversitat d'accents i de dades demogràfiques a l'hora de crear i provar les tecnologies de veu. El Common Voice és un recurs públic, disponible per a tothom, i els equips de Mozilla i els desenvolupadors d'arreu del món ja l'utilitzen en els seus propis projectes.
 faq-what-cv-and-deepspeech-q = Quina diferència hi ha entre el Common Voice i el Deep Speech?
@@ -548,7 +562,7 @@ localized = Traducció
 sentences = Frases
 total-hours = Hores
 
-## New Contribution
+## Contribution
 
 action-click = Feu clic a
 action-tap = Toqueu
@@ -654,6 +668,10 @@ recorded-clips = Talls enregistrats
 validated-clips = Talls validats
 total-approved = Total d'aprovats
 overall-accuracy = Precisió global
+
+## Custom Goals
+
+toward-next-goal = Cap al següent objectiu
 
 ## Profile Delete
 
