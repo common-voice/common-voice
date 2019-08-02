@@ -331,6 +331,7 @@ add-avatar-clip = Pśidajśo wašomu profiloju awatarowy klip
 create-voice-wave = Głosowu žwału napóraś
 recording-voice-wave = Nagrawa se
 ready-to-upload = Nagraś
+cancel-avatar-clip-recording = Pśetergnuś
 about-avatar-clip = Napórajśo swójsku głosowu žwału, aby se pśedstajił. Druge wužywarje mógu z kursorom myški pśez klip trěś a na njen słuchaś.
 browse-file-title = Wobrazowu dataju nagraś
 browse-file = Śěgniśo a pušććo abo <browseWrap>pśeglědujśo</browseWrap>
