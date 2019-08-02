@@ -301,7 +301,7 @@ class AvatarSetup extends React.Component<Props> {
               (avatarClipUrl === 'empty' ? (
                 <div>
                   <div className="Group-1">
-                    {true && (
+                    {clipStatus === 'starting' && (
                       <div className="counter">
                         <Voice>
                           <span className="Start-in">
