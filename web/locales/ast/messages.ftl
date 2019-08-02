@@ -8,6 +8,7 @@ email-input =
     .label = Corréu
 submit-form-action = Unviar
 loading = Cargando...
+email-opt-in-info = Prestaríame recibir correos pa recordar los oxetivos, boletinos y anovamientos del mio progresu tocante a Common Voice.
 indicates-required = * indica que ye un campu riquíu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -279,8 +280,6 @@ profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa?
 why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
-keep-me-posted =
-    .label = Prestaríame tar al día, con anovamientos, pa saber lo último de Common Voice.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 login-identity = Identidá del aniciu de sesión
 login-signup = Aniciar sesión / rexistrase
@@ -307,6 +306,9 @@ change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de se
 ## FAQ
 
 faq-title = Entrugues frecuentes
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -345,7 +347,7 @@ review-cancel = Encaboxar xuba
 review-keep-recordings = Caltener grabaciones
 review-delete-recordings = Desaniciar les mios grabaciones
 
-## New Datasets Page
+## Datasets Page
 
 language = Llingua
 # File size in gigabytes
@@ -410,7 +412,7 @@ localized = Tradúxose
 sentences = Frases
 total-hours = Hores totales
 
-## New Contribution
+## Contribution
 
 action-click = Fai clic
 action-tap = Calca
@@ -443,7 +445,6 @@ record-again-instruction = ¡Perfeuto!<recordIcon></recordIcon> Graba'l clip sig
 record-again-instruction2 = ¡Sigui asina! Fai otra grabación <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ¡La última!
 review-tooltip = Revisa y volvi grabar los clips a midida que sigues
-unable-speak = ¿Nun pues falar agora?
 review-instruction = Revisa y volvi grabar los clips si lo precises
 record-submit-tooltip = { $actionType } unviar cuando termines
 clips-uploaded = Clips xubíos
@@ -459,6 +460,10 @@ listen-last-time-instruction = <playIcon></playIcon>¡La última!
 nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a enllenar la cola.
 record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
+
+## Reporting
+
+report-different-language = Llingua diferente
 
 ## Goals
 
@@ -495,6 +500,10 @@ validated-clips = Clips validaos
 total-approved = Total d'aprobaos
 overall-accuracy = Precisión xeneral
 
+## Custom Goals
+
+toward-next-goal = Pa la meta próxima
+
 ## Profile Delete
 
 delete-q = ¿Prestaríate solicitar que tamién se desanicien les tos grabaciones o prefieres calteneles nel conxuntu de datos de Common Voice?
@@ -503,3 +512,7 @@ remove = Desaniciar
 keep-info = Les tos grabaciones de voz anónimes van siguir nel conxuntu de datos de Common Voice. Nel momentu que desanicies el perfil, yá nun vas ser a unviar un solicitú pa desaniciar les tos grabaciones del conxuntu de datos
 remove-info = Vamos revisar la solicitú pa desaniciar les tos grabaciones del conxuntu de datos. Si la solicitú s'aprueba, vamos contautar colos que baxaron el conxuntu de datos y solicita-yos que desanicien tamién les tos grabaciones.
 profile-form-delete = Desaniciar perfil
+
+## Landing
+
+profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
