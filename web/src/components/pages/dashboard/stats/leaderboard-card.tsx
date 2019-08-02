@@ -34,6 +34,10 @@ import './leaderboard.css';
 
 const FETCH_SIZE = 5;
 
+function createScrollHints(element: HTMLElement) {
+  element.addEventListener('scroll', () => {}, { passive: true });
+}
+
 interface PropsFromState {
   api: API;
   globalLocale: Locale.State;
@@ -92,6 +96,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       },
       this.scrollToUser
     );
+    createScrollHints(this.scroller.current);
   }
 
   async fetchMore(cursor: [number, number]) {
@@ -135,8 +140,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     if (!row) return;
 
     this.scroller.current.scrollTop =
-      row.getBoundingClientRect().top -
-      this.scroller.current.getBoundingClientRect().top;
+      row.offsetTop - this.scroller.current.offsetTop;
   };
 
   render() {

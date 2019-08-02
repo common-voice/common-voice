@@ -217,8 +217,8 @@
 }
 
 .leaderboard {
-    margin: 20px 0 0;
-    padding: 0 20px 0 10px;
+    margin: 10px 0 0;
+    padding: 0 20px;
     max-height: 170px;
     box-sizing: border-box;
     overflow: auto;
