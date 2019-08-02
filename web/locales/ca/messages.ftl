@@ -381,11 +381,16 @@ faq-where-src-from-2-a =
     
     Podeu veure les frases en aquesta <githubLink>carpeta del GitHub</githubLink>.
 faq-why-not-ask-read-q = Per què no demaneu a la gent que llegeixi llibres o articles de la Viquipèdia en diverses llengües?
+faq-why-not-ask-read-a = Perquè el conjunt de dades del Common Voice sigui el més útil possible, hem decidit permetre només text font disponible amb llicència Creative Commons (CC0). L'ús de l'estàndard CC0 implica que és més difícil trobar i recopilar text font, però permet que qualsevol usuari utilitzi les dades de veu resultants sense restriccions d'ús ni l'autorització de Mozilla. En última instància, volem que el conjunt de dades multilingüe sigui el més útil possible per a tothom, inclosos investigadors, universitats, empreses emergents, governs, organitzacions socials i aficionats.
 faq-why-account-q = Per què hauria de crear un compte?
 faq-is-account-public-q = La informació del meu compte és pública?
 faq-how-privacy-q = Com assegureu l'anonimat i la privadesa de les persones que han donat la veu?
 faq-how-privacy-a = La informació d'identificació personal se suprimeix de tots els talls de veu del conjunt de dades. Si un col·laborador proporciona dades demogràfiques en el seu perfil, aquesta informació s'anonimitza en el talls de veu abans d'incloure'ls en el conjunt de dades disponible per baixar, i aquesta informació no és mai pública en la seva pàgina de perfil.
 faq-what-determine-identity-q = Què vol dir que no puc «determinar la identitat» dels parlants en el conjunt de dades del Common Voice?
+faq-what-determine-identity-a =
+    El conjunt de dades del Common Voice és un recurs obert i disponible públicament que es pot utilitzar per entrenar una àmplia varietat d’aplicacions que utilitzin la veu. Per protegir la seguretat dels nostres col·laboradors, demanem a tothom qui baixi el conjunt de dades del Common Voice que respecti la privadesa dels col·laboradors.
+    
+    Tots els talls de veu del conjunt de dades són analitzats per eliminar-ne qualsevol informació d'identificació personal. Quan baixeu el conjunt de dades, accepteu no intentar determinar la identitat de cap col·laborador. Això vol dir que no podeu intentar enllaçar informació del conjunt de dades a la informació personal del col·laborador. Tanmateix, podeu utilitzar el conjunt de dades per entrenar el reconeixement de veu, el reconeixement d'oradors o altres aplicacions, per exemple, enllaçant informació del conjunt de dades a altra informació que ja hi hagi al conjunt de dades.
 faq-what-is-cv = Què és el Common Voice?
 faq-using-cv = Ús del Common Voice
 faq-description = El projecte Common Voice forma part de la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò.
@@ -491,6 +496,12 @@ review-delete-recordings = Suprimeix els meus enregistraments
 ## Datasets Page
 
 datasets-headline = Estem creant un conjunt de dades de veus obert i multilingüe que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
+datasets-positioning =
+    Creiem que uns conjunts de dades grans i disponibles públicament promouran la innovació i la competència comercial sana en la tecnologia de la veu basada en l'aprenentatge automàtic.
+    
+    El conjunt de dades multilingüe del Common Voice ja és el conjunt de dades de veu disponible públicament més gran del seu tipus, però no l'únic.
+    
+    Considereu aquesta pàgina com a punt central de referència sobre els altres conjunts de dades de veu oberts i, a mesura que el Common Voice continua creixent, la pàgina on anunciarem les actualitzacions de les versions.
 language = Llengua
 # File size in gigabytes
 size = Mida
