@@ -39,7 +39,7 @@ function createScrollHints(element: HTMLElement) {
 }
 
 function formatNumber(n: number) {
-  return n > 1000 ? Math.floor(n % 1000) + 'k' : n;
+  return n > 1000 ? Math.floor(n / 1000) + 'k' : n;
 }
 
 interface PropsFromState {
