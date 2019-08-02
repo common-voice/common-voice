@@ -331,6 +331,7 @@ add-avatar-clip = Pśidajśo wašomu profiloju awatarowy klip
 create-voice-wave = Głosowu žwału napóraś
 recording-voice-wave = Nagrawa se
 ready-to-upload = Nagraś
+recreate-voice = Głosowu žwału znowego napóraś
 cancel-avatar-clip-recording = Pśetergnuś
 about-avatar-clip = Napórajśo swójsku głosowu žwału, aby se pśedstajił. Druge wužywarje mógu z kursorom myški pśez klip trěś a na njen słuchaś.
 browse-file-title = Wobrazowu dataju nagraś
@@ -694,6 +695,7 @@ total-approved = Pśizwólone dogromady
 overall-accuracy = Cełkowna dokradnosć
 set-visibility = Móju widobnosć nastajiś
 visibility-overlay-note = Pokaz: Gaž jo 'Widobny' nastajone, dajo se nastajenje z <profileLink>profilowego boka</profileLink> změniś
+show-ranking = Mójp městno pokazaś
 
 ## Custom Goals
 
