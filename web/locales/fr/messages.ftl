@@ -321,6 +321,7 @@ off = Désactivé
 on = Activé
 add-avatar-title = Ajouter un avatar à votre profil
 add-avatar-clip = Ajouter un clip d’avatar à votre profil
+recording-voice-wave = Enregistrement
 browse-file-title = Envoyer une image
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
 connect-gravatar = Connectez-vous avec Gravatar
