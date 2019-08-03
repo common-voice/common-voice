@@ -331,6 +331,7 @@ add-avatar-clip = Přidajće wašemu profilej awatarowy klip
 create-voice-wave = Hłosowu žołmu wutworić
 recording-voice-wave = Natoča so
 ready-to-upload = Nahrać
+avatar-clip-fact = Jo hižo dołho znaty fakt, zo so čitar wot čitajomneho wobsaha strony wotwjedźe, hdyž sej jeje wuhotowanje wobhladuje.
 recreate-voice = Hłosowu žołmu znowa wutworić
 cancel-avatar-clip-recording = Přetorhnyć
 about-avatar-clip = Wutworće swójsku hłosowu žołmu, zo byšće so předstajił. Druzy wužiwarjo móža z pokazowakom myški přez klip jěć a na njón posłuchać.
