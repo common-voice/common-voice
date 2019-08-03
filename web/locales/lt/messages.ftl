@@ -445,7 +445,7 @@ recorded-hours = Įrašyta valandų
 whats-inside = Kas yra „Common Voice“ duomenų rinkinyje?
 want-dataset-update = Nori sužinoti kai išleisime naują „Common Voice“ duomenų rinkinio versiją? Prenumeruok mūsų naujienlaiškį.
 subscribe = Prenumeruoti
-get-started-speech = Susipažinkite su kalbos atpažinimu
+get-started-speech = Susipažink su kalbos atpažinimu
 other-datasets = Kiti balso duomenų rinkiniai
 feedback-q = Turi komentarų?
 deepspeech-info = „Common Voice“ duomenų rinkinys papildo „Mozillos“ atvirojo kodo balso atpažinimo variklį „Deep Speech“, kuri gali naudoti kalbos atpažinimo programoms kurti. Perskaityk <githubLink>„Github“ apžvalgą </githubLink> arba prisijunk prie <discourseLink>„DeepSpeech“ grupės „Discourse“ platformoje</discourseLink> ir sužinok kaip gali pradėti naudotis šiais duomenimis.
@@ -558,6 +558,8 @@ share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
 
 report-ask = Kokios su šiuo sakiniu susijusios problemos?
 report-difficult-pronounce = Sunku ištarti
+report-other-comment =
+    .placeholder = Komentaras
 continue = Tęsti
 
 ## Goals
