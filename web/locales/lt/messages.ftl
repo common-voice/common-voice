@@ -10,6 +10,7 @@ submit-form-action = Pateikti
 loading = Įkeliama…
 email-opt-in-privacy = Pasirinkęs (-usi) gauti el. laiškus, tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
 indicates-required = * Nurodo privalomą lauką
+not-available-abbreviation = Nepasiekiama
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +28,7 @@ ar = Arabų
 as = Asamų
 ast = Astūrų
 az = Azerbaidžaniečių
+ba = Baškirų
 bg = Bulgarų
 bn = Bengalų
 br = Bretonų
@@ -84,6 +86,7 @@ mk = Makedonų
 ml = Malajų
 mn = Mongolų
 mrj = Aukštumų marių
+mt = Maltiečių
 myv = Erzių
 nb-NO = Norvegų (bukmolas)
 ne-NP = Nepalų
@@ -94,6 +97,7 @@ or = Orijų
 pl = Lenkų
 pt-BR = Portugalų (Brazilija)
 rm-sursilv = Retoromanų (sursilvanų)
+rm-vallader = Retoromanų (valaderių)
 ro = Rumunų
 ru = Rusų
 rw = Kinjaruanda
@@ -105,6 +109,7 @@ sl = Slovėnų
 sq = Albanų
 sr = Serbų
 sv-SE = Švedų
+syr = Sirų
 ta = Tamilų
 te = Telugų
 tg = Tadžikų
@@ -336,6 +341,10 @@ faq-what-cv-a =
     
     Mes kaupiame balso įrašus ne tik plačiai vartojamose, bet ir mažiau kalbėtojų turinčiose kalbose. Įvairių balsų rinkinių publikavimas įgalins kūrėjus, verslininkus ir bendruomenes spręsti šią problemą. Be „Common Voice“ balso duomenų rinkinių, mes taip pat kuriame atvirojo kodo balso atpažinimo variklį „Deep Speech“.
 faq-why-important-q = Kodėl tai svarbu?
+faq-why-important-a =
+    Kalba yra vienas natūraliausių tarpusavio bendravimo būdų, kurį garso technologijos sugeba puikiai perteikti mūsų kompiuteriams bei mobiliesiems įrenginiams. Mes norime suteikti programuotojams galimybę kurti balso atpažinimu paremtas programas, tokias, kaip vertimo tikruoju laiku sistemos ar balsu valdomi virtualūs padejėjai. Deja, tokiai programinei įrangai reikalingi duomenys dažniausiai yra privatūs ar itin brangūs. Tikime, kad „Common Voice“ duomenų rinkinys padės programuotojams ir kūrėjams pritaikyti balso atpažinimo technologijas gimtajai kalbai.
+    
+    Kad balso atpažinimo technologijos taptų dar prieinamesnės, mes kaupiame ne tik didžiausių, bet ir rečiau vartojamų kalbų balso pavyzdžius – kalbų, į kurias komercinės programinės įrangos kūrėjai dažniau neatsižvelgia. Sukūrus didelės įvairovės balso duomenų bazę, programuotojai, verslininkai ir bendruomenės, kurias vienija bendra kalba, galės savarankiškai spręsti šią problemą.
 faq-how-get-q = Kaip galiu gauti „Common Voice“ duomenis?
 faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
 faq-why-mission-a = „Mozilla“ siekia, kad internetinė erdvė išliktų atvira ir prieinama kiekvienam. Kad tai įgyvendintume, turime įgalinti internetinės erdvės kūrėjus tokių projektų kaip „Common Voice“ pagalba. Balso technologijoms besivystant ir tampant mūsų kasdienybės dalimi, mes manome, kad jos privalo visų naudotojų poreikius tenkinti vienodai. Tai reiškia, kad, kuriant ir testuojant balso technologijas, šie procesai turi aprėpti daugiau kalbų, įtraukti įvairesnes tarmes ir akcentus, apimti daugiau demografinių grupių. „Common Voice“ yra viešas išteklius, prieinamas kiekvienam, o „Mozilla“ komandos ir kūrėjai visame pasaulyje jau naudoja jį savo projektuose.
@@ -354,6 +363,7 @@ faq-where-src-from-2-q = Iš kur gaunamas šaltinio tekstas?
 faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipedijos“ straipsnių įvairiomis kalbomis?
 faq-why-account-q = Kodėl turėčiau susikurti paskyrą?
 faq-is-account-public-q = Ar mano paskyros informacija yra vieša?
+faq-how-privacy-q = Kaip užtikrinate savo balsu pasidalinusių asmenų privatumą ir anonimiškumą?
 faq-what-is-cv = Kas yra „Common Voice“?
 faq-using-cv = „Common Voice“ naudojimas
 faq-search-for-answers =
