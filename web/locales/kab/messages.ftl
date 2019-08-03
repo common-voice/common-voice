@@ -323,6 +323,7 @@ add-avatar-clip = Rnu avaṭar n usekles i umaɣnu-ik
 create-voice-wave = Rnu tamdeswalt n taɣect
 recording-voice-wave = Asekles
 ready-to-upload = Asali
+cancel-avatar-clip-recording = Sefsex
 about-avatar-clip = Rnu tamsedwalt n taɣect tudmawant akken ad temmeslayeḍ ɣef yiman-ik. Iseqdacen-nniḍen ad izmiren ad slen i tikkusin-ik.
 browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
@@ -698,7 +699,9 @@ validated-clips = Tukkisin yettwasnetmen
 total-approved = Amḍan yettwaqeblen
 overall-accuracy = Tiseddi tamatut
 set-visibility = Sbadu  taduli-iw
+visibility-explainer = Aɣewwaṛ-a ad isefrek askan n umḍiq n umsizzwer-ik. Ma tefred-t, asfari-ik ad yeqqim d abaḍni. Aya yemmal-d d akken tugna-ik, isem-ik n useqdac akked usfari-ik u d-ttbanen ara deg umsizzwer. Ẓeṛ d akken ileqman n umsizzwer yettawi azal n  ~{ $minutes } n tisdatin akken ad d-ffɣen ibeddilen.
 visibility-overlay-note = Tazmilt: Ticki tesbaduḍ ɣer 'Uman', aɣewwaṛ-a yezmer ad ibeddel seg <profileLink> Usebter n umaɣnu
+show-ranking = Sken asmizzwer-iw
 
 ## Custom Goals
 
