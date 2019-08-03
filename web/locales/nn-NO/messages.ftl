@@ -96,6 +96,7 @@ or = Oriya
 pl = Polsk
 pt-BR = Portugisisk (Brazil)
 rm-sursilv = Retoromansk surselva
+rm-vallader = Retoromansk (Vallader)
 ro = Rumensk
 ru = Russisk
 rw = Kinyarwanda
@@ -530,6 +531,7 @@ login-to-get-started = Logg inn eller registrer deg for å kome i gang
 
 report = Rapporter
 report-title = Send inn ein rapport
+report-grammar-or-spelling = Grammatisk/Stavefeil
 report-different-language = Anna språk
 report-difficult-pronounce = Vanskeleg å uttale
 report-other-comment =
