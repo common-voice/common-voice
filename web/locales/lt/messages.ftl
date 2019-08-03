@@ -373,6 +373,8 @@ faq-search-for-answers =
 
 about-title = Kodėl „Common Voice“?
 how-does-it-work-title = Kaip tai veikia?
+about-speak = Balso įrašymas
+about-listen = Perklausymas
 about-get-involved = Įsitrauk
 about-nav-why-common-voice = Kodėl?
 about-nav-how-it-works = Kaip?
