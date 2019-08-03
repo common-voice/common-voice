@@ -41,7 +41,7 @@
     }
 
     .lottie {
-        width: 508%;
+        width: 508px;
         height: 169px;
     }
 
@@ -127,22 +127,35 @@
 
     .fix {
         height: 240px;
-        width: 100%;
+        width: 508px;
     }
     .start-in {
         position: relative;
-        top: -8px;
+        top: -14px;
         width: 39px;
         height: 18px;
+        font-family: ;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
         text-align: center;
         color: grey;
     }
 
     .counter-digit {
-        font-size: 24px;
+        font-size: 16px;
+        font-style: normal;
         font-weight: 600;
         text-align: center;
         color: #4a4a4a;
+    }
+
+    .recorded-play {
+        position: relative;
+        top: 30px;
     }
 }
 
