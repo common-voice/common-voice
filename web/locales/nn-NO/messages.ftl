@@ -474,7 +474,7 @@ localized = Omsett
 sentences = Setningar
 total-hours = Validerte timar
 
-## New Contribution
+## Contribution
 
 action-click = Klikk
 action-tap = Trykk
@@ -525,7 +525,6 @@ share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
 
 report = Rapporter
 report-title = Send inn ein rapport
-report-wrong-language = Feil språk
 report-other-comment =
     .placeholder = Kommentar
 continue = Fortset
@@ -564,6 +563,18 @@ recorded-clips = Innspelte klipp
 validated-clips = Validerte klipp
 total-approved = Godkjende i alt
 overall-accuracy = Nøyaktigheit jamt over
+
+## Custom Goals
+
+toward-next-goal = Mot neste mål
+both-speak-and-listen = Begge
+daily-goal = Dagleg mål
+weekly-goal = Vekemål
+easy-difficulty = Lett
+average-difficulty = Middels
+difficult-difficulty = Vanskeleg
+pro-difficulty = Proff
+want-to-continue = Vil du fortsetje?
 
 ## Profile Delete
 
