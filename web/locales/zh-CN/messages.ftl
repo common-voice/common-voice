@@ -319,6 +319,7 @@ add-avatar-clip = 为您的个人资料添加头像
 create-voice-wave = 创建 Voicewave
 recording-voice-wave = 正在录制
 ready-to-upload = 上传
+avatar-clip-fact = 有个由来已久的事实是，读者注视网页版面时，会被网页上可阅读的内容分散注意力。
 recreate-voice = 重新创建 Voicewave
 cancel-avatar-clip-recording = 取消
 about-avatar-clip = 录制音频介绍自己，其他用户将可悬停聆听您的片段。
