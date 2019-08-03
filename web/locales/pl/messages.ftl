@@ -325,6 +325,7 @@ add-avatar-title = Dodaj awatar do profilu
 add-avatar-clip = Dodaj awatar w formie nagrania do profilu
 recording-voice-wave = Nagrywanie
 ready-to-upload = Wyślij
+cancel-avatar-clip-recording = Anuluj
 browse-file-title = Wyślij plik obrazu
 browse-file = Przeciągnij tutaj lub <browseWrap>przeglądaj</browseWrap>
 connect-gravatar = Połącz z serwisem Gravatar
