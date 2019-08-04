@@ -8,8 +8,10 @@ email-input =
     .label = ایمیل
 submit-form-action = ارسال
 loading = در حال بارگیری...
+email-opt-in-info = من مایل به دریافت یادآوری هستم مانند هدف،‌ پیشرفت من و خبرنامه ها در مورد پروژه صدای مشترک.
 email-opt-in-privacy = با انتخاب دریافت رایانامه‌ها، شما اعلام می‌کنید که با دسترسی موزیلا به این اطلاعات مشکلی ندارید، همان‌طور که در <privacyLink> خط‌مشی رازداری<privacyLink> توضیح داده‌ شده است.
 indicates-required = * فیلد الزامی را مشخص می‌کند
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +29,7 @@ ar = عربی
 as = آسامی
 ast = آستوری
 az = آذربایجانی
+ba = باشکیر
 bg = بلغاری
 bn = بنگالی
 br = برتانیایی
@@ -48,12 +51,14 @@ es = اسپانیولی
 et = استونیایی
 eu = باسکی
 fa = فارسی
+ff = Fulah
 fi = فنلاندی
 fo = فارویی
 fr = فرانسوی
 fy-NL = فریزی
 ga-IE = ایرلندی
 gl = گالیسیایی
+ha = Hausa
 he = عبری
 hi-IN = هندی
 hr = کروات
@@ -70,6 +75,7 @@ kab = Kabyle
 kk = قزاقی
 ko = کره‌ای
 kpv = Komi-Zyrian
+ku = کردی
 kw = کرنوالی
 ky = قرقیزی
 lij = لیگوریانی
@@ -78,8 +84,10 @@ lv = لتونی
 mdf = Moksha
 mhr = ماری مرغزار
 mk = مقدونی
+ml = Malayalam
 mn = مغولی
 mrj = هیل ماری
+mt = Maltese
 myv = Erzya
 nb-NO = نروژی Bokmål
 ne-NP = نپالی
@@ -90,16 +98,19 @@ or = Odia
 pl = لهستانی
 pt-BR = پرتغالی (برزیل)
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = رومانیایی
 ru = روسی
 rw = رواندایی
 sah = Sakha
 sc = Sardinian
+si = Sinhala
 sk = اسلوواکی
 sl = اسلوونيايی
 sq = آلبانیایی
 sr = صربی
 sv-SE = سوئدی
+syr = Syriac
 ta = Tamil
 te = Telugu
 tg = تاجیکی
@@ -126,6 +137,7 @@ speak = بگویید
 speak-now = اکنون صحبت کنید
 datasets = مجموعه‌ی داده‌ها
 languages = زبان‌ها
+about = درباره
 profile = نمایه
 help = راهنما
 contact = تماس با ما
@@ -340,8 +352,6 @@ faq-why-important-a =
     برای تشخیص صدا جهان شمول‌تر، ما نمونه های صوتی را در زبان‌های به طور گسترده‌‌ای صحبت می کنیم و همچنین افرادی که تعداد کمتری از سخنرانان را که اغلب از خدمات تشخیص گفتار تجاری استفاده می کنند، جمع آوری می‌کنند. انتشار مجموعه‌ای متنوع از صداها، توسعه دهندگان، کارآفرینان و تمام جوامع گفتاری را قادر می سازد تا این شکاف را به خود اختصاص دهند.
 faq-how-get-q = چگونه می‌توانم اطلاعات صدای مشترک را دریافت کنم؟
 faq-how-get-a = مجموعه داده صدای مشترک برای دانلود در زیر <licenseLink>CC0</licenseLink> در <datasetLink> صفحه مجموعه داده‌های ما</datasetLink> موجود است. شما هم‌چنین می‌توانید چندین مجموعه داده‌های قابل دسترس دیگر را از همان صفحه دریافت کنید.
-faq-when-release-q = کی در مورد داده‌های صدای مشترک در دیگر زبان‌ها خواهید آموخت؟
-faq-when-release-a = نسخه چندزبانه مجموعه داده صدای رایج در حال حاضر در حال جمعآوری و تمیز کردن جامعه میباشد. اگر می خواهید اطلاعات بیشتری در مورد حمایت از این تلاش ها کسب کنید، لطفا <contactLink> با ما تماس بگیرید </contactLink>. ما در حال حاضر یک تاریخ انتشار در ژانویه 2019 را هدف قرار می دهیم. بعد از آن، مجموعه داده ها را به صورت دوره ای با زبان های جدید و کلیپ های صوتی به روزرسانی می کنیم. هنوز مشخص نیست که چرخه تکرار آزمایشی
 faq-why-mission-q = چرا صدای مشترک بخشی از ماموریت موزیلا است؟
 faq-why-mission-a = موزیلا متعهد است که وب را برای همه باز و قابل دسترس نگه دارد. برای انجام این کار، نیاز داریم از طریق پروژه‌هایی مانند صدای مشترک سازندگان وب را تقویت کنیم. از آن‌جا که فناوری‌های صوتی به طور گسترده ای توسط برنامه‌های تخصصی غرق می شوند، ما بر این باوریم که باید تمام کاربران آن را به طور مساوی در اختیار داشته باشد.  این بدین معنی است که در هنگام ساخت و تست فن آوری های صوتی، نیاز است که زبان ها، فونت ها و ترکیبات بیشتری و با تمرکز بر لهجه های مختلف و جمعیت های مختلف را شامل شود. صدای مشترک یک منبع عمومی خواهد بود که به تیم‌ها و توسعه دهندگان موزیلا در سراسر جهان کمک می کند  و تیم های موزیلا و توسعه دهندگان در سراسر جهان نیز از آن در پروژه های خود استفاده می کنند.
 faq-what-cv-and-deepspeech-q = تفاوت بین صدای مشترک و گفتار عمیق چیست؟
@@ -523,7 +533,7 @@ localized = محلی شده
 sentences = جمله‌ها
 total-hours = ساعت اعتبارسنجی شده
 
-## New Contribution
+## Contribution
 
 action-click = کلیک
 action-tap = ضربه بزنید
@@ -556,7 +566,6 @@ record-again-instruction = عالیست!<recordIcon></recordIcon>کلیپ بعد
 record-again-instruction2 = ادامه دهید، دوباره ضبط کنید <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>آخرین!
 review-tooltip = کلیپ‌ها را در اینجا مرور و دوباره ضبط کنید
-unable-speak = اکنون نمی‌توانید صحبت کنید؟
 review-instruction = در صورت لزوم، کلیپ‌ها را بازبینی و دوباره ضبط کنید
 record-submit-tooltip = { $actionType } هنگامی که آماده بودید ارسال کنید
 clips-uploaded = کلیپ‌ها بارگذاری شدند
@@ -572,6 +581,9 @@ listen-last-time-instruction = <playIcon></playIcon>آخرین!
 nothing-to-validate = چیزی برای اعتبارسنجی در این زبان نداریم، به ما کمک کنید صف را پر کنیم.
 record-button-label = صدای خود را ضبط کنید
 share-title-new = برای یافتن صداهای بیشتر <bold>به ما کمک کنید</bold>
+
+## Reporting
+
 
 ## Goals
 
@@ -609,6 +621,10 @@ recorded-clips = کلیپ‌های ضبط شده
 validated-clips = کلیپ‌های تایید شده
 total-approved = مجموع تایید شده
 overall-accuracy = دقت کلی
+
+## Custom Goals
+
+toward-next-goal = به سوی هدف بعدی
 
 ## Profile Delete
 
