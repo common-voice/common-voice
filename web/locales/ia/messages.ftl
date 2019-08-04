@@ -282,7 +282,7 @@ profile-form-gender =
     .label = Genere
 leaderboard-visibility =
     .label = Visibilitate in le tabula de classification
-hidden = Celate
+hidden = Occulte
 visible = Visibile
 native-language =
     .label = Lingua native
@@ -687,10 +687,13 @@ validated-clips = Retalios validate
 total-approved = Total approbate
 overall-accuracy = Precision general
 set-visibility = Definir ma visibilitate
+visibility-explainer = Iste configuration controla tu visibilitate in le classifica. Quando definite 'Occulte', tu progresso restara reservate. Id es tu imagine, nomine de usator e progresso non apparera in le classification. Nota que refrescar le classification prende ~{ $minutas }min pro actualisar le cambios.
+visibility-overlay-note = Nota: Quando definite 'Visibile', iste configuration pote ser cambiate ab le <profileLink>Pagina del profilo</profileLink>
 
 ## Custom Goals
 
 toward-next-goal = Verso le proxime objectivo
+create-custom-goal = Crear un Objectivo personal
 easy-difficulty = Facile
 average-difficulty = Normal
 difficult-difficulty = Difficile
