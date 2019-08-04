@@ -323,6 +323,7 @@ add-avatar-clip = Adde un clip avatar a tu profilo
 create-voice-wave = Crea un unda sonor
 recording-voice-wave = Registration
 ready-to-upload = Cargar
+avatar-clip-fact = Il es facto notori que un lector sera distrahite ab le contento legibile de un pagina al reguardar su schema.
 recreate-voice = Recrear le presentation vocal
 cancel-avatar-clip-recording = Cancellar
 browse-file-title = Carga un file imagine
