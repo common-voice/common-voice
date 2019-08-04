@@ -322,6 +322,8 @@ add-avatar-clip = Adde un clip avatar a tu profilo
 create-voice-wave = Crea un unda sonor
 recording-voice-wave = Registration
 ready-to-upload = Cargar
+recreate-voice = Recrear le presentation vocal
+cancel-avatar-clip-recording = Cancellar
 browse-file-title = Carga un file imagine
 browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
@@ -674,6 +676,7 @@ clips-you-validated = Retalios que tu ha validate
 todays-recorded-progress = Progresso hodierne de Common Voice sur le retalios audio registrate
 todays-validated-progress = Progresso hodierne de Common Voice sur le retalios audio validate
 stats = Statistica
+awards = Tropheos
 you = Tu
 everyone = Totes
 contribution-activity = Activate de collaboration
@@ -682,6 +685,7 @@ recorded-clips = Retalios registrate
 validated-clips = Retalios validate
 total-approved = Total approbate
 overall-accuracy = Precision general
+set-visibility = Definir ma visibilitate
 
 ## Custom Goals
 
@@ -690,6 +694,7 @@ easy-difficulty = Facile
 average-difficulty = Normal
 difficult-difficulty = Difficile
 pro-difficulty = Professional
+set-a-goal = Definir un objectivo
 confirm-goal = Confirmar objectivo
 goal-interval-weekly = Septimanal
 share-goal-type-speak = Parlar
