@@ -733,6 +733,12 @@ share-n-weekly-contribution-goal = Comparti tu objectivo septimanal de { $count 
 share-goal-type-speak = Parlar
 share-goal-type-listen = Ascoltar
 share-goal-type-both = Parlar e ascoltar
+# LINK will be replaced with the current URL
+goal-share-text = Io ha justo create un objectivo personal pro donation de voce a #CommonVoice -- junge te a me e adjuta inseniar al machinas como parla le personas real { $link }
+weekly-goal-created = Tu objectivo septimanal ha essite create
+daily-goal-created = Tu objectivo quotidian ha essite create
+track-progress = Tracia tu progresso ci e sur tu pagina de statistica.
+return-to-edit-goal = Retorna ci a modificar tu objectivos quando tu lo vole.
 share-goal = Compartir mi objectivo
 
 ## Profile Delete
