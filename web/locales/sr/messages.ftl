@@ -546,13 +546,17 @@ validations =
 your-languages = Ваши језици
 toward-next-goal = Према следећем циљу
 stats = Статистика
+awards = Награде
 you = Ви
 everyone = Сви
+contribution-activity = Активност доприноса
 top-contributors = Најбољи доприносиоци
 recorded-clips = Снимљени снимци
 validated-clips = Потврђени снимци
 total-approved = Укупно одобрено
 overall-accuracy = Општа тачност
+set-visibility = Подеси моју видљивост
+show-ranking = Покажи мој ранг
 
 ## Custom Goals
 
