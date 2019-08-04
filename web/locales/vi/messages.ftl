@@ -319,6 +319,9 @@ add-avatar-clip = Thêm một clip đại diện vào hồ sơ của bạn
 create-voice-wave = Tạo Voicewave
 recording-voice-wave = Đang ghi
 ready-to-upload = Tải lên
+avatar-clip-fact = Một thực tế lâu nay là người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó.
+recreate-voice = Tái tạo Voicewave
+cancel-avatar-clip-recording = Hủy bỏ
 about-avatar-clip = Ghi lại âm thanh để giới thiệu bản thân, những người dùng khác sẽ có thể di chuột để nghe clip của bạn.
 browse-file-title = Tải lên hình ảnh
 browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
@@ -695,6 +698,7 @@ overall-accuracy = Độ chính xác tổng thể
 set-visibility = Hiển thị tôi trong bảng xếp hạng
 visibility-explainer = Cài đặt này kiểm soát khả năng hiển thị bảng xếp hạng của bạn. Khi ẩn, tiến trình của bạn sẽ được riêng tư. Điều này có nghĩa là hình ảnh, tên người dùng và tiến trình của bạn sẽ không xuất hiện trên bảng xếp hạng. Lưu ý rằng việc làm mới bảng xếp hạng sẽ mất ~ { $minutes } phút để đưa ra các thay đổi.
 visibility-overlay-note = Lưu ý: Khi được đặt thành 'Hiển thị', cài đặt này có thể được thay đổi từ <profileLink>trang hồ sơ</profileLink>
+show-ranking = Hiển thị hạng của tôi
 
 ## Custom Goals
 
