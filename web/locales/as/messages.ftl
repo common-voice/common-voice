@@ -202,6 +202,7 @@ help-make-dataset = উচ্চ গুণমানৰ, ৰাজহুৱাভ
 profile-not-required = অৱদান কৰিবলৈ প্ৰ'ফাইলৰ প্ৰয়োজন নহয় যদিও ই উপযোগী, তলত চাওক কিয়।
 sign-up-account = একাউণ্ট এটাৰ বাবে ছাইন আপ কৰক
 email-subscription-title = ইমেইল আপডেটৰ বাবে ছাইন আপ কৰক
+email-subscription-title-new = Common Voice বাতৰিপত্ৰ, লক্ষ্য অনুস্মাৰক আৰু প্ৰগতিৰ আপডেটৰ বাবে ছাইন আপ কৰক
 
 ## Account Benefits
 
@@ -280,7 +281,7 @@ profile-form-age =
 profile-form-gender =
     .label = লিংগ
 leaderboard-visibility =
-    .label = লিডাৰব'ড দৃশ্যমানতা
+    .label = লিডাৰব'ৰ্ডৰ দৃশ্যমানতা
 hidden = লুকুৱা
 visible = দৃশ্যমান
 native-language =
@@ -321,6 +322,7 @@ add-avatar-title = আপোনাৰ প্ৰ'ফাইলত এটা অৱ
 add-avatar-clip = আপোনাৰ প্ৰ'ফাইলত এটা অৱতাৰ ক্লিপ যোগ কৰক
 recording-voice-wave = ৰেকৰ্ড কৰি থকা হৈছে
 ready-to-upload = আপল'ড কৰক
+cancel-avatar-clip-recording = বাতিল
 browse-file-title = ছবি ফাইল এখন আপল'ড কৰক
 browse-file = ধৰি টানি আনি এৰি দিয়ক বা <browseWrap>ব্ৰাউজ কৰক</browseWrap>
 connect-gravatar = Gravatar-ৰ সৈতে সংযোগ কৰক
@@ -683,6 +685,7 @@ set-visibility = মোৰ দৃশ্যমানতা ছেট কৰক
 
 ## Custom Goals
 
+get-started-goals = লক্ষ্যবোৰৰ সৈতে আৰম্ভ হৈ যাওক
 toward-next-goal = পৰৱৰ্তী লক্ষ্যৰ দিশে
 both-speak-and-listen = দুয়োটা
 both-speak-and-listen-long = দুয়োটা (কথা কওঁক আৰু শুনক)
@@ -692,6 +695,7 @@ easy-difficulty = সহজ
 average-difficulty = গড়
 difficult-difficulty = কঠিন
 pro-difficulty = প্ৰ'
+lose-goal-progress-warning = আপোনাৰ লক্ষ্য সম্পাদনা কৰি আপুনি আপোনাৰ মজুত প্ৰগতি হেৰুৱাবও পাৰে।
 want-to-continue = আপুনি অব্যাহত ৰাখিব বিচাৰে নেকি?
 finish-editing = প্ৰথমে সম্পাদনা শেষ কৰিবনে?
 lose-changes-warning = এতিয়া এৰি যোৱা মানে আপুনি আপোনাৰ সাল-সলনি হেৰুৱাব
@@ -701,13 +705,23 @@ how-many-per-day = বঢ়িয়া! এদিনত কেইটাকৈ ক্
 how-many-a-week = বঢ়িয়া! এসপ্তাহত কেইটাকৈ ক্লিপ?
 which-goal-type = আপুনি কথা ক'ব, শুনিব নে দুয়োটা কৰিব বিচাৰে?
 n-clips = { NUMBER($count) }টা ক্লিপ
+help-share-goal = আমাক আৰু কণ্ঠ বিচৰাত সহায় কৰক, আপোনাৰ লক্ষ্য ভাগ-বতৰা কৰক
 confirm-goal = লক্ষ্য নিশ্চিত কৰক
 goal-interval-weekly = সপ্তাহিক
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type }ৰ বাবে আপোনাৰ { $count }টা ক্লিপৰ দৈনিক লক্ষ্য ভাগ-বতৰা কৰক
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type }ৰ বাবে আপোনাৰ { $count }টা ক্লিপৰ সপ্তাহিক লক্ষ্য ভাগ-বতৰা কৰক
 share-goal-type-speak = কথা কোৱা
 share-goal-type-listen = শুনা
 share-goal-type-both = কথা কোৱা আৰু শুনা
+# LINK will be replaced with the current URL
+goal-share-text = মই এইমাত্ৰ #CommonVoice প্ৰকল্পত কণ্ঠ দান কৰাৰ বাবে এটা ব্যক্তিগত লক্ষ্য সৃষ্টি কৰিলোঁ -- মোক যোগদান কৰি আচল লোকে কেনেকৈ কথা পাতে সেয়া মেশ্বিনবোৰক শিকোৱাত সহায় কৰক { $link }
 weekly-goal-created = আপোনাৰ সপ্তাহিক লক্ষ্য সৃষ্টি কৰা হৈছে
 daily-goal-created = আপোনাৰ দৈনিক লক্ষ্য সৃষ্টি কৰা হৈছে
+track-progress = ইয়াত আৰু আপোনাৰ পৰিসংখ্যা পৃষ্ঠাত প্ৰগতি ট্ৰেক কৰক।
+return-to-edit-goal = আপোনাৰ লক্ষ্য সম্পাদনা কৰিবলৈ যিকোনো সময়তে ইয়ালৈ ঘূৰি আহক।
+share-goal = মোৰ লক্ষ্য ভাগ-বতৰা কৰক
 
 ## Profile Delete
 
