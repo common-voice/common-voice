@@ -202,6 +202,7 @@ help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate,
 profile-not-required = Haber un profilo non es obligatori pro collaborar ben que illo sia utile
 sign-up-account = Registra te pro aperir tu conto
 email-subscription-title = accede pro actualisationes email
+email-subscription-title-new = Inscribe te al bulletines de novas, al mementos de objectivos e al actualisationes de progressos de Common Voice
 
 ## Account Benefits
 
