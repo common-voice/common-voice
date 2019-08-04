@@ -721,8 +721,15 @@ activity-needed-calculation = Nos pote attinger { NUMBER($totalHours) } horas in
 how-many-per-day = Grande! Quante registrationes per die?
 how-many-a-week = Grande! Quante registrationes per septimana?
 which-goal-type = Vole tu parlar, ascoltar o ambe?
+receiving-emails-info = Tu ha actualmente convenite de reciper emails tal como mementos de objectivos, actualisationes re le progresso e bulletines de novas re Common Voice
+n-clips = { NUMBER($count) } retalios vocal
+help-share-goal = Adjuta nos a trovar plus voces, comparti tu objectivo
 confirm-goal = Confirmar objectivo
 goal-interval-weekly = Septimanal
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Comparti tu objectivo quotidian de { $count } retalios vocal per { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Comparti tu objectivo septimanal de { $count } retalios vocal per { $type }
 share-goal-type-speak = Parlar
 share-goal-type-listen = Ascoltar
 share-goal-type-both = Parlar e ascoltar
