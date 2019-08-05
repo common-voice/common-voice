@@ -695,6 +695,8 @@ validated-clips = ଯାଞ୍ଚ କରାଯାଇଥିବା ଧ୍ୱନୀ
 total-approved = ମୋଟ ଅନୁମୋଦିତ
 overall-accuracy = ମୋଟାମୋଟି ସଠିକତା
 set-visibility = ମୋର ଦର୍ଶନୀୟତା ଠିକ କରନ୍ତୁ
+visibility-explainer = ସାଜସଜାଣି ଆପଣଙ୍କର ଲିଡରସିପ ଦେଖଣାକୁ ପ୍ରଭାବିତ କରେ । ଯଦି ଆପଣ ଲୁଚାଇ ରଖିବେ, ଆପଣଙ୍କର ପ୍ରଗତି ଗୋପନୀୟ ରହିବ । ଏହାର ଅର୍ଥ ଆପଣଙ୍କର ଛବି, ୟୁଜରନେମ ଏବଂ ପ୍ରଗତି ଲିଡରସିପରେ ଆସିବ ନାହିଁ । ମନେରଖନ୍ତୁ ଲିଡରସିପରେ ପରିବର୍ତ୍ତନ ପ୍ରକାଶ କରିବାକୁ { $minutes } ମିନିଟ ସମୟ ଲାଗିଥାଏ ।
+visibility-overlay-note = ଟିପ୍ପଣୀ: ଯେତେବେଳେ 'ଭିଜିବଲ'ରେ ଆପଣ ସେଟ କରିବେ, ଏହି ସେଟିଙ୍ଗଟି <profileLink>ପ୍ରୋଫାଇଲ ପୃଷ୍ଠା</profileLink>ରୁ ପରିବର୍ତ୍ତନ କରାଯାଇପାରିବ ।
 show-ranking = ମୋର ranking ଦେଖାନ୍ତୁ
 
 ## Custom Goals
@@ -710,11 +712,27 @@ easy-difficulty = ସହଜ
 average-difficulty = ମଧ୍ୟମ
 difficult-difficulty = କଷ୍ଟ
 pro-difficulty = ପ୍ରୋ
+lose-goal-progress-warning = ନିଜର ଲକ୍ଷ୍ୟ ପରିବର୍ତ୍ତନ କରିବାଦ୍ୱାରା ଆପଣ ନିଜର ହୋଇଥିବା ପ୍ରଗତି ହରାଇପାରନ୍ତି ।
 want-to-continue = ଆପଣ ଆଗେଇବାକୁ ଚାହୁଁଛନ୍ତି କି?
 finish-editing = ସମ୍ପାଦନା କରିବା ପ୍ରଥମେ ଶେଷ କରିବେ?
+lose-changes-warning = ବର୍ତ୍ତମାନ ଛାଡ଼ି ଚାଲିଗଲେ ଆପଣ ଆପଣଙ୍କର ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ହରାଇବେ ।
+build-custom-goal = ଗୋଟିଏ ନିଜସ୍ୱ ଲକ୍ଷ୍ୟ ନିର୍ମାଣ କରନ୍ତୁ ।
+help-reach-hours = { $language } ଭାଷାରେ { NUMBER($hours) } ଘଣ୍ଟାର ଲକ୍ଷ୍ୟ ପୂରଣ କରିବାରେ ଗୋଟିଏ ବ୍ୟକ୍ତିଗତ ଲକ୍ଷ୍ୟ ରଖି ସାହାର୍ଯ୍ୟ କରନ୍ତୁ ।
+set-a-goal = ଗୋଟିଏ ଲକ୍ଷ୍ୟ ନିଶ୍ଚିତ କରନ୍ତୁ
+cant-decide = ନିଷ୍ପତ୍ତି ନେଇପାରୁନାହଁନ୍ତି?
+activity-needed-calculation = { NUMBER($people) }ଜଣ ବ୍ୟକ୍ତି ପ୍ରତିଦିନ { NUMBER($clipsPerDay) } ଧ୍ୱନି ରେକର୍ଡ଼ କଲେ ଆମେ { NUMBER($totalHours) } ଘଣ୍ଟାର ରେକର୍ଡିଙ୍ଗ { NUMBER($periodMonths) } ମାସରେ ସଂଗ୍ରହ କରିପାରିବା ।
+how-many-per-day = ବାଃ! ଦିନକୁ କେତୋଟି ଧ୍ୱନି?
+how-many-a-week = ବାଃ! ସପ୍ତାହକୁ କେତୋଟି ଧ୍ୱନି?
+which-goal-type = ଆପଣ କହିବାକୁ ଚାହାଁନ୍ତି ନା ଶୁଣିବାକୁ ନା ଉଭୟ?
+receiving-emails-info = ଆପଣ କମନ ଭଏସ ସଂକ୍ରାନ୍ତୀୟ ଲକ୍ଷ୍ୟ ସ୍ମାରକ, ପ୍ରଗତି ପତ୍ର ଏବଂ ସମ୍ବାଦପତ୍ର ସଂକ୍ରାନ୍ତୀୟ ଇମେଲ ପାଇବାକୁ ସେଟ କରିଛନ୍ତି  ।
 n-clips = { NUMBER($count) }ଟି ଧ୍ୱନି
+help-share-goal = ଆମକୁ ଅଧିକ କଣ୍ଠ ପାଇବାରେ ସାହାର୍ଯ୍ୟ କରନ୍ତୁ, ଆପଣଙ୍କର ଲକ୍ଷ୍ୟ ଶେୟାର କରନ୍ତୁ
 confirm-goal = ଲକ୍ଷ୍ୟ ନିଶ୍ଚିତ କରନ୍ତୁ
 goal-interval-weekly = ସାପ୍ତାହିକ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } ପାଇଁ ଆପଣଙ୍କର ଦୈନିକ ଧ୍ୱନି ସଂଖ୍ୟା { $count } ଶେୟାର କରନ୍ତୁ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } ପାଇଁ ଆପଣଙ୍କର ସାପ୍ତାହିକ ଧ୍ୱନି ସଂଖ୍ୟା { $count } ଶେୟାର କରନ୍ତୁ
 share-goal-type-speak = କହିବା
 share-goal-type-listen = ଶୁଣିବା
 share-goal-type-both = କହିବା ଏବଂ ଶୁଣିବା
