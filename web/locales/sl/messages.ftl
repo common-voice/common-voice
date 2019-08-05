@@ -626,9 +626,14 @@ share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 ## Reporting
 
 report = Prijavi
+report-grammar-or-spelling = Slovnična/tipkarska napaka
+report-difficult-pronounce = Zahtevna izgovorjava
+report-difficult-pronounce-detail = Vsebuje besede ali besedne zveze, ki jih je težko prebrati ali izgovoriti.
 report-other-comment =
     .placeholder = Komentar
+success = Uspeh
 continue = Nadaljuj
+report-success = Poročilo uspešno poslano
 
 ## Goals
 
@@ -664,6 +669,7 @@ clips-you-validated = Posnetki, ki ste jih preverili
 todays-recorded-progress = Današnji skupni napredek pri snemanju posnetkov
 todays-validated-progress = Današnji skupni napredek pri preverjanju posnetkov
 stats = Statistika
+awards = Nagrade
 you = Vi
 everyone = Vsi
 contribution-activity = Dejavnost
@@ -675,13 +681,23 @@ overall-accuracy = natančnost
 
 ## Custom Goals
 
+get-started-goals = Začnite s cilji
 toward-next-goal = Do naslednjega cilja
+create-custom-goal = Ustvari cilj po meri
+both-speak-and-listen = Oboje
 daily-goal = Dnevni cilj
 weekly-goal = Tedenski cilj
 average-difficulty = Srednje
 difficult-difficulty = Težko
+want-to-continue = Želite nadaljevati?
+set-a-goal = Zastavite cilj
+cant-decide = Se ne morete odločiti?
+how-many-per-day = Odlično! Koliko posnetkov na dan?
+how-many-a-week = Odlično! Koliko posnetkov na teden?
+which-goal-type = Želite govoriti, poslušati ali oboje?
 goal-interval-weekly = Tedensko
 share-goal-type-listen = Poslušanje
+share-goal = Deli moj cilj
 
 ## Profile Delete
 
