@@ -736,8 +736,12 @@ share-n-weekly-contribution-goal = { $type } ପାଇଁ ଆପଣଙ୍କର 
 share-goal-type-speak = କହିବା
 share-goal-type-listen = ଶୁଣିବା
 share-goal-type-both = କହିବା ଏବଂ ଶୁଣିବା
+# LINK will be replaced with the current URL
+goal-share-text = #କମନଭଏସ ପ୍ରକଳ୍ପରେ ନିଜର କଣ୍ଠଦାନ କରିବାକୁ ମୁଁ ଏକ ବ୍ୟକ୍ତିଗତ ଲକ୍ଷ୍ୟ ତିଆରି କରିଛି -- ମୋ ସହିତ ଯୋଗ ଦିଅନ୍ତୁ ଏବଂ ଯନ୍ତ୍ରପାତିଗୁଡ଼ିକୁ ମଣିଷମାନେ କିଭଳି କଥାବାର୍ତ୍ତା କରନ୍ତି ଶିଖାଇବାରେ ସାହାର୍ଯ୍ୟ କରନ୍ତୁ { $link }
 weekly-goal-created = ଆପଣଙ୍କର ସାପ୍ତାହିକ ଲକ୍ଷ୍ୟ ତିଆରି ହେଲା
 daily-goal-created = ଆପଣଙ୍କର ଦୈନିକ ଲକ୍ଷ୍ୟ ତିଆରି ହେଲା
+track-progress = ଏଠାରେ ଏବଂ ନିଜର ପରିସଂଖ୍ୟାନ ପୃଷ୍ଠାରେ ନିଜର ପ୍ରଗତି ଅନୁସରଣ କରନ୍ତୁ ।
+return-to-edit-goal = ନିଜର ଲକ୍ଷ୍ୟ ପରିବର୍ତ୍ତନ କରିବାକୁ ଏଠାକୁ କେବେବି ଫେରିପାରନ୍ତି ।
 share-goal = ନିଜର ଲକ୍ଷ୍ୟକୁ ସେୟାର କରନ୍ତୁ
 
 ## Profile Delete
