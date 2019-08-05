@@ -319,8 +319,14 @@ off = deactivau
 on = activau
 add-avatar-title = Aschuntar in avatar a tiu profil
 add-avatar-clip = Aschunta ina registraziun d'avatar a tiu profil.
+create-voice-wave = crear voicewave
+recording-voice-wave = registrar
+ready-to-upload = cargar si
+recreate-voice = recrear voicewave
+cancel-avatar-clip-recording = interrumper
+about-avatar-clip = Ti sas crear ina registraziun persunalisada per sepresentar. Auters utilisaders san ir suravi culla miur e tedlar tiu clip.
 browse-file-title = Carga si ina datoteca cun in maletg
-browse-file = Drag and drop ni <browseWrap>Encurir en</browseWrap>
+browse-file = drag and drop ni <browseWrap>encurir en</browseWrap>
 connect-gravatar = colligiar cun Gravatar
 gravatar_not_found = Anflau negins gravatars per tia adressa dad e-mail
 file_too_large = La datoteca che ti has eligiu ei memia gronda
@@ -613,7 +619,7 @@ record-no-mic-found = Anflau negin microfon.
 record-error-too-short = La registraziun ei memia cuorta.
 record-error-too-long = La registraziun ei memia liunga.
 record-error-too-quiet = La registraziun ei memia da bass.
-record-cancel = Interrumper la nova registraziun
+record-cancel = interrumper la nova registraziun
 record-instruction = { $actionType }<recordIcon></recordIcon> lura preleger la construcziun dad ault
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> sche ti eis alla fin
 record-three-more-instruction = Aunc treis!
@@ -697,18 +703,62 @@ validated-clips = Registraziuns valetadas
 total-approved = Registraziuns approbadas
 overall-accuracy = Exactadad cumplessiva
 set-visibility = Adattar mia visibladad
+visibility-explainer = Quei parameter influenzescha tia visibladad ella gliesta da rangaziun. Sch'el ei mess sin buca mussar, ei tiu progress privats. Quei vul dir che tiu maletg, num d'utilisader e progress ein buca veseivels ella gliesta da rangaziun. Remarca: midadas ella gliesta da rangaziun drovan ~{ $minutes }min entochen ch'ellas ein veseivlas.
+visibility-overlay-note = Remarca: sche quei parameter ei sin 'mussar', sa el vegnir midaus silla pagina da <profileLink>profil</profileLink>
+show-ranking = mussar mia rangaziun
 
 ## Custom Goals
 
+get-started-goals = entscheiver cun las finamiras
 toward-next-goal = Enviers la proxima finamira
+create-custom-goal = crear ina finamira persunalisada
+both-speak-and-listen = omisdus
+both-speak-and-listen-long = omisdus (discuorer e tedlar)
+daily-goal = Finamira per di
+weekly-goal = Finamira per jamna
+easy-difficulty = sempel
+average-difficulty = mesaun
+difficult-difficulty = grev
+pro-difficulty = professiunal
+lose-goal-progress-warning = Sche ti modificheschas tia finamira, sa ei esser che ti piardas tiu progress existent.
+want-to-continue = Vul cuntinuar?
+finish-editing = Igl emprem finir da modificar?
+lose-changes-warning = Sche ti bandunas ussa, piardas ti las midadas.
+build-custom-goal = construir ina finamira persunalisada
+help-reach-hours = Gida a contonscher { NUMBER($hours) } uras en { $language } cun ina finamira persunala
+set-a-goal = metter ina finamira
+cant-decide = Sas buca sedecider?
+activity-needed-calculation = { NUMBER($totalHours) } uras san vegnir contonschidas en mo { NUMBER($periodMonths) } meins, sche { NUMBER($people) } persunas registreschan { NUMBER($clipsPerDay) } clips per di.
+how-many-per-day = Genial! Cons clips per di?
+how-many-a-week = Genial! Cons clips per jamna?
+which-goal-type = Vul ti discuorer, tedlar ni far omisdus?
+receiving-emails-info = Ti has tscharniu pil mument da retscheiver e-mails sco regurdientschas davart las finamiras, novitads davart il progress e newsletters davart Common Voice.
+n-clips = { NUMBER($count) } clips
+help-share-goal = Ti sas gidar nus ad anflar dapli vuschs, sche ti partas tias finamiras.
+confirm-goal = confirmar la finamira
+goal-interval-weekly = per jamna
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Parta tia finamira da { $count } clips per di per { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Parta tia finamira da { $count } clips per jamna per { $type }
+share-goal-type-speak = discuorer
+share-goal-type-listen = tedlar
+share-goal-type-both = discuorer e tedlar
+# LINK will be replaced with the current URL
+goal-share-text = Jeu hai gest creau ina finamira persunala per contribuir culla vusch a #CommonVoice -- fai il medem e gida a mussar a maschinas co persunas realas discuoran { $link }
+weekly-goal-created = Tia finamira jamnila ei vegnida creada
+daily-goal-created = Tia finamira per di ei vegnida creada
+track-progress = Ti sas persequitar tiu progress cheu e silla pagina dallas statisticas.
+return-to-edit-goal = Tuorna cheu per modificar tia finamira da tut temps.
+share-goal = parter mia finamira
 
 ## Profile Delete
 
 delete-q = Giavischas ti che las registraziuns da tia vusch vegnien era stizzadas ni prefereschas ti che quellas restien ell'unitad da datas da Common Voice?
 keep = mantener
 remove = stizzar
-keep-info = Las registraziuns anonimas da tia vusch vegnan a restar ell'unitad da datas da Common Voice. Suenter che ti has stizzau tiu profil, has ti buca la pusseivladad pli da tschentar la damonda per stizzar tias registraziuns ord l'unitad da datas.
-remove-info = Nus vegnin ad examinar tia damonda per stizzar tias registraziuns vocalas dall'unitad da datas. Sch'ei vegn dau suatientscha a tia damonda, contactein nus quels che han telecargau l'unitad da datas e supplichein els da medemamein stizzar tias registraziuns vocalas.
+keep-info = Las registraziuns anonimas da tia vusch restan ell'unitad da datas da Common Voice. Suenter che ti has stizzau tiu profil, sas ti buca pli tschentar la damonda da stizzar tias registraziuns ord l'unitad da datas.
+remove-info = Nus examinein tia damonda da stizzar tias registraziuns vocalas dall'unitad da datas. Sch'ei vegn dau suatientscha a tia damonda, contactein nus quels che han telecargau l'unitad da datas e supplichein els da medemamein stizzar tias registraziuns vocalas.
 why-delete-recordings =
     Las registraziuns da Common Voice vegnan duvradas d'academichers, d'interpresas pintgas e d'entusiasts per l'identificaziun da vusch che gidan a trenar e cumpletar resursas accessiblas publicamein, sco models da lungatg discurriu.
     
@@ -719,6 +769,6 @@ profile-form-delete = stizzar il profil
 
 welcome-staff = Beinvegni collaboratur/a da { $company } !
 help-contribute = Ti sas gidar a crear in'unitad da datas open source varionta cun endrizzar in profil da Common Voice e contribuir tia vusch.
-login-company = S'annunziar / s'inscriver cun l'adressa dad e-mail da { $company }
+login-company = s'annunziar / s'inscriver cun l'adressa dad e-mail da { $company }
 profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, igl ei denton d'avantatg. Daco vesas ti sutvart.
-read-more-about = Legia dapli sin nossa pagina d'informaziuns davart Common Voice
+read-more-about = Legia dapli sin nossa pagina d'informaziuns davart Common Voice.
