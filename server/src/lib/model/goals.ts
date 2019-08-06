@@ -124,14 +124,12 @@ export async function computeGoals(client_id: string): Promise<any> {
 
   const now = new Date();
   for (const [
-    key,
+    locale_id,
     { startedAt, lastActivityAt },
   ] of localeStreakMap.entries()) {
     if (daysBetween(now, lastActivityAt) > 1) {
       continue;
     }
-
-    const [locale_id, client_id] = JSON.parse(key);
     await db.query(
       `
         INSERT INTO streaks
