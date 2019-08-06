@@ -397,6 +397,12 @@ class App extends React.Component {
                 />
               ))}
               <Route
+                path="/pt-BR"
+                render={({ location }) => (
+                  <Redirect to={location.pathname.replace('pt-BR', 'pt')} />
+                )}
+              />
+              <Route
                 path="/:locale"
                 render={({
                   match: {
