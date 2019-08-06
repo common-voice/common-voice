@@ -195,6 +195,7 @@ x-years-short =
        *[other] 年
     }
 help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
+profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助，下面話您知點解。
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
 
@@ -206,6 +207,7 @@ improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確�
 keep-track = 跟蹤您的進度，以及各種語言的統計指標。
 compare-progress = 睇下您的進度同全球其他貢獻者如何相比
 view-goals = 檢視個人和整個計劃的目標進度。
+join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的進度更新與新資訊。
 
 ## What's public
 
@@ -310,6 +312,7 @@ skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢�
 off = 關
 on = 開
 add-avatar-title = 在您的個人檔案中加入頭像
+add-avatar-clip = 在您的個人檔案中加入頭像，同我們講聲哈囉！
 browse-file-title = 上傳圖片
 browse-file = 拖放至此處，或<browseWrap>按此瀏覽</browseWrap>
 connect-gravatar = 連結到 Gravatar
@@ -329,25 +332,31 @@ faq-why-important-q = 點解咁重要？
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
 faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
+faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
 faq-do-want-native-q = 我並非母語人士，而且講話有點口音，你們仍想要我的聲音嗎？
 faq-do-want-native-a = 當然，我們特別想要您的聲音！Common Voice 的其中一個目標是盡可能收集各種口音，讓語音識別服務能適用於每一個人。這代表非母語人士的貢獻尤其重要。
 faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言的人？
 faq-why-my-lang-q = 點解還沒有我的語言？
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
 faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目標？
+faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時數。
 faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-where-src-from-2-q = 這些文本來源出自何處？
+faq-why-not-ask-read-q = 為什麼你們不讓人來念出書本的內容，或是維基百科內的條目？
 faq-why-account-q = 我點解應該去註冊帳戶？
 faq-is-account-public-q = 我的帳戶資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音人士的隱私？
+faq-what-determine-identity-q = 在 Common Voice 數據集中無法「確認發言者身分」是什麼意思？
 faq-what-is-cv = Common Voice 是甚麼？
 faq-using-cv = 使用 Common Voice
+faq-description = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。
 faq-search-for-answers =
     .label = 搜尋解答
 
 ## ABOUT US
 
 about-title = 點解會有 Common Voice？
+about-subtitle = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。除了 Common Voice 數據集外，我們也正在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
 about-header-description =
     這兩個計劃都是我們努力糾正電子語音落差的一部份。語音識別技術可讓我們的電子裝置更人性化，但開發者需要非常大量的語音數據，才能打造出這樣的系統。目前大部分語音數據都相當昂貴，並受專有權限制。
     我們想令語音數據能被公開自由地使用，並確保這些數據反映出我們大衆的多樣性。合衆人之力，我們可為大家將語音識別技術變得更好！
@@ -437,6 +446,7 @@ download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
 whats-inside = Common Voice 數據集當中有什麼？
+want-dataset-update = 想要在新的 Common Voice 數據集推出時收到通知嗎？請訂閱我們的電子報。
 subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
@@ -446,6 +456,7 @@ data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
 data-other-voxforge-description = VoxForge 的成立，是用來收集被抄寫的對話內容，給自由與開放源碼的語音辨識引擎使用。
 data-other-tatoeba-description = Tatoeba 是一套用於語言學習的大型數據庫，當中包含了各種句子、翻譯、以及錄音。這個下載項目包含了其社群所錄下的英語語音。
+your-feedback = 您有任何可以讓 Common Voice 資料集變得更好的點子嗎？歡迎到 Discourse 告訴我們
 go-discourse = 前往 Discourse
 missing-language = 沒在數據集中看到您的語言？請到語言頁面要求新增語言。
 go-languages-page = 前往語言版面
@@ -489,6 +500,7 @@ other-language = 其他語言
 language-section-in-progress = 準備中
 language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
+language-section-launched-description = 以下「已上線」的語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>令大家能用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 錄音人數
@@ -607,4 +619,5 @@ profile-form-delete = 刪除個人檔案
 
 welcome-staff = 你好 { $company } 的員工！
 login-company = 以 { $company } 電郵登入 / 註冊
+profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助，下面話您知點解。
 read-more-about = 去關於我們的頁面瞭解更多
