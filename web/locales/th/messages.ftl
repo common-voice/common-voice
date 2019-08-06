@@ -11,7 +11,7 @@ loading = กำลังโหลด…
 email-opt-in-info = ฉันต้องการรับอีเมลเช่น การแจ้งเตือนเป้าหมาย อัปเดตความคืบหน้าของฉัน และจดหมายข่าวเกี่ยวกับโครงการ Common Voice
 email-opt-in-privacy = การเลือกรับอีเมลถือว่าคุณตกลงให้ Mozilla จัดการข้อมูลนี้ตามที่ได้อธิบายไว้ใน<privacyLink>นโยบายความเป็นส่วนตัว<privacyLink>ของ Mozilla
 indicates-required = * ระบุถึงช่องที่จำเป็นต้องกรอก
-not-available-abbreviation = ไม่มี
+not-available-abbreviation = ไม่ระบุ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
