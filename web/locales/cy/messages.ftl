@@ -341,6 +341,9 @@ add-avatar-clip = Ychwanegwch glip afatar i'ch proffil
 create-voice-wave = Crëwch Gyfarchiad Llais
 recording-voice-wave = Recordio
 ready-to-upload = Llwytho i Fyny
+avatar-clip-fact = Mae'n ffaith hysbys y bydd sylw'r darllenydd yn cael ei ddrysu gan gynnwys darllenadwy tudalen wrth edrych ar ei chynllun.
+recreate-voice = Ail greu'r Cyfarchiad Llais
+cancel-avatar-clip-recording = Diddymu
 about-avatar-clip = Crëwch gyfarchiad llais personol er mwyn cyflwyno eich hun. Bydd eraill yn gallu hofran a gwrando ar eich clip.
 browse-file-title = Llwytho ffeil delwedd
 browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
@@ -728,6 +731,7 @@ overall-accuracy = Cywirdeb Cyffredinol
 set-visibility = Gosod fy ngwelededd
 visibility-explainer = Mae'r gosodiad hwn yn rheoli gwelededd eich bwrdd arwain. Pan fydd wedi ei guddio, bydd eich cynnydd yn breifat. Mae hyn yn golygu na fydd eich delwedd, enw defnyddiwr na'ch cynnydd yn ymddangos ar y bwrdd arwain. Sylwer bod adnewyddu'r bwrdd arwain yn cymryd ~ { $minutes } munud i ddangos y newidiadau.
 visibility-overlay-note = Sylwer: Pan wedi ei osod i 'Gweladwy', mae modd newid y gosodiad hwn o'r <profileLink>Dudalen broffil</profileLink>
+show-ranking = Dangoswch fy safle
 
 ## Custom Goals
 

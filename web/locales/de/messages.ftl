@@ -323,6 +323,9 @@ add-avatar-clip = Fügen Sie Ihrem Profil eine Avatar-Aufzeichnung hinzu
 create-voice-wave = Voicewave erstellen
 recording-voice-wave = Aufzeichnung läuft…
 ready-to-upload = Hochladen
+avatar-clip-fact = Es ist seit langem bekannt, dass ein Leser beim Betrachten des Layouts vom lesbaren Inhalt einer Seite abgelenkt wird.
+recreate-voice = Voicewave neu erstellen
+cancel-avatar-clip-recording = Abbrechen
 about-avatar-clip = Erstellen Sie eine benutzerdefinierte Voice Wave, um sich vorzustellen. Andere Benutzer können mit der Maus über Ihren Clip fahren und ihn anhören.
 browse-file-title = Grafikdatei hochladen
 browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
@@ -699,6 +702,7 @@ overall-accuracy = Gesamtgenauigkeit
 set-visibility = Meine Sichtbarkeit einstellen
 visibility-explainer = Diese Einstellung steuert die Sichtbarkeit Ihrer Bestenliste. Wenn Sie versteckt sind, ist Ihr Fortschritt privat. Dies bedeutet, dass Ihr Bild, Benutzername und Fortschritt nicht in der Bestenliste angezeigt werden. Beachten Sie, dass die Aktualisierung der Bestenliste etwa { $minutes } Minuten braucht, um die Änderungen zu übernehmen.
 visibility-overlay-note = Hinweis: Bei Einstellung auf „Sichtbar“ kann diese Einstellung auf der <profileLink>Profilseite</profileLink> geändert werden.
+show-ranking = Meine Bewertung ansehen
 
 ## Custom Goals
 

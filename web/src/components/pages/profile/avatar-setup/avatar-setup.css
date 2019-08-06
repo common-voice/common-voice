@@ -164,8 +164,6 @@
 }
 
 .avatar-setup {
-    width: 250px;
-
     border: none;
     padding-left: 20px;
     & h2 {

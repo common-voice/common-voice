@@ -10,6 +10,7 @@ submit-form-action = Pateikti
 loading = Įkeliama…
 email-opt-in-privacy = Pasirinkęs (-usi) gauti el. laiškus, tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
 indicates-required = * Nurodo privalomą lauką
+not-available-abbreviation = Nepasiekiama
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +28,7 @@ ar = Arabų
 as = Asamų
 ast = Astūrų
 az = Azerbaidžaniečių
+ba = Baškirų
 bg = Bulgarų
 bn = Bengalų
 br = Bretonų
@@ -48,13 +50,16 @@ es = Ispanų
 et = Estų
 eu = Baskų
 fa = Persų
+ff = Fulbių
 fi = Suomių
 fo = Farerų
 fr = Prancūzų
 fy-NL = Fryzų
 ga-IE = Airių
 gl = Galisų
+ha = Hausų
 he = Hebrajų
+hi-IN = Hindi
 hr = Kroatų
 hsb = Auštutinių sorbų
 hu = Vengrų
@@ -69,15 +74,19 @@ kab = Kabilų
 kk = Kazachų
 ko = Korėjiečių
 kpv = Komių-zyrų
+ku = Kurdų
 kw = Hakų činų
 ky = Kirgizų
+lij = Ligūrų
 lt = Lietuvių
 lv = Latvių
 mdf = Mokšų
 mhr = Pievų marių
 mk = Makedonų
+ml = Malajų
 mn = Mongolų
 mrj = Aukštumų marių
+mt = Maltiečių
 myv = Erzių
 nb-NO = Norvegų (bukmolas)
 ne-NP = Nepalų
@@ -88,18 +97,22 @@ or = Orijų
 pl = Lenkų
 pt-BR = Portugalų (Brazilija)
 rm-sursilv = Retoromanų (sursilvanų)
+rm-vallader = Retoromanų (valaderių)
 ro = Rumunų
 ru = Rusų
 rw = Kinjaruanda
 sah = Jakutų
 sc = Sardų
+si = Sinhalų
 sk = Slovakų
 sl = Slovėnų
 sq = Albanų
 sr = Serbų
 sv-SE = Švedų
+syr = Sirų
 ta = Tamilų
 te = Telugų
+tg = Tadžikų
 th = Tajų
 tr = Turkų
 tt = Totorių
@@ -123,6 +136,7 @@ speak = Kalbėk
 speak-now = Kalbėk dabar
 datasets = Duomenų rinkiniai
 languages = Kalbos
+about = Apie
 profile = Profilis
 help = Pagalba
 contact = Susisiek
@@ -294,8 +308,6 @@ profile-explanation = Profilis tau padės sekti savo progresą, o mums – padar
 thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo profilį.
 why-demographic = Kodėl tai svarbu?
 why-demographic-explanation = Anonimizuoti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su tavo garso įrašais. Be to, tu gali priimti sprendimą, ar nori, jog tavo naudotojo vardas būtų matomas svetainėje.
-keep-me-posted =
-    .label = Norėčiau gauti „Common Voice“ projekto naujienas.
 accept-privacy = Sutinku, kad mano duomenys būtų tvarkomi kaip aprašyta „Mozillos“ <privacyLink>Privatumo nuostatuose</privacyLink>
 login-identity = Prisijungimo tapatybė
 login-signup = Prisijungti / registruotis
@@ -315,6 +327,7 @@ connect-gravatar = Naudoti „Gravatar“ tarnybą
 gravatar_not_found = „Gravatar“ neturi su tavo el. paštu susieto pseudoportreto
 file_too_large = Pasirinktas failas yra per didelis
 manage-subscriptions = Tvarkyti prenumeratas
+manage-email-subscriptions = Tvarkyti el. pašto prenumeratas
 email-already-used = Šis el. paštas jau naudojamas kitoje paskyroje
 add-language = Pridėti kalbą
 change-email-setings = Savo el. pašto adresą gali pakeisti nuostatų skiltyje „Prisijungimo tapatybė“
@@ -328,8 +341,11 @@ faq-what-cv-a =
     
     Mes kaupiame balso įrašus ne tik plačiai vartojamose, bet ir mažiau kalbėtojų turinčiose kalbose. Įvairių balsų rinkinių publikavimas įgalins kūrėjus, verslininkus ir bendruomenes spręsti šią problemą. Be „Common Voice“ balso duomenų rinkinių, mes taip pat kuriame atvirojo kodo balso atpažinimo variklį „Deep Speech“.
 faq-why-important-q = Kodėl tai svarbu?
+faq-why-important-a =
+    Kalba yra vienas natūraliausių tarpusavio bendravimo būdų, kurį garso technologijos sugeba puikiai perteikti mūsų kompiuteriams bei mobiliesiems įrenginiams. Mes norime suteikti programuotojams galimybę kurti balso atpažinimu paremtas programas, tokias, kaip vertimo tikruoju laiku sistemos ar balsu valdomi virtualūs padejėjai. Deja, tokiai programinei įrangai reikalingi duomenys dažniausiai yra privatūs ar itin brangūs. Tikime, kad „Common Voice“ duomenų rinkinys padės programuotojams ir kūrėjams pritaikyti balso atpažinimo technologijas gimtajai kalbai.
+    
+    Kad balso atpažinimo technologijos taptų dar prieinamesnės, mes kaupiame ne tik didžiausių, bet ir rečiau vartojamų kalbų balso pavyzdžius – kalbų, į kurias komercinės programinės įrangos kūrėjai dažniau neatsižvelgia. Sukūrus didelės įvairovės balso duomenų bazę, programuotojai, verslininkai ir bendruomenės, kurias vienija bendra kalba, galės savarankiškai spręsti šią problemą.
 faq-how-get-q = Kaip galiu gauti „Common Voice“ duomenis?
-faq-when-release-q = Kada bus išleisti „Common Voice“ duomenys kitomis kalbomis?
 faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
 faq-why-mission-a = „Mozilla“ siekia, kad internetinė erdvė išliktų atvira ir prieinama kiekvienam. Kad tai įgyvendintume, turime įgalinti internetinės erdvės kūrėjus tokių projektų kaip „Common Voice“ pagalba. Balso technologijoms besivystant ir tampant mūsų kasdienybės dalimi, mes manome, kad jos privalo visų naudotojų poreikius tenkinti vienodai. Tai reiškia, kad, kuriant ir testuojant balso technologijas, šie procesai turi aprėpti daugiau kalbų, įtraukti įvairesnes tarmes ir akcentus, apimti daugiau demografinių grupių. „Common Voice“ yra viešas išteklius, prieinamas kiekvienam, o „Mozilla“ komandos ir kūrėjai visame pasaulyje jau naudoja jį savo projektuose.
 faq-what-cv-and-deepspeech-q = Kuo skiriasi „Common Voice“ ir „Deep Speech“?
@@ -347,6 +363,23 @@ faq-where-src-from-2-q = Iš kur gaunamas šaltinio tekstas?
 faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipedijos“ straipsnių įvairiomis kalbomis?
 faq-why-account-q = Kodėl turėčiau susikurti paskyrą?
 faq-is-account-public-q = Ar mano paskyros informacija yra vieša?
+faq-how-privacy-q = Kaip užtikrinate savo balsu pasidalinusių asmenų privatumą ir anonimiškumą?
+faq-what-is-cv = Kas yra „Common Voice“?
+faq-using-cv = „Common Voice“ naudojimas
+faq-search-for-answers =
+    .label = Ieškoti atsakymų
+
+## ABOUT US
+
+about-title = Kodėl „Common Voice“?
+how-does-it-work-title = Kaip tai veikia?
+about-speak = Balso įrašymas
+about-listen = Perklausymas
+about-get-involved = Įsitrauk
+about-nav-why-common-voice = Kodėl?
+about-nav-how-it-works = Kaip?
+about-nav-get-involved = Įsitrauk
+mycroft-subtitle = Dirbtinis intelektas
 
 ## Glossary
 
@@ -357,6 +390,7 @@ sentence-collection = Frazių rinkimas
 hours-recorded-explanation = iki šiol balsu įrašytų valandų kiekis.
 sst = Šnekos atpažinimas
 sst-explanation = šnekos atpažinimo technologijos balso duomenis paverčia tekstu.
+de-identified = Anonimizuota
 
 ## NotFound
 
@@ -369,6 +403,7 @@ data-download-button = Pasisiųsti „Common Voice“ duomenis
 data-download-yes = Taip
 data-download-deny = Ne
 data-download-license = Licencija: <licenseLink>CC-0</licenseLink>
+data-download-modal = Bus pradėtas <size>{ $size } GB</size> atsisiuntimas. Ar tęsti?
 data-other-title = Kiti balso duomenų rinkiniai…
 data-other-goto = Eiti į { $name }
 data-other-download = Parsisiųsti duomenis
@@ -388,8 +423,9 @@ review-cancel = Atšaukti indėlį
 review-keep-recordings = Palikti įrašus
 review-delete-recordings = Pašalinti mano įrašus
 
-## New Datasets Page
+## Datasets Page
 
+datasets-headline = Mes kuriame atvirojo kodo daugiakalbį balsų duomenų rinkinį, kurį kiekvienas gali naudoti kalbą atpažįstančioms programoms mokyti.
 language = Kalba
 # File size in gigabytes
 size = Dydis
@@ -409,7 +445,7 @@ recorded-hours = Įrašyta valandų
 whats-inside = Kas yra „Common Voice“ duomenų rinkinyje?
 want-dataset-update = Nori sužinoti kai išleisime naują „Common Voice“ duomenų rinkinio versiją? Prenumeruok mūsų naujienlaiškį.
 subscribe = Prenumeruoti
-get-started-speech = Susipažinkite su kalbos atpažinimu
+get-started-speech = Susipažink su kalbos atpažinimu
 other-datasets = Kiti balso duomenų rinkiniai
 feedback-q = Turi komentarų?
 deepspeech-info = „Common Voice“ duomenų rinkinys papildo „Mozillos“ atvirojo kodo balso atpažinimo variklį „Deep Speech“, kuri gali naudoti kalbos atpažinimo programoms kurti. Perskaityk <githubLink>„Github“ apžvalgą </githubLink> arba prisijunk prie <discourseLink>„DeepSpeech“ grupės „Discourse“ platformoje</discourseLink> ir sužinok kaip gali pradėti naudotis šiais duomenimis.
@@ -470,7 +506,7 @@ localized = Lokalizuota
 sentences = Frazės
 total-hours = Patvirtinta valandų
 
-## New Contribution
+## Contribution
 
 action-click = Spustelėk
 action-tap = Bakstelėk
@@ -502,7 +538,6 @@ record-again-instruction = Šaunu!<recordIcon></recordIcon> Dabar įrašyk kitą
 record-again-instruction2 = Puiku, įrašinėkime toliau <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Paskutinis!
 review-tooltip = Čia peržiūrėk ir, jei reikia, iš naujo atlik įrašus
-unable-speak = Dabar negali šnekėti?
 review-instruction = Peržiūrėk ir, jei reikia, iš naujo atlik įrašus
 record-submit-tooltip = { $actionType }, kad pateiktum šį savo įnašą
 clips-uploaded = Įkelta įrašų
@@ -518,6 +553,14 @@ listen-last-time-instruction = <playIcon></playIcon>Paskutinis!
 nothing-to-validate = Neturime jokių frazių šia kalba, kurias galėtum patvirtinti – padėk tai pakeisti.
 record-button-label = Įrašyk savo balsą
 share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
+
+## Reporting
+
+report-ask = Kokios su šiuo sakiniu susijusios problemos?
+report-difficult-pronounce = Sunku ištarti
+report-other-comment =
+    .placeholder = Komentaras
+continue = Tęsti
 
 ## Goals
 
@@ -559,6 +602,10 @@ validated-clips = Patvirtinti įrašai
 total-approved = Iš viso patvirtinta
 overall-accuracy = Bendras tikslumas
 
+## Custom Goals
+
+toward-next-goal = Link kito tikslo
+
 ## Profile Delete
 
 delete-q = Ar nori, kad tavo balso įrašai būtų pašalinti ar palikti „Common Voice“ duomenų rinkinyje?
@@ -571,3 +618,7 @@ why-delete-recordings =
     
     Ar gali parašyti kodėl pageidauji, kad tavo įrašai būtų pašalinti?
 profile-form-delete = Pašalinti profilį
+
+## Landing
+
+profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas

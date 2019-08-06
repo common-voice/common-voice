@@ -87,6 +87,7 @@ mk = مەقدۆنی
 ml = Malayalam
 mn = Mongolian
 mrj = Hill Mari
+mt = Maltese
 myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = نێپالی
@@ -318,6 +319,9 @@ off = خامۆش
 on = ڕۆشن
 add-avatar-title = ئەڤاترێک بە پرۆفایلی خۆت زیاد بکە
 add-avatar-clip = کلیپێکی ئاڤاتار بە پڕۆفایلی خۆت زیاد کە
+recording-voice-wave = تۆمارکردن
+ready-to-upload = بارکردن
+cancel-avatar-clip-recording = ڕەتكردنەوە
 browse-file-title = فایلێکی وێنە ئاپلۆد بکە
 browse-file = دڕاگی کە ئێرە یان <browseWrap>بگەڕێ بۆ فایل</browseWrap>
 connect-gravatar = بەستنەوە لەگەڵ Gravatar
@@ -337,7 +341,6 @@ faq-what-cv-a = تەکنۆلۆژی ناسینەوەی وتار شێوەی ئیش
 faq-why-important-q = بۆچی گرینگە؟
 faq-how-get-q = چۆن دەتوانم دەیتای دەنگی گشتی وەرگرم؟
 faq-how-get-a = دەیتاسێتی دەنگی گشتی دەتوانە بە مۆڵەتی <licenseLink>CC0</licenseLink> لە <datasetLink>بەرگەی دەیتاسێتەکانی ئێمە</datasetLink> دانڵۆد بکەی. هەروەها دەتوانی چەند دەیتاسێتی کراوەی دیکش لە هەمان بەرگە دانڵۆد بکەی.
-faq-when-release-q = کەی دەیتای دەنگی گشتی بۆ زمانەکانی تر بڵاو دەکەنەوە؟
 faq-why-mission-q = بۆچی دەنگی گشتی بەشێکە لە ئامانجەکانی مووزیلا؟
 faq-what-cv-and-deepspeech-q = جیاوازە دەنگی گشتی و Deep Speech چییە؟
 faq-is-goal-assistant-q = ئایا ئامانجی دەنگی گشتی سازکردنی دەستیاری دەنگییە؟
@@ -544,7 +547,7 @@ localized = خۆماڵی کراو
 sentences = ڕەستەکان
 total-hours = کاژ. سەلماندراو
 
-## New Contribution
+## Contribution
 
 action-click = کلیک
 action-tap = لێدان
@@ -638,6 +641,7 @@ clips-you-validated = کلیپ کە تۆ سەلماندووتە
 todays-recorded-progress = پێشکەوتنی ئەمڕۆی دەنگی گشتی بۆ کلیپی زەبتکراو
 todays-validated-progress = پێشکەوتنی ئەمڕۆی دەنگی گشتی بۆ کلیپی سەلمێندراو
 stats = ئامار
+awards = خەڵاتەکان
 you = تۆ
 everyone = هەمووکەس
 contribution-activity = مێژووی بەشداری
@@ -646,6 +650,32 @@ recorded-clips = کلیپی زەبتکراو
 validated-clips = کلیپی سەلمێندراو
 total-approved = کۆی سەلمێندراو
 overall-accuracy = دیقەتی گشتی
+
+## Custom Goals
+
+toward-next-goal = بەرەو ئامانجی داهاتوو
+create-custom-goal = درووست کردنی ئامانجی شەخسی
+both-speak-and-listen = هەردووکیان
+both-speak-and-listen-long = هەردووکیان (وتن و بیستن)
+daily-goal = ئامانجی ڕۆژانە
+weekly-goal = ئامانجی حەفتانە
+easy-difficulty = ئاسایی
+average-difficulty = مامناوەند
+difficult-difficulty = دژوار
+pro-difficulty = پێشکەوتوو
+want-to-continue = دەتهەوێ بەردەوام بی؟
+build-custom-goal = ئامانجێکی شەخسی درووست کە
+help-reach-hours = یارمەتی دبە بگەین بە { NUMBER($hours) } کاژێر لە زمانی { $language } لە ڕێگای ئامانجی شەخسی
+set-a-goal = دیاری کردنی ئامانج
+cant-decide = ناتوانی بڕیار بدەی؟
+which-goal-type = دەتهەوێ قسە بکەی، ببیستی یان هەردووکیان؟
+goal-interval-weekly = حەفتانە
+share-goal-type-speak = وتن
+share-goal-type-listen = بیستن
+share-goal-type-both = وتن و بیستن
+weekly-goal-created = ئامانجی حەفتانەی تۆ ساز کرا
+daily-goal-created = ئامانجی ڕۆژانەی تۆ ساز کرا
+share-goal = ئامانجە من هاوبەش کە
 
 ## Profile Delete
 

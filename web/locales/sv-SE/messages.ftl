@@ -326,6 +326,9 @@ add-avatar-clip = Lägg till ett avatar-klipp till din profil
 create-voice-wave = Skapa Voicewave
 recording-voice-wave = Inspelning
 ready-to-upload = Ladda upp
+avatar-clip-fact = Det är sedan länge känt att en läsare kommer att bli distraherad av det läsbara innehållet på en sida när man tittar på dess layout.
+recreate-voice = Återskapa röstvåg
+cancel-avatar-clip-recording = Avbryt
 about-avatar-clip = Skapa en anpassad röstvåg för att presentera dig själv. Andra användare kommer att kunna sväva  över ditt klipp och lyssna på det.
 browse-file-title = Ladda upp en bildfil
 browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
@@ -706,6 +709,7 @@ overall-accuracy = Övergripande noggrannhet
 set-visibility = Ställ in min synlighet
 visibility-explainer = Den här inställningen styr din topplistas synlighet. När du är dold är dina framsteg privata. Detta betyder att din bild, användarnamn och framsteg inte kommer att visas på topplistan. Observera att uppdatering av topplistan tar ~ { $minutes } min att fylla i ändringar.
 visibility-overlay-note = Notera: När den är inställd på 'Synlig', kan den här inställningen ändras från <profileLink>Profilsidan</profileLink>
+show-ranking = Visa min ranking
 
 ## Custom Goals
 

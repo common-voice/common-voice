@@ -331,6 +331,7 @@ add-avatar-clip = Pśidajśo wašomu profiloju awatarowy klip
 create-voice-wave = Głosowu žwału napóraś
 recording-voice-wave = Nagrawa se
 ready-to-upload = Nagraś
+avatar-clip-fact = Jo južo dłujko znaty fakt, až se cytaŕ wót cytajobnego wopśimjeśa boka wótchyla, gaž se jogo wugótowanje woglědujo.
 recreate-voice = Głosowu žwału znowego napóraś
 cancel-avatar-clip-recording = Pśetergnuś
 about-avatar-clip = Napórajśo swójsku głosowu žwału, aby se pśedstajił. Druge wužywarje mógu z kursorom myški pśez klip trěś a na njen słuchaś.

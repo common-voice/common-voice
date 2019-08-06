@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
-stayintouch = 在 Mozilla 我們正在打造一個和語音技術相關的社群。我們想與您保持聯繫，提供新的技術、資料來源，和瞭解您會如何使用這些資料。
+stayintouch = 喺 Mozilla 哩度，我哋建立緊一個同語音技術相關嘅社群。我哋想同您保持聯繫，提供最新嘅消息同資料來源，亦想瞭解您會點樣使用哩啲資料。
 privacy-info = 我哋保證會小心處理您嘅資訊。如果要了解更多，請閲讀我們嘅<privacyLink>私隱權公告</privacyLink>。
 return-to-cv = 返回 Common Voice
 email-input =
@@ -51,6 +51,7 @@ es = 西班牙文
 et = 愛沙尼亞文
 eu = 巴斯克語
 fa = 波斯文
+ff = 富拉文
 fi = 芬蘭文
 fo = 法羅文
 fr = 法文
@@ -150,7 +151,7 @@ logout = 登出
 
 ## Home Page
 
-home-title = Common Voice 係 Mozilla 發起嘅計劃，用來訓練機器學識真人說話嘅方式。
+home-title = Common Voice 計劃係由 Mozilla 發起嘅，想幫機械學識好似真人咁發聲。
 home-cta = 在此貢獻您的聲音！
 wall-of-text-start = 語音係自然、有人性的。所以我們非常希望為機器建立可用的語音技術，但建立語音系統需要非常大量的語音數據。
 wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
@@ -194,6 +195,7 @@ x-years-short =
        *[other] 年
     }
 help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
+profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助，下面話您知點解。
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
 
@@ -205,6 +207,7 @@ improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確�
 keep-track = 跟蹤您的進度，以及各種語言的統計指標。
 compare-progress = 睇下您的進度同全球其他貢獻者如何相比
 view-goals = 檢視個人和整個計劃的目標進度。
+join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的進度更新與新資訊。
 
 ## What's public
 
@@ -309,6 +312,7 @@ skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢�
 off = 關
 on = 開
 add-avatar-title = 在您的個人檔案中加入頭像
+add-avatar-clip = 在您的個人檔案中加入頭像，同我們講聲哈囉！
 browse-file-title = 上傳圖片
 browse-file = 拖放至此處，或<browseWrap>按此瀏覽</browseWrap>
 connect-gravatar = 連結到 Gravatar
@@ -328,25 +332,31 @@ faq-why-important-q = 點解咁重要？
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
 faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
+faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
 faq-do-want-native-q = 我並非母語人士，而且講話有點口音，你們仍想要我的聲音嗎？
 faq-do-want-native-a = 當然，我們特別想要您的聲音！Common Voice 的其中一個目標是盡可能收集各種口音，讓語音識別服務能適用於每一個人。這代表非母語人士的貢獻尤其重要。
 faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言的人？
 faq-why-my-lang-q = 點解還沒有我的語言？
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
 faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目標？
+faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時數。
 faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-where-src-from-2-q = 這些文本來源出自何處？
+faq-why-not-ask-read-q = 為什麼你們不讓人來念出書本的內容，或是維基百科內的條目？
 faq-why-account-q = 我點解應該去註冊帳戶？
 faq-is-account-public-q = 我的帳戶資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音人士的隱私？
+faq-what-determine-identity-q = 在 Common Voice 數據集中無法「確認發言者身分」是什麼意思？
 faq-what-is-cv = Common Voice 是甚麼？
 faq-using-cv = 使用 Common Voice
+faq-description = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。
 faq-search-for-answers =
     .label = 搜尋解答
 
 ## ABOUT US
 
 about-title = 點解會有 Common Voice？
+about-subtitle = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。除了 Common Voice 數據集外，我們也正在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
 about-header-description =
     這兩個計劃都是我們努力糾正電子語音落差的一部份。語音識別技術可讓我們的電子裝置更人性化，但開發者需要非常大量的語音數據，才能打造出這樣的系統。目前大部分語音數據都相當昂貴，並受專有權限制。
     我們想令語音數據能被公開自由地使用，並確保這些數據反映出我們大衆的多樣性。合衆人之力，我們可為大家將語音識別技術變得更好！
@@ -359,6 +369,7 @@ about-is-it-valid-text = 若使用者投下「正確」，錄音片段就會標�
 about-yes-votes = ≥ 2 張「正確」票
 about-no-votes = ≥ 2 張「不正確」票
 about-no-votes-text = 若使用者投下不正確票，錄音片段就會回到隊列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
+about-dataset-new = Common Voice 數據集
 about-clip-graveyard = 片段回收桶
 about-partners = 合作夥伴
 about-become-a-partner = 成為合作夥伴
@@ -435,6 +446,7 @@ download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
 whats-inside = Common Voice 數據集當中有什麼？
+want-dataset-update = 想要在新的 Common Voice 數據集推出時收到通知嗎？請訂閱我們的電子報。
 subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
@@ -444,6 +456,7 @@ data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
 data-other-voxforge-description = VoxForge 的成立，是用來收集被抄寫的對話內容，給自由與開放源碼的語音辨識引擎使用。
 data-other-tatoeba-description = Tatoeba 是一套用於語言學習的大型數據庫，當中包含了各種句子、翻譯、以及錄音。這個下載項目包含了其社群所錄下的英語語音。
+your-feedback = 您有任何可以讓 Common Voice 資料集變得更好的點子嗎？歡迎到 Discourse 告訴我們
 go-discourse = 前往 Discourse
 missing-language = 沒在數據集中看到您的語言？請到語言頁面要求新增語言。
 go-languages-page = 前往語言版面
@@ -451,6 +464,7 @@ ready-to-validate = 準備好幫手驗證句子了嗎？
 more = 更多
 close = 關閉
 download = 下載
+dataset-version = 版本
 
 ## Download Modal
 
@@ -486,6 +500,7 @@ other-language = 其他語言
 language-section-in-progress = 準備中
 language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
+language-section-launched-description = 以下「已上線」的語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>令大家能用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 錄音人數
@@ -498,7 +513,7 @@ localized = 本地化進度
 sentences = 句子
 total-hours = 已驗證時數
 
-## New Contribution
+## Contribution
 
 action-click = 點擊
 action-tap = 點選
@@ -530,7 +545,6 @@ record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下一個片�
 record-again-instruction2 = 繼續加油，再錄一回！<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>最後一筆了！
 review-tooltip = 在此確認或重錄片段
-unable-speak = 現在無法錄音？
 review-instruction = 確認錄音內容，有需要的話可以重錄
 record-submit-tooltip = 準備好即可{ $actionType }送出
 clips-uploaded = 錄音片段已成功上載
@@ -546,6 +560,9 @@ listen-last-time-instruction = <playIcon></playIcon> 最後一個！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
+
+## Reporting
+
 
 ## Goals
 
@@ -581,6 +598,10 @@ validated-clips = 已被驗證的錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
 
+## Custom Goals
+
+toward-next-goal = 距離下一個目標
+
 ## Profile Delete
 
 delete-q = 您想刪除埋所有您的錄音，還是要將錄音保留喺 Common Voice 嘅資料集中？
@@ -596,3 +617,7 @@ profile-form-delete = 刪除個人檔案
 
 ## Landing
 
+welcome-staff = 你好 { $company } 的員工！
+login-company = 以 { $company } 電郵登入 / 註冊
+profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助，下面話您知點解。
+read-more-about = 去關於我們的頁面瞭解更多

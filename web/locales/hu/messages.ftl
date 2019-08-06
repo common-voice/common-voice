@@ -329,6 +329,9 @@ add-avatar-clip = Egy avatár klip hozzáadása a profiljához
 create-voice-wave = Hanghullám létrehozása
 recording-voice-wave = Felvétel
 ready-to-upload = Feltöltés
+avatar-clip-fact = Régóta bebizonyosodott tény, hogy elvonja az olvasó figyelmét az oldal olvasható tartalma, ha az elrendezését figyeli.
+recreate-voice = Hozza létre újra a hanghullámot
+cancel-avatar-clip-recording = Mégse
 about-avatar-clip = A bemutatkozáshoz hozzon létre egy egyedi hanghullámot. A többi felhasználó fölé húzhatja az egeret, és meghallgathatja a klipjét.
 browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
@@ -702,6 +705,7 @@ overall-accuracy = Összesített pontosság
 set-visibility = Láthatóság beállítása
 visibility-explainer = Ez a beállítás vezérli, hogy megjelenik-e a ranglistában. Rejtett állapotban az előhaladása privát lesz. Ez azt jelenti, hogy a képe, felhasználóneve és az előrehaladása nem fog megjelenni a ranglistán. Vegye figyelembe, hogy a ranglista frissítése ~ { $minutes } percet vesz igénybe.
 visibility-overlay-note = Megjegyzés: Ha „Látható” értékre van állítva, akkor ezt a beállítást a <profileLink>profiloldalon</profileLink> módosíthatja
+show-ranking = Saját rangsor megjelenítése
 
 ## Custom Goals
 

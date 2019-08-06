@@ -202,6 +202,7 @@ help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate,
 profile-not-required = Haber un profilo non es obligatori pro collaborar ben que illo sia utile
 sign-up-account = Registra te pro aperir tu conto
 email-subscription-title = accede pro actualisationes email
+email-subscription-title-new = Inscribe te al bulletines de novas, al mementos de objectivos e al actualisationes de progressos de Common Voice
 
 ## Account Benefits
 
@@ -281,7 +282,7 @@ profile-form-gender =
     .label = Genere
 leaderboard-visibility =
     .label = Visibilitate in le tabula de classification
-hidden = Celate
+hidden = Occulte
 visible = Visibile
 native-language =
     .label = Lingua native
@@ -322,6 +323,10 @@ add-avatar-clip = Adde un clip avatar a tu profilo
 create-voice-wave = Crea un unda sonor
 recording-voice-wave = Registration
 ready-to-upload = Cargar
+avatar-clip-fact = Il es facto notori que un lector sera distrahite ab le contento legibile de un pagina al reguardar su schema.
+recreate-voice = Recrear le presentation vocal
+cancel-avatar-clip-recording = Cancellar
+about-avatar-clip = Crea un unda vocal personal pro introducer te mesme. Altere usatores potera ascoltar tu registration passante con le mus supra illo.
 browse-file-title = Carga un file imagine
 browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
@@ -343,6 +348,7 @@ faq-why-important-a = Le voce es sovente nostre maniera plus natural pro communi
 faq-how-get-q = Como pote io obtener le datos de Common Voice?
 faq-how-get-a = Le collection de datos de Common Voice es disponibile pro discargamento sub le licentia <licenseLink>CC0</licenseLink> sur <datasetLink>nostre pagina del collectiones de datos</datasetLink>. Tu pote alsi discargar ab le mesme pagina plure altere collectiones de datos publicamente disponibile.
 faq-when-release2-q = Quando vos publicara datos de Common Voice in altere linguas?
+faq-when-release2-a = Le version multe-linguas del collection de datos de Common Voice es actualmente compilate e mundificate per le supporto del communitate. Si tu desira nos adjutar a apportar nove linguas a Common Voice, va discoperir le <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> pro adder nove phrases al collection de datos, e Mozilla <pontoonLink>Pontoon</pontoonLink> pro traducer le sito web mesme. Nove linguas es addite a Common Voice pro contribution de voces, quando ha essite colligite 5000 phrases approbate.
 faq-why-mission-q = Perque Common Voice es parte del mission de Mozilla?
 faq-why-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile a omnes. Pro facer illo nos necessita de habilitar le autores del web per projectos como Common Voice.  Quando le technologias del voce proliferara ultra le applicationes de niche, nos fide que illos debera servir tote le usatores equalmente. Illo significa investir in plus linguas e accommodar diverse accentos e datos demographic quando on compilara e testara le technologias del voce.  Common Voice es un public ressource disponibile a totes. Le equipas e le disveloppatores de Mozilla circum le mundo lo usa jam tam ben sur nostre proprie projectos.
 faq-what-cv-and-deepspeech-q = Qual es le differentia inter Common Voice e Deep Speech?
@@ -401,6 +407,7 @@ about-yes-votes-text = Pro lo introducer in le collection de datos de Common Voi
 about-no-votes = ≥ 2 votos No
 about-no-votes-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
 about-dataset-new = Collection de datos de Common Voice
+about-dataset-new-text = Le Collection de datos de Common Voice contine centenas de milles de exemplos de voce que adjuta le disveloppatores a crear applicationes de recognition vocal.
 about-clip-graveyard = Cemeterio del retalios
 about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal que non es admittite in le collection de datos de Common Voice. Justo como le collection de datos, le Cemeterio del retalios es disponibile pro discarga.
 about-partners = Partners
@@ -623,6 +630,7 @@ listen-last-time-instruction = <playIcon></playIcon>Ultimo!
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
 record-button-label = Registra tu voce
 share-title-new = <bold>Adiuta nos</bold> a trovar altere voces
+keep-track-profile = Tene tracia de tu progresso con un profilo
 login-to-get-started = Accede o registrate pro comenciar
 
 ## Reporting
@@ -674,6 +682,7 @@ clips-you-validated = Retalios que tu ha validate
 todays-recorded-progress = Progresso hodierne de Common Voice sur le retalios audio registrate
 todays-validated-progress = Progresso hodierne de Common Voice sur le retalios audio validate
 stats = Statistica
+awards = Tropheos
 you = Tu
 everyone = Totes
 contribution-activity = Activate de collaboration
@@ -682,19 +691,54 @@ recorded-clips = Retalios registrate
 validated-clips = Retalios validate
 total-approved = Total approbate
 overall-accuracy = Precision general
+set-visibility = Definir ma visibilitate
+visibility-explainer = Iste configuration controla tu visibilitate in le classifica. Quando definite 'Occulte', tu progresso restara reservate. Id es tu imagine, nomine de usator e progresso non apparera in le classification. Nota que refrescar le classification prende ~{ $minutas }min pro actualisar le cambios.
+visibility-overlay-note = Nota: Quando definite 'Visibile', iste configuration pote ser cambiate ab le <profileLink>Pagina del profilo</profileLink>
+show-ranking = Monstrar mi classification
 
 ## Custom Goals
 
+get-started-goals = Comencia a usar le objectivos
 toward-next-goal = Verso le proxime objectivo
+create-custom-goal = Crear un Objectivo personal
+both-speak-and-listen = Ambe
+both-speak-and-listen-long = Ambe (Parlar e Ascoltar)
+daily-goal = Objectivo quotidian
+weekly-goal = Objectivo septimanal
 easy-difficulty = Facile
 average-difficulty = Normal
 difficult-difficulty = Difficile
 pro-difficulty = Professional
+lose-goal-progress-warning = Si tu modifica tu objectivo, tu pote perder tu progresso existente.
+want-to-continue = Desira tu continuar?
+finish-editing = Fini primo le modificationes?
+lose-changes-warning = Si tu exi ora, tu perdera tu modificationes
+build-custom-goal = Crea un objectivo personal
+help-reach-hours = Adjuta attinger { NUMERO($horas) } horas in { $lingua } con un objectivo personal
+set-a-goal = Definir un objectivo
+cant-decide = Impossibile decider?
+activity-needed-calculation = Nos pote attinger { NUMBER($totalHours) } horas in solo { NUMBER($periodMonths) } menses si { NUMBER($people) } personas registra { NUMBER($clipsPerDay) } retalios per die.
+how-many-per-day = Grande! Quante registrationes per die?
+how-many-a-week = Grande! Quante registrationes per septimana?
+which-goal-type = Vole tu parlar, ascoltar o ambe?
+receiving-emails-info = Tu ha actualmente convenite de reciper emails tal como mementos de objectivos, actualisationes re le progresso e bulletines de novas re Common Voice
+n-clips = { NUMBER($count) } retalios vocal
+help-share-goal = Adjuta nos a trovar plus voces, comparti tu objectivo
 confirm-goal = Confirmar objectivo
 goal-interval-weekly = Septimanal
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Comparti tu objectivo quotidian de { $count } retalios vocal per { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Comparti tu objectivo septimanal de { $count } retalios vocal per { $type }
 share-goal-type-speak = Parlar
 share-goal-type-listen = Ascoltar
 share-goal-type-both = Parlar e ascoltar
+# LINK will be replaced with the current URL
+goal-share-text = Io ha justo create un objectivo personal pro donation de voce a #CommonVoice -- junge te a me e adjuta inseniar al machinas como parla le personas real { $link }
+weekly-goal-created = Tu objectivo septimanal ha essite create
+daily-goal-created = Tu objectivo quotidian ha essite create
+track-progress = Tracia tu progresso ci e sur tu pagina de statistica.
+return-to-edit-goal = Retorna ci a modificar tu objectivos quando tu lo vole.
 share-goal = Compartir mi objectivo
 
 ## Profile Delete

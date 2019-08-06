@@ -96,6 +96,7 @@ or = Oriya
 pl = Polsk
 pt-BR = Portugisisk (Brazil)
 rm-sursilv = Retoromansk surselva
+rm-vallader = Retoromansk (Vallader)
 ro = Rumensk
 ru = Russisk
 rw = Kinyarwanda
@@ -304,6 +305,9 @@ contribution-experience = Bidragserfaring
 off = Av
 on = På
 add-avatar-title = Legg til ein avatar  i profilen din
+recording-voice-wave = Innspeling
+ready-to-upload = Last opp
+cancel-avatar-clip-recording = Avbryt
 browse-file-title = Last opp ei bildefil
 browse-file = Dra og slepp, eller <browseWrap>bla</browseWrap>
 connect-gravatar = Kople til med Gravatar
@@ -428,6 +432,7 @@ ready-to-validate = Er du klar for å hjelpe til med å validere setningar?
 more = Meir
 close = Lat att
 download = Last ned
+dataset-version = Versjon
 
 ## Download Modal
 
@@ -474,7 +479,7 @@ localized = Omsett
 sentences = Setningar
 total-hours = Validerte timar
 
-## New Contribution
+## Contribution
 
 action-click = Klikk
 action-tap = Trykk
@@ -520,14 +525,18 @@ listen-last-time-instruction = <playIcon></playIcon>Det siste!
 nothing-to-validate = Vi har ikkje noko å validere på dette språket. Hjelp oss med å fylle opp køen.
 record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
+login-to-get-started = Logg inn eller registrer deg for å kome i gang
 
 ## Reporting
 
 report = Rapporter
 report-title = Send inn ein rapport
-report-wrong-language = Feil språk
+report-grammar-or-spelling = Grammatisk/Stavefeil
+report-different-language = Anna språk
+report-difficult-pronounce = Vanskeleg å uttale
 report-other-comment =
     .placeholder = Kommentar
+success = Vellykka
 continue = Fortset
 
 ## Goals
@@ -564,6 +573,30 @@ recorded-clips = Innspelte klipp
 validated-clips = Validerte klipp
 total-approved = Godkjende i alt
 overall-accuracy = Nøyaktigheit jamt over
+set-visibility = Still inn kor synleg eg er
+show-ranking = Vis rangeringa mi
+
+## Custom Goals
+
+get-started-goals = Kom i gang med mål
+toward-next-goal = Mot neste mål
+create-custom-goal = Lag eit tilpassa mål
+both-speak-and-listen = Begge
+both-speak-and-listen-long = Begge (snakke og lytte)
+daily-goal = Dagleg mål
+weekly-goal = Vekemål
+easy-difficulty = Lett
+average-difficulty = Middels
+difficult-difficulty = Vanskeleg
+pro-difficulty = Proff
+want-to-continue = Vil du fortsetje?
+set-a-goal = Sett deg eit mål
+cant-decide = greier du ikkje å bestemme deg+
+confirm-goal = Stadfest mål
+goal-interval-weekly = Kvar veke
+share-goal-type-speak = Snakke
+share-goal-type-listen = Lytte
+share-goal = Del målet mitt
 
 ## Profile Delete
 

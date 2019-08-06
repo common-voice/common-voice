@@ -202,6 +202,7 @@ help-make-dataset = উচ্চ গুণমানৰ, ৰাজহুৱাভ
 profile-not-required = অৱদান কৰিবলৈ প্ৰ'ফাইলৰ প্ৰয়োজন নহয় যদিও ই উপযোগী, তলত চাওক কিয়।
 sign-up-account = একাউণ্ট এটাৰ বাবে ছাইন আপ কৰক
 email-subscription-title = ইমেইল আপডেটৰ বাবে ছাইন আপ কৰক
+email-subscription-title-new = Common Voice বাতৰিপত্ৰ, লক্ষ্য অনুস্মাৰক আৰু প্ৰগতিৰ আপডেটৰ বাবে ছাইন আপ কৰক
 
 ## Account Benefits
 
@@ -280,7 +281,7 @@ profile-form-age =
 profile-form-gender =
     .label = লিংগ
 leaderboard-visibility =
-    .label = লিডাৰব'ড দৃশ্যমানতা
+    .label = লিডাৰব'ৰ্ডৰ দৃশ্যমানতা
 hidden = লুকুৱা
 visible = দৃশ্যমান
 native-language =
@@ -319,8 +320,12 @@ off = বন্ধ
 on = চালু
 add-avatar-title = আপোনাৰ প্ৰ'ফাইলত এটা অৱতাৰ যোগ কৰক
 add-avatar-clip = আপোনাৰ প্ৰ'ফাইলত এটা অৱতাৰ ক্লিপ যোগ কৰক
+create-voice-wave = কণ্ঠলহৰ সৃষ্টি কৰক
 recording-voice-wave = ৰেকৰ্ড কৰি থকা হৈছে
 ready-to-upload = আপল'ড কৰক
+recreate-voice = কণ্ঠলহৰ পুনঃসৃষ্টি কৰক
+cancel-avatar-clip-recording = বাতিল
+about-avatar-clip = নিজৰ পৰিচয় দিবলৈ এটা অনুকূল কণ্ঠ লহৰ সৃষ্টি কৰক। অন্য ব্যৱহাৰকাৰীসকলে আপোনাৰ ক্লিপৰ উপৰত হ'ভাৰ কৰি সেইটো শুনিব পাৰিব।
 browse-file-title = ছবি ফাইল এখন আপল'ড কৰক
 browse-file = ধৰি টানি আনি এৰি দিয়ক বা <browseWrap>ব্ৰাউজ কৰক</browseWrap>
 connect-gravatar = Gravatar-ৰ সৈতে সংযোগ কৰক
@@ -347,6 +352,8 @@ faq-why-important-a =
     কণ্ঠ চিনাক্তকৰণক আৰু অধিক বিশ্বজনীন কৰিবলৈ, আমি ব্যাপকভাৱে কথিত ভাষাবোৰৰ লগতে খুব কম কওঁতা থকা ভাষাবোৰৰো কণ্ঠৰ নমুনা সংগ্ৰহ কৰি আছোঁ যিবোৰক প্ৰায়ে ব্যৱসায়িক কণ্ঠ চিনাক্তকৰণ সেৱাবোৰে গুৰুত্ব নিদিয়ে। কণ্ঠৰ বৈচিত্রময় ডাটাছেট প্ৰকাশ কৰাটোৱে ডেভেল'পাৰ, উদ্যোগী আৰু সমগ্র কথন সম্প্ৰদায়ক নিজেই এই পাৰ্থক্য দূৰ কৰিবলৈ ক্ষমতা প্ৰদান কৰিব।
 faq-how-get-q = মই Common Voice ডাটা কেনেকৈ পাব পাৰোঁ?
 faq-how-get-a = Common Voice ডাটাছেট <datasetLink>আমাৰ ডাটাছেট পৃষ্ঠা</datasetLink>ত <licenseLink>CC0</licenseLink> লাইচেঞ্চৰ অধীনত ডাউনল'ডৰ বাবে উপলব্ধ। আপুনি সেইখন পৃষ্ঠাৰ পৰাই আন বহুতো ৰাজহুৱাকৈ উপলব্ধ ডাটাছেট ডাউনল'ড কৰিব পাৰে।
+faq-when-release2-q = আপোনালোকে অন্য ভাষাবোৰত Common Voice ডাটা কেতিয়া মুকলি কৰিব?
+faq-when-release2-a = Common Voice ডাটাছেটৰ বহু-ভাষিক সংস্কৰণৰ বৰ্তমান সম্প্ৰদায়ৰ সহযোগত বাণ্ডলিং আৰু চাফাই কাৰ্য্য চলি আছে। যদি আপুনি Common Voice-ত নতুন ভাষা যোগ কৰাত আমাক সহায় কৰিব বিচাৰে, তেন্তে ডাটাছেটত নতুন বাক্য যোগ কৰিবলৈ <sentenceCollectorLink>বাক্য গোটোৱা সঁজুলি</sentenceCollectorLink> আৰু ৱেবছাইট অনুবাদ কৰিবলৈ Mozilla <pontoonLink>Pontoon</pontoonLink>-লৈ গৈ চাওক। কণ্ঠ অৱদানৰ বাবে Common Voice-ত নতুন ভাষা যোগ কৰা হয় যেতিয়া 5000টা অনুমোদিত বাক্য গোটোৱা হয়।
 faq-why-mission-q = Mozilla অভিযানৰ Common Voice অংশ কিয়?
 faq-what-cv-and-deepspeech-q = Common Voice আৰু Deep Speech-ৰ মাজত পাৰ্থক্য কি?
 faq-what-cv-and-deepspeech-a = Common Voice ডাটাছেটে Mozilla-ৰ মুকলি উৎসৰ কণ্ঠ চিনাক্তকৰণ ইঞ্জিন Deep Speech-ক পূৰ্ণ কৰে। Deep Speech-ৰ প্ৰথম সংস্কৰণ নৱেম্বৰ 2017-ত মুকলি কৰা হৈছিল আৰু তেতিয়াৰে পৰা ইয়াৰ বিকাশ হৈ আহিছে। Common Voice ডাটাছেটৰ লগত, আমাৰ বিশ্বাস যে এই মুকলি উৎসৰ কণ্ঠ চিনাক্তকৰণ প্ৰযুক্তি সকলোৰে বাবে উপলব্ধ হ'ব। আমাৰ আশা যে এই প্ৰযুক্তিবোৰে ডেভেল'পাৰসকলক অভিনৱ প্ৰডাক্ট আৰু সেৱাৰ ঢৌ অনাত সক্ষম কৰিব।
@@ -619,6 +626,7 @@ listen-last-time-instruction = <playIcon></playIcon>অন্তিম এটা
 nothing-to-validate = এই ভাষাত বৈধকৰণ কৰিবলৈ আমাৰ একো নাই, শাৰীটো পূৰ্ণ কৰাত আমাক সহায় কৰক।
 record-button-label = আপোনাৰ কণ্ঠ ৰেকৰ্ড কৰক
 share-title-new = আৰু কণ্ঠ বিচৰাত <bold>আমাক সহায় কৰক</bold>
+keep-track-profile = প্ৰ'ফাইল এটাৰে আপোনাৰ প্ৰগতিত চকু ৰাখক
 login-to-get-started = আৰম্ভ কৰিবলৈ লগ ইন বা ছাইন আপ কৰক
 
 ## Reporting
@@ -680,10 +688,15 @@ validated-clips = বৈধকৃত ক্লিপ
 total-approved = মুঠ অনুমোদিত
 overall-accuracy = সৰ্বমুঠ সঠিকতা
 set-visibility = মোৰ দৃশ্যমানতা ছেট কৰক
+visibility-explainer = এই ছেটিঙে আপোনাৰ লিডাৰব'ৰ্ডৰ দৃশ্যমানতা নিয়ন্ত্ৰণ কৰে। লুকুৱা থাকিলে, আপোনাৰ প্ৰগতি গোপনে থাকিব। ইয়াৰ অৰ্থ হ'ল আপোনাৰ ছবি, ব্যৱহাৰকাৰী নাম আৰু প্ৰগতি লিডাৰব'ৰ্ডত দেখা নাযাব। মন কৰিব যে লিডাৰব'ৰ্ড সতেজ হ'বলৈ ~{ $minutes } মিনিট লাগে যতে সেইটোত সাল-সলনি হয়।
+visibility-overlay-note = মন কৰিব: 'দৃশ্যমান' বুলি ছেট কৰা থাকিলে, এই ছেটিং <profileLink>প্ৰ'ফাইল পৃষ্ঠা</profileLink>ৰ পৰা সলনি কৰিব পাৰি
+show-ranking = মোৰ ৰেংকিং দেখুৱাওক
 
 ## Custom Goals
 
+get-started-goals = লক্ষ্যবোৰৰ সৈতে আৰম্ভ হৈ যাওক
 toward-next-goal = পৰৱৰ্তী লক্ষ্যৰ দিশে
+create-custom-goal = এটা অনুকূল লক্ষ্য সৃষ্টি কৰক
 both-speak-and-listen = দুয়োটা
 both-speak-and-listen-long = দুয়োটা (কথা কওঁক আৰু শুনক)
 daily-goal = দৈনিক লক্ষ্য
@@ -692,22 +705,37 @@ easy-difficulty = সহজ
 average-difficulty = গড়
 difficult-difficulty = কঠিন
 pro-difficulty = প্ৰ'
+lose-goal-progress-warning = আপোনাৰ লক্ষ্য সম্পাদনা কৰি আপুনি আপোনাৰ মজুত প্ৰগতি হেৰুৱাবও পাৰে।
 want-to-continue = আপুনি অব্যাহত ৰাখিব বিচাৰে নেকি?
 finish-editing = প্ৰথমে সম্পাদনা শেষ কৰিবনে?
 lose-changes-warning = এতিয়া এৰি যোৱা মানে আপুনি আপোনাৰ সাল-সলনি হেৰুৱাব
+build-custom-goal = এটা অনুকূল লক্ষ্য বনাওক
+help-reach-hours = ব্যক্তিগত লক্ষ্য এটাৰে { $language }ত { NUMBER($hours) } ঘণ্টালৈ গৈ পোৱাত সহায় কৰক
 set-a-goal = লক্ষ্য ছেট কৰক
 cant-decide = সিদ্ধান্ত ল'ব পৰা নাই?
+activity-needed-calculation = { NUMBER($totalHours) } ঘণ্টা প্ৰায় { NUMBER($periodMonths) } মাহৰ ভিতৰতে লাভ কৰিব পাৰি যদি { NUMBER($people) } গৰাকী ব্যক্তিয়ে এদিনত { NUMBER($clipsPerDay) }টা কৈ ক্লিপ ৰেকৰ্ড কৰে।
 how-many-per-day = বঢ়িয়া! এদিনত কেইটাকৈ ক্লিপ?
 how-many-a-week = বঢ়িয়া! এসপ্তাহত কেইটাকৈ ক্লিপ?
 which-goal-type = আপুনি কথা ক'ব, শুনিব নে দুয়োটা কৰিব বিচাৰে?
+receiving-emails-info = আপুনি বৰ্তমান লক্ষ্য অনুস্মাৰক, মোৰ প্ৰগতিৰ আপডেট আৰু Common Voice-ৰ বিষয়ে বাতৰিপত্ৰৰ দৰে ইমেইল প্ৰাপ্ত কৰাটো ছেট কৰি থৈছে
 n-clips = { NUMBER($count) }টা ক্লিপ
+help-share-goal = আমাক আৰু কণ্ঠ বিচৰাত সহায় কৰক, আপোনাৰ লক্ষ্য ভাগ-বতৰা কৰক
 confirm-goal = লক্ষ্য নিশ্চিত কৰক
 goal-interval-weekly = সপ্তাহিক
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type }ৰ বাবে আপোনাৰ { $count }টা ক্লিপৰ দৈনিক লক্ষ্য ভাগ-বতৰা কৰক
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type }ৰ বাবে আপোনাৰ { $count }টা ক্লিপৰ সপ্তাহিক লক্ষ্য ভাগ-বতৰা কৰক
 share-goal-type-speak = কথা কোৱা
 share-goal-type-listen = শুনা
 share-goal-type-both = কথা কোৱা আৰু শুনা
+# LINK will be replaced with the current URL
+goal-share-text = মই এইমাত্ৰ #CommonVoice প্ৰকল্পত কণ্ঠ দান কৰাৰ বাবে এটা ব্যক্তিগত লক্ষ্য সৃষ্টি কৰিলোঁ -- মোক যোগদান কৰি আচল লোকে কেনেকৈ কথা পাতে সেয়া মেশ্বিনবোৰক শিকোৱাত সহায় কৰক { $link }
 weekly-goal-created = আপোনাৰ সপ্তাহিক লক্ষ্য সৃষ্টি কৰা হৈছে
 daily-goal-created = আপোনাৰ দৈনিক লক্ষ্য সৃষ্টি কৰা হৈছে
+track-progress = ইয়াত আৰু আপোনাৰ পৰিসংখ্যা পৃষ্ঠাত প্ৰগতি ট্ৰেক কৰক।
+return-to-edit-goal = আপোনাৰ লক্ষ্য সম্পাদনা কৰিবলৈ যিকোনো সময়তে ইয়ালৈ ঘূৰি আহক।
+share-goal = মোৰ লক্ষ্য ভাগ-বতৰা কৰক
 
 ## Profile Delete
 
