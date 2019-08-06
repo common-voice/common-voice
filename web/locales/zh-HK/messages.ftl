@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
-stayintouch = 在 Mozilla 我們正在打造一個和語音技術相關的社群。我們想與您保持聯繫，提供新的技術、資料來源，和瞭解您會如何使用這些資料。
+stayintouch = 喺 Mozilla 哩度，我哋建立緊一個同語音技術相關嘅社群。我哋想同您保持聯繫，提供最新嘅消息同資料來源，亦想瞭解您會點樣使用哩啲資料。
 privacy-info = 我哋保證會小心處理您嘅資訊。如果要了解更多，請閲讀我們嘅<privacyLink>私隱權公告</privacyLink>。
 return-to-cv = 返回 Common Voice
 email-input =
@@ -51,6 +51,7 @@ es = 西班牙文
 et = 愛沙尼亞文
 eu = 巴斯克語
 fa = 波斯文
+ff = 富拉文
 fi = 芬蘭文
 fo = 法羅文
 fr = 法文
@@ -150,7 +151,7 @@ logout = 登出
 
 ## Home Page
 
-home-title = Common Voice 係 Mozilla 發起嘅計劃，用來訓練機器學識真人說話嘅方式。
+home-title = Common Voice 計劃係由 Mozilla 發起嘅，想幫機械學識好似真人咁發聲。
 home-cta = 在此貢獻您的聲音！
 wall-of-text-start = 語音係自然、有人性的。所以我們非常希望為機器建立可用的語音技術，但建立語音系統需要非常大量的語音數據。
 wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
@@ -359,6 +360,7 @@ about-is-it-valid-text = 若使用者投下「正確」，錄音片段就會標�
 about-yes-votes = ≥ 2 張「正確」票
 about-no-votes = ≥ 2 張「不正確」票
 about-no-votes-text = 若使用者投下不正確票，錄音片段就會回到隊列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
+about-dataset-new = Common Voice 數據集
 about-clip-graveyard = 片段回收桶
 about-partners = 合作夥伴
 about-become-a-partner = 成為合作夥伴
@@ -451,6 +453,7 @@ ready-to-validate = 準備好幫手驗證句子了嗎？
 more = 更多
 close = 關閉
 download = 下載
+dataset-version = 版本
 
 ## Download Modal
 
@@ -498,7 +501,7 @@ localized = 本地化進度
 sentences = 句子
 total-hours = 已驗證時數
 
-## New Contribution
+## Contribution
 
 action-click = 點擊
 action-tap = 點選
@@ -530,7 +533,6 @@ record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下一個片�
 record-again-instruction2 = 繼續加油，再錄一回！<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>最後一筆了！
 review-tooltip = 在此確認或重錄片段
-unable-speak = 現在無法錄音？
 review-instruction = 確認錄音內容，有需要的話可以重錄
 record-submit-tooltip = 準備好即可{ $actionType }送出
 clips-uploaded = 錄音片段已成功上載
@@ -546,6 +548,9 @@ listen-last-time-instruction = <playIcon></playIcon> 最後一個！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
+
+## Reporting
+
 
 ## Goals
 
@@ -581,6 +586,10 @@ validated-clips = 已被驗證的錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
 
+## Custom Goals
+
+toward-next-goal = 距離下一個目標
+
 ## Profile Delete
 
 delete-q = 您想刪除埋所有您的錄音，還是要將錄音保留喺 Common Voice 嘅資料集中？
@@ -596,3 +605,6 @@ profile-form-delete = 刪除個人檔案
 
 ## Landing
 
+welcome-staff = 你好 { $company } 的員工！
+login-company = 以 { $company } 電郵登入 / 註冊
+read-more-about = 去關於我們的頁面瞭解更多
