@@ -154,7 +154,7 @@ export default async function getLeaderboard({
   const userRegion =
     userIndex == -1 ? [] : leaderboard.slice(userIndex - 1, userIndex + 2);
   const partialBoard = [
-    ...leaderboard.slice(0, 3 + Math.max(0, 3 - userRegion.length)),
+    ...leaderboard.slice(0, 10 + Math.max(0, 10 - userRegion.length)),
     ...userRegion,
   ];
   return prepareRows(

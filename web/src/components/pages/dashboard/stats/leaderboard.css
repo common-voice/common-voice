@@ -12,6 +12,10 @@
 
     & .stats-card__inner {
         transition: all var(--easing) var(--transition-duration-slow);
+
+        @media (--md-down) {
+            height: 390px;
+        }
     }
 
     &.has-overlay {
@@ -219,7 +223,7 @@
 .leaderboard {
     margin: 10px 0 0;
     padding: 0 20px;
-    max-height: 170px;
+    max-height: 195px;
     width: 100%;
     box-sizing: border-box;
     overflow: auto;
