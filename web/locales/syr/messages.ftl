@@ -27,6 +27,10 @@ help = ܥܘܼܕ݂ܪܵܢܵܐ
 
 ## Home Page
 
+vote-yes = ܗܹܐ
+vote-no = ܠܵܐ
+all-locales = ܟܠ
+today = ܐܸܕܝܘܿܡ
 
 ## Account Benefits
 
@@ -99,6 +103,7 @@ your-languages = ܠܹܫܵܢܘܟ݂ܘܢ
 
 ## Profile Delete
 
+keep = ܢܵܛܹܪ
 
 ## Landing
 
