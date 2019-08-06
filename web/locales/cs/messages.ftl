@@ -429,6 +429,8 @@ glossary = Slovník
 localization = Lokalizace
 sentence-collection = Sbírka vět
 sentence-collection-explanation = Sběr vět ve veřejné doméně, nebo tvorba nových vět ve veřejné doméně.
+hours-recorded-explanation = Počet hlasových nahrávek, které jsme doposud sesbírali.
+hours-validated-explanation = Počet hlasových nahrávek, které byly validovány alespoň dvěma ze tří uživatelů prostřednictvím hlasu pro "Ano". Tyto nahrávky jsou započítávány do postupu k celkovému cíli projektu sesbírat 10 000 hodin záznamů.
 sst = Převod řeči na text (STT)
 sst-explanation = Technologie převodu řeči na text (STT) převádí hlasová data na text.
 
