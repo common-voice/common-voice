@@ -306,7 +306,7 @@ class AvatarSetup extends React.Component<Props> {
     console.log(avatarClipUrl);
     return (
       <div className="full-avatar-setup">
-        {isProduction && (
+        {!isProduction() && (
           <div className="clip">
             <Localized id="add-avatar-clip">
               <h2 className="clip-title" />
