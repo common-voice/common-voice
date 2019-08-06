@@ -363,16 +363,24 @@ about-header-description =
 how-does-it-work-title = 原理是甚麼？
 about-speak = 講話
 about-listen-queue = 聆聽隊列
+about-listen-queue-text = 錄音片段會被放入隊列排隊，準備接受聆聽確認。
 about-listen = 聆聽
+about-listen-text = 使用者確認錄音片段是否精準，並確認說話者是否正確地讀出了句子。
 about-is-it-valid = 片段正確嗎？
 about-is-it-valid-text = 若使用者投下「正確」，錄音片段就會標示為有效。
 about-yes-votes = ≥ 2 張「正確」票
+about-yes-votes-text = 必須經過兩位不同的使用者確認過，錄音片段才會進入 Common Voice 數據集。
 about-no-votes = ≥ 2 張「不正確」票
 about-no-votes-text = 若使用者投下不正確票，錄音片段就會回到隊列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
 about-dataset-new = Common Voice 數據集
+about-dataset-new-text = Common Voice 數據集包含數十萬條語音樣本，可以幫助開發語音識別工具。
 about-clip-graveyard = 片段回收桶
 about-partners = 合作夥伴
 about-become-a-partner = 成為合作夥伴
+about-partnership =
+    Common Voice 是一套由眾人合力而成的計劃。我們依賴由夥伴與貢獻者所組成的社群，來打造有史以來最大的開放原碼語音數據集。
+    
+    特別感謝下列人員與組織單位對本計劃的幫助：
 about-get-involved = 參與我們
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
