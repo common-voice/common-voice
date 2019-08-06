@@ -24,6 +24,7 @@
     .clip-title {
         position: relative;
         left: 20%;
+        right: 20%;
         padding-top: 10px;
     }
     .group-1 {
@@ -59,6 +60,7 @@
         background-color: var(--white);
         position: relative;
         left: 29%;
+        right: 29%;
         text-decoration: none;
 
         &:hover {
@@ -72,6 +74,7 @@
         background-color: #59cbb7;
         position: relative;
         left: 9%;
+        right: 9%;
         color: white;
         text-decoration: none;
 
@@ -88,6 +91,7 @@
         background-color: var(--white);
         position: relative;
         left: 8%;
+        right: 8%;
         color: green;
 
         text-decoration: none;
