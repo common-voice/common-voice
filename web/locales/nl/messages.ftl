@@ -320,6 +320,13 @@ off = Uit
 on = Aan
 add-avatar-title = Een avatar aan uw profiel toevoegen
 add-avatar-clip = Voeg een avatarfragment toe aan uw profiel
+create-voice-wave = Voicewave maken
+recording-voice-wave = Opname loopt
+ready-to-upload = Uploaden
+avatar-clip-fact = Het is een bekend feit dat wanneer een lezer naar de lay-out kijkt, door de leesbare inhoud van een pagina wordt afgeleid.
+recreate-voice = Voicewave opnieuw maken
+cancel-avatar-clip-recording = Annuleren
+about-avatar-clip = Maak een aangepaste voicewave om uzelf voor te stellen. Andere gebruikers kunnen met de muis over uw clip gaan en naar uw clip luisteren.
 browse-file-title = Een afbeeldingsbestand uploaden
 browse-file = Verslepen of <browseWrap>Bladeren</browseWrap>
 connect-gravatar = Koppelen met Gravatar
@@ -683,6 +690,7 @@ clips-you-validated = Door u gevalideerde fragmenten
 todays-recorded-progress = Voortgang van Common Voice vandaag omtrent opgenomen fragmenten
 todays-validated-progress = Voortgang van Common Voice vandaag omtrent gevalideerde fragmenten
 stats = Statistieken
+awards = Prijzen
 you = U
 everyone = Iedereen
 contribution-activity = Medewerkersactiviteit
@@ -694,6 +702,7 @@ overall-accuracy = Algemene nauwkeurigheid
 set-visibility = Mijn zichtbaarheid instellen
 visibility-explainer = Deze instelling regelt de zichtbaarheid van uw voortgangsstatus. Als deze op Verborgen is ingesteld, is uw voortgang privé. Dit betekent dat uw afbeelding, gebruikersnaam en voortgang niet op het overzicht zullen verschijnen. Merk op dat het tot { $minutes } minuten duurt voordat wijzigingen in het overzicht zijn verwerkt.
 visibility-overlay-note = Noot: Wanneer dit op ‘Zichtbaar’ is ingesteld, dan kan deze instelling van uw <profileLink>Profielpagina</profileLink> worden gewijzigd
+show-ranking = Mijn ranglijst tonen
 
 ## Custom Goals
 
