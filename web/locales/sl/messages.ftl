@@ -695,6 +695,7 @@ cant-decide = Se ne morete odločiti?
 how-many-per-day = Odlično! Koliko posnetkov na dan?
 how-many-a-week = Odlično! Koliko posnetkov na teden?
 which-goal-type = Želite govoriti, poslušati ali oboje?
+n-clips = { NUMBER($count) } posnetkov
 goal-interval-weekly = Tedensko
 share-goal-type-listen = Poslušanje
 share-goal = Deli moj cilj
