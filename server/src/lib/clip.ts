@@ -68,10 +68,15 @@ export default class Clip {
     router.get('/votes/leaderboard', this.serveVoteLeaderboard);
     router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
+    router.get('/:clip_id', this.serveClip);
     router.get('*', this.serveRandomClips);
 
     return router;
   }
+
+  serveClip = async ({ params }: Request, response: Response) => {
+    response.redirect(await this.bucket.getClipUrl(params.clip_id));
+  };
 
   saveClipVote = async (
     { client_id, body, params }: Request,
