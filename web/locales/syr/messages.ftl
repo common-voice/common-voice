@@ -93,6 +93,8 @@ languages-show-less = ܚܙܝܼ ܒܵܨܘܿܪܵܐ
 ## Contribution
 
 listen = ܫܡܥܝܼ
+skip = ܫܵܘܹܪ
+shortcuts = ܦܣܵܩܹܐ
 
 ## Reporting
 
