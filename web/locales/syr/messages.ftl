@@ -87,9 +87,12 @@ contact-required = ܘܵܠܝܵܝܵܐ*
 
 ## Languages Overview
 
+languages-show-more = ܚܙܝܼ ܝܲܬܝܼܪ
+languages-show-less = ܚܙܝܼ ܒܵܨܘܿܪܵܐ
 
 ## Contribution
 
+listen = ܫܡܥܝܼ
 
 ## Reporting
 
