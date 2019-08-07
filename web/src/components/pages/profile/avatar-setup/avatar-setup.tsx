@@ -116,7 +116,7 @@ class AvatarSetup extends React.Component<Props> {
   maxVolume = 0;
   recordingStartTime = 0;
   recordingStopTime = 0;
-  //avatarClipUrl: any = null;
+  avatarRecordedBlobUrl: any = null;
 
   async componentDidMount() {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
@@ -158,11 +158,23 @@ class AvatarSetup extends React.Component<Props> {
   };
 
   private playAvatarClip = async () => {
-    const audio = new Audio(this.state.avatarClipUrl);
-    this.setState({ avatarClipPlaying: true });
-    audio.play();
-    audio.onended = () => this.setState({ avatarClipPlaying: false });
-    audio.onerror = () => this.setState({ avatarClipPlaying: false });
+    if (!this.state.avatarClipPlaying) {
+      const audio = new Audio(this.state.avatarClipUrl);
+      this.setState({ avatarClipPlaying: true });
+      audio.play();
+      audio.onended = () => this.setState({ avatarClipPlaying: false });
+      audio.onerror = () => this.setState({ avatarClipPlaying: false });
+    }
+  };
+
+  private playRecordedAvatarClip = async () => {
+    if (!this.state.avatarClipPlaying) {
+      const audio = new Audio(this.avatarRecordedBlobUrl);
+      this.setState({ avatarClipPlaying: true });
+      audio.play();
+      audio.onended = () => this.setState({ avatarClipPlaying: false });
+      audio.onerror = () => this.setState({ avatarClipPlaying: false });
+    }
   };
 
   private handleRecordClick = async () => {
@@ -204,6 +216,7 @@ class AvatarSetup extends React.Component<Props> {
     const RECORD_STOP_DELAY = 500;
     setTimeout(async () => {
       const info = await this.audio.stop();
+      this.avatarRecordedBlobUrl = info.url;
       this.setState({ blobUrl: info.blob });
       this.setState({ clipStatus: 'recorded' });
       //this.uploadAvatarClip(info.blob);
@@ -341,7 +354,16 @@ class AvatarSetup extends React.Component<Props> {
                   </Suspense>
                 </div>
               )}
-              {clipStatus === 'recorded' && <div className="lottiebg"></div>}
+              {clipStatus === 'recorded' && (
+                <div className="lottiebg">
+                  <div className="recorded-play">
+                    <PlayButton
+                      isPlaying={avatarClipPlaying}
+                      onClick={this.playRecordedAvatarClip}
+                    />
+                  </div>
+                </div>
+              )}
             </div>
             {(clipStatus === 'notStarted' || clipStatus === 'starting') &&
               (avatarClipUrl === 'empty' && (

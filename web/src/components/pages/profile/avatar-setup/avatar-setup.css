@@ -24,24 +24,25 @@
     .clip-title {
         position: relative;
         left: 20%;
+        right: 20%;
         padding-top: 10px;
     }
     .group-1 {
-        width: 108%;
+        width: 508px;
         height: 169px;
         object-fit: contain;
         background-image: url('./group-1.svg');
     }
 
     .lottiebg {
-        width: 100%;
+        width: 508px;
         height: 169px;
         object-fit: contain;
         background-image: url('./groupbg.svg');
     }
 
     .lottie {
-        width: 100%;
+        width: 508px;
         height: 169px;
     }
 
@@ -59,6 +60,7 @@
         background-color: var(--white);
         position: relative;
         left: 29%;
+        right: 29%;
         text-decoration: none;
 
         &:hover {
@@ -72,6 +74,7 @@
         background-color: #59cbb7;
         position: relative;
         left: 9%;
+        right: 9%;
         color: white;
         text-decoration: none;
 
@@ -88,6 +91,7 @@
         background-color: var(--white);
         position: relative;
         left: 8%;
+        right: 8%;
         color: green;
 
         text-decoration: none;
@@ -127,22 +131,34 @@
 
     .fix {
         height: 240px;
-        width: 100%;
+        width: 508px;
     }
     .start-in {
         position: relative;
-        top: -8px;
+        top: -12px;
         width: 39px;
         height: 18px;
+        font-size: 9px;
+        font-weight: normal;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
         text-align: center;
         color: grey;
     }
 
     .counter-digit {
-        font-size: 24px;
+        font-size: 16px;
+        font-style: normal;
         font-weight: 600;
         text-align: center;
-        color: var(--greyish-brown);
+        color: #4a4a4a;
+    }
+
+    .recorded-play {
+        position: relative;
+        top: 30px;
     }
 }
 
