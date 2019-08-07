@@ -144,10 +144,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     if (!row) return;
 
     const scroller = this.scroller.current;
-    scroller.scrollTop =
-      row.offsetTop -
-      scroller.offsetTop +
-      scroller.getBoundingClientRect().height / 2;
+    scroller.scrollTop = row.offsetTop - scroller.offsetTop;
     this.updateScrollIndicator();
   };
 
