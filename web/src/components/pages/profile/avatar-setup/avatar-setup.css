@@ -57,7 +57,7 @@
     .primary {
         width: 30%;
         height: 57px;
-        background-color: var(--white);
+
         position: relative;
         left: 29%;
         right: 29%;
@@ -66,6 +66,14 @@
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
             box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
+            & svg {
+                background: white;
+                color: red;
+                opacity: 1;
+                & path {
+                    fill: red;
+                }
+            }
         }
     }
     .primary-2 {
@@ -75,12 +83,18 @@
         position: relative;
         left: 9%;
         right: 9%;
-        color: white;
+        color: green;
         text-decoration: none;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
             box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
+            & svg {
+                opacity: 1;
+                & path {
+                    fill: grey;
+                }
+            }
         }
     }
 
@@ -99,6 +113,12 @@
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
             box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
+            & svg {
+                opacity: 1;
+                & path {
+                    fill: grey;
+                }
+            }
         }
     }
 
@@ -124,9 +144,6 @@
     .counter {
         position: relative;
         top: 35px;
-    }
-
-    .animation {
     }
 
     .fix {
