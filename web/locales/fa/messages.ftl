@@ -731,6 +731,29 @@ build-custom-goal = یک هدف سفارشی بسازید
 help-reach-hours = در رسیدن به { NUMBER($hours) } ساعت به زبان { $language } با یک هدف شخصی کمک کنید
 set-a-goal = یک هدف تنظیم کنید
 cant-decide = نمی‌توانید تصمیم بگیرید؟
+activity-needed-calculation = { NUMBER($totalHours) } ساعت فقط در بیش از { NUMBER($periodMonths) } ماه دست‌یافتنی است اگر افراد هر روز یک { NUMBER($clipsPerDay) } برش صوتی ضبط کنند.
+how-many-per-day = عالی است! چه تعداد برش صوتی در روز؟
+how-many-a-week = عالی است! چه تعداد برش صوتی در هفته؟
+which-goal-type = می‌خواهید صحبت کنید، بشنوید یا هردو؟
+receiving-emails-info = شما در حال حاضر پست های الکترونیکی دریافت خواهید کرد شامل  یادآورهای هدف، به‌روزرسانی‌های پیشرفت و خبرنامه‌هایی درباره صدای مشترک.
+n-clips = { NUMBER($count) } برش‌ها
+help-share-goal = به ما کمک کنید صداهای بیشتری بیابیم، هدف‌تان را به اشتراک بگذارید
+confirm-goal = تایید هدف
+goal-interval-weekly = هفتگی
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = هدف روزانه { $count } برش‌های صوتی خود را برای { $type } به اشتراک بگذارید
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = هدف هفتگی { $count } برش‌های صوتی خود را برای { $type } به اشتراک بگذارید
+share-goal-type-speak = صحبت
+share-goal-type-listen = شنیدن
+share-goal-type-both = صحبت و شنیدن
+# LINK will be replaced with the current URL
+goal-share-text = من به تازگی هدف شخصی برای اهدای صدا به #CommonVoice ساختم -- به من ملحق شوید و به آموزش ماشین‌ها برای درک چگونگی صحبت‌کردن افراد حقیقی کمک کنید { $link }
+weekly-goal-created = هدف هفتگی شما ساخته شد
+daily-goal-created = هدف روزانه شما ساخته شد
+track-progress = پیشرفت را اینجا و در صفحه آمار خودتان پیگیری کنید.
+return-to-edit-goal = برای ویرایش هدف‌تان هر زمان اینجا برگردید.
+share-goal = هدفم را به اشتراک بگذار
 
 ## Profile Delete
 
@@ -747,4 +770,8 @@ profile-form-delete = حذف نمایه
 
 ## Landing
 
+welcome-staff = کارمند { $company } خوش آمدید‍!
+help-contribute = شما می‌توانید در ساختن یک مجموعه داده‌های متنوع و متن‌باز با ساختن یک نمایه در صدای مشترک و مشارکت‌کردن با اهدای صدای خود کمک کنید.
+login-company = با پست الکترونیکی { $company } وارد شوید / ثبت‌نام کنید
 profile-not-required = داشتن یک نمایه لازم نیست هرچند برای مشارکت مفید است
+read-more-about = در صفحه درباره ما بیشتر بخوانید
