@@ -86,6 +86,7 @@ mk = Mazedoniera
 ml = Malabarera
 mn = Mongoliera
 mrj = Mendietako mariera
+mt = Maltera
 myv = Erziera
 nb-NO = Bokmåla
 ne-NP = Nepalera
@@ -107,6 +108,7 @@ sl = Esloveniera
 sq = Albaniera
 sr = Serbiera
 sv-SE = Suediera
+syr = Siriera
 ta = Tamilera
 te = Telugua
 tg = Tajikera
@@ -314,6 +316,7 @@ skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun
 off = Itzalita
 on = Piztuta
 add-avatar-title = Gehitu avatar bat zure profilari
+cancel-avatar-clip-recording = Utzi
 browse-file-title = Igo irudi-fitxategi bat
 browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
 connect-gravatar = Konektatu Gravatarrera
@@ -337,8 +340,6 @@ faq-why-important-q = Zergatik da garrantzitsua?
 faq-why-important-a = Ahotsa gure artean komunikatzeko dugun modurik naturalena da eta ahots teknologiek gaitasun hori gure ordenagailu eta sakelakoek izatea lortzen ari dira. Garatzaileak hizketaren ezagutza aplikazio txundigarriak sortzeko ahaldundu nahi ditugu, denbora errealeko itzultzaileak edo ahots bidezko asistente digitalak bezala. Baina oraintxe bertan, era honetako app-ak sortzeko behar diren ahots-datuak garestiak eta jabedunak dira. Common Voice datu-sortarekin, berritzaileak izateko eta ahots teknologiak beraien hizkuntzetan eskuragarri jartzeko garatzaileek behar dutena ematea espero dugu.
 faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
 faq-how-get-a = Common Voice datu-sorta deskargagarri dago <licenseLink>CC0</licenseLink></licenseLink> lizentziapean gure <datasetLink>datu-sorta orrian</datasetLink>. Bertatik, publikoki deskargagarri dauden beste hainbat datu-sorta ere deskargatu ditzakezu.
-faq-when-release-q = Noiz aterako duzue Common Voice beste hizkuntzetan?
-faq-when-release-a = Komunitatea, Common Voice datu-sortaren bertsio eleaniztuna prestatzen eta garbitzen ari da. Lan honetan lagundu nahi baduzu, <contactLink>kontakta gaitzazu</contactLink>. Orain, gure helburua 2019ko urtarrilean argitaratzea da. Ondoren, aldian-aldian hizkuntzak gehituko ditugu eta grabaketa berriak eskuragarri jartzen joango gara. Oraingoz ez dago argitalpen-zikloaren erritmorik zehaztuta.
 faq-why-mission-q = Zergatik da Common Voice  Mozilla misioaren parte?
 faq-why-mission-a = Mozillaren egitekoa, weba guztiontzat irekia eta eskuragarri mantentzea da. Horretarako, web sortzaileak Common Voice bezalako proiektuekin ahaldundu behar ditugu. Ahots teknologiek beraien merkatu-nitxotik haratagoko aplikazioetara hedatzen diren heinean, uste dugu erabiltzaile guztiei berdin zerbitzatu behar dietela. Horregatik saiatzen gara hizkuntza gehiagotara zabaltzen eta ahots teknologien sortzea eta proba, hizkera eta talde demografiko ezberdinetara moldatzen. Common Voice guztientzat eskuragarri dagoen baliabide publiko bat da eta munduan zehar dauden Mozilla taldeek eta garatzaileek, dagoeneko beraien proiektuetarako erabiltzen ari dira.
 faq-what-cv-and-deepspeech-q = Zein desberdintasun dago Common Voice-n eta Deep Speech-en artean?
@@ -550,7 +551,7 @@ localized = Lokalizatuta
 sentences = Esaldiak
 total-hours = Balioztatutako orduak
 
-## New Contribution
+## Contribution
 
 action-click = Egin klik
 action-tap = Sakatu
@@ -583,7 +584,6 @@ record-again-instruction = Bikain!<recordIcon></recordIcon> Egin zure hurrengo g
 record-again-instruction2 = Segi horrela! grabatu berriro <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Azkena!
 review-tooltip = Berrikusi eta grabaketak berregin hemen egin ahala
-unable-speak = Ezin duzu mintzatu orain?
 review-instruction = Berrikusi eta grabaketak berriz egin beharrezkoa bada
 record-submit-tooltip = { $actionType } bidali prest egotean
 clips-uploaded = Grabaketak igota
@@ -599,6 +599,10 @@ listen-last-time-instruction = <playIcon></playIcon> Azkena!
 nothing-to-validate = Ez daukagu ezer balioztatzeko hizkuntza honetan, lagun gaitzazu ilara betetzen.
 record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
+
+## Reporting
+
+continue = Jarraitu
 
 ## Goals
 
@@ -637,6 +641,24 @@ validated-clips = Balioztatutako grabaketak
 total-approved = Onartuak guztira
 overall-accuracy = Zehaztasun orokorra
 
+## Custom Goals
+
+toward-next-goal = Hurrengo helbururantz
+create-custom-goal = Sortu helburu pertsonalizatua
+both-speak-and-listen = Biak
+both-speak-and-listen-long = Biak (hitz egin eta entzun)
+daily-goal = Eguneko helburua
+weekly-goal = Asteko helburua
+easy-difficulty = Erraza
+average-difficulty = Ertaina
+difficult-difficulty = Zaila
+pro-difficulty = Profesionala
+want-to-continue = Jarraitu egin nahi duzu?
+finish-editing = Editatzea amaitu lehenengo?
+lose-changes-warning = Orain utziz gero zure aldaketak galduko dituzu
+confirm-goal = Berretsi helburua
+share-goal = Partekatu nire helburua
+
 ## Profile Delete
 
 delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago duzu Common Voicen datu-sortan manten daitezen?
@@ -653,3 +675,4 @@ profile-form-delete = Ezabatu profila
 ## Landing
 
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
+read-more-about = Irakurri gehiago guri buruzko orrian
