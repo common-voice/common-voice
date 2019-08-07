@@ -76,6 +76,11 @@ today = ܐܸܕܝܘܿܡ
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ܫܸܡܵܐ
+contact-form-message =
+    .label = ܛܸܐܒ݂ܵܐ
+contact-required = ܘܵܠܝܵܝܵܐ*
 
 ## Request Language Modal
 
