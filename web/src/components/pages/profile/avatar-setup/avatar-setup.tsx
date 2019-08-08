@@ -184,7 +184,6 @@ class AvatarSetup extends React.Component<Props> {
     }
 
     try {
-      //await this.audio.init();
       await this.startRecording();
 
       const clipTime = 5000;
@@ -305,7 +304,6 @@ class AvatarSetup extends React.Component<Props> {
       },
     };
 
-    console.log(avatarClipUrl);
     return (
       <div className="full-avatar-setup">
         {!isProduction() && (
@@ -431,7 +429,7 @@ class AvatarSetup extends React.Component<Props> {
             )}
           </div>
         )}
-        <div>
+        <div className="photo-avatar">
           <fieldset className="avatar-setup" disabled={this.state.isSaving}>
             <Localized id="add-avatar-title">
               <h2 />
