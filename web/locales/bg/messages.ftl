@@ -498,6 +498,7 @@ other-language = Друг език
 
 language-section-in-progress = В процес
 language-section-launched = Започнали
+language-section-launched-description = За тези започнати езици сайтът е успешно <localizationGlossaryLink>преведен</localizationGlossaryLink> и има достатъчно <sentenceCollectionGlossaryLink>събрани изречения</sentenceCollectionGlossaryLink>, за да започнете да <speakLink>говорите</speakLink> и <listenLink>слушате</ listenLink >.
 languages-show-more = Вижте повече
 languages-show-less = Вижте по-малко
 language-speakers = Говорители
@@ -506,7 +507,7 @@ language-total-progress = Общо
 language-search-input =
     .placeholder = Търсене
 language-speakers = Говорители
-localized = Локализирани
+localized = Превод
 sentences = Изречения
 total-hours = Проверени часове
 
@@ -621,6 +622,7 @@ share-goal-type-both = Говорене и слушане
 goal-share-text = Току-що създадох лична цел за даряване на глас към #CommonVoice - присъединете се и нека да помогнем на машините да научат как говорят истинските хора { $link }
 weekly-goal-created = Седмичната ви цел е създадена
 daily-goal-created = Дневната ви цел е създадена
+return-to-edit-goal = Върнете се тук, за да променяте целите си по всяко време.
 share-goal = Споделяне на моята цел
 
 ## Profile Delete
@@ -634,6 +636,7 @@ profile-form-delete = Изтриване на профила
 ## Landing
 
 welcome-staff = Добре дошли от { $company }!
+help-contribute = Можете да помогнете за изграждането на разнообразен набор от данни с отворен код чрез създаване на общ гласов профил и дарявайки гласа си.
 login-company = Влезте / регистрирайте се с имейл от { $company }
 profile-not-required = Не е задължително да имате профил, за да допринасяте, въпреки че е полезно
 read-more-about = Прочетете повече на страницата Относно
