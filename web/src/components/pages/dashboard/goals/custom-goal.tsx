@@ -9,6 +9,7 @@ import { PenIcon } from '../../../ui/icons';
 import steps, { ViewGoal } from './custom-goal-steps';
 
 import './custom-goal.css';
+import { useRouter } from '../../../../hooks/use-router';
 
 const STATE_KEYS: ReadonlyArray<keyof CustomGoalParams> = [
   null, // first step has no state
@@ -201,12 +202,22 @@ export default function CustomGoal({
 }: {
   dashboardLocale: string;
 }) {
+  const { history, location } = useRouter();
   const api = useAPI();
-  const { custom_goals, email } = useAccount();
+  const account = useAccount();
+  const { custom_goals, email } = account;
   const customGoal = custom_goals.find(g => g.locale == dashboardLocale);
   const refreshUser = useAction(User.actions.refresh);
+  const saveAccount = useAction(User.actions.saveAccount);
 
-  const [stepIndex, setStepIndex] = useState(STEPS.INTRO);
+  const hasStartParam = location.search.includes('start');
+  const [stepIndex, setStepIndex] = useState(
+    !customGoal && hasStartParam ? STEPS.EDIT_START : STEPS.INTRO
+  );
+  if (hasStartParam) {
+    history.replace(location.pathname);
+  }
+
   const [touchedStepIndex, setTouchedStepIndex] = useState(STEPS.INTRO);
   const [subscribed, setSubscribed] = useState(false);
   const initialState = customGoal
@@ -255,6 +266,15 @@ export default function CustomGoal({
     if (nextIndex == STEPS.COMPLETED) {
       setTouchedStepIndex(STEPS.INTRO);
       await api.createGoal(dashboardLocale, state);
+      if (!account.locales.some(l => l.locale == dashboardLocale)) {
+        await saveAccount({
+          ...account,
+          locales: account.locales.concat({
+            locale: dashboardLocale,
+            accent: '',
+          }),
+        });
+      }
       if (subscribed) {
         await api.subscribeToNewsletter(email);
       }

@@ -5,8 +5,13 @@ import { CustomGoal, CustomGoalParams } from 'common/goals';
 import { UserClient } from 'common/user-clients';
 import URLS from '../../../../urls';
 import { useAccount } from '../../../../hooks/store-hooks';
+import { useRouter } from '../../../../hooks/use-router';
 import { getManageSubscriptionURL } from '../../../../utility';
-import { LocaleLink } from '../../../locale-helpers';
+import {
+  contributableLocales,
+  LocaleLink,
+  useLocale,
+} from '../../../locale-helpers';
 import ShareModal from '../../../share-modal/share-modal';
 import {
   ArrowLeft,
@@ -16,7 +21,7 @@ import {
   SettingsIcon,
   ShareIcon,
 } from '../../../ui/icons';
-import { Button, LinkButton } from '../../../ui/ui';
+import { Button, LabeledSelect, LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
 
 const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
@@ -100,29 +105,67 @@ interface AccountProps {
 }
 
 export default [
-  withLocalization(({ getString, dashboardLocale, nextButtonProps }: any) => (
-    <>
-      <div className="padded">
-        <Localized id="build-custom-goal">
-          <h1 />
-        </Localized>
-        <Localized
-          id="help-reach-hours"
-          $hours={10000}
-          $language={getString(dashboardLocale)}>
-          <span className="sub-head" />
-        </Localized>
-      </div>
+  withLocalization(({ getString, dashboardLocale, nextButtonProps }: any) => {
+    const { history } = useRouter();
+    const [, toLocaleRoute] = useLocale();
+    const [locale, setLocale] = useState('');
+    return (
+      <>
+        <div className="padded">
+          <Localized id="build-custom-goal">
+            <h1 />
+          </Localized>
+          <Localized
+            id="help-reach-hours"
+            $hours={10000}
+            $language={getString(dashboardLocale)}>
+            <span className="sub-head" />
+          </Localized>
+        </div>
 
-      <div className="waves">
-        <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
-      </div>
+        <div className="waves">
+          <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
+        </div>
 
-      <Localized id="set-a-goal">
-        <Button className="get-started-button" rounded {...nextButtonProps} />
-      </Localized>
-    </>
-  )),
+        {!dashboardLocale && (
+          <Localized
+            id="request-language-form-language"
+            attrs={{ label: true }}>
+            <LabeledSelect
+              value={locale}
+              onChange={(event: any) => setLocale(event.target.value)}>
+              <option key="empty" value="" />
+              {contributableLocales.map(l => (
+                <Localized id={l}>
+                  <option key={l} value={l} />
+                </Localized>
+              ))}
+            </LabeledSelect>
+          </Localized>
+        )}
+
+        <Localized id="set-a-goal">
+          <Button
+            className="get-started-button"
+            rounded
+            {...nextButtonProps}
+            disabled={!dashboardLocale && !locale}
+            onClick={
+              dashboardLocale
+                ? nextButtonProps.onClick
+                : () => {
+                    history.push(
+                      toLocaleRoute(
+                        URLS.DASHBOARD + '/' + locale + URLS.GOALS + '?start'
+                      )
+                    );
+                  }
+            }
+          />
+        </Localized>
+      </>
+    );
+  }),
 
   ({ closeButtonProps, currentFields, nextButtonProps }) => (
     <>

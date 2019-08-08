@@ -212,13 +212,22 @@
             margin-bottom: 80px;
         }
 
+        & select {
+            margin-bottom: 20px;
+        }
+
         & .get-started-button {
-            border: none;
+            border: transparent;
+            margin-bottom: 20px;
             padding: 0 33px;
             min-width: auto;
             height: 57px;
             background: var(--blue);
             color: var(--white);
+
+            &:hover {
+                border: 1px solid black;
+            }
         }
     }
 

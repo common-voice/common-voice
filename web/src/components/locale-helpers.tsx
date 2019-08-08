@@ -5,7 +5,7 @@ import { Locale } from '../stores/locale';
 import StateTree, { useTypedSelector } from '../stores/tree';
 import { Localized } from 'fluent-react/compat';
 
-export const contributableLocales = require('../../../locales/contributable.json');
+export const contributableLocales = require('../../../locales/contributable.json') as string[];
 export const discourseLocales = require('../../../locales/discourse.json');
 
 export interface LocalePropsFromState {
