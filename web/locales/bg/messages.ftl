@@ -448,21 +448,33 @@ review-delete-recordings = Изтриване на моите записи
 
 ## Datasets Page
 
-datasets-headline = Изграждаме многоезичен масив от гласови записи с отворен код, които всеки може да използва да обучава гласови приложения.
+datasets-headline = Изграждаме многоезичен масив от гласове с отворен код, които всеки може да използва за обучение на приложения с гласови възможности.
 language = Език
 # File size in gigabytes
 size = Размер
 validated-hr-total = Общо проверени часове
 overall-hr-total = Общо часове
 cv-license = Лиценз
+audio-format = Вид на записа
 number-of-voices = Брой гласове
 splits = Разделения
+email-to-download = Изтегляне с имейл
 size-gigabyte = ГБ
 size-megabyte = МБ
 validated-hours = Проверени часове
 recorded-hours = Записани часове
+whats-inside = Какво съдържа масивът от данни на Common Voice?
+dataset-description-hours =
+    Всеки запис в този масив се състои от уникален файл MP3 и съответстващия му текстов файл. Много от записаните <b>{ $total }</b> часа включват също така демографска информация като възраст, пол и акцент, които могат да помогнат за обучението на точността на машините за разпознаване реч.
+    
+    В момента масивът съдържа <b>{ $valid }</b> часа проверени записи на <b>{ $languages }</b> езика, но постоянно добавяме нови гласове и езици. Разгледайте нашата <languagesLink>страница с езиците</languagesLink>, за да заявите език или да започнете да допринасяте.
+want-dataset-update = Искате да ви уведомяваме, когато пуснем нова версия на масива на Common Voice? Абонирайте се за бюлетина.
+subscribe = Абониране
+get-started-speech = Запознайте се разпознаването на реч
+other-datasets = Други набори от гласови данни
 feedback-q = Имате препоръки?
 deepspeech-info = Наборът от данни за гласови съобщения допълва машината с отворен код за разпознаване на глас на Mozilla – Deep Speech, който можете да използвате за изграждане на приложения за разпознаване на реч. Прочетете <githubLink>резюмето в Github</githubLink> или се присъединете към <discourseLink>дискусията за DeepSpeech</discourseLink>, за да научите как да започнете.
+common-voice-info-new = Имате въпроси за Common Voice? Идеи за подобрения или обратна връзка за конкретен език? Присъединете се към нас на нашия <discourseLink>форум Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech е набор от приблизително 1 000 часа 16Khz английска четена реч, извлечена от записани аудиокниги от проекта LibriVox.
 data-other-ted-name = Набор TED-LIUM
 data-other-ted-description = Наборът TED-LIUM е създаден от аудио записите и техните транскрипции, налични на страницата на TED.
@@ -474,7 +486,9 @@ missing-language = Не виждате своя език в набора от д
 go-languages-page = Към страницата с езици
 ready-to-validate = Готови ли сте да помогнете за проверката на изречения?
 more = Още
+close = Затваряне
 download = Изтегляне
+dataset-version = Версия
 
 ## Download Modal
 
@@ -570,6 +584,8 @@ listen-last-time-instruction = <playIcon></playIcon>Последно!
 nothing-to-validate = В момента няма записи за проверка на този език, помогнете ни като добавите такива.
 record-button-label = Запишете гласа си
 share-title-new = <bold>Помогнете</bold> да намерим още гласове
+keep-track-profile = Следете напредъка си като създадете профил
+login-to-get-started = За да започнете се впишете или се регистрирайте
 
 ## Reporting
 
