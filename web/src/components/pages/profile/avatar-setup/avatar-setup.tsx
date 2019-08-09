@@ -184,7 +184,6 @@ class AvatarSetup extends React.Component<Props> {
     }
 
     try {
-      await this.audio.init();
       await this.startRecording();
 
       const clipTime = 5000;
@@ -250,7 +249,9 @@ class AvatarSetup extends React.Component<Props> {
     refreshUser();
   }
 
-  private counter = () => {
+  private counter = async () => {
+    this.audio.release();
+    await this.audio.init();
     this.setState({ clipStatus: 'starting', counter: 3 });
     var downloadTimer = setInterval(() => {
       let tl = this.state.counter - 1;
@@ -303,7 +304,6 @@ class AvatarSetup extends React.Component<Props> {
       },
     };
 
-    console.log(avatarClipUrl);
     return (
       <div className="full-avatar-setup">
         {!isProduction() && (
@@ -373,7 +373,7 @@ class AvatarSetup extends React.Component<Props> {
                     rounded
                     className="primary "
                     onClick={this.counter}>
-                    <MicIcon className="icon" />
+                    <MicIcon />
                     <Localized id="create-voice-wave">
                       <span />
                     </Localized>
@@ -429,7 +429,7 @@ class AvatarSetup extends React.Component<Props> {
             )}
           </div>
         )}
-        <div>
+        <div className="photo-avatar">
           <fieldset className="avatar-setup" disabled={this.state.isSaving}>
             <Localized id="add-avatar-title">
               <h2 />
