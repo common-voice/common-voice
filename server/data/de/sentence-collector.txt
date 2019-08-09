@@ -504,6 +504,7 @@ Als wenn das einen Unterschied machen würde!
 Als wenn es jedem mal passieren könnte.
 Als wenn hier irgendjemand Ahnung davon hätte!
 Als wenn ich hier irgendwelche Witze auf Lager hätte!
+Als wir ankamen erwartete man uns bereits.
 Als wir es ihr erzählten, musste sie lauthals loslachen.
 Als wir sie fangen wollten, sind sie davon gerannt.
 Als wir sie fangen wollten, sind sie davongerannt.
@@ -678,6 +679,7 @@ An der Beschaffung der Bühnentechnik war Eileen maßgeblich beteiligt.
 An der Ecke hat jetzt eine neue Tanzbar eröffnet.
 An der Haustür von Frau Hein klingelte sie Sturm.
 An der Hotline wird man nur abgewimmelt.
+An der Kasse bildete sich bereits eine lange Warteschlange.
 An der Kasse sind immer zu wenige Warentrenner.
 An der Ohrbewegung lässt sich recht zuverlässig erkennen, ob eine Kuh gesund ist.
 An der Seite ist ein Strichcode.
@@ -721,6 +723,7 @@ An sich ist die Halterung recht solide.
 An sich war das Essen gut.
 An so ziemlich jedem Stand bekommt man Bratwurst mit Curry-Ketchup.
 An welche Nation denn?
+An welchem Gleis steht der Zug?
 An welchen Symptomen erkennt man einen Hitzschlag?
 An welcher Haltestelle muss ich aussteigen, wenn ich zur Universität möchte?
 An zahlreichen Stellen wurde der Bach künstlich aufgestaut.
@@ -953,6 +956,7 @@ Auf dem Brachland soll nun ein Gewerbepark entstehen.
 Auf dem Bürgersteig blieb er stehen, schlug ein Buch auf und las laut vor.
 Auf dem Foto erkennt man rein gar nichts.
 Auf dem Grundrissplan sieht man das nicht sofort.
+Auf dem Hinweg standen wir im Stau.
 Auf dem Klo kommen ihm immer die besten Einfälle.
 Auf dem Konzert kann Salim mal so richtig ausflippen.
 Auf dem Land helfen Nachbarn sich gegenseitig.
@@ -1091,6 +1095,7 @@ Aus Mitleid taten einige so, als würde es ihnen nicht schmecken.
 Aus Neugier beißen Haie hin und wieder Seekabel an.
 Aus Platzgründen kann Hubertus keinen Frontlader nehmen.
 Aus Puderzucker und Zitronensaft mischst du den Zuckerguss.
+Aus Sicheheitsgründen mussten alle Teilnehmer Schwimmwesten tragen.
 Aus Solidarität mit seiner schwangeren Frau trinkt Erwin momentan nicht.
 Aus Spaß hat sich Harald kurzerhand als Trainer ausgegeben.
 Aus dem Knochenmark werden Stammzellen entnommen.
@@ -1294,6 +1299,7 @@ Bei dem Gezappel ist ein Werbeblocker schlicht Notwehr.
 Bei dem Kamikaze-Fahrstil ist es ein Wunder, dass er noch am Leben ist.
 Bei dem Kontostand würde ich mir keine Sorgen machen.
 Bei dem Regen fällt das nicht so ins Gewicht.
+Bei dem Unfall wurden mehrere Personen, darunter auch Kinder verletzt.
 Bei dem Wort Rehabilitation wurde Herr Krupp hellhörig.
 Bei dem schönen Wetter derzeit kann ich mir keine Rückkehr vorstellen.
 Bei den Anonymen Alkoholikern erzählt jeder den anderen, wie er zum Trinker wurde.
@@ -1318,6 +1324,7 @@ Bei der Preisgestaltung hat der Geschäftsmann jegliches Maß verloren.
 Bei der Registrierung gibt es nach wie vor Schwierigkeiten.
 Bei der Schocklage legt man den Patienten auf den Rücken und seine Beine hoch.
 Bei der Schule habe ich mich bisher aber sehr heraus gehalten.
+Bei der Testfahrt stellte sich heraus, dass die Lampen defekt waren.
 Bei der Tipperei fängt doch gleich wieder meine Schulter an weh zu tun.
 Bei der Verwendung von Kaffeekapseln fallen Unmengen an Müll an.
 Bei der Wanderung werdet ihr bis zum Oberschenkel im Watt versinken.
@@ -1349,6 +1356,7 @@ Bei einer Kissenschlacht ist das Hochbett eingestürzt.
 Bei einer Reise zum Mond verliert man fünf Sechstel seines Gewichts.
 Bei einer Transplantation kann einiges schiefgehen.
 Bei einer namentlichen Anrede durfte man sich quasi geehrt fühlen.
+Bei einer solchen Hitze ist es wichtig, viel zu trinken.
 Bei einer verneinenden Antwort ist der nächste dran.
 Bei einunddreißig Grad im Schatten ist die Arbeit kein Vergnügen.
 Bei gutem Wetter wäre der Zoo eine Alternative.
@@ -2459,6 +2467,7 @@ Das Mädel ist voll etepetete.
 Das Nachschlagewerk ist erste Sahne!
 Das Namensschild auf dem Kittel ist immer noch nicht ausgetauscht.
 Das Naturmaterial ist ebenso stabil wie herkömmliche Baustoffe.
+Das Navigationsgerät hatte uns direkt in eine Baustelle geleitet.
 Das Netzteil hat zwei separate Schienen für zwölf Volt.
 Das Neugeborene kam sofort zur Behandlung in die pädiatrische Abteilung des Krankenhauses.
 Das Oberteil war aber nicht neu oder frisch gewaschen.
@@ -2522,6 +2531,7 @@ Das Suchergebnis war nicht zufriedenstellend.
 Das System ist auf dem neuesten Stand.
 Das T-Shirt ist mir zu eng um die Brust.
 Das Taschentuch ist voll mit Schnodder.
+Das Technische Hilfswerk und die Feuerwehr halfen bei der Bewältigung des Unglücks.
 Das Teil hat Alma auf dem Basar erstanden.
 Das Teil ist ja auch komplett durchgebogen.
 Das Teilen eines Benutzerkontos ist strengstens untersagt.
@@ -2603,6 +2613,7 @@ Das fragt ihn der Kollege, der von all dem nichts mitbekommen hat.
 Das freut viele meiner autistischen Bekannten.
 Das führt doch zu nichts.
 Das führt einerseits zu doppelter Arbeit und andererseits zu Zuständigkeitslücken.
+Das führte zu einem teuren Schaden am Getriebe.
 Das ganze Haus hat gewackelt.
 Das ganze Whiteboard ist mit Skizzen und Formeln vollgekritzelt.
 Das geht entschieden zu weit!
@@ -3297,6 +3308,7 @@ Der Brechungsindex ist eine dimensionslose Größe.
 Der Buchbinder war bloß ein Zufallsopfer.
 Der Bundestag aber auch nicht.
 Der Bus biegt von der Ulmenstraße ab in die Kastanienallee.
+Der Bus kam heute eine Stunde zu spät.
 Der Bärlauch sieht schon etwas welk aus.
 Der Bürgermeister behauptet immer noch, dass die Stadt kein Naziproblem hätte.
 Der Bürgermeister möchte hier an Ort und Stelle ein Denkmal errichten.
@@ -3537,6 +3549,7 @@ Der Reiseführer für Florenz warnt ausdrücklich davor, aus großer Höhe in He
 Der Rekorder hat die Kassette gefressen.
 Der Rennwagen muss in dieser Runde zum Boxenstopp in die Box fahren.
 Der Rest muss herausgefiltert werden.
+Der Rettungsdienst kümmerte sich um die Verletzten, während die Polizei die Personalien aufnahm.
 Der Rhein ist ein fabelhaftes Fotomotiv.
 Der Richter hat keinen blassen Schimmer.
 Der Ring ist eine Droge.
@@ -3650,6 +3663,7 @@ Der Vorteil der Firma ist, dass sie alles aus einer Hand liefern kann.
 Der Vortrag war schnarchlangweilig.
 Der Vorwurf lautet Beihilfe zum Mord in mindestens acht Fällen.
 Der W-Lan-Router, das Modem oder der Telefonserver?
+Der Waldbrand wütet bereits seit Wochen.
 Der Wall sieht künstlich aufgeschüttet aus.
 Der Wankelmotor wird sich bei Personenkraftwagen wohl nicht mehr durchsetzen.
 Der Wasservogel scheint sich im Kampf verletzt zu haben.
@@ -3913,6 +3927,8 @@ Die Ausstattung ist diesmal üppig.
 Die Auswahl an Kochkursen überschreitet die Zumutbarkeit.
 Die Auswertung der Beweismittel wird voraussichtlich mehrere Monate andauern.
 Die Autobahn musst du da verlassen, wo der Name deiner Zielstadt dran steht.
+Die Autos hielten an und ließen sie vorbei.
+Die Bahn hatte einige Minuten Verspätung.
 Die Bahnstrecke war vor euch da.
 Die Bananen sind überreif.
 Die Band hat fünf Mitglieder.
@@ -3921,6 +3937,7 @@ Die Banditen binden ihre Pferde an und betreten den Salon.
 Die Basis vertraut auf seine vollmundigen Versprechen.
 Die Bauarbeiter stehen auf dem Vordach unserer Nachbarn.
 Die Baustelle behinderte den ganzen Feierabendverkehr.
+Die Baustelle belästigte die Anwohner bereits seit Tagen.
 Die Beamten werden vom Dienst suspendiert werden.
 Die Bedeutung für die pharmazeutische Produktion wird in der Fachliteratur unterschiedlich eingeschätzt.
 Die Bedeutung von Bass- und Violinschlüssel wird beim Betrachten der Grafik sofort klar.
@@ -3992,6 +4009,7 @@ Die Einsatzgebiete von Geländelimousinen reichen von Kinderwagen bis Killermasc
 Die Einsatzhundertschaft der Polizei rückte mit Tränengas und Wasserwerfer an.
 Die Einschläge kommen näher.
 Die Einstellung der Leute muss sich ändern.
+Die Elbphilharmonie ist bekannt für ihr kurioses Aussehen.
 Die Elektroden am Kopf messen die Hirnströme.
 Die Eltern sind die wichtigsten Personen eines Kindes.
 Die Engelwurzsalbe habe ich im Hebammenladen bekommen.
@@ -4012,6 +4030,7 @@ Die Erzeugnisse der Massentierhaltung schmecken zwar, bringen aber viele Problem
 Die Eurofighter zwingen die Maschine zum Landen.
 Die Europäische Schwarze Witwe ist schon auch giftig, aber es gibt ärgere.
 Die Ewiggestrigen werden es nie kapieren.
+Die Explosion war noch mehrere Kilometer entfernt zu hören.
 Die Fachleute solltest du lieber siezen.
 Die Fachwelt ist begeistert.
 Die Fahne bleibt unten.
@@ -4024,6 +4043,7 @@ Die Feuerwehr geht dort hinein, wo andere hinauslaufen.
 Die Filmmusik bestimmt ganz erheblich die Atmosphäre des Streifens.
 Die Firma Bartels gehört schon eher zum Mittelstand.
 Die Firma hat die Frist verstreichen lassen.
+Die Firma meldete sofort ein Patent an.
 Die Flugzeit beträgt circa sechs Stunden.
 Die Flöte gilt als einfach zu erlernendes Instrument.
 Die Flüssigkeit würde im Ansaugrohr zu sieden beginnen.
@@ -4103,6 +4123,7 @@ Die Initialisierung läuft binnen zwei Sekunden ab.
 Die Insel befindet sich ungefähr auf halbem Wege von hier nach Liliput.
 Die Inventur ist seit zwei Wochen überfällig.
 Die Ironie ist zuweilen recht ironisch.
+Die Jugendlichen verbrachten eine Woche in dem Zeltlager.
 Die Jugendsprache fungiert als Katalysator.
 Die Jungen streiten sich um Wachsmaler.
 Die Jungs aus Neustadt sind vom gleichen Schlag.
@@ -4190,6 +4211,7 @@ Die Messer müssten Mal wieder geschärft werden.
 Die Messerschneide glänzte silbrig.
 Die Messwerte sind mit Vorsicht zu genießen.
 Die Metall verarbeitenden Betriebe der Gemeinde haben sich zusammengeschlossen.
+Die Mietwagenfirma wollte den Personalausweis kopieren.
 Die Milchstraße hat eine Spiralform.
 Die Mitarbeiter des Sachgebiets F nehmen die Ahndung der festgestellten Verstöße vor.
 Die Mitarbeiter können ja gar nichts dafür, wenn sie solche E-Mails erhalten.
@@ -4201,6 +4223,7 @@ Die Musikanten wechselten an jeder Station den Wagon.
 Die Mutter brachte das Kind zu Bett.
 Die Mutter stillt ihr Kind.
 Die Mädchen waren begeistert, dass Billy Joel auch in ihrem Hotel war.
+Die Möbel waren alt, doch sie erfüllten ihren Zweck.
 Die Müllentsorgung klappt in Deutschland recht reibungslos.
 Die Müritz ist der größte Binnensee in Mecklenburg Vorpommern.
 Die Müritz ist der größte Binnensee in Mecklenburg-Vorpommern.
@@ -4230,6 +4253,7 @@ Die Partnerwahl bei Menschen ist ein leidiges Thema.
 Die Party startete erst um dreiundzwanzig Uhr?
 Die Pause haben wir genutzt, um einen Spaziergang zu machen.
 Die Personalabteilung bestätigte: Wegen Minderleistung ist eine Kündigung im öffentlichen Dienst nahezu ausgeschlossen.
+Die Personalabteilung entschied sich für die zweite Bewerberin.
 Die Personaler wollen sehen, wie Sie unter Stress reagieren.
 Die Pfanne ist mit Teflon beschichtet.
 Die Pfeile werden auch Darts genannt.
@@ -4303,6 +4327,7 @@ Die Schnittverletzung war tiefer als vorher angenommen.
 Die Schranktür des Küchenschranks quietscht seit einer Woche.
 Die Schreibweise von Staatsexamen ist einprägsam, wenn man es in drei Wörter trennt.
 Die Schrift ist so klein und meine Lesebrille ist verschwunden.
+Die Schule hatte sich auf Naturwissenschaften spezialisiert.
 Die Schuppen gehören zum Fisch dazu.
 Die Schutzhülle wird im Juni umfassend erneuert.
 Die Schweiz besitzt de jure keine Hauptstadt.
@@ -4371,6 +4396,7 @@ Die Tiere müssen aus dem Zoo evakuiert werden.
 Die Tiere schleppen auch Krankheiten ein.
 Die Titelverteidigerin war auch zugegen.
 Die Todesursache habe ich vergessen.
+Die Toiletten waren sauber, aber die Seife war leider alle.
 Die Trainerin hat diesmal die Leibchen vergessen.
 Die Tram machte eine Notbremsung.
 Die Trennung von mobilen und nicht mobilen Geräten war ohnehin nie sinnvoll.
@@ -4382,6 +4408,7 @@ Die Tür ist verkeilt und lässt sich daher nicht öffnen.
 Die Türen schließen - Guten morgen, wir legen los!
 Die Türen schließen, es geht los!
 Die Tüte ist prall gefüllt mit Süßigkeiten.
+Die U-Bahn fuhr in den Tunnel ein.
 Die Uhr in der Küche geht nach.
 Die Uhr ist voller Sand.
 Die Union sollte ihre Prämisse überdenken.
@@ -4398,6 +4425,7 @@ Die Viehdiebe haben die Herde in einen Bach getrieben, um die Spuren zu verwisch
 Die Villa ist geschützt wie eine Festung.
 Die Volksmarine war Teil der N-V-A.
 Die Volksmarine war Teil der Nationalen Volksarmee.
+Die Volljährigkeit wird von vielen Jugendlichen lange erwartet.
 Die Vorräte sind ausgesprochen knapp bemessen.
 Die Vorstellung des türkisblauen Meeres und eines Sandstrandes mit Palmen versetzte mich in Urlaubsstimmung.
 Die Vorstellung, dass nach einer Knochenmarkspende jemand genetisch identischen Blut hat, lässt sie erschaudern.
@@ -6708,6 +6736,7 @@ Für die Modernisierung der Flotte reicht der Fond leider nicht aus.
 Für die Pflege von großen Datenbanken benötigt man solche Tools.
 Für die Studie werden Menschen mit Nahtoderfahrung befragt.
 Für die alte Karre lohnt sich keine Vollkaskoversicherung mehr.
+Für die meisten Touristen ist der Besuch des Hamburger Hafens obligatorisch.
 Für die nächsten zwei Tage bleiben Sie zur Beobachtung hier.
 Für die orange Kletterroute muss man schon sportlich sein.
 Für die verbleibenden zwanzig braucht man achtzig Prozent.
@@ -7908,6 +7937,7 @@ Ich hatte mich schon gewundert, inwiefern das eine Vorbereitung sein soll.
 Ich hatte sogar Einfälle für unser Jubiläumskonzert.
 Ich hetze ja sonst gerne gegen Monopolisten, aber hier wäre es unangebracht.
 Ich hoffe inständig, dass die Medien nicht wieder ein abstruses Zerrbild von uns zeichnen.
+Ich hoffe wir verpassen den Zug nicht.
 Ich hoffe, Mara hat Artischocken und Bärlauch besorgt.
 Ich hoffe, du kannst ein Geheimnis für dich behalten.
 Ich hoffe, du kannst schweigen wie ein Grab.
@@ -8532,6 +8562,7 @@ In allen vier Ecken soll Liebe drin stecken.
 In anderen Branchen ist dies längst gang und gäbe.
 In anderen Kulturen ist eine Wasserbestattung üblich.
 In dem Bettbezug würde ich höchstens noch eine Woche schlafen.
+In dem Containerschiff fand der Zoll mehrere Tonnen Schmuggelware.
 In dem Ersuchen geht es um illegale Preisabsprachen.
 In dem Fall ist Musiker wohl ein Euphemismus für arbeitslos.
 In dem Gedränge musste man quasi andere anrempeln.
@@ -8593,6 +8624,7 @@ In der Psychiatrie versucht Doktor Henkel herauszufinden, wie sich diese Paranoi
 In der Realität wird niemand vom Tellerwäscher zum Millionär.
 In der Regel wird man einfach durchgewunken.
 In der Ruhe liegt die Kraft.
+In der S-Bahn traf ich einen alten Bekannten.
 In der Schifffahrt regelt man das anders.
 In der Schlossallee zu parken, ist teuer.
 In der Schule denkt man noch, wer ein abgeschlossenes Studium hat, muss intelligent sein.
@@ -11598,6 +11630,7 @@ Oberpfaffenhofen ist als Standort des Deutschen Zentrums für Luft- und Raumfahr
 Obwohl Flori die Route täglich fährt, weiß der die Straßennamen nicht aus dem Kopf.
 Obwohl Flori die Route täglich fährt, weiß er die Straßennamen nicht aus dem Kopf.
 Obwohl er schon alt und bucklig ist, will er die Pergola selbst aufbauen.
+Obwohl es kalt war froren sie nicht.
 Obwohl sie aus Eisen bestand, fühlte sich die eiserne Wand nicht kalt an.
 Obwohl sie ein Landei ist, fand sie sich erstaunlich schnell im Großstadtdschungel zurecht.
 Obwohl sie selbst eigentlich genug Zeit hätte, stellt sich die Hausfrau eine Haushaltshilfe ein.
@@ -13896,11 +13929,13 @@ Unten im Berg schuften die Bergleute.
 Unten im Graben verrecken die Verstoßenen.
 Unter Angabe Ihrer Gehaltsvorstellungen und Ihres möglichen Eintrittstermins.
 Unter Last heulen die Lüfter laut auf.
+Unter Normalbedingungen kommt dies nicht vor.
 Unter Playboy versteht man nicht den Spieljungen.
 Unter Schrittgeschwindigkeit versteht man im Allgemeinen vier bis sieben Kilometer pro Stunde.
 Unter Tränen erinnert sich die Witwe an das Geschehene.
 Unter Urs ursprünglicher Unterkunft unternimmt unsere Uromi Unsinn.
 Unter allen Anwesenden verlosen wir noch dieses T-Shirt.
+Unter anderem wurden auch Drogen und Waffen sichergestellt.
 Unter dem Eis sind hoffentlich noch ein paar Forellen.
 Unter den Blinden ist der Einäugige König.
 Unter den Erwachsenen entsteht ein absurder Konkurrenzkampf um die Aufmerksamkeit des Kleinkindes.
@@ -14079,6 +14114,7 @@ Viele Kunden lassen sich im Geschäft beraten und kaufen dann online.
 Viele Köche verderben den Brei.
 Viele Leute glauben, sie könnten sich Plätze reservieren, indem sie ihre Sachen dort abstellen.
 Viele Mastodon-Instanzen haben kreative Domains.
+Viele Menschen fahren außerdem mit der Fähre.
 Viele Menschen haben Angst vor dem wachsenden Einfluss Festlandchinas.
 Viele Menschen werden mit dem Alter weitsichtig.
 Viele Neuanfänger lassen Ehrgeiz und Eigeninitiative vermissen.
@@ -14401,6 +14437,7 @@ Wale leben nur aus Versehen im Meer.
 Walter hat es verpatzt.
 Wann benötigst du den Grill fürs Doktorandengrillen?
 Wann fahren wir mal wieder an den Kaiserstuhl?
+Wann fährt der nächste Bus?
 Wann gedenkst du die Fenster zu putzen?
 Wann genau ereignete sich die Eruption?
 Wann haben Sie sich immatrikuliert?
@@ -14421,6 +14458,7 @@ Wann kann ich wieder mal Sätze vorlesen?
 Wann komme ich an?
 Wann lassen wir die Katze aus Sack?
 Wann lassen wir die Katze aus dem Sack?
+Wann legt das Schiff an?
 Wann schwimmt ein Schiff?
 Wann sind Nudeln al dente?
 Wann soll der Timer klingeln?
@@ -16027,6 +16065,7 @@ Wir töten keine Tiere.
 Wir unterschätzen das, was wir haben und überschätzen das, was wir sind.
 Wir unterstellen ihm keine böse Absicht, lediglich Unfähigkeit.
 Wir veranstalten ein Kubb-Turnier.
+Wir verbrachten ungefähr eine Stunde auf der Raststätte.
 Wir verhandeln nicht mit Terroristen.
 Wir verlangen unseren Lesern dann noch mehr Genauigkeit ab.
 Wir vermuten mittlerweile, dass einfach alles kaputt ist.
@@ -16050,6 +16089,7 @@ Wir wollen kein zweites Nordkorea.
 Wir wollen keine neuen Sitten einführen.
 Wir wollen unsere Kunden dazu anhalten, ihre Becher selbst mitzubringen.
 Wir wollten den Rundweg zwei machen, haben jedoch den Einstieg nicht gefunden.
+Wir wollten uns an der Kreuzung treffen.
 Wir wussten nicht, für welche Aufgabe es wie viele Punkte gibt.
 Wir wünschen einen angenehmen Aufenthalt.
 Wir wünschen uns doch alle ein friedvolles Miteinander.
@@ -16436,6 +16476,8 @@ Zu Wartungszwecken hatte man den Radkasten abmontiert.
 Zu allem Überfluss beginnt er dann auch noch, die Taten zu bagatellisieren.
 Zu den vielen orthografischen Fehlern gibt es eine Diskussion im Forum.
 Zu diesem Schluss muss man einfach kommen, wenn man die vergangenen Meisterschaften analysiert.
+Zu diesem Zweck gründete man eine Spezialeinheit.
+Zu diesem Zweck wurde ein großes Labor eingerichtet.
 Zu durchschaubar für einen erfahrenen Gegner.
 Zu einem guten Actionfilm gehören viele Explosionen.
 Zu einem richtigen Lagerfeuer gehört jemand, der Gitarre spielen kann.
@@ -16503,6 +16545,7 @@ Zum Glück findet man auch da viele queere Geschichten, wenn man ein bisschen su
 Zum Glück gibt es dann doch ein paar Regeln.
 Zum Glück haben mich die Hausaufgaben schon einigermaßen vorbereitet.
 Zum Glück hat Jenny sich ausreichend Lesestoff mitgenommen.
+Zum Glück hatten wir genügend Wasser dabei.
 Zum Glück ist es nur ein Aprilscherz.
 Zum Glück ist seine Familienplanung schon abgeschlossen.
 Zum Glück nur ein kleiner Blechschaden.
