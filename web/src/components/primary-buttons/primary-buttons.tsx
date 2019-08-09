@@ -47,7 +47,7 @@ export const RecordLink = (props: any) => (
 );
 
 export const Voice = (props: any) => (
-  <PrimaryButton className="stop" {...props}></PrimaryButton>
+  <PrimaryButton className="stop" {...props} />
 );
 
 export const PlayButton = ({
