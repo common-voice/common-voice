@@ -6,13 +6,18 @@ import {
 import * as React from 'react';
 import { connect } from 'react-redux';
 const { Tooltip } = require('react-tippy');
+import { Flags } from '../../../stores/flags';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
-import { trackListening, trackRecording } from '../../../services/tracker';
+import {
+  trackListening,
+  trackProfile,
+  trackRecording,
+} from '../../../services/tracker';
 import URLS from '../../../urls';
-import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
-import Modal from '../../modal/modal';
+import { LocaleLink, LocaleNavLink, useLocale } from '../../locale-helpers';
+import Modal, { ModalProps } from '../../modal/modal';
 import {
   ArrowLeft,
   CheckIcon,
@@ -20,7 +25,7 @@ import {
   ShareIcon,
   SkipIcon,
 } from '../../ui/icons';
-import { Button } from '../../ui/ui';
+import { Button, LinkButton } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
@@ -28,6 +33,39 @@ import Success from './success';
 import Wave from './wave';
 
 import './contribution.css';
+
+const HAS_SEEN_ACCOUNT_MODAL_KEY = 'hasSeenAccountModal2';
+
+const AccountModal = (props: ModalProps) => {
+  const [locale] = useLocale();
+  return (
+    <Modal {...props} innerClassName="account-modal">
+      <div className="images">
+        <img src={require('./waves.svg')} alt="Waves" className="bg" />
+        <img
+          src={require('./mars-blue.svg')}
+          alt="Mars Robot"
+          className="mars"
+        />
+      </div>
+      <Localized id="keep-track-profile">
+        <h1 />
+      </Localized>
+      <Localized id="login-to-get-started">
+        <h2 />
+      </Localized>
+      <Localized id="login-signup">
+        <LinkButton
+          rounded
+          href="/login"
+          onClick={() => {
+            trackProfile('contribution-conversion-modal', locale);
+          }}
+        />
+      </Localized>
+    </Modal>
+  );
+};
 
 export const SET_COUNT = 5;
 
@@ -41,6 +79,7 @@ export interface ContributionPillProps {
 }
 
 interface PropsFromState {
+  flags: Flags.State;
   locale: Locale.State;
   user: User.State;
 }
@@ -72,6 +111,7 @@ interface Props extends LocalizationProps, PropsFromState {
 
 interface State {
   selectedPill: number;
+  showAccountModal: boolean;
   showReportModal: boolean;
   showShareModal: boolean;
   showShortcutsModal: boolean;
@@ -84,6 +124,7 @@ class ContributionPage extends React.Component<Props, State> {
 
   state: State = {
     selectedPill: null,
+    showAccountModal: false,
     showReportModal: false,
     showShareModal: false,
     showShortcutsModal: false,
@@ -97,10 +138,28 @@ class ContributionPage extends React.Component<Props, State> {
     window.addEventListener('keydown', this.handleKeyDown);
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(prevProps: Props) {
     this.startWaving();
 
-    const { isPlaying, isSubmitted, onReset, user } = this.props;
+    const {
+      activeIndex,
+      flags,
+      isPlaying,
+      isSubmitted,
+      onReset,
+      user,
+    } = this.props;
+
+    if (activeIndex == 1 && prevProps.activeIndex != activeIndex) {
+      const showAccountModal =
+        flags.showAccountConversionModal &&
+        !user.account &&
+        !JSON.parse(localStorage.getItem(HAS_SEEN_ACCOUNT_MODAL_KEY));
+      this.setState({ showAccountModal });
+      if (showAccountModal) {
+        localStorage.setItem(HAS_SEEN_ACCOUNT_MODAL_KEY, JSON.stringify(true));
+      }
+    }
 
     if (this.wave) {
       isPlaying ? this.wave.play() : this.wave.idle();
@@ -213,6 +272,7 @@ class ContributionPage extends React.Component<Props, State> {
   render() {
     const {
       errorContent,
+      flags,
       getString,
       isSubmitted,
       onSkip,
@@ -220,7 +280,12 @@ class ContributionPage extends React.Component<Props, State> {
       type,
       user,
     } = this.props;
-    const { showReportModal, showShareModal, showShortcutsModal } = this.state;
+    const {
+      showAccountModal,
+      showReportModal,
+      showShareModal,
+      showShortcutsModal,
+    } = this.state;
 
     return (
       <div
@@ -251,6 +316,11 @@ class ContributionPage extends React.Component<Props, State> {
             onRequestClose={() => this.setState({ showReportModal: false })}
             onSubmitted={onSkip}
             {...reportModalProps}
+          />
+        )}
+        {showAccountModal && (
+          <AccountModal
+            onRequestClose={() => this.setState({ showAccountModal: false })}
           />
         )}
         <div
@@ -479,7 +549,10 @@ class ContributionPage extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>(({ locale, user }: StateTree) => ({
-  locale,
-  user,
-}))(withLocalization(ContributionPage));
+export default connect<PropsFromState>(
+  ({ flags, locale, user }: StateTree) => ({
+    flags,
+    locale,
+    user,
+  })
+)(withLocalization(ContributionPage));
