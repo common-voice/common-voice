@@ -111,7 +111,7 @@ export default [
     const [locale, setLocale] = useState('');
     return (
       <>
-        <div className="padded">
+        <div className="text">
           <Localized id="build-custom-goal">
             <h1 />
           </Localized>
@@ -128,20 +128,22 @@ export default [
         </div>
 
         {!dashboardLocale && (
-          <Localized
-            id="request-language-form-language"
-            attrs={{ label: true }}>
-            <LabeledSelect
-              value={locale}
-              onChange={(event: any) => setLocale(event.target.value)}>
-              <option key="empty" value="" />
-              {contributableLocales.map(l => (
-                <Localized id={l}>
-                  <option key={l} value={l} />
-                </Localized>
-              ))}
-            </LabeledSelect>
-          </Localized>
+          <div className="select-wrap">
+            <Localized
+              id="request-language-form-language"
+              attrs={{ label: true }}>
+              <LabeledSelect
+                value={locale}
+                onChange={(event: any) => setLocale(event.target.value)}>
+                <option key="empty" value="" />
+                {contributableLocales.map(l => (
+                  <Localized id={l}>
+                    <option key={l} value={l} />
+                  </Localized>
+                ))}
+              </LabeledSelect>
+            </Localized>
+          </div>
         )}
 
         <Localized id="set-a-goal">

@@ -193,32 +193,33 @@
     }
 
     &.step-0 {
-        padding-top: 100px;
+        padding-top: 64px;
 
         @media (--md-up) {
             padding-bottom: 0;
         }
 
-        & .padded {
+        & .text {
+            margin-bottom: 64px;
+            max-width: 400px;
             text-align: center;
         }
 
         & .sub-head {
-            margin-bottom: 60px;
             line-height: 1.5;
         }
 
         & .waves {
-            margin-bottom: 80px;
+            margin-bottom: 32px;
         }
 
-        & select {
-            margin-bottom: 20px;
+        & .select-wrap {
+            margin-bottom: 32px;
         }
 
         & .get-started-button {
             border: transparent;
-            margin-bottom: 20px;
+            margin-bottom: 80px;
             padding: 0 33px;
             min-width: auto;
             height: 57px;
@@ -227,6 +228,11 @@
 
             &:hover {
                 border: 1px solid black;
+            }
+
+            &:disabled {
+                opacity: 1;
+                background-color: var(--warm-grey);
             }
         }
     }
