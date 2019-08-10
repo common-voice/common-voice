@@ -751,6 +751,13 @@ share-n-weekly-contribution-goal = Podziel się swoim tygodniowym celem ({ $coun
 share-goal-type-speak = nagrywania
 share-goal-type-listen = odsłuchiwania
 share-goal-type-both = nagrywania i odsłuchiwania
+# LINK will be replaced with the current URL
+goal-share-text = Właśnie tworzę osobisty cel przekazywania głosu projektowi #CommonVoice — dołącz do mnie i pomóż nauczyć komputery, jak mówią prawdziwi ludzie { $link }
+weekly-goal-created = Utworzono cel tygodniowy
+daily-goal-created = Utworzono dzienny cel
+track-progress = Śledź postępy tutaj i na swojej stronie statystyk.
+return-to-edit-goal = W każdej chwili możesz wrócić tutaj, aby zmienić swój cel.
+share-goal = Podziel się swoim celem
 
 ## Profile Delete
 
