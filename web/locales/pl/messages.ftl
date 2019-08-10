@@ -706,10 +706,51 @@ validated-clips = Sprawdzone nagrania
 total-approved = Razem zatwierdzone
 overall-accuracy = Ogólna dokładność
 set-visibility = Ustaw moją widoczność
+visibility-explainer = To ustawienie steruje widocznością na rankingu. Po ukryciu Twój postęp będzie prywatny. Oznacza to, że Twój obraz, nazwa użytkownika i postęp nie pojawią się w rankingu. Pamiętaj, że odświeżenie rankingu i wprowadzenie zmian zajmuje około { $minutes } min.
+visibility-overlay-note = Uwaga: po ustawieniu na „widoczny” to ustawienie można zmienić na <profileLink>stronie profilu</profileLink>
+show-ranking = Wyświetlaj moją rangę
 
 ## Custom Goals
 
+get-started-goals = Cele: pierwsze kroki
 toward-next-goal = Do następnego celu
+create-custom-goal = Utwórz własny cel
+both-speak-and-listen = Oba
+both-speak-and-listen-long = Oba (nagrywanie i odsłuchiwanie)
+daily-goal = Dzienny cel
+weekly-goal = Cel tygodniowy
+easy-difficulty = Łatwy
+average-difficulty = Średni
+difficult-difficulty = Trudny
+pro-difficulty = Zawodowiec
+lose-goal-progress-warning = Modyfikacja celu może spowodować utratę dotychczasowego postępu.
+want-to-continue = Czy chcesz kontynuować?
+finish-editing = Dokończyć najpierw modyfikację?
+lose-changes-warning = Opuszczenie teraz spowoduje utratę zmian
+build-custom-goal = Utwórz własny cel
+help-reach-hours = Pomóż osiągnąć { NUMBER($hours) } godz. w tym języku ({ $language }) za pomocą osobistego celu
+set-a-goal = Ustal cel
+cant-decide = Nie możesz się zdecydować?
+activity-needed-calculation =
+    { NUMBER($totalHours) } godz. można osiągnąć w nieco ponad { NUMBER($periodMonths) }
+    mies., jeśli { NUMBER($people) } osób wyśle { NUMBER($clipsPerDay) } nagrań dziennie.
+how-many-per-day = Świetnie! Ile nagrań dziennie?
+how-many-a-week = Świetnie! Ile nagrań tygodniowo?
+which-goal-type = Czy chcesz nagrywać, odsłuchiwać czy wykonywać oba działania?
+receiving-emails-info =
+    Obecnie otrzymujesz wiadomości e-mail, takie jak przypomnienia o celach,
+    informacje o postępie oraz biuletyny na temat Common Voice
+n-clips = Nagrania: { NUMBER($count) }
+help-share-goal = Pomóż nam znaleźć więcej głosów, podziel się swoim celem
+confirm-goal = Potwierdź cel
+goal-interval-weekly = Tygodniowy
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Podziel się swoim dziennym celem ({ $count }) { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Podziel się swoim tygodniowym celem ({ $count }) { $type }
+share-goal-type-speak = nagrywania
+share-goal-type-listen = odsłuchiwania
+share-goal-type-both = nagrywania i odsłuchiwania
 
 ## Profile Delete
 
