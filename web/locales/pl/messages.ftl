@@ -204,7 +204,8 @@ x-years-short =
 help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
 profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
 sign-up-account = Zarejestruj konto
-email-subscription-title = zapisz się, aby otrzymywać informacje przez e-mail
+email-subscription-title = subskrybuj aktualizacje przez e-mail
+email-subscription-title-new = Subskrybuj biuletyny Common Voice, przypomnienia o celach i aktualizacje postępu
 
 ## Account Benefits
 
@@ -323,9 +324,13 @@ off = Wyłączone
 on = Włączone
 add-avatar-title = Dodaj awatar do profilu
 add-avatar-clip = Dodaj awatar w formie nagrania do profilu
+create-voice-wave = Utwórz nagranie powitalne
 recording-voice-wave = Nagrywanie
 ready-to-upload = Wyślij
+avatar-clip-fact = Od dawna wiadomo, że czytelnik będzie rozproszony tekstem strony, patrząc na jej układ.
+recreate-voice = Ponownie utwórz nagranie powitalne
 cancel-avatar-clip-recording = Anuluj
+about-avatar-clip = Utwórz własne nagranie powitalne, aby się przedstawić. Pozostali użytkownicy będą mogli najechać na nie i je przesłuchać.
 browse-file-title = Wyślij plik obrazu
 browse-file = Przeciągnij tutaj lub <browseWrap>przeglądaj</browseWrap>
 connect-gravatar = Połącz z serwisem Gravatar
@@ -691,6 +696,7 @@ clips-you-validated = Nagrania sprawdzone przez Ciebie
 todays-recorded-progress = Dzisiejszy postęp nagrywania Common Voice
 todays-validated-progress = Dzisiejszy postęp sprawdzania nagrań Common Voice
 stats = Statystyki
+awards = Nagrody
 you = Ty
 everyone = Wszyscy
 contribution-activity = Aktywność
@@ -699,6 +705,7 @@ recorded-clips = Nagrane
 validated-clips = Sprawdzone nagrania
 total-approved = Razem zatwierdzone
 overall-accuracy = Ogólna dokładność
+set-visibility = Ustaw moją widoczność
 
 ## Custom Goals
 
