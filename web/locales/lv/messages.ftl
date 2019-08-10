@@ -87,6 +87,7 @@ mk = Maķedoniešu
 ml = Malajaliešu
 mn = Mongoļu
 mrj = Hill Mari
+mt = Maltiešu
 myv = Erzya
 nb-NO = Norvēģijas bukmolu
 ne-NP = Nepāliešu
@@ -95,8 +96,9 @@ nn-NO = Norvēģu Ņūnorsku
 oc = Oksitāņu
 or = Oriju
 pl = Poļu
-pt-BR = Portugāļu (Brazīlija)
+pt = Portugāļu
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = Rumāņu
 ru = Krievu
 rw = Kiņaruandu
@@ -108,6 +110,7 @@ sl = Slovēņu
 sq = Albāņu
 sr = Serbu
 sv-SE = Zviedru
+syr = Sīriešu
 ta = Tamilu
 te = Telugu
 tg = Tadžiku
@@ -204,6 +207,7 @@ help-make-dataset = Palīdziet mums izveidot augstas kvalitātes publiski atvēr
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 sign-up-account = Reģistrē savu kontu
 email-subscription-title = Piesakieties jaunumiem epastā
+email-subscription-title-new = Reģistrējieties Common Voice ziņām, atgādinājumiem par mērķiem un progresa atjauninājumiem
 
 ## Account Benefits
 
@@ -322,6 +326,13 @@ off = Izslēgts
 on = Ieslēgts
 add-avatar-title = Pievieno savam profilam avatāru
 add-avatar-clip = Pievienojiet savam profilam titulklipu
+create-voice-wave = Izveidojiet balss vilni
+recording-voice-wave = ierakstīšana
+ready-to-upload = Augšupielādēt
+avatar-clip-fact = Tas ir sen zināms fakts, ka lasītājs, lasot lapas izkārtojumu, novērš uzmanību no lasāmā lapas satura.
+recreate-voice = Atjaunojiet balss vilni
+cancel-avatar-clip-recording = Atcelt
+about-avatar-clip = Izveidojiet pielāgotu balss vilni, lai iepazīstinātu ar sevi. Citi lietotāji varēs turēt kursoru uz jūsu klipu un noklausīties to.
 browse-file-title = Augšupielādējiet attēlu
 browse-file = Velciet un nometiet vai <browseWrap> Pārlūkojiet </browseWrap>
 connect-gravatar = Savienoties ar Gravatar
@@ -348,8 +359,8 @@ faq-why-important-a =
     Lai padarītu balss atpazīšanu vēl universālāku, mēs apkopojam balss paraugus plaši runājošās valodās, kā arī tos, kuriem ir mazāks runātāju skaits, ko bieži aizmirst komerciāli runas atpazīšanas pakalpojumi. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un visai runas kopienai paši atrisināt šo plaisu.
 faq-how-get-q = Kā es varu iegūt Common Voice datus?
 faq-how-get-a = Common Voice datu kopa ir pieejama lejupielādei, izmantojot <licenseLink> CC0 </licenseLink> licenci lapā <datasetLink>datu kopa</datasetLink>. Jūs arī šajā lapā varat lejupielādēt vairākas citas publiski pieejamas datu kopas.
-faq-when-release-q = Kad tiks izlaists Common Voice citās valodās?
-faq-when-release-a = Kopējā balss datu kopas daudzvalodu versijā pašlaik notiek kopienas atbalstīta apkopošana un tīrīšana. Ja vēlaties uzzināt vairāk par šo pasākumu atbalstīšanu, lūdzu, <contactLink>sazinieties ar mums</contactLink>. Šobrīd ieplānotais publicēšanas datums ir 2019. gada janvāris. Pēc tam mēs regulāri atjaunināsim datu kopu ar jaunām valodām un balss klipiem, tiklīdz tie būs pieejami. Iteratīva izlaišanas cikla kadence vēl ir jānosaka.
+faq-when-release2-q = Kad jūs publiskosit kopējās balss datus citās valodās?
+faq-when-release2-a = Kopējās balss datu kopas daudzvalodu versijā pašlaik notiek kopienas atbalstīta komplektēšana un tīrīšana. Ja vēlaties palīdzēt mums kopīgo balsi piesaistīt jaunām valodām, dodieties uz <sentenceCollectorLink> teikumu savākšanas rīku </sentenceCollectorLink>, lai datu kopai pievienotu jaunus teikumus, un Mozilla <pontoonLink> pontons </pontoonLink> vietnes tulkošanai. pati. Kad ir savākti 5000 apstiprināti teikumi, kopējai balss skaņai tiek pievienotas jaunas valodas.
 faq-why-mission-q = Kādēļ Common Voice ir daļa no Mozilla misijas?
 faq-why-mission-a = Mozilla fokusējas uz tīmekļa atvēršanau un pieejamību ikvienam. Lai to izdarītu, mums ir jāsniedz tīmekļa veidotājiem tādi projekti kā Kopīgā balss. Tā kā balss tehnoloģijas izplatās ārpus nišas programmām, mēs uzskatām, ka tām ir jākalpo visiem lietotājiem vienādi. Tas nozīmē ieguldīt vairākās valodās un pielāgot dažādus akcentus un demogrāfijas, veidojot un testējot balss tehnoloģijas. Kopējā balss ir publisks resurss, kas pieejams visiem, un Mozilla komandas un izstrādātāji visā pasaulē jau to izmanto mūsu pašu projektos.
 faq-what-cv-and-deepspeech-q = Kāda atšķirība starp Common Voice un Deep Speech?
@@ -589,7 +600,7 @@ localized = Lokalizēts
 sentences = Teikumi
 total-hours = Pārbaudītās st.
 
-## New Contribution
+## Contribution
 
 action-click = Klikšķis
 action-tap = Piesit
@@ -623,7 +634,6 @@ record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu 
 record-again-instruction2 = Turpinām, ierakstiet vēlreiz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
 review-tooltip = Pārskatiet un atkārtoti ierakstiet klipus
-unable-speak = Pašlaik nevar ierakstīt?
 review-instruction = Ja nepieciešams, pārskatiet un atkārtoti ierakstiet klipus
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
 clips-uploaded = Augšupielādētie ieraksti
@@ -639,6 +649,24 @@ listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
 nothing-to-validate = Mums nav nekas, kas jāapstiprina šajā valodā, palīdziet mums aizpildīt rindu.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
+keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
+login-to-get-started = Piesakieties vai reģistrējieties, lai sāktu
+
+## Reporting
+
+report = Ziņot
+report-title = Iesniedziet ziņojumu
+report-ask = Kādas problēmas jums rodas ar šo teikumu?
+report-offensive-language = Aizvainojoša valoda
+report-offensive-language-detail = Teikuma valoda ir necienīga vai aizskaroša.
+report-grammar-or-spelling = Gramatiska / pareizrakstības kļūda
+report-grammar-or-spelling-detail = Teikumā ir gramatiska vai pareizrakstības kļūda.
+report-different-language = Nepareiza valoda
+report-different-language-detail = Tas ir uzrakstīts valodā, kas atšķiras no tās, ko runāju.
+report-difficult-pronounce = Grūti izrunāt
+report-difficult-pronounce-detail = Tajā ir vārdi vai frāzes, kurus ir grūti lasīt vai izrunāt.
+report-offensive-speech = Aizvainojoša runa
+report-offensive-speech-detail = Klipā valda necieņa vai aizvainojums.
 
 ## Goals
 
@@ -679,6 +707,10 @@ recorded-clips = Ierakstītie ieraksti
 validated-clips = Pārbaudītie ieraksti
 total-approved = Kopā apstiprinātie
 overall-accuracy = Kopējā precizitāte
+
+## Custom Goals
+
+toward-next-goal = Ceļā uz nākamo mērķi
 
 ## Profile Delete
 
