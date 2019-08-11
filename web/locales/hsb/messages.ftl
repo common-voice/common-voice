@@ -417,10 +417,14 @@ about-yes-votes = ≥ 2 hajhłosaj
 about-yes-votes-text = Zo by so hłosowy klip do datoweje sadźby Common Voice přewzał, dyrbi so wot dweju rozdźělneju wužiwarjow přepruwować.
 about-no-votes = ≥ 2 něhłosaj
 about-dataset-new = Datowa sadźba Common Voice
+about-dataset-new-text = Datowa sadźba Common Voice statysacy hłosowych přikładow wobsahuje, kotrež wuwiwarjam pomhaja, nastroje za spóznawanje hłosow wutworić.
 about-clip-graveyard = Klipowy kěrchow
 about-partners = Partnerojo
 about-become-a-partner = Budźće partner
 about-get-involved = Čińće sobu
+about-get-involved-text =
+    Chceće pomhać, Common Voice polěpšić?
+    Wulkotnje! Stajće so z nami přez e-mejl abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelće swoje komentary přez <githubLink>Github</githubLink> abo wopytajće nas na <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Čehodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
