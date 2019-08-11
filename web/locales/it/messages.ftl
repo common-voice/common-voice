@@ -96,7 +96,7 @@ nn-NO = Norvegese Nynorsk
 oc = Occitano
 or = Oriya
 pl = Polacco
-pt-BR = Portoghese (Brasile)
+pt = Portoghese
 rm-sursilv = Romancio sottosilvano
 rm-vallader = Romancio Vallader
 ro = Rumeno
@@ -321,6 +321,9 @@ add-avatar-clip = Aggiungi un’immagine di profilo
 create-voice-wave = Crea un’onda sonora
 recording-voice-wave = In registrazione
 ready-to-upload = Carica
+avatar-clip-fact = È risaputo da tempo che mentre si legge qualcosa, si viene distratti dal layout di una pagina.
+recreate-voice = Ricrea un’onda sonora
+cancel-avatar-clip-recording = Annulla
 about-avatar-clip = Crea una registrazione personalizzata per presentarti. Gli altri utenti saranno in grado di ascoltarla passandoci sopra con il mouse.
 browse-file-title = Carica un’immagine
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
@@ -680,6 +683,7 @@ overall-accuracy = Precisione complessiva
 set-visibility = Imposta la mia visibilità
 visibility-explainer = Questa impostazione controlla la tua visibilità nella classifica. Selezionando l’opzione Nascosto le tue attività rimarranno riservate, cioè la tua immagine, il nome utente e i progressi non appariranno sulla classifica. Tieni presente che la classifica impiega { $minutes } minuti per aggiornarsi.
 visibility-overlay-note = Nota: l’opzione Visibile può essere modificata successivamente in <profileLink>Profilo</profileLink>
+show-ranking = Mostra la mia posizione
 
 ## Custom Goals
 
