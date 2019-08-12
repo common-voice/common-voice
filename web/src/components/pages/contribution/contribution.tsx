@@ -59,6 +59,7 @@ const AccountModal = (props: ModalProps) => {
           rounded
           href="/login"
           onClick={() => {
+            sessionStorage.setItem('redirectURL', location.pathname);
             trackProfile('contribution-conversion-modal', locale);
           }}
         />
