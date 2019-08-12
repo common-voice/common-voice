@@ -327,7 +327,14 @@ class AvatarSetup extends React.Component<Props, State> {
                     {clipStatus === 'starting' && (
                       <div className="counter">
                         <Voice>
-                          <div className="counter-animation">
+                          <div
+                            className={
+                              'counter-animation ' +
+                              (counter === 3 ? 'counter-3 ' : '') +
+                              (counter === 2 ? 'counter-2 ' : '') +
+                              (counter === 1 ? 'counter-1 ' : '') +
+                              (counter <= 0 ? 'counter-0 ' : '')
+                            }>
                             <div className="counter-angel">
                               <span className="start-in">
                                 Start in{' '}
