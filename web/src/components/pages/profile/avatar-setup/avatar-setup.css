@@ -19,6 +19,9 @@
         letter-spacing: normal;
         text-align: center;
         color: var(--black);
+        @media only screen and (max-width: 375px) {
+            width: 270px;
+        }
     }
 
     .clip-title {
@@ -32,6 +35,10 @@
         height: 169px;
         object-fit: contain;
         background-image: url('./group-1.svg');
+        @media only screen and (max-width: 375px) {
+            width: 375px;
+            background-size: 375px;
+        }
     }
 
     .lottiebg {
@@ -39,11 +46,19 @@
         height: 169px;
         object-fit: contain;
         background-image: url('./groupbg.svg');
+        background-repeat: no-repeat;
+        @media only screen and (max-width: 375px) {
+            width: 100%;
+            background-size: 100%;
+        }
     }
 
     .lottie {
         width: 508px;
         height: 169px;
+        @media only screen and (max-width: 375px) {
+            width: 100%;
+        }
     }
 
     .but {
@@ -129,6 +144,9 @@
         color: grey;
         padding-top: 36px;
         padding-left: 22px;
+        @media only screen and (max-width: 375px) {
+            width: 300px;
+        }
     }
 
     .recreate-voice {
@@ -139,6 +157,9 @@
         cursor: pointer;
         padding-top: 36px;
         padding-left: 22px;
+        @media only screen and (max-width: 375px) {
+            width: 300px;
+        }
     }
 
     .counter {
@@ -149,11 +170,14 @@
     .fix {
         height: 240px;
         width: 508px;
+        @media only screen and (max-width: 375px) {
+            width: 100%;
+            height: 125px;
+        }
     }
     .start-in {
         position: relative;
-        top: 8px;
-        right: 12px;
+        top: 10px;
         width: 39px;
         height: 18px;
         font-size: 12px;
@@ -181,10 +205,11 @@
         border-left-color: white;
         border-top-color: #f89096;
         border-bottom-color: #f89096;
-        width: 70px;
+        width: 95%;
         height: 70px;
-        -webkit-transform: rotateZ(60deg);
-        transform: rotateZ(53deg);
+        @media only screen and (max-width: 375px) {
+            height: 50px;
+        }
     }
     .counter-2 {
         border-bottom-color: white;
@@ -201,11 +226,6 @@
         border-bottom-color: white;
         border-left-color: white;
         border-top-color: white;
-    }
-
-    .counter-angel {
-        -webkit-transform: rotateZ(-60deg);
-        transform: rotateZ(-53deg);
     }
 
     .recorded-play {
