@@ -5,7 +5,6 @@ import { DAILY_GOAL } from '../../../../constants';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { trackDashboard } from '../../../../services/tracker';
 import URLS from '../../../../urls';
-import { ALL_LOCALES } from '../../../language-select/language-select';
 import {
   LocaleLink,
   toLocaleRouteBuilder,
@@ -94,8 +93,7 @@ export default function ProgressCard({
               </div>
             </LocaleLink>
           ) : (
-            !customGoal &&
-            locale && (
+            !customGoal && (
               <Localized id="create-custom-goal">
                 <LinkButton
                   className="custom-goal-button"
