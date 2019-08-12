@@ -152,10 +152,11 @@
     }
     .start-in {
         position: relative;
-        top: -12px;
+        top: 8px;
+        right: 12px;
         width: 39px;
         height: 18px;
-        font-size: 9px;
+        font-size: 12px;
         font-weight: normal;
         font-style: italic;
         font-stretch: normal;
@@ -173,6 +174,24 @@
         color: #4a4a4a;
     }
 
+    .counter-animation {
+        border: 2px solid;
+        border-radius: 50%;
+        border-right-color: #f89096;
+        border-left-color: green;
+        border-top-color: orange;
+        border-bottom-color: white;
+        width: 70px;
+        height: 70px;
+        -webkit-transform: rotateZ(60deg); /* Safari prior 9.0 */
+        transform: rotateZ(53deg);
+    }
+
+    .counter-angel {
+        -webkit-transform: rotateZ(-60deg); /* Safari prior 9.0 */
+        transform: rotateZ(-53deg);
+    }
+
     .recorded-play {
         position: relative;
         top: 30px;
@@ -180,7 +199,7 @@
 }
 
 .photo-avatar {
-    width: 36%;
+    width: 35%;
     .avatar-setup {
         border: none;
         padding-left: 20px;
