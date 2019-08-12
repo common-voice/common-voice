@@ -116,7 +116,9 @@ export default [
             <h1 />
           </Localized>
           <Localized
-            id="help-reach-hours"
+            id={
+              dashboardLocale ? 'help-reach-hours' : 'help-reach-hours-general'
+            }
             $hours={10000}
             $language={getString(dashboardLocale)}>
             <span className="sub-head" />
