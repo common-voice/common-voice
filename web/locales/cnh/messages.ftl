@@ -403,16 +403,24 @@ about-yes-votes-text = Tunmi aw cu Common Voice dataset i a luh khawhnak dingah 
 about-no-votes = Minung pahnih lungtlin lo ahcun aw-tun mi cu cohlan lo a si.
 about-no-votes-text = Bawmtu nih aw-tun mi cu a ṭha lo an ti ahcun Queue ah khirh a si. A voihnihnak cohlan lo si cun, thlanmual timi ah hlonh a si.
 about-dataset-new = Common Voice Dataset
+about-dataset-new-text = Common Voice Dataset ah a thongthong in tuncia mi aw tampi kan ngeih.
+about-clip-graveyard = Thlanmual
+about-clip-graveyard-text = Thlanmual ah hin Common Voice data ah cohlan lomi aw-tun ciami kha hlonh a si. Dataset bantuk in cu hna cu duh ahcun download khawh ṭhiam a si.
+about-partners = Ṭuanṭi
+about-become-a-partner = Ṭuanṭi hawi si dingah ra ve
+about-partnership = Common Voice hi hmunkhat ah i bawmh in ṭuanṭi mi thil a si i vawlei cungah a lianbik khawmh mi aw-tun ser khawhnak dingah hin, kan zaatlangbu minung le bawmtu pawl kan in bochan ko hna. Hi vialte kan tuah khawhnak ding caah a kan bawmtu bu le pumpak pakhat cio nan cungah lunglawmhnak tampi kan ngei.
 about-get-involved = I tel ve
 about-get-involved-text =
     Common Voice ṭhat ter deuh na duh maw?
     <discourseLink> Discourse</discourseLink> ah na ruahnak kan kua, <githubLink>GitHub</githubLink> ah na ruahnak rak ṭial, silole <slackLink> Slack</slackLink> ah rak kan telpi.
 about-nav-why-common-voice = Zei Ruangah?
 about-nav-how-it-works = Zeitin?
-about-nav-partners = Partners
+about-nav-partners = Ṭuanṭi
 about-nav-get-involved = I tel ve
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
+mycroft-description = Mycroft hi vawlei cungah a hmasabik a lak in khon mi, mi bawmtu a si. Mycroft cu khoika poah ah a um dih- computer, mawṭaw chung silole Raspberry Pi.
+mycroft-secondary-description = Mycroft hi hmailei ah tampi in serṭhan le tharchuah khawhnak lam a um. Mycroft cu projecct fa tein siseh sipuaizi tuahnak thil lianpi tiangah hman khawhmi a si.
 
 ## Glossary
 
@@ -475,8 +483,10 @@ number-of-voices = Aw Tuntu Zat
 splits = Ṭhen
 email-to-download = Download dingah cun na email ṭial
 why-email = <b> Email cu zei ah?</b> Hmailei ah kan dataset ai thlenmi a um sual ahcun nangmah he pehtlaihnak ah kan hman lai.
+confirm-size = <b>{ $size }</b> hihi download ding in nai manh cang.
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = Common Voice aw a kan hlutu le bawmchantu vialte ahodah an si ti hlethlai lo dingin <b> na lung</b>
 download-language = Dawnlok
 validated-hours = Check cangmi suimilam
 recorded-hours = Khumh cangmi suimilam zat
@@ -654,6 +664,10 @@ recorded-clips = Tun cangmi
 validated-clips = Check cangmi
 total-approved = Lungtlinmi Dihlak
 overall-accuracy = Ṭha tein tuah khawhmi
+set-visibility = Zohnak tuah
+visibility-explainer = Setting nih bawmchantu ṭhawngbik zohnak cu a uk. Na thuh ahcun nangmah lawng nih na tuahmi zat na zoh khawh lai; na hmanthlak, min, le tuahmi cu zohnak ah a lang lai lo. Hruaitu tarnak cu { $minutes } minute dan lawgin a thleng.
+visibility-overlay-note = "Langhter" in na chiah ahcun cucu <profileLink> Profile</profileLink> ah thlen khawh a si.
+show-ranking = Ka dirhmun ka hmuhsak
 
 ## Custom Goals
 
