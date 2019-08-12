@@ -7,7 +7,41 @@ import lazyCache from './lazy-cache';
 const locales = require('locales/all.json') as string[];
 const contributableLocales = require('locales/contributable.json') as string[];
 
-const AVG_CLIP_SECONDS = 4.7; // I queried 40 recordings from prod and avg'd them
+// based on the latest dataset
+const AVG_CLIP_SECONDS = 4.7;
+const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
+  en: 4.36,
+  de: 4.17,
+  fr: 4.1,
+  cy: 4.51,
+  br: 3.02,
+  cv: 4.29,
+  tr: 3.88,
+  tt: 3.68,
+  ky: 4.59,
+  'ga-IE': 3.45,
+  kab: 3.61,
+  ca: 4.54,
+  'zh-TW': 2.94,
+  sl: 3.93,
+  it: 4.85,
+  nl: 3.81,
+  cnh: 3.78,
+  eo: 4.56,
+  et: 6.69,
+  fa: 4.5,
+  eu: 5.08,
+  es: 4.14,
+  'zh-CN': 6.53,
+  mn: 5.46,
+  sah: 5.97,
+  dv: 5.41,
+  rw: 4.63,
+  'sv-SE': 3.05,
+  ru: 5.18,
+};
+const getAvgSecondsPerClip = (locale: string) =>
+  AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS;
 
 function fetchLocalizedPercentagesByLocale() {
   return request({
@@ -39,10 +73,6 @@ function fetchLocalizedPercentagesByLocale() {
       {}
     )
   );
-}
-
-function clipCountToHours(count: number) {
-  return Math.round((count * AVG_CLIP_SECONDS) / 3600);
 }
 
 const MINUTE = 1000 * 60;
@@ -109,7 +139,9 @@ export default class Model {
     'validated-hours',
     async () => {
       const english = (await this.db.getValidClipCount(['en']))[0];
-      return clipCountToHours(english ? english.count : 0);
+      return Math.round(
+        ((english ? english.count : 0) * getAvgSecondsPerClip('en')) / 3600
+      );
     },
     DAY
   );
@@ -158,7 +190,7 @@ export default class Model {
         launched: contributableLocales.map(locale => ({
           locale,
           seconds: Math.floor(
-            (validClipsCounts[locale] || 0) * AVG_CLIP_SECONDS
+            (validClipsCounts[locale] || 0) * getAvgSecondsPerClip(locale)
           ),
           speakers: speakerCounts[locale] || 0,
         })),
@@ -172,8 +204,8 @@ export default class Model {
     async (locale: string) =>
       (await this.db.getClipsStats(locale)).map(stat => ({
         ...stat,
-        total: Math.round(stat.total * AVG_CLIP_SECONDS),
-        valid: Math.round(stat.valid * AVG_CLIP_SECONDS),
+        total: Math.round(stat.total * getAvgSecondsPerClip(locale)),
+        valid: Math.round(stat.valid * getAvgSecondsPerClip(locale)),
       })),
     DAY
   );
