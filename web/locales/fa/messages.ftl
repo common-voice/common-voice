@@ -209,7 +209,7 @@ help-make-dataset = به ما در ایجاد یک مجموعه داده با ک
 profile-not-required = داشتن یک نمایه لازم نیست هرچند برای مشارکت مفید است
 sign-up-account = برای یک حساب کاربری ثبت نام کنید
 email-subscription-title = ثبت نام برای به روز رسانی ایمیل
-email-subscription-title-new = برای خبرنامه پروژه صدای مشترک ثبت‌نام کنید تا از یادآوری هدف و بروزرسانی پیشرفت خود با خبر شوید
+email-subscription-title-new = در خبرنامه، يادآورِ هدف و اخبار پیشرفت پروژهٔ صدای مشترک ثبت‌نام کنید
 
 ## Account Benefits
 
@@ -217,7 +217,7 @@ benefits = فواید
 rich-data = داده‌های ارسال شده خود را با ارائه برخی اطلاعات جمعیت شناسی ناشناس هر چه بیشتر غنی کنید. ما تمام اطلاهات جمعیت شناسی را قبل از عمومی کردن آن‌ها غیر قابل شناسایی می‌کنیم.
 improve-audio = اطلاعات نمایه باعث بهبود اطلاعات صوتی مورد استفاده در آموزش دقت تشخیص گفتار می‌شود.
 keep-track = پیشرفت و معیارهای خود را در چندین زبان مختلف دنبال کنید.
-compare-progress = ببینید چگونه پیشرفت شما با سایر مشارکت‌کنندگان در سراسر جهان مقایسه می‌شود.
+compare-progress = پیشرفت خود در پروژه را با سایر مشارکت‌کنندگان در سراسر دنیا مقایسه کنید.
 view-goals = مشاهده پیشرفت خود را در برابر اهداف شخصی و پروژه.
 join-newsletter = در صورت تمایل به لیست رایانامه ما برای به روز رسانی و اطلاعات جدید در مورد پروژه بپیوندید.
 
@@ -604,7 +604,7 @@ contribute = مشارکت
 listen = بشنوید
 skip = رد کردن
 shortcuts = میانبرها
-clips-with-count = <bold>{ $count }</bold> کلیپ‌ها
+clips-with-count = <bold>{ $count }</bold> کلیپ
 goal-help-recording = شما به صدای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف ضبط روزانه‌مان برسیم
 goal-help-validation = شما به صدای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف اعتبارسنجی روزانه‌مان برسیم
 contribute-more =
@@ -729,6 +729,7 @@ finish-editing = ویرایش را نخست تمام کنیم؟
 lose-changes-warning = اگر اکنون خارج شوید باعث از بین رفتن تغییرات شما می شود
 build-custom-goal = یک هدف سفارشی بسازید
 help-reach-hours = در رسیدن به { NUMBER($hours) } ساعت به زبان { $language } با یک هدف شخصی کمک کنید
+help-reach-hours-general = با تعیین یک هدفِ شخصی، به پروژهٔ صدای مشترک برای رسیدن به { NUMBER($hours) } ساعت در یک زبان کمک کنید
 set-a-goal = یک هدف تنظیم کنید
 cant-decide = نمی‌توانید تصمیم بگیرید؟
 activity-needed-calculation = { NUMBER($totalHours) } ساعت فقط در بیش از { NUMBER($periodMonths) } ماه دست‌یافتنی است اگر افراد هر روز یک { NUMBER($clipsPerDay) } برش صوتی ضبط کنند.
