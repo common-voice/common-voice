@@ -87,6 +87,7 @@ mk = Masedoanysk
 ml = Malayalam
 mn = Mongoalsk
 mrj = Berch-Mari
+mt = Malteesk
 myv = Erzja
 nb-NO = Noarsk Bokmål
 ne-NP = Nepaleesk
@@ -95,7 +96,7 @@ nn-NO = Norwegysk Nynorsk
 oc = Okkitaansk
 or = Odia
 pl = Poalsk
-pt-BR = Portugeesk (Braziliaansk)
+pt = Portugeesk
 rm-sursilv = Reto-Romaansk Surselvysk
 rm-vallader = Reto-Romaansk Fallader
 ro = Roemeensk
@@ -211,6 +212,7 @@ help-make-dataset = Help ús in iepenbier tagonklike gegevensset fan hege kwalit
 profile-not-required = In profyl is net nedich om by te dragen, hoewol it wol nuttich is
 sign-up-account = In account oanmeitsje
 email-subscription-title = skriuw jo yn foar e-mailfernijingen
+email-subscription-title-new = Registrearje foar nijsbrieven fan Common Voice, omtinken oan jo doelstellingen en updates oer jo foartgong.
 
 ## Account Benefits
 
@@ -328,6 +330,13 @@ off = Ut
 on = Oan
 add-avatar-title = In avatar oan jo profyl tafoegje
 add-avatar-clip = Foegje in avatarfragmint ta oan jo profyl
+create-voice-wave = Voicewave meitsje
+recording-voice-wave = Opname rint
+ready-to-upload = Oplade
+avatar-clip-fact = It is in bekend feit dat wannear in lêzer nei de lay-out sjocht, hy of sy troch de lêsbere ynhâld fan in side ôflaad wurdt.
+recreate-voice = Voicewave opnij meitsje
+cancel-avatar-clip-recording = Annulearje
+about-avatar-clip = Meitsje in oanpaste voicewave om josels foar te stellen. Oare brûkers kinne mei de mûs oer jo opname gean en dêrnei lústerje.
 browse-file-title = In ôfbyldingsbestân oplade
 browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
 connect-gravatar = Mei Gravatar ferbine
@@ -354,8 +363,7 @@ faq-why-important-a =
     Om spraakwerkenning noch universeler te meitsjen, sammelje wy spraakfragminten yn faak sprutsen talen, krekt  sa as dy mei in lytsere populaasje fan sprekkers, dy't faak net stipe wurde troch kommersjele spraakwerkenningstsjinsten. Troch in ferskate gegevensset mei stimmen te publisearjen, kinne ûntwikkelers, ûndernimmers en folsleine spraakmienskippen sels dizze kleau oerbrêgje.
 faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
 faq-how-get-a = De gegevensset fan Common Voice is beskikber foar downloaden ûnder de <licenseLink>CC0</licenseLink>-lisinsje op <datasetLink>ús side mei gegevenssets</datasetLink>. Jo kinne ek ferskate oare iepenbier beskikbere gegevenssets fan dyselde side downloade.
-faq-when-release-q = Wannear jouwe jimme gegevens fan Common Voice yn oare talen frij?
-faq-when-release-a = De meartalige ferzje fan de gegevensset fan Common Voice wurdt op dit stuit mei help fan de mienskip bundele en opskjinne. As jo mear witte wolle oer stipe oan dit wurk, nim dan <contactLink>kontakt mei ús op</contactLink>. Wy mikke op ditstuit op in publikaasjedatum yn jannewaris 2019. Dêrnei sille wy periodyk de gegevensset bywurkje mei nije talen en spraakfragminten, as dizze beskikber komme. In iterative útjeftesyklus moat noch fêststeld wurde.
+faq-when-release2-q = Wannear wurdt Common Voice yn oare talen útjûn?
 faq-why-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
 faq-why-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik hâlden fan it ynternet. Om dat te dwaan, moatte wy webmakkers middelen jaan mei projekten as Common Voice. Omdat spraaktechnologyen hieltyd mear tapast wurde, leauwe wy dat se foar alle brûkers beskikber wêze moatte. Dat betsjut ynvestearje yn mear talen, en romte biede foar ferskate aksinten en befolkingsferskillen by it bouwen en testen fan spraaktechnologyen. Common Voice is in foar elkenien beskikbere publike boarne, en Mozilla-teams en ûntwikkelers oer de hiele wrâld brûke it ek al foar ús eigen projekten.
 faq-what-cv-and-deepspeech-q = Wat is it ferskil tusken Common Voice en Deep Speech?
@@ -595,7 +603,7 @@ localized = Oerset
 sentences = Sinnen
 total-hours = Oeren totaal
 
-## New Contribution
+## Contribution
 
 action-click = Klikke
 action-tap = Tikke
@@ -697,6 +705,10 @@ recorded-clips = Opnommen fragminten
 validated-clips = Falidearre fragminten
 total-approved = Totaal goedkard
 overall-accuracy = Algemiene sekuerens
+
+## Custom Goals
+
+toward-next-goal = Nei it folgjende doel
 
 ## Profile Delete
 
