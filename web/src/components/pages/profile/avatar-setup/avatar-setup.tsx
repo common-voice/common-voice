@@ -327,9 +327,20 @@ class AvatarSetup extends React.Component<Props, State> {
                     {clipStatus === 'starting' && (
                       <div className="counter">
                         <Voice>
-                          <span className="start-in">
-                            Start in <p className="counter-digit">{counter}</p>
-                          </span>
+                          <div
+                            className={
+                              'counter-animation ' +
+                              (counter === 2 ? 'counter-2 ' : '') +
+                              (counter === 1 ? 'counter-1 ' : '') +
+                              (counter <= 0 ? 'counter-0 ' : '')
+                            }>
+                            <div>
+                              <span className="start-in">
+                                Start in{' '}
+                                <p className="counter-digit">{counter}</p>
+                              </span>
+                            </div>
+                          </div>
                         </Voice>
                       </div>
                     )}
@@ -338,11 +349,7 @@ class AvatarSetup extends React.Component<Props, State> {
               {clipStatus === 'started' && (
                 <Suspense fallback={<div />}>
                   <div className="lottie">
-                    <Lottie
-                      options={defaultOptions}
-                      eventListeners={[]}
-                      width={508}
-                    />
+                    <Lottie options={defaultOptions} eventListeners={[]} />
                   </div>
                 </Suspense>
               )}

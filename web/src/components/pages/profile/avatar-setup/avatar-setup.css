@@ -19,6 +19,9 @@
         letter-spacing: normal;
         text-align: center;
         color: var(--black);
+        @media only screen and (max-width: 375px) {
+            width: 270px;
+        }
     }
 
     .clip-title {
@@ -32,6 +35,10 @@
         height: 169px;
         object-fit: contain;
         background-image: url('./group-1.svg');
+        @media only screen and (max-width: 375px) {
+            width: 375px;
+            background-size: 375px;
+        }
     }
 
     .lottiebg {
@@ -39,11 +46,19 @@
         height: 169px;
         object-fit: contain;
         background-image: url('./groupbg.svg');
+        background-repeat: no-repeat;
+        @media only screen and (max-width: 375px) {
+            width: 100%;
+            background-size: 100%;
+        }
     }
 
     .lottie {
         width: 508px;
         height: 169px;
+        @media only screen and (max-width: 375px) {
+            width: 100%;
+        }
     }
 
     .but {
@@ -129,6 +144,9 @@
         color: grey;
         padding-top: 36px;
         padding-left: 22px;
+        @media only screen and (max-width: 375px) {
+            width: 300px;
+        }
     }
 
     .recreate-voice {
@@ -139,6 +157,9 @@
         cursor: pointer;
         padding-top: 36px;
         padding-left: 22px;
+        @media only screen and (max-width: 375px) {
+            width: 300px;
+        }
     }
 
     .counter {
@@ -149,13 +170,17 @@
     .fix {
         height: 240px;
         width: 508px;
+        @media only screen and (max-width: 375px) {
+            width: 100%;
+            height: 125px;
+        }
     }
     .start-in {
         position: relative;
-        top: -12px;
+        top: 10px;
         width: 39px;
         height: 18px;
-        font-size: 9px;
+        font-size: 12px;
         font-weight: normal;
         font-style: italic;
         font-stretch: normal;
@@ -173,6 +198,36 @@
         color: #4a4a4a;
     }
 
+    .counter-animation {
+        border: 2px solid;
+        border-radius: 50%;
+        border-right-color: #f89096;
+        border-left-color: white;
+        border-top-color: #f89096;
+        border-bottom-color: #f89096;
+        width: 95%;
+        height: 70px;
+        @media only screen and (max-width: 375px) {
+            height: 50px;
+        }
+    }
+    .counter-2 {
+        border-bottom-color: white;
+        border-left-color: white;
+    }
+
+    .counter-1 {
+        border-right-color: white;
+        border-bottom-color: white;
+        border-left-color: white;
+    }
+    .counter-0 {
+        border-right-color: white;
+        border-bottom-color: white;
+        border-left-color: white;
+        border-top-color: white;
+    }
+
     .recorded-play {
         position: relative;
         top: 30px;
@@ -180,7 +235,7 @@
 }
 
 .photo-avatar {
-    width: 36%;
+    width: 35%;
     .avatar-setup {
         border: none;
         padding-left: 20px;
