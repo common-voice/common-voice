@@ -420,9 +420,13 @@ about-no-votes-text = Gaž wužywaŕ głosowy klip wótpokazujo, wrośijo se k c
 about-dataset-new = Datowa sajźba Common Voice
 about-dataset-new-text = Datowa sajźba Common Voice stotysacy głosowych pśikładow wopśimujo, kótarež wuwijarjam pomagaju, rědy za spóznawanje głosow napóraś.
 about-clip-graveyard = Klipowy kjarchob
+about-clip-graveyard-text = Klipowy kjarchob z głosowych klipow wobstoj, kótarymž njejo se raźiło, se do datoweje sajźby Common Voice dostaś. Ako datowa sajźba jo klipowy kjarchob za ześěgnjenje k dispoziciji.
 about-partners = Partnarje
 about-become-a-partner = Buźćo partnaŕ
 about-get-involved = Cyńśo sobu
+about-get-involved-text =
+    Cośo pomagaś, Common Voice pólěpšyś?
+    Wjelicnje! Stajśo se z nami pśez e-mail abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo swóje komentary pśez <githubLink>Github</githubLink> abo woglědajśo se k nam na <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Cogodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnarje
