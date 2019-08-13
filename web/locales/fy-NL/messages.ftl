@@ -619,7 +619,7 @@ contribute-more = Klear om der noch { $count } te dwaan?
 record-cta = Opname starte
 record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
 record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
-record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
+record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergeze app downloade:
 record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
 record-no-mic-found = Gjin mikrofoan fûn.
 record-error-too-short = De opname wie te koart.
@@ -732,6 +732,34 @@ want-to-continue = Wolle jo trochgean?
 finish-editing = Earst bewurking foltôgje?
 lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
 build-custom-goal = In oanpast doel bouwe
+help-reach-hours = Help mei { NUMBER($hours) } oeren yn it { $language } te berikjen mei in persoanlike doelstelling
+set-a-goal = In doel stelle
+cant-decide = Kinne jo gjin beslút nimme?
+activity-needed-calculation = { NUMBER($totalHours) } is berikber yn wat mear as { NUMBER($periodMonths) } moannen as { NUMBER($people) } persoanen { NUMBER($clipsPerDay) } fragminten op in dei opnimme.
+how-many-per-day = Bjusterbaarlik! Hoefolle fragminten op in dei?
+how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn 'e wike?
+which-goal-type = Wolle jo sprekke, lústerjen of beide?
+receiving-emails-info =
+    Jo ûntfange op dit stuit e-mailberjochten, lykas omtinken oan doelen, fernijingen
+    oer jo fuortgong en nijsbrieven oer Common Voice
+n-clips = { NUMBER($count) } fragminten
+help-share-goal = Help ús mear stimmen te finen, diel jo doel
+confirm-goal = Doel befêstigje
+goal-interval-weekly = Wykliks
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Diel jo daaglikse doel fan { $count } fragminten foar { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Diel jo wyklikse doel fan { $count } fragminten foar { $type }
+share-goal-type-speak = Sprekke
+share-goal-type-listen = Lústerje
+share-goal-type-both = Sprekke en lústerje
+# LINK will be replaced with the current URL
+goal-share-text = Ik haw sakrekt in persoanlike doelstelling makke foar spraakdonaasje oan #CommonVoice –– doch mei my mei en help masinen te learen hoe't echte minsken sprekke { $link }
+weekly-goal-created = Jo wikedoel is oanmakke
+daily-goal-created = Jo deistige doel is oanmakke
+track-progress = Folgje jo deistige fuortgong hjir en op jo statistikenside.
+return-to-edit-goal = Kom hjir werom om elk winske momint jo doel te wizigjen.
+share-goal = Myn doel diele
 
 ## Profile Delete
 
