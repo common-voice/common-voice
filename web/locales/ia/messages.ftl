@@ -715,6 +715,7 @@ finish-editing = Fini primo le modificationes?
 lose-changes-warning = Si tu exi ora, tu perdera tu modificationes
 build-custom-goal = Crea un objectivo personal
 help-reach-hours = Adjuta attinger { NUMERO($horas) } horas in { $lingua } con un objectivo personal
+help-reach-hours-general = Adjuta Common Voice a attinger { NUMERO($horas) } horas in un lingua con un objectivo personal
 set-a-goal = Definir un objectivo
 cant-decide = Impossibile decider?
 activity-needed-calculation = Nos pote attinger { NUMBER($totalHours) } horas in solo { NUMBER($periodMonths) } menses si { NUMBER($people) } personas registra { NUMBER($clipsPerDay) } retalios per die.
