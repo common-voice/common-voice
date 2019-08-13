@@ -98,6 +98,7 @@ or = odijščina
 pl = poljščina
 pt = portugalščina
 rm-sursilv = retoromanščina (sursilvan)
+rm-vallader = retoromanščina (vallader)
 ro = romunščina
 ru = ruščina
 rw = ruandščina
@@ -392,10 +393,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zakaj Common Voice?
+about-subtitle = Common Voice je del Mozilline pobude, ki pomaga učiti stroje, kako ljudje govorijo. Poleg nabora podatkov Common Voice gradimo tudi odprtokodni mehanizem za prepoznavanje govora, imenovan Deep Speech.
 how-does-it-work-title = Kako deluje
+how-does-it-work-text = Ustvarjamo odprtokodni glasovni nabor podatkov. Prispevajte svoj glas in preverite točnost posnetkov drugih ljudi, da bo nabor podatkov boljši za vsakogar.
 about-speak = Govori
 about-speak-text = Sodelujoči posnamejo glasovne posnetke iz nabora zbranih stavkov.
 about-listen-queue = Poslušaj – Čakalna vrsta
+about-listen-queue-text = Glasovni posnetki se prestavijo v čakalno vrsto, kjer se pripravijo za poslušanje.
 about-listen = Poslušaj
 about-listen-text = Uporabniki preverijo točnost posnetkov in ali je govornik pravilno prebral stavek.
 about-is-it-valid = Ali je posnetek veljaven?
@@ -425,6 +429,7 @@ mycroft-subtitle = Umetna inteligenca
 mycroft-description =
     Mycroft je prvi odprtokodni asistent.
     Mycroft deluje kjerkoli – na namiznem računalniku, v avtomobilu ali na Raspberry Pi.
+mycroft-secondary-description = To je odprtokodna programska oprema, ki jo je mogoče prosto prilagajati, razširiti in izboljšati. Mycroft se lahko uporablja za karkoli, od znanstvenega projekta do programske opreme.
 
 ## Glossary
 
@@ -625,13 +630,24 @@ listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
 nothing-to-validate = Trenutno ni ničesar za preveriti v tem jeziku. Pomagaj nam zapolniti čakalno vrsto.
 record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
+keep-track-profile = S profilom spremljajte svoj napredek
+login-to-get-started = Za začetek se prijavite ali registrirajte
 
 ## Reporting
 
 report = Prijavi
+report-title = Pošlji poročilo
+report-ask = Kaj je narobe s tem stavkom?
+report-offensive-language = Žaljiv jezik
+report-offensive-language-detail = Stavek je nespoštljiv ali žaljiv.
 report-grammar-or-spelling = Slovnična/tipkarska napaka
+report-grammar-or-spelling-detail = Stavek ima slovnično ali črkovno napako.
+report-different-language = Drugačen jezik
+report-different-language-detail = Napisan je v jeziku, ki je drugačen od tistega, ki ga govorim.
 report-difficult-pronounce = Zahtevna izgovorjava
 report-difficult-pronounce-detail = Vsebuje besede ali besedne zveze, ki jih je težko prebrati ali izgovoriti.
+report-offensive-speech = Žaljiv govor
+report-offensive-speech-detail = Posnetek vsebuje nespoštljiv ali žaljiv jezik.
 report-other-comment =
     .placeholder = Komentar
 success = Uspeh
@@ -681,6 +697,8 @@ recorded-clips = Shranjeni posnetki
 validated-clips = Potrjeni posnetki
 total-approved = skupaj potrjenih
 overall-accuracy = natančnost
+set-visibility = Nastavite mojo vidnost
+show-ranking = Pokaži mojo uvrstitev
 
 ## Custom Goals
 
@@ -688,20 +706,41 @@ get-started-goals = Začnite s cilji
 toward-next-goal = Do naslednjega cilja
 create-custom-goal = Ustvari cilj po meri
 both-speak-and-listen = Oboje
+both-speak-and-listen-long = Oboje (govori in poslušaj)
 daily-goal = Dnevni cilj
 weekly-goal = Tedenski cilj
+easy-difficulty = Enostavno
 average-difficulty = Srednje
 difficult-difficulty = Težko
+lose-goal-progress-warning = Z urejanjem cilja lahko izgubite obstoječi napredek.
 want-to-continue = Želite nadaljevati?
+finish-editing = Želite najprej dokončati urejanje?
+lose-changes-warning = Če zapustite zdaj, boste izgubili spremembe
+build-custom-goal = Sestavite cilj po meri
+help-reach-hours = Pomagajte doseči { NUMBER($hours) } ur v jeziku { $language } z osebnim ciljem
 set-a-goal = Zastavite cilj
 cant-decide = Se ne morete odločiti?
+activity-needed-calculation = { NUMBER($totalHours) } ur je dosegljivih v nekaj več kot { NUMBER($periodMonths) } mesecih, če { NUMBER($people) } ljudi posname { NUMBER($clipsPerDay) } posnetkov na dan.
 how-many-per-day = Odlično! Koliko posnetkov na dan?
 how-many-a-week = Odlično! Koliko posnetkov na teden?
 which-goal-type = Želite govoriti, poslušati ali oboje?
+receiving-emails-info =
+    Trenutno prejemate e-poštna sporočila, kot so opomniki za cilje, 
+    posodobitve napredka in novice projekta Common Voice
 n-clips = { NUMBER($count) } posnetkov
+help-share-goal = Pomagajte nam najti več glasov, delite svoj cilj
 confirm-goal = Potrdi cilj
 goal-interval-weekly = Tedensko
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Delite svoj dnevni cilj { $count } posnetkov za { $type }
+share-goal-type-speak = Govori
 share-goal-type-listen = Poslušanje
+# LINK will be replaced with the current URL
+goal-share-text = Pravkar sem ustvaril osebni cilj za prispevanje k projektu #CommonVoice – pridružite se mi in pomagajmo naučiti stroje, kako govorijo resnični ljudje { $link }
+weekly-goal-created = Vaš tedenski cilj je bil ustvarjen
+daily-goal-created = Vaš dnevni cilj je bil ustvarjen
+track-progress = Napredek lahko spremljate tukaj ali na strani s statistiko.
+return-to-edit-goal = Če želite urediti svoj cilj, se vrnite sem.
 share-goal = Deli moj cilj
 
 ## Profile Delete
@@ -719,5 +758,6 @@ profile-form-delete = Izbriši profil
 
 ## Landing
 
+help-contribute = Pomagate lahko ustvariti raznolik, odprtokodni nabor podatkov, tako da ustvarite profil Common Voice in prispevate svoj glas.
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 read-more-about = Preberite več na naši strani O nas
