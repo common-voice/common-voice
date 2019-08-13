@@ -716,6 +716,7 @@ finish-editing = 要先完成編輯嗎？
 lose-changes-warning = 現在離開將不會儲存變更
 build-custom-goal = 自訂目標
 help-reach-hours = 設定個人目標，幫助讓 { $language } 的片段達到 { NUMBER($hours) } 小時
+help-reach-hours-general = 設定個人目標，幫助讓 Common Voice 當中的語言時數達到 { NUMBER($hours) } 小時
 set-a-goal = 設定目標
 cant-decide = 無法決定嗎？
 activity-needed-calculation = 若有 { NUMBER($people) } 每天錄下 { NUMBER($clipsPerDay) } 片段，就可以在 { NUMBER($periodMonths) } 個月後達到 { NUMBER($totalHours) } 小時的目標。
