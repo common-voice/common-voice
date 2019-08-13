@@ -723,6 +723,7 @@ finish-editing = Erst die Bearbeitung beenden?
 lose-changes-warning = Wenn Sie jetzt abbrechen, gehen Ihre Änderungen verloren
 build-custom-goal = Ein benutzerdefiniertes Ziel erstellen
 help-reach-hours = Helfen Sie mit einem persönlichen Ziel dabei, { NUMBER($hours) } Stunden in { $language } zu erreichen
+help-reach-hours-general = Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { NUMBER($hours) } Stunden in einer Sprache zu erreichen
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
 activity-needed-calculation =
