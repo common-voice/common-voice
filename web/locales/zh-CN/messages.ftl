@@ -711,6 +711,7 @@ finish-editing = 要先完成编辑吗？
 lose-changes-warning = 若现在离开，将丢失所有更改
 build-custom-goal = 建立自定义目标
 help-reach-hours = 设定个人目标，助力 { $language } 的片段达到 { NUMBER($hours) } 小时
+help-reach-hours-general = 设定个人目标，助力 Common Voice 的片段达到 { NUMBER($hours) } 小时
 set-a-goal = 设定目标
 cant-decide = 无法决定？
 activity-needed-calculation = 若有 { NUMBER($people) } 人每天录制 { NUMBER($clipsPerDay) } 片段，就可在 { NUMBER($periodMonths) } 个月后达到 { NUMBER($totalHours) } 小时的目標。
