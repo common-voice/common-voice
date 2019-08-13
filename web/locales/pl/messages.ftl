@@ -729,6 +729,7 @@ finish-editing = Dokończyć najpierw modyfikację?
 lose-changes-warning = Opuszczenie teraz spowoduje utratę zmian
 build-custom-goal = Utwórz własny cel
 help-reach-hours = Pomóż osiągnąć { NUMBER($hours) } godz. w tym języku ({ $language }) za pomocą osobistego celu
+help-reach-hours-general = Pomóż projektowi Common Voice osiągnąć { NUMBER($hours) } godz. w jednym z języków za pomocą osobistego celu
 set-a-goal = Ustal cel
 cant-decide = Nie możesz się zdecydować?
 activity-needed-calculation =
