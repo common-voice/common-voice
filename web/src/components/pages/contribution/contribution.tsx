@@ -134,28 +134,32 @@ class ContributionPage extends React.Component<Props, State> {
   private canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
   private wave: Wave;
 
+  private get showAccountModalDefault() {
+    const { flags, user } = this.props;
+    return (
+      flags.showAccountConversionModal &&
+      !user.account &&
+      !JSON.parse(localStorage.getItem(HAS_SEEN_ACCOUNT_MODAL_KEY))
+    );
+  }
+
   componentDidMount() {
     this.startWaving();
     window.addEventListener('keydown', this.handleKeyDown);
+
+    // preload waves to prevent layout shifting
+    if (this.showAccountModalDefault) {
+      new Image().src = require('./waves.svg');
+    }
   }
 
   componentDidUpdate(prevProps: Props) {
     this.startWaving();
 
-    const {
-      activeIndex,
-      flags,
-      isPlaying,
-      isSubmitted,
-      onReset,
-      user,
-    } = this.props;
+    const { activeIndex, isPlaying, isSubmitted, onReset, user } = this.props;
 
     if (activeIndex == 1 && prevProps.activeIndex != activeIndex) {
-      const showAccountModal =
-        flags.showAccountConversionModal &&
-        !user.account &&
-        !JSON.parse(localStorage.getItem(HAS_SEEN_ACCOUNT_MODAL_KEY));
+      const showAccountModal = this.showAccountModalDefault;
       this.setState({ showAccountModal });
       if (showAccountModal) {
         localStorage.setItem(HAS_SEEN_ACCOUNT_MODAL_KEY, JSON.stringify(true));
