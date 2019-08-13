@@ -721,6 +721,7 @@ finish-editing = Chceće wobdźěłowanje najprjedy dokónčić?
 lose-changes-warning = Hdyž nětko přetorhnjeće, zhubiće swoje změny
 build-custom-goal = Swójski cil wutworić
 help-reach-hours = Pomhajće z wosobinskim cilom { NUMBER($hours) } hodźin w rěči { $language } docpěć
+help-reach-hours-general = Pomhajće Common Voice z wosobinskim cilom { NUMBER($hours) } hodźin w rěči docpěć
 set-a-goal = Cil stajić
 cant-decide = Njemóžeće so rozsudźić?
 activity-needed-calculation = { NUMBER($totalHours) } hodźin je w trochu wjace hač { NUMBER($periodMonths) } měsacow docpějomne, jeli { NUMBER($people) } ludźi { NUMBER($clipsPerDay) } klipow wob dźeń natoča.
