@@ -147,9 +147,10 @@ class ContributionPage extends React.Component<Props, State> {
     this.startWaving();
     window.addEventListener('keydown', this.handleKeyDown);
 
-    // preload waves to prevent layout shifting
+    // preload account modal images to prevent layout shifting
     if (this.showAccountModalDefault) {
       new Image().src = require('./waves.svg');
+      new Image().src = require('./mars-blue.svg');
     }
   }
 
