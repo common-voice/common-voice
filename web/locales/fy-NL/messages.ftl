@@ -364,6 +364,7 @@ faq-why-important-a =
 faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
 faq-how-get-a = De gegevensset fan Common Voice is beskikber foar downloaden ûnder de <licenseLink>CC0</licenseLink>-lisinsje op <datasetLink>ús side mei gegevenssets</datasetLink>. Jo kinne ek ferskate oare iepenbier beskikbere gegevenssets fan dyselde side downloade.
 faq-when-release2-q = Wannear wurdt Common Voice yn oare talen útjûn?
+faq-when-release2-a = De meartalige ferzje fan de Common Voice-gegevensset wurdt op dit stuit troch de mienskip bondele en opskjinne. As jo ús helpe wolle om Common Voice nei nije talen te bringen, sjoch dan ris nei it <sentenceCollectorLink>Helpmiddel foar it sammeljen fan sinnen </sentenceCollectorLink>foar it tafoegjen fan nije sinnen oan de gegevensset, en nei Mozilla <pontoonLink>Pontoon</pontoonLink> foar it oersetten fan de website sels. Nije talen wurde foar spraakdonaasje oan Common Voice tafoege wannear 5000 goedkarre sinnen sammele binne.
 faq-why-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
 faq-why-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik hâlden fan it ynternet. Om dat te dwaan, moatte wy webmakkers middelen jaan mei projekten as Common Voice. Omdat spraaktechnologyen hieltyd mear tapast wurde, leauwe wy dat se foar alle brûkers beskikber wêze moatte. Dat betsjut ynvestearje yn mear talen, en romte biede foar ferskate aksinten en befolkingsferskillen by it bouwen en testen fan spraaktechnologyen. Common Voice is in foar elkenien beskikbere publike boarne, en Mozilla-teams en ûntwikkelers oer de hiele wrâld brûke it ek al foar ús eigen projekten.
 faq-what-cv-and-deepspeech-q = Wat is it ferskil tusken Common Voice en Deep Speech?
@@ -647,6 +648,8 @@ listen-last-time-instruction = <playIcon></playIcon> De lêste!
 nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús de rige te foljen.
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
+keep-track-profile = Hâld jo fuortgong by mei in profyl
+login-to-get-started = Meld jo oan of registrearje om te begjinnen
 
 ## Reporting
 
@@ -697,6 +700,7 @@ clips-you-validated = Troch jo falidearre fragminten
 todays-recorded-progress = Foarútgong fan Common Voice hjoed omtrint opnommen fragminten
 todays-validated-progress = Foarútgong fan Common Voice hjoed omtrint falidearre fragminten
 stats = Statistiken
+awards = Prizen
 you = Jo
 everyone = Elkenien
 contribution-activity = Meiwurkersaktiviteit
@@ -705,10 +709,29 @@ recorded-clips = Opnommen fragminten
 validated-clips = Falidearre fragminten
 total-approved = Totaal goedkard
 overall-accuracy = Algemiene sekuerens
+set-visibility = Myn sichtberheid ynstelle
+visibility-explainer = Dizze ynstelling regelet de sichtberheid fan jo fuortgongssteat. As dizze op Ferstoppe ynsteld is, is jo fuortgong privee. Dit betsjut dat jo ôfbylding, brûkersnamme en fuortgong net op it oersicht ferskine sille. Merk op dat it oant { $minutes } minuten duorret eardat wizigingen yn it oersicht ferwurke binne.
+visibility-overlay-note = Noat: Wannear dit op ‘Sichtber’ ynsteld is, dan kin dizze ynstelling op jo <profileLink>Profylside</profileLink> wizige wurde
+show-ranking = Myn ranglist toane
 
 ## Custom Goals
 
+get-started-goals = Begjinne mei doelstellingen
 toward-next-goal = Nei it folgjende doel
+create-custom-goal = In oanpaste doelstelling meitsje
+both-speak-and-listen = Beide
+both-speak-and-listen-long = Beide (sprekke en lústerje)
+daily-goal = Deistige doel
+weekly-goal = Wikedoel
+easy-difficulty = Maklik
+average-difficulty = Gemiddeld
+difficult-difficulty = Swier
+pro-difficulty = Pro
+lose-goal-progress-warning = Troch jo doel te bewurkjen, ferlieze jo mooglik jo besteande fuortgong.
+want-to-continue = Wolle jo trochgean?
+finish-editing = Earst bewurking foltôgje?
+lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
+build-custom-goal = In oanpast doel bouwe
 
 ## Profile Delete
 
