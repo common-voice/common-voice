@@ -752,6 +752,7 @@ finish-editing = Gorffen golygu yn gyntaf?
 lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidiadau
 build-custom-goal = Creu targed cyfaddas
 help-reach-hours = Helpwch i gyrraedd { NUMBER($hours) } awr { $language } gyda tharged personol
+help-reach-hours-general = Helpwch  Common Voice i gyrraedd { NUMBER($hours) } awr mewn iaith gyda tharged personol
 set-a-goal = Gosod targed
 cant-decide = Methu penderfynu?
 activity-needed-calculation = Mae { NUMBER($totalHours) } awr yn gyraeddadwy ymhen { NUMBER($periodMonths) } mis os fydd { NUMBER($people) } o bobl yn recordio { NUMBER($clipsPerDay) } clip y dydd.
