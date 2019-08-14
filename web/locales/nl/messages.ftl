@@ -733,6 +733,9 @@ which-goal-type = Wilt u spreken, luisteren of allebei?
 receiving-emails-info =
     U ontvangt momenteel e-mailberichten zoals herinneringen aan doelen, updates
     over uw voortgang en nieuwsbrieven over Common Voice
+not-receiving-emails-info =
+    Er is momenteel ingesteld dat u <bold>GEEN</bold> e-mailberichten zoals herinneringen aan doelen,
+    updates over uw voortgang en nieuwsbrieven over Common Voice ontvangt
 n-clips = { NUMBER($count) } fragmenten
 help-share-goal = Help ons meer stemmen te vinden, deel uw doel
 confirm-goal = Doel bevestigen
