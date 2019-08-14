@@ -731,6 +731,7 @@ how-many-per-day = Wjelicnje! Wjele klipow na źeń?
 how-many-a-week = Wjelicnje! Wjele klipow na tyźeń?
 which-goal-type = Cośo powědaś, słuchaś abo wobej?
 receiving-emails-info = Sćo tuchylu aboněrował mejlki, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
+not-receiving-emails-info = Jo se rowno nastajiło, až mejlki wěcej <bold>NJE</bold>dostanjośo, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
 n-clips = { NUMBER($count) } klipow
 help-share-goal = Źělśo swój cel, aby nam pomagał, wěcej głosow namakaś
 confirm-goal = Cel wobkšuśiś
