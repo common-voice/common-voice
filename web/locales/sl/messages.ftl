@@ -213,6 +213,7 @@ help-make-dataset = Pomagajte nam zgraditi kakovosten in javno dostopen nabor po
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 sign-up-account = Prijavite se za račun
 email-subscription-title = prijavite se na e-poštna obvestila
+email-subscription-title-new = Prijavite se na novice projekta Common Voice, opomnike na cilje in posodobitve napredka
 
 ## Account Benefits
 
@@ -733,6 +734,8 @@ confirm-goal = Potrdi cilj
 goal-interval-weekly = Tedensko
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Delite svoj dnevni cilj { $count } posnetkov za { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Delite svoj tedenski cilj { $count } posnetkov za { $type }
 share-goal-type-speak = Govori
 share-goal-type-listen = Poslušanje
 # LINK will be replaced with the current URL
