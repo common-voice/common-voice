@@ -735,6 +735,7 @@ which-goal-type = Möchten Sie Sprechen, Hören oder beides?
 receiving-emails-info =
     Sie haben aktuell E-Mail wie Zielerinnerungen, meine Fortschrittsmeldungen
     und Newsletter zu Common Voice abonniert
+not-receiving-emails-info = Aktuell erhalten Sie aufgrund Ihrer Einstellungen <bold>KEINE</bold> E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice
 n-clips = { NUMBER($count) } Clips
 help-share-goal = Teilen Sie Ihr Ziel und helfen Sie uns, mehr Stimmen zu finden
 confirm-goal = Ziel bestätigen
