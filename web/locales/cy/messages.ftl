@@ -760,6 +760,7 @@ how-many-per-day = Gwych! Sawl clip y dydd?
 how-many-a-week = Gwych! Sawl clip yr wythnos?
 which-goal-type = Hoffech chi Siarad, Gwrando neu'r ddau?
 receiving-emails-info = Ar hyn o bryd rydych wedi trefnu i dderbyn negeseuon e-bost i'ch atgoffa am eich targed, diweddariadau cynnydd a chylchlythyron am Common Voice
+not-receiving-emails-info = Ar hyn o bryd, rydych wedi eich gosod i <bold>BEIDIO</bold> â derbyn e-byst i atgoffa am dargedau, diweddariadau cynnydd a newyddlenni am Common Voice
 n-clips = { NUMBER($count) } clip
 help-share-goal = Helpwch ni i ddenu rhagor o leisiau, rhannwch eich targed
 confirm-goal = Cadarnhau'r Targed
