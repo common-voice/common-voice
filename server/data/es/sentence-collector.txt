@@ -38,6 +38,7 @@ A mi me gustan mucho los perros.
 A mi profesora le importa demasiado la gramática y muy poco el contenido.
 A mucho amor, mucho perdón.
 A más beber, menos comer.
+A mí me hacen eso mismo y me quedo toda loca.
 A nadie le gustan los mosquitos.
 A nosotros no nos gusta que nos hagan explotar.
 A palabras necias oídos sordos
@@ -162,6 +163,7 @@ Ande yo caliente y ríase la gente.
 Animales que vienen con una fiebre extraña.
 Anoche tuve un sueño muy extraño.
 Ante casa cada día hay más contenedores.
+Antes del viaje pasaremos esta tarde a despedirnos de mi madre.
 Antes que acabes, no te alabes.
 Aplique el producto directamente sobre la frente.
 Aprender a sonreír es aprender a ser libres.
@@ -261,6 +263,7 @@ Camino malo, pásalo pronto.
 Caminos hacen amigos.
 Caridad y amor, sin tambor.
 Casa con dos puertas, mala es de guardar.
+Caía la tarde. De Huelva llegaba un olor a marisma, a brea.
 Celebremos con un chocolate caliente.
 Cesar es un muchacho saudí.
 Chicos, creo que lo he encontrado.
@@ -310,6 +313,7 @@ Creo que las dos tienen demasiadas figuritas.
 Creo que me apetece tortilla de patata y un poco de ensalada.
 Creo que me ha rozado un alga.
 Creía haberle dicho que recogiese esto.
+Creía que me había llevado el móvil y resulta que me lo dejé aquí.
 Criaban caballos a las afueras de Ribes.
 Cría cuervos y te sacaran los ojos.
 Cría fama y échate a dormir.
@@ -333,6 +337,8 @@ Cuando llueve y hace sol sale a paseo el caracol.
 Cuando marzo mayea, mayo marcea.
 Cuando menos se piensa salta la liebre.
 Cuando puedas, gira a la derecha.
+Cuando quieras hablar, me avisas.
+Cuando quieres darte cuenta, ya es tarde y no hay vuelta atrás.
 Cuando termina la vida de la escuela, comienza la escuela de la vida.
 Cuando una puerta se cierra, ciento se abren.
 Cuanta más grandeza, más llaneza.
@@ -605,6 +611,7 @@ El siglo veinte es el más trágico de la historia.
 El sobrino siempre pagaba las Fantas.
 El sol de enero poco duradero.
 El sol del mediodía y el sereno de la noche.
+El sol pone en la tierra su alegría de plata y oro.
 El suyo será de hilo de cobre.
 El sábado fui al Sweet Pachá.
 El teclado estaba lleno de muelles.
@@ -626,6 +633,7 @@ El valiente de palabras es muy ligero de pies.
 El verbo tiene más interés sintáctico que el nombre.
 El viaje a China lo dejaremos para pasado fiestas.
 El viaje se iba a realizar en septiembre.
+El viernes por la tarde vamos a la playa y luego cenamos allí.
 El vino para los reyes y el agua para los bueyes.
 El volante del Lamborghini es de piel de pantera.
 El zumo de uva es popular.
@@ -760,6 +768,7 @@ Esa salida de la carretera, estaba mal señalizada.
 Escuchad. Hay un juguete bueno ahí abajo .
 Ese abrigo te queda grande.
 Ese fruto es muy nutritivo.
+Ese no ha pegado un palo al agua en toda su puta vida.
 Ese tipo jamás ha estudiado medicina.
 Eso es repugnante. ¡ Asesino!
 Eso es todo lo que quería decir.
@@ -1003,6 +1012,7 @@ Hola, pequeña dama.
 Hola. Check . ¿ mejor? bien .
 Hola volved a casa se hace tarde ya
 Hola, buenos días.
+Hola, sobrino, ¿qué has hecho hoy?¿Fuiste al parque?
 Hola. Hola mundo.
 Hombre, las muñecas realmente deben morir por usted. ¿ Me puede enseñar a hacer eso? .
 Hombre prevenido vale por dos.
@@ -1066,6 +1076,7 @@ Junio ​​es el mejor mes del año.
 Jícaras Tristes es una recopilación de seis poemarios del poeta Alfredo Espino.
 Jódete, ¡alcaudón!
 La Concepción tiene anginas.
+La Luna viene con nosotros, grande, redonda, pura.
 La Marina juega al bingo.
 La Matilde tiene halitosis, pero canta como los ángeles.
 La Merced es muy simpática y agradable.
@@ -1128,6 +1139,7 @@ La fórmula uno llega hoy a Abudabí
 La garza vuela entre los algarrobos.
 La generosidad no abunda, mas bien escasea
 La gente de esta generación está muy confundida.
+La gente es muy falsa. Tanto tienes, tanto vales.
 La globalización ha sido una comida copiosa todavía no la hemos digerido
 La habitación del hotel no era igual a la de la foto
 La hallaba con el alma en el breviario.
@@ -1296,6 +1308,7 @@ Lo que el médico yerra, cúbrelo la tierra.
 Lo que hay en esos regalos.
 Lo que no mata, engorda.
 Lo que no se empieza, no se acaba.
+Lo que no te mata te hace más fuerte y además engorda.
 Lo que poco cuesta poco se aprecia.
 Lo que uno no quiere el otro lo desea.
 Lo rastrero no sube: esta cumbre es el reino.
@@ -1350,6 +1363,7 @@ Los locutores del clásico llaman como unos energúmenos.
 Los loros viven muchos años.
 Los mensajes que me enviaba el abogado me confundían.
 Los mozos son altos y firmes.
+Los niños han ido con Platero al arroyo de los chopos
 Los niños optan por el juego psicomotor.
 Los olores a jazmín y rosas se entremezclaban en placentera fusión
 Los partidos políticos tradicionales compiten con los populismos y los movimientos asamblearios.
@@ -1387,6 +1401,7 @@ Los vídeos que alquilaba siempre eran de serie B.
 Los youtubers están muy de moda ahora
 Los últimos serán los primeros.
 Luego haremos una barbacoa.
+Luego iré a la piscina. Ahora no tengo ganas.
 Luis subió a su casita del árbol
 Luz de láser intermitente.
 Machismo es cultura no género
@@ -1458,8 +1473,10 @@ Me toca trabajar en el turno de tarde.
 Me voy enseguida.
 Mejor no menear el arroz aunque se pegue.
 Memoria selectiva para recordar lo bueno, prudencia lógica para no arruinar el presente.
+Menudo susto me has pegado. Si me pinchas no me sale ni gota.
 Merced, ¡haz el favor de recoger las muñecas!
 Mezclan Fanta y Eristoff en una cazuela.
+Mi abuelo siempre decía que cada año nacen más tontos.
 Mi amiga es feminista
 Mi amigo es feminista
 Mi asistente virtual es mejor que tu.
@@ -1510,6 +1527,7 @@ Más moscas se cogen con miel que con hiel.
 Más sabe el diablo por viejo que por diablo.
 Más sabe el necio en su casa que el cuerdo en la ajena.
 Más seguros en la cabina. Será idiota .
+Más te vale espabilar si no quieres arrepentirte luego.
 Más vale al paso andar que correr y tropezar.
 Más vale aprovechar que tirar.
 Más vale bien morir que mal vivir.
@@ -1569,6 +1587,7 @@ Nadie debe quedarse atrás.
 Nadie diga "de esta agua no beberé".
 Nadie escarmienta en cabeza ajena.
 Nadie había intentado un trasplante de cerebro
+Nadie sabe lo que tengo que aguantar.
 Nadie sabe lo que tiene hasta que lo pierde.
 Nadie va a ser sustituido.
 Necesitamos vacaciones.
@@ -1595,6 +1614,7 @@ Ni tengo padre, ni madre, ni perro que me ladre.
 Ni un dedo hace mano, ni una golondrina verano.
 Nieves, ¡salta!
 Ninguna lectura si el aire es respirable.
+Niño, si no bajas ahora mismo te bajo yo de un sopapo.
 Niño, ve a correr un rato, a ver si te relajas.
 Niño, ¿ya has cogido la cabra?
 No, en un par de días , todo será como antes. Ya verán .
@@ -1662,12 +1682,14 @@ No lo estas buscando bien.
 No lo haré, uh ¿ a que te refieres? ¿ quién ?
 No lo he visto.
 No lo puedo hacer.
+No me arrepiento de nada.
 No me digas lo que tengo que hacer.
 No me digas qué hacer. ¡ chis!
 No me gusta la sopa de fideos.
 No me gustan los exámenes de filosofía.
 No me hables acerca de importancia.
 No me hagas muecas.
+No me toques las palmas que me conozco y me pongo a bailar.
 No mojes los dedos en la salsa, ¡cerdo!
 No nos hacemos los graciosos, que nos pegan en la calle.
 No nos va a dar tiempo a acabar el trabajo.
@@ -1711,8 +1733,11 @@ No soporto ver algo así
 No soy un guardián espacial. Sólo soy un juguete .
 No sé. ¿ cómo que no sabes?
 No sé aún si el aire
+No sé de dónde has sacado eso. De mí seguro que no.
 No sé si ayer fuiste al cine.
 No sé si empezar un libro o una serie.
+No sé si se hace así pero yo lo pruebo a ver.
+No te canses mucho en el trabajo. Yo no lo haré.
 No te rías cuando te riño o tendré que enviarte al rincón de pensar.
 No te vayas aún, ¡Juan!
 No tenemos más que lechuga para comer.
@@ -1734,14 +1759,17 @@ No vendré temprano porque me gusta dormir.
 Nos equivocamos de tren y fuimos a parar al aeropuerto.
 Nos han contado historias fascinantes.
 Nos levantaremos temprano para ir de excursión.
+Nos llegamos a plantear irnos a vivir con ellos pero al final no.
 Nos trató de perdularios.
 Nosotros los juguetes podemos ver todo.
+Nosotros somos cuatro y si viene Juan seremos cinco.
 Nuestra amistad jamás morirá
 Nuestra amistad nunca morirá.
 Nueve, ocho , siete , seis...
 Nueve de cada diez lo recomiendan.
 Nunca comprendí tu aptitud
 Nunca digas de este agua no beberé.
+Nunca escuchas. Siempre haces igual.
 Nunca llueve a gusto de todos.
 Nunca me gustaron demasiado las obras de Espronceda.
 Nunca nos ha fallado.
@@ -1832,6 +1860,7 @@ Perdóneme. Odio romper la reunión, pero ¡ están aquí!
 Perifero la lluvia al calor.
 Pero... ¿ y si son caníbales? .
 Pero ellos son caníbales. Los vimos comer a otros juguetes .
+Pero me parece que los del año que viene ya nacieron.
 Pero mirate que bonito vestido.
 Pero necesito su ayuda.
 Pero necesito vuestra ayuda.
@@ -1905,6 +1934,7 @@ Puerta abierta, vecino que entra.
 Pues a mí, la película me gustó mucho.
 Pues coge otro juguete. ¡ Baja ya!
 Pues estará ahí. No has buscado bien .
+Pues hasta mañana entonces. Id con cuidado.
 Pues yo, no me fío nada.
 Python como un legunaje de programación.
 Que Marta no vaya a Cornellá no significa que tú no tengas que ir.
@@ -2071,6 +2101,7 @@ Si el ocio te causa tedio, el trabajo es buen remedio.
 Si el perro muerde a un ciclista, te pondrán una multa muy merecida.
 Si el pimentonero se acerca a tu casa, la nieve baja.
 Si este año llueve, será un milagro.
+Si fuera en invierno aún. Pero ahora no importa.
 Si la envidia fuera sarna, cuantos sarnosos habría.
 Si lo tienes que hacer de cualquier manera, mejor que no lo hagas.
 Si mando a la tropa, ¿ os calmaréis un poco?
@@ -2080,8 +2111,10 @@ Si no conseguimos un trato habrá que entrar por la fuerza.
 Si no nos damos prisa, haremos salado.
 Si no te entusiasma, puedo pensar en otra cosa.
 Si no te gusta planchar, no te compres ropa de hilo.
+Si no te lo crees, ve tú pero yo ya te he avisado.
 Si nos mantenemos unidos lo podemos hacer.
 Si quieres con tu familia reñir, echa algo a repartir.
+Si quieres que te sea sincero, ese es más malo que el hambre.
 Si quieres que te siga el can, dale pan.
 Si quieres vivir sano, madruga en el verano.
 Si tarda mucho ya no estaremos a tiempo.
@@ -2093,10 +2126,12 @@ Si vale, pero no estoy de acuerdo con lo que dices
 Si vas a Nueva York te recomiendo que vayas a ver un musical.
 Si vas al mercado, compra fruta.
 Si vas al súper, lleva jabón para la lavadora.
+Si vienes lo pasaremos bien. Anímate, mujer.
 Si vuelve a suspender, tendremos que castigarlo.
 Si yo quiero, podré volar
 Siempre andaba vestida de candor.
 Siempre hay un roto para un descosido.
+Siempre he querido hacerlo pero nunca me he atrevido.
 Siempre he querido poner a un hombre del espacio en órbita.
 Siempre he querido poner en órbita a un astronauta.
 Siempre le ha gustado mucho la cultura popular.
@@ -2141,6 +2176,7 @@ Su primo es juez.
 Su sensibilidad capta el paisaje y el ambiente salvadoreño.
 Su sueño era regentar una taberna.
 Subamos atrás. Ahí no nos verá nadie .
+Sucedió, pues, en aquel tiempo, una lluvia muy copiosa.
 Suegros, ricos y tacaños, no se mueren ni en cien años.
 Surgió ese tipo en su cohete
 Sus fiestas, sus amores, algunos acontecimientos cotidianos como una tarde en el pueblo.
@@ -2168,6 +2204,7 @@ Tarragona y Girona no son nada provincianas.
 Te burlas de mí, ¿ no?
 Te estas poniendo ofensivo, ¿ no es cierto?
 Te felicito. Alguien menos fuerte hubiese hablado bajo tal tortura .
+Te prometo que no voy a poner otra peli de zombis.
 Te recomiendo un parche de hierbas.
 Te refrescarás con un Aquarius de naranja.
 Te vendrán pesares sin que los buscares.
@@ -2199,6 +2236,7 @@ Tengo el estómago revuelto.
 Tengo mucha hambre.
 Tengo más sueño que hambre.
 Tengo novia.
+Tengo que cambiar las ruedas ya porque las tengo muy gastadas.
 Tengo que estudiar.
 Tengo tanto sueño
 Tengo un poco de insomnio, creo.
@@ -2259,6 +2297,7 @@ Tus amigos van a llegar ya.
 Tía Lucía se pasa todo el día compartiendo fotos antiguas en Facebook.
 Tú decidiste subir a éste...
 Tú entras en el salón y me miras con tu sonrisa particular.
+Tú lo que quieres es matarme a disgustos.
 Tú tenías razón.
 Tú, sin tregua como un ciclón, haces que mi cabeza dé vueltas
 Uh, correcto. El cohete esta asegurado a la guia de alambre .
@@ -3189,6 +3228,7 @@ el negro pareció dudar.
 el negro sonreía, mirándonos con sus ojos de res enferma:
 el negro sonríe con esa sonrisa blanca de los salvajes, y pronuncia lentamente 
 el noble Marqués me permitirá una pregunta: ¿ de qué conoce a Juan de Guzmán?
+el orden de los factores no altera el producto
 el otro alazano del belfo blanco que bebe en el agua.
 el otro reía alegremente:
 el padre de su hijo. lo importante era
@@ -6202,6 +6242,7 @@ yo ya no puedo estar contigo.
 ¡Las otras radios son mucho más resistentes, Pau!
 ¡Los alrededores del Ebro son fantásticos!
 ¡Léete todo de una vez o no aprobarás nunca!
+¡Madre, mía!. Si no lo veo, no lo creo y sigo sin creérmelo.
 ¡Me duele la pierna derecha!
 ¡Me ha gustado este café!
 ¡Me han dedicado una canción de los Gansos Grasas!
@@ -6235,6 +6276,7 @@ yo ya no puedo estar contigo.
 ¡Qué malestar que tengo!
 ¡Qué mañana más asquerosa que hace!
 ¡Qué miedo!
+¡Qué no me líes! Estamos hablando del domingo.
 ¡Qué palo de anuncios que pasan en el cine!
 ¡Qué pequeños los hombres!
 ¡Qué pereza!
@@ -6666,6 +6708,7 @@ yo ya no puedo estar contigo.
 ¿Que te has vuelto loca?
 ¿Quieres decir que el aire acondicionado funciona?
 ¿Quieres decir que no sería mejor ir a otra playa?
+¿Quieres dejar eso y hacerme caso, por favor?
 ¿Quién te pagó los estudios?
 ¿Qué canciones te gustan más?
 ¿Qué comerás para merendar?
@@ -6679,6 +6722,7 @@ yo ya no puedo estar contigo.
 ¿Qué experiencias personales valoras más?
 ¿Qué hacen en el cine?
 ¿Qué haces los jueves después de cenar?
+¿Qué hay para desayunar? Tengo un hambre que me muero.
 ¿Qué hiciste ayer por la tarde?
 ¿Qué hora es?
 ¿Qué instituciones dices que estarán presentes?
@@ -6722,6 +6766,7 @@ yo ya no puedo estar contigo.
 Él es mío, y nadie me lo quitará.
 Él ha sido elegido. Él debe ir .
 Él siempre venía los jueves después de cenar.
+Éramos unos piezas de cuidado. Lo pasamos bien.
 Ése es nuestro destino
 Éste es mi lugar, ¿ ves la cama aquí?
 Éste es un sistema de sonido de calidad.
