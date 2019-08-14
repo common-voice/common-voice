@@ -741,6 +741,9 @@ which-goal-type = Czy chcesz nagrywać, odsłuchiwać czy wykonywać oba działa
 receiving-emails-info =
     Obecnie otrzymujesz wiadomości e-mail, takie jak przypomnienia o celach,
     informacje o postępie oraz biuletyny na temat Common Voice
+not-receiving-emails-info =
+    Obecnie <bold>nie</bold> otrzymujesz wiadomości e-mail, takich jak przypomnienia o celach,
+    informacje o postępie oraz biuletyny na temat Common Voice
 n-clips = Nagrania: { NUMBER($count) }
 help-share-goal = Pomóż nam znaleźć więcej głosów, podziel się swoim celem
 confirm-goal = Potwierdź cel
