@@ -724,6 +724,7 @@ finish-editing = Ar d-tefakeḍ deg tazwara tazrigt?
 lose-changes-warning = Ma teffɣeḍ tura ad ruḥen ibeddilen-ik
 build-custom-goal = Bnu iswi udmawan
 help-reach-hours = Mudd afus ad tawḍeḍ { NUMBER($hours) } n yisragen deg { $language } s yiswi udmawan
+help-reach-hours-general = Mudd afus i Common Voice ad yaweḍ { NUMBER($hours) } n yisragen deg tutlayt s yiswi udmawan
 set-a-goal = Sbadu iswi
 cant-decide = Ur tezmireḍ ara tferneḍ?
 activity-needed-calculation = { NUMBER($totalHours) } n yisragen i tzemred ad tawḍeḍ deg { NUMBER($periodMonths) } n wagguren ma yella { NUMBER($people) } n yimdanen skelsen { NUMBER($clipsPerDay) } n tefyar deg wass.
