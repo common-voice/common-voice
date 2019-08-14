@@ -719,6 +719,7 @@ finish-editing = Kết thúc chỉnh sửa trước?
 lose-changes-warning = Rời đi sẽ làm mất những thay đổi của bạn
 build-custom-goal = Xây dựng mục tiêu tùy chỉnh
 help-reach-hours = Trợ giúp đạt { NUMBER($hours) } giờ trong ngôn ngữ { $language } với mục tiêu cá nhân
+help-reach-hours-general = Giúp Common Voice đạt được { NUMBER($hours) } giờ bằng ngôn ngữ với mục tiêu cá nhân
 set-a-goal = Đặt một mục tiêu
 cant-decide = Không thể quyết định?
 activity-needed-calculation =
@@ -730,6 +731,7 @@ which-goal-type = Bạn có muốn nói, nghe hay cả hai?
 receiving-emails-info =
     Bạn hiện đang được thiết lập để nhận email như lời nhắc mục tiêu, 
     cập nhật tiến độ của tôi và bản tin về Common Voice.
+not-receiving-emails-info = Hiện tại bạn đang được đặt thành <bold>KHÔNG</bold> nhận email như lời nhắc mục tiêu, cập nhật của tôi tiến độ và bản tin về Common Voice
 n-clips = { NUMBER($count) } clip
 help-share-goal = Hãy giúp chúng tôi tìm thêm tiếng nói, chia sẻ mục tiêu của bạn
 confirm-goal = Xác nhận mục tiêu
