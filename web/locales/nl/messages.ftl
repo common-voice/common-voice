@@ -723,6 +723,7 @@ finish-editing = Eerst bewerking voltooien?
 lose-changes-warning = Door nu af te sluiten verliest u uw wijzigingen
 build-custom-goal = Een aangepast doel bouwen
 help-reach-hours = Help mee { NUMBER($hours) } uren in het { $language } te bereiken met een persoonlijke doelstelling
+help-reach-hours-general = Help met een persoonlijke doelstelling Common Voice { NUMBER($hours) } uren in een taal te bereiken
 set-a-goal = Een doel stellen
 cant-decide = Kunt u geen besluit nemen?
 activity-needed-calculation = { NUMBER($totalHours) } is bereikbaar in iets meer dan { NUMBER($periodMonths) } maanden als { NUMBER($people) } personen { NUMBER($clipsPerDay) } fragmenten per dag opnemen.
