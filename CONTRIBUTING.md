@@ -60,7 +60,7 @@ To modify the configuration listed in config-helper.ts (e.g server port), you ne
 
 [Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
 
-Either create a MySQL root user that conforms to the default `DB_ROOT_USER` and `DB_ROOT_PASS` in `/server/src/config-helper.ts` or [create your own config](https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md#configuration).
+Either create a MySQL superuser that that uses the default `DB_ROOT_USER` and `DB_ROOT_PASS` values from `/server/src/config-helper.ts` or [create your own config](https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md#configuration).
 
 Then `cd` into the project directory and enter the following commands:
 
