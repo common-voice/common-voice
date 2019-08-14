@@ -724,6 +724,7 @@ how-many-per-day = 好的，每天要貢獻幾個片段？
 how-many-a-week = 好的，每週要貢獻幾個片段？
 which-goal-type = 想要錄音、聆聽確認，還是兩者都要？
 receiving-emails-info = 您已經設定要訂閱目標提醒、我的進度更新、Common Voice 相關最新消息的電子報。
+not-receiving-emails-info = 您目前設定<bold>不要</bold>收到諸如目標提醒、我的進度更新與 Common Voice 的相關電子報。
 n-clips = { NUMBER($count) } 片段
 help-share-goal = 分享您的目標，幫助我們找到更多人參與錄音
 confirm-goal = 確認目標
