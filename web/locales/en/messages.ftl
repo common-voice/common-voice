@@ -744,6 +744,8 @@ how-many-a-week = Great! How many clips a week?
 which-goal-type = Do you want to Speak, Listen or both?
 receiving-emails-info = You're currently set to receive emails such as goal reminders, my
         progress updates and newsletters about Common Voice
+not-receiving-emails-info = You're currently set to <bold>NOT</bold> receive emails such as goal reminders, my
+        progress updates and newsletters about Common Voice
 n-clips = { NUMBER($count) } clips
 help-share-goal = Help us find more voices, share your goal
 confirm-goal = Confirm Goal

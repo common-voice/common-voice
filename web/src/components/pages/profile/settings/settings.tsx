@@ -4,7 +4,7 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from 'common/user-clients';
 import { Notifications } from '../../../../stores/notifications';
@@ -22,6 +22,7 @@ import {
 } from '../../../ui/ui';
 
 import './settings.css';
+import { useIsSubscribed } from '../../../../hooks/store-hooks';
 
 const Section = ({
   title,
@@ -57,18 +58,8 @@ interface PropsFromDispatch {
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 function Settings(props: Props) {
-  const { account, addNotification, getString, locale, saveAccount } = props;
-  const [isSubscribed, setIsSubscribed] = useState<boolean>(null);
-
-  useEffect(() => {
-    if (!account.basket_token) return;
-    fetch(
-      'https://basket.mozilla.org/news/lookup-user/?token=' +
-        account.basket_token
-    )
-      .then(response => response.json())
-      .then(body => setIsSubscribed(body.newsletters.includes('common-voice')));
-  }, []);
+  const { account, addNotification, getString, saveAccount } = props;
+  const isSubscribed = useIsSubscribed();
 
   useEffect(() => {
     const { pathname, search } = location;

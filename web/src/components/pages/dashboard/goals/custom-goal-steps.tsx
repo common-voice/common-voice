@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { CustomGoal, CustomGoalParams } from 'common/goals';
 import { UserClient } from 'common/user-clients';
 import URLS from '../../../../urls';
-import { useAccount } from '../../../../hooks/store-hooks';
+import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks';
 import { useRouter } from '../../../../hooks/use-router';
 import { getManageSubscriptionURL } from '../../../../utility';
 import {
@@ -23,6 +23,7 @@ import {
 } from '../../../ui/icons';
 import { Button, LabeledSelect, LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
+import { useEffect } from 'react';
 
 const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
   <div className="buttons padded" {...props}>
@@ -249,25 +250,35 @@ export default [
   }: CustomGoalStepProps & AccountProps) => {
     const account = useAccount();
     const [privacyAgreed, setPrivacyAgreed] = useState(false);
+    const isSubscribed = useIsSubscribed();
+
     return (
       <div className="padded">
         {completedFields}
         {account.basket_token ? (
-          <>
-            <Localized id="receiving-emails-info">
-              <p className="subscription-info" />
-            </Localized>
-            <a
-              className="manage-subscriptions"
-              href={getManageSubscriptionURL(account)}
-              target="__blank"
-              rel="noopener noreferrer">
-              <Localized id="manage-email-subscriptions">
-                <span />
+          isSubscribed !== null && (
+            <>
+              <Localized
+                id={
+                  isSubscribed
+                    ? 'receiving-emails-info'
+                    : 'not-receiving-emails-info'
+                }
+                bold={<b />}>
+                <p className="subscription-info" />
               </Localized>
-              <SettingsIcon />
-            </a>
-          </>
+              <a
+                className="manage-subscriptions"
+                href={getManageSubscriptionURL(account)}
+                target="__blank"
+                rel="noopener noreferrer">
+                <Localized id="manage-email-subscriptions">
+                  <span />
+                </Localized>
+                <SettingsIcon />
+              </a>
+            </>
+          )
         ) : (
           <>
             <label className="box">
@@ -318,7 +329,6 @@ export default [
 
   withLocalization(({ getString, nextButtonProps, state }: any) => {
     const [showShareModal, setShowShareModal] = useState(false);
-    const goalType = state.daysInterval == 7 ? 'Weekly' : 'Daily';
     const isWeekly = state.daysInterval == 7;
     return (
       <div className="padded">
