@@ -726,6 +726,7 @@ finish-editing = Előbb befejezi a szerkesztést?
 lose-changes-warning = A lap elhagyása azt jelenti, hogy elveszíti a változásokat
 build-custom-goal = Egyéni cél létrehozása
 help-reach-hours = Segítsen elérni a(z) { NUMBER($hours) } órát { $language } nyelven egy személyes céllal
+help-reach-hours-general = Segítsen a Common Voice-nak elérnie a(z) { NUMBER($hours) } órát egy személyes céllal rendelkező nyelven
 set-a-goal = Cél kitűzése
 cant-decide = Nem tud dönteni?
 activity-needed-calculation =
@@ -737,6 +738,9 @@ which-goal-type = Beszélni, figyelni vagy mindkettőt szeretne?
 receiving-emails-info =
     Jelenleg úgy állította be, hogy e-mailben megkapja a cél emlékeztetőket,
     az előrehaladási híreket és a Common Voice hírlevelet
+not-receiving-emails-info =
+    Jelenleg úgy van beállítva, hogy <bold>NEM</bold> kap e-mailt cél emlékeztetőkkel,
+    előrehaladási hírekkel és a Common Voice hírlevéllel
 n-clips = { NUMBER($count) } klip
 help-share-goal = Segítsen még több hangot találni, ossza meg a célját
 confirm-goal = Cél megerősítése
