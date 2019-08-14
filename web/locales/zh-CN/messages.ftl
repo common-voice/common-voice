@@ -719,6 +719,7 @@ how-many-per-day = 好的，每天要贡献几个片段？
 how-many-a-week = 好的，每周要贡献几个片段？
 which-goal-type = 想要录音、聆听确认，还是两者都要？
 receiving-emails-info = 您当前已设为接收目标提醒、我的进度更新、Common Voice 新闻通讯等邮件
+not-receiving-emails-info = 您当前已设为<bold>拒绝</bold>接收诸如目标提醒、我的进度更新与 Common Voice 的相关新闻通讯。
 n-clips = { NUMBER($count) } 个片段
 help-share-goal = 帮助我们找到更多人献声，分享您的目标
 confirm-goal = 确认目标
