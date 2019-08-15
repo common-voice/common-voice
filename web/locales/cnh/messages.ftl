@@ -473,6 +473,10 @@ review-delete-recordings = Tuun mi hlonh
 
 ## Datasets Page
 
+datasets-positioning =
+    Mipi nih hman awktlak Aw-lei fimthiamnak nih hin hmailei ah a ngan dam mi sipuaizi tuahnak le thilthar ser duhnak tampi a chuah ter lai kan zumh. 
+    
+    Common Voice's multi-language dataset cu, mipi caah hman khawhmi, vawlei cungah a ngan cemmi dataset pakhat ah a chuah cang. Hmailei zongah thil ṭhaṭha tampi chuah le ser kan i tim rih.
 language = Holh phun
 # File size in gigabytes
 size = Hmetngan
