@@ -473,6 +473,7 @@ review-delete-recordings = Tuun mi hlonh
 
 ## Datasets Page
 
+datasets-headline = Mipi caah a sunglawimi, holh phun kip in chawnh khawh dingmi, computer application ser kan i tim.
 datasets-positioning =
     Mipi nih hman awktlak Aw-lei fimthiamnak nih hin hmailei ah a ngan dam mi sipuaizi tuahnak le thilthar ser duhnak tampi a chuah ter lai kan zumh. 
     
