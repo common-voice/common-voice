@@ -137,7 +137,10 @@ class AvatarSetup extends React.Component<Props, State> {
     ) {
       this.isUnsupportedPlatform = true;
     }
-    let clip = await this.props.api.fetchAvatarClip();
+    let clip;
+    if (this.props.user.account.avatar_clip_url) {
+      clip = await this.props.api.fetchAvatarClip();
+    }
     if (clip) this.setState({ avatarClipUrl: clip });
     this.setState({ clipStatus: 'notStarted' });
   }
