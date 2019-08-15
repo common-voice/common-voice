@@ -11,6 +11,7 @@ import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
+import { Uploads } from '../../../../stores/uploads';
 import {
   CheckIcon,
   LinkIcon,
@@ -94,6 +95,7 @@ interface PropsFromState {
 interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
   refreshUser: typeof User.actions.refresh;
+  addUpload: typeof Uploads.actions.add;
 }
 
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
@@ -229,14 +231,22 @@ class AvatarSetup extends React.Component<Props, State> {
     });
   };
 
-  private uploadAvatarClip() {
-    const { api, refreshUser, addNotification } = this.props;
-    api
-      .saveAvatarClip(this.state.blobUrl)
-      .then(async data => {
-        this.setState({ clipStatus: 'notStarted' });
-        let clip = await this.props.api.fetchAvatarClip();
-        if (clip) this.setState({ avatarClipUrl: clip });
+  private async uploadAvatarClip() {
+    console.log('clickled');
+    const { api, refreshUser, addNotification, addUpload } = this.props;
+    addUpload([
+      async () => {
+        try {
+          console.log(this.state.blobUrl, 'lallan bhai');
+          await api.saveAvatarClip(this.state.blobUrl);
+          this.setState({ clipStatus: 'notStarted' });
+          let clip = await this.props.api.fetchAvatarClip();
+          if (clip) this.setState({ avatarClipUrl: clip });
+        } catch (error) {
+          confirm('Upload of this avatar clip keeps failing, keep retrying?');
+        }
+      },
+      async () => {
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -245,10 +255,8 @@ class AvatarSetup extends React.Component<Props, State> {
             </Localized>
           </React.Fragment>
         );
-      })
-      .catch(err => {
-        confirm('Upload of this avatar clip keeps failing, keep retrying?');
-      });
+      },
+    ]);
     refreshUser();
   }
 
@@ -427,7 +435,7 @@ class AvatarSetup extends React.Component<Props, State> {
               </>
             ) : (
               <Localized id="about-avatar-clip">
-                <p className="create-a-custom-voice" />
+                <p className="create-a-custom-voice voice-paragraph-2" />
               </Localized>
             )}
           </div>
@@ -505,5 +513,6 @@ export default connect<PropsFromState, any>(
   {
     addNotification: Notifications.actions.addPill,
     refreshUser: User.actions.refresh,
+    addUpload: Uploads.actions.add,
   }
 )(withLocalization(AvatarSetup));
