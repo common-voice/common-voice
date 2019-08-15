@@ -322,6 +322,7 @@ add-avatar-clip = Na profile ah na hmanthlak cawlmi tar
 create-voice-wave = Aw a cawlcang ning ser
 recording-voice-wave = Tun lio
 ready-to-upload = Khumh
+avatar-clip-fact = Carel ding kha ṭha tein hmunhma chiah piak lo ahcun a reltu an i vaivuanh lai ti cu theih ciapi a si ko.
 recreate-voice = Voicewave ser ṭhan
 cancel-avatar-clip-recording = Let
 about-avatar-clip = I hngalhternak dingah hman dingmi na aw cawlcang ning ser. Midang pawl nih an ngaih khawh lai.
