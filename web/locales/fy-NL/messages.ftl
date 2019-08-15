@@ -733,6 +733,7 @@ finish-editing = Earst bewurking foltôgje?
 lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
 build-custom-goal = In oanpast doel bouwe
 help-reach-hours = Help mei { NUMBER($hours) } oeren yn it { $language } te berikjen mei in persoanlike doelstelling
+help-reach-hours-general = Help mei in persoanlike doelstelling Common Voice { NUMBER($hours) } oeren yn in taal te berikjen
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
 activity-needed-calculation = { NUMBER($totalHours) } is berikber yn wat mear as { NUMBER($periodMonths) } moannen as { NUMBER($people) } persoanen { NUMBER($clipsPerDay) } fragminten op in dei opnimme.
@@ -742,6 +743,9 @@ which-goal-type = Wolle jo sprekke, lústerjen of beide?
 receiving-emails-info =
     Jo ûntfange op dit stuit e-mailberjochten, lykas omtinken oan doelen, fernijingen
     oer jo fuortgong en nijsbrieven oer Common Voice
+not-receiving-emails-info =
+    Der is op dit stuit ynsteld dat jo <bold>GJIN</bold> e-mailberjochten lykas omtinken oan doelen,
+    fernijingen oer jo fuortgong en nijsbrieven oer Common Voice ûntfange
 n-clips = { NUMBER($count) } fragminten
 help-share-goal = Help ús mear stimmen te finen, diel jo doel
 confirm-goal = Doel befêstigje
