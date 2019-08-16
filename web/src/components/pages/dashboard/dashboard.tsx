@@ -16,6 +16,7 @@ import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
 
 import './dashboard.css';
+import { NATIVE_NAMES } from '../../../services/localization';
 
 const TITLE_BAR_LOCALE_COUNT = 3;
 
@@ -111,9 +112,13 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
               checked={l == dashboardLocale}
               onChange={() => setLocale(l)}
             />
-            <Localized id={l || ALL_LOCALES}>
-              <span />
-            </Localized>
+            {l ? (
+              <span>{NATIVE_NAMES[l]}</span>
+            ) : (
+              <Localized id={ALL_LOCALES}>
+                <span />
+              </Localized>
+            )}
           </label>
         ))}
         {dropdownLocales.length > 0 && (
@@ -129,11 +134,17 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
               }
             }}>
             {titleBarLocales.length > 0 && <option value="" />}
-            {dropdownLocales.map(l => (
-              <Localized key={l || ALL_LOCALES} id={l}>
-                <option value={l} />
-              </Localized>
-            ))}
+            {dropdownLocales.map(l =>
+              l ? (
+                <option key={l} value={l}>
+                  {NATIVE_NAMES[l]}
+                </option>
+              ) : (
+                <Localized key={ALL_LOCALES} id={l}>
+                  <option value={l} />
+                </Localized>
+              )
+            )}
           </select>
         )}
       </div>
