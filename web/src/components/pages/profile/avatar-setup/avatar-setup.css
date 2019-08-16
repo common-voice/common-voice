@@ -8,7 +8,7 @@
 
 .clip {
     & h2 {
-        width: 334px;
+        max-width: 334px;
         height: 58px;
         font-family: var(--strong-font-family);
         font-size: 24px;
@@ -19,9 +19,6 @@
         letter-spacing: normal;
         text-align: center;
         color: var(--black);
-        @media only screen and (max-width: 375px) {
-            width: 270px;
-        }
     }
 
     .clip-title {
@@ -29,37 +26,32 @@
         left: 15%;
         right: 15%;
         padding-top: 10px;
+        @media only screen and (max-width: 375px) {
+            left: 6%;
+            right: 6%;
+        }
     }
     .group-1 {
-        width: 508px;
+        max-width: 508px;
         height: 169px;
         object-fit: contain;
         background-image: url('./group-1.svg');
         background-repeat: no-repeat;
-        @media only screen and (max-width: 375px) {
-            width: 100%;
-            background-size: 100%;
-        }
+        background-size: 100%;
     }
 
     .lottiebg {
-        width: 508px;
+        max-width: 508px;
         height: 169px;
         object-fit: contain;
         background-image: url('./groupbg.svg');
         background-repeat: no-repeat;
-        @media only screen and (max-width: 375px) {
-            width: 100%;
-            background-size: 100%;
-        }
+        background-size: 100%;
     }
 
     .lottie {
-        width: 508px;
+        max-width: 508px;
         height: 169px;
-        @media only screen and (max-width: 375px) {
-            width: 100%;
-        }
     }
 
     .but {
@@ -144,28 +136,22 @@
     }
 
     .create-a-custom-voice {
-        width: 470px;
+        max-width: 470px;
         height: 58px;
         text-align: center;
         color: grey;
         padding-top: 36px;
         padding-left: 22px;
-        @media only screen and (max-width: 375px) {
-            width: 300px;
-        }
     }
 
     .recreate-voice {
-        width: 470px;
+        max-width: 470px;
         height: 58px;
         text-align: center;
         color: #629ff4;
         cursor: pointer;
         padding-top: 36px;
         padding-left: 22px;
-        @media only screen and (max-width: 375px) {
-            width: 300px;
-        }
     }
 
     .voice-paragraph-2 {
@@ -178,12 +164,8 @@
     }
 
     .fix {
-        height: 240px;
-        width: 508px;
-        @media only screen and (max-width: 375px) {
-            width: 100%;
-            height: 125px;
-        }
+        max-height: 240px;
+        max-width: 508px;
     }
     .start-in {
         position: relative;
