@@ -80,6 +80,7 @@ module "database" {
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
   instance_class         = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
   allocated_storage      = "${var.environment == "prod" ? "100" : "10"}"
+  replica_count          = "${var.environment == "prod" ? "0" : "1"}"
 }
 
 module "clips" {
