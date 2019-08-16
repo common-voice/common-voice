@@ -4,12 +4,12 @@
     z-index: -1000;
     height: 0%;
     position: absolute;
-    top: 22%;
+    top: 30%;
     right: 10%;
 }
 
 .lottie-size {
-    height: 120px;
+    height: 100px;
 }
 
 .user-menu {
