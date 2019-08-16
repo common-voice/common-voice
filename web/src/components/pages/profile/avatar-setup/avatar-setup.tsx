@@ -232,12 +232,10 @@ class AvatarSetup extends React.Component<Props, State> {
   };
 
   private async uploadAvatarClip() {
-    console.log('clickled');
     const { api, refreshUser, addNotification, addUpload } = this.props;
     addUpload([
       async () => {
         try {
-          console.log(this.state.blobUrl, 'lallan bhai');
           await api.saveAvatarClip(this.state.blobUrl);
           this.setState({ clipStatus: 'notStarted' });
           let clip = await this.props.api.fetchAvatarClip();
