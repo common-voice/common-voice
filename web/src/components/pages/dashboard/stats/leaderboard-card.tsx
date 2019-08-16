@@ -14,6 +14,7 @@ import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers';
+
 import {
   BookmarkIcon,
   CheckIcon,
@@ -29,6 +30,9 @@ import {
 import { Avatar, Toggle } from '../../../ui/ui';
 import StatsCard from './stats-card';
 import { isProduction } from '../../../../utility';
+import { Suspense, lazy } from 'react';
+const Lottie = lazy(() => import('react-lottie'));
+const animationData = require('../../../layout/data.json');
 
 import './leaderboard.css';
 
@@ -163,6 +167,14 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
 
   render() {
     const { rows, isAtEnd, playingClipIndex } = this.state;
+    const defaultOptions = {
+      loop: true,
+      autoplay: true,
+      animationData: animationData,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice',
+      },
+    };
 
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
@@ -200,11 +212,9 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               onClick={() =>
                 this.playAvatarClip(row.avatarClipUrl, row.position)
               }>
-              <div
-                className={playingClipIndex === row.position ? 'rotate' : ''}>
+              <div>
                 <Avatar url={row.avatar_url} />
               </div>
-              {playingClipIndex === row.position && <PlayIcon />}
             </button>
           )}
 
@@ -220,6 +230,20 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               </React.Fragment>
             )}
           </div>
+          {playingClipIndex === row.position && (
+            <div className="lottie">
+              <Suspense fallback={<div />}>
+                <div className="animation">
+                  <Lottie
+                    options={defaultOptions}
+                    eventListeners={[]}
+                    height={80}
+                    width={250}
+                  />
+                </div>
+              </Suspense>{' '}
+            </div>
+          )}
           <div className="total" title={row.total}>
             {this.props.type == 'clip' ? (
               <MicIcon />

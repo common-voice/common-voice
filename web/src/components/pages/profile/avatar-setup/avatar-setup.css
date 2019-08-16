@@ -8,7 +8,7 @@
 
 .clip {
     & h2 {
-        width: 334px;
+        max-width: 334px;
         height: 58px;
         font-family: var(--strong-font-family);
         font-size: 24px;
@@ -19,46 +19,39 @@
         letter-spacing: normal;
         text-align: center;
         color: var(--black);
-        @media only screen and (max-width: 375px) {
-            width: 270px;
-        }
     }
 
     .clip-title {
         position: relative;
-        left: 20%;
-        right: 20%;
+        left: 15%;
+        right: 15%;
         padding-top: 10px;
+        @media only screen and (max-width: 375px) {
+            left: 6%;
+            right: 6%;
+        }
     }
     .group-1 {
-        width: 508px;
+        max-width: 508px;
         height: 169px;
         object-fit: contain;
         background-image: url('./group-1.svg');
-        @media only screen and (max-width: 375px) {
-            width: 375px;
-            background-size: 375px;
-        }
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 
     .lottiebg {
-        width: 508px;
+        max-width: 508px;
         height: 169px;
         object-fit: contain;
         background-image: url('./groupbg.svg');
         background-repeat: no-repeat;
-        @media only screen and (max-width: 375px) {
-            width: 100%;
-            background-size: 100%;
-        }
+        background-size: 100%;
     }
 
     .lottie {
-        width: 508px;
+        max-width: 508px;
         height: 169px;
-        @media only screen and (max-width: 375px) {
-            width: 100%;
-        }
     }
 
     .but {
@@ -74,8 +67,8 @@
         height: 57px;
 
         position: relative;
-        left: 29%;
-        right: 29%;
+        left: 22%;
+        right: 22%;
         text-decoration: none;
 
         &:hover {
@@ -98,8 +91,6 @@
         position: relative;
         left: 9%;
         right: 9%;
-        color: green;
-        text-decoration: none;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
@@ -110,6 +101,10 @@
                     fill: grey;
                 }
             }
+        }
+        @media only screen and (max-width: 375px) {
+            left: 16%;
+            right: 16%;
         }
     }
 
@@ -121,9 +116,6 @@
         position: relative;
         left: 8%;
         right: 8%;
-        color: green;
-
-        text-decoration: none;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
@@ -135,31 +127,35 @@
                 }
             }
         }
+
+        @media only screen and (max-width: 375px) {
+            left: 15%;
+            right: 15%;
+            margin-bottom: 10px;
+        }
     }
 
     .create-a-custom-voice {
-        width: 470px;
+        max-width: 470px;
         height: 58px;
         text-align: center;
         color: grey;
         padding-top: 36px;
         padding-left: 22px;
-        @media only screen and (max-width: 375px) {
-            width: 300px;
-        }
     }
 
     .recreate-voice {
-        width: 470px;
+        max-width: 470px;
         height: 58px;
         text-align: center;
         color: #629ff4;
         cursor: pointer;
         padding-top: 36px;
         padding-left: 22px;
-        @media only screen and (max-width: 375px) {
-            width: 300px;
-        }
+    }
+
+    .voice-paragraph-2 {
+        margin-bottom: 36px;
     }
 
     .counter {
@@ -168,12 +164,8 @@
     }
 
     .fix {
-        height: 240px;
-        width: 508px;
-        @media only screen and (max-width: 375px) {
-            width: 100%;
-            height: 125px;
-        }
+        max-height: 240px;
+        max-width: 508px;
     }
     .start-in {
         position: relative;
