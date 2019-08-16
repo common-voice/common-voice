@@ -335,6 +335,18 @@
             }
         }
 
+        .lottie {
+            position: relative;
+            height: 32px;
+            width: 600px;
+            left: -10px;
+            bottom: 5px;
+            z-index: 1000;
+        }
+
+        .aniamtion {
+        }
+
         & .username {
             width: 100%;
             line-height: 1.5;
