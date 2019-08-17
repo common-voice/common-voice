@@ -723,6 +723,7 @@ how-many-per-day = Grande! Quante registrationes per die?
 how-many-a-week = Grande! Quante registrationes per septimana?
 which-goal-type = Vole tu parlar, ascoltar o ambe?
 receiving-emails-info = Tu ha actualmente convenite de reciper emails tal como mementos de objectivos, actualisationes re le progresso e bulletines de novas re Common Voice
+not-receiving-emails-info = Tu ha actualmente convenite de <bold>NON</bold> reciper emails tal como mementos de objectivos, actualisationes re le progresso e bulletines de novas re Common Voice
 n-clips = { NUMBER($count) } retalios vocal
 help-share-goal = Adjuta nos a trovar plus voces, comparti tu objectivo
 confirm-goal = Confirmar objectivo
