@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Suspense, lazy } from 'react';
 import { useState } from 'react';
 import { useAccount } from '../../hooks/store-hooks';
-import { trackNav } from '../../services/tracker';
+import { trackNav, trackVoiceAvatar } from '../../services/tracker';
 import URLS from '../../urls';
 import { LocaleLink, useLocale } from '../locale-helpers';
 import {
@@ -43,6 +43,7 @@ export default function UserMenu() {
           className="toggle"
           title="click to play avatar"
           onClick={() => {
+            trackVoiceAvatar('self-listen', locale);
             if (account.avatar_clip_url !== null && !showAnimation) {
               const audio = new Audio(account.avatar_clip_url);
               audio.play();

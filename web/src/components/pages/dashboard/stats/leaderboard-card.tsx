@@ -8,7 +8,7 @@ import { useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { useAccount, useAction } from '../../../../hooks/store-hooks';
 import API from '../../../../services/api';
-import { trackDashboard } from '../../../../services/tracker';
+import { trackDashboard, trackVoiceAvatar } from '../../../../services/tracker';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -126,7 +126,10 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     );
   }
 
-  playAvatarClip = function(clipUrl: string, position: any) {
+  playAvatarClip = function(clipUrl: string, position: any, self: boolean) {
+    const { locale } = this.props;
+    trackVoiceAvatar(self ? 'self-listen' : 'listen', locale);
+
     if (this.state.playingClipIndex === null) {
       this.setState({ playingClipIndex: position });
 
@@ -201,22 +204,23 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position + 1}
           </div>
 
-          {isProduction() && row.avatar_url !== null ? (
-            <div className="avatar-container">
-              <Avatar url={row.avatar_url} />
-            </div>
-          ) : (
-            <button
-              className="avatar-container"
-              title="Click to play avatar"
-              onClick={() =>
-                this.playAvatarClip(row.avatarClipUrl, row.position)
-              }>
-              <div>
+          {!isProduction() &&
+            (row.avatarClipUrl === null ? (
+              <div className="avatar-container">
                 <Avatar url={row.avatar_url} />
               </div>
-            </button>
-          )}
+            ) : (
+              <button
+                className="avatar-container"
+                title="Click to play avatar"
+                onClick={() =>
+                  this.playAvatarClip(row.avatarClipUrl, row.position, row.you)
+                }>
+                <div>
+                  <Avatar url={row.avatar_url} />
+                </div>
+              </button>
+            ))}
 
           <div className="username" title={row.username}>
             {row.username || '???'}

@@ -6,7 +6,7 @@ import {
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../../services/api';
-import { trackProfile } from '../../../../services/tracker';
+import { trackProfile, trackVoiceAvatar } from '../../../../services/tracker';
 import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
@@ -161,6 +161,7 @@ class AvatarSetup extends React.Component<Props, State> {
       addNotification(getString('file' + error));
     }
     trackProfile('give-avatar', locale);
+
     refreshUser();
     this.setState({ isSaving: false });
   }
@@ -172,6 +173,8 @@ class AvatarSetup extends React.Component<Props, State> {
   };
 
   private playAvatarClip = async () => {
+    const { locale } = this.props;
+    trackVoiceAvatar('self-listen', locale);
     if (!this.state.isPlaying) {
       const audio = new Audio(this.state.avatarClipUrl);
       this.setState({ isPlaying: true });
@@ -270,6 +273,8 @@ class AvatarSetup extends React.Component<Props, State> {
       this.setState({ counter: tl });
       if (this.state.counter <= 0) {
         this.setState({ clipStatus: 'started' });
+        const { locale } = this.props;
+        trackVoiceAvatar('create-voice-avatar', locale);
         this.handleRecordClick();
         clearInterval(downloadTimer);
       }

@@ -14,7 +14,8 @@ export function track(
     | 'Dashboard'
     | 'Global'
     | 'Nav'
-    | 'Landing',
+    | 'Landing'
+    | 'voice-avatar',
   action: string,
   locale?: string
 ) {
@@ -104,6 +105,13 @@ export function trackProfile(
   locale: string
 ) {
   track('Profile', action, locale);
+}
+
+export function trackVoiceAvatar(
+  action: 'self-listen' | 'listen' | 'create-voice-avatar',
+  locale: string
+) {
+  track('voice-avatar', action, locale);
 }
 
 export function trackLanguages(
