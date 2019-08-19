@@ -390,6 +390,13 @@ about-title = Нигә Common Voice?
 how-does-it-work-title = Ул ничек эшли?
 about-speak = Сөйләү
 about-speak-text = Катнашучылар, иганә ителгән җөмләләрне укып, аудиоязмалар булдыралар.
+about-listen-queue = Тыңлау чираты
+about-nav-why-common-voice = Нигә?
+about-nav-how-it-works = Ничек?
+about-nav-partners = Партнёрлар
+about-nav-get-involved = Катнашу
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Ясалма интеллект
 
 ## Glossary
 
@@ -584,6 +591,11 @@ share-title-new = Безгә күбрәк тавыш табарга <bold>ярд
 
 ## Reporting
 
+report = Шикаять итү
+report-grammar-or-spelling = Грамматик / орфографик хата
+report-grammar-or-spelling-detail = Җөмләдә грамматик яки орфографик хата бар.
+report-different-language = Башка тел
+report-different-language-detail = Бу җөмлә мин сөйләшкән телдә түгел.
 report-difficult-pronounce = Әйтүе кыен
 report-offensive-speech = Рәнҗеткеч сүз
 report-offensive-speech-detail = Бу клипта кимсетүле-рәнҗеткеч  гыйбарәләр бар.
@@ -630,10 +642,12 @@ recorded-clips = Яздырылган клиплар
 validated-clips = Тикшерелгән клиплар
 total-approved = Барлык исбатланганнар
 overall-accuracy = Гомуми төгәллек
+show-ranking = Минем рейтингымны күрсәт
 
 ## Custom Goals
 
 toward-next-goal = Алдагы максатка таба
+both-speak-and-listen = Икесе дә
 
 ## Profile Delete
 
