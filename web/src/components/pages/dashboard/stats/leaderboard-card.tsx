@@ -8,7 +8,7 @@ import { useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { useAccount, useAction } from '../../../../hooks/store-hooks';
 import API from '../../../../services/api';
-import { trackDashboard } from '../../../../services/tracker';
+import { trackDashboard, trackVoiceAvatar } from '../../../../services/tracker';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -127,6 +127,9 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
   }
 
   playAvatarClip = function(clipUrl: string, position: any) {
+    const { locale } = this.props;
+    trackVoiceAvatar('listen', locale);
+
     if (this.state.playingClipIndex === null) {
       this.setState({ playingClipIndex: position });
 
