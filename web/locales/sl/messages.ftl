@@ -699,6 +699,8 @@ validated-clips = Potrjeni posnetki
 total-approved = skupaj potrjenih
 overall-accuracy = natančnost
 set-visibility = Nastavite mojo vidnost
+visibility-explainer = Ta nastavitev nadzoruje vašo vidnost na lestvici. Če nastavite na Skrito, bo vaš napredek zaseben. To pomeni, da se vaša slika, uporabniško ime in napredek ne bodo pojavili na lestvici vodilnih. Upoštevajte, da osveževanje sprememb na lestvici traja približno { $minutes } minut.
+visibility-overlay-note = Opomba: Če nastavite na Vidno, lahko to nastavitev spremenite na <profileLink>strani profila</profileLink>
 show-ranking = Pokaži mojo uvrstitev
 
 ## Custom Goals
@@ -713,6 +715,7 @@ weekly-goal = Tedenski cilj
 easy-difficulty = Enostavno
 average-difficulty = Srednje
 difficult-difficulty = Težko
+pro-difficulty = Profesionalno
 lose-goal-progress-warning = Z urejanjem cilja lahko izgubite obstoječi napredek.
 want-to-continue = Želite nadaljevati?
 finish-editing = Želite najprej dokončati urejanje?
