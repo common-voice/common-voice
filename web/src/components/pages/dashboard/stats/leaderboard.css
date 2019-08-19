@@ -339,8 +339,8 @@
             position: relative;
             height: 32px;
             width: 600px;
-            left: -10px;
-            bottom: 5px;
+            left: 15px;
+            bottom: 8px;
             z-index: 1000;
         }
 

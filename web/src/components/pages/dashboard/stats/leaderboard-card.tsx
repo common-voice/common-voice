@@ -205,22 +205,23 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position + 1}
           </div>
 
-          {isProduction() && row.avatar_url !== null ? (
-            <div className="avatar-container">
-              <Avatar url={row.avatar_url} />
-            </div>
-          ) : (
-            <button
-              className="avatar-container"
-              title="Click to play avatar"
-              onClick={() =>
-                this.playAvatarClip(row.avatarClipUrl, row.position, row.you)
-              }>
-              <div>
+          {!isProduction() &&
+            (row.avatarClipUrl === null ? (
+              <div className="avatar-container">
                 <Avatar url={row.avatar_url} />
               </div>
-            </button>
-          )}
+            ) : (
+              <button
+                className="avatar-container"
+                title="Click to play avatar"
+                onClick={() =>
+                  this.playAvatarClip(row.avatarClipUrl, row.position, row.you)
+                }>
+                <div>
+                  <Avatar url={row.avatar_url} />
+                </div>
+              </button>
+            ))}
 
           <div className="username" title={row.username}>
             {row.username || '???'}
