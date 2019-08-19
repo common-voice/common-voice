@@ -126,9 +126,10 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     );
   }
 
-  playAvatarClip = function(clipUrl: string, position: any) {
+  playAvatarClip = function(clipUrl: string, position: any, self: boolean) {
     const { locale } = this.props;
-    trackVoiceAvatar('listen', locale);
+    if (self) trackVoiceAvatar('self-listen', locale);
+    else trackVoiceAvatar('listen', locale);
 
     if (this.state.playingClipIndex === null) {
       this.setState({ playingClipIndex: position });
@@ -213,7 +214,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               className="avatar-container"
               title="Click to play avatar"
               onClick={() =>
-                this.playAvatarClip(row.avatarClipUrl, row.position)
+                this.playAvatarClip(row.avatarClipUrl, row.position, row.you)
               }>
               <div>
                 <Avatar url={row.avatar_url} />
