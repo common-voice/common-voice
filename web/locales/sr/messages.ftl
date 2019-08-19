@@ -212,7 +212,9 @@ benefits = Предности
 rich-data = Учините своје достављене податке што је могуће богатијим пружањем анонимних демографских података. Ми отклањамо свe демографске података пре објављивања.
 improve-audio = Профилни подаци побољшавају аудио податке који се користе у тренирању тачности препознавања говора.
 keep-track = Пратите ваш напредак и метрике за више језика.
+compare-progress = Погледајте како се ваш напредак може поредити са другим сарадницима широм света.
 view-goals = Погледајте свој напредак у односу на личне и пројектне циљеве.
+join-newsletter = По жељи се придружите нашој листи е-поште за новости и нове податке о пројекту.
 
 ## What's public
 
@@ -225,13 +227,27 @@ username-email-not-demographic = Ваше корисничко име и е-по
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = с
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = п
 shortcut-play-toggle-label = Пусти/заустави
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = д
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = н
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = н
 shortcut-record-toggle-label = Снимај/заустави
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Сними поново
@@ -304,6 +320,7 @@ email-subscriptions = Претплате путем е-поште
 download-profile = Преузми моје податке
 contribution-experience = Искуство доприношења
 skip-submission-feedback = Прескочи слање повратних података
+skip-submission-description = Током слања доприноса, повратне информације биће прескочене након што кликнете на дугме „Пошаљи“. Допринос ће се наставити директно са следећим сетом од 5 снимака или валидација.
 off = Искљ.
 on = Укљ.
 add-avatar-title = Додајте аватар у свој профил
