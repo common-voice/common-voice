@@ -320,6 +320,7 @@ off = Ανενεργό
 on = Ενεργό
 add-avatar-title = Προσθήκη avatar στο προφίλ σας
 add-avatar-clip = Προσθήκη κλιπ χρήστη στο προφίλ σας
+recording-voice-wave = Ηχογράφηση
 cancel-avatar-clip-recording = Ακύρωση
 browse-file-title = Μεταφόρτωση αρχείου εικόνας
 browse-file = Σύρετε και εναποθέστε ή <browseWrap>περιήγηση</browseWrap>
