@@ -96,7 +96,7 @@ nn-NO = Norvegiană Nynorsk
 oc = Occitană
 or = Odia
 pl = Poloneză
-pt-BR = Portugheză (Brazilia)
+pt = Portugheză
 rm-sursilv = Retoromană sursilvană
 rm-vallader = Retoromană valladeră
 ro = Română
@@ -205,6 +205,7 @@ help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate,
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
 sign-up-account = Înscrie-te pentru un cont
 email-subscription-title = Abonează-te la informări prin e-mail
+email-subscription-title-new = Abonează-te la buletinele de știri Common Voice, memento-uri de obiective și actualizări despre progres
 
 ## Account Benefits
 
@@ -323,6 +324,9 @@ off = Dezactivat
 on = Activat
 add-avatar-title = Adaugă un avatar la profilul tău
 add-avatar-clip = Adaugă un clip de avatar pe profilul tău
+recording-voice-wave = Se înregistrează
+ready-to-upload = Încărcare
+cancel-avatar-clip-recording = Renunță
 browse-file-title = Încarcă un fișier de imagine
 browse-file = Trage și plasează sau <browseWrap>Navighează</browseWrap>
 connect-gravatar = Conectează-te cu Gravatar
@@ -629,6 +633,8 @@ listen-last-time-instruction = <playIcon></playIcon>Ultima!
 nothing-to-validate = Nu avem nimic de validat în această limbă. Ajută-ne să umplem acest gol.
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
+keep-track-profile = Urmărește-ți progresul cu ajutorul unui profil
+login-to-get-started = Autentifică-te sau înregistrează-te pentru a începe
 
 ## Reporting
 
@@ -691,18 +697,41 @@ recorded-clips = Secvențe audio înregistrate
 validated-clips = Secvențe audio validate
 total-approved = Total aprobate
 overall-accuracy = Acuratețe generală
+set-visibility = Setează-mi vizibilitatea
+show-ranking = Afișează ce loc am în clasament
 
 ## Custom Goals
 
+get-started-goals = Introducere în obiective
 toward-next-goal = Spre obiectivul următor
 create-custom-goal = Creează un obiectiv personalizat
+both-speak-and-listen = Ambele
+both-speak-and-listen-long = Ambele (vorbire și ascultare)
 daily-goal = Obiectiv zilnic
 weekly-goal = Obiectiv săptămânal
+easy-difficulty = Ușor
+average-difficulty = Mediu
+difficult-difficulty = Dificil
+pro-difficulty = Pro
+lose-goal-progress-warning = Dacă îți editezi obiectivul, poți să îți pierzi progresul înregistrat.
 want-to-continue = Vrei să continui?
+finish-editing = Termini mai întâi editarea?
+lose-changes-warning = Dacă ieși acum, vei pierde modificările efectuate
+build-custom-goal = Creează un obiectiv personalizat
 set-a-goal = Stabilește un obiectiv
 cant-decide = Nu te poți decide?
+which-goal-type = Vrei să vorbești, să asculți sau ambele?
+receiving-emails-info = Setarea curentă este că vei primi mesaje pe e-mail cu memento-uri de obiective, actualizări despre progres și buletine de știri despre Common Voice
 n-clips = { NUMBER($count) } secvențe
 confirm-goal = Confirmă obiectivul
+share-goal-type-speak = Se vorbește
+share-goal-type-listen = Se ascultă
+share-goal-type-both = Vorbire și ascultare
+weekly-goal-created = Obiectivul tău săptămânal a fost creat
+daily-goal-created = Obiectivul tău zilnic a fost creat
+track-progress = Urmărește-ți progresul aici și pe pagina ta de statistici.
+return-to-edit-goal = Întoarce-te aici pentru a-ți edita obiectivul în orice moment.
+share-goal = Partajează-mi obiectivul
 
 ## Profile Delete
 
