@@ -590,6 +590,8 @@ your-languages = Ваши језици
 toward-next-goal = Према следећем циљу
 clips-you-recorded = Снимци које сте снимили
 clips-you-validated = Снимци које сте потврдили
+todays-recorded-progress = Данашњи напредак Common Voice-а на снимању снимака
+todays-validated-progress = Данашњи напредак Common Voice-а на валидацији снимака
 stats = Статистика
 awards = Награде
 you = Ви
@@ -644,3 +646,4 @@ profile-form-delete = Обриши профил
 
 ## Landing
 
+read-more-about = Прочитајте више на нашој страници
