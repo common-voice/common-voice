@@ -705,9 +705,12 @@ total-approved = Всего проверено
 overall-accuracy = Общая точность
 set-visibility = Установите мою видимость
 visibility-explainer = Этот параметр контролирует вашу видимость в топе. Когда вы скрыты, ваш прогресс будет приватным. Это означает, что ваше изображение, имя пользователя и прогресс не будут отображаться в списке лидеров. Обратите внимание, что обновление списка лидеров занимает примерно { $minutes } минут.
+visibility-overlay-note = Примечание: Если установлено «Видимый», то этот параметр можно изменить на <profileLink>странице профиля</profileLink>
+show-ranking = Показать мой рейтинг
 
 ## Custom Goals
 
+get-started-goals = Создать цель
 toward-next-goal = Следующая цель
 create-custom-goal = Создать собственную цель
 both-speak-and-listen = Mõlõpõd
@@ -718,13 +721,43 @@ easy-difficulty = Prosta
 average-difficulty = Keskolin
 difficult-difficulty = Rankkõ
 pro-difficulty = Maastõri
+lose-goal-progress-warning = Изменив свою цель, вы можете потерять существующий прогресс.
 want-to-continue = Tahatko jatkaa?
+finish-editing = Хотите сначала закончить редактирование?
+lose-changes-warning = Уход сейчас означает, что вы потеряете сделанные изменения
+build-custom-goal = Создать собственную цель
+help-reach-hours = Помогите достичь { NUMBER($hours) } часов на { $language } с помощью личной цели
+help-reach-hours-general = Помогите Common Voice достичь { NUMBER($hours) } часов на этом языке с помощью личной цели
 set-a-goal = Поставить цель
 cant-decide = Etkö saa valitsa?
+activity-needed-calculation =
+    { NUMBER($totalHours) } часов достижимо за { NUMBER($periodMonths) }
+    месяцев, если { NUMBER($people) } людей будут делать { NUMBER($clipsPerDay) } записей в день.
+how-many-per-day = Отлично! Сколько записей в день?
+how-many-a-week = Отлично! Сколько записей в неделю?
+which-goal-type = Вы хотите записывать, проверять или и то, и другое?
+receiving-emails-info =
+    Вы будете получать такие письма, как напоминания о целях, уведомления
+    о своих достижениях и новости о Common Voice.
+not-receiving-emails-info = Вы <bold>НЕ</bold> будете получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
+n-clips = { NUMBER($count) } записей
+help-share-goal = Помогите нам найти больше голосов, поделитесь своей целью
+confirm-goal = Подтвердить цель
 goal-interval-weekly = Nätälitta
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Поделитесь свой целью { $count } записей в день для { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Поделитесь своей целью { $count } записей в неделю для { $type }
 share-goal-type-speak = Pajattõmin
 share-goal-type-listen = Kuuntõmin
 share-goal-type-both = Pajattõmin i kuuntõmin
+# LINK will be replaced with the current URL
+goal-share-text = Я только что создал(а) личную цель для голосового пожертвования #CommonVoice -- присоединяйтесь ко мне и помогите машинам научиться понимать реальных людей { $link }
+weekly-goal-created = Ваша недельная цель была создана
+daily-goal-created = Ваша дневная цель была создана
+track-progress = Отслеживайте свой прогресс здесь и на странице статистики.
+return-to-edit-goal = Возвращайтесь сюда, чтобы изменить свою цель в любое время.
+share-goal = Поделиться моей целью
 
 ## Profile Delete
 
