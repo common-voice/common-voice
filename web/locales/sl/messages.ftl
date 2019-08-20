@@ -722,6 +722,7 @@ finish-editing = Želite najprej dokončati urejanje?
 lose-changes-warning = Če zapustite zdaj, boste izgubili spremembe
 build-custom-goal = Sestavite cilj po meri
 help-reach-hours = Pomagajte doseči { NUMBER($hours) } ur v jeziku { $language } z osebnim ciljem
+help-reach-hours-general = Pomagajte projektu Common Voice doseči { NUMBER($hours) } ur v jeziku z osebnim ciljem
 set-a-goal = Zastavite cilj
 cant-decide = Se ne morete odločiti?
 activity-needed-calculation = { NUMBER($totalHours) } ur je dosegljivih v nekaj več kot { NUMBER($periodMonths) } mesecih, če { NUMBER($people) } ljudi posname { NUMBER($clipsPerDay) } posnetkov na dan.
@@ -731,6 +732,7 @@ which-goal-type = Želite govoriti, poslušati ali oboje?
 receiving-emails-info =
     Trenutno prejemate e-poštna sporočila, kot so opomniki za cilje, 
     posodobitve napredka in novice projekta Common Voice
+not-receiving-emails-info = Trenutno <bold>NE</bold> prejemate e-poštnih sporočil, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
 n-clips = { NUMBER($count) } posnetkov
 help-share-goal = Pomagajte nam najti več glasov, delite svoj cilj
 confirm-goal = Potrdi cilj
