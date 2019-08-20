@@ -202,6 +202,7 @@ x-years-short =
        *[other] година
     }
 help-make-dataset = Помозите нам да изградимо високо квалитетан, јаван и отворен скуп података
+profile-not-required = Иако је од помоћи, није обавезно да имате профил да би допринели. Погледајте зашто доле.
 sign-up-account = Региструјте налог
 email-subscription-title = пријавите се на новости преко е-поште
 email-subscription-title-new = Претплатите се на билтене о Common Voice-у, подсетнике за циљеве и новости о напретку
@@ -636,6 +637,8 @@ share-goal-type-listen = Слушање
 share-goal-type-both = Говор и слушање
 weekly-goal-created = Ваш недељни циљ је направљен
 daily-goal-created = Ваш дневни циљ је направљен
+track-progress = Пратите напредак овде и на вашој статистичкој страници.
+return-to-edit-goal = Вратите се овде било када да бисте променили свој циљ.
 share-goal = Подели мој циљ
 
 ## Profile Delete
@@ -646,4 +649,8 @@ profile-form-delete = Обриши профил
 
 ## Landing
 
+welcome-staff = Добродошли { $company } запослени!
+help-contribute = Можете помоћи у изградњи разноликог скупа података отвореног кода прављењем Common Voice профила и давањем доприноса у виду вашег гласа.
+login-company = Пријавите се или направите налог { $company } е-поштом
+profile-not-required = Иако је од помоћи, није обавезно да имате профил да би допринели. Погледајте зашто доле.
 read-more-about = Прочитајте више на нашој страници
