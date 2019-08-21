@@ -205,7 +205,6 @@ x-years-short =
     *[other] { $count }y
   }
 help-make-dataset = Help us build a high quality, publicly open dataset
-profile-not-required = Having a profile is not required to contribute though it is helpful
 sign-up-account = Sign up for an account
 email-subscription-title = sign up for email updates
 email-subscription-title-new = Sign up for Common Voice newsletters, goal reminders and progress updates
@@ -598,7 +597,6 @@ language-section-launched = Launched
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 languages-show-more = See More
 languages-show-less = See Less
-language-speakers = Speakers
 language-meter-in-progress = Progress
 language-total-progress = Total
 language-search-input =
@@ -718,7 +716,6 @@ show-ranking = Show my ranking
 
 ## Custom Goals
 get-started-goals = Get started with goals
-toward-next-goal = Toward next goal
 create-custom-goal = Create a Custom Goal
 both-speak-and-listen = Both
 both-speak-and-listen-long = Both (Speak and Listen)
