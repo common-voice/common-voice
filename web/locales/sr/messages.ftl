@@ -349,6 +349,10 @@ change-email-setings = Промените своју е-пошту путем п
 
 faq-title = Често постављана питања
 faq-what-cv-q = Шта је Common Voice?
+faq-what-cv-a =
+    Технологија препознавања гласа је препородила начин на који разговарамо са машинама, али тренутно доступни системи су скупи и затворени. Common Voice је део Mozilla-ине иницијативе да се технологије препознавања гласа побољшају и отворе за све. Common Voice је огромна светска база података донираних гласова која омогућава свакоме брзо и лако обучавање гласовних апликација, потенцијално на сваком језику.
+    
+    Не прикупљамо само узорке гласова на језицима са много говорника већ и узорке гласова на језицима са мањом популацијом говорника. Објављивање разноликог скупа гласовних података омогућава програмерима, предузетницима и заједницама да премосте овај јаз. Осим Common Voice скупа података, градимо и мотор за препознавање говора, отвореног кода, под називом Deep Speech.
 faq-why-important-q = Зашто је то важно?
 faq-how-get-q = Како могу да добијем Common Voice податке?
 faq-when-release2-q = Када ћете издати Common Voice податке других језика?
@@ -446,6 +450,7 @@ validated-hours = Потврђених сати
 recorded-hours = Снимљених сати
 whats-inside = Шта се налази у Common Voice комплету података?
 subscribe = Пријавите се
+get-started-speech = Упознајте се са препознавањем говора
 other-datasets = Други скупови гласовних података
 feedback-q = Имате ли повратних података?
 data-other-ted-name = TED-LIUM Збирка
@@ -529,6 +534,7 @@ record-again-instruction2 = Само наставите, снимите поно
 record-last-instruction = <recordIcon></recordIcon> Последњи!
 review-tooltip = Прегледајте и поново снимите снимке овде у лету
 review-instruction = Прегледајте и поново снимите снимке ако је то потребно
+record-submit-tooltip = { $actionType } пошаљите када сте спремни
 clips-uploaded = Послати исечци
 record-abort-title = Завршити снимање прво?
 record-abort-text = Напуштање значи губитак досадашњег напретка
@@ -541,6 +547,7 @@ listen-3rd-time-instruction = Два урађена, само наставите
 listen-last-time-instruction = <playIcon></playIcon>Последњи!
 nothing-to-validate = Немамо ништа да потврдимо на овом језику, помогните нам да попунимо ред.
 record-button-label = Снимите свој глас
+share-title-new = <bold>Помозите нам</bold> да нађемо више гласова
 keep-track-profile = Пратите свој напредак преко профила
 login-to-get-started = Пријавите се или направите налог да бисте започели
 
@@ -552,6 +559,7 @@ report-ask = Шта није у реду са овом реченицом?
 report-offensive-language = Увредљив језик
 report-offensive-language-detail = Изјава садржи неучтив или увредљив језик.
 report-grammar-or-spelling = Граматичка грешка / грешка при куцању
+report-grammar-or-spelling-detail = Изјава садржи граматичке грешке или грешке у куцању.
 report-different-language = Другачији језик
 report-different-language-detail = Изјава је на другачијем језику од оног ког говорим.
 report-difficult-pronounce = Тешко за изговорити
@@ -566,6 +574,7 @@ report-success = Пријава је успешно поднета
 
 ## Goals
 
+streaks = Понављања
 days =
     { $count ->
         [one] дан
@@ -630,8 +639,11 @@ how-many-per-day = Одлично! Колико снимака дневно?
 how-many-a-week = Одлично! Колико снимака недељно?
 which-goal-type = Да ли желите да говорите, слушајте или и једно и друго?
 n-clips = { NUMBER($count) } снимака
+help-share-goal = Помозите нам да нађемо више гласова, поделите свој циљ
 confirm-goal = Потврдите циљ
 goal-interval-weekly = Недељно
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Делите свој { $count } циљ дневног броја снимака за { $type }
 share-goal-type-speak = Говор
 share-goal-type-listen = Слушање
 share-goal-type-both = Говор и слушање
