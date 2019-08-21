@@ -755,6 +755,13 @@ share-n-weekly-contribution-goal = Rannit ho pal a { $count } a glipoù bep sizh
 share-goal-type-speak = komz
 share-goal-type-listen = selaou
 share-goal-type-both = komz ha selaou
+# LINK will be replaced with the current URL
+goal-share-text = Emaon o paouez krouiñ ur pal personel evit reiñ ma mouezh da #CommonVoice -- deuit ganin da gelenn d'ar mekanikoù penaos e vez komzet gant an dud gwirion { $link }
+weekly-goal-created = Krouet eo bet ho pal sizhuniek
+daily-goal-created = Krouet eo bet ho pal pemdeziek
+track-progress = Heuilhit hoc'h araokadennoù amañ ha war bajenn ho stadegoù.
+return-to-edit-goal = Distroit amañ da embann ho pal pa fell deoc'h.
+share-goal = Rannañ ma fal
 
 ## Profile Delete
 
