@@ -332,9 +332,11 @@ off = Diweredekaet
 on = Gweredekaet
 add-avatar-title = Ouzhpennañ un avatar d'ho profil
 add-avatar-clip = Ouzhpennañ ur c'hlip avatar d'ho profil
-create-voice-wave = Krouiñ gwagenn ar vouezh
+create-voice-wave = Krouiñ ho kinnig
 recording-voice-wave = Oc'h enrollañ
 ready-to-upload = Pellgas
+recreate-voice = Adkrouiñ ho kinnig
+cancel-avatar-clip-recording = Nullañ
 about-avatar-clip = Krouiñ ur wagenn vouezh personelaet evit ho kinnig. An implijerien all a vo gouest da zreistnijal warni ha selaou ho klip.
 browse-file-title = Pellgasit ur restr skeudenn
 browse-file = Riklañ-leuskel pe <browseWrap>verdeit</browseWrap>
@@ -363,6 +365,7 @@ faq-why-important-a =
 faq-how-get-q = Penaos e c'hallan kaout roadennoù Common Voice?
 faq-how-get-a = Spletad roadennoù Common Voice a zo hegerz dindan al lañvaz <licenseLink>CC0</licenseLink> war <datasetLink>bajenn ar roadennoù</datasetLink>. Gallout a rit ivez pellgargañ spletadoù roadennoù all war an hevelep pajenn.
 faq-when-release2-q = Pegoulz e vo ermaeziet roadennoù Common Voice er yezhoù all?
+faq-when-release2-a = Stumm liesyezh spletad roadennoù Common Voice a zo o vezañ savet ha naetaet gant ar gumuniezh. Ma fell deoc'h skoazellañ da zegas Common Voice da yezhoù nevez, kit da welet an <sentenceCollectorLink>Ostilh Dastum Frazennoù</sentenceCollectorLink> evit ouzhpennañ frazennoù nevez er spletad roadennoù, ha Mozilla <pontoonLink>Pontoon</pontoonLink> evit treiñ al lec'hienn. Ouzhpennet e vez yezhoù nevez da g/Common Voice ur wech dastumet 5000 frazenn gwiriekaet.
 faq-why-mission-q = Perak eo Common Voice ul lodenn eus kefridi Mozilla?
 faq-why-mission-a = Mennet eo Mozilla da virout ar Web digor ha tizhus d'an holl. Evit ober kement-mañ e rankomp galloudekat ar grouerien web dre raktresoù evel Common Voice. Teknologiezhioù ar vouezh a struj bremañ pelloc'h eget e tachennoùigoù zo evel a-raok. Kavout a ra deomp e rankont bezañ e gourc'hemenn pep hini hep diforc'hañ. Santout a reomp un ezhomm da ouzhpennañ muioc'h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit krouiñ hag amprouiñ an teknologiezhioù mouezh. Common Voice a zo ur vammenn foran implijet gant skipailhoù Mozilla ha diorroerien e pe plec'h er bed endeo.
 faq-what-cv-and-deepspeech-q = Petra eo an diforc'h etre Common Voice ha Deep Speech?
@@ -638,9 +641,29 @@ listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
 nothing-to-validate = N'eus mann da wiriañ evit ar yezh-mañ, skoazellit ac'hanomp da leuniañ ar steudad-c'hortoz.
 record-button-label = Enrollit ho mouezh
 share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
+keep-track-profile = Heuilhit hoc'h araokadennoù gant ur profil
+login-to-get-started = Kennaskit pe lakait hoc'h anv evit kregiñ ganti
 
 ## Reporting
 
+report = Danevelliñ
+report-title = Kas un danevell
+report-ask = Peseurt kudennoù a zo gant ar frazenn-se?
+report-offensive-language = Gerioù gros
+report-offensive-language-detail = Lavarioù dizoujus pe tagus a zo.
+report-grammar-or-spelling = Fazioù yezhadur pe reizhskrivañ
+report-grammar-or-spelling-detail = Ur fazi yezhadur pe reizhskrivañ a zo er frazenn.
+report-different-language = Yezh disheñvel
+report-different-language-detail = Skrivet eo en ur yezh disheñvel eus an hini a gomzan.
+report-difficult-pronounce = Diaes eo da zistagañ
+report-difficult-pronounce-detail = Gerioù pe frazennoù diaes da lenn pe da zistagañ a zo enni
+report-offensive-speech = Lavarioù tagus
+report-offensive-speech-detail = Lavarioù dizoujus pe tagus a zo er c'hlip.
+report-other-comment =
+    .placeholder = Evezhiadenn
+success = Berzh
+continue = Kenderc'hel
+report-success = Kaset eo bet an danevell gant berzh
 
 ## Goals
 
@@ -679,6 +702,7 @@ clips-you-validated = Klipoù gwiriekaet ganeoc'h
 todays-recorded-progress = Araokadenn Common Voice an devezh war an niver a glipoù enrollet
 todays-validated-progress = Araokadenn Common Voice an devezh war an niver a glipoù gwiriekaet
 stats = Stadegoù
+awards = Trec'hioù
 you = C'hwi
 everyone = An holl
 contribution-activity = Oberiantiz kendeurel
@@ -687,10 +711,50 @@ recorded-clips = Klipoù enrollet
 validated-clips = Klipoù gwiriekaet
 total-approved = Hollad asantet
 overall-accuracy = Spister hollek
+set-visibility = Dibab ma gwelusted
+visibility-explainer = Reoliañ a ra an arventenn-mañ ho kwelusted en araokadennoù foran. M'eo kuzhet ne bo ket diskouezet hoc'h araokadennoù, ar pezh a dalv ne vo ket diskouezet ho skeudenn, hoc'h anv pe hoc'h araokadennoù war an daolenn araokadennoù. An daolenn araokadennoù en deus ezhomm ~{ $minutes } mun evit hizivaat ar c'hemmoù.
+visibility-overlay-note = Evezhiadenn: mard eo lakaet da "Gwelus" e c'hallit kemmañ an arventenn-mañ en ho <profileLink>profil</profileLink>.
+show-ranking = Diskouez ma renkadur
 
 ## Custom Goals
 
+get-started-goals = Kregiñ gant ar palioù
 toward-next-goal = Betek ar pal da zont
+create-custom-goal = Krouiñ ur pal personelaet
+both-speak-and-listen = An daou
+both-speak-and-listen-long = An daou (komz ha selaou)
+daily-goal = Pal pemdeziek
+weekly-goal = Pal sizhuniek
+easy-difficulty = Aes
+average-difficulty = Etre
+difficult-difficulty = Diaes
+pro-difficulty = Ampart
+lose-goal-progress-warning = En ur embann ho pal e c'hallit koll hoc'h araokadennoù.
+want-to-continue = Fellout a ra deoc'h kenderc'hel ganti?
+finish-editing = Echuiñ gant an embann a-raok?
+lose-changes-warning = En ur guitaat bremañ e kollot ho kemmoù
+build-custom-goal = Sevel ur pal personelaet
+help-reach-hours = Skoazellit da dizhout { NUMBER($hours) } eur e { $language } gant ur pal personelaet
+help-reach-hours-general = Skoazellit Common Voice da dizout { NUMBER($hours) } eur en ur yezh gant ur pal personelaet
+set-a-goal = Lakaat ur pal
+cant-decide = N'hallit ket divizout?
+activity-needed-calculation = { NUMBER($totalHours) } eur a  zo posupl e { NUMBER($periodMonths) } a vizioù ma vez { NUMBER($people) } a dud oc'h enrollañ { NUMBER($clipsPerDay) } a glipoù bemdez.
+how-many-per-day = Dispar! Pegement a glipoù bemdez?
+how-many-a-week = Dispar! Pegement a glipoù bep sizhun?
+which-goal-type = Fellout a ra deoc'h komz, selaou pe ober an daou?
+receiving-emails-info = Dibabet ho peus degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
+not-receiving-emails-info = Dibabet ho peus CHOM HEP degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
+n-clips = { NUMBER($count) } a glipoù
+help-share-goal = Skoazellit ac'hanomp da gaout muioc'h a vouezhioù, rannit ho pal
+confirm-goal = Kadarnaat ar pal
+goal-interval-weekly = Sizhuniek
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Rannit ho pal a { $count } a glipoù bemdez evit { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Rannit ho pal a { $count } a glipoù bep sizhun evit { $type }
+share-goal-type-speak = komz
+share-goal-type-listen = selaou
+share-goal-type-both = komz ha selaou
 
 ## Profile Delete
 
