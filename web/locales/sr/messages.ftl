@@ -516,6 +516,12 @@ skip = Прескочи
 shortcuts = Пречице
 clips-with-count = <bold>{ $count }</bold> исечака
 goal-help-validation = Помогли сте Common Voice-у да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља валидације!
+contribute-more =
+    { $count ->
+        [one] Спремни да урадите још { $count }?
+        [few] Спремни да урадите још { $count }?
+       *[other] Спремни да урадите још { $count }?
+    }
 record-cta = Почните снимање
 record-platform-not-supported = Нажалост, ваша платформа није тренутно подржана.
 record-platform-not-supported-desktop = На стоним рачунарима можете преузети најновије издање:
@@ -657,6 +663,10 @@ share-goal = Подели мој циљ
 
 keep = Задржи
 remove = Уклони
+why-delete-recordings =
+    Common Voice снимци користе се у академским круговима, малим предузећима и међу ентузијастима за препознавање гласа како би помогли у обуци и развоју јавно доступних ресурса као што су модели гласа.
+    
+    Можете ли нам рећи зашто желите да се ваши снимци избришу?
 profile-form-delete = Обриши профил
 
 ## Landing
