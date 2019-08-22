@@ -6,7 +6,7 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'puppet/nodejs', '5.0.0'
 
-# This developer doesn't tag his releases on github
-mod 'lesaux/kibana',
-    :git => 'https://github.com/limed/puppet-kibana',
-    :ref => '40a02395de3f4488c857e11cb5ab64579e541746'
+# And module for grafana
+mod 'bfraser/grafana',
+    :git => 'https://github.com/gozer/puppet-grafana.git',
+    :ref => 'c36f941a96202d99044bd039ff1e2710442fee65'
