@@ -9,7 +9,7 @@ resource "aws_acm_certificate" "voice" {
 }
 
 module "worker" {
-  source        = "github.com/gozer/nubis-terraform//worker?ref=v2.4.0"
+  source        = "github.com/nubisproject/nubis-terraform//worker?ref=v2.4.0"
   region        = "${var.region}"
   environment   = "${var.environment}"
   account       = "${var.account}"
@@ -101,7 +101,7 @@ module "database" {
 
 module "clips" {
   #XXX: cors_rules will be added in Nubis v2.4.0
-  source       = "github.com/gozer/nubis-terraform//bucket?ref=v2.4.0"
+  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.4.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -130,7 +130,7 @@ module "bundler_bucket" {
 
 # Add elastic cache (memcache)
 module "cache" {
-  source                 = "github.com/gozer/nubis-terraform//cache?ref=v2.4.0"
+  source                 = "github.com/nubisproject/nubis-terraform//cache?ref=v2.4.0"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
