@@ -33,6 +33,22 @@ module "worker" {
   scale_load_defaults = true
 }
 
+# Visualizer node
+module "kibana" {
+  source        = "github.com/gozer/nubis-terraform//worker?ref=v2.4.0"
+  region        = "${var.region}"
+  environment   = "${var.environment}"
+  account       = "${var.account}"
+  service_name  = "${var.service_name}"
+  purpose       = "kibana"
+  ami           = "${var.ami}"
+  min_instances = "1"
+  max_instances = "1"
+  instance_type = "t2.large"
+
+  nubis_sudo_groups = "${var.nubis_sudo_groups}"
+}
+
 module "load_balancer" {
   source       = "github.com/gozer/nubis-terraform//load_balancer?ref=issue%2F283%2Felb-acm"
   region       = "${var.region}"
