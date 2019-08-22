@@ -5,3 +5,8 @@ forge "https://forgeapi.puppetlabs.com"
 ##########################################################
 
 mod 'puppet/nodejs', '5.0.0'
+
+# This developer doesn't tag his releases on github
+mod 'lesaux/kibana',
+    :git => 'https://github.com/limed/puppet-kibana',
+    :ref => '40a02395de3f4488c857e11cb5ab64579e541746'
