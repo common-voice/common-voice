@@ -7,6 +7,4 @@ forge "https://forgeapi.puppetlabs.com"
 mod 'puppet/nodejs', '5.0.0'
 
 # And module for grafana
-mod 'bfraser/grafana',
-    :git => 'https://github.com/gozer/puppet-grafana.git',
-    :ref => 'c36f941a96202d99044bd039ff1e2710442fee65'
+mod 'puppet/grafana'

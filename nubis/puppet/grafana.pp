@@ -1,9 +1,5 @@
-exec { 'apt-get-update-grafana':
-  command => '/usr/bin/apt-get update',
-}->
 class { 'grafana':
   install_method => 'repo',
-  version        => '4.5.1',
   cfg            => {
     app_mode          => 'production',
     'server'          => {
@@ -15,12 +11,6 @@ class { 'grafana':
     },
     'auth.basic'      => {
       enabled => false,
-    },
-    'auth.proxy'      => {
-      enabled         => true,
-      header_name     => 'OIDC_CLAIM_email',
-      header_property => 'email',
-      auto_sign_up    => true,
     },
     users             => {
       allow_sign_up        => true,
