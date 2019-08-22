@@ -81,6 +81,9 @@ apache::vhost { $project_name:
     ProxyPass /font !
     ProxyPass /locales !
 
+    ProxyPass /kibana http://localhost:5601/kibana retry=0
+    ProxyPassReverse /kibana http://localhost:5601/kibana
+
     ProxyPass / http://localhost:9000/ retry=0
     ProxyPassReverse / http://localhost:9000/
 
