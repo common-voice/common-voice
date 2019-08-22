@@ -26,9 +26,23 @@
         left: 15%;
         right: 15%;
         padding-top: 10px;
-        @media only screen and (max-width: 375px) {
+
+        @media only screen and (max-width: 415px) {
             left: 6%;
             right: 6%;
+            display: none;
+        }
+    }
+    .clip-title-2 {
+        position: relative;
+        left: 15%;
+        right: 15%;
+        padding-top: 10px;
+        display: none;
+        @media only screen and (max-width: 415px) {
+            left: 6%;
+            right: 6%;
+            display: block;
         }
     }
     .group-1 {
@@ -152,6 +166,9 @@
         cursor: pointer;
         padding-top: 36px;
         padding-left: 22px;
+        @media only screen and (max-width: 415px) {
+            display: none;
+        }
     }
 
     .voice-paragraph-2 {
@@ -227,6 +244,9 @@
 }
 
 .photo-avatar {
+    @media only screen and (max-width: 415px) {
+        padding-top: 36px;
+    }
     width: 35%;
     .avatar-setup {
         border: none;

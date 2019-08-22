@@ -324,6 +324,7 @@ off = Off
 on = On
 add-avatar-title = Add an avatar to your profile
 add-avatar-clip = Add an avatar to your profile and say “hello!”
+avatar-clip-title = An avatar to your profile!
 create-voice-wave = Create Voicewave
 recording-voice-wave = Recording
 ready-to-upload = Upload
