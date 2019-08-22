@@ -1,3 +1,6 @@
+exec { 'apt-get-update-grafana':
+  command => '/usr/bin/apt-get update',
+}->
 class { 'grafana':
   install_method => 'repo',
   version        => '4.5.1',
