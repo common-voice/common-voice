@@ -34,13 +34,13 @@ module "worker" {
 }
 
 # Visualizer node
-module "kibana" {
+module "visualiser" {
   source        = "github.com/gozer/nubis-terraform//worker?ref=v2.4.0"
   region        = "${var.region}"
   environment   = "${var.environment}"
   account       = "${var.account}"
   service_name  = "${var.service_name}"
-  purpose       = "kibana"
+  purpose       = "visualiser"
   ami           = "${var.ami}"
   min_instances = "1"
   max_instances = "1"
