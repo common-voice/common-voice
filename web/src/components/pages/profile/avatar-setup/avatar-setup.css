@@ -50,7 +50,7 @@
     }
 
     .lottie {
-        max-width: 508px;
+        max-width: 506px;
         height: 169px;
     }
 
@@ -164,8 +164,8 @@
     }
 
     .fix {
-        max-height: 240px;
-        max-width: 508px;
+        height: 180px;
+        max-width: 520px;
     }
     .start-in {
         position: relative;

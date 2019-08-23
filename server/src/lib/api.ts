@@ -338,11 +338,15 @@ export default class API {
   };
 
   getAvatarClip = async (request: Request, response: Response) => {
-    const { user } = request;
-    let path = await UserClient.getAvatarClipURL(user.emails[0].value);
-    path = path[0][0].avatar_clip_url;
-    let avatarclip = await this.bucket.getAvatarClipsUrl(path);
-    response.json(avatarclip);
+    try {
+      const { user } = request;
+      let path = await UserClient.getAvatarClipURL(user.emails[0].value);
+      path = path[0][0].avatar_clip_url;
+      let avatarclip = await this.bucket.getAvatarClipsUrl(path);
+      response.json(avatarclip);
+    } catch (err) {
+      response.json(null);
+    }
   };
 
   getContributionActivity = async (

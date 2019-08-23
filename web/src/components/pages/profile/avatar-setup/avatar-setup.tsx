@@ -287,8 +287,9 @@ class AvatarSetup extends React.Component<Props, State> {
 
   private cancelRecording = async () => {
     let clip = await this.props.api.fetchAvatarClip();
-    if (clip) this.setState({ avatarClipUrl: clip });
-    this.setState({ clipStatus: 'notStarted' });
+    clip
+      ? this.setState({ avatarClipUrl: clip, clipStatus: 'notStarted' })
+      : this.setState({ clipStatus: 'notStarted' });
   };
 
   render() {
