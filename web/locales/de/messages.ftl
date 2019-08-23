@@ -160,11 +160,11 @@ wall-of-text-start = Sprache ist natürlich, Sprache ist menschlich. Deshalb sin
 wall-of-text-more-mobile = Der überwiegende Teil der von großen Unternehmen genutzten Daten ist für die Mehrheit der Menschen jedoch nicht zugänglich. Wir glauben, dass dadurch Innovation unterbunden wird. Aus diesem Grund haben wir das Projekt Common Voice ins Leben gerufen, ein Projekt, das dabei hilft, Spracherkennung für jeden zugänglich zu machen.
 wall-of-text-more-desktop = Nun ist es an Ihnen! Helfen Sie uns, indem Sie Ihre Stimme spenden, eine gemeinfreie Sprachdatenbank aufzubauen, mit der jeder von nun an innovative Geräte- oder Webanwendungen erschaffen kann.<lineBreak></lineBreak>Lesen Sie einen Satz vor, um Maschinen ein Verständnis davon zu geben, wie echte Menschen sprechen. Überprüfen Sie die Arbeit anderer, die bereits mitgewirkt haben, um die Qualität der Datenbasis zu steigern. Und das ist auch schon alles!
 wall-of-text-first = Die Stimme ist natürlich und menschlich. Deswegen interessieren wir uns dafür, nutzbare Stimmtechnologie für unsere Maschinen zu entwickeln. Um Stimmsysteme zu entwickeln, benötigen die Entwickler aber große Mengen an Stimmdaten.
-wall-of-text-second = Die meisten Daten, die von großen Unternehmen genutzt werden, ist der Mehrheit der Menschen nicht zugänglich. Dies behindert aus unserer Sicht die Innovation. Deswegen haben wir Common Voice ins Leben gerufen, ein Projekt, mit dessen Hilfe Stimmerkennung offen und für alle zugänglich wird.
+wall-of-text-second = Die meisten Daten, die von großen Unternehmen genutzt werden, sind der Mehrheit der Menschen nicht zugänglich. Dies behindert aus unserer Sicht die Innovation. Deswegen haben wir Common Voice ins Leben gerufen, ein Projekt, mit dessen Hilfe Stimmerkennung offen und für alle zugänglich wird.
 show-wall-of-text = Mehr erfahren
 help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
 help-us-explain = Drücken Sie Play, hören Sie zu & sagen Sie uns: Wurde der folgende Satz korrekt ausgesprochen?
-no-clips-to-validate = Sieht so aus, als gäbe es keine Aufzeichnungen mehr, die Sie bestätigen könnten. Helfen Sie uns dabei die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
+no-clips-to-validate = Sieht so aus, als gäbe es keine Aufzeichnungen mehr, die Sie bestätigen könnten. Helfen Sie uns, die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
 vote-yes = Ja
 vote-no = Nein
 toggle-play-tooltip = Drücken Sie für Play/Stop { shortcut-play-toggle }
@@ -212,7 +212,7 @@ improve-audio = Profildaten verbessern die Audiodaten, die beim Training der Spr
 keep-track = Behalten Sie Ihren Fortschritt und Ihre Messdaten in mehreren Sprachen im Auge.
 compare-progress = Sehen Sie, wie sich Ihre Fortschritte mit anderen Mitwirkenden auf der ganzen Welt messen.
 view-goals = Vergleichen Sie Ihren Fortschritt mit persönlichen und Projektzielen.
-join-newsletter = Nehmen Sie optional an unserer E-Mail-Liste teil, um Updates und neue Informationen zum Projekt zu erhalten.
+join-newsletter = Tragen Sie sich optional in unsere E-Mail-Liste ein, um Updates und neue Informationen zum Projekt zu erhalten.
 
 ## What's public
 
@@ -302,7 +302,7 @@ settings = Einstellungen
 edit-profile = Profil bearbeiten
 profile-create-success = Geschafft, Profil erstellt!
 profile-close = Schließen
-profile-explanation = Mit einem Profil können Sie Ihren Fortschritt im Auge behalten und unsere Sprachdaten noch genauer machen.
+profile-explanation = Mit einem Profil können Sie Ihren Fortschritt im Auge behalten und die Genauigkeit unserer Sprachdaten verbessern.
 thanks-for-account = Danke für die Bestätigung Ihres Kontos, Sie können jetzt Ihr Profil erstellen.
 why-demographic = Warum sind diese Angaben relevant?
 why-demographic-explanation = Das Verknüpfen von Ihren Aufzeichnungen mit anonymisierten Nutzerangaben wie Alter, Geschlecht und Akzent hilft Entwicklern dabei, die Genauigkeit von Spracherkennungssoftware besser zu trainieren. Ihr Benutzername und Ihre E-Mail-Adresse werden natürlich nicht mit diesen Daten verknüpft und es bleibt Ihnen überlassen, ob Sie Ihren Benutzernamen öffentlich machen oder lieber anonym bleiben möchten.
