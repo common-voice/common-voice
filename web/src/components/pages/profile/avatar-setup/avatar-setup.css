@@ -26,7 +26,7 @@
         left: 15%;
         right: 15%;
         padding-top: 10px;
-        @media only screen and (max-width: 415px) {
+        @media only screen and (max-width: 375px) {
             left: 6%;
             right: 6%;
         }
