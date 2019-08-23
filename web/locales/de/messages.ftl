@@ -147,19 +147,19 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
 share-title = Überzeugen Sie auch andere, ihre Stimme zu spenden!
-share-text = Zeigt Maschinen, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!
+share-text = Zeigt Geräten, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!
 link-copied = Link kopiert
 back-top = Zum Seitenanfang
 logout = Abmelden
 
 ## Home Page
 
-home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll, Maschinen beizubringen, wie echte Menschen sprechen.
+home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
 home-cta = Mund aufmachen, Projekt unterstützen, mitarbeiten!
 wall-of-text-start = Sprache ist natürlich, Sprache ist menschlich. Deshalb sind wir davon fasziniert, brauchbare Technologien zur Spracherkennung für unsere Geräte zu erschaffen. Allerdings wird zur Entwicklung sprachbasierter Systeme eine sehr große Menge an Aufnahmen von gesprochener Sprache benötigt.
 wall-of-text-more-mobile = Der überwiegende Teil der von großen Unternehmen genutzten Daten ist für die Mehrheit der Menschen jedoch nicht zugänglich. Wir glauben, dass dadurch Innovation unterbunden wird. Aus diesem Grund haben wir das Projekt Common Voice ins Leben gerufen, ein Projekt, das dabei hilft, Spracherkennung für jeden zugänglich zu machen.
-wall-of-text-more-desktop = Nun ist es an Ihnen! Helfen Sie uns, indem Sie Ihre Stimme spenden, eine gemeinfreie Sprachdatenbank aufzubauen, mit der jeder von nun an innovative Geräte- oder Webanwendungen erschaffen kann.<lineBreak></lineBreak>Lesen Sie einen Satz vor, um Maschinen ein Verständnis davon zu geben, wie echte Menschen sprechen. Überprüfen Sie die Arbeit anderer, die bereits mitgewirkt haben, um die Qualität der Datenbasis zu steigern. Und das ist auch schon alles!
-wall-of-text-first = Die Stimme ist natürlich und menschlich. Deswegen interessieren wir uns dafür, nutzbare Stimmtechnologie für unsere Maschinen zu entwickeln. Um Stimmsysteme zu entwickeln, benötigen die Entwickler aber große Mengen an Stimmdaten.
+wall-of-text-more-desktop = Nun ist es an Ihnen! Helfen Sie uns, indem Sie Ihre Stimme spenden, eine gemeinfreie Sprachdatenbank aufzubauen, mit der jeder von nun an innovative Geräte- oder Webanwendungen erschaffen kann.<lineBreak></lineBreak>Lesen Sie einen Satz vor, um Geräten ein Verständnis davon zu geben, wie echte Menschen sprechen. Überprüfen Sie die Arbeit anderer, die bereits mitgewirkt haben, um die Qualität der Datenbasis zu steigern. Und das ist auch schon alles!
+wall-of-text-first = Sprache ist natürlich, Sprache ist menschlich. Deshalb haben wir großes Interesse daran, brauchbare Technologien zur Spracherkennung für unsere Geräte zu erschaffen. Allerdings wird zur Entwicklung sprachbasierter Systeme eine sehr große Menge an Aufnahmen von gesprochener Sprache benötigt.
 wall-of-text-second = Die meisten Daten, die von großen Unternehmen genutzt werden, sind der Mehrheit der Menschen nicht zugänglich. Dies behindert aus unserer Sicht die Innovation. Deswegen haben wir Common Voice ins Leben gerufen, ein Projekt, mit dessen Hilfe Stimmerkennung offen und für alle zugänglich wird.
 show-wall-of-text = Mehr erfahren
 help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
@@ -326,7 +326,7 @@ ready-to-upload = Hochladen
 avatar-clip-fact = Es ist seit langem bekannt, dass ein Leser beim Betrachten des Layouts vom lesbaren Inhalt einer Seite abgelenkt wird.
 recreate-voice = Voicewave neu erstellen
 cancel-avatar-clip-recording = Abbrechen
-about-avatar-clip = Erstellen Sie eine benutzerdefinierte Voice Wave, um sich vorzustellen. Andere Benutzer können mit der Maus über Ihren Clip fahren und ihn anhören.
+about-avatar-clip = Erstellen Sie eine benutzerdefinierte Voicewave, um sich vorzustellen. Andere Benutzer können mit der Maus über Ihren Clip fahren und ihn anhören.
 browse-file-title = Grafikdatei hochladen
 browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
 connect-gravatar = Mit Gravatar verbinden
@@ -343,7 +343,7 @@ change-email-setings = Ändern Sie Ihre E-Mail-Adresse über die Einstellungen u
 faq-title = Häufig gestellte Fragen
 faq-what-cv-q = Was ist Common Voice?
 faq-what-cv-a =
-    Die Spracherkennungstechnologie revolutioniert die Art und Weise, wie wir mit Maschinen interagieren. Die derzeit verfügbaren Systeme sind jedoch teuer und proprietär. Common Voice ist Teil der Initiative von Mozilla, um Technologien zur Spracherkennung für alle besser und zugänglicher zu machen. Common Voice ist eine riesige globale Datenbank mit gespendeten Stimmen, mit der jeder schnell und einfach sprachgesteuerte Apps in jeder Sprache trainieren kann.
+    Die Spracherkennungstechnologie revolutioniert die Art und Weise, wie wir mit Geräten interagieren. Die derzeit verfügbaren Systeme sind jedoch teuer und proprietär. Common Voice ist Teil der Initiative von Mozilla, um Technologien zur Spracherkennung für alle besser und zugänglicher zu machen. Common Voice ist eine riesige globale Datenbank mit gespendeten Stimmen, mit der jeder schnell und einfach sprachgesteuerte Apps in jeder Sprache trainieren kann.
     
     Wir sammeln nicht nur Sprachproben in weit verbreiteten Sprachen, sondern auch in solchen mit einer geringeren Anzahl von Sprechern. Durch die Veröffentlichung eines umfangreichen Datensatzes von Stimmen können Entwickler, Unternehmer und Gemeinschaften diese Lücke selbst beheben. Neben dem Common-Voice-Datensatz erstellen wir auch eine Open-Source-Spracherkennungs-Engine namens Deep Speech.
 faq-why-important-q = Warum ist das wichtig?
@@ -365,8 +365,8 @@ faq-do-want-native-q = Ich bin kein Muttersprachler und ich spreche mit Akzent, 
 faq-do-want-native-a = Ja, an Ihrer Stimme sind wir besonders interessiert! Ein Teil des Ziels von Common Voice ist es, so viele verschiedene Akzente wie möglich zu sammeln, damit Spracherkennungsdienste für alle gleich gut funktionieren. Dies bedeutet, dass Spenden von Nicht-Muttersprachlern besonders wichtig sind.
 faq-why-different-speakers-q = Warum brauchen Sie so viele verschiedene Sprecher pro Sprache?
 faq-why-different-speakers-a =
-    Die meisten Sprachdatenbanken werden mit einer Überrepräsentation bestimmter Demografien trainiert, was zu einer Bevorzugung <articleLink>männlicher und Mittelklasse-Teilnehmern</articleLink> führt. Akzente und Dialekte, die in Trainingsdatensätzen tendenziell unterrepräsentiert sind, werden typischerweise mit Gruppen von Personen in Verbindung gebracht, die bereits an den Rand gedrängt sind. Viele Maschinen haben auch Mühe, weibliche Stimmen zu verstehen.
-    Deshalb wollen wir in unserer Sprachdatenbank Abwechslung!
+    Die meisten Sprachdatenbanken werden mit einer Überrepräsentation bestimmter Demografien trainiert, was zu einer Bevorzugung <articleLink>männlicher und Mittelklasse-Teilnehmern</articleLink> führt. Akzente und Dialekte, die in Trainingsdatensätzen tendenziell unterrepräsentiert sind, werden meist Personengruppen zugeordnet, die bereits zu einer Randgruppe zählen. Viele Geräte können auch weibliche Stimmen nur schwer verstehen. 
+    Deshalb wollen wir Vielfalt in unserer Sprachdatenbank.
 faq-why-my-lang-q = Warum gibt es meine Sprache noch nicht?
 faq-why-my-lang-new-a = Mozilla wählt oder bevorzugt keine Sprache gegenüber einer anderen. Stattdessen handelt es sich bei Common Voice um eine rein gemeinschaftsorientierte Initiative, es erfordert jedoch <multilangLink>mehrere Schritte, um eine neue Sprache aufzunehmen</multilangLink> und das Sammeln von Sprachspenden zu beginnen. Erstens muss die Common-Voice-Website übersetzt werden, damit Mitglieder der Gemeinschaft in ihrer eigenen Sprache auf die Erfahrungen der Mitwirkenden zugreifen können. Als nächstes benötigen wir eine große Sammlung urheberrechtsfreier Sätze, die die Menschen vorlesen können. Sobald beide Anforderungen erfüllt sind, wird auf Common Voice eine Sprache „gestartet“, damit die Menschen ihre Stimme aufnehmen und die Spenden anderer bestätigen können. Wenn Sie beim Start einer neuen Sprache helfen möchten, besuchen Sie unser <sentenceCollectorLink>Werkzeug zur Sammlung von Sätzen</sentenceCollectorLink>, um loszulegen.
 faq-what-quality-q = Welche Audioqualität ist erforderlich, damit ein Sprachclip im Datensatz verwendet werden kann?
@@ -381,7 +381,7 @@ faq-where-src-from-2-a =
     
     Sie können unsere Quellsätze in diesem <githubLink>GitHub-Ordner</githubLink> ansehen.
 faq-why-not-ask-read-q = Warum bitten Sie die Leute nicht, Bücher oder Wikipedia-Artikel in verschiedenen Sprachen zu lesen?
-faq-why-not-ask-read-a = Um den Common-Voice-Datensatz so nützlich wie möglich zu gestalten, haben wir uns entschieden, nur Quelltext zuzulassen, der unter einer Creative-Commons-Lizenz (CC0) steht. Die Verwendung des CC0-Standards bedeutet, dass es schwieriger ist, Quelltext zu finden und zu sammeln, jedoch kann jeder Benutzer die resultierenden Sprachdaten ohne Nutzungseinschränkungen oder Autorisierung von Mozilla verwenden. Letztendlich möchten wir den mehrsprachigen Datensatz für alle, einschließlich Forscher, Universitäten, Startups, Regierungen, Organisationen für soziale Zwecke und Hobbyisten, so nützlich wie möglich machen.
+faq-why-not-ask-read-a = Um den Common-Voice-Datensatz so nützlich wie möglich zu gestalten, haben wir uns entschieden, nur Quelltext zuzulassen, der unter einer Creative-Commons-Lizenz (CC0) steht. Die Verwendung des CC0-Standards bedeutet, dass es schwieriger ist, Quelltext zu finden und zu sammeln, jedoch kann jeder Benutzer die resultierenden Sprachdaten ohne Nutzungseinschränkungen oder Autorisierung von Mozilla verwenden. Letztendlich möchten wir den mehrsprachigen Datensatz für alle, einschließlich Forscher, Universitäten, Startups, Regierungen, Organisationen für soziale Zwecke und Bastler, so nützlich wie möglich machen.
 faq-why-account-q = Warum sollte ich ein Konto erstellen?
 faq-is-account-public-q = Werden meine Kontodaten veröffentlicht?
 faq-how-privacy-q = Wie stellen Sie die Anonymität und Vertraulichkeit der Personen sicher, die ihre Stimmen gespendet haben?
@@ -393,14 +393,14 @@ faq-what-determine-identity-a =
     Alle Sprachclips im Datensatz werden um persönlich identifizierende Informationen bereinigt. Wenn Sie den Daten herunterladen, stimmen Sie zu, nicht zu versuchen, die Identität eines Mitwirkenden zu ermitteln. Das bedeutet, dass Sie nicht versuchen dürfen, Informationen in der Datenmenge mit den persönlichen Informationen eines Mitwirkenden zu verknüpfen. Sie können den Datensatz jedoch zum Trainieren der Spracherkennung, Sprechererkennung oder anderer Anwendungen verwenden, indem Sie beispielsweise Informationen im Datensatz mit anderen Informationen verknüpfen, die bereits im Datensatz vorhanden sind.
 faq-what-is-cv = Was ist Common Voice?
 faq-using-cv = Common Voice verwenden
-faq-description = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Maschinen beizubringen, wie echte Menschen sprechen.
+faq-description = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
 faq-search-for-answers =
     .label = Nach Antworten suchen
 
 ## ABOUT US
 
 about-title = Warum Common Voice?
-about-subtitle = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Maschinen beizubringen, wie echte Menschen sprechen. Zusätzlich zum Common-Voice-Datensatz entwickeln wir auch eine quelloffene Spracherkennungs-Engine namens Deep Speech.
+about-subtitle = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen. Zusätzlich zum Common-Voice-Datensatz entwickeln wir auch eine quelloffene Spracherkennungs-Engine namens Deep Speech.
 about-header-description =
     Beide Projekte sind Teil unserer Bemühungen, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
     Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
@@ -748,7 +748,7 @@ share-goal-type-speak = Sprechen
 share-goal-type-listen = Hören
 share-goal-type-both = Sprechen und Hören
 # LINK will be replaced with the current URL
-goal-share-text = Ich habe gerade ein persönliches Ziel für Sprachbeiträge bei #CommonVoice erstellt. Mach mit und bring Maschinen bei, wie echte Menschen sprechen. { $link }
+goal-share-text = Ich habe gerade ein persönliches Ziel für Sprachbeiträge bei #CommonVoice erstellt. Mach mit und bring Geräten bei, wie echte Menschen sprechen. { $link }
 weekly-goal-created = Ihr Wochenziel wurde erstellt
 daily-goal-created = Ihr Tagesziel wurde erstellt
 track-progress = Verfolgen Sie den Fortschritt hier und auf Ihrer Statistikseite.
