@@ -26,25 +26,12 @@
         left: 15%;
         right: 15%;
         padding-top: 10px;
+        @media only screen and (max-width: 415px) {
+            left: 6%;
+            right: 6%;
+        }
+    }
 
-        @media only screen and (max-width: 415px) {
-            left: 6%;
-            right: 6%;
-            display: none;
-        }
-    }
-    .clip-title-2 {
-        position: relative;
-        left: 15%;
-        right: 15%;
-        padding-top: 10px;
-        display: none;
-        @media only screen and (max-width: 415px) {
-            left: 6%;
-            right: 6%;
-            display: block;
-        }
-    }
     .group-1 {
         max-width: 508px;
         height: 169px;
@@ -166,6 +153,9 @@
         cursor: pointer;
         padding-top: 36px;
         padding-left: 22px;
+    }
+
+    .hide-recreate {
         @media only screen and (max-width: 415px) {
             display: none;
         }

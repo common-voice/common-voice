@@ -324,9 +324,6 @@ class AvatarSetup extends React.Component<Props, State> {
             <Localized id="add-avatar-clip">
               <h2 className="clip-title" />
             </Localized>
-            <Localized id="avatar-clip-title">
-              <h2 className="clip-title-2" />
-            </Localized>
             {/* Below fix div is for middle content of avatar setup like wave image, lottie animation */}
             <div className="fix">
               {(clipStatus === 'notStarted' || clipStatus === 'starting') &&
@@ -437,7 +434,10 @@ class AvatarSetup extends React.Component<Props, State> {
                 </Localized>
                 <Localized id="recreate-voice">
                   <p
-                    className="recreate-voice"
+                    className={
+                      'recreate-voice ' +
+                      (this.isUnsupportedPlatform ? 'hide-recreate' : '')
+                    }
                     onClick={this.updateAvatarClip}
                   />
                 </Localized>
