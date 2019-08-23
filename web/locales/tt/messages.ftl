@@ -400,6 +400,7 @@ about-yes-votes = ≥ 2 «әйе»
 about-yes-votes-text = Common Voice мәгълүмат тупланмасына эләккәнче, аудиоязма ике кеше тарафыннан тикшерелергә тиеш.
 about-no-votes = ≥ 2 «юк»
 about-dataset-new = Common Voice мәгълүмат тупланмасы
+about-clip-graveyard = «Аудиоязма каберлеге»
 about-partners = Партнерлар
 about-become-a-partner = Партнер булу
 about-get-involved = Катнашу
@@ -662,11 +663,20 @@ show-ranking = Минем рейтингымны күрсәт
 
 toward-next-goal = Алдагы максатка таба
 both-speak-and-listen = Икесе дә
+daily-goal = Көнлек максат
+weekly-goal = Атналык максат
 easy-difficulty = Җиңел
 average-difficulty = Уртача
 difficult-difficulty = Кыен
 pro-difficulty = Про
+lose-goal-progress-warning = Көнлек максатыгызны үзгәртсәгез, инде булган статистикагыз югалырга мөмкин.
 want-to-continue = Дәвам итәсегез киләме?
+finish-editing = Башта мөхәррирләүне тәмамларгамы?
+lose-changes-warning = Хәзер бу биттән китү үзгәртүләрегезнең югалуына китерәчәк.
+build-custom-goal = Шәхси бер максат булдыру
+cant-decide = Бер карарга килә алмыйсызмы?
+how-many-per-day = Шәп! Көнгә ничә аудиоязма?
+how-many-a-week = Шәп! Атнага ничә аудиоязма?
 
 ## Profile Delete
 
