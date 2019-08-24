@@ -692,7 +692,7 @@ validated-clips = Retalios validate
 total-approved = Total approbate
 overall-accuracy = Precision general
 set-visibility = Definir ma visibilitate
-visibility-explainer = Iste configuration controla tu visibilitate in le classifica. Quando definite 'Occulte', tu progresso restara reservate. Id es tu imagine, nomine de usator e progresso non apparera in le classification. Nota que refrescar le classification prende ~{ $minutas }min pro actualisar le cambios.
+visibility-explainer = Iste configuration controla tu visibilitate in le classification. Quando definite como 'celate', tu progresso restara private. Isto vole dicer que tu imagine, nomine de usator e progresso non apparera in le classification. Nota que le classification prende circa { $minutes } minutas pro actualisar se.
 visibility-overlay-note = Nota: Quando definite 'Visibile', iste configuration pote ser cambiate ab le <profileLink>Pagina del profilo</profileLink>
 show-ranking = Monstrar mi classification
 
