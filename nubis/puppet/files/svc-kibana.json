@@ -3,7 +3,7 @@
     "name": "voice-kibana",
     "port": 5601,
     "check": {
-      "http": "http://localhost:5601/login",
+      "http": "http://localhost:5601/api/status",
       "interval": "30s",
       "timeout": "1s"
     }
