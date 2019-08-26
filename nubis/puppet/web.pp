@@ -82,13 +82,13 @@ apache::vhost { $project_name:
     ProxyPass /locales !
 
     <Location /grafana>
-        ProxyPass /grafana http://localhost:3000 disablereuse=on ttl=60
-        ProxyPassReverse /grafana http://localhost:3000
+        ProxyPass http://localhost:3000 disablereuse=on ttl=60
+        ProxyPassReverse http://localhost:3000
     </Location>
 
     <Location /kibana>
-        ProxyPass /kibana http://localhost:5601 disablereuse=on ttl=60
-        ProxyPassReverse /kibana http://localhost:5601
+        ProxyPass http://localhost:5601 disablereuse=on ttl=60
+        ProxyPassReverse http://localhost:5601
     </Location>
 
     ProxyPass / http://localhost:9000/ retry=0
