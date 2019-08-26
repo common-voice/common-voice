@@ -9,5 +9,5 @@ mod 'puppet/nodejs', '5.0.0'
 # And module for grafana
 mod 'puppet/grafana', '6.0.0'
 
-mod 'elastic/elastic_stack'
+mod 'elastic/elastic_stack', '7.0.0'
 mod 'elastic/kibana', '6.3.1'

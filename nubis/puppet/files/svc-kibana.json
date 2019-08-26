@@ -1,0 +1,11 @@
+{
+  "service": {
+    "name": "voice-kibana",
+    "port": 5601,
+    "check": {
+      "http": "http://localhost:5601/login",
+      "interval": "30s",
+      "timeout": "1s"
+    }
+  }
+}
