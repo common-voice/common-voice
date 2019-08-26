@@ -201,7 +201,6 @@ x-years-short =
        *[other] ел
     }
 help-make-dataset = Безгә югары сыйфатлы, һәркемгә ачык мәгълүмат тупланмасын булдырырга ярдәм итегез
-profile-not-required = Үз өлешеңне кертү өчен профильның булуы мәҗбүри түгел, гәрчә файдалы булса да
 sign-up-account = Аккаунт булдырыр өчен теркәлегез
 email-subscription-title = Электрон почта аша килүче яңалыкларга язылу
 email-subscription-title-new = Common Voice гәҗитенә, куелган максатлар һәм эшләнгән эшләр турындагы хәбәрләргә язылыгыз
@@ -545,7 +544,6 @@ language-section-launched = Эшли башлаганнар
 language-section-launched-description = Эшкә кушылган әлеге телләр өчен сайт уңышлы <localizationGlossaryLink>тәрҗемә ителеп</localizationGlossaryLink>, <speakLink>Сөйләү</speakLink> һәм <listenLink>Тыңлау</listenLink> өчен җитәрлек күләмдә <sentenceCollectionGlossaryLink>җөмләләр җыелды</sentenceCollectionGlossaryLink>.
 languages-show-more = Күбрәк
 languages-show-less = Әзрәк
-language-speakers = Сөйләүчеләр
 language-meter-in-progress = Прогресс
 language-total-progress = Барлыгы
 language-search-input =
@@ -663,7 +661,6 @@ show-ranking = Минем рейтингымны күрсәт
 ## Custom Goals
 
 get-started-goals = Максат кую
-toward-next-goal = Алдагы максатка таба
 create-custom-goal = Шәхси бер максат кую
 both-speak-and-listen = Икесе дә
 daily-goal = Көнлек максат
@@ -681,8 +678,14 @@ set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
 how-many-per-day = Шәп! Көнгә ничә аудиоязма?
 how-many-a-week = Шәп! Атнага ничә аудиоязма?
+n-clips = { NUMBER($count) } аудиоязма
+help-share-goal = Безгә күбрәк тавышлар табарга ярдәм итегез, максатыгыз белән уртаклашагыз
 confirm-goal = Максатны раслау
 goal-interval-weekly = Атна саен
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Көн саен { $count } клип { $type } максатыгыз белән уртаклашыгыз
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Атна саен { $count } клип { $type } максатыгыз белән уртаклашыгыз
 share-goal-type-speak = Сөйләү
 share-goal-type-listen = Тыңлау
 share-goal-type-both = Сөйләү һәм тыңлау
@@ -702,5 +705,6 @@ profile-form-delete = Профильне бетерү
 
 ## Landing
 
+login-company = { $company } электрон почтасы белән керү / теркәлү
 profile-not-required = Үз өлешеңне кертү өчен профильның булуы мәҗбүри түгел, гәрчә файдалы булса да
 read-more-about = Күбрәк мәгълүмат «Хакында» сәхифәсендә
