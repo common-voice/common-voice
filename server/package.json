@@ -22,7 +22,6 @@
     "body-parser": "^1.19.0",
     "common": "*",
     "commonmark": "^0.29.0",
-    "consul": "^0.35.0",
     "cookie-parser": "^1.4.4",
     "crypto-js": "^3.1.9-1",
     "db-migrate": "^0.11.6",
