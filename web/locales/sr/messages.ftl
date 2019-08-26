@@ -202,7 +202,6 @@ x-years-short =
        *[other] година
     }
 help-make-dataset = Помозите нам да изградимо високо квалитетан, јаван и отворен скуп података
-profile-not-required = Иако је од помоћи, није обавезно да имате профил да би допринели. Погледајте зашто доле.
 sign-up-account = Региструјте налог
 email-subscription-title = пријавите се на новости преко е-поште
 email-subscription-title-new = Претплатите се на билтене о Common Voice-у, подсетнике за циљеве и новости о напретку
@@ -355,6 +354,7 @@ faq-what-cv-a =
     Не прикупљамо само узорке гласова на језицима са много говорника већ и узорке гласова на језицима са мањом популацијом говорника. Објављивање разноликог скупа гласовних података омогућава програмерима, предузетницима и заједницама да премосте овај јаз. Осим Common Voice скупа података, градимо и мотор за препознавање говора, отвореног кода, под називом Deep Speech.
 faq-why-important-q = Зашто је то важно?
 faq-how-get-q = Како могу да добијем Common Voice податке?
+faq-how-get-a = Common Voice скуп података доступан је за преузимање под лиценцом <licenseLink>CC0</licenseLink> на <datasetLink> нашој страници са скуповима података</datasetLink>. Такође, можете преузети неколико других јавно доступних скупова података са исте странице.
 faq-when-release2-q = Када ћете издати Common Voice податке других језика?
 faq-why-mission-q = Зашто је Common Voice део Mozilla-ине мисије?
 faq-what-cv-and-deepspeech-q = Која је разлика између Common Voice  и Deep Speech пројеката?
@@ -496,7 +496,6 @@ language-section-in-progress = У току
 language-section-launched = Покренут
 languages-show-more = Погледајте више
 languages-show-less = Погледајте мање
-language-speakers = Говорници
 language-meter-in-progress = Напредак
 language-total-progress = Укупно
 language-search-input =
@@ -624,7 +623,6 @@ show-ranking = Покажи мој ранг
 ## Custom Goals
 
 get-started-goals = Почните са одређеним циљевима
-toward-next-goal = Према следећем циљу
 create-custom-goal = Направите сопствени циљ
 both-speak-and-listen = Оба
 both-speak-and-listen-long = Оба (говори и слушај)
