@@ -1,12 +1,9 @@
 require('newrelic');
-
 import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
-require('source-map-support').install();
-const contributableLocales = require('locales/contributable.json');
 import { importLocales } from './lib/model/db/import-locales';
 import Model from './lib/model';
 import {
@@ -15,14 +12,17 @@ import {
 } from './lib/model/leaderboard';
 import API from './lib/api';
 import Logger from './lib/logger';
-import { getElapsedSeconds, ClientError, APIError } from './lib/utility';
+import { redis, redlock } from './lib/redis';
+import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 
-const consul = require('consul')({ promisify: true });
+require('source-map-support').install();
+const contributableLocales = require('locales/contributable.json');
 
+const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
 
 const CSP_HEADER = [
@@ -44,6 +44,11 @@ export default class Server {
   api: API;
   logger: Logger;
   isLeader: boolean;
+
+  get version() {
+    const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
+    return ENVIRONMENT + RELEASE_VERSION;
+  }
 
   constructor(options?: { bundleCrossLocaleMessages: boolean }) {
     options = { bundleCrossLocaleMessages: true, ...options };
@@ -219,6 +224,15 @@ export default class Server {
     }
   }
 
+  async hasMigrated(): Promise<boolean> {
+    const result = await redis.get(MAINTENANCE_VERSION_KEY);
+    const hasMigrated = result && JSON.parse(result) == this.version;
+    if (hasMigrated) {
+      this.print('maintenance already performed');
+    }
+    return hasMigrated;
+  }
+
   /**
    * Start up everything.
    */
@@ -229,7 +243,7 @@ export default class Server {
     await this.ensureDatabase();
 
     this.listen();
-    const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
+    const { ENVIRONMENT } = getConfig();
 
     if (!ENVIRONMENT || ENVIRONMENT === 'default') {
       await this.performMaintenance(options.doImport);
@@ -237,30 +251,27 @@ export default class Server {
       return;
     }
 
-    const lock = consul.lock({ key: 'maintenance-lock' });
+    if (await this.hasMigrated()) {
+      return;
+    }
+    const lock = await redlock.lock(
+      'maintenance-lock',
+      1000 * 60 * 60 * 60 /*1 hour*/
+    );
+    // we need to check again after the lock was acquired, as another instance
+    // might've already migrated in the meantime
+    if (await this.hasMigrated()) {
+      return;
+    }
 
-    lock.on('acquire', async () => {
-      const key = ENVIRONMENT + RELEASE_VERSION;
+    try {
+      await this.performMaintenance(options.doImport);
+      await redis.set(MAINTENANCE_VERSION_KEY, this.version);
+    } catch (e) {
+      this.print('error during maintenance', e);
+    }
 
-      try {
-        const result = await consul.kv.get(key);
-        const hasPerformedMaintenance = result && JSON.parse(result.Value);
-
-        if (hasPerformedMaintenance) {
-          this.print('maintenance already performed');
-        } else {
-          await this.performMaintenance(options.doImport);
-          await consul.kv.set(key, JSON.stringify(true));
-        }
-      } catch (e) {
-        this.print('error during maintenance', e);
-      }
-
-      await lock.release();
-    });
-
-    lock.acquire();
-
+    await lock.unlock();
     // await this.warmUpCaches();
   }
 
