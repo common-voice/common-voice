@@ -435,7 +435,10 @@ class AvatarSetup extends React.Component<Props, State> {
                 </Localized>
                 <Localized id="recreate-voice">
                   <p
-                    className="recreate-voice"
+                    className={
+                      'recreate-voice ' +
+                      (this.isUnsupportedPlatform ? 'hide-recreate' : '')
+                    }
                     onClick={this.updateAvatarClip}
                   />
                 </Localized>

@@ -31,6 +31,7 @@
             right: 6%;
         }
     }
+
     .group-1 {
         max-width: 508px;
         height: 169px;
@@ -154,6 +155,10 @@
         padding-left: 22px;
     }
 
+    .hide-recreate {
+        display: none;
+    }
+
     .voice-paragraph-2 {
         margin-bottom: 36px;
     }
@@ -227,6 +232,9 @@
 }
 
 .photo-avatar {
+    @media only screen and (max-width: 415px) {
+        padding-top: 36px;
+    }
     width: 35%;
     .avatar-setup {
         border: none;
