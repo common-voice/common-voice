@@ -356,6 +356,7 @@ faq-why-important-q = Зашто је то важно?
 faq-how-get-q = Како могу да добијем Common Voice податке?
 faq-how-get-a = Common Voice скуп података доступан је за преузимање под лиценцом <licenseLink>CC0</licenseLink> на <datasetLink> нашој страници са скуповима података</datasetLink>. Такође, можете преузети неколико других јавно доступних скупова података са исте странице.
 faq-when-release2-q = Када ћете издати Common Voice податке других језика?
+faq-when-release2-a = Вишејезичну верзију Common Voice скупа података тренутно прикупља и сређује заједница. Ако желите да нам помогнете у додавању новог језика у Common Voice, идите у <sentenceCollectorLink>алатку за прикупљање реченица</sentenceCollectorLink> да бисте додали нове реченице у скуп података и да бисте превели сајт помоћу Мозила <pontoonLink>Pontoon</pontoonLink> алата. Када се прикупи најмање 5000 одобрених реченица, нови језик се може додати у Common Voice.
 faq-why-mission-q = Зашто је Common Voice део Mozilla-ине мисије?
 faq-what-cv-and-deepspeech-q = Која је разлика између Common Voice  и Deep Speech пројеката?
 faq-is-goal-assistant-q = Да ли је циљ Common Voice-а да изгради гласовног помоћника?
@@ -648,9 +649,13 @@ confirm-goal = Потврдите циљ
 goal-interval-weekly = Недељно
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Делите свој { $count } циљ дневног броја снимака за { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Поделите свој { $count } циљ недељних снимака за { $type }
 share-goal-type-speak = Говор
 share-goal-type-listen = Слушање
 share-goal-type-both = Говор и слушање
+# LINK will be replaced with the current URL
+goal-share-text = Управо сам направио лични циљ за донацију гласу у #CommonVoice пројекту, придружи ми се и помози да научимо машине како људи говоре { $link }
 weekly-goal-created = Ваш недељни циљ је направљен
 daily-goal-created = Ваш дневни циљ је направљен
 track-progress = Пратите напредак овде и на вашој статистичкој страници.
@@ -659,8 +664,11 @@ share-goal = Подели мој циљ
 
 ## Profile Delete
 
+delete-q = Желите ли да затражите да се ваши гласовни снимци избришу или желите да их задржите у Common Voice скупу података?
 keep = Задржи
 remove = Уклони
+keep-info = Ваши анонимни гласовни снимци ће остати у Common Voice бази података. Када избришете свој профил, више нећете моћи да пошаљете захтев за уклањање ваших снимака из скупа података.
+remove-info = Прегледаћемо ваш захтев за уклањање ваших гласовних снимака из скупа података. Ако се захтев одобри, обавестићемо оне који су преузели базу података и затражити да уклоне и ваше гласовне снимке.
 why-delete-recordings =
     Common Voice снимци користе се у академским круговима, малим предузећима и међу ентузијастима за препознавање гласа како би помогли у обуци и развоју јавно доступних ресурса као што су модели гласа.
     
