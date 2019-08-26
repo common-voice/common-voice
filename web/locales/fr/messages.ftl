@@ -201,7 +201,6 @@ x-years-short =
        *[other] { $count } ans
     }
 help-make-dataset = Aidez-nous à constituer une base de données libre et publique de haute qualité
-profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 sign-up-account = Créer un compte
 email-subscription-title = Recevez des informations par courriel
 email-subscription-title-new = Abonnez-vous aux lettres d’information, rappels d’objectifs et bilan des progrès de Common Voice
@@ -582,7 +581,6 @@ language-section-launched = Lancées
 language-section-launched-description = Pour les langues suivantes le site web a été <localizationGlossaryLink>localisé</localizationGlossaryLink>, et propose suffisamment de <sentenceCollectionGlossaryLink>phrases collectées</sentenceCollectionGlossaryLink> pour permettre de contribuer aussi bien en <speakLink>parlant</speakLink> qu’en <listenLink>écoutant</listenLink>.
 languages-show-more = Afficher davantage
 languages-show-less = Afficher moins
-language-speakers = Locuteurs et locutrices
 language-meter-in-progress = En cours
 language-total-progress = Total
 language-search-input =
@@ -704,7 +702,6 @@ show-ranking = Afficher mon classement
 ## Custom Goals
 
 get-started-goals = Créez vos objectifs
-toward-next-goal = Vers le prochain objectif
 create-custom-goal = Créer un objectif personnalisé
 both-speak-and-listen = Faire les deux
 both-speak-and-listen-long = Les deux (parler et écouter)
@@ -728,6 +725,7 @@ how-many-per-day = Génial ! Combien d’échantillons par jour ?
 how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
 receiving-emails-info = Vous allez recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
+not-receiving-emails-info = Vous n’allez <bold>PAS</bold> recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
 n-clips = { NUMBER($count) } échantillons
 help-share-goal = Aidez-nous à trouver plus de voix, partagez votre objectif
 confirm-goal = Confirmer l’objectif
