@@ -14,3 +14,14 @@ file { '/etc/consul/svc-kibana.json':
     mode   => '0644',
     source => 'puppet:///nubis/files/svc-kibana.json',
 }
+
+file { '/etc/systemd/system/kibana.service':
+    ensure => file,
+    owner  => root,
+    group  => root,
+    mode   => '0644',
+    source => 'puppet:///nubis/files/kibana.service',
+    require => [
+      Class['Kibana'],
+    ],
+}
