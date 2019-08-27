@@ -35,7 +35,7 @@ resource "aws_elasticsearch_domain" "es" {
 
   vpc_options {
     subnet_ids = [
-      "${split(module.info.private_subnets,",")}",
+      "${split(",",module.info.private_subnets)}",
     ]
 
     security_group_ids = ["${aws_security_group.es.id}"]
