@@ -3,7 +3,7 @@ class { 'kibana':
   status		=> 'unmanaged',
   config               => {
     'server.basePath'   => '/kibana',
-    'server.rewriteBasePath' => 'false',
+    'server.rewriteBasePath' => false,
   },
 }
 
