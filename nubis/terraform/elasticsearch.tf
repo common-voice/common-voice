@@ -19,8 +19,8 @@ resource "aws_security_group" "es" {
     to_port   = 443
     protocol  = "tcp"
 
-    cidr_blocks = [
-      "${split(module.info.private_network_cidr, ",")}",
+    security_groups = [
+      "${module.worker.security_group}",
     ]
   }
 }
