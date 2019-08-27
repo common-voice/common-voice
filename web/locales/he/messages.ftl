@@ -8,7 +8,10 @@ email-input =
     .label = דוא״ל
 submit-form-action = שליחה
 loading = בטעינה…
+email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
+email-opt-in-privacy = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות<privacyLink>.
 indicates-required = * מסמן שדה נחוץ
+not-available-abbreviation = לא זמין
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -80,7 +83,6 @@ nn-NO = נורווגית חדשה
 oc = אוקסיטנית
 or = אורייה
 pl = פולנית
-pt-BR = פורטוגלית (ברזיל)
 ro = רומנית
 ru = רוסית
 sah = סאחה
@@ -176,7 +178,6 @@ x-years-short =
        *[other] { $count } שנים
     }
 help-make-dataset = מזמינים אותך לבנות מערך נתונים איכותי ופתוח לציבור
-profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב
 sign-up-account = יצירת חשבון
 email-subscription-title = הרשמה לעדכונים בדוא״ל
 
@@ -216,6 +217,7 @@ shortcut-vote-no = ל
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ק
 shortcut-record-toggle-label = הקלטה/עצירה
+shortcut-rerecord-toggle-label = הקלטת קטע מחדש
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
 request-language-button = בקשת שפה
 
@@ -425,7 +427,6 @@ language-section-in-progress = בתהליך
 language-section-launched = הושקו
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
-language-speakers = דוברים
 language-meter-in-progress = התקדמות
 language-total-progress = סה״כ
 language-search-input =
@@ -435,7 +436,7 @@ localized = תורגמו
 sentences = משפטים
 total-hours = שעות שאומתו
 
-## New Contribution
+## Contribution
 
 action-click = לחיצה
 action-tap = נגיעה
@@ -464,7 +465,6 @@ record-again-instruction = מושלם! <recordIcon></recordIcon> הקלטת המ
 record-again-instruction2 = עבודה יפה, עכשיו להקליט שוב <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> אחרון חביב!
 review-tooltip = ניתן לסקור ולהקליט מקטעים מחדש דרך כאן תוך כדי תנועה
-unable-speak = לא ניתן לדבר כרגע?
 review-instruction = ניתן לסקור ולהקליט מקטעים מחדש במקרה הצורך
 record-submit-tooltip = { $actionType } ניתן להגיש כשהמקטע מוכן
 clips-uploaded = מקטעים הועלו
@@ -480,6 +480,9 @@ listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 nothing-to-validate = אין לנו שום דבר לאמת בשפה הזאת, נשמח לעזרתך למלא את התור.
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
+
+## Reporting
+
 
 ## Goals
 
@@ -515,6 +518,9 @@ recorded-clips = מקטעים שהוקלטו
 validated-clips = מקטעים שאומתו
 total-approved = סה״כ אושרו
 overall-accuracy = דיוק כללי
+
+## Custom Goals
+
 
 ## Profile Delete
 
