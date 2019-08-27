@@ -35,7 +35,10 @@ resource "aws_elasticsearch_domain" "es" {
 
   vpc_options {
     subnet_ids = [
-      "${split(",",module.info.private_subnets)}",
+      # Pick the first 2 subnets, 2 is an upper limit
+      "${element(split(",",module.info.private_subnets), 0)}",
+
+      "${element(split(",",module.info.private_subnets), 1)}",
     ]
 
     security_group_ids = ["${aws_security_group.es.id}"]
