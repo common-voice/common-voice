@@ -30,15 +30,17 @@ resource "aws_elasticsearch_domain" "es" {
   elasticsearch_version = "7.1"
 
   cluster_config {
-    instance_type = "m4.large.elasticsearch"
+    instance_type          = "m4.large.elasticsearch"
+    zone_awareness_enabled = true
+
+    zone_awareness_config {
+      availability_zone_count = 3
+    }
   }
 
   vpc_options {
     subnet_ids = [
-      # Pick the first 2 subnets, 2 is an upper limit
-      "${element(split(",",module.info.private_subnets), 0)}",
-
-      "${element(split(",",module.info.private_subnets), 1)}",
+      "${split(",",module.info.private_subnets)}",
     ]
 
     security_group_ids = ["${aws_security_group.es.id}"]
