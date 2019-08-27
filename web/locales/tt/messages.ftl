@@ -601,16 +601,22 @@ listen-last-time-instruction = <playIcon></playIcon> Соңгысы!
 nothing-to-validate = Бу тел өчен тикшерүгә җөмләләр юк әле, безгә бу кимчелекне төзәтергә ярдәм итегез.
 record-button-label = Тавышыгызны яздырыгыз
 share-title-new = Безгә күбрәк тавыш табарга <bold>ярдәм итегез</bold>
+keep-track-profile = Профиль булдырып, башкарган эшләрегезне күзәтеп барыгыз
+login-to-get-started = Башлау өчен керегез яки теркәлегез
 
 ## Reporting
 
 report = Шикаять итү
 report-title = Шикаять итү
+report-ask = Бу җөмләгә бәйле нинди кыенлыкларыгыз бар?
+report-offensive-language = Рәнҗеткеч сүзләр
+report-offensive-language-detail = Җөмләдә кимсетүле я рәнҗеткеч сүзләр бар.
 report-grammar-or-spelling = Грамматик / орфографик хата
 report-grammar-or-spelling-detail = Җөмләдә грамматик яки орфографик хата бар.
 report-different-language = Башка тел
 report-different-language-detail = Бу җөмлә мин сөйләшкән телдә түгел.
 report-difficult-pronounce = Әйтүе кыен
+report-difficult-pronounce-detail = Бу җөмләдә укырга я әйтергә кыен сүзләр я гыйбарәләр бар.
 report-offensive-speech = Рәнҗеткеч сүз
 report-offensive-speech-detail = Бу клипта кимсетүле-рәнҗеткеч  гыйбарәләр бар.
 report-other-comment =
@@ -656,6 +662,7 @@ recorded-clips = Яздырылган клиплар
 validated-clips = Тикшерелгән клиплар
 total-approved = Барлык исбатланганнар
 overall-accuracy = Гомуми төгәллек
+set-visibility = Күренүчәнлек дәрәҗәсен көйләү
 show-ranking = Минем рейтингымны күрсәт
 
 ## Custom Goals
@@ -678,6 +685,7 @@ set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
 how-many-per-day = Шәп! Көнгә ничә аудиоязма?
 how-many-a-week = Шәп! Атнага ничә аудиоязма?
+which-goal-type = Сөйлисегез киләме, тыңлыйсыгызмы, әллә икесе дә?
 n-clips = { NUMBER($count) } аудиоязма
 help-share-goal = Безгә күбрәк тавышлар табарга ярдәм итегез, максатыгыз белән уртаклашагыз
 confirm-goal = Максатны раслау

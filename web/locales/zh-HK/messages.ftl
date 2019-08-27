@@ -87,6 +87,7 @@ mk = 馬其頓文
 ml = 馬拉亞拉姆文
 mn = 蒙古文
 mrj = 山地馬里文
+mt = 馬爾他文
 myv = 厄爾茲亞文
 nb-NO = 挪威文（書面語）
 ne-NP = 尼泊爾文
@@ -95,7 +96,7 @@ nn-NO = 挪威文（新挪威語）
 oc = 奧克文
 or = 歐利亞文
 pl = 波蘭文
-pt-BR = 葡萄牙文（巴西）
+pt = 葡萄牙文
 rm-sursilv = 羅曼蘇塞瓦語
 ro = 羅馬尼亞文
 ru = 俄文
@@ -108,6 +109,7 @@ sl = 斯洛維尼亞文
 sq = 阿爾巴尼亞文
 sr = 塞爾維亞文
 sv-SE = 瑞典文
+syr = 敘利亞文
 ta = 泰米爾文
 te = 泰盧固文
 tg = 塔吉克文
@@ -195,7 +197,6 @@ x-years-short =
        *[other] 年
     }
 help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
-profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助，下面話您知點解。
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
 
@@ -313,6 +314,11 @@ off = 關
 on = 開
 add-avatar-title = 在您的個人檔案中加入頭像
 add-avatar-clip = 在您的個人檔案中加入頭像，同我們講聲哈囉！
+create-voice-wave = 建立 Voicewave
+recording-voice-wave = 錄音中
+ready-to-upload = 上載
+recreate-voice = 重新建立 Voicewave
+cancel-avatar-clip-recording = 取消
 browse-file-title = 上傳圖片
 browse-file = 拖放至此處，或<browseWrap>按此瀏覽</browseWrap>
 connect-gravatar = 連結到 Gravatar
@@ -511,7 +517,6 @@ language-section-launched = 已上線
 language-section-launched-description = 以下「已上線」的語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>令大家能用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
-language-speakers = 錄音人數
 language-meter-in-progress = 進度
 language-total-progress = 總計
 language-search-input =
@@ -605,10 +610,23 @@ recorded-clips = 錄音
 validated-clips = 已被驗證的錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
+show-ranking = 顯示我的排名
 
 ## Custom Goals
 
-toward-next-goal = 距離下一個目標
+create-custom-goal = 訂立個人目標
+both-speak-and-listen = 兩樣都做
+both-speak-and-listen-long = 兩樣都做 (又聽又講)
+daily-goal = 每日目標
+weekly-goal = 每週目標
+want-to-continue = 你要繼續嗎？
+finish-editing = 要完成編輯嗎？
+build-custom-goal = 度身訂做目標
+set-a-goal = 訂立目標
+cant-decide = 決定唔到？
+how-many-per-day = 好啊！每日錄幾多段音？
+how-many-a-week = 好啊！每週錄幾多段音？
+share-goal = 分享我嘅目標
 
 ## Profile Delete
 
