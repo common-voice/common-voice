@@ -24,3 +24,32 @@ resource "aws_security_group" "es" {
     ]
   }
 }
+
+resource "aws_elasticsearch_domain" "es" {
+  domain_name           = "${var.service_name}-${var.environment}"
+  elasticsearch_version = "7.1"
+
+  cluster_config {
+    instance_type = "m4.large.elasticsearch"
+  }
+
+  vpc_options {
+    subnet_ids = [
+      "${split(module.info.private_subnets,",")}",
+    ]
+
+    security_group_ids = ["${aws_security_group.es.id}"]
+  }
+
+  advanced_options = {
+    "rest.action.multi.allow_explicit_index" = "true"
+  }
+
+  snapshot_options {
+    automated_snapshot_start_hour = 23
+  }
+
+  depends_on = [
+    "aws_iam_service_linked_role.es",
+  ]
+}
