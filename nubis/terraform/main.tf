@@ -128,7 +128,7 @@ module "bundler_bucket" {
   role         = "${module.worker.role}"
 }
 
-# Add elastic cache (memcache)
+# Add elastic cache (redis)
 module "cache" {
   source                 = "github.com/nubisproject/nubis-terraform//cache?ref=v2.4.0"
   region                 = "${var.region}"
