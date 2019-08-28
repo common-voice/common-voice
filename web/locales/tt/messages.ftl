@@ -670,6 +670,7 @@ show-ranking = Минем рейтингымны күрсәт
 get-started-goals = Максат кую
 create-custom-goal = Шәхси бер максат кую
 both-speak-and-listen = Икесе дә
+both-speak-and-listen-long = Икесен дә (сөйләү һәм тыңлау)
 daily-goal = Көнлек максат
 weekly-goal = Атналык максат
 easy-difficulty = Җиңел
@@ -681,6 +682,7 @@ want-to-continue = Дәвам итәсегез киләме?
 finish-editing = Башта мөхәррирләүне тәмамларгамы?
 lose-changes-warning = Хәзер бу биттән китү үзгәртүләрегезнең югалуына китерәчәк.
 build-custom-goal = Шәхси бер максат булдыру
+help-reach-hours-general = Үзегезгә бер шәхси максат куеп, Common Voice'ка татар телендә { NUMBER($hours) } сәгать аудио җыярга ярдәм итегез
 set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
 how-many-per-day = Шәп! Көнгә ничә аудиоязма?
@@ -699,6 +701,8 @@ share-goal-type-listen = Тыңлау
 share-goal-type-both = Сөйләү һәм тыңлау
 weekly-goal-created = Атналык максатыгыз булдырылды
 daily-goal-created = Көнлек максатыгыз булдырылды
+track-progress = Башкарган эшләрегезне монда һәм шулай ук статистика битегездә күзәтеп барыгыз.
+return-to-edit-goal = Кайчан да булса максатыгызны үзгәртәсегез килсә, бу биткә кайтуыгыз гына кирәк.
 share-goal = Максатымны уртаклашу
 
 ## Profile Delete
