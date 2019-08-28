@@ -117,6 +117,7 @@ speak = דברו
 speak-now = נא לדבר כעת
 datasets = סדרות נתונים
 languages = שפות
+about = על אודות
 profile = פרופיל
 help = עזרה
 contact = יצירת קשר
@@ -293,6 +294,7 @@ connect-gravatar = התחברות עם Gravatar
 gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל שלך
 file_too_large = הקובץ שנבחר גדול מדי
 manage-subscriptions = ניהול מינויים
+manage-email-subscriptions = ניהול מינויי דוא״ל
 email-already-used = כתובת דוא״ל זו כבר בשימוש עבור חשבון אחר
 add-language = הוספת שפה
 
@@ -306,10 +308,20 @@ faq-where-src-from-2-q = מהיכן מגיע טקסט המקור?
 faq-why-account-q = מדוע עלי ליצור חשבון?
 faq-is-account-public-q = האם פרטי החשבון שלי חשופים לציבור?
 faq-how-privacy-q = איך אתם מבטיחים לשמור על האלמוניות והפרטיות של אלו שתרמו את קולם?
+faq-what-is-cv = מה זה Common Voice?
+faq-using-cv = שימוש ב־Common Voice
+faq-description = Common Voice הוא חלק מיוזמה של Mozilla לסייע בלימוד מכונות להבין כיצד מדברים אנשים אמתיים.
+faq-search-for-answers =
+    .label = חיפוש אחר תשובות
 
 ## ABOUT US
 
+about-title = למה Common Voice?
+how-does-it-work-title = איך זה עובד?
 about-speak = דבר
+about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
+about-nav-why-common-voice = למה?
+about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 mycroft-subtitle = בינה מלאכותית
 
@@ -391,6 +403,8 @@ missing-language = אינך רואה את השפה שלך במאגר המידע?
 go-languages-page = מעבר לעמוד השפות
 ready-to-validate = מוכנים לעזור לאמת משפטים?
 more = עוד
+close = סגירה
+download = הורדה
 dataset-version = גרסה
 
 ## Download Modal
@@ -419,6 +433,7 @@ request-language-form-language =
     .label = שפה
 request-language-success-title = בקשת השפה הוגשה בהצלחה, תודה רבה.
 request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף את השפה שלך ל־Common Voice בקרוב.
+select-language = בחירת שפה…
 other-language = שפה אחרת
 
 ## Languages Overview
@@ -483,6 +498,14 @@ share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוס�
 
 ## Reporting
 
+report = דיווח
+report-title = הגשת דיווח
+report-ask = אילו קשיים חווית עם המשפט הזה?
+report-offensive-language = שפה פוגענית
+report-offensive-language-detail = במשפט יש שפה מזלזלת או פוגענית.
+report-grammar-or-spelling = שגיאת דקדוק / איות
+report-grammar-or-spelling-detail = במשפט יש שגיאה בדקדוק או באיות.
+report-success = הדיווח הועבר בהצלחה
 
 ## Goals
 
@@ -531,3 +554,4 @@ profile-form-delete = מחיקת פרופיל
 ## Landing
 
 profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב
+read-more-about = מידע נוסף בעמוד על אודותינו
