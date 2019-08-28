@@ -49,7 +49,7 @@ resource "aws_elasticsearch_domain" "es" {
 
   ebs_options {
     ebs_enabled = true
-    volume_size = 64
+    volume_size = 32
   }
 
   advanced_options = {
