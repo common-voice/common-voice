@@ -7,6 +7,9 @@
 }
 
 .clip {
+    border-right: solid 1px;
+    border-color: whitesmoke;
+
     & h2 {
         max-width: 334px;
         height: 58px;
