@@ -25,6 +25,24 @@ resource "aws_security_group" "es" {
   }
 }
 
+data "aws_iam_policy_document" "es" {
+  statement {
+    actions   = ["es:*"]
+    resources = ["${aws_elasticsearch_domain.es.arn}/*"]
+
+    principals {
+      type        = "AWS"
+      identifiers = ["${module.worker.role}", "${module.visualiser.role}"]
+    }
+  }
+}
+
+resource "aws_elasticsearch_domain_policy" "es" {
+  domain_name = "${aws_elasticsearch_domain.es.domain_name}"
+
+  access_policies = "${data.aws_iam_policy_document.es.json}"
+}
+
 resource "aws_elasticsearch_domain" "es" {
   domain_name           = "${var.service_name}-${var.environment}"
   elasticsearch_version = "7.1"
