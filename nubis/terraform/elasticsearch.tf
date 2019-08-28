@@ -31,8 +31,12 @@ data "aws_iam_policy_document" "es" {
     resources = ["${aws_elasticsearch_domain.es.arn}/*"]
 
     principals {
-      type        = "AWS"
-      identifiers = ["${module.worker.role}", "${module.visualiser.role}"]
+      type = "AWS"
+
+      identifiers = [
+        "arn:aws:iam::${module.info.account_id}:role/${module.worker.role}",
+        "arn:aws:iam::${module.info.account_id}:role/${module.visualiser.role}",
+      ]
     }
   }
 }
