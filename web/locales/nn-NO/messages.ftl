@@ -94,7 +94,7 @@ nn-NO = Norsk nynorsk
 oc = Oksitansk
 or = Oriya
 pl = Polsk
-pt-BR = Portugisisk (Brazil)
+pt = Portugisisk
 rm-sursilv = Retoromansk surselva
 rm-vallader = Retoromansk (Vallader)
 ro = Rumensk
@@ -192,7 +192,6 @@ x-years-short =
        *[other] { $count } år
     }
 help-make-dataset = Hjelp oss å byggje eit offentleg, ope datasett med høg kvalitet
-profile-not-required = Du treng ikkje ein konto for å bidra, men det hjelper. Sjå kvifor nedanfor.
 sign-up-account = Be om konto
 email-subscription-title = registrer deg for oppdateringar via e-post
 
@@ -469,7 +468,6 @@ language-section-in-progress = Under arbeid
 language-section-launched = Lansert
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
-language-speakers = Talt av
 language-meter-in-progress = Framdrift
 language-total-progress = Totalt
 language-search-input =
@@ -531,9 +529,11 @@ login-to-get-started = Logg inn eller registrer deg for å kome i gang
 
 report = Rapporter
 report-title = Send inn ein rapport
+report-offensive-language = Krenkande språk
 report-grammar-or-spelling = Grammatisk/Stavefeil
 report-different-language = Anna språk
 report-difficult-pronounce = Vanskeleg å uttale
+report-offensive-speech = Krenkande tale
 report-other-comment =
     .placeholder = Kommentar
 success = Vellykka
@@ -565,6 +565,7 @@ toward-next-goal = Mot neste mål
 clips-you-recorded = Klipp du har spelt inn
 clips-you-validated = Klipp du har validert
 stats = Statistikk
+awards = Prisar
 you = Du
 everyone = Alle
 contribution-activity = Bidragsaktivitet
@@ -579,7 +580,6 @@ show-ranking = Vis rangeringa mi
 ## Custom Goals
 
 get-started-goals = Kom i gang med mål
-toward-next-goal = Mot neste mål
 create-custom-goal = Lag eit tilpassa mål
 both-speak-and-listen = Begge
 both-speak-and-listen-long = Begge (snakke og lytte)
