@@ -387,7 +387,7 @@ class AvatarSetup extends React.Component<Props, State> {
                   className="primary "
                   onClick={this.counter}>
                   <MicIcon />
-                  <Localized id="create-voice-wave">
+                  <Localized id="record-voice-wave">
                     <span />
                   </Localized>
                 </Button>
@@ -444,7 +444,7 @@ class AvatarSetup extends React.Component<Props, State> {
                 </Localized>
               </>
             ) : (
-              <Localized id="about-avatar-clip">
+              <Localized id="about-avatar-clip-recording">
                 <p className="create-a-custom-voice voice-paragraph-2" />
               </Localized>
             )}
