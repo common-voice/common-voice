@@ -98,6 +98,7 @@ or = 歐利亞文
 pl = 波蘭文
 pt = 葡萄牙文
 rm-sursilv = 羅曼蘇塞瓦語
+rm-vallader = 羅曼什瓦拉德文
 ro = 羅馬尼亞文
 ru = 俄文
 rw = 盧旺達文
@@ -640,11 +641,28 @@ difficult-difficulty = 有難度
 pro-difficulty = 專業級
 want-to-continue = 你要繼續嗎？
 finish-editing = 要完成編輯嗎？
+lose-changes-warning = 現在離開將不會儲存您的變更
 build-custom-goal = 度身訂做目標
 set-a-goal = 訂立目標
 cant-decide = 決定唔到？
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
+which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？
+n-clips = { NUMBER($count) } 段錄音
+confirm-goal = 確認目標
+goal-interval-weekly = 每週
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = 分享您的每日 { $type } 目標: { $count } 片段
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = 分享您的每週 { $type } 目標: { $count } 片段
+share-goal-type-speak = 講嘢
+share-goal-type-listen = 聼嘢
+share-goal-type-both = 又聽又講
+# LINK will be replaced with the current URL
+goal-share-text = 我啱啱訂立咗貢獻廣東話錄音俾 #CommonVoice 嘅目標，您都一齊嚟加入，幫機器學講純正嘅廣東話啦。{ $link }
+weekly-goal-created = 成功訂立咗您嘅每週目標
+daily-goal-created = 成功訂立咗您嘅每日目標
+track-progress = 可以在此追蹤進度，或前往統計頁面。
 return-to-edit-goal = 您可以隨時回到這裡編輯目標。
 share-goal = 分享我嘅目標
 
