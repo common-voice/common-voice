@@ -313,7 +313,6 @@ skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢�
 off = 關
 on = 開
 add-avatar-title = 在您的個人檔案中加入頭像
-add-avatar-clip = 在您的個人檔案中加入頭像，同我們講聲哈囉！
 create-voice-wave = 建立 Voicewave
 recording-voice-wave = 錄音中
 ready-to-upload = 上載
@@ -576,6 +575,22 @@ share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
 
 ## Reporting
 
+report = 舉報
+report-title = 提交報告
+report-offensive-language = 冒犯人的語言
+report-offensive-language-detail = 這句話當中有不尊重他人或冒犯性的語言。
+report-grammar-or-spelling = 文法 / 拼字錯誤
+report-grammar-or-spelling-detail = 這句話的文法或寫法有錯誤。
+report-different-language = 其他語言
+report-different-language-detail = 這句是另一種語言的句子。
+report-difficult-pronounce = 難以發音
+report-difficult-pronounce-detail = 這句話當中有難以發音的文字或詞彙。
+report-offensive-speech = 冒犯人的錄音片段
+report-offensive-speech-detail = 這個片段中有不尊重他人或冒犯性的語言。
+report-other-comment =
+    .placeholder = 附註
+success = 成功
+continue = 繼續
 
 ## Goals
 
@@ -619,6 +634,10 @@ both-speak-and-listen = 兩樣都做
 both-speak-and-listen-long = 兩樣都做 (又聽又講)
 daily-goal = 每日目標
 weekly-goal = 每週目標
+easy-difficulty = 輕鬆
+average-difficulty = 一般
+difficult-difficulty = 有難度
+pro-difficulty = 專業級
 want-to-continue = 你要繼續嗎？
 finish-editing = 要完成編輯嗎？
 build-custom-goal = 度身訂做目標
@@ -626,6 +645,7 @@ set-a-goal = 訂立目標
 cant-decide = 決定唔到？
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
+return-to-edit-goal = 您可以隨時回到這裡編輯目標。
 share-goal = 分享我嘅目標
 
 ## Profile Delete
