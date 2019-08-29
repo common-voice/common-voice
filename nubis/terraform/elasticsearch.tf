@@ -5,10 +5,6 @@ module "info" {
   account     = "${var.account}"
 }
 
-resource "aws_iam_service_linked_role" "es" {
-  aws_service_name = "es.amazonaws.com"
-}
-
 resource "aws_security_group" "es" {
   name        = "${var.service_name}-${var.environment}-es"
   description = "Managed by Terraform"
@@ -81,8 +77,4 @@ resource "aws_elasticsearch_domain" "es" {
   snapshot_options {
     automated_snapshot_start_hour = 23
   }
-
-  depends_on = [
-    "aws_iam_service_linked_role.es",
-  ]
 }
