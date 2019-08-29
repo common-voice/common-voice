@@ -196,7 +196,6 @@ x-years-short =
        *[other] { $count } 年
     }
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
-profile-not-required = 不需注册个人资料即可贡献，但如果注册的话会更有帮助
 sign-up-account = 注册账号
 email-subscription-title = 订阅邮件更新
 email-subscription-title-new = 订阅 Common Voice 新闻通讯、目标提醒和进度更新
@@ -315,7 +314,7 @@ skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献
 off = 关
 on = 开
 add-avatar-title = 在您的个人资料中添加头像
-add-avatar-clip = 为您的个人资料添加头像
+avatar-clip-title = 给您的头像录音
 create-voice-wave = 创建 Voicewave
 recording-voice-wave = 正在录制
 ready-to-upload = 上传
@@ -575,7 +574,6 @@ language-section-launched = 已上线
 language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够的<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
-language-speakers = 参与人数
 language-meter-in-progress = 进度
 language-total-progress = 总共
 language-search-input =
@@ -695,7 +693,6 @@ show-ranking = 显示我的排名
 ## Custom Goals
 
 get-started-goals = 从设定目标开始
-toward-next-goal = 距离下一个目标
 create-custom-goal = 创建自定义目标
 both-speak-and-listen = 两者
 both-speak-and-listen-long = 两者（说与听）
