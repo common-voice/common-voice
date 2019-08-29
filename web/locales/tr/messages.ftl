@@ -89,7 +89,6 @@ nn-NO = Norveççe (Nynorsk)
 oc = Oksitanca
 or = Odia
 pl = Lehçe
-pt-BR = Portekizce (Brezilya)
 rm-sursilv = Romanşça Sursilvan
 ro = Rumence
 ru = Rusça
@@ -188,7 +187,6 @@ x-years-short =
        *[other] { $count } yıl
     }
 help-make-dataset = Kaliteli, herkese açık bir veri kümesi oluşturmamıza yardım edin
-profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
 sign-up-account = Hesap açın
 email-subscription-title = e-posta haberlerine kaydolun
 
@@ -305,12 +303,17 @@ skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya D
 off = Kapalı
 on = Açık
 add-avatar-title = Profilinize avatar ekleyin
+avatar-clip-title = Avatarınızı seslendirin
+recording-voice-wave = Kaydediliyor
+ready-to-upload = Yükle
+cancel-avatar-clip-recording = İptal
 browse-file-title = Resim dosyası yükle
 browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
 connect-gravatar = Gravatar ile bağlan
 gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
 manage-subscriptions = Abonelikleri yönet
+manage-email-subscriptions = E-posta aboneliklerini yönet
 email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
 add-language = Dil ekle
 
@@ -320,22 +323,37 @@ faq-title = Sıkça Sorulan Sorular
 faq-what-cv-q = Common Voice nedir?
 faq-why-important-q = Ne önemi var?
 faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
-faq-when-release-q = Dil dillerdeki Common Voice verilerini ne zaman yayımlayacaksınız?
+faq-when-release2-q = Diğer dillerdeki Common Voice verilerini ne zaman yayımlayacaksınız?
 faq-why-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
 faq-what-cv-and-deepspeech-q = Deep Speech ile Common Voice arasındaki fark nedir?
+faq-do-want-native-q = Ana dilim bu değil ve aksanlı konuşuyorum, yine de katkıda bulunmamı istiyor musunuz?
 faq-why-different-speakers-q = Neden her dil için bu kadar fazla konuşmacıya ihtiyacınız var?
 faq-why-my-lang-q = Neden dilim henüz eklenmedi?
+faq-why-10k-hours-a = Bu süre, işe yarar bir konuşmayı metne dönüştürme sisteminin eğitilmesi için gereken yaklaşık süredir.
 faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
+faq-where-src-from-2-q = Kaynak metinler nereden geliyor?
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
 faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
 faq-what-is-cv = Common Voice nedir?
+faq-using-cv = Common Voice Kullanımı
+faq-description = Common Voice, Mozilla’nın makinelere gerçek insanların nasıl konuştuklarını öğretme girişiminin bir parçasıdır.
+faq-search-for-answers =
+    .label = Yanıtlarda ara
 
 ## ABOUT US
 
+about-title = Neden Common Voice?
+how-does-it-work-title = Nasıl çalışıyor?
+about-partners = İş ortakları
+about-become-a-partner = Ortağımız olun
+about-get-involved = Bize katılın
 about-nav-why-common-voice = Neden ?
 about-nav-how-it-works = Nasıl ?
+about-nav-partners = İş ortakları
+about-nav-get-involved = Bize katılın
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Yapay zekâ
 
 ## Glossary
 
@@ -448,7 +466,6 @@ language-section-in-progress = Devam ediyor
 language-section-launched = Yayımlandı
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
-language-speakers = Konuşmacı
 language-meter-in-progress = İlerleme
 language-total-progress = Toplam
 language-search-input =
@@ -458,7 +475,7 @@ localized = Yerelleştirilmiş
 sentences = Cümleler
 total-hours = Toplam saat
 
-## New Contribution
+## Contribution
 
 action-click = tıklayın
 action-tap = dokunun
@@ -491,7 +508,6 @@ record-again-instruction = Harika! <recordIcon></recordIcon> Sonraki klibinizi k
 record-again-instruction2 = Böyle devam edin, tekrar kaydedin <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Bu son!
 review-tooltip = İlerledikçe bu kayıtları gözden geçirip yeniden kaydedin
-unable-speak = Şu anda konuşamıyor musunuz?
 review-instruction = Kayıtları gözden geçirip gerekirse yeniden kaydedin
 record-submit-tooltip = { $actionType } hazır olduğunuzda gönderin
 clips-uploaded = Yüklenen kayıt
@@ -507,6 +523,12 @@ listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
 nothing-to-validate = Bu dilde doğrulanacak bir şey kalmamış. Kuyruğu doldurmamıza yardımcı olun.
 record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
+
+## Reporting
+
+report-grammar-or-spelling = Dil bilgisi / yazım hatası
+continue = Devam et
+report-success = Rapor başarıyla gönderildi
 
 ## Goals
 
@@ -534,6 +556,7 @@ toward-next-goal = Sonraki hedef için kalan
 clips-you-recorded = ses kaydettiniz
 clips-you-validated = ses doğruladınız
 stats = İstatistikler
+awards = Ödüller
 you = Siz
 everyone = Herkes
 contribution-activity = Katkı Etkinliği
@@ -542,6 +565,19 @@ recorded-clips = Kaydedilen ses
 validated-clips = Doğrulanan ses
 total-approved = Onaylanan toplam
 overall-accuracy = Genel doğruluk
+set-visibility = Görünürlüğümü ayarla
+show-ranking = Sıralamamı göster
+
+## Custom Goals
+
+daily-goal = Günlük hedef
+weekly-goal = Haftalık hedef
+easy-difficulty = Kolay
+average-difficulty = Orta
+difficult-difficulty = Zor
+pro-difficulty = Profesyonel
+want-to-continue = Devam etmek istiyor musunuz?
+goal-interval-weekly = Haftalık
 
 ## Profile Delete
 

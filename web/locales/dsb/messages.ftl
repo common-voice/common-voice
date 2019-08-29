@@ -205,7 +205,6 @@ x-years-short =
        *[other] { $count } lět
     }
 help-make-dataset = Pomagajśo nam, zjawnje pśistupnu wótwórjonu datowu sajźbu wusokeje kwality napóraś
-profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
 sign-up-account = Konto załožyś
 email-subscription-title = Registrěrujśo se za e-mailowe aktualizacije
 email-subscription-title-new = Registrěrujśo se za powěsćowe listy Common Voice, celowe dopomnjeśa a póstupowe aktualizacije
@@ -327,7 +326,7 @@ skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś
 off = Wušaltowany
 on = Zašaltowany
 add-avatar-title = Pśidajśo wašomu profiloju awatar
-add-avatar-clip = Pśidajśo wašomu profiloju awatarowy klip
+avatar-clip-title = Dajśo swójomu awataroju głos
 create-voice-wave = Głosowu žwału napóraś
 recording-voice-wave = Nagrawa se
 ready-to-upload = Nagraś
@@ -573,7 +572,6 @@ language-section-launched = Startowany
 language-section-launched-description = Za toś te aktiwizěrowane rěcy jo se websedło wuspěšnje <localizationGlossaryLink>lokalizěrowane</localizationGlossaryLink>, a ma dosć <sentenceCollectionGlossaryLink>zběranych sadow</sentenceCollectionGlossaryLink>. aby se pśichodne pśinoski za <speakLink>powědanje</speakLink> a <listenLink>słuchanje</listenLink> dowólili.
 languages-show-more = Wěcej pokazaś
 languages-show-less = Mjenjej pokazaś
-language-speakers = Powědarje
 language-meter-in-progress = Póstup
 language-total-progress = Dogromady
 language-search-input =
@@ -707,7 +705,6 @@ show-ranking = Mójp městno pokazaś
 ## Custom Goals
 
 get-started-goals = Prědne kšace z cilami
-toward-next-goal = K pśiducemu celoju
 create-custom-goal = Swójski cel napóraś
 both-speak-and-listen = Wobej
 both-speak-and-listen-long = Wobej (powědanje a słuchanje)
