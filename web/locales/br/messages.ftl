@@ -208,7 +208,6 @@ x-years-short =
        *[other] bloaz
     }
 help-make-dataset = Skoazellit ac'hanomp da sevel ur spletad roadennoù foran, digor hag a galite uhel
-profile-not-required = Kaout ur profil n'eo ket un dra ret evit kemer perzh met talvoudus eo memestra
 sign-up-account = Krouit ur gont
 email-subscription-title = marilhit evit keleier dre bostel
 email-subscription-title-new = Lakait hoc'h anv evit postel kelaouiñ Common Voice, palioù hag araokadennoù.
@@ -331,7 +330,7 @@ skip-submission-note = Evezhiadenn: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe
 off = Diweredekaet
 on = Gweredekaet
 add-avatar-title = Ouzhpennañ un avatar d'ho profil
-add-avatar-clip = Ouzhpennañ ur c'hlip avatar d'ho profil
+avatar-clip-title = Roit ur vouezh d'ho avatar
 create-voice-wave = Krouiñ ho kinnig
 recording-voice-wave = Oc'h enrollañ
 ready-to-upload = Pellgas
@@ -587,7 +586,6 @@ language-section-launched = Loc'het
 language-section-launched-description = Evit ar yezhoù lañset-mañ eo bet <localizationGlossaryLink>troet</localizationGlossaryLink> al lec'hienn ha dastumet et bet trawalc'h a <sentenceCollectionGlossaryLink>frazennoù</sentenceCollectionGlossaryLink> evit aotren kendaoladoù <speakLink>Komz</speakLink> ha <listenLink>Selaou</listenLink>.
 languages-show-more = Gouzout hiroc'h
 languages-show-less = Gwelet nebeutoc'h
-language-speakers = Komzerien
 language-meter-in-progress = War ober
 language-total-progress = Hollad
 language-search-input =
@@ -719,7 +717,6 @@ show-ranking = Diskouez ma renkadur
 ## Custom Goals
 
 get-started-goals = Kregiñ gant ar palioù
-toward-next-goal = Betek ar pal da zont
 create-custom-goal = Krouiñ ur pal personelaet
 both-speak-and-listen = An daou
 both-speak-and-listen-long = An daou (komz ha selaou)
