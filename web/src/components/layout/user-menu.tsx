@@ -9,8 +9,7 @@ import { LocaleLink, useLocale } from '../locale-helpers';
 import {
   CogIcon,
   DashboardIcon,
-  DownIcon,
-  LogoutIcon,
+  LogoutIcon, MenuIcon,
   UserIcon,
 } from '../ui/icons';
 import { Avatar, Hr } from '../ui/ui';
@@ -63,7 +62,8 @@ export default function UserMenu() {
           <span className="name" title={account.username}>
             {account.username}
           </span>
-          <DownIcon />
+
+          <MenuIcon className={showMenu ? 'active' : ''} />
         </button>
         <div className="menu-wrap">
           <div className="menu">
