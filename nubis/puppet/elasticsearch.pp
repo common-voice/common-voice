@@ -3,5 +3,5 @@ staging::file { 'aws-es-proxy':
   target => '/usr/local/bin/aws-es-proxy',
   owner  => 'root',
   group  => 'root',
-  mode   => 0755,
+  mode   => '0755',
 }
