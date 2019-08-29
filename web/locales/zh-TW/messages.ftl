@@ -198,7 +198,6 @@ x-years-short =
        *[other] { $count } 年
     }
 help-make-dataset = 幫助我們打造高品質、可公開使用的資料集
-profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
 sign-up-account = 註冊帳號
 email-subscription-title = 訂閱最新消息電子報
 email-subscription-title-new = 訂閱 Common Voice 電子報、目標提醒與進度更新
@@ -317,7 +316,7 @@ skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢�
 off = 關
 on = 開
 add-avatar-title = 在您的個人資料中加入大頭照
-add-avatar-clip = 為您的資料頁加入大頭照
+avatar-clip-title = 幫您的大頭照錄音
 create-voice-wave = 建立 Voicewave
 recording-voice-wave = 錄音中
 ready-to-upload = 上傳
@@ -580,7 +579,6 @@ language-section-launched = 已上線
 language-section-launched-description = 以下「已上線」的語言，代表網站已經成功<localizationGlossaryLink>在地化</localizationGlossaryLink>，且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>讓大家能用<speakLink>說話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
-language-speakers = 使用者數
 language-meter-in-progress = 進度
 language-total-progress = 總計
 language-search-input =
@@ -700,7 +698,6 @@ show-ranking = 顯示我的排名
 ## Custom Goals
 
 get-started-goals = 設定目標開始貢獻
-toward-next-goal = 距離下一個目標
 create-custom-goal = 自訂目標
 both-speak-and-listen = 兩者
 both-speak-and-listen-long = 兩者（說與聽）
