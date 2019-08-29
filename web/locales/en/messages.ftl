@@ -321,7 +321,6 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
-add-avatar-title = Add an avatar to your profile
 avatar-clip-title = Give your avatar a voice
 create-voice-wave = RECORD VOICEWAVE
 recording-voice-wave = Recording

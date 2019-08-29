@@ -452,10 +452,6 @@ class AvatarSetup extends React.Component<Props, State> {
         )}
         <div className="photo-avatar">
           <fieldset className="avatar-setup" disabled={this.state.isSaving}>
-            <Localized id="add-avatar-title">
-              <h2 />
-            </Localized>
-
             <div className="file-upload">
               <label
                 onDragOver={event => {
