@@ -205,7 +205,6 @@ x-years-short =
        *[other] { $count } lět
     }
 help-make-dataset = Pomhajće nam, zjawnje přistupnu wotewrjenu datowu sadźbu wysokeje kwality wutworić
-profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 sign-up-account = Konto załožić
 email-subscription-title = Registrujće so za e-mejlowe aktualizacije
 email-subscription-title-new = Registrujće so za powěsćowe listy Common Voice, cilowe dopomnjeća a postupowe aktualizacije
@@ -327,7 +326,7 @@ skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wub
 off = Wupinjeny
 on = Zapinjeny
 add-avatar-title = Přidajće wašemu profilej awatar
-add-avatar-clip = Přidajće wašemu profilej awatarowy klip
+avatar-clip-title = Dajće swojemu awatarej hłós
 create-voice-wave = Hłosowu žołmu wutworić
 recording-voice-wave = Natoča so
 ready-to-upload = Nahrać
@@ -573,7 +572,6 @@ language-section-launched = Startowany
 language-section-launched-description = Za tute aktiwizowane rěče je so websydło wuspěšnje <localizationGlossaryLink>lokalizowane</localizationGlossaryLink>, a ma dosć <sentenceCollectionGlossaryLink>zběranych sadow</sentenceCollectionGlossaryLink>. zo bychu so přichodne přinoški za <speakLink>rěčenje</speakLink> a <listenLink>słuchanje</listenLink> dowolili.
 languages-show-more = Wjace pokazać
 languages-show-less = Mjenje pokazać
-language-speakers = Rěčnicy
 language-meter-in-progress = Postup
 language-total-progress = Dohromady
 language-search-input =
@@ -707,7 +705,6 @@ show-ranking = Moje městno pokazać
 ## Custom Goals
 
 get-started-goals = Započńće z cilemi
-toward-next-goal = K přichodnemu cilej
 create-custom-goal = Swójski cil wutworić
 both-speak-and-listen = Wobě
 both-speak-and-listen-long = Wobě (rěčenje a słuchanje)
