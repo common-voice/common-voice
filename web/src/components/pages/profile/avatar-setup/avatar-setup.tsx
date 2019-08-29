@@ -322,7 +322,7 @@ class AvatarSetup extends React.Component<Props, State> {
       <div className="full-avatar-setup">
         {!isProduction() && (
           <div className="clip">
-            <Localized id="add-avatar-clip">
+            <Localized id="avatar-clip-title">
               <h2 className="clip-title" />
             </Localized>
             {/* Below fix div is for middle content of avatar setup like wave image, lottie animation */}

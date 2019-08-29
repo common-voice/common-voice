@@ -172,7 +172,8 @@
     }
 
     .fix {
-        height: 180px;
+        padding-top: 40px;
+        height: 220px;
         max-width: 520px;
     }
     .start-in {
