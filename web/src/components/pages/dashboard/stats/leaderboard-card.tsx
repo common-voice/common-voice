@@ -204,8 +204,8 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position + 1}
           </div>
 
-          {!isProduction() &&
-            (row.avatarClipUrl === null ? (
+          {!isProduction() ? (
+            row.avatarClipUrl === null ? (
               <div className="avatar-container">
                 <Avatar url={row.avatar_url} />
               </div>
@@ -220,7 +220,12 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
                   <Avatar url={row.avatar_url} />
                 </div>
               </button>
-            ))}
+            )
+          ) : (
+            <div className="avatar-container">
+              <Avatar url={row.avatar_url} />
+            </div>
+          )}
 
           <div className="username" title={row.username}>
             {row.username || '???'}
