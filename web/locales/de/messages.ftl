@@ -199,7 +199,6 @@ x-years-short =
        *[other] { $count } Jahre
     }
 help-make-dataset = Helfen Sie uns, einen qualitativ hochwertigen, öffentlich zugänglichen Datensatz zu erstellen
-profile-not-required = Ein Profil ist für die Mitarbeit nicht notwendig, aber hilfreich
 sign-up-account = Ein Konto erstellen
 email-subscription-title = Abonnieren Sie Neuigkeiten per E-Mail
 email-subscription-title-new = Abonnieren Sie Common-Voice-Newsletter, Zielerinnerungen und Fortschrittsmeldungen
@@ -319,7 +318,7 @@ skip-submission-note = Hinweis: Sie müssen sich weiterhin zwischen »Sprechen«
 off = Aus
 on = An
 add-avatar-title = Fügen Sie Ihrem Profil ein Bild hinzu
-add-avatar-clip = Fügen Sie Ihrem Profil eine Avatar-Aufzeichnung hinzu
+avatar-clip-title = Geben Sie Ihrem Avatar eine Stimme
 create-voice-wave = Voicewave erstellen
 recording-voice-wave = Aufzeichnung läuft…
 ready-to-upload = Hochladen
@@ -584,7 +583,6 @@ language-section-launched = Aufnahmephase
 language-section-launched-description = Für diese aktiven Sprachen wurde die Website erfolgreich <localizationGlossaryLink>lokalisiert</localizationGlossaryLink>, und es wurden ausreichend <satzCollectionGlossaryLink>Sätze gesammelt</satzCollectionGlossaryLink>, damit weiterhin Beiträge <speakLink>gesprochen</speakLink> und <listenLink>angehört</listenLink> werden können.
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
-language-speakers = Sprecher
 language-meter-in-progress = Fortschritt
 language-total-progress = Gesamt
 language-search-input =
@@ -707,7 +705,6 @@ show-ranking = Meine Bewertung ansehen
 ## Custom Goals
 
 get-started-goals = Erste Schritte mit Zielen
-toward-next-goal = Zum nächsten Ziel
 create-custom-goal = Ein benutzerdefiniertes Ziel erstellen
 both-speak-and-listen = Beides
 both-speak-and-listen-long = Beide (Sprechen und Hören)
