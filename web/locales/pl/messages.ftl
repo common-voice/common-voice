@@ -202,7 +202,6 @@ x-years-short =
        *[other] { $count } lat
     }
 help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
-profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
 sign-up-account = Zarejestruj konto
 email-subscription-title = subskrybuj aktualizacje przez e-mail
 email-subscription-title-new = Subskrybuj biuletyny Common Voice, przypomnienia o celach i aktualizacje postępu
@@ -323,7 +322,7 @@ skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a
 off = Wyłączone
 on = Włączone
 add-avatar-title = Dodaj awatar do profilu
-add-avatar-clip = Dodaj awatar w formie nagrania do profilu
+avatar-clip-title = Dodaj głos do swojego awatara
 create-voice-wave = Utwórz nagranie powitalne
 recording-voice-wave = Nagrywanie
 ready-to-upload = Wyślij
@@ -587,7 +586,6 @@ language-section-launched = Działające
 language-section-launched-description = Dla tych języków strona została pomyślnie <localizationGlossaryLink>przetłumaczona</localizationGlossaryLink> i jest dość <sentenceCollectionGlossaryLink>zebranych zdań</sentenceCollectionGlossaryLink>, aby umożliwić <speakLink>nagrywanie</speakLink> i <listenLink>odsłuchiwanie</listenLink>.
 languages-show-more = Więcej
 languages-show-less = Mniej
-language-speakers = Osoby mówiące
 language-meter-in-progress = Postęp
 language-total-progress = Razem
 language-search-input =
@@ -713,7 +711,6 @@ show-ranking = Wyświetlaj moją rangę
 ## Custom Goals
 
 get-started-goals = Cele: pierwsze kroki
-toward-next-goal = Do następnego celu
 create-custom-goal = Utwórz własny cel
 both-speak-and-listen = Oba
 both-speak-and-listen-long = Oba (nagrywanie i odsłuchiwanie)
