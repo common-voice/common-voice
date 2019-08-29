@@ -199,7 +199,6 @@ x-years-short =
        *[other] Kum { $count }
     }
 help-make-dataset = Mipi nih hman awktlak pumhmi data ser kan bawm
-profile-not-required = Aw tunnak dingah profile ngeih cu a herh lo nain na ngei ahcun a kan bawmh deuh lai
 sign-up-account = Account sernak
 email-subscription-title = Thawngpang thanhnak dingah cun account ser
 email-subscription-title-new = Common Voice thawngpang, tinhmi theihternak le tuah ciami theihternak dingah na min pe ve.
@@ -318,7 +317,7 @@ skip-submission-note = Theihternak: Na aw pekchanhnak thlen na duh ahcun Chim si
 off = Phih
 on = Nunh
 add-avatar-title = Na hmanthlak chia
-add-avatar-clip = Na profile ah na hmanthlak cawlmi tar
+avatar-clip-title = Na hmanthlak bia chimter
 create-voice-wave = Aw a cawlcang ning ser
 recording-voice-wave = Tun lio
 ready-to-upload = Khumh
@@ -560,7 +559,6 @@ language-section-launched = Thlah cangmi
 language-section-launched-description = Hi thlah cangmi holhphun hna caah cun an website cu tling tein <localizationGlossaryLink> holh lehpiak </localizationGlossaryLink>, tling tein <sentenceCollectionGlossaryLink> biatlang khumh cia </sentenceCollectionGlossaryLink> le <speakLink>Holh</speakLink> le<listenLink> Ngai</listenLink> khawhnak zong tuah dih an si cang.
 languages-show-more = Tam deuh zoh
 languages-show-less = Tawm deuh zoh
-language-speakers = Biachimtu
 language-meter-in-progress = ṭhanchonak
 language-total-progress = Dihlak
 language-search-input =
@@ -686,7 +684,6 @@ show-ranking = Ka dirhmun ka hmuhsak
 ## Custom Goals
 
 get-started-goals = Tinhmi in hram domh
-toward-next-goal = Hmailei tinhmi
 create-custom-goal = Tinhmi kawltung ser
 both-speak-and-listen = An pahnih in
 both-speak-and-listen-long = Pahnih in  (Chim le Ngai)
