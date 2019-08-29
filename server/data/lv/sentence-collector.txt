@@ -357,11 +357,13 @@ Bļāviens, viņus reāli varēja piečakarēt.
 Būs jāsāk apņemties divreiz dienā.
 Būs nepieciešamas piecpadsmit minūtes, lai sagatavotu mašīnu, ser.
 Būs neveikli.
+Būs vieglāk beigt karu.
 Būsim godīgi. šodien tu biji varonis.
 Būsim visi labākie draugi.
 Būtu jāapmainās ar polisēm.
 Būtu pie kā pieturēties.
 Būtībā viss ir pa pirmo.
+Būvnieki apsteidz Salu tilta atjaunošanas darbu grafiku.
 Būšu astoņos.
 Centies rīt izturēties atbildīgāk.
 Centīšos turēties tālāk no tā visa.
@@ -369,6 +371,7 @@ Cepti zvirbuļi paši mutē neskrien.
 Cepums viņam.
 Cerams, mēs paliksim draugi.
 Ceri, ka netiksi sodīts par nolaupīšanu?
+Ceriņu pāris paziņo par gaidāmo ģimenes pieaugumu.
 Ceru, ka jūsu tēvs saprot, ka apskatīju istabu tikai, lai pārbaudītu, vai viss kārtībā.
 Ceru, ka tev taisnība.
 Ceru, ka tu man uzticies.
@@ -554,6 +557,7 @@ Dzīve ir lieliska!
 Dzīve ir paradīze bagātiem, bet elle nabagiem.
 Dzīvo godīgs – būsi laimīgs
 Dzīvo no rokas mutē.
+Dzīvo viņpus ielai.
 Dzīvo, cepuri kuldams.
 Dzīvoklis mani neinteresē.
 Dāmas un kungi, esam jau gaidījuši labu laiku.
@@ -569,6 +573,7 @@ Dēls, es par savējiem rūpējos.
 Dīvaini. Man ir tikai pelēkie.
 Dūjas simbolizē draudzību un mīlestību.
 Dūju pārī ir divas. Pats paturi vienu, otru iedod kādam īpašam cilvēkam.
+Džastīne ir runātāja.
 Džonam ir laika mašīna?
 Džons mani atsūtīja, lai glābtu tevi.
 Džons nemanipulēja ar mani, lai es tevī iemīlētos.
@@ -1050,6 +1055,7 @@ Es viņai jau pateicu.
 Es viņam atbildēšu.
 Es viņam mācu iejusties sabiedrībā.
 Es viņam neuzticos.
+Es viņam pateikšu. Vēl ne, labi?
 Es viņam rādīšu!
 Es viņam tūlīt piezvanīšu.
 Es viņu aizvedīšu un uzmanīšu.
@@ -1267,6 +1273,7 @@ Iedomājieties foliju mikroviļņu krāsnī, tikai vairākus miljardus reizes ka
 Iedzersiet?
 Iedzersim pa mēriņam.
 Iedzert aukstu alu būtu labi.
+Iedzīvotāji bieži ir neapmierināti ar satiksmes organizāciju gājējiem.
 Ieklausies sajūtās, un atradīsi viņu.
 Ieklausies sajūtās.
 Ieklausies savās sajūtās.
@@ -1421,6 +1428,7 @@ Ja nu tā vienmēr notiks, ja būsim kopā?
 Ja nu vienīgi negribi doties viņiem līdzi?
 Ja nu viņš būtu iznācis un redzējis, ka tu rakājies pa viņa portfeli?
 Ja padomā, nav godīgi, ka viņš tevi tā samulsināja.
+Ja piestāji vaktēt pēdas, ielaidīsi man lodi pakaļā.
 Ja pirms divdesmit gadiem tu teiktu, ka bērni staigās ar zaļiem matiem, es neticētu.
 Ja reiz iedod viņai darbu, viņa nemetīs mieru.
 Ja reiz tā, tad pavadiet kopā laiku.
@@ -3445,6 +3453,7 @@ Nu ja!
 Nu ja, kam mums vairs pases?
 Nu ja. Saprotams.
 Nu jā, hormoni niķojās.
+Nu kautkā tā. Tas viss, kas man sakāms.
 Nu ko lai dara?
 Nu ko, dāmas.
 Nu ko, pa labam nebūs.
@@ -3602,6 +3611,7 @@ Pabāz pirkstiņu man zem birkas.
 Pacel augšā.
 Pacel galvu.
 Paceliet rokas augšā!
+Pacentīšos neiznīcināt visus droīdus, kamēr tu ieradīsies.
 Pacietība atvieglo katru nastu.
 Pacietība ved pie mērķa.
 Pacietīgam pieder pasaule.
@@ -3623,6 +3633,7 @@ Pagaidi. Man ir arī šis.
 Pagaidi. Nemet!
 Pagaidi. Tev vajadzēs šo.
 Pagājušogad vēlme piepildījās. Varbūt tā notiks atkal.
+Pagājušonedēļ Kalifornijā apcietināts kāds pāris.
 Pagājušonedēļ viņš mūs visus aizveda uz hokeja spēli. Tas bija lieliski.
 Pagājušoreiz pat paldies nepateica.
 Pagātnē, ko man nevajadzētu atcerēties.
@@ -3676,6 +3687,7 @@ Pamatīgi dabūja no jums trūkties.
 Pameklēsim kaut ko lidotspējīgu.
 Pamet visu, kamēr vēl var.
 Pametis mašīnu.
+Panāc komandkuģi! Atbrīvo kancleru!
 Panāksim vienošanos.
 Papriekšu tavu, pēc tam katrs savu.
 Paps tev kādreiz stāstīja, kādēļ tēvocis Maks saņēma savu apbalvojumu?
@@ -4674,6 +4686,7 @@ Tik ļoti grūti tikt uz priekšu.
 Tikai Maskavā pat bomžiem ir pase ar Šengenas vīzu.
 Tikai Maskavā var piedzimt, laimīgi nodzīvot un ar cieņu nomirt sastrēgumā.
 Tikai baltas.
+Tikai magnētiskais kvantu lauks ir gatavs.
 Tikai mieru!
 Tikai neapmaldieties.
 Tikai nedomā lēkt.
@@ -4875,6 +4888,7 @@ Tu mums visiem melo.
 Tu mums ļoti palīdzētu.
 Tu mēģināsi.
 Tu ne par ko nebēdājies.
+Tu nebiji uz ziņojumu par aplenkumiem.
 Tu nebūtu piedzimis bez mums.
 Tu nedabūsi manu lācīti!
 Tu neesi bijusi viena, kopš vien šeit strādā.
@@ -6034,6 +6048,7 @@ Vēlies, lai palieku līdz dienas beigām?
 Vēlos iegādāties zābakus.
 Vēlos viesnīcas istabu ar lielu gultu un televizoru.
 Vēlu tev laimi. Tu esi to pelnījusi.
+Vēlvienreiz lūdzu piedošanu.
 Vēlāk tev piezvanīšu.
 Vēlējos, lai mana dzīve atgriežas.
 Vērsi tur pie ragiem, vīru – pie vārda.
