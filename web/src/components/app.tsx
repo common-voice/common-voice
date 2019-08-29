@@ -49,9 +49,6 @@ const ListenPage = React.lazy(() =>
   import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
-import { CloseIcon } from './ui/icons';
-
-const SURVEY_KEY = 'showSurvey2';
 
 interface PropsFromState {
   api: API;
@@ -80,7 +77,6 @@ interface LocalizedPagesState {
   hasScrolled: boolean;
   bundleGenerator: any;
   uploadPercentage?: number;
-  showSurvey: boolean;
 }
 
 let LocalizedPage: any = class extends React.Component<
@@ -92,7 +88,6 @@ let LocalizedPage: any = class extends React.Component<
     hasScrolled: false,
     bundleGenerator: null,
     uploadPercentage: null,
-    showSurvey: JSON.parse(localStorage.getItem(SURVEY_KEY)) !== false,
   };
 
   isUploading = false;
@@ -212,20 +207,9 @@ let LocalizedPage: any = class extends React.Component<
     }
   };
 
-  hideSurvey = (options?: { immediately: boolean }) => {
-    const { immediately } = { immediately: true, ...options };
-    if (immediately) this.setState({ showSurvey: false });
-    localStorage.setItem(SURVEY_KEY, JSON.stringify(false));
-  };
-
   render() {
     const { locale, notifications, toLocaleRoute } = this.props;
-    const {
-      bundleGenerator,
-      hasScrolled,
-      uploadPercentage,
-      showSurvey,
-    } = this.state;
+    const { bundleGenerator, uploadPercentage } = this.state;
 
     if (!bundleGenerator) return null;
 
@@ -289,27 +273,6 @@ let LocalizedPage: any = class extends React.Component<
               ))}
               <Layout />
             </Switch>
-
-            {!isProduction() && locale == 'en' && showSurvey && hasScrolled && (
-              <div className="survey">
-                <button onClick={() => this.hideSurvey()}>
-                  <CloseIcon black />
-                </button>
-                <h1>Penny for your thoughts?</h1>
-                <p>
-                  We would like to know how you plan on using the Common Voice
-                  dataset and if you have any ideas for improvement. Can you
-                  spare a few minutes to take a survey about the dataset?
-                </p>
-                <a
-                  href="https://www.surveygizmo.com/s3/4446677/3a21d4a69b6b"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => this.hideSurvey({ immediately: false })}>
-                  Go to survey
-                </a>
-              </div>
-            )}
           </div>
         </LocalizationProvider>
       </div>
