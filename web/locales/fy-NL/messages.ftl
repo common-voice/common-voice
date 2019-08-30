@@ -209,7 +209,6 @@ x-years-short =
        *[other] { $count } jr
     }
 help-make-dataset = Help ús in iepenbier tagonklike gegevensset fan hege kwaliteit te bouwen
-profile-not-required = In profyl is net nedich om by te dragen, hoewol it wol nuttich is
 sign-up-account = In account oanmeitsje
 email-subscription-title = skriuw jo yn foar e-mailfernijingen
 email-subscription-title-new = Registrearje foar nijsbrieven fan Common Voice, omtinken oan jo doelstellingen en updates oer jo foartgong.
@@ -329,7 +328,7 @@ skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Lú
 off = Ut
 on = Oan
 add-avatar-title = In avatar oan jo profyl tafoegje
-add-avatar-clip = Foegje in avatarfragmint ta oan jo profyl
+avatar-clip-title = Jou jo avatar in stim
 create-voice-wave = Voicewave meitsje
 recording-voice-wave = Opname rint
 ready-to-upload = Oplade
@@ -594,7 +593,6 @@ language-section-launched = Lansearre
 language-section-launched-description = Foar dizze beskikbere talen is de website mei sukses <localizationGlossaryLink>oerset</localizationGlossaryLink>, en binne der genôch <sentenceCollectionGlossaryLink>sinnen sammele</sentenceCollectionGlossaryLink> foar trochgeande bydragen oan it <speakLink>sprekken</speakLink> en <listenLink>lústerjen</listenLink>.
 languages-show-more = Mear besjen
 languages-show-less = Minder besjen
-language-speakers = Sprekkers
 language-meter-in-progress = Yn útfiering
 language-total-progress = Totaal
 language-search-input =
@@ -717,7 +715,6 @@ show-ranking = Myn ranglist toane
 ## Custom Goals
 
 get-started-goals = Begjinne mei doelstellingen
-toward-next-goal = Nei it folgjende doel
 create-custom-goal = In oanpaste doelstelling meitsje
 both-speak-and-listen = Beide
 both-speak-and-listen-long = Beide (sprekke en lústerje)
