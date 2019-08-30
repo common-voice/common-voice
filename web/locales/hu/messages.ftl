@@ -205,7 +205,6 @@ x-years-short =
        *[other] { $count } év
     }
 help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
-profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
 sign-up-account = Regisztráljon egy fiókot
 email-subscription-title = iratkozzon fel a hírlevélre
 email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a cél emlékeztetőkre és az előhaladásról szóló hírekre
@@ -325,7 +324,7 @@ skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszélj
 off = Ki
 on = Be
 add-avatar-title = Avatár hozzáadása a profiljához
-add-avatar-clip = Egy avatár klip hozzáadása a profiljához
+avatar-clip-title = Adjon hangot az avatárjának
 create-voice-wave = Hanghullám létrehozása
 recording-voice-wave = Felvétel
 ready-to-upload = Feltöltés
@@ -587,7 +586,6 @@ language-section-launched = Elindítva
 language-section-launched-description = Az elindított nyelvek esetén a webhely már sikeresen <localizationGlossaryLink>lokalizálva lett</localizationGlossaryLink>, és elég <sentenceCollectionGlossaryLink>összegyűjtött mondat</sentenceCollectionGlossaryLink> van, hogy lehetővé tegye a <speakLink>Beszéd</speakLink> és <listenLink>Hallgatás</listenLink> közreműködéseket.
 languages-show-more = Több
 languages-show-less = Kevesebb
-language-speakers = Beszélők
 language-meter-in-progress = Előrehaladás
 language-total-progress = Összesen
 language-search-input =
@@ -710,7 +708,6 @@ show-ranking = Saját rangsor megjelenítése
 ## Custom Goals
 
 get-started-goals = Kezdje el a célok használatát
-toward-next-goal = A következő cél felé
 create-custom-goal = Egyéni cél létrehozása
 both-speak-and-listen = Mindkettő
 both-speak-and-listen-long = Mindkettő (Beszéd és figyelés)
