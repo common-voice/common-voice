@@ -172,7 +172,8 @@
     }
 
     .fix {
-        height: 180px;
+        padding-top: 40px;
+        height: 240px;
         max-width: 520px;
     }
     .start-in {
@@ -255,7 +256,6 @@
         & .connect {
             border-radius: 4px;
             margin-bottom: 30px;
-            width: 100%;
 
             @media (--lg-up) {
                 width: 70%;
@@ -266,6 +266,8 @@
             position: relative;
             border: 3px dotted var(--light-grey);
             box-sizing: border-box;
+            width: 260px;
+            height: 130px;
 
             & .title {
                 position: absolute;
@@ -311,6 +313,7 @@
             font-family: var(--base-font-family);
             font-size: var(--font-size);
             font-weight: 600;
+            width: 260px;
 
             & .link path {
                 fill: var(--blue);

@@ -322,7 +322,7 @@ class AvatarSetup extends React.Component<Props, State> {
       <div className="full-avatar-setup">
         {!isProduction() && (
           <div className="clip">
-            <Localized id="add-avatar-clip">
+            <Localized id="avatar-clip-title">
               <h2 className="clip-title" />
             </Localized>
             {/* Below fix div is for middle content of avatar setup like wave image, lottie animation */}
@@ -387,7 +387,7 @@ class AvatarSetup extends React.Component<Props, State> {
                   className="primary "
                   onClick={this.counter}>
                   <MicIcon />
-                  <Localized id="create-voice-wave">
+                  <Localized id="record-voice-wave">
                     <span />
                   </Localized>
                 </Button>
@@ -444,7 +444,7 @@ class AvatarSetup extends React.Component<Props, State> {
                 </Localized>
               </>
             ) : (
-              <Localized id="about-avatar-clip">
+              <Localized id="about-avatar-clip-recording">
                 <p className="create-a-custom-voice voice-paragraph-2" />
               </Localized>
             )}
@@ -452,10 +452,6 @@ class AvatarSetup extends React.Component<Props, State> {
         )}
         <div className="photo-avatar">
           <fieldset className="avatar-setup" disabled={this.state.isSaving}>
-            <Localized id="add-avatar-title">
-              <h2 />
-            </Localized>
-
             <div className="file-upload">
               <label
                 onDragOver={event => {
