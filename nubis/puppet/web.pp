@@ -81,7 +81,7 @@ apache::vhost { $project_name:
     ProxyPass /font !
     ProxyPass /locales !
 
-    <Location /_plugin/kibana>
+    <Location /visualize>
         ProxyPass http://localhost:9200 disablereuse=on ttl=60
         ProxyPassReverse http://localhost:9200
     </Location>
