@@ -201,7 +201,6 @@ x-years-short =
        *[other] { $count } წელი
     }
 help-make-dataset = დაგვეხმარეთ მაღალი ხარისხის, საჯაროდ ხელმისაწვდომი კრებულის შექმნაში
-profile-not-required = პროფილის ქონა არაა სავალდებულო, თუმცა შემოტანილ წვლილს მეტად სარგებლიანს გახდის
 sign-up-account = ანგარიშის შექმნა
 email-subscription-title = გამოიწერეთ ელფოსტაზე სიახლეები
 email-subscription-title-new = გამოიწერეთ Common Voice-ის ახალი ამბები, მიზნის შეხსენებები და მიმდინარე წინსვლის შესახებ ცნობები
@@ -321,7 +320,7 @@ skip-submission-note = შენიშვნა: თქვენ მაინც
 off = გამორთ.
 on = ჩართ.
 add-avatar-title = პროფილზე გამოსახულების დამატება
-add-avatar-clip = დაამატე შენი პროფილის სურათი
+avatar-clip-title = გაახმოვანეთ თქვენი გამოსახულება
 create-voice-wave = შექმენით Voicewave
 recording-voice-wave = იწერება
 ready-to-upload = ატვირთვა
@@ -577,7 +576,6 @@ language-section-launched = გაშვებულია
 language-section-launched-description = მოცემულ ენებზე ვებსაიტი სრულადაა <localizationGlossaryLink>თარგმნილი</localizationGlossaryLink> და <sentenceCollectionGlossaryLink>წინადადებებიც საკმარისადაა </sentenceCollectionGlossaryLink>შეგროვებული ხმის <speakLink>ჩაწერისა</speakLink> და ჩანაწერების <listenLink>მოსმენისთვის</listenLink>.
 languages-show-more = ვრცლად
 languages-show-less = შემოკლებულად
-language-speakers = მოსაუბრე
 language-meter-in-progress = მიმდინარეობა
 language-total-progress = სულ
 language-search-input =
@@ -700,7 +698,6 @@ show-ranking = ჩემი ადგილის ნახვა
 ## Custom Goals
 
 get-started-goals = მიზნის შექმნა
-toward-next-goal = პირდაპირ შემდეგ მიზნამდე
 create-custom-goal = საკუთარი მიზნის შექმნა
 both-speak-and-listen = ორივე
 both-speak-and-listen-long = ორივე (წარმოთქმა და მოსმენა)
