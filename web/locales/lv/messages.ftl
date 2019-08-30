@@ -204,7 +204,6 @@ x-years-short =
        *[other] { $count }g
     }
 help-make-dataset = Palīdziet mums izveidot augstas kvalitātes publiski atvērtu datu kopu
-profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 sign-up-account = Reģistrē savu kontu
 email-subscription-title = Piesakieties jaunumiem epastā
 email-subscription-title-new = Reģistrējieties Common Voice ziņām, atgādinājumiem par mērķiem un progresa atjauninājumiem
@@ -325,7 +324,7 @@ skip-submission-note = Piezīme: mainot ieguldījuma veidu, jums būs jāizvēla
 off = Izslēgts
 on = Ieslēgts
 add-avatar-title = Pievieno savam profilam avatāru
-add-avatar-clip = Pievienojiet savam profilam titulklipu
+avatar-clip-title = Piešķiriet savam avataram balsi
 create-voice-wave = Izveidojiet balss vilni
 recording-voice-wave = ierakstīšana
 ready-to-upload = Augšupielādēt
@@ -590,7 +589,6 @@ language-section-launched = Uzsākts
 language-section-launched-description = Šīm palaistām valodām vietne ir veiksmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
 languages-show-more = Rādīt vairāk
 languages-show-less = Rādīt mazāk
-language-speakers = Runātāji
 language-meter-in-progress = Progress
 language-total-progress = Kopā
 language-search-input =
@@ -721,7 +719,6 @@ show-ranking = Rādīt manu rangu
 ## Custom Goals
 
 get-started-goals = Sāciet ar mērķiem
-toward-next-goal = Ceļā uz nākamo mērķi
 create-custom-goal = Izveidojiet pielāgotu mērķi
 both-speak-and-listen = Abi
 both-speak-and-listen-long = Abi (runāšanas un klausīšanās)
@@ -737,6 +734,7 @@ finish-editing = Vai vispirms pabeigt rediģēšanu?
 lose-changes-warning = Ja aiziesiet tagad, jūs zaudēsit izmaiņas
 build-custom-goal = Izveidojiet pielāgotu mērķi
 help-reach-hours = Palīdziet sasniegt { NUMBER($hours) } stundas { $language } ar personīgu mērķi
+help-reach-hours-general = Palīdziet sasniegt { NUMBER($hours) } stundas { $language } ar personīgu mērķi
 set-a-goal = Izvirziet mērķi
 cant-decide = Nevar izlemt?
 activity-needed-calculation =
@@ -746,6 +744,9 @@ how-many-per-day = Lieliski! Cik klipu dienā?
 how-many-a-week = Lieliski! Cik klipu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?
 receiving-emails-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
+not-receiving-emails-info =
+    Pašlaik jums ir iestatīts <bold> NESAŅEMT </bold> e-pastus, piemēram, atgādinājumus par mērķiem, mans
+    progresa atjauninājumi un biļeteni par kopīgo balsi
 n-clips = { NUMBER($count) } klipi
 help-share-goal = Palīdziet mums atrast vairāk balsu, dalieties ar savu mērķi
 confirm-goal = Apstipriniet mērķi
