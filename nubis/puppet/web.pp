@@ -81,10 +81,8 @@ apache::vhost { $project_name:
     ProxyPass /font !
     ProxyPass /locales !
 
-    <Location /visualize>
-        ProxyPass http://localhost:9200 disablereuse=on ttl=60
-        ProxyPassReverse http://localhost:9200
-    </Location>
+    ProxyPass /visualize http://localhost:9200 disablereuse=on ttl=60
+    ProxyPassReverse /visualize http://localhost:9200
 
     ProxyPass / http://localhost:9000/ retry=0
     ProxyPassReverse / http://localhost:9000/
