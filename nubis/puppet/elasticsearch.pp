@@ -5,3 +5,10 @@ staging::file { 'aws-es-proxy':
   group  => 'root',
   mode   => '0755',
 }
+
+systemd::unit_file { 'aws-es-proxy.service':
+  source => 'puppet:///nubis/files/aws-es-proxy.systemd',
+}
+->service { 'aws-es-proxy':
+  enable => true,
+}

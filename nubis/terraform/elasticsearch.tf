@@ -31,7 +31,6 @@ data "aws_iam_policy_document" "es" {
 
       identifiers = [
         "arn:aws:iam::${module.info.account_id}:role/${module.worker.role}",
-        "arn:aws:iam::${module.info.account_id}:role/${module.visualiser.role}",
       ]
     }
   }
