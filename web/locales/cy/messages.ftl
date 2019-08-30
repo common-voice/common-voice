@@ -213,7 +213,6 @@ x-years-short =
        *[other] b
     }
 help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel sy'n agored i'r cyhoedd
-profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 sign-up-account = Cofrestru am gyfrif
 email-subscription-title = cofrestrwch am ddiweddariadau e-bost
 email-subscription-title-new = Cofrestrwch er mwyn derbyn cylchlythyron, hysbysiadau targedau a diweddariadau cynnydd Common Voice.
@@ -337,7 +336,7 @@ skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrand
 off = Diffodd
 on = Ymlaen
 add-avatar-title = Ychwanegu afatar i'ch proffil
-add-avatar-clip = Ychwanegwch glip afatar i'ch proffil
+avatar-clip-title = Rhowch lais i'ch afatar
 create-voice-wave = Crëwch Gyfarchiad Llais
 recording-voice-wave = Recordio
 ready-to-upload = Llwytho i Fyny
@@ -601,7 +600,6 @@ language-section-launched = Ar Gael
 language-section-launched-description = Ar gyfer yr ieithoedd sydd wedi'u lansio, mae'r wefan wedi'i <localizationGlossaryLink> leoleiddio'n </localizationGlossaryLink>llwyddiannus, ac mae ganddo ddigon o <sentenceCollectionGlossaryLink>frawddegau wedi'u casglu</sentenceCollectionGlossaryLink> i ganiatáu cyfraniadau <speakLink>Siarad</speakLink> a <listenLink>Gwrando</ listenLink>.
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
-language-speakers = Siaradwyr
 language-meter-in-progress = Cynnydd
 language-total-progress = Cyfanswm
 language-search-input =
@@ -736,7 +734,6 @@ show-ranking = Dangoswch fy safle
 ## Custom Goals
 
 get-started-goals = Cychwyn gyda thargedau
-toward-next-goal = Ymlaen i'r targed nesaf
 create-custom-goal = Creu Targed Cyfaddas
 both-speak-and-listen = Y Ddau
 both-speak-and-listen-long = Y Ddau (Siarad a Gwrando)
