@@ -388,6 +388,7 @@ faq-search-for-answers =
 
 about-title = Нигә Common Voice?
 how-does-it-work-title = Ул ничек эшли?
+how-does-it-work-text = Без ачык аудиоязма тупланмасын төзибез. Тавышыгызны иганә итегез, башка кешеләр яздырган аудиоязмаларның төгәллеген тикшерегз, бу мәгълүмат тупланмасын һәркем өчен дә яхшыртыгыз.
 about-speak = Сөйләү
 about-speak-text = Катнашучылар, иганә ителгән җөмләләрне укып, аудиоязмалар булдыралар.
 about-listen-queue = Тыңлау чираты
@@ -685,6 +686,7 @@ want-to-continue = Дәвам итәсегез киләме?
 finish-editing = Башта мөхәррирләүне тәмамларгамы?
 lose-changes-warning = Хәзер бу биттән китү үзгәртүләрегезнең югалуына китерәчәк.
 build-custom-goal = Шәхси бер максат булдыру
+help-reach-hours = Шәхси максат куеп, { $language } { NUMBER($hours) } сәгать аудиоязма җыярга ярдәм итегез
 help-reach-hours-general = Үзегезгә бер шәхси максат куеп, Common Voice'ка татар телендә { NUMBER($hours) } сәгать аудио җыярга ярдәм итегез
 set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
