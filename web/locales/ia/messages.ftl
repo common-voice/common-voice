@@ -199,7 +199,6 @@ x-years-short =
        *[other] annos
     }
 help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate, publicamente aperte
-profile-not-required = Haber un profilo non es obligatori pro collaborar ben que illo sia utile
 sign-up-account = Registra te pro aperir tu conto
 email-subscription-title = accede pro actualisationes email
 email-subscription-title-new = Inscribe te al bulletines de novas, al mementos de objectivos e al actualisationes de progressos de Common Voice
@@ -319,7 +318,7 @@ skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pr
 off = Inactive
 on = Activar
 add-avatar-title = Adde un avatar a tu profilo
-add-avatar-clip = Adde un clip avatar a tu profilo
+avatar-clip-title = Da anque un voce a tu avatar
 create-voice-wave = Crea un unda sonor
 recording-voice-wave = Registration
 ready-to-upload = Cargar
@@ -572,7 +571,6 @@ language-section-launched = Lanceate
 language-section-launched-description = Le sito web ha essite <localizationGlossaryLink>localisate</localizationGlossaryLink> con successo pro iste linguas lanceate, e il ha satis <sentenceCollectionGlossaryLink>phrases colligite</sentenceCollectionGlossaryLink> pro consentir de contribuer con continuitate tamben per <speakLink>Parlar</speakLink> que per <listenLink>Ascoltar</listenLink>.
 languages-show-more = Vider plus
 languages-show-less = Vider minus
-language-speakers = Locutores
 language-meter-in-progress = Progresso
 language-total-progress = Total
 language-search-input =
@@ -699,7 +697,6 @@ show-ranking = Monstrar mi classification
 ## Custom Goals
 
 get-started-goals = Comencia a usar le objectivos
-toward-next-goal = Verso le proxime objectivo
 create-custom-goal = Crear un Objectivo personal
 both-speak-and-listen = Ambe
 both-speak-and-listen-long = Ambe (Parlar e Ascoltar)
