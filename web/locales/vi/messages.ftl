@@ -196,7 +196,6 @@ x-years-short =
        *[other] { $count }năm
     }
 help-make-dataset = Hãy giúp chúng tôi xây dựng một bộ dữ liệu công khai, chất lượng cao
-profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
 sign-up-account = Đăng kí một tài khoản
 email-subscription-title = đăng ký nhận email cập nhật
 email-subscription-title-new = Đăng ký nhận bản tin Common Voice, nhắc nhở mục tiêu và cập nhật tiến độ
@@ -314,15 +313,12 @@ skip-submission-description = Trong khi đóng góp, phản hồi của bài g�
 skip-submission-note = Lưu ý: Bạn vẫn cần chọn giữa Nói hoặc Nghe để thay đổi hình thức đóng góp.
 off = Tắt
 on = Bật
-add-avatar-title = Thêm ảnh đại diện cho hồ sơ của bạn
-add-avatar-clip = Thêm một clip đại diện vào hồ sơ của bạn
-create-voice-wave = Tạo Voicewave
 recording-voice-wave = Đang ghi
 ready-to-upload = Tải lên
 avatar-clip-fact = Một thực tế lâu nay là người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó.
 recreate-voice = Tái tạo Voicewave
 cancel-avatar-clip-recording = Hủy bỏ
-about-avatar-clip = Ghi lại âm thanh để giới thiệu bản thân, những người dùng khác sẽ có thể di chuột để nghe clip của bạn.
+about-avatar-clip-recording = Tạo một clip bằng giọng nói như một phần của hình đại diện hồ sơ của bạn. Những người khác sẽ có thể di chuột và nghe clip của bạn.
 browse-file-title = Tải lên hình ảnh
 browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
 connect-gravatar = Kết nối với Gravatar
@@ -580,7 +576,6 @@ language-section-launched = Ra mắt
 language-section-launched-description = Đối với những ngôn ngữ được phát hành này, trang web đã được <localizationGlossaryLink>bản địa hóa</localizationGlossaryLink> thành công và có đủ <sentenceCollectionGlossaryLink>các câu được thu thập</sentenceCollectionGlossaryLink> để cho phép đóng góp <speakLink>Nói</speakLink> và <listenLink>Nghe</listenLink> liên tục.
 languages-show-more = Xem thêm
 languages-show-less = Xem ít hơn
-language-speakers = Diễn giả
 language-meter-in-progress = Tiến trình
 language-total-progress = Tổng
 language-search-input =
@@ -703,7 +698,6 @@ show-ranking = Hiển thị hạng của tôi
 ## Custom Goals
 
 get-started-goals = Bắt đầu với mục tiêu
-toward-next-goal = Hướng tới mục tiêu tiếp theo
 create-custom-goal = Tạo mục tiêu tùy chỉnh
 both-speak-and-listen = Cả hai
 both-speak-and-listen-long = Cả hai (nói và nghe)
