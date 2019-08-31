@@ -27,6 +27,7 @@ ar = arabčina
 as = asámčina
 ast = astúrčina
 az = azerbajdžančina
+ba = baškirčina
 bg = bulharčina
 bn = bengálčina
 br = bretónčina
@@ -82,6 +83,7 @@ mk = macedónčina
 ml = malajálamčina
 mn = mongolčina
 mrj = hornomarijská marijčina
+mt = maltčina
 myv = erzya
 nb-NO = nórčina (bokmål)
 ne-NP = nepálčina
@@ -90,7 +92,7 @@ nn-NO = nórčina (nynorsk)
 oc = okcitánčina
 or = urijčina
 pl = poľština
-pt-BR = portugalčina (Brazília)
+pt = portugalčina
 rm-sursilv = rétorománčina (sursilvan)
 ro = rumunčina
 ru = ruština
@@ -204,7 +206,6 @@ x-years-short =
        *[other] { $count } rokov
     }
 help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú databázu
-profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 
 ## Account Benefits
 
@@ -314,7 +315,8 @@ contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
 off = Vypnutá
 on = Zapnutá
-add-avatar-title = Pridajte do svojho profilu avatara
+ready-to-upload = Nahrať
+cancel-avatar-clip-recording = Zrušiť
 browse-file-title = Nahrať obrázok
 connect-gravatar = Prepojiť so službou Gravatar
 gravatar_not_found = Pre vašu e-mailovú adresu nebol nájdený žiadny gravatar
@@ -338,8 +340,6 @@ faq-why-important-a =
     Aby sa rozpoznávanie hlasu stalo ešte univerzálnejším, zhromažďujeme hlasové vzorky v často hovorených jazykoch, rovnako ako v jazykoch s menším počtom hovoriacich, ktorí sú často prehliadaní komerčnými službami rozpoznávania reči. Publikovanie rôznorodého súboru hlasov umožní vývojárom, podnikateľom a celým rečovým komunitám vyriešiť túto medzeru .
 faq-how-get-q = Ako môžem získať údaje služby Common Voice?
 faq-how-get-a = Dataset služby Common Voice je dostupný na prevzatie v rámci licencie <licenseLink>CC0</licenseLink> na <datasetLink>stránke našich datasetov</datasetLink>. Z tej istej stránky si taktiež môžete prevziať niekoľko ďalších verejne dostupných datasetov.
-faq-when-release-q = Kedy uverejníte údaje projektu Common Voice aj v ďalších jazykoch?
-faq-when-release-a = Viacjazyčná verzia Common Voice datasetu v súčastnosti prechádza čistením a spájaním. Ak sa chcete dozvedieť viac o tom, ako podporiť toto úsilie, prosím, <contactLink>kontaktujte nás</contactLink>. Momentálne plánujeme dátum vydania na január 2019. Po tomto dátume budeme pravidelne aktualizovať dataset novými jazykmi a hlasovými klipmi, keď budú k dispozícii. Frekvencia pravidelného vydavateľského cyklu ešte stále nie je určená.
 faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
 faq-what-cv-and-deepspeech-q = Aký je rozdiel medzi projektami Common Voice a Deep Speech?
 faq-what-cv-and-deepspeech-a = Dataset Common Voice dopĺňa open-source systém rozpoznávania hlasu Deep Speech spoločnosti Mozilla. Prvá verzia systému Deep Speech bola vydaná v novembri 2017 a odvtedy sa neustále vyvíja. Veríme, že táto open-source technológia rozpoznávania hlasu, spoločne s datasetom Common Voice, by mala byť dostupná pre každého. Dúfame, že tieto technológie umožnia vývojárom vybudovať vlnu inovatívnych produktov a služieb.
@@ -370,6 +370,7 @@ about-nav-how-it-works = Ako?
 about-nav-partners = Partneri
 about-nav-get-involved = Zapojte sa
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Umelá inteligencia
 
 ## Glossary
 
@@ -411,7 +412,7 @@ review-cancel = Zrušiť odoslanie
 review-keep-recordings = Ponechať nahrávky
 review-delete-recordings = Odstrániť moje nahrávky
 
-## New Datasets Page
+## Datasets Page
 
 language = Jazyk
 # File size in gigabytes
@@ -437,6 +438,7 @@ ready-to-validate = Ste pripravení pomôcť s overovaním viet?
 more = Viac
 close = Zavrieť
 download = Prevziať
+dataset-version = Verzia
 
 ## Download Modal
 
@@ -474,7 +476,6 @@ language-section-in-progress-new-description = Tieto jazyky sa momentálne pripr
 language-section-launched = Spustené jazyky
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
-language-speakers = Počet prispievateľov
 language-meter-in-progress = Pokrok
 language-total-progress = Celkovo
 language-search-input =
@@ -484,7 +485,7 @@ localized = Preklad stránky
 sentences = Počet viet
 total-hours = Počet overených hodín
 
-## New Contribution
+## Contribution
 
 action-click = Kliknite
 action-tap = Ťuknite
@@ -518,7 +519,6 @@ record-again-instruction = Skvelé! <recordIcon></recordIcon>Nahrajte váš ďal
 record-again-instruction2 = Vynikajúce, pokračujte v nahrávaní <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ešte naposledy!
 review-tooltip = Skontrolujte nahrávky a v prípade potreby ich opätovne nahrajte tu
-unable-speak = Nemôžete práve teraz hovoriť?
 review-instruction = Skontrolujte nahrávky a v prípade potreby ich nahrajte znova
 record-submit-tooltip = { $actionType } na odoslať keď budete hotoví
 clips-uploaded = Nahrávky boli nahrané
@@ -534,6 +534,10 @@ listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
 nothing-to-validate = Pre váš jazyk nemáme čo overiť. Pomôžte nám to zmeniť.
 record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
+
+## Reporting
+
+continue = Pokračovať
 
 ## Goals
 
@@ -560,11 +564,16 @@ validations =
 
 your-languages = Vaše jazyky
 stats = Štatistiky
+awards = Ocenenia
 you = Vy
 everyone = Všetci
 contribution-activity = Aktivita prispievateľov
 top-contributors = Najlepší prispievatelia
 overall-accuracy = Celková presnosť
+
+## Custom Goals
+
+share-goal = Zdieľať môj cieľ
 
 ## Profile Delete
 
@@ -572,3 +581,7 @@ delete-q = Chcete tiež požiadať o vymazanie vašich hlasových nahrávok, ale
 keep = Ponechať
 remove = Odstrániť
 profile-form-delete = Odstrániť profil
+
+## Landing
+
+profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
