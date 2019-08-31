@@ -197,7 +197,6 @@ x-years-short =
        *[other] { $count } anni
     }
 help-make-dataset = Aiutaci a realizzare un dataset di alta qualità e aperto
-profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
 sign-up-account = Registrati
 email-subscription-title = Iscriviti agli aggiornamenti via email
 email-subscription-title-new = Iscriviti alle newsletter di Common Voice, ai promemoria degli obiettivi e agli aggiornamenti dei progressi
@@ -316,15 +315,14 @@ skip-submission-description = Dopo aver premuto Invia durante l’invio del cont
 skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
 off = Disattiva
 on = Attiva
-add-avatar-title = Aggiungi un avatar al tuo profilo
-add-avatar-clip = Aggiungi un’immagine di profilo
-create-voice-wave = Crea un’onda sonora
+avatar-clip-title = Dai una voce al tuo avatar
+record-voice-wave = Registra la tua voce
 recording-voice-wave = In registrazione
 ready-to-upload = Carica
 avatar-clip-fact = È risaputo da tempo che mentre si legge qualcosa, si viene distratti dal layout di una pagina.
 recreate-voice = Ricrea un’onda sonora
 cancel-avatar-clip-recording = Annulla
-about-avatar-clip = Crea una registrazione personalizzata per presentarti. Gli altri utenti saranno in grado di ascoltarla passandoci sopra con il mouse.
+about-avatar-clip-recording = Crea una registrazione vocale come parte del profilo del tuo avatar. Altri utenti potranno ascoltare la tua registrazione muovendo il mouse sulla tua icona.
 browse-file-title = Carica un’immagine
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
 connect-gravatar = Connetti Gravatar
@@ -565,7 +563,6 @@ language-section-launched = Operative
 language-section-launched-description = Per le seguenti lingue operative il sito web è stato completamente <localizationGlossaryLink>localizzato</localizationGlossaryLink> e la <phraseCollectionGlossaryLink>raccolte di frasi</sentenceCollectionGlossaryLink> ha raggiunto dimensioni sufficienti da garantire sufficiente materiale da <speakLink>registrare</ speakLink> e <listenLink>ascoltare</listenLink> in modo continuativo.
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
-language-speakers = Parlato da
 language-meter-in-progress = Progresso
 language-total-progress = Totale
 language-search-input =
@@ -688,7 +685,6 @@ show-ranking = Mostra la mia posizione
 ## Custom Goals
 
 get-started-goals = Comincia a utilizzare gli obiettivi
-toward-next-goal = Verso il prossimo obiettivo
 create-custom-goal = Crea un obiettivo personale
 both-speak-and-listen = Entrambi
 both-speak-and-listen-long = Entrambi (registrare e convalidare)
