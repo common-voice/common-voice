@@ -200,6 +200,7 @@ x-years-short =
 help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
+email-subscription-title-new = 留低您嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
 
 ## Account Benefits
 
@@ -217,6 +218,7 @@ whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
 recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
 username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
+demographic-deidentified = 非必要提供的人口統計資料（例如年齡、性別、語言、口音）將會在您送出的語音資料中被去識別化，也永遠不會公開在您的資料上。
 username-email-not-demographic = 您的使用者名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
 ## Speak & Listen Shortcuts
@@ -313,10 +315,11 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
-add-avatar-title = 在您的個人檔案中加入頭像
-create-voice-wave = 建立 Voicewave
+avatar-clip-title = 給你的個人頭像一把聲音
+record-voice-wave = 錄下 VOICEWAVE
 recording-voice-wave = 錄音中
 ready-to-upload = 上載
+avatar-clip-fact = 眾所周知，文字嘅排版會影響讀者接收頁面資訊嘅能力。
 recreate-voice = 重新建立 Voicewave
 cancel-avatar-clip-recording = 取消
 browse-file-title = 上傳圖片
@@ -573,11 +576,14 @@ listen-last-time-instruction = <playIcon></playIcon> 最後一個！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
+keep-track-profile = 建立個人檔案，紀錄您的進度
+login-to-get-started = 請登入或註冊，即可開始使用
 
 ## Reporting
 
 report = 舉報
 report-title = 提交報告
+report-ask = 這句句子有什麼問題？
 report-offensive-language = 冒犯人的語言
 report-offensive-language-detail = 這句話當中有不尊重他人或冒犯性的語言。
 report-grammar-or-spelling = 文法 / 拼字錯誤
@@ -639,6 +645,7 @@ easy-difficulty = 輕鬆
 average-difficulty = 一般
 difficult-difficulty = 有難度
 pro-difficulty = 專業級
+lose-goal-progress-warning = 編輯目標後，可能會失去現有進度。
 want-to-continue = 你要繼續嗎？
 finish-editing = 要完成編輯嗎？
 lose-changes-warning = 現在離開將不會儲存您的變更
