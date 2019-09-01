@@ -127,6 +127,7 @@ class AvatarSetup extends React.Component<Props, State> {
   recordingStartTime = 0;
   recordingStopTime = 0;
   avatarRecordedBlobUrl: any = null;
+  audioRef = React.createRef<HTMLAudioElement>();
 
   async componentDidMount() {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
@@ -176,21 +177,21 @@ class AvatarSetup extends React.Component<Props, State> {
     const { locale } = this.props;
     trackVoiceAvatar('self-listen', locale);
     if (!this.state.isPlaying) {
-      const audio = new Audio(this.state.avatarClipUrl);
+      this.audioRef.current.src = this.state.avatarClipUrl;
+      this.audioRef.current.play();
       this.setState({ isPlaying: true });
-      audio.play();
-      audio.onended = () => this.setState({ isPlaying: false });
-      audio.onerror = () => this.setState({ isPlaying: false });
+      this.audioRef.current.onended = () => this.setState({ isPlaying: false });
+      this.audioRef.current.onerror = () => this.setState({ isPlaying: false });
     }
   };
 
   private playRecordedAvatarClip = async () => {
     if (!this.state.isPlaying) {
-      const audio = new Audio(this.avatarRecordedBlobUrl);
+      this.audioRef.current.src = this.avatarRecordedBlobUrl;
+      this.audioRef.current.play();
       this.setState({ isPlaying: true });
-      audio.play();
-      audio.onended = () => this.setState({ isPlaying: false });
-      audio.onerror = () => this.setState({ isPlaying: false });
+      this.audioRef.current.onended = () => this.setState({ isPlaying: false });
+      this.audioRef.current.onerror = () => this.setState({ isPlaying: false });
     }
   };
 
@@ -322,6 +323,7 @@ class AvatarSetup extends React.Component<Props, State> {
       <div className="full-avatar-setup">
         {!isProduction() && (
           <div className="clip">
+            <audio preload="auto" ref={this.audioRef} />
             <Localized id="avatar-clip-title">
               <h2 className="clip-title" />
             </Localized>
