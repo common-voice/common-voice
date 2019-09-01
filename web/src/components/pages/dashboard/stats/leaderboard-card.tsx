@@ -88,6 +88,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     isAtEnd: false,
     playingClipIndex: null,
   };
+  audioRef = React.createRef<HTMLAudioElement>();
 
   scroller: { current: HTMLUListElement | null } = React.createRef();
   youRow: { current: HTMLLIElement | null } = React.createRef();
@@ -133,17 +134,24 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     if (this.state.playingClipIndex === null) {
       this.setState({ playingClipIndex: position });
 
-      const audio = new Audio(clipUrl);
-      audio.play();
+      this.audioRef.current.src = clipUrl;
 
-      audio.onended = () => {
+      this.audioRef.current.play();
+
+      this.audioRef.current.onended = () => {
         this.setState({ playingClipIndex: null });
       };
 
-      audio.onerror = () => {
+      this.audioRef.current.onerror = () => {
         this.setState({ playingClipIndex: null });
       };
     }
+  };
+
+  stopAvatarClip = function() {
+    this.audioRef.current.pause();
+    this.audioRef.current.currentTime = 0;
+    this.setState({ playingClipIndex: null });
   };
 
   scrollToUser = () => {
@@ -210,16 +218,24 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
                 <Avatar url={row.avatar_url} />
               </div>
             ) : (
-              <button
-                className="avatar-container"
-                title="Click to play avatar"
-                onClick={() =>
-                  this.playAvatarClip(row.avatarClipUrl, row.position, row.you)
-                }>
-                <div>
-                  <Avatar url={row.avatar_url} />
-                </div>
-              </button>
+              <div>
+                <audio preload="auto" ref={this.audioRef} />
+                <button
+                  className="avatar-container"
+                  title="Click to play avatar"
+                  onMouseEnter={() =>
+                    this.playAvatarClip(
+                      row.avatarClipUrl,
+                      row.position,
+                      row.you
+                    )
+                  }
+                  onMouseLeave={() => this.stopAvatarClip()}>
+                  <div>
+                    <Avatar url={row.avatar_url} />
+                  </div>
+                </button>
+              </div>
             )
           ) : (
             <div className="avatar-container">

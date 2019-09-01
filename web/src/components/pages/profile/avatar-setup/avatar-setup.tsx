@@ -182,16 +182,25 @@ class AvatarSetup extends React.Component<Props, State> {
       this.setState({ isPlaying: true });
       this.audioRef.current.onended = () => this.setState({ isPlaying: false });
       this.audioRef.current.onerror = () => this.setState({ isPlaying: false });
+    } else {
+      this.audioRef.current.pause();
+      this.audioRef.current.currentTime = 0;
+      this.setState({ isPlaying: false });
     }
   };
 
   private playRecordedAvatarClip = async () => {
+    console.log(this.avatarRecordedBlobUrl);
     if (!this.state.isPlaying) {
       this.audioRef.current.src = this.avatarRecordedBlobUrl;
       this.audioRef.current.play();
       this.setState({ isPlaying: true });
       this.audioRef.current.onended = () => this.setState({ isPlaying: false });
       this.audioRef.current.onerror = () => this.setState({ isPlaying: false });
+    } else {
+      this.audioRef.current.pause();
+      this.audioRef.current.currentTime = 0;
+      this.setState({ isPlaying: false });
     }
   };
 
@@ -408,26 +417,30 @@ class AvatarSetup extends React.Component<Props, State> {
             )}
             {clipStatus === 'recorded' && (
               <div className="but">
-                <Button
-                  outline
-                  rounded
-                  className="primary-3 "
-                  onClick={this.cancelRecording}>
-                  <RedoIcon />
-                  <Localized id="cancel-avatar-clip-recording">
-                    <span />
-                  </Localized>
-                </Button>
-                <Button
-                  outline
-                  rounded
-                  className="primary-2 "
-                  onClick={this.uploadAvatarClip.bind(this)}>
-                  <ShareIcon />
-                  <Localized id="ready-to-upload">
-                    <span />
-                  </Localized>
-                </Button>
+                <div>
+                  <Button
+                    outline
+                    rounded
+                    className="primary-3 "
+                    onClick={this.cancelRecording}>
+                    <RedoIcon />
+                    <Localized id="cancel-avatar-clip-recording">
+                      <span />
+                    </Localized>
+                  </Button>
+                </div>
+                <div>
+                  <Button
+                    outline
+                    rounded
+                    className="primary-2 "
+                    onClick={this.uploadAvatarClip.bind(this)}>
+                    <ShareIcon />
+                    <Localized id="ready-to-upload">
+                      <span />
+                    </Localized>
+                  </Button>
+                </div>
               </div>
             )}
             {hasClip ? (
