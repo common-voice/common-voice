@@ -1,6 +1,6 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { isProduction } from '../../../utility';
 import URLS from '../../../urls';
 import { LocaleLink, useLocale } from '../../locale-helpers';
@@ -15,18 +15,27 @@ const SURVEY_KEY = 'showSurvey2';
 
 export default () => {
   const [locale] = useLocale();
-  const [showSurvey, setShowSurvey] = useState(
-    JSON.parse(localStorage.getItem(SURVEY_KEY)) !== false
-  );
+  const [surveyShown, setSurveyShown] = useState(false);
+
+  function showSurvey() {
+    setSurveyShown(JSON.parse(localStorage.getItem(SURVEY_KEY)) !== false);
+  }
 
   function hideSurvey() {
-    setShowSurvey(false);
+    setSurveyShown(false);
     localStorage.setItem(SURVEY_KEY, JSON.stringify(false));
   }
 
+  useEffect(() => {
+    document.addEventListener('scroll', showSurvey);
+    return () => {
+      document.removeEventListener('scroll', showSurvey);
+    };
+  }, []);
+
   return (
     <div className="datasets-content">
-      {!isProduction() && locale == 'en' && showSurvey && (
+      {!isProduction() && locale == 'en' && surveyShown && (
         <div className="survey">
           <button onClick={hideSurvey}>
             <CloseIcon black />

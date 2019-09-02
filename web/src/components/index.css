@@ -476,10 +476,11 @@ a.small,
     }
 
     & button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
         outline: none;
         border: none;
-        margin-bottom: 13px;
-        align-self: flex-end;
     }
 
     & h1 {
