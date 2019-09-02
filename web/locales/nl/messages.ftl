@@ -324,6 +324,7 @@ ready-to-upload = Uploaden
 avatar-clip-fact = Het is een bekend feit dat wanneer een lezer naar de lay-out kijkt, hij of zij door de leesbare inhoud van een pagina wordt afgeleid.
 recreate-voice = Voicewave opnieuw maken
 cancel-avatar-clip-recording = Annuleren
+about-avatar-clip-recording = Maak een spraakfragment als onderdeel van uw profielavatar. Anderen kunnen uw fragment aanwijzen en ernaar luisteren.
 browse-file-title = Een afbeeldingsbestand uploaden
 browse-file = Verslepen of <browseWrap>Bladeren</browseWrap>
 connect-gravatar = Koppelen met Gravatar
