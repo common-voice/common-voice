@@ -621,7 +621,7 @@ login-to-get-started = Accedi o registrati per iniziare
 
 ## Reporting
 
-report = Segnalazione
+report = Segnala
 report-title = Invia una segnalazione
 report-ask = Quali problemi stai riscontrando con questa frase?
 report-offensive-language = Linguaggio offensivo
