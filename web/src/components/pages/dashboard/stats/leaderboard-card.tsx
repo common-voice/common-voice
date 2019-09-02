@@ -137,21 +137,11 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       this.audioRef.current.src = clipUrl;
 
       this.audioRef.current.play();
-
-      this.audioRef.current.onended = () => {
-        this.setState({ playingClipIndex: null });
-      };
-
-      this.audioRef.current.onerror = () => {
-        this.setState({ playingClipIndex: null });
-      };
+    } else {
+      this.audioRef.current.pause();
+      this.audioRef.current.currentTime = 0;
+      this.setState({ playingClipIndex: null });
     }
-  };
-
-  stopAvatarClip = function() {
-    this.audioRef.current.pause();
-    this.audioRef.current.currentTime = 0;
-    this.setState({ playingClipIndex: null });
   };
 
   scrollToUser = () => {
@@ -219,7 +209,12 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               </div>
             ) : (
               <div>
-                <audio preload="auto" ref={this.audioRef} />
+                <audio
+                  preload="auto"
+                  ref={this.audioRef}
+                  onEnded={() => this.setState({ playingClipIndex: null })}
+                  onError={() => this.setState({ playingClipIndex: null })}
+                />
                 <button
                   className="avatar-container"
                   title="Click to play avatar"
@@ -230,7 +225,20 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
                       row.you
                     )
                   }
-                  onMouseLeave={() => this.stopAvatarClip()}>
+                  onMouseLeave={() =>
+                    this.playAvatarClip(
+                      row.avatarClipUrl,
+                      row.position,
+                      row.you
+                    )
+                  }
+                  onClick={() =>
+                    this.playAvatarClip(
+                      row.avatarClipUrl,
+                      row.position,
+                      row.you
+                    )
+                  }>
                   <div>
                     <Avatar url={row.avatar_url} />
                   </div>

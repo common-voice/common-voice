@@ -180,8 +180,6 @@ class AvatarSetup extends React.Component<Props, State> {
       this.audioRef.current.src = this.state.avatarClipUrl;
       this.audioRef.current.play();
       this.setState({ isPlaying: true });
-      this.audioRef.current.onended = () => this.setState({ isPlaying: false });
-      this.audioRef.current.onerror = () => this.setState({ isPlaying: false });
     } else {
       this.audioRef.current.pause();
       this.audioRef.current.currentTime = 0;
@@ -195,8 +193,6 @@ class AvatarSetup extends React.Component<Props, State> {
       this.audioRef.current.src = this.avatarRecordedBlobUrl;
       this.audioRef.current.play();
       this.setState({ isPlaying: true });
-      this.audioRef.current.onended = () => this.setState({ isPlaying: false });
-      this.audioRef.current.onerror = () => this.setState({ isPlaying: false });
     } else {
       this.audioRef.current.pause();
       this.audioRef.current.currentTime = 0;
@@ -332,7 +328,12 @@ class AvatarSetup extends React.Component<Props, State> {
       <div className="full-avatar-setup">
         {!isProduction() && (
           <div className="clip">
-            <audio preload="auto" ref={this.audioRef} />
+            <audio
+              preload="auto"
+              ref={this.audioRef}
+              onEnded={() => this.setState({ isPlaying: false })}
+              onError={() => this.setState({ isPlaying: false })}
+            />
             <Localized id="avatar-clip-title">
               <h2 className="clip-title" />
             </Localized>
