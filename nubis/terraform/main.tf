@@ -65,6 +65,13 @@ resource "aws_db_parameter_group" "slow_query_enabled" {
     value        = "1"
     apply_method = "immediate"
   }
+
+  parameter {
+    name         = "binlog_format"
+    value        = "ROW"
+    apply_method = "immediate"
+  }
+
 }
 
 module "database" {
