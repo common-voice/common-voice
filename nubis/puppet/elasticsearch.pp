@@ -14,3 +14,12 @@ systemd::unit_file { 'aws-es-proxy.service':
 }
 
 include mysql::client
+
+# ES Mysql Sync Tool
+staging::file { 'go-mysql-elasticsearch':
+  source => 'https://github.com/gozer/go-mysql-elasticsearch/releases/download/test-rc1/go-mysql-elasticsearch',
+  target => '/usr/local/bin/go-mysql-elasticsearch',
+  owner  => 'root',
+  group  => 'root',
+  mode   => '0755',
+}
