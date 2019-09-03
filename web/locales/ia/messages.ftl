@@ -498,7 +498,7 @@ audio-format = Formato audio
 number-of-voices = Numero de voces
 splits = Cesuras
 email-to-download = Insere email a discargar
-why-email = <b>Perque un email?</b> Nos pote deber continger te in le futuro re cambios <t0/>al collection de datos, un email forni nos un puncto de contacto.
+why-email = <b>Proque un adresse de e-mail?</b> Es possibile que nos debera contactar te in le futuro sur cambiamentos concernente le collection de datos. Un adresse de e-mail nos forni un puncto de contacto.
 confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -745,7 +745,7 @@ delete-q = Vole tu requirer que tu registrationes vocal sia delite o prefere tu 
 keep = Retener
 remove = Remover
 keep-info = Tu registrationes de voce anonyme remanera in le collection de datos de Common Voice. Un vice que tu dele tu profilo tu non sera plus capace a inviar un requesta de eliminar tu registrationes ab le collection de datos
-remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contingera illes qui ha discargate le collection de datos e requirera les de remover tu registrationes vocal.
+remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contactara le personas qui ha discargate le collection de datos e requestara que illes etiam remove tu registrationes de voce.
 why-delete-recordings = Le registrationes de Common Voice es utilisate per le academicos, le micre negotios e per le enthusiastas del recognition vocal pro adjutar a provar e facer crescer ressources publicamente disponibile como le modellos vocal.
 profile-form-delete = Deler le profilo
 
