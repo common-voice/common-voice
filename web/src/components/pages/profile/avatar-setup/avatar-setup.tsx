@@ -127,6 +127,7 @@ class AvatarSetup extends React.Component<Props, State> {
   recordingStartTime = 0;
   recordingStopTime = 0;
   avatarRecordedBlobUrl: any = null;
+  audioRef = React.createRef<HTMLAudioElement>();
 
   async componentDidMount() {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
@@ -176,21 +177,26 @@ class AvatarSetup extends React.Component<Props, State> {
     const { locale } = this.props;
     trackVoiceAvatar('self-listen', locale);
     if (!this.state.isPlaying) {
-      const audio = new Audio(this.state.avatarClipUrl);
+      this.audioRef.current.src = this.state.avatarClipUrl;
+      this.audioRef.current.play();
       this.setState({ isPlaying: true });
-      audio.play();
-      audio.onended = () => this.setState({ isPlaying: false });
-      audio.onerror = () => this.setState({ isPlaying: false });
+    } else {
+      this.audioRef.current.pause();
+      this.audioRef.current.currentTime = 0;
+      this.setState({ isPlaying: false });
     }
   };
 
   private playRecordedAvatarClip = async () => {
+    console.log(this.avatarRecordedBlobUrl);
     if (!this.state.isPlaying) {
-      const audio = new Audio(this.avatarRecordedBlobUrl);
+      this.audioRef.current.src = this.avatarRecordedBlobUrl;
+      this.audioRef.current.play();
       this.setState({ isPlaying: true });
-      audio.play();
-      audio.onended = () => this.setState({ isPlaying: false });
-      audio.onerror = () => this.setState({ isPlaying: false });
+    } else {
+      this.audioRef.current.pause();
+      this.audioRef.current.currentTime = 0;
+      this.setState({ isPlaying: false });
     }
   };
 
@@ -322,6 +328,12 @@ class AvatarSetup extends React.Component<Props, State> {
       <div className="full-avatar-setup">
         {!isProduction() && (
           <div className="clip">
+            <audio
+              preload="auto"
+              ref={this.audioRef}
+              onEnded={() => this.setState({ isPlaying: false })}
+              onError={() => this.setState({ isPlaying: false })}
+            />
             <Localized id="avatar-clip-title">
               <h2 className="clip-title" />
             </Localized>
@@ -406,26 +418,30 @@ class AvatarSetup extends React.Component<Props, State> {
             )}
             {clipStatus === 'recorded' && (
               <div className="but">
-                <Button
-                  outline
-                  rounded
-                  className="primary-3 "
-                  onClick={this.cancelRecording}>
-                  <RedoIcon />
-                  <Localized id="cancel-avatar-clip-recording">
-                    <span />
-                  </Localized>
-                </Button>
-                <Button
-                  outline
-                  rounded
-                  className="primary-2 "
-                  onClick={this.uploadAvatarClip.bind(this)}>
-                  <ShareIcon />
-                  <Localized id="ready-to-upload">
-                    <span />
-                  </Localized>
-                </Button>
+                <div>
+                  <Button
+                    outline
+                    rounded
+                    className="primary-3 "
+                    onClick={this.cancelRecording}>
+                    <RedoIcon />
+                    <Localized id="cancel-avatar-clip-recording">
+                      <span />
+                    </Localized>
+                  </Button>
+                </div>
+                <div>
+                  <Button
+                    outline
+                    rounded
+                    className="primary-2 "
+                    onClick={this.uploadAvatarClip.bind(this)}>
+                    <ShareIcon />
+                    <Localized id="ready-to-upload">
+                      <span />
+                    </Localized>
+                  </Button>
+                </div>
               </div>
             )}
             {hasClip ? (
