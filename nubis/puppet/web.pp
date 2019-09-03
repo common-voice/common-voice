@@ -6,6 +6,16 @@ class { 'nubis_apache':
   ],
 }
 
+file { '/etc/apache2/conf.d/elasticsearch.conf':
+  ensure  => present,
+  owner   => 'root',
+  group   => 'root',
+  mode    => '0644',
+  content => @("EOT"/$)
+Define ES_ENDPOINT "http://localhost:9200"
+EOT
+}
+
 # Add modules
 class { 'apache::mod::rewrite': }
 class { 'apache::mod::ssl': }
