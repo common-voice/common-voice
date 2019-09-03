@@ -92,6 +92,7 @@ apache::vhost { $project_name:
     # Turn off CSP for ES/Kibana
     <Location /visualize>
       Header unset Content-Security-Policy
+      Header unset X-Content-Type-Options
     </Location>
 
     ProxyPass / http://localhost:9000/ retry=0
