@@ -81,6 +81,11 @@ apache::vhost { $project_name:
     ProxyPass /font !
     ProxyPass /locales !
 
+    # These requests need to pass-thru without signing
+    ProxyPass /visualize/_plugin/kibana https://\${ES_ENDPOINT}/_plugin/kibana
+    ProxyPassReverse /visualize/_plugin/kibana https://\${ES_ENDPOINT}/_plugin/kibana
+
+    # This signs requests
     ProxyPass /visualize http://localhost:9200 disablereuse=on ttl=60
     ProxyPassReverse /visualize http://localhost:9200
 
