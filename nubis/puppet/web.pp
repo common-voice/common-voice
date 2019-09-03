@@ -8,6 +8,7 @@ class { 'nubis_apache':
 
 # Add modules
 class { 'apache::mod::rewrite': }
+class { 'apache::mod::ssl': }
 class { 'apache::mod::proxy': }
 class { 'apache::mod::proxy_http': }
 
@@ -18,6 +19,7 @@ apache::vhost { $project_name:
     docroot_owner      => 'root',
     docroot_group      => 'root',
     block              => ['scm'],
+    ssl_proxyengine    => true,
     setenvif           => [
       'X-Forwarded-Proto https HTTPS=on',
       'Remote_Addr 127\.0\.0\.1 internal',
@@ -82,12 +84,15 @@ apache::vhost { $project_name:
     ProxyPass /locales !
 
     # These requests need to pass-thru without signing
-    ProxyPass /visualize/_plugin/kibana https://\${ES_ENDPOINT}/_plugin/kibana
-    ProxyPassReverse /visualize/_plugin/kibana https://\${ES_ENDPOINT}/_plugin/kibana
+    RewriteRule /visualize(/_plugin/kibana.*) https://${ES_ENDPOINT}$1 [P,L]
 
     # This signs requests
-    ProxyPass /visualize http://localhost:9200 disablereuse=on ttl=60
-    ProxyPassReverse /visualize http://localhost:9200
+    RewriteRule /visualize(.*) http://localhost:9200$1 [P,L]
+
+    # Turn off CSP for ES/Kibana
+    <Location /visualize>
+      Header unset Content-Security-Policy
+    </Location>
 
     ProxyPass / http://localhost:9000/ retry=0
     ProxyPassReverse / http://localhost:9000/
