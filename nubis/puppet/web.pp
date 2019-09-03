@@ -90,7 +90,7 @@ apache::vhost { $project_name:
     RewriteRule /visualize(.*) http://localhost:9200\$1 [P,L]
 
     # Turn off CSP for ES/Kibana
-    <Location /visualize>
+    <Location /_plugin/kibana>
       Header unset Content-Security-Policy
       Header unset X-Content-Type-Options
     </Location>
