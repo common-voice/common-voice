@@ -12,4 +12,4 @@ keys = [
     "/config"
 ]
 
-reload_cmd = "/bin/systemctl restart apache2"
+reload_cmd = "/bin/systemctl stop apache2; /bin/systemctl start apache2"
