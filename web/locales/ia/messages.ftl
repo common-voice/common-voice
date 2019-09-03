@@ -219,7 +219,7 @@ whats-public = Que es Public?
 email-not-public = Nos non rendera public tu email.
 recordings-and-locale-public = Le numero de registrationes e le linguas que tu usa pro contribuer sera public.
 username-optin-public = Tu pote eliger de render public tu nomine de usator o anonyme.
-demographic-deidentified = Le datos demographic optionalmente inviate (e.g. etate, sexo, lingua, e accento) es de-identificate de tu datos vocal e jammais essera rendite public sur tu profilo.
+demographic-deidentified = Le datos demographic optionalmente inviate (p.ex. etate, sexo, lingua e accento) es disassociate de tu datos de voce e non essera jammais rendite public sur tu profilo.
 username-email-not-demographic = Tu nomine de usator e email non essera associate con le datos publicate.
 
 ## Speak & Listen Shortcuts
@@ -304,7 +304,7 @@ profile-close = Clauder
 profile-explanation = Mantene tracia de tu progresso con un profilo e adjuta nostre datos de voce a ser plus accurate.
 thanks-for-account = Gratias pro le confirma de tu conto, ora que nos crea tu profilo.
 why-demographic = Perque isto es relevante?
-why-demographic-explanation = Le datos anonyme del usator como su etate, sexo, e accento adjuta a meliorar le datos audio usate pro maestrar le precision del motores de recognition de voce. Tu nomine de usator e email jammais essera associate con tu datos submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
+why-demographic-explanation = Le datos anonyme del usator como le etate, sexo e accento adjuta a meliorar le datos audio usate pro augmentar le precision del motores de recognition de voce. Tu nomine de usator e adresse de e-mail non essera jammais associate al datos que tu ha submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
 accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 login-identity = Identitate de connexion
 login-signup = Connecter se / Registrar se
@@ -374,7 +374,7 @@ faq-why-not-ask-read-a = Pro render le collection de datos de Common Voice le pl
 faq-why-account-q = Perque deberea io registra me pro un conto?
 faq-is-account-public-q = Es le informationes de mi conto public?
 faq-how-privacy-q = Como assecura vos le anonymitate e le confidentialitate del personas qui dona lor voces?
-faq-how-privacy-a = Tote le retalios vocal in le collection de datos es depurate del informationes de identification personal. Quando un collaborator forni datos demographic via su profilo, ille informationes es de-identificate de lor retalios vocal ante que esser paccate pro le discarga in le collection de datos e es jammais rendite public sur su pagina del profilo.
+faq-how-privacy-a = Tote le retalios vocal in le collection de datos es depurate de informationes personal. Quando un collaborator forni datos demographic via su profilo, ille informationes es disassociate de su retalios vocal ante de esser paccate pro discargamento in le collection de datos e non es jammais rendite public sur su pagina de profilo.
 faq-what-determine-identity-q = Que significa que io non pote “determinar le identitate” del parlantes in le collection de datos de Common Voice?
 faq-what-determine-identity-a = Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote ser usate pro maestrar un large varietate de applicationes ad activation vocal. Pro proteger le securitate de nostre collaboratores, <s0/>nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del collaboratores.
 faq-what-is-cv = Que es Common Voice?
