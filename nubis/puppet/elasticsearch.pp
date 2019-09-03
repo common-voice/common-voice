@@ -12,3 +12,5 @@ systemd::unit_file { 'aws-es-proxy.service':
 ->service { 'aws-es-proxy':
   enable => true,
 }
+
+include mysql::client
