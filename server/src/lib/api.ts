@@ -86,6 +86,14 @@ export default class API {
       next();
     });
 
+    router.get('/golem', (request: Request, response: Response) => {
+      console.log('Received a Golem request', {
+        referer: request.header('Referer'),
+        query: request.query
+      });
+      response.redirect('/');
+    });
+
     router.get('/user_clients', this.getUserClients);
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
