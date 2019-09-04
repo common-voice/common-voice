@@ -710,6 +710,8 @@ share-n-weekly-contribution-goal = Атна саен { $count } клип { $type
 share-goal-type-speak = Сөйләү
 share-goal-type-listen = Тыңлау
 share-goal-type-both = Сөйләү һәм тыңлау
+# LINK will be replaced with the current URL
+goal-share-text = Мин әле генә үземә #CommonVoice проектына тавыш яздыру максаты куйдым -- миңа кушылыгыз һәм машиналарга кешеләр чынлыкта ничек сөйләшкәнен өйрәтергә ярдәм итегез { $link }
 weekly-goal-created = Атналык максатыгыз булдырылды
 daily-goal-created = Көнлек максатыгыз булдырылды
 track-progress = Башкарган эшләрегезне монда һәм шулай ук статистика битегездә күзәтеп барыгыз.
@@ -729,6 +731,7 @@ profile-form-delete = Профильне бетерү
 ## Landing
 
 welcome-staff = { $company } хезмәткәрләре, хуш килдегез!
+help-contribute = Common Voice профилен булдырып һәм тавышыгызны иганә итеп, төрле-төрле тавышлы аудиоязмаларның ачык тупланмасын булдырырга ярдәм итә аласыз.
 login-company = { $company } электрон почтасы белән керү / теркәлү
 profile-not-required = Үз өлешеңне кертү өчен профильның булуы мәҗбүри түгел, гәрчә файдалы булса да
 read-more-about = Күбрәк мәгълүмат «Хакында» сәхифәсендә
