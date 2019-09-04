@@ -376,7 +376,10 @@ faq-is-account-public-q = Es le informationes de mi conto public?
 faq-how-privacy-q = Como assecura vos le anonymitate e le confidentialitate del personas qui dona lor voces?
 faq-how-privacy-a = Tote le retalios vocal in le collection de datos es depurate de informationes personal. Quando un collaborator forni datos demographic via su profilo, ille informationes es disassociate de su retalios vocal ante de esser paccate pro discargamento in le collection de datos e non es jammais rendite public sur su pagina de profilo.
 faq-what-determine-identity-q = Que significa que io non pote “determinar le identitate” del parlantes in le collection de datos de Common Voice?
-faq-what-determine-identity-a = Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote esser usate pro trainar un grande varietate de applicationes con activation vocal. Pro proteger le securitate de nostre contributores, nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del contributores.
+faq-what-determine-identity-a =
+    Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote esser usate pro trainar un grande varietate de applicationes con activation vocal. Pro proteger le securitate de nostre contributores, nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del contributores.
+    
+    Tote le retalios de voce in le insimul de datos es expurgate de informationes personal. Quando tu discarga le insimul de datos, tu consenti a nunquam tentar de determinar le identitate de alcun contributor. Isto significa que tu non es autorisate a ligar informationes in le insimul de datos al information personal de un contributor. Nonobstante, tu pote usar le insimul de datos pro trainar un programma de recognition de voce, del persona parlante, o altere cosa, ligante, per exemplo, le informationes in le insimul de datos a a altere informationes jam presente in le insimul de datos.
 faq-what-is-cv = Que es Common Voice?
 faq-using-cv = Uso de Common Voice
 faq-description = Common Voice es parte del initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real.
