@@ -94,10 +94,7 @@ apache::vhost { $project_name:
     ProxyPass /locales !
 
     # These requests need to pass-thru without signing
-    RewriteRule (/_plugin/kibana/.*) https://\${ES_ENDPOINT}\$1 [P,L]
-
-    # This signs requests
-    RewriteRule /visualize(.*) http://localhost:9200\$1 [P,L]
+    RewriteRule (/_plugin/kibana/.*) \${ES_ENDPOINT}\$1 [P,L]
 
     # Turn off CSP for ES/Kibana
     <Location /_plugin/kibana>
