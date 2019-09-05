@@ -779,5 +779,5 @@ profile-form-delete = Profyl fuortsmite
 welcome-staff = Wolkom meiwurkers fan { $company }!
 help-contribute = Jo kinne in ferskate, iepen-boarne gegevensset helpe bouwe troch on Common Voice-profyl te meitsjen en jo stim te donearjen.
 login-company = Oanmelde / ynskriuwe mei { $company }-e-mailadres
-profile-not-required = In profyl is net nedich om by te dragen, hoewol it wol nuttich is
+profile-not-required = In profyl is net nedich om by te dragen, mar it kin wol nuttich wêze
 read-more-about = Mear ynfo op ús side Oer
