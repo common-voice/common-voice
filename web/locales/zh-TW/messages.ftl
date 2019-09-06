@@ -148,7 +148,7 @@ faq = 常見問題
 content-license-text = 內容依照 <licenseLink>Creative Commons 條款</licenseLink>授權大眾使用
 share-title = 幫助我們找人一起獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
-link-copied = 已複製鍊結
+link-copied = 已複製鏈結
 back-top = 回到頁面頂端
 logout = 登出
 
