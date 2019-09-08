@@ -19,6 +19,7 @@ import {
   StopIcon,
   ShareIcon,
   RedoIcon,
+  CrossIcon,
 } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
 import { Voice, PlayButton } from '../../../primary-buttons/primary-buttons';
@@ -231,16 +232,19 @@ class AvatarSetup extends React.Component<Props, State> {
   };
 
   private saveRecording = () => {
-    const RECORD_STOP_DELAY = 500;
-    setTimeout(async () => {
-      const info = await this.audio.stop();
-      this.avatarRecordedBlobUrl = info.url;
-      this.setState({ blobUrl: info.blob, clipStatus: 'recorded' });
-    }, RECORD_STOP_DELAY);
-    this.recordingStopTime = Date.now();
-    this.setState({
-      isRecording: false,
-    });
+    console.log(this.state.clipStatus, 'llllllllllll');
+    if (this.state.clipStatus === 'started') {
+      const RECORD_STOP_DELAY = 500;
+      setTimeout(async () => {
+        const info = await this.audio.stop();
+        this.avatarRecordedBlobUrl = info.url;
+        this.setState({ blobUrl: info.blob, clipStatus: 'recorded' });
+      }, RECORD_STOP_DELAY);
+      this.recordingStopTime = Date.now();
+      this.setState({
+        isRecording: false,
+      });
+    }
   };
 
   private async uploadAvatarClip() {
@@ -271,20 +275,22 @@ class AvatarSetup extends React.Component<Props, State> {
   }
 
   private counter = async () => {
-    this.audio.release();
-    await this.audio.init();
-    this.setState({ clipStatus: 'starting', counter: 3 });
-    const downloadTimer = setInterval(() => {
-      let tl = this.state.counter - 1;
-      this.setState({ counter: tl });
-      if (this.state.counter <= 0) {
-        this.setState({ clipStatus: 'started' });
-        const { locale } = this.props;
-        trackVoiceAvatar('create-voice-avatar', locale);
-        this.handleRecordClick();
-        clearInterval(downloadTimer);
-      }
-    }, 1000);
+    if (this.state.clipStatus === 'notStarted') {
+      this.audio.release();
+      await this.audio.init();
+      this.setState({ clipStatus: 'starting', counter: 3 });
+      const downloadTimer = setInterval(() => {
+        let tl = this.state.counter - 1;
+        this.setState({ counter: tl });
+        if (this.state.counter <= 0 && this.state.clipStatus === 'starting') {
+          this.setState({ clipStatus: 'started' });
+          const { locale } = this.props;
+          trackVoiceAvatar('create-voice-avatar', locale);
+          this.handleRecordClick();
+          clearInterval(downloadTimer);
+        }
+      }, 1000);
+    }
   };
 
   private updateAvatarClip = () => {
@@ -294,8 +300,12 @@ class AvatarSetup extends React.Component<Props, State> {
   private cancelRecording = async () => {
     let clip = await this.props.api.fetchAvatarClip();
     clip
-      ? this.setState({ avatarClipUrl: clip, clipStatus: 'notStarted' })
-      : this.setState({ clipStatus: 'notStarted' });
+      ? this.setState({
+          avatarClipUrl: clip,
+          clipStatus: 'notStarted',
+          isRecording: false,
+        })
+      : this.setState({ clipStatus: 'notStarted', isRecording: false });
   };
 
   render() {
@@ -377,6 +387,12 @@ class AvatarSetup extends React.Component<Props, State> {
                 <Suspense fallback={<div />}>
                   <div className="lottie">
                     <Lottie options={defaultOptions} eventListeners={[]} />
+                    <div className="recording-stop">
+                      <PlayButton
+                        isPlaying={true}
+                        onClick={this.handleRecordClick}
+                      />
+                    </div>
                   </div>
                 </Suspense>
               )}
@@ -391,7 +407,7 @@ class AvatarSetup extends React.Component<Props, State> {
                 </div>
               )}
             </div>
-            {(clipStatus === 'notStarted' || clipStatus === 'starting') &&
+            {clipStatus === 'notStarted' &&
               (!hasClip && (
                 <Button
                   outline
@@ -404,14 +420,27 @@ class AvatarSetup extends React.Component<Props, State> {
                   </Localized>
                 </Button>
               ))}
+            {clipStatus === 'starting' &&
+              (!hasClip && (
+                <Button
+                  outline
+                  rounded
+                  className="primary cancel-but"
+                  onClick={this.cancelRecording}>
+                  <CrossIcon />
+                  <Localized id="cancel-avatar-clip-recording">
+                    <span />
+                  </Localized>
+                </Button>
+              ))}
             {clipStatus === 'started' && (
               <Button
                 outline
                 rounded
-                className="primary "
-                onClick={this.handleRecordClick}>
-                <StopIcon />
-                <Localized id="recording-voice-wave">
+                className="primary cancel-but"
+                onClick={this.cancelRecording}>
+                <CrossIcon />
+                <Localized id="cancel-avatar-clip-recording">
                   <span />
                 </Localized>
               </Button>
@@ -425,7 +454,7 @@ class AvatarSetup extends React.Component<Props, State> {
                     className="primary-3 "
                     onClick={this.cancelRecording}>
                     <RedoIcon />
-                    <Localized id="cancel-avatar-clip-recording">
+                    <Localized id="retry-voice-wave-recording">
                       <span />
                     </Localized>
                   </Button>

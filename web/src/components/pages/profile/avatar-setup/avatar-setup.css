@@ -71,8 +71,8 @@
         height: 57px;
 
         position: relative;
-        left: 22%;
-        right: 22%;
+        left: 24%;
+        right: 24%;
         text-decoration: none;
 
         &:hover {
@@ -80,21 +80,44 @@
             box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
             & svg {
                 background: white;
-                color: red;
                 opacity: 1;
                 & path {
                     fill: red;
                 }
             }
         }
+        @media only screen and (max-width: 375px) {
+            left: 18%;
+            right: 18%;
+        }
     }
+    .cancel-but {
+        width: 0%;
+        min-width: 10rem;
+        left: 30%;
+        right: 30%;
+        &:hover {
+            & svg {
+                & path {
+                    fill: grey;
+                }
+            }
+        }
+    }
+
+    .recording-stop {
+        position: relative;
+        top: -78%;
+    }
+
     .primary-2 {
-        width: 30%;
+        width: 70%;
+        min-width: 10rem;
         height: 57px;
         background-color: #59cbb7;
         position: relative;
-        left: 9%;
-        right: 9%;
+        left: 39%;
+        right: 39%;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
@@ -107,19 +130,20 @@
             }
         }
         @media only screen and (max-width: 375px) {
-            left: 16%;
-            right: 16%;
+            left: 48%;
+            right: 48%;
         }
     }
 
     .primary-3 {
         display: inline-flex;
-        width: 10%;
+        width: 70%;
+        min-width: 10rem;
         height: 57px;
         background-color: var(--white);
         position: relative;
-        left: 8%;
-        right: 8%;
+        left: 34%;
+        right: 34%;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
@@ -133,9 +157,9 @@
         }
 
         @media only screen and (max-width: 375px) {
-            left: 15%;
-            right: 15%;
-            margin-bottom: 10px;
+            left: 47%;
+            right: 47%;
+            margin-bottom: 20px;
         }
     }
 

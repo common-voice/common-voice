@@ -323,6 +323,7 @@ off = Off
 on = On
 avatar-clip-title = Give your avatar a voice
 record-voice-wave = RECORD VOICEWAVE
+retry-voice-wave-recording = RETRY
 recording-voice-wave = Recording
 ready-to-upload = Upload
 avatar-clip-fact = It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
