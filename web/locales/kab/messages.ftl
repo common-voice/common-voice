@@ -290,7 +290,7 @@ profile-form-submit-saved = Yettwasekles
 male = Amalay
 female = Unti
 # Gender
-other = Wiyaḍ
+other = Ayen-nniḍen
 why-profile-title = Acuɣer amaɣnu?
 why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i yiselkimen n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
 dashboard = Tafelwit n usenqed
