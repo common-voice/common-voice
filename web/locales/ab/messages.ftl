@@ -682,6 +682,7 @@ overall-accuracy = Азеиԥш иашара.
 ## Custom Goals
 
 get-started-goals = Ахықәкқәа уалага
+create-custom-goal = Еиқәшәо ахықәкы аԥҵара
 both-speak-and-listen = Аҩбагьы
 both-speak-and-listen-long = Аҩбагьы (Аҭаҩреи Азыӡырҩреи)
 daily-goal = Есымшатәи Ахықәкы
@@ -690,6 +691,9 @@ easy-difficulty = Имариоуп
 average-difficulty = Ибжьаратәуп
 difficult-difficulty = Ицәгьоуп
 pro-difficulty = Про
+want-to-continue = Уҿызаароума?
+finish-editing = Уи аԥхьа аԥсахра уалгар уҭахума?
+build-custom-goal = Еиқәшәо ахықәкы аҟаҵара
 n-clips = { NUMBER($count) } анҵамҭақәа
 goal-interval-weekly = Есымчыб­жьатәи
 share-goal-type-speak = Абжьы ҭаҩра
