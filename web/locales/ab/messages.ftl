@@ -320,6 +320,7 @@ avatar-clip-title = Уныԥшга абжьы иҭ
 record-voice-wave = АШЬҬЫБЖЬТӘ ЦӘҚӘЫРԤА
 recording-voice-wave = Абжьы ҭаҩра
 ready-to-upload = иҭагалатәуп
+recreate-voice = Ашьҭыбжьтә цәқәырԥа аиҭаԥҵаразы
 cancel-avatar-clip-recording = Мап ацәктәуп
 browse-file-title = Асахьатә фаил иҭагалатәуп
 browse-file = Ииага ма <browseWrap>афаил алх</browseWrap>
@@ -627,6 +628,7 @@ listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
 nothing-to-validate = Аишьҭагыла ахархәараҟны уҳацхраа, ари абызшәала арҽеирақәа злаҟаҳҵаша акгьы ҳамам.
 record-button-label = Убжьы ҭаҩтәуп
 share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны рыԥшаараҿы.
+login-to-get-started = Уҭала мамзаргьы уҽҭагала алагаразы
 
 ## Reporting
 
@@ -687,6 +689,7 @@ weekly-goal = Есымчыб­жьатәи Ахықәкы
 easy-difficulty = Имариоуп
 average-difficulty = Ибжьаратәуп
 difficult-difficulty = Ицәгьоуп
+pro-difficulty = Про
 n-clips = { NUMBER($count) } анҵамҭақәа
 goal-interval-weekly = Есымчыб­жьатәи
 share-goal-type-speak = Абжьы ҭаҩра
