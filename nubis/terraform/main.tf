@@ -46,7 +46,7 @@ module "sync" {
   max_instances = "1"
   instance_type = "t2.large"
 
-  role = "${module.worker.role}"
+  instance_profile = "${module.worker.instance_profile}"
 
   # Wait up to 10 minutes for warming up (in seconds)
   health_check_grace_period = "600"
