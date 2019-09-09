@@ -397,6 +397,7 @@ about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與我們
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
+mycroft-description = Mycroft 是全球第一套的開放原始碼的語音助理，無論在電腦、汽車、Raspberry Pi 或任何地方都能運作。
 
 ## Glossary
 
@@ -468,13 +469,14 @@ subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見要回饋嗎？
+common-voice-info-new = 有關於 Common Voice 的問題嗎？有針對某種語言的新點子或改善的意見嗎？歡迎加入 <discourseLink>Discourse 討論區</discourseLink>留言給我們知道。
 data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
 data-other-voxforge-description = VoxForge 的成立，是用來收集被抄寫的對話內容，給自由與開放源碼的語音辨識引擎使用。
 data-other-tatoeba-description = Tatoeba 是一套用於語言學習的大型數據庫，當中包含了各種句子、翻譯、以及錄音。這個下載項目包含了其社群所錄下的英語語音。
-your-feedback = 您有任何可以讓 Common Voice 資料集變得更好的點子嗎？歡迎到 Discourse 告訴我們
-go-discourse = 前往 Discourse
+your-feedback = 您有任何可以讓 Common Voice 資料集變得更好的點子嗎？歡迎到 Discourse 討論區告訴我們
+go-discourse = 前往 Discourse 討論區
 missing-language = 沒在數據集中看到您的語言？請到語言頁面要求新增語言。
 go-languages-page = 前往語言版面
 ready-to-validate = 準備好幫手驗證句子了嗎？
@@ -598,6 +600,7 @@ report-other-comment =
     .placeholder = 附註
 success = 成功
 continue = 繼續
+report-success = 成功送出報告內容
 
 ## Goals
 
