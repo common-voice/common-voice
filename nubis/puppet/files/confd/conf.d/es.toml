@@ -1,7 +1,7 @@
 [template]
 src = "es.conf.tmpl"
 dest = "/etc/apache2/conf.d/elasticsearch.conf"
-prefix = "/%%PROJECT%%-%%ENVIRONMENT%%/%%ENVIRONMENT%%
+prefix = "/%%PROJECT%%-%%ENVIRONMENT%%/%%ENVIRONMENT%%"
 
 uid = 0
 gid = 0

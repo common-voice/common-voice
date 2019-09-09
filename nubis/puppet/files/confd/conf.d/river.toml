@@ -1,7 +1,7 @@
 [template]
 src = "river.toml.tmpl"
 dest = "/etc/river.toml"
-prefix = "/%%PROJECT%%-%%ENVIRONMENT%%/%%ENVIRONMENT%%
+prefix = "/%%PROJECT%%-%%ENVIRONMENT%%/%%ENVIRONMENT%%"
 
 uid = 0
 gid = 0
