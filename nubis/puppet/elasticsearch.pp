@@ -23,3 +23,10 @@ staging::file { 'go-mysql-elasticsearch':
   group  => 'root',
   mode   => '0755',
 }
+
+systemd::unit_file { 'go-mysql-elasticsearch.service':
+  source => 'puppet:///nubis/files/go-mysql-elasticsearch.systemd',
+}
+->service { 'go-mysql-elasticsearch':
+  enable => false,
+}
