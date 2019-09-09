@@ -11,3 +11,5 @@ keys = [
     "/config/*",
     "/config"
 ]
+
+reload_cmd = "if nubis-purpose sync; then systemctl restart go-mysql-elasticsearch; else true; fi"
