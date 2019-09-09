@@ -1,0 +1,13 @@
+[template]
+src = "river.toml.tmpl"
+dest = "/etc/river.toml"
+prefix = "/voice-stage/stage"
+
+uid = 0
+gid = 0
+mode = "0644"
+
+keys = [
+    "/config/*",
+    "/config"
+]
