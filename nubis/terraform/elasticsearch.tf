@@ -17,6 +17,7 @@ resource "aws_security_group" "es" {
 
     security_groups = [
       "${module.worker.security_group}",
+      "${module.sync.security_group}",
     ]
   }
 }
