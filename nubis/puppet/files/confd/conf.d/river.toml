@@ -1,7 +1,7 @@
 [template]
 src = "river.toml.tmpl"
 dest = "/etc/river.toml"
-prefix = "/voice-stage/stage"
+prefix = "/%%PROJECT%%-%%ENVIRONMENT%%/%%ENVIRONMENT%%
 
 uid = 0
 gid = 0
@@ -12,4 +12,5 @@ keys = [
     "/config"
 ]
 
-reload_cmd = "if nubis-purpose sync; then systemctl restart go-mysql-elasticsearch; else true; fi"
+# For now, enable in stage only
+reload_cmd = "if nubis-purpose sync && [ $(nubis-metadata NUBIS_ENVIRONMENT) == stage ] ; then systemctl restart go-mysql-elasticsearch; else true; fi"
