@@ -264,6 +264,14 @@ const UserClient = {
     );
   },
 
+  async deleteAvatarClipURL(email: string) {
+    const url: null = null;
+    await db.query(
+      'UPDATE user_clients SET avatar_clip_url = ? WHERE email = ?',
+      [url, email]
+    );
+  },
+
   async findClientId(email: string): Promise<null | string> {
     const [[row]] = await db.query(
       'SELECT client_id FROM user_clients WHERE email = ? AND has_login',
