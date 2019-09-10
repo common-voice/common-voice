@@ -322,6 +322,7 @@ ready-to-upload = 上載
 avatar-clip-fact = 眾所周知，文字嘅排版會影響讀者接收頁面資訊嘅能力。
 recreate-voice = 重新建立 Voicewave
 cancel-avatar-clip-recording = 取消
+about-avatar-clip-recording = 喺個人檔案中加入錄音片段，讓其他人可以用滑鼠游標聽到你嘅聲音。
 browse-file-title = 上傳圖片
 browse-file = 拖放至此處，或<browseWrap>按此瀏覽</browseWrap>
 connect-gravatar = 連結到 Gravatar
@@ -339,6 +340,7 @@ faq-title = 常見問題
 faq-what-cv-q = Common Voice 係咩嘢？
 faq-why-important-q = 點解咁重要？
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
+faq-when-release2-q = 你哋幾時會發布其他語言的 Common Voice 數據？
 faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
 faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
@@ -639,6 +641,7 @@ show-ranking = 顯示我的排名
 
 ## Custom Goals
 
+get-started-goals = 訂立目標，開始貢獻
 create-custom-goal = 訂立個人目標
 both-speak-and-listen = 兩樣都做
 both-speak-and-listen-long = 兩樣都做 (又聽又講)
@@ -658,7 +661,9 @@ cant-decide = 決定唔到？
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
 which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？
+not-receiving-emails-info = 你目前選擇 <bold>不接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報的電郵。
 n-clips = { NUMBER($count) } 段錄音
+help-share-goal = 幫助我們找更多人參與錄音，分享您的目標
 confirm-goal = 確認目標
 goal-interval-weekly = 每週
 # $type is one of share-goal-type-*
