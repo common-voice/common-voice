@@ -9,6 +9,11 @@
 .clip {
     border-right: solid 1px;
     border-color: whitesmoke;
+    padding-right: 20px;
+    @media only screen and (max-width: 414px) {
+        border-color: white;
+        padding-right: 0px;
+    }
 
     & h2 {
         max-width: 334px;
@@ -29,7 +34,7 @@
         left: 15%;
         right: 15%;
         padding-top: 10px;
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 414px) {
             left: 6%;
             right: 6%;
         }
@@ -62,10 +67,9 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 320px;
     }
-    .icon {
-        color: red;
-    }
+
     .primary {
         width: 30%;
         height: 57px;
@@ -86,7 +90,7 @@
                 }
             }
         }
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 414px) {
             left: 18%;
             right: 18%;
         }
@@ -94,14 +98,18 @@
     .cancel-but {
         width: 0%;
         min-width: 10rem;
-        left: 30%;
-        right: 30%;
+        left: 32%;
+        right: 32%;
         &:hover {
             & svg {
                 & path {
                     fill: grey;
                 }
             }
+        }
+        @media only screen and (max-width: 414px) {
+            left: 25%;
+            right: 25%;
         }
     }
 
@@ -112,12 +120,12 @@
 
     .primary-2 {
         width: 70%;
-        min-width: 10rem;
+        min-width: 9rem;
         height: 57px;
         background-color: #59cbb7;
         position: relative;
-        left: 39%;
-        right: 39%;
+        left: 95%;
+        right: 95%;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
@@ -129,21 +137,21 @@
                 }
             }
         }
-        @media only screen and (max-width: 375px) {
-            left: 48%;
-            right: 48%;
+        @media only screen and (max-width: 414px) {
+            left: 44%;
+            right: 44%;
+            min-width: 8rem;
         }
     }
 
     .primary-3 {
-        display: inline-flex;
         width: 70%;
-        min-width: 10rem;
+        min-width: 9rem;
         height: 57px;
         background-color: var(--white);
         position: relative;
-        left: 34%;
-        right: 34%;
+        left: 78%;
+        right: 78%;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
@@ -156,10 +164,10 @@
             }
         }
 
-        @media only screen and (max-width: 375px) {
-            left: 47%;
-            right: 47%;
-            margin-bottom: 20px;
+        @media only screen and (max-width: 414px) {
+            left: 40%;
+            right: 40%;
+            min-width: 8rem;
         }
     }
 
@@ -168,7 +176,7 @@
         height: 58px;
         text-align: center;
         color: grey;
-        padding-top: 36px;
+        padding-top: 30px;
         padding-left: 22px;
     }
 
@@ -182,6 +190,16 @@
         padding-left: 22px;
     }
 
+    .delete-voice {
+        max-width: 470px;
+        height: 58px;
+        text-align: center;
+        color: #629ff4;
+        cursor: pointer;
+        padding-top: 36px;
+        padding-left: 10px;
+    }
+
     .hide-recreate {
         display: none;
     }
@@ -192,7 +210,7 @@
 
     .counter {
         position: relative;
-        top: 35px;
+        top: 18%;
     }
 
     .fix {
@@ -232,7 +250,7 @@
         border-bottom-color: #f89096;
         width: 95%;
         height: 70px;
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 414px) {
             height: 50px;
         }
     }
@@ -255,12 +273,12 @@
 
     .recorded-play {
         position: relative;
-        top: 30px;
+        top: 10%;
     }
 }
 
 .photo-avatar {
-    @media only screen and (max-width: 415px) {
+    @media only screen and (max-width: 414px) {
         padding-top: 36px;
     }
     width: 35%;
@@ -290,7 +308,7 @@
             position: relative;
             border: 3px dotted var(--light-grey);
             box-sizing: border-box;
-            width: 260px;
+            width: 245px;
             height: 130px;
 
             & .title {
@@ -337,7 +355,7 @@
             font-family: var(--base-font-family);
             font-size: var(--font-size);
             font-weight: 600;
-            width: 260px;
+            width: 245px;
 
             & .link path {
                 fill: var(--blue);

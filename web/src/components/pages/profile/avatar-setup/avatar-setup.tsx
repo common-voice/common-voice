@@ -20,6 +20,7 @@ import {
   ShareIcon,
   RedoIcon,
   CrossIcon,
+  TrashIcon,
 } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
 import { Voice, PlayButton } from '../../../primary-buttons/primary-buttons';
@@ -274,6 +275,24 @@ class AvatarSetup extends React.Component<Props, State> {
     refreshUser();
   }
 
+  private async deleteAvatarClip() {
+    const { api, refreshUser, addNotification, addUpload } = this.props;
+
+    try {
+      await api.deleteAvatarClip();
+      console.log('done');
+      this.setState({ clipStatus: 'notStarted' });
+      let clip = await this.props.api.fetchAvatarClip();
+      clip
+        ? this.setState({ avatarClipUrl: clip })
+        : this.setState({ avatarClipUrl: null });
+    } catch (error) {
+      console.log(error);
+    }
+
+    refreshUser();
+  }
+
   private counter = async () => {
     if (this.state.clipStatus === 'notStarted') {
       this.audio.release();
@@ -294,7 +313,11 @@ class AvatarSetup extends React.Component<Props, State> {
   };
 
   private updateAvatarClip = () => {
-    this.setState({ avatarClipUrl: null, counter: 3 });
+    this.setState({
+      avatarClipUrl: null,
+      counter: 3,
+      clipStatus: 'notStarted',
+    });
   };
 
   private cancelRecording = async () => {
@@ -344,9 +367,33 @@ class AvatarSetup extends React.Component<Props, State> {
               onEnded={() => this.setState({ isPlaying: false })}
               onError={() => this.setState({ isPlaying: false })}
             />
-            <Localized id="avatar-clip-title">
-              <h2 className="clip-title" />
-            </Localized>
+            {/*heading */}
+
+            {clipStatus === 'notStarted' && hasClip && (
+              <Localized id="change-your-avatar-clip">
+                <h2 className="clip-title" />
+              </Localized>
+            )}
+            {clipStatus === 'notStarted' && !hasClip && (
+              <Localized id="avatar-clip-title">
+                <h2 className="clip-title" />
+              </Localized>
+            )}
+            {clipStatus === 'starting' && (
+              <Localized id="avatar-clip-title">
+                <h2 className="clip-title" />
+              </Localized>
+            )}
+            {clipStatus === 'started' && (
+              <Localized id="recording-in-progress">
+                <h2 className="clip-title" />
+              </Localized>
+            )}
+            {clipStatus === 'recorded' && (
+              <Localized id="avatar-clip-recorded">
+                <h2 className="clip-title" />
+              </Localized>
+            )}
             {/* Below fix div is for middle content of avatar setup like wave image, lottie animation */}
             <div className="fix">
               {(clipStatus === 'notStarted' || clipStatus === 'starting') &&
@@ -407,6 +454,39 @@ class AvatarSetup extends React.Component<Props, State> {
                 </div>
               )}
             </div>
+            {/* ALL buttons, first page delete and re-record buttons */}
+            {clipStatus === 'notStarted' &&
+              (hasClip && (
+                <div>
+                  <div className="but">
+                    <div>
+                      <Button
+                        outline
+                        rounded
+                        className="primary-3 "
+                        onClick={this.updateAvatarClip}>
+                        <MicIcon />
+                        <Localized id="re-record">
+                          <span />
+                        </Localized>
+                      </Button>
+                    </div>
+                    <div>
+                      <Button
+                        outline
+                        rounded
+                        className="primary-2 "
+                        onClick={this.deleteAvatarClip.bind(this)}>
+                        <TrashIcon />
+                        <Localized id="delete-voice">
+                          <span />
+                        </Localized>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              ))}
+
             {clipStatus === 'notStarted' &&
               (!hasClip && (
                 <Button
@@ -446,30 +526,40 @@ class AvatarSetup extends React.Component<Props, State> {
               </Button>
             )}
             {clipStatus === 'recorded' && (
-              <div className="but">
-                <div>
-                  <Button
-                    outline
-                    rounded
-                    className="primary-3 "
-                    onClick={this.cancelRecording}>
-                    <RedoIcon />
-                    <Localized id="retry-voice-wave-recording">
-                      <span />
-                    </Localized>
-                  </Button>
+              <div>
+                <div className="but">
+                  <div>
+                    <Button
+                      outline
+                      rounded
+                      className="primary-3 "
+                      onClick={this.cancelRecording}>
+                      <RedoIcon />
+                      <Localized id="retry-voice-wave-recording">
+                        <span />
+                      </Localized>
+                    </Button>
+                  </div>
+                  <div>
+                    <Button
+                      outline
+                      rounded
+                      className="primary-2 "
+                      onClick={this.uploadAvatarClip.bind(this)}>
+                      <ShareIcon />
+                      <Localized id="ready-to-upload">
+                        <span />
+                      </Localized>
+                    </Button>
+                  </div>
                 </div>
-                <div>
-                  <Button
-                    outline
-                    rounded
-                    className="primary-2 "
-                    onClick={this.uploadAvatarClip.bind(this)}>
-                    <ShareIcon />
-                    <Localized id="ready-to-upload">
-                      <span />
-                    </Localized>
-                  </Button>
+                <div className="delete-voice">
+                  <Localized id="delete-voice-clip">
+                    <p
+                      className="delete-voice"
+                      onClick={this.deleteAvatarClip.bind(this)}
+                    />
+                  </Localized>
                 </div>
               </div>
             )}
@@ -477,15 +567,6 @@ class AvatarSetup extends React.Component<Props, State> {
               <>
                 <Localized id="avatar-clip-fact">
                   <p className="create-a-custom-voice" />
-                </Localized>
-                <Localized id="recreate-voice">
-                  <p
-                    className={
-                      'recreate-voice ' +
-                      (this.isUnsupportedPlatform ? 'hide-recreate' : '')
-                    }
-                    onClick={this.updateAvatarClip}
-                  />
                 </Localized>
               </>
             ) : (
