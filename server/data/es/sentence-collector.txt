@@ -474,6 +474,7 @@ Deja ya de jorobar a tu hermano que se va a enfadar
 Dejaos de cuchufletas que no estoy para gilipolleces
 Del antiguo camino no queda nada.
 Del dicho al hecho hay mucho trecho.
+Demanda que los fabricantes de hardware no permitan  instalar cualquier software
 Demasiado corto. Necesitamos más monos .
 Demasiado pastel y demasiado helado, supongo. ¡ es un error!
 Demasiados dulces y helados. Sólo es un error .
@@ -645,6 +646,7 @@ El ojo del amo, engorda al caballo.
 El olivar hace el bien, aunque le hagan el mal.
 El ordenador hace un ruido bastante feo.
 El origen de estas croquetas es una receta de la abuela.
+El origen de estos problemas radica en un artículo
 El paciente esta listo.
 El padre lo único que tenía que hacer era sentarse en un cojín.
 El pago se abona el día cinco de cada mes.
@@ -855,6 +857,7 @@ Entrevistan el pintor en la radio.
 Entro en casa, me quito la ropa y, reventado, me tiro en el sofá.
 Era a los que podían, a los editores, a quienes iban dirigidas estas leyes
 Era duro de mollera y no daría su brazo a torcer
+Era la hora de la invitación al miedo
 Era más desgraciado que El Pupas
 Era más feliz que una perdiz
 Era más fácil que coser y cantar
@@ -1039,6 +1042,7 @@ Este año haremos un viaje por los trópicos.
 Este año le ha ido de lujo
 Este año le habrán echado antes.
 Este café es muy popular.
+Este cambio de responsabilidad parece conveniente para los usuarios
 Este coche es más lento que el caballo del malo
 Este cojín está duro como una piedra.
 Este crío habla hasta por los codos
@@ -1424,6 +1428,7 @@ La generosidad no abunda, mas bien escasea
 La gente de esta generación está muy confundida.
 La gente es muy falsa. Tanto tienes, tanto vales.
 La globalización ha sido una comida copiosa todavía no la hemos digerido
+La guerra se recrudeció y se hizo oficial
 La habitación del hotel no era igual a la de la foto
 La hallaba con el alma en el breviario.
 La harina, decían, pero era farlopa.
@@ -2342,6 +2347,7 @@ Pienso que has tomado suficiente té por hoy.
 Pienso que solo soy molesto.
 Poca hiel hace amarga mucha miel.
 Pocas personas saben tejer.
+Pocas veces esos dueños son los que un día crearon las obras
 Podemos leer el porvenir mirando el pasado.
 Podes hacer enojar a la pinza. ¿ qué está haciendo? ¡ basta!
 Podremos encontrar la manera de transportarte a tu casa.
@@ -3371,7 +3377,9 @@ burbuja, ve al huerto que hay en cubierta
 burbuja, ¿ sabe ruso?
 buscándose en la oscuridad de la noche bajo el aguacero.
 cabalgué y partimos.
+cada software que se pueda cargar en el dispositivo
 cada una con una forma y color diferentes.
+cada uno de los fragmentos que utilizas
 cada vez que entraban y salían parábanse a jugar una carta.
 caeremos y nos haremos pedazos antes de estabilizar el barco.
 cagando leches. tenemos un problema .
@@ -3541,12 +3549,14 @@ con un nudo llano. hay un cabo para cada uno de nosotros
 con un picaresco reír de los labios y de los dientes.
 con una cama de matrimonio
 con una mano me basta para patearte el culo.
+conciben los límites de éstas como poco menos que un robo permitido
 confieso que en tal momento sentí el frío y el estremecimiento del miedo.
 confieso que me sobrecogí.
 conmigo no va a estar, pero contigo tampoco.
 construiste una baliza de seguimiento a escondidas.
 contaba cada cual su dinero, y musitando airada y torvamente lo embolsaba.
 contigo estaba aprendiendo a recordarlo.
+contribuye con su experiencia a limitar los resultados negativos de este artículo
 convierten en propiedad privada algo que no se puede poseer.
 cornudo Consentido.
 corre, patito , que te quiere coger.
@@ -3605,6 +3615,7 @@ cuida a Estela, por favor.
 cuida de los chavales.
 cuidado, que mancho.
 cuidado con la patita.
+da a los fabricantes control de elección del software que pueda ejecutarse
 da igual, hay que cumplirlo.
 dame esta noche, por favor.
 damos la vuelta.
@@ -3816,6 +3827,7 @@ el capitán de los plateados, que halló aquí vuecencia.
 el cojo, el cegato
 el corro se deshizo entre murmullos y comentos:
 el culo de la botella. dame .
+el cumplimiento de las regulaciones de radio aplicables
 el céfiro nocturno traía del jardín aromas y susurros:
 el dieciocho de septiembre.
 el diente. entonces
@@ -3843,6 +3855,7 @@ el jarocho hizo un grave ademán en muestra de asentimiento:
 el jarocho se incorporó, soltando la baraja con despecho:
 el juego proseguía como antes.
 el largo lamento de las guajiras expiraba deshecho entre las herraduras de los caballos.
+el legislador transforma los deseos del poder económico en leyes
 el marinero se acerca:
 el marinero se apartó reflexionando.
 el mayordomo inclinó la cabeza tristemente:
@@ -3873,6 +3886,7 @@ el pato va en rumbo nordeste.
 el perro había enmudecido, las voces se desvanecían.
 el pisito, Ricardo , el pisito con vistas.
 el problema o nunca mas, Ramiro.
+el problemático artículo mencionado aún está pendiente y esperando la definición exacta
 el profesor de supervivencia.
 el profesor de supervivencia soy yo.
 el que diga lo contrario es un mentiroso.
@@ -4097,6 +4111,7 @@ es porque no soy la Marquesa de Bradomín.
 es posible que podamos curarlos.
 es que...
 es que a veces las sorpresas pueden ser malas y feas.
+es que algo falla
 es que da igual. no da igual . te estoy diciendo
 es que deja sitio al siguiente.
 es que eres el amor de su vida.
@@ -4140,6 +4155,8 @@ es verdad, ¿ eso no son unos ojos?
 es vidrio templado.
 esa arena puede llevar meses flotando por el aire.
 esa historia me suena.
+esa imagen de las mujeres choca con la mentalidad
+esa limitación se cumple solo formalmente
 esas dos cortesanas menos bellas que su destino.
 esas profundas sentencias no deben permanecer dudosas.
 esbozábase la informe mancha de una cuadrilla de tiburones.
@@ -4285,6 +4302,7 @@ fuerza rumbo suroeste. tranquilo, yo me ocupo
 fué la respuesta un gesto ambiguo:
 fué una larga misa de difuntos.
 ganaba el jarocho, y los jinetes se alejaron:
+garanticen que el software solo se pueda cargar en el equipo de radio
 gasolina o papel para el culete.
 generando estas rachas de vientos. ah, claro .
 gime la brisa, riela la luna , el cielo azul turquí se torna negro 
@@ -4305,6 +4323,7 @@ guióme hasta el refectorio, y saludando más gangosa que nunca , se alejó.
 guío al Señor Marqués al refectorio, y torno a servirla luego , luego.
 ha dejado de...
 ha estado con Ulises, luego con Gamboa y ahora contigo.
+ha estado trabajando para crear conciencia entre el público
 ha funcionado. funciona .
 ha ido comiendo el terreno que pertenecía a los ciudadanos
 ha llegado la hora. vale, vamos .
@@ -4531,6 +4550,8 @@ la criolla estaba en el huerto tendida en una hamaca colgada de dos árboles.
 la criolla tenía el pañuelo sobre los ojos y suspiraba.
 la crueldad de la criolla me horrorizaba y me atraía:
 la desesperanza no entiende de religiones.
+la directiva ya la están aplicando en las legislaciones nacionales de los Estados miembros
+la discusión sobre su extensión temporal
 la doctora honoris_causa. vaya, vaya .
 la donada murmuró con tímida curiosidad:
 la familia al completo. mi amor
@@ -4574,6 +4595,8 @@ la que se pone con el escaparate al aire...
 la que todos estamos deseando, encontrar tierra.
 la rayita. si ella no empieza de cero
 la raza sajona es la más despreciable de la tierra.
+la responsabilidad del cumplimiento recaía en los usuarios
+la seguridad, la competencia leal, el medio ambiente y las iniciativas comunitarias solidarias
 la sombra negruzca de un indio asomó en la puerta:
 la sombrilla, Ricardo.
 la sonrisa inquietante, los pies de niña , los hombros desnudos 
@@ -4633,6 +4656,7 @@ les... les han matado .
 les daba los libros y un babi como el nuestro.
 les falta la gracia, que es al modo de la sal en la vianda.
 les prometo que si trabajamos en equipo y no tenemos miedo
+les quita la capacidad de controlar esta importante tecnología
 les quitas las patitas...
 les subiremos a bordo. ¿ y si no?
 les tuvimos que abandonar a su suerte, fue como...
@@ -4712,6 +4736,7 @@ los cuadrados en el hueco de los cuadrados
 los curas siempre tiene algo que decir.
 los de mi clase hicimos una obra de teatro.
 los decadentismos de la generación nueva no los he sentido jamás.
+los derechos de autor les otorgan la facultad de uso y abuso
 los dientes.
 los dos, juntos.
 los dos flacos y cetrinos:
@@ -4725,6 +4750,7 @@ los fantasmas no existen ni en este barco ni en otro sitio.
 los hombres como yo todo lo perdonan.
 los jinetes, silenciosos y casi desnudos , avanzaban al paso con suma cautela:
 los labios hidrópicos del negro esbozaron una sonrisa de ogro avaro y sensual:
+los medios de comunicación los convierten en noticia o sentido común
 los nuevos estaban tristes al principio.
 los ojos bien abiertos, ¡ vamos!
 los ojos del mayordomo estaban llenos de lágrimas.
@@ -4741,6 +4767,7 @@ los párpados permanecían entreabiertos, rígidos , azulencos:
 los que dispararon estaban a poca distancia.
 los que escuchan música que no han comprado
 los que iban con ustedes en la balsa?
+los que ya han completado la evolución del mono al ser humano
 los siervos respondían a coro.
 los suizos siempre terminaban la tertulia con una canción
 los tres pasos para una cita perfecta.
@@ -5086,6 +5113,7 @@ no quiero ver a nadie en cubierta.
 no quiero ver volar por los aires ni una pluma, ¿ entendido?
 no se compra un caballo sin verle antes el diente.
 no se encajan igual a los veinte que a los cuarenta.
+no se ha movido un ápice desde aquella fecha
 no se insulta.
 no se llegue, mi amito , que puede clavarse...
 no se lo estoy pidiendo
@@ -5630,6 +5658,7 @@ que puedo cambiar.
 que se arrastra por el casco. ¿ de verdad hay un fantasma en el barco?
 que se ha reabsorbido.
 que se te ve que tienes un buen par de pulmones.
+que sea imposible instalar software personalizado en la mayoría de los dispositivos
 que siento mucho lo de Dulce.
 que sonriendo me mostró su lindo pie prisionero en chapín de seda.
 que soy tu marido, ¿ no?
@@ -5669,6 +5698,7 @@ quise conciliar otra vez el sueño, pero no pude conseguirlo.
 quise primero que la Niña Chole se destrenzase el cabello
 ramiro, si no lo anillamos con un chip , lo perderemos.
 raudas y quiméricas, me parecía respirar una esencia suave , deliciosa , divina:
+recabar esos consentimientos es fácil para casi nadie
 recelé algún encuentro como el pasado y tomé a buen paso camino del mar.
 recorrimos la feria sin dar vista por parte alguna a las tales jacas blancas.
 recuerdo perfectamente que estaba desierta y un poco oscura.
@@ -5680,6 +5710,7 @@ repartid eso y dejadnos.
 repito, que nadie suba a cubierta.
 repito. que nadie salga hasta nueva orden .
 representación y símbolo de mi vida.
+requiere que los fabricantes de dispositivos verifiquen
 respondí con una vaga sonrisa.
 retirarme a descansar, hermana.
 retorciéndose las manos, pálida , casi trágica , se adelantaba exclamando:
@@ -5714,6 +5745,7 @@ se dispersaron.
 se divisaba el resplandor rojizo de la selva que ardía.
 se fastidian. seguro . o no .
 se ha corrido la tinta un poco.
+se ha demostrado la conformidad de la combinación entre el equipo de radio
 se ha hecho sangre.
 se ha juntado una punta de tiburones, ¿ sabe?
 se ha movido. mira .
@@ -5824,6 +5856,7 @@ sin embargo, murmuré resuelto:
 sin embargo, todo es sangre de Nuestro Señor Jesucristo.
 sin embargo le interrogué:
 sin hacer alto una sola vez, llegamos a Tequil.
+sin importar si estaba relacionado con el hardware o el software
 sin meditarlo más, resolví atravesar los mares.
 sin más concierto que el deparado por la ventura.
 sin nada de nada.
@@ -5846,7 +5879,9 @@ solamente me quedaban algunas horas para recorrer aquel villaje indio.
 solamente por eso merecía ser Arzobispo de México.
 solo podemos esperar.
 solo pretendo que le quede claro.
+solo pueden hacerse si cuentas con autorización
 solo que el tema no ha salido.
+solo que se va otorgando por fascículos
 solo quiero que me examinen y lo comprueben.
 solo quiero ser un chaval normal, pasar desapercibido...
 solo te pido una cosa, que luches por la felicidad
@@ -5976,8 +6011,11 @@ tenía las niñas de los ojos pequeñas, tenaces y brillantes
 tenía los ojos fieros y una mano cercenada.
 tenía su sonrisa y su mirar.
 tenían envidia de mis manos que todo lo sabían...
+teoría que defienden los que reciben sus rentas de manos visibles y bien visibles
 tiempo hay de contar.
+tiene implicaciones negativas sobre los derechos de los usuarios
 tiene la cabeza pregonada.
+tiene que hacerse con la vista fija en ese fin
 tiene que ser tierra.
 tiene un paso que se traga los caminos, y la boca una seda.
 tiene veinticuatro horas para analizarlo, averiguar si estuvo en tierra
@@ -7434,6 +7472,7 @@ yo ya no puedo estar contigo.
 ¿Ya has comido suficiente?
 ¿Ya te has tomado el jarabe?
 ¿Ya te lo comiste? Pues ahora que el cuerpo lo reparta
+¿incentiva su creación o la asfixia?
 ¿podemos vernos mañana un ratito y hablamos sobre esto?
 Él dice que no fue un accidente.
 Él es mío, y nadie me lo quitará.
