@@ -165,6 +165,7 @@
 
     .delete-but {
         background-color: white;
+        font-size: 13.5px;
     }
 
     .primary-3 {
@@ -175,6 +176,7 @@
         position: relative;
         left: 43%;
         right: 43%;
+        font-size: 13.5px;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1) !important;
