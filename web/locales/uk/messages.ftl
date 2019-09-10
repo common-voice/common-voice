@@ -695,6 +695,16 @@ create-custom-goal = Створіть власну ціль
 both-speak-and-listen = Обидва
 both-speak-and-listen-long = Обидва (говорити та слухати)
 daily-goal = Щоденна ціль
+easy-difficulty = Легко
+average-difficulty = Середнє
+difficult-difficulty = Складно
+pro-difficulty = Pro
+want-to-continue = Хочете продовжити?
+finish-editing = Завершити спочатку редагування?
+lose-changes-warning = Якщо ви підете зараз, ваш прогрес буде втрачено
+share-goal-type-speak = Запис
+share-goal-type-listen = Перевірка
+share-goal-type-both = Запис та перевірка
 
 ## Profile Delete
 
