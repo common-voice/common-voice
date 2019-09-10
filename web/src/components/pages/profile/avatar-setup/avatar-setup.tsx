@@ -233,7 +233,6 @@ class AvatarSetup extends React.Component<Props, State> {
   };
 
   private saveRecording = () => {
-    console.log(this.state.clipStatus, 'llllllllllll');
     if (this.state.clipStatus === 'started') {
       const RECORD_STOP_DELAY = 500;
       setTimeout(async () => {
@@ -463,7 +462,7 @@ class AvatarSetup extends React.Component<Props, State> {
                       <Button
                         outline
                         rounded
-                        className="primary-3 "
+                        className="primary-3 rerecord-but"
                         onClick={this.updateAvatarClip}>
                         <MicIcon />
                         <Localized id="re-record">
@@ -475,7 +474,7 @@ class AvatarSetup extends React.Component<Props, State> {
                       <Button
                         outline
                         rounded
-                        className="primary-2 "
+                        className="primary-2 delete-but"
                         onClick={this.deleteAvatarClip.bind(this)}>
                         <TrashIcon />
                         <Localized id="delete-voice">
@@ -492,7 +491,7 @@ class AvatarSetup extends React.Component<Props, State> {
                 <Button
                   outline
                   rounded
-                  className="primary "
+                  className="primary rerecord-but"
                   onClick={this.counter}>
                   <MicIcon />
                   <Localized id="record-voice-wave">
@@ -534,7 +533,7 @@ class AvatarSetup extends React.Component<Props, State> {
                       rounded
                       className="primary-3 "
                       onClick={this.cancelRecording}>
-                      <RedoIcon />
+                      <MicIcon />
                       <Localized id="retry-voice-wave-recording">
                         <span />
                       </Localized>
