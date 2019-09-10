@@ -87,6 +87,7 @@ mk = Македонська
 ml = Малаялам
 mn = Монгольська
 mrj = Гірськомарійська
+mt = Мальтійська
 myv = Ерзянська
 nb-NO = Норвезька Букмол
 ne-NP = Непальська
@@ -95,7 +96,7 @@ nn-NO = Норвезька Нюношк
 oc = Провансальська
 or = Орія
 pl = Польська
-pt-BR = Португальська (Бразилія)
+pt = Португальська
 rm-sursilv = Ретороманська сурсільванська
 ro = Румунська
 ru = Російська
@@ -210,7 +211,6 @@ x-years-short =
        *[other] { $count } років
     }
 help-make-dataset = Допоможіть нам створити високоякісний, публічно-відкритий набір даних
-profile-not-required = Для допомоги необов'язково мати профіль, але він був би корисним
 sign-up-account = Зареєструвати обліковий запис
 email-subscription-title = Підпишіться на оновлення
 
@@ -329,8 +329,10 @@ skip-submission-description = Після натискання кнопки "По
 skip-submission-note = Примітка: Вам все одно необхідно буде обрати між записом і прослуховуванням для зміни типу допомоги.
 off = Вимкнено
 on = Увімкнено
-add-avatar-title = Додати аватар у свій профіль
-add-avatar-clip = Додати аватар до профілю
+avatar-clip-title = Дайте голос своєму аватару
+record-voice-wave = Записати голос
+recreate-voice = Перезаписати голос
+about-avatar-clip-recording = Створіть голосовий кліп як частину аватара вашого профілю. Інші зможуть навести курсор і прослухати ваш кліп.
 browse-file-title = Завантажити файл зображення
 browse-file = Перетягніть або <browseWrap>Огляд</browseWrap>
 connect-gravatar = З'єднатися з Gravatar
@@ -349,6 +351,7 @@ faq-what-cv-q = Що таке Common Voice?
 faq-why-important-q = Чому це важливо?
 faq-how-get-q = Як я можу одержати дані Common Voice?
 faq-how-get-a = Набір даних Common Voice доступний для завантаження за ліцензією <licenseLink>CC0</licenseLink> на <datasetLink>нашій сторінці Наборів даних</datasetLink>. Також можна завантажити кілька інших загальнодоступних наборів даних з цієї ж сторінки.
+faq-when-release2-q = Коли буде випущено дані Common Voice іншими мовами?
 faq-why-mission-q = Чому Common Voice є частиною місії Mozilla?
 faq-what-cv-and-deepspeech-q = У чому різниця між Common Voice та Deep Speech?
 faq-what-cv-and-deepspeech-a = Набір даних Common Voice доповнює механізм розпізнавання мовлення Deep Speech Mozilla. Перша версія Deep Speech була випущена в листопаді 2017 року і продовжує розвиватися. Разом із набором даних Common Voice, ми вважаємо, що ця технологія розпізнавання голосу з відкритим вихідним кодом повинна бути доступною для всіх. Ми сподіваємося, що ці технології дозволять розробникам створити хвилю інноваційних продуктів і послуг.
@@ -566,7 +569,6 @@ language-section-launched = Запущено
 language-section-launched-description = Для цих мов веб-сайт успішно <localizationGlossaryLink>локалізовано</localizationGlossaryLink>, і зібрано достатньо <sentenceCollectionGlossaryLink>речень</sentenceCollectionGlossaryLink>, щоб почати збір <speakLink>озвучувань</speakLink> та <listenLink>перевірку записів</listenLink>.
 languages-show-more = Більше мов
 languages-show-less = Менше мов
-language-speakers = Носіїв
 language-meter-in-progress = Перебіг виконання
 language-total-progress = Разом
 language-search-input =
@@ -620,15 +622,28 @@ listen-last-time-instruction = <playIcon></playIcon> Останній!
 nothing-to-validate = У нас немає нічого для перевірки цією мовою, допоможіть нам заповнити чергу.
 record-button-label = Запишіть свій голос
 share-title-new = <bold>Допоможіть нам</bold> знайти більше голосів
+keep-track-profile = Слідкуйте за своїм прогресом за допомогою профілю
+login-to-get-started = Увійдіть або зареєструйтесь, щоб розпочати
 
 ## Reporting
 
 report = Звіт
 report-title = Надіслати звіт
+report-ask = Які проблеми у вас виникають із цим реченням?
 report-offensive-language = Образливі вирази
+report-offensive-language-detail = У реченні є неповажна або образлива мова.
+report-grammar-or-spelling = Граматична / орфографічна помилка
+report-different-language = Інша мова
+report-different-language-detail = Написано мовою, відмінною від тої, якою я розмовляю.
 report-difficult-pronounce = Складний для вимови
+report-difficult-pronounce-detail = Містить слова чи фрази, які важко читати чи вимовляти.
+report-offensive-speech = Образлива мова
+report-offensive-speech-detail = У кліпі є неповажна або образлива мова.
+report-other-comment =
+    .placeholder = Коментар
 success = Успішно
 continue = Продовжити
+report-success = Звіт успішно надіслано!
 
 ## Goals
 
@@ -661,6 +676,7 @@ clips-you-validated = Записи, які ви перевірили
 todays-recorded-progress = Прогрес запису кліпів на Common Voice за сьогодні
 todays-validated-progress = Прогрес перевірки кліпів на Common Voice за сьогодні
 stats = Статистика
+awards = Нагороди
 you = Ви
 everyone = Усі користувачі
 contribution-activity = Активність помічників
@@ -669,10 +685,16 @@ recorded-clips = Озвучено
 validated-clips = Перевірено
 total-approved = Всього затверджено
 overall-accuracy = Загальна точність
+set-visibility = Встановити мою видимість
+show-ranking = Показати мій рейтинг
 
 ## Custom Goals
 
-toward-next-goal = Наступна ціль
+get-started-goals = Розпочати з цілей
+create-custom-goal = Створіть власну ціль
+both-speak-and-listen = Обидва
+both-speak-and-listen-long = Обидва (говорити та слухати)
+daily-goal = Щоденна ціль
 
 ## Profile Delete
 
