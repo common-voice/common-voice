@@ -694,6 +694,7 @@ validated-clips = Échantillons validés
 total-approved = Total approuvé
 overall-accuracy = Précision globale
 set-visibility = Définir ma visibilité
+visibility-explainer = Ce paramètre contrôle la visibilité de votre progression dans le classement. Lorsqu’elle est cachée, votre progression sera privée. Cela signifie que votre image, votre nom d’utilisateur et votre progression n’apparaîtront pas dans le classement. Notez que l’actualisation du classement prend environ { $minutes } minutes pour remplir les modifications.
 visibility-overlay-note = Remarque : lorsqu’il est défini sur « Visible », ce paramètre peut être modifié depuis <profileLink>votre profil</profileLink>.
 show-ranking = Afficher mon classement
 
