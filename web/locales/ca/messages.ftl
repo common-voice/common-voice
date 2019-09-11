@@ -731,6 +731,7 @@ how-many-per-day = Genial! Quants talls per dia?
 how-many-a-week = Genial! Quants talls per setmana?
 which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
 receiving-emails-info = Actualment teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice.
+not-receiving-emails-info = Actualment <bold>NO</bold> rebeu correus electrònics com ara recordatoris dels objectius, actualitzacions del progrés personal o notícies sobre el Common Voice
 n-clips = { NUMBER($count) } talls
 help-share-goal = Ajudeu-nos a trobar més veus, compartiu el vostre objectiu
 confirm-goal = Confirmo l'objectiu
