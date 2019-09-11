@@ -52,7 +52,21 @@ schema = "{{ if exists "/config/Database/Name" }}{{ getv "/config/Database/Name"
 tables = [
  "awards",
  "clips",
- "votes",
+ "custom_goals",
  "downloaders",
+ "language_requests",
  "locales",
+ "reported_clips",
+ "reported_sentences",
+ "requested_languages",
+ "skipped_sentences",
+ "user_client_accents",
+ "user_client_activities",
+ "votes",
+ "user_clients",
 ]
+
+[[rule]]
+schema = "{{ if exists "/config/Database/Name" }}{{ getv "/config/Database/Name" }}{{ else }}voiceweb{{ end }}"
+table = "user_clients"
+filter = ["client_id", "email", "age", "gender"]
