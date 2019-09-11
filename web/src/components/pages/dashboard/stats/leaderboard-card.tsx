@@ -217,7 +217,6 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
                 />
                 <button
                   className="avatar-container"
-                  title="Click to play avatar"
                   onMouseEnter={() =>
                     this.playAvatarClip(
                       row.avatarClipUrl,

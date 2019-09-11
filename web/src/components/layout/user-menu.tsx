@@ -60,19 +60,19 @@ export default function UserMenu() {
           onEnded={() => setShowAnimation(false)}
           onError={() => setShowAnimation(false)}
         />
-        <button
-          className="toggle"
-          title="click to play avatar"
-          onMouseEnter={playAvatar}
-          onMouseLeave={playAvatar}
-          onClick={playAvatar}>
-          <div>
-            <Avatar url={account.avatar_url} />
+        <button className="toggle">
+          <div
+            className="username-btn"
+            onMouseEnter={playAvatar}
+            onMouseLeave={playAvatar}
+            onClick={playAvatar}>
+            <div>
+              <Avatar url={account.avatar_url} />
+            </div>
+            <span className="name" title={account.username}>
+              {account.username}
+            </span>
           </div>
-          <span className="name" title={account.username}>
-            {account.username}
-          </span>
-
           <MenuIcon className={showMenu ? 'active' : ''} />
         </button>
         <div className="menu-wrap">
