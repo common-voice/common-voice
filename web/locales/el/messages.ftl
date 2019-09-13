@@ -640,6 +640,8 @@ recorded-clips = Ηχογραφημένα κλιπ
 validated-clips = Επικυρωμένα κλιπ
 total-approved = Σύνολο εγκεκριμένων
 overall-accuracy = Συνολική ακρίβεια
+set-visibility = Ορισμός ορατότητας
+show-ranking = Εμφάνιση κατάταξης
 
 ## Custom Goals
 
