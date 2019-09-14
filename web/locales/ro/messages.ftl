@@ -204,7 +204,7 @@ x-years-short =
 help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, liber la dispoziția publicului
 sign-up-account = Înscrie-te pentru un cont
 email-subscription-title = Abonează-te la informări prin e-mail
-email-subscription-title-new = Abonează-te la buletinele de știri Common Voice, memento-uri de obiective și actualizări despre progres
+email-subscription-title-new = Abonează-te la buletinele informative Common Voice, mementouri de obiective și actualizări despre progres
 
 ## Account Benefits
 
@@ -729,8 +729,8 @@ activity-needed-calculation = { NUMBER($totalHours) } de ore se pot atinge în n
 how-many-per-day = Grozav! Câte înregistrări pe zi?
 how-many-a-week = Grozav! Câte înregistrări pe săptămână?
 which-goal-type = Vrei să vorbești, să asculți sau ambele?
-receiving-emails-info = Setarea curentă este că vei primi mesaje pe e-mail cu memento-uri de obiective, actualizări despre progres și buletine de știri despre Common Voice
-not-receiving-emails-info = Setările curente sunt să <bold>NU</bold> primești pe e-mail memento-uri de obiective, actualizări cu progresul înregistrat și buletine de știri despre Common Voice
+receiving-emails-info = Ai optat ca să primești e-mailuri precum mementouri de obiective, actualizări despre progres și buletine informative despre Common Voice
+not-receiving-emails-info = Ai optat ca să <bold>NU</bold> primești e-mailuri precum mementouri de obiective, actualizări cu progresul înregistrat și buletine informative despre Common Voice
 n-clips = { NUMBER($count) } secvențe
 help-share-goal = Ajută-ne să găsim mai multe voci; partajează-ți obiectivul
 confirm-goal = Confirmă obiectivul
