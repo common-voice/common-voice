@@ -518,7 +518,7 @@ dataset-description-hours =
     Fiecare intrare din setul de date constă dintr-un MP3 unic și fișierul text corespondent. Multe dintre cele <b>{ $total }</b> de ore înregistrate din setul de date includ și metadate demografice, precum vârstă, sex și accent, care ajută la antrenarea pentru acuratețe a motoarelor de recunoaștere vocală.
     
     Setul de date constă în prezent din <b>{ $valid }</b> de ore validate în <b>{ $languages }</b> de limbi, dar adăugăm constant mai multe voci și limbi. Aruncă o privire pe <languagesLink>Pagina de limbi</languagesLink> ca să soliciți o limbă sau ca să începi să contribui și tu.
-want-dataset-update = Vrei să fii informat(ă) când lansăm o nouă versiune a setului de date Common Voice? Abonează-te la buletinul informativ.
+want-dataset-update = Vrei să fii informat(ă) când lansăm o nouă versiune a setului de date Common Voice? Abonează-te la buletinul nostru informativ.
 subscribe = Abonare
 get-started-speech = Familiarizează-te cu recunoașterea vocală
 other-datasets = Alte seturi de date vocale
