@@ -3,8 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash_bg"
+    android:background="@android:color/white"
     tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/img_splash"
+        android:layout_width="@dimen/splash_logo_width"
+        android:layout_height="@dimen/splash_logo_height"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_bg"
+        android:contentDescription="@string/img_des" />
+
+    <TextView
+        android:id="@+id/txt_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_splash"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_x_large"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imgSpeech"
@@ -12,10 +36,12 @@
         android:layout_height="@dimen/ic_size"
         android:src="@drawable/ic_speech"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
+        android:layout_margin="40dp"
         android:visibility="invisible"
+        android:contentDescription="@string/img_des"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        tools:ignore="RtlHardcoded" />
 
     <ImageView
         android:id="@+id/imgListen"
@@ -23,9 +49,11 @@
         android:layout_height="@dimen/ic_size"
         android:src="@drawable/ic_play"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
+        android:layout_margin="40dp"
         android:visibility="invisible"
+        android:contentDescription="@string/img_des"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        tools:ignore="RtlHardcoded" />
 
 </RelativeLayout>

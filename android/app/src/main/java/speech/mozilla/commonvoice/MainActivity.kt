@@ -1,4 +1,4 @@
-package speeech.mozilla.commonvoice
+package speech.mozilla.commonvoice
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -6,28 +6,19 @@ import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.os.Build
 import android.os.Bundle
-import android.support.v4.app.ActivityCompat
-import android.support.v4.content.ContextCompat
-import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.View
-import android.webkit.CookieManager
-import android.webkit.WebView
-import android.webkit.WebViewClient
+import android.webkit.*
+import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_main.*
-import android.support.v4.app.ActivityCompat.requestPermissions
-import android.annotation.TargetApi
-import android.webkit.PermissionRequest
-import android.webkit.WebChromeClient
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-
 
 
 open class MainActivity : AppCompatActivity() {
 
     private val url = "https://voice.mozilla.org/"
-    private val RECORD_REQUEST_CODE = 101
-    private val TAG = "Voice Mozilla - Common Voice"
+    private val recordRequestCode = 101
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -59,22 +50,25 @@ open class MainActivity : AppCompatActivity() {
             }
         }
 
-        webview.setWebChromeClient(object : WebChromeClient() {
+        webview.webChromeClient = object : WebChromeClient() {
             // Need to accept permissions programmatically to use the microphone
             override fun onPermissionRequest(request: PermissionRequest) {
-                Log.d(TAG, "onPermissionRequest")
+                Log.d("Voice Mozilla", "onPermissionRequest")
                 this@MainActivity.runOnUiThread {
-                    requestPermissions()
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                        requestPermissions()
+                    }
                     request.grant(request.resources)
                 }
             }
-        })
+        }
     }
 
+    @SuppressLint("SetJavaScriptEnabled", "ObsoleteSdkInt")
     private fun setUpWebViewDefaults() {
 
         // Get the web view settings instance
-        val settings = webview.settings;
+        val settings = webview.settings
 
         // Enable java script in web view
         settings.javaScriptEnabled = true
@@ -125,37 +119,34 @@ open class MainActivity : AppCompatActivity() {
 
         settings.allowFileAccess = true
 
-
     }
 
     override fun onBackPressed() {
         if (webview.canGoBack()) {
             // If web view have back history, then go to the web view back history
             webview.goBack()
-        }
+        } else
+            super.onBackPressed()
     }
 
     // Ask the permission to use the mic if it hasn't already been granted
+    @RequiresApi(Build.VERSION_CODES.M)
     private fun requestPermissions() {
-        val permission = ContextCompat.checkSelfPermission(this,
-                Manifest.permission.RECORD_AUDIO)
+        val permission = ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO)
 
         if (permission != PackageManager.PERMISSION_GRANTED) {
-
-            ActivityCompat.requestPermissions(this,
-                    arrayOf(Manifest.permission.RECORD_AUDIO),
-                    RECORD_REQUEST_CODE)
+            requestPermissions(arrayOf(Manifest.permission.RECORD_AUDIO), recordRequestCode)
         }
     }
 
     override fun onRequestPermissionsResult(requestCode: Int,
                                             permissions: Array<String>, grantResults: IntArray) {
-        if (requestCode == RECORD_REQUEST_CODE) {
-            if (grantResults.size == 0 || grantResults[0] != PackageManager.PERMISSION_GRANTED) {
+        if (requestCode == recordRequestCode) {
+            if (grantResults.isEmpty() || grantResults[0] != PackageManager.PERMISSION_GRANTED) {
 
-                Log.i(TAG, "Permission has been denied")
+                Log.i("Voice Mozilla", "Permission has been denied")
             } else {
-                Log.i(TAG, "Permission has been granted")
+                Log.i("Voice Mozilla", "Permission has been granted")
             }
         }
     }

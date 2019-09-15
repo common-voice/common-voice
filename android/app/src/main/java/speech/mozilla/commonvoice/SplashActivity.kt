@@ -1,19 +1,18 @@
-package speeech.mozilla.commonvoice
+package speech.mozilla.commonvoice
 
+import android.app.Activity
 import android.content.Intent
-import android.opengl.Visibility
 import android.os.Bundle
 import android.os.Handler
-import android.support.v7.app.AppCompatActivity
 import android.view.View
-import android.view.animation.*
+import android.view.animation.AnimationUtils
 import kotlinx.android.synthetic.main.activity_splash.*
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : Activity() {
     private var mDelayHandler: Handler? = null
-    private val SPLASH_DELAY: Long = 3000 //3 seconds
+    private val splashDelay: Long = 2000 //3 seconds
 
-    internal val mRunnable: Runnable = Runnable {
+    private val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
             val intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
@@ -21,24 +20,8 @@ class SplashActivity : AppCompatActivity() {
         }
     }
 
-    internal val mRunnableForIcons: Runnable = Runnable {
+    private val mRunnableForIcons: Runnable = Runnable {
         if (!isFinishing) {
-
-
-            /*val fadeIn = AlphaAnimation(0f, 1f)
-            fadeIn.interpolator = DecelerateInterpolator() //add this
-            fadeIn.duration = 1000
-
-            val fadeOut = AlphaAnimation(1f, 0f)
-            fadeOut.interpolator = AccelerateInterpolator() //and this
-            fadeOut.startOffset = 1000
-            fadeOut.duration = 1000
-
-            val animation = AnimationSet(false) //change to false
-            animation.addAnimation(fadeIn)
-            animation.addAnimation(fadeOut)
-            imgSpeech.setAnimation(animation)*/
-
             imgSpeech.visibility = View.VISIBLE
             imgListen.visibility = View.VISIBLE
 
@@ -56,10 +39,10 @@ class SplashActivity : AppCompatActivity() {
         mDelayHandler = Handler()
 
         //Navigate with delay
-        mDelayHandler!!.postDelayed(mRunnable, SPLASH_DELAY)
+        mDelayHandler!!.postDelayed(mRunnable, splashDelay)
 
-
-        mDelayHandler!!.postDelayed(mRunnableForIcons, 1000)
+        // Speech and Listen Icon Animation
+        mDelayHandler!!.postDelayed(mRunnableForIcons, 500)
 
 
     }
