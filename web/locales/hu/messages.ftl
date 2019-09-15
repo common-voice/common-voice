@@ -205,7 +205,6 @@ x-years-short =
        *[other] { $count } év
     }
 help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
-profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
 sign-up-account = Regisztráljon egy fiókot
 email-subscription-title = iratkozzon fel a hírlevélre
 email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a cél emlékeztetőkre és az előhaladásról szóló hírekre
@@ -324,15 +323,14 @@ skip-submission-description = A közreműködések beküldésekor a visszajelzé
 skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszéljen vagy Figyeljen lehetőséget a közreműködés típusának módosításához.
 off = Ki
 on = Be
-add-avatar-title = Avatár hozzáadása a profiljához
-add-avatar-clip = Egy avatár klip hozzáadása a profiljához
-create-voice-wave = Hanghullám létrehozása
+avatar-clip-title = Adjon hangot az avatárjának
+record-voice-wave = HANGHULLÁM RÖGZÍTÉSE
 recording-voice-wave = Felvétel
 ready-to-upload = Feltöltés
 avatar-clip-fact = Régóta bebizonyosodott tény, hogy elvonja az olvasó figyelmét az oldal olvasható tartalma, ha az elrendezését figyeli.
 recreate-voice = Hozza létre újra a hanghullámot
 cancel-avatar-clip-recording = Mégse
-about-avatar-clip = A bemutatkozáshoz hozzon létre egy egyedi hanghullámot. A többi felhasználó fölé húzhatja az egeret, és meghallgathatja a klipjét.
+about-avatar-clip-recording = Hozzon létre egy hangklipet a profilja avatárjának részeként. Mások felé húzhatják az egeret, és meghallgathatják a klipet.
 browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
 connect-gravatar = Kapcsolódás a Gravatarral
@@ -587,7 +585,6 @@ language-section-launched = Elindítva
 language-section-launched-description = Az elindított nyelvek esetén a webhely már sikeresen <localizationGlossaryLink>lokalizálva lett</localizationGlossaryLink>, és elég <sentenceCollectionGlossaryLink>összegyűjtött mondat</sentenceCollectionGlossaryLink> van, hogy lehetővé tegye a <speakLink>Beszéd</speakLink> és <listenLink>Hallgatás</listenLink> közreműködéseket.
 languages-show-more = Több
 languages-show-less = Kevesebb
-language-speakers = Beszélők
 language-meter-in-progress = Előrehaladás
 language-total-progress = Összesen
 language-search-input =
@@ -710,7 +707,6 @@ show-ranking = Saját rangsor megjelenítése
 ## Custom Goals
 
 get-started-goals = Kezdje el a célok használatát
-toward-next-goal = A következő cél felé
 create-custom-goal = Egyéni cél létrehozása
 both-speak-and-listen = Mindkettő
 both-speak-and-listen-long = Mindkettő (Beszéd és figyelés)

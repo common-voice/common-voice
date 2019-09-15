@@ -69,6 +69,12 @@ resource "consul_keys" "config" {
     value  = "${aws_iam_access_key.bundler_bucket.secret}"
     delete = true
   }
+
+  key {
+    path   = "${module.consul.config_prefix}/ElasticSearch/Endpoint"
+    value  = "${aws_elasticsearch_domain.es.endpoint}"
+    delete = true
+  }
 }
 
 # Publish our outputs into Consul for our application to consume

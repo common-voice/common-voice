@@ -202,7 +202,6 @@ x-years-short =
        *[other] { $count }y
     }
 help-make-dataset = Hjälp oss bygga en högkvalitativ, öppen datamängd
-profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 sign-up-account = Registrera dig för ett konto
 email-subscription-title = registrera dig för uppdateringar via e-post
 email-subscription-title-new = Registrera dig för Common Voice nyhetsbrev, målpåminnelser och framstegsuppdateringar
@@ -321,15 +320,14 @@ skip-submission-description = Under inlämning av bidrag ignoreras återkoppling
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
-add-avatar-title = Lägg till en avatar till din profil
-add-avatar-clip = Lägg till ett avatar-klipp till din profil
-create-voice-wave = Skapa Voicewave
+avatar-clip-title = Ge din avatar en röst
+record-voice-wave = SPELA IN VOICEWAVE
 recording-voice-wave = Inspelning
 ready-to-upload = Ladda upp
 avatar-clip-fact = Det är sedan länge känt att en läsare kommer att bli distraherad av det läsbara innehållet på en sida när man tittar på dess layout.
-recreate-voice = Återskapa röstvåg
+recreate-voice = Återskapa Voicewave
 cancel-avatar-clip-recording = Avbryt
-about-avatar-clip = Skapa en anpassad röstvåg för att presentera dig själv. Andra användare kommer att kunna sväva  över ditt klipp och lyssna på det.
+about-avatar-clip-recording = Skapa ett röstklipp som en del av din profilavatar. Andra kan föra musen över den och lyssna på ditt klipp.
 browse-file-title = Ladda upp en bildfil
 browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
 connect-gravatar = Anslut med Gravatar
@@ -587,7 +585,6 @@ language-section-launched = Lanserad
 language-section-launched-description = För dessa lanserade språk har webbplatsen blivit <localizationGlossaryLink>översatt</localizationGlossaryLink> och har tillräckligt med <sentenceCollectionGlossaryLink>meningar insamlade</sentenceCollectionGlossaryLink> för att tillåta bidrag för <talkLink>Röst</speakLink> och <listenLink>Lyssna</listenLink>.
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
-language-speakers = Talas av
 language-meter-in-progress = Förlopp
 language-total-progress = Totalt
 language-search-input =
@@ -714,7 +711,6 @@ show-ranking = Visa min ranking
 ## Custom Goals
 
 get-started-goals = Kom igång med mål
-toward-next-goal = Till nästa mål
 create-custom-goal = Skapa ett anpassat mål
 both-speak-and-listen = Båda
 both-speak-and-listen-long = Båda (Prata och lyssna)
@@ -730,6 +726,7 @@ finish-editing = Avsluta redigeringen först?
 lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
 build-custom-goal = Bygg ett anpassat mål
 help-reach-hours = Hjälp oss att nå { NUMBER($hours) } timmar för { $language } med ett personligt mål
+help-reach-hours-general = Hjälp Common Voice att nå { NUMBER($hours) } timmar i ett språk med ett personligt mål
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
 activity-needed-calculation =
@@ -740,6 +737,9 @@ how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?
 receiving-emails-info =
     Du har valt att ta emot e-postmeddelanden som målpåminnelser, dina
+    framstegsuppdateringar och nyhetsbrev om Common Voice
+not-receiving-emails-info =
+    Du är för närvarande inställd på att <bold>INTE</bold> ta emot e-postmeddelanden som målpåminnelser, min
     framstegsuppdateringar och nyhetsbrev om Common Voice
 n-clips = { NUMBER($count) } klipp
 help-share-goal = Hjälp oss att hitta fler röster, dela ditt mål

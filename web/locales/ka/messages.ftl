@@ -201,7 +201,6 @@ x-years-short =
        *[other] { $count } წელი
     }
 help-make-dataset = დაგვეხმარეთ მაღალი ხარისხის, საჯაროდ ხელმისაწვდომი კრებულის შექმნაში
-profile-not-required = პროფილის ქონა არაა სავალდებულო, თუმცა შემოტანილ წვლილს მეტად სარგებლიანს გახდის
 sign-up-account = ანგარიშის შექმნა
 email-subscription-title = გამოიწერეთ ელფოსტაზე სიახლეები
 email-subscription-title-new = გამოიწერეთ Common Voice-ის ახალი ამბები, მიზნის შეხსენებები და მიმდინარე წინსვლის შესახებ ცნობები
@@ -320,15 +319,14 @@ skip-submission-description = წვლილის შეტანისას 
 skip-submission-note = შენიშვნა: თქვენ მაინც უნდა მიუთითოთ ჩაწერასა და მოსმენას შორის რომელიმე, იმისდა მიხედვით, თუ რა სახის წვლილის შეტანა გსურთ.
 off = გამორთ.
 on = ჩართ.
-add-avatar-title = პროფილზე გამოსახულების დამატება
-add-avatar-clip = დაამატე შენი პროფილის სურათი
-create-voice-wave = შექმენით Voicewave
+avatar-clip-title = გაახმოვანეთ თქვენი გამოსახულება
+record-voice-wave = ჩაწერეთ VOICEWAVE
 recording-voice-wave = იწერება
 ready-to-upload = ატვირთვა
 avatar-clip-fact = ცნობილია, რომ მკითხველს ყურადღებას უფანტავს გვერდზე მოცემული წასაკითხი შიგთავსი, როცა მის განლაგებას ხედავს.
 recreate-voice = ხელახლა შექმენით Voicewave
 cancel-avatar-clip-recording = გაუქმება
-about-avatar-clip = შექმენით თქვენეული Voice Wave, საკუთარი თავის წარსადგენად. სხვა მომხმარებლებს შეეძლებათ მაჩვენებლის გადატარებით ამ ჩანაწერის მოსმენა.
+about-avatar-clip-recording = შექმენით ხმოვანი ჩანაწერი პროფილის გამოსახულებისთვის. სხვები მის მოსმენას შეძლებენ მაჩვენებლის გადატარებისას.
 browse-file-title = ატვირთეთ სურათის ფაილი
 browse-file = გადმოიტანეთ და მოათავსეთ ან <browseWrap>მოიძიეთ</browseWrap>
 connect-gravatar = Gravatar-თან დაკავშირება
@@ -577,7 +575,6 @@ language-section-launched = გაშვებულია
 language-section-launched-description = მოცემულ ენებზე ვებსაიტი სრულადაა <localizationGlossaryLink>თარგმნილი</localizationGlossaryLink> და <sentenceCollectionGlossaryLink>წინადადებებიც საკმარისადაა </sentenceCollectionGlossaryLink>შეგროვებული ხმის <speakLink>ჩაწერისა</speakLink> და ჩანაწერების <listenLink>მოსმენისთვის</listenLink>.
 languages-show-more = ვრცლად
 languages-show-less = შემოკლებულად
-language-speakers = მოსაუბრე
 language-meter-in-progress = მიმდინარეობა
 language-total-progress = სულ
 language-search-input =
@@ -700,7 +697,6 @@ show-ranking = ჩემი ადგილის ნახვა
 ## Custom Goals
 
 get-started-goals = მიზნის შექმნა
-toward-next-goal = პირდაპირ შემდეგ მიზნამდე
 create-custom-goal = საკუთარი მიზნის შექმნა
 both-speak-and-listen = ორივე
 both-speak-and-listen-long = ორივე (წარმოთქმა და მოსმენა)

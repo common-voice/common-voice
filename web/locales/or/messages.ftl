@@ -199,7 +199,6 @@ x-years-short =
        *[other] { $count } ବର୍ଷ
     }
 help-make-dataset = ଆମକୁ ଏକ ଉଚ୍ଚ ଗୁଣାତ୍ମକ ମାନ ବିଶିଷ୍ଟ ସର୍ବସାଧାରଣଙ୍କ ପାଇଁ ମୁକ୍ତ ତଥ୍ୟ ଭଣ୍ଡାର ଖୋଲିବାରେ ସାହାର୍ଯ୍ୟ କରନ୍ତୁ
-profile-not-required = ଯୋଗଦାନ କରିବାକୁ ଏକ ପ୍ରୋଫାଇଲ ତିଆରି କରିବା ବାଧ୍ୟତାମୂଳକ ନୁହେଁ, କିନ୍ତୁ ଏହା କିପରି ଲାଭଦାୟକ ତଳେ ଦେଖନ୍ତୁ ।
 sign-up-account = ଖାତାଟିଏ ଖୋଲନ୍ତୁ
 email-subscription-title = ଇମେଲରେ ଖବର ପାଆନ୍ତୁ
 email-subscription-title-new = କମନ ଭଏସ ସମ୍ବାଦପତ୍ର, ଲକ୍ଷ୍ୟ ମନେପକାଇବା ଏବଂ ପ୍ରଗତି ଅଦ୍ୟତନ ପାଇଁ ଖାତାଟିଏ ଖୋଲନ୍ତୁ
@@ -318,15 +317,14 @@ skip-submission-description = ଯୋଗଦାନ କରିବା ସମୟରେ
 skip-submission-note = ଟିପ୍ପଣୀ: ଯୋଗଦାନ ପ୍ରକାର ପରିବର୍ତ୍ତନ କରିବାକୁ ଆପଣଙ୍କୁ ଶୁଣିବା କିମ୍ବା କହିବା ମଧ୍ୟରୁ ଗୋଟିଏ ଚୟନ କରିବାକୁ ପଡ଼ିବ ।
 off = ବନ୍ଦ
 on = ଚାଲୁ
-add-avatar-title = ଆପଣଙ୍କର ପ୍ରୋଫାଇଲରେ ଏକ ଅବତାର ଯୋଡ଼ନ୍ତୁ
-add-avatar-clip = ଆପଣଙ୍କର ପ୍ରୋଫାଇଲରେ ଏକ ଅବତାର କ୍ଲିପ ଯୋଡନ୍ତୁ
-create-voice-wave = ଭଏସ ୱେଭ ତିଆରି କରନ୍ତୁ
+avatar-clip-title = ଆପଣଙ୍କର ଅବତାରକୁ ଗୋଟିଏ ଧ୍ୱନି ଦିଅନ୍ତୁ
+record-voice-wave = ଧ୍ୱନିତରଙ୍ଗ ରେକର୍ଡ କରନ୍ତୁ
 recording-voice-wave = ରେକର୍ଡ଼ିଂ
 ready-to-upload = ଅପଲୋଡ୍
 avatar-clip-fact = ଏହା ପୂର୍ବରୁ ପ୍ରମାଣିତ ଯେ ପାଠକ ପୃଷ୍ଠାଟିର ସଜାଣିକୁ ଦେଖି ବିଚଳିତ ହୋଇପାରେ
 recreate-voice = ଭଏସୱେଭକୁ ପୁନଃ ତିଆରି କରନ୍ତୁ
 cancel-avatar-clip-recording = ବାତିଲ କରନ୍ତୁ
-about-avatar-clip = ନିଜର ପରିଚୟ ଦେବାକୁ ଏକ ନିଜସ୍ୱ ସ୍ୱରଯୁକ୍ତ ଧ୍ୱନି ତିଆରି କରନ୍ତୁ । ଅନ୍ୟ ବ୍ୟବହାରକାରୀମାନେ ଆପଣଙ୍କ ଧ୍ୱନିଟିକୁ ହୋଭର କରି ଶୁଣିପାରିବେ ।
+about-avatar-clip-recording = ଆପଣଙ୍କର ପ୍ରୋଫାଇଲ ପାଇଁ ଏକ ଛୋଟ ଧ୍ୱନି ତିଆରି କରନ୍ତୁ । ଅନ୍ୟମାନେ ହୋଭର କରି ଆପଣଙ୍କର ଧ୍ୱନିଟି ଶୁଣିପାରିବେ ।
 browse-file-title = ଗୋଟିଏ ଛବି ଫାଇଲ ଅପଲୋଡ଼ କରନ୍ତୁ
 browse-file = ଭିଡିଆଣି କଚାଡ଼ିଦିଅନ୍ତୁ କିମ୍ବା <browseWrap> ଦେଖନ୍ତୁ </browseWrap>
 connect-gravatar = ଗ୍ରାବତାର ସହିତ ଯୋଡ଼ନ୍ତୁ
@@ -576,7 +574,6 @@ language-section-launched = ଆରମ୍ଭ ହେଲା
 language-section-launched-description = ଏହି ସବୁ ପ୍ରକାଶିତ ଭାଷାଗୁଡ଼ିକ ପାଇଁ ୱେବସାଇଟ ସଫଳତାର ସହିତ <localizationGlossaryLink>ସ୍ଥାନୀୟ</localizationGlossaryLink> କରାଯାଇଛି, ଏବଂ ଯଥେଷ୍ଟ ମାତ୍ରାରେ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink> ହୋଇଛି ଯାହାକୁ ଉପଯୋଗ କରି ଉଭୟ <speakLink>କଥାବାର୍ତ୍ତା</speakLink> ଏବଂ <listenLink>ଶୁଣିବାର</listenLink> ଯୋଗଦାନ ଦେଇହେବ ।
 languages-show-more = ଅଧିକ ଦେଖନ୍ତୁ
 languages-show-less = କମ ଦେଖନ୍ତୁ
-language-speakers = ବକ୍ତାଗଣ
 language-meter-in-progress = ପ୍ରଗତି
 language-total-progress = ମୋଟ
 language-search-input =
@@ -702,7 +699,6 @@ show-ranking = ମୋର ranking ଦେଖାନ୍ତୁ
 ## Custom Goals
 
 get-started-goals = ଲକ୍ଷ୍ୟ ସହ ଆରମ୍ଭ କରନ୍ତୁ
-toward-next-goal = ଆଗାମୀ ଲକ୍ଷ୍ୟ ଆଡ଼କୁ
 create-custom-goal = ଗୋଟିଏ ପରିବର୍ତ୍ତନଶୀଳ ଲକ୍ଷ୍ୟ ତିଆରି କରନ୍ତୁ
 both-speak-and-listen = ଉଭୟ
 both-speak-and-listen-long = ଉଭୟ (କୁହନ୍ତୁ ଏବଂ ଶୁଣନ୍ତୁ)

@@ -78,11 +78,10 @@ export async function sync(client_id: string) {
   if (getConfig().ENVIRONMENT != 'prod') {
     Object.assign(data, {
       last_active_date: toISO(row.last_active_date),
-      two_day_streak: row.two_day_streak,
+      two_day_streak: Boolean(row.two_day_streak),
     });
   }
 
-  console.log('basket', JSON.stringify(data, null, 2));
   await sendRequest({
     uri: API_URL + '/news/common-voice-goals/',
     method: 'POST',
@@ -91,4 +90,5 @@ export async function sync(client_id: string) {
     },
     form: data,
   });
+  console.log('basket', JSON.stringify(data, null, 2));
 }

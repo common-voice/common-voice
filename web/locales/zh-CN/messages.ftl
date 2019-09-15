@@ -196,7 +196,6 @@ x-years-short =
        *[other] { $count } 年
     }
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
-profile-not-required = 不需注册个人资料即可贡献，但如果注册的话会更有帮助
 sign-up-account = 注册账号
 email-subscription-title = 订阅邮件更新
 email-subscription-title-new = 订阅 Common Voice 新闻通讯、目标提醒和进度更新
@@ -314,15 +313,14 @@ skip-submission-description = 贡献期间，点击“提交”将跳过反馈�
 skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献类型。
 off = 关
 on = 开
-add-avatar-title = 在您的个人资料中添加头像
-add-avatar-clip = 为您的个人资料添加头像
-create-voice-wave = 创建 Voicewave
+avatar-clip-title = 让您的头像会说话
+record-voice-wave = 录制 VOICEWAVE
 recording-voice-wave = 正在录制
 ready-to-upload = 上传
 avatar-clip-fact = 有个由来已久的事实是，读者注视网页版面时，会被网页上的可读性内容分散注意力。
 recreate-voice = 重新创建 Voicewave
 cancel-avatar-clip-recording = 取消
-about-avatar-clip = 录制音频介绍自己，其他用户将可悬停聆听您的片段。
+about-avatar-clip-recording = 创建语音片段作为个人资料的一部分，他人可将鼠标悬停在您的头像上进行聆听。
 browse-file-title = 上传图片
 browse-file = 拖放至此，或者<browseWrap>浏览</browseWrap>
 connect-gravatar = 连接 Gravatar
@@ -575,7 +573,6 @@ language-section-launched = 已上线
 language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够的<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
-language-speakers = 参与人数
 language-meter-in-progress = 进度
 language-total-progress = 总共
 language-search-input =
@@ -695,7 +692,6 @@ show-ranking = 显示我的排名
 ## Custom Goals
 
 get-started-goals = 从设定目标开始
-toward-next-goal = 距离下一个目标
 create-custom-goal = 创建自定义目标
 both-speak-and-listen = 两者
 both-speak-and-listen-long = 两者（说与听）

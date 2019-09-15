@@ -39,7 +39,7 @@
             max-width: 100%;
             font-family: var(--base-font-family);
             font-weight: 600;
-            font-size: var(--font-size-xs);
+            font-size: 14px;
             text-transform: uppercase;
             letter-spacing: 0.4px;
             white-space: nowrap;
@@ -52,8 +52,7 @@
         }
 
         & svg {
-            margin-inline-start: auto;
-            margin-inline-end: 11px;
+            margin: 0 11px;
             transition: transform var(--easing) var(--transition-duration);
         }
     }
@@ -115,10 +114,6 @@
     }
 
     &.active {
-        & .toggle svg {
-            transform: rotateX(180deg);
-        }
-
         & .menu {
             display: flex;
         }

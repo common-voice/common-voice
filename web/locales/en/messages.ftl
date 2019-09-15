@@ -205,7 +205,6 @@ x-years-short =
     *[other] { $count }y
   }
 help-make-dataset = Help us build a high quality, publicly open dataset
-profile-not-required = Having a profile is not required to contribute though it is helpful
 sign-up-account = Sign up for an account
 email-subscription-title = sign up for email updates
 email-subscription-title-new = Sign up for Common Voice newsletters, goal reminders and progress updates
@@ -322,15 +321,14 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
-add-avatar-title = Add an avatar to your profile
-add-avatar-clip = Add an avatar to your profile and say “hello!”
-create-voice-wave = Create Voicewave
+avatar-clip-title = Give your avatar a voice
+record-voice-wave = RECORD VOICEWAVE
 recording-voice-wave = Recording
 ready-to-upload = Upload
 avatar-clip-fact = It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
 recreate-voice = Recreate Voicewave
 cancel-avatar-clip-recording = Cancel
-about-avatar-clip = Create a custom voice wave to introduce yourself. Other users will be able to hover and listen to your clip.
+about-avatar-clip-recording = Create a voice clip as part of your profile avatar. Others will be able to hover and listen to your clip.
 browse-file-title = Upload an image file
 browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
 connect-gravatar = Connect with Gravatar
@@ -598,7 +596,6 @@ language-section-launched = Launched
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 languages-show-more = See More
 languages-show-less = See Less
-language-speakers = Speakers
 language-meter-in-progress = Progress
 language-total-progress = Total
 language-search-input =
@@ -718,7 +715,6 @@ show-ranking = Show my ranking
 
 ## Custom Goals
 get-started-goals = Get started with goals
-toward-next-goal = Toward next goal
 create-custom-goal = Create a Custom Goal
 both-speak-and-listen = Both
 both-speak-and-listen-long = Both (Speak and Listen)

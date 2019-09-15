@@ -201,7 +201,6 @@ x-years-short =
        *[other] { $count } έτη
     }
 help-make-dataset = Βοηθήστε μας να συλλέξουμε υψηλής ποιότητας, δημόσια δεδομένα
-profile-not-required = Δεν απαιτείται να έχετε προφίλ για να συνεισφέρετε, αν και είναι χρήσιμο
 sign-up-account = Δημιουργία λογαριασμού
 email-subscription-title = Εγγραφή για ενημερώσεις μέσω email
 
@@ -319,8 +318,6 @@ skip-submission-description = Κατά την υποβολή της συνεισ
 skip-submission-note = Σημείωση: Θα πρέπει ακόμα να επιλέξετε ανάμεσα σε Ομιλία ή Ακρόαση για να αλλάξετε τον τύπο συνεισφοράς.
 off = Ανενεργό
 on = Ενεργό
-add-avatar-title = Προσθήκη avatar στο προφίλ σας
-add-avatar-clip = Προσθήκη κλιπ χρήστη στο προφίλ σας
 recording-voice-wave = Ηχογράφηση
 ready-to-upload = Μεταφόρτωση
 cancel-avatar-clip-recording = Ακύρωση
@@ -531,7 +528,6 @@ language-section-launched = Σε λειτουργία
 language-section-launched-description = Για αυτές τις εν λειτουργία γλώσσες, η ιστοσελίδα έχει <localizationGlossaryLink>μεταφραστεί</localizationGlossaryLink> επιτυχώς και έχει αρκετές <sentenceCollectionGlossaryLink>συλλεγμένες προτάσεις</sentenceCollectionGlossaryLink> για να είναι η δυνατή η συνεχής συνεισφορά <speakLink>ομιλίας</speakLink> και <listenLink>ακρόασης</listenLink>.
 languages-show-more = Δείτε περισσότερα
 languages-show-less = Λιγότερα
-language-speakers = Ομιλητές
 language-meter-in-progress = Πρόοδος
 language-total-progress = Σύνολο
 language-search-input =
@@ -600,6 +596,7 @@ report-offensive-language-detail = Η πρόταση περιέχει ασεβή
 report-grammar-or-spelling = Γραμματικό/ορθογραφικό σφάλμα
 report-grammar-or-spelling-detail = Η πρόταση έχει γραμματικό ή ορθογραφικό λάθος.
 report-different-language = Διαφορετική γλώσσα
+report-offensive-speech = Επιθετικός λόγος
 report-other-comment =
     .placeholder = Σχόλιο
 success = Επιτυχία
@@ -634,6 +631,7 @@ clips-you-validated = Επικυρωμένα κλιπ
 todays-recorded-progress = Σημερινή πρόοδος του Common Voice (ηχογραφημένα κλιπ)
 todays-validated-progress = Σημερινή πρόοδος του Common Voice (επικυρωμένα κλιπ)
 stats = Στατιστικά
+awards = Βραβεία
 you = Εσείς
 everyone = Όλοι
 contribution-activity = Δραστηριότητα συνεισφορών
@@ -642,10 +640,11 @@ recorded-clips = Ηχογραφημένα κλιπ
 validated-clips = Επικυρωμένα κλιπ
 total-approved = Σύνολο εγκεκριμένων
 overall-accuracy = Συνολική ακρίβεια
+set-visibility = Ορισμός ορατότητας
+show-ranking = Εμφάνιση κατάταξης
 
 ## Custom Goals
 
-toward-next-goal = Προς τον επόμενο στόχο
 create-custom-goal = Δημιουργία προσαρμοσμένου στόχου
 daily-goal = Ημερήσιος στόχος
 weekly-goal = Εβδομαδιαίος στόχος

@@ -199,7 +199,6 @@ x-years-short =
        *[other] { $count } sgs
     }
 help-make-dataset = Mudd-aɣ-d ad nebnu tagrumma n yisefka n tɣara ifazen, yeldin i medden meṛṛa
-profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
 sign-up-account = Jerred akken ad tesɛuḍ amiḍan amiḍan
 email-subscription-title = jerred akken ak-id-aweḍ telɣut s yimayl
 email-subscription-title-new = Jerred qer tebrat n yisallen n Common Voice, asmekti n yiswiyen akked ileqman n usfari
@@ -291,7 +290,7 @@ profile-form-submit-saved = Yettwasekles
 male = Amalay
 female = Unti
 # Gender
-other = Wiyaḍ
+other = Ayen-nniḍen
 why-profile-title = Acuɣer amaɣnu?
 why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i yiselkimen n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
 dashboard = Tafelwit n usenqed
@@ -318,15 +317,14 @@ skip-submission-description = Di lawan n utteki, tuzna n tmuɣli-inek ad tettwas
 skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad ferneḍ gar Mmeslay akked Timesliwt.
 off = Sens
 on = Rmed
-add-avatar-title = Rnu avataṛ i umiḍan-ik/im
-add-avatar-clip = Rnu avaṭar n usekles i umaɣnu-ik
-create-voice-wave = Rnu tamdeswalt n taɣect
+avatar-clip-title = Efk-as i uvatar-inek taɣect
+record-voice-wave = SEKLES TAMSEDWALT N TAƔECT
 recording-voice-wave = Asekles
 ready-to-upload = Asali
 avatar-clip-fact = Seg zik yettwassen d akken imeɣri ilehhu deg ugbur n tɣuri n usebter ticki yettwali ɣer tneɣruft-is.
 recreate-voice = Ales timerna n temdeswalt n taɣect
 cancel-avatar-clip-recording = Sefsex
-about-avatar-clip = Rnu tamsedwalt n taɣect tudmawant akken ad temmeslayeḍ ɣef yiman-ik. Iseqdacen-nniḍen ad izmiren ad slen i tikkusin-ik.
+about-avatar-clip-recording = Rnu deg uvataṛ n umaɣnu-ik akalas n taɣect. Wiyaḍ ad izmiren ad srifgen fell-as akken ad slen i usekles-ik.
 browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
@@ -581,7 +579,6 @@ language-section-launched = Yekker
 language-section-launched-description = I tutlayt-a asmel <localizationGlossaryLink> ittwasideg akken iwata </localizationGlossaryLink>, isεa <sentenceCollectionGlossaryLink> ddeqs n tefyar </sentenceCollectionGlossaryLink> akken ad ittwasireg <speakLink> asekles </speakLink> akked <listenLink> usentem </listenLink> n ittekiyen n iwiziwen
 languages-show-more = Wali ugar
 languages-show-less = Wali drus
-language-speakers = Wid yettmeslayen
 language-meter-in-progress = Asfari
 language-total-progress = Asemday
 language-search-input =
@@ -708,7 +705,6 @@ show-ranking = Sken asmizzwer-iw
 ## Custom Goals
 
 get-started-goals = Bdu d yiswiyen
-toward-next-goal = Ɣer iswi i d-iteddun
 create-custom-goal = Rnu iswi udmawan
 both-speak-and-listen = Di sin
 both-speak-and-listen-long = Di sin (Mmeslay u Sel)

@@ -25,6 +25,7 @@
     "node": ">=8.10.0"
   },
   "resolutions": {
+    "cryptiles": "4.1.2",
     "event-stream": "3.3.4",
     "@types/react": "16.8.19"
   },

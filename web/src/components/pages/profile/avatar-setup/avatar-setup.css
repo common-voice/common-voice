@@ -7,6 +7,9 @@
 }
 
 .clip {
+    border-right: solid 1px;
+    border-color: whitesmoke;
+
     & h2 {
         max-width: 334px;
         height: 58px;
@@ -31,6 +34,7 @@
             right: 6%;
         }
     }
+
     .group-1 {
         max-width: 508px;
         height: 169px;
@@ -154,6 +158,10 @@
         padding-left: 22px;
     }
 
+    .hide-recreate {
+        display: none;
+    }
+
     .voice-paragraph-2 {
         margin-bottom: 36px;
     }
@@ -164,7 +172,8 @@
     }
 
     .fix {
-        height: 180px;
+        padding-top: 40px;
+        height: 240px;
         max-width: 520px;
     }
     .start-in {
@@ -227,6 +236,9 @@
 }
 
 .photo-avatar {
+    @media only screen and (max-width: 415px) {
+        padding-top: 36px;
+    }
     width: 35%;
     .avatar-setup {
         border: none;
@@ -244,7 +256,6 @@
         & .connect {
             border-radius: 4px;
             margin-bottom: 30px;
-            width: 100%;
 
             @media (--lg-up) {
                 width: 70%;
@@ -255,6 +266,8 @@
             position: relative;
             border: 3px dotted var(--light-grey);
             box-sizing: border-box;
+            width: 260px;
+            height: 130px;
 
             & .title {
                 position: absolute;
@@ -300,6 +313,7 @@
             font-family: var(--base-font-family);
             font-size: var(--font-size);
             font-weight: 600;
+            width: 260px;
 
             & .link path {
                 fill: var(--blue);

@@ -87,6 +87,7 @@ mk = 馬其頓文
 ml = 馬拉亞拉姆文
 mn = 蒙古文
 mrj = 山地馬里文
+mt = 馬爾他文
 myv = 厄爾茲亞文
 nb-NO = 挪威文（書面語）
 ne-NP = 尼泊爾文
@@ -95,8 +96,9 @@ nn-NO = 挪威文（新挪威語）
 oc = 奧克文
 or = 歐利亞文
 pl = 波蘭文
-pt-BR = 葡萄牙文（巴西）
+pt = 葡萄牙文
 rm-sursilv = 羅曼蘇塞瓦語
+rm-vallader = 羅曼什瓦拉德文
 ro = 羅馬尼亞文
 ru = 俄文
 rw = 盧旺達文
@@ -108,6 +110,7 @@ sl = 斯洛維尼亞文
 sq = 阿爾巴尼亞文
 sr = 塞爾維亞文
 sv-SE = 瑞典文
+syr = 敘利亞文
 ta = 泰米爾文
 te = 泰盧固文
 tg = 塔吉克文
@@ -195,9 +198,9 @@ x-years-short =
        *[other] 年
     }
 help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
-profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助，下面話您知點解。
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
+email-subscription-title-new = 留低您嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
 
 ## Account Benefits
 
@@ -215,6 +218,7 @@ whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
 recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
 username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
+demographic-deidentified = 非必要提供的人口統計資料（例如年齡、性別、語言、口音）將會在您送出的語音資料中被去識別化，也永遠不會公開在您的資料上。
 username-email-not-demographic = 您的使用者名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
 ## Speak & Listen Shortcuts
@@ -311,8 +315,14 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
-add-avatar-title = 在您的個人檔案中加入頭像
-add-avatar-clip = 在您的個人檔案中加入頭像，同我們講聲哈囉！
+avatar-clip-title = 給你的個人頭像一把聲音
+record-voice-wave = 錄下 VOICEWAVE
+recording-voice-wave = 錄音中
+ready-to-upload = 上載
+avatar-clip-fact = 眾所周知，文字嘅排版會影響讀者接收頁面資訊嘅能力。
+recreate-voice = 重新建立 Voicewave
+cancel-avatar-clip-recording = 取消
+about-avatar-clip-recording = 喺個人檔案中加入錄音片段，讓其他人可以用滑鼠游標聽到你嘅聲音。
 browse-file-title = 上傳圖片
 browse-file = 拖放至此處，或<browseWrap>按此瀏覽</browseWrap>
 connect-gravatar = 連結到 Gravatar
@@ -330,6 +340,7 @@ faq-title = 常見問題
 faq-what-cv-q = Common Voice 係咩嘢？
 faq-why-important-q = 點解咁重要？
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
+faq-when-release2-q = 你哋幾時會發布其他語言的 Common Voice 數據？
 faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
 faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
@@ -388,6 +399,7 @@ about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與我們
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
+mycroft-description = Mycroft 是全球第一套的開放原始碼的語音助理，無論在電腦、汽車、Raspberry Pi 或任何地方都能運作。
 
 ## Glossary
 
@@ -459,13 +471,14 @@ subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見要回饋嗎？
+common-voice-info-new = 有關於 Common Voice 的問題嗎？有針對某種語言的新點子或改善的意見嗎？歡迎加入 <discourseLink>Discourse 討論區</discourseLink>留言給我們知道。
 data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
 data-other-voxforge-description = VoxForge 的成立，是用來收集被抄寫的對話內容，給自由與開放源碼的語音辨識引擎使用。
 data-other-tatoeba-description = Tatoeba 是一套用於語言學習的大型數據庫，當中包含了各種句子、翻譯、以及錄音。這個下載項目包含了其社群所錄下的英語語音。
-your-feedback = 您有任何可以讓 Common Voice 資料集變得更好的點子嗎？歡迎到 Discourse 告訴我們
-go-discourse = 前往 Discourse
+your-feedback = 您有任何可以讓 Common Voice 資料集變得更好的點子嗎？歡迎到 Discourse 討論區告訴我們
+go-discourse = 前往 Discourse 討論區
 missing-language = 沒在數據集中看到您的語言？請到語言頁面要求新增語言。
 go-languages-page = 前往語言版面
 ready-to-validate = 準備好幫手驗證句子了嗎？
@@ -511,7 +524,6 @@ language-section-launched = 已上線
 language-section-launched-description = 以下「已上線」的語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>令大家能用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
-language-speakers = 錄音人數
 language-meter-in-progress = 進度
 language-total-progress = 總計
 language-search-input =
@@ -568,9 +580,29 @@ listen-last-time-instruction = <playIcon></playIcon> 最後一個！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
+keep-track-profile = 建立個人檔案，紀錄您的進度
+login-to-get-started = 請登入或註冊，即可開始使用
 
 ## Reporting
 
+report = 舉報
+report-title = 提交報告
+report-ask = 這句句子有什麼問題？
+report-offensive-language = 冒犯人的語言
+report-offensive-language-detail = 這句話當中有不尊重他人或冒犯性的語言。
+report-grammar-or-spelling = 文法 / 拼字錯誤
+report-grammar-or-spelling-detail = 這句話的文法或寫法有錯誤。
+report-different-language = 其他語言
+report-different-language-detail = 這句是另一種語言的句子。
+report-difficult-pronounce = 難以發音
+report-difficult-pronounce-detail = 這句話當中有難以發音的文字或詞彙。
+report-offensive-speech = 冒犯人的錄音片段
+report-offensive-speech-detail = 這個片段中有不尊重他人或冒犯性的語言。
+report-other-comment =
+    .placeholder = 附註
+success = 成功
+continue = 繼續
+report-success = 成功送出報告內容
 
 ## Goals
 
@@ -605,10 +637,49 @@ recorded-clips = 錄音
 validated-clips = 已被驗證的錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
+show-ranking = 顯示我的排名
 
 ## Custom Goals
 
-toward-next-goal = 距離下一個目標
+get-started-goals = 訂立目標，開始貢獻
+create-custom-goal = 訂立個人目標
+both-speak-and-listen = 兩樣都做
+both-speak-and-listen-long = 兩樣都做 (又聽又講)
+daily-goal = 每日目標
+weekly-goal = 每週目標
+easy-difficulty = 輕鬆
+average-difficulty = 一般
+difficult-difficulty = 有難度
+pro-difficulty = 專業級
+lose-goal-progress-warning = 編輯目標後，可能會失去現有進度。
+want-to-continue = 你要繼續嗎？
+finish-editing = 要完成編輯嗎？
+lose-changes-warning = 現在離開將不會儲存您的變更
+build-custom-goal = 度身訂做目標
+set-a-goal = 訂立目標
+cant-decide = 決定唔到？
+how-many-per-day = 好啊！每日錄幾多段音？
+how-many-a-week = 好啊！每週錄幾多段音？
+which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？
+not-receiving-emails-info = 你目前選擇 <bold>不接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報的電郵。
+n-clips = { NUMBER($count) } 段錄音
+help-share-goal = 幫助我們找更多人參與錄音，分享您的目標
+confirm-goal = 確認目標
+goal-interval-weekly = 每週
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = 分享您的每日 { $type } 目標: { $count } 片段
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = 分享您的每週 { $type } 目標: { $count } 片段
+share-goal-type-speak = 講嘢
+share-goal-type-listen = 聼嘢
+share-goal-type-both = 又聽又講
+# LINK will be replaced with the current URL
+goal-share-text = 我啱啱訂立咗貢獻廣東話錄音俾 #CommonVoice 嘅目標，您都一齊嚟加入，幫機器學講純正嘅廣東話啦。{ $link }
+weekly-goal-created = 成功訂立咗您嘅每週目標
+daily-goal-created = 成功訂立咗您嘅每日目標
+track-progress = 可以在此追蹤進度，或前往統計頁面。
+return-to-edit-goal = 您可以隨時回到這裡編輯目標。
+share-goal = 分享我嘅目標
 
 ## Profile Delete
 

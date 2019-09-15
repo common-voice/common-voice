@@ -8,7 +8,10 @@ email-input =
     .label = דוא״ל
 submit-form-action = שליחה
 loading = בטעינה…
+email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
+email-opt-in-privacy = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות<privacyLink>.
 indicates-required = * מסמן שדה נחוץ
+not-available-abbreviation = לא זמין
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -80,7 +83,6 @@ nn-NO = נורווגית חדשה
 oc = אוקסיטנית
 or = אורייה
 pl = פולנית
-pt-BR = פורטוגלית (ברזיל)
 ro = רומנית
 ru = רוסית
 sah = סאחה
@@ -115,6 +117,7 @@ speak = דברו
 speak-now = נא לדבר כעת
 datasets = סדרות נתונים
 languages = שפות
+about = על אודות
 profile = פרופיל
 help = עזרה
 contact = יצירת קשר
@@ -176,7 +179,6 @@ x-years-short =
        *[other] { $count } שנים
     }
 help-make-dataset = מזמינים אותך לבנות מערך נתונים איכותי ופתוח לציבור
-profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב
 sign-up-account = יצירת חשבון
 email-subscription-title = הרשמה לעדכונים בדוא״ל
 
@@ -216,6 +218,7 @@ shortcut-vote-no = ל
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ק
 shortcut-record-toggle-label = הקלטה/עצירה
+shortcut-rerecord-toggle-label = הקלטת קטע מחדש
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
 request-language-button = בקשת שפה
 
@@ -291,6 +294,7 @@ connect-gravatar = התחברות עם Gravatar
 gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל שלך
 file_too_large = הקובץ שנבחר גדול מדי
 manage-subscriptions = ניהול מינויים
+manage-email-subscriptions = ניהול מינויי דוא״ל
 email-already-used = כתובת דוא״ל זו כבר בשימוש עבור חשבון אחר
 add-language = הוספת שפה
 
@@ -304,10 +308,20 @@ faq-where-src-from-2-q = מהיכן מגיע טקסט המקור?
 faq-why-account-q = מדוע עלי ליצור חשבון?
 faq-is-account-public-q = האם פרטי החשבון שלי חשופים לציבור?
 faq-how-privacy-q = איך אתם מבטיחים לשמור על האלמוניות והפרטיות של אלו שתרמו את קולם?
+faq-what-is-cv = מה זה Common Voice?
+faq-using-cv = שימוש ב־Common Voice
+faq-description = Common Voice הוא חלק מיוזמה של Mozilla לסייע בלימוד מכונות להבין כיצד מדברים אנשים אמתיים.
+faq-search-for-answers =
+    .label = חיפוש אחר תשובות
 
 ## ABOUT US
 
+about-title = למה Common Voice?
+how-does-it-work-title = איך זה עובד?
 about-speak = דבר
+about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
+about-nav-why-common-voice = למה?
+about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 mycroft-subtitle = בינה מלאכותית
 
@@ -389,6 +403,8 @@ missing-language = אינך רואה את השפה שלך במאגר המידע?
 go-languages-page = מעבר לעמוד השפות
 ready-to-validate = מוכנים לעזור לאמת משפטים?
 more = עוד
+close = סגירה
+download = הורדה
 dataset-version = גרסה
 
 ## Download Modal
@@ -417,6 +433,7 @@ request-language-form-language =
     .label = שפה
 request-language-success-title = בקשת השפה הוגשה בהצלחה, תודה רבה.
 request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף את השפה שלך ל־Common Voice בקרוב.
+select-language = בחירת שפה…
 other-language = שפה אחרת
 
 ## Languages Overview
@@ -425,7 +442,6 @@ language-section-in-progress = בתהליך
 language-section-launched = הושקו
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
-language-speakers = דוברים
 language-meter-in-progress = התקדמות
 language-total-progress = סה״כ
 language-search-input =
@@ -435,7 +451,7 @@ localized = תורגמו
 sentences = משפטים
 total-hours = שעות שאומתו
 
-## New Contribution
+## Contribution
 
 action-click = לחיצה
 action-tap = נגיעה
@@ -464,7 +480,6 @@ record-again-instruction = מושלם! <recordIcon></recordIcon> הקלטת המ
 record-again-instruction2 = עבודה יפה, עכשיו להקליט שוב <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> אחרון חביב!
 review-tooltip = ניתן לסקור ולהקליט מקטעים מחדש דרך כאן תוך כדי תנועה
-unable-speak = לא ניתן לדבר כרגע?
 review-instruction = ניתן לסקור ולהקליט מקטעים מחדש במקרה הצורך
 record-submit-tooltip = { $actionType } ניתן להגיש כשהמקטע מוכן
 clips-uploaded = מקטעים הועלו
@@ -480,6 +495,17 @@ listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 nothing-to-validate = אין לנו שום דבר לאמת בשפה הזאת, נשמח לעזרתך למלא את התור.
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
+
+## Reporting
+
+report = דיווח
+report-title = הגשת דיווח
+report-ask = אילו קשיים חווית עם המשפט הזה?
+report-offensive-language = שפה פוגענית
+report-offensive-language-detail = במשפט יש שפה מזלזלת או פוגענית.
+report-grammar-or-spelling = שגיאת דקדוק / איות
+report-grammar-or-spelling-detail = במשפט יש שגיאה בדקדוק או באיות.
+report-success = הדיווח הועבר בהצלחה
 
 ## Goals
 
@@ -516,6 +542,9 @@ validated-clips = מקטעים שאומתו
 total-approved = סה״כ אושרו
 overall-accuracy = דיוק כללי
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = להשאיר
@@ -525,3 +554,4 @@ profile-form-delete = מחיקת פרופיל
 ## Landing
 
 profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב
+read-more-about = מידע נוסף בעמוד על אודותינו

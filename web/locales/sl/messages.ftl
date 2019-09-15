@@ -210,7 +210,6 @@ x-years-short =
        *[other] { $count } let
     }
 help-make-dataset = Pomagajte nam zgraditi kakovosten in javno dostopen nabor podatkov
-profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 sign-up-account = Prijavite se za račun
 email-subscription-title = prijavite se na e-poštna obvestila
 email-subscription-title-new = Prijavite se na novice projekta Common Voice, opomnike na cilje in posodobitve napredka
@@ -332,6 +331,7 @@ skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno mora
 off = Izklopljeno
 on = Vklopljeno
 add-avatar-title = Dodajte avatar svojemu profilu
+avatar-clip-title = Dodajte glas svojemu avatarju
 recording-voice-wave = Snemanje
 ready-to-upload = Naloži
 cancel-avatar-clip-recording = Prekliči
@@ -571,7 +571,6 @@ language-section-launched = V teku
 language-section-launched-description = Spletna stran je bila uspešno <localizationGlossaryLink>prevedena</localizationGlossaryLink> v te jezike in ima dovolj <sentenceCollectionGlossaryLink>zbranih stavkov</sentenceCollectionGlossaryLink>, da omogoča nadaljevanje <speakLink>govornih</speakLink> in <listenLink>slušnih</listenLink> prispevkov.
 languages-show-more = Več
 languages-show-less = Manj
-language-speakers = Govorcev
 language-meter-in-progress = Napredek
 language-total-progress = Skupaj
 language-search-input =
@@ -706,7 +705,6 @@ show-ranking = Pokaži mojo uvrstitev
 ## Custom Goals
 
 get-started-goals = Začnite s cilji
-toward-next-goal = Do naslednjega cilja
 create-custom-goal = Ustvari cilj po meri
 both-speak-and-listen = Oboje
 both-speak-and-listen-long = Oboje (govori in poslušaj)

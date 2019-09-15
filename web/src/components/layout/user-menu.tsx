@@ -9,8 +9,8 @@ import { LocaleLink, useLocale } from '../locale-helpers';
 import {
   CogIcon,
   DashboardIcon,
-  DownIcon,
   LogoutIcon,
+  MenuIcon,
   UserIcon,
 } from '../ui/icons';
 import { Avatar, Hr } from '../ui/ui';
@@ -20,6 +20,21 @@ const Lottie = lazy(() => import('react-lottie'));
 const animationData = require('./data.json');
 
 export default function UserMenu() {
+  const playAvatar = () => {
+    trackVoiceAvatar('self-listen', locale);
+    if (account.avatar_clip_url !== null && !showAnimation) {
+      audioRef.current.src = account.avatar_clip_url;
+
+      audioRef.current.play();
+      setShowAnimation(!showAnimation);
+    } else if (account.avatar_clip_url !== null && showAnimation) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      setShowAnimation(!showAnimation);
+    }
+  };
+
+  const audioRef = React.createRef<HTMLAudioElement>();
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -39,31 +54,26 @@ export default function UserMenu() {
         className={'user-menu ' + (showMenu ? 'active' : '')}
         onMouseEnter={() => setShowMenu(true)}
         onMouseLeave={() => setShowMenu(false)}>
+        <audio
+          preload="auto"
+          ref={audioRef}
+          onEnded={() => setShowAnimation(false)}
+          onError={() => setShowAnimation(false)}
+        />
         <button
           className="toggle"
           title="click to play avatar"
-          onClick={() => {
-            trackVoiceAvatar('self-listen', locale);
-            if (account.avatar_clip_url !== null && !showAnimation) {
-              const audio = new Audio(account.avatar_clip_url);
-              audio.play();
-              setShowAnimation(!showAnimation);
-              audio.onended = () => {
-                setShowAnimation(false);
-              };
-              audio.onerror = () => {
-                setShowAnimation(false);
-              };
-            }
-            setShowMenu(!showMenu);
-          }}>
+          onMouseEnter={playAvatar}
+          onMouseLeave={playAvatar}
+          onClick={playAvatar}>
           <div>
             <Avatar url={account.avatar_url} />
           </div>
           <span className="name" title={account.username}>
             {account.username}
           </span>
-          <DownIcon />
+
+          <MenuIcon className={showMenu ? 'active' : ''} />
         </button>
         <div className="menu-wrap">
           <div className="menu">

@@ -201,7 +201,6 @@ x-years-short =
        *[other] { $count } ans
     }
 help-make-dataset = Aidez-nous à constituer une base de données libre et publique de haute qualité
-profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 sign-up-account = Créer un compte
 email-subscription-title = Recevez des informations par courriel
 email-subscription-title-new = Abonnez-vous aux lettres d’information, rappels d’objectifs et bilan des progrès de Common Voice
@@ -320,14 +319,12 @@ skip-submission-description = L’envoi de commentaires sera désactivé après 
 skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
 off = Désactivé
 on = Activé
-add-avatar-title = Ajouter un avatar à votre profil
-add-avatar-clip = Ajouter un clip d’avatar à votre profil
-create-voice-wave = Créer votre présentation vocale
+avatar-clip-title = Donnez une voix à votre avatar
 recording-voice-wave = Enregistrement
 ready-to-upload = Envoyer
+avatar-clip-fact = C'est un fait établi de longue date qu’un lecteur sera distrait par le contenu lisible d'une page lorsqu’il examinera sa mise en page.
 recreate-voice = Refaire votre présentation
 cancel-avatar-clip-recording = Annuler
-about-avatar-clip = Présentez-vous dans un échantillon vocal que les autres utilisateurs et utilisatrices pourront écouter en survolant votre avatar.
 browse-file-title = Envoyer une image
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
 connect-gravatar = Connectez-vous avec Gravatar
@@ -582,7 +579,6 @@ language-section-launched = Lancées
 language-section-launched-description = Pour les langues suivantes le site web a été <localizationGlossaryLink>localisé</localizationGlossaryLink>, et propose suffisamment de <sentenceCollectionGlossaryLink>phrases collectées</sentenceCollectionGlossaryLink> pour permettre de contribuer aussi bien en <speakLink>parlant</speakLink> qu’en <listenLink>écoutant</listenLink>.
 languages-show-more = Afficher davantage
 languages-show-less = Afficher moins
-language-speakers = Locuteurs et locutrices
 language-meter-in-progress = En cours
 language-total-progress = Total
 language-search-input =
@@ -698,13 +694,13 @@ validated-clips = Échantillons validés
 total-approved = Total approuvé
 overall-accuracy = Précision globale
 set-visibility = Définir ma visibilité
+visibility-explainer = Ce paramètre contrôle la visibilité de votre progression dans le classement. Lorsqu’elle est cachée, votre progression sera privée. Cela signifie que votre image, votre nom d’utilisateur et votre progression n’apparaîtront pas dans le classement. Notez que l’actualisation du classement prend environ { $minutes } minutes pour remplir les modifications.
 visibility-overlay-note = Remarque : lorsqu’il est défini sur « Visible », ce paramètre peut être modifié depuis <profileLink>votre profil</profileLink>.
 show-ranking = Afficher mon classement
 
 ## Custom Goals
 
 get-started-goals = Créez vos objectifs
-toward-next-goal = Vers le prochain objectif
 create-custom-goal = Créer un objectif personnalisé
 both-speak-and-listen = Faire les deux
 both-speak-and-listen-long = Les deux (parler et écouter)
@@ -728,6 +724,7 @@ how-many-per-day = Génial ! Combien d’échantillons par jour ?
 how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
 receiving-emails-info = Vous allez recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
+not-receiving-emails-info = Vous n’allez <bold>PAS</bold> recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
 n-clips = { NUMBER($count) } échantillons
 help-share-goal = Aidez-nous à trouver plus de voix, partagez votre objectif
 confirm-goal = Confirmer l’objectif

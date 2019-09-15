@@ -450,3 +450,66 @@ a.small,
     align-items: center;
     flex-direction: column;
 }
+
+.survey {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 25px 40px;
+    width: 100%;
+    max-width: 440px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    z-index: var(--override-z-index);
+    animation: fade-in var(--transition-duration) linear;
+
+    @media (--sm-down) {
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: 0 auto;
+    }
+
+    & button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        outline: none;
+        border: none;
+    }
+
+    & h1 {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    & p {
+        margin-bottom: 28px;
+        line-height: 1.5;
+        color: var(--near-black);
+    }
+
+    & a {
+        border-radius: 29px;
+        padding: 12px 40px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #629ff4;
+        color: white;
+        box-shadow: none;
+        transition: box-shadow linear var(--transition-duration);
+
+        &:hover {
+            opacity: 1;
+            box-shadow: 0 5px 10px rgba(98, 159, 244, 0.8);
+        }
+    }
+}

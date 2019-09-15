@@ -1,0 +1,13 @@
+[Unit]
+Description=AWS ES Proxy
+Wants=basic.target
+After=basic.target network.target
+
+[Service]
+Restart=on-failure
+RestartSec=10s
+
+ExecStart=/bin/bash -c '/usr/local/bin/aws-es-proxy -endpoint https://$( consulate kv get $(nubis-metadata NUBIS_STACK)/$(nubis-metadata NUBIS_ENVIRONMENT)/config/ElasticSearch/Endpoint)'
+
+[Install]
+WantedBy=multi-user.target

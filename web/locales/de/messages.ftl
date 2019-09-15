@@ -199,7 +199,6 @@ x-years-short =
        *[other] { $count } Jahre
     }
 help-make-dataset = Helfen Sie uns, einen qualitativ hochwertigen, öffentlich zugänglichen Datensatz zu erstellen
-profile-not-required = Ein Profil ist für die Mitarbeit nicht notwendig, aber hilfreich
 sign-up-account = Ein Konto erstellen
 email-subscription-title = Abonnieren Sie Neuigkeiten per E-Mail
 email-subscription-title-new = Abonnieren Sie Common-Voice-Newsletter, Zielerinnerungen und Fortschrittsmeldungen
@@ -318,15 +317,14 @@ skip-submission-description = Beim Mitarbeiten wird nach dem Klick auf »Übermi
 skip-submission-note = Hinweis: Sie müssen sich weiterhin zwischen »Sprechen« und »Anhören« entscheiden, je nachdem wie Sie mitarbeiten möchten.
 off = Aus
 on = An
-add-avatar-title = Fügen Sie Ihrem Profil ein Bild hinzu
-add-avatar-clip = Fügen Sie Ihrem Profil eine Avatar-Aufzeichnung hinzu
-create-voice-wave = Voicewave erstellen
+avatar-clip-title = Geben Sie Ihrem Avatar eine Stimme
+record-voice-wave = VOICEWAVE AUFNEHMEN
 recording-voice-wave = Aufzeichnung läuft…
 ready-to-upload = Hochladen
 avatar-clip-fact = Es ist seit langem bekannt, dass ein Leser beim Betrachten des Layouts vom lesbaren Inhalt einer Seite abgelenkt wird.
 recreate-voice = Voicewave neu erstellen
 cancel-avatar-clip-recording = Abbrechen
-about-avatar-clip = Erstellen Sie eine benutzerdefinierte Voicewave, um sich vorzustellen. Andere Benutzer können mit der Maus über Ihren Clip fahren und ihn anhören.
+about-avatar-clip-recording = Erstellen Sie einen Sprachclip als Teil Ihres Profil-Avatars. Andere können die Maus über Ihren Clip bewegen und ihn anhören.
 browse-file-title = Grafikdatei hochladen
 browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
 connect-gravatar = Mit Gravatar verbinden
@@ -584,7 +582,6 @@ language-section-launched = Aufnahmephase
 language-section-launched-description = Für diese aktiven Sprachen wurde die Website erfolgreich <localizationGlossaryLink>lokalisiert</localizationGlossaryLink>, und es wurden ausreichend <satzCollectionGlossaryLink>Sätze gesammelt</satzCollectionGlossaryLink>, damit weiterhin Beiträge <speakLink>gesprochen</speakLink> und <listenLink>angehört</listenLink> werden können.
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
-language-speakers = Sprecher
 language-meter-in-progress = Fortschritt
 language-total-progress = Gesamt
 language-search-input =
@@ -707,7 +704,6 @@ show-ranking = Meine Bewertung ansehen
 ## Custom Goals
 
 get-started-goals = Erste Schritte mit Zielen
-toward-next-goal = Zum nächsten Ziel
 create-custom-goal = Ein benutzerdefiniertes Ziel erstellen
 both-speak-and-listen = Beides
 both-speak-and-listen-long = Beide (Sprechen und Hören)

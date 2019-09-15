@@ -5,6 +5,3 @@ forge "https://forgeapi.puppetlabs.com"
 ##########################################################
 
 mod 'puppet/nodejs', '5.0.0'
-
-# And module for grafana
-mod 'puppet/grafana'
