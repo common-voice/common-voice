@@ -69,4 +69,9 @@ tables = [
 [[rule]]
 schema = "{{ if exists "/config/Database/Name" }}{{ getv "/config/Database/Name" }}{{ else }}voiceweb{{ end }}"
 table = "user_clients"
-filter = ["client_id", "email", "age", "gender"]
+filter = ["client_id", "age", "gender", "created_at"]
+
+[[rule]]
+schema = "{{ if exists "/config/Database/Name" }}{{ getv "/config/Database/Name" }}{{ else }}voiceweb{{ end }}"
+table = "downloaders"
+filter = ["id", ""locale_id", "created_at"]
