@@ -372,6 +372,8 @@
 
         & .skip {
             display: inline-flex;
+            animation-duration: .2s;
+            animation-iteration-count: 3;
 
             & svg {
                 margin-inline-start: 13px;
@@ -379,6 +381,10 @@
                 [dir='rtl'] & {
                     transform: rotateY(180deg);
                 }
+            }
+
+            &.triggered {
+                animation-name: emphasize;
             }
         }
 

@@ -108,6 +108,7 @@ interface Props extends LocalizationProps, PropsFromState {
     action: () => any;
   }[];
   type: 'speak' | 'listen';
+  skipTriggered?: boolean;
 }
 
 interface State {
@@ -242,11 +243,11 @@ class ContributionPage extends React.Component<Props, State> {
       onSubmit,
       type,
     } = this.props;
-
     if (
       event.ctrlKey ||
       event.altKey ||
       event.shiftKey ||
+      event.metaKey ||
       this.state.showReportModal
     ) {
       return;
@@ -285,6 +286,7 @@ class ContributionPage extends React.Component<Props, State> {
       reportModalProps,
       type,
       user,
+      skipTriggered,
     } = this.props;
     const {
       showAccountModal,
@@ -399,6 +401,7 @@ class ContributionPage extends React.Component<Props, State> {
       primaryButtons,
       sentences,
       type,
+      skipTriggered
     } = this.props;
     const { selectedPill } = this.state;
 
@@ -521,7 +524,7 @@ class ContributionPage extends React.Component<Props, State> {
                 <Button
                   rounded
                   outline
-                  className="skip"
+                  className={skipTriggered ? "skip triggered" : "skip"}
                   disabled={!this.isLoaded}
                   onClick={onSkip}>
                   <Localized id="skip">

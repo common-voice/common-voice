@@ -111,6 +111,7 @@ interface State {
   rerecordIndex?: number;
   showPrivacyModal: boolean;
   showDiscardModal: boolean;
+  skipTriggered: boolean;
 }
 
 const initialState: State = {
@@ -121,6 +122,7 @@ const initialState: State = {
   rerecordIndex: null,
   showPrivacyModal: false,
   showDiscardModal: false,
+  skipTriggered: false
 };
 
 class SpeakPage extends React.Component<Props, State> {
@@ -351,6 +353,11 @@ class SpeakPage extends React.Component<Props, State> {
     const { id } = clips[current].sentence;
     removeSentences([id]);
     this.setState({
+      skipTriggered: true
+    });
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    this.setState({
+      skipTriggered: false,
       clips: clips.map((clip, i) =>
         current === i ? { recording: null, sentence: null } : clip
       ),
@@ -462,6 +469,7 @@ class SpeakPage extends React.Component<Props, State> {
       rerecordIndex,
       showPrivacyModal,
       showDiscardModal,
+      skipTriggered
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
     return (
@@ -554,6 +562,7 @@ class SpeakPage extends React.Component<Props, State> {
           isSubmitted={isSubmitted}
           onReset={() => this.resetState()}
           onSkip={this.handleSkip}
+          skipTriggered={skipTriggered}
           onSubmit={() => this.upload()}
           primaryButtons={
             <RecordButton
