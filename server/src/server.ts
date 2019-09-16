@@ -228,7 +228,6 @@ export default class Server {
     this.print('checking migration status');
     const result = await redis.get(MAINTENANCE_VERSION_KEY);
     const hasMigrated = result == this.version;
-    this.print('migration status', result, 'new version?', hasMigrated);
     if (hasMigrated) {
       this.print('maintenance already performed');
     }
@@ -260,7 +259,7 @@ export default class Server {
     this.print('acquiring lock');
     const lock = await redlock.lock(
       'common-voice-maintenance-lock',
-      1000 * 60 * 60 * 10 /*10 minutes*/
+      1000 * 60 * 60 * 30 /*30 minutes*/
     );
     // we need to check again after the lock was acquired, as another instance
     // might've already migrated in the meantime
