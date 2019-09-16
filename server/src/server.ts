@@ -254,6 +254,8 @@ export default class Server {
     if (await this.hasMigrated()) {
       return;
     }
+
+    this.print('acquiring lock');
     const lock = await redlock.lock(
       'maintenance-lock',
       1000 * 60 * 60 * 60 /*1 hour*/
@@ -322,5 +324,5 @@ if (require.main === module) {
   let server = new Server();
   server
     .run({ doImport: getConfig().IMPORT_SENTENCES })
-    .catch(e => console.error('error while starting server', e));
+    .catch(e => console.log('error while starting server', e));
 }
