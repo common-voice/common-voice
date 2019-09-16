@@ -227,8 +227,8 @@ export default class Server {
   async hasMigrated(): Promise<boolean> {
     this.print('checking migration status');
     const result = await redis.get(MAINTENANCE_VERSION_KEY);
-    this.print('migration status', result);
     const hasMigrated = result && JSON.parse(result) == this.version;
+    this.print('migration status', result, 'new version?', hasMigrated);
     if (hasMigrated) {
       this.print('maintenance already performed');
     }
