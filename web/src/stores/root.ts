@@ -2,7 +2,7 @@ import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import API from '../services/api';
 import { trackProfile } from '../services/tracker';
-import { hash } from '../utility';
+import { generateToken, hash } from '../utility';
 import { Flags } from './flags';
 import { Clips } from './clips';
 import { Locale } from './locale';
@@ -20,6 +20,9 @@ try {
   preloadedState = {
     user: JSON.parse(localStorage.getItem(USER_KEY)) || undefined,
   };
+  if (preloadedState.user && !preloadedState.user.authToken) {
+    preloadedState.user.authToken = generateToken();
+  }
 } catch (e) {
   console.error('failed parsing storage', e);
   localStorage.removeItem(USER_KEY);

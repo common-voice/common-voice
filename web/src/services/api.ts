@@ -47,8 +47,10 @@ export default class API {
       headers
     );
 
-    if (path.startsWith(location.origin) && !this.user.account) {
-      finalHeaders.client_id = this.user.userId;
+    const { user } = this;
+    if (path.startsWith(location.origin) && !user.account && user.userId) {
+      finalHeaders['Authorization'] =
+        'Basic ' + btoa(user.userId + ':' + user.authToken);
     }
 
     const response = await fetch(path, {

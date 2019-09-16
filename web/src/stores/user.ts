@@ -1,11 +1,12 @@
 import { Dispatch } from 'redux';
 import { UserClient } from 'common/user-clients';
-import { generateGUID } from '../utility';
+import { generateGUID, generateToken } from '../utility';
 import StateTree from './tree';
 
 export namespace User {
   export interface State {
     userId: string;
+    authToken: string;
     email: string;
     sendEmails: boolean;
     hasDownloaded: false;
@@ -21,6 +22,7 @@ export namespace User {
   function getDefaultState(): State {
     return {
       userId: generateGUID(),
+      authToken: generateToken(),
       email: null,
       sendEmails: false,
       hasDownloaded: false,

@@ -45,7 +45,6 @@ export default class API {
       async (request: Request, response: Response, next: NextFunction) => {
         this.metrics.countRequest(request);
 
-        const client_id = request.headers.client_id as string;
         if (request.user) {
           const accountClientId = await UserClient.findClientId(
             request.user.emails[0].value
@@ -57,12 +56,25 @@ export default class API {
           }
         }
 
-        if (client_id) {
+        const [authType, credentials] = (
+          request.header('Authorization') || ''
+        ).split(' ');
+        if (authType == 'Basic') {
+          const [client_id, auth_token] = Buffer.from(credentials, 'base64')
+            .toString()
+            .split(':');
           if (await UserClient.hasSSO(client_id)) {
             response.sendStatus(401);
             return;
           } else {
-            await this.model.db.saveUserClient(client_id);
+            const verified = await this.model.db.createOrVerifyUserClient(
+              client_id,
+              auth_token
+            );
+            if (!verified) {
+              response.sendStatus(401);
+              return;
+            }
           }
           request.client_id = client_id;
         }
@@ -89,7 +101,7 @@ export default class API {
     router.get('/golem', (request: Request, response: Response) => {
       console.log('Received a Golem request', {
         referer: request.header('Referer'),
-        query: request.query
+        query: request.query,
       });
       response.redirect('/');
     });

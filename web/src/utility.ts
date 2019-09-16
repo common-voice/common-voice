@@ -13,6 +13,16 @@ export function generateGUID(): string {
   });
 }
 
+function dec2hex(n: number) {
+  return ('0' + n.toString(16)).substr(-2);
+}
+
+export function generateToken(length = 40) {
+  const arr = new Uint8Array(length / 2);
+  window.crypto.getRandomValues(arr);
+  return Array.from(arr, dec2hex).join('');
+}
+
 /**
  * Count the syllables in a string. Completely stolen from:
  * https://codegolf.stackexchange.com/
