@@ -110,6 +110,7 @@ sl = Słowjeńšćina
 sq = Albanšćina
 sr = Serbišćina
 sv-SE = Šwedšćina
+sw = Swahilišćina, Swahili
 syr = Syrišćina
 ta = Tamilšćina
 te = Telugušćina
