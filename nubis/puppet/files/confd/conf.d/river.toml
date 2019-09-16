@@ -13,4 +13,4 @@ keys = [
 ]
 
 # For now, enable in stage only
-reload_cmd = "if nubis-purpose sync && test $(nubis-metadata NUBIS_ENVIRONMENT) = stage; then systemctl restart go-mysql-elasticsearch; else true; fi"
+reload_cmd = "if nubis-purpose sync; then systemctl restart go-mysql-elasticsearch; else true; fi"
