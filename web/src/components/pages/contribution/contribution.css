@@ -372,8 +372,6 @@
 
         & .skip {
             display: inline-flex;
-            animation-duration: .2s;
-            animation-iteration-count: 3;
 
             & svg {
                 margin-inline-start: 13px;
@@ -383,6 +381,9 @@
                 }
             }
 
+            animation-duration: .2s;
+            animation-iteration-count: 3;
+            animation-timing-function: cubic-bezier(1, 0, 0, 1);
             &.triggered {
                 animation-name: emphasize;
             }
