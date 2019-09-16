@@ -322,5 +322,5 @@ if (require.main === module) {
   let server = new Server();
   server
     .run({ doImport: getConfig().IMPORT_SENTENCES })
-    .catch(e => console.error(e));
+    .catch(e => console.error('error while starting server', e));
 }
