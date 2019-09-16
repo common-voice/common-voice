@@ -1,3 +1,7 @@
+# S3Proxy
+
+If you want to avoid setting up an s3 account, set up a hosts file entry for s3proxy: `127.0.0.1    s3proxy`. This will redirect s3proxy requests to localhost, to be served by the s3proxy docker container.
+
 # Setting up S3 Storage
 
 If you don't already have one you will need a configured S3 account, and a bucket

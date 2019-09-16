@@ -18,6 +18,9 @@ services:
       - voice-web
     environment:
       - S3PROXY_AUTHORIZATION=none
+      - S3PROXY_CORS_ALLOW_ALL=true
+    ports:
+      - 80:80
   web:
     build:
       context: .
