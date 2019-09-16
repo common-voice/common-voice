@@ -260,7 +260,7 @@ export default class Server {
     this.print('acquiring lock');
     const lock = await redlock.lock(
       'common-voice-maintenance-lock',
-      1000 * 60 * 60 * 60 /*1 hour*/
+      1000 * 60 * 60 * 10 /*10 minutes*/
     );
     // we need to check again after the lock was acquired, as another instance
     // might've already migrated in the meantime
