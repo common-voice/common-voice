@@ -108,7 +108,6 @@ interface Props extends LocalizationProps, PropsFromState {
     action: (e: KeyboardEvent) => any;
   }[];
   type: 'speak' | 'listen';
-  skipTriggered?: boolean;
 }
 
 interface State {
@@ -117,6 +116,7 @@ interface State {
   showReportModal: boolean;
   showShareModal: boolean;
   showShortcutsModal: boolean;
+  skipTriggered: boolean;
 }
 
 class ContributionPage extends React.Component<Props, State> {
@@ -130,6 +130,7 @@ class ContributionPage extends React.Component<Props, State> {
     showReportModal: false,
     showShareModal: false,
     showShortcutsModal: false,
+    skipTriggered: false
   };
 
   private canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
@@ -191,12 +192,23 @@ class ContributionPage extends React.Component<Props, State> {
   }
 
   private get shortcuts() {
-    const { onSkip, shortcuts } = this.props;
+    const { shortcuts } = this.props;
     return shortcuts.concat({
       key: 'shortcut-skip',
       label: 'skip',
-      action: onSkip,
+      action: this.handleSkip,
     });
+  }
+
+  private handleSkip = (event?: React.MouseEvent<any, MouseEvent> | KeyboardEvent) => {
+    if (event instanceof KeyboardEvent) {
+      this.setState({ skipTriggered: true });
+    }
+    this.props.onSkip();
+  }
+
+  private endSkipTriggered = () => {
+    this.setState({ skipTriggered: false });
   }
 
   private startWaving = () => {
@@ -282,11 +294,9 @@ class ContributionPage extends React.Component<Props, State> {
       flags,
       getString,
       isSubmitted,
-      onSkip,
       reportModalProps,
       type,
-      user,
-      skipTriggered,
+      user
     } = this.props;
     const {
       showAccountModal,
@@ -322,7 +332,7 @@ class ContributionPage extends React.Component<Props, State> {
         {showReportModal && (
           <ReportModal
             onRequestClose={() => this.setState({ showReportModal: false })}
-            onSubmitted={onSkip}
+            onSubmitted={this.handleSkip}
             {...reportModalProps}
           />
         )}
@@ -395,15 +405,13 @@ class ContributionPage extends React.Component<Props, State> {
       isFirstSubmit,
       isSubmitted,
       onReset,
-      onSkip,
       onSubmit,
       pills,
       primaryButtons,
       sentences,
-      type,
-      skipTriggered
+      type
     } = this.props;
-    const { selectedPill } = this.state;
+    const { selectedPill, skipTriggered } = this.state;
 
     return isSubmitted ? (
       <Success onReset={onReset} type={type} />
@@ -524,9 +532,10 @@ class ContributionPage extends React.Component<Props, State> {
                 <Button
                   rounded
                   outline
-                  className={skipTriggered ? "skip triggered" : "skip"}
+                  className={['skip', skipTriggered ? 'triggered' : ''].join(' ')}
                   disabled={!this.isLoaded}
-                  onClick={onSkip}>
+                  onAnimationEnd={this.endSkipTriggered}
+                  onClick={this.handleSkip}>
                   <Localized id="skip">
                     <span />
                   </Localized>{' '}
