@@ -117,6 +117,7 @@ export default class API {
     );
     router.post('/user_client/avatar_clip', this.saveAvatarClip);
     router.get('/user_client/avatar_clip', this.getAvatarClip);
+    router.get('/user_client/delete_avatar_clip', this.deleteAvatarClip);
     router.post('/user_client/:locale/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/:locale/goals', this.getGoals);
@@ -362,11 +363,18 @@ export default class API {
       const { user } = request;
       let path = await UserClient.getAvatarClipURL(user.emails[0].value);
       path = path[0][0].avatar_clip_url;
+
       let avatarclip = await this.bucket.getAvatarClipsUrl(path);
       response.json(avatarclip);
     } catch (err) {
       response.json(null);
     }
+  };
+
+  deleteAvatarClip = async (request: Request, response: Response) => {
+    const { user } = request;
+    await UserClient.deleteAvatarClipURL(user.emails[0].value);
+    response.json('deleted');
   };
 
   getContributionActivity = async (

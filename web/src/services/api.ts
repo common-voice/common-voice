@@ -236,6 +236,10 @@ export default class API {
     return this.fetch(API_PATH + '/user_client/avatar_clip');
   }
 
+  deleteAvatarClip() {
+    return this.fetch(API_PATH + '/user_client/delete_avatar_clip');
+  }
+
   fetchLeaderboard(type: 'clip' | 'vote', cursor?: [number, number]) {
     return this.fetch(
       this.getClipPath() +

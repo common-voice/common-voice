@@ -139,7 +139,7 @@
         position: relative;
         right: 3%;
         z-index: var(--middle-z-index);
-        overflow: auto;
+        overflow: hidden;
 
         @media (--sm-down) {
             padding: 20px 20px 0;

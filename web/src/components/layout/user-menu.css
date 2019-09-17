@@ -19,6 +19,10 @@
         max-width: 200px;
     }
 
+    .username-btn {
+        display: flex;
+        align-items: center;
+    }
     & .toggle {
         outline: none;
         border: none;
