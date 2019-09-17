@@ -96,7 +96,7 @@ nn-NO = Noruego Nynorsk
 oc = occitano
 or = Odia
 pl = Polaco
-pt-BR = Portugués (Brasil)
+pt = Portugués
 rm-sursilv = romanche sursilvano
 rm-vallader = Romansh Vallader
 ro = Rumano
@@ -199,7 +199,6 @@ x-years-short =
        *[other] { $count } años
     }
 help-make-dataset = Ayúdanos a crear una base de datos de alta calidad y accesible para todo el mundo
-profile-not-required = No es necesario tener un perfil para colaborar, aunque puede resultar útil.
 sign-up-account = Regístrate para obtener una cuenta
 email-subscription-title = suscríbete para recibir actualizaciones por correo
 email-subscription-title-new = Suscríbete al boletín de noticias, a los recordatorios y actualizaciones de progreso de Common Voice
@@ -318,8 +317,10 @@ skip-submission-description = El envío de comentarios se desactivará al hacer 
 skip-submission-note = Nota: Deberás seleccionar entre Hablar o Escuchar para cambiar el tipo de colaboración.
 off = Desactivado
 on = Activado
-add-avatar-title = Añadir un avatar a tu perfil
-add-avatar-clip = Agregar un clip de avatar a tu perfil
+avatar-clip-title = Dale voz a tu avatar
+recording-voice-wave = Grabando
+ready-to-upload = SUBIR
+cancel-avatar-clip-recording = CANCELAR
 browse-file-title = Subir un archivo de imagen
 browse-file = Arrastra y suelta o <browseWrap>navega</browseWrap>
 connect-gravatar = Conectar con Gravatar
@@ -566,7 +567,6 @@ language-section-launched = Lanzados
 language-section-launched-description = Para estos idiomas publicados, el sitio web ha sido <localizationGlossaryLink>localizado</localizationGlossaryLink> con éxito, y tiene suficientes <sentenceCollectionGlossaryLink>frases recopiladas</sentenceCollectionGlossaryLink> para permitir <speakLink>hablar</spenderLink> y <listenLink>escuchar</ listenLink > aportaciones de forma continua.
 languages-show-more = Ver más
 languages-show-less = Ver menos
-language-speakers = Hablantes
 language-meter-in-progress = Progreso
 language-total-progress = Total
 language-search-input =
@@ -672,6 +672,7 @@ clips-you-validated = Fragmentos que has validado
 todays-recorded-progress = Progreso de hoy de los fragmentos grabados para Common Voice
 todays-validated-progress = Progreso de hoy de los fragmentos validados para Common Voice
 stats = Estadísticas
+awards = Premios
 you = Tú
 everyone = Todo el mundo
 contribution-activity = Actividad de colaboración
@@ -681,11 +682,11 @@ validated-clips = Fragmentos validados
 total-approved = Total aprobado
 overall-accuracy = Precisión general
 set-visibility = Establecer visibilidad
+show-ranking = Mostrar mi avance
 
 ## Custom Goals
 
 get-started-goals = Comenzar mis objetivos
-toward-next-goal = Hacia el siguiente objetivo
 create-custom-goal = Crear un objetivo personalizado
 both-speak-and-listen = Ambos
 both-speak-and-listen-long = Ambos (hablar y escuchar)
@@ -702,8 +703,23 @@ build-custom-goal = Crear un objetivo personalizado
 help-reach-hours = Ayuda a alcanzar { NUMBER($hours) } horas en { $language } con un objetivo personal
 set-a-goal = Establecer objetivo
 cant-decide = ¿No te decides?
+how-many-per-day = ¡Excelente! ¿Cuántas grabaciones al día?
+how-many-a-week = ¡Excelente! ¿Cuántas grabaciones a la semana?
+which-goal-type = ¿Quieres hablar, escuchar o los dos?
+receiving-emails-info = Ahora mismo lo tienes configurado para recibir correos electrónicos como recordatorios de objetivos, actualizaciones de progreso y boletines de información sobre Common Voice
+help-share-goal = Ayúdanos a encontrar más voces, comparte tu objetivo
 confirm-goal = Confirmar objetivo
 goal-interval-weekly = Semanal
+share-goal-type-speak = Hablando
+share-goal-type-listen = Escuchando
+share-goal-type-both = Hablando y escuchando
+# LINK will be replaced with the current URL
+goal-share-text = He creado un objetivo personal para dar voz a #CommonVoice -- Únete y ayúdanos a enseñar a las máquinas cómo hablamos las personas { $link }
+weekly-goal-created = Se ha creado tu objetivo semanal
+daily-goal-created = Se ha creado tu objetivo diario
+track-progress = Sigue aquí el progreso y en la página de estadísticas.
+return-to-edit-goal = Siempre puedes volver a editar el objetivo.
+share-goal = Compartir mi objetivo
 
 ## Profile Delete
 
