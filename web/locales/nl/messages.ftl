@@ -110,6 +110,7 @@ sl = Sloveens
 sq = Albanees
 sr = Servisch
 sv-SE = Zweeds
+sw = Swahili
 syr = Syrisch
 ta = Tamil
 te = Telugu
