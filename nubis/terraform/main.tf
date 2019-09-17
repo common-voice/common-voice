@@ -77,7 +77,7 @@ module "dns" {
   environment  = "${var.environment}"
   account      = "${var.account}"
   service_name = "${var.service_name}"
-  target       = "${module.load_balancer.dualstack_address}"
+  target       = "${module.load_balancer.address}"
 }
 
 resource "aws_db_parameter_group" "slow_query_enabled" {
