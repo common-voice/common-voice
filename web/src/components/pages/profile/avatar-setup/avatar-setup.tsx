@@ -282,33 +282,30 @@ class AvatarSetup extends React.Component<Props, State> {
       console.log('done');
       this.setState({ clipStatus: 'notStarted' });
       let clip = await this.props.api.fetchAvatarClip();
-      clip
-        ? this.setState({ avatarClipUrl: clip })
-        : this.setState({ avatarClipUrl: null });
+      this.setState({ avatarClipUrl: clip || null });
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
 
     refreshUser();
   }
 
   private counter = async () => {
-    if (this.state.clipStatus === 'notStarted') {
-      this.audio.release();
-      await this.audio.init();
-      this.setState({ clipStatus: 'starting', counter: 3 });
-      const downloadTimer = setInterval(() => {
-        let tl = this.state.counter - 1;
-        this.setState({ counter: tl });
-        if (this.state.counter <= 0 && this.state.clipStatus === 'starting') {
-          this.setState({ clipStatus: 'started' });
-          const { locale } = this.props;
-          trackVoiceAvatar('create-voice-avatar', locale);
-          this.handleRecordClick();
-          clearInterval(downloadTimer);
-        }
-      }, 1000);
-    }
+    if (this.state.clipStatus !== 'notStarted') return;
+    this.audio.release();
+    await this.audio.init();
+    this.setState({ clipStatus: 'starting', counter: 3 });
+    const downloadTimer = setInterval(() => {
+      let tl = this.state.counter - 1;
+      this.setState({ counter: tl });
+      if (this.state.counter <= 0 && this.state.clipStatus === 'starting') {
+        this.setState({ clipStatus: 'started' });
+        const { locale } = this.props;
+        trackVoiceAvatar('create-voice-avatar', locale);
+        this.handleRecordClick();
+        clearInterval(downloadTimer);
+      }
+    }, 1000);
   };
 
   private updateAvatarClip = () => {

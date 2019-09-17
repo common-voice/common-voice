@@ -103,14 +103,10 @@
         }
     }
 
-    .rerecord-but {
-        &:hover {
-            & svg {
-                opacity: 1;
-                & path {
-                    fill: #ff4f5e;
-                }
-            }
+    .rerecord-but:hover svg {
+        opacity: 1;
+        & path {
+            fill: #ff4f5e;
         }
     }
 

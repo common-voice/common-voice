@@ -265,10 +265,9 @@ const UserClient = {
   },
 
   async deleteAvatarClipURL(email: string) {
-    const url: null = null;
     await db.query(
-      'UPDATE user_clients SET avatar_clip_url = ? WHERE email = ?',
-      [url, email]
+      'UPDATE user_clients SET avatar_clip_url = NULL WHERE email = ?',
+      [email]
     );
   },
 

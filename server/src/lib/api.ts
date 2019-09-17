@@ -360,13 +360,9 @@ export default class API {
   };
 
   deleteAvatarClip = async (request: Request, response: Response) => {
-    try {
-      const { user } = request;
-      await UserClient.deleteAvatarClipURL(user.emails[0].value);
-      response.json(null);
-    } catch (err) {
-      response.json(null);
-    }
+    const { user } = request;
+    await UserClient.deleteAvatarClipURL(user.emails[0].value);
+    response.json('deleted');
   };
 
   getContributionActivity = async (
