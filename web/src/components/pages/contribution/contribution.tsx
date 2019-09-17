@@ -105,7 +105,7 @@ interface Props extends LocalizationProps, PropsFromState {
   shortcuts: {
     key: string;
     label: string;
-    action: () => any;
+    action: (e: KeyboardEvent) => any;
   }[];
   type: 'speak' | 'listen';
   skipTriggered?: boolean;
@@ -268,7 +268,7 @@ class ContributionPage extends React.Component<Props, State> {
     );
     if (!shortcut) return;
 
-    shortcut.action();
+    shortcut.action(event);
     ((type === 'listen' ? trackListening : trackRecording) as any)(
       'shortcut',
       locale

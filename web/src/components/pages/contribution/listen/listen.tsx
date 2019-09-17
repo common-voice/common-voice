@@ -24,21 +24,25 @@ import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
 
 import './listen.css';
+import { instanceOf } from 'prop-types';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
 const VoteButton = ({
   kind,
+  triggered,
   ...props
-}: { kind: 'yes' | 'no' } & React.ButtonHTMLAttributes<any>) => (
-  <button type="button" className={['vote-button', kind].join(' ')} {...props}>
-    {kind === 'yes' && <ThumbsUpIcon />}
-    {kind === 'no' && <ThumbsDownIcon />}
-    <Localized id={'vote-' + kind}>
-      <span />
-    </Localized>
-  </button>
-);
+}: { kind: 'yes' | 'no', triggered: boolean } & React.ButtonHTMLAttributes<any>) => {
+  return (
+    <button type="button" className={['vote-button', kind, triggered ? 'triggered' : ''].join(' ')} {...props}>
+      {kind === 'yes' && <ThumbsUpIcon />}
+      {kind === 'no' && <ThumbsDownIcon />}
+      <Localized id={'vote-' + kind}>
+        <span />
+      </Localized>
+    </button>
+  )
+};
 
 interface PropsFromState {
   clips: Clips.Clip[];
@@ -59,6 +63,8 @@ interface State {
   hasPlayedSome: boolean;
   isPlaying: boolean;
   isSubmitted: boolean;
+  yesTriggered: boolean;
+  noTriggered: boolean;
 }
 
 const initialState: State = {
@@ -67,6 +73,8 @@ const initialState: State = {
   hasPlayedSome: false,
   isPlaying: false,
   isSubmitted: false,
+  yesTriggered: false,
+  noTriggered: false
 };
 
 class ListenPage extends React.Component<Props, State> {
@@ -143,18 +151,34 @@ class ListenPage extends React.Component<Props, State> {
     });
   };
 
-  private voteYes = () => {
+  private endYesTriggered = () => {
+    this.setState({ yesTriggered: false });
+  }
+
+  private voteYes = (event: React.MouseEvent<any, MouseEvent> | KeyboardEvent) => {
+    console.log('EVENT', event);
     if (!this.state.hasPlayed) {
       return;
+    }
+
+    if (event instanceof KeyboardEvent) {
+      this.setState({ yesTriggered: true });
     }
     this.vote(true);
     trackListening('vote-yes', this.props.locale);
   };
 
-  private voteNo = () => {
+  private endNoTriggered = () => {
+    this.setState({ noTriggered: false });
+  }
+
+  private voteNo = (event: React.MouseEvent<any, MouseEvent> | KeyboardEvent) => {
     const { hasPlayed, hasPlayedSome } = this.state;
     if (!hasPlayed && !hasPlayedSome) {
       return;
+    }
+    if (event instanceof KeyboardEvent) {
+      this.setState({ noTriggered: true });
     }
     this.vote(false);
     trackListening('vote-no', this.props.locale);
@@ -185,6 +209,8 @@ class ListenPage extends React.Component<Props, State> {
       hasPlayedSome,
       isPlaying,
       isSubmitted,
+      yesTriggered,
+      noTriggered
     } = this.state;
     const clipIndex = this.getClipIndex();
     const activeClip = clips[clipIndex];
@@ -247,12 +273,16 @@ class ListenPage extends React.Component<Props, State> {
             <React.Fragment>
               <VoteButton
                 kind="yes"
+                triggered={yesTriggered}
+                onAnimationEnd={this.endYesTriggered}
                 onClick={this.voteYes}
                 disabled={!hasPlayed}
               />
               <PlayButton isPlaying={isPlaying} onClick={this.play} />
               <VoteButton
                 kind="no"
+                triggered={noTriggered}
+                onAnimationEnd={this.endNoTriggered}
                 onClick={this.voteNo}
                 disabled={!hasPlayed && !hasPlayedSome}
               />

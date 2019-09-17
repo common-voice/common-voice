@@ -54,6 +54,7 @@
     & .vote-button {
         border: none;
         border-radius: 30px;
+        color: var(--near-black);
 
         display: flex;
         justify-content: center;
@@ -75,6 +76,7 @@
 
         &,
         & path {
+            fill: var(--near-black);
             transition: all var(--transition-duration) linear;
         }
 
@@ -107,11 +109,25 @@
             background: var(--white);
             box-shadow: var(--vote-button-box-shadow)
                 color-mod(var(--grey) alpha(80%));
+            color: var(--disabled-grey);
 
-            cursor: not-allowed;
+            pointer-events: none;
+
+            & path {
+                fill: var(--disabled-grey);
+            }
 
             & path {
                 fill: var(--near-black);
+            }
+        }
+
+        &:hover,
+        &:active {
+            color: var(--white);
+
+            & path {
+                fill: var(--white);
             }
         }
 

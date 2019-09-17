@@ -6,5 +6,6 @@
     "accessKeyId": "local-identity",
     "secretAccessKey": "local-credential",
     "s3ForcePathStyle": true
-  }
+  },
+  "AUTH0": { "DOMAIN": "dev-r03xtm-t.auth0.com", "CLIENT_ID": "7hFT8qVkuSqJWihZfrttItJ7RUS33ulZ", "CLIENT_SECRET": "OAJwXCBchSWGanMw07qPXmCzos6-2NN7pq-FwJEDa9vDrL8C17hsu9jKNQQMF_6B" }
 }
