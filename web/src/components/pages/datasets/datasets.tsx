@@ -1,7 +1,6 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { isProduction } from '../../../utility';
 import URLS from '../../../urls';
 import { LocaleLink, useLocale } from '../../locale-helpers';
 import { CloseIcon, PlayOutlineIcon } from '../../ui/icons';
@@ -35,7 +34,7 @@ export default () => {
 
   return (
     <div className="datasets-content">
-      {!isProduction() && locale == 'en' && surveyShown && (
+      {locale == 'en' && surveyShown && (
         <div className="survey">
           <button onClick={hideSurvey}>
             <CloseIcon black />
