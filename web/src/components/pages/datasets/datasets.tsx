@@ -40,14 +40,37 @@ export default () => {
           <button onClick={hideSurvey}>
             <CloseIcon black />
           </button>
-          <h1>Penny for your thoughts?</h1>
+          <h1>Developing Voice Tech in the Open</h1>
           <p>
-            We would like to know how you plan on using the Common Voice dataset
-            and if you have any ideas for improvement. Can you spare a few
-            minutes to take a survey about the dataset?
+            At Mozilla we believe that collaboration is key to unlocking the
+            full potential of voice technology, one that includes everyone;
+            every language and for every use case.
+            <br />
+            <br />
+            <b>
+              Because you’re here, we’re certain that you’re an important
+              collaborator to learn from!
+            </b>
+            <br />
+            <br />
+            We would be very grateful if you could take this short survey to
+            help Mozilla understand how you envision, and are building for the
+            future of voice voice with open data and technologies.
+            <br />
+            <br />
+            In late October, research findings will be shared back with you, and
+            others in the voice ecosystem who have participated via our{' '}
+            <a
+              href="https://discourse.mozilla.org/c/voice"
+              target="_blank"
+              rel="noopener noreferrer">
+              Discourse forum
+            </a>
+            .
           </p>
           <a
-            href="https://www.surveygizmo.com/s3/4446677/3a21d4a69b6b"
+            className="cta"
+            href="https://qsurvey.mozilla.com/s3/Developing-Voice-Tech-in-the-Open?src=4"
             target="_blank"
             rel="noopener noreferrer"
             onClick={hideSurvey}>

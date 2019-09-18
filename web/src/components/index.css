@@ -457,7 +457,7 @@ a.small,
     right: 20px;
     padding: 25px 40px;
     width: 100%;
-    max-width: 440px;
+    max-width: 520px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -492,9 +492,18 @@ a.small,
         margin-bottom: 28px;
         line-height: 1.5;
         color: var(--near-black);
+
+        & a {
+            text-decoration: underline;
+            color: var(--blue);
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
 
-    & a {
+    & .cta {
         border-radius: 29px;
         padding: 12px 40px;
         font-size: 14px;
