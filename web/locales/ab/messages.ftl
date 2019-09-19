@@ -247,7 +247,7 @@ shortcut-vote-no = м
 shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Анҵамҭақәа еита-ианҵатәуп
+shortcut-rerecord-toggle-label = Анҵамҭақәа еиҭа-ианҵатәуп
 request-language-text = Common Voice аҟны уара убызшәа макьана иумбаӡои?
 request-language-button = Абызшәа уазҵаа
 
@@ -319,6 +319,8 @@ off = Аҿх
 on = Аҿк
 avatar-clip-title = Уныԥшга абжьы иҭ
 record-voice-wave = АШЬҬЫБЖЬТӘ ЦӘҚӘЫРԤА
+retry-voice-wave-recording = ЕИҬАҞАҴОУП
+re-record = ЕИҬА-ИАНҴАТӘУП
 delete-voice = ИҚӘГАТӘУП
 recording-voice-wave = Абжьы ҭаҩра
 ready-to-upload = иҭагалатәуп
