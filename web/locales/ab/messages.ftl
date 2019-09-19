@@ -319,6 +319,7 @@ off = Аҿх
 on = Аҿк
 avatar-clip-title = Уныԥшга абжьы иҭ
 record-voice-wave = АШЬҬЫБЖЬТӘ ЦӘҚӘЫРԤА
+delete-voice = ИҚӘГАТӘУП
 recording-voice-wave = Абжьы ҭаҩра
 ready-to-upload = иҭагалатәуп
 recreate-voice = Ашьҭыбжьтә цәқәырԥа аиҭаԥҵаразы
