@@ -1,4 +1,5 @@
 " For der stod en levende stork oppe på taget, hvor den havde sin rede.
+" Og kammerherrerne gik og bar på slæbet, som der slet ikke var.
 "Ak ja!" sukkede lille Claus, "jeg er så ung og skal allerede til himmerig!"
 "Blomsterne har været på bal i nat, og derfor hænger de med hovedet!"
 "De bragte i det mindste ham, som sover her, et varigt gode!" svarede Glæden.
@@ -7,6 +8,8 @@
 "Der må mere, end et skomagerøje, til at skille dem fra hverandre!"
 "Det bedste, det jeg aldrig turde håbe, er blevet opfyldt for mig.
 "Det er Poppedrengs fødselsdag!" sagde hun dumnaiv, "derfor vil den lille markfugl gratulere!"
+"Det er Sjællands biskop!" svarede man.
+"Det er jo forfærdeligt, hvor sølet her er!" sagde justitsråden.
 "Det er morsomt!" sagde den lille Ida og klappede i hænderne.
 "Det gør så ondt!" sagde den lille havfrue.
 "Det havde jeg ikke gjort, når der var så nydeligt dernede!"
@@ -24,8 +27,10 @@
 "Er du gal?" sagde de alle sammen, "tror du, vi have penge i skæppevis?"
 "Farvel, farvel! du gode, nydelige pige!" sagde svalen og fløj ud i solskinnet.
 "Gud bevare os!" sagde apotekeren.
+"Gud hvor de klæder godt! hvor de sidder dejligt!" sagde de alle sammen.
 "Gud, hvor han er smuk!" hviskede Tommelise til svalen.
 "Har du fyrtøjet med?" spurgte heksen!
+"Hele fortovet er væk og alle lygterne slukkede!"
 "Her er den!" sagde heksen, "og her er mit blåternede forklæde.
 "Hils den lille svale fra mig, dersom du får den at se!"
 "Huder! huder! hvem vil købe huder!" råbte han igennem gaderne.
@@ -37,10 +42,13 @@
 "Hvad vil du med de ris?" spurgte Johannes nu sin rejsekammerat.
 "Hvad vil du nu med det fyrtøj," spurgte soldaten.
 "Hvem er det, og hvor har i fået det fra?" spurgte apotekeren.
+"Hvilket mønster! hvilke farver! det er en kostbar dragt!"
 "Hvor danser de pæneste blomster," spurgte lille Ida.
 "Hvor kan man få hende at se?" spurgte soldaten.
+"Hvordan var det de så ud! de kom nok fra maskerade!"
 "Hvorfor ligger du der? kom hellere med ind i stuen!"
 "Ja det er en anden sag!" sagde lille Claus, og lukkede kisten op.
+"Ja jeg er jo i stand!" sagde kejseren.
 "Ja man må lide noget for stadsen!" sagde den gamle.
 "Ja nok!" sagde Johannes, og så fulgtes de ad.
 "Ja ved du, hvad de fejler!" sagde studenten.
@@ -48,6 +56,7 @@
 "Ja, det må I, som en fornuftig mand, nok sige," sagde markmusen.
 "Ja, han vil vise sig ganske livagtig som en degn!"
 "Ja," sagde lille Claus, "min troldmand kan alt, hvad jeg vil forlange.
+"Jeg forstår ikke jeres bornholmsk!" sagde han til sidst vredt, og vendte dem ryggen.
 "Jeg vil det!" sagde den lille havfrue og var bleg, som en død.
 "Jeg vil også ud i den vide verden!" sagde den fremmede mand.
 "Jo, det skal vi nok komme ud af!" sagde heksen.
@@ -61,6 +70,8 @@
 "Men blomsterne kan jo ikke danse!" sagde den lille Ida.
 "Men den sidder fast til brødtræet!" svarede digteren.
 "Men din flitsbue er fordærvet!" sagde den gamle digter.
+"Men han har jo ikke noget på," råbte til sidst hele folket.
+"Men han har jo ikke noget på," sagde et lille barn.
 "Men hvor har du fået alt det dejlige kvæg fra?" spurgte store Claus.
 "Men hvor kan blomsten fortælle det til de andre? Blomsterne kan jo ikke tale!"
 "Men hvorfor er du straks gået herop til os igen," spurgte store Claus.
@@ -73,8 +84,10 @@
 "Nej," sagde heksen.
 "Nej," sagde rejsekammeraten, "det er ikke skyer, det er bjergene.
 "Nå! Lad mig få strikken om livet!" sagde soldaten.
+"Nå, De siger ikke noget om det!" sagde den ene, som vævede!
 "Nå, skal De nu af sted igen!" sagde kopisten.
 "Og jeg stakkel!" sagde kvægdriveren, "er så gammel og kan ikke komme der endnu!"
+"Også tidligere kan vi komme der!" hviskede én.
 "Oh det er for min hestehud, jeg solgte den i aftes!"
 "Oh jeg er alt for lykkelig!" sagde han til den lille havfrue.
 "Oh nej! vær ikke så slem!" og så gik de hen til åen.
@@ -82,16 +95,20 @@
 "Om fire uger skal du have bryllup!" sagde markmusen til hende.
 "Pipi!" sukkede den, "det var et skrækkeligt snevejr!" og med dette suk tav den.
 "Se nu har vi dig fra hånden," sagde hendes bedstemoder, den gamle enkedronning.
+"Sig mig bare, hvor broen er!" sagde han.
 "Sig noget, man kan le af! Latter er tegn på det højeste åndelige standpunkt.
 "Skal vi to gøre følgeskab!"
 "Skrålhans!" sagde fruen og kastede et hvidt lommetørklæde over buret.
 "Tak skal du have, din gamle heks!" sagde soldaten.
 "Ud i den vide verden!" sagde Johannes.
 "Vil du danse med mig?" sagde røgmanden.
+"Vil herren sættes over på Holmen?" spurgte de.
 Af de dybe sår, som krigen gav Europa.
 Aldrig har så mange haft så rige muligheder.
 Aldrig havde hun set sådanne ildkunster.
 Alle fiskene, små og store, smutter imellem grenene, ligesom heroppe fuglene i luften.
+Alle kirkeklokker ringede, herolderne red om i gaderne og forkyndte trolovelsen.
+Alle mennesker i byen talte om det prægtige tøj.
 Alle skomagere og garvere kom løbende, og spurgte, hvad han ville have for dem.
 Altid havde hun været stille og tankefuld, men nu blev hun det meget mere.
 Antallet på offentlig forsørgelse er det laveste i mere end tredive år.
@@ -104,6 +121,7 @@ Bragene fra de faldende bomber, ruinerne, angsten. Det fulgte hende gennem hele 
 Bygget på ordentlighed.
 Både gamle og nye danskere.
 Citron- og appelsintræer voksede der i haven, og foran porten stod høje palmetræer.
+Da det mørknedes, tændtes brogede lamper og søfolkene dansede lystige danse på dækket.
 Da det nu blev efterår, havde Tommelise hele sit udstyr færdigt.
 Da sukkede den lille havfrue og så bedrøvet på sin fiskehale.
 Da tog han hende ved hånden og førte hende ind i slottet.
@@ -185,16 +203,19 @@ Endelig kom hun da ud til bjerget og bankede på.
 Endelig kom hun da ud til bjerget.
 Er det listen med adresser, der skal ransages?
 Er du sød at gå?
+Et par mennesker, i tidsalderens dragt, gik ham forbi.
 Et ægte fællesskab har plads til forskellighed.
 Far, hvem er det?
 Flasket op med de samme værdier.
 Flere syge overlever kræft.
+Folk kunne se, de havde travlt med at få kejserens nye klæder færdige.
 For der er noget andet, som er vigtigt at få sagt.
 For hver rapport fra eksperterne, bliver billedet malet sortere. Det er snart sidste udkald.
 For mange, der klumper sig sammen i parallelsamfund.
 For så længe vi taler åbent om vores bekymringer.
 For sådan er verden.
 For vi har alle gjort vores til, at Danmark er et dejligt land.
+Forbavset spurgte justitsråden, hvad dette havde at betyde og hvem denne mand var.
 Fortæl om hans økonomiske forhold.
 Frisind er ikke det samme som holdningsløshed.
 Færre børn dør som små. Flere kommer i skole.
@@ -212,6 +233,7 @@ Han lod hende sy en mandsdragt, for at hun til hest kunne følge ham.
 Han rejste.
 Han svævede mellem en blundende og en vågen tilstand.
 Han var blomstens engel.
+Hans bryllupsmorgen ville jo give hende døden og forvandle hende til skum på søen.
 Hele sommeren igennem levede den stakkels Tommelise ganske alene i den store skov.
 Ho, ho, ho!" lo Poppedreng og tilføjede sin vits: "Lad os nu være mennesker.
 Hun har ingen følehorn!" sagde den anden.
@@ -246,6 +268,7 @@ Ikke for at brokke os. Men for at løse dem.
 Ikke kun blank og glat.
 Ikke sandt du?" spurgte han og trådte på posen, så det knirkede.
 Imponerende. I hører fra mig.
+Ingen af kejserens klæder havde gjort sådan lykke.
 Internationale fællesskaber, der forpligter og beskytter.
 Ja muligvis vil det bedrøve flere!
 Ja, her er så smukt, som hjertet vil
@@ -274,9 +297,12 @@ Jeg synes, det er en fin ordning.
 Jeg ved godt, at nogen synes, det er for stramt.
 Jeg ved godt, hvad du render rundt og laver.
 Jeg vil ikke kun pudse medaljens forside. Jeg vil også se bagsiden.
+Jo længere han talte med bådsmændene, des uforståeligere blev de ham.
 Jorden selv var det fineste sand, men blåt, som svovllue.
+Justitsråden anså kong Hans' tid for den dejligste og allerlykkeligste.
 Kan du huske den døde mand, de onde mennesker ville gøre fortræd.
 Kan vi lige mødes herovre?
+Karlene så på ham.
 Kernen i, om det kan lykkes, er selvfølgelig Danmarks dygtige, hårdtarbejdende sundhedspersonale.
 Kort før jul blev to unge kvinder brutalt myrdet under en ferie i Marokko.
 Kvinder, der regnes for mindre værd end mænd.
@@ -317,6 +343,7 @@ Nu kom det an på, om Johannes kunne gætte den tredje gang.
 Nu lukkede han den første dør op.
 Nu sendte han en dreng hen til store Claus, for at låne et skæppemål.
 Nu skulle Johannes til at gætte, hvad hun havde tænkt på.
+Nu steg solen frem af havet.
 Nu trådte lille Claus på sin pose igen, så huden knirkede.
 Når vi vil bevare Danmark som et frit land.
 Når vi ønsker, at Danmark fortsat er et harmonisk land.
@@ -336,12 +363,14 @@ Politiet er over det hele.
 Politikeren viste ingen tegn på empati.
 Politikerne tror, at hash forsvinder, hvis man forbyder det.
 Prinsessen nejede ganske dybt, og sagde, hun skulle ikke glemme øjnene.
+Præsterne svingede røgelseskar og brud og brudgom rakte hinanden hånden og fik biskoppens velsignelse.
 Prøv at ringe til hende.
 På tværs af politisk ståsted. Og på tværs af landegrænser.
 Raketter skød til vejrs.
 Ring til min kone.
 Rundet af samme muld.
 Røgmanden dansede så ganske alene, og det var ikke så dårligt!
+Se det var den samtale.
 Se, det var en rigtig historie!
 Set på den baggrund er Danmark et harmonisk land.
 Skal tankens jakobsstige gå itu?
