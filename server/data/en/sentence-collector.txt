@@ -145,6 +145,7 @@
 "Can't you see the scene?" he asked with a queer smile of excitement.
 "Carried unanimously," I repeated, going on with my work.
 "Cats have nine lives, you know," said Will heartily.
+"Celia, we talked of things"; and the girl moved impatiently.
 "Certainly I permit it," said Celia, with indifference.
 "Certainly not, Sir Leicester," "I am glad to hear it."
 "Certainly, certainly," returns the other.
@@ -901,6 +902,7 @@
 "Of course, madame," she said, with a certain submissiveness which surprised Ricardo.
 "Of course," answered the girl, "if he will see me."
 "Of course," he protested.
+"Of course," replied Celia.
 "Oh yes; I am anxious," returned the Scarecrow.
 "Oh — " Her voice was full of real distress.
 "Oh, Fowler," he said.
@@ -3091,6 +3093,7 @@ And after the bath a shave would not be bad.
 And afterwards her hands trembled slightly at her work.
 And afterwards she furnished me with the sequel of Heathcliff’s history.
 And again I was troubled — greatly troubled.
+And again he laughed, in a way that tortured Miriam.
 And again her strange smile illuminated her face.
 And again the appeal sounded rather piteously.
 And again, "Can't a man look at you?"
@@ -3099,6 +3102,7 @@ And all that space of night from London home!
 And all that stuff about having no soul.
 And all the animals cried out in surprise.
 And all the attachment of his soul would not keep him.
+And all the time Paul was sporting with Clara.
 And all the time her strange uneasiness grew.
 And all the world gone mad.
 And all through a foolish misunderstanding about a shark.
@@ -4634,8 +4638,10 @@ At that he laughed uproariously.
 At that he turned and hurried down to her.
 At that moment Fran had a revelation.
 At that moment I got the impression that she was willowy.
+At that moment Miriam was entering through the garden-door.
 At that moment he came in.
 At that moment the bell rang.
+At that moment they became aware of Miriam.
 At that point the woman had driven off without them.
 At that sound Mr. V. was nerved to abrupt action.
 At that time it was considered extremely daring.
@@ -5341,6 +5347,7 @@ But Linton requires his whole stock of care and kindness for himself.
 But Ma, I was not going to contradict.
 But Martin smiled a superior smile.
 But Matthew was terrible set on it.
+But Miriam was tortured.
 But Misha will not do it.
 But Miss Barker managed her arduous task well.
 But Mr. Tulkinghorn does not go on to the Fields at present.
@@ -6634,6 +6641,7 @@ Celandines and violets were out.
 Celia began to struggle furiously, convulsively.
 Celia covered her face with her hands for a few moments.
 Celia covered her face with her hands.
+Celia dimpled to a smile.
 Celia dragged herself out of the shop in despair.
 Celia dressed herself as she did last night.
 Celia drew her hands away from her face.
@@ -6659,6 +6667,7 @@ Celia nodded her head gratefully.
 Celia noticed the fire with a trifle of dismay.
 Celia raised her head to answer.
 Celia ran up the stairs.
+Celia saw them almost at the same moment.
 Celia should wear it tonight.
 Celia shrank back, shivering.
 Celia shrank from the renewal of these meetings.
@@ -6669,6 +6678,7 @@ Celia tantalised her with hope.
 Celia travelled in this car.
 Celia turned back again to Harry.
 Celia turned her back and crossed her wrists.
+Celia was moved by the reproach.
 Celia was not greatly disconcerted by her.
 Celia was quite alone when she bought the cord.
 Celia was thrown out of work, and could get nothing to do.
@@ -6778,6 +6788,7 @@ Clara had always been reserved and superior.
 Clara laughed strangely, and rose, picking the cowslips from her hair.
 Clara quickly entered the house.
 Clara sat in the cool parlour reading.
+Clara saw Paul’s manner of bowing and shaking hands.
 Clara saw his mouth shut hard.
 Clara shivered, drew away her arm.
 Clara strayed up to them.
@@ -6790,6 +6801,7 @@ Clara was still wandering about disconsolately.
 Clara was very gentle, almost loving.
 Clara went with bowed head, flushing; he was laughing to himself.
 Clara, a little way off, was looking at the cowslips disconsolately.
+Clara, suffering, followed Paul into the kitchen.
 Clara, walking with a kind of sulky abandon, watched it half-fascinated, half-contemptuous.
 Clara’s blood was roused.
 Classic beef burger, with a twist.
@@ -7143,6 +7155,7 @@ Dawes advanced slowly, spitting.
 Dawes had been yielding.
 Dawes lodged with his sister.
 Dawes shook his head, and took a gulp of beer.
+Dawes stumbled over Paul’s coats, then came rushing forward.
 Dawes turned over suddenly with a startled grunt.
 Dawes’s struggles suddenly renewed themselves in a furious spasm.
 Dawn restored me to common sense.
@@ -8156,6 +8169,7 @@ Eat less meat.
 Eating meat based products leaves a larger carbon foot print.
 Economists like predicting the Economy.
 Ed will not be joining us today.
+Edgar and Geoffrey and Maurice and Clara and Paul jumped.
 Edgar is not dead?’ I gasped.
 Edgar repeated the line in a clear tenor.
 Edgar was about eighteen.
@@ -10034,6 +10048,7 @@ He drew in a deep breath as he looked at them.
 He drew out his cigarette-case and lighted a cigarette.
 He drew out his hand again.
 He drew the air in sharply between his teeth.
+He drifted away from Miriam imperceptibly, without knowing he was going.
 He drinks nothing else.
 He drives through the village.
 He dropped a book.
@@ -11436,6 +11451,7 @@ He smiled and shook his head.
 He smiled in return — perhaps a little artificially.
 He smiled rather wistfully at his friend.
 He smiled with a high-shouldered bow again.
+He smiled, and Celia caught the smile.
 He smokes gravely and marches in slow time.
 He snatched his hands from his face and stood up.
 He sniffed, and his whiskers bristled.
@@ -15640,6 +15656,7 @@ I have no doubt you did.
 I have no hard feelings against Mrs. Gould now.
 I have no head for papers, sir.
 I have no home left.
+I have no idea how she managed to wangle that!
 I have no idea of that sort of thing.
 I have no idea, replied Philip.
 I have no longer any business here; it is done.
@@ -16398,6 +16415,7 @@ I never thought to hear those words from Michael Reid.
 I never thought you’d mind.
 I never touched the poor brute.
 I never want the two to clash if I can help it.
+I never wanted to join the committee first place.
 I never was more staggered in my life.
 I never was responsible in my life —  I can't be.
 I never went out at all.
@@ -18906,6 +18924,7 @@ In the United States, cornflour is known as cornstarch
 In the Victorian period gin was a very popular drink for the working class
 In the afternoon he brought another packet.
 In the afternoon he came down.
+In the afternoon he went a walk with Clara.
 In the afternoon he went to see the doctor.
 In the afternoon the Bottoms was intolerable.
 In the babel which ensued Bob lost sight of his young friend.
@@ -19373,6 +19392,7 @@ It depicted a flawed and failed utopia.
 It did better than that.
 It did make her look like a Pekingese.
 It did not matter how he kicked and struggled, he was fast.
+It did not matter to her that Miriam could not help it.
 It did not matter what went before.
 It did not offer to assist him.
 It did not repay her entirely.
@@ -22097,6 +22117,7 @@ Look there's a parrot.
 Look through the periscope.
 Look us up in our study one of these afternoons.
 Look — he's going to bump that waiter.
+Look, Miriam; these are the white ones that came from your garden.
 Look, he is talking affably.
 Look, mistress, this is the key of my wine-cellar.
 Look, mother, how big she is above the town!
@@ -22533,12 +22554,15 @@ Miriam brooded over his split with her.
 Miriam came out wondering.
 Miriam considered Agatha worldly.
 Miriam did it, and she hated her.
+Miriam did not care for the game, and stood aside.
 Miriam did not satisfy him.
 Miriam followed, breathing the fragrance.
 Miriam glanced at the two, and avoided their levity.
 Miriam had felt him growing uncomfortable.
 Miriam had no friend of her own, only Paul.
+Miriam had one beautiful evening with him in the hay.
 Miriam killed the joy and the warmth in him.
+Miriam laughed shortly, and Clara turned impatiently aside.
 Miriam loitered behind, alone.
 Miriam met him at the lane-end.
 Miriam moved a little farther from him.
@@ -22557,6 +22581,7 @@ Miriam talked books a little.
 Miriam turned to him.
 Miriam usually looked nice.
 Miriam very rarely talked to the other lads.
+Miriam was an eternal reproach.
 Miriam was busy preparing dinner.
 Miriam was crimson with shame and misery.
 Miriam was exceedingly sensitive, as her mother had always been.
@@ -22570,6 +22595,7 @@ Miriam was still bent over her painted cloth.
 Miriam was watching her lover’s mood carefully.
 Miriam was with him.
 Miriam watched Paul searchingly.
+Miriam watched the evening drawing to gold and shadow.
 Miriam would have gladly proffered, but was afraid.
 Miriam’s beautiful twilighty parlour looked stiff and stupid.
 Misdiagnoses could result in mistreatment.
@@ -23791,6 +23817,7 @@ None of the sporting prophets mentioned it as having an outside chance.
 None of them counted the money.
 None of them ever pay.
 None of them is man enough for a central figure.
+None of these things, however, did she reveal to Paul.
 None of which Jerry had seemed to mind.
 None of your American wonders, this time.
 None that I could readily understand!
@@ -24067,6 +24094,7 @@ Now have you got anything to say against me, Mr Philip.
 Now he came in frowning.
 Now he could not help himself.
 Now he fell seriously ill, and she had him to nurse.
+Now he knew he would have to go to Miriam.
 Now he knew what had perplexed him during the last two days.
 Now he knew where to place Mr. Jenkins.
 Now he wanted her to continue.
@@ -25246,6 +25274,8 @@ Paul and his mother debated it endlessly between them.
 Paul and his mother now had long discussions about life.
 Paul and the mother frowned to hear him.
 Paul cleared away, put on the kettle, and set the table.
+Paul cleared the table whilst his mother and Clara talked.
+Paul could choose the lesser in place of the higher, she saw.
 Paul could not quite see what Annie wanted to get married for.
 Paul did not come till afternoon.
 Paul disappeared into the scullery.
@@ -25256,19 +25286,23 @@ Paul felt as if his eyes were coming very wide open.
 Paul felt rather guilty.
 Paul followed with his mother.
 Paul found his mother ready to go home.
+Paul glanced at her, then at Clara.
 Paul glanced at it frowning.
 Paul had been working all the time.
 Paul had made out the invoices.
 Paul had mechanically resumed his painting.
+Paul had practically no money in the world.
 Paul hated her for it.
 Paul hated his father.
 Paul he admired and loved and despised slightly.
+Paul helped her, half-carrying her.
 Paul hoped they would.
 Paul jumped up and went forward.
 Paul kneeled there, stroking his mother’s hand.
 Paul knew she referred to Clara, and he smiled.
 Paul lay on his back in the old grass, looking up.
 Paul listened to the voices of the two clerks.
+Paul looked at her in astonishment.
 Paul looked down the garden for his mother.
 Paul looked in the oven; tapped the loaf on the base.
 Paul looked into Miriam’s eyes.
@@ -25279,8 +25313,10 @@ Paul made a drawing: Miriam stayed with him.
 Paul mended the fire ruefully.
 Paul merely looked at him shamedly, and did not answer.
 Paul moved to Oxford for his D Phil.
+Paul put eight sovereigns and half a sovereign on the table.
 Paul ran gaily up the steps.
 Paul remained quite still.
+Paul sat down and told her about Blackpool.
 Paul sat near with his whisky.
 Paul sat pretending to read.
 Paul saw drops of sweat fall from his father’s brow.
@@ -25293,6 +25329,7 @@ Paul stood looking round, waiting.
 Paul stood up and said he was.
 Paul talked endlessly to both of them.
 Paul thought it would never be got out of the room again.
+Paul told his name and his mother’s.
 Paul took a pen.
 Paul took a seat.
 Paul walked with Miss Limb.
@@ -25300,6 +25337,7 @@ Paul walked with something screwed up tight inside him.
 Paul wandered out to the pit-top.
 Paul wanted her, and so did Arthur.
 Paul wanted to sink through the floor.
+Paul was afraid; he moved round to get to the stile again.
 Paul was his own frank self.
 Paul was invited to dinner at Mr. Jordan’s.
 Paul was just opening out from childhood into manhood.
@@ -25325,6 +25363,7 @@ Paul went to meet his friends the next afternoon.
 Paul went to the bay window and looked out.
 Paul went to the counter.
 Paul wished he were stupid.
+Paul won, because he was light.
 Paul would be working in Nottingham.
 Paul would have succeeded had he studied harder.
 Paul, his ears red with shame, began again.
@@ -27554,6 +27593,7 @@ She uses SnapChat more than Facebook
 She uttered a bellow of rage.
 She uttered a little sound, half gasp, half cry.
 She utters a little sharp scream.
+She very rarely saw Miriam now.
 She waited the result with impatience, but not without strong hopes.
 She waited, and she kept Paul near to her.
 She waited, wishing he would go.
@@ -28717,6 +28757,7 @@ Still I can see you.
 Still I managed to pull myself together.
 Still I think it charming.
 Still Mr. Jordan watched.
+Still Paul went on dealing and counting.
 Still eating plenty of fish?
 Still he did not wake up.
 Still he struck and hacked with all his might.
@@ -30351,6 +30392,7 @@ The cleverest one deserves the prize.
 The client should always be master or mistress.
 The client was unimpressed.
 The cliff rose above them and fell away below.
+The cliff rose high above Paul and Clara on their right hand.
 The clinician will be with you shortly.
 The clock at Euston Station showed five minutes past the hour.
 The clock is ticking.
@@ -33678,6 +33720,7 @@ There was a tap at the door.
 There was a tear on her eyes.
 There was a tense silence.
 There was a titter of laughter.
+There was a triangle of antagonism between Paul and Clara and Miriam.
 There was a tumult of yells, screams and cries.
 There was a universal sigh.
 There was a vague, unreal feel about her.
@@ -35669,6 +35712,7 @@ Tommy Brock squeezed himself into the rabbit hole with alacrity.
 Tommy and all the young rabbit-babies had disappeared!
 Tomorrow I'm going after that bear, he said.
 Tomorrow I'm going to get inside the place.
+Tomorrow and tomorrow and tomorrow creep at this petty pace from day to day.
 Tomorrow it will be strong enough for you to stand upon.
 Tomorrow or next day it might he gone.
 Tonight she must not fail.
@@ -38632,6 +38676,7 @@ Whoever lived on the ranch did that.
 Whoever will break it to the poor child?
 Whom did they play?
 Whom did you say you shared this room with, Bradley?
+Whom was responsible?
 Whose tea was it?
 Who’d believe me?
 Who’d have thought it of him — him so gentle-like and all!
@@ -39558,6 +39603,7 @@ You are not going yet.
 You are not made wise by experience, I hope?
 You are not playing yourself, I notice.
 You are not serious?
+You are not striving to look taller than any body else.
 You are not to tell any one; mind that.
 You are not used to being officered; I am.
 You are nothing but a big coward.
@@ -41964,6 +42010,7 @@ whispered Richard, not thinking she could hear him.
 “And there’s over two pounds —  isn’t there over two pounds”?
 “And this afternoon,” he struggled to say.
 “And this is always the way with him,” she added.
+“And what about Minnie?” asked she, with dignity.
 “And what better chance could you ask?” I cried.
 “And what did she say?” Clara asked.
 “And what rent?” asked Gertrude.
@@ -41976,6 +42023,7 @@ whispered Richard, not thinking she could hear him.
 “And you never told me,” she said.
 “And you say you know French?” inquired the little man, still sharply.
 “And you would like to go into the ministry,” she half implored.
+“And you’ve been going with Miriam?” the mother asked him.
 “And, you know, it’s good stuff.” “Awfully pretty,” he said.
 “Anne Shirley, what does this mean?” he said angrily.
 “Anne, whatever are you thinking of?” demanded Hanna sharply.
@@ -42001,6 +42049,7 @@ whispered Richard, not thinking she could hear him.
 “Aren’t you going to stop and see me, mother?” he asked.
 “As a matter of fact we bought him,” said Louis.
 “As if ‘Genevieve’ weren’t good enough,” she said.
+“As plain as anything,” said Paul.
 “At any rate, it is sober,” she said.
 “At your mischief again?” he said venomously.
 “At your service,” he said politely.
@@ -42222,6 +42271,7 @@ whispered Richard, not thinking she could hear him.
 “Hateful stiles!” she cried.
 “Have they gone?” I asked.
 “Have they, mother?” she cried.
+“Have you come down alone?” asked Paul.
 “Have you contacted my cousin?” he asked.
 “Have you enough money, dear?” asked she.
 “Have you heard?” he said.
@@ -42796,6 +42846,7 @@ whispered Richard, not thinking she could hear him.
 “Shall I book seats?” he asked of Clara.
 “Shall I show you the eggs?” he said.
 “Shall I unstrap the box?” asked Annie.
+“Shall she have them all?” asked Paul reproachfully of the old woman.
 “Shall we go a walk on Monday?” he asked.
 “Shall we go in among the trees?” he asked.
 “Shall we go?” she asked.
@@ -42942,10 +42993,12 @@ whispered Richard, not thinking she could hear him.
 “This Maria will win,” he said.
 “This bread’s a fine sight, Paul,” said Annie.
 “This fellow is all right.” They asked one last question.
+“This is Mrs. Dawes, father,” said Paul.
 “This is a great nuisance,” said the Doctor.
 “This is a nice time to come home,” said she.
 “This is my little girl Diana,” said Mrs. Wong.
 “This is not right,” he said.
+“This is pretty, isn’t it?” said Miriam.
 “This is strange!” he said.
 “This is the Council House,” said Helen.
 “This is the Council House,” said Mia.
@@ -43130,6 +43183,7 @@ whispered Richard, not thinking she could hear him.
 “What’s the matter?” she asked.
 “What’s the matter?” she insisted, getting cross.
 “When I’m ready,” she replied.
+“When will you want it back?” Miriam asked.
 “Where are all the people?” She made no answer.
 “Where are the markets?” asked Nathaniel staring out.
 “Where did you find out this story?” I asked.

@@ -111,6 +111,7 @@ Abandonner dans la défense ou risquer l'attaque.
 Abandonner dans la défense ou risquer l’attaque.
 Abandonner la partie au premier obstacle!
 Abandonner ton masque social.
+Abandonnerait-il cet homme?
 Abernethy, je crois! « Voulez-vous vous bien porter? disait-il à son malade.
 Aborder ici sera difficile, dit l’Écossais.
 Aboule les vingt sacs!
@@ -590,6 +591,7 @@ Allongée sur un promontoire drapé de velours rouge, Vérand'a.
 Allons! décidément, vous n’êtes pas bavards aujourd’hui, messieurs !...
 Allons! ne vous dépitez pas !
 Allons! nous ferons un bon repas, monsieur Cyrus ! s’écria-t-il.
+Allons! nous sommes pris !
 Allons au déversoir! répliqua Pencroff.
 Allons chercher la suite.
 Allons chercher plus haut un courant qui nous emporte, dit le docteur.
@@ -808,6 +810,7 @@ Alors tu me fais plus chier, tu retournes dans ta campagne pourrie
 Alors tu ne veux pas le faire seul.
 Alors t’es pas obligé d’en parler mais... je te vois.
 Alors un soir, je suis allée les voir.
+Alors venez me parler.
 Alors voui je le travaille au corps, mais sois prudente, s’il te plaît!
 Alors vous allez bien aujourd’hui, car il fait beau.
 Alors vous êtes satisfait, monsieur? demanda Joe.
@@ -1421,6 +1424,7 @@ Au surplus, personne n’y songeait.
 Au surplus, pour vous personnellement, monsieur Watkins, soyez sans crainte!
 Au surplus, sa douleur me désolerait.
 Au surplus, suivons ces traces et voyons où elles nous conduiront.
+Au surplus, voici la liste des passagers.
 Au temple israélite, avec la vieille Ammon.
 Au télégraphe! au télégraphe !
 Au théâtre, le texte que l’acteur dit mais qu’il ne joue pas.
@@ -2008,6 +2012,7 @@ Ayant redressé son fourneau, une blanchisseuse cherchait ses fers.
 Ayant travaillé dans cet office de tourisme.
 Ayant trop de millions, il avait trop de luxe.
 Ayant trouvé, il déverrouilla fébrilement la porte numérotée trente et un.
+Ayez de bonnes chaussures.
 Ayez l'obligeance de lui dire que je l'attends.
 Ayez l’œil à tout.
 Ayez soin de tenir toutes les armes à portée de notre main.
@@ -2568,6 +2573,7 @@ Bien, je me charge de le faire griller, répliqua Paganel.
 Bien, l’affaire est entendue, il nous faut agir au plus vite.
 Bien, mon fils, bien!
 Bien, monsieur Bronsfield, répondit le capitaine, et, avec votre permission, faites couper la ligne.
+Bien, prenez ce sac.
 Bien, reprit le capitaine Nemo, bien!...
 Bien, reprit l’ingénieur.
 Bien, répondit Cyrus Smith.
@@ -3298,6 +3304,7 @@ Ce déplacement, peu rapide jusqu’alors, s’opérait dans le sens du nord.
 Ce détail n’échappa à personne.
 Ce diamant, par parenthèse, avait déjà eu des aventures nombreuses.
 Ce disant, Monsieur Letourneur me prend la main et la caresse doucement.
+Ce disant, Passepartout descendit au salon.
 Ce document, traduit en toutes langues, réussit beaucoup.
 Ce doit être fait à cette heure, répondit le capitaine.
 Ce doit être la tour de Petrilla...
@@ -3368,6 +3375,7 @@ Ce fut l’affaire de quelques jours.
 Ce fut l’affaire de vingt secondes.
 Ce fut l’avis de tous.
 Ce fut net, et Kennedy n’eut rien à répondre.
+Ce fut son mot.
 Ce fut un besoin brusque de silence, de luxe et de parfums.
 Ce fut un bruit assourdissant.
 Ce fut un heurt sourd.
@@ -4088,6 +4096,7 @@ Cela les intéressait au plus haut degré.
 Cela leur a fait un os à ronger.
 Cela leur permettra de se hisser au-dessus du seuil de rentabilité.
 Cela lui conférait un certain standing.
+Cela lui paraissait invraisemblable.
 Cela lui parut tout simplement la conséquence de son détraquement mental.
 Cela lui permit de constater que Cyprien, Bardik et le Chinois étaient profondément endormis.
 Cela lui rappelait les monuments de Washington.
@@ -4101,6 +4110,7 @@ Cela me produit le même effet que deux bouteilles de Corton.
 Cela me semblait glauque, de réécrire cette histoire aux vraies victimes.
 Cela me semble heureux, voilà tout, répondit le marin.
 Cela me va », répondit Barbicane.
+Cela me va, cela me va!
 Cela m’a fait plaisir, de retrouver Mathias.
 Cela m’a l’air d’une défense personnelle.
 Cela m’a servi de leçon et appris à juger un peu moins vite.
@@ -4141,6 +4151,7 @@ Cela n’a pas fonctionné.
 Cela n’a pas suffi.
 Cela n’a rien à voir.
 Cela n’aura pas duré bien longtemps.
+Cela n’aurait pas le sens commun.
 Cela n’empêcherait pas d’appareiller et de faire route.
 Cela n’est guère possible, vous en conviendrez...
 Cela n’est pas à craindre dans la belle saison, répondit Pencroff.
@@ -6428,6 +6439,7 @@ C’est lui qui a subi toutes les péripéties les unes après les autres.
 C’est lui qui a tout planifié.
 C’est lui qui a voulu qu’on se rapproche d’Orion.
 C’est lui qui a été le plus rapide.
+C’est lui qui aura tort!
 C’est lui qui fut le plus ardu à convaincre.
 C’est lui qui m’a forcé à le séduire.
 C’est lui qui m’a traîné dans cette réunion.
@@ -6572,6 +6584,7 @@ C’est pas vraiment dans notre intérêt, ça, non?
 C’est pas à cette époque que monsieur Marquet a eu votre grand-père?
 C’est pas ça, Madame Marquet...
 C’est pendant mon sommeil que l’on vient renouveler ces provisions...
+C’est peu probable.
 C’est peu, sans doute, mais...
 C’est peut-être bien délicat ce que vous proposez! objectait faiblement James Hilton.
 C’est peut-être là un moyen de me relever à mes propres yeux!
@@ -7953,6 +7966,7 @@ De... qu’esse j’en sais, moi...
 Debout au milieu de sa fleur de cellophane.
 Debout près de la fenêtre entrebâillée, je m’interroge.
 Debout, près de lui, se tenait le juif Samuel.
+Dedans, deux chemises de laine, trois paires de bas.
 Dehors, il courut vers les roues jaunes de son cabriolet.
 Dehors, la bande haranguée par Urbain vociférait.
 Dehors, la nouvelle se propagea.
@@ -8044,6 +8058,7 @@ Depuis des cycles et des cycles, ils se chamaillent entre eux.
 Depuis des cycles et des cycles.
 Depuis deux jours le temps s’est considérablement radouci.
 Depuis deux jours, sir John se livrait tout entier à ses impérieux instincts.
+Depuis hier, il n’a pas reparu.
 Depuis hier, j'en suis certaine.
 Depuis hier, j’observe que le capitaine et le second ont fréquemment des entretiens.
 Depuis la noétie, c’est encore plus beau à voir.
@@ -8663,6 +8678,7 @@ Dire que j’ai plus un kopeck de ce trésor.
 Dire que nous avons du mal à le suivre est un euphémisme.
 Dire qui est... non: ce qu’est le « je » de Ghislain fut redoutable.
 Directement, mon cher Dick.
+Directement, sans rompre charge.
 Dis bonjour à  Pour se rapprocher plus encore fallait oser le rentre-dedans.
 Dis bonjour à papa maman.
 Dis donc c'est pas épais.
@@ -9221,6 +9237,7 @@ D’ailleurs, l’important est que vous veniez.
 D’ailleurs, même sans ces conditions, la vie était possible.
 D’ailleurs, mon aimable contradicteur, permettez-moi de vous soumettre encore une observation.
 D’ailleurs, mon lieutenant, entendez-vous ces sifflements singuliers?
+D’ailleurs, nous marcherons peu ou pas.
 D’ailleurs, nous ne manquons de rien ici.
 D’ailleurs, nous sommes six aussi.
 D’ailleurs, nous verrons bien quand nous y serons.
@@ -9523,6 +9540,7 @@ Eh bien, monsieur Hobson, dit Mrs.
 Eh bien, monsieur Samuel? fit Joe.
 Eh bien, monsieur, lui demanda-t-il, que serons-nous aujourd’hui?
 Eh bien, monsieur, lui dit-il gaiement
+Eh bien, nous allons avoir un coup de vent.
 Eh bien, nous allons chercher la coupable!
 Eh bien, nous ferons des allumettes.
 Eh bien, nous le visiterons, dit Pencroff.
@@ -9928,6 +9946,7 @@ Elle ne me demande pas de parler à nouveau.
 Elle ne pensait qu’à mettre de la distance entre ce tueur et elle.
 Elle ne peut appartenir à un mortel!
 Elle ne peut être altérée par personne d’autre que son propriétaire.
+Elle ne pouvait l’affirmer.
 Elle ne pouvait pas le tuer.
 Elle ne pouvait s’arracher de sa chambre.
 Elle ne put le dire, ayant perdu connaissance.
@@ -11489,6 +11508,7 @@ Et ce damné boulet est tombé?
 Et ce dernier le lui rend bien.
 Et ce détail aurait dû me mettre la puce à l'oreille.
 Et ce détail aurait dû me mettre la puce à l’oreille.
+Et ce fut ainsi pendant plusieurs heures.
 Et ce fut ainsi pendant quatre jours!
 Et ce jour-là, répondit Mrs.
 Et ce l'humilia.
@@ -11549,6 +11569,7 @@ Et ces loutres deviennent de moins en moins nombreuses? demanda Mrs.
 Et ces trois hommes se serrèrent la main avec effusion.
 Et cesse de caresser ces piments de manière suggestive, tu fais un peu peur.
 Et cet avis sembla prévaloir auprès des marchands, des chasseurs.
+Et cet homme est votre domestique?
 Et cette bande de pissefroid remplace une addiction à la drogue.
 Et cette fin terrible n’arrêta pas les explorateurs?
 Et cette fois-ci, je vais peut-être y parvenir.
@@ -12466,6 +12487,7 @@ Et qui vous a retardé?...
 Et qui vous a volé? reprit sir John.
 Et qui vous payera votre terme?
 Et quitter la maison, c’était périr de froid.
+Et qu’allez-vous faire?
 Et qu’as-tu découvert?...
 Et qu’avez-vous fait depuis trois mois? demanda Cyprien à Alice.
 Et qu’avez-vous trouvé, monsieur Palander? lui demanda sir John.
@@ -12608,6 +12630,7 @@ Et tous deux marchent côte à côte, obnubilés par l’air qu’ils expirent.
 Et tous deux marchent côte à côte.
 Et tous deux partirent.
 Et tous deux pressèrent l’allure de leurs girafes.
+Et tous deux se mirent en route.
 Et tous deux, reprenant le chariot
 Et tous déguerpirent, retirant du jeu les éclopés.
 Et tous se remirent à rire.
@@ -12714,8 +12737,10 @@ Et vous ne pouvez pas me dire son nom?
 Et vous n’avez pas trouvé?...
 Et vous n’avez pas vu trace d’êtres humains sur cette côte?
 Et vous n’oublierez pas votre rifle? dit Barbicane.
+Et vous pourriez partir?...
 Et vous répétez tout le long du jersey.
 Et vous savez ce qu’il est devenu?...
+Et vous savez chanter?
 Et vous seriez prêt à attester le fait en cour de justice?
 Et vous trouvez cela tout naturel?...
 Et vous voyez que je ne m’en porte pas plus mal!
@@ -12991,6 +13016,7 @@ Fais-toi discret et couvre nos arrières, je me charge du reste.
 Fais-toi un look de playmobil mais que ça se voie pas trop.
 Faisait-il jour ou nuit?
 Faisait-il nuit ou jour, soleil ou pluie?
+Faisons ce qu’il dit!
 Faisons comme si nous devions arriver, répondit Barbicane.
 Faisons le bien tant que nous avons le temps.
 Faisons simplement de notre mieux.
@@ -13451,6 +13477,7 @@ Grantaire, afin de réveiller le bourgeois, miaulait de sinistre façon.
 Grave indice chez un tel chasseur.
 Grâce au ciel, son mémoire était encore là!
 Grâce aux précautions hygiéniques prises, la santé générale n’avait point été altérée.
+Greffier, appelez une autre cause!
 Gresloup appelait de loin.
 Gresloup entra pour avoir des nouvelles de son gendre.
 Gresloup n'aimait guère converser en voiture.
@@ -14136,6 +14163,7 @@ Il en fut ravi.
 Il en gloussa tout haut en prenant sa correspondance.
 Il en jouit.
 Il en passa une.
+Il en prenait son parti.
 Il en prit trois larges tranches avec un peu de salade.
 Il en ressort une vision de la vie un rien sarcastique.
 Il en revient aussitôt avec une carte, un sextant et une boussole.
@@ -14200,6 +14228,7 @@ Il est donc difficile d’éviter leurs attaques aussi rapides que soudaines.
 Il est donc important de se rationner dès ce premier jour.
 Il est donc naturel de chercher une alternative.
 Il est donc permis de croire qu’il n’y est point connu...
+Il est donc riche?
 Il est débordé par ces enfants.
 Il est déjà quinze heures, on y va?
 Il est en avance, ce couillon.
@@ -14459,6 +14488,7 @@ Il était vigoureux, adroit, actif ; par la suite, aucune besogne ne le rebuta.
 Il était visible que le capitaine s’éteignait peu à peu.
 Il était, en outre, le pourvoyeur de l’office.
 Il fabriqua ainsi une porte assez solide pour commander l’ouverture de Will-Tree.
+Il faillit passer au travers.
 Il faisait alors plus chaud que jamais.
 Il faisait alors une chaleur accablante.
 Il faisait beau quand je me suis levé.
@@ -14483,6 +14513,7 @@ Il fait beau, j’avais envie de prendre l’air...
 Il fait bien chaud, dit Wilson.
 Il fait bon ici, dit Nicholl.
 Il fait froid, peux-tu fermer la fenêtre s'il te plaît?
+Il fait le tour du monde!
 Il fait sacrément froid en Islande.
 Il fait sombre dans cette pièce
 Il fait super mauvais, on va au ciné?
@@ -14879,6 +14910,7 @@ Il l'inondait à foison de flatteries littéraires.
 Il la connaît la bonne question.
 Il la contempla droite dans la robe aplatie contre les formes d'adolescence angélique.
 Il la laissa pénétrer la première dans l’ascenseur, puis il entra lui-même.
+Il la parcourut de la cave au grenier.
 Il la portait, jour et nuit, étroitement sanglée sur sa poitrine.
 Il la posa sur le sol.
 Il la remonte et là, du coup, je le sens.
@@ -14935,6 +14967,7 @@ Il les plia et les mit dans la poche de sa chemise.
 Il les repère vite et embroche les deux premiers sur sa lance.
 Il les récitait en boucle comme on dit son chapelet.
 Il les régalait de vin muscat.
+Il leur adressa la parole en anglais.
 Il leur avait dit de démonter les bécanes qui étaient mobiles.
 Il leur avait livré Weber sur un plateau, faute de précautions.
 Il leur eût été si utile, s’ils avaient pu en faire un traître!...
@@ -15226,6 +15259,7 @@ Il ne paraît pas lourdement chargé... fit observer Magnus Anders.
 Il ne parlait pas davantage.
 Il ne partira pas!
 Il ne passera pas de navire, vous le savez bien.
+Il ne perdait pas un regard au plafond.
 Il ne peut être là... dit Niels Harboe.
 Il ne peut être loin! reprit l’officier de police.
 Il ne peut être loin...
@@ -15294,12 +15328,14 @@ Il ne savait pas où il allait. Ils étaient bien traités
 Il ne savait plus ce qu’il disait, l’infortuné Patak.
 Il ne savait plus sur qui ni sur quoi compter.
 Il ne savait que répondre.
+Il ne savait trop que penser.
 Il ne savait, mais il fallait que ce fût... et cela serait...
 Il ne se cache plus, sous les draps, le spectre de la pénétration.
 Il ne se détache point en relief de l’arrière-plan des montagnes.
 Il ne se fût pas permis de l’interrompre par une seule observation.
 Il ne se lave jamais les mains en sortant des chiottes.
 Il ne se narcisse pas l’égo à regarder ses palabres.
+Il ne se permettait aucun geste superflu.
 Il ne se recueille pas: il ne fait que douter.
 Il ne se relevait pas.
 Il ne se sent bien que dos au mur.
@@ -15412,6 +15448,7 @@ Il n’avait pas vraiment eu de chance dans sa vie.
 Il n’avait plus qu’une idée en tête: rentrer chez lui.
 Il n’avait plus rien à redouter des êtres de là-bas!...
 Il n’avait plus rien à foutre ici.
+Il n’avait pu prendre racine nulle part.
 Il n’avait que des questions, mais aucune réponse.
 Il n’avait qu’une idée: sortir de Richmond et à tout prix.
 Il n’avait remis les pieds dehors qu’un peu tard.
@@ -15489,6 +15526,7 @@ Il n’irait seulement pas à huit lieues!
 Il n’obtint pas de réponse.
 Il n’osa pas gagner le quai pour y attendre une rame.
 Il n’osait même plus l’avouer.
+Il n’osait regarder l’inspecteur de police.
 Il n’y a aucun repère qui tienne.
 Il n’y a donc pas de substance explosive enfermée dans la cale!
 Il n’y a encore que cela contre le mal de mer...
@@ -15726,6 +15764,7 @@ Il prend une profonde inspiration.
 Il prescrivait des pénitences aux partenaires qui avaient perdu.
 Il prêtait l’oreille, espérant toujours qu’un dernier appel parviendrait jusqu’à lui.
 Il prit conscience d’un mouvement à sa droite et jeta un œil.
+Il prit des renseignements sur ce gentleman.
 Il prit donc un marteau et cassa la tirelire.
 Il prit le sergent à part et lui fit connaître, ainsi qu’à Mrs.
 Il prit l’allumette, et, suivi de ses compagnons, il regagna les Cheminées.
@@ -16093,6 +16132,7 @@ Il s’agit donc de vaincre progressivement cette action de la pesanteur.
 Il s’agit du marché.
 Il s’agit d’un message.
 Il s’agit d’un sujet assez épineux.
+Il s’agit d’une promenade en mer?
 Il s’agit pas de faire mouche.
 Il s’agitait sur son siège, essayait de ricaner, y parvenait mal.
 Il s’alita, languit quelques jours, puis s’éteignit.
@@ -16166,6 +16206,7 @@ Il te vient d’où ce délire en talons aiguilles?
 Il tenait à devancer les voyageurs sur la côte argentine.
 Il tenait la tête haute et les sourcils froncés.
 Il tenait pour « une explosion », et il n’en voulut pas démordre.
+Il tenait sa parole.
 Il tendait les bras à ma mère, qui ouvrait la porte en haut.
 Il tendait ses bras vers Cyrus Smith, vers Spilett, vers Pencroff!
 Il tenta de lutter contre les lames en nageant avec vigueur.
@@ -16176,6 +16217,7 @@ Il tétait encore sa mère quand je l’ai trouvé dans la fosse.
 Il tient à un hasard.
 Il tire une lettre de sa poche et la lui donne.
 Il tombait des hallebardes.
+Il tombait une pluie fine.
 Il tombe sur moi.
 Il toucha la trace étoilée d'un trou de balle à son cou.
 Il touchait les mains offertes.
@@ -16293,11 +16335,13 @@ Il vous aime, monsieur.
 Il vous donne les mêmes raisons de choisir notre devoir.
 Il vous entraînerait dans son tourbillon!...
 Il vous est facile de proposer, comme il m’est difficile de choisir.
+Il vous faut encore une dizaine de jours de mer.
 Il vous plaît de vivre au corral.
 Il vous suffit d'emmancher le coude
 Il voyait les ais de la porte se disjoindre peu à peu!...
 Il y a aussi eu les mines de charbon.
 Il y a aussi quelques informaticiens
+Il y a autre chose.
 Il y a beaucoup de choses à dire de ce garçon.
 Il y a bien des souffrances cachées dans cette réponse de miss Herbey!
 Il y a ceux qui entendent ce que tu voulais leur dire.
@@ -16338,6 +16382,7 @@ Il y a en même un qui époussette un abat-jour.
 Il y a en même un qui époussette un abatjour.
 Il y a encore dix mille francs d’or!
 Il y a encore là-dessous, je gage, quelque mauvais tour de ce Pantalacci?
+Il y a encore un moyen de nous sauver!
 Il y a entre trois et quatre mois.
 Il y a eu des moments d’hésitation devant mon clavier.
 Il y a eu naufrage, puisqu’il y a un naufragé.
@@ -17763,6 +17808,7 @@ Je dois sans cesse rappeler les chiens qui partent sur des pistes.
 Je dois être au bord de la tendinite, tel que tu me vois.
 Je donne un coup de volant pour éviter le terre-plein.
 Je donnerais dix ans de la vie de Nicholl pour comprendre!
+Je donnerais ma vie pour le trouver!
 Je dormirai dans le salon.
 Je dormirai sûrement sur place et repartirai le lendemain matin.
 Je doute quelle puisse supporter longtemps de telles misères.
@@ -17861,6 +17907,7 @@ Je le crains, Mokoum, répondit sir John.
 Je le crains, répondit Godfrey, mais j’espère que nous dînerons mieux ce soir!
 Je le crains, répondit le chasseur.
 Je le croirai quand le bois flambera dans le foyer.
+Je le crois bien!
 Je le crois bien! s’écria Michel Ardan.
 Je le crois bien!...
 Je le crois bien, répondit le docteur, la chair d’antilope est exquise.
@@ -17897,6 +17944,7 @@ Je le sais, j’ai vu vos pensées.
 Je le sais, j’y ai veillé.
 Je le sais, monsieur le comte.
 Je le sais, répondit Barbicane.
+Je le souhaite, monsieur Fix, car il s’agit d’un vol important.
 Je le soupçonne même d’en profiter.
 Je le suis jusqu’à l’endroit que m’a montré Magali.
 Je le tiens là sous ma cloche pneumatique!
@@ -18348,6 +18396,7 @@ Je ne peux pas te dire où je suis.
 Je ne peux pas vous en dire beaucoup plus avant votre séance de demain
 Je ne peux pas... je ne veux pas!...
 Je ne peux que t’encourager à tenter l’aventure.
+Je ne peux y croire.
 Je ne pourrai plus t’écrire aussi souvent qu’avant.
 Je ne pouvais dire pourquoi, mais j’avais un mauvais pressentiment.
 Je ne prends pas mon courage à deux mains.
@@ -19158,6 +19207,7 @@ Je tente de rejoindre le banc.
 Je tente de sortir hors de l'eau Attends.
 Je tente de sortir hors de l’eau — Attends, attends, Fulbert.
 Je tente quand même le coup.
+Je tiens mon homme.
 Je tiens à remercier Bertrand pour ses précieux conseils et ses corrections.
 Je tiens à remercier Tim Apple.
 Je tiens à te remercier.
@@ -19362,6 +19412,7 @@ Je vois, répondit tranquillement le docteur.
 Je voudrais bien m’en aller!
 Je voudrais bien savoir ce qui en est.
 Je voudrais bien voir cela!
+Je voudrais bien vous y voir.
 Je voudrais déjà y être!
 Je voudrais encore aujourd'hui pouvoir me sentir motivé pour le faire.
 Je voudrais goûter la chair de cet amphibie.
@@ -19417,6 +19468,7 @@ Je vous en ferai à la pelle, des diamants!...
 Je vous en félicite, monsieur le directeur.
 Je vous en prie, Pencroff, dit l’ingénieur.
 Je vous en prie, ne l’oubliez pas.
+Je vous en remercie au nom de tous!
 Je vous en remercie d’avance.
 Je vous en supplie, mon père, faites grâce à la pauvre bête! disait-elle.
 Je vous engage donc, monsieur Godfrey, à regagner votre cabine.
@@ -19996,6 +20048,7 @@ J’ai tout appris de la bouche de Barbicane!
 J’ai tout briqué, c’est nickel.
 J’ai tout de même réussi à faire tout ce que je voulais.
 J’ai tout fait comme on m’a dit pour mériter mon salaire.
+J’ai tout fait pour cela.
 J’ai tout fait pour te déconcentrer.
 J’ai tout le monde contre moi!
 J’ai tout perdu dans cette affaire.
@@ -20223,6 +20276,7 @@ J’en suis certain, s’écria le capitaine.
 J’en suis certain.
 J’en suis certaine.
 J’en suis fier.
+J’en suis honteux pour eux!
 J’en suis informé, monsieur le directeur.
 J’en suis la preuve vivante.
 J’en suis le méchant.
@@ -20944,6 +20998,7 @@ La femme qui ne sert à rien.
 La femme venait de reparaître un instant dans cette nature virile!
 La fermeté du jeune homme chancela.
 La fessée c'est interdit.
+La feuille trembla dans sa main.
 La fête de la fonte
 La fidélité dans le couple pourrait-elle perdurer sans confiance accordée?
 La fierté de cet homme et son courage avaient quelque chose de sublime.
@@ -22511,6 +22566,7 @@ Le conseil vient du fond de la chambre.
 Le conseiller demanda au chauffeur d’accélérer, ce qu’il fit, modérément.
 Le conseiller pianota rapidement sur son téléphone.
 Le conservatoire, ça conserve quoi?
+Le consul n’acheva pas sa phrase.
 Le conte de notre passé.
 Le contenu m'a choqué.
 Le conteur d’histoire dans l’histoire.
@@ -23831,6 +23887,7 @@ Le temps changea pendant la première semaine de mars.
 Le temps de penser: « tiens, ça n’arrive pas qu’aux autres.
 Le temps de savourer le travail bien fait.
 Le temps depuis quelques jours devient menaçant.
+Le temps d’embarquer son charbon.
 Le temps est orageux, fit observer Harbert.
 Le temps était affreux.
 Le temps était alors très beau et la chaleur assez forte.
@@ -23890,6 +23947,8 @@ Le tissus de la braguette s’entrouvre, me laissant inspirer quelques phéromon
 Le tocsin toujours sonnait.
 Le total du troupeau s’élevait alors à une trentaine de têtes.
 Le tour de l’île   Chapitre
+Le tour du monde! murmura-t-il.
+Le tour du monde en quatre-vingts jours?
 Le tourbillon noir et blanc qui tournicote vers son centre.
 Le tout dominé par une montagne centrale de quinze cents pieds.
 Le tout est de savoir si j’ai encore de quoi jongler.
@@ -23978,6 +24037,7 @@ Le vent les repoussait.
 Le vent mugissait dans l’étroite passe et découronnait le sommet des icebergs.
 Le vent murmurait à travers les sapins.
 Le vent ne lui soufflait pas de la musique dans les oreilles.
+Le vent ne soufflait plus
 Le vent ne soufflait plus.
 Le vent nous y porte!
 Le vent paraissait bien établi, une brise moyenne qui soufflait du nord-est.
@@ -24675,6 +24735,7 @@ Les fêlures qui étoilent le verre autour de son crâne.
 Les galets, poussés et ramenés par les lames, roulaient avec un fracas assourdissant.
 Les gardes civils inspectaient les voitures sur le parking à Barcelone.
 Les gardes fermaient les portes de la place forte avant onze heures.
+Les gardes les avaient suivis.
 Les gargouillis gutturaux de sa gorge annoncent la deuxième salve.
 Les gars m’ont vu monter dans l’avion sans rien comprendre.
 Les garçons cabaretiers, autour, amassaient des tonneaux, les comblaient de pierres.
@@ -25333,6 +25394,7 @@ Les voix nerveuses des femmes, les voix aigres des enfants s'exaltèrent ensembl
 Les volatiles, effarés, disparurent en toutes directions.
 Les volcans sont capricieux! répondit le reporter.
 Les volets des fenêtres avaient été hermétiquement rabattus.
+Les voleurs deviennent mesquins!
 Les volutes de brume remontaient dans l’espace.
 Les vomissements lui ont procuré quelque répit.
 Les voyages forment la jeunesse.
@@ -25885,6 +25947,7 @@ L’arrimage du véhicule ne fut qu’un jeu pour ces braves gens.
 L’arrivée du projectile à Stone’s-Hill, page cent trente-neuf.
 L’arrivée du yacht écossais à l’île Tabor est fort problématique.
 L’art et les artistes ont donc pris des dimensions quasi mythiques.
+L’article fit grand bruit.
 L’arôme du café froid masque l’absence de bruit.
 L’ascension devint très-périlleuse alors.
 L’ascension du pic avait été rude.
@@ -25980,6 +26043,7 @@ L’eau fume sur le carrelage froid.
 L’eau lui montait à la ceinture.
 L’eau manquait aussi.
 L’eau me gagne les jambes.
+L’eau montait toujours.
 L’eau ne devait donc jamais manquer à Granite-house.
 L’eau ne s’était pas encore raréfiée dans les plis de terrain.
 L’eau sifflait en s’évaporant au contact des laves bouillonnantes.
@@ -26238,6 +26302,7 @@ L’ingéniosité des constructeurs du projectile avait-elle obtenu un résul
 L’injection fut quasi instantanée.
 L’inoubliable physionomie de ce personnage n’avait pas changé.
 L’insomnie n’a que trop duré.
+L’inspecteur de police.
 L’inspection se termina donc à la satisfaction générale.
 L’inspiration fait feu de tout bois.
 L’inspiration, il peut y en avoir partout.
@@ -26334,6 +26399,7 @@ L’oubli est le pansement qu’accepte volontiers tout guerrier.
 L’ouragan se déchaînait alors avec une épouvantable violence.
 L’ouragan se déchaînait avec une incomparable violence.
 L’ouragan s’y déchaîne comme en plein Atlantique.
+L’ours poussait des rugissements formidables.
 L’ours rôdait aux environs, aussi inoffensif aux animaux qu’aux hommes.
 L’outil qui me sortirait du monde du silence.
 L’ouvrir signifierait découvrir ce qu’il a à me dire.
@@ -27681,6 +27747,7 @@ Mais que de tracas, que d’inquiétudes, de luttes, avait subis le président
 Mais que devait-il naturellement penser?
 Mais que devient le mouvement dont il était animé?
 Mais que disiez-vous?
+Mais que faire? que faire ?
 Mais que faire alors?
 Mais que fait Joe? s’écria Kennedy, il ne s’arrête pas!
 Mais que feras-tu?
@@ -27769,6 +27836,7 @@ Mais restez donc, voyons! Vous n’êtes pas bien?
 Mais revenons à la question.
 Mais revenons à notre véhicule.
 Mais revenons à vous.
+Mais rien de plus naturel!
 Mais rien ne les arrêtait.
 Mais rien ne se fit entendre.
 Mais rien ne se passe.
@@ -28381,6 +28449,7 @@ Mes amis, demanda le lieutenant Hobson, pensez-vous que je doive prévenir nos 
 Mes amis, dit Michel Ardan, je pense que cette question est maintenant résolue.
 Mes amis, dit-elle, voulez-vous attendre un jour encore?
 Mes amis, dit-il d’une voix affaiblie, je m’en vais!
+Mes amis, dit-il page trois cent dix.
 Mes amis, dit-il, il est dix heures vingt.
 Mes amis, un bâtiment du Vineyard, un baleinier du Vineyard!
 Mes amis, voici que nous franchissons l’équateur! nous entrons dans notre hémisphère !
@@ -28582,6 +28651,7 @@ Moi: Vous n’auriez pas une rondelle de citron, par hasard?
 Moi: Y gagnerai-je une amie, une traîtresse ou une alliée?
 Moi: À Orion, vous voulez dire?
 Moi? Pas du tout ? Mais quʼimporte, on fait connaissance.
+Moi? je n’y crois pas!
 Moi Estce que les deux sont vraiment incompatibles.
 Moi Et c'est censé m'insuffler la confiance en vous.
 Moi Et c'est quoi ce point que tu m'as montré.
@@ -29890,6 +29960,7 @@ Nous allons commencer? demanda le capitaine Blomsberry.
 Nous allons de découverte en découverte.
 Nous allons donc entrer au service de Monsieur Cyrus Smith?
 Nous allons entendre d’autres histoires
+Nous allons faire le tour du monde.
 Nous allons le prendre comme domestique?
 Nous allons même nous élever pour saisir la configuration exacte du pays.
 Nous allons nous ennuyer royalement!
@@ -29940,6 +30011,7 @@ Nous avons donc embarqué pour une journée de route.
 Nous avons donc encore vingt-sept minutes à rester sur la terre.
 Nous avons donc fait le tour de notre satellite!
 Nous avons donc ici tenté de respecter l’esprit de détournement du sigle officiel.
+Nous avons donc quatre jours devant nous.
 Nous avons donc tout le temps de tenir un conseil de guerre.
 Nous avons dû tenir la cape pendant quarante-huit heures...
 Nous avons déballé nos affaires, et nous sommes allés faire des courses.
@@ -30185,6 +30257,7 @@ Nous n’avons pas encore évoqué les détails, par exemple…
 Nous n’avons pas eu besoin d’échanger de mots.
 Nous n’avons pas les médicaments nécessaires pour neutraliser les effets de ce poison.
 Nous n’avons pas pu ne serait-ce qu’échanger la moindre idée.
+Nous n’avons pas souvent de pareilles aubaines!
 Nous n’avons pas, je pense, à nous prononcer sur cet incident.
 Nous n’avons plus assez de bras pour les cultiver.
 Nous n’avons plus de temps à perdre.
@@ -30439,6 +30512,7 @@ Nul doute que le capitaine Paxton et son équipage ne fussent couchés déja�
 Nul doute qu’il n’eût été fabriqué tout exprès.
 Nul être vivant dans ces solitudes, que les oiseaux avaient eux-mêmes abandonnées!
 Nul incident de navigation.
+Nul incident ne signala cette nuit.
 Nul moyen de refroidir l’immense cylindre.
 Nul ne mettait en doute que ce bolide ne fût le projectile.
 Nul ne peut interdire ni la foi ni l’audace!
@@ -30844,6 +30918,7 @@ On a un problème, mon pitchoun.
 On a un problème.
 On a volé les registres de Monsieur Palander.
 On a vraiment besoin d’elle?
+On a vu des choses plus extraordinaires!
 On a vu que tout espoir ne l’avait pas abandonné.
 On admet généralement que les humains ont un droit à la vie.
 On affectait l'esprit pour dissimuler la terreur.
@@ -31177,6 +31252,7 @@ On le voit, Jonas n’avait rien à craindre de ses nouveaux hôtes.
 On le voit, c’était son idée fixe.
 On le voit, l’ingénieur et son compagnon avaient bien employé la journée.
 On le voit, rien n’est plus simple.
+On le voyait rarement sur le pont.
 On les a placés là pour les laisser mourir.
 On les acceptait, d’ailleurs, tels qu’ils venaient au bout de la canne.
 On les appelle les « arbres à fièvre ».
@@ -31208,6 +31284,7 @@ On lui avait donné un nom à rallonge.
 On lui en prêtait, suivant l’habitude, car il était riche de ce côté.
 On lui fit comprendre qu’il s’agissait d’une maison de bois.
 On lui présenta les dons propitiatoires, ordinairement déposés dans les « mzimu » ou huttes-fétiches.
+On lui rendit ses souliers.
 On lui répondit: « Duncan parti depuis le dix-huit courant pour une destination inconnue.
 On lâchait des coups de fusil dans la serrure: elle céda.
 On l’a dit, le cap Bathurst n’existait plus.
@@ -31278,6 +31355,7 @@ On ne l’a point oublié, la brume s’était dissipée à ce moment.
 On ne l’entendit même pas.
 On ne l’entendit point appeler.
 On ne m'écoute pas.
+On ne marche pas!
 On ne met pas en valeur un produit industriel.
 On ne m’a pas proposé de place mais un coin sombre.
 On ne m’avait pas prévenu d'un tel risque d'inondation.
@@ -31642,6 +31720,7 @@ On s’est revu plus tard, dans ce café.
 On s’exposera, mon lieutenant », répondit le sergent Long.
 On s’était groupé par deux ou par trois, chacun suivant ses sympathies.
 On s’étonnera peut-être de cette perfection
+On s’habille comme on peut!
 On s’occupa donc de mettre toute cette cargaison en lieu sûr.
 On s’occupa, sans plus tarder
 On s’y prend comment?
@@ -31682,6 +31761,7 @@ On va espérer que ce sont les médocs, donc.
 On va faire coucou aux voitures d'en dessous.
 On va faire coucou aux voitures d’en dessous.
 On va fêter un truc, je ne vous dis pas…
+On va le voir.
 On va leur donner des maladies avec nos tapis.
 On va mettre face à face un chien et un loup.
 On va par le cap Horn... on revient par le cap de Bonne-Espérance!...
@@ -32175,6 +32255,7 @@ Oui, dit Nicholl, il s’en ira suivant une parabole ou suivant une hyperbole.
 Oui, eh bien! Moi je vous dis que c’est un chameau !
 Oui, elle m’a envoyé les billets d’avions, hier.
 Oui, en effet. Vous voulez bien vous y prêter?
+Oui, en quatre-vingts jours!
 Oui, encore une heure, » répondit le digne major.
 Oui, et on eût dit que des volutes enflammées tourbillonnaient au-dessus  du château.
 Oui, et alors?
@@ -32288,6 +32369,7 @@ Oui, oui, tout ce que vous voulez!
 Oui, pasteur, une fameuse encore, et qui vous allonge joliment la vue.
 Oui, petit père, avec les trois chevaux!
 Oui, pour les deux ans qu’il demande!
+Oui, pour l’instant.
 Oui, reprend le scribe, c’est une question d’équilibre.
 Oui, reprit John Carpenter.
 Oui, reprit l’ingénieur.
@@ -33058,6 +33140,9 @@ Passagers et matelots sont aux barres du guindeau.
 Passant devant un kiosque, il fut tenté par une nouvelle revue de presse.
 Passe surveiller de temps en temps la cuisson.
 Passe-moi le torchon, que tu seras un cœur.
+Passepartout arriva au port Victoria.
+Passepartout consulta la liste...
+Passepartout se leva donc.
 Passer deux mois dans un hôpital avec moi pour m'entraîner.
 Passer deux mois dans un hôpital avec moi pour m’entraîner.
 Passer la ligne neutre! s’écria Michel.
@@ -35129,6 +35214,7 @@ Que de solutions on eût tirées de la contemplation de cet hémisphère!
 Que de trophées cynégétiques à rapporter à son château des Highlands!
 Que des chevaucheurs de pensées se trouvaient en l’empire du Milieu.
 Que devaient-ils faire?
+Que devait-il faire?
 Que deviendra alors cette Antille franco-anglo-hollandaise?...
 Que deviendraient-ils au milieu de ces pâturages dévastés?
 Que deviendrait alors tout ce monde, si ce froid extrême persévérait?
@@ -35230,6 +35316,7 @@ Que mon frère retourne aux montagnes, je reste à veiller sur la ville.
 Que mon libre arbitre a existé.
 Que mon silence de ces derniers jours avait une explication imparable: ma mort.
 Que monsieur Kolderup me pardonne, dit-il très poliment.
+Que monsieur me pardonne, mais c’est impossible.
 Que ne renaissez-vous, chaque printemps, avec la beauté de la terre?
 Que non, il n’est pas si extérieur à toutes ces histoires.
 Que nous aussi, nous la découvrions ce soir.
@@ -35350,6 +35437,7 @@ Que voulez-vous dire, monsieur Hobson? demanda Mrs.
 Que voulez-vous donc qu’ils soient, ces intrus? s’écria maître Koltz.
 Que voulez-vous qu'on dise?
 Que voulez-vous, l’informatique mène aussi à la philosophie!
+Que voulez-vous, monsieur Fix?
 Que voulez-vous, répondit Will Mitz, il faudra bien le prendre comme il sera!...
 Que voulons-nous dire par là?
 Que vous a-t-elle dit?
@@ -35486,6 +35574,7 @@ Quelle étonnante contrée! disait Mrs.
 Quelle fertilité à la surface des plateaux de strate de calcaire!
 Quelle figure de potence... et le brillant associé que je prends là!...
 Quelle force cela n'eût-il pas donnée à l'Église.
+Quelle heure avez-vous?
 Quelle heure est-il?
 Quelle heure est-il? demanda Gédéon Spilett.
 Quelle heure est-il? demanda Pencroff.
@@ -35535,6 +35624,7 @@ Quelles occasions manquées d’accomplir les destinées des NoéNautes.
 Quelles que soient mes options, je finissais par me faire prendre tôt ou tard.
 Quelles que soient mes options.
 Quelles que soient vos raisons pour avoir pris sous votre aile un otage.
+Quelles recommandations faire valoir?
 Quelles sommes leur seront versées pour leurs spectacles?
 Quelles sont ces circonstances?
 Quelles sont donc les faveurs qu’il lui réserve?... demanda Monsieur Patterson.
@@ -37120,6 +37210,7 @@ Señor, c’est la fille de ce juif que j’aime!
 Señor, je ne pourrais mettre un demi-réal de plus!
 Señor, que votre mauvaise humeur ne perde pas votre avenir!
 Sept ans au Népal ça l'a un peu changé.
+Sept heures sonnaient alors.
 Sept hommes y descendirent.
 Sept jours se sont écoulés depuis que nous avons abandonné le Chancellor.
 Sept ou huit au plus.
@@ -37179,6 +37270,7 @@ Ses collègues, le regard fixé sur lui, ne pouvaient se méprendre à son a
 Ses compagnons approuvèrent ces dispositions sans même prononcer une parole.
 Ses compagnons et lui allaient revoir la face éclairée du disque lunaire.
 Ses compagnons et lui étaient-ils certains d’avance d’y trouver refuge?
+Ses compagnons et lui interrogeaient l’astronome du regard.
 Ses compagnons et lui s’étaient précipités à la vitre des hublots.
 Ses compagnons et lui, sous la conduite de William Emery, prirent les devants.
 Ses compagnons le comprirent.
@@ -37780,6 +37872,7 @@ Soit ça, soit je dois me sentir vexée.
 Soit, Matakit! lui répondit-il.
 Soit, dit Sabine, mais alors la boussole et le soleil sont en contradiction complète?
 Soit, fit observer Corty, un ou deux matelots...
+Soit, je le suivrai.
 Soit, le plus tôt possible!
 Soit, mais je ne le sais pas!
 Soit, monsieur le comte, reprit maître Koltz.
@@ -37798,6 +37891,7 @@ Soixante-deux millions quatre cent vingt-six mille mètres carrés, répondit Ni
 Soixante-quinze milles? répliqua le major d’un ton peu convaincu.
 Soldats, en ferez-vous autant?
 Somme toute, l’important était de ne pas se laisser prendre.
+Sommes-nous amis? demanda Fix.
 Sommes-nous à proximité ou à plusieurs centaines de milles d’une côte?
 Sommes-nous donc une proie assurée pour eux?
 Sommes-nous encore loin de la côte? demanda Joe.
@@ -38407,6 +38501,7 @@ Tant mieux, s’écria Kennedy avec une rage désespérée, tant mieux! nous
 Tant pis! une queue est fort agréable pour chasser les moustiques.
 Tant pis pour eux, j'irai ailleurs.
 Tant pis pour le Fat-Boy sous moi.
+Tant pis pour le soleil, monsieur!
 Tant pis, ajouta Ayrton.
 Tant pis, j’attendrai au prochain tour.
 Tant pis, répliqua Joe.
@@ -39059,6 +39154,7 @@ Tout renaît de soi, chère Elvire.
 Tout se joue dans la progression.
 Tout se passe en moi.
 Tout se poudre et se jaunit autour de moi, cristallisé dans la calcite.
+Tout servait de projectiles.
 Tout seul, je ne me sortirai pas de cette histoire.
 Tout simplement d’avaler un verre d’eau de mer... répondit Corty.
 Tout simplement, parce que mon mouvement s’est transformé en chaleur!
@@ -39153,6 +39249,7 @@ Toutefois son imagination très surexcitée lui laissait entrevoir des retards
 Toutefois, Franz jugea inutile de lancer les Werstiens sur cette hypothèse.
 Toutefois, aucune lumière n’en éclairait la fenêtre.
 Toutefois, comme la police possédait le signalement de chacun, ils se sentaient très menacés.
+Toutefois, elle est charmante dans sa maigreur.
 Toutefois, fit observer Cyrus Smith, nous sommes ici dans une situation inexpugnable.
 Toutefois, il eut peur de désespérer Dolorès à l'extrême.
 Toutefois, il y avait là un doute.
@@ -40259,6 +40356,7 @@ Un instant qui s’étire dans l’éternel.
 Un instant, Michel, répondit Barbicane.
 Un instant, dit Michel en interrompant son grave compagnon.
 Un instant, dit le reporter.
+Un instant, dit-il.
 Un instant, rien qu’un instant, Kalumah avait vu Mrs.
 Un instant, » dit Cyrus Smith.
 Un jaune en qui elle a vu un potentiel NoéNaute.
@@ -40492,6 +40590,7 @@ Un rugissement épouvantable répondit soudain à cette attaque!...
 Un réseau qui vient en aide aux plus rejetés de notre société.
 Un rôle aussi important que le leader, mais qu’on connait bien mal.
 Un sabre ou une boule de bowling, naine, ne soyons pas sectaires.
+Un sac de nuit seulement.
 Un sac pesant tomba aussitôt à la mer.
 Un sacré petit bout de femme.
 Un sanglot l'étrangla pareil à ceux qui secouaient Dolorès.
@@ -40509,6 +40608,7 @@ Un seul des naufragés ne reposa pas dans les Cheminées.
 Un seul homme ne voulait pas admettre que la situation fût désespérée.
 Un seul incident marqua assez tristement ce mois de janvier.
 Un seul ira dans la Noire et un dans la Rouge.
+Un seul partisan lui resta.
 Un seul pokemon peut parler, le connais-tu?
 Un seul regard, rapidement jeté à l’intérieur, lui montra qu’elle était vide.
 Un seul restait maintenant... lui...
@@ -40947,6 +41047,7 @@ Une mine d’un nouveau genre.
 Une minute après, Harry Markel et son compagnon s’arrêtaient sur le quai.
 Une minute — une minute au plus — dura cet horrible phénomène.
 Une modification des conditions atmosphériques ne se produirait-elle pas avant l’aube?
+Une montre de famille!
 Une mort affreuse eût attendu les malheureux pris dans cet écrasement de montagnes.
 Une multitude de décoration intérieur est possible
 Une neige de flocons marron s’est répandue sur le carrelage blanc.
@@ -41178,6 +41279,7 @@ Venez aussi, tonnerre!
 Venez avec moi, monsieur Kazallon.
 Venez avec nous Dieudonné!
 Venez quand vous voudrez, je ne ferme pas ma porte.
+Venez retenir votre place, venez!
 Venez, Spilett, venez, et ne perdons pas une heure!
 Venez, dit-il à ses compagnons, croyez-moi, cela vous fera du bien.
 Venez, mon ami, » lui dit l’ingénieur.
@@ -41237,6 +41339,7 @@ Veuillez attacher votre ceinture.
 Veuillez bien m’écouter.
 Veuillez décider, colonel, dit William Emery, de quelle façon vous voulez atteindre cette ville.
 Veuillez donc m’écouter, et ne m’épargnez pas les objections à bout portant.
+Veuillez me suivre tous les deux.
 Veuillez ne pas imputer cette opinion à ma jeunesse ou à ma fatuité naturelle.
 Veuillez nous excuser pour la gêne occasionnée. Le cri du géranium.
 Veut-elle danser avec toi?
@@ -41598,9 +41701,12 @@ Vos fusils! s’écria le docteur, vos fusils, et soyez prudents.
 Vos raisons sont absurdes! lui dit-il sévèrement.
 Vos teints sont presque pareils.
 Vos villas-prisons sont prêtes, chacun sur son petit morceau de globe.
+Votre Honneur a raison.
+Votre Honneur cherche un bateau?
 Votre Honneur consentirait-il à faire un pari avec moi?
 Votre Honneur ne sait pas ce qu’est un chucuroo.
 Votre Honneur n’a pas atteint les chairs.
+Votre Honneur sera satisfait.
 Votre Honneur, répondit Mokoum.
 Votre affection souffre de m'enlever à Dieu.
 Votre balance marche mal.
@@ -41630,9 +41736,11 @@ Voui mon petit Stanislas.
 Voulez-vous attendre un instant?
 Voulez-vous connaître ma théorie?
 Voulez-vous continuer de marcher en avant?
+Voulez-vous des arrhes?
 Voulez-vous des chiffres? reprit-il, en voilà d’éloquents!
 Voulez-vous dire qu’il dépassera le quatre-vingtième parallèle?
 Voulez-vous essayer, monsieur Patterson?... reprit Hubert Perkins.
+Voulez-vous le voir?
 Voulez-vous me donner votre main?
 Voulez-vous me laisser faire?
 Voulez-vous me permettre de causer avec son père à ce propos?
@@ -41746,9 +41854,11 @@ Vous choisissez le chemin de l'antre où l'on perd sa popularité!
 Vous comprenez que j’ai fait ce que j’avais à faire?
 Vous comprenez, maintenant, qu’il y a plus important que vous?
 Vous comprenez, mes amis!
+Vous comprenez, mon brave.
 Vous comprenez, pendant la traversée, je n’avais pas grand-chose à faire.
 Vous comprenez... mes amis... certainement... une telle proposition...
 Vous connaissez le capitaine Paxton?... demanda Louis Clodion.
+Vous connaissez mes conditions?
 Vous connaîtrez ça, allez!
 Vous conviendrez, mon lieutenant, que l’endroit est séduisant.
 Vous croyez avoir tout dit quand vous avez dit: l’algèbre.
@@ -41964,6 +42074,7 @@ Vous pouvez avoir été suivi, lorsque vous veniez ici!...
 Vous pouvez en juger, monsieur, la table est servie.
 Vous pouvez essayer dans la journée ou aux heures des repas.
 Vous pouvez faire tomber le serpent!...
+Vous pouvez la consulter.
 Vous pouvez m’appeler Albert, nous sommes collègues à présent.
 Vous pouvez m’appeler le soir à partir de vingt heures
 Vous pouvez pas me forcer.
@@ -41977,6 +42088,7 @@ Vous reconnaissez ce sac?
 Vous repartez, monsieur Delaunay?
 Vous reste-t-il encore de quoi amorcer vos lignes? ai-je demandé.
 Vous restez, n'est-ce pas, madame?
+Vous retardez de quatre minutes.
 Vous riez, s’écria le marin, et pourquoi donc?
 Vous rougissez, monsieur, vous rougissez!
 Vous ruinerez ce señor après son mariage!
@@ -42020,6 +42132,7 @@ Vous travaillez pour sa prospérité, pour sa gloire.
 Vous travaillez sur les chantiers?
 Vous v'là feignants!
 Vous venez avec moi, je vous embarque.
+Vous venez de Londres?
 Vous venez pour les voyous? les héla-t-elle.
 Vous verrez tout à l’heure pourquoi!
 Vous verrez, je suis sûr que vous allez bien vous entendre!
@@ -44391,6 +44504,7 @@ où les sens respirent jusqu'à l'hyper oxygénation.
 où toutes les peurs du wagon basculent en une seule et même voix.
 page cent quatre-vingt-un. malheur, une patrouille débouchait à l’extrémité opposée.
 page cent soixante-trois.
+page trois cent soixante et onze.
 pantomime plus touchante que le plus beau discours!
 par exemple celle, gratuite pour tous, pour les élèves et leurs parents
 par l'agence des Nations Unies consacrée à la normalisation.

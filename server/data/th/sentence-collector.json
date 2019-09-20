@@ -1,5 +1,35 @@
 [
   {
+    "valid": ["wannaphong", "sunsunza2009"],
+    "source": "I created this information myself.",
+    "invalid": [],
+    "approved": true,
+    "sentence": "พวกเราจะพัฒนาระบบจองห้องประชุม",
+    "username": "wannaphong",
+    "createdAt": 1568183437922,
+    "approvalDate": 1568557960256,
+    "Sentences_Meta_UserVote_wannaphong": true,
+    "Sentences_Meta_UserVote_sunsunza2009": true,
+    "Sentences_Meta_UserVoteDate_sunsunza2009": 1568557960256,
+    "id": "60bfe807031248253401623f6a4767c7e44764c8ac47529b5b9fce2a66a5b851",
+    "last_modified": 1568557970069
+  },
+  {
+    "valid": ["wannaphong", "sunsunza2009"],
+    "source": "I created this information myself.",
+    "invalid": [],
+    "approved": true,
+    "sentence": "ทำไมเธอถึงประสบความสำเร็จในชีวิต",
+    "username": "wannaphong",
+    "createdAt": 1567680266784,
+    "approvalDate": 1568557960256,
+    "Sentences_Meta_UserVote_wannaphong": true,
+    "Sentences_Meta_UserVote_sunsunza2009": true,
+    "Sentences_Meta_UserVoteDate_sunsunza2009": 1568557960256,
+    "id": "b92cb1d8cada93b4257eb06b3ba139adbfa179a0b2766df243ca77fd0cc4ebbc",
+    "last_modified": 1568557969988
+  },
+  {
     "valid": ["sunsunza2009", "eveem"],
     "source": "wikipedia",
     "invalid": ["wannaphong"],
