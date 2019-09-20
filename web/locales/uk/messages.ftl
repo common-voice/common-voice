@@ -109,6 +109,7 @@ sl = Словенська
 sq = Албанська
 sr = Сербська
 sv-SE = Шведська
+sw = Суахілі
 syr = Сирійська
 ta = Тамільська
 te = Телугу
@@ -700,16 +701,23 @@ create-custom-goal = Створіть власну ціль
 both-speak-and-listen = Обидва
 both-speak-and-listen-long = Обидва (говорити та слухати)
 daily-goal = Щоденна ціль
+weekly-goal = Тижнева ціль
 easy-difficulty = Легко
 average-difficulty = Середнє
 difficult-difficulty = Складно
 pro-difficulty = Pro
+lose-goal-progress-warning = Редагуючи свою ціль, ви можете втратити поточний прогрес.
 want-to-continue = Хочете продовжити?
 finish-editing = Завершити спочатку редагування?
 lose-changes-warning = Якщо ви підете зараз, ваш прогрес буде втрачено
+build-custom-goal = Створити власну ціль
+set-a-goal = Поставити ціль
+cant-decide = Не можете вирішити?
+confirm-goal = Підтвердити ціль
 share-goal-type-speak = Запис
 share-goal-type-listen = Перевірка
 share-goal-type-both = Запис та перевірка
+share-goal = Поділитися моєю ціллю
 
 ## Profile Delete
 
