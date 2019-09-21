@@ -8,6 +8,10 @@ email-input =
     .label = Iimeel
 submit-form-action = Naatnu
 loading = Nana loowa…
+email-opt-in-info = Miɗo hatojini e heɓde iimeeluuji wano ciiftinooji, kesɗitine taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
+email-opt-in-privacy = So suɓaade heɓde iimeeluuji, a jaɓii no Mozilla huutortoo ngoo humpito hono no facciraa e <privacyLink>Dawirgol Suturo<privacyLink> Mozilla.
+indicates-required = Joofii ko gallol baɗɗingol
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,6 +19,52 @@ loading = Nana loowa…
 
 ## Languages
 
+ab = Abkhaz
+ace = Acehnese
+ady = Adyghe
+af = Afrikaans
+am = Amharic
+an = Aragonese
+ar = Arabic
+as = Assamese
+ast = Asturian
+az = Azerbaijani
+ba = Bashkirs
+bg = Bulgarian
+bn = Bengali
+br = Breton
+bxr = Buryat
+ca = Catalan
+cak = Kaqchikel
+cnh = Hakha Chin
+cs = Czech
+cv = Chuvash
+cy = Welsh
+da = Danish
+de = German
+dsb = Sorbian, Lower
+dv = Dhivehi
+el = Greek
+en = English
+eo = Esperanto
+es = Spanish
+et = Estonian
+eu = Basque
+fa = Persian
+ff = Pulaar-Fulfulde
+fi = Finnish
+fo = Faroese
+fr = French
+fy-NL = Frisian
+ga-IE = Irish
+gl = Galician
+ha = Hawsa
+he = Hebruŋkoore
+hi-IN = Hinndi
+hr = Korowasiire
+hsb = Sorbian, Lower
+hu = Hungarian
+ia = Interlingua
 
 # [/]
 
