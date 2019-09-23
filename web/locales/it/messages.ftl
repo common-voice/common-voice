@@ -318,6 +318,7 @@ off = Disattiva
 on = Attiva
 avatar-clip-title = Dai una voce al tuo avatar
 change-your-avatar-clip = Vuoi cambiare registrazione vocale?
+recording-in-progress = Registrazione in corso…
 avatar-clip-recorded = Ora il tuo avatar ha una registrazione vocale!
 record-voice-wave = Registra la tua voce
 retry-voice-wave-recording = RIPROVA
