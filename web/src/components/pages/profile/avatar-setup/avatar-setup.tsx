@@ -32,6 +32,7 @@ const Lottie = lazy(() => import('react-lottie'));
 const animationData = require('../../../layout/data.json');
 
 import './avatar-setup.css';
+import { eventNames } from 'cluster';
 
 function resizeImage(file: File, maxSize: number): Promise<Blob> {
   const reader = new FileReader();

@@ -127,11 +127,16 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     );
   }
 
-  playAvatarClip = function(clipUrl: string, position: any, self: boolean) {
+  playAvatarClip = function(
+    clipUrl: string,
+    position: any,
+    self: boolean,
+    event: any
+  ) {
     const { locale } = this.props;
     trackVoiceAvatar(self ? 'self-listen' : 'listen', locale);
 
-    if (this.state.playingClipIndex === null) {
+    if (this.state.playingClipIndex === null && event !== 'leave') {
       this.setState({ playingClipIndex: position });
 
       this.audioRef.current.src = clipUrl;
@@ -221,14 +226,16 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
                     this.playAvatarClip(
                       row.avatarClipUrl,
                       row.position,
-                      row.you
+                      row.you,
+                      'enter'
                     )
                   }
                   onMouseLeave={() =>
                     this.playAvatarClip(
                       row.avatarClipUrl,
                       row.position,
-                      row.you
+                      row.you,
+                      'leave'
                     )
                   }
                   onClick={() =>

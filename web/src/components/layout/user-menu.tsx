@@ -20,9 +20,13 @@ const Lottie = lazy(() => import('react-lottie'));
 const animationData = require('./data.json');
 
 export default function UserMenu() {
-  const playAvatar = () => {
+  const playAvatar = (event: any) => {
     trackVoiceAvatar('self-listen', locale);
-    if (account.avatar_clip_url !== null && !showAnimation) {
+    if (
+      account.avatar_clip_url !== null &&
+      !showAnimation &&
+      event !== 'leave'
+    ) {
       audioRef.current.src = account.avatar_clip_url;
 
       audioRef.current.play();
@@ -63,8 +67,8 @@ export default function UserMenu() {
         <button className="toggle">
           <div
             className="username-btn"
-            onMouseEnter={playAvatar}
-            onMouseLeave={playAvatar}
+            onMouseEnter={() => playAvatar('enter')}
+            onMouseLeave={() => playAvatar('leave')}
             onClick={playAvatar}>
             <div>
               <Avatar url={account.avatar_url} />
