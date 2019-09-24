@@ -159,9 +159,57 @@ home-title = Common Voice hija inizzjattiva tal-Mozilla biex tgħinna ngħallmu 
 home-cta = Għolli leħnek, agħti sehmek hawn!
 wall-of-text-start = Il-vuċi naturali, il-vuċi umana. TTant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
 wall-of-text-more-mobile = Ħafna mid-data li jużaw il-kumpnaiji mhix disponibbli għall-maġġoranza tan-nies. Fil-fehma tagħna, dil-qagħda xxekkel l-innovazzjoni. Għalhekk nidejna l-Proġett Common Voice, proġett biex l-għarfien awtomatiku tat-taħdit ikun miftuħ għal kulħadd.
+wall-of-text-more-desktop = Issa inti wkoll tista' taqsam il-vuċi tiegħek magħna sabiex tgħinna nibnu database ta' vuċijiet miftuħa li tista' tintuża minn kull min irid jibni apps innovattivi li jintużaw fuq aġġeġġi jew fuq l-internet. Aqralna sentenza biex tgħin il-magni jitgħallmu jitkellmu bħan-nies. Iċċekkja x-xogħol ta' ħaddieħor biex ittejjeb il-kwalità. Hija daqstant sempliċi!
+wall-of-text-first = Il-vuċi naturali, il-vuċi umana. TTant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
+wall-of-text-second = Ħafna mid-data li jużaw il-kumpnaiji mhix disponibbli għall-maġġoranza tan-nies. Fil-fehma tagħna, dil-qagħda xxekkel l-innovazzjoni. Għalhekk nidejna l-Proġett Common Voice, proġett biex l-għarfien awtomatiku tat-taħdit ikun miftuħ u aċċessibbli għal kulħadd.
+show-wall-of-text = Aqra Iktar
+help-us-title = Għinna niċċekkjaw is-sentenzi!
+help-us-explain = Agħfas play, isma' u mbagħad għidilna: is-sentenza t'hawn taħt inqrat sew minn min qed jitkellem?
+no-clips-to-validate = Mid-dehra għad mhemmx klips li tista' tisma' b'din il-lingwa. Tina daqqa t'id biex inżidu ftit fil-kju: irrekordja ftit inti, issa stess.
+vote-yes = Iva
+vote-no = Le
+toggle-play-tooltip = Agħfas { shortcut-play-toggle } biex tiħol fil-play mode
+speak-subtitle = Agħtina l-vuċi tiegħek
+speak-paragraph = Recordings tal-vuċi huma parti integrali mill-proċess li bih qed nibnu l-ġabra miftuħa ta' data; skont ħafna nies, hija wkoll l-iktar parti li fiha gost.
+speak-goal-text = Clips irrekordjati
+listen-subtitle = Għinna niċċekkjaw il-vuċijiet
+listen-paragraph = Li niċċekkjaw ir-recordings li ingħatawlna hija wkoll importanti għall-għanijiet ta' Common Voice. Isma' ftit u tina daqqa t'id biex noħolqu data aċċessibbli ta' kwalità għolja.
+listen-goal-text = Recordings li ġew iċċekkjati
+hours-recorded = Siegħat Irrekordjati
+hours-validated = Siegħat Iċċekkjati
+voices-online = Vuċijiet li Jinsabu Onlajn Bħalissa
+todays-progress = Kemm Għamilna Progress Illum
+help-reach-goal = Għinna naslu sa { $goal }
+read-terms-q = It-Termini diġà qrajthom?
+ready-to-record = Lest/a biex tagħtina l-vuċi tiegħek?
+all-locales = Kollox
+today = Illum
+x-weeks-short =
+    { $count ->
+        [one] Ġimgħa
+        [two] Ġimgħatejn
+       *[many] Ġimgħat
+    }
+x-months-short =
+    { $count ->
+        [one] Xahar
+        [two] Xahrejn
+       *[many] Xhur
+    }
+x-years-short =
+    { $count ->
+        [one] Sena
+        [two] Sentejn
+       *[many] Snin
+    }
+help-make-dataset = Għinna nibnu ġabra ta' data ta' kwalità għolja, miftuħa għal kulħadd
+sign-up-account = Oħloq kont
+email-subscription-title = Ibda rċievi aġġonrnamenti bl-email
+email-subscription-title-new = Ibda rċievi l-ittra-aħbar ta' Common Voice, tfakkira dwar l-għanijiet tiegħek u aġġornamenti dwar il-progress li qed isir
 
 ## Account Benefits
 
+benefits = Benefiċċji
 
 ## What's public
 
