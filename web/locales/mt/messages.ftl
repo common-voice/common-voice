@@ -223,21 +223,63 @@ whats-public = X'jidher fil-pubbliku?
 email-not-public = L-email tiegħek mhux pubbliku.
 recordings-and-locale-public = In-numru ta' recordings u l-lingwi li tikkontribwixxi għalihom huma pubbliċi.
 username-optin-public = Tista' tagħżel jekk il-username tiegħek ikunx pubbliku jew tibqax anonimu.
+demographic-deidentified = L-informazzjoni demografika, li ddaħħalha jekk trid int (eż  età, sess, lingwa, u aċċent) ma tibqax identifikata mal-vuċi tiegħek u qatt ma tidher pubblikament fuq il-profil tiegħek.
+username-email-not-demographic = Il-username u l-email tiegħek ma jiġux assoċjati mad-data li tiġi ppubblikata.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Isma'/Waqqaf
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Irrekordja/Waqqaf
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Erġa rrekordja l-clip
+request-language-text = Il-lingwa tiegħek għadha mhix tidher fuq Common Voice?
+request-language-button = Itlob biex tiġi inkluża lingwa
 
 ## ProjectStatus
 
+status-title = L-istat tal-proġett s'issa: ara sa fejn wasalna!
+status-contribute = Ikkontribwixxi l-vuċi tiegħek
+status-hours =
+    { $hours ->
+        [one] siegħa
+        [two] sagħtejn
+       *[many] siegħat
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = L-Għanijiet li Jmiss: { $goal }
+english = Ingliż
 
 ## ProfileForm
 
+profile-form-username =
+    .label = User Name
+profile-form-native-language =
+    .label = Lingwa Nattiva
+profile-form-additional-language =
+    .label = Lingwa oħra
+profile-form-accent =
+    .label = Aċċent
 profile-form-age =
     .label = Età
 profile-form-gender =
