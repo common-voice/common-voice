@@ -210,9 +210,19 @@ email-subscription-title-new = Ibda rċievi l-ittra-aħbar ta' Common Voice, tfa
 ## Account Benefits
 
 benefits = Benefiċċji
+rich-data = Id-data li tagħti tista' tkun ta' aktar siwi jekk tipprovdi wkoll, b'mod anonimu, ftit informazzjoni demografika. Kull informazzjoni demografika tiġi anonimizzata qabel issir disponibbli pubblikament.
+improve-audio = L-informazzjoni fil-profil ittejjeb id-data awdjo li tintuża biex jitħarrġu sistemi aktar akkurati għall-għarfien awtomatiku tat-taħdit.
+keep-track = Żomm kont tal-progress tiegħek u l-punti miksuba għal diversi lingwi.
+compare-progress = Qabbel il-progress li għamilt ma' dak ta' kontributuri oħra madwar id-dinja.
+view-goals = Qabbel il-progress li għamilt mal-għanijiet personali u dawk marbuta mal-proġett.
+join-newsletter = Jekk trid, tista' tissieħeb mal-mailing list biex tirċievi aġġornamenti u informazzjoni ġdida dwar il-proġett.
 
 ## What's public
 
+whats-public = X'jidher fil-pubbliku?
+email-not-public = L-email tiegħek mhux pubbliku.
+recordings-and-locale-public = In-numru ta' recordings u l-lingwi li tikkontribwixxi għalihom huma pubbliċi.
+username-optin-public = Tista' tagħżel jekk il-username tiegħek ikunx pubbliku jew tibqax anonimu.
 
 ## Speak & Listen Shortcuts
 
