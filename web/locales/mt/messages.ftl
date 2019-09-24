@@ -228,6 +228,22 @@ benefits = Benefiċċji
 
 ## ProfileForm
 
+profile-form-age =
+    .label = Età
+profile-form-gender =
+    .label = Sess
+profile-form-submit-save = Issejvja
+profile-form-submit-saved = Issejvjat
+male = Raġel
+female = Mara
+# Gender
+other = Ieħor
+why-profile-title = Għalfejn toħloq profil?
+avatar = Avatar
+goals = Għanijiet
+edit-profile = Aġġorna l-Profil Tiegħek
+profile-create-success = Prosit, irnexxilek toħloq profil!
+profile-close = Agħlaq
 
 ## FAQ
 
