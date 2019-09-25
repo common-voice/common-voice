@@ -451,7 +451,7 @@ mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumšnta inteligenca
 mycroft-description =
     Mycroft je prěni asistent wotewrjeneho žórła swěta.
-    Mycroft wšudźe běži - na desktopowym ličaku, w auće ab na Raspberry Pi.
+    Mycroft wšudźe běži - na desktopowym ličaku, w auće abo na Raspberry Pi.
 mycroft-secondary-description = To je softwara wotewrjeneho žórła, kotraž da so darmotnje znowa měšeć, rozšěrić a polěpšić. Mycroft da so za wšitko wužiwać, wot wědomostneho projekta do předewzaćelskeje softwary.
 
 ## Glossary
