@@ -430,6 +430,10 @@ about-clip-graveyard = Klipowy kjarchob
 about-clip-graveyard-text = Klipowy kjarchob z głosowych klipow wobstoj, kótarymž njejo se raźiło, se do datoweje sajźby Common Voice dostaś. Ako datowa sajźba jo klipowy kjarchob za ześěgnjenje k dispoziciji.
 about-partners = Partnarje
 about-become-a-partner = Buźćo partnaŕ
+about-partnership =
+    Common Voice jo projekt zgromaźeństwa a wótwisujomy wót našogo zgromaźeństwa z partnarjow a sobustatkujucych, aby nejwětšu datowu sajźbu wótwórjonego žrědła wuwijał.
+    
+    Comy se slědujucym luźam a organizacijam za jich pomoc na projekśe źěkowaś:
 about-get-involved = Cyńśo sobu
 about-get-involved-text =
     Cośo pomagaś, Common Voice pólěpšyś?
