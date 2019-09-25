@@ -411,6 +411,7 @@ faq-search-for-answers =
 
 about-title = Cogodla Common Voice?
 how-does-it-work-title = Kak to funkcioněrujo
+how-does-it-work-text = Wuměstnjamy datowu sajźbu głosow wótwórjonego žrědła do dobrowólnikow. Pósććo swój głos, pśeglědujśo dokradnosć klipy drugich wósobow, pólěpšćo datowu sajźbu za kuždego.
 about-speak = Powědaś
 about-speak-text = Sobustatkujuce cytaju z datoweje banki sadow a nagrawaju głosowe klipy.
 about-listen-queue = Słuchowy cakański rěd
@@ -439,6 +440,10 @@ about-nav-partners = Partnarje
 about-nav-get-involved = Cyńśo sobu
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumštna inteligenca
+mycroft-description =
+    Mycroft jo prědny asistent wótwórjonego žrědła swěta.
+    Mycroft wšuźi běžy - na desktopowem licadle, w auśe abo na Raspberry Pi.
+mycroft-secondary-description = To jo softwara wótwórjonego žrědła, kótaraž dajo se dermotnje znowego měšaś, rozšyriś a pólěpšyś. Mycroft dajo se za wšykno wužywaś, wót wědomnostnego projekta do pśedewześoweje softwary.
 
 ## Glossary
 
