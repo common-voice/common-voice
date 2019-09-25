@@ -412,6 +412,7 @@ faq-search-for-answers =
 about-title = Čehodla Common Voice?
 about-subtitle = Common Voice je dźěl iniciatiwy Mozilla, kotraž ma mašiny wučić, kak woprawdźići ludźo rěča. Nimo datoweje sadźby Common Voice, wuwiwamy program za rěčenske spóznaće wotewrjeneho žórła z mjenom Deep Speech.
 how-does-it-work-title = Kak to funguje
+how-does-it-work-text = Přeměsćamy datowu sadźbu hłosow wotewrjeneho žórła do dobrowólnikow. Darće swój hłós, přepruwujće dokładnosć klipy druhich wosobow, polěpšće datowu sadźbu za kóždeho.
 about-speak = Rěčeć
 about-speak-text = Sobuskutkowarjo čitaja z datoweje banki sadow a nahrawaja hłosowe klipy.
 about-listen-queue = Słuchowy čakanski rynk
@@ -430,6 +431,10 @@ about-clip-graveyard = Klipowy kěrchow
 about-clip-graveyard-text = Klipowy kěrchow z hłosowych klipow wobsteji, kotrež njejsu do datoweje sadźby Common Voice šafnyli. Kaž datowa sadźba je klipowy kěrchow za sćehnjenje k dispoziciji.
 about-partners = Partnerojo
 about-become-a-partner = Budźće partner
+about-partnership =
+    Common Voice je projekt zhromadźenstwo a wotwisujemy wot našeho zhromadźenstwa z partnerow a sobuskutkowarjow, zo bychmy najwjetšu datowu sadźbu wotewrjeneho žórła.
+    
+    Chcemy so slědowacym ludźom a organizacijam za jich pomoc na projekće dźakować:
 about-get-involved = Čińće sobu
 about-get-involved-text =
     Chceće pomhać, Common Voice polěpšić?
@@ -440,6 +445,9 @@ about-nav-partners = Partnerojo
 about-nav-get-involved = Čińće sobu
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumšnta inteligenca
+mycroft-description =
+    Mycroft je prěni asistent wotewrjeneho žórła swěta.
+    Mycroft wšudźe běži - na desktopowym ličaku, w auće ab na Raspberry Pi.
 
 ## Glossary
 
