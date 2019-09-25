@@ -436,7 +436,7 @@ about-clip-graveyard-text = Klipowy kěrchow z hłosowych klipow wobsteji, kotre
 about-partners = Partnerojo
 about-become-a-partner = Budźće partner
 about-partnership =
-    Common Voice je projekt zhromadźenstwo a wotwisujemy wot našeho zhromadźenstwa z partnerow a sobuskutkowarjow, zo bychmy najwjetšu datowu sadźbu wotewrjeneho žórła.
+    Common Voice je projekt zhromadźenstwa a wotwisujemy wot našeho zhromadźenstwa z partnerow a sobuskutkowarjow, zo bychmy najwjetšu datowu sadźbu wotewrjeneho žórła wuwiwali.
     
     Chcemy so slědowacym ludźom a organizacijam za jich pomoc na projekće dźakować:
 about-get-involved = Čińće sobu
