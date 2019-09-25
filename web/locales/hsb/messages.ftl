@@ -716,6 +716,7 @@ validated-clips = Přepruwowane klipy
 total-approved = Schwalene dohromady
 overall-accuracy = Cyłkowna dokładnosć
 set-visibility = Moju widźomnosć nastajić
+visibility-explainer = Tute nastajenje widźomnosć wašeje lisćiny najlěpšich wodźi. Jeli je schowana, budźe waš postup priwatny. To rěka, zo so waš wobraz, wužiwarske mjeno a postup na lisćinje najlěpšich njezjewi. Dźiwajće na to, zo aktualizowanje lisćiny najlěpšich { $minutes } trjeba, zo bychu so změny wuskutkowali.
 visibility-overlay-note = Pokiw: Hdyž je 'Widźomny' nastajene, da so nastajenje z <profileLink>profiloweje strony</profileLink> změnić
 show-ranking = Moje městno pokazać
 
