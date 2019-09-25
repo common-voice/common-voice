@@ -412,6 +412,9 @@ faq-search-for-answers =
 
 about-title = Čehodla Common Voice?
 about-subtitle = Common Voice je dźěl iniciatiwy Mozilla, kotraž ma mašiny wučić, kak woprawdźići ludźo rěča. Nimo datoweje sadźby Common Voice, wuwiwamy program za rěčenske spóznaće wotewrjeneho žórła z mjenom Deep Speech.
+about-header-description =
+    Wobaj projektaj stej dźěl našich napinanjow, zo byštej mjezotu digitalneho rěčenja přemosćiłoj. Technologije hłosoweho spóznaća čłowjesku dimensiju na naše graty přinjesu, ale wuwiwarjo trjebaja nimoměry wjele hłosowych datow, zo bychu so wutworili. Tuchwilu je najwjace z tutych datow drohe a proprietarne.
+    Chcemy hłosowe daty darmotnje a zjawnje k dispoziciji stajić a zawěsćić, zo daty wšelakorosć woprawdźitych ludźi wotbłyšćuja. Hromadźe móžemy hłosowe spóznaće za kóždeho polěpšić.
 how-does-it-work-title = Kak to funguje
 how-does-it-work-text = Přeměsćamy datowu sadźbu hłosow wotewrjeneho žórła do dobrowólnikow. Darće swój hłós, přepruwujće dokładnosć klipy druhich wosobow, polěpšće datowu sadźbu za kóždeho.
 about-speak = Rěčeć
