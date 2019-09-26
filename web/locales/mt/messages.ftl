@@ -296,6 +296,26 @@ goals = Għanijiet
 edit-profile = Aġġorna l-Profil Tiegħek
 profile-create-success = Prosit, irnexxilek toħloq profil!
 profile-close = Agħlaq
+profile-explanation = Żomm kont ta' kemm għamilt progress billi toħloq profil; dan jgħin biex id-data dwar il-vuċijiet tkun iktar preċiża.
+thanks-for-account = Grazzi talli kkonfermajt il-kont tiegħek; issa, nistgħu nibnulek profil.
+why-demographic = Dan għaliex huwa importanti?
+why-demographic-explanation = L-informazzjoni anonimizzata bħall-età, is-sess u l-aċċent tiegħek jgħinuna ntejbu l-kwalità tad-data awdjo li tintuża biex inżarrġu sistemi għall-għarfien awtomatiku tat-taħdit. Il-username u l-email tiegħek qatt mhu se jiġu assoċċjati mad-data li tissottometti, u għandek ukoll għażla jekk tridx li l-username tiegħek ikun pubbliku jew anonimu.
+accept-privacy = M'għandi ebda oġġezzjoni li tużaw din l-informazzjoni skont kif inhu spjegat fil-<privacyLink>Privacy Policy</privacyLink> tal-Mozilla.
+login-identity = Identità biex tilloggja.
+login-signup = Illoggja /  Oħloq kont
+edit = Editja
+email-subscriptions = Abbonamenti bl-email
+download-profile = Niżżel id-data tiegħi
+contribution-experience = L-esperjenza tiegħek bħala kontributur
+skip-submission-feedback = Aqbeż il-feedback dwar dak li bgħatt
+skip-submission-description = Waqt li tkun qed tikkontribwixxi, il-feedback dwar dak li bgħatt jinqabeż kif tikklikkja 'Ibgħat'. Il-kontribut ikompli immedjatament bil-5 recordings jew validazzjonijiet li jmiss.
+skip-submission-note = Nota: Xorta se jkollok bżonn tagħżel bejn Tkellem jew Isma biex tibdel it-tip ta' kontribut li tagħti.
+off = Off
+on = On
+avatar-clip-title = Agħti vuċi lill-avatar tiegħek
+change-your-avatar-clip = Trid tibdel il-klip bil-vuċi tiegħek?
+recording-in-progress = L-irrekordjar tal-vuċi għaddej
+avatar-clip-recorded = L-avatar tiegħek issa għandu klip bil-vuċi!
 
 ## FAQ
 
