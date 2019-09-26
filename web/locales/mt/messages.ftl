@@ -103,7 +103,7 @@ ro = Rumen
 ru = Russu
 rw = Kinyarwanda
 sah = Sakha
-sc = Sard
+sc = Lingwa Sarda
 si = Sinhala
 sk = Slovakk
 sl = Sloven
@@ -301,7 +301,7 @@ thanks-for-account = Grazzi talli kkonfermajt il-kont tiegħek; issa, nistgħu n
 why-demographic = Dan għaliex huwa importanti?
 why-demographic-explanation = L-informazzjoni anonimizzata bħall-età, is-sess u l-aċċent tiegħek jgħinuna ntejbu l-kwalità tad-data awdjo li tintuża biex inżarrġu sistemi għall-għarfien awtomatiku tat-taħdit. Il-username u l-email tiegħek qatt mhu se jiġu assoċċjati mad-data li tissottometti, u għandek ukoll għażla jekk tridx li l-username tiegħek ikun pubbliku jew anonimu.
 accept-privacy = M'għandi ebda oġġezzjoni li tużaw din l-informazzjoni skont kif inhu spjegat fil-<privacyLink>Privacy Policy</privacyLink> tal-Mozilla.
-login-identity = Identità biex tilloggja.
+login-identity = Identifikazzjoni
 login-signup = Illoggja /  Oħloq kont
 edit = Editja
 email-subscriptions = Abbonamenti bl-email
@@ -316,9 +316,36 @@ avatar-clip-title = Agħti vuċi lill-avatar tiegħek
 change-your-avatar-clip = Trid tibdel il-klip bil-vuċi tiegħek?
 recording-in-progress = L-irrekordjar tal-vuċi għaddej
 avatar-clip-recorded = L-avatar tiegħek issa għandu klip bil-vuċi!
+record-voice-wave = IRREKORDJA VOICEWAVE
+retry-voice-wave-recording = ERĠA'
+re-record = IRREKORDJA MILL-ĠDID
+delete-voice = ĦASSAR
+recording-voice-wave = Qed tirrekordja
+delete-voice-clip = jew Ħassar il-klip tal-vuċi
+ready-to-upload = TELLA'
+avatar-clip-fact = Fatt li ilu magħruf huwa li qarrej li jkun qed iħares lejn l-organizzazzjoni ta' paġna se jtellfu l-kontenut li jista' jinqara.
+recreate-voice = Erġa oħloq il-Voicewave
+cancel-avatar-clip-recording = IKKANĊELLA
+about-avatar-clip-recording = Oħloq klip bil-vuċi mal-avatar li għandek fuq il-profil. L-utenti l-oħra jkunu jistgħu jisimgħu l-klip meta jgħaddu l-mouse minn fuqu.
+browse-file-title = Tella' stampa minn fajl.
+browse-file = Kaxkar jew <browseWrap>ibbrawsja</browseWrap>.
+connect-gravatar = Ikkonnettja ma' Gravatar
+gravatar_not_found = Ebda gravatar ma nstab għall-email tiegħek
+file_too_large = Il-fajl li għażilt huwa kbir wisq
+manage-subscriptions = Ħu ħsieb l-abbonamenti
+manage-email-subscriptions = Ħu ħsieb l-abbonamenti bl-email
+email-already-used = Dan l-email diġà qed jintuża ma' kont ieħor
+add-language = Żid Lingwa
+change-email-setings = Ibdel l-email billi diħol fis-Settings taħt Identifikazzjoni
 
 ## FAQ
 
+faq-title = Mistoqsijiet Frekwenti
+faq-what-cv-q = X'inhu l-Common Voice?
+faq-what-cv-a =
+    Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+    
+    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
 
 ## ABOUT US
 
