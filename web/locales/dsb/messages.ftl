@@ -411,6 +411,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Cogodla Common Voice?
+about-subtitle = Common Voice jo źěl iniciatiwy Mozilla, kótaraž ma mašiny wucyś, kak napšawdne luźe powědaju. Mimo datoweje sajźby Common Voice, wuwijamy program za powědańske spóznaśe wótwórjonego žrědła z mjenim Deep Speech.
+about-header-description =
+    Wobej projekta stej źěl našych procowanjow, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
+    Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
 how-does-it-work-title = Kak to funkcioněrujo
 how-does-it-work-text = Wuměstnjamy datowu sajźbu głosow wótwórjonego žrědła do dobrowólnikow. Pósććo swój głos, pśeglědujśo dokradnosć klipy drugich wósobow, pólěpšćo datowu sajźbu za kuždego.
 about-speak = Powědaś
@@ -716,6 +720,7 @@ validated-clips = Pśeglědane klipy
 total-approved = Pśizwólone dogromady
 overall-accuracy = Cełkowna dokradnosć
 set-visibility = Móju widobnosć nastajiś
+visibility-explainer = Toś to nastajenje widobnosć wašeje lisćiny nejlěpšych wóźi. Jolic jo schowana, buźo waš póstup priwatny. To groni, až se waš wobraz, wužywarske mě a póstup na lisćinje nejlěpšych njezjawijo. Źiwajśo na to, až aktualizěrowanje lisćiny nejlěpšych { $minutes } trjeba, aby se změny wustatkowali.
 visibility-overlay-note = Pokaz: Gaž jo 'Widobny' nastajone, dajo se nastajenje z <profileLink>profilowego boka</profileLink> změniś
 show-ranking = Mójp městno pokazaś
 
