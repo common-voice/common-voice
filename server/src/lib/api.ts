@@ -1,6 +1,9 @@
+import { PassThrough } from 'stream';
+import { S3 } from 'aws-sdk';
 import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
+import * as proxy from 'http-proxy-middleware';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from 'common/user-clients';
 import { getConfig } from '../config-helper';
@@ -13,8 +16,6 @@ import Model from './model';
 import Clip from './clip';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
-import { PassThrough } from 'stream';
-import { S3 } from 'aws-sdk';
 import { AWS } from './aws';
 import Bucket from './bucket';
 const Transcoder = require('stream-transcoder');
@@ -81,6 +82,21 @@ export default class API {
 
         next();
       }
+    );
+
+    router.use(
+      '/kibana',
+      (request: Request, response: Response, next: NextFunction) => {
+        if (request.user && request.client_id) {
+          next();
+        } else {
+          response.status(401).json({
+            error:
+              'Unauthorized! Please login to access Kibana: https://voice.mozilla.org/login',
+          });
+        }
+      },
+      proxy({ target: getConfig().KIBANA_URL, changeOrigin: true })
     );
 
     router.get('/metrics', (request: Request, response: Response) => {
