@@ -11,13 +11,14 @@ import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
 import UserClient from './model/user-client';
+import { trackPageView } from './analytics';
+import { AWS } from './aws';
 import * as Basket from './basket';
-import Model from './model';
+import Bucket from './bucket';
 import Clip from './clip';
+import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
-import { AWS } from './aws';
-import Bucket from './bucket';
 const Transcoder = require('stream-transcoder');
 
 const PromiseRouter = require('express-promise-router');
@@ -84,20 +85,31 @@ export default class API {
       }
     );
 
-    router.use(
-      '/kibana',
-      (request: Request, response: Response, next: NextFunction) => {
-        if (request.user && request.client_id) {
-          next();
-        } else {
-          response.status(401).json({
-            error:
-              'Unauthorized! Please login to access Kibana: https://voice.mozilla.org/login',
-          });
-        }
-      },
-      proxy({ target: getConfig().KIBANA_URL, changeOrigin: true })
-    );
+    const target = getConfig().KIBANA_URL;
+    if (target) {
+      router.use(
+        '/kibana',
+        (request: Request, response: Response, next: NextFunction) => {
+          if (request.user && request.client_id) {
+            trackPageView(request.baseUrl, request.client_id);
+            next();
+          } else {
+            response.status(401).json({
+              error:
+                'Unauthorized! Please login to access Kibana: ' +
+                'https://voice.mozilla.org/login',
+            });
+          }
+        },
+        proxy({
+          target,
+          changeOrigin: true,
+          pathRewrite: {
+            '^/api/v1/kibana': '/',
+          },
+        })
+      );
+    }
 
     router.get('/metrics', (request: Request, response: Response) => {
       this.metrics.countPrometheusRequest(request);

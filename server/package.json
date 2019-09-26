@@ -19,6 +19,7 @@
     "@types/passport": "^0.4.3",
     "@types/redlock": "^3.0.4",
     "@types/request-promise-native": "^1.0.16",
+    "@types/universal-analytics": "^0.4.3",
     "aws-sdk": "^2.503.0",
     "body-parser": "^1.19.0",
     "common": "*",
@@ -54,7 +55,8 @@
     "request-promise-native": "^1.0.7",
     "source-map-support": "^0.5.12",
     "stream-transcoder": "0.0.5",
-    "typescript": "3.5.3"
+    "typescript": "3.5.3",
+    "universal-analytics": "^0.4.20"
   },
   "devDependencies": {
     "jest-matcher-utils": "^24.8.0",
