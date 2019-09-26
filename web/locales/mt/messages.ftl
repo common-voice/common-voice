@@ -346,6 +346,14 @@ faq-what-cv-a =
     Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
     
     We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+faq-why-important-q = Għalfejn huwa importanti?
+faq-why-important-a =
+    Ħafna drabi, it-taħdit huwa l-aktar mod naturali biex nikkomunikaw bejnietna u t-teknloġiji għall-għarfien tal-vuċi qed iwasslu biex dan iseħħ ukoll fuq il-kompjuters u l-aġġeġġi li nġorru magħna. Aħna nixtiequ nħallu lill-iżviluppaturi jibnu applikazzjonijiet inkredibbli għall-għarfien awtomatiku tal-vuċi, bħal sistemi ta' traduzzjoni awtomatika 'real time' u assistenti digitali li jaħdmu bil-vuċi. Imma bħalissa ħafna mid-data meħtieġa biex jinbnew dawn l-applikazzjonijiet tiswa ħafna flus u hija propjetà privata. Aħna nittamaw li Common Voice jagħti lill-iżvilupatturi dak li jeħtieġu għall-innovazzjoni, sabiex it-teknoloġija għall-għarfien tat-taħdit tkun disponibbli fil-lingwa tagħhom.
+    
+    Biex l-għarfien tal-vuċi jkun universali, qed niġbru kampjuni ta' vuċijiet sew f'lingwi mitkellma minn ħafna nies, kif ukoll f'lingwi li għandhom popolazzjoni iżgħar ta' kelliema u li spiss ma jkunux moqdija mis-servizzi kummerċjali tal-għarfien awtomatiku tat-taħdit.  Il-pubblikazzjoni ta' ġabra ta' dati b'diversità ta' vuċijiet tagħti s-setgħa lill-iżviluppaturi, l-intraprendituri u l-komunitajiet biex jindirizzaw huma stess dawn il-lakuni.
+faq-how-get-q = Kif nista' nikseb id-data ta' Common Voice?
+faq-how-get-a = Il-ġabra ta' dati Common Voice hija disponibbli taħt liċenzja  <licenseLink>CC0</licenseLink>  fuq il-<datasetLink>paġna tad-Data</datasetLink> tagħna. Mill-istess poaġna, tista' wkoll tniżżel diversi ġabriet ta' data oħra li huma disponibbli pubblikament.
+faq-when-release2-q = Meta se tniedu d-data Common Voice bil-lingwa tagħna?
 
 ## ABOUT US
 
