@@ -154,3 +154,49 @@ module "cache" {
   client_security_groups = "${module.worker.security_group},${module.sync.security_group}"
   engine                 = "redis"
 }
+
+module "cv_mandarin" {
+  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.4.0"
+  region       = "${var.region}"
+  environment  = "${var.environment}"
+  account      = "${var.account}"
+  service_name = "${var.service_name}"
+  purpose      = "cv_mandarin"
+  role_cnt     = "2"
+  role         = "${module.worker.role},${module.sync.role}"
+}
+
+module "common_voice_a2a" {
+  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.4.0"
+  region       = "${var.region}"
+  environment  = "${var.environment}"
+  account      = "${var.account}"
+  service_name = "${var.service_name}"
+  purpose      = "common_voice_a2a"
+  role_cnt     = "2"
+  role         = "${module.worker.role},${module.sync.role}"
+}
+
+module "db_worker" {
+  source        = "github.com/nubisproject/nubis-terraform//worker?ref=v2.4.0"
+  region        = "${var.region}"
+  environment   = "${var.environment}"
+  account       = "${var.account}"
+  service_name  = "${var.service_name}"
+  purpose       = "db_worker"
+  ami           = "${var.ami}"
+  elb           = "${module.load_balancer.name}"
+  min_instances = "1"
+  max_instances = "1"
+  instance_type = "t2.small"
+
+  # Wait up to 10 minutes for warming up (in seconds)
+  health_check_grace_period = "600"
+
+  # Wait 12 minutes for nodes to be avaialble (in minutes)
+  wait_for_capacity_timeout = "20m"
+
+  nubis_sudo_groups = "${var.nubis_sudo_groups}"
+
+  scale_load_defaults = false
+}
