@@ -75,7 +75,6 @@ nn-NO = Noruego Nynorsk
 oc = aj Occitania
 or = Odia
 pl = Polaco
-pt-BR = Portugues (Brasil)
 rm-sursilv = Romanche Sursilvan
 ro = Rumano
 ru = Ruso
@@ -108,6 +107,7 @@ speak = Ch'owen
 speak-now = Kach'o wakami
 datasets = Kiyakb'al tzij
 languages = Taq ch'ab'äl
+about = Tawetamaj qawäch
 profile = Ruwäch b'i'aj
 help = Tob'äl
 contact = Rub'i' achib'il
@@ -252,8 +252,6 @@ profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on c
 thanks-for-account = Matyox xajikib'a' ri rub'i' ataqoya'l, wakami niqatz'ük qa ri ruwäch ab'i'.
 why-demographic = ¿Achike ruma k'atzinel re'?
 why-demographic-explanation = Ewäl rutzij okisanel achi'el rujuna', rub'anikil chuqa' ruk'oxom yeto'on richin ye'utziläx ri taq rutzij k'oxom e'okisan richin jeb'ël yetojtob'ëx ri taq rukanob'al ketamaxik taq ch'ab'äl. Ri rub'i' awokisanel chuqa' ataqoya'l majub'ey xkexim kik'in ri taq tzij xke'atäq chuqa' yatikïr nacha' we ri rub'i' awokisanel ewäl o nikitz'ët winaqi'.
-keep-me-posted =
-    .label = Ninwajo' yek'ul taq k'exoj richin ninwetamaj ri ruk'iyirisaxik Common Voice.
 accept-privacy = Ütz ninwak'axaj rub'eyal nokisäx re etamab'äl re' achi'el nitzijöx pa <privacyLink>Richinanem Na'ojil</privacyLink> richin Mozilla
 login-identity = Rub'anikil Rutikirisaxik Molojri'ïl
 login-signup = Titikirisäx Molojri'ïl / Titz'ib'äx B'i'aj
@@ -268,6 +266,9 @@ manage-subscriptions = Kenuk'samajïx taq Tz'ib'anïk B'i'aj
 ## FAQ
 
 faq-title = Jutaqil taq K'utunïk
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -308,7 +309,7 @@ review-cancel = Tiq'at Rutaqik
 review-keep-recordings = Kechap ri taq yakoj
 review-delete-recordings = Keyuj ri taq nuyakoj
 
-## New Datasets Page
+## Datasets Page
 
 language = Ch'ab'äl
 # File size in gigabytes
@@ -359,7 +360,6 @@ language-section-in-progress = Nik'ïy
 language-section-launched = E'elesan
 languages-show-more = Titz'et Ch'aqa' Chik
 languages-show-less = Titz'et Jub'a'
-language-speakers = Ch'ab'anela'
 language-meter-in-progress = Ruk'iyinem
 language-total-progress = Ronojel
 language-search-input =
@@ -369,7 +369,7 @@ localized = Xilitäj
 sentences = Taq b'ab'
 total-hours = Ronojel Ramaj
 
-## New Contribution
+## Contribution
 
 action-click = Tipitz'
 action-tap = Ticha'
@@ -402,7 +402,6 @@ record-again-instruction = ¡Jeb'ël!<recordIcon></recordIcon> Tayaka' jun chik
 record-again-instruction2 = Ütz ke ri', kayakon chik <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ¡Ri ruk'isib'äl!
 review-tooltip = Tanik'oj & tayaka'-chik wawe pan ab'anikil
-unable-speak = ¿La man tikirel ta nib'an ch'owen wakami?
 review-instruction = Tanik'oj & tayaka'-chik we k'atzinel
 record-submit-tooltip = { $actionType } tataqa' toq xtak'ïs
 clips-uploaded = Taq Yakoj Ejotob'an
@@ -418,6 +417,9 @@ listen-last-time-instruction = <playIcon></playIcon>¡Ri ruk'isib'äl!
 nothing-to-validate = Majun qatob'al richin niqajunamaj re ch'ab'äl re', ¡kojato'!
 record-button-label = Tayaka' ach'ab'äl
 share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
+
+## Reporting
+
 
 ## Goals
 
@@ -442,7 +444,13 @@ validations =
 you = Rat
 everyone = Ri ch'aqa' chik
 
+## Custom Goals
+
+
 ## Profile Delete
 
 remove = Tiyuj
 profile-form-delete = Tiyuj Ruwäch B'i'aj
+
+## Landing
+
