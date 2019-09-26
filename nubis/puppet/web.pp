@@ -93,9 +93,6 @@ apache::vhost { $project_name:
     ProxyPass /font !
     ProxyPass /locales !
 
-    # These requests need to pass-thru without signing
-    RewriteRule (/_plugin/kibana/.*) \${ES_ENDPOINT}\$1 [P,L]
-
     # Turn off CSP for ES/Kibana
     <Location /_plugin/kibana>
       Header unset Content-Security-Policy

@@ -3,15 +3,14 @@ import { S3 } from 'aws-sdk';
 import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
-import * as proxy from 'http-proxy-middleware';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from 'common/user-clients';
+import { authMiddleware } from '../auth-router';
 import { getConfig } from '../config-helper';
 import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
 import UserClient from './model/user-client';
-import { trackPageView } from './analytics';
 import { AWS } from './aws';
 import * as Basket from './basket';
 import Bucket from './bucket';
@@ -19,6 +18,7 @@ import Clip from './clip';
 import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
+
 const Transcoder = require('stream-transcoder');
 
 const PromiseRouter = require('express-promise-router');
@@ -43,73 +43,10 @@ export default class API {
 
     router.use(bodyParser.json());
 
-    router.use(
-      async (request: Request, response: Response, next: NextFunction) => {
-        this.metrics.countRequest(request);
-
-        if (request.user) {
-          const accountClientId = await UserClient.findClientId(
-            request.user.emails[0].value
-          );
-          if (accountClientId) {
-            request.client_id = accountClientId;
-            next();
-            return;
-          }
-        }
-
-        const [authType, credentials] = (
-          request.header('Authorization') || ''
-        ).split(' ');
-        if (authType == 'Basic') {
-          const [client_id, auth_token] = Buffer.from(credentials, 'base64')
-            .toString()
-            .split(':');
-          if (await UserClient.hasSSO(client_id)) {
-            response.sendStatus(401);
-            return;
-          } else {
-            const verified = await this.model.db.createOrVerifyUserClient(
-              client_id,
-              auth_token
-            );
-            if (!verified) {
-              response.sendStatus(401);
-              return;
-            }
-          }
-          request.client_id = client_id;
-        }
-
-        next();
-      }
-    );
-
-    const target = getConfig().KIBANA_URL;
-    if (target) {
-      router.use(
-        '/kibana',
-        (request: Request, response: Response, next: NextFunction) => {
-          if (request.user && request.client_id) {
-            trackPageView(request.baseUrl, request.client_id);
-            next();
-          } else {
-            response.status(401).json({
-              error:
-                'Unauthorized! Please login to access Kibana: ' +
-                'https://voice.mozilla.org/login',
-            });
-          }
-        },
-        proxy({
-          target,
-          changeOrigin: true,
-          pathRewrite: {
-            '^/api/v1/kibana': '/',
-          },
-        })
-      );
-    }
+    router.use((request: Request, response: Response, next: NextFunction) => {
+      this.metrics.countRequest(request);
+      next();
+    }, authMiddleware);
 
     router.get('/metrics', (request: Request, response: Response) => {
       this.metrics.countPrometheusRequest(request);

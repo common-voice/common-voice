@@ -10,14 +10,16 @@ import {
   getFullClipLeaderboard,
   getFullVoteLeaderboard,
 } from './lib/model/leaderboard';
+import { trackPageView } from './lib/analytics';
 import API from './lib/api';
 import Logger from './lib/logger';
 import { redis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
-import authRouter from './auth-router';
+import authRouter, { authMiddleware } from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
+import * as proxy from 'http-proxy-middleware';
 
 require('source-map-support').install();
 const contributableLocales = require('locales/contributable.json');
@@ -75,6 +77,31 @@ export default class Server {
     });
 
     app.use(authRouter);
+    app.use('/_plugin/kibana', authMiddleware, (request, response, next) => {
+      const target = getConfig().KIBANA_URL;
+      if (!target) {
+        response.status(500).json({ error: 'KIBANA_URL missing in config' });
+        return;
+      }
+
+      const { baseUrl, client_id, user } = request;
+
+      if (!user || !client_id) {
+        response.redirect('/login?redirect=' + baseUrl);
+        return;
+      }
+
+      trackPageView(baseUrl, client_id);
+
+      proxy({
+        target,
+        changeOrigin: true,
+        pathRewrite: {
+          ['^' + baseUrl]: '',
+        },
+      })(request, response, next);
+    });
+
     app.use('/api/v1', this.api.getRouter());
 
     const staticOptions = {

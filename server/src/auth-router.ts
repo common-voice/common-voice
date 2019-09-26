@@ -1,12 +1,13 @@
 import { parse as parseURL } from 'url';
 import { AES, enc } from 'crypto-js';
+import * as passport from 'passport';
 const Auth0Strategy = require('passport-auth0');
-import { Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import * as session from 'express-session';
 const MySQLStore = require('express-mysql-session')(session);
-import * as passport from 'passport';
 import UserClient from './lib/model/user-client';
+import DB from './lib/model/db';
 import { getConfig } from './config-helper';
 
 const {
@@ -97,7 +98,7 @@ router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
   async ({ user, query: { state }, session }: Request, response: Response) => {
-    const { locale, old_user, old_email } = JSON.parse(
+    const { locale, old_user, old_email, redirect } = JSON.parse(
       AES.decrypt(state, SECRET).toString(enc.Utf8)
     );
     const basePath = locale ? '/' + locale + '/' : '/';
@@ -113,7 +114,7 @@ router.get(
       }
       response.redirect('/profile/settings?success=' + success.toString());
     } else {
-      response.redirect(basePath + 'login-success');
+      response.redirect(redirect || basePath + 'login-success');
     }
   }
 );
@@ -135,6 +136,7 @@ router.get('/login', (request: Request, response: Response) => {
               old_email: user.emails[0].value,
             }
           : {}),
+        redirect: query.redirect || null,
       }),
       SECRET
     ).toString(),
@@ -147,3 +149,43 @@ router.get('/logout', (request: Request, response: Response) => {
 });
 
 export default router;
+
+const db = new DB();
+export async function authMiddleware(
+  request: Request,
+  response: Response,
+  next: NextFunction
+) {
+  if (request.user) {
+    const accountClientId = await UserClient.findClientId(
+      request.user.emails[0].value
+    );
+    if (accountClientId) {
+      request.client_id = accountClientId;
+      next();
+      return;
+    }
+  }
+
+  const [authType, credentials] = (request.header('Authorization') || '').split(
+    ' '
+  );
+  if (authType == 'Basic') {
+    const [client_id, auth_token] = Buffer.from(credentials, 'base64')
+      .toString()
+      .split(':');
+    if (await UserClient.hasSSO(client_id)) {
+      response.sendStatus(401);
+      return;
+    } else {
+      const verified = await db.createOrVerifyUserClient(client_id, auth_token);
+      if (!verified) {
+        response.sendStatus(401);
+        return;
+      }
+    }
+    request.client_id = client_id;
+  }
+
+  next();
+}
