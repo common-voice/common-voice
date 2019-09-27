@@ -51,6 +51,7 @@ es = Španělština
 et = Estonština
 eu = Baskičtina
 fa = Perština
+ff = Fulbština
 fi = Finština
 fo = Faerština
 fr = Francouzština
@@ -86,6 +87,7 @@ mk = Makedonština
 ml = Malajálamština
 mn = Mongolština
 mrj = Horská Marijština
+mt = Maltština
 myv = Erzja
 nb-NO = Norština (Bokmål)
 ne-NP = Nepálština
@@ -94,7 +96,7 @@ nn-NO = Nynorsk
 oc = Okcitánština
 or = Udijština
 pl = Polština
-pt-BR = Portugalština (Brazílie)
+pt = Portugalština
 ro = Rumunština
 ru = Ruština
 rw = Rwandština
@@ -106,6 +108,8 @@ sl = Slovinština
 sq = Albánština
 sr = Srbština
 sv-SE = Švédština
+sw = Swahilština
+syr = Syrština
 ta = Tamilština
 te = Telugština
 tg = Tádžičtina
@@ -197,9 +201,9 @@ x-years-short =
        *[other] { $count } let
     }
 help-make-dataset = Pomozte nám vytvořit velmi kvalitní a veřejně přístupnou databázi
-profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
 sign-up-account = Vytvořit účet
 email-subscription-title = přihlaste se k odběru novinek
+email-subscription-title-new = Přihlaste se k odběru novinek projektu Common Voice, upomínek k cílům a aktualizacím pokroku
 
 ## Account Benefits
 
@@ -316,7 +320,7 @@ skip-submission-description = Při přispívání bude po klepnutí na Odeslat p
 skip-submission-note = Poznámka: Pro změnu druhu vašich příspěvků budete stále muset zvolit mezi Mluvit a Poslouchat.
 off = Vypnuto
 on = Zapnuto
-add-avatar-title = Přidejte avatar na svůj profil
+change-your-avatar-clip = Chcete změnit svoji hlasovou nahrávku?
 browse-file-title = Nahrát obrázek
 browse-file = Přetáhněte nebo <browseWrap>Procházejte</browseWrap>
 connect-gravatar = Propojit s Gravatarem
@@ -544,7 +548,6 @@ language-section-in-progress = Spouští se
 language-section-launched = Spuštěno
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
-language-speakers = Mluvčí
 language-meter-in-progress = Postup
 language-total-progress = Celkem
 language-search-input =
@@ -661,7 +664,6 @@ overall-accuracy = Celková přesnost
 
 ## Custom Goals
 
-toward-next-goal = Další cíl
 
 ## Profile Delete
 
