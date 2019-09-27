@@ -39,33 +39,17 @@ export default () => {
           <button onClick={hideSurvey}>
             <CloseIcon black />
           </button>
-          <h1>Developing Voice Tech in the Open</h1>
+          <h1>Have thoughts about the future of voice technology?</h1>
           <p>
-            At Mozilla we believe that collaboration is key to unlocking the
-            full potential of voice technology, one that includes everyone;
-            every language and for every use case.
+            Mozilla believes that collaboration is key to unlocking the full
+            potential of this technology. A potential that includes everyone,
+            every language and supports every use case.
             <br />
             <br />
             <b>
-              Because you’re here, we’re certain that you’re an important
-              collaborator to learn from!
+              Would you take a moment to provide your insights and take part in
+              a survey?
             </b>
-            <br />
-            <br />
-            We would be very grateful if you could take this short survey to
-            help Mozilla understand how you envision, and are building for the
-            future of voice voice with open data and technologies.
-            <br />
-            <br />
-            In late October, research findings will be shared back with you, and
-            others in the voice ecosystem who have participated via our{' '}
-            <a
-              href="https://discourse.mozilla.org/c/voice"
-              target="_blank"
-              rel="noopener noreferrer">
-              Discourse forum
-            </a>
-            .
           </p>
           <a
             className="cta"
