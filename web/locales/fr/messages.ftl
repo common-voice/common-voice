@@ -320,6 +320,7 @@ skip-submission-note = Remarque : vous devez encore choisir entre Parler et Éc
 off = Désactivé
 on = Activé
 avatar-clip-title = Donnez une voix à votre avatar
+change-your-avatar-clip = Voulez-vous changer votre échantillon de voix ?
 recording-voice-wave = Enregistrement
 ready-to-upload = ENVOYER
 avatar-clip-fact = C’est un fait établi de longue date qu’un lecteur sera distrait par le contenu lisible d’une page lorsqu’il examinera sa mise en page.
