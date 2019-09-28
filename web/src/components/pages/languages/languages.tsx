@@ -379,7 +379,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </div>
 
             <Localized
-              id="language-section-in-progress-new-description"
+              id="language-section-in-progress-new-description2"
               {...descriptionProps}>
               <p />
             </Localized>
