@@ -584,7 +584,7 @@ other-language = Other Language
 
 ## Languages Overview
 language-section-in-progress = In Progress
-language-section-in-progress-new-description = These languages are currently under community development. The progress bars indicate how far each language is in the process of <localizationGlossaryLink>website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description2 = These languages are currently under community development. The progress bar indicates how far each language is in the process of <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>, and above that you can see the progress in <localizationGlossaryLink>website localization</localizationGlossaryLink>.
 language-section-launched = Launched
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 languages-show-more = See More
