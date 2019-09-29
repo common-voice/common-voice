@@ -86,6 +86,7 @@ mk = Maqedonisht
 ml = Malajalame
 mn = Mongolisht
 mrj = Hill Mari
+mt = Malteze
 myv = Erzan
 nb-NO = Norvegjisht Bokmål
 ne-NP = Nepaleze
@@ -94,7 +95,7 @@ nn-NO = Norvegjisht Nynorsk
 oc = Oçitane
 or = Odia
 pl = Polonisht
-pt-BR = Portugalisht (Brazil)
+pt = Portugalisht
 rm-sursilv = Romansh Sursilvan
 ro = Rumanisht
 ru = Rusisht
@@ -107,6 +108,8 @@ sl = Sllovenisht
 sq = Shqip
 sr = Serbisht
 sv-SE = Suedisht
+sw = Suahili
+syr = Sirisht
 ta = Tamileze
 te = Telugu
 tg = Taxhike
@@ -197,7 +200,6 @@ x-years-short =
        *[other] { $count }v
     }
 help-make-dataset = Ndihmonani të krijojmë një grup të dhënash të cilësisë së lartë, të hapur publikisht
-profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
 sign-up-account = Regjistrohuni për një llogari
 email-subscription-title = regjistrohuni për përditësime me email
 
@@ -315,7 +317,17 @@ skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e p�
 skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
 off = Off
 on = On
-add-avatar-title = Shtoni një avatar te profili juaj
+avatar-clip-title = Jepini zë avatarit tuaj
+change-your-avatar-clip = Doni të ndryshoni copëzën zanore?
+recording-in-progress = Incizim zëri në ecuri e sipër
+avatar-clip-recorded = Avatari juaj tashmë përmban një copëz zanore!
+retry-voice-wave-recording = RIPROVONI
+re-record = RIINCIZOJENI
+delete-voice = FSHIJE
+recording-voice-wave = Po incizohet
+delete-voice-clip = ose Fshijeni copëzën zanore
+ready-to-upload = NAGRKOJE
+cancel-avatar-clip-recording = ANULOJE
 browse-file-title = Ngarkoni kartelë figure
 browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
 connect-gravatar = Lidhuni përmes Gravatari
@@ -342,8 +354,6 @@ faq-why-important-a =
     To make voice recognition even more universal, we're collecting voice samples in widely spoken languages as well as those with a smaller population of speakers often underserved by commercial speech recognition services. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and entire speech communities to address this gap themselves.
 faq-how-get-q = Si mund t'i marr të dhënat Common Voice?
 faq-how-get-a = Grupi i të dhënave Common Voice mund të shkarkohet nën licencën <licenseLink>CC0</licenseLink> te <datasetLink>faqja jonë  Grupe të Dhënash</datasetLink>. Prej të njëjtës faqe mund të shkarkoni edhe disa grupe të tjera të dhënash që mund të kihen publikisht.
-faq-when-release-q = Kur do t’i hidhni në qarkullim të dhënat Common Voice në gjuhë të tjera?
-faq-when-release-a = Versioni shumëgjuhësh i grupit të të dhënave Common Voice hëpërhë është duke u formuar dhe pastruar nga bashkësia. Nëse do të donit të mësonit më tepër mbi përkrahjen e kësaj përpjekjeje, ju lutemi, <contactLink>lidhuni me ne</contactLink>. Si datë publikimi hëpërhë synojmë diku nga Janari i 2019-s. Pas kësaj, do ta përditësojmë periodikisht grupin e të dhënave me gjuhë dhe copëza zanore të reja , dora-dorës që të tilla janë gati. Ende mbetet për t’u përcaktuar një cikël periodik hedhjesh në qarkullim.
 faq-why-mission-q = Pse Common Voice është pjesë e misionit të Mozilla-s?
 faq-why-mission-a = Mozilla i është përkushtuar mbajtjes së web-it të hapur dhe të përdorshëm nga kushdo. Për ta bërë këtë, na duhet t’i fuqizojmë krijuesit web përmes projektesh të tillë si Common Voice. Teksa teknologjitë e zërit lulëzojnë tej aplikacionesh speciale, besojmë se duhet t’u shërbejnë njësoj krejt përdoruesve. Kjo do të thotë të investohet në më tepër gjuhë dhe të gjendet vend për theksa dhe demografi të  larmishme, teksa ndërtohen dhe testohen teknologji të të folurës. Common Voice është një burim publik i përdorshëm nga kushdo dhe ekipet dhe programuesit e Mozilla-s anembanë botës e përdorin tashmë në projektet tona.
 faq-what-cv-and-deepspeech-q = Cili është dallimi mes Common Voice-it dhe Deep Speech-it?
@@ -570,7 +580,6 @@ language-section-launched = E filluar
 language-section-launched-description = Për këto gjuhë aktive, sajti është <localizationGlossaryLink>përkthyer</localizationGlossaryLink> me sukses, dhe janë <sentenceCollectionGlossaryLink>grumbulluar fraza</sentenceCollectionGlossaryLink> mjaftueshëm për të lejuar kontribut të vazhdueshëm përmes <speakLink>Të folurit</speakLink> dhe <listenLink>Të dëgjuarit</listenLink>.
 languages-show-more = Shihni Më Tepër
 languages-show-less = Shihni Më Pak
-language-speakers = Folës
 language-meter-in-progress = Ecuri
 language-total-progress = Gjithsej
 language-search-input =
@@ -580,7 +589,7 @@ localized = E përkthyer
 sentences = Fraza
 total-hours = Orë të vleftësuara
 
-## New Contribution
+## Contribution
 
 action-click = Klikoni
 action-tap = Prekeni
@@ -613,7 +622,6 @@ record-again-instruction = Bukur!<recordIcon></recordIcon> Incizoni copëzën tu
 record-again-instruction2 = Vazhdoni kështu, incizoni sërish <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> I fundit!
 review-tooltip = Shqyrtoni & ri-incizoni këtu copëza, dora-dorës
-unable-speak = S’jeni në gjendje të flitni tani?
 review-instruction = Shqyrtoni & ri-incizoni copëza, në u dashtë
 record-submit-tooltip = { $actionType } parashtrojeni, kur të jeni gati
 clips-uploaded = Copëzat U Ngarkuan
@@ -629,6 +637,27 @@ listen-last-time-instruction = <playIcon></playIcon>E fundit!
 nothing-to-validate = S’kemi ndonjë gjë për vleftësim në këtë gjuhë, ndihmonani të plotësojmë radhën.
 record-button-label = Incizoni zërin tuaj
 share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
+keep-track-profile = Ndiqni ecurinë tuaj përmes një profili
+login-to-get-started = Që t’ia filloni, hyni ose regjistrohuni
+
+## Reporting
+
+report = Raportojni
+report-title = Parashtroni një raport
+report-ask = Ç’probleme po hasni me këtë fjali?
+report-offensive-language = Gjuhë fyese
+report-offensive-language-detail = Fjalia ka gjuhë shpërfillëse ose fyese.
+report-grammar-or-spelling = Gabim gramatikor / shkrimi
+report-grammar-or-spelling-detail = Fjalia ka një gabim gramatikor ose shkrimi.
+report-different-language = Gjuhë tjetër
+report-different-language-detail = Është e shkruar në tjetër gjuhë nga ajo që flas.
+report-difficult-pronounce = E zorshme të shqiptohet
+report-difficult-pronounce-detail = Përmban fjalë ose fraza që janë të zorshme të lexohen ose shqiptohen.
+report-other-comment =
+    .placeholder = Koment
+success = Sukses
+continue = Vazhdoni
+report-success = Raportimi u dërgua me sukses
 
 ## Goals
 
@@ -665,6 +694,11 @@ recorded-clips = Copëza të Incizuara
 validated-clips = Copëza të Vleftësuara
 total-approved = Të miratuara Gjithsej
 overall-accuracy = Saktësia Në Përgjithësi
+show-ranking = Shfaq renditjen time
+
+## Custom Goals
+
+cant-decide = S’vendosni dot?
 
 ## Profile Delete
 
