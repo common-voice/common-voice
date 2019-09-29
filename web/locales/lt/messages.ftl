@@ -637,6 +637,15 @@ show-ranking = Rodyti mano reitingą
 
 ## Custom Goals
 
+get-started-goals = Išsikelti tikslą
+create-custom-goal = Susikurk tikslą
+daily-goal = Dienos tikslas
+weekly-goal = Savaitės tikslas
+easy-difficulty = Lengva
+average-difficulty = Vidutiniška
+difficult-difficulty = Sunku
+pro-difficulty = Pro
+lose-goal-progress-warning = Keičiant išsikeltą tikslą, galima prarasti esamą pažangą.
 
 ## Profile Delete
 
