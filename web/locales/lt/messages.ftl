@@ -8,6 +8,7 @@ email-input =
     .label = El. paštas
 submit-form-action = Pateikti
 loading = Įkeliama…
+email-opt-in-info = Norėčiau gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
 email-opt-in-privacy = Pasirinkęs (-usi) gauti el. laiškus, tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
 indicates-required = * Nurodo privalomą lauką
 not-available-abbreviation = Nepasiekiama
@@ -95,7 +96,7 @@ nn-NO = Norvegų (naujoji)
 oc = Oksitanų
 or = Orijų
 pl = Lenkų
-pt-BR = Portugalų (Brazilija)
+pt = Portugalų
 rm-sursilv = Retoromanų (sursilvanų)
 rm-vallader = Retoromanų (valaderių)
 ro = Rumunų
@@ -201,7 +202,6 @@ x-years-short =
        *[other] { $count } m.
     }
 help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą balso duomenų rinkinį
-profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 sign-up-account = Užsiregistruok ir susikurk paskyrą
 email-subscription-title = Gauk naujienas el. paštu
 
@@ -320,7 +320,8 @@ skip-submission-description = Pateikus indėlį (paspaudus mygtuką „Pateikti�
 skip-submission-note = Pastaba: jeigu norėsi pakeisti indėlio tipą, ir toliau galėsi pasinaudoti saitais „Kalbėk“ ir „Klausyk“.
 off = Išjungta
 on = Įjungta
-add-avatar-title = Susiek su savo profiliu pseudoportretą
+ready-to-upload = ĮKELTI
+cancel-avatar-clip-recording = ATSISAKYTI
 browse-file-title = Įkelk paveiksliuką
 browse-file = Užtempk norimą failą čia arba <browseWrap>parink iš kompiuterio</browseWrap>
 connect-gravatar = Naudoti „Gravatar“ tarnybą
@@ -346,6 +347,7 @@ faq-why-important-a =
     
     Kad balso atpažinimo technologijos taptų dar prieinamesnės, mes kaupiame ne tik didžiausių, bet ir rečiau vartojamų kalbų balso pavyzdžius – kalbų, į kurias komercinės programinės įrangos kūrėjai dažniau neatsižvelgia. Sukūrus didelės įvairovės balso duomenų bazę, programuotojai, verslininkai ir bendruomenės, kurias vienija bendra kalba, galės savarankiškai spręsti šią problemą.
 faq-how-get-q = Kaip galiu gauti „Common Voice“ duomenis?
+faq-when-release2-q = Kada išleisite „Common Voice“  duomenis kitomis kalbomis?
 faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
 faq-why-mission-a = „Mozilla“ siekia, kad internetinė erdvė išliktų atvira ir prieinama kiekvienam. Kad tai įgyvendintume, turime įgalinti internetinės erdvės kūrėjus tokių projektų kaip „Common Voice“ pagalba. Balso technologijoms besivystant ir tampant mūsų kasdienybės dalimi, mes manome, kad jos privalo visų naudotojų poreikius tenkinti vienodai. Tai reiškia, kad, kuriant ir testuojant balso technologijas, šie procesai turi aprėpti daugiau kalbų, įtraukti įvairesnes tarmes ir akcentus, apimti daugiau demografinių grupių. „Common Voice“ yra viešas išteklius, prieinamas kiekvienam, o „Mozilla“ komandos ir kūrėjai visame pasaulyje jau naudoja jį savo projektuose.
 faq-what-cv-and-deepspeech-q = Kuo skiriasi „Common Voice“ ir „Deep Speech“?
@@ -358,7 +360,9 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Kodėl mano kalba dar neįtraukta?
 faq-what-quality-q = Kokios garso kokybės turi būti balso įrašas, kad jis būtų panaudotas duomenų rinkinyje?
 faq-why-10k-hours-q = Kodėl kiekvienos kalbos tikslas yra 10 000 patvirtintų valandų?
+faq-why-10k-hours-a = Apytikslis valandų skaičius reikalingas naudojimui tinkamos kalbos atpažinimo sistemos apmokymui.
 faq-how-calc-hours-q = Kaip „Common Voice“ apskaičiuoja valandas?
+faq-how-calc-hours-a = Valandų kiekį skaičiuojame įvertinę vidutinį kiekvieno įrašo ilgį ir jį padaugindami iš įrašų visomis kalbomis kiekio.
 faq-where-src-from-2-q = Iš kur gaunamas šaltinio tekstas?
 faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipedijos“ straipsnių įvairiomis kalbomis?
 faq-why-account-q = Kodėl turėčiau susikurti paskyrą?
@@ -374,7 +378,11 @@ faq-search-for-answers =
 about-title = Kodėl „Common Voice“?
 how-does-it-work-title = Kaip tai veikia?
 about-speak = Balso įrašymas
+about-listen-queue = Perklausymo eilė
 about-listen = Perklausymas
+about-is-it-valid = Ar įrašas tinkamas?
+about-is-it-valid-text = Balso įrašas pažymimas kaip tinkamas, kai naudotojas nubalsuoja „Taip“.
+about-yes-votes = ≥ 2 balsai „Taip“
 about-get-involved = Įsitrauk
 about-nav-why-common-voice = Kodėl?
 about-nav-how-it-works = Kaip?
@@ -496,7 +504,6 @@ language-section-in-progress-new-description = Šios kalbos kol kas yra ruošiam
 language-section-launched = Aktyvios
 languages-show-more = Rodyti daugiau
 languages-show-less = Rodyti mažiau
-language-speakers = Diktorių
 language-meter-in-progress = Eiga
 language-total-progress = Iš viso
 language-search-input =
@@ -604,7 +611,6 @@ overall-accuracy = Bendras tikslumas
 
 ## Custom Goals
 
-toward-next-goal = Link kito tikslo
 
 ## Profile Delete
 
