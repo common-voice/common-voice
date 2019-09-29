@@ -383,11 +383,23 @@ about-listen = Perklausymas
 about-is-it-valid = Ar įrašas tinkamas?
 about-is-it-valid-text = Balso įrašas pažymimas kaip tinkamas, kai naudotojas nubalsuoja „Taip“.
 about-yes-votes = ≥ 2 balsai „Taip“
+about-yes-votes-text = Kad balso įrašas būtų įtrauktas į „Common Voice“ duomenų rinkinį, jį turi patvirtinti du atskiri naudotojai.
+about-no-votes = ≥ 2 balsai „Ne“
+about-dataset-new = „Common Voice“ duomenų rinkinys
+about-clip-graveyard = Įrašų kapinės
+about-clip-graveyard-text = Įrašų kapines sudaro balso įrašai, nepatekę į „Common Voice“ duomenų rinkinį, tačiau juose esančius duomenis irgi galima atsisiųsti.
+about-partners = Partneriai
+about-become-a-partner = Tapk partneriu
 about-get-involved = Įsitrauk
 about-nav-why-common-voice = Kodėl?
 about-nav-how-it-works = Kaip?
+about-nav-partners = Partneriai
 about-nav-get-involved = Įsitrauk
+mycroft-title = „Mycroft Ai“
 mycroft-subtitle = Dirbtinis intelektas
+mycroft-description =
+    „Mycroft“ yra pirmasis pasaulyje atvirojo kodo asistentas.
+    „Mycroft“ gali veikti visur – kompiuteryje, automobilyje ar „Raspberry Pi“ įrenginyje.
 
 ## Glossary
 
@@ -447,6 +459,7 @@ email-to-download = Įvesk el. paštą parsisiuntimui
 confirm-size = Esi pasirengęs pradėti siųstis <b>{ $size }</b> duomenų
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Tu sutinki</b> nebandyti nustatyti „Common Voice“ kalbėtojų tapatybės
 download-language = Parsisiųsti – { $language }
 validated-hours = Patvirtinta valandų
 recorded-hours = Įrašyta valandų
@@ -463,11 +476,13 @@ data-other-ted-name = „TED-LIUM“ rinkinys
 data-other-ted-description = „TED-LIUM“ rinkinys sukurtas panaudojant „TED“ svetainėje esančias prakalbas ir jų nuorašus.
 data-other-voxforge-description = „VoxForge“ projektas įkurtas siekiant kaupti transkribuotus balso įrašus naudojimui laisvuosiuose ir atvirojo kodo kalbos atpažinimo varikliuose.
 go-discourse = Eiti į „Discourse“
+missing-language = Nematai savo kalbos duomenų rinkinyje? Jeigu nori paprašyti kalbos, apsilankyk mūsų kalbų tinklalapyje.
 go-languages-page = Eiti į kalbų tinklalapį
 ready-to-validate = Ar pasiruošei padėti patvirtinti frazes?
 more = Išsamiau
 close = Užverti
 download = Atsisiųsti
+dataset-version = Versija
 
 ## Download Modal
 
@@ -563,10 +578,19 @@ share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
 
 ## Reporting
 
+report = Pranešti
 report-ask = Kokios su šiuo sakiniu susijusios problemos?
+report-offensive-language = Įžeidžianti kalba
+report-grammar-or-spelling = Gramatinė / rašybos klaida
+report-grammar-or-spelling-detail = Sakinyje yra gramatinė arba rašybos klaida.
+report-different-language = Kita kalba
 report-difficult-pronounce = Sunku ištarti
+report-difficult-pronounce-detail = Neįskaitoma ar sunkiai ištariama frazė ar žodžiai.
+report-offensive-speech = Įžeidžianti kalba
+report-offensive-speech-detail = Įrašo kalba yra nepagarbi arba įžeidžianti.
 report-other-comment =
     .placeholder = Komentaras
+success = Atlikta
 continue = Tęsti
 
 ## Goals
@@ -600,6 +624,7 @@ clips-you-validated = Tavo patvirtinti garso įrašai
 todays-recorded-progress = Šiandienos „Common Voice“ pateiktų įrašų progresas
 todays-validated-progress = Šiandienos „Common voice“ patvirtintų įrašų progresas
 stats = Statistika
+awards = Apdovanojimai
 you = Tu
 everyone = Visi
 contribution-activity = Talkininkų veikla
@@ -608,6 +633,7 @@ recorded-clips = Pateikti įrašai
 validated-clips = Patvirtinti įrašai
 total-approved = Iš viso patvirtinta
 overall-accuracy = Bendras tikslumas
+show-ranking = Rodyti mano reitingą
 
 ## Custom Goals
 
