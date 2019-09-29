@@ -646,6 +646,8 @@ average-difficulty = Vidutiniška
 difficult-difficulty = Sunku
 pro-difficulty = Pro
 lose-goal-progress-warning = Keičiant išsikeltą tikslą, galima prarasti esamą pažangą.
+want-to-continue = Ar nori tęsti?
+finish-editing = Pirma baigti redaguoti?
 
 ## Profile Delete
 
