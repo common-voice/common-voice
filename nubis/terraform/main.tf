@@ -173,7 +173,7 @@ resource "aws_db_subnet_group" "public_database" {
 }
 
 resource "aws_db_parameter_group" "public_database" {
-  name   = "${var.service_name}-public_darabase-${var.environment}-${var.region}"
+  name   = "${var.service_name}-public-${var.environment}-${var.region}"
   family = "mysql5.6"
 }
 
