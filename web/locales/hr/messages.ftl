@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Da, šaljite mi emailove. Želim biti informiran o projektu Common Voice.
+yes-receive-emails = Da, šaljite mi e-poštu. Želim informiracje o projektu Common Voice.
 stayintouch = Mi u Mozilli gradimo zajednicu oko govorne tehnologije. Želimo ostati u kontaktu s ažuriranjima, novim izvorima podataka i saznati više o tome kako upotrebljavate te podatke.
 privacy-info = Obećajemo da ćemo pažljivo postupati s vašim informacijama. Pročitajte više u <privacyLink> obavijesti o privatnosti </privacyLink>.
 return-to-cv = Povratak na Common Voice
@@ -8,8 +8,10 @@ email-input =
     .label = Email
 submit-form-action = Pošalji
 loading = Učitavanje…
+email-opt-in-info = Želim primati e-poruke poput podsjetnika o ciljevima, ažuriranja o napretku i novostima o Common Voiceu.
 email-opt-in-privacy = Ukoliko se odlučite za primanje poruka e-pošte, izjavljujete da ste suglasni da Mozilla upravlja vašim podaci kako je objašnjeno u Mozilla <privacyLink>politika privatnosti<privacyLink>.
 indicates-required = * obilježava obvezno polje
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -53,6 +55,7 @@ fo = Ferojski
 fr = Francuski
 fy-NL = Frizijski
 ga-IE = Irski
+gl = Galicijski
 he = Hebrejski
 hr = Hrvatski
 hsb = Sorbian, Gornji
@@ -67,14 +70,19 @@ kab = Kabilijski
 kk = Kazački
 ko = Korejski
 kpv = Komi-Zyrian
+ku = Kurdski
 kw = Kornski
 ky = Kirgiski
+lij = Ligurijski
 lt = Litavski
+lv = Latvijski
 mdf = Moksha
 mhr = Meadow Mari
 mk = Makedonski
+ml = Malajalamski
 mn = Mongolski
 mrj = Hill Mari
+mt = Malteški
 myv = Erzya
 nb-NO = Norveški Bokmål
 ne-NP = Nepalski
@@ -83,18 +91,21 @@ nn-NO = Novonorveški
 oc = Okcitanski
 or = Odia
 pl = Poljski
-pt-BR = Portugalski (Brazil)
+pt = Portugalski
 rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = Rumunjski
 ru = Ruski
 rw = Kinjarvandski
 sah = Sakha
 sc = Sardinijski
+si = Sinhala
 sk = Slovački
 sl = Slovenski
 sq = Albanski
 sr = Srpski
 sv-SE = Švedski
+syr = Sirijski
 ta = Tamilski
 te = Telugu
 th = Tajlandski
@@ -120,6 +131,7 @@ speak = Govori
 speak-now = Pričajte sada
 datasets = Skupovi podataka
 languages = Jezici
+about = Informacije
 profile = Profil
 help = Pomoć
 contact = Kontakt
@@ -152,14 +164,22 @@ wall-of-text-more-desktop =
 wall-of-text-first =
     Glas je prirodan, glas je ljudski. Zato smo uzbuđeni stvaranjem upotrebljive govorne tehnologije
     za naše strojeve. Ali za stvaranje govornih sustava, razvijateljima su potrebne iznimno velike količine snimljenog glasa.
+wall-of-text-second =
+    Većina podataka koje koriste velike tvrtke nisu dostupni većini ljudi. Mi smatramo da to usporava
+    inovaciju. Stoga smo pokrenuli Common Voice, projekt koji pomaže u prepoznavanju glasa
+    i koji je svima dostupan.
 show-wall-of-text = Pročitajte više
 help-us-title = Pomozite nam potvrditi rečenice!
+help-us-explain = Pritisnite reprodukciju, slušajte i recite nam: jesu li točno izgovorili dolje zadanu rečenicu?
+no-clips-to-validate = Čini se da nema nijednog isječka za slušanje na ovom jeziku. Pomozite nam popuniti red snimanjem nekih isječaka.
 vote-yes = Da
 vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za uključivanje načina reprodukcije
 speak-subtitle = Donirajte svoj glas
+speak-paragraph = Snimanje govornih isječaka sastavni je dio izgradnje našeg otvorenog skupa podataka; neki bi rekli da je to i zabavni dio.
 speak-goal-text = Snimljeno isječaka
 listen-subtitle = Pomozite nam potvrditi glasove
+listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušajte i pomozite nam stvoriti kvalitetne govorne podatke otvorenog koda.
 listen-goal-text = Potvrđeno isječaka
 hours-recorded = Snimljeno sati
 hours-validated = Potvrđeno sati
@@ -176,15 +196,41 @@ x-weeks-short =
         [few] { $count } tjedna
        *[other] { $count } tjedana
     }
+x-months-short =
+    { $count ->
+        [one] { $count }mj
+        [few] { $count }mj
+       *[other] { $count }mj
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }god
+        [few] { $count }god
+       *[other] { $count }god
+    }
 help-make-dataset = Pomozite nam izgraditi kvalitetan i javno dostupan skup podataka
 sign-up-account = Otvorite račun
+email-subscription-title = registrirajte se za dobivanje novosti putem e-pošte
+email-subscription-title-new = Prijavite se za primanje Common Voice novosti, podsjetnika o ciljevima i ažuriranja o napretku
 
 ## Account Benefits
 
 benefits = Prednosti
+rich-data = Podnesene podatke učini što bogatijima, pružanjem anonimnih demografskih podataka. Prije objavljivanja otklanjamo sve identificirajuće demografske podatke.
+improve-audio = Informacije profila poboljšavaju glasovne podatke koji se koriste u treningu točnosti prepoznavanja govora.
+keep-track = Prati vlastiti napredak i mjerne podatke za više jezika.
+compare-progress = Usporedi vlastiti napredak s ostalim suradnicima u cijelom svijetu.
+view-goals = Usporedi vlastiti napredak s osobnim i projektnim ciljevima.
+join-newsletter = Ako želiš, pridruži se na naš popis e-pošte za dobivanje obavijesti o ažuriranjima i novim informacijama o projektu.
 
 ## What's public
 
+whats-public = Što je javno?
+email-not-public = Tvoju adresu e-pošte nećemo javno objavljivati.
+recordings-and-locale-public = Broj snimaka i jezici na kojima doprinosiš, bit će javni.
+username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
+demographic-deidentified = Opcionalno poslani demografski podaci (npr. dob, spol, jezik i naglasak) uklanjaju se od tvojih poslanih glasovnih podataka i nikada neće biti objavljeni na tvom profilu.
+username-email-not-demographic = Tvoje korisničko ime i adresa e-pošte neće biti povezani s objavljenim podacima.
 
 ## Speak & Listen Shortcuts
 
@@ -211,6 +257,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = s
 shortcut-record-toggle-label = Snimaj/Stop
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Ponovo snimite isječak
 request-language-text = Ne vidite vaš jezik na usluzi Common Voice?
 request-language-button = Zatražite jezik
 
@@ -256,6 +303,9 @@ female = Žensko
 # Gender
 other = Ostalo
 why-profile-title = Zašto profil?
+why-profile-text =
+    Davanjem nekih informacija o sebi, zvučni podaci koje pošaljete u Common Voice bit će korisniji programima za
+    prepoznavanje govora, koji koriste ove podatke za poboljšanje njihove točnosti.
 dashboard = Nadzorna ploča
 build-profile = Kreirajte profil
 avatar = Avatar
@@ -273,15 +323,22 @@ edit = Uredi
 email-subscriptions = Email pretplate
 download-profile = Preuzimanje mojih podataka
 contribution-experience = Iskustvo doprinosa
+skip-submission-feedback = Preskoči povratne informacije za slanje
 skip-submission-note = Napomena: Morati ćete odabrati između opcije Govoriti ili Slušati za promjenu vrste vašeg doprinosa.
 off = Isklj.
 on = Uklj.
-add-avatar-title = Dodajte avatar u svoj profil
+recording-voice-wave = Snimanje
+ready-to-upload = Prijenos podataka
+avatar-clip-fact = Davno utvrđena činjenica je, da će čitatelja ometati čitljiv sadržaj stranice, kad pogleda njezin izgled.
+recreate-voice = Ponovno stvorite radiovalove glasa
+cancel-avatar-clip-recording = Odustani
 browse-file-title = Dodaj novu fotografiju
+browse-file = Povuci i ispusti ili <browseWrap>pregledaj</browseWrap>
 connect-gravatar = Poveži sa Gravatar
 gravatar_not_found = Ne postoji gravatar za vaš Email
 file_too_large = Odabrana datoteka je prevelika
 manage-subscriptions = Upravljanje pretplatama
+manage-email-subscriptions = Upravljanje pretplatama e-pošte
 email-already-used = Email se već koristi za drugi račun
 add-language = Dodaj jezik
 change-email-setings = Promijenite svoj Email putem Postavki pod Identitet prijave
@@ -292,20 +349,45 @@ faq-title = Često postavljena pitanja
 faq-what-cv-q = Što je Common Voice?
 faq-why-important-q = Zašto je to važno?
 faq-how-get-q = Kako mogu dobiti Common Voice podatke?
-faq-when-release-q = Kada ćete objaviti Common Voice podatke na drugim jezicima?
+faq-how-get-a = Skup Common Voice podataka dostupan je za preuzimanje pod licencom <licenseLink>CC0</licenseLink> na <datasetLink>stranici naših skupova podataka</datasetLink>.  S iste stranice možete preuzeti i nekoliko drugih javno dostupnih skupova podataka.
+faq-when-release2-q = Kad ćete objaviti Common Voice podatke na drugim jezicima?
 faq-why-mission-q = Zašto je Common Voice dio Mozilla misije?
 faq-what-cv-and-deepspeech-q = U čemu je razlika između Common Voice i Deep Speech?
 faq-is-goal-assistant-q = Da li je cilj Common Voice-a izgraditi glasovnog pomoćnika?
+faq-is-goal-assistant-a = Cilj skupa Common Voice podataka je omogućiti bilo kome u svijetu da izradi program za prepoznavanje govora, prepoznavanje govornika ili bilo koju drugu vrstu aplikacije, koja zahtijeva glasovne podatke. Glasovni asistent je samo jedna u nizu aplikacija, za koju se skup podataka može koristiti.
+faq-do-want-native-q = Jezik mi nije materinji i govorim s naglaskom, želite li svejedno moj glas?
+faq-do-want-native-a = Da, posebno želimo vaš glas! Dio cilja Common Voicea je sakupiti što više različitih naglaska kako bi usluge prepoznavanja glasa jednako dobro funkcionirale za sve. To znači da su donacije govornika, kojima jezik nije materinji, posebno važne.
 faq-why-different-speakers-q = Zašto vam je potrebno mnogo različitih govornika po jeziku?
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
+faq-why-my-lang-new-a = Mozilla ne odabere niti jedan jezik favorizira nad drugim. Umjesto toga, Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovne donacije. Kao prvo, Common Voice web stranica mora biti prevedena, kako bi joj članovi zajednice mogli pristupiti kao suradnik na materinjem jeziku. Nadalje nam je potrebna velika zbirka rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se lansira jezik, kako bi ljudi započeli snimati svoj glas i potvrđivati druge donacije. Ako želite pomoći u započinjanju novog jezika, prijeđite na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>, kako biste započeli s radom.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
 faq-why-10k-hours-q = Zašto je cilj 10.000 potvrđenih sati po jeziku za snimanje?
+faq-why-10k-hours-a = Ovo je otprilike broj sati, potrebnih za obuku proizvodnog sustava za pretvaranje govora u tekst.
 faq-how-calc-hours-q = Kako Common Voice izračunava sate?
+faq-how-calc-hours-a = Sate izračunavamo procjenjujući prosječnu duljinu svakog snimanja, a zatim taj broj množimo s ukupnim brojem snimaka na svim jezicima.
 faq-where-src-from-2-q = Od kuda dolazi izvorni tekst?
+faq-where-src-from-2-a =
+    Naš izvorni tekst se sastoji od originalnih donacija autora, kao i dijaloga iz skripata filmova iz javnog vlasništva, poput <italic>It is a Wonderful Life</italic>.
+    
+    Naše izvorne rečenice možete pogledati u ovoj <githubLink>GitHub mapi</githubLink>.
 faq-why-not-ask-read-q = Zašto ne tražite od ljudi da čitaju iz knjiga ili članaka na Wikipediji na različitim jezicima?
 faq-why-account-q = Zašto bi se prijavio za račun?
 faq-is-account-public-q = Jesu li podaci o računu javni?
 faq-how-privacy-q = Kako osiguravate anonimnost i privatnost ljudi koji su donirali svoj glas?
+faq-what-determine-identity-q = Što znači, da ne mogu „utvrditi identitet” govornika u skupu Common Voice podataka?
+faq-what-is-cv = Što je Common Voice?
+faq-using-cv = Common Voice upotreba
+faq-description = Common Voice je Mozilla-ina inicijativa da pomogne naučiti strojeve kako ljudi govore.
+faq-search-for-answers =
+    .label = Traži odgovore
+
+## ABOUT US
+
+about-title = Zašto Common Voice?
+about-subtitle = Common Voice dio je Mozilline inicijative da pomogne podučiti strojeve kako ljudi govore. Pored skupine Common Voice podataka također gradimo program za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
+how-does-it-work-title = Koji je način rada?
+about-speak = Izgovori
+about-speak-text = Sudionici snimaju glasovne zapise čitajući iz baze doniranih rečenica.
 
 ## Glossary
 
@@ -341,7 +423,7 @@ review-cancel = Poništi slanje
 review-keep-recordings = Zadrži snimke
 review-delete-recordings = Izbriši moje snimke
 
-## New Datasets Page
+## Datasets Page
 
 language = Jezik
 # File size in gigabytes
@@ -389,7 +471,6 @@ request-language-success-title = Zahtjev za jezik je uspješno poslan, hvala.
 language-section-in-progress = U tijeku
 language-section-launched = Pokrenuto
 languages-show-more = Pogledajte više
-language-speakers = Govornika
 language-meter-in-progress = Napredak
 language-total-progress = Ukupno
 language-search-input =
@@ -399,7 +480,7 @@ localized = Lokalizirano
 sentences = Rečenice
 total-hours = Potvrđeni sati
 
-## New Contribution
+## Contribution
 
 action-click = Klik
 action-tap = Dodirnite
@@ -429,6 +510,9 @@ record-abort-delete = Izlaz i brisanje isječaka
 listen-last-time-instruction = <playIcon></playIcon>Posljednja!
 record-button-label = Snimite svoj glas
 share-title-new = <bold>Pomozite nam</bold> pronaći više glasova
+
+## Reporting
+
 
 ## Goals
 
@@ -461,8 +545,14 @@ validated-clips = Potvrđeni isječci
 total-approved = Ukupno odobreno
 overall-accuracy = Ukupna točnost
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = Zadrži
 remove = Ukloni
 profile-form-delete = Obriši profil
+
+## Landing
+
