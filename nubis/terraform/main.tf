@@ -160,7 +160,7 @@ resource "aws_db_subnet_group" "public_database" {
   description = "${var.service_name}-${var.environment}-public-rds-subnet-group"
 
   subnet_ids = [
-    "${split(",",module.info.private_subnets)}",
+    "${split(",",module.info.public_subnets)}",
   ]
 
   tags {
