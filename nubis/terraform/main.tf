@@ -206,10 +206,14 @@ resource "aws_security_group" "public_database" {
   }
 }
 
+data "aws_db_instance" "voice" {
+  db_instance_identifier = "${var.service_name}-${var.environment}"
+}
+
 resource "aws_db_instance" "public" {
   identifier = "${var.service_name}-${var.environment}-public"
 
-  replicate_source_db = "${var.service_name}-${var.environment}"
+  replicate_source_db = "${data.aws_db_instance.voice.db_instance_arn}"
   instance_class      = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
   storage_type        = "standard"
 
