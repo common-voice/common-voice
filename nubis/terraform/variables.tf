@@ -32,3 +32,12 @@ variable "metrics_user" {
   default     = "arn:aws:iam::177680776199:root"
   description = "ARN of the user/account fetching ELB metrics. Defaults to mozilla-itsre account"
 }
+
+variable "public_client_ip_cidr" {
+  type = "list"
+
+  default = [
+    "127.0.0.1/32",
+    "174.92.145.133/32", #Gozer
+  ]
+}
