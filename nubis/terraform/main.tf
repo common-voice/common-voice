@@ -110,7 +110,6 @@ module "database" {
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
   instance_class         = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
   allocated_storage      = "${var.environment == "prod" ? "100" : "10"}"
-  replica_count          = "${var.environment == "prod" ? "0" : "1"}"
 }
 
 module "clips" {
@@ -153,4 +152,27 @@ module "cache" {
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group},${module.sync.security_group}"
   engine                 = "redis"
+}
+
+# External DB Replica
+resource "aws_db_subnet_group" "public_database" {
+  name        = "${var.service_name}-${var.environment}-public-rds-subnet-group"
+  description = "${var.service_name}-${var.environment}-public-rds-subnet-group"
+
+  subnet_ids = [
+    "${split(",",module.info.private_subnets)}",
+  ]
+
+  tags {
+    Region         = "${var.region}"
+    Environment    = "${var.environment}"
+    TechnicalOwner = "${var.technical_owner}"
+    Backup         = "true"
+    Shutdown       = "never"
+  }
+}
+
+resource "aws_db_parameter_group" "public_database" {
+  name   = "${var.service_name}-public_darabase-${var.environment}-${var.region}"
+  family = "mysql5.6"
 }
