@@ -200,3 +200,38 @@ resource "aws_security_group" "public_database" {
     ]
   }
 }
+
+resource "aws_db_instance" "public" {
+  identifier = "${var.service_name}-${var.environment}-public"
+
+  replicate_source_db = "${module.database.name}"
+  instance_class      = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
+  storage_type        = "standard"
+
+  vpc_security_group_ids = [
+    "${aws_security_group.public_database.id}",
+  ]
+
+  db_subnet_group_name = "${aws_db_subnet_group.public_database.id}"
+  parameter_group_name = "${aws_db_parameter_group.public_database.id}"
+
+  publicly_accessible = true
+  apply_immediately   = true
+  skip_final_snapshot = true
+
+  tags {
+    Region         = "${var.region}"
+    Environment    = "${var.environment}"
+    TechnicalOwner = "${var.technical_owner}"
+  }
+}
+
+module "dns_public" {
+  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v2.4.0"
+  region       = "${var.region}"
+  environment  = "${var.environment}"
+  account      = "${var.account}"
+  service_name = "${var.service_name}"
+  prefix       = "mysqldb"
+  target       = "${aws_db_instance.public.address}"
+}
