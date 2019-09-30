@@ -649,6 +649,7 @@ toward-next-goal = Prema sljedećem cilju
 clips-you-recorded = Isječci koje ste snimili
 clips-you-validated = Isječci koje ste potvrdili
 stats = Statistike
+awards = Nagrade
 you = Vi
 everyone = Svi
 contribution-activity = Aktivnost doprinosa
@@ -657,15 +658,54 @@ recorded-clips = Snimljeni isječci
 validated-clips = Potvrđeni isječci
 total-approved = Ukupno odobreno
 overall-accuracy = Ukupna točnost
+set-visibility = Postavi moju vidljivost
+show-ranking = Pokaži moj rang
 
 ## Custom Goals
 
+get-started-goals = Započni sa ciljevima
+create-custom-goal = Stvori prilagođeni cilj
+both-speak-and-listen = Oboje
+both-speak-and-listen-long = Oboje (govori i slušaj)
+daily-goal = Dnevni cilj
+weekly-goal = Tjedni cilj
+easy-difficulty = Laki
+average-difficulty = Prosječni
+difficult-difficulty = Teški
+pro-difficulty = Profesionalac
+build-custom-goal = Izgradi prilagođeni cilj
+help-reach-hours = Pomozi postići { NUMBER($hours) } sati za { $language } s osobnim ciljem
+help-reach-hours-general = Pomozi Common Voiceu dosegnuti { NUMBER($hours) } sati za jezik s osobnim ciljem
+set-a-goal = Postavi cilj
+cant-decide = Ne možete se odlučiti?
+receiving-emails-info =
+    S tvojim trenutačnim postavkama ćeš primati poruke e-pošte kao što su podsjetnici za ciljeve,
+    ažuriranja vlastitog napretka i novosti o Common Voice
+not-receiving-emails-info =
+    S tvojim trenutačnim postavkama <bold>NE PRIMAŠ</bold> poruke e-pošte kao što su podsjetnici za ciljeve,
+    ažuriranja vlastitog napretka i novosti o Common Voice
+n-clips = Broj isječaka { NUMBER($count) }
+confirm-goal = Potvrdi cilj
+goal-interval-weekly = Tjedno
+share-goal-type-speak = Govor
+share-goal-type-listen = Slušanje
+share-goal-type-both = Govor i slušanje
+weekly-goal-created = Tvoj tjedni cilj je stvoren
+daily-goal-created = Tvoj dnevni cilj je stvoren
+track-progress = Prati napredak ovdje i na tvojoj stranici sa statistikama.
+return-to-edit-goal = Vrati se ovamo i uredi cilj u bilo kojem trenutku.
+share-goal = Dijeli moj cilj s drugima
 
 ## Profile Delete
 
+delete-q = Želiš li zatražiti da se i tvoje glasovne snimke obrišu ili da se radije zadrže u skupu Common Voice podataka?
 keep = Zadrži
 remove = Ukloni
 profile-form-delete = Obriši profil
 
 ## Landing
 
+help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaranjem Common Voice profila i doprinošenjem vlastitog glasa.
+login-company = Prijavi se / registriraj se putem e-pošte { $company }
+profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
+read-more-about = Pročitaj više na našoj stranici Informacije
