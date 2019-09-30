@@ -388,21 +388,60 @@ about-subtitle = Common Voice dio je Mozilline inicijative da pomogne podučiti 
 how-does-it-work-title = Koji je način rada?
 about-speak = Izgovori
 about-speak-text = Sudionici snimaju glasovne zapise čitajući iz baze doniranih rečenica.
+about-listen-queue = Red čekanja za slušanje
+about-listen-queue-text = Glasovni isječci se unose se u red čekanja, koji ih priprema za slušanje.
+about-listen = Slušaj
+about-listen-text = Korisnici potvrđuju ispravnost doniranih isječaka, provjeravajući pri tome, je li govornik ispravno pročitao rečenicu.
+about-is-it-valid = Je li isječak ispravan?
+about-is-it-valid-text = Glasovni isječak se označuje kao „ispravan“, kad korisnik za njega glasa s „Da”.
+about-yes-votes = ≥ 2 „Da” glasa
+about-yes-votes-text = Da bi se glasovni isječak pruzeo u skupinu Common Voice podataka, moraju ga potvrditi dva korisnika.
+about-no-votes = ≥ 2 „Ne” glasa
+about-no-votes-text = Kad korisnik odbije glasovni isječak, vraća ga se u red čekanja. Ako je drugi put odbijen, glasovni isječak se premješta u „Groblje isječaka”.
+about-dataset-new = Skup Common Voice podataka
+about-dataset-new-text = Skup Common Voice podataka sadrži stotine tisuća uzoraka glasa koji programerima pomažu izraditi alat za prepoznavanje glasa.
+about-clip-graveyard = Groblje isječaka
+about-clip-graveyard-text = Groblje isječaka se sastoji od govornih isječaka koji nisu uvršteni u skup Common Voice podataka. Kao što je skup podataka dostupan, tako je i groblje isječaka dostupno za preuzimanje.
+about-partners = Partneri
+about-become-a-partner = Postanite partner
+about-partnership =
+    Common Voice je surađivački projekt, a mi ovisimo o partnerima naše zajednice i o suradnicima, kako bismo izgradili najveći skup podataka otvorenog koda, ikad.
+    
+    Zahvaljujemo sljedećim osobama i organizacijama za njihovu pomoć u projektu:
+about-get-involved = Uključite se
+about-get-involved-text =
+    Želite pomoći poboljšati Common Voice?
+    Sjajno! Stupite u kontakt putem e-pošte ili putem <discourseLink>foruma za diskutiranje</discourseLink>,
+    pošaljite povratne informacije putem <githubLink>GitHub</githubLink> sustava,
+    ili nam se pridružite na <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Zašto?
+about-nav-how-it-works = Kako?
+about-nav-partners = Partneri
+about-nav-get-involved = Uključite se
+mycroft-title = Mycroft umjetna inteligencija
+mycroft-subtitle = Umjetna inteligencija
+mycroft-description =
+    Mycroft je prvi svjetski asistent otvorenog koda.
+    Mycroft radi bilo gdje – na stolnom računalu, u automobilu ili na Raspberry Pi.
+mycroft-secondary-description = Ovo je softver otvorenog koda koji se može slobodno miješati, proširiti i poboljšati. Mycroft se može koristiti u bilo čemu, od znanstvenog projekta do poslovnog softverskog programa.
 
 ## Glossary
 
 glossary = Glosar
 localization = Lokalizacija
+localization-explanation = Ovo je naš postupak prevođenja i prilagođavanja našeg sadržaja na mnoge jezične sustave (jezike).
 sentence-collection = Zbirka rečenica
 sentence-collection-explanation = Prikupljanje rečenica iz javne domene ili pisanje novih za javnu domenu.
 hours-recorded-explanation = Broj do sada prikupljenih sati snimljenog glasa.
 sst = Govor u tekst (Speech-to-text STT)
 sst-explanation = Govor u tekst (STT) tehnologije pretvaraju govor u tekst.
 de-identified = De-identificirani
+de-identified-explanation = Proces, kojim se informacije o profilu pridonositelja skrivaju iz njegovih darovanih glasovnih isječaka, kad se pakiraju za preuzimanje kao dio skupa podataka.
 
 ## NotFound
 
 notfound-title = Nije pronađeno
+notfound-content = Bojim se da ne znam što tražiš.
 
 ## Data
 
@@ -410,9 +449,17 @@ data-download-button = Preuzmi Common Voice podatke
 data-download-yes = Da
 data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-download-modal = Pokrenut ćete preuzimanje od <size>{ $size }GB</size>, nastaviti?
+data-subtitle = Izgrađujemo otvoreni i javno dostupni skup glasova, koje svi mogu koristiti za podučavanje govornih aplikacija.
+data-get-started = <speechBlogLink>Započni s prepoznavanjem govora</speechBlogLink>
+data-other-title = Ostali skupovi glasovnih podataka …
+data-other-goto = Prijeđi na { $name }
 data-other-download = Preuzimanje podataka
 data-bundle-button = Preuzmanje skupnih podataka
+data-bundle-description = Common Voice podaci, plus sve gore navedene skupove glasovnih podataka.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
+license-mixed = Kombinirana
+review-terms = Korištenjem Common Voicea, prihvaćate naše <termsLink>uvjete</termsLink> i <privacyLink>obavijest o privatnosti</privacyLink>
 terms-agree = slažem se
 terms-disagree = ne slažem se
 review-aborted = Prijenos je prekinut. Želite li izbrisati svoje snimke?
@@ -428,26 +475,47 @@ review-delete-recordings = Izbriši moje snimke
 language = Jezik
 # File size in gigabytes
 size = Veličina
+validated-hr-total = Ukupan broj sati za potvrđene
+overall-hr-total = Ukupan broj sati
 cv-license = Licenca
 audio-format = Format zvuka
 number-of-voices = Broj govornika
+splits = Podjele
 email-to-download = Unesite Email za preuzimanje
+why-email = <b>Zašto e-pošta?</b> U budućnosti ćemo vas možda morati kontaktirati u vezi s promjenama skupa podataka, a e-pošta nam pruža mogućnost kontaktiranja.
+confirm-size = Spremni ste pokrenuti preuzimanje veličine <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Slažete se</b> da nećete pokušati utvrditi identitet govornika u skupu Common Voice podataka
 download-language = Preuzmi { $language }
 validated-hours = Potvrđeni sati
 recorded-hours = Snimljeni sati
+whats-inside = Što se nalazi u skupini Common Voice podataka?
+want-dataset-update = Želite ažuriranja kad objavimo novu verziju skupa Common Voice podataka? Pretplatite se na naše obavijesti.
 subscribe = Pretplati se
 get-started-speech = Započnite s prepoznavanjem govora
+other-datasets = Drugi skupovi glasovnih podataka
 feedback-q = Imate povratnu informaciju?
+deepspeech-info = Skup Common Voice podataka dopunjava Mozillin mehanizam za prepoznavanje govora otvorenog koda Deep Speech, koji možete koristiti za izradu aplikacija za prepoznavanje govora. Pročitajte naš <githubLink>pregled Github-a</githubLink> ili se pridružite <discourseLink>DeepSpeech forumu za diskutiranje</discourseLink>, da biste saznali kako započeti.
+common-voice-info-new = Imate pitanja o Common Voiceu? Imate ideje za poboljšanja ili povratne informacije o određenom jeziku? Pridružite nam se našem <discourseLink>forumu za diskutiranje</discourseLink> i javite nam se.
+your-feedback = Imate ideje kako poboljšati skup Common Voicea podataka? Javite nam se na forumu za diskutiranje
+go-discourse = Prijeđi na forum za diskutiranje
+missing-language = Ne vidite vaš jezik u skupu podataka? Da biste zatražili jezik, prijeđite na našu stranicu za jezike.
 go-languages-page = Idite na stranicu s jezicima
+ready-to-validate = Jeste li spremni pomoći potvrđivati rečenice?
+more = Više
+close = Zatvori
+download = Preuzmi
+dataset-version = Verzija
 
 ## Download Modal
 
 download-title = Preuzimanje je započelo.
+download-helpus = Pomozite nam izgraditi zajednicu oko glasovne tehnologije, budite u kontaktu putem e-pošte.
 download-form-email =
     .label = Unesite vaš Email
     .value = Hvala, biti ćemo u kontaktu.
+download-back = Vrati se na skupine Common Voice podataka
 download-no = Ne hvala
 
 ## Contact Modal
@@ -465,12 +533,16 @@ request-language-title = Zahtjev za jezik
 request-language-form-language =
     .label = Jezik
 request-language-success-title = Zahtjev za jezik je uspješno poslan, hvala.
+request-language-success-content = Uskoro ćemo te obavijestiti o tome kako dodati tvoj jezik u Common Voice.
+select-language = Odaberite jezik…
+other-language = Ostali jezici
 
 ## Languages Overview
 
 language-section-in-progress = U tijeku
 language-section-launched = Pokrenuto
 languages-show-more = Pogledajte više
+languages-show-less = Pogledajte manje
 language-meter-in-progress = Napredak
 language-total-progress = Ukupno
 language-search-input =
@@ -489,6 +561,14 @@ listen = Preslušaj
 skip = Preskoči
 shortcuts = Prečaci
 clips-with-count = <bold>{ $count }</bold> Isječci
+goal-help-recording = Pomogli ste Common Voiceu da postigne <goalPercentage> </goalPercentage> našeg dnevnog cilja za snimanje od { $goalValue }!
+goal-help-validation = Pomogli ste Common Voiceu da postigne <goalPercentage> </goalPercentage> našeg dnevnog cilja za provjeravanje od { $goalValue }!
+contribute-more =
+    { $count ->
+        [one] Jeste li spremni obaviti još { $count }?
+        [few] Jeste li spremni obaviti još { $count }?
+       *[other] Jeste li spremni obaviti još { $count }?
+    }
 record-cta = Započnite snimanje
 record-platform-not-supported = Žao nam je, ali vaša platforma trenutačno nije podržana.
 record-platform-not-supported-desktop = Na stolnim računalima možete preuzeti najnovije:
@@ -499,23 +579,50 @@ record-error-too-short = Snimka je bila prekratka.
 record-error-too-long = Snimka je bila preduga.
 record-error-too-quiet = Snimka je bila previše tiha.
 record-cancel = Poništavanje ponovnog snimanja
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> kada završite
 record-three-more-instruction = Još tri!
+record-again-instruction = Sjajno! <recordIcon> </recordIcon> Snimite svoj sljedeći isječak
+record-again-instruction2 = Nastavite, snimite ponovno <recordIcon> </recordIcon>
 record-last-instruction = <recordIcon></recordIcon>Posljednja!
+review-tooltip = Pregledajte i ponovno snimite isječke
 review-instruction = Pregledajte i ako je potrebno ponovno snimite isječke
+record-submit-tooltip = { $actionType } pošaljite kad ste spremni
 clips-uploaded = Isječaka preneseno
 record-abort-title = Prvo završite snimanje?
+record-abort-text = Ako napustite sada, izgubit ćete vaš tijek
 record-abort-submit = Pošaljite isječke
 record-abort-continue = Završite snimanje
 record-abort-delete = Izlaz i brisanje isječaka
+listen-again-instruction = Sjajan posao!<playIcon></playIcon> Slušajte ponovo kada budete spremni
+listen-3rd-time-instruction = Još 2, ustrajte!<playIcon> </playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Posljednja!
 record-button-label = Snimite svoj glas
 share-title-new = <bold>Pomozite nam</bold> pronaći više glasova
 
 ## Reporting
 
+report = Prijavi
+report-title = Pošaljite izvještaj
+report-ask = Koji problem imate s ovom rečenicom?
+report-offensive-language = Uvredljivi jezik
+report-offensive-language-detail = Rečenica sadrži nepoštivanje osobe ili uvredljiv jezik.
+report-grammar-or-spelling = Gramatička / pravopisna greška
+report-grammar-or-spelling-detail = Rečenica ima gramatičku ili pravopisnu grešku.
+report-different-language = Drugačiji jezik
+report-different-language-detail = Napisana je jezikom kojim ne govorim.
+report-difficult-pronounce = Teško se izgovara
+report-difficult-pronounce-detail = Sadrži riječi ili izraze koje je teško pročitati ili izgovoriti.
+report-offensive-speech = Uvredljivi govor
+report-offensive-speech-detail = Isječak sadrži nepoštivanje osobe ili uvredljiv jezik.
+report-other-comment =
+    .placeholder = Komentar
+success = Uspjeh
+continue = Nastavi
+report-success = Izvještaj je uspješno poslan
 
 ## Goals
 
+streaks = Serije
 days =
     { $count ->
         [one] Dan
@@ -527,6 +634,12 @@ recordings =
         [one] Snimka
         [few] Snimke
        *[other] Snimaka
+    }
+validations =
+    { $count ->
+        [one] Provjera
+        [few] Provjere
+       *[other] Provjera
     }
 
 ## Dashboard
