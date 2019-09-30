@@ -213,9 +213,12 @@ data "aws_db_instance" "voice" {
 resource "aws_db_instance" "public" {
   identifier = "${var.service_name}-${var.environment}-public"
 
-  replicate_source_db = "${data.aws_db_instance.voice.db_instance_arn}"
-  instance_class      = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
-  storage_type        = "standard"
+  #XXX:AWS API bug, needs ARN at creation, name at modification time
+  #replicate_source_db = "${data.aws_db_instance.voice.db_instance_arn}"
+  replicate_source_db = "${var.service_name}-${var.environment}"
+
+  instance_class = "${var.environment == "prod" ? "db.t3.medium" : "db.t3.small"}"
+  storage_type   = "standard"
 
   vpc_security_group_ids = [
     "${aws_security_group.public_database.id}",
