@@ -176,3 +176,27 @@ resource "aws_db_parameter_group" "public_database" {
   name   = "${var.service_name}-public_darabase-${var.environment}-${var.region}"
   family = "mysql5.6"
 }
+
+resource "aws_security_group" "public_database" {
+  vpc_id = "${module.info.vpc_id}"
+  name   = "${var.service_name}-${var.environment}-public-rds"
+
+  tags = {
+    Name           = "${var.service_name}-${var.environment}-public-rds"
+    Region         = "${var.region}"
+    Environment    = "${var.environment}"
+    TechnicalOwner = "${var.technical_owner}"
+    Backup         = "true"
+    Shutdown       = "never"
+  }
+
+  ingress {
+    from_port = "3306"
+    to_port   = "3306"
+    protocol  = "tcp"
+
+    cidr_blocks = [
+      "${var.public_client_ip_cidr}",
+    ]
+  }
+}
