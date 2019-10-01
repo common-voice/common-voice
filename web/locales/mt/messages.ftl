@@ -370,9 +370,16 @@ faq-why-mission-a = Mozilla hija mpenjata biex iżżomm il-web miftuħa u aċċe
 faq-what-cv-and-deepspeech-q = X'inhi d-differenza bejn Common Voice u Deep Speech?
 faq-what-cv-and-deepspeech-a = Il-ġabra tad-data ta' Common Voice tikkumplimenta s-sistema Deep Speech, sistema miftuħa għall-għarfien tat-taħdit mibnija minn Mozilla. L-ewwel verżjoni ta' Deep Speech ġiet imnedija f'Novembru 2017 u baqgħet tevolvi sa minn dakinhar. Flimkien mal-ġabra tad-data ta' Common Voice, aħna nemmnu li din it-teknoloġija miftuħa għall-għarfien awtomatiku tal-vuċi għandha tkun disponibbli għal kulħadd. Nisperaw li dawn it-teknoloġiji jippermettu lill-iżviluppaturi biex joħolqu mewġa ġdida ta 'prodotti u servizzi innovattivi.
 faq-is-goal-assistant-q = L-għan ta’ Common Voice huwa li jinbena assistent tal-vuċi?
+faq-is-goal-assistant-a = L-għan tad-data ta' Common Voice hija li tippermetti lil kwalunkwe persuna madwar id-dinja tibni sistemi għall-għarfien tat-taħdit, jew rikonoxximent tal-kelliem, jew kwalunkwe tip ieħor ta' applikazzjoni li teħtieġ data mitkellma. Assistent tal-vuċi huwa biss wieħed minn ħafna tipi ta' għodod li jistgħu jużaw id-data.
+faq-do-want-native-q = Jiena minix kelliem nattiv ta' din il-lingwam u nitkellem b'aċċent, xorta tridu leħni?
+faq-do-want-native-a = Iva, irridu l-vuċi tiegħek b'mod speċjali! Parti mill-għan ta' Common Voice hija li tiġbor kemm jista' jkun aċċenti differenti sabiex is-servizzi ta' għarfien tal-vuċi jaħdmu tajjeb indaqs għal kulħadd. Dan ifisser li l-kontribut ta' kelliema mhux nattivi huwa partikolarment importanti.
+faq-why-different-speakers-q = Għaliex hemm bżonn daqstant kelliema differenti għal kull lingwa?
+faq-why-different-speakers-a = Il-biċċa l-kbira tal-ġabriet tad-data tat-taħdit huma mibnija bi żbilanċ favur ċerti demografiji. Dan jirriżulta fi żbilanċ b'risq <articleLink> l-irġiel u l-membri tal-klassi medja </articleLink>. Ċerti aċċenti u djaletti li ġeneralment ma jkunux rappreżentati sew fl-iskemi tad-data għall-izvilupp ta' sistemi tat-taħdit huma tipikament assoċjati ma’ gruppi ta’ nies li huma emarġinati. Ħafna sistemi jbatu wkoll biex jifhmu l-vuċijiet femminili. Dan hija r-raġuni għalfejn irridu varjetà fil-ġabriet tagħna tad-data tal-vuċi!
+faq-why-my-lang-q = Għalfejn il-lingwa tiegħi għadha mhix inkluża?
 
 ## ABOUT US
 
+about-nav-how-it-works = Kif?
 
 ## Glossary
 
@@ -382,36 +389,119 @@ faq-is-goal-assistant-q = L-għan ta’ Common Voice huwa li jinbena assistent t
 
 ## Data
 
+data-download-yes = Iva
+data-download-deny = Le
+data-other-title = Ġabriet oħra ta' data tat-taħdit ...
+data-other-goto = Mur { $name }
+data-other-download = Niżżel id-Data
+data-bundle-button = Niżżel il-Pakkett tad-Data
+data-bundle-description = Id-Data ta' Common Voice flimkien mad-data tat-taħdit kollha l-oħra t'hawn fuq.
+license = Liċenzja: <licenseLink> { $license } </licenseLink>
+license-mixed = Imħallat
+terms-agree = Naqbel
+terms-disagree = Ma naqbilx
+review-submit-title = Irrevedi & Ibgħat
+review-recording = Irrevedi
+review-rerecord = Erġa' rrekordja
 
 ## Datasets Page
 
+close = Agħlaq
+dataset-version = Verżjoni
 
 ## Download Modal
 
+download-no = Le grazzi
 
 ## Contact Modal
 
+contact-title = Formula ta' Kuntatt
+contact-form-name =
+    .label = Isem
+contact-form-message =
+    .label = Messaġġ
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Lingwa
+select-language = Agħżel Lingwa ...
 
 ## Languages Overview
 
+language-meter-in-progress = Progress
+language-total-progress = Total
+sentences = Sentenzi
 
 ## Contribution
 
+contribute = Ikkontribwixxi
+listen = Isma'
+skip = Aqbeż
+record-must-allow-microphone = Trid tippermetti aċċess għall-mikrofonu.
+record-no-mic-found = Ma nstab ebda mikrofonu.
+listen-last-time-instruction = <playIcon> </playIcon> L-aħħar waħda!
+record-button-label = Irrekordja l-vuċi tiegħek
+keep-track-profile = Żomm kont tal-progress tiegħek billi toħloq profil
 
 ## Reporting
 
+report = Rapport
+report-title = Issottometti rapport
+report-offensive-language = Kliem offensiv
+report-grammar-or-spelling = Żball grammatikali / ortografiku
+report-grammar-or-spelling-detail = Is-sentenza għandha żball grammatikali jew ortografiku.
+report-different-language = Lingwa differenti
+report-difficult-pronounce = Diffiċli biex tippronunzjaha
+report-offensive-speech = Diskors offensiv
+report-other-comment =
+    .placeholder = Ikkummenta
+success = Suċċess
+continue = Kompli
+report-success = Ir-rapport irnexxilek tibgħatu
 
 ## Goals
 
+validations =
+    { $count ->
+        [one] Validazzjoni
+        [two] Validazzjonijiet
+       *[many] Validazzjonijiet
+    }
 
 ## Dashboard
 
+your-languages = Il-Lingwi Tiegħek
+toward-next-goal = Lejn l-għan li jmiss
+stats = Statistika
+awards = Premjijiet
+you = Int
+everyone = Kulħadd
+top-contributors = L-aqwa kontributuri
+show-ranking = Uri posti fil-klassifika
 
 ## Custom Goals
 
+both-speak-and-listen = It-tnejn
+easy-difficulty = Faċli
+average-difficulty = Medju
+difficult-difficulty = Diffiċli
+pro-difficulty = Professjonali
+want-to-continue = Trid tkompli?
+lose-changes-warning = Jekk titlaq issa jintilfu l-bidliet kollha li għamilt
+set-a-goal = Issettja għan
+cant-decide = Ma tistax tiddeċiedi?
+goal-interval-weekly = Kull ġimgħa
+share-goal-type-speak = Titkellem
+share-goal-type-listen = Tisma’
+share-goal-type-both = Titkellem u Tisma'
+# LINK will be replaced with the current URL
+goal-share-text = Għadni kemm ħloqt għan personali biex nagħti l-vuċi tiegħi lil #CommonVoice - ingħaqad miegħi u għin biex il-kompjuters jitgħallmu kif jitkellmu in-nies { $link }
+weekly-goal-created = l-għan tiegħek għal dil-ġimgħa lħaqtu
+daily-goal-created = L-għan tiegħek għal-llum ilħaqtu
+track-progress = Żomm kont tal-progress tiegħek hawnhekk u fuq il-paġna tiegħek tal-istatistika.
+return-to-edit-goal = Tista' terġa' lura hawn meta trid biex taġġorna l-għanijiet tiegħek.
+share-goal = Aqsam l-għanijiet tiegħi ma' ħaddieħor
 
 ## Profile Delete
 
