@@ -284,6 +284,12 @@ profile-form-age =
     .label = Età
 profile-form-gender =
     .label = Sess
+leaderboard-visibility =
+    .label = Viżibilità fil-Klassifika
+hidden = Moħbija
+visible = Viżibbli
+native-language =
+    .label = Lingwa Nattiva
 profile-form-submit-save = Issejvja
 profile-form-submit-saved = Issejvjat
 male = Raġel
@@ -291,8 +297,12 @@ female = Mara
 # Gender
 other = Ieħor
 why-profile-title = Għalfejn toħloq profil?
+why-profile-text = Jekk tipprovdi xi informazzjoni dwarek innifsek, id-data tal-awdjo li tissottometti lil Common Voice tkun iktar utli għall-iżvilupp ta' magni għall-għarfien awtomatiku tat-taħdit, li jużaw din id-data biex itejbu l-preċiżjoni tagħhom.
+dashboard = Dashboard
+build-profile = Oħloq Profil
 avatar = Avatar
 goals = Għanijiet
+settings = Issettjar
 edit-profile = Aġġorna l-Profil Tiegħek
 profile-create-success = Prosit, irnexxilek toħloq profil!
 profile-close = Agħlaq
@@ -354,6 +364,8 @@ faq-why-important-a =
 faq-how-get-q = Kif nista' nikseb id-data ta' Common Voice?
 faq-how-get-a = Il-ġabra ta' dati Common Voice hija disponibbli taħt liċenzja  <licenseLink>CC0</licenseLink>  fuq il-<datasetLink>paġna tad-Data</datasetLink> tagħna. Mill-istess poaġna, tista' wkoll tniżżel diversi ġabriet ta' data oħra li huma disponibbli pubblikament.
 faq-when-release2-q = Meta se tniedu d-data Common Voice bil-lingwa tagħna?
+faq-when-release2-a = Il-verżjoni multilingwi tad-data ta' Common Voice bħalissa għaddejja minn proċess ta' ġbir u ta' tindif, bl-għajnuna tal-komunità. Jekk tixtieq tgħinna nintroduċu Common Voice għal lingwi ġodda, tista' tesplora s-<sentenceCollectorLink> Sentence Collection Tool </sentenceCollectorLink> biex iżżid sentenzi ġodda mad-dataset, u tuża l-<pontoonLink> Pontoon </pontoonLink> ta' Mozilla għat-traduzzjoni tas-sit innifisu. Lingwi ġodda jiżdiedu fuq Common Voice għall-kontribuzzjoni tal-vuċi meta jkunu nġabru 5000 sentenza approvata.
+faq-why-mission-q = Għalfejn Common Voice jagħmel parti mil-missjoni ta' Mozilla?
 
 ## ABOUT US
 
