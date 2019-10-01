@@ -594,6 +594,7 @@ report-different-language-detail = Din miktuba fl-lingwa differenti min dik li n
 report-difficult-pronounce = Diffiċli biex tippronunzjaha
 report-difficult-pronounce-detail = Għandha kliem jew frażijiet li huma diffiċli biex taqrhom jew tgħidhom.
 report-offensive-speech = Diskors offensiv
+report-offensive-speech-detail = Dal-Clip għandu lingwaġġ mhux rispettuz jew offensiv.
 report-other-comment =
     .placeholder = Ikkummenta
 success = Suċċess
@@ -602,6 +603,12 @@ report-success = Ir-rapport irnexxilek tibgħatu
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Ġurnata
+        [two] Ġranet
+       *[many] Ġranet
+    }
 recordings =
     { $count ->
         [one] recording
@@ -619,11 +626,15 @@ validations =
 
 your-languages = Il-Lingwi Tiegħek
 toward-next-goal = Lejn l-għan li jmiss
+clips-you-recorded = Clips li rrekordjajt
+clips-you-validated = Clips li ċċekkjajt
 stats = Statistika
 awards = Premjijiet
 you = Int
 everyone = Kulħadd
 top-contributors = L-aqwa kontributuri
+recorded-clips = Clips irrekordjati
+validated-clips = Clips iċċekkjati
 show-ranking = Uri posti fil-klassifika
 
 ## Custom Goals
