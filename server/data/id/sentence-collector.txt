@@ -763,6 +763,7 @@ Beberapa murid datang ke perpustakaan.
 Beberapa orang berpikir makan dirumah lebih baik bagimu daripada makan diluar.
 Beberapa orang tidak pernah menjadi dewasa.
 Beberapa tanaman tidak dapat beradaptasi terhadap dingin.
+Beberapa temanku bisa bahasa Inggris dengan baik.
 Begitu banyak kebencian di ruangan ini, dan sedikit kasih.
 Begitu rupanya.
 Begitu tetangga melihat John menjual narkoba, dia melaporkannya ke pihak berwajib.
@@ -1272,6 +1273,7 @@ Dia ingin menikah segera.
 Dia ingin menjadi desainer.
 Dia ingin menjadi seorang penyanyi.
 Dia jarang pergi ke gereja.
+Dia jatuh cinta padanya pada pandangan pertama.
 Dia kaya dengan cepat.
 Dia kaya pengalaman.
 Dia kehilangan semuanya.
@@ -1408,6 +1410,7 @@ Dia punya sedikit gigi.
 Dia pura-pura tidur.
 Dia pura-pura. Itulah. Itulah mengapa dia tidak mendengkur.
 Dia sangat berhati-hati.
+Dia sangat mabuk.
 Dia sangat mirip dengan ayahnya.
 Dia sangat mudah marah.
 Dia sangat pintar.
@@ -1934,6 +1937,7 @@ Jangan membuatku kembali ke sana.
 Jangan mendekati mereka.
 Jangan menetap di sini.
 Jangan menuduh orang lain.
+Jangan meremehkan kekuatanku.
 Jangan merendahkanku.
 Jangan merokok di ruangan ini.
 Jangan merokok, bertenggang rasalah dengan yang lainnya.
@@ -2505,6 +2509,7 @@ Kotak yang berat dibawa oleh orang laki-laki.
 Kroasia berada di bagian tenggara Eropa.
 Kualitasnya bagus.
 Kuberi nama anak kucing itu Tama.
+Kuberikan apapun padamu kecuali ini.
 Kubilang tidak!
 Kucing itu sedang tidur diatas sofa.
 Kucing yang hilang tersebut masih belum ditemukan.
@@ -2519,6 +2524,7 @@ Kuis itu berhadiah satu milyar rupiah.
 Kukira dia sakit.
 Kuku saya patah.
 Kukuku patah.
+Kulakukan yang terbaik agar tidak mengganggumu belajar.
 Kuliahnya berjalan lancar.
 Kuncinya ada di dalam lemari.
 Kupu-kupu ini langka di negara kami.
@@ -4495,6 +4501,7 @@ Supermarket di sana juga buka pada malam hari.
 Surat dari ibu yang ada di negara asal sudah sampai.
 Susah sekali memuaskan semua pihak.
 Susan, dia suka kucing.
+Tadi ada masalah di sekolah.
 Tadi itu cepat.
 Tadi malam saya pergi makan malam bersama Pak Kimura.
 Tadi malam saya tidur awal karena lelah.
@@ -5070,6 +5077,7 @@ empat sehat lima sempurna
 explore hal baru di usia muda
 gigi geraham atasnya sudah turun karena bawahnya kosong
 halo dunia!
+ini harus dicuci.
 ini istri saya Edita.
 itu tidak terlalu terlihat buruk
 jadilah diri sendiri

@@ -2024,6 +2024,7 @@ Ad kent-tt-id-yawi?
 Ad kent-tt-tefk?
 Ad kent-tt-teɛṛeḍ?
 Ad kent-ḍefṛeɣ.
+Ad kent-ẓṛeɣ azekka.
 Ad keyfeɣ di berra.
 Ad kfun lehmum dayen.
 Ad kfunt deg-i nnehtat.
@@ -2677,8 +2678,10 @@ Ad taffeḍ d sidi bnaddem.
 Ad tagiḍ taɛrabt-nsen.
 Ad talem tekti yeflan.
 Ad tali d asawen tutlayt taqbaylit.
+Ad talsem aseggas!
 Ad tarew deg yunyu.
 Ad tarew tserdunt mmi-s.
+Ad taru tansa-nni.
 Ad taweḍ ar igenni tutlayt taqbaylit.
 Ad taweḍ deg talwit ɣer Tahran.
 Ad taweḍ tjumma-s tajemmalt ɣer wazal n mitayen uxemsin n lmitrat di tlemmast n uxxam n tnezduɣt.
@@ -12486,6 +12489,7 @@ Dlu ziɣ.
 Dominique strauss kahn ḥebsent di Marikan ass-mi yetɛedda ɣef yiwet n tmeṭṭut taberkant.
 Dqiqa ad d-uɣaleɣ.
 Dqiqa kan ad t-id-naf.
+Dqiqa kan! Aqli-yin!
 Dqiqa kan.
 Dqiqa tamenzut qqneɣ allen-iw, ẓriɣ Silya deg wadeg n Rafiq.
 Drewceɣ cwiṭ.
@@ -15275,6 +15279,7 @@ Infelwa uḍaṛ-is.
 Infeq zzman di tfekka-w.
 Inger qeccuc, meccuc.
 Inher-d aɣyul deg teqlaṭ, iteddu ɣef uḍar.
+Inher-d tiɣeṭṭen-is.
 Ini: « ttxil-k ».
 Ini At Yeḥya Musa mačči Wad Qsaṛi.
 Ini i Ferɛun ayen akk i k-d-nniɣ.
@@ -17634,6 +17639,7 @@ La nettwali.
 La neẓẓad, neggar awren.
 La nheddeṛ ɣef Ɛli ineggez ar Waɛli.
 La nleḥḥu deg uzal, newḥec.
+La qqaṛeɣ aḍris-nni.
 La qqaṛeɣ.
 La selleɣ i uẓawan.
 La skerkisent wallen-ik.
@@ -19470,6 +19476,7 @@ Melmi ad ken-ẓṛent?
 Melmi ad kent-iẓeṛ?
 Melmi ad kent-tẓeṛ?
 Melmi ad kent-ẓṛen?
+Melmi ad kent-ẓṛent?
 Melmi ad t-iẓeṛ?
 Melmi ad t-ẓṛen?
 Melmi ad t-ẓṛent?
@@ -26296,6 +26303,7 @@ Teddem-it tsiwant.
 Teddem-it zgelli.
 Teddem-it-id.
 Teddem-iten zgelli.
+Teddem-itent zgelli.
 Teddem-itt zgelli.
 Tedder akken acḥal d aseggas armi d ass i deg-i d-temlal tin yellan am nettat.
 Teddewwil s ilemẓiyen akken tebɣa.
@@ -26927,6 +26935,7 @@ Temẓi inu truḥ d akeṛfi.
 Temẓi txeddem ɣef temɣeṛ.
 Tenced-d akk timeddukal-is deg usfugel n tissulya-s.
 Tenfel-it yimma-s, asmi d-illul.
+Tenfelwa tweṭzit-is.
 Tenfeɛ aṭas trisiti.
 Tenger ccetla-s.
 Tenger lemḥenna deg tallit-a-nneɣ.
@@ -36533,6 +36542,7 @@ Yeddem-it zgelli.
 Yeddem-it-id.
 Yeddem-iten usyax n waktayen.
 Yeddem-iten zgelli.
+Yeddem-itent zgelli.
 Yeddem-itt zgelli.
 Yedden ccix, yexleε uqjun-nneɣ.
 Yedder ayen yedder dinna, meɛna ula din, llan wuguren i yesserwalen ilmezyen.
@@ -41998,6 +42008,7 @@ zuɣer icifaḍ ar tafeḍ isebbaḍen.
 Ɣur-neɣ akk ufuren.
 Ɣur-neɣ tikwal kan i d-yekkat udfel.
 Ɣur-neɣ yiwen ur ikesseb taɣyult.
+Ɣur-neɣ εecra tsita.
 Ɣur-neγ s Leqbayel, nessexdam uccen i tḥerci, izem i tebγest d tezmert.
 Ɣur-s allaɣ yukin, yessemlalay awalen tteffɣen-d d isefra.
 Ɣur-s amḍan ameqqran n yidlisen.
@@ -42177,6 +42188,7 @@ zuɣer icifaḍ ar tafeḍ isebbaḍen.
 Ḍefṛem ṛṛay-iw.
 Ḍefṛem-aɣ-d!
 Ḍefṛemt Tom!
+Ḍefṛemt abrid-nkent.
 Ḍefṛemt takeṛṛust-a.
 Ḍefṛemt tirga-nkent.
 Ḍefṛemt ṛṛay-iw.

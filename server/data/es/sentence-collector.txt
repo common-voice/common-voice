@@ -1,6 +1,7 @@
 " la Dalila " continuaba anclada bajo el Castillo de Ulua
 " la Dalila " quizá permanezca en el puerto:
 "Algo es algo" dijo un calvo al encontrar un peine
+A Dios pongo por testigo de que jamás volveré a pasar hambre
 A Dios rogando y con el mazo dando.
 A Dios, al padre y al maestro, tenga el niño gran respeto.
 A Juan y Mario les encantan los videojuegos de estrategia
@@ -51,6 +52,7 @@ A mucho amor, mucho perdón.
 A más beber, menos comer.
 A mí me hacen eso mismo y me quedo toda loca.
 A mí me parece que confundes la gimnasia con la magnesia
+A mí no me la cuela, ese no es trigo limpio
 A mí no me tose ni Dios
 A nadie le gustan los mosquitos.
 A nosotros no nos gusta que nos hagan explotar.
@@ -102,10 +104,12 @@ Acaba de pasar el metro.
 Acaban de llegar Carla y Virginia.
 Acabo de ver un jabalí cruzar por el paso de cebra.
 Aceite abundante, buen año por delante.
+Aceptamos pulpo como animal de compañía
 Actualiza el índice de paquetes y todos los paquetes instalados:
 Actualmente los alquileres están por las nubes.
 Acusada de intercambiar música
 Adela me trae de cabeza y me he enamorado.
+Adelante, alégrame el día
 Adiós, amigos míos. Voy a un lugar mejor .
 Adiós, mis amigos. Voy a un sitio mejor .
 Adiós, ¡cara bonita!
@@ -118,6 +122,7 @@ Agrestes surgían entre el rumoroso verdor de las cañas.
 Agua corriente no mata a la gente.
 Agua que no has de beber, déjala correr.
 Agua y luna, tiempo de aceitunas.
+Aguantó hasta el final
 Ahogado el niño, tapan el pozo.
 Ahora, gracias todos por su amable bienvenida.
 Ahora, la entrada está fuertemente custodiada. Necesitamos una forma de entrar .
@@ -130,6 +135,7 @@ Ahora dice que se quiere cambiar el coche.
 Ahora hemos vuelto a las formas y maneras de antes
 Ahora la parte difícil. ¡ Alicates!
 Ahora me dedico a los bolos y tengo un futuro prometedor.
+Ahora que había enseñado al burro a no comer, va y se muere
 Ahora todos mis amigos se fueron
 Ahora todos se han ido
 Ahora vacíe la caja fuerte.
@@ -197,6 +203,7 @@ Allí era el puto amo, el que partía el bacalao
 Almería es la peor
 Ama al grado que quieras ser amado.
 Amanece, que no es poco
+Amar es sufrir
 Amar sin padecer, no puede ser.
 Amigo de muchos, amigo de ninguno.
 Amigo de uno, y enemigo de ninguno.
@@ -212,9 +219,11 @@ Antes de empezar, si el idioma por defecto es el inglés
 Antes del viaje pasaremos esta tarde a despedirnos de mi madre.
 Antes que acabes, no te alabes.
 Antes, tenías la misma función que desde tu casa
+Antes, todo esto era campo
 Anticipa la suma y se cierra la operación
 Antonio analiza en un amplio informe
 Anunció la boda a bombo y platillo
+Aparece, a los dos años de desarrollo, la nueva versión estable
 Apenas he dormido pero que me quiten lo bailado
 Aplique el producto directamente sobre la frente.
 Aprender a fabricarlas pasa por comprender su carácter de constructo
@@ -224,6 +233,7 @@ Aquel año las pasó canutas
 Aquel caserío tenía un modo de ser especial.
 Aquel sitio era la hostia. El año que viene volveremos fijo
 Aquello era algo real como la vida misma
+Aquello era un diálogo para besugos, sin sentido alguno
 Aquello sonaba al tradicional que viene el coco
 Aquí abundan las cigüeñas.
 Aquí hay gato encerrado.
@@ -231,6 +241,7 @@ Aquí he visto una cosa muy más dulce y extraña.
 Aquí huele a muerto y yo no he sido
 Aquí mismo en la camioneta. Estoy seguro que está allí .
 Aquí molestas, vete con la música a otra parte
+Aquí te pillo, aquí te mato
 Aquí ya he estado más veces y me lo conozco al dedillo
 Arranca el ventilador.
 Arrancada de caballo y parada de asno.
@@ -250,11 +261,13 @@ Así que juega limpio.
 Así que vamos a concretar punto por punto
 Así que vamos.
 Así que, ya sabes, ¡coge el tranvía y ve a por ella!
+Así se impone un modelo de media distancia
 Atenderemos los heridos en el porche.
 Aterrizaje forzoso en un extraño planeta.
 Aunque parece insuperable
 Aunque debe nacer quien me haga pasar por el aro.
 Aunque la mona se vista de seda, mona se queda.
+Aunque parezca una propuesta recurrente y manida
 Avanzo presurosa entre la multitud buscando su rostro
 Ay madre, y yo que pensaba que nos sobraría tiempo.
 Ayer conocí el alcalde de Ripoll.
@@ -298,6 +311,7 @@ Bueno, tenemos formas de hacerte hablar.
 Bueno, tenemos medios para hacerte hablar.
 Bueno, yo traje mi dinosaurio que come perros con campos de fuerza.
 Bueno... No me gustan los enfrentamientos .
+Bueno estaba y se murió. Pues no estaría tan bueno
 Buenos días, ¿qué tal?
 Burro cargado, busca camino.
 Burro grande, ande o no ande.
@@ -320,6 +334,7 @@ Cada loco con su tema y cada lobo por su senda.
 Cada maestrillo tiene su librillo.
 Cada mes, la misma historia.
 Cada oveja con su pareja.
+Cada persona es un mundo
 Cada uno en su casa, y Dios en la de todos.
 Cada uno es artífice de su ventura.
 Cada vez hay menos gente que compre lotería.
@@ -334,6 +349,7 @@ Calladito estás más guapo
 Cambia más de opinión que de chaqueta
 Camino malo, pásalo pronto.
 Caminos hacen amigos.
+Caracol, saca los cuernos al sol
 Caridad y amor, sin tambor.
 Casa con dos puertas, mala es de guardar.
 Caía la tarde. De Huelva llegaba un olor a marisma, a brea.
@@ -341,9 +357,11 @@ Celebremos con un chocolate caliente.
 Cesar es un muchacho saudí.
 Chicos, creo que lo he encontrado.
 Chile es un país.
+Chincha rabiña que mis padres son ricos y los tuyos no
 Chollos así no se ven todos los días
 Cien niños del mismo vientre y todos son diferentes.
 Cierra la puerta que hay corriente de aire.
+Cierra la puerta que se escapa el gato
 Cinco minutos de despedida, dijimos todo cuanto callamos.
 Cinco sencillos trucos para aprender
 Claro, adelante. Fúndele con tu terrible láser .
@@ -351,6 +369,8 @@ Claro. Dame un abrazo .
 Claro que sí. Dame un abrazo .
 Claro. Deja que prepare un par de cervezas.
 Coge tu pancarta
+Cogió una rabieta y montó un show en el restaurante
+Coincidieron en el bar y se armó la Marimorena
 Colaborar siempre en algún proyecto.
 Come para vivir y no vivas para comer.
 Come poco y cena más, duerme en alto y vivirás.
@@ -358,6 +378,7 @@ Comencé a cagarme en la Introducción de nuevo
 Comenzaba una carrera desbocada hacia la invitación al pánico.
 Comer sopas y sorber, no puede ser.
 Comienza la temporada de verano
+Como consumidores somos completamente moldeables.
 Como el agua del cielo en una flor.
 Como era de esperar
 Como es la de haber visto llorando una montaña.
@@ -383,15 +404,19 @@ Como éste, no hay dos
 Compramos el mejor vino.
 Compruebe si el papel no está atascado.
 Comía a dos carrillos como si no hubiera un mañana
+Con amigos así, ¿quién necesita enemigos?
 Con buena gente, trataré yo; con gentuza, no.
 Con ciertos amigos, no se necesitan enemigos.
 Con el objetivo de detener un trazado de líneas:
 Con el oro de un cuento encantador.
 Con esa letra de médico no hay quien entienda nada
+Con esa maniobra tan imprudente, se jugó el pellejo
 Con ese piquito de oro le toma el pelo a la gente
+Con este calor estoy sudando como un pollo
 Con este calor no paro de sudar como un cerdo
 Con la barriga vacía, ninguno muestra alegría.
 Con la iglesia hemos topado
+Con lo que yo he sido, y mírame ahora
 Con nieve en enero, no hay año austero.
 Con premeditación, nocturnidad y alevosía
 Con queso, pan y vino, se anda mejor el camino.
@@ -403,6 +428,7 @@ Congrega a todo el mundo para una reunión, y estate feliz.
 Conocedor quizás de estas características
 Conseguí esa carta tan rara.
 Contentos y alegres los dos muchachos nadaban ajenos al mundo
+Contigo no, bicho
 Convertido en cráter.
 Convoca una reunión y ponte alegre.
 Corazón alegre hace fuego de la nieve.
@@ -447,10 +473,12 @@ Cuando llueve y hace sol sale a paseo el caracol.
 Cuando marzo mayea, mayo marcea.
 Cuando menos se piensa salta la liebre.
 Cuando no era una era otra
+Cuando parecía que estaba acabado, resurgió de sus propias cenizas cual Ave Fénix
 Cuando puedas, gira a la derecha.
 Cuando quieras hablar, me avisas.
 Cuando quieres darte cuenta, ya es tarde y no hay vuelta atrás.
 Cuando se cansó de ella la mandó a tomar viento
+Cuando se enteró, se quedó a cuadros
 Cuando se quedó sin trabajo, las pasó putas
 Cuando termina la vida de la escuela, comienza la escuela de la vida.
 Cuando una persona no puede hacer un documental sobre
@@ -459,11 +487,14 @@ Cuanta más grandeza, más llaneza.
 Cuantiosos y poderosos enemigos, sin duda
 Cuanto antes nos mudemos, mejor.
 Cuanto más alto se sube más grande es la caída.
+Cuanto más azúcar, más dulce
 Cuanto más seamos, menos teca nos tocará por barba.
 Cuanto más tienes más quieres.
+Cuanto peor, mejor
 Cuantos más seamos, mejor
 Cuantos más seamos, más reiremos
 Cuaquier programa tiene un alternativa a pensar
+Cuatro semanas después de los disturbios sociales
 Cuatrocientos comercios españoles tendrán que rendir cuentas
 Cuenta hasta diez e intenta no echar más leña al fuego.
 Cuentas claras, amistades largas.
@@ -478,6 +509,7 @@ Dale cuerda a la rana.
 Dale leña al mono que es de goma
 Dame pan, y dime tonto.
 Dani, ¿has llevado los toldos a la chica de las hamacas?
+Dar cera, pulir cera
 Das más guerra que un hijo tonto
 Date el piro que te busca la pasma
 Date prisa o perderemos el avión.
@@ -489,6 +521,7 @@ De acuerdo, son sábanas. ¿ quién invitó a ese niño?
 De acuerdo. Ahorrad pilas .
 De ahora en adelante, debes cuidar bien tus juguetes.
 De airado a loco va muy poco.
+De cada cual según su capacidad, a cada cual según su necesidad
 De casta le viene al galgo ser rabilargo.
 De cualquier manera mejor que le de una mirada.
 De enamorado a loco va muy poco.
@@ -498,6 +531,7 @@ De hecho, la propiedad intelectual es una ficción.
 De hecho, mis mejores amigos lo son
 De invierno no quiero saber nada.
 De la actual situación política no quiero saber nada.
+De lo bueno, lo mejor. De lo mejor, lo superior
 De los que ya habían ido, mucho hacía que no iban.
 De momento, continúan las protestas.
 De músico, poeta y loco, todos tenemos un poco.
@@ -521,6 +555,7 @@ Deberías haberlos agarrado más tiempo.
 Deberías salir de aquí mientras puedas.
 Debes ir más allá de los habituales
 Debo reparar mis turbopropulsores.
+Decantarse por una ideología supone perder un sector comercial
 Decía cosas sin ton ni son
 Dediqué la mañana a limpiar los cristales.
 Deja de comer como un cerdo que te va a sentar mal
@@ -528,10 +563,12 @@ Deja de quejarte y paga. No, la oreja no .
 Deja el abrigo en el perchero.
 Deja el diente bajo la almohada y vendrá el ratoncito Pérez
 Deja ya de comerme el tarro que te he dicho que no
+Deja ya de dar la matraca que me duele la cabeza
 Deja ya de hacer el canelo que se te están subiendo a la chepa
 Deja ya de jorobar a tu hermano que se va a enfadar
 Dejaos de cuchufletas que no estoy para gilipolleces
 Deje de mirarse al ombligo
+Dejen salir antes de entrar
 Del antiguo camino no queda nada.
 Del dicho al hecho hay mucho trecho.
 Demanda que los fabricantes de hardware no permitan  instalar cualquier software
@@ -567,9 +604,11 @@ Dice que no ha sido un accidente.
 Dice que quiere adelgazar antes del verano.
 Dicen que este año el exámen ha sido más difícil que nunca.
 Dicen que este año será año de setas.
+Dicen que la experiencia es un grado
 Dicen que la música calma a las fieras.
 Dicha convocatoria se enmarca en el proyecto de investigación
 Dicha convocatoria se enmarca en el proyecto sobre procesos creativos
+Dicha información será enviada a todos los servidores
 Dichos parecían morcillas.
 Diciembre las miríadas de todos sus luceros.
 Diez, nueve , ocho , siete...
@@ -591,6 +630,7 @@ Dispuesto a descansar en mi hamaca, me tumbe plácidamente
 Domingo vamos de boda y todavía no sabemos qué nos pondremos.
 Donde decía telepáticamente debiera decir telemáticamente
 Donde hay confianza, da asco.
+Donde hay pelo, hay alegría
 Donde hay vida hay esperanza.
 Donde labores no enamores.
 Donde las dan las toman.
@@ -605,6 +645,8 @@ Durante casi tres meses, hemos analizado el activismo digital
 Durante el día los escorpiones se esconden bajo las piedras.
 Durante la revuelta, se robó a mansalva por toda la ciudad
 Durante las vacaciones no desconectar del trabajo ni un día.
+Duró menos que un caramelo en la puerta de un colegio
+Duró menos que un suspiro
 Déjate de hostias y baja ya de ahí o te bajo yo
 Días de mucho, vísperas de nada.
 Dígale muchas gracias, que se las agradezco muchísimo.
@@ -622,10 +664,13 @@ El Salvador se encuentra en centromerica y es un buen país.
 El aborto es una acción.
 El abril, aguas mil
 El abuelo de Juan es más viejo que Matusalén
+El acto se pudo realizar en otro espacio a finales de mes
 El agrado en la persona, cuantos bienes proporciona.
 El agua brota lenta, y en su remanso brilla.
+El agua, para las ranas
 El aire más fresco, más límpido, y todo.
 El aire no es tóxico.
+El alguacil alguacilado
 El amigo, lo escojo yo, el pariente, no.
 El amor dura lo que dura dura
 El anillo le costó un ojo de la cara
@@ -648,6 +693,7 @@ El cantante de los Pets se llama Luís.
 El casado casa quiere.
 El casal de los abuelos huele a cerrado.
 El castellano vendrá con nosotros.
+El cazador cazado
 El chico le dijo a su madre los suspensos.
 El chico le había escrito todo tipo de poemas de amor.
 El cielo es azul.
@@ -667,9 +713,12 @@ El desván estaba oscuro, un fino rayo de luz lo cruzaba
 El divorcio le dejó en bragas
 El dominio privado se convierte en dominio público
 El día de la boda ya está a la vuelta de la esquina
+El día que la mierda tenga algún valor, los pobres nacerán sin culo
 El día que no me afeité, vino a mi casa quien no pensé.
 El editor, una especie de gestor de los autores que cede todo
+El encuentro fue muy interesante y causó mucha expectación
 El escrito de queja dice lo siguiente
+El espectáculo debe continuar
 El espionaje ruso es heredero del soviético; ¡ríete!
 El estudio no tenía ventanas.
 El estímulo neurosensorial no ha tenido la intensidad esperada.
@@ -689,6 +738,7 @@ El hombre propone y Dios dispone.
 El hombre y el oso cuanto más feo más hermoso.
 El impacto me debió despertar de mi hipersueño.
 El incendio redujo varias casas a cenizas.
+El infierno está lleno de curas
 El jarrón se cayó y se hizo cisco
 El jefe de estudios era un indeseable.
 El juego que practicaremos tiene un componente didáctico.
@@ -707,6 +757,7 @@ El láser se enciende.
 El maltrato hacia las mujeres es una cobardía
 El mayordomo era el asesino.
 El mejor maestro echa un borrón.
+El mercado de la música está basado en los superventas
 El mes que viene nos venden al peso.
 El monte tenía una altura ridícula.
 El muerto al hoyo y el vivo al bollo.
@@ -717,6 +768,7 @@ El médico se mudó a un pueblo del norte.
 El necio cree que todo lo sabe.
 El niño pilló un berrinche de tres pares de cojones
 El niño se cayó y empezó a llorar como una magdalena
+El nombre es una referencia a los chalecos que llevan puestos
 El novio de Marta está más bueno que el pan
 El nuevo coche eléctrico no se oye nada
 El número de guerras en el mundo es más bajo que nunca.
@@ -753,7 +805,11 @@ El primer paso es el que cuesta. Todo es empezar
 El primer paso es reconfigurar los archivos de la lista de fuentes
 El primer paso es reconocer que tienes un problema.
 El primero de octubre fue un día histórico que no olvidaremos nunca.
+El problema no está en un disco o libro concreto
+El problema no radica en un disco concreto
 El procesador de texto hace cosas extrañas con los guiones.
+El proceso de extracción de sonido consistía en dos pasos
+El proceso de extracción digital de sonido
 El profesor de química nos enseñó la tabla periódica
 El profesorado está sobrecualificado.
 El programa de fiestas vale tres euros y medio.
@@ -761,6 +817,7 @@ El proyecto incluye el tramo de El Fargue Saleres
 El proyecto pintaba muy interesante.
 El próximo viernes tendremos los resultados.
 El pueblo de Potes está en la falda de los Picos de Europa
+El pueblo que olvida su Historia está condenado a repetirla
 El puñetero mocoso era más malo que un dolor
 El pánico fue generalizado
 El párrafo inicial asustaba a los lectores.
@@ -780,6 +837,7 @@ El que guarda halla.
 El que hace un cesto hace ciento, si le dan mimbres y tiempo.
 El que hizo la ley hizo la trampa.
 El que juega con fuego siempre sale quemado.
+El que juega con fuego, se mea en la cama
 El que la hace la paga.
 El que la sigue la consigue.
 El que mucho abarca poco aprieta.
@@ -796,6 +854,7 @@ El que parte y reparte se queda con la mejor parte.
 El que quiere interesar a los demás tiene que provocarlos.
 El que roba a un ladrón tiene cien años de perdón.
 El que ríe el último ríe dos veces.
+El que se mueva no sale en la foto
 El que se pica ajos come.
 El que siembra vientos recoge tempestades.
 El que tarde trilla, la lluvia le pilla.
@@ -823,6 +882,7 @@ El terreno parece inestable.
 El terreno parece un poco inestable.
 El terrorista huyo cobardemente dejando un baño de sangre
 El texto del pastel se debe hacer con letras de chocolate.
+El tiempo de expulsar viajeros a otros modos de transporte no es este
 El tiempo todo lo cura, menos vejez y locura.
 El tomate cada día es más caro.
 El tomate frito era casero.
@@ -840,17 +900,24 @@ El verbo tiene más interés sintáctico que el nombre.
 El vestido costaba un riñón
 El viaje a China lo dejaremos para pasado fiestas.
 El viaje se iba a realizar en septiembre.
+El videojuego esta masculinizado
+El videojuego no es algo de hombres, sino que esta masculinizado
 El viernes por la tarde vamos a la playa y luego cenamos allí.
 El vino para los reyes y el agua para los bueyes.
 El volante del Lamborghini es de piel de pantera.
+El volumen de salida no afecta al archivo de audio cuando se guarda
 El zumbido final y último antecesor del silencio
 El zumo de uva es popular.
+El último que salga, que cierre la puerta
+El último, que cierre
+Elemental, querido Watson
 Elige el idioma por defecto.
 Elisabet y Martín se van de vacaciones a Japón.
 Ella es fuerte como una montaña.
 Ella es vegana, luego tenemos que pensar en su comida.
 Ella no te ama.
 Ella sabe tocar el piano, y yo el violín.
+Ella tiene la cabeza sobre los hombros pero él está como un cencerro
 Ellos dicen que sí y yo digo que no.
 Ellos hacen buena pareja, se van a casar en mayo.
 Ellos te necesitan
@@ -876,6 +943,7 @@ En defensa de la singularidad y valía del ibérico de bellota
 En diciembre, hielos y nieve.
 En el año mil seiscientos ochenta no había coches.
 En el banquete se puso hasta las trancas
+En el coche de San Fernando, un ratito a pie y otro caminando
 En el ejemplo se creará una carpeta con el nombre del artista
 En el examen sólo se permite un bolígrafo azul o negro.
 En el fondo son el mismo perro pero con distinto collar
@@ -930,6 +998,7 @@ En serio, sígueme, tengo una corazonada.
 En su definición venía inscrita dicha complejidad
 En su familia, el más tonto hace relojes
 En teoría, a las ocho estoy allí, pero igual se retrasa.
+En toda negociación hay un toma y daca
 En trece y martes ni te cases ni te embarques.
 En un abrir y cerrar de ojos, lo tienes hecho
 En un documento de diciembre esta entidad de gestión ponía de manifiesto
@@ -957,6 +1026,8 @@ Era a los que podían, a los editores, a quienes iban dirigidas estas leyes
 Era duro de mollera y no daría su brazo a torcer
 Era la hora de la invitación al miedo
 Era la transformación de un algo simple en algo más complejo
+Era más borracho que el vino
+Era más de lo mismo, lo de siempre
 Era más desgraciado que El Pupas
 Era más feliz que una perdiz
 Era más fácil que coser y cantar
@@ -969,12 +1040,18 @@ Era más tonto que Pichote
 Era rapidísimo y corría que se las pelaba
 Era raquítico y sordo.
 Era tan, tan, tan que se quedó campana
+Era todo fachada, solo aire, como un pedo
+Era un actor de tres al cuarto que no había hecho nada importante
 Era un bar de ambiente y ambos teníamos ganas de comernos el mundo.
 Era un chaval muy atractivo, física e intelectualmente.
 Era un chico muy apuesto, un tiarrón, vaya.
 Era un chico muy majo, siempre saludaba.
 Era un coche bueno, bonito y barato. Toda una ganga
+Era un diálogo de sordos donde ninguno escuchaba al otro
+Era un famoso de medio pelo que no tenía ni donde caerse muerto
 Era un gandul redomado que no daba un palo al agua
+Era un hijo de la Gran Bretaña
+Era un ladrón de poca monta que no llegaba ni a ratero
 Era un lelo, muy corto de entendederas
 Era un muerto de hambre que no tenía ni para pipas
 Era un niño muy travieso que le sacaba de sus casillas
@@ -991,6 +1068,7 @@ Era ya muy viejo, tenía las horas contadas
 Eran amigos con derecho a roce
 Eran como agua y aceite, no pegaban ni con cola
 Eran inseparables, como uña y carne
+Eran pocos y mal avenidos
 Eres ecologista
 Eres mi ayudante favorito.
 Eres mi delegado favorito.
@@ -1010,10 +1088,12 @@ Ernesto, ¿ me recibes? cambio.
 Errando, errando, se va acertando.
 Errar es humano, perdonar es de sabios.
 Es aconsejable tener una copia de seguridad de este archivo en otro dispositivo
+Es bien sabido por todas el uso que hacen de nuestros datos
 Es bueno tener amigos hasta en el infierno.
 Es capaz de rascarse la oreja con el dedo del pie.
 Es de Sitges, esta chica.
 Es de bien nacidos ser agradecidos.
+Es de la Virgen del puño cerrado. No te da ni las gracias
 Es decir, ahora se protege al medio a costa del fin.
 Es demasiado tarde, el tiempo nos ha ganado.
 Es desigual la lucha en la que se enfrentan
@@ -1024,6 +1104,7 @@ Es el último regalo. ¡ el último regalo!
 Es el único que he tenido.
 Es especialista en la obra de Joanot Martorell.
 Es idiota y si llega a ser más tonto, no nace
+Es importante que la consejería escuche a los colectivos
 Es imposible aparcar en el centro de Calafell.
 Es imprescindible un golpe de timón en la empresa.
 Es increíble lo bien que habla alemán.
@@ -1036,9 +1117,12 @@ Es la sociedad, toda ella, la que se equivoca
 Es mejor hacer borrón y cuenta nueva que guardar rencor
 Es mi escritor preferido.
 Es muy nervioso.
+Es más agarrado que un chotis
 Es más bruto que un arado
+Es más chulo que un ocho
 Es más corto que las mangas de un chaleco
 Es más difícil que buscar una aguja en un pajar
+Es más feo que pegarle a un padre con un calcetín sudado
 Es más fácil estudiar un idioma cuando eres un niño.
 Es más lista que el hambre y las caza al vuelo
 Es más vago que la chaqueta de un guardia
@@ -1046,6 +1130,7 @@ Es nuestra indiana musa que, desde su cabaña.
 Es porque eres un juguete. Eres su juguete .
 Es respirable. No veo indicios de vida inteligente .
 Es tan cenizo que si monta un circo le crecen los enanos
+Es triste pedir, pero más triste es robar
 Es un asunto que no tiene ninguna trascendencia.
 Es un calzonazos que hace todo lo que quiere su mujer
 Es un caso, vamos a la playa y se deja el bañador.
@@ -1055,10 +1140,13 @@ Es un descendiente de los invasores
 Es un estudiante en prácticas.
 Es un fantasma al que le gusta tirarse el moco y presumir
 Es un genio, pero también es un pesado.
+Es un modelo que se basa en la eliminación de los servicios normales
 Es un niño muy fantasioso que tiene muchos pájaros en la cabeza
 Es un palo de tío.
 Es un plastas que no para de dar la brasa
 Es un psicópata de manual.
+Es un reloj de chichinabo pero da el pego
+Es un sistema operativo amnésico
 Es un tacaño y un rata que no se estira nunca
 Es un tiparraco muy baboso que da repelús
 Es un zampabollos que come como una lima
@@ -1067,6 +1155,7 @@ Es una larga historia. Ya os lo explicaré .
 Es una mujer de bandera que está de toma pan y moja
 Es una novelera a la que le va mucho el drama
 Es una zona con mucha actividad sísmica.
+Es valor por defecto que utilizan estos programas
 Esa bolsa de plástico parece una medusa.
 Esa cueva está llena de murciélagos.
 Esa libertad de uso beneficia al acceso a la cultura
@@ -1074,7 +1163,10 @@ Esa salida de la carretera, estaba mal señalizada.
 Escribía mierdas de ese tipo
 Escuchad. Hay un juguete bueno ahí abajo .
 Ese abrigo te queda grande.
+Ese crío es más malo que un demonio
+Ese debería ser el fruto de dicho debate
 Ese fruto es muy nutritivo.
+Ese listillo se gana el pan con el sudor del de enfrente
 Ese mismo día se suceden comunicados
 Ese no ha pegado un palo al agua en toda su puta vida.
 Ese plato era canela fina, estaba para chuparse los dedos
@@ -1090,6 +1182,7 @@ Eso es todo lo que quería decir.
 Eso fue una aventura peligrosa
 Eso no es volar. Eso es caer con estilo .
 Eso sí que es una buena noticia.
+Eso y nada, pariente del tío ninguno
 Esos hombres son profesionales. Son los mejores .
 Esos ladrones se llevaron todo tipo de aparatos electrónicos.
 Esos límites se justifican porque el objeto de la propiedad intelectual
@@ -1116,6 +1209,7 @@ Esta interfaz tiene un diseño muy intuitivo.
 Esta legislatura no durará mucho.
 Esta mañana me he despertado muy cansado.
 Esta mañana recorrí los alrededores para inspeccionarlos
+Esta mentalidad tóxica me hacía olvidar todo
 Esta noche han quemado un contenedor frente a su casa.
 Esta operación no tiene comisiones
 Esta paella está cojonuda
@@ -1152,6 +1246,7 @@ Estaremos más seguros en la cabina.
 Estas complicaciones conforman la problemática historia del país
 Estas muestras ya pueden ser consultadas
 Estas muy guapa esta mañana con tu vestido carmesí
+Estas patatas bravas pican y repican
 Estas son las partes más relevantes del documento
 Este ataque pretende justificarse
 Este año Hacienda me va a crujir vivo
@@ -1163,12 +1258,14 @@ Este cambio de responsabilidad parece conveniente para los usuarios
 Este coche es más lento que el caballo del malo
 Este cojín está duro como una piedra.
 Este crío habla hasta por los codos
+Este dinerito extra me viene como agua de mayo
 Este es mi sitio.
 Este es uno de los tropezones de Jerry
 Este es, evidentemente, uno de sus tropezones
 Este fenómeno supone un beneficio para muchos músicos
 Este ha sido el verano más caluroso en muchos años.
 Este helado es dulce y salado.
+Este modelo afecta especialmente a las localidades
 Este móvil se me ha quedado anticuado
 Este niño es bobo. Tiene menos luces que un barco pirata
 Este niño es más listo que los ratones colorados
@@ -1184,21 +1281,26 @@ Este sindiós no hay quien lo aguante
 Este sistema de sonido es de calidad.
 Este tatuaje me excita mucho.
 Este verano ha llovido mucho.
+Este vestido ya era viejo en tiempos de Maricastaña
 Este último tipo de agresiones machistas online no es aislado
 Esto de la adolescencia no se puede resistir.
 Esto es algo entre tú y yo.
 Esto es un desastre.
+Esto es un método más complicado
 Esto es un quítate tu que me pongo yo
 Esto es una emergencia intergaláctica. Debo requisar vuestra nave .
+Esto está más visto que el tebeo
 Esto le costará cincuenta euros.
 Esto lo hago yo con el nabo
 Esto lo hago yo en dos patadas
 Esto me da mucha rabia.
+Esto me importa una mierda
 Esto me recuerda a un puzle.
 Esto no es nada, en peores plazas hemos toreado
 Esto no es volar. Sólo es caer ... con estilo .
 Esto no lo resisto ni un día más.
 Esto no puede estar pasándome a mí.
+Esto suscito un interesante debate, que se centró en dos cuestiones
 Esto va bien para irse espabilando.
 Esto ya se pasa de castaño oscuro
 Esto, traducido al lenguaje común
@@ -1206,6 +1308,7 @@ Estos derechos son cedidos a las empresas
 Estos dos pasan cada día a la misma hora.
 Estos días se ve Marte a simple vista.
 Estos fideos a la cazuela son deliciosos.
+Estos métodos verifican de manera automática la descarga
 Estos no demuestran ningún interés por el supuesto problema
 Estoy a favor de la dictadura de los indios
 Estoy aquí. Esta vez elijo las rojas .
@@ -1252,7 +1355,9 @@ Está mal de la azotea. Está para que lo encierren
 Está muy emocionado.
 Está muy rico el pan de pico
 Está más claro que el agua
+Está más fresco que una lechuga
 Está más quemado que la moto de un jipi
+Está más sordo que una tapia
 Está más zumbado que las maracas de Machín
 Está obsesionado con el deporte: es adicto a ejercicio físico.
 Está relativamente bien.
@@ -1261,12 +1366,14 @@ Están entre nosotros
 Están todos en cajas, idiota. ¡ vienen mas grandes!
 Están todos muy afectados.
 Estás como una regadera, se te va la olla
+Estás en la bancarrota
 Estás lustroso y de buen año. Habrá que ponerse a dieta
 Estás un poco papanatas, pero me haces reír.
 Evitando acusar a los autores de estas violaciones
 Evite decir
 Exactamente quién soy y para qué estoy aquí
 Existen varios mitos sobre el mundo de la música
+Existen varios servidores de bases de datos en Internet
 Existen, no obstante, otros medios alternativos
 Existía la perspectiva de una fusión
 Exposición a infinidad de posturas y opiniones
@@ -1285,10 +1392,12 @@ Fue muy fácil. Llegar y besar el santo
 Fue suave, limpio, honesto, sin tacto e inconsistente.
 Fue un comportamiento limpio, honesto, sin tacto e inconsciente
 Fue un duro entrenamiento en el que mojaron la camiseta
+Fue un flechazo. Amor a primera vista
 Fue un otoño muy seco y cayeron solo cuatro gotas
 Fuera está lloviendo mucho.
 Fuerte como el viento. Salvaje como el viento. Libre como el viento.
 Fuimos al Museo del Prado para ver la exposición.
+Fuma, jode y bebe, que la vida es breve
 Fumaba como un carretero y vivió hasta los cien
 Fátima, se llamaba aquella moza que me rompió el corazón.
 Gallo que no canta, algo tiene en la garganta.
@@ -1312,6 +1421,7 @@ Gracias a la aparición de nuevas aplicaciones de comunicación
 Gracias por confiar en nosotros.
 Gracias por el paseo. ¡ cuidado!
 Gracias, Pedro.
+Gran Bretaña es la pérfida Albión
 Grijalba, vista desde el mar , recuerda esos paisajes de caserío inverosímil 
 Grijalba está en la costa, y hubiérale sido mejor continuar embarcado.
 Guadiaro aguarda el nombramiento de un nuevo obispo
@@ -1331,6 +1441,8 @@ Ha sido elegido. Debe ir .
 Ha sido registrado correctamente.
 Ha sido un accidente, chicos.
 Ha sido un año difícil para nosotros.
+Ha sido un proceso de construcción muy bonito
+Ha sido utilizado por elementos nocivos
 Habla alemán bastante bien.
 Habla poco, escucha más y no errarás.
 Habla, no cuando quieras, sino cuando puedas.
@@ -1339,6 +1451,7 @@ Habrá negociar mucho.
 Habrá querido dar la fiesta antes de la mudanza.
 Había bastante gente de nuestra edad del norte de los Pirineos
 Había que hacerse con la mayor cantidad de reservas posible
+Hace años que ya está muerta y enterrada
 Hace demasiado tiempo que no vamos al teatro.
 Hace días que duermo con la ventana abierta.
 Hace frío en el tren y la megafonía se siente muy mal.
@@ -1379,6 +1492,7 @@ Hay alerta por nevadas.
 Hay algo que nadie te explicará nunca.
 Hay canciones que nunca se olvidarán.
 Hay chocolate en la nevera y también turrón.
+Hay gente para todos los gustos
 Hay manzanas para merendar.
 Hay mucha más gente implicada en este caso.
 Hay muchos delincuentes en esa parte de la ciudad.
@@ -1387,12 +1501,17 @@ Hay más refranes que panes.
 Hay personas que creen ser moralmente superiores a los demás
 Hay que controlar el fluir de los acontecimientos
 Hay que controlar nuestros instrumentos de creación
+Hay que darle tiempo al tiempo y ver como acaba la cosa
+Hay que ganarse el pan con el sudor de la frente
 Hay que implementar mesas individuales también para zurdos.
+Hay que procurar preservar nuestra identidad
+Hay que saber esperar
 Hay que ser valientes y tomar el toro por los cuernos
 Hay que superar la idea de que comer carne todos los días es sano
 Hay que temer más a los vivos que a los muertos
 Hay que tener cuidado porque hay riesgo de deslizamientos.
 Hay que tener en cuenta los derechos del trabajador.
+Hay que tener más paciencia que el santo Job
 Hay que tomar tres piezas de fruta al día.
 Hay que trabajar duro, arremangarse y doblar el lomo
 Hay quien dice que viven hadas en esa arboleda.
@@ -1404,6 +1523,8 @@ Hay unos efectos secundarios que nadie había previsto:
 Hay veces que damos la mano, y nos cogen el brazo entero.
 Hay vigilancia. Necesitamos un modo de entrar .
 Haz bien y no mires a quien.
+Haz el amor, no la guerra
+Haz lo que yo diga, no lo que yo haga
 Haz promoción del apartamento y seguro que te lo alquilarán.
 Haz un esfuerzo por no llorar, ¡Olga!
 Haz una manifestación
@@ -1412,6 +1533,7 @@ He aquí las partes más sobresalientes del documento
 He aquí, pues, una nueva edición de Jicaras tristes.
 He cambiado mi láser de aturdir a matar.
 He comprado un escáner de bolígrafo.
+He estado enfermo y todavía me encuentro regulín regulán
 He estado una temporada sin ir a la misma
 He estado una temporada sin ir a la misma.
 He ido al médico dos veces este mes.
@@ -1425,6 +1547,8 @@ He perdido la cabeza, ¡qué bonita decepción!
 He perdido un calcetín.
 He señalado con un recuadro los aspectos que pueden ser más llamativos
 He sido aceptado en vuestra cultura.
+He tenido apoyo de la gente del sector
+He tenido mucho apoyo de la gente que me sigue
 He visto a Miguel haciendo cola en la taquilla para comprar el billete.
 He visto una nave especial. ¿ Tiene hiperpotencia?
 Hechos son amores y no buenas razones.
@@ -1433,6 +1557,7 @@ Hemos hecho una comida rápida; un par de bocadillos y una caña.
 Hemos quedado en la torre del reloj.
 Hemos reconstruido la casa en su versión original
 Hemos sudado mucho y nos merecemos una clara.
+Hermanos, pero no primos
 Hijos y hogar, son la única verdad.
 Hizo un arranque de caballo y una parada de burro.
 Hola, pequeña dama.
@@ -1443,13 +1568,17 @@ Hola, sobrino, ¿qué has hecho hoy?¿Fuiste al parque?
 Hola. Hola mundo.
 Hombre, las muñecas realmente deben morir por usted. ¿ Me puede enseñar a hacer eso? .
 Hombre prevenido vale por dos.
+Houston, tenemos un problema
 Hoy es el cumpleaños de mi hermana pequeña.
+Hoy es el primer día del resto de mi vida
 Hoy es miércoles.
 Hoy hay fiesta en el barrio
 Hoy hemos recogido naranjas del árbol dulces y amargas
 Hoy la pescadilla iba barato, pero las gambas eran carísimas.
 Hoy me toca ir a la radio
 Hoy no me puedo levantar.
+Hoy no se fía y mañana tampoco
+Hoy no se fía, mañana sí
 Hoy por ti, y mañana por mi.
 Hoy que no llevo paraguas seguro que llueve.
 Hoy salimos a pasear en bicicleta por la vía verde
@@ -1475,14 +1604,17 @@ Inicia la actualización del sistema actualizando los paquetes instalados.
 Insistió y se empeñó hasta llevarse el gato al agua
 Instagram es la aplicación más usada por los jóvenes.
 Intentaba recoger basura de la calle y venderlos, pero no lo conseguía.
+Intentar reducir la emisión de gases de efecto invernadero
 Intenté explicarle que eso estaba mal
 Intentó despistar a la poli pero ya iban pisándole los talones
 Internet es otra extensión del espacio público
 Internet es otra extensión más del espacio público
 Internet una herramienta importante.
 Introduzca el número secreto y siga las indicaciones de la pantalla.
+Invitó a todo Dios pero no vino ni el Tato
 Ir contracorriente no es de hombre prudente.
 Iremos a Lourdes con autocar.
+Iremos en el coche de San Fernando, a patita y andando
 Iremos juntos hacia Lleida.
 Irá de colonias a la Cerdanya.
 Iréis juntos a Santa Cruz.
@@ -1517,9 +1649,12 @@ Julia quiere estudiar ingeniería.
 Julia tiene ganas de celebrar algo, ¿ no?
 Junio ​​es el mejor mes del año.
 Justo cuando más la necesitaba, me dejó en la estacada
+Juventud, divino tesoro
 Jícaras Tristes es una recopilación de seis poemarios del poeta Alfredo Espino.
 Jódete, ¡alcaudón!
 La Concepción tiene anginas.
+La Historia la escriben los vencedores
+La Historia siempre se repite
 La Luna viene con nosotros, grande, redonda, pura.
 La Marina juega al bingo.
 La Matilde tiene halitosis, pero canta como los ángeles.
@@ -1554,13 +1689,17 @@ La capital de España, es Madrid.
 La catástrofe está a punto de pasar.
 La cena esta lista
 La cena ha sido cancelada.
+La censura de las grandes corporaciones condiciona como se crea la cultura
 La ciudadanía tiene un comportamiento pésimo en este aspecto.
 La codicia rompe el saco.
 La comarca de las Garrigues tiene un enclave en el Valle.
+La comida estaba mala y eché la pota
+La comprensión la aplica a los archivos de salida
 La conexión es inestable
 La construcción del camino está a punto de finalizar
 La convocatoria electoral los sorprendió haciendo el amor.
 La corrupción en su partido, hizo que perdiese votos.
+La creación cultural está condicionada por las grandes corporaciones
 La creación es, en realidad, un proceso colectivo.
 La crítica literaria es endogámica.
 La cuenta regresiva comenzará momentáneamente.
@@ -1613,6 +1752,7 @@ La jornada de hoy ha sido tranquila.
 La jungla es un lugar peligroso.
 La justicia ha archivado el caso.
 La lengua no tiene hueso, pero corta lo más grueso.
+La ley del embudo, lo ancho para mí y lo estrecho para ti
 La lingüística es una materia hecha de palabras.
 La lluvia en Sevilla es una pura maravilla
 La lluvia golpeaba el cristal en un compás permanente
@@ -1625,6 +1765,7 @@ La mayoría de las personas consideran un insulto
 La mayoría de los creadores no serían lo que son
 La miel tiene aroma de tomillo e hinojo.
 La mitocondria es la central de energía de la célula.
+La modificación de la obligación de servicio público
 La momia de mi jefe es una mala bestia
 La máxima velocidad es esta.
 La música de Bach relaja.
@@ -1644,6 +1785,7 @@ La paciencia es la madre de la ciencia.
 La palabra que busco no puedo decirla
 La parra y la higuera, verdean en primavera.
 La pasta tiene un sabor sospechoso.
+La patria es el último refugio de los cobardes
 La peli era un descojone. Se me saltaban las lágrimas de risa
 La película se me hizo más larga que un día sin pan
 La pintura neobarroca me pone a cien.
@@ -1655,6 +1797,7 @@ La playa me gusta más que la montaña.
 La plaza estaba muy concurrida
 La pleamar de hoy es a las cuatro de la tarde
 La pluma es la lengua del alma.
+La pobredumbre de nuestros representantes es nuestro reflejo
 La policía tardó cinco minutos en personarse.
 La política tiene mucho de escenografía y teatro
 La poética gástrica parte de un modelo teórico interdisciplinario.
@@ -1684,6 +1827,7 @@ La responsabilidad es una cualidad que no tienes.
 La reunión de concienciación sobre la corrosión del plástico...
 La ropa que guardaba en el baúl.
 La ropa sucia se lava en casa.
+La sala de montaje es la gran suavizadora
 La salud no está en el plato, sino en el zapato.
 La secretaria nueva está para mojar pan
 La serie ya se acaba.
@@ -1708,6 +1852,7 @@ La verdad era que no había tarta.
 La verdad es que sí me apetece despejarme un poco.
 La verdadera muerte es el olvido
 La vida es bella.
+La vida es una enfermedad mortal de transmisión sexual
 La vida está llena de nuevas experiencias cada día.
 La violencia machista que se produce en internet
 La violencia me tranquiliza.
@@ -1765,6 +1910,7 @@ Las piernas me pesan y eso se me ha hinchado mucho.
 Las políticas públicas son poco imaginativas.
 Las princesas Disney no llevan nunca corona.
 Las prisas nunca fueron buenas
+Las protestas sólo pueden describirse como un rotundo repudio
 Las prácticas contarán un cuarenta por ciento de la nota.
 Las recetas de la abuela empalaga.
 Las reglas de dominación que se dan en el mundo:
@@ -1777,6 +1923,7 @@ Le comió la oreja hasta que se la llevó al huerto
 Le concedieron el préstamo porque pensaban que era una persona solvente.
 Le daré una lección.
 Le dejó la novia y tenía una depre de caballo
+Le dieron más palos que a una estera
 Le dio tan buen consejo que no cayó en saco roto
 Le encanta el postureo y hacerlo todo de cara a la galería
 Le encantaba chinchar y hacer rabiar a su hermana pequeña
@@ -1788,10 +1935,14 @@ Le gusta ir en cueros como Dios la trajo al mundo
 Le gusta la chica de la falda de cuadros.
 Le gustaba machacarse y castigarse el cuerpo en el gimnasio
 Le gustaba más que a un tonto un lápiz
+Le gustaba más que a un tonto una tiza
 Le gustaba tomar el sol en pelota picada
 Le gustaban las películas bélicas.
 Le ha tocado la lotería y está dando palmas con las orejas
 Le habían engatusado bien, pobre niño.
+Le haré una oferta que no podrá rechazar
+Le imponen a estas localidades un servicio fragmentado de tren
+Le importa un comino
 Le interrogaron pero no dijo ni mu
 Le llegó la hora de la verdad
 Le pedí dinero y me dio con la puerta en las narices
@@ -1821,6 +1972,7 @@ Llegó a casa con una buena merluza y le cantaron las cuarenta
 Lleva siempre una toalla.
 Lleva toda la vida viviendo de la sopa boba
 Lleva unos pantalones muy ajustados, este chico.
+Llevaba unos pantalones más apretados que los tornillos de un submarino
 Llevan juntos desde los dieciséis años.
 Lllamaron a la policía porque hacían mucho ruido.
 Llover sobre mojado mil veces ha pasado.
@@ -1829,6 +1981,7 @@ Lo... Lo siento .
 Lo acabo en un pispás
 Lo bueno si breve, dos veces bueno y si malo, menos malo.
 Lo calculó a ojo de buen cubero
+Lo cierto es que es un dato que me parece que se queda corto
 Lo cortés no quita lo valiente.
 Lo de salir del suelo ha sido una idea genial.
 Lo dejó tan limpio que se podía comer en el suelo
@@ -1852,6 +2005,9 @@ Lo que nadie esperaba es que en plena bacanal de descargas
 Lo que no mata, engorda.
 Lo que no se empieza, no se acaba.
 Lo que no te mata te hace más fuerte y además engorda.
+Lo que no te mata te hace más fuerte, y además engorda
+Lo que no vale, se tira
+Lo que pasa en las Vegas, se queda en las Vegas
 Lo que poco cuesta poco se aprecia.
 Lo que uno no quiere el otro lo desea.
 Lo quiera o no, es un descendiente de los invasores
@@ -1870,12 +2026,14 @@ Lo tenía todo a mis pies
 Lo terminó en un santiamén
 Lo único que digo es
 Lo único que digo es que si quieren
+Loco, pero no tonto
 Logré una puntuación muy alta.
 Lorito guapo, lorito guapo, ¡ ja! ¡ ja! que gracioso es este loro Amelia
 Los Códigos Penales que no han sido escritos por el Tercer Reich
 Los Xiquets de Valls hacen unas actuaciones muy largas.
 Los agresores se identificaban mayormente como parte de la comunidad
 Los animales me cargan.
+Los antidisturbios cambiaron de táctica
 Los artistas de la plaza se manifestaron desnudos.
 Los autores tienen derechos sobre sus obras
 Los avances tecnológicos ponen eso del revés
@@ -1900,6 +2058,7 @@ Los detectives descubrieron huellas en la ventana.
 Los dibujos que los presos hacían en las paredes del castillo se conservan todos.
 Los disturbios fueron localizados aunque intensos
 Los dolores que debe soportar son terribles.
+Los dos transbordos obligatorios son una imposición nefasta
 Los duelos con pan son menos.
 Los días de verano son aburridos.
 Los encontraste. ¿ Dónde estaban?
@@ -1908,6 +2067,7 @@ Los estratos más difíciles son los externos.
 Los excursionistas se desorientaron y se les hizo de noche.
 Los finales de vacaciones me dan asco.
 Los gatos también son adorables.
+Los grandes exaltados defensores de la cultura, las tiendas
 Los humanos han llegado a la Luna de Valencia.
 Los humanos son mamíferos.
 Los hábitos de reparación del hurón son aburridos y previsibles.
@@ -1949,6 +2109,7 @@ Los sectores revolucionarios estaban cada día más motivados.
 Los siguientes capítulos harán pensar en ansias de poder.
 Los socialistas llevaban ordenador los plenos.
 Los soldados destruyeron el puente, la guerra ha terminado
+Los superventas no necesitan de las redes de intercambio
 Los tacos que salen de tu boquita de piñón son deliciosos, Marc.
 Los taxistas han cortado los accesos al aeropuerto de El Prat.
 Los taxistas mantienen la huelga indefinida.
@@ -1971,6 +2132,7 @@ Luego iré a la piscina. Ahora no tengo ganas.
 Luis subió a su casita del árbol
 Luz de láser intermitente.
 Machismo es cultura no género
+Madre no hay más que una
 Madre no hay más que una.
 Madrid, Barcelona, por fin vamos a ver el clásico
 Madruga y verás; trabaja y habrás.
@@ -1984,6 +2146,7 @@ Manolito ha comprado cuatro kilos de fruta.
 Manos que no dais que esperáis
 Mantener fuera del alcance de los niños.
 Manteniéndose una afluencia lenta pero constante de colonos
+Mantén cerca a tus amigos, pero aún más cerca a tus enemigos
 Manténgase detrás de la línea divisoria.
 Manuel, hijo, la distancia mas corta entre dos puntos, es la línea recta
 Mar se compró una Rumba para el apartamento.
@@ -2011,6 +2174,7 @@ Mañana hay huelga de trenes.
 Mañana iré a Madrid.
 Mañana iré al homeópata.
 Mañana me examino y estoy hecho un flan
+Mañana más, y mejor
 Mañana, legumbre cocida.
 Me aburro como una ostra, pero pronto haré vacaciones.
 Me alegro de que haya podido venir.
@@ -2018,6 +2182,7 @@ Me busca las cosquillas, pero no sabe que tengo mucha paciencia.
 Me casaré con él cuando los cerdos vuelen
 Me conozco esta casa como la palma de mi mano
 Me contó un chiste y me meé en las bragas
+Me costó sangre, sudor y lágrimas pero al final lo conseguí
 Me crucé con María en el centro comercial
 Me da mucha pena María.
 Me das lástima. Adiós .
@@ -2025,6 +2190,7 @@ Me duele la cabeza
 Me duele la espalda si estoy mucho tiempo sentado.
 Me encantan las velas aromáticas.
 Me encantaría aprobar esta asignatura.
+Me encuentro pichín pachán, no estoy bien pero tampoco estoy mal
 Me enteré porque me lo contó un pajarito
 Me gusta cuando haces el pino puente en el césped.
 Me gusta el menú de este restaurante
@@ -2037,6 +2203,13 @@ Me he de cambiar las gafas, ya no me clichés.
 Me he de comprar un móvil nuevo.
 Me he dejado las gafas de sol encima de la mesa del comedor.
 Me huele a chamusquina. Seguro que tiene truco
+Me importa tres pepinos
+Me importa un pimiento
+Me la refanfinfla lo que piensen de mí
+Me la sopla
+Me la suda, me la pela, me la bufa y me la trae floja
+Me la trae al fresco
+Me la trae al pairo
 Me lo comí a palo seco. Sin mantequilla ni hostias
 Me lo derramé porque me apetece.
 Me lo tapa.
@@ -2046,17 +2219,21 @@ Me parece que no cabe ahí.
 Me parece que no va a haber suficiente pan para la cena.
 Me parece que tenemos una plaga de mosquitos tigre.
 Me pidió el coche pero le dije que naranjas de la China
+Me resbala, no me importa lo más mínimo
+Me río por no llorar
 Me siento entre las estrellas
 Me subleva que me digan que hago faltas.
 Me toca ir a clases de computación sobre servidores en la nube
 Me toca trabajar en el turno de tarde.
 Me toma por el pito de un sereno y no hace ni caso
+Me trae sin cuidado lo que le pase
 Me trajeron la cuenta y tuve que aflojar la mosca
 Me vais a matar a disgustos
 Me voy a bailar hasta que el cuerpo aguante
 Me voy al bar a remojarme por dentro
 Me voy al tigre que me cago por la pata abajo
 Me voy enseguida.
+Mejor no digas nada que luego todo se sabe
 Mejor no menear el arroz aunque se pegue.
 Memoria selectiva para recordar lo bueno, prudencia lógica para no arruinar el presente.
 Memorizar contraseñas que cumplan los requisitos resulta una tarea titánica
@@ -2072,7 +2249,9 @@ Mi amigo es feminista
 Mi asistente virtual es mejor que tu.
 Mi camiseta es de color amarillo.
 Mi color favorito es el rosa
+Mi corazón palpita como una patata frita
 Mi gato tiene miedo hasta de su propia sombra.
+Mi gozo, en un pozo
 Mi hija ha hecho vegetariana.
 Mi nave ha aterrizado aquí por error.
 Mi nave ha impactado aquí por equivocación.
@@ -2108,6 +2287,7 @@ Mozilla es una fundación que busca la libertad en la web.
 Muchas gracias por su colaboración.
 Mucho miedo y poca vergüenza
 Mucho más a nosotras que no somos tangibles
+Mucho prometer y después si te he visto no me acuerdo
 Mucho te quiero perrito, pero pan poquito
 Muchos pocos hacen un mucho.
 Muerde mis labios. Sangre que brota.
@@ -2120,11 +2300,13 @@ Muy bien, lo haré.
 Muy bien, siguiente punto. Ah , sí .
 Muy bien. Vaya, apártate .
 Más allá de la luna hay estrellas.
+Más claro, agua
 Más fácil es la obra juzgar que en ella trabajar.
 Más grandes y fuertes también.
 Más moscas se cogen con miel que con hiel.
 Más sabe el diablo por viejo que por diablo.
 Más sabe el necio en su casa que el cuerdo en la ajena.
+Más se perdió en Cuba
 Más seguros en la cabina. Será idiota .
 Más te vale espabilar si no quieres arrepentirte luego.
 Más tonto que Raimundo que hizo una carrera solo y quedó segundo
@@ -2208,10 +2390,13 @@ Neus rechazó todos los honores.
 Ni el aire podremos respirar gratis.
 Ni el clamor desbordante de las malas pasiones.
 Ni el grito horripilante con que aúlla el deseo.
+Ni fu ni fa
 Ni la actualidad trepidante le distraía cuando leía poesía.
+Ni me va ni me viene
 Ni peros, ni peras
 Ni primavera sin golondrina, ni despensa sin harina.
 Ni puto caso. Como el que oye llover
+Ni siente ni padece
 Ni siquiera pienses en eso, vaquero. ¿ O sí , muchacho rudo?
 Ni siquiera puedo salir volando por la ventana.
 Ni siquiera puedo salir volando por una ventana.
@@ -2230,6 +2415,7 @@ No, fue un accidente , chicos. Vamos .
 No, no , esperad. Puedo explicarlo todo .
 No acostumbraba a beber y pilló una tajada como un piano
 No actives el altavoz, deja el móvil en modo vibración.
+No almacenan ningún tipo de información personal.
 No chatees con tu primo, ¡que ya nos conocemos!
 No conoces la identidad de quién la ejecutará ni por qué
 No conozco ninguna editorial que le quiera publicar los poemas.
@@ -2242,10 +2428,13 @@ No deberíamos darle la oportunidad.
 No deberíamos leer tanto.
 No del Pagano Monte la musa inspiradora.
 No denuncie a sus clientes
+No dice una verdad ni queriendo, miente más que habla
 No dijo ni esta boca es mía
 No enfurezcas al gancho. ¿ Qué hacéis? ¡ Basta, fanáticos!
+No envían la información de nuestras búsquedas a nadie
 No era mi intención.
 No es como éste.
+No es de mi incumbencia
 No es el único proyecto que tenemos entre manos.
 No es lo que pensáis, lo juro.
 No es momento para asustarse.
@@ -2290,8 +2479,11 @@ No hay ningún dato que lo confirme.
 No hay otra salida.
 No hay palabra mal dicha si no es mal entendida.
 No hay peor ciego que el que no quiere ver
+No hay que fiarse de él porque es más falso que Judas
 No hay que precipitarse y coger el rábano por las hojas
+No hay secreto mejor guardado que aquel que todos conocen
 No hay tiempo que perder.
+No hay victoria sin sufrimiento
 No he comido nada de pescado azul y ya se acaba la temporada.
 No he comprado verduras.
 No importa cuánto hayamos jugado con él.
@@ -2304,6 +2496,7 @@ No le gusta nada ir al centro de día.
 No le gustaba nada ir a ese tugurio de mala muerte
 No le preguntes que siempre se enrolla como una persiana
 No le veo en el camino de acceso. ¿ viste lo qué ocurrió?
+No les gustó la comida y se armó la de San Quintín
 No llegamos a tiempo al aeropuerto
 No llego a comprenderlo. Cerdo inculto .
 No llores, mañana haremos la suscripción a Netflix.
@@ -2352,6 +2545,7 @@ No puedo ayudarte. No puedo ayudar a nadie .
 No puedo venir porque tengo que acompañar a mi madre al médico.
 No puedo ver nada.
 No quedan servilletas.
+No quiere admitir que su tiempo se termina
 No quiero más sopas de sobre.
 No quiero que los dejen olvidados.
 No quiero saberme nada de este asunto. Yo me lavo las manos
@@ -2362,6 +2556,8 @@ No sabe resumir, sólo copia y pega.
 No sabemos por qué hoy no ha venido a trabajar.
 No sabemos qué regalarle.
 No sabrás como es hasta que no te pongas en sus zapatos
+No sabía de la misa la mitad
+No sabía hacer ni la O con un canuto
 No sabía que había que elegirlo ya.
 No sabía que ponerse, asi que se puso feliz.
 No se acaban de poner de acuerdo.
@@ -2386,6 +2582,7 @@ No solo de pan vive el hombre.
 No solo el Instituto y el científico se tomaron la historia en serio
 No solo el Instituto y un experto se tomaron la historia en serio
 No solo porque su nombre es estúpido
+No son visivilizadas las raras veces que acuden
 No soporto ver algo así
 No soy un guardián espacial. Sólo soy un juguete .
 No sé. ¿ cómo que no sabes?
@@ -2398,10 +2595,12 @@ No sé si se hace así pero yo lo pruebo a ver.
 No te andes por las ramas y ves directo al grano
 No te arrimes tanto y que corra el aire
 No te canses mucho en el trabajo. Yo no lo haré.
+No te digo nada, y te lo digo todo
 No te enfades que lo dije de coña
 No te enteraste de nada, ¿estás en Babia o qué?
 No te lo pienses tanto y ¡A vivir que son dos días!
 No te lo tomes tan a la tremenda que no iba en serio
+No te metas donde no te llaman
 No te quedes mirando y ven a arrimar el hombro
 No te rías cuando te riño o tendré que enviarte al rincón de pensar.
 No te vayas aún, ¡Juan!
@@ -2415,6 +2614,7 @@ No tengo dudas de ello
 No tengo estadísticas de cuantos de ellos puedan quedar en este mundo
 No tengo nada de hambre.
 No tengo ninguna prisa.
+No tenía carne ni sustancia, ni chicha ni limonada
 No tenía claro sus objetivos.
 No tenía memoria ni gracia interpretativa.
 No tenía ni idea de qué o quienes eran esos
@@ -2439,6 +2639,7 @@ Nos trató de perdularios.
 Nos vamos para casita que llueve
 Nosotros los juguetes podemos ver todo.
 Nosotros somos cuatro y si viene Juan seremos cinco.
+Nosotros éramos solo dos y ellos ciento y la madre
 Nuestra amistad jamás morirá
 Nuestra amistad nunca morirá.
 Nuestros objetivos no están en vulnerar
@@ -2448,14 +2649,19 @@ Nuestros objetivos no son ocupar
 Nueve, ocho , siete , seis...
 Nueve de cada diez lo recomiendan.
 Nunca comprendí tu aptitud
+Nunca digas 'De esta agua no beberé' ni este cura no es mi padre
 Nunca digas de este agua no beberé.
 Nunca encontró su media naranja y se quedó soltera
 Nunca escuchas. Siempre haces igual.
 Nunca llueve a gusto de todos.
 Nunca me gustaron demasiado las obras de Espronceda.
 Nunca nos ha fallado.
+Nunca tantos debieron tanto a tan pocos
 Nunca vi mayor afán, que muchos hijos y poco pan.
 Nuria fuma farias.
+O jugamos todos, o se rompe la baraja
+O se nace o se hace
+O todos moros, o todos cristianos
 Obras son amores y no buenas razones.
 Observando ambos grupos es fácil llegar a conclusiones
 Octubre nos regala sus rosas y vesperales.
@@ -2517,12 +2723,15 @@ Pan duro, pero seguro.
 Pan para hoy y hambre para mañana.
 Pan y vino andan camino, que no mozo garrido.
 Pan, uvas y queso, saben a beso.
+Para acabar la construcción sudaron la gota gorda
+Para acabar los estudios tuvo que sudar tinta
 Para atrás, todo el mundo.
 Para combatir el frío, hay que abrigarse.
 Para crear carpetas se debe utilizar el carácter antibarra
 Para el demiurgo, el universo sensible tiene la textura de una oblea muelle.
 Para eso nos han hecho.
 Para frenar esa situación las leyes fingen sólido lo que es gaseoso
+Para ganar el partido tuvieron que sudar la camiseta
 Para ganar, forzoso es trabajar.
 Para hacer bien el amor hay que venir al sur.
 Para la industria discográfica los huevos fritos con patatas son baratos
@@ -2536,19 +2745,25 @@ Para ser bueno en algo solo necesitas practicar.
 Para su madre será muy guapo pero Juanito es un feto malayo
 Para todo hay remedio, si no es para la muerte.
 Para un gestor discográfico los huevos fritos con patatas son baratos
+Para utilizar este servicio es necesario una dirección de correo
 Pararon el tren antes de que fuera demasiado tarde.
 Parece demasiado bueno para ser verdad. Aquí hay gato encerrado
 Parece mentira como se pudo hacer en tan poco tiempo.
 Parece que he sido aceptado en su cultura.
 Parece que la hija de la difunta excusó su previsible inasistencia
+Parece que ya somos treinta y siete millones de usuarias de internet
 Parecía poca cosa, pero menos da una piedra
 Parezca como parezca, estoy a favor del poder de los indios
 Parientes y trastos viejos, pocos y lejos.
 París bien vale una misa
+Pasaba más hambre que un maestro de escuela
 Pasan las horas y nadie ha hecho el gesto de lavar los platos.
 Pasaremos por Decatlon.
 Paseaban por la calle de la mano sin rumbo, sintiéndose cómplices
+Pasito a pasito se llega lejos
 Pasé mi láser de aturdir a matar.
+Pasé por una fase que hemos pasado muchas
+Patito se ha convertido de un tiempo a esta parte en una alternativa real
 Pau y María iban de la mano.
 Payaso, ¿ tienes cerebro ahí dentro?
 Pedro era un bailarín profesional.
@@ -2570,6 +2785,7 @@ Pero cambiar los hábitos de los holandeses más conservadores
 Pero ellos son caníbales. Los vimos comer a otros juguetes .
 Pero eso no hizo cambiar de opinión al senador
 Pero la edad de la criminal no importa
+Pero lo curioso no fué el error
 Pero me parece que los del año que viene ya nacieron.
 Pero mirate que bonito vestido.
 Pero necesito su ayuda.
@@ -2599,6 +2815,7 @@ Piensa mal y acertarás, aunque alguna vez te equivocarás.
 Pienso en las alternativas existentes a todos los programas
 Pienso que has tomado suficiente té por hoy.
 Pienso que solo soy molesto.
+Pito, pito, colorito, ¿dónde vas tú tan bonito?
 Poca hiel hace amarga mucha miel.
 Pocas personas saben tejer.
 Pocas veces esos dueños son los que un día crearon las obras
@@ -2619,6 +2836,7 @@ Por Santa Catalina, la nieve en la cocina.
 Por Todos los Santos, la nieve en los altos.
 Por beber agua limpia, bebe agua y bebe luz.
 Por beber como un cosaco, se agarró una buena merluza
+Por cuestiones cotidianas, literalmente, me fascinó
 Por el hilo se saca el ovillo.
 Por el humo se sabe donde está el fuego.
 Por el puente de la Purísima iremos a Finlandia.
@@ -2638,25 +2856,35 @@ Por lo sincero del documento se entiende la prisa de la entidad
 Por meterse donde no le llamaban se llevó un tortazo
 Por mucha rabia que produzcan
 Por muy sorprendente que os parezca
+Por no dar, no da ni la hora
 Por otro lado recordarle
 Por sorprendente que parezca
 Por supuesto, me gustaría verle como un cráter. ¡ sí!
 Por todo ello, al existir esa pérdida de calidad
+Por un caballo, se perdió una batalla
+Por un clavo se perdió una herradura
+Por un clavo, se perdió un reino
 Por un mal chiste un buen amigo perdiste.
 Por un oído te entra y por el otro te sale
 Por un perro que maté, mataperros me llamaron.
+Por una batalla, se perdió el Reino
+Por una herradura, se perdió un caballo
 Porque esta cama es mi sitio.
 Porque lo digo yo y sanseacabó
 Porque tienes un amigo en mí.
 Porque yo soy tu amigo fiel.
+Portan los chalecos amarillos de alta visibilidad
 Practicaba la narrativa en horas perdidas.
 Predicar con el ejemplo, es el mejor argumento.
 Prefiero el revuelto de gambas.
 Prefiero una botella de Font Vella que dos latas de Fanta.
+Preguntar no cuesta nada
+Presiento que éste es el comienzo de una hermosa amistad
 Pretendía ser juez y parte. Todo no puede ser
 Pretendía sorprendernos, pero al final pasó lo contrario.
 Primavera fría, cosecha tardía.
 Primero es la obligación que la devoción.
+Primero yo, luego yo, y después yo
 Probablemente pierdas tu empleo
 Producir imágenes fuera de los sistemas de intercambio
 Programamos un viaje diferente, fuera del turismo masificado
@@ -2667,11 +2895,13 @@ Protejo a la galaxia de la amenaza de invasión...
 Pude perder mis globos oculares...
 Puede que a los cantantes
 Puede que se trate solo de una mala negociación
+Puedes ampliar el rango de búsqueda utilizando otros buscadores
 Puedes ofrecer más recursos.
 Puedes sacarme de aquí.
 Puedo ver su voluntad es fuerte.
 Puedo volar por el cuarto con los ojos cerrados.
 Puerta abierta, vecino que entra.
+Pues a mí me daban dos
 Pues a mí, la película me gustó mucho.
 Pues ahora ya sabes, ajo y agua, a joderse y aguantarse
 Pues coge otro juguete. ¡ Baja ya!
@@ -2680,6 +2910,7 @@ Pues hasta mañana entonces. Id con cuidado.
 Pues yo, no me fío nada.
 Pulsar el icono de configuración
 Python como un legunaje de programación.
+Págame lo que me debes, y aquí paz y después gloria
 Que Marta no vaya a Cornellá no significa que tú no tengas que ir.
 Que cada palo aguante su vela.
 Que esto fué solamente una gran equivocación.
@@ -2696,6 +2927,7 @@ Que no me entere yo que ese culito pasa hambre
 Que no tenga que repetírtelo dos veces
 Que se alce el telón.
 Que se enteren de que no nos gusta sufrir la presión
+Que se ponen de moda los pantalones acampanados pues me los compro
 Que si no hiera un mar, bien sería otro cielo.
 Que sueñes con los angelitos.
 Que te afecte es malo.
@@ -2716,6 +2948,7 @@ Quien mal anda mal acaba.
 Quien mucho abarca, poco aprieta.
 Quien mucho habla, mucho yerra.
 Quien más tira, se lleva el gato al agua.
+Quien no comprende una mirada tampoco comprenderá una larga explicación
 Quien se pica ajos come.
 Quien siembra vientos recoge tempestades
 Quien tarde se levanta, todo el día trota.
@@ -2736,13 +2969,16 @@ Quiero un ordenador por Navidad.
 Quiero visitar un agregado con alcalde pedáneo.
 Quieto, para, no des un paso más
 Quino, hazme un cortado y un bocadillo de calamares con mayonesa.
+Quinto levanta, tira de la manta. Quinto levanta, tira del mantón
 Quisieron darle gato por liebre
 Quiso tomarle el pelo pero le salió el tiro por la culata
 Quitada la causa se quita el pecado.
 Quitar el palo al loco, no es hacer poco.
 Quizás no somos muchos, pero tenemos muchas ganas de trabajar.
 Quién soy y qué hago aquí...
+Quién te ha visto y quién te ve
 Qué, puedo soñar , ¿ no?
+Qué Dios nos pille confesados
 Qué aproveche y que por el culo lo eches
 Qué calor.
 Qué cochecito más moderno, ¿verdad?
@@ -2758,6 +2994,7 @@ Qué te cuesta
 Qué tempraneras ella y las palomas.
 Qué tos, ¿ya te tomaste el jarabe?
 Quédate con la copla que luego tendrás que hacerlo tu solo
+Quítate de en medio que la carne de burro no es transparente
 Raquel lleva una blusa de nailon.
 Ratón que no tiene más que un horado, pronto es cazado.
 Realmente eres hijo de tu padre.
@@ -2773,6 +3010,7 @@ Recuerde que en el planeta existen extrañas criaturas
 Recuperarse no será fácil.
 Recupero su compostura y dijo: esta vez no te lo perdono
 Recuérdame que te llame mañana
+Regalamos otra información por pura ignorancia
 Reggae, ¿dices que es?
 Reinicie el ordenador.
 Reserva plazas de parking por Internet.
@@ -2780,6 +3018,7 @@ Respondió en voz baja: duerme pequeña, duerme
 Resultó ser un regalo envenenado, un caballo de Troya
 Retrata también, en sus versos, el sufrimiento del campesino.
 Reunión de personal, chicos. Vamos .
+Revisar cada uno de nuestros actos de una manera constante
 Rezaba con tan honda devoción.
 Ricardo, a cubierta. ¡ vamos!
 Ricardo, estamos preparados , te escuchamos.
@@ -2803,6 +3042,8 @@ Rufo, acudía victorioso, moviendo su cola, lamiéndome las manos agradecido
 Rufo, mi perro, era feliz corriendo por la playa, yo lo llamaba…
 Ríos era un cómico fenomenal, ¡el mejor actor de la comarca!
 Sabe mas el diablo por viejo, que por diablo.
+Saben cual es su poder y así, ejercen la censura
+Sabes, seguro, si el concierto te va a gustar o no
 Sacarse el carné de conducir es una ruina.
 Saldremos de Barcelona por la C treinta y dos.
 Saldremos en barca, Eduardo.
@@ -2816,6 +3057,8 @@ Salta, salta, al final te darás una hostia.
 Salud y alegría, belleza cría.
 Salvador, ¡sube a la azotea y bájame las sábanas extra!
 San Juan trae el infierno, y San Andrés el invierno.
+Sana, sana, culito de rana. Si no sana hoy, sanará mañana
+Sana, sana, culito de rana. Si no te curas hoy, te curarás mañana
 Sandra, ¿bajas a la playa?
 Santa Rita, Rita, lo que se da ya no se quita
 Sargento, establezca un puesto de reconocimiento abajo. ¡ Código rojo!
@@ -2829,11 +3072,13 @@ Se casó de penalti, embarazada de tres meses
 Se comieron a esos juguetes.
 Se cree que es la reina de los mares
 Se creía muy listo pero le dieron gato por liebre
+Se daba muchos aires pero solo era una cantante de pacotilla
 Se defendió diciendo que estaba preocupado por los derechos de autor
 Se despatarró en el suelo todo lo largo que era
 Se detiene bruscamente y mira durante un instante con expresión de estupor.
 Se dice el pecado, pero no el pecador.
 Se durmió en los laureles y perdió el primer puesto
+Se elimina las relación directa entre Granada y Algeciras
 Se establecieron emigrantes en las fronteras orientales de la colonia
 Se estira y se encoge, como la tripa de Jorge
 Se están abriendo nuevos espacios de acogida, pero no son suficientes.
@@ -2842,6 +3087,7 @@ Se fue de farra hasta las tantas
 Se fue de la discoteca porque no le gustaba la música.
 Se fue hace horas, ya puedes echarle un galgo
 Se fue la luz, no queda energía.
+Se fue más contento que unas Pascuas
 Se fue por los cerros de Úbeda y no me enteré de nada
 Se fue sin decir ni pío
 Se ha averiado el coche.
@@ -2850,6 +3096,7 @@ Se ha dormido en el tren y se ha pasado de parada.
 Se ha metido de todo y va puesto hasta las trancas
 Se había metido dos gintonics y ya le patinaba la neurona; no sabe beber.
 Se hace así porque lo digo yo y punto pelota
+Se hace camino al andar
 Se hace tarde, se acaba el día.
 Se hacen llamar raperos, los primos de Torrelavit.
 Se han analizado más depuradoras que en el año anterior
@@ -2875,12 +3122,14 @@ Se necesita un lenguaje que condense todo el discurso
 Se necesitan dos años para aprender a hablar y sesenta para aprender a callar.
 Se nota que le gustas porque te está tirando los tejos
 Se notaba la felicidad en el ambiente.
+Se pasa el día echándose flores como si no tuviera abuela
 Se pasaba todo el día desnudo con la chorra al aire
 Se pasaban el día juntos, hacían muy buenas migas
 Se pegó una chufa con el coche
 Se pensaba que era necesario un incentivo para que los
 Se pensaba que las naranjas eran una fruta de verano.
 Se perdió por la montaña y tuvieron que llamar a los Mossos.
+Se pide que se abra un debate en torno al modelo ferroviario
 Se podía contar con él a las duras y a las maduras
 Se propuso por la comunidad internauta la destrucción del ordenador del senador
 Se publica una noticia que alerta de una vulnerabilidad en la red
@@ -2893,6 +3142,7 @@ Se realizó una denuncia para que se investigue si hubo acceso
 Se relaja pintando mandalas.
 Se sacó los estudios a trancas y barrancas pero lo consiguió
 Se toma su trabajo muy en serio.
+Se tomaba muchas libertades. Iba como Pedro por su casa
 Se tomaba muy a pecho su trabajo, era muy cumplidor
 Se trabaja mejor en grupos pequeños.
 Se transporte a la campiña salvadoreña, muy similar a la centroamericana.
@@ -2902,6 +3152,7 @@ Sea arduo y estés muy, muy lejos de tu dulce hogar...
 Sea conciliador.
 Seamos realistas y hagamos lo imposible.
 Seguid sin mí. Marchaos .
+Seguro es el posible retraso de la puesta en servicio de los mismos
 Seguro que él lo sabe porque está metido en el ajo
 Según las nuevas informaciones dadas a la prensa
 Según las propias palabras del simpático senador
@@ -2909,10 +3160,13 @@ Seis, cinco , cuatro , tres , dos , uno
 Sensibilizados es el nombre que reciben los que huyen espantados.
 Senterada está en Valle de Fosca.
 Septiembre o seca las fuentes o se lleva los puentes.
+Ser o no ser, esa es la cuestión
 Ser rico es muy aburrido
 Ser vegano o vegetariano son cosas distintas.
 Seremos cinco a comer, tres adultos y dos niños.
 Señores y señoras, bienvenidos a está nueva aventura.
+Si bebes para olvidar, paga antes de empezar
+Si bebes, no conduzcas
 Si cabe uno, caben dos
 Si compras las entradas anticipadas ahorras seis euros.
 Si creyese que puedo volar
@@ -2921,17 +3175,26 @@ Si dirige usted una empresa que cree afectada
 Si el ocio te causa tedio, el trabajo es buen remedio.
 Si el perro muerde a un ciclista, te pondrán una multa muy merecida.
 Si el pimentonero se acerca a tu casa, la nieve baja.
+Si el trabajo es salud, qué viva la enfermedad
+Si es robado, sabe mejor
 Si este año llueve, será un milagro.
 Si esto lo hiciera uno de cada cien fanáticos
 Si estás ejecutando Debian en una máquina virtual
 Si fuera en invierno aún. Pero ahora no importa.
 Si hay algún mensaje de error o advertencia relacionado con un repositorio de terceros
 Si la envidia fuera sarna, cuantos sarnosos habría.
+Si la montaña no va a Mahoma, Mahoma va a la montaña
+Si la montaña no viene a Mahoma, Mahoma irá a la montaña
 Si la vida te da limones, haz limonada
+Si lo sé, me quedo en casa
+Si lo sé, no vengo
 Si lo tienes que hacer de cualquier manera, mejor que no lo hagas.
+Si los fans descubren otros mejores, el superventa puede caer
 Si mando a la tropa, ¿ os calmaréis un poco?
 Si mando a las tropas, ¿ se van a calmar?
+Si me necesitas, silba
 Si me tocara la lotería, me compraría un coche.
+Si nace mudo, revienta. Menudo loro
 Si no conseguimos un trato habrá que entrar por la fuerza.
 Si no hablas, revientas
 Si no nos damos prisa, haremos salado.
@@ -2945,8 +3208,10 @@ Si queda uno solo, estoy a favor de hacerlo monarca
 Si queremos un mundo mejor, olvida el coche privado
 Si quieres con tu familia reñir, echa algo a repartir.
 Si quieres que algo salga bien, debes hacerlo tú mismo
+Si quieres que lo haga tendrás que dorarle la píldora
 Si quieres que te sea sincero, ese es más malo que el hambre.
 Si quieres que te siga el can, dale pan.
+Si quieres un amigo, cómprate un perro
 Si quieres vivir sano, madruga en el verano.
 Si se lo das será como echarle margaritas a los cerdos
 Si sigues mareando la perdiz, te van a dar las uvas
@@ -2956,6 +3221,8 @@ Si tenemos diciembres cuajados de luceros.
 Si tenemos octubres preñados de ilusiones.
 Si termino temprano, iré a mirar ropa.
 Si tuviera buena conectividad iría un poco más deprisa.
+Si tú me dices ven, lo dejo todo
+Si una cadena de tiendas no quiere vender tu libro
 Si usted quiere que sus hijos no sean señalados
 Si vale, pero no estoy de acuerdo con lo que dices
 Si vas a Nueva York te recomiendo que vayas a ver un musical.
@@ -2968,6 +3235,7 @@ Si yo quiero, podré volar
 Siempre andaba vestida de candor.
 Siempre está de viaje, es culo de mal asiento
 Siempre estás con la misma canción. Eres un cansino
+Siempre estás en medio, como el jueves
 Siempre has tenido la gracia en el culo
 Siempre hay un roto para un descosido.
 Siempre he querido hacerlo pero nunca me he atrevido.
@@ -2976,6 +3244,7 @@ Siempre he querido poner en órbita a un astronauta.
 Siempre le ha gustado mucho la cultura popular.
 Siempre llegamos tarde a todas partes por su culpa.
 Siempre me han fascinado las historias de marcianos.
+Siempre nos quedará París
 Siempre pagan justos por pecadores.
 Siempre pidiéndome dinero, ¿te crees que soy el Banco de España?
 Siempre quiere tener razón.
@@ -2984,16 +3253,24 @@ Siempre supe que el tiempo me daría la razón
 Siempre tiene tiempo para todo.
 Siempre tienes que dar la nota y ser el centro de atención
 Siempre trae malas noticias, es un pájaro de mal agüero
+Siempre tuvo las cosas muy claras y la cabeza bien amueblada
+Siendo debido su nombre a los chalecos de alta visibilidad
+Siendo la protesta un rotundo repudio al Presidente Macron
+Siendo la unidad de medida el kilobit por segundo
 Siento que alguien me está mirando ahora mismo.
 Sigue todo recto y te darás de morros con su casa
 Silencio de una perfección casi total
 Silencio sin palabras
 Silos natales vientos en sus ligeras alas
 Simpático congresista que en Julio presentó una propuesta de ley
+Sin dolor no hay recompensa
 Sin duda Alfredo Espino es un poeta cautivador.
+Sin querer comprender quien es el moribundo
 Sin solidaridad no somos nada.
+Sin sufrimiento no hay recompensa
 Sin tetas no hay paraíso
 Sin ti no lo habríamos conseguido.
+Sin un navegador así, cada vez que te conectas envías mensajes
 Sino porque eres un juguete.
 Situó la barca paralela a la dársena del puerto y atracó
 Sobre estas palabras, aunque con variaciones
@@ -3005,6 +3282,8 @@ Solo escribir la dirección del texto en ciertos lugares
 Solo necesitas pan
 Solo te invitaron para hacer bulto
 Solo tres provincias mejoran los porcentajes de conformidad
+Somos lo que comemos
+Somos lo que hacemos
 Somos tú y yo, muchacho.
 Son a los que se refiere cuando se lamenta de su infracción
 Son de plástico. No puede volar .
@@ -3026,6 +3305,7 @@ Su cambio, gracias.
 Su cantante favorito iba a hacer un concierto.
 Su cita es a las nueve de la mañana.
 Su comida favorita es la tortilla con cebolla.
+Su futuro era más negro que los cojones de un grillo
 Su hija se llamaba Selene.
 Su madre tuvo que tomar cartas en el asunto y poner paz
 Su padre hacía de camello y su madre de mula.
@@ -3037,6 +3317,7 @@ Su talón de Aquiles era el chocolate, no podía decir que no
 Su tío estaba montado en el dólar y vivía a todo trapo
 Subamos atrás. Ahí no nos verá nadie .
 Sucedió, pues, en aquel tiempo, una lluvia muy copiosa.
+Sudó sangre para terminarlo a tiempo
 Suegros, ricos y tacaños, no se mueren ni en cien años.
 Surgió ese tipo en su cohete
 Sus fiestas, sus amores, algunos acontecimientos cotidianos como una tarde en el pueblo.
@@ -3055,6 +3336,7 @@ Sólo había una casa habitada en todo el pueblo.
 Sólo nos falta la mitad, ¿verdad?
 Sólo nos queda el jaleo de una noche que no va a venir.
 Sólo nos queda el jaleo de una noche que no vendrá.
+Sólo puede quedar uno
 Sólo quería decirte eso.
 Sólo quiero hablar contigo un minuto.
 Sólo recuerda lo que tu viejo amigo dijo.
@@ -3064,6 +3346,8 @@ También hemos experimentado con lenguajes de programación para diseñar bots
 También son conocidos los casos de filtraciones
 Tantas cosas por hacer que no le llega la camisa al cuello
 Tantas mentiras acaban pasando factura.
+Tanto monta, monta tanto
+Tanto monta, monta tanto, Isabel como Fernando
 Tanto tienes, tanto vales.
 Tanto va el cántaro a la fuente que al fin se rompe.
 Tarragona y Girona no son nada provincianas.
@@ -3094,6 +3378,7 @@ Tendré que hacer varias paradas de metro para llegar a mi destino
 Tendré que realizar una de mis operaciones.
 Tendría que contentarse con dejar las cosas tal como estaban
 Tenemos dos ojos para ver mucho y una boca para hablar poco.
+Tenemos dos orejas y una boca para escuchar el doble de lo que hablamos
 Tenemos muchas ganas de veros.
 Tenemos que acabar el trabajo ya.
 Tenemos que aprender a pensar por nosotros mismos.
@@ -3132,6 +3417,7 @@ Tenía más peligro que un carro de bombas
 Tenía más peligro que un mono con pistola
 Tenía un coche cutre de segunda mano
 Tenía un concepto negativo de sí mismo.
+Tenía un novio más feo que el culo de una mona
 Tenía un vacío inmenso en la barriga y no era de hambre.
 Tenía un yerno informático y una joven ingeniera.
 Tenía una ricura de niño. Era un sol
@@ -3143,7 +3429,9 @@ Tiempo pasado siempre es deseado.
 Tiene cara de buena persona.
 Tiene menos carne que un telegrama
 Tiene muy mal beber y se pelea cuando se emborracha
+Tiene más cara que espalda
 Tiene más chismes que una navaja suiza.
+Tiene más cojones que el caballo de Espartero
 Tiene más hambre que el perro del afilador, que se comía las chispas
 Tiene más pluma que un palomo cojo
 Tiene más suerte que si fuera bueno
@@ -3151,28 +3439,35 @@ Tiene que haber otra salida.
 Tiene que haber un motivo porque nunca da puntadas sin hilo
 Tiene tanto miedo que no le llega la camisa al cuerpo
 Tiene tres perros y una gata.
+Tiene un problema de calidad y otro de cantidad
 Tienen un común denominador muy claro
 Tienen una caseta en Formentera.
 Tienes más moral que El Alcoyano
 Tienes que volver.
 Tienes razón, sólo estoy un poco deprimido.
+Tienes siete vidas como los gatos
 Tienes un chisporroteo sospechoso a la mirada.
 Tienes un morro que te lo pisas
 Tira la piedra y esconde la mano. Es un cobarde traidor
 Tita Cervera es la heredera moral de los Medici.
 Toca muy bien el clarinete.
+Toda la vida es sueño, y los sueños, sueños son
 Toda precaución es poca
 Todas esas pequeñas cosas que rodean la vida en el campo.
 Todas estas fórmulas que tienen en común la vida online
 Todas las anteriores ediciones de Jicaras tristes se agotaron.
+Todas somos creadoras
 Todo depende de la decisión del juez.
 Todo el mundo habla de dignidad, estos días.
 Todo era silencio, no se sentía ni un alma.
 Todo ese campo está lleno de pinos.
 Todo eso de que el derecho penal se basa en el principio de proporcionalidad
 Todo lo de esa tienda es de mírame y no me toques
+Todo queda en casa
+Todo queda en familia
 Todo sea por no reconocerlo
 Todos al salón. Es la hora de dar los regalos .
+Todos esos momentos se perderán en el tiempo como lágrimas en la lluvia
 Todos los ahorcados mueren empalmados
 Todos los cambios se han guardado
 Todos los caminos llevan Roma.
@@ -3182,16 +3477,20 @@ Todos los días me dejo el pellejo en el curro
 Todos los niños nacen artistas. El problema es cómo seguir siendo artistas al crecer.
 Todos los niños y niñas esperan el verano.
 Todos los papeles de envolver están arrugados.
+Todos los públicos es garantía de negocio
 Todos somos fuertes juntos.
 Tomaré leche con galletas.
 Tomas pregunto sobresaltado ¿es el arma del crimen?
+Tonto es el que hace tonterías
 Trabaja como si vivieres siempre y vive como si murieses hoy.
 Trabaja como un negro
 Trabaja en la Agencia Catalana del Agua, Iván.
 Trabaja menos que el sastre de Tarzán
+Trabaja más que una hormiga
 Trabaja para vivir y no vivas para trabajar.
 Trabajaba de sol a sol y echaba más horas que un reloj
 Trabajaba en la oficina del fiscal.
+Trabajaba más que un chino
 Trabajaba para un mandamás del gobierno
 Trabajar es virtud; pero trabaja tú.
 Trabajas menos que la chaqueta de un guardia.
@@ -3213,9 +3512,12 @@ Tus amigos van a llegar ya.
 Tus lágrimas de cocodrilo ya no engañan a nadie
 Tuvo que ir lejos, hasta donde Cristo perdió el gorro
 Tuvo una buena muerte, la espichó mientras dormía
+Táctica respaldada por decenas de vehículos blindados
 Tía Lucía se pasa todo el día compartiendo fotos antiguas en Facebook.
+Tú atiendes a Fulano y Mengano, y yo a Zutano y Perengano
 Tú decidiste subir a éste...
 Tú entras en el salón y me miras con tu sonrisa particular.
+Tú eres tú, yo soy yo, ¿quién es el más tonto de los dos?
 Tú lo que quieres es matarme a disgustos.
 Tú tenías razón.
 Tú, sin tregua como un ciclón, haces que mi cabeza dé vueltas
@@ -3234,12 +3536,15 @@ Un candidato demasiado joven no nos conviene.
 Un concurso literario es, siempre, una esperanza.
 Un dedo no hace mano, pero sí con sus hermanos.
 Un dibujo autografiado por Dalí puede valer muchos euros.
+Un día es un día
 Un edificio bien diseñado no debería tener estos problemas.
 Un entorno limpio y ordenado favorece la salud mental.
+Un favor de ese tipejo es como recibir el beso de Judas
 Un fracaso tan grande poco que nos lo imaginábamos.
 Un gran cuadro con un retrato al óleo de un capitán del ejército.
 Un grano no hace granero, pero ayuda al compañero.
 Un homenaje a Cabré era más que necesario.
+Un informe de Women, Action & Media visibiliza el acoso contra las mujeres
 Un minuto. Sólo prendí el cohete .
 Un momento, hay una pequeña por allí. ¡ hola!
 Un momento. Ser un juguete es mucho mejor que ser un guardián espacial .
@@ -3250,10 +3555,14 @@ Un parque como el de Terramar es un privilegio.
 Un poquito de por favor
 Un presupuesto tan ajustado nos arruinará.
 Un ratón se coló en mi casa el mes pasado.
+Un respeto a las canas que soy mayor que tú
 Un rincón como este no se encuentra todos los días.
 Un río entre verdores se pierde a mis espaldas.
+Un servicio impuesto poco ágil, propio de épocas pasadas
+Un superventa, por definición, es estéril
 Un sátiro, me pareció.
 Un técnico se pondrá en contacto con usted para solucionar el problema
+Un vaso de agua no se le niega a nadie
 Un vidrio roto, pisó.
 Una aceituna por San Juan, ciento por Navidad.
 Una borrasca se acerca por el Cantábrico y dejara fuertes precipitaciones
@@ -3275,6 +3584,7 @@ Una pantalla de marca buena nunca falla.
 Una retirada a tiempo es mejor que una derrota
 Una retirada a tiempo es una victoria.
 Una segunda visita te da la oportunidad de redención
+Una vez al año, no hace daño
 Una vez aprendida es una herramienta bastante sencilla en su uso diario:
 Una vez aprendida resulta una herramienta bastante sencilla en su uso diario
 Una vez más comencé por cagarme en la Introducción
@@ -3283,7 +3593,9 @@ Uno levanta la caza, y otro la mata.
 Unos decían nabos y los otros decían coles.
 Unos nacen con estrella y otros nacen estrellados.
 Unos tienen la fama y otros cardan la lana.
+Unos vienen y otros van
 Usa el vaso y no bebas a morro
+Usted no sabe con quién está hablando
 Uvas con queso saben a beso.
 Va a volar en pedazos dentro de unos minutos
 Va bastante bien con su cabeza.
@@ -3301,12 +3613,15 @@ Vamos, tenéis que creerme.
 Vamos, vamos. Los juguetes más pequeños delante .
 Vamos, vamos. Por aquí .
 Vamos. No incumplan en su trabajo .
+Vamos a contar mentiras, por el mar corren las liebres
+Vamos a contar mentiras, por el monte corren las sardinas
 Vamos a esquiar.
 Vamos a ir a visitar el parque zoológico
 Vamos a morir. Yo me largo .
 Vamos a morir. ¡ Me voy de aquí!
 Vamos a reunir el ganado.
 Vamos al bar a hacer unas birras
+Vamos, en marcha. Arreando, que es gerundio
 Vase la piedra de la honda y la palabra de la boca.
 Vaya, ¿ no es eso muérdago?
 Vaya par de tontos, entre los dos no hacen uno
@@ -3324,6 +3639,14 @@ Veo menos que un gato de escayola
 Veraneando, se va el tiempo volando.
 Verás, no ha sido nada.
 Verás que es nuestro destino.
+Vete a hacer gárgaras
+Vete a hacer puñetas
+Vete a la mierda
+Vete a la porra
+Vete a tomar por culo
+Vete a tomar por saco
+Vete al carajo
+Vete al cuerno
 Veía menos que Rompetechos
 Viajábamos apretados como sardinas en lata
 Viene el nirvana. El portal místico aguarda .
@@ -3337,11 +3660,13 @@ Vilma, no te vayas.
 Vilma, por favor.
 Vilma, puedes , claro que puedes confiar.
 Vimos la Estatua de la Libertad frente a la bahía de Hudson
+Vine, vi y vencí
 Virtudes vencen señales.
 Visite una tienda de móviles para renovar el que tengo
 Visto en perspectiva, tú y yo no nos deberíamos haber casado.
 Visto lo visto, ya no me interesa ni lo más mínimo
 Vive rodeado de gatos y perros que recoge de la calle.
+Vivir es sufrir
 Vivía en la cima del mundo, era el rey
 Vivía la gran vida
 Vivía la vida a tope
@@ -3406,6 +3731,7 @@ Ya no aguanto más. Esto es la gota que colma el vaso
 Ya no estoy para estos trotes
 Ya no volvió a asomarse al corredor.
 Ya pasado lo de atrás, lo de menos es lo demás.
+Ya puede empezar la función
 Ya que resulta extraño que no todos tengan algo incorrecto
 Ya que todos tienen algo incorrecto
 Ya sabe cómo. ¡ sí, señor!
@@ -3418,6 +3744,7 @@ Ya veo que te resistes.
 Ya voy, ya voy.
 Yo diría que pedo.
 Yo era feliz; el mundo sonreía brindándome amoroso su ternura; Y yo, pobre inexperta.
+Yo he visto cosas que vosotros no creeríais
 Yo levantaré el ranchito.
 Yo no le tocaría demasiado las narices que tiene muy mala hostia
 Yo no veo nada.
@@ -3427,6 +3754,7 @@ Yo quiero dos cortes.
 Yo soy quien debería estar atado a ese cohete.
 Yo también te quiero.
 Yucatán es una de las treinta y dos entidades federativas
+Zamora no se ganó en una hora
 Zapatero a tus zapatos.
 Zapatero, haz tus zapatos, y déjate de otros tratos.
 Zapatitos de charol, ni para el agua ni para el sol.
@@ -3439,6 +3767,7 @@ a ensayar, que no hay tiempo. todos los pasos .
 a esa gente a veinte metros de su barco?
 a espaldas del jacal hay un reñidero de gallos.
 a esperar? piti, ¿ y si no va ?
+a estas localidades se les impone un servicio de tren fragmentado
 a este Rayo y a este...
 a esto se acaba acostumbrando uno, ¿ vale? a este olor.
 a falta de perro, tenemos patito.
@@ -3490,6 +3819,7 @@ a ocultar digo. si quiere que nadie lo sepa .
 a otro sitio? porque si te dejo solo
 a partir de este momento
 a pesar de ello, se prefiere señalar como causa a la magia
+a pesar de ser una propuesta recurrente y hasta manida
 a pocos pasos dos marineros encorvados sobre la borda de estribor
 a por tu saco de dormir a tu camarote.
 a que me diga que no le importo.
@@ -3560,6 +3890,7 @@ ahora estoy hablando con usted.
 ahora hay que curarle la herida.
 ahora lo interesante es, cuando termine el plazo.
 ahora mismo. ¡ no, es una mentirosa!
+ahora mismo un terremoto está sacudiendo la sociedad francesa
 ahora no es el momento, ¿ vale?
 ahora no quiero hablar con ella.
 ahora puede serlo cualquiera
@@ -3608,9 +3939,12 @@ algo extraña resulta, con sus azoteas enchapadas de brillantes azulejos y sus l
 algo no va bien.
 alguna se lanza y se pone a desbarrar con la terminología
 alguna vez ha tenido que denunciar
+algunas personas hayan accedido a una versión descafeinada
 algunos descansan sentados en las rocas, con los pies en el agua:
+algunos pasaron por correo capturas de pantallas
 algunos pequeñuelos indios, casi desnudos , se disputaban mecerla.
 algunos pájaros de largas alas, que hacían nido en la junquera 
+algunos “infiltrados” me pasaron por correo capturas de pantallas
 algunos, además de derechos, hasta tienen discos editados
 algún tipo de arma biológica
 allá van, sin otro deseo que tocar cuanto antes la orilla.
@@ -3619,6 +3953,7 @@ allí estaba, reclinada en la borda:
 allí nos dejó solos, porque tenía que asistir al coro para rezar los maitines.
 amarillentos como figuras de cera, arrastraban sus chinelas entre el negro gentío 
 amarraremos un cabo al casco de proa a popa y colgaremos bidones
+ambos métodos verifican la integridad del archivo automáticamente
 amigos para las vacaciones, para las postales de Navidad
 anda, a ver si encuentras crema depilatoria.
 andele, luego , luego.
@@ -3644,6 +3979,8 @@ apenas había cerrado los ojos cuando el eco apagado de algunos escopetazos me s
 apenas lo advertí me detuve, y mandé detener a mi gente.
 apenas nuestras miradas se cruzaron comencé a perder.
 apenas si podía tenerme sobre la montura.
+aporta nuevos espacios desde los que hablar
+aporta nuevos medios en el uso del lenguaje escrito y visual
 apoyó la cabeza en mi hombro, y exclamó con un sollozo de pasión infinita:
 aprender a parecer un ser humano
 apropiación de los productos del intelecto como si fueran cosas tangibles
@@ -3673,6 +4010,7 @@ asuntos relacionados con la propiedad intelectual
 así como la evolución también
 así debía ser el viaje infernal de los antiguos en la barca de Carón:
 así navegamos mucho tiempo.
+así nos alejamos de la dañina definición del Genio
 así que habría que pagar para poder interpretarlas
 así se dificulta su capitalización económica
 así se dificulta su capitalización económica y produce una alianza directa
@@ -3876,6 +4214,7 @@ como mucho, Dios. joder .
 como no es posible renunciar a la patria, yo , español y caballero 
 como no le conoces, me explico tus celos.
 como penetrado de la queja que lanzaban en el silencio de la noche.
+como poco, será usada para ver qué tipo de publicidad te mandan
 como por arte de magia.
 como quedaría la estructura de carpetas con esta configuración
 como se hizo en una mesa redonda en Barcelona
@@ -3898,6 +4237,8 @@ como yo esté dispuesto, basta.
 compartimos algunos de los resultados
 compartimos procesos y saberes que hemos obtenido
 comprendí que la Niña Chole temía ser conocida de algún caminante
+compresión aplicada a los archivos de salida
+comprobar que no contiene puertas ocultas
 con Julia, te empieza a gustar la nueva?
 con Leonor. ¿ y Julia? ¿ ya no hay nada ?
 con alas o sin alas, como vengan.
@@ -3909,6 +4250,7 @@ con el hecho de que la violen
 con el inquilino y todo, o sea , con el feto quiero decir.
 con el nacimiento de tu hijo, empiezas a ser persona
 con el overo ya embridado asomó tras un ídolo gigantesco esculpido en piedra roja.
+con el riesgo de que algunas poblaciones queden sin servicio
 con el tiempo, lo de hoy ha sido una casualidad 
 con encarnizado vocerío viniéronse para mí, amenazándome con sus pistolas.
 con esa felicidad indefinible que da el poder amar a todas las mujeres.
@@ -3923,6 +4265,7 @@ con la convivencia y con lo que haga falta, Ramiro.
 con la lluvia, pero este ha salido con el sol
 con la pistola, no pensaba ni en mi padre ni en mi hermana...
 con la tormenta no pasa nada, que puedo mantener el rumbo.
+con la ventaja de que no serás rastreada por ellos
 con las clases de supervivencia, pero espero que el relato
 con las manos llenas de salitre.
 con las manos trémulas le calcé el espolín.
@@ -3964,12 +4307,14 @@ congratulándose por las cifras record obtenidas
 conmigo no va a estar, pero contigo tampoco.
 considerar como claramente repudiable.
 consiguiendo que les retirara su apoyo por miedo a problemas de seguridad
+consta de una barra de menú y varias barras de herramientas
 constituye una calidad de radiación que regatea todo discernimiento
 constituyen de facto nuestras realidades
 constituyentes de facto de nuestras realidades
 construiste una baliza de seguimiento a escondidas.
 contaba cada cual su dinero, y musitando airada y torvamente lo embolsaba.
 contenido y metadatos sin registrarse, anónimato
+contentar al tipo de las tijeras es, simplemente, un sueño imposible
 contigo estaba aprendiendo a recordarlo.
 continúa con su ya legendaria habilidad para las comparaciones
 contra un proyecto del que hasta ese momento no había noticias
@@ -3979,11 +4324,13 @@ convierten en propiedad privada algo que no se puede poseer.
 cornudo Consentido.
 corre, patito , que te quiere coger.
 corren ahora muchas torrenteras.
+corren el riesgo de bajar si sus fans descubren que hay otros mundos
 corres el riesgo de que no se invierta
 corten el cable trenzado.
 cosas que no conocemos...
 cosas que no se piensan, que se sienten.
 creación y difusión de discurso machistas
+creada para poner el foco en las otras realidades
 creadores crearan
 crecía el corro de jugadores.
 creo que es mucho mejor poco a poco
@@ -3998,6 +4345,7 @@ cruzó el rebocillo sobre el pecho y murmuró poniéndose encendida:
 créame, quien pueda pagarse un capellán , debe hacerlo 
 cuadra. cuarenta y cinco grados a babor . bien .
 cualquier usuaria de redes sociales comerciales
+cualquiera puede examinar su código
 cualquiera que éste fuera
 cuando arribamos a la playa, se levantaba una fresca ventolina , y el mar 
 cuando arribábamos a la playa en un esquife de la fragata
@@ -4053,6 +4401,7 @@ cuidado con la patita.
 cuya sociedad se ha construido sobre la superioridad del color
 da a los fabricantes control de elección del software que pueda ejecutarse
 da igual, hay que cumplirlo.
+dadas las múltiples características que lo definen
 dame esta noche, por favor.
 damos la vuelta.
 dan la murga vendiendo galletas de puerta en puerta
@@ -4068,6 +4417,8 @@ de Valeria me he ilusionado y le he propuesto ampliar la familia
 de Valeria sea que saquemos a su padre
 de acuerdo, descansa.
 de acuerdo. ¡ largamos cadena, vamos! ¡ a mi orden !
+de ahí la importancia de la práctica amateur
+de ahí la importancia de “tejer red” en la Red
 de aire, parece que vengan en manadas.
 de arreglar esa impresora.
 de arriba a bajo y de izquierda a derecha ;
@@ -4152,6 +4503,7 @@ decidió que entonar esas obras en los campamentos
 decidí asesorarme por expertos
 decidí intentar leer los libros que tengo en mi casa.
 declaramos desde aquí nuestra voluntad de continuar documentando
+declararon que no podían asegurar la seguridad del espacio
 declararon que se sentían consternados
 defiendan las tesis de esta asociación
 deja a mi hija en paz. lo que te jode es
@@ -4176,6 +4528,7 @@ del camarote de... de Leonor .
 del de cinco estrellas, joder. y ya se sabe que
 del desayuno.
 del mar oscuro y misterioso subían murmullos y aromas:
+del mismo modo que podemos cuestionar a la izquierda
 del nuevo mundo compartiendo camarote con cinco marineros?
 del puerto de Valencia.
 del todo indiferente a la variación, variaciones, o al cambio
@@ -4190,6 +4543,7 @@ derechos empresariales de unos y los de los ciudadanos a acceder a la cultura
 derribados gallardamente sobre las cejas aquellos jaranos castoreños entoquillados de plata, fanfarrones y marciales.
 des tu visto bueno
 desapareció a la muerte de mi padre.
+desarrollado en código abierto
 desbrozar algunas cosas, en el contexto de la relación
 descansé en un bohío levantado en medio de las ruinas
 descargaba música de Internet ataviada por el pasamontañas
@@ -4214,6 +4568,7 @@ desgraciadamente, ya quedan pocas almas así.
 deshecho entre legajos de un pleito.
 desiertos de cenizas y arenales sin fin que rodean el Infierno.
 despacio. despacio . tranquila, bonita .
+desprecian la privacidad y facilitan agendas de vigilancia masiva
 despreciar a los demás y no amarse a sí mismo.
 después, como un raptor de los tiempos heroicos , huyó lanzándome terribles denuestos.
 después, dejándome llevar de un impulso romántico , fuí a México.
@@ -4311,6 +4666,7 @@ el canon que te han recaudado llegue a su destino
 el canto igual y monótono de un grillo rompía el silencio.
 el capitán, con sombrero de palma y traje blanco , se paseaba en la toldilla:
 el capitán de los plateados, que halló aquí vuecencia.
+el codificador conserva más información de la onda de sonido
 el cojo, el cegato
 el comunicado que la empresa envía a los medios
 el corro se deshizo entre murmullos y comentos:
@@ -4322,8 +4678,10 @@ el dieciocho de septiembre.
 el diente. entonces
 el director del instituto me respondió
 el eco retozón de los cencerros acompañaba las apuestas y decires chalanescos
+el encaminamiento entre las usuarias no revela su identidad
 el enemigo a batir
 el escudo nobiliario de la fundadora todavía campeaba sobre el arco de la puerta.
+el espacio virtual no es sino una extensión del espacio público
 el espejo, al fondo.
 el esquife cabecea al costado de la fragata.
 el estribillo tal como es.
@@ -4344,6 +4702,7 @@ el indio hace señal de alejarse:
 el indio no se movió.
 el indio ya se recogía, como un gato montés , dispuesto a saltar sobre mí.
 el intercambio en las redes les beneficia económicamente.
+el interés por los videos juegos la llevó al feminismo
 el jardín estaba amurallado como una ciudadela.
 el jarocho hizo un grave ademán en muestra de asentimiento:
 el jarocho se incorporó, soltando la baraja con despecho:
@@ -4365,6 +4724,7 @@ el mozo las alzó sopesándolas, y el viejo le interrogó con la mirada:
 el mozo volcó sobre el zarape las bolsas, y empezó a contar.
 el mundo que creaste.
 el médano iluminado por la luna ;
+el negocio está en los productos para todos los públicos
 el negrazo musita apretando los labios elefancíacos:
 el negro cabello caíale suelto, el hipil jugaba sobre el clásico seno.
 el negro iba y venía con tácitas pisadas, regando el suelo alfombrado de yerba.
@@ -4383,6 +4743,7 @@ el pato ha defecado semillas vegetales.
 el pato va en rumbo nordeste.
 el perro había enmudecido, las voces se desvanecían.
 el pisito, Ricardo , el pisito con vistas.
+el poder económico transmite ideología en forma de publicidad
 el primero de estos límites se fijó en catorce años
 el principio de esta Divina y Sonora Resonancia conducente al vacío absoluto
 el problema no es de la industria
@@ -4390,6 +4751,7 @@ el problema o nunca mas, Ramiro.
 el problemático artículo mencionado aún está pendiente y esperando la definición exacta
 el profesor de supervivencia.
 el profesor de supervivencia soy yo.
+el programa se conectará automáticamente a uno de los servidores
 el proyecto incluye inicialmente trescientas sesenta y dos torres
 el proyecto pretende instalar inicialmente trescientas sesenta y dos torres
 el que aprovechó su tiempo libre para dar una lección
@@ -4401,7 +4763,9 @@ el recuerdo de la Niña Chole perseguíame con mariposeo ingrávido y terco.
 el resto de mi vida sola, en el barco.
 el resto de propiedades que son eternas
 el sinsonte agitóse dentro de su jaula y prorrumpió en gorjeos:
+el tamaño del archivo será también mayor
 el tapa --- caminos, señor.
+el tener que preocuparse de molestos riesgos legales
 el terral soplaba con furia, removiendo y aventando las arenas 
 el tiempo que haga falta.
 el vampiro llama parásitos a los mosquitos:
@@ -4434,6 +4798,7 @@ ella todavía gimió:
 ellas me miraron mostrando gran respeto, y disputáronse ofrecerme sus ánforas 
 embarqué en Londres, donde vivía emigrado desde la traición de Vergara 
 empecemos de cero, ¿ vale?
+empecé a ver que no se me trataba como a cualquier compañero
 empezaba la faena del baldeo.
 empezar de cero, ¿ eh? anda que...
 empezar de cero y cambiar las reglas
@@ -4459,6 +4824,7 @@ en el embarazo. este, en un mes , le damos de comer .
 en el fin del mundo es como regalarte la vida.
 en el fondo del mar.
 en el fondo oscuro del Oriente
+en el mejor de los casos, la usarán para la publicidad que te llega
 en el mismo momento salió la carta.
 en el neceser dices, ¿ no?
 en el otro rezaba medrosamente la Niña Chole.
@@ -4482,6 +4848,7 @@ en la pancarta pone bienvenidos.
 en la peli. es el Estrella .
 en la piscina y nadie se escandaliza por eso.
 en la popa del barco, con chalecos y linternas.
+en la sala de montaje se puede machacar cualquier película
 en la soledad del camarote edificaba mi espíritu con largas reflexiones
 en la sonda marca veintitrés metros. vamos a alargar toda la cadena
 en la supervivencia de la especie
@@ -4514,6 +4881,7 @@ en un centro comercial.
 en un estado de exaltación y furia
 en un mundo lleno de agua
 en un radio mayor.
+en un sistema que basa su supervivencia en la pasiva desinformación
 en un terremoto de nueve grados, que me sudan las manos 
 en una caja de seguridad anclada en la estructura.
 en una clasificación formal y vacía
@@ -4628,6 +4996,7 @@ es imposible que no conmuevan
 es imposible saber el punto exacto donde se encuentra esa isla.
 es incomparable a cualquiera del temario.
 es incompatible con el acceso a la cultura
+es interesante tirar de datos estadísticos
 es la Niña que nos envía, señor...
 es la educación recibida en el Seminario de Nobles.
 es la fantasía con que está labrado.
@@ -4658,6 +5027,7 @@ es muy probable que no seamos las primeras personas
 es muy raro, los patos comen de todo
 es muy vaporoso, muy suave , ¿ verdad?
 es normal confundirte con quien sea
+es normal que las niñas vean que eso no va con ellas.
 es para asegurar esto, las soldaduras.
 es para que no te equivoques. ¿ no tengo derecho a equivocarme?
 es por ello por lo que tras la lectura del artículo
@@ -4694,14 +5064,18 @@ es tan evidente que tenemos que estar juntos...
 es un antiguo barco faro como el nuestro
 es un buen sitio para quedarse, ¿ no te parece?
 es un caso evidente de comunicación pública
+es un dato cuantificado y quería partir de un hecho objetivo
 es un milagro.
 es un milagro. no, no ha sido un milagro 
 es un mosquito.
+es un movimiento de ciudadanos pocos estructurados y enfadados
 es un sistema que convierte al cuerpo humano en una red de banda ancha
 es una demostración de su falta de éxito en último término
 es una epidemia, vamos a morirnos todos.
 es una fiesta, pero creo que no es para nosotros.
 es una figura de ensueño pálida y suspirante
+es una herramienta de comunicación accesible e inclusiva
+es una herramienta de comunicación propositiva
 es una historia muy larga. he dicho que llames a tu hermana .
 es una idea.
 es una locura, no puede cortar los cables a boleo.
@@ -4772,6 +5146,7 @@ esta asociación es tan ultraprotectora
 esta cruzada que adoctrina y persigue a los que intercambian música
 esta es la hospedería, hermanos.
 esta es nuestra.
+esta herramienta crea sistemas alternativos
 esta historia me la contaba en tanto me servía.
 esta misma noche entrenamos, si hace falta.
 esta mujer es mía, y su deuda también.
@@ -4799,6 +5174,7 @@ estamos todos muy nerviosos.
 estamos vivos. eso significa que, en cualquier momento 
 estamos vivos. ha funcionado .
 estamos vivos y tenemos esperanza.
+estan publicadas desde hace varios meses en la Red de Descargas
 estando en el mismo barco que ella ha sido hacerla infeliz.
 estar caminando en la cuerda floja
 estar contigo, poder cuidarte y protegerte.
@@ -4848,6 +5224,7 @@ estoy viendo flamear los botes. tenemos rachas de hasta treinta y siete nudos .
 estuviste pillada de los dos.
 están a la altura de la mayoría de los escarabajos
 estás enojado conmigo porque antes he mirado a ése...
+estás mandando toda esa información a los distintos servidores
 estás seguro de que tu amigo está a punto de apuñalarte
 evite en la medida de lo posible comparaciones desafortunadas
 evite jugar a adivinar el fin del mundo
@@ -4885,6 +5262,7 @@ fué la respuesta un gesto ambiguo:
 fué una larga misa de difuntos.
 ganaba el jarocho, y los jinetes se alejaron:
 garanticen que el software solo se pueda cargar en el equipo de radio
+garantiza que la comunicación con muchos sitios web esté encriptada
 garantizarnos de una vez por todas, la ansiada privacidad
 garantía de una vez por todas, de la ansiada privacidad
 gasolina o papel para el culete.
@@ -4900,6 +5278,7 @@ gracias. no pasa nada .
 gracias de todos modos. chao .
 gracias por haber salvado a Ainhoa.
 gracias por salvarme la vida, gracias.
+gran parte del país sigue sacudida por una oleada de protestas
 grandes y extrañas flores temblaban sobre el terso cristal entre verdosas y repugnantes algas.
 gritéle, y mandó virar para recogerme.
 guiándonos por las hogueras, llegamos a un gran raso de yerba donde cabeceaban 
@@ -4915,6 +5294,7 @@ ha llegado la hora. vale, vamos .
 ha sido por ayudarte.
 ha sido un beso sin importancia. ya .
 ha sido un golpe de suerte.
+ha sido una evolución interesante y bonita
 ha sido una pesadilla, solo quedamos nosotros.
 haberse dejado llevar por las malas compañías
 habiendo quedado expuesto al alcance de todo el mundo
@@ -4926,6 +5306,7 @@ hablando se entiende la gente. gracias .
 hablase a gritos el español, el inglés , el chino.
 hablo en serio.
 hablándose a medida que se separan y lanzando gritos.
+habrá que pedir seguridad al sitio dónde se vaya a organizar el acto
 habría que fotografiar a los que compran en las mantas para
 habría que preguntarse cuánto les da si es que algo les da
 había cientos, había miles.
@@ -4944,10 +5325,14 @@ hacen que replantee mis propios dogmas y preconcepciones
 haciendo una cortesía versallesca y suspirando, respondí:
 haga el favor de bajarla.
 haga que se lleve a unos cuantos inocentes por delante
+hago lo que puedo para no entrar en conflicto con otras personas
 hala, a jugar.
 han creado una rutina
+han desafiado una campaña de seguridad sin precedentes
+han hecho uso de él algunas causas deplorables
 han pasado muchas horas.
 han sido las malas compañías
+has de usarlo para navegar sin dejar mensajes a los desconocidos
 hasta convertirse en ansia vaga de amor ideal y poético.
 hasta luego, chicos. hasta luego .
 hasta me parece que cerrando los ojos, el recuerdo se aviva y cobra relieve.
@@ -4957,28 +5342,34 @@ hasta que se arregle el magnetismo, el electromagnetismo...
 hasta quedarme sin voz.
 hay a gente a quien no le gusta por los atascos
 hay besos que remueven y hay besos que no...
+hay casos en que es mejor desactivar esta opción:
 hay cosas que no se deciden.
 hay cosas que no se pueden evitar
 hay de todo.
 hay en mi vida algo imperdonable.
 hay historias que no pueden ser y en la nuestra hemos sufrido mucho.
+hay otra información que ignoramos que estamos regalando
 hay pelos y sangre. han tenido atado a una persona .
 hay pocas cosas apropiadas en este barco.
 hay que aprovechar este racheado de popa.
 hay que arriar el trapo antes de que el vendaval rompa
 hay que asegurar estas hembrillas.
 hay que atar el saco a la red.
+hay que atraerlos con buenos y coordinados servicios de cercanías
 hay que bombear el barco y esperar.
 hay que estar seguro de lo que se dice
 hay que joderse.
 hay que mantener una vigilancia constante sobre el barco ruso.
 hay que mantenerse secos ;
 hay que operarla.
+hay que plantearse cuán arriesgado es su utilización
 hay que presentar muy bien todas las escotillas, los ojos de buey 
 hay que sajarlo y limpiar el pus.
+hay que ser conscientes de la posible vulnerabilidad
 hay que tapar todos los ojos de buey, menos ese 
 hay tres tipos de hombres: los que se lanzan sin complejos
 hay un hombre en el suelo. ¿ Gamboa?
+hay un montón de personas que han venido en mi contra
 hay una constante unificadora del destartalado mensaje
 haya sacado un nuevo disco
 haz lo que sea
@@ -5060,6 +5451,7 @@ igual te parece que llevamos poco tiempo
 igual vamos montados en una corriente submarina
 impaciente con su ondular de hombres y cabalgaduras.
 imperio de historia desconocida, sepultada para siempre con las momias de sus reyes 
+impone un modelo ferroviario de media distancia
 inclinóse el negrazo sondando con los ojos el abismo:
 incluido usted, Palomares.
 incluir mayúsculas, minúsculas, números y símbolos
@@ -5164,13 +5556,16 @@ la casa, mandada edificar por un virrey
 la cena, la ducha , en todas partes.
 la clase ha terminado, pueden marcharse.
 la clave se encuentra en el fenómeno programas basuras
+la conexión con el feminismo fue gracias a los videojuegos
 la corriente es demasiado fuerte.
 la criolla, entre asustada y divertida , se agarra a los crespos cabellos del gigante 
 la criolla estaba en el huerto tendida en una hamaca colgada de dos árboles.
 la criolla tenía el pañuelo sobre los ojos y suspiraba.
 la crueldad de la criolla me horrorizaba y me atraía:
+la cultura comercialmente rentable es aséptica
 la cárcel es esa cosa desagradable de los barrotes
 la de insultar y avisar de que puede que no estés de acuerdo contigo
+la denuncia realizada en la Policía para que se averigue si hubo acceso
 la desesperanza no entiende de religiones.
 la directiva ya la están aplicando en las legislaciones nacionales de los Estados miembros
 la discusión sobre su extensión temporal
@@ -5189,6 +5584,8 @@ la gente se va a poner nerviosa. que se preparen con los chalecos .
 la gran llama de la pasión, envolviéndonos toda temblorosa en su lengua dorada 
 la hermana abrió.
 la hermana donada nos guió a través de un claustro sombreado por oscuros naranjos.
+la ideología del consumo es la reina
+la imposición de dos puntos de trasbordo obligatorios
 la industria de la música ya se dio por muerta
 la industria discográfica interpuso contra sus hijos
 la información necesaria para acceder a cada uno de nuestros servicios
@@ -5208,22 +5605,28 @@ la mujer levantó los brazos al encontrarse con nosotros:
 la más leve sospecha nos podría costar la vida.
 la nada, un silencio absoluto.
 la naturaleza, lujuriosa y salvaje , aún palpitante del calor de la tarde 
+la necesidad de esta visibilización responde a mi convencimiento
+la necesidad de la visibilización responde al convencimiento
 la niña Chole reposaba con sueño cándido y feliz:
 la noche de nuestras bodas en el convento se me aparecía ya muy lejana
 la noche se avecina.
 la nueva no me gusta. Valeria, no digas eso 
+la nueva reordenación prevista con la inclusión de los trenes Avant
 la nueva versión estable de Debian
 la nueva versión estable se terminó
+la opción de base de datos en remoto resulta muy práctica
 la otra echada fieramente atrás, armada de una faca ancha y reluciente.
 la palabra suicidio, ¿ vale?
 la paliza de la otra noche fue solo un aviso.
 la paliza le ha causado un hematoma intracraneal.
 la perspectiva de una fusión no era descartable
 la prescripción, los derechos patrimoniales
+la presencia femenina en los videojuegos tiene dos problemas
 la propiedad intelectual es una ficción
 la propiedad intelectual ha sido siempre especialmente limitada por las leyes
 la propiedad intelectual que usa este mastodonte no son las más
 la propiedad intelectual tiene varios límites
+la protesta no logró arrollar a las fuerzas de seguridad
 la publicación de la identidad orientación sexual
 la que sale el chico con la silla de ruedas. ¿ la tuya?
 la que se pone con el escaparate al aire...
@@ -5232,6 +5635,7 @@ la radio es el gran problema de este país
 la rayita. si ella no empieza de cero
 la raza sajona es la más despreciable de la tierra.
 la realidad no se puede explicar por la existencia del fenómeno triunfal
+la reducción de emisiones de gases de efecto invernadero
 la responsabilidad del cumplimiento recaía en los usuarios
 la seguridad en nuestras comunicaciones ha ido mejorando
 la seguridad, la competencia leal, el medio ambiente y las iniciativas comunitarias solidarias
@@ -5260,9 +5664,11 @@ las carreteras públicas benefician a la libertad de circulación
 las cosas como son, pero no dramaticemos.
 las cosas no siempre son lo que parecen.
 las demandas demostraron ser lo que parecían ser
+las discográficas son el enemigo común a combatir
 las estrellas habían palidecido lentamente, y el azul del cielo iba tornándose casi blanco.
 las exploradoras pagan un canon anual para poder cantar en los campamentos.
 las fiebres, que van a venir.
+las grandes corporaciones minoristas deberían aparecer como coautoras
 las he encontrado en el bolsillo de tu chaqueta
 las historias tristes me recuerdan la mía.
 las hogueras, atormentadas por el huracán , se agitaban de improviso ó menguaban hasta desaparecer.
@@ -5279,10 +5685,15 @@ las ondas son olas longitudinales.
 las palmeras de Tuxtlan y Laguna...
 las placas y... por lo tanto la corteza terrestre ...
 las playas públicas benefician al ocio
+las pocas veces que están en este tipo de actos, no se les visiviliza
 las posibilidades que tenemos de sobrevivir son remotas
 las protestas de muchos internautas
 las puertas y las rendijas.
 las pupilas del mayordomo brillaron enfoscadas bajo las cejas grises:
+las redes dan a los músicos lo que los superventas ya tienen: publicidad.
+las redes de pares ponen en peligro el pensamiento cero
+las redes de pares son el enemigo número uno de las discográficas
+las redes de pares son las aliadas naturales de los músicos
 las revistas guarras y el amor no pegan. ¡ no pegan!
 las semillas que encontraste en las heces del pato
 las sienes parecían prolongarse inmensamente bajo la toca.
@@ -5353,6 +5764,7 @@ lo del puente de mando. a ver ...
 lo dije impulsivamente
 lo entiendo.
 lo entiendo perfectamente. ¿ sabe?
+lo fácil que es el sometimiento al mercado de consumo
 lo había alienado tanto como consumidor
 lo has entendido, ¿ verdad?
 lo he intentado de todas las maneras, pero me...
@@ -5411,6 +5823,7 @@ los conciertos casi se han duplicado en los últimos cinco años
 los cuadrados en el hueco de los cuadrados
 los curas siempre tiene algo que decir.
 los datos necesarios para acceder a cada uno de nuestros servicios
+los datos y ficheros que maneja están encriptados
 los de mi clase hicimos una obra de teatro.
 los decadentismos de la generación nueva no los he sentido jamás.
 los derechos de autor les otorgan la facultad de uso y abuso
@@ -5432,6 +5845,7 @@ los esclavos eran tan numerosos como los mismos colonos
 los españoles nos dividimos en dos grandes bandos:
 los estatutos de esta santa casa no pueden ir en contra de la Religión.
 los fantasmas no existen ni en este barco ni en otro sitio.
+los grandes poderes económicos fabrican la ideología y la transmiten
 los grupos de interés que aparecen a lo largo del texto
 los hay marcados con una flecha hacia abajo
 los hombres como yo todo lo perdonan.
@@ -5466,13 +5880,18 @@ los que escuchan música que no han comprado
 los que iban con ustedes en la balsa?
 los que no son productos mediáticos
 los que ya han completado la evolución del mono al ser humano
+los servicios de media distancia andaluces requieren de un debate
 los siervos respondían a coro.
 los sofisticados programas de intercambio en desarrollo
 los suizos siempre terminaban la tertulia con una canción
+los superventas son ideológicamente estériles
 los telépatas estaban en la lista negra de Teddy
 los telépatas no estarían cometiendo una ilegalidad
+los temas polémicos polarizan el mercado
 los tipos que transportaban el hielo en vigas
 los tres pasos para una cita perfecta.
+los usuarios a pesar de seguir en el anonimato dejan su rastro
+los videojuegos al final son un reflejo de esta sociedad
 los últimos meses de vida de toda una generación
 luego le llevo el pedido, ¿ vale?
 luego nos besamos y...
@@ -5482,6 +5901,7 @@ mandándolo a su dirección postal
 manos cubiertas de anillos, enanas y morenas , que yo hice prisioneras.
 manos del mar que se agarraban a la barca
 mantengan la mente fuera del miedo.
+mantiene la integridad y el secreto de la información que viaja por ella
 marchando la aceitunita.
 mayor escarnio.
 mañana al amanecer, si esta misma noche no puedo hacerlo.
@@ -5569,6 +5989,7 @@ me voy a zanjar lo de Gamboa.
 mediante un comunicado
 medio desnudas, desgreñadas , arrojando maldiciones sobre la multitud 
 meditó un instante, y luego , lento y tardío , murmuró:
+mejor hacer el proceso en dos pasos
 mejor les dejo solos.
 mejor que nosotros y les van a dar los postres.
 menos haberlas compartido con nadie
@@ -5604,6 +6025,7 @@ mis labios buscaron nuevamente aquellos labios crueles.
 mis manos, distraídas y paternales , comenzaron a desflorar sus senos.
 mis regalos de nuevo amigo.
 mis secretos son tus secretos.
+modelo basado en la eliminación de los servicios normales
 montamos, y en tropel atravesamos la ciudad.
 montamos y partimos.
 montero, no tiene alternativa.
@@ -5616,6 +6038,7 @@ muchas gracias, Gamboa.
 muchas gracias, Julia.
 muchas gracias. bienvenido .
 muchas gracias. de nada .
+muchos optan por grabar con la autocensura ya integrada
 muchos padres tuvieron que llegar en Inglaterra por las demandas
 muchos vuelven a dejarse llevar por el diablo
 muere en un sitio para renacer en otro
@@ -5628,6 +6051,7 @@ muy bien guardados, ¿ eh?
 muy buenas. hola .
 muy entretenida. porque a lo mejor hoy
 muy rico, muy rico , patito.
+más allá de la llegada de la Alta Velocidad
 más difícil cosa fué ganarlas en los tiempos antiguos de Hernán Cortés.
 más efectivos para recuperar clientela
 más seguro es cambiar nuestras contraseñas cada cierto tiempo
@@ -5746,6 +6170,7 @@ no es la mejor forma de afianzar la fidelidad
 no es nada.
 no es oro. es grande .
 no es porque sean unos rácanos
+no es tiempo de expulsar viajeros hacia otros modos de transporte
 no es verdad. se los han llevado los monstruos rana
 no escuchan música sino otra cosa que quizás se le parezca
 no estaban afectados. no bajaron a verla
@@ -5829,7 +6254,9 @@ no pasa nada. no, no se preocupe que yo tampoco
 no pienso manipular maquinaria pesada.
 no podemos estar juntos, Ulises 
 no podemos hacer milagros, pero puedo administrarle algo.
+no podrá ser rastreado su lugar de procedencia
 no podía ignorar cuánto cuesta acercarse a los altares de Venus Turbulenta.
+no podían asegurar la seguridad del espacio
 no poeta ni cantautores.
 no preciso nada.
 no pudieron estar suspendidas en el agua
@@ -5910,6 +6337,7 @@ no volvamos a cruzar la raya de lo personal.
 no voy a poner nuestras vidas en peligro.
 nos devuelve la siniestra imagen de nuestra presencia y de nuestra soledad
 nos embarcaremos para Grijalba:
+nos enseñaron que la imaginación y las ideas
 nos envía para decirle...
 nos estamos alejando de la tormenta.
 nos ha tocado el gordo.
@@ -5935,6 +6363,7 @@ nota el movimiento del barco.
 nota las olas.
 nuestra primera escala en aguas de México, fué San Juan de Tuxtlan.
 nuestras excusas para los más legos en vocabulario técnico
+nuestras vidas están cada vez más expuestas gracias a internet
 nuestro amigo nos ha copiado un casete
 nuestros caballos, extenuados por jornada tan penosa 
 nuestros caballos con las crines al viento, lanzaban relinchos de espanto y procuraban orientarse 
@@ -5958,12 +6387,14 @@ o parece que son buenas cuando no lo son.
 o por decirle a alguien.
 o por las malas. ya tienen lo que quieren, ¿ no?
 o porque creo que una mentira a tiempo
+o que algunas personas accedieran a una versión descafeinada
 o sea, que ahora mismo todo el barco sabe que mi padre
 o sea, que como eres amiga de Palomares 
 o sea, que lo alimente , que le saque de paseo.
 o sea, que quieres ser mi amigo por conveniencia.
 o seguimos al pato o seguimos vivos.
 obras musicales que serían recibidas por personas con idéntica habilidad
+observó que no se le trataba como a cualquier compañero
 ocho nudos, viento de popa...
 ocultaba cajas y protocolos mientras iba ganando la confianza
 ocupa el puesto de una de las asociaciones más odiadas
@@ -6078,6 +6509,8 @@ parecían fascinados como ella, por el látigo del general Diego Bermúdez.
 parecían sibilas de algún antiguo culto lúbrico y sangriento.
 parte de la corriente, sabes que Ramiro puede hacerlo.
 partiremos en estrella.
+parámetro permite configurar la cantidad de compresión
+pasa a dirigir sus propias películas para desarrollar su faceta de activista
 pasa por seguir rumbo suroeste.
 pasa un momento.
 pasan como sombras, envueltas en el misterio de un crepúsculo ideal.
@@ -6200,8 +6633,10 @@ pero ¿ no te parece que la mar huele hoy distinta?
 pero, la campaña del terror, no frenó
 perseguir a sus fans con un palo
 perspectiva sobre la inmigración en un punto muy concreto
+pertenecen a empresas privadas que guardan y usan esos datos
 pesan bastante. no pesan .
 picó un cigarro con las uñas, y se acercó:
+piden una respuesta argumentada
 pidió que la propiedad intelectual fuera
 piensa en nosotros.
 pinocho. es mi cuento preferido . es muy chulo .
@@ -6242,6 +6677,7 @@ pon caras raras
 pon un estribillo pegadizo
 poned los cables, ¿ vale? venga.
 poneos las mascarillas.
+poner en práctica estrategias y herramientas contra el machismo en
 poniéndome en contacto con el Instituto
 ponte guapo, por favor , por favor.
 por amor y por galantería, yo debo cometer uno igual...
@@ -6386,6 +6822,8 @@ puedes cambiar este envío
 puedes comprobar que tu música es completamente estéril
 puedes hacerlo tú mismo
 puedes pasearte por la calle en zancos
+puedes ser anonima dónde quiera que estés
+puedes verificar su integridad manualmente
 puedo arreglarlo. puedo arreglarlo .
 puedo darte un paracetamol o una pastilla para el mareo.
 pues a Valeria vas a tener que buscarla mejor
@@ -6430,6 +6868,7 @@ pupitres para sentarse y hacer los trabajos de manualidades.
 puso ambas manos en mis hombros y exclamó con fingida alegría:
 pálido y mudo vi cómo se la llevaba:
 que a veces parecen tontas cuando en realidad son genios.
+que ahora mola más estar paliducha pues viva el factor C
 que al verse en el espejo se deshizo en carcajadas de oro.
 que aprovechen, chicos.
 que aprueba cuanto hace su señor.
@@ -6455,6 +6894,7 @@ que dice que quiere dormir conmigo.
 que digan estar representando a todos los demás
 que discurrirán en paralelo
 que el corazón siempre dispuesto a perdonar, se conmovía.
+que el gigante comercial de turno se empeñe en no vender tu disco
 que el interés privado no aplaste al interés general
 que el pisito te lo montamos entre todos.
 que en los poemas indios resplandecen con el doble encanto sacerdotal y voluptuoso.
@@ -6469,6 +6909,7 @@ que eso se te da muy bien.
 que estas personas aprovechen sus poderes psíquicos
 que fue un accidente.
 que fue unánime la crítica negativa
+que ha silenciado muchas voces a lo largo de la historia
 que hace mucho que nadie me da la oportunidad
 que han aceptado como buena estrategia
 que igual ya no hace falta.
@@ -6525,6 +6966,7 @@ que puede que en el futuro la transmisión de datos sea como la telepatía
 que puedo cambiar.
 que sacan de la venta de magdalenas
 que salen llorando en televisión
+que se alejan así de la dañina definición del Genio
 que se arrastra por el casco. ¿ de verdad hay un fantasma en el barco?
 que se basan en despanzurrar animales
 que se colectiviza a través de una convocatoria pública más
@@ -6557,6 +6999,7 @@ que todo, todo en esta vida puede esperar , ¿ eh?
 que todo el mundo abandone la cubierta inmediatamente.
 que traería la piratería
 que tu hijo puede ser un criminal
+que una gran cadena de tiendas se niegue a vender tu disco
 que va a entrar Valeria y nos va a pillar.
 que vaya todo el mundo a su puesto. ¡ vamos!
 que viene Valeria, que viene Valeria.
@@ -6612,13 +7055,16 @@ resulta costosa de romper
 retirarme a descansar, hermana.
 retorciéndose las manos, pálida , casi trágica , se adelantaba exclamando:
 revisa el barco de arriba a abajo, hay que encontrarlo antes
+revisarnos a nosotras mismas de manera constante en cada acto
 revoloteaba en mi memoria, surgía entre la niebla de mis pensamientos , ingrávido , funambulesco , torturador.
 reía el horizonte bajo un hermoso sol.
 reía el vino en las copas, y la guitarra española , sultana de la fiesta 
 rostros negros y dientes blancos que las llamas iluminaban.
 rubias princesas y rubios príncipes tenían encantamento!...
 ráfagas venidas de las selvas vírgenes, tibias y acariciadoras como aliento de mujeres ardientes 
+sabe ante quién debe responder
 sabe bien quién se encuentra al otro lado de la trinchera
+sabe bien quiénes son sus clientes
 saben robar... no les impone el matar ... tienen discurso ...
 sabes que te han visto.
 sabías que tenías que desconfiar
@@ -6648,6 +7094,7 @@ se convierte en una inaprensible cualidad del ser
 se descubra la rata pobre que realmente eres
 se dispersaron.
 se divisaba el resplandor rojizo de la selva que ardía.
+se empeña en hacerle el boca a boca a una cultura en plena forma
 se fastidian. seguro . o no .
 se ha corrido la tinta un poco.
 se ha demostrado la conformidad de la combinación entre el equipo de radio
@@ -6667,6 +7114,7 @@ se mantiene en rachas de hasta treinta y cinco nudos.
 se metían bajo los toldos de lona, donde tocaban organillos dislocados.
 se miraron, y hablando a un tiempo empezaron el relato de la misma historia:
 se podrían intercambiar datos con un simple apretón de manos
+se ponen de moda los pitillo pues me apunto al carro
 se presentan como una buena alternativa para reinsertar
 se procedería a la destrucción de la máquina
 se pueden producir, modificar y redistribuir libremente
@@ -6681,6 +7129,7 @@ se te suben a la cabeza y te vuelven loca?
 se te va a enfriar.
 se trata de empoderarnos y diseñar juntas
 se trata de poner a resguardo cualquier objeto que pueda caer.
+se usan para representar un segundo de sonido
 se va a subir usted ahora mismo al palo mayor
 sean felices sin la mierda de tristeza que da la muerte.
 seguido de mi gente que se hablaba en voz baja comentando el suceso.
@@ -6804,15 +7253,19 @@ sin más concierto que el deparado por la ventura.
 sin nada de nada.
 sin otra escolta que algunos fieles caballerangos, nos tornamos a Veracruz.
 sin que me fallen las piernas.
+sin querer darse cuenta de que él es el moribundo
 sin usted... bueno, sin ti nunca lo hubiera conseguido .
 sino de la pérdida de unos valores morales
 sino por parte de conocidos, parejas o exparejas
 sino por que las plataformas privadas se hagan responsables
 sino porque quieren que lo cates
+sino que el tener que hacer dos discos diferentes
 sino que hacen referencia y transcriben todos aquellos
 sino que solo están previstos para esos pocos
 sino que tu fiesta de cumpleaños podría valer
 sintiendo que el sueño me volvía, cerré la ventana.
+sirve como filtro a la hora de componer
+sirve como un medio de amplificar el descontento de los usuarios
 siéntate, Brión... ¿ qué tropa era esa?
 siéntense: es menester que esta dama cobre ánimos.
 sobre el dormido cristal de esmeralda, la fragata dejaba una estela de bullentes rizos.
@@ -6851,6 +7304,8 @@ sombra romántica que evoca un pasado feudal que allí no hubo
 somos conscientes de que debemos seguir investigando.
 somos el tontito del chicle y el lumbreras.
 somos los Cantinflas del amor, macho.
+somos nosotros quienes hacemos flaco favor a nuestra privacidad
+son actos políticos visibilizarnos y viralizar nuestra producción
 son amarillas.
 son conscientes de la dureza con la que suelen calificar
 son documentos falsos, ¿ verdad?
@@ -6860,11 +7315,15 @@ son las gafas verdes que estaban en el barco fantasma.
 son las mismas pastillas que le dieron a tu mujer
 son las mismas pastillas que le dieron a tu mujer.
 son los conquistadores del oro.
+son los que más hacen para enjaularla
+son los que más hacen para recortarla
 son majos, solo tenemos que esperar.
+son media distancia por vía de alta velocidad
 son otros ejemplos de violencia que sufren mujeres
 son peligrosos. su picadura puede ser mortal .
 son pepitas de kiwi. ¿ kiwi?
 son tan alocadas y expansivas que no hay ciudadano que se libre
+son trenes de media distancia por vía de alta velocidad
 sonaban las esquilas con ingrávido campanilleo, ardían en las fogatas haces de olorosos rastrojos 
 sonata de estío de Ramón María del Valle-Inclán.
 sonreí incrédulamente, y ella , arrancándose de mis brazos , huyó al fondo de la celda.
@@ -6876,8 +7335,10 @@ soy sacerdote, no marino.
 soy un completo gilipollas.
 soy un traidor.
 soy yo, oficial , que estoy rezando. ya llevo dos rosarios y medio .
+su función consiste en borrar huellas
 su lealtad era legendaria.
 su picadura puede ser mortal.
+su uso puede encender el piloto rojo
 su voz de siervo parecióme llena de ironía:
 su voz era lastimera, resignada , llena de penas:
 su voz era queda, salmodiada y dulce , voz de sacerdotisa y de princesa.
@@ -6970,6 +7431,7 @@ tened cuidado, ¿ eh , chicos?
 tenemos en cuenta que no hay fórmulas mágicas
 tenemos la responsabilidad de crear nuestros valores culturales
 tenemos que denunciar, sacarles fotos a los que colaboran con la piratería
+tenemos que tomar conciencia de nuestra vulnerabilidad
 tenemos suficientes medicinas a bordo para controlar el brote.
 tenemos todo el tiempo del mundo, ¿ no?
 tenemos un pato mareado que no sabe volver a casa
@@ -6977,6 +7439,7 @@ tenemos un plan.
 tenemos un plan y lo vamos a cumplir.
 tenemos una emergencia.
 tener al menos ocho carácteres
+tener que hacer dos discos distintos
 tengo el propósito de secuestrarla a usted apenas nos hallemos en despoblado.
 tengo evidencias de que ese pato viene de tierra.
 tengo la corazonada de que...
@@ -7000,6 +7463,7 @@ tenía las manos en cruz, y envuelto a los dedos amoratados el rosario.
 tenía las niñas de los ojos pequeñas, tenaces y brillantes 
 tenía los ojos fieros y una mano cercenada.
 tenía su sonrisa y su mirar.
+tenía una mentalidad tóxica que le hacía olvidar todo
 tenían envidia de mis manos que todo lo sabían...
 tenían parche en el ojo y un loro en el hombro
 teoría que defienden los que reciben sus rentas de manos visibles y bien visibles
@@ -7033,6 +7497,7 @@ tocas el tambor y sin que la policía te detenga
 toda la escolta me siguió.
 todas las miradas quedaron inmóviles sobre la mano del jarocho.
 todas lo hacen, todas.
+todas tenemos voz y podemos tener acceso a las herramientas
 todavía a larga distancia vese una diminuta figura moverse agitando los brazos
 todavía desde la puerta me envió una sonrisa.
 todavía hoy, después de haber pecado tanto , tengo las mañanas triunfantes 
@@ -7059,6 +7524,7 @@ todos sabemos que has estado mucho tiempo aislado en un barco.
 todos son asquerosamente ricos
 todos tienen un común denominador muy evidente
 toma, te la regalo.
+tomaba acta notarial de las declaraciones publicadas
 tomaremos el sol a pecho descubierto.
 tomen medidas contra las agresiones machistas
 tornaba en esto el caballerango, y quedóse a distancia esperando silencioso y humilde.
@@ -7084,6 +7550,7 @@ tuve horror a morir apuñalado, y de pronto me sentí fuerte y valeroso.
 tú debías tenerlos...
 tú eres un hombre.
 tú me contarás lo que falta cuando dejemos de querernos, si llega ese día.
+tú ya sabes si su concierto te va a gustar o no
 um, colonia , ¿ eh?
 un acceso no autorizado y que se depuren responsabilidades
 un asunto de vida o muerte
@@ -7095,6 +7562,7 @@ un indio adolescente me sirvió de guía.
 un indio ensabanado se me acerca:
 un jarocho tenía dos potricas blancas.
 un león que a la muerte de su padre decide exiliarse
+un movimiento de ciudadanos enfadados y poco estructurados
 un negro colosal, con el traje de tela chorreando agua 
 un pecado del que sólo puede absolverme Nuestro Santo Padre.
 un pequeño león queda solo a la muerte de su padre
@@ -7108,6 +7576,7 @@ un río silencioso y dormido, de aguas blanquecinas como la leche
 un tiempo fuí amado de las mujeres, sus voces me eran familiares:
 un tramo de los cuales estará formado por dos líneas de alta tensión
 un tropel de jinetes estaba delante de la puerta.
+un verdadero terremoto está sacudiendo la política
 un vino de España.
 una, dos , tres.
 una bala, señor.
@@ -7953,6 +8422,8 @@ yo ya no puedo estar contigo.
 ¡ yo pagaré! ¡ yo pagaré !
 ¡ Él tortura juguetes, sólo por diversión!
 ¡A buenas horas, mangas verdes!
+¡A mí, plin! Me importa un bledo
+¡Al agua, patos!
 ¡Ancha es Castilla!
 ¡Antonio, ven, corre!
 ¡Apaga la televisión!
@@ -7969,6 +8440,7 @@ yo ya no puedo estar contigo.
 ¡Dos alas!... ¡Quién tuviera dos alas para el vuelo!
 ¡El sábado iré a Valls!
 ¡Elías ha ganado un premio!
+¡En la cabeza no, que estoy estudiando!
 ¡En mala hora se lo contaste! Ahora ya lo sabe todo quisqui
 ¡Eres el mejor!
 ¡Eres mi salvador, Bernardo!
@@ -8005,6 +8477,7 @@ yo ya no puedo estar contigo.
 ¡No se oye!
 ¡No tendremos tanta suerte, Ferran!
 ¡Oh jamás lo hubiera pensado!
+¡Ostras, Pedrín! Esto sabe mejor que el sudor de Dios
 ¡Para! ¡Para! A dónde vas, alma de cántaro, así no
 ¡Pasaremos unos días en el balneario, Marta!
 ¡Pero que barbaridad, como has crecido!
@@ -8016,6 +8489,7 @@ yo ya no puedo estar contigo.
 ¡Qué bien! El mensajero ha llegado a casa con mi regalo
 ¡Qué contenido tan chapucero que hay en la revista de la escuela!
 ¡Qué dolor de cabeza que tengo!
+¡Qué empiece el espectáculo!
 ¡Qué encanto el de la vida!
 ¡Qué fresco que hace!
 ¡Qué gracia que me haces Mercedes!
@@ -8029,8 +8503,10 @@ yo ya no puedo estar contigo.
 ¡Qué palo de anuncios que pasan en el cine!
 ¡Qué pequeños los hombres!
 ¡Qué pereza!
+¡Qué poco dura la alegría en casa del pobre!
 ¡Qué pérdida de interés tan grande, Manolo!
 ¡Qué suerte! las rebajas han empezado ¿todavía te queda dinero?
+¡Qué te den morcilla!
 ¡Qué viajes que hace el rubio!
 ¡Recoge todo lo que has esparcido, Ernesto!
 ¡Sed alegres y mentirosos!
@@ -8040,7 +8516,9 @@ yo ya no puedo estar contigo.
 ¡Un queso tan agujereado es una estafa!
 ¡Un reto como éste no está al alcance de Isabel!
 ¡Vamos! que si se puede.
+¡Vaya fauna! ¿Es qué ha llegado el circo a la ciudad?
 ¡Vivan los novios!
+¡Vivir para ver!
 ¡Y una polla como una olla!
 ¡Yo quiero palomitas y una botella de agua!
 ¡si! ¡si! estamos aquí por el pueblo y para el pueblo
@@ -8434,6 +8912,7 @@ yo ya no puedo estar contigo.
 ¿Es que nadie va a hacer nada?
 ¿Es que piensan que no cuesta esfuerzo?
 ¿Esto es todo?
+¿Estudias o trabajas?
 ¿Ganan mucho los cantantes por la venta de sus discos?
 ¿Hacemos una horchata?
 ¿Has estado en San Miguel de Olerdola?
@@ -8457,6 +8936,7 @@ yo ya no puedo estar contigo.
 ¿No querías caldo? ¡Pues toma tres tazas!
 ¿Os gusta el pescado azul?
 ¿Os gusta la miel de azahar?
+¿Pero realmente alguien no ve que somos plastilina ante los mass media?
 ¿Piensan que los fantasmas no tienen otra cosa mejor que hacer?
 ¿Playa o montaña?
 ¿Podemos cerrar la calefacción?
@@ -8507,14 +8987,18 @@ yo ya no puedo estar contigo.
 ¿Son pareja?
 ¿Te gustan todas?
 ¿Te han robado la bicicleta?
+¿Te has caído? tranquilo que del suelo no pasas
 ¿Te importaría acercarte al supermercado a comprar?
+¿Te lo has encontrado? Alguien lo habrá perdido
 ¿Te parece bien la ubicación del proyecto?
 ¿Te piensas que devolveré el importe de la deuda?
 ¿Tenemos suficiente comida en la nevera?
 ¿Tiene alguna alergia?
 ¿Tiene cerveza sin alcohol?
+¿Tienes hambre? Pues come mierda que ya eres grande
 ¿Tienes las llaves?
 ¿Trabajas en la industria del cine?
+¿Trabajas para vivir o vives para trabajar?
 ¿Ustedes son aquellos chicos tan alegres y divertidos?
 ¿Vamos a hacer una cerveza bien fresquita?
 ¿Vamos a la playa?
@@ -8530,6 +9014,7 @@ yo ya no puedo estar contigo.
 ¿al negocio de los que intermedian?
 ¿asesinan a la música a los pocos melómanos que aún la respetan?
 ¿cuánto dinero ganan los cantantes por la venta de sus discos?
+¿cómo actuamos con las personas alienadas de cara al público?
 ¿hay alguna forma de detectar que se está cometiendo esta infracción?
 ¿incentiva su creación o la asfixia?
 ¿podemos vernos mañana un ratito y hablamos sobre esto?
@@ -8538,6 +9023,7 @@ yo ya no puedo estar contigo.
 ¿pueden dos personas con poderes telepáticos transmitirse la letra de una canción?
 ¿que mover mesas y hacer levitar sillas?
 ¿se puede tratar solo de una mala negociación?
+África empieza en los Pirineos
 Él dice que no fue un accidente.
 Él es mío, y nadie me lo quitará.
 Él ha sido elegido. Él debe ir .
