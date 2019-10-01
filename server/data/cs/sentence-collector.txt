@@ -270,6 +270,7 @@ Co s nima děláte?
 Co s tím teď naděláme?
 Co se jí stalo s rukama?
 Co se kurva děje?
+Co se tam stalo?
 Co se tedy budete muset všechno naučit?
 Co se však oženil, zkrotl jak beránek.
 Co si o tom myslíte vy?
@@ -592,6 +593,7 @@ Jo, mimochodem.
 Jo, upír.
 Jo, člověče.
 Jo?
+Jsem hrdý na náš tým.
 Jsem ochoten vám dokonce pomoct, jak jen to bude v mé moci.
 Jsem se chtěl zeptat, že by jsme se naobědvali nějak společně.
 Jsem zavřený v továrně Mozilly a jsem velmi hladový. Prosím, pusťte mě ven.
@@ -1139,6 +1141,7 @@ No, třeba pohádku o psím ocásku.
 No?
 Noci začaly být čilé a rána velice ospalá.
 Noor je perioda kovu a cesty.
+Nosím brýle i kontaktní čočky.
 Nu, co to?
 Nu, půjdu.
 Nuž nyní má je.
@@ -1650,6 +1653,7 @@ Svět je pro vás matoucí.
 Svět je pro vás složitý, nepochopitelný a neovladatelný.
 Světlo mě vede tunelem!
 Syn ještě chvíli pobyl a čekal.
+Systém zcela selhal.
 Sáhl tam po dveřích.
 Sám jsem tam přidal svůj domeček.
 Sám jsem to udělal.
@@ -2069,6 +2073,7 @@ Víc nemůžem dáti!
 Vím, co tam chci a umím to nakreslit, ale neumím to vytvořit.
 Vína co jsem pil.
 Víte že na výrobu těch parfémů se zabíjejí velryby?
+Víte, co je to paradox?
 Víte, mládí rádo tak trochu přepíná.
 Víte, někteří lidé odjedou na dlouhou cestu a nechají hořet svíčku.
 Víte, že tohle se průvodcům nikdy nestává.
