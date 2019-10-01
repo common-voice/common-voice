@@ -556,26 +556,43 @@ action-tap = Ittapja
 contribute = Ikkontribwixxi
 listen = Isma'
 skip = Aqbeż
+contribute-more =
+    { $count ->
+        [one] Trid tagħmel { $count } iktar?
+        [two] Trid tagħmel { $count } iktar?
+       *[many] Trid tagħmel { $count } iktar?
+    }
 record-cta = Ibda' irrekordja
+record-platform-not-supported-desktop = Fuq kompjuters desktop, tista' tniżżel l-aħħar:
+record-platform-not-supported-ios = Utenti tal-<bold>iOS</bold> jistgħu iniżżlu l-app b'xejn:
 record-must-allow-microphone = Trid tippermetti aċċess għall-mikrofonu.
 record-no-mic-found = Ma nstab ebda mikrofonu.
 record-error-too-short = Ir-recording kien qasir wisq.
 record-error-too-long = Ir-recording kien twil wisq.
 record-error-too-quiet = Ir-rekording kien silenzjuz wisq.
+record-three-more-instruction = Tlieta oħra!
+record-again-instruction = Tajjeb! <recordIcon></recordIcon> Irrekordja l-clip li jmiss
+record-last-instruction = <recordIcon></recordIcon> Ta' l-aħħar!
 clips-uploaded = Clips imtella'
+listen-3rd-time-instruction = 2 lesti, ibqa' sejjer!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> L-aħħar waħda!
 record-button-label = Irrekordja l-vuċi tiegħek
+share-title-new = <bold>Għinna</bold> nsibu aktar vuċijiet
 keep-track-profile = Żomm kont tal-progress tiegħek billi toħloq profil
 
 ## Reporting
 
 report = Rapport
 report-title = Issottometti rapport
+report-ask = X'tip ta' problemi għandek b'din is-sentenza?
 report-offensive-language = Kliem offensiv
+report-offensive-language-detail = Din is-sentenza għandha kliem nieqes mir-rispett jew offensiv.
 report-grammar-or-spelling = Żball grammatikali / ortografiku
 report-grammar-or-spelling-detail = Is-sentenza għandha żball grammatikali jew ortografiku.
 report-different-language = Lingwa differenti
+report-different-language-detail = Din miktuba fl-lingwa differenti min dik li nitkellem.
 report-difficult-pronounce = Diffiċli biex tippronunzjaha
+report-difficult-pronounce-detail = Għandha kliem jew frażijiet li huma diffiċli biex taqrhom jew tgħidhom.
 report-offensive-speech = Diskors offensiv
 report-other-comment =
     .placeholder = Ikkummenta
