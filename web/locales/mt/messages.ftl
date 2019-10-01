@@ -406,10 +406,57 @@ faq-search-for-answers =
 
 about-title = Għaliex il-Common Voice?
 about-subtitle = Common Voice jagħmel parti minn inizjattiva tal-Mozilla biex tgħin sabiex il-magni jitgħallmu kif verament jitkellmu n-nies. Apparti l-ġabra ta' data tal-Common Voice, qiegħdin ukoll nibnu magna għall-għarfien awtomaiku tat-taħdit jisimha Deep Speech, li hija miftuħa għal kulħadd.
+about-header-description =
+    Dawn il-proġetti t-tnejn li huma jiffurmaw parti mill-ħidma tagħna biex naqsmu l-fruntiera diġitali tat-taħdit. L-għarfien awtomatiku tal-vuċi jagħti dimensjoni umana lill-aġġeġġi li nużaw, iżda l-iżviluppaturi għandhom bżonn ammont enormi ta' data biex jibnuhom. Bħalissa, ħafna minn dik id-data tiswa ħafna flus u hija propjetà privata.
+    
+    Aħna rridu noffru data tal-vuċi b'xejn u disponibbli għall-pubbliku, filwaqt li nassiguraw ruħna li d-data tirrappreżenta firxa wiesgħa ta' nies reali. Flimkien nistgħu ntejbu l-għarfien awtomatiku tal-vuċi għal kulħadd.
+how-does-it-work-title = Kif taħdem?
+how-does-it-work-text = Qed nużaw il-crowdsourcing biex nibnu ġabra ta' vuċijiet miftuħa. Agħti l-vuċi tiegħek, iċċekkja l-validità tar-recordings ta' ħaddieħor, tejjeb il-ġabra għall-benefiċċju ta' kulħadd.
+about-speak = Tkellem
+about-speak-text = Il-kontributuri jirrekordjaw il-klips billi jaqraw minn ġabra ta' sentenzi.
+about-listen-queue = Kju tas-Smigħ
+about-listen-queue-text = Ir-recordings jitpoġġew fi kju biex ikunu lesti biex jinstemgħu qabel ma jiġu miżjuda.
+about-listen = Isma'
+about-listen-text = L-utenti jiċċekkjaw l-akkuratezza tal-klips mogħtija, billi jaraw jekk il-kelliem qarax is-sentenza sew.
+about-is-it-valid = Il-klip hija valida?
+about-is-it-valid-text = Klip tiġi mmarkata bħala "valida" meta xi utent itiha vot pożittiv.
+about-yes-votes = ≥ 2 Voti pożittivi
+about-yes-votes-text = Sabiex tiżdied mal-ġabra tal-Common Voice, klip trid tiġi ċċekkjata minn żewġ utenti differenti.
+about-no-votes = ≥ 2 Voti negattivi
+about-no-votes-text = Meta utent ma jaċċettax recording, jerġa jitqiegħed fil-Kju. Jekk jerġa ma jiġix aċċettat għat-tieni darba, il-klip jitneħħa u jitqiegħed fiċ-Ċimiterju tal-Klips.
+about-dataset-new = Ġabra ta' Dati Common Voice
+about-dataset-new-text = Il-Ġabra ta' Dati Common Voice fiha mijiet ta' eluf ta' kampjuni ta' vuċijiet biex jgħinu lill-iżviluppaturi jibnu għodod għall-għarfien tat-taħdit.
+about-clip-graveyard = Ċimiterju tal-Klips
+about-clip-graveyard-text = Iċ-Ċimiterju tal-Klips fih dawk ir-recordings li ma żdidux mal-ġabra Common Voice. Bħall-ħabra nnifisha, iċ-Ċimiterju jista' jitniżżel ukoll.
+about-partners = Msieħba
+about-become-a-partner = Issieħeb
+about-partnership = Common Voice huwa proġett kollaborattiv u niddependu fuq komunità ta' msieħba u kontributuri biex nibnu l-ikbar ġabra miftuħa ta' vuċijiet li qatt inħolqot.
+about-get-involved = Involvi Ruħek
+about-get-involved-text =
+    Trid ittejjeb il-Common Voice?
+    Tajjeb! ikkuntattjana bl-email jew fuq <discourseLink>Discourse</discourseLink>,
+    issottometti l-feedback tiegħek minn <githubLink>GitHub</githubLink>,
+    jew issieħeb magħna fuq <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Għalfejn?
 about-nav-how-it-works = Kif?
+about-nav-partners = Msieħba
+about-nav-get-involved = Involvi Ruħek
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelliġenza Artifiċjali
+mycroft-description = Mycroft huwa l-ewwel assistent personali open source fid-dinja. Mycroft jista' jintuża kullimkien - fuq kompjutr, f'karozza jew fuq Raspberri Pi.
+mycroft-secondary-description = Dan huwa software open source li jista' jiġi mħallat, estiż u mtejjeb liberament. Mycroft jista' jintuża għal kollox, minn proġett xjentifiku sa applikazzjoni kummerċjali.
 
 ## Glossary
 
+glossary = Glossarju
+localization = Lokalizzazzjoni
+localization-explanation = Dan huwa l-proċess tagħna biex nittraduċu u nadattaw il-kontenut għal diversi locales (lingwi).
+sentence-collection = Ġbir ta' Sentenzi
+sentence-collection-explanation = Ġbir ta' sentenzi li jinsabu fid-dominju pubbliku, jew kitba ta' sentenzi ġodda għad-dominju pubbliku.
+hours-recorded-explanation = Kemm ġbarna recordings ta' vuċijiet s'issa.
+hours-validated-explanation = Kemm recordings ta' vuċijiet ġew iċċekkjati minn 2 minn 3 utenti b'vot pożittiv. Dan jindika kemm sar progress lejn l-għan finali tal-proġett, li huwa ta' 10,000 siegħa.
+sst = Speech-to-text (STT)
+sst-explanation = It-teknoloġiji Speech-to-Text (STT) jittraduċu mit-taħdit għal test miktub.
 
 ## NotFound
 
