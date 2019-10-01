@@ -261,9 +261,9 @@ status-title = L-istat tal-proġett s'issa: ara sa fejn wasalna!
 status-contribute = Ikkontribwixxi l-vuċi tiegħek
 status-hours =
     { $hours ->
-        [one] siegħa
-        [two] sagħtejn
-       *[many] siegħat
+        [one] siegħa iċċekkjata s'issa
+        [two] sagħtejn iċċekkjati s'issa
+       *[many] siegħat iċċekkjati s'issa
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -477,14 +477,27 @@ terms-disagree = Ma naqbilx
 review-submit-title = Irrevedi & Ibgħat
 review-recording = Irrevedi
 review-rerecord = Erġa' rrekordja
+review-keep-recordings = Żomm ir-recordings
 
 ## Datasets Page
 
+validated-hr-total = Total ta' siegħat iċċekkjati
+size-gigabyte = GB
+size-megabyte = MB
+validated-hours = Siegħat iċċekkjati
+recorded-hours = Siegħat Irrekordjati
+data-other-ted-name = Korpus TED-LIUM
+more = Iktar
 close = Agħlaq
+download = Niżżel
 dataset-version = Verżjoni
 
 ## Download Modal
 
+download-form-email =
+    .label = Ikteb l-email tiegħek
+    .value = Grazzi, tisma' minn għandna
+download-back = Erġa' lura għall-ġabra ta' dati Common Voice
 download-no = Le grazzi
 
 ## Contact Modal
@@ -494,18 +507,27 @@ contact-form-name =
     .label = Isem
 contact-form-message =
     .label = Messaġġ
+contact-required = *meħtieġ
 
 ## Request Language Modal
 
 request-language-form-language =
     .label = Lingwa
 select-language = Agħżel Lingwa ...
+other-language = Lingwa oħra
 
 ## Languages Overview
 
+languages-show-more = Ara iktar
+languages-show-less = Ara inqas
 language-meter-in-progress = Progress
 language-total-progress = Total
+language-search-input =
+    .placeholder = Fittex
+language-speakers = Kelliema
+localized = Lokaliżat
 sentences = Sentenzi
+total-hours = Siegħat iċċekkjati
 
 ## Contribution
 
