@@ -460,11 +460,15 @@ sst-explanation = It-teknoloġiji Speech-to-Text (STT) jittraduċu mit-taħdit g
 
 ## NotFound
 
+notfound-title = Ma nstabx
+notfound-content = Jiddispjeċini, ma nafx x'inti tfittex.
 
 ## Data
 
+data-download-button = Niżżel id-data tal-Common Voice
 data-download-yes = Iva
 data-download-deny = Le
+data-download-license = Liċenzja: <licenseLink>CC-0</licenseLink>
 data-other-title = Ġabriet oħra ta' data tat-taħdit ...
 data-other-goto = Mur { $name }
 data-other-download = Niżżel id-Data
@@ -477,15 +481,26 @@ terms-disagree = Ma naqbilx
 review-submit-title = Irrevedi & Ibgħat
 review-recording = Irrevedi
 review-rerecord = Erġa' rrekordja
+review-cancel = Ikkanċella l-kontribuzzjoni tiegħek
 review-keep-recordings = Żomm ir-recordings
+review-delete-recordings = Ħassar ir-recordings tiegħi
 
 ## Datasets Page
 
+language = Lingwa
+# File size in gigabytes
+size = Daqs
 validated-hr-total = Total ta' siegħat iċċekkjati
+cv-license = Liċenzja
+number-of-voices = Numru ta' vuċijiet
+email-to-download = Daħħal l-email biex tniżżel
 size-gigabyte = GB
 size-megabyte = MB
+download-language = Niżżel
 validated-hours = Siegħat iċċekkjati
 recorded-hours = Siegħat Irrekordjati
+subscribe = Abbona
+feedback-q = Għandek feedback?
 data-other-ted-name = Korpus TED-LIUM
 more = Iktar
 close = Agħlaq
@@ -531,11 +546,18 @@ total-hours = Siegħat iċċekkjati
 
 ## Contribution
 
+action-click = Ikklikkja
+action-tap = Ittapja
 contribute = Ikkontribwixxi
 listen = Isma'
 skip = Aqbeż
+record-cta = Ibda' irrekordja
 record-must-allow-microphone = Trid tippermetti aċċess għall-mikrofonu.
 record-no-mic-found = Ma nstab ebda mikrofonu.
+record-error-too-short = Ir-recording kien qasir wisq.
+record-error-too-long = Ir-recording kien twil wisq.
+record-error-too-quiet = Ir-rekording kien silenzjuz wisq.
+clips-uploaded = Clips imtella'
 listen-last-time-instruction = <playIcon> </playIcon> L-aħħar waħda!
 record-button-label = Irrekordja l-vuċi tiegħek
 keep-track-profile = Żomm kont tal-progress tiegħek billi toħloq profil
@@ -558,6 +580,12 @@ report-success = Ir-rapport irnexxilek tibgħatu
 
 ## Goals
 
+recordings =
+    { $count ->
+        [one] recording
+        [two] żewġ recordings
+       *[many] recordings
+    }
 validations =
     { $count ->
         [one] Validazzjoni
