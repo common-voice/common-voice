@@ -386,9 +386,26 @@ faq-how-calc-hours-a = Nikkalkulaw is-siegħat billi nieħdu t-tul medju ta' kul
 faq-where-src-from-2-q = Minn fejn jiġi t-test li jinqara?
 faq-where-src-from-2-a = It-testi li jinqraw huma donazzjonijiet oriġinali mill-kontributuri kif ukoll djalogu meħud minn scripta tal-films li jinsabu fid-dominju pubbliku, bħal <italic>It’s a Wonderful Life</italic>. Tista tara s-sentenzi jekk iżżur dan ir-<githubLink>Repożitorju fuq GitHub</githubLink>.
 faq-why-not-ask-read-q = Għax ma ssaqsux lin-nies jaqraw mill-kotba jew minn artikli tal-Wikipedija f'lingwi differenti?
+faq-why-not-ask-read-a = Sabiex il-ġabra ta' dati Common Voice tkun kemm jista' jkun utli, iddeċidejna li nippermettu biss testi disponibbli taħt liċenzja Creative Commons (CC0). L-użu ta' standard CC0 jagħmilha iktar diffiċli biex jinstabu u jinġabru t-testi biex jinqraw, imma mbagħad kulħad dikun jista' juża d-data li tinġabar mingħajr ebda restrizzjoni u mingħajr ma jkun hemm bżonn permess mingħand il-Mozilla. Fl-aħħar mill-aħħar, irridu li l-ġabra ta' data multi-lingwi tkun kemm jista' jkun utli għal kulħadd, inkluż riċerkaturi, universitajiet, kumpanijiet ġodda, gvernijiet, organizzazzjonijiet soċjali u dilettanti.
+faq-why-account-q = Għalfejn għandi noħloq kont?
+faq-is-account-public-q = L-informazzjoni fuq il-kont tiegħi hija pubblika?
+faq-how-privacy-q = Kif tiżguraw li min jagħti l-vuċi tiegħu jibqa' anonimu u jkollu l-privatezza?
+faq-how-privacy-a = Ir-recordings kollha fil-ġabra titneħħilhom kwalunkwe informazzjoni li tista' tidentifika persuna. Meta kontributur jipprovdi informazzjoni demografika fil-profil, dik l-informazzjoni titneħħa minn mar-recordings tal-vuċi tal-persuna qabel ma d-data tiġi mħejjija biex titniżżel, u qatt ma tidher pubblikament fuq il-paġna tal-profil tal-persuna.
+faq-what-determine-identity-q = X'jiġifieri li "l-identità tal-kelliema ma tistax tiġi identifikata" fil-ġabra Common Voice?
+faq-what-determine-identity-a =
+    Il-ġabra Common Voice hija riżorsa miftuħa u disponibbli pubblikament li tista' tintuża biex jitħarrġu diversi applikazzjonijiet li jużaw il-vuċi. Sabiex nipproteġu s-sigurtà tal-kontributuri, nitolbu lil kull min iniżżel id-data Common Voice biex jirrispetta l-privatezza tal-kontributuri.
+    
+    Ir-recordings fil-ġabra titneħħielhom kull informazzjoni li tista' tidentifika persuna. Meta tniżżel il-ġabra, inti tkun qed twiegħed li mhux se tipprova tiddetermina l-identità ta' kwlaunkwe kontributur. Dan ifisser li ma tistax tipprova ssib rabta bejn informazzjoni fil-ġabra u l-informazzjoni personali ta' kontributur. Mill-banda l-oħra tista' tuża l-ġabra biex tħarreġ sistemi għall-għarfien awtomatiku tat-taħdit, jew għal applikazzjonijiet oħra billi, per eżempju, toħloq korrispondenzi bejn informazzjoni fil-ġabra u informazzjoni oħra li diġà tinsab fil-ġabra.
+faq-what-is-cv = X'inhu Common Voice?
+faq-using-cv = Kif jintuża Common Voice
+faq-description = Common Voice jagħmel parti minn inizjattiva tal-Mozilla biex tgħin sabiex il-magni jitgħallmu kif verament jitkellmu n-nies.
+faq-search-for-answers =
+    .label = Fittex tweġiba
 
 ## ABOUT US
 
+about-title = Għaliex il-Common Voice?
+about-subtitle = Common Voice jagħmel parti minn inizjattiva tal-Mozilla biex tgħin sabiex il-magni jitgħallmu kif verament jitkellmu n-nies. Apparti l-ġabra ta' data tal-Common Voice, qiegħdin ukoll nibnu magna għall-għarfien awtomaiku tat-taħdit jisimha Deep Speech, li hija miftuħa għal kulħadd.
 about-nav-how-it-works = Kif?
 
 ## Glossary
