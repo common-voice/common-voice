@@ -286,7 +286,7 @@ profile-form-gender =
     .label = Sess
 leaderboard-visibility =
     .label = Viżibilità fil-Klassifika
-hidden = Moħbija
+hidden = Moħbi
 visible = Viżibbli
 native-language =
     .label = Lingwa Nattiva
@@ -505,6 +505,14 @@ share-goal = Aqsam l-għanijiet tiegħi ma' ħaddieħor
 
 ## Profile Delete
 
+delete-q = Tixtieq tagħmel talba biex jitħassru wkoll ir-rekordings tal-vuċi tiegħek, jew tippreferi li jinżammu fil-ġabra tad-data ta' Common Voice?
+keep = Żomm
+remove = Ħassar
+profile-form-delete = Ħassar il-Profil
 
 ## Landing
 
+welcome-staff = Merħba { $company }!
+login-company = Idħol / Abbona bl-imejl tal-{ $company }
+profile-not-required = Mhux bilfors irid ikollok profil biex tikkontribwixxi, għalkemm dan jaf iservi ta' għajnuna, ara għaliex hawn taħt.
+read-more-about = Aqra iktar fuq il-paġna Dwarna
