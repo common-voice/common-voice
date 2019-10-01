@@ -8,6 +8,7 @@ email-input =
     .label = Surat-e
 submit-form-action = Peuét
 loading = Pumeuhah...
+email-opt-in-info = Lon galak beujitamöng surat-e lagee peuingat tujuan, seuneubaro progress lon ngon seunurat keu bhaih Su Common.
 email-opt-in-privacy = Ngön ka neutém teurimöng surat-e, droeneuh ka akô ngön Mozilla keu jingui haba nyoe lagèe ka geupeutrang lam <privacyLink>Reusam Privasi<privacyLink> Mozilla.
 indicates-required = * Suwah geupasoe
 
@@ -27,6 +28,7 @@ ar = Bahsa Arab
 as = Bahsa Assam
 ast = Bahsa Asturian
 az = Bahsa Azeri
+ba = Basa Basykirs
 bg = Bahsa Bulgaria
 bn = Bahsa Banggali
 br = Bahsa Breton
@@ -46,7 +48,7 @@ en = Bahsa Inggréh
 eo = Bahsa Èspèranto
 es = Bahsa Seupanyo
 et = Bahsa Èstonia
-eu = Bahsa Basque
+eu = Basa Basku
 fa = Bahsa Parisi
 fi = Bahsa Finlandia
 fo = Bahsa Faroe
@@ -88,7 +90,6 @@ nn-NO = Bahsa Norwègia Nynorsk
 oc = Bahsa Oksitan
 or = Bahsa Oriya
 pl = Bahsa Polandia
-pt-BR = Bahsa Peutugéh (Brasil)
 rm-sursilv = Bahsa Romansh (Sursilvan)
 ro = Bahsa Rumania
 ru = Bahsa Rusia
@@ -175,6 +176,9 @@ profile-close = Tôp
 
 faq-what-cv-q = Peue nyan Common Voice?
 
+## ABOUT US
+
+
 ## Glossary
 
 
@@ -188,7 +192,7 @@ data-download-deny = H‘an
 data-download-license = Lisènsi: <licenseLink>CC-0</licenseLink>
 license = Lisènsi: <licenseLink>{ $license }</licenseLink>
 
-## New Datasets Page
+## Datasets Page
 
 data-other-ted-name = Korpus TED-LIUM
 close = Tôp
@@ -210,9 +214,12 @@ request-language-form-language =
 ## Languages Overview
 
 
-## New Contribution
+## Contribution
 
 clips-with-count = <bold>{ $count }</bold> Klip
+
+## Reporting
+
 
 ## Goals
 
@@ -223,7 +230,13 @@ stats = Statistik
 you = Droeneuh
 everyone = Tiep ureueng
 
+## Custom Goals
+
+
 ## Profile Delete
 
 remove = Sampôh
 profile-form-delete = Sampôh Profil
+
+## Landing
+
