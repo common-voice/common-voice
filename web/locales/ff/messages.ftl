@@ -95,6 +95,8 @@ ia = Interlingua
 
 ## ProfileForm
 
+ready-to-upload = YOLLU
+avatar-clip-fact = Ena goongɗinaa ko ɓooyi wonde loowdi hello ena telɓina taroowo so tawii omo ndaara lelngo maggo,
 
 ## FAQ
 
