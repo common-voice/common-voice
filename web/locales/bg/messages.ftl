@@ -94,7 +94,6 @@ nn-NO = Норвежки Нюношк
 oc = Окситански
 or = Одийски
 pl = Полски
-pt-BR = Португалски (Бразилия)
 rm-sursilv = Сурсливан
 ro = Румънски
 ru = Руски
@@ -107,6 +106,7 @@ sl = Словенски
 sq = Албански
 sr = Сръбски
 sv-SE = Шведски
+sw = Суахили
 syr = Сирийски
 ta = Тамилски
 te = Телугу
@@ -196,7 +196,6 @@ x-years-short =
        *[other] { $count } години
     }
 help-make-dataset = Помогнете ни да изградим висококачествен, публично достъпен набор от данни
-profile-not-required = За да допринасяте не е задължително да имате профил, но е полезно
 sign-up-account = Регистриране
 email-subscription-title = абонамент за новини по електронна поща
 email-subscription-title-new = Регистрирайте се за бюлетина на Common Voice, за напомняния за цели и следене на напредъка
@@ -304,7 +303,8 @@ thanks-for-account = Благодарим ви, че потвърдихте см
 why-demographic = Защо това има значение?
 why-demographic-explanation = Анонимизираните данни като възраст, пол и акцент помагат звуковите данни, използвани за тренирането на системите за гласово разпознаване да бъдат подобрени. Потребителското ви име и електронна поща никога няма да бъдат свързани с предоставената от вас информация, като можете да изберете дали да направите потребителското си име публично или да останете анонимни.
 accept-privacy = Съгласен/а съм да ползвате тази информация, така, както е описано в <privacyLink>Декларацията за поверителност</privacyLink> на Mozilla.
-login-signup = Вписване/Регистриране
+login-identity = Идентификация за вход
+login-signup = Влизане / Регистриране
 edit = Редактиране
 email-subscriptions = Абонаменти за имейл
 download-profile = Изтегляне на моите данни
@@ -314,7 +314,11 @@ skip-submission-description = След натискането на „Изпра
 skip-submission-note = Забележка: Трябва да изберете между говорене и слушане, за да смените вида на принос.
 off = Изключено
 on = Включено
-add-avatar-title = Добавете профилна картинка
+avatar-clip-recorded = Аватарът вече съдържа глас!
+record-voice-wave = ЗАПИС НА ГЛАСОВА ВЪЛНА
+retry-voice-wave-recording = НОВ ОПИТ
+re-record = ПРЕЗАПИСВАНЕ
+delete-voice = ИЗТРИВАНЕ
 recording-voice-wave = Записване
 ready-to-upload = Качване
 avatar-clip-fact = Известен факт е, че вниманието на четящия се привлича повече от оформлението на страницата, от колкото от съдържанието ѝ.
@@ -325,6 +329,8 @@ connect-gravatar = Свързване с Gravatar
 gravatar_not_found = Не е открит профил в gravatar с вашата електронна поща
 file_too_large = Избраният файл е прекалено голям
 manage-subscriptions = Управление на абонаментите
+email-already-used = Имейл адресът вече се използва от друг профил
+add-language = Добавяне на език
 change-email-setings = Променете вашата поща през настройките в профила
 
 ## FAQ
@@ -377,6 +383,7 @@ faq-what-determine-identity-a =
     Всички гласови записи в нашата банка са изчистени от лична идентификационна информация. Когато изтегляте данните вие се съгласявате да не се опитвате да определите идентичността на доброволците. Това означава да не опитвате да свържете информация в базата с лична информация за доброволец. Но можете да използвате данните за обучение на гласово разпознаване, разпознаване на говор или друго приложение като на пример свързване на информацията в базата с друга информация вече в банката.
 faq-what-is-cv = Какво е Common Voice?
 faq-using-cv = Използване на Common Voice
+faq-description = Common Voice е част от начинанието на Mozilla да помогне на машините да научат как говорят хората.
 faq-search-for-answers =
     .label = Търсене на отговори
 
@@ -470,6 +477,7 @@ audio-format = Вид на записа
 number-of-voices = Брой гласове
 splits = Разделения
 email-to-download = Изтегляне с имейл
+confirm-size = Готови сте да започнете изтеглянето на <b>{ $size }</b>
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = Изтегляне на { $language }
@@ -528,6 +536,7 @@ request-language-form-language =
     .label = Език
 request-language-success-title = Заявката за език е подадена успешно, благодаря.
 request-language-success-content = Ще се свържем скоро с вас, с повече информация за това, как да добавите вашия език в Common Voice.
+select-language = Избиране на език...
 other-language = Друг език
 
 ## Languages Overview
@@ -538,7 +547,6 @@ language-section-launched = Започнали
 language-section-launched-description = За тези започнали езици сайтът е успешно <localizationGlossaryLink>преведен</localizationGlossaryLink> и има достатъчно <sentenceCollectionGlossaryLink>събрани изречения</sentenceCollectionGlossaryLink>, за да започнете да <speakLink>говорите</speakLink> или <listenLink>слушате</ listenLink >.
 languages-show-more = Вижте повече
 languages-show-less = Вижте по-малко
-language-speakers = Говорители
 language-meter-in-progress = Напредък
 language-total-progress = Общо
 language-search-input =
@@ -641,6 +649,7 @@ toward-next-goal = Към следващата цел
 clips-you-recorded = Записани от вас
 clips-you-validated = Проверени от вас
 stats = Статистика
+awards = Награди
 you = Вие
 everyone = Всички
 contribution-activity = Активност на приноса
@@ -652,12 +661,17 @@ overall-accuracy = Обща точност
 
 ## Custom Goals
 
-toward-next-goal = Към следващата цел
+get-started-goals = Цели
 create-custom-goal = Създаване на лична цел
 both-speak-and-listen = И двете
 both-speak-and-listen-long = И двете (говорене и слушане)
 daily-goal = Дневна цел
 weekly-goal = Седмична цел
+easy-difficulty = Лесно
+average-difficulty = Средно
+difficult-difficulty = Трудно
+pro-difficulty = Професионално
+lose-goal-progress-warning = Редактирайки целта си, може да загубите настоящия си напредък.
 want-to-continue = Искате ли да продължите?
 lose-changes-warning = Ако напуснете сега, ще загубите промените си
 build-custom-goal = Поставяне на лична цел
