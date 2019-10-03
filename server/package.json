@@ -56,7 +56,8 @@
     "source-map-support": "^0.5.12",
     "stream-transcoder": "0.0.5",
     "typescript": "3.5.3",
-    "universal-analytics": "^0.4.20"
+    "universal-analytics": "^0.4.20",
+    "snyk": "^1.230.4"
   },
   "devDependencies": {
     "jest-matcher-utils": "^24.8.0",
@@ -69,6 +70,9 @@
     "migrate": "cd src/lib/model/db && db-migrate",
     "start": "tsc-watch --onSuccess \"yarn start:prod\"",
     "start:prod": "cd .. && node server/js/server.js",
-    "test": "jest --forceExit --config=jest.config.js"
-  }
+    "test": "jest --forceExit --config=jest.config.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
