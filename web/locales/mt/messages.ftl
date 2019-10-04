@@ -607,6 +607,7 @@ contribute-more =
        *[many] Trid tagħmel { $count } iktar?
     }
 record-cta = Ibda' irrekordja
+record-platform-not-supported = Skużana, imma bħalissa m'hemmx support għas-sistema li tinsab fuqha.
 record-platform-not-supported-desktop = Fuq kompjuters desktop, tista' tniżżel l-aħħar:
 record-platform-not-supported-ios = Utenti tal-<bold>iOS</bold> jistgħu iniżżlu l-app b'xejn:
 record-must-allow-microphone = Trid tippermetti aċċess għall-mikrofonu.
@@ -614,15 +615,31 @@ record-no-mic-found = Ma nstab ebda mikrofonu.
 record-error-too-short = Ir-recording kien qasir wisq.
 record-error-too-long = Ir-recording kien twil wisq.
 record-error-too-quiet = Ir-rekording kien silenzjuz wisq.
+record-cancel = Ikkanċella l-irrekordjar mill-ġdid
+record-instruction = { $actionType }<recordIcon></recordIcon> imbagħad aqra s-sentenza tgħajjat
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> meta tkun lest
 record-three-more-instruction = Tlieta oħra!
 record-again-instruction = Tajjeb! <recordIcon></recordIcon> Irrekordja l-clip li jmiss
+record-again-instruction2 = Ibqa' sejjer hekk, erġa rrekordja <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ta' l-aħħar!
+review-tooltip = Int u għaddej, irrevedi u erġa rrekordja l-klips minn hawnhekk
+review-instruction = Irrvedi u erġa rrekordja l-klips jekk hemm bżonn
+record-submit-tooltip = { $actionType } ibgħat ladarba tkun lest
 clips-uploaded = Clips imtella'
+record-abort-title = Trid tlesti mir-recording l-ewwel?
+record-abort-text = Jekk titlaq issa titlef il-progress li tkun għamilt
+record-abort-submit = Ibgħat il-klips
+record-abort-continue = Ieqaf irrekordja
+record-abort-delete = Oħroġ u ħassar il-klips
+listen-instruction = { $actionType }<playIcon></playIcon> qrawha sew is-sentenza?
+listen-again-instruction = Prosit!<playIcon></playIcon> X'ħin tkun lest tista' terġa tisma'
 listen-3rd-time-instruction = 2 lesti, ibqa' sejjer!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> L-aħħar waħda!
+nothing-to-validate = M'hemm xejn li għandu bżonn jiġi ċċekkjat f'din il-lingwa, għinna biex inqiegħdu xi ħaġa fil-kju.
 record-button-label = Irrekordja l-vuċi tiegħek
 share-title-new = <bold>Għinna</bold> nsibu aktar vuċijiet
 keep-track-profile = Żomm kont tal-progress tiegħek billi toħloq profil
+login-to-get-started = Illoggja jew oħloq kont biex tibda
 
 ## Reporting
 
@@ -647,6 +664,7 @@ report-success = Ir-rapport irnexxilek tibgħatu
 
 ## Goals
 
+streaks = Streaks
 days =
     { $count ->
         [one] Ġurnata
@@ -672,27 +690,58 @@ your-languages = Il-Lingwi Tiegħek
 toward-next-goal = Lejn l-għan li jmiss
 clips-you-recorded = Clips li rrekordjajt
 clips-you-validated = Clips li ċċekkjajt
+todays-recorded-progress = Il-progress li sar illum fuq klips irrekordjati fuq Common Voice
+todays-validated-progress = Il-progress li sar illum fuq klips li ġew iċċekkjati fuq Common Voice
 stats = Statistika
 awards = Premjijiet
 you = Int
 everyone = Kulħadd
+contribution-activity = Attività ta' Kontribuzzjoni
 top-contributors = L-aqwa kontributuri
 recorded-clips = Clips irrekordjati
 validated-clips = Clips iċċekkjati
+total-approved = Total Approvat
+overall-accuracy = Livell ta' Akkuratezza Milħuq
+set-visibility = Issettja l-Viżibbiltà Tiegħi
+visibility-explainer = B'dan is-setting tikkontrolla jekk tkunx viżibbli fil-klassifika. Meta jkun moħbi, il-progress li tagħmel jinżamm privat. Dan ifisser li r-ritratt tiegħek, il-username u l-progress ma jidhrux fil-klassifika. Żomm f'moħħok li l-klassifika ddum madwar ~{ $minutes } minuta biex tirrifletti t-tibdiliet.
+visibility-overlay-note = Nota: Meta s-setting ikun 'Viżibbli', tista tibdlu minn fuq il-<profileLink>paġna tal-Profil</profileLink>
 show-ranking = Uri posti fil-klassifika
 
 ## Custom Goals
 
+get-started-goals = Ibda oħloq l-għanijiet
+create-custom-goal = Oħloq Għan Għalik
 both-speak-and-listen = It-tnejn
+both-speak-and-listen-long = It-Tnejn (Tkellem u Isma')
+daily-goal = Għan ta' Kuljum
+weekly-goal = Għan ta' kull Ġimgħa
 easy-difficulty = Faċli
 average-difficulty = Medju
 difficult-difficulty = Diffiċli
 pro-difficulty = Professjonali
+lose-goal-progress-warning = Jekk teditja l-għan tiegħek, jista' jkun li jintilef il-progress li għamilt s'issa.
 want-to-continue = Trid tkompli?
+finish-editing = Trid tispiċċa teditja?
 lose-changes-warning = Jekk titlaq issa jintilfu l-bidliet kollha li għamilt
+build-custom-goal = Ibni għan għalik innifsek
+help-reach-hours = Oħloq għan personali u għinna nilħqu { NUMBER($hours) } siegħa bil-{ $language }
+help-reach-hours-general = Oħloq għan personali u għin lil Common Voice biex jilħaq { NUMBER($hours) } siegħa f'lingwa partikolari.
 set-a-goal = Issettja għan
 cant-decide = Ma tistax tiddeċiedi?
+activity-needed-calculation =
+    { NUMBER($totalHours) } siegħa jistgħu jitlaħqu fi ftit iktar minn { NUMBER($periodMonths) }
+    xahar jekk { NUMBER($people) } persuna tirrekordja { NUMBER($clipsPerDay) } klip kuljum.
+how-many-per-day = Tajjeb! Kemm trid tagħmel klips kuljum?
+how-many-a-week = Tajjeb! Kemm trid tagħmel klips fil-ġimgħa?
+which-goal-type = Trid Titkellem, Tisma' jew it-tnejn?
+receiving-emails-info = Bis-settings kif qiegħdin, se tkun qed tirċievi l-emails biex ifakkruk fl-għanijiet, ituk aġġornamenti dwar il-progress u tirċievi n-newsletters dwar Common Voice
+not-receiving-emails-info = Bis-settings kif qiegħdin, <bold>MHUX</bold> se tkun qed tirċievi l-emails biex ifakkruk fl-għanijiet, ituk aġġornamenti dwar il-progress u jibgħatulek in-newsletters dwar Common Voice
+n-clips = { NUMBER($count) } klip
+help-share-goal = Għinna nsibu iktar vuċijiet, aqsam l-għan tiegħek ma' ħaddieħor
+confirm-goal = Ikkonferma l-Għan
 goal-interval-weekly = Kull ġimgħa
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Aqsam l-għan ta' { $count } Klip Kuljum tat-tip { $type }
 share-goal-type-speak = Titkellem
 share-goal-type-listen = Tisma’
 share-goal-type-both = Titkellem u Tisma'
