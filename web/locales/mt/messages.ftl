@@ -517,9 +517,27 @@ download-language = Niżżel { $language }
 validated-hours = Siegħat iċċekkjati
 recorded-hours = Siegħat Irrekordjati
 whats-inside = X'hemm fil-ġabra tad-Dati Common Voice?
+dataset-description-hours =
+    Kull entratura fil-ġabra fiha MP3 wieħed u fajl bit-test li jikkorrispondi miegħu. Ħafna mill- <b>{ $size }</b> siegħa li hemm irrekordjati b'kollox fil-ġabra jinkludu wkoll metadata demografika bħall-età, sess u aċċent, li jisttgħu jiswew biex tittejjeb l-akkuratezza tal-magni għall-għarfien tat-taħdit.
+    
+    Il-ġabra bħalissa fiha <b>{ $valid }</b> siegħat li ġew iċċekkjati, fi <b>{ $languages }</b> lingwa, imma aħna nkomplu nżidu l-vuċijiet u l-lingwi regolarment. Agħti daqqa t'għajn lill-<languagesLink>paġna dwar il-Lingwi</languagesLink> jekk trid titlob lingwa partikolari, jew biex tibda tikkontribwixxi.
+want-dataset-update = Tixtieq l-aġġornamenti meta nniedu verżjoni ġdida tal-ġabra Common Voice? Abbona biex tirċievi n-newsletter.
 subscribe = Abbona
+get-started-speech = Ibda Aħdem fuq l-Għarfien Awtomatiku tat-Taħdit.
+other-datasets = Ġabriet oħra ta' data tat-taħdit.
 feedback-q = Għandek feedback?
+deepspeech-info = Il-ġabra Common Voice tikkumplimenta l-magna open source għall-għarfien awtomatiku tat-taħdit tal-Mozilla, li tista' tużaha biex tibni applikazzjonijiet għall-għarfien awtomatiku tat-taħdit. Aqra  <githubLink>r-reċensjoni fuq Github</githubLink> jew issieħeb ma'  <discourseLink>DeepSpeech Discourse</discourseLink> biex tara kif tista' tibda.
+common-voice-info-new = Għandek xi domanda dwar Common Voice? Jew ideat għat-titjib jew feedback dwar xi lingwa partikolari? Issieħeb magħna fuq il-<discourseLink>forum</discourseLink> biex tgħidilna.
+data-other-librispeech-description = LibriSpeech huwa korpus ta' madwar 1000 siegħa ta' Ingliż moqri, meħud minn kotba rrekordjati fil-proġett LibriVox.
 data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Il-korpus TED-LIUM inħoloq minn taħditiet u traskrizzjonijiet disponibbli fuq is-sit ta' TED.
+data-other-voxforge-description = VoxForge inħoloq biex jinġabru traskrizzjonijiet ta' taħdit għall-użu f'magni għall-għarfien awtomatiku tat-taħdit li huma b'xejn u open source.
+data-other-tatoeba-description = Tatoeba hija ġabra kbira ta' sentenzi, traduzzjonijiet u awdjo mitkellem li jistgħu jintużaw għall-għarfien awtomatiku tal-lingwi. Minn din il-ħolqa jista' jitniżżel Ingliż mitkellem, irrekordjat mill-komunità ta' utenti tagħhom.
+your-feedback = Għandek xi ideat dwar kif nistgħu ntejbu l-ġabra Common Voice? Għidilna fuq Discourse.
+go-discourse = Mur fuq Discourse
+missing-language = M'intix tara l-lingwa tiegħek fil-ġabra? Jekk trid titlob lingwa mur fil-paġna dwar il-Lingwi.
+go-languages-page = Mur fil-Paġna dwar il-Lingwi
+ready-to-validate = Lest biex tgħinna niċċekkjaw is-sentenzi?
 more = Iktar
 close = Agħlaq
 download = Niżżel
@@ -527,6 +545,8 @@ dataset-version = Verżjoni
 
 ## Download Modal
 
+download-title = Bdejt tniżżel.
+download-helpus = Għinna nmibnu komunità madwar it-teknoloġiji tal-vuċi, u ibqa' f'kuntatt magħna bl-email.
 download-form-email =
     .label = Ikteb l-email tiegħek
     .value = Grazzi, tisma' minn għandna
@@ -544,13 +564,20 @@ contact-required = *meħtieġ
 
 ## Request Language Modal
 
+request-language-title = Itlob Lingwa
 request-language-form-language =
     .label = Lingwa
+request-language-success-title = It-talba għal lingwa rċevejniha, grazzi.
+request-language-success-content = Dalwaqt nerġgħu nikkuntattjawk b'aktar informazzjoni dwar kif tista' żżid il-lingwa tiegħek fuq Common Voice.
 select-language = Agħżel Lingwa ...
 other-language = Lingwa oħra
 
 ## Languages Overview
 
+language-section-in-progress = Għaddej
+language-section-in-progress-new-description = Dawn il-lingwa bħalissa jinsabu taħt żvilupp fi ħdan il-komunità. L-indikazzjonijiet tal-progress juru sa fejn waslet kull lingwa fil-proċess ta' <localizationGlossaryLink>lokalizzazzjoni tas-sit</localizationGlossaryLink> u <sentenceCollectionGlossaryLink>ġbir ta' sentenzi</sentenceCollectionGlossaryLink>.
+language-section-launched = Imnedija
+language-section-launched-description = Għal dawn il-lingwi mnedija, is-sit diġà ġie <localizationGlossaryLink>llokalizzat</localizationGlossaryLink> u għandu </sentenceCollectionGlossaryLink>ġabra ta' sentenzi</sentenceCollectionGlossaryLink> kbira biżżejjed biex isiru l-kontribuzzjonijiet sew fuq <speakLink>Tkellem</speakLink> kif ukoll fuq <listenLink>Isma'</listenLink>.
 languages-show-more = Ara iktar
 languages-show-less = Ara inqas
 language-meter-in-progress = Progress
@@ -569,6 +596,10 @@ action-tap = Ittapja
 contribute = Ikkontribwixxi
 listen = Isma'
 skip = Aqbeż
+shortcuts = Shortcuts
+clips-with-count = <bold>{ $count }</bold> Klip
+goal-help-recording = Għadek kemm għint lil Common Voice jilħaq <goalPercentage></goalPercentage>  tal-{ $goalValue } ta' recordings li nippruvaw nilħqu kuljum!
+goal-help-validation = Għadek kemm għint lil Common Voice jilħaq <goalPercentage></goalPercentage>  tal-{ $goalValue } ta' validazzjonijiet li nippruvaw nilħqu kuljum!
 contribute-more =
     { $count ->
         [one] Trid tagħmel { $count } iktar?
