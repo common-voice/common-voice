@@ -457,6 +457,8 @@ hours-recorded-explanation = Kemm ġbarna recordings ta' vuċijiet s'issa.
 hours-validated-explanation = Kemm recordings ta' vuċijiet ġew iċċekkjati minn 2 minn 3 utenti b'vot pożittiv. Dan jindika kemm sar progress lejn l-għan finali tal-proġett, li huwa ta' 10,000 siegħa.
 sst = Speech-to-text (STT)
 sst-explanation = It-teknoloġiji Speech-to-Text (STT) jittraduċu mit-taħdit għal test miktub.
+de-identified = Bla identifikazzjoni
+de-identified-explanation = Il-proċess li bih l-informazzjoni fil-profil ta' kontributur ma tibqax abbinata mal-klips li jkunu taw, ladarba tiġu mħejjija biex titniżżel mal-bqija tal-ġabra ta' data.
 
 ## NotFound
 
@@ -470,6 +472,9 @@ data-download-yes = Iva
 data-download-deny = Le
 data-download-license = Liċenzja: <licenseLink>CC-0</licenseLink>
 data-download-modal = Se tibda' tniżżel <size>{ $size }GB</size>, trid tkompli?
+data-subtitle = Qed nibnu ġabra ta' data tal-vuċijiet open source u disponibbli għall-pubbliku, li tista' tintuża minn kulħadd biex jitħarrġu applikazzjonijiet li jużaw il-vuċi.
+data-explanatory-text = Aħna nemmnu li ġabriet kbar ta' data li huma disponibbli pubblikament jistgħu isaħħu l-innovazzjoni u l-kompetizzjoni kostruttiva fis-settur kummerċjali fil-qasam tat-teknoloġija tat-taħdit b'għarfien awtomatiku. Dan huwa sforz globali li nistiednu lil kulħadd jissieħeb miegħu. L-għan tagħna huwa li ngħinu biex it-teknoloġija tat-taħdit issir aktar inklussiva, b'mod li tirrifletti d-diversità ta' vuċijiet madwar id-dinja.
+data-get-started = <speechBlogLink>Ibda Aħdem fuq l-Għarfien Awtomatiku tat-Taħdit</speechBlogLink>
 data-other-title = Ġabriet oħra ta' data tat-taħdit ...
 data-other-goto = Mur { $name }
 data-other-download = Niżżel id-Data
@@ -480,6 +485,7 @@ license-mixed = Imħallat
 review-terms = Meta tuża Common Voice, qed taqbel mat-<termsLink>Termini</termsLink> u <privacyLink>Politika tal-Privatezza</privacyLink>
 terms-agree = Naqbel
 terms-disagree = Ma naqbilx
+review-aborted = L-upload ġie kkanċellat. Tixtieq tħassar ir-recordings tiegħek?
 review-submit-title = Irrevedi & Ibgħat
 review-submit-msg = Grazzi għar-recording!<lineBreak></lineBreak>Issa iċċekkja u ibgħat il-clips hawn taħt.
 review-recording = Irrevedi
@@ -490,13 +496,20 @@ review-delete-recordings = Ħassar ir-recordings tiegħi
 
 ## Datasets Page
 
+datasets-headline = Qed nibnu ġabra ta' data tal-vuċijiet open source f'diversi lingwi, li tista' tintuża minn kulħadd biex jitħarrġu applikazzjonijiet li jużaw il-vuċi.
+datasets-positioning = Aħna nemmnu li ġabriet kbar ta' data li huma disponibbli pubblikament jistgħu isaħħu l-innovazzjoni u l-kompetizzjoni kostruttiva fis-settur kummerċjali fil-qasam tat-teknoloġija tat-taħdit b'għarfien awtomatiku. Il-ġabra ta' data multilingwi tal-Common Voice diġà hija l-ikbar ġabra ta' vuċijiet disponibbli pubblikament, iżda mhix l-unika waħda. Agħti daqqa t'għajn fuq din il-paġna jekk trid referenzi għal ġabriet open source oħrajn, kif ukoll aġġornamenti dwar it-tnedija ta' verżjonijiet ġodda ta' Common Voice, hekk kif tkompli tikber il-ġabra.
 language = Lingwa
 # File size in gigabytes
 size = Daqs
 validated-hr-total = Total ta' siegħat iċċekkjati
+overall-hr-total = Siegħat b'Kollox
 cv-license = Liċenzja
+audio-format = Format Awdjo
 number-of-voices = Numru ta' vuċijiet
+splits = Taqsimiet
 email-to-download = Daħħal l-email biex tniżżel
+why-email = <b>Għaliex email?</b>? Forsi l quddiem  jkollna bżonn nikkuntattjawk dwar bidliet fil-ġabra, u l-email tipprovdina b'mezz ta' kuntatt.
+confirm-size = Tinsab lest biex tniżżel ġabra ta' daqs  <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Taqbel</b> li mhux se tiprovva tagħraf l-identita tal-kelliema fil-ġabra ta' Dati Common Voice
