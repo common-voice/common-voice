@@ -742,6 +742,8 @@ confirm-goal = Ikkonferma l-Għan
 goal-interval-weekly = Kull ġimgħa
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Aqsam l-għan ta' { $count } Klip Kuljum tat-tip { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Aqsam l-għan ta'  { $count } Klip fil-Ġimgħa tat-tip { $type }
 share-goal-type-speak = Titkellem
 share-goal-type-listen = Tisma’
 share-goal-type-both = Titkellem u Tisma'
@@ -758,11 +760,18 @@ share-goal = Aqsam l-għanijiet tiegħi ma' ħaddieħor
 delete-q = Tixtieq tagħmel talba biex jitħassru wkoll ir-rekordings tal-vuċi tiegħek, jew tippreferi li jinżammu fil-ġabra tad-data ta' Common Voice?
 keep = Żomm
 remove = Ħassar
+keep-info = Ir-recordings anonimi tiegħek jinżammu fil-ġabra Common Voice. Ladarba tħassar il-profil ma tkunx tista' titlob li jitneħħew ir-recordings mill-ġabra.
+remove-info = Se nirrevedu t-talba tiegħek biex jitneħħew mill-ġabra r-recordings bil-vuċi tiegħek. Jekk it-talba tiġi approvata, nikkuntattjaw lil kull min niżżel il-ġabra u nitolbu lilhom ukoll biex iħassru r-recordings tal-vuċi tiegħek.
+why-delete-recordings =
+    Ir-recordings ta' Common Voice jintużaw minn akkademiċi, intrapriżi żgħar u nies li għandhom għal qalbhom l-għarfien awtomatiku tal-vuċi, sabiex iħarrġu u jkabbru r-riżorsi disponibbli pubblikament, bħal mudelli tal-vuċi.
+    
+    Tista' tgħidilna għaliex tixtieq li jitħassru r-recordings tiegħek?
 profile-form-delete = Ħassar il-Profil
 
 ## Landing
 
 welcome-staff = Merħba { $company }!
+help-contribute = Tista' tgħinna nibnu ġabra ta' data ddiversifikata u open source, billi toħloq profil fuq Common Voice u tikkontribwixxi l-vuċi tiegħek.
 login-company = Idħol / Abbona bl-imejl tal-{ $company }
 profile-not-required = Mhux bilfors irid ikollok profil biex tikkontribwixxi, għalkemm dan jaf iservi ta' għajnuna, ara għaliex hawn taħt.
 read-more-about = Aqra iktar fuq il-paġna Dwarna
