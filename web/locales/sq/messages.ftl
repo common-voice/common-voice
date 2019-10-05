@@ -202,6 +202,7 @@ x-years-short =
 help-make-dataset = Ndihmonani të krijojmë një grup të dhënash të cilësisë së lartë, të hapur publikisht
 sign-up-account = Regjistrohuni për një llogari
 email-subscription-title = regjistrohuni për përditësime me email
+email-subscription-title-new = Regjistrohuni për buletine, kujtues objektivash dhe përditësime ecurie për Common Voice-in
 
 ## Account Benefits
 
@@ -686,6 +687,7 @@ clips-you-validated = Copëza Që Keni Vleftësuar
 todays-recorded-progress = Ecuria e sotme për copëza Common Voice të incizuara
 todays-validated-progress = Ecuria e sotme për copëza Common Voice të vleftësuara
 stats = Statistika
+awards = Çmime
 you = Ju
 everyone = Kushdo
 contribution-activity = Veprimtari Kontributi
@@ -694,10 +696,26 @@ recorded-clips = Copëza të Incizuara
 validated-clips = Copëza të Vleftësuara
 total-approved = Të miratuara Gjithsej
 overall-accuracy = Saktësia Në Përgjithësi
+set-visibility = Cakto dukshmërinë time
+visibility-explainer = Ky rregullim ujdis dukshmërinë e tabelës tuaj. Kur është e fshehur, ecuria juaj do të jetë private. Kjo do të thotë se figura juaj, emri i përdoruesit dhe ecuria nuk do të shfaqen te tabela. Kni parasysh se rifreskimi i tabelës do ~{ $minutes }min që të shfaqen ndryshimet.
+visibility-overlay-note = Shënim: Kur caktohet si 'E dukshme', ky rregullim mund të ndryshohet që prej <profileLink>faqes së Profilit</profileLink>
 show-ranking = Shfaq renditjen time
 
 ## Custom Goals
 
+get-started-goals = Filloni me objektiva
+create-custom-goal = Krijoni një Objektiv Vetjak
+both-speak-and-listen = Të dyja
+both-speak-and-listen-long = Të dy (Folje dhe Dëgjim)
+daily-goal = Objektiv Ditor
+weekly-goal = Objektiv Javor
+easy-difficulty = I lehtë
+average-difficulty = Mesatar
+difficult-difficulty = I Vështirë
+pro-difficulty = Pro
+lose-goal-progress-warning = Duke përpunuar objektivin tuaj, mund të humbni ecurinë e deritanishme.
+want-to-continue = Doni të vazhdohet?
+finish-editing = Të përfundohet përpunimi së pari?
 cant-decide = S’vendosni dot?
 
 ## Profile Delete
