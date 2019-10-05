@@ -8,7 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Parashtroje
 loading = Po ngarkohet…
-email-opt-in-info = Do të doja të merrja email-e të tillë si kujtues synimesh, përditësime rreth ecurisë time dhe buletine mbi Common Voice.
+email-opt-in-info = Do të doja të merrja email-e të tillë si kujtues objektivash, përditësime rreth ecurisë time dhe buletine mbi Common Voice.
 email-opt-in-privacy = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
@@ -211,7 +211,7 @@ rich-data = Bëjini të dhënat tuaja sa më të pasura që të mundet, duke dh�
 improve-audio = Të dhënat e profilit përmirësojnë të dhënat audio të përdorura në stërvitjen e përpikërisë së njohjes së të folurës.
 keep-track = Ndiqni përparimin tuaj dhe statistika nëpër gjuhë të ndryshme.
 compare-progress = Shihni se si duket përparimi juaj kundrejt kontribuesish të tjerë nga anembanë bota.
-view-goals = Shihni përparimin tuaj kundrejt synimet personale dhe të projektit.
+view-goals = Shihni përparimin tuaj lidhur me objektiva personale dhe të projektit.
 join-newsletter = Në daçi, bëhuni pjesë e listës tonë të email-eve, për përditësime dhe informacione të reja rreth projektit.
 
 ## What's public
@@ -297,7 +297,7 @@ why-profile-text = Duke dhënë ca të dhëna rreth vetes, të dhënat audio që
 dashboard = Pult
 build-profile = Krijoje Profilin
 avatar = Avatar
-goals = Synime
+goals = Objektiva
 settings = Rregullime
 edit-profile = Përpunoni Profil
 profile-create-success = Sukses, profili u krijua!
@@ -328,7 +328,9 @@ delete-voice = FSHIJE
 recording-voice-wave = Po incizohet
 delete-voice-clip = ose Fshijeni copëzën zanore
 ready-to-upload = NAGRKOJE
+avatar-clip-fact = Është fakt i njohur prej kohësh që një lexuesi do t’i tërheqë vëmendjen lënda e lexueshme e një faqeje, teksa shihet skicimi grafik i saj.
 cancel-avatar-clip-recording = ANULOJE
+about-avatar-clip-recording = Krijoni një copëz zanore si pjesë e avatarit të profilit tuaj. Të tjerët do të jenë në gjendje të dëgjojnë copëzën tuaj duke i kaluar kursorin përsipër.
 browse-file-title = Ngarkoni kartelë figure
 browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
 connect-gravatar = Lidhuni përmes Gravatari
@@ -355,6 +357,8 @@ faq-why-important-a =
     To make voice recognition even more universal, we're collecting voice samples in widely spoken languages as well as those with a smaller population of speakers often underserved by commercial speech recognition services. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and entire speech communities to address this gap themselves.
 faq-how-get-q = Si mund t'i marr të dhënat Common Voice?
 faq-how-get-a = Grupi i të dhënave Common Voice mund të shkarkohet nën licencën <licenseLink>CC0</licenseLink> te <datasetLink>faqja jonë  Grupe të Dhënash</datasetLink>. Prej të njëjtës faqe mund të shkarkoni edhe disa grupe të tjera të dhënash që mund të kihen publikisht.
+faq-when-release2-q = Kur do t’i hidhni në qarkullim të dhënat Common Voice në gjuhë të tjera?
+faq-when-release2-a = Versioni shumëgjuhësh i grupit të të dhënave Common Voice është duke u paketuar dhe pastruar nga bashkësia. Nëse doni të na ndihmoni për ta sjellë Common Voice-n në gjuhë të reja, shihni <sentenceCollectorLink>Mjet Grumbullimi Frazash</sentenceCollectorLink> që të shtoni fraza të reja te grupi i të dhënave, dhe Mozilla <pontoonLink>Pontoon</pontoonLink> për përkthim të vetë sajtit. Gjuhë të reja shtohen te Common Voice për kontribut zanor kur grumbullohen 5000 fraza të miratuara.
 faq-why-mission-q = Pse Common Voice është pjesë e misionit të Mozilla-s?
 faq-why-mission-a = Mozilla i është përkushtuar mbajtjes së web-it të hapur dhe të përdorshëm nga kushdo. Për ta bërë këtë, na duhet t’i fuqizojmë krijuesit web përmes projektesh të tillë si Common Voice. Teksa teknologjitë e zërit lulëzojnë tej aplikacionesh speciale, besojmë se duhet t’u shërbejnë njësoj krejt përdoruesve. Kjo do të thotë të investohet në më tepër gjuhë dhe të gjendet vend për theksa dhe demografi të  larmishme, teksa ndërtohen dhe testohen teknologji të të folurës. Common Voice është një burim publik i përdorshëm nga kushdo dhe ekipet dhe programuesit e Mozilla-s anembanë botës e përdorin tashmë në projektet tona.
 faq-what-cv-and-deepspeech-q = Cili është dallimi mes Common Voice-it dhe Deep Speech-it?
@@ -599,8 +603,8 @@ listen = Dëgjoni
 skip = Anashkaloje
 shortcuts = Shkurtore
 clips-with-count = <bold>{ $count }</bold> Copëza
-goal-help-recording = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të pikësynimit tonë ditor të incizimit të { $goalValue } fjalive!
-goal-help-validation = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të pikësynimit tonë ditor të vleftësimit të { $goalValue } fjalive!
+goal-help-recording = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të objektivit tonë ditor të incizimit të { $goalValue } fjalive!
+goal-help-validation = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të objektivit tonë ditor të vleftësimit të { $goalValue } fjalive!
 contribute-more =
     { $count ->
         [one] Gati për të bërë edhe { $count } tjetër?
@@ -654,6 +658,8 @@ report-different-language = Gjuhë tjetër
 report-different-language-detail = Është e shkruar në tjetër gjuhë nga ajo që flas.
 report-difficult-pronounce = E zorshme të shqiptohet
 report-difficult-pronounce-detail = Përmban fjalë ose fraza që janë të zorshme të lexohen ose shqiptohen.
+report-offensive-speech = Fjalim fyes
+report-offensive-speech-detail = Copëza përmban gjuhë pa respekt ose fyese.
 report-other-comment =
     .placeholder = Koment
 success = Sukses
@@ -681,7 +687,7 @@ validations =
 ## Dashboard
 
 your-languages = Gjuhët Tuaja
-toward-next-goal = Drejt synimit të ardhshëm
+toward-next-goal = Drejt objektivit të ardhshëm
 clips-you-recorded = Copëza Që Keni Incizuar
 clips-you-validated = Copëza Që Keni Vleftësuar
 todays-recorded-progress = Ecuria e sotme për copëza Common Voice të incizuara
@@ -716,7 +722,38 @@ pro-difficulty = Pro
 lose-goal-progress-warning = Duke përpunuar objektivin tuaj, mund të humbni ecurinë e deritanishme.
 want-to-continue = Doni të vazhdohet?
 finish-editing = Të përfundohet përpunimi së pari?
+lose-changes-warning = Largimi tani do të thotë se do të humbni ndryshimet tuaja
+build-custom-goal = krijoni një objektiv vetjak
+help-reach-hours = Ndihmoni përmes një objektivi personal të mbërrihet në { NUMBER($hours) } orë për gjuhën { $language }
+help-reach-hours-general = Ndihmojeni Common Voice përmes një objektivi personal të mbërrijë në { NUMBER($hours) } orë për një gjuhë
+set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
+activity-needed-calculation =
+    { NUMBER($totalHours) } orë arrihen në thjeshtr { NUMBER($periodMonths) }
+    muaj, nëse { NUMBER($people) } vetë incizojnë { NUMBER($clipsPerDay) } copëza në ditë.
+how-many-per-day = Bukur! Sa copëza në ditë?
+how-many-a-week = Bukur! Sa copëza në javë?
+which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
+receiving-emails-info = Keni caktuar të merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
+not-receiving-emails-info = Keni caktuar të <bold>MOS</bold> merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
+n-clips = { NUMBER($count) } copëza
+help-share-goal = Ndihmonani të gjejmë më shumë zëra, ndani me të tjerët objektivin tuaj
+confirm-goal = Ripohojeni Objektivin
+goal-interval-weekly = Përjavë
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Ndajeni me të tjerët Objektivin tuaj të { $count } Copëzash Në Ditë për { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Ndajeni me të tjerët Objektivin tuaj të { $count } Copëzash Në Javë për { $type }
+share-goal-type-speak = Folje
+share-goal-type-listen = Dëgjim
+share-goal-type-both = Folje dhe Dëgjim
+# LINK will be replaced with the current URL
+goal-share-text = Sapo krijova një objektiv personal për dhurim zëri te #CommonVoice -- ejani me mua dhe ndihmoni t’u mësohet makinave se si flasin njerëz të njëmendtë { $link }
+weekly-goal-created = Objektivi juaj javor u krijua
+daily-goal-created = Objektivi juaj ditor u krijua
+track-progress = Ndiqeni ecurinë tuaj këtu dhe faqja e statistikave tuaja.
+return-to-edit-goal = Kthehuni këtu, kur të doni, për të përpunuar objektivin tuaj.
+share-goal = Ndaje me të tjerët objektivin tim
 
 ## Profile Delete
 
