@@ -293,6 +293,7 @@ Bien. ¿ y qué regalo vas a abrir primero?
 Bien ama quien nunca olvida.
 Bienvenidos.
 Bodas hacen bodas.
+Braulio es igualmente responsable al limitarse a tibias declaraciones
 Bravo, pienso que será suficiente.
 Brión bajó la voz para responder:
 Buen porte y buenos modales abren puertas principales.
@@ -426,6 +427,7 @@ Con virtud y bondad se adquiere autoridad.
 Configurar bien el escáner, John.
 Congrega a todo el mundo para una reunión, y estate feliz.
 Conocedor quizás de estas características
+Conocidos por todas es como venden nuestros datos
 Conseguí esa carta tan rara.
 Contentos y alegres los dos muchachos nadaban ajenos al mundo
 Contigo no, bicho
@@ -1507,6 +1509,7 @@ Hay que implementar mesas individuales también para zurdos.
 Hay que procurar preservar nuestra identidad
 Hay que saber esperar
 Hay que ser valientes y tomar el toro por los cuernos
+Hay que sumar también el despropósito existente
 Hay que superar la idea de que comer carne todos los días es sano
 Hay que temer más a los vivos que a los muertos
 Hay que tener cuidado porque hay riesgo de deslizamientos.
@@ -1837,6 +1840,7 @@ La similitud era evidente
 La sopa de ajos con jamón no deja de ser una pijada
 La subida a la ermita se hacía de rodillas.
 La suerte está echada y ya solo nos queda esperar
+La taberna Sabanilla, en la calle San Sebastián
 La tasca de Telma siempre tenía parroquianos.
 La temporada de fútbol comienza antes de que acabe la anterior temporada de fútbol.
 La temática de Alfredo Espino está hecha de todas las cosas.
@@ -2869,6 +2873,7 @@ Por un oído te entra y por el otro te sale
 Por un perro que maté, mataperros me llamaron.
 Por una batalla, se perdió el Reino
 Por una herradura, se perdió un caballo
+Porque el que no es competente... es incompetente
 Porque esta cama es mi sitio.
 Porque lo digo yo y sanseacabó
 Porque tienes un amigo en mí.
@@ -3164,6 +3169,7 @@ Ser o no ser, esa es la cuestión
 Ser rico es muy aburrido
 Ser vegano o vegetariano son cosas distintas.
 Seremos cinco a comer, tres adultos y dos niños.
+Sería bueno que tiraran la casa por la ventana
 Señores y señoras, bienvenidos a está nueva aventura.
 Si bebes para olvidar, paga antes de empezar
 Si bebes, no conduzcas
@@ -3307,6 +3313,7 @@ Su cita es a las nueve de la mañana.
 Su comida favorita es la tortilla con cebolla.
 Su futuro era más negro que los cojones de un grillo
 Su hija se llamaba Selene.
+Su juego de donde dije digo, digo Diego
 Su madre tuvo que tomar cartas en el asunto y poner paz
 Su padre hacía de camello y su madre de mula.
 Su primo es juez.
@@ -3343,6 +3350,7 @@ Sólo recuerda lo que tu viejo amigo dijo.
 Sólo tenemos una semana antes de la mudanza.
 Tal como yo le exponía
 También hemos experimentado con lenguajes de programación para diseñar bots
+También puedes usar uno vacío y un programa de grabación
 También son conocidos los casos de filtraciones
 Tantas cosas por hacer que no le llega la camisa al cuello
 Tantas mentiras acaban pasando factura.
@@ -3703,6 +3711,7 @@ Y nadie me lo va a arrebatar.
 Y no parece haber ningún signo de vida inteligente. ¡ Hola!
 Y no pueden enseñarte nada nuevo, nada nuevo.
 Y no se dio cuenta hasta que alguien le abrió los ojos
+Y no solo no les da, sino que les quita
 Y olía a albahaca y alcanfor.
 Y oímos las estrofas del murmurante río.
 Y qué asco y qué tristeza comenzar a bajar.
@@ -3879,6 +3888,7 @@ adoptaba una actitud lúgubre de poeta sepulturero y doliente.
 adquiere atributo cuando en conjunción con la cinta magnetofónica crea el silencio
 afirmó que menos de uno de cada tres casos fueron tomados en cuenta
 agitado por el desvelo me incorporé en las almohadas.
+agotaría la paciencia de un santo
 agredida en una campaña de acoso encabezada por su exnovio
 ah. es tu amigo porque hasta hoy era el cura del barco
 ahora, con este vestido , esta noche zafarrancho.
@@ -4006,6 +4016,7 @@ aseguren los mosquetones en las hembrillas del suelo
 asesina y estar buena que se rompe? es compatible.
 asimilando a los receptores como tales
 asimilando en muchas ocasiones desnudos con pornografía y lo censuran
+asisten con parsimonia como espectadores asombrados
 asuntos relacionados con la propiedad intelectual
 así como la evolución también
 así debía ser el viaje infernal de los antiguos en la barca de Carón:
@@ -4173,6 +4184,7 @@ casi rozando nuestras cabezas, volaban torpes bandadas de feos y negros pajarrac
 casquillo de una bala de fusil.
 catorce mil ducados por el arzobispado
 centenares de cabezas asoman sobre la borda de la fragata
+cercano a la estación de autobuses
 cerró la noche y a lo lejos vimos llamear muchas hogueras.
 chao. hasta luego .
 chicos, coged todos los arpones
@@ -4257,6 +4269,7 @@ con esa felicidad indefinible que da el poder amar a todas las mujeres.
 con esa gracia extraña y ondulante de las razas nómadas
 con ese viento de treinta y cinco nudos. claro
 con eso que dice de que soy tu mujer en el barco.
+con esto se enfanga aún más el terreno
 con gran soportal de piedra, donde unas viejas caducas se peinaban.
 con gran sorpresa mía hallábame completamente despierto.
 con insultos gratuitos sin ningún contexto que los justifiquen
@@ -4600,6 +4613,8 @@ dicen que hay pollo para cenar esta noche.
 dicen que la mayoría de los músicos piensan
 dicen representar a todos los demás
 dices que sois amigos, pero eso no es cierto.
+dicho edificio ha sido demolido
+dichos problemas son la calidad y la cantidad
 diez mil por la dispensa que le permita conservar todos los cargos
 digo. el agarrado que os marcasteis ...
 digo lo del beso a Julia.
@@ -4634,6 +4649,7 @@ durante horas y horas, los ojos se fatigaban contemplando un horizonte blanqueci
 echad una mano, no creo que sea para quejarse.
 echando la culpa a un ataque profesional y organizado
 echo un polo del fondo marino.
+edificio palaciego con una bonita fachada neoclásica
 eh, vamos... ven ...
 el Conde Drácula llame parásitos a los mosquitos
 el Contestador Telefónico Automático nos distingue
@@ -4698,6 +4714,7 @@ el hermoso, el blondo , el gigantesco adolescente , seguía hablando con el mula
 el hombre empieza a cansarme, y me resuelvo a no contestarle.
 el horizonte relampagueaba.
 el horizonte ríe bajo un hermoso sol.
+el incompetente no merece competencias...
 el indio hace señal de alejarse:
 el indio no se movió.
 el indio ya se recogía, como un gato montés , dispuesto a saltar sobre mí.
@@ -4760,6 +4777,7 @@ el que está en peligro
 el que tenga hambre, que se aguante como todos.
 el recogimiento era amoroso y tentador.
 el recuerdo de la Niña Chole perseguíame con mariposeo ingrávido y terco.
+el resto de los días no prueban bocado
 el resto de mi vida sola, en el barco.
 el resto de propiedades que son eternas
 el sinsonte agitóse dentro de su jaula y prorrumpió en gorjeos:
@@ -4983,6 +5001,7 @@ es el interés privado
 es el mejor regalo de Navidad de mi vida.
 es el osito preferido de Valeria. su primer regalo .
 es el presente, la noche de Reyes.
+es el segundo bar más antiguo
 es el silencio absorbido que continúa y sirve de telón de fondo
 es en las letrinas. se ha cagado . ¡ se ha cagado!
 es esa a la que un golpe en su coche
@@ -5185,6 +5204,7 @@ estas gafas se las ha regalado Julia.
 este barco es su nuevo hogar
 este caballero tiene la honra de ser mi acreedor.
 este camarote es uno de sus escondites preferidos.
+este es conocedor de todo lo que pasa
 este es el problema.
 este es un petrolero de Vigo.
 este humilde fraile celebra su misa con un licor menos delicado.
@@ -5328,6 +5348,7 @@ haga que se lleve a unos cuantos inocentes por delante
 hago lo que puedo para no entrar en conflicto con otras personas
 hala, a jugar.
 han creado una rutina
+han demostrado su respeto en la preservación del patrimonio
 han desafiado una campaña de seguridad sin precedentes
 han hecho uso de él algunas causas deplorables
 han pasado muchas horas.
@@ -5485,6 +5506,7 @@ joder, Ricardo , es que...
 juan de Guzmán es mi amigo, y , sin embargo , yo jamás hubiera osado tanto.
 juan de Guzmán sonrió desdeñosamente:
 juan de Guzmán tenía la cabeza pregonada, aquella magnífica cabeza de aventurero español.
+juegan con más o menos disimulo al juego de las apariencias
 julio César se detiene en la puerta, bajo el pabellón que forman las cortinas:
 jurando arrancarme las entrañas y prometiendo beberse toda mi sangre.
 juraría que también tuvo miedo:
@@ -5592,6 +5614,7 @@ la información necesaria para acceder a cada uno de nuestros servicios
 la inquietud de mi caballo, que temblaba levantando las orejas y sacudiendo la crin 
 la justicia, si no es ciega, al menos debería ser daltónica
 la libertad del pasaje. o tres:
+la lista da ya para varios libros
 la luna derramaba sobre ellas su luz lejana e ideal como un milagro.
 la madre que la...
 la melancolía del sexo, germen de la gran tristeza humana.
@@ -5848,6 +5871,7 @@ los fantasmas no existen ni en este barco ni en otro sitio.
 los grandes poderes económicos fabrican la ideología y la transmiten
 los grupos de interés que aparecen a lo largo del texto
 los hay marcados con una flecha hacia abajo
+los hechos son los que son
 los hombres como yo todo lo perdonan.
 los huevos fritos con patatas pueden ser manjar de dioses
 los huevos fritos con patatas serían manjar de dioses
@@ -5884,6 +5908,7 @@ los servicios de media distancia andaluces requieren de un debate
 los siervos respondían a coro.
 los sofisticados programas de intercambio en desarrollo
 los suizos siempre terminaban la tertulia con una canción
+los superventas no necesitan de las redes de intercambio
 los superventas son ideológicamente estériles
 los telépatas estaban en la lista negra de Teddy
 los telépatas no estarían cometiendo una ilegalidad
@@ -5895,6 +5920,7 @@ los videojuegos al final son un reflejo de esta sociedad
 los últimos meses de vida de toda una generación
 luego le llevo el pedido, ¿ vale?
 luego nos besamos y...
+lugar de encuentro de poetas y bohemios
 mal, señor.
 mala es la sazón, señor.
 mandándolo a su dirección postal
@@ -5988,6 +6014,7 @@ me voy a cubierta a echar un purito
 me voy a zanjar lo de Gamboa.
 mediante un comunicado
 medio desnudas, desgreñadas , arrojando maldiciones sobre la multitud 
+medios que se pueden usar desde el activismo
 meditó un instante, y luego , lento y tardío , murmuró:
 mejor hacer el proceso en dos pasos
 mejor les dejo solos.
@@ -6094,6 +6121,7 @@ ni mirarte casi.
 ni puedo fingir que...
 ni rifles ni escopetas.
 ni siquiera esta semana. ah, eh ...
+ni siquiera sabías que existía
 ni tiendas de chinos, ni campanadas en la Puerta del Sol 
 ni un comentario.
 ni uniformes ni horarios... eso no es verdad .
@@ -6477,6 +6505,7 @@ para no verlas por el barco, por Valeria , sobre todo.
 para pecar sin ofender a nadie.
 para poder comprender lo que pretenden reseñar
 para ponerse a filosofar con lo que es normal y no lo es.
+para preparar esos discursos se reúne con la élite
 para probar si es el hombre de tu vida
 para que el barco no sufra. vale . frena esas cadenas .
 para que expire en un tiempo determinado
@@ -7095,13 +7124,17 @@ se descubra la rata pobre que realmente eres
 se dispersaron.
 se divisaba el resplandor rojizo de la selva que ardía.
 se empeña en hacerle el boca a boca a una cultura en plena forma
+se está haciendo un gran esfuerzo de reconstrucción de su legado
+se está haciendo un gran esfuerzo de recuperación
 se fastidian. seguro . o no .
 se ha corrido la tinta un poco.
+se ha dejado abandonado para declararlo en ruinas y demolerlo
 se ha demostrado la conformidad de la combinación entre el equipo de radio
 se ha hecho sangre.
 se ha juntado una punta de tiburones, ¿ sabe?
 se ha movido. mira .
 se ha parado.
+se han intentado casi todos los caminos
 se humedecen los labios.
 se la otorgué liberal.
 se le metían en los ojos, y sonreía al bello y blondo adolescente.
@@ -7120,6 +7153,7 @@ se procedería a la destrucción de la máquina
 se pueden producir, modificar y redistribuir libremente
 se puso el sol entre presagios de tormenta.
 se quedan con toda la pasta
+se quejan por el intercambio porque éste da a los músicos publicidad
 se querellaban a cada jugada, y el que perdía amenazaba de muerte al ganancioso.
 se reafirmó en todas y cada una de sus posturas
 se refiere a ellos cuando se lamenta de su infracción
@@ -7266,6 +7300,7 @@ sino que tu fiesta de cumpleaños podría valer
 sintiendo que el sueño me volvía, cerré la ventana.
 sirve como filtro a la hora de componer
 sirve como un medio de amplificar el descontento de los usuarios
+situado en la carretera de Santa Fé
 siéntate, Brión... ¿ qué tropa era esa?
 siéntense: es menester que esta dama cobre ánimos.
 sobre el dormido cristal de esmeralda, la fragata dejaba una estela de bullentes rizos.
@@ -7351,9 +7386,11 @@ supongo que eso es parte del trato de ser amigos.
 supongo que hubiera preferido mil veces que me abofeteara
 supongo que tenemos que hablar, ¿ no?
 supongo que vamos todos.
+sus actos caen en saco roto
 sus barbas chivas temblaban de cólera:
 sus credos se distinguían por sus grados de intolerancia y fanatismo
 sus críos, tiznados y esbeltos como diablos 
+sus especialistas tienen experiencia y amplia formación
 sus habitantes actuaron como si estuvieran divisando un meteorito
 sus miedos e intereses más profundos
 sus más profundos miedos e intereses
@@ -7399,6 +7436,7 @@ tan presto iban rastreando como se remontaban en la claridad azul.
 tan seguro de sí mismo, descarté esta posibilidad
 tanto en el léxico como en la sintaxis
 tanto esfuerzo para nada.
+tanto por inacción como por omisión
 te despellejo, te lo juro.
 te digo una cosa, ahora mismo debe haber cinco o seis como este
 te entraba un miedo muy grande.
@@ -7485,6 +7523,7 @@ tiene unos efectos secundarios que ni el diablo había previsto
 tiene veinticuatro horas para analizarlo, averiguar si estuvo en tierra
 tienen algo de misterioso, de quimérico y lejano 
 tienen fecha de caducidad
+tienen igual responsabilidad en la perdida de patrimonio
 tienen mentol que va muy bien.
 tienes contusiones graves y puede ser peligroso.
 tienes los dedos congelados y no sientes nada.
@@ -9023,6 +9062,7 @@ yo ya no puedo estar contigo.
 ¿pueden dos personas con poderes telepáticos transmitirse la letra de una canción?
 ¿que mover mesas y hacer levitar sillas?
 ¿se puede tratar solo de una mala negociación?
+¿será que no se encuentra cerca del Ayuntamiento?
 África empieza en los Pirineos
 Él dice que no fue un accidente.
 Él es mío, y nadie me lo quitará.
