@@ -58,6 +58,7 @@
 "Este deserto já foi um mar?", disse ele.
 "Estes são os espiões?" disse um dos homens.
 "Estou caçando com meu falcão?" respondeu o alquimista.
+"Estou observando um comportamento passivo-agressivo", disse o psicólogo em tom profissional.
 "Estou saindo hoje?" disse o menino.
 "Estou surpreso?" o menino disse.
 "Eu acho que eles vão durar por muito tempo?" ele disse ao monge.
@@ -258,6 +259,7 @@ A Literatura é a técnica de compor e expor textos escritos.
 A Marinha vai voar para casa esta tarde.
 A Melanie Scott esteve nos jornais?
 A Samsung é uma empresa americana?
+A Sicília é a maior ilha do Mar Mediterrâneo.
 A Sra. Jason está no telefone.
 A Tailândia acabou sendo um feriado muito satisfatório.
 A Terra tem cerca de quatro ponto cinco milhões de anos.
@@ -308,6 +310,7 @@ A caixa foi jogada ao lado do caminhão estacionado.
 A camisa das minhas costas.
 A caneta é mais forte do que a espada.
 A canoa de bétula deslizou sobre as tábuas lisas.
+A capa da revista mostrou um cachorrinho fofo.
 A capa era um mero adorno.
 A capital da Espanha é Madri.
 A capital do Brasil é Brasília.
@@ -334,6 +337,7 @@ A cidade ainda estava dormindo.
 A cidade de Nova York.
 A cidade de Porto Alegre.
 A cidade inteira está em alvoroço.
+A cidade já foi famosa por suas comemorações anuais.
 A cidade murada foi tomada sem luta.
 A cidade toda ficou louca.
 A cintura amassada pareceu romper o forte envoltório de baleias.
@@ -494,6 +498,7 @@ A jaqueta tinha um propósito? e o menino também.
 A jovem está jogando basquete.
 A jovem mulher na camisa azul e no sobretudo preto faz waffles caseiros.
 A jovem não deu uma resposta clara.
+A julgar pelas entradas anteriores?, a competição é muito intensa nessa coisa.
 A juíza Debra me enviou.
 A lagarta respondeu com um aceno de cabeça.
 A laje foi escavada em blocos pesados ​​de ardósia.
@@ -519,12 +524,14 @@ A luz dançou através do lago.
 A luz das estrelas cintila no céu branco
 A luz laranja fraca reflete a paisagem urbana
 A luz rosa na caixa marrom brilhou.
+A luz verde na caixa marrom piscou.
 A lâmpada de latão havia sido perturbada.
 A lâmpada de neon vermelha estava quebrada.
 A maionese é feita a partir de ovos, azeite, vinagre e mostarda.
 A maior coisa viva é um cogumelo.
 A maior parte da energia será absorvida pela fricção cinética.
 A maior produção do ano em arroz.
+A maioria das motos de passeio na área, mas é preciso ter muito cuidado.
 A maioria das pessoas deve estar familiarizada com
 A maioria das pessoas leva isso bem cedo na vida.
 A maioria das pessoas é cega
@@ -575,6 +582,7 @@ A mudança é tão boa quanto um descanso.
 A mulher assina acima em uma tabela durante uma reunião da sociedade do chapéu.
 A mulher com binóculos está sentada no chão da floresta olhando para cima.
 A mulher com cabelo loiro mantém seus óculos escuros.
+A mulher de chapéu azul está cortando comida
 A mulher do cabelo louro fala ao homem no lenço vermelho.
 A mulher está lendo para um menino sobre dinossauros.
 A mulher está posando de salto alto em uma escada enferrujada
@@ -595,6 +603,7 @@ A música foi cativante.
 A música folk não é meu gênero musical favorito.
 A música parou então? pegando os palhaços no meio do caminho.
 A música preferida da Juliana era Juliana e Fernando e Sorocaba.
+A natureza humana tem seus limites.
 A natureza é bela.
 A necessidade estava clara
 A necessidade é o pai na inovação.
@@ -611,6 +620,7 @@ A notícia atingiu a dúvida em mentes inquietas.
 A notícia estava gelando? para dizer o mínimo.
 A nova família chegou aos parentes.
 A nova lei foi retroativa.
+A nova lei proíbe fumar em sistemas de transporte público.
 A nova loja parece ter muitas quedas de energia.
 A nova loja vai começar a construção.
 A nuvem se moveu de maneira majestosa e desapareceu.
@@ -633,6 +643,7 @@ A partir desta dieta, você precisa prestar muita atenção.
 A pasta pode limpar o latão mais sujo.
 A paz do dia
 A penúltima caixa de sapatos continha algo muito mais interessante - dinheiro.
+A perda de um homem é o ganho de outro homem.
 A perda de um homem? é o ganho de outro homem.
 A perda de uma pessoa é o lucro de outra pessoa.
 A perda do cruzador foi um golpe para a frota.
@@ -657,6 +668,7 @@ A porcentagem de dióxido de carbono no ar atingiu um nível extraordinário.
 A porta estava trancada.
 A porta está aberta
 A posição onde o valencianismo é encontrado é fundamental.
+A praia parecia tão bonita.
 A praia é seca e rasa na maré baixa.
 A presente alteração não afeta o escopo regulatório do preceito.
 A pressão era muito grande
@@ -688,6 +700,7 @@ A razão para este? é discernir seus pontos fortes.
 A rede elétrica não tinha aterramento
 A regra da cadeia é aplicada duas vezes a essa fórmula.
 A regra tem sido longa e próspera.
+A regra é não deixar estrangeiros entrarem.
 A reportagem era enganosa
 A reserva de óleo está secando.
 A resposta vem para o fundo
@@ -753,6 +766,7 @@ A verdade não poderia ser dita impunemente.
 A verdade sempre tem uma cabeça comprometida.
 A verdade é que eu não sei.
 A verdade é que tudo é passageiro.
+A verdadeira beleza está dentro.
 A viabilidade foi avaliada
 A viagem estava chegando ao fim
 A viajem será longa
@@ -768,6 +782,7 @@ A vingança não é meu estilo?, mas obviamente acidentes acontecerão.
 A vista deveria valer a pena.
 A voz feminina mais alta
 A água estava cristalina.
+A água neste poço é uma fonte de boa saúde.
 A área de descanso do pessoal tornou-se tão boa
 A área estava rodando em poeira tão intensa que escondia a lua de vista.
 A égua cinza andou na frente do volante.
@@ -825,6 +840,7 @@ Acho que talvez seja melhor ir para a cama.
 Acho que você está certo.
 Acho que vou migrar para o Ubuntu em breve.
 Acho que vou para casa e ver o que a família está fazendo.
+Acho que vou.
 Acima de tudo
 Acima está o pão do lince.
 Acompanhado por mim
@@ -886,6 +902,7 @@ Afinal, é para isso que existe o sindicato.
 Afinal? ele tinha todo o seu dinheiro.
 Afirmado pelos meios de comunicação nacionais e estrangeiros
 Afirmativa? uma taxa de violação está disponível.
+Africanos de todas as idades cantando seus corações cercados pela mãe natureza.
 Agite as mãos com esta criança amigável.
 Agora a lua está fora.
 Agora ele estava aqui não com seu rebanho?, mas com uma pá.
@@ -916,6 +933,7 @@ Agora vou me afastar suavemente da terra dos sonhos.
 Agora, como você sabe que?
 Agora, isso nem sempre é o caso.
 Agora, o termo que eles fazem não é o tópico, mas a "entonação".
+Agora, qual é a história?
 Agora, você só estava interessado no dinheiro.
 Agora? estou com medo do que há dentro das tortas.
 Agosto pode ter terminado cedo.
@@ -975,6 +993,7 @@ Ajude-me!
 Ajudou o Dr. Chen a escolher uma flor na lapela
 Ajuste o alarme para as sete horas.
 Alabama, Montgomery.
+Albert Einstein foi um físico alemão que desenvolveu a Teoria da Relatividade.
 Albert Einstein.
 Alcançar o contexto histórico da situação social atual
 Alces bêbados são muito perigosos.
@@ -988,6 +1007,7 @@ Algoritmos de compressão de dados.
 Algum lugar para morar!
 Algumas crianças brincando em um buraco cheio de bolas coloridas
 Algumas crianças em jalecos estão fingindo fazer uma cirurgia em um manequim.
+Algumas crianças estão jogando em um forte.
 Algumas crianças estão jogando feno por cima de uma cerca para um cavalo.
 Algumas crianças vestindo coletes salva-vidas e segurando remos estão em uma jangada
 Algumas das cinzas estavam caindo da borda circular.
@@ -1016,8 +1036,10 @@ Alguns comerciantes em um parque fora do cinema vendem cobertores.
 Alguns de nossos maiores clientes são afetados.
 Alguns deles tinham binóculos.
 Alguns foram embora enquanto eu estava lá? e outras pessoas vieram.
+Alguns homens asiáticos e uma mulher asiática sentado em um par de mesas.
 Alguns homens estão em frente a uma fileira de bandeiras.
 Alguns homens fumavam de um cano gigantesco que passavam de um para o outro.
+Alguns japoneses desfrutam de shows de fogos de artifício em uma rua local
 Alguns meninos estão no palco apontando para o céu.
 Alguns meninos jogando futebol na areia
 Alguns pulando de uma ponte para a água enquanto outros observam da ponte.
@@ -1138,6 +1160,7 @@ Aparentemente, são os bolinhos que fazem com que o ensopado seja tão bom.
 Aparentemente,? são os bolinhos que fazem esse ensopado ter um sabor tão bom.
 Aparências enganam.
 Apenas a colônia de formigas do bairro.
+Apenas a poucos metros há uma estação de ônibus.
 Apenas alguns minutos restantes
 Apenas as luzes da grande tenda permaneceram.
 Apenas deixe seu cartão com o garoto.
@@ -1199,6 +1222,7 @@ Aquele cara ali gosta de beber muito? fala muito? mas não faz nada.
 Aquele gravador de tela é leve.
 Aquele maldito rato podia sentir minha raiva.
 Aquele primeiro dia? todo o mundo dormiu de esgotamento? inclusive o inglês.
+Aquele que canta afasta a tristeza.
 Aquele que luta e foge? vive para lutar outro dia.
 Aquele que paga por último nunca paga duas vezes.
 Aquele que paga.
@@ -1225,6 +1249,7 @@ Ariana Grande participou de Brilhante Victória.
 Arnold apresentou um gráfico mostrando quantas cegonhas ele havia contado nos últimos dez anos.
 Arranha-céus altos? um caminhão verde e uma mulher de camisa amarela.
 Arranjos florais fazem essas tabelas parecerem divinas.
+Arremesse a palha pela porta do estábulo.
 Arthur Bernardes era mineiro.
 As autoridades de Bordeaux revistaram seu compartimento no trem.
 As ações da vovó são bastante suaves
@@ -1272,6 +1297,7 @@ As festas de Páscoa e Natal serão consideradas o dia trabalhado.
 As festas, para muitos, são pragas.
 As figuras assim obtidas constituirão a informação básica sobre a superfície.
 As florestas tropicais estão esgotadas? transformamos o planeta em um terreno baldio.
+As folhas ficam marrons e amarelas no outono.
 As folhas secas dançam com sacos de plástico e lenços de papel.
 As formigas de fogo estão conquistando o mundo.
 As galinhas põem tantos ovos por semana? que não seria possível criá-los todos.
@@ -1314,6 +1340,7 @@ As pernas de várias pessoas passando por um beco.
 As pessoas andam em uma calçada ao lado de trilhos de bonde.
 As pessoas andam na frente de alguns graffiti.
 As pessoas andam por um caminho em uma aldeia na Índia.
+As pessoas andam por uma rua de paralelepípedos com prédios em ambos os lados.
 As pessoas ao meu lado estão dizendo que comprar e vender é muito lucrativo.
 As pessoas brigam por nada.
 As pessoas caminham pela praia.
@@ -1346,6 +1373,7 @@ As pessoas estão olhando para ele.
 As pessoas estão passeando em um mercado
 As pessoas estão pegando pratos de fogo.
 As pessoas estão puxando um grande trator verde.
+As pessoas estão reunidas em um parque.
 As pessoas estão reunidas em uma multidão olhando para barcos.
 As pessoas estão saindo de alívio!
 As pessoas estão se dedicando à música e se divertindo muito.
@@ -1353,6 +1381,7 @@ As pessoas estão se deslocando em torno de um cruzamento movimentado da cidade
 As pessoas estão se deslocando em torno de um cruzamento movimentado da cidade.
 As pessoas estão se enfrentando enquanto jogam futebol.
 As pessoas estão sentadas no sofá e rindo.
+As pessoas estão tirando fotos
 As pessoas estão usando correias transportadoras para subir ou descer.
 As pessoas examinam livros em uma biblioteca.
 As pessoas falam muito sobre os presságios que o pastor pensava.
@@ -1459,6 +1488,7 @@ Auto-falantes de alta qualidade.
 Avaliar tudo o que resta a cinco
 Avançando lentamente?, eles procuraram entre as pedras.
 Avó e mãe
+Avós sentado em um banco com seu neto.
 Avô faleceu
 Azul confia em suas ações, uma esperança tola.
 Ação rude
@@ -1478,6 +1508,7 @@ Basta prestar atenção ao noticiário
 Bata a poeira do tapete no gramado.
 Bata tudo até obter a consistência de um creme não muito grosso.
 Beba café e coma chocolate
+Bebê amando sua primeira vez no balanço.
 Bebê de jaqueta marrom? chorando e caminhando até um menino? de carro laranja.
 Bebê em um banho de espuma, realizada por uma mulher em uma camisa azul
 Bebê tirando uma soneca no berço.
@@ -1488,6 +1519,7 @@ Bem o horário do filme.
 Bem quem tem nós aqui?
 Bem vindo senhor!
 Bem, ele está em vermelho.
+Bem, eu acho que sim.
 Bem, eu deveria pensar que foi de repente!
 Bem, eu gosto disso!
 Bem, eu não sei bem o que dizer.
@@ -1538,6 +1570,7 @@ Bom dia!
 Bom ou ruim, quer ser parente da mulher.
 Bom primo desde a infância
 Bom problema pode suportar
+Bom vinho arruína a bolsa? e o vinho ruim estraga o estômago.
 Bom vinho é mantido em um barril pequeno.
 Bombeiro e Polícia
 Bons alunos avançados
@@ -1610,17 +1643,20 @@ Carta de Sangue e Ferro
 Carta de Sangue e Ferro.
 Carvalhos poderosos de pequenas bolotas crescem.
 Casa de Dee agora?
+Casa de um homem é o seu castelo
 Casa inteligente.
 Casa!
 Casal dança enquanto uma banda brinca com luzes vermelhas e nevoeiro.
 Casal gordinho gosta de escavar lixo fora de sua piscina
 Casal jovem em trajes formais de mãos dadas
+Casal na sombra se afasta de uma vitrine iluminada em direção à câmera
 Casar com pressa, arrependa-se no lazer.
 Caso contrário, você poderia se esconder em algum café ou outro por um tempo.
 Casper previu o resultado.
 Cassie desmontou a bicicleta.
 Catherine andou ao lado do canal.
 Cavaleiro da bicicleta pulando obstáculos.
+Cavalo dado não se olha os dentes.
 Cavar fundo na terra para o ouro dos piratas.
 Caça aos patos bravos
 Celebrações ecoaram pela terra.
@@ -1752,6 +1788,7 @@ Com cuidado, tente entender o humor e a técnica do pintor
 Com esse tipo de organização, acho muito mais fácil priorizar dentro de uma categoria.
 Com isso, vamos registrar que falamos de cristãos antigos.
 Com licença, nudismo não é permitido nessa parte da praia.
+Com medo de chover?
 Com o dedo indicador?, a menininha apontou para a mãe.
 Com o punho cerrado? ele bateu na mesa.
 Com o tempo, os aprendizes são mestres.
@@ -1761,6 +1798,7 @@ Com quem você falou?
 Com tudo isso?
 Com um coração valente, com uma alma infundida na luta pela pátria do santo!
 Com um saco de marshmallows.
+Com ênfase
 Coma bem
 Coma o café da manhã no mercado
 Coma um grito de barriga de pudim
@@ -1796,7 +1834,9 @@ Como ele é?
 Como eles conseguiram improvisar em tão pouco tempo, ela nunca saberá.
 Como eles conseguiram improvisar em tão pouco tempo? ela nunca saberá.
 Como eles são?
+Como escravo desta tarefa?, clico com cautela na resposta!
 Como especular sobre isso?
+Como estudantes, eles fundaram um grupo a capella e agora são comercialmente bem-sucedidos.
 Como está o tempo em Austin, Texas?
 Como está o tempo?
 Como está?
@@ -1807,6 +1847,7 @@ Como evitar uma enorme morte da colônia.
 Como fazer isso?
 Como foi a comida lá?
 Como foi seu dia
+Como isso aconteceu?
 Como isso afeta você?
 Como isso pode ser resolvido separadamente?
 Como isso pôde acontecer?
@@ -1874,6 +1915,7 @@ Como você gostaria de trabalhar para mim?
 Como você gostaria de um soco no nariz?
 Como você lida com os pesos negativos?
 Como você para essa coisa?
+Como você pode dizer isso no funeral?
 Como você pode dizer isso?
 Como você pode dizer?
 Como você pode ter alguma felicidade depois disso?
@@ -1934,8 +1976,10 @@ Conhecimento é melhor que riquezas
 Conhecimento é poder
 Conheça as tendências e aplicações futuras
 Conscientização de todos os operadores para que eles utilizem primeiro produtos que expiram antes.
+Consciência faz covardes de todos nós
 Conserte o casaco antes de sair.
 Considera a dimensão horizontal como tempo.
+Considerando o crescimento da população humana? insetos pode ser a comida do futuro.
 Considerará a viabilidade
 Consiste na realização dos exercícios físicos especificados no anexo dois desta Resolução.
 Constantemente impactando nossas crenças
@@ -1979,6 +2023,7 @@ Copo com água.
 Coração de ouro
 Cordeiro assado está cheio
 Coro da sociedade harmônica.
+Corpo de bombeiros realizando um resgate.
 Corporação de mídia nova
 Corra para a rua comercial
 Corra para comprar frutas
@@ -1997,15 +2042,19 @@ Costa Rica foi incrível no campo!
 Costumava caçar coelhos lá comigo.
 Craqueamento é uma palavra estranha.
 Cresça com raiva lentamente? há bastante tempo.
+Criança brincando com peças de xadrez em um tabuleiro de xadrez.
 Criança brincando em um monte de neve na rua.
 Criança desajeitada?
 Criança loura na camisa do superman.
 Crianças africanas fazem caretas para a câmera.
 Crianças asiáticas correm por um longo corredor cinza.
+Crianças brincando na água.
 Crianças comendo em um café ao ar livre alguém não gosta do menu.
 Crianças conversando e aprendendo em sala de aula.
+Crianças correndo na aula de ginástica com seu professor.
 Crianças correndo pela grama.
 Crianças descansando e subindo muitos degraus.
+Crianças dormindo no chão.
 Crianças e adultos caminham por uma fazenda de árvores.
 Crianças e adultos nadam na grande piscina com escada vermelha
 Crianças em patins estão jogando hockey dentro de casa
@@ -2194,6 +2243,7 @@ Desculpas por não ligar de volta. Acabei de trabalhar.
 Desculpe por interromper sua palestra?, senhor Edward.
 Desculpe, eu não consegui!
 Desculpe, mas sou alérgico a isso.
+Desculpe, o período de teste expirou.
 Desculpe-me!
 Desculpe-me?, onde posso encontrar alguns livros contábeis para pedir emprestado?
 Desculpe-te pelo que?
@@ -2206,6 +2256,7 @@ Desde que foi reparado? o carro não mostrou mais o problema.
 Desde que o mineiro sacrificou tudo para seu destino, o velho decidiu se envolver.
 Desde que recebi um cachorro?, as visitas regulares da raposa pararam.
 Deseja encontrar o show chamado Hunters of the Dusk
+Desejo encontrar um romance chamado Holocausto Africano
 Desejo o melhor!
 Desejo que você tenha um bom dia.
 Desenvolver o hábito de escrever um diário da escola primária
@@ -2324,6 +2375,7 @@ Dois adultos balançam alto em direção à câmera em um parque infantil.
 Dois amigos foram notificados do acontecido.
 Dois artistas de rua estão fazendo truques com fogo
 Dois bombeiros ao lado de seu motor de fogo.
+Dois cachorrinhos brancos correndo.
 Dois cachorros brigam por alguma coisa.
 Dois cachorros correm pela neve.
 Dois cachorros marrons correm pela água.
@@ -2334,6 +2386,7 @@ Dois caras bebendo e fazendo caretas.
 Dois caras de casacos na praia estão fazendo sinais.
 Dois caras jogando futebol em um campus verde.
 Dois caras se divertindo jogando e cantando uma canção
+Dois caras trabalhando fora do trilho.
 Dois casais estão prestes a se casar
 Dois casais estão sentados em uma mesa de piquenique em um cenário de parque.
 Dois ciclistas em amarelo estão competindo em uma corrida
@@ -2359,6 +2412,7 @@ Dois cães estão correndo por um caminho da floresta.
 Dois cães estão correndo por um campo cheio de troncos.
 Dois cães estão lutando na neve.
 Dois cães estão pulando em uma praia vazia com ondas.
+Dois cães estão se esfregando nariz a nariz.
 Dois cães lutam na neve em uma área cercada.
 Dois cães marrons andando pela neve.
 Dois cães marrons com colares azuis estão correndo na grama
@@ -2369,6 +2423,7 @@ Dois cães molhados correm para o surf ao pôr do sol.
 Dois cães nos chicotes de fios que correm na grama alta.
 Dois cães passam uns aos outros perto de um pouco de água.
 Dois cães pretos? um cachorrinho preto? e um cachorro branco na neve.
+Dois cães rajados correndo na grama.
 Dois cães saem do lago do oceano.
 Dois cães se enfrentam no meio de um campo
 Dois dados foram lançados
@@ -2378,6 +2433,7 @@ Dois escorpiões estavam ameaçando um ao outro com suas picadas.
 Dois esquiadores caminham pela floresta.
 Dois filhotes caminhando sobre pedras.
 Dois garotos correndo por uma passarela de nível superior.
+Dois garotos da escola correm para terminar a corrida.
 Dois garotos estão correndo lá fora.
 Dois garotos jogando um jogo? um com a boca bem aberta.
 Dois homens ambos com tampas de motorista estão examinando um rebento
@@ -2393,6 +2449,7 @@ Dois homens com sacolas correm na mesma direção.
 Dois homens com uma boneca em uma escada rolante.
 Dois homens com uniformes azuis de futebol praticam futebol.
 Dois homens construindo um conjunto como para uma peça talvez.
+Dois homens dançam juntos enquanto uma multidão os anima
 Dois homens de short e mangas curtas saltam no ar
 Dois homens de shorts lutam na grama curta.
 Dois homens discutem um sinal que diz Jesus ou Inferno.
@@ -2415,18 +2472,23 @@ Dois homens estão colocando tijolos para a chaminé de uma casa.
 Dois homens estão envolvidos em karatê em um quarto todo branco
 Dois homens estão jogando basquete
 Dois homens estão lutando enquanto outras pessoas estão assistindo
+Dois homens estão olhando o oceano em um recurso tropical.
 Dois homens estão participando de um jogo de karatê.
+Dois homens estão pintando cerâmica.
 Dois homens estão preparando o jantar em fogo com latas.
 Dois homens estão rindo na frente de uma luz.
 Dois homens estão servindo cerveja de uma torneira.
 Dois homens estão trabalhando em madeira.
 Dois homens estão trabalhando juntos em montar uma moldura de madeira.
 Dois homens estão trabalhando juntos em uma escada.
+Dois homens falaram em árabe enquanto tomavam uma bebida no bar.
 Dois homens filetam um peixe em uma pia enquanto outros assistem.
 Dois homens lidam com um grande telescópio enquanto um está olhando através
+Dois homens lutam em uma luta de boxe com luvas brancas.
 Dois homens na arena de curling.
 Dois homens na varanda olham para cima e apontam para alguma coisa.
 Dois homens no cerco praticando branco em uma corte.
+Dois homens novos pintam em cores brilhantes em uma parede.
 Dois homens novos que saltam sobre dois registros de madeira grandes.
 Dois homens olham como um terceiro coloca detergente em uma máquina de lavar.
 Dois homens passando por um mural de um carro.
@@ -2437,6 +2499,7 @@ Dois homens que têm o divertimento que skydiving.
 Dois homens que vestem chapéus andam por uma parede velha.
 Dois homens realizam reparos em um elevador laranja.
 Dois homens sem camisa balançam no andaime.
+Dois homens tiram fotos um do outro enquanto uma mulher seminua segura um cartaz
 Dois homens tocando em uma banda.
 Dois homens trabalhadores fazendo seu trabalho com seu supervisor.
 Dois homens trabalhando em um andaime.
@@ -2451,6 +2514,7 @@ Dois homens, falando, um ao outro, exterior
 Dois homens? usando polos brancos? estão do lado de fora lendo o jornal.
 Dois indivíduos estão correndo por uma rua em algum tipo de competição de corrida.
 Dois jogadores de basquete estão lutando pela bola na quadra.
+Dois jogadores de basquete, brigando por cima da bola.
 Dois jogadores de beisebol colidem.
 Dois jogadores de bola de futebol estão perseguindo a bola.
 Dois jogadores de futebol jovens vestindo uniformes azuis e amarelos lutam pela bola.
@@ -2458,12 +2522,15 @@ Dois jogadores de hóquei estão brigando pelo disco.
 Dois jovens com cabelos cacheados estão sentados em uma mesa comendo
 Dois jovens construtores de Boneco de Neve se encantam com sua criação.
 Dois jovens enfermeiros exibem brinquedos para as crianças brincarem.
+Dois jovens estão andando na calçada cercada por outros jovens.
 Dois jovens estão correndo pela grama no outono.
 Dois jovens estão em uma cabana.
 Dois jovens estão envolvidos em uma luta de almofadas ao ar livre na cidade.
 Dois jovens jogadores estão se empurrando em um treino de futebol.
 Dois jovens jogando basquete? um defendendo o outro tentando fazer uma cesta.
 Dois jovens levantam seus parceiros de balé do lado de fora.
+Dois jovens praticam Kickboxing.
+Dois jovens rapazes brincando com patos perto da água.
 Dois jovens sentados em uma mesa e sorrindo.
 Dois jovens tocam trompete no tradicional vestido mariachi.
 Dois jovens? Os machos brancos estão do lado de fora perto de muitos arbustos.
@@ -2481,6 +2548,7 @@ Dois meninos em uniformes ensacando mantimentos em uma mercearia.
 Dois meninos espirram na água do lado de fora
 Dois meninos estão limpando as folhas caídas.
 Dois meninos estão segurando pipas vermelhas com água no fundo.
+Dois meninos estão sentados em um monte de sujeira.
 Dois meninos jogam com um enigma em uma sala de aula.
 Dois meninos pequenos estão entrando em uma van de cor acinzentada.
 Dois meninos pequenos jogam em um carrinho de compras em um estacionamento.
@@ -2489,6 +2557,7 @@ Dois meninos seguram as mãos de um homem.
 Dois meninos subindo postes de telefone para ficar fora das águas da enchente
 Dois mil e dezoito.
 Dois miúdos que jogam no equipamento do campo de jogos.
+Dois para um são probabilidades no futebol.
 Dois pilotos dirigindo um carro laranja
 Dois policiais armados estão patrulhando as ruas.
 Dois policiais e estão em motocicletas.
@@ -2498,9 +2567,11 @@ Dois povos sentam-se em uma doca com um por do sol no fundo.
 Dois rapazes com cavanhaque raspando a cabeça com navalhas.
 Dois rapazes jogando futebol em um campo.
 Dois santos em um dia.
+Dois snowboarders estão no ar sobre a neve
 Dois socorristas estão tratando um paciente ao ar livre.
 Dois velhos com chapéus estão de pé entre os carros com seus acordeões.
 Dois velhos em chapéus cochilam ao sol do lado de fora
+Dois velhos sorrindo em vestes.
 Dolores Aveiro, mãe de Cristiano Ronaldo, partiu na passada sexta-feira.
 Donald Trump e Barack Obama não são bons amigos.
 Donald Trump é o presidente dos Estados Unidos desde dois mil e dezesseis.
@@ -2512,6 +2583,7 @@ Doutor Estranho.
 Droga!
 Duas almas solitárias podem acompanhar
 Duas crianças asiáticas estão vestidas calorosamente em jaquetas coloridas em pé no playground
+Duas crianças brincando na neve perto de uma pilha de toras.
 Duas crianças com cabelo castanho no porta-malas de um carro.
 Duas crianças compartilham um balanço em um campo de jogos.
 Duas crianças correndo sobre uma duna de areia.
@@ -2523,6 +2595,7 @@ Duas crianças estão brincando com um tambor.
 Duas crianças estão brincando com uma pipa em campo aberto.
 Duas crianças estão brincando em um trampolim e um casal está se beijando.
 Duas crianças estão brincando em uma poça de lama.
+Duas crianças estão brincando na praia e a garota está pulando.
 Duas crianças estão dormindo enquanto alguém está mexendo em um livro de música.
 Duas crianças estão enfiando as línguas azuis e verdes para fora.
 Duas crianças estão escalando uma parede de pedra.
@@ -2546,6 +2619,7 @@ Duas garotas estão montando camelos enquanto outra garota olha para elas.
 Duas garotas estão sentadas no chão e uma está usando uma fantasia de animal.
 Duas garotas fazendo uma demonstração na frente de uma platéia lá fora.
 Duas garotas fizeram o trabalho.
+Duas garotas jogando basquete em uniformes vermelhos e brancos
 Duas garotas subindo em cima do muro.
 Duas jovens estão vadeando no oceano usando shorts e shorts de suor.
 Duas lâmpadas estão penduradas na frente do rosto de uma mulher.
@@ -2553,6 +2627,7 @@ Duas meninas e um menino de mãos dadas e pulando em uma piscina juntos.
 Duas meninas estão bordando tecido com fio multicolorido.
 Duas meninas estão em águas rasas sem sapatos.
 Duas meninas lutam pela bola em um jogo de futebol.
+Duas meninas montam um camelo perto da água.
 Duas meninas na roupa colorida dentro de um cerco do chuveiro.
 Duas meninas olham acima em algo ao estar na frente de um microfone.
 Duas meninas pulando de um trampolim em um quintal.
@@ -2560,6 +2635,7 @@ Duas meninas que desenham veleiros com giz no lado do concreto.
 Duas meninas vendendo brinquedos.
 Duas moças correm pela calçada à noite.
 Duas mulheres acariciam um canguru do bebê no parque.
+Duas mulheres andando e falando.
 Duas mulheres andando pela calçada? uma delas carregando uma caixa grande cheia de coisas.
 Duas mulheres ao lado de uma estrada.
 Duas mulheres caminham pela calçada.
@@ -2573,6 +2649,7 @@ Duas mulheres em ternos azuis que sentam-se no pavimento.
 Duas mulheres em vestidos brancos estão passando por uma foto de pessoas jogando golfe.
 Duas mulheres em vestidos posam em uma rua.
 Duas mulheres em vestidos sorrindo para a câmera.
+Duas mulheres estão colocando em uma estrutura de concreto ao lado do oceano.
 Duas mulheres estão escalando rochas perto do oceano.
 Duas mulheres estão na frente de um rebanho de cabras.
 Duas mulheres estão sentadas em uma mesa com três laptops.
@@ -2581,6 +2658,7 @@ Duas mulheres estão sentadas, conversando e rindo juntas.
 Duas mulheres idosas carecas vestidas formalmente
 Duas mulheres jogam voleibol na areia.
 Duas mulheres jovens estão sentadas no meio-fio e conversando
+Duas mulheres loiras estão conversando com um homem em um estacionamento.
 Duas mulheres mais idosas e uma menina do lado de fora sob as flores.
 Duas mulheres na frente de caixas de chá e xícaras.
 Duas mulheres no chute alto heterogéneo em uma parada.
@@ -2590,6 +2668,7 @@ Duas mulheres se abraçam em uma sala lotada onde as pessoas estão tomando bebi
 Duas mulheres sentam-se em blocos debaixo de um guarda-chuva.
 Duas mulheres sorriem enquanto está sentado em uma mesa
 Duas mulheres sênior falam ao sentar-se em um banco.
+Duas mulheres trabalham em seus laptops.
 Duas mulheres vestindo chapéus de formatura e vestes estão sorrindo.
 Duas mulheres vestindo quimonos estão sentadas à sombra de algumas lojas.
 Duas mulheres vestindo saias curtas e sapatos de salto alto falando com um homem.
@@ -2614,6 +2693,7 @@ Duas pessoas estão remando uma canoa pela água.
 Duas pessoas estão sentadas na estrada.
 Duas pessoas fazendo música com um violão e teclado.
 Duas pessoas jogando um intenso jogo de beisebol ao ar livre.
+Duas pessoas perseguindo borboletas e pegando elas.
 Duas pessoas pintando uma parede de tijolos.
 Duas pessoas recriando uma luta medieval.
 Duas pessoas sentadas em frente e interessante edifício segurando uma garrafa de vidro transparente.
@@ -2634,6 +2714,7 @@ Duas senhoras bonitas mostram as costas baixas de seus vestidos
 Duas senhoras chinesas andando pela calçada cercada por árvores vivas? arbustos? e lojas românticas.
 Duas senhoras confusas que estão ao redor após um evento.
 Duas senhoras correndo na frente de um anúncio da CocaCola.
+Duas senhoras dançam em sua vestimenta tradicional.
 Duas senhoras e uma menina em seus pijamas abrindo presentes
 Duas serpentes venenosas foram encontradas no terreno
 Duas vezes.
@@ -2646,6 +2727,7 @@ Durante todo o dia estaremos atentos aos nossos inimigos.
 Duzentos e cinquenta ienes
 Duzentos ienes
 Dá uma ideia da temporada.
+Dá-me a programação agora no cinema mais próximo
 Dá-me a programação de filmes de animação no cinema mais próximo
 Dá-me o escritório do Procurador Distrital.
 Dê Diário da Casa Branca dois pontos
@@ -2815,6 +2897,7 @@ Ela aproveitou sua viagem de fim de semana para o mar báltico.
 Ela assentiu silenciosamente
 Ela atravessou a rua usando fones de ouvido estéreo e olhando para seu smartphone.
 Ela bate a capa enquanto ela passa pela rua.
+Ela cantou enquanto derramava limonada por toda a bancada.
 Ela chorou por uma hora.
 Ela colocou na prateleira? e lá ficou.
 Ela colocou seus chinelos? escalou as escadas? e foi para a cama.
@@ -2853,6 +2936,7 @@ Ela estava aqui primeiro.
 Ela estava chorando por conta da performance ruim.
 Ela estava com o cardigã.
 Ela estava esperando no meu gramado da frente.
+Ela estava esperando por sua resposta.
 Ela estava jogando bolas de neve no céu.
 Ela estava o seduzindo.
 Ela estuda Ciências Humanas.
@@ -2963,6 +3047,7 @@ Ela tem uma prima que é muito boa desde criança.
 Ela tentou parar o sangramento de suas coxas com um lenço de papel.
 Ela teve pneumonia uma vez.
 Ela tinha fibras de aço
+Ela vai nos encontrar hoje à noite.
 Ela vai ouvir muito a sério
 Ela vai perder a cabeça quando descobrir.
 Ela vem naturalmente.
@@ -3127,6 +3212,7 @@ Ele foi ao ginásio para fortalecer seus músculos.
 Ele foi ao grupo de apoio hoje pela manhã.
 Ele foi eleito pelos membros em novembro.
 Ele gostava de disparar tiros e sentia prazer em pescar.
+Ele gostou da água em seu copo.
 Ele gravou tudo com sua filmadora para ter uma prova impermeável.
 Ele grita
 Ele habilmente destruiu o coelho.
@@ -3388,6 +3474,7 @@ Eles nunca vão nos fechar hoje!
 Eles não aceitariam isso.
 Eles não disseram mais nada.
 Eles não gostam dos artigos que eu tenho escrito.
+Eles não me deixam ir!
 Eles não podem fazer isso comigo!
 Eles não podem se ajudar.
 Eles não são meus filhos.
@@ -3418,6 +3505,7 @@ Eles se conheceram através de mensagens de vídeo on-line.
 Eles se encontraram com um monte de gente no bar.
 Eles se estabeleceram por enquanto
 Eles se reúnem
+Eles se sentiram alegres quando o navio chegou no porto.
 Eles se tornam parte de tudo...
 Eles se trancaram em seus laboratórios? e tentaram evoluir? como o ouro.
 Eles sempre fazem isso.
@@ -3442,6 +3530,7 @@ Eles trabalhavam de manhã cedo até tarde da noite.
 Eles tropeçaram e caíram? e o solitário homónimo ficou de pé em silêncio.
 Eles têm o melhor conteúdo da internet!
 Eles têm os olhos colados no rosto.
+Eles têm preconceitos contra estrangeiros.
 Eles têm quatro ou cinco na aldeia.
 Eles têm que jogar muitas coisas no escritório
 Eles têm salsichas baratas e batatas fritas na cervejaria amanhã.
@@ -3453,6 +3542,7 @@ Eles votaram Carlos abaixo!
 Eles vão acreditar nisso.
 Eles vão me encontrar de qualquer maneira.
 Eles vão pedir ajuda, mas eles não fizeram.
+Elizabeth Charles está morta.
 Elizabeth reclinou-se graciosamente.
 Ellie ganhou o primeiro prêmio na competição de ortografia.
 Elsa tricotou furiosamente.
@@ -3564,6 +3654,7 @@ Enquanto ele estava sentado lá pensando que? ele sentiu o movimento acima dele.
 Enquanto eles procuravam a loja juntos.
 Enquanto há vida, há esperança.
 Enquanto isso, o menino pensou em seu tesouro.
+Enquanto isso,? eu uso algumas abordagens diferentes.
 Enquanto o fazia, ele conversou com o monge sobre as guerras tribais.
 Enquanto observava?, o gato lavou as orelhas e depois se acomodou para dormir.
 Enquanto observava?, o planeta parecia ficar cada vez maior.
@@ -3752,6 +3843,7 @@ Esportista Jim Rome procurando dapper
 Esquiadores em uma montanha de neve.
 Essa "naturalização" da identidade nacional implica sua banalização.
 Essa balada é tão atraente que eu gosto!
+Essa balada é tão cativante que eu adoro!
 Essa balada é tão cativante? adorei!
 Essa convenção é natural.
 Essa cor é bonita.
@@ -3764,6 +3856,7 @@ Essa frase sempre aparece em minha mente.
 Essa história é fascinante.
 Essa mulher roubou minha bolsa!
 Essa mulher é bonita.
+Essa música me faz lembrar da minha infância.
 Essa música rap com suas batidas eletrônicas altas é chamada de hip-hop.
 Essa música é minha favorita.
 Essa não!
@@ -3828,6 +3921,7 @@ Esse é um presente de Natal de um amigo muito querido meu.
 Esses bandidos recebem o que merecem.
 Esses ciganos são realmente espertos, pensou ele.
 Esses edifícios e a história ao redor deles atraem milhares de turistas.
+Esses empresários egoístas sempre se consideram importantes, só porque usam gravata.
 Esses impactos serão basicamente o movimento de terras e rochas da encosta.
 Esses jovens estão relaxando na grama.
 Esses problemas também nos afetam.
@@ -3836,6 +3930,7 @@ Esta banana tem gosto de cerejas.
 Esta bobina mortal
 Esta caixa de marcadores tem muitas cores diferentes.
 Esta cerveja foi fabricada na Alemanha, mais especificamente na Baviera.
+Esta cerveja foi fabricada na Alemanha?, mais especificamente na Baviera.
 Esta comida é bastante insípida, mas cara.
 Esta convenção vai custar muito.
 Esta criança está segurando balões brancos e azuis vermelhos
@@ -3858,6 +3953,7 @@ Esta menina está usando botas brancas e realizando uma dança no chão
 Esta mulher está montando um cavalo bonito e bem preparado.
 Esta pequena casa é composta por três quartos e um banheiro.
 Esta pessoa está escalando o lado de uma montanha.
+Esta prancha foi feita para andar.
 Esta página foi editada pela última vez.
 Esta questão ética é referida como o problema do trolley.
 Esta quinta tinha gado bovino? frango? ovelha e muitos outros animais.
@@ -3874,6 +3970,8 @@ Esta é a véspera de Natal.
 Esta é minha esposa.
 Esta é minha última chance.
 Esta é uma boa oportunidade para uma oportunidade de educar.
+Esta é uma conversa multirracial entre homens caminhando em um clima quente.
+Esta é uma foto de um gato?
 Esta é uma frase curta.
 Esta é uma grande temporada para caminhadas na estrada.
 Esta é uma notícia do céu azul de toda a família.
@@ -3954,6 +4052,7 @@ Este é o Jon Davis.
 Este é o Keith Miller.
 Este é o Sr. Zach Carter.
 Este é o exemplo mais brilhante, mas não o único, a seu critério.
+Este é o jovem vestido com uma jaqueta amarela e preta
 Este é o lugar?
 Este é o meu ponto mais insatisfeito.
 Este é o momento que eu tenho esperado.
@@ -3963,8 +4062,10 @@ Este é o seu crédito
 Este é o único edifício que não foi afetado pelo fogo.
 Este é também o verdadeiro sentimento do nosso taiwanês.
 Este é um carro esportivo vermelho e branco descendo uma estrada de terra.
+Este é um garoto com um skate
 Este é um grande negócio para codificação de mãos livres.
 Este é um menino e seu pai jogando um jogo de tabuleiro.
+Este é um menino em uma praia segurando um pedaço de pau.
 Este é um médico muito poderoso
 Este é um paradigma sociológico.
 Este é um problema categórico, com certeza.
@@ -4006,6 +4107,7 @@ Estou nisso há mais de dois anos e ainda estou descobrindo novas ideias.
 Estou no ponto de onibus
 Estou orgulhoso de você.
 Estou ouvindo as garotas, que estão com o meu pai?
+Estou planejando comprar alguns mapas topológicos para minha pesquisa.
 Estou preparando o Trevor!
 Estou procurando o trailer de Highlands Today
 Estou procurando o álbum Formula One Championship Edition
@@ -4023,6 +4125,7 @@ Estou usando apenas o estilo de relatório padrão.
 Estudantes asiáticos vestindo uniformes colecionam em torno de um ícone de Star Wars.
 Estudantes do ensino médio têm uma grande saída
 Estudantes universitários em um kegger.
+Estudar estas frases-chave irá ajudá-lo durante a viagem.
 Estudos clínicos da nova vacina ainda são excelentes.
 Está certo
 Está certo quem vence.
@@ -4106,6 +4209,7 @@ Eu chamei Benjamin.
 Eu cobrirei o método que uso e descreverei algumas alternativas.
 Eu colei de volta.
 Eu comecei sozinho em casa na oficina.
+Eu começo a ver.
 Eu comprei mais de trinta vieiras
 Eu comprei uma cocada deliciosa!
 Eu conheci um homem com unhas afiadas.
@@ -4151,6 +4255,7 @@ Eu entendo, ele disse.
 Eu enterraria no jardim.
 Eu era o único paciente na sala de espera.
 Eu escapei
+Eu esperava que eles voltassem logo, mas agora estou realmente começando a me preocupar.
 Eu espero que dê certo.
 Eu espero que você possa mudar de ideia.
 Eu espero que você seja bom!
@@ -4213,6 +4318,7 @@ Eu faria se achasse que eu ouviria alguma coisa que valesse a pena ouvir.
 Eu faço o melhor que posso para ajudar.
 Eu ficarei aqui por mim durante este tempo.
 Eu fico mais chutando dessa maneira.
+Eu finalmente comprei um jato particular.
 Eu finalmente fui sozinha e voltei esta manhã me sentindo feliz e revigorada.
 Eu finalmente tenho dinheiro suficiente? e todo o tempo que preciso.
 Eu fiquei bêbado ontem e pensei que eu construí um super computador.
@@ -4281,6 +4387,7 @@ Eu mal posso suportar as coisas que escrevi há dez anos.
 Eu me encontrei com Aditya na festa e conversamos por horas.
 Eu me lembro do vovô Paul olhando através dele.
 Eu me pergunto o que Molly colocou nesses tacos?
+Eu me pergunto o que ele quer?
 Eu me pergunto o que está mantendo a mãe?
 Eu me recuperei e continuei a caminhada para casa.
 Eu me senti como Bruce Wayne construindo sua Batcaverna!
@@ -4366,16 +4473,19 @@ Eu não fui capaz de abalá-lo desde então.
 Eu não gostaria de usar essa banheira.
 Eu não gosto de coco.
 Eu não gosto de selos de qualquer maneira.
+Eu não gosto de superestrelas com cara de botox.
 Eu não gosto de sushi, então eu realmente não gostei da refeição.
 Eu não gosto de sushi?, então eu realmente não gostei da refeição.
 Eu não gosto desta série.
 Eu não iria viver como um fantasma.
+Eu não levaria isso muito a sério.
 Eu não li o que está entre parênteses devido à preguiça.
 Eu não li o resumo do artigo ainda.
 Eu não me importo com o que você cobra!
 Eu não me importo com o que você diz.
 Eu não me importo com qual foto eles estão publicando.
 Eu não me importo se ela fez ou não.
+Eu não me importo se você está atrás disso há seis anos!
 Eu não me sinto bem.
 Eu não nasci ontem.
 Eu não o culpo.
@@ -4415,6 +4525,7 @@ Eu não quero nada para mim mesmo.
 Eu não quero nenhum talvez.
 Eu não quero ser um desenvolvedor.
 Eu não quero te apressar.
+Eu não quero um melhor depois.
 Eu não quero.
 Eu não recomendaria publicar o artigo sem o conjunto de dados.
 Eu não sabia até os últimos dois dias.
@@ -4443,11 +4554,13 @@ Eu não suporto a visão de sangue.
 Eu não te conheço de Adam.
 Eu não te conheço!
 Eu não te culpo.
+Eu não te entendo.
 Eu não tenho certeza disso.
 Eu não tenho guarda-chuva.
 Eu não tenho isso.
 Eu não tenho mais ninguém para deixar isso.
 Eu não tenho medo de falhar.
+Eu não tenho medo de morrer.
 Eu não tenho medo de você.
 Eu não tenho muito dinheiro para receber este mês.
 Eu não tenho nenhuma opinião sobre quem eu sou.
@@ -4533,6 +4646,9 @@ Eu posso viver para você no andar de cima.
 Eu precisava de acesso imediato.
 Eu preciso adicionar uma música por Amanda Stern para o playlist cloud rap.
 Eu preciso adicionar à playlist funk soul disco minha artista favorita
+Eu preciso comprar um novo telefone.
+Eu preciso de horários de filmes
+Eu preciso de mais um.
 Eu preciso de sabão, por favor.
 Eu preciso de um tempo para pensar.
 Eu preciso de uma faca no meu rosto.
@@ -4542,6 +4658,7 @@ Eu preciso de uma mesa na junta spa
 Eu preciso de óculos de sol.
 Eu preciso ir para a sala de emergência.
 Eu preciso que você seja espontâneo. Ele me pediu para "din din".
+Eu prefiro andar de táxi em vez de treinar para ir ao aeroporto.
 Eu prefiro pizza com massa fina.
 Eu prometo, vou ser cuidadoso!
 Eu prometo? terei cuidado!
@@ -4594,6 +4711,7 @@ Eu quero reservar um bar de ostras com estacionamento em Guam para oito pessoas.
 Eu quero reservar um bar de ostras para cinco pessoas.
 Eu quero reservar um bar de ostras para um na cidade da Marinha.
 Eu quero reservar um bar no Novo México.
+Eu quero reservar um bar vizinho ao nosso apartamento.
 Eu quero reservar uma brasserie coberta a uma curta distância em Maine.
 Eu quero reservar uma osteria em Morningside Alabama.
 Eu quero reservar uma pizzaria no Afeganistão.
@@ -4604,11 +4722,13 @@ Eu quero tirar algo disso.
 Eu quero ver
 Eu quero ver a simpatia pelo diabo
 Eu quero ver esse mapa coberto antes de passarmos!
+Eu quero ver o Diabo Diamante em um cinema.
 Eu quero ver o Michel Strogoff
 Eu quero ver o código Da Vinci
 Eu quero ver o trem
 Eu quero ver os chefes.
 Eu quero ver um filme de animação no bairro
+Eu quero ver uma lista dos filmes mais próximos do cinema
 Eu quero viver de novo.
 Eu quero voltar ao Guanghua Mall às cinco horas.
 Eu quero voltar para minhas ovelhas mais rápido.
@@ -4690,7 +4810,9 @@ Eu sou um otário para este país.
 Eu sou um otário por isso.
 Eu sou uma pessoa
 Eu sou uma vaca
+Eu suponho que eu propus para você.
 Eu suponho que tudo isso está levando a algum lugar?
+Eu suponho que você poderia escrever os números verticalmente.
 Eu suspeito que isso possa ser alguém novo se fazendo conhecido.
 Eu suspirei
 Eu só conheço a identidade dele.
@@ -4710,6 +4832,7 @@ Eu também experimentei uma solução mais sofisticada para este problema.
 Eu também li dois livros que também são muito interessantes.
 Eu também penso assim.
 Eu também trago
+Eu também, então eu tento conseguir muito onde quer que eu vá.
 Eu te dei cinquenta no outro dia.
 Eu te devo muito.
 Eu te digo que não é bom.
@@ -5071,6 +5194,7 @@ Fortalecer a renovação urbana
 Fortalecimento da construção de engenharia de tráfego
 Fortaleza, Ceará.
 Fortuna favorece os Bravos.
+Fotógrafo tirando fotos do pôr do sol.
 Fragrância inebriante
 Franquias de zoológicos são uma desgraça para o movimento global de direitos dos animais.
 Fricção freqüente
@@ -5120,6 +5244,7 @@ Gerenciados de tarefas do Windows.
 Gerencie com cuidado as postagens na comunidade
 Gerente do Facebook
 Gestão de fundos e outras tecnologias
+Girafas são vegetarianas.
 Goku possui apenas o poder do protagonismo.
 Gostaria de encontrar o trailer de uma experiência com o tempo
 Gostaria de estudar em Stanford?
@@ -5157,9 +5282,11 @@ Grátis é a palavra mágica que todos gostamos de ouvir.
 Guarda florestal Dave cita um carro por não ter uma placa no local adequado
 Guarda-chuvas e lixo sentado em um quarto bagunçado
 Guarde isso para o Tribune.
+Guaxinins são mamíferos também.
 Guerra ama sangue.
 Guerra dos Infinitos Vingadores estava fora deste mundo.
 Guerra, caça e amor trazem mil dores para um prazer.
+Guerras trazem cicatrizes.
 Guia de instruções.
 Guiana Francesa, Ilhas Falkland e Suriname.
 Guilherme e Gabriel eram bons amigos.
@@ -5203,6 +5330,7 @@ Hoje, vou explicar sobre despesas diversas.
 Holandês é semelhante ao alemão?
 Homem a cavalo que está se preparando
 Homem asiático varrendo a passarela.
+Homem barbudo com um casaco azul andando pela rua.
 Homem coloca ordem na cafeteria.
 Homem colocando uma telha no chão
 Homem com cabelo maluco está sorrindo.
@@ -5226,18 +5354,21 @@ Homem jovem
 Homem mais idoso que monta o transporte público ao ler um jornal.
 Homem na camisa branca e shorts tan fazendo um truque em um skate.
 Homem novo que escala sobre um corrimão.
+Homem que faz uma volta sobre o concreto na frente das pessoas.
 Homem que olha a parte traseira de uma escavadora em um campo do cascalho.
 Homem que olha abaixo do espaço de um rifle que prepara-se para disparar.
 Homem que senta-se em uma cadeira preta que fuma em um restaurante.
 Homem que toma um banho fora ainda em seus troncos de nadada azuis.
 Homem que trabalha no andaime no local de trabalho da construção.
 Homem que usa o machado para derrubar uma estrutura.
+Homem se senta no banquinho ao lado de brinquedos.
 Homem tentando guiar um kit no deserto.
 Homem tirando os sapatos em um conjunto de escadas
 Homem toca guitarra para bebezinho.
 Homem usando lupa enquanto trabalhava em um projeto de elaboração de madeira.
 Homem vermelho, do bastão de Judas.
 Homem vestindo camisa branca faz uma demonstração de yoyo.
+Homens com pulseiras laranja executam uma dança.
 Homens de calções de escalada.
 Homens e mulheres fora de mãos dadas para formar círculos.
 Homens em coletes laranja estão trabalhando em um canteiro de obras.
@@ -5269,6 +5400,7 @@ Há algumas pessoas em um restaurante e dois homens andando por eles
 Há armários no segundo andar do primeiro andar.
 Há cinco cavaleiros montados em um vale em uma trilha à luz do sol
 Há cinco meninos girando em um merrygoround.
+Há crianças brincando no playground.
 Há dois cachorros brincando um com o outro.
 Há dois olhos brilhantes na multidão
 Há duas pessoas andando na rua carregando muita bagagem em suas malas.
@@ -5285,6 +5417,7 @@ Há muitos costumes tradicionais e atividades do Ano Novo Chinês
 Há muitos guias disponíveis on-line que explicam como configurá-lo.
 Há novos shows disponíveis no Netflix este mês?
 Há peixes deformados naquele lago.
+Há pessoa em pé na água e brincando com um cachorro.
 Há também cheesecake
 Há também um bilhete geral de metrô
 Há também um casal japonês
@@ -5451,6 +5584,7 @@ Isso vai soar como uma digressão?, mas tenha paciência comigo.
 Isso vem crescendo como um incêndio!
 Isso vem de muitas causas materiais que precisam ser desenvolvidas.
 Isso é absolutamente ultrajante para um advogado treinado.
+Isso é bem verdade.
 Isso é bom?
 Isso é bom? pensou o inglês.
 Isso é chamado de big data.
@@ -5483,6 +5617,7 @@ Isso é o que os alquimistas fazem.
 Isso é o que significa!
 Isso é o que torna romântico.
 Isso é obviamente super simples?
+Isso é outra questão.
 Isso é tanto quanto o elevador vai.
 Isso é tudo que você é.
 Isso é tudo?
@@ -5536,6 +5671,7 @@ José e João ficaram de fora da partida.
 Jovem de blusa branca? shorts azuis compridos? jogando tênis.
 Jovem em uma sala de aula, criando arte.
 Jovem mulher comemorando a formatura dela.
+Jovem mulher está servindo o jantar de molusco
 Jovem mãe e filho indo para algum lugar
 Jovem senhora com o ruivo curto que executa o bailado.
 Jovens adultos se orgulham de limpar.
@@ -5684,6 +5820,7 @@ Mais importante, eu estruturo minha gramática para poder ditar continuamente.
 Mais mulheres estão de calças do que de asas.
 Mais pecam contra que pecar
 Mais perto de casa
+Mais pressa menos velocidade
 Mais tarde descobriu que o pessoal de serviço é taiwanês
 Mais tarde ele concordou
 Mais tarde ele deu à luz a sua filha.
@@ -5734,6 +5871,7 @@ Mas agora os sons dentro pararam.
 Mas ainda há danos leves
 Mas ainda não estou reclamando.
 Mas antes de eu ir? eu quero te contar uma pequena história.
+Mas aonde estamos indo?
 Mas aonde você está indo?
 Mas apenas fale uma palavra e meu servo será curado.
 Mas aqueles que sabem sobre tais coisas saberiam que aqueles são Urim e Tumim.
@@ -5796,6 +5934,7 @@ Mas eu não matei ninguém.
 Mas eu não sou um crack e não culpo ninguém.
 Mas eu não tenho isso.
 Mas eu não tinha ideia do que estava acontecendo.
+Mas eu não vou fazer isso.
 Mas eu também estava tropeçando porque não conseguia desviar o olhar dessas coisas.
 Mas eu vou fazer você e Maria uma proposta de negócios.
 Mas existe uma regra
@@ -5851,6 +5990,7 @@ Mas qual o custo do software necessário para que essa fratura não ocorra?
 Mas quando os viu caídos no chão, outra frase lhe veio à mente.
 Mas quem poderia imaginar que o homem se atreve tanto?
 Mas se você tiver que ir antes, o? continuará em busca do seu sonho.
+Mas sou tão desajeitado nas festas.
 Mas talvez as pessoas que se sentiam assim nunca tivessem aprendido a linguagem universal.
 Mas talvez eu nunca tenha outra chance de chegar às pirâmides no Egito.
 Mas também descuidado
@@ -5919,6 +6059,7 @@ Membros da família ganhando dinheiro
 Mendigos não podem escolher.
 Menina com tampa de malha? cheirando flores.
 Menina de vermelho pulando de alegria.
+Menina e menino beijando nas sombras
 Menina em uma rua usando um bambolê? com três pessoas no fundo.
 Menina está girando na grama em uma saia roxa fluindo
 Menina na área rural? carregando sacos e bichos de pelúcia.
@@ -5963,12 +6104,14 @@ Meu acordo com vocês senhores permanece!
 Meu amigo comprou todas as outras ovelhas imediatamente.
 Meu bisavô plantou essa árvore.
 Meu cachorro late quando estranhos chegam.
+Meu cachorro é um alsaciano? que chamamos de "papoula".
 Meu caderno é de vinte matérias.
 Meu calendário estava cheio naquele mês.
 Meu calendário está cheio.
 Meu celular tem alguns problemas com a bateria.
 Meu chaveiro é pesado e desajeitado para carregar no meu bolso.
 Meu chefe
+Meu cheque de pagamento não está chegando até a semana que vem.
 Meu colega de quarto sempre causa caos.
 Meu computador travou.
 Meu conselho é pato e cruzar com a direita.
@@ -6052,6 +6195,7 @@ Minhas irmãs não estão me dizendo tudo o que preciso saber para chegar lá.
 Minhã faz uma feijoada que é uma delicia.
 Ministério da educação.
 Mister Kristen tem algo a nos dizer.
+Mister Robinson chegará a tempo.
 Mister Turner não ficará feliz com isso.
 Miszar estava dormindo mal.
 Modificar os ativos seria uma violação de direitos autorais.
@@ -6084,6 +6228,7 @@ Mudanças de voz
 Mude a posição do mouse.
 Mude a vida das pessoas
 Mudo.
+Muita comida está sendo desperdiçada.
 Muitas cadeias de montanhas na terra são chamadas Sierra Nevada.
 Muitas coisas não têm tempo
 Muitas concessões foram feitas!
@@ -6112,6 +6257,7 @@ Muito barulho por nada
 Muito bem sucedida.
 Muito bem, ele respondeu.
 Muito bem, muito bem.
+Muito bem? ela disse.
 Muito bem? ”ele respondeu.
 Muito dinheiro.
 Muito especial
@@ -6158,6 +6304,7 @@ Mulher que escuta o leitor de música ao fumar um cigarro.
 Mulher que frita acima de alguns bens em um festival.
 Mulher que sorri ao guardarar um livro e uma estrela de papel amarela.
 Mulher que veste um lenço alaranjado que guarda um telefone celular.
+Mulheres com uma camisa amarela falando com um homem mais velho.
 Mulheres e homens são iguais em dignidade, assim como em direitos e deveres.
 Mulheres e seus filhos no parque
 Mulheres em uma competição de natação de revezamento estão decolando da linha de largada.
@@ -6230,6 +6377,7 @@ Naturalmente desce e sobe sempre com o elevador.
 Naturalmente nós temos que fazer algo sobre isso.
 Navegar para o Google não é muito excitante?, então vamos adicionar algo mais útil.
 Negros falando no mercado.
+Nelson Mandela foi presidente da África do Sul por cinco anos.
 Nem isso foi tudo.
 Nem o radar nem os outros instrumentos detectaram o bombardeiro stealth.
 Nem os chefes tribais conseguem vê-lo quando querem.
@@ -6273,6 +6421,7 @@ Ninguém ataca um oásis.
 Ninguém atendeu, então fui até o lugar dela a caminho daqui.
 Ninguém disse uma palavra enquanto o velho continuava.
 Ninguém está tentando colocar nada em você.
+Ninguém está tentando roubar de você.
 Ninguém nunca ouviu falar disso.
 Ninguém parecia ter pensado nisso naquela noite.
 Ninguém prestou atenção aos dois viajantes.
@@ -6431,6 +6580,8 @@ Não faz sentido ir lá em cima!
 Não faça amanhã o que você poderia fazer hoje.
 Não faça isso por mim!
 Não faça nada que eu não faria.
+Não faça um cavalo livre
+Não faça um projeto do governo fora disso!
 Não ficou claro para ele como passar o tempo da manhã.
 Não fique aqui
 Não fique técnico em um momento como este.
@@ -6449,6 +6600,7 @@ Não havia necessidade de abordar o assunto.
 Não havia necessidade de aprisioná-los. Os árabes simplesmente confiscaram seus cavalos.
 Não havia outra bagagem.
 Não havia quase ninguém lá.
+Não havia tempo a perder.
 Não houve festa na escola este ano.
 Não houve justificativa fornecida.
 Não houve resposta dos anciãos.
@@ -6633,6 +6785,7 @@ Não é vergonha voltar para casa.
 Não é?, não é isso que eu quero dizer.
 Não!
 Não, ele não tinha.
+Não, esse nunca foi seu verdadeiro plano.
 Não, eu não vi isso.
 Não, eu prefiro Inglês à Espanhol.
 Não, eu tenho um colchão solteiro e o chão do meu escritório.
@@ -6690,6 +6843,7 @@ Nós nos divertimos ontem à noite.
 Nós nos encontraremos Abhishek lá mais tarde hoje à noite.
 Nós nos vestimos para se adequar ao clima da maioria dos dias.
 Nós nunca perdemos uma partida contra eles.
+Nós não estamos autorizados a exportar nossos produtos para o Afeganistão? devido ao embargo.
 Nós não estamos recebendo nenhum aviso de tornado no rádio.
 Nós não podemos contar.
 Nós não podemos ver felicidade e arco-íris sobre o seu telhado.
@@ -6821,6 +6975,7 @@ O aplicativo está realmente com um bug.
 O aplicativo foi baixado.
 O ar entrava ou saía pela borda com um fino som crepitante de?.
 O ar está congelado
+O ar gelado passou pelo casaco.
 O arco-íris no campo, o tempo de hoje será amanhã.
 O arquivo foi baixado com sucesso.
 O arquivo foi encriptado
@@ -6852,8 +7007,10 @@ O bebê deve chegar na próxima semana.
 O besouro zumbiu no sol quente de junho.
 O bilhete foi preso no quadro
 O boletim médico divulgado na tarde deste domingo.
+O bolo estará pronto em dezessete minutos.
 O bolo é uma mentira.
 O bom e velho feijão com arroz
+O bom vinho não precisa de um arbusto arauto.
 O bombeiro não conseguiu resgatar o rapaz.
 O bonde chegará em cinco minutos, a menos que este horário esteja errado.
 O brilho no topo tornava-o impróprio para ler.
@@ -6861,6 +7018,8 @@ O cabelo da amiga dela era loiro.
 O cabelo de uma menina corre atrás dela enquanto balança
 O cabelo dela descia pelas costas.
 O cabelo dela era preto.
+O cacho de uvas foi espremido em vinho.
+O cachorro de pêlo curto está correndo por um quintal gramado.
 O cachorro e o gato brigavam constantemente.
 O cachorro e o gato eram bons amigos.
 O cachorro está correndo em volta de um poste branco e rosa.
@@ -6915,6 +7074,7 @@ O chapéu combina com você.
 O chaveiro do coração rosa amor brilhava.
 O chefe me mandou para lá.
 O chefe tribal chamou o menino e apresentou-lhe cinquenta moedas de ouro.
+O cheiro era nocivo.
 O cheiro é estranho.
 O cheque será certificado.
 O chuveiro está lá dentro.
@@ -6952,6 +7112,7 @@ O crepúsculo caía quando o menino chegou com seu rebanho em uma igreja abandon
 O cronograma estava definido há meses!
 O crédito ganho pela mentira é rápido em morrer.
 O curso estará aberto até a última semana de março.
+O cursor piscou? com expectativa.
 O curto e o longo dele
 O custo do aluguel aumentou muito nos últimos anos.
 O custo do investimento não pode ser recuperado
@@ -7073,6 +7234,7 @@ O fogão é branco.
 O forte era uma estrutura segura.
 O francês era bom de papo.
 O frasco vazio estava na bandeja de lata.
+O fruto de uma figueira é em forma de maçã.
 O fusca era branco com listras vermelhas.
 O futuro do mundo é incerto.
 O futuro é agora.
@@ -7242,6 +7404,7 @@ O menino confiava em seu novo amigo.
 O menino conheceu o alquimista.
 O menino conhecia muita gente na cidade.
 O menino de camisa azul chuta a bola de futebol.
+O menino de camisa vermelha está andando de skate
 O menino e menina brincavam com os action figures do irmão mais velho.
 O menino estava abraçando seu fofo urso de pelúcia.
 O menino estava ficando irritado.
@@ -7253,6 +7416,7 @@ O menino estava triste quando ele a deixou naquele dia.
 O menino está fazendo um salto no ar em sua bicicleta.
 O menino está montando uma mini motocicleta azul? enquanto o pai assiste.
 O menino está saltando de um alto trampolim para a piscina.
+O menino está tocando bateria.
 O menino ficou aliviado.
 O menino ficou chocado.
 O menino ficou com medo, os presságios lhe disseram que algo estava errado.
@@ -7281,6 +7445,7 @@ O menino pegou sua bolsa e colocou com as outras coisas.
 O menino pensou em Fátima.
 O menino pensou no comerciante de cristal.
 O menino preferia vinho.
+O menino pulou também?, mas longe do alquimista.
 O menino queria acreditar que seu amigo simplesmente se separou dele por acidente.
 O menino queria pegar a mão dela.
 O menino repetiu sua pergunta.
@@ -7365,6 +7530,7 @@ O outro sacudiu a cabeça.
 O oxigênio é apenas para ajudá-lo até que o médico chegue aqui.
 O oxigênio é essencial para a vida na terra, assim como a água.
 O oásis é neutro.
+O pacote de cuidados que você me enviou chegou bem a tempo.
 O pacote foi marcado como desatualizado.
 O pacote quente usa três
 O padre caiu para trás.
@@ -7513,6 +7679,7 @@ O que sua família tem a dizer sobre isso?
 O que te faz pensar que eu te responderia?
 O que vai acontecer com ele?
 O que vai demorar até o banco reabrir?
+O que vais fazer comigo?
 O que voce conseguiu?
 O que você acha dele?
 O que você acha disso?
@@ -7775,6 +7942,7 @@ Oh, que pena!
 Oh, tudo bem em breve.
 Oh, tudo bem, eu vejo.
 Oh, você é, né?
+Oh,? não é tão importante assim.
 Oh? Eu não sei.
 Oh? Eu sei disso!
 Oh? eles estão rindo de mim.
@@ -7784,6 +7952,7 @@ Oh?, eu imploro seu perdão!
 Oh?, vamos lá? não seja ganancioso com os Jolly Ranchers.
 Oi, como assim?
 Oi.
+Oito pessoas vestindo ternos vermelhos e carregando bolsas vermelhas estão atravessando uma ponte.
 Oito pratas por esse relógio.
 Ok, não é isso.
 Ok, vamos fazer isso então!
@@ -7835,6 +8004,7 @@ Onde não está aqui?
 Onde vamos colocá-lo?
 Onde você conseguiu ele?
 Onde você conseguiu isso?
+Onde você conseguiu?
 Onde você disse que esse homem trabalhava?
 Onde você esteve esta tarde?
 Onde você esteve por tanto tempo?
@@ -7868,6 +8038,7 @@ Os alunos tingem suas cores.
 Os amantes se beijam antes de se separarem.
 Os animais estavam exaustos? e os homens conversavam entre si cada vez menos.
 Os artigos de jornal prepararam todos para a recepção da ideia.
+Os artistas folclóricos dos pobres estudam para o dinheiro dos ônibus.
 Os atletas de futebol riram violentamente.
 Os bandidos duram mais que a traça.
 Os banhos romanos são soberbos
@@ -7933,8 +8104,10 @@ Os insurgentes reuniram gravetos e madeira.
 Os jogadores de beisebol caminham em grupo no campo? e alguns saltam para comemorar.
 Os jornais exigiam democracia.
 Os jovens conversam do lado de fora perto de uma rua movimentada.
+Os jovens estão andando na rua à noite.
 Os jovens estão em pé ao redor de um tambor em uma festa.
 Os jovens podem sair e viver.
+Os leões caçam suas presas com sprints?, enquanto os lobos aproveitam sua resistência.
 Os limites eram bem definidos.
 Os londrinos se arrependeram de visitar esse lugar horrível.
 Os lugares que eu quero ir provavelmente são organizados.
@@ -7945,6 +8118,7 @@ Os meninos estão jogando futebol na rua do bairro.
 Os médicos estavam de plantão.
 Os nadadores saltam das rochas acima da água azul-esverdeada.
 Os narcisos eram como um tapete no jardim dos fundos.
+Os narcisos estão florescendo.
 Os narcóticos prejudicaram sua saúde
 Os narguilé foram extintos? e os guardas ficaram atentos.
 Os negócios terão um aumento esse ano.
@@ -7973,6 +8147,7 @@ Os presidentes dos dois países não ligaram diretamente.
 Os presságios começarão a falar de? e você tentará ignorá-los.
 Os presságios foram verdadeiros? afinal.
 Os presságios lhe disseram isso.
+Os presságios me levaram a uma perseguição selvagem.
 Os preços dos painéis solares caíram nos últimos anos.
 Os profissionais ficaram felizes.
 Os projetos têm uma temporalidade de médio e longo prazo.
@@ -8020,6 +8195,7 @@ Outra razão é que a cidade perdeu mais tarde os desenvolvimentos econômicos.
 Outras fontes de energia recebem subsídios, bem como?, muitas vezes muito maior.
 Outras fontes de energia também recebem subsídios, muitas vezes muito mais altos.
 Outras informações: veja as dobras.
+Outras vezes eu quero fazer algo bom para o mundo.
 Outro beta público pago
 Outro filme que eu não assisti foi Jurassic World.
 Outro momento como esse.
@@ -8134,11 +8310,13 @@ Pare.
 Parece cerca de dez anos um pedaço para vocês pássaros.
 Parece chocado
 Parece haver alguma tolerância quando a submissão final é necessária.
+Parece lógico.
 Parece que ela pode manter Kathy na ponta dos pés.
 Parece que o desempenho não é muito pior.
 Parece que sempre? está sempre escuro aqui.
 Parece separá-los
 Parece ser uma piada agora.
+Parece um mercado de agricultores? algumas tabelas com vários itens exibidos.
 Parece velho e sábio.
 Parecia que ele havia feito a longa jornada por nada.
 Parecia que estavas chateada comigo.
@@ -8205,7 +8383,9 @@ Pendure o outono.
 Pendure os óculos nos dois braços.
 Pensando em como preparar o jantar
 Pensando que sou criança
+Pense no que você gostaria de melhorar em sua versão personalizada.
 Pense que você é o chefe da família
+Pensei em comprar o chapéu?, mas depois vi que custava oitenta e quatro dólares.
 Pensei que poderia estar ouvindo de você.
 Pensei que poderia haver um sobrando.
 Pensei se deveríamos encontrar moedas e modelos nele? e assim por diante.
@@ -8242,6 +8422,7 @@ Pessoa de jaqueta preta e shorts correndo na chuva.
 Pessoa mais velha está ajudando uma criança em patins de gelo.
 Pessoa na praia com um guarda-chuva.
 Pessoas acenando bandeiras americanas enquanto em roupas de inverno.
+Pessoas andando pela calçada ao lado de uma linha de lojas.
 Pessoas andando pela rua.
 Pessoas apreciando bebidas em um bar lotado.
 Pessoas borradas andando na cidade à noite.
@@ -8282,6 +8463,7 @@ Pessoas sentadas em um tapete ao redor de cordas.
 Pessoas sentadas em um ônibus ou avião.
 Pessoas subindo um conjunto estreito de escadas de madeira.
 Pessoas vagando em torno de uma área gramada com árvores.
+Pessoas às compras em uma loja.
 Peter Piper pegou um bocado de pimentas em conserva.
 Peter se encolheu de volta, horrorizado.
 Peça a Liv que me ligue no restaurante daqui a vinte minutos.
@@ -8304,6 +8486,7 @@ Pode escrever e sorrir
 Pode ganhar mais
 Pode guardar isso na geladeira?
 Pode haver mais chuva no futuro.
+Pode haver mensagens secretas neste texto.
 Pode ir a Taipei para emprego
 Pode ir para a estação de teleférico
 Pode ir procurar outro lugar
@@ -8348,11 +8531,13 @@ Pontos de vista e instalações de segurança serão a única grande infraestrut
 População idosa em todo o mundo
 Por algum motivo,? fomos impedidos de entrar.
 Por aqui nos arbustos.
+Por bem ou por mal.
 Por causa do tempo
 Por essa ele não esperava.
 Por esse preço, você também pode obter a broca sem fio da marca.
 Por exemplo, o aeroporto de Songshan
 Por exemplo,?, duas das cinco pontes da cidade hoje foram construídas na época.
+Por favor carteiro
 Por favor me perdoe.
 Por favor nunca jogue pizza de salame fora.
 Por favor não chore.
@@ -8364,6 +8549,7 @@ Por favor, aguarde um momento enquanto eu estou investigando o problema.
 Por favor, aperte seus cintos de segurança.
 Por favor, carteiro.
 Por favor, coloque a música de maimi yajima na Operação Bikini.
+Por favor, coloque um cabide no seu nariz antes de ler isto.
 Por favor, deixe-me entrar.
 Por favor, encontre a fotografia Rounin.
 Por favor, encontre o trabalho? The Burning World.
@@ -8375,6 +8561,7 @@ Por favor, jogue um álbum de música dos anos noventa.
 Por favor, lembre-se da diferença entre a plataforma e o trem.
 Por favor, leve um cartão de visita.
 Por favor, me dê a trilha sonora de Edgemont.
+Por favor, me dê histórias do show de baladas inglesas e escocesas.
 Por favor, não alimente os pombos, senão eles vão te assombrar para sempre!
 Por favor, não apele para o meu lado sentimental.
 Por favor, não fique preocupado.
@@ -8472,6 +8659,7 @@ Porque a vida quer que você alcance seu destino.
 Porque agora ele sabia onde estava seu tesouro.
 Porque ele estava com medo? o menino não respondeu.
 Porque eles ainda estão aqui.
+Porque estamos em pânico e ele não está.
 Porque eu não amo ele.
 Porque eu não posso mais comer.
 Porque eu não vivo nem no meu passado nem no meu futuro.
@@ -8503,6 +8691,7 @@ Posso pegar minha mochila emprestada?
 Posso pegar o cronograma do filme
 Posso pegar o mais novo cronograma de filmes
 Posso pegar o sanduíche sem maionese?
+Posso pegar o sanduíche sem pickles?
 Posso pelo menos manter a sopa de cebola?
 Posso ser usado para solicitar a invocação de um subsistema no sistema remoto?
 Posso te pedir um favor?
@@ -8525,6 +8714,7 @@ Precisa cercá-los
 Precisa comprar alguns artigos de papelaria
 Precisa de mais comunicação e mais instruções
 Precisa do governo central para ajudar
+Precisa encontrar o livro chamado Hollywood Connection
 Precisa equilibrar um ao outro
 Precisa ir juntos
 Precisamos adiar essa jornada.
@@ -8596,6 +8786,7 @@ Programação em Java.
 Projetar uma interface de ação dedicada
 Projeto de construção
 Projetor de tela.
+Prometa que você nunca mentirá do jeito que o Snoopy fez.
 Promove ações de integração intersetorial com repercussões na saúde na Comunidade Valenciana.
 Promover a industrialização
 Promover várias medidas de bem-estar
@@ -8633,6 +8824,7 @@ Quais são as pistas para a resposta?
 Quais são os fatos?
 Quais são os filmes animados que estão tocando nas proximidades?
 Quais são os horários dos filmes no bairro?
+Quais são os horários dos filmes para filmes por perto?
 Quais são os principais aplicativos para o meu celular?
 Quais são os tempos do filme?
 Qual a capital da Coreia do Sul?
@@ -8732,6 +8924,7 @@ Qualquer lugar para fugir dessa disputa.
 Qualquer que seja.
 Qualquer situação que a impeça será arquivada por escrito pela parte interessada.
 Qualquer um pode fazer isso, ele disse.
+Qualquer um que passasse pela ponte teria que pagar.
 Qualquer um que queira subir em uma árvore começa abaixo, não no topo.
 Quando Alvin era um menino, adorava assistir Bud Spencer e Terence Hill.
 Quando Jennifer andou pelo corredor?, ela se perguntou se tinha cometido um erro.
@@ -8760,9 +8953,11 @@ Quando ele surgiu? foi com um jovem árabe? vestido de branco e dourado.
 Quando em março é alto, a amêndoa é boa.
 Quando eu continuo indo
 Quando eu era criança, o Ano Novo Chinês estava muito frio.
+Quando eu estou comendo? isso é tudo que eu penso.
 Quando eu me aproximo de você
 Quando eu tiver lido um milhão dessas sentenças?, vou me candidatar como narrador profissional.
 Quando eu vi ele, ele estava pálido.
+Quando haverá uma nuvem na Austrália?
 Quando houver perda de pressão da cabine?, as máscaras de oxigênio serão automaticamente desativadas.
 Quando há uma perda de pressão da cabine, as máscaras de oxigênio caem automaticamente.
 Quando isso não ajuda, apenas a música limpa as lágrimas e incha o coração.
@@ -8865,8 +9060,10 @@ Quatro caiaques em um córrego da montanha.
 Quatro caminhantes estão subindo uma montanha cheia de neve encimada por penhascos íngremes.
 Quatro canoístas e canoístas perto de uma parede da rocha.
 Quatro cartazes foram presos na parede
+Quatro crianças com idade escolar estão jogando queimada no ginásio
 Quatro crianças em um ovo falso se divertindo.
 Quatro crianças encapuzadas se amontoam debaixo de um cobertor ao ar livre.
+Quatro crianças estão brincando em uma colina de areia.
 Quatro crianças estão fazendo uma ponte de ginástica nas mãos e nos pés.
 Quatro filhotes malhados tiram uma soneca.
 Quatro garotos de duas equipes de lacrosse correm pelo campo durante um jogo.
@@ -8884,6 +9081,7 @@ Quatro mulheres em vestidos amarelos estão realizando um balé.
 Quatro mulheres operam laptops.
 Quatro mulheres que jogam o hóquei lutam sobre um disco.
 Quatro olhos são melhores que dois.
+Quatro pessoas balançando em um balanço.
 Quatro pessoas em azul remexem um pedaço de grama.
 Quatro pessoas estão cantando karaokê.
 Quatro pessoas estão na água conversando com montanhas ao fundo
@@ -8905,6 +9103,7 @@ Que bacana essa revista.
 Que bem isso fará?
 Que bem vai fazer?
 Que carga de lixo na televisão hoje.
+Que chatice!
 Que clima maravilhoso!
 Que clima terá o Havai Haverá granizo daqui a vinte e um minutos
 Que coisa terrível a dizer.
@@ -8915,6 +9114,7 @@ Que diabos você está divagando sobre?
 Que diabos você está divagando?
 Que diferença isso faz?
 Que dispositivo interessante é esse.
+Que ele frequentou um seminário até os dezesseis anos.
 Que ele queria viajar.
 Que esplendor de rosto e que maturidade tem a composição?
 Que esportes você pratica?
@@ -8989,6 +9189,7 @@ Quem te disse para fazer isso?
 Quem te enviou para mim?
 Quem te fez vir?
 Quem te pediu para ficar preso com algum deles?
+Quem teria pensado que um homem poderia mudar tudo.
 Quem trancou a porta?
 Quem vai gravar?
 Quem vai manter a lâmpada na janela para você.
@@ -9033,6 +9234,7 @@ Quero reservar um bar em Bonaparte Palau.
 Quero reservar um restaurante ao ar livre para sab.
 Quero reservar um restaurante de churrascaria para dez pessoas.
 Quero reservar um restaurante dentro da mesma área do Horse Pasture.
+Quero reservar um restaurante no Novo México para duas pessoas.
 Queríamos visitar o lago, mas estava muito frio
 Questões sociais serão discutidas.
 Quieto, vai?
@@ -9087,6 +9289,7 @@ Relações pessoais entre pessoas do mesmo bairro.
 Relâmpagos no mar, vento no chão.
 Remou até chegar na outra margem
 Repita esta frase
+Repolho em conserva Trem expresso rápido.
 Reporte ao órgão do governo central para referência
 Reproduzir música dos anos noventa.
 Reproduzir música número sete.
@@ -9221,6 +9424,7 @@ Se tudo funcionar, você verá uma janela aparecer depois de começar.
 Se uma pessoa está vivendo seu destino, ele sabe tudo o que precisa saber.
 Se uma vara aprendesse alguém, todas as pessoas seriam inteligentes.
 Se viver no mundo
+Se você adicionar mais dois andares?, precisará de mais colunas de suporte.
 Se você ainda não sabe o que é a recursão?, leia esta frase novamente.
 Se você comprar os bilhetes você economiza seis euros.
 Se você cortar por um longo tempo, o carvalho mais grosso também deve cair.
@@ -9254,6 +9458,7 @@ Se você vê algo que gosta, pegue e faça melhor.
 Se é um trabalho clássico do passado
 Sean ficou ali batendo o pé com impaciência.
 Segunda de manhã às cinco horas.
+Segunda-feira não é meu pior dia da semana.
 Segunda-feira é muito puxada.
 Segundo dados do serviço, passaram a existir mais de um milhão de frases.
 Segundo o dicionário, isso não é verdade.
@@ -9268,6 +9473,7 @@ Seis pessoas saltam para a bola.
 Seja da citação.
 Seja menos complicado sem uma família.
 Sejam bem-vindos!
+Selecione entre a linha X e a linha Y.
 Selecione japonês como idioma principal.
 Seleção Nacional da Colômbia.
 Sem assentos extra
@@ -9289,6 +9495,7 @@ Sempre com pressa? sempre atrasado.
 Sempre empurrando o carro
 Sempre faça uma pergunta objetiva.
 Sempre feche a porta do celeiro com força.
+Sempre foi assim.
 Sempre pense que a escrita é boa
 Sempre que estou escrevendo um artigo
 Sempre que podia, ele procurava um novo caminho para viajar.
@@ -9326,6 +9533,7 @@ Setas de construção de estrada estão apontando para a esquerda
 Sete anos atrás, tudo está chegando.
 Sete jogadores de futebol em um campo verde vestindo camisas vermelhas
 Sete marinheiros vestidos de azul num barco.
+Sete selos estavam estampados em grandes lençóis.
 Setenta por cento dos alunos falam bem do professor.
 Seu adversário tinha três respawns restantes.
 Seu assento era instável.
@@ -9343,6 +9551,7 @@ Seu destino estava do outro lado do oceano
 Seu dinheiro nos salvou por três dias.
 Seu discurso terminou com uma ovação de pé.
 Seu discurso terminou em ovações de pé.
+Seu escritório me telefonou para segurá-lo.
 Seu filho era veterinário
 Seu filho foi para servir em um lugar distante? e se tornou um centurião.
 Seu governo está contando com você.
@@ -9368,6 +9577,7 @@ Seus olhos cristalizados não mais derramam lágrimas
 Seus olhos se contraíram incontrolavelmente.
 Seus olhos se encheram de lágrimas quando ele falou do Profeta.
 Seus olhos são como cristal
+Seus olhos são maiores que sua barriga.
 Seus registros estavam incompletos.
 Seus rostos estavam cobertos com os panos azuis? e seus olhos mostravam medo.
 Seus rostos estavam escondidos atrás dos véus azuis, com apenas os olhos aparecendo.
@@ -9391,6 +9601,7 @@ Sim, eu estou falando com você.
 Sim, foi assim que pensei.
 Sim, mas depende de você.
 Sim, não se preocupe, vamos encontrá-lo.
+Sim, seria.
 Sim, vamos usar o Python três pontos seis.
 Sim.
 Sim; Certamente foi uma mentira.
@@ -9521,6 +9732,7 @@ Taipei City tem potencial ilimitado e vitalidade
 Taiwan deve ter sua própria força
 Taiwan foi sequestrado tão profundamente pelos empregadores
 Taiwan naquela época
+Tal momento dipolar oscilante pode trocar energia com uma onda eletromagnética de mesma freqüência.
 Talvez a brisa não sopre mais
 Talvez a gente deva ir dormir
 Talvez a natureza
@@ -9531,6 +9743,8 @@ Talvez ela tenha esquecido tudo sobre isso.
 Talvez ele apenas coloque lá por segurança.
 Talvez ele não deva chamar nomes de pessoas que eles não querem ser chamados.
 Talvez ele pudesse pagar pelo aparelho.
+Talvez ele seja mesmo um tolo.
+Talvez ele só tenha colocado lá por segurança?
 Talvez eles sejam como eu.
 Talvez esses pássaros do deserto pudessem explicar-lhe o significado do amor sem propriedade.
 Talvez eu diga isso.
@@ -9711,6 +9925,7 @@ Todo caminho tem sua poça.
 Todo dia estava lá para ser vivido ou para marcar a partida deste mundo.
 Todo esse tempo os marcianos devem ter se preparado.
 Todo homem tem seu preço.
+Todo homem é o arquiteto de seu destino.
 Todo mundo chega ao fim, mas o objetivo nem sempre é.
 Todo mundo espera um minuto.
 Todo mundo estava com gripe.
@@ -9764,6 +9979,7 @@ Todos se lembram
 Todos são
 Todos? quando são jovens? sabem qual é o seu destino.
 Tolos correm para lugares onde anjos temem pisar.
+Tom hanks lendo um livro na tomada de náufrago.
 Tomando o ferry foi uma escolha sábia.
 Tomar drogas que são confusas por si
 Tome a decisão errada
@@ -9845,23 +10061,29 @@ Três bombeiros enfurecidos após uma chamada de brincadeira.
 Três cachorros correm pela praia.
 Três cachorros estão correndo por uma paisagem arenosa.
 Três caucasianos vestidos casualmente estão sentados em um sofá.
+Três chefs de uniforme estão trabalhando em uma linha de montagem para preparar bolos.
 Três ciclistas passeiam por um caminho cercado perto de bosques.
 Três colegas de equipe na ação em um campo de grama.
 Três crianças e um homem jogam vôlei? descalço na areia.
+Três crianças estão brincando juntas
 Três crianças estão de pé na frente de um anúncio de outdoor.
 Três crianças lutam em um tapete floral.
 Três crianças que jogam a corda de salto na grama entre as árvores.
 Três cães andando na grama.
 Três cães brancos estão perto de uma lhama negra.
+Três cães em pé na neve com dois dos cães com a boca aberta.
 Três cães estão em uma estrada de paralelepípedos.
 Três cães estão jogando em um campo
+Três cães pretos e um cachorro branco estão de pé na neve.
 Três cães? um segurando um Frisbee vermelho? em pé na neve.
 Três dentes de alho, por favor!
 Três dias se passaram, desde a última visita.
 Três esquiadores crosscountry que esquiam através de um campo nevado.
+Três galgos correndo em uma pista
 Três garotas na ginástica apontam para a balança.
 Três garotos loiros jogando na engenhoca de metal
 Três garotos loiros jogando na engenhoca de metal.
+Três garotos sentam e fazem gestos com as mãos.
 Três homens andando de bicicleta pela floresta.
 Três homens andando por uma estrada cercada por uma floresta.
 Três homens asiáticos correm segurando as mãos em uma pista.
@@ -9885,6 +10107,7 @@ Três homens pescando com corda.
 Três homens sentados em frente a computadores.
 Três homens vestidos como cozinheiros chefe cozinham em uma cozinha de vista profissional.
 Três idosos estão sentados em cadeiras olhando pela janela.
+Três jogadores de futebol andando ou em pé no campo durante o dia.
 Três jovens brincam em uma fonte pública.
 Três jovens estão andando juntos pela calçada.
 Três jovens estão brincando com Legos em uma sala de estar bagunçada.
@@ -9904,9 +10127,11 @@ Três mulheres caminham juntas pela rua e passam por um prédio coberto de picha
 Três mulheres de casacos atravessam a rua.
 Três mulheres descendo um túnel enquanto um homem sentado as observa.
 Três mulheres estão andando na calçada
+Três mulheres estão conversando e olhando ao redor.
 Três mulheres que se amontoam para aquecer debaixo de um cobertor.
 Três mulheres saltam no ar em alegria na praia.
 Três mulheres sentam-se em uma aldeia.
+Três mulheres? em traje casual? se encontram ao ar livre.
 Três mulheres? uma antiga? uma jovem e uma criança? caminham por uma rua.
 Três nadadores nadam em suas respectivas pistas.
 Três opiniões em um dia para incentivar as pessoas a se registrarem para votar.
@@ -9931,6 +10156,7 @@ Três pessoas estão tocando música
 Três pessoas olhando para algo em uma parede branca.
 Três pessoas segurando cervejas e posando para uma foto.
 Três pessoas sentadas em uma sala com uma bicicleta e uma scooter.
+Três pessoas sentam-se perto de uma rua.
 Três pessoas? sentadas? duas em pé? estão em um shopping.
 Três pintores de macacão rosa trabalham em uma porta muito alta.
 Três policiais e um civil estão na calçada.
@@ -9995,6 +10221,7 @@ Uau, olha o quão profundo é esse canyon!
 Um adolescente do sexo masculino monta seu skate em uma grande rocha.
 Um adolescente está andando de snowboard ao lado de um conjunto de escadas.
 Um adolescente faz truques em seu skate em uma área com muito grafite.
+Um adolescente tem um anel de prata saindo do nariz.
 Um adulto e uma criança estão passando por um edifício de estilo contemporâneo.
 Um adulto e uma criança que anda ao ar livre no outono.
 Um aleijado manteve sua pontuação baixa.
@@ -10041,6 +10268,7 @@ Um bom grupo de repórteres.
 Um bombeiro protege uma área estabelecendo um limite enquanto outros assistem.
 Um breakdancer da cidade começa a girar
 Um breakdancer da cidade começa a girar.
+Um cachorrinho está pulando no ar sobre um campo nevado.
 Um cachorrinho marrom tem uma bola na boca.
 Um cachorro atravessa o solo rochoso.
 Um cachorro branco salta da água para pegar uma bola de tênis.
@@ -10056,6 +10284,7 @@ Um cachorro correndo na praia.
 Um cachorro correndo pela água.
 Um cachorro em um carro.
 Um cachorro em uma colina gramada.
+Um cachorro em uma piscina e outro cachorro na beira da piscina.
 Um cachorro está andando na areia e as pessoas estão por toda a praia
 Um cachorro está brincando com uma bola de futebol na neve.
 Um cachorro está brincando na neve profunda.
@@ -10096,6 +10325,7 @@ Um cara andando de skate na frente de uma parede de graffiti
 Um cara com um chapéu com a boca aberta na multidão de pessoas
 Um cara com uma câmera à moda antiga fica de lado na escada rolante.
 Um cara com óculos de sol e uma mochila apontando para o céu.
+Um cara de calça cáqui e sandálias está em uma lavanderia.
 Um cara e uma menina apresentando objeto para o outro.
 Um cara em um skate está fazendo um truque ao entardecer.
 Um cara está de pé no lado de cima de um prédio.
@@ -10106,11 +10336,14 @@ Um cara voa pelo ar em sua bicicleta em um parque de skate.
 Um carro e uma minivan colidiram.
 Um carro vermelho.
 Um cartão pendurado na porta anunciava que várias línguas eram faladas na loja.
+Um casal abraça enquanto sozinho em uma plataforma perto de trilhos de trem.
 Um casal andando na rua
 Um casal asiático recém-casado recebe pétalas de flores jogadas sobre eles.
+Um casal assistindo a um show em um restaurante.
 Um casal com um tigre inflável.
 Um casal de amigos consertando uma bicicleta de cabeça para baixo.
 Um casal de amigos toma uma bebida
+Um casal de senhoras vendendo chapéus artesanais
 Um casal em seu casamento cortando um bolo juntos.
 Um casal em um passeio a pé.
 Um casal está dançando enquanto outros assistem a um concerto em um coreto.
@@ -10126,15 +10359,19 @@ Um cavalheiro negro está dançando no chão de ladrilhos.
 Um cavalo e um cavaleiro saltam sobre um obstáculo.
 Um cavalo salta sobre uma cerca de madeira.
 Um centavo sábio e um quilo tolo.
+Um chef mistura a massa enquanto mostra as instruções do aluno.
+Um chef prepara um hambúrguer em um recipiente portátil durante um festival.
 Um chinês
 Um chá de limão pode ser ótimo para beber neste verão.
 Um ciclista desliza ao longo da borda de um quarto de círculo.
+Um ciclista está realizando um salto enquanto outros ciclistas aguardam e assistem.
 Um ciclista fazendo um salto.
 Um ciclista passa por uma rampa de terra e pega um pouco de ar
 Um cientista em uma bata de laboratório está usando um microscópio.
 Um cinegrafista filmando um jogo de basquete.
 Um cisne pousando em um lago.
 Um cliente perguntando a um vendedor ambulante pelo preço das bananas.
+Um close de uma menina em um balanço.
 Um close up de um homem que prende suas mãos acima no ar.
 Um coitadinho que nunca quis dizer nada a ninguém!
 Um colega meu é da Virgínia Ocidental.
@@ -10160,6 +10397,7 @@ Um cão branco carrega uma garrafa de refrigerante no chão nevado.
 Um cão branco com manchas pretas está saltando sobre uma cerca branca.
 Um cão branco e marrom está pegando uma bola vermelha em sua boca
 Um cão branco e preto está correndo sobre a sujeira.
+Um cão branco e um cachorro marrom brincam na grama
 Um cão branco segura um pedaço de pau na boca quando sai da água.
 Um cão brinca na neve.
 Um cão bronzeado está andando na neve perto de árvores cobertas de neve.
@@ -10171,6 +10409,7 @@ Um cão com sua língua para fora andando na neve.
 Um cão com um Frisbee na frente de um cão marrom.
 Um cão com uma bolsa de água está andando através da água verde clara.
 Um cão da raça pastor alemão está saltando através de um aro com espectadores.
+Um cão detém uma vara grande em sua boca na floresta.
 Um cão do exército sendo treinado por um soldado.
 Um cão e uma pessoa fazendo um curso de agilidade.
 Um cão enrugado que vadeia na água pouco profunda.
@@ -10180,6 +10419,7 @@ Um cão marrom com um colarinho preto fica ao lado de um arbusto.
 Um cão marrom corre em um campo com um cão preto e branco.
 Um cão marrom corre na grama com uma orelha acima.
 Um cão marrom corre nas madeiras com um olhar sério em sua cara.
+Um cão marrom e branco corre em um campo de flores amarelas.
 Um cão marrom e branco entra na água ao olhar para trás.
 Um cão marrom e branco está saltando alto e pegando uma bola azul.
 Um cão marrom está buscando algo em sua boca em um campo.
@@ -10192,6 +10432,7 @@ Um cão marrom que está em uma praia ao lado de um Frisbee azul.
 Um cão marrom que vadeia em uma lagoa pantanosa.
 Um cão nada no lago.
 Um cão pequeno joga com uma bola colorida na areia.
+Um cão preto corre na grama próximo a um cão marrom e branco.
 Um cão preto detém um pequeno haltere branco na boca.
 Um cão preto e branco com um colarinho azul anda através da grama.
 Um cão preto e branco está correndo e espirrando na água.
@@ -10201,6 +10442,7 @@ Um cão preto e branco está saltando através de um aro preto e branco.
 Um cão preto e branco está saltando na água.
 Um cão preto e branco limita através da grama alta do trigo.
 Um cão preto e branco salta pela água.
+Um cão preto e castanho correndo em um campo
 Um cão preto e um cão preto e branco estão correndo na sujeira.
 Um cão preto menor que luta com um cão marrom maior em uma floresta.
 Um cão que está em uma praia com uma bola próxima.
@@ -10246,6 +10488,7 @@ Um fã de Ozzy Osbourne considera seu café da manhã.
 Um galgo vestindo uma jaqueta amarela faz uma corrida
 Um galo atacará outros machos que entrarem em seu território.
 Um garotinho cobre os olhos.
+Um garotinho no acampamento? em uma camiseta azul? jogando uma bola de futebol.
 Um garotinho segurando uma pá amarela de plástico?? se agacha na areia.
 Um garoto anda de scooter Segway por uma praça da cidade lotada.
 Um garoto com cara de gordinho e óculos escuros.
@@ -10261,16 +10504,19 @@ Um garoto salta uma pedra em um riacho.
 Um garoto tem uma rede de pesca.
 Um garçom recebe um pedido de um homem que está olhando para o cardápio.
 Um gato embaixo do banco assobiando com um cachorro rosnando e tentando pegá-lo.
+Um gato tem nove vidas.
 Um golden retriever nutre filhotes de cachorro.
 Um golden retriever que anda através da grama alta.
 Um gole de chá revive seu amigo cansado.
 Um golfista profissional tenta tirar sua bola de um local difícil.
 Um gorila havia entrado na armadilha e agora era transportado para o zoológico.
 Um grande buraco no concreto sendo escavado por uma grande máquina de escavação.
+Um grande catamarã navega no oceano.
 Um grande cão bronzeado está correndo com um item verde em sua boca
 Um grande cão bronzeado está saltando sobre obstáculos em um curso.
 Um grande cão marrom está jogando na sujeira e na grama.
 Um grande cão preto está andando na beira da água.
+Um grande grupo de pessoas debaixo de uma grande tenda vermelha.
 Um grande grupo de pessoas dentro de uma van
 Um grande grupo de pessoas está sentado em um gramado assistindo algo
 Um grande homem de macacão? dirigindo um Segway.
@@ -10281,6 +10527,7 @@ Um grupo de aldeões africanos na escola.
 Um grupo de amigos discutindo o que fazer no evento.
 Um grupo de amigos está sentado ouvindo alguma música.
 Um grupo de amigos está socializando.
+Um grupo de amigos joga em um lago.
 Um grupo de asiáticos sorrindo e comendo
 Um grupo de caminhantes está conversando
 Um grupo de caras trabalhando juntos para construir algo
@@ -10291,6 +10538,8 @@ Um grupo de corredores participa de um evento.
 Um grupo de crianças andando em um bairro.
 Um grupo de crianças brigam com espada.
 Um grupo de crianças e mulheres agachadas de lado um fluxo de água.
+Um grupo de crianças em trajes estão em um palco com cortinas vermelhas.
+Um grupo de crianças está andando em um rio perto da margem do rio.
 Um grupo de crianças está competindo em um revezamento.
 Um grupo de crianças está do lado de fora em uma rua.
 Um grupo de crianças fora de uma loja de brinquedos carregando um ônibus.
@@ -10332,6 +10581,7 @@ Um grupo de pessoas anda em uma trilha pela floresta.
 Um grupo de pessoas asiáticas idosas reuniu instrumentos de tocar em um parque.
 Um grupo de pessoas atravessa um carnaval.
 Um grupo de pessoas atravessando uma rua movimentada.
+Um grupo de pessoas bem vestidas olha para a frente de uma igreja.
 Um grupo de pessoas canta e dança em um concerto.
 Um grupo de pessoas chutando uma grande bola vermelha.
 Um grupo de pessoas com luvas no trabalho em grandes quadrados coloridos.
@@ -10342,6 +10592,7 @@ Um grupo de pessoas descansa em um penhasco com vista para uma vista panorâmica
 Um grupo de pessoas e um cão sentado na arquibancada de concreto.
 Um grupo de pessoas em trajes estão reunidos, alguns deles olhando para um laptop.
 Um grupo de pessoas em um festival está soprando bolhas e apreciando as atrações.
+Um grupo de pessoas em um show de arte de fotografias
 Um grupo de pessoas em uma cozinha fazendo bebidas.
 Um grupo de pessoas em uma festa com dois bolos na mesa.
 Um grupo de pessoas em uma grande rocha todos vestindo coletes salva-vidas.
@@ -10365,8 +10616,11 @@ Um grupo de pessoas está parado em volta de uma grande fogueira.
 Um grupo de pessoas está próximo a um pequeno vendedor ambulante.
 Um grupo de pessoas está reunido em um alpendre branco para uma foto.
 Um grupo de pessoas está reunido em uma rua.
+Um grupo de pessoas está reunido em uma área pública.
+Um grupo de pessoas está reunido perto de uma tela com uma imagem colorida
 Um grupo de pessoas está sentado debaixo de um telhado de zinco.
 Um grupo de pessoas fantasiadas fica em volta de uma fogueira à noite.
+Um grupo de pessoas lavando um caminhão.
 Um grupo de pessoas montando camelos.
 Um grupo de pessoas protestando em uma cidade.
 Um grupo de pessoas protestando.
@@ -10395,6 +10649,7 @@ Um homem a cavalo? dentro de um curral? está perseguindo um boi.
 Um homem acenando e esqui aquático no meio de um lago.
 Um homem agarra sua bengala enquanto ele caminha pelo terreno acidentado.
 Um homem andando de bicicleta através de uma multidão de pessoas.
+Um homem andando de bicicleta? enquanto dois cachorros o seguem.
 Um homem andando em uma estrada de terra com uma palmeira à distância.
 Um homem andando na rua carregando um saco de lixo.
 Um homem andando nas sombras.
@@ -10425,12 +10680,15 @@ Um homem careca de camisa listrada agachado no chão.
 Um homem carrega um bebê em uma cidade grande.
 Um homem casado em uma camisa xadrez azul está comendo uma fruta vermelha.
 Um homem cavando uma calçada movimentada da cidade.
+Um homem chuta outro no ombro em um evento de artes marciais
 Um homem colecionando madeira por cima do ombro.
 Um homem com a cabeça raspada está lendo um livro em um trem.
 Um homem com a mão levantada.
 Um homem com brincos cortando o cabelo de outro homem.
 Um homem com cabelo comprido sendo parado por seguranças.
 Um homem com cabelo escuro e curto está soldando.
+Um homem com cabelos longos amarrados e vestindo uma camisa azul está tocando clarinete.
+Um homem com grossos óculos de aro preto e um violão sentado na calçada.
 Um homem com os troncos de natação vermelhos e pretos surfa na água.
 Um homem com um assobio na boca está segurando uma grande bandeja de comida.
 Um homem com um chapéu branco está fazendo smoothies.
@@ -10453,6 +10711,7 @@ Um homem com uma jaqueta azul gritando.
 Um homem com uma lata passa por uma pintura de uma cena de construção.
 Um homem com uma mala detém papel como ele se senta por uma marina.
 Um homem com uma mala está começando a se sentar em duas cadeiras.
+Um homem com uma muleta está dormindo em um banco.
 Um homem com uma roupa azul está balançando uma espada no ar.
 Um homem com uma roupa de freira tem um cigarro na boca.
 Um homem com óculos limpando o gramado.
@@ -10460,7 +10719,9 @@ Um homem com óculos olha para sua câmera.
 Um homem corpulento está de pé ao lado de um prédio.
 Um homem corre na grama verde com os pés descalços.
 Um homem correndo descalço na grama
+Um homem cozinha frango na churrasqueira enquanto outros gostam de comida ao fundo.
 Um homem dando uma apresentação na frente de uma imagem projetada
+Um homem de aparência pensativa usa um barbeador elétrico para se barbear
 Um homem de bermuda preta joga tênis do lado de fora.
 Um homem de bigode tenta esculpir em um pilar de concreto.
 Um homem de branco e óculos, trabalhando no laboratório com luvas
@@ -10484,6 +10745,7 @@ Um homem de camisa branca está cantando com uma banda.
 Um homem de camisa branca está jogando tênis.
 Um homem de camisa branca está sentado em uma mesa olhando alguns papéis
 Um homem de camisa branca fuma enquanto dá instruções.
+Um homem de camisa britânica está de pé com uma bengala.
 Um homem de camisa cinza está segurando um tubo de metal.
 Um homem de camisa laranja e chapéu azul sorri.
 Um homem de camisa laranja está parado na calçada.
@@ -10496,6 +10758,7 @@ Um homem de camisa preta está tocando violão.
 Um homem de camisa preta se prepara para se apresentar diante de um microfone.
 Um homem de camisa preta vendendo frutas no mercado.
 Um homem de camisa rosa cruza as pernas.
+Um homem de camisa rosa se ajoelha e olha diretamente para a câmera.
 Um homem de camisa verde está prestes a lançar a bola.
 Um homem de camiseta regata um cachorro-quente.
 Um homem de casaco de couro e óculos sorri.
@@ -10522,6 +10785,7 @@ Um homem de terno irlandês tocando os canos.
 Um homem de terno se afasta de um prédio com longas sombras.
 Um homem de um livro
 Um homem de uniforme carregando um arbusto.
+Um homem de uniforme está andando de carro.
 Um homem de uniforme está parado na esquina da rua
 Um homem de óculos sentado em uma mesa com uma grande pilha de papéis.
 Um homem de óculos usando um chapéu está tocando o baixo
@@ -10540,6 +10804,7 @@ Um homem e uma criança estão olhando um peixe verde em uma lagoa pequena.
 Um homem e uma menina estão na frente de uma grande multidão.
 Um homem e uma mulher a pescar na praia.
 Um homem e uma mulher colocam velas de aniversário em um bolo.
+Um homem e uma mulher consertando alguma coisa.
 Um homem e uma mulher em jalecos azuis estão olhando através de um microscópio.
 Um homem e uma mulher estão correndo em uma maratona.
 Um homem e uma mulher estão dançando juntos
@@ -10566,6 +10831,7 @@ Um homem em um chapéu preto e camisa xadrez vende chapéus na rua
 Um homem em um colete de construção está olhando para um veículo.
 Um homem em um macacão azul pulando em uma rua.
 Um homem em um microfone tocando um piano e teclado.
+Um homem em um paletó com um sinal de "palavra livre".
 Um homem em um skate está saltando no ar com ele.
 Um homem em um terno de negócio andando na calçada.
 Um homem em um terno vermelho sobe uma parede de rocha
@@ -10590,6 +10856,7 @@ Um homem em volta chutando outro homem em um ringue.
 Um homem empurrando um carrinho com uma roda azul.
 Um homem enterra uma bola de basquete na frente de uma multidão.
 Um homem esfregando o chão na frente de um passeio de parque de diversões.
+Um homem espera por negócios atrás do balcão de uma loja turística em Londres
 Um homem está a serrar um pedaço de madeira.
 Um homem está ajoelhado na calçada para conversar com uma garotinha.
 Um homem está andando de bicicleta em uma inclinação íngreme.
@@ -10623,11 +10890,14 @@ Um homem está em uma rua movimentada com edifícios e lojas no fundo.
 Um homem está empilhando pedras à beira-mar.
 Um homem está empurrando seu carrinho de lanche pintado de azul pela rua.
 Um homem está empurrando uma jovem em uma scooter
+Um homem está exercitando ao ter duas garrafas de chá pronto para beber.
+Um homem está fazendo malabarismos com duas bolas grandes e uma raquete de tênis.
 Um homem está fazendo um salto na prancha perto de outras pessoas na água.
 Um homem está fumando um cigarro enquanto passa algumas roupas.
 Um homem está lendo um jornal em um trem ou ônibus.
 Um homem está levantando uma menina acima de sua cabeça.
 Um homem está matando alguns peixes.
+Um homem está montando um skate laranja em um parque de skate.
 Um homem está montando um wakeboard no oceano.
 Um homem está na cintura em um rio lançando uma rede.
 Um homem está parado em algumas pedras enquanto as ondas o envolvem
@@ -10637,6 +10907,7 @@ Um homem está preparando uma refeição ao ar livre em um palco.
 Um homem está se curvando fazendo algum trabalho na calçada.
 Um homem está segurando um jarro de plástico dentro de casa.
 Um homem está segurando um monte de óculos de sol
+Um homem está segurando uma câmera na frente de um veículo vermelho.
 Um homem está sentado ao lado da rua com vasos de latão.
 Um homem está sentado e ele está cercado por sapatos.
 Um homem está sentado em uma banca de jornal? lendo um jornal
@@ -10644,9 +10915,11 @@ Um homem está sentado em uma pedra quadrada comendo seu almoço
 Um homem está sentado em uma pedra quadrada comendo seu almoço.
 Um homem está sentado no quarto feito de painéis de madeira.
 Um homem está soprando em um tubo longo
+Um homem está surfando uma pequena onda
 Um homem está tocando um violino no palco.
 Um homem está tocando violão por dinheiro.
 Um homem está trabalhando em cima de um telhado.
+Um homem está usando uma ferramenta nesses longos pedaços de madeira.
 Um homem está vestido em denim e está sorrindo offcamera.
 Um homem está vestindo um avental? em pé na cozinha segurando um prato.
 Um homem está vestindo uma camisa vermelha e colete.
@@ -10667,6 +10940,7 @@ Um homem gosta de um deleite em uma rua movimentada.
 Um homem idoso em um boné azul olhando para o chão.
 Um homem idoso esculpe uma tigela grande em uma roda de cerâmica.
 Um homem idoso que dorme em um banco em um cais.
+Um homem idoso que monta um skate através do parque.
 Um homem idoso senta-se em um banco de parque verde.
 Um homem idoso sentado num banco.
 Um homem indiano em um chapéu está sentado e sorrindo.
@@ -10682,6 +10956,7 @@ Um homem loiro tocando uma guitarra.
 Um homem louro com uma trouxa está ao lado de uma lagoa.
 Um homem lê o jornal em uma sala mal iluminada.
 Um homem lê o papel em um deck sob algumas árvores
+Um homem mais velho bebe de um copo de vinho.
 Um homem mais velho caminha pela calçada de um parque em direção ao estacionamento.
 Um homem mais velho coloca perto de bacias de madeira em exposição.
 Um homem mais velho de camisa branca andando de moto.
@@ -10692,6 +10967,7 @@ Um homem mais velho em uma escada tende a plantas
 Um homem mais velho em uma jaqueta preta, olhando para baixo
 Um homem mais velho está bebendo e segurando um martelo gigante.
 Um homem mais velho está fazendo algodão doce enquanto outros olham.
+Um homem mais velho está sentado em um café relaxante.
 Um homem mais velho fica do lado de fora de um prédio antigo.
 Um homem mais velho sentado ao sol.
 Um homem mais velho toca violino de forma muito criativa.
@@ -10710,6 +10986,7 @@ Um homem novo em uma camisa amarela que senta-se em um triciclo.
 Um homem novo em uma camisa amarela que solda algum metal.
 Um homem novo levanta para retratos ao estar na frente de uma lagoa.
 Um homem não fica em uma situação como essa todos os dias.
+Um homem olha através de um telescópio em uma esquina da rua.
 Um homem olha enquanto uma criança joga um jogo.
 Um homem olha para o céu noturno através de um telescópio.
 Um homem olha para uma mulher enquanto ela mostra a mão.
@@ -10728,10 +11005,13 @@ Um homem pula no ar enquanto pratica snowboard.
 Um homem pula no ar no meio de uma estrada.
 Um homem pulando em uma placa de esqui.
 Um homem que acaba de jogar uma bola de beisebol em um campo grande.
+Um homem que aprecia uma bebida em um copo.
 Um homem que caminha o seu caminho na neve.
 Um homem que colecionava madeira em duas cestas pendia de seus ombros.
 Um homem que está ao lado de um carrinho de cachorro-quente.
+Um homem que está em uma pesca do lago.
 Um homem que examina o que parece ser alimento em uma cozinha.
+Um homem que executa um reparo da bicicleta no lado da estrada.
 Um homem que faz um truque do skate no ar ao ser filmado.
 Um homem que grelha carnes diferentes em uma grade fora na rua.
 Um homem que joga o pingue-pongue quando uma criança olhar.
@@ -10743,6 +11023,7 @@ Um homem que trabalha com metais usando solda ou ferramentas de moagem.
 Um homem que trabalha com uma ferramenta de soldagem.
 Um homem que trabalha em algo sozinho em um ambiente industrial.
 Um homem que veste uma camisa alaranjada que escala rochas.
+Um homem que veste uma camisa azul sustenta uma obra de arte.
 Um homem que veste uma trouxa olha acima em uma cachoeira.
 Um homem salta de uma saliência rochosa para a água.
 Um homem se afogando vai se agarrar a um canudo.
@@ -10757,6 +11038,7 @@ Um homem segurando equipamento de mergulho? pula na água verde do oceano.
 Um homem segurando uma mala em um metrô.
 Um homem sem camisa com tatuagens está trabalhando em andaimes.
 Um homem sem camisa e um homem em uma colete azul de pesca.
+Um homem sem camisa pinta o teto.
 Um homem sem camisa sobe uma parede de rocha
 Um homem sem camisa trabalha em um telhado.
 Um homem sem camisa, pintando o teto com um longo rolo de tinta.
@@ -10767,6 +11049,7 @@ Um homem sem-teto sendo observado por um homem em trajes de negócios.
 Um homem senta em seu carro? com o braço apoiado na porta.
 Um homem senta-se em um banco interior e sorri.
 Um homem senta-se em um cavalo com montanhas ao fundo.
+Um homem senta-se em uma calçada.
 Um homem senta-se em uma jangada no mar
 Um homem senta-se sozinho em um café
 Um homem sentado contra painéis de madeira.
@@ -10791,6 +11074,7 @@ Um homem tirando uma fotografia em um pequeno corpo de água.
 Um homem toca guitarra em um teatro externo.
 Um homem toca um violino enquanto sorrindo.
 Um homem toca violão em uma calçada chuvosa.
+Um homem tocando violão com um brilho do sol ao fundo
 Um homem trabalha atrás de sua banca de frutas e vegetais.
 Um homem trabalha na soldagem de um corrimão.
 Um homem treina um cão de ataque.
@@ -10811,21 +11095,28 @@ Um homem vestido de preto sintoniza uma guitarra elétrica preta.
 Um homem vestido de vermelho está tocando uma guitarra em uma rua.
 Um homem vestindo um casaco azul e jeans comendo um cachorro-quente.
 Um homem vestindo um chapéu tirando uma soneca.
+Um homem vestindo um uniforme de artes marciais está saltando pelo ar.
+Um homem vestindo uma camisa branca e ele está se divertindo
 Um homem vestindo uma camisa laranja pega uma batata frita com pauzinhos
+Um homem vestindo uma camisa preta canta em uma banda.
 Um homem vestindo uma camisa preta está andando na rua.
 Um homem vestindo uma camisa rosa está tocando violão e cantando
 Um homem vestindo uma camisa roxa está usando uma seringa em um laboratório.
 Um homem vestindo uma camiseta branca tem a boca bem aberta.
 Um homem vestindo uma jaqueta preta, olhando para baixo.
 Um homem vira o skate em uma superfície plana de concreto.
+Um homem é abaixado em uma polia na frente de um prédio
 Um homem é um homem.
+Um homem é visto tossindo em uma rua movimentada.
 Um homem.
+Um homem? limpando um pequeno escritório com um aspirador portátil.
 Um homem? mulher? e criança se divertindo em uma praia.
 Um homem? usando uma camisa listrada? opera um microscópio em um laboratório.
 Um infante louro que mastiga em um brinquedo vermelho.
 Um inferno destruiu metade de Lisboa durante a inquisição portuguesa.
 Um irmão mais velho ajuda uma irmãzinha a soprar bolhas.
 Um jarro vai frequentemente para o poço?, mas finalmente está quebrado.
+Um jarro vai frequentemente para o poço?, mas é finalmente quebrado
 Um jogador de beisebol dando a outra equipe uma saída.
 Um jogador de beisebol de Atlanta está usando uma luva no campo interno.
 Um jogador de beisebol está colocando toda a sua força para jogar uma bola.
@@ -10867,6 +11158,7 @@ Um jovem rapaz segurando um guarda-chuva azul.
 Um jovem ruivo avalia seu alvo com um escopo.
 Um jovem se afastando para deixar uma jovem passar.
 Um jovem temerário se divertindo em sua moto.
+Um jóquei vestindo vermelho monta um cavalo sobre uma área gramada verde exuberante.
 Um lance forte pode assustar seu parceiro.
 Um limpador de rua caminha pela rua com sua vassoura e pá de lixo.
 Um linguado de pedra é a definição de livro de camuflagem eficaz.
@@ -10886,6 +11178,8 @@ Um macho jovem vestindo uma camisa branca com um personagem delineado muito somb
 Um macho pintando uma cena na frente dele.
 Um magistrado
 Um mau trabalhador culpa suas ferramentas.
+Um mecanismo econômico de expor esses custos é internalizá-los.
+Um mecânico abaixo de um caminhão conduzindo reparos.
 Um mecânico de macacão azul trabalha em um ônibus.
 Um menino andando de skate em um trilho e três meninos assistindo.
 Um menino andando pelo pátio de edifícios em ruínas.
@@ -10894,6 +11188,7 @@ Um menino brinca com um dispositivo.
 Um menino brincando com um avião em um campo.
 Um menino carregando dois vegetais verdes.
 Um menino com cabelo escuro está na água e está olhando para cima.
+Um menino com um martelo vermelho de brinquedo.
 Um menino com uma camisola verde está sentado em uma mesa.
 Um menino com uma coroa de ouro e uma túnica branca.
 Um menino correndo pela grama verde.
@@ -10908,6 +11203,7 @@ Um menino de short preto está pulando no oceano.
 Um menino de snowboard salta no ar.
 Um menino de terno laranja está de pé em um campo de trigo.
 Um menino descendo uma lâmina de água.
+Um menino dribla uma bola de basquete no ginásio.
 Um menino e uma mulher em uniformes de artes marciais.
 Um menino em roupas pretas está fazendo uma estrelinha na praia
 Um menino em um parque brincando com duas bolas de laranja.
@@ -10918,10 +11214,12 @@ Um menino em uma camisa listrada e um chapéu faz truques nas etapas.
 Um menino empurra outro em um balanço.
 Um menino está admirando um carro esportivo verde.
 Um menino está ao lado de um trilho em uma pista de kart.
+Um menino está assistindo uma mulher.
 Um menino está brincando com uma chave de fenda.
 Um menino está chutando uma bola azul no tapete cercado por brinquedos.
 Um menino está correndo ao redor das bases em um jogo de beisebol.
 Um menino está correndo pela faixa de pedestres.
+Um menino está dormindo em sua tigela de jantar.
 Um menino está em um banho de espuma? olhando para as bolhas.
 Um menino está empurrando outro menino em um balanço.
 Um menino está jogando em um rack de roupas.
@@ -10937,8 +11235,10 @@ Um menino está sendo espirrado em uma piscina
 Um menino está sentado em um balanço.
 Um menino está sentado no chão colocando em seu tênis.
 Um menino está sentado no chão olhando para o oceano
+Um menino está surfando.
 Um menino está vestindo uma toalha vermelha que está na praia.
 Um menino inspeciona mercadorias em um mercado de becos.
+Um menino joga em um balanço.
 Um menino joga fora perto de uma cerca de madeira.
 Um menino joga na frente de um objeto azul.
 Um menino joga na água de uma piscina rasa.
@@ -10950,12 +11250,14 @@ Um menino loiro vestindo uma camisa verde está correndo atrás de um brinquedo 
 Um menino louro novo joga na areia.
 Um menino louro novo que escova seus dentes na frente de um espelho.
 Um menino muito jovem está olhando para um conjunto de ferramentas de brinquedo.
+Um menino negro fica em um sinal de trânsito.
 Um menino novo em uma camisa alaranjada que presta atenção a algo.
 Um menino novo que prende uma escova sobre o dissipador.
 Um menino novo que sorri ao lado do oceano.
 Um menino novo que usa um lápis para desenhar em um pedaço de papel.
 Um menino olha para o caranguejo que ele está segurando
 Um menino olha para sua pulseira de couro.
+Um menino olha por cima de um balcão de metal branco.
 Um menino parece estar dançando a música em um prédio cheio de pessoas.
 Um menino pequeno está colocando itens de um carrinho para o check-out.
 Um menino pequeno está jogando com uma arma na calçada do lado de fora.
@@ -10969,9 +11271,11 @@ Um menino que salta fora de uma placa de mergulho.
 Um menino que veste uma camisa vermelha corre ao longo de uma praia.
 Um menino salta sobre uma corda vermelha e preta em um parque lotado.
 Um menino sorri e prende uma galinha.
+Um menino sorridente em uma jaqueta verde come um lanche
 Um menino veio correndo em minha direção.
 Um menino vestindo jeans azul está andando de skate.
 Um menino vestindo uma camisola de hóquei está varrendo o quintal.
+Um menino? usando um boné de beisebol? pula no ar perto de alguns degraus.
 Um mercado do Oriente Médio vende comida caseira
 Um mergulhador de águas profundas está em pleno equipamento estudando uma tartaruga marinha.
 Um mergulho autônomo da mulher com uma grande tartaruga de mar.
@@ -10988,6 +11292,7 @@ Um motociclista está dirigindo em um poço lamacento.
 Um motociclista está dirigindo por uma estrada em sua moto.
 Um motociclista faz um truque em uma rampa.
 Um motociclista fazendo uma curva acentuada.
+Um motociclista inclina a bicicleta.
 Um motorista de carro de corrida está segurando um troféu.
 Um motorista recebe um pouco de ar sobre uma colina irregular.
 Um mulher com um vestido vermelho como no filme Matrix.
@@ -11026,6 +11331,7 @@ Um pequeno corpo muitas vezes abriga uma grande alma.
 Um pequeno cão preto e branco está nadando na água.
 Um pequeno cão preto e marrom salta para pegar uma bola vermelha.
 Um pequeno sinal de apreço.
+Um pescador senta-se em seu barco, reparando sua rede.
 Um pescoço limpo significa um colarinho limpo.
 Um piloto de motocross faz um salto na floresta.
 Um piloto usando fones de ouvido voando acima da terra
@@ -11033,6 +11339,7 @@ Um piso encerado nos faz perder o equilíbrio.
 Um policial acena em uma feira de rua.
 Um policial chinês em pé na frente de sua estação.
 Um policial de óculos escuros e uniforme com outros policiais
+Um policial em um cavalo cercado por espectadores.
 Um policial fica entre dragões em uma celebração do Ano Novo Chinês
 Um policial sentado em sua moto policial.
 Um pontapé na bunda é um passo em frente.
@@ -11060,6 +11367,7 @@ Um rapazinho tem a mão na parte de trás das calças enquanto anda.
 Um rastreador vibrante caminha por uma trilha panorâmica.
 Um rei governou o estado nos primeiros dias.
 Um representante adjunto
+Um respiradouro perto da borda trouxe ar fresco.
 Um restaurante azul que fica na água.
 Um ritual com fogo está acontecendo.
 Um rosto de menina de cabeça para baixo.
@@ -11085,6 +11393,7 @@ Um soprador de vidro está criando uma bela obra de arte em seu fogo.
 Um suporte vegetal colorido em uma mercearia.
 Um surfista acabou de sair de uma onda em sua prancha de surfe.
 Um surfista está fazendo cache de uma onda.
+Um surfista está levantando no ar em uma prancha de surf.
 Um surfista está montando uma onda muito grande.
 Um surfista fica em uma onda quebrando
 Um surfista masculino pega um pouco de ar de uma grande onda.
@@ -11094,7 +11403,9 @@ Um surfista pega uma grande onda.
 Um tamanho grande em meias é difícil de vender.
 Um tambor sendo tocado com dois paus
 Um tenista está se preparando para bater a bola com sua raquete
+Um time de beisebol de meninos usa seus uniformes.
 Um time de futebol feminino se une.
+Um time de futebol joga diante de um estádio quase vazio.
 Um time de futebol? todos em uniforme azul? estão comemorando um jogo vitorioso juntos.
 Um tolo e seu dinheiro logo se separaram.
 Um tolo em um vestido não é o mais sábio.
@@ -11110,6 +11421,7 @@ Um trabalhador que limpa um local de demolição.
 Um traiçoeiro, dois pervertidos.
 Um trator está dirigindo em um campo.
 Um trator tentando pegar outro
+Um treinador de um jogo escuta seus fones de ouvido e assiste ao jogo.
 Um trinado? ou agitar tripleto.
 Um turista está lendo um mapa.
 Um ultimato de Edward e desta final!
@@ -11118,6 +11430,7 @@ Um valentão é sempre um covarde.
 Um valor fixo para cada estação de rádio que atenda às bases.
 Um veleiro na água ao nascer do sol.
 Um velho casal se divertindo andando pelas ruas.
+Um velho cavalheiro inglês mostra alguns dos melhores produtos da Grã-Bretanha.
 Um velho com um chapéu está pintando
 Um velho copo de pé ao lado da porta do carro
 Um velho dirige um kart com um garotinho.
@@ -11126,6 +11439,7 @@ Um vendedor de cachorro-quente parece triste
 Um vendedor de rua está preparando comida para venda.
 Um violinista que joga atrás de uma sombra da gaiola.
 Um violoncelista toca seu instrumento à mão.
+Um zelador limpa o piso de madeira de uma sala de aula.
 Um zelador varre a calçada em uma rua movimentada com muitos carros e pedestres.
 Um árbitro assiste de perto quando um arremessador canhoto lança um arremesso do montículo.
 Um é amado porque um é amado.
@@ -11144,8 +11458,10 @@ Uma aula de esgrima acontece em uma quadra de basquete.
 Uma banda com membros segurando seus chapéus.
 Uma banda de três homens executa.
 Uma banda local tocando em um local local.
+Uma banda praticando para um show.
 Uma banda se apresenta em um palco.
 Uma banda tocando em um pequeno show em Baltimore.
+Uma bicicleta em um campo e duas pipas
 Uma boa consciência é um travesseiro macio.
 Uma bolsa pesada faz um coração leve
 Uma bolsa pesada faz um coração leve.
@@ -11176,11 +11492,16 @@ Uma criança balança um morcego ao lado de um muro de pedra.
 Uma criança brinca com seu jogo de trem de brinquedo de madeira.
 Uma criança brinca em uma piscina enquanto usa floaties laranja.
 Uma criança brincando com bolhas e andando.
+Uma criança brincando em uma scooter vermelha.
 Uma criança caminha para fora quando as folhas caem.
+Uma criança chuta o ar do lado de fora em um evento esportivo.
 Uma criança coloca metade em um colchão e metade no chão.
 Uma criança com cabelo preto está tirando uma foto com uma câmera Canon.
 Uma criança com um chapéu vermelho está segurando uma pá na neve.
+Uma criança com uma camisa e shorts azuis está segurando um brinquedo.
+Uma criança com uma mochila laranja está carregando uma casa de pássaros verdes.
 Uma criança corre em direção a um bando de pássaros.
+Uma criança corre para a câmera em um parque.
 Uma criança corre perto de algumas árvores.
 Uma criança de camisa branca e short preto florido tenta secar o corpo molhado.
 Uma criança dormindo em paz
@@ -11192,6 +11513,7 @@ Uma criança está brincando com uma guitarra
 Uma criança está curtindo um passeio.
 Uma criança está de pé na frente de algumas árvores.
 Uma criança está desfrutando de uma bebida no supermercado.
+Uma criança está dormindo do lado de fora da área de dormir.
 Uma criança está em um arnês escalando uma parede de pedra.
 Uma criança está em uma piscina usando óculos de tubarão.
 Uma criança está na praia ao lado de uma cadeira dobrável de lona vermelha.
@@ -11248,6 +11570,7 @@ Uma família andando pela rua.
 Uma família asiática feliz posa para uma foto de férias em frente à lareira.
 Uma família caminha por um campo de cascalho sob altas estruturas de madeira.
 Uma família com duas crianças está em uma exposição da loja.
+Uma família de outro país realizando algum tipo de ritual
 Uma família em uma aldeia africana fica fora de casa no chão.
 Uma família está andando na calçada.
 Uma família está cantando e a mãe está segurando o bebê.
@@ -11255,6 +11578,8 @@ Uma família está curtindo a água.
 Uma família faz piqueniques em um parque com uma estufa no fundo.
 Uma família fica do lado de fora ao pôr do sol bebendo vinho
 Uma família indiana está unida em um corpo de água olhando para fora.
+Uma família no deserto.
+Uma família se preparando para comer uma refeição grande.
 Uma fantasia de abelha gigante abraça um menino.
 Uma figura fantasmagórica apareceu.
 Uma fila de pessoas espera do lado de fora de um prédio.
@@ -11292,6 +11617,7 @@ Uma garota salta.
 Uma garota saltando para o ar em frente à casa Branca.
 Uma garota sendo tirada da água por dois homens com um dispositivo de madeira
 Uma garota sorri enquanto interage com o pessoal médico
+Uma garota usa um vestido verde.
 Uma garota vestindo uma camisa vermelha está andando longe de uma pista de boliche.
 Uma garota vestindo uma jaqueta e cachecol está jogando na praia.
 Uma garota é presa a cordas de bungee enquanto a multidão atrás dela observa.
@@ -11342,24 +11668,29 @@ Uma menina andando de bicicleta por uma rua ao sol.
 Uma menina andando por uma trilha de natureza pula no ar.
 Uma menina brincando na pia com brinquedos e alguns produtos químicos domésticos potencialmente perigosos
 Uma menina com um moicano azul está andando.
+Uma menina dança na calçada.
 Uma menina de azul está sorrindo enquanto jogando em um balanço de corda.
+Uma menina de chapéu-de-rosa olha para uma poça de água.
 Uma menina de pijama rosa tenta operar uma câmera.
 Uma menina e um menino sentam-se ao ler livros.
 Uma menina e uma mulher saltam de seus balanços.
 Uma menina em um boné roxo sopra bolhas de sabão.
 Uma menina em um casaco azul está sentado na frente do horizonte de Seattle.
 Uma menina em um maiô floral que salta na praia na frente das ondas.
+Uma menina em um maiô verde que pula em um lago.
 Uma menina em um vestido azul está de pé com a mão no quadril.
 Uma menina em um vestido branco corre por uma estrada secundária.
 Uma menina em um vestido laranja está correndo através do aspersor no quintal
 Uma menina em um vestido vermelho e capa detém uma grande raquete de tênis.
 Uma menina em uma camisa amarela carregando uma cesta de flores.
+Uma menina em uma camisa amarela está encostada a uma parede.
 Uma menina espirra na água perto de uma corrediça de água azul grande.
 Uma menina está abrindo um saco de presente de aniversário animadamente
 Uma menina está andando em um recipiente de lixo.
 Uma menina está balançando em seu balanço colorido fora.
 Uma menina está bebendo de um bebedouro.
 Uma menina está comendo cereal fora de uma tigela branca.
+Uma menina está correndo por um corredor de madeira de lei
 Uma menina está saltando de um balanço e pousando em seus pés
 Uma menina está sentada em uma cadeira verde, brincando com blocos.
 Uma menina está tecendo enquanto uma criança e um adulto olhar.
@@ -11368,6 +11699,7 @@ Uma menina está usando um grande chapéu de bandeira americana em um campo.
 Uma menina loira vestindo azul pulando em um córrego
 Uma menina loura pequena vestida na cor-de-rosa prende um brinquedo.
 Uma menina monta sua bicicleta na faixa de pedestres em um cruzamento.
+Uma menina montando um pônei com tranças e arcos-de-rosa
 Uma menina muito rasgada detém uma grande barra no ombro em um ginásio.
 Uma menina na cor-de-rosa e homem na pá preta através da água.
 Uma menina olhando algumas fotos na parede.
@@ -11408,6 +11740,7 @@ Uma mulher coberta de tatuagens vestindo uma camisa roxa e vermelha brilhante
 Uma mulher cobrindo os olhos em um parque como o dia chega ao fim
 Uma mulher coloca em um sofá em um quintal.
 Uma mulher com cabelo castanho encaracolado olha para um menu.
+Uma mulher com cabelo preto está olhando para o seu tablet móvel.
 Uma mulher com cabelo vermelho está colocando na sombra no espelho
 Uma mulher com dor no quarto dela.
 Uma mulher com laços rosa no cabelo toca um instrumento.
@@ -11421,6 +11754,7 @@ Uma mulher com uma criança fica na frente de uma estátua.
 Uma mulher com uma luva branca e vários outros.
 Uma mulher com uma pá.
 Uma mulher correndo até uma colina com uma vista panorâmica atrás dela
+Uma mulher correndo enquanto outras pessoas estão assistindo.
 Uma mulher dançando vestindo branco na frente de uma fonte.
 Uma mulher de azul está subindo uma grande rocha
 Uma mulher de botas pretas e casaco preto está caminhando.
@@ -11431,8 +11765,10 @@ Uma mulher de dança do ventre que está se movendo alegremente.
 Uma mulher de gorro está vendendo nozes.
 Uma mulher de preto caminha pela rua em frente a uma parede grafitada.
 Uma mulher de preto conversa pela calçada em um dia frio.
+Uma mulher de preto sobe a parede de pedra.
 Uma mulher de shorts pá de neve.
 Uma mulher de top amarelo e shorts azuis e amarelos está saltando um obstáculo.
+Uma mulher de óculos escuros caminha pela rua? carregando uma bolsa azul.
 Uma mulher descalça, vestindo uma camisola vermelha está carregando um objeto através da água
 Uma mulher desliza para casa enquanto o apanhador tenta bloquear.
 Uma mulher deve estar preparada para qualquer emergência.
@@ -11493,6 +11829,8 @@ Uma mulher está olhando para um mapa enquanto está sentado em uma lavanderia.
 Uma mulher está olhando para uma máquina de vendas tentando decidir qual item escolher
 Uma mulher está pagando por uma compra, enquanto outras duas mulheres olham para revistas.
 Uma mulher está pintando uma cena do Grand Canyon em seu cavalete portátil.
+Uma mulher está posando por um edifício.
+Uma mulher está rolando seu carrinho de supermercado do outro lado da rua.
 Uma mulher está segurando uma criança
 Uma mulher está segurando uma lata de bebida.
 Uma mulher está segurando uma placa amarela que lê abraços grátis
@@ -11510,6 +11848,7 @@ Uma mulher gesticula em uma festa.
 Uma mulher hispânica está usando um wok ao ar livre para cozinhar.
 Uma mulher idosa asiática carrega frutas em uma cesta redonda rasa.
 Uma mulher idosa recebe a pressão arterial verificada.
+Uma mulher idosa sentada num banco.
 Uma mulher inclina o rosto para cima e levanta a mão enluvada branca
 Uma mulher loira em um bar olha por cima do ombro.
 Uma mulher loira em um trem está aplicando rímel.
@@ -11518,6 +11857,7 @@ Uma mulher loira está cantando no palco.
 Uma mulher loira está olhando para baixo, enquanto outros se sentam em segundo plano.
 Uma mulher loira está segurando uma guitarra em pé atrás de um microfone.
 Uma mulher loira exibe um pôster escrito para as multidões verem.
+Uma mulher loira usando óculos escuros e brincos de dados sorri.
 Uma mulher mais velha com três filhos e uma das crianças está chorando.
 Uma mulher mais velha de pele escura segurando um bebê de pele clara.
 Uma mulher mais velha dorme no metrô.
@@ -11534,11 +11874,15 @@ Uma mulher posicionou seu nariz de caiaque na água.
 Uma mulher preparando uma refeição em casa.
 Uma mulher que anda através de um monte com as nuvens escuras no fundo.
 Uma mulher que anda para casa com seus mantimentos.
+Uma mulher que corta um bolo marrom.
+Uma mulher que está sorrindo está usando um enfeite de cabeça único
+Uma mulher que lê no parque com seus sapatos.
 Uma mulher que monta um "trotinette" em uma calçada na cidade.
 Uma mulher que monta uma bicicleta com uma criança em um banco traseiro.
 Uma mulher que olha um telemóvel ao estar em um passeio.
 Uma mulher que veste uma camisa azul senta-se em um banco branco.
 Uma mulher sai de um carro vermelho muito pequeno.
+Uma mulher sai de uma estação de metrô enquanto ouve música.
 Uma mulher salta pela praia.
 Uma mulher se estende ao longo de uma parede espelhada.
 Uma mulher se protege do sol com seu guarda-chuva.
@@ -11547,6 +11891,7 @@ Uma mulher segura duas caricaturas de si mesma.
 Uma mulher segura uma lâmpada acesa.
 Uma mulher segurando um guarda-chuva preto em um dia ensolarado.
 Uma mulher senta-se em uma parede ao lado de uma grande fonte cônica.
+Uma mulher senta-se lendo em uma lavanderia
 Uma mulher sentada e cortando o cabelo de outra mulher.
 Uma mulher sentada em uma cadeira com óculos de sol brancos.
 Uma mulher servindo outra mulher que está esperando na fila.
@@ -11559,13 +11904,17 @@ Uma mulher tira uma foto de um bebê sendo segurado por um homem.
 Uma mulher toca um teclado na frente de um público.
 Uma mulher trabalha em um jardim de flores
 Uma mulher trabalha no balcão de um jogo de carnaval
+Uma mulher usando grandes óculos de sol detém jornais em ambas as mãos.
 Uma mulher usando um capacete derramando água sobre saquinhos de chá.
 Uma mulher vendendo chapéus do lado de fora.
 Uma mulher vestida muito bem está feliz com sua câmera.
+Uma mulher vestindo boina de malha em seu dispositivo celular.
 Uma mulher vestindo botas está andando na chuva carregando um guarda-chuva vermelho.
 Uma mulher vestindo um vestido muito curto, de pé com o celular no ouvido.
 Uma mulher vestindo uma camisa preta e shorts caminha através de uma fonte.
+Uma mulher vestindo uma jaqueta preta está andando na calçada
 Uma mulher vestindo uma jaqueta roxa está amamentando um bebê.
+Uma mulher vestindo uma luva branca espreita sobre a multidão.
 Uma mulher vestindo vermelho? branco? e azul? está andando de bicicleta em uma academia.
 Uma mulher às compras de frutas em um mercado ao ar livre
 Uma multidão aguarda? esperando por um metrô.
@@ -11580,12 +11929,14 @@ Uma multidão de pessoas está passando por um antigo arco.
 Uma multidão de pessoas está pulando da calçada.
 Uma multidão de pessoas está reunida no sinal de início para a caminhada.
 Uma multidão de pessoas senta em uma praça pública.
+Uma multidão está curtindo um festival ao ar livre.
 Uma multidão está reunida na Trafalgar Square, em Londres.
 Uma mãe e filha andando por uma rua da cidade.
 Uma mãe e seu bebê recém-nascido compartilhando um momento com seus avós.
 Uma mãe e seus dois filhos sentam-se para descansar
 Uma mãe e um filho caminham juntos enquanto o filho carrega uma bandeira.
 Uma mãe e uma criança estão interagindo em uma sala retrostilada.
+Uma mãe mostra atentamente seus outros dois filhos o novo bebê
 Uma mãe na rua com seu filho
 Uma noite? o pai teve um sonho.
 Uma noiva e suas damas de honra estão posando para uma foto.
@@ -11628,6 +11979,7 @@ Uma pessoa encontra-se metade debaixo de um carro? de face para baixo.
 Uma pessoa esquia em uma colina coberta de neve.
 Uma pessoa está andando em um barco em um lago.
 Uma pessoa está andando na distância de uma ponte amarela.
+Uma pessoa está andando por uma vitrine com um vestido vermelho.
 Uma pessoa está comprando algo usando o auto checkout.
 Uma pessoa está em pé sobre rochas irregulares acima da água abaixo.
 Uma pessoa está equilibrando um objeto em sua cabeça.
@@ -11658,6 +12010,7 @@ Uma pessoa usando um capacete amarelo está subindo um penhasco
 Uma pessoa verifica instrumentos médicos.
 Uma pessoa vestida colorida está levantando com um guarda-chuva azul e branco.
 Uma pessoa vestindo uma camisa amarela fica entre duas cachoeiras.
+Uma pessoa vestindo uma máscara e peles está posando com um machado.
 Uma pitada de pimenta estraga ensopado de carne.
 Uma porta aberta pode tentar um santo.
 Uma propriedade rural
@@ -11670,6 +12023,7 @@ Uma raposa caída não pega galinhas.
 Uma rara visita à amizade aumenta.
 Uma resposta suave desvia a ira do diabo
 Uma rua cheia de lojas.
+Uma rua da cidade ocupada com pessoas e carros.
 Uma rua escura da cidade contendo uma mulher andando e muitos carros estacionados.
 Uma rua tranquila com lojas exclusivas e arquitetura.
 Uma scooter elétrica fica do lado de fora de uma placa de propaganda iluminada.
@@ -11831,6 +12185,7 @@ Vinte mil dólares por ano?
 Vinte mil não é usado
 Vinícius e Benjamim são Brasileiros.
 Vire a direita.
+Vire a folha rapidamente
 Vire para a direita.
 Virou a noite estudando para a prova
 Virá em um dia, de um jeito ou de outro.
@@ -11900,11 +12255,13 @@ Você conseguiu ele?
 Você considera estudar fora?
 Você conta mentiras?
 Você contou a eles aquela história engraçada que você me contou ontem?
+Você costumava ser capaz de arremessar melhor do que isso.
 Você decide.
 Você deixou de fora o número cinco.
 Você deu a ela o dinheiro?
 Você deve avaliá-lo em um experimento de percepção.
 Você deve entender que o amor nunca impede um homem de perseguir seu destino.
+Você deve ler o novo livro que Mark Twain está escrevendo agora.
 Você deve mostrar que seu método melhora os resultados.
 Você deve ver o outro cara? especificamente? como ele é bom em lutar.
 Você deveria estar aqui.
@@ -11913,6 +12270,7 @@ Você deveria sair do Instagram por um tempo.
 Você deveria ser aquele que tem todas as respostas.
 Você deveria ser um cara inteligente!
 Você deveria ter algo a dizer então!
+Você deveria ter aprendido que miniaturas com mulheres usando decotes são apenas iscas.
 Você deveria ter visto a comoção naquele vestiário.
 Você deveria ver isso.
 Você deveria ver o email dele!
@@ -11937,6 +12295,7 @@ Você esqueceu de comprar leite.
 Você estava aqui na minha noite de núpcias.
 Você esteve em uma luta?
 Você está acordado?
+Você está administrando uma empresa ou uma instituição de caridade?
 Você está aprendendo isso?
 Você está aqui um pouco cedo.
 Você está aí?
@@ -12017,6 +12376,7 @@ Você me confunde com outro.
 Você me contou sobre seus sonhos? sobre o velho rei e seu tesouro.
 Você me disse isso.
 Você me diz e eu farei isso.
+Você me diz? e eu farei isso.
 Você me entende?
 Você me lê?
 Você me preocupou.
@@ -12145,6 +12505,7 @@ Você pode jogar no Youtube?
 Você pode ler tudo sobre isso nos jornais de lá.
 Você pode me ajudar a encontrar o Patrício?
 Você pode me ajudar com essa pergunta?
+Você pode me dizer onde dói?
 Você pode me emprestar sua bicicleta por um tempo?
 Você pode me encontrar o romance? Alfabetização?
 Você pode me encontrar o trabalho intitulado? um pouco curioso?
@@ -12365,6 +12726,7 @@ Você é a maior pessoa da cidade!
 Você é apenas o que eu queria ver.
 Você é bonito
 Você é exatamente como o pai costumava ser.
+Você é forte o suficiente?
 Você é jornalista.
 Você é mesmo filho do meu pai.
 Você é muito gentil
@@ -12403,6 +12765,7 @@ Vou desenterrar os cinco mil de alguma forma.
 Vou discutir as técnicas que uso para discutir minhas gramáticas.
 Vou fazer uma bagunça dessas sem você.
 Vou ficar com trocadilhos ruins no futuro?, eu acho.
+Vou lhe enviar o último e-mail.
 Vou mandar alguns e-mails para minha família.
 Vou precisar de algumas partituras, se você quiser que eu toque isso.
 Vou sair de casa
@@ -12466,6 +12829,7 @@ Vários alunos eram de Juíz de Fora.
 Vários ciclistas atravessam uma grande ponte com a cidade ao longe.
 Vários corredores competem em uma corrida de estrada.
 Vários homens de capacetes caminhando ao longo de um mirante nevado.
+Vários homens estão trabalhando em uma chuva de faíscas de metal.
 Vários itens de vidro são exibidos em uma prateleira de vidro em uma janela.
 Vários jovens adultos posando dramaticamente em um vagão do metrô.
 Vários músicos estão posicionados ao redor do baterista e a escada em um palco
@@ -12506,6 +12870,7 @@ adicione o Yamataka Eye à minha sofisticada lista de reprodução de jantar
 ainda assim é mais fácil falar, do que escrever.
 ao treinar um modelo todos os fonemas culturais precisam ser avaliados
 as notícias dos jornais estão assustadoras
+as pessoas estão andando pela rua.
 as pessoas estão dançando em uma plataforma quadriculada enquanto as pessoas estão assistindo
 as pessoas estão se preparando para entrar no ônibus
 babuínos bobocas balbuciando em bando
@@ -12566,6 +12931,7 @@ homem de camisa listrada carregando cesta de madeira sobre o ombro direito
 homem de pé na esquina da rua em uma área metropolitana.
 homem lendo um navegador em um barco.
 homem sentado em uma cena de vida selvagem brincando com um urso polar.
+homem surfando em uma onda no oceano
 homem vestindo um short azul e uma mulher de óculos em uma doca
 há uma mesa disponível para minhas filhas e eu no The Octagon? Christchurch
 inclusive palavras de aparência esdrúxula
@@ -12595,6 +12961,8 @@ mostre-me os filmes que estão tocando por aqui
 muita paciência? mas os pastores sabem tudo sobre paciência.
 muitas mulheres idosas estão realizando artes e ofícios
 muitas pessoas alinham? e uma mulher textos.
+muitas pessoas andam pela loja.
+muitas pessoas tirando fotos das montanhas na frente de um sinal de nenhum caminhão
 muitas possibilidades
 mulheres vestindo uma camisa rosa vendendo donuts em um parque.
 nostalgia Aqui jaz o cachorro enterrado
@@ -12620,6 +12988,7 @@ para se divertir na noite do Rio de Janeiro.
 para você quanto custa uma vida
 penso, logo existo.
 perde-se precisão ao ignorar fonemas taxados socialmente como insultos
+pessoa em um skate no ar
 pode passear enquanto eu estiver trabalhando
 pode uma pessoa preferir uma folha de papel verde à vida humana?
 pois claro, eu bem te avisei.
@@ -12663,7 +13032,9 @@ toque algum movimento de Franky Gee
 três budistas caminham pela rua.
 três cachorros correm pela grama.
 três chineses comem sopa.
+três homens em pé em um local de armazém.
 três pacotes de trigo para três tigres tristes
+três pessoas jogam futebol na areia.
 um bebê sentado no meio do chão, rodeado de fraldas limpas
 um cachorro bege correndo na grama com uma bola de tênis na boca
 um cachorro brinca com um brinquedo.
@@ -12690,16 +13061,19 @@ um grande grupo de jovens vestidos com tops brancos e fundos verdes
 um grupo de cães correndo lá fora por uma trilha de terra.
 um grupo de pessoas olhando para suas câmeras
 um grupo de pessoas remando um grande barco a remos no lago.
+um homem anda com o cachorro na rua.
 um homem anda por uma arcada.
 um homem andando de bicicleta pela floresta
 um homem andando e uma mulher andando segurando uma menina
 um homem com uma guitarra em uma banda cantando em um microfone
 um homem com óculos de aros pretos, dormindo com uma bebida na mão
+um homem dando dois polegares para uma multidão.
 um homem de bicicleta na área da cidade.
 um homem de calça verde em uma bicicleta.
 um homem de camisa azul em pé na frente de um edifício
 um homem de camisa preta está cantando em um microfone.
 um homem de joelhos desenhando na areia
+um homem de pé fora de uma casa que ele construiu
 um homem e uma mulher posando para uma foto
 um homem e uma mulher prestes a se beijar
 um homem está debaixo d'água sentado no fundo da piscina
@@ -12731,6 +13105,7 @@ um monte de gente saindo
 um pastor alemão cachorro mordendo uma grande bola vermelha
 um pequeno cachorro pulando ao longo da areia
 um pequeno cão preto e branco, carregando um balde vermelho na boca
+um pequeno jato decola.
 um pote de chá preto da Takeda
 um rapaz debaixo de água com alguém a ajudá-lo a nadar
 um rapaz usando sapatos brancos perseguindo várias galinhas
@@ -12766,6 +13141,7 @@ uma volta do céu
 vai sair em carne e osso
 veio ao bar em que ele havia entrado em seu primeiro dia ali.
 vendedores ambulantes asiáticos que esperam para vender lá a mercadoria.
+vibrações de paz em toda a tenda.
 você está brincando com dinamite!
 você pode assobiar por isso
 você tem muito amor por mim e eu tenho muito amor por você
@@ -12773,6 +13149,7 @@ você terá que esperar até o dia do juízo final
 você é humano?
 voltado para estudantes de idiomas estrangeiros.
 vou escrever mais devagar.
+vários jovens asiáticos carregando bandeiras preto e brancas
 À direita ou vice-versa, em casa há dinheiro.
 À primeira vista,? não foi muito emocionante.
 Àquela altura, ninguém podia ver nada

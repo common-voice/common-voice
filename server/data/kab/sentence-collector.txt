@@ -1568,9 +1568,13 @@ Ad d-ḍelbeɣ afus-im.
 Ad d-ṭṭfen abrid-nsen ɣer yirebbi n tmurt.
 Ad ddmeɣ anebdu wala tagrest.
 Ad dduklen yid-neɣ?
+Ad dduklen yid-nteɣ?
 Ad dduklen yid-sen?
+Ad dduklen yid-sent?
 Ad dduklent yid-i?
+Ad dduklent yid-neɣ?
 Ad dduklent yid-s?
+Ad dduklent yid-sen?
 Ad ddun yid-i?
 Ad ddun yid-s?
 Ad ddun yid-sen?
@@ -1839,8 +1843,10 @@ Ad iɣli win innumen ajdab.
 Ad iḍum i win yellan uqbel-is.
 Ad iḥewwes yid-i?
 Ad iḥewwes yid-neɣ?
+Ad iḥewwes yid-nteɣ?
 Ad iḥewwes yid-s?
 Ad iḥewwes yid-sen?
+Ad iḥewwes yid-sent?
 Ad iḥlu qasi, ad yečč imensi.
 Ad iḥmu lḥal azekka.
 Ad iḥrez Rebbi tawwurt yellin.
@@ -2010,6 +2016,9 @@ Ad kent-t-tefk?
 Ad kent-t-teɛṛeḍ?
 Ad kent-ten-fken?
 Ad kent-ten-fkent?
+Ad kent-ten-id-awin?
+Ad kent-ten-id-tawi?
+Ad kent-ten-id-yawi?
 Ad kent-ten-tefk?
 Ad kent-ten-teɛṛeḍ?
 Ad kent-tent-fken?
@@ -2019,6 +2028,7 @@ Ad kent-teǧǧ tmacint.
 Ad kent-tt-fken?
 Ad kent-tt-fkent?
 Ad kent-tt-id-awin?
+Ad kent-tt-id-awint?
 Ad kent-tt-id-tawi?
 Ad kent-tt-id-yawi?
 Ad kent-tt-tefk?
@@ -2431,6 +2441,7 @@ Ad sen-t-yeɛṛeḍ?
 Ad sen-ten-fken?
 Ad sen-ten-fkent?
 Ad sen-ten-id-awin?
+Ad sen-ten-id-awint?
 Ad sen-ten-id-tawi?
 Ad sen-ten-id-yawi?
 Ad sen-ten-tefk?
@@ -2440,6 +2451,9 @@ Ad sen-ten-tɛeṛḍeḍ?
 Ad sen-ten-yeɛṛeḍ?
 Ad sen-tent-fken?
 Ad sen-tent-fkent?
+Ad sen-tent-id-awin?
+Ad sen-tent-id-tawi?
+Ad sen-tent-id-yawi?
 Ad sen-tent-tefk?
 Ad sen-tent-teɛṛeḍ?
 Ad sen-tent-yeɛṛeḍ?
@@ -2477,15 +2491,20 @@ Ad sent-t-tɛeṛḍeḍ?
 Ad sent-t-yeɛṛeḍ?
 Ad sent-ten-fken?
 Ad sent-ten-fkent?
+Ad sent-ten-id-awin?
+Ad sent-ten-id-tawi?
+Ad sent-ten-id-yawi?
 Ad sent-ten-tefk?
 Ad sent-ten-teɛṛeḍ?
 Ad sent-ten-yeɛṛeḍ?
 Ad sent-tent-fken?
 Ad sent-tent-fkent?
 Ad sent-tent-tefk?
+Ad sent-tent-teɛṛeḍ?
 Ad sent-tt-fken?
 Ad sent-tt-fkent?
 Ad sent-tt-id-awin?
+Ad sent-tt-id-awint?
 Ad sent-tt-id-tawi?
 Ad sent-tt-id-yawi?
 Ad sent-tt-tefk?
@@ -2500,6 +2519,7 @@ Ad seqsayen ɣef tefyirin.
 Ad sermimzen adrar i taqbaylit s tirugza.
 Ad setḥiɣ s wayen akken d-yesnlfuy wallaɣ-iw.
 Ad sewwayeɣ.
+Ad sewweqen yid-sen?
 Ad sewweqent yid-i?
 Ad sewweqent yid-s?
 Ad sewwqen yid-neɣ?
@@ -2716,8 +2736,11 @@ Ad teddu yid-sent?
 Ad teddu yid-wen?
 Ad teddukel yid-i?
 Ad teddukel yid-s?
+Ad teddukel yid-sen?
 Ad tedduklem yid-i?
 Ad tedduklem yid-s?
+Ad tedduklemt yid-i?
+Ad tedduklemt yid-s?
 Ad teddukleḍ yid-i?
 Ad teddukleḍ yid-s?
 Ad teddum akken ma tellam
@@ -3312,13 +3335,18 @@ Ad tḥemmleḍ lɣir-ik am yiman-ik.
 Ad tḥesbem lfakya-nni teḥṛem, ur tettmačča ara.
 Ad tḥewwes yid-i?
 Ad tḥewwes yid-neɣ?
+Ad tḥewwes yid-nteɣ?
 Ad tḥewwes yid-s?
 Ad tḥewwes yid-sen?
+Ad tḥewwes yid-sent?
 Ad tḥewwsem yid-i?
+Ad tḥewwsem yid-neɣ?
 Ad tḥewwsem yid-s?
+Ad tḥewwsem yid-sen?
 Ad tḥewwsemt yid-i?
 Ad tḥewwsemt yid-s?
 Ad tḥewwseḍ yid-i?
+Ad tḥewwseḍ yid-neɣ?
 Ad tḥewwseḍ yid-s?
 Ad tḥewwseḍ yid-sen?
 Ad tḥukkeḍ icettiḍen ɣef uslaḍ.
@@ -3355,6 +3383,7 @@ Ad wen-d-yeǧǧ Ṛebbi lbaṛaka.
 Ad wen-fkeɣ ayen ilaqen.
 Ad wen-ilin d ayen iqedsen nezzeh.
 Ad wen-iniɣ, yugar nnbi.
+Ad wen-nernu imensi?
 Ad wen-nernu imesnsi?
 Ad wen-t-fken?
 Ad wen-t-fkent?
@@ -3367,12 +3396,16 @@ Ad wen-t-teɛṛeḍ?
 Ad wen-ten-fken?
 Ad wen-ten-fkent?
 Ad wen-ten-id-awin?
+Ad wen-ten-id-awint?
 Ad wen-ten-id-tawi?
 Ad wen-ten-id-yawi?
 Ad wen-ten-tefk?
 Ad wen-ten-teɛṛeḍ?
 Ad wen-tent-fken?
 Ad wen-tent-fkent?
+Ad wen-tent-id-awin?
+Ad wen-tent-id-tawi?
+Ad wen-tent-id-yawi?
 Ad wen-tent-tefk?
 Ad wen-tent-teɛṛeḍ?
 Ad wen-tt-fken?
@@ -3422,6 +3455,7 @@ Ad yeddu yid-sent?
 Ad yeddu yid-wen?
 Ad yeddukel yid-i?
 Ad yeddukel yid-s?
+Ad yeddukel yid-sen?
 Ad yefferfer bururu ad t-yeḍfer uwaɣzniw.
 Ad yeffeɣ s reffu.
 Ad yeffeɣ taddart!
@@ -3718,10 +3752,14 @@ Ad ḥekkmen fell-as s lmut.
 Ad ḥerzen lumuṛ-iw, akken ur ttawin ara ddnub.
 Ad ḥewwsen yid-i?
 Ad ḥewwsen yid-neɣ?
+Ad ḥewwsen yid-nteɣ?
 Ad ḥewwsen yid-s?
 Ad ḥewwsen yid-sen?
+Ad ḥewwsen yid-sent?
 Ad ḥewwsent yid-i?
+Ad ḥewwsent yid-neɣ?
 Ad ḥewwsent yid-s?
+Ad ḥewwsent yid-sen?
 Ad ḥeḍreɣ.
 Ad ḥulfuɣ s yiman-iw ḍaεeɣ
 Ad ḥṣun medden ad t-ayseɣ.
