@@ -214,8 +214,8 @@ resource "aws_db_instance" "public" {
   identifier = "${var.service_name}-${var.environment}-public"
 
   #XXX:AWS API bug, needs ARN at creation, name at modification time
-  replicate_source_db = "${data.aws_db_instance.voice.db_instance_arn}"
-  #replicate_source_db = "${var.service_name}-${var.environment}"
+  #replicate_source_db = "${data.aws_db_instance.voice.db_instance_arn}"
+  replicate_source_db = "${var.service_name}-${var.environment}"
 
   instance_class = "${var.environment == "prod" ? "db.t3.medium" : "db.t3.small"}"
   storage_type   = "standard"
