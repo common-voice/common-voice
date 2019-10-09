@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kukaa na habari juu ya Mradi wa Sauti ya Kawaida.
 email-input =
     .label = Barua pepe
 loading = Kupakia…
