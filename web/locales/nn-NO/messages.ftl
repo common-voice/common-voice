@@ -176,7 +176,7 @@ todays-progress = Framdrift i dag
 help-reach-goal = Hjelp oss å nå { $goal }
 read-terms-q = Har du lese vilkåra våre?
 ready-to-record = Klar for å donere stemma di til oss?
-all-locales = Allle
+all-locales = Alle
 today = I dag
 x-weeks-short =
     { $count ->
