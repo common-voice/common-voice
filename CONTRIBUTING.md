@@ -52,8 +52,6 @@ This is going to:
 
 You can visit the website at [http://localhost:9000](http://localhost:9000).
 
-To modify the configuration listed in config-helper.ts (e.g server port), you need to modify the file `local-docker-config.json` in `voice-web/docker`.
-
 #### Local setup
 
 ###### Requirements
@@ -80,7 +78,9 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 
 #### Configuration
 
-You can find configurable options, like the port CommonVoice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override.
+You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override. If you're using Docker, you may need to modify the file `/docker/local-docker-config.json` instead.
+
+#### Authentication
 
 If you want to work with login-related features (Profile, Dashboard, Goals, ...) you'll need to set up authentication:
 
@@ -92,9 +92,9 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 
 ```
 "AUTH0": {
-  "DOMAIN": "<domain_here>",
-  "CLIENT_ID": "<client_id_here>",
-  "CLIENT_SECRET": "<client_secret_here>"
+ "DOMAIN": "<domain_here>",
+ "CLIENT_ID": "<client_id_here>",
+ "CLIENT_SECRET": "<client_secret_here>"
 }
 ```
 
