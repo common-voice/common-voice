@@ -324,13 +324,14 @@ avatar-clip-title = Dejte svému avataru hlas
 change-your-avatar-clip = Chcete změnit svoji hlasovou nahrávku?
 recording-in-progress = Probíhá hlasový záznam
 avatar-clip-recorded = Váš avatar nyní obsahuje hlasový záznam!
-record-voice-wave = NAHRÁT HLAS
+record-voice-wave = NAHRÁT ZÁZNAM HLASU
 retry-voice-wave-recording = OPAKOVAT
 re-record = NAHRÁT ZNOVU
 delete-voice = ODSTRANIT
 ready-to-upload = NAHRÁT
 avatar-clip-fact = Je již dlouho známým faktem, že čtenář bude pouze rozptylován čitelným obsahem stránky při zkoumání jejího rozvržení.
 cancel-avatar-clip-recording = ZRUŠIT
+about-avatar-clip-recording = Vytvořte hlasový záznam jako součást vašeho avatara. Ostatní si ho mohou poslechnout po najetí myší.
 browse-file-title = Nahrát obrázek
 browse-file = Přetáhněte nebo <browseWrap>Procházejte</browseWrap>
 connect-gravatar = Propojit s Gravatarem
@@ -380,6 +381,10 @@ faq-why-10k-hours-a = Je to počet hodin potřebných k natrénování produkčn
 faq-how-calc-hours-q = Jak projekt Common Voice počítá nahrané hodiny?
 faq-how-calc-hours-a = Celkovou nahranou dobu počítáme odhadnutím průměrné délky nahrávky, kterou vynásobíme jejich celkovým počtem.
 faq-where-src-from-2-q = Odkud pochází původní text?
+faq-where-src-from-2-a =
+    Čtené texty jsou tvořeny originálními příspěvky jednotlivých přispěvatelů, spolu s texty z veřejně přístupných knih, scénářů a podobných zdrojů.
+    
+    Všechny věty si můžete prohlédnout v příslušné <githubLink>složce na GitHubu</githubLink>.
 faq-why-not-ask-read-q = Proč prostě nepožádáte lidi, aby četli z knih či články na Wikipedii?
 faq-why-not-ask-read-a = Aby mohl být dataset projektu Common Voice co nejužitečnější, rozhodli jsme se povolit použití pouze zdrojových textů dostupných pod licencí Creative Commons (CC0). Použití licence CC0 sice znamená, že je obtížnější najít a sesbírat použitelné věty, na druhou stranu ale umožňuje každému použít sesbíraná data bez jakýchkoliv omezení či nutnosti shánět si povolení. Koneckonců chceme učinit dataset Common Voice co nejužitečnějším každému, včetně výzkumníků, univerzit, startupů, vládních organizací, společenských organizací, a koníčkářů.
 faq-why-account-q = Proč bych si měl(a) vytvořit účet?
@@ -401,7 +406,11 @@ faq-search-for-answers =
 
 about-title = Proč Common Voice?
 about-subtitle = Projekt Common Voice je součástí iniciativy Mozilly, která pomáhá strojům učit se, jak mluví skuteční lidé. Kromě datasetu Common Voice vytváříme také systém rozpoznávání hlasu s otevřeným zdrojovým kódem zvaný Deep Speech.
+about-header-description =
+    Oba tyto projekty jsou součástí našich snah o překlenutí propasti digitální komunikace. Technologie rozpoznávání hlasu vnášejí lidskost do našich zařízení, ale aby je mohli vývojáři vytvářet, potřebují enormní množství hlasových dat. Tato data jsou ale v současné době zpravidla drahá a proprietární.
+    Naším cílem je tato data zdarma a veřejně zpřístupnit a zajistit, aby reprezentovala i jedinečnosti skutečných lidí. Spolu zvládneme technologie rozpoznání hlasu vylepšit pro všechny.
 how-does-it-work-title = Jak to funguje?
+how-does-it-work-text = Sbíráme otevřenou databázi hlasových záznamů. Darujte svůj hlas, ověřte přesnost hlasových záznamů ostatních a pomozte nám tuto databázi dále vylepšovat.
 about-speak = Čtení
 about-speak-text = Přispěvatelé pořizují nahrávky čtením z databáze vět.
 about-listen-queue = Fronta nahrávek
@@ -436,6 +445,9 @@ about-nav-partners = Partneři
 about-nav-get-involved = Zapojte se
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Umělá inteligence
+mycroft-description =
+    Mycroft je celosvětově první otevřený hlasový asistent.
+    Mycroft funguje všude - na stolním počítači, v automobilu, nebo i z Raspberry Pi.
 
 ## Glossary
 
@@ -484,6 +496,7 @@ review-delete-recordings = Smazat nahrávky
 
 ## Datasets Page
 
+datasets-headline = Vytváříme otevřenou mnohojazyčnou databázi hlasových záznamů, kterou může kdokoli použít k trénování svých hlasových aplikací.
 language = Jazyk
 # File size in gigabytes
 size = Velikost
@@ -503,11 +516,13 @@ download-language = Stáhnout jazyk { $language }
 validated-hours = Ověřené hodiny
 recorded-hours = Nahrané hodiny
 whats-inside = Co je uvnitř datové sady Common Voice?
+want-dataset-update = Chcete se dozvědět o vydávání nových verzí datasetu projektu Common Voice? Přihlaste se k odběru našeho zpravodaje.
 subscribe = Odebírat
 get-started-speech = Začínáme s rozpoznáváním řeči
 other-datasets = Ostatní hlasové datasety
 feedback-q = Máte zpětnou vazbu?
 deepspeech-info = Dataset Common Voice doplňuje open source systém Mozilly Deep Speech pro rozpoznávání hlavu, který můžete použít pro tvorbu aplikací rozpoznávajících řeč. Pro začátek si přečtěte naše <githubLink>shrnutí na GitHubu</githubLink> nebo se připojte na <discourseLink>DeepSpeech Discourse</discourseLink>.
+common-voice-info-new = Máte otázky k projektu Common Voice? Nápady na zlepšení? Nebo nám chcete poskytnout zpětnou vazbu ke konkrétnímu jazyku? Přidejte se na naše <discourseLink>Discourse fórum</discourseLink> a dejte nám vědět!
 data-other-librispeech-description = LibriSpeech je korpus přibližně 1 000 hodin 16 kHz čtené angličtiny odvozený od čtených audioknih z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvořen zvukem přednášek a jejich přepisů dostupných na webu TED.
@@ -689,11 +704,27 @@ want-to-continue = Chcete pokračovat?
 finish-editing = Nechcete napřed dokončit úpravy?
 lose-changes-warning = Pokud nyní odejdete, přijdete o své změny
 build-custom-goal = Vytvořit vlastní cíl
+help-reach-hours = Pomozte nám v rámci svého cíle dosáhnout { NUMBER($hours) } hodin v jazyce { $language }
+help-reach-hours-general = Pomozte projektu Common Voice v rámci svého cíle dosáhnout { NUMBER($hours) } hodin v jazyce { $language }
 set-a-goal = Stanovte si cíl
 cant-decide = Nemůžete se rozhodnout?
+activity-needed-calculation =
+    { NUMBER($totalHours) } hodin je dosažitelných už za { NUMBER($periodMonths) } měsíců,
+    pokud { NUMBER($people) } lidí nahraje { NUMBER($clipsPerDay) } záznamů denně.
 how-many-per-day = Skvěle! Kolik záznamů denně?
 how-many-a-week = Skvěle! Kolik záznamů týdně?
 which-goal-type = Chcete mluvit, poslouchat, nebo obojí?
+receiving-emails-info =
+    Momentálně máte nastaven příjem e-mailů jako jsou připomínky k cílům,
+    informace o postupu a novinky o projektu Common Voice.
+not-receiving-emails-info =
+    Momentálně <bold>NE</bold>máte nastaven příjem e-mailů jako jsou připomínky k cílům,
+    informace o postupu a novinky o projektu Common Voice.
+n-clips = { NUMBER($count) } záznamů
+help-share-goal = Pomozte nám najít více hlasů, sdílejte své cíle
+confirm-goal = Potvrdit Cíl
+goal-interval-weekly = Týdně
+share-goal = Sdílet můj cíl
 
 ## Profile Delete
 
@@ -710,6 +741,8 @@ profile-form-delete = Smazat profil
 
 ## Landing
 
+welcome-staff = Vítejte zaměstnanci { $company }!
+help-contribute = Pomozte vybudovat různorodý otevřený dataset. Vytvořte si profil Common Voice a darujte svůj hlas.
 login-company = Přihlásit / Zaregistrovat se e-mailem { $company }
 profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
 read-more-about = Přečtěte si více na stránce O nás
