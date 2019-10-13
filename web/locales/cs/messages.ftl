@@ -156,10 +156,10 @@ logout = Odhlásit
 home-title = Projekt Common Voice je iniciativa Mozilly, která pomáhá strojům učit se, jak mluví skuteční lidé.
 home-cta = Mluvte a přispějte zde!
 wall-of-text-start = Hlas je přirozený a lidský. Proto chceme vytvořit použitelnou hlasovou technologii pro naše stroje. Abychom ji ale mohli vytvořit, potřebujeme spoustu hlasových dat.
-wall-of-text-more-mobile = Většina dat používaných velkými společnostmi nejsou dostupná pro většinu lidí. Myslíme si, že to zdržuje inovace. Proto jsme spustili Common Voice, projekt, který udělá rozpoznávání hlasu dostupné pro všechny.
+wall-of-text-more-mobile = Většina dat používaných velkými společnostmi nejsou dostupná pro většinu lidí. My si ale myslíme, že to jen zdržuje inovace. Proto jsme spustili Common Voice, projekt, který udělá rozpoznávání hlasu dostupné pro všechny.
 wall-of-text-more-desktop = Teď můžete darovat svůj hlas a pomoct nám vytvořit open-source databázi hlasu, kterou může kdokoli použít k tomu, aby vytvářel inovativní aplikace pro zařízení a web.<lineBreak></lineBreak>Čtěte věty a pomozte strojům porozumět, jak mluví skuteční lidé. Kontrolujte práci ostatních dobrovolníků a zlepšujte jejich kvalitu. Tak jednoduché to je!
 wall-of-text-first = Hlas je přirozený a lidský. Proto nás tolik zajímá tvorba použitelné hlasové technologie pro naše zařízení. Aby ji ale vývojáři mohli vytvořit, potřebují spoustu hlasových dat.
-wall-of-text-second = Většina dat používaných velkými společnostmi nejsou dostupná pro většinu lidí. Myslíme si, že to zdržuje inovace. Proto jsme spustili projekt Common Voice, projekt, který udělá rozpoznávání hlasu dostupné pro všechny.
+wall-of-text-second = Většina dat používaných velkými společnostmi nejsou dostupná pro většinu lidí. My si ale myslíme, že to jen zdržuje inovace. Proto jsme spustili projekt Common Voice, projekt, který udělá rozpoznávání hlasu dostupné pro všechny.
 show-wall-of-text = Přečíst si více
 help-us-title = Pomozte nám ověřovat věty!
 help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
@@ -320,7 +320,17 @@ skip-submission-description = Při přispívání bude po klepnutí na Odeslat p
 skip-submission-note = Poznámka: Pro změnu druhu vašich příspěvků budete stále muset zvolit mezi Mluvit a Poslouchat.
 off = Vypnuto
 on = Zapnuto
+avatar-clip-title = Dejte svému avataru hlas
 change-your-avatar-clip = Chcete změnit svoji hlasovou nahrávku?
+recording-in-progress = Probíhá hlasový záznam
+avatar-clip-recorded = Váš avatar nyní obsahuje hlasový záznam!
+record-voice-wave = NAHRÁT HLAS
+retry-voice-wave-recording = OPAKOVAT
+re-record = NAHRÁT ZNOVU
+delete-voice = ODSTRANIT
+ready-to-upload = NAHRÁT
+avatar-clip-fact = Je již dlouho známým faktem, že čtenář bude pouze rozptylován čitelným obsahem stránky při zkoumání jejího rozvržení.
+cancel-avatar-clip-recording = ZRUŠIT
 browse-file-title = Nahrát obrázek
 browse-file = Přetáhněte nebo <browseWrap>Procházejte</browseWrap>
 connect-gravatar = Propojit s Gravatarem
@@ -661,9 +671,29 @@ recorded-clips = Zaznamenané nahrávky
 validated-clips = Ověřené nahrávky
 total-approved = Celkem schváleno
 overall-accuracy = Celková přesnost
+show-ranking = Ukázat moje hodnocení
 
 ## Custom Goals
 
+create-custom-goal = Vytvořit vlastní cíl
+both-speak-and-listen = Obojí
+both-speak-and-listen-long = Obojí (mluvit i poslouchat)
+daily-goal = Denní cíl
+weekly-goal = Týdenní cíl
+easy-difficulty = Jednoduché
+average-difficulty = Střední
+difficult-difficulty = Těžké
+pro-difficulty = Velmi těžké
+lose-goal-progress-warning = Úpravou cíle můžete přijít o svůj dosavadní postup
+want-to-continue = Chcete pokračovat?
+finish-editing = Nechcete napřed dokončit úpravy?
+lose-changes-warning = Pokud nyní odejdete, přijdete o své změny
+build-custom-goal = Vytvořit vlastní cíl
+set-a-goal = Stanovte si cíl
+cant-decide = Nemůžete se rozhodnout?
+how-many-per-day = Skvěle! Kolik záznamů denně?
+how-many-a-week = Skvěle! Kolik záznamů týdně?
+which-goal-type = Chcete mluvit, poslouchat, nebo obojí?
 
 ## Profile Delete
 
