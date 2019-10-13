@@ -291,7 +291,7 @@ profile-form-submit-saved = Salvate
 male = Viro
 female = Femina
 # Gender
-other = Altero
+other = Altere
 why-profile-title = Perque un profilo?
 why-profile-text = Per fornir alcun informationes circa te mesme, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
 dashboard = Quadro de controlo
@@ -539,7 +539,7 @@ go-discourse = Va a Discourse
 missing-language = Non vide tu lingua reflectite in le Collection de datos? Si tu desira lo adder, accede a nostre Pagina del linguas.
 go-languages-page = Ir al pagina del linguas
 ready-to-validate = Preste a adjutar validar phrases?
-more = Altero
+more = Plus
 close = Clauder
 download = Discargar
 dataset-version = Version
