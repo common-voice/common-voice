@@ -1,11 +1,14 @@
 ## General
 
 yes-receive-emails = Ja, sendt meg e-post, slik at jeg holder meg oppdatert om prosjektet Common Voice.
+stayintouch = Vi i Mozilla bygger et samfunn rundt stemmeteknologi. Vi vil gjerne holde deg oppdatert på endringer, nye datakilder og høre mer om hvordan du bruker disse dataene.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
 submit-form-action = Send inn
 loading = Laster…
+email-opt-in-info = Jeg vil gjerne motta e-post med påminnelser, oppdateringer om fremgang og nyheter om Common Voice.
+not-available-abbreviation = (Ikke relevant)
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -41,7 +44,6 @@ nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
 or = Oriya
 pl = Polsk
-pt-BR = Portugisisk (Brasil)
 ro = Rumensk
 ru = Russisk
 sk = Slovakisk
@@ -92,7 +94,19 @@ help-us-explain = Trykk på spill av, lytt, og fortell oss om den innspilte setn
 vote-yes = Ja
 vote-no = Nei
 
-## Shortcuts
+## Account Benefits
+
+
+## What's public
+
+
+## Speak & Listen Shortcuts
+
+
+## Listen Shortcuts
+
+
+## Speak Shortcuts
 
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
 request-language-button = Send en forespørsel om et nytt språk
@@ -113,13 +127,8 @@ english = Engelsk
 
 ## ProfileForm
 
-profile-form-cancel = Avslutt skjema
-profile-form-delete = Slett profil
 profile-form-username =
     .label = Brukernavn
-profile-form-language =
-    .label = Språk
-profile-form-more-languages = Flere språk kommer snart!
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
@@ -128,29 +137,24 @@ profile-form-gender =
     .label = Kjønn
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagret
-profile-keep-data = Behold data
-profile-delete-data = Slett data
 male = Mann
 female = Kvinne
 # Gender
 other = Annet
 why-profile-title = Hvorfor opprette en profil?
 edit-profile = Rediger profil
-profile-create = Lag ny profil …
 profile-create-success = Profil opprettet
 profile-close = Lukk
 
 ## FAQ
 
 faq-title = Ofte stilte spørsmål
-faq-what-q = Hva er Common Voice?
-faq-important-q = Hvorfor er det viktig?
-faq-get-q = Hvordan får jeg tilgang til data fra Common Voice?
-faq-mission-q = Hvorfor er Common Voice en del av oppdraget til Mozilla?
 
-## Profile
+## ABOUT US
 
-profile-why-title = Hvorfor opprette en profil?
+
+## Glossary
+
 
 ## NotFound
 
@@ -166,22 +170,8 @@ data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
 data-download-modal = Du er i ferd med å starte en nedlasting av <size>{ $size }GB</size>. Vil du fortsette?
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
-data-other-ted-name = TED-LIUM-korpus
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
-
-## Record Page
-
-record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
-record-platform-not-supported-ios = <bold>iOS</bold>-brukere kan laste ned gratisappen vår:
-record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
-record-retry = Prøv igjen
-record-error-too-short = Innspillingen var for kort.
-record-error-too-long = Innspillingen var for lang.
-record-error-too-quiet = Innspillingen var for stille.
-record-submit-success = Sendt inn! Vil du spille inn mer?
-record-help = Trykk for å spille inn, les deretter setningen ovenfor høyt.
-record-cancel = Avbryt nyinnspillingen
 review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernbestemmelsen</privacyLink> vår
 terms-agree = Jeg godtar
 terms-disagree = Jeg godtar ikke
@@ -193,6 +183,10 @@ review-rerecord = Spill inn på nytt
 review-cancel = Avbryt innsending
 review-keep-recordings = Behold opptakene
 review-delete-recordings = Slett opptakene mine
+
+## Datasets Page
+
+data-other-ted-name = TED-LIUM-korpus
 
 ## Download Modal
 
@@ -206,7 +200,6 @@ download-no = Nei takk
 ## Contact Modal
 
 contact-title = Kontaktskjema
-contact-cancel = Avbryt
 contact-form-name =
     .label = Navn
 contact-form-message =
@@ -216,7 +209,6 @@ contact-required = *påkrevd
 ## Request Language Modal
 
 request-language-title = Språkforespørsel
-request-language-cancel = Avslutt skjemaet
 request-language-form-language =
     .label = Språk
 request-language-success-title = Språkforespørselen er sendt inn. Takk skal du ha.
@@ -227,19 +219,42 @@ language-section-in-progress = Pågående
 language-section-launched = Lansert
 languages-show-more = Vis mer
 languages-show-less = Vis mindre
-language-speakers = Talt av
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Søk
+language-speakers = Talt av
 
-## New Contribution
+## Contribution
 
 action-click = Klikk
 action-tap = Trykk
 listen = Lytt
 skip = Hopp over
 shortcuts = Snarveier
-clips = Klipp
-goal-type-record = opptak
-goal-type-validation = validering
 record-cta = Start opptak
+record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
+record-platform-not-supported-ios = <bold>iOS</bold>-brukere kan laste ned gratisappen vår:
+record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
+record-error-too-short = Innspillingen var for kort.
+record-error-too-long = Innspillingen var for lang.
+record-error-too-quiet = Innspillingen var for stille.
+record-cancel = Avbryt nyinnspillingen
+
+## Reporting
+
+
+## Goals
+
+
+## Dashboard
+
+
+## Custom Goals
+
+
+## Profile Delete
+
+profile-form-delete = Slett profil
+
+## Landing
+
