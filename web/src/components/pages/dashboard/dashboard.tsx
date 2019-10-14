@@ -65,6 +65,15 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
   return (
     <div className="top-bar">
       <nav>
+        <LocaleNavLink
+          key={URLS.CHALLENGE}
+          to={
+            URLS.DASHBOARD +
+            (dashboardLocale ? '/' + dashboardLocale : '') +
+            URLS.CHALLENGE
+          }>
+          <h2>Challenge</h2>
+        </LocaleNavLink>
         {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(([label, path]) => (
           <LocaleNavLink
             key={path}
@@ -173,6 +182,7 @@ const PAGES = [
   { subPath: URLS.STATS, Page: StatsPage },
   { subPath: URLS.GOALS, Page: GoalsPage },
   { subPath: URLS.AWARDS, Page: AwardsPage },
+  { subPath: URLS.CHALLENGE, Page: AwardsPage },
 ];
 
 export default function Dashboard() {
