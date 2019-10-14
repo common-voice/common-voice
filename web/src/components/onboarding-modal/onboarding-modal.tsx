@@ -46,13 +46,13 @@ const OperationButtons = () => {
     </div>
   );
 };
-const OnboardingModal = () => {
+const OnboardingModal = ({ ...props }) => {
   const [step, setStep] = useState(1);
   let currentStep = step,
     stepData = STEPS[--currentStep],
     isLastStep = step === 4 ? true : false;
   return (
-    <Modal innerClassName="onboarding-modal">
+    <Modal innerClassName="onboarding-modal" {...props}>
       <div className="step-container">
         {step} of {STEPS.length}
       </div>
