@@ -14,6 +14,7 @@ import {
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
+import ChallengePage from './challenge/challenge';
 
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
@@ -182,7 +183,7 @@ const PAGES = [
   { subPath: URLS.STATS, Page: StatsPage },
   { subPath: URLS.GOALS, Page: GoalsPage },
   { subPath: URLS.AWARDS, Page: AwardsPage },
-  { subPath: URLS.CHALLENGE, Page: AwardsPage },
+  { subPath: URLS.CHALLENGE, Page: ChallengePage },
 ];
 
 export default function Dashboard() {
