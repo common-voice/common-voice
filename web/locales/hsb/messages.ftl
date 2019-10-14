@@ -145,7 +145,7 @@ contact = Kontakt
 privacy = Priwatnosć
 terms = Wuměnjenja
 cookies = Placki
-faq = HUP
+faq = HSP
 content-license-text = Wobsah je k dispoziciji pod <licenseLink>licencu Creative Commons</licenseLink>
 share-title = Pomhajće nam, dalšich namakać, kotřiž swój hłós daruja!
 share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós na { $link }
@@ -160,7 +160,7 @@ home-cta = Rěčće runjewon, dźěłajće tu sobu!
 wall-of-text-start = Hłós je přirodny, hłós je čłowjeski. Tohodla smy fascinowani, wužitnu hłosowu technologiju za naše mašiny wutworić. Ale, za wutworjenje hłosowych systemow je jara wulke mnóstwo hłosowych datow trěbne.
 wall-of-text-more-mobile = Najwjace datow wužiwane wot wulkich předewzaćow za wjetšinu ludźi přistupne njeje. Myslimy, zo to inowaciju znjemóžnja. Tohodla smy projekt Common Voice startowali, projekt, kotryž kóždemu spóznawanje hłosow spřistupnja.
 wall-of-text-more-desktop = Nětko móžeće swój hłós dać, zo byšće nam pomhał, datowu banku hłosow wotewrjeneho žórła natwarić, kotruž kóždy móže wužiwać, zo by inowatiwne nałoženja za graty a web wutworił.<lineBreak></lineBreak>Čitajće sadu, zo byšće mašinam pomhał, wuknyć, kak woprawdźići ludźo rěča. Kontrolujće dźěło druhich sobuskutkowarjow, zo byšće kwalitu polěpšił. Je tak lochko!
-wall-of-text-first = Hłós jr přirodny, hłós je čłowjeski. Tohodla zahorjamy so za wutworjenje wužiwajomneje hłosoweje technologije za naše mašiny. Ale, zo bychu hłosowe systemy wutworili, trjebaja wuwiwarjo jara wulke mnóstwo hłosowych datow.
+wall-of-text-first = Hłós je přirodny, hłós je čłowjeski. Tohodla zahorjamy so za wutworjenje wužiwajomneje hłosoweje technologije za naše mašiny. Ale, zo bychu hłosowe systemy wutworili, trjebaja wuwiwarjo jara wulke mnóstwo hłosowych datow.
 wall-of-text-second = Najwjace datow, kotrež so wot wulkich předewzaćow wužiwa, wjetšinje ludźi k dispoziciji njesteji. Myslimy, zo to inowaciji zadźěwa. Tohodla smy startowali Common Voice , projekt, kotryž ma hłosowe spóznaće wotewrjene a přistupne za kóždeho činić.
 show-wall-of-text = Dalše informacije
 help-us-title = Pomhajće nam, sady wobkrućić!
@@ -173,7 +173,7 @@ speak-subtitle = Darće swój hłós
 speak-paragraph = Natočenja hłosow su bytostny wobstatk při wutworjenju našeje datoweje sadźby; někotři bychu prajili, je tež dźěl, kotryž zabawja.
 speak-goal-text = Natočene klipy
 listen-subtitle = Pomhajće nam, hłosy wobkrućić
-listen-paragraph = Wobkrućenje darjenych klipow jr runje tak wažne za misiju Common Voice. Słuchajće a pomhajće nam hłosowe daty wotewrjeneho žórła w dobrej kwaliće wutworić.
+listen-paragraph = Wobkrućenje darjenych klipow je runje tak wažne za misiju Common Voice. Słuchajće a pomhajće nam hłosowe daty wotewrjeneho žórła w dobrej kwaliće wutworić.
 listen-goal-text = Wobkrućene klipy
 hours-recorded = Natočenske hodźiny
 hours-validated = Wobkrućene hodźiny
@@ -354,7 +354,7 @@ change-email-setings = Emejlowu adresu w nastajenjach pod přizjewjenskej identi
 
 ## FAQ
 
-faq-title = Huste prašenja
+faq-title = Husto stajene prašenja
 faq-what-cv-q = Što Common Voice je?
 faq-what-cv-a = Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Common Voice je dźěl iniciatiwy Mozilla, technologije hłosoweho spóznaća polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
 faq-why-important-q = Čehodla je wažne?
