@@ -615,6 +615,25 @@ export const PlayOutlineIcon = uniqueIcon(id => (
   </svg>
 ));
 
+export const PlayOutlineGreenIcon = uniqueIcon(id => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id={'play-outline-path' + id}
+        d="M15.5 9.173L1.5.15c-.3-.2-.7-.2-1 0-.3.1-.5.401-.5.802v18.045c0 .401.2.702.5.903.2.1.3.1.5.1s.4-.1.5-.2l14-9.023c.3-.2.5-.501.5-.802 0-.3-.2-.702-.5-.802zM2 17.193V2.757l11.2 7.218L2 17.193z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(4 2)">
+      <mask id={'play-outline-mask' + id} fill="#fff">
+        <use xlinkHref={'#play-outline-path' + id} />
+      </mask>
+      <g fill="#59cbb7" mask={`url(#play-outline-mask${id})`}>
+        <path d="M-4-1h24v24H-4z" />
+      </g>
+    </g>
+  </svg>
+));
+
 export const PlayIcon = Icon(require('./icons/play.svg'), 'play');
 
 export const RedoIcon = uniqueIcon(id => (
