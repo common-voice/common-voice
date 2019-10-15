@@ -1,20 +1,20 @@
 @import url('../vars.css');
+
 .ReactModal__Content .onboarding-modal {
     width: 774px;
     height: 733px;
     border-radius: 4px;
-    padding: 70px;
+    padding: 70px 89px;
     max-width: 100%;
 }
-.step-container {
+.onboarding-modal .step-container {
     width: 54px;
     height: 24px;
     font-family: OpenSans;
     font-size: 16px;
     margin: 0 auto 20px;
 }
-.title {
-    width: 596px;
+.onboarding-modal-title {
     font-family: Zilla Slab;
     font-size: 36px;
     margin: 0 auto;
@@ -53,7 +53,7 @@
     margin-left: 34px;
 }
 .onboarding-modal > .wave {
-    margin: 0 -70px 24px;
+    margin: 0 -89px 24px;
     height: 390px;
     background: url('./images/wave.svg');
     background-size: 100% 100%;
@@ -114,4 +114,46 @@
 }
 .listenBtn::after {
     background: linear-gradient(270deg, #88d1f1, #b1b5e5);
+}
+
+@media (--lg-down) {
+    .ReactModal__Content .onboarding-modal {
+        width: 100%;
+        height: 100%;
+        padding: 60px 133px;
+    }
+    .onboarding-modal .step-container {
+        margin-bottom: 189px;
+    }
+    .image-container {
+        margin-bottom: 155px;
+    }
+    .onboarding-buttons {
+        margin-bottom: 0;
+    }
+    .onboarding-modal > .wave {
+        margin: 0 -133px 155px;
+    }
+}
+
+@media (--xs-down) {
+    .ReactModal__Content .onboarding-modal {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .onboarding-modal .step-container {
+        margin-bottom: 45px;
+    }
+    .image-container {
+        width: 320px;
+        height: auto;
+        margin-bottom: 34px;
+    }
+    .onboarding-buttons {
+        margin-bottom: 0;
+    }
+    .onboarding-modal > .wave {
+        margin: 0 -20px 34px;
+    }
 }

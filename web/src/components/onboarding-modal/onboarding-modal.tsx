@@ -56,7 +56,7 @@ const OnboardingModal = ({ ...props }) => {
       <div className="step-container">
         {step} of {STEPS.length}
       </div>
-      <p className="title">{stepData.title}</p>
+      <p className="onboarding-modal-title">{stepData.title}</p>
       {isLastStep ? (
         <div className="wave">
           <img src={require('./images/1-red-copy.svg')} className="red-copy" />
