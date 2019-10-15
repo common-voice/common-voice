@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ja, sendt meg e-post, slik at jeg holder meg oppdatert om prosjektet Common Voice.
+yes-receive-emails = Ja, send meg e-post slik at jeg kan holde meg oppdatert om prosjektet Common Voice.
 stayintouch = Vi i Mozilla bygger et samfunn rundt stemmeteknologi. Vi vil gjerne holde deg oppdatert på endringer, nye datakilder og høre mer om hvordan du bruker disse dataene.
 privacy-info = Vi lover å håndtere informasjonen din omsorgsfullt. Les mer i vår <privacyLink>Personvernnotis</privacyLink>.
 return-to-cv = Gå tilbake til Common Voice
@@ -20,20 +20,49 @@ not-available-abbreviation = (Ikke relevant)
 ## Languages
 
 ab = Abkhasisk
+ace = Acehnesisk
+ady = Adygeisk
+af = Afrikaans
+am = Amharisk
+an = Aragonesisk
+ar = Arabisk
+as = Assamesisk
+ast = Asturisk
+az = Aserbajdsjansk
+ba = Basjkirsk
+bg = Bulgarsk
 bn = Bengalsk
+br = Bretonsk
+bxr = Burjatisk
 ca = Katalansk
+cak = Kakchikel
+cnh = Hakha Chin
 cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
 de = Tysk
+dsb = Lavsorbisk
+dv = Dhivehi
 el = Gresk
 en = Engelsk
+eo = Esperanto
 es = Spansk
+et = Estisk
+eu = Baskisk
+fa = Persisk
+ff = Fulfulde
+fi = Finsk
+fo = Færøysk
 fr = Fransk
 fy-NL = Frisisk
 ga-IE = Irsk
+gl = Galisisk
+ha = Hausa
 he = Hebraisk
+hi-IN = Hindi
+hr = Kroatisk
+hsb = Høysorbisk
 hu = Ungarsk
 id = Indonesisk
 it = Italiensk
