@@ -1,0 +1,55 @@
+@import url('../vars.css');
+
+.invite-modal {
+    max-height: 100vh;
+    overflow: auto;
+
+    @media (--md-up) {
+        padding: 60px 130px !important;
+        max-width: 775px !important;
+    }
+
+    img {
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        font-size: var(--font-size-xxl);
+        font-weight: normal;
+    }
+
+    input {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+    }
+
+    .button {
+        margin: 30px auto 0;
+        padding: 0 55px;
+        min-width: 240px;
+        height: 57px;
+        font-size: var(--font-size);
+        font-weight: 600;
+        background: transparent;
+        color: var(--black);
+        border-color: var(--black);
+
+        &:hover,
+        &:focus {
+            border-color: transparent;
+            background: var(--valid-green) !important;
+        }
+
+        .icon {
+            color: #4a4a4a;
+            margin-left: 12px;
+            font-size: 0.6em;
+        }
+    }
+}
