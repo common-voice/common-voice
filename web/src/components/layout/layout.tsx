@@ -32,6 +32,7 @@ import Nav from './nav';
 import UserMenu from './user-menu';
 import * as cx from 'classnames';
 import { isStaging } from '../../utility';
+import WelcomeModal from '../welcome-modal/welcome-modal';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
@@ -57,6 +58,7 @@ interface LayoutState {
   hasScrolled: boolean;
   hasScrolledDown: boolean;
   showStagingBanner: boolean;
+  showWelcomeModal: boolean;
 }
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
@@ -69,6 +71,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     hasScrolled: false,
     hasScrolledDown: false,
     showStagingBanner: isStaging(),
+    showWelcomeModal: this.props.location.search.includes('ovchall=1'),
   };
 
   componentDidMount() {
@@ -152,6 +155,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       hasScrolledDown,
       isMenuVisible,
       showStagingBanner,
+      showWelcomeModal,
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
 
@@ -162,6 +166,17 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     return (
       <div id="main" className={className}>
+        {showWelcomeModal && (
+          <WelcomeModal
+            onRequestClose={() => {
+              this.setState({ showWelcomeModal: false });
+            }}
+            onClick={() => {
+              window.location.pathname = '/login';
+            }}
+            team="SAP"
+          />
+        )}
         {isIOS() && !isNativeIOS() && !isSafari() && (
           <div
             id="install-app"

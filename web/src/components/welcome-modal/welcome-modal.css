@@ -1,0 +1,70 @@
+@import url('../vars.css');
+
+.welcome-modal {
+    max-height: 100vh;
+    overflow: auto;
+
+    @media (--md-up) {
+        padding: 60px 130px !important;
+        max-width: 775px !important;
+    }
+
+    h1 {
+        font-size: var(--font-size-xxl);
+        font-weight: normal;
+    }
+
+    .subheading {
+        max-width: 450px;
+        margin: 30px auto;
+        font-family: var(--base-font-family);
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.75px;
+    }
+
+    .checkbox-row {
+        text-align: start;
+
+        label {
+            display: flex;
+            justify-content: center;
+        }
+
+        .terms-agree {
+            line-height: 1.5;
+            color: var(--near-black);
+        }
+    }
+
+    .button {
+        border-color: transparent;
+        margin: 30px auto 0;
+        padding: 0 55px;
+        min-width: auto;
+        height: 57px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        background: var(--valid-green);
+
+        &:disabled {
+            background: var(--near-black);
+        }
+
+        &:hover,
+        &:focus {
+            border-color: var(--black);
+        }
+
+        & svg {
+            margin-left: 12px;
+            transform: rotateZ(90deg);
+        }
+
+        & path {
+            fill: var(--white);
+        }
+    }
+}
