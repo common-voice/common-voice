@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Send inn
 loading = Laster…
 email-opt-in-info = Jeg vil gjerne motta e-post med påminnelser, oppdateringer om fremgang og nyheter om Common Voice.
+email-opt-in-privacy = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink> personvernerklæring.
+indicates-required = * Indikerer obligatorisk felt
 not-available-abbreviation = (Ikke relevant)
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -17,6 +19,7 @@ not-available-abbreviation = (Ikke relevant)
 
 ## Languages
 
+ab = Abkhasisk
 bn = Bengalsk
 ca = Katalansk
 cs = Tsjekkisk
