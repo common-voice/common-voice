@@ -102,19 +102,31 @@ rm-vallader = Vallader
 ro = Rumensk
 ru = Russisk
 rw = Kinyarwanda
+sah = Jakutisk
+sc = Sardisk
+si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
+sw = Swahili
+syr = Gammelsyrisk
 ta = Tamilsk
 te = Telugu
+tg = Tadsjikisk
 th = Thai
 tr = Tyrkisk
 tt = Tatar
+uby = Ubykh
+udm = Udmurtisk
 uk = Ukrainsk
+ur = Urdu
 uz = Usbekisk
+vi = Vietnamesisk
+vot = Votisk
 zh-CN = Kinesisk (Kina)
+zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
 
 # [/]
@@ -123,8 +135,10 @@ zh-TW = Kinesisk (Taiwan)
 ## Layout
 
 speak = Snakk
+speak-now = Snakk nå
 datasets = Datasett
 languages = Språk
+about = Om
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -134,11 +148,17 @@ cookies = Infokapsler
 faq = FAQ
 content-license-text = Innhold tilgjengelig under en <licenseLink>Creative Commons-lisens</licenseLink>
 share-title = Hjelp oss med å finne andre som vil donere stemmen sin!
+share-text = Hjelp til med å lære maskiner hvordan virkelige folk snakker, bidra med din stemme på { $link }
+link-copied = Lenke kopiert
 back-top = Tilbake til toppen
+logout = Logg av
 
 ## Home Page
 
+home-title = Prosjektet Common Voice er et initiativ fra Mozilla, som skal hjelpe maskiner med å forstå hvordan folk snakker.
 home-cta = Snakk, støtt prosjektet og gjør et bidrag!
+wall-of-text-start = Stemmen er naturlig, stemmen er menneskelig. Det er derfor vi er fascinert av å lage en anvendelig taleteknologi for maskinene våre. Men for å lage systemer for talegjenkjenning trengs det svært store mengder med innspilt tale.
+wall-of-text-more-mobile = Det meste av dataene som brukes av store bedrifter er utilgjengelige for folk flest. Vi mener dette hindrer innovasjon. Derfor lanserte vi prosjektet Common Voice, et prosjekt for å hjelpe til med å gjøre talegjenkjenning tilgjengelig for alle.
 wall-of-text-more-desktop =
     Nå kan du bidra med stemmen din og hjelpe til med å bygge opp en stemmedatabase med åpen kildekode som alle kan bruke
     for å lage nyskapende apper, både for datamaskiner, telefoner og nettet.<lineBreak></lineBreak>
@@ -147,11 +167,48 @@ wall-of-text-more-desktop =
 show-wall-of-text = Les mer
 help-us-title = Hjelp oss med å validere setninger!
 help-us-explain = Trykk på spill av, lytt, og fortell oss om den innspilte setningen var korrekt.
+no-clips-to-validate = Det virker ikke som om det finnes lydklipp å høre på for dette språket. Hjelp oss fylle opp køen ved å ta opp noen nå.
 vote-yes = Ja
 vote-no = Nei
+toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspillingen
+speak-subtitle = Bidra med din stemme
+speak-goal-text = Innspilte lydklipp
+listen-subtitle = Hjelp oss med å validere lydklipp
+listen-paragraph = Å validere lydklipp som er bidratt er like viktig for måloppnåelsen til Common Voice. Lytt, og hjelp oss med å skape åpne taledata med kvalitet.
+listen-goal-text = Validerte lydklipp
+hours-recorded = Timer innspilt
+hours-validated = Timer validert
+voices-online = Stemmer online nå
+todays-progress = Dagens progresjon
+help-reach-goal = Hjelp oss å nå { $goal }
+read-terms-q = Har du lest våre Betingelser?
+ready-to-record = Klar til å bidra med din stemme?
+all-locales = Alle
+today = I dag
+x-weeks-short =
+    { $count ->
+        [one] uke
+       *[other] { $count }uker
+    }
+x-months-short =
+    { $count ->
+        [one] måned
+       *[other] { $count }måneder
+    }
+x-years-short =
+    { $count ->
+        [one] år
+       *[other] { $count }år
+    }
+help-make-dataset = Hjelp oss med å lage et høykvalitets, offentlig tilgjengelig datasett.
+sign-up-account = Lag deg en konto
+email-subscription-title = meld deg på for oppdateringer på e-mail
 
 ## Account Benefits
 
+benefits = Fordeler
+rich-data = Gjør dine bidratte lydklipp så verdifulle som mulig ved å gi anonyme demografiske data. Demografiske data frakobles din identitet før de bli publisert.
+improve-audio = Profilinformasjon forbedrer lyddataene som benyttes ved forbedring av talegjenkjenningsnøyaktighet.
 
 ## What's public
 
