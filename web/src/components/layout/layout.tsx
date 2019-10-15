@@ -12,7 +12,9 @@ import {
   getItunesURL,
   isIOS,
   isNativeIOS,
+  isProduction,
   isSafari,
+  isStaging,
   replacePathLocale,
 } from '../../utility';
 import { LocaleLink, LocaleNavLink } from '../locale-helpers';
@@ -31,7 +33,6 @@ import Logo from './logo';
 import Nav from './nav';
 import UserMenu from './user-menu';
 import * as cx from 'classnames';
-import { isStaging } from '../../utility';
 import WelcomeModal from '../welcome-modal/welcome-modal';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
@@ -71,7 +72,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     hasScrolled: false,
     hasScrolledDown: false,
     showStagingBanner: isStaging(),
-    showWelcomeModal: this.props.location.search.includes('ovchall=1'),
+    showWelcomeModal:
+      !isProduction() && this.props.location.search.includes('ovchall=1'),
   };
 
   componentDidMount() {
