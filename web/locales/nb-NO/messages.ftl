@@ -2,6 +2,7 @@
 
 yes-receive-emails = Ja, sendt meg e-post, slik at jeg holder meg oppdatert om prosjektet Common Voice.
 stayintouch = Vi i Mozilla bygger et samfunn rundt stemmeteknologi. Vi vil gjerne holde deg oppdatert på endringer, nye datakilder og høre mer om hvordan du bruker disse dataene.
+privacy-info = Vi lover å håndtere informasjonen din omsorgsfullt. Les mer i vår <privacyLink>Personvernnotis</privacyLink>.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
