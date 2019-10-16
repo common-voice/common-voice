@@ -109,10 +109,18 @@
         }
 
         & .checkboxes > * {
-            margin-bottom: 15px;
+            margin-bottom: 26px;
+            line-height: 1.71;
+            font-size: 14px;
 
             &:last-child {
                 margin-bottom: 0;
+            }
+
+            strong {
+                display: block;
+                line-height: 1.6;
+                font-size: var(--font-size);
             }
         }
 
@@ -123,6 +131,12 @@
             &:hover {
                 text-decoration: none;
             }
+        }
+
+        a.terms {
+            font-size: var(--font-size);
+            font-weight: bold;
+            line-height: 1.25;
         }
     }
 

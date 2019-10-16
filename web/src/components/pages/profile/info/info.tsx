@@ -323,25 +323,52 @@ function ProfilePage({
             </Tooltip>
 
             <div className="checkboxes">
+              {/* TODO(riley): Once Open Voice Challenge backend is set up,
+                               only show this to enrolled users. */}
+              {/* TODO(riley): Connect `onChange` and `checked` to the user
+                               model. */}
+              {false && (
+                <LabeledCheckbox
+                  label={
+                    <>
+                      <strong>Get updates about the challenge</strong>
+                      Receive Open Voice Challenge emails that include weekly
+                      recaps and announcements.
+                    </>
+                  }
+                  onChange={() => {}}
+                  checked={false}
+                />
+              )}
               <LabeledCheckbox
                 label={
-                  <Localized id="email-opt-in-info">
-                    <span />
-                  </Localized>
+                  <>
+                    <Localized id="email-opt-in-info-title">
+                      <strong />
+                    </Localized>
+                    <Localized id="email-opt-in-info-sub">
+                      <span />
+                    </Localized>
+                  </>
                 }
                 onChange={handleChangeFor('sendEmails')}
                 checked={sendEmails}
               />
 
               {!user.account && !isSubmitted && (
-                <React.Fragment>
+                <>
                   <LabeledCheckbox
                     label={
-                      <Localized
-                        id="accept-privacy"
-                        privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
-                        <span />
-                      </Localized>
+                      <>
+                        <Localized id="accept-privacy-title">
+                          <strong />
+                        </Localized>
+                        <Localized
+                          id="accept-privacy"
+                          privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                          <span />
+                        </Localized>
+                      </>
                     }
                     checked={privacyAgreed}
                     onChange={handleChangeFor('privacyAgreed')}
@@ -350,7 +377,7 @@ function ProfilePage({
                   <Localized id="read-terms-q">
                     <LocaleLink to={URLS.TERMS} className="terms" blank />
                   </Localized>
-                </React.Fragment>
+                </>
               )}
             </div>
           </div>
