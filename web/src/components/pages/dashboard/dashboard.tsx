@@ -28,6 +28,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
   const [, toLocaleRoute] = useLocale();
   const account = useAccount();
   const [showTitleBarLocales, setShowTitleBarLocales] = useState(true);
+  const isChallengeTabVisible = isProduction() ? false : true;
 
   function setLocale(value: string) {
     const pathParts = location.pathname.split('/');
@@ -66,10 +67,10 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
   }, []);
 
   return (
-    <div className="top-bar">
+    <div className={`top-bar ${isChallengeTabVisible ? 'challenge' : ''}`}>
       <nav>
         {/* only visible for users enrolled in challenge*/}
-        {isProduction ? null : (
+        {isChallengeTabVisible ? (
           <LocaleNavLink
             key={URLS.CHALLENGE}
             to={
@@ -79,7 +80,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
             }>
             <h2>Challenge</h2>
           </LocaleNavLink>
-        )}
+        ) : null}
         {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(([label, path]) => (
           <LocaleNavLink
             key={path}
@@ -112,7 +113,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
         </LocaleNavLink>
       </nav>
 
-      <div className="languages">
+      <div className={`languages ${isChallengeTabVisible ? 'challenge' : ''}`}>
         <span>
           <Localized id="your-languages">
             <span />
@@ -164,7 +165,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
         )}
       </div>
       {/* only visible for users enrolled in challenge*/}
-      {isProduction ? null : <ChallengeBar />}
+      {isChallengeTabVisible ? <ChallengeBar /> : null}
     </div>
   );
 };
