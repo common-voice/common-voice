@@ -69,8 +69,8 @@
     display: flex;
     justify-content: center;
 }
-.onboarding-modal .operation-buttons > .speakBtn,
-.onboarding-modal .operation-buttons > .listenBtn {
+.onboarding-modal .operation-buttons > .speak-btn,
+.onboarding-modal .operation-buttons > .listen-btn {
     position: relative;
     z-index: var(--middle-z-index);
     width: 156px;
@@ -93,11 +93,11 @@
     }
 }
 
-.operation-buttons > .listenBtn {
+.operation-buttons > .listen-btn {
     margin-left: 20px;
 }
-.speakBtn::after,
-.listenBtn::after {
+.speak-btn::after,
+.listen-btn::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -109,10 +109,10 @@
     z-index: -1;
     left: 0;
 }
-.speakBtn::after {
+.speak-btn::after {
     background: linear-gradient(90deg, #f89096, #b1b4e5);
 }
-.listenBtn::after {
+.listen-btn::after {
     background: linear-gradient(270deg, #88d1f1, #b1b5e5);
 }
 

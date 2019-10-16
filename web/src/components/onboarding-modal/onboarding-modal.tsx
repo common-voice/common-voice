@@ -7,37 +7,50 @@ import URLS from '../../urls';
 import { LocaleLink } from '../locale-helpers';
 import './onboarding-modal.css';
 
-const STEPS: Array<any> = [
+interface Step {
+  title: string;
+  img: string;
+  alt: string;
+}
+interface Props {
+  onRequestClose: () => void;
+}
+
+type StepType = Step;
+
+const STEPS: Array<StepType> = [
   {
     title: 'Track your team and indvidual progress on the challenge dashboard',
-    img: './images/dashboard.png',
+    img: require('./images/dashboard.png'),
     alt: 'dashboard',
   },
   {
     title: 'Invite friends and colleagues to join your challenge team',
-    img: './images/invite.jpg',
+    img: require('./images/invite.jpg'),
     alt: 'invite',
   },
   {
     title:
       'Earn points by contributing your voice and validating recorded clips',
-    img: './images/contribute.png',
+    img: require('./images/contribute.png'),
     alt: 'contribute',
   },
   {
     title: 'Ready to get started?',
+    img: '',
+    alt: '',
   },
 ];
 const OperationButtons = () => {
   return (
     <div className="operation-buttons">
-      <div className="speakBtn">
+      <div className="speak-btn">
         <LocaleLink to={URLS.SPEAK}>
           Speak
           <MicIcon />
         </LocaleLink>
       </div>
-      <div className="listenBtn">
+      <div className="listen-btn">
         <LocaleLink to={URLS.LISTEN}>
           Listen
           <PlayOutlineGreenIcon />
@@ -46,15 +59,14 @@ const OperationButtons = () => {
     </div>
   );
 };
-const OnboardingModal = ({ ...props }) => {
-  const [step, setStep] = useState(1);
-  let currentStep = step,
-    stepData = STEPS[--currentStep],
-    isLastStep = step === 4 ? true : false;
+const OnboardingModal = ({ onRequestClose }: Props) => {
+  let [step, setStep] = useState<number>(0);
+  const stepData = STEPS[step];
+  const isLastStep = step === STEPS.length - 1 ? true : false;
   return (
-    <Modal innerClassName="onboarding-modal" {...props}>
+    <Modal innerClassName="onboarding-modal" onRequestClose={onRequestClose}>
       <div className="step-container">
-        {step} of {STEPS.length}
+        {++step} of {STEPS.length}
       </div>
       <p className="onboarding-modal-title">{stepData.title}</p>
       {isLastStep ? (
@@ -63,7 +75,7 @@ const OnboardingModal = ({ ...props }) => {
         </div>
       ) : (
         <div className="image-container">
-          <img src={require(`${stepData.img}`)} alt={stepData.alt} />
+          <img src={stepData.img} alt={stepData.alt} />
         </div>
       )}
       {isLastStep ? (
@@ -74,7 +86,7 @@ const OnboardingModal = ({ ...props }) => {
             rounded
             outline
             onClick={() => {
-              setStep(step + 1);
+              setStep(prevStep => prevStep + 1);
             }}>
             Next
             <SkipIcon />
