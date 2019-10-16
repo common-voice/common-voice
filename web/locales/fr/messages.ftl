@@ -324,6 +324,7 @@ avatar-clip-title = Donnez une voix à votre avatar
 change-your-avatar-clip = Voulez-vous changer votre échantillon de voix ?
 recording-in-progress = Enregistrement vocal en cours
 avatar-clip-recorded = Votre avatar comprend maintenant un échantillon de voix !
+record-voice-wave = ENREGISTRER VOTRE PRÉSENTATION
 retry-voice-wave-recording = RÉESSAYER
 re-record = RÉENREGISTRER
 delete-voice = SUPPRIMER
