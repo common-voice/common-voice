@@ -174,3 +174,105 @@
         }
     }
 }
+.challenge-bar {
+    width: 451px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.points {
+    width: 321px;
+    height: 40px;
+    border-radius: 19px;
+    border: solid 1px var(--light-grey);
+    background-color: var(--white);
+    display: flex;
+    line-height: 1.71;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    .starIcon {
+        width: 14px;
+        height: 14px;
+        background-color: red;
+        -webkit-mask-image: url('../../ui/icons/star.svg');
+        mask-image: url('../../ui/icons/star.svg');
+    }
+    span {
+        margin: 0 auto;
+    }
+    .score {
+        font-weight: 600;
+    }
+    > .label {
+        color: #9b9b9b;
+        margin: 0;
+    }
+    > .label-my::after {
+        content: 'My points';
+    }
+    > .label-team::after {
+        content: 'Team points';
+    }
+    > .divider {
+        height: 100%;
+        width: 1px;
+        background-color: var(--light-grey);
+    }
+}
+.inviteButton {
+    width: 120px;
+    height: 38px;
+    min-width: auto;
+    background-color: #629ff4;
+    border: 0;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    > .plusIcon {
+        width: 22px;
+        height: 22px;
+        background-color: var(--white);
+        margin-left: 10px;
+        -webkit-mask-image: url('../../ui/icons/plus.svg');
+        -webkit-mask-size: contain;
+    }
+    &:hover {
+        border: 1px solid var(--black);
+        > .plusIcon {
+            background-color: var(--black);
+        }
+    }
+}
+
+@media (--lg-down) {
+    .challenge-bar {
+        width: 310px;
+    }
+    .points {
+        width: 252px;
+        margin-right: 20px;
+        > .label-my::after {
+            content: 'My';
+        }
+        > .label-team::after {
+            content: 'Team';
+        }
+    }
+    .inviteButton {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        padding: 0;
+        > .content {
+            display: none;
+        }
+        > .plusIcon {
+            margin: 0;
+        }
+    }
+    .languages {
+        display: none;
+    }
+}

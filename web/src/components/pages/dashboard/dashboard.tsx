@@ -14,7 +14,8 @@ import {
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
-import ChallengePage from './challenge/challenge';
+import { StarScoreIcon } from '../../ui/icons';
+import { Button } from '../../ui/ui';
 
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
@@ -66,6 +67,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
   return (
     <div className="top-bar">
       <nav>
+        {/* only visible for users enrolled in challenge*/}
         <LocaleNavLink
           key={URLS.CHALLENGE}
           to={
@@ -158,6 +160,8 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
           </select>
         )}
       </div>
+      {/* only visible for users enrolled in challenge*/}
+      <ChallengeBar />
     </div>
   );
 };
@@ -179,11 +183,28 @@ function DashboardContent({
   return <Page {...{ allGoals, dashboardLocale }} />;
 }
 
+const ChallengeBar = () => (
+  <div className="challenge-bar">
+    <div className="points">
+      <StarScoreIcon />
+      <span className="score">448</span>
+      <span className="label label-my"></span>
+      <span className="divider"></span>
+      <span className="score">12345</span>
+      <span className="label label-team"></span>
+    </div>
+    <Button rounded className="inviteButton">
+      <span className="content">Invite</span>
+      <span className="plusIcon"></span>
+    </Button>
+  </div>
+);
+
 const PAGES = [
   { subPath: URLS.STATS, Page: StatsPage },
   { subPath: URLS.GOALS, Page: GoalsPage },
   { subPath: URLS.AWARDS, Page: AwardsPage },
-  { subPath: URLS.CHALLENGE, Page: ChallengePage },
+  { subPath: URLS.CHALLENGE, Page: AwardsPage },
 ];
 
 export default function Dashboard() {
