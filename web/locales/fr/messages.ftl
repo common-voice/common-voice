@@ -333,6 +333,7 @@ ready-to-upload = ENVOYER
 avatar-clip-fact = C’est un fait établi de longue date qu’un lecteur sera distrait par le contenu lisible d’une page lorsqu’il examinera sa mise en page.
 recreate-voice = Refaire votre présentation
 cancel-avatar-clip-recording = ANNULER
+about-avatar-clip-recording = Enregistrez un extrait vocal pour votre avatar. Les autres personnes pourront écouter votre extrait en passant leur curseur dessus.
 browse-file-title = Envoyer une image
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
 connect-gravatar = Connectez-vous avec Gravatar
