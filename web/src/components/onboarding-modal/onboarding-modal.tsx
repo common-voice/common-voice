@@ -60,7 +60,7 @@ const OperationButtons = () => {
 const OnboardingModal = ({ onRequestClose }: Props) => {
   let [step, setStep] = useState<number>(0);
   const stepData = STEPS[step];
-  const isLastStep = step === STEPS.length - 1 ? true : false;
+  const isLastStep = step === STEPS.length - 1;
   return (
     <Modal innerClassName="onboarding-modal" onRequestClose={onRequestClose}>
       <div className="step-container">
