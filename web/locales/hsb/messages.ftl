@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Wotpósłać
 loading = Čita so…
 email-opt-in-info = Bych rady mejlki přijał, kaž na přikład cilowe dopomnjeća, postupowe aktualizacije a powěsćowe listy wo Common Voice.
+email-opt-in-info-title = Abonujće rozsyłansku lisćinu Common Voice
 email-opt-in-info-sub = Dóstańće mejlki, kaž na přikład cilowe dopomnjeća, postupowe aktualizacije a powěsćowe listy wo Common Voice.
 email-opt-in-privacy = Jeli chceće e-mejlki dóstać, dyrbiće do wobchadźenja Mozilla z tymi informacijemi zwolić, kotrež so w <privacyLink>prawidłach priwatnosće<privacyLink> Mozilla rozjasnjeja.
 indicates-required = * Woznamjenja trěbne polo
