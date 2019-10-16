@@ -9,8 +9,8 @@ import './onboarding-modal.css';
 
 interface Step {
   title: string;
-  img: string;
-  alt: string;
+  alt?: string;
+  img?: string;
 }
 interface Props {
   onRequestClose: () => void;
@@ -37,8 +37,6 @@ const STEPS: Array<StepType> = [
   },
   {
     title: 'Ready to get started?',
-    img: '',
-    alt: '',
   },
 ];
 const OperationButtons = () => {

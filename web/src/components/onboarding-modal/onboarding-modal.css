@@ -116,7 +116,7 @@
     background: linear-gradient(270deg, #88d1f1, #b1b5e5);
 }
 
-@media (--lg-down) {
+@media (--sm-down) {
     .ReactModal__Content .onboarding-modal {
         width: 100%;
         height: 100%;
