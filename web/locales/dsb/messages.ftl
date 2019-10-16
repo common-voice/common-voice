@@ -145,7 +145,7 @@ contact = Kontakt
 privacy = Priwatnosć
 terms = Wuměnjenja
 cookies = Cookieje
-faq = CEP
+faq = CSP
 content-license-text = Wopśimjeśe jo k dispoziciji pód <licenseLink>licencu Creative Commons</licenseLink>
 share-title = Pomagajśo nam, dalšne namakaś, kótarež swój głos dawaju!
 share-text = Pomagajśo mašinam wucyś, kak luźe powědaju, dajśo swój głos na { $link }
@@ -354,7 +354,7 @@ change-email-setings = E-mailowu adresu w nastajenjach pód pśizjawjeńskeju id
 
 ## FAQ
 
-faq-title = Ceste pšašanja
+faq-title = Cesto stajone pšašanja
 faq-what-cv-q = Co Common Voice jo?
 faq-what-cv-a = Technologija głosowego spóznaśa wašnju rewolucioněrujo, na kótaruž z mašinami interagěrujomy, ale tuchylu k dispoziciji stojece systemy su droge a proprietarne. Common Voice jo źěl iniciatiwy Mozilla, technologije głosowego spóznaśa pólěpšyś a wěcej pśistupne cyniś. Common Voice jo wjelicka globalna datowa banka pósćonych głosow, kótaraž kuždemu zmóžnja, pśez głose wóźone nałoženja w kuždej rěcy malsnje a lažko treněrowaś.
 faq-why-important-q = Cogodla jo wažne?
