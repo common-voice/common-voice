@@ -15,7 +15,6 @@ import { isProduction } from '../../../utility';
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
-import { StarScoreIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 
 import './dashboard.css';
@@ -190,7 +189,7 @@ function DashboardContent({
 const ChallengeBar = () => (
   <div className="challenge-bar">
     <div className="points">
-      <StarScoreIcon />
+      <img src={require('./awards/star.svg')} alt="score" />
       <span className="score">448</span>
       <span className="label label-my"></span>
       <span className="divider"></span>
