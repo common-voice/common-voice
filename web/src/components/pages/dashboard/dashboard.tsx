@@ -11,6 +11,7 @@ import {
   LocaleNavLink,
   useLocale,
 } from '../../locale-helpers';
+import { isProduction } from '../../../utility';
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
@@ -68,15 +69,17 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
     <div className="top-bar">
       <nav>
         {/* only visible for users enrolled in challenge*/}
-        <LocaleNavLink
-          key={URLS.CHALLENGE}
-          to={
-            URLS.DASHBOARD +
-            (dashboardLocale ? '/' + dashboardLocale : '') +
-            URLS.CHALLENGE
-          }>
-          <h2>Challenge</h2>
-        </LocaleNavLink>
+        {isProduction ? null : (
+          <LocaleNavLink
+            key={URLS.CHALLENGE}
+            to={
+              URLS.DASHBOARD +
+              (dashboardLocale ? '/' + dashboardLocale : '') +
+              URLS.CHALLENGE
+            }>
+            <h2>Challenge</h2>
+          </LocaleNavLink>
+        )}
         {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(([label, path]) => (
           <LocaleNavLink
             key={path}
@@ -161,7 +164,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
         )}
       </div>
       {/* only visible for users enrolled in challenge*/}
-      <ChallengeBar />
+      {isProduction ? null : <ChallengeBar />}
     </div>
   );
 };
