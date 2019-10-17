@@ -16,13 +16,20 @@ import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
 import { Button } from '../../ui/ui';
+import InviteModal from '../../invite-modal/invite-modal';
 
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
 
 const TITLE_BAR_LOCALE_COUNT = 3;
 
-const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
+const TopBar = ({
+  dashboardLocale,
+  setShowInviteModal,
+}: {
+  dashboardLocale: string;
+  setShowInviteModal(arg: any): void;
+}) => {
   const { history, location } = useRouter();
   const [, toLocaleRoute] = useLocale();
   const account = useAccount();
@@ -174,7 +181,12 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
           </div>
         )}
       </div>
-      {isChallengeTabSelected && <ChallengeBar isNarrow={!isAboveMdWidth} />}
+      {isChallengeTabSelected && (
+        <ChallengeBar
+          isNarrow={!isAboveMdWidth}
+          setShowInviteModal={setShowInviteModal}
+        />
+      )}
     </div>
   );
 };
@@ -198,8 +210,9 @@ function DashboardContent({
 
 interface ChallengeBarProps {
   isNarrow: boolean;
+  setShowInviteModal(arg: any): void;
 }
-const ChallengeBar = ({ isNarrow }: ChallengeBarProps) => (
+const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => (
   <div className="challenge-bar">
     <div className="points">
       <img src={require('./awards/star.svg')} alt="score" />
@@ -209,7 +222,10 @@ const ChallengeBar = ({ isNarrow }: ChallengeBarProps) => (
       <span className="score">12345</span>
       <span className="label label-team">Team{!isNarrow && ' points'}</span>
     </div>
-    <Button rounded className="invite-btn">
+    <Button
+      rounded
+      className="invite-btn"
+      onClick={() => setShowInviteModal(true)}>
       <span className="content">Invite</span>
       <span className="plus-icon"></span>
     </Button>
@@ -227,6 +243,7 @@ export default function Dashboard() {
   const { match } = useRouter();
   const account = useAccount();
   const [, toLocaleRoute] = useLocale();
+  const [showInviteModal, setShowInviteModal] = useState<boolean>(false);
 
   useEffect(() => {
     if (!account) {
@@ -237,6 +254,15 @@ export default function Dashboard() {
 
   return (
     <div className="dashboard">
+      {showInviteModal && (
+        <InviteModal
+          inviteId="#####"
+          onRequestClose={() => {
+            setShowInviteModal(false);
+          }}
+          teamId="SAP"
+        />
+      )}
       <div className="inner">
         <Switch>
           {PAGES.map(({ subPath, Page }) => (
@@ -246,7 +272,10 @@ export default function Dashboard() {
               path={match.path + subPath}
               render={() => (
                 <>
-                  <TopBar dashboardLocale="" />
+                  <TopBar
+                    dashboardLocale=""
+                    setShowInviteModal={setShowInviteModal}
+                  />
                   <DashboardContent dashboardLocale="" {...{ Page }} />
                 </>
               )}
@@ -260,7 +289,10 @@ export default function Dashboard() {
               },
             }) => (
               <>
-                <TopBar {...{ dashboardLocale }} />
+                <TopBar
+                  {...{ dashboardLocale }}
+                  setShowInviteModal={setShowInviteModal}
+                />
                 <Switch>
                   {PAGES.map(({ subPath, Page }) => (
                     <Route
