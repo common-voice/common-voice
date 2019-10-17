@@ -307,6 +307,7 @@ thanks-for-account = Tanemmirt ɣimi tsentmeḍ amiḍan-ik, tura rnu kra n tal�
 why-demographic = Ayɣer aya isεa azal?
 why-demographic-explanation = Talɣut tusligt am laεmer, tuzuft, akked tmeslayt ad aɣ-d-mudden afus akken senqed isefka n umesli deg imesdayen n uεqal aɣectan. Isem-ik n useqdac akked imayl-inek werǧin ad ddun akked isefka ad ittwaznen, tzemreḍ daɣen ad terreḍ isem-inek n useqdec d aziraz neɣ d uslig.
 accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <privacyLink>tsertit n tbaḍnit</privacyLink> n Mozilla.
+accept-privacy-title = Tasertit n tbaḍnit
 login-identity = Tinekkit n tuqna
 login-signup = Kcem / Jerred
 edit = Ẓreg
