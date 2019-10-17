@@ -247,6 +247,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
 shortcut-record-toggle-label = Ta opp/Stopp
+shortcut-rerecord-toggle = [1-5]
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
 request-language-button = Send en forespørsel om et nytt språk
 
