@@ -263,7 +263,7 @@
     &:hover {
         border: 1px solid var(--black);
 
-        .plusIcon {
+        .plus-icon {
             background-color: var(--black);
         }
     }
