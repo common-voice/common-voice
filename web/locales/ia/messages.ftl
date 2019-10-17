@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Inviar
 loading = Cargamento…
 email-opt-in-info = Io volerea reciper e-mails como rememorationes de objectivos, actualisationes de mi progresso e bulletines de novas sur Common Voice.
+email-opt-in-info-title = Junge te al bulletin e-posta de Common Voice
 email-opt-in-info-sub = Recipe emails como mementos de objectivos, actualisationes e bulletines de novas sur Common Voice.
 email-opt-in-privacy = Si ti opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
 indicates-required = * indica un campo obligatori
