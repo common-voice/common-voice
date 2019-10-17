@@ -2,7 +2,8 @@
 
 .stats,
 .goals,
-.awards {
+.awards,
+.challenge {
     & header {
         @media (--lg-up) {
             max-width: var(--wide-desktop-width);
@@ -174,7 +175,7 @@
     }
 }
 .challenge-bar {
-    width: 451px;
+    width: 651px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -217,7 +218,24 @@
         background-color: var(--light-grey);
     }
 }
-.inviteButton {
+.languages.challenge {
+    display: none !important;
+}
+.language {
+    line-height: 40px;
+    color: #9b9b9b;
+}
+.language-text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: 0.43px;
+    color: var(--black);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 10px;
+}
+.invite-btn {
     width: 120px;
     height: 38px;
     min-width: auto;
@@ -226,7 +244,7 @@
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 0.8px;
-    > .plusIcon {
+    > .plus-icon {
         width: 22px;
         height: 22px;
         background-color: var(--white);
@@ -243,6 +261,9 @@
 }
 
 @media (--sm-down) {
+    .language {
+        display: none;
+    }
     .challenge-bar {
         width: 310px;
     }
@@ -256,7 +277,7 @@
             content: 'Team';
         }
     }
-    .inviteButton {
+    .invite-btn {
         width: 38px;
         height: 38px;
         border-radius: 50%;
@@ -264,12 +285,9 @@
         > .content {
             display: none;
         }
-        > .plusIcon {
+        > .plus-icon {
             margin: 0;
         }
-    }
-    .languages.challenge {
-        display: none !important;
     }
 }
 
