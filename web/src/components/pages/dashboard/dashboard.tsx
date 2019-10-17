@@ -27,7 +27,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
   const [, toLocaleRoute] = useLocale();
   const account = useAccount();
   const [showTitleBarLocales, setShowTitleBarLocales] = useState(true);
-  const isChallengeTabVisible = isProduction() ? false : true;
+  const isChallengeTabVisible = !isProduction();
 
   function setLocale(value: string) {
     const pathParts = location.pathname.split('/');
@@ -69,7 +69,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
     <div className={`top-bar ${isChallengeTabVisible ? 'challenge' : ''}`}>
       <nav>
         {/* only visible for users enrolled in challenge*/}
-        {isChallengeTabVisible ? (
+        {isChallengeTabVisible && (
           <LocaleNavLink
             key={URLS.CHALLENGE}
             to={
@@ -79,7 +79,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
             }>
             <h2>Challenge</h2>
           </LocaleNavLink>
-        ) : null}
+        )}
         {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(([label, path]) => (
           <LocaleNavLink
             key={path}
@@ -164,7 +164,7 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
         )}
       </div>
       {/* only visible for users enrolled in challenge*/}
-      {isChallengeTabVisible ? <ChallengeBar /> : null}
+      {isChallengeTabVisible && <ChallengeBar />}
     </div>
   );
 };
@@ -188,6 +188,10 @@ function DashboardContent({
 
 const ChallengeBar = () => (
   <div className="challenge-bar">
+    <div className="language">
+      <span>Language:</span>
+      <span className="language-text">English</span>
+    </div>
     <div className="points">
       <img src={require('./awards/star.svg')} alt="score" />
       <span className="score">448</span>
@@ -196,9 +200,9 @@ const ChallengeBar = () => (
       <span className="score">12345</span>
       <span className="label label-team"></span>
     </div>
-    <Button rounded className="inviteButton">
+    <Button rounded className="invite-btn">
       <span className="content">Invite</span>
-      <span className="plusIcon"></span>
+      <span className="plus-icon"></span>
     </Button>
   </div>
 );
@@ -207,7 +211,7 @@ const PAGES = [
   { subPath: URLS.STATS, Page: StatsPage },
   { subPath: URLS.GOALS, Page: GoalsPage },
   { subPath: URLS.AWARDS, Page: AwardsPage },
-  { subPath: URLS.CHALLENGE, Page: AwardsPage },
+  { subPath: URLS.CHALLENGE, Page: StatsPage },
 ];
 
 export default function Dashboard() {
