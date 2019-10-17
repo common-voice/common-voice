@@ -39,14 +39,9 @@
 }
 
 .top-bar {
-    border-bottom: 1px solid var(--darker-grey);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     @media (--sm-down) {
         margin-right: 20px;
         margin-left: 20px;
-        padding: 20px 20px 0;
     }
 
     @media (--md-up) {
@@ -55,12 +50,23 @@
         padding: 30px 0 0;
     }
 
-    & nav {
+    &,
+    .underlined,
+    .challenge-bar {
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .underlined {
+        flex-grow: 1;
+        border-bottom: 1px solid var(--darker-grey);
+    }
+
+    nav {
+        display: flex;
         align-items: flex-end;
 
-        & a {
+        a {
             margin-inline-end: 25px;
             margin-bottom: -1.5px;
             padding-bottom: 5px;
@@ -72,7 +78,7 @@
             }
         }
 
-        & h2 {
+        h2 {
             font-family: var(--strong-font-family);
             font-size: var(--font-size-lg);
             font-weight: normal;
@@ -81,7 +87,7 @@
             align-items: center;
         }
 
-        & .badge {
+        .badge {
             border-radius: 50%;
             margin-left: 10px;
             width: 22px;
@@ -96,7 +102,7 @@
         }
     }
 
-    & .languages {
+    .languages {
         display: flex;
 
         @media (--xs-only) {
@@ -174,14 +180,12 @@
         }
     }
 }
+
 .challenge-bar {
-    width: 651px;
     padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
 }
+
 .points {
-    width: 321px;
     height: 40px;
     border-radius: 19px;
     border: solid 1px var(--light-grey);
@@ -192,39 +196,40 @@
     justify-content: center;
     padding: 0 15px;
     box-sizing: border-box;
+    margin: 0 10px;
+
     img {
         width: 14px;
         height: 14px;
     }
+
     span {
         margin: 0 auto;
     }
+
     .score {
+        margin: 0 10px;
         font-weight: 600;
     }
-    > .label {
+
+    .label {
         color: #9b9b9b;
         margin: 0;
     }
-    > .label-my::after {
-        content: 'My points';
-    }
-    > .label-team::after {
-        content: 'Team points';
-    }
-    > .divider {
+
+    .divider {
         height: 100%;
+        margin: 0 10px 0 20px;
         width: 1px;
         background-color: var(--light-grey);
     }
 }
-.languages.challenge {
-    display: none !important;
-}
+
 .language {
     line-height: 40px;
     color: #9b9b9b;
 }
+
 .language-text {
     font-size: 12px;
     font-weight: 600;
@@ -235,8 +240,8 @@
     display: inline-block;
     margin-left: 10px;
 }
+
 .invite-btn {
-    width: 120px;
     height: 38px;
     min-width: auto;
     background-color: #629ff4;
@@ -244,7 +249,9 @@
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 0.8px;
-    > .plus-icon {
+    flex-shrink: 0;
+
+    .plus-icon {
         width: 22px;
         height: 22px;
         background-color: var(--white);
@@ -252,62 +259,52 @@
         -webkit-mask-image: url('../../ui/icons/plus.svg');
         -webkit-mask-size: contain;
     }
+
     &:hover {
         border: 1px solid var(--black);
-        > .plusIcon {
+
+        .plusIcon {
             background-color: var(--black);
         }
     }
 }
 
-@media (--sm-down) {
-    .language {
-        display: none;
-    }
-    .challenge-bar {
-        width: 310px;
-    }
-    .points {
-        width: 252px;
-        margin-right: 20px;
-        > .label-my::after {
-            content: 'My';
-        }
-        > .label-team::after {
-            content: 'Team';
-        }
-    }
-    .invite-btn {
-        width: 38px;
-        height: 38px;
-        border-radius: 50%;
-        padding: 0;
-        > .content {
+@media (--lg-down) {
+    .top-bar.with-challenge {
+        .challenge-language,
+        .points-text {
             display: none;
         }
-        > .plus-icon {
-            margin: 0;
+
+        .invite-btn {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            padding: 0;
+
+            .content {
+                display: none;
+            }
+
+            .plus-icon {
+                margin: 0;
+            }
         }
     }
 }
 
-@media (--xs-down) {
-    .top-bar.challenge {
-        padding: 20px 0 0;
-        margin-top: 70px;
-        position: relative;
-        > nav {
+@media (--sm-down) {
+    .top-bar.with-challenge {
+        flex-direction: column-reverse;
+
+        .challenge-bar {
             width: 100%;
-            justify-content: space-between;
-            > a {
-                margin-right: 0;
-            }
+            padding: 0;
+            margin: 20px 0;
         }
-    }
-    .challenge-bar {
-        width: 100%;
-        margin: 20px -20px 0;
-        position: absolute;
-        top: -60px;
+
+        .points {
+            margin-left: 0;
+        }
     }
 }
