@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Ja, send meg e-post slik at jeg kan holde meg oppdatert om prosjektet Common Voice.
-stayintouch = Vi i Mozilla bygger et samfunn rundt stemmeteknologi. Vi vil gjerne holde deg oppdatert på endringer, nye datakilder og høre mer om hvordan du bruker disse dataene.
+stayintouch = Vi i Mozilla bygger et samfunn rundt taleteknologi. Vi vil gjerne holde deg oppdatert på endringer, nye datakilder og høre mer om hvordan du bruker disse dataene.
 privacy-info = Vi lover å håndtere informasjonen din omsorgsfullt. Les mer i vår <privacyLink>Personvernnotis</privacyLink>.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
@@ -209,18 +209,44 @@ email-subscription-title = meld deg på for oppdateringer på e-mail
 benefits = Fordeler
 rich-data = Gjør dine bidratte lydklipp så verdifulle som mulig ved å gi anonyme demografiske data. Demografiske data frakobles din identitet før de bli publisert.
 improve-audio = Profilinformasjon forbedrer lyddataene som benyttes ved forbedring av talegjenkjenningsnøyaktighet.
+keep-track = Hold kon troll med din progresjon og dine måltall over flere språk.
+compare-progress = Sammenlign din fremgang med andre bidragsytere fra hele verden.
+view-goals = Se din fremgang sammenholdt med personlige mål og prosjektmål.
+join-newsletter = Om ønskelig kan du melde deg på vår e-mailliste for oppdateringer og ny informasjon om prosjektet.
 
 ## What's public
 
+whats-public = Hva er offentlig?
+email-not-public = Vi vil ikke offentliggjøre din e-mailadresse.
+recordings-and-locale-public = Antall lydklipp og hvilke språk du bidrar til vil være offentlig.
+username-optin-public = Du kan velge å gjøre brukernavnet ditt offentlig eller forbli anonym.
+demographic-deidentified = Frivillige demografiske tilleggsdata (for eksempel alder, kjønn, språk og dialekt) er frakoblet fra dine lydklipp og vil aldri publiseres på profilen din.
+username-email-not-demographic = Ditt brukernavn og din emailadresse vil ikke bli assosiert med offentliggjorte data.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Spill av/Stopp
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = e
+shortcut-record-toggle-label = Ta opp/Stopp
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
 request-language-button = Send en forespørsel om et nytt språk
 
