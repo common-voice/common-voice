@@ -202,6 +202,7 @@ x-years-short =
 help-make-dataset = Иаарту, зхаҭабзиара ҳараку абызшәатә дыррақәа рбаза аԥҵара уҳацхраа
 sign-up-account = Аҽҭагалара аҳасабрбатә нҵамҭазы
 email-subscription-title = Аҽҭагалара аԥошьҭала аиҭакрақәа рдырразы
+email-subscription-title-new = Уҽанҵа Common Voice аизҳара ахықәки аҿыцрақәеи ртәы зҳәо ашьҭымҭа ҿыц аҟны
 
 ## Account Benefits
 
@@ -327,8 +328,10 @@ delete-voice = ИҚӘГАТӘУП
 recording-voice-wave = Абжьы ҭаҩра
 delete-voice-clip = мамзаргьы Иқәгатәуп абжьытә нҵамҭа
 ready-to-upload = иҭагалатәуп
+avatar-clip-fact = Ишьақәыргылоу фактуп аԥхьаҩ адаҟьақәа рмакетқәа данрыхәаԥшуа зыԥхьара мариақәоу шалихуа.
 recreate-voice = Ашьҭыбжьтә цәқәырԥа аиҭаԥҵаразы
 cancel-avatar-clip-recording = Мап ацәктәуп
+about-avatar-clip-recording = Уара уҷыдахәра аватар иахәҭаку абжьытә клип ҟаҵа. Усҟан егьырҭгьы ирымиоит иааҭгыланы уклип ахҩылааны азыӡырҩра.
 browse-file-title = Асахьатә фаил иҭагалатәуп
 browse-file = Ииага ма <browseWrap>афаил алх</browseWrap>
 connect-gravatar = Иацҵа Граватар
