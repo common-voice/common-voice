@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "@sentry/browser": "^5.5.0",
     "@types/classnames": "^2.2.9",
     "@types/lodash.memoize": "^4.1.6",
