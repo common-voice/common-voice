@@ -1,0 +1,226 @@
+@import url('../../../vars.css');
+.challenge-board {
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1.6px solid var(--light-grey);
+}
+.title-container {
+    height: 142px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+    .title {
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-left: 20px;
+        max-width: 342px;
+    }
+}
+.icon {
+    width: 95px;
+    height: 95px;
+    background-color: #629ff4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 90px;
+        height: 90px;
+    }
+}
+.week-container {
+    width: 76px;
+    height: 27px;
+    line-height: 27px;
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.8;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+}
+.challenge-board.disabled {
+    .icon,
+    .week-container {
+        background-color: var(--light-grey);
+    }
+}
+.challenge-board-content {
+    border-top: 1.6px solid var(--light-grey);
+}
+.content-row {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    .column {
+        height: 250px;
+        width: 159px;
+        /* display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center; */
+        font-size: 16px;
+        line-height: 1.5;
+        color: #4a4a4a;
+        background-color: #f9f9f9;
+        text-align: center;
+        img {
+            display: inline-block;
+            width: 95px;
+            height: 95px;
+            margin: 80px auto 20px;
+        }
+    }
+    &:first-child {
+        border-bottom: 1.6px solid var(--light-grey);
+    }
+    .container {
+        flex: 1;
+        height: 100%;
+        padding: 28px 0;
+        box-sizing: border-box;
+        &.team {
+            flex: 1.2;
+        }
+    }
+    .divider {
+        height: calc(100% - 56px);
+        background-color: var(--light-grey);
+        width: 1px;
+    }
+}
+.speak-btn,
+.listen-btn {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto 15px;
+    &:hover {
+        border: 1px solid var(--black);
+        background-color: var(--white);
+        color: var(--black);
+        .speak-icon,
+        .listen-icon {
+            background-color: var(--black);
+        }
+    }
+}
+.speak-btn {
+    background-color: #ff4f5e;
+}
+.listen-btn {
+    background-color: #59cbb7;
+}
+.speak-icon,
+.listen-icon {
+    width: 22px;
+    height: 22px;
+    background-color: var(--white);
+    margin-left: 10px;
+    mask-size: contain;
+    display: inline-block;
+}
+.speak-icon {
+    mask-image: url('./mic.svg');
+}
+.listen-icon {
+    mask-image: url('./play.svg');
+}
+
+.CircularProgressbar {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: var(--light-grey);
+    stroke-linecap: round;
+}
+.speak-bar,
+.listen-bar,
+.team-bar {
+    width: 140px;
+    height: 140px;
+    margin: 10px auto 0;
+    display: block;
+}
+.speak-bar .CircularProgressbar-path {
+    stroke: #ff4f5e;
+}
+.listen-bar .CircularProgressbar-path {
+    stroke: #59cbb7;
+}
+.team-bar .CircularProgressbar-path {
+    stroke: #629ff4;
+}
+.speak-content,
+.listen-content,
+.team-content {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.speak-content {
+    color: #ff4f5e;
+}
+.listen-content {
+    color: #59cbb7;
+}
+.team-content {
+    color: #629ff4;
+}
+.first {
+    font-size: 48px;
+    float: left;
+}
+.total {
+    margin-top: 10px;
+    display: inline-block;
+}
+div[data-test-id='CircularProgressbarWithChildren__children'] {
+    margin-top: 0 !important;
+    top: 0;
+}
+
+.team-text,
+.team-invite {
+    padding: 0 10px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.team-text {
+    color: #4a4a4a;
+}
+.team-invite {
+    color: var(--warm-grey);
+}
+.v-divider {
+    width: calc(100% - 20px);
+    height: 1px;
+    background-color: var(--light-grey);
+    margin: 15px auto;
+}
+.team-invite-total {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}

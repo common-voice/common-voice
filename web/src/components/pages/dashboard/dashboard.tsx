@@ -14,6 +14,7 @@ import {
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
+import ChallengePage from './challenge/challenge';
 import { Button } from '../../ui/ui';
 import InviteModal from '../../invite-modal/invite-modal';
 
@@ -195,7 +196,11 @@ function DashboardContent({
   Page,
   dashboardLocale,
 }: {
-  Page: typeof StatsPage | typeof GoalsPage | typeof AwardsPage;
+  Page:
+    | typeof StatsPage
+    | typeof GoalsPage
+    | typeof AwardsPage
+    | typeof ChallengePage;
   dashboardLocale: string;
 }) {
   const api = useAPI();
@@ -236,7 +241,7 @@ const PAGES = [
   { subPath: URLS.STATS, Page: StatsPage },
   { subPath: URLS.GOALS, Page: GoalsPage },
   { subPath: URLS.AWARDS, Page: AwardsPage },
-  { subPath: URLS.CHALLENGE, Page: StatsPage },
+  { subPath: URLS.CHALLENGE, Page: ChallengePage },
 ];
 
 export default function Dashboard() {

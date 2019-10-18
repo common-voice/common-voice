@@ -1,0 +1,8 @@
+.challenge-container {
+    padding: 30px 20px;
+    display: flex;
+    height: 100%;
+}
+.range-container {
+    min-width: calc(100% - 10px);
+}
