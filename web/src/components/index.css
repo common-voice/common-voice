@@ -351,7 +351,7 @@ body:not(.focus) #scroller {
 
     & input {
         margin: 0.1rem 0.3rem 0.1rem 0.1rem;
-        // mobile Safari needs this
+        /* mobile Safari needs this */
         width: 100%;
         max-width: 0.8rem;
         height: 0.8rem;
