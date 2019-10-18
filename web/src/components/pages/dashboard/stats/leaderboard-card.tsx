@@ -48,6 +48,7 @@ interface PropsFromState {
 }
 
 interface Props extends PropsFromState {
+  ref: { current: any };
   locale: string;
   type: 'clip' | 'vote';
 }
