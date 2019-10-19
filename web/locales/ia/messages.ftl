@@ -500,11 +500,11 @@ review-delete-recordings = Deler mi registrationes
 
 datasets-headline = Nos produce un collection de datos libere e multilingue que omnes pote usar pro trainar applicationes activate per le voce.
 datasets-positioning =
-    Nos crede que le grande e publicamente disponibile collectiones de datos vocal favori le innovation e le salubre competition commercial in le apprendimento automatic basate sur le technologia del voce.
+    Nos crede que le collectiones de datos vocal grande e publicamente disponibile promove le innovation e un concurrentia san pro le technologias vocal basate sur le apprendimento automatic.
     
-    Le collection de datos multe-lingua de Common Voice es jam le plus grande collection de datos vocal de su sorta publicamente disponibile, ma illo non es sol.
+    Le collection de datos multilingue de Common Voice es jam le collection de datos vocal publicamente disponibile le plus grande de su sorta, ma illo non es le unic.
     
-    Reguarda a iste pagina como centro de referentia pro altere collectiones de datos vocal open-source e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
+    Reguarda iste pagina como centro de referentia pro altere collectiones de datos vocal libere e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
 language = Lingua
 # File size in gigabytes
 size = Dimension
