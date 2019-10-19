@@ -722,12 +722,18 @@ how-many-per-day = Hebat! Berapa banyak klip per hari?
 how-many-a-week = Hebat! Berapa banyak klip dalam seminggu?
 which-goal-type = Apakah Anda ingin Bicara, Mendengarkan, atau keduanya?
 receiving-emails-info = Saat ini Anda menetapkan untuk menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
+not-receiving-emails-info = Saat ini Anda menetapkan untuk <bold>TIDAK</bold> menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
 n-clips = { NUMBER($count) } klip
+help-share-goal = Bantu kami menemukan lebih banyak suara, bagikan sasaran Anda
 confirm-goal = Konfirmasi Target
 goal-interval-weekly = Mingguan
 share-goal-type-speak = Berbicara
 share-goal-type-listen = Mendengarkan
 share-goal-type-both = Berbicara dan Mendengarkan
+# LINK will be replaced with the current URL
+goal-share-text = Saya baru saja membuat sasaran pribadi untuk donasi suara ke #CommonVoice - bergabung dengan saya dan bantu mengajar mesin bagaimana sebenarnya orang berbicara { $link }
+weekly-goal-created = Sasaran mingguan Anda telah dibuat
+daily-goal-created = Sasaran harian Anda telah dibuat
 share-goal = Bagikan target saya
 
 ## Profile Delete
