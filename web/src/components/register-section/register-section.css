@@ -1,6 +1,8 @@
 @import url('../vars.css');
 
 .register-section {
+    overflow-x: hidden;
+
     & .top {
         margin: 0 auto;
         display: flex;
