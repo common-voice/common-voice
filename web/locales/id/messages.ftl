@@ -734,6 +734,8 @@ share-goal-type-both = Berbicara dan Mendengarkan
 goal-share-text = Saya baru saja membuat sasaran pribadi untuk donasi suara ke #CommonVoice - bergabung dengan saya dan bantu mengajar mesin bagaimana sebenarnya orang berbicara { $link }
 weekly-goal-created = Sasaran mingguan Anda telah dibuat
 daily-goal-created = Sasaran harian Anda telah dibuat
+track-progress = Lacak kemajuan di sini dan di laman statistik Anda.
+return-to-edit-goal = Kembali ke sini untuk menyunting sasaran Anda kapan saja.
 share-goal = Bagikan target saya
 
 ## Profile Delete
