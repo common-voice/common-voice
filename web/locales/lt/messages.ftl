@@ -2,7 +2,7 @@
 
 yes-receive-emails = Taip, siųskite man el. laiškus. Noriu gauti „Common Voice“ projekto naujienas.
 stayintouch = Mes „Mozilloje“ buriame balso technologijų bendruomenę. Norėtume su tavimi dalintis naujienomis ir duomenų šaltiniais bei sužinoti, kaip tau seksis naudotis mūsų duomenimis.
-privacy-info = Pažadame tvarkyti tavo informaciją atsargiai. Daugiau informacijos rasi mūsų <privacyLink>Privatumo pranešime</privacyLink>.
+privacy-info = Pažadame tvarkyti Tavo informaciją atsargiai. Daugiau informacijos rasi mūsų <privacyLink>Privatumo pranešime</privacyLink>.
 return-to-cv = Grįžti į „Common Voice“
 email-input =
     .label = El. paštas
@@ -11,7 +11,7 @@ loading = Įkeliama…
 email-opt-in-info = Norėčiau gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
 email-opt-in-info-title = Prenumeruoti „Common Voice“ naujienlaiškį
 email-opt-in-info-sub = Gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
-email-opt-in-privacy = Pasirinkęs (-usi) gauti el. laiškus, tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
+email-opt-in-privacy = Pasirinkęs (-usi) gauti el. laiškus, Tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
 indicates-required = * Nurodo privalomą lauką
 not-available-abbreviation = Nepasiekiama
 
@@ -222,7 +222,7 @@ join-newsletter = Jeigu nori, užsiprenumeruok ir gauk projekto naujienas el. pa
 ## What's public
 
 whats-public = Kas yra vieša?
-email-not-public = Mes neskelbsime tavo el. pašto.
+email-not-public = Mes neskelbsime Tavo el. pašto.
 recordings-and-locale-public = Įrašų skaičius ir kalbų, prie kurių prisidedi, sąrašas yra vieši.
 username-optin-public = Gali pasirinkti, ar tavo naudotojo vardas bus matomas kitiems.
 demographic-deidentified = Jeigu pateiksi savo demografinius duomenis (tokius, kaip amžius, lytis, kalba ar tarmė), jie bus atsieti nuo tavo pateiktų garso įrašų ir niekada nebus skelbiami tavo profilyje.
@@ -337,6 +337,7 @@ recording-voice-wave = Įrašas
 delete-voice-clip = arba pašalinti balso įrašą
 ready-to-upload = ĮKELTI
 avatar-clip-fact = Seniai žinoma, jog skaitytoją, žiūrintį į tinklalapio išdėstymą, blaško jo skaitomas turinys.
+recreate-voice = Leisti įrašą
 cancel-avatar-clip-recording = ATSISAKYTI
 about-avatar-clip-recording = Įgarsink savo pseudoportretą balsu. Kiti galės šį įrašą perklausyti, užvedę pelę virš pseudoportreto.
 browse-file-title = Įkelk paveiksliuką
@@ -380,7 +381,7 @@ faq-why-different-speakers-a =
     Dauguma kalbos duomenų bazių yra apmokomos, neišlaikant proporcijų tarp atskirų demografinių grupių. Todėl atsiranda šališkumas <articleLink> viduriniosios klasės atstovų ir vyrų</articleLink> atžvilgiu. Tarmės, akcentai ir dialektai, dažniausiai nepakankamai atstovaujami apmokymo duomenų rinkiniuose, dažnai yra susiję su jau ir taip marginalizuotomis žmonių grupėmis. Dažnai įrenginiai nesugeba gerai suprasti moterų balsų.
     Todėl mūsų balsų duomenų bazėje siekiama įvairovės!
 faq-why-my-lang-q = Kodėl mano kalba dar neįtraukta?
-faq-why-my-lang-new-a = „Mozilla“ neteikia pirmenybės vienoms kalboms prieš kitas. „Common Voice“ yra bendruomeninė iniciatyva, tačiau norint į sąrašą įtraukti naują kalbą ir pradėti kaupti balso įrašus, <multilangLink>reikia įvykdyti keletą žingsnių iš anksto</multilangLink>. Pirmiausia, mes prašome išversti „Common Voice“ svetainę, kad ja galėtų naudotis ir joje talkininkauti visi jūsų bendruomenės nariai. Antra, būtina surinkti didelę bazę autoriaus teisėmis neapsaugotų frazių, kurias žmonės turės skaityti balsu. Kai abu šie reikalavimai patenkinami, kalba yra aktyvinama „Common Voice“ platformoje ir visi norintys gali dalyvauti, ja įrašydami balso įrašus bei tikrindami kitų įrašytas frazes. Jei norite prisidėti prie naujos kalbos įgalinimo, pradėkite, apsilankydami mūsų <sentenceCollectorLink>frazių kaupimo priemonėje</sentenceCollectorLink>.
+faq-why-my-lang-new-a = „Mozilla“ neteikia pirmenybės vienoms kalboms prieš kitas. „Common Voice“ yra bendruomeninė iniciatyva, tačiau norint į sąrašą įtraukti naują kalbą ir pradėti kaupti balso įrašus, <multilangLink>reikia įvykdyti keletą žingsnių iš anksto</multilangLink>. Pirmiausia, mes prašome išversti „Common Voice“ svetainę, kad ja galėtų naudotis ir joje talkininkauti visi jūsų bendruomenės nariai. Antra, būtina surinkti didelę bazę autoriaus teisėmis neapsaugotų frazių, kurias žmonės turės skaityti balsu. Kai abu šie reikalavimai patenkinami, kalba yra aktyvinama „Common Voice“ platformoje ir visi norintys gali dalyvauti, ja įrašydami balso įrašus bei tikrindami kitų įrašytas frazes. Jei nori prisidėti prie naujos kalbos įgalinimo, pradėk, apsilankydamas (-a) mūsų <sentenceCollectorLink>frazių kaupimo priemonėje</sentenceCollectorLink>.
 faq-what-quality-q = Kokios garso kokybės turi būti balso įrašas, kad jis būtų panaudotas duomenų rinkinyje?
 faq-what-quality-a = Mes siekiame, jog „Common Voice“ duomenų rinkinyje esantys įrašai ir jų kokybė atspindėtų kasdienybę, su kuria susiduria kalbos atpažinimo priemonės, todėl ieškome įvairovės. Duomenų rinkinys, pasižymintis didele ne tik didele kalbančiųjų, bet ir garso kokybės įvairove, padės balso atpažinimo priemonėms geriau susidoroti su realiomis situacijomis, tokiomis, kaip kalbėjimas toliau nuo mikrofono ar foninis automobilių triukšmas. Jei tik Tavo balso įrašą apskritai įmanoma suprasti, jis duomenų rinkiniui turėtų būti tinkamas.
 faq-why-10k-hours-q = Kodėl kiekvienos kalbos tikslas yra 10 000 patvirtintų valandų?
@@ -533,6 +534,22 @@ download-language = Parsisiųsti – { $language }
 validated-hours = Patvirtinta valandų
 recorded-hours = Įrašyta valandų
 whats-inside = Kas yra „Common Voice“ duomenų rinkinyje?
+dataset-description-hours =
+    Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> { $total ->
+        [one] valandos
+        [few] valandų
+       *[other] valandų
+    } įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+    
+    Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> { $valid ->
+        [one] valanda
+        [few] valandos
+       *[other] valandų
+    } patvirtintų įrašų <b>{ $languages }</b> { $languages ->
+        [one] kalba
+        [few] kalbomis
+       *[other] kalbų
+    }, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
 want-dataset-update = Nori sužinoti kai išleisime naują „Common Voice“ duomenų rinkinio versiją? Prenumeruok mūsų naujienlaiškį.
 subscribe = Prenumeruoti
 get-started-speech = Susipažink su kalbos atpažinimu
@@ -619,7 +636,7 @@ contribute-more =
        *[other] Gal nori padėti dar { $count } frazių?
     }
 record-cta = Pradėk įrašymą
-record-platform-not-supported = Atsiprašome, tavo platforma kol kas nepalaikoma.
+record-platform-not-supported = Atsiprašome, Tavo platforma kol kas nepalaikoma.
 record-platform-not-supported-desktop = Staliniam kompiuteriui gali parsisiųsti naujausią:
 record-platform-not-supported-ios = <bold>iOS</bold>naudotojai gali parsisiųsti nemokamą programėlę:
 record-must-allow-microphone = Turi suteikti prieigą prie mikrofono.
@@ -809,15 +826,15 @@ share-goal = Dalintis tikslu
 
 ## Profile Delete
 
-delete-q = Ar nori, kad tavo balso įrašai būtų pašalinti ar palikti „Common Voice“ duomenų rinkinyje?
+delete-q = Ar nori, kad Tavo balso įrašai būtų pašalinti ar palikti „Common Voice“ duomenų rinkinyje?
 keep = Palikti
 remove = Pašalinti
 keep-info = Tavo anoniminiai balso įrašai išliks „Common Voice“ duomenų rinkinyje. Jeigu pašalinsi savo profilį, vėliau nebegalėsi pateikti prašymo savo padarytus įrašus iš duomenų rinkinio pašalinti.
-remove-info = Peržiūrėsime tavo prašymą pašalinti balso įrašus iš duomenų rinkinio. Jei prašymas bus patvirtintas, mes susisieksime su juos parsisiuntusiais asmenimis ir paprašysime, kad jie juos taipogi pašalintų.
+remove-info = Peržiūrėsime Tavo prašymą pašalinti balso įrašus iš duomenų rinkinio. Jei prašymas bus patvirtintas, mes susisieksime su juos parsisiuntusiais asmenimis ir paprašysime, kad jie juos taipogi pašalintų.
 why-delete-recordings =
     „Common Voice“ įrašus naudoja akademikai, smulkios įmonės ir balso atpažinimo entuziastai, siekiantys apmokyti ir vystyti viešai prieinamus išteklius, pavyzdžiui, balso modelius.
     
-    Ar gali parašyti kodėl pageidauji, kad tavo įrašai būtų pašalinti?
+    Ar gali parašyti kodėl pageidauji, kad Tavo įrašai būtų pašalinti?
 profile-form-delete = Pašalinti profilį
 
 ## Landing
