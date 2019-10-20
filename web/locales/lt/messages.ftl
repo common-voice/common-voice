@@ -302,7 +302,7 @@ why-profile-title = Kokia profilio nauda?
 why-profile-text = Jei pateiksi truputį savo duomenų, tavo „Common Voice“ projektui pateikti garso įrašai bus naudingesni kalbos atpažinimo varikliams, kurie šiuos duomenis naudoja didesniam tikslumui pasiekti.
 dashboard = Skydelis
 build-profile = Kurti profilį
-avatar = Pseudoortretas
+avatar = Pseudoportretas
 goals = Tikslai
 settings = Nuostatos
 edit-profile = Keisti profilį
@@ -380,7 +380,7 @@ faq-why-different-speakers-a =
     Dauguma kalbos duomenų bazių yra apmokomos, neišlaikant proporcijų tarp atskirų demografinių grupių. Todėl atsiranda šališkumas <articleLink> viduriniosios klasės atstovų ir vyrų</articleLink> atžvilgiu. Tarmės, akcentai ir dialektai, dažniausiai nepakankamai atstovaujami apmokymo duomenų rinkiniuose, dažnai yra susiję su jau ir taip marginalizuotomis žmonių grupėmis. Dažnai įrenginiai nesugeba gerai suprasti moterų balsų.
     Todėl mūsų balsų duomenų bazėje siekiama įvairovės!
 faq-why-my-lang-q = Kodėl mano kalba dar neįtraukta?
-faq-why-my-lang-new-a = „Mozilla“ neteikia pirmenybės vienoms kalboms prieš kitas. „Common Voice“ yra bendruomeninė iniciatyva, tačiau norint į sąrašą įtraukti naują kalbą ir pradėti kaupti balso įrašus, <multilangLink>reikia įvykdyti keletą žingsnių iš anksto</multilangLink>. Pirmiausia, mes prašome išversti „Common Voice“ svetainę, kad ja galėtų naudotis ir joje talkininkauti visi jūsų bendruomenės nariai. Antra, būtina surinkti didelę bazę autoriaus teisėmis neapsaugotų frazių, kurias žmonės turės skaityti balsu. Kai abu šie reikalavimai patenkinami, kalba yra „įjungiama“ „Common Voice“ platformoje ir visi norintys gali dalyvauti, ja įrašydami balso įrašus bei tikrindami kitų įrašytas frazes. Jei norite prisidėti prie naujos kalbos įgalinimo, pradėkite, apsilankydami mūsų <sentenceCollectorLink>frazių kaupimo priemonėje</sentenceCollectorLink>.
+faq-why-my-lang-new-a = „Mozilla“ neteikia pirmenybės vienoms kalboms prieš kitas. „Common Voice“ yra bendruomeninė iniciatyva, tačiau norint į sąrašą įtraukti naują kalbą ir pradėti kaupti balso įrašus, <multilangLink>reikia įvykdyti keletą žingsnių iš anksto</multilangLink>. Pirmiausia, mes prašome išversti „Common Voice“ svetainę, kad ja galėtų naudotis ir joje talkininkauti visi jūsų bendruomenės nariai. Antra, būtina surinkti didelę bazę autoriaus teisėmis neapsaugotų frazių, kurias žmonės turės skaityti balsu. Kai abu šie reikalavimai patenkinami, kalba yra aktyvinama „Common Voice“ platformoje ir visi norintys gali dalyvauti, ja įrašydami balso įrašus bei tikrindami kitų įrašytas frazes. Jei norite prisidėti prie naujos kalbos įgalinimo, pradėkite, apsilankydami mūsų <sentenceCollectorLink>frazių kaupimo priemonėje</sentenceCollectorLink>.
 faq-what-quality-q = Kokios garso kokybės turi būti balso įrašas, kad jis būtų panaudotas duomenų rinkinyje?
 faq-what-quality-a = Mes siekiame, jog „Common Voice“ duomenų rinkinyje esantys įrašai ir jų kokybė atspindėtų kasdienybę, su kuria susiduria kalbos atpažinimo priemonės, todėl ieškome įvairovės. Duomenų rinkinys, pasižymintis didele ne tik didele kalbančiųjų, bet ir garso kokybės įvairove, padės balso atpažinimo priemonėms geriau susidoroti su realiomis situacijomis, tokiomis, kaip kalbėjimas toliau nuo mikrofono ar foninis automobilių triukšmas. Jei tik Tavo balso įrašą apskritai įmanoma suprasti, jis duomenų rinkiniui turėtų būti tinkamas.
 faq-why-10k-hours-q = Kodėl kiekvienos kalbos tikslas yra 10 000 patvirtintų valandų?
@@ -589,6 +589,7 @@ other-language = Kita kalba
 language-section-in-progress = Ruošiamos
 language-section-in-progress-new-description = Šios kalbos kol kas yra ruošiamos bendruomenės. Progreso juostos ties kiekviena kalba nurodo, kiek į ją yra <localizationGlossaryLink>lokalizuota ši svetainė</localizationGlossaryLink> ir kiek jai <sentenceCollectionGlossaryLink>surinkta frazių</sentenceCollectionGlossaryLink>.
 language-section-launched = Aktyvios
+language-section-launched-description = Aktyvios kalbos – tai tokios, į kurias sėkmingai <localizationGlossaryLink>lokalizuota</localizationGlossaryLink> ši svetainė ir kuriomis yra <sentenceCollectionGlossaryLink>sukaupta pakankamai frazių</sentenceCollectionGlossaryLink>, kad galima būtų užtikrinti tęstinę talką <speakLink>įrašant frazes</speakLink> ir <listenLink>perklausant įrašus</listenLink>.
 languages-show-more = Rodyti daugiau
 languages-show-less = Rodyti mažiau
 language-meter-in-progress = Eiga
@@ -609,6 +610,8 @@ listen = Klausyk
 skip = Praleisti
 shortcuts = Spartieji klavišai
 clips-with-count = <bold>{ $count }</bold> įrašų
+goal-help-recording = Tu padėjai „Common Voice“ pasiekti <goalPercentage></goalPercentage> mūsų kasdienio { $goalValue } naujų įrašų tikslo!
+goal-help-validation = Tu padėjai „Common Voice“ pasiekti <goalPercentage></goalPercentage> mūsų kasdienio { $goalValue } įrašų perklausų tikslo!
 contribute-more =
     { $count ->
         [one] Gal nori padėti dar { $count } fraze?
@@ -711,6 +714,9 @@ recorded-clips = Pateikti įrašai
 validated-clips = Patvirtinti įrašai
 total-approved = Iš viso patvirtinta
 overall-accuracy = Bendras tikslumas
+set-visibility = Nustatyti mano matomumą
+visibility-explainer = Ši parinktis kontroliuoja Tavo matomumą lyderių lentelėje. Pasirinkus „nerodyti“, Tavo pasiekimai nebus matomi kitiems. Tai reiškia, jog Tavo naudotojo vardas, pseudoportretas ir pažanga niekada nebus rodomi lyderių lentelėje. Atkreipiame dėmesį, jog lyderių lentelės atnaujinimas gali užtrukti apie { $minutes } min.
+visibility-overlay-note = Pastaba: savo sprendimą galėsi bet kada pakeisti <profileLink>savo profilyje</profileLink>
 show-ranking = Rodyti mano reitingą
 
 ## Custom Goals
@@ -730,11 +736,25 @@ want-to-continue = Ar nori tęsti?
 finish-editing = Pirma baigti redaguoti?
 lose-changes-warning = Jeigu išeisi dabar, prarasi ką tik įrašytas frazes
 build-custom-goal = Susikurk savo tikslą
+help-reach-hours =
+    { $hours ->
+        [one] Padėk pasiekti { NUMBER($hours) } valandos { $language } kalba – susikurk asmeninį tikslą
+        [few] Padėk pasiekti { NUMBER($hours) } valandų { $language } kalba – susikurk asmeninį tikslą
+       *[other] Padėk pasiekti { NUMBER($hours) } valandų { $language } kalba – susikurk asmeninį tikslą
+    }
+help-reach-hours-general =
+    { $hours ->
+        [one] Padėk „Common Voice“ pasiekti { NUMBER($hours) } valandos kuria nors kalba – susikurk asmeninį tikslą
+        [few] Padėk „Common Voice“ pasiekti { NUMBER($hours) } valandų kuria nors kalba – susikurk asmeninį tikslą
+       *[other] Padėk „Common Voice“ pasiekti { NUMBER($hours) } valandų kuria nors kalba – susikurk asmeninį tikslą
+    }
 set-a-goal = Užsibrėžti tikslą
 cant-decide = Negali apsispręsti?
 how-many-per-day = Puiku! Kiek įrašų per dieną?
 how-many-a-week = Puiku! Kiek įrašų per savaitę?
 which-goal-type = Nori šnekėti, kalbėti ar užsiimti abiem veiklomis?
+receiving-emails-info = Šiuo metu esi pasirinkęs (-usi) gauti tikslų priminimus, savo progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu
+not-receiving-emails-info = Šiuo metu esi pasirinkęs (-usi) <bold>NEGAUTI</bold> tikslų priminimų, savo progreso ataskaitų ir „Common Voice“ naujienlaiškių el. paštu
 n-clips =
     { $count ->
         [one] { NUMBER($count) } įrašas
