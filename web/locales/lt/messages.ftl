@@ -210,7 +210,7 @@ whats-public = Kas yra vieša?
 email-not-public = Mes neskelbsime Tavo el. pašto.
 recordings-and-locale-public = Įrašų skaičius ir kalbų, prie kurių prisidedi, sąrašas yra vieši.
 username-optin-public = Gali pasirinkti, ar Tavo naudotojo vardas bus matomas kitiems.
-demographic-deidentified = Jeigu pateiksi savo demografinius duomenis (tokius, kaip amžius, lytis, kalba ar tarmė), jie bus atsieti nuo tavo pateiktų garso įrašų ir niekada nebus skelbiami tavo profilyje.
+demographic-deidentified = Jeigu pateiksi savo demografinius duomenis (tokius, kaip amžius, lytis, kalba ar tarmė), jie bus atsieti nuo Tavo pateiktų garso įrašų ir niekada nebus skelbiami tavo profilyje.
 username-email-not-demographic = Tavo naudotojo vardas ir el. paštas nebus susieti su paskelbtais duomenimis.
 
 ## Speak & Listen Shortcuts
@@ -284,7 +284,7 @@ female = Moteris
 # Gender
 other = Kita
 why-profile-title = Kokia profilio nauda?
-why-profile-text = Jei pateiksi truputį savo duomenų, tavo „Common Voice“ projektui pateikti garso įrašai bus naudingesni kalbos atpažinimo varikliams, kurie šiuos duomenis naudoja didesniam tikslumui pasiekti.
+why-profile-text = Jei pateiksi truputį savo duomenų, Tavo „Common Voice“ projektui pateikti garso įrašai bus naudingesni kalbos atpažinimo varikliams, kurie šiuos duomenis naudoja didesniam tikslumui pasiekti.
 dashboard = Skydelis
 build-profile = Kurti profilį
 avatar = Pseudoportretas
@@ -293,10 +293,10 @@ settings = Nuostatos
 edit-profile = Keisti profilį
 profile-create-success = Profilis sėkmingai sukurtas!
 profile-close = Užverti
-profile-explanation = Profilis tau padės sekti savo progresą, o mums – padaryti balso duomenų rinkinį tikslesniu.
+profile-explanation = Profilis Tau padės sekti savo progresą, o mums – padaryti balso duomenų rinkinį tikslesniu.
 thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo profilį.
 why-demographic = Kodėl tai svarbu?
-why-demographic-explanation = Nuasmeninti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su tavo garso įrašais. Be to, Tu gali priimti sprendimą, ar nori, jog Tavo naudotojo vardas būtų matomas svetainėje.
+why-demographic-explanation = Nuasmeninti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su Tavo garso įrašais. Be to, Tu gali priimti sprendimą, ar nori, jog Tavo naudotojo vardas būtų matomas svetainėje.
 accept-privacy = Sutinku, kad mano duomenys būtų tvarkomi kaip aprašyta „Mozillos“ <privacyLink>Privatumo nuostatuose</privacyLink>
 accept-privacy-title = Privatumo nuostatai
 login-identity = Prisijungimo tapatybė
@@ -313,7 +313,7 @@ on = Įjungta
 avatar-clip-title = Įgarsink savo profilį
 change-your-avatar-clip = Nori pakeisti savo balso įrašą?
 recording-in-progress = Vyksta balso įrašymas
-avatar-clip-recorded = Nuo šiol tavo profilyje bus ir balso įrašas!
+avatar-clip-recorded = Nuo šiol Tavo profilyje bus ir balso įrašas!
 record-voice-wave = ĮRAŠYTI BALSĄ
 retry-voice-wave-recording = KARTOTI
 re-record = ĮRAŠYTI IŠ NAUJO
@@ -328,7 +328,7 @@ about-avatar-clip-recording = Įgarsink savo pseudoportretą balsu. Kiti galės 
 browse-file-title = Įkelk paveiksliuką
 browse-file = Užtempk norimą failą čia arba <browseWrap>parink iš kompiuterio</browseWrap>
 connect-gravatar = Naudoti „Gravatar“ tarnybą
-gravatar_not_found = „Gravatar“ neturi su tavo el. paštu susieto pseudoportreto
+gravatar_not_found = „Gravatar“ neturi su Tavo el. paštu susieto pseudoportreto
 file_too_large = Pasirinktas failas yra per didelis
 manage-subscriptions = Tvarkyti prenumeratas
 manage-email-subscriptions = Tvarkyti el. pašto prenumeratas
@@ -346,11 +346,11 @@ faq-what-cv-a =
     Mes kaupiame balso įrašus ne tik plačiai vartojamose, bet ir mažiau kalbėtojų turinčiose kalbose. Įvairių balsų rinkinių publikavimas įgalins kūrėjus, verslininkus ir bendruomenes spręsti šią problemą. Be „Common Voice“ balso duomenų rinkinių, mes taip pat kuriame atvirojo kodo balso atpažinimo variklį „Deep Speech“.
 faq-why-important-q = Kodėl tai svarbu?
 faq-why-important-a =
-    Kalba yra vienas natūraliausių tarpusavio bendravimo būdų, kurį garso technologijos sugeba puikiai perteikti mūsų kompiuteriams bei mobiliesiems įrenginiams. Mes norime suteikti programuotojams galimybę kurti balso atpažinimu paremtas programas, tokias, kaip vertimo tikruoju laiku sistemos ar balsu valdomi virtualūs padejėjai. Deja, tokiai programinei įrangai reikalingi duomenys dažniausiai yra privatūs ar itin brangūs. Tikime, kad „Common Voice“ duomenų rinkinys padės programuotojams ir kūrėjams pritaikyti balso atpažinimo technologijas gimtajai kalbai.
+    Kalba yra vienas natūraliausių tarpusavio bendravimo būdų, kurį garso technologijos sugeba puikiai perteikti mūsų kompiuteriams bei mobiliesiems įrenginiams. Mes norime suteikti programuotojams galimybę kurti balso atpažinimu paremtas programas, tokias, kaip vertimo tikruoju laiku sistemos ar balsu valdomi virtualūs pagalbininkai. Deja, tokiai programinei įrangai reikalingi duomenys dažniausiai yra nuosavybiniai ar itin brangūs. Tikime, kad „Common Voice“ duomenų rinkinys padės programuotojams ir kūrėjams pritaikyti balso atpažinimo technologijas gimtajai kalbai.
     
     Kad balso atpažinimo technologijos taptų dar prieinamesnės, mes kaupiame ne tik didžiausių, bet ir rečiau vartojamų kalbų balso pavyzdžius – kalbų, į kurias komercinės programinės įrangos kūrėjai dažniau neatsižvelgia. Sukūrus didelės įvairovės balso duomenų bazę, programuotojai, verslininkai ir bendruomenės, kurias vienija bendra kalba, galės savarankiškai spręsti šią problemą.
 faq-how-get-q = Kaip galiu gauti „Common Voice“ duomenis?
-faq-how-get-a = „Common Voice“ duomenų rinkinys platinamas pagal <licenseLink>CC0</licenseLink> licenciją, Jį, kaip ir keletą kitų viešai prieinamų duomenų rinkinių, galima parsisiųsti iš <datasetLink>mūsų Duomenų rinkinių tinlalapio</datasetLink>.
+faq-how-get-a = „Common Voice“ duomenų rinkinys platinamas pagal <licenseLink>CC0</licenseLink> licenciją, Jį, kaip ir keletą kitų viešai prieinamų duomenų rinkinių, galima parsisiųsti iš <datasetLink>mūsų Duomenų rinkinių tinklalapio</datasetLink>.
 faq-when-release2-q = Kada išleisite „Common Voice“  duomenis kitomis kalbomis?
 faq-when-release2-a = Daugiakalbė „Common Voice“ duomenų rinkinio versija šiuo metu brandinama ir rengiama mūsų bendruomenės narių. Jeigu nori „Common Voice“ rinkinyje matyti daugiau kalbų, aplankyk mūsų <sentenceCollectorLink>frazių kaupimo priemonę</sentenceCollectorLink>, kurioje galėsi į pasiūlyti naujų frazių įrašymui, bei „Mozillos“ <pontoonLink>„Pontoon“</pontoonLink> įrankį, naudojamą šiai svetainei versti. Nauja kalba „Common Voice“ svetainėje įgalinama, kai ja sukaupiama bent 5000 patikrintų frazių.
 faq-why-mission-q = Kodėl  „Common Voice“ yra „Mozillos“ misijos dalis?
@@ -360,26 +360,26 @@ faq-what-cv-and-deepspeech-a = „Common Voice“ duomenų rinkinys papildo „M
 faq-is-goal-assistant-q = Ar „Common Voice“ tikslas – sukurti balso asistentą?
 faq-is-goal-assistant-a = „Common Voice“  tikslas – suteikti galimybę kiekvienam sukurti kalbos atpažinimo, kalbėtojo atpažinimo ar kito tipo kalbos kalbos duomenų reikalaujančias programas. Balso asistentas – tik vienas iš daugybės tipų programų, kurias galima kurti, pasinaudojant „Common Voice“ duomenimis.
 faq-do-want-native-q = Tai nėra mano gimtoji kalba, kalbu su akcentu, ar mano balsas vis tiek reikalingas?
-faq-do-want-native-a = Taip, tavo indėlis ypač pageidaujamas! Vienas „Common Voice“ tikslų yra surinkti įrašų kuo įvairesniais akcentais ir tarmėmis, siekiant, kad balso atpažinimas vienodai veiktų visiems. Tai reiškia, jog įrašai ne gimtąja kalba yra ypatingai svarbūs.
+faq-do-want-native-a = Taip, Tavo indėlis ypač pageidaujamas! Vienas „Common Voice“ tikslų yra surinkti įrašų kuo įvairesniais akcentais ir tarmėmis, siekiant, kad balso atpažinimas vienodai veiktų visiems. Tai reiškia, jog įrašai ne gimtąja kalba yra ypatingai svarbūs.
 faq-why-different-speakers-q = Kodėl jums reikia tiek daug skirtingų kalbančiųjų?
 faq-why-different-speakers-a =
     Dauguma kalbos duomenų bazių yra apmokomos, neišlaikant proporcijų tarp atskirų demografinių grupių. Todėl atsiranda šališkumas <articleLink> viduriniosios klasės atstovų ir vyrų</articleLink> atžvilgiu. Tarmės, akcentai ir dialektai, dažniausiai nepakankamai atstovaujami apmokymo duomenų rinkiniuose, dažnai yra susiję su jau ir taip marginalizuotomis žmonių grupėmis. Dažnai įrenginiai nesugeba gerai suprasti moterų balsų.
     Todėl mūsų balsų duomenų bazėje siekiama įvairovės!
 faq-why-my-lang-q = Kodėl mano kalba dar neįtraukta?
-faq-why-my-lang-new-a = „Mozilla“ neteikia pirmenybės vienoms kalboms prieš kitas. „Common Voice“ yra bendruomeninė iniciatyva, tačiau norint į sąrašą įtraukti naują kalbą ir pradėti kaupti balso įrašus, <multilangLink>reikia įvykdyti keletą žingsnių iš anksto</multilangLink>. Pirmiausia, mes prašome išversti „Common Voice“ svetainę, kad ja galėtų naudotis ir joje talkininkauti visi jūsų bendruomenės nariai. Antra, būtina surinkti didelę bazę autoriaus teisėmis neapsaugotų frazių, kurias žmonės turės skaityti balsu. Kai abu šie reikalavimai patenkinami, kalba yra aktyvinama „Common Voice“ platformoje ir visi norintys gali dalyvauti, ja įrašydami balso įrašus bei tikrindami kitų įrašytas frazes. Jei nori prisidėti prie naujos kalbos įgalinimo, pradėk, apsilankydamas (-a) mūsų <sentenceCollectorLink>frazių kaupimo priemonėje</sentenceCollectorLink>.
+faq-why-my-lang-new-a = „Mozilla“ neteikia pirmenybės vienoms kalboms prieš kitas. „Common Voice“ yra bendruomeninė iniciatyva, tačiau norint į sąrašą įtraukti naują kalbą ir pradėti kaupti balso įrašus, <multilangLink>reikia įvykdyti keletą žingsnių iš anksto</multilangLink>. Pirmiausia, mes prašome išversti „Common Voice“ svetainę, kad ja galėtų naudotis ir joje talkininkauti visi jūsų bendruomenės nariai. Antra, būtina surinkti didelę bazę autoriaus teisėmis neapsaugotų frazių, kurias žmonės turės skaityti balsu. Kai abu šie reikalavimai patenkinami, kalba yra aktyvinama „Common Voice“ platformoje ir visi norintys gali dalyvauti, ja įrašydami balso įrašus bei tikrindami kitų įrašytas frazes. Jei nori prisidėti prie naujos kalbos įgalinimo, pradėk, apsilankydama(s) mūsų <sentenceCollectorLink>frazių kaupimo priemonėje</sentenceCollectorLink>.
 faq-what-quality-q = Kokios garso kokybės turi būti balso įrašas, kad jis būtų panaudotas duomenų rinkinyje?
 faq-what-quality-a = Mes siekiame, jog „Common Voice“ duomenų rinkinyje esantys įrašai ir jų kokybė atspindėtų kasdienybę, su kuria susiduria kalbos atpažinimo priemonės, todėl ieškome įvairovės. Duomenų rinkinys, pasižymintis didele ne tik didele kalbančiųjų, bet ir garso kokybės įvairove, padės balso atpažinimo priemonėms geriau susidoroti su realiomis situacijomis, tokiomis, kaip kalbėjimas toliau nuo mikrofono ar foninis automobilių triukšmas. Jei tik Tavo balso įrašą apskritai įmanoma suprasti, jis duomenų rinkiniui turėtų būti tinkamas.
 faq-why-10k-hours-q = Kodėl kiekvienos kalbos tikslas yra 10 000 patvirtintų valandų?
-faq-why-10k-hours-a = Apytikslis valandų skaičius reikalingas naudojimui tinkamos kalbos atpažinimo sistemos apmokymui.
+faq-why-10k-hours-a = Nes tai – apytikslis valandų skaičius reikalingas naudojimui tinkamos kalbos atpažinimo sistemos apmokymui.
 faq-how-calc-hours-q = Kaip „Common Voice“ apskaičiuoja valandas?
 faq-how-calc-hours-a = Valandų kiekį skaičiuojame įvertinę vidutinį kiekvieno įrašo ilgį ir jį padaugindami iš įrašų visomis kalbomis kiekio.
-faq-where-src-from-2-q = Iš kur gaunamas šaltinio tekstas?
+faq-where-src-from-2-q = Koks yra pirminis projekte naudojamų frazių šaltinis?
 faq-where-src-from-2-a =
     Mūsų frazyną sudaro talkininkų sugalvotos ir pasiūlytos frazės bei dialogų transkripcijos iš viešo naudojimo filmų, tokių, kaip <italic>„Tai nuostabus gyvenimas“</italic> (angl. „It’s a Wonderful Life“).
     
     Frazių sąrašus galima rasti šiame <githubLink>„GitHub“ aplanke</githubLink>.
 faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipedijos“ straipsnių įvairiomis kalbomis?
-faq-why-not-ask-read-a = Siekdami, kad „Common Voice“ duomenų rinkinys turėtų kuo mažiau suvaržymų, mes nusprendėme, jog pirmines frazes priimsime tik tuomet, jei jomis galima naudotis pagal „Creative Commons (CC0)“ licenciją. Šis pasirinkimas lemia, jog rinkti ir kaupti frazyną tampa sunkiau, tačiau kiekvienas norintis galės naudotis jo pagalba parengtais balso duomenimis, nesirūpindamas naudojimosi apribojimais ar „Mozillos“ leidimais. Mes siekiame, jog daugiakalbis „Common Voice“ duomenų rinkinys būtų kuo naudingesnis visiems – mokslininkams, universitetams, startuoliams, valstybinėms įraigoms, nevyriausybinėms organizacijoms, pavieniams entuziastams ir kitiems.
+faq-why-not-ask-read-a = Siekdami, kad „Common Voice“ duomenų rinkinys turėtų kuo mažiau suvaržymų, mes nusprendėme, jog pirmines frazes priimsime tik tuomet, jei jomis galima naudotis pagal „Creative Commons (CC0)“ licenciją. Šis pasirinkimas lemia, jog rinkti ir kaupti frazyną tampa sunkiau, tačiau kiekvienas norintis galės naudotis jo pagalba parengtais balso duomenimis, nesirūpindamas naudojimosi apribojimais ar „Mozillos“ leidimais. Mes siekiame, jog daugiakalbis „Common Voice“ duomenų rinkinys būtų kuo naudingesnis visiems – mokslininkams, universitetams, startuoliams, valstybinėms įstaigoms, nevyriausybinėms organizacijoms, pavieniams entuziastams ir kitiems.
 faq-why-account-q = Kodėl turėčiau susikurti paskyrą?
 faq-is-account-public-q = Ar mano paskyros informacija yra vieša?
 faq-how-privacy-q = Kaip užtikrinate savo balsu pasidalinusių asmenų privatumą ir anonimiškumą?
@@ -441,19 +441,19 @@ mycroft-subtitle = Dirbtinis intelektas
 mycroft-description =
     „Mycroft“ yra pirmasis pasaulyje atvirojo kodo asistentas.
     „Mycroft“ gali veikti visur – kompiuteryje, automobilyje ar „Raspberry Pi“ įrenginyje.
-mycroft-secondary-description = Tai – atvirojo kodo programinė įranga, kurią galima keisti, plėsti ir tobulinti savo nuožiūra. „Mycroft“ gali būti naudojama bet kur – nuo mokyklinių projektų iki didžiulėms korporacijoms skirtos programinės įrangos.
+mycroft-secondary-description = Tai – atvirojo kodo programinė įranga, kurią galima keisti, plėsti ir tobulinti savo nuožiūra. „Mycroft“ gali būti naudojama bet kur – nuo mokyklinių projektų iki tarptautinėms korporacijoms skirtos programinės įrangos.
 
 ## Glossary
 
 glossary = Terminai
 localization = Lokalizavimas
-localization-explanation = procesas, kurio metu išverčiamas ir pritaikomas daugeliui kalbų bei šalių svetainės turinys.
-sentence-collection = Frazių rinkimas
-sentence-collection-explanation = Nesaugomų autoriaus teisėmis frazių kaupimas ir kūrimas.
-hours-recorded-explanation = iki šiol balsu įrašytų valandų kiekis.
-hours-validated-explanation = Bendra įrašų, kuriuos kaip tikslius ir tinkamus patvirtino bent du iš trijų naudotojų, trukmė. Šis skaičius atspindi, kiek yra pažengta link projekto iškelto 10 tūkstančių valandų tikslo.
+localization-explanation = Procesas, kurio metu išverčiamas ir pritaikomas daugeliui kalbų bei šalių šios svetainės turinys.
+sentence-collection = Frazių kaupimas
+sentence-collection-explanation = Nesaugomų autoriaus teisėmis frazių rinkimas ir kūrimas.
+hours-recorded-explanation = Iki šiol balsu įrašytų valandų kiekis.
+hours-validated-explanation = Bendra įrašų, kuriuos kaip tikslius ir tinkamus patvirtino bent du iš trijų naudotojų, trukmė. Šis skaičius atspindi, kiek yra pažengta link projekto iškelto 10 tūkstančių valandų tikslo.
 sst = Šnekos atpažinimas
-sst-explanation = šnekos atpažinimo technologijos balso duomenis paverčia tekstu.
+sst-explanation = Šnekos atpažinimo technologijos balso duomenis paverčia tekstu.
 de-identified = Nuasmeninimas
 de-identified-explanation = Procesas, kurio metu talkininko ar talkininkės profilio duomenys yra atsiejami nuo jo ar jos atliktų balso įrašų prieš šiuos duomenis supakuojant ir pateikiant atsisiuntimui duomenų rinkinyje.
 
@@ -475,7 +475,7 @@ data-get-started = <speechBlogLink>Pradėk naudoti kalbos atpažinimą</speechBl
 data-other-title = Kiti balso duomenų rinkiniai…
 data-other-goto = Eiti į { $name }
 data-other-download = Parsisiųsti duomenis
-data-bundle-button = Atsisiųsti duomenų rinkinius
+data-bundle-button = Parsisiųsti duomenų rinkinius
 data-bundle-description = „Common Voice“ ir visi aukščiau nurodyti duomenų rinkiniai.
 license = Licencija: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mišri
@@ -484,7 +484,7 @@ terms-agree = Sutinku
 terms-disagree = Nesutinku
 review-aborted = Įkėlimas atšauktas. Ar nori pašalinti savo įrašus?
 review-submit-title = Peržiūrėti ir pateikti
-review-submit-msg = Kol kas įrašymas baigtas! <lineBreak> </lineBreak>Dabar peržiūrėk ir pateik savo įrašus žemiau.
+review-submit-msg = Kol kas įrašymas baigtas!<lineBreak></lineBreak>Dabar peržiūrėk ir pateik savo įrašus žemiau.
 review-recording = Peržiūrėti
 review-rerecord = Įrašyti iš naujo
 review-cancel = Atšaukti indėlį
@@ -495,7 +495,7 @@ review-delete-recordings = Pašalinti mano įrašus
 
 datasets-headline = Mes kuriame atvirojo kodo daugiakalbį balsų duomenų rinkinį, kurį kiekvienas gali naudoti kalbą atpažįstančioms programoms mokyti.
 datasets-positioning =
-    Tikime, jog dideli, viešai prieinami balso duomenų rinkiniai skatina inovacijas bei sveiką konkurenciją balso technologijų sferoje.
+    Tikime, jog dideli, viešai prieinami balso duomenų rinkiniai skatina inovacijas ir sveiką konkurenciją balso technologijų sferoje.
     
     „Common Voice“ daugiakalbis duomenų rinkinys jau dabar yra didžiausias viešai prieinamas tokio pobūdžio balso duomenų rinkinys, tačiau jis nėra vienintelis.
     
@@ -509,9 +509,9 @@ cv-license = Licencija
 audio-format = Garso formatas
 number-of-voices = Balsų kiekis
 splits = Sudėtis
-email-to-download = Įvesk el. paštą parsisiuntimui
-why-email = <b>Kodėl el. paštas?</b> Ateityje galbūt norėsime su tavimi susisiekti dėl duomenų rinkinio pakeitimų. El. paštas suteikia galimybę tai padaryti.
-confirm-size = Esi pasirengęs pradėti siųstis <b>{ $size }</b> duomenų
+email-to-download = Įvesk el. paštą parsisiuntimui
+why-email = <b>Kodėl el. paštas?</b> Ateityje galbūt norėsime su Tavimi susisiekti dėl duomenų rinkinio pakeitimų. El. paštas suteikia galimybę tai padaryti.
+confirm-size = Pasirengta pradėti siųstis <b>{ $size }</b> duomenų
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Tu sutinki</b> nebandyti nustatyti „Common Voice“ kalbėtojų tapatybės
@@ -560,7 +560,7 @@ dataset-version = Versija
 ## Download Modal
 
 download-title = Parsiuntimas prasidėjo.
-download-helpus = Padėk mums kurti balto technologijų bendruomenę, palaikykime ryšį el. paštu.
+download-helpus = Padėk mums kurti balso technologijų bendruomenę – palaikykime ryšį el. paštu.
 download-form-email =
     .label = Įvesk savo el. paštą
     .value = Ačiū, susisieksime su jumis.
@@ -582,7 +582,7 @@ request-language-title = Prašymas aktyvinti kalbą
 request-language-form-language =
     .label = Kalba
 request-language-success-title = Prašymas sėkmingai pateiktas, dėkojame.
-request-language-success-content = Netrukus su tavimi susisieksime ir papasakosime, kaip pridėti tavo norimą kalbą į „Common Voice“.
+request-language-success-content = Netrukus su Tavimi susisieksime ir papasakosime, kaip pridėti tavo norimą kalbą į „Common Voice“.
 select-language = Pasirink kalbą…
 other-language = Kita kalba
 
