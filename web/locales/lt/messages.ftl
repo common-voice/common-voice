@@ -598,7 +598,7 @@ language-meter-in-progress = Eiga
 language-total-progress = Iš viso
 language-search-input =
     .placeholder = Ieškoti
-language-speakers = Diktorių
+language-speakers = Kalbėtojų
 localized = Lokalizuota
 sentences = Frazės
 total-hours = Patvirtinta valandų
@@ -611,7 +611,12 @@ contribute = Prisidėti
 listen = Klausyk
 skip = Praleisti
 shortcuts = Spartieji klavišai
-clips-with-count = <bold>{ $count }</bold> įrašų
+clips-with-count =
+    { $count ->
+        [one] <bold>{ $count }</bold> įrašas
+        [few] <bold>{ $count }</bold> įrašai
+       *[other] <bold>{ $count }</bold> įrašų
+    }
 goal-help-recording = Tu padėjai „Common Voice“ pasiekti <goalPercentage></goalPercentage> mūsų kasdienio { $goalValue } naujų įrašų tikslo!
 goal-help-validation = Tu padėjai „Common Voice“ pasiekti <goalPercentage></goalPercentage> mūsų kasdienio { $goalValue } įrašų perklausų tikslo!
 contribute-more =
@@ -623,12 +628,12 @@ contribute-more =
 record-cta = Pradėk įrašymą
 record-platform-not-supported = Atsiprašome, Tavo platforma kol kas nepalaikoma.
 record-platform-not-supported-desktop = Staliniam kompiuteriui gali parsisiųsti naujausią:
-record-platform-not-supported-ios = <bold>iOS</bold>naudotojai gali parsisiųsti nemokamą programėlę:
+record-platform-not-supported-ios = <bold>„iOS“</bold>naudotojai gali parsisiųsti nemokamą programėlę:
 record-must-allow-microphone = Turi suteikti prieigą prie mikrofono.
-record-no-mic-found = Mikrofonas nerastas.
-record-error-too-short = Įrašas buvo per trumpas.
-record-error-too-long = Įrašas buvo per ilgas.
-record-error-too-quiet = Įrašas buvo per tylus.
+record-no-mic-found = Mikrofonas neaptiktas.
+record-error-too-short = Įrašas per trumpas.
+record-error-too-long = Įrašas per ilgas.
+record-error-too-quiet = Įrašas per tylus.
 record-cancel = Atsisakyti pakartotinio įrašymo
 record-instruction = { $actionType }<recordIcon></recordIcon> ir balsu perskaityk frazę
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kai baigsi
@@ -645,8 +650,8 @@ record-abort-text = Jeigu išeisi dabar, prarasi ką tik įrašytas frazes
 record-abort-submit = Pateikti įrašus
 record-abort-continue = Tęsti įrašymą
 record-abort-delete = Išeiti ir atmesti įrašus
-listen-instruction = { $actionType }<playIcon></playIcon>. Ar diktorius teisingai perskaitė frazę?
-listen-again-instruction = Šaunu! <playIcon></playIcon> Kai galėsi, klausyk vėl
+listen-instruction = { $actionType }<playIcon></playIcon>. Ar kalbėtojas teisingai perskaitė frazę?
+listen-again-instruction = Šaunu!<playIcon></playIcon> Kai galėsi, klausyk vėl
 listen-3rd-time-instruction = Du įrašai išklausyti, taip ir toliau!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Paskutinis!
 nothing-to-validate = Neturime jokių frazių šia kalba, kurias galėtum patvirtinti – padėk tai pakeisti.
@@ -687,7 +692,7 @@ days =
     }
 recordings =
     { $count ->
-        [one] Įrašas
+        [one] įrašas
         [few] įrašai
        *[other] įrašų
     }
