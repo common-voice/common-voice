@@ -1,11 +1,11 @@
 ## General
 
-yes-receive-emails = Taip, siųskite man el. laiškus. Noriu gauti „Common Voice“ projekto naujienas.
-stayintouch = Mes „Mozilloje“ buriame balso technologijų bendruomenę. Norėtume su tavimi dalintis naujienomis ir duomenų šaltiniais bei sužinoti, kaip tau seksis naudotis mūsų duomenimis.
+yes-receive-emails = Taip, siųskite man el. laiškus. Noriu gauti „Common Voice“ projekto naujienas.
+stayintouch = Mes „Mozilloje“ buriame balso technologijų bendruomenę. Norėtume su Tavimi dalintis naujienomis ir duomenų šaltiniais bei sužinoti, kaip Tau seksis naudotis mūsų duomenimis.
 privacy-info = Pažadame tvarkyti Tavo informaciją atsargiai. Daugiau informacijos rasi mūsų <privacyLink>Privatumo pranešime</privacyLink>.
 return-to-cv = Grįžti į „Common Voice“
 email-input =
-    .label = El. paštas
+    .label = El. paštas
 submit-form-action = Pateikti
 loading = Įkeliama…
 email-opt-in-info = Norėčiau gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
