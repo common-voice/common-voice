@@ -110,6 +110,7 @@ sl = Slovėnų
 sq = Albanų
 sr = Serbų
 sv-SE = Švedų
+sw = Svahilių
 syr = Sirų
 ta = Tamilų
 te = Telugų
@@ -204,6 +205,7 @@ x-years-short =
 help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą balso duomenų rinkinį
 sign-up-account = Užsiregistruok ir susikurk paskyrą
 email-subscription-title = Gauk naujienas el. paštu
+email-subscription-title-new = Prisiregistruok „Common Voice“ naujienlaiškiams, tikslų priminimams ir pažangos pranešimams
 
 ## Account Benefits
 
@@ -320,6 +322,9 @@ skip-submission-description = Pateikus indėlį (paspaudus mygtuką „Pateikti�
 skip-submission-note = Pastaba: jeigu norėsi pakeisti indėlio tipą, ir toliau galėsi pasinaudoti saitais „Kalbėk“ ir „Klausyk“.
 off = Išjungta
 on = Įjungta
+avatar-clip-title = Įgarsink savo profilį
+change-your-avatar-clip = Nori pakeisti savo balso įrašą?
+recording-in-progress = Vyksta balso įrašymas
 ready-to-upload = ĮKELTI
 cancel-avatar-clip-recording = ATSISAKYTI
 browse-file-title = Įkelk paveiksliuką
