@@ -392,8 +392,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kodėl „Common Voice“?
+about-header-description =
+    Kuriame šiuos projektus, nes norime sumažinti skaitmeninės kalbos atskirtį. Kalbos atpažinimo technologijos priartina mūsų naudojamus įrenginius prie mūsų pačių, tačiau jų kūrimui reikia daug kalbinių duomenų, kurių didžioji dalis yra brangi ar privati.
+    Norime, jog balso duomenys būtų viešai prieinami bei atspindėtų tikrąją žmonių įvairovę. Kartu galime kalbos atpažinimą paversti geresniu visiems.
 how-does-it-work-title = Kaip tai veikia?
 about-speak = Balso įrašymas
+about-speak-text = Talkininkai kuria balso įrašus, skaitydami pateiktas frazes.
 about-listen-queue = Perklausymo eilė
 about-listen = Perklausymas
 about-is-it-valid = Ar įrašas tinkamas?
@@ -402,10 +406,15 @@ about-yes-votes = ≥ 2 balsai „Taip“
 about-yes-votes-text = Kad balso įrašas būtų įtrauktas į „Common Voice“ duomenų rinkinį, jį turi patvirtinti du atskiri naudotojai.
 about-no-votes = ≥ 2 balsai „Ne“
 about-dataset-new = „Common Voice“ duomenų rinkinys
+about-dataset-new-text = „Common Voice“ duomenų rinkinyje yra šimtai tūkstančių balso pavyzdžių, kurių pagalba galima kurti balso atpažinimo įrankius.
 about-clip-graveyard = Įrašų kapinės
 about-clip-graveyard-text = Įrašų kapines sudaro balso įrašai, nepatekę į „Common Voice“ duomenų rinkinį, tačiau juose esančius duomenis irgi galima atsisiųsti.
 about-partners = Partneriai
 about-become-a-partner = Tapk partneriu
+about-partnership =
+    „Common Voice“ yra bendruomeninis projektas. Kurdami didžiausią atvirojo kodo balso duomenų rinkinį, mes pasikliauname savo bendruomene.
+    
+    Norėtume padėkoti šiems asmenims ir organizacijoms už jų pagalbą įgyvendinant projektą:
 about-get-involved = Įsitrauk
 about-nav-why-common-voice = Kodėl?
 about-nav-how-it-works = Kaip?
@@ -440,6 +449,9 @@ data-download-yes = Taip
 data-download-deny = Ne
 data-download-license = Licencija: <licenseLink>CC-0</licenseLink>
 data-download-modal = Bus pradėtas <size>{ $size } GB</size> atsisiuntimas. Ar tęsti?
+data-subtitle = Kuriame atvirą, viešai prieinamą kalbos duomenų rinkinį, kurį kiekvienas gali pasitelkti kurdami kalbines technologijas naudojančias priemones.
+data-explanatory-text = Tikime, jog dideli, viešai prieinami baso duomenų rinkiniai skatina inovacijas bei sveiką konkurenciją balso technologijų sferoje. Tai yra pasaulinis projektas – kviečiame prisijungti visus. Mūsų tikslas padėti kalbos technologijoms būti labiau įtraukiančiomis bei atspindėti pasaulio balsų įvairovę.
+data-get-started = <speechBlogLink>Pradėk naudoti kalbos atpažinimą</speechBlogLink>
 data-other-title = Kiti balso duomenų rinkiniai…
 data-other-goto = Eiti į { $name }
 data-other-download = Parsisiųsti duomenis
@@ -472,6 +484,7 @@ audio-format = Garso formatas
 number-of-voices = Balsų kiekis
 splits = Sudėtis
 email-to-download = Įvesk el. paštą parsisiuntimui
+why-email = <b>Kodėl el. paštas?</b> Ateityje galbūt norėsime su tavimi susisiekti dėl duomenų rinkinio pakeitimų. El. paštas suteikia galimybę tai padaryti.
 confirm-size = Esi pasirengęs pradėti siųstis <b>{ $size }</b> duomenų
 size-gigabyte = GB
 size-megabyte = MB
@@ -491,6 +504,7 @@ data-other-librispeech-description = „LibriSpeech“ yra maždaug 1000 valand�
 data-other-ted-name = „TED-LIUM“ rinkinys
 data-other-ted-description = „TED-LIUM“ rinkinys sukurtas panaudojant „TED“ svetainėje esančias prakalbas ir jų nuorašus.
 data-other-voxforge-description = „VoxForge“ projektas įkurtas siekiant kaupti transkribuotus balso įrašus naudojimui laisvuosiuose ir atvirojo kodo kalbos atpažinimo varikliuose.
+your-feedback = Turi idėjų, kaip patobulinti „Common Voice“ duomenų rinkinį? Papasakok mums apie tai „Discourse“ diskusijoje
 go-discourse = Eiti į „Discourse“
 missing-language = Nematai savo kalbos duomenų rinkinyje? Jeigu nori paprašyti kalbos, apsilankyk mūsų kalbų tinklalapyje.
 go-languages-page = Eiti į kalbų tinklalapį
@@ -512,6 +526,7 @@ download-no = Ne, ačiū
 
 ## Contact Modal
 
+contact-title = Susisiek
 contact-form-name =
     .label = Vardas
 contact-form-message =
@@ -591,15 +606,20 @@ listen-last-time-instruction = <playIcon></playIcon>Paskutinis!
 nothing-to-validate = Neturime jokių frazių šia kalba, kurias galėtum patvirtinti – padėk tai pakeisti.
 record-button-label = Įrašyk savo balsą
 share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
+keep-track-profile = Sek savo pažangą profilyje
+login-to-get-started = Jeigu nori įsitraukti, prisijunk arba prisiregistruok
 
 ## Reporting
 
 report = Pranešti
+report-title = Siųsti pranešimą
 report-ask = Kokios su šiuo sakiniu susijusios problemos?
 report-offensive-language = Įžeidžianti kalba
+report-offensive-language-detail = Frazėje vartojama nepagarbi ar įžeidžianti leksika.
 report-grammar-or-spelling = Gramatinė / rašybos klaida
 report-grammar-or-spelling-detail = Sakinyje yra gramatinė arba rašybos klaida.
 report-different-language = Kita kalba
+report-different-language-detail = Frazė yra kita kalba, nei manoji.
 report-difficult-pronounce = Sunku ištarti
 report-difficult-pronounce-detail = Neįskaitoma ar sunkiai ištariama frazė ar žodžiai.
 report-offensive-speech = Įžeidžianti kalba
@@ -608,6 +628,7 @@ report-other-comment =
     .placeholder = Komentaras
 success = Atlikta
 continue = Tęsti
+report-success = Pranešimas sėkmingai išsiųstas
 
 ## Goals
 
@@ -655,6 +676,8 @@ show-ranking = Rodyti mano reitingą
 
 get-started-goals = Išsikelti tikslą
 create-custom-goal = Susikurk tikslą
+both-speak-and-listen = Ir tai, ir tai
+both-speak-and-listen-long = Ir kalbėti, ir klausyti
 daily-goal = Dienos tikslas
 weekly-goal = Savaitės tikslas
 easy-difficulty = Lengva
@@ -664,6 +687,14 @@ pro-difficulty = Pro
 lose-goal-progress-warning = Keičiant išsikeltą tikslą, galima prarasti esamą pažangą.
 want-to-continue = Ar nori tęsti?
 finish-editing = Pirma baigti redaguoti?
+lose-changes-warning = Jeigu išeisi dabar, prarasi ką tik įrašytas frazes
+build-custom-goal = Susikurk savo tikslą
+set-a-goal = Užsibrėžti tikslą
+cant-decide = Negali apsispręsti?
+how-many-per-day = Puiku! Kiek įrašų per dieną?
+how-many-a-week = Puiku! Kiek įrašų per savaitę?
+which-goal-type = Nori šnekėti, kalbėti ar užsiimti abiem veiklomis?
+n-clips = { NUMBER($count) } įrašai
 
 ## Profile Delete
 
