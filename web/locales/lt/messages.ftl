@@ -311,7 +311,7 @@ profile-close = Užverti
 profile-explanation = Profilis tau padės sekti savo progresą, o mums – padaryti balso duomenų rinkinį tikslesniu.
 thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo profilį.
 why-demographic = Kodėl tai svarbu?
-why-demographic-explanation = Anonimizuoti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su tavo garso įrašais. Be to, tu gali priimti sprendimą, ar nori, jog tavo naudotojo vardas būtų matomas svetainėje.
+why-demographic-explanation = Nuasmeninti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su tavo garso įrašais. Be to, Tu gali priimti sprendimą, ar nori, jog Tavo naudotojo vardas būtų matomas svetainėje.
 accept-privacy = Sutinku, kad mano duomenys būtų tvarkomi kaip aprašyta „Mozillos“ <privacyLink>Privatumo nuostatuose</privacyLink>
 accept-privacy-title = Privatumo nuostatai
 login-identity = Prisijungimo tapatybė
@@ -455,6 +455,7 @@ mycroft-subtitle = Dirbtinis intelektas
 mycroft-description =
     „Mycroft“ yra pirmasis pasaulyje atvirojo kodo asistentas.
     „Mycroft“ gali veikti visur – kompiuteryje, automobilyje ar „Raspberry Pi“ įrenginyje.
+mycroft-secondary-description = Tai – atvirojo kodo programinė įranga, kurią galima keisti, plėsti ir tobulinti savo nuožiūra. „Mycroft“ gali būti naudojama bet kur – nuo mokyklinių projektų iki didžiulėms korporacijoms skirtos programinės įrangos.
 
 ## Glossary
 
@@ -462,10 +463,13 @@ glossary = Terminai
 localization = Lokalizavimas
 localization-explanation = procesas, kurio metu išverčiamas ir pritaikomas daugeliui kalbų bei šalių svetainės turinys.
 sentence-collection = Frazių rinkimas
+sentence-collection-explanation = Nesaugomų autoriaus teisėmis frazių kaupimas ir kūrimas.
 hours-recorded-explanation = iki šiol balsu įrašytų valandų kiekis.
+hours-validated-explanation = Bendra įrašų, kuriuos kaip tikslius ir tinkamus patvirtino bent du iš trijų naudotojų, trukmė. Šis skaičius atspindi, kiek yra pažengta link projekto iškelto 10 tūkstančių valandų tikslo.
 sst = Šnekos atpažinimas
 sst-explanation = šnekos atpažinimo technologijos balso duomenis paverčia tekstu.
-de-identified = Anonimizuota
+de-identified = Nuasmeninimas
+de-identified-explanation = Procesas, kurio metu talkininko ar talkininkės profilio duomenys yra atsiejami nuo jo ar jos atliktų balso įrašų prieš šiuos duomenis supakuojant ir pateikiant atsisiuntimui duomenų rinkinyje.
 
 ## NotFound
 
@@ -480,7 +484,7 @@ data-download-deny = Ne
 data-download-license = Licencija: <licenseLink>CC-0</licenseLink>
 data-download-modal = Bus pradėtas <size>{ $size } GB</size> atsisiuntimas. Ar tęsti?
 data-subtitle = Kuriame atvirą, viešai prieinamą kalbos duomenų rinkinį, kurį kiekvienas gali pasitelkti kurdami kalbines technologijas naudojančias priemones.
-data-explanatory-text = Tikime, jog dideli, viešai prieinami baso duomenų rinkiniai skatina inovacijas bei sveiką konkurenciją balso technologijų sferoje. Tai yra pasaulinis projektas – kviečiame prisijungti visus. Mūsų tikslas padėti kalbos technologijoms būti labiau įtraukiančiomis bei atspindėti pasaulio balsų įvairovę.
+data-explanatory-text = Tikime, jog dideli, viešai prieinami balso duomenų rinkiniai skatina inovacijas bei sveiką konkurenciją balso technologijų sferoje. Tai yra pasaulinis projektas – kviečiame prisijungti visus. Mūsų tikslas padėti kalbos technologijoms būti labiau įtraukiančiomis bei atspindėti pasaulio balsų įvairovę.
 data-get-started = <speechBlogLink>Pradėk naudoti kalbos atpažinimą</speechBlogLink>
 data-other-title = Kiti balso duomenų rinkiniai…
 data-other-goto = Eiti į { $name }
@@ -504,6 +508,12 @@ review-delete-recordings = Pašalinti mano įrašus
 ## Datasets Page
 
 datasets-headline = Mes kuriame atvirojo kodo daugiakalbį balsų duomenų rinkinį, kurį kiekvienas gali naudoti kalbą atpažįstančioms programoms mokyti.
+datasets-positioning =
+    Tikime, jog dideli, viešai prieinami balso duomenų rinkiniai skatina inovacijas bei sveiką konkurenciją balso technologijų sferoje.
+    
+    „Common Voice“ daugiakalbis duomenų rinkinys jau dabar yra didžiausias viešai prieinamas tokio pobūdžio balso duomenų rinkinys, tačiau jis nėra vienintelis.
+    
+    Čia rasi nuorodas į kitus atvirojo kodo balso duomenų rinkinius bei, „Common Voice“ projektui toliau augant, mūsų duomenų rinkinio atnaujinimus.
 language = Kalba
 # File size in gigabytes
 size = Dydis
