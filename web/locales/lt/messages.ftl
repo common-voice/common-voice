@@ -750,6 +750,24 @@ help-reach-hours-general =
     }
 set-a-goal = Užsibrėžti tikslą
 cant-decide = Negali apsispręsti?
+activity-needed-calculation =
+    { NUMBER($hours) } { $totalHours ->
+        [one] valandą
+        [few] valandas
+       *[other] valandų
+    } galima pasiekti per vos { NUMBER($periodMonths) } { $periodMonths ->
+        [one] mėnesį,
+        [few] mėnesius,
+       *[other] mėnesių,
+    } { NUMBER($people) } { $people ->
+        [one] asmeniui
+        [few] asmenims
+       *[other] asmenų
+    } padarant { NUMBER($clipsPerDay) } { $clipsPerDay ->
+        [one] įrašą
+        [few] įrašus
+       *[other] įrašų
+    } per dieną.
 how-many-per-day = Puiku! Kiek įrašų per dieną?
 how-many-a-week = Puiku! Kiek įrašų per savaitę?
 which-goal-type = Nori šnekėti, kalbėti ar užsiimti abiem veiklomis?
@@ -764,9 +782,25 @@ n-clips =
 help-share-goal = Padėk mums rasti daugiau balsų, pasidalink savo tikslu
 confirm-goal = Patvirtink tikslą
 goal-interval-weekly = Kas savaitę
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal =
+    { $count ->
+        [one] Pasidalink savo { $count } { $type } įrašo per dieną tikslu
+        [few] Pasidalink savo { $count } { $type } įrašų per dieną tikslu
+       *[other] Pasidalink savo { $count } { $type } įrašų per dieną tikslu
+    }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal =
+    { $count ->
+        [one] Pasidalink savo { $count } { $type } įrašo per savaitę tikslu
+        [few] Pasidalink savo { $count } { $type } įrašų per savaitę tikslu
+       *[other] Pasidalink savo { $count } { $type } įrašų per savaitę tikslu
+    }
 share-goal-type-speak = Kalbėjimas
 share-goal-type-listen = Klausymas
 share-goal-type-both = Kalbėjimas ir klausymas
+# LINK will be replaced with the current URL
+goal-share-text = Aš ką tik susikūriau asmeninį tikslą pasidalinti savo balsu su #CommonVoice – prisijunk prie manęs ir padėk išmokyti kompiuterius tikrų žmonių kalbos! { $link }
 weekly-goal-created = Savaitinis tikslas sukurtas
 daily-goal-created = Kasdieninis tikslas sukurtas
 track-progress = Stebėk pažangą čia ir savo statistikos skydelyje.
@@ -788,6 +822,8 @@ profile-form-delete = Pašalinti profilį
 
 ## Landing
 
+welcome-staff = Sveikiname „{ $company }“ kolektyvo narį!
 help-contribute = Tu gali padėti kurti įvairialypį, atvirą duomenų rinkinį, susikurdama(s) profilį ir prisidėdama(s) savo balsu.
+login-company = Prisijunk arba užsiregistruok su savo „{ $company }“ el. paštu
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 read-more-about = Išsamesnė informacija – tinklalapyje „Apie mus“
