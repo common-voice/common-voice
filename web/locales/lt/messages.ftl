@@ -544,6 +544,7 @@ data-other-librispeech-description = „LibriSpeech“ yra maždaug 1000 valand�
 data-other-ted-name = „TED-LIUM“ rinkinys
 data-other-ted-description = „TED-LIUM“ rinkinys sukurtas panaudojant „TED“ svetainėje esančias prakalbas ir jų nuorašus.
 data-other-voxforge-description = „VoxForge“ projektas įkurtas siekiant kaupti transkribuotus balso įrašus naudojimui laisvuosiuose ir atvirojo kodo kalbos atpažinimo varikliuose.
+data-other-tatoeba-description = „Tatoeba“ yra didelė frazių, vertimų ir balso įrašų duomenų bazė, skirta kalbų mokymuisi. Čia parsisiuntimui pateikiami „Tatoeba“ bendruomenės sukaupti balso įrašai anglų kalba.
 your-feedback = Turi idėjų, kaip patobulinti „Common Voice“ duomenų rinkinį? Papasakok mums apie tai „Discourse“ diskusijoje
 go-discourse = Eiti į „Discourse“
 missing-language = Nematai savo kalbos duomenų rinkinyje? Jeigu nori paprašyti kalbos, apsilankyk mūsų kalbų tinklalapyje.
