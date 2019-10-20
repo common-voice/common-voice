@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Pateikti
 loading = Įkeliama…
 email-opt-in-info = Norėčiau gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
+email-opt-in-info-title = Prenumeruoti „Common Voice“ naujienlaiškį
+email-opt-in-info-sub = Gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
 email-opt-in-privacy = Pasirinkęs (-usi) gauti el. laiškus, tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
 indicates-required = * Nurodo privalomą lauką
 not-available-abbreviation = Nepasiekiama
@@ -311,6 +313,7 @@ thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo 
 why-demographic = Kodėl tai svarbu?
 why-demographic-explanation = Anonimizuoti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su tavo garso įrašais. Be to, tu gali priimti sprendimą, ar nori, jog tavo naudotojo vardas būtų matomas svetainėje.
 accept-privacy = Sutinku, kad mano duomenys būtų tvarkomi kaip aprašyta „Mozillos“ <privacyLink>Privatumo nuostatuose</privacyLink>
+accept-privacy-title = Privatumo nuostatai
 login-identity = Prisijungimo tapatybė
 login-signup = Prisijungti / registruotis
 edit = Keisti
@@ -325,6 +328,7 @@ on = Įjungta
 avatar-clip-title = Įgarsink savo profilį
 change-your-avatar-clip = Nori pakeisti savo balso įrašą?
 recording-in-progress = Vyksta balso įrašymas
+avatar-clip-recorded = Nuo šiol tavo profilyje bus ir balso įrašas!
 record-voice-wave = ĮRAŠYTI BALSĄ
 retry-voice-wave-recording = KARTOTI
 re-record = ĮRAŠYTI IŠ NAUJO
@@ -334,6 +338,7 @@ delete-voice-clip = arba pašalinti balso įrašą
 ready-to-upload = ĮKELTI
 avatar-clip-fact = Seniai žinoma, jog skaitytoją, žiūrintį į tinklalapio išdėstymą, blaško jo skaitomas turinys.
 cancel-avatar-clip-recording = ATSISAKYTI
+about-avatar-clip-recording = Įgarsink savo pseudoportretą balsu. Kiti galės šį įrašą perklausyti, užvedę pelę virš pseudoportreto.
 browse-file-title = Įkelk paveiksliuką
 browse-file = Užtempk norimą failą čia arba <browseWrap>parink iš kompiuterio</browseWrap>
 connect-gravatar = Naudoti „Gravatar“ tarnybą
@@ -694,7 +699,23 @@ cant-decide = Negali apsispręsti?
 how-many-per-day = Puiku! Kiek įrašų per dieną?
 how-many-a-week = Puiku! Kiek įrašų per savaitę?
 which-goal-type = Nori šnekėti, kalbėti ar užsiimti abiem veiklomis?
-n-clips = { NUMBER($count) } įrašai
+n-clips =
+    { $count ->
+        [one] { NUMBER($count) } įrašas
+        [few] { NUMBER($count) } įrašai
+       *[other] { NUMBER($count) } įrašų
+    }
+help-share-goal = Padėk mums rasti daugiau balsų, pasidalink savo tikslu
+confirm-goal = Patvirtink tikslą
+goal-interval-weekly = Kas savaitę
+share-goal-type-speak = Kalbėjimas
+share-goal-type-listen = Klausymas
+share-goal-type-both = Kalbėjimas ir klausymas
+weekly-goal-created = Savaitinis tikslas sukurtas
+daily-goal-created = Kasdieninis tikslas sukurtas
+track-progress = Stebėk pažangą čia ir savo statistikos skydelyje.
+return-to-edit-goal = Bet kada gali čia grįžti ir pakeisti savo tikslus.
+share-goal = Dalintis tikslu
 
 ## Profile Delete
 
@@ -711,4 +732,6 @@ profile-form-delete = Pašalinti profilį
 
 ## Landing
 
+help-contribute = Tu gali padėti kurti įvairialypį, atvirą duomenų rinkinį, susikurdama(s) profilį ir prisidėdama(s) savo balsu.
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
+read-more-about = Išsamesnė informacija – tinklalapyje „Apie mus“
