@@ -110,6 +110,7 @@ sl = Slovėnų
 sq = Albanų
 sr = Serbų
 sv-SE = Švedų
+sw = Svahilių
 syr = Sirų
 ta = Tamilų
 te = Telugų
@@ -204,6 +205,7 @@ x-years-short =
 help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą balso duomenų rinkinį
 sign-up-account = Užsiregistruok ir susikurk paskyrą
 email-subscription-title = Gauk naujienas el. paštu
+email-subscription-title-new = Prisiregistruok „Common Voice“ naujienlaiškiams, tikslų priminimams ir pažangos pranešimams
 
 ## Account Benefits
 
@@ -320,7 +322,17 @@ skip-submission-description = Pateikus indėlį (paspaudus mygtuką „Pateikti�
 skip-submission-note = Pastaba: jeigu norėsi pakeisti indėlio tipą, ir toliau galėsi pasinaudoti saitais „Kalbėk“ ir „Klausyk“.
 off = Išjungta
 on = Įjungta
+avatar-clip-title = Įgarsink savo profilį
+change-your-avatar-clip = Nori pakeisti savo balso įrašą?
+recording-in-progress = Vyksta balso įrašymas
+record-voice-wave = ĮRAŠYTI BALSĄ
+retry-voice-wave-recording = KARTOTI
+re-record = ĮRAŠYTI IŠ NAUJO
+delete-voice = ŠALINTI
+recording-voice-wave = Įrašas
+delete-voice-clip = arba pašalinti balso įrašą
 ready-to-upload = ĮKELTI
+avatar-clip-fact = Seniai žinoma, jog skaitytoją, žiūrintį į tinklalapio išdėstymą, blaško jo skaitomas turinys.
 cancel-avatar-clip-recording = ATSISAKYTI
 browse-file-title = Įkelk paveiksliuką
 browse-file = Užtempk norimą failą čia arba <browseWrap>parink iš kompiuterio</browseWrap>
@@ -353,6 +365,8 @@ faq-why-mission-a = „Mozilla“ siekia, kad internetinė erdvė išliktų atvi
 faq-what-cv-and-deepspeech-q = Kuo skiriasi „Common Voice“ ir „Deep Speech“?
 faq-what-cv-and-deepspeech-a = „Common Voice“ duomenų rinkinys papildo „Mozillos“ atviro kodo balso atpažinimo variklį „Deep Speech“. Pirmoji „Deep Speech“ versija buvo išleista 2017 m. lapkritį, o projekto vystymas tęsiasi iki šiol. Mes manome, kad kartu su „Common Voice“ duomenų rinkiniu ši atviro kodo balso atpažinimo technologija turėtų būti prieinama kiekvienam. Viliamės, jog šios technologijos įgalins kūrėjus sukurti virtinę inovatyvių produktų ir paslaugų.
 faq-is-goal-assistant-q = Ar „Common Voice“ tikslas – sukurti balso asistentą?
+faq-is-goal-assistant-a = „Common Voice“  tikslas – suteikti galimybę kiekvienam sukurti kalbos atpažinimo, kalbėtojo atpažinimo ar kito tipo kalbos kalbos duomenų reikalaujančias programas. Balso asistentas – tik vienas iš daugybės tipų programų, kurias galima kurti, pasinaudojant „Common Voice“ duomenimis.
+faq-do-want-native-q = Tai nėra mano gimtoji kalba, kalbu su akcentu, ar mano balsas vis tiek reikalingas?
 faq-why-different-speakers-q = Kodėl jums reikia tiek daug skirtingų kalbančiųjų?
 faq-why-different-speakers-a =
     Dauguma kalbos duomenų bazių yra apmokomos, neišlaikant proporcijų tarp atskirų demografinių grupių. Todėl atsiranda šališkumas <articleLink> viduriniosios klasės atstovų ir vyrų</articleLink> atžvilgiu. Tarmės, akcentai ir dialektai, dažniausiai nepakankamai atstovaujami apmokymo duomenų rinkiniuose, dažnai yra susiję su jau ir taip marginalizuotomis žmonių grupėmis. Dažnai įrenginiai nesugeba gerai suprasti moterų balsų.
@@ -368,8 +382,10 @@ faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipe
 faq-why-account-q = Kodėl turėčiau susikurti paskyrą?
 faq-is-account-public-q = Ar mano paskyros informacija yra vieša?
 faq-how-privacy-q = Kaip užtikrinate savo balsu pasidalinusių asmenų privatumą ir anonimiškumą?
+faq-what-determine-identity-q = Ką reiškia, jog negaliu „nustatyti kalbėtojų tapatybės“ „Common Voice“ duomenų rinkinyje?
 faq-what-is-cv = Kas yra „Common Voice“?
 faq-using-cv = „Common Voice“ naudojimas
+faq-description = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti apmokyti įrenginius tikrų žmonių kalbos.
 faq-search-for-answers =
     .label = Ieškoti atsakymų
 

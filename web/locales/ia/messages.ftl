@@ -9,8 +9,9 @@ email-input =
 submit-form-action = Inviar
 loading = Cargamento…
 email-opt-in-info = Io volerea reciper e-mails como rememorationes de objectivos, actualisationes de mi progresso e bulletines de novas sur Common Voice.
+email-opt-in-info-title = Junge te al bulletin e-posta de Common Voice
 email-opt-in-info-sub = Recipe emails como mementos de objectivos, actualisationes e bulletines de novas sur Common Voice.
-email-opt-in-privacy = Si ti opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
+email-opt-in-privacy = Si tu opta pro reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
 
@@ -160,7 +161,7 @@ home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a 
 home-cta = Parla, contribue ora!
 wall-of-text-start = Le voce es natural, voce es human. Ecce perque nos es fascinate a crear technologia de voce usabile pro nostre machinas. Ma pro crear systemas de voce, un grandissime quantitate de datos de voce es necesse.
 wall-of-text-more-mobile = Le major parte del datos usate per le grande companias non es disponibile al majoritate del personas. Nos pensa que illo suffoca le innovation. Assi nos ha lanceate le projecto Common Voice, un projecto pro adjutar a render le recognition del voce aperte a omnes.
-wall-of-text-more-desktop = Ora tu pote donar tu voce pro adjutar nos a producer un base de datos de voce open-source, que quicunque pote usar pro facer applicationes innovative pro apparatos e pro le web.<lineBreak></lineBreak> Lege un phrase pro adjutar le machinas a apprender como parla le personas real. Controla le labor de altere collaboratores pro meliorar le qualitate. Illo es simple!
+wall-of-text-more-desktop = Ora tu pote donar tu voce pro adjutar nos a producer un base de datos de voce aperte e libere que omnes pote usar pro facer applicationes innovative pro dispositivos mobile e pro le web.<lineBreak></lineBreak> Lege un phrase pro adjutar le machinas a apprender como parla le personas real. Controla le labor de altere contributores pro meliorar le qualitate. Es tanto simple!
 wall-of-text-first = Le voce es natural, voce es human. Id es perque nos es excitate a crear technologia usabile del voce pro nostre machinas. Ma pro crear systemas vocal, le disveloppatores require un grandissime quantitate de datos de voce.
 wall-of-text-second = Le major parte del datos usate per le grande companias non es disponibile al majoritate del personas. Nos pensa que illo suffoca le innovation. Assi nos ha lanceate Common Voice, un projecto pro adjutar a render le recognition del voce aperte e accessibile a totes.
 show-wall-of-text = Lege plus
@@ -359,7 +360,7 @@ faq-why-important-a =
 faq-how-get-q = Como pote io obtener le datos de Common Voice?
 faq-how-get-a = Le collection de datos de Common Voice es disponibile pro discargamento sub le licentia <licenseLink>CC0</licenseLink> sur <datasetLink>nostre pagina del collectiones de datos</datasetLink>. Tu pote alsi discargar ab le mesme pagina plure altere collectiones de datos publicamente disponibile.
 faq-when-release2-q = Quando vos publicara datos de Common Voice in altere linguas?
-faq-when-release2-a = Le version multe-linguas del collection de datos de Common Voice es actualmente compilate e mundificate per le supporto del communitate. Si tu desira nos adjutar a apportar nove linguas a Common Voice, va discoperir le <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> pro adder nove phrases al collection de datos, e Mozilla <pontoonLink>Pontoon</pontoonLink> pro traducer le sito web mesme. Nove linguas es addite a Common Voice pro contribution de voces, quando ha essite colligite 5000 phrases approbate.
+faq-when-release2-a = Le version multilingue del collection de datos de Common Voice es actualmente submittite a un processo communitari de regruppamento e nettation. Si tu volerea adjutar nos a apportar nove linguas a Common Voice, jecta un oculo sur <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> pro adder nove phrases al collection de datos, e sur Mozilla <pontoonLink>Pontoon</pontoonLink> pro traducer le sito web mesme. Nove linguas se adde a Common Voice pro le contribution de voces quando ha essite colligite 5000 phrases approbate.
 faq-why-mission-q = Perque Common Voice es parte del mission de Mozilla?
 faq-why-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile pro omnes. Isto necessita adjutar le autores web con projectos como Common Voice. Nos crede que le proliferation del technologias de voce debe beneficiar tote le usatores equalmente. Isto require que nos augmenta le numero de linguas e include diverse accentos e ethnicitates durante le construction e test de technologias vocal. Common Voice es un ressource public disponibile a totes. Le equipas e le disveloppatores de Mozilla in tote le mundo lo usa jam sur le proprie projectos.
 faq-what-cv-and-deepspeech-q = Qual es le differentia inter Common Voice e Deep Speech?
@@ -497,13 +498,13 @@ review-delete-recordings = Deler mi registrationes
 
 ## Datasets Page
 
-datasets-headline = Nos produce un collection de datos open-source e multe-lingua que omnes pote usar pro provar applicationes activate per le voce.
+datasets-headline = Nos produce un collection de datos libere e multilingue que omnes pote usar pro trainar applicationes activate per le voce.
 datasets-positioning =
-    Nos crede que le grande e publicamente disponibile collectiones de datos vocal favori le innovation e le salubre competition commercial in le apprendimento automatic basate sur le technologia del voce.
+    Nos crede que le collectiones de datos vocal grande e publicamente disponibile promove le innovation e un concurrentia san pro le technologias vocal basate sur le apprendimento automatic.
     
-    Le collection de datos multe-lingua de Common Voice es jam le plus grande collection de datos vocal de su sorta publicamente disponibile, ma illo non es sol.
+    Le collection de datos multilingue de Common Voice es jam le collection de datos vocal publicamente disponibile le plus grande de su sorta, ma illo non es le unic.
     
-    Reguarda a iste pagina como centro de referentia pro altere collectiones de datos vocal open-source e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
+    Reguarda iste pagina como centro de referentia pro altere collectiones de datos vocal libere e, como Common Voice continua a crescer, un pagina principal pro nostre actualisationes de version.
 language = Lingua
 # File size in gigabytes
 size = Dimension

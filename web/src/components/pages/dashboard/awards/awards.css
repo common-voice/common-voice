@@ -49,6 +49,12 @@
         max-width: initial !important;
     }
 
+    & .top-bar {
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     & .award-lists {
         margin: 60px auto 0;
         max-width: var(--wide-desktop-width);

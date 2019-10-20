@@ -734,8 +734,8 @@ help-reach-hours-general = Helfen Sie Common Voice mit einem persönlichen Ziel 
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
 activity-needed-calculation =
-    { NUMBER($totalHours) } Stunden sind in etwas mehr als { NUMBER($periodMonths) } erreichbar.
-    Monate, wenn { NUMBER($people) } Personen { NUMBER($clipsPerDay) } Clips pro Tag aufnehmen.
+    { NUMBER($totalHours) } Stunden sind in etwas mehr als { NUMBER($periodMonths) } Monaten
+    erreichbar, wenn { NUMBER($people) } Personen { NUMBER($clipsPerDay) } Clips pro Tag aufnehmen.
 how-many-per-day = Top! Wie viele Clips pro Tag?
 how-many-a-week = Top! Wie viele Clips pro Woche?
 which-goal-type = Möchten Sie Sprechen, Hören oder beides?
