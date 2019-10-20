@@ -382,16 +382,27 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Kodėl mano kalba dar neįtraukta?
 faq-why-my-lang-new-a = „Mozilla“ neteikia pirmenybės vienoms kalboms prieš kitas. „Common Voice“ yra bendruomeninė iniciatyva, tačiau norint į sąrašą įtraukti naują kalbą ir pradėti kaupti balso įrašus, <multilangLink>reikia įvykdyti keletą žingsnių iš anksto</multilangLink>. Pirmiausia, mes prašome išversti „Common Voice“ svetainę, kad ja galėtų naudotis ir joje talkininkauti visi jūsų bendruomenės nariai. Antra, būtina surinkti didelę bazę autoriaus teisėmis neapsaugotų frazių, kurias žmonės turės skaityti balsu. Kai abu šie reikalavimai patenkinami, kalba yra „įjungiama“ „Common Voice“ platformoje ir visi norintys gali dalyvauti, ja įrašydami balso įrašus bei tikrindami kitų įrašytas frazes. Jei norite prisidėti prie naujos kalbos įgalinimo, pradėkite, apsilankydami mūsų <sentenceCollectorLink>frazių kaupimo priemonėje</sentenceCollectorLink>.
 faq-what-quality-q = Kokios garso kokybės turi būti balso įrašas, kad jis būtų panaudotas duomenų rinkinyje?
+faq-what-quality-a = Mes siekiame, jog „Common Voice“ duomenų rinkinyje esantys įrašai ir jų kokybė atspindėtų kasdienybę, su kuria susiduria kalbos atpažinimo priemonės, todėl ieškome įvairovės. Duomenų rinkinys, pasižymintis didele ne tik didele kalbančiųjų, bet ir garso kokybės įvairove, padės balso atpažinimo priemonėms geriau susidoroti su realiomis situacijomis, tokiomis, kaip kalbėjimas toliau nuo mikrofono ar foninis automobilių triukšmas. Jei tik Tavo balso įrašą apskritai įmanoma suprasti, jis duomenų rinkiniui turėtų būti tinkamas.
 faq-why-10k-hours-q = Kodėl kiekvienos kalbos tikslas yra 10 000 patvirtintų valandų?
 faq-why-10k-hours-a = Apytikslis valandų skaičius reikalingas naudojimui tinkamos kalbos atpažinimo sistemos apmokymui.
 faq-how-calc-hours-q = Kaip „Common Voice“ apskaičiuoja valandas?
 faq-how-calc-hours-a = Valandų kiekį skaičiuojame įvertinę vidutinį kiekvieno įrašo ilgį ir jį padaugindami iš įrašų visomis kalbomis kiekio.
 faq-where-src-from-2-q = Iš kur gaunamas šaltinio tekstas?
+faq-where-src-from-2-a =
+    Mūsų frazyną sudaro talkininkų sugalvotos ir pasiūlytos frazės bei dialogų transkripcijos iš viešo naudojimo filmų, tokių, kaip <italic>„Tai nuostabus gyvenimas“</italic> (angl. „It’s a Wonderful Life“).
+    
+    Frazių sąrašus galima rasti šiame <githubLink>„GitHub“ aplanke</githubLink>.
 faq-why-not-ask-read-q = Kodėl neprašote žmonių skaityti knygų ar „Vikipedijos“ straipsnių įvairiomis kalbomis?
+faq-why-not-ask-read-a = Siekdami, kad „Common Voice“ duomenų rinkinys turėtų kuo mažiau suvaržymų, mes nusprendėme, jog pirmines frazes priimsime tik tuomet, jei jomis galima naudotis pagal „Creative Commons (CC0)“ licenciją. Šis pasirinkimas lemia, jog rinkti ir kaupti frazyną tampa sunkiau, tačiau kiekvienas norintis galės naudotis jo pagalba parengtais balso duomenimis, nesirūpindamas naudojimosi apribojimais ar „Mozillos“ leidimais. Mes siekiame, jog daugiakalbis „Common Voice“ duomenų rinkinys būtų kuo naudingesnis visiems – mokslininkams, universitetams, startuoliams, valstybinėms įraigoms, nevyriausybinėms organizacijoms, pavieniams entuziastams ir kitiems.
 faq-why-account-q = Kodėl turėčiau susikurti paskyrą?
 faq-is-account-public-q = Ar mano paskyros informacija yra vieša?
 faq-how-privacy-q = Kaip užtikrinate savo balsu pasidalinusių asmenų privatumą ir anonimiškumą?
+faq-how-privacy-a = Visi balso įrašai mūsų duomenų rinkinyje yra nuasmeninami. Jei talkininkas profilyje nurodo savo demografinius duomenis, šie duomenys yra atsiejami nuo jo padarytų balso įrašų prieš tuos įrašus parengiant parsisiuntimui duomenų rinkinyje. Be to, šie duomenys niekuomet nerodomi talkininko profilyje.
 faq-what-determine-identity-q = Ką reiškia, jog negaliu „nustatyti kalbėtojų tapatybės“ „Common Voice“ duomenų rinkinyje?
+faq-what-determine-identity-a =
+    „Common Voice“ duomenų rinkinys yra atviras ir viešai prieinamas išteklius, kurį galima naudoti apmokant bet kokias kalbą apdorojančias programas ar įrankius. Siekdami apsaugoti talkininkus ir jų saugumą, mes prašome kiekvieno, parsisiunčiančio „Common Voice“ duomenų rinkinį, gerbti talkininkų privatumą.
+    
+    Visi duomenų rinkinyje esantys balso įrašai yra nuasmeninti. Parsisiųsdamas duomenų rinkinį, Tu įsipareigoji nebandyti nustatyti šiuos įrašus padariusių asmenų tapatybės. Tai reiškia, jog Tau neleidžiama mėginti susieti duomenų rinkinyje esančios informacijos bei talkininkų asmeninės informacijos. Tačiau šiuos duomenis leidžiama naudoti apmokant kalbos atpažinimo, kalbėtojų atpažinimo ir kitas priemones, pavyzdžiui, susiejant vienus duomenis, esančius duomenų rinkinyje su kitais duomenimis, taip pat esančiais duomenų rinkinyje.
 faq-what-is-cv = Kas yra „Common Voice“?
 faq-using-cv = „Common Voice“ naudojimas
 faq-description = „Common Voice“ yra „Mozillos“ iniciatyva, padedanti apmokyti įrenginius tikrų žmonių kalbos.
