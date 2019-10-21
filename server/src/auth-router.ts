@@ -98,9 +98,13 @@ router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
   async ({ user, query: { state }, session }: Request, response: Response) => {
-    const { locale, old_user, old_email, redirect } = JSON.parse(
-      AES.decrypt(state, SECRET).toString(enc.Utf8)
-    );
+    const {
+      locale,
+      old_user,
+      old_email,
+      redirect,
+      challenge_team,
+    } = JSON.parse(AES.decrypt(state, SECRET).toString(enc.Utf8));
     const basePath = locale ? '/' + locale + '/' : '/';
     if (!user) {
       response.redirect(basePath + 'login-failure');
@@ -114,6 +118,14 @@ router.get(
       }
       response.redirect('/profile/settings?success=' + success.toString());
     } else {
+      // pass the challenge_team to frontend
+      user.challenge_team = challenge_team;
+
+      // update the challenge_team of the user who is already signed up but have not joined any team
+      await UserClient.updateChallengeTeam(
+        user.emails[0].value,
+        challenge_team
+      );
       response.redirect(redirect || basePath + 'login-success');
     }
   }
@@ -137,6 +149,7 @@ router.get('/login', (request: Request, response: Response) => {
             }
           : {}),
         redirect: query.redirect || null,
+        challenge_team: query.challenge_team,
       }),
       SECRET
     ).toString(),

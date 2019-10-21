@@ -11,7 +11,6 @@ import {
   LocaleNavLink,
   useLocale,
 } from '../../locale-helpers';
-import { isProduction } from '../../../utility';
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
@@ -34,7 +33,7 @@ const TopBar = ({
   const [, toLocaleRoute] = useLocale();
   const account = useAccount();
   const [isAboveMdWidth, setIsAboveMdWidth] = useState(true);
-  const isChallengeEnrolled = !isProduction();
+  const isChallengeEnrolled = account && account.challenge_team;
   const isChallengeTabSelected = location.pathname.endsWith('/challenge');
 
   function setLocale(value: string) {
