@@ -13,12 +13,14 @@ export default function StatsCard({
   iconButtons,
   overlay,
   tabs,
+  challenge,
 }: {
   className?: string;
   title: string;
   iconButtons?: React.ReactNode;
   overlay?: React.ReactNode;
-  tabs: { [label: string]: (props: { locale: string }) => any };
+  tabs?: { [label: string]: (props: { locale?: string }) => any };
+  challenge?: boolean;
 }) {
   const [locale, setLocale] = useState(ALL_LOCALES);
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0]);
@@ -28,24 +30,42 @@ export default function StatsCard({
       {overlay}
       <div className="stats-card__inner">
         <div className="title-and-icon">
-          <Localized id={title}>
-            <h2 />
-          </Localized>
+          {challenge ? (
+            <h2 className="challenge-title">{title}</h2>
+          ) : (
+            <Localized id={title}>
+              <h2 />
+            </Localized>
+          )}
           {iconButtons}
         </div>
         <div className="filters">
           <div className="tabs">
-            {Object.keys(tabs).map(label => (
-              <Localized key={label} id={label}>
+            {/* <button type="button">123</button> */}
+            {Object.keys(tabs).map(label => {
+              return challenge ? (
                 <button
                   type="button"
                   className={label == selectedTab ? 'selected' : ''}
-                  onClick={() => setSelectedTab(label)}
-                />
-              </Localized>
-            ))}
+                  onClick={() => setSelectedTab(label)}>
+                  {label}
+                </button>
+              ) : (
+                <Localized key={label} id={label}>
+                  <button
+                    type="button"
+                    className={label == selectedTab ? 'selected' : ''}
+                    onClick={() => setSelectedTab(label)}
+                  />
+                </Localized>
+              );
+            })}
           </div>
-          <LanguageSelect value={locale} onChange={setLocale} />
+          {challenge ? (
+            <span className="english-only">English Only</span>
+          ) : (
+            <LanguageSelect value={locale} onChange={setLocale} />
+          )}
         </div>
         <div className="content">
           {tabs[selectedTab]({ locale: locale == ALL_LOCALES ? null : locale })}

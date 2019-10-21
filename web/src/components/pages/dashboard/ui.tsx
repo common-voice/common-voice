@@ -44,11 +44,13 @@ const RADIUS = 32;
 const STROKE = 2;
 
 export function CircleProgress({
+  className,
   value,
   denominator,
   radius = RADIUS,
   strokeW = STROKE,
 }: {
+  className?: string;
   value: number;
   denominator?: number; // If unset, we show `value` as a percentage.
   radius?: number;
@@ -58,7 +60,9 @@ export function CircleProgress({
   const center = radius + strokeW;
   const size = center * 2;
   return (
-    <div className="circle-progress" style={{ color: 'var(--red)' }}>
+    <div
+      className={`circle-progress ${className}`}
+      style={{ color: 'var(--red)' }}>
       <svg width={size} height={size}>
         <Circle radius={radius} strokeW={strokeW} center={center} />
         <Circle

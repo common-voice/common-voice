@@ -17,6 +17,7 @@ import AwardsPage from './awards/awards';
 import ChallengePage from './challenge/challenge';
 import { Button } from '../../ui/ui';
 import InviteModal from '../../invite-modal/invite-modal';
+import { isProduction } from '../../../utility';
 
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
@@ -35,7 +36,8 @@ const TopBar = ({
   const account = useAccount();
   const [isAboveMdWidth, setIsAboveMdWidth] = useState(true);
   const isChallengeEnrolled =
-    account && account.enrollment && account.enrollment.team;
+    !isProduction() ||
+    (account && account.enrollment && account.enrollment.team);
   const isChallengeTabSelected = location.pathname.endsWith('/challenge');
 
   function setLocale(value: string) {

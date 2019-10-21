@@ -1,7 +1,7 @@
 @import url('../../../vars.css');
 .weekly-container {
-    min-width: calc(50% - 10px);
-    margin-right: 20px;
+    min-width: calc(50% - 8px);
+    margin-right: 16px;
     height: 100%;
     background-color: #fff;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);

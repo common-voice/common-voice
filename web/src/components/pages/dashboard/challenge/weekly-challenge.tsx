@@ -37,7 +37,7 @@ export default function WeeklyChallenge() {
         </div>
         <div className="week-points">
           <p>
-            <img src={require('../awards/star.svg')} alt="score" /> +50 points
+            <img src={require('./images/star.svg')} alt="score" /> +50 points
           </p>
           <p>Way to send your first invite!</p>
         </div>

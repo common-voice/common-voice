@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { LocaleLink } from '../../../locale-helpers';
-import BalanceText from 'react-balance-text';
-import { CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import { CircleProgress } from '../../../pages/dashboard/ui';
 import URLS from '../../../../urls';
 import './weekly-challenge-board.css';
 
@@ -31,8 +30,8 @@ export default function WeeklyChallengeBoard({
           <img
             src={
               isDisabled
-                ? require('./stars-disabled.svg')
-                : require('../awards/stars.svg')
+                ? require('./images/stars-disabled.svg')
+                : require('./images/stars.svg')
             }
             alt="stars"
           />
@@ -44,7 +43,7 @@ export default function WeeklyChallengeBoard({
         <div className="challenge-board-content">
           <div className="content-row">
             <div className="column">
-              <img src={require('./ava.svg')} alt="ava" />
+              <img src={require('./images/ava.svg')} alt="ava" />
               <p>individual</p>
             </div>
             <div className="container">
@@ -52,15 +51,13 @@ export default function WeeklyChallengeBoard({
                 Speak
                 <span className="speak-icon"></span>
               </LocaleLink>
-              <CircularProgressbarWithChildren
+              <CircleProgress
                 className="speak-bar"
-                value={25}
-                strokeWidth={4}>
-                <div className="speak-content">
-                  <span className="first">50</span>
-                  <span className="total">/200</span>
-                </div>
-              </CircularProgressbarWithChildren>
+                value={50}
+                denominator={200}
+                strokeW={4}
+                radius={66}
+              />
             </div>
             <div className="divider" />
             <div className="container">
@@ -68,20 +65,18 @@ export default function WeeklyChallengeBoard({
                 Listen
                 <span className="listen-icon"></span>
               </LocaleLink>
-              <CircularProgressbarWithChildren
+              <CircleProgress
                 className="listen-bar"
-                value={25}
-                strokeWidth={4}>
-                <div className="listen-content">
-                  <span className="first">50</span>
-                  <span className="total">/200</span>
-                </div>
-              </CircularProgressbarWithChildren>
+                value={50}
+                denominator={200}
+                strokeW={4}
+                radius={66}
+              />
             </div>
           </div>
           <div className="content-row">
             <div className="column">
-              <img src={require('./ava.svg')} alt="team" />
+              <img src={require('./images/ava.svg')} alt="team" />
               <p>Team</p>
             </div>
             <div className="container team">
@@ -95,15 +90,13 @@ export default function WeeklyChallengeBoard({
               </p>
             </div>
             <div className="container">
-              <CircularProgressbarWithChildren
+              <CircleProgress
                 className="team-bar"
-                value={25}
-                strokeWidth={4}>
-                <div className="team-content">
-                  <span className="first">25</span>
-                  <span className="total">%</span>
-                </div>
-              </CircularProgressbarWithChildren>
+                value={50}
+                denominator={200}
+                strokeW={4}
+                radius={66}
+              />
               <p className="team-invite-total">of 50 invites</p>
             </div>
           </div>

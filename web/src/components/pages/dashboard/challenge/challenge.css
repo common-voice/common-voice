@@ -4,5 +4,8 @@
     height: 100%;
 }
 .range-container {
-    min-width: calc(100% - 10px);
+    min-width: calc(50% - 8px);
+}
+.leader-board {
+    margin-top: 16px;
 }

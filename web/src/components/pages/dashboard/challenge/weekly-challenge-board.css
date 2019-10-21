@@ -45,11 +45,9 @@
     right: 0;
     text-transform: uppercase;
 }
-.challenge-board.disabled {
-    .icon,
-    .week-container {
-        background-color: var(--light-grey);
-    }
+.challenge-board.disabled .icon,
+.challenge-board.disabled .week-container {
+    background-color: var(--light-grey);
 }
 .challenge-board-content {
     border-top: 1.6px solid var(--light-grey);
@@ -63,11 +61,6 @@
     .column {
         height: 250px;
         width: 159px;
-        /* display: flex;
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-        align-items: center; */
         font-size: 16px;
         line-height: 1.5;
         color: #4a4a4a;
@@ -135,25 +128,10 @@
     display: inline-block;
 }
 .speak-icon {
-    mask-image: url('./mic.svg');
+    mask-image: url('./images/mic.svg');
 }
 .listen-icon {
-    mask-image: url('./play.svg');
-}
-
-.CircularProgressbar {
-    width: 100%;
-    vertical-align: middle;
-}
-
-.CircularProgressbar .CircularProgressbar-path {
-    stroke-linecap: round;
-    transition: stroke-dashoffset 0.5s ease 0s;
-}
-
-.CircularProgressbar .CircularProgressbar-trail {
-    stroke: var(--light-grey);
-    stroke-linecap: round;
+    mask-image: url('./images/play.svg');
 }
 .speak-bar,
 .listen-bar,
@@ -163,44 +141,15 @@
     margin: 10px auto 0;
     display: block;
 }
-.speak-bar .CircularProgressbar-path {
-    stroke: #ff4f5e;
+.speak-bar {
+    color: #ff4f5e !important;
 }
-.listen-bar .CircularProgressbar-path {
-    stroke: #59cbb7;
+.listen-bar {
+    color: #59cbb7 !important;
 }
-.team-bar .CircularProgressbar-path {
-    stroke: #629ff4;
+.team-bar {
+    color: #629ff4 !important;
 }
-.speak-content,
-.listen-content,
-.team-content {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
-}
-.speak-content {
-    color: #ff4f5e;
-}
-.listen-content {
-    color: #59cbb7;
-}
-.team-content {
-    color: #629ff4;
-}
-.first {
-    font-size: 48px;
-    float: left;
-}
-.total {
-    margin-top: 10px;
-    display: inline-block;
-}
-div[data-test-id='CircularProgressbarWithChildren__children'] {
-    margin-top: 0 !important;
-    top: 0;
-}
-
 .team-text,
 .team-invite {
     padding: 0 10px;
