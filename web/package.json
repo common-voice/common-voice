@@ -51,7 +51,6 @@
     "promise-decode-audio-data": "^0.4.1",
     "react": "^16.8.6",
     "react-balance-text": "^2.0.1",
-    "react-circular-progressbar": "^2.0.2",
     "react-content-loader": "^4.2.1",
     "react-dom": "^16.8.6",
     "react-intersection-observer": "^8.23.0",
