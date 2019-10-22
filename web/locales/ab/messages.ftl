@@ -731,11 +731,16 @@ activity-needed-calculation =
     { NUMBER($periodMonths) }-мз рыла { NUMBER($totalHours) } сааҭ ҟалоит.
 how-many-a-week = Абзаиӡа! Шаҟа анҵамҭақәа мчыбжьык ала?
 receiving-emails-info = Уара иуоулоит ухықәкы угәалазыршәа, аус ахьынӡа пеихьоуи, Common Voice иадҳәалоу ажәабыжьқәа ртәы зҳәо асалам шәыҟәқәа.
+not-receiving-emails-info =
+    Уара <bold>МАП</bold> аҟны иуоулоит ухықәкы угәалазыршәои, уусқәа ахьынӡанеихьоуи Common Voice 
+    иадҳәалоу ажәабжьқәа ртәы зҳәо асалам шәыҟәқәа
 n-clips = { NUMBER($count) } анҵамҭақәа
 goal-interval-weekly = Есымчыб­жьатәи
 share-goal-type-speak = Абжьы ҭаҩра
 share-goal-type-listen = Азыӡырҩра
 share-goal-type-both = Абжьы ҭаҩреи Азыӡырҩреи
+# LINK will be replaced with the current URL
+goal-share-text = Сара абыржәы #CommonVoice сыбжьы аҭаразы ахықәкы сымоуп. Шәсыцхраа амашьынақәа хаҭала ауаа еилыркаауа рыҟаҵара аус аҟны { $link }
 
 ## Profile Delete
 
