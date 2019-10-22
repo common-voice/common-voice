@@ -21,6 +21,7 @@ import { isProduction } from '../../../utility';
 
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
+import { API } from '@sentry/core';
 
 const TITLE_BAR_LOCALE_COUNT = 3;
 
@@ -219,25 +220,34 @@ interface ChallengeBarProps {
   isNarrow: boolean;
   setShowInviteModal(arg: any): void;
 }
-const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => (
-  <div className="challenge-bar">
-    <div className="points">
-      <img src={require('./awards/star.svg')} alt="score" />
-      <span className="score">448</span>
-      <span className="label label-my">{isNarrow ? 'Me' : 'My points'}</span>
-      <span className="divider"></span>
-      <span className="score">12345</span>
-      <span className="label label-team">Team{!isNarrow && ' points'}</span>
+const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
+  const api = useAPI();
+  const account = useAccount();
+  const [points, setAllPoints] = useState({ user: 0, team: 0 });
+
+  useEffect(() => {
+    api.fetchChallengePoints(account.email).then(setAllPoints);
+  });
+  return (
+    <div className="challenge-bar">
+      <div className="points">
+        <img src={require('./awards/star.svg')} alt="score" />
+        <span className="score">{points.user}</span>
+        <span className="label label-my">{isNarrow ? 'Me' : 'My points'}</span>
+        <span className="divider"></span>
+        <span className="score">{points.team}</span>
+        <span className="label label-team">Team{!isNarrow && ' points'}</span>
+      </div>
+      <Button
+        rounded
+        className="invite-btn"
+        onClick={() => setShowInviteModal(true)}>
+        <span className="content">Invite</span>
+        <span className="plus-icon"></span>
+      </Button>
     </div>
-    <Button
-      rounded
-      className="invite-btn"
-      onClick={() => setShowInviteModal(true)}>
-      <span className="content">Invite</span>
-      <span className="plus-icon"></span>
-    </Button>
-  </div>
-);
+  );
+};
 
 const PAGES = [
   { subPath: URLS.STATS, Page: StatsPage },

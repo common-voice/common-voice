@@ -289,4 +289,11 @@ export default class API {
   report(body: any) {
     return this.fetch(API_PATH + '/reports', { method: 'POST', body });
   }
+
+  //Challenge
+  fetchChallengePoints(
+    email?: string
+  ): Promise<{ user: number; team: number }> {
+    return this.fetch(API_PATH + '/challenge/points');
+  }
 }

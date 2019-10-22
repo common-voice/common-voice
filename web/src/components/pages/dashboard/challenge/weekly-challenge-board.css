@@ -16,7 +16,7 @@
         font-weight: 300;
         letter-spacing: 1px;
         margin-left: 20px;
-        max-width: 342px;
+        max-width: 60%;
     }
 }
 .icon {
@@ -172,4 +172,12 @@
     font-weight: 600;
     text-align: center;
     margin-top: 15px;
+}
+
+@media (--xs-down) {
+    .icon,
+    .icon img {
+        width: 47.5px;
+        height: 47.5px;
+    }
 }

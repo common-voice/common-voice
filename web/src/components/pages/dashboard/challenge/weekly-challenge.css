@@ -14,7 +14,7 @@
     background-color: #f9f9f9;
     border-bottom: 1px solid #f9f9f9;
     box-sizing: border-box;
-    > h2 {
+    & h2 {
         font-family: Zilla Slab;
         font-size: 20px;
         line-height: 1.4;
@@ -68,5 +68,43 @@
     }
     p:first-child {
         font-weight: 600;
+    }
+}
+@media (--xs-down) {
+    .week-points {
+        max-width: 98px;
+        padding: 17px 20px 0;
+        font-family: Roboto;
+        font-size: 12px;
+        & p:last-child {
+            display: none;
+        }
+        & img {
+            float: left;
+            margin-right: 5px;
+        }
+        & span {
+            text-align: center;
+            display: inline-block;
+            width: 20px;
+        }
+    }
+}
+
+@media (--sm-down) {
+    .weekly-container {
+        min-width: 100% !important;
+        margin-right: 0;
+        max-height: unset;
+    }
+    .range-container {
+        min-width: 100% !important;
+    }
+    .challenge-container {
+        flex-wrap: wrap;
+    }
+
+    .stats-card .filters {
+        flex-direction: row;
     }
 }
