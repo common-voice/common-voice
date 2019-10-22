@@ -650,13 +650,15 @@ report = Ирдыртәуп
 report-title = Ардырра шьҭтәуп
 report-ask = Ари абжьгараҟны проблемақәас иузцәырҵуазеи?
 report-offensive-language = Угәы нзырхо аҳәамҭақәа
+report-offensive-language-detail = Ауаа еилызхо, ма ргәы нзырхо аҳәамҭақәа.
 report-grammar-or-spelling = Аграмматикатә / аорфографиатә гха.
 report-grammar-or-spelling-detail = Аҳәоуқәа рыҟны иуԥылоит аорфографиатәи, мамзаргьы аграмматикатә гхақәа.
 report-different-language = Даҽа бызшәоуп
 report-different-language-detail = Сызлацәажәо абызшәа еиԥшымкәа иҩуп.
 report-difficult-pronounce = Аҳәаразы цәгьоуп
-report-offensive-speech = Угәы нзырхо ажәаҳәа
-report-offensive-speech-detail = Ауаа еилызхо, ма ргәы нзырхо аҳәамҭақәа.
+report-difficult-pronounce-detail = Зҳәара, ма зыԥхьара уадаҩу ажәақәеи афразақәеи алоуп.
+report-offensive-speech = Угәы нзырхо ажәақәа алоуп.
+report-offensive-speech-detail = Анҵамҭа ауаа еилызхо, ма ргәы нзырхо аҳәамҭақәа алоуп.
 report-other-comment =
     .placeholder = Аҿыхәҿаа
 success = Қәҿиа­рала
@@ -700,6 +702,7 @@ recorded-clips = Анҵамҭақәа абжьы ахарҵеит
 validated-clips = Анҵамҭақәа гәаҭан
 total-approved = Зынӡа игәаҭоуп.
 overall-accuracy = Азеиԥш иашара.
+set-visibility = Сара санҵамҭа ашьақәыргылара
 show-ranking = Сҭыԥ исырба
 
 ## Custom Goals
