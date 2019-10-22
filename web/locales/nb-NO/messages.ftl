@@ -248,6 +248,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = e
 shortcut-record-toggle-label = Ta opp/Stopp
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Spill inn lydklipp om igjen
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
 request-language-button = Send en forespørsel om et nytt språk
 
@@ -269,12 +270,22 @@ english = Engelsk
 
 profile-form-username =
     .label = Brukernavn
+profile-form-native-language =
+    .label = Morsmål
+profile-form-additional-language =
+    .label = Øvrige språk
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
     .label = Alder
 profile-form-gender =
     .label = Kjønn
+leaderboard-visibility =
+    .label = Synlighet på leaderboard
+hidden = Skjult
+visible = Synlig
+native-language =
+    .label = Morsmål
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagret
 male = Mann
@@ -282,13 +293,66 @@ female = Kvinne
 # Gender
 other = Annet
 why-profile-title = Hvorfor opprette en profil?
+why-profile-text = Ved å bidra med noe informasjon om deg selv, vil lyddataene du bidrar med til Common Voice være enda mer nyttige for talegjengjenningsmotorer, som bruker slike data til å forbedre sin nøyaktighet.
+dashboard = Dashboard
+build-profile = Lag profil
+avatar = Avatar
+goals = Mål
+settings = Innstillinger
 edit-profile = Rediger profil
 profile-create-success = Profil opprettet
 profile-close = Lukk
+profile-explanation = Hold rede på fremgangen din med en profil og hjelp oss med å gjøre våre stemmedata mer nøyaktige.
+thanks-for-account = Takk for at du bekreftet kontoen din. La oss lage en profil til deg.
+why-demographic = Hvorfor er dette viktig?
+why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og emailadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
+accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>Privacy Policy</privacyLink>.
+login-identity = Innloggingsidentitet
+login-signup = Logg inn / Lag konto
+edit = Rediger
+email-subscriptions = Abonnement
+download-profile = Last ned mine data
+contribution-experience = Bidragserfaring
+skip-submission-feedback = Hopp over tilbakemelding
+skip-submission-description = I løpet av bidragsinnsendelse vil tilbakemelding bli hoppet over etter å ha klikket 'Send inn'. Deretter fortsetter vi direkte med det neste settet med 5 innspillinger eller valideringer.
+skip-submission-note = Merk: Du må fortsatt velge mellom Tal eller Lytt for å endre bidragstype.
+off = Av
+on = På
+avatar-clip-title = Gi din avatar en stemme
+change-your-avatar-clip = Ønsker du å endre lydklippet ditt?
+recording-in-progress = Lydopptak pågår
+avatar-clip-recorded = Avataren din har nå et lydklipp!
+record-voice-wave = SPILL INN STEMME
+retry-voice-wave-recording = GJENTA
+re-record = SPILL INN PÅ NYTT
+delete-voice = SLETT
+recording-voice-wave = Innspilling
+delete-voice-clip = eller Slett lydklipp
+ready-to-upload = LAST OPP
+avatar-clip-fact = Det er et etablert faktum at en leser vil bli distrahert av sideinnholdet når vedkommende studerer sidens oppsett.
+recreate-voice = Gjenopprett Lydklipp
+cancel-avatar-clip-recording = AVBRYT
+about-avatar-clip-recording = Lag et lydklipp som del av profilavataren din. Andre kan holde musen over avataren og høre på lydklippet ditt.
+browse-file-title = Last opp en bildefil
+browse-file = Dra og slipp eller <browseWrap>Browse</browseWrap>
+connect-gravatar = Link til Gravatar
+gravatar_not_found = Ingen gravatar funnet for din e-mailadresse
+file_too_large = Den valgte filen er for stor
+manage-subscriptions = Endre Abonnement
+manage-email-subscriptions = Rediger e-post innstillinger
+email-already-used = E-mailadressen er allerede tilknyttet en annen konto
+add-language = Legg til språk
+change-email-setings = Endre e-mailadressen din via Innstillinger under Innloggingsidentitet
 
 ## FAQ
 
 faq-title = Ofte stilte spørsmål
+faq-what-cv-q = Hva er Common Voice?
+faq-what-cv-a =
+    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.  ¶
+    ¶
+    Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv håndtere dette spriket. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
+faq-why-important-q = Hvorfor er det viktig?
 
 ## ABOUT US
 
