@@ -703,6 +703,8 @@ validated-clips = Анҵамҭақәа гәаҭан
 total-approved = Зынӡа игәаҭоуп.
 overall-accuracy = Азеиԥш иашара.
 set-visibility = Сара санҵамҭа ашьақәыргылара
+visibility-explainer = Ари апараметр уара утоп аҟны уыҟазаара иацхраауеимт. Уара уанӡыргамха упрогрессгьы зӡыргахом. Уи иаанаго аԥхьагылаҩцәа рсиаҟны уара ухаҿсахьеи, ухархәагатә хьӡи упрогресси арбахаӡом ҳәа ауп. Хырҩа азуы аԥхьагылаҩцәа рсиа арҿыцра инықәырԥшны ~ { $minutes } шаҭаху.
+visibility-overlay-note = Азгәаҭа: 'Иубарҭоу' апрограмма шьақәыргылазар, ари аҳәаа ԥсаххар ҟалоит <profileLink>аҷыдахәра адаҟьа</profileLink> аҟны.
 show-ranking = Сҭыԥ исырба
 
 ## Custom Goals
@@ -717,8 +719,10 @@ easy-difficulty = Имариоуп
 average-difficulty = Ибжьаратәуп
 difficult-difficulty = Ицәгьоуп
 pro-difficulty = Про
+lose-goal-progress-warning = Ухықәкы аԥсахраан иумоу апрогресс уцәыӡыр ҟалоит.
 want-to-continue = Уҿызаароума?
 finish-editing = Уи аԥхьа аԥсахра уалгар уҭахума?
+lose-changes-warning = Уажәы уцар, иҟоуҵахьоу аԥсахрақәа уцәыӡыр ҟалоит.
 build-custom-goal = Еиқәшәо ахықәкы аҟаҵара
 how-many-a-week = Абзаиӡа! Шаҟа анҵамҭақәа мчыбжьык ала?
 n-clips = { NUMBER($count) } анҵамҭақәа
