@@ -730,6 +730,7 @@ activity-needed-calculation =
     { NUMBER($people) } ауаа есеҽны { NUMBER($clipsPerDay) } нҵамҭа ҟарҵалар
     { NUMBER($periodMonths) }-мз рыла { NUMBER($totalHours) } сааҭ ҟалоит.
 how-many-a-week = Абзаиӡа! Шаҟа анҵамҭақәа мчыбжьык ала?
+receiving-emails-info = Уара иуоулоит ухықәкы угәалазыршәа, аус ахьынӡа пеихьоуи, Common Voice иадҳәалоу ажәабыжьқәа ртәы зҳәо асалам шәыҟәқәа.
 n-clips = { NUMBER($count) } анҵамҭақәа
 goal-interval-weekly = Есымчыб­жьатәи
 share-goal-type-speak = Абжьы ҭаҩра
