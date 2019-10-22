@@ -294,6 +294,6 @@ export default class API {
   fetchChallengePoints(
     email?: string
   ): Promise<{ user: number; team: number }> {
-    return this.fetch(API_PATH + '/challenge/points');
+    return this.fetch(API_PATH + '/challenge/points/' + email);
   }
 }
