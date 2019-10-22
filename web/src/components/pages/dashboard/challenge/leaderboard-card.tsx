@@ -1,23 +1,19 @@
 import * as React from 'react';
 import { useRef, useState } from 'react';
 import { connect } from 'react-redux';
-import { useAccount, useAction } from '../../../../hooks/store-hooks';
+import { useAccount } from '../../../../hooks/store-hooks';
 import API from '../../../../services/api';
 import { trackDashboard } from '../../../../services/tracker';
 import StateTree from '../../../../stores/tree';
-import { User } from '../../../../stores/user';
-import URLS from '../../../../urls';
-import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers';
 
 import {
   BookmarkIcon,
   CheckIcon,
-  CrossIcon,
   EyeIcon,
   EyeOffIcon,
   InfoIcon,
 } from '../../../ui/icons';
-import { Avatar, Toggle } from '../../../ui/ui';
+import { Avatar } from '../../../ui/ui';
 import StatsCard from '../stats/stats-card';
 import { lazy } from 'react';
 import './leaderboard.css';
@@ -128,14 +124,6 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
 
   render() {
     const { rows, isAtEnd } = this.state;
-    const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: animationData,
-      rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice',
-      },
-    };
 
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
@@ -205,6 +193,12 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
         className="leaderboard"
         ref={this.scroller}
         onScroll={this.updateScrollIndicator}>
+        <li className="header" key="header">
+          <span>Ranking & Name</span>
+          <span>Points</span>
+          <span>Approved</span>
+          <span>Accuaracy</span>
+        </li>
         {items}
       </ul>
     );
@@ -220,21 +214,24 @@ const Leaderboard = connect<PropsFromState>(
   { forwardRef: true }
 )(UnconnectedLeaderboard);
 
-export default function LeaderboardCard({ title }: { title: string }) {
+export default function LeaderboardCard({
+  title,
+  showVisibleIcon,
+  showOverlay,
+}: {
+  title: string;
+  showVisibleIcon?: boolean;
+  showOverlay?: (event: React.MouseEvent<HTMLInputElement>) => void;
+}) {
   const account = useAccount();
-  const saveAccount = useAction(User.actions.saveAccount);
 
   const [showInfo, setShowInfo] = useState(false);
-  const [showOverlay, setShowOverlay] = useState(false);
 
   const leaderboardRef = useRef(null);
-
-  const minutes = 20;
-
   return (
     <StatsCard
       key="leaderboard"
-      className={'leaderboard-card ' + (showOverlay ? 'has-overlay' : '')}
+      className="leaderboard-card"
       title={title}
       challenge={true}
       iconButtons={
@@ -252,14 +249,15 @@ export default function LeaderboardCard({ title }: { title: string }) {
               <div className="icon-divider" />
             </>
           )}
-
-          <button type="button" onClick={() => setShowOverlay(true)}>
-            {account.visible ? <EyeIcon /> : <EyeOffIcon />}
-            <span className="text">Set my visibility</span>
-          </button>
-
-          <div className="icon-divider" />
-
+          {showVisibleIcon && (
+            <React.Fragment>
+              <button type="button" onClick={showOverlay}>
+                {account.visible ? <EyeIcon /> : <EyeOffIcon />}
+                <span className="text">Set my visibility</span>
+              </button>
+              <div className="icon-divider" />
+            </React.Fragment>
+          )}
           <div
             className="leaderboard-info"
             onMouseEnter={() => setShowInfo(true)}
@@ -294,44 +292,6 @@ export default function LeaderboardCard({ title }: { title: string }) {
             </button>
           </div>
         </div>
-      }
-      overlay={
-        showOverlay && (
-          <div className="leaderboard-overlay">
-            <button
-              className="close-overlay"
-              type="button"
-              onClick={() => setShowOverlay(false)}>
-              <CrossIcon />
-            </button>
-            <LocalizedGetAttribute
-              id="leaderboard-visibility"
-              attribute="label">
-              {label => <h2>{label}</h2>}
-            </LocalizedGetAttribute>
-            <Toggle
-              offText="hidden"
-              onText="visible"
-              defaultChecked={Boolean(account.visible)}
-              onChange={(event: any) => {
-                saveAccount({ visible: event.target.checked });
-              }}
-            />
-            <p className="explainer">
-              This setting controls your leaderboard visibility. When hidden,
-              your progress will be private. This means your image, user name
-              and progress will not appear on the leaderboard. Note that
-              leaderboard refresh takes ~{minutes}min to populate changes.
-            </p>
-            <div className="info">
-              <InfoIcon />
-              <p className="note">
-                Note: When set to 'Visible', this setting can be changed from
-                the <LocaleLink to={URLS.PROFILE_INFO}>Profile page</LocaleLink>
-              </p>
-            </div>
-          </div>
-        )
       }
       tabs={{
         recorded: () => (

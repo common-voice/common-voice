@@ -8,7 +8,7 @@ const WEEKS: Array<string> = [
   "Let's get social",
   'Be the team with the highest sign up rate',
 ];
-const START_DATE: string = '10/07/2019';
+const START_DATE: string = '10/21/2019';
 
 const getCurrentWeek = (): number => {
   let now = moment().week();
@@ -18,7 +18,12 @@ const getCurrentWeek = (): number => {
 
 export default function WeeklyChallenge() {
   let currentWeek = getCurrentWeek();
-
+  let futureWeek: number = 0;
+  if (currentWeek - 1 < 0) {
+    futureWeek = currentWeek + 2;
+  } else if (currentWeek + 1 >= WEEKS.length) {
+    futureWeek = currentWeek - 2;
+  }
   return (
     <div className="weekly-container">
       <div className="weekly-topbar">
@@ -61,8 +66,8 @@ export default function WeeklyChallenge() {
           <p className="weekly-title">Past/Futrue challenge</p>
           <WeeklyChallengeBoard
             isDisabled
-            title={WEEKS[currentWeek - 1]}
-            week={currentWeek - 1}
+            title={WEEKS[futureWeek]}
+            week={futureWeek}
           />
         </div>
       </div>

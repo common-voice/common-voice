@@ -1,5 +1,7 @@
 @import url('../../../vars.css');
 .weekly-container {
+    max-height: 1060px;
+    overflow-y: auto;
     min-width: calc(50% - 8px);
     margin-right: 16px;
     height: 100%;

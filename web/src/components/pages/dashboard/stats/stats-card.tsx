@@ -41,7 +41,6 @@ export default function StatsCard({
         </div>
         <div className="filters">
           <div className="tabs">
-            {/* <button type="button">123</button> */}
             {Object.keys(tabs).map(label => {
               return challenge ? (
                 <button
