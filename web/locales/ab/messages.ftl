@@ -726,6 +726,9 @@ lose-changes-warning = Уажәы уцар, иҟоуҵахьоу аԥсахра�
 build-custom-goal = Еиқәшәо ахықәкы аҟаҵара
 help-reach-hours = Ухықәкы уцырхрааны, абри { $language } аҿы { NUMBER($hours) } сааҭ анагӡара
 help-reach-hours-general = Ухықәкы уцырхрааны, Common Voice абри абызшәала { NUMBER($hours) } сааҭ анагӡара
+activity-needed-calculation =
+    { NUMBER($people) } ауаа есеҽны { NUMBER($clipsPerDay) } нҵамҭа ҟарҵалар
+    { NUMBER($periodMonths) }-мз рыла { NUMBER($totalHours) } сааҭ ҟалоит.
 how-many-a-week = Абзаиӡа! Шаҟа анҵамҭақәа мчыбжьык ала?
 n-clips = { NUMBER($count) } анҵамҭақәа
 goal-interval-weekly = Есымчыб­жьатәи
