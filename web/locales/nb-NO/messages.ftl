@@ -424,9 +424,35 @@ about-partners = Partnere
 about-become-a-partner = Bli en partner
 about-partnership = Common Voice er et samarbeidsprosjekt, og vi er avhengig av vårt samfunn av partnere og bidragsytere for å bygge det største åpen-kilde datasettet av stemmer noensinne.  Vi vil gjerne få takke følgende personer og organisasjoner for deres bistand med prosjektet:
 about-get-involved = Bli med
+about-get-involved-text =
+    Vil du hjelpe til med å gjøre Common Voice enda  bedre?¶
+    Flott! Ta kontakt via email eller på <discourseLink>Discourse</discourseLink>,¶
+     gi tilbakemelding via <githubLink>GitHub</githubLink>, ¶
+    eller kom sammen med oss på <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Hvorfor?
+about-nav-how-it-works = Hvordan?
+about-nav-partners = Partnere
+about-nav-get-involved = Bli med
+mycroft-title = Mycroft AI
+mycroft-subtitle = Kunstig Intelligens
+mycroft-description =
+    Mycroft er verdens første åpen kildekode digitale assistent. ¶
+    Mycroft kjører på hva som helst - en stasjonær PC, i en bil, eller på en Raspberry Pi.
+mycroft-secondary-description = Dette er åpen kildekode som fritt kan endres, utvides og forbedres. Mycroft kan brukes i hva som helst fra vitenskapelige prosjekter til bedriftsapplikasjoner.
 
 ## Glossary
 
+glossary = Ordliste
+localization = Lokalisering
+localization-explanation = Dette er vår prosess for å oversette og tilpasse vårt innhold til mange språk.
+sentence-collection = Setningsinnsamling
+sentence-collection-explanation = Å samle setninger fra offentlig eiendom ("public domain"), eller å skrive nye setninger for offentlig eiendom.
+hours-recorded-explanation = Antall timer med innspilt tale vi har samlet så langt.
+hours-validated-explanation = Antall timer stemmeopptak som er validert av 2 av 3 brukere med en "Ja"-stemme. Disse markerer veien mot det totale målet på 10000 timer.
+sst = Tale-til-tekst
+sst-explanation = Tale-til-tekst-teknologi konverterer taledata til tekst.
+de-identified = Avidentifisert
+de-identified-explanation = Prosessen der en bidragsyteres profilinformasjon blir frikoblet fra de bidratte stemmeklippene når de pakkes for nedlasting som en del av datasettet.
 
 ## NotFound
 
@@ -440,8 +466,14 @@ data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
 data-download-modal = Du er i ferd med å starte en nedlasting av <size>{ $size }GB</size>. Vil du fortsette?
+data-subtitle = Vi bygger et åpent og offentlig tilgjengelig datasett med stemmer som alle kan bruke for å trene applikasjoner med talegjenkjenning.
+data-explanatory-text = Vi tror at store og offentlig tilgjengelige stemmedatasett fremmer innovasjon og sunn kommersiell konkurranse innen maskinlæringsbasert taleteknologi. Dette er en global innsats, og vi inviterer alle til å delta. Målet vårt er å gjøre taleteknologi mer inkluderende, og gjenspeile mangfoldet av stemmer fra hele verden.
+data-get-started = <speechBlogLink> Kom i gang med talegjenkjenning </speechBlogLink>
+data-other-title = Andre stemmedatasett...
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
+data-bundle-button = Last ned datasettene
+data-bundle-description = Common Voice datasettet pluss alle andre stemmedatasett over.
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernbestemmelsen</privacyLink> vår
@@ -458,6 +490,32 @@ review-delete-recordings = Slett opptakene mine
 
 ## Datasets Page
 
+datasets-headline = Vi bygger et åpen kildekode, flerspråklig datasett med stemmer som alle kan bruke for å trene applikasjoner med talegjenkjenning.
+datasets-positioning =
+    Vi tror at store, offentlig tilgjengelige stemmedatasett vil fremme innovasjon og sunn kommersiell konkurranse innen maskinlæringsbasert taleteknologi.
+    
+    Common Voices flerspråklige datasett er allerede det største offentlig tilgjengelige stemmedatasettet av sitt slag, men det er ikke det eneste.
+    
+    Se på denne siden som et referansehub for andre stemmesett med åpen kildekode, og etterhvert som Common Voice fortsetter å vokse, et hjem for våre datasettoppdateringer.
+language = Språk
+# File size in gigabytes
+size = Størrelse
+validated-hr-total = Antall validerte timer totalt
+overall-hr-total = Antall timer totalt
+cv-license = Lisens
+audio-format = Lydformat
+number-of-voices = Antall stemmer
+splits = Deler
+email-to-download = Skriv inn e-post for å laste ned
+why-email = <b> Hvorfor en e-postadresse? </b> Vi kan komme til å måtte kontakte deg i fremtiden om endringer i datasettet, en e-postadresse gir oss et kontaktpunkt.
+confirm-size = Du er forberedt på å starte nedlasting av <b> { $size } </b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b> Du sier deg enig </b> i å ikke prøve å identifisere talere i Common Voice-datasettet
+download-language = Last ned { $language }
+validated-hours = Validerte timer
+recorded-hours = Innspilte timer
+whats-inside = Hva inneholder Common Voice-datasettet?
 data-other-ted-name = TED-LIUM-korpus
 
 ## Download Modal
