@@ -16,14 +16,21 @@ const getCurrentWeek = (): number => {
   return now - startWeek;
 };
 
-export default function WeeklyChallenge() {
+export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
   let currentWeek = getCurrentWeek();
-  let futureWeek: number = 0;
-  if (currentWeek - 1 < 0) {
-    futureWeek = currentWeek + 2;
-  } else if (currentWeek + 1 >= WEEKS.length) {
-    futureWeek = currentWeek - 2;
+  let pastWeek: Array<number> = [];
+  switch (currentWeek) {
+    case 0:
+      break;
+    case 1:
+      pastWeek.push(currentWeek - 1);
+      break;
+    case 2:
+      pastWeek.push(currentWeek - 1);
+      pastWeek.push(currentWeek - 2);
+      break;
   }
+  const label = pastWeek.length === 0 ? 'Future' : 'Past';
   return (
     <div className="weekly-container">
       <div className="weekly-topbar">
@@ -51,25 +58,43 @@ export default function WeeklyChallenge() {
       <div className="weekly-content">
         <div>
           <p className="weekly-title">Current challenge</p>
-          <WeeklyChallengeBoard title={WEEKS[currentWeek]} week={currentWeek} />
+          <WeeklyChallengeBoard
+            title={WEEKS[currentWeek]}
+            week={currentWeek}
+            isNarrow={isNarrow}
+          />
         </div>
-        {currentWeek < WEEKS.length - 1 && (
+        {pastWeek.length !== WEEKS.length - 1 && (
           <div>
             <p className="weekly-title">Next challenge</p>
             <WeeklyChallengeBoard
               isDisabled
               title={WEEKS[currentWeek + 1]}
               week={currentWeek + 1}
+              isNarrow={isNarrow}
             />
           </div>
         )}
         <div>
-          <p className="weekly-title">Past/Futrue challenge</p>
-          <WeeklyChallengeBoard
-            isDisabled
-            title={WEEKS[futureWeek]}
-            week={futureWeek}
-          />
+          <p className="weekly-title">{label} challenge</p>
+          {label === 'Future' ? (
+            <WeeklyChallengeBoard
+              isDisabled
+              title={WEEKS[currentWeek + 2]}
+              week={currentWeek + 2}
+              isNarrow={isNarrow}
+            />
+          ) : (
+            pastWeek.map((value, index) => (
+              <WeeklyChallengeBoard
+                isDisabled
+                title={WEEKS[value]}
+                week={value}
+                key={index}
+                isNarrow={isNarrow}
+              />
+            ))
+          )}
         </div>
       </div>
     </div>

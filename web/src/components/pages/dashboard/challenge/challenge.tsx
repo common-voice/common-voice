@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Props from '../props';
 import WeeklyChallenge from './weekly-challenge';
 import LeaderBoardCard from './leaderboard-card';
@@ -48,9 +48,22 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
 
 export default function ChallengePage({ dashboardLocale }: Props) {
   const [showOverlay, setShowOverlay] = useState(false);
+  const [isNarrow, setIsNarrow] = useState(false);
+  useEffect(() => {
+    const checkSize = () => {
+      const { innerWidth } = window;
+      setIsNarrow(innerWidth <= 768);
+    };
+    window.addEventListener('resize', checkSize);
+    checkSize();
+
+    return () => {
+      window.removeEventListener('resize', checkSize);
+    };
+  }, []);
   return (
     <div className="challenge challenge-container">
-      <WeeklyChallenge />
+      <WeeklyChallenge isNarrow={isNarrow} />
       <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
         <div className="leader-board">

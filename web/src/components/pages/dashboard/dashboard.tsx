@@ -21,7 +21,6 @@ import { isProduction } from '../../../utility';
 
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
-import { API } from '@sentry/core';
 
 const TITLE_BAR_LOCALE_COUNT = 3;
 
@@ -71,6 +70,7 @@ const TopBar = ({
       const { innerWidth } = window;
       setIsAboveMdWidth(innerWidth > 992);
     };
+    checkSize();
     window.addEventListener('resize', checkSize);
 
     return () => {

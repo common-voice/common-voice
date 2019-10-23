@@ -5,7 +5,8 @@
     border: 1.6px solid var(--light-grey);
 }
 .title-container {
-    height: 142px;
+    min-height: 142px;
+    height: auto;
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -175,9 +176,106 @@
 }
 
 @media (--xs-down) {
+    .title-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        /* min-height: 142px;
+        height: auto; */
+        .title {
+            margin: 5px 0 0;
+            max-width: 100%;
+        }
+    }
     .icon,
     .icon img {
         width: 47.5px;
         height: 47.5px;
+    }
+    .content-row {
+        flex-direction: column;
+        height: auto;
+        .column {
+            width: 100%;
+            padding: 15px 18px;
+            box-sizing: border-box;
+            height: auto;
+            img {
+                width: 48px;
+                height: 48px;
+                margin: 0 15px 0 0;
+                float: left;
+            }
+            p {
+                line-height: 48px;
+                text-align: left;
+            }
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            padding: 11px 20px;
+            border-bottom: 1px solid var(--light-grey);
+            justify-content: space-between;
+            &.team {
+                flex-direction: column;
+                border-bottom: 0;
+                order: 2;
+            }
+            &.invite {
+                flex-direction: row;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding-top: 20px;
+                .divider {
+                    height: 33px;
+                    display: block;
+                    margin: 0 15px;
+                }
+            }
+        }
+        .divider {
+            display: none;
+        }
+        .speak-btn,
+        .listen-btn {
+            margin: 0;
+        }
+        .fraction {
+            align-items: center;
+            &.speak {
+                color: #ff4f5e;
+            }
+            &.listen {
+                color: #59cbb7;
+            }
+        }
+        .numerator {
+            font-weight: 600;
+            font-size: 24px;
+        }
+        .team-text {
+            width: 100%;
+            padding: 0;
+        }
+        .v-divider {
+            display: none;
+        }
+        .team-invite {
+            padding: 10px 0 0 0;
+            font-size: 12px;
+        }
+        .team-invite-percentage {
+            color: #629ff4;
+            span {
+                font-size: 24px;
+                float: left;
+            }
+        }
+        .team-invite-total {
+            margin-top: 0;
+        }
     }
 }
