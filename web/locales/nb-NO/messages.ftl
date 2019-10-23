@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Send inn
 loading = Laster…
 email-opt-in-info = Jeg vil gjerne motta e-post med påminnelser, oppdateringer om fremgang og nyheter om Common Voice.
+email-opt-in-info-title = Abonner på Common Voice e-postlisten
+email-opt-in-info-sub = Motta e-mail om målpåminnelser, oppdateringer om progresjon og nyhetsbrev om Common Voice.
 email-opt-in-privacy = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink> personvernerklæring.
 indicates-required = * Indikerer obligatorisk felt
 not-available-abbreviation = (Ikke relevant)
@@ -164,6 +166,8 @@ wall-of-text-more-desktop =
     for å lage nyskapende apper, både for datamaskiner, telefoner og nettet.<lineBreak></lineBreak>
     Les en setning og hjelp maskiner med å forstå hvordan folk snakker. Kontroller bidragene
     til andre og vær med på å forbedre kvaliteten. Så enkelt er det!
+wall-of-text-first = Stemmen er naturlig, stemmen er menneskelig. Det er derfor vi er fascinert av å lage en anvendelig taleteknologi for maskinene våre. Men for å lage systemer for talegjenkjenning trengs det svært store mengder med innspilt tale.
+wall-of-text-second = Det meste av dataene som brukes av store bedrifter er utilgjengelige for folk flest. Vi mener dette hindrer innovasjon. Derfor lanserte vi prosjektet Common Voice, et prosjekt for å hjelpe til med å gjøre talegjenkjenning tilgjengelig for alle.
 show-wall-of-text = Les mer
 help-us-title = Hjelp oss med å validere setninger!
 help-us-explain = Trykk på spill av, lytt, og fortell oss om den innspilte setningen var korrekt.
@@ -172,6 +176,7 @@ vote-yes = Ja
 vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspillingen
 speak-subtitle = Bidra med din stemme
+speak-paragraph = Innspilling av stemmeklipp er en integrert del av å bygge vårt åpne datasett; noen vil si det er den morsomme delen også.
 speak-goal-text = Innspilte lydklipp
 listen-subtitle = Hjelp oss med å validere lydklipp
 listen-paragraph = Å validere lydklipp som er bidratt er like viktig for måloppnåelsen til Common Voice. Lytt, og hjelp oss med å skape åpne taledata med kvalitet.
@@ -203,6 +208,7 @@ x-years-short =
 help-make-dataset = Hjelp oss med å lage et høykvalitets, offentlig tilgjengelig datasett.
 sign-up-account = Lag deg en konto
 email-subscription-title = meld deg på for oppdateringer på e-mail
+email-subscription-title-new = Registrer deg for Common Voice nyhetsbrev, målpåminnelser og fremdriftsoppdateringer
 
 ## Account Benefits
 
@@ -307,6 +313,7 @@ thanks-for-account = Takk for at du bekreftet kontoen din. La oss lage en profil
 why-demographic = Hvorfor er dette viktig?
 why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og emailadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>Privacy Policy</privacyLink>.
+accept-privacy-title = Personvernpolicy
 login-identity = Innloggingsidentitet
 login-signup = Logg inn / Lag konto
 edit = Rediger
@@ -362,6 +369,7 @@ faq-how-get-a = Common Voice datasettet er tilgjengelig for nedlasting under <li
 faq-when-release2-q = Når vil Common Voice datasettet bli gjort tilgjengelig på andre språk?
 faq-when-release2-a = Den flerspråklige versjonen av datasettet Common Voice gjennomgår for øyeblikket en dugnadsbasert pakking og rengjøring. Om du vil hjelpe oss med å bringe Common Voice til nye språk, kan du gå til <sentenceCollectorLink> Setningsinnsamlingsverktøy</sentenceCollectorLink> for å legge til nye setninger i datasettet, og Mozilla <pontoonLink> Pontoon </pontoonLink> for å oversette selve nettstedet. Nye språk legges til Common Voice for stemmebidrag når 5000 godkjente setninger er samlet.
 faq-why-mission-q = Hvorfor er Common Voice del av Mozillas oppdrag?
+faq-why-mission-a = Mozilla er opptatt av å holde nettet åpent og tilgjengelig for alle. For å gjøre det, må vi styrke webutviklere gjennom prosjekter som Common Voice. Ettersom taleteknologier sprer seg utover nisjeprogrammer, mener vi at de må tjene alle brukere likt. Det betyr å investere i flere språk og imøtekomme forskjellige aksenter og demografier når du bygger og tester taleteknologier. Common Voice er en offentlig ressurs tilgjengelig for alle, og Mozilla-team og utviklere over hele verden bruker den allerede på våre egne prosjekter.
 faq-what-cv-and-deepspeech-q = Hva er forskjellen mellom Common Voice og Deep Speech?
 faq-what-cv-and-deepspeech-a = Common Voice datasettet komplementerer Mozillas talegjenkjenningsmotor Deep Speech, som er lisensiert som åpen kildekode. Den første utgaven av Deep Speech ble sluppet i november 2017 og har blitt videreutviklet siden. Sammen med Common Voice datasettet mener vi at denne åpne teknologien for talegjenkjenning bør være tilgjengelig for alle. Det er vårt håp at disse teknologiene setter utviklere i stand til å lage en flom av innovative produkter og tjenester.
 faq-is-goal-assistant-q = Er målet med Common Voice å bygge en stemmestyrt digital assistent?
@@ -756,7 +764,21 @@ share-goal = Del målet mitt
 
 ## Profile Delete
 
+delete-q = Vil du at lydklippene dine også slettes, eller vil du helst beholde de i Common Voice datasettet?
+keep = Behold
+remove = Fjern
+keep-info = Dine anonyme stemmeopptak vil forbli i Common Voice datasettet. Når du har slettet profilen din, vil du ikke lenger kunne sende inn en forespørsel om å fjerne opptakene dine fra datasettet
+remove-info = Vi vil gjennomgå forespørselen din om å fjerne stemmeavspillingen fra datasettet. Hvis forespørselen din blir godkjent, kontakter vi de som har lastet ned datasettet, og ber om at også de fjerner lydklippene dine.
+why-delete-recordings =
+    Common Voice lydklipp brukes av akademikere, små bedrifter og talegjenkjenningsentusiaster for å hjelpe til med å trene og øke offentlig tilgjengelige ressurser som stemmemodeller.
+    
+    Kan du fortelle oss om hvorfor du vil at lydklippene dine blir slettet?
 profile-form-delete = Slett profil
 
 ## Landing
 
+welcome-staff = Velkommen medarbeidere fra { $company }!
+help-contribute = Du kan bidra til å bygge et mangfoldig, åpen kilde datasett ved å opprette en Common Voice-profil og bidra med stemmen din.
+login-company = Logg inn / Registrer deg med { $company } e-post
+profile-not-required = Å ha en profil er ikke påkrevet for å bidra, men det hjelper. Se hvorfor under.
+read-more-about = Les mer på vår "Om" side
