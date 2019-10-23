@@ -1,6 +1,7 @@
 import { AllGoals, CustomGoalParams } from 'common/goals';
 import { LanguageStats } from 'common/language-stats';
 import { UserClient } from 'common/user-clients';
+import { WeeklyChallenge } from 'common/challenge';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
@@ -294,6 +295,10 @@ export default class API {
   fetchChallengePoints(
     email?: string
   ): Promise<{ user: number; team: number }> {
-    return this.fetch(API_PATH + '/challenge/points/' + email);
+    return this.fetch(`${API_PATH}/challenge/weekly/${email}`);
+  }
+
+  fetchWeeklyChallenge(email?: string, date?: Date): Promise<WeeklyChallenge> {
+    return this.fetch(`${API_PATH}/challenge/weekly/${email}/${date}`);
   }
 }

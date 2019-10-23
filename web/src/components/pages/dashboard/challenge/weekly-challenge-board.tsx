@@ -1,31 +1,26 @@
 import * as React from 'react';
 import { LocaleLink } from '../../../locale-helpers';
 import { CircleProgress } from '../../../pages/dashboard/ui';
-import { useAccount } from '../../../../hooks/store-hooks';
+import { WeeklyChallenge } from '../../../../../../common/challenge';
 import URLS from '../../../../urls';
 import './weekly-challenge-board.css';
-
-interface TeamInfo {
-  id: number;
-  name: string;
-  logo: string;
-}
-type teamType = TeamInfo;
 
 export default function WeeklyChallengeBoard({
   isDisabled,
   title,
   week,
   isNarrow,
-  team,
+  avatarUrl,
+  weekly,
 }: {
   isDisabled?: boolean;
   title: string;
   week: number;
   isNarrow: boolean;
-  team?: teamType;
+  avatarUrl: string;
+  weekly: WeeklyChallenge;
 }) {
-  const account = useAccount();
+  const { user, team } = weekly;
   return (
     <div className={`challenge-board ${isDisabled ? 'disabled' : ''}`}>
       <div className="title-container">
@@ -48,9 +43,7 @@ export default function WeeklyChallengeBoard({
             <div className="column">
               <img
                 src={
-                  account.avatar_url
-                    ? require(account.avatar_url)
-                    : require('./images/ava.svg')
+                  avatarUrl ? require(avatarUrl) : require('./images/ava.svg')
                 }
                 alt="Avatar"
               />
@@ -64,15 +57,15 @@ export default function WeeklyChallengeBoard({
               {!isNarrow ? (
                 <CircleProgress
                   className="speak-bar"
-                  value={50}
-                  denominator={200}
+                  value={user.speak}
+                  denominator={user.speak_total}
                   strokeW={4}
                   radius={66}
                 />
               ) : (
                 <div className="fraction speak">
-                  <div className="numerator">50</div>
-                  <div className="denominator"> / 200</div>
+                  <div className="numerator">{user.speak}</div>
+                  <div className="denominator"> / {user.speak_total}</div>
                 </div>
               )}
             </div>
@@ -85,15 +78,15 @@ export default function WeeklyChallengeBoard({
               {!isNarrow ? (
                 <CircleProgress
                   className="listen-bar"
-                  value={50}
-                  denominator={200}
+                  value={user.listen}
+                  denominator={user.listen_total}
                   strokeW={4}
                   radius={66}
                 />
               ) : (
                 <div className="fraction listen">
-                  <div className="numerator">50</div>
-                  <div className="denominator"> / 200</div>
+                  <div className="numerator">{user.listen}</div>
+                  <div className="denominator"> / {user.listen_total}</div>
                 </div>
               )}
             </div>
@@ -117,20 +110,21 @@ export default function WeeklyChallengeBoard({
               {!isNarrow ? (
                 <CircleProgress
                   className="team-bar"
-                  value={50}
-                  denominator={200}
+                  value={team.invite / team.invite_total}
                   strokeW={4}
                   radius={66}
                 />
               ) : (
                 <React.Fragment>
                   <div className="team-invite-percentage">
-                    <span>25</span>%
+                    <span>{team.invite / team.invite_total}</span>%
                   </div>
                   <div className="divider"></div>
                 </React.Fragment>
               )}
-              <p className="team-invite-total">of 50 invites</p>
+              <p className="team-invite-total">
+                of {team.invite_total} invites
+              </p>
             </div>
           </div>
         </div>

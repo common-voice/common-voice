@@ -44,6 +44,7 @@ export default function StatsCard({
             {Object.keys(tabs).map(label => {
               return challenge ? (
                 <button
+                  key={label}
                   type="button"
                   className={label == selectedTab ? 'selected' : ''}
                   onClick={() => setSelectedTab(label)}>
