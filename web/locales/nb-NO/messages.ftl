@@ -516,7 +516,31 @@ download-language = Last ned { $language }
 validated-hours = Validerte timer
 recorded-hours = Innspilte timer
 whats-inside = Hva inneholder Common Voice-datasettet?
+dataset-description-hours =
+    Hver oppføring i datasettet består av en unik mp3-fil og en tilhørende tekstfil. Mange av de <b> { $total } </b> timer som er spilt inn i datasettet inkluderer også demografiske metadata som alder, kjønn og aksent som kan bidra til å trene nøyaktigheten til talegjenkjenningsmotorer.
+    
+    Datasettet består for øyeblikket av <b> { $valid } </b> validerte timer på <b> { $languages } </b> språk, men vi legger hele tiden til flere stemmer og språk. Ta en titt på <languagesLink> Språk-siden </languagesLink> for å be om et språk eller begynne å bidra.
+want-dataset-update = Vil du ha en oppdatering når vi slipper en ny versjon av Common Voice-datasettet? Abonner på vårt nyhetsbrev.
+subscribe = Abonner
+get-started-speech = Kom i gang med talegjenkjenning
+other-datasets = Andre stemmedatasett
+feedback-q = Har du tilbakemeldinger?
+deepspeech-info = Common Voice-datasettet komplementerer Mozillas åpen kildekode stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å bygge talegjenkjenningsapplikasjoner. Les vår <githubLink> Github-oversikt </githubLink> eller bli med på <discourseLink> DeepSpeech Discourse </discourseLink> for å lære hvordan du kommer i gang.
+common-voice-info-new = Har du spørsmål om Common Voice? Ideer til forbedringer eller tilbakemeldinger om et spesifikt språk? Bli med på vårt <discourseLink> Discourse forum </discourseLink> og gi oss beskjed.
+data-other-librispeech-description = LibriSpeech er et korpus på omtrent 1000 timer med 16 kHz lest engelsk tale hentet fra innleste lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM-korpus
+data-other-ted-description = TED-LIUM-korpuset ble produsert av presentasjoner og deres transkripsjoner tilgjengelig på TED-nettstedet.
+data-other-voxforge-description = VoxForge ble satt opp for å samle transkribert tale for bruk med fri og åpen kildekode talegjenkjenningsmotorer.
+data-other-tatoeba-description = Tatoeba er en stor database med setninger, oversettelser og tale for bruk i språkopplæring. Denne nedlastingen inneholder engelsk som er spilt inn av deres samfunn.
+your-feedback = Har du ideer til hvordan vi kan gjøre Common Voice datasettet bedre? Gi oss beskjed på Discourse
+go-discourse = Gå til Discourse
+missing-language = Ser du ikke språket ditt i datasettet? For å be om et språk, gå til språk-siden vår.
+go-languages-page = Gå til Språk-siden
+ready-to-validate = Klar til å hjelpe til med å validere setninger?
+more = Mer
+close = Lukk
+download = Last ned
+dataset-version = Versjon
 
 ## Download Modal
 
@@ -525,6 +549,7 @@ download-helpus = Hjelp oss med å bygge en fellesskap omkring stemmeteknologi, 
 download-form-email =
     .label = Skriv inn e-postadressen din
     .value = Takk skal du ha, vi kontakter deg.
+download-back = Gå tilbake til Common Voice datasett
 download-no = Nei takk
 
 ## Contact Modal
@@ -542,45 +567,192 @@ request-language-title = Språkforespørsel
 request-language-form-language =
     .label = Språk
 request-language-success-title = Språkforespørselen er sendt inn. Takk skal du ha.
+request-language-success-content = Vi kontakte deg med mer informasjon om hvordan du legger til språket ditt i Common Voice ganske snart.
+select-language = Velg Språk...
+other-language = Annet Språk
 
 ## Languages Overview
 
 language-section-in-progress = Pågående
+language-section-in-progress-new-description = Disse språkene er for tiden under utvikling. Fremdriftsindikatorene viser hvor langt hvert språk har kommet med <localizationGlossaryLink> nettstedslokalisering </localizationGlossaryLink> og <sentenceCollectionGlossaryLink> setningsinnsamling </sentenceCollectionGlossaryLink>.
 language-section-launched = Lansert
+language-section-launched-description = For disse lanserte språkene har nettstedet blitt <localizationGlossaryLink> lokalisert </localizationGlossaryLink>, og har nok <sentenceCollectionGlossaryLink> setninger samlet </sentenceCollectionGlossaryLink> til å gi mulighet for løpende <speakLink> Tale- </speakLink> og <listenLink> Lytte-</ listenLink > bidrag.
 languages-show-more = Vis mer
 languages-show-less = Vis mindre
+language-meter-in-progress = Framgang
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Søk
 language-speakers = Talt av
+localized = Oversatt
+sentences = Setninger
+total-hours = Bekreftede timer
 
 ## Contribution
 
 action-click = Klikk
 action-tap = Trykk
+contribute = Bidra
 listen = Lytt
 skip = Hopp over
 shortcuts = Snarveier
+clips-with-count = <bold>{ $count }</bold> Lydklipp
+goal-help-recording = Du har hjulpet Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige opptaksmål på { $goalValue }!
+goal-help-validation = Du har hjulpet Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige bekreftelsesmål på { $goalValue }!
+contribute-more =
+    { $count ->
+        [one] Klar til å gjøre en til?
+       *[other] Klar til å gjøre { $count } til?
+    }
 record-cta = Start opptak
+record-platform-not-supported = Vi beklager, plattformen din støttes ikke for øyeblikket.
 record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
 record-platform-not-supported-ios = <bold>iOS</bold>-brukere kan laste ned gratisappen vår:
 record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
+record-no-mic-found = Ingen mikrofon funnet.
 record-error-too-short = Innspillingen var for kort.
 record-error-too-long = Innspillingen var for lang.
 record-error-too-quiet = Innspillingen var for stille.
 record-cancel = Avbryt nyinnspillingen
+record-instruction = { $actionType }<recordIcon></recordIcon> les deretter setningen høyt
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er ferdig
+record-three-more-instruction = Tre igjen!
+record-again-instruction = Supert!<recordIcon></recordIcon> Ta opp ditt neste klipp
+record-again-instruction2 = Fortsett slik, spill inn en gang til <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Siste nå!
+review-tooltip = Her kan du se gjennom og ta opp klipp på nytt
+review-instruction = Se gjennom og ta opp på nytt om nødvendig
+record-submit-tooltip = { $actionType } send inn når du er klar
+clips-uploaded = Klipp lastet opp
+record-abort-title = Fullføre opptak først?
+record-abort-text = Hvis du avslutter nå, mister du arbeidet ditt
+record-abort-submit = Send inn klipp
+record-abort-continue = Fullfør opptak
+record-abort-delete = Gå ut og slett klipp
+listen-instruction = { $actionType }<playIcon></playIcon> ble setningen lest opp korrekt?
+listen-again-instruction = Supert jobbet!<playIcon></playIcon> Hør på klippet en gang til når du er klar
+listen-3rd-time-instruction = 2 ferdig, fortsett slik!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>En igjen!
+nothing-to-validate = Vi har ikke noe å bekrefte på dette språket. Hjelp oss gjerne med å fylle køen.
+record-button-label = Ta opp stemmen din
+share-title-new = <bold>Hjelp oss</bold> med å finne flere stemmer
+keep-track-profile = Hold oversikt over fremgangen din med en profil
+login-to-get-started = Logg inn eller registrer deg før du starter
 
 ## Reporting
 
+report = Rapporter
+report-title = Send inn en rapport
+report-ask = Hvilke problemer opplever du med denne setningen?
+report-offensive-language = Støtende språk
+report-offensive-language-detail = Setningen inneholder respektløst eller krenkende språk.
+report-grammar-or-spelling = Grammatisk / stavefeil
+report-grammar-or-spelling-detail = Setningen har en grammatisk eller stavefeil.
+report-different-language = Annet språk
+report-different-language-detail = Det er skrevet på et annet språk enn det jeg snakker.
+report-difficult-pronounce = Vanskelig å uttale
+report-difficult-pronounce-detail = Den inneholder ord eller uttrykk som er vanskelig å lese eller uttale.
+report-offensive-speech = Støtende språk
+report-offensive-speech-detail = Lydklippet har respektløst eller støtende språk.
+report-other-comment =
+    .placeholder = Kommentar
+success = Suksess
+continue = Fortsett
+report-success = Rapporten er fullført
 
 ## Goals
 
+streaks = Strekk
+days =
+    { $count ->
+        [one] Dag
+       *[other] Dager
+    }
+recordings =
+    { $count ->
+        [one] Innspilling
+       *[other] Innspillinger
+    }
+validations =
+    { $count ->
+        [one] Validering
+       *[other] Valideringer
+    }
 
 ## Dashboard
 
+your-languages = Dine språk
+toward-next-goal = Mot neste mål
+clips-you-recorded = Lydklipp du har spilt inn
+clips-you-validated = Lydklipp du har validert
+todays-recorded-progress = Dagens framgang på antall lydklipp spilt inn
+todays-validated-progress = Dagens framgang på antall validerte lydklipp
+stats = Statistikk
+awards = Utmerkelser
+you = Du
+everyone = Alle
+contribution-activity = Bidragsaktivitet
+top-contributors = Top bidragsytere
+recorded-clips = Innspilte Lydklipp
+validated-clips = Validerte Lydklipp
+total-approved = Totalt Godkjent
+overall-accuracy = Gjennomsnittlig nøyaktighet
+set-visibility = Angi synligheten min
+visibility-explainer = Denne innstillingen kontrollerer din synlighet på topplisten. Når du er skjult, vil progresjonen din være privat. Dette betyr at bildet, brukernavnet og progresjonen ikke vises på topplisten. Legg merke til at oppdatering av topplisten tar ~ { $minutes } minutter .
+visibility-overlay-note = Merk: Når den er satt til 'Synlig', kan denne innstillingen endres fra <profileLink> Profilsiden </profileLink>
+show-ranking = Vis min rangering
 
 ## Custom Goals
 
+get-started-goals = Kom i gang med mål
+create-custom-goal = Lag et tilpasset mål
+both-speak-and-listen = Begge to
+both-speak-and-listen-long = Begge to (Snakke og Lytte)
+daily-goal = Daglig mål
+weekly-goal = Ukentlig mål
+easy-difficulty = Lett
+average-difficulty = Gjennomsnittlig
+difficult-difficulty = Vanskelig
+pro-difficulty = Pro
+lose-goal-progress-warning = Ved å endre målet ditt, kan det hende at du mister din eksisterende progresjon.
+want-to-continue = Ønsker du å fortsette?
+finish-editing = Vil du fullføre redigeringen først?
+lose-changes-warning = Å avslutte nå betyr at du mister endringene dine
+build-custom-goal = Lag et tilpasset mål
+help-reach-hours = Hjelp til med å nå { NUMBER($hours) } timer på { $language } med et personlig mål
+help-reach-hours-general = Hjelp Common Voice med å nå { NUMBER($hours) } timer på et språk med et personlig mål
+set-a-goal = Sett et mål
+cant-decide = Klarer du ikke å velge?
+activity-needed-calculation =
+    { NUMBER($totalHours) } timer er oppnåelig på drøyt { NUMBER($periodMonths) }
+    måneder hvis { NUMBER($people) } folk registrerer { NUMBER($clipsPerDay) } klipp om dagen.
+how-many-per-day = Flott! Hvor mange klipp per dag?
+how-many-a-week = Flott! Hvor mange klipp i uken?
+which-goal-type = Vil du Snakke, Lytte eller begge deler?
+receiving-emails-info =
+    Du er for øyeblikket satt opp til å motta e-postmeldinger som målpåminnelser, personlige
+    fremdriftsoppdateringer og nyhetsbrev om Common Voice
+not-receiving-emails-info =
+    Du er for øyeblikket satt til å <bold> IKKE </bold> motta e-poster som målpåminnelser, personlige
+    fremdriftsoppdateringer og nyhetsbrev om Common Voice
+n-clips = { NUMBER($count) } klipp
+help-share-goal = Hjelp oss med å finne flere stemmer, del dine mål
+confirm-goal = Bekreft Mål
+goal-interval-weekly = Ukentlig
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Del { $count } Klipp Daglig Mål for { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Del { $count } Klipp Ukentlig Mål for { $type }
+share-goal-type-speak = Snakking
+share-goal-type-listen = Lytting
+share-goal-type-both = Snakking og Lytting
+# LINK will be replaced with the current URL
+goal-share-text = Jeg lagde nettop et personlig mål for stemmebidrag til #CommonVoice -- bli med og lær maskiner hvordan virkelige mennesker snakker { $link }
+weekly-goal-created = Det ukentlige målet ditt er opprettet
+daily-goal-created = Det daglige målet ditt er opprettet
+track-progress = Spor fremdriften din her og på statistikksiden din
+return-to-edit-goal = Kom tilbake hit for å redigere målet ditt når som helst.
+share-goal = Del målet mitt
 
 ## Profile Delete
 
