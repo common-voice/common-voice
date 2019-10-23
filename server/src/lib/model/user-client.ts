@@ -247,6 +247,7 @@ const UserClient = {
 
   // update the challenge_team of the user who is already signed up but have not joined any team
   // [BUG]: there are exceptions if the team doesn't exist
+  // TODO(riley): Hook this up to a constants file.
   async updateChallengeTeam(
     email: string,
     challenge_team: string

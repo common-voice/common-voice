@@ -104,6 +104,7 @@ router.get(
       old_email,
       redirect,
       challenge_team,
+      ovchall,
     } = JSON.parse(AES.decrypt(state, SECRET).toString(enc.Utf8));
     const basePath = locale ? '/' + locale + '/' : '/';
     if (!user) {
@@ -117,7 +118,7 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else {
+    } else if (ovchall && challenge_team) {
       // pass the challenge_team to frontend
       user.challenge_team = challenge_team;
 
@@ -126,6 +127,11 @@ router.get(
         user.emails[0].value,
         challenge_team
       );
+
+      response.redirect(
+        redirect || `${basePath}login-success?ovchall=${ovchall}`
+      );
+    } else {
       response.redirect(redirect || basePath + 'login-success');
     }
   }
@@ -149,7 +155,8 @@ router.get('/login', (request: Request, response: Response) => {
             }
           : {}),
         redirect: query.redirect || null,
-        challenge_team: query.challenge_team,
+        challenge_team: query.challenge_team || null,
+        ovchall: query.ovchall || null,
       }),
       SECRET
     ).toString(),
