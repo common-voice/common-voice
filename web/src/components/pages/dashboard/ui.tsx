@@ -5,15 +5,17 @@ import './ui.css';
 export function Fraction({
   numerator,
   denominator,
+  percentage,
 }: {
   numerator: React.ReactNode;
-  denominator: React.ReactNode;
+  denominator?: React.ReactNode;
+  percentage?: boolean;
 }) {
   return (
     <div className="fraction">
       <div className="numerator">{numerator}</div>
       <div className="denominator">
-        {' / '}
+        {percentage ? ' % ' : ' / '}
         {denominator}
       </div>
     </div>
@@ -75,17 +77,24 @@ export function CircleProgress({
             circumference * Math.max(1 - value / (denominator || 1), 0)
           }
         />
-        {!denominator && (
-          <text
-            x={center}
-            y={center}
-            textAnchor="middle"
-            dominantBaseline="central">
-            {Math.round(100 * value)}%
-          </text>
-        )}
+        {/* {!denominator && (
+          <React.Fragment>
+            <text
+              x={center}
+              y={center}
+              textAnchor="middle"
+              dominantBaseline="central">
+              {Math.round(100 * value)}
+            </text>
+            <text>%</text>
+          </React.Fragment>
+        )} */}
       </svg>
-      {denominator && <Fraction numerator={value} denominator={denominator} />}
+      {denominator ? (
+        <Fraction numerator={value} denominator={denominator} />
+      ) : (
+        <Fraction numerator={Math.round(100 * value)} percentage />
+      )}
     </div>
   );
 }

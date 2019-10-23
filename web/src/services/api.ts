@@ -295,7 +295,7 @@ export default class API {
   fetchChallengePoints(
     email?: string
   ): Promise<{ user: number; team: number }> {
-    return this.fetch(`${API_PATH}/challenge/weekly/${email}`);
+    return this.fetch(`${API_PATH}/challenge/points/${email}`);
   }
 
   fetchWeeklyChallenge(email?: string, date?: Date): Promise<WeeklyChallenge> {
