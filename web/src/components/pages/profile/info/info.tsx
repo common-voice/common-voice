@@ -160,7 +160,9 @@ function ProfilePage({
       locales: locales.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
+      challenge_team: user.userClients[0].challenge_team,
     };
+
     addUploads([
       async () => {
         if (!(user.account && user.account.basket_token) && sendEmails) {
