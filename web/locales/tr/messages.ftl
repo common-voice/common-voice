@@ -8,8 +8,10 @@ email-input =
     .label = E-posta
 submit-form-action = Gönder
 loading = Yükleniyor…
+email-opt-in-info-title = Common Voice e-posta listesine katılın
 email-opt-in-privacy = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
 indicates-required = * Gerekli alanları gösterir
+not-available-abbreviation = Yok
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -89,6 +91,7 @@ nn-NO = Norveççe (Nynorsk)
 oc = Oksitanca
 or = Odia
 pl = Lehçe
+pt = Portekizce
 rm-sursilv = Romanşça Sursilvan
 ro = Rumence
 ru = Rusça
@@ -100,6 +103,7 @@ sl = Slovakça
 sq = Arnavutça
 sr = Sırpça
 sv-SE = İsveççe
+syr = Süryanice
 ta = Tamilce
 te = Telugu
 tg = Tacikçe
@@ -302,8 +306,12 @@ skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladık
 skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
 off = Kapalı
 on = Açık
-add-avatar-title = Profilinize avatar ekleyin
 avatar-clip-title = Avatarınızı seslendirin
+change-your-avatar-clip = Ses kaydınızı değiştirmek mi istiyorsunuz?
+recording-in-progress = Ses kaydı devam ediyor
+retry-voice-wave-recording = YENİDEN DENE
+re-record = YENİDEN KAYDET
+delete-voice = SİL
 recording-voice-wave = Kaydediliyor
 ready-to-upload = Yükle
 cancel-avatar-clip-recording = İptal
@@ -345,6 +353,8 @@ faq-search-for-answers =
 
 about-title = Neden Common Voice?
 how-does-it-work-title = Nasıl çalışıyor?
+about-is-it-valid = Klip geçerli mi?
+about-dataset-new = Common Voice Veri Kümesi
 about-partners = İş ortakları
 about-become-a-partner = Ortağımız olun
 about-get-involved = Bize katılın
@@ -523,10 +533,19 @@ listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
 nothing-to-validate = Bu dilde doğrulanacak bir şey kalmamış. Kuyruğu doldurmamıza yardımcı olun.
 record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
+login-to-get-started = Başlamak için giriş yapın veya kaydolun
 
 ## Reporting
 
+report-offensive-language-detail = Cümlenin kaba veya saldırgan bir üslubu var.
 report-grammar-or-spelling = Dil bilgisi / yazım hatası
+report-grammar-or-spelling-detail = Cümlede gramer veya yazım hatası var.
+report-different-language = Farklı dil
+report-different-language-detail = Konuştuğumdan farklı bir dilde yazılmış.
+report-difficult-pronounce = Telaffuzu zor
+report-difficult-pronounce-detail = Okunması ya da telaffuzu zor kelime ya da ifadeler içeriyor.
+report-other-comment =
+    .placeholder = Yorum
 continue = Devam et
 report-success = Rapor başarıyla gönderildi
 
@@ -578,6 +597,11 @@ difficult-difficulty = Zor
 pro-difficulty = Profesyonel
 want-to-continue = Devam etmek istiyor musunuz?
 goal-interval-weekly = Haftalık
+weekly-goal-created = Haftalık hedefiniz oluşturuldu
+daily-goal-created = Günlük hedefiniz oluşturuldu
+track-progress = İlerlemeyi burada ve istatistikler sayfanızda izleyin.
+return-to-edit-goal = Hedefinizi istediğiniz zaman düzenlemek için buraya dönün.
+share-goal = Hedefimi paylaş
 
 ## Profile Delete
 
@@ -589,3 +613,4 @@ profile-form-delete = Profilimi sil
 ## Landing
 
 profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
+read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
