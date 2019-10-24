@@ -4,6 +4,7 @@ import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
+import { hash } from '../utility';
 
 const db = getMySQLInstance();
 
@@ -263,8 +264,18 @@ const UserClient = {
     if (email && challenge && team) {
       let client_id = await Promise.all([UserClient.findClientId(email)]);
       if (client_id) {
-        // STOPSHIP(riley): Create unique shareable invite ID.
-        const inviteId = 'TODO';
+        // Generate a random, anonymized, and unique invite ID for enrollments.
+        // HACK(riley/can): Can we move this entirely into the DB?
+        let inviteToken;
+        while (true) {
+          inviteToken = (await hash(`${Math.random()}`)).slice(0, 12);
+          const res = await db.query(
+            `SELECT * FROM enrollments WHERE url_token=?`,
+            inviteToken
+          );
+          if (!res || !res.length) break;
+        }
+
         const res = await db.query(
           `
           SET @challengeId := (SELECT id FROM challenges WHERE url_token=?);
@@ -285,7 +296,7 @@ const UserClient = {
             ?,
             ?
           )`,
-          [challenge, team, client_id, invite, inviteId]
+          [challenge, team, client_id, invite, inviteToken]
         );
         return res && res[1] && res[1].affectedRows > 1;
       }
