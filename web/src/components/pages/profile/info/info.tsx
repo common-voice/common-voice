@@ -160,7 +160,11 @@ function ProfilePage({
       locales: locales.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
-      challenge_team: user.userClients[0].challenge_team,
+      enroll: user.userClients[0].enroll || {
+        team: null,
+        ovchall: null,
+        invite: null,
+      },
     };
 
     addUploads([

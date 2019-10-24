@@ -98,10 +98,12 @@ const UserClient = {
           accents.accent,
           locales.name AS locale,
           (SELECT COUNT(*) FROM clips WHERE u.client_id = clips.client_id) AS clips_count,
-          (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count
+          (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count,
+          t.name AS team
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
+        LEFT JOIN (SELECT enroll.client_id, teams.name FROM enroll LEFT JOIN teams ON enroll.team_id = teams.id) t ON t.client_id = u.client_id
         WHERE u.email = ? AND has_login
         GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
@@ -130,8 +132,7 @@ const UserClient = {
               'avatar_url',
               'avatar_clip_url',
               'clips_count',
-              'votes_count',
-              'challenge_team'
+              'votes_count'
             ),
             locales: client.locales.concat(
               typeof row.accent == 'string'
@@ -140,6 +141,7 @@ const UserClient = {
             ),
             awards,
             custom_goals,
+            enroll: { team: row.team },
           }),
           { locales: [] }
         );
@@ -174,8 +176,7 @@ const UserClient = {
           'gender',
           'username',
           'skip_submission_feedback',
-          'visible',
-          'challenge_team'
+          'visible'
         ),
       }).map(async ([key, value]) => key + ' = ' + (await db.escape(value)))
     );
@@ -187,10 +188,15 @@ const UserClient = {
       `,
       [accountClientId]
     );
-
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
       locales && updateLocales(accountClientId, locales),
+      this.enrollRegisteredUser(
+        email,
+        data.enroll.team,
+        data.enroll.ovchall,
+        data.enroll.invite
+      ),
     ]);
 
     return UserClient.findAccount(email);
@@ -245,17 +251,34 @@ const UserClient = {
     return true;
   },
 
-  // update the challenge_team of the user who is already signed up but have not joined any team
-  // [BUG]: there are exceptions if the team doesn't exist
+  // enroll an unenrolled but registered user
+  // [BUG]: there are exceptions if the team or challenge doesn't exist
   // TODO(riley): Hook this up to a constants file.
-  async updateChallengeTeam(
+  async enrollRegisteredUser(
     email: string,
-    challenge_team: string
+    team_name: string,
+    challenge_id: number,
+    team_url_token: string
   ): Promise<boolean> {
-    return await db.query(
-      'UPDATE user_clients SET challenge_team = ? WHERE email = ? AND has_login AND challenge_team IS NULL',
-      [challenge_team, email]
-    );
+    if (email && team_name && challenge_id && team_url_token) {
+      let client_id = await Promise.all([UserClient.findClientId(email)]);
+      if (client_id) {
+        const res = await db.query(
+          `INSERT IGNORE INTO enroll (id, challenge_id, url_token, client_id, team_id)
+           VALUES (null, ?, ?, ?, (SELECT id FROM teams WHERE challenge_id=? AND name=? AND url_token=?))`,
+          [
+            challenge_id,
+            team_url_token,
+            client_id,
+            challenge_id,
+            team_name,
+            team_url_token,
+          ]
+        );
+        return res && res[0] && res[0].affectedRows > 1;
+      }
+    }
+    return false;
   },
 
   async updateAvatarURL(email: string, url: string) {

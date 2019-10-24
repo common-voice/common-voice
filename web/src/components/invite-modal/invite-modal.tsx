@@ -39,7 +39,7 @@ export default ({ inviteId, teamId, ...props }: InviteModalProps) => {
         readOnly
         ref={inputRef}
         type="text"
-        value={`https://voice.mozilla.org/?ovchall=1&challenge_team=${teamId}&invite_id=${inviteId}`}
+        value={`https://voice.mozilla.org/?ovchall=1&team=${teamId}&invite_id=${inviteId}`}
       />
 
       <Button
