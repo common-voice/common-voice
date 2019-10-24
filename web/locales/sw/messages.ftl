@@ -16,6 +16,7 @@ not-available-abbreviation = haihitajiki
 
 ## Languages
 
+ar = Kiarabu
 
 # [/]
 
