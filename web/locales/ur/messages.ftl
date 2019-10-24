@@ -8,7 +8,7 @@ email-input =
     .label = ای میل
 submit-form-action = ‏‏جمع کریں
 loading = لوڈ ہو رہا ہے…
-indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا
+indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا ہے
 not-available-abbreviation = عدم دستیاب
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -70,7 +70,6 @@ nl = ڈچ
 nn-NO = نورویجیئن نینورسک
 or = اوڈیا
 pl = پولش
-pt-BR = پرتگالی (برازیل)
 ro = پیش قدمی
 ru = روسی
 sah = سکھا
@@ -318,7 +317,6 @@ request-language-success-title = زبان کی درخواست کامیابی س�
 language-section-in-progress = پیش رفت جاری ہے
 languages-show-more = مزید دیکھیں
 languages-show-less = کم دیکھیں
-language-speakers = خطیب
 language-meter-in-progress = پیش رفت
 language-total-progress = کل
 language-search-input =
