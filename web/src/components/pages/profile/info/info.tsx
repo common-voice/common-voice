@@ -162,7 +162,7 @@ function ProfilePage({
       client_id: user.userId,
       enroll: user.userClients[0].enroll || {
         team: null,
-        ovchall: null,
+        challenge: null,
         invite: null,
       },
     };

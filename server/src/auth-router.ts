@@ -113,12 +113,12 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else if (enroll && enroll.ovchall && enroll.team && enroll.invite) {
+    } else if (enroll && enroll.challenge && enroll.team && enroll.invite) {
       if (
         !(await UserClient.enrollRegisteredUser(
           user.emails[0].value,
           enroll.team,
-          enroll.ovchall,
+          enroll.challenge,
           enroll.invite
         ))
       ) {
@@ -127,7 +127,7 @@ router.get(
       }
 
       response.redirect(
-        redirect || `${basePath}login-success?ovchall=${enroll.ovchall}`
+        redirect || `${basePath}login-success?challenge=${enroll.challenge}`
       );
     } else {
       response.redirect(redirect || basePath + 'login-success');
@@ -155,7 +155,7 @@ router.get('/login', (request: Request, response: Response) => {
         redirect: query.redirect || null,
         enroll: {
           team: query.team || null,
-          ovchall: query.ovchall || null,
+          challenge: query.challenge || null,
           invite: query.invite || null,
         },
       }),

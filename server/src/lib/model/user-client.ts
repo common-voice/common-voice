@@ -194,7 +194,7 @@ const UserClient = {
       this.enrollRegisteredUser(
         email,
         data.enroll.team,
-        data.enroll.ovchall,
+        data.enroll.challenge,
         data.enroll.invite
       ),
     ]);

@@ -73,7 +73,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     hasScrolledDown: false,
     showStagingBanner: isStaging(),
     showWelcomeModal:
-      !isProduction() && this.props.location.search.includes('ovchall=1'),
+      !isProduction() && this.props.location.search.includes('challenge=1'),
   };
 
   componentDidMount() {
