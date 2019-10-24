@@ -103,7 +103,7 @@ const UserClient = {
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
-        LEFT JOIN (SELECT enroll.client_id, teams.name FROM enroll LEFT JOIN teams ON enroll.team_id = teams.id) t ON t.client_id = u.client_id
+        LEFT JOIN (SELECT enrollments.client_id, teams.name FROM enrollments LEFT JOIN teams ON enrollments.team_id = teams.id) t ON t.client_id = u.client_id
         WHERE u.email = ? AND has_login
         GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
@@ -141,7 +141,7 @@ const UserClient = {
             ),
             awards,
             custom_goals,
-            enroll: { team: row.team },
+            enrollment: { team: row.team },
           }),
           { locales: [] }
         );
@@ -193,9 +193,9 @@ const UserClient = {
       locales && updateLocales(accountClientId, locales),
       this.enrollRegisteredUser(
         email,
-        data.enroll.team,
-        data.enroll.challenge,
-        data.enroll.invite
+        data.enrollment.challenge,
+        data.enrollment.team,
+        data.enrollment.invite
       ),
     ]);
 
@@ -256,26 +256,38 @@ const UserClient = {
   // TODO(riley): Hook this up to a constants file.
   async enrollRegisteredUser(
     email: string,
-    team_name: string,
-    challenge_id: number,
-    team_url_token: string
+    challenge: string,
+    team: string,
+    invite: string
   ): Promise<boolean> {
-    if (email && team_name && challenge_id && team_url_token) {
+    if (email && challenge && team) {
       let client_id = await Promise.all([UserClient.findClientId(email)]);
       if (client_id) {
+        // STOPSHIP(riley): Create unique shareable invite ID.
+        const inviteId = 'TODO';
         const res = await db.query(
-          `INSERT IGNORE INTO enroll (id, challenge_id, url_token, client_id, team_id)
-           VALUES (null, ?, ?, ?, (SELECT id FROM teams WHERE challenge_id=? AND name=? AND url_token=?))`,
-          [
+          `
+          SET @challengeId := (SELECT id FROM challenges WHERE url_token=?);
+
+          INSERT IGNORE INTO enrollments (
+            id,
             challenge_id,
-            team_url_token,
+            team_id,
             client_id,
-            challenge_id,
-            team_name,
-            team_url_token,
-          ]
+            invited_by,
+            url_token
+          )
+          VALUES (
+            null,
+            @challengeId,
+            (SELECT id FROM teams WHERE challenge_id=@challengeId AND url_token=?),
+            ?,
+            ?,
+            ?
+          )`,
+          [challenge, team, client_id, invite, inviteId]
         );
-        return res && res[0] && res[0].affectedRows > 1;
+        return res && res[1] && res[1].affectedRows > 1;
       }
     }
     return false;

@@ -164,9 +164,9 @@ export default class API {
     }
 
     const email = user.emails[0].value;
-    const enroll = user.enroll;
+    const enrollment = user.enrollment;
     const userClients: UserClientType[] = [
-      { email, enroll },
+      { email, enrollment },
       ...(await UserClient.findAllWithLocales({
         email,
         client_id,

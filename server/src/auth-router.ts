@@ -98,7 +98,7 @@ router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
   async ({ user, query: { state }, session }: Request, response: Response) => {
-    const { locale, old_user, old_email, redirect, enroll } = JSON.parse(
+    const { locale, old_user, old_email, redirect, enrollment } = JSON.parse(
       AES.decrypt(state, SECRET).toString(enc.Utf8)
     );
     const basePath = locale ? '/' + locale + '/' : '/';
@@ -113,21 +113,26 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else if (enroll && enroll.challenge && enroll.team && enroll.invite) {
+    } else if (
+      enrollment &&
+      enrollment.challenge &&
+      enrollment.team &&
+      enrollment.invite
+    ) {
       if (
         !(await UserClient.enrollRegisteredUser(
           user.emails[0].value,
-          enroll.team,
-          enroll.challenge,
-          enroll.invite
+          enrollment.challenge,
+          enrollment.team,
+          enrollment.invite
         ))
       ) {
-        // if the user is unregistered, pass enroll to frontend
-        user.enroll = enroll;
+        // if the user is unregistered, pass enrollment to frontend
+        user.enrollment = enrollment;
       }
 
       response.redirect(
-        redirect || `${basePath}login-success?challenge=${enroll.challenge}`
+        redirect || `${basePath}login-success?challenge=${enrollment.challenge}`
       );
     } else {
       response.redirect(redirect || basePath + 'login-success');
@@ -153,9 +158,9 @@ router.get('/login', (request: Request, response: Response) => {
             }
           : {}),
         redirect: query.redirect || null,
-        enroll: {
-          team: query.team || null,
+        enrollment: {
           challenge: query.challenge || null,
+          team: query.team || null,
           invite: query.invite || null,
         },
       }),

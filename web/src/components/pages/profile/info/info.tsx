@@ -160,7 +160,7 @@ function ProfilePage({
       locales: locales.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
-      enroll: user.userClients[0].enroll || {
+      enrollment: user.userClients[0].enrollment || {
         team: null,
         challenge: null,
         invite: null,
