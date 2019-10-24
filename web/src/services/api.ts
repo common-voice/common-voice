@@ -1,7 +1,7 @@
 import { AllGoals, CustomGoalParams } from 'common/goals';
 import { LanguageStats } from 'common/language-stats';
 import { UserClient } from 'common/user-clients';
-import { WeeklyChallenge } from 'common/challenge';
+import { WeeklyChallenge, Challenge } from 'common/challenge';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
@@ -35,7 +35,9 @@ export default class API {
 
   private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
-      { isJSON: true },
+      {
+        isJSON: true,
+      },
       options
     );
 
@@ -113,7 +115,9 @@ export default class API {
   saveVote(id: string, isValid: boolean): Promise<Event> {
     return this.fetch(`${this.getClipPath()}/${id}/votes`, {
       method: 'POST',
-      body: { isValid },
+      body: {
+        isValid,
+      },
     });
   }
 
@@ -130,9 +134,7 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`/locales/${locale}/messages.ftl`, {
-      isJSON: false,
-    });
+    return this.fetch(`/locales/${locale}/messages.ftl`, { isJSON: false });
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {
@@ -148,7 +150,9 @@ export default class API {
   requestLanguage(language: string): Promise<void> {
     return this.fetch(`${API_PATH}/requested_languages`, {
       method: 'POST',
-      body: { language },
+      body: {
+        language,
+      },
     });
   }
 
@@ -157,9 +161,7 @@ export default class API {
   }
 
   fetchDocument(name: 'privacy' | 'terms'): Promise<string> {
-    return this.fetch(`/${name}/${this.locale}.html`, {
-      isJSON: false,
-    });
+    return this.fetch(`/${name}/${this.locale}.html`, { isJSON: false });
   }
 
   skipSentence(id: string) {
@@ -170,11 +172,24 @@ export default class API {
 
   fetchClipsStats(
     locale?: string
-  ): Promise<{ date: string; total: number; valid: number }[]> {
+  ): Promise<
+    {
+      date: string;
+      total: number;
+      valid: number;
+    }[]
+  > {
     return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats');
   }
 
-  fetchClipVoices(locale?: string): Promise<{ date: string; value: number }[]> {
+  fetchClipVoices(
+    locale?: string
+  ): Promise<
+    {
+      date: string;
+      value: number;
+    }[]
+  > {
     return this.fetch(
       API_PATH + (locale ? '/' + locale : '') + '/clips/voices'
     );
@@ -183,7 +198,12 @@ export default class API {
   fetchContributionActivity(
     from: 'you' | 'everyone',
     locale?: string
-  ): Promise<{ date: string; value: number }[]> {
+  ): Promise<
+    {
+      date: string;
+      value: number;
+    }[]
+  > {
     return this.fetch(
       API_PATH +
         (locale ? '/' + locale : '') +
@@ -208,16 +228,18 @@ export default class API {
   }
 
   subscribeToNewsletter(email: string): Promise<void> {
-    return this.fetch(API_PATH + '/newsletter/' + email, {
-      method: 'POST',
-    });
+    return this.fetch(API_PATH + '/newsletter/' + email, { method: 'POST' });
   }
 
   saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
     return this.fetch(API_PATH + '/user_client/avatar/' + type, {
       method: 'POST',
       isJSON: false,
-      ...(file ? { body: file } : {}),
+      ...(file
+        ? {
+            body: file,
+          }
+        : {}),
     }).then(body => JSON.parse(body));
   }
 
@@ -281,24 +303,119 @@ export default class API {
       API_PATH +
         '/user_client/awards/seen' +
         (kind == 'notification' ? '?notification' : ''),
-      {
-        method: 'POST',
-      }
+      { method: 'POST' }
     );
   }
 
   report(body: any) {
-    return this.fetch(API_PATH + '/reports', { method: 'POST', body });
+    return this.fetch(API_PATH + '/reports', {
+      method: 'POST',
+      body,
+    });
   }
 
-  //Challenge
+  // Challenge
   fetchChallengePoints(
     email?: string
-  ): Promise<{ user: number; team: number }> {
+  ): Promise<{
+    user: number;
+    team: number;
+  }> {
     return this.fetch(`${API_PATH}/challenge/points/${email}`);
   }
 
   fetchWeeklyChallenge(email?: string, date?: Date): Promise<WeeklyChallenge> {
     return this.fetch(`${API_PATH}/challenge/weekly/${email}/${date}`);
+  }
+
+  fetchTopTeams(
+    locale?: string,
+    type?: 'validated' | 'recorded',
+    cursor?: [number, number]
+  ): Array<Challenge> {
+    //return this.fetch(`${API_PATH}/${locale}/top/teams/{type}?cursor=${cursor? JSON.stringify(cursor) : ''}`);
+
+    return [
+      {
+        position: 1,
+        name: 'Catherine',
+        logo: 'base641...',
+        points: 12341,
+        approved: 51,
+        accuracy: 11.99,
+      },
+      {
+        position: 2,
+        name: 'SAP2',
+        logo: 'base642...',
+        points: 12342,
+        approved: 52,
+        accuracy: 12.99,
+      },
+      {
+        position: 3,
+        name: 'SAP3',
+        logo: 'base643...',
+        points: 12343,
+        approved: 53,
+        accuracy: 13.99,
+      },
+      {
+        position: 4,
+        name: 'SAP4',
+        logo: 'base644...',
+        points: 12344,
+        approved: 54,
+        accuracy: 14.99,
+      },
+      {
+        position: 5,
+        name: 'SAP5',
+        logo: 'base645...',
+        points: 12345,
+        approved: 55,
+        accuracy: 15.99,
+      },
+      {
+        position: 6,
+        name: 'SAP6',
+        logo: 'base646...',
+        points: 12346,
+        approved: 56,
+        accuracy: 16.99,
+      },
+      {
+        position: 7,
+        name: 'SAP7',
+        logo: 'base647...',
+        points: 12347,
+        approved: 57,
+        accuracy: 17.99,
+      },
+      {
+        position: 8,
+        name: 'SAP8',
+        logo: 'base648...',
+        points: 12348,
+        approved: 58,
+        accuracy: 18.99,
+      },
+      {
+        position: 9,
+        name: 'SAP9',
+        logo: 'base649...',
+        points: 12349,
+        approved: 59,
+        accuracy: 19.99,
+      },
+      {
+        position: 10,
+        name: 'SAP10',
+        logo: 'base6410...',
+        points: 12340,
+        approved: 60,
+        accuracy: 20.99,
+      },
+    ];
   }
 }

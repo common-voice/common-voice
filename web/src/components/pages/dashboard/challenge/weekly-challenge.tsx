@@ -39,12 +39,12 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
   const account = useAccount();
 
   const [weekly, setWeekly] = useState({
-    current_week: 1,
+    week: 1,
     user: {
       speak: 50,
       speak_total: 200,
-      listen: 50,
-      listen_total: 200,
+      listen: 25,
+      listen_total: 100,
     },
     team: {
       invite: 50,

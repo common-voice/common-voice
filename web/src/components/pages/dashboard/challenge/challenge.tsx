@@ -71,16 +71,21 @@ export default function ChallengePage({ dashboardLocale }: Props) {
             title="SAP Team Progress"
             showVisibleIcon
             showOverlay={() => setShowOverlay(true)}
+            service="team-progress"
           />
         </div>
         <div className="leader-board">
-          <LeaderBoardCard title="Overall Challenge Top Team" />
+          <LeaderBoardCard
+            title="Overall Challenge Top Team"
+            service="top-teams"
+          />
         </div>
         <div className="leader-board">
           <LeaderBoardCard
             title="Overall Challenge Top Contributors"
             showVisibleIcon
             showOverlay={() => setShowOverlay(true)}
+            service="top-contributors"
           />
         </div>
       </div>

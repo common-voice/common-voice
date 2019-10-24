@@ -78,16 +78,13 @@ export function CircleProgress({
           }
         />
         {/* {!denominator && (
-          <React.Fragment>
             <text
               x={center}
               y={center}
               textAnchor="middle"
               dominantBaseline="central">
-              {Math.round(100 * value)}
+              {Math.round(100 * value)}%
             </text>
-            <text>%</text>
-          </React.Fragment>
         )} */}
       </svg>
       {denominator ? (
