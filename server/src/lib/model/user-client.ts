@@ -130,7 +130,8 @@ const UserClient = {
               'avatar_url',
               'avatar_clip_url',
               'clips_count',
-              'votes_count'
+              'votes_count',
+              'challenge_team'
             ),
             locales: client.locales.concat(
               typeof row.accent == 'string'
@@ -173,7 +174,8 @@ const UserClient = {
           'gender',
           'username',
           'skip_submission_feedback',
-          'visible'
+          'visible',
+          'challenge_team'
         ),
       }).map(async ([key, value]) => key + ' = ' + (await db.escape(value)))
     );
@@ -241,6 +243,19 @@ const UserClient = {
       [email, old_email]
     );
     return true;
+  },
+
+  // update the challenge_team of the user who is already signed up but have not joined any team
+  // [BUG]: there are exceptions if the team doesn't exist
+  // TODO(riley): Hook this up to a constants file.
+  async updateChallengeTeam(
+    email: string,
+    challenge_team: string
+  ): Promise<boolean> {
+    return await db.query(
+      'UPDATE user_clients SET challenge_team = ? WHERE email = ? AND has_login AND challenge_team IS NULL',
+      [challenge_team, email]
+    );
   },
 
   async updateAvatarURL(email: string, url: string) {

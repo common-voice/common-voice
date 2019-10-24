@@ -52,8 +52,6 @@ This is going to:
 
 You can visit the website at [http://localhost:9000](http://localhost:9000).
 
-To modify the configuration listed in config-helper.ts (e.g server port), you need to modify the file `local-docker-config.json` in `voice-web/docker`.
-
 #### Local setup
 
 ###### Requirements
@@ -80,9 +78,25 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 
 #### Configuration
 
-You can find configurable options, like the port CommonVoice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override.
+You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override. If you're using Docker, you may need to modify the file `/docker/local-docker-config.json` instead.
 
-If you want to work with login-related features (Profile, Dashboard, Goals, ...) you'll need to create an [Auth0](https://auth0.com/) account and put the data you get from it into the config.json file (the keys are `"AUTH0": { "DOMAIN": "<domain_here>", "CLIENT_ID": "<client_id_here>", "CLIENT_SECRET": "<client_secret_here>" }`).
+#### Authentication
+
+If you want to work with login-related features (Profile, Dashboard, Goals, ...) you'll need to set up authentication:
+
+1. Create an [Auth0](https://auth0.com/) account.
+2. Click "Applications" from the dashboard. Create a new one, or use the default application.
+3. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
+4. If you add any social integrations, make sure they request the user's email.
+5. Copy the following keys from the Auth0 application into `config.json` or `local-docker-config.json`:
+
+```
+"AUTH0": {
+ "DOMAIN": "<domain_here>",
+ "CLIENT_ID": "<client_id_here>",
+ "CLIENT_SECRET": "<client_secret_here>"
+}
+```
 
 #### Setting up Amazon S3 for development
 

@@ -157,6 +157,7 @@ Duuman– missi mill õllõisi oolia, eb õõči.
 Duumõzin jo škouluz, mitä minuss leeb.
 Duumõzin: „Niku Peukaloliza kaazgõz.
 Dääde on taata vai maama velje.
+Eb kui.
 Eb mittä.
 Eb sõizõ, eb isu.
 Eb õõ ihan vanaz paikkõz, a liči.
@@ -228,6 +229,7 @@ Irred, hiired, harmad, alla, hallid.
 Irvieinä karva.
 Isu ahjo tüve.
 Isu lavva taga, isub lavvõ takkan.
+Isä meije, kump õõd taivaiz, pühättü õlko sinu nimi, liči tulko sinu valta.
 Ivo nagrõb, što millõ piäb panna tõisõ kõrva propkõ.
 Ivo on unikotti i makkab seneperäss kauga, što isub ohtõgon kompjutera takkan.
 Ivo on viisteiššümedvootin poikõ.
@@ -272,6 +274,7 @@ Kahz kuutõ õlti merelle, budgõd õlti, kuza eletti.
 Kahõll päivell näteliz: tõin päive õli naizille, tõin mehille.
 Kaivo takka.
 Kala on merez i jõgõz, Ivollõ on õnki i vene.
+Kalad: ahvõn, angõriaz, auki, seldi, kuha, lahnõ, kampalõ, lõhi, haili, silmu, särči, vimpõ.
 Kalmoillõ äjjä pominoittõma?
 Kanallõ õlti kõltaizõd i pehmiäd niku võikukõd, sorzõllõ harmad i pehmiäd niku katipoigõd.
 Kanamunad õsab lavgõss.
@@ -753,6 +756,7 @@ Mehed püvvetti kalla, naizõd praavitetti võrkkoi, tehti süvve i avitetti kõ
 Mehell õli siz vana adjala pääll i makazi.
 Meije aizud, kraazgõd, meije duumõd.
 Meije inimin on ain meijeka saunõz, vihaka variz.
+Meije koirõ jürrüä pelčäb, eb mee akkunallõ, a on rihez tila nallõ.
 Meije lehmä piimä päälle õlti slivgõd, panti marjoi päälle.
 Meije mettsez marjõd
 Meije naapõrit toož čävvä meije saunõz, a meije võtammõ näije kaivossõ välissä vette.
@@ -977,6 +981,7 @@ Mõnikkad õlla ilm sõppõitõ ohtõgossaa saaduz.
 Mõnikkaz kaivoz on toož üvä vesi.
 Mõnikõz põli i tükkünnä.
 Mõntõ tunnia nämäd mennä makkama, miä en tää, miä õõn jo tilaz.
+Mõntõ tunnia nõizõd ülleelle, süüd oomnikon, päivälle, ohtõgon?
 Mõntõ tunnia on?
 Mõntõ tunnia paraiko on?
 Mõntõ tunnia televizoraz on uutizõd?
@@ -1052,6 +1057,7 @@ On tunni i süün rokka i võileipä i juun čülmä lähevette.
 Onko sillõ sukulaisi?
 Oomnikko õli lusti.
 Oomnikon on urokkõ i ohtõgon.
+Oomnikon čerikossõ tulti, süüti i juuti i perrä sene tütöd i poigõd menti gul̕aittõma.
 Oomõn on tõin, a ülioomõn on kõlmõz.
 Oomõn oomnikon hookan omõnpuu nallõ
 Paan leivä lavvõ päälle.
@@ -1144,6 +1150,7 @@ Seemenvõita rehtelä päälle i ahjoz čühzetetä.
 Seined škouluz i türmez, duuman.
 Seizomme, pajatõmmõ.
 Sell aika vähäize vizgahtõn.
+Seneperäss naapõrid enne koiritti vad̕d̕alaisi: Čenči, čenči, čiirepä, čerikkoz čelloa lüvvä.
 Siel eletä soomalaizõd.
 Siell eläb kõikkõlaissõ väččeä.
 Sieltä Soikkola nenä ranta müü õlla ižora čüläd.
@@ -1151,6 +1158,7 @@ Sigad eväd tsäütü karjaz.
 Sillõllõ tantsitti i laulõtti.
 Sinin? Sinin on minu silmije kraaskõ.
 Sireeni haizõb üvässi i siälte võib leütää õnnikuka.
+Sitä lugõtti ebõnnõkkassi inimizessi, kummõllõ tuli naizelokaz esimeizessi rihese.
 Siz benzina õli lõppunnu.
 Siz i maamõ i taattõ koolti vällä.
 Siz jutõlti: eb lee õnnõkõz voosi.
@@ -1322,11 +1330,14 @@ Uvvõllõ vuvvõllõ eb mentü mittä čüsümä tõizõssõ koossõ.
 Va millõ on välissä kõig vizgõttu murš- marš.
 Va ühs kõrtõ ku õli, kasessaa nagrõta.
 Vaaliaruska i mussaruska jupka jäävvä kaappi oottõma arčipäivä.
+Vaattagakka vad̕d̕alaizõd: koivu eb makka, pupužgõd jo lahti.
+Vaattagakka vad̕d̕alaizõd: maad i puud kukitsõta, linnud kõikki laulõta.
 Vadjalaisi naapõrid õlla ižorad.
 Vad̕d̕a čeeli on lusti čeeli.
 Vad̕d̕a čeeli čäüb ühte viro i soomõ i ižora čeeleka.
 Vad̕d̕alaisi eb õõ pal̕l̕o.
 Vad̕d̕alaisillõ eb õõ õllu čirjutõttua čeelte i čirjoi õmallõ čeelelle.
+Vad̕d̕alaizõd eletä Inkerimaaz kõlmõz čüläz: Liivčüläz, Luuditsaz i Jõgõperälle.
 Vai kõltõin ku mesi.
 Valka on pühäpäivälavva ursti.
 Valka taivaz on lumõz, valka jõulu enčez.
@@ -1354,12 +1365,14 @@ Vesi kusutti.
 Vesi on čülme a inemized tehhä entä märjessi kaze lähte veez.
 Vette vai piimä, luukka, hailia Haili čihub rehtelelle.
 Vihtoi tehti enne jaania.
+Vihtõ kukkika tehti, vihta panti koivu õhzõd I kukõt: jaanikukkõ I štanajalkõ.
 Vihtõ vizgõtti sauna katollõ.
 Viijespäive Viijespään tüünäteli lõpub.
 Viimeizenä tulla lehod čevväälle tammipuullõ.
 Viisi, viizi, vissi, vižži.
 Vikahtõ viippezi.
 Viro on naapõrimaa.
+Virolaisillõ on eesti keel i ižoraillõ on ižora keel, a vad̕d̕alaisillõ on vad̕d̕a čeeli.
 Volilla ed saa õllõ.
 Vot eezepi bolnitsõss dohtõri apinikkõ čäi.
 Vot i müü emme tääči.
@@ -1522,6 +1535,7 @@ dohtõri eb õõ škaappiz
 dohtõri eb õõ škouluz
 dohtõri katõll
 dohtõri kinoz
+dohtõri klubaz
 dohtõri kujaz
 dohtõri laivõz
 dohtõri laudõll
@@ -5032,6 +5046,7 @@ vid̕d̕ez, kuvvõz, seittsemez, kahõssõmõz, ühessämez, čümmenez, üheste
 Ämmeči juttõb:”Mitä jumalõ inimizill antõ, eb piä äppessä.
 Ämmä meni ahjo tüvvä tilallõ.
 Ärčče rüüppezi.
+Äärü võtti vooli, nii kõvvi värizen, jott järve rantõ järizeb i mettsäkolkku kolizõb.
 Õhzõd põlõtõta tulõz.
 Õika poolõ i kurra poolõ, ain meri tuõb vassa.
 Õli jutõllu, etti rohkap en taho, tappab.
@@ -5396,6 +5411,7 @@ vid̕d̕ez, kuvvõz, seittsemez, kahõssõmõz, ühessämez, čümmenez, üheste
 Ženihhõ õn partõin bulipää, a noorikõllõ näüttib.
 Žiivatad: boran, kittsi, lammõz, lehme, põrzõz, sika, võdnõ, õpõn.
 Žiivatõd õlla lauttõz.
+“ A eb antannu.
 “ A susi vassab henno ääneka:„ Kase õõn miä, Kaunizhatukkõin, tõin sillõ süümissä.
 “ A susi vassab:„ Nii viittä on parõp sinnua nähhä.
 “ A suõltõ čüzüb:„ A missi sillõ on mokom maailmasuuri suu?

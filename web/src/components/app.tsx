@@ -106,7 +106,7 @@ let LocalizedPage: any = class extends React.Component<
 
     window.onbeforeunload =
       uploads.length > 0
-        ? e =>
+        ? (e: any) =>
             (e.returnValue =
               'Leaving the page now aborts pending uploads. Are you sure?')
         : undefined;
