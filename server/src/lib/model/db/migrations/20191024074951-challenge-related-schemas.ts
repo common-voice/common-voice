@@ -30,6 +30,7 @@ export const up = async function(db: any): Promise<any> {
       url_token CHAR(12) NOT NULL,
       invited_by CHAR(12),
       enrolled_at DATETIME DEFAULT now(),
+      seen_welcome_modal BOOLEAN DEFAULT FALSE,
 
       UNIQUE (url_token),
       FOREIGN KEY (client_id) REFERENCES user_clients(client_id),
