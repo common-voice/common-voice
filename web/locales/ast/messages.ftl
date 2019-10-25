@@ -332,6 +332,7 @@ mycroft-secondary-description = Esto ye softwaare de códigu abiertu que pues me
 glossary = Glosariu
 sst = Fala a testu (STT)
 sst-explanation = Les teunoloxíes de fala a testu (STT) convierten los datos de voz a testu.
+de-identified = Anonimación
 de-identified-explanation = El procesu pol que la información del perfil d'un collaborador s'anubre nos clips de voz que se donen cuando s'empaqueten por baxalos como parte d'un conxuntu de datos.
 
 ## NotFound
