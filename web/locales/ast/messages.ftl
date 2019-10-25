@@ -10,6 +10,7 @@ submit-form-action = Unviar
 loading = Cargando...
 email-opt-in-info = Prestaríame recibir correos pa recordar los oxetivos, boletinos y anovamientos del mio progresu tocante a Common Voice.
 indicates-required = * indica que ye un campu riquíu
+not-available-abbreviation = N/D
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -71,6 +72,7 @@ lv = Letón
 mdf = Moksha
 mk = Macedoniu
 mn = Mongol
+mt = Maltés
 myv = Erzya
 nb-NO = Bokmål noruegu
 ne-NP = Nepalí
@@ -79,7 +81,7 @@ nn-NO = Nynorsk noruegu
 oc = Occitanu
 or = Oriya
 pl = Polacu
-pt-BR = Portugués (Brasil)
+pt = Portugués
 rm-sursilv = Romanche surselvu
 ro = Rumanu
 ru = Rusu
@@ -189,7 +191,6 @@ x-years-short =
        *[other] { $count } años
     }
 help-make-dataset = Ayúdanos a construyir un conxuntu de datos abiertu, públicu y de calidá alta
-profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
 
 ## Account Benefits
 
@@ -197,6 +198,8 @@ benefits = Beneficios
 
 ## What's public
 
+whats-public = ¿Qué ye público?
+recordings-and-locale-public = Va espublizase'l númberu de grabaciones y les llingües nes que collaboresti.
 
 ## Speak & Listen Shortcuts
 
@@ -283,6 +286,7 @@ thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to pe
 why-demographic = ¿Por qué importa?
 why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
+accept-privacy-title = Política de privacidá
 login-identity = Identidá del aniciu de sesión
 login-signup = Aniciar sesión / rexistrase
 edit = Editar
@@ -294,7 +298,6 @@ skip-submission-description = Nel unviu de les collaboraciones van saltase los c
 skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
 off = NON
 on = SÍ
-add-avatar-title = Amiestu d'una imaxe al perfil
 browse-file-title = Xuba d'un ficheru
 browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
 connect-gravatar = Coneutar con Gravatar
@@ -324,6 +327,7 @@ mycroft-description = Mycroft ye'l primer asistente de códigu abiertu del mundu
 
 ## Glossary
 
+glossary = Glosariu
 sst = Fala a testu (STT)
 
 ## NotFound
@@ -365,6 +369,8 @@ review-delete-recordings = Desaniciar les mios grabaciones
 language = Llingua
 # File size in gigabytes
 size = Tamañu
+validated-hr-total = Hrs totales validaes
+overall-hr-total = Hrs totales en xeneral
 cv-license = Llicencia
 audio-format = Formatu d'audiu
 number-of-voices = Númberu de voces
@@ -418,7 +424,6 @@ language-section-in-progress = En cursu
 language-section-launched = Llanzáronse
 languages-show-more = Ver más
 languages-show-less = Ver menos
-language-speakers = Falantes
 language-meter-in-progress = Progresu
 language-total-progress = Total
 language-search-input =
@@ -519,7 +524,6 @@ overall-accuracy = Precisión xeneral
 
 ## Custom Goals
 
-toward-next-goal = Pa la meta próxima
 
 ## Profile Delete
 
