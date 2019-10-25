@@ -21,18 +21,18 @@ const FilledCheckIcon = () => (
 );
 const PointsIcon = () => <div className="star-points" />;
 
-const locale = 'en';
-
 export default function LeaderboardCard({
   title,
   showVisibleIcon,
   showOverlay,
   service,
+  showTeamInfo,
 }: {
   title: string;
   showVisibleIcon?: boolean;
   showOverlay?: (event: React.MouseEvent<HTMLInputElement>) => void;
   service: 'top-teams' | 'team-progress' | 'top-contributors';
+  showTeamInfo?: boolean;
 }) {
   const account = useAccount();
 
@@ -105,26 +105,22 @@ export default function LeaderboardCard({
         </div>
       }
       tabs={{
-        recorded: () =>
-          React.forwardRef((props, ref) => {
-            return (
-              <ChallengeList
-                type="recorded"
-                service={service}
-                forwardedRef={ref}
-              />
-            );
-          }),
-        validated: () =>
-          React.forwardRef((props, ref) => {
-            return (
-              <ChallengeList
-                type="validated"
-                service={service}
-                forwardedRef={ref}
-              />
-            );
-          }),
+        recorded: () => (
+          <ChallengeList
+            type="recorded"
+            service={service}
+            ref={leaderboardRef}
+            showTeamInfo={showTeamInfo}
+          />
+        ),
+        validated: () => (
+          <ChallengeList
+            type="validated"
+            service={service}
+            ref={leaderboardRef}
+            showTeamInfo={showTeamInfo}
+          />
+        ),
       }}
     />
   );

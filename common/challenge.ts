@@ -21,3 +21,13 @@ export interface Challenge {
   accuracy: number;
   cursor?: [number, number];
 }
+
+export interface TeamChallenge {
+  team: {
+    name: string;
+    points: number;
+    approved: number;
+    accuracy: number;
+  };
+  member: Array<Challenge>;
+}

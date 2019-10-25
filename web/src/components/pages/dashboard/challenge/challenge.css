@@ -383,6 +383,7 @@
             font-size: var(--font-size-xs);
             letter-spacing: 0.4px;
             margin-right: 10px;
+            min-width: 14px;
         }
 
         & .avatar-container {
@@ -408,7 +409,6 @@
 
         & .point,
         & .accuracy {
-            flex: 1;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -441,7 +441,9 @@
             background-color: var(--warm-grey);
             margin-right: 10px;
         }
-
+        & .point {
+            flex: 1.5;
+        }
         & .approved {
             padding: 0 20px;
             min-width: 45px;
@@ -451,6 +453,7 @@
             align-items: center;
             color: var(--white);
             background: var(--blue);
+            flex: 0.5;
 
             & svg {
                 flex-shrink: 0;
@@ -515,10 +518,25 @@
         span {
             flex: 1;
             min-width: 65px;
-            &:first-child {
-                flex: 2;
-                min-width: 75px;
-            }
         }
+        & .ranking {
+            flex: 2;
+            min-width: 75px;
+            max-width: 230px;
+        }
+        & .point {
+            flex: 1.5;
+            max-width: 175px;
+        }
+        & .approved {
+            flex: 0.5;
+            min-width: 105px;
+        }
+    }
+}
+.avatar-wrap.team {
+    background-color: #fff;
+    > img {
+        object-fit: contain;
     }
 }

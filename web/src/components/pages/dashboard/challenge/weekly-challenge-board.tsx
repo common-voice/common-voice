@@ -2,6 +2,7 @@ import * as React from 'react';
 import { LocaleLink } from '../../../locale-helpers';
 import { CircleProgress } from '../../../pages/dashboard/ui';
 import { WeeklyChallenge } from '../../../../../../common/challenge';
+import { Avatar } from '../../../ui/ui';
 import URLS from '../../../../urls';
 import './weekly-challenge-board.css';
 
@@ -12,6 +13,7 @@ export default function WeeklyChallengeBoard({
   isNarrow,
   avatarUrl,
   weekly,
+  challengeTeam,
 }: {
   isDisabled?: boolean;
   title: string;
@@ -19,6 +21,7 @@ export default function WeeklyChallengeBoard({
   isNarrow: boolean;
   avatarUrl: string;
   weekly: WeeklyChallenge;
+  challengeTeam?: string;
 }) {
   const { user, team } = weekly;
   return (
@@ -41,12 +44,7 @@ export default function WeeklyChallengeBoard({
         <div className="challenge-board-content">
           <div className="content-row">
             <div className="column">
-              <img
-                src={
-                  avatarUrl ? require(avatarUrl) : require('./images/ava.svg')
-                }
-                alt="Avatar"
-              />
+              <Avatar url={avatarUrl ? require(avatarUrl) : ''} />
               <p>individual</p>
             </div>
             <div className="container">
@@ -93,7 +91,14 @@ export default function WeeklyChallengeBoard({
           </div>
           <div className="content-row">
             <div className="column">
-              <img src={require('./images/ava.svg')} alt="team" />
+              <Avatar
+                className="team"
+                url={
+                  challengeTeam
+                    ? require(`./images/${challengeTeam.toLowerCase()}.svg`)
+                    : ''
+                }
+              />
               <p>Team</p>
             </div>
             <div className="container team">

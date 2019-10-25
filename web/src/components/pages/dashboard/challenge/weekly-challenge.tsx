@@ -87,6 +87,7 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
               week={currentWeek}
               isNarrow={isNarrow}
               avatarUrl={account.avatar_url}
+              challengeTeam={'sap'} //account.challenge_team}
               weekly={weekly}
             />
           )}
@@ -101,6 +102,7 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
                 week={currentWeek + 1}
                 isNarrow={isNarrow}
                 avatarUrl={account.avatar_url}
+                challengeTeam={'sap'} //account.challenge_team}
                 weekly={weekly}
               />
             )}
@@ -116,6 +118,7 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
                   week={currentWeek + 2}
                   isNarrow={isNarrow}
                   avatarUrl={account.avatar_url}
+                  challengeTeam={'sap'} //account.challenge_team}
                   weekly={weekly}
                 />
               )
@@ -129,6 +132,7 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
                       key={index}
                       isNarrow={isNarrow}
                       avatarUrl={account.avatar_url}
+                      challengeTeam={'sap'} //account.challenge_team}
                       weekly={weekly}
                     />
                   )

@@ -46,9 +46,10 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
   );
 };
 
-export default function ChallengePage({ dashboardLocale }: Props) {
+export default function ChallengePage() {
   const [showOverlay, setShowOverlay] = useState(false);
   const [isNarrow, setIsNarrow] = useState(false);
+  const account = useAccount();
   useEffect(() => {
     const checkSize = () => {
       const { innerWidth } = window;
@@ -68,10 +69,11 @@ export default function ChallengePage({ dashboardLocale }: Props) {
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
         <div className="leader-board">
           <LeaderBoardCard
-            title="SAP Team Progress"
+            title={`${account.challenge_team} Team Progress`}
             showVisibleIcon
             showOverlay={() => setShowOverlay(true)}
             service="team-progress"
+            showTeamInfo
           />
         </div>
         <div className="leader-board">

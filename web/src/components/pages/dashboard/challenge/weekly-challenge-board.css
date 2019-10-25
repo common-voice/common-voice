@@ -67,11 +67,16 @@
         color: #4a4a4a;
         background-color: #f9f9f9;
         text-align: center;
-        img {
-            display: inline-block;
+        .avatar-wrap {
             width: 95px;
             height: 95px;
             margin: 80px auto 20px;
+            &.team {
+                background-color: #fff;
+                > img {
+                    object-fit: contain;
+                }
+            }
         }
     }
     &:first-child {
@@ -200,7 +205,7 @@
             padding: 15px 18px;
             box-sizing: border-box;
             height: auto;
-            img {
+            .avatar-wrap {
                 width: 48px;
                 height: 48px;
                 margin: 0 15px 0 0;

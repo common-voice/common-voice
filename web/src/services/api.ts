@@ -1,7 +1,7 @@
 import { AllGoals, CustomGoalParams } from 'common/goals';
 import { LanguageStats } from 'common/language-stats';
 import { UserClient } from 'common/user-clients';
-import { WeeklyChallenge, Challenge } from 'common/challenge';
+import { WeeklyChallenge, Challenge, TeamChallenge } from 'common/challenge';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
@@ -332,90 +332,37 @@ export default class API {
     locale?: string,
     type?: 'validated' | 'recorded',
     cursor?: [number, number]
-  ): Array<Challenge> {
-    //return this.fetch(`${API_PATH}/${locale}/top/teams/{type}?cursor=${cursor? JSON.stringify(cursor) : ''}`);
+  ): Promise<Challenge[]> {
+    return this.fetch(
+      `${API_PATH}/${locale}/top/teams/${type}?cursor=${
+        cursor ? JSON.stringify(cursor) : ''
+      }`
+    );
+  }
 
-    return [
-      {
-        position: 1,
-        name: 'Catherine',
-        logo: 'base641...',
-        points: 12341,
-        approved: 51,
-        accuracy: 11.99,
-      },
-      {
-        position: 2,
-        name: 'SAP2',
-        logo: 'base642...',
-        points: 12342,
-        approved: 52,
-        accuracy: 12.99,
-      },
-      {
-        position: 3,
-        name: 'SAP3',
-        logo: 'base643...',
-        points: 12343,
-        approved: 53,
-        accuracy: 13.99,
-      },
-      {
-        position: 4,
-        name: 'SAP4',
-        logo: 'base644...',
-        points: 12344,
-        approved: 54,
-        accuracy: 14.99,
-      },
-      {
-        position: 5,
-        name: 'SAP5',
-        logo: 'base645...',
-        points: 12345,
-        approved: 55,
-        accuracy: 15.99,
-      },
-      {
-        position: 6,
-        name: 'SAP6',
-        logo: 'base646...',
-        points: 12346,
-        approved: 56,
-        accuracy: 16.99,
-      },
-      {
-        position: 7,
-        name: 'SAP7',
-        logo: 'base647...',
-        points: 12347,
-        approved: 57,
-        accuracy: 17.99,
-      },
-      {
-        position: 8,
-        name: 'SAP8',
-        logo: 'base648...',
-        points: 12348,
-        approved: 58,
-        accuracy: 18.99,
-      },
-      {
-        position: 9,
-        name: 'SAP9',
-        logo: 'base649...',
-        points: 12349,
-        approved: 59,
-        accuracy: 19.99,
-      },
-      {
-        position: 10,
-        name: 'SAP10',
-        logo: 'base6410...',
-        points: 12340,
-        approved: 60,
-        accuracy: 20.99,
-      },
-    ];
+  fetchTopContributors(
+    locale?: string,
+    type?: 'validated' | 'recorded',
+    cursor?: [number, number]
+  ): Promise<Challenge[]> {
+    return this.fetch(
+      `${API_PATH}/${locale}/top/contributors/${type}?cursor=${
+        cursor ? JSON.stringify(cursor) : ''
+      }`
+    );
+  }
+
+  fetchTeamProgress(
+    locale?: string,
+    type?: 'validated' | 'recorded',
+    cursor?: [number, number],
+    team?: string,
+    email?: string
+  ): Promise<TeamChallenge> {
+    return this.fetch(
+      `${API_PATH}/${locale}/top/member/${team}/${email}/${type}?cursor=${
+        cursor ? JSON.stringify(cursor) : ''
+      }`
+    );
   }
 }
