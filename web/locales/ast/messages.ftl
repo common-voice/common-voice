@@ -38,6 +38,7 @@ cy = Galés
 da = Danés
 de = Alemán
 dsb = Baxu Sorabu
+dv = Maldivu
 el = Griegu
 en = Inglés
 eo = Esperantu
@@ -75,7 +76,7 @@ mn = Mongol
 mt = Maltés
 myv = Erzya
 nb-NO = Bokmål noruegu
-ne-NP = Nepalí
+ne-NP = Nepalín
 nl = Neerlandés
 nn-NO = Nynorsk noruegu
 oc = Occitanu
@@ -324,11 +325,14 @@ about-nav-how-it-works = ¿Cómo?
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelixencia artificial
 mycroft-description = Mycroft ye'l primer asistente de códigu abiertu del mundu y pue executase en cualesquier llugar (ordenador, coche o nuna Raspberry Pi).
+mycroft-secondary-description = Esto ye softwaare de códigu abiertu que pues meces, estnader y ameyorara llibremente. Mycroft pue usase con cualesquier cosa, dende un proyeutu de ciencies hasta una aplicación empresarial
 
 ## Glossary
 
 glossary = Glosariu
 sst = Fala a testu (STT)
+sst-explanation = Les teunoloxíes de fala a testu (STT) convierten los datos de voz a testu.
+de-identified-explanation = El procesu pol que la información del perfil d'un collaborador s'anubre nos clips de voz que se donen cuando s'empaqueten por baxalos como parte d'un conxuntu de datos.
 
 ## NotFound
 
