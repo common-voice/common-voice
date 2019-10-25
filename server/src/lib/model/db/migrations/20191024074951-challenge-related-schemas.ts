@@ -10,33 +10,36 @@ export const up = async function(db: any): Promise<any> {
 
       name VARCHAR(255),
       url_token VARCHAR(36) NOT NULL,
-      start_date DATETIME NOT NULL
+      start_date DATETIME NOT NULL,
+
+      UNIQUE (url_token)
     );
 
     ALTER TABLE teams DROP PRIMARY KEY,
               ADD COLUMN id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, /* better performance and shorter sql statements */
-              CHANGE invite_token url_token VARCHAR(36) NOT NULL,
+              CHANGE invite_token url_token VARCHAR(36) UNIQUE NOT NULL,
               CHANGE team_name name VARCHAR(255),
               ADD COLUMN challenge_id INT UNSIGNED NOT NULL,                  /* teams has to be associated with exact one challenge to make sense */
               ADD FOREIGN KEY (challenge_id) REFERENCES challenges(id);
 
     /* Records each enrollment (a user signing up for a team) across all challenges. */
-    CREATE TABLE enrollments (
+    CREATE TABLE enroll (
       id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
 
       client_id CHAR(36) NOT NULL,
-      team_id INT UNSIGNED NOT NULL,        /* enroll means user becomes a team member of one challenge */
+      team_id INT UNSIGNED NOT NULL,       /* enroll means user becomes a team member of one challenge */
       challenge_id INT UNSIGNED NOT NULL,
-      url_token CHAR(12) NOT NULL,
-      invited_by CHAR(12),
+      url_token CHAR(36) NOT NULL,
+      invited_by CHAR(36),
       enrolled_at DATETIME DEFAULT now(),
       seen_welcome_modal BOOLEAN DEFAULT FALSE,
 
       UNIQUE (url_token),
+      UNIQUE (client_id, team_id, challenge_id),
       FOREIGN KEY (client_id) REFERENCES user_clients(client_id),
       FOREIGN KEY (team_id) REFERENCES teams(id),
       FOREIGN KEY (challenge_id) REFERENCES challenges(id),
-      FOREIGN KEY (invited_by) REFERENCES enrollments(url_token)
+      FOREIGN KEY (invited_by) REFERENCES enroll(url_token) ON DELETE SET NULL ON UPDATE CASCADE
     );
 
 
@@ -48,7 +51,7 @@ export const up = async function(db: any): Promise<any> {
       challenge_id INT UNSIGNED NOT NULL,                     /* only challenges could have achievements */
       name VARCHAR(255),
       points INT NOT NULL,
-      image_url VARCHAR,
+      image_url TEXT,
 
       FOREIGN KEY (challenge_id) REFERENCES challenges(id)
     );

@@ -4,7 +4,6 @@ import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
-import { hash } from '../utility';
 
 const db = getMySQLInstance();
 
@@ -104,7 +103,7 @@ const UserClient = {
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
-        LEFT JOIN (SELECT enrollments.client_id, teams.name FROM enrollments LEFT JOIN teams ON enrollments.team_id = teams.id) t ON t.client_id = u.client_id
+        LEFT JOIN (SELECT enroll.client_id, teams.name FROM enroll LEFT JOIN teams ON enroll.team_id = teams.id) t ON t.client_id = u.client_id
         WHERE u.email = ? AND has_login
         GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
@@ -262,43 +261,25 @@ const UserClient = {
     invite: string
   ): Promise<boolean> {
     if (email && challenge && team) {
-      let client_id = await Promise.all([UserClient.findClientId(email)]);
+      const client_id = (await Promise.all([
+        UserClient.findClientId(email),
+      ]))[0];
       if (client_id) {
-        // Generate a random, anonymized, and unique invite ID for enrollments.
-        // HACK(riley/can): Can we move this entirely into the DB?
-        let inviteToken;
-        while (true) {
-          inviteToken = (await hash(`${Math.random()}`)).slice(0, 12);
-          const res = await db.query(
-            `SELECT * FROM enrollments WHERE url_token=?`,
-            inviteToken
-          );
-          if (!res || !res.length) break;
-        }
-
+        // if invite is null, the invitation comes from team; OTHERWISE from user
+        // for user invitation, invite_by is the same value of url_token from another row
+        // for team invitation, invite_by is the same value of url_token of the same row
+        const [[{ team_id, challenge_id, uuid }]] = await db.query(
+          `SELECT t.id AS team_id, t.challenge_id, UUID() AS uuid FROM teams t WHERE t.url_token=?`,
+          [team]
+        );
         const res = await db.query(
           `
-          SET @challengeId := (SELECT id FROM challenges WHERE url_token=?);
-
-          INSERT IGNORE INTO enrollments (
-            id,
-            challenge_id,
-            team_id,
-            client_id,
-            invited_by,
-            url_token
-          )
-          VALUES (
-            null,
-            @challengeId,
-            (SELECT id FROM teams WHERE challenge_id=@challengeId AND url_token=?),
-            ?,
-            ?,
-            ?
-          )`,
-          [challenge, team, client_id, invite, inviteToken]
+          INSERT INTO enroll (challenge_id, team_id, client_id, invited_by, url_token)
+          VALUES (${challenge_id}, ${team_id}, '${client_id}', ?, '${uuid}')
+          `,
+          [invite || uuid]
         );
-        return res && res[1] && res[1].affectedRows > 1;
+        return res && res[0] && res[0].affectedRows > 0;
       }
     }
     return false;

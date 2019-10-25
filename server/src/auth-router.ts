@@ -113,12 +113,7 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else if (
-      enrollment &&
-      enrollment.challenge &&
-      enrollment.team &&
-      enrollment.invite
-    ) {
+    } else if (enrollment && enrollment.challenge && enrollment.team) {
       if (
         !(await UserClient.enrollRegisteredUser(
           user.emails[0].value,
