@@ -369,7 +369,7 @@ faq-is-goal-assistant-q = Es le scopo de Common Voice crear un assistente vocal?
 faq-is-goal-assistant-a = Le scopo del collection de datos de Common Voice es a activar quicunque in le mundo a crear applicationes de recognition de voce, recognition de orator o de ulle altere typo, que require datos vocal. Un assistente vocal es justo uno de multe typos de applicationes pro crear le qual on poterea usar le collection de datos.
 faq-do-want-native-q = Io es un parlante non-native e io parla con un accento, vole tu ancora mi voce?
 faq-do-want-native-a = Si, nos vole specialmente tu voce! Parte del scopo de Common Voice es colliger quanto plus differente accentos possibile assi que le servicios de recognition del voce labora equalmente ben pro totes. Isto significa que le donationes per le parlantes non-native es particularmente importante.
-faq-why-different-speakers-q = Perque tu besonia de tante differente parlantes per lingua?
+faq-why-different-speakers-q = Proque require vos tante differente parlantes per lingua?
 faq-why-different-speakers-a =
     Le major parte del bases de datos es maestrate con un super-representation de certe datos demographic que resultata in un prejudicio verso <articleLink>le classe masculin e medie</articleLink>.Accentos e dialectos que tende a ser sub-representate in le maestramento del collectiones de datos es typicamente associate con gruppos de personas qui es jam marginalisate. Multe machinas alsi es reluctante a comprender le voces feminin.
     Isto es perque in nostre base de datos de voces nos vole le varietate!
