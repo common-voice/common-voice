@@ -265,8 +265,8 @@ const UserClient = {
         UserClient.findClientId(email),
       ]))[0];
       if (client_id) {
-        // for user invitation, invite_by is the same value of url_token from another row
-        // for team invitation, invite_by is null
+        // If signing up through a user invitation URL, `invited_by` is the
+        // `url_token` from another row. Otherwise, `invited_by` is null.
         // [FUTURE] UUID is too long, maybe consider to optimize it by removing '-' and base64 encoding it.
         const [[{ team_id, challenge_id, enrollment_token }]] = await db.query(
           `SELECT t.id AS team_id, t.challenge_id, UUID() AS enrollment_token FROM teams t
