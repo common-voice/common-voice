@@ -9,12 +9,7 @@ export const PLOT_PADDING = 13;
 import './plot.css';
 
 export type PlotProps = {
-  children: (
-    state: {
-      max: number;
-      width: number;
-    }
-  ) => React.ReactNode;
+  children: (state: { max: number; width: number }) => React.ReactNode;
   data: any[];
   formatNumber: (n: number) => string;
   max: number;

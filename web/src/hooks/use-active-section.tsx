@@ -62,7 +62,7 @@ export default function useActiveSection(sections: any): string {
         0.99,
         1,
       ],
-      rootMargin: '-20%'
+      rootMargin: '-20%',
     });
 
     sectionsElements.map((e: HTMLElement) => observer.observe(e));
