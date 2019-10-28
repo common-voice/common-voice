@@ -11,7 +11,7 @@
         overflow: hidden;
         background-color: var(--white);
         .leader-board {
-            transform: translate(40px, 270px);
+            transform: translate(40px, 370px);
             filter: blur(4px);
             pointer-events: none;
         }
@@ -538,5 +538,38 @@
     background-color: #fff;
     > img {
         object-fit: contain;
+    }
+}
+
+.visible-btns {
+    margin-bottom: 10px;
+    .labeled-checkbox {
+        border-bottom: 1px solid var(--light-grey);
+        padding: 10px 0;
+        font-size: 14px;
+        align-items: center;
+    }
+    .checkbox-container {
+        border: 1.6px solid var(--near-black);
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        input {
+            border-radius: 50%;
+            &:checked {
+                background-color: #59cbb7;
+                ~ .checkmark {
+                    width: 14px;
+                    height: 14px;
+                    left: 50%;
+                    margin-left: -7px;
+                    top: 50%;
+                    margin-top: -7px;
+                    & path {
+                        fill: var(--white);
+                    }
+                }
+            }
+        }
     }
 }
