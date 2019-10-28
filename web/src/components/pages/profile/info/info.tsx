@@ -160,7 +160,13 @@ function ProfilePage({
       locales: locales.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
+      enrollment: user.userClients[0].enrollment || {
+        team: null,
+        challenge: null,
+        invite: null,
+      },
     };
+
     addUploads([
       async () => {
         if (!(user.account && user.account.basket_token) && sendEmails) {

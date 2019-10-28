@@ -14,6 +14,7 @@ loading = ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
 bn = ਬੰਗਾਲੀ
 br = ਬਰੀਟੋਨ
 bxr = ਬੁਰੀਅਤ
+el = ਗਰੀਕ
 en = ਅੰਗਰੇਜ਼ੀ
 eo = ਏਸਪੇਰੈਂਟੋ
 es = ਸਪੈਨਿਸ਼
@@ -39,6 +40,7 @@ sah = ਸਖਾ
 sc = ਸਾਰਡੀਨੀਅਨ
 si = ਸਿੰਹਾਲਾ
 tr = ਤੁਰਕਿਸ਼
+ur = ਉਰਦੂ
 
 # [/]
 
@@ -52,9 +54,16 @@ about = ਬਾਰੇ
 profile = ਪ੍ਰੋਫਾਈਲ
 help = ਮਦਦ
 contact = ਸੰਪਰਕ
+faq = FAQ
+back-top = ਉੱਤੇ ਜਾਓ
 
 ## Home Page
 
+show-wall-of-text = ਹੋਰ ਪੜ੍ਹੋ
+vote-yes = ਹਾਂ
+vote-no = ਨਹੀਂ
+all-locales = ਸੱਭ
+today = ਅੱਜ
 
 ## Account Benefits
 
@@ -64,18 +73,34 @@ contact = ਸੰਪਰਕ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = ਖੇਡੋ/ਰੁਕੋ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 
 ## ProjectStatus
 
 
 ## ProfileForm
 
+on = ਚਾਲੂ
 
 ## FAQ
 

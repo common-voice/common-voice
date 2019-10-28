@@ -110,6 +110,7 @@ sl = Bahasa Slovenia
 sq = Bahasa Albania
 sr = Bahasa Serbia
 sv-SE = Bahasa Swedia
+sw = Bahasa Swahili
 syr = Bahasa Suryani
 ta = Bahasa Tamil
 te = Bahasa Telugu
@@ -198,7 +199,6 @@ x-years-short =
        *[other] { $count }thn
     }
 help-make-dataset = Bantu kami membangun himpunan data yang terbuka untuk umum dan berkualitas tinggi
-profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
 sign-up-account = Daftarkan akun
 email-subscription-title = berlangganan pemberitahuan melalui surel
 email-subscription-title-new = Daftar untuk nawala, pengingat target, dan pembaruan progres Common Voice
@@ -316,10 +316,17 @@ skip-submission-description = Selama pengajuan kontribusi, saran akan dilewati s
 skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Dengarkan untuk mengubah jenis kontribusi.
 off = Nonaktif
 on = Aktif
-add-avatar-title = Tambahkan avatar ke profil Anda
-add-avatar-clip = Tambahkan klip avatar ke profil Anda
+recording-in-progress = Perekaman suara sedang berlangsung
+record-voice-wave = REKAM VOICEWAVE
+retry-voice-wave-recording = COBA LAGI
+re-record = REKAM ULANG
+delete-voice = HAPUS
+recording-voice-wave = Merekam
+delete-voice-clip = atau Hapus klip suara
 ready-to-upload = Unggah
+avatar-clip-fact = Merupakan fakta bahwa pembaca akan terganggu oleh konten yang bisa dibaca pada sebuah laman ketika melihat tata letaknya.
 cancel-avatar-clip-recording = Batal
+about-avatar-clip-recording = Buat klip suara sebagai bagian dari avatar profil Anda. Orang lain akan dapat melihat-lihat dan mendengarkan klip Anda.
 browse-file-title = Unggah berkas gambar
 browse-file = Seret dan lepas atau <browseWrap>Telusuri</browseWrap>
 connect-gravatar = Sambungkan ke Gravatar
@@ -576,7 +583,6 @@ language-section-launched = Telah Diluncurkan
 language-section-launched-description = Untuk beberapa bahasa yang telah diluncurkan, situs telah berhasil <localizationGlossaryLink>melokalkan</localizationGlossaryLink>, dan memiliki <sentenceCollectionGlossaryLink>koleksi kalimat</sentenceCollectionGlossaryLink> yang cukup untuk memungkinkan kontribusi <speakLink>Berbicara</speakLink> dan <listenLink>Mendengarkan</listenLink>.
 languages-show-more = Lebih Banyak
 languages-show-less = Lebih Sedikit
-language-speakers = Penutur
 language-meter-in-progress = Kemajuan
 language-total-progress = Total
 language-search-input =
@@ -630,6 +636,7 @@ listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
 nothing-to-validate = Kami tidak memiliki apa pun untuk divalidasi dalam bahasa ini, bantu kami mengisi antreannya.
 record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
+keep-track-profile = Pantau kemajuan Anda dengan profil
 login-to-get-started = Masuk atau daftar untuk memulai
 
 ## Reporting
@@ -692,7 +699,7 @@ show-ranking = Tampilkan peringkat saya
 ## Custom Goals
 
 get-started-goals = Memulai dengan target
-toward-next-goal = Menuju capaian selanjutnya
+create-custom-goal = Buat Sasaran Khas
 both-speak-and-listen = Keduanya
 both-speak-and-listen-long = Keduanya (Berbicara dan Mendengarkan)
 daily-goal = Target Harian
@@ -701,15 +708,34 @@ easy-difficulty = Mudah
 average-difficulty = Rerata
 difficult-difficulty = Sulit
 pro-difficulty = Pro
+lose-goal-progress-warning = Dengan menyunting sasaran, Anda dapat kehilangan kemajuan yang sudah ada.
 want-to-continue = Ingin melanjutkan?
 finish-editing = Selesai mengedit terlebih dahulu?
+lose-changes-warning = Pergi sekarang artinya kehilangan perubahan Anda.
+build-custom-goal = Bangun sasaran khas
+help-reach-hours = Bantu capai { NUMBER($hours) } jam dalam { $language } dengan sasaran pribadi
+help-reach-hours-general = Bantu Common Voice mencapai { NUMBER($hours) } jam dalam sebuah bahasa dengan sasaran pribadi
 set-a-goal = Tetapkan target
+cant-decide = Tak bisa memutuskan?
+activity-needed-calculation = { NUMBER($totalHours) } jam dapat dicapai hanya dalam waktu { NUMBER($periodMonths) } bulan jika { NUMBER($people) } orang merekam { NUMBER($clipsPerDay) } klip per hari.
+how-many-per-day = Hebat! Berapa banyak klip per hari?
+how-many-a-week = Hebat! Berapa banyak klip dalam seminggu?
+which-goal-type = Apakah Anda ingin Bicara, Mendengarkan, atau keduanya?
+receiving-emails-info = Saat ini Anda menetapkan untuk menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
+not-receiving-emails-info = Saat ini Anda menetapkan untuk <bold>TIDAK</bold> menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
 n-clips = { NUMBER($count) } klip
+help-share-goal = Bantu kami menemukan lebih banyak suara, bagikan sasaran Anda
 confirm-goal = Konfirmasi Target
 goal-interval-weekly = Mingguan
 share-goal-type-speak = Berbicara
 share-goal-type-listen = Mendengarkan
 share-goal-type-both = Berbicara dan Mendengarkan
+# LINK will be replaced with the current URL
+goal-share-text = Saya baru saja membuat sasaran pribadi untuk donasi suara ke #CommonVoice - bergabung dengan saya dan bantu mengajar mesin bagaimana sebenarnya orang berbicara { $link }
+weekly-goal-created = Sasaran mingguan Anda telah dibuat
+daily-goal-created = Sasaran harian Anda telah dibuat
+track-progress = Lacak kemajuan di sini dan di laman statistik Anda.
+return-to-edit-goal = Kembali ke sini untuk menyunting sasaran Anda kapan saja.
 share-goal = Bagikan target saya
 
 ## Profile Delete

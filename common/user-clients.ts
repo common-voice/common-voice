@@ -16,4 +16,5 @@ export type UserClient = {
   votes_count?: number;
   awards?: any[];
   custom_goals?: CustomGoal[];
+  enrollment?: { challenge: string; team: string; invite: string };
 };

@@ -16,6 +16,14 @@ not-available-abbreviation = haihitajiki
 
 ## Languages
 
+ar = Kiarabu
+ast = Kiasturia
+br = Kibretoni
+cy = Kiwelisi
+de = Kijerumani
+en = Kiingereza
+es = Kihispania
+fr = Kifaransa
 
 # [/]
 
