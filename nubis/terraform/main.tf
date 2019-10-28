@@ -44,7 +44,7 @@ module "sync" {
   elb           = "${module.load_balancer.name}"
   min_instances = "1"
   max_instances = "1"
-  instance_type = "t2.large"
+  instance_type = "${var.environment == "prod" ? "t2.2xlarge" : "t2.small"}"
 
   # Wait up to 10 minutes for warming up (in seconds)
   health_check_grace_period = "600"
