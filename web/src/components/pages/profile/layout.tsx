@@ -27,9 +27,7 @@ import './layout.css';
 
 function downloadData(account: UserClient) {
   const text = [
-    ...Object.entries(
-      pick(account, 'email', 'username', 'age', 'gender', 'challenge_team')
-    ),
+    ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
     ...account.locales.reduce((all, l, i) => {
       const localeLabel = 'language ' + (i + 1);
       return [

@@ -98,14 +98,9 @@ router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
   async ({ user, query: { state }, session }: Request, response: Response) => {
-    const {
-      locale,
-      old_user,
-      old_email,
-      redirect,
-      challenge_team,
-      ovchall,
-    } = JSON.parse(AES.decrypt(state, SECRET).toString(enc.Utf8));
+    const { locale, old_user, old_email, redirect, enrollment } = JSON.parse(
+      AES.decrypt(state, SECRET).toString(enc.Utf8)
+    );
     const basePath = locale ? '/' + locale + '/' : '/';
     if (!user) {
       response.redirect(basePath + 'login-failure');
@@ -118,18 +113,21 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else if (ovchall && challenge_team) {
-      // pass the challenge_team to frontend
-      user.challenge_team = challenge_team;
-
-      // update the challenge_team of the user who is already signed up but have not joined any team
-      await UserClient.updateChallengeTeam(
-        user.emails[0].value,
-        challenge_team
-      );
+    } else if (enrollment && enrollment.challenge && enrollment.team) {
+      if (
+        !(await UserClient.enrollRegisteredUser(
+          user.emails[0].value,
+          enrollment.challenge,
+          enrollment.team,
+          enrollment.invite
+        ))
+      ) {
+        // if the user is unregistered, pass enrollment to frontend
+        user.enrollment = enrollment;
+      }
 
       response.redirect(
-        redirect || `${basePath}login-success?ovchall=${ovchall}`
+        redirect || `${basePath}login-success?challenge=${enrollment.challenge}`
       );
     } else {
       response.redirect(redirect || basePath + 'login-success');
@@ -155,8 +153,11 @@ router.get('/login', (request: Request, response: Response) => {
             }
           : {}),
         redirect: query.redirect || null,
-        challenge_team: query.challenge_team || null,
-        ovchall: query.ovchall || null,
+        enrollment: {
+          challenge: query.challenge || null,
+          team: query.team || null,
+          invite: query.invite || null,
+        },
       }),
       SECRET
     ).toString(),
