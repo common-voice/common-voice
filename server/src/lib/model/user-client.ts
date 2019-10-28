@@ -265,19 +265,23 @@ const UserClient = {
         UserClient.findClientId(email),
       ]))[0];
       if (client_id) {
-        // if invite is null, the invitation comes from team; OTHERWISE from user
         // for user invitation, invite_by is the same value of url_token from another row
-        // for team invitation, invite_by is the same value of url_token of the same row
-        const [[{ team_id, challenge_id, uuid }]] = await db.query(
-          `SELECT t.id AS team_id, t.challenge_id, UUID() AS uuid FROM teams t WHERE t.url_token=?`,
-          [team]
+        // for team invitation, invite_by is null
+        // [FUTURE] UUID is too long, maybe consider to optimize it by removing '-' and base64 encoding it.
+        const [[{ team_id, challenge_id, enrollment_token }]] = await db.query(
+          `SELECT t.id AS team_id, t.challenge_id, UUID() AS enrollment_token FROM teams t
+            LEFT JOIN challenges c ON t.challenge_id = c.id
+            WHERE t.url_token=? AND c.url_token = ?`,
+          [team, challenge]
         );
+
+        // INSERT IGNORE will hide exceptions such as duplicate foreign key violation
+        // It is sort of catch exception but do nothing, not even log to console.
         const res = await db.query(
           `
-          INSERT INTO enroll (challenge_id, team_id, client_id, invited_by, url_token)
-          VALUES (${challenge_id}, ${team_id}, '${client_id}', ?, '${uuid}')
+          INSERT INTO enroll (challenge_id, team_id, client_id, url_token, invited_by) VALUES (?, ?, ?, ?, ?)
           `,
-          [invite || uuid]
+          [challenge_id, team_id, client_id, enrollment_token, invite || null]
         );
         return res && res[0] && res[0].affectedRows > 0;
       }
