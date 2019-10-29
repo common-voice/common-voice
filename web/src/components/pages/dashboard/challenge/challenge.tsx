@@ -38,7 +38,7 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
         <div>Hidden</div>
         <div>Visible</div>
       </div>
-      {radio && (
+      {Boolean(radio) && (
         <div className="visible-btns">
           <LabeledCheckbox
             label="Visible for all"
