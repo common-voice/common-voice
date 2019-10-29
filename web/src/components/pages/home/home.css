@@ -162,7 +162,8 @@
             }
         }
         @media (--lg-up) {
-            margin-bottom: -70px; // Compensate for translateY
+            /* Compensate for translateY */
+            margin-bottom: -70px;
             flex-direction: row;
 
             & > :first-child {

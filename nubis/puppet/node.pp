@@ -65,7 +65,7 @@ Wants=basic.target
 After=basic.target network.target
 
 [Service]
-Restart=on-failure
+Restart=always
 RestartSec=10s
 User=${project_name}-data
 Group=${project_name}-data

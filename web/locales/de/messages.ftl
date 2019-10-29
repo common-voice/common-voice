@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Absenden
 loading = Wird geladen…
 email-opt-in-info = Ich möchte E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice erhalten.
+email-opt-in-info-title = Treten Sie der Mailing-Liste von Common Voice bei
+email-opt-in-info-sub = Erhalten Sie E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice.
 email-opt-in-privacy = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung<privacyLink> von Mozilla verarbeitet.
 indicates-required = * Pflichtfeld
 not-available-abbreviation = Nicht verfügbar
@@ -307,6 +309,7 @@ thanks-for-account = Danke für die Bestätigung Ihres Kontos, Sie können jetzt
 why-demographic = Warum sind diese Angaben relevant?
 why-demographic-explanation = Das Verknüpfen von Ihren Aufzeichnungen mit anonymisierten Nutzerangaben wie Alter, Geschlecht und Akzent hilft Entwicklern dabei, die Genauigkeit von Spracherkennungssoftware besser zu trainieren. Ihr Benutzername und Ihre E-Mail-Adresse werden natürlich nicht mit diesen Daten verknüpft und es bleibt Ihnen überlassen, ob Sie Ihren Benutzernamen öffentlich machen oder lieber anonym bleiben möchten.
 accept-privacy = Ich bin einverstanden, dass diese Daten wie in der <privacyLink>Datenschutzerklärung</privacyLink> beschrieben verwendet werden.
+accept-privacy-title = Datenschutzerklärung
 login-identity = Anmeldeidentität
 login-signup = Anmelden / Registrieren
 edit = Bearbeiten
@@ -731,8 +734,8 @@ help-reach-hours-general = Helfen Sie Common Voice mit einem persönlichen Ziel 
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
 activity-needed-calculation =
-    { NUMBER($totalHours) } Stunden sind in etwas mehr als { NUMBER($periodMonths) } erreichbar.
-    Monate, wenn { NUMBER($people) } Personen { NUMBER($clipsPerDay) } Clips pro Tag aufnehmen.
+    { NUMBER($totalHours) } Stunden sind in etwas mehr als { NUMBER($periodMonths) } Monaten
+    erreichbar, wenn { NUMBER($people) } Personen { NUMBER($clipsPerDay) } Clips pro Tag aufnehmen.
 how-many-per-day = Top! Wie viele Clips pro Tag?
 how-many-a-week = Top! Wie viele Clips pro Woche?
 which-goal-type = Möchten Sie Sprechen, Hören oder beides?

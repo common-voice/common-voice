@@ -14,17 +14,28 @@ import {
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
+import { Button } from '../../ui/ui';
+import InviteModal from '../../invite-modal/invite-modal';
 
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
 
 const TITLE_BAR_LOCALE_COUNT = 3;
 
-const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
+const TopBar = ({
+  dashboardLocale,
+  setShowInviteModal,
+}: {
+  dashboardLocale: string;
+  setShowInviteModal(arg: any): void;
+}) => {
   const { history, location } = useRouter();
   const [, toLocaleRoute] = useLocale();
   const account = useAccount();
-  const [showTitleBarLocales, setShowTitleBarLocales] = useState(true);
+  const [isAboveMdWidth, setIsAboveMdWidth] = useState(true);
+  const isChallengeEnrolled =
+    account && account.enrollment && account.enrollment.team;
+  const isChallengeTabSelected = location.pathname.endsWith('/challenge');
 
   function setLocale(value: string) {
     const pathParts = location.pathname.split('/');
@@ -44,110 +55,138 @@ const TopBar = ({ dashboardLocale }: { dashboardLocale: string }) => {
       .map(({ locale }) => locale)
       .filter(l => isContributable(l))
   );
-  const titleBarLocales = showTitleBarLocales
+  const titleBarLocales = isAboveMdWidth
     ? locales.slice(0, TITLE_BAR_LOCALE_COUNT)
     : [];
-  const dropdownLocales = showTitleBarLocales
+  const dropdownLocales = isAboveMdWidth
     ? locales.slice(TITLE_BAR_LOCALE_COUNT)
     : locales;
 
   useEffect(() => {
     const checkSize = () => {
-      setShowTitleBarLocales(window.innerWidth > 992);
+      const { innerWidth } = window;
+      setIsAboveMdWidth(innerWidth > 992);
     };
     window.addEventListener('resize', checkSize);
 
     return () => {
       window.removeEventListener('resize', checkSize);
     };
-  }, []);
+  }, [isChallengeTabSelected]);
 
   return (
-    <div className="top-bar">
-      <nav>
-        {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(([label, path]) => (
+    <div className={`top-bar${isChallengeEnrolled ? ' with-challenge' : ''}`}>
+      <div className="underlined">
+        <nav>
+          {isChallengeEnrolled && (
+            <LocaleNavLink
+              key={URLS.CHALLENGE}
+              to={
+                URLS.DASHBOARD +
+                (dashboardLocale ? '/' + dashboardLocale : '') +
+                URLS.CHALLENGE
+              }>
+              <h2>Challenge</h2>
+            </LocaleNavLink>
+          )}
+          {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(
+            ([label, path]) => (
+              <LocaleNavLink
+                key={path}
+                to={
+                  URLS.DASHBOARD +
+                  (dashboardLocale ? '/' + dashboardLocale : '') +
+                  path
+                }>
+                <Localized id={label}>
+                  <h2 />
+                </Localized>
+              </LocaleNavLink>
+            )
+          )}
           <LocaleNavLink
-            key={path}
             to={
               URLS.DASHBOARD +
               (dashboardLocale ? '/' + dashboardLocale : '') +
-              path
+              URLS.AWARDS
             }>
-            <Localized id={label}>
-              <h2 />
-            </Localized>
+            <h2>
+              <Localized id="awards">
+                <span />
+              </Localized>{' '}
+              {unseenAwards > 0 && (
+                <span className="badge">
+                  {unseenAwards > 9 ? '9+' : unseenAwards}
+                </span>
+              )}
+            </h2>
           </LocaleNavLink>
-        ))}
-        <LocaleNavLink
-          to={
-            URLS.DASHBOARD +
-            (dashboardLocale ? '/' + dashboardLocale : '') +
-            URLS.AWARDS
-          }>
-          <h2>
-            <Localized id="awards">
-              <span />
-            </Localized>{' '}
-            {unseenAwards > 0 && (
-              <span className="badge">
-                {unseenAwards > 9 ? '9+' : unseenAwards}
-              </span>
-            )}
-          </h2>
-        </LocaleNavLink>
-      </nav>
-
-      <div className="languages">
-        <span>
-          <Localized id="your-languages">
-            <span />
-          </Localized>
-          :
-        </span>
-        {titleBarLocales.map(l => (
-          <label key={l}>
-            <input
-              type="radio"
-              name="language"
-              checked={l == dashboardLocale}
-              onChange={() => setLocale(l)}
-            />
-            {l ? (
-              <span>{NATIVE_NAMES[l]}</span>
-            ) : (
-              <Localized id={ALL_LOCALES}>
+        </nav>
+        {isChallengeTabSelected ? (
+          <div className="language challenge-language">
+            <span>Language:</span>
+            <span className="language-text">English</span>
+          </div>
+        ) : (
+          <div className="languages">
+            <span>
+              <Localized id="your-languages">
                 <span />
               </Localized>
+              :
+            </span>
+            {titleBarLocales.map(l => (
+              <label key={l}>
+                <input
+                  type="radio"
+                  name="language"
+                  checked={l == dashboardLocale}
+                  onChange={() => setLocale(l)}
+                />
+                {l ? (
+                  <span>{NATIVE_NAMES[l]}</span>
+                ) : (
+                  <Localized id={ALL_LOCALES}>
+                    <span />
+                  </Localized>
+                )}
+              </label>
+            ))}
+            {dropdownLocales.length > 0 && (
+              <select
+                className={
+                  dropdownLocales.includes(dashboardLocale) ? 'selected' : ''
+                }
+                name="language"
+                value={dashboardLocale}
+                onChange={({ target: { value } }) => {
+                  if (value) {
+                    setLocale(value);
+                  }
+                }}>
+                {titleBarLocales.length > 0 && <option value="" />}
+                {dropdownLocales.map(l =>
+                  l ? (
+                    <option key={l} value={l}>
+                      {NATIVE_NAMES[l]}
+                    </option>
+                  ) : (
+                    <Localized key={ALL_LOCALES} id={l}>
+                      <option value={l} />
+                    </Localized>
+                  )
+                )}
+              </select>
             )}
-          </label>
-        ))}
-        {dropdownLocales.length > 0 && (
-          <select
-            className={
-              dropdownLocales.includes(dashboardLocale) ? 'selected' : ''
-            }
-            name="language"
-            value={dashboardLocale}
-            onChange={({ target: { value } }) => {
-              if (value) {
-                setLocale(value);
-              }
-            }}>
-            {titleBarLocales.length > 0 && <option value="" />}
-            {dropdownLocales.map(l =>
-              l ? (
-                <option key={l} value={l}>
-                  {NATIVE_NAMES[l]}
-                </option>
-              ) : (
-                <Localized key={ALL_LOCALES} id={l}>
-                  <option value={l} />
-                </Localized>
-              )
-            )}
-          </select>
+          </div>
         )}
       </div>
+      {isChallengeTabSelected && (
+        <ChallengeBar
+          isNarrow={!isAboveMdWidth}
+          setShowInviteModal={setShowInviteModal}
+        />
+      )}
     </div>
   );
 };
@@ -169,16 +208,42 @@ function DashboardContent({
   return <Page {...{ allGoals, dashboardLocale }} />;
 }
 
+interface ChallengeBarProps {
+  isNarrow: boolean;
+  setShowInviteModal(arg: any): void;
+}
+const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => (
+  <div className="challenge-bar">
+    <div className="points">
+      <img src={require('./awards/star.svg')} alt="score" />
+      <span className="score">448</span>
+      <span className="label label-my">{isNarrow ? 'Me' : 'My points'}</span>
+      <span className="divider"></span>
+      <span className="score">12345</span>
+      <span className="label label-team">Team{!isNarrow && ' points'}</span>
+    </div>
+    <Button
+      rounded
+      className="invite-btn"
+      onClick={() => setShowInviteModal(true)}>
+      <span className="content">Invite</span>
+      <span className="plus-icon"></span>
+    </Button>
+  </div>
+);
+
 const PAGES = [
   { subPath: URLS.STATS, Page: StatsPage },
   { subPath: URLS.GOALS, Page: GoalsPage },
   { subPath: URLS.AWARDS, Page: AwardsPage },
+  { subPath: URLS.CHALLENGE, Page: StatsPage },
 ];
 
 export default function Dashboard() {
   const { match } = useRouter();
   const account = useAccount();
   const [, toLocaleRoute] = useLocale();
+  const [showInviteModal, setShowInviteModal] = useState<boolean>(false);
 
   useEffect(() => {
     if (!account) {
@@ -189,6 +254,15 @@ export default function Dashboard() {
 
   return (
     <div className="dashboard">
+      {showInviteModal && (
+        <InviteModal
+          inviteId="#####"
+          onRequestClose={() => {
+            setShowInviteModal(false);
+          }}
+          teamId="SAP"
+        />
+      )}
       <div className="inner">
         <Switch>
           {PAGES.map(({ subPath, Page }) => (
@@ -198,7 +272,10 @@ export default function Dashboard() {
               path={match.path + subPath}
               render={() => (
                 <>
-                  <TopBar dashboardLocale="" />
+                  <TopBar
+                    dashboardLocale=""
+                    setShowInviteModal={setShowInviteModal}
+                  />
                   <DashboardContent dashboardLocale="" {...{ Page }} />
                 </>
               )}
@@ -212,7 +289,10 @@ export default function Dashboard() {
               },
             }) => (
               <>
-                <TopBar {...{ dashboardLocale }} />
+                <TopBar
+                  {...{ dashboardLocale }}
+                  setShowInviteModal={setShowInviteModal}
+                />
                 <Switch>
                   {PAGES.map(({ subPath, Page }) => (
                     <Route

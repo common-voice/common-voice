@@ -34,17 +34,18 @@ module "worker" {
 }
 
 module "sync" {
-  source        = "github.com/nubisproject/nubis-terraform//worker?ref=v2.4.0"
-  region        = "${var.region}"
-  environment   = "${var.environment}"
-  account       = "${var.account}"
-  service_name  = "${var.service_name}"
-  purpose       = "sync"
-  ami           = "${var.ami}"
-  elb           = "${module.load_balancer.name}"
-  min_instances = "1"
-  max_instances = "1"
-  instance_type = "t2.large"
+  source            = "github.com/nubisproject/nubis-terraform//worker?ref=v2.4.0"
+  region            = "${var.region}"
+  environment       = "${var.environment}"
+  account           = "${var.account}"
+  service_name      = "${var.service_name}"
+  purpose           = "sync"
+  ami               = "${var.ami}"
+  elb               = "${module.load_balancer.name}"
+  min_instances     = "1"
+  max_instances     = "1"
+  instance_type     = "${var.environment == "prod" ? "t2.2xlarge" : "t2.small"}"
+  root_storage_size = "${var.environment == "prod" ? "24" : "0"}"
 
   # Wait up to 10 minutes for warming up (in seconds)
   health_check_grace_period = "600"
@@ -64,6 +65,7 @@ module "load_balancer" {
   account      = "${var.account}"
   service_name = "${var.service_name}"
 
+  health_check_target              = "HTTP:80/api/v1/metrics"
   health_check_timeout             = 5
   health_check_healthy_threshold   = 3
   health_check_unhealthy_threshold = 3

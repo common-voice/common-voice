@@ -15,6 +15,7 @@ export function track(
     | 'Global'
     | 'Nav'
     | 'Landing'
+    | 'Challenge'
     | 'voice-avatar',
   action: string,
   locale?: string
@@ -149,4 +150,14 @@ export function trackDashboard(
 
 export function trackLanding(action: 'speak' | 'profile' | 'about') {
   track('Landing', action);
+}
+
+export function trackChallenge(
+  action:
+    | 'dashboard-view'
+    | 'modal-invite'
+    | 'modal-onboarding'
+    | 'modal-welcome'
+) {
+  track('Challenge', action);
 }
