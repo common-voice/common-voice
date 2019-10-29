@@ -191,12 +191,14 @@ const UserClient = {
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
       locales && updateLocales(accountClientId, locales),
-      this.enrollRegisteredUser(
-        email,
-        data.enrollment.challenge,
-        data.enrollment.team,
-        data.enrollment.invite
-      ),
+      data &&
+        data.enrollment &&
+        this.enrollRegisteredUser(
+          email,
+          data.enrollment.challenge,
+          data.enrollment.team,
+          data.enrollment.invite
+        ),
     ]);
 
     return UserClient.findAccount(email);
