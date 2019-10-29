@@ -239,7 +239,7 @@ female = Ixöq
 # Gender
 other = Juley chik
 why-profile-title = ¿Achike ruma jun ruwäch b'i'aj?
-why-profile-text = Toq naya' jub'a' awetamab'al chawij chi qe, ri taq rutzij k'oxom xtatäq pa Common Voice yalan xkek'atzin chi ke ri kik'wab'al etamanel ch'ab'äl ye'okisan kichin richin nikutzilaj ki'.
+why-profile-text = Toq naya' jub'a' awetamab'al chi qe, ri taq rutzij k'oxom xke'atäq pa Common Voice, yalan xkek'atzin chi ke ri kik'wab'al etamanel ch'ab'äl ye'okisan richin ni'utzilaj kij.
 dashboard = Pas
 build-profile = Titz'uk Ruwäch B'i'aj
 avatar = Awatar
