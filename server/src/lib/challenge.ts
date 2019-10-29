@@ -18,11 +18,11 @@ export default class Challenge {
   getRouter() {
     const router = PromiseRouter({ mergeParams: true });
 
-    router.post('/points', this.getPoints);
-    router.post('/progress/:date', this.getWeeklyProgress);
-    router.post(':locale/members/:type', this.getTopMembers);
-    router.post(':locale/teams/:type', this.getTopTeams);
-    router.post(':locale/contributors/:type', this.getTopContributors);
+    router.get('/points', this.getPoints);
+    router.get('/progress/:date', this.getWeeklyProgress);
+    router.get('/:locale/members/:type', this.getTopMembers);
+    router.get('/:locale/teams/:type', this.getTopTeams);
+    router.get('/:locale/contributors/:type', this.getTopContributors);
 
     return router;
   }
