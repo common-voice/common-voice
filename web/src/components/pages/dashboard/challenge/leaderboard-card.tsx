@@ -107,6 +107,7 @@ export default function LeaderboardCard({
       tabs={{
         recorded: () => (
           <ChallengeList
+            key="recorded-list"
             type="recorded"
             service={service}
             ref={leaderboardRef}
@@ -115,6 +116,7 @@ export default function LeaderboardCard({
         ),
         validated: () => (
           <ChallengeList
+            key="validated-list"
             type="validated"
             service={service}
             ref={leaderboardRef}
