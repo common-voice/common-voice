@@ -52,7 +52,7 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
     },
   });
   useEffect(() => {
-    api.fetchWeeklyChallenge(account.email, date).then(setWeekly);
+    api.fetchWeeklyChallenge(date).then(setWeekly);
   }, []);
   return (
     <div className="weekly-container">

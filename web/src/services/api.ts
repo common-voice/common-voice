@@ -315,17 +315,15 @@ export default class API {
   }
 
   // Challenge
-  fetchChallengePoints(
-    email?: string
-  ): Promise<{
+  fetchChallengePoints(): Promise<{
     user: number;
     team: number;
   }> {
-    return this.fetch(`${API_PATH}/challenge/points/${email}`);
+    return this.fetch(`${API_PATH}/challenge/points`);
   }
 
-  fetchWeeklyChallenge(email?: string, date?: Date): Promise<WeeklyChallenge> {
-    return this.fetch(`${API_PATH}/challenge/weekly/${email}/${date}`);
+  fetchWeeklyChallenge(date?: Date): Promise<WeeklyChallenge> {
+    return this.fetch(`${API_PATH}/challenge/weekly/${date}`);
   }
 
   fetchTopTeams(
@@ -355,12 +353,10 @@ export default class API {
   fetchTeamProgress(
     locale?: string,
     type?: 'validated' | 'recorded',
-    cursor?: [number, number],
-    team?: string,
-    email?: string
+    cursor?: [number, number]
   ): Promise<TeamChallenge> {
     return this.fetch(
-      `${API_PATH}/${locale}/top/member/${team}/${email}/${type}?cursor=${
+      `${API_PATH}/${locale}/top/member/${type}?cursor=${
         cursor ? JSON.stringify(cursor) : ''
       }`
     );

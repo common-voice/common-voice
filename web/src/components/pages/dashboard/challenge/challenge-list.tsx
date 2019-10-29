@@ -59,27 +59,24 @@ class ChallengeList extends React.Component<Props, State> {
   };
 
   callService = (cursor?: [number, number]) => {
-    const { service, api, type, user } = this.props;
-    const { email, challenge_team } = user.account;
+    const { service, api, type } = this.props;
     switch (service) {
       case 'team-progress':
-        api
-          .fetchTeamProgress(locale, type, cursor, email, challenge_team)
-          .then(({ team, member }) => {
-            this.setState({ team: team });
-            this.setState(
-              ({ rows }) => {
-                const allRows = [...rows, ...member];
-                return {
-                  rows: allRows,
-                  isAtEnd: member.length == 0,
-                };
-              },
-              () => {
-                this.updateScrollIndicator();
-              }
-            );
-          });
+        api.fetchTeamProgress(locale, type, cursor).then(({ team, member }) => {
+          this.setState({ team: team });
+          this.setState(
+            ({ rows }) => {
+              const allRows = [...rows, ...member];
+              return {
+                rows: allRows,
+                isAtEnd: member.length == 0,
+              };
+            },
+            () => {
+              this.updateScrollIndicator();
+            }
+          );
+        });
         break;
       case 'top-teams':
         api.fetchTopTeams(locale, type, cursor).then(data => {
@@ -142,7 +139,7 @@ class ChallengeList extends React.Component<Props, State> {
         i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
       const isYou =
         row.name === user.account.username ||
-        row.name === user.account.challenge_team;
+        row.name === user.account.enrollment.team;
       return [
         prevPosition && prevPosition + 1 < row.position ? (
           <FetchRow

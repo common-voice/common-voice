@@ -16,8 +16,8 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
   const [radio, setVisibleRadio] = useState(account.visible);
   const visibleForTeam = useRef(null);
   const visibleForAll = useRef(null);
-  const VISIBLE_FOR_TEAM = 1;
-  const VISIBLE_FOR_ALL = 2;
+  const VISIBLE_FOR_TEAM = 2;
+  const VISIBLE_FOR_ALL = 1;
   return (
     <div className="leaderboard-overlay">
       <button className="close-overlay" type="button" onClick={hideOverlay}>
@@ -103,7 +103,7 @@ export default function ChallengePage() {
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
         <div className="leader-board">
           <LeaderBoardCard
-            title={`${account.challenge_team} Team Progress`}
+            title={`${account.enrollment.team} Team Progress`}
             showVisibleIcon
             showOverlay={() => setShowOverlay(true)}
             service="team-progress"
