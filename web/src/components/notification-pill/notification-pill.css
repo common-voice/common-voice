@@ -21,6 +21,10 @@
         background: var(--red);
     }
 
+    &.achievements {
+        background: var(--blue);
+    }
+
     &:first-child {
         margin-top: 0;
     }
