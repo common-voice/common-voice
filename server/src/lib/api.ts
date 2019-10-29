@@ -18,6 +18,7 @@ import Clip from './clip';
 import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
+import Challenge from './challenge';
 
 const Transcoder = require('stream-transcoder');
 
@@ -26,6 +27,7 @@ const PromiseRouter = require('express-promise-router');
 export default class API {
   model: Model;
   clip: Clip;
+  challenge: Challenge;
   metrics: Prometheus;
   private s3: S3;
   private bucket: Bucket;
@@ -33,6 +35,7 @@ export default class API {
   constructor(model: Model) {
     this.model = model;
     this.clip = new Clip(this.model);
+    this.challenge = new Challenge();
     this.metrics = new Prometheus();
     this.s3 = AWS.getS3();
     this.bucket = new Bucket(this.model, this.s3);
@@ -113,6 +116,8 @@ export default class API {
     router.post('/:locale/downloaders/:email', this.insertDownloader);
 
     router.post('/reports', this.createReport);
+
+    router.use('/challenge', this.challenge.getRouter());
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
