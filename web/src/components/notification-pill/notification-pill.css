@@ -20,7 +20,7 @@
         background: var(--red);
     }
 
-    &.achievements {
+    &.achievement {
         background: var(--blue);
         line-height: 1.5;
         border-radius: 29px 0 0 29px;
