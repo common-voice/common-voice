@@ -16,7 +16,7 @@ export default function NotificationPill({
   const [show, setShow] = useState(true);
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => setShow(true), NOTIFICATION_TIMEOUT_MS);
+    const timeoutId = setTimeout(() => setShow(false), NOTIFICATION_TIMEOUT_MS);
     return () => clearTimeout(timeoutId);
   }, []);
 
