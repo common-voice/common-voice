@@ -9,7 +9,7 @@ export namespace Notifications {
       }
     | { kind: 'banner'; actionProps: any });
 
-  type NotificationType = 'success' | 'error';
+  type NotificationType = 'success' | 'error' | 'achievement';
 
   export type State = Notification[];
 
