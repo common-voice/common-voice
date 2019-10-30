@@ -19,7 +19,7 @@ export default class Challenge {
     const router = PromiseRouter({ mergeParams: true });
 
     router.get('/points', this.getPoints);
-    router.get('/progress/:date', this.getWeeklyProgress);
+    router.get('/progress', this.getWeeklyProgress);
     router.get('/:locale/members/:type', this.getTopMembers);
     router.get('/:locale/teams/:type', this.getTopTeams);
     router.get('/:locale/contributors/:type', this.getTopContributors);
@@ -34,15 +34,8 @@ export default class Challenge {
     response.json(data.challengePoint);
   };
 
-  getWeeklyProgress = async (
-    { client_id, params: { date } }: Request,
-    response: Response
-  ) => {
-    console.log(
-      `[DEBUG] Challenge.getWeeklyProgress - client_id:${client_id}, date:${JSON.stringify(
-        date
-      )}`
-    );
+  getWeeklyProgress = async ({ client_id }: Request, response: Response) => {
+    console.log(`[DEBUG] Challenge.getWeeklyProgress - client_id:${client_id}`);
     let data = getMockData();
 
     response.json(data.weeklyChallenge);
