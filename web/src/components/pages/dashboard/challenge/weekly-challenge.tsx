@@ -33,7 +33,6 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
       break;
   }
   const label = pastWeek.length === 0 ? 'Future' : 'Past';
-  const date = new Date();
 
   const api = useAPI();
   const account = useAccount();
@@ -52,7 +51,7 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
     },
   });
   useEffect(() => {
-    api.fetchWeeklyChallenge(date).then(setWeekly);
+    api.fetchWeeklyChallenge().then(setWeekly);
   }, []);
   return (
     <div className="weekly-container">
