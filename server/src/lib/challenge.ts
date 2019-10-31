@@ -18,35 +18,48 @@ export default class Challenge {
   getRouter() {
     const router = PromiseRouter({ mergeParams: true });
 
-    router.get('/points', this.getPoints);
-    router.get('/progress', this.getWeeklyProgress);
-    router.get('/:locale/members/:type', this.getTopMembers);
-    router.get('/:locale/teams/:type', this.getTopTeams);
-    router.get('/:locale/contributors/:type', this.getTopContributors);
+    router.get('/:challenge/points', this.getPoints);
+    router.get('/:challenge/progress', this.getWeeklyProgress);
+    router.get('/:challenge/:locale/members/:type', this.getTopMembers);
+    router.get('/:challenge/:locale/teams', this.getTopTeams);
+    router.get(
+      '/:challenge/:locale/contributors/:type',
+      this.getTopContributors
+    );
 
     return router;
   }
 
-  getPoints = async ({ client_id }: Request, response: Response) => {
-    console.log(`[DEBUG] Challenge.getPoints() - client_id:${client_id}`);
+  getPoints = async (
+    { client_id, params: { challeng_token } }: Request,
+    response: Response
+  ) => {
+    console.log(
+      `[DEBUG] Challenge.getPoints() - client_id:${client_id}, challenge_token:${challeng_token}`
+    );
     let data = getMockData();
 
     response.json(data.challengePoint);
   };
 
-  getWeeklyProgress = async ({ client_id }: Request, response: Response) => {
-    console.log(`[DEBUG] Challenge.getWeeklyProgress - client_id:${client_id}`);
+  getWeeklyProgress = async (
+    { client_id, params: { challeng_token } }: Request,
+    response: Response
+  ) => {
+    console.log(
+      `[DEBUG] Challenge.getWeeklyProgress - client_id:${client_id}, challenge_token:${challeng_token}`
+    );
     let data = getMockData();
 
     response.json(data.weeklyChallenge);
   };
 
   getTopMembers = async (
-    { client_id, params: { locale, type } }: Request,
+    { client_id, params: { challeng_token, locale, type } }: Request,
     response: Response
   ) => {
     console.log(
-      `[DEBUG] Challenge.getTopMembers - locale: ${locale}, client_id:${client_id}, type:${type}`
+      `[DEBUG] Challenge.getTopMembers - client_id:${client_id}, locale: ${locale}, challenge_token:${challeng_token}, type:${type}`
     );
     let data = getMockData();
 
@@ -60,29 +73,23 @@ export default class Challenge {
   };
 
   getTopTeams = async (
-    { client_id, params: { locale, type } }: Request,
+    { client_id, params: { challeng_token, locale } }: Request,
     response: Response
   ) => {
     console.log(
-      `[DEBUG] Challenge.getTopTeams - client_id:${client_id}, locale: ${locale}, type:${type}`
+      `[DEBUG] Challenge.getTopTeams - client_id:${client_id}, locale: ${locale}, challenge_token:${challeng_token}`
     );
     let data = getMockData();
 
-    if (type === 'recorded') {
-      response.json(data.topTeams.recorded);
-    } else if (type === 'validated') {
-      response.json(data.topTeams.validated);
-    } else {
-      response.json({});
-    }
+    response.json(data.topTeams);
   };
 
   getTopContributors = async (
-    { client_id, params: { locale, type } }: Request,
+    { client_id, params: { challeng_token, locale, type } }: Request,
     response: Response
   ) => {
     console.log(
-      `[DEBUG] Challenge.getTopContributors - client_id:${client_id} locale: ${locale}, type:${type}`
+      `[DEBUG] Challenge.getTopContributors - client_id:${client_id}, challenge_token:${challeng_token}, locale: ${locale}, type:${type}`
     );
     let data = getMockData();
 
