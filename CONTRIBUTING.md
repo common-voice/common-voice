@@ -12,7 +12,7 @@ By participating in this project, you're agreeing to uphold the [Mozilla Communi
 
 Help us add more sentences for other volunteers to read. We've written [a detailed guide on Discourse on how to contribute new sentences](https://discourse.mozilla.org/t/readme-how-to-see-my-language-on-common-voice/31530).
 
-**Please note**, we do **not** accept any direct pull requests to change localization content, which is managed and merged through Mozilla's Pontoon localization system. If you have any suggestions for streamlining or editing any existing translations, please check out your language on the [Common Voice project on Pontoon](https://pontoon.mozilla.org/projects/common-voice/). A community reviewer will check and approve them, and then they will be auto-incorporated into the website in our next deployment.
+**Please note**, we do **not** accept any direct pull requests for adding new sentences or changing localization content. All of that is managed and merged through Mozilla's Pontoon localization system. If you have any suggestions for adding or editing translations, please check out your language on the [Common Voice project on Pontoon](https://pontoon.mozilla.org/projects/common-voice/). A community reviewer will check and approve them, and then they will be auto-incorporated into the website in our next deployment.
 
 ### Bug Fixes and Feature Enhancements
 
