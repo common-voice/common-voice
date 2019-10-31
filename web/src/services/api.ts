@@ -319,20 +319,19 @@ export default class API {
     user: number;
     team: number;
   }> {
-    return this.fetch(`${API_PATH}/challenge/points`);
+    return this.fetch(`${API_PATH}/challenge/pilot/points`);
   }
 
   fetchWeeklyChallenge(): Promise<WeeklyChallenge> {
-    return this.fetch(`${API_PATH}/challenge/progress`);
+    return this.fetch(`${API_PATH}/challenge/pilot/progress`);
   }
 
   fetchTopTeams(
     locale?: string,
-    type?: 'validated' | 'recorded',
     cursor?: [number, number]
-  ): Promise<Challenge[]> {
+  ): Promise<TeamChallenge[]> {
     return this.fetch(
-      `${API_PATH}/challenge/${locale}/teams/${type}?cursor=${
+      `${API_PATH}/challenge/pilot/${locale}/teams?cursor=${
         cursor ? JSON.stringify(cursor) : ''
       }`
     );
@@ -344,7 +343,7 @@ export default class API {
     cursor?: [number, number]
   ): Promise<Challenge[]> {
     return this.fetch(
-      `${API_PATH}/challenge/${locale}/contributors/${type}?cursor=${
+      `${API_PATH}/challenge/pilot/${locale}/contributors/${type}?cursor=${
         cursor ? JSON.stringify(cursor) : ''
       }`
     );
@@ -354,9 +353,9 @@ export default class API {
     locale?: string,
     type?: 'validated' | 'recorded',
     cursor?: [number, number]
-  ): Promise<TeamChallenge> {
+  ): Promise<{ member: Challenge[] }> {
     return this.fetch(
-      `${API_PATH}/challenge/${locale}/members/${type}?cursor=${
+      `${API_PATH}/challenge/pilot/${locale}/members/${type}?cursor=${
         cursor ? JSON.stringify(cursor) : ''
       }`
     );

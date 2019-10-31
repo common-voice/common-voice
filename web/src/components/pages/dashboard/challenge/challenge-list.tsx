@@ -6,7 +6,9 @@ import { Avatar } from '../../../ui/ui';
 import { CheckIcon } from '../../../ui/icons';
 import { connect } from 'react-redux';
 
-const PointsIcon = () => <div className="star-points" />;
+const PointsIcon = ({ className }: { className: string }) => (
+  <div className={`star-points ${className}`} />
+);
 const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
   <li className="more">
     <button {...(props as any)}>
@@ -26,20 +28,18 @@ interface PropsFromState {
 interface Props extends PropsFromState {
   ref: { current: any };
   service: string;
-  type: 'recorded' | 'validated';
-  showTeamInfo: boolean;
+  team?: boolean;
+  type?: 'recorded' | 'validated';
 }
 
 interface State {
   rows: { position: number; [key: string]: any }[];
-  team: { [key: string]: any };
   isAtEnd: boolean;
 }
 
 class ChallengeList extends React.Component<Props, State> {
   state: State = {
     rows: [],
-    team: {},
     isAtEnd: false,
   };
   scroller: { current: HTMLUListElement | null } = React.createRef();
@@ -62,8 +62,7 @@ class ChallengeList extends React.Component<Props, State> {
     const { service, api, type } = this.props;
     switch (service) {
       case 'team-progress':
-        api.fetchTeamProgress(locale, type, cursor).then(({ team, member }) => {
-          this.setState({ team: team });
+        api.fetchTeamProgress(locale, type, cursor).then(({ member }) => {
           this.setState(
             ({ rows }) => {
               const allRows = [...rows, ...member];
@@ -79,7 +78,7 @@ class ChallengeList extends React.Component<Props, State> {
         });
         break;
       case 'top-teams':
-        api.fetchTopTeams(locale, type, cursor).then(data => {
+        api.fetchTopTeams(locale, cursor).then(data => {
           this.setState(
             ({ rows }) => {
               const allRows = [...rows, ...data];
@@ -130,9 +129,22 @@ class ChallengeList extends React.Component<Props, State> {
     this.updateScrollIndicator();
   };
 
+  transformRankingToString = (ranking: number) => {
+    switch (ranking) {
+      case 1:
+        return '1st';
+      case 2:
+        return '2nd';
+      case 3:
+        return '3rd';
+      default:
+        return String(ranking) + 'th';
+    }
+  };
+
   render() {
-    const { rows, isAtEnd, team } = this.state;
-    const { user, showTeamInfo } = this.props;
+    const { rows, isAtEnd } = this.state;
+    const { user, team } = this.props;
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
       const nextPosition =
@@ -152,32 +164,87 @@ class ChallengeList extends React.Component<Props, State> {
             }
           />
         ) : null,
-        <li
-          key={row.position}
-          className={'row ' + (isYou ? 'you' : '')}
-          ref={isYou ? this.youRow : null}>
-          <div className="ranking">
-            <div className="position">
-              {row.position < 10 && '0'}
-              {row.position}
+        !team ? (
+          <li
+            key={row.position}
+            className={'row ' + (isYou ? 'you' : '')}
+            ref={isYou ? this.youRow : null}>
+            <div className="ranking">
+              <div className="position">
+                {row.position < 10 && '0'}
+                {row.position}
+              </div>
+              <div className="avatar-container">
+                <Avatar url={row.avatar_url} />
+              </div>
+              <div className="username" title={row.name}>
+                {row.name || '???'}
+              </div>
             </div>
-            <div className="avatar-container">
-              <Avatar url={row.avatar_url} />
+            <div className="point" title={row.points}>
+              <PointsIcon
+                className={
+                  row.position <= 3 ? `star-points-${row.position}` : ''
+                }
+              />
+              {row.points}
             </div>
-            <div className="username" title={row.name}>
-              {row.name || '???'}
+            <div className="approved" title={row.approved}>
+              <CheckIcon />
+              {row.approved}
             </div>
-          </div>
-          <div className="point" title={row.points}>
-            <PointsIcon />
-            {row.points}
-          </div>
-          <div className="approved" title={row.approved}>
-            <CheckIcon />
-            {row.approved}
-          </div>
-          <div className="accuracy">{row.accuracy} %</div>
-        </li>,
+            <div className="accuracy">{row.accuracy} %</div>
+          </li>
+        ) : (
+          <li
+            key={row.position}
+            className={'row team' + (isYou ? 'you' : '')}
+            ref={isYou ? this.youRow : null}>
+            <div className="ranking">
+              <div className="position">
+                {row.position < 10 && '0'}
+                {row.position}
+              </div>
+              <div className="avatar-container">
+                <Avatar url={row.logo} />
+              </div>
+              <div className="username" title={row.name}>
+                {row.name || '???'}
+              </div>
+            </div>
+            <div className="week" title="Week">
+              {row.w1 && !row.w2 && !row.w3 && (
+                <PointsIcon
+                  className={
+                    row.position <= 3 ? `star-points-${row.position}` : ''
+                  }
+                />
+              )}
+              {this.transformRankingToString(row.w1)}
+            </div>
+            <div className="week" title="Week">
+              {row.w1 && row.w2 && !row.w3 && (
+                <PointsIcon
+                  className={
+                    row.position <= 3 ? `star-points-${row.position}` : ''
+                  }
+                />
+              )}
+              {row.w2 ? this.transformRankingToString(row.w2) : '--'}
+            </div>
+            <div className="week" title="Week">
+              {row.w1 && row.w2 && row.w3 && (
+                <PointsIcon
+                  className={
+                    row.position <= 3 ? `star-points-${row.position}` : ''
+                  }
+                />
+              )}
+              {row.w3 ? this.transformRankingToString(row.w2) : '--'}
+            </div>
+            <div className="total">{row.total}</div>
+          </li>
+        ),
         nextPosition &&
         nextPosition - 1 > row.position &&
         nextPosition - FETCH_SIZE > row.position ? (
@@ -199,40 +266,23 @@ class ChallengeList extends React.Component<Props, State> {
         ref={this.scroller}
         onScroll={this.updateScrollIndicator}>
         <li className="header" key="header">
-          <span className="ranking">Ranking & Name</span>
-          <span className="point">Points</span>
-          <span className="approved">Approved</span>
-          <span className="accuracy">Accuracy</span>
+          {team ? (
+            <React.Fragment>
+              <span className="ranking">Ranking & Name</span>
+              <span className="week">W1</span>
+              <span className="week">W2</span>
+              <span className="week">W3</span>
+              <span className="total">Total Points</span>
+            </React.Fragment>
+          ) : (
+            <React.Fragment>
+              <span className="ranking">Ranking & Name</span>
+              <span className="point">Points</span>
+              <span className="approved">Approved</span>
+              <span className="accuracy">Accuracy</span>
+            </React.Fragment>
+          )}
         </li>
-        {showTeamInfo && team && (
-          <li className="row" key="team">
-            <div className="ranking">
-              <div className="position"></div>
-              <div className="avatar-container">
-                <Avatar
-                  className="team"
-                  url={
-                    team.name
-                      ? require(`./images/${team.name.toLowerCase()}.svg`)
-                      : ''
-                  }
-                />
-              </div>
-              <div className="username" title={team.name}>
-                {team.name || '???'}
-              </div>
-            </div>
-            <div className="point" title={team.points}>
-              <PointsIcon />
-              {team.points}
-            </div>
-            <div className="approved" title={team.approved}>
-              <CheckIcon />
-              {team.approved}
-            </div>
-            <div className="accuracy">{team.accuracy} %</div>
-          </li>
-        )}
         {items}
       </ul>
     );

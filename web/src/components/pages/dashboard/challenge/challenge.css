@@ -368,10 +368,13 @@
                 margin-inline-end: 0;
             }
         }
-
+        &.team {
+            min-height: 44px;
+        }
         & .ranking {
             flex: 2;
             min-width: 75px;
+            max-width: 230px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -408,8 +411,11 @@
         }
 
         & .point,
-        & .accuracy {
+        & .accuracy,
+        & .week,
+        & .total {
             display: flex;
+            flex: 1;
             flex-direction: row;
             align-items: center;
             font-weight: normal;
@@ -440,6 +446,18 @@
             height: 17px;
             background-color: var(--warm-grey);
             margin-right: 10px;
+            &.star-points-1 {
+                mask-image: url('../awards/star.svg');
+                background: linear-gradient(to bottom, #fffd08, #ffe07f);
+            }
+            &.star-points-2 {
+                mask-image: url('../awards/star.svg');
+                background: linear-gradient(to top, var(--warm-grey), #cccccc);
+            }
+            &.star-points-3 {
+                mask-image: url('../awards/star.svg');
+                background: linear-gradient(to top, #cccccc, #e7e8ea);
+            }
         }
         & .point {
             flex: 1.5;
@@ -497,10 +515,6 @@
 
         &.you .username {
             color: var(--blue);
-        }
-        &.you .star-points {
-            mask-image: url('../awards/star.svg');
-            background: linear-gradient(to bottom, #fffd08, #ffe07f);
         }
     }
     .header {

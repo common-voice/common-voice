@@ -233,9 +233,6 @@ const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
         <img src={require('./awards/star.svg')} alt="score" />
         <span className="score">{points.user}</span>
         <span className="label label-my">{isNarrow ? 'Me' : 'My points'}</span>
-        <span className="divider"></span>
-        <span className="score">{points.team}</span>
-        <span className="label label-team">Team{!isNarrow && ' points'}</span>
       </div>
       <Button
         rounded

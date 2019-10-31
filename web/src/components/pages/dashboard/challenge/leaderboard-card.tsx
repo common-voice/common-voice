@@ -26,13 +26,13 @@ export default function LeaderboardCard({
   showVisibleIcon,
   showOverlay,
   service,
-  showTeamInfo,
+  team,
 }: {
   title: string;
   showVisibleIcon?: boolean;
   showOverlay?: (event: React.MouseEvent<HTMLInputElement>) => void;
   service: 'top-teams' | 'team-progress' | 'top-contributors';
-  showTeamInfo?: boolean;
+  team?: boolean;
 }) {
   const account = useAccount();
 
@@ -111,7 +111,6 @@ export default function LeaderboardCard({
             type="recorded"
             service={service}
             ref={leaderboardRef}
-            showTeamInfo={showTeamInfo}
           />
         ),
         validated: () => (
@@ -120,7 +119,6 @@ export default function LeaderboardCard({
             type="validated"
             service={service}
             ref={leaderboardRef}
-            showTeamInfo={showTeamInfo}
           />
         ),
       }}

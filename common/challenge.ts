@@ -23,11 +23,11 @@ export interface Challenge {
 }
 
 export interface TeamChallenge {
-  team: {
-    name: string;
-    points: number;
-    approved: number;
-    accuracy: number;
-  };
-  member: Array<Challenge>;
+  position: number;
+  name: string;
+  logo: string;
+  w1: number;
+  w2: number;
+  w3: number;
+  total: number;
 }

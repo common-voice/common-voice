@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import WeeklyChallenge from './weekly-challenge';
 import LeaderBoardCard from './leaderboard-card';
+import TeamBoardCard from './team-card';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
 import { useAccount, useAction } from '../../../../hooks/store-hooks';
@@ -107,14 +108,10 @@ export default function ChallengePage() {
             showVisibleIcon
             showOverlay={() => setShowOverlay(true)}
             service="team-progress"
-            showTeamInfo
           />
         </div>
         <div className="leader-board">
-          <LeaderBoardCard
-            title="Overall Challenge Top Team"
-            service="top-teams"
-          />
+          <TeamBoardCard title="Overall Challenge Top Team" />
         </div>
         <div className="leader-board">
           <LeaderBoardCard
