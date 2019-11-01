@@ -1,0 +1,421 @@
+{
+  "challengePoint": { "user": 448 },
+  "weeklyChallenge": {
+    "week": 1,
+    "user": {
+      "speak": 12,
+      "speak_total": 400,
+      "listen": 34,
+      "listen_total": 654
+    },
+    "team": { "invite": 12, "invite_total": 50 }
+  },
+  "topMember": {
+    "recorded": {
+      "member": [
+        {
+          "position": 1,
+          "name": "catherine1",
+          "points": 100,
+          "approved": 20,
+          "accuracy": 10.09
+        },
+        {
+          "position": 2,
+          "name": "catherine2",
+          "points": 101,
+          "approved": 21,
+          "accuracy": 10.1
+        },
+        {
+          "position": 3,
+          "name": "catherine3",
+          "points": 102,
+          "approved": 22,
+          "accuracy": 10.11
+        },
+        {
+          "position": 4,
+          "name": "catherine4",
+          "points": 103,
+          "approved": 23,
+          "accuracy": 10.12
+        },
+        {
+          "position": 5,
+          "name": "catherine5",
+          "points": 104,
+          "approved": 24,
+          "accuracy": 10.13
+        },
+        {
+          "position": 6,
+          "name": "catherine6",
+          "points": 105,
+          "approved": 25,
+          "accuracy": 10.14
+        },
+        {
+          "position": 7,
+          "name": "catherine7",
+          "points": 106,
+          "approved": 26,
+          "accuracy": 10.15
+        },
+        {
+          "position": 8,
+          "name": "catherine8",
+          "points": 107,
+          "approved": 27,
+          "accuracy": 10.16
+        },
+        {
+          "position": 9,
+          "name": "catherine9",
+          "points": 108,
+          "approved": 28,
+          "accuracy": 10.17
+        },
+        {
+          "position": 10,
+          "name": "catherine10",
+          "points": 109,
+          "approved": 29,
+          "accuracy": 10.18
+        }
+      ]
+    },
+    "validated": {
+      "member": [
+        {
+          "position": 1,
+          "name": "can1",
+          "points": 110,
+          "approved": 30,
+          "accuracy": 9.09
+        },
+        {
+          "position": 2,
+          "name": "can2",
+          "points": 111,
+          "approved": 31,
+          "accuracy": 9.1
+        },
+        {
+          "position": 3,
+          "name": "can3",
+          "points": 112,
+          "approved": 32,
+          "accuracy": 9.11
+        },
+        {
+          "position": 4,
+          "name": "can4",
+          "points": 113,
+          "approved": 33,
+          "accuracy": 9.12
+        },
+        {
+          "position": 5,
+          "name": "can5",
+          "points": 114,
+          "approved": 34,
+          "accuracy": 9.13
+        },
+        {
+          "position": 6,
+          "name": "can6",
+          "points": 115,
+          "approved": 35,
+          "accuracy": 9.14
+        },
+        {
+          "position": 7,
+          "name": "can7",
+          "points": 116,
+          "approved": 36,
+          "accuracy": 9.15
+        },
+        {
+          "position": 8,
+          "name": "can8",
+          "points": 117,
+          "approved": 37,
+          "accuracy": 9.16
+        },
+        {
+          "position": 9,
+          "name": "can9",
+          "points": 118,
+          "approved": 38,
+          "accuracy": 9.17
+        },
+        {
+          "position": 10,
+          "name": "can10",
+          "points": 119,
+          "approved": 39,
+          "accuracy": 9.18
+        }
+      ]
+    }
+  },
+  "topTeams": [
+    {
+      "position": 1,
+      "name": "SAP1",
+      "logo": "base641...",
+      "w1": 10,
+      "w2": 1,
+      "w3": 4,
+      "total": 501
+    },
+    {
+      "position": 2,
+      "name": "SAP2",
+      "logo": "base642...",
+      "w1": 9,
+      "w2": 2,
+      "w3": 1,
+      "total": 502
+    },
+    {
+      "position": 3,
+      "name": "SAP3",
+      "logo": "base643...",
+      "w1": 8,
+      "w2": 3,
+      "w3": 2,
+      "total": 503
+    },
+    {
+      "position": 4,
+      "name": "SAP4",
+      "logo": "base644...",
+      "w1": 7,
+      "w2": 4,
+      "w3": 3,
+      "total": 504
+    },
+    {
+      "position": 5,
+      "name": "SAP5",
+      "logo": "base645...",
+      "w1": 6,
+      "w2": 5,
+      "w3": 5,
+      "total": 505
+    },
+    {
+      "position": 6,
+      "name": "SAP6",
+      "logo": "base646...",
+      "w1": 5,
+      "w2": 6,
+      "w3": 6,
+      "total": 506
+    },
+    {
+      "position": 7,
+      "name": "SAP7",
+      "logo": "base647...",
+      "w1": 4,
+      "w2": 7,
+      "w3": 7,
+      "total": 507
+    },
+    {
+      "position": 8,
+      "name": "SAP8",
+      "logo": "base648...",
+      "w1": 3,
+      "w2": 8,
+      "w3": 8,
+      "total": 508
+    },
+    {
+      "position": 9,
+      "name": "SAP9",
+      "logo": "base649...",
+      "w1": 2,
+      "w2": 9,
+      "w3": 9,
+      "total": 509
+    },
+    {
+      "position": 10,
+      "name": "SAP10",
+      "logo": "base6410...",
+      "w1": 1,
+      "w2": 10,
+      "w3": 10,
+      "total": 510
+    }
+  ],
+  "topContributors": {
+    "recorded": [
+      {
+        "position": 1,
+        "name": "catherine1",
+        "logo": "base641...",
+        "points": 1231,
+        "approved": 13,
+        "accuracy": 11.99
+      },
+      {
+        "position": 2,
+        "name": "catherine2",
+        "logo": "base642...",
+        "points": 1232,
+        "approved": 23,
+        "accuracy": 12.99
+      },
+      {
+        "position": 3,
+        "name": "catherine3",
+        "logo": "base643...",
+        "points": 1233,
+        "approved": 33,
+        "accuracy": 13.99
+      },
+      {
+        "position": 4,
+        "name": "catherine4",
+        "logo": "base644...",
+        "points": 1234,
+        "approved": 43,
+        "accuracy": 14.99
+      },
+      {
+        "position": 5,
+        "name": "catherine5",
+        "logo": "base645...",
+        "points": 1235,
+        "approved": 53,
+        "accuracy": 15.99
+      },
+      {
+        "position": 6,
+        "name": "catherine6",
+        "logo": "base646...",
+        "points": 1236,
+        "approved": 63,
+        "accuracy": 16.99
+      },
+      {
+        "position": 7,
+        "name": "catherine7",
+        "logo": "base647...",
+        "points": 1237,
+        "approved": 73,
+        "accuracy": 17.99
+      },
+      {
+        "position": 8,
+        "name": "catherine8",
+        "logo": "base648...",
+        "points": 1238,
+        "approved": 83,
+        "accuracy": 18.99
+      },
+      {
+        "position": 9,
+        "name": "catherine9",
+        "logo": "base649...",
+        "points": 1239,
+        "approved": 93,
+        "accuracy": 19.99
+      },
+      {
+        "position": 10,
+        "name": "catherine0",
+        "logo": "base640...",
+        "points": 1230,
+        "approved": 103,
+        "accuracy": 20.99
+      }
+    ],
+    "validated": [
+      {
+        "position": 1,
+        "name": "catherine11",
+        "logo": "base6411...",
+        "points": 12311,
+        "approved": 131,
+        "accuracy": 12.01
+      },
+      {
+        "position": 2,
+        "name": "catherine22",
+        "logo": "base6422...",
+        "points": 12322,
+        "approved": 231,
+        "accuracy": 12.02
+      },
+      {
+        "position": 3,
+        "name": "catherine33",
+        "logo": "base6433...",
+        "points": 12333,
+        "approved": 331,
+        "accuracy": 12.03
+      },
+      {
+        "position": 4,
+        "name": "catherine44",
+        "logo": "base6444...",
+        "points": 12344,
+        "approved": 431,
+        "accuracy": 12.04
+      },
+      {
+        "position": 5,
+        "name": "catherine55",
+        "logo": "base6455...",
+        "points": 12355,
+        "approved": 531,
+        "accuracy": 12.05
+      },
+      {
+        "position": 6,
+        "name": "catherine66",
+        "logo": "base6466...",
+        "points": 12366,
+        "approved": 631,
+        "accuracy": 12.06
+      },
+      {
+        "position": 7,
+        "name": "catherine77",
+        "logo": "base6477...",
+        "points": 12377,
+        "approved": 731,
+        "accuracy": 12.07
+      },
+      {
+        "position": 8,
+        "name": "catherine88",
+        "logo": "base6488...",
+        "points": 12388,
+        "approved": 831,
+        "accuracy": 12.08
+      },
+      {
+        "position": 9,
+        "name": "catherine99",
+        "logo": "base6499...",
+        "points": 12399,
+        "approved": 931,
+        "accuracy": 12.09
+      },
+      {
+        "position": 10,
+        "name": "catherine00",
+        "logo": "base6400...",
+        "points": 12300,
+        "approved": 1031,
+        "accuracy": 12
+      }
+    ]
+  }
+}
