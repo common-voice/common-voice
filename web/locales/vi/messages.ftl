@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Vâng, hãy email cho tôi. Tôi muốn nhận thông báo từ dự án Common Voice.
+yes-receive-emails = Hãy gửi email cho tôi. Tôi muốn được biết các thông tin mới nhất về Dự án Common Voice
 stayintouch = Mozilla chúng tôi đang xây dựng một cộng đồng xoay quanh công nghệ giọng nói. Chúng tôi muốn giữ liên hệ với các cập nhật, các nguồn dữ liệu mới và biết thêm về cách bạn sử dụng dữ liệu này.
 privacy-info = Chúng tôi cam kết sẽ xử lý thông tin của bạn một cách cẩn thận. Tìm hiểu thêm ở <privacyLink>Thông Báo Bảo Mật</privacyLink> của chúng tôi.
 return-to-cv = Trở về Common Voice
@@ -10,7 +10,7 @@ submit-form-action = Gửi
 loading = Đang tải...
 email-opt-in-info = Tôi muốn nhận email như lời nhắc mục tiêu, cập nhật tiến độ và bản tin của tôi về Common Voice.
 email-opt-in-info-title = Tham gia danh sách gửi thư Common Voice
-email-opt-in-info-sub = Nhận email như lời nhắc mục tiêu, cập nhật tiến độ và bản tin về Common Voice.
+email-opt-in-info-sub-with-challenge = Nhận email như lời nhắc cho thử thách và mục tiêu, cập nhật tiến độ và bản tin về Common Voice.
 email-opt-in-privacy = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật<privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
 not-available-abbreviation = N/A
