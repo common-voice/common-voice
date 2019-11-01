@@ -256,8 +256,8 @@
         height: 22px;
         background-color: var(--white);
         margin-left: 10px;
-        -webkit-mask-image: url('../../ui/icons/plus.svg');
-        -webkit-mask-size: contain;
+        mask-image: url('../../ui/icons/plus.svg');
+        mask-size: contain;
     }
 
     &:hover {

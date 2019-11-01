@@ -5,8 +5,14 @@ import { Link } from 'react-router-dom';
 import { LocaleLink } from '../locale-helpers';
 import { CheckIcon } from './icons';
 
-export const Avatar = ({ url }: { url?: string }) => (
-  <div className="avatar-wrap">
+export const Avatar = ({
+  className,
+  url,
+}: {
+  url?: string;
+  className?: string;
+}) => (
+  <div className={`avatar-wrap ${className ? className : ''}`}>
     {url ? (
       <img src={url} />
     ) : (
