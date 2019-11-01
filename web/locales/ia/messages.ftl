@@ -428,9 +428,9 @@ about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal
 about-partners = Partners
 about-become-a-partner = Deveni un partner
 about-partnership =
-    Common Voice es un projecto in collaboration, e nos es dependente de nostre communitate de socios e collaboratores pro crear le major collection de datos de voces open-source de sempre.
+    Common Voice es un projecto collaborative, e nos depende de nostre communitate de associatos e contributores pro crear le collection de voces libere le plus grande in le historia.
     
-    Nos place regratiar le sequente personas e organisationes pro lor adjuta al projecto:
+    Nos volerea regratiar le sequente personas e organisationes pro lor adjuta al projecto:
 about-get-involved = Collabora
 about-get-involved-text =
     Vole tu adjutar a render Common Voice mesmo melior?
@@ -540,7 +540,7 @@ data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = Le corpus de TED-LIUM esseva facite ab  audio e lor transcriptiones disponibile sur le sito web de TED.
 data-other-voxforge-description = VoxForge esseva create pro colliger voces transcribite a usar con motores de recognition de voce libere e open-source.
 data-other-tatoeba-description = Tatoeba es un grande base de datos de phrases, traductiones, e audio parlate a usar in apprendimento de linguas.Iste discarga contine anglese parlate registrate per lor communitates.
-your-feedback = Ha tu ideas sur como nos pote render le collection de datos de Common Voice melior? Face lo nos saper sur Discourse
+your-feedback = Ha tu ideas sur como nos pote meliorar le collection de datos de Common Voice? Face nos saper lo sur Discourse
 go-discourse = Va a Discourse
 missing-language = Non vide tu lingua reflectite in le Collection de datos? Si tu desira lo adder, accede a nostre Pagina del linguas.
 go-languages-page = Ir al pagina del linguas
