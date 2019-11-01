@@ -20,25 +20,19 @@
         max-width: 60%;
     }
 }
-.icon {
-    width: 95px;
-    height: 95px;
-    background-color: #629ff4;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-        width: 90px;
-        height: 90px;
-    }
+img.icon {
+    position: relative;
+    top: 5px;
+    width: 115px;
+    height: 115px;
+    object-fit: contain;
 }
 .week-container {
     width: 76px;
     height: 27px;
     line-height: 27px;
-    background-color: #4a4a4a;
-    color: white;
+    background-color: var(--near-black);
+    color: var(--white);
     text-align: center;
     font-weight: 600;
     letter-spacing: 0.8;
@@ -46,7 +40,6 @@
     right: 0;
     text-transform: uppercase;
 }
-.challenge-board.disabled .icon,
 .challenge-board.disabled .week-container {
     background-color: var(--light-grey);
 }
@@ -64,15 +57,15 @@
         width: 159px;
         font-size: 16px;
         line-height: 1.5;
-        color: #4a4a4a;
-        background-color: #f9f9f9;
+        color: var(--near-black);
+        background-color: var(--lighter-grey);
         text-align: center;
         .avatar-wrap {
             width: 95px;
             height: 95px;
             margin: 80px auto 20px;
             &.team {
-                background-color: #fff;
+                background-color: var(--white);
                 > img {
                     object-fit: contain;
                 }
@@ -106,7 +99,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: var(--white);
     margin: 0 auto 15px;
     &:hover {
         border: 1px solid var(--black);
@@ -119,10 +112,10 @@
     }
 }
 .speak-btn {
-    background-color: #ff4f5e;
+    background-color: var(--red);
 }
 .listen-btn {
-    background-color: #59cbb7;
+    background-color: var(--valid-green);
 }
 .speak-icon,
 .listen-icon {
@@ -148,13 +141,13 @@
     display: block;
 }
 .speak-bar {
-    color: #ff4f5e !important;
+    color: var(--red) !important;
 }
 .listen-bar {
-    color: #59cbb7 !important;
+    color: var(--valid-green) !important;
 }
 .team-bar {
-    color: #629ff4 !important;
+    color: var(--blue) !important;
 }
 .team-text,
 .team-invite {
@@ -163,7 +156,7 @@
     font-size: 16px;
 }
 .team-text {
-    color: #4a4a4a;
+    color: var(--near-black);
 }
 .team-invite {
     color: var(--warm-grey);
@@ -251,10 +244,10 @@
         .fraction {
             align-items: center;
             &.speak {
-                color: #ff4f5e;
+                color: var(--red);
             }
             &.listen {
-                color: #59cbb7;
+                color: var(--valid-green);
             }
         }
         .numerator {
@@ -273,7 +266,7 @@
             font-size: 12px;
         }
         .team-invite-percentage {
-            color: #629ff4;
+            color: var(--blue);
             span {
                 font-size: 24px;
                 float: left;

@@ -27,16 +27,16 @@ export default function WeeklyChallengeBoard({
   return (
     <div className={`challenge-board ${isDisabled ? 'disabled' : ''}`}>
       <div className="title-container">
-        <div className="icon">
-          <img
-            src={
-              isDisabled
-                ? require('./images/stars-disabled.svg')
-                : require('./images/stars.svg')
-            }
-            alt="stars"
-          />
-        </div>
+        <img
+          className="icon"
+          src={
+            isDisabled
+              ? require('./images/stars-disabled.svg')
+              : require('./images/stars.svg')
+          }
+          alt=""
+          role="presentation"
+        />
         <p className="title">{title}</p>
         <div className="week-container">week {++week}</div>
       </div>
