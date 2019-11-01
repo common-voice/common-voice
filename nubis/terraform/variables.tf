@@ -43,7 +43,8 @@ variable "public_client_ip_cidr" {
   default = [
     "174.92.145.133/32", #Gozer
     "18.140.218.113/32", #Can(SAP)
-    "63.245.218.198/32", #Riley @ YVR office
+    "63.245.218.198/32", #Mozilla YVR office
+    "63.245.212.198/32", #Mozilla YYZ office
     "134.41.190.137/32", #SRE-415
     "70.112.236.189/32", #SRE-415
     "77.66.65.31/32",    #SRE-415

@@ -7,7 +7,7 @@ export type UserClient = {
   age?: string;
   gender?: string;
   locales?: { locale: string; accent: string }[];
-  visible?: 0 | 1;
+  visible?: 0 | 1 | 2;
   basket_token?: string;
   skip_submission_feedback?: boolean;
   avatar_url?: string;

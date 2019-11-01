@@ -14,8 +14,10 @@ import {
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
+import ChallengePage from './challenge/challenge';
 import { Button } from '../../ui/ui';
 import InviteModal from '../../invite-modal/invite-modal';
+import { isProduction } from '../../../utility';
 
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
@@ -34,7 +36,8 @@ const TopBar = ({
   const account = useAccount();
   const [isAboveMdWidth, setIsAboveMdWidth] = useState(true);
   const isChallengeEnrolled =
-    account && account.enrollment && account.enrollment.team;
+    !isProduction() ||
+    (account && account.enrollment && account.enrollment.team);
   const isChallengeTabSelected = location.pathname.endsWith('/challenge');
 
   function setLocale(value: string) {
@@ -67,6 +70,7 @@ const TopBar = ({
       const { innerWidth } = window;
       setIsAboveMdWidth(innerWidth > 992);
     };
+    checkSize();
     window.addEventListener('resize', checkSize);
 
     return () => {
@@ -195,7 +199,11 @@ function DashboardContent({
   Page,
   dashboardLocale,
 }: {
-  Page: typeof StatsPage | typeof GoalsPage | typeof AwardsPage;
+  Page:
+    | typeof StatsPage
+    | typeof GoalsPage
+    | typeof AwardsPage
+    | typeof ChallengePage;
   dashboardLocale: string;
 }) {
   const api = useAPI();
@@ -212,31 +220,36 @@ interface ChallengeBarProps {
   isNarrow: boolean;
   setShowInviteModal(arg: any): void;
 }
-const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => (
-  <div className="challenge-bar">
-    <div className="points">
-      <img src={require('./awards/star.svg')} alt="score" />
-      <span className="score">448</span>
-      <span className="label label-my">{isNarrow ? 'Me' : 'My points'}</span>
-      <span className="divider"></span>
-      <span className="score">12345</span>
-      <span className="label label-team">Team{!isNarrow && ' points'}</span>
+const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
+  const api = useAPI();
+  const [points, setAllPoints] = useState({ user: 0, team: 0 });
+
+  useEffect(() => {
+    api.fetchChallengePoints().then(setAllPoints);
+  }, []);
+  return (
+    <div className="challenge-bar">
+      <div className="points">
+        <img src={require('./awards/star.svg')} alt="score" />
+        <span className="score">{points.user}</span>
+        <span className="label label-my">{isNarrow ? 'Me' : 'My points'}</span>
+      </div>
+      <Button
+        rounded
+        className="invite-btn"
+        onClick={() => setShowInviteModal(true)}>
+        <span className="content">Invite</span>
+        <span className="plus-icon"></span>
+      </Button>
     </div>
-    <Button
-      rounded
-      className="invite-btn"
-      onClick={() => setShowInviteModal(true)}>
-      <span className="content">Invite</span>
-      <span className="plus-icon"></span>
-    </Button>
-  </div>
-);
+  );
+};
 
 const PAGES = [
   { subPath: URLS.STATS, Page: StatsPage },
   { subPath: URLS.GOALS, Page: GoalsPage },
   { subPath: URLS.AWARDS, Page: AwardsPage },
-  { subPath: URLS.CHALLENGE, Page: StatsPage },
+  { subPath: URLS.CHALLENGE, Page: ChallengePage },
 ];
 
 export default function Dashboard() {
