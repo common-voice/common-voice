@@ -12,16 +12,16 @@ export default function WeeklyChallengeBoard({
   week,
   isNarrow,
   avatarUrl,
+  logoUrl,
   weekly,
-  challengeTeam,
 }: {
   isDisabled?: boolean;
   title: string;
   week: number;
   isNarrow: boolean;
   avatarUrl: string;
+  logoUrl: string;
   weekly: WeeklyChallenge;
-  challengeTeam?: string;
 }) {
   const { user, team } = weekly;
   return (
@@ -91,14 +91,7 @@ export default function WeeklyChallengeBoard({
           </div>
           <div className="content-row">
             <div className="column">
-              <Avatar
-                className="team"
-                url={
-                  challengeTeam
-                    ? require(`./images/${challengeTeam.toLowerCase()}.svg`)
-                    : ''
-                }
-              />
+              <Avatar className="team" url={logoUrl} />
               <p>Team</p>
             </div>
             <div className="container team">

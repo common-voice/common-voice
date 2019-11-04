@@ -4,6 +4,12 @@ import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
+import {
+  ChallengeToken,
+  ChallengeTeamToken,
+  challengeTokens,
+  challengeTeamTokens,
+} from '../../../../common/challenge';
 
 const db = getMySQLInstance();
 
@@ -254,15 +260,19 @@ const UserClient = {
   },
 
   // enroll an unenrolled but registered user
-  // [BUG]: there are exceptions if the team or challenge doesn't exist
-  // TODO(riley): Hook this up to a constants file.
   async enrollRegisteredUser(
     email: string,
-    challenge: string,
-    team: string,
+    challenge: ChallengeToken,
+    team: ChallengeTeamToken,
     invite: string
   ): Promise<boolean> {
-    if (email && challenge && team) {
+    if (
+      email &&
+      challenge &&
+      team &&
+      challengeTokens.includes(challenge) &&
+      challengeTeamTokens.includes(team)
+    ) {
       const client_id = (await Promise.all([
         UserClient.findClientId(email),
       ]))[0];
@@ -270,6 +280,7 @@ const UserClient = {
         // If signing up through a user invitation URL, `invited_by` is the
         // `url_token` from another row. Otherwise, `invited_by` is null.
         // [FUTURE] UUID is too long, maybe consider to optimize it by removing '-' and base64 encoding it.
+        // [FUTURE] check if `team` is enrolled in `challenge`.
         const [[{ team_id, challenge_id, enrollment_token }]] = await db.query(
           `SELECT t.id AS team_id, t.challenge_id, UUID() AS enrollment_token FROM teams t
             LEFT JOIN challenges c ON t.challenge_id = c.id
