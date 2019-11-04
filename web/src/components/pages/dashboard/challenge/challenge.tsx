@@ -5,7 +5,7 @@ import LeaderBoardCard from './leaderboard-card';
 import TeamBoardCard from './team-card';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
-import { useAccount, useAction } from '../../../../hooks/store-hooks';
+import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import { CrossIcon, InfoIcon } from '../../../ui/icons';
 import { LabeledCheckbox } from '../../../ui/ui';
@@ -84,7 +84,9 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
 export default function ChallengePage() {
   const [showOverlay, setShowOverlay] = useState(false);
   const [isNarrow, setIsNarrow] = useState(false);
+  const [weekly, setWeekly] = useState(null);
   const account = useAccount();
+  const api = useAPI();
   useEffect(() => {
     const checkSize = () => {
       const { innerWidth } = window;
@@ -92,14 +94,14 @@ export default function ChallengePage() {
     };
     window.addEventListener('resize', checkSize);
     checkSize();
-
+    api.fetchWeeklyChallenge().then(setWeekly);
     return () => {
       window.removeEventListener('resize', checkSize);
     };
   }, []);
   return (
     <div className="challenge challenge-container">
-      <WeeklyChallenge isNarrow={isNarrow} />
+      {weekly && <WeeklyChallenge isNarrow={isNarrow} weekly={weekly} />}
       <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
         <div className="leader-board">
@@ -111,7 +113,12 @@ export default function ChallengePage() {
           />
         </div>
         <div className="leader-board">
-          <TeamBoardCard title="Overall Challenge Top Team" />
+          {weekly && (
+            <TeamBoardCard
+              title="Overall Challenge Top Team"
+              week={weekly.week}
+            />
+          )}
         </div>
         <div className="leader-board">
           <LeaderBoardCard

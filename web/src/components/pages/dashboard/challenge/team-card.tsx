@@ -24,10 +24,12 @@ export default function TeamboardCard({
   title,
   showVisibleIcon,
   showOverlay,
+  week,
 }: {
   title: string;
   showVisibleIcon?: boolean;
   showOverlay?: (event: React.MouseEvent<HTMLInputElement>) => void;
+  week?: number;
 }) {
   const account = useAccount();
 
@@ -106,6 +108,7 @@ export default function TeamboardCard({
             service="top-teams"
             ref={teamboardRef}
             team
+            week={week}
           />
         </div>
       </div>

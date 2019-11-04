@@ -26,8 +26,6 @@ export interface TeamChallenge {
   position: number;
   name: string;
   logo: string;
-  w1: number;
-  w2: number;
-  w3: number;
-  total: number;
+  rank: number;
+  points: number;
 }

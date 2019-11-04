@@ -29,7 +29,8 @@ interface Props extends PropsFromState {
   ref: { current: any };
   service: string;
   team?: boolean;
-  type?: 'recorded' | 'validated';
+  type?: 'clip' | 'vote';
+  week?: number;
 }
 
 interface State {
@@ -62,7 +63,7 @@ class ChallengeList extends React.Component<Props, State> {
     const { service, api, type } = this.props;
     switch (service) {
       case 'team-progress':
-        api.fetchTeamProgress(locale, type, cursor).then(({ member }) => {
+        api.fetchTeamProgress(locale, type, cursor).then(member => {
           this.setState(
             ({ rows }) => {
               const allRows = [...rows, ...member];
@@ -144,7 +145,7 @@ class ChallengeList extends React.Component<Props, State> {
 
   render() {
     const { rows, isAtEnd } = this.state;
-    const { user, team } = this.props;
+    const { user, team, week } = this.props;
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
       const nextPosition =
@@ -171,8 +172,8 @@ class ChallengeList extends React.Component<Props, State> {
             ref={isYou ? this.youRow : null}>
             <div className="ranking">
               <div className="position">
-                {row.position < 10 && '0'}
-                {row.position}
+                {row.position + 1 < 10 && '0'}
+                {row.position + 1}
               </div>
               <div className="avatar-container">
                 <Avatar url={row.avatar_url} />
@@ -184,7 +185,7 @@ class ChallengeList extends React.Component<Props, State> {
             <div className="point" title={row.points}>
               <PointsIcon
                 className={
-                  row.position <= 3 ? `star-points-${row.position}` : ''
+                  row.position < 3 ? `star-points-${row.position + 1}` : ''
                 }
               />
               {row.points}
@@ -193,7 +194,9 @@ class ChallengeList extends React.Component<Props, State> {
               <CheckIcon />
               {row.approved}
             </div>
-            <div className="accuracy">{row.accuracy} %</div>
+            <div className="accuracy">
+              {row.accuracy ? row.accuracy : 'N/A'} %
+            </div>
           </li>
         ) : (
           <li
@@ -202,8 +205,8 @@ class ChallengeList extends React.Component<Props, State> {
             ref={isYou ? this.youRow : null}>
             <div className="ranking">
               <div className="position">
-                {row.position < 10 && '0'}
-                {row.position}
+                {row.position + 1 < 10 && '0'}
+                {row.position + 1}
               </div>
               <div className="avatar-container">
                 <Avatar url={row.logo} />
@@ -213,36 +216,42 @@ class ChallengeList extends React.Component<Props, State> {
               </div>
             </div>
             <div className="week" title="Week">
-              {row.w1 && !row.w2 && !row.w3 && (
-                <PointsIcon
-                  className={
-                    row.position <= 3 ? `star-points-${row.position}` : ''
-                  }
-                />
+              {week == 1 ? (
+                <React.Fragment>
+                  <PointsIcon
+                    className={row.rank <= 3 ? `star-points-${row.rank}` : ''}
+                  />
+                  {this.transformRankingToString(row.rank)}
+                </React.Fragment>
+              ) : (
+                '--'
               )}
-              {this.transformRankingToString(row.w1)}
             </div>
             <div className="week" title="Week">
-              {row.w1 && row.w2 && !row.w3 && (
-                <PointsIcon
-                  className={
-                    row.position <= 3 ? `star-points-${row.position}` : ''
-                  }
-                />
+              {week == 2 ? (
+                <React.Fragment>
+                  <PointsIcon
+                    className={row.rank <= 3 ? `star-points-${row.rank}` : ''}
+                  />
+                  {this.transformRankingToString(row.rank)}
+                </React.Fragment>
+              ) : (
+                '--'
               )}
-              {row.w2 ? this.transformRankingToString(row.w2) : '--'}
             </div>
             <div className="week" title="Week">
-              {row.w1 && row.w2 && row.w3 && (
-                <PointsIcon
-                  className={
-                    row.position <= 3 ? `star-points-${row.position}` : ''
-                  }
-                />
+              {week == 3 ? (
+                <React.Fragment>
+                  <PointsIcon
+                    className={row.rank <= 3 ? `star-points-${row.rank}` : ''}
+                  />
+                  {this.transformRankingToString(row.rank)}
+                </React.Fragment>
+              ) : (
+                '--'
               )}
-              {row.w3 ? this.transformRankingToString(row.w2) : '--'}
             </div>
-            <div className="total">{row.total}</div>
+            <div className="total">{row.points}</div>
           </li>
         ),
         nextPosition &&
