@@ -1,0 +1,47 @@
+[
+  {
+    "valid": ["stoyan", "skolev"],
+    "source": "word of mouth",
+    "invalid": [],
+    "approved": true,
+    "sentence": "Нали ти казвам, беше малко кривоглед.",
+    "username": "stoyan",
+    "createdAt": 1565189906293,
+    "approvalDate": 1571998039449,
+    "Sentences_Meta_UserVote_skolev": true,
+    "Sentences_Meta_UserVote_stoyan": true,
+    "Sentences_Meta_UserVoteDate_skolev": 1571998039449,
+    "id": "f5916d1ca01e565ecd60fb7e3853765d4fa908ca4e079d84addd95710ee95f33",
+    "last_modified": 1571998039070
+  },
+  {
+    "valid": ["stoyan", "skolev"],
+    "source": "word of mouth",
+    "invalid": [],
+    "approved": true,
+    "sentence": "С четири врати беше, сто процента.",
+    "username": "stoyan",
+    "createdAt": 1565189815309,
+    "approvalDate": 1571998039449,
+    "Sentences_Meta_UserVote_skolev": true,
+    "Sentences_Meta_UserVote_stoyan": true,
+    "Sentences_Meta_UserVoteDate_skolev": 1571998039449,
+    "id": "d5fd3101f42982434b00f9694ecd227f3ffaab415e5834b73474dfab9cbb59de",
+    "last_modified": 1571998039059
+  },
+  {
+    "valid": ["stoyan", "skolev"],
+    "source": "word of mouth",
+    "invalid": [],
+    "approved": true,
+    "sentence": "Автобусът се друса по надупчения път.",
+    "username": "stoyan",
+    "createdAt": 1565189668550,
+    "approvalDate": 1571998039449,
+    "Sentences_Meta_UserVote_skolev": true,
+    "Sentences_Meta_UserVote_stoyan": true,
+    "Sentences_Meta_UserVoteDate_skolev": 1571998039449,
+    "id": "8b5889c01e8da750ccf58788b5665c5b36ff968f1b52d7d1cab8279f0d60efd7",
+    "last_modified": 1571998039047
+  }
+]

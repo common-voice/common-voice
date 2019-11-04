@@ -39,6 +39,7 @@ A la cara más fea, la alegría la hermosea.
 A la chita callando, hay quien se va aprovechando.
 A la mayoría de las personas les pareció algo escandaloso
 A la misma conclusión llegaron los teólogos reunidos por iniciativa de la Conferencia Episcopal
+A la ruta del Pinsapar asistieron vecinos y vecinas de Benamahoma y Zahara
 A las cuatro de la madrugada se ha disparado la alarma.
 A las diez comienza la carrera.
 A lo largo del texto aparecen los llamados grupos de interés
@@ -1187,6 +1188,7 @@ Es una gran noticia.
 Es una larga historia. Ya os lo explicaré .
 Es una mujer de bandera que está de toma pan y moja
 Es una novelera a la que le va mucho el drama
+Es una perspectiva ingeniosa y singularmente británica
 Es una zona con mucha actividad sísmica.
 Es valor por defecto que utilizan estos programas
 Esa bolsa de plástico parece una medusa.
@@ -1209,6 +1211,7 @@ Ese sombrero te queda como anillo al dedo
 Ese tipo jamás ha estudiado medicina.
 Ese tío siniestro me da grima
 Ese vestido me queda como un guante, parece hecho para mí
+Eso confirma la necesidad de un espacio este tipo de actos
 Eso es potencialmente empoderador
 Eso es repugnante. ¡ Asesino!
 Eso es todo lo que quería decir.
@@ -5478,6 +5481,7 @@ ha estado trabajando para crear conciencia entre el público
 ha funcionado. funciona .
 ha ido comiendo el terreno que pertenecía a los ciudadanos
 ha llegado la hora. vale, vamos .
+ha sido emotivo la participación de vecinos y vecinas de avanzada edad
 ha sido por ayudarte.
 ha sido un beso sin importancia. ya .
 ha sido un golpe de suerte.
@@ -5804,6 +5808,7 @@ la luna derramaba sobre ellas su luz lejana e ideal como un milagro.
 la madre que la...
 la mayoría de la música sale de un pequeño oligopolio
 la mayoría de los músicos creen que con Internet ganan más dinero que nunca
+la mayoría de los turistas suelen creer que pertenecen a épocas pretéritas
 la melancolía del sexo, germen de la gran tristeza humana.
 la mente puede ser muy excitante cuando uno tiene miedo.
 la monja, echándose la toca sobre la frente , respondió:
@@ -6078,6 +6083,7 @@ los hechos son los que son
 los hombres como yo todo lo perdonan.
 los huevos fritos con patatas pueden ser manjar de dioses
 los huevos fritos con patatas serían manjar de dioses
+los ingleses comenzaron a imaginarse a sí mismos como los nuevos romanos
 los ingresos que produce un disco se quedan por el camino
 los inhabilita para liderar la ciudad
 los internautas que siguen más de cerca los conflictos
@@ -6662,6 +6668,7 @@ olvidando que basta un punto de contrición al sentir cercana la vejez.
 olvidarme de todo lo malo que me ha ocurrido con Ulises
 olvide lo que le dije. le pido que me cuente lo que vio
 organice libremente la automatización y gestión de sus acciones
+os resultados suelen ser entonces satisfactorios.
 oscilaba la luz de las bujías, y las sombras danzaban sobre los muros.
 otra vez ese trabajo, ¿ verdad?
 otra vez platicaremos con más espacio.
@@ -7357,6 +7364,7 @@ santígüese, señor.
 se acabaron las sutilezas.
 se adueñó de las conexiones a Internet
 se analiza en un amplio informe las muestras analíticas de las ocho provincias
+se analizaron la producción de quesos y chacinas
 se apartaron lentamente y fueron a reclinarse en la borda.
 se aportaron soluciones sobre recuperación de esas costas
 se aprobaron diversas mociones
@@ -7469,6 +7477,7 @@ si lo sujetamos bien a la red, evitaremos estrellarnos
 si los músicos tuvieran que vivir de la venta de sus discos
 si los músicos vivieran de la venta de sus discos
 si me permite, le ayudo.
+si me ponía a jugar con amigos online y me soltaban burradas
 si necesitas un microscopio para ver la cosita, mal vamos.
 si no, no creo que el pato pueda sobrevivir
 si no, nos comen vivos. Roberto .
@@ -7578,6 +7587,7 @@ solamente por eso merecía ser Arzobispo de México.
 solo es apta para los ciudadanos con una úlcera a prueba de bombas
 solo es una expresión para definir un momento
 solo lees libros de autores africanos
+solo piensas “¿por qué me dicen esto?”, responde
 solo podemos esperar.
 solo pretendo que le quede claro.
 solo pueden hacerse si cuentas con autorización
