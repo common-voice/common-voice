@@ -2,7 +2,7 @@ import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Redirect, Route, Switch } from 'react-router';
-import { useAccount, useAPI } from '../../../hooks/store-hooks';
+import { useAccount, useAPI, useAction } from '../../../hooks/store-hooks';
 import { useRouter } from '../../../hooks/use-router';
 import URLS from '../../../urls';
 import { ALL_LOCALES } from '../../language-select/language-select';
@@ -11,6 +11,7 @@ import {
   LocaleNavLink,
   useLocale,
 } from '../../locale-helpers';
+import { Notifications } from '../../../stores/notifications';
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
@@ -257,6 +258,7 @@ export default function Dashboard() {
   const account = useAccount();
   const [, toLocaleRoute] = useLocale();
   const [showInviteModal, setShowInviteModal] = useState<boolean>(false);
+  const addAchievement = useAction(Notifications.actions.addAchievement);
 
   useEffect(() => {
     if (!account) {
@@ -272,6 +274,14 @@ export default function Dashboard() {
           inviteId="#####"
           onRequestClose={() => {
             setShowInviteModal(false);
+            if (Boolean(sessionStorage.getItem('first'))) {
+              addAchievement(
+                <div>
+                  <p>+50 points</p>
+                  <p>You sent your first invite!</p>
+                </div>
+              );
+            }
           }}
           teamId="SAP"
         />

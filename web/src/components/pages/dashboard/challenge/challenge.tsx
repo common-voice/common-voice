@@ -9,6 +9,8 @@ import { useAccount, useAction } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import { CrossIcon, InfoIcon } from '../../../ui/icons';
 import { LabeledCheckbox } from '../../../ui/ui';
+import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
+import { Notifications } from '../../../../stores/notifications';
 import './challenge.css';
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
@@ -84,6 +86,10 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
 export default function ChallengePage() {
   const [showOverlay, setShowOverlay] = useState(false);
   const [isNarrow, setIsNarrow] = useState(false);
+  const addAchievement = useAction(Notifications.actions.addAchievement);
+  const [showOnboardingModal, setOnboardingModal] = useState(
+    Boolean(sessionStorage.getItem('first'))
+  );
   const account = useAccount();
   useEffect(() => {
     const checkSize = () => {
@@ -99,6 +105,21 @@ export default function ChallengePage() {
   }, []);
   return (
     <div className="challenge challenge-container">
+      {showOnboardingModal && (
+        <OnboardingModal
+          onRequestClose={() => {
+            setOnboardingModal(false);
+            if (window.location.search.includes('achievement=1')) {
+              addAchievement(
+                <div>
+                  <p>+50 points</p>
+                  <p>Bonus! You signed up in time for some extra points.</p>
+                </div>
+              );
+            }
+          }}
+        />
+      )}
       <WeeklyChallenge isNarrow={isNarrow} />
       <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}

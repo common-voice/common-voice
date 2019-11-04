@@ -387,7 +387,40 @@ class SpeakPage extends React.Component<Props, State> {
         let retries = 3;
         while (retries) {
           try {
-            await api.uploadClip(recording.blob, sentence.id, sentence.text);
+            const res = await api.uploadClip(
+              recording.blob,
+              sentence.id,
+              sentence.text
+            );
+            if (res.achievement) {
+              addNotification(
+                <div className="achievement">
+                  <img
+                    src={require('../../dashboard/awards/star.svg')}
+                    alt=""
+                  />
+                  <p className="score">+ 50 points</p>
+                  <p>
+                    You're on your way! Congrats on your first contribution.{' '}
+                  </p>
+                </div>
+              );
+              if (Boolean(sessionStorage.getItem('first'))) {
+                addNotification(
+                  <div className="achievement">
+                    <img
+                      src={require('../../dashboard/awards/star.svg')}
+                      alt=""
+                    />
+                    <p className="score">+ 50 points</p>
+                    <p>
+                      You're on a roll! You sent an invite and contributed in
+                      the same session.
+                    </p>
+                  </div>
+                );
+              }
+            }
             if (!user.account) {
               tallyRecording();
             }

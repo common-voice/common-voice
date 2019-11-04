@@ -177,6 +177,12 @@ function ProfilePage({
         addNotification(getString('profile-form-submit-saved'));
       },
     ]);
+    if (window.location.search.includes('first=1')) {
+      sessionStorage.setItem('first', 'true');
+      window.location.assign(
+        `${window.location.origin}/${locale}/dashboard/challenge?${window.location.search}`
+      );
+    }
   }, [api, getString, locale, locales, termsStatus, user, userFields]);
 
   if (!isInitialized) {

@@ -23,6 +23,10 @@ interface FetchOptions {
   body?: any;
 }
 
+interface Vote extends Event {
+  achievement?: boolean;
+}
+
 const API_PATH = location.origin + '/api/v1';
 export default class API {
   private readonly locale: Locale.State;
@@ -100,7 +104,11 @@ export default class API {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 
-  uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
+  uploadClip(
+    blob: Blob,
+    sentenceId: string,
+    sentence: string
+  ): Promise<{ achievement?: boolean }> {
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
@@ -111,8 +119,7 @@ export default class API {
       body: blob,
     });
   }
-
-  saveVote(id: string, isValid: boolean): Promise<Event> {
+  saveVote(id: string, isValid: boolean): Promise<Vote> {
     return this.fetch(`${this.getClipPath()}/${id}/votes`, {
       method: 'POST',
       body: {

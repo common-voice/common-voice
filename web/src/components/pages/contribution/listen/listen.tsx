@@ -20,6 +20,7 @@ import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
 } from '../contribution';
+import { Notifications } from '../../../../stores/notifications';
 import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
 
@@ -44,11 +45,13 @@ interface PropsFromState {
   clips: Clips.Clip[];
   isLoading: boolean;
   locale: Locale.State;
+  achievement: boolean;
 }
 
 interface PropsFromDispatch {
   removeClip: typeof Clips.actions.remove;
   vote: typeof Clips.actions.vote;
+  addNotification: typeof Notifications.actions.addPill;
 }
 
 interface Props extends PropsFromState, PropsFromDispatch {}
@@ -128,10 +131,32 @@ class ListenPage extends React.Component<Props, State> {
 
   private vote = (isValid: boolean) => {
     const { clips } = this.state;
+    const { achievement, addNotification } = this.props;
     const clipIndex = this.getClipIndex();
 
     this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
+    if (achievement) {
+      addNotification(
+        <div className="achievement">
+          <img src={require('../../dashboard/awards/star.svg')} alt="" />
+          <p className="score">+ 50 points</p>
+          <p>You're on your way! Congrats on your first contribution. </p>
+        </div>
+      );
+      if (Boolean(sessionStorage.getItem('first'))) {
+        addNotification(
+          <div className="achievement">
+            <img src={require('../../dashboard/awards/star.svg')} alt="" />
+            <p className="score">+ 50 points</p>
+            <p>
+              You're on a roll! You sent an invite and contributed in the same
+              session.
+            </p>
+          </div>
+        );
+      }
+    }
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
@@ -316,10 +341,11 @@ class ListenPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => {
-  const { clips, isLoading } = Clips.selectors.localeClips(state);
+  const { clips, isLoading, achievement } = Clips.selectors.localeClips(state);
   return {
     clips,
     isLoading,
+    achievement,
     locale: state.locale,
   };
 };
