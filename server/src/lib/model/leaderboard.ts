@@ -156,9 +156,9 @@ async function getClipTopContributors({
             ) participant
             LEFT JOIN clips ON participant.client_id = clips.client_id
                 AND clips.created_at BETWEEN start_date AND end_date
+                AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             LEFT JOIN votes ON clips.id = votes.clip_id
                 AND votes.created_at BETWEEN start_date AND end_date
-            WHERE clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             GROUP BY participant.client_id, avatar_url, username, start_date, end_date, bonus, clips.id
         ) speaker
         GROUP BY speaker.client_id, avatar_url, username, bonus
@@ -216,8 +216,9 @@ async function getVoteTopContributors({
             LEFT JOIN votes ON participant.client_id = votes.client_id
                 AND votes.created_at BETWEEN start_date AND end_date
             LEFT JOIN clips ON votes.clip_id = clips.id
+                AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             LEFT JOIN votes other_votes ON clips.id = other_votes.clip_id AND other_votes.id <> votes.id
-            WHERE clips.locale_id = (SELECT id FROM locales WHERE name = ?)
+                AND other_votes.created_at < end_date
             GROUP BY participant.client_id, avatar_url, username, bonus, votes.id
         ) voter
         GROUP BY voter.client_id, avatar_url, username, bonus
@@ -272,9 +273,9 @@ async function getClipTopMembers({
             ) participant
             LEFT JOIN clips ON participant.client_id = clips.client_id
                 AND clips.created_at BETWEEN start_date AND end_date
+                AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             LEFT JOIN votes ON clips.id = votes.clip_id
                 AND votes.created_at BETWEEN start_date AND end_date
-            WHERE clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             GROUP BY participant.client_id, avatar_url, username, start_date, end_date, bonus, clips.id
         ) speaker
         GROUP BY speaker.client_id, avatar_url, username, bonus
@@ -330,8 +331,9 @@ async function getVoteTopMembers({
             LEFT JOIN votes ON participant.client_id = votes.client_id
                 AND votes.created_at BETWEEN start_date AND end_date
             LEFT JOIN clips ON votes.clip_id = clips.id
+                AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             LEFT JOIN votes other_votes ON clips.id = other_votes.clip_id AND other_votes.id <> votes.id
-            WHERE clips.locale_id = (SELECT id FROM locales WHERE name = ?)
+                AND other_votes.created_at < end_date
             GROUP BY participant.client_id, avatar_url, username, bonus, votes.id
         ) voter
         GROUP BY voter.client_id, avatar_url, username, bonus
