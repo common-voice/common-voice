@@ -269,10 +269,31 @@ const UserClient = {
     invite: string
   ): Promise<boolean> {
     if (email && challenge && team) {
-      const client_id = (await Promise.all([
-        UserClient.findClientId(email),
-      ]))[0];
-      if (client_id) {
+      const [registeredUser] = await db.query(
+        `
+        SELECT user_clients.client_id, enroll.id AS enroll_id, challenges.id AS challenge_id
+        FROM user_clients
+        LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
+        LEFT JOIN challenges ON enroll.challenge_id = challenges.id AND challenges.url_token = ?
+        WHERE user_clients.email = ?
+        `,
+        [challenge, email]
+      );
+      console.log(
+        `[DEBUG] enrollRegisteredUser row:${JSON.stringify(registeredUser)}`
+      );
+      const proceed =
+        registeredUser.length > 0 &&
+        registeredUser.every(
+          (u: { client_id: string; enroll_id: Number; challenge_id: Number }) =>
+            u.client_id != null &&
+            (u.enroll_id == null || u.challenge_id == null)
+        );
+      console.log(
+        `[DEBUG] enrollRegisteredUser proceed:${JSON.stringify(proceed)}`
+      );
+
+      if (proceed) {
         // If signing up through a user invitation URL, `invited_by` is the
         // `url_token` from another row. Otherwise, `invited_by` is null.
         // [FUTURE] UUID is too long, maybe consider to optimize it by removing '-' and base64 encoding it.
@@ -289,7 +310,13 @@ const UserClient = {
           `
           INSERT INTO enroll (challenge_id, team_id, client_id, url_token, invited_by) VALUES (?, ?, ?, ?, ?)
           `,
-          [challenge_id, team_id, client_id, enrollment_token, invite || null]
+          [
+            challenge_id,
+            team_id,
+            registeredUser[0].client_id,
+            enrollment_token,
+            invite || null,
+          ]
         );
         return res && res[0] && res[0].affectedRows > 0;
       }
