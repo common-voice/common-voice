@@ -93,6 +93,14 @@
 
         @media (--sm-down) {
             flex-direction: column;
+
+            & > * {
+                margin-top: 30px;
+            }
+
+            & > :first-child {
+                margin-top: 0;
+            }
         }
 
         @media (--md-up) {

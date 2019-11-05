@@ -2,14 +2,13 @@ import * as React from 'react';
 import * as moment from 'moment';
 import WeeklyChallengeBoard from './weekly-challenge-board';
 import { WeeklyChallenge } from '../../../../../../common/challenge';
-import { useState, useEffect } from 'react';
-import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { Notifications } from '../../../../stores/notifications';
 import API from '../../../../services/api';
 import { User } from '../../../../stores/user';
 import StateTree from '../../../../stores/tree';
 import { connect } from 'react-redux';
 import NotificationPill from '../../../notification-pill/notification-pill';
+import { challengeLogoUrls } from './constants';
 import './weekly-challenge.css';
 
 const WEEKS: Array<string> = [
@@ -109,7 +108,7 @@ class WeeklyChallengeCard extends React.Component<Props, State> {
                 week={this.currentWeek}
                 isNarrow={isNarrow}
                 avatarUrl={user.account.avatar_url}
-                challengeTeam={'sap'} //account.challenge_team}
+                logoUrl={challengeLogoUrls['sap']}
                 weekly={weekly}
               />
             )}
@@ -117,16 +116,31 @@ class WeeklyChallengeCard extends React.Component<Props, State> {
           {this.pastWeek.length !== WEEKS.length - 1 && (
             <div>
               <p className="weekly-title">Next challenge</p>
-              {weekly && (
+              {weekly ? (
                 <WeeklyChallengeBoard
                   isDisabled
                   title={WEEKS[this.currentWeek + 1]}
                   week={this.currentWeek + 1}
                   isNarrow={isNarrow}
                   avatarUrl={user.account.avatar_url}
-                  challengeTeam={'sap'} //account.challenge_team}
+                  logoUrl={challengeLogoUrls['sap']}
                   weekly={weekly}
                 />
+              )
+            : this.pastWeek.map(
+                (value, index) =>
+                  weekly && (
+                    <WeeklyChallengeBoard
+                      isDisabled
+                      title={WEEKS[value]}
+                      week={value}
+                      key={index}
+                      isNarrow={isNarrow}
+                      avatarUrl={user.account.avatar_url}
+                      logoUrl={challengeLogoUrls['sap']}
+                      weekly={weekly}
+                    />
+                  )
               )}
             </div>
           )}
@@ -140,7 +154,7 @@ class WeeklyChallengeCard extends React.Component<Props, State> {
                     week={this.currentWeek + 2}
                     isNarrow={isNarrow}
                     avatarUrl={user.account.avatar_url}
-                    challengeTeam={'sap'} //account.challenge_team}
+                    logoUrl={challengeLogoUrls['sap']} //account.challenge_team}
                     weekly={weekly}
                   />
                 )
@@ -154,7 +168,7 @@ class WeeklyChallengeCard extends React.Component<Props, State> {
                         key={index}
                         isNarrow={isNarrow}
                         avatarUrl={user.account.avatar_url}
-                        challengeTeam={'sap'} //account.challenge_team}
+                        logoUrl={challengeLogoUrls['sap']} //account.challenge_team}
                         weekly={weekly}
                       />
                     )

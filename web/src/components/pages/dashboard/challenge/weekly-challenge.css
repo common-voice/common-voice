@@ -62,7 +62,7 @@
     .week-points {
         max-width: 98px;
         padding: 17px 20px 0;
-        font-family: Roboto;
+        font-family: var(--base-font-family);
         font-size: 12px;
         & p:last-child {
             display: none;

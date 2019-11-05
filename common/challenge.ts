@@ -31,3 +31,32 @@ export interface TeamChallenge {
   w3: number;
   total: number;
 }
+
+export type ChallengeToken = 'pilot';
+export type ChallengeTeamToken = 'ibm' | 'mozilla' | 'sap';
+
+interface ChallengeTeam {
+  readableName: string;
+  token: ChallengeTeamToken;
+}
+
+export const challengeTeams: { [key in ChallengeTeamToken]: ChallengeTeam } = {
+  ibm: {
+    readableName: 'IBM',
+    token: 'ibm',
+  },
+  mozilla: {
+    readableName: 'Mozilla',
+    token: 'mozilla',
+  },
+  sap: {
+    readableName: 'SAP',
+    token: 'sap',
+  },
+};
+
+// For run-time checking.
+export const challengeTokens: ChallengeToken[] = ['pilot'];
+export const challengeTeamTokens = Object.values(challengeTeams).map(
+  team => team.token
+);
