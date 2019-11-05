@@ -215,6 +215,10 @@ join-newsletter = Yatikïr natün awi' pa ri rucholajem qataqoya'al richin ye'ak
 
 ## What's public
 
+whats-public = ¿Achike ri nib'an qichin qonojel?
+email-not-public = Man xtiqataluj ta ri ataqoya'l.
+recordings-and-locale-public = Ri rajlab'al yakoj chuqa' ri ch'ab'äl akuchi' xkato'on, ja ri' xtiqataluj rutzijol.
+username-optin-public = Yatikïr nacha' jun b'i'aj talun rutzijol o man netamäx ta ruwäch.
 
 ## Speak & Listen Shortcuts
 
