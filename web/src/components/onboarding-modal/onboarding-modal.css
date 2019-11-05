@@ -10,7 +10,7 @@
 .onboarding-modal .step-container {
     width: 54px;
     height: 24px;
-    font-family: OpenSans;
+    font-family: var(--base-font-family);
     font-size: 16px;
     margin: 0 auto 20px;
 }
@@ -41,7 +41,7 @@
     display: inline-flex;
     min-width: auto;
     text-transform: uppercase;
-    font-family: OpenSans;
+    font-family: var(--base-font-family);
     font-size: 14px;
     letter-spacing: 0.8px;
 }
