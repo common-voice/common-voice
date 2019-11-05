@@ -9,6 +9,7 @@ import { useAccount, useAction } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import { CrossIcon, InfoIcon } from '../../../ui/icons';
 import { LabeledCheckbox } from '../../../ui/ui';
+import { trackChallenge } from '../../../../services/tracker';
 import './challenge.css';
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
@@ -97,6 +98,8 @@ export default function ChallengePage() {
       window.removeEventListener('resize', checkSize);
     };
   }, []);
+  useEffect(() => trackChallenge('dashboard-view'), []);
+
   return (
     <div className="challenge challenge-container">
       <WeeklyChallenge isNarrow={isNarrow} />

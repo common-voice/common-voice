@@ -1,9 +1,10 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
 import { ArrowLeft } from '../ui/icons';
 import { Button, Checkbox } from '../ui/ui';
+import { trackChallenge } from '../../services/tracker';
 
 import './welcome-modal.css';
 
@@ -14,6 +15,7 @@ export interface WelcomeModalProps extends ModalProps {
 
 export default ({ onClick, team, ...props }: WelcomeModalProps) => {
   const [hasAgreed, setHasAgreed] = useState<boolean>(false);
+  useEffect(() => trackChallenge('modal-welcome'), []);
 
   return (
     <Modal {...props} innerClassName="welcome-modal">
