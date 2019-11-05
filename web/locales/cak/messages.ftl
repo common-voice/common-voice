@@ -204,9 +204,14 @@ x-years-short =
 help-make-dataset = Kojato' chutz'ukik jun rucholxe'el tzij yalan ütz chuqa' okel chi kiwäch konojel
 sign-up-account = Tatz'ib'aj ab'i' richin nak'ül jun rub'i' ataqoya'l
 email-subscription-title = tatz'ib'aj ab'i' richin ye'ak'ül taq k'exoj pa taqoya'l
+email-subscription-title-new = Tatz'ib'aj awi' pa ri ko'öl ruwuj rutzijol, natab'äl chuqa' taq ruk'exoj b'anon pa Common Voice
 
 ## Account Benefits
 
+benefits = Taq rutzil
+compare-progress = Tajunamaj ri ab'anon rik'in ri kib'anon ch'aqa' chik to'onela' chijun ri ruwach'ulew.
+view-goals = Tatz'eta' ri ab'anon rik'in ri arayb'al chuqa' richin ri rurayib'al nuk'samaj.
+join-newsletter = Yatikïr natün awi' pa ri rucholajem qataqoya'al richin ye'ak'ül taq k'exoj chuqa' ri k'ak'a' etamab'äl k'o pa nimasamaj.
 
 ## What's public
 
