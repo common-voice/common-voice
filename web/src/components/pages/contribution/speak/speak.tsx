@@ -396,7 +396,7 @@ class SpeakPage extends React.Component<Props, State> {
               addNotification(
                 <div className="achievement">
                   <img
-                    src={require('../../dashboard/awards/star.svg')}
+                    src={require('../../dashboard/challenge/images/star.svg')}
                     alt=""
                   />
                   <p className="score">+ 50 points</p>
@@ -409,7 +409,7 @@ class SpeakPage extends React.Component<Props, State> {
                 addNotification(
                   <div className="achievement">
                     <img
-                      src={require('../../dashboard/awards/star.svg')}
+                      src={require('../../dashboard/challenge/images/star.svg')}
                       alt=""
                     />
                     <p className="score">+ 50 points</p>

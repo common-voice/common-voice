@@ -139,7 +139,10 @@ class ListenPage extends React.Component<Props, State> {
     if (achievement) {
       addNotification(
         <div className="achievement">
-          <img src={require('../../dashboard/awards/star.svg')} alt="" />
+          <img
+            src={require('../../dashboard/challenge/images/star.svg')}
+            alt=""
+          />
           <p className="score">+ 50 points</p>
           <p>You're on your way! Congrats on your first contribution. </p>
         </div>
@@ -147,7 +150,10 @@ class ListenPage extends React.Component<Props, State> {
       if (Boolean(sessionStorage.getItem('first'))) {
         addNotification(
           <div className="achievement">
-            <img src={require('../../dashboard/awards/star.svg')} alt="" />
+            <img
+              src={require('../../dashboard/challenge/images/star.svg')}
+              alt=""
+            />
             <p className="score">+ 50 points</p>
             <p>
               You're on a roll! You sent an invite and contributed in the same

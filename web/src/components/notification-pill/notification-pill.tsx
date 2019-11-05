@@ -29,7 +29,10 @@ export default function NotificationPill({
       style={{ opacity: show ? 1 : 0 }}
       onTransitionEnd={() => removeNotification(notification.id)}>
       {notification.kind === 'pill' && notification.type === 'achievement' && (
-        <img src={require('../pages/dashboard/awards/star.svg')} alt="star" />
+        <img
+          src={require('../pages/dashboard/challenge/images/star.svg')}
+          alt="star"
+        />
       )}
       {notification.content}
     </div>
