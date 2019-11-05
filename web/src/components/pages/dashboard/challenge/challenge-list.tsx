@@ -151,116 +151,121 @@ class ChallengeList extends React.Component<Props, State> {
       const nextPosition =
         i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
       const isYou =
-        row.name === user.account.username ||
-        row.name === user.account.enrollment.team;
-      return [
-        prevPosition && prevPosition + 1 < row.position ? (
-          <FetchRow
-            key={row.position + 'prev'}
-            onClick={() =>
-              this.fetchMore([
-                Math.max(prevPosition + 1, row.position - FETCH_SIZE),
-                row.position,
-              ])
-            }
-          />
-        ) : null,
-        !team ? (
-          <li
-            key={row.position}
-            className={'row ' + (isYou ? 'you' : '')}
-            ref={isYou ? this.youRow : null}>
-            <div className="ranking">
-              <div className="position">
-                {row.position < 10 && '0'}
-                {row.position}
+        row.name ===
+        (team ? user.account.enrollment.team : user.account.username);
+      return (
+        <>
+          {!!prevPosition && prevPosition + 1 < row.position && (
+            <FetchRow
+              key={row.position + 'prev'}
+              onClick={() =>
+                this.fetchMore([
+                  Math.max(prevPosition + 1, row.position - FETCH_SIZE),
+                  row.position,
+                ])
+              }
+            />
+          )}
+          {team ? (
+            <li
+              key={row.position}
+              className={`row team${isYou ? ' you' : ''}`}
+              ref={isYou ? this.youRow : null}>
+              <div className="ranking">
+                <div className="position">
+                  {row.position < 10 && '0'}
+                  {row.position}
+                </div>
+                <div className="avatar-container">
+                  <Avatar
+                    url={challengeLogoUrls[user.account.enrollment.team]}
+                  />
+                </div>
+                <div className="username" title={row.name}>
+                  {row.name || '???'}
+                </div>
               </div>
-              <div className="avatar-container">
-                <Avatar url={row.avatar_url} />
+              <div className="week" title="Week">
+                {row.w1 && !row.w2 && !row.w3 && (
+                  <PointsIcon
+                    className={
+                      row.position <= 3 ? `star-points-${row.position}` : ''
+                    }
+                  />
+                )}
+                {this.transformRankingToString(row.w1)}
               </div>
-              <div className="username" title={row.name}>
-                {row.name || '???'}
+              <div className="week" title="Week">
+                {row.w1 && row.w2 && !row.w3 && (
+                  <PointsIcon
+                    className={
+                      row.position <= 3 ? `star-points-${row.position}` : ''
+                    }
+                  />
+                )}
+                {row.w2 ? this.transformRankingToString(row.w2) : '--'}
               </div>
-            </div>
-            <div className="point" title={row.points}>
-              <PointsIcon
-                className={
-                  row.position <= 3 ? `star-points-${row.position}` : ''
+              <div className="week" title="Week">
+                {row.w1 && row.w2 && row.w3 && (
+                  <PointsIcon
+                    className={
+                      row.position <= 3 ? `star-points-${row.position}` : ''
+                    }
+                  />
+                )}
+                {row.w3 ? this.transformRankingToString(row.w2) : '--'}
+              </div>
+              <div className="total">{row.total}</div>
+            </li>
+          ) : (
+            <li
+              key={row.position}
+              className={`row${isYou ? ' you' : ''}`}
+              ref={isYou ? this.youRow : null}>
+              <div className="ranking">
+                <div className="position">
+                  {row.position < 10 && '0'}
+                  {row.position}
+                </div>
+                <div className="avatar-container">
+                  <Avatar url={row.avatar_url} />
+                </div>
+                <div className="username" title={row.name}>
+                  {row.name || '???'}
+                </div>
+              </div>
+              <div className="point" title={row.points}>
+                <PointsIcon
+                  className={
+                    row.position <= 3 ? `star-points-${row.position}` : ''
+                  }
+                />
+                {row.points}
+              </div>
+              <div className="approved" title={row.approved}>
+                <CheckIcon />
+                {row.approved}
+              </div>
+              <div className="accuracy">{row.accuracy} %</div>
+            </li>
+          )}
+          {!!nextPosition &&
+            nextPosition - 1 > row.position &&
+            nextPosition - FETCH_SIZE > row.position && (
+              <FetchRow
+                key={row.position + 'next'}
+                onClick={() =>
+                  this.fetchMore([
+                    row.position + 1,
+                    Math.min(row.position + 1 + FETCH_SIZE, nextPosition - 1),
+                  ])
                 }
               />
-              {row.points}
-            </div>
-            <div className="approved" title={row.approved}>
-              <CheckIcon />
-              {row.approved}
-            </div>
-            <div className="accuracy">{row.accuracy} %</div>
-          </li>
-        ) : (
-          <li
-            key={row.position}
-            className={'row team' + (isYou ? 'you' : '')}
-            ref={isYou ? this.youRow : null}>
-            <div className="ranking">
-              <div className="position">
-                {row.position < 10 && '0'}
-                {row.position}
-              </div>
-              <div className="avatar-container">
-                <Avatar url={challengeLogoUrls[user.account.enrollment.team]} />
-              </div>
-              <div className="username" title={row.name}>
-                {row.name || '???'}
-              </div>
-            </div>
-            <div className="week" title="Week">
-              {row.w1 && !row.w2 && !row.w3 && (
-                <PointsIcon
-                  className={
-                    row.position <= 3 ? `star-points-${row.position}` : ''
-                  }
-                />
-              )}
-              {this.transformRankingToString(row.w1)}
-            </div>
-            <div className="week" title="Week">
-              {row.w1 && row.w2 && !row.w3 && (
-                <PointsIcon
-                  className={
-                    row.position <= 3 ? `star-points-${row.position}` : ''
-                  }
-                />
-              )}
-              {row.w2 ? this.transformRankingToString(row.w2) : '--'}
-            </div>
-            <div className="week" title="Week">
-              {row.w1 && row.w2 && row.w3 && (
-                <PointsIcon
-                  className={
-                    row.position <= 3 ? `star-points-${row.position}` : ''
-                  }
-                />
-              )}
-              {row.w3 ? this.transformRankingToString(row.w2) : '--'}
-            </div>
-            <div className="total">{row.total}</div>
-          </li>
-        ),
-        nextPosition &&
-        nextPosition - 1 > row.position &&
-        nextPosition - FETCH_SIZE > row.position ? (
-          <FetchRow
-            key={row.position + 'next'}
-            onClick={() =>
-              this.fetchMore([
-                row.position + 1,
-                Math.min(row.position + 1 + FETCH_SIZE, nextPosition - 1),
-              ])
-            }
-          />
-        ) : null,
-      ];
+            )}
+        </>
+      );
     });
+    // [TODO]: This should be a <table>.
     return (
       <ul
         className="leaderboard"
