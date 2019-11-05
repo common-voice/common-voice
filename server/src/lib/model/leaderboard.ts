@@ -214,9 +214,9 @@ async function getVoteTopContributors({
                 GROUP BY user_clients.client_id, avatar_url, username, start_date, end_date
             ) participant
             LEFT JOIN votes ON participant.client_id = votes.client_id
+                AND votes.created_at BETWEEN start_date AND end_date
             LEFT JOIN clips ON votes.clip_id = clips.id
             LEFT JOIN votes other_votes ON clips.id = other_votes.clip_id AND other_votes.id <> votes.id
-                AND votes.created_at BETWEEN start_date AND end_date
             WHERE clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             GROUP BY participant.client_id, avatar_url, username, bonus, votes.id
         ) voter
@@ -328,9 +328,9 @@ async function getVoteTopMembers({
                 GROUP BY user_clients.client_id, avatar_url, username, start_date, end_date
             ) participant
             LEFT JOIN votes ON participant.client_id = votes.client_id
+                AND votes.created_at BETWEEN start_date AND end_date
             LEFT JOIN clips ON votes.clip_id = clips.id
             LEFT JOIN votes other_votes ON clips.id = other_votes.clip_id AND other_votes.id <> votes.id
-                AND votes.created_at BETWEEN start_date AND end_date
             WHERE clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             GROUP BY participant.client_id, avatar_url, username, bonus, votes.id
         ) voter

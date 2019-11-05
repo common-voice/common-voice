@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import * as fs from 'fs';
 
 import getLeaderboard from './model/leaderboard';
 import Model from './model';

@@ -611,12 +611,10 @@ export default class DB {
                   AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
                   GROUP BY user_clients.client_id, start_date, end_date
               ) challenger
-              LEFT JOIN clips ON challenger.client_id = clips.client_id
-              WHERE clips.created_at BETWEEN start_date AND end_date
+              LEFT JOIN clips ON challenger.client_id = clips.client_id AND clips.created_at BETWEEN start_date AND end_date
               GROUP BY challenger.client_id, start_date, end_date, bonus_points
           ) speaker
-          LEFT JOIN votes ON speaker.client_id = votes.client_id
-          WHERE votes.created_at BETWEEN start_date AND end_date
+          LEFT JOIN votes ON speaker.client_id = votes.client_id AND votes.created_at BETWEEN start_date AND end_date
           GROUP BY speaker.client_id, speaker.bonus_points, speaker.clip_point
       ) voter
       `,
@@ -645,12 +643,10 @@ export default class DB {
               WHERE user_clients.client_id = ? AND challenges.url_token = ?
               GROUP BY user_clients.client_id, start_date, end_date, week
           ) user
-          LEFT JOIN clips ON user.client_id = clips.client_id
-          WHERE clips.created_at BETWEEN start_date AND end_date
+          LEFT JOIN clips ON user.client_id = clips.client_id AND clips.created_at BETWEEN start_date AND end_date
           GROUP BY user.client_id, start_date, end_date, week, colleague_count
       ) speaker
-      LEFT JOIN votes ON speaker.client_id = votes.client_id
-      WHERE votes.created_at BETWEEN start_date AND end_date
+      LEFT JOIN votes ON speaker.client_id = votes.client_id AND votes.created_at BETWEEN start_date AND end_date
       GROUP BY speaker.client_id, start_date, end_date, colleague_count, clip_count
       `,
       [client_id, challenge]
