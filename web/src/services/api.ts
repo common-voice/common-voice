@@ -330,7 +330,7 @@ export default class API {
     );
   }
 
-  fetchTopTeams(
+  fetchTopTeam(
     locale?: string,
     cursor?: [number, number]
   ): Promise<TeamChallenge[]> {
@@ -341,7 +341,7 @@ export default class API {
     );
   }
 
-  fetchTopContributors(
+  fetchTopContributor(
     locale?: string,
     type?: 'vote' | 'clip',
     cursor?: [number, number]
@@ -355,7 +355,7 @@ export default class API {
     );
   }
 
-  fetchTeamProgress(
+  fetchTopMember(
     locale?: string,
     type?: 'vote' | 'clip',
     cursor?: [number, number]
