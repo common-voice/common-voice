@@ -10,6 +10,7 @@ import { User } from '../../../../stores/user';
 import { CrossIcon, InfoIcon } from '../../../ui/icons';
 import { LabeledCheckbox } from '../../../ui/ui';
 import { trackChallenge } from '../../../../services/tracker';
+import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
 import './challenge.css';
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
@@ -84,6 +85,8 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
 
 export default function ChallengePage() {
   const [showOverlay, setShowOverlay] = useState(false);
+  // [TODO]: Hook this up to the DB so we only see it once.
+  const [showOnboardingModal, setShowOnboardingModal] = useState(true);
   const [isNarrow, setIsNarrow] = useState(false);
   const account = useAccount();
   useEffect(() => {
@@ -102,6 +105,13 @@ export default function ChallengePage() {
 
   return (
     <div className="challenge challenge-container">
+      {showOnboardingModal && (
+        <OnboardingModal
+          onRequestClose={() => {
+            setShowOnboardingModal(false);
+          }}
+        />
+      )}
       <WeeklyChallenge isNarrow={isNarrow} />
       <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
