@@ -8,6 +8,10 @@ email-input =
     .label = Taqoya'l
 submit-form-action = Titaq
 loading = Nisamajib'ëx...
+email-opt-in-info = Ninwajo' yenk'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
+email-opt-in-info-title = Tatunu' awi' pa ri rucholajem rutaqoya'l Common Voice
+email-opt-in-info-sub-with-challenge = Ke'ak'ulu' taq taqoya'l achi'el kinatab'al ri najowäx, taq rayb'äl, taq ruk'exoj ri nib'an chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
+email-opt-in-privacy = Toq naya' q'ij ye'ak'ül taq taqoya'l, niq'ax pan qawi' chi naya' q'ij chi re ri Mozilla nrokisaj ri awetamab'al achi'el nichol pa ri <privacyLink>Ichinan Runa'ojil <privacyLink> Mozilla.
 not-available-abbreviation = M/O
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
