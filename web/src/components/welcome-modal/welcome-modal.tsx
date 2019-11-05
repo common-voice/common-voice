@@ -5,15 +5,21 @@ import Modal, { ModalProps } from '../modal/modal';
 import { ArrowLeft } from '../ui/icons';
 import { Button, Checkbox } from '../ui/ui';
 import { trackChallenge } from '../../services/tracker';
+import {
+  ChallengeTeamToken,
+  challengeTeams,
+  ChallengeToken,
+} from 'common/challenge';
 
 import './welcome-modal.css';
 
 export interface WelcomeModalProps extends ModalProps {
-  onClick(): void;
-  team: string;
+  challengeToken: ChallengeToken;
+  teamToken: ChallengeTeamToken;
 }
 
-export default ({ onClick, team, ...props }: WelcomeModalProps) => {
+export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
+  const readableTeamName = challengeTeams[teamToken].readableName;
   const [hasAgreed, setHasAgreed] = useState<boolean>(false);
   useEffect(() => trackChallenge('modal-welcome'), []);
 
@@ -23,8 +29,8 @@ export default ({ onClick, team, ...props }: WelcomeModalProps) => {
         <BalanceText>Welcome to the Open Voice Challenge</BalanceText>
       </h1>
       <BalanceText className="subheading">
-        Ready to join the {team} challenge team? Read and agree to the challenge
-        terms and you're set to go!
+        Ready to join the {readableTeamName} challenge team? Read and agree to
+        the challenge terms and you're set to go!
       </BalanceText>
 
       <div className="checkbox-row">
@@ -36,8 +42,13 @@ export default ({ onClick, team, ...props }: WelcomeModalProps) => {
         </label>
       </div>
 
-      <Button rounded disabled={!hasAgreed} onClick={onClick}>
-        Join the {team} team
+      <Button
+        rounded
+        disabled={!hasAgreed}
+        onClick={() => {
+          window.location.pathname = `/login`;
+        }}>
+        Join the {readableTeamName} team
         <ArrowLeft />
       </Button>
     </Modal>
