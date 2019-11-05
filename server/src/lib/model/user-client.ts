@@ -279,9 +279,6 @@ const UserClient = {
         `,
         [challenge, email]
       );
-      console.log(
-        `[DEBUG] enrollRegisteredUser row:${JSON.stringify(registeredUser)}`
-      );
       const proceed =
         registeredUser.length > 0 &&
         registeredUser.every(
@@ -289,9 +286,6 @@ const UserClient = {
             u.client_id != null &&
             (u.enroll_id == null || u.challenge_id == null)
         );
-      console.log(
-        `[DEBUG] enrollRegisteredUser proceed:${JSON.stringify(proceed)}`
-      );
 
       if (proceed) {
         // If signing up through a user invitation URL, `invited_by` is the

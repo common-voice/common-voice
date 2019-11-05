@@ -15,10 +15,45 @@ const bucket = new Bucket(model, s3);
 
 const db = getMySQLInstance();
 
+const team_only_condition = `
+(visible OR (visible = 0 AND user_clients.client_id = ?))
+AND enroll.team_id = (
+  SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?
+)`;
+const general_condition = `
+(
+  (visible = 0 AND user_clients.client_id = ?)
+  OR (visible = 1)
+  OR (visible = 2 AND teams.id = (
+      SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?
+  ))
+)`;
+
+const getParticipantSubquery = (team_only: boolean) => {
+  return `
+  SELECT user_clients.client_id, avatar_url, username,
+      challenges.start_date AS start_date,
+      TIMESTAMPADD(WEEK, 3, challenges.start_date) AS end_date,
+      COALESCE(SUM(achievements.points), 0) AS bonus
+  FROM user_clients
+  LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
+  LEFT JOIN challenges ON enroll.challenge_id = challenges.id
+  LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
+  LEFT JOIN earn ON user_clients.client_id = earn.client_id AND earn.team_id IS NULL
+      AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
+  LEFT JOIN achievements ON earn.achievement_id = achievements.id
+      AND challenges.id = achievements.challenge_id
+  WHERE ${team_only ? team_only_condition : general_condition}
+  AND challenges.url_token = ?
+  GROUP BY user_clients.client_id, avatar_url, username, start_date, end_date
+  `;
+};
+
 interface ChallengeLeaderboardArgument {
   client_id: string;
   challenge: string;
   locale: string;
+  team_only: boolean;
 }
 
 async function getClipLeaderboard(locale?: string): Promise<any[]> {
@@ -112,10 +147,11 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
 //        participant in sql are ALMOST identical;
 //        topContributor and topMember sqls are different only in the WHERE clause.
 // 5) some of the conditions are probably over-thinking.
-async function getClipTopContributors({
+async function getTopSpeaker({
   client_id,
   challenge,
   locale,
+  team_only,
 }: ChallengeLeaderboardArgument): Promise<any[]> {
   const [rows] = await db.query(
     `
@@ -131,32 +167,11 @@ async function getClipTopContributors({
                 SUM(votes.is_valid) AS upvotes,
                 SUM(!votes.is_valid) AS downvotes
             FROM (
-                SELECT user_clients.client_id, avatar_url, username,
-                    challenges.start_date AS start_date,
-                    TIMESTAMPADD(WEEK, 3, challenges.start_date) AS end_date,
-                    COALESCE(SUM(achievements.points), 0) AS bonus
-                FROM user_clients
-                LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
-                LEFT JOIN challenges ON enroll.challenge_id = challenges.id
-                LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
-                LEFT JOIN earn ON user_clients.client_id = earn.client_id AND earn.team_id IS NULL
-                LEFT JOIN achievements ON earn.achievement_id = achievements.id
-                    AND challenges.id = achievements.challenge_id
-                    AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
-                WHERE ((visible = 0 AND user_clients.client_id = ?)
-                    OR (visible = 1)
-                    OR (visible = 2 AND teams.id = (
-                        SELECT team_id
-                        FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id
-                        WHERE e.client_id = ? AND c.url_token = ?
-                    ))
-                )
-                AND challenges.url_token = ?
-                GROUP BY user_clients.client_id, avatar_url, username, start_date,end_date
+              ${getParticipantSubquery(team_only)}
             ) participant
             LEFT JOIN clips ON participant.client_id = clips.client_id
-                AND clips.created_at BETWEEN start_date AND end_date
                 AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
+                AND clips.created_at BETWEEN start_date AND end_date
             LEFT JOIN votes ON clips.id = votes.clip_id
                 AND votes.created_at BETWEEN start_date AND end_date
             GROUP BY participant.client_id, avatar_url, username, start_date, end_date, bonus, clips.id
@@ -171,10 +186,11 @@ async function getClipTopContributors({
   return rows;
 }
 
-async function getVoteTopContributors({
+async function getTopListener({
   client_id,
   challenge,
   locale,
+  team_only,
 }: ChallengeLeaderboardArgument): Promise<any[]> {
   const [rows] = await db.query(
     `
@@ -190,35 +206,13 @@ async function getVoteTopContributors({
             COALESCE(SUM(votes.is_valid = other_votes.is_valid), 0) AS agree_count,
             COALESCE(SUM(votes.is_valid <> other_votes.is_valid), 0) AS disagree_count
             FROM (
-                SELECT user_clients.client_id, avatar_url, username,
-                    challenges.start_date AS start_date,
-                    TIMESTAMPADD(WEEK, 3, challenges.start_date) AS end_date,
-                    COALESCE(SUM(achievements.points), 0) AS bonus
-                FROM user_clients
-                LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
-                LEFT JOIN challenges ON enroll.challenge_id = challenges.id
-                LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
-                LEFT JOIN earn ON user_clients.client_id = earn.client_id AND earn.team_id IS NULL
-                LEFT JOIN achievements ON earn.achievement_id = achievements.id
-                    AND challenges.id = achievements.challenge_id
-                    AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
-                WHERE ((visible = 0 AND user_clients.client_id = ?)
-                    OR (visible = 1)
-                    OR (visible = 2 AND teams.id = (
-                        SELECT team_id
-                        FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id
-                        WHERE e.client_id = ? AND c.url_token = ?
-                    ))
-                )
-                AND challenges.url_token = ?
-                GROUP BY user_clients.client_id, avatar_url, username, start_date, end_date
+              ${getParticipantSubquery(team_only)}
             ) participant
             LEFT JOIN votes ON participant.client_id = votes.client_id
                 AND votes.created_at BETWEEN start_date AND end_date
             LEFT JOIN clips ON votes.clip_id = clips.id
                 AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
             LEFT JOIN votes other_votes ON clips.id = other_votes.clip_id AND other_votes.id <> votes.id
-                AND other_votes.created_at < end_date
             GROUP BY participant.client_id, avatar_url, username, bonus, votes.id
         ) voter
         GROUP BY voter.client_id, avatar_url, username, bonus
@@ -227,127 +221,13 @@ async function getVoteTopContributors({
     ORDER BY points DESC, approved DESC, accuracy DESC
     `,
     [client_id, client_id, challenge, challenge, locale]
-  );
-  return rows;
-}
-
-async function getClipTopMembers({
-  client_id,
-  challenge,
-  locale,
-}: ChallengeLeaderboardArgument): Promise<any[]> {
-  const [rows] = await db.query(
-    `
-    SELECT client_id, avatar_url, username AS name, total AS points, valid AS approved, ROUND(100 * valid / validated, 2) AS accuracy
-    FROM (
-        SELECT speaker.client_id, avatar_url, username,
-            COUNT(clip_id) + bonus AS total,
-            COALESCE(SUM(upvotes >= 2 AND upvotes > downvotes), 0) AS valid,
-            COALESCE(SUM((upvotes >= 2 OR downvotes >= 2) AND upvotes <> downvotes), 0) AS validated
-        FROM (
-            SELECT participant.client_id, avatar_url, username, start_date, end_date, bonus,
-                clips.id AS clip_id,
-                SUM(votes.is_valid) AS upvotes,
-                SUM(!votes.is_valid) AS downvotes
-            FROM (
-                SELECT user_clients.client_id, avatar_url, username,
-                    challenges.start_date AS start_date,
-                    TIMESTAMPADD(WEEK, 3, challenges.start_date) AS end_date,
-                    COALESCE(SUM(achievements.points), 0) AS bonus
-                FROM user_clients
-                LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
-                LEFT JOIN challenges ON enroll.challenge_id = challenges.id
-                LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
-                LEFT JOIN earn ON user_clients.client_id = earn.client_id AND earn.team_id IS NULL
-                LEFT JOIN achievements ON earn.achievement_id = achievements.id
-                    AND challenges.id = achievements.challenge_id
-                    AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
-                WHERE (visible OR (visible = 0 AND user_clients.client_id = ?))
-                AND challenges.url_token = ?
-                AND enroll.team_id = (
-                    SELECT team_id FROM enroll e
-                    LEFT JOIN challenges c ON e.challenge_id = c.id
-                    WHERE e.client_id = ? AND c.url_token = ?
-                )
-                GROUP BY user_clients.client_id, avatar_url, username, start_date,end_date
-            ) participant
-            LEFT JOIN clips ON participant.client_id = clips.client_id
-                AND clips.created_at BETWEEN start_date AND end_date
-                AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
-            LEFT JOIN votes ON clips.id = votes.clip_id
-                AND votes.created_at BETWEEN start_date AND end_date
-            GROUP BY participant.client_id, avatar_url, username, start_date, end_date, bonus, clips.id
-        ) speaker
-        GROUP BY speaker.client_id, avatar_url, username, bonus
-        HAVING total > 0
-    ) t
-    ORDER BY points DESC, approved DESC, accuracy DESC
-    `,
-    [client_id, challenge, client_id, challenge, locale]
-  );
-  return rows;
-}
-
-async function getVoteTopMembers({
-  client_id,
-  challenge,
-  locale,
-}: ChallengeLeaderboardArgument): Promise<any[]> {
-  const [rows] = await db.query(
-    `
-    SELECT client_id, avatar_url, username AS name, total AS points, valid AS approved, ROUND(100 * valid / validated, 2) AS accuracy
-    FROM (
-        SELECT voter.client_id, avatar_url, username,
-            COUNT(vote_id) + bonus AS total,
-            COALESCE(SUM(agree_count > disagree_count), 0) AS valid,
-            COALESCE(SUM((agree_count >= 1 OR disagree_count >= 2) AND agree_count <> disagree_count), 0) AS validated
-        FROM (
-            SELECT participant.client_id, avatar_url, username, bonus,
-            votes.id AS vote_id,
-            COALESCE(SUM(votes.is_valid = other_votes.is_valid), 0) AS agree_count,
-            COALESCE(SUM(votes.is_valid <> other_votes.is_valid), 0) AS disagree_count
-            FROM (
-                SELECT user_clients.client_id, avatar_url, username,
-                    challenges.start_date AS start_date,
-                    TIMESTAMPADD(WEEK, 3, challenges.start_date) AS end_date,
-                    COALESCE(SUM(achievements.points), 0) AS bonus
-                FROM user_clients
-                LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
-                LEFT JOIN challenges ON enroll.challenge_id = challenges.id
-                LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
-                LEFT JOIN earn ON user_clients.client_id = earn.client_id AND earn.team_id IS NULL
-                LEFT JOIN achievements ON earn.achievement_id = achievements.id
-                    AND challenges.id = achievements.challenge_id
-                    AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
-                WHERE (visible OR (visible = 0 AND user_clients.client_id = ?))
-                AND challenges.url_token = ?
-                AND enroll.team_id = (
-                    SELECT team_id FROM enroll e
-                    LEFT JOIN challenges c ON e.challenge_id = c.id
-                    WHERE e.client_id = ? AND c.url_token = ?
-                )
-                GROUP BY user_clients.client_id, avatar_url, username, start_date, end_date
-            ) participant
-            LEFT JOIN votes ON participant.client_id = votes.client_id
-                AND votes.created_at BETWEEN start_date AND end_date
-            LEFT JOIN clips ON votes.clip_id = clips.id
-                AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
-            LEFT JOIN votes other_votes ON clips.id = other_votes.clip_id AND other_votes.id <> votes.id
-                AND other_votes.created_at < end_date
-            GROUP BY participant.client_id, avatar_url, username, bonus, votes.id
-        ) voter
-        GROUP BY voter.client_id, avatar_url, username, bonus
-        HAVING total > 0
-    ) t
-    ORDER BY points DESC, approved DESC, accuracy DESC
-    `,
-    [client_id, challenge, client_id, challenge, locale]
   );
   return rows;
 }
 
 // get current team rankings
-async function getTopTeams(challenge: string): Promise<any[]> {
+// [TODO](can) get team rankings of all 3 weeks
+async function getTopTeam(challenge: string): Promise<any[]> {
   const [rows] = await db.query(
     `
     SELECT id, name, logo,
@@ -398,62 +278,52 @@ export const getFullVoteLeaderboard = lazyCache(
   CACHE_TIME_MS
 );
 
-export const getClipTopContributorsLeaderboard = lazyCache(
-  'clip-topContributors-leaderboard',
-  async ({ client_id, challenge, locale }: ChallengeLeaderboardArgument) => {
-    return (await getClipTopContributors({ client_id, challenge, locale })).map(
-      (row, i) => ({
-        position: i,
-        ...row,
-      })
-    );
+export const getTopSpeakerLeaderboard = lazyCache(
+  'top-speaker-leaderboard',
+  async ({
+    client_id,
+    challenge,
+    locale,
+    team_only,
+  }: ChallengeLeaderboardArgument) => {
+    return (await getTopSpeaker({
+      client_id,
+      challenge,
+      locale,
+      team_only,
+    })).map((row, i) => ({
+      position: i,
+      ...row,
+    }));
   },
   CACHE_TIME_MS
 );
 
-export const getVoteTopContributorsLeaderboard = lazyCache(
-  'vote-topContributors-leaderboard',
-  async ({ client_id, challenge, locale }: ChallengeLeaderboardArgument) => {
-    return (await getVoteTopContributors({ client_id, challenge, locale })).map(
-      (row, i) => ({
-        position: i,
-        ...row,
-      })
-    );
+export const getTopListenerLeaderboard = lazyCache(
+  'top-listener-leaderboard',
+  async ({
+    client_id,
+    challenge,
+    locale,
+    team_only,
+  }: ChallengeLeaderboardArgument) => {
+    return (await getTopListener({
+      client_id,
+      challenge,
+      locale,
+      team_only,
+    })).map((row, i) => ({
+      position: i,
+      ...row,
+    }));
   },
   CACHE_TIME_MS
 );
 
-export const getClipTopMembersLeaderboard = lazyCache(
-  'clip-topMembers-leaderboard',
-  async ({ client_id, challenge, locale }: ChallengeLeaderboardArgument) => {
-    return (await getClipTopMembers({ client_id, challenge, locale })).map(
-      (row, i) => ({
-        position: i,
-        ...row,
-      })
-    );
-  },
-  CACHE_TIME_MS
-);
-
-export const getVoteTopMembersLeaderboard = lazyCache(
-  'vote-topMembers-leaderboard',
-  async ({ client_id, challenge, locale }: ChallengeLeaderboardArgument) => {
-    return (await getVoteTopMembers({ client_id, challenge, locale })).map(
-      (row, i) => ({
-        position: i,
-        ...row,
-      })
-    );
-  },
-  CACHE_TIME_MS
-);
-
-export const getTopTeamsLeaderboard = lazyCache(
-  'topTeams-leaderboard',
+export const getTopTeamLeaderboard = lazyCache(
+  'top-teams-leaderboard',
   async (challenge: string) => {
-    return (await getTopTeams(challenge)).map((row, i) => ({
+    return (await getTopTeam(challenge)).map((row, i) => ({
       position: i,
       ...row,
     }));
@@ -498,20 +368,26 @@ export default async function getLeaderboard({
     switch (scope) {
       case 'contributors':
         leaderboard = await (type == 'clip'
-          ? getClipTopContributorsLeaderboard
-          : getVoteTopContributorsLeaderboard)({
+          ? getTopSpeakerLeaderboard
+          : getTopListenerLeaderboard)({
           client_id,
           challenge,
           locale,
+          team_only: false,
         });
         break;
       case 'members':
         leaderboard = await (type == 'clip'
-          ? getClipTopMembersLeaderboard
-          : getVoteTopMembersLeaderboard)({ client_id, challenge, locale });
+          ? getTopSpeakerLeaderboard
+          : getTopListenerLeaderboard)({
+          client_id,
+          challenge,
+          locale,
+          team_only: true,
+        });
         break;
       case 'teams':
-        leaderboard = await getTopTeamsLeaderboard(challenge);
+        leaderboard = await getTopTeamLeaderboard(challenge);
         break;
     }
   }
