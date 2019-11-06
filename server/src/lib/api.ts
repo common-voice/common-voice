@@ -35,7 +35,7 @@ export default class API {
   constructor(model: Model) {
     this.model = model;
     this.clip = new Clip(this.model);
-    this.challenge = new Challenge();
+    this.challenge = new Challenge(this.model);
     this.metrics = new Prometheus();
     this.s3 = AWS.getS3();
     this.bucket = new Bucket(this.model, this.s3);

@@ -100,11 +100,17 @@ const UserClient = {
           locales.name AS locale,
           (SELECT COUNT(*) FROM clips WHERE u.client_id = clips.client_id) AS clips_count,
           (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count,
-          t.name AS team
+          t.team,
+          t.challenge
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
-        LEFT JOIN (SELECT enroll.client_id, teams.name FROM enroll LEFT JOIN teams ON enroll.team_id = teams.id) t ON t.client_id = u.client_id
+        LEFT JOIN (
+          SELECT enroll.client_id, teams.url_token AS team, challenges.url_token AS challenge
+          FROM enroll
+          LEFT JOIN challenges ON enroll.challenge_id = challenges.id
+          LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
+        ) t ON t.client_id = u.client_id
         WHERE u.email = ? AND has_login
         GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
@@ -142,7 +148,7 @@ const UserClient = {
             ),
             awards,
             custom_goals,
-            enrollment: { team: row.team },
+            enrollment: { team: row.team, challenge: row.challenge },
           }),
           { locales: [] }
         );
@@ -262,10 +268,29 @@ const UserClient = {
     invite: string
   ): Promise<boolean> {
     if (email && challenge && team) {
-      const client_id = (await Promise.all([
-        UserClient.findClientId(email),
-      ]))[0];
-      if (client_id) {
+      // For registered user, client_id is not null
+      // For enrolled user, enroll_id is not null
+      // For user enrolled in the challenge, challenge_id is not null
+      const [registeredUser] = await db.query(
+        `
+        SELECT user_clients.client_id, enroll.id AS enroll_id, challenges.id AS challenge_id
+        FROM user_clients
+        LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
+        LEFT JOIN challenges ON enroll.challenge_id = challenges.id AND challenges.url_token = ?
+        WHERE user_clients.email = ?
+        `,
+        [challenge, email]
+      );
+      // only proceed to enroll a registered but not enrolled in the challenge
+      const proceed =
+        registeredUser.length > 0 &&
+        registeredUser.every(
+          (u: { client_id: string; enroll_id: Number; challenge_id: Number }) =>
+            u.client_id != null &&
+            (u.enroll_id == null || u.challenge_id == null)
+        );
+
+      if (proceed) {
         // If signing up through a user invitation URL, `invited_by` is the
         // `url_token` from another row. Otherwise, `invited_by` is null.
         // [FUTURE] UUID is too long, maybe consider to optimize it by removing '-' and base64 encoding it.
@@ -283,7 +308,13 @@ const UserClient = {
           `
           INSERT INTO enroll (challenge_id, team_id, client_id, url_token, invited_by) VALUES (?, ?, ?, ?, ?)
           `,
-          [challenge_id, team_id, client_id, enrollment_token, invite || null]
+          [
+            challenge_id,
+            team_id,
+            registeredUser[0].client_id,
+            enrollment_token,
+            invite || null,
+          ]
         );
         return res && res[0] && res[0].affectedRows > 0;
       }

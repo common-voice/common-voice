@@ -24,10 +24,12 @@ export default function TeamboardCard({
   title,
   showVisibleIcon,
   showOverlay,
+  week,
 }: {
   title: string;
   showVisibleIcon?: boolean;
   showOverlay?: (event: React.MouseEvent<HTMLInputElement>) => void;
+  week?: number;
 }) {
   const account = useAccount();
 

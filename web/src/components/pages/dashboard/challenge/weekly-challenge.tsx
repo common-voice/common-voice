@@ -1,7 +1,6 @@
 import * as React from 'react';
-import * as moment from 'moment';
 import WeeklyChallengeBoard from './weekly-challenge-board';
-import { useState, useEffect } from 'react';
+import { WeeklyChallenge } from '../../../../../../common/challenge';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { challengeLogoUrls } from './constants';
 import './weekly-challenge.css';
@@ -11,16 +10,15 @@ const WEEKS: Array<string> = [
   "Let's get social",
   'Be the team with the highest sign up rate',
 ];
-const START_DATE: string = '10/21/2019';
 
-const getCurrentWeek = (): number => {
-  let now = moment().week();
-  let startWeek = moment(START_DATE).week();
-  return now - startWeek;
-};
-
-export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
-  let currentWeek = getCurrentWeek();
+export default function WeeklyChallenge({
+  isNarrow,
+  weekly,
+}: {
+  isNarrow?: boolean;
+  weekly?: WeeklyChallenge;
+}) {
+  let currentWeek = weekly.week - 1;
   let pastWeek: Array<number> = [];
   switch (currentWeek) {
     case 0:
@@ -34,26 +32,8 @@ export default function WeeklyChallenge({ isNarrow }: { isNarrow?: boolean }) {
       break;
   }
   const label = pastWeek.length === 0 ? 'Future' : 'Past';
-
-  const api = useAPI();
   const account = useAccount();
 
-  const [weekly, setWeekly] = useState({
-    week: 1,
-    user: {
-      speak: 50,
-      speak_total: 200,
-      listen: 25,
-      listen_total: 100,
-    },
-    team: {
-      invite: 50,
-      invite_total: 200,
-    },
-  });
-  useEffect(() => {
-    api.fetchWeeklyChallenge().then(setWeekly);
-  }, []);
   return (
     <div className="weekly-container">
       <div className="weekly-topbar">

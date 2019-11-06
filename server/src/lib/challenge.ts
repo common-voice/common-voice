@@ -1,20 +1,17 @@
 import { Request, Response } from 'express';
-import * as fs from 'fs';
+
+import getLeaderboard from './model/leaderboard';
+import Model from './model';
 
 const PromiseRouter = require('express-promise-router');
 
-// [TODO](can) mock data for challenge board, remove it when implementing detailes of the challenge APIs.
-const getMockData = () => {
-  let data = null;
-  try {
-    data = JSON.parse(fs.readFileSync('./challenge-mock-data.json', 'utf-8'));
-  } catch (err) {
-    console.error(err, 'could not load config.json, using defaults');
-  }
-  return data;
-};
-
 export default class Challenge {
+  private model: Model;
+
+  constructor(model: Model) {
+    this.model = model;
+  }
+
   getRouter() {
     const router = PromiseRouter({ mergeParams: true });
 
@@ -31,74 +28,74 @@ export default class Challenge {
   }
 
   getPoints = async (
-    { client_id, params: { challeng_token } }: Request,
+    { client_id, params: { challenge } }: Request,
     response: Response
   ) => {
-    console.log(
-      `[DEBUG] Challenge.getPoints() - client_id:${client_id}, challenge_token:${challeng_token}`
-    );
-    let data = getMockData();
-
-    response.json(data.challengePoint);
+    response.json(await this.model.getPoints(client_id, challenge));
   };
 
   getWeeklyProgress = async (
-    { client_id, params: { challeng_token } }: Request,
+    { client_id, params: { challenge } }: Request,
     response: Response
   ) => {
-    console.log(
-      `[DEBUG] Challenge.getWeeklyProgress - client_id:${client_id}, challenge_token:${challeng_token}`
-    );
-    let data = getMockData();
-
-    response.json(data.weeklyChallenge);
+    const progress = await this.model.getWeeklyProgress(client_id, challenge);
+    const weeklyProgress = {
+      week: progress.week,
+      user: {
+        speak: progress.clip_count,
+        speak_total: progress.week === 2 ? 100 : 200,
+        listen: progress.vote_count,
+        listen_total: progress.week === 2 ? 50 : 100,
+      },
+      team: { invite: progress.teammate_count, invite_total: 50 },
+    };
+    response.json(weeklyProgress);
   };
 
   getTopMembers = async (
-    { client_id, params: { challeng_token, locale, type } }: Request,
+    { client_id, params: { challenge, locale, type }, query }: Request,
     response: Response
   ) => {
-    console.log(
-      `[DEBUG] Challenge.getTopMembers - client_id:${client_id}, locale: ${locale}, challenge_token:${challeng_token}, type:${type}`
+    response.json(
+      await getLeaderboard({
+        dashboard: 'challenge',
+        type: type === 'vote' ? 'vote' : 'clip',
+        client_id,
+        cursor: query.cursor ? JSON.parse(query.cursor) : null,
+        locale,
+        arg: { scope: 'members', challenge },
+      })
     );
-    let data = getMockData();
-
-    if (type === 'recorded') {
-      response.json(data.topMember.recorded);
-    } else if (type === 'validated') {
-      response.json(data.topMember.validated);
-    } else {
-      response.json({});
-    }
   };
 
   getTopTeams = async (
-    { client_id, params: { challeng_token, locale } }: Request,
+    { client_id, params: { challenge, locale }, query }: Request,
     response: Response
   ) => {
-    console.log(
-      `[DEBUG] Challenge.getTopTeams - client_id:${client_id}, locale: ${locale}, challenge_token:${challeng_token}`
+    response.json(
+      await getLeaderboard({
+        dashboard: 'challenge',
+        client_id,
+        cursor: query.cursor ? JSON.parse(query.cursor) : null,
+        locale,
+        arg: { scope: 'teams', challenge },
+      })
     );
-    let data = getMockData();
-
-    response.json(data.topTeams);
   };
 
   getTopContributors = async (
-    { client_id, params: { challeng_token, locale, type } }: Request,
+    { client_id, params: { challenge, locale, type }, query }: Request,
     response: Response
   ) => {
-    console.log(
-      `[DEBUG] Challenge.getTopContributors - client_id:${client_id}, challenge_token:${challeng_token}, locale: ${locale}, type:${type}`
+    response.json(
+      await getLeaderboard({
+        dashboard: 'challenge',
+        type: type === 'vote' ? 'vote' : 'clip',
+        client_id,
+        cursor: query.cursor ? JSON.parse(query.cursor) : null,
+        locale,
+        arg: { scope: 'contributors', challenge },
+      })
     );
-    let data = getMockData();
-
-    if (type === 'recorded') {
-      response.json(data.topContributors.recorded);
-    } else if (type === 'validated') {
-      response.json(data.topContributors.validated);
-    } else {
-      response.json({});
-    }
   };
 }
