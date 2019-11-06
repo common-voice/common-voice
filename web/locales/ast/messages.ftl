@@ -158,20 +158,20 @@ wall-of-text-second =
     a facer que la reconocencia de voz tea abierta y seya accesible pa tol mundu.
 show-wall-of-text = Lleer más
 help-us-title = ¡Ayúdanos a validar les frases!
-help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende cola fras d'embaxo?
-no-clips-to-validate = Paez que nesta llingua nun hai dengún clip pa sentir. Ayúdanos a enllenar la cola grabando dalgunos agora.
+help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende a la fras d'embaxo?
+no-clips-to-validate = Paez que nesta llingua nun hai dengún clip pa sentir. Ayúdanos a enllenar la cola grabando daqué agora.
 vote-yes = Sí
 vote-no = Non
 toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reproducción
 speak-subtitle = Empresta la to voz
-speak-paragraph = La grabación de clips de voz ye una parte esencial pa la fechura del nuesu conxuntu abiertu de datos. Tamién ye la parte más divertida.
+speak-paragraph = La grabación de clips de voz ye una parte esencial pa la fechura del nuesu conxuntu de datos abiertu. Tamién ye lo más divertío.
 speak-goal-text = Clips grabaos
 listen-subtitle = Ayúdanos a validar voces
 listen-paragraph = Validar los clips ye tamién importante pa la misión de Common Voice. Sienti y ayúdanos a crear datos de voz llibres y calidables.
 listen-goal-text = Clips validaos
 hours-recorded = Hores grabaes
 hours-validated = Hores validaes
-voices-online = Voces en llinia anguaño
+voices-online = Voces en llinia agora
 todays-progress = Progresu de güei
 help-reach-goal = Ayúdanos a consiguir { $goal }
 read-terms-q = ¿Lleesti los nuesos términos?
@@ -180,7 +180,7 @@ all-locales = Too
 today = Güei
 x-weeks-short =
     { $count ->
-        [one] Selmana
+        [one] { $count } selmana
        *[other] { $count } selmanes
     }
 x-months-short =
@@ -193,7 +193,9 @@ x-years-short =
         [one] { $count } añu
        *[other] { $count } años
     }
-help-make-dataset = Ayúdanos a construyir un conxuntu de datos abiertu, públicu y de calidá alta
+help-make-dataset = Ayúdanos a construyir un conxuntu de datos abiertu, públicu y calidable
+sign-up-account = Rexistrar una cuenta
+email-subscription-title-new = Rexístrate pa recibir boletinos, recordatorios, retos y anovamientos de progresu
 
 ## Account Benefits
 
