@@ -68,12 +68,14 @@ kab = Cabilu
 kk = Kazaxu
 ko = Coreanu
 kpv = Komi
+ku = Kurdu
 kw = Córnicu
 ky = Kirguís
 lt = Lituanu
 lv = Letón
 mdf = Moksha
 mk = Macedoniu
+ml = Malayalam
 mn = Mongol
 mt = Maltés
 myv = Erzya
@@ -143,11 +145,11 @@ wall-of-text-start =
 wall-of-text-more-mobile =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
     Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar
-    a facer que la reconocencia de voz tea abierta al tol mundu.
+    a facer que la reconocencia de voz tea abierta a tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
-    pue usar pa facer aplicaciones informátiques innovadores. Llei una fras pa deprende-yos a les máquines cómo falen los humanos. Comprueba'l
-    trabayu d'otros collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
+    pue usar pa facer aplicaciones informátiques innovadores. Llei una fras pa deprende-yos a les máquines cómo falen los humanos.
+    Comprueba'l trabayu d'otros collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
 wall-of-text-first =
     La voz ye natural, tamién humana. Poro, tamos entusiasmaos por crear teunoloxíes de voz
     calidables pa les nueses máquines. Pero pa crear estos sistemes, los desendolcadores riquen una
@@ -155,7 +157,7 @@ wall-of-text-first =
 wall-of-text-second =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
     Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar
-    a facer que la reconocencia de voz tea abierta y seya accesible pa tol mundu.
+    a facer que la reconocencia de voz seya accesible y tea abierta a tol mundu.
 show-wall-of-text = Lleer más
 help-us-title = ¡Ayúdanos a validar les frases!
 help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende a la fras d'embaxo?
@@ -204,6 +206,7 @@ rich-data = Fai que los tos datos seyan lo más informativos posible apurriendo 
 improve-audio = La información de los perfiles ameyoren los datos usaos pa entrenar la precisión de la reconocencia de voz.
 keep-track = Sigui'l progresu y les estadístiques de les llingües nes que collabores.
 compare-progress = Compara'l to progresu col d'otros collaboradores del mundu.
+view-goals = Visualiza'l to progresu en rellación coles metes personales y del proyeutu.
 join-newsletter = Xúnite opcionalmente a la nuesa llista de corréu pa recibir anovamientos del proyeutu.
 
 ## What's public
@@ -298,7 +301,7 @@ profile-close = Zarrar
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa?
-why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase a los datos unviaos y vas poder escoyer si facelos públicos o anónimos.
+why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase clos datos unviaos y vas poder escoyer si facelos públicos o anónimos.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 accept-privacy-title = Política de privacidá
 login-identity = Identidá del aniciu de sesión
@@ -566,14 +569,21 @@ overall-accuracy = Precisión xeneral
 
 ## Custom Goals
 
+weekly-goal = Meta selmanal
+weekly-goal-created = Creóse'l to progresu selmanal
+daily-goal-created = Creóse'l to progresu diariu
 
 ## Profile Delete
 
 delete-q = ¿Prestaríate solicitar que tamién se desanicien les tos grabaciones o prefieres calteneles nel conxuntu de datos de Common Voice?
 keep = Caltener
 remove = Desaniciar
-keep-info = Les tos grabaciones de voz anónimes van siguir nel conxuntu de datos de Common Voice. Nel momentu que desanicies el perfil, yá nun vas ser a unviar un solicitú pa desaniciales del conxuntu de datos
+keep-info = Les tos grabaciones de voz anónimes van siguir nel conxuntu de datos de Common Voice. Nel momentu que desanicies el perfil, yá nun vas ser a unviar una solicitú pa desaniciales del conxuntu de datos
 remove-info = Vamos revisar la solicitú pa desaniciar les tos grabaciones del conxuntu de datos. Si la solicitú s'aprueba, vamos contautar colos que baxaron el conxuntu de datos y solicita-yos que les desanicien tamién.
+why-delete-recordings =
+    Les grabaciones de Common Voice van usales académicos, pymes y otra xente interesao na reconcencia de voz p'ayudar a entrenar y medrar los recursos disponibles públicamente, como los modelos de voz.
+    
+    ¿Pues dicinos por qué quedríes desaniciar les tos grabaciones?
 profile-form-delete = Desaniciar el perfil
 
 ## Landing
