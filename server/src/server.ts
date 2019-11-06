@@ -92,8 +92,17 @@ export default class Server {
       }
 
       // For now, you either get full access of Kibana or none at all.
-      if (!JSON.parse(ADMIN_EMAILS).includes(user.emails[0].value)) {
-        response.sendStatus(403);
+      const userEmail = user.emails[0].value;
+      if (
+        !userEmail ||
+        !(
+          userEmail.endsWith('@mozilla.com') ||
+          JSON.parse(ADMIN_EMAILS).includes(userEmail)
+        )
+      ) {
+        response.status(403).json({
+          error: `${userEmail} is not authenticated for Kibana access.`,
+        });
         return;
       }
 
