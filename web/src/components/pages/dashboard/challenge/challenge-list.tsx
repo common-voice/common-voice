@@ -216,42 +216,42 @@ class ChallengeList extends React.Component<Props, State> {
               </div>
             </div>
             <div className="week" title="Week">
-              {week == 1 ? (
+              {row.w1_points ? (
                 <React.Fragment>
                   <PointsIcon
-                    className={row.rank <= 3 ? `star-points-${row.rank}` : ''}
+                    className={row.w1 <= 3 ? `star-points-${row.w1}` : ''}
                   />
-                  {this.transformRankingToString(row.rank)}
+                  {this.transformRankingToString(row.w1)}
                 </React.Fragment>
               ) : (
                 '--'
               )}
             </div>
             <div className="week" title="Week">
-              {week == 2 ? (
+              {row.w2_points ? (
                 <React.Fragment>
                   <PointsIcon
-                    className={row.rank <= 3 ? `star-points-${row.rank}` : ''}
+                    className={row.w2 <= 3 ? `star-points-${row.w2}` : ''}
                   />
-                  {this.transformRankingToString(row.rank)}
+                  {this.transformRankingToString(row.w2)}
                 </React.Fragment>
               ) : (
                 '--'
               )}
             </div>
             <div className="week" title="Week">
-              {week == 3 ? (
+              {row.points ? (
                 <React.Fragment>
                   <PointsIcon
-                    className={row.rank <= 3 ? `star-points-${row.rank}` : ''}
+                    className={row.w3 <= 3 ? `star-points-${row.w3}` : ''}
                   />
-                  {this.transformRankingToString(row.rank)}
+                  {this.transformRankingToString(row.w3)}
                 </React.Fragment>
               ) : (
                 '--'
               )}
             </div>
-            <div className="total">{row.points}</div>
+            <div className="total">{row.points || 'N/A'}</div>
           </li>
         ),
         nextPosition &&

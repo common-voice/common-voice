@@ -195,24 +195,42 @@ async function getTopListeners({
 async function getTopTeams(challenge: string): Promise<any[]> {
   const [rows] = await db.query(
     `
-    SELECT id, name, logo,
-        @curRank := IF(@value = points, @curRank, @nextRank) AS rank,
-        @nextRank := @nextRank + 1 AS nextRank,
-        @value := points AS points
+    SELECT id, name, logo, w1_points, w1, w2_points, w2,
+        @curw3 := IF(@value3 = w3_points, @curw3, @nextw3) AS w3,
+        @nextw3 := @nextw3 + 1 AS nextRank,
+        @value3 := w3_points AS points
     FROM (
-        SELECT teams.id, teams.name, teams.logo_url AS logo,
-            SUM((earned_at BETWEEN challenges.start_date AND NOW()) * points) AS points
-        FROM earn
-        JOIN achievements ON achievements.id = earn.achievement_id
-        JOIN teams ON earn.team_id = teams.id
-        JOIN challenges ON achievements.challenge_id = challenges.id AND teams.challenge_id = challenges.id
-        WHERE client_id IS NULL
-        AND team_id IS NOT NULL
-        AND earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
-        AND challenges.url_token = ?
-        GROUP BY teams.id, teams.name, teams.logo_url
-        ORDER BY points DESC
-    ) teams, (SELECT @curRank :=0, @value := NULL, @nextRank := 1) r
+        SELECT id, name, logo, w1_points, w1, w3_points,
+            @curw2 := IF(@value2 = w2_points, @curw2, @nextw2) AS w2,
+            @nextw2 := @nextw2 + 1 AS nextRank,
+            @value2 := w2_points AS w2_points
+        FROM (
+            SELECT id, name, logo, w2_points, w3_points,
+              @curw1 := IF(@value1 = w1_points, @curw1, @nextw1) AS w1,
+              @nextw1 := @nextw1 + 1 AS nextRank,
+              @value1 := w1_points AS w1_points
+            FROM (
+                SELECT teams.id, teams.name, teams.logo_url AS logo,
+                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 1, challenges.start_date)) * points) AS w1_points,
+                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 2, challenges.start_date)) * points) AS w2_points,
+                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)) * points) AS w3_points
+                FROM challenges
+                LEFT JOIN teams ON challenges.id = teams.challenge_id
+                LEFT JOIN earn ON earn.team_id = teams.id
+                    AND earn.client_id IS NULL
+                    AND earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
+                LEFT JOIN achievements ON achievements.id = earn.achievement_id
+                    AND achievements.challenge_id = challenges.id 
+                WHERE challenges.url_token = ?
+                GROUP BY teams.id, teams.name, teams.logo_url
+                ORDER BY w1_points DESC
+            ) teams, (SELECT @curw1 :=0, @value1 := NULL, @nextw1 := 1) r
+            GROUP BY id
+            ORDER BY w2_points DESC
+        ) teams, (SELECT @curw2 :=0, @value2 := NULL, @nextw2 := 1) r
+        GROUP BY id
+        ORDER BY w3_points DESC
+    ) teams, (SELECT @curw3 :=0, @value3 := NULL, @nextw3 := 1) r
     `,
     [challenge]
   );
