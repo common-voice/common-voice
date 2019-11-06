@@ -4,12 +4,7 @@ import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
-import {
-  ChallengeToken,
-  ChallengeTeamToken,
-  challengeTokens,
-  challengeTeamTokens,
-} from 'common/challenge';
+import { ChallengeToken, ChallengeTeamToken } from 'common/challenge';
 
 const db = getMySQLInstance();
 
@@ -266,13 +261,7 @@ const UserClient = {
     team: ChallengeTeamToken,
     invite: string
   ): Promise<boolean> {
-    if (
-      email &&
-      challenge &&
-      team &&
-      challengeTokens.includes(challenge) &&
-      challengeTeamTokens.includes(team)
-    ) {
+    if (email && challenge && team) {
       const client_id = (await Promise.all([
         UserClient.findClientId(email),
       ]))[0];
