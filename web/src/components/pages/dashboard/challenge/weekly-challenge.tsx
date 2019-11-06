@@ -1,9 +1,8 @@
 import * as React from 'react';
-import * as moment from 'moment';
 import WeeklyChallengeBoard from './weekly-challenge-board';
 import { useState, useEffect } from 'react';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
-import { challengeLogoUrls } from './constants';
+import { challengeLogoUrls, getWeekNum, pilotDates } from './constants';
 import './weekly-challenge.css';
 
 const WEEKS: Array<string> = [
@@ -11,11 +10,10 @@ const WEEKS: Array<string> = [
   "Let's get social",
   'Be the team with the highest sign up rate',
 ];
-const START_DATE: string = '10/21/2019';
 
 const getCurrentWeek = (): number => {
-  let now = moment().week();
-  let startWeek = moment(START_DATE).week();
+  let now = getWeekNum(new Date());
+  let startWeek = getWeekNum(pilotDates.start);
   return now - startWeek;
 };
 

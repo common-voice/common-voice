@@ -35,6 +35,11 @@ export interface TeamChallenge {
 export type ChallengeToken = 'pilot';
 export type ChallengeTeamToken = 'ibm' | 'mozilla' | 'sap';
 
+export type ChallengeDuration = {
+  start: Date;
+  end: Date;
+};
+
 interface ChallengeTeam {
   readableName: string;
   token: ChallengeTeamToken;
