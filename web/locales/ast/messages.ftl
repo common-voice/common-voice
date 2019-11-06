@@ -341,21 +341,32 @@ faq-why-different-speakers-q = ¿Por qué precisáis tantos falantes per llingua
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice les hores?
 faq-where-src-from-2-q = ¿D'ónde vienen los testos que s'usen?
+faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o artículos de Wikipedia n'otres llingues?
+faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
+faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
 
 ## ABOUT US
 
 about-title = ¿Por qué Common Voice?
 how-does-it-work-title = ¿Cómo funciona?
+about-yes-votes = ≥ 2 votos «Sí»
+about-no-votes = ≥ 2 votos «Non»
+about-dataset-new = Conxuntu de datos de Common Voice
+about-clip-graveyard = Cementeriu de clips
+about-partners = Socios
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
+about-nav-partners = Socios
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelixencia artificial
 mycroft-description = Mycroft ye'l primer asistente de códigu abiertu del mundu y pue executase en cualesquier llugar (ordenador, coche o nuna Raspberry Pi).
-mycroft-secondary-description = Esto ye softwaare de códigu abiertu que pues meces, estnader y ameyorara llibremente. Mycroft pue usase con cualesquier cosa, dende un proyeutu de ciencies hasta una aplicación empresarial
+mycroft-secondary-description = Esto ye software de códigu abiertu que pues mecer, estender y ameyorar llibremente. Mycroft pue usase en cualesquier cosa, dende un proyeutu de ciencies hasta una aplicación empresarial
 
 ## Glossary
 
 glossary = Glosariu
+localization = Traducción
+localization-explanation = Equí adautamos el nuesu conteníu a otres locales (llingües) más.
 sst = Fala a testu (STT)
 sst-explanation = Les teunoloxíes de fala a testu (STT) convierten los datos de voz a testu.
 de-identified = Anonimación
