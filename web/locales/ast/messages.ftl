@@ -456,9 +456,9 @@ contact-required = *ríquese
 request-language-title = Solicitú pa una llingua
 request-language-form-language =
     .label = Llingua
-request-language-success-title = Unvióse con ésitu la solicitú de la llingua, gracies.
+request-language-success-title = La solicitú unvióse con ésitu, gracies
 request-language-success-content = Mui pronto vamos ponenos en contautu con más información tocante a cómo amestar la to llingua a Common Voice.
-other-language = Otres llingües
+other-language = Otra llingua
 
 ## Languages Overview
 
@@ -477,8 +477,8 @@ total-hours = Hores totales
 
 ## Contribution
 
-action-click = Fai clic
-action-tap = Calca
+action-click = Calca
+action-tap = Toca
 contribute = Collaborar
 listen = Sentir
 skip = Saltar
@@ -491,7 +491,7 @@ contribute-more =
         [one] ¿Quies facer { $count } más?
        *[other] ¿Quies facer { $count } más?
     }
-record-cta = Aniciar grabación
+record-cta = Aniciar la grabación
 record-platform-not-supported = Sentímoslo pero anguaño nun se sofita la to plataforma.
 record-platform-not-supported-desktop = N'ordenadores, pues baxar:
 record-platform-not-supported-ios = Los usuarios d'<bold>iOS</bold> puen baxar la nuesa aplicación de baldre:
@@ -500,7 +500,7 @@ record-no-mic-found = Nun s'alcontró'l micrófonu.
 record-error-too-short = La grabación foi percurtia.
 record-error-too-long = La grabación foi perllarga.
 record-error-too-quiet = La grabación foi persilenciosa.
-record-cancel = Encaboxar grabación
+record-cancel = Encaboxar la grabación
 record-instruction = { $actionType }<recordIcon></recordIcon> y llei la fras n'alto
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cuando termines
 record-three-more-instruction = ¡Tres p'acabar!
@@ -512,9 +512,9 @@ review-instruction = Revisa y volvi grabar los clips si lo precises
 record-submit-tooltip = { $actionType } unviar cuando termines
 clips-uploaded = Clips xubíos
 record-abort-title = ¿Finar primero la grabación?
-record-abort-text = Si coles agora, vas perder el to progresu
+record-abort-text = Si coles agora, vas perder el progresu
 record-abort-submit = Unviar clips
-record-abort-continue = Finar grabación
+record-abort-continue = Finar la grabación
 record-abort-delete = Colar y desaniciar clips
 listen-instruction = { $actionType }<playIcon></playIcon>, ¿pronunció correutamente la fras?
 listen-again-instruction = ¡Bon trabayu!<playIcon></playIcon> Volvi sentir cuando teas preparáu
@@ -551,7 +551,7 @@ validations =
 ## Dashboard
 
 your-languages = Les tos llingües
-toward-next-goal = Pa la meta próxima
+toward-next-goal = Pa la meta siguiente
 clips-you-recorded = Clips que grabesti
 clips-you-validated = Clips que validesti
 stats = Estadístiques
@@ -572,10 +572,11 @@ overall-accuracy = Precisión xeneral
 delete-q = ¿Prestaríate solicitar que tamién se desanicien les tos grabaciones o prefieres calteneles nel conxuntu de datos de Common Voice?
 keep = Caltener
 remove = Desaniciar
-keep-info = Les tos grabaciones de voz anónimes van siguir nel conxuntu de datos de Common Voice. Nel momentu que desanicies el perfil, yá nun vas ser a unviar un solicitú pa desaniciar les tos grabaciones del conxuntu de datos
-remove-info = Vamos revisar la solicitú pa desaniciar les tos grabaciones del conxuntu de datos. Si la solicitú s'aprueba, vamos contautar colos que baxaron el conxuntu de datos y solicita-yos que desanicien tamién les tos grabaciones.
-profile-form-delete = Desaniciar perfil
+keep-info = Les tos grabaciones de voz anónimes van siguir nel conxuntu de datos de Common Voice. Nel momentu que desanicies el perfil, yá nun vas ser a unviar un solicitú pa desaniciales del conxuntu de datos
+remove-info = Vamos revisar la solicitú pa desaniciar les tos grabaciones del conxuntu de datos. Si la solicitú s'aprueba, vamos contautar colos que baxaron el conxuntu de datos y solicita-yos que les desanicien tamién.
+profile-form-delete = Desaniciar el perfil
 
 ## Landing
 
+welcome-staff = ¡Afayáivos, personal de { $company }!
 profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
