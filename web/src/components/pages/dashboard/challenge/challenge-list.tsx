@@ -154,7 +154,7 @@ class ChallengeList extends React.Component<Props, State> {
         row.name ===
         (team ? user.account.enrollment.team : user.account.username);
       return (
-        <>
+        <div key={i}>
           {!!prevPosition && prevPosition + 1 < row.position && (
             <FetchRow
               key={row.position + 'prev'}
@@ -262,7 +262,7 @@ class ChallengeList extends React.Component<Props, State> {
                 }
               />
             )}
-        </>
+        </div>
       );
     });
     // [TODO]: This should be a <table>.
