@@ -335,15 +335,22 @@ change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de se
 
 faq-title = Entrugues frecuentes
 faq-what-cv-q = ¿Qué ye Common Voice?
+faq-what-cv-a =
+    La teunoloxía de la reconocencia de voz ta revolucionando'l mou col que interactuamos coles máquines pero los sistemes que tán disponibles anguaño son caros y privativos. Common Voice ye parte de la iniciativa de Mozilla pa facer que la reconocencia de voz seya meyor y más accesible pa tol mundu pente la donación de voces que nos permiten a toos entrenar fácilmente aplicaciones qu'usen la voz.
+    
+    Nun recoyemos namái muestres de les llingües más falaes, sinón de les minorizaes tamién. L'espublizamientu d'un conxuntu de datos bayurosu va permitir a los desendolcadores, empresarios y comunidaes enteres que rellenen ellos solos esi güecu. Amás de Commonn Voice, tamién tamos creando Deep Speech que ye un motor de reconocencia de voz de códigu abiertu.
 faq-why-important-q = ¿Por qué ye importante?
 faq-why-important-a =
-    Davezu, la fala ye'l mou más natural que tenemos los humanos pa comunicanos ente nós y les teunoloxíes de voz tán brindando esa posibilidá a los preseos informáticos. Queremos permitir que los desendolcadores creen aplicaciones de reconocencia de voz ablucantes como traductores en tiempu real y asistentes virtuales, pero pel momentu la mayoría de datos de voz riquíos pa crear estes tribes d'aplicaciones son caros y privativos. Esperamos que'l conxuntu de datos de Common Voice forna a los desendolcadores lo que precisen pa que la teunoloxía de voz tea disponible na so llingua.
+    Davezu, la fala ye'l mou más natural que tenemos los humanos pa comunicanos ente nós y les teunoloxíes de voz tán brindando esa posibilidá a los preseos informáticos. Queremos permitir que los desendolcadores creen aplicaciones de reconocencia de voz ablucantes como traductores en tiempu real y asistentes de voz, pero pel momentu la mayoría de datos de voz riquíos pa crear estes tribes d'aplicaciones son caros y privativos. Esperamos que'l conxuntu de datos de Common Voice forna a los desendolcadores lo que precisen pa que la teunoloxía de voz tea disponible na so llingua.
     
     Pa facer que la reconocencia de voz seya más universal, tamos recoyendo muestres de voz en munches llingües (tamién les minoritaries) colos sos acentos y variedaes qu'a vegaes los servicios comerciales inoren. L'espublizamientu d'un conxuntu de datos de voz va permitir a los desendolcadores, empresarios y comunidaes enteres que rellenen ellos solos esi güecu.
 faq-how-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
+faq-how-get-a = El conxuntu de datos de Common Voice ta disponible pa baxar so la llicencia <licenseLink>CC 0</licenseLink> <datasetLink>na nuesa páxina de conxuntos de datos</datasetLink>. Dende esa mesma páxina, tamién pues baxar otros conxuntos de datos públicos.
 faq-when-release2-q = ¿Cuándo vais llanzar los datos de Common Voice n'otres llingües?
 faq-why-mission-q = ¿Por qué Common Voice ye parte de la misión de Mozilla?
 faq-what-cv-and-deepspeech-q = ¿En qué s'estremen Common Voice y Deep Speech?
+faq-is-goal-assistant-q = ¿La meta de Common Voice ye la de crear un asistente de voz?
+faq-is-goal-assistant-a = La meta del conxuntu de datos de Common Voice ye la de permitir que tol mundu crea aplicaciones que reconozan voces y rican datos de voz. Un asistente de voz ye una de les munches aplicaciones que podríen usar el conxuntu de datos.
 faq-do-want-native-q = Nun soi un falante nativu y falo con acentu, ¿val la mio collaboración?
 faq-why-different-speakers-q = ¿Por qué precisáis tantos falantes per llingua?
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
