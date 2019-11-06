@@ -312,13 +312,16 @@ skip-submission-description = Nel unviu de les collaboraciones van saltase los c
 skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
 off = NON
 on = SÍ
+avatar-clip-title = Da-y voz al to avatar
 change-your-avatar-clip = ¿Quies camudar el clip de voz?
 avatar-clip-recorded = ¡Agora'l to avatar inclúi un clip de voz!
+delete-voice = DESANICIAR
+cancel-avatar-clip-recording = ENCABOXAR
 browse-file-title = Xuba d'un ficheru
 browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
 connect-gravatar = Coneutar con Gravatar
 gravatar_not_found = Nun s'alcontró dengún gravatar del corréu
-file_too_large = El ficheru esbilláu ye perllargu
+file_too_large = El ficheru esbilláu ye pergrande
 manage-subscriptions = Xestión de les soscripciones
 email-already-used = El corréu yá s'usa nuna cuenta diferente
 add-language = Amestar una llingua
@@ -329,7 +332,15 @@ change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de se
 faq-title = Entrugues frecuentes
 faq-what-cv-q = ¿Qué ye Common Voice?
 faq-why-important-q = ¿Por qué ye importante?
+faq-how-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
+faq-when-release2-q = ¿Cuándo vais llanzar los datos de Common Voice n'otres llingües?
+faq-why-mission-q = ¿Por qué Common Voice ye parte de la misión de Mozilla?
+faq-what-cv-and-deepspeech-q = ¿En qué s'estremen Common Voice y Deep Speech?
+faq-do-want-native-q = Nun soi un falante nativu y falo con acentu, ¿val la mio collaboración?
+faq-why-different-speakers-q = ¿Por qué precisáis tantos falantes per llingua?
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
+faq-how-calc-hours-q = ¿Cómo calcula Common Voice les hores?
+faq-where-src-from-2-q = ¿D'ónde vienen los testos que s'usen?
 
 ## ABOUT US
 
