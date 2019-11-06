@@ -211,6 +211,9 @@ join-newsletter = Xúnite opcionalmente a la nuesa llista de corréu pa recibir 
 whats-public = ¿Qué ye público?
 email-not-public = Nun vamos espublizar el to corréu.
 recordings-and-locale-public = Va espublizase'l númberu de grabaciones y les llingües nes que collaboresti.
+username-optin-public = Pues escoyer si'l nome d'usuariu va ser públicu o anónimu.
+demographic-deidentified = Los datos demográficos unviaos opcionalmente (años, sexu y acentu) vuélvense anónimos y enxamás van espublizase nel to perfil.
+username-email-not-demographic = El to nome d'usuariu y corréu nun van asociase colos datos espublizaos.
 
 ## Speak & Listen Shortcuts
 
@@ -270,8 +273,8 @@ profile-form-age =
 profile-form-gender =
     .label = Xéneru
 leaderboard-visibility =
-    .label = Visibilidá de la tabla de líderes
-hidden = Anúbrese
+    .label = Visibilidá na tabla de líderes
+hidden = Invisible
 visible = Visible
 native-language =
     .label = Llingua nativa
@@ -283,8 +286,8 @@ female = Femenín
 other = Otru
 why-profile-title = ¿Por qué un perfil?
 why-profile-text =
-    Apurriendo dellos datos tocante a ti, los datos d'audiu qu'unvies a Common Voice van ser más útiles pa los motores de
-    reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
+    Apurriendo dellos datos tocante a ti va ser perútil pa los motores de reconocencia de voz, darréu qu'usen esos datos
+    p'ameyorar la so precisión.
 dashboard = Panel
 avatar = Avatar
 goals = Metes
