@@ -9,7 +9,7 @@ import {
   ChallengeTeamToken,
   challengeTokens,
   challengeTeamTokens,
-} from '../../../../common/challenge';
+} from 'common/challenge';
 
 const db = getMySQLInstance();
 
