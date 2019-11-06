@@ -286,14 +286,14 @@ female = Femenín
 other = Otru
 why-profile-title = ¿Por qué un perfil?
 why-profile-text =
-    Apurriendo dellos datos tocante a ti va ser perútil pa los motores de reconocencia de voz, darréu qu'usen esos datos
+    Apurrir dellos datos tocante a ti va ser perútil pa los motores de reconocencia de voz, darréu qu'usen esos datos
     p'ameyorar la so precisión.
 dashboard = Panel
 avatar = Avatar
 goals = Metes
 settings = Axustes
 edit-profile = Editar perfil
-profile-create-success = ¡Creóse'l perfil con ésitu!
+profile-create-success = ¡El perfil creóse con ésitu!
 profile-close = Zarrar
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
