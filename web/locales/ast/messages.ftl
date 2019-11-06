@@ -99,6 +99,7 @@ sr = Serbiu
 sv-SE = Suecu
 ta = Tamil
 te = Telugu
+tg = Taxiku
 th = Tailandés
 tr = Turcu
 tt = Tatar
@@ -335,6 +336,10 @@ change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de se
 faq-title = Entrugues frecuentes
 faq-what-cv-q = ¿Qué ye Common Voice?
 faq-why-important-q = ¿Por qué ye importante?
+faq-why-important-a =
+    Davezu, la fala ye'l mou más natural que tenemos los humanos pa comunicanos ente nós y les teunoloxíes de voz tán brindando esa posibilidá a los preseos informáticos. Queremos permitir que los desendolcadores creen aplicaciones de reconocencia de voz ablucantes como traductores en tiempu real y asistentes virtuales, pero pel momentu la mayoría de datos de voz riquíos pa crear estes tribes d'aplicaciones son caros y privativos. Esperamos que'l conxuntu de datos de Common Voice forna a los desendolcadores lo que precisen pa que la teunoloxía de voz tea disponible na so llingua.
+    
+    Pa facer que la reconocencia de voz seya más universal, tamos recoyendo muestres de voz en munches llingües (tamién les minoritaries) colos sos acentos y variedaes qu'a vegaes los servicios comerciales inoren. L'espublizamientu d'un conxuntu de datos de voz va permitir a los desendolcadores, empresarios y comunidaes enteres que rellenen ellos solos esi güecu.
 faq-how-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-when-release2-q = ¿Cuándo vais llanzar los datos de Common Voice n'otres llingües?
 faq-why-mission-q = ¿Por qué Common Voice ye parte de la misión de Mozilla?
