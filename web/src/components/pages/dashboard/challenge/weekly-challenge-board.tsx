@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { LocaleLink } from '../../../locale-helpers';
 import { CircleProgress } from '../../../pages/dashboard/ui';
-import { WeeklyChallenge } from '../../../../../../common/challenge';
+import { WeeklyChallenge } from 'common/challenge';
 import { Avatar } from '../../../ui/ui';
 import URLS from '../../../../urls';
 import './weekly-challenge-board.css';
