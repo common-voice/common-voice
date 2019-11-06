@@ -2,7 +2,7 @@ import * as React from 'react';
 import WeeklyChallengeBoard from './weekly-challenge-board';
 import { WeeklyChallenge } from 'common/challenge';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
-import { challengeLogoUrls } from './constants';
+import { challengeLogoUrls, getWeekNum, pilotDates } from './constants';
 import './weekly-challenge.css';
 
 const WEEKS: Array<string> = [
