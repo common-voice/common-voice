@@ -347,6 +347,8 @@ faq-where-src-from-2-q = ¿D'ónde vienen los testos que s'usen?
 faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o artículos de Wikipedia n'otres llingues?
 faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
+faq-what-is-cv = ¿Qué ye Common Voice?
+faq-using-cv = Usu de Common Voice
 
 ## ABOUT US
 
@@ -438,6 +440,8 @@ data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose a partir de los audios de charres y les sos trescripciones disponibles nel sitiu web TED.
 data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuitos y de códigu abiertu.
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
+go-discourse = Dir a Discourse
+go-languages-page = Dir a la páxina de llingües
 more = Más
 close = Zarrar
 dataset-version = Versión
@@ -530,7 +534,7 @@ listen-instruction = { $actionType }<playIcon></playIcon>, ¿pronunció correuta
 listen-again-instruction = ¡Bon trabayu!<playIcon></playIcon> Volvi sentir cuando teas preparáu
 listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>¡La última!
-nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a enllenar la cola.
+nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
 record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
 
@@ -577,6 +581,10 @@ overall-accuracy = Precisión xeneral
 ## Custom Goals
 
 weekly-goal = Meta selmanal
+want-to-continue = ¿Quies siguir?
+which-goal-type = ¿Quies Falar, Sentir o dambos?
+n-clips = { NUMBER($count) } clips
+goal-interval-weekly = Selmanalmente
 weekly-goal-created = Creóse'l to progresu selmanal
 daily-goal-created = Creóse'l to progresu diariu
 
