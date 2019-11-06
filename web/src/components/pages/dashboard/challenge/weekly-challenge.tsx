@@ -98,81 +98,101 @@ class WeeklyChallengeCard extends React.Component<Props, State> {
                   )
               )}
           </div>
-        </div>
-        <div className="weekly-content">
-          <div>
-            <p className="weekly-title">Current challenge</p>
-            {weekly && (
-              <WeeklyChallengeBoard
-                title={WEEKS[this.currentWeek]}
-                week={this.currentWeek}
-                isNarrow={isNarrow}
-                avatarUrl={user.account.avatar_url}
-                logoUrl={challengeLogoUrls['sap']}
-                weekly={weekly}
-              />
-            )}
-          </div>
-          {this.pastWeek.length !== WEEKS.length - 1 && (
+          <div className="weekly-content">
             <div>
-              <p className="weekly-title">Next challenge</p>
-              {weekly ? (
+              <p className="weekly-title">Current challenge</p>
+              {weekly && (
                 <WeeklyChallengeBoard
-                  isDisabled
-                  title={WEEKS[this.currentWeek + 1]}
-                  week={this.currentWeek + 1}
+                  title={WEEKS[this.currentWeek]}
+                  week={this.currentWeek}
                   isNarrow={isNarrow}
                   avatarUrl={user.account.avatar_url}
-                  logoUrl={challengeLogoUrls['sap']}
+                  logoUrl={challengeLogoUrls[user.account.enrollment.team]}
                   weekly={weekly}
                 />
-              )
-            : this.pastWeek.map(
-                (value, index) =>
-                  weekly && (
+              )}
+            </div>
+          </div>
+          <div className="weekly-content">
+            <div>
+              <p className="weekly-title">Current challenge</p>
+              {weekly && (
+                <WeeklyChallengeBoard
+                  title={WEEKS[this.currentWeek]}
+                  week={this.currentWeek}
+                  isNarrow={isNarrow}
+                  avatarUrl={user.account.avatar_url}
+                  logoUrl={challengeLogoUrls[user.account.enrollment.team]}
+                  weekly={weekly}
+                />
+              )}
+            </div>
+            {this.pastWeek.length !== WEEKS.length - 1 && (
+              <div>
+                <p className="weekly-title">Next challenge</p>
+                {weekly ? (
+                  <WeeklyChallengeBoard
+                    isDisabled
+                    title={WEEKS[this.currentWeek + 1]}
+                    week={this.currentWeek + 1}
+                    isNarrow={isNarrow}
+                    avatarUrl={user.account.avatar_url}
+                    logoUrl={challengeLogoUrls[user.account.enrollment.team]}
+                    weekly={weekly}
+                  />
+                ) : (
+                  this.pastWeek.map(
+                    (value, index) =>
+                      weekly && (
+                        <WeeklyChallengeBoard
+                          isDisabled
+                          title={WEEKS[value]}
+                          week={value}
+                          key={index}
+                          isNarrow={isNarrow}
+                          avatarUrl={user.account.avatar_url}
+                          logoUrl={
+                            challengeLogoUrls[user.account.enrollment.team]
+                          }
+                          weekly={weekly}
+                        />
+                      )
+                  )
+                )}
+              </div>
+            )}
+            <div>
+              <p className="weekly-title">{this.label} challenge</p>
+              {this.label === 'Future'
+                ? weekly && (
                     <WeeklyChallengeBoard
                       isDisabled
-                      title={WEEKS[value]}
-                      week={value}
-                      key={index}
+                      title={WEEKS[this.currentWeek + 2]}
+                      week={this.currentWeek + 2}
                       isNarrow={isNarrow}
                       avatarUrl={user.account.avatar_url}
-                      logoUrl={challengeLogoUrls['sap']}
+                      logoUrl={challengeLogoUrls[user.account.enrollment.team]}
                       weekly={weekly}
                     />
                   )
-              )}
+                : this.pastWeek.map(
+                    (value, index) =>
+                      weekly && (
+                        <WeeklyChallengeBoard
+                          isDisabled
+                          title={WEEKS[value]}
+                          week={value}
+                          key={index}
+                          isNarrow={isNarrow}
+                          avatarUrl={user.account.avatar_url}
+                          logoUrl={
+                            challengeLogoUrls[user.account.enrollment.team]
+                          }
+                          weekly={weekly}
+                        />
+                      )
+                  )}
             </div>
-          )}
-          <div>
-            <p className="weekly-title">{this.label} challenge</p>
-            {this.label === 'Future'
-              ? weekly && (
-                  <WeeklyChallengeBoard
-                    isDisabled
-                    title={WEEKS[this.currentWeek + 2]}
-                    week={this.currentWeek + 2}
-                    isNarrow={isNarrow}
-                    avatarUrl={user.account.avatar_url}
-                    logoUrl={challengeLogoUrls['sap']} //account.challenge_team}
-                    weekly={weekly}
-                  />
-                )
-              : this.pastWeek.map(
-                  (value, index) =>
-                    weekly && (
-                      <WeeklyChallengeBoard
-                        isDisabled
-                        title={WEEKS[value]}
-                        week={value}
-                        key={index}
-                        isNarrow={isNarrow}
-                        avatarUrl={user.account.avatar_url}
-                        logoUrl={challengeLogoUrls['sap']} //account.challenge_team}
-                        weekly={weekly}
-                      />
-                    )
-                )}
           </div>
         </div>
       </div>

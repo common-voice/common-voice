@@ -9,8 +9,9 @@ import { useAccount, useAction } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import { CrossIcon, InfoIcon } from '../../../ui/icons';
 import { LabeledCheckbox } from '../../../ui/ui';
-import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
 import { Notifications } from '../../../../stores/notifications';
+import { trackChallenge } from '../../../../services/tracker';
+import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
 import './challenge.css';
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
@@ -85,6 +86,7 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
 
 export default function ChallengePage() {
   const [showOverlay, setShowOverlay] = useState(false);
+  // [TODO]: Hook this up to the DB so we only see it once.
   const [isNarrow, setIsNarrow] = useState(false);
   const addAchievement = useAction(Notifications.actions.addAchievement);
   const [showOnboardingModal, setOnboardingModal] = useState(
@@ -103,6 +105,8 @@ export default function ChallengePage() {
       window.removeEventListener('resize', checkSize);
     };
   }, []);
+  useEffect(() => trackChallenge('dashboard-view'), []);
+
   return (
     <div className="challenge challenge-container">
       {showOnboardingModal && (

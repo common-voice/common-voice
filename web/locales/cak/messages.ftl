@@ -8,6 +8,11 @@ email-input =
     .label = Taqoya'l
 submit-form-action = Titaq
 loading = Nisamajib'ëx...
+email-opt-in-info = Ninwajo' yenk'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
+email-opt-in-info-title = Tatunu' awi' pa ri rucholajem rutaqoya'l Common Voice
+email-opt-in-info-sub-with-challenge = Ke'ak'ulu' taq taqoya'l achi'el kinatab'al ri najowäx, taq rayb'äl, taq ruk'exoj ri nib'an chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
+email-opt-in-privacy = Toq naya' q'ij ye'ak'ül taq taqoya'l, niq'ax pan qawi' chi naya' q'ij chi re ri Mozilla nrokisaj ri awetamab'al achi'el nichol pa ri <privacyLink>Ichinan Runa'ojil <privacyLink> Mozilla.
+indicates-required = * Retal chi k'atzinel ri k'ojlib'äl
 not-available-abbreviation = M/O
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -16,7 +21,9 @@ not-available-abbreviation = M/O
 
 ## Languages
 
+ab = Abjasio
 ace = Achenes
+ady = Adigue
 af = aj Africa
 am = Amarico
 an = Aragones
@@ -24,6 +31,7 @@ ar = Arabe
 as = Assames
 ast = Asturiano
 az = Azeri
+ba = Bashkirs
 bg = Bulgaro
 bn = Bengali
 br = Breton
@@ -37,6 +45,7 @@ cy = Gales
 da = Danes
 de = Aleman
 dsb = Bajo Sorabo
+dv = Maldivo
 el = Griego
 en = Q'anchi'
 eo = Esperanto
@@ -44,29 +53,43 @@ es = Kaxlan tzij
 et = Estonio
 eu = Basko
 fa = aj Persia
+ff = Fula
 fi = Finlandes
 fo = Feroes
 fr = Frances
 fy-NL = Frison
 ga-IE = Irlandes
+gl = Gallego
+ha = Hausa
 he = Hebreo
+hi-IN = Hindi
+hr = Croata
 hsb = Alto Sorabo
 hu = Hungaro
 ia = Interlingua
 id = Indonesio
 is = Islandes
 it = Italiano
+izh = Izhoriano
 ja = Japones
 ka = Georgiano
 kab = Cabilio
 kk = Kazajo
 ko = Coreano
 kpv = Komi-Zyrian
+ku = Kurdo
 kw = Cornico
 ky = Kirguis
+lij = Ligur
+lt = Lituano
+lv = Letón
 mdf = Moksha
+mhr = Mari oriental
 mk = Macedonio
+ml = Malabar
 mn = aj Mongolia
+mrj = Mari occidental
+mt = Maltes
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepali
@@ -75,25 +98,35 @@ nn-NO = Noruego Nynorsk
 oc = aj Occitania
 or = Odia
 pl = Polaco
+pt = Portugues
 rm-sursilv = Romanche Sursilvan
+rm-vallader = Romansh Vallader
 ro = Rumano
 ru = Ruso
+rw = Kinyarwanda
 sah = Yakuto
 sc = Sardo
+si = Sinhala
 sk = Eslovaco
 sl = Esloveno
 sq = Albanes
 sr = Serbio
 sv-SE = Sueco
+sw = Swahili
+syr = Sirio
 ta = Tamil
 te = Telugu
+tg = Tajik
 th = Tailandes
 tr = Turco
 tt = Tartaro
+uby = Ubije
+udm = Udmurto
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
 vi = aj Byetnam
+vot = Votic
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwan)
@@ -168,12 +201,24 @@ x-years-short =
         [one] juna'
        *[other] { $count }j
     }
+help-make-dataset = Kojato' chutz'ukik jun rucholxe'el tzij yalan ütz chuqa' okel chi kiwäch konojel
+sign-up-account = Tatz'ib'aj ab'i' richin nak'ül jun rub'i' ataqoya'l
+email-subscription-title = tatz'ib'aj ab'i' richin ye'ak'ül taq k'exoj pa taqoya'l
+email-subscription-title-new = Tatz'ib'aj awi' pa ri ko'öl ruwuj rutzijol, natab'äl chuqa' taq ruk'exoj b'anon pa Common Voice
 
 ## Account Benefits
 
+benefits = Taq rutzil
+compare-progress = Tajunamaj ri ab'anon rik'in ri kib'anon ch'aqa' chik to'onela' chijun ri ruwach'ulew.
+view-goals = Tatz'eta' ri ab'anon rik'in ri arayb'al chuqa' richin ri rurayib'al nuk'samaj.
+join-newsletter = Yatikïr natün awi' pa ri rucholajem qataqoya'al richin ye'ak'ül taq k'exoj chuqa' ri k'ak'a' etamab'äl k'o pa nimasamaj.
 
 ## What's public
 
+whats-public = ¿Achike ri nib'an qichin qonojel?
+email-not-public = Man xtiqataluj ta ri ataqoya'l.
+recordings-and-locale-public = Ri rajlab'al yakoj chuqa' ri ch'ab'äl akuchi' xkato'on, ja ri' xtiqataluj rutzijol.
+username-optin-public = Yatikïr nacha' jun b'i'aj talun rutzijol o man netamäx ta ruwäch.
 
 ## Speak & Listen Shortcuts
 
