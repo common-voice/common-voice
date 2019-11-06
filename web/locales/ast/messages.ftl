@@ -200,10 +200,16 @@ email-subscription-title-new = Rexístrate pa recibir boletinos, recordatorios, 
 ## Account Benefits
 
 benefits = Beneficios
+rich-data = Fai que los tos datos seyan lo más informativos posible apurriendo dalgunos datos demográficos anónimos. Anonimizámoslos enantes d'espublizalos.
+improve-audio = La información de los perfiles ameyoren los datos usaos pa entrenar la precisión de la reconocencia de voz.
+keep-track = Sigui'l progresu y les estadístiques de les llingües nes que collabores.
+compare-progress = Compara'l to progresu col d'otros collaboradores del mundu.
+join-newsletter = Xúnite opcionalmente a la nuesa llista de corréu pa recibir anovamientos del proyeutu.
 
 ## What's public
 
 whats-public = ¿Qué ye público?
+email-not-public = Nun vamos espublizar el to corréu.
 recordings-and-locale-public = Va espublizase'l númberu de grabaciones y les llingües nes que collaboresti.
 
 ## Speak & Listen Shortcuts
