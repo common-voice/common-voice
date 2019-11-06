@@ -63,7 +63,7 @@ class ChallengeList extends React.Component<Props, State> {
     const { service, api, type } = this.props;
     switch (service) {
       case 'team-progress':
-        api.fetchTopMember(locale, type, cursor).then(member => {
+        api.fetchTopMembers(locale, type, cursor).then(member => {
           this.setState(
             ({ rows }) => {
               const allRows = [...rows, ...member];
@@ -79,7 +79,7 @@ class ChallengeList extends React.Component<Props, State> {
         });
         break;
       case 'top-teams':
-        api.fetchTopTeam(locale, cursor).then(data => {
+        api.fetchTopTeams(locale, cursor).then(data => {
           this.setState(
             ({ rows }) => {
               const allRows = [...rows, ...data];
@@ -95,7 +95,7 @@ class ChallengeList extends React.Component<Props, State> {
         });
         break;
       case 'top-contributors':
-        api.fetchTopContributor(locale, type, cursor).then(data => {
+        api.fetchTopContributors(locale, type, cursor).then(data => {
           this.setState(
             ({ rows }) => {
               const allRows = [...rows, ...data];

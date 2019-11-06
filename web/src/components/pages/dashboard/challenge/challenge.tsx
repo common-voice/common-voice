@@ -94,7 +94,7 @@ export default function ChallengePage() {
     };
     window.addEventListener('resize', checkSize);
     checkSize();
-    api.fetchWeeklyChallenge().then(setWeekly);
+    api.fetchWeeklyProgress().then(setWeekly);
     return () => {
       window.removeEventListener('resize', checkSize);
     };

@@ -1,11 +1,10 @@
 import { SHA256 } from 'crypto-js';
 import omit = require('lodash.omit');
-import { getLocaleId } from './db';
+import { getLocaleId, getParticipantSubquery } from './db';
 import { getConfig } from '../../config-helper';
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
 import Bucket from '../bucket';
-import { S3 } from 'aws-sdk';
 import { AWS } from '../aws';
 import Model from '../model';
 
@@ -14,40 +13,6 @@ const model = new Model();
 const bucket = new Bucket(model, s3);
 
 const db = getMySQLInstance();
-
-const team_only_condition = `
-(visible OR (visible = 0 AND user_clients.client_id = ?))
-AND enroll.team_id = (
-  SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?
-)`;
-const general_condition = `
-(
-  (visible = 0 AND user_clients.client_id = ?)
-  OR (visible = 1)
-  OR (visible = 2 AND teams.id = (
-      SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?
-  ))
-)`;
-
-const getParticipantSubquery = (team_only: boolean) => {
-  return `
-  SELECT user_clients.client_id, avatar_url, username,
-      challenges.start_date AS start_date,
-      TIMESTAMPADD(WEEK, 3, challenges.start_date) AS end_date,
-      COALESCE(SUM(achievements.points), 0) AS bonus
-  FROM user_clients
-  LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
-  LEFT JOIN challenges ON enroll.challenge_id = challenges.id
-  LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
-  LEFT JOIN earn ON user_clients.client_id = earn.client_id AND earn.team_id IS NULL
-      AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
-  LEFT JOIN achievements ON earn.achievement_id = achievements.id
-      AND challenges.id = achievements.challenge_id
-  WHERE ${team_only ? team_only_condition : general_condition}
-  AND challenges.url_token = ?
-  GROUP BY user_clients.client_id, avatar_url, username, start_date, end_date
-  `;
-};
 
 interface ChallengeLeaderboardArgument {
   client_id: string;
@@ -147,7 +112,7 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
 //        participant in sql are ALMOST identical;
 //        topContributor and topMember sqls are different only in the WHERE clause.
 // 5) some of the conditions are probably over-thinking.
-async function getTopSpeaker({
+async function getTopSpeakers({
   client_id,
   challenge,
   locale,
@@ -167,7 +132,7 @@ async function getTopSpeaker({
                 SUM(votes.is_valid) AS upvotes,
                 SUM(!votes.is_valid) AS downvotes
             FROM (
-              ${getParticipantSubquery(team_only)}
+              ${getParticipantSubquery(team_only ? 'team' : 'general')}
             ) participant
             LEFT JOIN clips ON participant.client_id = clips.client_id
                 AND clips.locale_id = (SELECT id FROM locales WHERE name = ?)
@@ -186,7 +151,7 @@ async function getTopSpeaker({
   return rows;
 }
 
-async function getTopListener({
+async function getTopListeners({
   client_id,
   challenge,
   locale,
@@ -206,7 +171,7 @@ async function getTopListener({
             COALESCE(SUM(votes.is_valid = other_votes.is_valid), 0) AS agree_count,
             COALESCE(SUM(votes.is_valid <> other_votes.is_valid), 0) AS disagree_count
             FROM (
-              ${getParticipantSubquery(team_only)}
+              ${getParticipantSubquery(team_only ? 'team' : 'general')}
             ) participant
             LEFT JOIN votes ON participant.client_id = votes.client_id
                 AND votes.created_at BETWEEN start_date AND end_date
@@ -227,7 +192,7 @@ async function getTopListener({
 
 // get current team rankings
 // [TODO](can) get team rankings of all 3 weeks
-async function getTopTeam(challenge: string): Promise<any[]> {
+async function getTopTeams(challenge: string): Promise<any[]> {
   const [rows] = await db.query(
     `
     SELECT id, name, logo,
@@ -278,7 +243,7 @@ export const getFullVoteLeaderboard = lazyCache(
   CACHE_TIME_MS
 );
 
-export const getTopSpeakerLeaderboard = lazyCache(
+export const getTopSpeakersLeaderboard = lazyCache(
   'top-speaker-leaderboard',
   async ({
     client_id,
@@ -286,7 +251,7 @@ export const getTopSpeakerLeaderboard = lazyCache(
     locale,
     team_only,
   }: ChallengeLeaderboardArgument) => {
-    return (await getTopSpeaker({
+    return (await getTopSpeakers({
       client_id,
       challenge,
       locale,
@@ -299,7 +264,7 @@ export const getTopSpeakerLeaderboard = lazyCache(
   CACHE_TIME_MS
 );
 
-export const getTopListenerLeaderboard = lazyCache(
+export const getTopListenersLeaderboard = lazyCache(
   'top-listener-leaderboard',
   async ({
     client_id,
@@ -307,7 +272,7 @@ export const getTopListenerLeaderboard = lazyCache(
     locale,
     team_only,
   }: ChallengeLeaderboardArgument) => {
-    return (await getTopListener({
+    return (await getTopListeners({
       client_id,
       challenge,
       locale,
@@ -320,10 +285,10 @@ export const getTopListenerLeaderboard = lazyCache(
   CACHE_TIME_MS
 );
 
-export const getTopTeamLeaderboard = lazyCache(
+export const getTopTeamsLeaderboard = lazyCache(
   'top-teams-leaderboard',
   async (challenge: string) => {
-    return (await getTopTeam(challenge)).map((row, i) => ({
+    return (await getTopTeams(challenge)).map((row, i) => ({
       position: i,
       ...row,
     }));
@@ -368,8 +333,8 @@ export default async function getLeaderboard({
     switch (scope) {
       case 'contributors':
         leaderboard = await (type == 'clip'
-          ? getTopSpeakerLeaderboard
-          : getTopListenerLeaderboard)({
+          ? getTopSpeakersLeaderboard
+          : getTopListenersLeaderboard)({
           client_id,
           challenge,
           locale,
@@ -378,8 +343,8 @@ export default async function getLeaderboard({
         break;
       case 'members':
         leaderboard = await (type == 'clip'
-          ? getTopSpeakerLeaderboard
-          : getTopListenerLeaderboard)({
+          ? getTopSpeakersLeaderboard
+          : getTopListenersLeaderboard)({
           client_id,
           challenge,
           locale,
@@ -387,7 +352,7 @@ export default async function getLeaderboard({
         });
         break;
       case 'teams':
-        leaderboard = await getTopTeamLeaderboard(challenge);
+        leaderboard = await getTopTeamsLeaderboard(challenge);
         break;
     }
   }

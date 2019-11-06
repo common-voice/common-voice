@@ -31,26 +31,23 @@ export default class Challenge {
     { client_id, params: { challenge } }: Request,
     response: Response
   ) => {
-    response.json(await this.model.db.getUserPoints(client_id, challenge));
+    response.json(await this.model.getPoints(client_id, challenge));
   };
 
   getWeeklyProgress = async (
     { client_id, params: { challenge } }: Request,
     response: Response
   ) => {
-    const progress = await this.model.db.getWeeklyProgress(
-      client_id,
-      challenge
-    );
+    const progress = await this.model.getWeeklyProgress(client_id, challenge);
     const weeklyProgress = {
-      week: progress.week || null,
+      week: progress.week,
       user: {
-        speak: progress.clip_count || null,
-        speak_total: progress.week == 2 ? 100 : 200,
-        listen: progress.vote_count || null,
-        listen_total: progress.week == 2 ? 50 : 100,
+        speak: progress.clip_count,
+        speak_total: progress.week === 2 ? 100 : 200,
+        listen: progress.vote_count,
+        listen_total: progress.week === 2 ? 50 : 100,
       },
-      team: { invite: progress.colleague_count || null, invite_total: 50 },
+      team: { invite: progress.teammate_count, invite_total: 50 },
     };
     response.json(weeklyProgress);
   };
@@ -59,14 +56,12 @@ export default class Challenge {
     { client_id, params: { challenge, locale, type }, query }: Request,
     response: Response
   ) => {
-    const atype = type == 'vote' ? 'vote' : 'clip';
-    const cursor = query.cursor ? JSON.parse(query.cursor) : null;
     response.json(
       await getLeaderboard({
         dashboard: 'challenge',
-        type: atype,
+        type: type === 'vote' ? 'vote' : 'clip',
         client_id,
-        cursor,
+        cursor: query.cursor ? JSON.parse(query.cursor) : null,
         locale,
         arg: { scope: 'members', challenge },
       })
@@ -77,12 +72,11 @@ export default class Challenge {
     { client_id, params: { challenge, locale }, query }: Request,
     response: Response
   ) => {
-    const cursor = query.cursor ? JSON.parse(query.cursor) : null;
     response.json(
       await getLeaderboard({
         dashboard: 'challenge',
         client_id,
-        cursor,
+        cursor: query.cursor ? JSON.parse(query.cursor) : null,
         locale,
         arg: { scope: 'teams', challenge },
       })
@@ -93,14 +87,12 @@ export default class Challenge {
     { client_id, params: { challenge, locale, type }, query }: Request,
     response: Response
   ) => {
-    const atype = type == 'vote' ? 'vote' : 'clip';
-    const cursor = query.cursor ? JSON.parse(query.cursor) : null;
     response.json(
       await getLeaderboard({
         dashboard: 'challenge',
-        type: atype,
+        type: type === 'vote' ? 'vote' : 'clip',
         client_id,
-        cursor,
+        cursor: query.cursor ? JSON.parse(query.cursor) : null,
         locale,
         arg: { scope: 'contributors', challenge },
       })

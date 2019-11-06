@@ -9,6 +9,41 @@ import VoteTable from './db/tables/vote-table';
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500;
 
+const teammate_subquery =
+  '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
+const self_subcondition = '(visible = 0 AND user_clients.client_id = ?)';
+const participantConditions = {
+  self: `user_clients.client_id = ?`,
+  team: `(visible OR ${self_subcondition}) AND enroll.team_id = ${teammate_subquery}`,
+  general: `(
+                ${self_subcondition}
+                OR (visible = 1)
+                OR (visible = 2 AND teams.id = ${teammate_subquery})
+              )`,
+};
+
+export const getParticipantSubquery = (
+  condition: 'self' | 'team' | 'general'
+) => {
+  return `
+  SELECT user_clients.client_id, avatar_url, username,
+      challenges.start_date AS start_date,
+      TIMESTAMPADD(WEEK, 3, challenges.start_date) AS end_date,
+      COALESCE(SUM(achievements.points), 0) AS bonus
+  FROM user_clients
+  LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
+  LEFT JOIN challenges ON enroll.challenge_id = challenges.id
+  LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
+  LEFT JOIN earn ON user_clients.client_id = earn.client_id AND earn.team_id IS NULL
+      AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
+  LEFT JOIN achievements ON earn.achievement_id = achievements.id
+      AND challenges.id = achievements.challenge_id
+  WHERE ${participantConditions[condition]}
+  AND challenges.url_token = ?
+  GROUP BY user_clients.client_id, avatar_url, username, start_date, end_date
+  `;
+};
+
 let localeIds: { [name: string]: number };
 export async function getLocaleId(locale: string): Promise<number> {
   if (!localeIds) {
@@ -587,35 +622,22 @@ export default class DB {
     }
   }
 
-  async getUserPoints(client_id: string, challenge: string) {
+  async getPoints(client_id: string, challenge: string) {
     const [[row]] = await this.mysql.query(
       `
-      SELECT (bonus_points + clip_point + vote_point) AS user
+      SELECT (bonus + clip_points + vote_points) AS user
       FROM (
-          SELECT bonus_points, clip_point, COUNT(votes.id) AS vote_point
+          SELECT bonus, clip_points, COUNT(votes.id) AS vote_points
           FROM (
-              SELECT challenger.client_id, start_date, end_date, bonus_points, COUNT(clips.id) AS clip_point
+              SELECT challenger.client_id, start_date, end_date, bonus, COUNT(clips.id) AS clip_points
               FROM (
-                  SELECT user_clients.client_id,
-                      challenges.start_date AS start_date,
-                      TIMESTAMPADD(WEEK, 3, challenges.start_date) AS end_date,
-                      SUM(achievements.points) AS bonus_points
-                  FROM user_clients
-                  LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
-                  LEFT JOIN teams ON enroll.team_id = teams.id
-                  LEFT JOIN challenges ON teams.challenge_id = challenges.id AND enroll.challenge_id = challenges.id
-                  LEFT JOIN earn ON user_clients.client_id = earn.client_id
-                  LEFT JOIN achievements ON earn.achievement_id = achievements.id AND challenges.id = achievements.challenge_id
-                  WHERE user_clients.client_id = ?
-                  AND challenges.url_token = ?
-                  AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
-                  GROUP BY user_clients.client_id, start_date, end_date
+                ${getParticipantSubquery('self')}
               ) challenger
               LEFT JOIN clips ON challenger.client_id = clips.client_id AND clips.created_at BETWEEN start_date AND end_date
-              GROUP BY challenger.client_id, start_date, end_date, bonus_points
+              GROUP BY challenger.client_id, start_date, end_date, bonus
           ) speaker
           LEFT JOIN votes ON speaker.client_id = votes.client_id AND votes.created_at BETWEEN start_date AND end_date
-          GROUP BY speaker.client_id, speaker.bonus_points, speaker.clip_point
+          GROUP BY speaker.client_id, speaker.bonus, speaker.clip_points
       ) voter
       `,
       [client_id, challenge]
@@ -626,28 +648,28 @@ export default class DB {
   async getWeeklyProgress(client_id: string, challenge: string) {
     const [[row]] = await this.mysql.query(
       `
-      SELECT speaker.client_id, start_date, end_date, week, colleague_count, clip_count, COUNT(votes.id) AS vote_count
+      SELECT speaker.client_id, start_date, end_date, week, teammate_count, clip_count, COUNT(votes.id) AS vote_count
       FROM (
-          SELECT user.client_id, start_date, end_date, week, colleague_count, COUNT(clips.id) AS clip_count
+          SELECT user.client_id, start_date, end_date, week, teammate_count, COUNT(clips.id) AS clip_count
           FROM (
               SELECT user_clients.client_id,
                   TIMESTAMPDIFF(WEEK, start_date, NOW()) + 1 AS week,
                   TIMESTAMPADD(WEEK, TIMESTAMPDIFF(WEEK, start_date, NOW()), start_date) AS start_date,
                   TIMESTAMPADD(WEEK, TIMESTAMPDIFF(WEEK, start_date, NOW()) + 1, start_date) AS end_date,
-                  COUNT(colleagues.id) AS colleague_count
+                  COUNT(teammate.id) AS teammate_count
               FROM user_clients
               LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
               LEFT JOIN challenges ON enroll.challenge_id = challenges.id
               LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
-              LEFT JOIN enroll colleagues ON enroll.id <> colleagues.id AND teams.id = colleagues.team_id AND challenges.id = colleagues.challenge_id
+              LEFT JOIN enroll teammate ON enroll.id <> teammate.id AND teams.id = teammate.team_id AND challenges.id = teammate.challenge_id
               WHERE user_clients.client_id = ? AND challenges.url_token = ?
               GROUP BY user_clients.client_id, start_date, end_date, week
           ) user
           LEFT JOIN clips ON user.client_id = clips.client_id AND clips.created_at BETWEEN start_date AND end_date
-          GROUP BY user.client_id, start_date, end_date, week, colleague_count
+          GROUP BY user.client_id, start_date, end_date, week, teammate_count
       ) speaker
       LEFT JOIN votes ON speaker.client_id = votes.client_id AND votes.created_at BETWEEN start_date AND end_date
-      GROUP BY speaker.client_id, start_date, end_date, colleague_count, clip_count
+      GROUP BY speaker.client_id, start_date, end_date, teammate_count, clip_count
       `,
       [client_id, challenge]
     );

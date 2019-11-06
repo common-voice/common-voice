@@ -324,13 +324,13 @@ export default class API {
     );
   }
 
-  fetchWeeklyChallenge(): Promise<WeeklyChallenge> {
+  fetchWeeklyProgress(): Promise<WeeklyChallenge> {
     return this.fetch(
       `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/progress`
     );
   }
 
-  fetchTopTeam(
+  fetchTopTeams(
     locale?: string,
     cursor?: [number, number]
   ): Promise<TeamChallenge[]> {
@@ -341,7 +341,7 @@ export default class API {
     );
   }
 
-  fetchTopContributor(
+  fetchTopContributors(
     locale?: string,
     type?: 'vote' | 'clip',
     cursor?: [number, number]
@@ -355,7 +355,7 @@ export default class API {
     );
   }
 
-  fetchTopMember(
+  fetchTopMembers(
     locale?: string,
     type?: 'vote' | 'clip',
     cursor?: [number, number]
