@@ -358,6 +358,11 @@ about-dataset-new = Conxuntu de datos de Common Voice
 about-clip-graveyard = Cementeriu de clips
 about-partners = Socios
 about-get-involved = Andecha
+about-get-involved-text =
+    ¿Quies ayudar a facer que Common Voice seya meyor?
+    ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>,
+    unvia comentarios per <githubLink>GitHub</githubLink>,
+    o xúnite a nós en <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
