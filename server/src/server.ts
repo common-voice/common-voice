@@ -78,7 +78,7 @@ export default class Server {
 
     app.use(authRouter);
     app.use('/_plugin/kibana', authMiddleware, (request, response, next) => {
-      const target = getConfig().KIBANA_URL;
+      const { KIBANA_URL: target, ADMIN_EMAILS } = getConfig();
       if (!target) {
         response.status(500).json({ error: 'KIBANA_URL missing in config' });
         return;
@@ -88,6 +88,12 @@ export default class Server {
 
       if (!user || !client_id) {
         response.redirect('/login?redirect=' + baseUrl);
+        return;
+      }
+
+      // For now, you either get full access of Kibana or none at all.
+      if (!JSON.parse(ADMIN_EMAILS).includes(user.emails[0].value)) {
+        response.sendStatus(403);
         return;
       }
 
