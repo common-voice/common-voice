@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Unviar
 loading = Cargando...
 email-opt-in-info = Prestaríame recibir correos pa recordar los oxetivos, boletinos y anovamientos del mio progresu tocante a Common Voice.
+email-opt-in-info-title = Xunise a la llista de corréu de Common Voice
+email-opt-in-info-sub-with-challenge = Vas recibir correos con recordatorios, anovamientos de progresu, noticies y retos tocante a Common Voice
 indicates-required = * indica que ye un campu riquíu
 not-available-abbreviation = N/D
 
@@ -115,6 +117,7 @@ speak = Falar
 speak-now = Fala agora
 datasets = Conxuntos de datos
 languages = Llingües
+about = Tocante a
 profile = Perfil
 help = Ayuda
 contact = Contautu
@@ -122,20 +125,20 @@ privacy = Privacidá
 terms = Términos
 cookies = Cookies
 faq = FAQ
-content-license-text = Conteníu disponible so una <licenseLink>llicencia Creative Commons</licenseLink>
+content-license-text = El conteníu ta disponible so una <licenseLink>llicencia Creative Commons</licenseLink>
 share-title = ¡Ayúdanos a alcontrar a xente que nos empreste la so voz!
-share-text = Enséña-yos a les máquines cómo falen los humanos. Empresta la to voz en { $link }
+share-text = Depréndi-yos a les máquines cómo falen los humanos. Empresta la to voz en { $link }
 link-copied = Copióse l'enllaz
 back-top = Volver a arriba
 logout = Zarrar sesión
 
 ## Home Page
 
-home-title = El proyeutu Common Voice ye la iniciativa de Mozilla pa enseña-yos a les máquines cómo falen los humanos.
+home-title = El proyeutu Common Voice ye la iniciativa de Mozilla pa deprende-yos a les máquines cómo falen los humanos.
 home-cta = ¡Collabora equí!
 wall-of-text-start =
-    La voz ye natural, tamién humana. Poro, tamos ablucando cola creación d'una teunoloxía per
-    voz calidable pa les máquines de nueso. Pero pa crear sistemes per voz, ríquese una cantidá
+    La voz ye natural, tamién humana. Poro, tamos entusiasmaos por crear teunoloxíes de
+    voz calidables pa les nueses máquines. Pero pa crear estos sistemes ríquese una cantidá
     escomanada de datos de voz.
 wall-of-text-more-mobile =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
@@ -143,18 +146,17 @@ wall-of-text-more-mobile =
     a facer que la reconocencia de voz tea abierta al tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
-    pue usar pa facer aplicaciones innovadores pa preseos y web.<lineBreak></lineBreak>
-    Llei una fras pa enseña-yos a les máquines cómo falen los humanos. Comprueba'l trabayu d'otros
-    collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
+    pue usar pa facer aplicaciones informátiques innovadores. Llei una fras pa deprende-yos a les máquines cómo falen los humanos. Comprueba'l
+    trabayu d'otros collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
 wall-of-text-first =
-    La voz ye natural, tamién humana. Poro, queremos crear teunoloxíes per voz que puean usar les
-    nueses máquines. Pero pa facelo, los desendolcadores precisen una cantidá escomanada de datos
-    de voz.
+    La voz ye natural, tamién humana. Poro, tamos entusiasmaos por crear teunoloxíes de voz
+    calidables pa les nueses máquines. Pero pa crear estos sistemes, los desendolcadores riquen una
+    cantidá escomanada de datos de voz.
 wall-of-text-second =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
-    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar a
-    facer que la reconocencia de voz seya abierta y accesible pa tol mundu.
-show-wall-of-text = Llei más
+    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar
+    a facer que la reconocencia de voz tea abierta y seya accesible pa tol mundu.
+show-wall-of-text = Lleer más
 help-us-title = ¡Ayúdanos a validar les frases!
 help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende cola fras d'embaxo?
 no-clips-to-validate = Paez que nesta llingua nun hai dengún clip pa sentir. Ayúdanos a enllenar la cola grabando dalgunos agora.
