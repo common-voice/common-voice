@@ -384,8 +384,8 @@ data-download-yes = Sí
 data-download-deny = Non
 data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
-data-subtitle = Tamos construyendo un conxuntu de datos de voz públicu y disponible que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
-data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y disponibles públicamente dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a que tol mundu participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
+data-subtitle = Tamos construyendo un conxuntu de datos públicu que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
+data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y públicos dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a que tol mundu participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
 data-get-started = <speechBlogLink>Entamar cola reconocencia de voz</speechBlogLink>
 data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
@@ -394,15 +394,15 @@ data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
-review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>noticia de privacidá</privacyLink>
+review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>avisu de privacidá</privacyLink>
 terms-agree = Aceuto
-terms-disagree = Nun aceuto
+terms-disagree = Refugo
 review-aborted = Albortóse la xuba. ¿Quies desaniciar toles tos grabaciones?
 review-submit-title = Revisión y unviu
 review-submit-msg = ¡Gracies pola grabación!<lineBreak></lineBreak>Agora revisa y unvia los tos clips d'embaxo.
 review-recording = Revisar
 review-rerecord = Grabar de nueves
-review-cancel = Encaboxar xuba
+review-cancel = Encaboxar la xuba
 review-keep-recordings = Caltener grabaciones
 review-delete-recordings = Desaniciar les mios grabaciones
 
@@ -425,7 +425,7 @@ want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión
 feedback-q = ¿Tienes comentarios?
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
-data-other-ted-description = El corpus de TED-LIUM fízose de magar audios de charres y les sos trescripciones disponibles nel sitiu web TED.
+data-other-ted-description = El corpus de TED-LIUM fízose a partir de los audios de charres y les sos trescripciones disponibles nel sitiu web TED.
 data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuitos y de códigu abiertu.
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
 more = Más
@@ -434,8 +434,8 @@ dataset-version = Versión
 
 ## Download Modal
 
-download-title = Anicióse la descarga.
-download-helpus = Ayúdanos a construyir una comunidá alredor de la teunoloxía per voz, sigui en contautu per corréu.
+download-title = Anició la descarga.
+download-helpus = Ayúdanos a construyir una comunidá alredor de la teunoloxía de voz, sigui en contautu per corréu.
 download-form-email =
     .label = Introduz el to corréu
     .value = Gracies, vamos tar en contautu.
@@ -453,7 +453,7 @@ contact-required = *ríquese
 
 ## Request Language Modal
 
-request-language-title = Solicitú de llingua
+request-language-title = Solicitú pa una llingua
 request-language-form-language =
     .label = Llingua
 request-language-success-title = Unvióse con ésitu la solicitú de la llingua, gracies.
