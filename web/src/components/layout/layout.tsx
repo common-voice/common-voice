@@ -34,6 +34,12 @@ import Nav from './nav';
 import UserMenu from './user-menu';
 import * as cx from 'classnames';
 import WelcomeModal from '../welcome-modal/welcome-modal';
+import {
+  ChallengeTeamToken,
+  challengeTeamTokens,
+  ChallengeToken,
+  challengeTokens,
+} from 'common/challenge';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
@@ -55,6 +61,8 @@ interface LayoutProps
     RouteComponentProps<any> {}
 
 interface LayoutState {
+  challengeTeamToken: ChallengeTeamToken;
+  challengeToken: ChallengeToken;
   isMenuVisible: boolean;
   hasScrolled: boolean;
   hasScrolledDown: boolean;
@@ -68,12 +76,21 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private installApp: HTMLElement;
 
   state: LayoutState = {
+    challengeTeamToken: isProduction()
+      ? null
+      : challengeTeamTokens.find(challengeTeamToken =>
+          this.props.location.search.includes(`team=${challengeTeamToken}`)
+        ),
+    challengeToken: isProduction()
+      ? null
+      : challengeTokens.find(challengeToken =>
+          this.props.location.search.includes(`challenge=${challengeToken}`)
+        ),
     isMenuVisible: false,
     hasScrolled: false,
     hasScrolledDown: false,
     showStagingBanner: isStaging(),
-    showWelcomeModal:
-      !isProduction() && this.props.location.search.includes('challenge=pilot'),
+    showWelcomeModal: true,
   };
 
   componentDidMount() {
@@ -153,6 +170,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   render() {
     const { locale, location, user } = this.props;
     const {
+      challengeTeamToken,
+      challengeToken,
       hasScrolled,
       hasScrolledDown,
       isMenuVisible,
@@ -168,15 +187,13 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     return (
       <div id="main" className={className}>
-        {showWelcomeModal && (
+        {showWelcomeModal && challengeTeamToken && challengeToken && (
           <WelcomeModal
             onRequestClose={() => {
               this.setState({ showWelcomeModal: false });
             }}
-            onClick={() => {
-              window.location.pathname = '/login';
-            }}
-            team="SAP"
+            challengeToken={challengeToken}
+            teamToken={challengeTeamToken}
           />
         )}
         {isIOS() && !isNativeIOS() && !isSafari() && (
