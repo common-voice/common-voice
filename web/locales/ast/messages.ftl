@@ -307,7 +307,7 @@ build-profile = Creación del perfil
 avatar = Avatar
 goals = Metes
 settings = Axustes
-edit-profile = Editar perfil
+edit-profile = Editar el perfil
 profile-create-success = ¡El perfil creóse con ésitu!
 profile-close = Zarrar
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
@@ -606,6 +606,7 @@ report = Informar
 report-title = Unviu d'un informe
 report-ask = ¿Qué problemes tas sufriendo con esta fras?
 report-offensive-language = Llinguaxe ofensivu
+report-offensive-language-detail = La fras tien un llinguax ofensivu o irrespetuosu
 report-grammar-or-spelling = Fallu gramatical / ortográficu
 report-grammar-or-spelling-detail = La fras tien un fallu gramatical u ortográficu.
 report-different-language = Llingua diferente
@@ -613,7 +614,7 @@ report-different-language-detail = La fras ta escrita nuna llingua distinta a la
 report-difficult-pronounce = Difícil de pronunciar
 report-difficult-pronounce-detail = La fras contién pallabres o frases que son difíciles de lleer o pronunciar.
 report-offensive-speech = Conteníu ofensivu
-report-offensive-speech-detail = El clip tien un conteníu ofensivu
+report-offensive-speech-detail = El clip tien un conteníu qu'ofiende.
 report-other-comment =
     .placeholder = Comentariu
 success = Mui bien
@@ -662,22 +663,34 @@ overall-accuracy = Precisión xeneral
 
 get-started-goals = Entamar coles metes
 create-custom-goal = Crear una meta global
+both-speak-and-listen = Dambos
+both-speak-and-listen-long = Dambos (Falar y Sentir)
 daily-goal = Meta diaria
 weekly-goal = Meta selmanal
+easy-difficulty = Fácil
+average-difficulty = Normal
+difficult-difficulty = Difícil
+pro-difficulty = Profesional
 want-to-continue = ¿Quies siguir?
 build-custom-goal = Creación d'una meta personalizada
 help-reach-hours-general = Ayuda con una meta personal a que Common Voice algame { NUMBER($hours) } hores nuna llingua
 set-a-goal = Afitar una meta
+cant-decide = ¿Nun te decides?
 activity-needed-calculation =
     Puen algamase les { NUMBER($totalHours) } hores en { NUMBER($periodMonths) }
     si { NUMBER($people) } persones graben { NUMBER($clipsPerDay) } clips per día.
+how-many-per-day = ¡Mui bien! ¿Cuántos clips per día?
+how-many-a-week = ¡Mui bien! ¿Cuántos clips per selmana?
 which-goal-type = ¿Quies Falar, Sentir o dambos?
 n-clips = { NUMBER($count) } clips
+confirm-goal = Confirmar la meta
 goal-interval-weekly = Selmanalmente
 # LINK will be replaced with the current URL
 goal-share-text = Toi acabante de crear una meta personal pa donar la mio voz en #CommonVoice. Xúnite a min y ayúdame a deprende-yos a les máquines cómo falamos los humanos { $link }
 weekly-goal-created = Creóse'l to progresu selmanal
 daily-goal-created = Creóse'l to progresu diariu
+track-progress = Sigui esi progresu nesta páxina o na d'estadístiques.
+return-to-edit-goal = Volvi equí pa editar la meta cuando quieras.
 
 ## Profile Delete
 
