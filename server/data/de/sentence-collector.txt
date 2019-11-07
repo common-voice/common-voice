@@ -361,11 +361,13 @@ Alle Gäste beglückwünschen das frisch vermählte Paar.
 Alle Jahre wieder kommen mir neue Rezeptideen.
 Alle Kinder haben einen Hund, außer Rolf, der hat einen Wolf.
 Alle Kinder sind kitzelig.
+Alle Kinder, eheliche wie außereheliche, genießen den gleichen sozialen Schutz.
 Alle Kontrollen werden manuell durchgeführt.
 Alle Leiterbahnen müssen ungefähr gleich lang sein, damit die Signale gleichzeitig ankommen.
 Alle Leute aus der Gosse sind dem Aufruf gefolgt.
 Alle Lichter ausschalten
 Alle Lichter einschalten
+Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen.
 Alle Mitglieder der Rentnergang tragen so ein Stirnband.
 Alle Mitglieder der Untergrundverbindung werden auf diese Weise gebrandmarkt.
 Alle Möglichkeiten werden ergebnisoffen diskutiert und gegeneinander abgewägt.
@@ -3767,6 +3769,7 @@ Der Geschäftsführer muss nie persönlich für seine Fehler einstehen.
 Der Geselle sucht den Meister.
 Der Gleichgewichtssinn sitzt im Innenohr.
 Der Gockel muss notgeschlachtet werden, denn ich habe Hunger.
+Der Grundschulunterricht ist obligatorisch.
 Der Gründer des Startups kann den Hals nicht voll kriegen.
 Der Haarausfall ist wohl hormonell bedingt.
 Der Hafen ist die perfekte Kulisse für meinen neuen Film.
@@ -4381,6 +4384,7 @@ Die Bettdecke ist zu warm.
 Die Bettdecke ist zu warm. Die kann man auf einer Skihütte nutzen.
 Die Bevölkerungspyramide ist schon lange keine Pyramide mehr.
 Die Bilanz fällt durchwachsen aus.
+Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung.
 Die Bio-Studenten beschäftigen sich mit dem Anbau von Pflanzen im Kleiderschrank.
 Die Bleiweste soll gegen die Röntgenstrahlung schützen.
 Die Blätter der Bäume rauschten und raschelten laut.
@@ -6032,6 +6036,7 @@ Eine Division durch null muss abgefangen werden.
 Eine Dose Sauerkraut gibt es gratis dazu.
 Eine Dotierung mit Gallium wäre beispielsweise möglich.
 Eine Druckbetankung war von Anfang an vorgesehen.
+Eine Ehe darf nur bei freier und uneingeschränkter Willenseinigung der künftigen Ehegatten geschlossen werden.
 Eine Einzelfallprüfung wird gefordert.
 Eine Entschädigung für die Hinterbliebenen ist damit wohl vom Tisch.
 Eine Fangschaltung ist eingerichtet.
@@ -10104,6 +10109,14 @@ Jeder Vers wird vom Vorsänger vorgesungen und danach wiederholt der Chor.
 Jeder Vorfall muss protokolliert werden.
 Jeder bekommt eine Glocke um den Hals.
 Jeder fasst sich täglich dutzende Male mit der Hand ins Gesicht.
+Jeder hat Anspruch auf rechtlichen Schutz gegen solche Eingriffe oder Beeinträchtigungen.
+Jeder hat das Recht auf Bildung.
+Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.
+Jeder hat das Recht auf eine Staatsangehörigkeit.
+Jeder hat das Recht auf gleichen Zugang zu öffentlichen Ämtern in seinem Lande.
+Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben.
+Jeder hat das Recht, zum Schutz seiner Interessen Gewerkschaften zu bilden und solchen beizutreten.
+Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden.
 Jeder im Dorf weiß von seiner Charakterschwäche.
 Jeder im Land wird meine Statue bestaunen und ehrfürchtig vor ihr niederknien.
 Jeder in diesem Land wird meine Stimme kennen!
@@ -10132,6 +10145,7 @@ Jeder wählt sich seine eigene Regierung.
 Jeder, der Zeitung liest, weiß das.
 Jeder, der den Eintritt bezahlt hat, bekommt an der Kasse einen Schwarzlichtstempel aufgedrückt.
 Jeder, der jetzt lacht, ist ein Nerd.
+Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit.
 Jederzeit gerne wieder!
 Jedes Böhnchen ein Tönchen.
 Jedes Frühjahr kommen hunderte Erntehelfer aus Osteuropa zum Spargelstechen.
@@ -12144,6 +12158,7 @@ Müsst ihr euch immer zanken?
 Müsst ihr immer so mit den Türen knallen?
 Müsst ihr jetzt wirklich den ganzen Abend darauf herumreiten?
 Müssten die Amis nicht eigentlich im Westen sein?
+Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung.
 Na Herr Direktor, haben wir es mal wieder ein bisschen zu eilig?
 Na also, das ist eine klare Ansage.
 Na also, geht doch!
@@ -12579,6 +12594,10 @@ Niemand aber war je am Mittelpunkt der Erde.
 Niemand beginnt mit dem Essen, bevor das Tischgebet gesprochen wurde!
 Niemand bei klarem Verstand käme auf so eine Idee.
 Niemand darf davon erfahren.
+Niemand darf der Folter oder grausamer, unmenschlicher oder erniedrigender Behandlung oder Strafe unterworfen werden.
+Niemand darf gezwungen werden, einer Vereinigung anzugehören.
+Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden.
+Niemand darf willkürlich seines Eigentums beraubt werden.
 Niemand erlernt eine Sprache in nur einer Woche.
 Niemand erwartet Perfektion.
 Niemand fängt mit Mitte zwanzig noch das Rauchen an.
@@ -14009,6 +14028,7 @@ Sie glauben, er könnte ein Doppelagent sein?
 Sie gluckert so schön, wenn man sie benutzt.
 Sie haben Post.
 Sie haben alles mitgehört.
+Sie haben bei der Eheschließung, während der Ehe und bei deren Auflösung gleiche Rechte.
 Sie haben das Richtmikrofon ausgiebig getestet.
 Sie haben doch einen Alien besiegt.
 Sie haben ein Auge verloren, aber Sie haben ja noch ein zweites!
