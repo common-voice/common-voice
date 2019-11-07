@@ -366,6 +366,7 @@ faq-using-cv = Usu de Common Voice
 ## ABOUT US
 
 about-title = ¿Por qué Common Voice?
+about-subtitle = Common Voice ye parte de la iniciativa de Mozilla p'ayudar a deprende-yos a máquines cómo falamos los humanos. Arriendes d'eso, tamién tamos creando Deep Speech que ye un motor de reconocencia de voz de códigu abiertu.
 how-does-it-work-title = ¿Cómo funciona?
 about-speak = Fala
 about-speak-text = Los collaboradores graben clips de voz lleendo les frases d'un bancu de testos donaos.
@@ -380,9 +381,9 @@ about-yes-votes-text = Pa que s'incluyan nel conxuntu de datos de Common Voice, 
 about-no-votes = ≥ 2 votos «Non»
 about-no-votes-text = Cuando un usuariu refuga un clip, esti cuelve a la cola. Si se refuga otra vegada, el clip de voz va pal Cementeriu de clips.
 about-dataset-new = Conxuntu de datos de Common Voice
-about-dataset-new-text = El conxuntu de datos de Common Voice contién milenta muestres de voz qu'ayuden a los desendolcadores a crear ferramientes de reconocencia de voz.
+about-dataset-new-text = Contién milenta muestres de voz qu'ayuden a los desendolcadores a crear ferramientes de reconocencia de voz.
 about-clip-graveyard = Cementeriu de clips
-about-clip-graveyard-text = El Cementeriu de clips fórmenlu los clips que nun s'incluyeron nel conxuntu de datos de Common Voice. Sicasí, ta disponible pa baxar.
+about-clip-graveyard-text = Fórmenlu los clips que nun s'incluyeron nel conxuntu de datos de Common Voice. Sicasí, ta disponible pa baxar.
 about-partners = Socios
 about-get-involved = Andecha
 about-get-involved-text =
