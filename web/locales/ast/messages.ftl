@@ -364,6 +364,8 @@ faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
 faq-what-is-cv = ¿Qué ye Common Voice?
 faq-using-cv = Usu de Common Voice
+faq-search-for-answers =
+    .label = Guetar rempuestes
 
 ## ABOUT US
 
@@ -407,6 +409,8 @@ glossary = Glosariu
 localization = Traducción
 localization-explanation = Equí adautamos el nuesu conteníu a otres locales (llingües) más.
 sentence-collection = Recoyida de frases
+sentence-collection-explanation = Recuéyense frases de, o escribiendo otres nueves pa dominiu públicu.
+hours-validated-explanation = La cantidá d'hores de grabación que validaron 2 de 3 usuarios con un votu «Sí». Esto marca'l camín hasta la meta xeneral de 10000 mil hores.
 sst = Fala a testu (STT)
 sst-explanation = Les teunoloxíes de fala a testu (STT) convierten los datos de voz a testu.
 de-identified = Anonimación
