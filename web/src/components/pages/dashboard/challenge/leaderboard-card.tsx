@@ -108,7 +108,7 @@ export default function LeaderboardCard({
         recorded: () => (
           <ChallengeList
             key="recorded-list"
-            type="recorded"
+            type="clip"
             service={service}
             ref={leaderboardRef}
           />
@@ -116,7 +116,7 @@ export default function LeaderboardCard({
         validated: () => (
           <ChallengeList
             key="validated-list"
-            type="validated"
+            type="vote"
             service={service}
             ref={leaderboardRef}
           />
