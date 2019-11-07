@@ -6,7 +6,9 @@ email-input =
     .label = Indiritzu de posta eletrònica
 submit-form-action = Imbia
 loading = Carrighende...
+email-opt-in-info-title = Aderi a sa lista de posta de Common Voice
 indicates-required = * indica unu campu rechèdidu
+not-available-abbreviation = No est a disponimentu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -67,7 +69,6 @@ nl = Olandesu
 nn-NO = Norvegesu Nynorsk
 oc = Otzitanu
 pl = Polacu
-pt-BR = Portoghesu (Brasile)
 ro = Rumenu
 ru = Russu
 sc = Sardu
@@ -98,6 +99,7 @@ speak = Chistiona
 speak-now = Chistiona immoe
 datasets = Pachetes de datos
 languages = Limbas
+about = Informatziones
 profile = Profilu
 help = Agiudu
 contact = Cuntatu
@@ -150,6 +152,26 @@ x-years-short =
         [one] { $count }a
        *[other] { $count }a
     }
+help-make-dataset = Agiuda·si a creare unu pachete de datos abertu e pùblicu de arta calidade
+sign-up-account = Crea unu contu
+email-subscription-title = registra·ti pro retzire atualizatziones tràmite posta eletrònica
+
+## Account Benefits
+
+benefits = Bantàgios
+improve-audio = S'informatzione de su profilu megiorat is datos de àudio impreados in s'allenamentu de sa pretzisione de su reconnoschimentu de boghe.
+compare-progress = Controlla su progressu tuo in cunfrontu cun su de is àteros collaboradores de su mundu.
+view-goals = Bide su progressu tuo cara a is obietivos personales e de su progetu.
+join-newsletter = Si boles, aderi a sa lista de posta eletrònica pro retzire atualizatziones e noas a subra de su progetu.
+
+## What's public
+
+whats-public = Cale informatzione est pùblica?
+email-not-public = No amus a fàghere pùblicu s'indiritzu tuo de posta eletrònica.
+recordings-and-locale-public = Su nùmeru de registradas e is limbas a is chi as contribuidu ant a èssere pùblicos.
+username-optin-public = Podes seberare si boles chi su nòmine de usuàriu tuo siat pùblicu o anònimu.
+demographic-deidentified = Is datos demogràficos frunidos in manera optzionale (che a s'edade, sessu, limba e atzentu) sunt fatas anònimas e no ant a èssere mai visìbiles in su profilu pùblicu tuo.
+username-email-not-demographic = Su nòmine usuàriu tuo e s'indiritzu de posta eletrònicu no ant a èssere assotziados a is datos publicados.
 
 ## Speak & Listen Shortcuts
 
@@ -175,6 +197,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Registra/Firma
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Torra a registrare
 request-language-text = No agatas sa limba tua in Common Voice?
 request-language-button = Pedi una limba
 
@@ -196,8 +220,10 @@ english = Inglesu
 
 profile-form-username =
     .label = Nòmine usuàriu
-profile-form-language =
-    .label = Limba
+profile-form-native-language =
+    .label = Limba mama
+profile-form-additional-language =
+    .label = Limba additzionale
 profile-form-accent =
     .label = Atzentu
 profile-form-age =
@@ -217,6 +243,7 @@ female = Fèmina
 # Gender
 other = Àteru
 why-profile-title = Pro ite depo fàghere unu profile?
+why-profile-text = Si frunis informatzione tua, is datos de àudio chi as a imbiare a Common Voice ant a èssere prus ùtiles pro is motores de reconnoschimentu de boghe chi impreant custos datos pro megiorare sa pretzisione.
 dashboard = Pannellu
 build-profile = Crea unu profilu
 avatar = Avatar
@@ -225,20 +252,36 @@ settings = Cunfiguratziones
 edit-profile = Modìfica su profilu
 profile-create-success = As creadu su profilu.
 profile-close = Serra
+profile-explanation = Sighi su progressu tuo cun unu profilu e agiuda·si a megiorare sa pretzisione e is datos de boghe.
+thanks-for-account = Gràtzias de sa cunfirmatzione de su contu. Immoe amus a creare su profilu tuo.
 why-demographic = Pro ite est importante?
+accept-privacy-title = Polìtica de riservadesa
 login-identity = Identidade de intrada
+login-signup = Intra/Registra·ti
 edit = Modìfica
 email-subscriptions = Sutiscritziones tràmite posta eletrònica
 download-profile = Iscàrriga is datos mios
 contribution-experience = Esperièntzia de cuntributu
+skip-submission-feedback = Brinca s'imbiu de cummentos
 off = Disativadu
 on = Ativu
-add-avatar-title = Agiunghe un'avatar a su profilu tuo
+avatar-clip-title = Dona una boghe a s'avatar tuo
+recording-in-progress = Registrada de boghe in cursu
+record-voice-wave = Registra sa boghe tua
+retry-voice-wave-recording = TORRA·BI A PROARE
+re-record = TORRA A REGISTRARE
+delete-voice = CANTZELLA
+recording-voice-wave = Registrende
+delete-voice-clip = or  Cantzella sa registrada
+ready-to-upload = CÀRRIGA
+recreate-voice = Torra a creare sa boghe tua
+cancel-avatar-clip-recording = ANNULLA
 browse-file-title = Càrriga un'immàgine
 connect-gravatar = Connete cun Gravatar
 gravatar_not_found = Perunu profilu Gravatar agatadu pro s'indiritzu de posta eletrònica tuo
 file_too_large = S'archìviu seletzionadu est tropu mannu
 manage-subscriptions = Gesti is sutiscritziones
+manage-email-subscriptions = Gesti is sutiscritziones de posta eletrònica
 email-already-used = Custu indiritzu de posta eletrònica est giai impreadu dae un'àteru contu
 add-language = Agiunghe una limba
 change-email-setings = Càmbia s'indiritzu de posta tuo tràmite is Cunfiguratziones, in Identidade de atzessu
@@ -246,16 +289,20 @@ change-email-setings = Càmbia s'indiritzu de posta tuo tràmite is Cunfiguratzi
 ## FAQ
 
 faq-title = Preguntas Fitianas
-faq-what-q = Ite est Common Voice?
-faq-important-q = Pro ite est importante?
-faq-get-q = Comente potzo otènnere is datos de Common Voice?
-faq-get-a = Su pachete de datos est a disponimentu dae sa nostra <downloadLink>pàgina de iscarrigamentu</downloadLink> cun lissèntzia <licenseLink>CC-O</licenseLink>.
-faq-mission-q = Pro ite Common Voice faghet parte de sa missione de Mozilla?
-faq-native-q = So unu faeddadore no nativu de { $lang } e ddu chistionu cun s'atzentu meu. Bolides sa boghe mia su pròpiu?
-faq-firefox-q = Sa sìntesi de boghe at a èssere mai parte de Firefox gràtzias a Common Voice?
-faq-quality-q = Cale est su livellu de calidade mìnimu de s'àudio?
-faq-source-q = Dae ue arribat su testu originale?
-faq-source-a2 = Podes bìdere is frases originales chi impreamus in <dataLink>custa cartella de Github</dataLink>.
+faq-what-cv-q = Ite est Common Voice
+faq-why-important-q = Pro ite est importante?
+faq-how-get-q = Comente potzo otènnere is datos de Common Voices?
+faq-how-get-a = Su pachete de datos de Common Voice podet èssere iscarrigadu a suta de sa lissèntzia <licenseLink>CC0</licenseLink> dae sa <datasetLink>pàgina Pachetes de datos</datasetLink> nostra. Dae cussa, podes fintzas iscarrigare meda àteros pachetes de datos chi sunt a disponimentu in manera pùblica.
+faq-when-release2-q = Cando as a publicare is datos de Common Voice in àteras limbas?
+faq-why-mission-q = Pro ite Common Voice est parte de sa missione de Mozilla?
+faq-what-cv-and-deepspeech-q = Cale est sa diferèntzia intre Common Voice e Deep Speech?
+faq-is-goal-assistant-q = S'obietivu de Common Voice est creare un'assistente de boghe?
+
+## ABOUT US
+
+
+## Glossary
+
 
 ## NotFound
 
@@ -274,10 +321,6 @@ data-get-started = <speechBlogLink>Cumintza a traballare cun su reconnoschimentu
 data-other-title = Àteros pachetes de boghes...
 data-other-goto = Bae a { $name }
 data-other-download = Iscàrriga datos
-data-other-ted-name = Corpus TED-LIUM
-data-other-ted-description = Su corpus TED-LIUM est istadu costrùidu dae tzarradas de àudio e is trascritziones a disponimentu in su situ web de TED.
-data-other-voxforge-description = VoxForge est istadu creadu pro colletzionare discursos trascritos de impreare cun motores de reconnoschimentu de boghe lìberos e de còdighe abertu.
-data-other-tatoeba-description = Tatoeba est una base de datos manna chi includet frases, tradutziones e àudio faeddadu ùtile pro s'aprendimentu de limbas. Custu iscarrigamentu includet inglesu faeddadu chi est istadu registradu dae sa comunidade.
 data-bundle-button = Iscàrriga pachete de datos
 data-bundle-description = Datos de Common Voice impares cun totu is pachetes de boghes de a suba.
 license = Lissèntzia: <licenseLink>{ $license }</licenseLink>
@@ -292,6 +335,13 @@ review-rerecord = Torra a registrare
 review-cancel = Annulla s'imbiu
 review-keep-recordings = Mantene is registratziones
 review-delete-recordings = Cantzella is registratziones mias
+
+## Datasets Page
+
+data-other-ted-name = Corpus TED-LIUM
+data-other-ted-description = Su corpus TED-LIUM est istadu costrùidu dae tzarradas de àudio e is trascritziones a disponimentu in su situ web de TED.
+data-other-voxforge-description = VoxForge est istadu creadu pro colletzionare discursos trascritos de impreare cun motores de reconnoschimentu de boghe lìberos e de còdighe abertu.
+data-other-tatoeba-description = Tatoeba est una base de datos manna chi includet frases, tradutziones e àudio faeddadu ùtile pro s'aprendimentu de limbas. Custu iscarrigamentu includet inglesu faeddadu chi est istadu registradu dae sa comunidade.
 
 ## Download Modal
 
@@ -326,7 +376,6 @@ language-section-in-progress = In progressu
 language-section-launched = In produtzione
 languages-show-more = Bide·nde de prus
 languages-show-less = Bide·nde prus pagu
-language-speakers = Faeddadores
 language-meter-in-progress = Progressu
 language-total-progress = Totale
 language-search-input =
@@ -336,7 +385,7 @@ localized = Localizadu
 sentences = Frases
 total-hours = Oras validadas
 
-## New Contribution
+## Contribution
 
 action-click = Clica
 action-tap = Toca
@@ -368,7 +417,6 @@ record-again-instruction = Bene meda!<recordIcon></recordIcon> Registra s'imbeni
 record-again-instruction2 = Sighi aici! Registra·nde un'àtera <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ùrtima!
 review-tooltip = Revisiona e torra a registrare inoghe
-unable-speak = Non podes chistionare, immoe?
 review-instruction = Revisiona e torra a registrare si ti serbit
 record-submit-tooltip = { $actionType } imbia cando ses prontu
 clips-uploaded = Registratziones carrigadas
@@ -384,6 +432,9 @@ listen-last-time-instruction = <playIcon></playIcon>Ùrtima!
 nothing-to-validate = No tenimus nudda pro validare in custa limba, agiuda·si a prenare sa lista de registratziones.
 record-button-label = Registra sa boghe tua
 share-title-new = <bold>Agiuda·si</bold> a agatare prus boghes
+
+## Reporting
+
 
 ## Goals
 
@@ -415,8 +466,14 @@ top-contributors = Collaboradores prus ativos
 total-approved = Totale de aprovados
 overall-accuracy = Pretzisione globale
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = Mantene
 remove = Cantzella
 profile-form-delete = Cantzella su profilu
+
+## Landing
+
