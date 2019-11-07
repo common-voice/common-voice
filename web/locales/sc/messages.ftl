@@ -297,6 +297,17 @@ faq-when-release2-q = Cando as a publicare is datos de Common Voice in àteras l
 faq-why-mission-q = Pro ite Common Voice est parte de sa missione de Mozilla?
 faq-what-cv-and-deepspeech-q = Cale est sa diferèntzia intre Common Voice e Deep Speech?
 faq-is-goal-assistant-q = S'obietivu de Common Voice est creare un'assistente de boghe?
+faq-is-goal-assistant-a = S'obietivu de su pachete de datos de Common Voice est cussu de permìtere a totu su mundu de isvilupare aplicatziones che impreent su reconnoschimentu de boghe, su reconnoschimentu de su faeddadore o cale si siat àtera genia de aplicatzione chi rechedat datos de boghe. Un'assistente de boghe est isceti una de is aplicatziones chi dias a pòdere creare cun su pachete de datos.
+faq-do-want-native-q = Deo no so unu faeddadore nativu e chistionu cun un'atzentu furisteri. Tenides bisòngiu de sa boghe mia?
+faq-do-want-native-a = Eja, bolemus mescamente sa boghe tua! Parte de s'obietivu de Common Voice est de riunire atzentos diferentes meda in manera chi is servìtzios de reconnoschimentu de boghe funtzionent bene pro totus. Custu bolet nàrrere chi is boghes de is faeddadores no nativos sunt de importu.
+faq-why-different-speakers-q = Pro ite si serbint faeddadores aici diferentes pro cada limba?
+faq-why-my-lang-q = Pro ite sa limba mia no est ancora incluida?
+faq-what-quality-q = Cale est su livellu de calidade chi depet tènnere una registrada de boghe pro ddu pòdere impreare in su pachete de datos?
+faq-why-10k-hours-q = Pro ite s'obietivu est cussu de riunire 10.000 oras verificadas de registradas de àudio pro cada limba?
+faq-why-10k-hours-a = Custu est, prus o mancu, su nùmeru de oras netzessàriu pro allenare unu sistema de reconnoschimentu de boghe in produtzione.
+faq-how-calc-hours-q = Comente càrculat is oras, Common Voice?
+faq-how-calc-hours-a = Carculamus is oras istimende sa durada mèdia de cada registrada, e a pustis multiplichende cussu nùmeru pro su totale de registradas pro totu is limbas.
+faq-where-src-from-2-q = Dae aunde benint is testos?
 
 ## ABOUT US
 
