@@ -374,6 +374,7 @@ faq-is-goal-assistant-a = La meta del conxuntu de datos de Common Voice ye la de
 faq-do-want-native-q = Nun soi un falante nativu y falo con acentu, ¿val la mio collaboración?
 faq-why-different-speakers-q = ¿Por qué precisáis tantos falantes per llingua?
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
+faq-what-quality-q = ¿Qué nivel de calidá d'audiu se rique pa qu'un clip s'use nel conxuntu de datos?
 faq-why-10k-hours-a = Esti ye'l númberu aproximáu d'hores riquíes pa entrenar un sistema en producción de fala a voz.
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice les hores?
 faq-how-calc-hours-a = Calculamos les hores estimando la duración media de cada grabación y multiplicando esi númberu pol total de grabaciones de toles llingües.
@@ -536,7 +537,9 @@ other-language = Otra llingua
 ## Languages Overview
 
 language-section-in-progress = En cursu
+language-section-in-progress-new-description = La comunidá de cauna de les llingües qu'hai equí ta <localizationGlossaryLink>traduciendo la páxina web</localizationGlossaryLink> y <sentenceCollectionGlossaryLink>recoyendo frases</sentenceCollectionGlossaryLink>. Les barres de progresu indiquen cómo van.
 language-section-launched = Llanzóse
+language-section-launched-description = Les llingües d'equí <localizationGlossaryLink>traduxeron</localizationGlossaryLink> la paxina web y tienen abondes <sentenceCollectionGlossaryLink>frases recoyíes</sentenceCollectionGlossaryLink> pa permitir les collaboraciones en <speakLink>Falar</speakLink> y <listenLink>Sentir</listenLink>.
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-meter-in-progress = Progresu
@@ -599,8 +602,23 @@ share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
 
 ## Reporting
 
+report = Informar
+report-title = Unviu d'un informe
+report-ask = ¿Qué problemes tas sufriendo con esta fras?
 report-offensive-language = Llinguaxe ofensivu
+report-grammar-or-spelling = Fallu gramatical / ortográficu
+report-grammar-or-spelling-detail = La fras tien un fallu gramatical u ortográficu.
 report-different-language = Llingua diferente
+report-different-language-detail = La fras ta escrita nuna llingua distinta a la que falo.
+report-difficult-pronounce = Difícil de pronunciar
+report-difficult-pronounce-detail = La fras contién pallabres o frases que son difíciles de lleer o pronunciar.
+report-offensive-speech = Conteníu ofensivu
+report-offensive-speech-detail = El clip tien un conteníu ofensivu
+report-other-comment =
+    .placeholder = Comentariu
+success = Mui bien
+continue = Siguir
+report-success = Unvióse l'informe
 
 ## Goals
 
@@ -656,6 +674,8 @@ activity-needed-calculation =
 which-goal-type = ¿Quies Falar, Sentir o dambos?
 n-clips = { NUMBER($count) } clips
 goal-interval-weekly = Selmanalmente
+# LINK will be replaced with the current URL
+goal-share-text = Toi acabante de crear una meta personal pa donar la mio voz en #CommonVoice. Xúnite a min y ayúdame a deprende-yos a les máquines cómo falamos los humanos { $link }
 weekly-goal-created = Creóse'l to progresu selmanal
 daily-goal-created = Creóse'l to progresu diariu
 
