@@ -320,7 +320,7 @@ login-identity = Identidá del aniciu de sesión
 login-signup = Aniciar sesión / rexistrase
 edit = Editar
 email-subscriptions = Soscripciones per corréu
-download-profile = Baxar los mios datos
+download-profile = Descarga de los datos de mio
 contribution-experience = Esperiencia de la collaboración
 skip-submission-feedback = Saltar l'unviu de los comentarios
 skip-submission-description = Nel unviu de les collaboraciones van saltase los comentarios dempués de calcar n'«Unviar». La collaboración va siguir direutamente col conxuntu siguiente de 5 grabaciones o validaciones.
@@ -329,9 +329,11 @@ off = NON
 on = SÍ
 avatar-clip-title = Da-y voz al to avatar
 change-your-avatar-clip = ¿Quies camudar el clip de voz?
+recording-in-progress = Grabación en cursu
 avatar-clip-recorded = ¡Agora'l to avatar inclúi un clip de voz!
 record-voice-wave = GRABAR LA VOZ
 retry-voice-wave-recording = RETENTAR
+re-record = REGRABAR
 delete-voice = DESANICIAR
 delete-voice-clip = o desanicia'l clip de voz
 ready-to-upload = XUBIR
@@ -366,6 +368,7 @@ faq-how-get-a = El conxuntu de datos de Common Voice ta disponible pa baxar so l
 faq-when-release2-q = ¿Cuándo vais llanzar los datos de Common Voice n'otres llingües?
 faq-why-mission-q = ¿Por qué Common Voice ye parte de la misión de Mozilla?
 faq-what-cv-and-deepspeech-q = ¿En qué s'estremen Common Voice y Deep Speech?
+faq-what-cv-and-deepspeech-a = Common Voice complementa'l motor de reconocencia de voz Deep Speech. La primer versión de Deep Speech llanzóse en payares de 2017 y siguió evolucionando dende entós. Xunto col conxuntu de datos de Common Voice, creyemos qu'esta teunoloxía de reconocecia de voz de codigu llibre debería tar disponible pa tol mundu. Esperamos qu'estes teunoloxíes permitan a los desendolcadores crear una fola de productos y servicios innovadores.
 faq-is-goal-assistant-q = ¿La meta de Common Voice ye la de crear un asistente de voz?
 faq-is-goal-assistant-a = La meta del conxuntu de datos de Common Voice ye la de permitir que tol mundu crea aplicaciones que reconozan voces y rican datos de voz. Un asistente de voz ye una de les munches aplicaciones que podríen usar el conxuntu de datos.
 faq-do-want-native-q = Nun soi un falante nativu y falo con acentu, ¿val la mio collaboración?
@@ -476,8 +479,12 @@ overall-hr-total = Hrs totales en xeneral
 cv-license = Llicencia
 audio-format = Formatu d'audiu
 number-of-voices = Númberu de voces
+email-to-download = Introducir un corréu pa baxar
+confirm-size = Toi preparáu p'aniciar la descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Comprométome</b> a que nun voi tentar d'identificar a los falantes del conxuntu de datos de Common Voice
+download-language = Baxar «{ $language }»
 validated-hours = Hores validaes
 recorded-hours = Hores grabaes
 whats-inside = ¿Qué hai dientro del conxuntu de datos de Common Voice?
@@ -576,7 +583,7 @@ record-last-instruction = <recordIcon></recordIcon> ¡La última!
 review-tooltip = Revisa y volvi grabar los clips a midida que sigues
 review-instruction = Revisa y volvi grabar los clips si lo precises
 record-submit-tooltip = { $actionType } unviar cuando termines
-clips-uploaded = Clips xubíos
+clips-uploaded = Xubiéronse los clips
 record-abort-title = ¿Finar primero la grabación?
 record-abort-text = Si coles agora, vas perder el progresu
 record-abort-submit = Unviar clips
@@ -620,6 +627,8 @@ your-languages = Les tos llingües
 toward-next-goal = Pa la meta siguiente
 clips-you-recorded = Clips que grabesti
 clips-you-validated = Clips que validesti
+todays-recorded-progress = El progresu de güei de los clips grabaos pa Common Voice
+todays-validated-progress = El progresu de güei de los clips validaos pa Common Voice
 stats = Estadístiques
 awards = Premios
 you = Tú
@@ -641,6 +650,9 @@ want-to-continue = ¿Quies siguir?
 build-custom-goal = Creación d'una meta personalizada
 help-reach-hours-general = Ayuda con una meta personal a que Common Voice algame { NUMBER($hours) } hores nuna llingua
 set-a-goal = Afitar una meta
+activity-needed-calculation =
+    Puen algamase les { NUMBER($totalHours) } hores en { NUMBER($periodMonths) }
+    si { NUMBER($people) } persones graben { NUMBER($clipsPerDay) } clips per día.
 which-goal-type = ¿Quies Falar, Sentir o dambos?
 n-clips = { NUMBER($count) } clips
 goal-interval-weekly = Selmanalmente
@@ -658,7 +670,7 @@ why-delete-recordings =
     Les grabaciones de Common Voice van usales académicos, pymes y otra xente interesao na reconcencia de voz p'ayudar a entrenar y medrar los recursos disponibles públicamente, como los modelos de voz.
     
     ¿Pues dicinos por qué quedríes desaniciar les tos grabaciones?
-profile-form-delete = Desaniciar el perfil
+profile-form-delete = Desaniciu del perfil
 
 ## Landing
 
