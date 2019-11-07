@@ -355,7 +355,9 @@ faq-is-goal-assistant-a = La meta del conxuntu de datos de Common Voice ye la de
 faq-do-want-native-q = Nun soi un falante nativu y falo con acentu, ¿val la mio collaboración?
 faq-why-different-speakers-q = ¿Por qué precisáis tantos falantes per llingua?
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
+faq-why-10k-hours-a = Esti ye'l númberu aproximáu d'hores riquíes pa entrenar un sistema en producción de fala a voz.
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice les hores?
+faq-how-calc-hours-a = Calculamos les hores estimando la duración media de cada grabación y multiplicando esi númberu pol total de grabaciones de toles llingües.
 faq-where-src-from-2-q = ¿D'ónde vienen los testos que s'usen?
 faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o artículos de Wikipedia n'otres llingues?
 faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
@@ -389,8 +391,7 @@ about-get-involved = Andecha
 about-get-involved-text =
     ¿Quies ayudar a facer que Common Voice seya meyor?
     ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>,
-    unvia comentarios per <githubLink>GitHub</githubLink>,
-    o xúnite a nós en <slackLink>Slack</slackLink>.
+    unvia comentarios per <githubLink>GitHub</githubLink>, o xúnite a nós en <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
@@ -405,6 +406,7 @@ mycroft-secondary-description = Esto ye software de códigu abiertu que pues mec
 glossary = Glosariu
 localization = Traducción
 localization-explanation = Equí adautamos el nuesu conteníu a otres locales (llingües) más.
+sentence-collection = Recoyida de frases
 sst = Fala a testu (STT)
 sst-explanation = Les teunoloxíes de fala a testu (STT) convierten los datos de voz a testu.
 de-identified = Anonimación
@@ -467,7 +469,9 @@ data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose a partir de los audios de charres y les sos trescripciones disponibles nel sitiu web TED.
 data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuitos y de códigu abiertu.
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
+your-feedback = ¿Tienes idees p'ameyorar el conxuntu de datos de Common Voice? Dínosles en Discourse
 go-discourse = Dir a Discourse
+missing-language = ¿Nun ves la to llingua nel conxuntu de datos? Solicita'l so amiestu na páxina de llingües.
 go-languages-page = Dir a la páxina de llingües
 ready-to-validate = ¿Tas preparáu p'ayudanos a validar frases?
 more = Más
@@ -505,7 +509,7 @@ other-language = Otra llingua
 ## Languages Overview
 
 language-section-in-progress = En cursu
-language-section-launched = Llanzáronse
+language-section-launched = Llanzóse
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-meter-in-progress = Progresu
