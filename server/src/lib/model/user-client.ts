@@ -156,7 +156,8 @@ const UserClient = {
 
   async saveAccount(
     email: string,
-    { client_id, locales, ...data }: UserClient
+    { client_id, locales, ...data }: UserClient,
+    referer?: string
   ): Promise<UserClient> {
     let [accountClientId, [clients]] = await Promise.all([
       UserClient.findClientId(email),
@@ -204,7 +205,8 @@ const UserClient = {
           email,
           data.enrollment.challenge,
           data.enrollment.team,
-          data.enrollment.invite
+          data.enrollment.invite,
+          referer
         ),
     ]);
 
@@ -265,7 +267,8 @@ const UserClient = {
     email: string,
     challenge: ChallengeToken,
     team: ChallengeTeamToken,
-    invite: string
+    invite?: string,
+    referer?: string
   ): Promise<boolean> {
     if (email && challenge && team) {
       // For registered user, client_id is not null
@@ -285,7 +288,7 @@ const UserClient = {
       const proceed =
         registeredUser.length > 0 &&
         registeredUser.every(
-          (u: { client_id: string; enroll_id: Number; challenge_id: Number }) =>
+          (u: { client_id: string; enroll_id: number; challenge_id: number }) =>
             u.client_id != null &&
             (u.enroll_id == null || u.challenge_id == null)
         );
@@ -306,7 +309,7 @@ const UserClient = {
         // It is sort of catch exception but do nothing, not even log to console.
         const res = await db.query(
           `
-          INSERT INTO enroll (challenge_id, team_id, client_id, url_token, invited_by) VALUES (?, ?, ?, ?, ?)
+          INSERT INTO enroll (challenge_id, team_id, client_id, url_token, invited_by, referer) VALUES (?, ?, ?, ?, ?, ?)
           `,
           [
             challenge_id,
@@ -314,6 +317,7 @@ const UserClient = {
             registeredUser[0].client_id,
             enrollment_token,
             invite || null,
+            referer || null,
           ]
         );
         return res && res[0] && res[0].affectedRows > 0;
