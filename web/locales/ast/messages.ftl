@@ -2,7 +2,7 @@
 
 yes-receive-emails = Sí, unviáime correos. Prestaríame tar informáu tocante al proyeutu Common Voice.
 stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía per voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
-privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más na nuesa <privacyLink>Noticia de privacidá</privacyLink>
+privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más nel nuesu <privacyLink>avisu de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
     .label = Corréu
@@ -293,6 +293,7 @@ why-profile-text =
     Apurrir dellos datos tocante a ti va ser perútil pa los motores de reconocencia de voz, darréu qu'usen esos datos
     p'ameyorar la so precisión.
 dashboard = Panel
+build-profile = Creación del perfil
 avatar = Avatar
 goals = Metes
 settings = Axustes
@@ -319,9 +320,14 @@ on = SÍ
 avatar-clip-title = Da-y voz al to avatar
 change-your-avatar-clip = ¿Quies camudar el clip de voz?
 avatar-clip-recorded = ¡Agora'l to avatar inclúi un clip de voz!
+record-voice-wave = GRABAR LA VOZ
+retry-voice-wave-recording = RETENTAR
 delete-voice = DESANICIAR
+delete-voice-clip = o desanicia'l clip de voz
+ready-to-upload = XUBIR
 avatar-clip-fact = Ye bien sabío qu'un llector va distrayese col conteníu lleíble d'una páxina que ta viendo al mirar el so diseñu.
 cancel-avatar-clip-recording = ENCABOXAR
+about-avatar-clip-recording = Crea un clip de voz pa incluyilu y que la demás xente seya a sentilu cuando pase'l mur penriba del avatar del perfil.
 browse-file-title = Xuba d'un ficheru
 browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
 connect-gravatar = Coneutar con Gravatar
@@ -438,7 +444,7 @@ data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
-review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>avisu de privacidá</privacyLink>
+review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y el nuesu <privacyLink>avisu de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Refugo
 review-aborted = Albortóse la xuba. ¿Quies desaniciar toles tos grabaciones?
@@ -535,7 +541,7 @@ skip = Saltar
 shortcuts = Atayos
 clips-with-count = <bold>{ $count }</bold> clips
 goal-help-recording = ¡Ayudesti a Common Voive a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } grabaciones!
-goal-help-validation = ¡Ayudesti a Common Voive a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } validaciones!
+goal-help-validation = ¡Ayudesti a Common Voice a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } validaciones!
 contribute-more =
     { $count ->
         [one] ¿Quies facer { $count } más?
@@ -605,6 +611,7 @@ toward-next-goal = Pa la meta siguiente
 clips-you-recorded = Clips que grabesti
 clips-you-validated = Clips que validesti
 stats = Estadístiques
+awards = Premios
 you = Tú
 everyone = Tol mundu
 contribution-activity = Actividá de les collaboraciones
@@ -616,8 +623,12 @@ overall-accuracy = Precisión xeneral
 
 ## Custom Goals
 
+create-custom-goal = Crear una meta global
+daily-goal = Meta diaria
 weekly-goal = Meta selmanal
 want-to-continue = ¿Quies siguir?
+help-reach-hours-general = Ayuda con una meta personal a que Common Voice algame { NUMBER($hours) } hores nuna llingua
+set-a-goal = Afitar una meta
 which-goal-type = ¿Quies Falar, Sentir o dambos?
 n-clips = { NUMBER($count) } clips
 goal-interval-weekly = Selmanalmente
