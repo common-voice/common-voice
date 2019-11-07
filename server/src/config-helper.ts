@@ -49,6 +49,8 @@ const DEFAULTS: CommonVoiceConfig = {
   ADMIN_EMAILS: JSON.stringify([
     'adelbarrio@mozilla.com',
     'aklepel@mozilla.com',
+    'gozer@mozilla.com',
+    'jennyzhang@mozilla.com',
     'lsaunders@mozilla.com',
     'martin@mozilla.com',
     'mbranson@mozilla.com',
