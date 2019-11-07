@@ -187,36 +187,36 @@ class ChallengeList extends React.Component<Props, State> {
               </div>
               <div className="week" title="Week">
                 {row.w1_points ? (
-                  <React.Fragment>
+                  <>
                     <PointsIcon
                       className={row.w1 <= 3 ? `star-points-${row.w1}` : ''}
                     />
                     {this.transformRankingToString(row.w1)}
-                  </React.Fragment>
+                  </>
                 ) : (
                   '--'
                 )}
               </div>
               <div className="week" title="Week">
                 {row.w2_points ? (
-                  <React.Fragment>
+                  <>
                     <PointsIcon
                       className={row.w2 <= 3 ? `star-points-${row.w2}` : ''}
                     />
                     {this.transformRankingToString(row.w2)}
-                  </React.Fragment>
+                  </>
                 ) : (
                   '--'
                 )}
               </div>
               <div className="week" title="Week">
                 {row.w3_points ? (
-                  <React.Fragment>
+                  <>
                     <PointsIcon
                       className={row.w3 <= 3 ? `star-points-${row.w3}` : ''}
                     />
                     {this.transformRankingToString(row.w3)}
-                  </React.Fragment>
+                  </>
                 ) : (
                   '--'
                 )}
@@ -252,9 +252,7 @@ class ChallengeList extends React.Component<Props, State> {
                 <CheckIcon />
                 {row.approved}
               </div>
-              <div className="accuracy">
-                {row.accuracy ? row.accuracy : 'N/A'} %
-              </div>
+              <div className="accuracy">{row.accuracy || 'N/A'} %</div>
             </li>
           )}
           {!!nextPosition &&
@@ -281,20 +279,20 @@ class ChallengeList extends React.Component<Props, State> {
         onScroll={this.updateScrollIndicator}>
         <li className="header" key="header">
           {team ? (
-            <React.Fragment>
+            <>
               <span className="ranking">Ranking & Name</span>
               <span className="week">W1</span>
               <span className="week">W2</span>
               <span className="week">W3</span>
               <span className="total">Total Points</span>
-            </React.Fragment>
+            </>
           ) : (
-            <React.Fragment>
+            <>
               <span className="ranking">Ranking & Name</span>
               <span className="point">Points</span>
               <span className="approved">Approved</span>
               <span className="accuracy">Accuracy</span>
-            </React.Fragment>
+            </>
           )}
         </li>
         {items}

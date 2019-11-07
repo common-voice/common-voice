@@ -1,6 +1,6 @@
 import * as React from 'react';
 import WeeklyChallengeBoard from './weekly-challenge-board';
-import { WeeklyChallenge } from '../../../../../../common/challenge';
+import { WeeklyChallenge } from 'common/challenge';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { challengeLogoUrls } from './constants';
 import './weekly-challenge.css';
@@ -18,7 +18,7 @@ export default function WeeklyChallenge({
   isNarrow?: boolean;
   weekly?: WeeklyChallenge;
 }) {
-  let currentWeek = weekly.week - 1;
+  let currentWeek = weekly.week;
   let pastWeek: Array<number> = [];
   switch (currentWeek) {
     case 0:

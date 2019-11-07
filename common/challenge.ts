@@ -38,6 +38,25 @@ interface ChallengeTeam {
   token: ChallengeTeamToken;
 }
 
+export interface ChallengeRequestArgument {
+  client_id: string;
+  params: {
+    challenge: ChallengeToken;
+    locale?: any; // FIXME: More specific type.
+    type?: 'vote' | 'clip';
+  };
+  query: {
+    cursor?: any;
+  };
+}
+
+export interface ChallengeLeaderboardArgument {
+  client_id: string;
+  challenge: ChallengeToken;
+  locale: string;
+  team_only: boolean;
+}
+
 export const challengeTeams: { [key in ChallengeTeamToken]: ChallengeTeam } = {
   ibm: {
     readableName: 'IBM',

@@ -653,7 +653,7 @@ export default class DB {
           SELECT user.client_id, start_date, end_date, week, teammate_count, COUNT(clips.id) AS clip_count
           FROM (
               SELECT user_clients.client_id,
-                  TIMESTAMPDIFF(WEEK, start_date, NOW()) + 1 AS week,
+                  TIMESTAMPDIFF(WEEK, start_date, NOW()) AS week,
                   TIMESTAMPADD(WEEK, TIMESTAMPDIFF(WEEK, start_date, NOW()), start_date) AS start_date,
                   TIMESTAMPADD(WEEK, TIMESTAMPDIFF(WEEK, start_date, NOW()) + 1, start_date) AS end_date,
                   COUNT(teammate.id) AS teammate_count

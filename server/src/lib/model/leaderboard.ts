@@ -7,19 +7,13 @@ import { getMySQLInstance } from './db/mysql';
 import Bucket from '../bucket';
 import { AWS } from '../aws';
 import Model from '../model';
+import { ChallengeLeaderboardArgument, ChallengeToken } from 'common/challenge';
 
 const s3 = AWS.getS3();
 const model = new Model();
 const bucket = new Bucket(model, s3);
 
 const db = getMySQLInstance();
-
-interface ChallengeLeaderboardArgument {
-  client_id: string;
-  challenge: string;
-  locale: string;
-  team_only: boolean;
-}
 
 async function getClipLeaderboard(locale?: string): Promise<any[]> {
   const [rows] = await db.query(
@@ -192,7 +186,7 @@ async function getTopListeners({
 // this SQL is in low quality, but it does the job: showing all teams' rankings across 3 weeks.
 // [FUTURE] there are maybe several ways to optimize the SQL here
 //          and when new version of DB is available, ranking() and window function could be used
-async function getTopTeams(challenge: string): Promise<any[]> {
+async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
   const [rows] = await db.query(
     `
     SELECT id, name, w1_points, w1, w2_points, w2,
@@ -305,7 +299,7 @@ export const getTopListenersLeaderboard = lazyCache(
 
 export const getTopTeamsLeaderboard = lazyCache(
   'top-teams-leaderboard',
-  async (challenge: string) => {
+  async (challenge: ChallengeToken) => {
     return (await getTopTeams(challenge)).map((row, i) => ({
       position: i,
       ...row,
