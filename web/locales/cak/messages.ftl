@@ -210,6 +210,7 @@ email-subscription-title-new = Tatz'ib'aj awi' pa ri ko'öl ruwuj rutzijol, nata
 
 benefits = Taq rutzil
 rich-data = Tatojtob'ej chi e tz'aqät ronojel ri taq rutzijol ye'atäq, rik'in rutaqik kitzjol apewinäq, ri man etaman ta kiwäch. Ronojel ri taq tzij ri' choj man etaman ta kiwäch chuwäch xkekitz'ët ri winaqi'.
+improve-audio = Ri retamab'al ruwäch b'i'aj nikutzilaj kitzij taq k'oxom, ri ye'okisäx richin nitojtob'ëx rujikib'axik retamaxik ch'ab'äl.
 compare-progress = Tajunamaj ri ab'anon rik'in ri kib'anon ch'aqa' chik to'onela' chijun ri ruwach'ulew.
 view-goals = Tatz'eta' ri ab'anon rik'in ri arayb'al chuqa' richin ri rurayib'al nuk'samaj.
 join-newsletter = Yatikïr natün awi' pa ri rucholajem qataqoya'al richin ye'ak'ül taq k'exoj chuqa' ri k'ak'a' etamab'äl k'o pa nimasamaj.
@@ -220,6 +221,7 @@ whats-public = ¿Achike ri nib'an qichin qonojel?
 email-not-public = Man xtiqataluj ta ri ataqoya'l.
 recordings-and-locale-public = Ri rajlab'al yakoj chuqa' ri ch'ab'äl akuchi' xkato'on, ja ri' xtiqataluj rutzijol.
 username-optin-public = Yatikïr nacha' jun b'i'aj talun rutzijol o man netamäx ta ruwäch.
+demographic-deidentified = Ri taq apewinäq tzij choj xketaq (achi'el, rujuna', rub'anikil, ruch'ab'äl chuqa' rub'eyal nich'o) man nuxïm ta ri' rik'in ri ruch'ab'äl nuya' chuqa' majub'ey xtiq'alajisäx chi kiwäch ri winaqi' pa ruwäch ab'i'.
 
 ## Speak & Listen Shortcuts
 
