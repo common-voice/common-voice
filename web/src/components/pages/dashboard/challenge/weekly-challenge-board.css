@@ -90,16 +90,11 @@ img.icon {
         width: 1px;
     }
 }
+
 .speak-btn,
 .listen-btn {
-    width: 140px;
-    height: 50px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--white);
+    display: flex;
     margin: 0 auto 15px;
     &:hover {
         border: 1px solid var(--black);
@@ -111,27 +106,19 @@ img.icon {
         }
     }
 }
+
+.speak-icon,
+.listen-icon {
+    background-color: var(--white);
+}
+
 .speak-btn {
     background-color: var(--red);
 }
 .listen-btn {
     background-color: var(--valid-green);
 }
-.speak-icon,
-.listen-icon {
-    width: 22px;
-    height: 22px;
-    background-color: var(--white);
-    margin-left: 10px;
-    mask-size: contain;
-    display: inline-block;
-}
-.speak-icon {
-    mask-image: url('./images/mic.svg');
-}
-.listen-icon {
-    mask-image: url('./images/play.svg');
-}
+
 .speak-bar,
 .listen-bar,
 .team-bar {

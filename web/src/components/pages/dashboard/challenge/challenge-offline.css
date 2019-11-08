@@ -1,0 +1,121 @@
+@import url('../../../vars.css');
+
+#content .challenge-offline {
+    background: url('./images/wave.svg') no-repeat bottom center;
+    background-size: 100%;
+}
+
+.challenge-blank-state {
+    width: 100%;
+    padding-top: 350px;
+    padding-bottom: 12.5vw;
+    background-position: top 75px center;
+    background-repeat: no-repeat;
+
+    @media (--xs-down) {
+        background-size: 600px;
+        background-position: top 50px left -50px;
+    }
+
+    &.pre-challenge {
+        background-image: url('./images/challenge-mtn-pre.svg');
+    }
+
+    &.post-challenge {
+        background-image: url('./images/challenge-mtn-post.svg');
+    }
+}
+
+.challenge-header {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.challenge-cta {
+    max-width: 500px;
+    padding: 0 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.challenge-mtn {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.challenge-alt {
+    max-width: 320px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.custom-goal-button {
+    border: 1px solid var(--valid-green);
+    padding: 0 30px;
+    height: 50px;
+    background: var(--valid-green);
+    color: var(--white);
+    width: auto;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.speak-btn,
+.listen-btn {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--darker-grey);
+    display: inline-flex;
+    margin: 0 0.5rem 1.5rem;
+
+    &:hover {
+        color: var(--white);
+        .speak-icon,
+        .listen-icon {
+            background-color: var(--white);
+        }
+    }
+}
+
+.speak-icon {
+    background-color: var(--red);
+}
+
+.listen-icon {
+    background-color: var(--valid-green);
+}
+
+.speak-btn {
+    &:hover {
+        background-color: var(--red);
+        border: 1px solid var(--red);
+    }
+}
+.listen-btn {
+    &:hover {
+        background-color: var(--valid-green);
+        border: 1px solid var(--valid-green);
+    }
+}
+
+@media (--md-down) {
+    #content .challenge-offline {
+        background-size: 1000px;
+    }
+
+    .challenge-blank-state {
+        padding-bottom: 150px;
+    }
+}
+
+@media (--xs-down) {
+    #content .challenge-offline {
+        background: none;
+    }
+    .challenge-blank-state {
+        padding: 250px 0 0;
+    }
+}
