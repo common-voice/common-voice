@@ -180,11 +180,18 @@ export default class API {
     response.json(userClients);
   };
 
-  saveAccount = async ({ body, user }: Request, response: Response) => {
+  saveAccount = async (request: Request, response: Response) => {
+    const { body, user } = request;
     if (!user) {
       throw new ClientParameterError();
     }
-    response.json(await UserClient.saveAccount(user.emails[0].value, body));
+    response.json(
+      await UserClient.saveAccount(
+        user.emails[0].value,
+        body,
+        request.header('Referer')
+      )
+    );
   };
 
   getAccount = async ({ user }: Request, response: Response) => {
