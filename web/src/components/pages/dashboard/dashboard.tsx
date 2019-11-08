@@ -17,7 +17,6 @@ import AwardsPage from './awards/awards';
 import ChallengePage from './challenge/challenge';
 import { Button } from '../../ui/ui';
 import InviteModal from '../../invite-modal/invite-modal';
-import { isProduction } from '../../../utility';
 import { isChallengeLive, pilotDates } from './challenge/constants';
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
