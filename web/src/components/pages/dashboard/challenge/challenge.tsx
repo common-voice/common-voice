@@ -109,7 +109,6 @@ export default function ChallengePage() {
   useEffect(() => trackChallenge('dashboard-view'), []);
 
   return isChallengeLive(pilotDates) ? (
-    // return (
     <div className="challenge challenge-container">
       {showOnboardingModal && (
         <OnboardingModal
@@ -148,7 +147,6 @@ export default function ChallengePage() {
       </div>
     </div>
   ) : (
-    // );
     <ChallengeOffline duration={pilotDates} />
   );
 }
