@@ -2,7 +2,7 @@
 
 yes-receive-emails = Sí, unviáime correos. Prestaríame tar informáu tocante al proyeutu Common Voice.
 stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía per voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
-privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más na nuesa <privacyLink>Noticia de privacidá</privacyLink>
+privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más nel nuesu <privacyLink>avisu de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
     .label = Corréu
@@ -11,6 +11,7 @@ loading = Cargando...
 email-opt-in-info = Prestaríame recibir correos pa recordar los oxetivos, boletinos y anovamientos del mio progresu tocante a Common Voice.
 email-opt-in-info-title = Xunise a la llista de corréu de Common Voice
 email-opt-in-info-sub-with-challenge = Vas recibir correos con recordatorios, anovamientos de progresu, noticies y retos tocante a Common Voice
+email-opt-in-privacy = Optar pola receición de correos fai qu'aceutes el tar d'alcuerdu con que Mozilla remane esta información como se desplica na so <privacyLink>política de privacidá<privacyLink>.
 indicates-required = * indica que ye un campu riquíu
 not-available-abbreviation = N/D
 
@@ -20,13 +21,17 @@ not-available-abbreviation = N/D
 
 ## Languages
 
+ab = Abḥasianu
 ace = Achinés
+ady = Adigué
 af = Afrikaans
+am = Amáricu
 an = Aragonés
 ar = Árabe
 as = Asamés
 ast = Asturianu
 az = Azerbaixanu
+ba = Baxkir
 bg = Búlgaru
 bn = Bengalí
 br = Bretón
@@ -48,6 +53,7 @@ es = Español
 et = Estoniu
 eu = Vascu
 fa = Persa
+ff = Fula
 fi = Finlandés
 fo = Feroés
 fr = Francés
@@ -55,6 +61,7 @@ fy-NL = Frisiu
 ga-IE = Irlandés
 gl = Gallegu
 he = Hebréu
+hi-IN = Hindi
 hr = Croata
 hsb = Altu sórabu
 hu = Húngaru
@@ -62,6 +69,7 @@ ia = Interlingua
 id = Indonesiu
 is = Islandés
 it = Italianu
+izh = Ingriu
 ja = Xaponés
 ka = Xeorxanu
 kab = Cabilu
@@ -71,6 +79,7 @@ kpv = Komi
 ku = Kurdu
 kw = Córnicu
 ky = Kirguís
+lij = Ligur
 lt = Lituanu
 lv = Letón
 mdf = Moksha
@@ -90,23 +99,30 @@ pt = Portugués
 rm-sursilv = Romanche surselvu
 ro = Rumanu
 ru = Rusu
+rw = Kiñaruanda
 sah = Sakha
 sc = Sardu
+si = Cingalés
 sk = Eslovacu
 sl = Eslovenu
 sq = Albanés
 sr = Serbiu
 sv-SE = Suecu
+sw = Suaḥili
+syr = Siríacu
 ta = Tamil
 te = Telugu
 tg = Taxiku
 th = Tailandés
 tr = Turcu
 tt = Tatar
+uby = Ubix
+udm = Udmurtu
 uk = Ucraín
 ur = Urdu
 uz = Uzbecu
 vi = Vietnamita
+vot = Vóticu
 zh-CN = Chinu (China)
 zh-HK = Chinu (Ḥong Kong)
 zh-TW = Chinu (Taiwán)
@@ -277,7 +293,7 @@ profile-form-age =
 profile-form-gender =
     .label = Xéneru
 leaderboard-visibility =
-    .label = Visibilidá na tabla de líderes
+    .label = Visibilidá na clasificación
 hidden = Invisible
 visible = Visible
 native-language =
@@ -293,10 +309,11 @@ why-profile-text =
     Apurrir dellos datos tocante a ti va ser perútil pa los motores de reconocencia de voz, darréu qu'usen esos datos
     p'ameyorar la so precisión.
 dashboard = Panel
+build-profile = Creación del perfil
 avatar = Avatar
 goals = Metes
 settings = Axustes
-edit-profile = Editar perfil
+edit-profile = Editar el perfil
 profile-create-success = ¡El perfil creóse con ésitu!
 profile-close = Zarrar
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
@@ -309,7 +326,7 @@ login-identity = Identidá del aniciu de sesión
 login-signup = Aniciar sesión / rexistrase
 edit = Editar
 email-subscriptions = Soscripciones per corréu
-download-profile = Baxar los mios datos
+download-profile = Descarga de los datos de mio
 contribution-experience = Esperiencia de la collaboración
 skip-submission-feedback = Saltar l'unviu de los comentarios
 skip-submission-description = Nel unviu de les collaboraciones van saltase los comentarios dempués de calcar n'«Unviar». La collaboración va siguir direutamente col conxuntu siguiente de 5 grabaciones o validaciones.
@@ -318,10 +335,17 @@ off = NON
 on = SÍ
 avatar-clip-title = Da-y voz al to avatar
 change-your-avatar-clip = ¿Quies camudar el clip de voz?
+recording-in-progress = Grabación en cursu
 avatar-clip-recorded = ¡Agora'l to avatar inclúi un clip de voz!
+record-voice-wave = GRABAR LA VOZ
+retry-voice-wave-recording = RETENTAR
+re-record = REGRABAR
 delete-voice = DESANICIAR
+delete-voice-clip = o desanicia'l clip de voz
+ready-to-upload = XUBIR
 avatar-clip-fact = Ye bien sabío qu'un llector va distrayese col conteníu lleíble d'una páxina que ta viendo al mirar el so diseñu.
 cancel-avatar-clip-recording = ENCABOXAR
+about-avatar-clip-recording = Crea un clip de voz pa incluyilu y que la demás xente seya a sentilu cuando pase'l mur penriba del avatar del perfil.
 browse-file-title = Xuba d'un ficheru
 browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
 connect-gravatar = Coneutar con Gravatar
@@ -350,11 +374,13 @@ faq-how-get-a = El conxuntu de datos de Common Voice ta disponible pa baxar so l
 faq-when-release2-q = ¿Cuándo vais llanzar los datos de Common Voice n'otres llingües?
 faq-why-mission-q = ¿Por qué Common Voice ye parte de la misión de Mozilla?
 faq-what-cv-and-deepspeech-q = ¿En qué s'estremen Common Voice y Deep Speech?
+faq-what-cv-and-deepspeech-a = Common Voice complementa'l motor de reconocencia de voz Deep Speech. La primer versión de Deep Speech llanzóse en payares de 2017 y siguió evolucionando dende entós. Xunto col conxuntu de datos de Common Voice, creyemos qu'esta teunoloxía de reconocecia de voz de codigu llibre debería tar disponible pa tol mundu. Esperamos qu'estes teunoloxíes permitan a los desendolcadores crear una fola de productos y servicios innovadores.
 faq-is-goal-assistant-q = ¿La meta de Common Voice ye la de crear un asistente de voz?
 faq-is-goal-assistant-a = La meta del conxuntu de datos de Common Voice ye la de permitir que tol mundu crea aplicaciones que reconozan voces y rican datos de voz. Un asistente de voz ye una de les munches aplicaciones que podríen usar el conxuntu de datos.
 faq-do-want-native-q = Nun soi un falante nativu y falo con acentu, ¿val la mio collaboración?
 faq-why-different-speakers-q = ¿Por qué precisáis tantos falantes per llingua?
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
+faq-what-quality-q = ¿Qué nivel de calidá d'audiu se rique pa qu'un clip s'use nel conxuntu de datos?
 faq-why-10k-hours-a = Esti ye'l númberu aproximáu d'hores riquíes pa entrenar un sistema en producción de fala a voz.
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice les hores?
 faq-how-calc-hours-a = Calculamos les hores estimando la duración media de cada grabación y multiplicando esi númberu pol total de grabaciones de toles llingües.
@@ -393,7 +419,7 @@ about-get-involved = Andecha
 about-get-involved-text =
     ¿Quies ayudar a facer que Common Voice seya meyor?
     ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>,
-    unvia comentarios per <githubLink>GitHub</githubLink>, o xúnite a nós en <slackLink>Slack</slackLink>.
+    unvia comentarios per <githubLink>GitHub</githubLink> o xúnite a nós en <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
@@ -438,7 +464,7 @@ data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
-review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>avisu de privacidá</privacyLink>
+review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y el nuesu <privacyLink>avisu de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Refugo
 review-aborted = Albortóse la xuba. ¿Quies desaniciar toles tos grabaciones?
@@ -460,14 +486,19 @@ overall-hr-total = Hrs totales en xeneral
 cv-license = Llicencia
 audio-format = Formatu d'audiu
 number-of-voices = Númberu de voces
+email-to-download = Introducir un corréu pa baxar
+confirm-size = Toi preparáu p'aniciar la descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Comprométome</b> a que nun voi tentar d'identificar a los falantes del conxuntu de datos de Common Voice
+download-language = Baxar «{ $language }»
 validated-hours = Hores validaes
 recorded-hours = Hores grabaes
 whats-inside = ¿Qué hai dientro del conxuntu de datos de Common Voice?
 want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión nueva del conxuntu de datos de Common Voice? Soscríbite al boletín.
 other-datasets = Otros conxuntos de datos de voz
 feedback-q = ¿Tienes comentarios?
+common-voice-info-new = ¿Tienes entrugues tocante a Common Voice?¿idees, ameyores o comentarios tocante a una llingua n'especial? Xúnite a nós nel foru <discourseLink>Discourse</discourseLink> y fala con nós.
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose a partir de los audios de charres y les sos trescripciones disponibles nel sitiu web TED.
@@ -513,7 +544,9 @@ other-language = Otra llingua
 ## Languages Overview
 
 language-section-in-progress = En cursu
+language-section-in-progress-new-description = La comunidá de cauna de les llingües qu'hai equí ta <localizationGlossaryLink>traduciendo la páxina web</localizationGlossaryLink> y <sentenceCollectionGlossaryLink>recoyendo frases</sentenceCollectionGlossaryLink>. Les barres de progresu indiquen cómo van.
 language-section-launched = Llanzóse
+language-section-launched-description = Les llingües d'equí <localizationGlossaryLink>traduxeron</localizationGlossaryLink> la paxina web y tienen abondes <sentenceCollectionGlossaryLink>frases recoyíes</sentenceCollectionGlossaryLink> pa permitir les collaboraciones en <speakLink>Falar</speakLink> y <listenLink>Sentir</listenLink>.
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-meter-in-progress = Progresu
@@ -535,7 +568,7 @@ skip = Saltar
 shortcuts = Atayos
 clips-with-count = <bold>{ $count }</bold> clips
 goal-help-recording = ¡Ayudesti a Common Voive a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } grabaciones!
-goal-help-validation = ¡Ayudesti a Common Voive a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } validaciones!
+goal-help-validation = ¡Ayudesti a Common Voice a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } validaciones!
 contribute-more =
     { $count ->
         [one] ¿Quies facer { $count } más?
@@ -560,7 +593,7 @@ record-last-instruction = <recordIcon></recordIcon> ¡La última!
 review-tooltip = Revisa y volvi grabar los clips a midida que sigues
 review-instruction = Revisa y volvi grabar los clips si lo precises
 record-submit-tooltip = { $actionType } unviar cuando termines
-clips-uploaded = Clips xubíos
+clips-uploaded = Xubiéronse los clips
 record-abort-title = ¿Finar primero la grabación?
 record-abort-text = Si coles agora, vas perder el progresu
 record-abort-submit = Unviar clips
@@ -576,8 +609,24 @@ share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
 
 ## Reporting
 
+report = Informar
+report-title = Unviu d'un informe
+report-ask = ¿Qué problemes tas sufriendo con esta fras?
 report-offensive-language = Llinguaxe ofensivu
+report-offensive-language-detail = La fras tien un llinguax ofensivu o irrespetuosu
+report-grammar-or-spelling = Fallu gramatical / ortográficu
+report-grammar-or-spelling-detail = La fras tien un fallu gramatical u ortográficu.
 report-different-language = Llingua diferente
+report-different-language-detail = La fras ta escrita nuna llingua distinta a la que falo.
+report-difficult-pronounce = Difícil de pronunciar
+report-difficult-pronounce-detail = La fras contién pallabres o frases que son difíciles de lleer o pronunciar.
+report-offensive-speech = Conteníu ofensivu
+report-offensive-speech-detail = El clip tien un conteníu qu'ofiende.
+report-other-comment =
+    .placeholder = Comentariu
+success = Mui bien
+continue = Siguir
+report-success = Unvióse l'informe
 
 ## Goals
 
@@ -604,7 +653,10 @@ your-languages = Les tos llingües
 toward-next-goal = Pa la meta siguiente
 clips-you-recorded = Clips que grabesti
 clips-you-validated = Clips que validesti
+todays-recorded-progress = El progresu de güei de los clips grabaos pa Common Voice
+todays-validated-progress = El progresu de güei de los clips validaos pa Common Voice
 stats = Estadístiques
+awards = Premios
 you = Tú
 everyone = Tol mundu
 contribution-activity = Actividá de les collaboraciones
@@ -613,16 +665,44 @@ recorded-clips = Clips grabaos
 validated-clips = Clips validaos
 total-approved = Total d'aprobaos
 overall-accuracy = Precisión xeneral
+set-visibility = Afitar la mio visibilidá
+visibility-explainer = Esti axuste controla la to visibilidá na clasificación. Al tar invisible, va anubrise lo que progreses. Eso significa que'l to avatar, nome d'usuariu y progresu nun van apaecer nesta tabla. Decátate que la clasificación refréscase cada ~{ $minutes } minutos p'amosar los cambeos.
+visibility-overlay-note = Nota: Al aftiar «Visible», esti axuste pue modificase dende la <profileLink>páxina del perfil</profileLink>
 
 ## Custom Goals
 
+get-started-goals = Entamar coles metes
+create-custom-goal = Crear una meta global
+both-speak-and-listen = Dambos
+both-speak-and-listen-long = Dambos (Falar y Sentir)
+daily-goal = Meta diaria
 weekly-goal = Meta selmanal
+easy-difficulty = Fácil
+average-difficulty = Normal
+difficult-difficulty = Difícil
+pro-difficulty = Profesional
+lose-goal-progress-warning = Cola edición de la meta vas perder el progresu que ficiesti.
 want-to-continue = ¿Quies siguir?
+lose-changes-warning = El colar agora va facer que pierdas los cambeos
+build-custom-goal = Creación d'una meta personalizada
+help-reach-hours-general = Ayuda con una meta personal a que Common Voice algame { NUMBER($hours) } hores nuna llingua
+set-a-goal = Afitar una meta
+cant-decide = ¿Nun te decides?
+activity-needed-calculation =
+    Puen algamase les { NUMBER($totalHours) } hores en { NUMBER($periodMonths) }
+    si { NUMBER($people) } persones graben { NUMBER($clipsPerDay) } clips per día.
+how-many-per-day = ¡Mui bien! ¿Cuántos clips per día?
+how-many-a-week = ¡Mui bien! ¿Cuántos clips per selmana?
 which-goal-type = ¿Quies Falar, Sentir o dambos?
 n-clips = { NUMBER($count) } clips
+confirm-goal = Confirmar la meta
 goal-interval-weekly = Selmanalmente
+# LINK will be replaced with the current URL
+goal-share-text = Toi acabante de crear una meta personal pa donar la mio voz en #CommonVoice. Xúnite a min y ayúdame a deprende-yos a les máquines cómo falamos los humanos { $link }
 weekly-goal-created = Creóse'l to progresu selmanal
 daily-goal-created = Creóse'l to progresu diariu
+track-progress = Sigui esi progresu nesta páxina o na d'estadístiques.
+return-to-edit-goal = Volvi equí pa editar la meta cuando quieras.
 
 ## Profile Delete
 
@@ -635,7 +715,7 @@ why-delete-recordings =
     Les grabaciones de Common Voice van usales académicos, pymes y otra xente interesao na reconcencia de voz p'ayudar a entrenar y medrar los recursos disponibles públicamente, como los modelos de voz.
     
     ¿Pues dicinos por qué quedríes desaniciar les tos grabaciones?
-profile-form-delete = Desaniciar el perfil
+profile-form-delete = Desaniciu del perfil
 
 ## Landing
 

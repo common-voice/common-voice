@@ -29,10 +29,15 @@ export default function NotificationPill({
       style={{ opacity: show ? 1 : 0 }}
       onTransitionEnd={() => removeNotification(notification.id)}>
       {notification.kind === 'pill' && notification.type === 'achievement' && (
-        <img
-          src={require('../pages/dashboard/challenge/images/star.svg')}
-          alt="star"
-        />
+        <React.Fragment>
+          <img
+            src={require('../pages/dashboard/challenge/images/star.svg')}
+            alt=""
+            role="presentation"
+          />
+          + {notification.score} points
+          <br />
+        </React.Fragment>
       )}
       {notification.content}
     </div>

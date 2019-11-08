@@ -274,14 +274,7 @@ export default function Dashboard() {
           inviteId="#####"
           onRequestClose={() => {
             setShowInviteModal(false);
-            if (Boolean(sessionStorage.getItem('first'))) {
-              addAchievement(
-                <div>
-                  <p>+50 points</p>
-                  <p>You sent your first invite!</p>
-                </div>
-              );
-            }
+            addAchievement(50, 'You sent your first invite!');
           }}
           teamId="SAP"
         />
