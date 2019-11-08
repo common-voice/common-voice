@@ -14,6 +14,7 @@ import { LabeledCheckbox } from '../../../ui/ui';
 import { trackChallenge } from '../../../../services/tracker';
 import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
 import { isChallengeLive, pilotDates } from './constants';
+import { challengeTeams } from 'common/challenge';
 import './challenge.css';
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
@@ -48,7 +49,7 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
         <div className="visible-btns">
           <LabeledCheckbox
             label="Visible for all"
-            defaultChecked={account.visible === VISIBLE_FOR_ALL}
+	    defaultChecked={account.visible === VISIBLE_FOR_ALL}
             ref={visibleForAll}
             onChange={(event: any) => {
               if (event.target.checked) {
@@ -122,7 +123,7 @@ export default function ChallengePage() {
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
         <div className="leader-board">
           <LeaderBoardCard
-            title={`${account.enrollment.team} Team Progress`}
+            title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
             showVisibleIcon
             showOverlay={() => setShowOverlay(true)}
             service="team-progress"
