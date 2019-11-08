@@ -11,6 +11,7 @@ loading = Cargando...
 email-opt-in-info = Prestaríame recibir correos pa recordar los oxetivos, boletinos y anovamientos del mio progresu tocante a Common Voice.
 email-opt-in-info-title = Xunise a la llista de corréu de Common Voice
 email-opt-in-info-sub-with-challenge = Vas recibir correos con recordatorios, anovamientos de progresu, noticies y retos tocante a Common Voice
+email-opt-in-privacy = Optar pola receición de correos fai qu'aceutes el tar d'alcuerdu con que Mozilla remane esta información como se desplica na so <privacyLink>política de privacidá<privacyLink>.
 indicates-required = * indica que ye un campu riquíu
 not-available-abbreviation = N/D
 
