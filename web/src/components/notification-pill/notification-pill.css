@@ -25,11 +25,7 @@
         line-height: 1.5;
         border-radius: 100px 0 0 100px;
         padding: 10px 20px;
-        img {
-            width: 14px;
-            height: 14px;
-            margin-right: 10px;
-        }
+        max-width: 300px;
     }
 
     &:first-child {
@@ -49,16 +45,9 @@
             fill: var(--white);
         }
     }
-}
-
-.achievement {
-    line-height: 1.5;
-    img {
+    .score {
         width: 14px;
         height: 14px;
         margin-right: 10px;
-    }
-    .score {
-        display: inline-block;
     }
 }

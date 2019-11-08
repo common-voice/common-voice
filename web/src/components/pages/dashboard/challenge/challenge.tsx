@@ -5,7 +5,7 @@ import LeaderBoardCard from './leaderboard-card';
 import TeamBoardCard from './team-card';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
-import { useAccount, useAction } from '../../../../hooks/store-hooks';
+import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import { CrossIcon, InfoIcon } from '../../../ui/icons';
 import { LabeledCheckbox } from '../../../ui/ui';
@@ -89,10 +89,12 @@ export default function ChallengePage() {
   // [TODO]: Hook this up to the DB so we only see it once.
   const [isNarrow, setIsNarrow] = useState(false);
   const addAchievement = useAction(Notifications.actions.addAchievement);
-  const [showOnboardingModal, setOnboardingModal] = useState(
-    Boolean(sessionStorage.getItem('first'))
+  const [showOnboardingModal, setShowOnboardingModal] = useState(
+    window.location.search.includes('first=1')
   );
+  const [weekly, setWeekly] = useState(null);
   const account = useAccount();
+  const api = useAPI();
   useEffect(() => {
     const checkSize = () => {
       const { innerWidth } = window;
@@ -100,7 +102,7 @@ export default function ChallengePage() {
     };
     window.addEventListener('resize', checkSize);
     checkSize();
-
+    api.fetchWeeklyProgress().then(setWeekly);
     return () => {
       window.removeEventListener('resize', checkSize);
     };
@@ -112,19 +114,17 @@ export default function ChallengePage() {
       {showOnboardingModal && (
         <OnboardingModal
           onRequestClose={() => {
-            setOnboardingModal(false);
+            setShowOnboardingModal(false);
             if (window.location.search.includes('achievement=1')) {
               addAchievement(
-                <div>
-                  <p>+50 points</p>
-                  <p>Bonus! You signed up in time for some extra points.</p>
-                </div>
+                50,
+                'Bonus! You signed up in time for some extra points.'
               );
             }
           }}
         />
       )}
-      <WeeklyChallenge isNarrow={isNarrow} />
+      {weekly && <WeeklyChallenge isNarrow={isNarrow} weekly={weekly} />}
       <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
         <div className="leader-board">
@@ -136,7 +136,12 @@ export default function ChallengePage() {
           />
         </div>
         <div className="leader-board">
-          <TeamBoardCard title="Overall Challenge Top Team" />
+          {weekly && (
+            <TeamBoardCard
+              title="Overall Challenge Top Team"
+              week={weekly.week}
+            />
+          )}
         </div>
         <div className="leader-board">
           <LeaderBoardCard

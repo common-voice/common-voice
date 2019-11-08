@@ -52,12 +52,6 @@
     letter-spacing: 0.8px;
     margin-bottom: 10px;
 }
-.week-points {
-    float: right;
-    height: 70px;
-    margin-top: -15px;
-    max-width: 285px;
-}
 @media (--xs-down) {
     .week-points {
         max-width: 98px;
@@ -77,6 +71,10 @@
             width: 20px;
         }
     }
+}
+.week-points {
+    float: right;
+    margin-top: -15px;
 }
 
 @media (--sm-down) {

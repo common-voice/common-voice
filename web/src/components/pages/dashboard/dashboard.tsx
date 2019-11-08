@@ -256,6 +256,7 @@ const PAGES = [
 export default function Dashboard() {
   const { match } = useRouter();
   const account = useAccount();
+  const api = useAPI();
   const [, toLocaleRoute] = useLocale();
   const [showInviteModal, setShowInviteModal] = useState<boolean>(false);
   const addAchievement = useAction(Notifications.actions.addAchievement);
@@ -274,13 +275,20 @@ export default function Dashboard() {
           inviteId="#####"
           onRequestClose={() => {
             setShowInviteModal(false);
-            if (Boolean(sessionStorage.getItem('first'))) {
+            if (JSON.parse(sessionStorage.getItem('firstInvite'))) {
+              addAchievement(50, 'You sent your first invite!');
+            }
+            if (
+              !JSON.parse(sessionStorage.getItem('hasAchieved')) &&
+              JSON.parse(sessionStorage.getItem('hasContributed'))
+            ) {
               addAchievement(
-                <div>
-                  <p>+50 points</p>
-                  <p>You sent your first invite!</p>
-                </div>
+                50,
+                "You're on a roll! You sent an invite and contributed in the same session."
               );
+              // Tell back-end user get unexpected achievement: invite + contribute in the same session
+              // Each user can only get once.
+              api.setInviteContributeAchievement();
             }
           }}
           teamId="SAP"

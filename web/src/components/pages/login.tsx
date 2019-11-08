@@ -23,7 +23,7 @@ export const LoginFailure = withRouter(
 );
 
 export const LoginSuccess = withRouter(
-  ({ history }: RouteComponentProps<any>) => {
+  ({ history, location }: RouteComponentProps<any>) => {
     const user = useTypedSelector(({ user }) => user);
     const [locale, toLocaleRoute] = useLocale();
 
@@ -36,7 +36,10 @@ export const LoginSuccess = withRouter(
         trackProfile('login', locale);
       }
       history.replace(
-        redirectURL || toLocaleRoute(account ? URLS.ROOT : URLS.PROFILE_INFO)
+        redirectURL ||
+          toLocaleRoute(
+            account ? URLS.ROOT : URLS.PROFILE_INFO + location.search
+          )
       );
     }, [user]);
 

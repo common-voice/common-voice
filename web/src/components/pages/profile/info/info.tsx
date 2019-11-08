@@ -178,7 +178,6 @@ function ProfilePage({
       },
     ]);
     if (window.location.search.includes('first=1')) {
-      sessionStorage.setItem('first', 'true');
       window.location.assign(
         `${window.location.origin}/${locale}/dashboard/challenge?${window.location.search}`
       );
