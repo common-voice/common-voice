@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Sí, unviáime correos. Prestaríame tar informáu tocante al proyeutu Common Voice.
-stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía per voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
+stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía de voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
 privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más nel nuesu <privacyLink>avisu de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
@@ -60,6 +60,7 @@ fr = Francés
 fy-NL = Frisiu
 ga-IE = Irlandés
 gl = Gallegu
+ha = Ḥausa
 he = Hebréu
 hi-IN = Hindi
 hr = Croata
@@ -83,9 +84,11 @@ lij = Ligur
 lt = Lituanu
 lv = Letón
 mdf = Moksha
+mhr = Mari de les Praderes
 mk = Macedoniu
 ml = Malayalam
 mn = Mongol
+mrj = Mari de les Llombes
 mt = Maltés
 myv = Erzya
 nb-NO = Bokmål noruegu
@@ -97,6 +100,7 @@ or = Oriya
 pl = Polacu
 pt = Portugués
 rm-sursilv = Romanche surselvu
+rm-vallader = Romansh engadinés
 ro = Rumanu
 ru = Rusu
 rw = Kiñaruanda
