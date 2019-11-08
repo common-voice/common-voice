@@ -1,0 +1,110 @@
+@import url('../../../vars.css');
+.weekly-container {
+    max-height: 1060px;
+    overflow-y: auto;
+    min-width: calc(50% - 8px);
+    margin-right: 16px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.weekly-topbar {
+    height: 127px;
+    padding: 15px 0 15px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #f9f9f9;
+    box-sizing: border-box;
+    & h2 {
+        font-family: Zilla Slab;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+}
+.weeks {
+    color: #9b9b9b;
+    line-height: 1.71;
+    display: inline-block;
+    margin-top: 20px;
+    border-bottom: 1px solid var(--light-grey);
+}
+.week {
+    display: inline-block;
+    margin-right: 15px;
+}
+.week-number {
+    display: inline-block;
+    width: 29px;
+    height: 27px;
+    text-align: center;
+    color: var(--warm-grey);
+    margin: 0 7.5px;
+    &.active {
+        color: var(--white);
+        background-color: #4a4a4a;
+    }
+}
+.weekly-content {
+    padding: 20px;
+}
+.weekly-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+}
+.week-points {
+    float: right;
+    background-color: #629ff4;
+    height: 70px;
+    border-radius: 100px 0 0 100px;
+    box-sizing: border-box;
+    padding: 12px 40px 0;
+    color: #fff;
+    margin-top: -15px;
+    img {
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+    }
+    p:first-child {
+        font-weight: 600;
+    }
+}
+@media (--xs-down) {
+    .week-points {
+        max-width: 98px;
+        padding: 17px 20px 0;
+        font-family: var(--base-font-family);
+        font-size: 12px;
+        & p:last-child {
+            display: none;
+        }
+        & img {
+            float: left;
+            margin-right: 5px;
+        }
+        & span {
+            text-align: center;
+            display: inline-block;
+            width: 20px;
+        }
+    }
+}
+
+@media (--sm-down) {
+    .weekly-container {
+        min-width: 100% !important;
+        margin-right: 0;
+        max-height: unset;
+    }
+    .range-container {
+        min-width: 100% !important;
+    }
+    .challenge-container {
+        flex-wrap: wrap;
+    }
+
+    .stats-card .filters {
+        flex-direction: row;
+    }
+}

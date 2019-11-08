@@ -105,6 +105,8 @@ sl = slovinčina
 sq = albánčina
 sr = srbčina
 sv-SE = švédčina
+sw = swahilčina
+syr = sýrčina
 ta = tamilčina
 te = telugčina
 tg = tadžičtina
@@ -212,7 +214,9 @@ help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupn
 benefits = Výhody
 rich-data = Obohaťte odoslané dáta poskytnutím niektorých anonymných demografických údajov. Pred zverejnením všetky demografické údaje de-identifikujeme.
 improve-audio = Profilové informácie zlepšujú zvukové dáta používané pri tréningu presnosti rozpoznávania reči.
+keep-track = Sledujte svoj pokrok a metriky vo viacerých jazykoch.
 compare-progress = Porovnajte sa s ostatnými prispievateľmi z celého sveta.
+view-goals = Pozrite si svoj pokrok v porovnaní s osobnými a projektovými cieľmi.
 
 ## What's public
 
@@ -306,6 +310,7 @@ thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť v�
 why-demographic = Prečo na tom záleží?
 why-demographic-explanation = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
 accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>
+accept-privacy-title = Zásady ochrany osobných údajov
 login-identity = Identita pre prihlásenie
 login-signup = Prihlásenie/registrácia
 edit = Upraviť
@@ -315,6 +320,8 @@ contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
 off = Vypnutá
 on = Zapnutá
+retry-voice-wave-recording = SKÚSIŤ ZNOVA
+delete-voice = VYMAZAŤ
 ready-to-upload = Nahrať
 cancel-avatar-clip-recording = Zrušiť
 browse-file-title = Nahrať obrázok

@@ -243,6 +243,7 @@ export default class Clip {
   ) => {
     response.json(
       await getLeaderboard({
+        dashboard: 'stats',
         type: 'clip',
         client_id,
         cursor: query.cursor ? JSON.parse(query.cursor) : null,
@@ -257,6 +258,7 @@ export default class Clip {
   ) => {
     response.json(
       await getLeaderboard({
+        dashboard: 'stats',
         type: 'vote',
         client_id,
         cursor: query.cursor ? JSON.parse(query.cursor) : null,

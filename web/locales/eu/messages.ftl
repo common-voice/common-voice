@@ -95,7 +95,7 @@ nn-NO = Nynorsk norvegiera
 oc = Okzitaniera
 or = Oriya
 pl = Poloniera
-pt-BR = Portugesa (Brasil)
+pt = Portugesa
 rm-sursilv = Sursilvana
 ro = Errumaniera
 ru = Errusiera
@@ -108,6 +108,7 @@ sl = Esloveniera
 sq = Albaniera
 sr = Serbiera
 sv-SE = Suediera
+sw = Swahilia
 syr = Siriera
 ta = Tamilera
 te = Telugua
@@ -197,7 +198,6 @@ x-years-short =
        *[other] { $count } urte
     }
 help-make-dataset = Lagun gaitzazu kalitatezko datu-sorta ireki bat sortzen
-profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 sign-up-account = Sortu kontu bat
 email-subscription-title = harpidetu newletterrera
 
@@ -304,6 +304,7 @@ thanks-for-account = Eskerrik asko zure kontua baieztatzeagatik, orain osatu zur
 why-demographic = Zergatik da garrantzitsua hau?
 why-demographic-explanation = Adina, sexua eta azentua bezalako anonimizatutako datuek, hizketaren ezagutza motorren zehaztasuna hobetzen laguntzen dute hauek entrenatzeko audioen ezaugarriak osatzen dituztelako. Zure erabiltzaile-izena eta e-posta ez dira inoiz lotzen zuk bidalitako datuekin eta zure erabiltzaile-izena publikoa ala anonimoa izatea aukera dezakezu.
 accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan</privacyLink> azaltzen den bezala kudeatzea.
+accept-privacy-title = Pribatutasun-politika
 login-identity = Saioa hasteko identitatea
 login-signup = Hasi saioa / Eman izena
 edit = Editatu
@@ -315,7 +316,10 @@ skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
-add-avatar-title = Gehitu avatar bat zure profilari
+retry-voice-wave-recording = SAIATU BERRIRO
+re-record = GRABATU BERRIRO
+delete-voice = EZABATU
+ready-to-upload = IGO
 cancel-avatar-clip-recording = Utzi
 browse-file-title = Igo irudi-fitxategi bat
 browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
@@ -541,7 +545,6 @@ language-section-launched = Martxan
 language-section-launched-description = Hizkuntza hauetan webgunea behar beste <localizationGlossaryLink>lokalizatu</localizationGlossaryLink>  eta <sentenceCollectionGlossaryLink>esaldiak bildu</sentenceCollectionGlossaryLink> dira eta ondorioz laguntzaileak <speakLink>Hiz egin</speakLink> eta <listenLink>Entzun</listenLink> ekarpenak ari dira egiten.
 languages-show-more = Ikusi gehiago
 languages-show-less = Ikusi gutxiago
-language-speakers = Hiztunak
 language-meter-in-progress = Aurrerapena
 language-total-progress = Guztira
 language-search-input =
@@ -643,7 +646,6 @@ overall-accuracy = Zehaztasun orokorra
 
 ## Custom Goals
 
-toward-next-goal = Hurrengo helbururantz
 create-custom-goal = Sortu helburu pertsonalizatua
 both-speak-and-listen = Biak
 both-speak-and-listen-long = Biak (hitz egin eta entzun)

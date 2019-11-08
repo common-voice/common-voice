@@ -4,6 +4,7 @@ import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
 import { FontIcon } from '../ui/icons';
 import { Button } from '../ui/ui';
+import { trackChallenge } from '../../services/tracker';
 
 import './invite-modal.css';
 
@@ -24,6 +25,7 @@ export default ({ inviteId, teamId, ...props }: InviteModalProps) => {
       return () => clearTimeout(timer);
     }
   }, [copiedRecently]);
+  useEffect(() => trackChallenge('modal-invite'), []);
 
   return (
     <Modal {...props} innerClassName="invite-modal">

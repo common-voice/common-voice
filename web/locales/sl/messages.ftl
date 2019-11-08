@@ -9,7 +9,8 @@ email-input =
 submit-form-action = Pošlji
 loading = Nalaganje …
 email-opt-in-info = Želim prejemati e-poštna sporočila, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
-email-opt-in-info-sub = Prejemajte e-poštna sporočila, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
+email-opt-in-info-title = Pridružite se e-poštnemu seznamu Common Voice
+email-opt-in-info-sub-with-challenge = Prejemajte e-poštna sporočila, kot so opomniki na izzive in cilje, posodobitve napredka in novice projekta Common Voice.
 email-opt-in-privacy = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti<privacyLink>.
 indicates-required = * Zahtevano polje
 not-available-abbreviation = Ni na voljo
@@ -334,12 +335,19 @@ skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno mora
 off = Izklopljeno
 on = Vklopljeno
 avatar-clip-title = Dodajte glas svojemu avatarju
+change-your-avatar-clip = Želite spremeniti glasovni posnetek?
+recording-in-progress = Glasovno snemanje v teku
+avatar-clip-recorded = Vaš avatar zdaj vključuje glasovni posnetek!
+record-voice-wave = POSNEMI SVOJ GLAS
 retry-voice-wave-recording = POSKUSI ZNOVA
 re-record = ZNOVA POSNEMI
 delete-voice = IZBRIŠI
 recording-voice-wave = Snemanje
+delete-voice-clip = ali izbriši posnetek
 ready-to-upload = Naloži
+recreate-voice = Ponovno ustvari posnetek
 cancel-avatar-clip-recording = Prekliči
+about-avatar-clip-recording = Ustvarite glasovni posnetek kot del avatarja svojega profila. Drugi se bodo lahko z miško pomaknili na vaš posnetek in ga poslušali.
 browse-file-title = Naložite slikovno datoteko
 browse-file = Povlecite in spustite ali <browseWrap>prebrskajte</browseWrap>
 connect-gravatar = Poveži z Gravatarjem
@@ -420,6 +428,10 @@ about-clip-graveyard = Pokopališče posnetkov
 about-clip-graveyard-text = Pokopališče posnetkov sestavljajo glasovni posnetki, ki niso bili vključeni v nabor podatkov Common Voice. Tako kot nabor podatkov, je tudi pokopališče posnetkov na voljo za prenos.
 about-partners = Partnerji
 about-become-a-partner = Postanite partner
+about-partnership =
+    Common Voice je skupni projekt, pri katerem s pomočjo naše skupnosti partnerjev in sodelavcev ustvarjamo največji odprtokodni nabor podatkov doslej.
+    
+    Za pomoč pri projektu se zahvaljujemo naslednjim posameznikom in organizacijam:
 about-get-involved = Pridružite se
 about-get-involved-text =
     Želite izboljšati Common Voice?
@@ -746,6 +758,7 @@ share-n-daily-contribution-goal = Delite svoj dnevni cilj { $count } posnetkov z
 share-n-weekly-contribution-goal = Delite svoj tedenski cilj { $count } posnetkov za { $type }
 share-goal-type-speak = Govori
 share-goal-type-listen = Poslušanje
+share-goal-type-both = Govorjenje in poslušanje
 # LINK will be replaced with the current URL
 goal-share-text = Pravkar sem ustvaril osebni cilj za prispevanje k projektu #CommonVoice – pridružite se mi in pomagajmo naučiti stroje, kako govorijo resnični ljudje { $link }
 weekly-goal-created = Vaš tedenski cilj je bil ustvarjen
@@ -769,6 +782,8 @@ profile-form-delete = Izbriši profil
 
 ## Landing
 
+welcome-staff = Dobrodošli sodelavci { $company }!
 help-contribute = Pomagate lahko ustvariti raznolik, odprtokodni nabor podatkov, tako da ustvarite profil Common Voice in prispevate svoj glas.
+login-company = Prijava / Registracija z e-poštnim naslovom { $company }
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 read-more-about = Preberite več na naši strani O nas

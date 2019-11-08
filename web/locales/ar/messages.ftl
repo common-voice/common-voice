@@ -506,7 +506,9 @@ select-language = اختر لغة...
 ## Languages Overview
 
 language-section-in-progress = يجري العمل عليها
+language-section-in-progress-new-description = تطوّر حاليًا المجتمعات هذه اللغات أدناه. تعرض أشرطة سير العمل نسبة <localizationGlossaryLink>توطين الموقع</localizationGlossaryLink> و<sentenceCollectionGlossaryLink>جمع الجُمل</sentenceCollectionGlossaryLink> لكل لغة من اللغات.
 language-section-launched = الجاهزة
+language-section-launched-description = أمّا عن هذه اللغات فقد أُطلق الموقع <localizationGlossaryLink>مُوطّنًا بها</localizationGlossaryLink>  و<sentenceCollectionGlossaryLink>جمعت ما يكفي من جمُل</sentenceCollectionGlossaryLink> لتفتح باب المساهمة <speakLink>بالنطق</speakLink> أو <listenLink>الاستماع</listenLink>.
 languages-show-more = اعرض المزيد
 languages-show-less = اعرض أقل
 language-meter-in-progress = التقدم

@@ -9,8 +9,8 @@ email-input =
 submit-form-action = Inviar
 loading = Cargamento…
 email-opt-in-info = Io volerea reciper e-mails como rememorationes de objectivos, actualisationes de mi progresso e bulletines de novas sur Common Voice.
-email-opt-in-info-title = Junge te al bulletin e-posta de Common Voice
-email-opt-in-info-sub = Recipe emails como mementos de objectivos, actualisationes e bulletines de novas sur Common Voice.
+email-opt-in-info-title = Inscribe te al lista de diffusion de Common Voice
+email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de defias e objectivos, actualisationes de progresso e bulletines de novas sur Common Voice.
 email-opt-in-privacy = Si tu opta pro reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
@@ -167,7 +167,7 @@ wall-of-text-second = Le major parte del datos usate per le grande companias non
 show-wall-of-text = Lege plus
 help-us-title = Adjuta nos a validar le phrases!
 help-us-explain = Pulsa reproducer, ascolta & conta nos: lege illes accuratemente le phrase infra?
-no-clips-to-validate = Il pare que il non ha ulle retalios video a ascoltar in iste lingua. Adjuta nos ora a registrar alco.
+no-clips-to-validate = Il pare que il non ha retalios a ascoltar in iste lingua. Adjuta nos e registra alcunes!
 vote-yes = Si
 vote-no = No
 toggle-play-tooltip = Pulsa { shortcut-play-toggle } pro mutar modo de reproduction
@@ -339,7 +339,7 @@ about-avatar-clip-recording = Crea un retalio vocal como parte de tu profilo ava
 browse-file-title = Carga un file imagine
 browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
-gravatar_not_found = Nulle gravatar trovate pro tu email
+gravatar_not_found = Nulle gravatar trovate pro tu adresse de e-mail
 file_too_large = Le file seligite es troppo grande
 manage-subscriptions = Gerer le subscriptiones
 manage-email-subscriptions = Gerer le abonamentos a email
@@ -366,7 +366,7 @@ faq-why-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile p
 faq-what-cv-and-deepspeech-q = Qual es le differentia inter Common Voice e Deep Speech?
 faq-what-cv-and-deepspeech-a = Le collection de datos de Common Voice completa le motor de recognition del voce open-source de Mozilla: Deep Speech. Le prime version de Deep Speech ha essite publicate in novembre 2017 e pois illo ha continuate sempre a evolver se. Insimul con le collection de datos de Common Voice, nos fide que iste technologia de recognition del voce open-source deberea esser disponibile a totes. Nos spera que iste technologias activara le disveloppatores a crear un unda de productos e servicios innovative.
 faq-is-goal-assistant-q = Es le scopo de Common Voice crear un assistente vocal?
-faq-is-goal-assistant-a = Le scopo del collection de datos de Common Voice es a activar quicunque in le mundo a crear applicationes de recognition de voce, recognition de orator o de ulle altere typo, que require datos vocal. Un assistente vocal es justo uno de multe typos de applicationes pro crear le qual on poterea usar le collection de datos.
+faq-is-goal-assistant-a = Le objectivo del collection de datos de Common Voice es permitter a quicunque in le mundo de crear applicationes de recognition de voce, recognition de locutor o qualcunque altere typo de application que require datos vocal. Un assistente vocal es solmente un de multe typos de applicationes que tu poterea crear con iste collection de datos.
 faq-do-want-native-q = Io es un parlante non-native e io parla con un accento, vole tu ancora mi voce?
 faq-do-want-native-a = Si, nos vole specialmente tu voce! Parte del scopo de Common Voice es colliger quanto plus differente accentos possibile assi que le servicios de recognition del voce labora equalmente ben pro totes. Isto significa que le donationes per le parlantes non-native es particularmente importante.
 faq-why-different-speakers-q = Proque require vos tante differente parlantes per lingua?
@@ -374,7 +374,7 @@ faq-why-different-speakers-a =
     Le major parte del bases de datos es maestrate con un super-representation de certe datos demographic que resultata in un prejudicio verso <articleLink>le classe masculin e medie</articleLink>.Accentos e dialectos que tende a ser sub-representate in le maestramento del collectiones de datos es typicamente associate con gruppos de personas qui es jam marginalisate. Multe machinas alsi es reluctante a comprender le voces feminin.
     Isto es perque in nostre base de datos de voces nos vole le varietate!
 faq-why-my-lang-q = Perque mi lingua non es ancora includite?
-faq-why-my-lang-new-a = Mozilla non prefere o favori ulle lingua contra un altere. In vice, Common Voice es un initiativa ducite solmente per le communitate, ma require <multilangLink>plure grados pro adder un nove lingua</multilangLink> e initiar a colliger donationes de voce. Primo, le sito web de Common Voice debe ser traducite, assi que le membros del communitate pote fruer de instrumentos de collaboration in lor proprie lingua. Pois nos require un grande collection de phrases libere de derectos de autor proque le personas pote los leger ad voce alte. Un vice que ambe ille requisitos es satisfacite, un lingua es “lanceate” sur Common Voice pro le personas a partir del registration de lor voce e del validation del donationes del alteres. Si tu desira adjutar a lancear un nove lingua, va a nostre <sentenceCollectorLink>application de collection de phrases</sentenceCollectorLink> pro comenciar.
+faq-why-my-lang-new-a = Mozilla non prefere o favori alcun lingua a un altere. In vice, Common Voice es un initiativa strictemente communitari. Nonobstante, es necessari <multilangLink>plure passos pro adder un nove lingua</multilangLink> e comenciar a colliger donationes de voce. Primo, le sito web de Common Voice debe esser traducite de sorta que le membros del communitate pote usar lo in lor proprie lingua. Pois, nos require un grande collection de phrases libere de derectos de autor que le personas pote leger in alte voce. Un vice que ambe ille requisitos es satisfacite, un lingua es “lanceate” sur Common Voice de sorta que le personas pote comenciar a registrar lor voce e validar le donationes de alteres. Si tu vole adjutar a lancear un nove lingua, veni a nostre <sentenceCollectorLink>instrumento de collection de phrases</sentenceCollectorLink> pro comenciar.
 faq-what-quality-q = Que nivello de qualitate del audio es requirite proque le retalios vocal sia usate in le collection de datos?
 faq-what-quality-a = Nos vole que le collection de datos de Common Voice reflecte le qualitate del audio que un motor de recognition vocal audira in natura, assi nos recerca le varietate. In addition a un diverse communitate de parlantes, un collection de datos con qualitate del audio variabile <s0/>maestrara le recognition vocal a gerer varie situationes del mundo real, ab le voces se fundo al rumor del autos. Fin que tu retalio vocal es intelligibile, illo deberea ser bon bastante pro le collection de datos.
 faq-why-10k-hours-q = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
@@ -428,9 +428,9 @@ about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal
 about-partners = Partners
 about-become-a-partner = Deveni un partner
 about-partnership =
-    Common Voice es un projecto in collaboration, e nos es dependente de nostre communitate de socios e collaboratores pro crear le major collection de datos de voces open-source de sempre.
+    Common Voice es un projecto collaborative, e nos depende de nostre communitate de associatos e contributores pro crear le collection de voces libere le plus grande in le historia.
     
-    Nos place regratiar le sequente personas e organisationes pro lor adjuta al projecto:
+    Nos volerea regratiar le sequente personas e organisationes pro lor adjuta al projecto:
 about-get-involved = Collabora
 about-get-involved-text =
     Vole tu adjutar a render Common Voice mesmo melior?
@@ -540,7 +540,7 @@ data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = Le corpus de TED-LIUM esseva facite ab  audio e lor transcriptiones disponibile sur le sito web de TED.
 data-other-voxforge-description = VoxForge esseva create pro colliger voces transcribite a usar con motores de recognition de voce libere e open-source.
 data-other-tatoeba-description = Tatoeba es un grande base de datos de phrases, traductiones, e audio parlate a usar in apprendimento de linguas.Iste discarga contine anglese parlate registrate per lor communitates.
-your-feedback = Ha tu ideas sur como nos pote render le collection de datos de Common Voice melior? Face lo nos saper sur Discourse
+your-feedback = Ha tu ideas sur como nos pote meliorar le collection de datos de Common Voice? Face nos saper lo sur Discourse
 go-discourse = Va a Discourse
 missing-language = Non vide tu lingua reflectite in le Collection de datos? Si tu desira lo adder, accede a nostre Pagina del linguas.
 go-languages-page = Ir al pagina del linguas
@@ -735,8 +735,8 @@ activity-needed-calculation = Nos pote attinger { NUMBER($totalHours) } horas in
 how-many-per-day = Grande! Quante registrationes per die?
 how-many-a-week = Grande! Quante registrationes per septimana?
 which-goal-type = Vole tu parlar, ascoltar o ambe?
-receiving-emails-info = Tu ha actualmente convenite de reciper emails tal como mementos de objectivos, actualisationes re le progresso e bulletines de novas re Common Voice
-not-receiving-emails-info = Tu ha actualmente convenite de <bold>NON</bold> reciper emails tal como mementos de objectivos, actualisationes re le progresso e bulletines de novas re Common Voice
+receiving-emails-info = Tu ha optate pro reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
+not-receiving-emails-info = Tu ha optate pro <bold>NON</bold> reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
 n-clips = { NUMBER($count) } retalios vocal
 help-share-goal = Adjuta nos a trovar plus voces, comparti tu objectivo
 confirm-goal = Confirmar objectivo

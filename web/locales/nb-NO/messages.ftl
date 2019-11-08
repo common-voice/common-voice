@@ -9,8 +9,8 @@ email-input =
 submit-form-action = Send inn
 loading = Laster…
 email-opt-in-info = Jeg vil gjerne motta e-post med påminnelser, oppdateringer om fremgang og nyheter om Common Voice.
-email-opt-in-info-title = Abonner på Common Voice e-postlisten
-email-opt-in-info-sub = Motta e-mail om målpåminnelser, oppdateringer om progresjon og nyhetsbrev om Common Voice.
+email-opt-in-info-title = Abonner på Common Voice-e-postlisten
+email-opt-in-info-sub-with-challenge = Motta e-post om utfordrings- og målpåminnelser, oppdateringer om progresjon og nyhetsbrev om Common Voice.
 email-opt-in-privacy = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink> personvernerklæring.
 indicates-required = * Indikerer obligatorisk felt
 not-available-abbreviation = (Ikke relevant)
@@ -207,7 +207,7 @@ x-years-short =
     }
 help-make-dataset = Hjelp oss med å lage et høykvalitets, offentlig tilgjengelig datasett.
 sign-up-account = Lag deg en konto
-email-subscription-title = meld deg på for oppdateringer på e-mail
+email-subscription-title = meld deg på for oppdateringer på e-post
 email-subscription-title-new = Registrer deg for Common Voice nyhetsbrev, målpåminnelser og fremdriftsoppdateringer
 
 ## Account Benefits
@@ -218,16 +218,16 @@ improve-audio = Profilinformasjon forbedrer lyddataene som benyttes ved forbedri
 keep-track = Hold kon troll med din progresjon og dine måltall over flere språk.
 compare-progress = Sammenlign din fremgang med andre bidragsytere fra hele verden.
 view-goals = Se din fremgang sammenholdt med personlige mål og prosjektmål.
-join-newsletter = Om ønskelig kan du melde deg på vår e-mailliste for oppdateringer og ny informasjon om prosjektet.
+join-newsletter = Om ønskelig kan du melde deg på vår e-postliste for oppdateringer og ny informasjon om prosjektet.
 
 ## What's public
 
 whats-public = Hva er offentlig?
-email-not-public = Vi vil ikke offentliggjøre din e-mailadresse.
+email-not-public = Vi vil ikke offentliggjøre din e-postadresse
 recordings-and-locale-public = Antall lydklipp og hvilke språk du bidrar til vil være offentlig.
 username-optin-public = Du kan velge å gjøre brukernavnet ditt offentlig eller forbli anonym.
 demographic-deidentified = Frivillige demografiske tilleggsdata (for eksempel alder, kjønn, språk og dialekt) er frakoblet fra dine lydklipp og vil aldri publiseres på profilen din.
-username-email-not-demographic = Ditt brukernavn og din emailadresse vil ikke bli assosiert med offentliggjorte data.
+username-email-not-demographic = Ditt brukernavn og din e-postadresse vil ikke bli assosiert med offentliggjorte data.
 
 ## Speak & Listen Shortcuts
 
@@ -311,13 +311,13 @@ profile-close = Lukk
 profile-explanation = Hold rede på fremgangen din med en profil og hjelp oss med å gjøre våre stemmedata mer nøyaktige.
 thanks-for-account = Takk for at du bekreftet kontoen din. La oss lage en profil til deg.
 why-demographic = Hvorfor er dette viktig?
-why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og emailadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
+why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>Privacy Policy</privacyLink>.
 accept-privacy-title = Personvernpolicy
 login-identity = Innloggingsidentitet
 login-signup = Logg inn / Lag konto
 edit = Rediger
-email-subscriptions = Abonnement
+email-subscriptions = E-postabonnement
 download-profile = Last ned mine data
 contribution-experience = Bidragserfaring
 skip-submission-feedback = Hopp over tilbakemelding
@@ -343,13 +343,13 @@ about-avatar-clip-recording = Lag et lydklipp som del av profilavataren din. And
 browse-file-title = Last opp en bildefil
 browse-file = Dra og slipp eller <browseWrap>Browse</browseWrap>
 connect-gravatar = Link til Gravatar
-gravatar_not_found = Ingen gravatar funnet for din e-mailadresse
+gravatar_not_found = Ingen gravatar funnet for din e-postadresse
 file_too_large = Den valgte filen er for stor
 manage-subscriptions = Endre Abonnement
 manage-email-subscriptions = Rediger e-post innstillinger
-email-already-used = E-mailadressen er allerede tilknyttet en annen konto
+email-already-used = E-postadressen er allerede tilknyttet en annen konto
 add-language = Legg til språk
-change-email-setings = Endre e-mailadressen din via Innstillinger under Innloggingsidentitet
+change-email-setings = Endre e-postadressen din via Innstillinger under Innloggingsidentitet
 
 ## FAQ
 
@@ -434,7 +434,7 @@ about-partnership = Common Voice er et samarbeidsprosjekt, og vi er avhengig av 
 about-get-involved = Bli med
 about-get-involved-text =
     Vil du hjelpe til med å gjøre Common Voice enda  bedre?¶
-    Flott! Ta kontakt via email eller på <discourseLink>Discourse</discourseLink>,¶
+    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,¶
      gi tilbakemelding via <githubLink>GitHub</githubLink>, ¶
     eller kom sammen med oss på <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Hvorfor?
@@ -741,7 +741,7 @@ receiving-emails-info =
     Du er for øyeblikket satt opp til å motta e-postmeldinger som målpåminnelser, personlige
     fremdriftsoppdateringer og nyhetsbrev om Common Voice
 not-receiving-emails-info =
-    Du er for øyeblikket satt til å <bold> IKKE </bold> motta e-poster som målpåminnelser, personlige
+    Du er for øyeblikket satt til å <bold>IKKE</bold> motta e-poster som målpåminnelser, personlige
     fremdriftsoppdateringer og nyhetsbrev om Common Voice
 n-clips = { NUMBER($count) } klipp
 help-share-goal = Hjelp oss med å finne flere stemmer, del dine mål

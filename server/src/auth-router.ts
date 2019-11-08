@@ -97,11 +97,16 @@ if (DOMAIN) {
 router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
-  async ({ user, query: { state }, session }: Request, response: Response) => {
+  async (request: Request, response: Response) => {
+    const {
+      user,
+      query: { state },
+      session,
+    } = request;
     const { locale, old_user, old_email, redirect, enrollment } = JSON.parse(
       AES.decrypt(state, SECRET).toString(enc.Utf8)
     );
-    const basePath = locale ? '/' + locale + '/' : '/';
+    const basePath = locale ? `/${locale}/` : '/';
     if (!user) {
       response.redirect(basePath + 'login-failure');
     } else if (old_user) {
@@ -119,7 +124,8 @@ router.get(
           user.emails[0].value,
           enrollment.challenge,
           enrollment.team,
-          enrollment.invite
+          enrollment.invite,
+          request.header('Referer')
         ))
       ) {
         // if the user is unregistered, pass enrollment to frontend

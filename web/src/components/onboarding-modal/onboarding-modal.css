@@ -10,7 +10,7 @@
 .onboarding-modal .step-container {
     width: 54px;
     height: 24px;
-    font-family: OpenSans;
+    font-family: var(--base-font-family);
     font-size: 16px;
     margin: 0 auto 20px;
 }
@@ -41,7 +41,7 @@
     display: inline-flex;
     min-width: auto;
     text-transform: uppercase;
-    font-family: OpenSans;
+    font-family: var(--base-font-family);
     font-size: 14px;
     letter-spacing: 0.8px;
 }
@@ -95,25 +95,6 @@
 
 .operation-buttons > .listen-btn {
     margin-left: 20px;
-}
-.speak-btn::after,
-.listen-btn::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-    border-radius: 1000px;
-    filter: blur(7.6px);
-    top: 5px;
-    z-index: -1;
-    left: 0;
-}
-.speak-btn::after {
-    background: linear-gradient(90deg, #f89096, #b1b4e5);
-}
-.listen-btn::after {
-    background: linear-gradient(270deg, #88d1f1, #b1b5e5);
 }
 
 @media (--sm-down) {

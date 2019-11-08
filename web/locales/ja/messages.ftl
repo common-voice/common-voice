@@ -8,8 +8,11 @@ email-input =
     .label = メールアドレス
 submit-form-action = 送信
 loading = 読み込み中…
+email-opt-in-info = Common Voice に関する目標リマインダ、進捗状況の更新、ニュースレターなどのメールを受け取ります。
+email-opt-in-info-title = Common Voice メーリングリストに参加
 email-opt-in-privacy = メールの受信を選択した場合、Mozilla の<privacyLink>プライバシーポリシー<privacyLink>に記載のとおり、この情報を Mozilla が取り扱うことに同意したものとみなされます。
 indicates-required = * の付いた項目は入力必須です
+not-available-abbreviation = 該当なし
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -49,6 +52,7 @@ es = スペイン語
 et = エストニア語
 eu = バスク語
 fa = ペルシア語
+ff = フラ語
 fi = フィンランド語
 fo = フェロー語
 fr = フランス語
@@ -65,19 +69,26 @@ ia = インターリングア
 id = インドネシア語
 is = アイスランド語
 it = イタリア語
+izh = イングリア語
 ja = 日本語
 ka = ジョージア語
 kab = カビル語
 kk = カザフ語
 ko = 韓国語
 kpv = コミ・ジリエーン語
+ku = クルド語
 kw = コーンウォール語
 ky = キルギス語
+lij = リグリア語
+lt = リトアニア語
+lv = ラトビア語
 mdf = モクシャ語
 mhr = 牧地マリ語
 mk = マケドニア語
+ml = マラヤーラム語
 mn = モンゴル語
 mrj = 山地マリ語
+mt = マルタ語
 myv = エルジャ語
 nb-NO = ノルウェー語 (ブークモール)
 ne-NP = ネパール語
@@ -86,20 +97,25 @@ nn-NO = ノルウェー語 (ニーノシュク)
 oc = オック語
 or = オリヤー語
 pl = ポーランド語
-pt-BR = ポルトガル語 (ブラジル)
+pt = ポルトガル語
 rm-sursilv = ロマンシュ語 (Sursilvan)
+rm-vallader = ロマンシュ語 (ヴァラデル方言)
 ro = ルーマニア語
 ru = ロシア語
 rw = ルワンダ語
 sah = サハ語
 sc = サルデーニャ語
+si = シンハラ語
 sk = スロバキア語
 sl = スロベニア語
 sq = アルバニア語
 sr = セルビア語
 sv-SE = スウェーデン語
+sw = スワヒリ語
+syr = シリア語
 ta = タミル語
 te = テルグ語
+tg = タジク語
 th = タイ語
 tr = トルコ語
 tt = タタール語
@@ -123,6 +139,7 @@ speak = 話す
 speak-now = 話してください
 datasets = データセット
 languages = 言語
+about = Common Voice について
 profile = プロファイル
 help = ヘルプ
 contact = お問い合わせ
@@ -161,6 +178,7 @@ listen-paragraph = 寄贈された音声の検証も Common Voice プロジェ�
 listen-goal-text = 検証された音声
 hours-recorded = 総録音時間
 hours-validated = 総検証時間
+voices-online = Voices Online Now
 todays-progress = 今日の進捗
 help-reach-goal = { $goal } の達成にご協力ください
 read-terms-q = 規約を読み、同意していただけますか？
@@ -180,9 +198,9 @@ x-years-short =
        *[other] { $count } 年前
     }
 help-make-dataset = 誰でも利用できる高品質なデータセットの構築にご協力ください
-profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
 sign-up-account = アカウント登録
 email-subscription-title = 最新情報をメールで受け取る
+email-subscription-title-new = Common Voice ニュースレター受け取り、目標リマインダー、進行状況の更新のためにアカウント登録する
 
 ## Account Benefits
 
@@ -227,6 +245,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 録音/停止
+shortcut-rerecord-toggle = [1〜5]
+shortcut-rerecord-toggle-label = 音声を再録音する
 request-language-text = あなたの使っている言語は Common Voice にありますか？
 request-language-button = 言語の追加をリクエスト
 
@@ -294,13 +314,24 @@ skip-submission-feedback = フィードバックを送らない
 skip-submission-note = 注意: 「読み上げ」か「聞き取り」から貢献の種類を選んでください
 off = オフ
 on = オン
-add-avatar-title = プロファイルにアバターを追加
+avatar-clip-title = アバター声の設定
+change-your-avatar-clip = 音声クリップを変更しますか？
+avatar-clip-recorded = アバターに音声クリップが含まれるようになりました。
+retry-voice-wave-recording = 再試行
+re-record = 再録音
+delete-voice = 削除
+recording-voice-wave = 録音中
+delete-voice-clip = または音声クリップを削除
+ready-to-upload = アップロード
+cancel-avatar-clip-recording = キャンセル
+about-avatar-clip-recording = プロフィールアバターの音声クリップを作成します。アバターにカーソルを合わせると他の人が音声クリップを聞けます。
 browse-file-title = 画像ファイルをアップロード
 browse-file = ドラッグ＆ドロップまたは <browseWrap>ファイルを選択</browseWrap>
 connect-gravatar = Gravatar と接続
 gravatar_not_found = あなたのメールアドレスは Gravatar に見つかりませんでした
 file_too_large = 選択したファイルのサイズが大きすぎます
 manage-subscriptions = 購読の管理
+manage-email-subscriptions = メール購読を管理
 email-already-used = メールアドレスは別のアカウントですでに使用されています。
 add-language = 言語を追加
 change-email-setings = メールアドレスは、設定の「ログイン用アカウント」から変更できます
@@ -311,7 +342,8 @@ faq-title = よくある質問
 faq-what-cv-q = Common Voice とは？
 faq-why-important-q = なぜ重要なのですか？
 faq-how-get-q = Common Voice のデータはどうやって入手できますか？
-faq-when-release-q = 他の言語の Common Voice データをいつリリースする予定ですか？
+faq-how-get-a = Common Voice データセットは、<datasetLink>データセットページ</datasetLink>の <licenseLink>CC0</licenseLink> ライセンスに基づいてダウンロードできます。 同じページから他の公に利用可能なデータセットをダウンロードすることもできます。
+faq-when-release2-q = 他の言語の Common Voice データをいつリリースする予定ですか？
 faq-why-mission-q = Common Voice はなぜ Mozilla の使命の一部なのですか？
 faq-what-cv-and-deepspeech-q = Common Voice と Deep Speech の違いは何ですか？
 faq-is-goal-assistant-q = Common Voice の目的は音声アシスタントを構築することですか？
@@ -320,9 +352,32 @@ faq-how-calc-hours-q = Common Voice はどのように時間を計算します�
 faq-where-src-from-2-q = 原文の出典はどこですか？
 faq-why-account-q = アカウント登録する必要があるのはなぜですか？
 faq-is-account-public-q = 私のアカウント情報は公開されていますか？
+faq-what-is-cv = Common Voice とは？
+faq-using-cv = Common Voice を使う
+faq-description = Common Voice プロジェクトは、機械が人の話を理解できるようにするための Mozilla の新たな取り組みの一つです。
+faq-search-for-answers =
+    .label = 答えを探す
 
 ## ABOUT US
 
+about-title = なぜ Common Voice なのか？
+about-subtitle = Common Voice プロジェクトは、機械が人の話を理解できるようにするための Mozilla の新たな取り組みの一つです。Common Voice データセットに加えて、Deep Speech と呼ばれるオープンソースの音声認識エンジンも構築しています。
+about-header-description =
+    これらのプロジェクトはどちらも、デジタル音声の格差を解消する取り組みの一環です。音声認識技術は私たちのデバイスに人間的側面をもたらしますが、開発者はそれらを構築するために膨大な量の音声データを必要とします。現在、そのデータの大部分は高価で独占的なものです。
+    私たちは音声データを自由に、そして公に利用可能にし、そのデータが現実の人々の多様性を表していることを確かめたいのです。私たちと一緒に、すべての人のために音声認識を良くしていきましょう。
+how-does-it-work-title = 動作の仕組みは？
+how-does-it-work-text = 私たちは声のオープンソースデータセットをクラウドソーシングしています。あなたの声を寄付し、他の人々の音声クリップの正確さを検証し、誰にとっても良いデータセットにしましょう。
+about-speak = 話す
+about-listen = 聴く
+about-listen-text = ユーザーは寄付されたクリップの正確性を検証し、話者が文を正しく読んでいることを確認します。
+about-is-it-valid = 音声クリップは正しいですか？
+about-is-it-valid-text = ユーザーが「はい」の投票を行うと、音声クリップは「有効」とマークされます。
+about-yes-votes = 2 票以上の賛成
+about-no-votes = 2 票未満
+about-dataset-new = Common Voice データセット
+about-dataset-new-text = Common Voice データセットには、開発者が音声認識ツールを構築するのに役立つ数十万の音声サンプルが含まれています。
+about-partners = パートナー
+about-become-a-partner = パートナーになる
 
 ## Glossary
 
@@ -386,6 +441,7 @@ download-language = { $language } をダウンロード
 validated-hours = 検証された時間
 recorded-hours = 録音された時間
 whats-inside = Common Voice データセットの中身は？
+subscribe = 購読
 data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
 data-other-ted-name = TED-LIUM コーパス
 data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
@@ -393,6 +449,10 @@ data-other-voxforge-description = VoxForge はフリーかつオープンソー�
 data-other-tatoeba-description = Tatoeba は言語学習のための大量の文章、翻訳、音声のデータセットです。Tatoeba のコミュニティによって録音された、英語の音声がダウンロードできます。
 go-languages-page = 言語選択ページへ移動
 ready-to-validate = 文章の検証を手伝う準備はできましたか？
+more = 詳細
+close = 閉じる
+download = ダウンロード
+dataset-version = バージョン
 
 ## Download Modal
 
@@ -420,14 +480,16 @@ request-language-form-language =
     .label = 言語
 request-language-success-title = ありがとうございます。言語のリクエストが完了しました。
 request-language-success-content = Common Voice にあなたの言語を追加する方法について、こちらから連絡します。
+select-language = 言語を選択...
+other-language = 他の言語
 
 ## Languages Overview
 
 language-section-in-progress = 現在進行中
+language-section-in-progress-new-description = これらの言語は現在、コミュニティが開発中です。進捗バーは、各言語が <localizationGlossaryLink>ウェブサイトのローカライズ</localizationGlossaryLink> と <sentenceCollectionGlossaryLink>文章の収集</sentenceCollectionGlossaryLink> のプロセスの進捗状況を示します。
 language-section-launched = 公開中
 languages-show-more = もっと見る
 languages-show-less = 閉じる
-language-speakers = スピーカー
 language-meter-in-progress = 進捗
 language-total-progress = 合計
 language-search-input =
@@ -437,7 +499,7 @@ localized = ローカライズ済み
 sentences = 文章
 total-hours = 合計時間
 
-## New Contribution
+## Contribution
 
 action-click = クリック
 action-tap = タップ
@@ -469,7 +531,6 @@ record-again-instruction = ありがとう！<recordIcon></recordIcon>で続け�
 record-again-instruction2 = 頑張って、続けて録音しよう<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>これで最後！
 review-tooltip = 録音した音声の、確認と再録音
-unable-speak = 今は喋れませんか？
 review-instruction = 録音した音声を確認して、必要なら再録音してください
 record-submit-tooltip = 終わったら提出を{ $actionType }
 clips-uploaded = 音声がアップロードされました
@@ -485,6 +546,15 @@ listen-last-time-instruction = <playIcon></playIcon>最後の一つ！
 nothing-to-validate = この言語で検証することはありません。キューを埋めるのを手伝ってください。
 record-button-label = あなたの声を録音する
 share-title-new = 音声を集める<bold>手伝い</bold>をしてください
+login-to-get-started = ログインまたはアカウント登録して開始
+
+## Reporting
+
+report = 報告
+report-title = 報告を送信
+report-ask = この文章でどのような問題が発生していますか？
+success = 成功
+continue = 続ける
 
 ## Goals
 
@@ -519,6 +589,9 @@ recorded-clips = 録音件数
 validated-clips = 検証件数
 total-approved = 承認された合計時間
 overall-accuracy = 全体の精度
+
+## Custom Goals
+
 
 ## Profile Delete
 

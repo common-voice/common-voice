@@ -57,7 +57,7 @@ const SECTION_CONTENTS: any = {
             href="https://pontoon.mozilla.org/projects/common-voice/"
             blank
           />
-        )
+        ),
       },
     ],
     'faq-do-want-native',

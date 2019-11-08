@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Відправити
 loading = Завантаження…
 email-opt-in-info = Я хочу отримувати електронні листи з нагадуванням про цілі, повідомлення про досягнення та новини про Common Voice.
+email-opt-in-info-title = Приєднатися до розсилки Common Voice
+email-opt-in-info-sub = Отримувати такі листи, як нагадування про цілі, повідомлення про досягнення і новини про Common Voice.
 email-opt-in-privacy = Погоджуючись отримувати листи, ви заявляєте, що згодні з тим, як Mozilla обробляє цю інформацію, згідно з <privacyLink>Політикою приватності<privacyLink> Mozilla.
 indicates-required = * поля, обов'язкові для заповнення
 not-available-abbreviation = Недоступно
@@ -214,6 +216,7 @@ x-years-short =
 help-make-dataset = Допоможіть нам створити високоякісний, публічно-відкритий набір даних
 sign-up-account = Зареєструвати обліковий запис
 email-subscription-title = Підпишіться на оновлення
+email-subscription-title-new = Підпишіться на розсилку новин Common Voice, нагадування про цілі і поновлення прогресу
 
 ## Account Benefits
 
@@ -331,8 +334,14 @@ skip-submission-note = Примітка: Вам все одно необхідн
 off = Вимкнено
 on = Увімкнено
 avatar-clip-title = Дайте голос своєму аватару
+change-your-avatar-clip = Хочете змінити свій запис?
+avatar-clip-recorded = Тепер у вашого аватара є голос!
 record-voice-wave = Записати голос
+retry-voice-wave-recording = ПОВТОРИТИ
+re-record = ПЕРЕЗАПИСАТИ
+delete-voice = ВИДАЛИТИ
 recording-voice-wave = Запис
+delete-voice-clip = або видалити запис
 ready-to-upload = Завантажити
 avatar-clip-fact = Давно встановлений факт, що читач буде відволікатися на читабельний вміст сторінки, дивлячись на її макет.
 recreate-voice = Перезаписати голос
