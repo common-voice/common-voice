@@ -659,6 +659,7 @@ recorded-clips = Clips grabaos
 validated-clips = Clips validaos
 total-approved = Total d'aprobaos
 overall-accuracy = Precisión xeneral
+set-visibility = Afitar la mio visibilidá
 
 ## Custom Goals
 
@@ -672,7 +673,9 @@ easy-difficulty = Fácil
 average-difficulty = Normal
 difficult-difficulty = Difícil
 pro-difficulty = Profesional
+lose-goal-progress-warning = Cola edición de la meta vas perder el progresu que ficiesti.
 want-to-continue = ¿Quies siguir?
+lose-changes-warning = El colar agora va facer que pierdas los cambeos
 build-custom-goal = Creación d'una meta personalizada
 help-reach-hours-general = Ayuda con una meta personal a que Common Voice algame { NUMBER($hours) } hores nuna llingua
 set-a-goal = Afitar una meta
