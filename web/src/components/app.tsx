@@ -77,7 +77,6 @@ interface LocalizedPagesState {
   hasScrolled: boolean;
   bundleGenerator: any;
   uploadPercentage?: number;
-  isChallengeDashboard?: boolean;
 }
 
 let LocalizedPage: any = class extends React.Component<
@@ -89,7 +88,6 @@ let LocalizedPage: any = class extends React.Component<
     hasScrolled: false,
     bundleGenerator: null,
     uploadPercentage: null,
-    isChallengeDashboard: location.pathname.includes(URLS.CHALLENGE),
   };
 
   isUploading = false;
@@ -99,12 +97,6 @@ let LocalizedPage: any = class extends React.Component<
     window.addEventListener('scroll', this.handleScroll);
     setTimeout(() => this.setState({ hasScrolled: true }), 5000);
     this.props.refreshUser();
-    history.listen(location => {
-      console.log(location.pathname);
-      this.setState({
-        isChallengeDashboard: location.pathname.includes(URLS.CHALLENGE),
-      });
-    });
   }
 
   async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
@@ -217,11 +209,7 @@ let LocalizedPage: any = class extends React.Component<
 
   render() {
     const { locale, notifications, toLocaleRoute } = this.props;
-    const {
-      bundleGenerator,
-      uploadPercentage,
-      isChallengeDashboard,
-    } = this.state;
+    const { bundleGenerator, uploadPercentage } = this.state;
 
     if (!bundleGenerator) return null;
 
@@ -246,10 +234,7 @@ let LocalizedPage: any = class extends React.Component<
         />
         <LocalizationProvider bundles={bundleGenerator}>
           <div>
-            <div
-              className={`notifications ${
-                isChallengeDashboard ? 'achievement' : ''
-              }`}>
+            <div className="notifications">
               {notifications
                 .slice()
                 .reverse()
