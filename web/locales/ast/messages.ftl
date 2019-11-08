@@ -21,13 +21,17 @@ not-available-abbreviation = N/D
 
 ## Languages
 
+ab = Abḥasianu
 ace = Achinés
+ady = Adigué
 af = Afrikaans
+am = Amáricu
 an = Aragonés
 ar = Árabe
 as = Asamés
 ast = Asturianu
 az = Azerbaixanu
+ba = Baxkir
 bg = Búlgaru
 bn = Bengalí
 br = Bretón
@@ -49,6 +53,7 @@ es = Español
 et = Estoniu
 eu = Vascu
 fa = Persa
+ff = Fula
 fi = Finlandés
 fo = Feroés
 fr = Francés
@@ -288,7 +293,7 @@ profile-form-age =
 profile-form-gender =
     .label = Xéneru
 leaderboard-visibility =
-    .label = Visibilidá na tabla de líderes
+    .label = Visibilidá na clasificación
 hidden = Invisible
 visible = Visible
 native-language =
@@ -414,7 +419,7 @@ about-get-involved = Andecha
 about-get-involved-text =
     ¿Quies ayudar a facer que Common Voice seya meyor?
     ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>,
-    unvia comentarios per <githubLink>GitHub</githubLink>, o xúnite a nós en <slackLink>Slack</slackLink>.
+    unvia comentarios per <githubLink>GitHub</githubLink> o xúnite a nós en <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
@@ -493,6 +498,7 @@ whats-inside = ¿Qué hai dientro del conxuntu de datos de Common Voice?
 want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión nueva del conxuntu de datos de Common Voice? Soscríbite al boletín.
 other-datasets = Otros conxuntos de datos de voz
 feedback-q = ¿Tienes comentarios?
+common-voice-info-new = ¿Tienes entrugues tocante a Common Voice?¿idees, ameyores o comentarios tocante a una llingua n'especial? Xúnite a nós nel foru <discourseLink>Discourse</discourseLink> y fala con nós.
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose a partir de los audios de charres y les sos trescripciones disponibles nel sitiu web TED.
@@ -660,6 +666,8 @@ validated-clips = Clips validaos
 total-approved = Total d'aprobaos
 overall-accuracy = Precisión xeneral
 set-visibility = Afitar la mio visibilidá
+visibility-explainer = Esti axuste controla la to visibilidá na clasificación. Al tar invisible, va anubrise lo que progreses. Eso significa que'l to avatar, nome d'usuariu y progresu nun van apaecer nesta tabla. Decátate que la clasificación refréscase cada ~{ $minutes } minutos p'amosar los cambeos.
+visibility-overlay-note = Nota: Al aftiar «Visible», esti axuste pue modificase dende la <profileLink>páxina del perfil</profileLink>
 
 ## Custom Goals
 
