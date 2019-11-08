@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
-import { ChallengeDuration } from 'common/challenge';
+import { challengeTeams } from 'common/challenge';
 import WeeklyChallenge from './weekly-challenge';
 import LeaderBoardCard from './leaderboard-card';
 import TeamBoardCard from './team-card';
@@ -14,7 +14,6 @@ import { LabeledCheckbox } from '../../../ui/ui';
 import { trackChallenge } from '../../../../services/tracker';
 import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
 import { isChallengeLive, pilotDates } from './constants';
-import { challengeTeams } from 'common/challenge';
 import './challenge.css';
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
@@ -49,7 +48,7 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
         <div className="visible-btns">
           <LabeledCheckbox
             label="Visible for all"
-	    defaultChecked={account.visible === VISIBLE_FOR_ALL}
+            defaultChecked={account.visible === VISIBLE_FOR_ALL}
             ref={visibleForAll}
             onChange={(event: any) => {
               if (event.target.checked) {
