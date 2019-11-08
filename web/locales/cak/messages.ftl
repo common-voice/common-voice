@@ -209,6 +209,7 @@ email-subscription-title-new = Tatz'ib'aj awi' pa ri ko'öl ruwuj rutzijol, nata
 ## Account Benefits
 
 benefits = Taq rutzil
+rich-data = Tatojtob'ej chi e tz'aqät ronojel ri taq rutzijol ye'atäq, rik'in rutaqik kitzjol apewinäq, ri man etaman ta kiwäch. Ronojel ri taq tzij ri' choj man etaman ta kiwäch chuwäch xkekitz'ët ri winaqi'.
 compare-progress = Tajunamaj ri ab'anon rik'in ri kib'anon ch'aqa' chik to'onela' chijun ri ruwach'ulew.
 view-goals = Tatz'eta' ri ab'anon rik'in ri arayb'al chuqa' richin ri rurayib'al nuk'samaj.
 join-newsletter = Yatikïr natün awi' pa ri rucholajem qataqoya'al richin ye'ak'ül taq k'exoj chuqa' ri k'ak'a' etamab'äl k'o pa nimasamaj.
