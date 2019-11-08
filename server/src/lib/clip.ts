@@ -12,6 +12,8 @@ import Bucket from './bucket';
 import { ClientParameterError } from './utility';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
+// [TODO] didn't do type enforcement at all, should do though
+import { challengeTeamTokens } from 'common/challenge';
 
 const Transcoder = require('stream-transcoder');
 
@@ -83,7 +85,7 @@ export default class Clip {
     response: Response
   ) => {
     const id = params.clipId as string;
-    const { isValid } = body;
+    const { isValid, challenge } = body;
 
     const clip = await this.model.db.findClip(id);
     if (!clip || !client_id) {
@@ -106,7 +108,20 @@ export default class Clip {
 
     console.log('clip vote written to s3', voteFile);
 
-    response.json(glob);
+    const achievement = await this.model.db.firstContributionBonus(
+      challenge,
+      client_id
+    );
+    const hasAchieved = await this.model.db.earnedInviteContributeSameSessionBonus(
+      client_id,
+      challenge
+    );
+    const ret = {
+      glob: glob,
+      firstContribute: achievement.achievement,
+      hasAchieved: hasAchieved,
+    };
+    response.json(ret);
 
     await checkGoalsAfterContribution(client_id, { id: clip.locale_id });
     Basket.sync(client_id).catch(e => console.error(e));
@@ -192,7 +207,21 @@ export default class Clip {
 
       await checkGoalsAfterContribution(client_id, { name: params.locale });
       Basket.sync(client_id).catch(e => console.error(e));
-      response.json(filePrefix);
+
+      const achievement = await this.model.db.firstContributionBonus(
+        headers.challenge as string,
+        client_id
+      );
+      const hasAchieved = await this.model.db.earnedInviteContributeSameSessionBonus(
+        client_id,
+        headers.challenge as string
+      );
+      const ret = {
+        filePrefix: filePrefix,
+        firstContribute: achievement.achievement,
+        hasAchieved: hasAchieved,
+      };
+      response.json(ret);
     } catch (error) {
       console.error(error);
       response.statusCode = error.statusCode || 500;

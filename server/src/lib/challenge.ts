@@ -24,9 +24,37 @@ export default class Challenge {
       '/:challenge/:locale/contributors/:type',
       this.getTopContributors
     );
+    router.use('/:challenge/achievement/:type', this.getAchievement);
 
     return router;
   }
+
+  getAchievement = async (
+    { client_id, params: { challenge, type } }: Request,
+    response: Response
+  ) => {
+    if (type === 'session') {
+      // earn the invite_contribute_same_session achievement, don't return anything
+      // [TODO] should use await here??
+      await this.model.db.earnInviteContributeSameSessionBonus(client_id);
+    } else if (type == 'invite') {
+      // return { firstInvite: boolean, hasAchieved: boolean } in the json
+      // NOTE: easy to get confused about how should return true or false
+      // if first_invitation achievement is not earned yet, earn that achievement and return firstInvite: true
+      // if invite_contribute_same_session is not earned yet, return hasAchieved: false
+      const achievement = {
+        firstInvite: await this.model.db.firstInvitationBonus(
+          client_id,
+          challenge
+        ),
+        hasAchieved: await this.model.db.earnedInviteContributeSameSessionBonus(
+          client_id,
+          challenge
+        ),
+      };
+      response.json(achievement);
+    }
+  };
 
   getPoints = async (
     { client_id, params: { challenge } }: ChallengeRequestArgument & Request,

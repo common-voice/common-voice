@@ -130,10 +130,23 @@ router.get(
       ) {
         // if the user is unregistered, pass enrollment to frontend
         user.enrollment = enrollment;
+      } else {
+        // if the user is already registered, now he/she should be enrolled
+        // [TODO] there should be an elegant way to get the client_id here
+        // [TODO] have not thought about how to show toast if registered user get enrolled
+        const client_id = await UserClient.findClientId(user.emails[0].value);
+        await UserClient.friendSignUpBonus(
+          enrollment.challenge,
+          client_id,
+          enrollment.invite
+        );
+        await UserClient.firstSignUpBonus(enrollment.challenge, client_id);
       }
 
+      // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
       response.redirect(
-        redirect || `${basePath}login-success?challenge=${enrollment.challenge}`
+        redirect ||
+          `${basePath}login-success?challenge=${enrollment.challenge}&first=1&achievement=1`
       );
     } else {
       response.redirect(redirect || basePath + 'login-success');
