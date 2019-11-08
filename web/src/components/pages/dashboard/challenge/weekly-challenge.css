@@ -72,6 +72,10 @@
         }
     }
 }
+.week-points {
+    float: right;
+    margin-top: -15px;
+}
 
 @media (--sm-down) {
     .weekly-container {

@@ -179,6 +179,7 @@ class ChallengeList extends React.Component<Props, State> {
                 <div className="avatar-container">
                   <Avatar
                     url={challengeLogoUrls[user.account.enrollment.team]}
+                    className="team"
                   />
                 </div>
                 <div className="username" title={row.name}>

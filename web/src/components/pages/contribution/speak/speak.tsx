@@ -89,6 +89,7 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   addUploads: typeof Uploads.actions.add;
+  addAchievement: typeof Notifications.actions.addAchievement;
   addNotification: typeof Notifications.actions.addPill;
   removeSentences: typeof Sentences.actions.remove;
   tallyRecording: typeof User.actions.tallyRecording;
@@ -361,6 +362,7 @@ class SpeakPage extends React.Component<Props, State> {
 
   private upload = (hasAgreed: boolean = false) => {
     const {
+      addAchievement,
       addNotification,
       addUploads,
       api,
@@ -387,39 +389,34 @@ class SpeakPage extends React.Component<Props, State> {
         let retries = 3;
         while (retries) {
           try {
-            const res = await api.uploadClip(
+            const {
+              firstContribute = false,
+              hasAchieved = false,
+            } = await api.uploadClip(
               recording.blob,
               sentence.id,
               sentence.text
             );
-            if (res.achievement) {
-              addNotification(
-                <div className="achievement">
-                  <img
-                    src={require('../../dashboard/challenge/images/star.svg')}
-                    alt=""
-                  />
-                  <p className="score">+ 50 points</p>
-                  <p>
-                    You're on your way! Congrats on your first contribution.{' '}
-                  </p>
-                </div>
+            sessionStorage.setItem('hasContributed', 'true');
+            if (firstContribute) {
+              addAchievement(
+                50,
+                "You're on your way! Congrats on your first contribution.",
+                'success'
               );
-              if (Boolean(sessionStorage.getItem('first'))) {
-                addNotification(
-                  <div className="achievement">
-                    <img
-                      src={require('../../dashboard/challenge/images/star.svg')}
-                      alt=""
-                    />
-                    <p className="score">+ 50 points</p>
-                    <p>
-                      You're on a roll! You sent an invite and contributed in
-                      the same session.
-                    </p>
-                  </div>
-                );
-              }
+            }
+            if (
+              JSON.parse(sessionStorage.getItem('hasShared')) &&
+              !hasAchieved
+            ) {
+              addAchievement(
+                50,
+                "You're on a roll! You sent an invite and contributed in the same session.",
+                'success'
+              );
+              // Tell back-end user get unexpected achievement: invite + contribute in the same session
+              // Each user can only get once.
+              api.setInviteContributeAchievement();
             }
             if (!user.account) {
               tallyRecording();
@@ -654,6 +651,7 @@ const mapStateToProps = (state: StateTree) => {
 
 const mapDispatchToProps = {
   addNotification: Notifications.actions.addPill,
+  addAchievement: Notifications.actions.addAchievement,
   addUploads: Uploads.actions.add,
   removeSentences: Sentences.actions.remove,
   tallyRecording: User.actions.tallyRecording,

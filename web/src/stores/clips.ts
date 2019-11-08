@@ -17,7 +17,8 @@ export namespace Clips {
     [locale: string]: {
       clips: Clip[];
       isLoading: boolean;
-      achievement: boolean;
+      firstContribute: boolean;
+      hasAchieved: boolean;
       next?: Clip;
     };
   }
@@ -39,6 +40,8 @@ export namespace Clips {
 
   interface AchievementAction extends ReduxAction {
     type: ActionType.ACHIEVEMENT;
+    firstContribute?: boolean;
+    hasAchieved?: boolean;
   }
 
   interface RefillCacheAction extends ReduxAction {
@@ -108,12 +111,19 @@ export namespace Clips {
       const state = getState();
       const id = clipId || localeClips(state).next.id;
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
-      const res = await state.api.saveVote(id, isValid);
+      const { firstContribute, hasAchieved } = await state.api.saveVote(
+        id,
+        isValid
+      );
       if (!state.user.account) {
         dispatch(User.actions.tallyVerification());
       }
-      if (res.achievement) {
-        dispatch({ type: ActionType.ACHIEVEMENT });
+      if (state.user.account.enrollment.challenge) {
+        dispatch({
+          type: ActionType.ACHIEVEMENT,
+          firstContribute,
+          hasAchieved,
+        });
       }
       User.actions.refresh()(dispatch, getState);
       actions.refillCache()(dispatch, getState);
@@ -137,7 +147,8 @@ export namespace Clips {
           clips: [],
           next: null,
           isLoading: false,
-          achievement: false,
+          firstContribute: false,
+          hasAchieved: false,
         },
       }),
       {}
@@ -169,7 +180,8 @@ export namespace Clips {
                 clips.findIndex(clip2 => clip2.id === clip1.id) === i
             ),
             isLoading: false,
-            achievement: false,
+            hasAchieved: false,
+            firstContribute: false,
             next,
           },
         };
@@ -186,7 +198,8 @@ export namespace Clips {
           ...state,
           [locale]: {
             ...localeState,
-            achievement: true,
+            hasAchieved: action.hasAchieved,
+            firstContribute: action.firstContribute,
           },
         };
       }

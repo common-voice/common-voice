@@ -1,7 +1,8 @@
 import * as React from 'react';
 import WeeklyChallengeBoard from './weekly-challenge-board';
 import { WeeklyChallenge } from 'common/challenge';
-import { useAccount } from '../../../../hooks/store-hooks';
+import { useAccount, useNotifications } from '../../../../hooks/store-hooks';
+import NotificationPill from '../../../notification-pill/notification-pill';
 import { challengeLogoUrls } from './constants';
 import './weekly-challenge.css';
 
@@ -33,6 +34,7 @@ export default function WeeklyChallenge({
   }
   const label = pastWeek.length === 0 ? 'Future' : 'Past';
   const account = useAccount();
+  const notifications = useNotifications();
 
   return (
     <div className="weekly-container">
@@ -49,6 +51,21 @@ export default function WeeklyChallenge({
               {++index}
             </span>
           ))}
+        </div>
+        <div className="week-points">
+          {notifications
+            .slice()
+            .reverse()
+            .map(
+              notification =>
+                notification.kind == 'pill' &&
+                notification.score && (
+                  <NotificationPill
+                    key={notification.id}
+                    {...{ notification }}
+                  />
+                )
+            )}
         </div>
       </div>
       <div className="weekly-content">

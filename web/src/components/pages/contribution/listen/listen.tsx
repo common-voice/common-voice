@@ -5,6 +5,7 @@ import { trackListening } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
+import API from '../../../../services/api';
 import URLS from '../../../../urls';
 import {
   CheckIcon,
@@ -42,16 +43,18 @@ const VoteButton = ({
 );
 
 interface PropsFromState {
+  api: API;
   clips: Clips.Clip[];
   isLoading: boolean;
   locale: Locale.State;
-  achievement: boolean;
+  firstContribute: boolean;
+  hasAchieved: boolean;
 }
 
 interface PropsFromDispatch {
   removeClip: typeof Clips.actions.remove;
   vote: typeof Clips.actions.vote;
-  addNotification: typeof Notifications.actions.addPill;
+  addAchievement: typeof Notifications.actions.addAchievement;
 }
 
 interface Props extends PropsFromState, PropsFromDispatch {}
@@ -131,37 +134,28 @@ class ListenPage extends React.Component<Props, State> {
 
   private vote = (isValid: boolean) => {
     const { clips } = this.state;
-    const { achievement, addNotification } = this.props;
+    const { firstContribute, hasAchieved, addAchievement, api } = this.props;
     const clipIndex = this.getClipIndex();
 
     this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
-    if (achievement) {
-      addNotification(
-        <div className="achievement">
-          <img
-            src={require('../../dashboard/challenge/images/star.svg')}
-            alt=""
-          />
-          <p className="score">+ 50 points</p>
-          <p>You're on your way! Congrats on your first contribution. </p>
-        </div>
+    sessionStorage.setItem('hasContributed', 'true');
+    if (firstContribute) {
+      addAchievement(
+        50,
+        "You're on your way! Congrats on your first contribution.",
+        'success'
       );
-      if (Boolean(sessionStorage.getItem('first'))) {
-        addNotification(
-          <div className="achievement">
-            <img
-              src={require('../../dashboard/challenge/images/star.svg')}
-              alt=""
-            />
-            <p className="score">+ 50 points</p>
-            <p>
-              You're on a roll! You sent an invite and contributed in the same
-              session.
-            </p>
-          </div>
-        );
-      }
+    }
+    if (JSON.parse(sessionStorage.getItem('hasShared')) && !hasAchieved) {
+      addAchievement(
+        50,
+        "You're on a roll! You sent an invite and contributed in the same session.",
+        'success'
+      );
+      // Tell back-end user get unexpected achievement: invite + contribute in the same session
+      // Each user can only get once.
+      api.setInviteContributeAchievement();
     }
     this.setState({
       hasPlayed: false,
@@ -347,11 +341,19 @@ class ListenPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => {
-  const { clips, isLoading, achievement } = Clips.selectors.localeClips(state);
+  const {
+    clips,
+    isLoading,
+    firstContribute,
+    hasAchieved,
+  } = Clips.selectors.localeClips(state);
+  const { api } = state;
   return {
     clips,
     isLoading,
-    achievement,
+    firstContribute,
+    hasAchieved,
+    api,
     locale: state.locale,
   };
 };
@@ -359,6 +361,7 @@ const mapStateToProps = (state: StateTree) => {
 const mapDispatchToProps = {
   removeClip: Clips.actions.remove,
   vote: Clips.actions.vote,
+  addAchievement: Notifications.actions.addAchievement,
 };
 
 export default connect<PropsFromState, any>(

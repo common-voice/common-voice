@@ -4,6 +4,7 @@ import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
 import { FontIcon } from '../ui/icons';
 import { Button } from '../ui/ui';
+import { useAPI } from '../../hooks/store-hooks';
 import { trackChallenge } from '../../services/tracker';
 
 import './invite-modal.css';
@@ -16,12 +17,22 @@ export interface InviteModalProps extends ModalProps {
 export default ({ inviteId, teamId, ...props }: InviteModalProps) => {
   const [copiedRecently, setCopiedRecently] = useState<boolean>(false);
   const inputRef = useRef();
+  const api = useAPI();
   // Reset the button's copied state after a brief timeout.
   useEffect(() => {
     if (copiedRecently) {
       const timer = setTimeout(() => {
         setCopiedRecently(false);
       }, 2000);
+      // To check whether or not it is the first invite.
+      api
+        .fetchInviteStatus()
+        .then(({ firstInvite = false, hasAchieved = false }) => {
+          sessionStorage.setItem('firstInvite', JSON.stringify(firstInvite));
+          sessionStorage.setItem('hasAchieved', JSON.stringify(hasAchieved));
+        });
+      sessionStorage.setItem('hasShared', 'true');
+
       return () => clearTimeout(timer);
     }
   }, [copiedRecently]);

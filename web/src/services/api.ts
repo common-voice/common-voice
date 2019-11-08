@@ -24,7 +24,8 @@ interface FetchOptions {
 }
 
 interface Vote extends Event {
-  achievement?: boolean;
+  hasAchieved?: boolean;
+  firstContribute?: boolean;
 }
 
 const API_PATH = location.origin + '/api/v1';
@@ -108,13 +109,14 @@ export default class API {
     blob: Blob,
     sentenceId: string,
     sentence: string
-  ): Promise<{ achievement?: boolean }> {
+  ): Promise<{ firstContribute?: boolean; hasAchieved?: boolean }> {
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
         sentence_id: sentenceId,
+        challenge: this.user.account.enrollment.challenge,
       },
       body: blob,
     });
@@ -124,6 +126,7 @@ export default class API {
       method: 'POST',
       body: {
         isValid,
+        challenge: this.user.account.enrollment.challenge,
       },
     });
   }
@@ -373,6 +376,23 @@ export default class API {
       }/${locale}/members/${type}?cursor=${
         cursor ? JSON.stringify(cursor) : ''
       }`
+    );
+  }
+  // check whether or not is the first invite
+  fetchInviteStatus(): Promise<{ firstInvite: boolean; hasAchieved: boolean }> {
+    return this.fetch(
+      `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/invite`
+    );
+  }
+
+  // Tell back-end user get unexpected achievement: invite + contribute in the same session
+  // Each user can only get once.
+  setInviteContributeAchievement(): Promise<void> {
+    return this.fetch(
+      `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/session`,
+      {
+        method: 'POST',
+      }
     );
   }
 }
