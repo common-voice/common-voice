@@ -222,6 +222,7 @@ email-not-public = Man xtiqataluj ta ri ataqoya'l.
 recordings-and-locale-public = Ri rajlab'al yakoj chuqa' ri ch'ab'äl akuchi' xkato'on, ja ri' xtiqataluj rutzijol.
 username-optin-public = Yatikïr nacha' jun b'i'aj talun rutzijol o man netamäx ta ruwäch.
 demographic-deidentified = Ri taq apewinäq tzij choj xketaq (achi'el, rujuna', rub'anikil, ruch'ab'äl chuqa' rub'eyal nich'o) man nuxïm ta ri' rik'in ri ruch'ab'äl nuya' chuqa' majub'ey xtiq'alajisäx chi kiwäch ri winaqi' pa ruwäch ab'i'.
+username-email-not-demographic = Man xkexim ta ri rub'i' awokisaxel chuqa' ataqoya'l rik'in ri taq tzij xtitalüx kitzijol.
 
 ## Speak & Listen Shortcuts
 
@@ -247,6 +248,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Tiyak/Tipab'äx
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Tiyak chik ri yakoj
 request-language-text = ¿La k'a man nawïl ta ri ach'ab'äl pa Common Voice?
 request-language-button = Tik'utüx jun Ch'ab'äl
 
