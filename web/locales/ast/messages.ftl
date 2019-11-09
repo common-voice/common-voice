@@ -493,6 +493,7 @@ review-delete-recordings = Desaniciar les mios grabaciones
 
 ## Datasets Page
 
+datasets-headline = Tamos creando un conxuntu de datos de voz abiertu y plurillingüe que tol mundu pue usar pa entrenar a les aplicaciones de voz.
 language = Llingua
 # File size in gigabytes
 size = Tamañu
@@ -512,9 +513,11 @@ validated-hours = Hores validaes
 recorded-hours = Hores grabaes
 whats-inside = ¿Qué hai dientro del conxuntu de datos de Common Voice?
 want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión nueva del conxuntu de datos de Common Voice? Soscríbite al boletín.
+subscribe = Soscribise
+get-started-speech = Introducción a la reconocencia de voz
 other-datasets = Otros conxuntos de datos de voz
 feedback-q = ¿Tienes comentarios?
-common-voice-info-new = ¿Tienes entrugues tocante a Common Voice?¿idees, ameyores o comentarios tocante a una llingua n'especial? Xúnite a nós nel foru <discourseLink>Discourse</discourseLink> y fala con nós.
+common-voice-info-new = ¿Tienes entrugues tocante a Common Voice?¿idees, ameyores o comentarios tocante a una llingua n'especial? Xúnite al foru <discourseLink>Discourse</discourseLink> y fala con nós.
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose a partir de los audios de charres y les sos trescripciones disponibles nel sitiu web TED.
