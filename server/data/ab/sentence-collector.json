@@ -1,5 +1,21 @@
 [
   {
+    "valid": ["nart", "Tamila"],
+    "source": "I have permission from the translator, https://github.com/danielinux7/Abkhazian-books-in-Public-Domain/tree/master/%D0%90%D2%9F%D3%99%D1%8B%D1%80%D2%9F%D0%B0%D0%BD",
+    "invalid": [],
+    "approved": true,
+    "sentence": "Аллаҳ шәара шәцәажәарақәа иаҳауеит.",
+    "username": "nart",
+    "createdAt": 1573217204170,
+    "approvalDate": 1573217283644,
+    "Sentences_Meta_UserVote_nart": true,
+    "Sentences_Meta_UserVote_Tamila": true,
+    "Sentences_Meta_UserVoteDate_nart": 1573217219127,
+    "Sentences_Meta_UserVoteDate_Tamila": 1573217283643,
+    "id": "db2e8ad004116fff9cc42b8784196f2de2189c92401cb826fb302d3f70921f7d",
+    "last_modified": 1573217284242
+  },
+  {
     "valid": ["diana", "gunda"],
     "source": "I have permission from the translator, https://github.com/danielinux7/Abkhazian-books-in-Public-Domain/tree/master/%D0%90%D2%9F%D3%99%D1%8B%D1%80%D2%9F%D0%B0%D0%BD",
     "invalid": [],

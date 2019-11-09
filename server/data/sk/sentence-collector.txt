@@ -6,5 +6,6 @@ Nemám na výber.
 No to som si mohol myslieť, že na Teba nie je spoľah.
 Nože uchop nožnice a vystrihni rukavice!
 Náklady na vybudovanie infraštruktúry sú niekoľkonásobne vyššie ako pri použití iných alternatív.
+Slovenčina zatiaľ v zbierke nefiguruje, ale pracuje sa na nej.
 Vari by ju aj zmárnil, keby som neorodovala.
 Vyšší počet komponentov zvyšuje pravdepodobnosť výpadkov v dôsledku zlyhania hardvéru.
