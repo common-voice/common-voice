@@ -494,6 +494,12 @@ review-delete-recordings = Desaniciar les mios grabaciones
 ## Datasets Page
 
 datasets-headline = Tamos creando un conxuntu de datos de voz abiertu y plurillingüe que tol mundu pue usar pa entrenar a les aplicaciones de voz.
+datasets-positioning =
+    Creyemos qu'un conxuntu de datos públicu, grande y disponible va dar puxu a la innovación y a una competencia sana alrodiu de la teunoloxía de la reconocencia de voz basada nel deprendizaxe automáticu.
+    
+    El conxuntu de datos plurillingüe de Common Voice yá ye'l mas grande de la so triba pero non l'únicu.
+    
+    Mira esta páxina como un puntu de referencia pa otros conxuntos de datos abiertos y, a midida que Common Voice siga medrando, un llugar onde vamos llanzar los anovamientos.
 language = Llingua
 # File size in gigabytes
 size = Tamañu
