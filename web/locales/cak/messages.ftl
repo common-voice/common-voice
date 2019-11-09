@@ -329,11 +329,23 @@ delete-voice = TIYUJ
 recording-voice-wave = Niyak
 delete-voice-clip = o  Tiyuj ruyakik ch'ab'äl
 ready-to-upload = TIJOTOB'ÄX
+cancel-avatar-clip-recording = TIQ'AT
+about-avatar-clip-recording = Tatz'uku' jun yakoj ch'ab'äl richin nok pan awachib'al. Ri ch'aqa' chik okisanela' yetikïr nikik'üt ri awachib'al richin nikak'axaj ri ayakoj ch'ab'äl.
+browse-file-title = Tijotob'äx jun ruyakb'al wachib'äl
+browse-file = Taqirirej chuqa' tawosq'opij o <browseWrap>katokik'amayin</browseWrap>
+connect-gravatar = Tok rik'in ri Chiwachib'äl
+gravatar_not_found = Majun chiwachib'äl xilitäj richin ri ataqoya'l
+file_too_large = Yalan nïm ri yakb'äl xacha'
 manage-subscriptions = Kenuk'samajïx taq Tz'ib'anïk B'i'aj
+manage-email-subscriptions = Tinuk'samajïx Kitz'ib'anik Rub'iaj Taqoya'l
+email-already-used = Ri taqoya'l nokisäx chik pa jun chik rub'i' taqoya'l
+add-language = Titz'aqatisäx Ch'ab'äl
+change-email-setings = Tajala' ri ataqoya'l pa Runuk'ulem, ikim Tikirib'äl Molojri'ïl
 
 ## FAQ
 
 faq-title = Jutaqil taq K'utunïk
+faq-what-cv-q = ¿Atux ri Common Voice?
 
 ## ABOUT US
 
