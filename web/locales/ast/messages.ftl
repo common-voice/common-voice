@@ -408,6 +408,7 @@ faq-search-for-answers =
 about-title = ¿Por qué Common Voice?
 about-subtitle = Common Voice ye parte de la iniciativa de Mozilla p'ayudar a deprende-yos a máquines cómo falamos los humanos. Arriendes d'eso, tamién tamos creando Deep Speech que ye un motor de reconocencia de voz de códigu abiertu.
 how-does-it-work-title = ¿Cómo funciona?
+how-does-it-work-text = Tamos faciendo n'andecha un conxuntu de datos de voz abiertu. Dona la to voz, valida la precisión de los clips d'otres persones y fai que'l conxuntu de datos seya'l meyor pa tol mundu.
 about-speak = Fala
 about-speak-text = Los collaboradores graben clips de voz lleendo les frases d'un bancu de testos donaos.
 about-listen-queue = Cola d'audición
@@ -425,6 +426,10 @@ about-dataset-new-text = Contién milenta muestres de voz qu'ayuden a los desend
 about-clip-graveyard = Cementeriu de clips
 about-clip-graveyard-text = Fórmenlu los clips que nun s'incluyeron nel conxuntu de datos de Common Voice. Sicasí, ta disponible pa baxar.
 about-partners = Socios
+about-partnership =
+    Common Voice ye un proyeutu collaborativu que depende de la comunidá de socios y collaboradores pa crear el conxuntu de datas de voz abiertu más grande del momentu.
+    
+    Prestaríanos agradecer a les persones y organizaciones de darréu pola so ayuda col proyeutu:
 about-get-involved = Andecha
 about-get-involved-text =
     ¿Quies ayudar a facer que Common Voice seya meyor?
