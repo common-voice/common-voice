@@ -346,6 +346,11 @@ change-email-setings = Tajala' ri ataqoya'l pa Runuk'ulem, ikim Tikirib'äl Molo
 
 faq-title = Jutaqil taq K'utunïk
 faq-what-cv-q = ¿Atux ri Common Voice?
+faq-what-cv-a =
+    Ri runa'ob'al retamaxik ch'ab'äl tajin nujäl ri rub'eyal  niqak'waj qi' kik'in ri ch'ich' taq samajib'äl, ri taq q'inoj e k'o wakami janila e paqäl, man xab'achike ta winäq nitz'eto. Common Voice jun peraj rusamaj Mozilla richin nub'äl chi ri runa'ojb'al retamaxik ch'abäl yalan ye'utzïr chuqa' qonojel kojtz'eto. Common voice jun nimaläj rucholxe'el ch'ab'äl, xipan chi jun ri ruwach'ulew, ri nub'än chi xab'achike nitikïr nok pa aninäq chuqa' man k'ayewa ta pa ri taq chokoy etzijon richin nib'an ch'owen pa b'ama ronojel ri ch'ab'äl.
+    
+    Man xa xe ta niqamöl taq ch'ab'äl pa ronojel taq ch'ab'äl yalan yech'ab'ëx, chuqa' pa ronojel ch'ab'äl jub'a' ok kich'ab'anela'. Rik'in ri rutaluxik jun nïm rucholxe'el rutzij ch'ab'äl yeto' ri b'anonela', ajk'ayloq' chuqa' ri taq tinamït nikiya' rejqalem ri rukojol. Rik'in ri rucholxe'el rutzij Common Voice chuqa' niqanük' jun ruk'wab'al retamaxik ch'ab'äl rik'in jaqäl b'itz'ib' Deep Speech rub'i'.
+faq-why-important-q = ¿Achike ruma k'o rejqalem?
 
 ## ABOUT US
 
