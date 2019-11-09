@@ -351,6 +351,10 @@ faq-what-cv-a =
     
     Man xa xe ta niqamöl taq ch'ab'äl pa ronojel taq ch'ab'äl yalan yech'ab'ëx, chuqa' pa ronojel ch'ab'äl jub'a' ok kich'ab'anela'. Rik'in ri rutaluxik jun nïm rucholxe'el rutzij ch'ab'äl yeto' ri b'anonela', ajk'ayloq' chuqa' ri taq tinamït nikiya' rejqalem ri rukojol. Rik'in ri rucholxe'el rutzij Common Voice chuqa' niqanük' jun ruk'wab'al retamaxik ch'ab'äl rik'in jaqäl b'itz'ib' Deep Speech rub'i'.
 faq-why-important-q = ¿Achike ruma k'o rejqalem?
+faq-why-important-a =
+    Ri ch'owen jun jeb'ël rub'eyal richin yojtzijon chi qawa, rik'in ri runa'ob'al ch'ab'äl man k'ayew ta nib'anatäj ri tzijonem pa taq kematz'ib' chuqa' pa taq oyonib'äl. Niqajo' yeqato' ri ajb'anonela' richin kekitz'uku' taq kichokoy retamaxik ch'ab'äl, ri yalan e jeb'ël; achi'el ri tzalq'omanïk pa ri ramaj o achto'onela' esamajin rik'in ri ch'ab'äl. Wakami ronojel ri kicholxe'el rutzij ch'ab'äl ye'ajowäx richin yeb'an re taq chokoy re' yalan e paqäl chuqa' e'ichinan. Niqoyob'ej chi ri taq rucholxe'el rutzij Common Voice tuya' chi kiwäch ri ajb'anonela' ri nik'atzin chi ke richin nikutzilaj chuqa' yekitz'ük taq runa'ob'al retamaxik ch'ab'äl pa taq kich'ab'äl.
+    
+    Richin chi ri retamaxik ch'ab'äl qichin qonojel, tajin yeqamöl retal ch'ab'äl pa k'ïy taq ch'ab'äl, achi'el ri k'ïy kiwinaq' chuqa' ri loman kuchuq'a', ri man k'ïy taq kejqalem niya' pa ruwi' ri retamaxik ch'ab'äl. Ri rutaluxik jun nïm rucholxe'el rutzij ch'ab'äl xkeruto' ri ajb'anonela', samajela' chuqa' ri na'ob'äl ch'ab'äl molaj nikiya' retal ri rukojol.
 
 ## ABOUT US
 
