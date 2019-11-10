@@ -215,12 +215,26 @@ benefits = Перавагі
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = с
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = о
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = а
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = е
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = і
 shortcut-record-toggle-label = Запісаць/Спыніць
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перазапісаць кліп
@@ -290,7 +304,9 @@ retry-voice-wave-recording = ПАЎТАРЫЦЬ
 re-record = ПЕРАЗАПІСАЦЬ
 delete-voice = ВЫДАЛІЦЬ
 delete-voice-clip = або Выдаліць галасавы кліп
+ready-to-upload = ЗАПАМПАВАЦЬ
 cancel-avatar-clip-recording = СКАСАВАЦЬ
+browse-file-title = Запампаваць відарыс
 connect-gravatar = Звязаць з Gravatar
 add-language = Дадаць мову
 
