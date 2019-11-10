@@ -10,9 +10,9 @@ import './goals.css';
 const GoalsPage = ({ allGoals, dashboardLocale }: Props) => {
   const account = useAccount();
   const addNotification = useAction(Notifications.actions.addPill);
-  allGoals.globalGoals.streaks;
   if (
     account.custom_goals.length > 0 &&
+    allGoals &&
     allGoals.globalGoals.streaks[0] === 3
   ) {
     addNotification(
