@@ -2,7 +2,6 @@ import * as React from 'react';
 import WeeklyChallengeBoard from './weekly-challenge-board';
 import { WeeklyChallenge } from 'common/challenge';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
-import { challengeLogos } from './constants';
 import './weekly-challenge.css';
 
 const WEEKS: Array<string> = [
@@ -67,7 +66,7 @@ export default function WeeklyChallenge({
               week={currentWeek}
               isNarrow={isNarrow}
               individualAvatarUrl={account.avatar_url}
-              teamAvatarUrl={challengeLogos[account.enrollment.team].url}
+              teamToken={account.enrollment.team}
               weekly={weekly}
             />
           )}
@@ -82,7 +81,7 @@ export default function WeeklyChallenge({
                 week={currentWeek + 1}
                 isNarrow={isNarrow}
                 individualAvatarUrl={account.avatar_url}
-                teamAvatarUrl={challengeLogos[account.enrollment.team].url}
+                teamToken={account.enrollment.team}
                 weekly={weekly}
               />
             )}
@@ -98,7 +97,7 @@ export default function WeeklyChallenge({
                   week={currentWeek + 2}
                   isNarrow={isNarrow}
                   individualAvatarUrl={account.avatar_url}
-                  teamAvatarUrl={challengeLogos[account.enrollment.team].url}
+                  teamToken={account.enrollment.team}
                   weekly={weekly}
                 />
               )
@@ -112,9 +111,7 @@ export default function WeeklyChallenge({
                       key={index}
                       isNarrow={isNarrow}
                       individualAvatarUrl={account.avatar_url}
-                      teamAvatarUrl={
-                        challengeLogos[account.enrollment.team].url
-                      }
+                      teamToken={account.enrollment.team}
                       weekly={weekly}
                     />
                   )

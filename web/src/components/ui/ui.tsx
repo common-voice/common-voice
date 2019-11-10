@@ -8,11 +8,13 @@ import { CheckIcon } from './icons';
 export const Avatar = ({
   className,
   url,
+  style,
 }: {
   url?: string;
   className?: string;
+  style?: object;
 }) => (
-  <div className={`avatar-wrap ${className ? className : ''}`}>
+  <div className={`avatar-wrap ${className ? className : ''}`} style={style}>
     {url ? (
       <img src={url} />
     ) : (

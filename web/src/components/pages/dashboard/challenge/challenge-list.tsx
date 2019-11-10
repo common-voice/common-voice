@@ -3,6 +3,7 @@ import API from '../../../../services/api';
 import { User } from '../../../../stores/user';
 import StateTree from '../../../../stores/tree';
 import { Avatar } from '../../../ui/ui';
+import TeamAvatar from './team-avatar';
 import { CheckIcon } from '../../../ui/icons';
 import { connect } from 'react-redux';
 import { challengeLogos } from './constants';
@@ -177,9 +178,7 @@ class ChallengeList extends React.Component<Props, State> {
                   {row.position + 1}
                 </div>
                 <div className="avatar-container">
-                  <Avatar
-                    url={challengeLogos[user.account.enrollment.team].url}
-                  />
+                  <TeamAvatar team={user.account.enrollment.team} />
                 </div>
                 <div className="username" title={row.name}>
                   {row.name || '???'}

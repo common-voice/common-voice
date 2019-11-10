@@ -1,9 +1,10 @@
 import * as React from 'react';
 import { LocaleLink } from '../../../locale-helpers';
 import { CircleProgress } from '../../../pages/dashboard/ui';
-import { WeeklyChallenge } from 'common/challenge';
+import { WeeklyChallenge, ChallengeTeamToken } from 'common/challenge';
 import { Avatar } from '../../../ui/ui';
 import URLS from '../../../../urls';
+import TeamAvatar from './team-avatar';
 import './weekly-challenge-board.css';
 
 export default function WeeklyChallengeBoard({
@@ -12,7 +13,7 @@ export default function WeeklyChallengeBoard({
   week,
   isNarrow,
   individualAvatarUrl,
-  teamAvatarUrl,
+  teamToken,
   weekly,
 }: {
   isDisabled?: boolean;
@@ -20,7 +21,7 @@ export default function WeeklyChallengeBoard({
   week: number;
   isNarrow: boolean;
   individualAvatarUrl: string;
-  teamAvatarUrl: string;
+  teamToken: ChallengeTeamToken;
   weekly: WeeklyChallenge;
 }) {
   const { user, team } = weekly;
@@ -91,7 +92,7 @@ export default function WeeklyChallengeBoard({
           </div>
           <div className="content-row">
             <div className="column">
-              <Avatar className="team" url={teamAvatarUrl} />
+              <TeamAvatar team={teamToken} />
               <p>Team</p>
             </div>
             <div className="container team">
