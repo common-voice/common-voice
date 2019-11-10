@@ -178,6 +178,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       },
     };
 
+    // TODO: Render <Fetchrow>s outside of `items` to flatten the list.
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
       const nextPosition =
