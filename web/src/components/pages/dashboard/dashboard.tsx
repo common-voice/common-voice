@@ -18,8 +18,7 @@ import AwardsPage from './awards/awards';
 import ChallengePage from './challenge/challenge';
 import { Button } from '../../ui/ui';
 import InviteModal from '../../invite-modal/invite-modal';
-import { isProduction } from '../../../utility';
-
+import { isChallengeLive, pilotDates } from './challenge/constants';
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
 
@@ -37,8 +36,7 @@ const TopBar = ({
   const account = useAccount();
   const [isAboveMdWidth, setIsAboveMdWidth] = useState(true);
   const isChallengeEnrolled =
-    !isProduction() ||
-    (account && account.enrollment && account.enrollment.team);
+    account && account.enrollment && account.enrollment.team;
   const isChallengeTabSelected = location.pathname.endsWith('/challenge');
 
   function setLocale(value: string) {
@@ -269,7 +267,10 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div className="dashboard">
+    <div
+      className={
+        'dashboard' + (isChallengeLive(pilotDates) ? '' : ' challenge-offline')
+      }>
       {showInviteModal && (
         <InviteModal
           inviteId="#####"

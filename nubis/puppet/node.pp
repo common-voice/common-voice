@@ -20,6 +20,10 @@ package { 'libpq-dev':
   ensure => 'latest',
 }
 
+package { 'redis-tools':
+  ensure => 'latest',
+}
+
 # Install yarn
 exec { 'install yarn':
   command   => 'npm install -g yarn',

@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
+import { challengeTeams } from 'common/challenge';
 import WeeklyChallenge from './weekly-challenge';
 import LeaderBoardCard from './leaderboard-card';
 import TeamBoardCard from './team-card';
+import ChallengeOffline from './challenge-offline';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
 import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
@@ -12,6 +14,7 @@ import { LabeledCheckbox } from '../../../ui/ui';
 import { Notifications } from '../../../../stores/notifications';
 import { trackChallenge } from '../../../../services/tracker';
 import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
+import { isChallengeLive, pilotDates } from './constants';
 import './challenge.css';
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
@@ -109,7 +112,7 @@ export default function ChallengePage() {
   }, []);
   useEffect(() => trackChallenge('dashboard-view'), []);
 
-  return (
+  return isChallengeLive(pilotDates) ? (
     <div className="challenge challenge-container">
       {showOnboardingModal && (
         <OnboardingModal
@@ -129,7 +132,7 @@ export default function ChallengePage() {
         {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
         <div className="leader-board">
           <LeaderBoardCard
-            title={`${account.enrollment.team} Team Progress`}
+            title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
             showVisibleIcon
             showOverlay={() => setShowOverlay(true)}
             service="team-progress"
@@ -153,5 +156,7 @@ export default function ChallengePage() {
         </div>
       </div>
     </div>
+  ) : (
+    <ChallengeOffline duration={pilotDates} />
   );
 }

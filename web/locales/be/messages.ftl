@@ -208,6 +208,7 @@ email-subscription-title = падпісацца на абнаўленні
 
 ## Account Benefits
 
+benefits = Перавагі
 
 ## What's public
 
@@ -220,6 +221,8 @@ email-subscription-title = падпісацца на абнаўленні
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Запісаць/Спыніць
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перазапісаць кліп
 request-language-text = Пакуль не знаходзіце сваю мову на Common Voice?
 request-language-button = Запытаць мову
@@ -277,21 +280,44 @@ profile-close = Закрыць
 accept-privacy-title = Палітыка прыватнасці
 login-signup = Увайсці / Зарэгістравацца
 edit = Рэдагаваць
+email-subscriptions = Падпіскі на эл. пошту
 download-profile = Спампаваць мае дадзеныя
 contribution-experience = Досвед дапамогі
+off = Выкл.
+on = Укл.
 avatar-clip-title = Дайце голас свайму аватару
+retry-voice-wave-recording = ПАЎТАРЫЦЬ
+re-record = ПЕРАЗАПІСАЦЬ
+delete-voice = ВЫДАЛІЦЬ
+delete-voice-clip = або Выдаліць галасавы кліп
+cancel-avatar-clip-recording = СКАСАВАЦЬ
+connect-gravatar = Звязаць з Gravatar
+add-language = Дадаць мову
 
 ## FAQ
 
+faq-what-cv-q = Што такое Common Voice?
 
 ## ABOUT US
 
+how-does-it-work-title = Як гэта працуе?
+about-listen = Слухайце
+about-partners = Партнёры
+about-become-a-partner = Стаць партнёрам
+about-get-involved = Прыняць удзел
+about-nav-why-common-voice = Чаму?
+about-nav-how-it-works = Як?
+about-nav-partners = Партнёры
+about-nav-get-involved = Прыняць удзел
 
 ## Glossary
 
+glossary = Гласарый
+localization = Лакалізацыя
 
 ## NotFound
 
+notfound-title = Не знойдзена
 
 ## Data
 

@@ -11,16 +11,16 @@ export default function WeeklyChallengeBoard({
   title,
   week,
   isNarrow,
-  avatarUrl,
-  logoUrl,
+  individualAvatarUrl,
+  teamAvatarUrl,
   weekly,
 }: {
   isDisabled?: boolean;
   title: string;
   week: number;
   isNarrow: boolean;
-  avatarUrl: string;
-  logoUrl: string;
+  individualAvatarUrl: string;
+  teamAvatarUrl: string;
   weekly: WeeklyChallenge;
 }) {
   const { user, team } = weekly;
@@ -44,7 +44,7 @@ export default function WeeklyChallengeBoard({
         <div className="challenge-board-content">
           <div className="content-row">
             <div className="column">
-              <Avatar url={avatarUrl ? require(avatarUrl) : ''} />
+              <Avatar url={individualAvatarUrl ? individualAvatarUrl : ''} />
               <p>individual</p>
             </div>
             <div className="container">
@@ -91,7 +91,7 @@ export default function WeeklyChallengeBoard({
           </div>
           <div className="content-row">
             <div className="column">
-              <Avatar className="team" url={logoUrl} />
+              <Avatar className="team" url={teamAvatarUrl} />
               <p>Team</p>
             </div>
             <div className="container team">
