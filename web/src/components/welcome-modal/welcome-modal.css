@@ -67,4 +67,8 @@
             fill: var(--white);
         }
     }
+
+    a {
+        text-decoration: underline;
+    }
 }
