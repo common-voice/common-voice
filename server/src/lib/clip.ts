@@ -7,13 +7,13 @@ import { getConfig } from '../config-helper';
 import { AWS } from './aws';
 import Model from './model';
 import getLeaderboard from './model/leaderboard';
+import Achievements from './model/achievements';
 import * as Basket from './basket';
 import Bucket from './bucket';
 import { ClientParameterError } from './utility';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
-// [TODO] didn't do type enforcement at all, should do though
-import { challengeTeamTokens } from 'common/challenge';
+import { ChallengeToken } from 'common/challenge';
 
 const Transcoder = require('stream-transcoder');
 
@@ -108,18 +108,17 @@ export default class Clip {
 
     console.log('clip vote written to s3', voteFile);
 
-    const achievement = await this.model.db.firstContributionBonus(
-      challenge,
-      client_id
-    );
-    const hasAchieved = await this.model.db.earnedInviteContributeSameSessionBonus(
-      client_id,
-      challenge
-    );
     const ret = {
       glob: glob,
-      firstContribute: achievement.achievement,
-      hasAchieved: hasAchieved,
+      firstContribute: await Achievements.earnBonus('first_contribution', [
+        challenge,
+        client_id,
+      ]),
+      hasAchieved: await Achievements.hasEarnedBonus(
+        'invite_contribute_same_session',
+        client_id,
+        challenge
+      ),
     };
     response.json(ret);
 
@@ -208,18 +207,18 @@ export default class Clip {
       await checkGoalsAfterContribution(client_id, { name: params.locale });
       Basket.sync(client_id).catch(e => console.error(e));
 
-      const achievement = await this.model.db.firstContributionBonus(
-        headers.challenge as string,
-        client_id
-      );
-      const hasAchieved = await this.model.db.earnedInviteContributeSameSessionBonus(
-        client_id,
-        headers.challenge as string
-      );
+      const challenge = headers.challenge as ChallengeToken;
       const ret = {
         filePrefix: filePrefix,
-        firstContribute: achievement.achievement,
-        hasAchieved: hasAchieved,
+        firstContribute: await Achievements.earnBonus('first_contribution', [
+          challenge,
+          client_id,
+        ]),
+        hasAchieved: await Achievements.hasEarnedBonus(
+          'invite_contribute_same_session',
+          client_id,
+          challenge
+        ),
       };
       response.json(ret);
     } catch (error) {

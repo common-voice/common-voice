@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 
 import getLeaderboard from './model/leaderboard';
+import Achievements from './model/achievements';
 import Model from './model';
 import { ChallengeRequestArgument } from 'common/challenge';
 
@@ -24,30 +25,41 @@ export default class Challenge {
       '/:challenge/:locale/contributors/:type',
       this.getTopContributors
     );
-    router.use('/:challenge/achievement/:type', this.getAchievement);
+    router.use('/:challenge/achievement/:bonus_type', this.getAchievement);
 
     return router;
   }
 
   getAchievement = async (
-    { client_id, params: { challenge, type } }: Request,
+    {
+      client_id,
+      params: { challenge, bonus_type },
+    }: ChallengeRequestArgument & Request,
     response: Response
   ) => {
-    if (type === 'session') {
+    if (bonus_type === 'session') {
       // earn the invite_contribute_same_session achievement, don't return anything
       // [TODO] should use await here??
-      await this.model.db.earnInviteContributeSameSessionBonus(client_id);
-    } else if (type == 'invite') {
+      response.json(
+        await Achievements.earnBonus('invite_contribute_same_session', [
+          client_id,
+          client_id,
+          challenge,
+        ])
+      );
+    } else if (bonus_type == 'invite') {
       // return { firstInvite: boolean, hasAchieved: boolean } in the json
       // NOTE: easy to get confused about how should return true or false
-      // if first_invitation achievement is not earned yet, earn that achievement and return firstInvite: true
+      // if invite_send achievement is not earned yet, earn that achievement and return firstInvite: true
       // if invite_contribute_same_session is not earned yet, return hasAchieved: false
       const achievement = {
-        firstInvite: await this.model.db.firstInvitationBonus(
+        firstInvite: await Achievements.earnBonus('invite_send', [
           client_id,
-          challenge
-        ),
-        hasAchieved: await this.model.db.earnedInviteContributeSameSessionBonus(
+          client_id,
+          challenge,
+        ]),
+        hasAchieved: await Achievements.hasEarnedBonus(
+          'invite_contribute_same_session',
           client_id,
           challenge
         ),

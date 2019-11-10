@@ -4,6 +4,7 @@ import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
+import Achievements from './Achievements';
 import { ChallengeToken, ChallengeTeamToken } from 'common/challenge';
 
 const db = getMySQLInstance();
@@ -211,12 +212,16 @@ const UserClient = {
         data.enrollment.invite
       ))
     ) {
-      await this.friendSignUpBonus(
+      await Achievements.earnBonus('sign_up_first_three_days', [
         data.enrollment.challenge,
         client_id,
-        data.enrollment.invite
-      );
-      await this.firstSignUpBonus(data.enrollment.challenge, client_id);
+      ]);
+      await Achievements.earnBonus('invite_signup', [
+        client_id,
+        data.enrollment.invite,
+        data.enrollment.invite,
+        data.enrollment.challenge,
+      ]);
     }
     return UserClient.findAccount(email);
   },
@@ -390,70 +395,6 @@ const UserClient = {
         from,
       ]),
     ]);
-  },
-
-  async firstSignUpBonus(challenge: string, client_id: string) {
-    const achievement = { achievement: false };
-    const [[res]] = await db.query(
-      `
-        SELECT enrolled_at < TIMESTAMPADD(DAY, 3, challenges.start_date) AS win_bonus, client_id AS bonus_winner
-        FROM enroll
-        LEFT JOIN challenges ON enroll.challenge_id = challenges.id AND challenges.url_token = ?
-        WHERE client_id = ?
-      `,
-      [challenge, client_id]
-    );
-    const { win_bonus, bonus_winner } = res || {
-      win_bonus: false,
-      bonus_winner: '',
-    };
-    if (win_bonus && bonus_winner) {
-      const ret = await db.query(
-        `
-          INSERT INTO earn (achievement_id, client_id) VALUES ((SELECT id FROM achievements WHERE name = ?), ?)
-        `,
-        ['sign_up_bonus_in_3_days', bonus_winner]
-      );
-      achievement.achievement =
-        ret && ret[0] && ret[0].affectedRows > 0 ? true : false;
-    }
-    return achievement;
-  },
-
-  async friendSignUpBonus(
-    challenge: string,
-    client_id: string,
-    invite: string
-  ) {
-    const achievement = { achievement: false };
-    if (!invite) return achievement;
-    const [[res]] = await db.query(
-      `
-        SELECT (invitee.id IS NOT NULL) AS win_bonus,
-            invitor.client_id AS bonus_winner
-        FROM challenges
-        LEFT JOIN enroll invitee ON invitee.client_id = ?
-            AND invitee.invited_by = ? AND invitee.enrolled_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
-        LEFT JOIN enroll invitor ON invitor.url_token = ?
-        WHERE challenges.url_token = ?
-      `,
-      [client_id, invite, invite, challenge]
-    );
-    const { win_bonus, bonus_winner } = res || {
-      win_bonus: false,
-      bonus_winner: '',
-    };
-    if (win_bonus && bonus_winner) {
-      const ret = await db.query(
-        `
-          INSERT INTO earn (achievement_id, client_id) VALUES ((SELECT id FROM achievements WHERE name = ?), ?)
-        `,
-        ['friend_sign_up', bonus_winner]
-      );
-      achievement.achievement =
-        ret && ret[0] && ret[0].affectedRows > 0 ? true : false;
-    }
-    return achievement;
   },
 };
 
