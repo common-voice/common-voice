@@ -12,7 +12,6 @@ import {
   getItunesURL,
   isIOS,
   isNativeIOS,
-  isProduction,
   isSafari,
   isStaging,
   replacePathLocale,
@@ -76,16 +75,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private installApp: HTMLElement;
 
   state: LayoutState = {
-    challengeTeamToken: isProduction()
-      ? null
-      : challengeTeamTokens.find(challengeTeamToken =>
-          this.props.location.search.includes(`team=${challengeTeamToken}`)
-        ),
-    challengeToken: isProduction()
-      ? null
-      : challengeTokens.find(challengeToken =>
-          this.props.location.search.includes(`challenge=${challengeToken}`)
-        ),
+    challengeTeamToken: challengeTeamTokens.find(challengeTeamToken =>
+      this.props.location.search.includes(`team=${challengeTeamToken}`)
+    ),
+    challengeToken: challengeTokens.find(challengeToken =>
+      this.props.location.search.includes(`challenge=${challengeToken}`)
+    ),
     isMenuVisible: false,
     hasScrolled: false,
     hasScrolledDown: false,
