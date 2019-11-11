@@ -26,6 +26,7 @@ import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
 
 import './listen.css';
+import { User } from '@sentry/types';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -49,6 +50,7 @@ interface PropsFromState {
   locale: Locale.State;
   firstContribute: boolean;
   hasAchieved: boolean;
+  firstStreak: boolean;
 }
 
 interface PropsFromDispatch {
@@ -134,7 +136,13 @@ class ListenPage extends React.Component<Props, State> {
 
   private vote = (isValid: boolean) => {
     const { clips } = this.state;
-    const { firstContribute, hasAchieved, addAchievement, api } = this.props;
+    const {
+      firstContribute,
+      hasAchieved,
+      addAchievement,
+      api,
+      firstStreak,
+    } = this.props;
     const clipIndex = this.getClipIndex();
 
     this.stop();
@@ -144,6 +152,13 @@ class ListenPage extends React.Component<Props, State> {
       addAchievement(
         50,
         "You're on your way! Congrats on your first contribution.",
+        'success'
+      );
+    }
+    if (firstStreak) {
+      addAchievement(
+        50,
+        'You completed a three-day streak! Keep it up.',
         'success'
       );
     }
@@ -346,6 +361,7 @@ const mapStateToProps = (state: StateTree) => {
     isLoading,
     firstContribute,
     hasAchieved,
+    firstStreak,
   } = Clips.selectors.localeClips(state);
   const { api } = state;
   return {
@@ -353,6 +369,7 @@ const mapStateToProps = (state: StateTree) => {
     isLoading,
     firstContribute,
     hasAchieved,
+    firstStreak,
     api,
     locale: state.locale,
   };

@@ -392,6 +392,7 @@ class SpeakPage extends React.Component<Props, State> {
             const {
               firstContribute = false,
               hasAchieved = false,
+              firstStreak = false,
             } = await api.uploadClip(
               recording.blob,
               sentence.id,
@@ -402,6 +403,13 @@ class SpeakPage extends React.Component<Props, State> {
               addAchievement(
                 50,
                 "You're on your way! Congrats on your first contribution.",
+                'success'
+              );
+            }
+            if (firstStreak) {
+              addAchievement(
+                50,
+                'You completed a three-day streak! Keep it up.',
                 'success'
               );
             }

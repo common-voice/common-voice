@@ -18,6 +18,7 @@ export namespace Clips {
       clips: Clip[];
       isLoading: boolean;
       firstContribute: boolean;
+      firstStreak: boolean;
       hasAchieved: boolean;
       next?: Clip;
     };
@@ -42,6 +43,7 @@ export namespace Clips {
     type: ActionType.ACHIEVEMENT;
     firstContribute?: boolean;
     hasAchieved?: boolean;
+    firstStreak?: boolean;
   }
 
   interface RefillCacheAction extends ReduxAction {
@@ -111,10 +113,11 @@ export namespace Clips {
       const state = getState();
       const id = clipId || localeClips(state).next.id;
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
-      const { firstContribute, hasAchieved } = await state.api.saveVote(
-        id,
-        isValid
-      );
+      const {
+        firstContribute,
+        hasAchieved,
+        firstStreak,
+      } = await state.api.saveVote(id, isValid);
       if (!state.user.account) {
         dispatch(User.actions.tallyVerification());
       }
@@ -123,6 +126,7 @@ export namespace Clips {
           type: ActionType.ACHIEVEMENT,
           firstContribute,
           hasAchieved,
+          firstStreak,
         });
       }
       User.actions.refresh()(dispatch, getState);
@@ -148,6 +152,7 @@ export namespace Clips {
           next: null,
           isLoading: false,
           firstContribute: false,
+          firstStreak: false,
           hasAchieved: false,
         },
       }),
@@ -182,6 +187,7 @@ export namespace Clips {
             isLoading: false,
             hasAchieved: false,
             firstContribute: false,
+            firstStreak: false,
             next,
           },
         };
@@ -200,6 +206,7 @@ export namespace Clips {
             ...localeState,
             hasAchieved: action.hasAchieved,
             firstContribute: action.firstContribute,
+            firstStreak: action.firstStreak,
           },
         };
       }

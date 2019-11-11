@@ -26,6 +26,7 @@ interface FetchOptions {
 interface Vote extends Event {
   hasAchieved?: boolean;
   firstContribute?: boolean;
+  firstStreak?: boolean;
 }
 
 const API_PATH = location.origin + '/api/v1';
@@ -109,7 +110,11 @@ export default class API {
     blob: Blob,
     sentenceId: string,
     sentence: string
-  ): Promise<{ firstContribute?: boolean; hasAchieved?: boolean }> {
+  ): Promise<{
+    firstContribute?: boolean;
+    hasAchieved?: boolean;
+    firstStreak?: boolean;
+  }> {
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
