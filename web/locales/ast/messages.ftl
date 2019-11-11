@@ -398,8 +398,11 @@ faq-where-src-from-2-q = ¿D'ónde vienen los testos que s'usen?
 faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o artículos de Wikipedia n'otres llingues?
 faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
+faq-how-privacy-q = ¿Cómo aseguráis l'anonimatu y privacidá de la xente que donó les sos voces?
+faq-what-determine-identity-q = ¿Qué significa que nun pueo «determinar la identidá» de los falantes del conxuntu de datos de Common Voice?
 faq-what-is-cv = ¿Qué ye Common Voice?
 faq-using-cv = Usu de Common Voice
+faq-description = Common Voice ye parte de la iniciativa de Mozilla pa deprende-yos a les máquines cómo falamos los humanos.
 faq-search-for-answers =
     .label = Guetar rempuestes
 
