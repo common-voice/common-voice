@@ -160,8 +160,11 @@ export default class API {
     return this.fetch(`${API_PATH}/language_stats`);
   }
 
-  fetchDocument(name: 'privacy' | 'terms'): Promise<string> {
-    return this.fetch(`/${name}/${this.locale}.html`, { isJSON: false });
+  fetchDocument(
+    name: 'privacy' | 'terms' | 'challenge-terms'
+  ): Promise<string> {
+    const locale = name === 'challenge-terms' ? 'en' : this.locale;
+    return this.fetch(`/${name}/${locale}.html`, { isJSON: false });
   }
 
   skipSentence(id: string) {
