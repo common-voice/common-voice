@@ -169,8 +169,8 @@ wall-of-text-more-mobile =
     a facer que la reconocencia de voz tea abierta a tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
-    pue usar pa facer aplicaciones informátiques innovadores. Llei una fras pa deprende-yos a les máquines cómo falen los humanos.
-    Comprueba'l trabayu d'otros collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
+    pue usar pa facer aplicaciones informátiques innovadores. Llei una fras pa deprende-yos a les máquines cómo falen los humanos,
+    comprueba'l trabayu d'otros collaboradores p'ameyorar la calidá... ¡Ye mui cenciello!
 wall-of-text-first =
     La voz ye natural, tamién humana. Poro, tamos entusiasmaos por crear teunoloxíes de voz
     calidables pa les nueses máquines. Pero pa crear estos sistemes, los desendolcadores riquen una
