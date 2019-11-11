@@ -458,6 +458,7 @@ localization = Traducción
 localization-explanation = Equí adautamos el nuesu conteníu a otres locales (llingües) más.
 sentence-collection = Recoyida de frases
 sentence-collection-explanation = Recuéyense frases de, o escribiendo otres nueves pa dominiu públicu.
+hours-recorded-explanation = La cantidá d'hores en voces que recoyimos pel momentu.
 hours-validated-explanation = La cantidá d'hores de grabación que validaron 2 de 3 usuarios con un votu «Sí». Esto marca'l camín hasta la meta xeneral de 10000 mil hores.
 sst = Fala a testu (STT)
 sst-explanation = Les teunoloxíes de fala a testu (STT) convierten los datos de voz a testu.
