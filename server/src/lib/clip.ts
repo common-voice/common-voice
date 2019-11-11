@@ -119,11 +119,17 @@ export default class Clip {
         client_id,
         challenge
       ),
+      firstStreak: await checkGoalsAfterContribution(
+        client_id,
+        { id: clip.locale_id },
+        challenge
+      ),
     };
-    response.json(ret);
+    // move it to the last line and leave a trace here in case of serious performance issues
+    // response.json(ret);
 
-    await checkGoalsAfterContribution(client_id, { id: clip.locale_id });
     Basket.sync(client_id).catch(e => console.error(e));
+    response.json(ret);
   };
 
   /**
@@ -204,10 +210,14 @@ export default class Clip {
       });
       await Awards.checkProgress(client_id, { name: params.locale });
 
-      await checkGoalsAfterContribution(client_id, { name: params.locale });
+      const challenge = headers.challenge as ChallengeToken;
+      const firstStreak = await checkGoalsAfterContribution(
+        client_id,
+        { name: params.locale },
+        challenge
+      );
       Basket.sync(client_id).catch(e => console.error(e));
 
-      const challenge = headers.challenge as ChallengeToken;
       const ret = {
         filePrefix: filePrefix,
         firstContribute: await Achievements.earnBonus('first_contribution', [
@@ -219,6 +229,7 @@ export default class Clip {
           client_id,
           challenge
         ),
+        firstStreak: firstStreak,
       };
       response.json(ret);
     } catch (error) {

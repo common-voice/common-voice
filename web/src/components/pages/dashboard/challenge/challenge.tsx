@@ -128,33 +128,35 @@ export default function ChallengePage() {
         />
       )}
       {weekly && <WeeklyChallenge isNarrow={isNarrow} weekly={weekly} />}
-      <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
-        {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
-        <div className="leader-board">
-          <LeaderBoardCard
-            title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
-            showVisibleIcon
-            showOverlay={() => setShowOverlay(true)}
-            service="team-progress"
-          />
-        </div>
-        <div className="leader-board">
-          {weekly && (
-            <TeamBoardCard
-              title="Overall Challenge Top Team"
-              week={weekly.week}
+      {account && account.enrollment && (
+        <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
+          {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
+          <div className="leader-board">
+            <LeaderBoardCard
+              title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
+              showVisibleIcon
+              showOverlay={() => setShowOverlay(true)}
+              service="team-progress"
             />
-          )}
+          </div>
+          <div className="leader-board">
+            {weekly && (
+              <TeamBoardCard
+                title="Overall Challenge Top Team"
+                week={weekly.week}
+              />
+            )}
+          </div>
+          <div className="leader-board">
+            <LeaderBoardCard
+              title="Overall Challenge Top Contributors"
+              showVisibleIcon
+              showOverlay={() => setShowOverlay(true)}
+              service="top-contributors"
+            />
+          </div>
         </div>
-        <div className="leader-board">
-          <LeaderBoardCard
-            title="Overall Challenge Top Contributors"
-            showVisibleIcon
-            showOverlay={() => setShowOverlay(true)}
-            service="top-contributors"
-          />
-        </div>
-      </div>
+      )}
     </div>
   ) : (
     <ChallengeOffline duration={pilotDates} />
