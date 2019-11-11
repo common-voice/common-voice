@@ -205,8 +205,6 @@ export default class Server {
     this.app.get(
       '/challenge-terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        // STOPSHIP: Do not land these changes until a file exists at:
-        // https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_Challenge_Terms/en.md
         response.send(await fetchLegalDocument('Challenge_Terms', 'en'));
       }
     );
