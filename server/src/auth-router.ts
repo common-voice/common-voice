@@ -8,7 +8,7 @@ import * as session from 'express-session';
 const MySQLStore = require('express-mysql-session')(session);
 import UserClient from './lib/model/user-client';
 import DB from './lib/model/db';
-import Achievements from './lib/model/Achievements';
+import Achievements from './lib/model/achievements';
 import { getConfig } from './config-helper';
 
 const {
