@@ -42,6 +42,7 @@ export type AchievementType =
   | 'sign_up_first_three_days'
   | 'invite_signup'
   | 'first_contribution'
+  | 'three_day_streak'
   | 'invite_send'
   | 'invite_contribute_same_session';
 

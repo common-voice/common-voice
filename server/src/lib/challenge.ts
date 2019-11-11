@@ -39,7 +39,6 @@ export default class Challenge {
   ) => {
     if (bonus_type === 'session') {
       // earn the invite_contribute_same_session achievement, don't return anything
-      // [TODO] should use await here??
       response.json(
         await Achievements.earnBonus('invite_contribute_same_session', [
           client_id,

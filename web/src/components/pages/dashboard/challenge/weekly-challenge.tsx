@@ -58,7 +58,7 @@ export default function WeeklyChallenge({
             .map(
               notification =>
                 notification.kind == 'pill' &&
-                notification.score && (
+                notification.type === 'achievement' && (
                   <NotificationPill
                     key={notification.id}
                     {...{ notification }}
