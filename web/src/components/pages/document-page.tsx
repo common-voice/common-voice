@@ -9,7 +9,7 @@ interface PropsFromState {
 }
 
 class DocumentPage extends React.Component<
-  { name: 'privacy' | 'terms' } & PropsFromState,
+  { name: 'privacy' | 'terms' | 'challenge-terms' } & PropsFromState,
   { html: string }
 > {
   state = {

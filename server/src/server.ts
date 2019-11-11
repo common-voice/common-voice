@@ -202,6 +202,12 @@ export default class Server {
         response.send(await fetchLegalDocument('Terms', locale));
       }
     );
+    this.app.get(
+      '/challenge-terms/:locale.html',
+      async ({ params: { locale } }, response) => {
+        response.send(await fetchLegalDocument('Challenge_Terms', 'en'));
+      }
+    );
   }
 
   /**

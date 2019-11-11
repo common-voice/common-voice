@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
 import { ArrowLeft } from '../ui/icons';
@@ -10,6 +11,7 @@ import {
   challengeTeams,
   ChallengeToken,
 } from 'common/challenge';
+import URLS from '../../urls';
 
 import './welcome-modal.css';
 
@@ -30,14 +32,27 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
       </h1>
       <BalanceText className="subheading">
         Ready to join the {readableTeamName} challenge team? Read and agree to
-        the challenge terms and you're set to go!
+        the{' '}
+        <Link
+          to={URLS.CHALLENGE_TERMS}
+          target="_blank"
+          rel="noopener noreferrer">
+          challenge terms
+        </Link>{' '}
+        and you're set to go!
       </BalanceText>
 
       <div className="checkbox-row">
         <label>
           <Checkbox onChange={(e: any) => setHasAgreed(e.target.checked)} />
           <BalanceText className="terms-agree">
-            I've read and agree to the Open Voice Challenge Terms & Conditions
+            I've read and agree to the Open Voice Challenge{' '}
+            <Link
+              to={URLS.CHALLENGE_TERMS}
+              target="_blank"
+              rel="noopener noreferrer">
+              Terms & Conditions
+            </Link>
           </BalanceText>
         </label>
       </div>

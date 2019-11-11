@@ -195,19 +195,23 @@ body:not(.focus) #scroller {
     max-width: var(--old-desktop-width);
 }
 
-.privacy #content,
-.terms #content {
-    & h1 {
-        margin: 1rem 0;
-        text-decoration: underline;
-    }
+.privacy,
+.terms,
+.challenge-terms {
+    #content {
+        h1 {
+            margin: 1rem 0;
+            text-decoration: underline;
+        }
 
-    & h2 {
-        margin: 1.5rem 0 0.5rem;
-    }
+        h2,
+        h3 {
+            margin: 1.5rem 0 0.5rem;
+        }
 
-    & a {
-        color: var(--link-color);
+        a {
+            color: var(--link-color);
+        }
     }
 }
 
