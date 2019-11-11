@@ -3,7 +3,6 @@ import WeeklyChallengeBoard from './weekly-challenge-board';
 import { WeeklyChallenge } from 'common/challenge';
 import { useAccount, useNotifications } from '../../../../hooks/store-hooks';
 import NotificationPill from '../../../notification-pill/notification-pill';
-import { challengeLogos } from './constants';
 import './weekly-challenge.css';
 
 const WEEKS: Array<string> = [
@@ -77,7 +76,7 @@ export default function WeeklyChallenge({
               week={currentWeek}
               isNarrow={isNarrow}
               individualAvatarUrl={account.avatar_url}
-              teamAvatarUrl={challengeLogos[account.enrollment.team].url}
+              teamToken={account.enrollment.team}
               weekly={weekly}
             />
           )}
@@ -92,7 +91,7 @@ export default function WeeklyChallenge({
                 week={currentWeek + 1}
                 isNarrow={isNarrow}
                 individualAvatarUrl={account.avatar_url}
-                teamAvatarUrl={challengeLogos[account.enrollment.team].url}
+                teamToken={account.enrollment.team}
                 weekly={weekly}
               />
             )}
@@ -108,7 +107,7 @@ export default function WeeklyChallenge({
                   week={currentWeek + 2}
                   isNarrow={isNarrow}
                   individualAvatarUrl={account.avatar_url}
-                  teamAvatarUrl={challengeLogos[account.enrollment.team].url}
+                  teamToken={account.enrollment.team}
                   weekly={weekly}
                 />
               )
@@ -122,9 +121,7 @@ export default function WeeklyChallenge({
                       key={index}
                       isNarrow={isNarrow}
                       individualAvatarUrl={account.avatar_url}
-                      teamAvatarUrl={
-                        challengeLogos[account.enrollment.team].url
-                      }
+                      teamToken={account.enrollment.team}
                       weekly={weekly}
                     />
                   )

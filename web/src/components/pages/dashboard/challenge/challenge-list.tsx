@@ -1,11 +1,13 @@
+// Largely copied from `leaderboard-card.tsx`.
+// TODO: Refactor to reduce duplication with the LeaderboardCard component.
 import * as React from 'react';
 import API from '../../../../services/api';
 import { User } from '../../../../stores/user';
 import StateTree from '../../../../stores/tree';
 import { Avatar } from '../../../ui/ui';
+import TeamAvatar from './team-avatar';
 import { CheckIcon } from '../../../ui/icons';
 import { connect } from 'react-redux';
-import { challengeLogos } from './constants';
 
 const PointsIcon = ({ className }: { className: string }) => (
   <div className={`star-points ${className}`} />
@@ -146,6 +148,7 @@ class ChallengeList extends React.Component<Props, State> {
   render() {
     const { rows, isAtEnd } = this.state;
     const { user, team } = this.props;
+    // TODO: Render <Fetchrow>s outside of `items` to flatten the list.
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
       const nextPosition =
@@ -153,124 +156,119 @@ class ChallengeList extends React.Component<Props, State> {
       const isYou =
         row.name ===
         (team ? user.account.enrollment.team : user.account.username);
-      return (
-        <>
-          {!!prevPosition && prevPosition + 1 < row.position && (
+      return [
+        !!prevPosition && prevPosition + 1 < row.position && (
+          <FetchRow
+            key={row.position + 'prev'}
+            onClick={() =>
+              this.fetchMore([
+                Math.max(prevPosition + 1, row.position - FETCH_SIZE),
+                row.position,
+              ])
+            }
+          />
+        ),
+        team ? (
+          <li
+            key={row.position}
+            className={`row team${isYou ? ' you' : ''}`}
+            ref={isYou ? this.youRow : null}>
+            <div className="ranking">
+              <div className="position">
+                {row.position + 1 < 10 && '0'}
+                {row.position + 1}
+              </div>
+              <div className="avatar-container">
+                <TeamAvatar team={user.account.enrollment.team} />
+              </div>
+              <div className="username" title={row.name}>
+                {row.name || '???'}
+              </div>
+            </div>
+            <div className="week" title="Week">
+              {row.w1_points ? (
+                <>
+                  <PointsIcon
+                    className={row.w1 <= 3 ? `star-points-${row.w1}` : ''}
+                  />
+                  {this.transformRankingToString(row.w1)}
+                </>
+              ) : (
+                '--'
+              )}
+            </div>
+            <div className="week" title="Week">
+              {row.w2_points ? (
+                <>
+                  <PointsIcon
+                    className={row.w2 <= 3 ? `star-points-${row.w2}` : ''}
+                  />
+                  {this.transformRankingToString(row.w2)}
+                </>
+              ) : (
+                '--'
+              )}
+            </div>
+            <div className="week" title="Week">
+              {row.w3_points ? (
+                <>
+                  <PointsIcon
+                    className={row.w3 <= 3 ? `star-points-${row.w3}` : ''}
+                  />
+                  {this.transformRankingToString(row.w3)}
+                </>
+              ) : (
+                '--'
+              )}
+            </div>
+            <div className="total">{row.w3_points || 'N/A'}</div>
+          </li>
+        ) : (
+          <li
+            key={row.position}
+            className={`row${isYou ? ' you' : ''}`}
+            ref={isYou ? this.youRow : null}>
+            <div className="ranking">
+              <div className="position">
+                {row.position + 1 < 10 && '0'}
+                {row.position + 1}
+              </div>
+              <div className="avatar-container">
+                <Avatar url={row.avatar_url} />
+              </div>
+              <div className="username" title={row.name}>
+                {row.name || '???'}
+              </div>
+            </div>
+            <div className="point" title={row.points}>
+              <PointsIcon
+                className={
+                  row.position < 3 ? `star-points-${row.position + 1}` : ''
+                }
+              />
+              {row.points}
+            </div>
+            <div className="approved" title={row.approved}>
+              <CheckIcon />
+              {row.approved}
+            </div>
+            <div className="accuracy">{row.accuracy || 'N/A'} %</div>
+          </li>
+        ),
+        !!nextPosition &&
+          nextPosition - 1 > row.position &&
+          nextPosition - FETCH_SIZE > row.position && (
             <FetchRow
-              key={row.position + 'prev'}
+              key={row.position + 'next'}
               onClick={() =>
                 this.fetchMore([
-                  Math.max(prevPosition + 1, row.position - FETCH_SIZE),
-                  row.position,
+                  row.position + 1,
+                  Math.min(row.position + 1 + FETCH_SIZE, nextPosition - 1),
                 ])
               }
             />
-          )}
-          {team ? (
-            <li
-              key={row.position}
-              className={`row team${isYou ? ' you' : ''}`}
-              ref={isYou ? this.youRow : null}>
-              <div className="ranking">
-                <div className="position">
-                  {row.position + 1 < 10 && '0'}
-                  {row.position + 1}
-                </div>
-                <div className="avatar-container">
-                  <Avatar
-                    url={challengeLogos[user.account.enrollment.team].url}
-                    className="team"
-                  />
-                </div>
-                <div className="username" title={row.name}>
-                  {row.name || '???'}
-                </div>
-              </div>
-              <div className="week" title="Week">
-                {row.w1_points ? (
-                  <>
-                    <PointsIcon
-                      className={row.w1 <= 3 ? `star-points-${row.w1}` : ''}
-                    />
-                    {this.transformRankingToString(row.w1)}
-                  </>
-                ) : (
-                  '--'
-                )}
-              </div>
-              <div className="week" title="Week">
-                {row.w2_points ? (
-                  <>
-                    <PointsIcon
-                      className={row.w2 <= 3 ? `star-points-${row.w2}` : ''}
-                    />
-                    {this.transformRankingToString(row.w2)}
-                  </>
-                ) : (
-                  '--'
-                )}
-              </div>
-              <div className="week" title="Week">
-                {row.w3_points ? (
-                  <>
-                    <PointsIcon
-                      className={row.w3 <= 3 ? `star-points-${row.w3}` : ''}
-                    />
-                    {this.transformRankingToString(row.w3)}
-                  </>
-                ) : (
-                  '--'
-                )}
-              </div>
-              <div className="total">{row.w3_points || 'N/A'}</div>
-            </li>
-          ) : (
-            <li
-              key={row.position}
-              className={`row${isYou ? ' you' : ''}`}
-              ref={isYou ? this.youRow : null}>
-              <div className="ranking">
-                <div className="position">
-                  {row.position + 1 < 10 && '0'}
-                  {row.position + 1}
-                </div>
-                <div className="avatar-container">
-                  <Avatar url={row.avatar_url} />
-                </div>
-                <div className="username" title={row.name}>
-                  {row.name || '???'}
-                </div>
-              </div>
-              <div className="point" title={row.points}>
-                <PointsIcon
-                  className={
-                    row.position < 3 ? `star-points-${row.position + 1}` : ''
-                  }
-                />
-                {row.points}
-              </div>
-              <div className="approved" title={row.approved}>
-                <CheckIcon />
-                {row.approved}
-              </div>
-              <div className="accuracy">{row.accuracy || 'N/A'} %</div>
-            </li>
-          )}
-          {!!nextPosition &&
-            nextPosition - 1 > row.position &&
-            nextPosition - FETCH_SIZE > row.position && (
-              <FetchRow
-                key={row.position + 'next'}
-                onClick={() =>
-                  this.fetchMore([
-                    row.position + 1,
-                    Math.min(row.position + 1 + FETCH_SIZE, nextPosition - 1),
-                  ])
-                }
-              />
-            )}
-        </>
-      );
+          ),
+      ];
     });
     // [TODO]: This should be a <table>.
     return (
