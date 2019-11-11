@@ -4,7 +4,7 @@ import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
-import Achievements from './Achievements';
+import Achievements from './achievements';
 import { ChallengeToken, ChallengeTeamToken } from 'common/challenge';
 
 const db = getMySQLInstance();
