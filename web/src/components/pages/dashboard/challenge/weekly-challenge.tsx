@@ -3,7 +3,7 @@ import WeeklyChallengeBoard from './weekly-challenge-board';
 import { WeeklyChallenge } from 'common/challenge';
 import { useAccount, useNotifications } from '../../../../hooks/store-hooks';
 import NotificationPill from '../../../notification-pill/notification-pill';
-import { challengeLogoUrls } from './constants';
+import { challengeLogos } from './constants';
 import './weekly-challenge.css';
 
 const WEEKS: Array<string> = [
@@ -48,7 +48,7 @@ export default function WeeklyChallenge({
               className={`week-number ${
                 currentWeek === index ? 'active' : ''
               }`}>
-              {++index}
+              {index + 1}
             </span>
           ))}
         </div>
@@ -76,8 +76,8 @@ export default function WeeklyChallenge({
               title={WEEKS[currentWeek]}
               week={currentWeek}
               isNarrow={isNarrow}
-              avatarUrl={account.avatar_url}
-              logoUrl={challengeLogoUrls[account.enrollment.team]}
+              individualAvatarUrl={account.avatar_url}
+              teamAvatarUrl={challengeLogos[account.enrollment.team].url}
               weekly={weekly}
             />
           )}
@@ -91,8 +91,8 @@ export default function WeeklyChallenge({
                 title={WEEKS[currentWeek + 1]}
                 week={currentWeek + 1}
                 isNarrow={isNarrow}
-                avatarUrl={account.avatar_url}
-                logoUrl={challengeLogoUrls[account.enrollment.team]}
+                individualAvatarUrl={account.avatar_url}
+                teamAvatarUrl={challengeLogos[account.enrollment.team].url}
                 weekly={weekly}
               />
             )}
@@ -107,8 +107,8 @@ export default function WeeklyChallenge({
                   title={WEEKS[currentWeek + 2]}
                   week={currentWeek + 2}
                   isNarrow={isNarrow}
-                  avatarUrl={account.avatar_url}
-                  logoUrl={challengeLogoUrls[account.enrollment.team]}
+                  individualAvatarUrl={account.avatar_url}
+                  teamAvatarUrl={challengeLogos[account.enrollment.team].url}
                   weekly={weekly}
                 />
               )
@@ -121,8 +121,10 @@ export default function WeeklyChallenge({
                       week={value}
                       key={index}
                       isNarrow={isNarrow}
-                      avatarUrl={account.avatar_url}
-                      logoUrl={challengeLogoUrls[account.enrollment.team]}
+                      individualAvatarUrl={account.avatar_url}
+                      teamAvatarUrl={
+                        challengeLogos[account.enrollment.team].url
+                      }
                       weekly={weekly}
                     />
                   )

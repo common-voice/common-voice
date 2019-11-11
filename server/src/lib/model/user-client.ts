@@ -4,6 +4,7 @@ import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
+import Achievements from './Achievements';
 import { ChallengeToken, ChallengeTeamToken } from 'common/challenge';
 
 const db = getMySQLInstance();
@@ -199,17 +200,29 @@ const UserClient = {
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
       locales && updateLocales(accountClientId, locales),
-      data &&
-        data.enrollment &&
-        this.enrollRegisteredUser(
-          email,
-          data.enrollment.challenge,
-          data.enrollment.team,
-          data.enrollment.invite,
-          referer
-        ),
     ]);
 
+    if (
+      data &&
+      data.enrollment &&
+      (await this.enrollRegisteredUser(
+        email,
+        data.enrollment.challenge,
+        data.enrollment.team,
+        data.enrollment.invite
+      ))
+    ) {
+      await Achievements.earnBonus('sign_up_first_three_days', [
+        data.enrollment.challenge,
+        client_id,
+      ]);
+      await Achievements.earnBonus('invite_signup', [
+        client_id,
+        data.enrollment.invite,
+        data.enrollment.invite,
+        data.enrollment.challenge,
+      ]);
+    }
     return UserClient.findAccount(email);
   },
 

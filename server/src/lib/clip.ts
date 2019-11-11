@@ -7,11 +7,13 @@ import { getConfig } from '../config-helper';
 import { AWS } from './aws';
 import Model from './model';
 import getLeaderboard from './model/leaderboard';
+import Achievements from './model/achievements';
 import * as Basket from './basket';
 import Bucket from './bucket';
 import { ClientParameterError } from './utility';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
+import { ChallengeToken } from 'common/challenge';
 
 const Transcoder = require('stream-transcoder');
 
@@ -83,7 +85,7 @@ export default class Clip {
     response: Response
   ) => {
     const id = params.clipId as string;
-    const { isValid } = body;
+    const { isValid, challenge } = body;
 
     const clip = await this.model.db.findClip(id);
     if (!clip || !client_id) {
@@ -106,7 +108,19 @@ export default class Clip {
 
     console.log('clip vote written to s3', voteFile);
 
-    response.json(glob);
+    const ret = {
+      glob: glob,
+      firstContribute: await Achievements.earnBonus('first_contribution', [
+        challenge,
+        client_id,
+      ]),
+      hasAchieved: await Achievements.hasEarnedBonus(
+        'invite_contribute_same_session',
+        client_id,
+        challenge
+      ),
+    };
+    response.json(ret);
 
     await checkGoalsAfterContribution(client_id, { id: clip.locale_id });
     Basket.sync(client_id).catch(e => console.error(e));
@@ -192,7 +206,21 @@ export default class Clip {
 
       await checkGoalsAfterContribution(client_id, { name: params.locale });
       Basket.sync(client_id).catch(e => console.error(e));
-      response.json(filePrefix);
+
+      const challenge = headers.challenge as ChallengeToken;
+      const ret = {
+        filePrefix: filePrefix,
+        firstContribute: await Achievements.earnBonus('first_contribution', [
+          challenge,
+          client_id,
+        ]),
+        hasAchieved: await Achievements.hasEarnedBonus(
+          'invite_contribute_same_session',
+          client_id,
+          challenge
+        ),
+      };
+      response.json(ret);
     } catch (error) {
       console.error(error);
       response.statusCode = error.statusCode || 500;

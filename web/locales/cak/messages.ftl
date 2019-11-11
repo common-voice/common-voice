@@ -209,6 +209,8 @@ email-subscription-title-new = Tatz'ib'aj awi' pa ri ko'öl ruwuj rutzijol, nata
 ## Account Benefits
 
 benefits = Taq rutzil
+rich-data = Tatojtob'ej chi e tz'aqät ronojel ri taq rutzijol ye'atäq, rik'in rutaqik kitzjol apewinäq, ri man etaman ta kiwäch. Ronojel ri taq tzij ri' choj man etaman ta kiwäch chuwäch xkekitz'ët ri winaqi'.
+improve-audio = Ri retamab'al ruwäch b'i'aj nikutzilaj kitzij taq k'oxom, ri ye'okisäx richin nitojtob'ëx rujikib'axik retamaxik ch'ab'äl.
 compare-progress = Tajunamaj ri ab'anon rik'in ri kib'anon ch'aqa' chik to'onela' chijun ri ruwach'ulew.
 view-goals = Tatz'eta' ri ab'anon rik'in ri arayb'al chuqa' richin ri rurayib'al nuk'samaj.
 join-newsletter = Yatikïr natün awi' pa ri rucholajem qataqoya'al richin ye'ak'ül taq k'exoj chuqa' ri k'ak'a' etamab'äl k'o pa nimasamaj.
@@ -219,6 +221,8 @@ whats-public = ¿Achike ri nib'an qichin qonojel?
 email-not-public = Man xtiqataluj ta ri ataqoya'l.
 recordings-and-locale-public = Ri rajlab'al yakoj chuqa' ri ch'ab'äl akuchi' xkato'on, ja ri' xtiqataluj rutzijol.
 username-optin-public = Yatikïr nacha' jun b'i'aj talun rutzijol o man netamäx ta ruwäch.
+demographic-deidentified = Ri taq apewinäq tzij choj xketaq (achi'el, rujuna', rub'anikil, ruch'ab'äl chuqa' rub'eyal nich'o) man nuxïm ta ri' rik'in ri ruch'ab'äl nuya' chuqa' majub'ey xtiq'alajisäx chi kiwäch ri winaqi' pa ruwäch ab'i'.
+username-email-not-demographic = Man xkexim ta ri rub'i' awokisaxel chuqa' ataqoya'l rik'in ri taq tzij xtitalüx kitzijol.
 
 ## Speak & Listen Shortcuts
 
@@ -244,6 +248,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Tiyak/Tipab'äx
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Tiyak chik ri yakoj
 request-language-text = ¿La k'a man nawïl ta ri ach'ab'äl pa Common Voice?
 request-language-button = Tik'utüx jun Ch'ab'äl
 
@@ -265,6 +271,10 @@ english = Q'anchi'
 
 profile-form-username =
     .label = Rub'i' Okisanel
+profile-form-native-language =
+    .label = Nab'ey Ch'ab'äl
+profile-form-additional-language =
+    .label = Jun Chik Ch'ab'äl
 profile-form-accent =
     .label = K'oxomal
 profile-form-age =
@@ -298,19 +308,53 @@ thanks-for-account = Matyox xajikib'a' ri rub'i' ataqoya'l, wakami niqatz'ük qa
 why-demographic = ¿Achike ruma k'atzinel re'?
 why-demographic-explanation = Ewäl rutzij okisanel achi'el rujuna', rub'anikil chuqa' ruk'oxom yeto'on richin ye'utziläx ri taq rutzij k'oxom e'okisan richin jeb'ël yetojtob'ëx ri taq rukanob'al ketamaxik taq ch'ab'äl. Ri rub'i' awokisanel chuqa' ataqoya'l majub'ey xkexim kik'in ri taq tzij xke'atäq chuqa' yatikïr nacha' we ri rub'i' awokisanel ewäl o nikitz'ët winaqi'.
 accept-privacy = Ütz ninwak'axaj rub'eyal nokisäx re etamab'äl re' achi'el nitzijöx pa <privacyLink>Richinanem Na'ojil</privacyLink> richin Mozilla
+accept-privacy-title = Ichinan Na'oj
 login-identity = Rub'anikil Rutikirisaxik Molojri'ïl
 login-signup = Titikirisäx Molojri'ïl / Titz'ib'äx B'i'aj
 edit = Tinuk'
 email-subscriptions = Tz'ib'axïk B'i'aj pa Taqoya'l
 download-profile = Keqasäx taq nutzij
 contribution-experience = Retamab'al to'ïk
+skip-submission-feedback = Tik'o chi rij Rutaqik Rutzij
+skip-submission-description = Xtichup ri rutaqik tzij toq xtipitz' pa ruwi' ri 'Titaq'. Ri to'ïk xtisamajïx chik el rik'in ri 5 molaj taq yakoj o taq jikib'anïk.
+skip-submission-note = Ch'utitzijol: K'o chi nacha' Ch'owem o Ak'axanem richin najäl ri ruwäch ato'ik.
 off = Tichup
 on = Titzij
+avatar-clip-title = Tab'ana' chi nich'o ri awachib'al
+change-your-avatar-clip = ¿La nawajo' najäl ri ruyakik ach'ab'äl?
+recording-in-progress = Niyak ri ch'ab'äl
+avatar-clip-recorded = ¡Wakami pa ri awachib'al ütz niyak ruch'ab'äl!
+retry-voice-wave-recording = TITOJTOB'ËX CHIK
+delete-voice = TIYUJ
+recording-voice-wave = Niyak
+delete-voice-clip = o  Tiyuj ruyakik ch'ab'äl
+ready-to-upload = TIJOTOB'ÄX
+cancel-avatar-clip-recording = TIQ'AT
+about-avatar-clip-recording = Tatz'uku' jun yakoj ch'ab'äl richin nok pan awachib'al. Ri ch'aqa' chik okisanela' yetikïr nikik'üt ri awachib'al richin nikak'axaj ri ayakoj ch'ab'äl.
+browse-file-title = Tijotob'äx jun ruyakb'al wachib'äl
+browse-file = Taqirirej chuqa' tawosq'opij o <browseWrap>katokik'amayin</browseWrap>
+connect-gravatar = Tok rik'in ri Chiwachib'äl
+gravatar_not_found = Majun chiwachib'äl xilitäj richin ri ataqoya'l
+file_too_large = Yalan nïm ri yakb'äl xacha'
 manage-subscriptions = Kenuk'samajïx taq Tz'ib'anïk B'i'aj
+manage-email-subscriptions = Tinuk'samajïx Kitz'ib'anik Rub'iaj Taqoya'l
+email-already-used = Ri taqoya'l nokisäx chik pa jun chik rub'i' taqoya'l
+add-language = Titz'aqatisäx Ch'ab'äl
+change-email-setings = Tajala' ri ataqoya'l pa Runuk'ulem, ikim Tikirib'äl Molojri'ïl
 
 ## FAQ
 
 faq-title = Jutaqil taq K'utunïk
+faq-what-cv-q = ¿Atux ri Common Voice?
+faq-what-cv-a =
+    Ri runa'ob'al retamaxik ch'ab'äl tajin nujäl ri rub'eyal  niqak'waj qi' kik'in ri ch'ich' taq samajib'äl, ri taq q'inoj e k'o wakami janila e paqäl, man xab'achike ta winäq nitz'eto. Common Voice jun peraj rusamaj Mozilla richin nub'äl chi ri runa'ojb'al retamaxik ch'abäl yalan ye'utzïr chuqa' qonojel kojtz'eto. Common voice jun nimaläj rucholxe'el ch'ab'äl, xipan chi jun ri ruwach'ulew, ri nub'än chi xab'achike nitikïr nok pa aninäq chuqa' man k'ayewa ta pa ri taq chokoy etzijon richin nib'an ch'owen pa b'ama ronojel ri ch'ab'äl.
+    
+    Man xa xe ta niqamöl taq ch'ab'äl pa ronojel taq ch'ab'äl yalan yech'ab'ëx, chuqa' pa ronojel ch'ab'äl jub'a' ok kich'ab'anela'. Rik'in ri rutaluxik jun nïm rucholxe'el rutzij ch'ab'äl yeto' ri b'anonela', ajk'ayloq' chuqa' ri taq tinamït nikiya' rejqalem ri rukojol. Rik'in ri rucholxe'el rutzij Common Voice chuqa' niqanük' jun ruk'wab'al retamaxik ch'ab'äl rik'in jaqäl b'itz'ib' Deep Speech rub'i'.
+faq-why-important-q = ¿Achike ruma k'o rejqalem?
+faq-why-important-a =
+    Ri ch'owen jun jeb'ël rub'eyal richin yojtzijon chi qawa, rik'in ri runa'ob'al ch'ab'äl man k'ayew ta nib'anatäj ri tzijonem pa taq kematz'ib' chuqa' pa taq oyonib'äl. Niqajo' yeqato' ri ajb'anonela' richin kekitz'uku' taq kichokoy retamaxik ch'ab'äl, ri yalan e jeb'ël; achi'el ri tzalq'omanïk pa ri ramaj o achto'onela' esamajin rik'in ri ch'ab'äl. Wakami ronojel ri kicholxe'el rutzij ch'ab'äl ye'ajowäx richin yeb'an re taq chokoy re' yalan e paqäl chuqa' e'ichinan. Niqoyob'ej chi ri taq rucholxe'el rutzij Common Voice tuya' chi kiwäch ri ajb'anonela' ri nik'atzin chi ke richin nikutzilaj chuqa' yekitz'ük taq runa'ob'al retamaxik ch'ab'äl pa taq kich'ab'äl.
+    
+    Richin chi ri retamaxik ch'ab'äl qichin qonojel, tajin yeqamöl retal ch'ab'äl pa k'ïy taq ch'ab'äl, achi'el ri k'ïy kiwinaq' chuqa' ri loman kuchuq'a', ri man k'ïy taq kejqalem niya' pa ruwi' ri retamaxik ch'ab'äl. Ri rutaluxik jun nïm rucholxe'el rutzij ch'ab'äl xkeruto' ri ajb'anonela', samajela' chuqa' ri na'ob'äl ch'ab'äl molaj nikiya' retal ri rukojol.
 
 ## ABOUT US
 

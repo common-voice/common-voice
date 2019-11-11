@@ -33,6 +33,18 @@ export interface TeamChallenge {
 export type ChallengeToken = 'pilot';
 export type ChallengeTeamToken = 'ibm' | 'mozilla' | 'sap';
 
+export type ChallengeDuration = {
+  start: Date;
+  end: Date;
+};
+
+export type AchievementType =
+  | 'sign_up_first_three_days'
+  | 'invite_signup'
+  | 'first_contribution'
+  | 'invite_send'
+  | 'invite_contribute_same_session';
+
 interface ChallengeTeam {
   readableName: string;
   token: ChallengeTeamToken;
@@ -44,6 +56,7 @@ export interface ChallengeRequestArgument {
     challenge: ChallengeToken;
     locale?: any; // FIXME: More specific type.
     type?: 'vote' | 'clip';
+    bonus_type?: 'session' | 'invite';
   };
   query: {
     cursor?: any;

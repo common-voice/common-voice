@@ -5,7 +5,7 @@ import StateTree from '../../../../stores/tree';
 import { Avatar } from '../../../ui/ui';
 import { CheckIcon } from '../../../ui/icons';
 import { connect } from 'react-redux';
-import { challengeLogoUrls } from './constants';
+import { challengeLogos } from './constants';
 
 const PointsIcon = ({ className }: { className: string }) => (
   <div className={`star-points ${className}`} />
@@ -178,7 +178,7 @@ class ChallengeList extends React.Component<Props, State> {
                 </div>
                 <div className="avatar-container">
                   <Avatar
-                    url={challengeLogoUrls[user.account.enrollment.team]}
+                    url={challengeLogos[user.account.enrollment.team].url}
                     className="team"
                   />
                 </div>

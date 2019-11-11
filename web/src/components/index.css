@@ -164,6 +164,7 @@ button {
     right: 0;
     overflow-x: hidden;
     overflow-y: scroll;
+    z-index: 0;
 
     @media (--lg-up) {
         position: relative;

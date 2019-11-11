@@ -8,6 +8,7 @@ import * as session from 'express-session';
 const MySQLStore = require('express-mysql-session')(session);
 import UserClient from './lib/model/user-client';
 import DB from './lib/model/db';
+import Achievements from './lib/model/Achievements';
 import { getConfig } from './config-helper';
 
 const {
@@ -130,10 +131,27 @@ router.get(
       ) {
         // if the user is unregistered, pass enrollment to frontend
         user.enrollment = enrollment;
+      } else {
+        // if the user is already registered, now he/she should be enrolled
+        // [TODO] there should be an elegant way to get the client_id here
+        // [TODO] have not thought about how to show toast if registered user get enrolled
+        const client_id = await UserClient.findClientId(user.emails[0].value);
+        await Achievements.earnBonus('sign_up_first_three_days', [
+          enrollment.challenge,
+          client_id,
+        ]);
+        await Achievements.earnBonus('invite_signup', [
+          client_id,
+          enrollment.invite,
+          enrollment.invite,
+          enrollment.challenge,
+        ]);
       }
 
+      // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
       response.redirect(
-        redirect || `${basePath}login-success?challenge=${enrollment.challenge}`
+        redirect ||
+          `${basePath}login-success?challenge=${enrollment.challenge}&first=1&achievement=1`
       );
     } else {
       response.redirect(redirect || basePath + 'login-success');

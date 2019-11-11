@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Sí, unviáime correos. Prestaríame tar informáu tocante al proyeutu Common Voice.
-stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía per voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
+stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía de voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
 privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más nel nuesu <privacyLink>avisu de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
@@ -60,6 +60,7 @@ fr = Francés
 fy-NL = Frisiu
 ga-IE = Irlandés
 gl = Gallegu
+ha = Ḥausa
 he = Hebréu
 hi-IN = Hindi
 hr = Croata
@@ -83,9 +84,11 @@ lij = Ligur
 lt = Lituanu
 lv = Letón
 mdf = Moksha
+mhr = Mari de les Praderes
 mk = Macedoniu
 ml = Malayalam
 mn = Mongol
+mrj = Mari de les Llombes
 mt = Maltés
 myv = Erzya
 nb-NO = Bokmål noruegu
@@ -97,6 +100,7 @@ or = Oriya
 pl = Polacu
 pt = Portugués
 rm-sursilv = Romanche surselvu
+rm-vallader = Romansh engadinés
 ro = Rumanu
 ru = Rusu
 rw = Kiñaruanda
@@ -319,7 +323,7 @@ profile-close = Zarrar
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa?
-why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase clos datos unviaos y vas poder escoyer si facelos públicos o anónimos.
+why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase colos datos unviaos y vas poder escoyer si facelos públicos o anónimos.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 accept-privacy-title = Política de privacidá
 login-identity = Identidá del aniciu de sesión
@@ -373,13 +377,19 @@ faq-how-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-how-get-a = El conxuntu de datos de Common Voice ta disponible pa baxar so la llicencia <licenseLink>CC 0</licenseLink> <datasetLink>na nuesa páxina de conxuntos de datos</datasetLink>. Dende esa mesma páxina, tamién pues baxar otros conxuntos de datos públicos.
 faq-when-release2-q = ¿Cuándo vais llanzar los datos de Common Voice n'otres llingües?
 faq-why-mission-q = ¿Por qué Common Voice ye parte de la misión de Mozilla?
+faq-why-mission-a = Mozilla dedícase a caltener la web abierta y accesible pa tol mundu. Pa facelo, precisamos ufrir ferramientes a los creadores web pente proyeutos como Common Voice. A midida qu'apaecen teunoloxíes que van acullá de les aplicaciones especializaes, creyemos qu'estes han sirvir a tolos usuarios n'igualdá de condiciones. Esto significa incluyir más llingües, más diversidá d'acentos y datos demográficos al crear y probar estes teunoloxíes de voz. Common Voice ye un recursu públicu que ta disponible pa toos y tanto Mozilla, como los desendolcadores de tol mundu, yá tán usándolu nos sos proyeutos.
 faq-what-cv-and-deepspeech-q = ¿En qué s'estremen Common Voice y Deep Speech?
 faq-what-cv-and-deepspeech-a = Common Voice complementa'l motor de reconocencia de voz Deep Speech. La primer versión de Deep Speech llanzóse en payares de 2017 y siguió evolucionando dende entós. Xunto col conxuntu de datos de Common Voice, creyemos qu'esta teunoloxía de reconocecia de voz de codigu llibre debería tar disponible pa tol mundu. Esperamos qu'estes teunoloxíes permitan a los desendolcadores crear una fola de productos y servicios innovadores.
 faq-is-goal-assistant-q = ¿La meta de Common Voice ye la de crear un asistente de voz?
 faq-is-goal-assistant-a = La meta del conxuntu de datos de Common Voice ye la de permitir que tol mundu crea aplicaciones que reconozan voces y rican datos de voz. Un asistente de voz ye una de les munches aplicaciones que podríen usar el conxuntu de datos.
 faq-do-want-native-q = Nun soi un falante nativu y falo con acentu, ¿val la mio collaboración?
+faq-do-want-native-a = ¡Sí ho, claro que la queremos! Parte del oxetivu de Common Voice ye recoyer tantos acentos diferentes como seya posible pa que los servicios de reconocencia de voz trabayen igual pa toos. Esto quier dicir que les voces donaes de falantes non nativos son perimportantes.
 faq-why-different-speakers-q = ¿Por qué precisáis tantos falantes per llingua?
+faq-why-different-speakers-a =
+    La mayoría de bases de datos de voz tán entrenaes con una representación escesiva de d'algún rasgu demográficu que xenera resultaos sesgaos a lo <articleLink>masculino y de clas media</articleLink>. Los acentos y dialeutos que tienden a ser infrarrepresentaos nos conxuntos de datos d'entrenamientu asóciense davezu con grupos de xente que yá tán marxinaos. Munches maquines tienen problemes pa entender les voces femenines.
+    ¡Ye por eso polo que na nuesa base de datos queremos variedá!
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
+faq-why-my-lang-new-a = Mozilla nun favorez a una llingua u otra, en cuentes d'eso, Common Voice ye una iniciativa dirixida dafechu pola comunidá. Pero p'amestar una llingua <multilangLink>hai que facer facer unes coses enantes</multilangLink> y apenzar a recoyer voces donaes. Lo primero, el sitiu web de Common Voice precisar tar traducíu pa que los miembros de la comunidá puean collaborar usando la so llingua. Darréu, precisamos tener una coleición grande de frases ensin copyright pa que la xente les llea n'alto. Nel momentu qu'esos requirimientos se cumplen, esa llingua «llanzase» en Common Voice pa que la xente grabe la so voz y valide les collaboraciones d'otros. Si quies ayudar a llanzar una llingua nueva, visita la nuesa <sentenceCollectorLink>ferramienta de recoyida de frases</sentenceCollectorLink> pa entamar.
 faq-what-quality-q = ¿Qué nivel de calidá d'audiu se rique pa qu'un clip s'use nel conxuntu de datos?
 faq-why-10k-hours-a = Esti ye'l númberu aproximáu d'hores riquíes pa entrenar un sistema en producción de fala a voz.
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice les hores?
@@ -398,6 +408,7 @@ faq-search-for-answers =
 about-title = ¿Por qué Common Voice?
 about-subtitle = Common Voice ye parte de la iniciativa de Mozilla p'ayudar a deprende-yos a máquines cómo falamos los humanos. Arriendes d'eso, tamién tamos creando Deep Speech que ye un motor de reconocencia de voz de códigu abiertu.
 how-does-it-work-title = ¿Cómo funciona?
+how-does-it-work-text = Tamos faciendo n'andecha un conxuntu de datos de voz abiertu. Dona la to voz, valida la precisión de los clips d'otres persones y fai que'l conxuntu de datos seya'l meyor pa tol mundu.
 about-speak = Fala
 about-speak-text = Los collaboradores graben clips de voz lleendo les frases d'un bancu de testos donaos.
 about-listen-queue = Cola d'audición
@@ -415,6 +426,10 @@ about-dataset-new-text = Contién milenta muestres de voz qu'ayuden a los desend
 about-clip-graveyard = Cementeriu de clips
 about-clip-graveyard-text = Fórmenlu los clips que nun s'incluyeron nel conxuntu de datos de Common Voice. Sicasí, ta disponible pa baxar.
 about-partners = Socios
+about-partnership =
+    Common Voice ye un proyeutu collaborativu que depende de la comunidá de socios y collaboradores pa crear el conxuntu de datas de voz abiertu más grande del momentu.
+    
+    Prestaríanos agradecer a les persones y organizaciones de darréu pola so ayuda col proyeutu:
 about-get-involved = Andecha
 about-get-involved-text =
     ¿Quies ayudar a facer que Common Voice seya meyor?
@@ -478,6 +493,13 @@ review-delete-recordings = Desaniciar les mios grabaciones
 
 ## Datasets Page
 
+datasets-headline = Tamos creando un conxuntu de datos de voz abiertu y plurillingüe que tol mundu pue usar pa entrenar a les aplicaciones de voz.
+datasets-positioning =
+    Creyemos qu'un conxuntu de datos públicu, grande y disponible va dar puxu a la innovación y a una competencia sana alrodiu de la teunoloxía de la reconocencia de voz basada nel deprendizaxe automáticu.
+    
+    El conxuntu de datos plurillingüe de Common Voice yá ye'l mas grande de la so triba pero non l'únicu.
+    
+    Mira esta páxina como un puntu de referencia pa otros conxuntos de datos abiertos y, a midida que Common Voice siga medrando, un llugar onde vamos llanzar los anovamientos.
 language = Llingua
 # File size in gigabytes
 size = Tamañu
@@ -487,6 +509,7 @@ cv-license = Llicencia
 audio-format = Formatu d'audiu
 number-of-voices = Númberu de voces
 email-to-download = Introducir un corréu pa baxar
+why-email = <b>¿Por qué un corréu?</b> Precisamos tener una forma de contautate nel futuru tocante a los cambeos que se faigan nel conxuntu de datos.
 confirm-size = Toi preparáu p'aniciar la descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -496,9 +519,12 @@ validated-hours = Hores validaes
 recorded-hours = Hores grabaes
 whats-inside = ¿Qué hai dientro del conxuntu de datos de Common Voice?
 want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión nueva del conxuntu de datos de Common Voice? Soscríbite al boletín.
+subscribe = Soscribise
+get-started-speech = Introducción a la reconocencia de voz
 other-datasets = Otros conxuntos de datos de voz
 feedback-q = ¿Tienes comentarios?
-common-voice-info-new = ¿Tienes entrugues tocante a Common Voice?¿idees, ameyores o comentarios tocante a una llingua n'especial? Xúnite a nós nel foru <discourseLink>Discourse</discourseLink> y fala con nós.
+deepspeech-info = El conxuntu de datos de Common Voice complementa al motor de reconocencia de voz de códigu abiertu Deep Speech que pues usar pa crear aplicaciones que reconozan la voz. Llei la nuesa <githubLink>descripción xeneral en Github</githubLink> o xúnite al <discourseLink>Discourse de DeepSpeech</discourseLink> pa deprender a cómo entamar.
+common-voice-info-new = ¿Tienes entrugues tocante a Common Voice?¿idees, ameyores o comentarios tocante a una llingua n'especial? Xúnite al foru <discourseLink>Discourse</discourseLink> y fala con nós.
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose a partir de los audios de charres y les sos trescripciones disponibles nel sitiu web TED.
@@ -694,6 +720,8 @@ activity-needed-calculation =
 how-many-per-day = ¡Mui bien! ¿Cuántos clips per día?
 how-many-a-week = ¡Mui bien! ¿Cuántos clips per selmana?
 which-goal-type = ¿Quies Falar, Sentir o dambos?
+receiving-emails-info = Anguaño <bold>TAS</bold> recibiendo correos tocante a Common Voice
+not-receiving-emails-info = Anguaño <bold>NUN</bold> tas recibiendo correos tocante a Common Voice
 n-clips = { NUMBER($count) } clips
 confirm-goal = Confirmar la meta
 goal-interval-weekly = Selmanalmente
