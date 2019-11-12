@@ -51,6 +51,7 @@
 
         &:disabled {
             background: var(--near-black);
+            opacity: 1;
         }
 
         &:hover,
