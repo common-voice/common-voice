@@ -7,11 +7,13 @@ import { getConfig } from '../config-helper';
 import { AWS } from './aws';
 import Model from './model';
 import getLeaderboard from './model/leaderboard';
+import { earnBonus, hasEarnedBonus } from './model/achievements';
 import * as Basket from './basket';
 import Bucket from './bucket';
 import { ClientParameterError } from './utility';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
+import { ChallengeToken } from 'common/challenge';
 
 const Transcoder = require('stream-transcoder');
 
@@ -83,7 +85,7 @@ export default class Clip {
     response: Response
   ) => {
     const id = params.clipId as string;
-    const { isValid } = body;
+    const { isValid, challenge } = body;
 
     const clip = await this.model.db.findClip(id);
     if (!clip || !client_id) {
@@ -106,10 +108,28 @@ export default class Clip {
 
     console.log('clip vote written to s3', voteFile);
 
-    response.json(glob);
+    const ret = {
+      glob: glob,
+      firstContribute: await earnBonus('first_contribution', [
+        challenge,
+        client_id,
+      ]),
+      hasAchieved: await hasEarnedBonus(
+        'invite_contribute_same_session',
+        client_id,
+        challenge
+      ),
+      firstStreak: await checkGoalsAfterContribution(
+        client_id,
+        { id: clip.locale_id },
+        challenge
+      ),
+    };
+    // move it to the last line and leave a trace here in case of serious performance issues
+    // response.json(ret);
 
-    await checkGoalsAfterContribution(client_id, { id: clip.locale_id });
     Basket.sync(client_id).catch(e => console.error(e));
+    response.json(ret);
   };
 
   /**
@@ -190,9 +210,28 @@ export default class Clip {
       });
       await Awards.checkProgress(client_id, { name: params.locale });
 
-      await checkGoalsAfterContribution(client_id, { name: params.locale });
+      const challenge = headers.challenge as ChallengeToken;
+      const firstStreak = await checkGoalsAfterContribution(
+        client_id,
+        { name: params.locale },
+        challenge
+      );
       Basket.sync(client_id).catch(e => console.error(e));
-      response.json(filePrefix);
+
+      const ret = {
+        filePrefix: filePrefix,
+        firstContribute: await earnBonus('first_contribution', [
+          challenge,
+          client_id,
+        ]),
+        hasAchieved: await hasEarnedBonus(
+          'invite_contribute_same_session',
+          client_id,
+          challenge
+        ),
+        firstStreak: firstStreak,
+      };
+      response.json(ret);
     } catch (error) {
       console.error(error);
       response.statusCode = error.statusCode || 500;

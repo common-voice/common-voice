@@ -23,13 +23,9 @@
     &.achievement {
         background: var(--blue);
         line-height: 1.5;
-        border-radius: 29px 0 0 29px;
+        border-radius: 100px 0 0 100px;
         padding: 10px 20px;
-        img {
-            width: 14px;
-            height: 14px;
-            margin-right: 15px;
-        }
+        max-width: 300px;
     }
 
     &:first-child {
@@ -48,5 +44,10 @@
         & path {
             fill: var(--white);
         }
+    }
+    .score {
+        width: 14px;
+        height: 14px;
+        margin-right: 10px;
     }
 }

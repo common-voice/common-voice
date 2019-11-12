@@ -17,6 +17,9 @@ export namespace Clips {
     [locale: string]: {
       clips: Clip[];
       isLoading: boolean;
+      firstContribute: boolean;
+      firstStreak: boolean;
+      hasAchieved: boolean;
       next?: Clip;
     };
   }
@@ -29,10 +32,18 @@ export namespace Clips {
     REFILL_CACHE = 'REFILL_CLIPS_CACHE',
     REMOVE_CLIP = 'REMOVE_CLIP',
     LOAD = 'LOAD_CLIPS',
+    ACHIEVEMENT = 'ACHIEVEMENT',
   }
 
   interface LoadAction extends ReduxAction {
     type: ActionType.LOAD;
+  }
+
+  interface AchievementAction extends ReduxAction {
+    type: ActionType.ACHIEVEMENT;
+    firstContribute?: boolean;
+    hasAchieved?: boolean;
+    firstStreak?: boolean;
   }
 
   interface RefillCacheAction extends ReduxAction {
@@ -45,7 +56,11 @@ export namespace Clips {
     clipId: string;
   }
 
-  export type Action = LoadAction | RefillCacheAction | RemoveClipAction;
+  export type Action =
+    | LoadAction
+    | RefillCacheAction
+    | RemoveClipAction
+    | AchievementAction;
 
   export const actions = {
     refillCache: () => async (
@@ -98,9 +113,21 @@ export namespace Clips {
       const state = getState();
       const id = clipId || localeClips(state).next.id;
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
-      await state.api.saveVote(id, isValid);
+      const {
+        firstContribute,
+        hasAchieved,
+        firstStreak,
+      } = await state.api.saveVote(id, isValid);
       if (!state.user.account) {
         dispatch(User.actions.tallyVerification());
+      }
+      if (state.user.account.enrollment.challenge) {
+        dispatch({
+          type: ActionType.ACHIEVEMENT,
+          firstContribute,
+          hasAchieved,
+          firstStreak,
+        });
       }
       User.actions.refresh()(dispatch, getState);
       actions.refillCache()(dispatch, getState);
@@ -124,6 +151,9 @@ export namespace Clips {
           clips: [],
           next: null,
           isLoading: false,
+          firstContribute: false,
+          firstStreak: false,
+          hasAchieved: false,
         },
       }),
       {}
@@ -155,6 +185,9 @@ export namespace Clips {
                 clips.findIndex(clip2 => clip2.id === clip1.id) === i
             ),
             isLoading: false,
+            hasAchieved: false,
+            firstContribute: false,
+            firstStreak: false,
             next,
           },
         };
@@ -164,6 +197,18 @@ export namespace Clips {
         const clips = localeState.clips.filter(c => c.id !== action.clipId);
         const next = clips.pop();
         return { ...state, [locale]: { ...localeState, clips, next } };
+      }
+
+      case ActionType.ACHIEVEMENT: {
+        return {
+          ...state,
+          [locale]: {
+            ...localeState,
+            hasAchieved: action.hasAchieved,
+            firstContribute: action.firstContribute,
+            firstStreak: action.firstStreak,
+          },
+        };
       }
 
       default:

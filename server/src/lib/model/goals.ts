@@ -1,6 +1,8 @@
 import { AllGoals } from 'common/goals';
+import { ChallengeToken } from 'common/challenge';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
+import { earnBonus } from './achievements';
 
 const STREAK_THRESHOLDS = [1, 3, 5, 10, 15];
 
@@ -234,12 +236,18 @@ export default async function getGoals(
  * Checks whether goals are reached and if so creates reached_goals DB rows.
  * Also includes streaks which requires checking and updating the streaks table,
  * so the expectation is that it's called after a contribution (speak/listen).
+ *
+ * Also check if the three_day_streak bonus is earned, return true if so.
+ * Put bonus logic here instead of the caller because it only needs to run once among all contributions.
+ * [FUTURE] consider refatoring this method in next major development,
+ *          this method bears multiple responsibilities.
  */
 export async function checkGoalsAfterContribution(
   client_id: string,
-  locale: { id: number } | { name: string }
+  locale: { id: number } | { name: string },
+  challenge?: ChallengeToken
 ) {
-  if (!(await hasComputedGoals(client_id))) return;
+  if (!(await hasComputedGoals(client_id))) return false;
 
   const localeId =
     'name' in locale ? await getLocaleId(locale.name) : locale.id;
@@ -254,7 +262,7 @@ export async function checkGoalsAfterContribution(
     ),
     db.query(
       `
-        SELECT 
+        SELECT
           (
            SELECT COUNT(*)
            FROM clips
@@ -341,5 +349,16 @@ export async function checkGoalsAfterContribution(
         VALUES (?,     ?,    ?,         ?,         NOW()     )`,
       [threshold, type, client_id, localeId]
     );
+
+    // reached a 3-day streak, and try to earn the three_day_streak bonus
+    let earned = false;
+    if (challenge && type === 'streak' && currentCount === 3) {
+      earned = await earnBonus('three_day_streak', [
+        client_id,
+        client_id,
+        challenge,
+      ]);
+    }
+    return earned;
   }
 }

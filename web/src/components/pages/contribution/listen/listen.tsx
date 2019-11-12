@@ -5,6 +5,7 @@ import { trackListening } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
+import API from '../../../../services/api';
 import URLS from '../../../../urls';
 import {
   CheckIcon,
@@ -20,10 +21,12 @@ import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
 } from '../contribution';
+import { Notifications } from '../../../../stores/notifications';
 import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
 
 import './listen.css';
+import { User } from '@sentry/types';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -41,14 +44,19 @@ const VoteButton = ({
 );
 
 interface PropsFromState {
+  api: API;
   clips: Clips.Clip[];
   isLoading: boolean;
   locale: Locale.State;
+  firstContribute: boolean;
+  hasAchieved: boolean;
+  firstStreak: boolean;
 }
 
 interface PropsFromDispatch {
   removeClip: typeof Clips.actions.remove;
   vote: typeof Clips.actions.vote;
+  addAchievement: typeof Notifications.actions.addAchievement;
 }
 
 interface Props extends PropsFromState, PropsFromDispatch {}
@@ -128,10 +136,42 @@ class ListenPage extends React.Component<Props, State> {
 
   private vote = (isValid: boolean) => {
     const { clips } = this.state;
+    const {
+      firstContribute,
+      hasAchieved,
+      addAchievement,
+      api,
+      firstStreak,
+    } = this.props;
     const clipIndex = this.getClipIndex();
 
     this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
+    sessionStorage.setItem('hasContributed', 'true');
+    if (firstContribute) {
+      addAchievement(
+        50,
+        "You're on your way! Congrats on your first contribution.",
+        'success'
+      );
+    }
+    if (firstStreak) {
+      addAchievement(
+        50,
+        'You completed a three-day streak! Keep it up.',
+        'success'
+      );
+    }
+    if (JSON.parse(sessionStorage.getItem('hasShared')) && !hasAchieved) {
+      addAchievement(
+        50,
+        "You're on a roll! You sent an invite and contributed in the same session.",
+        'success'
+      );
+      // Tell back-end user get unexpected achievement: invite + contribute in the same session
+      // Each user can only get once.
+      api.setInviteContributeAchievement();
+    }
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
@@ -316,10 +356,21 @@ class ListenPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => {
-  const { clips, isLoading } = Clips.selectors.localeClips(state);
+  const {
+    clips,
+    isLoading,
+    firstContribute,
+    hasAchieved,
+    firstStreak,
+  } = Clips.selectors.localeClips(state);
+  const { api } = state;
   return {
     clips,
     isLoading,
+    firstContribute,
+    hasAchieved,
+    firstStreak,
+    api,
     locale: state.locale,
   };
 };
@@ -327,6 +378,7 @@ const mapStateToProps = (state: StateTree) => {
 const mapDispatchToProps = {
   removeClip: Clips.actions.remove,
   vote: Clips.actions.vote,
+  addAchievement: Notifications.actions.addAchievement,
 };
 
 export default connect<PropsFromState, any>(

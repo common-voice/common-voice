@@ -11,6 +11,7 @@ import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import { CrossIcon, InfoIcon } from '../../../ui/icons';
 import { LabeledCheckbox } from '../../../ui/ui';
+import { Notifications } from '../../../../stores/notifications';
 import { trackChallenge } from '../../../../services/tracker';
 import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
 import { isChallengeLive, pilotDates } from './constants';
@@ -89,8 +90,11 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
 export default function ChallengePage() {
   const [showOverlay, setShowOverlay] = useState(false);
   // [TODO]: Hook this up to the DB so we only see it once.
-  const [showOnboardingModal, setShowOnboardingModal] = useState(true);
   const [isNarrow, setIsNarrow] = useState(false);
+  const addAchievement = useAction(Notifications.actions.addAchievement);
+  const [showOnboardingModal, setShowOnboardingModal] = useState(
+    window.location.search.includes('first=1')
+  );
   const [weekly, setWeekly] = useState(null);
   const account = useAccount();
   const api = useAPI();
@@ -114,37 +118,45 @@ export default function ChallengePage() {
         <OnboardingModal
           onRequestClose={() => {
             setShowOnboardingModal(false);
+            if (window.location.search.includes('achievement=1')) {
+              addAchievement(
+                50,
+                'Bonus! You signed up in time for some extra points.'
+              );
+            }
           }}
         />
       )}
       {weekly && <WeeklyChallenge isNarrow={isNarrow} weekly={weekly} />}
-      <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
-        {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
-        <div className="leader-board">
-          <LeaderBoardCard
-            title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
-            showVisibleIcon
-            showOverlay={() => setShowOverlay(true)}
-            service="team-progress"
-          />
-        </div>
-        <div className="leader-board">
-          {weekly && (
-            <TeamBoardCard
-              title="Overall Challenge Top Team"
-              week={weekly.week}
+      {account && account.enrollment && (
+        <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
+          {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
+          <div className="leader-board">
+            <LeaderBoardCard
+              title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
+              showVisibleIcon
+              showOverlay={() => setShowOverlay(true)}
+              service="team-progress"
             />
-          )}
+          </div>
+          <div className="leader-board">
+            {weekly && (
+              <TeamBoardCard
+                title="Overall Challenge Top Team"
+                week={weekly.week}
+              />
+            )}
+          </div>
+          <div className="leader-board">
+            <LeaderBoardCard
+              title="Overall Challenge Top Contributors"
+              showVisibleIcon
+              showOverlay={() => setShowOverlay(true)}
+              service="top-contributors"
+            />
+          </div>
         </div>
-        <div className="leader-board">
-          <LeaderBoardCard
-            title="Overall Challenge Top Contributors"
-            showVisibleIcon
-            showOverlay={() => setShowOverlay(true)}
-            service="top-contributors"
-          />
-        </div>
-      </div>
+      )}
     </div>
   ) : (
     <ChallengeOffline duration={pilotDates} />

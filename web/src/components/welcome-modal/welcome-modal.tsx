@@ -64,7 +64,6 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
           window.location.pathname = `/login`;
         }}>
         Join the {readableTeamName} team
-        <ArrowLeft />
       </Button>
     </Modal>
   );

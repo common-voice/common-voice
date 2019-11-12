@@ -15,6 +15,10 @@ export function useAPI() {
   return useTypedSelector(({ api }) => api);
 }
 
+export function useNotifications() {
+  return useTypedSelector(({ notifications }) => notifications);
+}
+
 export function useIsSubscribed() {
   const account = useAccount();
   const [isSubscribed, setIsSubscribed] = useState<boolean>(null);

@@ -4,7 +4,7 @@ import { ChallengeTeamToken } from 'common/challenge';
 import { challengeLogos } from './constants';
 
 export default ({ team }: { team: ChallengeTeamToken }) => {
-  const logo = challengeLogos['ibm'];
+  const logo = challengeLogos[team];
   if (!logo) return null;
   const { url, background, border } = logo;
   return (

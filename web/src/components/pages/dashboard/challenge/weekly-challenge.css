@@ -92,7 +92,6 @@
         }
     }
 }
-
 @media (--sm-down) {
     .weekly-container {
         min-width: 100% !important;
