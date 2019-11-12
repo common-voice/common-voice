@@ -7,7 +7,7 @@ import { getConfig } from '../config-helper';
 import { AWS } from './aws';
 import Model from './model';
 import getLeaderboard from './model/leaderboard';
-import Achievements from './model/achievements';
+import { earnBonus, hasEarnedBonus } from './model/achievements';
 import * as Basket from './basket';
 import Bucket from './bucket';
 import { ClientParameterError } from './utility';
@@ -110,11 +110,11 @@ export default class Clip {
 
     const ret = {
       glob: glob,
-      firstContribute: await Achievements.earnBonus('first_contribution', [
+      firstContribute: await earnBonus('first_contribution', [
         challenge,
         client_id,
       ]),
-      hasAchieved: await Achievements.hasEarnedBonus(
+      hasAchieved: await hasEarnedBonus(
         'invite_contribute_same_session',
         client_id,
         challenge
@@ -220,11 +220,11 @@ export default class Clip {
 
       const ret = {
         filePrefix: filePrefix,
-        firstContribute: await Achievements.earnBonus('first_contribution', [
+        firstContribute: await earnBonus('first_contribution', [
           challenge,
           client_id,
         ]),
-        hasAchieved: await Achievements.hasEarnedBonus(
+        hasAchieved: await hasEarnedBonus(
           'invite_contribute_same_session',
           client_id,
           challenge

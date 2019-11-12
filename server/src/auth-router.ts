@@ -8,7 +8,7 @@ import * as session from 'express-session';
 const MySQLStore = require('express-mysql-session')(session);
 import UserClient from './lib/model/user-client';
 import DB from './lib/model/db';
-import Achievements from './lib/model/achievements';
+import { earnBonus } from './lib/model/achievements';
 import { getConfig } from './config-helper';
 
 const {
@@ -135,11 +135,11 @@ router.get(
         // if the user is already registered, now he/she should be enrolled
         // [TODO] there should be an elegant way to get the client_id here
         const client_id = await UserClient.findClientId(user.emails[0].value);
-        await Achievements.earnBonus('sign_up_first_three_days', [
+        await earnBonus('sign_up_first_three_days', [
           enrollment.challenge,
           client_id,
         ]);
-        await Achievements.earnBonus('invite_signup', [
+        await earnBonus('invite_signup', [
           client_id,
           enrollment.invite,
           enrollment.invite,

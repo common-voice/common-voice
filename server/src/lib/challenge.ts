@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 
 import getLeaderboard from './model/leaderboard';
-import Achievements from './model/achievements';
+import { earnBonus, hasEarnedBonus } from './model/achievements';
 import Model from './model';
 import { ChallengeRequestArgument } from 'common/challenge';
 
@@ -40,7 +40,7 @@ export default class Challenge {
     if (bonus_type === 'session') {
       // earn the invite_contribute_same_session achievement
       response.json(
-        await Achievements.earnBonus('invite_contribute_same_session', [
+        await earnBonus('invite_contribute_same_session', [
           client_id,
           client_id,
           challenge,
@@ -52,12 +52,12 @@ export default class Challenge {
       // if invite_send achievement is not earned yet, earn that achievement and return firstInvite: true
       // if invite_contribute_same_session is not earned yet, return hasAchieved: false
       const achievement = {
-        firstInvite: await Achievements.earnBonus('invite_send', [
+        firstInvite: await earnBonus('invite_send', [
           client_id,
           client_id,
           challenge,
         ]),
-        hasAchieved: await Achievements.hasEarnedBonus(
+        hasAchieved: await hasEarnedBonus(
           'invite_contribute_same_session',
           client_id,
           challenge

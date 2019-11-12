@@ -2,7 +2,7 @@ import { AllGoals } from 'common/goals';
 import { ChallengeToken } from 'common/challenge';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
-import Achievements from './achievements';
+import { earnBonus } from './achievements';
 
 const STREAK_THRESHOLDS = [1, 3, 5, 10, 15];
 
@@ -262,7 +262,7 @@ export async function checkGoalsAfterContribution(
     ),
     db.query(
       `
-        SELECT 
+        SELECT
           (
            SELECT COUNT(*)
            FROM clips
@@ -353,7 +353,7 @@ export async function checkGoalsAfterContribution(
     // reached a 3-day streak, and try to earn the three_day_streak bonus
     let earned = false;
     if (challenge && type === 'streak' && currentCount === 3) {
-      earned = await Achievements.earnBonus('three_day_streak', [
+      earned = await earnBonus('three_day_streak', [
         client_id,
         client_id,
         challenge,

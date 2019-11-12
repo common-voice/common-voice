@@ -4,7 +4,7 @@ import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
-import Achievements from './achievements';
+import { earnBonus } from './achievements';
 import { ChallengeToken, ChallengeTeamToken } from 'common/challenge';
 
 const db = getMySQLInstance();
@@ -213,11 +213,11 @@ const UserClient = {
         referer
       ))
     ) {
-      await Achievements.earnBonus('sign_up_first_three_days', [
+      await earnBonus('sign_up_first_three_days', [
         data.enrollment.challenge,
         client_id,
       ]);
-      await Achievements.earnBonus('invite_signup', [
+      await earnBonus('invite_signup', [
         client_id,
         data.enrollment.invite,
         data.enrollment.invite,
