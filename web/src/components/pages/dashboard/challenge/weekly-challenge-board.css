@@ -296,12 +296,6 @@ img.icon {
             }
         }
 
-        .icon,
-        .icon img {
-            width: 47.5px;
-            height: 47.5px;
-        }
-
         .column {
             box-sizing: border-box;
             text-align: left;
@@ -315,6 +309,30 @@ img.icon {
         }
         .divider {
             display: none;
+        }
+    }
+
+    .title-container {
+        position: relative;
+        align-items: initial;
+        display: block;
+        padding: 20px;
+
+        img.icon {
+            width: 60px;
+            height: 60px;
+            margin-left: -10px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .title {
+            margin-left: 0;
+            max-width: 100%;
+        }
+
+        .week-container {
+            top: 2rem;
         }
     }
 
