@@ -134,10 +134,12 @@ img.icon {
 .speak-bar,
 .listen-bar,
 .team-bar {
-    width: 140px;
-    height: 140px;
-    margin: 10px auto 0;
-    display: block;
+    &.desktop-progress {
+        width: 140px;
+        height: 140px;
+        margin: 10px auto 0;
+        display: block;
+    }
 }
 .speak-bar {
     color: var(--red) !important;
@@ -259,6 +261,7 @@ img.icon {
             }
 
             .invite {
+                display: flex;
                 order: 1;
             }
 

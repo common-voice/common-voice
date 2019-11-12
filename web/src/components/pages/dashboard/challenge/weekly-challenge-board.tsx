@@ -1,9 +1,6 @@
 import * as React from 'react';
 import { LocaleLink } from '../../../locale-helpers';
-import {
-  CircleProgress,
-  CircleProgressSimple,
-} from '../../../pages/dashboard/ui';
+import { CircleProgress, Fraction } from '../../../pages/dashboard/ui';
 import { WeeklyChallenge, ChallengeTeamToken } from 'common/challenge';
 import { Avatar } from '../../../ui/ui';
 import URLS from '../../../../urls';
@@ -62,10 +59,10 @@ export default function WeeklyChallengeBoard({
                   strokeW={4}
                   radius={66}
                 />
-                <CircleProgressSimple
+                <Fraction
                   numerator={user.speak}
                   denominator={user.speak_total}
-                  className="speak-bar  progress-mobile"
+                  className="speak-bar progress-mobile"
                 />
               </div>
               <div className="divider" />
@@ -81,7 +78,7 @@ export default function WeeklyChallengeBoard({
                   strokeW={4}
                   radius={66}
                 />
-                <CircleProgressSimple
+                <Fraction
                   numerator={user.listen}
                   denominator={user.listen_total}
                   className="listen-bar progress-mobile"
@@ -112,9 +109,10 @@ export default function WeeklyChallengeBoard({
                   strokeW={4}
                   radius={66}
                 />
-                <CircleProgressSimple
+                <Fraction
                   numerator={(100 * team.invite) / team.invite_total}
                   className="team-bar progress-mobile"
+                  percentage
                 />
                 <p className="team-invite-total">
                   of {team.invite_total} invites

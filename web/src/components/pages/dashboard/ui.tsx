@@ -6,13 +6,15 @@ export function Fraction({
   numerator,
   denominator,
   percentage,
+  className,
 }: {
   numerator: React.ReactNode;
   denominator?: React.ReactNode;
   percentage?: boolean;
+  className?: string;
 }) {
   return (
-    <div className="fraction">
+    <div className={`fraction${className ? ` ${className}` : ''}`}>
       <div className="numerator">{numerator}</div>
       <div className="denominator">
         {percentage ? ' % ' : ' / '}
@@ -91,27 +93,6 @@ export function CircleProgress({
         <Fraction numerator={value} denominator={denominator} />
       ) : (
         <Fraction numerator={Math.round(100 * value)} percentage />
-      )}
-    </div>
-  );
-}
-
-export function CircleProgressSimple({
-  className,
-  numerator,
-  denominator,
-}: {
-  className?: string;
-  numerator: number;
-  denominator?: number;
-}) {
-  return (
-    <div className={`circle-progress-simple ${className}`}>
-      <span className="numerator">{Math.round(numerator)}</span>
-      {denominator ? (
-        <span className="denominator"> / {denominator}</span>
-      ) : (
-        <span className="progress-percentage">%</span>
       )}
     </div>
   );
