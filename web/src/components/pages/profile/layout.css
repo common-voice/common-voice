@@ -60,7 +60,7 @@
             margin-inline-end: 100px;
         }
 
-        & .links {
+        .links {
             display: flex;
 
             @media (--sm-down) {
@@ -81,7 +81,15 @@
                 right: 0;
             }
 
-            & a {
+            svg {
+                width: 22px;
+
+                & path {
+                    fill: var(--warm-grey);
+                }
+            }
+
+            a {
                 border-radius: 40px;
                 padding: 18px 40px;
                 max-width: 200px;
@@ -99,8 +107,12 @@
                     background: var(--white);
                     color: var(--black);
 
-                    & path {
+                    path {
                         fill: var(--black);
+                    }
+
+                    defs path {
+                        fill: var(--white);
                     }
 
                     & .text {
@@ -108,15 +120,7 @@
                     }
                 }
 
-                & svg {
-                    width: 22px;
-
-                    & path {
-                        fill: var(--warm-grey);
-                    }
-                }
-
-                & .text {
+                .text {
                     margin-inline-start: 15px;
 
                     @media (--sm-down) {
