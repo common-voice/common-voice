@@ -35,7 +35,7 @@ az = Azerbaixanu
 ba = Baxkir
 be = Bielorrusu
 bg = Búlgaru
-bn = Bengalí
+bn = Bengalín
 br = Bretón
 bxr = Buriatu
 ca = Catalán
@@ -85,7 +85,7 @@ ky = Kirguís
 lij = Ligur
 lt = Lituanu
 lv = Letón
-mdf = Moksha
+mdf = Mokxa
 mg = Malgaxe
 mhr = Mari de les Praderes
 mk = Macedoniu
@@ -756,4 +756,5 @@ profile-form-delete = Desaniciu del perfil
 ## Landing
 
 welcome-staff = ¡Afayáivos, personal de { $company }!
+help-contribute = Pues ayudar a crear un conxuntu de datos diversu y abiertu creando un perfil en Common Voice y collaborando cola to voz.
 profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
