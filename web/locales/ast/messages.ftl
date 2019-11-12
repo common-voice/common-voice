@@ -403,6 +403,7 @@ faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o a
 faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
 faq-how-privacy-q = ¿Cómo aseguráis l'anonimatu y privacidá de la xente que donó les sos voces?
+faq-how-privacy-a = Tolos clips de voz del conxuntu de datos analícense pa desaniciar cualesquier información identificativa. Cuando un collaborador apurre información demográfica pente'l so perfil, esta información desaníciase de los clips de voz enantes d'empaquetalos pa la descarga del conxuntu de datos y enxamás va espublizase na so páxina de perfil.
 faq-what-determine-identity-q = ¿Qué significa que nun pueo «determinar la identidá» de los falantes del conxuntu de datos de Common Voice?
 faq-what-determine-identity-a =
     El conxuntu de datos de Common Voice ye un recursu públicu y abiertu que pue usase pa entrenar a una montonera d'aplicaciones qu'usen la voz. Pa protexer la seguranza de los nuesos collaboradores, pidimos a tol mundu que baxe esti conxuntu de datos que respete la so privacidá.
