@@ -38,7 +38,9 @@ export const LoginSuccess = withRouter(
       history.replace(
         redirectURL ||
           toLocaleRoute(
-            account ? URLS.ROOT : URLS.PROFILE_INFO + location.search
+            account
+              ? URLS.ROOT + location.search
+              : URLS.PROFILE_INFO + location.search
           )
       );
     }, [user]);
