@@ -2,7 +2,7 @@ import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Redirect, Route, Switch } from 'react-router';
-import { useAccount, useAPI } from '../../../hooks/store-hooks';
+import { useAccount, useAPI, useAction } from '../../../hooks/store-hooks';
 import { useRouter } from '../../../hooks/use-router';
 import URLS from '../../../urls';
 import { ALL_LOCALES } from '../../language-select/language-select';
@@ -11,6 +11,7 @@ import {
   LocaleNavLink,
   useLocale,
 } from '../../locale-helpers';
+import { Notifications } from '../../../stores/notifications';
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
@@ -253,8 +254,10 @@ const PAGES = [
 export default function Dashboard() {
   const { match } = useRouter();
   const account = useAccount();
+  const api = useAPI();
   const [, toLocaleRoute] = useLocale();
   const [showInviteModal, setShowInviteModal] = useState<boolean>(false);
+  const addAchievement = useAction(Notifications.actions.addAchievement);
 
   useEffect(() => {
     if (!account) {
@@ -273,6 +276,21 @@ export default function Dashboard() {
           inviteId="#####"
           onRequestClose={() => {
             setShowInviteModal(false);
+            if (JSON.parse(sessionStorage.getItem('firstInvite'))) {
+              addAchievement(50, 'You sent your first invite!');
+            }
+            if (
+              !JSON.parse(sessionStorage.getItem('hasAchieved')) &&
+              JSON.parse(sessionStorage.getItem('hasContributed'))
+            ) {
+              addAchievement(
+                50,
+                "You're on a roll! You sent an invite and contributed in the same session."
+              );
+              // Tell back-end user get unexpected achievement: invite + contribute in the same session
+              // Each user can only get once.
+              api.setInviteContributeAchievement();
+            }
           }}
           teamId="SAP"
         />

@@ -6,6 +6,7 @@ export namespace Notifications {
     | {
         kind: 'pill';
         type: NotificationType;
+        score?: number;
       }
     | { kind: 'banner'; actionProps: any });
 
@@ -40,6 +41,14 @@ export namespace Notifications {
     addBanner: (content: any, actionProps: any) => ({
       type: ActionType.ADD,
       notification: { id: ++id, kind: 'banner', content, actionProps },
+    }),
+    addAchievement: (
+      score: number,
+      text: string,
+      type: NotificationType = 'achievement'
+    ) => ({
+      type: ActionType.ADD,
+      notification: { id: ++id, kind: 'pill', score, content: text, type },
     }),
     remove: (id: number) => ({
       type: ActionType.REMOVE,

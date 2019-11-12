@@ -52,24 +52,6 @@
     letter-spacing: 0.8px;
     margin-bottom: 10px;
 }
-.week-points {
-    float: right;
-    background-color: #629ff4;
-    height: 70px;
-    border-radius: 100px 0 0 100px;
-    box-sizing: border-box;
-    padding: 12px 40px 0;
-    color: #fff;
-    margin-top: -15px;
-    img {
-        width: 14px;
-        height: 14px;
-        display: inline-block;
-    }
-    p:first-child {
-        font-weight: 600;
-    }
-}
 @media (--xs-down) {
     .week-points {
         max-width: 98px;
@@ -89,6 +71,10 @@
             width: 20px;
         }
     }
+}
+.week-points {
+    float: right;
+    margin-top: -15px;
 }
 
 @media (--sm-down) {

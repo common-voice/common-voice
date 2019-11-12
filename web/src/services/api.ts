@@ -23,6 +23,12 @@ interface FetchOptions {
   body?: any;
 }
 
+interface Vote extends Event {
+  hasAchieved?: boolean;
+  firstContribute?: boolean;
+  firstStreak?: boolean;
+}
+
 const API_PATH = location.origin + '/api/v1';
 export default class API {
   private readonly locale: Locale.State;
@@ -100,23 +106,32 @@ export default class API {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 
-  uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
+  uploadClip(
+    blob: Blob,
+    sentenceId: string,
+    sentence: string
+  ): Promise<{
+    firstContribute?: boolean;
+    hasAchieved?: boolean;
+    firstStreak?: boolean;
+  }> {
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
         sentence_id: sentenceId,
+        challenge: this.user.account.enrollment.challenge,
       },
       body: blob,
     });
   }
-
-  saveVote(id: string, isValid: boolean): Promise<Event> {
+  saveVote(id: string, isValid: boolean): Promise<Vote> {
     return this.fetch(`${this.getClipPath()}/${id}/votes`, {
       method: 'POST',
       body: {
         isValid,
+        challenge: this.user.account.enrollment.challenge,
       },
     });
   }
@@ -369,6 +384,23 @@ export default class API {
       }/${locale}/members/${type}?cursor=${
         cursor ? JSON.stringify(cursor) : ''
       }`
+    );
+  }
+  // check whether or not is the first invite
+  fetchInviteStatus(): Promise<{ firstInvite: boolean; hasAchieved: boolean }> {
+    return this.fetch(
+      `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/invite`
+    );
+  }
+
+  // Tell back-end user get unexpected achievement: invite + contribute in the same session
+  // Each user can only get once.
+  setInviteContributeAchievement(): Promise<void> {
+    return this.fetch(
+      `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/session`,
+      {
+        method: 'POST',
+      }
     );
   }
 }

@@ -240,14 +240,16 @@ let LocalizedPage: any = class extends React.Component<
                 .reverse()
                 .map(notification =>
                   notification.kind == 'pill' ? (
-                    <NotificationPill
-                      key={notification.id}
-                      {...{ notification }}
-                    />
+                    notification.type !== 'achievement' && (
+                      <NotificationPill
+                        key={notification.id}
+                        notification={notification}
+                      />
+                    )
                   ) : (
                     <NotificationBanner
                       key={notification.id}
-                      {...{ notification }}
+                      notification={notification}
                     />
                   )
                 )}

@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 
 import getLeaderboard from './model/leaderboard';
+import { earnBonus, hasEarnedBonus } from './model/achievements';
 import Model from './model';
 import { ChallengeRequestArgument } from 'common/challenge';
 
@@ -24,9 +25,47 @@ export default class Challenge {
       '/:challenge/:locale/contributors/:type',
       this.getTopContributors
     );
+    router.use('/:challenge/achievement/:bonus_type', this.getAchievement);
 
     return router;
   }
+
+  getAchievement = async (
+    {
+      client_id,
+      params: { challenge, bonus_type },
+    }: ChallengeRequestArgument & Request,
+    response: Response
+  ) => {
+    if (bonus_type === 'session') {
+      // earn the invite_contribute_same_session achievement
+      response.json(
+        await earnBonus('invite_contribute_same_session', [
+          client_id,
+          client_id,
+          challenge,
+        ])
+      );
+    } else if (bonus_type == 'invite') {
+      // return { firstInvite: boolean, hasAchieved: boolean } in the json
+      // NOTE: easy to get confused about how should return true or false
+      // if invite_send achievement is not earned yet, earn that achievement and return firstInvite: true
+      // if invite_contribute_same_session is not earned yet, return hasAchieved: false
+      const achievement = {
+        firstInvite: await earnBonus('invite_send', [
+          client_id,
+          client_id,
+          challenge,
+        ]),
+        hasAchieved: await hasEarnedBonus(
+          'invite_contribute_same_session',
+          client_id,
+          challenge
+        ),
+      };
+      response.json(achievement);
+    }
+  };
 
   getPoints = async (
     { client_id, params: { challenge } }: ChallengeRequestArgument & Request,
