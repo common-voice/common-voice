@@ -16,8 +16,11 @@ const bonus_condition_sql = {
     SELECT (invitee.id IS NOT NULL) AS win_bonus, invitor.client_id AS bonus_winner
     FROM challenges
     LEFT JOIN enroll invitee ON invitee.client_id = ?
-        AND invitee.invited_by = ? AND invitee.enrolled_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+        AND invitee.invited_by = ?
+        AND invitee.challenge_id = challenges.id
+        AND invitee.enrolled_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
     LEFT JOIN enroll invitor ON invitor.url_token = ?
+        AND invitor.challenge_id = challenges.id
     WHERE challenges.url_token = ?
     `,
   // Arguments: [client_id, client_id, challenge]
@@ -46,7 +49,7 @@ const bonus_condition_sql = {
         AND reached_goals.count >= 3
         AND reached_goals.reached_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
     LEFT JOIN streaks ON streaks.client_id = enroll.client_id
-        AND streaks.started_at BETWEEN start_date AND TIMESTAMPADD(DAY, 18, start_date)
+        AND streaks.started_at BETWEEN start_date AND TIMESTAMPADD(DAY, 18, start_date)  # 18 days = 3 weeks - 3 days.
         AND TIMESTAMPDIFF(DAY, streaks.started_at, streaks.last_activity_at) > 3
     WHERE challenges.url_token = ?
   `,
@@ -85,44 +88,40 @@ const bonus_condition_sql = {
     `,
 };
 const db = getMySQLInstance();
-export default {
-  async earnBonus(type: AchievementType, args: any[]) {
-    let earned = false;
 
-    const [[res]] = await db.query(bonus_condition_sql[type], args);
-    const { win_bonus, bonus_winner } = res || {
-      win_bonus: false,
-      bonus_winner: '',
-    };
-    if (win_bonus && bonus_winner) {
-      const ret = await db.query(
-        `
-              INSERT INTO earn (achievement_id, client_id) VALUES ((SELECT id FROM achievements WHERE name = ?), ?)
-            `,
-        [type, bonus_winner]
-      );
-      earned = ret && ret[0] && ret[0].affectedRows > 0 ? true : false;
-    }
-    return earned;
-  },
+export const earnBonus = async (type: AchievementType, args: any[]) => {
+  let earned = false;
 
-  async hasEarnedBonus(
-    type: AchievementType,
-    client_id: string,
-    challenge: ChallengeToken
-  ) {
-    const [[{ earned }]] = await db.query(
+  const [[res]] = await db.query(bonus_condition_sql[type], args);
+  const { win_bonus = false, bonus_winner = '' } = res || {};
+  if (win_bonus && bonus_winner) {
+    const ret = await db.query(
       `
-        SELECT earn.client_id IS NOT NULL AS earned
-        FROM challenges
-        LEFT JOIN achievements ON challenges.id = achievements.challenge_id AND achievements.name = ?
-        LEFT JOIN earn ON achievements.id = earn.achievement_id
-            AND earn.client_id = ?
-            AND earn.earned_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
-        WHERE challenges.url_token = ?
-        `,
-      [type, client_id, challenge]
+            INSERT INTO earn (achievement_id, client_id) VALUES ((SELECT id FROM achievements WHERE name = ?), ?)
+          `,
+      [type, bonus_winner]
     );
-    return earned;
-  },
+    earned = ret && ret[0] && ret[0].affectedRows > 0 ? true : false;
+  }
+  return earned;
+};
+
+export const hasEarnedBonus = async (
+  type: AchievementType,
+  client_id: string,
+  challenge: ChallengeToken
+) => {
+  const [[{ earned }]] = await db.query(
+    `
+      SELECT earn.client_id IS NOT NULL AS earned
+      FROM challenges
+      LEFT JOIN achievements ON challenges.id = achievements.challenge_id AND achievements.name = ?
+      LEFT JOIN earn ON achievements.id = earn.achievement_id
+          AND earn.client_id = ?
+          AND earn.earned_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+      WHERE challenges.url_token = ?
+      `,
+    [type, client_id, challenge]
+  );
+  return earned;
 };

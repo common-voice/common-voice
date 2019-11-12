@@ -29,7 +29,7 @@ export default function NotificationPill({
       style={{ opacity: show ? 1 : 0 }}
       onTransitionEnd={() => removeNotification(notification.id)}>
       {notification.kind === 'pill' && notification.score && (
-        <React.Fragment>
+        <>
           <img
             src={require('../pages/dashboard/challenge/images/star.svg')}
             alt=""
@@ -38,7 +38,7 @@ export default function NotificationPill({
           />
           + {notification.score} points
           <br />
-        </React.Fragment>
+        </>
       )}
       {notification.content}
     </div>

@@ -209,7 +209,8 @@ const UserClient = {
         email,
         data.enrollment.challenge,
         data.enrollment.team,
-        data.enrollment.invite
+        data.enrollment.invite,
+        referer
       ))
     ) {
       await Achievements.earnBonus('sign_up_first_three_days', [

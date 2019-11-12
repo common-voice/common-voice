@@ -48,7 +48,7 @@ export namespace Notifications {
       type: NotificationType = 'achievement'
     ) => ({
       type: ActionType.ADD,
-      notification: { id: id + 1, kind: 'pill', score, content: text, type },
+      notification: { id: ++id, kind: 'pill', score, content: text, type },
     }),
     remove: (id: number) => ({
       type: ActionType.REMOVE,

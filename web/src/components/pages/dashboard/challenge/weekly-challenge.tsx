@@ -53,18 +53,17 @@ export default function WeeklyChallenge({
         </div>
         <div className="week-points">
           {notifications
-            .slice()
-            .reverse()
             .map(
               notification =>
                 notification.kind == 'pill' &&
                 notification.type === 'achievement' && (
                   <NotificationPill
                     key={notification.id}
-                    {...{ notification }}
+                    notification={notification}
                   />
                 )
-            )}
+            )
+            .reverse()}
         </div>
       </div>
       <div className="weekly-content">

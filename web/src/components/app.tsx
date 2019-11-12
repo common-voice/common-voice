@@ -243,13 +243,13 @@ let LocalizedPage: any = class extends React.Component<
                     notification.type !== 'achievement' && (
                       <NotificationPill
                         key={notification.id}
-                        {...{ notification }}
+                        notification={notification}
                       />
                     )
                   ) : (
                     <NotificationBanner
                       key={notification.id}
-                      {...{ notification }}
+                      notification={notification}
                     />
                   )
                 )}
