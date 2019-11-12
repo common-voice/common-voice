@@ -404,6 +404,10 @@ faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
 faq-how-privacy-q = ¿Cómo aseguráis l'anonimatu y privacidá de la xente que donó les sos voces?
 faq-what-determine-identity-q = ¿Qué significa que nun pueo «determinar la identidá» de los falantes del conxuntu de datos de Common Voice?
+faq-what-determine-identity-a =
+    El conxuntu de datos de Common Voice ye un recursu públicu y abiertu que pue usase pa entrenar a una montonera d'aplicaciones qu'usen la voz. Pa protexer la seguranza de los nuesos collaboradores, pidimos a tol mundu que baxe esti conxuntu de datos que respete la so privacidá.
+    
+    Tolos clips de voz del conxuntu de datos analícense pa desaniciar cualesquier información identificativa. Cuando baxes el conxuntu de datos comprométeste a que nun vas tentar d'identificar a dengún collaborador. Eso significa que nun vas poder rellacionar la información del conxuntu de datos cola información personal de los collaboradores. Por embargu, vas poder usar esta información pa entrenar la reconocencia de voz, la reconocencia de falantes u otres aplicaciones, por exemplu, enllazando la información del conxuntu de datos con otra información que yá heba ehí.
 faq-what-is-cv = ¿Qué ye Common Voice?
 faq-using-cv = Usu de Common Voice
 faq-description = Common Voice ye parte de la iniciativa de Mozilla pa deprende-yos a les máquines cómo falamos los humanos.
