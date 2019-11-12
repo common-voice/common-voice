@@ -10,7 +10,6 @@ submit-form-action = 提交
 loading = 載入中…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
-email-opt-in-info-sub = 訂閱 Common Voice 的電子報，例如目標提醒、進度更新等相關消息。
 email-opt-in-privacy = 如果您同意接收電郵，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法處理呢啲資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
@@ -283,7 +282,7 @@ profile-form-gender =
 leaderboard-visibility =
     .label = 排行榜能見度
 hidden = 隱藏
-visible = 可見
+visible = 公開
 native-language =
     .label = 母語
 profile-form-submit-save = 儲存
@@ -421,6 +420,7 @@ hours-recorded-explanation = 到目前為止我們收集到的錄音時數。
 sst = 語音轉文字（STT）
 sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字。
 de-identified = 去識別化
+de-identified-explanation = 在打包下載資料集時，從其所貢獻的語音片段隱藏貢獻者個人資料的過程。
 
 ## NotFound
 
@@ -458,6 +458,7 @@ review-delete-recordings = 刪除我的錄音
 
 ## Datasets Page
 
+datasets-headline = 我們想建立一套開放原碼、多重語言的語音數據集，讓任何人都可以用來開發和語音相關的應用。
 language = 語言
 # File size in gigabytes
 size = 大小
@@ -640,6 +641,7 @@ clips-you-validated = 您驗證的錄音
 todays-recorded-progress = 今日 Common Voice 錄音片段的進度
 todays-validated-progress = 今日 Common Voice 驗證片段的進度
 stats = 統計
+awards = 獎勵
 you = 您
 everyone = 所有人
 contribution-activity = 貢獻記錄
@@ -648,6 +650,9 @@ recorded-clips = 錄音
 validated-clips = 已被驗證的錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
+set-visibility = 公開/隱藏個人檔案
+visibility-explainer = 用此選項在排行榜上公開/隱藏個人檔案。在「隱藏」狀態時，您的進度僅自己可見，照片、用戶名稱、貢獻進度等均不會出現在排行榜上。注意改變設定 { $minutes } 分鐘後，才會在排行榜上生效。
+visibility-overlay-note = 設定為「公開」時，可以在 <profileLink>個人檔案首頁</profileLink>改變此選項
 show-ranking = 顯示我的排名
 
 ## Custom Goals
