@@ -8,6 +8,7 @@ import { Avatar } from '../../../ui/ui';
 import TeamAvatar from './team-avatar';
 import { CheckIcon } from '../../../ui/icons';
 import { connect } from 'react-redux';
+import { challengeTeams } from 'common/challenge';
 
 const PointsIcon = ({ className }: { className: string }) => (
   <div className={`star-points ${className}`} />
@@ -149,6 +150,7 @@ class ChallengeList extends React.Component<Props, State> {
     const { rows, isAtEnd } = this.state;
     const { user, team } = this.props;
     // TODO: Render <Fetchrow>s outside of `items` to flatten the list.
+
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
       const nextPosition =
@@ -179,7 +181,7 @@ class ChallengeList extends React.Component<Props, State> {
                 {row.position + 1}
               </div>
               <div className="avatar-container">
-                <TeamAvatar team={user.account.enrollment.team} />
+                <TeamAvatar team={row.name.toLowerCase()} />
               </div>
               <div className="username" title={row.name}>
                 {row.name || '???'}
