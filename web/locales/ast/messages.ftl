@@ -331,7 +331,7 @@ why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayu
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 accept-privacy-title = Política de privacidá
 login-identity = Identidá del aniciu de sesión
-login-signup = Aniciar sesión / rexistrase
+login-signup = Aniciar sesión / Rexistrase
 edit = Editar
 email-subscriptions = Soscripciones per corréu
 download-profile = Descarga de los datos de mio
@@ -393,7 +393,7 @@ faq-why-different-speakers-a =
     La mayoría de bases de datos de voz tán entrenaes con una representación escesiva de d'algún rasgu demográficu que xenera resultaos sesgaos a lo <articleLink>masculino y de clas media</articleLink>. Los acentos y dialeutos que tienden a ser infrarrepresentaos nos conxuntos de datos d'entrenamientu asóciense davezu con grupos de xente que yá tán marxinaos. Munches maquines tienen problemes pa entender les voces femenines.
     ¡Ye por eso polo que na nuesa base de datos queremos variedá!
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
-faq-why-my-lang-new-a = Mozilla nun favorez a una llingua u otra, en cuentes d'eso, Common Voice ye una iniciativa dirixida dafechu pola comunidá. Pero p'amestar una llingua <multilangLink>hai que facer facer unes coses enantes</multilangLink> y apenzar a recoyer voces donaes. Lo primero, el sitiu web de Common Voice precisar tar traducíu pa que los miembros de la comunidá puean collaborar usando la so llingua. Darréu, precisamos tener una coleición grande de frases ensin copyright pa que la xente les llea n'alto. Nel momentu qu'esos requirimientos se cumplen, esa llingua «llanzase» en Common Voice pa que la xente grabe la so voz y valide les collaboraciones d'otros. Si quies ayudar a llanzar una llingua nueva, visita la nuesa <sentenceCollectorLink>ferramienta de recoyida de frases</sentenceCollectorLink> pa entamar.
+faq-why-my-lang-new-a = Mozilla nun favorez a una llingua u otra, en cuentes d'eso, Common Voice ye una iniciativa dirixida dafechu pola comunidá. Pero p'amestar una llingua <multilangLink>hai que facer facer unes coses enantes</multilangLink> y apenzar a recoyer voces donaes. Lo primero, el sitiu web de Common Voice precisar tar traducíu pa que los miembros de la comunidá puean collaborar usando la so llingua. Darréu, precisamos tener una coleición grande de frases ensin copyright pa que la xente les llea n'alto. Nel momentu qu'esos requirimientos se cumplen, esa llingua «llánzase» en Common Voice pa que la xente grabe la so voz y valide les collaboraciones d'otros. Si quies ayudar a llanzar una llingua nueva, visita la nuesa <sentenceCollectorLink>ferramienta de recoyida de frases</sentenceCollectorLink> pa entamar.
 faq-what-quality-q = ¿Qué nivel de calidá d'audiu se rique pa qu'un clip s'use nel conxuntu de datos?
 faq-why-10k-hours-a = Esti ye'l númberu aproximáu d'hores riquíes pa entrenar un sistema en producción de fala a voz.
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice les hores?
@@ -640,6 +640,8 @@ listen-last-time-instruction = <playIcon></playIcon>¡La última!
 nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
 record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
+keep-track-profile = Sigui'l to progresu con un perfil
+login-to-get-started = Anicia sesión o rexístrate pa entamar
 
 ## Reporting
 
@@ -717,6 +719,7 @@ difficult-difficulty = Difícil
 pro-difficulty = Profesional
 lose-goal-progress-warning = Cola edición de la meta vas perder el progresu que ficiesti.
 want-to-continue = ¿Quies siguir?
+finish-editing = ¿Nun acabes primero d'editar?
 lose-changes-warning = El colar agora va facer que pierdas los cambeos
 build-custom-goal = Creación d'una meta personalizada
 help-reach-hours-general = Ayuda con una meta personal a que Common Voice algame { NUMBER($hours) } hores nuna llingua
