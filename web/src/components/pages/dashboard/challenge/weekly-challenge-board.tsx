@@ -1,6 +1,9 @@
 import * as React from 'react';
 import { LocaleLink } from '../../../locale-helpers';
-import { CircleProgress } from '../../../pages/dashboard/ui';
+import {
+  CircleProgress,
+  CircleProgressSimple,
+} from '../../../pages/dashboard/ui';
 import { WeeklyChallenge, ChallengeTeamToken } from 'common/challenge';
 import { Avatar } from '../../../ui/ui';
 import URLS from '../../../../urls';
@@ -44,86 +47,81 @@ export default function WeeklyChallengeBoard({
       {!isDisabled && (
         <div className="challenge-board-content">
           <div className="content-row">
-            <div className="column">
+            <div className="column avatar-container">
               <Avatar url={individualAvatarUrl ? individualAvatarUrl : ''} />
               <p>individual</p>
             </div>
-            <div className="container">
-              <LocaleLink className="speak-btn" to={URLS.SPEAK}>
-                Speak
-                <span className="speak-icon"></span>
-              </LocaleLink>
-              {!isNarrow ? (
+            <div className="column challenge-stats">
+              <div className="container">
+                <LocaleLink className="speak-btn" to={URLS.SPEAK}>
+                  Speak
+                  <span className="speak-icon"></span>
+                </LocaleLink>
                 <CircleProgress
-                  className="speak-bar"
+                  className="speak-bar progress-desktop"
                   value={user.speak}
                   denominator={user.speak_total}
                   strokeW={4}
                   radius={66}
                 />
-              ) : (
-                <div className="fraction speak">
-                  <div className="numerator">{user.speak}</div>
-                  <div className="denominator"> / {user.speak_total}</div>
-                </div>
-              )}
-            </div>
-            <div className="divider" />
-            <div className="container">
-              <LocaleLink className="listen-btn" to={URLS.LISTEN}>
-                Listen
-                <span className="listen-icon"></span>
-              </LocaleLink>
-              {!isNarrow ? (
+                <CircleProgressSimple
+                  numerator={user.speak}
+                  denominator={user.speak_total}
+                  className="speak-bar  progress-mobile"
+                />
+              </div>
+              <div className="divider" />
+              <div className="container">
+                <LocaleLink className="listen-btn" to={URLS.LISTEN}>
+                  Listen
+                  <span className="listen-icon"></span>
+                </LocaleLink>
                 <CircleProgress
-                  className="listen-bar"
+                  className="listen-bar progress-desktop"
                   value={user.listen}
                   denominator={user.listen_total}
                   strokeW={4}
                   radius={66}
                 />
-              ) : (
-                <div className="fraction listen">
-                  <div className="numerator">{user.listen}</div>
-                  <div className="denominator"> / {user.listen_total}</div>
-                </div>
-              )}
+                <CircleProgressSimple
+                  numerator={user.listen}
+                  denominator={user.listen_total}
+                  className="listen-bar progress-mobile"
+                />
+              </div>
             </div>
           </div>
           <div className="content-row">
-            <div className="column">
+            <div className="column avatar-container">
               <TeamAvatar team={teamToken} />
               <p>Team</p>
             </div>
-            <div className="container team">
-              <p className="team-text">
-                Win a prize by being the team with the highest sign up rate
-              </p>
-              <div className="v-divider" />
-              <p className="team-invite">
-                The is the percentage of team invites that have been accepted
-                out of the current total sent.
-              </p>
-            </div>
-            <div className="container invite">
-              {!isNarrow ? (
+            <div className="column challenge-stats team-stats">
+              <div className="container team">
+                <p className="team-text">
+                  Win a prize by being the team with the highest sign up rate
+                </p>
+                <div className="v-divider" />
+                <p className="team-invite">
+                  The is the percentage of team invites that have been accepted
+                  out of the current total sent.
+                </p>
+              </div>
+              <div className="container invite">
                 <CircleProgress
-                  className="team-bar"
+                  className="team-bar progress-desktop"
                   value={team.invite / team.invite_total}
                   strokeW={4}
                   radius={66}
                 />
-              ) : (
-                <React.Fragment>
-                  <div className="team-invite-percentage">
-                    <span>{team.invite / team.invite_total}</span>%
-                  </div>
-                  <div className="divider"></div>
-                </React.Fragment>
-              )}
-              <p className="team-invite-total">
-                of {team.invite_total} invites
-              </p>
+                <CircleProgressSimple
+                  numerator={(100 * team.invite) / team.invite_total}
+                  className="team-bar progress-mobile"
+                />
+                <p className="team-invite-total">
+                  of {team.invite_total} invites
+                </p>
+              </div>
             </div>
           </div>
         </div>

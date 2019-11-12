@@ -95,3 +95,24 @@ export function CircleProgress({
     </div>
   );
 }
+
+export function CircleProgressSimple({
+  className,
+  numerator,
+  denominator,
+}: {
+  className?: string;
+  numerator: number;
+  denominator?: number;
+}) {
+  return (
+    <div className={`circle-progress-simple ${className}`}>
+      <span className="numerator">{Math.round(numerator)}</span>
+      {denominator ? (
+        <span className="denominator"> / {denominator}</span>
+      ) : (
+        <span className="progress-percentage">%</span>
+      )}
+    </div>
+  );
+}

@@ -6,5 +6,11 @@
     "accessKeyId": "local-identity",
     "secretAccessKey": "local-credential",
     "s3ForcePathStyle": true
-  }
+  },
+  "AUTH0": {
+    "DOMAIN": "phire.auth0.com",
+    "CLIENT_ID": "qbAdutLVRV0rgvghVkYDrr55CRWR4saD",
+    "CLIENT_SECRET": "dCs7ESt1NZuCvWH6zkGfaQICEmKxjcRFs1fwUMDxj1NP9dLRAQSIux8iaGGzrs1O"
+  },
+  "IMPORT_SENTENCES": false
 }

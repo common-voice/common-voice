@@ -14,7 +14,7 @@ export default ({ team }: { team: ChallengeTeamToken }) => {
       style={{
         background,
         boxSizing: 'border-box',
-        padding: '10%',
+        padding: '5px',
         ...(border && {
           border: '2px solid var(--grey)',
         }),
