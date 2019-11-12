@@ -26,6 +26,7 @@ export default Object.freeze({
   FAQ: '/faq',
   PRIVACY: '/privacy',
   TERMS: '/terms',
+  CHALLENGE_TERMS: '/challenge-terms',
   NOTFOUND: '/not-found',
   LANGUAGES: '/languages',
   ABOUT: '/about',

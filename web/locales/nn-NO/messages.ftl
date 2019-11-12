@@ -95,6 +95,7 @@ nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
 oc = Oksitansk
 or = Oriya
+pa-IN = Panjabi
 pl = Polsk
 pt = Portugisisk
 rm-sursilv = Retoromansk surselva

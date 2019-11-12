@@ -107,6 +107,11 @@ export default function Content() {
           />
           <Route
             exact
+            path={toLocaleRoute(URLS.CHALLENGE_TERMS)}
+            render={() => <DocumentPage key="c" name="challenge-terms" />}
+          />
+          <Route
+            exact
             path={toLocaleRoute('/landing/sodedif')}
             component={LandingPage}
           />

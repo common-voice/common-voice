@@ -28,10 +28,12 @@ af = Afrikaans
 am = Amáricu
 an = Aragonés
 ar = Árabe
+arn = Mapuche
 as = Asamés
 ast = Asturianu
 az = Azerbaixanu
 ba = Baxkir
+be = Bielorrusu
 bg = Búlgaru
 bn = Bengalí
 br = Bretón
@@ -84,6 +86,7 @@ lij = Ligur
 lt = Lituanu
 lv = Letón
 mdf = Moksha
+mg = Malgaxe
 mhr = Mari de les Praderes
 mk = Macedoniu
 ml = Malayalam
@@ -97,6 +100,7 @@ nl = Neerlandés
 nn-NO = Nynorsk noruegu
 oc = Occitanu
 or = Oriya
+pa-IN = Punxabi
 pl = Polacu
 pt = Portugués
 rm-sursilv = Romanche surselvu
@@ -169,8 +173,8 @@ wall-of-text-more-mobile =
     a facer que la reconocencia de voz tea abierta a tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
-    pue usar pa facer aplicaciones informátiques innovadores. Llei una fras pa deprende-yos a les máquines cómo falen los humanos.
-    Comprueba'l trabayu d'otros collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
+    pue usar pa facer aplicaciones informátiques innovadores. Llei una fras pa deprende-yos a les máquines cómo falen los humanos,
+    comprueba'l trabayu d'otros collaboradores p'ameyorar la calidá... ¡Ye mui cenciello!
 wall-of-text-first =
     La voz ye natural, tamién humana. Poro, tamos entusiasmaos por crear teunoloxíes de voz
     calidables pa les nueses máquines. Pero pa crear estos sistemes, los desendolcadores riquen una
@@ -398,8 +402,11 @@ faq-where-src-from-2-q = ¿D'ónde vienen los testos que s'usen?
 faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o artículos de Wikipedia n'otres llingues?
 faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
+faq-how-privacy-q = ¿Cómo aseguráis l'anonimatu y privacidá de la xente que donó les sos voces?
+faq-what-determine-identity-q = ¿Qué significa que nun pueo «determinar la identidá» de los falantes del conxuntu de datos de Common Voice?
 faq-what-is-cv = ¿Qué ye Common Voice?
 faq-using-cv = Usu de Common Voice
+faq-description = Common Voice ye parte de la iniciativa de Mozilla pa deprende-yos a les máquines cómo falamos los humanos.
 faq-search-for-answers =
     .label = Guetar rempuestes
 
@@ -451,6 +458,7 @@ localization = Traducción
 localization-explanation = Equí adautamos el nuesu conteníu a otres locales (llingües) más.
 sentence-collection = Recoyida de frases
 sentence-collection-explanation = Recuéyense frases de, o escribiendo otres nueves pa dominiu públicu.
+hours-recorded-explanation = La cantidá d'hores en voces que recoyimos pel momentu.
 hours-validated-explanation = La cantidá d'hores de grabación que validaron 2 de 3 usuarios con un votu «Sí». Esto marca'l camín hasta la meta xeneral de 10000 mil hores.
 sst = Fala a testu (STT)
 sst-explanation = Les teunoloxíes de fala a testu (STT) convierten los datos de voz a testu.
