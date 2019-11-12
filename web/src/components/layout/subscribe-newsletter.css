@@ -101,6 +101,11 @@
         }
     }
 
+    & .labeled-checkbox {
+        display: flex;
+        justify-content: center;
+    }
+
     & .checkbox-container {
         border-color: var(--white);
 

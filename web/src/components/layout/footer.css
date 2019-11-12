@@ -60,8 +60,9 @@ footer {
     height: 100%;
     font-size: 0.9rem;
     color: var(--white);
+    align-items: center;
 
-    @media (--md-up) {
+    @media (--xl-up) {
         margin: 0 auto;
         padding: 0.4rem 0;
         max-width: var(--desktop-width);
@@ -90,7 +91,7 @@ footer {
         justify-content: space-between;
         margin-top: 4rem;
 
-        @media (--md-up) {
+        @media (--xl-up) {
             flex-direction: column;
             min-width: 9rem;
             margin-right: 8rem;
@@ -107,7 +108,7 @@ footer {
             height: 2.5rem;
             max-height: 2.5rem;
 
-            @media (--md-up) {
+            @media (--xl-up) {
                 height: auto;
             }
         }
@@ -115,7 +116,7 @@ footer {
         & .license {
             font-size: 0.7rem;
 
-            @media (--md-up) {
+            @media (--xl-up) {
                 margin-top: 1.5rem;
             }
         }
@@ -131,7 +132,7 @@ footer {
         flex: 1;
         justify-content: space-between;
 
-        @media (--md-up) {
+        @media (--xl-up) {
             max-width: 18rem;
             margin-right: 4rem;
             margin-top: 0;
@@ -156,7 +157,7 @@ footer {
         text-align: center;
         order: -1;
 
-        @media (--md-up) {
+        @media (--xl-up) {
             display: none;
         }
     }
@@ -173,6 +174,7 @@ footer {
     align-items: center;
     flex: 1;
     background-color: rgba(255, 255, 255, 0.1);
+    max-width: 260px;
 
     & .title {
         margin-bottom: 1rem;
@@ -200,8 +202,9 @@ footer {
     flex-direction: column;
     margin-bottom: 30px;
     flex: 1.5;
+    align-items: center;
 
-    @media (--md-up) {
+    @media (--xl-up) {
         padding: 1.5rem 2rem;
     }
 }
