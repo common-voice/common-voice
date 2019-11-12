@@ -64,7 +64,6 @@ export default function WeeklyChallenge({
             <WeeklyChallengeBoard
               title={WEEKS[currentWeek]}
               week={currentWeek}
-              isNarrow={isNarrow}
               individualAvatarUrl={account.avatar_url}
               teamToken={account.enrollment.team}
               weekly={weekly}
@@ -79,7 +78,6 @@ export default function WeeklyChallenge({
                 isDisabled
                 title={WEEKS[currentWeek + 1]}
                 week={currentWeek + 1}
-                isNarrow={isNarrow}
                 individualAvatarUrl={account.avatar_url}
                 teamToken={account.enrollment.team}
                 weekly={weekly}
@@ -95,7 +93,6 @@ export default function WeeklyChallenge({
                   isDisabled
                   title={WEEKS[currentWeek + 2]}
                   week={currentWeek + 2}
-                  isNarrow={isNarrow}
                   individualAvatarUrl={account.avatar_url}
                   teamToken={account.enrollment.team}
                   weekly={weekly}
@@ -109,7 +106,6 @@ export default function WeeklyChallenge({
                       title={WEEKS[value]}
                       week={value}
                       key={index}
-                      isNarrow={isNarrow}
                       individualAvatarUrl={account.avatar_url}
                       teamToken={account.enrollment.team}
                       weekly={weekly}

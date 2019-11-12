@@ -14,7 +14,6 @@ export default function WeeklyChallengeBoard({
   isDisabled,
   title,
   week,
-  isNarrow,
   individualAvatarUrl,
   teamToken,
   weekly,
@@ -22,7 +21,6 @@ export default function WeeklyChallengeBoard({
   isDisabled?: boolean;
   title: string;
   week: number;
-  isNarrow: boolean;
   individualAvatarUrl: string;
   teamToken: ChallengeTeamToken;
   weekly: WeeklyChallenge;
