@@ -57,6 +57,10 @@ const DEFAULTS: CommonVoiceConfig = {
     'rleitan@mozilla.com',
     'rshaw@mozilla.com',
     'vioia@mozilla.com',
+    'henrik.mitsch@gmx.at',
+    'steveparmar6nov2011@gmail.com',
+    'manel.rhaiem92@gmail.com',
+    'shambhavimishra26@gmail.com',
   ]),
   S3_CONFIG: {
     signatureVersion: 'v4',
