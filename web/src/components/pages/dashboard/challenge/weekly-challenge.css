@@ -14,6 +14,7 @@
     background-color: #f9f9f9;
     border-bottom: 1px solid #f9f9f9;
     box-sizing: border-box;
+    position: relative;
     & h2 {
         font-family: Zilla Slab;
         font-size: 20px;
@@ -52,10 +53,29 @@
     letter-spacing: 0.8px;
     margin-bottom: 10px;
 }
+.week-points {
+    background-color: #629ff4;
+    border-radius: 100px 0 0 100px;
+    box-sizing: border-box;
+    padding: 1rem 2.5rem;
+    color: #fff;
+    max-width: 50%;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    img {
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+    }
+    p:first-child {
+        font-weight: 600;
+    }
+}
 @media (--xs-down) {
     .week-points {
         max-width: 98px;
-        padding: 17px 20px 0;
+        padding: 12px 20px;
         font-family: var(--base-font-family);
         font-size: 12px;
         & p:last-child {
@@ -63,7 +83,7 @@
         }
         & img {
             float: left;
-            margin-right: 5px;
+            margin: 0.5rem 0.5rem 0 0;
         }
         & span {
             text-align: center;
@@ -72,11 +92,6 @@
         }
     }
 }
-.week-points {
-    float: right;
-    margin-top: -15px;
-}
-
 @media (--sm-down) {
     .weekly-container {
         min-width: 100% !important;

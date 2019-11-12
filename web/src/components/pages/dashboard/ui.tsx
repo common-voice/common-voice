@@ -6,13 +6,15 @@ export function Fraction({
   numerator,
   denominator,
   percentage,
+  className,
 }: {
   numerator: React.ReactNode;
   denominator?: React.ReactNode;
   percentage?: boolean;
+  className?: string;
 }) {
   return (
-    <div className="fraction">
+    <div className={`fraction${className ? ` ${className}` : ''}`}>
       <div className="numerator">{numerator}</div>
       <div className="denominator">
         {percentage ? ' % ' : ' / '}

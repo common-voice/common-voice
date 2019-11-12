@@ -10,7 +10,7 @@
     display: flex;
     box-sizing: border-box;
     align-items: center;
-    padding-left: 20px;
+    padding: 0 60px 0 20px;
     position: relative;
     .title {
         font-size: 24px;
@@ -46,86 +46,100 @@ img.icon {
 .challenge-board-content {
     border-top: 1.6px solid var(--light-grey);
 }
+
 .content-row {
-    display: flex;
-    height: 250px;
+    display: table;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    .column {
-        height: 250px;
-        width: 159px;
-        font-size: 16px;
-        line-height: 1.5;
-        color: var(--near-black);
-        background-color: var(--lighter-grey);
-        text-align: center;
-        .avatar-wrap {
-            width: 95px;
-            height: 95px;
-            margin: 80px auto 20px;
-            &.team {
-                background-color: var(--white);
-                > img {
-                    object-fit: contain;
-                }
-            }
-        }
-    }
+    vertical-align: middle;
+    text-align: center;
     &:first-child {
         border-bottom: 1.6px solid var(--light-grey);
     }
-    .container {
-        flex: 1;
-        height: 100%;
-        padding: 28px 0;
-        box-sizing: border-box;
+    .column {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .avatar-container {
+        width: 159px;
+        font-size: 16px;
+        color: var(--near-black);
+        background-color: var(--lighter-grey);
+    }
+    .avatar-wrap {
+        display: block;
+        width: 95px;
+        height: 95px;
+        margin: 0 auto 1rem;
         &.team {
-            flex: 1.2;
+            background-color: var(--white);
+            > img {
+                object-fit: contain;
+            }
         }
+    }
+    .challenge-stats {
+        padding: 1.5rem 0;
+        text-align: center;
+        .container {
+            width: 49%;
+            &.team {
+                text-align: left;
+                width: 54%;
+            }
+            &.invite {
+                width: 44%;
+            }
+        }
+    }
+    .container,
+    .divider {
+        display: inline-block;
+        vertical-align: top;
     }
     .divider {
-        height: calc(100% - 56px);
         background-color: var(--light-grey);
         width: 1px;
+        min-height: 200px;
     }
-}
 
-.speak-btn,
-.listen-btn {
-    color: var(--white);
-    display: flex;
-    margin: 0 auto 15px;
-    &:hover {
-        border: 1px solid var(--black);
-        background-color: var(--white);
-        color: var(--black);
-        .speak-icon,
-        .listen-icon {
-            background-color: var(--black);
+    .speak-btn,
+    .listen-btn {
+        color: var(--white);
+        display: flex;
+        margin: 0 auto 15px;
+        &:hover {
+            border: 1px solid var(--black);
+            background-color: var(--white);
+            color: var(--black);
+            .speak-icon,
+            .listen-icon {
+                background-color: var(--black);
+            }
         }
     }
-}
+    .speak-icon,
+    .listen-icon {
+        background-color: var(--white);
+    }
 
-.speak-icon,
-.listen-icon {
-    background-color: var(--white);
-}
-
-.speak-btn {
-    background-color: var(--red);
-}
-.listen-btn {
-    background-color: var(--valid-green);
+    .speak-btn {
+        background-color: var(--red);
+    }
+    .listen-btn {
+        background-color: var(--valid-green);
+    }
 }
 
 .speak-bar,
 .listen-bar,
 .team-bar {
-    width: 140px;
-    height: 140px;
-    margin: 10px auto 0;
-    display: block;
+    &.desktop-progress {
+        width: 140px;
+        height: 140px;
+        margin: 10px auto 0;
+        display: block;
+    }
 }
 .speak-bar {
     color: var(--red) !important;
@@ -160,107 +174,186 @@ img.icon {
     margin-top: 15px;
 }
 
-@media (--xs-down) {
-    .title-container {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px;
-        /* min-height: 142px;
-        height: auto; */
-        .title {
-            margin: 5px 0 0;
-            max-width: 100%;
+.progress-mobile {
+    display: none;
+}
+
+@media (--lg-down) {
+    .content-row {
+        .avatar-container {
+            width: 125px;
         }
     }
-    .icon,
-    .icon img {
-        width: 47.5px;
-        height: 47.5px;
-    }
-    .content-row {
-        flex-direction: column;
-        height: auto;
-        .column {
-            width: 100%;
-            padding: 15px 18px;
-            box-sizing: border-box;
+}
+
+@media (--md-down) {
+    .challenge-container {
+        display: block !important;
+        .weekly-container,
+        .range-container {
+            min-width: 100%;
             height: auto;
+            max-height: none;
+        }
+    }
+}
+
+@media (--xs-down) {
+    .content-row {
+        .column {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .container {
+            display: block;
+            width: 100% !important;
+            overflow: hidden;
+        }
+
+        .listen-btn,
+        .speak-btn {
+            margin-bottom: 0;
+        }
+
+        .challenge-stats {
+            padding: 0;
+            .container {
+                padding: 0.75rem 1.25rem;
+                box-sizing: border-box;
+                border-bottom: 1px solid var(--light-grey);
+            }
+        }
+
+        .circle-progress-simple {
+            width: auto;
+            height: auto;
+            border: none;
+            display: inline-block;
+            margin: 0;
+            float: left;
+
+            .numerator,
+            .denominator {
+                display: inline-block;
+                line-height: 48px;
+                margin: 0 0 0 0.25rem;
+                vertical-align: top;
+            }
+
+            .numerator {
+                font-weight: 600;
+                font-size: 24px;
+            }
+        }
+
+        .v-divider {
+            display: none;
+        }
+
+        .team-stats {
+            display: flex;
+            flex-wrap: wrap;
+
+            .team {
+                order: 2;
+            }
+
+            .invite {
+                display: flex;
+                order: 1;
+            }
+
+            .progress-mobile {
+                border-right: 1px solid var(--light-grey);
+                line-height: 48px;
+                padding-right: 2rem;
+                margin-right: 1rem;
+            }
+
+            .progress-percentage {
+                padding-left: 0.25rem;
+            }
+
+            .team-invite-total {
+                text-align: left;
+            }
+        }
+
+        .team-text {
+            padding: 0;
+        }
+
+        .team-invite {
+            font-size: 12px;
+            padding: 12px 0 0 0;
+        }
+
+        .avatar-container {
+            display: block;
+            width: 100%;
+            padding: 1rem 1.25rem;
+            p {
+                line-height: 47.5px;
+            }
+        }
+
+        .column {
+            box-sizing: border-box;
+            text-align: left;
+
             .avatar-wrap {
                 width: 48px;
                 height: 48px;
                 margin: 0 15px 0 0;
                 float: left;
             }
-            p {
-                line-height: 48px;
-                text-align: left;
-            }
-        }
-        .container {
-            width: 100%;
-            display: flex;
-            flex-direction: row-reverse;
-            padding: 11px 20px;
-            border-bottom: 1px solid var(--light-grey);
-            justify-content: space-between;
-            &.team {
-                flex-direction: column;
-                border-bottom: 0;
-                order: 2;
-            }
-            &.invite {
-                flex-direction: row;
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                padding-top: 20px;
-                .divider {
-                    height: 33px;
-                    display: block;
-                    margin: 0 15px;
-                }
-            }
         }
         .divider {
             display: none;
         }
-        .speak-btn,
-        .listen-btn {
-            margin: 0;
+    }
+
+    .title-container {
+        position: relative;
+        align-items: initial;
+        display: block;
+        padding: 20px;
+
+        img.icon {
+            width: 60px;
+            height: 60px;
+            margin-left: -10px;
+            margin-bottom: 5px;
+            display: block;
         }
-        .fraction {
-            align-items: center;
-            &.speak {
-                color: var(--red);
-            }
-            &.listen {
-                color: var(--valid-green);
-            }
+
+        .title {
+            margin-left: 0;
+            max-width: 100%;
         }
-        .numerator {
-            font-weight: 600;
-            font-size: 24px;
+
+        .week-container {
+            top: 2rem;
         }
-        .team-text {
-            width: 100%;
-            padding: 0;
-        }
-        .v-divider {
-            display: none;
-        }
-        .team-invite {
-            padding: 10px 0 0 0;
-            font-size: 12px;
-        }
-        .team-invite-percentage {
-            color: var(--blue);
-            span {
-                font-size: 24px;
-                float: left;
-            }
-        }
-        .team-invite-total {
-            margin-top: 0;
-        }
+    }
+
+    .progress-desktop {
+        display: none;
+    }
+
+    .progress-mobile {
+        display: flex;
+    }
+
+    .speak-btn,
+    .listen-btn {
+        float: right;
+        display: inline-block;
+    }
+
+    .divider {
+        display: none;
     }
 }
