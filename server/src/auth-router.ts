@@ -134,7 +134,6 @@ router.get(
       } else {
         // if the user is already registered, now he/she should be enrolled
         // [TODO] there should be an elegant way to get the client_id here
-        // [TODO] have not thought about how to show toast if registered user get enrolled
         const client_id = await UserClient.findClientId(user.emails[0].value);
         await Achievements.earnBonus('sign_up_first_three_days', [
           enrollment.challenge,

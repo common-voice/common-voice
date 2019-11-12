@@ -38,7 +38,7 @@ export default class Challenge {
     response: Response
   ) => {
     if (bonus_type === 'session') {
-      // earn the invite_contribute_same_session achievement, don't return anything
+      // earn the invite_contribute_same_session achievement
       response.json(
         await Achievements.earnBonus('invite_contribute_same_session', [
           client_id,

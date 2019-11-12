@@ -178,9 +178,7 @@ function ProfilePage({
       },
     ]);
     if (window.location.search.includes('first=1')) {
-      window.location.assign(
-        `${window.location.origin}/${locale}/dashboard/challenge?${window.location.search}`
-      );
+      window.location.pathname = `/${locale}/dashboard/challenge`;
     }
   }, [api, getString, locale, locales, termsStatus, user, userFields]);
 
