@@ -349,16 +349,16 @@ export async function checkGoalsAfterContribution(
         VALUES (?,     ?,    ?,         ?,         NOW()     )`,
       [threshold, type, client_id, localeId]
     );
-
-    // reached a 3-day streak, and try to earn the three_day_streak bonus
-    let earned = false;
-    if (challenge && type === 'streak' && currentCount === 3) {
-      earned = await earnBonus('three_day_streak', [
-        client_id,
-        client_id,
-        challenge,
-      ]);
-    }
-    return earned;
   }
+
+  // reached a 3-day streak, and try to earn the three_day_streak bonus
+  let earned = false;
+  if (challenge && streak_days === 3) {
+    earned = await earnBonus('three_day_streak', [
+      client_id,
+      client_id,
+      challenge,
+    ]);
+  }
+  return earned;
 }
