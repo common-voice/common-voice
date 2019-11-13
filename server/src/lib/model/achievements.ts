@@ -32,25 +32,21 @@ const bonus_condition_sql = {
   //    just in case no such bonus are missed
   three_day_streak: `
     SELECT
-        (enroll.client_id IS NOT NULL) AND (earn.client_id IS NULL) AND (custom_goals.id IS NOT NULL) AND ((reached_goals.client_id IS NOT NULL) OR (streaks.id IS NOT NULL)) AS win_bonus,
+        (enroll.client_id IS NOT NULL) AND (earn.client_id IS NULL) AND (custom_goals.id IS NOT NULL) AND (streaks.id IS NOT NULL) AS win_bonus,
         ? AS bonus_winner
     FROM challenges
     LEFT JOIN achievements ON achievements.name = 'three_day_streak' AND challenges.id = achievements.challenge_id
     LEFT JOIN enroll ON enroll.client_id = ?
         AND challenges.id = enroll.challenge_id
         AND enroll.enrolled_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
-    LEFT JOIN earn ON enroll.client_id = earn.client_id
-        AND earn.achievement_id = achievements.id
-        AND earned_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
     LEFT JOIN custom_goals ON custom_goals.client_id = enroll.client_id
         AND custom_goals.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
-    LEFT JOIN reached_goals ON reached_goals.client_id = enroll.client_id
-        AND reached_goals.type = 'streak'
-        AND reached_goals.count >= 3
-        AND reached_goals.reached_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
     LEFT JOIN streaks ON streaks.client_id = enroll.client_id
         AND streaks.started_at BETWEEN start_date AND TIMESTAMPADD(DAY, 18, start_date)  # 18 days = 3 weeks - 3 days.
-        AND TIMESTAMPDIFF(DAY, streaks.started_at, streaks.last_activity_at) > 3
+        AND TIMESTAMPDIFF(DAY, streaks.started_at, streaks.last_activity_at) >= 3
+    LEFT JOIN earn ON enroll.client_id = earn.client_id
+        AND earn.achievement_id = achievements.id
+        AND earned_at BETWEEN TIMESTAMPADD(DAY, -3, streaks.last_activity_at) AND streaks.last_activity_at
     WHERE challenges.url_token = ?
   `,
   // Arguments: [challenge, client_id]
