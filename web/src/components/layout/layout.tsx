@@ -75,8 +75,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private installApp: HTMLElement;
 
   state: LayoutState = {
-    challengeTeamToken: 'mozilla',
-    challengeToken: 'pilot',
+    challengeTeamToken: undefined,
+    challengeToken: undefined,
     isMenuVisible: false,
     hasScrolled: false,
     hasScrolledDown: false,
