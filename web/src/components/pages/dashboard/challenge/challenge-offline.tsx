@@ -4,7 +4,12 @@ import { ChallengeDuration } from 'common/challenge';
 import { isBeforeChallenge } from './constants';
 import { LinkButton } from '../../../ui/ui';
 import URLS from '../../../../urls';
+import { Notifications } from '../../../../stores/notifications';
+import { useAction } from '../../../../hooks/store-hooks';
+
 import './challenge-offline.css';
+
+const addAchievement = useAction(Notifications.actions.addAchievement);
 
 export default function ChallengeOffline({
   duration,
@@ -12,6 +17,13 @@ export default function ChallengeOffline({
   duration: ChallengeDuration;
 }) {
   const dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
+  if (isBeforeChallenge && location.search.includes('achievement=1')) {
+    addAchievement(
+      50,
+      'Bonus! You signed up in time for some extra points.',
+      'success'
+    );
+  }
   return isBeforeChallenge(duration) ? (
     <div className="challenge-blank-state pre-challenge">
       <div className="challenge-cta">
