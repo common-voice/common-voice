@@ -55,7 +55,7 @@ export default ({
         readOnly
         ref={inputRef}
         type="text"
-        value={`https://voice.mozilla.org/?challenge=${challenge}&team=${team}&invite=${invite}`}
+        value={`${window.location.origin}/?challenge=${challenge}&team=${team}&invite=${invite}`}
       />
 
       <Button
