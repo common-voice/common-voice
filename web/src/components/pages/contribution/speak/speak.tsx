@@ -38,7 +38,10 @@ import AudioIOS from './audio-ios';
 import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
-import handleAchievements from '../achievement';
+import {
+  AchievementType,
+  handleAchievements,
+} from '../../dashboard/challenge/achievement';
 
 import './speak.css';
 
@@ -399,12 +402,16 @@ class SpeakPage extends React.Component<Props, State> {
               sentence.id,
               sentence.text
             );
-            handleAchievements(
+            const achievement: AchievementType = {
+              type: 'contribute',
               firstContribute,
               firstStreak,
               hasAchieved,
+            };
+            handleAchievements(
+              achievement,
               addAchievement,
-              api
+              api.setInviteContributeAchievement
             );
             if (!user.account) {
               tallyRecording();

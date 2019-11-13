@@ -24,7 +24,10 @@ import ContributionPage, {
 import { Notifications } from '../../../../stores/notifications';
 import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
-import handleAchievements from '../achievement';
+import {
+  AchievementType,
+  handleAchievements,
+} from '../../dashboard/challenge/achievement';
 
 import './listen.css';
 
@@ -147,12 +150,16 @@ class ListenPage extends React.Component<Props, State> {
 
     this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
-    handleAchievements(
+    const achievement: AchievementType = {
+      type: 'contribute',
       firstContribute,
       firstStreak,
       hasAchieved,
+    };
+    handleAchievements(
+      achievement,
       addAchievement,
-      api
+      api.setInviteContributeAchievement
     );
 
     this.setState({
