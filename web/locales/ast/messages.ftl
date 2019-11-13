@@ -399,6 +399,10 @@ faq-why-10k-hours-a = Esti ye'l númberu aproximáu d'hores riquíes pa entrenar
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice les hores?
 faq-how-calc-hours-a = Calculamos les hores estimando la duración media de cada grabación y multiplicando esi númberu pol total de grabaciones de toles llingües.
 faq-where-src-from-2-q = ¿D'ónde vienen los testos que s'usen?
+faq-where-src-from-2-a =
+    El nuesu testu d'orixe ta creáu a partir de les donaciones de collaboradores y guiones de películes de dominiu públicu como <italic>It's a Wonderful Life</italic>.
+    
+    Pues ver les frases d'orixe nesta <githubLink>carpeta de GitHub</githubLink>.
 faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o artículos de Wikipedia n'otres llingues?
 faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
@@ -531,6 +535,10 @@ download-language = Baxar «{ $language }»
 validated-hours = Hores validaes
 recorded-hours = Hores grabaes
 whats-inside = ¿Qué hai dientro del conxuntu de datos de Common Voice?
+dataset-description-hours =
+    Cada entrada del conxuntu de datos consiste en dos ficheros, unu de testu y otru d'audiu. Munches de les <b>{ $total }</b> hores grabaes tamién inclúin metadatos demográficos como edá, sexu y acentu que puen ayudar a entrenar la precisión de los motores de reconocencia de voz.
+    
+    Anguaño, el conxuntu de datos inclúi <b>{ $valid }</b> hores validaes en <b>{ $languages }</b> llingües, pero siempres tamos amestando más voces y llingües. Écha-y un gueyu a la nuesa <languagesLink>páxina de llingües</languagesLink> pa solicitar una llingua o apenzar a collaborar.
 want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión nueva del conxuntu de datos de Common Voice? Soscríbite al boletín.
 subscribe = Soscribise
 get-started-speech = Introducción a la reconocencia de voz
