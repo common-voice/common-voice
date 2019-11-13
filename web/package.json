@@ -49,7 +49,6 @@
     "postcss-preset-env": "^6.7.0",
     "preload-webpack-plugin": "^3.0.0-beta.3",
     "promise-decode-audio-data": "^0.4.1",
-    "query-string": "^6.8.3",
     "react": "^16.8.6",
     "react-balance-text": "^2.0.1",
     "react-content-loader": "^4.2.1",
