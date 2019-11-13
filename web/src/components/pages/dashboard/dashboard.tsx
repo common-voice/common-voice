@@ -297,7 +297,7 @@ export default function Dashboard() {
               api.setInviteContributeAchievement();
             }
           }}
-          teamId="SAP"
+          teamId={account.enrollment.team}
         />
       )}
       <div className="inner">
