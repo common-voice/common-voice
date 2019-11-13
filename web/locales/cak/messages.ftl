@@ -28,6 +28,7 @@ af = aj Africa
 am = Amarico
 an = Aragones
 ar = Arabe
+arn = Mapudungun
 as = Assames
 ast = Asturiano
 az = Azeri
