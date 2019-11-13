@@ -7,17 +7,16 @@ import { LinkButton } from '../../../ui/ui';
 import URLS from '../../../../urls';
 import { Notifications } from '../../../../stores/notifications';
 import { useAction } from '../../../../hooks/store-hooks';
-
 import './challenge-offline.css';
-
-const addAchievement = useAction(Notifications.actions.addAchievement);
 
 export default function ChallengeOffline({
   duration,
 }: {
   duration: ChallengeDuration;
 }) {
+  const addAchievement = useAction(Notifications.actions.addAchievement);
   const dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
+
   useEffect(() => {
     if (isBeforeChallenge && location.search.includes('achievement=1')) {
       addAchievement(
