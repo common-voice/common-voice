@@ -407,6 +407,7 @@ faq-where-src-from-2-a =
     
     Pues ver les frases d'orixe nesta <githubLink>carpeta de GitHub</githubLink>.
 faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o artículos de Wikipedia n'otres llingues?
+faq-why-not-ask-read-a = Pa facer que'l conxuntu de datos de Common Voice seya lo más útil posible, decidiemos permitir namái testos que tean disponibles so la llicencia Creative Commons (CC 0). Usar l'estándar CC 0 fai que seya más difícil alcontrar y recoyer testos d'orixe pero permite a cualesquiera usar los datos de voz resultantes ensin torgues d'usu o autorización de Mozilla. P'acabar, esti conxuntu de datos plurillingüe van poder usalu investigadores, universidaes, empreses, gobiernos, organizaciones, aficionaos... En resume, tol mundu.
 faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
 faq-how-privacy-q = ¿Cómo aseguráis l'anonimatu y privacidá de la xente que donó les sos voces?
@@ -658,7 +659,7 @@ listen-again-instruction = ¡Bon trabayu!<playIcon></playIcon> Volvi sentir cuan
 listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>¡La última!
 nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
-record-button-label = Graba la to voz
+record-button-label = Grabar la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
 keep-track-profile = Sigui'l to progresu con un perfil
 login-to-get-started = Anicia sesión o rexístrate pa entamar
