@@ -6,15 +6,18 @@ import { FontIcon } from '../ui/icons';
 import { Button } from '../ui/ui';
 import { useAPI } from '../../hooks/store-hooks';
 import { trackChallenge } from '../../services/tracker';
+import { Enrollment } from 'common/challenge';
 
 import './invite-modal.css';
 
 export interface InviteModalProps extends ModalProps {
-  inviteId: string;
-  teamId: string;
+  enrollment: Enrollment;
 }
 
-export default ({ inviteId, teamId, ...props }: InviteModalProps) => {
+export default ({
+  enrollment: { challenge, team, invite },
+  ...props
+}: InviteModalProps) => {
   const [copiedRecently, setCopiedRecently] = useState<boolean>(false);
   const inputRef = useRef();
   const api = useAPI();
@@ -52,7 +55,7 @@ export default ({ inviteId, teamId, ...props }: InviteModalProps) => {
         readOnly
         ref={inputRef}
         type="text"
-        value={`https://voice.mozilla.org/?challenge=pilot&team=${teamId}&invite=${inviteId}`}
+        value={`https://voice.mozilla.org/?challenge=${challenge}&team=${team}&invite=${invite}`}
       />
 
       <Button

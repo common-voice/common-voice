@@ -278,7 +278,7 @@ export default function Dashboard() {
       }>
       {showInviteModal && (
         <InviteModal
-          inviteId="#####"
+          enrollment={account.enrollment}
           onRequestClose={() => {
             setShowInviteModal(false);
             if (JSON.parse(sessionStorage.getItem('firstInvite'))) {
@@ -297,7 +297,6 @@ export default function Dashboard() {
               api.setInviteContributeAchievement();
             }
           }}
-          teamId={account.enrollment.team}
         />
       )}
       <div className="inner">
