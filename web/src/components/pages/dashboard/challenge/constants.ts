@@ -40,5 +40,5 @@ export const isBeforeChallenge = (challenge: ChallengeDuration) => {
 
 export const pilotDates: ChallengeDuration = {
   start: new Date('2019-11-18'),
-  end: new Date('2019-12-18'),
+  end: new Date('2019-12-08'),
 };
