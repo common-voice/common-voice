@@ -228,11 +228,16 @@ const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
   }, []);
   return (
     <div className="challenge-bar">
-      <div className="points">
-        <img src={require('./awards/star.svg')} alt="score" />
-        <span className="score">{points.user}</span>
-        <span className="label label-my">{isNarrow ? 'Me' : 'My points'}</span>
-      </div>
+      {isChallengeLive(pilotDates) && (
+        <div className="points">
+          <img src={require('./awards/star.svg')} alt="score" />
+          <span className="score">{points.user}</span>
+          <span className="label label-my">
+            {isNarrow ? 'Me' : 'My points'}
+          </span>
+        </div>
+      )}
+
       <Button
         rounded
         className="invite-btn"
