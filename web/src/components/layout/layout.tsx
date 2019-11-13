@@ -87,10 +87,14 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   componentDidMount() {
     this.scroller.addEventListener('scroll', this.handleScroll);
     this.visitHash();
+
+    const challengeTeamToken = this.getTeamToken();
+    const challengeToken = this.getChallengeToken();
+
     this.setState({
-      challengeTeamToken: this.getTeamToken(),
-      challengeToken: this.getChallengeToken(),
-      showWelcomeModal: this.isChallengeEnroll(),
+      challengeTeamToken,
+      challengeToke,
+      showWelcomeModal: challengeToken && challengeTeamToken,
     });
   }
 
@@ -163,13 +167,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     history.push(replacePathLocale(history.location.pathname, locale));
   };
 
-  private isChallengeEnroll = () => {
-    return (
-      this.getChallengeToken() !== undefined &&
-      this.getTeamToken() !== undefined
-    );
-  };
-
   private getChallengeToken = () => {
     return challengeTokens.find(challengeToken =>
       this.props.location.search.includes(`challenge=${challengeToken}`)
@@ -202,8 +199,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     const alreadyEnrolled =
       this.state.showWelcomeModal &&
-      user.account !== null &&
-      user.account.enrollment.challenge !== null;
+      user.account &&
+      user.account.enrollment &&
+      user.account.enrollment.challenge;
     const redirectURL = URLS.DASHBOARD + URLS.CHALLENGE;
 
     return (
