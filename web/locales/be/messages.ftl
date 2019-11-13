@@ -87,9 +87,11 @@ lt = Літоўская
 lv = Латышская
 mdf = Макшанская
 mg = Малагасійская
+mhr = Лугавамарыйская
 mk = Македонская
 ml = Малаялам
 mn = Мангольская
+mrj = Горнамарыйская
 mt = Мальтыйская
 myv = Эрзянская
 nb-NO = Нарвежская Букмал
@@ -209,13 +211,24 @@ x-years-short =
 help-make-dataset = Дапамажыце нам стварыць якасны, адкрыты набор дадзеных
 sign-up-account = Зарэгістраваць уліковы запіс
 email-subscription-title = падпісацца на абнаўленні
+email-subscription-title-new = Падпісацца на навіны ад Common Voice, напаміны аб мэтах і паведамленні пра дасягненні.
 
 ## Account Benefits
 
 benefits = Перавагі
+rich-data = Зрабіце адпраўленыя вамі дадзеныя як мага больш поўнымі, далучыўшы пэўную ананімную дэмаграфічную інфармацыю. Мы абезаблічваем усе дэмаграфічныя дадзеныя перад публікацыяй.
+improve-audio = Інфармацыя пра профіль паляпшае гукавыя дадзеныя, што выкарыстоўваюцца для трэніроўкі распазнавання голасу.
+keep-track = Сачыце за сваім прагрэсам і паказчыкамі для некалькіх моў.
+compare-progress = Глядзіце, як ваш прагрэс спаборнічае з іншымі ўдзельнікамі па ўсім свеце.
+view-goals = Назірайце за сваім прагрэсам ў дасягненні асабістых мэт і мэт праекта.
+join-newsletter = Калі захочаце, падпішыцеся на нашу рассылку з абнаўленнямі і новай інфармацыяй пра праект.
 
 ## What's public
 
+whats-public = Што будзе публічным?
+recordings-and-locale-public = Колькасць запісаў і мовы, у якіх вы прымаеце ўдзел, будуць публічнымі.
+username-optin-public = Вы зможаце выбраць, апублікаваць сваё імя карыстальніка, ці застацца ананімным.
+demographic-deidentified = Дэмаграфічныя дадзеныя (напрыклад, узрост, пол, мова і акцэнт) дадаюцца вамі па жаданні і абезаблічваюцца падчас публікацыі галасавых дадзеных. Яны ніколі не будуць апублікаваны ў вашым профілі.
 
 ## Speak & Listen Shortcuts
 
@@ -226,7 +239,8 @@ shortcut-skip = с
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = о
+shortcut-play-toggle = п
+shortcut-play-toggle-label = Прайграць/Спыніць
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = а
@@ -301,6 +315,7 @@ edit = Рэдагаваць
 email-subscriptions = Падпіскі на эл. пошту
 download-profile = Спампаваць мае дадзеныя
 contribution-experience = Досвед дапамогі
+skip-submission-feedback = Прапусціць водгук пра адпраўку
 off = Выкл.
 on = Укл.
 avatar-clip-title = Дайце голас свайму аватару
@@ -401,6 +416,8 @@ set-visibility = Наладзіць маю бачнасць
 
 ## Custom Goals
 
+receiving-emails-info = Вы будзеце атрымліваць лісты, такія як напаміны аб мэтах, паведамленні пра свае дасягненні і навіны пра Common Voice.
+not-receiving-emails-info = Вы <bold>НЕ</bold> будзеце атрымліваць лісты, такія як напаміны аб мэтах, паведамленні пра свае дасягненні і навіны пра Common Voice.
 
 ## Profile Delete
 
