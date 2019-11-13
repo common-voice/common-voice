@@ -164,7 +164,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   private isChallengeEnroll = () => {
-    return this.getChallengeToken() !== undefined && this.getTeamToken() !== undefined;
+    return (
+      this.getChallengeToken() !== undefined &&
+      this.getTeamToken() !== undefined
+    );
   };
 
   private getChallengeToken = () => {
@@ -197,16 +200,15 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       'staging-banner-is-visible': showStagingBanner,
     });
 
-    const alreadyEnrolled = this.state.showWelcomeModal && user.account !== null && user.account.enrollment.challenge !== null;
+    const alreadyEnrolled =
+      this.state.showWelcomeModal &&
+      user.account !== null &&
+      user.account.enrollment.challenge !== null;
     const redirectURL = URLS.DASHBOARD + URLS.CHALLENGE;
-
-
 
     return (
       <div id="main" className={className}>
-        {alreadyEnrolled && (
-          <Redirect to={redirectURL} />
-        )}
+        {alreadyEnrolled && <Redirect to={redirectURL} />}
         {showWelcomeModal && !alreadyEnrolled && (
           <WelcomeModal
             onRequestClose={() => {
