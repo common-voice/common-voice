@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import { LocaleLink } from '../../../locale-helpers';
 import { ChallengeDuration } from 'common/challenge';
 import { isBeforeChallenge } from './constants';
@@ -17,13 +18,16 @@ export default function ChallengeOffline({
   duration: ChallengeDuration;
 }) {
   const dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
-  if (isBeforeChallenge && location.search.includes('achievement=1')) {
-    addAchievement(
-      50,
-      'Bonus! You signed up in time for some extra points.',
-      'success'
-    );
-  }
+  useEffect(() => {
+    if (isBeforeChallenge && location.search.includes('achievement=1')) {
+      addAchievement(
+        50,
+        'Bonus! You signed up in time for some extra points.',
+        'success'
+      );
+    }
+  }, []);
+
   return isBeforeChallenge(duration) ? (
     <div className="challenge-blank-state pre-challenge">
       <div className="challenge-cta">
