@@ -16,7 +16,8 @@ export const challengeLogos: {
   sap: { background: '#fff', border: true, url: require('./images/sap.svg') },
 };
 
-const isValidDate = (dateObj: any) => {
+const isValidDate = (dateStr: string) => {
+  const dateObj = new Date(dateStr);
   return dateObj instanceof Date && !isNaN(dateObj.getTime());
 };
 
