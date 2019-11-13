@@ -24,9 +24,9 @@ import ContributionPage, {
 import { Notifications } from '../../../../stores/notifications';
 import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
+import handleAchievements from '../achievement';
 
 import './listen.css';
-import { User } from '@sentry/types';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -147,31 +147,14 @@ class ListenPage extends React.Component<Props, State> {
 
     this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
-    sessionStorage.setItem('hasContributed', 'true');
-    if (firstContribute) {
-      addAchievement(
-        50,
-        "You're on your way! Congrats on your first contribution.",
-        'success'
-      );
-    }
-    if (firstStreak) {
-      addAchievement(
-        50,
-        'You completed a three-day streak! Keep it up.',
-        'success'
-      );
-    }
-    if (JSON.parse(sessionStorage.getItem('hasShared')) && !hasAchieved) {
-      addAchievement(
-        50,
-        "You're on a roll! You sent an invite and contributed in the same session.",
-        'success'
-      );
-      // Tell back-end user get unexpected achievement: invite + contribute in the same session
-      // Each user can only get once.
-      api.setInviteContributeAchievement();
-    }
+    handleAchievements(
+      firstContribute,
+      firstStreak,
+      hasAchieved,
+      addAchievement,
+      api
+    );
+
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
