@@ -92,9 +92,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const challengeToken = this.getChallengeToken();
 
     this.setState({
-      challengeTeamToken,
-      challengeToken,
-      showWelcomeModal: challengeToken && challengeTeamToken,
+      challengeTeamToken: challengeTeamToken,
+      challengeToken: challengeToken,
+      showWelcomeModal:
+        challengeTeamToken !== undefined && challengeToken !== undefined,
     });
   }
 
