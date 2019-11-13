@@ -150,7 +150,7 @@ router.get(
       // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
       response.redirect(
         redirect ||
-          `${basePath}login-success?challenge=${enrollment.challenge}&first=1&achievement=1`
+          `${basePath}dashboard/challenge?challenge=${enrollment.challenge}&first=1&achievement=1`
       );
     } else {
       response.redirect(redirect || basePath + 'login-success');
