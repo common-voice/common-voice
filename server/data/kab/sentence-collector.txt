@@ -8549,6 +8549,7 @@ Aṭas i yeɛyan si tmurt-nsen.
 Aṭas i yeṣber ugdud, yiwen wass ad d-yeṭerḍeq.
 Aṭas i yeṣber.
 Aṭas i yi-tgiḍ leɣruṛ.
+Aṭas i yumnen s waya.
 Aṭas i yuḍnen aṭṭan n sskeṛ.
 Aṭas i ǧǧiɣ si lḥeqq-iw armi i qqleɣ seg yilexxaxen.
 Aṭas i ɛerḍeɣ ad ɛiwdeɣ ttrebga i wul-iw uqbel ad gezmeɣ asirem.
@@ -9704,6 +9705,7 @@ Cfiɣ fell-asent.
 Cfiɣ fell-awen.
 Cfiɣ kan am wakken ṣewren-iyi s lqecc-nni n daxel.
 Cfiɣ walaɣ lfilm-a
+Cfiɣ walaɣ-t lfilm-a.
 Cfiɣ yiwen n wass di ccetwa, nella nezzi-d i lkanun.
 Cfiɣ yiwwas di lexrif, ṭṭfeɣ-d sin imerga.
 Cfiɣ zik mačči akka i t-xeddmen.
@@ -14579,6 +14581,7 @@ Ihi d acu i tebɣamt?
 Ihi d acu i tebɣiḍ?
 Ihi d acu?
 Ihi d tilufa iwumi yeḥḍer i d-yewwi deg wullis-is.
+Ihi d wa i d Tatoeba.
 Ihi dayen, ibegges-d, ur yeɛdiz i kra.
 Ihi din i d-bdant lmertat-is d icaliyen-is.
 Ihi dɣa!
@@ -17261,6 +17264,7 @@ Kemmel taɣuzi.
 Kemmel tira.
 Kemmel weḥd-m.
 Kemmel-as.
+Kemmel-d i teqsiṭ-ik.
 Kemmel.
 Kemmelt-aɣ tirni.
 Kemmini a Baya, a tucbiḥt n tlawin.
@@ -19784,6 +19788,7 @@ Meqqeṛ.
 Meqqeṛit lexbuḍ-is.
 Meqqret texxamt-ik.
 Meqqret twacult-iw.
+Meqqreɣ aṭas ɣef Tom.
 Meqqreɣ.
 Meqqreḍ yakan.
 Meqqrit wallen-is am tid n tfunast.
@@ -21583,6 +21588,7 @@ Nleḥḥu, ur neqḍiɛ abrid.
 Nlul-d akken ad nesdukkel tikli.
 Nlul-d s teqbaylit.
 Nmerreḥ.
+Nmeslay ɣef Ustṛalya.
 Nna Cabḥa uran-as deg ufus-is uṭṭun n ukabar ɣef ialq ad tbuṭṭi.
 Nna Feḍmuca tenna: Ireẓq-iyi-d Yillu s yiwet n tukci ifazen.
 Nna Feḍmuca txuṣṣ deg yiẓri, ma d Lalla Xelluǧa tegrurez yerna tecbeḥ.
@@ -21930,6 +21936,7 @@ Nuɣal d tameṭṭut d tmeṭṭut-is.
 Nuɣal d timeddukal.
 Nuɣal nbeddel tikli, nettu wid leɛmer ṛwan.
 Nuɣal ntteddu afus deg ufus.
+Nuɣal-d seg Ustṛalya.
 Nuɣal-d ɣer llekka qbel ad d-yeɣli yiḍ.
 Nuɣal-d, netta neǧǧa-t.
 Nuɣen ɣef tlelli.
@@ -22778,6 +22785,7 @@ Rnu-d ay isli, tissas n yizem.
 Rnu-d ɣuṛ-nneɣ!
 Rnu-tt.
 Rnu-yas aman, a xali.
+Rnu-yas aṭas n waman.
 Rnu-yas cwiṭ n lmelḥ i useqqi.
 Rnu-yas.
 Rnu-yi-d ur ṛwiɣ ara.
@@ -25201,6 +25209,7 @@ Sɛeddayen akk laɛnaya.
 Sɛeddayeɣ lweqt yelhan.
 Sɛiɣ abug deg uselkim-iw.
 Sɛiɣ allen d tizegzawin.
+Sɛiɣ amcic d amellal.
 Sɛiɣ amcic.
 Sɛiɣ amrig.
 Sɛiɣ aselkim.
@@ -27737,6 +27746,7 @@ Teslam s lexber?
 Teslam s yisallen?
 Teslam-as, neɣ ala?
 Teslam.
+Teslamt i baba-tkent.
 Teslamt-as, neɣ ala?
 Tesleb.
 Teslek.
@@ -28024,6 +28034,7 @@ Tessṛeɣ-iyi-tt.
 Testeqqsa-tt Yamani Suhila.
 Testeqsa d acu i yebɣa.
 Testeqsa lǧiran, imezdaɣ, imznuza, imsebriden.
+Testeqsa-d ɣef yemma.
 Testeqsa-t amek i d tazmert-is, tuḍen weḥdes s tuffra.
 Testeqsa-t ɣef urgaz-is.
 Testeqsa-ten Yamani Suhila.
@@ -28505,6 +28516,7 @@ Tettwali deg wudem-is ḥala tebrek.
 Tettwali kan taqbaylit.
 Tettwali llufan yettfeǧiǧ.
 Tettwalim kan taqbaylit.
+Tettwalim-iyi cebḥeɣ?
 Tettwalim-iyi-d?
 Tettwalimt kan taqbaylit.
 Tettwalimt-iyi-d?
@@ -28512,6 +28524,7 @@ Tettwaliḍ adlis-iw?
 Tettwaliḍ axeclaw yellan di tiṭ n gma-k.
 Tettwaliḍ kan taqbaylit.
 Tettwaliḍ tibḥirt?
+Tettwaliḍ-iyi cebḥeɣ?
 Tettwaliḍ-iyi-d?
 Tettwamḍel d tamuddurt.
 Tettwasuddes akken ilaq, d ayen i tt-yeǧǧan ad tekcem deg umezruy.
@@ -34141,6 +34154,7 @@ Ur ttrebbiɣ mmi-s n medden.
 Ur ttru ara! Dayen.
 Ur ttru ara.
 Ur ttruḥ ara axir-ik.
+Ur ttruḥ ara ɣer din.
 Ur ttruḥeɣ ara ɣer lxedma s lqecc am wa.
 Ur ttruḥeɣ ara.
 Ur ttruḥuɣ ara ssya, ɣas ulamma ad sɛeddiɣ iḍ dagi, alamma d ṣṣbeḥ.
@@ -37257,8 +37271,10 @@ Yelha ṣṣut.
 Yelha!
 Yelha-d ala d unadi.
 Yelha-yak i kečči.
+Yelha-yak ulaɣmu-nni.
 Yelha-yakent i kunemti.
 Yelha-yam i kemmi.
+Yelha-yam ulaɣmu-nni.
 Yelha-yawen i kunwi.
 Yelha.
 Yell kra i rebḥeɣ?
@@ -40115,6 +40131,7 @@ Yuba itettru.
 Yuba iwala kullec.
 Yuba ixdem iḍ d wass.
 Yuba ixeddem kullec weḥd-s.
+Yuba ixeddem s leɛqel.
 Yuba ixeddem ɣur-k?
 Yuba ixeṛṛef.
 Yuba ixuṣ lḥir.
@@ -40128,11 +40145,13 @@ Yuba iḥemmel Mary.
 Yuba iḥemmel ad yurar.
 Yuba iḥemmel arrac.
 Yuba iḥemmel cna.
+Yuba iḥemmel iɛudiwen.
 Yuba iḥemmel tazla.
 Yuba iḥemmel ṣyada.
 Yuba iḥulfa yehlek.
 Yuba iḥulfa yeɛya.
 Yuba iḥulfa yuḍen.
+Yuba iḥuz-at udderxem.
 Yuba iṛuḥ ad immet.
 Yuba iṛuḥ ar uɣerbaz.
 Yuba mazal-it deg uɣerbaz.
@@ -40260,6 +40279,7 @@ Yuba yesɛa tiyuzaḍ.
 Yuba yesɛa zzheṛ.
 Yuba yesṭuqut awal.
 Yuba yettargu.
+Yuba yettaru s leɛqel.
 Yuba yettaweḍ Mary.
 Yuba yettaweḍ.
 Yuba yettazzal.
@@ -40272,6 +40292,7 @@ Yuba yettban meẓẓi.
 Yuba yettban yefṛeḥ.
 Yuba yettban yerfa.
 Yuba yettban yerked.
+Yuba yettban yesteɛfa.
 Yuba yettban yeǧhed.
 Yuba yettban yeɛya.
 Yuba yettban yeḥzen.
@@ -40338,6 +40359,7 @@ Yuba yeɣra deg uxxam.
 Yuba yeεẓeg am ublaḍ.
 Yuba yeḍleb ssmaḥ
 Yuba yeḥwaǧ afus.
+Yuba yeḥwaǧ iceṭṭiḍen.
 Yuba yeḥwaǧ-iyi.
 Yuba yeḥzen.
 Yuba yeḥṛec.
@@ -40613,6 +40635,7 @@ Yura-asent tibratin iḍelli mi yestufa.
 Yura-awen tabrat.
 Yura-awent tabrat.
 Yura-aɣ-d tabrat.
+Yura-d adlis igerrez.
 Yura-iyi-d tabrat.
 Yura-kem s yidammen.
 Yura-yas Lewnis tabrat n sslam, ur s-d-terri ara.
