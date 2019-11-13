@@ -22,9 +22,9 @@ const isValidDate = (dateStr: string) => {
 };
 
 const getNow = () => {
-  const [, date] = location.search
-    ? location.search.match(/date=(\d+-\d+-\d+)/)
-    : [];
+  const dateParam =
+    location.search && location.search.match(/date=(\d+-\d+-\d+)/);
+  const date = dateParam && dateParam[1];
   return isValidDate(date) ? new Date(date) : new Date();
 };
 

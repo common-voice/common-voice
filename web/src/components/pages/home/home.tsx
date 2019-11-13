@@ -11,8 +11,6 @@ import RequestLanguageModal from '../../request-language-modal/request-language-
 import { LinkButton } from '../../ui/ui';
 import Hero from './hero';
 import { ClipsStats, VoiceStats } from './stats';
-import { Notifications } from '../../../stores/notifications';
-import { useAction } from '../../../hooks/store-hooks';
 
 import './home.css';
 
@@ -36,19 +34,10 @@ export default function HomePage() {
 
   const statsRef = useRef<HTMLDivElement>(null);
 
-  const addAchievement = useAction(Notifications.actions.addAchievement);
-
   useEffect(() => {
     if (location.hash == '#stats') {
       statsRef.current.scrollIntoView(true);
       window.scrollBy(0, -130);
-    }
-    if (location.search.includes('achievement=1')) {
-      addAchievement(
-        50,
-        'Bonus! You signed up in time for some extra points.',
-        'success'
-      );
     }
   }, []);
 
