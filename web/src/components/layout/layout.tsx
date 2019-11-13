@@ -93,7 +93,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     this.setState({
       challengeTeamToken,
-      challengeToke,
+      challengeToken,
       showWelcomeModal: challengeToken && challengeTeamToken,
     });
   }
