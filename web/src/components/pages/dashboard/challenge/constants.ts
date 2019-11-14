@@ -1,4 +1,5 @@
 import { ChallengeDuration, ChallengeTeamToken } from 'common/challenge';
+import { isStaging } from '../../../../utility';
 
 export const challengeLogos: {
   [key in ChallengeTeamToken]: {
@@ -39,6 +40,6 @@ export const isBeforeChallenge = (challenge: ChallengeDuration) => {
 };
 
 export const pilotDates: ChallengeDuration = {
-  start: new Date('2019-11-18'),
-  end: new Date('2019-12-08'),
+  start: new Date(isStaging() ? '2019-11-10' : '2019-11-18'),
+  end: new Date(isStaging() ? '2019-11-30' : '2019-12-08'),
 };
