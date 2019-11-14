@@ -107,28 +107,30 @@ export default class Clip {
       .promise();
 
     console.log('clip vote written to s3', voteFile);
-
-    const ret = {
-      glob: glob,
-      firstContribute: await earnBonus('first_contribution', [
-        challenge,
-        client_id,
-      ]),
-      hasAchieved: await hasEarnedBonus(
-        'invite_contribute_same_session',
-        client_id,
-        challenge
-      ),
-      firstStreak: await checkGoalsAfterContribution(
-        client_id,
-        { id: clip.locale_id },
-        challenge
-      ),
-    };
+    await checkGoalsAfterContribution(client_id, { id: clip.locale_id });
     // move it to the last line and leave a trace here in case of serious performance issues
     // response.json(ret);
 
     Basket.sync(client_id).catch(e => console.error(e));
+    const ret = challenge
+      ? {
+          glob: glob,
+          firstContribute: await earnBonus('first_contribution', [
+            challenge,
+            client_id,
+          ]),
+          hasAchieved: await hasEarnedBonus(
+            'invite_contribute_same_session',
+            client_id,
+            challenge
+          ),
+          firstStreak: await earnBonus('three_day_streak', [
+            client_id,
+            client_id,
+            challenge,
+          ]),
+        }
+      : { glob };
     response.json(ret);
   };
 
@@ -210,27 +212,32 @@ export default class Clip {
       });
       await Awards.checkProgress(client_id, { name: params.locale });
 
-      const challenge = headers.challenge as ChallengeToken;
-      const firstStreak = await checkGoalsAfterContribution(
-        client_id,
-        { name: params.locale },
-        challenge
-      );
+      await checkGoalsAfterContribution(client_id, { name: params.locale });
+
       Basket.sync(client_id).catch(e => console.error(e));
 
-      const ret = {
-        filePrefix: filePrefix,
-        firstContribute: await earnBonus('first_contribution', [
-          challenge,
-          client_id,
-        ]),
-        hasAchieved: await hasEarnedBonus(
-          'invite_contribute_same_session',
-          client_id,
-          challenge
-        ),
-        firstStreak: firstStreak,
-      };
+      const challenge = headers.challenge as ChallengeToken;
+      const ret = challenge
+        ? {
+            filePrefix: filePrefix,
+            firstContribute: await earnBonus('first_contribution', [
+              challenge,
+              client_id,
+            ]),
+            hasAchieved: await hasEarnedBonus(
+              'invite_contribute_same_session',
+              client_id,
+              challenge
+            ),
+            // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
+            // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
+            firstStreak: await earnBonus('three_day_streak', [
+              client_id,
+              client_id,
+              challenge,
+            ]),
+          }
+        : { filePrefix };
       response.json(ret);
     } catch (error) {
       console.error(error);
