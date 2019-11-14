@@ -78,7 +78,7 @@ export default class Server {
 
     app.use(authRouter);
     app.use('/_plugin/kibana', authMiddleware, (request, response, next) => {
-      const { KIBANA_URL: target, ADMIN_EMAILS } = getConfig();
+      const { KIBANA_URL: target, KIBANA_ADMINS } = getConfig();
       if (!target) {
         response.status(500).json({ error: 'KIBANA_URL missing in config' });
         return;
@@ -93,11 +93,12 @@ export default class Server {
 
       // For now, you either get full access of Kibana or none at all.
       const userEmail = user.emails[0].value;
+
       if (
         !userEmail ||
         !(
           userEmail.endsWith('@mozilla.com') ||
-          JSON.parse(ADMIN_EMAILS).includes(userEmail)
+          JSON.parse(KIBANA_ADMINS).includes(userEmail)
         )
       ) {
         response.status(403).json({
