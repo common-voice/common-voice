@@ -18,7 +18,7 @@
         font-weight: normal;
     }
 
-    input {
+    .visuallyhidden {
         position: absolute;
         overflow: hidden;
         clip: rect(0 0 0 0);
@@ -50,5 +50,23 @@
             margin-left: 12px;
             font-size: 0.6em;
         }
+    }
+
+    .or {
+        font-family: var(--base-font-family);
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        color: var(--black);
+        margin: 30px 0;
+    }
+
+    .email-form {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .labeled-form-control {
+        margin-bottom: 30px;
     }
 }
