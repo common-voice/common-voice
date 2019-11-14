@@ -27,27 +27,39 @@ const bonus_condition_sql = {
   // To earn an three_day_streak bonus, user has to satisfy all the following conditions:
   // 1) has been enrolled;
   // 2) not earned three_day_streak bonus before;
-  // 3) already set a customer goal
-  // 4) already reached a 3-day-streak goal OR haven't reached such a goal but has streak activity that lasts for AT LEAST 3 days
-  //    just in case no such bonus are missed
+  // 3) already set a custom goal during the challenge (after challenge start_date and before the end_date)
+  // 4) has contributed for 3 consecutive days (which is what 3-day-streak means) after setting the custom goal
+  //
+  // [NOTE]
+  // 1) challenges, enroll, streaks and earn are LEFT JOINed with at most one row, but the custom_goals may involve multiple rows.
+  // Thus, there is a GROUP BY clause.
+  // 2) a complex case may show the requirement well:
+  //    A streak began at day-1 and continued for 9 days;
+  //    At day 2 and day 3, two custom_goals were set separately;
+  //    Then at day 5, the user earned the bonus and wouldn't earn the bonus again.
   three_day_streak: `
-    SELECT
-        (enroll.client_id IS NOT NULL) AND (earn.client_id IS NULL) AND (custom_goals.id IS NOT NULL) AND (streaks.id IS NOT NULL) AS win_bonus,
-        ? AS bonus_winner
-    FROM challenges
-    LEFT JOIN achievements ON achievements.name = 'three_day_streak' AND challenges.id = achievements.challenge_id
-    LEFT JOIN enroll ON enroll.client_id = ?
-        AND challenges.id = enroll.challenge_id
-        AND enroll.enrolled_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
-    LEFT JOIN custom_goals ON custom_goals.client_id = enroll.client_id
-        AND custom_goals.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
-    LEFT JOIN streaks ON streaks.client_id = enroll.client_id
-        AND streaks.started_at BETWEEN start_date AND TIMESTAMPADD(DAY, 18, start_date)  # 18 days = 3 weeks - 3 days.
-        AND TIMESTAMPDIFF(DAY, streaks.started_at, streaks.last_activity_at) >= 3
-    LEFT JOIN earn ON enroll.client_id = earn.client_id
-        AND earn.achievement_id = achievements.id
-        AND earned_at BETWEEN TIMESTAMPADD(DAY, -3, streaks.last_activity_at) AND streaks.last_activity_at
-    WHERE challenges.url_token = ?
+    SELECT MAX(win_bonus) AS win_bonus, bonus_winner
+    FROM (
+        SELECT
+            (enroll.client_id IS NOT NULL) AND (earn.client_id IS NULL) AND (custom_goals.id IS NOT NULL) AND (streaks.id IS NOT NULL) AS win_bonus,
+            ? AS bonus_winner
+        FROM challenges
+        LEFT JOIN achievements ON achievements.name = 'three_day_streak' AND challenges.id = achievements.challenge_id
+        LEFT JOIN enroll ON enroll.client_id = ?
+            AND challenges.id = enroll.challenge_id
+            AND enroll.enrolled_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+        LEFT JOIN custom_goals ON custom_goals.client_id = enroll.client_id
+            AND custom_goals.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+        LEFT JOIN streaks ON streaks.client_id = enroll.client_id
+            AND streaks.started_at BETWEEN start_date AND TIMESTAMPADD(DAY, 18, start_date)  # 18 days = 3 weeks - 3 days.
+            AND TIMESTAMPDIFF(DAY, streaks.started_at, streaks.last_activity_at) >= 3
+            AND TIMESTAMPDIFF(DAY, custom_goals.created_at, streaks.last_activity_at) >= 3
+        LEFT JOIN earn ON enroll.client_id = earn.client_id
+            AND earn.achievement_id = achievements.id
+            AND earned_at BETWEEN TIMESTAMPADD(DAY, -3, streaks.last_activity_at) AND streaks.last_activity_at
+        WHERE challenges.url_token = ?
+    ) bonus
+    GROUP BY bonus_winner
   `,
   // Arguments: [challenge, client_id]
   // To earn an first_contribution, user's contribution must be exact 1.
