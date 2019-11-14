@@ -32,6 +32,7 @@
         right: 20px;
         top: 20px;
         border: none;
+        opacity: 0.4;
     }
 
     & .inner {

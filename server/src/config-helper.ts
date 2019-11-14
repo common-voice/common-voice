@@ -28,6 +28,7 @@ export type CommonVoiceConfig = {
   IMPORT_SENTENCES: boolean;
   REDIS_URL: string;
   KIBANA_URL: string;
+  KIBANA_ADMINS: string;
 };
 
 const DEFAULTS: CommonVoiceConfig = {
@@ -57,10 +58,6 @@ const DEFAULTS: CommonVoiceConfig = {
     'rleitan@mozilla.com',
     'rshaw@mozilla.com',
     'vioia@mozilla.com',
-    'henrik.mitsch@gmx.at',
-    'steveparmar6nov2011@gmail.com',
-    'manel.rhaiem92@gmail.com',
-    'shambhavimishra26@gmail.com',
   ]),
   S3_CONFIG: {
     signatureVersion: 'v4',
@@ -74,6 +71,12 @@ const DEFAULTS: CommonVoiceConfig = {
   IMPORT_SENTENCES: true,
   REDIS_URL: null,
   KIBANA_URL: null,
+  KIBANA_ADMINS: JSON.stringify([
+    'henrik.mitsch@gmx.at',
+    'steveparmar6nov2011@gmail.com',
+    'manel.rhaiem92@gmail.com',
+    'shambhavimishra26@gmail.com',
+  ]),
 };
 
 let injectedConfig: CommonVoiceConfig;
