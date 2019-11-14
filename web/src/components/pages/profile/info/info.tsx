@@ -237,6 +237,9 @@ function ProfilePage({
             <Localized id="visible">
               <option value={1} />
             </Localized>
+            {account && account.enrollment && (
+              <option value={2}>Visible within challenge team</option>
+            )}
           </LabeledSelect>
         </Localized>
 

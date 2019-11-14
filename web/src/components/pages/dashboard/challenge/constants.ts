@@ -1,5 +1,4 @@
 import { ChallengeDuration, ChallengeTeamToken } from 'common/challenge';
-const queryString = require('query-string');
 
 export const challengeLogos: {
   [key in ChallengeTeamToken]: {
@@ -17,41 +16,29 @@ export const challengeLogos: {
   sap: { background: '#fff', border: true, url: require('./images/sap.svg') },
 };
 
+const isValidDate = (dateStr: string) => {
+  const dateObj = new Date(dateStr);
+  return dateObj instanceof Date && !isNaN(dateObj.getTime());
+};
+
+const getNow = () => {
+  const dateParam =
+    location.search && location.search.match(/date=(\d+-\d+-\d+)/);
+  const date = dateParam && dateParam[1];
+  return isValidDate(date) ? new Date(date) : new Date();
+};
+
 export const isChallengeLive = (challenge: ChallengeDuration) => {
-  const now = new Date();
+  const now = getNow();
   return now >= challenge.start && now < challenge.end;
 };
 
 export const isBeforeChallenge = (challenge: ChallengeDuration) => {
-  const now = new Date();
+  const now = getNow();
   return now < challenge.start;
 };
 
-const isValidDate = (dateObj: any) => {
-  return dateObj instanceof Date && !isNaN(dateObj.getTime());
+export const pilotDates: ChallengeDuration = {
+  start: new Date('2019-11-18'),
+  end: new Date('2019-12-08'),
 };
-
-const getChallengeDates = (): ChallengeDuration => {
-  const params = queryString.parse(location.search);
-
-  let defaultDates: ChallengeDuration = {
-    start: new Date('2019-11-18'),
-    end: new Date('2019-12-18'),
-  };
-
-  let challengeDates: ChallengeDuration = defaultDates;
-
-  if (params.challenge_start && isValidDate(new Date(params.challenge_start))) {
-    challengeDates.start = new Date(params.challenge_start);
-  }
-
-  if (params.challenge_end && isValidDate(new Date(params.challenge_end))) {
-    challengeDates.end = new Date(params.challenge_end);
-  }
-
-  return challengeDates.end > challengeDates.start
-    ? challengeDates
-    : defaultDates;
-};
-
-export const pilotDates: ChallengeDuration = getChallengeDates();

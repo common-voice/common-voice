@@ -344,4 +344,5 @@ export async function checkGoalsAfterContribution(
       [threshold, type, client_id, localeId]
     );
   }
+  return earned;
 }

@@ -102,12 +102,13 @@ const UserClient = {
           (SELECT COUNT(*) FROM clips WHERE u.client_id = clips.client_id) AS clips_count,
           (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count,
           t.team,
-          t.challenge
+          t.challenge,
+          t.invite
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
         LEFT JOIN (
-          SELECT enroll.client_id, teams.url_token AS team, challenges.url_token AS challenge
+          SELECT enroll.client_id, enroll.url_token as invite, teams.url_token AS team, challenges.url_token AS challenge
           FROM enroll
           LEFT JOIN challenges ON enroll.challenge_id = challenges.id
           LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
@@ -149,7 +150,11 @@ const UserClient = {
             ),
             awards,
             custom_goals,
-            enrollment: { team: row.team, challenge: row.challenge },
+            enrollment: {
+              team: row.team,
+              challenge: row.challenge,
+              invite: row.invite,
+            },
           }),
           { locales: [] }
         );

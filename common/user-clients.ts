@@ -1,5 +1,5 @@
 import { CustomGoal } from './goals';
-import { ChallengeTeamToken } from './challenge';
+import { Enrollment } from './challenge';
 
 export type UserClient = {
   email?: string;
@@ -17,5 +17,5 @@ export type UserClient = {
   votes_count?: number;
   awards?: any[];
   custom_goals?: CustomGoal[];
-  enrollment?: { challenge: string; team: ChallengeTeamToken; invite: string };
+  enrollment?: Enrollment;
 };

@@ -1,7 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { RouteComponentProps, withRouter } from 'react-router';
+import { RouteComponentProps, Redirect, withRouter } from 'react-router';
 import { LOCALES, NATIVE_NAMES } from '../../services/localization';
 import { trackGlobal } from '../../services/tracker';
 import StateTree from '../../stores/tree';
@@ -75,22 +75,28 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private installApp: HTMLElement;
 
   state: LayoutState = {
-    challengeTeamToken: challengeTeamTokens.find(challengeTeamToken =>
-      this.props.location.search.includes(`team=${challengeTeamToken}`)
-    ),
-    challengeToken: challengeTokens.find(challengeToken =>
-      this.props.location.search.includes(`challenge=${challengeToken}`)
-    ),
+    challengeTeamToken: undefined,
+    challengeToken: undefined,
     isMenuVisible: false,
     hasScrolled: false,
     hasScrolledDown: false,
     showStagingBanner: isStaging(),
-    showWelcomeModal: true,
+    showWelcomeModal: false,
   };
 
   componentDidMount() {
     this.scroller.addEventListener('scroll', this.handleScroll);
     this.visitHash();
+
+    const challengeTeamToken = this.getTeamToken();
+    const challengeToken = this.getChallengeToken();
+
+    this.setState({
+      challengeTeamToken: challengeTeamToken,
+      challengeToken: challengeToken,
+      showWelcomeModal:
+        challengeTeamToken !== undefined && challengeToken !== undefined,
+    });
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
@@ -162,6 +168,18 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     history.push(replacePathLocale(history.location.pathname, locale));
   };
 
+  private getChallengeToken = () => {
+    return challengeTokens.find(challengeToken =>
+      this.props.location.search.includes(`challenge=${challengeToken}`)
+    );
+  };
+
+  private getTeamToken = () => {
+    return challengeTeamTokens.find(challengeTeamToken =>
+      this.props.location.search.includes(`team=${challengeTeamToken}`)
+    );
+  };
+
   render() {
     const { locale, location, user } = this.props;
     const {
@@ -180,9 +198,17 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       'staging-banner-is-visible': showStagingBanner,
     });
 
+    const alreadyEnrolled =
+      this.state.showWelcomeModal &&
+      user.account &&
+      user.account.enrollment &&
+      user.account.enrollment.challenge;
+    const redirectURL = URLS.DASHBOARD + URLS.CHALLENGE;
+
     return (
       <div id="main" className={className}>
-        {showWelcomeModal && challengeTeamToken && challengeToken && (
+        {alreadyEnrolled && <Redirect to={redirectURL} />}
+        {showWelcomeModal && !alreadyEnrolled && (
           <WelcomeModal
             onRequestClose={() => {
               this.setState({ showWelcomeModal: false });
