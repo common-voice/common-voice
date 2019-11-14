@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
+import { Redirect } from 'react-router';
 import { challengeTeams } from 'common/challenge';
 import WeeklyChallenge from './weekly-challenge';
 import LeaderBoardCard from './leaderboard-card';
@@ -112,7 +113,14 @@ export default function ChallengePage() {
   }, []);
   useEffect(() => trackChallenge('dashboard-view'), []);
 
-  return isChallengeLive(pilotDates) ? (
+  const isEnrolled =
+    account.enrollment &&
+    account.enrollment.team &&
+    account.enrollment.challenge;
+
+  return !isEnrolled ? (
+    <Redirect to={URLS.DASHBOARD} />
+  ) : isChallengeLive(pilotDates) ? (
     <div className="challenge challenge-container">
       {showOnboardingModal && (
         <OnboardingModal
