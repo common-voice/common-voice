@@ -479,9 +479,7 @@ data-bundle-button = Адырра аизга ҭагалатәуп
 data-bundle-description = Common Voice иамоу адыррақәа ирыцу абыжьқәа реизгақәа зегьы ҵаҟа иарбоуп.
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
-review-terms =
-    Common Voice ухы ианаурхәа, уи иаанагоит ҳара <termsLink>ахархәашьа</termsLink> егьы <privacyLink>Ир­ма­
-    ӡоу Ардырра</privacyLink> урықәшаҳаҭуп ҳәа.
+review-terms = Common Voice ухы ианаурхәа, уи иаанагоит ҳара <termsLink>ахархәашьа</termsLink> егьы <privacyLink>Ир­ма­ӡоу Ардырра</privacyLink> урықәшаҳаҭуп ҳәа.
 terms-agree = Сақәшаҳаҭуп
 terms-disagree = Сақәшаҳаҭӡам
 review-aborted = Аҭагалара еиԥҟьоуп. Уанҵамҭақәа анышәхыр уҭахума?
