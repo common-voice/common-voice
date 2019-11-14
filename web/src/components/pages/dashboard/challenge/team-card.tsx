@@ -108,6 +108,7 @@ export default function TeamboardCard({
             service="top-teams"
             ref={teamboardRef}
             team
+            week={week}
           />
         </div>
       </div>
