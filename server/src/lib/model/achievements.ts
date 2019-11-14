@@ -1,6 +1,7 @@
 import { ChallengeToken, AchievementType } from 'common/challenge';
 import { getMySQLInstance } from './db/mysql';
 
+// SQLs here is the last guards before inserting into earn table
 const bonus_condition_sql = {
   // Arguments: [challenge, client_id]
   // No need to check if user has already won the bonus because it must happend after a successful enrollment.
@@ -61,9 +62,9 @@ const bonus_condition_sql = {
     GROUP BY user_clients.client_id
     `,
   // Arguments: [client_id, client_id, challenge]
-  // Check if user has already earned the bonus
+  // Check if user has already earned the bonus, and if challenge is on-going now
   invite_send: `
-    SELECT earn.id IS NULL AS win_bonus, ? AS bonus_winner
+    SELECT (earn.id IS NULL) AND (NOW() BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)) AS win_bonus, ? AS bonus_winner
     FROM challenges
     LEFT JOIN achievements ON achievements.name = 'invite_send' AND achievements.challenge_id = challenges.id
     LEFT JOIN earn ON earn.client_id = ?
@@ -72,9 +73,9 @@ const bonus_condition_sql = {
     WHERE challenges.url_token = ?
     `,
   // Arguments: [client_id, client_id, challenge]
-  // Check if user has already won the bonus
+  // Check if user has already won the bonus, and if challenge is on-going now
   invite_contribute_same_session: `
-    SELECT earn.id IS NULL AS win_bonus, ? AS bonus_winner
+    SELECT (earn.id IS NULL) AND (NOW() BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)) AS win_bonus, ? AS bonus_winner
     FROM challenges
     LEFT JOIN achievements ON achievements.name = 'invite_contribute_same_session' AND achievements.challenge_id = challenges.id
     LEFT JOIN earn ON earn.client_id = ?
@@ -107,7 +108,8 @@ export const hasEarnedBonus = async (
   client_id: string,
   challenge: ChallengeToken
 ) => {
-  const [[{ earned }]] = await db.query(
+  // do not destructure to [[{earned}]], just in case null values returned, in scenarios like challenge=null
+  const [[res]] = await db.query(
     `
       SELECT earn.client_id IS NOT NULL AS earned
       FROM challenges
@@ -119,5 +121,5 @@ export const hasEarnedBonus = async (
       `,
     [type, client_id, challenge]
   );
-  return earned;
+  return res && res.earned;
 };

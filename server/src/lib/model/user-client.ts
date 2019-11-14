@@ -92,6 +92,7 @@ const UserClient = {
     );
   },
 
+  // using NOW() to filter challenges selection so that before or after a challenge, enrollment information should not be returned.
   async findAccount(email: string): Promise<UserClient> {
     const [rows] = await db.query(
       `
@@ -109,9 +110,10 @@ const UserClient = {
         LEFT JOIN locales on accents.locale_id = locales.id
         LEFT JOIN (
           SELECT enroll.client_id, enroll.url_token as invite, teams.url_token AS team, challenges.url_token AS challenge
-          FROM enroll
-          LEFT JOIN challenges ON enroll.challenge_id = challenges.id
+          FROM challenges
+          LEFT JOIN enroll ON enroll.challenge_id = challenges.id
           LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
+          WHERE NOW() BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
         ) t ON t.client_id = u.client_id
         WHERE u.email = ? AND has_login
         GROUP BY u.client_id, accents.id
