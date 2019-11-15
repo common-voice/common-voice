@@ -177,10 +177,11 @@ function ProfilePage({
         addNotification(getString('profile-form-submit-saved'));
       },
     ]);
-    if (window.location.search.includes('first=1')) {
-      // Query params, including `?first=1`, will persist.
-      window.location.pathname = `/${locale}/dashboard/challenge`;
-    }
+    // TODO(riley): Rebuild this, if that's where the problem is.
+    // if (window.location.search.includes('first=1')) {
+    //   // Query params, including `?first=1`, will persist.
+    //   window.location.pathname = `/${locale}/dashboard/challenge`;
+    // }
   }, [api, getString, locale, locales, termsStatus, user, userFields]);
 
   if (!isInitialized) {
