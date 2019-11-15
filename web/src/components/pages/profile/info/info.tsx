@@ -107,7 +107,7 @@ function ProfilePage({
 
     setUserFields({
       ...userFields,
-      sendEmails: account && Boolean(account.basket_token),
+      sendEmails: account ? account && Boolean(account.basket_token) : false,
       visible: 0,
       ...pick(user, 'age', 'username', 'gender'),
       ...(account
