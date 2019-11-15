@@ -34,6 +34,7 @@ interface Props extends PropsFromState {
   service: string;
   team?: boolean;
   type?: 'clip' | 'vote';
+  week?: number;
 }
 
 interface State {
@@ -148,7 +149,7 @@ class ChallengeList extends React.Component<Props, State> {
 
   render() {
     const { rows, isAtEnd } = this.state;
-    const { user, team } = this.props;
+    const { user, team, week } = this.props;
     // TODO: Render <Fetchrow>s outside of `items` to flatten the list.
 
     const items = rows.map((row, i) => {
@@ -188,7 +189,7 @@ class ChallengeList extends React.Component<Props, State> {
               </div>
             </div>
             <div className="week" title="Week">
-              {row.w1_points ? (
+              {row.w1_points && week >= 0 ? (
                 <>
                   <PointsIcon
                     className={row.w1 <= 3 ? `star-points-${row.w1}` : ''}
@@ -200,7 +201,7 @@ class ChallengeList extends React.Component<Props, State> {
               )}
             </div>
             <div className="week" title="Week">
-              {row.w2_points ? (
+              {row.w2_points && week >= 1 ? (
                 <>
                   <PointsIcon
                     className={row.w2 <= 3 ? `star-points-${row.w2}` : ''}
@@ -212,7 +213,7 @@ class ChallengeList extends React.Component<Props, State> {
               )}
             </div>
             <div className="week" title="Week">
-              {row.w3_points ? (
+              {row.w3_points && week === 2 ? (
                 <>
                   <PointsIcon
                     className={row.w3 <= 3 ? `star-points-${row.w3}` : ''}
