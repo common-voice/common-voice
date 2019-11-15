@@ -18,7 +18,7 @@ import AwardsPage from './awards/awards';
 import ChallengePage from './challenge/challenge';
 import { Button } from '../../ui/ui';
 import InviteModal from '../../invite-modal/invite-modal';
-import { isChallengeLive, pilotDates } from './challenge/constants';
+import { isChallengeLive, pilotDates, isEnrolled } from './challenge/constants';
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
 
@@ -35,8 +35,7 @@ const TopBar = ({
   const [, toLocaleRoute] = useLocale();
   const account = useAccount();
   const [isAboveMdWidth, setIsAboveMdWidth] = useState(true);
-  const isChallengeEnrolled =
-    account && account.enrollment && account.enrollment.team;
+  const isChallengeEnrolled = isEnrolled(account);
   const isChallengeTabSelected = location.pathname.endsWith('/challenge');
 
   function setLocale(value: string) {
@@ -250,13 +249,6 @@ const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
   );
 };
 
-const PAGES = [
-  { subPath: URLS.STATS, Page: StatsPage },
-  { subPath: URLS.GOALS, Page: GoalsPage },
-  { subPath: URLS.AWARDS, Page: AwardsPage },
-  { subPath: URLS.CHALLENGE, Page: ChallengePage },
-];
-
 export default function Dashboard() {
   const { match } = useRouter();
   const account = useAccount();
@@ -264,6 +256,17 @@ export default function Dashboard() {
   const [, toLocaleRoute] = useLocale();
   const [showInviteModal, setShowInviteModal] = useState<boolean>(false);
   const addAchievement = useAction(Notifications.actions.addAchievement);
+  const isChallengeEnrolled = isEnrolled(account);
+  const pages = [
+    { subPath: URLS.STATS, Page: StatsPage },
+    { subPath: URLS.GOALS, Page: GoalsPage },
+    { subPath: URLS.AWARDS, Page: AwardsPage },
+  ];
+  let defaultPage = URLS.STATS;
+  if (isChallengeEnrolled) {
+    pages.unshift({ subPath: URLS.CHALLENGE, Page: ChallengePage });
+    defaultPage = URLS.CHALLENGE;
+  }
 
   useEffect(() => {
     if (!account) {
@@ -275,8 +278,11 @@ export default function Dashboard() {
   return (
     <div
       className={
-        'dashboard ' +
-        (isChallengeLive(pilotDates) ? 'challenge-online' : 'challenge-offline')
+        'dashboard' + isChallengeEnrolled
+          ? ' ' + isChallengeLive(pilotDates)
+            ? 'challenge-online'
+            : 'challenge-offline'
+          : ''
       }>
       {showInviteModal && (
         <InviteModal
@@ -306,7 +312,7 @@ export default function Dashboard() {
       )}
       <div className="inner">
         <Switch>
-          {PAGES.map(({ subPath, Page }) => (
+          {pages.map(({ subPath, Page }) => (
             <Route
               key={subPath}
               exact
@@ -335,7 +341,7 @@ export default function Dashboard() {
                   setShowInviteModal={setShowInviteModal}
                 />
                 <Switch>
-                  {PAGES.map(({ subPath, Page }) => (
+                  {pages.map(({ subPath, Page }) => (
                     <Route
                       key={subPath}
                       exact
@@ -349,7 +355,7 @@ export default function Dashboard() {
                     render={() => (
                       <Redirect
                         to={toLocaleRoute(
-                          URLS.DASHBOARD + '/' + dashboardLocale + URLS.STATS
+                          URLS.DASHBOARD + '/' + dashboardLocale + defaultPage
                         )}
                       />
                     )}
@@ -360,7 +366,7 @@ export default function Dashboard() {
           />
           <Route
             render={() => (
-              <Redirect to={toLocaleRoute(URLS.DASHBOARD + URLS.STATS)} />
+              <Redirect to={toLocaleRoute(URLS.DASHBOARD + defaultPage)} />
             )}
           />
         </Switch>
