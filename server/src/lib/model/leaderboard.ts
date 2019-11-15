@@ -183,7 +183,14 @@ async function getTopListeners({
   return rows;
 }
 
-// this SQL is in low quality, but it does the job: showing all teams' rankings across 3 weeks.
+// show all teams' rankings across 3 weeks.
+// NOTE: explain the meaning of the returned result of the terrifying SQL.
+// 1) w1, w2, w3 is the team rankings in the first, second, third week respectively.
+//    w1_point, w2_point, w3_point is the _team_points_ in the first, second, third week respectively.
+// 2) w2 take into account of the w1_point and w2_point.
+//    w3 take into account of the w1_point, w2_point and w3_point.
+// 3) w2_point include the w1_point and w3_point include w2_point and w1_point.
+// _team_points_ = team_bonus + all_member_bonus + all_member_points.
 // [FUTURE] there are maybe several ways to optimize the SQL here
 //          and when new version of DB is available, ranking() and window function could be used
 async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
@@ -205,18 +212,66 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
               @point1 := w1_points AS w1_points
             FROM (
                 SELECT teams.id, teams.name,
-                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 1, challenges.start_date)) * points) AS w1_points,
-                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 2, challenges.start_date)) * points) AS w2_points,
-                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)) * points) AS w3_points
-                FROM challenges
-                LEFT JOIN teams ON challenges.id = teams.challenge_id
-                LEFT JOIN earn ON earn.team_id = teams.id
-                    AND earn.client_id IS NULL
-                    AND earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
-                LEFT JOIN achievements ON achievements.id = earn.achievement_id
-                    AND achievements.challenge_id = challenges.id 
-                WHERE challenges.url_token = ?
-                GROUP BY teams.id, teams.name
+                    teams.w1_points + members.w1_points AS w1_points,
+                    teams.w2_points + members.w2_points AS w2_points,
+                    teams.w3_points + members.w3_points AS w3_points
+                FROM (
+                    SELECT teams.id, teams.name,
+                        COALESCE(SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 1, challenges.start_date)) * points), 0) AS w1_points,
+                        COALESCE(SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 2, challenges.start_date)) * points), 0) AS w2_points,
+                        COALESCE(SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)) * points), 0) AS w3_points
+                    FROM challenges
+                    LEFT JOIN teams ON challenges.id = teams.challenge_id
+                    LEFT JOIN earn ON earn.team_id = teams.id
+                        AND earn.client_id IS NULL
+                        AND earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
+                    LEFT JOIN achievements ON achievements.id = earn.achievement_id
+                        AND achievements.challenge_id = challenges.id 
+                    WHERE challenges.url_token = ?
+                    GROUP BY teams.id, teams.name
+                ) teams
+                LEFT JOIN (
+                    SELECT team_id, team_name, SUM(bonus) AS user_bonus, SUM(clip_points) AS clip_points, SUM(vote_points) AS vote_points,
+                        SUM(w1_points) AS w1_points,
+                        SUM(w2_points) AS w2_points,
+                        SUM(w3_points) AS w3_points
+                    FROM (
+                        SELECT speaker.client_id, team_id, team_name, bonus, clip_points, COUNT(votes.id) AS vote_points,
+                            w1_points + COALESCE(SUM(votes.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 1, start_date)), 0) AS w1_points,
+                            w2_points + COALESCE(SUM(votes.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 2, start_date)), 0) AS w2_points,
+                            w3_points + COALESCE(SUM(votes.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)), 0) AS w3_points
+                        FROM (
+                            SELECT challenger.client_id, team_id, team_name, start_date, bonus, COUNT(clips.id) AS clip_points,
+                                w1_points + COALESCE(SUM(clips.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 1, start_date)), 0) AS w1_points,
+                                w2_points + COALESCE(SUM(clips.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 2, start_date)), 0) AS w2_points,
+                                w3_points + COALESCE(SUM(clips.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)), 0) AS w3_points
+                            FROM (
+                              SELECT user_clients.client_id, teams.id AS team_id, teams.name AS team_name,
+                                  challenges.start_date AS start_date,
+                                  COALESCE(SUM(achievements.points), 0) AS bonus,
+                                  COALESCE(SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 1, challenges.start_date)) * points), 0) AS w1_points,
+                                  COALESCE(SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 2, challenges.start_date)) * points), 0) AS w2_points,
+                                  COALESCE(SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)) * points), 0) AS w3_points
+                              FROM user_clients
+                              LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
+                              LEFT JOIN challenges ON enroll.challenge_id = challenges.id
+                              LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
+                              LEFT JOIN earn ON user_clients.client_id = earn.client_id AND earn.team_id IS NULL
+                                  AND earn.earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
+                              LEFT JOIN achievements ON earn.achievement_id = achievements.id
+                                  AND challenges.id = achievements.challenge_id
+                              WHERE email <> ''
+                              AND challenges.url_token = ?
+                              GROUP BY user_clients.client_id, team_id, team_name, start_date
+                            ) challenger
+                            LEFT JOIN clips ON challenger.client_id = clips.client_id AND clips.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+                            GROUP BY challenger.client_id, team_id, team_name, start_date, bonus, w1_points, w2_points, w3_points
+                        ) speaker
+                        LEFT JOIN votes ON speaker.client_id = votes.client_id AND votes.created_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+                        GROUP BY speaker.client_id, team_id, team_name, speaker.bonus, speaker.clip_points, w1_points, w2_points, w3_points
+                    ) voter
+                    GROUP BY team_id
+                ) members ON teams.id = members.team_id AND teams.name = members.team_name
                 ORDER BY w1_points DESC
             ) teams, (SELECT @cur1 :=0, @point1 := NULL, @next1 := 1) r
             GROUP BY id
@@ -226,7 +281,7 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
         ORDER BY w3_points DESC
     ) teams, (SELECT @cur3 :=0, @point3 := NULL, @next3 := 1) r
     `,
-    [challenge]
+    [challenge, challenge]
   );
   return rows;
 }
