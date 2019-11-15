@@ -119,34 +119,32 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else if (enrollment && enrollment.challenge && enrollment.team) {
-      if (
-        !(await UserClient.enrollRegisteredUser(
-          user.emails[0].value,
-          enrollment.challenge,
-          enrollment.team,
-          enrollment.invite,
-          request.header('Referer')
-        ))
-      ) {
-        // if the user is unregistered, pass enrollment to frontend
-        user.enrollment = enrollment;
-      } else {
-        // if the user is already registered, now he/she should be enrolled
-        // [TODO] there should be an elegant way to get the client_id here
-        const client_id = await UserClient.findClientId(user.emails[0].value);
-        await earnBonus('sign_up_first_three_days', [
-          enrollment.challenge,
-          client_id,
-        ]);
-        await earnBonus('invite_signup', [
-          client_id,
-          enrollment.invite,
-          enrollment.invite,
-          enrollment.challenge,
-        ]);
-      }
-
+    } else if (
+      enrollment &&
+      enrollment.challenge &&
+      enrollment.team &&
+      (await UserClient.enrollRegisteredUser(
+        user.emails[0].value,
+        enrollment.challenge,
+        enrollment.team,
+        enrollment.invite,
+        request.header('Referer')
+      ))
+    ) {
+      // if the user is already registered, now he/she should be enrolled
+      // [TODO] there should be an elegant way to get the client_id here
+      const client_id = await UserClient.findClientId(user.emails[0].value);
+      user.enrollment = enrollment; // TODO: Do we need this?
+      await earnBonus('sign_up_first_three_days', [
+        enrollment.challenge,
+        client_id,
+      ]);
+      await earnBonus('invite_signup', [
+        client_id,
+        enrollment.invite,
+        enrollment.invite,
+        enrollment.challenge,
+      ]);
       // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
       response.redirect(
         redirect ||
