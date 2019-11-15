@@ -120,7 +120,7 @@ export default function ChallengePage() {
     account.enrollment.challenge;
 
   return !isEnrolled ? (
-    <Redirect to={URLS.DASHBOARD} />
+    <Redirect to={URLS.DASHBOARD} /> // TODO: it shouldn't even try to fetch any challenge data in useEffect if not enrolled
   ) : isChallengeLive(pilotDates) ? (
     <div className="challenge challenge-container">
       {showOnboardingModal && (

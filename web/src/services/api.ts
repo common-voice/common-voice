@@ -337,26 +337,35 @@ export default class API {
     user: number;
     team: number;
   }> {
-    return this.fetch(
-      `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/points`
-    );
+    if (this.user && this.user.account && this.user.account.enrollment) {
+      return this.fetch(
+        `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/points`
+      );
+    }
+    return null;
   }
 
   fetchWeeklyProgress(): Promise<WeeklyChallenge> {
-    return this.fetch(
-      `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/progress`
-    );
+    if (this.user && this.user.account && this.user.account.enrollment) {
+      return this.fetch(
+        `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/progress`
+      );
+    }
+    return null;
   }
 
   fetchTopTeams(
     locale?: string,
     cursor?: [number, number]
   ): Promise<TeamChallenge[]> {
-    return this.fetch(
-      `${API_PATH}/challenge/${
-        this.user.account.enrollment.challenge
-      }/${locale}/teams?cursor=${cursor ? JSON.stringify(cursor) : ''}`
-    );
+    if (this.user && this.user.account && this.user.account.enrollment) {
+      return this.fetch(
+        `${API_PATH}/challenge/${
+          this.user.account.enrollment.challenge
+        }/${locale}/teams?cursor=${cursor ? JSON.stringify(cursor) : ''}`
+      );
+    }
+    return null;
   }
 
   fetchTopContributors(
@@ -364,13 +373,16 @@ export default class API {
     type?: 'vote' | 'clip',
     cursor?: [number, number]
   ): Promise<Challenge[]> {
-    return this.fetch(
-      `${API_PATH}/challenge/${
-        this.user.account.enrollment.challenge
-      }/${locale}/contributors/${type}?cursor=${
-        cursor ? JSON.stringify(cursor) : ''
-      }`
-    );
+    if (this.user && this.user.account && this.user.account.enrollment) {
+      return this.fetch(
+        `${API_PATH}/challenge/${
+          this.user.account.enrollment.challenge
+        }/${locale}/contributors/${type}?cursor=${
+          cursor ? JSON.stringify(cursor) : ''
+        }`
+      );
+    }
+    return null;
   }
 
   fetchTopMembers(
@@ -378,29 +390,38 @@ export default class API {
     type?: 'vote' | 'clip',
     cursor?: [number, number]
   ): Promise<Challenge[]> {
-    return this.fetch(
-      `${API_PATH}/challenge/${
-        this.user.account.enrollment.challenge
-      }/${locale}/members/${type}?cursor=${
-        cursor ? JSON.stringify(cursor) : ''
-      }`
-    );
+    if (this.user && this.user.account && this.user.account.enrollment) {
+      return this.fetch(
+        `${API_PATH}/challenge/${
+          this.user.account.enrollment.challenge
+        }/${locale}/members/${type}?cursor=${
+          cursor ? JSON.stringify(cursor) : ''
+        }`
+      );
+    }
+    return null;
   }
   // check whether or not is the first invite
   fetchInviteStatus(): Promise<{ firstInvite: boolean; hasAchieved: boolean }> {
-    return this.fetch(
-      `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/invite`
-    );
+    if (this.user && this.user.account && this.user.account.enrollment) {
+      return this.fetch(
+        `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/invite`
+      );
+    }
+    return null;
   }
 
   // Tell back-end user get unexpected achievement: invite + contribute in the same session
   // Each user can only get once.
   setInviteContributeAchievement(): Promise<void> {
-    return this.fetch(
-      `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/session`,
-      {
-        method: 'POST',
-      }
-    );
+    if (this.user && this.user.account && this.user.account.enrollment) {
+      return this.fetch(
+        `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/session`,
+        {
+          method: 'POST',
+        }
+      );
+    }
+    return null;
   }
 }
