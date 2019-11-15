@@ -283,6 +283,7 @@ export default function Dashboard() {
             setShowInviteModal(false);
             if (JSON.parse(sessionStorage.getItem('firstInvite'))) {
               addAchievement(50, 'You sent your first invite!');
+              sessionStorage.removeItem('firstInvite');
             }
             if (
               !JSON.parse(sessionStorage.getItem('hasAchieved')) &&
@@ -292,6 +293,8 @@ export default function Dashboard() {
                 50,
                 "You're on a roll! You sent an invite and contributed in the same session."
               );
+              sessionStorage.removeItem('hasAchieved');
+              sessionStorage.removeItem('hasContributed');
               // Tell back-end user get unexpected achievement: invite + contribute in the same session
               // Each user can only get once.
               api.setInviteContributeAchievement();

@@ -422,6 +422,7 @@ class SpeakPage extends React.Component<Props, State> {
                 "You're on a roll! You sent an invite and contributed in the same session.",
                 'success'
               );
+              sessionStorage.removeItem('hasShared');
               // Tell back-end user get unexpected achievement: invite + contribute in the same session
               // Each user can only get once.
               api.setInviteContributeAchievement();
