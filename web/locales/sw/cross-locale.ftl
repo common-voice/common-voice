@@ -7,3 +7,4 @@ get-involved-email =
     .label = Barua pepe
 get-involved-opt-in = Ndio, nitumie barua pepe. Ningependa kukaa na habari juu ya maendeleo ya lugha hii kwenye Sauti ya kawaida.
 get-involved-submit = Wasilisha
+get-involved-success-text = Tutawasiliana na habari zaidi kadiri inavyopatikana.
