@@ -1,5 +1,5 @@
 import { ChallengeDuration, ChallengeTeamToken } from 'common/challenge';
-import { isStaging } from '../../../../utility';
+import { isProduction } from '../../../../utility';
 
 export const challengeLogos: {
   [key in ChallengeTeamToken]: {
@@ -26,7 +26,7 @@ const getNow = () => {
   const dateParam =
     location.search && location.search.match(/date=(\d+-\d+-\d+)/);
   const date = dateParam && dateParam[1];
-  return isValidDate(date) ? new Date(date) : new Date();
+  return date && isValidDate(date) ? new Date(date) : new Date();
 };
 
 export const isChallengeLive = (challenge: ChallengeDuration) => {
@@ -40,6 +40,6 @@ export const isBeforeChallenge = (challenge: ChallengeDuration) => {
 };
 
 export const pilotDates: ChallengeDuration = {
-  start: new Date(isStaging() ? '2019-11-10' : '2019-11-18'),
-  end: new Date(isStaging() ? '2019-11-30' : '2019-12-08'),
+  start: new Date(!isProduction() ? '2019-11-10' : '2019-11-18'),
+  end: new Date(!isProduction() ? '2019-11-30' : '2019-12-08'),
 };

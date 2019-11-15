@@ -224,7 +224,8 @@ const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
   const [points, setAllPoints] = useState({ user: 0, team: 0 });
 
   useEffect(() => {
-    api.fetchChallengePoints().then(setAllPoints); // TODO: it shouldn't even try to fetch any challenge data in useEffect if not enrolled
+    api.fetchChallengePoints().then(value => value && setAllPoints(value));
+    // TODO: investigate how this interacts with asynchronous user loading
   }, []);
   return (
     <div className="challenge-bar">
