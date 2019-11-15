@@ -275,7 +275,8 @@ export default function Dashboard() {
   return (
     <div
       className={
-        'dashboard' + (isChallengeLive(pilotDates) ? '' : ' challenge-offline')
+        'dashboard ' +
+        (isChallengeLive(pilotDates) ? 'challenge-online' : 'challenge-offline')
       }>
       {showInviteModal && (
         <InviteModal

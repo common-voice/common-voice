@@ -347,12 +347,13 @@ img.icon {
         display: flex;
     }
 
-    .speak-btn,
-    .listen-btn {
-        float: right;
-        display: inline-block;
+    .challenge-board-content {
+        .speak-btn,
+        .listen-btn {
+            float: right;
+            display: inline-block;
+        }
     }
-
     .divider {
         display: none;
     }

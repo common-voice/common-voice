@@ -244,6 +244,7 @@
 .invite-btn {
     height: 38px;
     min-width: auto;
+    max-width: 114px;
     background-color: #629ff4;
     border: 0;
     color: var(--white);
@@ -276,18 +277,20 @@
             display: none;
         }
 
-        .invite-btn {
-            width: 38px;
-            height: 38px;
-            border-radius: 50%;
-            padding: 0;
+        .challenge-online & {
+            .invite-btn {
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+                padding: 0;
 
-            .content {
-                display: none;
-            }
+                .content {
+                    display: none;
+                }
 
-            .plus-icon {
-                margin: 0;
+                .plus-icon {
+                    margin: 0;
+                }
             }
         }
     }
