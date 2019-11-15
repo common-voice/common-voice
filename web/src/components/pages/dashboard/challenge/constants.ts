@@ -1,4 +1,5 @@
 import { ChallengeDuration, ChallengeTeamToken } from 'common/challenge';
+import { UserClient } from 'common/user-clients';
 import { isProduction } from '../../../../utility';
 
 export const challengeLogos: {
@@ -43,3 +44,6 @@ export const pilotDates: ChallengeDuration = {
   start: new Date(!isProduction() ? '2019-11-10' : '2019-11-18'),
   end: new Date(!isProduction() ? '2019-11-30' : '2019-12-08'),
 };
+
+export const isEnrolled = (account: UserClient) =>
+  account && account.enrollment && account.enrollment.challenge;
