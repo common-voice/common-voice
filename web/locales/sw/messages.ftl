@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kukaa na habari juu ya Mradi wa Common Voice.
+yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kuendelea kupokea taarifa kuhusu Mradi wa Common Voice.
 email-input =
     .label = Barua pepe
 submit-form-action = wasilisha
