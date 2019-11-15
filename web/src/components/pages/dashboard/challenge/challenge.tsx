@@ -114,6 +114,7 @@ export default function ChallengePage() {
   useEffect(() => trackChallenge('dashboard-view'), []);
 
   const isEnrolled =
+    account &&
     account.enrollment &&
     account.enrollment.team &&
     account.enrollment.challenge;

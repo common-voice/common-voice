@@ -87,7 +87,6 @@ nn-NO = Nynorsk
 oc = Occitansk
 or = Oriya
 pl = Polsk
-pt-BR = Portugisisk (Brasilien)
 rm-sursilv = Rætoromansk sursilvansk
 ro = Rumænsk
 ru = Russisk
@@ -185,7 +184,6 @@ x-years-short =
        *[other] { $count } år
     }
 help-make-dataset = Hjælp os med at opbygge et offentligt og åbent datasæt af høj kvalitet.
-profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 sign-up-account = Opret en konto
 email-subscription-title = Tilmeld dig nyheder via mail
 
@@ -281,6 +279,7 @@ thanks-for-account = Tak fordi du bekræftede din konto, lad os nu udfylde din p
 why-demographic = Hvorfor er dette vigtigt?
 why-demographic-explanation = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
 accept-privacy = Det er helt fint, at I håndterer disse oplysninger som beskrevet i Mozillas <privacyLink>privatlivspolitik</privacyLink>
+accept-privacy-title = Privatlivspolitik
 login-identity = Login-identitet
 login-signup = Log ind / Opret dig
 edit = Rediger
@@ -290,7 +289,6 @@ contribution-experience = Bidragserfaring
 skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
 off = Fra
 on = Til
-add-avatar-title = Tilføj en avatar til din profil
 browse-file-title = Upload en billedfil
 browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
@@ -307,7 +305,6 @@ faq-what-cv-q = Hvad er Common Voice?
 faq-why-important-q = Hvorfor er det vigtigt?
 faq-how-get-q = Hvordan får jeg fat i data fra Common Voice?
 faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</licenseLink>-licensen på vores <datasetLink>side med datasæt</datasetLink>. Du kan også hente flere andre offentligt tilgængelige datasæt fra samme side.
-faq-when-release-q = Hvornår planlægger I at udgive data fra Common Voice på andre sprog?
 faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
@@ -321,6 +318,7 @@ faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt s
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
 faq-is-account-public-q = Er mine kontooplysninger offentlige?
 faq-how-privacy-q = Hvordan sikrer I anonymitet og privatliv for de mennesker, der har doneret deres stemme?
+faq-description = Common Voice er en del af Mozillas initiativ til at hjælpe maskiner med at forstå, hvordan mennesker taler.
 
 ## ABOUT US
 
@@ -364,7 +362,7 @@ review-cancel = Afbryd indsendelsen
 review-keep-recordings = Behold optagelserne
 review-delete-recordings = Slet mine optagelser
 
-## New Datasets Page
+## Datasets Page
 
 language = Sprog
 # File size in gigabytes
@@ -424,7 +422,6 @@ language-section-in-progress = I gang
 language-section-launched = Startet
 languages-show-more = Se flere
 languages-show-less = Se mindre
-language-speakers = Talere
 language-meter-in-progress = Status
 language-total-progress = I alt
 language-search-input =
@@ -434,7 +431,7 @@ localized = Oversat
 sentences = Sætninger
 total-hours = Validerede timer
 
-## New Contribution
+## Contribution
 
 action-click = Klik på
 action-tap = Tryk på
@@ -463,7 +460,6 @@ record-again-instruction = Fremragende! <recordIcon></recordIcon> Optag dit næs
 record-again-instruction2 = Fortsæt det gode arbejde, optag igen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den sidste!
 review-tooltip = Godkend og optag klip her efterhånden
-unable-speak = Ikke mulighed for at tale lige nu
 review-instruction = Godkend og optag klip igen hvis nødvendigt
 record-submit-tooltip = { $actionType } indsend når du er klar
 clips-uploaded = Optagelser uploaded
@@ -479,6 +475,9 @@ listen-last-time-instruction = <playIcon></playIcon>Den sidste!
 nothing-to-validate = Vi har ikke noget klar til at validere på dette sprog. Hjælp os med at fylde køen op!
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
+
+## Reporting
+
 
 ## Goals
 
@@ -510,8 +509,15 @@ contribution-activity = Bidragsaktivitet
 recorded-clips = Optagede klip
 validated-clips = Validerede klip
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = Behold
 remove = Fjern
 profile-form-delete = Slet profil
+
+## Landing
+
+profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
