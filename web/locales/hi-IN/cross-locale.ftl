@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = योगदान दें
+contribute = योगदान करें
 get-involved-button = शामिल हों
 get-involved-title = { $lang } में योगदान दें
 get-involved-text =
