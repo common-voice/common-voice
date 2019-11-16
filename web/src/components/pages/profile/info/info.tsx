@@ -172,16 +172,21 @@ function ProfilePage({
         if (!(user.account && user.account.basket_token) && sendEmails) {
           await api.subscribeToNewsletter(user.userClients[0].email);
         }
-        saveAccount(data);
-        setIsSaving(false);
-        addNotification(getString('profile-form-submit-saved'));
+
+        const saveData = async () => {
+          await saveAccount(data);
+          await setIsSaving(false);
+          await addNotification(getString('profile-form-submit-saved'));
+        };
+
+        saveData().then(() => {
+          if (window.location.search.includes('first=1')) {
+            // Query params, including `?first=1`, will persist.
+            window.location.pathname = `/${locale}/dashboard/challenge`;
+          }
+        });
       },
     ]);
-    // TODO(riley): Rebuild this, if that's where the problem is.
-    // if (window.location.search.includes('first=1')) {
-    //   // Query params, including `?first=1`, will persist.
-    //   window.location.pathname = `/${locale}/dashboard/challenge`;
-    // }
   }, [api, getString, locale, locales, termsStatus, user, userFields]);
 
   if (!isInitialized) {
