@@ -377,7 +377,15 @@ function ProfilePage({
                   />
 
                   <Localized id="read-terms-q">
-                    <LocaleLink to={URLS.TERMS} className="terms" blank />
+                    <LocaleLink
+                      to={
+                        account && account.enrollment
+                          ? URLS.CHALLENGE_TERMS
+                          : URLS.TERMS
+                      }
+                      className="terms"
+                      blank
+                    />
                   </Localized>
                 </>
               )}
