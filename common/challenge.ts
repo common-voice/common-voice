@@ -31,7 +31,7 @@ export interface TeamChallenge {
 }
 
 export type ChallengeToken = 'pilot';
-export type ChallengeTeamToken = 'ibm' | 'mozilla' | 'sap';
+export type ChallengeTeamToken = 'ibm' | 'lenovo' | 'mozilla' | 'sap';
 export type Enrollment = {
   challenge: ChallengeToken;
   team: ChallengeTeamToken;
@@ -81,6 +81,10 @@ export const challengeTeams: { [key in ChallengeTeamToken]: ChallengeTeam } = {
   ibm: {
     readableName: 'IBM',
     token: 'ibm',
+  },
+  lenovo: {
+    readableName: 'Lenovo',
+    token: 'lenovo',
   },
   mozilla: {
     readableName: 'Mozilla',

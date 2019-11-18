@@ -10,6 +10,11 @@ export const challengeLogos: {
   };
 } = {
   ibm: { background: '#fff', border: true, url: require('./images/ibm.svg') },
+  lenovo: {
+    background: '#fff',
+    border: true,
+    url: require('./images/lenovo.svg'),
+  },
   mozilla: {
     background: '#000',
     border: false,
