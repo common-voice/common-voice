@@ -30,6 +30,16 @@ interface Vote extends Event {
 }
 
 const API_PATH = location.origin + '/api/v1';
+
+const getChallenge = (user: User.State): string => {
+  return user &&
+    user.account &&
+    user.account.enrollment &&
+    user.account.enrollment.challenge
+    ? user.account.enrollment.challenge
+    : null;
+};
+
 export default class API {
   private readonly locale: Locale.State;
   private readonly user: User.State;
@@ -121,7 +131,7 @@ export default class API {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
         sentence_id: sentenceId,
-        challenge: this.user.account.enrollment.challenge,
+        challenge: getChallenge(this.user),
       },
       body: blob,
     });
@@ -131,7 +141,7 @@ export default class API {
       method: 'POST',
       body: {
         isValid,
-        challenge: this.user.account.enrollment.challenge,
+        challenge: getChallenge(this.user),
       },
     });
   }
@@ -337,7 +347,7 @@ export default class API {
     user: number;
     team: number;
   }> {
-    if (this.user && this.user.account && this.user.account.enrollment) {
+    if (getChallenge(this.user)) {
       return this.fetch(
         `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/points`
       );
@@ -346,7 +356,7 @@ export default class API {
   }
 
   fetchWeeklyProgress(): Promise<WeeklyChallenge> {
-    if (this.user && this.user.account && this.user.account.enrollment) {
+    if (getChallenge(this.user)) {
       return this.fetch(
         `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/progress`
       );
@@ -358,7 +368,7 @@ export default class API {
     locale?: string,
     cursor?: [number, number]
   ): Promise<TeamChallenge[]> {
-    if (this.user && this.user.account && this.user.account.enrollment) {
+    if (getChallenge(this.user)) {
       return this.fetch(
         `${API_PATH}/challenge/${
           this.user.account.enrollment.challenge
@@ -373,7 +383,7 @@ export default class API {
     type?: 'vote' | 'clip',
     cursor?: [number, number]
   ): Promise<Challenge[]> {
-    if (this.user && this.user.account && this.user.account.enrollment) {
+    if (getChallenge(this.user)) {
       return this.fetch(
         `${API_PATH}/challenge/${
           this.user.account.enrollment.challenge
@@ -390,7 +400,7 @@ export default class API {
     type?: 'vote' | 'clip',
     cursor?: [number, number]
   ): Promise<Challenge[]> {
-    if (this.user && this.user.account && this.user.account.enrollment) {
+    if (getChallenge(this.user)) {
       return this.fetch(
         `${API_PATH}/challenge/${
           this.user.account.enrollment.challenge
@@ -403,7 +413,7 @@ export default class API {
   }
   // check whether or not is the first invite
   fetchInviteStatus(): Promise<{ firstInvite: boolean; hasAchieved: boolean }> {
-    if (this.user && this.user.account && this.user.account.enrollment) {
+    if (getChallenge(this.user)) {
       return this.fetch(
         `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/invite`
       );
@@ -414,7 +424,7 @@ export default class API {
   // Tell back-end user get unexpected achievement: invite + contribute in the same session
   // Each user can only get once.
   setInviteContributeAchievement(): Promise<void> {
-    if (this.user && this.user.account && this.user.account.enrollment) {
+    if (getChallenge(this.user)) {
       return this.fetch(
         `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/session`,
         {
