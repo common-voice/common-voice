@@ -743,6 +743,7 @@ want-to-continue = ¿Quies siguir?
 finish-editing = ¿Nun acabes primero d'editar?
 lose-changes-warning = El colar agora va facer que pierdas los cambeos
 build-custom-goal = Creación d'una meta personalizada
+help-reach-hours = Ayuda a algamar { NUMBER($hours) } hores en { $language } con una meta personal
 help-reach-hours-general = Ayuda con una meta personal a que Common Voice algame { NUMBER($hours) } hores nuna llingua
 set-a-goal = Afitar una meta
 cant-decide = ¿Nun te decides?
