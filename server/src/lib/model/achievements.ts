@@ -118,7 +118,7 @@ export const hasEarnedBonus = async (
   type: AchievementType,
   client_id: string,
   challenge: ChallengeToken
-) => {
+): Promise<boolean> => {
   const earned = await db.query(
     `
       SELECT earn.client_id IS NOT NULL AS earned
@@ -132,7 +132,5 @@ export const hasEarnedBonus = async (
     [type, client_id, challenge]
   );
 
-  return (
-    (earned && earned[0] && earned[0][0] && earned[0][0]['earned']) || false
-  );
+  return !!(earned && earned[0] && earned[0][0] && earned[0][0].earned);
 };
