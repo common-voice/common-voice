@@ -27,7 +27,7 @@ ta = தமிழ்
 ## Layout
 
 speak = பேசுக
-speak-now = இப்போது பேசுங்க
+speak-now = இப்போது பேசுக
 datasets = தரவுத்தொகுப்புகள்
 languages = மொழிகள்
 about = பொதுக்குரலைப் பற்றி
