@@ -20,6 +20,7 @@ ar = Arabi
 as = Assamés
 ast = Asturian
 az = Azèri
+be = Bielorús
 bg = Bulgar
 bn = Bengali
 br = Breton
@@ -39,12 +40,17 @@ es = Castelhan
 et = Estonian
 eu = Basc
 fa = Pèrse
+ff = Fulah
 fi = Finés
 fo = Faroés
 fr = Francés
 fy-NL = Frison
 ga-IE = Irlandés
+gl = Galician
+ha = Haussà
 he = Ebrieu
+hi-IN = Indi
+hr = Croat
 hsb = Sèrbe naut
 hu = Ongrés
 ia = Interlingua
@@ -57,7 +63,10 @@ kab = Cabil
 kk = Cazac
 ko = Corean
 kw = Cornic
+lv = Leton
+mg = Malgach
 mk = Macedonian
+ml = Malayalam
 mn = Mongòl
 ne-NP = Nepali
 nl = Neerlandés
@@ -65,7 +74,6 @@ nn-NO = Norvegian Nynorsk
 oc = Occitan
 or = Odia
 pl = Polonés
-pt-BR = Portugués (Brasil)
 ro = Romanés
 ru = Rus
 sk = Eslovac
@@ -73,6 +81,7 @@ sl = Eslovèn
 sq = Albanés
 sr = Sèrbe
 sv-SE = Suedés
+sw = Swahili
 ta = Tamil
 te = Telugu
 th = Tai
@@ -95,6 +104,7 @@ speak = Parlar
 speak-now = Parlatz ara
 datasets = Jòc de donadas
 languages = Lengas
+about = A prepaus
 profile = Perfil
 help = Ajuda
 contact = Contacte
@@ -182,8 +192,6 @@ english = Anglés
 
 profile-form-username =
     .label = Nom d’utilizaire
-profile-form-language =
-    .label = Lenga
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -211,7 +219,9 @@ profile-close = Tampar
 edit = Modificar
 download-profile = Telecargar mas donadas
 contribution-experience = Experiéncia de contribucion
-add-avatar-title = Ajustar un avatar al perfil
+retry-voice-wave-recording = TORNAR FAR
+delete-voice = SUPRIMIR
+ready-to-upload = ENVIAR
 browse-file-title = Enviar un imatge
 connect-gravatar = Connectatz-vos amb Gravatar
 gravatar_not_found = Cap de gravatar pas trobat per vòstra adreça electronica
@@ -221,6 +231,9 @@ email-already-used = Aquesta adreça electronica es ja utilizada per un autre co
 add-language = Ajustar una lenga
 
 ## FAQ
+
+
+## ABOUT US
 
 
 ## Glossary
@@ -245,8 +258,21 @@ terms-disagree = Accepti pas
 review-submit-title = Repassar e enviar
 review-recording = Verificacion
 
+## Datasets Page
+
+cv-license = Licéncia
+audio-format = Format àudio
+number-of-voices = Nombre de voses
+download-language = Telecargar { $language }
+validated-hours = Oras validadas
+recorded-hours = Oras enregistradas
+subscribe = S’abonar
+go-discourse = Anar al Discourse
+dataset-version = Version
+
 ## Download Modal
 
+download-title = Lo telecargament a començat
 
 ## Contact Modal
 
@@ -262,15 +288,18 @@ contact-required = *requesit
 request-language-title = Demanda de lenga
 request-language-form-language =
     .label = Lenga
+select-language = Seleccionatz una lenga...
+other-language = Autra lenga
 
 ## Languages Overview
 
+language-section-in-progress = En cors
 languages-show-more = Ne veire mai
 languages-show-less = Ne veire mens
 language-search-input =
     .placeholder = Recercar
 
-## New Contribution
+## Contribution
 
 contribute = Contribuir
 listen = Escotar
@@ -279,6 +308,9 @@ shortcuts = Acorchis
 record-no-mic-found = Cap de microfòn pas trobat.
 record-button-label = Enregistrar vòstra votz
 share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
+
+## Reporting
+
 
 ## Goals
 
@@ -301,8 +333,14 @@ validations =
 ## Dashboard
 
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = Gardar
 remove = Levar
 profile-form-delete = Suprimir lo perfil
+
+## Landing
+

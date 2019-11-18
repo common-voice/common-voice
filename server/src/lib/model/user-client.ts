@@ -162,8 +162,7 @@ const UserClient = {
 
   async saveAccount(
     email: string,
-    { client_id, locales, ...data }: UserClient,
-    referer?: string
+    { client_id, locales, ...data }: UserClient
   ): Promise<UserClient> {
     let [accountClientId, [clients]] = await Promise.all([
       UserClient.findClientId(email),
@@ -215,7 +214,7 @@ const UserClient = {
         data.enrollment.challenge,
         data.enrollment.team,
         data.enrollment.invite,
-        referer
+        data.enrollment.referer
       ))
     ) {
       await earnBonus('sign_up_first_three_days', [

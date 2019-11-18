@@ -173,14 +173,18 @@ function ProfilePage({
           await api.subscribeToNewsletter(user.userClients[0].email);
         }
 
-        saveAccount(data);
-        setIsSaving(false);
-        addNotification(getString('profile-form-submit-saved'));
+        const saveData = async () => {
+          await saveAccount(data);
+          await setIsSaving(false);
+          await addNotification(getString('profile-form-submit-saved'));
+        };
 
-        if (window.location.search.includes('first=1')) {
-          // Query params, including `?first=1`, will persist.
-          window.location.pathname = `/${locale}/dashboard/challenge`;
-        }
+        saveData().then(() => {
+          if (window.location.search.includes('first=1')) {
+            // Query params, including `?first=1`, will persist.
+            window.location.pathname = `/${locale}/dashboard/challenge`;
+          }
+        });
       },
     ]);
   }, [api, getString, locale, locales, termsStatus, user, userFields]);
