@@ -84,9 +84,9 @@ export default class Challenge {
       week: progress.week,
       user: {
         speak: progress.clip_count,
-        speak_total: progress.week === 1 ? 100 : 200,
+        speak_total: progress.week === 1 ? 50 : 100,
         listen: progress.vote_count,
-        listen_total: progress.week === 1 ? 50 : 100,
+        listen_total: progress.week === 1 ? 100 : 200,
       },
       team: { invite: progress.teammate_count, invite_total: 50 },
     };
