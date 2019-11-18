@@ -35,7 +35,8 @@ export type ChallengeTeamToken = 'ibm' | 'mozilla' | 'sap';
 export type Enrollment = {
   challenge: ChallengeToken;
   team: ChallengeTeamToken;
-  invite: string;
+  invite?: string; // Friend's code on initial sign-up, otherwise the user's personal code.
+  referer?: string; // Only exists on initial sign-up.
 };
 
 export type ChallengeDuration = {

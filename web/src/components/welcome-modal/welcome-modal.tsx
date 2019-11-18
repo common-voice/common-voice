@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
-import { ArrowLeft } from '../ui/icons';
 import { Button, Checkbox } from '../ui/ui';
 import { trackChallenge } from '../../services/tracker';
 import {
@@ -61,7 +60,14 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
         rounded
         disabled={!hasAgreed}
         onClick={() => {
-          window.location.pathname = `/login`;
+          const enrollmentDetails = window.location.search;
+          // `enrollmentDetails` should always exist here, but in case it
+          // doesn't we abort the login flow.
+          if (enrollmentDetails) {
+            window.location.href = `/login${enrollmentDetails}&referer=${document.referrer}`;
+          } else {
+            window.location.reload();
+          }
         }}>
         Join the {readableTeamName} team
       </Button>

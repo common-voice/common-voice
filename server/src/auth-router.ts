@@ -126,7 +126,7 @@ router.get(
           enrollment.challenge,
           enrollment.team,
           enrollment.invite,
-          request.header('Referer')
+          enrollment.referer
         ))
       ) {
         // if the user is unregistered, pass enrollment to frontend
@@ -180,6 +180,7 @@ router.get('/login', (request: Request, response: Response) => {
           challenge: query.challenge || null,
           team: query.team || null,
           invite: query.invite || null,
+          referer: query.referer || null,
         },
       }),
       SECRET
