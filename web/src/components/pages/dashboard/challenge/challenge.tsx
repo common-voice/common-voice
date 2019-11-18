@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
-import { Redirect } from 'react-router';
+import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { challengeTeams } from 'common/challenge';
 import WeeklyChallenge from './weekly-challenge';
 import LeaderBoardCard from './leaderboard-card';
@@ -16,6 +16,7 @@ import { Notifications } from '../../../../stores/notifications';
 import { trackChallenge } from '../../../../services/tracker';
 import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
 import { isChallengeLive, pilotDates } from './constants';
+import Props from '../props';
 import './challenge.css';
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
@@ -88,13 +89,13 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
   );
 };
 
-export default function ChallengePage() {
+function ChallengePage(props: Props & RouteComponentProps<any>) {
   const [showOverlay, setShowOverlay] = useState(false);
   // [TODO]: Hook this up to the DB so we only see it once.
   const [isNarrow, setIsNarrow] = useState(false);
   const addAchievement = useAction(Notifications.actions.addAchievement);
   const [showOnboardingModal, setShowOnboardingModal] = useState(
-    window.location.search.includes('first=1')
+    props.location.state && props.location.state.showOnboardingModal
   );
   const [weekly, setWeekly] = useState(null);
   const account = useAccount();
@@ -127,7 +128,7 @@ export default function ChallengePage() {
         <OnboardingModal
           onRequestClose={() => {
             setShowOnboardingModal(false);
-            if (window.location.search.includes('achievement=1')) {
+            if (props.location.state && props.location.state.earlyEnroll) {
               addAchievement(
                 50,
                 'Bonus! You signed up in time for some extra points.'
@@ -171,3 +172,5 @@ export default function ChallengePage() {
     <ChallengeOffline duration={pilotDates} />
   );
 }
+
+export default withRouter(ChallengePage);
