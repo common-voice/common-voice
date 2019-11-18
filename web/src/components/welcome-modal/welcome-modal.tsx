@@ -64,7 +64,10 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
           // `enrollmentDetails` should always exist here, but in case it
           // doesn't we abort the login flow.
           if (enrollmentDetails) {
-            window.location.href = `/login${enrollmentDetails}&referer=${document.referrer}`;
+            const { referrer } = document;
+            window.location.href = `/login${enrollmentDetails}${
+              referrer ? `&referer=${referrer}` : ''
+            }`;
           } else {
             window.location.reload();
           }
