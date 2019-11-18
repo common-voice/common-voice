@@ -299,6 +299,7 @@ const UserClient = {
         LEFT JOIN enroll ON user_clients.client_id = enroll.client_id
         LEFT JOIN challenges ON enroll.challenge_id = challenges.id AND challenges.url_token = ?
         WHERE user_clients.email = ?
+        AND user_clients.has_login
         `,
         [challenge, email]
       );
