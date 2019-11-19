@@ -95,6 +95,8 @@ function ProfilePage({
   const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(
     null
   );
+  const isEnrolledInChallenge =
+    user.userClients[0].enrollment || isEnrolled(account);
 
   useEffect(() => {
     if (user.isFetchingAccount || isInitialized) {
@@ -185,7 +187,7 @@ function ProfilePage({
     return null;
   }
 
-  if (!isSaving && isSubmitted && isEnrolled(user.account)) {
+  if (!isSaving && isSubmitted && isEnrolledInChallenge) {
     return (
       <Redirect
         to={{
@@ -249,7 +251,7 @@ function ProfilePage({
             <Localized id="visible">
               <option value={1} />
             </Localized>
-            {account && account.enrollment && (
+            {isEnrolledInChallenge && (
               <option value={2}>Visible within challenge team</option>
             )}
           </LabeledSelect>
@@ -385,7 +387,7 @@ function ProfilePage({
                   <Localized id="read-terms-q">
                     <LocaleLink
                       to={
-                        account && account.enrollment
+                        isEnrolledInChallenge
                           ? URLS.CHALLENGE_TERMS
                           : URLS.TERMS
                       }
