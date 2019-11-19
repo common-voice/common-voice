@@ -3,13 +3,8 @@ import WeeklyChallengeBoard from './weekly-challenge-board';
 import { WeeklyChallenge } from 'common/challenge';
 import { useAccount, useNotifications } from '../../../../hooks/store-hooks';
 import NotificationPill from '../../../notification-pill/notification-pill';
+import { weeklyChallengeCopy } from './constants';
 import './weekly-challenge.css';
-
-const WEEKS: Array<string> = [
-  'Sign up and Contribute',
-  "Let's get social",
-  'Be the team with the highest sign up rate',
-];
 
 export default function WeeklyChallenge({
   isNarrow,
@@ -41,7 +36,7 @@ export default function WeeklyChallenge({
         <h2>Weekly Challenge</h2>
         <div className="weeks">
           <span className="week">Week</span>
-          {WEEKS.map((title, index) => (
+          {weeklyChallengeCopy.map((_, index) => (
             <span
               key={index}
               className={`week-number ${
@@ -71,7 +66,6 @@ export default function WeeklyChallenge({
           <p className="weekly-title">Current challenge</p>
           {weekly && (
             <WeeklyChallengeBoard
-              title={WEEKS[currentWeek]}
               week={currentWeek}
               individualAvatarUrl={account.avatar_url}
               teamToken={account.enrollment.team}
@@ -79,13 +73,12 @@ export default function WeeklyChallenge({
             />
           )}
         </div>
-        {pastWeek.length !== WEEKS.length - 1 && (
+        {pastWeek.length !== weeklyChallengeCopy.length - 1 && (
           <div>
             <p className="weekly-title">Next challenge</p>
             {weekly && (
               <WeeklyChallengeBoard
                 isDisabled
-                title={WEEKS[currentWeek + 1]}
                 week={currentWeek + 1}
                 individualAvatarUrl={account.avatar_url}
                 teamToken={account.enrollment.team}
@@ -100,7 +93,6 @@ export default function WeeklyChallenge({
             ? weekly && (
                 <WeeklyChallengeBoard
                   isDisabled
-                  title={WEEKS[currentWeek + 2]}
                   week={currentWeek + 2}
                   individualAvatarUrl={account.avatar_url}
                   teamToken={account.enrollment.team}
@@ -112,7 +104,6 @@ export default function WeeklyChallenge({
                   weekly && (
                     <WeeklyChallengeBoard
                       isDisabled
-                      title={WEEKS[value]}
                       week={value}
                       key={index}
                       individualAvatarUrl={account.avatar_url}

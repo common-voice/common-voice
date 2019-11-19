@@ -5,18 +5,17 @@ import { WeeklyChallenge, ChallengeTeamToken } from 'common/challenge';
 import { Avatar } from '../../../ui/ui';
 import URLS from '../../../../urls';
 import TeamAvatar from './team-avatar';
+import { weeklyChallengeCopy } from './constants';
 import './weekly-challenge-board.css';
 
 export default function WeeklyChallengeBoard({
   isDisabled,
-  title,
   week,
   individualAvatarUrl,
   teamToken,
   weekly,
 }: {
   isDisabled?: boolean;
-  title: string;
   week: number;
   individualAvatarUrl: string;
   teamToken: ChallengeTeamToken;
@@ -36,8 +35,8 @@ export default function WeeklyChallengeBoard({
           alt=""
           role="presentation"
         />
-        <p className="title">{title}</p>
-        <div className="week-container">week {++week}</div>
+        <p className="title">{weeklyChallengeCopy[week].title}</p>
+        <div className="week-container">Week {week + 1}</div>
       </div>
       {!isDisabled && (
         <div className="challenge-board-content">
@@ -93,13 +92,13 @@ export default function WeeklyChallengeBoard({
             </div>
             <div className="column challenge-stats team-stats">
               <div className="container team">
+                {/* TODO: Change .team-text and .team-invite classNames. */}
                 <p className="team-text">
-                  Win a prize by being the team with the highest sign up rate
+                  {weeklyChallengeCopy[week].subtitle}
                 </p>
                 <div className="v-divider" />
                 <p className="team-invite">
-                  The is the percentage of team invites that have been accepted
-                  out of the current total sent.
+                  {weeklyChallengeCopy[week].explanation}
                 </p>
               </div>
               <div className="container invite">
