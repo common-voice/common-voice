@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useEffect } from 'react';
+import { RouteComponentProps, withRouter } from 'react-router';
 import { LocaleLink } from '../../../locale-helpers';
 import { ChallengeDuration } from 'common/challenge';
 import { isBeforeChallenge } from './constants';
@@ -9,16 +10,15 @@ import { Notifications } from '../../../../stores/notifications';
 import { useAction } from '../../../../hooks/store-hooks';
 import './challenge-offline.css';
 
-export default function ChallengeOffline({
+function ChallengeOffline({
   duration,
-}: {
-  duration: ChallengeDuration;
-}) {
+  location,
+}: { duration: ChallengeDuration } & RouteComponentProps<any>) {
   const addAchievement = useAction(Notifications.actions.addAchievement);
   const dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
 
   useEffect(() => {
-    if (isBeforeChallenge && location.search.includes('achievement=1')) {
+    if (isBeforeChallenge && location.state && location.state.earlyEnroll) {
       addAchievement(
         50,
         'Bonus! You signed up in time for some extra points.',
@@ -62,3 +62,5 @@ export default function ChallengeOffline({
     </div>
   );
 }
+
+export default withRouter(ChallengeOffline);
