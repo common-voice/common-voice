@@ -174,6 +174,7 @@ function ProfilePage({
         if (!(user.account && user.account.basket_token) && sendEmails) {
           await api.subscribeToNewsletter(user.userClients[0].email);
         }
+
         addNotification(getString('profile-form-submit-saved'));
         setIsSaving(false);
       },

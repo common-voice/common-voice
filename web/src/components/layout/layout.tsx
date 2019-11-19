@@ -16,7 +16,7 @@ import {
   isStaging,
   replacePathLocale,
 } from '../../utility';
-import { LocaleLink, LocaleNavLink, useLocale } from '../locale-helpers';
+import { LocaleLink, LocaleNavLink } from '../locale-helpers';
 import {
   CogIcon,
   DashboardIcon,
