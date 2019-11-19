@@ -198,10 +198,10 @@ function DashboardContent({
   dashboardLocale,
 }: {
   Page:
+    | typeof ChallengePage
     | typeof StatsPage
     | typeof GoalsPage
-    | typeof AwardsPage
-    | typeof ChallengePage;
+    | typeof AwardsPage;
   dashboardLocale: string;
 }) {
   const api = useAPI();
@@ -264,6 +264,7 @@ export default function Dashboard() {
   ];
   let defaultPage = URLS.STATS;
   if (isChallengeEnrolled) {
+    // @ts-ignore
     pages.unshift({ subPath: URLS.CHALLENGE, Page: ChallengePage });
     defaultPage = URLS.CHALLENGE;
   }

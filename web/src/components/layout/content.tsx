@@ -76,7 +76,7 @@ export default function Content() {
             path={toLocaleRoute(URLS.DASHBOARD)}
             component={DashboardPage}
           />
-          {[URLS.STATS, URLS.GOALS, URLS.AWARDS, URLS.CHALLENGE].map(path => (
+          {[URLS.CHALLENGE, URLS.STATS, URLS.GOALS, URLS.AWARDS].map(path => (
             <Route
               key={path}
               exact

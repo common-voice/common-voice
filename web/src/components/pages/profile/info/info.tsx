@@ -5,7 +5,7 @@ import {
 } from 'fluent-react/compat';
 import * as React from 'react';
 import { useCallback, useEffect, useState } from 'react';
-import { RouteComponentProps, withRouter } from 'react-router';
+import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
@@ -25,6 +25,7 @@ import {
   LabeledInput,
   LabeledSelect,
 } from '../../../ui/ui';
+import { isEnrolled } from '../../dashboard/challenge/constants';
 
 import './info.css';
 
@@ -55,7 +56,7 @@ function ProfilePage({
   history,
 }: LocalizationProps & RouteComponentProps<any>) {
   const api = useAPI();
-  const [locale] = useLocale();
+  const [locale, toLocaleRoute] = useLocale();
   const user = useTypedSelector(({ user }) => user);
   const { account, userClients } = user;
 
@@ -172,25 +173,29 @@ function ProfilePage({
         if (!(user.account && user.account.basket_token) && sendEmails) {
           await api.subscribeToNewsletter(user.userClients[0].email);
         }
-
-        const saveData = async () => {
-          await saveAccount(data);
-          await setIsSaving(false);
-          await addNotification(getString('profile-form-submit-saved'));
-        };
-
-        saveData().then(() => {
-          if (window.location.search.includes('first=1')) {
-            // Query params, including `?first=1`, will persist.
-            window.location.pathname = `/${locale}/dashboard/challenge`;
-          }
-        });
+        await saveAccount(data);
+        addNotification(getString('profile-form-submit-saved'));
+        setIsSaving(false);
       },
     ]);
   }, [api, getString, locale, locales, termsStatus, user, userFields]);
 
   if (!isInitialized) {
     return null;
+  }
+
+  if (!isSaving && isSubmitted && isEnrolled(user.account)) {
+    return (
+      <Redirect
+        to={{
+          pathname: toLocaleRoute(URLS.DASHBOARD + URLS.CHALLENGE),
+          state: {
+            showOnboardingModal: true,
+            earlyEnroll: window.location.search.includes('achievement=1'),
+          },
+        }}
+      />
+    );
   }
 
   return (
