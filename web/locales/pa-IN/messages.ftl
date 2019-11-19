@@ -104,6 +104,8 @@ english = ਅੰਗਰੇਜ਼ੀ
 
 profile-form-username =
     .label = ਯੂਜ਼ਰ ਨਾਂ
+profile-form-age =
+    .label = ਉਮਰ
 on = ਚਾਲੂ
 
 ## FAQ
@@ -120,6 +122,7 @@ on = ਚਾਲੂ
 
 ## Data
 
+data-download-deny = ਨਹੀਂ
 license-mixed = ਮਿਸ਼ਰਤ
 
 ## Datasets Page
@@ -157,9 +160,13 @@ sentences = ਵਾਕ
 
 ## Custom Goals
 
+easy-difficulty = ਆਸਾਨ
+average-difficulty = ਔਸਤ
 
 ## Profile Delete
 
+keep = ਬਣਾਈ ਰੱਖੋ
+remove = ਹਟਾਓ
 
 ## Landing
 
