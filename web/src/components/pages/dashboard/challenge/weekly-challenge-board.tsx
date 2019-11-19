@@ -43,7 +43,7 @@ export default function WeeklyChallengeBoard({
           <div className="content-row">
             <div className="column avatar-container">
               <Avatar url={individualAvatarUrl ? individualAvatarUrl : ''} />
-              <p>individual</p>
+              <p>Individual</p>
             </div>
             <div className="column challenge-stats">
               <div className="container">
