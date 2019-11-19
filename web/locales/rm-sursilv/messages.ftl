@@ -95,7 +95,6 @@ nn-NO = nynorsk norveges
 oc = occitan
 or = odia
 pl = polac
-pt-BR = portughes (brasilian)
 rm-sursilv = romontsch sursilvan
 rm-vallader = romontsch vallader
 ro = rumen
@@ -198,7 +197,6 @@ x-years-short =
        *[other] { $count } onns
     }
 help-make-dataset = Gida nus a crear in'unitad da datas aviarta, publica e d'aulta qualitad
-profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, igl ei denton d'avantatg. Daco vesas ti sutvart.
 sign-up-account = Seregistrar per in conto
 email-subscription-title = Abonnar novitads per e-mail
 email-subscription-title-new = Seregistrar per las newsletters da Common Voice, regurdientschas da las finamiras ed actualisaziuns dil progress.
@@ -317,14 +315,10 @@ skip-submission-description = Duront contribuir vegn il resun sursiglius cura ch
 skip-submission-note = Remarca: ti stos eleger Discuorer ni Tedlar per midar il tip da contribuziun.
 off = deactivau
 on = activau
-add-avatar-title = Aschuntar in avatar a tiu profil
-add-avatar-clip = Aschunta ina registraziun d'avatar a tiu profil.
-create-voice-wave = crear voicewave
 recording-voice-wave = registrar
 ready-to-upload = cargar si
 recreate-voice = recrear voicewave
 cancel-avatar-clip-recording = interrumper
-about-avatar-clip = Ti sas crear ina registraziun persunalisada per sepresentar. Auters utilisaders san ir suravi culla miur e tedlar tiu clip.
 browse-file-title = Carga si ina datoteca cun in maletg
 browse-file = drag and drop ni <browseWrap>encurir en</browseWrap>
 connect-gravatar = colligiar cun Gravatar
@@ -576,7 +570,7 @@ other-language = Auter lungatg
 ## Languages Overview
 
 language-section-in-progress = en elavuraziun
-language-section-in-progress-new-description = Quels lungatgs vegnan actualmein sviluppai dalla communitad. Las travs da progress indicheschan per mintga lungatg con lunsch che la<localizationGlossaryLink>translaziun dalla pagina-web</localizationGlossaryLink> e la <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> ei vegnida realisada.
+language-section-in-progress-new-description = Quels lungatgs vegnan actualmein sviluppai dalla communitad. Las travs da progress indicheschan per mintga lungatg con lunsch che la <localizationGlossaryLink>translaziun dalla pagina-web</localizationGlossaryLink> e la <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> ei vegnida realisada.
 language-section-launched = lantschau
 language-section-launched-description =
     Per ils suandonts lungatgs activs ei la pagina-web vegnida
@@ -584,7 +578,6 @@ language-section-launched-description =
     <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> ch'ei gronda avunda per cuntinuar cun <speakLink>discuorer</speakLink> e <listenLink>tedlar</listenLink> contribuziuns.
 languages-show-more = mussar dapli
 languages-show-less = mussar pli pauc
-language-speakers = Plidader/plidadra
 language-meter-in-progress = Progress
 language-total-progress = Total
 language-search-input =
@@ -710,7 +703,6 @@ show-ranking = mussar mia rangaziun
 ## Custom Goals
 
 get-started-goals = entscheiver cun las finamiras
-toward-next-goal = Enviers la proxima finamira
 create-custom-goal = crear ina finamira persunalisada
 both-speak-and-listen = omisdus
 both-speak-and-listen-long = omisdus (discuorer e tedlar)
