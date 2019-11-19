@@ -363,9 +363,25 @@ faq-why-mission-q = ¿Achike ruma k'o pa taqel rutaqanem Mozilla ri Common Voice
 faq-do-want-native-q = Man walaxib'en ta pe ruch'ab'exik chuqa' yich'o rik'in k'oxomal, ¿la niwajo' chuqa' ri nuch'ab'äl?
 faq-why-10k-hours-a = Ja b'a' ramaj ri' najowäx richin nib'an jun ruq'inoj rutz'ukik-ch'ab'äl pa tz'ib'anïk.
 faq-where-src-from-2-q = ¿Akuchi' k'amon pe ri ruxe'el tz'ib'anem?
+faq-where-src-from-2-a =
+    Ri taq qatz'ib'anem epetenäq chi kij qitzij taq q'aptzij, ri esipan kuma ri qato'onela' chuqa' tzijonem pa taq silowäch tz'etel kuma ri winaqi' achi'el <italic>Jeb'ël ri K'aslemal</italic>.
+    
+    Yatikïr nanik'oj ri kixe'el taq qaq'aptzij pa re <githubLink>GitHub yakwuj </githubLink>.
+faq-what-is-cv = ¿Achike ri Common Voice?
+faq-description = Ri Common Voice nimasamaj jun rusamaj Mozilla richin nito'on yerutijoj ri taq ch'ich'b'äl pa rub'anikil yech'o ri winaqi'.
 
 ## ABOUT US
 
+about-title = ¿Achike ruma nokisäx Common Voice?
+how-does-it-work-title = ¿Achike rub'eyal nisamäj?
+about-speak = Ch'owen
+about-listen = Tak'axäx
+about-partners = Achib'ilal
+about-become-a-partner = Yatok jun achib'ilal
+about-get-involved = Kato'on
+about-nav-why-common-voice = ¿Aruma ?
+about-nav-partners = Achib'ilal
+about-nav-get-involved = Kato'on
 
 ## Glossary
 
@@ -412,17 +428,21 @@ language = Ch'ab'äl
 # File size in gigabytes
 size = Nimilem
 cv-license = Ya'oj q'ij
+number-of-voices = Kajilab'al Ch'ab'äl
 size-gigabyte = GB
 size-megabyte = MB
 subscribe = Tz'ib'anïk b'i'aj
+other-datasets = Juley chik Ruyakb'al Kitzij Ch'ab'äl
 data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
 data-other-ted-name = TED-LIUM Korpus
 data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
 data-other-voxforge-description = VoxForge xb'an richin yerumöl ri taq pajtzij etz'ib'an richin yekokisaj ri taq Kik'wab'al Etamanel Ch'ab'äl richin Jaqäl B'itz'ib'.
 data-other-tatoeba-description = Tatoeba jun nïm kicholxe'el taq b'ab', taq tzalq'omanem chuqa' taq k'oxom richin ye'okisäx pa kitijoxik ri taq ch'ich'b'äl. Re qasanem re' ruk'wan ronojel ri q'anchi' yakon ruma ri rutinamit.
+go-languages-page = Tib'e pa Ruxaq Ch'ab'äl
 more = Ch'aqa' chik
 close = Titz'apïx
 download = Tiqasäx
+dataset-version = Ruwäch
 
 ## Download Modal
 
@@ -450,6 +470,8 @@ request-language-form-language =
     .label = Ch'ab'äl
 request-language-success-title = Ütz xtaq ri ruk'utuxik ch'ab'äl, niqak'awomaj chawe.
 request-language-success-content = Xtiqatzijoj chawe ch'aqa' chik etamab'äl pa ruwi' rub'eyal natz'aqatisaj ri ach'ab'äl pa Common Voice.
+select-language = Ticha' jun Ch'ab'äl...
+other-language = Ch'aqa' chik Ch'ab'äl
 
 ## Languages Overview
 
@@ -517,6 +539,11 @@ share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
 
 ## Reporting
 
+report = Tiya' rutzijol
+report-other-comment =
+    .placeholder = Tzijoxïk
+success = Xojtikïr
+continue = Titikïr chik el
 
 ## Goals
 
