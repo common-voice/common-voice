@@ -66,7 +66,7 @@ const TopBar = ({
   useEffect(() => {
     const checkSize = () => {
       const { innerWidth } = window;
-      setIsAboveMdWidth(innerWidth > 992);
+      setIsAboveMdWidth(innerWidth >= 768);
     };
     checkSize();
     window.addEventListener('resize', checkSize);
@@ -232,9 +232,7 @@ const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
         <div className="points">
           <img src={require('./awards/star.svg')} alt="score" />
           <span className="score">{points.user}</span>
-          <span className="label label-my">
-            {isNarrow ? 'Me' : 'My points'}
-          </span>
+          <span className="label label-my">My points</span>
         </div>
       )}
 

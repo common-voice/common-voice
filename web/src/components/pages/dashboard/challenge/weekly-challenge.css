@@ -26,7 +26,7 @@
     line-height: 1.71;
     display: inline-block;
     margin-top: 20px;
-    border-bottom: 1px solid var(--light-grey);
+    border-bottom: 1px solid var(--grey);
 }
 .week {
     display: inline-block;

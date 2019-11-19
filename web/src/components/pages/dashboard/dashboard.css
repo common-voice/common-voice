@@ -42,6 +42,9 @@
     @media (--sm-down) {
         margin-right: 20px;
         margin-left: 20px;
+        &.with-challenge {
+            margin: 0;
+        }
     }
 
     @media (--md-up) {
@@ -85,6 +88,9 @@
             display: flex;
             flex-direction: row;
             align-items: center;
+            @media (--xs-down) {
+                font-size: 20px;
+            }
         }
 
         .badge {
@@ -269,6 +275,10 @@
         }
     }
 }
+.top-bar.with-challenge nav a.active {
+    color: var(--blue);
+    border-bottom-color: var(--blue);
+}
 
 @media (--lg-down) {
     .top-bar.with-challenge {
@@ -276,27 +286,19 @@
         .points-text {
             display: none;
         }
-
-        .challenge-online & {
-            .invite-btn {
-                width: 38px;
-                height: 38px;
-                border-radius: 50%;
-                padding: 0;
-
-                .content {
-                    display: none;
-                }
-
-                .plus-icon {
-                    margin: 0;
-                }
-            }
+    }
+}
+@media (--sm-down) {
+    .top-bar.with-challenge {
+        .challenge-bar {
+            position: absolute;
+            width: auto;
+            right: 0;
         }
     }
 }
 
-@media (--sm-down) {
+@media (--xs-down) {
     .top-bar.with-challenge {
         flex-direction: column-reverse;
 
@@ -304,10 +306,21 @@
             width: 100%;
             padding: 0;
             margin: 20px 0;
+            position: unset;
         }
 
         .points {
-            margin-left: 0;
+            margin: 0;
         }
+        nav {
+            width: 100%;
+            justify-content: space-between;
+            a {
+                margin-right: 0;
+            }
+        }
+    }
+    .challenge-container {
+        padding: 20px 0;
     }
 }
