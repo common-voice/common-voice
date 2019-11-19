@@ -578,7 +578,7 @@ export default class DB {
   async createSkippedSentence(id: string, client_id: string) {
     await this.mysql.query(
       `
-        INSERT INTO skipped_sentences (sentence_id, client_id) VALUES (?, ?) 
+        INSERT INTO skipped_sentences (sentence_id, client_id) VALUES (?, ?)
       `,
       [id, client_id]
     );
@@ -664,7 +664,8 @@ export default class DB {
               LEFT JOIN enroll teammate ON teams.id = teammate.team_id
                   AND challenges.id = teammate.challenge_id
                   AND teammate.enrolled_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 1, start_date)
-                  AND teammate.invited_by IS NULL
+                  /* TODO: Uncomment this for the second week of the challenge.
+                  AND teammate.invited_by IS NOT NULL */
               WHERE user_clients.client_id = ? AND challenges.url_token = ?
               GROUP BY user_clients.client_id, start_date, end_date, week
           ) user
