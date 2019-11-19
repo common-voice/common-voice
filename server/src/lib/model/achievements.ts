@@ -1,6 +1,7 @@
 import { ChallengeToken, AchievementType } from 'common/challenge';
 import { getMySQLInstance } from './db/mysql';
 
+// SQLs here is the last guards before inserting into earn table
 const bonus_condition_sql = {
   // Arguments: [challenge, client_id]
   // No need to check if user has already won the bonus because it must happend after a successful enrollment.
@@ -11,14 +12,15 @@ const bonus_condition_sql = {
     WHERE client_id = ?
     `,
   // Arguments: [client_id, invite, invite, challenge]
-  // Make sure invitees are enrolled during the challenge, no need to do that for the invitor
+  // 1) Make sure invitees are enrolled during the challenge, no need to do that for the invitor;
+  // 2) It's OK to earn this bonus before challenge starts, NOT OK after challenge ends;
   invite_signup: `
-    SELECT (invitee.id IS NOT NULL) AS win_bonus, invitor.client_id AS bonus_winner
+    SELECT (invitee.id IS NOT NULL) AND (NOW() < TIMESTAMPADD(WEEK, 3, start_date)) AS win_bonus, invitor.client_id AS bonus_winner
     FROM challenges
     LEFT JOIN enroll invitee ON invitee.client_id = ?
         AND invitee.invited_by = ?
         AND invitee.challenge_id = challenges.id
-        AND invitee.enrolled_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+        AND invitee.enrolled_at < TIMESTAMPADD(WEEK, 3, start_date)
     LEFT JOIN enroll invitor ON invitor.url_token = ?
         AND invitor.challenge_id = challenges.id
     WHERE challenges.url_token = ?
@@ -73,25 +75,31 @@ const bonus_condition_sql = {
     GROUP BY user_clients.client_id
     `,
   // Arguments: [client_id, client_id, challenge]
-  // Check if user has already earned the bonus
+  // Earn the bonus if all the conditions below are satisfied:
+  // 1) user has NOT earned the bonus
+  // 2) the challenge is NOT finished (OK to earn it before the challenge starts)
   invite_send: `
-    SELECT earn.id IS NULL AS win_bonus, ? AS bonus_winner
+    SELECT (earn.id IS NULL) AND (NOW() < TIMESTAMPADD(WEEK, 3, start_date)) AS win_bonus, ? AS bonus_winner
     FROM challenges
     LEFT JOIN achievements ON achievements.name = 'invite_send' AND achievements.challenge_id = challenges.id
     LEFT JOIN earn ON earn.client_id = ?
         AND achievement_id = achievements.id
-        AND earn.earned_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+        AND earn.earned_at < TIMESTAMPADD(WEEK, 3, start_date)
     WHERE challenges.url_token = ?
     `,
   // Arguments: [client_id, client_id, challenge]
-  // Check if user has already won the bonus
+  // Earn the bonus if all the conditions below are satisfied:
+  // 1) user has NOT earned the bonus
+  // 2) the challenge is NOT finished (OK to earn it before the challenge starts)
+  // NOTE:
+  // After the challenge, front-end will show this toast, but backend will NOT insert such bonus.
   invite_contribute_same_session: `
-    SELECT earn.id IS NULL AS win_bonus, ? AS bonus_winner
+    SELECT (earn.id IS NULL) AND (NOW() < TIMESTAMPADD(WEEK, 3, start_date)) AS win_bonus, ? AS bonus_winner
     FROM challenges
     LEFT JOIN achievements ON achievements.name = 'invite_contribute_same_session' AND achievements.challenge_id = challenges.id
     LEFT JOIN earn ON earn.client_id = ?
         AND achievement_id = achievements.id
-        AND earn.earned_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+        AND earn.earned_at < TIMESTAMPADD(WEEK, 3, start_date)
     WHERE challenges.url_token = ?
     `,
 };
