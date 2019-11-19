@@ -465,6 +465,7 @@
         & .approved {
             padding: 0 20px;
             min-width: 45px;
+            max-width: 82px;
             height: 44px;
             display: flex;
             justify-content: space-between;
@@ -472,6 +473,7 @@
             color: var(--white);
             background: var(--blue);
             flex: 0.5;
+            margin-right: 30px;
 
             & svg {
                 flex-shrink: 0;
@@ -481,14 +483,10 @@
             & path {
                 fill: var(--white);
             }
-
-            @media (--sm-down) {
-                padding: 0 10px;
-            }
         }
 
         & .accuracy {
-            flex: 1;
+            flex: 0.5;
             padding: 0 10px;
             min-width: 65px;
             display: flex;
@@ -544,7 +542,11 @@
         }
         & .approved {
             flex: 0.5;
-            min-width: 105px;
+            max-width: 82px;
+            margin-right: 30px;
+        }
+        & .accuracy {
+            flex: 0.5;
         }
     }
 }

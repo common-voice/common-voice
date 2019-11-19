@@ -66,7 +66,7 @@ const TopBar = ({
   useEffect(() => {
     const checkSize = () => {
       const { innerWidth } = window;
-      setIsAboveMdWidth(innerWidth > 992);
+      setIsAboveMdWidth(innerWidth >= 768);
     };
     checkSize();
     window.addEventListener('resize', checkSize);
@@ -184,10 +184,7 @@ const TopBar = ({
         )}
       </div>
       {isChallengeTabSelected && (
-        <ChallengeBar
-          isNarrow={!isAboveMdWidth}
-          setShowInviteModal={setShowInviteModal}
-        />
+        <ChallengeBar setShowInviteModal={setShowInviteModal} />
       )}
     </div>
   );
@@ -215,10 +212,9 @@ function DashboardContent({
 }
 
 interface ChallengeBarProps {
-  isNarrow: boolean;
   setShowInviteModal(arg: any): void;
 }
-const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
+const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
   const api = useAPI();
   const [points, setAllPoints] = useState({ user: 0, team: 0 });
 
@@ -232,9 +228,7 @@ const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
         <div className="points">
           <img src={require('./awards/star.svg')} alt="score" />
           <span className="score">{points.user}</span>
-          <span className="label label-my">
-            {isNarrow ? 'Me' : 'My points'}
-          </span>
+          <span className="label label-my">My points</span>
         </div>
       )}
 
