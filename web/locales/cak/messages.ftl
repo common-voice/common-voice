@@ -325,7 +325,9 @@ avatar-clip-title = Tab'ana' chi nich'o ri awachib'al
 change-your-avatar-clip = ¿La nawajo' najäl ri ruyakik ach'ab'äl?
 recording-in-progress = Niyak ri ch'ab'äl
 avatar-clip-recorded = ¡Wakami pa ri awachib'al ütz niyak ruch'ab'äl!
+record-voice-wave = TIYAK CH'AB'ÄL
 retry-voice-wave-recording = TITOJTOB'ËX CHIK
+re-record = TIYAK CHIK
 delete-voice = TIYUJ
 recording-voice-wave = Niyak
 delete-voice-clip = o  Tiyuj ruyakik ch'ab'äl
@@ -356,6 +358,11 @@ faq-why-important-a =
     Ri ch'owen jun jeb'ël rub'eyal richin yojtzijon chi qawa, rik'in ri runa'ob'al ch'ab'äl man k'ayew ta nib'anatäj ri tzijonem pa taq kematz'ib' chuqa' pa taq oyonib'äl. Niqajo' yeqato' ri ajb'anonela' richin kekitz'uku' taq kichokoy retamaxik ch'ab'äl, ri yalan e jeb'ël; achi'el ri tzalq'omanïk pa ri ramaj o achto'onela' esamajin rik'in ri ch'ab'äl. Wakami ronojel ri kicholxe'el rutzij ch'ab'äl ye'ajowäx richin yeb'an re taq chokoy re' yalan e paqäl chuqa' e'ichinan. Niqoyob'ej chi ri taq rucholxe'el rutzij Common Voice tuya' chi kiwäch ri ajb'anonela' ri nik'atzin chi ke richin nikutzilaj chuqa' yekitz'ük taq runa'ob'al retamaxik ch'ab'äl pa taq kich'ab'äl.
     
     Richin chi ri retamaxik ch'ab'äl qichin qonojel, tajin yeqamöl retal ch'ab'äl pa k'ïy taq ch'ab'äl, achi'el ri k'ïy kiwinaq' chuqa' ri loman kuchuq'a', ri man k'ïy taq kejqalem niya' pa ruwi' ri retamaxik ch'ab'äl. Ri rutaluxik jun nïm rucholxe'el rutzij ch'ab'äl xkeruto' ri ajb'anonela', samajela' chuqa' ri na'ob'äl ch'ab'äl molaj nikiya' retal ri rukojol.
+faq-how-get-q = ¿Achike rub'anikil nink'ül ri taq rutzij Common Voice?
+faq-why-mission-q = ¿Achike ruma k'o pa taqel rutaqanem Mozilla ri Common Voice?
+faq-do-want-native-q = Man walaxib'en ta pe ruch'ab'exik chuqa' yich'o rik'in k'oxomal, ¿la niwajo' chuqa' ri nuch'ab'äl?
+faq-why-10k-hours-a = Ja b'a' ramaj ri' najowäx richin nib'an jun ruq'inoj rutz'ukik-ch'ab'äl pa tz'ib'anïk.
+faq-where-src-from-2-q = ¿Akuchi' k'amon pe ri ruxe'el tz'ib'anem?
 
 ## ABOUT US
 
