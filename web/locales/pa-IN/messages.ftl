@@ -4,6 +4,7 @@ email-input =
     .label = ਈ-ਮੇਲ
 submit-form-action = ਦਾਖਲ ਕਰੋ
 loading = ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -97,9 +98,12 @@ shortcut-record-toggle = r
 
 ## ProjectStatus
 
+english = ਅੰਗਰੇਜ਼ੀ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ਯੂਜ਼ਰ ਨਾਂ
 on = ਚਾਲੂ
 
 ## FAQ
@@ -116,9 +120,12 @@ on = ਚਾਲੂ
 
 ## Data
 
+license-mixed = ਮਿਸ਼ਰਤ
 
 ## Datasets Page
 
+# File size in gigabytes
+size = ਆਕਾਰ
 
 ## Download Modal
 
@@ -131,6 +138,10 @@ on = ਚਾਲੂ
 
 ## Languages Overview
 
+languages-show-more = ਹੋਰ ਵੇਖੋ
+languages-show-less = ਘੱਟ ਵੇਖੋ
+language-total-progress = ਕੁੱਲ
+sentences = ਵਾਕ
 
 ## Contribution
 
