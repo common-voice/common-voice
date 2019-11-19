@@ -108,7 +108,7 @@ function ProfilePage({
 
     setUserFields({
       ...userFields,
-      sendEmails: account ? account && Boolean(account.basket_token) : false,
+      sendEmails: !!(account && account.basket_token),
       visible: 0,
       ...pick(user, 'age', 'username', 'gender'),
       ...(account
@@ -170,10 +170,10 @@ function ProfilePage({
 
     addUploads([
       async () => {
+        await saveAccount(data);
         if (!(user.account && user.account.basket_token) && sendEmails) {
           await api.subscribeToNewsletter(user.userClients[0].email);
         }
-        await saveAccount(data);
         addNotification(getString('profile-form-submit-saved'));
         setIsSaving(false);
       },
