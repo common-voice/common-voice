@@ -221,18 +221,4 @@ export default class Model {
     (locale?: string) => this.db.getContributionStats(locale),
     20 * MINUTE
   );
-
-  getPoints = lazyCache(
-    'points-challenge',
-    (client_id: string, challenge: string) =>
-      this.db.getPoints(client_id, challenge),
-    20 * MINUTE
-  );
-
-  getWeeklyProgress = lazyCache(
-    'progress-challenge',
-    (client_id: string, challenge: string) =>
-      this.db.getWeeklyProgress(client_id, challenge),
-    20 * MINUTE
-  );
 }

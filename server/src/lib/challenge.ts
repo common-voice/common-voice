@@ -71,7 +71,7 @@ export default class Challenge {
     { client_id, params: { challenge } }: ChallengeRequestArgument & Request,
     response: Response
   ) => {
-    response.json(await this.model.getPoints(client_id, challenge));
+    response.json(await this.model.db.getPoints(client_id, challenge));
   };
 
   getWeeklyProgress = async (
@@ -79,7 +79,10 @@ export default class Challenge {
     response: Response
   ) => {
     // week starts from zero
-    const progress = await this.model.getWeeklyProgress(client_id, challenge);
+    const progress = await this.model.db.getWeeklyProgress(
+      client_id,
+      challenge
+    );
     const weeklyProgress = {
       week: progress.week,
       user: {
