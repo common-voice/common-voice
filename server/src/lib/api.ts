@@ -204,7 +204,7 @@ export default class API {
   };
 
   subscribeToNewsletter = async (request: Request, response: Response) => {
-    const { BASKET_API_KEY, PROD } = getConfig();
+    const { BASKET_API_KEY } = getConfig();
     if (!BASKET_API_KEY) {
       response.json({});
       return;
