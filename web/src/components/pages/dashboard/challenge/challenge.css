@@ -483,10 +483,6 @@
             & path {
                 fill: var(--white);
             }
-
-            /* @media (--sm-down) {
-                padding: 0 10px;
-            } */
         }
 
         & .accuracy {

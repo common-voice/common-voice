@@ -184,10 +184,7 @@ const TopBar = ({
         )}
       </div>
       {isChallengeTabSelected && (
-        <ChallengeBar
-          isNarrow={!isAboveMdWidth}
-          setShowInviteModal={setShowInviteModal}
-        />
+        <ChallengeBar setShowInviteModal={setShowInviteModal} />
       )}
     </div>
   );
@@ -215,10 +212,9 @@ function DashboardContent({
 }
 
 interface ChallengeBarProps {
-  isNarrow: boolean;
   setShowInviteModal(arg: any): void;
 }
-const ChallengeBar = ({ isNarrow, setShowInviteModal }: ChallengeBarProps) => {
+const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
   const api = useAPI();
   const [points, setAllPoints] = useState({ user: 0, team: 0 });
 
