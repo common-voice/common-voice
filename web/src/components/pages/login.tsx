@@ -39,7 +39,7 @@ export const LoginSuccess = withRouter(
         redirectURL ||
           toLocaleRoute(
             account
-              ? URLS.ROOT + location.search
+              ? URLS.DASHBOARD + location.search
               : URLS.PROFILE_INFO + location.search
           )
       );
