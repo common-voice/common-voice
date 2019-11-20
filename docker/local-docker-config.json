@@ -6,5 +6,6 @@
     "accessKeyId": "local-identity",
     "secretAccessKey": "local-credential",
     "s3ForcePathStyle": true
-  }
+  },
+  "IMPORT_SENTENCES": false
 }
