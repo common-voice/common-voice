@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kuendelea kupokea taarifa kuhusu Mradi wa Common Voice.
+return-to-cv = Rudi kwa Common Voice
 email-input =
     .label = Barua pepe
 submit-form-action = wasilisha
@@ -8,6 +9,7 @@ loading = Kupakia…
 email-opt-in-info =
     Ningependa kupokea barua pepe kama ukumbusho wa lengo, sasisho zangu za maendeleo na 
     majarida kuhusu huduma za Common Voice.
+email-opt-in-info-title = Jiunge na orodha ya barua pepe ya Common Voice
 not-available-abbreviation = haihitajiki
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
