@@ -344,6 +344,19 @@ img.icon {
 
     .progress-mobile {
         display: flex;
+        line-height: 40px;
+        .numerator {
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            line-height: 40px;
+        }
+        .denominator {
+            font-size: var(--font-size);
+        }
+    }
+
+    .team-bar .denominator {
+        line-height: 2;
     }
 
     .challenge-board-content {
@@ -351,6 +364,7 @@ img.icon {
         .listen-btn {
             float: right;
             display: flex;
+            height: 40px;
         }
     }
     .divider {
