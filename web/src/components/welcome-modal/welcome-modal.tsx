@@ -31,15 +31,13 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
   useEffect(() => trackChallenge('modal-welcome'), []);
 
   const parseEnrollment = (queryString: string): Enrollment => {
-    if (queryString[0] === '?') queryString = queryString.substring(1);
-    const queries = queryString.split('&').reduce(
-      (acc, curr) => {
-        const keyVal = curr.split('=');
-        if (keyVal.length > 0) acc[keyVal[0]] = keyVal[1];
-        return acc;
-      },
-      {} as { [key: string]: string }
-    );
+    const regex = new RegExp(/([a-z]+)=([a-z]+)/, 'gm');
+    const queries = {} as { [key: string]: string };
+    let pair: Array<string> = [];
+
+    while ((pair = regex.exec(queryString)) !== null) {
+      queries[pair[1]] = pair[2];
+    }
 
     return {
       challenge: queries.challenge,
