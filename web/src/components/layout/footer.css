@@ -43,7 +43,6 @@ footer {
     }
 
     & .divider {
-        display: none;
         border-right: 2px solid darkgrey;
         height: 2.5rem;
 
