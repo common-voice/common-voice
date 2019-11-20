@@ -27,6 +27,11 @@ de = Kijerumani
 en = Kiingereza
 es = Kihispania
 fr = Kifaransa
+hi-IN = Kihindi
+id = Kiindonesia
+it = Kiitaliano
+ko = Kikorea
+ne-NP = Kinepali
 nl = Kiholanzi
 pt = Kireno
 ro = Kiromania
@@ -56,6 +61,7 @@ content-license-text = Yaliyomo yapo chini ya leseni ya <licenseLink> Creative C
 
 ## Home Page
 
+home-title = Common Voice ni hatua ya Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza.
 
 ## Account Benefits
 
