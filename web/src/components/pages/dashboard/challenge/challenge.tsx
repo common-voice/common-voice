@@ -92,7 +92,6 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
 function ChallengePage(props: Props & RouteComponentProps<any>) {
   const [showOverlay, setShowOverlay] = useState(false);
   // [TODO]: Hook this up to the DB so we only see it once.
-  const [isNarrow, setIsNarrow] = useState(false);
   const addAchievement = useAction(Notifications.actions.addAchievement);
   const [showOnboardingModal, setShowOnboardingModal] = useState(
     props.location.state && props.location.state.showOnboardingModal
@@ -101,16 +100,7 @@ function ChallengePage(props: Props & RouteComponentProps<any>) {
   const account = useAccount();
   const api = useAPI();
   useEffect(() => {
-    const checkSize = () => {
-      const { innerWidth } = window;
-      setIsNarrow(innerWidth <= 768);
-    };
-    window.addEventListener('resize', checkSize);
-    checkSize();
     api.fetchWeeklyProgress().then(value => value && setWeekly(value));
-    return () => {
-      window.removeEventListener('resize', checkSize);
-    };
   }, []);
   useEffect(() => trackChallenge('dashboard-view'), []);
 
@@ -137,7 +127,7 @@ function ChallengePage(props: Props & RouteComponentProps<any>) {
           }}
         />
       )}
-      {weekly && <WeeklyChallenge isNarrow={isNarrow} weekly={weekly} />}
+      {weekly && <WeeklyChallenge weekly={weekly} />}
       {account && account.enrollment && (
         <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
           {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}

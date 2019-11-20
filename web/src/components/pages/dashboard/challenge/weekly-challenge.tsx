@@ -4,13 +4,12 @@ import { WeeklyChallenge } from 'common/challenge';
 import { useAccount, useNotifications } from '../../../../hooks/store-hooks';
 import NotificationPill from '../../../notification-pill/notification-pill';
 import { weeklyChallengeCopy } from './constants';
+import { ChevronDown } from '../../../ui/icons';
 import './weekly-challenge.css';
 
 export default function WeeklyChallenge({
-  isNarrow,
   weekly,
 }: {
-  isNarrow?: boolean;
   weekly?: WeeklyChallenge;
 }) {
   let currentWeek = weekly.week;
@@ -72,6 +71,9 @@ export default function WeeklyChallenge({
               weekly={weekly}
             />
           )}
+          <p className="challenge-dropdown">
+            Show All Challenges <ChevronDown />
+          </p>
         </div>
         {pastWeek.length !== weeklyChallengeCopy.length - 1 && (
           <div>

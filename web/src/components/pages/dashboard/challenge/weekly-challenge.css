@@ -59,6 +59,9 @@
     right: 0;
     z-index: var(--middle-z-index);
 }
+.challenge-dropdown {
+    display: none;
+}
 @media (--sm-down) {
     .weekly-container {
         min-width: 100% !important;
@@ -74,5 +77,22 @@
 
     .stats-card .filters {
         flex-direction: row;
+    }
+
+    .challenge-dropdown {
+        display: block;
+        font-weight: 600;
+        text-align: right;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        color: var(--blue);
+        cursor: pointer;
+        svg {
+            margin-left: 10px;
+            transform: rotateX(180deg);
+        }
+        polygon {
+            fill: var(--blue);
+        }
     }
 }

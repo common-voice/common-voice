@@ -267,7 +267,6 @@ img.icon {
 
             .progress-mobile {
                 border-right: 1px solid var(--light-grey);
-                line-height: 48px;
                 padding-right: 2rem;
                 margin-right: 1rem;
             }
@@ -351,7 +350,7 @@ img.icon {
         .speak-btn,
         .listen-btn {
             float: right;
-            display: inline-block;
+            display: flex;
         }
     }
     .divider {
