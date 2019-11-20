@@ -88,9 +88,9 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 
 1. Create an [Auth0](https://auth0.com/) account.
 2. Click "Applications" from the dashboard. Create a new one, or use the default application.
-3. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
-4. If you add any social integrations, make sure they request the user's email.
-5. Copy the following keys from the Auth0 application into `config.json` or `local-docker-config.json`:
+3. Go to "Applications" and click on the Settings icon next to your application.
+4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
+5. Copy the following keys from the Auth0 application into `config.json` or `local-docker-config.json`. These are found in the same Settings tab as the "Allowed Callback URLs".
 
 ```
 "AUTH0": {
@@ -99,6 +99,10 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
  "CLIENT_SECRET": "<client_secret_here>"
 }
 ```
+
+6. You can add more login options to your app from the "Connections" tab
+7. Restart your local Common Voice instance
+8. You will now be able to create a new user by clicking on "Log in" on your Common Voice instance and then switching over to the "Sign Up" tab on the login dialog.
 
 #### Setting up Amazon S3 for development
 
