@@ -134,19 +134,18 @@ class ListenPage extends React.Component<Props, State> {
     trackListening('listen', this.props.locale);
   };
 
-  private vote = (isValid: boolean) => {
-    const { clips } = this.state;
+  private showAchievementToast = async () => {
+    if (!(this && this.props)) {
+      return;
+    }
     const {
-      firstContribute,
-      hasAchieved,
       addAchievement,
       api,
+      firstContribute,
       firstStreak,
+      hasAchieved,
     } = this.props;
-    const clipIndex = this.getClipIndex();
 
-    this.stop();
-    this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
     sessionStorage.setItem('hasContributed', 'true');
     if (firstContribute) {
       addAchievement(
@@ -173,6 +172,16 @@ class ListenPage extends React.Component<Props, State> {
       // Each user can only get once.
       api.setInviteContributeAchievement();
     }
+  };
+
+  private vote = (isValid: boolean) => {
+    const { clips } = this.state;
+    const clipIndex = this.getClipIndex();
+
+    this.stop();
+    Promise.all([
+      this.props.vote(isValid, this.state.clips[this.getClipIndex()].id),
+    ]).then(this.showAchievementToast);
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
