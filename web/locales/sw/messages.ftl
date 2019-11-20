@@ -48,6 +48,11 @@ speak = Ongea
 speak-now = Ongea sasa
 languages = Lugha
 about = Kuhusu
+help = Usaidizi
+contact = Wasiliana
+terms = Masharti
+faq = Maswali Yanayoulizwa Sana
+content-license-text = Yaliyomo yapo chini ya leseni ya <licenseLink> Creative Commons </licenseLink>
 
 ## Home Page
 
