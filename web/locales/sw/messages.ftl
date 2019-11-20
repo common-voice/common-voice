@@ -29,12 +29,25 @@ es = Kihispania
 fr = Kifaransa
 nl = Kiholanzi
 pt = Kireno
+ro = Kiromania
+ru = Kirusi
+rw = Kinyarwanda
+sv-SE = Kiswidi
+sw = Kiswahili
+tr = Kituruki
+zh-CN = Kichina (Uchina)
+zh-HK = Kichina (Hong Kong)
+zh-TW = Kichina (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Ongea
+speak-now = Ongea sasa
+languages = Lugha
+about = Kuhusu
 
 ## Home Page
 
