@@ -267,7 +267,6 @@ img.icon {
 
             .progress-mobile {
                 border-right: 1px solid var(--light-grey);
-                line-height: 48px;
                 padding-right: 2rem;
                 margin-right: 1rem;
             }
@@ -345,13 +344,27 @@ img.icon {
 
     .progress-mobile {
         display: flex;
+        line-height: 40px;
+        .numerator {
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            line-height: 40px;
+        }
+        .denominator {
+            font-size: var(--font-size);
+        }
+    }
+
+    .team-bar .denominator {
+        line-height: 2;
     }
 
     .challenge-board-content {
         .speak-btn,
         .listen-btn {
             float: right;
-            display: inline-block;
+            display: flex;
+            height: 40px;
         }
     }
     .divider {
