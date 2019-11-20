@@ -18,6 +18,7 @@ not-available-abbreviation = haihitajiki
 
 ## Languages
 
+af = Kiafrikana
 ar = Kiarabu
 ast = Kiasturia
 br = Kibretoni
@@ -26,6 +27,8 @@ de = Kijerumani
 en = Kiingereza
 es = Kihispania
 fr = Kifaransa
+nl = Kiholanzi
+pt = Kireno
 
 # [/]
 
