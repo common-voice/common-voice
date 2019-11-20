@@ -1,5 +1,6 @@
 node_modules
 config.json
+newrelic_agent.log
 web/dist/
 web/index.html
 server/js/
