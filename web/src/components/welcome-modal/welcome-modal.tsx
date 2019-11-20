@@ -5,6 +5,9 @@ import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
 import { Button, Checkbox } from '../ui/ui';
 import { trackChallenge } from '../../services/tracker';
+import { useAccount, useAction } from '../../hooks/store-hooks';
+import { User } from '../../stores/user';
+import { Enrollment } from '../../../../common/challenge';
 import {
   ChallengeTeamToken,
   challengeTeams,
@@ -22,7 +25,29 @@ export interface WelcomeModalProps extends ModalProps {
 export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
   const readableTeamName = challengeTeams[teamToken].readableName;
   const [hasAgreed, setHasAgreed] = useState<boolean>(false);
+  const account = useAccount();
+  const saveAccount = useAction(User.actions.saveAccount);
+
   useEffect(() => trackChallenge('modal-welcome'), []);
+
+  const parseEnrollment = (queryString: string): Enrollment => {
+    if (queryString[0] === '?') queryString = queryString.substring(1);
+    const queries = queryString.split('&').reduce(
+      (acc, curr) => {
+        const keyVal = curr.split('=');
+        if (keyVal.length > 0) acc[keyVal[0]] = keyVal[1];
+        return acc;
+      },
+      {} as { [key: string]: string }
+    );
+
+    return {
+      challenge: queries.challenge,
+      team: queries.team,
+      referer: queries.referer,
+      invite: queries.invite,
+    } as Enrollment;
+  };
 
   return (
     <Modal {...props} innerClassName="welcome-modal">
@@ -63,11 +88,19 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
           const enrollmentDetails = window.location.search;
           // `enrollmentDetails` should always exist here, but in case it
           // doesn't we abort the login flow.
+
           if (enrollmentDetails) {
-            const { referrer } = document;
-            window.location.href = `/login${enrollmentDetails}${
-              referrer ? `&referer=${referrer}` : ''
-            }`;
+            if (account) {
+              const enrollObject = parseEnrollment(enrollmentDetails);
+              saveAccount({ enrollment: enrollObject }).then(() => {
+                window.location.href = `/dashboard/challenge?challenge=${enrollObject.challenge}&achievement=1`;
+              });
+            } else {
+              const { referrer } = document;
+              window.location.href = `/login${enrollmentDetails}${
+                referrer ? `&referer=${referrer}` : ''
+              }`;
+            }
           } else {
             window.location.reload();
           }
