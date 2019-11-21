@@ -378,22 +378,38 @@ faq-why-different-speakers-q = ¿Achike ruma toq yek'atzin k'ïy jalajöj ch'ab'
 faq-why-my-lang-q = ¿Aruma toq k'a man tz'aqatisan ta ri nuch'ab'äl?
 faq-why-my-lang-new-a = Mozilla man nucha' ta chuqa' man nuya' ta rejqalem jun ch'ab'äl. Ri Common voice jun samaj nisamajïx ruma ri tinamital, xa xe chi <multilangLink>k'ïy ramaj nrajo' richin nitz'aqatisäx jun k'ak'a' ch'ab'äl</multilangLink> chuqa' nitikirisäx rumolik sipan taq ch'ab'äl. Nab'ey k'o chi nitz'alq'omïx ri ajk'amaya'l ruxaq Common Voice richin chi ri aj tinamït yetikïr ye'ok pa ri ruto'ik ruch'ab'äl. Nik'atzin chi qe jun nïm moloj q'aptzij akuchi' majun ruch'ojin b'anel, ri tikirel nisik'ïx köw. Toq ye'ojqäx ri', “nitikirisäx” jun k'ak'a' ch'ab'äl pa Common Voice richin nichap kiyakik chuqa' kijikib'axik ri taq kisipanik ch'aqa' chik. We nawajo' yato'on richin nelesäx jun k'ak'a' ch'ab'äl, katok pa <sentenceCollectorLink>rusamajib'al kimolik q'aptzij</sentenceCollectorLink> richin nitikirisäx.
 faq-what-quality-q = ¿Achike rub'anikil k'oxom najowäch richin chi ri ruperaj ch'ab'äl nokisäx pa ri rucholxe'el tzij?
+faq-what-quality-a = Niqajo' chi ri rucholxe'el tzij Common Voice nuk'üt ri ütz chi k'oxom, ri kan xtrak'axaj jun ruk'wab'al ch'ab'äl pa tz'ib'anïk. Achi'el jun aj tinamït chi jalajöj taq ch'ab'anela' chuqa' najowäx jun cholxe'el tzij rik'in jalajöj ruwäch chi k'oxom richin nuk'üt rub'eyal nub'än ri k'wab'äl chuwäch ri nik'ulwachitäj pa ruwach'ulew, achi'el nich'o pa ruka'nch'ach'el k'ojlib'äl, achi'el toq k'oy kich'ab'äl ch'ich'. We na'owinäq ri peraj ch'ab'äl, k'o ta chi okel chi re ri rucholxe'el tzij.
 faq-why-10k-hours-q = ¿Aruma toq 10,000 ramaj jikïl pa ri ch'ab'äl richin yek'ol taq k'oxom?
 faq-why-10k-hours-a = Ja b'a' ramaj ri' najowäx richin nib'an jun ruq'inoj rutz'ukik-ch'ab'äl pa tz'ib'anïk.
+faq-how-calc-hours-q = ¿Achike rub'eyal yeretaj ri taq ramaj ri Common Voice?
+faq-how-calc-hours-a = Yeqetaj ri taq ramaj rik'in ri runik'ajal ruyakoj, k'a ri' niqatïk ri ajilab'äl ri' rik'in ri chijun rajilab'al yakoj pa ronojel ri ch'ab'äl.
 faq-where-src-from-2-q = ¿Akuchi' k'amon pe ri ruxe'el tz'ib'anem?
 faq-where-src-from-2-a =
     Ri taq qatz'ib'anem epetenäq chi kij qitzij taq q'aptzij, ri esipan kuma ri qato'onela' chuqa' tzijonem pa taq silowäch tz'etel kuma ri winaqi' achi'el <italic>Jeb'ël ri K'aslemal</italic>.
     
     Yatikïr nanik'oj ri kixe'el taq qaq'aptzij pa re <githubLink>GitHub yakwuj </githubLink>.
+faq-why-not-ask-read-q = ¿Aruma man nak'utäj ta chi ke ri winaqi' chi kekisik'ij taq wuj o ch'utaq na'oj pa Wikipedia pa jalajöj ch'ab'äl?
+faq-why-account-q = ¿Aruma k'o chi nintz'ib'aj nub'i' richin jun rub'i' nutaqoya'l?
+faq-is-account-public-q = ¿La konojel yetz'eto' ri retamab'al rub'i' nutaqoya'l?
+faq-how-privacy-q = ¿Achike rub'eyal najikib'a' ri me'etaman kiwa chuqa' ri kichinanem winaqi' nikisipaj kich'ab'äl?
+faq-how-privacy-a = Ronojel ri peraj taq ch'ab'äl richin ri rucholxe'el tzij yechayüx chuqa' niyuj ri ketamab'al winaqi'. Toq jun to'onel nuya' winaqil taq tzij pa ri ruwäch rub'i', ri etamab'äl ri' man netamäx ta pa ri peraj taq ruch'ab'äl chuwäch nipis chuqa' nitzij richin niqasäx pa ri rucholxe'el tzij chuqa' majub'ey konojel xketz'eto pa ri ruxaq ruwäch rub'i'.
+faq-what-determine-identity-q = ¿Achike nuq'ajuj chi man yitikïr ta “ninya' retal kib'anikil” ri ch'ab'anela' pa ri rucholxe'el tzij ri Common Voice?
 faq-what-is-cv = ¿Achike ri Common Voice?
+faq-using-cv = Rokisaxik Common Voice
 faq-description = Ri Common Voice nimasamaj jun rusamaj Mozilla richin nito'on yerutijoj ri taq ch'ich'b'äl pa rub'anikil yech'o ri winaqi'.
+faq-search-for-answers =
+    .label = Tikanöx tzolin taq tzij
 
 ## ABOUT US
 
 about-title = ¿Achike ruma nokisäx Common Voice?
 how-does-it-work-title = ¿Achike rub'eyal nisamäj?
 about-speak = Ch'owen
+about-speak-text = Ri to'onela' nikiyäk kich'ab'äl toq yekisik'ij taq q'aptzij xipan kuma ri okisanela'.
 about-listen = Tak'axäx
+about-listen-text = Ri okisanela' yekijikib'a' ri rutzil yakoj, akuchi nikitz'ët chi ri to'onel ütz xusik'ij ri q'aptzij.
+about-is-it-valid = ¿La okel ri yakoj?
+about-is-it-valid-text = Toq jun okisanel nujikib'a' jun yakoj, xtiwachin chi "okel".
 about-partners = Achib'ilal
 about-become-a-partner = Yatok jun achib'ilal
 about-get-involved = Kato'on
