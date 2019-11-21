@@ -423,9 +423,20 @@ about-clip-graveyard-text = Ri Kimuqb'al Yakoj, ja ri kiyakoj taq ch'ab'äl man 
 about-partners = Achib'ilal
 about-become-a-partner = Yatok jun achib'ilal
 about-get-involved = Kato'on
+about-get-involved-text =
+    ¿La nawajo' yato'on richin nutziläx ri Common Voice?
+    ¡Yalan ütz! Katzijon pe qik'in pan taqoya'l o pa <discourseLink>Discourse</discourseLink>,
+    ke'ataqa' taq atzij pa <githubLink>GitHub</githubLink>,
+    o tatunu' awi' pa <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = ¿Aruma ?
+about-nav-how-it-works = ¿Achi'el?
 about-nav-partners = Achib'ilal
 about-nav-get-involved = Kato'on
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Ch'ich'al na'ojil
+mycroft-description =
+    Mycroft jun nïm rachto'onel jaqäl b'itz'ib'.
+    Mycroft nasamajij xab'akuchi' - pa kematz'ib', pa ch'ich' o pa jun Raspberry Pi.
 
 ## Glossary
 
