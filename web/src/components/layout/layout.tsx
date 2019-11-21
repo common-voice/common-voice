@@ -217,17 +217,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {isIOS() && !isNativeIOS() && !isSafari() && (
-          <div
-            id="install-app"
-            onClick={this.openInApp}
-            ref={div => {
-              this.installApp = div as HTMLElement;
-            }}>
-            Open in App
-            <a onClick={this.closeOpenInApp}>X</a>
-          </div>
-        )}
         {showStagingBanner && (
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}
