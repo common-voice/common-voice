@@ -378,6 +378,7 @@ faq-why-different-speakers-q = ¿Achike ruma toq yek'atzin k'ïy jalajöj ch'ab'
 faq-why-my-lang-q = ¿Aruma toq k'a man tz'aqatisan ta ri nuch'ab'äl?
 faq-why-my-lang-new-a = Mozilla man nucha' ta chuqa' man nuya' ta rejqalem jun ch'ab'äl. Ri Common voice jun samaj nisamajïx ruma ri tinamital, xa xe chi <multilangLink>k'ïy ramaj nrajo' richin nitz'aqatisäx jun k'ak'a' ch'ab'äl</multilangLink> chuqa' nitikirisäx rumolik sipan taq ch'ab'äl. Nab'ey k'o chi nitz'alq'omïx ri ajk'amaya'l ruxaq Common Voice richin chi ri aj tinamït yetikïr ye'ok pa ri ruto'ik ruch'ab'äl. Nik'atzin chi qe jun nïm moloj q'aptzij akuchi' majun ruch'ojin b'anel, ri tikirel nisik'ïx köw. Toq ye'ojqäx ri', “nitikirisäx” jun k'ak'a' ch'ab'äl pa Common Voice richin nichap kiyakik chuqa' kijikib'axik ri taq kisipanik ch'aqa' chik. We nawajo' yato'on richin nelesäx jun k'ak'a' ch'ab'äl, katok pa <sentenceCollectorLink>rusamajib'al kimolik q'aptzij</sentenceCollectorLink> richin nitikirisäx.
 faq-what-quality-q = ¿Achike rub'anikil k'oxom najowäch richin chi ri ruperaj ch'ab'äl nokisäx pa ri rucholxe'el tzij?
+faq-why-10k-hours-q = ¿Aruma toq 10,000 ramaj jikïl pa ri ch'ab'äl richin yek'ol taq k'oxom?
 faq-why-10k-hours-a = Ja b'a' ramaj ri' najowäx richin nib'an jun ruq'inoj rutz'ukik-ch'ab'äl pa tz'ib'anïk.
 faq-where-src-from-2-q = ¿Akuchi' k'amon pe ri ruxe'el tz'ib'anem?
 faq-where-src-from-2-a =
