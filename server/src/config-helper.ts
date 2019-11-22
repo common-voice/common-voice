@@ -47,18 +47,7 @@ const DEFAULTS: CommonVoiceConfig = {
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
   SECRET: 'TODO: Set a secure SECRET in config.json',
-  ADMIN_EMAILS: JSON.stringify([
-    'adelbarrio@mozilla.com',
-    'aklepel@mozilla.com',
-    'gozer@mozilla.com',
-    'jennyzhang@mozilla.com',
-    'lsaunders@mozilla.com',
-    'martin@mozilla.com',
-    'mbranson@mozilla.com',
-    'rleitan@mozilla.com',
-    'rshaw@mozilla.com',
-    'vioia@mozilla.com',
-  ]),
+  ADMIN_EMAILS: null,
   S3_CONFIG: {
     signatureVersion: 'v4',
     useDualstack: true,
@@ -71,12 +60,7 @@ const DEFAULTS: CommonVoiceConfig = {
   IMPORT_SENTENCES: true,
   REDIS_URL: null,
   KIBANA_URL: null,
-  KIBANA_ADMINS: JSON.stringify([
-    'henrik.mitsch@gmx.at',
-    'steveparmar6nov2011@gmail.com',
-    'manel.rhaiem92@gmail.com',
-    'shambhavimishra26@gmail.com',
-  ]),
+  KIBANA_ADMINS: null,
 };
 
 let injectedConfig: CommonVoiceConfig;
