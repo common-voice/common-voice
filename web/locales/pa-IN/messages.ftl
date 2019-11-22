@@ -353,22 +353,48 @@ record-three-more-instruction = ਤਿੰਨ ‘ਤੇ ਸ਼ੁਰੂ ਕਰੋ!
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = ਟਿੱਪਣੀ
+success = ਕਾਮਯਾਬ
+continue = ਜਾਰੀ ਰੱਖੋ
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ਦਿਨ
+       *[other] ਦਿਨ
+    }
+recordings =
+    { $count ->
+        [one] ਰਿਕਾਰਡਿੰਗ
+       *[other] ਰਿਕਾਰਡਿੰਗਾਂ
+    }
 
 ## Dashboard
 
+your-languages = ਤੁਹਾਡੀ ਭਾਸ਼ਾ
+stats = ਅੰਕੜੇ
+awards = ਇਨਾਮ
+you = ਤੁਸੀਂ
+everyone = ਹਰੇਕ
 
 ## Custom Goals
 
-easy-difficulty = ਆਸਾਨ
-average-difficulty = ਔਸਤ
+easy-difficulty = ਸੌਖਾ
+average-difficulty = ਠੀਕ-ਠਾਕ
+difficult-difficulty = ਔਖਾ
+want-to-continue = ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+n-clips = { NUMBER($count) } ਕਲਿੱਪ
+share-goal-type-speak = ਬੋਲਣਾ
+share-goal-type-listen = ਸੁਣਨਾ
+share-goal-type-both = ਬੋਲਣਾ ਅਤੇ ਸੁਣਨਾ
 
 ## Profile Delete
 
-keep = ਬਣਾਈ ਰੱਖੋ
+keep = ਰੱਖੋ
 remove = ਹਟਾਓ
+profile-form-delete = ਪਰੋਫਾਈਲ ਹਟਾਓ
 
 ## Landing
 
