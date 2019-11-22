@@ -7,7 +7,6 @@ import { Button, Checkbox } from '../ui/ui';
 import { trackChallenge } from '../../services/tracker';
 import { useAccount, useAction } from '../../hooks/store-hooks';
 import { User } from '../../stores/user';
-import { useLocale } from '../locale-helpers';
 import { Enrollment } from '../../../../common/challenge';
 import {
   ChallengeTeamToken,
