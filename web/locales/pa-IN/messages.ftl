@@ -90,14 +90,44 @@ vote-yes = ਹਾਂ
 vote-no = ਨਹੀਂ
 speak-subtitle = ਆਪਣੀ ਆਵਾਜ਼ ਪ੍ਰਦਾਨ ਕਰੋ
 speak-goal-text = ਰਿਕਾਰਡ ਕੀਤੇ ਕਲਿੱਪ
-all-locales = ਸੱਭ
+listen-subtitle = ਆਵਾਜ਼ਾਂ ਪ੍ਰਮਾਣਿਤ ਕਰਨ ‘ਚ ਸਾਡੀ ਮਦਦ ਕਰੋ
+hours-recorded = ਰਿਕਾਰਡ ਕੀਤੇ ਘੰਟੇ
+hours-validated = ਪ੍ਰਮਾਣਿਤ ਕੀਤੇ ਘੰਟੇ
+voices-online = ਹੁਣ ਆਵਾਜ਼ਾਂ ਆਨਲਾਈਨ
+todays-progress = ਅੱਜ ਦੀ ਤਰੱਕੀ
+help-reach-goal = { $goal } ਤੱਕ ਪਹੁੰਚਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰੋ
+read-terms-q = ਕੀ ਤੁਸੀਂ ਸਾਡੀਆਂ ਸ਼ਰਤਾਂ ਪੜ੍ਹੀਆਂ ਹਨ?
+ready-to-record = ਆਪਣੀ ਆਵਾਜ਼ ਪ੍ਰਦਾਨ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ?
+all-locales = ਸਭ
 today = ਅੱਜ
+x-weeks-short =
+    { $count ->
+        [one] ਹਫ਼ਤਾ
+       *[other] { $count }ਹਫ਼ਤੇ
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count }ਮਹੀਨੇ
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count }ਸਾਲ
+    }
+help-make-dataset = ਸਾਨੂੰ ਉੱਚ ਕੁਆਲਟੀ, ਲੋਕਾਂ ਲਈ ਆਜ਼ਾਦ ਡਾਟਾ-ਸਮੂਹ ਬਣਾਉਣ ਲਈ ਮਦਦ ਕਰੋ
+sign-up-account = ਖਾਤੇ ਲਈ ਸਾਈਨ ਅਪ ਕਰੋ
+email-subscription-title = ਈਮੇਲ ਅਪਡੇਟਾਂ ਲਈ ਸਾਈਨ ਅਪ ਕਰੋ
+email-subscription-title-new = ਆਮ ਆਵਾਜ਼ ਖ਼ਬਰਸਾਰ, ਟੀਚਿਆਂ ਬਾਰੇ ਯਾਦ ਕਰਵਾਉਣ ਅਤੇ ਤਰੱਕੀ ਬਾਰੇ ਅੱਪਡੇਟ ਲੈਣ ਲਈ ਸਾਈਨ ਅੱਪ ਕਰੋ
 
 ## Account Benefits
 
+benefits = ਫਾਇਦੇ
+keep-track = ਆਪਣੀ ਤਰੱਕੀ ਅਤੇ ਕਈ ਭਾਸ਼ਾਵਾਂ ਲਈ ਸਾਰਣੀ ਦਾ ਰਿਕਾਰਡ ਰੱਖੋ।
+view-goals = ਨਿੱਜੀ ਅਤੇ ਪਰੋਜੈਕਟ ਟੀਚਿਆਂ ਨਾਲ ਆਪਣੀ ਤਰੱਕੀ ਵੇਖੋ।
 
 ## What's public
 
+whats-public = ਜਨਤਕ ਕੀ ਹੈ?
+email-not-public = ਅਸੀਂ ਤੁਹਾਡੀ ਈਮੇਲ ਨੂੰ ਜਨਤਕ ਨਹੀਂ ਕਰਾਂਗੇ।
 
 ## Speak & Listen Shortcuts
 
