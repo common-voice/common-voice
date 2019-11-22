@@ -488,21 +488,40 @@ review-delete-recordings = Keyuj ri taq nuyakoj
 
 ## Datasets Page
 
+datasets-headline = Niqanük' jun kicholxe' rutzij ch'ab'äl, ri jaqäl chuqa' wachel pa k'ïy ch'ab'äl, ri xab'achike nitikïr nrokisaj richin yerutijoj taq chokoy, nikokisaj ri ch'ab'äl pa ruk'amal.
 language = Ch'ab'äl
 # File size in gigabytes
 size = Nimilem
+validated-hr-total = Ronojel Ramaj Jikib'an
+overall-hr-total = Ronojel Ramaj
 cv-license = Ya'oj q'ij
+audio-format = Rub'eyal K'oxom
 number-of-voices = Kajilab'al Ch'ab'äl
+splits = Taq jachoj
+email-to-download = Tatz'ib'aj jun Taqoya'l richin Niqasäx
+why-email = <b>¿Aruma jun taqoya'l?</b> Rik'in jub'a' niqajo' yojtzijon awik'in toq k'o jaloj pa ri qacholxe' tzij, jun taqoya'l nik'atzin chi qe richin yojtzijon.
+confirm-size = Ütz chik richin naqasaj ri <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+download-language = Tiqasäx { $language }
+validated-hours = Jikib'an Ramaj
+recorded-hours = Yakon Ramaj
+whats-inside = ¿Achike k'o pa ri rucholxe' tzij Common Voice?
+want-dataset-update = ¿La nawajo' nak'ül etamab'äl chi rij ri k'ak'a' taq ruwäch chuqa' taq ruk'exoj ri rucholxe' tzij Common Voice? Tatz'ib'aj b'ai' pa ri ko'öl qawuj.
 subscribe = Tz'ib'anïk b'i'aj
+get-started-speech = Tatikirisaj qa ri Retamaxik Ch'ab'äl
 other-datasets = Juley chik Ruyakb'al Kitzij Ch'ab'äl
+feedback-q = ¿La K'o Atzijol?
 data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
 data-other-ted-name = TED-LIUM Korpus
 data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
 data-other-voxforge-description = VoxForge xb'an richin yerumöl ri taq pajtzij etz'ib'an richin yekokisaj ri taq Kik'wab'al Etamanel Ch'ab'äl richin Jaqäl B'itz'ib'.
 data-other-tatoeba-description = Tatoeba jun nïm kicholxe'el taq b'ab', taq tzalq'omanem chuqa' taq k'oxom richin ye'okisäx pa kitijoxik ri taq ch'ich'b'äl. Re qasanem re' ruk'wan ronojel ri q'anchi' yakon ruma ri rutinamit.
+your-feedback = ¿La k'o ana'oj richin nutziläx ri rucholxe' tzij Common Voice? Tatzijoj chi qe pa Discourse
+go-discourse = Jät pa Discourse
+missing-language = ¿La man k'o ta ri ach'ab'äl pa ri Rucholxe' Tzij? We nawajo' natz'aqatisaj, katok pa ri Kixaq ch'ab'äl.
 go-languages-page = Tib'e pa Ruxaq Ch'ab'äl
+ready-to-validate = ¿La yatikïr chik ye'ajikib'a' taq b'ab'?
 more = Ch'aqa' chik
 close = Titz'apïx
 download = Tiqasäx
@@ -600,10 +619,15 @@ listen-last-time-instruction = <playIcon></playIcon>¡Ri ruk'isib'äl!
 nothing-to-validate = Majun qatob'al richin niqajunamaj re ch'ab'äl re', ¡kojato'!
 record-button-label = Tayaka' ach'ab'äl
 share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
+login-to-get-started = Tatikirisaj molojriïl o tatz'ib'aj ab'i' richin natikirisaj
 
 ## Reporting
 
 report = Tiya' rutzijol
+report-title = Titaq jun rutzijol
+report-ask = ¿Achike ruk'ayewal re b'ab' re'?
+report-offensive-language = Itzel tzij
+report-offensive-language-detail = Pa ri b'ab' k'o roqin o itzel tzij.
 report-other-comment =
     .placeholder = Tzijoxïk
 success = Xojtikïr
