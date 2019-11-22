@@ -1133,7 +1133,7 @@ Questo viene diviso iniziando da 2 e a seguire con il risultato delle divisioni 
 Questi valori vengono passati al Select che verifica una condizione booleana.
 Tutto questo circuito è contenuto in un For Loop per avere un aggiornamento in tempo reale del grafico.
 Abbiamo sviluppato un progetto.
-Ci permette di conoscere attraverso un grafico la resistenza sviluppata in 100 millisecondi (ms) alla temperatura di 100°C.
+Ci permette di conoscere attraverso un grafico la resistenza sviluppata in 100 millisecondi (ms) alla temperatura di 100 gradi.
 Cambiando i valori delle frequenze modulanti.
 Invece vediamo che le linee dell'asse x si spostano verso il centro del grafico.
 Lungo l'asse principale graficato.
@@ -1536,7 +1536,7 @@ Spingeranno il petrolio verso la torre di trivellazione.
 Dal petrolio greggio si possono ottenere attraverso la distillazione cherosene, benzene, benzina, pece, asfalto e bitumi.
 Questa estrazione avviene tagliando la catena molecolare del petrolio che è molto lunga, portandolo a diverse temperature.
 Questa distillazione viene effettuata in colonne alte più di trenta metri.
-Il liquido viene scaldato ad una temperatura oltre i 340 °C in un forno.
+Il liquido viene scaldato ad una temperatura oltre i 340 gradi in un forno.
 I vapori che si formano vengono mandati verso il basso nella colonna di distillazione.
 Questi vapori si condensano a diverse altezze per via delle temperature.
 Sono stati inventati diversi metodi per poter modificare la catena molecolare dei composti estratti.
@@ -1547,7 +1547,7 @@ Questa frammentazione può avvenire attraverso catalizzatori o per via termica.
 Con reforming invece si tratta di modifiche alla catena per poter rendere i derivati antidetonanti.
 Con antidetonante si intende la capacità di resistere ad alte pressioni senza esplodere.
 Questa caratteristica è indicata dal numero di ottani.
-Questa tecnica viene attuata ad alta temperatura, 750 - 800 °C, o a bassa, 400 - 450°C.
+Questa tecnica viene attuata ad alta temperatura, 750 - 800 gradi, o a bassa, 400 - 450 gradi.
 Un esempio di benzina che ha subito il reforming è la benzina con piombo tetraetile.
 Non usata perché cancerogena.
 Per poter trasportare l'oro nero sono utilizzati dei tubi che percorrono sia il mare che la terra.
@@ -1663,7 +1663,7 @@ Provocando un abbassamento del livello del mare.
 E viceversa causando moltissimi squilibri ambientali.
 E molte migrazioni di animali.
 Il giorno 5 del mese di aprile nell'anno 2005.
-La 1°F del Liceo Scientifico Tecnologico dell'Itis di Rieti.
+La primo F del Liceo Scientifico Tecnologico dell'Itis di Rieti.
 È andata a vedere il Parco Faunistico dei piani dell'Abatino.
 Abbiamo visto molti animali presi dalla Polizia Forestale.
 Mandati da centri di ricerca di tutta Europa.
@@ -1734,7 +1734,7 @@ Hanno grandi occhi diretti in avanti circondati da dischi facciali.
 Il becco ricurvo e le unghie acute.
 L'altezza massima è 68 cm e l'apertura alare di 1,5 metri.
 I gufi reali sono capaci di catturare roditori nell'oscurità totale perché usano il loro acutissimo udito.
-Girano la testa a 180°.
+Girano la testa a 180 gradi.
 Una delle caratteristiche che li differenza dagli altri volatili è che hanno gli occhi di fronte.
 I maschi hanno un lungo strascico costituito perfino da 150 penne, sulla coda.
 Che si possono ergere formando un vistoso ventaglio.
@@ -2713,7 +2713,7 @@ Non mancavano poi numerose donne audaci e spietate come gli uomini.
 Ma non era solamente il brigantaggio che tormentava il Sud.
 In Sicilia c'era la Mafia.
 E proprio quest'ultima fu l'artefice della prima strage di Stato, a Portella della Ginestra.
-Il 1° maggio 1947.
+Il primo maggio 1947.
 Una festa a cui partecipavano migliaia di persone.
 Fu interrotta da una sparatoria che causò 11 morti e 27 feriti.
 La matrice della strage appare subito chiara.
@@ -2874,7 +2874,7 @@ E adotta i provvedimenti di destinazione dei beni confiscati per le prioritarie 
 Ha inoltre il compito di verificare che i soggetti che sono risultati assegnatari dei beni, provvedano al loro utilizzo.
 Conformemente alle finalità per le quali si è proceduto alla destinazione.
 Pena la revoca della stessa.
-Alla data del 1° aprile 2012 l'Agenzia gestisce 10.531 immobili, circa 4000 beni mobili e 1552 aziende.
+Alla data del primo aprile 2012 l'Agenzia gestisce 10.531 immobili, circa 4000 beni mobili e 1552 aziende.
 Alle sue dipendenze conta 30 unità.
 Circa il 33% degli immobili consegnati è destinato a finalità sociali.
 Purtroppo, le statistiche dicono che il 90% delle aziende confiscate alla mafia falliscono in seguito a tale provvedimento.
@@ -9616,21 +9616,21 @@ Infatti, il primo deve istruire quindi deve insegnare il saper stare in acqua, i
 Quindi avrà bisogno di un allenatore.
 Una volta che l'allievo consegue il 5 livello SNF è pronto.
 Un istruttore può essere di due tipi.
-Allievo istruttore, precedentemente Istruttore I° livello.
+Allievo istruttore, precedentemente Istruttore primo livello.
 Può istruire allievi fino al conseguimento del 2-3 livello SNF.
-Istruttore di base, precedentemente Istruttore II° livello.
+Istruttore di base, precedentemente Istruttore secondo livello.
 Può istruire allievi fino al conseguimento del 5 livello SNF.
 Questa differenza è teorica poiché l'esame è il medesimo.
 Per poter accedere alla qualifica di Istruttore di base è necessario prima avere la qualifica di Allievo istruttore.
 Averla utilizzata almeno 6 mesi.
 Un allenatore può essere di due tipi.
-Allenatore I° livello, può allenare gli agonisti fino alla categoria giovanile.
-Allenatore II° livello, può allenare, essenzialmente, qualunque categoria.
+Allenatore primo livello, può allenare gli agonisti fino alla categoria giovanile.
+Allenatore secondo livello, può allenare, essenzialmente, qualunque categoria.
 Il primo deve insegnare e migliorare la tecnica.
 Il secondo deve migliorare i tempi di esecuzione degli stili.
 Per poter divenire allenatore bisogna prima conseguire la qualifica da istruttore (allievo, poi quello base).
 Successivamente si potrà conseguire la qualifica da allenatore.
-Prima quella di I° livello, poi quella di II° livello).
+Prima quella di primo livello, poi quella di secondo livello).
 I corsi per allenatore li indice direttamente la FIN e bisogna effettuarli presso la sede centrale, a Roma.
 A differenza di quelli per istruttore che sono affidati alle singole regioni.
 Importante aspetto da tenere in considerazione.
@@ -9673,7 +9673,7 @@ Importante sottolineare che il primo dito ad entrare in acqua, nel dorso, è il 
 Trazione: è la fase in cui la mano (e il braccio) dalla posizione di presa.
 Spinge creando un appoggio.
 Arrivando fino alla posizione del petto circa.
-Il gomito si troverà in basso formando un angolo di circa 60°.
+Il gomito si troverà in basso formando un angolo di circa 60 gradi.
 Spinta: è la fase in cui il braccio effettuerà la spinta, quindi sarà la fase di maggior movimento.
 Dalla posizione in cui la fase di trazione terminava si arriva fino ad avere il braccio allineato lungo i fianchi.
 La mano in questa fase è importante che sia ben aperta, per sfruttare maggiore volume, quindi maggiore spinta.
@@ -9681,7 +9681,7 @@ Recupero: è l'unica fase in cui il braccio è fuori dall'acqua (fase aerea).
 La mano esce ed il primo dito ad uscire non sarà il mignolo come nella presa, ma il pollice.
 Quindi il braccio tornerà in fase di presa.
 Importante in questa fase è il rollio delle spalle.
-La mano a circa metà fase effettua una rotazione di 180°.
+La mano a circa metà fase effettua una rotazione di 180 gradi.
 Quindi permettendo alla mano di entrare con il mignolo piuttosto che con il pollice.
 Questa rotazione della mano è personale, ogni nuotare la ruota in un momento differente.
 La respirazione in questo stile è molto più semplice rispetto agli altri.
@@ -9709,7 +9709,7 @@ Con la testa immersa in acqua e bisogna regolare la respirazione (bocca-naso).
 Le gambe non smettono mai di muoversi, in qualunque fase.
 La bracciata si differenzia in 4 fasi.
 Nella fase di presa la mano entra leggermente ruotata.
-Circa 30° sul piano trasverso.
+Circa 30 gradi sul piano trasverso.
 Come se si stessa per afferrare qualcosa.
 Quindi la mano ruota leggermente.
 Sul piano sagittale e coronale.
@@ -10794,7 +10794,7 @@ Il brevetto è una forma di protezione per un'invenzione nata da esigenze pretta
 La registrazione di un brevetto permette all'inventore di godere dello sfruttamento della propria invenzione per vent'anni.
 Rendendo la propria invenzione pubblica e replicabile in modo che possa portare un vantaggio alla collettività.
 Così recita una nota del commissario europeo Mario Monti.
-Windows XP N è disponibile in Europa dal 1° luglio 2005.
+Windows XP N è disponibile in Europa dal primo luglio 2005.
 Momentaneamente disponibile in cinque lingue della comunità.
 Microsoft ha specificato che, per scaricare i componenti rimossi, sarà sufficiente aggiornare il sistema.
 La disciplina dei brevetti limita il campo di applicazione degli stessi e fissa le norme per la validità delle registrazioni.
@@ -11172,3 +11172,4 @@ Il formato di MS Office è un formato chiuso e proprietario di Microsoft.
 Lo evolve attraverso le varie versioni di Office in modo che supporti le nuove funzionalità offerte.
 È possibile che documenti creati con versioni precedenti a quella con la quale vengono letti presentino degli errori.
 Free non come "free beer".
+Dare il 100%.
