@@ -7,13 +7,17 @@ import { Button, Checkbox } from '../ui/ui';
 import { trackChallenge } from '../../services/tracker';
 import { useAccount, useAction } from '../../hooks/store-hooks';
 import { User } from '../../stores/user';
+import { useLocale } from '../locale-helpers';
 import { Enrollment } from '../../../../common/challenge';
 import {
   ChallengeTeamToken,
   challengeTeams,
   ChallengeToken,
+  challengeTokens,
+  challengeTeamTokens,
 } from 'common/challenge';
 import URLS from '../../urls';
+const pick = require('lodash.pick');
 
 import './welcome-modal.css';
 
@@ -30,8 +34,11 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
 
   useEffect(() => trackChallenge('modal-welcome'), []);
 
-  const parseEnrollment = (queryString: string): Enrollment => {
-    const regex = new RegExp(/([a-z]+)=([a-z]+)/, 'gm');
+  const parseEnrollment = (
+    queryString: string,
+    referer?: string
+  ): Enrollment => {
+    const regex = new RegExp(/([\w\-]+)=([\w\-]+)/, 'g');
     const queries = {} as { [key: string]: string };
     let pair: Array<string> = [];
 
@@ -39,12 +46,32 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
       queries[pair[1]] = pair[2];
     }
 
-    return {
-      challenge: queries.challenge,
-      team: queries.team,
-      referer: queries.referer,
-      invite: queries.invite,
-    } as Enrollment;
+    queries.referer = referer;
+
+    if (
+      challengeTokens.includes(queries.challenge as ChallengeToken) &&
+      challengeTeamTokens.includes(queries.team as ChallengeTeamToken)
+    ) {
+      return pick(queries, 'challenge', 'team', 'invite') as Enrollment;
+    } else return null;
+  };
+
+  const redirectEnrollment = (enrollmentDetails: string, referrer?: string) => {
+    const referrerString = referrer ? `&referer=${referrer}` : '';
+
+    if (enrollmentDetails) {
+      if (account) {
+        const enrollObject = parseEnrollment(enrollmentDetails, referrer);
+
+        saveAccount({ enrollment: enrollObject }).then(() => {
+          window.location.href = `/dashboard/challenge?challenge=${enrollObject.challenge}&achievement=1${referrerString}`;
+        });
+      } else {
+        window.location.href = `/login${enrollmentDetails}${referrerString}`;
+      }
+    } else {
+      window.location.reload();
+    }
   };
 
   return (
@@ -83,25 +110,8 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
         rounded
         disabled={!hasAgreed}
         onClick={() => {
-          const enrollmentDetails = window.location.search;
-          // `enrollmentDetails` should always exist here, but in case it
-          // doesn't we abort the login flow.
-
-          if (enrollmentDetails) {
-            if (account) {
-              const enrollObject = parseEnrollment(enrollmentDetails);
-              saveAccount({ enrollment: enrollObject }).then(() => {
-                window.location.href = `/dashboard/challenge?challenge=${enrollObject.challenge}&achievement=1`;
-              });
-            } else {
-              const { referrer } = document;
-              window.location.href = `/login${enrollmentDetails}${
-                referrer ? `&referer=${referrer}` : ''
-              }`;
-            }
-          } else {
-            window.location.reload();
-          }
+          const { referrer } = document;
+          return redirectEnrollment(window.location.search, referrer);
         }}>
         Join the {readableTeamName} team
       </Button>
