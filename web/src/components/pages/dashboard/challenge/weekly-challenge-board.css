@@ -367,7 +367,7 @@ img.icon {
             height: 40px;
         }
     }
-    .divider {
+    .challenge-stats .divider {
         display: none;
     }
 }
