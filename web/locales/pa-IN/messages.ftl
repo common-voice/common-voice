@@ -88,6 +88,8 @@ home-cta = ਬੋਲੋ, ਇੱਥੇ ਯੋਗਦਾਨ ਦਿਓ!
 show-wall-of-text = ਹੋਰ ਪੜ੍ਹੋ
 vote-yes = ਹਾਂ
 vote-no = ਨਹੀਂ
+speak-subtitle = ਆਪਣੀ ਆਵਾਜ਼ ਪ੍ਰਦਾਨ ਕਰੋ
+speak-goal-text = ਰਿਕਾਰਡ ਕੀਤੇ ਕਲਿੱਪ
 all-locales = ਸੱਭ
 today = ਅੱਜ
 
