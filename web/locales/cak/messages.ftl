@@ -628,13 +628,23 @@ report-title = Titaq jun rutzijol
 report-ask = ¿Achike ruk'ayewal re b'ab' re'?
 report-offensive-language = Itzel tzij
 report-offensive-language-detail = Pa ri b'ab' k'o roqin o itzel tzij.
+report-grammar-or-spelling = Itzel kemchi' / rutz'ib'axik
+report-grammar-or-spelling-detail = Pa ri b'ab' k'o sachoj richin kemchi' chuqa' pa rutz'ib'axik.
+report-different-language = Jun chik ch'ab'äl
+report-different-language-detail = Tz'ib'an pa jun chik ch'ab'äl, man ja ta ri nich'ab'ej rïn.
+report-difficult-pronounce = K'ayew richin nisik'ïx
+report-difficult-pronounce-detail = Ruk'wan taq tzij o taq b'ab' k'ayew yesik'ïx chuqa' yech'ab'ëx.
+report-offensive-speech = Niyoq'on
+report-offensive-speech-detail = Pa ri yakoj k'o roqin o itzel tzij.
 report-other-comment =
     .placeholder = Tzijoxïk
 success = Xojtikïr
 continue = Titikïr chik el
+report-success = Ütz xtaq ri rutzijol
 
 ## Goals
 
+streaks = Ketal Q'i'oj
 days =
     { $count ->
         [one] Q'ij
@@ -653,11 +663,41 @@ validations =
 
 ## Dashboard
 
+your-languages = Taq Ach'ab'äl
+toward-next-goal = Pa ri jun chik rayib'äl
+clips-you-recorded = Taq Q'aptzij E'ayakon
+clips-you-validated = Taq Q'aptzij E'ajikib'an
+stats = Taq Molob'a'
+awards = Taq Ch'akoj
 you = Rat
 everyone = Ri ch'aqa' chik
+contribution-activity = To'onel Samaj
+top-contributors = Nimaläj To'onela'
+recorded-clips = Yakon Q'aptzij
+validated-clips = Jikib'an Q'aptzij
+total-approved = Ronojel Ütz
+overall-accuracy = Utziläj Ronojel
+set-visibility = Tiya' rutz'etik
+show-ranking = Tik'ut ri nub'anon
 
 ## Custom Goals
 
+get-started-goals = Tintikirisaj ri taq nurayib'al
+create-custom-goal = Titz'uk' jun Ichinan Rayib'äl
+both-speak-and-listen = Chi ka'i'
+both-speak-and-listen-long = Chi Ka'i' (Ch'owen chuqa' Tak'axäx)
+daily-goal = Q'ij Q'ij Rayib'äl
+weekly-goal = Wuq'q'ij Rayib'äl
+easy-difficulty = Man K'ayew Ta
+average-difficulty = Loman
+difficult-difficulty = K'ayew
+lose-goal-progress-warning = We nanük' ri arayib'al, yatikïr nasüch ri ab'anon chik.
+want-to-continue = ¿La nawajo' nab'än qa?
+finish-editing = ¿La nawajo' nab'ey nak'ïs nanük'?
+lose-changes-warning = We yatel wakami, xtisach ronojel ri jaloj
+share-goal-type-speak = Ch'owen
+share-goal-type-listen = Nak'asäx
+share-goal-type-both = Ch'owen chuqa' Nak'axäx
 
 ## Profile Delete
 
