@@ -442,6 +442,15 @@ mycroft-description =
 
 glossary = Choltzij
 localization = K'ojlib'äl:
+localization-explanation = Ja rub'eyal re' niqojqaj richin niqatzalq'omij chuqa' niqajunamaj ri etamab'äl pa k'ïy ch'ab'äl.
+sentence-collection = Kimolik B'ab'
+sentence-collection-explanation = Kemol taq b'ab' tikirel yekitz'ët winaqi' o ketz'ib'äx k'ak'a' richin yekitz'ët ri winaqi'.
+hours-recorded-explanation = Ri ramaj yakoj eqamolon k'a wakami.
+hours-validated-explanation = Ri ramaj yakoj ya'on ketal rik'in jun “Ütz” kuma 2 chi kikojol 3 okisanela'. Ke re' niya' retal rub'anik ri qaq'i'oj richin ri nimasamaj richin 10.000 ramaj.
+sst = Tz'ib'anïk-pa-ch'ab'äl (STT)
+sst-explanation = Runa'ob'al tz'ib'anïk-pa-ch'ab'äl (STT) ri yekijäl ri taq rutzij ch'ab'äl pa tz'ib'anïk.
+de-identified = Tewäch-ruwäch
+de-identified-explanation = Rub'eyal richin newäx ri retamab'al ruwäch rub'i' ri to'onel, newäx pa ri taq q'aptzij ch'ab'äl erusipan toq niqasäx ri rucholxetzij.
 
 ## NotFound
 
