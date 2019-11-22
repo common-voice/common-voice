@@ -1,10 +1,13 @@
 ## General
 
+yes-receive-emails = ਹਾਂ, ਮੈਨੂੰ ਈਮੇਲ ਭੇਜੋ। ਮੈਂ ਕਾਮਨ ਵੌਇਸ ਪ੍ਰੋਜੈਕਟ ਬਾਰੇ ਜਾਣਕਾਰੀ ਰੱਖਣੀ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ।
+return-to-cv = ਕਾਮਨ ਵੌਇਸ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 email-input =
     .label = ਈ-ਮੇਲ
 submit-form-action = ਦਾਖਲ ਕਰੋ
 loading = ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
-not-available-abbreviation = N/A
+email-opt-in-info-title = ਕਾਮਨ ਵੌਇਸ ਮੇਲਿੰਗ ਲਿਸਟ ਦਾ ਹਿੱਸਾ ਬਣੋ
+not-available-abbreviation = ਲਾਗੂ ਨਹੀਂ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -12,9 +15,14 @@ not-available-abbreviation = N/A
 
 ## Languages
 
+ab = ਅਬਖਜ਼
+af = ਅਫ਼ਰੀਕੀ
+ar = ਅਰਬੀ
 bn = ਬੰਗਾਲੀ
 br = ਬਰੀਟੋਨ
 bxr = ਬੁਰੀਅਤ
+cs = ਚੈੱਕ
+de = ਜਰਮਨ
 el = ਗਰੀਕ
 en = ਅੰਗਰੇਜ਼ੀ
 eo = ਏਸਪੇਰੈਂਟੋ
@@ -33,15 +41,24 @@ ha = ਹੀਊਸਾ
 he = ਹੈਬਰਿਊ
 hi-IN = ਹਿੰਦੀ
 hr = ਕਰੋਆਟੀਅਨ
+it = ਇਤਾਲਵੀ
+ko = ਕੋਰੀਆਈ
 kw = ਕੋਰਨਿਸ਼
+ml = ਮਲਿਆਲਮ
+or = ਓੜੀਆ
+pa-IN = ਪੰਜਾਬੀ
+pl = ਪੋਲਿਸ਼
+pt = ਪੁਰਤਗਾਲੀ
 ro = ਰੋਮਾਨੀਆਈ
 ru = ਰੂਸੀ
-rw = ਕਿੰਯਾਰਵਾਂਡਾ
+rw = ਕਿਨਆਰਵਾਂਡਾ
 sah = ਸਖਾ
 sc = ਸਾਰਡੀਨੀਅਨ
 si = ਸਿੰਹਾਲਾ
-tr = ਤੁਰਕਿਸ਼
-ur = ਉਰਦੂ
+ta = ਤਾਮਿਲ
+te = ਤੇਲਗੂ
+tr = ਤੁਰਕ
+ur = ਉੜਦੂ
 
 # [/]
 
@@ -50,16 +67,24 @@ ur = ਉਰਦੂ
 
 speak = ਬੋਲੋ
 speak-now = ਹੁਣ ਬੋਲੋ
+datasets = ਡਾਟਾ-ਸਮੂਹ
 languages = ਭਾਸ਼ਾਵਾਂ
 about = ਬਾਰੇ
 profile = ਪ੍ਰੋਫਾਈਲ
 help = ਮਦਦ
 contact = ਸੰਪਰਕ
-faq = FAQ
+privacy = ਪਰਦੇਦਾਰੀ
+terms = ਸ਼ਰਤਾਂ
+cookies = ਕੂਕੀਜ਼
+faq = ਸਵਾਲ-ਜਵਾਬ
+link-copied = ਲਿੰਕ ਕਾਪੀ ਕੀਤਾ
 back-top = ਉੱਤੇ ਜਾਓ
+logout = ਲਾਗ ਆਉਟ
 
 ## Home Page
 
+home-title = ਆਮ ਆਵਾਜ਼ ਮਸ਼ੀਨਾਂ ਨੂੰ ਆਮ ਲੋਕ ਕਿਵੇਂ ਬੋਲਦੇ ਹਨ, ਸਿਖਾਉਣ ਲਈ ਮਦਦ ਵਾਸਤੇ ਮੋਜ਼ੀਲਾ ਦਾ ਪ੍ਰੋਜੈਕਟ ਹੈ।
+home-cta = ਬੋਲੋ, ਇੱਥੇ ਯੋਗਦਾਨ ਦਿਓ!
 show-wall-of-text = ਹੋਰ ਪੜ੍ਹੋ
 vote-yes = ਹਾਂ
 vote-no = ਨਹੀਂ
