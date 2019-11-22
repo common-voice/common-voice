@@ -134,7 +134,7 @@ class ListenPage extends React.Component<Props, State> {
     trackListening('listen', this.props.locale);
   };
 
-  private showAchievementToast = async () => {
+  private showAchievementToast = () => {
     if (!(this && this.props)) {
       return;
     }
