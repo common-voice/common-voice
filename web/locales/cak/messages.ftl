@@ -412,7 +412,11 @@ faq-search-for-answers =
 
 about-title = ¿Achike ruma nokisäx Common Voice?
 about-subtitle = Common Voice jun peraj rusamaj Mozilla richin yerutijoj ri taq samajib'al pa ruwi' ri rub'eyal yech'o ri winaqi'. Rik'in ri rucholxe' tzij chuqa' niqanük' jun ruk'wab'al retamaxik ch'ab'äl pa jaqäl b'itz'ib', Deep Speech rub'i'.
+about-header-description =
+    Chi ka'i' nimasamaj retal ri quchuq'a' richin yojsamäj chi rij rukojol ri ch'ab'äl pa ri kematz'ib'il k'ojlib'äl. Ri runa'ob'al retamaxik ch'ab'äl nuya' kik'ojlem pa winaqilal ri taq qokisab'al, xa xe chi ri b'anonela' nik'atzin k'ïy taq kitzij ch'ab'äl richin yekinük'.
+    Wakami, k'ïy chi ke ri taq tzij ri' yalan e paqäl chuqa' e k'o kajaw. Niqajo' chi kitzij ch'ab'äl e wachel chi kiwa ri winaqi', chuqa' richin niqajikib'a' chi ronojel ri taq tzij tikiya' ketal ri jalajöj qitzij winaqi'. Qonojel yojtikïr niqab'än chi ri retamaxik ch'ab'äl ütz chi qawa qonojel.
 how-does-it-work-title = ¿Achike rub'eyal nisamäj?
+how-does-it-work-text = Ri qarayib'al ja ri runuk'ik jun rucholxe' rutzij ch'ab'äl rik'in jaqäl b'itz'ib'. Tasipaj ri ach'ab'äl, tajikib'a' ri kutzil taq kiyakoj ch'aqa' chik okisanela' richin yato'on nutziläx ri rucholxe' tzij.
 about-speak = Ch'owen
 about-speak-text = Ri to'onela' nikiyäk kich'ab'äl toq yekisik'ij taq q'aptzij xipan kuma ri okisanela'.
 about-listen-queue = Cholaj-Ak'axanem
@@ -431,6 +435,7 @@ about-clip-graveyard = Kimuqb'al Yakoj
 about-clip-graveyard-text = Ri Kimuqb'al Yakoj, ja ri kiyakoj taq ch'ab'äl man xetikïr ta xe'ok pa rucholxetzij Common Voice. Achi'el ri cholxetzij, ri kimuqb'al yakoj chuqa' k'o richin niqasäx.
 about-partners = Achib'ilal
 about-become-a-partner = Yatok jun achib'ilal
+about-partnership = Common Voice jun runimasamaj to'ojri'ïl chuqa' e pa'äl pa qawi' ri qawinaq chuqa' ri to'onela' richin yojtikïr niqatz'ük jun nïm rucholxe' rutzij ch'ab'äl, ri majub'ey tz'eton. Niqajo' niqak'awomaj ruma kito'ik re winaqi' chuqa' taq moloj re':
 about-get-involved = Kato'on
 about-get-involved-text =
     ¿La nawajo' yato'on richin nutziläx ri Common Voice?
@@ -446,6 +451,7 @@ mycroft-subtitle = Ch'ich'al na'ojil
 mycroft-description =
     Mycroft jun nïm rachto'onel jaqäl b'itz'ib'.
     Mycroft nasamajij xab'akuchi' - pa kematz'ib', pa ch'ich' o pa jun Raspberry Pi.
+mycroft-secondary-description = Re jaqäl b'itz'ib' kema' re' tikirel nutziläx, ninuk' chuqa' nixol. Tikirel nokisäx pa jun runimasamaj richin etamab'alil achi'el chuqa' pa jun ruchokoy rukema' jun nïm ajnimamoloj.
 
 ## Glossary
 
