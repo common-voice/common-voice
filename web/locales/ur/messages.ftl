@@ -234,19 +234,28 @@ edit = تدوین
 download-profile = میرے کوائف ڈائونلوڈ کریں
 off = بند
 on = چالو
+delete-voice = حذف کریں
 recording-voice-wave = ریکارڈنگ ہو رہا
 ready-to-upload = اپ لوڈ کریں
+cancel-avatar-clip-recording = منسوخ کریں
+manage-subscriptions = رکنیت بندرست کریں
 add-language = زبان شامل کریں
 
 ## FAQ
 
 faq-title = اکثر پوچھے گئے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
+faq-why-important-q = یہ اہم کیوں ہے؟
+faq-where-src-from-2-q = ماخز متن کہاں سے آتا ہے؟
+faq-is-account-public-q = کیا میرے اکاؤنٹ کی معلومات عوامی ہیں؟
 faq-what-is-cv = Common Voice کیا ہے؟
+faq-search-for-answers =
+    .label = جوابات تلاش کریں
 
 ## ABOUT US
 
 about-title = Common Voice کیوں؟
+how-does-it-work-title = یہ کس طرح کام کرتا ہے
 about-speak = بولیں
 about-listen = سنیں
 about-partners = ساتھی
@@ -259,6 +268,8 @@ about-nav-get-involved = شامل ہوں
 
 ## Glossary
 
+glossary = فرہنگ
+localization = لوکلائزیشن
 
 ## NotFound
 
