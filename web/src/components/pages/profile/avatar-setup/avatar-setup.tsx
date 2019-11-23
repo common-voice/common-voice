@@ -75,7 +75,7 @@ function resizeImage(file: File, maxSize: number): Promise<Blob> {
   };
 
   return new Promise((ok, no) => {
-    if (!file.type.match(/image.*/)) {
+    if (!file || !file.type.match(/image.*/)) {
       no(new Error('Not an image'));
       return;
     }
