@@ -392,11 +392,16 @@ faq-where-src-from-2-a =
     
     Yatikïr nanik'oj ri kixe'el taq qaq'aptzij pa re <githubLink>GitHub yakwuj </githubLink>.
 faq-why-not-ask-read-q = ¿Aruma man nak'utäj ta chi ke ri winaqi' chi kekisik'ij taq wuj o ch'utaq na'oj pa Wikipedia pa jalajöj ch'ab'äl?
+faq-why-not-ask-read-a = Richin nib'an chi k'atzinel ri rucholxe' tzij Common Voice, xqaya' chi qawäch chi xa xe niqaya' kiq'ij ri taq tz'ib'anïk rik'in ri Creative Commons (CC0) ya'öl q'ij. Toq nokisäx ri CC0 pa rub'eyal ya'öl q'ij k'ayew nub'än richin ye'ilitäj chuqa' yemöl qitzij taq tz'ib'anïk, po nub'än chi xab'achike nitikïr nrokisaj ri rutzij ch'ab'äl, akuchi' majun q'atoj richin nokisäx o chi tuya' q'ij ri Mozilla. Pa ruk'isib'äl niqajo' chi ri rucholxe' tzij pa k'ïy ch'ab'äl yalan tik'atzin chi qe qonojel, achi'el jikilib'anela', taq nimatijob'äl, tz'uk'üy taq ajk'aymoloj, chanpomanela', taq moloj nikejqalej winaqilal chuqa' ri tijoxela'.
 faq-why-account-q = ¿Aruma k'o chi nintz'ib'aj nub'i' richin jun rub'i' nutaqoya'l?
 faq-is-account-public-q = ¿La konojel yetz'eto' ri retamab'al rub'i' nutaqoya'l?
 faq-how-privacy-q = ¿Achike rub'eyal najikib'a' ri me'etaman kiwa chuqa' ri kichinanem winaqi' nikisipaj kich'ab'äl?
 faq-how-privacy-a = Ronojel ri peraj taq ch'ab'äl richin ri rucholxe'el tzij yechayüx chuqa' niyuj ri ketamab'al winaqi'. Toq jun to'onel nuya' winaqil taq tzij pa ri ruwäch rub'i', ri etamab'äl ri' man netamäx ta pa ri peraj taq ruch'ab'äl chuwäch nipis chuqa' nitzij richin niqasäx pa ri rucholxe'el tzij chuqa' majub'ey konojel xketz'eto pa ri ruxaq ruwäch rub'i'.
 faq-what-determine-identity-q = ¿Achike nuq'ajuj chi man yitikïr ta “ninya' retal kib'anikil” ri ch'ab'anela' pa ri rucholxe'el tzij ri Common Voice?
+faq-what-determine-identity-a =
+    Ri rucholxe' tzij Common Voice jun jaqäl chuqa' okel tob'äl chi kiwa ri winaqi', ri tikirel nokisäx richin yeb'an chuqa' yenuk' jalajöj taq chokoy nikokisaj ri ch'ab'äl. Richin yeqachajij kijikomal ri yeto'o qichin, niqak'utuj chi ke ri yeqasan ri rucholxe' rutzij Common Voice chi tikikamelaj ri kichinanem ri to'onela',
+    
+    Pa ronojel ri peraj taq ruch'ab'äl ri rucholxe' tzij nichayüx ri ketamab'al winaqi'. Toq naqasaj ri rucholxe' tzij, naya' atzij chi man xtatojtob'ej ta nawetamaj ri rub'i' ri to'onel. Ri ri' nuq'ajuj chi man yatikïr ta natojtob'ej naxïm ri etamab'äl pa ri rucholxe' tzij rik'in ri retamab'al ri to'onel. Estape' ke ri', yatikïr nawokisaj ri rucholxe' tzij richin ye'atijoj ri retamaxik ch'ab'äl, Ri rejqalem ajch'ab'äl p juley chik taq chokoy; achi'el, toq naxim ri retamab'al rucholxe' tzij rik'in ri jun chik etamab'äl k'o chik chupam.
 faq-what-is-cv = ¿Achike ri Common Voice?
 faq-using-cv = Rokisaxik Common Voice
 faq-description = Ri Common Voice nimasamaj jun rusamaj Mozilla richin nito'on yerutijoj ri taq ch'ich'b'äl pa rub'anikil yech'o ri winaqi'.
@@ -406,6 +411,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Achike ruma nokisäx Common Voice?
+about-subtitle = Common Voice jun peraj rusamaj Mozilla richin yerutijoj ri taq samajib'al pa ruwi' ri rub'eyal yech'o ri winaqi'. Rik'in ri rucholxe' tzij chuqa' niqanük' jun ruk'wab'al retamaxik ch'ab'äl pa jaqäl b'itz'ib', Deep Speech rub'i'.
 how-does-it-work-title = ¿Achike rub'eyal nisamäj?
 about-speak = Ch'owen
 about-speak-text = Ri to'onela' nikiyäk kich'ab'äl toq yekisik'ij taq q'aptzij xipan kuma ri okisanela'.
