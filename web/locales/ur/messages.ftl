@@ -253,8 +253,8 @@ delete-voice = حذف کریں
 recording-voice-wave = ریکارڈنگ ہو رہا
 ready-to-upload = اپ لوڈ کریں
 cancel-avatar-clip-recording = منسوخ کریں
-manage-subscriptions = رکنیت بندرست کریں
-manage-email-subscriptions = ایمیل رکنیت بندرست کریں
+manage-subscriptions = رکنیت منظم کریں
+manage-email-subscriptions = ایمیل رکنیت منظم کریں
 add-language = زبان شامل کریں
 
 ## FAQ
@@ -266,6 +266,7 @@ faq-why-my-lang-q = میری زبان ابھی تک کیوں شامل نہیں �
 faq-where-src-from-2-q = ماخز متن کہاں سے آتا ہے؟
 faq-is-account-public-q = کیا میرے اکاؤنٹ کی معلومات عوامی ہیں؟
 faq-what-is-cv = Common Voice کیا ہے؟
+faq-using-cv = Common Voice کا استعمال کرنا
 faq-search-for-answers =
     .label = جوابات تلاش کریں
 
@@ -275,6 +276,7 @@ about-title = Common Voice کیوں؟
 how-does-it-work-title = یہ کس طرح کام کرتا ہے
 about-speak = بولیں
 about-listen = سنیں
+about-dataset-new = Common Voice ڈیٹاسیٹ
 about-partners = ساتھی
 about-become-a-partner = شراکت دار بنیں۔
 about-get-involved = شامل ہوں
@@ -321,9 +323,13 @@ review-delete-recordings = میری رکارڈنگ حزف کریں
 language = زبانیں
 # File size in gigabytes
 size = سائز
+cv-license = لائسنس
+email-to-download = ڈاؤن لوڈ کرنے کے لئے ای میل درج کریں
 size-gigabyte = GB
 size-megabyte = MB
+subscribe = رکن بنیں
 data-other-ted-name = TED-LIUM Corpus
+go-languages-page = زبانوں کے صفحے پر جائیں
 more = مزید
 close = بند کریں
 download = ڈاؤن لوڈ کریں
@@ -353,6 +359,8 @@ request-language-title = ربان کی درخواست
 request-language-form-language =
     .label = زبان
 request-language-success-title = زبان کی درخواست کامیابی سے جمع ہو گئی ہے، شکیہ۔
+select-language = زبان منتخب کریں ...
+other-language = دیگر زبانیں
 
 ## Languages Overview
 
@@ -376,6 +384,7 @@ contribute = حصہ دارانہ
 listen = سنیں
 skip = اچٹیں
 shortcuts = تیز راہ
+clips-with-count = <bold>{ $count }</bold> تراشے
 contribute-more =
     { $count ->
         [one] مزید { $count } کرنے کے لیئے تیار ہیں؟
@@ -415,7 +424,15 @@ share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں
 
 ## Reporting
 
+report = ‎رپورٹ کریں
+report-title = ایک رپورٹ جمع کریں
+report-offensive-language = غیر مہذب زبان
+report-different-language = مختلف زبان
+report-difficult-pronounce = تلفظ کرنا مشکل ہے
+report-other-comment =
+    .placeholder = تبصرہ
 success = کامیاب
+continue = جاری رکھیں
 
 ## Goals
 
@@ -424,9 +441,17 @@ days =
         [one] دن
        *[other] دن
     }
+recordings =
+    { $count ->
+        [one] ریکارڈنگ
+       *[other] ریکارڈنگز
+    }
 
 ## Dashboard
 
+your-languages = آپ کی زبانیں
+toward-next-goal = اگلے مقصد کی طرف
+awards = ایوارڈ
 you = آپ
 everyone = تمام
 
@@ -438,6 +463,16 @@ average-difficulty = اوسط
 difficult-difficulty = مشکل
 pro-difficulty = پرو
 want-to-continue = کیا آپ جاری رکھنا چاہتے ہیں؟
+set-a-goal = ایک مقصد طے کریں
+cant-decide = فیصلہ نہیں کر سکتے۔
+n-clips = { NUMBER($count) } تراشے
+goal-interval-weekly = ہفتہ وار
+share-goal-type-speak = بولنا
+share-goal-type-listen = سننا
+share-goal-type-both = بولنا اور سننا
+weekly-goal-created = آپ کا ہفتہ وار مقصد بن گیا ہے
+daily-goal-created = آپ کا روزانہ کا مقصد بن گیا ہے
+share-goal = میرا مقصد شیئر کریں
 
 ## Profile Delete
 
