@@ -583,7 +583,7 @@ other-language = অন্য ভাষাসমূহ
 ## Languages Overview
 
 language-section-in-progress = প্ৰগতিশীল
-language-section-in-progress-new-description = এই ভাষাবোৰৰ বৰ্তমান সাম্প্ৰদায়িক উন্নয়ন চলি আছে। প্ৰগতি দণ্ডিকাডালে প্ৰতিটো ভাষাৰ <localizationGlossaryLink>ৱেবচাইট স্থানীয়কৰণ</localizationGlossaryLink> আৰু <sentenceCollectionGlossaryLink>বাক্য গোটোৱা</sentenceCollectionGlossaryLink> প্ৰক্রিয়া কিমান আগবাঢ়িছে সেয়া দেখুৱায়।
+language-section-in-progress-new-description = এই ভাষাবোৰৰ বৰ্তমান সাম্প্ৰদায়িক উন্নয়ন চলি আছে। প্ৰগতি দণ্ডিকাডালে প্ৰতিটো ভাষাৰ <localizationGlossaryLink>ৱেবছাইট স্থানীয়কৰণ</localizationGlossaryLink> আৰু <sentenceCollectionGlossaryLink>বাক্য গোটোৱা</sentenceCollectionGlossaryLink> প্ৰক্রিয়া কিমান আগবাঢ়িছে সেয়া দেখুৱায়।
 language-section-launched = মুকলি কৰা হৈছে
 language-section-launched-description = এই মুকলি কৰা ভাষাবোৰৰ বাবে ৱেবছাইট সফলভাৱে <localizationGlossaryLink>স্থানীয়কৰণ</localizationGlossaryLink> কৰা হৈছে আৰু চলি থকা <speakLink>কথা কোৱা</speakLink> আৰু <listenLink>শুনা</listenLink> অৱদানৰ বাবে অনুমতি দিবলৈ যথেষ্ট <sentenceCollectionGlossaryLink>বাক্য গোটোৱা</sentenceCollectionGlossaryLink> আছে।
 languages-show-more = অধিক চাওক
