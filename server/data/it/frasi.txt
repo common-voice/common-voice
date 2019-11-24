@@ -162,11 +162,11 @@ Sulla destra, subito sotto il nome del sito, trovi l'elenco coi link.
 Sotto trovi i campi in parte precompilati per aprire il ticket.
 L'unico da compilare riguarda altri commenti in cui è consigliato l'inserimento di una spiegazione più dettagliata.
 Dovete avere il profilo su mozillians e aver dimostrato interesse nelle nostre attività.
-Ogni stanza ha delle regole specifiche per le notifiche che possono essere diverse dal client desktop/mobile e browser.
+Ogni stanza ha delle regole specifiche per le notifiche che possono essere diverse dal client desktop, mobile e browser.
 Cliccando sulla destra, sull'icona della campana, è possibile attivare le notifiche push.
 In modo da essere aggiornati in tempo reale.
 Partendo da questo punto, sviluppa in una frase o due qual è il problema che vuoi affrontare.
-Dopodiché bisogna analizzare in 4 punti: Attori, Ambiente, Interazione e Oggetti/Strumenti.
+Dopodiché bisogna analizzare in 4 punti: Attori, Ambiente, Interazione e Oggetti o Strumenti.
 Da questi 4 punti si realizza una storyboard con le cose fondamentali e più importanti del processo.
 Come possiamo coinvolgere i nostri volontari ad essere più attivi e promotori delle nostre attività?
 In modo indipendente dal loro mentor?
@@ -217,7 +217,7 @@ Al fine di organizzare e mantenere costantemente attiva la community locale.
 È necessario determinare dei ruoli e delle responsabilità locali o decisionali.
 Esse non sono da intendersi di tipo verticale o gerarchiche ma funzionali.
 Volontari non facenti parte di programmi ufficiali Mozilla.
-Che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un vouch su mozillians.org.
+Che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un vouch sul sito.
 I volontari, facenti parte di programmi specifici, devono prioritariamente svolgere le attività.
 Devono sottostare alle regole generali definite dal programma stesso.
 Rispettare le norme comportamentali definite dalla community Internazionale e locale italiana.
@@ -310,7 +310,7 @@ In possesso, ove previsto, di permesso di soggiorno in corso di validità.
 Sì, è necessario verificare l'identità del beneficiario tramite il confronto del nome e cognome presenti nel buono.
 Buono d'acquisto.
 Ed i riferimenti del documento d'identità esibito dal diciottenne.
-Questi ruoli possono richiedere specializzazioni verticali su temi specifici (es. visual design).
+Questi ruoli possono richiedere specializzazioni verticali su temi specifici (esempio visual design).
 Trasversali in grado di coprire diversi aspetti all'interno del processo progettuale.
 Dalla ricerca alla prototipazione.
 Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo.
@@ -377,7 +377,7 @@ Sono censiti direttamente dalla Direzione Generale archeologia, belle arti e pae
 Saranno geo-localizzabili dai diciottenni nell'applicazione a loro dedicata.
 Per la geo-localizzazione di tutti i miei punti vendita.
 Occorre inserire nell'applicazione i dati dei singoli esercizi commerciali.
-Attraverso bonifico bancario sul c/c il cui IBAN è indicato in fattura.
+Attraverso bonifico bancario sul conto corrente il cui IBAN è indicato in fattura.
 A tal proposito.
 Si evidenzia la necessità di verificare sempre con estrema attenzione il corretto inserimento del codice IBAN.
 A pagamento effettuato verrà inviata una e-mail automatica di notifica di avvenuto accredito all'indirizzo mail indicato.
@@ -466,7 +466,7 @@ Conforme alla disciplina vigente.
 Ai fini della liquidazione dei buoni incassati.
 In assenza, non potrà, in alcun modo, vedersi liquidare il valore dei buoni eventualmente incassati.
 È, pertanto, vietato incassare i buoni generati attraverso il servizio da un soggetto diverso rispetto al titolare del buono.
-Il cui nome è riportato sullo stesso e/o a fronte della vendita di beni o servizi diversi.
+Il cui nome è riportato sullo stesso e o a fronte della vendita di beni o servizi diversi.
 Rispetto a quelli di cui alle lettere da a) a c) che precedono.
 Il Ministero dei beni e delle attività culturali e del turismo vigila sulla corretta applicazione da parte dell'esercente.
 Delle regole che precedono.
@@ -571,7 +571,7 @@ Utilizzare il lessico giusto, in base al luogo e alle persone con cui si sta par
 In questo caso in base a ciò che si vuole comunicare.
 Non utilizzare molto tecnicismo.
 Preferire all'hard tecnicismo un tecnicismo di base o per niente tecnicismo.
-Gli utenti potrebbero essere sia esperti nel settore informatico/tecnologico, sia utenti normali.
+Gli utenti potrebbero essere sia esperti nel settore informatico o tecnologico, sia utenti normali.
 Che si affacciano per le prime volte in questo grande mondo.
 Cercare di non inserire sigle o roba del genere se poi non la si spiega.
 Ciò crea più confusione che informazione per un utente generico.
@@ -1393,7 +1393,7 @@ Una serie infinita di perché ai quali.
 Attraverso il confronto con gli altri, si può trovare la risposta che si ritiene più idonea.
 1984 è un romanzo modernissimo anche se scritto più di 50 anni fa.
 Mi sono avvicinato a quest'opera perché il Grande Fratello sta diventando un'entità reale e non virtuale.
-Indica l'inserimento di chip e/o software obbligatori che limiterebbero le libertà dell'utente.
+Indica l'inserimento di chip e software obbligatori che limiterebbero le libertà dell'utente.
 Se eventualmente volessimo sostituire un pezzo ed usare questo elemento in un altro pc non funzionerebbe e viceversa.
 L'utente normale nella maggior parte non è abbastanza esperto nella configurazione del proprio computer.
 Diventa molto più facile cadere in qualche virus o truffa.
@@ -1542,7 +1542,7 @@ Questi vapori si condensano a diverse altezze per via delle temperature.
 Sono stati inventati diversi metodi per poter modificare la catena molecolare dei composti estratti.
 Con il cracking si intende una frammentazione della catena del carbonio.
 La alchilazione permette di ottenere diverse derivati del petrolio con un processo definito.
-Dei catalizzatori e /o repressori permettono di ottenere altri derivati del benzene tra cui l'esano e l'ottano.
+Dei catalizzatori e repressori permettono di ottenere altri derivati del benzene tra cui l'esano e l'ottano.
 Questa frammentazione può avvenire attraverso catalizzatori o per via termica.
 Con reforming invece si tratta di modifiche alla catena per poter rendere i derivati antidetonanti.
 Con antidetonante si intende la capacità di resistere ad alte pressioni senza esplodere.
@@ -1584,14 +1584,14 @@ E anche perché non erano stati trovati molti fossili all'epoca (1925) in quel c
 Nel '59 vennero scoperti altri fossili in Africa e ciò confermò che era il continente della culla degli esseri umani.
 Venne scoperto tempo dopo un altro ominide chiamato Australopithecus Afarensis.
 Femmina databile sui 3 e 3,8 milioni di anni fa.
-Che era alta non più di 110 cm e che avrebbe potuto pesare sui 23 kg.
+Che era alta non più di 110 centimetri e che avrebbe potuto pesare sui 23 chili.
 Mentre, i maschi probabilmente il doppio di 23 kg.
 Successivamente vennero scoperti altri reperti catalogati come Autralopithecus Boisei e Australopithecus Robustus.
 Che vissero tra 1,75 e 1,8 milioni di anni fa.
 Il primo aveva ancora la cresta ossea che serviva nelle scimmie per l'attaccatura dei muscoli della loro forte mascella.
 La quale, con l'evoluzione in ominidi, diminuisce.
 Tale specie aveva anche dei grossi molari e ciò indica che è un vecchio antenato dell'uomo.
-Il secondo invece ha una capacità cranica che è 1/3 di quella di un uomo.
+Il secondo invece ha una capacità cranica che è un terzo di quella di un uomo.
 Ciò indica che il lungo muso delle scimmie si stava nel frattempo restringendo compattandosi.
 Perché i crani di questo antenato erano molto più grossi.
 L'Australopithecus Robustus aveva anche un'andatura barcollante.
@@ -1759,14 +1759,14 @@ Sul margine anteriore delle lunghe ali arrotondate vi sono due speroni cornei.
 Lunghi 2,5 cm o anche più.
 Che vengono usati in combattimento.
 Si alza pesantemente e faticosamente da terra, ma volano bene, e spesso si librano e parlano con le aquile.
-I kaimichi dal collare sono alti 70-80 cm.
+I kaimichi dal collare sono alti 70-80 centimetri.
 Questo uccello vive soprattutto sul terreno e si trova vicino all'acqua ed alle paludi.
 Spesso camminano sui mucchi di vegetazione galleggiante per cercare del cibo.
 Di rado nuotano.
 Il suo nome Kaimichi, in inglese tradotto come screamer, ovvero urlatore.
 Perché il suo grido forte e profondo.
 Di due note sonore.
-Si può sentire a più di 1,5 km di distanza.
+Si può sentire a più di 1,5 chilometro di distanza.
 Questo uccello depone un gruppo di 4-6 uova entrambi i genitori covano.
 Possiede una coda che utilizza nei combattimenti.
 Sono completamente coperti di una folta e soffice pelliccia grigio giallognola screziata sul muso.
@@ -2944,7 +2944,7 @@ Viene emesso da banche autorizzate dalla Banca d'Italia nelle località in cui n
 È un titolo all'ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale.
 Sul quale può essere indicata la causale del pagamento.
 Che può essere sottoposta all'accertamento della condizione che ha causato il pagamento.
-La legge 109/96 costituisce lo strumento più avanzato di contrasto alla criminalità organizzata nel campo culturale.
+La legge 109 del 1996 costituisce lo strumento più avanzato di contrasto alla criminalità organizzata nel campo culturale.
 Sociale ed economico.
 Prevedendo la restituzione alla collettività di grandi patrimoni accumulati illecitamente.
 E colpendo le mafie in uno degli ambiti più importanti.
@@ -2972,7 +2972,7 @@ Esempio: concorsi di idee, eccetera.
 E alla successiva assegnazione, come bandi pubblici, eccetera.
 Allo stesso tempo, occorrerebbe introdurre forme di sostegno ai comuni per la progettazione.
 Il recupero strutturale dei beni oggetto di confisca.
-La legge n.109/96 modifica il processo di assegnazione dei beni confiscati alle mafie.
+La legge 109 del 1996 modifica il processo di assegnazione dei beni confiscati alle mafie.
 Snellendo sia in termini di passaggi che di attori istituzionali coinvolti.
 Di fatto le fasi del processo di assegnazione dei beni immobili si riducono a tre.
 Mentre il numero di soggetti coinvolti si riducono a nove.
@@ -4138,7 +4138,7 @@ Della necessità di raccontare storie.
 Continua a leggere Oltre ogni limite.
 Io vivo per l'attimo di silenzio che c'è prima dell'inizio di uno spettacolo o di un concerto o di una gara.
 È un momento di concentrazione massima.
-Non sfugge nulla, né al pubblico né agli attori/atleti/performers.
+Non sfugge nulla, né al pubblico né agli attori atleti e performers.
 Condivido con pochi il brivido che corre sottopelle in quel momento.
 Voglio di essere stupita.
 Non è l'aspettarsi che succeda qualcosa.
@@ -4691,7 +4691,7 @@ L'arcaico "tu sorella", o sorellam tua (sì, non è il termine latino esatto, ma
 Veniva spesso anche usato come malaugurio per auspicare a qualcuno di avere in casa una militante.
 La stessa accezione negativa può essere estesa anche a "tu zia", in questo caso il malaugurio è di avere una zia sovversiva.
 Tutti i peggiori avvenimenti di Roma si dice che furono progettati da questa setta segreta, la setta delle Toga Nigra.
-Dall'incendio di Roma del 64 a.C.
+Dall'incendio di Roma del 64 avanti cristo.
 Sotto Nerone, alla crisi idrica estiva del 2017 (riaccendete i nasoni per favore).
 Molti degli eventi più devastanti per la città di Roma furono causati da questo gruppo di Sabine arrabbiate.
 Si considerarono loro, le responsabili di tutti gli eventi negativi poiché.
@@ -4752,7 +4752,7 @@ So che in questo non c'entra la Toga Nigra e i disservizi urbani, però volevo c
 C'è il problema del bancomat: tutti si lamentano che spesso a Roma non accettano le carte.
 Sono loro che lanciano attacchi DoS ai sistemi bancari.
 L'altro giorno mi trovavo in un ufficio pubblico ed era tutto sporco e malandato.
-Ho pensato: "È probabile siano stati sabotati gli addetti alle pulizie.
+Ho pensato: È probabile siano stati sabotati gli addetti alle pulizie.
 Poco dopo la fondazione di Roma nel 753.
 Avvenne uno dei fatti più leggendari che riguarda la mia città: il ratto delle Sabine.
 Da piccolo ero troppo impegnato a focalizzare la mia attenzione sulla parola "ratto".
@@ -4786,10 +4786,10 @@ Dal punto di vista dell'educazione alimentare, il giovane era una fogna, ma il k
 Quell'oggetto non identificato era sempre più vicino, la musica di sottofondo si faceva più tenebrosa.
 Space Cowboy sorseggiava impazientemente le sue tazzone di caffè.
 Niente più dubbi, il segnale era sotto casa sua.
-"Preparati giovane Space, adesso tutte le tue malefatte verranno a galla.
+Preparati giovane Space, adesso tutte le tue malefatte verranno a galla.
 Per pigrizia non hai lanciato gli hard disk dalla finestra eh?
 Ti prenderanno.
-Finirai come Neo in Matrix nell'interrogatorio con Mr. Smith".
+Finirai come Neo in Matrix nell'interrogatorio con Mister Smith.
 Si sentivano dei passi, qualcuno stava salendo le scale.
 Possibile che il giorno prima Space Cowboy avesse lasciato tracce?
 Erano veramente gli sbirri?
@@ -5773,7 +5773,7 @@ Oppure quella che hai appena pensato.
 Ecco un link dove puoi trovare tante immagini per la tua storia.
 Da sempre l'uomo ha costruito il rapporto con i propri simili e dato senso al mondo, attraverso il dialogo e la narrazione.
 Oggi si aprono nuovi scenari e possibilità.
-Internet infatti permette un dialogo su scala planetaria che altera il rapporto comunicazione/comunità.
+Internet infatti permette un dialogo su scala planetaria che altera il rapporto comunicazione e comunità.
 In quanto per la comunità viene meno quel radicamento al territorio, che spesso dava identità a un gruppo.
 Con lo sviluppo delle nuove tecnologie e delle nuove forme di comunicazione.
 È anche normale, perché le competenze aumentano e certi argomenti appassionano più di altri.
@@ -5783,7 +5783,7 @@ Nella prima edizione era stata usata la chiave della grammatica.
 Nella seconda la punteggiatura.
 Questa volta, un argomento senz'altro più divertente: l'italiano delle canzoni.
 Sensibilizzare sull'uso corretto della lingua.
-È necessario in quest'epoca in cui, ad esempio, si usa sempre più spesso "kk" invece che "cch".
+È necessario in quest'epoca in cui, ad esempio, si usa sempre più spesso quest cosa.
 Si scrivono tante parole sbagliate.
 Oppure non si esprime a pieno ciò che era nelle intenzioni.
 Anche a causa della modalità T9 del cellulare.
@@ -6085,7 +6085,7 @@ I misteri del dolore portano il credente a rivivere la morte di Gesù.
 Ponendosi sotto la croce accanto a Maria.
 Per penetrare con Lei nell'abisso dell'amore di Dio per l'uomo e sentirne tutta la forza rigeneratrice.
 Soltanto gravissime e urgenti ragioni potranno consentire simili colloqui.
-Accertate dalla Congregazione particolare dei Cardinali, di cui al n.7.
+Accertate dalla Congregazione particolare dei Cardinali, di cui al numero 7.
 Dovranno quindi i Cardinali elettori provvedere a predisporre quanto attiene alle rispettive esigenze d'ufficio.
 Personali e non differibili.
 In modo tale che non sia necessario ricorrere a simili colloqui.
@@ -9655,7 +9655,7 @@ Il miglioramento del dorso e dello stile libero, l'insegnamento delle virate ele
 È il livello conclusivo.
 Prevede l'insegnamento delle virate complete ed agonistiche.
 Miglioramento ulteriore degli stili.
-Miglioramento ulteriore delle partenze/tuffi.
+Miglioramento ulteriore delle partenze e tuffi.
 Questo livello è caratterizzato dalle vasche cronometrate.
 Quindi con l'obiettivo di migliorare, oltre alla tecnica, soprattutto i tempi.
 Dopo il 5 livello ci sono ulteriori livelli, anche se non vengono classificati.
@@ -9849,7 +9849,7 @@ Come anche la tecnica dello stile in sé.
 Le virate di ciascuno stile natatorio.
 In beve si può affermare che il tuffo è uguale sia per lo stile libero, sia per la rana e sia per la farfalla.
 L'unico a fare eccezione è il dorso.
-Esistono 2 tipi di tuffi (stile libero/rana/farfalla).
+Esistono 2 tipi di tuffi (stile libero, rana e farfalla).
 La grap start è la partenza più antica.
 Adatta per un tuffo con una maggiore spinta ma ha una reazione allo start inferiore.
 Quindi è più lenta.
@@ -9917,8 +9917,8 @@ I misti sono un tipo di gare che comprende i quattro stili canonici.
 L'ordine dei misti individuali è: farfalla, dorso, rana, stile libero.
 Nei misti "staffetta", invece, l'ordine è differente (in seguito descritto).
 Le competizioni nei misti possono essere 200 e 400.
-Notare che nei 200 l'atleta deve effettuare 50m per ogni stile, mentre nei 400 deve effettuare 100m per stile.
-È importante evidenziare che ogni 50m/100m è visto come un inizio di un nuovo stile.
+Notare che nei 200 l'atleta deve effettuare 50 metri per ogni stile, mentre nei 400 deve effettuare 100 metri per stile.
+È importante evidenziare che ogni 50 metri oppure 100 metri è visto come un inizio di un nuovo stile.
 Perciò non è ammessa la virata del dorso per il dorso-rana.
 Tuttavia, è possibile effettuare una capriola all'indietro o toccare il muro e ripartire subito dopo.
 Le staffette sono un tipo di gara particolare nei quali possono competere 4 atleti dello stesso sesso.
@@ -9933,7 +9933,7 @@ Modifica della nuotata a stile libero.
 Prima era utilizzata la tecnica trudgen ora si utilizza la tecnica crawl.
 Regolamentazione della partenza.
 Prima era possibile fare tutta la vasca in apnea.
-Ora invece sino ad un massimo di 15m (e non oltre) prima di dover riemergere.
+Ora invece sino ad un massimo di 15 metri (e non oltre) prima di dover riemergere.
 Regolamentazione della gambata a farfalla.
 Prima era analoga alla gambata a rana (poiché da quest'ultima deriva).
 Ora invece è necessario effettuare un movimento che parte dal bacino, con le gambe unite e simmetriche.
@@ -9978,31 +9978,31 @@ Poiché il nuoto stesso era differente.
 Per i motivi di cui sopra verranno analizzati alcuni nuotatori attuali.
 Adam Peaty è un nuotatore inglese ranista fortissimo.
 È sicuramente il più forte e il miglior ranista di tutti i tempi.
-Detiene i record mondiali sui 50m e 100m.
+Detiene i record mondiali sui 50 metri e 100 metri.
 La sua specializzazione è, appunto, la rana a breve distanza.
 È stato il primo ranista a scendere sotto il minuto nei 100m.
 Gregorio Paltrinieri è un nuotatore italiano.
 È probabilmente uno dei più noti nuotatori italiani.
 È specializzato nello stile libero in vasca corta.
-Detiene il record mondiale sui 1500m stile libero.
+Detiene il record mondiale sui 1500 metri stile libero.
 Michael Phelps era specializzato nella farfalla.
 È uno dei più celebri delfinisti.
 Era specializzato nello stile libero, nei misti, ma specialmente nella farfalla.
-Detiene ancora i record mondiali sui 100m e 200m farfalla.
+Detiene ancora i record mondiali sui 100 metri e 200 metri farfalla.
 Si è ritirato nel 2016.
 Liam Tancock è un inglese specializzato nel dorso.
 Pochi sono i dorsisti famosi, Liam è uno di questi.
-Detiene il record mondiale sui 50m a dorso.
+Detiene il record mondiale sui 50 metri a dorso.
 Katie Ledecky è specializzata nello stile libero.
 È un'americana.
-È una delle stile liberista più forti e detiene i record mondiali nei 400m, 800m e 1500m a stile libero.
+È una delle stile liberista più forti e detiene i record mondiali nei 400, 800 e 1500 metri a stile libero.
 Federica Pellegrini specializzata nello stile libero.
 È un'italiana.
 È probabilmente la più apprezzata e conosciuta nuotatrice italiana.
 Si differenzia dalla precedente in quanto la Pellegrini è velocista mentre la Ledecky è fondista.
-Detiene il record mondiale nei 200m stile libero.
+Detiene il record mondiale nei 200 metri stile libero.
 Tom Daley – Inglese: Uno dei più famosi e giovani tuffatori.
-Specializzato nei 10m piattaforma e 3m trampolino.
+Specializzato nei 10 metri piattaforma e 3 metri trampolino.
 Specializzazioni del nuoto.
 Il nuoto comprende un vastissimo gruppo di sport a sé stanti.
 Quali possono essere il nuoto sincronizzato, la pallanuoto, i tuffi.
@@ -10350,8 +10350,8 @@ Richard Stallman ama definirsi l'ultimo degli hacker.
 Inizialmente si iscrive presso la prestigiosa università di Harvard.
 Stallman viene spinto dalla sua passione per i calcolatori.
 È insofferente verso burocrazia, assenza di cooperazione e di scambio culturale.
-Decide di trasferirsi presso il laboratorio di Intelligenza Artificiale del M.I.T.
-M.I.T è acronimo di Massachusetts Institute of Technology.
+Decide di trasferirsi presso il laboratorio di Intelligenza Artificiale del Mit.
+Mit è acronimo di Massachusetts Institute of Technology.
 Era all'epoca una comunità-baluardo degli hackers.
 Gli era stato offerto un posto come programmatore sistemista.
 Stallman racconta.
@@ -10379,7 +10379,7 @@ Colui che distrugge la sicurezza di un sistema.
 Indica coloro che compiono atti di danneggiamento di sistemi informativi.
 Il dizionario online del gergo usato dagli hacker e dai professionisti dell'IT.
 Venne originariamente redatto da Raphael Finkel della Stanford University.
-È attualmente mantenuto da Eric S. Raymond, reperibile in inglese.
+È attualmente mantenuto da Eric Steven Raymond, reperibile in inglese.
 Nel 1984 Stallman diede inizio al progetto GNU.
 Avendo come principale obiettivo la creazione di un sistema operativo disponibile gratuitamente.
 Potesse servire da piattaforma per i programmi che venivano sviluppati.
@@ -10468,7 +10468,7 @@ La condivisione delle informazioni e dei codici sorgente permette ad ognuno di a
 Nel contempo, garantisce la qualità e la sicurezza del codice stesso.
 Potendo essere continuamente controllato da chiunque.
 Non può contenere funzioni indesiderate o potenzialmente dannose.
-Presente in un messaggio al newsgroup comp.os.minix.
+Presente in un messaggio al newsgroup Minix.
 Il 22 agosto 1991 Torvalds inizia a cercare aiuti e suggerimenti per il suo progetto tra gli appassionati.
 Il messaggio recitava.
 Ciao a tutti quelli che usano Minix.
@@ -10762,7 +10762,7 @@ Per il 2010.
 Del successore di Vista, ovvero Windows 7.
 Microsoft sta inoltre cercando di allargare la sua quota di mercato per quanto riguarda le applicazioni Internet.
 Da alcuni anni punta in questa prospettiva sul software di messaggistica istantanea MSN Live Messenger.
-Windows Live Messenger si appoggia al portale MSN.com e al servizio di posta gratuito di Hotmail.
+Windows Live Messenger si appoggia al portale MSN e al servizio di posta gratuito di Hotmail.
 Microsoft, nonostante l'indiscusso successo dei suoi programmi, ha dovuto affrontare numerosi attacchi giudiziari.
 I risultati sono stati alterni, sia da parte dei concorrenti più vicini che da parte di diverse organizzazioni statali.
 Nel 1991 è la Commissione Federale per il Commercio americana che si interessa degli affari dell'azienda.
@@ -11164,7 +11164,7 @@ Per questi motivi, tali considerazioni sono giudicate poco utili e non vengono r
 I requisiti minimi di sistema per l'installazione delle suite in esame sono riportati dai manuali ufficiali.
 Dal punto di vista dell'integrazione con il resto del sistema non sono rilevabili significative differenze.
 Entrambe si integrano con i browser Internet, con i programmi di gestione del sistema e con il sistema operativo stesso.
-È possibile effettuare da e verso gli altri applicativi operazioni di copia/incolla sia di testo che di immagini.
+È possibile effettuare da e verso gli altri applicativi operazioni di copia e incolla sia di testo che di immagini.
 La compatibilità dei documenti tra le diverse suite di produttività è argomento di grande importanza.
 In tabella si riepilogano le estensioni predefinite dei file prodotti dalle due suite.
 Le estensioni elencate indicano il formato di default in cui le suite di produttività salvano i documenti prodotti.
