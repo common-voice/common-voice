@@ -1133,7 +1133,7 @@ Questo viene diviso iniziando da 2 e a seguire con il risultato delle divisioni 
 Questi valori vengono passati al Select che verifica una condizione booleana.
 Tutto questo circuito è contenuto in un For Loop per avere un aggiornamento in tempo reale del grafico.
 Abbiamo sviluppato un progetto.
-Ci permette di conoscere attraverso un grafico la resistenza sviluppata in 100 millisecondi (ms) alla temperatura di 100 gradi.
+Ci permette di conoscere attraverso un grafico la resistenza sviluppata in 100 millisecondi (ms) alla temperatura di 100 gradi Celsius.
 Cambiando i valori delle frequenze modulanti.
 Invece vediamo che le linee dell'asse x si spostano verso il centro del grafico.
 Lungo l'asse principale graficato.
@@ -1536,7 +1536,7 @@ Spingeranno il petrolio verso la torre di trivellazione.
 Dal petrolio greggio si possono ottenere attraverso la distillazione cherosene, benzene, benzina, pece, asfalto e bitumi.
 Questa estrazione avviene tagliando la catena molecolare del petrolio che è molto lunga, portandolo a diverse temperature.
 Questa distillazione viene effettuata in colonne alte più di trenta metri.
-Il liquido viene scaldato ad una temperatura oltre i 340 gradi in un forno.
+Il liquido viene scaldato ad una temperatura oltre i 340 gradi Celsius in un forno.
 I vapori che si formano vengono mandati verso il basso nella colonna di distillazione.
 Questi vapori si condensano a diverse altezze per via delle temperature.
 Sono stati inventati diversi metodi per poter modificare la catena molecolare dei composti estratti.
@@ -1547,7 +1547,7 @@ Questa frammentazione può avvenire attraverso catalizzatori o per via termica.
 Con reforming invece si tratta di modifiche alla catena per poter rendere i derivati antidetonanti.
 Con antidetonante si intende la capacità di resistere ad alte pressioni senza esplodere.
 Questa caratteristica è indicata dal numero di ottani.
-Questa tecnica viene attuata ad alta temperatura, 750 - 800 gradi, o a bassa, 400 - 450 gradi.
+Questa tecnica viene attuata ad alta temperatura, 750 - 800 gradi Celsius, o a bassa, 400 - 450 gradi.
 Un esempio di benzina che ha subito il reforming è la benzina con piombo tetraetile.
 Non usata perché cancerogena.
 Per poter trasportare l'oro nero sono utilizzati dei tubi che percorrono sia il mare che la terra.
@@ -1663,7 +1663,7 @@ Provocando un abbassamento del livello del mare.
 E viceversa causando moltissimi squilibri ambientali.
 E molte migrazioni di animali.
 Il giorno 5 del mese di aprile nell'anno 2005.
-La primo F del Liceo Scientifico Tecnologico dell'Itis di Rieti.
+La prima F del Liceo Scientifico Tecnologico dell'Itis di Rieti.
 È andata a vedere il Parco Faunistico dei piani dell'Abatino.
 Abbiamo visto molti animali presi dalla Polizia Forestale.
 Mandati da centri di ricerca di tutta Europa.
@@ -9630,7 +9630,7 @@ Il primo deve insegnare e migliorare la tecnica.
 Il secondo deve migliorare i tempi di esecuzione degli stili.
 Per poter divenire allenatore bisogna prima conseguire la qualifica da istruttore (allievo, poi quello base).
 Successivamente si potrà conseguire la qualifica da allenatore.
-Prima quella di primo livello, poi quella di secondo livello).
+Prima quella di primo livello, poi quella di secondo livello.
 I corsi per allenatore li indice direttamente la FIN e bisogna effettuarli presso la sede centrale, a Roma.
 A differenza di quelli per istruttore che sono affidati alle singole regioni.
 Importante aspetto da tenere in considerazione.
