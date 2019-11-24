@@ -1584,7 +1584,7 @@ E anche perché non erano stati trovati molti fossili all'epoca (1925) in quel c
 Nel '59 vennero scoperti altri fossili in Africa e ciò confermò che era il continente della culla degli esseri umani.
 Venne scoperto tempo dopo un altro ominide chiamato Australopithecus Afarensis.
 Femmina databile sui 3 e 3,8 milioni di anni fa.
-Che era alta non più di 110 centimetri e che avrebbe potuto pesare sui 23 chili.
+Che era alta non più di 110 centimetri e che avrebbe potuto pesare sui 23 chiligrammi.
 Mentre, i maschi probabilmente il doppio di 23 kg.
 Successivamente vennero scoperti altri reperti catalogati come Autralopithecus Boisei e Australopithecus Robustus.
 Che vissero tra 1,75 e 1,8 milioni di anni fa.
@@ -4138,7 +4138,7 @@ Della necessità di raccontare storie.
 Continua a leggere Oltre ogni limite.
 Io vivo per l'attimo di silenzio che c'è prima dell'inizio di uno spettacolo o di un concerto o di una gara.
 È un momento di concentrazione massima.
-Non sfugge nulla, né al pubblico né agli attori atleti e performers.
+Non sfugge nulla, né al pubblico né agli attori, atleti e performers.
 Condivido con pochi il brivido che corre sottopelle in quel momento.
 Voglio di essere stupita.
 Non è l'aspettarsi che succeda qualcosa.
@@ -4691,7 +4691,7 @@ L'arcaico "tu sorella", o sorellam tua (sì, non è il termine latino esatto, ma
 Veniva spesso anche usato come malaugurio per auspicare a qualcuno di avere in casa una militante.
 La stessa accezione negativa può essere estesa anche a "tu zia", in questo caso il malaugurio è di avere una zia sovversiva.
 Tutti i peggiori avvenimenti di Roma si dice che furono progettati da questa setta segreta, la setta delle Toga Nigra.
-Dall'incendio di Roma del 64 avanti cristo.
+Dall'incendio di Roma del 64 avanti Cristo.
 Sotto Nerone, alla crisi idrica estiva del 2017 (riaccendete i nasoni per favore).
 Molti degli eventi più devastanti per la città di Roma furono causati da questo gruppo di Sabine arrabbiate.
 Si considerarono loro, le responsabili di tutti gli eventi negativi poiché.
@@ -5783,7 +5783,7 @@ Nella prima edizione era stata usata la chiave della grammatica.
 Nella seconda la punteggiatura.
 Questa volta, un argomento senz'altro più divertente: l'italiano delle canzoni.
 Sensibilizzare sull'uso corretto della lingua.
-È necessario in quest'epoca in cui, ad esempio, si usa sempre più spesso quest cosa.
+È necessario in quest'epoca in cui, ad esempio, si usa sempre più spesso questa cosa.
 Si scrivono tante parole sbagliate.
 Oppure non si esprime a pieno ciò che era nelle intenzioni.
 Anche a causa della modalità T9 del cellulare.
@@ -10350,8 +10350,8 @@ Richard Stallman ama definirsi l'ultimo degli hacker.
 Inizialmente si iscrive presso la prestigiosa università di Harvard.
 Stallman viene spinto dalla sua passione per i calcolatori.
 È insofferente verso burocrazia, assenza di cooperazione e di scambio culturale.
-Decide di trasferirsi presso il laboratorio di Intelligenza Artificiale del Mit.
-Mit è acronimo di Massachusetts Institute of Technology.
+Decide di trasferirsi presso il laboratorio di Intelligenza Artificiale del MIT.
+MIT è acronimo di Massachusetts Institute of Technology.
 Era all'epoca una comunità-baluardo degli hackers.
 Gli era stato offerto un posto come programmatore sistemista.
 Stallman racconta.
