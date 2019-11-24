@@ -13,6 +13,7 @@
 
         @media (--md-down) {
             flex-direction: column;
+            align-items: center;
 
             & .cta-container {
                 display: flex;
