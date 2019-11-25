@@ -151,7 +151,7 @@ contact = Contacto
 privacy = Confidentialitate
 terms = Terminos
 cookies = Cookies
-faq = Questiones frequente
+faq = FAQ
 content-license-text = Contento disponibile sub <licenseLink>licentia Creative Commons</licenseLink>
 share-title = Adjuta nos a trovar alteres pro donar lor voce!
 share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
@@ -353,7 +353,7 @@ change-email-setings = Cambia tu email via Configurationes sub Identitate de con
 
 ## FAQ
 
-faq-title = Questiones frequente
+faq-title = Folio a questiones
 faq-what-cv-q = Que es Common Voice?
 faq-what-cv-a = Le technologia de recognition de voce revolutiona nostre maniera de interager con machinas, ma le systemas actualmente disponibile es costose e proprietari. Common Voice face parte del initiativa de Mozilla pro render melior e plus accessibile a totes le technologias de recognition de voce. Common Voice es un enorme base de datos global de voces donate, que permitte a omnes de trainar rapide- e facilemente le applicationes activate per voce, potentialmente in omne lingua.
 faq-why-important-q = Perque es illo importante?
