@@ -84,7 +84,7 @@ export default class Challenge {
       challenge
     );
     const weeklyProgress = {
-      week: progress.week,
+      week: progress.week < 0 ? 0 : progress.week > 2 ? 2 : progress.week,
       user: {
         speak: progress.clip_count,
         speak_total: progress.week === 1 ? 50 : 100,
