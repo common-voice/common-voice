@@ -496,6 +496,7 @@
             width: 20%;
             display: flex;
             flex-direction: row;
+            white-space: nowrap;
 
             & .exact,
             & .rounded {
