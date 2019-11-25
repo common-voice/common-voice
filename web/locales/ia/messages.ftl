@@ -2,7 +2,7 @@
 
 yes-receive-emails = Si, que vos me invia emails. Io amarea restar informate circa le projecto Common Voice.
 stayintouch = Nos a Mozilla construe un communitate circum le technologias del voce. Nos placerea restar in contacto con le novas, nove datos fontes e saper plus circa como tu usa iste datos.
-privacy-info = Nos promitte de gerer tu informationes con cura. Lege plus in nostre <privacyLink>Advertentia de confidentialitate</privacyLink>.
+privacy-info = Nos promitte de gerer tu informationes con cura. Lege plus in nostre <privacyLink>aviso de confidentialitate</privacyLink>.
 return-to-cv = Retornar a Common Voice
 email-input =
     .label = Email
@@ -488,7 +488,7 @@ data-bundle-button = Discargar le pacco del collection de datos
 data-bundle-description = Le datos de Common Voice plus tote le altere collectiones de datos vocal precedente.
 license = Licentia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
-review-terms = Al usar Common Voice, tu accepta nostre <termsLink>Terminos de uso</termsLink> e le <privacyLink>Politica de confidentialitate</privacyLink>
+review-terms = Per usar Common Voice, tu accepta nostre <termsLink>terminos de uso</termsLink> e le <privacyLink>aviso de confidentialitate</privacyLink>
 terms-agree = Io accepta
 terms-disagree = Io non accepta
 review-aborted = Carga abortate. Desira tu vermente deler tu registrationes?
