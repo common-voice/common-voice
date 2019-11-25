@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Redirect } from 'react-router';
 import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
 import { Button, Checkbox } from '../ui/ui';
@@ -8,6 +9,7 @@ import { trackChallenge } from '../../services/tracker';
 import { useAccount, useAction } from '../../hooks/store-hooks';
 import { User } from '../../stores/user';
 import { Enrollment } from '../../../../common/challenge';
+import { useLocale } from '../locale-helpers';
 import {
   ChallengeTeamToken,
   challengeTeams,
@@ -30,6 +32,7 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
   const [hasAgreed, setHasAgreed] = useState<boolean>(false);
   const account = useAccount();
   const saveAccount = useAction(User.actions.saveAccount);
+  const [locale, toLocaleRoute] = useLocale();
 
   useEffect(() => trackChallenge('modal-welcome'), []);
 
@@ -63,7 +66,11 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
         const enrollObject = parseEnrollment(enrollmentDetails, referrer);
 
         saveAccount({ enrollment: enrollObject }).then(() => {
-          window.location.href = `/dashboard/challenge?challenge=${enrollObject.challenge}&achievement=1${referrerString}`;
+          const redirect = {
+            pathname: toLocaleRoute(URLS.DASHBOARD + '/' + URLS.CHALLENGE),
+            search: `?challenge=${enrollObject.challenge}&achievement=1${referrerString}`,
+          };
+          return <Redirect to="{redirect}" />;
         });
       } else {
         window.location.href = `/login${enrollmentDetails}${referrerString}`;
