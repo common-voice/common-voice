@@ -528,6 +528,7 @@ subscribe = Tz'ib'anïk b'i'aj
 get-started-speech = Tatikirisaj qa ri Retamaxik Ch'ab'äl
 other-datasets = Juley chik Ruyakb'al Kitzij Ch'ab'äl
 feedback-q = ¿La K'o Atzijol?
+common-voice-info-new = ¿La k'o ak'utunik chi rij ri Common Voice? ¿La k'o taq atzij richin nutziläx o taq rutzijol chi rij jun ch'ab'äl? Tatunu' awi' pa <discourseLink>Discourse qasolna'oj</discourseLink> richin natzijoj chi qe
 data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
 data-other-ted-name = TED-LIUM Korpus
 data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
@@ -635,6 +636,7 @@ listen-last-time-instruction = <playIcon></playIcon>¡Ri ruk'isib'äl!
 nothing-to-validate = Majun qatob'al richin niqajunamaj re ch'ab'äl re', ¡kojato'!
 record-button-label = Tayaka' ach'ab'äl
 share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
+keep-track-profile = Tawojqaj ri nab'än rik'in jun ruwäch ab'i'
 login-to-get-started = Tatikirisaj molojriïl o tatz'ib'aj ab'i' richin natikirisaj
 
 ## Reporting
@@ -711,6 +713,9 @@ lose-goal-progress-warning = We nanük' ri arayib'al, yatikïr nasüch ri ab'ano
 want-to-continue = ¿La nawajo' nab'än qa?
 finish-editing = ¿La nawajo' nab'ey nak'ïs nanük'?
 lose-changes-warning = We yatel wakami, xtisach ronojel ri jaloj
+build-custom-goal = Tinuk' jun ichinan rayib'äl
+help-reach-hours = Kato'on richin niq'i' { NUMBER($hours) } taq ramaj pa { $language } rik'in jun ichinan rayib'äl
+help-reach-hours-general = Kato'on richin chi ri Common Voice nuq'i' { NUMBER($hours) } taq ramaj pa jun ch'ab'äl ruma ri ichinan rayib'äl
 set-a-goal = Tijikib'äx jun rayib'äl
 cant-decide = ¿La man at jikïl ta?
 share-goal-type-speak = Ch'owen
