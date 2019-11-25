@@ -6,7 +6,6 @@ export const up = async function(db: any): Promise<any> {
     ALTER TABLE awards ADD CONSTRAINT awards_ibfk_2 FOREIGN KEY (custom_goal_id) REFERENCES custom_goals (id) ON DELETE CASCADE;
 
     ALTER TABLE clips DROP FOREIGN KEY clips_ibfk_2;
-    ALTER TABLE clips ADD CONSTRAINT clips_ibfk_2 FOREIGN KEY (client_id) REFERENCES user_clients (client_id) ON DELETE CASCADE;
 
     ALTER TABLE custom_goals DROP FOREIGN KEY custom_goals_ibfk_1;
     ALTER TABLE custom_goals ADD CONSTRAINT custom_goals_ibfk_1 FOREIGN KEY (client_id) REFERENCES user_clients (client_id) ON DELETE CASCADE;
