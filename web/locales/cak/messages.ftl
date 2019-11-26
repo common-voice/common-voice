@@ -745,11 +745,28 @@ share-goal-type-both = Ch'owen chuqa' Nak'axäx
 # LINK will be replaced with the current URL
 goal-share-text = Xintz'ük' jun nurayb'al richin ninya' ri ch'ab'äl chi re #CommonVoice -- tatunu' pe awi' richin yojato' yeqatijoj ri taq samajib'äl chi rij ri rub'eyal yech'o ri winaqi' { $link }
 weekly-goal-created = Xtz'uk ri wuqq'ijil arayb'al.
+daily-goal-created = Xtz'uk ri q'ij q'ij arayb'al.
+track-progress = Wawe' tawojqaj ri ab'anon chuqa' pa ri ruxaq molob'a'.
+return-to-edit-goal = Junelïk yatikïr nanük' ri arayb'al.
+share-goal = Tikomonïk ri nurayb'al
 
 ## Profile Delete
 
+delete-q = ¿La nawajo ye'ayüj el chuqa' ri yakoj taq ach'ab'äl o nawajo' chi keyak pa ri rucholxe' tzij Common Voice?
+keep = Tik'oje'
 remove = Tiyuj
+keep-info = Ri man etaman ta kiwäch ayakoj xkek'oje' pa ri rucholxe' rutzij Common Voice. Toq xatayüj ri ruwäch ab'i', man xkatikïr ta xtak'utuj chi keyuj el ri taq ayakoj pa ri rucholxe' tzij
+remove-info = Xtiqanik'oj ri ak'utuj richin yeqayüj el ri ruyakoj ach'ab'äl pa ri rucholxe' tzij. We nijikib'äx ri ak'utuj, xkojtzijon kik'in ri xeqasan ri rucholxe' tzij chuqa' xtiqak'utuj  chi ke chi kekiyuju' el ri ruyakoj ach'ab'äl.
+why-delete-recordings =
+    Ri taq ruyakoj Common Voice yekokisaj ri taq ajtij, ko'öl taq ajk'ayij, chuqa' ri ütz kik'u'x chi rij ri retamaxik ch'owen ch'ab'äl richin nito'on chi yeb'an chuqa' yenuk' taq tob'äl wachel chi kiwäch winaqi', achi'el rub'eyal ch'ab'äl.
+    
+    ¿La nawajo' nab'ij chi qe achike ruma nawajo' ye'ayüj el ri taq ayakoj?
 profile-form-delete = Tiyuj Ruwäch B'i'aj
 
 ## Landing
 
+welcome-staff = ¿Katan pe { $company } samajel?
+help-contribute = Yatikïr yato'on chi runuk'ik jalajöj rucholxe' tzij, ri jaqäl rub'itz'ib', rik'in natz'ük jun ruwäch ab'i' pa Common Voice richin yato'on rik'in ri ach'ab'äl.
+login-company = Tatikirisaj Molojri'ïl / Tatz'ib'aj Ab'i' rik'in ri { $company } taqoya'l
+profile-not-required = Man k'atzinel ta jun ruwäch ab'i' richin yato'on, po rik'in jub'a' nik'atzin.
+read-more-about = Tisik'ïx ch'aqa' chik pa Chi rij pa ri ruxaq
