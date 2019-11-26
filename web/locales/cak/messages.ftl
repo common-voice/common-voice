@@ -576,7 +576,9 @@ other-language = Ch'aqa' chik Ch'ab'äl
 ## Languages Overview
 
 language-section-in-progress = Nik'ïy
+language-section-in-progress-new-description = Re taq ch'ab'äl re ja yenuk' ruma ri tinamït. Ri rukajtz'ik samaj nuya' retal achike ri samajin pa <localizationGlossaryLink>rak'amaya'l tzalq'omanïk </localizationGlossaryLink> chuqa' <sentenceCollectionGlossaryLink>kimolik taq b'ab'</sentenceCollectionGlossaryLink>.
 language-section-launched = E'elesan
+language-section-launched-description = Chi ke re taq chab'äl elesan kitzijol, ri ajk'amaya'l ruxaq ütz <localizationGlossaryLink>xtzalq'omïx</localizationGlossaryLink>, chuqa' k'ïy <sentenceCollectionGlossaryLink>taq b'ab' xemol</sentenceCollectionGlossaryLink> richin <speakLink>Nich'ab'ëx</speakLink> chuqa' <listenLink>Nak'axäx</listenLink> ri taq sipanem.
 languages-show-more = Titz'et Ch'aqa' Chik
 languages-show-less = Titz'et Jub'a'
 language-meter-in-progress = Ruk'iyinem
@@ -685,6 +687,8 @@ your-languages = Taq Ach'ab'äl
 toward-next-goal = Pa ri jun chik rayib'äl
 clips-you-recorded = Taq Q'aptzij E'ayakon
 clips-you-validated = Taq Q'aptzij E'ajikib'an
+todays-recorded-progress = Rub'eyal eb'enäq ri yakon taq q'aptzij pa Common Voice
+todays-validated-progress = Rub'eyal eb'enäq ri jikib'an taq q'aptzij pa Common Voice
 stats = Taq Molob'a'
 awards = Taq Ch'akoj
 you = Rat
@@ -709,6 +713,7 @@ weekly-goal = Wuq'q'ij Rayib'äl
 easy-difficulty = Man K'ayew Ta
 average-difficulty = Loman
 difficult-difficulty = K'ayew
+pro-difficulty = Pro
 lose-goal-progress-warning = We nanük' ri arayib'al, yatikïr nasüch ri ab'anon chik.
 want-to-continue = ¿La nawajo' nab'än qa?
 finish-editing = ¿La nawajo' nab'ey nak'ïs nanük'?
@@ -718,9 +723,28 @@ help-reach-hours = Kato'on richin niq'i' { NUMBER($hours) } taq ramaj pa { $lang
 help-reach-hours-general = Kato'on richin chi ri Common Voice nuq'i' { NUMBER($hours) } taq ramaj pa jun ch'ab'äl ruma ri ichinan rayib'äl
 set-a-goal = Tijikib'äx jun rayib'äl
 cant-decide = ¿La man at jikïl ta?
+activity-needed-calculation =
+    Yatikïr naq'i' { NUMBER($totalHours) } taq ramaj pa jub'ama { NUMBER($periodMonths) }
+    jujun taq ik' we { NUMBER($people) } ri winaqi' yekitz'uk { NUMBER($clipsPerDay) } taq yakoj pa jun q'ij.
+how-many-per-day = ¡Yalan ütz! ¿Jarupe' taq yakoj pa jun q'ij?
+how-many-a-week = ¡Yalan ütz! ¿Jarupe' taq yakoj pa jun ik'?
+which-goal-type = ¿La nawajo' Yach'o, Nawak'axaj o chi ka'i' ruwa?
+receiving-emails-info =
+    Wakami ab'anon runuk'ulem richin ye'ak'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq 
+    ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
+not-receiving-emails-info =
+    Ri rub'anon anuk'ulem wakami nub'ij chi <bold>MAJUN</bold> ye'ak'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq 
+    ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
+n-clips = { NUMBER($count) } taq yakoj
+help-share-goal = Kojato' yeqïl ch'aqa' chik taq ch'ab'äl, takomonij ri arayb'al
+confirm-goal = Tijikib'äx Rayb'äl
+goal-interval-weekly = Wuqq'ijil
 share-goal-type-speak = Ch'owen
 share-goal-type-listen = Nak'asäx
 share-goal-type-both = Ch'owen chuqa' Nak'axäx
+# LINK will be replaced with the current URL
+goal-share-text = Xintz'ük' jun nurayb'al richin ninya' ri ch'ab'äl chi re #CommonVoice -- tatunu' pe awi' richin yojato' yeqatijoj ri taq samajib'äl chi rij ri rub'eyal yech'o ri winaqi' { $link }
+weekly-goal-created = Xtz'uk ri wuqq'ijil arayb'al.
 
 ## Profile Delete
 
