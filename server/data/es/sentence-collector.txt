@@ -2698,6 +2698,7 @@ No tiene nada que ver, estás confundiendo el tocino con la velocidad
 No tiene tanto dinero como ella.
 No todo el monte es orégano.
 No todo es susceptible de ser una propiedad privada.
+No utiliza cookies por defecto.
 No vamos hacia el camión.
 No vendas la piel de oso antes de haberlo cazado.
 No vendré temprano porque me gusta dormir.
@@ -2975,6 +2976,7 @@ Progresaremos mediante su influencia.
 Prometer hasta meter y una vez metido, olvidar lo prometido
 Protejo a la galaxia de la amenaza de invasión...
 Pude perder mis globos oculares...
+Puede haber malware en el archivo, de modo que verifica
 Puede que a los cantantes
 Puede que se trate solo de una mala negociación
 Puedes ampliar el rango de búsqueda utilizando otros buscadores
@@ -3569,6 +3571,7 @@ Todo el mundo habla de dignidad, estos días.
 Todo era silencio, no se sentía ni un alma.
 Todo ese campo está lleno de pinos.
 Todo eso de que el derecho penal se basa en el principio de proporcionalidad
+Todo hace indicar
 Todo lo de esa tienda es de mírame y no me toques
 Todo queda en casa
 Todo queda en familia
@@ -4796,6 +4799,7 @@ echad una mano, no creo que sea para quejarse.
 echando la culpa a un ataque profesional y organizado
 echo un polo del fondo marino.
 edificio palaciego con una bonita fachada neoclásica
+eduquen a una sociedad que no cuenta con una formación afectivo-sexual
 eh, vamos... ven ...
 el Conde Drácula llame parásitos a los mosquitos
 el Contestador Telefónico Automático nos distingue
@@ -4840,6 +4844,7 @@ el desmonte que se está haciendo para la construcción
 el dieciocho de septiembre.
 el diente. entonces
 el director del instituto me respondió
+el dueño, de muy buena fe
 el eco retozón de los cencerros acompañaba las apuestas y decires chalanescos
 el edificio cercano al puente romano que está siendo emparedado
 el encaminamiento entre las usuarias no revela su identidad
@@ -5530,6 +5535,7 @@ han pasado muchas horas.
 han sido invadidas por el movimiento de tierras
 han sido las malas compañías
 has de usarlo para navegar sin dejar mensajes a los desconocidos
+has de verificarlo para asegurarte de que no hay malware
 hasta convertirse en ansia vaga de amor ideal y poético.
 hasta luego, chicos. hasta luego .
 hasta me parece que cerrando los ojos, el recuerdo se aviva y cobra relieve.
@@ -5611,6 +5617,7 @@ hemos visto morir a... a cientos de personas .
 hemos vivido el mismo peso, sientes lo mismo que yo.
 herejes y mercaderes en el puente, herejes y mercaderes en la cámara.
 hermanito. dice hermanito . anda ...
+herramienta fue desarrollada para bloquear cualquier código malicioso
 hijo, mira , a un filipino una vez , le puse la boca...
 hijo, ve pagando...
 hizo que Internet suspirara de alivio
@@ -6016,6 +6023,7 @@ lo que pasa es que no funciona la mierda del grifo y...
 lo que puedes llegar a conocer a una persona en una barca
 lo que queremos todos:
 lo que quiero decir es que... no como a un baboso salido
+lo que sí quese puede es generar nuevos contenidos desde la igualdad
 lo que tenemos que hacer ahora es salvar el barco.
 lo recojo yo. ah, no , no .
 lo recomendable es que cumpla los siguientes requisitos
@@ -7371,6 +7379,7 @@ se aportaron soluciones sobre recuperación de esas costas
 se aprobaron diversas mociones
 se asomó a la ventana, y mirando hacia el camino guardó silencio.
 se confunden entre las personas
+se consensue una propuesta que mejore la movilidad
 se construye, al menos, la estructura comunicativa
 se consumen sin volver a besarla.
 se convierte en una inaprensible cualidad del ser
@@ -7445,6 +7454,7 @@ sentóse sobre el arcón, y dejó el vaso a su lado:
 será uno de los pocos cortijos centenarios que quedan
 serán las cabezas de turco
 sería tan corta la de los dos...
+sería una consecuencia de ese debate
 señor, deténgase en los umbrales.
 señor, el ruano que montaba la Niña tiene desenclavada una herradura...
 señor, mal se verá para seguirme , porque parto en el mero instante.
@@ -7489,6 +7499,7 @@ si no es del barrio, es un auténtico calvario lograr que alguien le atienda
 si no fueras de noche sola por la calle.
 si no hay otra cosa que podamos hacer...
 si no hubieras estado borracha.
+si no la tienes puedes usar un pendrive vacío y un programa de grabación
 si no nos sube al barco...
 si no podemos salir, entonces tendremos que morirnos.
 si no te he podido convencer
@@ -7846,6 +7857,7 @@ todo él está basado en construir más aparcamientos en todos los espacios
 todos aquellos indios hubieran seguido de buen grado al raptor de la Niña Chole.
 todos dentro del barco, ¡ ya! ¡ vamos , vamos !
 todos los demás conceptos se disparan
+todos los expedientes de demolición pasan por pleno
 todos merecemos que alguien nos vele una vez muertos.
 todos sabemos que
 todos sabemos que has estado mucho tiempo aislado en un barco.
@@ -9350,6 +9362,7 @@ yo ya no puedo estar contigo.
 ¿Vamos a la playa?
 ¿Viste el amanecer en este pueblo entre montañas?
 ¿Viste las señas?
+¿Y cómo lo puedo meter en un pendrive?
 ¿Y ese quién es? Seguro que en su casa lo conocen
 ¿Y si lo discutimos todo tomándonos unas Moritz?
 ¿Y te han hecho pagar por unos pantalones desgarrados?
@@ -9362,6 +9375,7 @@ yo ya no puedo estar contigo.
 ¿cuánto dinero ganan los cantantes por la venta de sus discos?
 ¿cómo actuamos con las personas alienadas de cara al público?
 ¿hay alguna forma de detectar que se está cometiendo esta infracción?
+¿hay manera de instalarlo en un pendrive?
 ¿incentiva su creación o la asfixia?
 ¿podemos vernos mañana un ratito y hablamos sobre esto?
 ¿pueden dos personas con poderes telepáticos transmitirse el tono  de una canción?

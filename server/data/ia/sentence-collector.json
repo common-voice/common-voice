@@ -1,5 +1,20 @@
 [
   {
+    "valid": ["Melo46", "Anna"],
+    "source": "Inspirate per le lectura de litteratura libere",
+    "invalid": [],
+    "approved": true,
+    "sentence": "Plure linguas separa le humanos, interlingua reuni le humanitate",
+    "username": "Melo46",
+    "createdAt": 1574287433418,
+    "approvalDate": 1574287455769,
+    "Sentences_Meta_UserVote_Anna": true,
+    "Sentences_Meta_UserVote_Melo46": true,
+    "Sentences_Meta_UserVoteDate_Anna": 1574287455769,
+    "id": "b32cbb912044c05d7c196255f9aa95537431abae5f91f0ddde037c3015854e0b",
+    "last_modified": 1574287457917
+  },
+  {
     "valid": ["shekitten", "Anna"],
     "source": "https://catherinebkrause.com/portfolio/non-english-poetry/gilets/",
     "invalid": [],
