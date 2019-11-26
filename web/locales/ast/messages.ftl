@@ -532,6 +532,7 @@ overall-hr-total = Hrs totales en xeneral
 cv-license = Llicencia
 audio-format = Formatu d'audiu
 number-of-voices = Númberu de voces
+splits = Dixebres
 email-to-download = Introducir un corréu pa baxar
 why-email = <b>¿Por qué un corréu?</b> Precisamos tener una forma de contautate nel futuru tocante a los cambeos que se faigan nel conxuntu de datos.
 confirm-size = Toi preparáu p'aniciar la descarga de <b>{ $size }</b>
@@ -756,6 +757,7 @@ which-goal-type = ¿Quies Falar, Sentir o dambos?
 receiving-emails-info = Anguaño <bold>TAS</bold> recibiendo correos tocante a Common Voice
 not-receiving-emails-info = Anguaño <bold>NUN</bold> tas recibiendo correos tocante a Common Voice
 n-clips = { NUMBER($count) } clips
+help-share-goal = Ayúdanos a alcontrar más voces. Comparti la meta
 confirm-goal = Confirmar la meta
 goal-interval-weekly = Selmanalmente
 # LINK will be replaced with the current URL
