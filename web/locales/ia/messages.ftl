@@ -303,12 +303,12 @@ why-profile-text = Si tu forni alcun informationes sur te, le datos audio que tu
 dashboard = Tabuliero
 build-profile = Crear le profilo
 avatar = Avatar
-goals = Propositos
+goals = Objectivos
 settings = Parametros
 edit-profile = Rediger le profilo
 profile-create-success = Profilo create con successo
 profile-close = Clauder
-profile-explanation = Mantene tracia de tu progresso con un profilo e adjuta nostre datos de voce a ser plus accurate.
+profile-explanation = Tracia tu progresso con un profilo e adjuta nostre datos de voce a devenir plus accurate.
 thanks-for-account = Gratias pro haber confirmate tu conto. Ora, que nos crea tu profilo.
 why-demographic = Proque es isto relevante?
 why-demographic-explanation = Le datos anonyme del usator como le etate, sexo e accento adjuta a meliorar le datos audio usate pro augmentar le precision del motores de recognition de voce. Tu nomine de usator e adresse de e-mail non essera jammais associate al datos que tu ha submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
@@ -647,21 +647,21 @@ listen-3rd-time-instruction = 2 minus, retene lo alte!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ultimo!
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
 record-button-label = Registra tu voce
-share-title-new = <bold>Adiuta nos</bold> a trovar altere voces
-keep-track-profile = Tene tracia de tu progresso con un profilo
-login-to-get-started = Accede o registrate pro comenciar
+share-title-new = <bold>Adjuta nos</bold> a trovar plus voces
+keep-track-profile = Tracia tu progresso con un profilo
+login-to-get-started = Aperi session o inscribe te pro comenciar
 
 ## Reporting
 
-report = Reporto
+report = Signalar
 report-title = Invia un reporto
 report-ask = Qual problemas ha tu con iste phrase?
 report-offensive-language = Linguage offensive
 report-offensive-language-detail = Le phrase usa un linguage irrespectuose o offensive.
 report-grammar-or-spelling = Error grammatical o de orthographia
-report-grammar-or-spelling-detail = La phrase ha un error grammatical o de orthographia.
-report-different-language = Lingua diverse
-report-different-language-detail = Es scribite in un lingua diverse ab illo que io parla.
+report-grammar-or-spelling-detail = Le phrase ha un error grammatical o de orthographia.
+report-different-language = Altere lingua
+report-different-language-detail = Es scribite in un lingua differente de illo que io parla.
 report-difficult-pronounce = Difficile a pronunciar
 report-difficult-pronounce-detail = Contine parolas o phrases difficile a leger o pronunciar.
 report-offensive-speech = Discurso offensive
@@ -670,7 +670,7 @@ report-other-comment =
     .placeholder = Commento
 success = Successo
 continue = Continuar
-report-success = Le reporto passava con successo!
+report-success = Le reporto ha essite inviate, gratias!
 
 ## Goals
 
