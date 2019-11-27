@@ -134,8 +134,12 @@ class ListenPage extends React.Component<Props, State> {
     trackListening('listen', this.props.locale);
   };
 
-  private vote = (isValid: boolean) => {
+  private vote = async (isValid: boolean) => {
     const { clips } = this.state;
+    const clipIndex = this.getClipIndex();
+
+    this.stop();
+    await this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
     const {
       firstContribute,
       hasAchieved,
@@ -143,10 +147,6 @@ class ListenPage extends React.Component<Props, State> {
       api,
       firstStreak,
     } = this.props;
-    const clipIndex = this.getClipIndex();
-
-    this.stop();
-    this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
     sessionStorage.setItem('hasContributed', 'true');
     if (firstContribute) {
       addAchievement(
