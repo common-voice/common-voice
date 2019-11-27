@@ -288,7 +288,7 @@ profile-form-gender =
     .label = Genere
 leaderboard-visibility =
     .label = Visibilitate in le tabula de classification
-hidden = Occulte
+hidden = Celate
 visible = Visibile
 native-language =
     .label = Lingua native
@@ -709,9 +709,9 @@ recorded-clips = Retalios registrate
 validated-clips = Retalios validate
 total-approved = Total approbate
 overall-accuracy = Precision general
-set-visibility = Definir ma visibilitate
+set-visibility = Definir mi visibilitate
 visibility-explainer = Iste configuration controla tu visibilitate in le classification. Quando definite como 'celate', tu progresso restara private. Isto vole dicer que tu imagine, nomine de usator e progresso non apparera in le classification. Nota que le classification prende circa { $minutes } minutas pro actualisar se.
-visibility-overlay-note = Nota: Quando definite 'Visibile', iste configuration pote ser cambiate ab le <profileLink>Pagina del profilo</profileLink>
+visibility-overlay-note = Nota: Quando definite como 'Visibile', iste configuration pote esser cambiate sur le <profileLink>pagina de profilo</profileLink>
 show-ranking = Monstrar mi classification
 
 ## Custom Goals
