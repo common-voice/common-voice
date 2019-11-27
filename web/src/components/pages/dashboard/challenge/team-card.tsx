@@ -25,11 +25,13 @@ export default function TeamboardCard({
   showVisibleIcon,
   showOverlay,
   week,
+  challengeComplete,
 }: {
   title: string;
   showVisibleIcon?: boolean;
   showOverlay?: (event: React.MouseEvent<HTMLInputElement>) => void;
   week?: number;
+  challengeComplete?: boolean;
 }) {
   const account = useAccount();
 
@@ -108,6 +110,7 @@ export default function TeamboardCard({
             service="top-teams"
             ref={teamboardRef}
             team
+            challengeComplete={challengeComplete}
             week={week}
           />
         </div>

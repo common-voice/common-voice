@@ -1,5 +1,6 @@
 export interface WeeklyChallenge {
   week: number;
+  challengeComplete: boolean;
   user: {
     speak: number;
     speak_total: number;

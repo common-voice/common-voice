@@ -144,6 +144,7 @@ function ChallengePage(props: Props & RouteComponentProps<any>) {
               <TeamBoardCard
                 title="Overall Challenge Top Team"
                 week={weekly.week}
+                challengeComplete={weekly.challengeComplete}
               />
             )}
           </div>
