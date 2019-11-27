@@ -307,7 +307,6 @@ In possesso, ove previsto, di permesso di soggiorno in corso di validità.
 Sì, è necessario verificare l'identità del beneficiario tramite il confronto del nome e cognome presenti nel buono.
 Buono d'acquisto.
 Ed i riferimenti del documento d'identità esibito dal diciottenne.
-Questi ruoli possono richiedere specializzazioni verticali su temi specifici (esempio visual design).
 Trasversali in grado di coprire diversi aspetti all'interno del processo progettuale.
 Dalla ricerca alla prototipazione.
 Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo.
@@ -9666,7 +9665,6 @@ Con la testa immersa in acqua e bisogna regolare la respirazione (bocca-naso).
 Le gambe non smettono mai di muoversi, in qualunque fase.
 La bracciata si differenzia in 4 fasi.
 Nella fase di presa la mano entra leggermente ruotata.
-Circa 30 gradi sul piano trasverso.
 Come se si stessa per afferrare qualcosa.
 Quindi la mano ruota leggermente.
 Sul piano sagittale e coronale.
@@ -9931,7 +9929,6 @@ Poiché il nuoto stesso era differente.
 Per i motivi di cui sopra verranno analizzati alcuni nuotatori attuali.
 Adam Peaty è un nuotatore inglese ranista fortissimo.
 È sicuramente il più forte e il miglior ranista di tutti i tempi.
-Detiene i record mondiali sui 50 metri e 100 metri.
 La sua specializzazione è, appunto, la rana a breve distanza.
 È stato il primo ranista a scendere sotto il minuto nei 100m.
 Gregorio Paltrinieri è un nuotatore italiano.
@@ -11104,7 +11101,6 @@ Per questi motivi, tali considerazioni sono giudicate poco utili e non vengono r
 I requisiti minimi di sistema per l'installazione delle suite in esame sono riportati dai manuali ufficiali.
 Dal punto di vista dell'integrazione con il resto del sistema non sono rilevabili significative differenze.
 Entrambe si integrano con i browser Internet, con i programmi di gestione del sistema e con il sistema operativo stesso.
-
 La compatibilità dei documenti tra le diverse suite di produttività è argomento di grande importanza.
 In tabella si riepilogano le estensioni predefinite dei file prodotti dalle due suite.
 Le estensioni elencate indicano il formato di default in cui le suite di produttività salvano i documenti prodotti.
