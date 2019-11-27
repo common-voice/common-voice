@@ -69,6 +69,7 @@ ia = Interlingua
 id = Endonezce
 is = İzlandaca
 it = İtalyanca
+izh = İngrice
 ja = Japonca
 ka = Gürcüce
 kab = Berberice
@@ -82,9 +83,12 @@ lij = Liguryanca
 lt = Litvanca
 lv = Letonca
 mdf = Mokşa
+mg = Malgaşça
+mhr = Ova Marice
 mk = Makedonca
 ml = Malayalam
 mn = Moğolca
+mrj = Dağlık Marice
 mt = Maltaca
 myv = Erzyanca
 nb-NO = Norveç Bokmål
@@ -116,6 +120,7 @@ tg = Tacikçe
 th = Tayca
 tr = Türkçe
 tt = Tatarca
+uby = Ubıhça
 udm = Udmurtça
 uk = Ukraynaca
 ur = Urduca
@@ -199,6 +204,7 @@ x-years-short =
 help-make-dataset = Kaliteli, herkese açık bir veri kümesi oluşturmamıza yardım edin
 sign-up-account = Hesap açın
 email-subscription-title = e-posta haberlerine kaydolun
+email-subscription-title-new = Common Voice haber bültenleri, hedef hatırlatmaları ve ilerleme durumu için kaydolun
 
 ## Account Benefits
 
