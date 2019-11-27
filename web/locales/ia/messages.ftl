@@ -66,7 +66,7 @@ ha = Hausa
 he = Hebreo
 hi-IN = Hindi
 hr = Croata
-hsb = Sorbio, basse
+hsb = Sorbio, alte
 hu = Hungaro
 ia = Interlingua
 id = Indonesiano
@@ -142,7 +142,7 @@ zh-TW = Chinese (Taiwan)
 
 speak = Parla
 speak-now = Parla ora
-datasets = Collection de datos
+datasets = Collectiones
 languages = linguas
 about = A proposito
 profile = Profilo
@@ -216,7 +216,7 @@ benefits = Beneficios
 rich-data = Rende plus ric possibile tu datos inviate, per qualque informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que render illos public.
 improve-audio = Le informationes del profilo meliora le precision del datos audio usate pro le exercitation del recognition de voce.
 keep-track = Tracia tu progresso e metricas inter plure linguas.
-compare-progress = Vide como tu progresso es comparabile a altere collaboratores de tote le mundo.
+compare-progress = Compara tu progresso a illo de altere contributores in tote le mundo.
 view-goals = Vide tu progresso contra scopos personal e de projecto.
 join-newsletter = Optionalmente junge te a nostre lista email pro le actualisationes e nove informationes re le projecto.
 
@@ -386,13 +386,16 @@ faq-why-10k-hours-a = Perque le objectivo pro capturar audio es 10,000 horas val
 faq-how-calc-hours-q = Como Common Voice calcula le horas?
 faq-how-calc-hours-a = Nos calcula le horas per estimar le longitude medie de cata registration, e pois multiplicar ille numero per le numero total de registrationes inter tote le linguas.
 faq-where-src-from-2-q = Ab ubi veni le texto fonte?
-faq-where-src-from-2-a = Nostre texto fonte es producite per donationes de nostre collaboratores voluntari e per dialogos de films de public dominio como <italic>It’s a Wonderful Life</italic>.
+faq-where-src-from-2-a =
+    Nostre texto fonte se compone de donationes original de contributores assi como dialogos de films de a dominio public como <italic>It’s a Wonderful Life</italic>.
+    
+    Tu pote vider nostre phrases fonte in iste <githubLink>dossier de GitHub</githubLink>.
 faq-why-not-ask-read-q = Perque non demanda tu al personas de leger ex libros o articulos de Wikipedia in differente linguas?
 faq-why-not-ask-read-a = Pro render le collection de datos de Common Voice le plus utile possibile, nos ha decidite de permitter solmente texto fonte que es disponibile sub licentia Creative Commons (CC0). Usar le standard CC0 significa que il es plus difficile trovar e colliger texto fonte, ma permitte a quicunque de usar le datos vocal resultante sin restrictiones o autorisation de Mozilla. Al fin, nos vole render le collection de datos multilingue le plus utile possibile pro totes, includente recercatores, universitates, interprisas emergente, governamentos, organisationes de propositos social e hobbyistas.
 faq-why-account-q = Proque deberea io inscriber me pro un conto?
 faq-is-account-public-q = Es le informationes de mi conto public?
 faq-how-privacy-q = Como assecura vos le anonymitate e le confidentialitate del personas qui dona lor voces?
-faq-how-privacy-a = Tote le retalios vocal in le collection de datos es depurate de informationes personal. Quando un collaborator forni datos demographic via su profilo, ille informationes es disassociate de su retalios vocal ante de esser paccate pro discargamento in le collection de datos e non es jammais rendite public sur su pagina de profilo.
+faq-how-privacy-a = Tote le retalios vocal in le collection de datos es depurate de informationes personal. Quando un contributor forni datos demographic via su profilo, ille informationes es disassociate de su retalios vocal ante de esser impacchettate in le collection de datos discargabile e non es jammais rendite public sur su pagina de profilo.
 faq-what-determine-identity-q = Que significa que io non pote “determinar le identitate” del parlantes in le collection de datos de Common Voice?
 faq-what-determine-identity-a =
     Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote esser usate pro trainar un grande varietate de applicationes con activation vocal. Pro proteger le securitate de nostre contributores, nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del contributores.
@@ -414,7 +417,7 @@ about-header-description =
 how-does-it-work-title = Como functiona illo?
 how-does-it-work-text = Nos face un grande collecta open-source de voces donate. Dona tu voce, valida le precision del retalios vocal del alteres, rende melior le collection de datos pro totes!
 about-speak = Parlar
-about-speak-text = Le collaboratores registra retalios vocal legente ab un banca de phrases donate.
+about-speak-text = Contributores registra retalios vocal legente ab un banca de phrases donate.
 about-listen-queue = Cauda pro le ascolta
 about-listen-queue-text = Le retalios vocal es introducite in un cauda de invio que los appresta pro le ascolta.
 about-listen = Ascoltar
@@ -529,9 +532,9 @@ validated-hours = Horas validate
 recorded-hours = Horas registrate
 whats-inside = Que es intra le collection de datos de Common Voice?
 dataset-description-hours =
-    Cata entrata in le collection de datos consiste solo de un MP3 e del file de texto correspondente. Multe del horas <b>{ $total }</b> registrate in le collection de datos alsi include metadatos demographic como etate, sexo e accento, que pote adjutar a maestrar le precision del motores de recognition del voce.
+    Cata entrata in le collection de datos consiste de un file MP3 unic e su file de texto correspondente. Multes del <b>{ $total }</b> horas registrate in le collection etiam include metadatos demographic como etate, sexo e accento, que pote adjutar a trainar le precision del motores de recognition del voce.
     
-    Le collection de datos actualmente consiste de <b>{ $valid }</b> horas validate in <b>{ $languages }</b> linguas, ma nos adde sempre altere voces e linguas. Perspice nostre <languagesLink>Pagina del linguas</languagesLink> pro requirer un lingua o pro initiar a collaborar.
+    Le collection de datos actualmente consiste de <b>{ $valid }</b> horas validate in <b>{ $languages }</b> linguas, ma nos adde sempre altere voces e linguas. Jecta un reguardo a nostre <languagesLink>pagina de linguas</languagesLink> pro requestar un lingua o pro comenciar a contribuer.
 want-dataset-update = Desira tu le actualisationes quando nos publica un nove version del collection de datos de Common Voice? Inscribe te a nostre littera de novas.
 subscribe = Subscriber se
 get-started-speech = Comenciar con le Recognition de voce
@@ -604,7 +607,7 @@ total-hours = Numero total de horas
 
 action-click = Clic
 action-tap = Tocca
-contribute = Collabora
+contribute = Contribuer
 listen = Ascolta
 skip = Saltar
 shortcuts = Accessos directe
@@ -703,8 +706,8 @@ stats = Statistica
 awards = Tropheos
 you = Tu
 everyone = Totes
-contribution-activity = Activate de collaboration
-top-contributors = Principal collaboratores
+contribution-activity = Activate de contribution
+top-contributors = Principal contributores
 recorded-clips = Retalios registrate
 validated-clips = Retalios validate
 total-approved = Total approbate
@@ -775,5 +778,5 @@ profile-form-delete = Deler le profilo
 welcome-staff = Benvenite staff de { $company }!
 help-contribute = Tu pote adjutar a producer un collection de datos open-source, diverse, per le creation de un profilo Common Voice e contribuente per tu voce.
 login-company = Accede / Inscribe te con le<t0/> email de { $company }
-profile-not-required = Haber un profilo non es obligatori pro collaborar ben que illo sia utile
+profile-not-required = Haber un profilo non es necessari pro contribuer, ma es utile; lege proque hic infra.
 read-more-about = Lege plus in nostre pagina: A proposito
