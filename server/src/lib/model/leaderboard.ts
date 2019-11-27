@@ -303,6 +303,13 @@ export const getTopTeamsLeaderboard = lazyCache(
     return (await getTopTeams(challenge)).map((row, i) => ({
       position: i,
       ...row,
+      // Cast computed points and rankings from strings to numbers.
+      w1: Number(row.w1),
+      w2: Number(row.w2),
+      w3: Number(row.w3),
+      w1_points: Number(row.w1_points),
+      w2_points: Number(row.w2_points),
+      w3_points: Number(row.w3_points),
     }));
   },
   CACHE_TIME_MS
