@@ -504,6 +504,12 @@ review-delete-recordings = Keyuj ri taq nuyakoj
 ## Datasets Page
 
 datasets-headline = Niqanük' jun kicholxe' rutzij ch'ab'äl, ri jaqäl chuqa' wachel pa k'ïy ch'ab'äl, ri xab'achike nitikïr nrokisaj richin yerutijoj taq chokoy, nikokisaj ri ch'ab'äl pa ruk'amal.
+datasets-positioning =
+    Niqana'ojij chi ri nima'q chuqa' okel taq rucholxe' tzij kuma winaqi' xtunimirisaj ri tz'ukuj chuqa' jun raxinäq junamaxik k'ayij chi kikojol ri runa'ob'al ch'ab'äl, akuchi' pa yonil netamäx.
+    
+    Ri rucholxe' rutzij k'ïy ch'ab'äl richin ri Common Voice, ja ri' ri janila nïm pa ri ruwäch ri' pa man xa ruyon ta.
+    
+    Tatz'eta re ruxaq re' achi'el jun runik'ajal ketal ch'aqa' chik taq rucholxe' tzij, jaqäl richin ch'ab'äl, ri Common Voice nik'iyïr chuqa' nik'atzin achi'el ruxe' richin ri kik'exoj ri taq ruwäch.
 language = Ch'ab'äl
 # File size in gigabytes
 size = Nimilem
