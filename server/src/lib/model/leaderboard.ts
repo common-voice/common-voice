@@ -205,16 +205,16 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
               @point1 := w1_points AS w1_points
             FROM (
                 SELECT teams.id, teams.name,
-                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 1, challenges.start_date)) * points) AS w1_points,
-                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 2, challenges.start_date)) * points) AS w2_points,
-                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)) * points) AS w3_points
+                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 2, challenges.start_date)) * points) AS w1_points,
+                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)) * points) AS w2_points,
+                    SUM((earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 4, challenges.start_date)) * points) AS w3_points
                 FROM challenges
                 LEFT JOIN teams ON challenges.id = teams.challenge_id
                 LEFT JOIN earn ON earn.team_id = teams.id
                     AND earn.client_id IS NULL
-                    AND earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 3, challenges.start_date)
+                    AND earned_at BETWEEN challenges.start_date AND TIMESTAMPADD(WEEK, 4, challenges.start_date)
                 LEFT JOIN achievements ON achievements.id = earn.achievement_id
-                    AND achievements.challenge_id = challenges.id 
+                    AND achievements.challenge_id = challenges.id
                 WHERE challenges.url_token = ?
                 GROUP BY teams.id, teams.name
                 ORDER BY w1_points DESC
