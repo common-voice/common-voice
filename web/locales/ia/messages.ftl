@@ -397,7 +397,7 @@ faq-what-determine-identity-q = Que significa que io non pote “determinar le i
 faq-what-determine-identity-a =
     Le collection de datos de Common Voice es un ressource aperte e publicamente disponibile que pote esser usate pro trainar un grande varietate de applicationes con activation vocal. Pro proteger le securitate de nostre contributores, nos demanda a totes qui discarga le collection de datos de Common Voice de respectar le confidentialitate del contributores.
     
-    Tote le retalios de voce in le insimul de datos es expurgate de informationes personal. Quando tu discarga le insimul de datos, tu consenti a nunquam tentar de determinar le identitate de alcun contributor. Isto significa que tu non es autorisate a ligar informationes in le insimul de datos al information personal de un contributor. Nonobstante, tu pote usar le insimul de datos pro trainar un programma de recognition de voce, del persona parlante, o altere cosa, ligante, per exemplo, le informationes in le insimul de datos a a altere informationes jam presente in le insimul de datos.
+    Tote le retalios de voce in le collection de datos es expurgate de informationes personal. Quando tu discarga le collection de datos, tu consenti a nunquam tentar de determinar le identitate de alcun contributor. Isto significa que tu non es autorisate a ligar informationes in le collection de datos al information personal de un contributor. Nonobstante, tu pote usar le collection de datos pro trainar un programma de recognition de voce o de parlator o altere applicationes, ligante, per exemplo, le informationes in le collection de datos a altere informationes jam presente in le collection de datos.
 faq-what-is-cv = Que es Common Voice?
 faq-using-cv = Uso de Common Voice
 faq-description = Common Voice es parte del initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real.
@@ -420,14 +420,14 @@ about-listen-queue-text = Le retalios vocal es introducite in un cauda de invio 
 about-listen = Ascoltar
 about-listen-text = Le usatores valida le precision del retalios donate e controla que le lector lege le phrase correctemente.
 about-is-it-valid = Es le retalio valide?
-about-is-it-valid-text = Un retalio vocal es marcate "valide" quando un usator da illo un voto Si.
+about-is-it-valid-text = Un retalio vocal es marcate como "valide" quando un usator lo da un voto Si.
 about-yes-votes = ≥ 2 votos Si
-about-yes-votes-text = Pro lo introducer in le collection de datos de Common Voice, un retalio vocal debe ser validate per duo diverse usatores.
+about-yes-votes-text = Pro esser includite in le collection de datos de Common Voice, un retalio vocal debe esser validate per duo usatores differente.
 about-no-votes = ≥ 2 votos No
-about-no-votes-text = Quando un usator rejecta un retalio vocal illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es movite al Cemeterio del retalios.
+about-no-votes-text = Quando un usator rejecta un retalio vocal, illo retorna al Cauda. Si rejectate un secunde vice, le retalio vocal es transferite al Cemeterio de retalios.
 about-dataset-new = Collection de datos de Common Voice
 about-dataset-new-text = Le Collection de datos de Common Voice contine centenas de milles de exemplos de voce que adjuta le disveloppatores a crear applicationes de recognition vocal.
-about-clip-graveyard = Cemeterio del retalios
+about-clip-graveyard = Cemeterio de retalios
 about-clip-graveyard-text = Le Cemeterio del retalios consiste de retalios vocal que non es admittite in le collection de datos de Common Voice. Justo como le collection de datos, le Cemeterio del retalios es disponibile pro discarga.
 about-partners = Partners
 about-become-a-partner = Deveni un partner
