@@ -157,7 +157,7 @@ share-title = Adjuta nos a trovar alteres pro donar lor voce!
 share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
 link-copied = Ligamine copiate
 back-top = Receder al initio
-logout = Disconnexion
+logout = Clauder session
 
 ## Home Page
 
@@ -300,7 +300,7 @@ female = Feminin
 other = Altere
 why-profile-title = Perque un profilo?
 why-profile-text = Si tu forni alcun informationes sur te, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
-dashboard = Quadro de controlo
+dashboard = Tabuliero
 build-profile = Crear le profilo
 avatar = Avatar
 goals = Propositos
