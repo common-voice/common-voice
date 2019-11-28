@@ -112,7 +112,6 @@ module "database" {
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
   instance_class         = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
   allocated_storage      = "${var.environment == "prod" ? "100" : "32"}"
-  engine_version         = "5.7"
 }
 
 module "clips" {
