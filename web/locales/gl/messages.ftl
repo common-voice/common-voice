@@ -2,7 +2,7 @@
 
 yes-receive-emails = Si, envíeme correos. Gustaríame estar informado sobre o proxecto Common Voice.
 stayintouch = En Mozilla estamos a construír unha comunidade arredor da tecnoloxía de voz. Gustaríanos estar en contacto para as actualizacións, novas fontes de datos e escoitarte sobre como está a usar estes datos.
-privacy-info = Prometemos manexar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
+privacy-info = Prometemos xestionar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
 return-to-cv = Volver a Common Voice
 email-input =
     .label = Correo
@@ -95,7 +95,6 @@ nn-NO = Nynorsk noruego
 oc = Occitano
 or = Oriya
 pl = Polaco
-pt-BR = Portugués (Brasil)
 rm-sursilv = Romanche Surselvano
 ro = Romanés
 ru = Ruso
@@ -108,6 +107,7 @@ sl = Esloveno
 sq = Albano
 sr = Serbio
 sv-SE = Sueco
+syr = Sirio
 ta = Tamil
 te = Telugu
 tg = Taxico
@@ -313,8 +313,6 @@ skip-submission-description = Durante o envío da súa colaboración, saltaremos
 skip-submission-note = Nota: Necesitará seleccionar entre Falar ou Escoitar para cambiar o tipo de colaboración.
 off = Apagado
 on = Aceso
-add-avatar-title = Engadir un avatar ao seu perfil
-add-avatar-clip = Engadir un clip de avatar ao seu perfil
 browse-file-title = Cargar un ficheiro de imaxe
 browse-file = Arrastrar e soltar ou <browseWrap>Navegar</browseWrap>
 connect-gravatar = Conectar con Gravatar
@@ -381,13 +379,19 @@ other-language = Outro idioma
 languages-show-more = Ver máis
 languages-show-less = Ver menos
 
-## New Contribution
+## Contribution
+
+
+## Reporting
 
 
 ## Goals
 
 
 ## Dashboard
+
+
+## Custom Goals
 
 
 ## Profile Delete
