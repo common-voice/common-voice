@@ -35,13 +35,11 @@ export const LoginSuccess = withRouter(
       if (account) {
         trackProfile('login', locale);
       }
+
       history.replace(
-        redirectURL ||
-          toLocaleRoute(
-            account
-              ? URLS.DASHBOARD + location.search
-              : URLS.PROFILE_INFO + location.search
-          )
+        account
+          ? redirectURL || toLocaleRoute(URLS.DASHBOARD + location.search)
+          : URLS.PROFILE_INFO + location.search
       );
     }, [user]);
 

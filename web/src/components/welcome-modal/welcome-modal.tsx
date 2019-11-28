@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
+import { Redirect } from 'react-router';
 import { Link } from 'react-router-dom';
+import { pick } from 'lodash';
 import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
 import { Button, Checkbox } from '../ui/ui';
@@ -8,10 +10,13 @@ import { trackChallenge } from '../../services/tracker';
 import { useAccount, useAction } from '../../hooks/store-hooks';
 import { User } from '../../stores/user';
 import { Enrollment } from '../../../../common/challenge';
+import { useLocale } from '../locale-helpers';
 import {
   ChallengeTeamToken,
   challengeTeams,
   ChallengeToken,
+  challengeTokens,
+  challengeTeamTokens,
 } from 'common/challenge';
 import URLS from '../../urls';
 
@@ -27,11 +32,16 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
   const [hasAgreed, setHasAgreed] = useState<boolean>(false);
   const account = useAccount();
   const saveAccount = useAction(User.actions.saveAccount);
+  const [locale, toLocaleRoute] = useLocale();
+  const [redirectChallenge, setRedirectChallenge] = useState();
 
   useEffect(() => trackChallenge('modal-welcome'), []);
 
-  const parseEnrollment = (queryString: string): Enrollment => {
-    const regex = new RegExp(/([a-z]+)=([a-z]+)/, 'gm');
+  const parseEnrollment = (
+    queryString: string,
+    referer?: string
+  ): Enrollment => {
+    const regex = new RegExp(/([\w\-]+)=([\w\-]+)/, 'g');
     const queries = {} as { [key: string]: string };
     let pair: Array<string> = [];
 
@@ -39,15 +49,45 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
       queries[pair[1]] = pair[2];
     }
 
-    return {
-      challenge: queries.challenge,
-      team: queries.team,
-      referer: queries.referer,
-      invite: queries.invite,
-    } as Enrollment;
+    queries.referer = referer;
+
+    if (
+      challengeTokens.includes(queries.challenge as ChallengeToken) &&
+      challengeTeamTokens.includes(queries.team as ChallengeTeamToken)
+    ) {
+      return pick(queries, 'challenge', 'team', 'invite') as Enrollment;
+    } else return null;
   };
 
-  return (
+  const redirectEnrollment = async (
+    enrollmentDetails: string,
+    referrer?: string
+  ) => {
+    const referrerString = referrer ? `&referer=${referrer}` : '';
+
+    if (enrollmentDetails) {
+      if (account) {
+        const enrollObject = parseEnrollment(enrollmentDetails, referrer);
+        await saveAccount({ enrollment: enrollObject });
+
+        setRedirectChallenge({
+          pathname: toLocaleRoute(URLS.DASHBOARD + URLS.CHALLENGE),
+          search: `?challenge=${enrollObject.challenge}&achievement=1${referrerString}`,
+          state: {
+            showOnboardingModal: true,
+          },
+        });
+      } else {
+        window.location.href = `/login${enrollmentDetails}${referrerString}`;
+      }
+    } else {
+      window.location.reload();
+    }
+  };
+
+  return redirectChallenge ? (
+    <Redirect push to={redirectChallenge} />
+  ) : (
     <Modal {...props} innerClassName="welcome-modal">
       <h1>
         <BalanceText>Welcome to the Open Voice Challenge</BalanceText>
@@ -83,25 +123,8 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
         rounded
         disabled={!hasAgreed}
         onClick={() => {
-          const enrollmentDetails = window.location.search;
-          // `enrollmentDetails` should always exist here, but in case it
-          // doesn't we abort the login flow.
-
-          if (enrollmentDetails) {
-            if (account) {
-              const enrollObject = parseEnrollment(enrollmentDetails);
-              saveAccount({ enrollment: enrollObject }).then(() => {
-                window.location.href = `/dashboard/challenge?challenge=${enrollObject.challenge}&achievement=1`;
-              });
-            } else {
-              const { referrer } = document;
-              window.location.href = `/login${enrollmentDetails}${
-                referrer ? `&referer=${referrer}` : ''
-              }`;
-            }
-          } else {
-            window.location.reload();
-          }
+          const { referrer } = document;
+          return redirectEnrollment(window.location.search, referrer);
         }}>
         Join the {readableTeamName} team
       </Button>
