@@ -350,9 +350,7 @@ export default function Dashboard() {
                   <Route
                     render={() => (
                       <Redirect
-                        to={toLocaleRoute(
-                          URLS.DASHBOARD + '/' + dashboardLocale + defaultPage
-                        )}
+                        to={toLocaleRoute(URLS.DASHBOARD + defaultPage)}
                       />
                     )}
                   />

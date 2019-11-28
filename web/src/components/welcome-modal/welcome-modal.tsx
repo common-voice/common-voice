@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
+import { Link } from 'react-router-dom';
+import { pick } from 'lodash';
 import BalanceText from 'react-balance-text';
 import Modal, { ModalProps } from '../modal/modal';
 import { Button, Checkbox } from '../ui/ui';
@@ -18,7 +19,6 @@ import {
   challengeTeamTokens,
 } from 'common/challenge';
 import URLS from '../../urls';
-const pick = require('lodash.pick');
 
 import './welcome-modal.css';
 
@@ -33,6 +33,7 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
   const account = useAccount();
   const saveAccount = useAction(User.actions.saveAccount);
   const [locale, toLocaleRoute] = useLocale();
+  const [redirectChallenge, setRedirectChallenge] = useState();
 
   useEffect(() => trackChallenge('modal-welcome'), []);
 
@@ -58,19 +59,23 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
     } else return null;
   };
 
-  const redirectEnrollment = (enrollmentDetails: string, referrer?: string) => {
+  const redirectEnrollment = async (
+    enrollmentDetails: string,
+    referrer?: string
+  ) => {
     const referrerString = referrer ? `&referer=${referrer}` : '';
 
     if (enrollmentDetails) {
       if (account) {
         const enrollObject = parseEnrollment(enrollmentDetails, referrer);
+        await saveAccount({ enrollment: enrollObject });
 
-        saveAccount({ enrollment: enrollObject }).then(() => {
-          const redirect = {
-            pathname: toLocaleRoute(URLS.DASHBOARD + '/' + URLS.CHALLENGE),
-            search: `?challenge=${enrollObject.challenge}&achievement=1${referrerString}`,
-          };
-          return <Redirect to="{redirect}" />;
+        setRedirectChallenge({
+          pathname: toLocaleRoute(URLS.DASHBOARD + URLS.CHALLENGE),
+          search: `?challenge=${enrollObject.challenge}&achievement=1${referrerString}`,
+          state: {
+            showOnboardingModal: true,
+          },
         });
       } else {
         window.location.href = `/login${enrollmentDetails}${referrerString}`;
@@ -80,7 +85,9 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
     }
   };
 
-  return (
+  return redirectChallenge ? (
+    <Redirect push to={redirectChallenge} />
+  ) : (
     <Modal {...props} innerClassName="welcome-modal">
       <h1>
         <BalanceText>Welcome to the Open Voice Challenge</BalanceText>
