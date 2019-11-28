@@ -681,7 +681,7 @@ export default class DB {
   }
 
   async hasChallengeEnded(challenge: ChallengeToken) {
-    let hasChallengeEnded = false;
+    let hasChallengeEnded = true;
     const [[row]] = await this.mysql.query(
       `SELECT TIMESTAMPADD(MINUTE, -TIMESTAMPDIFF(MINUTE, UTC_TIMESTAMP(), NOW()), start_date) AS start_date_utc
       FROM challenges
