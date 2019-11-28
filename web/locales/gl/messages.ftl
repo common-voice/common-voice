@@ -198,6 +198,7 @@ x-years-short =
 help-make-dataset = Axúdenos a construír un conxunto de datos públicos abertos de alta calidade
 sign-up-account = Rexistre unha conta
 email-subscription-title = Rexístrese para recibir actualizacións por correo
+email-subscription-title-new = Subscríbase aos boletíns de información, aos recordatorios de obxectivos e actualizacións de progreso de Common Voice
 
 ## Account Benefits
 
