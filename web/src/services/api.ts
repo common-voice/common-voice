@@ -24,9 +24,9 @@ interface FetchOptions {
 }
 
 interface Vote extends Event {
-  hasAchieved?: boolean;
-  firstContribute?: boolean;
-  firstStreak?: boolean;
+  hasEarnedSessionToast?: boolean;
+  showFirstContributionToast?: boolean;
+  showFirstStreakToast?: boolean;
   challengeEnded?: boolean;
 }
 
@@ -122,9 +122,9 @@ export default class API {
     sentenceId: string,
     sentence: string
   ): Promise<{
-    firstContribute?: boolean;
-    hasAchieved?: boolean;
-    firstStreak?: boolean;
+    showFirstContributionToast?: boolean;
+    hasEarnedSessionToast?: boolean;
+    showFirstStreakToast?: boolean;
     challengeEnded: boolean;
   }> {
     return this.fetch(this.getClipPath(), {
@@ -415,8 +415,8 @@ export default class API {
   }
   // check whether or not is the first invite
   fetchInviteStatus(): Promise<{
-    firstInvite: boolean;
-    hasAchieved: boolean;
+    showInviteSendToast: boolean;
+    hasEarnedSessionToast: boolean;
     challengeEnded: boolean;
   }> {
     if (getChallenge(this.user)) {

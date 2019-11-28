@@ -17,9 +17,9 @@ export namespace Clips {
     [locale: string]: {
       clips: Clip[];
       isLoading: boolean;
-      firstContribute: boolean;
-      firstStreak: boolean;
-      hasAchieved: boolean;
+      showFirstContributionToast: boolean;
+      showFirstStreakToast: boolean;
+      hasEarnedSessionToast: boolean;
       challengeEnded: boolean;
       next?: Clip;
     };
@@ -42,9 +42,9 @@ export namespace Clips {
 
   interface AchievementAction extends ReduxAction {
     type: ActionType.ACHIEVEMENT;
-    firstContribute?: boolean;
-    hasAchieved?: boolean;
-    firstStreak?: boolean;
+    showFirstContributionToast?: boolean;
+    hasEarnedSessionToast?: boolean;
+    showFirstStreakToast?: boolean;
     challengeEnded?: boolean;
   }
 
@@ -116,9 +116,9 @@ export namespace Clips {
       const id = clipId || localeClips(state).next.id;
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
       const {
-        firstContribute,
-        hasAchieved,
-        firstStreak,
+        showFirstContributionToast,
+        hasEarnedSessionToast,
+        showFirstStreakToast,
         challengeEnded,
       } = await state.api.saveVote(id, isValid);
       if (!state.user.account) {
@@ -127,9 +127,9 @@ export namespace Clips {
       if (state.user.account.enrollment.challenge) {
         dispatch({
           type: ActionType.ACHIEVEMENT,
-          firstContribute,
-          hasAchieved,
-          firstStreak,
+          showFirstContributionToast,
+          hasEarnedSessionToast,
+          showFirstStreakToast,
           challengeEnded,
         });
       }
@@ -155,9 +155,9 @@ export namespace Clips {
           clips: [],
           next: null,
           isLoading: false,
-          firstContribute: false,
-          firstStreak: false,
-          hasAchieved: false,
+          showFirstContributionToast: false,
+          showFirstStreakToast: false,
+          hasEarnedSessionToast: false,
         },
       }),
       {}
@@ -189,9 +189,9 @@ export namespace Clips {
                 clips.findIndex(clip2 => clip2.id === clip1.id) === i
             ),
             isLoading: false,
-            hasAchieved: false,
-            firstContribute: false,
-            firstStreak: false,
+            hasEarnedSessionToast: false,
+            showFirstContributionToast: false,
+            showFirstStreakToast: false,
             challengeEnded: true,
             next,
           },
@@ -209,9 +209,9 @@ export namespace Clips {
           ...state,
           [locale]: {
             ...localeState,
-            hasAchieved: action.hasAchieved,
-            firstContribute: action.firstContribute,
-            firstStreak: action.firstStreak,
+            hasEarnedSessionToast: action.hasEarnedSessionToast,
+            showFirstContributionToast: action.showFirstContributionToast,
+            showFirstStreakToast: action.showFirstStreakToast,
             challengeEnded: action.challengeEnded,
           },
         };

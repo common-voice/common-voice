@@ -390,9 +390,9 @@ class SpeakPage extends React.Component<Props, State> {
         while (retries) {
           try {
             const {
-              firstContribute = false,
-              hasAchieved = false,
-              firstStreak = false,
+              showFirstContributionToast = false,
+              hasEarnedSessionToast = false,
+              showFirstStreakToast = false,
               challengeEnded = true,
             } = await api.uploadClip(
               recording.blob,
@@ -404,14 +404,14 @@ class SpeakPage extends React.Component<Props, State> {
               JSON.stringify(challengeEnded)
             );
             sessionStorage.setItem('hasContributed', 'true');
-            if (firstContribute) {
+            if (showFirstContributionToast) {
               addAchievement(
                 50,
                 "You're on your way! Congrats on your first contribution.",
                 'success'
               );
             }
-            if (firstStreak) {
+            if (showFirstStreakToast) {
               addAchievement(
                 50,
                 'You completed a three-day streak! Keep it up.',
@@ -421,7 +421,7 @@ class SpeakPage extends React.Component<Props, State> {
             if (
               !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
               JSON.parse(sessionStorage.getItem('hasShared')) &&
-              !hasAchieved
+              !hasEarnedSessionToast
             ) {
               addAchievement(
                 50,

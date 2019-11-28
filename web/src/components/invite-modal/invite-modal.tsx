@@ -32,12 +32,18 @@ export default ({
         .fetchInviteStatus()
         .then(
           ({
-            firstInvite = false,
-            hasAchieved = false,
+            showInviteSendToast = false,
+            hasEarnedSessionToast = false,
             challengeEnded = true,
           }) => {
-            sessionStorage.setItem('firstInvite', JSON.stringify(firstInvite));
-            sessionStorage.setItem('hasAchieved', JSON.stringify(hasAchieved));
+            sessionStorage.setItem(
+              'showInviteSendToast',
+              JSON.stringify(showInviteSendToast)
+            );
+            sessionStorage.setItem(
+              'hasEarnedSessionToast',
+              JSON.stringify(hasEarnedSessionToast)
+            );
             sessionStorage.setItem(
               'challengeEnded',
               JSON.stringify(challengeEnded)

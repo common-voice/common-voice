@@ -284,20 +284,20 @@ export default function Dashboard() {
           enrollment={account.enrollment}
           onRequestClose={() => {
             setShowInviteModal(false);
-            if (JSON.parse(sessionStorage.getItem('firstInvite'))) {
+            if (JSON.parse(sessionStorage.getItem('showInviteSendToast'))) {
               addAchievement(50, 'You sent your first invite!');
-              sessionStorage.removeItem('firstInvite');
+              sessionStorage.removeItem('showInviteSendToast');
             }
             if (
               !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
-              !JSON.parse(sessionStorage.getItem('hasAchieved')) &&
+              !JSON.parse(sessionStorage.getItem('hasEarnedSessionToast')) &&
               JSON.parse(sessionStorage.getItem('hasContributed'))
             ) {
               addAchievement(
                 50,
                 "You're on a roll! You sent an invite and contributed in the same session."
               );
-              sessionStorage.removeItem('hasAchieved');
+              sessionStorage.removeItem('hasEarnedSessionToast');
               sessionStorage.removeItem('hasContributed');
               // Tell back-end user get unexpected achievement: invite + contribute in the same session
               // Each user can only get once.

@@ -47,17 +47,17 @@ export default class Challenge {
         ])
       );
     } else if (bonus_type == 'invite') {
-      // return { firstInvite: boolean, hasAchieved: boolean } in the json
+      // return { showInviteSendToast: boolean, hasEarnedSessionToast: boolean } in the json
       // NOTE: easy to get confused about how should return true or false
-      // if invite_send achievement is not earned yet, earn that achievement and return firstInvite: true
-      // if invite_contribute_same_session is not earned yet, return hasAchieved: false
+      // if invite_send achievement is not earned yet, earn that achievement and return showInviteSendToast: true
+      // if invite_contribute_same_session is not earned yet, return hasEarnedSessionToast: false
       const achievement = {
-        firstInvite: await earnBonus('invite_send', [
+        showInviteSendToast: await earnBonus('invite_send', [
           client_id,
           client_id,
           challenge,
         ]),
-        hasAchieved: await hasEarnedBonus(
+        hasEarnedSessionToast: await hasEarnedBonus(
           'invite_contribute_same_session',
           client_id,
           challenge
