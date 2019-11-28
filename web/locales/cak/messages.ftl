@@ -529,11 +529,16 @@ download-language = Tiqasäx { $language }
 validated-hours = Jikib'an Ramaj
 recorded-hours = Yakon Ramaj
 whats-inside = ¿Achike k'o pa ri rucholxe' tzij Common Voice?
+dataset-description-hours =
+    Jujun taq okib'äl pa ri rucholxe' tzij xa juyonil MP3 chuqa' ri rutz'ib'axik. K'ïy chi ke ri <b>{ $total }</b> yakon taq ramaj pa ri rucholxe' tzij chuqa' ruk'wan chijun rutzij winaqilal, achi'el rujuna', rub'anikil chuqa' rub'eyal nich'o, ri nito'on richin yetikjöx ri k'wayöl taq retamaxik ch'ab'äl.
+    
+    Wakami ri rucholxe' tzij ruk'wan <b>{ $valid }</b> jikib'an taq ramaj pa <b>{ $languages }</b> taq ch'ab'äl, po junelïk yeqatz'aqatisaj ch'aqa' taq kich'ab'äl chuqa' taq ch'ab'äl. Tatz'eta' ri <languagesLink>Ruxaq taq ch'ab'äl</languagesLink> richin nik'utüx jun ch'ab'äl o yato'on.
 want-dataset-update = ¿La nawajo' nak'ül etamab'äl chi rij ri k'ak'a' taq ruwäch chuqa' taq ruk'exoj ri rucholxe' tzij Common Voice? Tatz'ib'aj b'ai' pa ri ko'öl qawuj.
 subscribe = Tz'ib'anïk b'i'aj
 get-started-speech = Tatikirisaj qa ri Retamaxik Ch'ab'äl
 other-datasets = Juley chik Ruyakb'al Kitzij Ch'ab'äl
 feedback-q = ¿La K'o Atzijol?
+deepspeech-info = Ri rucholxe' rutzij Common Voice nutz'aqatisaj ri ruk'wab'al retamaxik ch'ab'äl rik'in jaqäl rub'itz'ib' Deep Speech, r ütz ye'okisäx richin yenük' taq kichokoy retamaxik ch'ab'äl. Tab'esik'ij ri <githubLink>Ruch'utitzijol Github</githubLink> o tatunu' awi' pa <discourseLink>DeepSpeech Discourse</discourseLink> richin nawetamaj ch'aqa' chik pa ruwi' rub'eyal chuqa' akuchi' natikirisaj.
 common-voice-info-new = ¿La k'o ak'utunik chi rij ri Common Voice? ¿La k'o taq atzij richin nutziläx o taq rutzijol chi rij jun ch'ab'äl? Tatunu' awi' pa <discourseLink>Discourse qasolna'oj</discourseLink> richin natzijoj chi qe
 data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
 data-other-ted-name = TED-LIUM Korpus
