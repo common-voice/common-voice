@@ -111,7 +111,7 @@ module "database" {
   client_security_groups = "${module.worker.security_group},${module.sync.security_group}"
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
   instance_class         = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
-  allocated_storage      = "${var.environment == "prod" ? "100" : "10"}"
+  allocated_storage      = "${var.environment == "prod" ? "100" : "32"}"
 }
 
 module "clips" {
