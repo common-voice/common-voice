@@ -27,6 +27,7 @@ interface Vote extends Event {
   hasAchieved?: boolean;
   firstContribute?: boolean;
   firstStreak?: boolean;
+  challengeEnded?: boolean;
 }
 
 const API_PATH = location.origin + '/api/v1';
@@ -124,6 +125,7 @@ export default class API {
     firstContribute?: boolean;
     hasAchieved?: boolean;
     firstStreak?: boolean;
+    challengeEnded: boolean;
   }> {
     return this.fetch(this.getClipPath(), {
       method: 'POST',
@@ -412,7 +414,11 @@ export default class API {
     return null;
   }
   // check whether or not is the first invite
-  fetchInviteStatus(): Promise<{ firstInvite: boolean; hasAchieved: boolean }> {
+  fetchInviteStatus(): Promise<{
+    firstInvite: boolean;
+    hasAchieved: boolean;
+    challengeEnded: boolean;
+  }> {
     if (getChallenge(this.user)) {
       return this.fetch(
         `${API_PATH}/challenge/${this.user.account.enrollment.challenge}/achievement/invite`

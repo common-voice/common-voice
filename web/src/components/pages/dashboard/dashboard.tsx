@@ -289,6 +289,7 @@ export default function Dashboard() {
               sessionStorage.removeItem('firstInvite');
             }
             if (
+              !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
               !JSON.parse(sessionStorage.getItem('hasAchieved')) &&
               JSON.parse(sessionStorage.getItem('hasContributed'))
             ) {

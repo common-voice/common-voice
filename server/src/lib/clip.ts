@@ -129,6 +129,7 @@ export default class Clip {
             client_id,
             challenge,
           ]),
+          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
         }
       : { glob };
     response.json(ret);
@@ -236,6 +237,7 @@ export default class Clip {
               client_id,
               challenge,
             ]),
+            challengeEnded: await this.model.db.hasChallengeEnded(challenge),
           }
         : { filePrefix };
       response.json(ret);

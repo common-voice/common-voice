@@ -20,6 +20,7 @@ export namespace Clips {
       firstContribute: boolean;
       firstStreak: boolean;
       hasAchieved: boolean;
+      challengeEnded: boolean;
       next?: Clip;
     };
   }
@@ -44,6 +45,7 @@ export namespace Clips {
     firstContribute?: boolean;
     hasAchieved?: boolean;
     firstStreak?: boolean;
+    challengeEnded?: boolean;
   }
 
   interface RefillCacheAction extends ReduxAction {
@@ -117,6 +119,7 @@ export namespace Clips {
         firstContribute,
         hasAchieved,
         firstStreak,
+        challengeEnded,
       } = await state.api.saveVote(id, isValid);
       if (!state.user.account) {
         dispatch(User.actions.tallyVerification());
@@ -127,6 +130,7 @@ export namespace Clips {
           firstContribute,
           hasAchieved,
           firstStreak,
+          challengeEnded,
         });
       }
       User.actions.refresh()(dispatch, getState);
@@ -188,6 +192,7 @@ export namespace Clips {
             hasAchieved: false,
             firstContribute: false,
             firstStreak: false,
+            challengeEnded: true,
             next,
           },
         };
@@ -207,6 +212,7 @@ export namespace Clips {
             hasAchieved: action.hasAchieved,
             firstContribute: action.firstContribute,
             firstStreak: action.firstStreak,
+            challengeEnded: action.challengeEnded,
           },
         };
       }

@@ -62,6 +62,7 @@ export default class Challenge {
           client_id,
           challenge
         ),
+        challengeEnded: await this.model.db.hasChallengeEnded(challenge),
       };
       response.json(achievement);
     }

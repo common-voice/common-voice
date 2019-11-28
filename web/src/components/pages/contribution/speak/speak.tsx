@@ -393,10 +393,15 @@ class SpeakPage extends React.Component<Props, State> {
               firstContribute = false,
               hasAchieved = false,
               firstStreak = false,
+              challengeEnded = true,
             } = await api.uploadClip(
               recording.blob,
               sentence.id,
               sentence.text
+            );
+            sessionStorage.setItem(
+              'challengeEnded',
+              JSON.stringify(challengeEnded)
             );
             sessionStorage.setItem('hasContributed', 'true');
             if (firstContribute) {
@@ -414,6 +419,7 @@ class SpeakPage extends React.Component<Props, State> {
               );
             }
             if (
+              !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
               JSON.parse(sessionStorage.getItem('hasShared')) &&
               !hasAchieved
             ) {

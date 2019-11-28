@@ -30,10 +30,20 @@ export default ({
       // To check whether or not it is the first invite.
       api
         .fetchInviteStatus()
-        .then(({ firstInvite = false, hasAchieved = false }) => {
-          sessionStorage.setItem('firstInvite', JSON.stringify(firstInvite));
-          sessionStorage.setItem('hasAchieved', JSON.stringify(hasAchieved));
-        });
+        .then(
+          ({
+            firstInvite = false,
+            hasAchieved = false,
+            challengeEnded = true,
+          }) => {
+            sessionStorage.setItem('firstInvite', JSON.stringify(firstInvite));
+            sessionStorage.setItem('hasAchieved', JSON.stringify(hasAchieved));
+            sessionStorage.setItem(
+              'challengeEnded',
+              JSON.stringify(challengeEnded)
+            );
+          }
+        );
       sessionStorage.setItem('hasShared', 'true');
 
       return () => clearTimeout(timer);
