@@ -141,6 +141,8 @@ class ListenPage extends React.Component<Props, State> {
 
     this.stop();
     await this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
+    // this.props.vote() will update props values like challengeEnded, showFirstStreakBonus etc.
+    // So the following line must be run AFTER this.props.vote() has finished synchronously.
     const {
       showFirstContributionToast,
       hasEarnedSessionToast,

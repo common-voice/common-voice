@@ -690,6 +690,8 @@ export default class DB {
       [challenge]
     );
     if (row) {
+      // row.start_date_utc is utc time (timezone offset is 0);
+      // startDateServer = start_date_utc + backend timezone offset (in minutes);
       const startDateServer = new Date(row.start_date_utc);
       const startDateUtc = new Date(
         startDateServer.valueOf() -
