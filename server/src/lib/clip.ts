@@ -115,20 +115,21 @@ export default class Clip {
     const ret = challenge
       ? {
           glob: glob,
-          firstContribute: await earnBonus('first_contribution', [
+          showFirstContributionToast: await earnBonus('first_contribution', [
             challenge,
             client_id,
           ]),
-          hasAchieved: await hasEarnedBonus(
+          hasEarnedSessionToast: await hasEarnedBonus(
             'invite_contribute_same_session',
             client_id,
             challenge
           ),
-          firstStreak: await earnBonus('three_day_streak', [
+          showFirstStreakToast: await earnBonus('three_day_streak', [
             client_id,
             client_id,
             challenge,
           ]),
+          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
         }
       : { glob };
     response.json(ret);
@@ -220,22 +221,23 @@ export default class Clip {
       const ret = challenge
         ? {
             filePrefix: filePrefix,
-            firstContribute: await earnBonus('first_contribution', [
+            showFirstContributionToast: await earnBonus('first_contribution', [
               challenge,
               client_id,
             ]),
-            hasAchieved: await hasEarnedBonus(
+            hasEarnedSessionToast: await hasEarnedBonus(
               'invite_contribute_same_session',
               client_id,
               challenge
             ),
             // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
             // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-            firstStreak: await earnBonus('three_day_streak', [
+            showFirstStreakToast: await earnBonus('three_day_streak', [
               client_id,
               client_id,
               challenge,
             ]),
+            challengeEnded: await this.model.db.hasChallengeEnded(challenge),
           }
         : { filePrefix };
       response.json(ret);

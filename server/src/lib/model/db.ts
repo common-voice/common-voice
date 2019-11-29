@@ -4,6 +4,7 @@ import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
+import { ChallengeToken } from 'common/challenge';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -677,5 +678,29 @@ export default class DB {
       [client_id, challenge]
     );
     return row;
+  }
+
+  async hasChallengeEnded(challenge: ChallengeToken) {
+    let hasChallengeEnded = true;
+    const [[row]] = await this.mysql.query(
+      `SELECT TIMESTAMPADD(MINUTE, -TIMESTAMPDIFF(MINUTE, UTC_TIMESTAMP(), NOW()), start_date) AS start_date_utc
+      FROM challenges
+      WHERE url_token = ?;
+      `,
+      [challenge]
+    );
+    if (row) {
+      // row.start_date_utc is utc time (timezone offset is 0);
+      // startDateServer = start_date_utc + backend timezone offset (in minutes);
+      const startDateServer = new Date(row.start_date_utc);
+      const startDateUtc = new Date(
+        startDateServer.valueOf() -
+          startDateServer.getTimezoneOffset() * 60 * 1000
+      );
+      hasChallengeEnded =
+        new Date().valueOf() >
+        startDateUtc.valueOf() + 21 * 24 * 60 * 60 * 1000;
+    }
+    return hasChallengeEnded;
   }
 }

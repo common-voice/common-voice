@@ -134,7 +134,7 @@ export const hasEarnedBonus = async (
       LEFT JOIN achievements ON challenges.id = achievements.challenge_id AND achievements.name = ?
       LEFT JOIN earn ON achievements.id = earn.achievement_id
           AND earn.client_id = ?
-          AND earn.earned_at BETWEEN start_date AND TIMESTAMPADD(WEEK, 3, start_date)
+          AND earn.earned_at < TIMESTAMPADD(WEEK, 3, start_date)
       WHERE challenges.url_token = ?
       `,
     [type, client_id, challenge]

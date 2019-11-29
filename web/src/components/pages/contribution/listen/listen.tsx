@@ -48,9 +48,10 @@ interface PropsFromState {
   clips: Clips.Clip[];
   isLoading: boolean;
   locale: Locale.State;
-  firstContribute: boolean;
-  hasAchieved: boolean;
-  firstStreak: boolean;
+  showFirstContributionToast: boolean;
+  hasEarnedSessionToast: boolean;
+  showFirstStreakToast: boolean;
+  challengeEnded: boolean;
 }
 
 interface PropsFromDispatch {
@@ -140,29 +141,37 @@ class ListenPage extends React.Component<Props, State> {
 
     this.stop();
     await this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
+    // this.props.vote() will update props values like challengeEnded, showFirstStreakBonus etc.
+    // So the following line must be run AFTER this.props.vote() has finished synchronously.
     const {
-      firstContribute,
-      hasAchieved,
+      showFirstContributionToast,
+      hasEarnedSessionToast,
       addAchievement,
       api,
-      firstStreak,
+      showFirstStreakToast,
+      challengeEnded,
     } = this.props;
+    sessionStorage.setItem('challengeEnded', JSON.stringify(challengeEnded));
     sessionStorage.setItem('hasContributed', 'true');
-    if (firstContribute) {
+    if (showFirstContributionToast) {
       addAchievement(
         50,
         "You're on your way! Congrats on your first contribution.",
         'success'
       );
     }
-    if (firstStreak) {
+    if (showFirstStreakToast) {
       addAchievement(
         50,
         'You completed a three-day streak! Keep it up.',
         'success'
       );
     }
-    if (JSON.parse(sessionStorage.getItem('hasShared')) && !hasAchieved) {
+    if (
+      !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
+      JSON.parse(sessionStorage.getItem('hasShared')) &&
+      !hasEarnedSessionToast
+    ) {
       addAchievement(
         50,
         "You're on a roll! You sent an invite and contributed in the same session.",
@@ -360,17 +369,19 @@ const mapStateToProps = (state: StateTree) => {
   const {
     clips,
     isLoading,
-    firstContribute,
-    hasAchieved,
-    firstStreak,
+    showFirstContributionToast,
+    hasEarnedSessionToast,
+    showFirstStreakToast,
+    challengeEnded,
   } = Clips.selectors.localeClips(state);
   const { api } = state;
   return {
     clips,
     isLoading,
-    firstContribute,
-    hasAchieved,
-    firstStreak,
+    showFirstContributionToast,
+    hasEarnedSessionToast,
+    showFirstStreakToast,
+    challengeEnded,
     api,
     locale: state.locale,
   };

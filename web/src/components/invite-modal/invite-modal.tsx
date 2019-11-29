@@ -30,10 +30,26 @@ export default ({
       // To check whether or not it is the first invite.
       api
         .fetchInviteStatus()
-        .then(({ firstInvite = false, hasAchieved = false }) => {
-          sessionStorage.setItem('firstInvite', JSON.stringify(firstInvite));
-          sessionStorage.setItem('hasAchieved', JSON.stringify(hasAchieved));
-        });
+        .then(
+          ({
+            showInviteSendToast = false,
+            hasEarnedSessionToast = false,
+            challengeEnded = true,
+          }) => {
+            sessionStorage.setItem(
+              'showInviteSendToast',
+              JSON.stringify(showInviteSendToast)
+            );
+            sessionStorage.setItem(
+              'hasEarnedSessionToast',
+              JSON.stringify(hasEarnedSessionToast)
+            );
+            sessionStorage.setItem(
+              'challengeEnded',
+              JSON.stringify(challengeEnded)
+            );
+          }
+        );
       sessionStorage.setItem('hasShared', 'true');
 
       return () => clearTimeout(timer);
