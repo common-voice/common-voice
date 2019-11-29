@@ -10,6 +10,8 @@ import { ChallengeToken } from 'common/challenge';
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500;
 
+const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000;
+
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
 const self_subcondition = '(visible = 0 AND user_clients.client_id = ?)';
@@ -681,7 +683,7 @@ export default class DB {
   }
 
   async hasChallengeEnded(challenge: ChallengeToken) {
-    let hasChallengeEnded = true;
+    let challengeEnded = true;
     const [[row]] = await this.mysql.query(
       `SELECT TIMESTAMPADD(MINUTE, -TIMESTAMPDIFF(MINUTE, UTC_TIMESTAMP(), NOW()), start_date) AS start_date_utc
       FROM challenges
@@ -691,16 +693,9 @@ export default class DB {
     );
     if (row) {
       // row.start_date_utc is utc time (timezone offset is 0);
-      // startDateServer = start_date_utc + backend timezone offset (in minutes);
-      const startDateServer = new Date(row.start_date_utc);
-      const startDateUtc = new Date(
-        startDateServer.valueOf() -
-          startDateServer.getTimezoneOffset() * 60 * 1000
-      );
-      hasChallengeEnded =
-        new Date().valueOf() >
-        startDateUtc.valueOf() + 21 * 24 * 60 * 60 * 1000;
+      const startDateUtc = new Date(`${row.start_date_utc}Z`);
+      challengeEnded = Date.now() > startDateUtc.valueOf() + THREE_WEEKS;
     }
-    return hasChallengeEnded;
+    return challengeEnded;
   }
 }
