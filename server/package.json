@@ -55,7 +55,7 @@
     "request-promise-native": "^1.0.7",
     "source-map-support": "^0.5.12",
     "stream-transcoder": "0.0.5",
-    "typescript": "3.5.3",
+    "typescript": "3.7.2",
     "universal-analytics": "^0.4.20"
   },
   "devDependencies": {
