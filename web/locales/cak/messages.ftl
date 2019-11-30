@@ -336,6 +336,7 @@ delete-voice = TIYUJ
 recording-voice-wave = Niyak
 delete-voice-clip = o  Tiyuj ruyakik ch'ab'äl
 ready-to-upload = TIJOTOB'ÄX
+avatar-clip-fact = Kan ke wi ri rub'eyal ojer chi jun sik'inel xtisach ruk'u'x rik'in ri sik'inel rupam jun ruxaq toq nutzu' ri rub'anikil.
 cancel-avatar-clip-recording = TIQ'AT
 about-avatar-clip-recording = Tatz'uku' jun yakoj ch'ab'äl richin nok pan awachib'al. Ri ch'aqa' chik okisanela' yetikïr nikik'üt ri awachib'al richin nikak'axaj ri ayakoj ch'ab'äl.
 browse-file-title = Tijotob'äx jun ruyakb'al wachib'äl
