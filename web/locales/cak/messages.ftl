@@ -337,6 +337,7 @@ recording-voice-wave = Niyak
 delete-voice-clip = o  Tiyuj ruyakik ch'ab'äl
 ready-to-upload = TIJOTOB'ÄX
 avatar-clip-fact = Kan ke wi ri rub'eyal ojer chi jun sik'inel xtisach ruk'u'x rik'in ri sik'inel rupam jun ruxaq toq nutzu' ri rub'anikil.
+recreate-voice = Titz'uk chik Voicewave
 cancel-avatar-clip-recording = TIQ'AT
 about-avatar-clip-recording = Tatz'uku' jun yakoj ch'ab'äl richin nok pan awachib'al. Ri ch'aqa' chik okisanela' yetikïr nikik'üt ri awachib'al richin nikak'axaj ri ayakoj ch'ab'äl.
 browse-file-title = Tijotob'äx jun ruyakb'al wachib'äl
@@ -712,6 +713,8 @@ validated-clips = Jikib'an Q'aptzij
 total-approved = Ronojel Ütz
 overall-accuracy = Utziläj Ronojel
 set-visibility = Tiya' rutz'etik
+visibility-explainer = Re nuk'ulem re' nuchajij ri rutz'etik rukajtz'ik acha'onem. Toq ewäl, xtichinäx ri ab'anon. Re re' nuq'ajuj chi ri awachib'al, rub'i' okisanel chuqa' ri ab'anon man xtiwachin ta pa ri rukajtz'ik ch'aonem. Tatz'eta' chi ri ruk'exoj rukajtz'ik cha'onem xtiyoke' ~{ $minutes }ch'utiramaj richin nuk'is ri taq jaloj.
+visibility-overlay-note = Ch'uti rutzijol: Toq niya' kan pa 'Wachel', re runuk'ulem re' tikirel nijal pa <profileLink>Ruxaq ruwäch rub'i'</profileLink>
 show-ranking = Tik'ut ri nub'anon
 
 ## Custom Goals
@@ -751,6 +754,10 @@ n-clips = { NUMBER($count) } taq yakoj
 help-share-goal = Kojato' yeqïl ch'aqa' chik taq ch'ab'äl, takomonij ri arayb'al
 confirm-goal = Tijikib'äx Rayb'äl
 goal-interval-weekly = Wuqq'ijil
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Takomonij ri { $count } Q'ij Q'ij Rurayib'al Silowäch { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Takomonij ri { $count } Wuqq'ijil Rurayib'al Silowäch { $type }
 share-goal-type-speak = Ch'owen
 share-goal-type-listen = Nak'asäx
 share-goal-type-both = Ch'owen chuqa' Nak'axäx
