@@ -57,14 +57,14 @@ const printSummary = summary => {
 
   if (deletionSummary.s3_ids.length)
     console.log(
-      `Please manually the following folders from S3: ${deletionSummary.s3_ids.join(
+      `Please manually remove the following folders from S3: ${deletionSummary.s3_ids.join(
         ', '
       )}.`
     );
 
   if (deletionSummary.dataset_ids.length)
     console.log(
-      `Please email past dataset downloaders and ask them to remove these folders: ${deletionSummary.dataset_ids.join(
+      `The following client_ids were included in a past dataset: ${deletionSummary.dataset_ids.join(
         ', '
       )}.`
     );
