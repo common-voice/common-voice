@@ -9,6 +9,7 @@
 "Le medusa pote causar serie damnos", explicava le medico al patiente.
 "Non me dicer! Ille habeva poc dentes.
 "Pisce, per favor."
+"Proque?" demandava le filia, un poco irritate.
 A Anna place le chocolate.
 A Deo non place!
 A Jacobo place solo le surrealismo perque ille es un catto de fungo.
@@ -42,6 +43,7 @@ A plus tarde.
 A pugno serrate, ille pulsava le tabula.
 A qualque personas place le laros, a alteres non.
 A quatro annos ille sapeva jam leger e scriber.
+A que hora comencia le partita?
 A revider
 A revider a martedi!
 A revider deman a schola.
@@ -85,6 +87,7 @@ Alco eveni ci.
 Alco ha evenite a ille.
 Alcun aqua, per favor.
 Alcun cassas de latta e un soldator es ponite sur le banco de labor.
+Alcun cattos salvage vive sub le casa de mi vicino.
 Alcun dies non es bon dies, isto es toto.
 Alcun personas face identic errores ancora e de novo ancora.
 Alcun personas ha multo, alteres ha nihil.
@@ -111,6 +114,7 @@ Ambula ad intra.
 Amen.
 Americanos ama haber un barbecue.
 Amico, tu ha stilo!
+Amicos es sempre preste a adjutar le unes le alteres.
 Amita Ludovica sasiva le parve Martino.
 Amor es cec
 Amor es cec.
@@ -144,6 +148,7 @@ Ante le templo nos tira le cappello.
 Ante que nos initia con le baptismo hodierne, que nos renova nostre credo.
 Antonio vole friger le tofu perque il es vegan.
 Aperi le bottilia.
+Aperi le oculos.
 Aperi tu bucca!
 Aperi tu mente!
 Aperi un conto Firefox con tote su avantages.
@@ -250,6 +255,7 @@ Bon nocte
 Bon nocte a totes!
 Bon nocte!
 Bon nocte.
+Bon nutrition es vital pro le crescimento de un infante.
 Bon postmeridie.
 Bon tempore e mal tempore non dura tote le tempore.
 Bon vespere
@@ -286,6 +292,7 @@ Cessa de exaggerar.
 Cessa de gemer!
 Cessa de molestar me.
 Cessa de morder tu ungulas.
+Cessa de peter me un bibita! Prende un bibita tu mesme.
 Cessa de tirar!
 Cessa de vigilar sur me.
 Cessa le registration pulsante de novo le button, quando tu finira le lectura.
@@ -307,12 +314,14 @@ Cognosce te ipse!
 Cognosce tu Peter?
 Cognosce tu ben Anna?
 Cognosce tu illes?
+Cognosce tu le ration?
 Colla iste photo al muro.
 Collo tue es como turre eboree.
 Comencia hic.
 Common Voice - Le grande collecta universal de voces comenciava!
 Common Voice: le donation universal del lingua de tu corde.
 Communismo es le opposito de capitalismo.
+Como dice on "gratias" in japonese?
 Como documenta studios independente, le Neanderthaloides ha disveloppate simple utensiles tal como lanceas.
 Como era le Hawaii?
 Como era tu jornata hodie?
@@ -449,9 +458,11 @@ Da me precise instructiones como discontaminar le soldato.
 Da me qualque carotas e altere legumines, io va a alimentar le conilios.
 Da me tu camisa.
 Da me un altere exemplo.
+Da me un bibita, per favor.
 Da me un bottilia de vino.
 Da me un minuta.
 Da me un pecia, per favor.
+Da me un responsa precise.
 Danmark es un pionero del energia eolic.
 Dar me qualque carotas e altere legumines, io va a alimentar le conilios.
 Darth Vader poteva solo respirar sub su masca.
@@ -865,6 +876,13 @@ Ha alicuno dicite alco?
 Ha alicuno essite lese?
 Ha arrivate alicuno?
 Ha essite Peter assassinate?
+Ha il altere problemas que nos debe abordar hodie?
+Ha il bon locos pro jocar al golf hic?
+Ha il messages pro me?
+Ha il novas recente?
+Ha il qualcosa a biber in le refrigerator?
+Ha il qualcuno in le camera?
+Ha il sedias reservate in le traino?
 Ha il ulle questiones?
 Ha il un camera de banio?
 Ha illes dicite como?
@@ -877,14 +895,20 @@ Ha io perdite alco?
 Ha io perdite multo?
 Ha io torto?
 Ha jam ille venite?
+Ha passate un tempore desde que io habeva un bon conversation.
 Ha patre jam venite a casa?
+Ha qualcuno altere essite vulnerate?
 Ha tu advertite Peter?
 Ha tu alimentava le can ancora?
 Ha tu ascoltate Maria?
 Ha tu audite de illa?
 Ha tu audite illo?
 Ha tu audite le clic?
+Ha tu audite que un effractor penetrava in le casa de mi vicino?
+Ha tu banda adhesive?
 Ha tu basiate Maria?
+Ha tu besonio de multe moneta?
+Ha tu bira?
 Ha tu brossate tu dentes?
 Ha tu comprate un nove auto?
 Ha tu demandate a Peter?
@@ -892,17 +916,29 @@ Ha tu dormite?
 Ha tu essite a Boston?
 Ha tu facite isto?
 Ha tu fame?
+Ha tu fratres?
 Ha tu fumate?
 Ha tu incontrate ille?
 Ha tu jam appellate illa?
+Ha tu jam audite la cantar super un podio?
 Ha tu jam facite le lunch?
+Ha tu jam finite tu deberes de schola?
+Ha tu jam scribite un libro?
 Ha tu jam vidite Peter?
+Ha tu jam visitate le peninsula corean?
+Ha tu jam volate in un ballon de aere calide?
+Ha tu jammais cadite in un puteo?
+Ha tu jammais essite tractate pro un disturbantia mental?
+Ha tu jammais mangiate sol in un restaurante?
+Ha tu jammais sollicitate pro un empleo?
 Ha tu jammais vocate Maximo?
 Ha tu jentate?
 Ha tu lassate un gratification?
 Ha tu lo provate?
 Ha tu mangiate?
 Ha tu novas de Tom?
+Ha tu nove calceos?
+Ha tu nove scarpas?
 Ha tu occidite Peter?
 Ha tu perdite peso?
 Ha tu perdite tu mente?
@@ -912,47 +948,90 @@ Ha tu realmente legite illo?
 Ha tu realmente vidite Peter?
 Ha tu realmente vidite illo?
 Ha tu recipite le controlo?
+Ha tu recipite le littera?
+Ha tu repassate le lection?
 Ha tu te amusate?
 Ha tu trovate toto?
+Ha tu tu billet?
+Ha tu un cultello con que io pote taliar iste corda?
+Ha tu un dictionario?
+Ha tu un scopo del vita?
 Ha tu vidite Peter?
 Ha tu vidite Tom?
 Ha tu vidite isto?
 Ha tu vincite le cursa?
 Ha tu vincite le tropheo?
 Ha tu vincite?
+Ha tu visitate un parco zoologic in tu pais?
 Ha tu votate?
 Ha un bon die!
+Ha vos altere questiones?
+Ha vos iste in blau?
+Ha vos ja mangiate pisce crude?
+Ha vos jam vidite le Turre de Tokio?
+Ha vos jammais essite teste in un processo juridic?
+Ha vos trovate vostre claves?
+Ha vos un verde?
+Ha vos vadite in un del jardines celebre?
+Habente finite su labor, ille telephonava su sposa.
 Habente traducite le texto in espaniol, Alberto lo scribeva in chat.
 Haber le duo pedes super le terra es necesse.
 Haber ration o haber torto?
 Habeva io torto?
+Habeva tu toast pro le jentaculo heri matino?
+Habeva tu un festa pro tu ultime anniversario?
 Habitar proxime al plagia es un sonio que io ha.
 Happy hardcore es un rapide stilo de musica techno, musica popular in annos novanta.
+Harajuku es un del locos le plus calide in Tokyo.
 Hasta te a retornar.
+Hasta te lentemente.
+Hasta te! Io non pote attender plus.
+Hasta vos pro non perder le bus.
 Haste te, Maximo.
 Haste te, Peter.
+Hawaii es vermente le pais de lacte e melle.
+He, cameradas, il se face tarde.
+He, tu! Non currer presso le piscina!
 Helena ha ligate su sposo, pro qualque ration.
 Heri era jovedi.
 Heri esseva jovedi, assi deman sera sabbato.
+Heri esseva jovedi.
+Heri esseva le ultime die de schola.
 Heri il ha cadite nive.
 Heri ille se sentiva invincibile, ora ille ha consequentias de un ebrietate.
+Heri io comprava un libro.
+Heri io vadeva al cinema.
 Herminio es mi heroe.
 Hic e nunc, io adjuta a colliger phrases pro Common Voice in Interlingua!
 Hic me nasceva un poco de dubita.
+Hic nos discute aggressivemente.
+Hic veni nostre maestro, Robert Brown.
 Hodie es le prime die de primavera, esque totes es contente?
+Hodie es le prime die del resto de tu vita.
+Hodie es mercuridi.
+Hodie es un die tediose.
+Hodie existe diverse medios de trovar un amico per correspondentia.
+Hodie il face belle tempore.
+Hodie il face frigido.
+Hodie io non ha inspiration pro scriber poemas.
 Hodie le committee decideva implicitemente de extender le arsenal.
+Hodie, multe gente time perder lor empleos.
+Hokkaido es situate in le nord de Japon.
 Homine in mar!
 Honest Ahmed non convinceva le disveloppatores.
+Hong Kong es cognoscite como le Perla de Asia.
 Honora tu patre e tu matre.
 Humanitate debe preservar le ecosystema ambiental que lo sustene.
 Humiliate vos, sub le potente mano de Deo, perque vos exalta al tempore opportun.
 I debe ir ora.
+Ibi vive un vetule homine in le cabana presso le laco.
 Id es comparar pomos e oranges.
 Identificator non definite a 'jitter'.
 Il basta alinear tu auto orthogonal al lot de parking.
 Il besonia facer duo plus duo.
 Il cadera multe nive deman.
 Il condemnato era claudite in cella, pro expiar sex menses de carcere.
+Il debe facer plus frigido e nivar plus tarde hodie.
 Il era como un fremito, su venas era pumpate plen de adrenalina.
 Il era difficile a creder.
 Il era facile vider sur le radiographia, que su ossos era rupte.
@@ -968,6 +1047,8 @@ Il es a lecto.
 Il es absurde que nemo vole travaliar, ma jocar es plus divertente.
 Il es ancora nocte.
 Il es belle e calde.
+Il es bon esser in casa.
+Il es bon pro me si il es bon pro te.
 Il es circa tres horas.
 Il es como si illo era toto irreal.
 Il es como un plaga.
@@ -979,6 +1060,7 @@ Il es dominica deman.
 Il es facite de corio.
 Il es gelide.
 Il es gratis.
+Il es hora de retornar a casa.
 Il es immunditia. Jecta lo via!
 Il es importante haber un puncto de vista optimistic.
 Il es impossibile haber un parola a dicer sin cognoscer le vocabulario.
@@ -986,6 +1068,7 @@ Il es incredibile.
 Il es inutile se planger.
 Il es ja medie die.
 Il es jam dece-un horas.
+Il es le deber del studentes nettar lor salas de classe.
 Il es le prime vice in mi vita.
 Il es le puncta del iceberg.
 Il es lunedi
@@ -997,15 +1080,20 @@ Il es multo probabile que tu erra re illo.
 Il es multo.
 Il es necesse explicar que Carmelo esseva a Roma solo ille anno.
 Il es nihil
+Il es normal sentir se assi in le initio, io suppone.
 Il es nubilose.
 Il es poeta usque al punctas del digitos.
+Il es practic posseder un auto.
 Il es presso que impossibile.
 Il es probabile que illa venira.
 Il es prohibite de fumar.
 Il es quasi dece horas.
 Il es quasi impossibile.
+Il es quasi le hora.
+Il es quasi primavera.
 Il es rar pro ille esser in cholera.
 Il es recommendate de biber al minus duo litros de aqua pro die.
+Il es regrettabile que io non pote accompaniar te.
 Il es ridiculo, nos simplemente filma un publicitate.
 Il es sempre bon si on pote apprender alco nove, nonne?
 Il es septe horas in Roma.
@@ -1017,6 +1105,7 @@ Il es suffocante ci.
 Il es sur me.
 Il es tempore de ir.
 Il es tempore de lunchar.
+Il es tempore de retornar a casa.
 Il es tempore pro cena.
 Il es toto culpa de Franco.
 Il es toto in le camera.
@@ -1029,6 +1118,7 @@ Il es troppo micre.
 Il es tu derecto.
 Il es un caso extreme.
 Il es un cava abandonate.
+Il es un hora.
 Il es un momento difficile pro nos.
 Il es un nove mundo coragiose.
 Il es un placer facer vostre cognoscentia!
@@ -1038,7 +1128,20 @@ Il es vacue.
 Il es ver!
 Il esserea futile pro un comenciante defiar un grande-maestro.
 Il esserea ideal si le wifi era gratis.
+Il esserea melior si vos veni con me.
+Il esserea si genial si io poteva parlar dece linguas!
 Il esserea utilissime si mi navigator poterea synchronisar tote preferentias, non solo alcunos.
+Il esseva absolutemente appropriate que illa faceva isto.
+Il esseva impolite de ille facer isto.
+Il esseva impossibile trovar un solution vermente satisfactori.
+Il esseva incredibilemente periculose.
+Il esseva tarde quando io retornava a casa.
+Il face bon tempore hodie.
+Il face de plus in plus calide cata die.
+Il face multe frigido.
+Il face plus calide hodie que heri.
+Il face tempore exquisite hodie.
+Il face troppo calide pro laborar.
 Il face troppo calor hodie.
 Il faceva un sono cliccante quando le functionario stringeva le manillas.
 Il ha convection in le camera magmatic.
@@ -1056,6 +1159,7 @@ Il ha essite terribilemente amusante.
 Il ha essite un bon idea.
 Il ha essite un labor ab intra.
 Il ha essite un lacrima sur su oculos.
+Il ha multe cinemas in iste citate.
 Il ha multe homines stante in Union Station facente nihil.
 Il ha multe regiones que manca de aqua potabile.
 Il ha multe typos de reptile.
@@ -1093,6 +1197,7 @@ Il habera con vos un homine de cata tribo.
 Il habeva alco
 Il habeva euphoria al quartiero general.
 Il habeva le transmission de poteres al nove rector.
+Il habeva multe vento.
 Il habeva nihil de tanto remarcabile in illo.
 Il habeva octo personas in un linea.
 Il habeva passate tante tempore desde que illo habeva scribite le ultime vice.
@@ -1185,6 +1290,7 @@ Illa era un brillante studente universitari qui ganiava honores de prime classe.
 Illa es felice.
 Illa es foras ora.
 Illa es gentil.
+Illa es le femina qui vole vider vos.
 Illa es le melior cursor de obstaculos qui io cognosce.
 Illa es mi fidantiata.
 Illa es mi sposa.
@@ -3841,6 +3947,7 @@ Nostre inseniante rarmente ride.
 Nostre nove intelligentia artificial pote adaptar dynamicamente le equilibrio del joco.
 Nostre secundari scopo es de reconstruer illo que eveniva.
 Nostre ultime submarino de alte-technologia es motorisate per hydrogeno.
+Novanta-cinque nove phrases registrate, gratias! Io va los validar.
 Novembre es le dece-prime mense, immediatemente ante decembre.
 Nulle activitate natural es "munde", ni minus le vita!
 Nulle clementia pro assassinos de policieros!
@@ -4363,6 +4470,7 @@ Pro accrescer su popularitate in sondages de public-opinion, le politico comenci
 Pro acquirer un instruction illuminate, equitate, justitia e rectitude.
 Pro assi grande nomine nulle laudes es par.
 Pro calibrar le systema de motion capture, face un T-pose.
+Pro cata problema complexe il ha sempre un solution simple... errate!
 Pro cognoscer sapientia e disciplina.
 Pro comprender le le parolas del prudentias.
 Pro comprender proverbios e allegorias, le maximas del sages e lor enigmas.

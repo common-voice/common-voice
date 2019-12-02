@@ -8012,6 +8012,7 @@ O uso que corresponde a esses espaços se torna um sótão.
 O vagão se movia em rodas bem lubrificadas.
 O vale estava cheio de denso nevoeiro.
 O valor das ações da empresa aumentou dramaticamente depois que encontraram um novo medicamento.
+O vandalismo poderia transmitir algumas mensagens engraçadas? também!
 O vaqueiro era muito rápido.
 O velho abriu a capa e o menino ficou impressionado com o que viu.
 O velho burro não se alonga, mas entende.
@@ -8726,6 +8727,7 @@ Por favor, procure a pintura do Mundo da Música.
 Por favor, procure na imagem do Diário Económico de Karobar.
 Por favor, procure o programa de televisão Jenny of the Prairie.
 Por favor, procure o show Estátua de James Outram.
+Por favor, procure por Thirayum Theeravum video game.
 Por favor, procure por filme Selado com um Beijo.
 Por favor, seja humilde.
 Por favor, também tenha paciência comigo.
@@ -10266,6 +10268,7 @@ Três dias se passaram, desde a última visita.
 Três esquiadores crosscountry que esquiam através de um campo nevado.
 Três galgos correndo em uma pista
 Três garotas na ginástica apontam para a balança.
+Três garotos estão jogando Monopoly na mesa.
 Três garotos loiros jogando na engenhoca de metal
 Três garotos loiros jogando na engenhoca de metal.
 Três garotos sentam e fazem gestos com as mãos.
@@ -10431,6 +10434,7 @@ Um bando de cachorros está correndo por uma trilha.
 Um bando de crianças está subindo em uma árvore e encolhendo-a.
 Um bando de pessoas seminuas estão sentadas em volta de uma cabana de troncos
 Um barco de corrida vermelho de alta velocidade salta sobre a água.
+Um basset hound é preso ao espelho retrovisor de um veículo amarelo e branco
 Um baterista e três saxofones fora de uma loja.
 Um bebê chora enquanto cercado por verde? amarelo? e brinquedos laranja.
 Um bebê chorando molhado envolto em uma toalha vermelha e azul.
@@ -11643,6 +11647,7 @@ Uma andorinha só não faz verão.
 Uma aula cheia de alunos.
 Uma aula de esgrima acontece em uma quadra de basquete.
 Uma banda com membros segurando seus chapéus.
+Uma banda de quatro jogadores toca no palco.
 Uma banda de três homens executa.
 Uma banda local tocando em um local local.
 Uma banda praticando para um show.
@@ -12695,6 +12700,7 @@ Você pode fazer matemática?
 Você pode fazer suas coisas?
 Você pode ficar razoável no básico em poucas horas.
 Você pode imaginar esbarrar em uma carga de policiais?
+Você pode ir ao dispensador e fazer um pouco de lava.
 Você pode ir?, mas lembre-se do nosso acordo.
 Você pode jogar no Youtube?
 Você pode ler tudo sobre isso nos jornais de lá.
@@ -12726,6 +12732,7 @@ Você pode ver o que está além dos vidoeiros de ouro?
 Você pode verificar e regravar suas próprias gravações antes de enviá-las.
 Você pode vir me pegar no escritório?
 Você pode visitar em meados de maio
+Você pode, por favor, encontrar o jogo The Notebook of Trigorin?
 Você pode, por favor, verificar seu estoque?
 Você pode, por favor, verificar seu inventário?
 Você poderia comprar uma escova de dentes.

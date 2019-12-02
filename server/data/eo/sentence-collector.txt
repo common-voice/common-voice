@@ -1,6 +1,7 @@
 "Al kiu ĝi estas adresita?" demandis unu ĵurinto.
 "Alvoku la duan atestanton," ordonis la Reĝo.
 "Alvoku la unuan atestanton," diris suflorite la Reĝo.
+"Amiko!" respondis Arturo.
 "Ankaŭ la vestlavadon?" demandis plue la Falsa Kelonio.
 "Ankaŭ vi, sidante ĉe ni sen invito," akre respondis la Martleporo.
 "Apenaŭ mi povas spiri.
@@ -8,6 +9,7 @@
 "Bedaŭrinde, mi eĉ ne unu povas memori," diris Alicio.
 "Bil" havus egale saman valoron en la proceso, ĉu li sidus renversite aŭ kapsupre.
 "Bone! Jam mia kapo liberiĝis," diris Alicio, ĝojigite.
+"Bone, mi rakontos al vi mian plej justan juĝon.
 "Bone," diris la Damo.
 "Bonvolu do diri kiel mi povos eniĝi," diris Alicio.
 "Certe," diris la Falsturto.
@@ -17,6 +19,7 @@
 "Demetu vian ĉapelon," diris la Reĝo al la atestanto.
 "Denove la ĥoron," ekkriis la Grifo.
 "Denove vi malpravas," intermetis la Ĉapelisto.
+"Do Via ofta malsano en la lasta tempo!" Respondis Arturo.
 "Do jam ni faras progreson," li daŭrigis sinkontente.
 "Do vi estas jam nun kontenta?" diris la Raŭpo.
 "Do vi kondutis neĝentile, proponante ĝin," kolere Alicio respondis.
@@ -31,6 +34,7 @@
 "Estas bona afero ke mi vidis tion," pensis Alicio.
 "Estas vero," respondis la Dukino.
 "Fariĝis porketo," Alicio respondis tre trankvile, kvazaŭ la Kato revenis laŭ la ordinara venmaniero.
+"Granda vi estas majstro!" Kriis la disĉiploj unuanime.
 "Ha, jen la kaŭzo," diris la Ĉapelisto.
 "Ho, ho!" triumfe kriis la Ĉapelisto.
 "Ho, la kruela sovaĝulino," ekkriis Alicio.
@@ -60,8 +64,11 @@
 "Kaj jen ili," triumfis la Reĝo, montrante sur la tablon.
 "Kaj kio okazis en la dekdua tago," Alicio vigle demandis.
 "Kaj vi senkapigu lin ekstere," la Damo aldonis al unu el la oficistoj.
+"Kaj vi? Al kiu vi juĝis ŝin?" demandis scivole la disĉiploj.
 "Kaj ĝuste tiun fakton vi povus konstati pri la mia," diris la Ĉapelisto.
 "Kaptu tiun Gliron," furioze kriis la Damo.
+"Kara amiko, se iam, do eble pleje nun mi ĝojas pro via revido!
+"Kia kruelo, kia abomeno!
 "Kiajn temojn la ordinara kurso enhavis?" Alicio demandis.
 "Kial do?"
 "Kial tio estas neebla?" mi demandis al mi.
@@ -78,6 +85,7 @@
 "Kiel vi scias ke mi estas freneza?" Alicio demandis.
 "Kio ordinare konsumas multe da tempo," intermetis la Grifo.
 "Kio tio estas pri tvinklo?" la Reĝo demandis.
+"Kiom da seka laboro, kiom da senaromaj horoj!" li ekĝemis.
 "Kion alian vi devis lerni?"
 "Kion do ili manĝis?" diris Alicio.
 "Kion ili desegnis?" diris Alicio, jam forgesinte sian promeson.
@@ -96,6 +104,7 @@
 "La ĵurintoj konsideru la verdikton," diris la Reĝo, jam la dudekan fojon!
 "Legu ilin," la Reĝo ordonis.
 "Levu vin," diris la Damo per laŭta, sibla voĉo.
+"Lingvo Internacia" havis tiam ne nur sufiĉe multajn abonantojn, sed ankaŭ tre bonajn kunlaborantojn.
 "Malgrava, kompreneble," la Reĝo diris laŭte.
 "Malprave, de komenco ĝis fino," diris decide la Raŭpo.
 "Melason," li diris.
@@ -176,6 +185,8 @@
 "Se mi ne forportos ĉi tiun infanon, oni certe mortigos ĝin post nemultaj tagoj.
 "Se nur iun lokon mi atingos," Alicio daŭrigis.
 "Se vi ne pensas, vi ne rajtas paroli," diris la Ĉapelisto.
+"Sed kial Vi rakontas al mi ĉion ĉi? Arturo?" interrompis lin Petro.
+"Sed kiamaniere mi faru tion?!" Li demandis de Arturo!
 "Sed kio okazas," Alicio kuraĝis demandi, "kiam vi denove revenas antaŭ la unue uzitaj?"
 "Sed kion la Gliro diris?" demandis unu ĵurinto.
 "Sed kion mi devas fari?" diris Alicio.
@@ -199,6 +210,7 @@
 "Tio pruvas ke li estas kulpa," diris la Damo.
 "Tion mi ne povas memori," respondis la Ĉapelisto.
 "Tiu ĉi fraŭlino tre deziras scii vian historion," diris la Grifo.
+"Trankvilon, kara!" diris la mastro "okazis ja nenio grava".
 "Tre bela," konsentis Alicio.
 "Tre bona alteco," interrompis kolere la Raŭpo, kaj ĉe la diro starigis sin vertikale.
 "Tute ne sama," kontraŭdiris la Ĉapelisto.
@@ -272,6 +284,7 @@ Absolute certaj.
 Adamo Rudzinski rigardis ŝin kun granda intereso, eĉ kun iom da admiro.
 Adiaŭ!
 Adiaŭ, malfeliĉa Karolino, adiaŭ!
+Adiaŭ, sinjoro, bonan sukceson.
 Adiaŭ.
 Aga ne estas ĉe hejmo.
 Agu laŭ via natura nobleco.
@@ -284,15 +297,18 @@ Al kio utilos tio?fine demandas la kuiristo.
 Al la enirantino li faris tre afablan saluton.
 Al la reĝino naskiĝis filo kaj al la dukino naskiĝis filino.
 Al lia antaŭa embaraso aliĝis nun iom da konfuzo kaj eĉ malpacienco.
+Al mi multon rakontis samideano Bonkor.
 Al miaj gepatroj Johano estis skribinta la jenon:
 Al neniu en la mondo mi tiel malkovrus mian koron.
 Al neniu estu arbitre forprenita la ŝtataneco, nek rifuzita la rajto ŝanĝi sian ŝtatanecon.
 Al neniu estu arbitre forprenita lia proprieto.
+Al neniu povis veni en la kapon la penso, ke mi estas enterigita vive.
 Al tio Alicio ne povis trovi taŭgan respondon.
 Al tio li rediris, por ke vi vidu batalegon.
 Al tio mi povis nenion respondi; mi sekve demandis plue:
 Al tiuj, de kiuj li esperas ricevi pagon, li portis pezan faskon da ligno.
 Al unu el tiuj benkoj iras la mastrino kaj la mutulino sekvas.
+Al vi eble eĉ tro plaĉas tiu etulino!
 Al vi la homoj donos por tio laŭdon, al ni ili donos ofendon.
 Al ĉiu li etendis la ĉapon kaj ĉiu enĵetis moneron el arĝento.
 Al ĉiuj aliaj personoj ni plej kategorie malpermesas la eniron.
@@ -371,6 +387,7 @@ Anjo kaŝe kondukis min en ŝian dormoĉambron.
 Anjo malgaje ekskuis la kapon kaj respondis mallaŭte:
 Anjo rakontis al mi, kio okazis hieraŭ vespere.
 Ankaŭ Rika partoprenas al la aplaŭdado.
+Ankaŭ aliajn esperantajn presaĵojn mi pretigis, laŭ mendo de diverslandaj samideanoj.
 Ankaŭ ilin ĉiujn oni metis en tian nigran keston.
 Ankaŭ ke ni ne povus kompreni; ni scios pli poste.
 Ankaŭ la adreso estos tre stranga.
@@ -383,6 +400,7 @@ Ankaŭ por pendigi sur la lancopinto?
 Ankaŭ pri Hamburgo?
 Ankaŭ pri fabeloj?
 Ankaŭ tial, sed li malbonigus la tonon.
+Ankaŭ via gloro ne perdiĝos!
 Ankaŭ ĉi tiun tagon post la melkado ŝi tien iras pro la sama motivo.
 Ankoraŭ alia penso ekpremis la koron de Leonardo.
 Ankoraŭ alkroĉiĝinte al la brako de la juna viro, la knabino konsentis:
@@ -410,6 +428,7 @@ Antaŭ li, sur tablo, kuŝis letero, kiun li ĵus tralegis la duan fojon.
 Antaŭ ne longe mi komencis la dudekkvinan jaron de mia vivo.
 Antaŭ ol Lorna povis respondi, sinjoro Heilman afekte alpaŝis kaj ekprenis ŝian manon.
 Antaŭ ol frapi, li enrigardas tra unu el la du fenestretoj.
+Antaŭ ol unu monato.
 Antaŭ ol ĉi tiu muzikaĵo finiĝis, aŭdiĝas supre mallaŭtaj paŝoj.
 Antaŭ pli ol mil jaroj vivis en Hispanujo idolana reĝo.
 Antaŭ tiuj estis malfermiĝanta la tombo, antaŭ ĉi tiuj morala marĉo.
@@ -420,14 +439,19 @@ Antaŭ unu el tiuj ili ekhaltas.
 Antaŭ ĉiu ŝrankpordo staras unu seĝo.
 Antaŭe mi loĝis ĉe la doktoro Stuthejm, sed li mortis same kiel lia edzino.
 Antaŭe montru vian piedon, ni volas vidi, ĉu vi estas nia kara panjo.
+Antaŭe policanoj kun verda stelo sur la brakoj.
 Antaŭen, kamarado! ne melankoliiĝu, mi petas.
 Antaŭen, kamarado, sekvu min!
 Antaŭsento, ke mi povos iel helpi al vi ĉiuj, pelis min ĉi tien.
 Apenaŭ spirante, ŝi murmuretis:
 Apenaŭ ĝi faris tri aŭ kvar ĉirkaŭiradojn, kiam Moseo reaperas sen la hipnotistino.
 Apenaŭ ŝi pasis dek kelke da ŝtupoj, ŝi vidis du malsuprenirantajn virinojn.
+Apud li staris eminentuloj.
 Apud mia dormoĉambro kaj interkomunikiĝanta kun ĝi per pordo estas malgranda gastoĉambro.
 Artefarita ventrego.
+Arturo ekstaris.
+Atakis min sento, al kiu mi eĉ ne povas trovi nomon.
+Atendu min, mi baldaŭ revenos.
 Atendu momenton.
 Atentu Teo, vi malsekigos viajn ŝtrumpojn.
 Atinginte la jam senhoman ferdekon, Leonardo sidiĝis en ŝirmita angulo sur salikan seĝegon.
@@ -436,6 +460,7 @@ Aĉjo, mi akiris novan ĉevalon, rigardu!
 Aŭbyn ekzistas malamikaj rilatoj jam de la tempo de la krucmilitiroj, kiel oni diras.
 Aŭbyn reciproke forte enamiĝis, furioze.
 Aŭdinte tion, la Muso turnis sin malrapide kaj renaĝis al ŝi.
+Aŭskultu atente!
 Aŭskultu, do, pacience kaj indulgeme.
 Aŭskultu, ŝi ripetis.
 Aŭskultu; mi ne eraris.
@@ -448,6 +473,7 @@ Baldaŭ ili troviĝis sur la strato Freta.
 Baldaŭ iu ekfrapis la pordon kaj ekkriis:
 Baldaŭ la kaprino revenis el la arbaro.
 Baldaŭ mi ekrigardis ĉirkaŭ mi, sed ne estas videbla iu.
+Baldaŭ mi forlasis tiun ideon kiel nerealigeblan, precipe pro teknikaj kaj financaj kaŭzoj.
 Baldaŭ mi tute komprenis; ĉar, sur la plektbarilo, sidas Polo, parolante vortojn jam lernitajn.
 Baldaŭ tri el la ŝipanaro alproksimiĝis.
 Baldaŭan resaniĝon!
@@ -467,6 +493,7 @@ Bela vetero hodiaŭ, sinjorino.
 Belega perspektivo por mia reŭmatismo!
 Blankafloro ne ensorĉis nian infanon, ĉar ŝi lin amas tro multe.
 Blankafloro sekvis sian amikinon.
+Blasfemoj kontraŭ dio Apollo!
 Blua nebuleto sur blanka fono!
 Bona oro, diris la juvelisto.
 Bona, kara, indulgema edzeto, ŝi murmuretis,  pardonu ĉi tiun maljustaĵon.
@@ -488,9 +515,11 @@ Bonan vesperon, sinjoro Marston, ekkriis ĉiuj kore, tamen kun plena respekto.
 Bonan vesperon, virineto; mi estas tute kontenta pri la transloĝiĝo de via frato.
 Bonan vesperon.
 Bonan vojaĝon!
+Bonan vojon, kara!
 Bonan ŝancon!
 Bone!
 Bone! li diris, farante lokon por mi.
+Bone! li preterpasis la duan periodon.
 Bone, dankon!
 Bone, dankon.
 Bone, dankon; ĝis la revido.
@@ -503,6 +532,11 @@ Bone, ĉi tiun fojon mi ne volas prirabi vin.
 Bone.
 Bone; mi atendos ŝian revenon.
 Bonega por brunulinoj!
+Bonega! Tiel, vi konsentas?
+Bonegan, sed kial?
+Bonege.
+Bonkreska junulo, speciale taŭga, por plaĉi al knabinoj!
+Bonvolu diri al Lia Moŝto, ke estas iu pri la kolomboj, daŭrigis Peters.
 Bonvolu doni pli da detaloj
 Bonvolu ne paroli pri ĝi, mi diris, rigardante lin pete.
 Bonvolu ordoni al viaj gardistoj sin deteni de perfortaĵoj.
@@ -513,9 +547,13 @@ Bonvolu telefoni al li.
 Bonŝance, mi trovis kelkajn remilojn en parto de la ŝipo ĝisnune neserĉita.
 Bonŝancon!
 Brej tute ne ŝanĝiĝis.
+Cent dektri frankojn kaj sepdek kvin centimojn.
 Cent guldenoj!? Ho, mia patrino konsentos pagi tion.
 Ceremonio!?
 Certa kaj fiera pri la posedo de ŝia koro, mi.
+Certe estas novaĵo, kion Vi alportis por mi!"
+Certe estos sukceso granda!
+Certe iom seka kaj senkisa amatino.
 Certe ne!
 Certe ne, elbalbutis Mario.
 Certe ne.
@@ -523,6 +561,7 @@ Certe oni devas konsenti, se alie ne povas esti.
 Certe tiam, kiam la afero koncernas donadon de lecionoj al knaboj, rimarkigis Marta.
 Certe, diris unu el ili, ŝajnmire,  vi ne forkuros, ne refutinte ĉi tiujn asertojn!
 Certe, sen via afabla helpo mia ĉasado estus tute senrezultata.
+Certe, tial ke mi havas kopion en mia poŝo.
 Certe.
 Certe; kial tia furiozo?
 Cetere ankaŭ Eminjon mi jam longe ne vidis, ni iru kune.
@@ -555,6 +594,8 @@ Dankon; ĝi ne utilos al mi.
 Dank’ al Dio, dank’ al Dio, Janjo!
 Dank’ al viaj spertaj kuracoj precipe, mia kara doktoro, interrompis Beatrico.
 Daŭre ŝi ploradis kaj suferadis.
+Daŭriginte la legadon de lia letero, vi ne ekkolerus, kaj vi tuj interkonsentus.
+Daŭrigu, paĉjo.
 De Berlino ni daŭrigos vojaĝi al Varsovio kaj eble haltos en alia urbo.
 De fremda sinjoro? Nu, enirigu la knabon.
 De kelke da minutoj inter ĉi tiuj du virinoj regis silento.
@@ -584,6 +625,7 @@ De tiu tempo, ho ve!
 De ĉirkaŭ unu kvadrata futo.
 Dediĉo de nur kelke da horoj al la studo de treege simpla, bela lingvo.
 Dek jaroj pasis.
+Dek muzikorkestroj ludis la himnon.
 Dekkvinjara knabo, kiu sidis ĉe la tablo, eksplodis per rido.
 Delfino eksilentis, kaj ŝia vizaĝo denove iom malmoliĝis.
 Delfino intence forturnis duone la vizaĝon por eviti la rigardon de la onklino.
@@ -597,6 +639,7 @@ Denove li pripensis, tiam li demandis:
 Denove li skuis la kapon, sed nun malrapide, kvazaŭ senkonscie.
 Denove li venkis.
 Denove maldolĉaj, venĝemaj pensoj kontraŭvole ekregis lin.
+Denove min atakis rigidiĝo, rigidiĝo de malespero.
 Denove regis silento.
 Denove tro malfrue.
 Denove ŝi trovis sin en la longa halo apud la vitra tableto.
@@ -638,7 +681,13 @@ Diru foje: ĉu vi ne amas esti ĉe tiu instruisto?
 Diru la veron!
 Diveno sen antaŭa impliko estas ja tute senvalora.
 Do apenaŭ al ŝi prosperis kapti ĝin.
+Do atendu ŝin je la duono de la oka sur la bulvardo.
+Do kial?
+Do kion ĝi pruvas?
 Do lasu min resti ĉi tie unu aŭ du tagojn plu.
+Do mi paroladis kun ŝi iom!
+Do mi volas rakonti al Vi, ke mi renkontis ŝin nun vespere, hejmenirante.
+Do mi, mallonge, konsilas al Vi: Iru kaj amu!
 Do ne mirinde estas ke tre baldaŭ la boteleto malpleniĝis!
 Do ŝi eksperimentis alian demandon:"Kiaj personoj loĝas proksime de tie ĉi?"
 Do, almenaŭ unu el la pakaĵoj en via sako ne povas trapasi ĝin.
@@ -661,6 +710,7 @@ Donu al mi nur la precizan adreson, mi iros mem.
 Donu ĝin al mi.
 Dormu!
 Drinku fojon, interrompis mia patro, kiu mem jam estis malpleniginta sian glaseton.
+Du el ni ĉeestos vian manĝon kaj skribos raporton pri tio, kio okazos.
 Du jarojn post tiu malfeliĉa okazintaĵo mi edziĝis, vane serĉante forgeson en edzeco.
 Du larmoj kolektiĝis en ŝiaj okuloj kaj malklarigis al ŝi la vidon.
 Du malfeliĉaj vivoj sidis tie antaŭ la malvarma aperturo de mallumega kameno.
@@ -727,6 +777,7 @@ Eble li rehejmigis en tiuj du horoj.
 Eble lia kara spirito estas apud ni en la nuna momento.
 Eble mi estas holandano, ĉar mi ne scias, kie mi naskiĝis.
 Eble mi komprenas.
+Eble mi kontentiĝus se mi ne amus.
 Eble mi naskiĝis sur Insulo, sed tion mi neniam eksciis.
 Eble mi povus, se nur mi scius kiel oni komencas la klopodon?
 Eble mi spertos tion poste?
@@ -736,6 +787,7 @@ Eble ni aldonu al ĝi ankoraŭ unu ingrediencon, por ke ĝi estu pli efika?
 Eble nubo preteriris, ŝi pensas, kaj denove ŝi rigardas la suĉantan infanon.
 Eble similaj pensoj trapasis lian kapon.
 Eble tial, ke la sonoj trovis en mia koro oportunan eĥon.
+Eble tro frue!
 Eble vi havis riĉajn parencojn, kiuj donis al vi bonstaton?
 Eble vi lasos ĉe mi vian adreson?
 Eble vi miksas min kun aliulo, subite la knabo diris germane.
@@ -753,6 +805,7 @@ Efektive mi posedas.
 Efektive mi tre timas, ke ŝi eble por la tuta tago forprenos vian prudenton.
 Efektive vi estas prava, li diris.
 Efektive ĉi tiu forte aludis la dezirindecon, ke Leonardo daŭre restu en Ameriko.
+Efektive ŝi estas ĉarma!
 Efektive ŝi ne rimarkis min, kvankam mi tute apude preterpasis kaj salutis ŝin.
 Efektive ŝia dolĉa, ordinare paleta vizaĝo estis morte pala, kaj ŝiaj maldikaj manoj ektremis.
 Efektive!
@@ -769,13 +822,18 @@ Eksidu kaj silentu, alie la hipnoto ne efikas.
 Eksidu sinjoro, diras Johano, montrante segon tuj apud la tablo.
 Eksilentu do!
 Eksilentu, malsaĝulo! ekkriis la doktoro, turnante sin al la veturigisto.
+Ekster tio, la mortintejo sin trovas ekster la urbo kaj prezentas tre izolitan lokon.
 Eksteraĵe ni multe similis unu la alian.
+Ekstermi ĝin, jen la celo de nia peno.
 Ekvidante, ke mi rigardas ŝin kun miro, ŝi leviĝis kaj foriris kun la knabineto.
 Ekvidinte Alicion, ili tuj kriis unuvoĉe.
 Ekvidinte Martan, ŝi ekridetis kaj salutis tre afable.
 Ekvidinte la enirantan virinon, li leviĝis kaj demandis ĝentile, kion ŝi deziras.
+Ekzistas en Londono societo de spertuloj kies prezidanto mi estas.
 El iu loko, li ne scias kie, subite eksonas dolĉa muziko de du flutistoj.
+El kiu libro?
 El komerca vidpunkto la vizito de Leonardo estis tute sukcesplena.
+El la leĝaro.
 El la remizo oni povis eniri la atendejon.
 El la talento certe naskiĝas inspiro, sed ekzistantan inspiron devas regi povosciado.
 El tio ŝi konkludis ke ĝi falis en kuku­mejon, aŭ en ion tiuspecan.
@@ -787,6 +845,7 @@ Eldiru!
 Elektu pli oportunan tempon.
 Elirinte el la librejo, ŝi komence estis kvazaŭ surdigita kaj sensentigita.
 Eliris, sed baldaŭ revenos, oni respondis de supre.
+Eliro estis neebla.
 Elpreninte ĝin, ŝi restarigis ĝin konvene.
 En Hamburgo loĝas duono da miliono.
 En Meksikio li nuntempe sin okupas per tre gravaj esploroj de antaŭhistoriaj konstruaĵoj.
@@ -820,6 +879,7 @@ En la pupiloj fulmetadis akraj briloj.
 En la sama momento la knabo fermis la libron, ekstaris kaj eniris la atendejon.
 En la stalo mi ekhaltis momenton kaj aŭskultis.
 En la suda muro de la ĉambro estis du fenestroj kun flankaj kurtenoj.
+En la unua vico estas unu seĝo malplena.
 En la venonta tago estis venonta en la mondon mistera gasto: nova jaro.
 En la vespero ni sidis kune en nia granda salono, sed Bjelski malestis.
 En la vespero ŝi de tempo al tempo legis al mi el tri libroj.
@@ -878,6 +938,7 @@ En ĉi tiu momento en ŝi plene estingiĝis la sento de persona respondeco.
 En ĉi tiuj li trovis kortuŝan spiritan malsaton, de ili mem nur malklare konsciatan.
 En ĉio bela mi vidas kvazaŭ la vizaĝon de Dio.
 En ĝia mezo, kvazaŭ bela juvelaro, staris la domego, turohava kaj parte hederokovrita konstruaĵo.
+En ĥinda vilaĝo vivis bramano.
 En ŝia voĉo montriĝis iometa konfuzo, sed ankaŭ ĝojo kaj sento de liberiĝo.
 En ŝiaj malgrandaj kaj iom strabaj okuloj aperis io simila al kompato.
 Energie ekbalancante la kapon, la maljuna germano konsentis:
@@ -904,9 +965,11 @@ Estas Dio, kiu faris ĉion.
 Estas du viroj pli malbonaj ol la ceteraj” li diris.
 Estas en aŭtuno kaj la oka horo en la vespero.
 Estas granda domaĝo, ke vi insistas jam foriri.
+Estas io majesta, eĉ vigliga, en la trankvila konscio de neevitebleco de la morto.
 Estas io, kio tre surprizas Rika.
 Estas la konkordo de la mondaj elementoj, la ordo de la monda vivo.
 Estas la kvina horo en la mateno.
+Estas la sesa horo matene.
 Estas la unua fojo, ke Rika vidas la internon de cirko.
 Estas li!refoje diris Ivan,tiel li marŝas, tiel li aspektas.
 Estas mi.
@@ -919,6 +982,7 @@ Estas plezuro vidi vin!
 Estas pli oportune tie.
 Estas por mi tro multekosta, li malkaŝe diris.
 Estas somero kaj la kvina horo en la mateno.
+Estas sufiĉe prudenta.
 Estas tiu virino.
 Estas tre malfacile priskribi ŝiajn trajtojn, ili konfuzis min.
 Estas tute malutile montri al ili kian ajn familiarecon.
@@ -932,18 +996,21 @@ Estero tuj petis pluajn informojn pri la preciza dato kaj horo de lia morto.
 Estimata sinjorino kredeble havas bezonon al la informa oficejo?
 Estinta kolegeco donas al mi la rajton eĉ por kelka nediskreteco rilate vin.
 Estis belega vidaĵo.
+Estis granda momento!
 Estis jam luma tago, kiam Marta estingis la lampon kaj prenis plumon.
 Estis jam preskaŭ noktomezo.
 Estis kun ni kelke da riĉaj Skotoj, kiuj venis tien por komerci.
 Estis la jenaj: Mi vi ne forlasos.
 Estis la unua fojo, ke iu vekis min.
 Estis la unua fojo, ke mi vidis la malsupran parton de turo.
+Estis malfacile protekti Leon kontraŭ la entuziasmo, kiun li inspiris.
 Estis necese, ke mi atendu la enfluon.
 Estis nenia respondo, la instruistino silentis.
 Estis sendube la unua pafilpafo, kiun ili iam aŭdis.
 Estis tago festa.
 Estis tamen io, kio min trafis, kaj tion mi devas rakonti per malmultaj vortoj.
 Estis tie ankaŭ kelke da ekstraj veloj, kiujn mi terenportis.
+Estis tre klare, ke mi kuŝas en alnajlita kesto.
 Estos pli bone, aŭskulti la historion pri Floriso ol vidi, ke la geamantoj mortas.
 Estos senpage.
 Estos tro longa vojaĝo.
@@ -969,6 +1036,7 @@ Eĉ la penso pri Lorna dum kelka tempo forlasis lin.
 Eĉ malsama nomo.
 Eĉ ne tiam, rediris la malgajulo.
 Eĉ pli bela ol hieraŭ.
+Eĉ se li atingis tion, kio estis la montpinto de liaj sonĝoj."
 Fakte mi estas filozofo, almenaŭ tion oni certigis al mi.
 Fakte tamen la kato estas estiminda besto pro la firmeco de karaktero.
 Fantaziemaj entuziasmulinoj, kiel vi, bezonas multe da balasto por ne kapturniĝi.
@@ -983,6 +1051,7 @@ Feliĉan geedziĝdatrevenon!
 Feliĉan kristnaskon!
 Feliĉan naskiĝtagon!
 Feliĉan novan jaron!
+Fidelan esperantigis la mondon, sed lia amiko ne akceptis lian ideon.
 Fidu al mi; mi havas sufiĉan motivon.
 Filozofio certe ne estas lia plej brila forto.
 Filozofo estas persono, kiu ne havas malamikojn kaj kiu estas la malamiko de neniu.
@@ -1012,10 +1081,12 @@ Fine mi povas skribi al vi.
 Fine mi venkis, kaj la ĝojo kaj la dankemeco de la patro estis senlimaj.
 Fine ni venis en larĝan straton kun altaj domoj, kiuj aspektis pli puraj.
 Fine per peza bastono mi faligis lin teren.
+Fine tamen venis la saniganta, mildekisanta dormo.
 Fine ĝi ĉirkaŭgalopas kelkajn fojojn kaj tiam malaperas, laŭte aplaŭdate de la rigardantoj.
 Fine ŝi diris heziteme:
 Fine ŝi diris kun certeco:
 Fine ŝi diris varme:
+Fine ŝi diris: "Tiu havu min, kiu pleje min meritas".
 Fine ŝi ekkriis:
 Fine ŝi levis la kapon kaj alpaŝis al la mastrino de la loĝejo.
 Fine ŝi leviĝis de la planko kaj levis Janjon.
@@ -1042,6 +1113,9 @@ Floriso ŝin petis konduki lin al Blankafloro.
 Floriso, pensante ke Blankafloro staras ĉe la korbego, subite salte leviĝis.
 Fluego da kompato kaj sopiro ekplenigis kaj preskaŭ troŝarĝis la koron de Leonardo.
 Flugis tra la aero unu kaserolo, kaj kelkaj pladoj, kaj kvazaŭ hajlis per teleroj.
+Foje, kiam ŝi dormis en la ĝardeno, venena serpento mordis ŝin.
+Foje, malfruan vesperon, li venis al dometo, kaj laca li petis tie noktan ripozlokon.
+For de ĉiuj idealoj sekaj kaj seriozaj!"
 Forprenu ilin el mia ĉambro, ĉar mi ne povas pagi por ilia uzado.
 Frapado estas tute superflua, la pordo subite ekmalfermiĝas.
 Frapado malsupre en la ĉambro haltigis nian mallongan interparoladon.
@@ -1056,6 +1130,7 @@ Fraŭlino Klaro kaj fraŭlino Kristino ne povas plenumi la tutan kudradon, kiu e
 Fraŭlino Leggat penis paroli, sed ne povis.
 Fraŭlino Prior ne volis konsenti sen via aprobo.
 Fraŭlino Rudzinska estis por mi lernantino tro multe jam progresinta en la lernado.
+Fremda reĝo sendis al li altan ornamon.
 Fremdulo, li estas eble mortanta.
 Frenezulo, kiun atakis la nervoj, grimacridis unu el la aro.
 Fripona penado rabi al mi la solan komforton!
@@ -1065,18 +1140,26 @@ Gaje ridante, Lorna prenis la brakon de Leonardo kaj ekkriis:
 Gaje ŝi ekkriis:
 Gaŭda estas tre bela kaj purega urbeto en Holandujo.
 Gefratoj!
+Gepatrojn, parencojn, konatulojn, kial nei ekkaptas timo.
 Geraldino demandis lin mallaŭte:
 Geraldino ekparolis plende:
 Geraldino ekskuetis lian brakon kaj diris:
 Geraldino jam kuŝiĝas.
 Geraldino petegis plue kun ŝajnĝemeto:
+Germane?
 Glason da brando? subite kaj lakone interrompis mia patro.
 Granda estis la ĝojo!
 Granda ŝanĝo, efektive.
 Granda, antikva horloĝo, staranta en angulo de la vestiblo, belsone sonorigis duonon post noktomezo.
+Grava malsano!
 Gravajn lecionojn mi ellernis, de kiam mi vidis vin la lastan fojon.
 Gustumante la viandon, li sciigis al mi laŭeble, kiel bona li ĝin konsideras.
+Ha jes! Tiuj ĉi sciencaj artikoloj estas netolereblaj!
+Ha! Tio vin amuzas?
+Ha! estas de Sinjoro Leo, diris Sinjoro Lebruno preterpasante tuj al la subskribo.
 Ha! mi ŝin kuracis energie; vi povas min kredi.
+Ha! se estas pri la kolomboj vi povas eniri, respondis la lakeo.
+Ha! tiam mi ne edziniĝos je li.
 Ha, en la mansardo!
 Ha, ĝi estas vi, fraŭlino Klaro!
 Ha, ĝojo! li respondis kun ĝojo fervora en la okuloj.
@@ -1094,11 +1177,14 @@ He, kian sencon havos skribado!
 He, kion do vi tiel ĉirkaŭrigardas?
 He, kiu havas tempon, por iri serĉi lakton kaj bulkojn!
 Hejme ŝi povas sidi sur apogseĝo, sed ne en ruliĝanta vagonaro.
+Hejmenirante li forte enspiris la freŝan aeron de la maja nokto.
 Hela ruĝo kovris liajn vangojn.
 Helpo alvenis tro malfrue; la juna nobelo jam estis senviva.
+Hispane?
 Ho Dio! ekkriis mi.
 Ho Dio, knabino, kion vi faris!?
 Ho jes! li diris, ni serĉos ovojn.
+Ho jes! mi estas tia.
 Ho jes, eĉ tre bone, li respondis.
 Ho jes, li diris, mi tre ĝin ŝatas, same kiel ĉiujn artojn.
 Ho jes, mi komprenos tamen; mi ja ĉiam komprenis viajn fabelojn.
@@ -1121,7 +1207,9 @@ Ho ve, vi estas tro obstina materialisto.
 Ho!
 Ho! mi deziris esti sur ĝi, sed tio estis neebla.
 Ho! mi scias! mi subite diris.
+Ho! scienco, vi estas nur vantaĵo!
 Ho! tio ja estas memkomprenebla.
+Ho! tiuj knabinetoj! Kiaj demonoj!
 Ho, ŝi respondis kun sufiĉe gaja tono,  tio ne estas nova kulto, sinjoro Marston.
 Ho, Delfino, malgraŭ via promeso, ne plu submeti vin al tiuj strangaj halucinacioj?
 Ho, Delfino, ne lasu tian penson regi vin!
@@ -1143,17 +1231,20 @@ Ho, kiel mi estas malnobla, kanajla, krima!
 Ho, kiel mi lin amis!
 Ho, kiom mi antaŭĝuas vian parolon!
 Ho, la kompatema Dio donu, ke ankoraŭ ne estu tro malfrue.
+Ho, la malbeno de la gloro!
 Ho, li diris, mi estas tro mizera; neniu povas helpi min.
 Ho, li vere intencas? Nu Moseo, ni vidos.
 Ho, malkapabla estaĵo!
 Ho, mi tre miras kio okazis al mi.
 Ho, mi tre ĝojas.
 Ho, mi tre ĝojas; sed nun venu, mi persone prizorgos vian komforton.
+Ho, mi tute same lin vidos.
 Ho, mia Dio, ŝi ripetis mallaŭte,  kompatu min.
 Ho, mia Dio, kion signifas tio?
 Ho, mia infano!
 Ho, mia koro preskaŭ rompiĝis!
 Ho, miaj amataj samcelanoj!
+Ho, ne ruĝiĝu!
 Ho, ne tiel grandan oferon mi postulos de vi, kara Evelino!
 Ho, ne tio, kara sinjorino!
 Ho, onklino Delfino, ni venis kun sinjoro Marston kaj ni multege amuziĝis survoje!
@@ -1187,6 +1278,7 @@ Ho, ŝi estas tiel bona kiel la patro de Lazaroni.
 Ho; nenio igus min pli feliĉa, sinjoroj.
 Ho; ĝi staras en la ĉevalejo ĉe la mia.
 Hodiaŭ la arĝentosona ridado de la infano kaŭzis al ŝi nedifinitan, sed pezan maltrankvilecon.
+Hodiaŭ mem.
 Hodiaŭ mi havas emen je nenio.
 Hodiaŭ ĉi tie estas denove tro malvarme.
 Hodiaŭ!?
@@ -1203,6 +1295,7 @@ Ili agas nur propraplaĉe kaj montras amikecon nur al personoj, elektitaj de si 
 Ili alvenis hodiaŭ kune kun la aliaj.
 Ili ambaŭ ekfumis.
 Ili ambaŭ estis tre, tre belaj, sed la jodelkanto pli forte ravis min.
+Ili atendas la venon de bona feino.
 Ili daŭrigis sian interrompitan interparoladon.
 Ili diris al mi, ke vi estas ilia filo, vi ja naskiĝis tie ĉi.
 Ili do havas malbonan novaĵon.
@@ -1243,6 +1336,7 @@ Ili mensogis.
 Ili min manĝos.
 Ili min premu per la piedoj!
 Ili naĝis kvazaŭ ili venis por sportigi.
+Ili ne estas rimoj!
 Ili ne havas la rajton defendiĝi.
 Ili neniam batis, eĉ ne riproĉas min.
 Ili neniam postlasas adreson?
@@ -1252,6 +1346,7 @@ Ili parolis pri amikeco.
 Ili partoprenis la ĝeneralan ĝojon.
 Ili promenas plue.
 Ili rapidis kune al la stacio.
+Ili renkontiĝos ĉe la Korta Preĝejo je la oka horo matene.
 Ili sciigis min pri suspektindulo, kiu ŝajne postflaras niajn postesignojn.
 Ili sin reciproke mezuris.
 Ili staris ĉe la vojoforkiĝo, konjekteble interŝanĝante la lastajn vortojn, antaŭ ol ili disiĝos.
@@ -1299,9 +1394,11 @@ Iru domen kune kun nia fratino, sinjorino Gibson.
 Iru for! laŭte kriis mia patrino.
 Iru laŭ la vojo ĉe via dekstra mano.
 Iru nun al via lito kaj dormu.
+Itale?
 Iu alproksimiĝis, sed anstataŭ Johano staris antaŭ mi maljuna virino.
 Iu bonkorulino do prizorgis ŝin, kaj pro tio li fervore dankis Dion.
 Iu eklumigas grandan lampon kun rozkolora ŝirmilo.
+Iu jam laboros!
 Iu, pro misteraj, malicaj celoj, instigis vin.
 Iufoje ŝiaj brovoj kunŝoviĝadis, la esprimo de profunda pripenso aperadis sur la frunto.
 Ivan aspektis subite tre gravmiena kaj diris:
@@ -1372,6 +1469,7 @@ Je la oka mi atendas Londonan specialiston, doktoron Mason, kaj speciale spertan
 Je la sepa tago, mi estis jam tute sana!
 Je tio li respondis, Se vi iri, mi iri.
 Je via sano.
+Je ŝia dolĉa voĉo la homoj plezure malfermos por nia infano la koron.
 Jen Blankafloro sin trovis inter fremduloj kaj en salonego, kiun ŝi ne povis forlasi.
 Jen Luci.
 Jen ankoraŭ unu, kiu timas, ke mi ĝin manĝos, li diris.
@@ -1386,9 +1484,12 @@ Jen estas modelo por braceleto, ŝi diris.
 Jen estas skizo, desegnita de fama desegnisto, oni komisiis al vi kopii ĝin.
 Jen estas ŝtofo kun radioj!
 Jen io stranga.
+Jen kial mi plivolis morti hodiaŭ ol atendi ĝis la fino.
 Jen kio povus okazi.
 Jen kuŝis Jafet sur miaj piedoj.
 Jen la afero fariĝas pli stranga ankoraŭ...
+Jen la afero, sinjoro.
+Jen la helpo, jen la savo!
 Jen la maniero, per kiu mi kutimas reguligi mian konton kun tiaj homoj!
 Jen li eksidas, ni surprizu lin, diris la kuiristo.
 Jen li estas.
@@ -1411,14 +1512,20 @@ Jen, kia vidaĵo! La ŝipo estis ĵetita sur la ŝtonegojn.
 Jen, legu tion; mi petas, li diris.
 Jen, li estas for.
 Jen, rigardu, la nuboj jam disrompiĝas kaj plilongiĝas ambaŭflanken.
+Jes ja, oni devis ja ĉion bone prepari.
 Jes kaj ne.
+Jes paĉjo.
 Jes! diras Moseo.
 Jes, respondis Leonardo,  kaj tio denove rememorigas al mi vian lastan leteron.
 Jes, ŝi diris,  ĉio ĉi tio ankoraŭ kirlas al mi la kapon.
 Jes, Anjo, ĉion.
 Jes, Greka dresisto de sovaĝaj bestoj.
 Jes, Lorna, li diris,  noblanimeco kaj boneco kunigitaj estas elementoj de granda, malofta ĉarmo.
+Jes, Via Moŝto, sed vi liveros la kolombojn?
+Jes, Via Moŝto.
+Jes, amiko mia, mi ĝin al vi ĵuras.
 Jes, ankoraŭ pli multe.
+Jes, certe ja!
 Jes, certe, koran dankon!
 Jes, certe, mi venos tuj post la vespermanĝo.
 Jes, dankon, preskaŭ plene.
@@ -1451,6 +1558,7 @@ Jes, mi amas.
 Jes, mi diris per malforta voĉo, kie estas Jafet?
 Jes, mi estas kulpa; mi ja devus averti vin antaŭe.
 Jes, mi esti multe ĝoja tie.
+Jes, mi fariĝis redaktoro-eldonanto-presanto-administranto de "Lingvo Internacia".
 Jes, mi interesiĝas pri tiaj demandoj, sed kvazaŭ aparte, senkontakte.
 Jes, mi iros kien ajn, por foriĝi el ĉi tiu loko.
 Jes, mi ludis.
@@ -1461,8 +1569,10 @@ Jes, mi povas.
 Jes, mi promesis.
 Jes, mi rememoras.
 Jes, mi respondis, la vento estas kontraŭa, li devas luvadi, sed li baldaŭ venos.
+Jes, mi ripetas al vi.
 Jes, mi scias la kaŭzon; aŭskultu.
 Jes, mi ŝin vidis.
+Jes, mi! Vi bezonas kvindek mil frankojn?
 Jes, mia juna sinjoro, ĉiuj dronis; mi sola estis savita.
 Jes, mia kara, ĉirkaŭ via korpo.
 Jes, mia knabo; ĉio dependas de cirkonstancoj.
@@ -1470,8 +1580,11 @@ Jes, miaj kaloj doloras, kaj tiam ĉiam ekpluvos.
 Jes, min, ripetis la virino per senŝanceliĝa voĉo.
 Jes, onklino Ida.
 Jes, pastro.
+Jes, paĉjo, sesdek mil frankojn.
+Jes, paĉjo.
 Jes, precipe en la lastaj tagoj.
 Jes, rajdantaj reklamiloj.
+Jes, respondis Leo, ekĝemante, ĉar li ne volis konfesi la fonton de sia riĉeco.
 Jes, sed mi eraris.
 Jes, sed nur malmulte.
 Jes, sed ŝi volis kredigi al mi, ke novaj ĉevaloj deĵetas la ulanojn.
@@ -1484,6 +1597,8 @@ Jes, sinjoro Marston, iafoje mi devas preni ion por firmigi miajn nervojn.
 Jes, sinjoro, feliĉe mi dormis, ĉar mi ne povis dormi dum tri tagoj.
 Jes, sinjoro, kaj la knabo ekstaris.
 Jes, sinjoro, mi estas muzikisto.
+Jes, sinjoro, mi multon scias.
+Jes, sinjoro, ĉe la financa ministrejo.
 Jes, sur azeno.
 Jes, tio estas dana.
 Jes, tion la fremdulo rakontis al mi.
@@ -1494,11 +1609,13 @@ Jes, vi estas prava, mi ĉiam kuiras ilin, sed laŭ simbola senco.
 Jes, vi faras; kial?
 Jes, vi tuj vidos, sed antaŭe okazos io alia.
 Jes, vi!
+Jes, vi.
 Jes, via patro jam konsentis.
 Jes, ĉar la vagonaro iras dekfoje pli rapide ol piediranto.
 Jes, ĉar li parolas kiel la vojaĝantaj muzikistoj.
 Jes, ĉar li rakontis al mi, ke li ludis en "Vilhelma Tell".
 Jes, ĉar vi ne volas cedi al mi la alian.
+Jes, ĉion, de araba kaj greka ĝis la rimedo por fari malkaran sapon.
 Jes, ŝi estas preskaŭ lama pro malsano en la koksoj.
 Jes, ŝi konsentas ĉiam en ĉio, kion mi petas.
 Jes, ŝi ripetis post momento per forta voĉo.
@@ -1532,69 +1649,102 @@ José treege fieros pri tia honoro.
 Juna vidvineto!
 Kaj "li" havas tiel belajn mentonharojn.
 Kaj Klariso pro ektimo svenis, ĉar ŝi aŭdis, kion diris la ĉambelano.
+Kaj Vi per duobla ĝojo kaj laboremo ekiros sur la vojo de Via ideo!"
 Kaj al knabinoj ankaŭ, aldonis la mastrino de la informa oficejo.
 Kaj ankaŭ bovinoj? mi demandis post momento.
 Kaj ankaŭ hundoj?
 Kaj ankaŭ katoj?
 Kaj baldaŭ okazos tie kelkaj interesaj aferoj.
+Kaj bonvenon, karaj abonantoj!!!
 Kaj cetere por kio la homoj devas min estimi?
 Kaj denove inter la virinoj, kiuj staris apud la tablo, regis momenta silento.
+Kaj eble eĉ la monujon.
 Kaj en kiun flankon ŝi kuris?
+Kaj en sia tempo libera li devis labori.
 Kaj estas eble, ke vi resaniĝos?
 Kaj eĉ ne unu vorton parolu, ĝis mi finos.
 Kaj fakte ĝuste tio okazis.
 Kaj hieraŭ ilia saluto ne estis tro kora.
 Kaj ili sekvis la knabon, kiu jam estis trairinta la atendejon.
+Kaj ili venis al mi por peti mian juĝon.
+Kaj inter tia gloro kaj sukceso Vi sentas Vin sola kaj ne havas bonhumoron!
 Kaj kiam ili estos kvitaj?
 Kaj kiam li devas esti baptata?
 Kaj kian gravecon tio havas por ni?
 Kaj kie estas la malnova?
 Kaj kie estas nun via patro?
+Kaj kie vi lernis tiujn bonajn principojn?
+Kaj kie vi nun loĝas?
 Kaj kie vi ŝin vidis, ventulo?
 Kaj kiel estas via familia nomo?
+Kaj kio estas la eterna rekantaĵo en la recenzoj?
 Kaj kio sekvas el ĉio ĉi tio?
 Kaj kion mi povos fari tie?
 Kaj kion ni faros poste?
 Kaj kion oni ludas?
+Kaj kiu diris al vi, ke estas ĉio tio en la leĝaro?
 Kaj kiu estas tiu?
 Kaj koncerne la kudradon mem?
+Kaj la ceteraj rimoj ĉiuj estas radikrimoj, do ilia nombro estas limita, kvazaŭ elkalkulebla.
 Kaj la dua leciono estas jena: gardu vin, ke via motivo estu pura.
 Kaj la fakto, ke ĝin donos al mi homoj fremdaj, pro kompato, pro kunsento?
+Kaj la infano ja ne estas tute novnaskito.
 Kaj la kuiristo fingre montris antaŭ sin.
 Kaj la patro?
+Kaj la rapide disvastiĝinta famo pri la miraklo baldaŭ alvenigis ankaŭ la kvaran junulon.
 Kaj la reĝo disordonis, ke ĉiu diskonigu, ke Blankafloro estas mortinta.
 Kaj la ĉarma Jadvinjo, ĉu ŝi bone lernas?
+Kaj li altiris al si la manon kaj la pistolon.
 Kaj li faris nenion?
+Kaj li hakadis kuraĝe, kvankam kelkfoje vundiĝis ankaŭ li mem.
 Kaj li malrapide supreniris la ŝtuparon, dum la pordisto maĉadis, revenante al sia kajuto:
 Kaj li ordonis al la nigraj manoj mebloprovizi ĉambregon, indan je li.
 Kaj li ordonis, ke ili konstruu por li kastelon.
+Kaj li sonĝis.
+Kaj li vekiĝas.
 Kaj mi baldaŭ forlasis ĉiujn malĝojajn pensojn, kaj eĉ ne plu rigardis pro velŝipo.
 Kaj mi dezirus ekscii, ĉu li foriris propravole.
 Kaj mi komencis la dudekkvaran.
 Kaj mi promesis helpi al li.
+Kaj mi vidis nenion!
 Kaj mian malgrandan nevinon mi povos havi ĉe mi?
 Kaj nenian okupon vi ĝis nun povis trovi por vi?
+Kaj ni ne volas, kaj ne povas fari la gazeton solaj.
 Kaj ni ĉiuj bone komprenis la mistikan signifon de virga animedzeco kun ĉiela fianĉo.
+Kaj nian konatecon eĉ pli firmigis, ke si eksciis, ke mi estas Via amiko!
 Kaj nun la Damo almetis la okulvitrojn kaj severe rigardegis la Ĉapeliston.
 Kaj nun mi finos tiun-ĉi historion pri mia vivo.
 Kaj nun sekvis la manĝado de la sukeraĵoj.
+Kaj nun, kara infano, iru kien la sorto kondukas vin.
 Kaj nun, kion vi pensas pri mia nova hararanĝo?
 Kaj onklino Ida?
 Kaj per flamaj vortoj ŝi rakontis ĉion, kio koncernis la proceson.
 Kaj post la monato?
+Kaj post ses semajnoj finos la jaron.
+Kaj post tio?
 Kaj poste?
+Kaj pri nia konkuranto, ĉu li estas malviva?
 Kaj pro kiu kaŭzo ili alvenis?
+Kaj revojn ni havas, ĉar ni estas Esperantistoj, do revemuloj profesiaj.
 Kaj samtempe granda sentaŭgulo!
 Kaj tamen kun kia forto ŝi parolis al li!
 Kaj tamen tiel povis esti: ho ve!
 Kaj tamen ŝi ankoraŭ eĉ unu fojon ne etendis la manon.
 Kaj tio estis afero tute natura.
+Kaj tio ĉi okazis sub miaj okuloj?
 Kaj tiujn fortojn, tiun volon, tiun persistecon ŝi tiom, tiom bezonis!
 Kaj uzeblan subtegmentejon.
+Kaj vi ankaŭ desegnas?
+Kaj vi deziras konkuri je la kolomba premio?
+Kaj vi esperas atingi vian celon?
 Kaj vi farus nenion bonan, fratineto.
+Kaj vi kredas, ke mi konsentos tiun edziniĝon?
 Kaj vi mem? Ĉu vi ne laboras ĉe Klomp?
 Kaj vi ne naskiĝis sur la lnsulo?
 Kaj vi ne povas kompreni, kial mi informiĝas pri tio.
+Kaj vi nun deziras scii ĉu vi povas manĝi tridek kolombojn en unu monato?
+Kaj vi persistas?
+Kaj vi respondis al li?
 Kaj vi sola laboras por ĉio ĉi tio?
 Kaj vi tro frivola, diris la knabino kun duone ŝerca, duone riproĉa tono.
 Kaj vi ŝin ne trovis?
@@ -1610,7 +1760,13 @@ Kaj ĝis nun neniam mi povis kompreni kion precize tio signifas.
 Kaj ŝi denove ekridis, sed nun jam mallonge kaj seke.
 Kaj ŝi denove ridis.
 Kaj ŝi foriris lasante Alicion sola kun la Grifo.
+Kaj ŝi mortis.
+Kaj ŝia koro restis, kiel la kano en la vento.
 Kaj ŝiaj okuloj!
+Kaj, kiam vi ekkomencos?
+Kaj, kiam vi tiamaniere interparoladis?
+Kaj, kompense, ke li havas nenion.
+Kaj, kunpreminte la dentojn, mi penis koncentri mian tutan volon sur tiu ĉi punkto.
 Kaj, sendube, via patro estas fiera pri vi.
 Kapitano Alderson priparolos siajn travivaĵojn ĉe la suda poluso kaj montros aron da kuriozaĵoj.
 Kapon Dio al unu homo donas, al alia ne donas, sed manojn ĉiu havas!
@@ -1619,18 +1775,22 @@ Kara knabo, respondis basa voĉo de el la kurtenoj, vi jam scias.
 Kara patrinjo, vi povas trankvile foriri, ni estos singardaj.
 Kara patrino, mi sidas en la horloĝo.
 Kara, amata sinjorino!
+Karaj Samideanoj!
 Karaj gegastigintoj
+Karega amiko!
 Karolino levis la ŝultrojn.
 Karolino per larĝe malfermitaj, atentaj, penetremaj okuloj rigardis sian kamaradinon.
 Karonjo, ŝi ripetis; mia Dio, ĉu tio estas vi, efektive?
 Karulino, ŝi diris milde, mi tre dezirus, ke vi ĉesu partopreni tiujn.
 Katoj estas karakterhavaj bestoj, pli karakterhavaj ol ni pensas.
 Kaŭzon?
+Ke mi lin amos ĝis la fino de mia vivo.
 Ke vi akceptu ŝin kiel komizinon.
 Ke vi mensogis al Roberto pri mi, estas vere, perfidulo.
 Kelkaj el la birdoj tuj forportis sin.
 Kelkaj elektraj lampoj kun ruĝaj ŝirmiloj ĵetis mildan, belan lumon sur la foliaron.
 Kelkaj monatoj pasis.
+Kelkaj ofte rigardas al la pordoj, ĉu eble li ankoraŭ venos?!
 Kelkaj preferas ekkoni la puran rusan arton.
 Kelkaj tagoj pasas kviete.
 Kelkaj vilaĝaj klaĉistoj rilatigas fraŭlinon Haverford al la kaŭzo de la brulo.
@@ -1712,6 +1872,7 @@ Kial vi tion scias?
 Kial vi volas iri?
 Kial vi volas ŝarĝi min per la inkubo de ĉi tiu sekretego?
 Kial vi ŝlosis la pordon, Delfino?
+Kial ĉiam li laboru!
 Kial ŝi ekflamis per ofendita fiereco?
 Kial ŝi foriris tiel rapide?
 Kial!?
@@ -1720,6 +1881,7 @@ Kial, ili vin mortigus?
 Kial, karulino, kial vi persistas elmeti vin al tiaj danĝeroj?
 Kial, sinjorino?
 Kial?
+Kial? Do ne ludu antaŭ mi komedion!
 Kial? mi demandis tute ne pripensante lian diraĵon.
 Kial? mi demandis, kredante ke refoje li deliras.
 Kial? mi demandis.
@@ -1747,6 +1909,9 @@ Kiam li finis sian rakonton, la maljuna sinjorino demandis:
 Kiam li tion estis farinta, la preĝo estis finita.
 Kiam li venis tien?
 Kiam mi atingis la ŝipruinon, hundo alnaĝis al mi, blekante kaj ploretante.
+Kiam mi elverŝis al vi la teon.
+Kiam mi estos plenaĝa vi devos doni kontojn al mi.
+Kiam mi maldormiĝis kaj malfermis la okulojn, ĉirkaŭ mi estis absoluta mallumo.
 Kiam mi rekonsciiĝis, preskaŭ ĉiuj vizitantoj estis forkurintaj kun teruro...
 Kiam mi sidis sur la supro monteta, Paŭlo alproksimiĝas.
 Kiam mi volis redoni la moneron, li diris, ke tiu mono estas la mia.
@@ -1756,6 +1921,7 @@ Kiam rompiĝis via kruro?
 Kiam sinjorino Harding leviĝis por iri en la librejon, Lorna sekvis ŝin.
 Kiam tio estas finiĝinta, la fraŭlinoj devas malsupreniri la turon kaj kunveni en ĝardeno.
 Kiam vi estis hejme la lastan fojon?
+Kiam vi mortos?
 Kiam vi rimarkis tion?
 Kiam vi vizitos nin?
 Kiam ŝi ekvidis Leonardon, ŝiaj lumaj okuloj alprenis ridantan, preskaŭ petolan aspekton.
@@ -1767,8 +1933,10 @@ Kiamaniere povis io homforma alveni al tiu-ĉi marbordo sen mia scio?
 Kiamaniere vi ordonis?
 Kiamaniere?
 Kian aspekton mi havus en tiu okazo?
+Kian celon, kian sencon havis tiu komedio, kiu finiĝis per tia monstra fino?
 Kian do sciigon mi ricevos de vi?
 Kian humoron vi havas hodiaŭ, li murmuris, ĉu mi nenion pli sciiĝos?
+Kian metion?
 Kian muzikon?
 Kian opinion cetere havas pri mi la tuta mondo, la homoj?
 Kian promeson?
@@ -1785,6 +1953,7 @@ Kie estas nun via patrino?
 Kie estas tiu sinjoro?
 Kie estas via edzo!? demandis la koleranto.
 Kie loĝas tiu Klajn?
+Kie mi devas manĝi tiun manĝon?
 Kie mi estas? mi demandis al mi.
 Kie serĉi lin? Enprofundiĝinte en pensojn, mi iris plue.
 Kie staras nun tiu veturilo?
@@ -1792,14 +1961,18 @@ Kie vi do dormis la lastajn noktojn?
 Kie vi estis?
 Kie vi loĝas?
 Kie vi loĝas? Mi kondukos vin hejmen.
+Kie vi naskiĝis?
+Kie vi volas.
 Kie ŝi loĝas?
 Kie? demandis ambaŭ.
 Kiel bela estas la mondo, sinjoro Marston!
 Kiel bela ŝi estas!
 Kiel bele ŝi aspektas en tiu malbelega tuko, kiun ŝi havas sur la kapo.
 Kiel blinda mi estis!
+Kiel bona estas Via Moŝto!
 Kiel bonege vi aspektas!
 Kiel bonkora vi estas, kara sinjoro Marston!
+Kiel danko Leo klinigis la kapon.
 Kiel do ambicia, enviema, postulema kaj senbrida en siaj postuloj ŝi estis!
 Kiel do mi respondus al vi pri via “kial”?
 Kiel do oni povas ne ridi!
@@ -1812,6 +1985,7 @@ Kiel fiŝo en ŝlimajo Klomp baraktas sur la planko.
 Kiel granda estas tiu-ĉi domo?
 Kiel kompleza vi estas, tuj entrepreni tiun longan vojaĝon!
 Kiel konfuzigaj estis tiuj ŝanĝiĝoj.
+Kiel kontentega vi estus, se vi parolus arabe.
 Kiel li aspektas?
 Kiel li eniris? Via patrino do lasis la pordon nefermita?
 Kiel li fartas?
@@ -1826,9 +2000,11 @@ Kiel mi miris, vidante ke enestas granda monsumo.
 Kiel mi povus danki al vi, Lorna ekparolis,  por via mirinda instruo.
 Kiel mi povus decidi, tio kompreneble dependos de cirkonstancoj.
 Kiel mi povus?
+Kiel naciulo.
 Kiel okazis tio?
 Kiel ordinare, mia mano moviĝis facile, kaj mi ricevis tujajn respondojn al niaj demandoj.
 Kiel povis ĝi veni tien?
+Kiel pri la kvindek frankojn kiujn vi ŝuldas al mi?
 Kiel rave bela estas la nokta vidaĵo ĉi tie.
 Kiel rave, kiel bele en harmonio kun la solena grandiozeco de la ĉirkaŭaĵo!
 Kiel sin nomas tiu magia rimedo? La laboro, respondis la maljunulo.
@@ -1840,14 +2016,19 @@ Kiel vi nomiĝas?
 Kiel vi nun sentas vin?
 Kiel vi opinias pri ŝi?
 Kiel vi povas fari tion al mi?
+Kiel vi sanas? demandis al li la prezidanto de la societo.
 Kiel vi sentas vin nun? demandis li.
 Kiel vi venis tien-ĉi?
 Kiel vi?
+Kiel volonte li amindumus al ŝi!
 Kiel ŝi aspektas?
+Kiel, sinjoro, vi legas tiujn ĉi longajn, maldikajn torditajn literojn kiuj similas al vermiĉelo?
+Kiel?
 Kien do li povis perdiĝi?
 Kien ili iris?
 Kien la viroj vialandaj iras, kiam ili mortas?
 Kien li do iris?
+Kien li rigardis? Kion li pensis?
 Kien tiel rapide?
 Kien vi deziras vojaĝi, kaj kial vi aliras nian landon? demandis li.
 Kien vi iras, Lorna? demandis Leonardo.
@@ -1895,6 +2076,8 @@ Kio tiam fariĝus el la nobliga militista profesio?
 Kio vi estas, sinjoro elsaltulo, kuraĝante.
 Kio ŝi mem povis esti por si mem?
 Kio?
+Kiom aĝon vi havas?
+Kiom da dankeco! ekkriis Leo, premante la patran manon.
 Kiom da fojoj mi riproĉis min poste pri mia blinda ensorĉiteco!
 Kiom da jaroj vi havas?
 Kiom da jaroj?
@@ -1909,17 +2092,21 @@ Kiom mi scias, ĉiuj estas honestaj kaj bonmoraj.
 Kiom multe mi donus por tio, ke mi povu ŝanĝiĝi, Marinjo!
 Kiom vi aĝas?
 Kiom vi bezonas?
+Kiom vi gajnas monate?
+Kiom vi jam havas?
 Kiom vi pagas al ĉi tiu sinjoro?
 Kiom ĝi kostas?
 Kioma estas la horo?
 Kioma horo estas?
 Kioman grandon havas la fenestra malfermaĵo en la pordego? demandis Leonardo.
+Kion deziras diri al mi tiu ĉi ĉarma junulo? Ni vidu!
 Kion do ili intencas kun li?, ŝi pensas.
 Kion do mi estas kulpa, ke mi estas juna?
 Kion do mi faras?
 Kion do mi faros?
 Kion do mi povas fari, kion mi povas fari?
 Kion do vi nun faras?
+Kion do vi tie faras?
 Kion do vi volas?
 Kion do ŝi diris?
 Kion eble signifas tio?
@@ -1928,15 +2115,18 @@ Kion la blankbarbulo faros tie? ŝi pensas.
 Kion li devas fari?
 Kion li deziras?
 Kion li flustris al vi, Moseo? demandas la spicisto.
+Kion li volas diri?
 Kion mi devas fari?
 Kion mi faras en mia propra domo, tio neniel koncernas vin.
 Kion mi plej multe bezonis, estis boato por terenporti la posedaĵon.
 Kion mi povos aĉeti?
+Kion mi tie faros?
 Kion ni faras?
 Kion nun fari?
 Kion nun li sentos pri ŝi?
 Kion pensus la edzo, se li scius?
 Kion povas fari viro pli ol tio?
+Kion signifas por ĝi aparta persono?
 Kion signifas tio?
 Kion vi deziras, sinjorino?
 Kion vi deziras?
@@ -1956,12 +2146,14 @@ Kion vi serĉas ĉi tie? Evidente vi sekvadas nin kun nenia bona celo.
 Kion vi tie farus?
 Kion vi volas de mi, sinjoro?
 Kion vi ĉiuj signifas en la mondo?
+Kion volas diri tiu ĉi frazo?
 Kion ĝi signifas? diris plue mia patrino.
 Kion ŝi dirus?
 Kion ŝi ekvidis!
 Kion ŝi faras tie?
 Kion ŝi povus diri?
 Kiu ajn alproksimiĝas al tiu turo sen sufiĉa kialo, tiun li mortigos.
+Kiu al mi donos sesdek mil frankojn?
 Kiu almetis tiun bandaĝon?
 Kiu direktoro?
 Kiu diris tion?
@@ -1969,6 +2161,7 @@ Kiu diris tion? Ĉu la servistinoj babilis al vi?
 Kiu do ekpensus, ke el tiu malpura bubo elkreskis tiel belega junulo!
 Kiu do povas esti tiu knabino? li demandas al si.
 Kiu do ŝi estas, tiu kompatinda Eminjo?
+Kiu ebligos, ke vi ilin perlaboros, se vi havas bonan stomakon.
 Kiu el la sinjoroj parolas germane?
 Kiu estas Barazof? plue demandis Romeskaŭ.
 Kiu estas malsana?
@@ -1977,6 +2170,7 @@ Kiu estas ŝi?
 Kiu frizis vin?
 Kiu li estas? interrompis malafable Herbeno, malpaciencigite de tiu babilado.
 Kiu li estas? li demandis post momento.
+Kiu multe eraris en sia studado pri la poeto Sadio.
 Kiu parolas?
 Kiu povas hodiaŭ rifuzi al vi tiun rajton?
 Kiu povus supozi, ke sinjorino Herminio iam agos kun vi en tiel kruela maniero!
@@ -1986,12 +2180,15 @@ Kiu ŝi estas?
 Kiu ŝipo? demandis mia patrino, rigardante tra la fingroj la strangan preskaŭ-droninton.
 Kiu, en la komenco, instigis vin alpreni tiun rimedon?
 Kiu?
+Kiu? ekdemandis Petro.
 Kiuj estis tiuj homoj?
 Kiuj vi estas, sinjoroj?
 Kiuj? mi ekkriis.
 Kiujn do objektojn vi povas kaj deziras instrui?
 Kiun do?
 Kiun lingvon parolis via patro?
+Kiun mi elektos.
+Kiun vi elektos paĉjo?
 Klaristo morte paliĝis pro ekteruro.
 Klaro ekridetis.
 Klaro faris senpaciencan movon.
@@ -2010,6 +2207,7 @@ Knabina privilegio ĝis konscia virineco, ĉu ne?
 Komence ili sin amuzis pro miaj gestoj, sed fine ili forpelis min.
 Komence ŝi legis malrapide, atente, poste kun entuziasmo, kun preskaŭ febra intereso.
 Komence ŝi tenis por ŝi guvernantinon, poste ŝi sendis ŝin en ian malgrandan edukejon.
+Kompare al ĉi tiuj revoj nia nuna numero estas tre modesta ekzemplero.
 Kompatema Dio! fine la pastro flustras, tio estas epilepsio, la malsano, kiun li aludis.
 Kompatemaj manoj ĝenerale enhavas en si kruelan elementon de necerteco.
 Kompatinda Karolino!
@@ -2023,6 +2221,7 @@ Kompreneble multo dependas de Malkomo mem.
 Kompreneble ne, ŝi interĵetis kun malbela mokrido.
 Kompreneble vi akceptos, sed zorgu, ke li gajnu.
 Kompreneble!
+Kompreneble! Nenio el ĉio tio nutras homon, kaj vi ne estas la unua.
 Kompreneble! diris ŝia patro.
 Kompreneble, ankaŭ hundoj.
 Kompreneble, mi baldaŭ liberigis ilin, kaj instruis ilin por anstataŭi min sur la insulo.
@@ -2038,6 +2237,7 @@ Koncerne ĉi tiun deziron, kara patro, vi povas morti trankvile.
 Konduktoro, ĉu ĉiuj kupeoj estas okupitaj? tiuj viro kaj virino serĉas lokon.
 Konjekteble ili estis okupitaj per sekreta interkonsiliĝo.
 Konsentite!
+Kontentiĝi! mi plivolas morti.
 Kontraŭ la koridora fenestreto estas pordeto, tra kiu oni povas eniri la ununuran ĉambron.
 Kontraŭ vera amo eĉ supernatura malamo ne povas stari.
 Kontraŭe, Zuro diris, Se la sovaĝuloj venos, ili min manĝu; sed vi forkuru.
@@ -2051,6 +2251,7 @@ Kredeble.
 Kredu min!
 Kreskiĝinte la greno maturiĝis, kaj ni eltrovis, ke ni havas sufiĉon.
 Kriegante, la viroj kuris tien kaj reen.
+Krimoj ili estas!
 Krom la neprokrastebla fina laboro rilate al nia patento, estas aliaj kaŭzoj.
 Krom tio, ili pli kaj pli nigriĝis.
 Krom tio, koboldoj ja nur ekzistas en ferakontoj; tion vi bone scias.
@@ -2063,12 +2264,14 @@ Kun abomeno la knabo deturnis la vizaĝon por eviti la teruran vidaĵon.
 Kun bedaŭro Leonardo trovis, ke estas necese maldungi la administranton.
 Kun ekkrio de raviĝo Geraldino diris:
 Kun escepto de tio, mi volontege farus ĉion por montri al vi mian korinklinon.
+Kun facileco.
 Kun kreskanta sentemeco li demandis sin, kiaj sentoj regas ŝian koron.
 Kun la trarigardo de la manuskripto mi rapidos.
 Kun lanco? mi demandis, pensante pri la soldato, kiu arestis Vilhelmon Tell.
 Kun okuloj pleniĝantaj per larmoj kaj kun tremetantaj lipoj ŝi diris:
 Kun peno liaj rigidaj kruroj portas lin pli malproksimen.
 Kun reklamilo, vi estas dironta, ĉu ne vere!
+Kun sincera riverenco mi klinas la kapon antaŭ ili.
 Kun strioj horizontalaj aŭ vertikalaj?
 Kun tia ŝarĝo da armiloj mi postulis du horojn por atingi la lokon.
 Kun vizaĝo levita al la malluma ĉielo ŝi etendis ambaŭ manojn supren.
@@ -2078,6 +2281,7 @@ Kune kun mi; ĉu ne?
 Kune kun tio, tamen, montriĝis ĉarma, natura sincereco.
 Kuraĝiĝu, knabo mia.
 Kuraĝon! Kuiru viajn pizojn kaj ĉio fariĝos bona!
+Kuraĝu! Estas tio kion vi necesas.
 Kuri unu, du, tri, kaj fari en boato tiam.
 Kutime li neniam promenas sola, ĉar tion toleras nek Rika, nek Moseo.
 Kuzino Marinjo!
@@ -2087,10 +2291,14 @@ Kvankam ili pretendas esti negocistoj, mi supozas, ke ili alvenis aliacele.
 Kvankam la tablo estis granda, la ĵus priskribita trio amasiĝis en unu angulo.
 Kvankam mi ne malsatis, mi manĝis por fari al ŝi plezuron.
 Kvankam tute lacigita, mi nun devis movi miajn aĵojn al sendanĝera loko.
+Kvar junuloj svatis pri ŝia mano.
 Kvarjaran knabineton, bonaniman, trankvilan, kiu al neniu farus iam ian malagrablaĵon.
 Kvietiĝu! li diris mallaŭte, ne ploru, ĉio fariĝos bona.
 Kvin cent kaj kvin cent faras milon.
 Kvin cent! mi diris, feliĉa, ke mi fine povis doni bonan respondon.
+Kvindek mil frankojn estas multe da mono, sed mi ne deprenas mian promeson.
+La Amo estas tamen pli forta, ol la ideo!
+La Arto estas potenca patronino.
 La Blanka Kuniklo almetis siajn okulvitrojn.
 La Blanka Kuniklo eksaltis ekscitite.
 La Blanka Kuniklo tuj blovis trifoje la trumpeton, kaj laŭte kriis:"Unua atestanto!"
@@ -2103,6 +2311,7 @@ La Grifo levis surprize ambaŭ birdpiedojn.
 La Insulo ŝajnas al mi malgranda, diris Johano.
 La Lakeo nur klinis sin riverence kaj ridetis.
 La Lakeo zorge aliflankigis ilin laŭ la ordono, levante ilin per la piedo.
+La Majstro kaj lia fidela disĉiplo.
 La Muso tuj eksaltis el la akvo, kaj ĝia tuta korpo timskuiĝis.
 La Raŭpo laŭte kriis post ŝi.
 La Reĝo metis la manon sur ŝian brakon, dirante per tre malkuraĝa voĉo.
@@ -2120,14 +2329,17 @@ La aliaj lin sekvis, kaj mi restis sola.
 La aliaj sinjorinoj ekrigardis la lastan parolintinon kun miro kaj admiro pro ŝia kuraĝo.
 La altakreska viro alpaŝis al li senekscite.
 La altkreska viro sin klinis kun kontenta rideto kaj, kisinte ŝin, respondis:
+La amantoj ploris kaj veis.
 La ambaŭ virinoj videble posedis karakterojn vivajn kaj ekscitiĝemajn.
 La amikaro konsistis el nur ses personoj.
+La amikoj kaj la societo miregos.
 La amo de Dio estas senfina.
 La anguloj de ŝiaj plenblovitaj lipoj havis formon, kiu divenigis malbonan humoron.
 La aplaŭdado ne finiĝis.
 La arlekeno laboros sur ĝi.
 La arlekeno montras la lokojn, kie ili eksidu, kaj ili eksidas.
 La arto posedas diversajn gradojn, ĝian konadon la homoj akiras por diversaj celoj.
+La astronomiisto?
 La balancarkoj ekmoviĝis pli vigle kaj ekbalancis la virinon, kuŝantan sur la longa brakseĝo.
 La bando tuj ĉirkaŭis Leonardon, kaj unu el ili ekprenis lin ĉe la brako.
 La besto rigardis min tiel strange, kvazaŭ ĝi ne konus min plu.
@@ -2151,7 +2363,10 @@ La ceteron mi devas lasi al la zorgo de Dio.
 La cirka veturilo staris post sia alveno en angulo kaj restis tie.
 La dandeto posten ŝovas sian seĝon.
 La demando ŝajne ne surprizis ŝin.
+La diablo min prenu se mi eĉ instruas al ili la legadon!
 La direktoro ĵus eniris.
+La dissonanta bruo de la nerva luktado por vivo aŭdiĝas ĥaose per mallaŭta murmuro.
+La diversaj raportoj estas pretaj!
 La doktoredzino estis kvindekjara negranda virino kun maljunaj trajtoj.
 La doktoro aŭskultis tion kun atento, ĉiam rigardante la mortinton.
 La doktoro denove ekpripensis.
@@ -2172,6 +2387,7 @@ La du virinoj eliĝis el la droŝko kaj eniris en la magazenon.
 La du vojaĝantoj sekvis lin de malproksime.
 La dua atestanto estis la Dukina kuiristino.
 La dua parolintino, vigla, gajaspekta knabino, diris alprenante seriozan mienon:
+La dua sekretario, samideano Ludem ĝoje anstataŭos lin.
 La dua tago post la foriro de Johano pasis kiel la unua.
 La dudek-kvar horoj pasis, sed la estonteco restis nedifinita.
 La edukado estu senpaga, almenaŭ en la elementa kaj fundamenta stadioj.
@@ -2192,10 +2408,12 @@ La emiro suspektis kaj demandis, kial Blankafloro ne venis.
 La enhavo de la en Esperanto verkita letero estis jena:
 La enigmo fariĝis pli kaj pli implika.
 La enpensa vizaĝo de Leonardo ekgajiĝis.
+La estonteco alportos al Vi nepre seniluziiĝon kaj trompiĝon!
 La estonteco ne ekzistas por ilia penso, la pasinteco rapide elviŝiĝas el ilia memoro.
 La estonto tute ne igis min maltrankvila, ĉar ĉio marŝadis bone.
 La estrino de la kudrejo kaj ŝia filino ĉesis tranĉi la tolon.
 La etika valoro de Esperanto estas netaksebla: Ĝi estas reformema, nobligema potenco.
+La etulinoj estas por distriĝo, amuzo kaj plezuro, sed la troeco jam malutilas!
 La farmdomo de lia patro troviĝis apud la ekstremaĵo de la vilaĝo.
 La farmistedzino eniras kaj montras la paketon.
 La figuro de Marta, kiu enpense estis iom klinita antaŭen, elrektiĝis.
@@ -2211,6 +2429,8 @@ La freŝeco de ĉi tiu virino tamen ne estis plena.
 La fripono iris trian fojon al la pordo, frapis ĝin kaj diris.
 La gaja Aleĉjo denove stariĝis antaŭ ŝi.
 La gaja Aleĉjo estis ĉiam pli ekscitita.
+La gazeto, kompreneble, ne estis sur tia nivelo, sur kia ĝi estus devinta.
+La gazetoj skribis pli li ĉefartikolon.
 La geedzoj Klomp sidas kune ĉe la tablo kaj matenmanĝas.
 La gereĝoj tuj alkuris kaj ekploris.
 La gloro de la brava junulo kreskas; la reputacio de la malriĉa virino dronas.
@@ -2281,6 +2501,7 @@ La knabo laŭte eligas tiun unu vorton, la demando surprizas lin.
 La knabo ne timas, sed li estas surprizita.
 La knabo ĵetis unu solan rigardon sur la korpon sub la tablo.
 La kolera humoro de la doktoro subite foriĝis.
+La kolombo devas esti tute manĝita.
 La komercisto alsaltis ridetante kaj serveme.
 La komercisto kuris al la mezo de la magazeno.
 La komfortamanta edzo murmuretis dormeme: Ne estu malsaĝa, Maria; mi volas dormi.
@@ -2289,6 +2510,7 @@ La kompatinda virino ekĝemis el la profundo de la brusto.
 La kompatinda Ĉapelisto lasis fali la tetason kaj buterpanon, kaj humile surgenuis.
 La kompatindulo obeis, sed larmoj rulis sur liaj vangoj.
 La koncerto estus aranĝata post tri tagoj.
+La kongreso certe okazos kaj sukcesos ankaŭ sen Vi.
 La konkurado estas grandega, sekve la prezoj estas tre malaltaj.
 La kuiristo dormadis sub mi, sed feliĉe li ne ronkadis.
 La kuiristo staris apud mi, sed ĉe la unua ekrigardo mi ne lin rekonis.
@@ -2299,6 +2521,7 @@ La kuracisto fleksiĝinte skribis recepton.
 La kuracisto rigardis ĉirkaŭen, kredeble serĉante seĝon.
 La kuracisto, kiu ripetadis siajn vizitojn ĉiutage, venis jam la dekan fojon.
 La kutime zorgolaca vizaĝo de sinjoro Vincent montris signojn de forta ĉagreno.
+La kvara serĉis forgeson per vagado tra la mondo.
 La kvaran tagon li permesis al la sinjorino, ke ŝi leviĝu.
 La laboristinoj aŭskultadis tiujn parolojn en profunda silento.
 La laboro malfruiĝas, la mendoj ne estas plenumataj ĝustatempe.
@@ -2345,6 +2568,7 @@ La lupo satmanĝis, foriris, kuŝiĝis sur verda herbaĵo sub arbo kaj ekdormis.
 La magazeno ne estis tiel modesta, kiel ĝi aspektis.
 La malamikoj de mia sklavo akiris kvar virojn; li, unu el tiuj.
 La malbona vetero fariĝis ankoraŭ pli malbona.
+La malfacileco ĝin gajni kaŭzis, ke ni ĝin duobligis.
 La malfeliĉa knabo diris, ke li ne kuraĝas iri surteron antaŭ la tagiĝo.
 La malfeliĉa knabo ektremis de kapo al piedoj pro la vidaĵo.
 La malfeliĉulo ne dubis, ke ĝi taŭgos.
@@ -2378,7 +2602,10 @@ La mastrino jam estas kun la infano en la koridoro kaj denove signodonas.
 La mastrino kiel unua rompas la mortan silenton, regantan en la ĉambro kaj ĝemdiras:
 La mastrino leviĝis de brakseĝo kaj, ignorante la vizitanton, tre malbonhumore rigardegis la knabinon.
 La mastrino paŝas preter ln ŝnurego, eniras la preĝejon kaj la mutulino sekvas.
+La mastro akceptis lin gastame kaj regalis lin per bona vespermanĝo.
 La mastro de la magazeno kun rideto sur la lipoj disvolvis ankoraŭ unu tapiŝon.
+La mastro ŝajnis profunde enpensi.
+La mateno de la granda tago!
 La modelo estis farita tre bele.
 La mondo ja tute ne komprenas nin.
 La mondo, tamen, estas malpli vasta, ol mi pensis.
@@ -2420,9 +2647,11 @@ La pastro rigardas la montritan lokon de la muro, sed nenio eksterordinara trovi
 La pastro subite ekhaltas paroli.
 La pastro ŝin sekvas kaj ambaŭ staras en la larĝa koridoro.
 La patrino ekblekis kaj foriris.
+La patro mortis pro la terura korturmento.
 La patro ne koleris.
 La patro ordonis al mi saluti vin liaparte kaj demandi, kiel vi fartas.
 La patro ridis kaj ne donis min, mi petolis kaj elverŝis la inkon.
+La pensoj, kiel rapidega vento, flugadis tra mia kapo.
 La plaĉa vidaĵo antaŭ li tro forte ĉarmis lin.
 La plej feliĉa vivo estas sinofera vivo por aliaj.
 La plej malbona afero estis la anima maldolĉeco, kiu tiam regis min.
@@ -2443,8 +2672,10 @@ La profesoro konsente ekbalancis la kapon kaj diris:
 La profesoro respondis Esperante, parolante malrapide:
 La propono ja timigis ŝin.
 La rakonto estas longa.
+La redaktado forprenis grandegan tempon de lia vivo.
 La respondo estis milda, tamen firma.
 La respondo venis post kelkaj momentoj:
+La restinta tempo estis por laboro en la societo.
 La rezultato de tiu penado estis sukcesa kaj rapida.
 La reĝisoro devis fari finon al la sceno kaj malsuprenigi la kurtenon.
 La reĝo konsentis en ĉio kaj pretigis belan ĉevalon.
@@ -2454,6 +2685,7 @@ La rigardo de la gaja Aleĉjo estis fiksita sur unu punkto, kaj mirinde!
 La rigardo el ili estis malgaja, sed nepriskribeble milda kaj sopirema.
 La rusa nobelo la unua supreniris la ŝtuparon kaj frapis la dompordon.
 La sabla vojo kuŝas tie tute kiel antaŭ unu sekundo, sed la artisto malaperis.
+La saman tagon Leo eklaboris.
 La savo de la homaro estas la celo de la plej fervoraj Esperantistoj.
 La scivolemo en ŝi ekflamiĝis!
 La sekvanta ondo estis egale alta, kaj enfermis min en sia vasto.
@@ -2472,6 +2704,7 @@ La sidanto tuŝis miajn vangojn, kaj mi sentis, ke lia mano estas malvarma.
 La sidlokoj de la tri maristoj estis neokupitaj kaj la maristoj estis for.
 La signoj de ilia festeno kornaŭzigis min, kaj mi fermis miajn okulojn.
 La silento enhavis por Leonardo ion animopreman.
+La sin anoncantoj estis multaj.
 La sinjorino diras, ke jes.
 La sinjorino ekstaris kaj flustris ion al li en la orelon.
 La sinjorino en la funebra vesto rigardis enpensiĝe la sceneton ludiĝantan ĉe la ĝardenpordo.
@@ -2485,6 +2718,7 @@ La sorto ne estis favora al mi, ĉar vendisto de lakto ne prezentis sin.
 La spicisto elprenas papereton kaj legas, kion bezonas la farmistedzino.
 La staciestro aŭskultis tiun dialogon kun videbla intereso, frotante al si la mentonon.
 La strato Graniczna estas unu el la sufiĉe vivoplenaj stratoj de Varsovio.
+La strato estis ornamita per standardoj.
 La strato post kelke da sekundoj prezentis scenon bruan kaj tumultan.
 La studentoj ĉesis deklami kaj serĉis pli oportunan lokon por rigardi la vidaĵon.
 La suno brilis tiel forte ke mi decidis senvestiĝi kaj elpofiti la sunbanon.
@@ -2503,15 +2737,18 @@ La tria klaso estas plena.
 La tria monato post la foriro de mia amiko komenciĝis.
 La tria tasko estas enkonduki, porti tiun harmonion en la eksteran mondon.
 La triumfa rigardo ekaperanta sur la vizaĝo de la sinjorino estis sufiĉa respondo.
+La triumfo de la ideo!
 La turgardisto estas tre severa.
 La tuta kartaro tuj suprenleviĝis en la aeron kaj ree flugfalis sur ŝin.
 La tuta nomaro konsistas el mia edzo.
 La unua atestanto estis la Ĉapelisto.
 La unua de Majo estis veninta.
+La unua ne povis elporti la vivon sen ŝi.
 La unua parto de la prediko daŭras duonan horon.
 La unua prezentis la heroon, tenanta malgrandan knabon ĉe la mano.
 La unua sento, kiu klare vekiĝis en ŝi, estis envio.
 La unuan fojon de multaj jaroj sinjoro Vincent nomis lin per lia antaŭnomo.
+La unuan fojon depost kvin jaroj!
 La unuan horon la doktoro manĝis.
 La urbestro estis furioza.
 La urbo estas unuaranga fortikaĵo kun sepdek miloj da loĝantoj.
@@ -2590,6 +2827,7 @@ La vundo en mia koro estas tro profunda por cikatriĝi per bonfarada plastro.
 La zumado tuj eksilentis; ĉiuj aŭskultis, ĉar ĉiuj estis scivolaj.
 La Ĉapelisto tre larĝe malfermis la okulojn, aŭdinte tion.
 La Ĉapelisto unue rompis la silenton.
+La ĉambrego estas plenplena.
 La ĉeestantoj scivolaj parolis intermikse:
 La ĉefrajdanto estis la persekutinto de Vilhelmo Tell.
 La ĉevalo galopadas kaj galopadas, dum la direktoro klakadas per la vipo.
@@ -2608,6 +2846,7 @@ Laborenspezi dum kelke da semajnoj cent spesmilojn kia riĉeco tio estas!
 Laca pro eksciteco ŝi finis la rakonton, dirante:
 Lace malferminte la okulojn, li ekparolis:
 Landman, ĉar mia patrino sin nomas Landman.
+Larmoj de furiozeco atakis min, kaj mi ilin ne retenis.
 Larmoj ne enestis.
 Larĝe Rika malfermas la okulojn kaj stranga sono eliras el ŝia buŝo.
 Lasinte mian insulon nun por ĉiam mi nun nenion plu diros pri ĝi.
@@ -2618,6 +2857,7 @@ Lasu ilin paroli.
 Lasu la ŝercojn, Aleĉjo!
 Lasu min pensi.
 Lasu min, do, fari proponon.
+Latine? Greke?
 Lazaroni havis bonan patron, mi diris.
 Laŭ la akcento per kiu li parolis li certe estis irlandano.
 Laŭ la aŭdataj sonoj la Kuniklo alvenis ĝis la pordo, kaj klopodadas malfermi ĝin.
@@ -2632,9 +2872,14 @@ Laŭkutime ŝi iras kun korbo pendanta sur ŝia brako, kai ni volas sekvi ŝin.
 Laŭta sonorado ekster la ĉambro anoncas, ke sur la strato staras persono.
 Laŭta tintado de rompiĝintaj pecoj de la vitro trafis miajn orelojn.
 Laŭtegaj ridegoj kaj kriegoj eksplodis ĉiuloke.
+Lebruno estis egoista, sed lia filino estis bonkora.
+Lebruno, studante la superskribon de la dirita letero.
 Lecionojn de franca lingvo?
 Legi, legi, skribadi kaj laboradi super strangaj, antikvaj dokumentoj kaj planoj.
 Legu miajn artikolojn.
+Leo faris jesan signalon.
+Leo kredis, ke li revas.
+Leo rigardis la mastron kiel oni rigardas frenezulon.
 Leonardo mi volonte nomos vin denove per via baptonomo.
 Leonardo Marston ekrigardis la delikate ĉizitan vizaĝon de la virino, kaj demandis milde:
 Leonardo Marston karesis la vangon de la infano kaj diris:
@@ -2697,12 +2942,14 @@ Leonardo, sidiĝinte apud li, observis lin kun kortuŝeco dum kelke da momentoj.
 Leonardo, vi estas eĉ pli nobla homo, ol mi opiniis.
 Leonardo, ŝi estas multe pli kompatinda, ol riproĉinda.
 Letero de Barazof, li flustris.
+Letero kuŝis sur la tablo.
 Levinte sin sur la piedpintojn, ŝi havis la okulojn ĝuste super la rando.
 Li alkuris al la pordo kaj malfermis ĝin larĝe.
 Li alproksimiĝis kaj diris al mi.
 Li alproksimiĝis, sekve li ravis.
 Li alsaltis al ŝi.
 Li amas muzikon.
+Li amas vin kaj vi lin amas! Ĉu mi bone legis?
 Li amike frapetadis mian ŝultron, parolis malmulte kaj palpis mian pulson.
 Li ankaŭ estis instruinta al mi, kiuj monatoj havas tiujn nombrojn da tagoj.
 Li ankoraŭ ne venas, Sam, mi diris.
@@ -2710,6 +2957,7 @@ Li ankoraŭ ne venas, mi diris.
 Li ankoraŭ! murmuris la financisto.
 Li apartenas ankaŭ al ni, la monda kvanto.
 Li apenaŭ rimarkis ekbalanceton de la kapo de la patro; nenion plu.
+Li atendas vian respondon malsupren en la strato.
 Li atendas?
 Li aŭskultas atente kaj aŭdas la melodion de bela muzikaĵo.
 Li aŭskultas la orgenon, kiu ne ludas psalmojn, sed valsojn kaj muzikaĵojn el operoj.
@@ -2718,7 +2966,9 @@ Li aŭskultis ĝis la fino kaj estis ravita.
 Li balbutis en teruriga maniero, sed parolis, kvazaŭ mi komprenus ĉion, kion li diris.
 Li bezonis surpentri, dekoracii templojn, grandajn monumentojn.
 Li bone scias, kiom mi amas Roberton; ke mia tuta animo perdiĝis en li.
+Li deziras mian manon.
 Li deziras, ke vi sekvu min por admiri tiujn belajn florojn.
+Li diradis al mi, ke li min ĉiam amos.
 Li diris al mi, ke li estas aktoro.
 Li diris ankoraŭ kelke da vortoj kaj levis de la planko la ĉapelon.
 Li diris, ke la mastro jam ne povas vivi dudek kvar horojn plu.
@@ -2729,6 +2979,7 @@ Li diris: "Salutu la knabon por mi.
 Li do estis for kun mia duonŝtrumpo en la poŝo.
 Li do vivis; mi sekve ne venis tro malfrue.
 Li edziĝis kun mi, li min amis, li min estimis.
+Li efektive ne havis tempon por io alia.
 Li ekhaltas, fermas la pordon post si kaj atendas.
 Li ekhaltis kaj subite diris:
 Li ekrigardis, sekve li venkis.
@@ -2751,8 +3002,10 @@ Li estas dika.
 Li estas ekkomencanta, sed io neatendita malebligas al li ludi plue.
 Li estas el Germanio.
 Li estas en la manĝoĉambro.
+Li estas fortulo.
 Li estas germano.
 Li estas nur ebria, diris unu.
+Li estas revanto!
 Li estas stranga kaj kutime sindetenema homo, donanta al fremduloj impreson de malĝentilulo.
 Li estas tre interesa persono.
 Li estas tro bonkora kaj aminda; kaj ne estis vere tre bonaj amikoj.
@@ -2770,20 +3023,24 @@ Li estis belviro, alta kaj juna, kun regulaj fortaj membroj.
 Li estis dika flavhara knabo kun helebluaj okuloj kaj ruĝaj vangoj.
 Li estis forironta post kelkaj horoj.
 Li estis mezaĝa, maldika viro de asketa, pensema mieno.
+Li estis mirinda poeto Esperanta.
 Li estis preskaŭ gaja.
 Li eĉ ne povis suprenrigardi, tiel firme li estis ligita kole kaj piede.
 Li faras tion kun plena sincera kredo.
+Li fariĝis direktoro de nova instituto tutkontinenta, por esplori la evoluon de Esperanto.
 Li firme decidiĝis tuj revojaĝi hejmen.
 Li flanken ŝovis kelkajn benkojn, tiel ke malplena loko formiĝis sur la planko.
 Li foriris propravole?
 Li forpelis min el mia ĉambreto...
 Li forrestas longe.
+Li gajnu tiom, ni poste vidos.
 Li haltis kaj kun videbla kontenteco rigardis la atletan figuron de la afabla nekonato.
 Li havas triangulan vizaĝon.
 Li havis elegantan, tre plaĉan eksteraĵon kun delikataj vizaĝotrajtoj.
 Li havis grandan familion: li estis frato, edzo, patro.
 Li havis la rajton tion fari; mi ne havas.
 Li havis tre malgrandan, preskaŭ rondan trunkon, sed longegajn brakojn kaj krurojn.
+Li havu la knabinon."
 Li hezitis; tiam li respondis kvazaŭ por eviti la veron:
 Li instruas al mi notojn kaj ludi sur la preĝeja orgeno.
 Li intertempe legas gazeton kaj ŝi enverŝas kafon kaj pretigas kelkajn infanvestetojn.
@@ -2828,6 +3085,7 @@ Li meritas ripozon, laborinte kiel galerosklavo.
 Li min batis.
 Li mokridis, kaj mi incitegis lin.
 Li montras kubute la barelon kaj krias: Laboru!
+Li ne bezonas recenzon, nek lia verko.
 Li ne eraris.
 Li ne estas hodiaŭ-data artisto.
 Li ne estis kontenta pri sia ludomaniero kaj petis min ludi.
@@ -2855,6 +3113,7 @@ Li palpetis ilin.
 Li parolis tion kun iom da ironio kaj kun plena nezorgeco.
 Li parolis ĝentile, sed pli malvarme ol la unuan fojon.
 Li pasigis la nokton ĉe sinjoro Marston.
+Li perlaboros ilin.
 Li pipe montras la nefermitan pordon kaj la sinjorino transiras la sojlon.
 Li portis blankajn vestojn kaj blanka ĉapo kovris lian kapon.
 Li portis nigran vestaĵaron kaj ĉapelon kaj en la mano li havis bastonon.
@@ -2865,6 +3124,7 @@ Li premis al la gardisto la manon kaj kun ĝojo reiris sian hotelon.
 Li premis mian kapon al sia brusto kaj ekkriis:
 Li preskaŭ ne rimarkis, ke la vetero estas malvarma kaj pluva.
 Li preskaŭ neniam diras ion al mi..., nur se mi demandas.
+Li pripensis!
 Li promesis pardonon, se Floriso volus diri, kiel li eniris nerimarkite en la turon.
 Li rapidis, li estis maltrankvila kaj kvazaŭ afliktita.
 Li rapidis, ĉar multajn aferojn li devis prizorgi antaŭ la forveturo.
@@ -2889,6 +3149,7 @@ Li sekve ne estis ruso.
 Li sekve parolis: Mia knabo, aŭskultu la bonan konsilon, kiun mi al vi donos.
 Li sekvis min kaj jen ni kvarope sidis en la boato.
 Li sendus al mi leteron.
+Li sentas frenezon kaj volas desalti de la balkono.
 Li sentis sin multe pli bone kaj eksidis sur la kanapo.
 Li sentis sin tute laca.
 Li sentis surprizon kaj ĝenatecon, sed ne malpli dankecon kaj kompaton.
@@ -2901,6 +3162,7 @@ Li sin trovis konjekteble en iama subtera ĉambrego aŭ granda galerio.
 Li sin turnis kaj ekforiris kelke da paŝoj; sed subite li haltis.
 Li skribis pri ĉio, kien penetris lia rigardo, liaj sentoj, lia penso kaj fantazio.
 Li staras post la butikotablo kaj salutas, kiam ŝi eniras.
+Li staris sur balkono de majesta domo.
 Li subite maldungiĝis, ĉar la sankta kunularo mem prizorgos la kulturadon.
 Li subite silentiĝis, ĉar la punca pordokurteno forŝovetiĝis kaj en la salonon eniris Marta.
 Li svenis.
@@ -2923,6 +3185,7 @@ Li volis esti sola.
 Li volis paroli, sed ekparolis lingvon ankoraŭ pli strangan ol ordinare.
 Li ĉiam faris sur nin impreson, kvazaŭ li estas profunde malgajema.
 Li ĉiam kviete, malrapide iris sian vojon.
+Li ĉiam manĝas kolombon?
 Li ĉiam plendas pri senprofitaj tempoj, sinjoro Marston.
 Li ĉiam studas kuriozajn librojn kaj legas multajn strangajn gazetojn.
 Li ĉirkaŭbrakis ilin kaj tuj informiĝis pri Blankafloro.
@@ -2931,6 +3194,7 @@ Li ĵus venis per la skuno "Fantazio" de Hamburgo kaj lia ŝipo iris Londonon.
 Li ŝajnis malĝoja kaj ankoraŭ pli li ŝajnis embarasita.
 Li, do, havas sperton.
 Li?
+Lia Moŝto ne akceptas hodiaŭ.
 Lia altkreska, malgrasa figuro fariĝis ankoraŭ pli maldika.
 Lia amikeco ne estas ŝatinda.
 Lia amiko Romeskaŭ.
@@ -2974,6 +3238,7 @@ Lia vizaĝo estis serioza, malgaja.
 Lia vizaĝo montris enpensiĝon kaj malgajecon.
 Lia vizaĝo montris honestecon kaj sincerecon; kaj liajn trajtojn multaj nomis klasikaj.
 Lia ĉapelo sidis malrekte sur liaj haroj kaj liaj okuloj fariĝis vitrece ruĝaj.
+Liaj cindroj miksiĝis kun la cindroj de la adorata knabino.
 Liaj distritaj okuloj direktiĝadis ĉiumomente al la paperoj, kiuj kuŝis sur la tablo.
 Liaj intimaj amikoj rigardis lin kiel preskaŭ superhoman sanktulon.
 Liaj kuntiritaj brovoj ektimigis min.
@@ -2983,8 +3248,10 @@ Liaj pensoj eliris al ŝi.
 Liaj vestoj kaj tolaĵo estas kiel ĉiam sen ĉifoj.
 Liaj virecaj trajtoj montris sian kutiman, nemaltrankviligeblan seriozecon.
 Liaj ŝultroj kurbiĝis, kiel ĉe grandaĝulo, kaj liaj haroj jam estis preskaŭ tute blankaj.
+Liajn poemojn oni eldonis en mirindaj volumoj.
 Lian amon por diri la veron  mi ŝatis pli alte, ol virinan amon.
 Lian atenton tiam altiris idilia vidaĵo.
+Lian koron plenigas feliĉo!
 Lian mediton interrompis la voĉo de lia domistino, maljuna, fidela Anjo:
 Lin sekvas denove intertempa amuzaĵo de du arlekenoj kaj de la malsprita Aŭgusto.
 Lin sekvis la instruisto, post kiam li faris por mi sian riverencon.
@@ -3021,6 +3288,7 @@ Maksimo Bjelski iris for post sia kutima manpremo kaj riverenco.
 Malakordema paro?
 Malantaŭ ili, sub lakea sidejo vidiĝis du malgrandaj valizoj.
 Malantaŭe de la sinjorino troviĝis buksaj arbetaĵoj, arte tonditaj kiel verda muro.
+Male!
 Male, la preskaŭ solena trankvilo ŝajnis malbonefiki sur ŝian spiriton.
 Malestimon?
 Malfacila laboro!
@@ -3031,6 +3299,7 @@ Malfeliĉe mi ne povis konsentigi lin akompani min ĉi tien.
 Malfeliĉe ni ĵus malsukcesis atingi lin je unu ĉevallongo.
 Malfeliĉo, efektive?
 Malfermante la pordon de la librejo, Marta eksentis en si mem ian miron.
+Malferminte la okulojn, mi ekvidis lumon kaj ies konatan vizaĝon klinitan super mi.
 Malfermu karaj infanoj, via patrino alportis ion por ĉiu.
 Malfermu la pordon de la cirka veturilo, Mikelo.
 Malfermu, karaj infanoj, via panjo alportis ion por ĉiu.
@@ -3044,6 +3313,8 @@ Malkomo ree rigardis dubeme kaj timeme en la vizaĝon de la amiko.
 Malkomo, vi kutimas preni sekretajn medikamentojn.
 Mallaŭta frapo sur la pordo interrompas la interparoladon.
 Mallaŭte, per malgaja voĉo ŝi diris:
+Mallonge: ni volas krei la literaturan gazeton, kiun ni bezonas.
+Mallumegaj, koleraj pensoj komencis min atakadi.
 Malmodesteco estas patrino de ĉiuj pekoj.
 Malmulto el ni pripensas la koston je kiu bulko estas farata.
 Malrapide li malfermis la pordon kaj trankvile, preskaŭ reve, rigardis la venintojn.
@@ -3051,6 +3322,7 @@ Malrapide li nun sin direktas al la pordo.
 Malrapide ni marŝis en la mola sablo kaj serĉadis.
 Malriĉan virinon!
 Malsanante, mi devis foriri kun mia pafilo por havigi nutraĵon.
+Malsupre, en la valo, etendiĝas grandspace la urbego, ŝaŭme vivanta, kiel giganta formikejo.
 Malsupren li falis! sed baldaŭ reaperis por ke, li povis naĝi kvazaŭ anaso.
 Malsupren, ankoraŭ malsupren!
 Maltrankvilaj pensoj ŝajne okupis ŝian kapon.
@@ -3184,6 +3456,8 @@ Mi atendis tion.
 Mi avertas vin.
 Mi aŭdis ilin fantazie, li diris, kaj notis ilin en mian kajeron.
 Mi aŭdis lin ludi kaj tuj rimarkis en li mirindan muzikan talenton.
+Mi aŭdis pri li, sed li faris multe da eraroj en sia Orfea traduko.
+Mi aŭskultadis – morta silento.
 Mi aŭskultis...
 Mi aŭskultos kun plezuro kaj profito.
 Mi baldaŭ estis sur la loko, kaj ekvidis mevon sidantan sur nesto.
@@ -3191,7 +3465,9 @@ Mi bedaŭras, mi estas malfrua.
 Mi bedaŭras.
 Mi bezonas kuraciston.
 Mi bezonas vin.
+Mi bone konas Vin!
 Mi bone konas lin.
+Mi bone scias kiam mi mortos, li diris.
 Mi bone scias, kiom vi suferas pro ŝi.
 Mi certigas vin, ke vi faras al mia edzo tre grandan plezuron.
 Mi certigis al ŝi, ke vi neniam dubos ŝin, neniam.
@@ -3204,6 +3480,7 @@ Mi decidis reveturi Danzigon por kelke da tagoj kaj poste iri al bankuracejo.
 Mi dehakis junan abion por la masto, kaj tiam mi prilaboris la velon.
 Mi demandis, ĉu en ĉi tiu domo loĝas Maksimo Bjelski.
 Mi demandis, ĉu li bezonas aktorojn kaj feliĉe li bezonis unu.
+Mi denove malfermis la okulojn kaj denove vidis nepenetreblan mallumon.
 Mi devas ekludi pli bone!
 Mi devas fari al vi gravajn komunikojn.
 Mi devas foriri nun.
@@ -3282,12 +3559,15 @@ Mi esperas, ke vi profitos tiun lecionon, kaj fariĝos estonte pli prudenta.
 Mi estas Ivan, la kuiristo, li diris, sed mi vin ne konas.
 Mi estas agaculo.
 Mi estas agresema.
+Mi estas aljuĝita al morto – tio ĉi estas klara.
 Mi estas amuza.
 Mi estas ankoraŭ tro fiera!
 Mi estas aroganta.
 Mi estas bankrota.
 Mi estas belginoj.
+Mi estas certa pri tio.
 Mi estas certa, ke, se li ankoraŭ vivus, li aspektus tre simile al vi.
+Mi estas devigita, tial ke vi tion volas.
 Mi estas edziniĝinta.
 Mi estas edzino.
 Mi estas edziĝinta.
@@ -3331,6 +3611,7 @@ Mi estas virino, ŝi diris, jes, tio estas vero.
 Mi estas, kiel vi sendube legis, ŝtata oficisto ĉe la financa ministrejo.
 Mi estis aktoro.
 Mi estis en marista trinkejo.
+Mi estis enterigita juna kaj eliris el la tombo preskaŭ maljunulo.
 Mi estis jam mortonta, sed feliĉe via filo trovis kaj helpis min...
 Mi estis kiel surdmutulo inter miloj da homoj.
 Mi estis kortuŝita kaj diris:
@@ -3339,6 +3620,7 @@ Mi estis tiam invalido, nekapabla al laboro.
 Mi estis tre scivola pri tio, kion li faros.
 Mi estos Don Kiĥoto kaj mia kamarado estos Sanĉo Panza.
 Mi eĉ esperas, ke ili devigos vin paroli.
+Mi eĉ parolas arabe.
 Mi fajfis sola.
 Mi faris mian eblon.
 Mi faris propravolan interkonsenton kaj mi plenumis ĝiajn kondiĉojn.
@@ -3350,6 +3632,7 @@ Mi faros por li mian eblon.
 Mi faros tion en Berlino, aŭ en alia urbo.
 Mi feliĉas.
 Mi flustris al li, ke la postsigno tute malaperis kaj li dankis min.
+Mi forigos de vi la doton.
 Mi foriros morgaŭ.
 Mi forpelos tiun malbenitan mutulinon!
 Mi forviŝis miajn larmojn kaj petege rigardis la ludinton.
@@ -3373,6 +3656,7 @@ Mi havas grandan nazon.
 Mi havas grizajn okulojn.
 Mi havas hejmsopiron.
 Mi havas hundon.
+Mi havas ideon!
 Mi havas ilin ambaŭ, sinjoro!
 Mi havas ion por vi.
 Mi havas kapdoloron.
@@ -3390,6 +3674,7 @@ Mi havas nigrajn harojn.
 Mi havas problemon.
 Mi havas rufajn harojn.
 Mi havas tri filojn.
+Mi havas tridek jarojn.
 Mi havas unu filinon.
 Mi havas unu filon.
 Mi havas unu fratinon.
@@ -3441,6 +3726,7 @@ Mi kaj Marta ni konas ja nin reciproke de la infaneco.
 Mi kalkulis la tagojn, kion mi antaŭe neniam estis farinta.
 Mi kapablis ŝirmi per prizorgado kaj eduki por la estonteco vian kaj mian infanon!
 Mi karesas pro li agrablajn esperojn, altajn ambiciojn, sinjoro Dent.
+Mi kelkajn sekundojn kuŝis senmove, penante klarigi al mi, kie mi estas.
 Mi klarigos tion.
 Mi klarigos, li diris, vidante, ke mi ankaŭ ne scias, kiom tio estas.
 Mi klarigos, li diris.
@@ -3449,6 +3735,7 @@ Mi klinis min super li kaj li flustris en mian orelon:
 Mi klopodos kuiri ilin, mi interrompe diris, sed estos tre malfacile al mi.
 Mi klopodos, ke laŭleĝa persekuto estos evitata.
 Mi klopodos.
+Mi komencis sufokiĝi.
 Mi komencos lerni Esperanton.
 Mi komparis mian situacion kun tiu de Robinsono.
 Mi kompatis la viron, sed ne povis helpi al li.
@@ -3465,6 +3752,7 @@ Mi konas personojn, kiuj, unufoje gajnite por nia movado, nepre estos grandaj ak
 Mi konfidis, li pensis: mi unua estis erarigita.
 Mi konsentas akcepti kian ajn pagon, diris Marta.
 Mi konsentas pri viaj kondiĉoj, sinjorinoj.
+Mi konsiliĝos kun la societo pri tio.
 Mi kore kompatis la beston, sed ne povis helpi al ĝi.
 Mi kredas je la potenco de la plumo.
 Mi kredas ke ne, sinjoro.
@@ -3477,10 +3765,13 @@ Mi kuras, flugas, rapidas!
 Mi kuris al la unua, terenbatis lin pafiltenile.
 Mi kuŝis kaj ploris, trahore kriis infane: Sinjoro, rigardu min! Sinjoro, rigardu min!
 Mi kuŝis sendorma en mia lito kaj ludis; tion mi faras ofte.
+Mi kuŝis tute trankvile, kaj komencis kun malvarma sango pripensadi mian situacion.
+Mi kuŝiĝis sur flankon kaj komencis aŭskultadi.
 Mi lavis min kaj la servistino foriris por alporti purajn subvestojn.
 Mi laŭeble penadis naĝi supraĵe, entenante mian spiron, por tiun fari.
 Mi laŭiris la muron kaj trovis feran barpordon, kiu staris duone fermita.
 Mi laŭvice donis peceton al Sim, al Jafet kaj al mi mem.
+Mi legis ilin.
 Mi lernis literojn, mi respondis.
 Mi lernos, mi devas lerni, mi devas povi!
 Mi leviĝis kaj supreniris la ŝtuparon.
@@ -3497,6 +3788,8 @@ Mi mallevis la libron por preĝi.
 Mi malsamopinias.
 Mi malsatas.
 Mi malsupreniris la ŝtuparojn kaj iris kun Jafet al la dunoj.
+Mi malvarmiĝis de teruro.
+Mi malĝojis.
 Mi mem iros al tiu fraŭlino; vi mensogis, ĉar Klariso estas malsupre.
 Mi mem prefere aranĝos miajn harojn, diris la knabo.
 Mi mem verkos ĝin, tuj kiam mi estos plenkreskinta.
@@ -3509,6 +3802,7 @@ Mi miris, kial li faris tion.
 Mi montris fingre la knabon kaj demande rigardis ŝin.
 Mi montris la boaton.
 Mi morti, kiam vi diri morti.
+Mi mortos la antaŭtagon de kiam mi ne skribos plu.
 Mi multe pensis, kiel mia vestaĵo estus ridinda en la stratoj de mia naskurbo.
 Mi multe pensis; ĉu iri hejmon, aŭ ĉu iradi surmaron.
 Mi multe preferas la ĝojoplenan kanton kun la belaj kadencoj.
@@ -3524,6 +3818,7 @@ Mi ne forgesis, ho, mi ne forgesis.
 Mi ne forgesos mian promeson, Lorna, mia dolĉa sinjorineto; bonan vesperon.
 Mi ne forgesos vian saĝan konsilon.
 Mi ne foriros, ĝis mi plenumos mian celon.
+Mi ne havas aliajn vestojn ol tiujn.
 Mi ne havas dombestojn.
 Mi ne havas emon.
 Mi ne havas eĉ la plej malgrandan intencon, respondis Mario.
@@ -3531,6 +3826,7 @@ Mi ne havas fratojn.
 Mi ne havas gefratojn.
 Mi ne havas genepojn.
 Mi ne havas hundojn.
+Mi ne havas ilin.
 Mi ne havas katojn.
 Mi ne havas la rajton?
 Mi ne havas patron.
@@ -3572,6 +3868,7 @@ Mi ne scias, sinjoro.
 Mi ne scias; demandu do al Moseo mem, li eble volonte konsentos.
 Mi ne scias; li alportis min ĉi tien en kesteto, kaj neniam li revenis...
 Mi ne scias; tio dependos de cirkonstancoj.
+Mi ne sciis tion ĉi kaj ne povis sciiĝi.
 Mi ne sciis, ke tiu urbo estas atingebla nur per ŝipo.
 Mi ne sciis, kiel konduti kaj refoje rigardis Romeskaŭ.
 Mi ne serĉis longe; ili havis tre bonan lokon, kaj mi mansalutis ilin.
@@ -3610,6 +3907,7 @@ Mi ordonis ke oni pafu kvin pafojn, kaj poste ni atendis la ektagiĝon.
 Mi pafi, sed tie tri boatoj, unu, du, tri!
 Mi palpeserĉis lian manon kuŝantan sur la litkovrilo, kaj li vekiĝis.
 Mi parolas Esperanton.
+Mi parolas al vi serioze.
 Mi parolas la anglan.
 Mi parolas la germanan kaj la polan lingvojn; la holandan tamen mi komprenas iomete.
 Mi pasigas la plejparton de mia tempo biciklante.
@@ -3632,6 +3930,7 @@ Mi petas pardonon de vi.
 Mi petas vin pri ĝi, diris Marta sen plej mallonga pripenso.
 Mi petas, sinjoro, la ŝlosilon de la loĝejo, kiun mi luis antaŭ du tagoj.
 Mi petas: prezentu min al la du aliaj sinjoroj; eble mi parolas iliajn lingvojn.
+Mi petis laboron ĉe la franca registaro, kopion de pentraĵo.
 Mi petis ŝin silenti pri ĝi.
 Mi petos Anjon iri al via domo por sciigi vian patron.
 Mi plenumis krimon, kiun, kredeble pardonos al mi neniam la severa medicino!
@@ -3647,6 +3946,7 @@ Mi povas tion.
 Mi povas, sed estas pli malmultekoste iri tien per vagonaro.
 Mi povis distingi ilin ĉiujn.
 Mi povus doni lecionojn de muziko kaj de franca lingvo, ŝi diris.
+Mi povus fari bonan kopion laŭ granda majstro.
 Mi povus sekvi lin ĉien.
 Mi prefere neniam parolas pri li, sinjoro.
 Mi prenis la kvin panetojn kaj eliris, ekstere mi enpoŝigis mian monujon.
@@ -3674,6 +3974,7 @@ Mi restis en tiu sintenado, sed la dormo ne venis.
 Mi retelefonos poste.
 Mi ricevis multan monon por ĉiujn miaj posedaĵoj, kaj kun ĝi, mi iris surteron.
 Mi ricevis ordonojn kaŝe observi la enirantojn kaj elvenantojn el ĉi tiu bieno.
+Mi ricevis sufiĉe bonan instruadon.
 Mi ridis ankaŭ, kvankam mi bedaŭris, sed kuiris miajn pizojn.
 Mi ridis, sed la diraĵo de la servistino flatis min.
 Mi rigardis eksteren, al la suda parto de "la Insulo“, kie kuŝis la boato.
@@ -3689,9 +3990,13 @@ Mi same, sed nun ni ne studadis teatrajn rolojn.
 Mi samopinias.
 Mi scias iom desegni.
 Mi scias pri kio „via moŝto“ aludas.
+Mi scias tion.
+Mi scias ĉion.
 Mi scias, ke vi ne lasos min esti elrabita.
 Mi scias, ke vi suferas same kiel mi, ĉar ni amas nin reciproke.
+Mi scias, ke ŝi plaĉas al Vi.
 Mi scias, kies filo vi estas, Moseo, subite diras la viro.
+Mi sciigos Lian Moŝton.
 Mi sciis nur danci, amuzi gastojn kaj vesti min bele.
 Mi sciis, kion tio signifis.
 Mi sekve ankaŭ vizitis la teatron, kie mi ludis jam ofte.
@@ -3704,8 +4009,10 @@ Mi sekve vole-nevole pensis pri tio, kion mi farus kun ili.
 Mi sekvis lin kaj ni estis en salono, kie staris longaj benkoj kun tabloj.
 Mi sentas kreskantan maltrankvilon pro lia stato.
 Mi sentas la mankon de vi.
+Mi sentas min tiel sola kaj senhumora."
 Mi sentas tre bone.
 Mi sentis, ke mi estis estinta malsana pro malsato kaj soifo.
+Mi sentis, ke mia saĝo komencis malklariĝadi.
 Mi sidiĝis sur la plej malalta ŝtupo kaj ekpensis.
 Mi sidiĝis ĉe lia flanko.
 Mi sola estas kulpa.
@@ -3750,6 +4057,7 @@ Mi tre dankas vin pro via afableco kaj viaj bondeziroj.
 Mi tre dankas vin, Leonardo.
 Mi tre dankas vin, sinjoro Norris, diris Leonardo;  tio ŝajnas al mi feliĉa cirkonstanco.
 Mi tre miris pri tio, sed silentis, ĉar mi ne lin komprenis.
+Mi tre multe ŝatas tion.
 Mi tre volonte sciigos al vi ĉion, kion mi scias.
 Mi tre volus scii iom pli pri tiuj kunvenoj.
 Mi tre ĝojas aŭdi tion.
@@ -3769,12 +4077,17 @@ Mi tuj rekonis lin.
 Mi tuj ŝin ekzekutigos, tiam li nepre forgesos pri ŝi.
 Mi turnis la kapon kaj ekvidis knabineton, sidantan apud fenestro post mi.
 Mi tute ne atentis la aŭskultantaron; mi ludis, kvazaŭ mi starus en mia studejo.
+Mi tute ne intencis inciti Vin!
+Mi tute ne komprenas.
 Mi tute ne povas kompreni, kial vi tiel fervore interesiĝas pri tiuj teruraj okultaĵoj.
 Mi tute ne sciis, kion pensi pri Ivan.
 Mi tute ne ŝatis tiun manieron de vivo.
 Mi unue rigardu por vidi ĉu oni surskribis ĝin per veneno.
 Mi vendis la braceleton kaj la ringon.
+Mi venis loĝi ĉe vi, kaj mi ŝuldas al vi kvindek frankojn.
+Mi venis por Via intereso!
 Mi vere amis lian fidelan varman koron, kaj li baldaŭ lernis paroli al mi.
+Mi vere kredas, ke estas maltimema lia peto.
 Mi vere kredas, ke li perdis la prudenton.
 Mi vere ne scias.
 Mi vere pensis, ke vi amas min.
@@ -3789,6 +4102,8 @@ Mi vidis nur vin kaj miajn gepatrojn.
 Mi vidis skunojn, fregatojn, vaporŝipojn.
 Mi vin akompanos.
 Mi vojaĝadis eksterlande; mi febre dronigis min en nebonaj distraĵoj kaj entreprenoj.
+Mi volas al Vi konsili ion!
+Mi volas al Vi paroli pri Elinjo!
 Mi volas aranĝi kelkajn kunvenojn.
 Mi volas bazi mian parolon sur du asertoj, kies akcepton mi povas antaŭsupozi.
 Mi volas kuniĝi kun vi!
@@ -3801,6 +4116,7 @@ Mi volas vidi vin brili.
 Mi volas vin.
 Mi volis ankaŭ eniri, sed unu el la soldatoj forpelis min.
 Mi volis demandi lin, ĉu li ankoraŭ amas min; ĉu li estas feliĉa ktp.
+Mi volis doni lecionojn: oni proponis al mi mil ducent frankojn jare.
 Mi volis esti kaj resti neŭtrala kaj en neŭtrala lando.
 Mi volis imiti lin kaj promenante serĉis butikon por havigi al mi tiajn panetojn.
 Mi volis nepre ĝin ĉeesti.
@@ -3906,8 +4222,10 @@ Mikelo, reŝovu la kadavron sub la tablon, ordonis la doktoro.
 Mikelo, venu ĉi tien! ordonis la doktoro.
 Milo?
 Min doloras ĉi tie, panjo!
+Min ne plu kontentigas la ideo!
 Min ravis ilia kantado, kaj eksidinte sur benko tuj apud mia dometo, mi aŭskultis.
 Min subite ekfrapis la penso, ke jam alproksimiĝanta nokto antaŭiris la unuan postan tagon.
+Min vere tre interesis la afero kaj mi sincere ĝojas kun Vi!
 Minuton poste iu mallaŭte frapis la pordon.
 Minuton poste la du viroj sidas oportune ĉe la varma forno.
 Miraklo?
@@ -3919,7 +4237,9 @@ Momenton poste li kolere ekkriis:
 Momenton poste ĝi malaperis malantaŭ la arboj.
 Monatoj pasas, Moseo fariĝis sesjara kaj devas vizitadi la lernejon de Brej.
 Monaton poste la knabino estis vendata al riĉa emiro en Babilono.
+Montru al la mondo, ke la Esperantismo demetis siajn infanŝuojn!
 Montru al mi vian rompiĝintan kruron, mia knabo,diris la doktoro.
+Morgaŭ Vi parolos antaŭ eminentaj diplomatoj!
 Morgaŭ aŭ postmorgaŭ ŝi iros ien al la marbordo, verŝajne por siaj nervoj.
 Morgaŭ aŭ postmorgaŭ, tiel li finis, mi volas foriri.
 Morgaŭ mi mendos belan krucon.
@@ -3953,13 +4273,16 @@ Multaj pensoj trakuris lian cerbon.
 Multaj staris mutaj.
 Multan dankon.
 Multe jam estos gajnite, kiam la knabo estos for de ŝia influo.
+Multege!
 Muzika eposo, pentro estas por li nekonataj, same mankas al li la objekteco.
 Muzika penso anstataŭis por li la penson diskutan, la sonoj — vortojn kaj frazojn.
 Muziko, vice kun danco, ŝajnas esti la memsufiĉa, sencela arto.
 Nacio de laktosuĉulaĉoj ni estus, sen entreprenemo, sen fiereco, sen nacia memestimo.
+Naskiĝis gazeto.
 Ne aspektu tiel serioza, sinjoro Marston.
 Ne atendante inviton, Leonardo eniris la ĉambron.
 Ne aĉetinte bileton ŝi envagoniĝis en la lasta momento.
+Ne balancu vian kapon.
 Ne dankinde.
 Ne demandu.
 Ne dubu pri tio, sinjoro, mi respondis, Ĉar Dio ne venus en laŭa vestaĵo.
@@ -3968,6 +4291,7 @@ Ne ekzistas kaŭzo por timo.
 Ne ekzistas por ŝi feliĉo nek pano sen viro.
 Ne estas bezone diri, kiel ĝojis la juna paro.
 Ne estas mia intenco prediki al vi.
+Ne estas necese diri, ke Julio estis la baptanomo de Fraŭlino Lebruno.
 Ne estas necese, ke vi nun komprenu tion.
 Ne estas pro mi, ke ili estas tiel pezaj, sed pro miaj filoj.
 Ne estu tro aroganta, sinjoro!
@@ -3986,6 +4310,8 @@ Ne kuraĝigu lin, Lorna, li diris milde.
 Ne lasu al ŝi diveni, ke mi sciigis vin.
 Ne lasu iun malboninflui vin.
 Ne lasu min nun!
+Ne ludu antaŭ mi, mia amiko!
+Ne malhelpas! li gajnos riĉecon.
 Ne malkontenta?
 Ne malkvietiĝu pri Barazof; mi ja aranĝos tiun aferon por vi.
 Ne malpli mi.
@@ -4022,6 +4348,7 @@ Ne ĉagreniĝu.
 Ne ĉagrenu la karulinon.
 Ne ĝenu vin citi la tutan nomaron.
 Ne! Pri tio mi decidiĝis.
+Ne! Sinjoro Leo havas nenion.
 Ne! diras la sinjorino, kapskuante, Ne! mi ne parolos!
 Ne! parolis la emiro per tondra voĉo, kiu ĉiujn tremigis.
 Ne! vi ambaŭ mortos kaj eĉ per mia propra mano.
@@ -4055,6 +4382,7 @@ Ne, nenion, krom trinko da akvo.
 Ne, ni devos serĉi, kaj sendube trovos, aliajn rimedojn.
 Ne, ni tute ne priparolis psikajn aferojn.
 Ne, onklino, aŭskultu, mi petas.
+Ne, paĉjo.
 Ne, respondis Zminska, ŝia klereco estas tute ne granda; sed ŝi estas fremdlandulino.
 Ne, sed mi foje vidis ŝian portreton en, mi ne rememoras kiu, modogazeto.
 Ne, sinjorino, per maŝino mi neniam kudris.
@@ -4080,6 +4408,7 @@ Ne; ĝojon kaj dankecon.
 Nedifinita restis la estonteco.
 Neeble!
 Neeble.
+Neeldirebla doloro kaptis ĉiujn.
 Neesprimebla malgajeco montriĝis sur ŝia delikata vizaĝo.
 Negrave, mi ne estas en taŭga humoro hodiaŭ matene por aprobi dokumentojn.
 Negrave; rediris Leonardo.
@@ -4107,6 +4436,7 @@ Neniam reklamiloj havis tian sukceson.
 Neniam ŝi revis tiel longe kaj tiel multe kiel nun.
 Neniam!
 Neniam, pro mia honoro!
+Neniam.
 Nenian penegon, nenian oferon mi taksis tro granda pro vi.
 Nenian, mallaŭte respondis Marta.
 Nenie mi vidis homojn.
@@ -4120,6 +4450,7 @@ Nenio, kion kuracista lerteco kaj amo povas fari, estos preterlasita.
 Nenion pli la vigle atenta okulo de sinjorino Harding povis eltrovi.
 Nenion plu mi volas diri hodiaŭ.
 Nenion povoscias!
+Nenion.
 Neniu antaŭa vagonaro alvenigus vin pli frue.
 Neniu bezonis elbabili tion; ŝia vango estis ruĝa pro la bato.
 Neniu el ambaŭ scias, kion pensi, nek kion ekfari.
@@ -4141,6 +4472,8 @@ Nerveme kaj enpense li rearanĝis skribilaron sur la skribotablo.
 Nerveme li kunfaldis malgrandformen la paperfolion.
 Nesonĝita afero nun okazis sur la insulo kiu timegis min.
 Ni ankaŭ aŭdis, ke vi venos, kaj ke vi estas lerta samideanino.
+Ni ankaŭ havas konatan arkeologiiston.
+Ni antaŭ ĉio plivolas scii la kapablon de la homa korpo.
 Ni baldaŭ ekkonstruis boaton sufiĉe grandan por ni ambaŭ.
 Ni bezonis helpon, kaj nun mi eksentis, ke mi eraris, ellasante la knabon.
 Ni certe ne tiom ĝuas la klubkunvenojn, kiam vi forestas, sinjoro Marston.
@@ -4148,6 +4481,7 @@ Ni dancu.
 Ni devas prokrasti nian interparoladon ĝis post la ludota dramo.
 Ni diskutos morgaŭ.
 Ni diskutu.
+Ni do diras: nenian oficon?
 Ni do interparolu malkaŝe pri niaj ĉagrenoj.
 Ni do iris duope plue.
 Ni do ne forgesu lin en niaj preĝoj.
@@ -4159,6 +4493,7 @@ Ni estas el Hungario.
 Ni estas frivolaj.
 Ni estas hungarinoj.
 Ni estas invititoj.
+Ni estas irontaj ĉe granda sinjoro, lordo de Anglujo.
 Ni estas junaj.
 Ni estas tre fieraj pri nia ĉefurbo.
 Ni estas tre fieraj tiel servi al angla samideano.
@@ -4166,6 +4501,7 @@ Ni estis en Aŭgusto, en monato kun tridek-unu tagoj.
 Ni estis nun en la dunoj kaj Johano ekhaltis, rigardante ĉirkaŭ sin.
 Ni estis ravitaj, tiom pli, ĉar mi sen peno povis memori la vortojn.
 Ni estis surprizitaj, ĉar ĉiam antaŭe niaj petoj estis por li kiel ordonoj.
+Ni feliĉe vivas en jarcento kie la laboro ĉiam trovas sian rekompencon.
 Ni geedziĝis lastdimanĉe.
 Ni havas barbon.
 Ni havus kun ŝi nur klopodojn, nenion plu.
@@ -4206,6 +4542,7 @@ Ni timas, ke malfeliĉaĵo lin trafis.
 Ni tre volas aŭdi vian rakonton pri la kongreso.
 Ni troviĝis en ĉambreto, kie maljuna virino sidis laboranta ĉe tablo.
 Ni tuj lin sekvu!
+Ni tute ne povas priskribi la miron de Leo.
 Ni ĉiam estas kune, kiel du nedisigeblaj amikoj.
 Ni ĉiuj tre deziras, ke ŝi postrestu ĝis sabato matene.
 Ni ĝojas, sinjoro Marston, ke vi jam revenis.
@@ -4214,6 +4551,7 @@ Ni, efektive nia tuta familio, neniam povos rekompenci al vi viajn eksterordinar
 Nia bona samideano facile klarigis ilian celon; kaj mi aŭdis lin citi vian nomon.
 Nia bovino ne havis nomon, ĉar ĝi neniam volis ludi kun mi.
 Nia gasto ridetis afable; ŝajnis al mi, ke li estas ĉiam ridetanta homo.
+Nia heroo havis fajrajn okulojn kaj aspekton febran.
 Nia studado fine estis interrompata de Romeskaŭ.
 Nia ŝipo estis trimasta skuno.
 Niaj animoj kune flugu alte en serenaj, serafaj altaĵoj de pura, libera ĝojego!
@@ -4237,6 +4575,9 @@ Nu bone, mi atentos nur la ĉenon, li diris.
 Nu denove, bonan nokton.
 Nu kial do vi parolaĉas pri ia alportado al vi?
 Nu mi pensis, aliloke mi ja trovos okazon por trinki, ĉu pagante ĉu senpage.
+Nu! kion vi diras pri tio, paĉjo?
+Nu! li ankoraŭ manĝis kolombon hodiaŭ.
+Nu! mi ne konas tiun skribon!
 Nu, respondis la irlandano dubeme kaj iom heziteme,  mi ne estas lertulo je priskriboj.
 Nu, ŝi diris post momento,  la signoj estas ja multaj.
 Nu, Anjo, kiel fartas la patro?
@@ -4260,6 +4601,7 @@ Nu, kion vi diros al tio?
 Nu, knabo, kio estas?
 Nu, la Maŭro pensis, ke tion fari ne estos malbone.
 Nu, la ceteron vi jam scias.
+Nu, la eldonisto postulis de mi du mil frankojn por presi mian tradukon.
 Nu, lasu al mi ĉion fari!
 Nu, li diris.
 Nu, li ja ne batos min plu.
@@ -4271,29 +4613,35 @@ Nu, mi iris al mia arbo kaj faris ian neston por dormejo.
 Nu, mi jam demandis min, ĉu vi bonvole helpos al mi?
 Nu, mi ne estas tiel volforta.
 Nu, mi petos al ĉiuj longaj maristoj diri al mi, kioma horo estas...
+Nu, mi povas jam iri trankvile!
 Nu, mi povas legi ĝin, sekve: la promenantoj sur la strato ankaŭ povos tion.
 Nu, mi tre deziras aŭdi vian rakonton.
 Nu, mia knabo, estu kuraĝa kaj senzorga...
 Nu, mia knabo, ne ploru; ĉio fariĝos bona.
 Nu, mia knabo, post du aŭ tri horoj mi foriros kun via patro...
+Nu, ne ekscitiĝu!
 Nu, ne ofendiĝu, mia kara.
 Nu, nu, Lorna, nur ne perdu la prudenton.
 Nu, nu, kion do ŝi faras!
 Nu, onklino, mi mem dufoje komunikiĝis kun la spirito de Roberto, kaj tiel.
 Nu, parolu, mi petas, pri viaj interesaĵoj.
+Nu, paĉjo, residiĝu, kaj ni interparolu.
 Nu, per tiom da mono vi povas vagonare vojaĝi eĉ pli malproksimen ol Hamburgo.
 Nu, povas ja esti, ke ŝi trovis la infanon.
 Nu, promesu esti kvieta, kiam la boato de via patro velveturos for.
 Nu, rigardoj ne mortigas.
 Nu, se tio estas, ĉio fariĝos bona.
 Nu, sinjoro Marston, ŝi diris,  parolu malkaŝe.
+Nu, sinjoro, ĉu vi scias ĉion?
 Nu, spite al tio, ni lin trovos.
+Nu, tio estas la sola rimedo por ilin akiri.
 Nu, tio evitigas al mi la doloran taskon, sciigi vin.
 Nu, tio venigas min al mia dua sciigo.
 Nu, unue ni vizitu mian patrinon.
 Nu, vi konas la kondiĉojn.
 Nu, vidante ĉiujn tiujn homojn kune, vi vidas la homojn loĝantajn en Hamburgo.
 Nu, volonte mi prenos sur min la gravan taskon deteni vin de petolaĵoj.
+Nu? diris la patro.
 Nu? li demandis plue.
 Numero dua: Boteloj da kolonja akvo, naztukoj kaj parfumigita sapo; por la gastigintino.
 Numero kvara: Kolbaso; por Jafet, kiu tiel bone amikiĝis kun mi.
@@ -4307,6 +4655,7 @@ Nun en la kudrejon eniris Marta.
 Nun en ŝiaj okuloj brilis lumo de konscia penso.
 Nun estis duonhoro post la dekdua.
 Nun fikse rigardu la fraŭlinon en la okulojn.
+Nun hejmenirante, li rememoris teatraĵon malbonan, foje viditan pri Napoleono.
 Nun la juvelisto jam per ambaŭ manplatoj ekfrotis siajn harojn.
 Nun la kudristino silentiĝis kaj enpensiĝis.
 Nun la vizaĝo de Mario ekflamis per honto kaj indigno.
@@ -4332,7 +4681,9 @@ Nun ĉiu grajnero da tritiko ŝajnis kvazaŭ bulketo da pano.
 Nun ĝi venis el pli granda proksimeco de la apuda flanko de la valo.
 Nun ŝi ekrigardis antaŭen per nebulitaj okuloj kaj ekvidis Klaron.
 Nun ŝi ree aŭdis:
+Nun, jenaj estas la kondiĉoj de la traktaĵo.
 Nun, mi pensis, estas la okazo por uzi mian boaton; tiel mi ĝin ekordigis.
+Nuntempe, kiam Leo jam ne bezonas sian sciadon por vivi, li povas utiligi ĝin.
 Nur kaŭze de ili vi maltrafis lin.
 Nur kelkaj birdoj kantetis sur la arboj, sed krom tio mi aŭdis nenion.
 Nur kuiru viajn pizojn kaj vi neniam estos malkontenta nek malfeliĉa, eĉ ne malriĉa.
@@ -4353,16 +4704,23 @@ Nur venu! li diris al la kaprino.
 Nur venu, ni baldaŭ amikiĝos.
 Nur ĉi tie kaj tie oni aŭdis el la diversnaciaj grupetoj mallaŭtajn ekkriojn:
 Obeemaj, la manoj fosadis refoje la teron, sed kun multe da peno.
+Obstina laboro venkas ĉion, diris Julio.
 Ofendiĝi ne estas en lia programo.
 Ofte, kiam oni sentas frostotremon, la malfeliĉaĵo jam okazis.
+Ofte?
 Oj, ne timu tion, li rekonsciiĝos baldaŭ, respondis alia.
 Okaze la kordoj de nia animo jam estas agorditaj al la spirito de kanto.
 Okaze miaj okuloj falis sur malgrandan, malgrasan, palvizaĝan viron, kiu alproksimiĝis sur la strato.
 Okazis ja multaj similaj aperoj, plene atestitaj.
 Okazis turniro, oni kantis, dancis kaj muzikadis kaj la festo dauris multajn sinsekvantajn tagojn.
+Ondegis homamaso.
+Oni arestu min se tio al vi ŝajnas bone.
+Oni atendas ĝian okuponton.
+Oni atendos lin, sed vane.
 Oni aŭdis transturnadon de la folietoj de libro.
 Oni devas ŝin kapti!
 Oni devis ĝin akiri, preskaŭ krei.
+Oni diras, ke en Francujo, la registaro multe kuraĝigas la belartojn.
 Oni do ne scias tie ĉi, kies filo li estas?
 Oni eraras tamen opiniante, ke katoj estas indiferentaj pri homa amikeco.
 Oni forpelis ilin eksterurben, aŭ ĵetis en malliberejon, aŭ eĉ mortigis ilin sen kompato.
@@ -4394,12 +4752,16 @@ Pardonu, Marinjo, pardonu!
 Pardonu, kara sinjoro Inman; mi ne povas akcepti vian, el bona koro venantan konsilon.
 Pardonu, sinjorino, ke mi parolis tiel longe.
 Pardonu.
+Parizon.
 Parolante laŭ sia trankvila, serioza maniero, li diris:
 Parolante preskaŭ solene, li diris:
 Parolu Esperante pro propagando.
 Parolu kuraĝe, mia fratino!
 Parolu malrapide kaj simple.
+Parolu pri io alia!
+Parolu.
 Pasante li ekrigardis la modelon de braceleto, desegnitan de Marta.
+Pasis jam la deka horo.
 Pasis kelkaj semajnoj kaj mia kurso jam rekomenciĝis.
 Pastro, mi bezonas vian konsilon.
 Pastro, tiel al li diras Moseo,ĉu eble onklo estas ĉe vi?
@@ -4411,6 +4773,7 @@ Pensante pri tio, li direktas la paŝojn al la pordo.
 Pentman pensas pri la hipnota dormo kaj ridetas.
 Pentraĵoj malestis same kiel fotografaĵoj aŭ spegulo.
 Penu rememori, kara knabo, penu.
+Per Dio kaj diablo!
 Per alia ruzo, mi havigis ĉion, kion mi bezonis.
 Per aviadilo?
 Per aŭto?
@@ -4418,7 +4781,9 @@ Per helpo de la ŝnurego mi surŝipiĝis.
 Per kia rajto li rifuzis al mi almozon?
 Per kio do mi povas servi al vi?
 Per kio mi povas servi?
+Per la maldekstra ŝultro mi ankaŭ sentis ion malmolan.
 Per la maŝino, kompreneble?
+Per la tuta animo, Sinjoro.
 Per malmultaj kaj simplaj vortoj Leonardo denove rakontis sian strangan historion.
 Per mia kubuto.
 Per miaj moneroj mi aĉetus panetojn kun sekvinberoj.
@@ -4431,6 +4796,10 @@ Per unu pafo la heroo traboris la bruston de la kruela rajdantestro.
 Per ĉiuj rimedoj mi penis trankviligi ŝin, sed vane.
 Permesu do al mi, ke mi iru por serĉi ŝin.
 Pesa, korprema silento regis en la vasta ĉambro.
+Peters triumfe rigardis Leon kaj murmuretis: Ĉio iras bone.
+Petro Fidelan longe ne povis ekdormi.
+Petro tre ekĝojis!
+Petro ŝanceliĝis.
 Plaĉa rideto vidiĝis sur la serioza vizaĝo de Leonardo.
 Plej fervore mi ĵuris, adiaŭe kisis ŝian manon kaj rapidis el la ĉambro.
 Plej multe frapis min la granda silento, kiu regis ĉie.
@@ -4446,6 +4815,7 @@ Pli bone prosperas sen tio.
 Pli bone, sinjoro; mi dankas.
 Pli da mono ŝi ne havis, kaj laborenspezon ŝi havis nenian.
 Pli gravaj aferoj alvenigis min; aferoj, kiuj tuŝas vin pli intime.
+Pli longaj noveloj, eĉ poemoj ne povas aperi pro manko de loko.
 Pli ol tion mi ne volas ripeti, vi ne povus elporti ĝin.
 Pli-malpli unu horon poste Marta eniris en sian ĉambreton en la mansardo.
 Plialtigi la temperaturon de la ĉambro!
@@ -4463,6 +4833,7 @@ Por eviti esti piedpremata, Alicio gardis sin malantaŭ granda kardo.
 Por eviti mordojn de la besto, mi posten iris kelkajn paŝojn.
 Por fari fojnon aŭ por kapti talpojn.
 Por kia okupo vi sentas vin pleje kapabla kaj taŭga?
+Por kio mi devas elportadi turmentojn, kiuj superas ĉiujn elpensojn de la inkvizicio?
 Por kio paroli pri amo al proksimulo?
 Por kio, mi vin petas, ni bezonas virinojn instruitajn?
 Por kio?
@@ -4485,6 +4856,7 @@ Posen estas provinco en la prusa ŝtato.
 Post dolorĝemo ŝi ekkriis:
 Post du horoj Aleksandra eniris kaj tio estis la signo, ke la kursohoro finiĝis.
 Post dua nokto ili je la oka matene sidis en la vagonaro al Varsovio.
+Post dudek minutoj aperis la Lordo.
 Post iom da pripenso Alicio respondis: la kvaran Majo.
 Post kelka tempo la kanto ĉesis, kaj denove profunda silento ekregis.
 Post kelka tempo tamen Marta leviĝis.
@@ -4526,12 +4898,15 @@ Post momento li subite leviĝis, kaj iom energie diris:
 Post momento ĉi tiu ree parolis:
 Post momento ŝi respondis per belsona, milda voĉo:
 Post surprizo sekvis ĝenerala admiro, kaj longa tondra aplaŭdado eksplodis.
+Post tio, mi faris nenion.
 Post tiu portreto staris alia, prezentanta la gepatrojn de la knabino.
 Post tiu vorto Moseo estas tre surprizita, li jam ne ridetas, sed iom timetas.
 Post tridek-kelkaj paŝoj ambaŭ malaperas kaj la areno estas malplena.
+Post unu jaro vi donos mian manon al Sinjoro Leo?
 Post unu minuto jam aperis la tuta kapo.
 Post unu, du minutoj la Raŭpo demetis la pipon kaj skuis sin.
 Post ĝi, pli verŝajne.
+Poste aperis marŝantaj trupoj.
 Poste ili prenis viron el unu el la boatoj.
 Poste la vizaĝo de Delfino subite malrigidiĝis kaj alprenis preskaŭ sian kutiman mienon.
 Poste li pene respondis kun kelkfoja helpo de la grafo.
@@ -4543,6 +4918,7 @@ Poste revenu.
 Poste ĉiuj kriis ĥore: “Jes, revenu, revenu.”
 Poste ŝi turnis sin rekte al Alicio, dirante: "Kiel oni nomas vin, infano?"
 Poste, sin turnante al alia temo, li rediris post kelkaj minutoj:
+Poste?
 Povas ankaŭ esti, ke li estas turko.
 Povas esti, mi ne scias.
 Povas esti; mi devas bone rigardi ilin ankoraŭ unu fojon.
@@ -4565,6 +4941,8 @@ Preskaŭ ĉiuj gastoj retiriĝis.
 Preskaŭ ĉiuj lokoj estas okupitaj.
 Preskaŭ ĉiuj surdmutuloj havas la saman karakteron.
 Pretigu buljonon, ordonis la doktoro, kaj Maria eliris por obei.
+Prezentas sin do la demando, kiel pliampleksiĝi la Esperantan rimvortaron.
+Pri kia justeco povas esti parolo tie, kie la aferon decidas okazo?
 Pri kio ajn povas interesi vin.
 Pri kio skribis Blok?
 Pri kio vi pensas?
@@ -4575,6 +4953,7 @@ Pri kio vi ridas?
 Pri kio?
 Pri kiu vi portas funebron?
 Pri mi!?
+Pri rimedoj de eliro el tiu ĉi foso?
 Pri talento mi neniam aŭdis, ke vi ian havas...
 Pri tio, unu el la ŝipanaro diris, Se Paŭlo indulgos niajn vivojn, ni kapitulacos.
 Pri tiu ĉarpentistedzino.
@@ -4584,6 +4963,7 @@ Pri ĉi tiuj lastaj mi parolos poste.
 Pripensante momenton, ŝi foriras.
 Pripensu, ŝi diris, tie estas tiel malvarme, multehome kaj samtempe senhome.
 Pristudi ĉion estas granda laboro, la homa vivo por tio ne sufiĉas.
+Prizorgu! Vi eble ne gajnos tiome per via tuta instruiteco.
 Pro Dio, diru jam amen!
 Pro diversaj tiaj pretekstoj ĉiuj foriris unu post alia, ĝis Alicio restis tute sola.
 Pro kio do la homoj iam vin estimis?
@@ -4614,6 +4994,7 @@ Rapide ŝi leviĝis sur la litaĵo kaj sidiĝis rektiĝinte.
 Rapide ŝi prenis la infanon sur la brakojn kaj sidigis ĝin sur siaj genuoj.
 Rapidu, for!
 Ravite, Lorna denove ekkriis:
+Recenzon nepre bezonas ĉiu literaturo.
 Refoje horo post horo pasis, kaj ĉiam antaŭen velveturis mia boato.
 Refoje la sama melankolia rideto montriĝas sur la vizaĝo de la parolinto.
 Refoje li premis mian manon kaj fermis la okulojn.
@@ -4631,8 +5012,10 @@ Respondo venis ne tuj.
 Respondu tuj! ekkriis la urbestro.
 Respondu!
 Restas ankoraŭ industrio, komerco, metio.
+Restas la konsonantoj.
 Restu kviete ĉi tie, vi ja ne estos sola, ĉar viaj gepatroj restos.
 Restu, kie vi kuŝas, ĝis la ŝipo pereos; tiam, pereu vi kune kun ĝi.
+Revanto en la ideo, revanto en la amo.
 Reveninte al mia kara naskiĝlando, ĉio ŝajnis al mi stranga kaj nova.
 Reveninte, mi laboris ĝis la suno malleviĝis, kaj fine mi min kuŝigis.
 Revenu al mi.
@@ -4676,7 +5059,9 @@ Salte li kuris al la pordo.
 Saluton.
 Salutu la patron kaj danku lin en mia nomo, mi petas.
 Sam estis mia kaprino.
+Sama estas la afero pri recenzoj.
 Same kiel hieraŭ vespere, mi diris.
+Samideanoj!
 Sammaniere agis la kato, kiam ĝi saltis sur la ŝultron de la sonĝanta fremdulo.
 Samtempe aperis en ŝi la sento de neesprimebla premanta humileco.
 Samtempe li prenis la manon de la kuzino kaj alpremis ĝin al sia buŝo.
@@ -4690,10 +5075,15 @@ Sciu, do, ke anima mallibereco havas nenian lokon ĉi tie.
 Se estos eble, ŝi respondis.
 Se la Damo eltrovus tion, ŝi ja ekzekutigus nin ĉiujn.
 Se la ceteraj gastoj baldaŭ alvenos, ni aligos nin al vi.
+Se li estus apud mi, li ne permesus min enterigi.
+Se li ne iros morgaŭ!
+Se li volis dormi, post du minutoj jam oni ĝenis lin pro alilanda delegito.
 Se mi iros?
 Se mi malfruos, ĉielo savu miajn orelojn!
 Se mi ne havus infanon!
+Se ne nun, do post jaro.
 Se ni eltrovas vin perfidulo, ni senprokraste estingos vian kandelon.
+Se nur, Sinjoro Leo perlaboros kaj alportos al mi kvindek mil frankojn.
 Se vi aŭskultus lin, dum li penadas fari el si filozofon, vi vere amuziĝus.
 Se vi bonvolos antaŭiri, mi sekvos vin tien.
 Se vi nur povus kredi je la ekzisto de spirita mondo!
@@ -4711,6 +5101,7 @@ Sed antaŭ ol la oficisto atingis la pordon, jam la Ĉapelisto tute malaperis.
 Sed baldaŭ miaj projektoj trograndiĝis laŭ miaj rimedoj.
 Sed baldaŭ sur la strato laŭte eksonis la vorto: kaptu!
 Sed bonvolu veni en la domon, sinjoroj, kaj trinku tason da kafo!
+Sed certe!
 Sed dank’ al via saĝo ĝi nun estas malaperinta.
 Sed denove la infano gruntis.
 Sed diru al mi, kiel estas via nomo?
@@ -4752,6 +5143,7 @@ Sed kion ni nun devos fari kun la mortinto?
 Sed kion ŝi devas fari, se ŝin kaptas pasia deziro vivi?
 Sed kiu instruis al vi la muzikaĵojn, kiujn vi ĵus ludis.
 Sed knabo, kio do estas al vi...
+Sed kun ŝi leviĝis ankaŭ la junulo, kiu ĵetis sin en la flamojn.
 Sed la amaso kuris malpli rapide ol la veturilo, kiu ruliĝis tre rapide.
 Sed la bela kaj juna vizaĝo de Marta tute ne prezentis malfacile solveblan enigmon.
 Sed la disa homaro ankoraŭ estas strange miskomprenata familio.
@@ -4777,9 +5169,11 @@ Sed li donis al mi ĉi tiun palpeblan atestaĵon de sia vivanteco.
 Sed li estas granda klerulo, per mia honoro!
 Sed li ne estis ankoraŭ videbla.
 Sed li ne faris tion; lia kutima sinregeco kaj sento de abomeno retenis lin.
+Sed li ne povis tion atingi.
 Sed li permesis al mi iri sub via kompetenta prizorgo.
 Sed li tute ne povis kompreni la signifon de tiuj-ĉi vortoj.
 Sed lia serioza vizaĝo ne montris liajn pensojn.
+Sed mi absolute nenion povis rememori.
 Sed mi bone scias, ke senutila estas peno igi vin ŝanĝi vian decidon.
 Sed mi devas ne perdi tempon.
 Sed mi deziris indulgi ilin, kaj mortigi malmultajn laŭeble.
@@ -4820,6 +5214,7 @@ Sed ne ĉiuj violonĉeloj kostas tiom da mono, kiom la mia.
 Sed ne; ankoraŭ li spiretis.
 Sed neniu ĉi tie havas tian instrumenton.
 Sed ni lasu la parolon al la Sonĝbestoj mem.
+Sed ni lasu tion!
 Sed ni ne povas ĉiam kaŝi la infanon, la homoj fine ekscios pri tio...
 Sed noktmeze la ŝipo eksplodis, la flamoj forŝutis, kaj la ŝiprestaĵo subakviĝis.
 Sed nun mi havas la propran altecon, kaj restas nureniĝi en tiun belan ĝardenon.
@@ -4830,6 +5225,7 @@ Sed ponton mi ne vidis kaj subtegmentejon mi ne havis en ĉi tiu urbo.
 Sed por kio fari elekton?
 Sed post nelonge pli personaj pripensoj ekokupis Leonardon.
 Sed post plua pripenso li forlasis tiun planon.
+Sed pri kio mi povis pensi?
 Sed pri tio ni parolos en pli oportuna okazo.
 Sed prudente li demandis sin kia devus esti lia sinteno?
 Sed restigu ĉi tiun aferon tute inter ni, mi petas.
@@ -4844,6 +5240,7 @@ Sed tia estis ilia antaŭokupiteco, ke ili ne memoris la antaŭan okazaĵon.
 Sed tio decidigas la aferon.
 Sed tio estas ja abomenaĵo!
 Sed tio estas tre stranga...
+Sed tio ĉi estis la lasta peno; mi komencis perdadi ĉian kontrolon super mi.
 Sed tio, malfeliĉe, ne estas la plej malbona afero.
 Sed tion li ne povas plu.
 Sed tion mi tiam ne sciis.
@@ -4857,6 +5254,7 @@ Sed unufojon plu li ĵetis for tiun penson.
 Sed vi devas konfesi, ke onklino Delfino iafoje estas iom stranga; ĉu ne?
 Sed vi donis al mi kvar.
 Sed vi espereble konatiĝos kun ĉiuj persone venontan vendredon, kiam okazos la ĉiusemajna klubkunveno.
+Sed vi mem diris tion al li.
 Sed vidante, ke ni atakos, ili pafis sagojn, kiuj kvankam boncelite, nin ne atingas.
 Sed ĉi tiu bruo estis pli gajiga.
 Sed ĉi tiuj malagrablaj aferoj jam ne okupis la pensojn de Leonardo.
@@ -4870,6 +5268,7 @@ Sed ĝi estos sufiĉe longa linio, ĉar ili veturas rekte al Meksiko-urbo.
 Sed ŝi batalis kontraŭ ili, kaj ŝajnis al ŝi, ke ŝi ilin feliĉe solvas.
 Sed ŝi haltis subite kaj akompanis ilin per sia rigardo.
 Sed ŝi ne laboris kaj ne obeis, kiam mi ordonis al ŝi eklabori.
+Sed ŝi ne povis elekti.
 Sed ŝi ne rigardis lin.
 Sed ŝi ne trovis tie la konsolon, kiun ŝi serĉis.
 Sed ŝi nepre nomus min malklera bubino.
@@ -4880,6 +5279,7 @@ Sed, Delfino, kial Hugo volus agi tiele?
 Sed, baptopatro, diris Fernando, vi tre scias, ke vi ĝenas nin neniamaniere.
 Sed, eble, tio estas okazo pli multe por supernatura helpo, ol por fizikaj rimedoj.
 Sed, eĉ se mi ne povos fidi min mem, mi povas fidi lin.
+Sed, finu legi la leteron.
 Sed, ho, kara onklino, mi estas pli malfeliĉa, pli turmentata, ol iam antaŭe.
 Sed, ho, mia animo raviĝas de la belo en ĉio ĉirkaŭ mi.
 Sed, ili daŭrigis pafadon sur ni tiel longe, kiel ili estis en pafspaco.
@@ -4887,6 +5287,8 @@ Sed, kara amiko, bedaŭrinde eĉ tio ne estas la tuta Ijobnovaĵo.
 Sed, kara knabino, via vizaĝo aspektis tiel.
 Sed, kara sinjorino!
 Sed, kiel tio ŝajne ĉiam okazas, oftaj ĉagrenaj maloportunaĵoj survoje prokrastis la iradon.
+Sed, kiel vi scias, ke li petas pri via mano?
+Sed, kion li deziras?
 Sed, kion vi faris ĉi tiun longan tagon?
 Sed, li ne diris al vi kial li venis?
 Sed, malfeliĉe, la sorto dekretis alie, kaj faritaĵo ne povas malfariĝi.
@@ -4919,7 +5321,9 @@ Sekvis universala aklamado.
 Semajnoj, monatoj, kaj jaroj pasiĝis.
 Semajnon antaŭ nia foriro mi rakontis al li nian intencon.
 Sen ia dubo, ili estas fratoj!
+Sen ia malfacileco.
 Sen ironio, sed ankaŭ kun granda miro ŝin rigardis la juvelisto.
+Sen la valormezuranta kontrolo de la kritiko ĝi degeneras, pereas.
 Sen mono kaj sen hejmo mi vagadis tra la urbo, ne sciante kion fari...
 Sen viaj komandoj la laboro marŝas tre bone en la laktejo.
 Senbrue ŝi leviĝis kaj ŝteliris en apudan dormoĉambron.
@@ -4936,6 +5340,7 @@ Sendube! Tamen Alicio ne ŝatis ke oni tion diru.
 Sendube.
 Senmove Leonardo rigardis la malaperantan figuron de la juna nobelo.
 Senmove Leonardo rigardis la malaperantan vagonaron.
+Senpacience atendis nia migranto la nokton.
 Sensencaĵo!
 Sensencaĵo, kara knabino, vi devas ne aŭskulti tiajn konjektojn.
 Sento de honto ekregis lin, kaj nekonscie li faris unu paŝon malantaŭen.
@@ -4978,7 +5383,12 @@ Sinjorino, li respondis, farante geston de kompato, mi konas nenian tian lokon.
 Sinjorino, pruntedonu al mi pantalonon, mi petas, por ke mi povu eniri.
 Sinjorinoj deziras ion striitan!
 Sinjorinoj preferas folipuntojn kun randoj dentaj?
+Sinjoro Fruictier proponis al mi, ke li volus fariĝi redaktoro de "Lingvo Internacia".
 Sinjoro Garrat kunsenteme ankaŭ silentis.
+Sinjoro Lebruno ree sidiĝis kaj Julio sur liajn genuojn.
+Sinjoro Lenisdalo rigardis Leon kiel naturisto rigardus insekton, kiun li unuafoje vidas.
+Sinjoro Leo gajnos tiom.
+Sinjoro Leo.
 Sinjoro Marston, kara amiko, via vizito estos por ni neforgesebla.
 Sinjoro Marston, mi tre volas, ke vi venu kun ni ĝis nia domo.
 Sinjoro Marston, ni ĉiuj venis por serĉi vin.
@@ -4998,10 +5408,12 @@ Sola tiu eksperimento faras el Blok kreanton de epoko.
 Sola!? Mi aŭdis tamen du fajfilojn.
 Solena senbrueco ankoraŭ regis.
 Sopiro al vi, karulo, igis min reveni Anglujon, kiam vi estis sepjarulo.
+Sovaĝaj pensoj komencis interŝanĝadi sin kun sovaĝaj pentraĵoj.
 Sovaĝulo en la dunoj!?
 Sovaĝulo estas en la dunoj! mi ekkriis.
 Sovaĝulo mi ekkriis.
 Sovaĝulo!? demandis mia patrino.
+Specialan programon krome ni ne donas.
 Specialisto pri kio?
 Spirita, mondula blindeco, li diris,  igas vin ofendema kaj maljusta, sinjoro.
 Spite mia malakcepto li aĉetis por mi maldikan bastonon.
@@ -5021,6 +5433,7 @@ Sub la influo de tiu ĉi sento kreskis en ŝi honto nedifinebla, sed turmenta.
 Sub ŝia rigardego tiu paliĝis kaj tremis.
 Subite Marta ektremis, ŝi sentis, ke iu facile tuŝis ŝian brakon.
 Subite aŭdiĝis brueto, kvazaŭ aro da ektimigitaj kunikloj diskuras.
+Subite eksonis muziko!
 Subite ideo naskiĝis en mia kapo kaj tuj mi efektivigis ĝin.
 Subite kaptis min ideo.
 Subite la arlekeno kaj la malsprita Aŭgusto revenas laŭte interdisputante pri la dancistino.
@@ -5037,6 +5450,7 @@ Subite li ĉesis fajfi, haltis kaj ekkriis: ha!
 Subite sinjoro Vincent leviĝis, dirante, ke li volas kontroli la kunmetadon de nova aparato.
 Subite super la kapo de la profunde enpensiĝanta virino eksonis du voĉoj.
 Subite sur la sulkoplenaj vangoj de la maljunulino ekfluis du riveretoj da senhaltaj larmoj.
+Subite tambursono!
 Subite ventpuŝo ekkaptis mian papereton kaj ĝi forflugis ekster la boato en la akvon.
 Subite ŝajnas al ŝi, kvazaŭ nigreta ombro sin ŝovas sur la vando antaŭ ŝi.
 Subite ŝi direktis sin al alia flanko kaj rapide ekiris al sia loĝejo.
@@ -5055,11 +5469,13 @@ Sufiĉas, sinjoro Bjelski; ni ĉiuj komprenas, kion vi estas al ni dironta.
 Sufiĉe alproksimiĝinte al la surprizita paro, Leonardo ĝentile levis la ĉapelon kaj trankvile diris:
 Sufiĉis ĝuste por donaci al ĉiuj po unu.
 Super la kapo ĉio estis malluma, sed rekte antaŭ ŝi vidiĝis longa koridoro.
+Super lia kapo flugpendis grandega verda standardo!
 Supo povas esti tre bona sen pipro.
 Supozeble la animpenetranta rigardo de Leonardo kaŭzis tiun efikon tiom, kiom liaj vortoj.
 Supozu, pastro, ke malobeanto ne scias, ke tiu devo ekzistas.
 Supre en la hejmo ĉiuj ŝatas ŝin, ĉi tie funde, neniu.
 Supre sur la ŝtuparo staris malgranda virino.
+Supre, sur monto, mi sidas.
 Suprenirinte la ŝtuparon, ili puŝmalfermis la pordon de la loĝoĉambro.
 Sur Insulo!? Mi estis neniam sur Insulo.
 Sur iliaj vizaĝoj oni povis legi la plej diversajn sentojn: kompaton, scivolecon, mokon.
@@ -5078,6 +5494,7 @@ Sur la stratoj iris multaj homoj, kiuj ne atentis sin reciproke.
 Sur la subtegmentejo? La virino dormos tie kun la knabo; mi luis la ĉambron.
 Sur la supra "abelujo" staras blanka kufo.
 Sur la tablo?
+Sur la tero eble eĉ estis tago, sed ĉe mi estis netrapenetrebla nokto.
 Sur la trotuaroj ondis miloj da homaj kapoj.
 Sur la vizaĝo de Mario Rudzinska aperis miro, aflikto kaj konfuzo.
 Sur la vojo nervodetruaj pensoj regis min; turmentaj demandoj premsekve traflugis mian cerbon.
@@ -5095,6 +5512,7 @@ Sur ĉiu benketo kuŝis nigra tuko.
 Sur ŝia buŝo estis nun rideto, stranga rideto!
 Sur ŝia vizaĝo aperis miro kaj embaraso.
 Sur ŝia vizaĝo transkuris dum unu minuto milo da koketaj, mokaj kaj malestimaj ridetoj.
+Surda, premanta silento kaj absoluta mallumo ĉirkaŭis min.
 Surprizi!?
 Surprizite mi ekrigardis mian patron.
 Surteron ni ekvidis iujn homojn, kiuj staras kaj rigardas nin.
@@ -5122,6 +5540,9 @@ Tamen lia koro ekbatis iomete pli rapide.
 Tamen lia parolo, kaj precipe la sekvinta diskuto, faris sur kelkajn tre profundan impreson.
 Tamen lia voĉo ne estis sen signoj de profunda emocio.
 Tamen mi estas kontenta, ke vi jam scias.
+Tamen mi klopodis plenumi mian rolon; mi ja klopodis, sed bedaŭrinde ne sukcesis.
+Tamen mi komprenas Vin!
+Tamen mi mortas de malsato.
 Tamen mi ne povas kredi tiajn fantaziajn asertojn.
 Tamen neniu ekmovis sin!
 Tamen rakontu, mi petas, diris Leonardo kun peto kaj kuraĝigo en la voĉo.
@@ -5133,11 +5554,13 @@ Tamen vi, ne konante Multimplikon, pretendas bone koni la Divenon.
 Tamen ĉio fine elfariĝis.
 Tamen ŝi decidis atendi ankoraŭ kelkajn momentojn por sciiĝi ĉu ŝi malkreskos plue.
 Tamen, estas ja neeble, ke la infano estas ŝia.
+Tamen, ili esperas.
 Tamen, iri kun vi nun mi nepre ne povas.
 Tamen, kelkfoje.
 Tamen, la Turko konante kaj vidante min plu, min pli kaj pli liberigis.
 Tamen, laŭ mi, ŝi estas la plej bona kato en la tuta mondo.
 Tamen, trovante la saketon, li kompreneble divenus tuj, ke ĝi estas donaco de mi.
+Tamen, vi havas oficon, vi multafoje diris tion al mi.
 Tamen, vi rapidiĝu.
 Tamen, ĉar ĝi nur grimacis pliamplekse, Alicio konkludis ke ĝis nun ĝi ne ofendiĝis.
 Tamen, ĉar ŝi ne volis esti malagrabla, ŝi laŭeble toleris ĉion.
@@ -5145,11 +5568,14 @@ Tamen.
 Telegrafio kaj telefonio kreis el la mondo flustrogalerion.
 Tenu lin ĉe la ŝultroj, Mikelo.
 Teodoro sekvis sian amikon kiel ombro.
+Terura estis por mi ne la morto mem, sed la maniero de morto.
+Terura penso, elvokita kredeble per neklara ekmemoro, aperis kiel fulmo en mia kapo.
 Terura, sortoplena krizo okazis: la mistera regantaĵo venkis.
 Teruraj travivaĵoj!
 Teruran aspekton havis en tiu momento ŝia vizaĝo.
 Teruro kaj dolorego esprimiĝis per ĉiuj trajtoj de ŝia esprimoplena vizaĝo.
 Tia demando ne venis en la kapon de Geraldino:
+Tia estas la vivo!
 Tia estas mia karaktero, li respondis.
 Tia kaduka estaĵo!
 Tia malfrua vizito surprizas min; sed, supozeble, grava afero alvenigas vin.
@@ -5162,8 +5588,10 @@ Tiajn promesojn neniu bezonas plenumi; li malbonuzis vian mizeran situacion.
 Tial Marta aĉetis funton da fumaĵita ŝinko.
 Tial ankaŭ Mario rigardis lin amike.
 Tial estis klare, ke troviĝas homoj sur la insulo.
+Tial ke miaj rimedoj tute ne permesas al mi tiun elspezon.
 Tial la irantaj sinjorinoj ne komprenis la signifon de ŝia ekkrio.
 Tial laboristinoj sin puŝas al ni, amase sin puŝas.
+Tial mi forlasos mian oficon.
 Tial mi jam havis surŝipe ok pli ol tiam, kiam mi ekveturis.
 Tial mi laboris, ĝis tiu surfervoja malfeliĉaĵo kuŝigis min sur liton de suferado.
 Tial ni ekiris niavoje.
@@ -5172,7 +5600,9 @@ Tial ŝi pripensis alian planon.
 Tial, ke li tute ne similas ŝin, nek iun alian en la tuta vilaĝo.
 Tial, ke tiujn lecionojn donas viroj, respondis la mastrino de la oficejo.
 Tial, kiam la novaĵo alvenis pri lia morto, mi jam estis tute preparita.
+Tial, mi prunte donis al vi, kaj mi venigos raziston kiu razos vian barbon.
 Tial, respondis Marta malrapide kaj mallaŭte, ĉar mi ne scias instrui.
+Tial, se vi havos filojn vi devos fari spertulojn el ili.
 Tial, ĉar la sklavo deziris iri, mi nenial diris ne.
 Tiam Karlo deprenis iliajn pafilojn kaj tranĉilojn, kaj ordonis, ke ili estu ĉenligataj.
 Tiam Mario ne permesis plu al la malfeliĉa virino paroli.
@@ -5180,6 +5610,7 @@ Tiam Vendredo kaj Paŭlo surŝipiĝis, kaj Paŭlo rekomandis la ŝipanaron.
 Tiam ambaŭ profunde klinis sin, kaj iliaj buklaroj interligiĝis.
 Tiam densa griza nubo envolvis min kaj mi vidis plu nenion.
 Tiam ekzekutisto senkapigas ilin unu post alia.
+Tiam estis la premio nur tridek mil frankoj.
 Tiam estos la unua de Majo.
 Tiam ia voĉo ŝajne diris: Ĉu vi demandis, kial Dio faras tion al vi?
 Tiam ili alĵuris.
@@ -5206,9 +5637,11 @@ Tiam ŝi surmetas la kufon kaj la antaŭtukon kaj rigardas sin en la spegulo.
 Tiam ŝi turnas sin por eliri, ĉar estas kvarona horo antaŭ la unua.
 Tiam, je malfrua horo, ŝi penis ekdormi en angulo de la kupeo.
 Tiam, karulino, kiel vi fartas? petis Herbeno, kisante sur frunto sian edzinon.
+Tiam, mi kunmetis miajn lastajn rimedojn kaj mi venis en Anglujon.
 Tiamaniere mi vivis du jarojn.
 Tiamaniere ni iradis ĝis ni venis al la arbetaĵlimo.
 Tiamaniere ni vivadas.
+Tiamaniere okazis, ke la redaktado falis en la manojn de la tria Paŭlo!
 Tian allogan aspekton ili havis, ke nur surrigardi ilin funkciigis la salivglandojn.
 Tian doloregon mi spertis tiun vesperon en la daŭro de kelkaj horoj.
 Tiatempe devis okazi en Danzigo nia esperanta tutmonda Kongreso.
@@ -5243,6 +5676,9 @@ Tiel rigardante kaj pensante, mi pasigis longan tempon kaj tiam mi denove ekprom
 Tiel trikadante kaj ludante mi pasigis feliĉe kaj kontente la vintron.
 Tiel ĝi ŝajnas laŭ la eksteraĵo.
 Tiel ŝi preskaŭ ĉiam respondis post ĉio, kion oni al ŝi diris.
+Tiel, ni bone interkonsentas, ĉu ne?
+Tiel, vi interparolis kaŝe?
+Tiel, vi konfesas tion?
 Tien, en la arbaĵeton apudan.
 Timante, ke li ne ricevis mian leteron, mi skribis alian, sed Bjelski ne aperis.
 Timo ekkaptis Leonardon, ke la animo de la amata patro jam forflugis.
@@ -5253,6 +5689,7 @@ Tio daŭros verŝajne unu jaron, eble nur kelkajn monatojn...
 Tio dependas de cirkonstancoj.
 Tio dependas de la kvalito, unuj estas multekostaj, aliaj ne.
 Tio dependos de la motivoj de la malplenumo.
+Tio devenas de mia patrino.
 Tio do devas esti Brej.
 Tio donis al mi kuraĝon kaj spiradon, kaj baldaŭ miaj piedoj sentis teron.
 Tio eble al iu ŝajnos stranga, kaj tamen tiel estas.
@@ -5309,6 +5746,7 @@ Tio ne estis facila tasko, sed fine mi elfarigis ĝin.
 Tio ne gravas, mia nomo estas Romeskaŭ kaj vi ankaŭ portas tiun nomon.
 Tio ne malhelpas.
 Tio ne multe surprizis Alicion; ŝi ja jam alkutimiĝis al strangaj okazoj.
+Tio ne sufiĉas.
 Tio okazis antaŭ multaj jaroj; mia patrino estis rakontinta ĝin al mi.
 Tio okazis en Mezafriko, kiam li trapasis distrikton de sovaĝa, demon-adoranta gento.
 Tio plipezigas mian ŝarĝon.
@@ -5318,6 +5756,11 @@ Tio sonis al ŝi bonpromesa: ŝi do revenis.
 Tio tamen ne okazis kaj mi restis sidanta...
 Tio tamen ne okazis per via kulpo?
 Tio tuj ordigis la aferon.
+Tio unuatempe ŝajnis facila, sed neniu ankoraŭ sukcesis, kvankam multaj provis la taskon.
+Tio ĉi daŭris tiel longe, ĝis mi absolute perdis la fortojn.
+Tio ĉi estis ankoraŭ bato, kiu ĝis fino min dispremis.
+Tio ĉi estis la vizaĝo de mia frato, al kiu mi dankas mian savon.
+Tio ĉi forte min mirigis.
 Tio ĉiam ŝajnis al mi la plej natura afero.
 Tio ĝenus vian patron, kiu nun legas.
 Tio, kio estas vera, ja fine devas evidentiĝi.
@@ -5340,6 +5783,7 @@ Tion li faras ofte, precipe kiam la vetero estas bela.
 Tion li faras ĉiumatene por alporti la gazeton al la farmejo de Klomp.
 Tion li faris post momento, dirante:
 Tion li jam tre dolore bedaŭras.
+Tion mi faris.
 Tion mi jam de longe suspektis.
 Tion mi klare antaŭsentis.
 Tion mi ne atentis, mi nur rapide legis vian nomon.
@@ -5353,8 +5797,10 @@ Tion mi treege bedaŭras, señor, ĉar vi nun devos pacienci ĝis morgaŭ matene
 Tion mi vidas..., sed por kiu?
 Tion neniam faras la katoj.
 Tion vi spertos poste, li respondis.
+Tion vi tuj ricevis.
 Tion ŝi faras kun plezuro, ĉar ŝi estas bonkora kaj tre amas infanojn.
 Tiu Barazof tamen ne estas lia luiginto, sendube io mistera sin kaŝas sub tio.
+Tiu aldono enhavis nur literaturaĵojn kaj estis abonebla aparte de la gazeto.
 Tiu bela infana liteto estis jam la lasta el la elportitaj meblaĵoj.
 Tiu bezonas nur unu mangeston por diri, kie ŝi povas trovi alian laboron.
 Tiu domo estis mallarĝa, sed alta, trietaĝa, ĝi havis eksteraĵon malnovan kaj malgajan.
@@ -5377,6 +5823,7 @@ Tiu lasta rapide forkuris en direkto al la domo, sed ne sukcesis eviti rekoniĝo
 Tiu mano plu ŝin ne tuŝis.
 Tiu minaco ja ne kuraĝigis la atestanton.
 Tiu momento ŝajnis al Alicio oportuna por forkuro.
+Tiu nomo ne estis jam nekonata por mi.
 Tiu posedaĵo estis por lia patro makulitaĵo, hontindaĵo; por li ĝi estis sankta konfiditaĵo.
 Tiu respondo surprizas la pastron supermezure.
 Tiu rigardis ilin el grandaj larmplenaj okuloj, sed diris nenion.
@@ -5386,6 +5833,9 @@ Tiu subita elprovo ekskuis viajn nervojn, kara fratineto.
 Tiu subita ŝanĝo tre timigis ŝin.
 Tiu titolo ŝajnas malplaĉi al via moŝto.
 Tiu turo nomiĝas la virgulinejo.
+Tiu ĉi hundo distingadis sin per granda kvieteco kaj sincere min amadis.
+Tiu ĉi letero portis la nomon kaj adreson de Julio.
+Tiu ĉi penso estis tiel terura, ke mi ne kuraĝis eĉ formuli ĝin.
 Tiu, kiu fariĝas lia edzino, devas ĉiam pagi tiun honoron per ŝia kapo.
 Tiu-ĉi bonnovaĵo lin plifortigis, kaj li sin levis sidiĝe en la boato.
 Tiu-ĉi sklavŝipo enhavis ses pafilegojn, dekdu virojn kaj unu knabon.
@@ -5416,6 +5866,7 @@ Tiustato daŭris unu jaron kaj tri monatojn, kaj intertempe mi vidis neniun.
 Tomaso kaj Putumajo.
 Tra la nebulo, kiu ŝirmis ŝian rigardon, ŝi ekvidis antaŭ si ŝtuparon.
 Tra la oreloj li portis orajn ringojn.
+Tra mia fenestro, kaj mi skribos al li.
 Tra tiu vitro mi vidis nur la bluan ĉielon.
 Tradukoj el ĉi tiu lingvo estus pli dezirataj kaj pli bone pagataj.
 Traduku tion!
@@ -5425,14 +5876,19 @@ Trankvile kaj milde, sed tre firme Leonardo rediris:
 Trankvile ŝi do prenas la paketon kun la vestetoj sub la brakon kaj eliras.
 Trankviliĝu, Malkomo.
 Trankviliĝu, sinjorino, li diris milde kaj serioze.
+Trankvilon, amiko, estas ja egale, kiu!
 Trapasante la ĝardenon antaŭ la fabrikejo, li trafis areton da bonorde vestitaj junaj virinoj.
 Tre afable li penas fari sin agrabla.
 Tre bela, pastro.
 Tre bonan, ne ĉiuj patrinoj estas tiel feliĉaj; ĉu vi ne samopinias Ivan?
+Tre bone, per liaj verkoj.
+Tre bone, tre bone, Fraŭlino, vi returnen iros al la monaĥejo
 Tre grava, urĝa afero venigas min.
 Tre kredeble neniu el vi forte dubas pri la efektiveco de postmorta vivo.
 Tre kredeble niaj karakteroj estas sufiĉe malsimilaj.
+Tre malbone.
 Tre malproksime mi ekvidis aperantan skunon.
+Tre ofte.
 Tre stranga konduto por ne uzi pli fortan esprimon ĉu ne?
 Tre volonte, amiko mia.
 Tri cent tridek du.
@@ -5471,12 +5927,14 @@ Turnante min, mi vidis Jafet.
 Tuso, kviete respondis Mikelo.
 Tuta lia vivo estis kvazaŭ serĉo de eliro en la aliajn mondojn.
 Tuta ŝia korpo skuiĝas.
+Tute bone.
 Tute laca la malsanulo eksilentis kaj ĝemetis.
 Tute manĝi ili.
 Tute ne, mia kara.
 Tute ne.
 Tute ne; ne estas al mi malvarme.
 Tute.
+Tute?
 Tuŝu mian manon.
 Unu aferon plu, knabo mia.
 Unu el ili estis juna kaj bela kiel anĝelo.
@@ -5513,6 +5971,7 @@ Unuj krias pli laŭte ol aliaj.
 Unuvorte, mi konfidis mian sorton al la ŝanco; aŭ renkonti ian ŝipon aŭ morti.
 Unuvorte, ĝi estas homo, kiu ĉiam kuiras siajn pizojn.
 Urbon.
+Utopio!
 Vagpense ŝi respondis:
 Vane!
 Varma sento trakuris miajn vejnojn kaj mi rekonsciiĝis.
@@ -5524,12 +5983,15 @@ Venante sur la postan parton, mi tute neatendite vidis mian boaton.
 Venas nun la vico de la gimnastikisto por "labori" sur la trapezo.
 Vendredo respondis, ke Paŭlo estas kun la reĝo de la insulo, kiu havis viraregon.
 Venigu rapide mian Blankafloron, mi petas.
+Venis la nokto.
 Venu kun ni!
 Venu postmorgaŭ matene, diris Mario Rudzinska.
 Venĝu vin nur kontraŭ mi.
 Vere frapanta ideo venis al Alicio.
 Vere mi havis deziron desalti de la seĝo kaj kisi vin por tio!
 Vere ĝi estas romaneca Romeo-kaj-Juliet-afero.
+Vere! diris Julio.
+Vere! sed mi estis komercisto!
 Vere, onklino.
 Vere?
 Verŝajne aliaj bezonas ŝian helpon kaj konsilon.
@@ -5540,29 +6002,39 @@ Vespere mi multfoje ludadis, dum Aleksandra min akompanis min per la piano.
 Vespere ĉi tiuj mebloj jam ne estis en la ĉambro de Marta.
 Vesperiĝis.
 Vestetoj.
+Vestiĝu!
 Veturilejon.
 Vi alpremas min al la muro!
+Vi amas?
 Vi ankaŭ devas resti, kaj sinjoro Vincent.
 Vi ankoraŭ ne trarigardis ĉi tiujn dokumentojn, kaj ili ja bezonas vian aprobon.
 Vi aspektas morte laca.
 Vi babilas sensencaĵon!
 Vi baldaŭ kutimos al via sorto...
 Vi belegas!
+Vi bone komprenas, Via Moŝto, ke mi plivolus utiligi mian spertecon ol mian stomakon.
+Vi bone scias, ke li ĉion scias.
 Vi bonegas!
 Vi certe sukcesos.
 Vi denove alpremas min al muro!
 Vi denove havis malagrablan scenon kun Delfino; ĉu ne?
 Vi devas atentigi sinjoron Adams pri tio.
+Vi devus provi ion alian.
 Vi deziras ion pli malpezan?
+Vi diras, mi ludas!
+Vi do amegas mian filinon?
+Vi do estas sperta?
 Vi do jam ne studadas?
 Vi do konsentas, ke ni promenados kelkan tempon?
 Vi do loĝis antaŭe sur la Insulo, ĉu ne vere?
 Vi do ne kontraŭstaros?
 Vi do promenos kun tiu papero sur la stratoj por montri al la preterirantoj?
 Vi dormos en la lito kaj mi sur du seĝoj.
+Vi edziĝos je via amatino.
 Vi efektive aspektas kiel veraj arlekenoj.
 Vi efektive rememorigas al mi nian karan, mortintan filon, sinjoro Marston.
 Vi ekhavos enirbileton por du personoj, kaj mi prezentis al li la invitaĵon.
+Vi elektis bone!
 Vi eraras, Evelino, ŝi diris.
 Vi estas aktoro, ĉu ne vere?
 Vi estas bona homo, Leonardo.
@@ -5575,11 +6047,15 @@ Vi estas kompatinda.
 Vi estas kruela, sinjorino Karolino, li ekkriis, vi parolas al mi pri edziĝo!
 Vi estas kvietaj.
 Vi estas la sola persono, kiu vere povos boninflui lin.
+Vi estas prava, diris la patro, kaj li malsigelis la leteron.
 Vi estas prava, mi trinkis tro multe.
 Vi estas prava, tre malmultaj komprenas lin.
 Vi estas prave, kaj turnante sin al mia patrino, li diris plue:
 Vi estas reklamilo!?
+Vi estas savita kaj mi profitos dek mil frankojn.
+Vi estas savita!
 Vi estas stulta!
+Vi estas sur certa vojo, trovi konvenan rekompencon por Via laboro!
 Vi estas tre alloga!
 Vi estas tre amikeca.
 Vi estas tre bela.
@@ -5588,9 +6064,12 @@ Vi estas tro bona por ĉi tiu mondo; tia mi ne estas.
 Vi estas tro juna.
 Vi estas violonisto, ĉu ne vere?
 Vi estas virino.
+Vi estis pafonta kuglon tra la kapo?
+Vi faris bone.
 Vi forgesis diri al mi bonan tagon, Aleĉjo!
 Vi havas rondan vizaĝon.
 Vi intencas, mi kredas, informiĝi pri sinjoro Johano Dusburg.
+Vi ja mem parolis jam al mi pri ŝi!
 Vi ja memoras, ke mi parolis pri ili antaŭ kelkaj tagoj?
 Vi ja ne devas ĉeesti la baptadon.
 Vi ja ne koleras pro mi?
@@ -5607,30 +6086,40 @@ Vi komprenos poste.
 Vi konscias, ke la spirito de la majstro vere liberigas.
 Vi kutime estas tro serioza, via fraŭlina moŝto.
 Vi leviĝos super ĉi tiujn sortobatojn.
+Vi lin tie vidis?
 Vi loĝas en Brazilo.
 Vi mem tion supozis.
 Vi mensogis al mi.
 Vi min jam ne akceptos?
 Vi miras pri tio?
 Vi mortos de malsato kune kun via infano.
+Vi ne bezonas kompreni.
+Vi ne edziniĝos je li?
 Vi ne havas ja multe da libera tempo.
 Vi ne havas la rajton.
 Vi ne instruos jam mian filinon?
 Vi ne konscias tion, sed pli poste vi spertos ĝin mem.
 Vi ne kredas tion? demandas la fremdulo.
+Vi ne povas feliĉe mastrumi po tri mil frankoj jare.
+Vi ne povas.
+Vi ne povis ion vidi, paĉjo, vi ĉiam portadis viajn okulvitrojn.
 Vi ne rajtas forpeli ŝin.
 Vi ne rajtas tuŝi ŝin per la kubuto; vi estas malprava.
 Vi ne rajtas, ĉar vi ŝin batis.
 Vi ne rekonas min, sinjoro!
 Vi ne scias, kia ĉarma muziko estas en via arĝentosona rido.
 Vi ne sciis, kie ŝi loĝas?
+Vi ne volas alian?
 Vi nepre devas esti tia, ĉar vi ja naskiĝis ĉi tie.
 Vi nur bezonas taŭgajn okazojn tiajn, por realigi viajn revojn.
 Vi nur imagas tion, tie ne sidas besto.
 Vi ordonu ke ŝi komencu.
+Vi pacience atendos tutan jaron, Julio?
 Vi ploras, panjo!
 Vi povas dormi tie, kaj morgaŭ matene ni plue priparolos vian situacion.
 Vi povas fari al sinjoro Marston kaj al mi grandan servon.
+Vi povas havigi al mi sesdek mil frankojn?
+Vi povas imagi, kara leganto, la korsentojn, kiujn kaŭzis al mi tiu letero.
 Vi povas labori!
 Vi povas plene fidi miajn administrantajn prokuristojn, sinjorojn Hunter kaj Inman en Londono.
 Vi povas resti en la boato.
@@ -5645,19 +6134,24 @@ Vi ricevos almenaŭ ĝian plenan valoron.
 Vi ripetis denove, Evelino, unu el la komunuzaj frazoj, kiuj cirkulas en la mondo.
 Vi ripetis multfoje la demandon: kial?
 Vi scias kie ĝi estas konservata, kaj eble ni volos pafi birdon aŭ du.
+Vi scias latinan!
 Vi scias, ke neniam mi freneziĝis.
 Vi scias, ke ni helpos al vi kiel bonaj amikoj.
 Vi scias, miaj amikoj, sufiĉe pri cerbomalsanuloj, por kompreni min.
 Vi sekve estas vidvino!
+Vi skribos al li! Kaj kion vi skribos al li?
 Vi suferigis al mi neeldireblajn turmentojn en fi-kuracejo, kie malboneguloj penis frenezigi min.
+Vi sufiĉe laboris kaj Vi sufiĉe suferas!
 Vi surhavas kontaktlensojn.
 Vi tamen ne povas loĝi tie.
 Vi tamen ne povis tion, la atako venis tro rapide.
 Vi tedas min terure, respondis la virino.
+Vi tie atendos, ke mi al vi trovos edzon.
 Vi timigas min.
 Vi trafis, ni estis studantaj.
 Vi trafis.
 Vi troigas, mia kara, ŝi diris kun plena indiferenteco.
+Vi trompiĝas, sinjoro.
 Vi tute eraras kaj senpripense rapidas al malĝusta juĝo.
 Vi tute ne aŭskultas, sinjoro Harding; pri kio vi meditas?
 Vi tute ne eluzas vian talenton.
@@ -5690,6 +6184,7 @@ Via vico!
 Viaj kruroj? Ĉu ili doloras vin?
 Viaj ĉagrenoj estas miaj ĉagrenoj, Lorna.
 Vidante ke tio ne multe doloris Johanon, mi ankaŭ ridegis.
+Vidante la kruelan morton de la infano forte indigniĝis nia migranto.
 Vidante min li tuj ekstaris.
 Vidante min, la kuiristo tuj rimarkis, ke li estas bonvena.
 Videble estis, ke la vortoj de Leonardo faris profundan impreson sur la aŭdantaron.
@@ -5699,13 +6194,16 @@ Videble ili atendis la unuan vorton de sia estinta laboristino.
 Videble io lin embarasis aŭ afliktis.
 Videble ŝi estis en febra stato kaj spiris kun dolora malfacileco.
 Videble ŝi posedis en si sufiĉan kvanton da fortoj de spirito kaj volo.
+Vidu jam kiom da tialoj por ke li ricevu leteron.
 Vin, sinjorino!
 Vintra tago estis finiĝanta.
 Virina kialo.
 Virina problemo!
 Virino estas nulo, se apud ŝi ne staras viro kiel cifero pleniganta.
 Virinoj tiajn aferojn pli bone rimarkas.
+Vivu Esperanto!
 Vojaĝanto, kiu perdis la vojon.
+Volas iun, kiu flustrus belajn aferojn en ŝiajn oreletojn.
 Volonte li reaĉetus la knabinon, sed li ne sciis, kie ŝin trovi.
 Volonte mi kredas; tamen mi havas sufiĉan kaŭzon, por averti vin.
 Volonte mi ĝin klarigus al vi, sed mi timas elvoki viajn ŝercojn.
@@ -5735,6 +6233,7 @@ ne, ne, mi ne volas turmenti vin senbezone.
 por plidolĉigi al via patro la trapason tra la malluma valo de l’morto.
 povus inspiri al ŝi tiajn terure, nedireble kruelajn venĝopensojn?
 sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
+Ĉapitro pri la rajtoj de la plenaĝaj gefiloj.
 Ĉar 'subpremita' estas iom malfacila vorto, mi volas klarigi la agmanieron.
 Ĉar estas neeble! li diris refoje, sed pli laŭte ol la unuan fojon.
 Ĉar estis mallume, mi sidis en mia domo, kaj ventegmeze mi aŭdis pafilpafon.
@@ -5742,6 +6241,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉar la virino daŭrigis silenti, li ordonis al siaj kunuloj, ke ili serĉu.
 Ĉar mi dezirus lerni ludi sur ĝi.
 Ĉar mi ekvidas, ke en ĉiuj-ĉi malĝojoj vi ne preĝis, vi devis morti.
+Ĉar mi scias, ke vi nur malofte povas paroli kun ŝi!
 Ĉar mi volas, ke vi sciu.
 Ĉar mia kruro rompiĝis.
 Ĉar neniu kaleŝo montriĝis tuje disponebla:
@@ -5773,6 +6273,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉe la lastaj vortoj ŝiaj palpebroj malleviĝis; en la voĉo tremis profunda humiliĝo.
 Ĉe la ronda tablo du tondiloj sonis akre kaj tirate.
 Ĉe la vitrita pordo eksonis la sonorilo, Marta eniris en la librejon.
+Ĉe mi, diris Peters.
 Ĉe mia flanko staris kesto sen kovrilo.
 Ĉe ni, pastro.
 Ĉe okaza cito de la nomo de Dio, malpiaj, ribelemaj pensoj traflugis lian kapon.
@@ -5799,6 +6300,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉi tiu ekkrio, kiu elsaltis el ŝia buŝo, estis rapida, obtuza, sed korŝiranta.
 Ĉi tiu infano devas esti baptata!?
 Ĉi tiu klaso estas la malriĉaj virinoj.
+Ĉi tiu lasta do vagis migrante dum longa, longa tempo.
 Ĉi tiu novaĵo iom malpezigis al Leonardo la koron.
 Ĉi tiu pleneco de vivo post pli atenta rigardo aperis eĉ kiel troeco.
 Ĉi tiu rigardas ŝin.
@@ -5826,18 +6328,23 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉiam rakontante kaj parolante Johano helpis al mi, sed ovojn li trovis neniujn.
 Ĉiam tio sama!
 Ĉiam vane.
+Ĉiam.
 Ĉian bezonataĵon ili alvenigas el Londono.
 Ĉiaokaze mi estas ĉi tie por prizorgi, senpartie, ke nenia perforto fariĝu.
 Ĉie kie mi ludis, mi estis aplaŭdata kiel ankoraŭ preskaŭ neniu antaŭ mi.
+Ĉie regas entuziasmo.
 Ĉielo, kie mi estas? demandis la knabo per malforta voĉo.
 Ĉio alia estis unu vasta kavego, nigra, silenta, mistera.
 Ĉio cetera kuŝas en la longfoso sub la akvo.
 Ĉio en ŝi estis juna kaj almenaŭ ŝajne serena, krom la frunto.
 Ĉio estas kvieta kaj silenta.
+Ĉio estis finita kun la vivo: mi pli ne apartenis al ĝi.
 Ĉio fariĝos bona; pripensu, ke ni faros tion pro la bono de Jafet.
+Ĉio ja estis Via laboro!
 Ĉio kion ni perdis, estis la ŝafĉasaĵo; neniu estis vundita.
 Ĉio prosperis bone laŭ mia opinio.
 Ĉio super kaj ĉirkaŭ li elspiris dolĉan pacon.
+Ĉio tio tute ne interesas nin.
 Ĉio ĉi tio estas sekvo de enmiksiĝo en spiritistaj aferoj.
 Ĉio ĉi tio kune forprenis kvaronon de ŝia havo.
 Ĉio ĉi tio ne estas mia afero.
@@ -5845,11 +6352,13 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉion bonan!
 Ĉion tion mi komprenis nur malbone, sed la klarigoj kontentigis min.
 Ĉion ĉi tion ŝi faris silente.
+Ĉion!
 Ĉirkaŭ la halo estis pordoj; sed ĉiuj estis fermitaj.
 Ĉirkaŭ tiu tempo niaj interrilatoj komencis iom streĉiĝi pro kaŭzoj, kiujn mi jam citis.
 Ĉirkaŭ ŝia belforma buŝo aperis maldolĉa rideto.
 Ĉirkaŭbrakinte kaj kisinte Delfinon, la knabino ekkriis:
 Ĉirkaŭe du guldenoj kaj duono.
+Ĉirkaŭe estis profunda silento.
 Ĉirkaŭmetu ĝin; mi helpos.
 Ĉirkaŭvojaĝi la tutan mondon pro kaj per Esperanto estis ofta revo lia.
 Ĉiu havas la rajtojn je vivo, libereco kaj persona sekureco.
@@ -5897,7 +6406,9 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉiun aperon, kiu servas kiel objekto por rakonto, oni povas trakti diversmaniere.
 Ĉiun tagon du aŭ tri personoj venas al ni kun peto pri laboro.
 Ĉiutage mi kalkulis la entranĉojn kaj mi ĝojis, kiam la lasta semajno komenciĝis.
+Ĉu Lia Moŝto, Lordo Lenisdalo estas dome?
 Ĉu Maksimo Bjelski ŝuldas al vi monon?
+Ĉu Vin vere tute ne interesas tiu ĉi afero? Aŭskultu min, ŝi volas societon!
 Ĉu al la malgranda Jadvinjo ekdoloris la pinto de la nazeto?
 Ĉu al la oficejo?
 Ĉu al vi estas malvarme?
@@ -5915,6 +6426,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu estas multaj kaprinoj en la Vilaĝo? mi demandis.
 Ĉu estas permesate, ke mi legu, kion tiu vampiro skribis?
 Ĉu estas permesite scii, kio mian karan fratinon metis hodiaŭ en tiel malgajan humoron?
+Ĉu estas tago aŭ nokto, tie, supre?
 Ĉu eĉ la viaj?
 Ĉu homo kiu nur skribas versojn?
 Ĉu iafoje boatoj ne estas perditaj ĉe via marbordo?
@@ -5933,6 +6445,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu la fremdulo estas tiel juna?
 Ĉu la fumo de niaj cigaredoj vin ĝenas?
 Ĉu la hundo min akompanus?
+Ĉu la ideo venkos?
 Ĉu la infano soifas aŭ malsatas? Eble ne, ĉar ĝi ne ploras, sed ridas.
 Ĉu la knabino ne havas manojn?
 Ĉu la kruron?
@@ -5944,6 +6457,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu la pudingo el pomoj ne sufiĉe elbakiĝis?
 Ĉu la ĉevalo povas danci!?
 Ĉu laboros? Moseo ne komprenas kiel oni povas "labori" sur tia bastono.
+Ĉu li ankaŭ eraris?
 Ĉu li atendas mian respondon?
 Ĉu li diris nenion pri mi?
 Ĉu li diris tion!!?
@@ -6009,6 +6523,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu ne estas plu lokoj disponeblaj en la tria?
 Ĉu ne hodiaŭ?
 Ĉu ne vere, vi prezentos?
+Ĉu ne? Kial Vi do aŭskultas min tiel serioze!
 Ĉu neniam la falo finiĝos?
 Ĉu ni ambaŭ ne ŝajnigas facilanimecon, dum niajn korojn premas malgajaj pensoj?
 Ĉu oni forprenos de ŝi la etulon?
@@ -6055,9 +6570,12 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi bonstatas?
 Ĉu vi bonvolas diri, kie mi estas?
 Ĉu vi deziras iom da akvo?
+Ĉu vi deziras konkuri, sinjoro?
 Ĉu vi diris ion al mi?
+Ĉu vi do estas tre malfeliĉa?
 Ĉu vi do ne povas promenadi al Hamburgo?
 Ĉu vi do povis lin kompreni?
+Ĉu vi do scias latinan?
 Ĉu vi do volas reveturi kun mi al via lando?
 Ĉu vi dormis tie? informiĝis la doktoro.
 Ĉu vi dufoje estis tie-ĉi kun ili?
@@ -6079,6 +6597,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi falis aŭ frapiĝis?
 Ĉu vi falis el la veturilo?
 Ĉu vi fartas pli bone, onklino Ida?
+Ĉu vi havas bonan stomakon?
 Ĉu vi havas dombestojn?
 Ĉu vi havas gefratojn?
 Ĉu vi havas genepojn?
@@ -6087,6 +6606,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi havis agrablan vojaĝon?
 Ĉu vi havis bonajn kunvenojn dum mia foresto?
 Ĉu vi hodiaŭ jam plu nenien iros?
+Ĉu vi iam trouzis ĝin?
 Ĉu vi interesiĝas pri lingvoj?
 Ĉu vi interesiĝas pri literaturo?
 Ĉu vi interesiĝas pri sciencoj?
@@ -6108,12 +6628,14 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi loĝas jam longe en Hago, sinjoro?
 Ĉu vi multfoje vojaĝis vagonare?
 Ĉu vi ne akceptos min en vian establon kiel kudristinon?
+Ĉu vi ne bezonas kvindek mil frankojn?
 Ĉu vi ne decidis ankoraŭ?
 Ĉu vi ne diris al mi, ke vi ŝatus iri hejmon?
 Ĉu vi ne komprenas min?
 Ĉu vi ne povas konfidi al mi, kio okazis?
 Ĉu vi ne povas, sinjoro, akcepti min kiel vian lernantinon kaj helpantinon?
 Ĉu vi ne rekonas min?demandis Ivan.
+Ĉu vi ne scias kiel fari ion?
 Ĉu vi ne scias!? Kaj via kolego?
 Ĉu vi ne scias, ke mi vin amas, kiel samgepatran, plej karan fratinon?
 Ĉu vi ne scias, kiom estas miliono?
@@ -6122,6 +6644,8 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi neniam aŭdis violonon antaŭe?
 Ĉu vi nepre devas foriri? ŝi demandis kunsenteme.
 Ĉu vi nun rakontos pri Hamburgo?
+Ĉu vi parolas angle?
+Ĉu vi parolas arabe?
 Ĉu vi parolas ruse?
 Ĉu vi pensas, ke li rifuzos? ŝi demandis kun larĝe malfermitaj okuloj.
 Ĉu vi pensas, ke vi povas havigi iom da ĝi?
@@ -6143,6 +6667,8 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi refoje legos el Robinsono? mi demandis al mia patrino.
 Ĉu vi resovaĝiĝus?
 Ĉu vi restos ĉe ni tutan monaton?
+Ĉu vi scias kio estas ĉe la fino de la letero?
+Ĉu vi scias kiom vi havos dote, kiam vi edziniĝos?
 Ĉu vi scias la muzikon?
 Ĉu vi scias, kio ĝi estas, tiu virina problemo?
 Ĉu vi scias, post kiom da tagoj nove naskitaj infanoj devas esti enskribataj?
@@ -6173,6 +6699,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi ŝatas bestojn?
 Ĉu vi ŝatas komputilojn?
 Ĉu vi ŝatas legi?
+Ĉu vi ŝatas manĝi kolombon?
 Ĉu vi ŝatas muzikon?
 Ĉu vi ŝatas sportojn?
 Ĉu vi, mia knabo?
@@ -6230,6 +6757,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĝi nur manĝis pecon da sekigita kapraĵo, kaj foriris.
 Ĝi parolas rapide kaj eksciteme, kaj ridetas ĉe ĉiu diro de la aliaj.
 Ĝi plenigis min per nedirebla ĝojo kaj dankemo.
+Ĝi pruvas nenion.
 Ĝi revenis, frapis la pordon kaj ekkriis.
 Ĝi salutis la mariston per moviĝanta vosto kaj lekis liajn manojn.
 Ĝi sidas perfekte, mia rusa amiko.
@@ -6248,6 +6776,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĝis hodiaŭ vespere.
 Ĝis la revido.
 Ĝis morgaŭ.
+Ĝis nun, mi ne amis, sinjoro, kaj tiu malgranda sumo sufiĉadis miajn simplajn gustojn.
 Ĝis revido.
 Ĝis revido; ĝis revido!
 Ĝis tiu tempo mi havis strangan ideon pri preĝo, ĉar tio okazis silente.
@@ -6266,6 +6795,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝajnas, ke Malkomo havas senliman konfidon al vi.
 Ŝajne tiuj lastaj estis senkonsciaj pri la rava beleco de la pejzaĝo ĉirkaŭ ili.
 Ŝajne tiuj travivaĵoj ankoraŭ nun plenigas lin per teruroj.
+Ŝajne ŝi dezirus pli ofte kunesti kun Vi!
 Ŝajnis al mi ke plenumiĝis la fabela miraklo.
 Ŝajnis al mi tamen, ke li vivas, ĉar li ne tute malvarmiĝis kiel mortinto.
 Ŝajnis al mi, ke lia voĉo subite ŝanĝiĝis, kvazaŭ alia persono parolus.
@@ -6311,6 +6841,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi enprofundiĝas en pensojn.
 Ŝi estas aktiva.
 Ŝi estas el Rusio.
+Ŝi estas juna kaj ŝi volas vivi!
 Ŝi estas kontenta, ĉar ŝi vidas nur la tukon.
 Ŝi estas maldika.
 Ŝi estas resanigita, mia kara infano, respondis la maljunulo, tute kaj plene resanigita.
@@ -6323,6 +6854,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi estis apenaŭ ombro de la antaŭa Marta.
 Ŝi estis aŭskultinta la lecionon de sia patro kaj tre entuziasmiĝis pro la rezultato.
 Ŝi estis en tiu momento tre bela.
+Ŝi estis iom embarasita, ĉar mi vidis, ke ŝin hejmenakompanis junulo!
 Ŝi estis longa maldika virino.
 Ŝi estis pala.
 Ŝi estis por li ĉiam ankoraŭ la dolĉa, konfidema, amema infano.
@@ -6382,6 +6914,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi ne konscias, ke oni kantas kaj ke la orgeno ludas.
 Ŝi ne kuraĝis pli enprofundiĝi en la straton, nek peti de iu klarigon.
 Ŝi ne povas uzi ĝin, doktoro.
+Ŝi ne povis decidi.
 Ŝi ne povis iri pluen.
 Ŝi ne revenos?
 Ŝi ne sciis, en kiu flanko oni devas serĉi butiketon kun manĝeblaĵoj.
@@ -6395,6 +6928,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi paliĝis, konsternite, kaj rigardis la teron preskaŭ freneze.
 Ŝi pensis pri nenio, ŝi sentis nenion.
 Ŝi perforte sin kvietigis kaj komencis trankvile paroli.
+Ŝi pli volonte estos kun Vi ol kun Belhom, tion mi scias.
 Ŝi povas, sed mi volas surprizi ŝin.
 Ŝi povis vivi!
 Ŝi preskaŭ ne povis paroli pro eksciteco kaj manko de spiro.
@@ -6437,7 +6971,9 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi tusis malpli ofte, aspektis sane kaj preskaŭ freŝe.
 Ŝi vidas plankon el gigantaj grizaj ŝtonegoj kun surskribaĵoj.
 Ŝi vokis ilin unu post la alia per la nomo, sed neniu respondis.
+Ŝi volas iun, al kiu ŝi povas rakonti la sentojn de sia pura animo!
 Ŝi volis esti instruistino, sed ho ve!
+Ŝi ĵus volis eniri en sian dompordegon, kiam mi alparolis ŝin!
 Ŝia alloga kaj, malgraŭ iom rondaj trajtoj, delikata vizaĝo aspektis malgaja.
 Ŝia aŭskulto videble estis streĉita, ŝia malpacienco estis granda.
 Ŝia aŭtomobilo ĵus alvenis por venigi vin kaj sinjoron Vincent.
@@ -6448,6 +6984,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝia koro estis tro premita, kaj ŝia kapo tro konfuzita por dormi.
 Ŝia koro konvulsie kunpremiĝis, bruo aperis en ŝia kapo.
 Ŝia letero montris sinceran kaj profundan malĝojon kaj doloran senton de soleco.
+Ŝia mano tremis en la mia, kiam mi adiaŭpremis ĝin!
 Ŝia mieno estis forpela kaj spitema.
 Ŝia moŝto ekdeziris fariĝi verkistino, aŭtorino!
 Ŝia patrino edziniĝis kun oficisto, mia edziniĝis kun metiisto.

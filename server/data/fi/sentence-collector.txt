@@ -3,6 +3,7 @@ Auton ikkunat ovat jäässä
 En puhu suomea
 En ymmärrä, voisitko toistaa
 Hakemus on toimitettava kirjallisesti
+Harakka katsoi tapahtumia viereisestä puusta
 He kävelivät koko reitin läpi
 He lähtivät kouluun yhdessä
 He viihtyivät laskettelemassa koko päivän
@@ -12,31 +13,52 @@ Hyvää iltaa
 Hyvää päivää
 Hyvää yötä
 Hän ei löytänyt oikeaa osoitetta kartalta
+Hän matkusti kauas pois
+Hän soitti hätänumeroon
+Hän tekee läksyt aina koulussa
+Hän teki kylpypaljun
+Jokainen kunnon suomalainen käy saunassa kahdesti päivässä
 Joukkueen eteneminen katkesi välieriin
 Kiitos
 Kiitos, hyvää
 Kirjoittaisitko minulle kauppalistan
+Kissa tuli pian takaisin sisälle
+Koirani ihmetteli taivaalta satavaa lunta
+Korppi lensi taidokkaasti puiden lomitse
+Koulupoliisi lensi paikalle hävittäjälentokoneella
 Kuljettaja löysi paikalle ilman vaikeuksia
 Kävisimmekö illalla saunassa
+Lassi ei ole kasvi
 Lattialla on vettä
 Linnunlaulu kuului sisälle asti
 Lippu nostettiin salkoon aamulla
 Matkustimme lomalle junalla
 Mennään uimaan
+Mies rakensi itselleen uuden saunan
+Mikko lämmitti saunaa
 Minulla on jano
 Minulla on kuuma
 Minulla on kylmä
 Minulla on nälkä
 Minä rakastan sinua
 Mitä kuuluu
+Mitä tuo rikkinäinen mikroaaltouuni tuolla tekee
+Naapuri katsoi ikkunasta ulos ja näki savun nousevan viereisestä talosta
+Nurmikolle oli ilmestynyt kuuraa
 Näkemiin
 Ole hyvä
 Olin kuumeessa koko viikon
+Paloauto tuli pian paikalle
 Palvelin suoritti laskentaa koko yön
 Puhelimeni akku tyhjeni jälleen
+Ruoka on valmis
 Satoi kaatamalla koko päivän
+Saunaa lämmittäessä kävi pieni onnettomuus
 Sytyttäisitkö alakertaan valot
+Talo syttyi tuleen
 Tervetuloa
+Tule syömään
+Tulipalo saatiin sammutettua ennen kuin se levisi viereisiin asuntoihin
 Täällä on kuuma
 Täällä on kylmä
 Uskomaton onni seurasi häntä koko päivän

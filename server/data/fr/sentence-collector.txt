@@ -5725,7 +5725,6 @@ Ce sera un choc culturel pour certains, bien sûr.
 Ce sera un maître homme.
 Ce sera un obusier, puisqu’il lancera un obus.
 Ce sera un retard, dit Ned.
-Ce sera une forte journée de marche.
 Ce serait abandonner mon poste.
 Ce serait alors un moyen de revivifier le sol par l’action des cendres.
 Ce serait avoir tort.
@@ -8827,7 +8826,6 @@ Continuez, grands, petits, jeunes, vieux!
 Continuez, major, dit Paganel.
 Continuez, mon cher Paganel.
 Continuons donc la chasse, répondit Conseil, mais en revenant vers la mer.
-Continuons donc nos recherches, » répondit Cyrus Smith.
 Continuons donc notre excursion, repris-je, mais ayons l’œil aux aguets.
 Continuons notre feu, monsieur Dick.
 Continuons à dérouler le fil de notre réponse.
@@ -11149,7 +11147,6 @@ C’était surtout un moyen de présenter Orion aux autres NoéNautes.
 C’était tellement évident.
 C’était tout bête.
 C’était tout ce qu’il fallait au jeune homme.
-C’était très bon.
 C’était un avantage indéniable, mais il aurait fallu en profiter rapidement.
 C’était un beau lot de consolation.
 C’était un contre-temps.
@@ -26716,7 +26713,6 @@ Il était plutôt satisfait de voir ses intuitions confirmées.
 Il était profondément heureux de la paix et de la propreté de la terre.
 Il était prudent, Sergio.
 Il était quasiment seul dans son wagon.
-Il était quatre heures du matin.
 Il était rare qu'ils partissent les mains vides.
 Il était rasé de près, mais ça n’était pas exceptionnel.
 Il était ravi de jouer avec l’orthographe
@@ -30739,7 +30735,6 @@ Je suis grutier.
 Je suis heureux! et toi?
 Je suis heureux aujourd'hui.
 Je suis heureux de souhaiter ici la bienvenue à Votre Excellence.
-Je suis honnête homme.
 Je suis hors de la vie, monsieur.
 Je suis hyper embrouillé.
 Je suis ici chez moi, Tom-Jim-Jack.
@@ -49783,7 +49778,6 @@ On fera un moulin
 On fera un moulin.
 On finit par aimer tout le monde.
 On fit donc halte et on organisa le campement.
-On fit halte pour déjeuner.
 On fit le signal de revenir au tender, déjà éloigné.
 On fit les dispositions pour l’appareillage.
 On fit signe qu’elle allait venir.
@@ -49865,7 +49859,6 @@ On le saurait avant une heure.
 On le savait si imprudemment audacieux!
 On le sentait tressaillir.
 On le serait à moins!
-On le serait à moins.
 On le suit par ordinateur et on n’aime pas trop les marioles.
 On le suppose fortuit ; point: il est voulu.
 On le trouva excellent.
@@ -51780,7 +51773,6 @@ Où ai-je bien pu ranger ce tournevis?
 Où allez-vous?
 Où allez-vous, les filles?
 Où c’est que tu veux trimbaler des flingues?
-Où en étais-je?
 Où en êtes-vous? cria-t-il à l’ingénieur.
 Où est donc cet interprète?
 Où est l'entrée de métro la moins loin?
@@ -56302,7 +56294,6 @@ Quel triste dramaturge que Shakespeare!
 Quel vent et quelle pluie!
 Quel vol profond dans l’air sombre!
 Quel yacht? dit Tom Austin, le yacht de Votre Honneur ?
-Quel âge avez-vous?
 Quel âge avez-vous, madame?
 Quel établissement distribuera l’argent et pourra-t-on lui faire confiance?
 Quel était cet homme
@@ -59883,7 +59874,6 @@ Si vous étiez venus, nous serions partis.
 Si vous êtes seul, c'est que vous le voulez bien.
 Si ça c'est pas de la volonté qui confine à la foi.
 Si ça continue, je n’aurai qu’à laisser couler.
-Si ça l’amuse!
 Si ça marche bien, je suppose qu’il me faudra de l’aide.
 Si ça me dérangerait.
 Si ça ne sonnait pas juste, je m’y attardais.
@@ -64004,7 +63994,6 @@ Un navire du Vineyard!
 Un navire est fait pour flotter, que diable!
 Un navire et une cargaison.
 Un navire était là
-Un navire qui se mettrait ici au plein, dit alors Pencroff, serait inévitablement perdu.
 Un navire qui vaut cinquante mille dollars, deux cent cinquante fr.!
 Un noir avec un bel officier.
 Un nom comme cela.
@@ -66249,7 +66238,6 @@ Vous avez vu cela? demanda le Canadien.
 Vous avez vu mieux que cela!
 Vous avez vu sa dernière pièce?
 Vous avez été là-bas, rue d'Anjou?
-Vous avez été soldat?
 Vous avez, à cette fille, donné un baiser et non pas un enfant.
 Vous aviez bien raison hier!
 Vous aviez de l’esprit, marquis.
@@ -72422,4 +72410,3 @@ y'en a un qui se dégage du lot.
 ’tain mais vous êtes morts ou quoi?
 “l’homme de la rue”.
 † In nomine Patris, et Filii, et Spiritus Sancti, Amen.
-† In nomine Patris, et Filii, et Spiritus Sancti.
