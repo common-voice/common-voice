@@ -14,7 +14,7 @@ let deletionSummary = {
 };
 
 const parseResults = (results, email) => {
-  const SIX_MONTHS = 6 * 30 * 24 * 60 * 60 * 1000;
+  const LAST_DATASET = config.LAST_DATASET || new Date();
   const clip_total = results.reduce((acc, curr) => acc + curr.clip_count, 0);
   const client_ids = results.map(each => each.client_id);
 
@@ -30,7 +30,7 @@ const parseResults = (results, email) => {
   if (summary.clip_total) {
     summary.first_clip = results[0].first_clip;
 
-    if (new Date() - new Date(summary.first_clip) >= SIX_MONTHS)
+    if (LAST_DATASET >= new Date(summary.first_clip))
       summary.in_past_dataset = true;
   }
 
