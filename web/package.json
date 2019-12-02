@@ -65,7 +65,7 @@
     "redux-thunk": "^2.2.0",
     "reselect": "^4.0.0",
     "style-loader": "^1.0.0",
-    "typescript": "3.6.4",
+    "typescript": "3.7.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   },
