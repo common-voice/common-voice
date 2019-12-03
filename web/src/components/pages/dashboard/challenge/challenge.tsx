@@ -135,7 +135,13 @@ function ChallengePage(props: Props & RouteComponentProps<any>) {
             <LeaderBoardCard
               title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
               showVisibleIcon
-              showOverlay={() => setShowOverlay(true)}
+              showOverlay={() => {
+                setShowOverlay(true);
+                window.scrollTo({
+                  top: 100,
+                  behavior: 'smooth',
+                });
+              }}
               service="team-progress"
             />
           </div>
