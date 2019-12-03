@@ -1,5 +1,19 @@
 FROM node:8-stretch
 
+ARG MAINTAINER="Philippe M. Chiasson <gozer@mozilla.com>"
+ARG BRANCH="master"
+ARG COMMIT="local-build"
+ARG TAG=""
+ARG REPO="local"
+
+LABEL branch=${BRANCH}
+LABEL commit=${COMMIT}
+LABEL tag=$TAG
+LABEL repo=https://github.com/${REPO}
+LABEL maintainer=${MAINTAINER}
+
+MAINTAINER ${MAINTAINER}
+
 # Allow exposing HTTP endpoint
 EXPOSE 9000
 
@@ -16,6 +30,10 @@ RUN apt-get update && \
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
     apt-get update && \
     apt-get install --no-install-recommends -y yarn ffmpeg
+
+ENV GIT_COMMIT_SHA=${COMMIT}
+ENV GIT_COMMIT_BRANCH=${BRANCH}
+ENV GIT_SLUG=${REPO}
 
 # Install yarn dependencies
 RUN yarn
