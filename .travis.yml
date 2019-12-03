@@ -6,6 +6,8 @@ node_js:
 services:
   - mysql
   - docker
+# Skip npm install
+install: true
 before_install:
   - mysql -e "SET PASSWORD FOR 'root'@'localhost' =  PASSWORD('');"
   - sudo add-apt-repository ppa:mc3man/trusty-media --yes
@@ -24,10 +26,11 @@ before_script:
 after_script:
   - docker images
 script:
-  - yarn test
   - docker build --build-arg=TAG=$TRAVIS_TAG --build-arg=REPO=$TRAVIS_REPO_SLUG --build-arg=COMMIT=$TRAVIS_COMMIT
     --build-arg=BRANCH=$TRAVIS_BRANCH --pull --cache-from "$IMAGE_NAME" --tag "$IMAGE_NAME"
     -f docker/Dockerfile .
+  - yarn
+  - yarn test
 before_deploy:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker tag $IMAGE_NAME "$IMAGE_NAME:$REVISION_TAG"
