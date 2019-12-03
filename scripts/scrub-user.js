@@ -1,5 +1,12 @@
+require('dotenv').config();
 const mysql = require('mysql');
-const config = require('../config.json');
+
+const dbConfig = {
+  host: process.env.MYSQLHOST || 'localhost',
+  user: process.env.MYSQLUSER || 'voicecommons',
+  password: process.env.MYSQLPASS || 'voicecommons',
+  database: process.env.MYSQLDBNAME || 'voiceweb',
+};
 
 const readline = require('readline').createInterface({
   input: process.stdin,
@@ -19,8 +26,8 @@ const isValidDate = dateStr => {
 };
 
 const parseResults = (results, email) => {
-  const lastDatasetDate = isValidDate(config.LAST_DATASET_DATE)
-    ? new Date(config.LAST_DATASET_DATE)
+  const lastDatasetDate = isValidDate(process.env.LAST_DATASET_DATE)
+    ? new Date(process.env.LAST_DATASET_DATE)
     : new Date();
   const clipTotal = results.reduce((acc, curr) => acc + curr.clip_count, 0);
   const clientIds = results.map(each => each.client_id);
@@ -182,15 +189,10 @@ try {
   if (process.argv.length < 3)
     throw new Error('Please enter at least one email address');
   const emails = process.argv.slice(2);
-
-  const pool = mysql.createPool({
-    host: config.MYSQLHOST,
-    user: config.MYSQLUSER,
-    password: config.MYSQLPASS,
-    database: config.MYSQLDBNAME,
-  });
+  const pool = mysql.createPool(dbConfig);
 
   pool.getConnection((err, connection) => {
+    if (err) throw err;
     emails.forEach((email, index) => {
       deleteUser(connection, email, index + 1 === emails.length);
     });
