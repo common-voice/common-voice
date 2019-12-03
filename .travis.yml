@@ -18,6 +18,7 @@ before_script:
     fi
   - echo "Branch $SAFE_BRANCH_NAME"
   - echo "Tag $TRAVIS_TAG"
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - if [ "$TRAVIS_TAG" == "" ]; then docker pull "$IMAGE_NAME:$SYMBOLIC_TAG" || true ; fi
 after_script:
   - docker images
