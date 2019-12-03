@@ -2,11 +2,31 @@ dist: trusty
 sudo: enabled
 language: node_js
 node_js:
-  - "8"
+  - '8'
 services:
   - mysql
+  - docker
 before_install:
   - mysql -e "SET PASSWORD FOR 'root'@'localhost' =  PASSWORD('');"
   - sudo add-apt-repository ppa:mc3man/trusty-media --yes
   - sudo apt-get update
   - sudo apt-get install ffmpeg gstreamer0.10-ffmpeg
+
+before_script:
+  - SAFE_BRANCH_NAME=$(echo -n $TRAVIS_BRANCH | perl -pe's/[^a-zA-Z0-9_.-]/_/g' )
+  - REVISION_TAG="$SAFE_BRANCH_NAME-$TRAVIS_COMMIT"
+  - if [ "$TRAVIS_TAG" == "" ]; then SYMBOLIC_TAG="$SAFE_BRANCH_NAME-latest"; else SYMBOLIC_TAG="$TRAVIS_TAG"; fi
+  - echo "Branch $SAFE_BRANCH_NAME"
+  - echo "Tag $TRAVIS_TAG"
+  - if [ "$TRAVIS_TAG" == "" ]; then docker pull "$IMAGE_NAME:$SYMBOLIC_TAG" || true ; fi
+after_script:
+  - docker images
+script:
+  - docker build --build-arg=TAG=$TRAVIS_TAG --build-arg=REPO=$TRAVIS_REPO_SLUG --build-arg=COMMIT=$TRAVIS_COMMIT --build-arg=BRANCH=$TRAVIS_BRANCH --pull --cache-from "$IMAGE_NAME" --tag "$IMAGE_NAME" -f docker/Dockerfile .
+
+before_deploy:
+  - docker tag $IMAGE_NAME "$IMAGE_NAME:$REVISION_TAG"
+  - docker tag $IMAGE_NAME "$IMAGE_NAME:$SYMBOLIC_TAG"
+env:
+  global:
+    - IMAGE_NAME=itsre/voice-web

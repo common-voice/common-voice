@@ -20,5 +20,8 @@ RUN apt-get update && \
 # Install yarn dependencies
 RUN yarn
 
+# Run build
+RUN yarn build
+
 # Default command to start the server
 CMD yarn start
