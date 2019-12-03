@@ -11,22 +11,32 @@ before_install:
   - sudo add-apt-repository ppa:mc3man/trusty-media --yes
   - sudo apt-get update
   - sudo apt-get install ffmpeg gstreamer0.10-ffmpeg
-
 before_script:
   - SAFE_BRANCH_NAME=$(echo -n $TRAVIS_BRANCH | perl -pe's/[^a-zA-Z0-9_.-]/_/g' )
   - REVISION_TAG="$SAFE_BRANCH_NAME-$TRAVIS_COMMIT"
-  - if [ "$TRAVIS_TAG" == "" ]; then SYMBOLIC_TAG="$SAFE_BRANCH_NAME-latest"; else SYMBOLIC_TAG="$TRAVIS_TAG"; fi
+  - if [ "$TRAVIS_TAG" == "" ]; then SYMBOLIC_TAG="$SAFE_BRANCH_NAME-latest"; else SYMBOLIC_TAG="$TRAVIS_TAG";
+    fi
   - echo "Branch $SAFE_BRANCH_NAME"
   - echo "Tag $TRAVIS_TAG"
   - if [ "$TRAVIS_TAG" == "" ]; then docker pull "$IMAGE_NAME:$SYMBOLIC_TAG" || true ; fi
 after_script:
   - docker images
 script:
-  - docker build --build-arg=TAG=$TRAVIS_TAG --build-arg=REPO=$TRAVIS_REPO_SLUG --build-arg=COMMIT=$TRAVIS_COMMIT --build-arg=BRANCH=$TRAVIS_BRANCH --pull --cache-from "$IMAGE_NAME" --tag "$IMAGE_NAME" -f docker/Dockerfile .
-
+  - docker build --build-arg=TAG=$TRAVIS_TAG --build-arg=REPO=$TRAVIS_REPO_SLUG --build-arg=COMMIT=$TRAVIS_COMMIT
+    --build-arg=BRANCH=$TRAVIS_BRANCH --pull --cache-from "$IMAGE_NAME" --tag "$IMAGE_NAME"
+    -f docker/Dockerfile .
 before_deploy:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker tag $IMAGE_NAME "$IMAGE_NAME:$REVISION_TAG"
   - docker tag $IMAGE_NAME "$IMAGE_NAME:$SYMBOLIC_TAG"
+deploy:
+  provider: script
+  on:
+    all_branches: true
+    condition: $TRAVIS_TAG != "" || $TRAVIS_BRANCH =~ ^(master|prod)$
+  script: docker push "$IMAGE_NAME:$REVISION_TAG" && docker push "$IMAGE_NAME:$SYMBOLIC_TAG"
 env:
   global:
     - IMAGE_NAME=itsre/voice-web
+    - secure: W+beMwStbsakjE0BQW9CnDrDCoT/ZJuBDDVx3zlXY66e9Is8CeIQj8jTRnpvgWoIKENdZgsDzT5uTOjqAIS9+gVcE3qYO3XkjWwYlazIBK6GqC84KVeVO1Z1n6FVHhLOel2c9jtmcurbbNAwhX6zdSRkD8gG1PirPPc/DlcZ4aC9c691abX2EV7ouTxuCUa/NVvlN1/gr350UhhkRv1Fn28BGPUeZ1CoSQl3lHdn/VIJ+8mQBwnZ96hAU1dSeTuHzGUppX9jTOtKtz628QG+/vF0DPaOGYZ4S/7wd/MVmSmQV13BGGnir3NmcxDWlVE02hypxC5LqODCtZmmG5xPNDYC5pwK5krxdrR4TiazOB+cDhKjKj4SDo1rbrPk7kbxtCz2dfQ0MCm3Jy35LiI55BXR8B+HK5nKLecHXE4/bnqAoHoVVo5klKN+QTvpWzLdtFnXLaahS5tnf8fRJaBdX5Y2TS4ptOlYdehwQayVXtXtO+K8xvzayEaCjLvkXVIHPL/CyiS+8R5UzDrkViXarULudRAXGbwu8+106QnuF/4ig3i+Ge9R0jcb7jHEsK9RB4ag209agTNJ0Rr6qtMetIAc42IvIY8HZtAO/61uy9nqRkzgjLigkoEw44opk1fPFc3m749BaKnwvWv7GorqlEU8K/U9bEp+1OobgzFUwug=
+    - secure: DrP7ThEFyeg9Az/jSkCAs1bt55zK5IGBIyphe0PYXgZ+u5uvWWZW4Dy7syAiqvwW4Wt1LazCeMOTBjwW/RzHNdBK9USFhU/Bnxv1ib6mgMnmIkf8db7KgxSw+LxUhJLsqJ0ze8ijeBIOJI43bQdYQTYNHUQ3hJaUpiLR6wA/MMZroNnNieRcW64711fjsmbQTCx1qQsh5nRn2AjF5hVbNCZ/Jl36fo1WgCc0TmyarmFZCmu6MittyVNv4vX1Edcaq2mOSGHHIYy0waVQSGtYfx3gmHoLj6fWbntjK3KeTH13Kjx5JzcyT/Fp2d8ZXdG5y8M+VsuTM/XoyxtksLSdPPo73/qJ53lZrRskhEohwM1yL+GxNksqJhzcEx5nwFti7A87G7QdViIj9Ytx+PX5x7VtzLk91B900fBy53UzwrYxo2B8MOraa6NqCqAvaDjztZluXm3M6SZQ2/fJIXTfiG5FUv7xje9tLnWwu8+PEtq7KFmuOXxQUpfA43PCFxU7dXj2vGK9mINb8NdUMg7PIX/Fvvut1+9wnTb2vrwWpMbR+ilOBLLuBlTitOfxne00j4GeDRZ7yWnjOrS1L02TkDsBrbmavcrKs1yYXiFAHuhtEdxDiVNJZrgAr1TNdpJh0FMXEOacffyS4RW3aSFfQLSm6vrnTrppuYme/MnGY2I=
