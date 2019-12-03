@@ -24,6 +24,7 @@ before_script:
 after_script:
   - docker images
 script:
+  - yarn test
   - docker build --build-arg=TAG=$TRAVIS_TAG --build-arg=REPO=$TRAVIS_REPO_SLUG --build-arg=COMMIT=$TRAVIS_COMMIT
     --build-arg=BRANCH=$TRAVIS_BRANCH --pull --cache-from "$IMAGE_NAME" --tag "$IMAGE_NAME"
     -f docker/Dockerfile .
