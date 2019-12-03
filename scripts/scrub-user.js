@@ -7,64 +7,72 @@ const readline = require('readline').createInterface({
 });
 
 let safeToDelete = true;
-let deletionSummary = {
+const deletionSummary = {
   emails: [],
-  s3_ids: [],
-  dataset_ids: [],
+  s3Ids: [],
+  datasetIds: [],
+};
+
+const isValidDate = dateStr => {
+  const dateObj = new Date(dateStr);
+  return dateObj instanceof Date && !isNaN(dateObj.getTime());
 };
 
 const parseResults = (results, email) => {
-  const LAST_DATASET = config.LAST_DATASET || new Date();
-  const clip_total = results.reduce((acc, curr) => acc + curr.clip_count, 0);
-  const client_ids = results.map(each => each.client_id);
+  const lastDatasetDate = isValidDate(config.LAST_DATASET_DATE)
+    ? new Date(config.LAST_DATASET_DATE)
+    : new Date();
+  const clipTotal = results.reduce((acc, curr) => acc + curr.clip_count, 0);
+  const clientIds = results.map(each => each.client_id);
 
   const summary = {
-    email: email,
+    email,
     length: results.length,
-    ids: client_ids,
-    clip_total: clip_total,
-    first_clip: null,
-    in_past_dataset: false,
+    ids: clientIds,
+    clipTotal: clipTotal,
+    firstClip: results[0] ? results[0].first_clip : null,
+    inPastDataset: results[0] && lastDatasetDate >= results[0].first_clip,
   };
-
-  if (summary.clip_total) {
-    summary.first_clip = results[0].first_clip;
-
-    if (LAST_DATASET >= new Date(summary.first_clip))
-      summary.in_past_dataset = true;
-  }
 
   return summary;
 };
 
-const processIteration = last => {
+const readlineLoop = (prompt, options) => {
+  readline.question(prompt, answer => {
+    const callback = options[answer.toLowerCase()];
+    if (callback) callback();
+    else readlineLoop(prompt, options);
+  });
+};
+
+const processIteration = isLast => {
   console.log(`=======================================`);
   safeToDelete = true;
 
-  if (last) {
-    printSummary(deletionSummary);
+  if (isLast) {
+    printSummary();
     readline.close();
     process.exit(1);
   }
 };
 
-const printSummary = summary => {
+const printSummary = () => {
   console.log('Deletion summary: \n');
   if (deletionSummary.emails.length)
     console.log(
       `Removed user information related to ${deletionSummary.emails.join(', ')}`
     );
 
-  if (deletionSummary.s3_ids.length)
+  if (deletionSummary.s3Ids.length)
     console.log(
-      `Please manually remove the following folders from S3: ${deletionSummary.s3_ids.join(
+      `Please manually remove the following folders from S3: ${deletionSummary.s3Ids.join(
         ', '
       )}.`
     );
 
-  if (deletionSummary.dataset_ids.length)
+  if (deletionSummary.datasetIds.length)
     console.log(
-      `The following client_ids were included in a past dataset: ${deletionSummary.dataset_ids.join(
+      `The following client_ids were included in a past dataset: ${deletionSummary.datasetIds.join(
         ', '
       )}.`
     );
@@ -74,8 +82,8 @@ const printUserStats = stats => {
   console.log(`
     Email: ${stats.email}
     Associated client_ids: ${stats.length}
-    Total clips contributed: ${stats.clip_total}
-    First contribution: ${stats.first_clip}
+    Total clips contributed: ${stats.clipTotal}
+    First contribution: ${stats.firstClip}
     `);
 };
 
@@ -87,10 +95,10 @@ const deleteClipRecords = (connection, userStats, isLast) => {
       if (clip_error) throw clip_error;
 
       if (clip_results.affectedRows) {
-        deletionSummary.s3_ids = deletionSummary.s3_ids.concat(userStats.ids);
+        deletionSummary.s3Ids = deletionSummary.s3Ids.concat(userStats.ids);
 
         if (userStats.in_past_dataset)
-          deletionSummary.dataset_ids = deletionSummary.dataset_ids.concat(
+          deletionSummary.datasetIds = deletionSummary.datasetIds.concat(
             userStats.ids
           );
 
@@ -112,13 +120,12 @@ const deleteUserRecords = (connection, userStats, isLast) => {
 
       deletionSummary.emails.push(userStats.email);
 
-      if (userStats.clip_total) {
-        readline.question(
+      if (userStats.clipTotal) {
+        readlineLoop(
           `\nWould you also like to delete the ${userStats.clip_total} associated clips? \nThis CANNOT be reversed [Y/N] `,
-          answer => {
-            if (answer.toLowerCase() === 'y')
-              deleteClipRecords(connection, userStats, isLast);
-            else processIteration(isLast);
+          {
+            y: () => deleteClipRecords(connection, userStats, isLast),
+            n: () => processIteration(isLast),
           }
         );
       } else {
@@ -149,12 +156,11 @@ const deleteUser = (connection, email, isLast) => {
         if (userStats.length) {
           printUserStats(userStats);
 
-          readline.question(
+          readlineLoop(
             `Are you sure you want to delete all data associated with ${clean_email}? \nThis CANNOT be reversed [Y/N] `,
-            answer => {
-              if (answer.toLowerCase() === 'y')
-                deleteUserRecords(connection, userStats, isLast);
-              else processIteration(isLast);
+            {
+              y: () => deleteUserRecords(connection, userStats, isLast),
+              n: () => processIteration(isLast),
             }
           );
         } else {
@@ -185,7 +191,7 @@ try {
   });
 
   pool.getConnection((err, connection) => {
-    emails.map((email, index) => {
+    emails.forEach((email, index) => {
       deleteUser(connection, email, index + 1 === emails.length);
     });
   });
