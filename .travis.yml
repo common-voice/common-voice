@@ -35,6 +35,7 @@ before_deploy:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker tag $IMAGE_NAME "$IMAGE_NAME:$REVISION_TAG"
   - docker tag $IMAGE_NAME "$IMAGE_NAME:$SYMBOLIC_TAG"
+  - git diff
 deploy:
   provider: script
   on:
