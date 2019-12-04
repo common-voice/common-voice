@@ -1,4 +1,10 @@
 export const ACCENTS: any = {
+  br: {
+    gwenedeg: 'Gwenedeg',
+    kerneveg: 'Kerneveg',
+    leoneg: 'Leoneg',
+    tregerieg: 'Tregerieg',
+  },
   ca: {
     balearic: 'balear',
     central: 'central',
