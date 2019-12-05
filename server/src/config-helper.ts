@@ -29,6 +29,7 @@ export type CommonVoiceConfig = {
   REDIS_URL: string;
   KIBANA_URL: string;
   KIBANA_ADMINS: string;
+  LAST_DATASET: string;
 };
 
 const DEFAULTS: CommonVoiceConfig = {
@@ -61,6 +62,7 @@ const DEFAULTS: CommonVoiceConfig = {
   REDIS_URL: null,
   KIBANA_URL: null,
   KIBANA_ADMINS: null,
+  LAST_DATASET: '2019-06-12',
 };
 
 let injectedConfig: CommonVoiceConfig;
