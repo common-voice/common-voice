@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Lähetä
 loading = Ladataan…
 email-opt-in-info = Haluan vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseeni sekä Common Voice -uutiskirjeitä.
+email-opt-in-info-title = Liity Common Voicen postituslistalle
+email-opt-in-info-sub-with-challenge = Haluan vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseeni sekä Common Voice -uutiskirjeitä.
 email-opt-in-privacy = Tilaamalla uutiskirjeen hyväksyt Mozillan käsittelevän tätä tietoa Mozillan <privacyLink>tietosuojakäytännössä<privacyLink> kuvatulla tavalla.
 indicates-required = * Pakollinen kenttä
 not-available-abbreviation = N/A
@@ -87,6 +89,7 @@ mk = Makedonia
 ml = Malajalam
 mn = Mongoli
 mrj = vuorimari
+mt = malta
 myv = Ersä
 nb-NO = Norjan bokmål
 ne-NP = Nepali
@@ -95,7 +98,7 @@ nn-NO = Norjan nynorsk
 oc = Oksitaani
 or = Orija
 pl = Puola
-pt-BR = Brasilianportugali
+pt = portugali
 rm-sursilv = Sursilvan retoromaani
 rm-vallader = Retoromaani (Vallader)
 ro = Romania
@@ -109,6 +112,7 @@ sl = Sloveeni
 sq = Albania
 sr = Serbia
 sv-SE = Ruotsi
+sw = Swahili
 syr = Syyria
 ta = Tamili
 te = Telugu
@@ -198,9 +202,9 @@ x-years-short =
        *[other] { $count } v
     }
 help-make-dataset = Auta meitä keräämään korkealaatuinen ja avoin aineisto
-profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
 sign-up-account = Rekisteröidy palvelun käyttäjäksi
 email-subscription-title = tilaa sähköpostipäivitykset
+email-subscription-title-new = Tilaa Common Voice -uutiskirje, tavoitemuistutukset ja edistymispäivitykset
 
 ## Account Benefits
 
@@ -305,6 +309,7 @@ thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
 why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja murre, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
+accept-privacy-title = Yksityisyyskäytäntö
 login-identity = Käyttäjätunnus
 login-signup = Kirjaudu / Rekisteröidy
 edit = Muokkaa
@@ -316,8 +321,21 @@ skip-submission-description = Palautteen antaminen Lähetä-painikkeen painamise
 skip-submission-note = Huomaa: Sinun täytyy silti valita Puhu tai Kuuntele vaihtaaksesi osallistumisen tapaa.
 off = Pois päältä
 on = Päällä
-add-avatar-title = Lisää profiilikuva
-add-avatar-clip = Lisää kuvake profiiliisi.
+avatar-clip-title = Anna avatarillesi ääni
+change-your-avatar-clip = Haluatko vaihtaa äänen?
+recording-in-progress = Äänen tallennus käynnissä
+avatar-clip-recorded = Avatarillasi on nyt ääni!
+record-voice-wave = ÄÄNITÄ
+retry-voice-wave-recording = YRITÄ UUDELLEEN
+re-record = NAUHOITA UUDELLEEN
+delete-voice = POISTA
+recording-voice-wave = Nauhoitus
+delete-voice-clip = tai poista ääniklippi
+ready-to-upload = LATAA
+avatar-clip-fact = On vakiintunut tieto, että lukija häiriintyy sivun luettavasta sisällöstä tarkastellessaan sen asettelua.
+recreate-voice = Luo äänitys uudelleen
+cancel-avatar-clip-recording = PERUUTA
+about-avatar-clip-recording = Lisää ääniklippi profiilikuvaasi. Muut voivat kuunnella klipin siirtämällä kursorin sen päälle.
 browse-file-title = Lataa kuvatiedosto
 browse-file = Vedä ja pudota tai <browseWrap>Selaa</BrowseWrap>
 connect-gravatar = Yhdistä Gravatariin
@@ -344,8 +362,8 @@ faq-why-important-a =
     Tehdäksemme puheentunnistuksesta vieläkin yleisempää, keräämme ääninäytteitä yleisimmin puhuttujen kielien lisäksi vähiten puhutuista, joihin usein ei ole saatavilla kaupallisia puheentunnistuspalveluja. Julkaisemalla monipuolisen ääniaineiston annamme kehittäjille, yrittäjille ja kokonaisille puheyhteisöille mahdollisuuden käsitellä kielten välistä kuilua itse.
 faq-how-get-q = Miten voin saada Common Voice -aineistot?
 faq-how-get-a = Common Voice -aineisto on ladattavissa <licenseLink>CC0</LicenseLink>-lisenssillä <datasetLink>aineistot-sivultamme</datasetLink>. Voit myös ladata useita muita avoimia aineistoja samalta sivulta.
-faq-when-release-q = Koska julkaisette Common Voice -aineistot muilla kielillä?
-faq-when-release-a = Yhteisö rakentaa ja siivoaa Common Voice -aineiston monikielistä versiota parhaillaan. Jos haluat saada lisätietoa projektin tukemisesta, <contactLink>ota yhteyttä meihin</contactLink>. Tavoittelemme tällä hetkellä julkaisuajankohdaksi tammikuuta 2019. Sen jälkeen päivitämme aineistoa määräajoin uusilla kielillä ja ääninäytteillä sitä mukaa kun ne ovat saatavilla. Iteratiivisten julkaisujen tahti on vielä päättämättä.
+faq-when-release2-q = Koska julkaisette Common Voice -aineistot muilla kielillä?
+faq-when-release2-a = Common Voice -aineiston monikielisessä versiossa tehdään parhaillaan yhteisön tukemaa niputtamista ja puhdistamista. Jos haluat auttaa meitä tuomaan Common Voice -sovelluksen uusille kielille, tarkista <sentenceCollectorLink>Lauseiden keräämistyökalu</sentenceCollectorLink> uusien lauseiden lisäämiseksi tietojoukkoon, ja Mozilla <pontoonLink>Pontoon</pontoonLink> verkkosivun kääntämiseen. Uusia kieliä lisätään Common Voice äänitukeen, kun 5000 hyväksyttyä lausetta on kerätty.
 faq-why-mission-q = Miksi Common Voice on osa Mozillan tehtävää?
 faq-why-mission-a = Mozilla on sitoutunut säilyttämään Internetin avoimena ja kaikkien käytettävissä. Tehdäksemme sen meidän täytyy tukea kehittäjiä Common Voicen kaltaisilla projekteilla. Puheteknologioiden käytön yleistyessä me uskomme, että niiden täytyy palvella kaikkia käyttäjiä tasavertaisesti. Tämän vuoksi meidän on panostettava puheteknologioita kehitettäessä ja testattaessa lisää kieliin sekä murteisiin. Common Voice on kaikille avoin resurssi, jota myös Mozillan omat tiimit ja kehittäjät ympäri maailmaa käyttävät omissa projekteissamme.
 faq-what-cv-and-deepspeech-q = Mitä eroa on Common Voice ja Deep Speech -projekteilla?
@@ -569,7 +587,6 @@ language-section-launched = Julkistettu
 language-section-launched-description = Verkkosivusto on onnistuneesti <localizationGlossaryLink>lokalisoitu</localizationGlossaryLink> näille kielille, ja <sentenceCollectionGlossaryLink>kerättyjä lauseita</sentenceCollectionGlossaryLink> on tarpeeksi <speakLink>nauhoituksen</speakLink> ja <listenLink>kuuntelun</listenLink> mahdollistamiseksi.
 languages-show-more = Lisää
 languages-show-less = Vähemmän
-language-speakers = Puhujat
 language-meter-in-progress = Edistys
 language-total-progress = Yhteensä
 language-search-input =
@@ -579,7 +596,7 @@ localized = Lokalisoitu
 sentences = Lauseet
 total-hours = Tarkastetut tunnit
 
-## New Contribution
+## Contribution
 
 action-click = Klikkaa
 action-tap = Napauta
@@ -627,6 +644,8 @@ listen-last-time-instruction = <playIcon></playIcon> Viimeinen!
 nothing-to-validate = Meillä ei ole tarkistettavia näytteitä tälle kielelle, auta meitä täyttämään jono.
 record-button-label = Tallenna äänesi
 share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
+keep-track-profile = Seuraa edistymistäsi profiilin avulla
+login-to-get-started = Kirjaudu tai rekisteröidy aloittaaksesi
 
 ## Reporting
 
@@ -677,6 +696,7 @@ clips-you-validated = Tarkastamiasi näytteitä
 todays-recorded-progress = Tämän päivän edistyminen tallennettuja näytteitä
 todays-validated-progress = Tämän päivän edistyminen tarkastettuja näytteitä
 stats = Tilastot
+awards = Palkinnot
 you = Sinä
 everyone = Kaikki
 contribution-activity = Aktiivisuus
@@ -685,6 +705,10 @@ recorded-clips = Äänitettyjä näytteitä
 validated-clips = Tarkastettuja näytteitä
 total-approved = Hyväksytty yhteensä
 overall-accuracy = Tarkkuus yhteensä
+set-visibility = Aseta näkyvyys
+
+## Custom Goals
+
 
 ## Profile Delete
 
