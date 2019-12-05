@@ -28,10 +28,12 @@ af = Afrikaans
 am = amhara
 an = Aragonia
 ar = Arabia
+arn = mapudungun
 as = Assami
 ast = Astuaria
 az = Azeri
 ba = Bashkiirit
+be = valkovenäjä
 bg = Bulgaria
 bn = Bengali
 br = Bretoni
@@ -84,6 +86,7 @@ lij = Liguuri
 lt = liettua
 lv = latvia
 mdf = Mokša
+mg = malagassi
 mhr = niittymari
 mk = Makedonia
 ml = Malajalam
@@ -97,6 +100,7 @@ nl = Hollanti
 nn-NO = Norjan nynorsk
 oc = Oksitaani
 or = Orija
+pa-IN = punjabi
 pl = Puola
 pt = portugali
 rm-sursilv = Sursilvan retoromaani
@@ -706,9 +710,57 @@ validated-clips = Tarkastettuja näytteitä
 total-approved = Hyväksytty yhteensä
 overall-accuracy = Tarkkuus yhteensä
 set-visibility = Aseta näkyvyys
+visibility-explainer = Tämä asetus ohjaa tulostaulun näkyvyyttä. Jos piilotat sen, edistymisesi on yksityistä. Tämä tarkoittaa, että kuvasi, käyttäjänimesi ja edistymisesi eivät näy tulostaululla. Huomaa, että tulostaulun päivitys vie ~ { $minutes } minuuttia muutosten täyttämiseen.
+visibility-overlay-note = Huomaa: Kun asetuksesi on "Näkyvä", tätä asetusta voidaan muuttaa <profileLink>profiilisivulta</profileLink>
+show-ranking = Näytä sijoitukseni
 
 ## Custom Goals
 
+get-started-goals = Aloita tavoitteiden kanssa
+create-custom-goal = Luo mukautettu tavoite
+both-speak-and-listen = Kummatkin
+both-speak-and-listen-long = Molemmat (puhuminen ja kuunteleminen)
+daily-goal = Päivittäinen tavoite
+weekly-goal = Viikottainen tavoite
+easy-difficulty = Helppo
+average-difficulty = Keskitaso
+difficult-difficulty = Vaikea
+pro-difficulty = Ammattilaistaso
+lose-goal-progress-warning = Tavoitettasi muokkaamalla saatat menettää nykyisen edistymisen.
+want-to-continue = Haluatko jatkaa?
+finish-editing = Viimeistelläänkö muokkaaminen ensin?
+lose-changes-warning = Nyt poistumalla muutokset katoavat
+build-custom-goal = Rakenna mukautettu tavoite
+help-reach-hours = Auta kasvattamaan { $language } { NUMBER($hours) } tuntiin omalla tavoitteella
+help-reach-hours-general = Auta Common Voice { NUMBER($hours) } tuntiin kielessä omalla tavoitteella
+set-a-goal = Aseta tavoite
+cant-decide = Vaikeuksia päättää?
+activity-needed-calculation =
+    { NUMBER($totalHours) } tuntia voidaan saavuttaa hiukan yli { NUMBER($periodMonths) }
+    kuukaudessa jos { NUMBER($people) } ihmistä nauhottaa { NUMBER($clipsPerDay) } klippiä päivässä.
+how-many-per-day = Hienoa! Kuinka monta näytettä päivittäin?
+how-many-a-week = Hienoa! Kuinka monta näytettä viikottain?
+which-goal-type = Haluatko puhua, kuunnella vai tehdä molempia?
+receiving-emails-info = Olet valinnut, että haluat vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseesi sekä Common Voice -uutiskirjeitä.
+not-receiving-emails-info = Olet valinnut, että <bold>ET</bold> halua vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseesi sekä Common Voice -uutiskirjeitä.
+n-clips = { NUMBER($count) } klippiä
+help-share-goal = Auta meitä löytämään enemmän ääniä, jaa tavoitteesi
+confirm-goal = Vahvista tavoite
+goal-interval-weekly = Viikoittainen
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Jaa { $count } näytteen { $type }-päivätavoitteesi
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Jaa { $count } näytteen { $type }-viikkotavoitteesi
+share-goal-type-speak = Puhuminen
+share-goal-type-listen = Kuunteleminen
+share-goal-type-both = Puhuminen ja kuunteleminen
+# LINK will be replaced with the current URL
+goal-share-text = Loin juuri oman tavoitteeni äänen lahjoitukselle #CommonVoice -sivustolle -- liity mukaan ja auta koneita ymmärtämään oikeiden ihmisten puhetta { $link }
+weekly-goal-created = Viikottainen tavoitteesi on luotu
+daily-goal-created = Päivittäinen tavoitteesi on luotu
+track-progress = Seuraa edistymistä täällä sekä tilastosivullasi.
+return-to-edit-goal = Palaa tänne muokataksesi tavoitettasi milloin tahansa.
+share-goal = Jaa tavoitteeni
 
 ## Profile Delete
 
