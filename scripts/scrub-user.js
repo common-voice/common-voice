@@ -1,5 +1,6 @@
 require('dotenv').config();
 const mysql = require('mysql');
+const { promisify } = require('util');
 
 const dbConfig = {
   host: process.env.MYSQLHOST || 'localhost',
@@ -8,16 +9,21 @@ const dbConfig = {
   database: process.env.MYSQLDBNAME || 'voiceweb',
 };
 
+const deletionSummary = {
+  emails: [],
+  s3Ids: [],
+  datasetIds: [],
+};
+
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout,
 });
 
-let safeToDelete = true;
-const deletionSummary = {
-  emails: [],
-  s3Ids: [],
-  datasetIds: [],
+const promptAsync = question => {
+  return new Promise(resolve => {
+    readline.question(question, resolve);
+  });
 };
 
 const isValidDate = dateStr => {
@@ -29,32 +35,27 @@ const parseResults = (results, email) => {
   const lastDatasetDate = isValidDate(process.env.LAST_DATASET_DATE)
     ? new Date(process.env.LAST_DATASET_DATE)
     : new Date();
-  const clipTotal = results.reduce((acc, curr) => acc + curr.clip_count, 0);
-  const clientIds = results.map(each => each.client_id);
 
-  const summary = {
+  return {
     email,
     length: results.length,
-    ids: clientIds,
-    clipTotal: clipTotal,
+    ids: results.map(each => each.client_id),
+    clipTotal: results.reduce((acc, curr) => acc + curr.clip_count, 0),
     firstClip: results[0] ? results[0].first_clip : null,
     inPastDataset: results[0] && lastDatasetDate >= results[0].first_clip,
   };
-
-  return summary;
 };
 
-const readlineLoop = (prompt, options) => {
-  readline.question(prompt, answer => {
-    const callback = options[answer.toLowerCase()];
-    if (callback) callback();
-    else readlineLoop(prompt, options);
-  });
+const readlineLoop = async (prompt, options) => {
+  const answer = await promptAsync(prompt);
+  const callback = options[answer.toLowerCase()];
+
+  if (callback) await callback();
+  else await readlineLoop(prompt, options);
 };
 
 const processIteration = isLast => {
   console.log(`=======================================`);
-  safeToDelete = true;
 
   if (isLast) {
     printSummary();
@@ -87,115 +88,113 @@ const printSummary = () => {
 
 const printUserStats = stats => {
   console.log(`
-    Email: ${stats.email}
-    Associated client_ids: ${stats.length}
-    Total clips contributed: ${stats.clipTotal}
-    First contribution: ${stats.firstClip}
-    `);
+Email: ${stats.email}
+Associated client_ids: ${stats.length}
+Total clips contributed: ${stats.clipTotal}
+First contribution: ${stats.firstClip}
+  `);
 };
 
-const deleteClipRecords = (connection, userStats, isLast) => {
+const deleteClipRecords = async (connectAsync, userStats, isLast) => {
   const idStrings = userStats.ids.map(id => `"${id}"`);
-  connection.query(
-    `DELETE FROM clips WHERE client_id IN (${idStrings})`,
-    (clip_error, clip_results, clip_fields) => {
-      if (clip_error) throw clip_error;
+  try {
+    const results = await connectAsync(
+      `DELETE FROM clips WHERE client_id IN (${idStrings})`
+    );
 
-      if (clip_results.affectedRows) {
-        deletionSummary.s3Ids = deletionSummary.s3Ids.concat(userStats.ids);
+    if (results.affectedRows) {
+      deletionSummary.s3Ids.push(...userStats.ids);
 
-        if (userStats.in_past_dataset)
-          deletionSummary.datasetIds = deletionSummary.datasetIds.concat(
-            userStats.ids
-          );
+      if (userStats.in_past_dataset)
+        deletionSummary.datasetIds.push(...userStats.ids);
 
-        console.log(
-          `Records for ${clip_results.affectedRows} clips were deleted.\n`
-        );
-      }
+      console.log(`Records for ${results.affectedRows} clips were deleted.\n`);
+    }
 
+    processIteration(isLast);
+  } catch (error) {
+    throw error;
+  }
+};
+
+const deleteUserRecords = async (connectAsync, userStats, isLast) => {
+  try {
+    const results = await connectAsync(
+      `DELETE FROM user_clients WHERE email = ${userStats.email}`
+    );
+
+    deletionSummary.emails.push(userStats.email);
+
+    if (userStats.clipTotal) {
+      await readlineLoop(
+        `\nWould you also like to delete the ${userStats.clipTotal} associated clips? \nThis CANNOT be reversed [Y/N] `,
+        {
+          y: async () =>
+            await deleteClipRecords(connectAsync, userStats, isLast),
+          n: () => processIteration(isLast),
+        }
+      );
+    } else {
       processIteration(isLast);
     }
-  );
+  } catch (error) {
+    throw error;
+  }
 };
 
-const deleteUserRecords = (connection, userStats, isLast) => {
-  connection.query(
-    `DELETE FROM user_clients WHERE email = ${userStats.email}`,
-    (delete_error, delete_results, delete_fields) => {
-      if (delete_error) throw delete_error;
-
-      deletionSummary.emails.push(userStats.email);
-
-      if (userStats.clipTotal) {
-        readlineLoop(
-          `\nWould you also like to delete the ${userStats.clip_total} associated clips? \nThis CANNOT be reversed [Y/N] `,
-          {
-            y: () => deleteClipRecords(connection, userStats, isLast),
-            n: () => processIteration(isLast),
-          }
-        );
-      } else {
-        processIteration(isLast);
-      }
-    }
-  );
-};
-
-const deleteUser = (connection, email, isLast) => {
-  if (safeToDelete) {
-    safeToDelete = false;
-    const clean_email = connection.escape(email);
-
-    connection.query(
+const deleteUser = async (connectAsync, email, isLast) => {
+  try {
+    const results = await connectAsync(
       `
         SELECT email, u.client_id, COUNT(c.id) clip_count, c.created_at first_clip
         FROM user_clients u
         LEFT JOIN clips c ON u.client_id = c.client_id
-        WHERE email = ${clean_email}
+        WHERE email = ${email}
         GROUP BY u.client_id
         ORDER BY c.created_at ASC;
-      `,
-      (error, results, fields) => {
-        if (error) throw error;
-        const userStats = parseResults(results, clean_email);
-
-        if (userStats.length) {
-          printUserStats(userStats);
-
-          readlineLoop(
-            `Are you sure you want to delete all data associated with ${clean_email}? \nThis CANNOT be reversed [Y/N] `,
-            {
-              y: () => deleteUserRecords(connection, userStats, isLast),
-              n: () => processIteration(isLast),
-            }
-          );
-        } else {
-          console.log(
-            `There are no user accounts associated with the email address ${clean_email}.`
-          );
-          processIteration(isLast);
-        }
-      }
+      `
     );
-  } else {
-    setTimeout(() => {
-      deleteUser(connection, email, isLast);
-    }, 200);
+
+    const userStats = parseResults(results, email);
+
+    if (userStats.length) {
+      printUserStats(userStats);
+
+      await readlineLoop(
+        `Are you sure you want to delete all data associated with ${email}? \nThis CANNOT be reversed [Y/N] `,
+        {
+          y: async () =>
+            await deleteUserRecords(connectAsync, userStats, isLast),
+          n: () => processIteration(isLast),
+        }
+      );
+    } else {
+      console.log(
+        `There are no user accounts associated with the email address ${email}.`
+      );
+      processIteration(isLast);
+    }
+  } catch (error) {
+    throw error;
   }
 };
 
 try {
   if (process.argv.length < 3)
     throw new Error('Please enter at least one email address');
+
   const emails = process.argv.slice(2);
   const pool = mysql.createPool(dbConfig);
 
-  pool.getConnection((err, connection) => {
+  pool.getConnection(async (err, connection) => {
     if (err) throw err;
-    emails.forEach((email, index) => {
-      deleteUser(connection, email, index + 1 === emails.length);
-    });
+    const connectAsync = promisify(connection.query).bind(connection);
+
+    for (const [index, email] of emails.entries()) {
+      const clean_email = connection.escape(email);
+
+      await deleteUser(connectAsync, clean_email, index + 1 === emails.length);
+    }
   });
 } catch (e) {
   console.error(e.message);
