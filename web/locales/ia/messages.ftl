@@ -298,7 +298,7 @@ male = Masculin
 female = Feminin
 # Gender
 other = Altere
-why-profile-title = Perque un profilo?
+why-profile-title = Proque un profilo?
 why-profile-text = Si tu forni alcun informationes sur te, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
 dashboard = Tabuliero
 build-profile = Crear le profilo
@@ -356,7 +356,7 @@ change-email-setings = Cambia tu email via Configurationes sub Identitate de con
 faq-title = Folio a questiones
 faq-what-cv-q = Que es Common Voice?
 faq-what-cv-a = Le technologia de recognition de voce revolutiona nostre maniera de interager con machinas, ma le systemas actualmente disponibile es costose e proprietari. Common Voice face parte del initiativa de Mozilla pro render melior e plus accessibile a totes le technologias de recognition de voce. Common Voice es un enorme base de datos global de voces donate, que permitte a omnes de trainar rapide- e facilemente le applicationes activate per voce, potentialmente in omne lingua.
-faq-why-important-q = Perque es illo importante?
+faq-why-important-q = Proque es importante?
 faq-why-important-a =
     Parlar es sovente nostre maniera de communication le plus natural. Le technologias vocal apporta ille conforto a nostre computatores e apparatos mobile. Nos vole habilitar le disveloppatores a construer excellente applicationes de recognition de voce, como traductores in tempore real e assistentes digital activate per voce. Ma actualmente le major parte del datos vocal requirite pro construer iste typos de applicationes es costose e proprietari. Nos spera que le collection de datos de Common Voice permittera al disveloppatores de innovar e render disponibile le technologia vocal in lor proprie lingua.
     
@@ -365,7 +365,7 @@ faq-how-get-q = Como pote io obtener le datos de Common Voice?
 faq-how-get-a = Le collection de datos de Common Voice es disponibile pro discargamento sub le licentia <licenseLink>CC0</licenseLink> sur <datasetLink>nostre pagina del collectiones de datos</datasetLink>. Tu pote alsi discargar ab le mesme pagina plure altere collectiones de datos publicamente disponibile.
 faq-when-release2-q = Quando vos publicara datos de Common Voice in altere linguas?
 faq-when-release2-a = Le version multilingue del collection de datos de Common Voice es actualmente submittite a un processo communitari de regruppamento e nettation. Si tu volerea adjutar nos a apportar nove linguas a Common Voice, jecta un oculo sur <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> pro adder nove phrases al collection de datos, e sur Mozilla <pontoonLink>Pontoon</pontoonLink> pro traducer le sito web mesme. Nove linguas se adde a Common Voice pro le contribution de voces quando ha essite colligite 5000 phrases approbate.
-faq-why-mission-q = Perque Common Voice es parte del mission de Mozilla?
+faq-why-mission-q = Proque face Common Voice parte del mission de Mozilla?
 faq-why-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile pro omnes. Isto necessita adjutar le autores web con projectos como Common Voice. Nos crede que le proliferation del technologias de voce debe beneficiar tote le usatores equalmente. Isto require que nos augmenta le numero de linguas e include diverse accentos e ethnicitates durante le construction e test de technologias vocal. Common Voice es un ressource public disponibile a totes. Le equipas e le disveloppatores de Mozilla in tote le mundo lo usa jam sur le proprie projectos.
 faq-what-cv-and-deepspeech-q = Qual es le differentia inter Common Voice e Deep Speech?
 faq-what-cv-and-deepspeech-a = Le collection de datos de Common Voice completa le motor de recognition del voce open-source de Mozilla: Deep Speech. Le prime version de Deep Speech ha essite publicate in novembre 2017 e pois illo ha continuate sempre a evolver se. Insimul con le collection de datos de Common Voice, nos fide que iste technologia de recognition del voce open-source deberea esser disponibile a totes. Nos spera que iste technologias activara le disveloppatores a crear un unda de productos e servicios innovative.
