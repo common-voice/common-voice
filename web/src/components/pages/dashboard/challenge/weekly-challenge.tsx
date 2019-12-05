@@ -3,7 +3,7 @@ import WeeklyChallengeBoard from './weekly-challenge-board';
 import { WeeklyChallenge } from 'common/challenge';
 import { useAccount, useNotifications } from '../../../../hooks/store-hooks';
 import NotificationPill from '../../../notification-pill/notification-pill';
-import { weeklyChallengeCopy } from './constants';
+import { FINAL_CHALLENGE_WEEK, weeklyChallengeCopy } from './constants';
 import { ChevronDown } from '../../../ui/icons';
 import './weekly-challenge.css';
 
@@ -75,7 +75,7 @@ export default function WeeklyChallenge({
             Show All Challenges <ChevronDown />
           </p>
         </div>
-        {pastWeek.length !== weeklyChallengeCopy.length - 1 && (
+        {currentWeek < FINAL_CHALLENGE_WEEK && (
           <div>
             <p className="weekly-title">Next challenge</p>
             {weekly && (
@@ -84,21 +84,21 @@ export default function WeeklyChallenge({
                 week={currentWeek + 1}
                 individualAvatarUrl={account.avatar_url}
                 teamToken={account.enrollment.team}
-                weekly={weekly}
               />
             )}
           </div>
         )}
         <div>
-          <p className="weekly-title">{label} challenge</p>
-          {label === 'Future'
+          <p className="weekly-title">{`${
+            currentWeek ? 'Past' : 'Future'
+          } challenge${currentWeek === FINAL_CHALLENGE_WEEK ? 's' : ''}`}</p>
+          {currentWeek === 0
             ? weekly && (
                 <WeeklyChallengeBoard
                   isDisabled
                   week={currentWeek + 2}
                   individualAvatarUrl={account.avatar_url}
                   teamToken={account.enrollment.team}
-                  weekly={weekly}
                 />
               )
             : pastWeek.map(
@@ -110,7 +110,6 @@ export default function WeeklyChallenge({
                       key={index}
                       individualAvatarUrl={account.avatar_url}
                       teamToken={account.enrollment.team}
-                      weekly={weekly}
                     />
                   )
               )}

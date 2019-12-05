@@ -46,8 +46,8 @@ export const isBeforeChallenge = (challenge: ChallengeDuration) => {
 };
 
 export const pilotDates: ChallengeDuration = {
-  start: new Date(!isProduction() ? '2019-11-10' : '2019-11-18'),
-  end: new Date(!isProduction() ? '2019-11-30' : '2019-12-08'),
+  start: new Date('2019-11-19'),
+  end: new Date('2019-12-10'),
 };
 
 export const isEnrolled = (account: UserClient) =>
@@ -74,3 +74,5 @@ export const weeklyChallengeCopy = [
       'This is the percentage of clips the team has accurately validated',
   },
 ];
+
+export const FINAL_CHALLENGE_WEEK = weeklyChallengeCopy.length - 1;

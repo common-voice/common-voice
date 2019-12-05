@@ -152,7 +152,13 @@ function ChallengePage(props: Props & RouteComponentProps<any>) {
             <LeaderBoardCard
               title="Overall Challenge Top Contributors"
               showVisibleIcon
-              showOverlay={() => setShowOverlay(true)}
+              showOverlay={() => {
+                setShowOverlay(true);
+                window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth',
+                });
+              }}
               service="top-contributors"
             />
           </div>

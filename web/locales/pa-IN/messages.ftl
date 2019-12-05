@@ -1,12 +1,17 @@
 ## General
 
 yes-receive-emails = ਹਾਂ, ਮੈਨੂੰ ਈਮੇਲ ਭੇਜੋ। ਮੈਂ ਕਾਮਨ ਵੌਇਸ ਪ੍ਰੋਜੈਕਟ ਬਾਰੇ ਜਾਣਕਾਰੀ ਰੱਖਣੀ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ।
+privacy-info = ਅਸੀਂ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਦਾ ਧਿਆਨ ਨਾਲ ਇੰਤਜ਼ਾਮ ਕਰਨ ਦਾ ਵਾਦਾ ਕਰਦੇ ਹਾਂ। ਹੋਰ ਸਾਡੀ <privacyLink>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</privacyLink> ‘ਚ ਪੜ੍ਹੋ।
 return-to-cv = ਕਾਮਨ ਵੌਇਸ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 email-input =
     .label = ਈ-ਮੇਲ
 submit-form-action = ਦਾਖਲ ਕਰੋ
 loading = ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
+email-opt-in-info = ਮੈਂ ਕਾਮਨ ਵੌਇਸ ਬਾਰੇ ਟੀਚਿਆਂ ਬਾਰੇ ਰਿਮਾਈਂਡਰ, ਮੇਰੀ ਤਰੱਕੀ ਦੇ ਅੱਪਡੇਟ ਅਤੇ ਖ਼ਬਰਸਾਰ ਆਦਿ ਵਾਸਤੇ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚਾਹਾਂਗਾ/ਚਾਹਾਂਗੀ।
 email-opt-in-info-title = ਕਾਮਨ ਵੌਇਸ ਮੇਲਿੰਗ ਲਿਸਟ ਦਾ ਹਿੱਸਾ ਬਣੋ
+email-opt-in-info-sub-with-challenge = ਕਾਮਨ ਵੌਇਸ ਬਾਰੇ ਟੀਚਿਆਂ ਬਾਰੇ ਰਿਮਾਈਂਡਰ, ਮੇਰੀ ਤਰੱਕੀ ਦੇ ਅੱਪਡੇਟ ਅਤੇ ਖ਼ਬਰਸਾਰ ਆਦਿ ਵਾਸਤੇ ਈਮੇਲਾਂ ਪ੍ਰਾਪਤ ਕਰੋ।
+email-opt-in-privacy = ਈਮੇਲਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਚੋਣ ਕਰਕੇ ਤੁਸੀਂ ਮੋਜ਼ੀਲਾ ਦੀ <privacyLink>ਪਰਦੇਦਾਰੀ ਨੀਤੀ<privacyLink> ਤਹਿਤ ਦਰਸਾਏ ਮੁਤਾਬਕ ਮੋਜ਼ੀਲਾ ਵਲੋਂ ਇਹ ਜਾਣਕਾਰੀ ਦੇ ਇੰਤਜ਼ਾਮ ਨਾਲ ਸਹਿਮਤ ਹੋ।
+indicates-required = * ਲਗਾਏ ਖ਼ੇਤਰ ਚਾਹੀਦੇ ਹਨ
 not-available-abbreviation = ਲਾਗੂ ਨਹੀਂ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -18,10 +23,13 @@ not-available-abbreviation = ਲਾਗੂ ਨਹੀਂ
 ab = ਅਬਖਜ਼
 af = ਅਫ਼ਰੀਕੀ
 ar = ਅਰਬੀ
+ast = ਅਸਟੂਰੀਅਨ
+az = ਅਜ਼ਰਬਾਈਜਾਨੀ
 bn = ਬੰਗਾਲੀ
 br = ਬਰੀਟੋਨ
 bxr = ਬੁਰੀਅਤ
 cs = ਚੈੱਕ
+cy = ਵੈਲਸ਼
 da = ਡੈਨਿਸ਼
 de = ਜਰਮਨ
 el = ਗਰੀਕ
@@ -43,14 +51,19 @@ he = ਹੈਬਰਿਊ
 hi-IN = ਹਿੰਦੀ
 hr = ਕਰੋਆਟੀਅਨ
 ia = ਇੰਟਰਲਿੰਗੂਆ
+id = ਇੰਡੋਨੇਸ਼ੀਆਈ
+is = ਆਈਸਲੈਂਡਿਕ
 it = ਇਤਾਲਵੀ
 ja = ਜਾਪਾਨੀ
+ka = ਜਾਰਜੀਆਈ
 kab = ਕਾਬੇਲੇ
 kk = ਕਾਜ਼ਾਖ
 ko = ਕੋਰੀਆਈ
 ku = ਕੁਰਦਿਸ਼
 kw = ਕੋਰਨਿਸ਼
+ky = ਕਿਰਗਿਜ਼
 ml = ਮਲਿਆਲਮ
+mn = ਮੰਗੋਲੀਅਨ
 nb-NO = ਨੋਰਵਾਗੀਅਨ ਬੋਕਮੀਕ
 ne-NP = ਨੇਪਾਲੀ
 nl = ਡੱਚ
@@ -58,7 +71,7 @@ nn-NO = ਨੋਰਵੀਗੀਆਨ ਨਯਨੋਰਸਕ
 oc = ਉਸੀਟਾਨ
 or = ਓੜੀਆ
 pa-IN = ਪੰਜਾਬੀ
-pl = ਪੋਲਿਸ਼
+pl = ਪੋਲੈਂਡੀ
 pt = ਪੁਰਤਗਾਲੀ
 ro = ਰੋਮਾਨੀਆਈ
 ru = ਰੂਸੀ
@@ -73,7 +86,12 @@ te = ਤੇਲਗੂ
 th = ਥਾਈ
 tr = ਤੁਰਕ
 tt = ਤਤਾਰ
+uby = ਉਜ਼ੇਬਕ
+uk = ਯੂਕਰੇਨੀਅਨ
 ur = ਉੜਦੂ
+zh-CN = ਚੀਨੀ (ਚੀਨ)
+zh-HK = ਚੀਨੀ (ਹਾਂਗਕਾਂਗ)
+zh-TW = ਚੀਨੀ (ਤਾਈਵਾਨ)
 
 # [/]
 
@@ -158,7 +176,7 @@ shortcut-skip = ਛ
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = ਖੇਡੋ/ਰੁਕੋ
+shortcut-play-toggle-label = ਚਲਾਓ/ਰੋਕੋ
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -189,7 +207,7 @@ english = ਅੰਗਰੇਜ਼ੀ
 ## ProfileForm
 
 profile-form-username =
-    .label = ਵਰਤੋਂ ਨਾਂ
+    .label = ਵਰਤੋਂਕਾਰ ਨਾਂ
 profile-form-native-language =
     .label = ਮਾਂ ਬੋਲੀ
 profile-form-additional-language =
@@ -243,6 +261,9 @@ recreate-voice = ਆਵਾਜ਼-ਤਰੰਗ ਮੁੜ-ਬਣਾਓ
 cancel-avatar-clip-recording = ਰੱਦ ਕਰੋ
 browse-file-title = ਚਿੱਤਰ ਫਾਈਲ ਅੱਪਲੋਡ ਕਰੋ
 browse-file = ਖਿੱਚੋ ਕੇ ਸੁੱਟੋ ਜਾਂ <browseWrap>ਬਰਾਊਜ਼ ਕਰੋ</browseWrap>
+file_too_large = ਚੁਣੀ ਗਈ ਫਾਈਲ ਬਹੁਤ ਵੱਡੀ ਹੈ
+manage-subscriptions = ਮੈਂਬਰੀ ਇੰਤਜ਼ਾਮ
+manage-email-subscriptions = ਈਮੇਲ ਮੈਂਬਰ ਇੰਤਜ਼ਾਮ
 email-already-used = ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਵੱਖਰੇ ਖਾਤੇ ਨਾਲ ਵਰਤੀ ਗਈ ਹੈ
 add-language = ਭਾਸ਼ਾ ਜੋੜੋ
 change-email-setings = ਆਪਣੇ ਈਮੇਲ ਨੂੰ ਲਾਗਇਨ ਪਛਾਣ ਅਧੀਨ ਸੈਟਿੰਗਾਂ ਰਾਹੀਂ ਬਦਲੋ
@@ -253,6 +274,8 @@ faq-title = ਆਮ ਪੁੱਛੇ ਜਾਂਦੇ ਸਵਾਲ
 faq-what-cv-q = ਆਮ ਆਵਾਜ਼ ਕੀ ਹੈ?
 faq-why-important-q = ਇਹ ਖਾਸ ਕਾਹਤੋਂ ਹੈ?
 faq-why-mission-q = ਕਾਮਨ ਆਵਾਜ਼ ਮੋਜ਼ੀਲਾ ਮਿਸ਼ਨ ਦਾ ਹਿੱਸਾ ਕਿਉਂ ਹੈ?
+faq-why-account-q = ਮੈਨੂੰ ਖਾਤੇ ਲਈ ਸਾਈਨ ਅੱਪ ਕਿਉਂ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?
+faq-is-account-public-q = ਕੀ ਮੇਰੇ ਖਾਤੇ ਦੀ ਜਾਣਕਾਰੀ ਜਨਤਕ ਹੈ?
 faq-what-is-cv = ਆਮ ਆਵਾਜ਼ ਕੀ ਹੈ?
 faq-using-cv = ਆਮ ਆਵਾਜ਼ ਦੀ ਵਰਤੋ
 faq-description = ਆਮ ਆਵਾਜ਼ ਮਸ਼ੀਨਾਂ ਨੂੰ ਆਮ ਲੋਕ ਕਿਵੇਂ ਬੋਲਦੇ ਹਨ, ਸਿਖਾਉਣ ਲਈ ਮਦਦ ਵਾਸਤੇ ਮੋਜ਼ੀਲਾ ਦਾ ਹਿੱਸਾ ਹੈ।
@@ -262,11 +285,21 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ਆਮ ਆਵਾਜ਼ ਕਿਉਂ?
+how-does-it-work-title = ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ?
 about-speak = ਬੋਲੋ
+about-listen-queue = ਸੁਣਨ-ਕਤਾਰ
 about-listen = ਸੁਣੋ
+about-is-it-valid = ਕੀ ਕਲਿੱਪ ਵਾਜਬ ਹੈ?
+about-yes-votes = ≥ 2 ਹਾਂ ਵੋਟਾਂ
+about-no-votes = ≥ 2 ਨਹੀਂ ਵੋਟ
+about-partners = ਹਿੱਸੇਦਾਰ
+about-become-a-partner = ਹਿੱਸੇਦਾਰ ਬਣੋ
 about-get-involved = ਹਿੱਸਾ ਲਵੋ
 about-nav-why-common-voice = ਕਿਉਂ?
 about-nav-how-it-works = ਕਿਵੇਂ ?
+about-nav-partners = ਹਿੱਸੇਦਾਰ
+about-nav-get-involved = ਹਿੱਸਾ ਬਣੋ
+mycroft-subtitle = ਮਸ਼ੀਨੀ ਅਕਲ
 
 ## Glossary
 
@@ -288,11 +321,13 @@ data-other-title = …ਹੋਰ ਆਵਾਜ਼ ਡਾਟਾ-ਸਮੂਹ
 data-other-goto = { $name } ‘ਤੇ ਜਾਓ
 data-other-download = ਡਾਟਾ ਡਾਊਨਲੋਡ ਕਰੋ
 data-bundle-button = ਡਾਟਾ-ਸਮੂਹ ਬੰਡਲ ਡਾਊਨਲੋਡ ਕਰੋ
+license = ਲਸੰਸ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ਰਲਵੇਂ
 terms-agree = ਮੈਂ ਸਹਿਮਤ ਹਾਂ
 terms-disagree = ਮੈਂ ਸਹਿਮਤ ਨਹੀਂ ਹਾਂ
 review-aborted = ਅੱਪਲੋਡ ਕਰਨਾ ਛੱਡਿਆ। ਕੀ ਤੁਸੀਂ ਆਪਣੀਆਂ ਰਿਕਾਰਡਾਂ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?
 review-submit-title = ਪੜਤਾਲੋ ਤੇ ਭੇਜੋ
+review-submit-msg = ਰਿਕਾਰਡਿੰਗ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ!<lineBreak></lineBreak>ਹੁਣ ਹੇਠਾਂ ਆਪਣੇ ਕਲਿੱਪਾਂ ਦੀ ਪੜਤਾਲ ਕਰੋ ਅਤੇ ਭੇਜੋ।
 review-recording = ਪੜਤਾਲ ਕਰੋ
 review-rerecord = ਮੁੜ-ਰਿਕਾਰਡ ਕਰੋ
 review-cancel = ਭੇਜਣਾ ਰੱਦ ਕਰੋ
@@ -316,6 +351,11 @@ size-megabyte = MB
 download-language = { $language } ਡਾਊਨਲੋਡ ਕਰੋ
 validated-hours = ਪ੍ਰਮਾਣਿਤ ਕੀਤੇ ਘੰਟੇ
 recorded-hours = ਰਿਕਾਰਡ ਕੀਤੇ ਘੰਟੇ
+subscribe = ਮੈਂਬਰ ਬਣੋ
+get-started-speech = ਆਵਾਜ਼ ਪਛਾਣ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ
+other-datasets = ਹੋਰ ਆਵਾਜ਼ ਡਾਟਾ-ਸਮੂਹ
+feedback-q = ਸੁਝਾਅ ਹਨ?
+go-discourse = ਭਾਸ਼ਣ ‘ਤੇ ਜਾਓ
 go-languages-page = ਭਾਸ਼ਾ ਸਫ਼ੇ ‘ਤੇ ਜਾਓ
 more = ਹੋਰ
 close = ਬੰਦ ਕਰੋ
@@ -325,6 +365,10 @@ dataset-version = ਵਰਜ਼ਨ
 ## Download Modal
 
 download-title = ਤੁਹਾਡਾ ਡਾਊਨਲੋਡ ਸ਼ੁਰੂ ਹੋਇਆ ਹੈ।
+download-form-email =
+    .label = ਆਪਣੀ ਈਮੇਲ ਦਿਓ
+    .value = ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ, ਅਸੀਂ ਸੰਪਰਕ ਕਰਾਂਗੇ।
+download-back = ਕਾਮਨ ਵੌਇਸ ਡਾਟਾ-ਸਮੂਹ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 download-no = ਨਹੀਂ ਜੀ, ਧੰਨਵਾਦ
 
 ## Contact Modal
@@ -367,10 +411,32 @@ listen = ਸੁਣੋ
 skip = ਛੱਡੋ
 shortcuts = ਸ਼ਾਰਟਕੱਟ
 clips-with-count = <bold>{ $count }</bold> ਕਲਿੱਪ
+record-cta = ਰਿਕਾਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ
+record-platform-not-supported = ਸਾਨੂੰ ਅਫ਼ਸੋਸ ਹੈ, ਪਰ ਤੁਹਾਡਾ ਪਲੇਟਫਾਰਮ ਹਾਲੇ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।
+record-platform-not-supported-desktop = ਡੈਸਕਟਾਪ ਕੰਪਿਊਟਰਾਂ ਉੱਤੇ ਤੁਸੀਂ ਨਵਾਂ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੇ ਹੋ:
+record-must-allow-microphone = ਤੁਹਾਨੂੰ ਮਾਈਕਰੋਫੋਨ ਲਈ ਪਹੁੰਚ ਦੀ ਸਹਿਮਤੀ ਦੇਣੀ ਜ਼ਰੂਰੀ ਹੈ।
+record-no-mic-found = ਕੋਈ ਮਾਈਕਰੋਫੋਨ ਨਹੀਂ ਲੱਭਿਆ ਹੈ।
+record-error-too-short = ਰਿਕਾਰਡਿੰਗ ਬਹੁਤ ਛੋਟੀ ਹੈ।
+record-error-too-long = ਰਿਕਾਰਡਿੰਗ ਬਹੁਤ ਵੱਡੀ ਹੈ।
+record-error-too-quiet = ਰਿਕਾਰਡਿੰਗ ਬਹੁਤ ਚੁੱਪ ਹੈ।
+record-cancel = ਮੁੜ-ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰੋ
+record-instruction = { $actionType }<recordIcon></recordIcon> ਤਦ ਵਾਕ ਨੂੰ ਉੱੱਚੀ ਪੜ੍ਹੋ
+record-stop-instruction = ਜਦੋਂ ਮੁਕੰਮਲ ਹੋ ਜਾਵੇ ਤਾਂ { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = ਤਿੰਨ ‘ਤੇ ਸ਼ੁਰੂ ਕਰੋ!
+record-button-label = ਆਪਣੀ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਕਰੋ
+share-title-new = ਹੋਰ ਆਵਾਜ਼ਾਂ ਲੱਭਣ ਲਈ <bold>ਸਾਡੀ ਮਦਦ ਕਰੋ</bold>
+login-to-get-started = ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲਾਗਇਨ ਕਰੋ ਜਾਂ ਸਾਈਨ ਅੱਪ ਕਰੋ
 
 ## Reporting
 
+report = ਰਿਪੋਰਟ
+report-title = ਰਿਪੋਰਟ ਭੇਜੋ
+report-ask = ਇਸ ਸ਼ਬਦ ਨਾਲ ਤੁਹਾਨੂੰ ਕੀ ਸਮੱਸਿਆਵਾਂ ਆ ਰਹੀਆਂ ਹਨ?
+report-offensive-language = ਹਮਲਾਵਰ ਭਾਸ਼ਾ
+report-offensive-language-detail = ਵਾਕ ਦੀ ਬੇਅਦਬ ਜਾਂ ਹਮਲਾਵਾਰ ਭਾਸ਼ਾ ਹੈ।
+report-grammar-or-spelling = ਵਿਆਕਰਣ/ ਸ਼ਬਦ-ਜੋੜ ਗ਼ਲਤੀ
+report-grammar-or-spelling-detail = ਵਾਕ ਵਿੱਚ ਵਿਆਕਰਣ ਜਾਂ ਸ਼ਬਦ-ਜੋੜ ਗਲਤੀਆਂ ਹਨ।
+report-different-language = ਵੱਖਰੀ ਭਾਸ਼ਾ
 report-other-comment =
     .placeholder = ਟਿੱਪਣੀ
 success = ਕਾਮਯਾਬ
