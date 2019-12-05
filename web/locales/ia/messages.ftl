@@ -375,14 +375,14 @@ faq-do-want-native-q = Io es un parlante non-native e io parla con un accento, v
 faq-do-want-native-a = Si, nos vole specialmente tu voce! Parte del scopo de Common Voice es colliger quanto plus differente accentos possibile assi que le servicios de recognition del voce labora equalmente ben pro totes. Isto significa que le donationes per le parlantes non-native es particularmente importante.
 faq-why-different-speakers-q = Proque require vos tante differente parlantes per lingua?
 faq-why-different-speakers-a =
-    Le major parte del bases de datos es maestrate con un super-representation de certe datos demographic que resultata in un prejudicio verso <articleLink>le classe masculin e medie</articleLink>.Accentos e dialectos que tende a ser sub-representate in le maestramento del collectiones de datos es typicamente associate con gruppos de personas qui es jam marginalisate. Multe machinas alsi es reluctante a comprender le voces feminin.
-    Isto es perque in nostre base de datos de voces nos vole le varietate!
-faq-why-my-lang-q = Perque mi lingua non es ancora includite?
+    Le major parte del bases de datos vocal es trainate con un excesso de certe gruppos demographic, resultante in un prejudicio verso <articleLink>homines de classe medie</articleLink>. Accentos e dialectos que tende a esser subrepresentate in le trainamento de collectiones de datos es typicamente associate con gruppos de personas jam marginalisate. Multe machinas ha difficultate a comprender voces feminin.
+    Ecce proque in nostre base de datos vocal nos vole varietate!
+faq-why-my-lang-q = Proque non es mi lingua ancora includite?
 faq-why-my-lang-new-a = Mozilla non prefere o favori alcun lingua a un altere. In vice, Common Voice es un initiativa strictemente communitari. Nonobstante, es necessari <multilangLink>plure passos pro adder un nove lingua</multilangLink> e comenciar a colliger donationes de voce. Primo, le sito web de Common Voice debe esser traducite de sorta que le membros del communitate pote usar lo in lor proprie lingua. Pois, nos require un grande collection de phrases libere de derectos de autor que le personas pote leger in alte voce. Un vice que ambe ille requisitos es satisfacite, un lingua es “lanceate” sur Common Voice de sorta que le personas pote comenciar a registrar lor voce e validar le donationes de alteres. Si tu vole adjutar a lancear un nove lingua, veni a nostre <sentenceCollectorLink>instrumento de collection de phrases</sentenceCollectorLink> pro comenciar.
 faq-what-quality-q = Que nivello de qualitate del audio es requirite pro poter usar le retalios vocal in le collection de datos?
 faq-what-quality-a = Nos vole que le collection de datos de Common Voice reflecte le qualitate del audio que un motor de recognition vocal audira in natura, dunque, nos cerca varietate. In addition a un diverse communitate de parlantes, un collection de datos con qualitate audio variabile inseniara al motor de recognition vocal de adaptar se a varie situationes del mundo real, p.ex. conversationes in secunde plano o le ruito de autos. Si tu retalio vocal es comprensibile, illo suffice pro le collection de datos.
-faq-why-10k-hours-q = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
-faq-why-10k-hours-a = Perque le objectivo pro capturar audio es 10,000 horas validate per lingua?
+faq-why-10k-hours-q = Proque es le objectivo pro capturar audio 10.000 horas validate per lingua?
+faq-why-10k-hours-a = Iste es le numero approximative de horas necessari pro trainar un systema de recognoscentia vocal de qualitate.
 faq-how-calc-hours-q = Como Common Voice calcula le horas?
 faq-how-calc-hours-a = Nos calcula le horas per estimar le longitude medie de cata registration, e pois multiplicar ille numero per le numero total de registrationes inter tote le linguas.
 faq-where-src-from-2-q = Ab ubi veni le texto fonte?
@@ -390,7 +390,7 @@ faq-where-src-from-2-a =
     Nostre texto fonte se compone de donationes original de contributores assi como dialogos de films de a dominio public como <italic>It’s a Wonderful Life</italic>.
     
     Tu pote vider nostre phrases fonte in iste <githubLink>dossier de GitHub</githubLink>.
-faq-why-not-ask-read-q = Perque non demanda tu al personas de leger ex libros o articulos de Wikipedia in differente linguas?
+faq-why-not-ask-read-q = Proque non demanda vos al personas de leger libros o articulos de Wikipedia in differente linguas?
 faq-why-not-ask-read-a = Pro render le collection de datos de Common Voice le plus utile possibile, nos ha decidite de permitter solmente texto fonte que es disponibile sub licentia Creative Commons (CC0). Usar le standard CC0 significa que il es plus difficile trovar e colliger texto fonte, ma permitte a quicunque de usar le datos vocal resultante sin restrictiones o autorisation de Mozilla. Al fin, nos vole render le collection de datos multilingue le plus utile possibile pro totes, includente recercatores, universitates, interprisas emergente, governamentos, organisationes de propositos social e hobbyistas.
 faq-why-account-q = Proque deberea io inscriber me pro un conto?
 faq-is-account-public-q = Es le informationes de mi conto public?
@@ -409,7 +409,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = Perque Common Voice?
+about-title = Proque Common Voice?
 about-subtitle = Common Voice es parte del initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real. Ultra al collection de datos Common Voice, nos alsi produce un motor open-source de recognition de voce appellate Deep Speech.
 about-header-description =
     Ambe iste projectos es parte de nostre effortios pro crear un ponte contra le division digital  vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores besonia de un enorme amonta de datos vocal pro los crear. Actualmente, le major parte de ille datos es costose e proprietari.
@@ -444,7 +444,7 @@ about-get-involved-text =
     Grande! Tene te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
     invia un commentario per <githubLink>GitHub</githubLink>,
     o junge te a nos sur <slackLink>Slack</slackLink>.
-about-nav-why-common-voice = Perque ?
+about-nav-why-common-voice = Proque?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
 about-nav-get-involved = Collabora
