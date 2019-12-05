@@ -74,3 +74,5 @@ export const weeklyChallengeCopy = [
       'This is the percentage of clips the team has accurately validated',
   },
 ];
+
+export const FINAL_CHALLENGE_WEEK = weeklyChallengeCopy.length - 1;

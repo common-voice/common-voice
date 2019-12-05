@@ -19,9 +19,9 @@ export default function WeeklyChallengeBoard({
   week: number;
   individualAvatarUrl: string;
   teamToken: ChallengeTeamToken;
-  weekly: WeeklyChallenge;
+  weekly?: WeeklyChallenge;
 }) {
-  const { user, team } = weekly;
+  const { user, team } = weekly || {};
   return (
     <div className={`challenge-board ${isDisabled ? 'disabled' : ''}`}>
       <div className="title-container">
