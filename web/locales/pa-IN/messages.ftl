@@ -1,12 +1,16 @@
 ## General
 
 yes-receive-emails = ਹਾਂ, ਮੈਨੂੰ ਈਮੇਲ ਭੇਜੋ। ਮੈਂ ਕਾਮਨ ਵੌਇਸ ਪ੍ਰੋਜੈਕਟ ਬਾਰੇ ਜਾਣਕਾਰੀ ਰੱਖਣੀ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ।
+privacy-info = ਅਸੀਂ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਦਾ ਧਿਆਨ ਨਾਲ ਇੰਤਜ਼ਾਮ ਕਰਨ ਦਾ ਵਾਦਾ ਕਰਦੇ ਹਾਂ। ਹੋਰ ਸਾਡੀ <privacyLink>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</privacyLink> ‘ਚ ਪੜ੍ਹੋ।
 return-to-cv = ਕਾਮਨ ਵੌਇਸ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 email-input =
     .label = ਈ-ਮੇਲ
 submit-form-action = ਦਾਖਲ ਕਰੋ
 loading = ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
+email-opt-in-info = ਮੈਂ ਕਾਮਨ ਵੌਇਸ ਬਾਰੇ ਟੀਚਿਆਂ ਬਾਰੇ ਰਿਮਾਈਂਡਰ, ਮੇਰੀ ਤਰੱਕੀ ਦੇ ਅੱਪਡੇਟ ਅਤੇ ਖ਼ਬਰਸਾਰ ਆਦਿ ਵਾਸਤੇ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚਾਹਾਂਗਾ/ਚਾਹਾਂਗੀ।
 email-opt-in-info-title = ਕਾਮਨ ਵੌਇਸ ਮੇਲਿੰਗ ਲਿਸਟ ਦਾ ਹਿੱਸਾ ਬਣੋ
+email-opt-in-info-sub-with-challenge = ਕਾਮਨ ਵੌਇਸ ਬਾਰੇ ਟੀਚਿਆਂ ਬਾਰੇ ਰਿਮਾਈਂਡਰ, ਮੇਰੀ ਤਰੱਕੀ ਦੇ ਅੱਪਡੇਟ ਅਤੇ ਖ਼ਬਰਸਾਰ ਆਦਿ ਵਾਸਤੇ ਈਮੇਲਾਂ ਪ੍ਰਾਪਤ ਕਰੋ।
+indicates-required = * ਲਗਾਏ ਖ਼ੇਤਰ ਚਾਹੀਦੇ ਹਨ
 not-available-abbreviation = ਲਾਗੂ ਨਹੀਂ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
