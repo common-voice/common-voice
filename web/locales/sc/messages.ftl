@@ -477,6 +477,9 @@ language = Limba
 # File size in gigabytes
 size = Mannària
 validated-hr-total = Totale de oras aprovadas
+overall-hr-total = Totale de oras
+cv-license = Lissèntzia
+audio-format = Formatu de àudio
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Su corpus TED-LIUM est istadu costrùidu dae tzarradas de àudio e is trascritziones a disponimentu in su situ web de TED.
 data-other-voxforge-description = VoxForge est istadu creadu pro colletzionare discursos trascritos de impreare cun motores de reconnoschimentu de boghe lìberos e de còdighe abertu.
