@@ -353,6 +353,10 @@ change-email-setings = Càmbia s'indiritzu de posta tuo tràmite is Cunfiguratzi
 
 faq-title = Preguntas Fitianas
 faq-what-cv-q = Ite est Common Voice
+faq-what-cv-a =
+    Sa tecnologia de reconnoschimentu de boghe est rivolutzionende sa manera comente si relatzionamus cun is màchinas, ma pro immoe is sistemas disponìbiles sunt caros e propietàrios. Common Voice faghet parte de s'initziativa de Mozilla pro megiorare is tecnologias de reconnoschimentu de boghe e ddas torrare prus atzessìbiles a totus. Common Voice est una base de datos  massiva de boghes donadas dae sos usuàrios chi permitint a calesi siat persone de allenare in manera lestra e sèmplitze is pròpias aplicatziones chi impreant su reconnoschimentu de boghe in belle calesi siat limba.¶
+    ¶
+    No isceti immagasinamus mustras de boghes de is limbas prus chistionadas de su mundu; fintzas de cussas cun una populatzione de faeddadores prus pitica. Sa publicatzione de unu pachete de boghes diversu at a cunsentire a isvilupadores, imprendidores e comunidades de afrontare custa mancàntzia issos etotu. In prus de is datos de Common Voice, semus fintzas isvilupende unu motore de reconnoschimentu de boghe cun lissèntzia lìbera tzerriadu Deep Speech.
 faq-why-important-q = Pro ite est importante?
 faq-how-get-q = Comente potzo otènnere is datos de Common Voices?
 faq-how-get-a = Su pachete de datos de Common Voice podet èssere iscarrigadu a suta de sa lissèntzia <licenseLink>CC0</licenseLink> dae sa <datasetLink>pàgina Pachetes de datos</datasetLink> nostra. Dae cussa, podes fintzas iscarrigare meda àteros pachetes de datos chi sunt a disponimentu in manera pùblica.
