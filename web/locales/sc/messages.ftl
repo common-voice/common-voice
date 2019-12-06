@@ -1,13 +1,18 @@
 ## General
 
 yes-receive-emails = Eja, imbia·mi messàgios de posta eletrònica. Mi diat a pràghere de abarrare informadu a subra de su progetu Common Voice.
+stayintouch = In Mozilla semus costruende una comunidade a inghìriu de is tecnologias de sa boghe. Si diat a pràghere de abarrare in cuntatu pro ti pòdere imbiare atualizatziones e fontes de datos noas, e ischire de prus subra de comente ses impreende custos datos.
+privacy-info = Ti promitimus chi amus a impreare s'informatzione tua cun garbu. Leghe àteru in s'<privacyLink>Avisu de riservadesa</privacyLink> nostru.
 return-to-cv = Torra a Common Voice
 email-input =
     .label = Indiritzu de posta eletrònica
 submit-form-action = Imbia
 loading = Carrighende...
+email-opt-in-info = Mi diat a pràghere de retzire messàgios de posta eletrònica comente apuntos de is obietivos, is atualizatziones de su progressu meu e bolletinos a subra de Common Voice.
 email-opt-in-info-title = Aderi a sa lista de posta de Common Voice
-indicates-required = * indica unu campu rechèdidu
+email-opt-in-info-sub-with-challenge = Ais a retzire messàgios che a apuntos de disafios e de obietivos, atualizatziones de progressu, e bolletinos a subra de Common Voice.
+email-opt-in-privacy = Atzetende de retzire messàgios eletrònicos, atzetas puru chi Mozilla impreet custa informatzione de acordu cun s'<privacyLink>Avisu de riservadesa<privacyLink> de Mozilla.
+indicates-required = * Indicat unu campu rechèdidu
 not-available-abbreviation = No est a disponimentu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -16,13 +21,18 @@ not-available-abbreviation = No est a disponimentu
 
 ## Languages
 
+ab = Abcasu
 ace = Achinesu
+ady = Adyghe
 af = Afrikaans
+am = Amàricu
 an = Aragonesu
 ar = Àrabu
+arn = Mapundungun
 as = Assamesu
 ast = Asturianu
 az = Azeri
+ba = Baschiru
 bg = Bùlgaru
 bn = Bengalesu
 br = Brètone
