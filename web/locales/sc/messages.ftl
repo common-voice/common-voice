@@ -33,6 +33,7 @@ as = Assamesu
 ast = Asturianu
 az = Azeri
 ba = Baschiru
+be = Bielorussu
 bg = Bùlgaru
 bn = Bengalesu
 br = Brètone
