@@ -172,6 +172,7 @@ help-us-explain = Incarca Reprodue, ascurta e nara·si si s'àudio currispondet 
 no-clips-to-validate = Paret chi no ci sunt registratziones de ascurtare in custa limba. Agiuda·si a crèschere custu elencu registrende carchi cosa.
 vote-yes = Emmo
 vote-no = Nono
+toggle-play-tooltip = Incarca { shortcut-play-toggle } pro aviare e frimare sa reprodutzione
 speak-subtitle = Dona sa boghe tua
 speak-paragraph = Registrare boghes est una parte integrale de su protzessu de costrutzione de su nostru pachete de datos abertu; e est fintzas sa parte ispassiosa.
 speak-goal-text = Registratziones
@@ -205,6 +206,7 @@ x-years-short =
 help-make-dataset = Agiuda·si a creare unu pachete de datos abertu e pùblicu de arta calidade
 sign-up-account = Crea unu contu
 email-subscription-title = registra·ti pro retzire atualizatziones tràmite posta eletrònica
+email-subscription-title-new = Iscrie·ti pro retzire su bolletinu de Common Voice, apuntos de obietivos e atualizatziones de progressu
 
 ## Account Benefits
 
