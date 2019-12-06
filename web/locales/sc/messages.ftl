@@ -383,6 +383,10 @@ faq-why-10k-hours-a = Custu est, prus o mancu, su nùmeru de oras netzessàriu p
 faq-how-calc-hours-q = Comente càrculat is oras, Common Voice?
 faq-how-calc-hours-a = Carculamus is oras istimende sa durada mèdia de cada registrada, e a pustis multiplichende cussu nùmeru pro su totale de registradas pro totu is limbas.
 faq-where-src-from-2-q = Dae aunde benint is testos?
+faq-why-account-q = Pro ite mi depo creare unu contu?
+faq-is-account-public-q = S'informatzione de su contu meu est pùblica?
+faq-how-privacy-q = Comente garantides s'anonimidade e sa riservadesa de sa gente chi at donadu is boghes issoro?
+faq-what-determine-identity-q = Ite bolet nàrrere chi non potzo "determinare s'identidade" de is faeddadores in su pachete de datos de Common Voice?
 faq-what-is-cv = Ite est Common Voice?
 faq-using-cv = Impreare Common Voice
 faq-description = Common Voice est parte de s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale.
@@ -392,6 +396,22 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pro ite Common Voice?
+about-subtitle = Common Voice est parte de s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale. In prus de su pachete de datos de Common Voice, semus costruende fintzas unu motore de reconnoschimentu de boghe cun lissèntzia de còdighe abertu tzerriadu Deep Speech.
+how-does-it-work-title = Comente funtzionat?
+how-does-it-work-text = Semus creende in manera collaborativa unu pachete de datos cun lissèntzia de còdighe abertu. Dona sa boghe tua, verìfica is registratziones fatas de àteras persones, faghe chi su pachete de datos siat mègius pro totus.
+about-speak = Chistiona
+about-speak-text = Is partetzipantes registrant boghes tràmite sa letura de unu bancu de frases donadas.
+about-listen-queue = Coa de iscurtu
+about-listen-queue-text = Is registratziones de boghe sunt carrigadas in una coa de registratziones pronta pro s'iscurtu.
+about-listen = Ascurta
+about-listen-text = Is usuàrios verìficant sa pretzisione de is registratziones donadas, controllende chi su faeddadore legat sa frase in manera curreta.
+about-is-it-valid = Sa registratzione est curreta?
+about-is-it-valid-text = Una registratzione de boghe est sinnalada comente "vàlida" cando un'usuàriu ddu votat cun Eja.
+about-yes-votes = 2 o prus votos positivos
+about-yes-votes-text = In manera chi una registratzione de boghe siat incluida in su pachete de datos de Common Voice, depet èssere verificada dae duos usuàrios diferentes.
+about-no-votes = 2 o prus votos negativos
+about-no-votes-text = Si un'usuàriu refuda una registratzione de boghe, cussa torrat a sa coa. Si est refudada un'àtera borta, est trasferta a su Campusantu de registratziones.
+about-dataset-new = Pachete de datos de Common Voice
 
 ## Glossary
 
