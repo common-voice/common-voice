@@ -460,6 +460,7 @@ mycroft-subtitle = Umělá inteligence
 mycroft-description =
     Mycroft je celosvětově první otevřený hlasový asistent.
     Mycroft funguje všude - na stolním počítači, v automobilu, nebo i z Raspberry Pi.
+mycroft-secondary-description = Jedná se o software s otevřeným zdrojovým kódem, který lze volně remixovat, rozšiřovat a vylepšovat. Mycroft lze použít v čemkoli od vědeckého projektu po podnikovou softwarovou aplikaci.
 
 ## Glossary
 
@@ -473,6 +474,7 @@ hours-validated-explanation = Počet hlasových nahrávek, které byly validová
 sst = Převod řeči na text (STT)
 sst-explanation = Technologie převodu řeči na text (STT) převádí hlasová data na text.
 de-identified = De-identifikováno
+de-identified-explanation = Při tomto procesu je v souborech datasetu ke stažení skryta identita přispěvatele hlasových záznamů.
 
 ## NotFound
 
@@ -511,6 +513,12 @@ review-delete-recordings = Smazat nahrávky
 ## Datasets Page
 
 datasets-headline = Vytváříme otevřenou mnohojazyčnou databázi hlasových záznamů, kterou může kdokoli použít k trénování svých hlasových aplikací.
+datasets-positioning =
+    Věříme, že velké, veřejně dostupné hlasové datové soubory podpoří inovace a zdravou konkurenci firem a technologií pro rozpoznávání řeči pomocí strojového učení.
+    
+    Vícejazyčný dataset Common Voice je již největší veřejně dostupným souborem svého druhu, ale není jediným.
+    
+    Podívejte se na tuto stránku, tento centrální rozcestník, který obsahuje další otevřené soubory, ale i aktualizace a nové verze datasetu Common Voice, který stále roste.
 language = Jazyk
 # File size in gigabytes
 size = Velikost
@@ -530,6 +538,10 @@ download-language = Stáhnout jazyk { $language }
 validated-hours = Ověřené hodiny
 recorded-hours = Nahrané hodiny
 whats-inside = Co je uvnitř datové sady Common Voice?
+dataset-description-hours =
+    Každá položka v datové sadě obsahuje unikátní MP3 soubor a odpovídající textový soubor. Mnoho z <b>{ $total }</b> nahraných hodin také obsahuje demografická metadata jako věk, pohlaví nebo přízvuk, která mohou pomoci vylepšit přesnost nástrojů pro rozpoznávání hlasu.
+    
+    Datová sada nyní obsahuje <b>{ $valid }</b> ověřených hodin v <b>{ $languages }</b> jazycích. Stále přidáváme další hlasy a jazyky. Na <languagesLink>stránce s jazyky</languagesLink> můžete začít přispívat, nebo si vyžádat další jazyk.
 want-dataset-update = Chcete se dozvědět o vydávání nových verzí datasetu projektu Common Voice? Přihlaste se k odběru našeho zpravodaje.
 subscribe = Odebírat
 get-started-speech = Začínáme s rozpoznáváním řeči
@@ -584,7 +596,9 @@ other-language = Ostatní jazyky
 ## Languages Overview
 
 language-section-in-progress = Spouští se
+language-section-in-progress-new-description = Tyto jazyky jsou zatím v komunitním vývoji. Ukazatele informují o tom, jak daleko jazyk pokročil v <localizationGlossaryLink>překladu webu</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>sbírání vět</sentenceCollectionGlossaryLink>.
 language-section-launched = Spuštěno
+language-section-launched-description = V těchto jazycích už byly naše stránky <localizationGlossaryLink>přeloženy</localizationGlossaryLink> a mají i dostatek <sentenceCollectionGlossaryLink>nasbíraný vět</sentenceCollectionGlossaryLink> k tomu, aby bylo možné <speakLink>nahrávat</speakLink> a <listenLink>poslouchat</listenLink> hlasové příspěvky.
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-meter-in-progress = Postup
@@ -705,6 +719,8 @@ validated-clips = Ověřené nahrávky
 total-approved = Celkem schváleno
 overall-accuracy = Celková přesnost
 set-visibility = Nastavit moji viditelnost
+visibility-explainer = Toto nastavení řídí viditelnost výsledkové tabulky. Pokud bude skrytý, bude váš pokrok soukromý. To znamená, že se váš obrázek, uživatelské jméno a postup nezobrazí v žebříčku. Obnovení výsledkové tabulky trvá zhruba  { $minutes } minut, pak se změny projeví.
+visibility-overlay-note = Poznámka: při nastavení na „viditelné“ lze toto nastavení změnit na stránce <profileLink>s profilem</profileLink>
 show-ranking = Ukázat moje hodnocení
 
 ## Custom Goals
