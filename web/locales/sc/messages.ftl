@@ -367,12 +367,15 @@ faq-how-get-a = Su pachete de datos de Common Voice podet èssere iscarrigadu a 
 faq-when-release2-q = Cando as a publicare is datos de Common Voice in àteras limbas?
 faq-when-release2-a = Sa versione multilìngue de su pachete de datos de Common Voice est a oe in fase de regollida e limpiesa cun s'apògiu de sa comunidade. Si nos bolides agiudare a agiùnghere limbas noas a su Common Voice, bidide s'<sentenceCollectorLink>aina de regollida de frases</sentenceCollectorLink> pro agiùnghere frases noas a su pachete de datos, e <pontoonLink>Pontoon</pontoonLink>, de Mozilla, pro bortare su situ web de su progetu. Is limbas noas ant a èssere agiuntas a Common Voice e ant a pòdere comintzare a retzire cuntributos de boghe cando 5.000 frases ant a èssere regòllidas e aprovadas.
 faq-why-mission-q = Pro ite Common Voice est parte de sa missione de Mozilla?
+faq-why-mission-a = Sa missione de Mozilla est sa de mantènnere su web abertu e atzessìbile a totus. Custu includet fintzas de frunire is oportunidades a is autores de cuntenutos web tràmite progetos comente a Common Voice. Immoe chi is tecnologias de boghe non sunt prus aplicatziones  ispetzialitzadas, pensamus chi diant dèpere èssere disponìbiles pro totus sena peruna discriminatzione. Custu signìficat de investire in prus limbas, prus diversidade de atzentos e de datos demogràficos in su protzessu de costrutzione e de verìfica de is tecnologias dee boghe. Common Voice est una resursa pùblica disponìbile pro totus: is iscuadras de Mozilla e is isvilupadores in totu su mundu ddu sunt giai impreende pro is progetos issoro.
 faq-what-cv-and-deepspeech-q = Cale est sa diferèntzia intre Common Voice e Deep Speech?
+faq-what-cv-and-deepspeech-a = Su pachete de datos de Common Voice cuntenet Deep Speech, su motore de reconnoschimentu de boghe de Mozilla, cun lissèntzia aberta. Sa prima versione de Deep Speech est istada publicada in onniasantu de 2017 e at sighidu a evolutzionare dae tando. Pensamus chi custa tecnologia de reconnoschimentu de boghe de còdighe abertu, paris cun su pachete de datos de Common Voice, diat dèpere èssere disponìbile pro totus. Isperamus chi custas tecnologias ant a permìtere a is isvilupadores de creare sa generatzione imbeniente de produtos e servìtzios innovativos.
 faq-is-goal-assistant-q = S'obietivu de Common Voice est creare un'assistente de boghe?
 faq-is-goal-assistant-a = S'obietivu de su pachete de datos de Common Voice est cussu de permìtere a totu su mundu de isvilupare aplicatziones che impreent su reconnoschimentu de boghe, su reconnoschimentu de su faeddadore o cale si siat àtera genia de aplicatzione chi rechedat datos de boghe. Un'assistente de boghe est isceti una de is aplicatziones chi dias a pòdere creare cun su pachete de datos.
 faq-do-want-native-q = Deo no so unu faeddadore nativu e chistionu cun un'atzentu furisteri. Tenides bisòngiu de sa boghe mia?
 faq-do-want-native-a = Eja, bolemus mescamente sa boghe tua! Parte de s'obietivu de Common Voice est de riunire atzentos diferentes meda in manera chi is servìtzios de reconnoschimentu de boghe funtzionent bene pro totus. Custu bolet nàrrere chi is boghes de is faeddadores no nativos sunt de importu.
 faq-why-different-speakers-q = Pro ite si serbint faeddadores aici diferentes pro cada limba?
+faq-why-different-speakers-a = Sa majoria de bases de datos sunt allenados cun un'isproportzione demogràfica a favore de is boghes <articleLink>maschiles e de classe mèdia</articleLink>. Imbetzes, is atzentos e is dialetos assotziados a grupos giai marginalizados sunt prus pagu rapresentados in is pachetes de datos pro s'allenamentu. Meda màchinas tenent dificultades pro cumprèndere boghes feminiles. Est pro custu chi bolimus chi sa base de datos nostra siat variada.
 faq-why-my-lang-q = Pro ite sa limba mia no est ancora incluida?
 faq-what-quality-q = Cale est su livellu de calidade chi depet tènnere una registrada de boghe pro ddu pòdere impreare in su pachete de datos?
 faq-why-10k-hours-q = Pro ite s'obietivu est cussu de riunire 10.000 oras verificadas de registradas de àudio pro cada limba?
@@ -380,9 +383,15 @@ faq-why-10k-hours-a = Custu est, prus o mancu, su nùmeru de oras netzessàriu p
 faq-how-calc-hours-q = Comente càrculat is oras, Common Voice?
 faq-how-calc-hours-a = Carculamus is oras istimende sa durada mèdia de cada registrada, e a pustis multiplichende cussu nùmeru pro su totale de registradas pro totu is limbas.
 faq-where-src-from-2-q = Dae aunde benint is testos?
+faq-what-is-cv = Ite est Common Voice?
+faq-using-cv = Impreare Common Voice
+faq-description = Common Voice est parte de s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale.
+faq-search-for-answers =
+    .label = Chirca rispostas
 
 ## ABOUT US
 
+about-title = Pro ite Common Voice?
 
 ## Glossary
 
