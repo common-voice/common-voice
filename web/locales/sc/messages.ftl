@@ -412,9 +412,31 @@ about-yes-votes-text = In manera chi una registratzione de boghe siat incluida i
 about-no-votes = 2 o prus votos negativos
 about-no-votes-text = Si un'usuàriu refuda una registratzione de boghe, cussa torrat a sa coa. Si est refudada un'àtera borta, est trasferta a su Campusantu de registratziones.
 about-dataset-new = Pachete de datos de Common Voice
+about-dataset-new-text = Su pachete de datos de Common Voice cuntenet chentinas de mìgias de mustras de boghes chi agiudant a is isvilupadores a creare ainas de reconnoschimentu de boghe.
+about-clip-graveyard = Campusantu de registratziones
+about-clip-graveyard-text = Su Campusantu de registratziones cuntenet registratziones de boghe chi no sunt intradas in su pachete de datos de Common Voice. Comente su pachete de datos, fintzas su Campusantu de registratziones podet èssere iscarrigadu.
+about-partners = Sòtzios
+about-become-a-partner = Diveni sòtziu
+about-get-involved = Ìmplica·ti
+about-nav-why-common-voice = Pro ite?
+about-nav-how-it-works = Comente?
+about-nav-partners = Sòtzios
+about-nav-get-involved = Ìmplica·ti
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intellighèntzia artifitziale
 
 ## Glossary
 
+glossary = Glossàriu
+localization = Localizatzione
+localization-explanation = Protzessu de tradutzione e de adatamentu de su cuntenutu pro àteras limbas.
+sentence-collection = Regòllida de frases
+sentence-collection-explanation = Regòllere frases de su domìniu pùblicu o nde iscrìere de noas pro su domìniu pùblicu.
+hours-recorded-explanation = Sa cantidade de oras de registratziones de boghe chi amus collidu fintzas a immoe.
+hours-validated-explanation = Sa cantidade de oras de registratziones de boghe aprovadas dae duos usuàrios de cada tres cun unu votu positivu. Custos progressos agiudant a lòmpere a s'obietivu generale de su progetu, 10.000 oras.
+sst = Reconnoschimentu de boghe (Speech-to-text, STT)
+sst-explanation = Su reconnoschimentu de boghe (STT) cunvertet is datos de boghe in testu.
+de-identified = Anonimizatzione
 
 ## NotFound
 
@@ -436,6 +458,7 @@ data-other-download = Iscàrriga datos
 data-bundle-button = Iscàrriga pachete de datos
 data-bundle-description = Datos de Common Voice impares cun totu is pachetes de boghes de a suba.
 license = Lissèntzia: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mista
 review-terms = Impreende Common Voice, atzetas is <termsLink>Cunditziones</termsLink> nostras e a s'<privacyLink>Avisu de riservadesa</privacyLink>
 terms-agree = So de acordu
 terms-disagree = Non so de acordu
@@ -450,6 +473,10 @@ review-delete-recordings = Cantzella is registratziones mias
 
 ## Datasets Page
 
+language = Limba
+# File size in gigabytes
+size = Mannària
+validated-hr-total = Totale de oras aprovadas
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Su corpus TED-LIUM est istadu costrùidu dae tzarradas de àudio e is trascritziones a disponimentu in su situ web de TED.
 data-other-voxforge-description = VoxForge est istadu creadu pro colletzionare discursos trascritos de impreare cun motores de reconnoschimentu de boghe lìberos e de còdighe abertu.
