@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Odeslat
 loading = Načítání…
 email-opt-in-info = Chci dostávat e-maily jako jsou přimínky k nedosaženým cílům, informace o mém postupu nebo novinky o projektu Common Voice.
+email-opt-in-info-title = Připojte se do elektronické konference Common Voice
+email-opt-in-info-sub-with-challenge = Dostávejte e-maily jako jsou připomínky k nedosaženým cílům či vývám, informace o postupu nebo novinky o projektu Common Voice.
 email-opt-in-privacy = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů<privacyLink> společnosti Mozilla.
 indicates-required = * označuje povinná pole
 not-available-abbreviation = není k dispozici
@@ -26,10 +28,12 @@ af = Afrikánština
 am = Amharština
 an = Aragonština
 ar = Arabština
+arn = Mapudungunština
 as = Ásámština
 ast = Asturština
 az = Ázerbájdžánština
 ba = Baškirština
+be = Běloruština
 bg = Bulharština
 bn = Bengálština
 br = Bretonština
@@ -82,6 +86,7 @@ lij = Ligurština
 lt = Litevština
 lv = Lotyština
 mdf = Mókša
+mg = Malgaština
 mhr = Lužní Marijština
 mk = Makedonština
 ml = Malajálamština
@@ -95,8 +100,11 @@ nl = Nizozemština
 nn-NO = Nynorsk
 oc = Okcitánština
 or = Udijština
+pa-IN = Pandžábština
 pl = Polština
 pt = Portugalština
+rm-sursilv = Rétorománština (sursilvan)
+rm-vallader = Rétorománština (vallader)
 ro = Rumunština
 ru = Ruština
 rw = Rwandština
@@ -309,6 +317,7 @@ thanks-for-account = Děkujeme za potvrzení vašeho účtu, nyní si sestavte s
 why-demographic = Proč na tomhle záleží?
 why-demographic-explanation = Anonymizovaná uživatelská data jako jsou věk, pohlaví a přízvuk pomáhají zlepšovat kvalitu audio dat pro trénování systémů rozpoznávání hlasu. Vaše uživatelské jméno a e-mail nebudou nikdy propojovány s vámi poskytnutými daty. Můžete také zvolit, jestli chcete zveřejnit vaše uživatelské jméno.
 accept-privacy = Souhlasím se zpracováním těchto informací jak je popsáno v zásadách Mozilly pro <privacyLink>ochranu osobních údajů</privacyLink>
+accept-privacy-title = Zásady ochrany osobních údajů
 login-identity = Identita pro přihlášení
 login-signup = Přihlášení / Registrace
 edit = Upravit
@@ -328,8 +337,11 @@ record-voice-wave = NAHRÁT ZÁZNAM HLASU
 retry-voice-wave-recording = OPAKOVAT
 re-record = NAHRÁT ZNOVU
 delete-voice = ODSTRANIT
+recording-voice-wave = Nahrávání
+delete-voice-clip = nebo Smazat hlasový záznam
 ready-to-upload = NAHRÁT
 avatar-clip-fact = Je již dlouho známým faktem, že čtenář bude pouze rozptylován čitelným obsahem stránky při zkoumání jejího rozvržení.
+recreate-voice = Znovu vytvořit Voicewave
 cancel-avatar-clip-recording = ZRUŠIT
 about-avatar-clip-recording = Vytvořte hlasový záznam jako součást vašeho avatara. Ostatní si ho mohou poslechnout po najetí myší.
 browse-file-title = Nahrát obrázek
@@ -453,12 +465,14 @@ mycroft-description =
 
 glossary = Slovník
 localization = Lokalizace
+localization-explanation = Toto je náš postup pro překlad a a adaptaci našeho obsahu pro další národní prostředí (a jazyky).
 sentence-collection = Sbírka vět
 sentence-collection-explanation = Sběr vět ve veřejné doméně, nebo tvorba nových vět ve veřejné doméně.
 hours-recorded-explanation = Počet hlasových nahrávek, které jsme doposud sesbírali.
 hours-validated-explanation = Počet hlasových nahrávek, které byly validovány alespoň dvěma ze tří uživatelů prostřednictvím hlasu pro "Ano". Tyto nahrávky jsou započítávány do postupu k celkovému cíli projektu sesbírat 10 000 hodin záznamů.
 sst = Převod řeči na text (STT)
 sst-explanation = Technologie převodu řeči na text (STT) převádí hlasová data na text.
+de-identified = De-identifikováno
 
 ## NotFound
 
@@ -617,6 +631,7 @@ record-again-instruction2 = Jen tak dál, pokračujte v nahrávání <recordIcon
 record-last-instruction = <recordIcon></recordIcon> Poslední!
 review-tooltip = Zde zkontrolujte nahrávky a nahrajte je znovu
 review-instruction = Zkontrolujte nahrávky a nahrajte je znovu, pokud to bude potřeba
+record-submit-tooltip = { $actionType } odeslat, až bude připraveno
 clips-uploaded = Nahraných klipů
 record-abort-title = Nechcete napřed dokončit nahrávání?
 record-abort-text = Když nyní odejdete, přijdete o dosavadní postup
@@ -630,6 +645,8 @@ listen-last-time-instruction = <playIcon></playIcon>Poslední!
 nothing-to-validate = V tomto jazyce nemáme nic ke kontrole, pomozte nám naplnit frontu.
 record-button-label = Nahrajte svůj hlas
 share-title-new = <bold>Pomozte nám</bold> najít další hlasy
+keep-track-profile = Sledujte svůj pokrok pomocí profilu
+login-to-get-started = Přihlaste se či zaregistrujte a můžete začít
 
 ## Reporting
 
@@ -678,6 +695,7 @@ clips-you-validated = Nahrávky, které jste ověřili
 todays-recorded-progress = Dnešní pokrok Common Voice v zaznamenaných nahrávkách
 todays-validated-progress = Dnešní pokrok Common Voice v ověřených nahrávkách
 stats = Statistiky
+awards = Ocenění
 you = Vy
 everyone = Všichni
 contribution-activity = Přispěvatelská aktivita
@@ -686,10 +704,12 @@ recorded-clips = Zaznamenané nahrávky
 validated-clips = Ověřené nahrávky
 total-approved = Celkem schváleno
 overall-accuracy = Celková přesnost
+set-visibility = Nastavit moji viditelnost
 show-ranking = Ukázat moje hodnocení
 
 ## Custom Goals
 
+get-started-goals = Začněte s cíli
 create-custom-goal = Vytvořit vlastní cíl
 both-speak-and-listen = Obojí
 both-speak-and-listen-long = Obojí (mluvit i poslouchat)
@@ -724,6 +744,19 @@ n-clips = { NUMBER($count) } záznamů
 help-share-goal = Pomozte nám najít více hlasů, sdílejte své cíle
 confirm-goal = Potvrdit Cíl
 goal-interval-weekly = Týdně
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Sdílejte svůj denní cíl { $count } nahraných klipů pro { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Sdílejte svůj týdenní cíl { $count } nahraných klipů pro { $type }
+share-goal-type-speak = Hovořit
+share-goal-type-listen = Poslouchat
+share-goal-type-both = Hovořit a Poslouchat
+# LINK will be replaced with the current URL
+goal-share-text = Právě jsem vytvořil osobní cíl pro darování nahrávek hlasu pro #CommonVoice - připojte se ke mně a pomozte učit stroje, jak mluví skuteční lidé { $link }
+weekly-goal-created = Váš týdenní cíl byl vytvořen
+daily-goal-created = Váš denní cíl byl vytvořen
+track-progress = Sledujte pokrok zde a na stránce statistik.
+return-to-edit-goal = Kdykoli se můžete vrátit a cíle upravit.
 share-goal = Sdílet můj cíl
 
 ## Profile Delete
