@@ -155,8 +155,21 @@ home-title = Common Voice est s'initziativa de Mozilla pro agiudare a imparare a
 home-cta = Chistiona, contribui inoghe!
 wall-of-text-start = Sa boghe est naturale, sa boghe est umana. Est pro custu chi bolemus creare tecnologias de boghe de calidade pro is màchinas. Però isvilupare custos sistemas rechedet unu volùmene mannu de datos de boghe.
 wall-of-text-more-mobile = Sa majoria de is datos impreados dae is aziendas mannas no sunt a disponimentu pro totus. Cunsideramus chi custu frenat s'innovatzione. Est pro custa resone chi amus lantzadu su progetu Common Voice, pro chi sa tecnologia de reconnoschimentu de boghe siat aberta pro totus.
+wall-of-text-more-desktop =
+    Immoe podes donare sa boghe tua pro si agiudare a costruere una base de datos de boghe cun lissèntzia lìbera chi potzat èssere impreada dae totus pro isvilupare aplicatziones innovativas pro dispositivos e pro sa retza.
+    Leghe una frase pro agiudare is màchinas a imparare comente sa gente reale chistionat. Verìfica su traballu de is àteros collaboradores pro megiorare sa calidade de is datos. Aici fàtzile!
+wall-of-text-first =
+    Sa boghe est naturale, sa boghe est umana.
+    Est pro custu chi bolemus creare tecnologias de boghe de calidade pro is màchinas.
+    Però isvilupare custos sistemas rechedet unu volùmene mannu de datos de boghe.
+wall-of-text-second =
+    Sa majoria de is datos impreados dae is aziendas mannas no sunt a disponimentu pro totus.
+    Cunsideramus chi custu frenat s'innovatzione. Est pro custa resone chi amus lantzadu Common Voice,
+     pro chi sa tecnologia de reconnoschimentu de boghe siat aberta e atzessìbile dae totus.
 show-wall-of-text = Leghe àteru
 help-us-title = Agiuda·si a validare frases!
+help-us-explain = Incarca Reprodue, ascurta e nara·si si s'àudio currispondet a sa frase in bàsciu:
+no-clips-to-validate = Paret chi no ci sunt registratziones de ascurtare in custa limba. Agiuda·si a crèschere custu elencu registrende carchi cosa.
 vote-yes = Emmo
 vote-no = Nono
 speak-subtitle = Dona sa boghe tua
