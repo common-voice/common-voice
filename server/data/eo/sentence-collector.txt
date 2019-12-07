@@ -719,6 +719,7 @@ Du markojn? Por kio?
 Du miliono, kvarcent kvardek ses mil, sepcent okdek du.
 Du virinojn oni ne povus deteni, kiuj ekiris por batali pafarke.
 Du viroj!? Kiel ili aspektis?
+Dua eldono, espereble baldaŭa, certe pliperfektiĝos ĉirilate.
 Dua elspiro eliris el lia buŝo kaj malforte li flustris:
 Dudek spesdekojn por tago!
 Due, ĝi starigis ĉiujn partoprenontojn ĉe diversaj punktoj de la kretstreko.
@@ -1130,6 +1131,7 @@ Fraŭlino Klaro kaj fraŭlino Kristino ne povas plenumi la tutan kudradon, kiu e
 Fraŭlino Leggat penis paroli, sed ne povis.
 Fraŭlino Prior ne volis konsenti sen via aprobo.
 Fraŭlino Rudzinska estis por mi lernantino tro multe jam progresinta en la lernado.
+Fremda planedo.
 Fremda reĝo sendis al li altan ornamon.
 Fremdulo, li estas eble mortanta.
 Frenezulo, kiun atakis la nervoj, grimacridis unu el la aro.
@@ -1363,6 +1365,7 @@ Iliaj serĉadoj ankaŭ estas eternaj kaj ili kondukas al revelacioj.
 Iliaj vizaĝoj estas ankoraŭ ruĝaj pro ridado.
 Iliaj vizaĝoj estis palaj kaj malgrasaj, iliaj vestoj estis tre malriĉaj.
 Ilian adreson.
+Ilian liston oni legu sur aparta loko.
 Ilin akompanis juna nevino, dekkvinjara knabino, kiun ambaŭ hontinde dorlotis.
 Imagu ke vi staras ĉi tie kaj mi je distanco de mil paŝoj.
 Imagu plue, ke je ĉiu paŝo staras unu homo.
@@ -1554,6 +1557,7 @@ Jes, li foriris antaŭ semajno, post kiam lia patrino estis mortinta.
 Jes, li foriris ne paginte du monatojn da lupago.
 Jes, li havis, diris la maristo; kaj mi demandis:
 Jes, li interrompis.
+Jes, malgraŭ okfoja tralego ni ne povis ekstermi ĉiujn.
 Jes, mi amas.
 Jes, mi diris per malforta voĉo, kie estas Jafet?
 Jes, mi estas kulpa; mi ja devus averti vin antaŭe.
@@ -1602,6 +1606,7 @@ Jes, sinjoro, ĉe la financa ministrejo.
 Jes, sur azeno.
 Jes, tio estas dana.
 Jes, tion la fremdulo rakontis al mi.
+Jes, tre certe.
 Jes, vagonaro iras per vaporo same kiel vaporŝipo.
 Jes, veni tie-ĉi.
 Jes, vi estas kiel mi, filo de Orfeo.
@@ -2218,6 +2223,7 @@ Komplezu min, kaj prenu cigaron.
 Kompreneble mi enskribas ĉiujn naskitajn infanojn, post kiam mi baptis ilin.
 Kompreneble mi ne akceptis.
 Kompreneble multo dependas de Malkomo mem.
+Kompreneble ne ĉiuj artikoloj estas verkitaj egale interese.
 Kompreneble ne, ŝi interĵetis kun malbela mokrido.
 Kompreneble vi akceptos, sed zorgu, ke li gajnu.
 Kompreneble!
@@ -2745,6 +2751,7 @@ La unua atestanto estis la Ĉapelisto.
 La unua de Majo estis veninta.
 La unua ne povis elporti la vivon sen ŝi.
 La unua parto de la prediko daŭras duonan horon.
+La unua paŝo estis la varbo de kunlaborantoj.
 La unua prezentis la heroon, tenanta malgrandan knabon ĉe la mano.
 La unua sento, kiu klare vekiĝis en ŝi, estis envio.
 La unuan fojon de multaj jaroj sinjoro Vincent nomis lin per lia antaŭnomo.
@@ -2755,6 +2762,7 @@ La urbo estas unuaranga fortikaĵo kun sepdek miloj da loĝantoj.
 La vagonaro iom malrapidiĝis, kaj tio vekis lin el lia revo.
 La vagonaro jam elmoviĝis el la stacio.
 La verando estis tegmentita per jasmeno kaj ornamita per grandfoliaj, kvazaŭtropikaj kreskaĵoj en bareloj.
+La verko ja estas ne enciklopedio de mondolingvoj, sed Enciklopedio de Esperanto.
 La vespero de la koncerto estis veninta.
 La vespero estis tre bela kaj sufiĉe varma.
 La vetero estis belega kaj malforta venteto blovis suden.
@@ -4489,6 +4497,7 @@ Ni do rajdos?
 Ni elpendigis lanternojn kaj daŭrigis la pafadon tutanokte por sciigi ke iu helpos ilin.
 Ni eniras.
 Ni envolvis lin en mortkitelon, kaj kun profunda malĝojego, entombigis lin en la maro.
+Ni esperas, ke la preso ĝenerale kontentigos la legantaron.
 Ni estas el Hungario.
 Ni estas frivolaj.
 Ni estas hungarinoj.
@@ -4512,8 +4521,10 @@ Ni iru kune en la antaŭkorton.
 Ni iru spekti filmon.
 Ni iru, do.
 Ni iru, sinjorino, ien aliloken.
+Ni jam diris, ke nia pleja klopodo estis: resti objektiva kaj eviti mankojn.
 Ni jam eltrovis, ke tio estas la vojaĝocelo de la trio.
 Ni konatiĝis, sed ho ve! la konatiĝo ne estis laŭ reciproka plaĉo.
+Ni kredas, ke la verko ne malinde gardos lian karan memoron.
 Ni lavis nin kaj eniris la ĉambron.
 Ni laŭiras la sablan vojon al la dometo de la mutulino.
 Ni laŭiris longan koridoron, ĉe kies du flankoj estis multaj pordoj.
@@ -4623,6 +4634,7 @@ Nu, ne ekscitiĝu!
 Nu, ne ofendiĝu, mia kara.
 Nu, nu, Lorna, nur ne perdu la prudenton.
 Nu, nu, kion do ŝi faras!
+Nu, oni pripensu, ke neniu Enciklopedio povas kontentigi dezirojn ĉiuflankajn.
 Nu, onklino, mi mem dufoje komunikiĝis kun la spirito de Roberto, kaj tiel.
 Nu, parolu, mi petas, pri viaj interesaĵoj.
 Nu, paĉjo, residiĝu, kaj ni interparolu.
@@ -4728,6 +4740,7 @@ Oni havis en la juĝejo grandan kanvassakon, kunligeblan ĉe la buŝo per ŝnure
 Oni jam ne povus dubi plu: jen porkido, vera porkido.
 Oni mensogis al mi, dirante, ke ĉiuj konatoj, ĉiuj, eĉ Marta, malestimegas min.
 Oni neniam scias, vi petolulino, ĉu vi estas serioza aŭ ne.
+Oni povas demandi, ĉu la Enciklopedio do estas kompleta?
 Oni povas imagi, kiel malĝojis la princo, kiam li eksciis tion.
 Oni povas imagi, kiel ŝi ploris siajn malfeliĉajn infanojn.
 Oni povis vidi en ili febran scivolecon, preskaŭ avidecon.
@@ -4816,6 +4829,7 @@ Pli bone, sinjoro; mi dankas.
 Pli da mono ŝi ne havis, kaj laborenspezon ŝi havis nenian.
 Pli gravaj aferoj alvenigis min; aferoj, kiuj tuŝas vin pli intime.
 Pli longaj noveloj, eĉ poemoj ne povas aperi pro manko de loko.
+Pli ol la duoblon de la antaŭfiksita amplekso!
 Pli ol tion mi ne volas ripeti, vi ne povus elporti ĝin.
 Pli-malpli unu horon poste Marta eniris en sian ĉambreton en la mansardo.
 Plialtigi la temperaturon de la ĉambro!
@@ -5098,6 +5112,7 @@ Sed Fenuso sin trompis, kiel ni vidos.
 Sed Marta ne oscedis.
 Sed Marta ne sidiĝis.
 Sed antaŭ ol la oficisto atingis la pordon, jam la Ĉapelisto tute malaperis.
+Sed antaŭ ol severe kritiki, bonvolu konsideri la neimageblajn malfacilaĵojn.
 Sed baldaŭ miaj projektoj trograndiĝis laŭ miaj rimedoj.
 Sed baldaŭ sur la strato laŭte eksonis la vorto: kaptu!
 Sed bonvolu veni en la domon, sinjoroj, kaj trinku tason da kafo!
@@ -5631,6 +5646,7 @@ Tiam mi faris seĝon kaj skribtablon.
 Tiam mi levis mian manon ĉielen, kaj diris, Dio loĝas tie.
 Tiam mi vekiĝis, kaj eltrovis, ke ĝi estis sonĝo.
 Tiam ni pafilos ilin, ridante diris Zuro, kaj forkurigu ilin.
+Tiam temas pri aferoj nedeciditaj: la leganto devas mem formi al si opinion.
 Tiam turnante sin al Alicio li demandis: "Kiun daton ni havas?"
 Tiam ŝi ne plu povis silenti.
 Tiam ŝi surmetas la kufon kaj la antaŭtukon kaj rigardas sin en la spegulo.
@@ -5824,6 +5840,7 @@ Tiu mano plu ŝin ne tuŝis.
 Tiu minaco ja ne kuraĝigis la atestanton.
 Tiu momento ŝajnis al Alicio oportuna por forkuro.
 Tiu nomo ne estis jam nekonata por mi.
+Tiu partoprenado estas necesa ankaŭ post la apero de la Enciklopedio.
 Tiu posedaĵo estis por lia patro makulitaĵo, hontindaĵo; por li ĝi estis sankta konfiditaĵo.
 Tiu respondo surprizas la pastron supermezure.
 Tiu rigardis ilin el grandaj larmplenaj okuloj, sed diris nenion.
@@ -6264,6 +6281,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉe ili mi provizore restos.
 Ĉe kiu vi do nun loĝas?
 Ĉe kiu?
+Ĉe kunlaboro de multaj personoj ne estas eviteblaj kelkaj opiniodiferencoj.
 Ĉe kurbiĝo de la vojo ŝi kaŝe ekrigardis lian penseman profilon.
 Ĉe la azenoj mi bezonos dekdu kondukistojn.
 Ĉe la blanka lumo de la vintra mateno Janjo aspektis pale kaj suferante.
@@ -6271,6 +6289,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉe la lasta vorto li kun teatra gesto montris la pordon de la kabineto.
 Ĉe la lastaj vortoj la libristo deprenis de breto negrandan libron.
 Ĉe la lastaj vortoj ŝiaj palpebroj malleviĝis; en la voĉo tremis profunda humiliĝo.
+Ĉe la lingvaj artikoloj ni klopodis je plejebla grado de objektiveco.
 Ĉe la ronda tablo du tondiloj sonis akre kaj tirate.
 Ĉe la vitrita pordo eksonis la sonorilo, Marta eniris en la librejon.
 Ĉe mi, diris Peters.
