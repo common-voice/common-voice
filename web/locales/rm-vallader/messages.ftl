@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Trametter
 loading = chargia...
 email-opt-in-info = Eu less tschüffer e-mails, per exaimpel per trar adimmaint böts, actualisar meis progress e dar inavant novitats da Common Voice.
+email-opt-in-info-title = T'annunzcha per la glista da mailing da Common Voice.
+email-opt-in-info-sub-with-challenge = Tschüffa e-mails chi't tiran per exaimpel adimmaint sfidas e böts o chi t'infourmeschan sur da teis progress o novitats da Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
