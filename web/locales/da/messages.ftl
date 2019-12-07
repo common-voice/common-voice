@@ -95,16 +95,20 @@ or = Oriya
 pl = Polsk
 pt = Portugisisk
 rm-sursilv = Rætoromansk sursilvansk
+rm-vallader = Rætoromansk Lavengadinsk
 ro = Rumænsk
 ru = Russisk
 rw = Kinyarwanda
 sah = Yakut
 sc = Sardisk
+si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
+sw = Swahili
+syr = Syrisk
 ta = Tamil
 te = Telugu
 tg = Tadsjikisk
@@ -131,6 +135,7 @@ speak = Tal
 speak-now = Tal nu
 datasets = Datasæt
 languages = Sprog
+about = Om
 profile = Profil
 help = Hjælp
 contact = Kontakt
@@ -325,10 +330,31 @@ faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt s
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
 faq-is-account-public-q = Er mine kontooplysninger offentlige?
 faq-how-privacy-q = Hvordan sikrer I anonymitet og privatliv for de mennesker, der har doneret deres stemme?
+faq-what-is-cv = Hvad er Common Voice?
+faq-using-cv = Brug af Common Voice
 faq-description = Common Voice er en del af Mozillas initiativ til at hjælpe maskiner med at forstå, hvordan mennesker taler.
+faq-search-for-answers =
+    .label = Søg efter svar
 
 ## ABOUT US
 
+about-title = Hvorfor Common Voice?
+how-does-it-work-title = Hvordan fungerer det?
+about-speak = Tal
+about-listen-queue = Lytte-kø
+about-listen = Lyt
+about-is-it-valid = Er klippet gyldigt?
+about-yes-votes = ≥ 2 ja-stemmer
+about-no-votes = ≥ 2 nej-stemmer
+about-partners = Partnere
+about-become-a-partner = Bliv partner
+about-get-involved = Bliv involveret
+about-nav-why-common-voice = Hvorfor?
+about-nav-how-it-works = Hvordan?
+about-nav-partners = Partnere
+about-nav-get-involved = Bliv involveret
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Kunstig intelligens
 
 ## Glossary
 
