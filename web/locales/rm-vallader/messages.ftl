@@ -11,6 +11,7 @@ loading = chargia...
 email-opt-in-info = Eu less tschüffer e-mails, per exaimpel per trar adimmaint böts, actualisar meis progress e dar inavant novitats da Common Voice.
 email-opt-in-info-title = T'annunzcha per la glista da mailing da Common Voice.
 email-opt-in-info-sub-with-challenge = Tschüffa e-mails chi't tiran per exaimpel adimmaint sfidas e böts o chi t'infourmeschan sur da teis progress o novitats da Common Voice.
+email-opt-in-privacy = Cun dar tia approvaziun da tschüffer e-mails acceptast cha Mozilla tratta quistas infuormaziuns sco declerà aint illa <privacyLink>decleraziun davart la protecziun da datas</privacyLink>
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
