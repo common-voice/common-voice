@@ -31,26 +31,6 @@ const GoalPercentage = ({
   </span>
 );
 
-const ContributeMoreButton = (props: {
-  hasAccount: boolean;
-  children: React.ReactNode;
-  onClick: () => any;
-}) =>
-  props.hasAccount ? (
-    <Button
-      className="contribute-more-button"
-      rounded
-      onClick={props.onClick}
-      children={props.children}
-    />
-  ) : (
-    <TextButton
-      className="contribute-more-button secondary"
-      onClick={props.onClick}
-      children={props.children}
-    />
-  );
-
 function Success({
   getString,
   onReset,
@@ -110,6 +90,22 @@ function Success({
   const finalPercentage = Math.ceil(
     (100 * (contributionCount || 0)) / goalValue
   );
+
+  const ContributeMoreButton = (props: { children: React.ReactNode }) =>
+    hasAccount ? (
+      <Button
+        className="contribute-more-button"
+        rounded
+        onClick={onReset}
+        {...props}
+      />
+    ) : (
+      <TextButton
+        className="contribute-more-button secondary"
+        onClick={onReset}
+        {...props}
+      />
+    );
 
   const goalPercentage = (
     <GoalPercentage
@@ -173,7 +169,7 @@ function Success({
         </div>
       )}
 
-      <ContributeMoreButton hasAccount={hasAccount} onClick={onReset}>
+      <ContributeMoreButton>
         {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
         <Localized id="contribute-more" $count={SET_COUNT}>
           <span />
