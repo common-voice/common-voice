@@ -22,9 +22,11 @@ not-available-abbreviation = Na disponibel
 ## Languages
 
 ab = Abchasian
-ace = Achines
+ace = Achinais
 ady = Adyghen
 af = Afrikaans
+am = Amaric
+an = Aragonais
 
 # [/]
 
