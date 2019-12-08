@@ -27,6 +27,7 @@ ady = Adyghen
 af = Afrikaans
 am = Amaric
 an = Aragonais
+ar = Arab
 
 # [/]
 
