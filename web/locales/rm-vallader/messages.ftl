@@ -28,6 +28,23 @@ af = Afrikaans
 am = Amaric
 an = Aragonais
 ar = Arab
+arn = Mapudungun
+as = Assamais
+ast = Asturian
+az = Aserbeidschanic
+ba = Baschkir
+be = Bieloruss
+bg = Bulgar
+bn = Bengal
+br = Breton
+bxr = Buriat
+ca = Catalan
+cak = Kaqchikel
+cnh = Hakha Chin
+cs = Tschec
+cv = Chuvasch
+cy = Valisic
+da = Danais
 
 # [/]
 
