@@ -169,7 +169,7 @@ wall-of-text-start =
     spraakgegevens fereaske.
 wall-of-text-more-mobile =
     De measte gegevens brûkt troch grutte bedriuwen is net beskikber foar it grutte publyk. Wy tinke
-    dat dat ynnovaasje tsjinhâld. Dêrom hawwe wy it projekt Common Voice lansearre, in projekt om
+    dat dat ynnovaasje behinderet. Dêrom hawwe wy it projekt Common Voice lansearre, in projekt om
     spraakwerkenning foar elkenien tagonklik te meitsjen.
 wall-of-text-more-desktop =
     No kinne jo jo stim donearje om ús te helpen in iepen-boarne stimdatabase te meitsjen dy't elkenien brûke kin
