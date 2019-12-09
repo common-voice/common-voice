@@ -43,7 +43,7 @@ deploy:
   provider: script
   on:
     all_branches: true
-    condition: $TRAVIS_TAG != "" || $TRAVIS_BRANCH =~ ^(master|prod)$
+    condition: $TRAVIS_TAG != "" || $TRAVIS_BRANCH =~ ^(master|production|staging)$
   script: docker push "$IMAGE_NAME:$REVISION_TAG" && docker push "$IMAGE_NAME:$SYMBOLIC_TAG"
 env:
   global:
