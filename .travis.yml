@@ -3,6 +3,8 @@ sudo: enabled
 language: node_js
 node_js:
   - '8'
+  - 'lts/*'
+  - 'node'
 services:
   - mysql
   - docker
