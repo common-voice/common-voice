@@ -108,6 +108,7 @@
 
     & .checkbox-container {
         border-color: var(--white);
+        overflow: hidden;
 
         & path {
             fill: var(--white);
