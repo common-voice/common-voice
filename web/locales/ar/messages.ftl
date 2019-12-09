@@ -655,6 +655,18 @@ login-to-get-started = لتبدأ، لِج أو سجلا حسابا
 ## Reporting
 
 report = أبلِغ
+report-title = أرسِل تقريرًا
+report-ask = ما المشاكل التي تراها في هذه الجملة؟
+report-offensive-language = كلام هجومي
+report-offensive-language-detail = تحتوي الجملة على لغة مهينة أو مسيئة.
+report-grammar-or-spelling = خطأ نحوي/إملائي
+report-grammar-or-spelling-detail = تحتوي الجملة على خطأ نحوي أو إملائي.
+report-different-language = لغه مختلفة
+report-different-language-detail = الجملة مكتوبة بلغة مختلفة عن اللغة التي أتحدث بها.
+report-difficult-pronounce-detail = تحتوي الجملة على كلمات أو عبارات يصعب قراءتها أو نطقها.
+report-offensive-speech = كلام هجومي
+report-offensive-speech-detail = يحتوي المقطع على لغة مهينة أو مسيئة.
+report-success = أُرسل البلاغ بنجاح
 
 ## Goals
 
@@ -703,9 +715,25 @@ recorded-clips = المقاطع المسجّلة
 validated-clips = المقاطع المدقّقة
 total-approved = إجمالي الموافق عليه
 overall-accuracy = إجمالي الدقّة
+set-visibility = أريد ضبط ظهوري هنا
 
 ## Custom Goals
 
+daily-goal = هدف يومي
+weekly-goal = هدف أسبوعي
+easy-difficulty = سهل
+average-difficulty = متوسط
+difficult-difficulty = صعب
+pro-difficulty = محترف
+want-to-continue = أتريد المواصلة؟
+finish-editing = ألن تُنهي التعديل أولًا؟
+lose-changes-warning = إن غادرت الآن فستفقد ما عدّلته
+help-reach-hours = ساعِدنا لنصل { NUMBER($hours) } من الساعات للغة { $language } بوضع هدف شخصي
+set-a-goal = ضع هدفًا
+how-many-per-day = جميل! كم مقطعًا في اليوم؟
+how-many-a-week = جميل! كم مقطعًا في الأسبوع؟
+which-goal-type = أتريد التحدّث أم الاستماع أم كلاهما معًا؟
+confirm-goal = هذا هدفي
 
 ## Profile Delete
 
