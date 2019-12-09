@@ -109,7 +109,11 @@
     & .checkbox-container {
         border-color: var(--white);
 
-        & path {
+        input {
+            height: auto;
+        }
+
+        path {
             fill: var(--white);
         }
     }
