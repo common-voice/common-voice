@@ -108,7 +108,7 @@ module "database" {
   monitoring             = true
   multi_az               = "${var.environment == "prod" ? true : false}"
   service_name           = "${var.service_name}"
-  client_security_groups = "${module.worker.security_group},${module.sync.security_group}"
+  client_security_groups = "${module.worker.security_group},${module.sync.security_group},${var.extra_db_security_groups}"
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
   instance_class         = "${var.environment == "prod" ? "db.m5.large" : "db.t2.small"}"
   allocated_storage      = "${var.environment == "prod" ? "100" : "32"}"
@@ -152,7 +152,7 @@ module "cache" {
   environment            = "${var.environment}"
   account                = "${var.account}"
   service_name           = "${var.service_name}"
-  client_security_groups = "${module.worker.security_group},${module.sync.security_group}"
+  client_security_groups = "${module.worker.security_group},${module.sync.security_group},${var.extra_db_security_groups}"
   engine                 = "redis"
 }
 
