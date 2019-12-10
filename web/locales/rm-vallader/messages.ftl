@@ -63,7 +63,12 @@ fy-NL = Frislandais
 ga-IE = Irlandais
 gl = Galizian
 ha = Hausa
-he = ebraic
+he = Ebraic
+hi-IN = Hindi
+hr = Croat
+hsb = Sorb ot
+hu = Ungarais
+ia = Interlingua
 
 # [/]
 
