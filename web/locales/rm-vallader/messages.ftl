@@ -51,6 +51,19 @@ dv = Dhivehi
 el = Grec
 en = Inglais
 eo = Esperanto
+es = Spagnöl
+et = Eston
+eu = Basc
+fa = Persian
+ff = Fulah
+fi = Finlandais
+fo = Feroais
+fr = Frances
+fy-NL = Frislandais
+ga-IE = Irlandais
+gl = Galizian
+ha = Hausa
+he = ebraic
 
 # [/]
 
