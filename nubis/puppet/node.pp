@@ -1,7 +1,7 @@
 # Install dependencies
 
 class { 'nodejs':
-  repo_url_suffix => '8.x',
+  repo_url_suffix => '10.x',
 }
 
 # Needed for binary compilation (i.e. bcrypt)s
