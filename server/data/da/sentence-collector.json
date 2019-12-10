@@ -1,5 +1,23 @@
 [
   {
+    "valid": ["sixten", "hvingelby"],
+    "source": "https://www.andersenstories.com/da/andersen_fortaellinger/lykkens_galocher",
+    "invalid": ["WonderingDane"],
+    "approved": true,
+    "sentence": "var man i \"gammel tid,\" blev hun vist brændt.",
+    "username": "WonderingDane",
+    "createdAt": 1550958591130,
+    "approvalDate": 1575497871426,
+    "Sentences_Meta_UserVote_sixten": true,
+    "Sentences_Meta_UserVote_hvingelby": true,
+    "Sentences_Meta_UserVoteDate_sixten": 1553292453747,
+    "Sentences_Meta_UserVoteDate_hvingelby": 1575497871426,
+    "Sentences_Meta_UserVote_WonderingDane": false,
+    "Sentences_Meta_UserVoteDate_WonderingDane": 1570521606380,
+    "id": "5c5c99a4071e638355126ceff129788e51dcf0ebfc6172b5fcd37ee739ab4cb6",
+    "last_modified": 1575497872722
+  },
+  {
     "valid": ["sixten", "WonderingDane"],
     "source": "https://www.andersenstories.com/da/andersen_fortaellinger/lykkens_galocher",
     "invalid": [],

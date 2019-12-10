@@ -1,5 +1,23 @@
 [
   {
+    "valid": ["navta", "SDuck4"],
+    "source": "from writing, B사감과 러브 레터, copyright is expired",
+    "invalid": ["p4b"],
+    "approved": true,
+    "sentence": "스승과 제자는 조그마한 책상 하나를 새에 두고 마주 앉는다.",
+    "username": "p4b",
+    "createdAt": 1569200418958,
+    "approvalDate": 1575621180828,
+    "Sentences_Meta_UserVote_p4b": false,
+    "Sentences_Meta_UserVote_navta": true,
+    "Sentences_Meta_UserVote_SDuck4": true,
+    "Sentences_Meta_UserVoteDate_p4b": 1569200437033,
+    "Sentences_Meta_UserVoteDate_navta": 1572503836475,
+    "Sentences_Meta_UserVoteDate_SDuck4": 1575621180828,
+    "id": "b01f68e8bc1aa3f25fec71089565af0b0ed393408819d62934c33537abc7dab3",
+    "last_modified": 1575621181349
+  },
+  {
     "valid": ["p4b", "navta"],
     "source": "from writing, B사감과 러브 레터, copyright is expired",
     "invalid": [],
