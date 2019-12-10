@@ -45,6 +45,12 @@ cs = Tschec
 cv = Chuvasch
 cy = Valisic
 da = Danais
+de = Tudais-ch
+dsb = Sorb bass
+dv = Dhivehi
+el = Grec
+en = Inglais
+eo = Esperanto
 
 # [/]
 
