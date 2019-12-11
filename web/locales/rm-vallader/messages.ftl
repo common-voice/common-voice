@@ -69,6 +69,31 @@ hr = Croat
 hsb = Sorb ot
 hu = Ungarais
 ia = Interlingua
+id = Indonais
+is = Islandais
+it = Talian
+izh = Izhorian
+ja = Giapunais
+ka = Georgian
+kab = Cabil
+kk = Kasac
+ko = Corean
+kpv = Komi-zyrian
+ku = Curd
+kw = Cornic
+ky = Kirghis
+lij = Ligurais
+lt = Lituan
+lv = Letton
+mdf = Mokschan
+mg = Madagasc
+mhr = Mari oriental
+mk = Macedon
+ml = Malayalam
+mn = Mongolic
+mrj = Mari occidental
+mt = Maltais
+myv = Erzya
 
 # [/]
 
