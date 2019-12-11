@@ -151,6 +151,7 @@ contact = Contact
 privacy = Protecziun da datas
 terms = Cundiziuns d'ütilisaziun
 cookies = Cookies
+faq = Dumondas frequentas - FAQ
 
 ## Home Page
 
