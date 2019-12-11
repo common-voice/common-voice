@@ -5147,6 +5147,7 @@ Ce n'est pas ta faute si tu n'entends rien aux affaires.
 Ce n'est pas tant une question de douleur.
 Ce n'est pas tout ça
 Ce n'est pas une métaphore.
+Ce n'est pas vrai, peut-être?
 Ce n'est pas à cause de vous, bien entendu.
 Ce n'est pas ça qui manque.
 Ce n'est pas évident pour tout le monde.
@@ -8656,6 +8657,7 @@ Comment venger l’un sans outrager l’autre?
 Comment veux-tu que des sources jaillissent à travers ces parois?
 Comment veux-tu que je fasse? dit-elle en joignant les mains.
 Comment veux-tu qu’on prenne un fagot pour un mort?
+Comment voulez-vous que je vous croie?
 Comment voulez-vous que je vous dise ça?
 Comment vous appelez-vous
 Comment vous appelez-vous?
@@ -11113,6 +11115,7 @@ C’était le cadavre du garde, déjà froid.
 C’était le genre de type qui inspire confiance.
 C’était le quatre janvier deux mille dix-huit.
 C’était le seul moyen de conjurer Dora.
+C’était le temps des grandes luttes, et des grands enthousiasmes.
 C’était limite prévisible: l’affrontement fatal.
 C’était logique, dans ma cabosse.
 C’était lors de notre première partie de jambes en l’air.
@@ -24052,6 +24055,7 @@ Il n'y a de richesses que d'hommes
 Il n'y a pas beaucoup de possibilités.
 Il n'y a pas de Laly.
 Il n'y a pas eu de petit «plop.
+Il n'y a pas moyen d'être tranquilles.
 Il n'y a pas si longtemps.
 Il n'y a que Paris!
 Il n'y a rien de commencé entre Elvire et toi.
@@ -26314,6 +26318,7 @@ Il y a en même un qui époussette un abatjour.
 Il y a encore autre chose, Gubetta.
 Il y a encore deux chemises, trois mouchoirs, une vieille culotte.
 Il y a encore dix mille francs d’or!
+Il y a encore du monde dans la maison?
 Il y a encore ici de la place pour deux hommes...
 Il y a encore un moyen de nous sauver!
 Il y a entre trois et quatre mois.
@@ -27062,6 +27067,7 @@ Ils ne sont pas contents! as-tu vu rien de tel?
 Ils ne sont pas encore couchés.
 Ils ne sont pas encore face à leur serment.
 Ils ne sont pas encore ici.
+Ils ne sont pas encore partis, ceux-là.
 Ils ne sont que bouche et dents!
 Ils ne sont que deux.
 Ils ne sortent pas.
@@ -27108,6 +27114,7 @@ Ils n’existent ni en Islande ni ailleurs.
 Ils n’échoueront pas
 Ils n’étaient évidemment plus maîtres de l’aérostat
 Ils n’étaient plus rouges, mais pâles.
+Ils n’ont pas ton énergie, ta raison: ils s’inquiéteraient outre mesure.
 Ils n’ont plus d’autres parents que tous les hommes.
 Ils n’ont plus faim.
 Ils n’ont pourtant pas du tout besoin des gens.
@@ -27240,6 +27247,7 @@ Ils réussissent à rajeunir le personnage principal.
 Ils réussissent à te faire endosser leurs bugs...
 Ils s'abandonnèrent à la pression timide.
 Ils s'aimaient davantage, chaque année, la fine Bordelaise et le chimiste pansu.
+Ils s'amusent peut-être à Paris.
 Ils s'attendaient à se faire attaquer par deux harpies.
 Ils s'en sont même remis à un assistant virtuel.
 Ils s'espacèrent et présentèrent les armes.
@@ -28223,6 +28231,7 @@ Je crois qu'elle a démissionné juste avant les vacances.
 Je crois qu'il file un mauvais coton.
 Je crois qu'il revient.
 Je crois qu'il va falloir accélérer ou nous serons en retard.
+Je crois qu'ils allaient visiter une maison de campagne.
 Je crois que Basque avait besoin des fauteuils pour le salon.
 Je crois que Julie apprécierait une omelette aux cèpes pour son dîner.
 Je crois que c'était une bande de touristes anglais.
@@ -29432,6 +29441,7 @@ Je ne m’en doute pas, monsieur Aronnax.
 Je ne m’en doute pas, répondit le Canadien.
 Je ne m’en doute pas.
 Je ne m’en irai pas!
+Je ne m’en souviens pas!
 Je ne m’en souviens plus du tout du tout.
 Je ne m’y fie pas, répondit Conseil.
 Je ne m’y oppose pas.
@@ -30526,6 +30536,7 @@ Je sais qu’on allait prendre quelque chose chez quelqu’un.
 Je sais tout cela depuis le début.
 Je sais un marchand d’habits qui vous prendra votre redingote et un pantalon.
 Je sais vos allures.
+Je sais à peu près quand c'est son anniversaire.
 Je sais être convaincant.
 Je sais, dit la Maheude, je les connais.
 Je sais, du moins, capitaine, ce que les principaux sondages nous ont appris.
@@ -30845,6 +30856,7 @@ Je suis sur le siège passager de la camionnette de mon père.
 Je suis sûr de ne pas me tromper de cinq cents toises.
 Je suis sûr de retrouver mes compagnons.
 Je suis sûr qu'il n'y a jamais eu de Laly.
+Je suis sûr qu'ils étaient venus pour quarante-huit heures.
 Je suis sûr qu’il n’y a jamais eu de Laly.
 Je suis sûre que Raphaëlle saura lui faire entendre raison.
 Je suis tailleur, mais je ne suis pas batailleur.
@@ -37481,6 +37493,7 @@ Le patron aimait les bidules qui défiaient les lois de la nature.
 Le patron daigna enfin quitter son piano et se tourner vers Momo.
 Le patron de nouveau se posa intérieurement ce point d’interrogation:
 Le patron du coutre remarqua la vitesse de la Durande.
+Le patron est devant, il est cramponné au volant.
 Le patron est un fameux sorcier, dit Godeschal.
 Le patron examina ce bleu.
 Le patron interrompit: — Seigneur...
@@ -37489,6 +37502,7 @@ Le patron ne travaille que pendant la nuit.
 Le patron nous a offert l'apéro.
 Le patron n’aime pas l’artillerie.
 Le patron salua, mais le vieillard ne le vit point.
+Le patron, sûrement, est sorti.
 Le pauvre Ned, désespéré, s’isola comme le capitaine Nemo.
 Le pauvre Robert, le brave Paganel n’avaient pas reparu.
 Le pauvre cher petit soulier!
@@ -42898,6 +42912,7 @@ Mais comment a-t-on pu faire cette supposition? demanda Kennedy.
 Mais comment allons-nous gagner le fond de la mer?
 Mais comment arriver jusqu’à eux
 Mais comment as-tu fait?
+Mais comment as-tu fait ce miracle?
 Mais comment atteindre au plateau?
 Mais comment auras-tu fait pour faire évader Mr. Halliburtt
 Mais comment avais-je abandonné le cours du ruisseau?
@@ -45457,6 +45472,7 @@ Moi, je le désirais et je le craignais à la fois.
 Moi, je le veux vivant.
 Moi, je l’ignore.
 Moi, je m'en suis aperçu tout à l'heure.
+Moi, je m'en vais dans le bureau.
 Moi, je me charge de la Cougourde.
 Moi, je me charge de mesdames d’Espard, de Maufrigneuse et de Grandlieu.
 Moi, je me comprends.
@@ -48681,6 +48697,7 @@ N’en déplaise à monsieur...
 N’en fais plus.
 N’en fait-il plus jaillir des tourbillons de mondes?
 N’en parlez pas aux autres, ajouta Harry Markel.
+N’en parlons plus, monsieur.
 N’en prends pas souci.
 N’en prenez pas la peine.
 N’en sont-ils pas capables pour le moment?
@@ -49877,6 +49894,7 @@ On le voit, rien n’est plus simple.
 On le voyait rarement dans le roufle.
 On le voyait rarement sur le pont.
 On le voyait sans cesse, on l’entendait toujours.
+On les a apportées tout à l'heure.
 On les a placés là pour les laisser mourir.
 On les acceptait, d’ailleurs, tels qu’ils venaient au bout de la canne
 On les acceptait, d’ailleurs, tels qu’ils venaient au bout de la canne.
@@ -51404,6 +51422,7 @@ Oui, j'ai compris.
 Oui, j'ai des explications à lui demander.
 Oui, j'ai essayé de te joindre la semaine dernière, mais tu étais absent.
 Oui, j'ai laissé ma voiture sur le petit chemin.
+Oui, j'entends marcher, là-haut.
 Oui, j'étais sûre que ma rêverie contenait le pressentiment d'un malheur réel.
 Oui, je comprends, mais ce soir je préfère être seul.
 Oui, je crois que j’ai... attrapé quelque chose.
@@ -53025,6 +53044,7 @@ Penses-tu, ils étaient drapés dans leur mépris, leur défiance du peuple.
 Pensez donc qu’il est onze heures du soir!
 Pensez que je ne vous vois plus jamais!
 Pensez que tous leurs meubles sont « Empire »!
+Pensez-vous que des gens comme ça puissent s'amuser à Paris?
 Pensez-vous que sa jaunisse soit contagieuse?
 Pensiez-vous à moi?
 Pensif, dans les buissons j’en cherchais le sentier.
@@ -53086,6 +53106,7 @@ Personne ne parla pendant le trajet, qui dura vingt minutes environ.
 Personne ne parlait.
 Personne ne parut à notre arrivée.
 Personne ne parut mettre en doute cette affirmation de Michel Ardan.
+Personne ne peut affirmer ça.
 Personne ne peut dire que j’ai un ego surdimensionné.
 Personne ne peut entrer en compétition avec une telle force promotionnelle.
 Personne ne peut faire que le bateau ne soit pas parti.
@@ -53947,6 +53968,7 @@ Pour qui? pour le mur, qu’il escaladera.
 Pour qui donc me prend-on!...
 Pour qui l’ignore, le mot hystérie vient du mot utérus.
 Pour qui me prends-tu, l’ami?
+Pour qui me prenez-vous donc?
 Pour qui nous prenez-vous, nous autres Anglais!
 Pour qu’il me les prononce autant qu’il me les transmette.
 Pour qu’il n’y ait plus de protège-slip.
@@ -54153,6 +54175,7 @@ Pourquoi ne me donne-t-on pas un fusil?
 Pourquoi ne me donne-t-on que la nuit?
 Pourquoi ne me tirerais-je pas d’affaire comme eux?
 Pourquoi ne met-on pas des taxes sur la production de plastique?
+Pourquoi ne m’as-tu pas dit cela plus tôt?
 Pourquoi ne m’avoir rien dit?
 Pourquoi ne nous envoie-t-elle pas les gendarmes?
 Pourquoi ne nous promenons-nous pas au-dehors comme ce bolide?
@@ -55081,6 +55104,7 @@ Qu'est-ce donc?
 Qu'est-ce qu'il a?
 Qu'est-ce qu'il a décidément?
 Qu'est-ce qu'il a fait?
+Qu'est-ce qu'il a à ricaner?
 Qu'est-ce qu'il aurait gagné?
 Qu'est-ce qu'il faut lui raconter, à celle-là?
 Qu'est-ce qu'il faut maintenant?
@@ -55111,6 +55135,8 @@ Qu'est-ce que je vous sers, mesdames?
 Qu'est-ce que tu as répondu?
 Qu'est-ce que tu attends?
 Qu'est-ce que tu dis?
+Qu'est-ce que tu fais ici?
+Qu'est-ce que tu fais ici, toi?
 Qu'est-ce que tu me racontes?
 Qu'est-ce que tu me veux
 Qu'est-ce que tu penses?
@@ -55124,6 +55150,7 @@ Qu'est-ce que vous dites?
 Qu'est-ce que vous dites, monsieur?
 Qu'est-ce que vous faites?
 Qu'est-ce que vous faites ce soir?
+Qu'est-ce que vous faites ici, monsieur?
 Qu'est-ce que vous m'avez dit?
 Qu'est-ce que vous me racontez là?
 Qu'est-ce que vous venez faire ici?
@@ -58389,6 +58416,7 @@ Répond Fulbert dans un sursaut.
 Répond, sinon je continue à faire sonner.
 Répondaient, au loin, d'autres intransigeants.
 Répondait l'ancien hussard au gendarme enjoignant de livrer passage.
+Répondez, je vous en prie.
 Répondirent mille voix éduquées au parterre des théâtres.
 Répondit l'avocat, assez contrarié de cette arrogance militaire.
 Répondit l'immense clameur de la multitude reconnaissante.
@@ -65804,6 +65832,7 @@ Voilà qui est tentant.
 Voilà qui plairait au Taulier de notre conte.
 Voilà un fil de pensée qui m’en a fait voir, des nœuds...
 Voilà un siècle qu'on ne vous a vu.
+Voilà une bonne semaine qu'ils sont ici.
 Voilà une horlogerie parfaitement huilée, qui fonctionne sans soucis.
 Voilà une idée et un espoir.
 Voilà une question qui a hanté des mois de ma période de non-écriture.
@@ -69983,6 +70012,7 @@ livre troisième commencement de la fêlure.
 livre troisième départ
 livre troisième l’enfant dans l’ombre.
 livre-toi tout entière à ce beau poème qui nous a tant occupées.
+ll est rentré en retard pour déjeuner.
 lors d'une jolie petite victoire.
 lors d'une leçon de dessin industriel.
 lors de la cérémonie Moi À Orion.
