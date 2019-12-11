@@ -719,7 +719,7 @@ show-ranking = Meine Bewertung ansehen
 ## Custom Goals
 
 get-started-goals = Erste Schritte mit Zielen
-create-custom-goal = Ein benutzerdefiniertes Ziel erstellen
+create-custom-goal = Ein eigenes Ziel erstellen
 both-speak-and-listen = Beides
 both-speak-and-listen-long = Beide (Sprechen und Hören)
 daily-goal = Tagesziel
@@ -732,7 +732,7 @@ lose-goal-progress-warning = Wenn Sie Ihr Ziel bearbeiten, verlieren Sie möglic
 want-to-continue = Möchten Sie fortfahren?
 finish-editing = Erst die Bearbeitung beenden?
 lose-changes-warning = Wenn Sie jetzt abbrechen, gehen Ihre Änderungen verloren
-build-custom-goal = Ein benutzerdefiniertes Ziel erstellen
+build-custom-goal = Ein eigenes Ziel erstellen
 help-reach-hours = Helfen Sie mit einem persönlichen Ziel dabei, { NUMBER($hours) } Stunden in { $language } zu erreichen
 help-reach-hours-general = Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { NUMBER($hours) } Stunden in einer Sprache zu erreichen
 set-a-goal = Ein Ziel setzen
