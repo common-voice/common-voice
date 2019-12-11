@@ -110,12 +110,47 @@ ru = Russ
 rw = Kinyarwanda
 sah = Sacha
 sc = Sard
+si = Singalais
+sk = Slovac
+sl = Sloven
+sq = Albanais
+sr = Serb
+sv-SE = Svedais
+sw = Suahili
+syr = Sirian
+ta = Tamil
+te = Telugu
+tg = Tadschic
+th = Tailandais
+tr = Türch
+tt = Tatar
+uby = Ubichic
+udm = Udmurt
+uk = Ucranais
+ur = Urdu
+uz = Usbec
+vi = Vietnamais
+vot = Votic
+zh-CN = Chinais (China)
+zh-HK = Chinais (Hong Kong)
+zh-TW = Chinais (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Discuorra
+speak-now = Discuorra uossa
+datasets = Unitats da datas
+languages = Linguas
+about = Purtret
+profile = Profil
+help = Agüd
+contact = Contact
+privacy = Protecziun da datas
+terms = Cundiziuns d'ütilisaziun
+cookies = Cookies
 
 ## Home Page
 
