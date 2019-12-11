@@ -94,6 +94,22 @@ mn = Mongolic
 mrj = Mari occidental
 mt = Maltais
 myv = Erzya
+nb-NO = Bokmål norvegiais
+ne-NP = Nepalais
+nl = Ollandais
+nn-NO = Nynorsk norvegiais
+oc = Occitan
+or = Odia
+pa-IN = Punjabi
+pl = Polac
+pt = Portugais
+rm-sursilv = Rumantsch Sursilvan
+rm-vallader = Rumantsch Vallader
+ro = Rumen
+ru = Russ
+rw = Kinyarwanda
+sah = Sacha
+sc = Sard
 
 # [/]
 
