@@ -748,6 +748,7 @@ profile-form-delete = Obriši profil
 
 ## Landing
 
+welcome-staff = Dobrodošli { $company } suradnici!
 help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaranjem Common Voice profila i doprinošenjem vlastitog glasa.
 login-company = Prijavi se / registriraj se putem e-pošte { $company }
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
