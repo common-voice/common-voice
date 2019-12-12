@@ -45,15 +45,126 @@ cs = Tschec
 cv = Chuvasch
 cy = Valisic
 da = Danais
+de = Tudais-ch
+dsb = Sorb bass
+dv = Dhivehi
+el = Grec
+en = Inglais
+eo = Esperanto
+es = Spagnöl
+et = Eston
+eu = Basc
+fa = Persian
+ff = Fulah
+fi = Finlandais
+fo = Feroais
+fr = Frances
+fy-NL = Frislandais
+ga-IE = Irlandais
+gl = Galizian
+ha = Hausa
+he = Ebraic
+hi-IN = Hindi
+hr = Croat
+hsb = Sorb ot
+hu = Ungarais
+ia = Interlingua
+id = Indonais
+is = Islandais
+it = Talian
+izh = Izhorian
+ja = Giapunais
+ka = Georgian
+kab = Cabil
+kk = Kasac
+ko = Corean
+kpv = Komi-zyrian
+ku = Curd
+kw = Cornic
+ky = Kirghis
+lij = Ligurais
+lt = Lituan
+lv = Letton
+mdf = Mokschan
+mg = Madagasc
+mhr = Mari oriental
+mk = Macedon
+ml = Malayalam
+mn = Mongolic
+mrj = Mari occidental
+mt = Maltais
+myv = Erzya
+nb-NO = Bokmål norvegiais
+ne-NP = Nepalais
+nl = Ollandais
+nn-NO = Nynorsk norvegiais
+oc = Occitan
+or = Odia
+pa-IN = Punjabi
+pl = Polac
+pt = Portugais
+rm-sursilv = Rumantsch Sursilvan
+rm-vallader = Rumantsch Vallader
+ro = Rumen
+ru = Russ
+rw = Kinyarwanda
+sah = Sacha
+sc = Sard
+si = Singalais
+sk = Slovac
+sl = Sloven
+sq = Albanais
+sr = Serb
+sv-SE = Svedais
+sw = Suahili
+syr = Sirian
+ta = Tamil
+te = Telugu
+tg = Tadschic
+th = Tailandais
+tr = Türch
+tt = Tatar
+uby = Ubichic
+udm = Udmurt
+uk = Ucranais
+ur = Urdu
+uz = Usbec
+vi = Vietnamais
+vot = Votic
+zh-CN = Chinais (China)
+zh-HK = Chinais (Hong Kong)
+zh-TW = Chinais (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Discuorra
+speak-now = Discuorra uossa
+datasets = Unitats da datas
+languages = Linguas
+about = Purtret
+profile = Profil
+help = Agüd
+contact = Contact
+privacy = Protecziun da datas
+terms = Cundiziuns d'ütilisaziun
+cookies = Cookies
+faq = Dumondas frequentas - FAQ
+content-license-text = Il cuntgnü sta a disposiziun suot üna <licenseLink>licenza da Creative Commons</licenseLink>
+share-title = Güda a nus da chattar otras persunas chi sun prontas da contribuir cun lur vusch!
+share-text = Güda a muossar a maschinas co cha persunas realas discuorran, contribuischa cun tia vusch sün { $link }
+link-copied = Copchà il link
+back-top = Tuornar al cumanzamaint
+logout = Sortir
 
 ## Home Page
 
+home-title = Common Voice es l'iniziativa da Mozilla per güdar a muossar a maschinas co cha persunas realas discuorran.
+home-cta = Doza tia vusch, contribuischa quia!
+wall-of-text-start = La vusch es natürala, la vusch es umana. Perquai ans fascinescha l'idea da s-chaffir üna tecnologia vocala nüzzaivla per nossas maschinas. Per s-chaffir sistems vocals voul quai però üna sfrachada datas da vuschs.
+wall-of-text-more-mobile = La gronda part da las datas chi vegnan dovradas da las grondas firmas nu sta a disposizun ad üna majorità da las persunas. Nus eschan da l'avis, cha quai retegna l'innovaziun. Perquai vaina lantschà Common Voice, ün proget chi güda a render la recugnuschentscha vocala accessibla a tuots.
 
 ## Account Benefits
 

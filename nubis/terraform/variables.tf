@@ -51,3 +51,7 @@ variable "public_client_ip_cidr" {
     "77.66.65.32/32",    #SRE-415
   ]
 }
+
+variable "extra_db_security_groups" {
+  default = "sg-0ecc9a6ef088edf61"
+}

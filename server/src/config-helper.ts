@@ -34,7 +34,7 @@ export type CommonVoiceConfig = {
 
 const DEFAULTS: CommonVoiceConfig = {
   VERSION: null, // Migration number (e.g. 20171205171637), null = most recent
-  RELEASE_VERSION: null, // release version set by nubis,
+  RELEASE_VERSION: process.env.GIT_COMMIT_SHA || null, // release version set by nubis,
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.
@@ -46,7 +46,7 @@ const DEFAULTS: CommonVoiceConfig = {
   MYSQLPORT: 3306,
   BUCKET_NAME: 'common-voice-corpus',
   BUCKET_LOCATION: '',
-  ENVIRONMENT: 'default',
+  ENVIRONMENT: process.env.ENVIRONMENT || 'default',
   SECRET: 'TODO: Set a secure SECRET in config.json',
   ADMIN_EMAILS: null,
   S3_CONFIG: {

@@ -1,18 +1,1 @@
-[
-  {
-    "valid": ["mrinmoyfun", "smearumi"],
-    "source": "General Conversation ",
-    "invalid": [],
-    "approved": true,
-    "sentence": "তোকে আমি খুব ভালোবাসি",
-    "username": "mrinmoyfun",
-    "createdAt": 1566232613028,
-    "approvalDate": 1571139828610,
-    "Sentences_Meta_UserVote_smearumi": true,
-    "Sentences_Meta_UserVote_mrinmoyfun": true,
-    "Sentences_Meta_UserVoteDate_smearumi": 1571139828610,
-    "Sentences_Meta_UserVoteDate_mrinmoyfun": 1566232627962,
-    "id": "511de91b773a6d25298e9b49a673b223a4470ddde061ff097f63bd665b0a3d5b",
-    "last_modified": 1571139829805
-  }
-]
+[{"valid":["mrinmoyfun","smearumi"],"source":"General Conversation ","invalid":[],"approved":true,"sentence":"তোকে আমি খুব ভালোবাসি","username":"mrinmoyfun","createdAt":1566232613028,"approvalDate":1571139828610,"Sentences_Meta_UserVote_smearumi":true,"Sentences_Meta_UserVote_mrinmoyfun":true,"Sentences_Meta_UserVoteDate_smearumi":1571139828610,"Sentences_Meta_UserVoteDate_mrinmoyfun":1566232627962,"id":"511de91b773a6d25298e9b49a673b223a4470ddde061ff097f63bd665b0a3d5b","last_modified":1571139829805}]
