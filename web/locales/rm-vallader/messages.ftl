@@ -163,6 +163,7 @@ logout = Sortir
 
 home-title = Common Voice es l'iniziativa da Mozilla per güdar a muossar a maschinas co cha persunas realas discuorran.
 home-cta = Doza tia vusch, contribuischa quia!
+wall-of-text-start = La vusch es natürala, la vusch es umana. Perquai ans fascinescha l'idea da s-chaffir üna tecnologia vocala nüzzaivla per nossas maschinas. Per s-chaffir sistems vocals voul quai però üna sfrachada datas da vuschs.
 
 ## Account Benefits
 
