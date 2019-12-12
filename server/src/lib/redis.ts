@@ -4,7 +4,7 @@ import { getConfig } from '../config-helper';
 
 export const redis = new Redis(getConfig().REDIS_URL);
 
-export const redlock = new Redlock([redis], { retryCount: -1 });
+export const redlock = new Redlock([redis]);
 
 export const useRedis = new Promise(resolve => {
   redis.on('ready', () => {
