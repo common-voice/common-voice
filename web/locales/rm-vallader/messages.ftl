@@ -162,6 +162,7 @@ logout = Sortir
 ## Home Page
 
 home-title = Common Voice es l'iniziativa da Mozilla per güdar a muossar a maschinas co cha persunas realas discuorran.
+home-cta = Doza tia vusch, contribuischa quia!
 
 ## Account Benefits
 
