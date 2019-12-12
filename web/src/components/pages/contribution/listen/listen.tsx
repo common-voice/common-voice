@@ -135,14 +135,9 @@ class ListenPage extends React.Component<Props, State> {
     trackListening('listen', this.props.locale);
   };
 
-  private vote = async (isValid: boolean) => {
+  private vote = (isValid: boolean) => {
     const { clips } = this.state;
-    const clipIndex = this.getClipIndex();
 
-    this.stop();
-    await this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
-    // this.props.vote() will update props values like challengeEnded, showFirstStreakBonus etc.
-    // So the following line must be run AFTER this.props.vote() has finished synchronously.
     const {
       showFirstContributionToast,
       hasEarnedSessionToast,
@@ -151,8 +146,14 @@ class ListenPage extends React.Component<Props, State> {
       showFirstStreakToast,
       challengeEnded,
     } = this.props;
+    const clipIndex = this.getClipIndex();
+
+    this.stop();
+    this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
+
     sessionStorage.setItem('challengeEnded', JSON.stringify(challengeEnded));
     sessionStorage.setItem('hasContributed', 'true');
+
     if (showFirstContributionToast) {
       addAchievement(
         50,
