@@ -38,6 +38,29 @@ function memoryCache<T, S>(f: Fn<T, S>, timeMs: number): Fn<T, S> {
   };
 }
 
+function renewRedisCache<T, S>(
+  key: string,
+  f: Fn<T, S>,
+  timeMs: number
+): Fn<T, S> {
+  return async (...args) => {
+    return new Promise(async resolve => {
+      let renewCache = true;
+
+      const lock = await redlock.lock(
+        key + '-lock',
+        1000 * 60 * 3 /*3 minutes*/
+      );
+
+      const value = await f(...args);
+      await redis.set(key, JSON.stringify({ at: Date.now(), value }));
+
+      lock.unlock();
+      resolve(value);
+    });
+  };
+}
+
 function redisCache<T, S>(
   cacheKey: string,
   f: Fn<T, S>,
@@ -53,29 +76,13 @@ function redisCache<T, S>(
       const cached = JSON.parse(result);
       value = cached.value;
       renewCache = isExpired(cached.at, timeMs);
+
+      if (renewCache) renewRedisCache(key, f, timeMs)(...args);
+      return value;
     }
 
-    if (!renewCache) return value;
-
     return new Promise(async resolve => {
-      const lock = await redlock.lock(
-        key + '-lock',
-        1000 * 60 * 3 /*3 minutes*/
-      );
-      const result = await redis.get(key);
-      if (result) {
-        const cached = JSON.parse(result);
-        renewCache = isExpired(cached.at, timeMs);
-        resolve(cached.value);
-      }
-
-      if (renewCache) {
-        value = await f(...args);
-        await redis.set(key, JSON.stringify({ at: Date.now(), value }));
-        resolve(value);
-      }
-
-      await lock.unlock();
+      resolve(await renewRedisCache(key, f, timeMs)(...args));
     });
   };
 }
