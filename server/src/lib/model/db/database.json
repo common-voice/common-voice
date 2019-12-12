@@ -1,6 +1,0 @@
-{
-  "dev": {
-    "driver": "mysql",
-    "multipleStatements": true
-  }
-}
