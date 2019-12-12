@@ -99,7 +99,8 @@ apache::vhost { $project_name:
       Header unset X-Content-Type-Options
     </Location>
 
-    ProxyPass / http://localhost:9000/ retry=0
+    ProxyTimeout 30
+    ProxyPass / http://localhost:9000/ retry=1
     ProxyPassReverse / http://localhost:9000/
 
 ",
