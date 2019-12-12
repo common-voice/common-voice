@@ -152,9 +152,16 @@ privacy = Protecziun da datas
 terms = Cundiziuns d'ütilisaziun
 cookies = Cookies
 faq = Dumondas frequentas - FAQ
+content-license-text = Il cuntgnü sta a disposiziun suot üna <licenseLink>licenza da Creative Commons</licenseLink>
+share-title = Güda a nus da chattar otras persunas chi sun prontas da contribuir cun lur vusch!
+share-text = Güda a muossar a maschinas co cha persunas realas discuorran, contribuischa cun tia vusch sün { $link }
+link-copied = Copchà il link
+back-top = Tuornar al cumanzamaint
+logout = Sortir
 
 ## Home Page
 
+home-title = Common Voice es l'iniziativa da Mozilla per güdar a muossar a maschinas co cha persunas realas discuorran.
 
 ## Account Benefits
 
