@@ -50,16 +50,21 @@ skip_no_pk_table = false
 schema = "{{ if exists "/config/Database/Name" }}{{ getv "/config/Database/Name" }}{{ else }}voiceweb{{ end }}"
 
 tables = [
+ "achievements",
  "awards",
+ "challenges",
  "clips",
  "custom_goals",
  "downloaders",
+ "earn",
+ "enroll",
  "language_requests",
  "locales",
  "reported_clips",
  "reported_sentences",
  "requested_languages",
  "skipped_sentences",
+ "teams",
  "user_client_accents",
  "user_client_activities",
  "votes",
