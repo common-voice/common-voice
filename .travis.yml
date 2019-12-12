@@ -32,7 +32,7 @@ script:
   - docker run "$IMAGE_NAME" yarn check
   - docker run "$IMAGE_NAME" yarn check --integrity
   - docker run "$IMAGE_NAME" yarn check --verify-tree
-  - yarn
+  - yarn install --frozen-lockfile
   - yarn test
 before_deploy:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
