@@ -171,6 +171,11 @@ wall-of-text-second = La gronda part da las datas chi vegnan dovradas da las gro
 show-wall-of-text = Ulteriuras infuormaziuns
 help-us-title = Güda a nus a controllar las construcziuns!
 help-us-explain = Schmacha play, taidla e fa a savair a nus: vegn la construcziun suotvart pronunziada inandret?
+no-clips-to-validate = Sco chi para nu daja in quista lingua ingüns clips per tadlar. Güda a nus a cumplettar quista fila cun far uossa üna registraziun.
+vote-yes = Schi
+vote-no = Na
+toggle-play-tooltip = Schmacha { shortcut-play-toggle } per cumanzar culla reproducziun.
+speak-subtitle = Contribuischa cun tia vusch
 
 ## Account Benefits
 
