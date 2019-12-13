@@ -186,6 +186,20 @@ hours-validated = Uras verifichadas
 voices-online = Vuschs online in quist mumaint
 todays-progress = Progress hoz
 help-reach-goal = Güda a nus a ragiundscher { $goal }
+read-terms-q = Hast let nossas cundiziuns d'ütilisaziun?
+ready-to-record = Est pront/pronta da contribuir cun tia vusch?
+all-locales = Tuot
+today = Hoz
+x-weeks-short =
+    { $count ->
+        [one] eivna
+       *[other] { $count } eivnas
+    }
+x-months-short =
+    { $count ->
+        [one] mais
+       *[other] { $count } mais
+    }
 
 ## Account Benefits
 
