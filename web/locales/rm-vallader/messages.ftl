@@ -169,13 +169,23 @@ wall-of-text-more-desktop = Tü poust uossa contribuir cun tia vusch per güdar 
 wall-of-text-first = La vusch es natürala, la vusch es umana. Perquai eschan nus be fö e flomma da s-chaffir üna tecnologia vocala nüzzaivla per nossas maschinas. Per s-chaffir sistems vocals han ils sviluppaders però dabsögn dad üna sfrachada datas da vuschs.
 wall-of-text-second = La gronda part da las datas chi vegnan dovradas da las grondas firmas nu sta a disposizun ad üna majorità da las persunas. Nus eschan da l'avis cha quai retegna l'innovaziun. Perquai vaina lantschà Common Voice, ün proget chi güda a render la recugnuschentscha vocala accessibla a tuots.
 show-wall-of-text = Ulteriuras infuormaziuns
-help-us-title = Güda a nus a controllar las construcziuns!
+help-us-title = Güda a nus a verifichar las construcziuns!
 help-us-explain = Schmacha play, taidla e fa a savair a nus: vegn la construcziun suotvart pronunziada inandret?
 no-clips-to-validate = Sco chi para nu daja in quista lingua ingüns clips per tadlar. Güda a nus a cumplettar quista fila cun far uossa üna registraziun.
 vote-yes = Schi
 vote-no = Na
 toggle-play-tooltip = Schmacha { shortcut-play-toggle } per cumanzar culla reproducziun.
 speak-subtitle = Contribuischa cun tia vusch
+speak-paragraph = La registraziun da clips da vuschs es üna part essenziala per s-chaffir nossa unità da datas averta; blers dischan cha quai saja eir la part divertaivla.
+speak-goal-text = Clips registrats
+listen-subtitle = Güda a nus a verifichar vuschs
+listen-paragraph = Verifichar ils clips contribuits es güst uschè important per la mischiun da Common Voice. Taidla bain e güda a nus a s-chaffir datas da vuschs open source da qualità.
+listen-goal-text = Clips verifichats
+hours-recorded = Uras registradas
+hours-validated = Uras verifichadas
+voices-online = Vuschs online in quist mumaint
+todays-progress = Progress hoz
+help-reach-goal = Güda a nus a ragiundscher { $goal }
 
 ## Account Benefits
 
