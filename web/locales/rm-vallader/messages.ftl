@@ -200,6 +200,14 @@ x-months-short =
         [one] mais
        *[other] { $count } mais
     }
+x-years-short =
+    { $count ->
+        [one] on
+       *[other] ons
+    }
+help-make-dataset = Güda a nus a s-chaffir ün'unità da datas chi'd es dad ota qualità ed accessibla al public
+sign-up-account = Registrescha't per ün conto
+email-subscription-title = Abunescha novitats per e-mail
 
 ## Account Benefits
 
