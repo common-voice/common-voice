@@ -208,9 +208,12 @@ x-years-short =
 help-make-dataset = Güda a nus a s-chaffir ün'unità da datas chi'd es dad ota qualità ed accessibla al public
 sign-up-account = Registrescha't per ün conto
 email-subscription-title = Abunescha novitats per e-mail
+email-subscription-title-new = T'annunzcha per tschüffer novitats ed acutalisiaziuns dal progress o per gnir trat adimmaint da böts
 
 ## Account Benefits
 
+benefits = Avantags
+rich-data = Renda tias datas inoltradas uschè nüzziaivlas co pussibel cun indichar inchünas datas demograficas anonimas. Tuot las datas demograficas vegnan anonimisadas avant co esser publichadas.
 
 ## What's public
 
