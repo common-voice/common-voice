@@ -214,6 +214,7 @@ email-subscription-title-new = T'annunzcha per tschüffer novitats ed acutalisia
 
 benefits = Avantags
 rich-data = Renda tias datas inoltradas uschè nüzziaivlas co pussibel cun indichar inchünas datas demograficas anonimas. Tuot las datas demograficas vegnan anonimisadas avant co esser publichadas.
+improve-audio = Las datas dal profil augmaintan la qualità da las datas da tun chi vegnan dovradas per trenar la precisiun da la recugnuschentscha vocala.
 
 ## What's public
 
