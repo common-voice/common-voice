@@ -346,9 +346,12 @@ class App extends React.Component {
       return;
     }
     const Sentry = await import('@sentry/browser');
-    Sentry.init({
-      dsn: 'https://e0ca8e37ef77492eb3ff46caeca385e5@sentry.io/1352219',
-    });
+
+    const dsn = isProduction()
+      ? 'https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491'
+      : 'https://553b76047f07421790c3a7a2fc71ecb6@sentry.prod.mozaws.net/492';
+
+    Sentry.init({ dsn });
     Sentry.withScope(scope => {
       Object.keys(errorInfo).forEach(key => {
         scope.setExtra(key, errorInfo[key]);
