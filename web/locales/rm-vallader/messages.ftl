@@ -215,24 +215,109 @@ email-subscription-title-new = T'annunzcha per tschüffer novitats ed acutalisia
 benefits = Avantags
 rich-data = Renda tias datas inoltradas uschè nüzziaivlas co pussibel cun indichar inchünas datas demograficas anonimas. Tuot las datas demograficas vegnan anonimisadas avant co esser publichadas.
 improve-audio = Las datas dal profil augmaintan la qualità da las datas da tun chi vegnan dovradas per trenar la precisiun da la recugnuschentscha vocala.
+keep-track = Resta al curraint da teis progress e tia statistica in differentas linguas.
+compare-progress = Conguala teis progress cun las contribuziuns dad otras persunas da tuot il muond.
+view-goals = Conguala teis progress cun teis böts persunals e quels dal proget.
+join-newsletter = Tü poust t'inscriver sün nossa glista per tschüffer e-mails cun novitats ed infuormaziuns davart il proget.
 
 ## What's public
 
+whats-public = Che es public?
+email-not-public = Nus nu publichain tia adressa dad e-mail.
+recordings-and-locale-public = La quantità da tias registraziuns e l'infuormaziun in che linguas cha tü contribuischast vegnan publichadas.
+username-optin-public = Tü decidast, scha teis nom d'ütilisader vegn publichà o resta anonim.
+demographic-deidentified = Infuormaziuns demograficas facultativas (p. ex. età, schlatta, lingua ed accent) vegnan separadas da tias datas da vusch inoltradas e nu vegnan mai publichadas sün teis profil.
+username-email-not-demographic = Teis nom d'ütilisader e tia adressa dad e-mail nu vegnan colliats cun las datas publichadas.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Play/Stop
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = h
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Registrar/Stop
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Repeter la registraziun dal clip
+request-language-text = Tia lingua nu daja amo sün Common Voice?
+request-language-button = Giavüscha't üna lingua
 
 ## ProjectStatus
 
+status-title = Status general dal proget: guarda quant inavant cha nus eschan fingià rivats!
+status-contribute = Contribuischa cun tia lingua!
+status-hours =
+    { $hours ->
+        [one] Fin uossa ün'ura verfichada!
+       *[other] Fin uossa { $hours } uras verifichadas!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Prossem böt: { $goal }
+english = Inglais
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nom d'ütilisader
+profile-form-native-language =
+    .label = Lingua materna
+profile-form-additional-language =
+    .label = Lingua supplementara
+profile-form-accent =
+    .label = Accent
+profile-form-age =
+    .label = Età
+profile-form-gender =
+    .label = Schlatta
+leaderboard-visibility =
+    .label = Visibilità sülla glista dals meglders
+hidden = Na muossar
+visible = Muossar
+native-language =
+    .label = Lingua materna
+profile-form-submit-save = Memorisar
+profile-form-submit-saved = Memorisà
+male = Masculin
+female = Feminin
+# Gender
+other = Oter
+why-profile-title = Perche ün profil?
+why-profile-text = Cun indichar ün pêr infuormaziuns davart tia persuna rendast las datas da tun cha tü inoltreschast a Common Voice plü nüzziaivlas per las maschinas da recugnuschentscha vocala. Quistas maschinas douvran quistas datas per amegldrar lur precisiun.
+dashboard = Survista
+build-profile = Crear ün profil
+avatar = Avatar
+goals = Böts
+settings = Parameters
+edit-profile = Modifichar il profil
+profile-create-success = Bravo, teis profil es fat!
+profile-close = Serrar
+profile-explanation = Resta al curraint da teis progress cun ün profil e güda a nossas datas a dvantar plü precisas.
+thanks-for-account = Grazcha per confirmar teis conto. Uossa faina teis profil.
+why-demographic = Perche es quai relevant?
+why-demographic-explanation = Datas d'ütilisader anonimisadas, p. ex. età, schlatta, lingua ed accent, güdan ad augmantar la qualità da las datas chi vegnan dovradas per trenar la precisiun da las maschinas da recugnuschentscha vocala. Teis nom d'ütilisader e tia adressa dad e-mail nu vegnan colliats cun tias datas inoltradas e tü poust decider, scha teis nom d'ütilisader es public o anonim.
+accept-privacy = Eu accept cha vus trattais quistas infuormaziuns sco cha vus declerais aint illa <privacyLink>decleraziun davart la protecziun da datas</privacyLink> da Mozilla.
+accept-privacy-title = Decleraziun davart la protecziun da datas
+login-identity = Identità d'annunzcha
+login-signup = S'annunzchar/Registrar
+edit = Modifichar
+email-subscriptions = Abunmaints dad e-mail
 
 ## FAQ
 
