@@ -26,6 +26,10 @@ const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
+const RELEASE_VERSION = getConfig().RELEASE_VERSION;
+const ENVIRONMENT = getConfig().ENVIRONMENT;
+const PROD = getConfig().PROD;
+const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
 
 const CSP_HEADER = [
   `default-src 'none'`,
@@ -60,7 +64,7 @@ export default class Server {
     this.isLeader = null;
 
     // Make console.log output json.
-    if (getConfig().PROD) {
+    if (PROD) {
       this.logger.overrideConsole();
     }
 
@@ -122,10 +126,22 @@ export default class Server {
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
-        // Only use CSP locally. In production, Apache handles CSP headers.
-        // See path: nubis/puppet/web.pp
-        !getConfig().PROD &&
+        // Basic Information
+        response.set('X-Release-Version', RELEASE_VERSION);
+        response.set('X-Environment', ENVIRONMENT);
+
+        // Production specific security-centric headers
+        response.set('X-Production', PROD ? 'On' : 'Off');
+        if (PROD) {
           response.set('Content-Security-Policy', CSP_HEADER);
+          response.set('X-Content-Type-Options', 'nosniff');
+          response.set('X-XSS-Protection', '1; mode=block');
+          response.set('X-Frame-Options', 'DENY');
+          response.set(
+            'Strict-Transport-Security',
+            'max-age=' + SECONDS_IN_A_YEAR
+          );
+        }
       },
     };
 
