@@ -8,6 +8,10 @@ email-input =
     .label = ای میل
 submit-form-action = ‏‏جمع کریں
 loading = لوڈ ہو رہا ہے…
+email-opt-in-info = کامن وائس  کے بارے میں ای میل موصول کریں جیسے چیلنج اور گول یاددہانی ، پیشرفت کی تازہ ترین معلومات ، اور نیوز لیٹر۔
+email-opt-in-info-title = کامن وائس میلنگ لسٹ میں شامل ہوں
+email-opt-in-info-sub-with-challenge = کامن وائس  کے بارے میں ای میل موصول کریں جیسے چیلنج اور گول یاددہانی ، پیشرفت کی تازہ ترین معلومات ، اور نیوز لیٹر۔
+email-opt-in-privacy = ای میل  موصول کرنے کا انتخاب کرتے ہوئے آپ Mozilla کو یہ معلومات سنبھالنے کے لئے مناسب  ہیں۔جیسا Mozilla کی <privacyLink> پرائیوسی پالیسی <privacyLink> میں وضاحت کیا  گیا ہے
 indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا ہے
 not-available-abbreviation = عدم دستیاب
 
@@ -18,12 +22,18 @@ not-available-abbreviation = عدم دستیاب
 ## Languages
 
 ab = ابخاز
+ace = Acehnese
+ady = Adyghe
 af = افریقانی
+am = امہارى
 an = ایراگونیز
 ar = عربى
+arn = میپودنگن
 as = آسامی
 ast = اسٹورین
 az = آذر بائیجان
+ba = باشکیرس
+be = بیلارسائی
 bg = بلغاریائی
 bn = بنگالی
 br = بریٹن
@@ -68,27 +78,38 @@ ka = جارجيائى
 kab = کیبل
 kk = کازخ
 ko = کوریائِی
+kpv = کومی زائرین
 ku = کرد
 kw = کورناش
 ky = کرغز
 lij = لیغورین
 lt = لیتھونیائی
 lv = لیٹویائی
+mdf = موکشا
 mg = مالاگاسی
+mhr = میڈوو ماری
 mk = مقدونیائی
 ml = ملیالم
 mn = منگولیائی
+mrj = ہل ماری
+mt = مالٹیائی
 myv = ایرزیا
+nb-NO = نارویجین بوکمل
 ne-NP = نیپالی
 nl = ڈچ
 nn-NO = نورویجیئن نینورسک
+oc = آكسيٹان
 or = اوڈیا
 pa-IN = پنجابی
 pl = پولش
 pt = پرتگالی
+rm-sursilv = رومانش سورسلوان
+rm-vallader = رومنش ویلڈر
 ro = پیش قدمی
 ru = روسی
+rw = كنیاروندا
 sah = سکھا
+sc = سارڈینی
 si = سنہالہ
 sk = سلافی
 sl = سلاوینائی
@@ -103,10 +124,13 @@ tg = تاجک
 th = تھائى
 tr = ترک
 tt = ‏‏طاطاری
+uby = اوبیخ
+udm = اڈمورٹ
 uk = یوکرینی
 ur = اردو
 uz = ازبک
 vi = ویتنامی
+vot = ووٹک
 zh-CN = چینی (چین)
 zh-HK = چینی (ہانگ کانگ)
 zh-TW = چینی (تائیوان)
@@ -137,7 +161,11 @@ logout = لاگ آؤٹ
 
 ## Home Page
 
+home-title = کامن وائس موزیلا کا پہل ہے تاکہ مشینوں کو یہ سکھانے میں مدد ملے کہ حقیقی لوگ کیسے بولتے ہیں۔
 home-cta = بولیں، یہاں تعاون کریں!
+wall-of-text-start =
+    آواز فطری ہے ، آواز انسان ہے۔ اسی لئے ہم اپنی مشینو  کے لئے قابلے  استعمال 
+    وائس  ٹیکنالوجی  پیدا کرنے میں مگن ہیں، لیکن وائس  سسٹم  بنانے کے لئے  ایک بہت بڑی مقدار میں اعداد و شمار کی ضرورت ہے.
 show-wall-of-text = مزید پڑھیں
 help-us-title = جملوں کی توثیق کرنے میں ہماری مدد کریں
 help-us-explain = دبائیں چلائیں سن اور ہمیں بتائیں کہ: کیا انہوں نے درج ذیل بلکل درست ادا کیا ؟
@@ -146,8 +174,14 @@ vote-yes = ہاں
 vote-no = نہیں
 speak-subtitle = اپنی آواز کا عطیہ کریں
 speak-goal-text = رکارڈ شدہ تراشے
+listen-goal-text = کلپس کی توثیق
+hours-recorded = اوقات ریکارڈ
+hours-validated = اوقات کی توثیق
 voices-online = آوازیں جو ابھی آن لائن ہیں
 todays-progress = آج کی پیش رفت
+help-reach-goal = { $goal } حاصل کرنے میں ہماری مدد کریں
+read-terms-q = کیا آپ نے ہماری شرائط پڑھی ہیں؟
+ready-to-record = آپ کی آواز عطیہ کرنے کے لئے تیار ہیں؟
 all-locales = تمام
 today = آج
 x-weeks-short =
@@ -155,7 +189,20 @@ x-weeks-short =
         [one] ہفتہ
        *[other] { $count } ہفتہ
     }
+x-months-short =
+    { $count ->
+        [one] ماہ { $count }
+       *[other] ماہ { $count }
+    }
+x-years-short =
+    { $count ->
+        [one] سال { $count }
+       *[other] سال { $count }
+    }
+help-make-dataset = اعلٰی معیار کی ، عوامی طور پر کھلا ڈیٹاسیٹ بنانے میں ہماری مدد کریں
 sign-up-account = ایک اکاؤنٹ کے لئے سائن اپ کریں
+email-subscription-title = ای میل کی تازہ کاریوں کے لئے سائن اپ کریں
+email-subscription-title-new = کامن وائس نیوز لیٹرز ، گول یاد دہانیوں اور پیشرفت کی تازہ کاریوں کیلئے سائن اپ کریں
 
 ## Account Benefits
 
@@ -222,6 +269,8 @@ profile-form-age =
     .label = عمر
 profile-form-gender =
     .label = جنس
+leaderboard-visibility =
+    .label = لیڈر بورڈ کی نمائش
 hidden = پوشیدہ
 visible = ‏‏مرئی
 native-language =
@@ -243,12 +292,16 @@ edit-profile = پروفائل کی تدوین کریں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
 profile-explanation = ایک پروفائل کے ساتھ اپنی پیش رفت پر سراغ رکھیں اور ہماری صوتی کوائف کی مزید درستگی  میں مدد کریں
+thanks-for-account = آپ کے اکاؤنٹ کی تصدیق کرنے کے لئے شکریہ ، اب آپ اپنا پروفائل بنائیں۔
 why-demographic = یہ اہم کیوں ہے؟
 accept-privacy-title = رازداری پالیسی
+login-identity = لوگن پہچان
 login-signup = لاگ ان کریں / سائن اپ کریں
 edit = تدوین
 email-subscriptions = ایمیل رکنیت
 download-profile = میرے کوائف ڈائونلوڈ کریں
+contribution-experience = شراکت کا تجربہ
+skip-submission-feedback = سب مشن فیڈبیک چھوڑ دیں
 off = بند
 on = چالو
 retry-voice-wave-recording = پھر کوشش کريں
