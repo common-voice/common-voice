@@ -334,6 +334,11 @@ retry-voice-wave-recording = REPETER
 re-record = REGISTRESCHA AMO ÜNA JADA
 delete-voice = STÜDER
 recording-voice-wave = Registrar
+delete-voice-clip = o stüda clip vocal
+ready-to-upload = CHARGIAR SÜ
+avatar-clip-fact = I's sa fingià lönch, cha il layout dad üna pagina d'internet distratta il lectur dürant cha'l legia il cuntgnü da quista.
+recreate-voice = Recrear Voicewave
+cancel-avatar-clip-recording = INTERRUMPER
 
 ## FAQ
 
