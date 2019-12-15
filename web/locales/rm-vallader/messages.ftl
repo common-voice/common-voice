@@ -322,7 +322,18 @@ download-profile = Telechargiar mias datas
 contribution-experience = Experienza da las contribuziuns
 skip-submission-feedback = Sursaglir la pagina per dar resun
 skip-submission-description = Dürant cha tü contribuischast poust sursiglir il formular da resun davo cha hast cliccà 'trametter'. Lura seguan directamaing las prossmas tschinch  registraziuns o verificaziuns.
-skip-submission-note = Remarcha: Sco fin uossa stoust inavant tscherner tanter Discuorrer e Tadlar per müdar il tip da contribuziun.
+skip-submission-note = Remarcha: Tü stoust inavant tscherner tanter Discuorrer e Tadlar per müdar il tip da contribuziun.
+off = Deactivar
+on = Activar
+avatar-clip-title = Da üna vusch a teis avatar
+change-your-avatar-clip = Voust müdar teis clip vocal?
+recording-in-progress = Registraziun in cuorsa
+avatar-clip-recorded = Teis avatar ha uossa ün clip vocal!
+record-voice-wave = REGISTRESCHA TIA VUSCH
+retry-voice-wave-recording = REPETER
+re-record = REGISTRESCHA AMO ÜNA JADA
+delete-voice = STÜDER
+recording-voice-wave = Registrar
 
 ## FAQ
 
