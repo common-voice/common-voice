@@ -321,6 +321,8 @@ email-subscriptions = Abunmaints dad e-mail
 download-profile = Telechargiar mias datas
 contribution-experience = Experienza da las contribuziuns
 skip-submission-feedback = Sursaglir la pagina per dar resun
+skip-submission-description = Dürant cha tü contribuischast poust sursiglir il formular da resun davo cha hast cliccà 'trametter'. Lura seguan directamaing las prossmas tschinch  registraziuns o verificaziuns.
+skip-submission-note = Remarcha: Sco fin uossa stoust inavant tscherner tanter Discuorrer e Tadlar per müdar il tip da contribuziun.
 
 ## FAQ
 
