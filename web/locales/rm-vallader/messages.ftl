@@ -339,9 +339,23 @@ ready-to-upload = CHARGIAR SÜ
 avatar-clip-fact = I's sa fingià lönch, cha il layout dad üna pagina d'internet distratta il lectur dürant cha'l legia il cuntgnü da quista.
 recreate-voice = Recrear Voicewave
 cancel-avatar-clip-recording = INTERRUMPER
+about-avatar-clip-recording = Registrescha ün clip vocal chi fa part da teis avatar da profil. Oters pudaran selecziunar teis clip culla mür per tadlar el.
+browse-file-title = Chargia sü ün purtret
+browse-file = drag and drop o <browseWrap>tscherchar</browseWrap>
+connect-gravatar = Colliar cun Gravatar
+gravatar_not_found = Chattà ingün Gravatar per tia adressa dad e-mail
+file_too_large = La datoteca cha tü hast tschernü es massa gronda
+manage-subscriptions = Administrar teis abunamaints
+manage-email-subscriptions = Administrar ils abunamaints dad e-mail
+email-already-used = Quist'adressa dad e-mail vegn fingià dovrada per ün oter conto
+add-language = Agiundscher üna lingua
+change-email-setings = Tü poust müdar tia adressa dad e-mail aint illas preferenzas suot l'identità d'annunzcha
 
 ## FAQ
 
+faq-title = Dumondas frequentas
+faq-what-cv-q = Che es Common Voice?
+faq-why-important-q = Perche es quai important?
 
 ## ABOUT US
 
