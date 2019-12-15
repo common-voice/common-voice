@@ -174,6 +174,7 @@ vote-yes = ہاں
 vote-no = نہیں
 speak-subtitle = اپنی آواز کا عطیہ کریں
 speak-goal-text = رکارڈ شدہ تراشے
+listen-subtitle = آواروں کی توثیق کرنے میں ہماری مدد کریں
 listen-goal-text = کلپس کی توثیق
 hours-recorded = اوقات ریکارڈ
 hours-validated = اوقات کی توثیق
@@ -211,6 +212,7 @@ benefits = فوائد
 ## What's public
 
 whats-public = عوامی کیا ہے؟
+email-not-public = ہم آپ کے ای میل کو عوامی نہیں بنائیں گے۔
 
 ## Speak & Listen Shortcuts
 
@@ -319,8 +321,12 @@ add-language = زبان شامل کریں
 faq-title = اکثر پوچھے گئے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = یہ اہم کیوں ہے؟
+faq-how-get-q = میں کامن وائس کا ڈیٹا کیسے حاصل کرسکتا ہوں؟
+faq-when-release2-q = آپ کب  دوسری زبانوں میں کامن وائس کا ڈیٹا جاری کریں گے؟
+faq-why-mission-q = Mozilla کی مہم کا Common Voice حصۃ کیوں ہے؟
 faq-why-my-lang-q = میری زبان ابھی تک کیوں شامل نہیں ہے؟
 faq-where-src-from-2-q = ماخز متن کہاں سے آتا ہے؟
+faq-why-account-q = میں اکاؤنٹ میں سائن اپ کیوں کروں؟
 faq-is-account-public-q = کیا میرے اکاؤنٹ کی معلومات عوامی ہیں؟
 faq-what-is-cv = Common Voice کیا ہے؟
 faq-using-cv = Common Voice کا استعمال کرنا
@@ -333,6 +339,7 @@ about-title = Common Voice کیوں؟
 how-does-it-work-title = یہ کس طرح کام کرتا ہے
 about-speak = بولیں
 about-listen = سنیں
+about-is-it-valid = کیا یہ تراشہ درست ہے؟
 about-dataset-new = Common Voice ڈیٹاسیٹ
 about-partners = ساتھی
 about-become-a-partner = شراکت دار بنیں۔
@@ -509,9 +516,12 @@ recordings =
 
 your-languages = آپ کی زبانیں
 toward-next-goal = اگلے مقصد کی طرف
+clips-you-recorded = آپ کے پاس ریکارڈ کردہ تراشے
+clips-you-validated = آپ کے توثیق شدہ تراشے
 awards = ایوارڈ
 you = آپ
 everyone = تمام
+recorded-clips = ریکارڈ شدہ تراشے
 
 ## Custom Goals
 
@@ -523,6 +533,7 @@ pro-difficulty = پرو
 want-to-continue = کیا آپ جاری رکھنا چاہتے ہیں؟
 set-a-goal = ایک مقصد طے کریں
 cant-decide = فیصلہ نہیں کر سکتے۔
+how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
 n-clips = { NUMBER($count) } تراشے
 goal-interval-weekly = ہفتہ وار
 share-goal-type-speak = بولنا
