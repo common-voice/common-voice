@@ -318,6 +318,9 @@ login-identity = Identità d'annunzcha
 login-signup = S'annunzchar/Registrar
 edit = Modifichar
 email-subscriptions = Abunmaints dad e-mail
+download-profile = Telechargiar mias datas
+contribution-experience = Experienza da las contribuziuns
+skip-submission-feedback = Sursaglir la pagina per dar resun
 
 ## FAQ
 
