@@ -377,9 +377,16 @@ about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Artefarita intelekto
+mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo.¶Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
 
 ## Glossary
 
+glossary = Glosaro
+localization = Traduko
+localization-explanation = Temas pri nia procezo traduki kaj adapti la enhavon al pluraj lingvoj.
+sentence-collection = Kolekto de frazoj
 sst = Voĉrekono (Speech-to-text, STT)
 sst-explanation = Voĉrekoniloj (STT) transformas voĉon en tekston.
 de-identified = Anonimigita
@@ -434,6 +441,9 @@ why-email = <b>Kial ni petas retpoŝton</b> Ni povus bezoni kontakti vin en la e
 confirm-size = Vi pretas komenci la elŝuton de <b>{ $size }</b>
 size-gigabyte = GO
 size-megabyte = MO
+download-language = Elŝuti { $language }
+validated-hours = Validigitaj horoj
+recorded-hours = Registritaj horoj
 subscribe = Aboni
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
@@ -555,6 +565,11 @@ report-difficult-pronounce = Malfacile eldirebla
 report-difficult-pronounce-detail = La frazo enhavas vortojn, kiuj estas malfacile legeblaj aŭ eldireblaj.
 report-offensive-speech = Ofenda lingvaĵo
 report-offensive-speech-detail = La voĉregistro enhavas malrespektan aŭ ofendan lingvaĵon.
+report-other-comment =
+    .placeholder = Komenti
+success = Sukceso
+continue = Daŭrigi
+report-success = Raporto sukcese sendita
 
 ## Goals
 
