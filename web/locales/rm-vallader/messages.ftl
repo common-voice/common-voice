@@ -363,6 +363,8 @@ faq-why-important-q = Perche es quai important?
 faq-why-important-a =
     Discuorrer es suvent il möd il plü natüral per comunichar ün cun tschel e tecnologias vocalas rendan quista comodità nüzzaivla per noss computers ed apparats mobils. Nus lain render pussibel a sviluppaders da construir applicaziuns da recugnuschentscha vocala chi san far star stut, sco p. ex. applicaziuns chi tradüan in temp real o assistents digitals chi san discuorrer. Mo pel mumaint sun las datas da vuschs chi voul per construir quistas applicaziuns charas e protettas cun drets d'auturs. Nus sperain cha la collecziun da datas da Common Voice detta als sviluppaders quai ch'els douvran per innovar e render la tecnologia vocala accessibla in lur aigna lingua.¶
     ¶
+    Per render la recugnuschentscha vocala amo plü universala nu ramassaina be registraziuns in linguas derasadas, ma eir in linguas chi vegnan discurrüdas da populaziuns plü pitschnas e nu vegnan suvent na resguardadas adequatamaing da servizis commercials da recugnuschentscha vocala. Cun publichar üna vasta collecziun da datas güdaina a sviluppaders, impressaris e comunitats dad implir svessa quista locca.
+faq-how-get-q = Co survegn eu las datas da Common Voice?
 
 ## ABOUT US
 
