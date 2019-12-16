@@ -112,11 +112,4 @@ apache::vhost { $project_name:
 
       # Security Headers
     ],
-    rewrites           => [
-      {
-        comment      => 'HTTPS redirect',
-        rewrite_cond => ['%{HTTP:X-Forwarded-Proto} =http'],
-        rewrite_rule => ['. https://%{HTTP:Host}%{REQUEST_URI} [L,R=permanent]'],
-      }
-    ]
 }
