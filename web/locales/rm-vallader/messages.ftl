@@ -360,6 +360,9 @@ faq-what-cv-a =
     
     Nus nu ramassain be registraziuns in linguas fich derasadas, ma eir in linguas chi vegnan discurrüdas da populaziuns plü pitschnas. Cun publichar üna vasta collecziun da datas güdaina a sviluppaders, impressaris e comunitats dad implir svessa quista locca. Sper la banca da datas Common Voice sviluppaina eir üna maschina da recugnuschentscha vocala open source cul nom Deep Speech.
 faq-why-important-q = Perche es quai important?
+faq-why-important-a =
+    Discuorrer es suvent il möd il plü natüral per comunichar ün cun tschel e tecnologias vocalas rendan quista comodità nüzzaivla per noss computers ed apparats mobils. Nus lain render pussibel a sviluppaders da construir applicaziuns da recugnuschentscha vocala chi san far star stut, sco p. ex. applicaziuns chi tradüan in temp real o assistents digitals chi san discuorrer. Mo pel mumaint sun las datas da vuschs chi voul per construir quistas applicaziuns charas e protettas cun drets d'auturs. Nus sperain cha la collecziun da datas da Common Voice detta als sviluppaders quai ch'els douvran per innovar e render la tecnologia vocala accessibla in lur aigna lingua.¶
+    ¶
 
 ## ABOUT US
 
