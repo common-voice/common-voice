@@ -367,6 +367,9 @@ faq-why-important-a =
 faq-how-get-q = Co survegn eu las datas da Common Voice?
 faq-how-get-a = La collecziun da datas da Common Voice sta a disposiziun per telechargiar suot la licenza <licenseLink>CC0</licenseLink> sün <datasetLink>nossa pagina culla collecziun da datas</datasetLink>. Da l'istessa pagina poust eir telechargiar diversas otras collecziuns da datas publicas.
 faq-when-release2-q = Cura publichaivat Common Voice in otras linguas?
+faq-when-release2-a = La versiun plurilinguala da l'unità da datas da Common Voice vain actualmaing repassada dalla comunità. Scha vus laivat güdar a nus ad agiundscher nouvas linguas a Common Voice, visitai il <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> per agiundscher nouvas construcziuns a l'unità da datas, o Mozilla <pontoonLink>Pontoon</pontoonLink> per tradüer la pagina-web stessa. Nouvas linguas vegnan agiuntas a Common Voice per la contribuziun vocala, subit chi dà 5000 construcziuns confermadas.
+faq-why-mission-q = Perche fa Common Voice part da la missiun da Mozilla?
+faq-what-cv-and-deepspeech-q = Che es la differenza tanter Common Voice e Deep Speech?
 
 ## ABOUT US
 
