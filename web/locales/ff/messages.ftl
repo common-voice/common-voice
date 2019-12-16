@@ -65,12 +65,29 @@ hr = Korowasiire
 hsb = Sorbian, Lower
 hu = Hungarian
 ia = Interlingua
+id = Indonesiire
+is = Islanndiire
+it = Italiire
+izh = Ishoriire
+ja = Saponeere
+ka = Jorjiire
+kab = Kabileere
+kk = Kasakiire
+ko = Koreere
+kpv = Komi-Siryaniire
+ku = Kurdiire
+kw = Korniseere
+ne-NP = Nepaleere
+nl = Holanndeere
+oc = Oksitaneere
 
 # [/]
 
 
 ## Layout
 
+back-top = Rutto Dow
+logout = Seŋto
 
 ## Home Page
 
