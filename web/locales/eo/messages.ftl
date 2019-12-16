@@ -329,13 +329,17 @@ avatar-clip-title = Donu voĉon al via avataro
 change-your-avatar-clip = Ĉu vi volas ŝanĝi vian voĉan registron?
 recording-in-progress = Voĉregistro plenumata
 avatar-clip-recorded = Via avataro nun inkluzivas voĉan registron!
-record-voice-wave = REGISTRI VOĈON
+record-voice-wave = REGISTRI VOĈONDON
 retry-voice-wave-recording = REPROVI
 re-record = REREGISTRI
 delete-voice = FORIGI
 recording-voice-wave = Registro…
 delete-voice-clip = aŭ forigi voĉregistron
 ready-to-upload = ALŜUTI
+avatar-clip-fact = Oni de longe scias ke leganto estos distrita de la legeblaj enhavoj de la paĝo, dum la aranĝo estas rigardata.
+recreate-voice = Refari voĉondon
+cancel-avatar-clip-recording = NULIGI
+about-avatar-clip-recording = Kreu voĉan registron, kiu estos parto de via profila avataro.  Aliaj homoj povos aŭskulti vian registron per superpasigo de la musmontrilo.
 browse-file-title = Alŝuti bildon
 browse-file = Trenu kaj delasu aŭ <browseWrap>esploru</browseWrap>
 connect-gravatar = Konekti Gravatar
@@ -357,6 +361,9 @@ faq-why-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
 faq-where-src-from-2-q = El kie venas la fonta teksto?
+faq-why-account-q = Kial mi devus krei konton?
+faq-is-account-public-q = Ĉu la informoj de mia konto estas publikaj?
+faq-how-privacy-q = Kiel vi certigas anonimecon kaj privatecon de la personoj, kiuj donacis siajn voĉojn?
 
 ## ABOUT US
 
