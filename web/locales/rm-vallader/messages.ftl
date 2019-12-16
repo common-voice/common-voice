@@ -365,6 +365,8 @@ faq-why-important-a =
     ¶
     Per render la recugnuschentscha vocala amo plü universala nu ramassaina be registraziuns in linguas derasadas, ma eir in linguas chi vegnan discurrüdas da populaziuns plü pitschnas e nu vegnan suvent na resguardadas adequatamaing da servizis commercials da recugnuschentscha vocala. Cun publichar üna vasta collecziun da datas güdaina a sviluppaders, impressaris e comunitats dad implir svessa quista locca.
 faq-how-get-q = Co survegn eu las datas da Common Voice?
+faq-how-get-a = La collecziun da datas da Common Voice sta a disposiziun per telechargiar suot la licenza <licenseLink>CC0</licenseLink> sün <datasetLink>nossa pagina culla collecziun da datas</datasetLink>. Da l'istessa pagina poust eir telechargiar diversas otras collecziuns da datas publicas.
+faq-when-release2-q = Cura publichaivat Common Voice in otras linguas?
 
 ## ABOUT US
 
