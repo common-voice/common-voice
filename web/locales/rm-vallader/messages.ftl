@@ -355,6 +355,10 @@ change-email-setings = Tü poust müdar tia adressa dad e-mail aint illas prefer
 
 faq-title = Dumondas frequentas
 faq-what-cv-q = Che es Common Voice?
+faq-what-cv-a =
+    La tecnologia da recugnuschentscha vocala revoluziunescha il möd co cha nus interagin cun maschinas. Actualmaing sun ils sistems disponibels però chars e protets cun drets d'autur. Common Voice fa part da l'iniziativa da Mozilla per render las tecnologias da recugnuschentscha vocala megldras e plü accessiblas a tuots. Common Voice es üna gronda banca da datas globala cun contribuziuns da vuschs cha minchün po dovrar per trenar apps chi funcziunan cun la vusch in möd svelt e simpel, e quai in fuond in mincha lingua
+    
+    Nus nu ramassain be registraziuns in linguas fich derasadas, ma eir in linguas chi vegnan discurrüdas da populaziuns plü pitschnas. Cun publichar üna vasta collecziun da datas güdaina a sviluppaders, impressaris e comunitats dad implir svessa quista locca. Sper la banca da datas Common Voice sviluppaina eir üna maschina da recugnuschentscha vocala open source cul nom Deep Speech.
 faq-why-important-q = Perche es quai important?
 
 ## ABOUT US
