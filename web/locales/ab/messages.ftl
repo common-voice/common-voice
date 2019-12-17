@@ -729,8 +729,8 @@ build-custom-goal = Еиқәшәо ахықәкы аҟаҵара
 help-reach-hours = Ухықәкы уцырхрааны, абри { $language } аҿы { NUMBER($hours) } сааҭ анагӡара
 help-reach-hours-general = Ухықәкы уцырхрааны, Common Voice абри абызшәала { NUMBER($hours) } сааҭ анагӡара
 activity-needed-calculation =
-    { NUMBER($people) } ауаа есеҽны { NUMBER($clipsPerDay) } нҵамҭа ҟарҵалар
-    { NUMBER($periodMonths) }-мз рыла { NUMBER($totalHours) } сааҭ ҟалоит.
+    { NUMBER($people) } ауаа есеҽны { NUMBER($clipsPerDay) } нҵамҭақәа ҟарҵалар
+    { NUMBER($periodMonths) } мза рыла { NUMBER($totalHours) } сааҭ ҟалар алшоит.
 how-many-a-week = Абзаиӡа! Шаҟа анҵамҭақәа мчыбжьык ала?
 receiving-emails-info = Уара иуоулоит ухықәкы угәалазыршәа, аус ахьынӡа пеихьоуи, Common Voice иадҳәалоу ажәабыжьқәа ртәы зҳәо асалам шәыҟәқәа.
 not-receiving-emails-info =

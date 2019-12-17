@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Pošalji
 loading = Učitavanje…
 email-opt-in-info = Želim primati e-poruke poput podsjetnika o ciljevima, ažuriranja o napretku i novostima o Common Voiceu.
+email-opt-in-info-title = Pridruži se pretplatničkoj listi Common Voice
+email-opt-in-info-sub-with-challenge = Primaj e-poštu poput podsjetnika o izazovima i ciljevima, aktualiziranja o napretku i biltene o Common Voice.
 email-opt-in-privacy = Ukoliko se odlučite za primanje poruka e-pošte, izjavljujete da ste suglasni da Mozilla upravlja vašim podaci kako je objašnjeno u Mozilla <privacyLink>politika privatnosti<privacyLink>.
 indicates-required = * obilježava obvezno polje
 not-available-abbreviation = N/A
@@ -29,6 +31,7 @@ ar = Arapski
 as = Asamski
 ast = Asturijski
 az = Azerbejdžanski
+be = Bjeloruski
 bg = Bugarski
 bn = Bengalski
 br = Bretonski
@@ -57,6 +60,7 @@ fy-NL = Frizijski
 ga-IE = Irski
 gl = Galicijski
 he = Hebrejski
+hi-IN = Hindi
 hr = Hrvatski
 hsb = Sorbian, Gornji
 hu = Mađarski
@@ -317,6 +321,7 @@ profile-close = Zatvori
 profile-explanation = Pratite svoj napredak pomoću profila i osigurajte točnije glasovne podatke.
 thanks-for-account = Zahvaljujemo što ste potvrdili svoj račun, a sada kreirajmo vaš profil.
 why-demographic = Zašto je to važno?
+accept-privacy-title = Pravila o privatnosti
 login-identity = Identitet prijave
 login-signup = Prijava / Registriraj se
 edit = Uredi
@@ -327,11 +332,21 @@ skip-submission-feedback = Preskoči povratne informacije za slanje
 skip-submission-note = Napomena: Morati ćete odabrati između opcije Govoriti ili Slušati za promjenu vrste vašeg doprinosa.
 off = Isklj.
 on = Uklj.
+avatar-clip-title = Daj glas svom avataru
+change-your-avatar-clip = Želiš promijeniti glasovni isječak?
+recording-in-progress = Snimanje glasa je u tijeku
+avatar-clip-recorded = Tvoj avatar sad uključuje glasovni isječak!
+record-voice-wave = SNIMI GLAS
+retry-voice-wave-recording = PONOVI
+re-record = SNIMI PONOVNO
+delete-voice = OBRIŠI
 recording-voice-wave = Snimanje
+delete-voice-clip = ili obriši glasovni isječak
 ready-to-upload = Prijenos podataka
 avatar-clip-fact = Davno utvrđena činjenica je, da će čitatelja ometati čitljiv sadržaj stranice, kad pogleda njezin izgled.
 recreate-voice = Ponovno stvorite radiovalove glasa
 cancel-avatar-clip-recording = Odustani
+about-avatar-clip-recording = Stvori glasovni isječak kao dio tvog avatar profila. Drugi korisnici će moći prijeći preko njega i poslušati tvoj isječak.
 browse-file-title = Dodaj novu fotografiju
 browse-file = Povuci i ispusti ili <browseWrap>pregledaj</browseWrap>
 connect-gravatar = Poveži sa Gravatar
@@ -353,6 +368,7 @@ faq-how-get-a = Skup Common Voice podataka dostupan je za preuzimanje pod licenc
 faq-when-release2-q = Kad ćete objaviti Common Voice podatke na drugim jezicima?
 faq-why-mission-q = Zašto je Common Voice dio Mozilla misije?
 faq-what-cv-and-deepspeech-q = U čemu je razlika između Common Voice i Deep Speech?
+faq-what-cv-and-deepspeech-a = Skup podataka Common Voice dopunjuje Mozillin program otvorenog koda za prepoznavanje glasa Deep Speech. Prva verzija Deep Speech objavljena je u studenom 2017. i od tada se nastavlja razvijati. Zajedno sa skupom podataka Common Voice, smatramo da bi ova tehnologija otvorenog koda za prepoznavanje glasa trebala biti dostupna svima. Nadamo se da će ove tehnologije razvijateljima pomoći stvoriti razne inovativne proizvode i usluge.
 faq-is-goal-assistant-q = Da li je cilj Common Voice-a izgraditi glasovnog pomoćnika?
 faq-is-goal-assistant-a = Cilj skupa Common Voice podataka je omogućiti bilo kome u svijetu da izradi program za prepoznavanje govora, prepoznavanje govornika ili bilo koju drugu vrstu aplikacije, koja zahtijeva glasovne podatke. Glasovni asistent je samo jedna u nizu aplikacija, za koju se skup podataka može koristiti.
 faq-do-want-native-q = Jezik mi nije materinji i govorim s naglaskom, želite li svejedno moj glas?
@@ -410,10 +426,10 @@ about-partnership =
     Zahvaljujemo sljedećim osobama i organizacijama za njihovu pomoć u projektu:
 about-get-involved = Uključite se
 about-get-involved-text =
-    Želite pomoći poboljšati Common Voice?
-    Sjajno! Stupite u kontakt putem e-pošte ili putem <discourseLink>foruma za diskutiranje</discourseLink>,
-    pošaljite povratne informacije putem <githubLink>GitHub</githubLink> sustava,
-    ili nam se pridružite na <slackLink>Slack</slackLink>.
+    Želiš pomoći poboljšati Common Voice?
+    Sjajno! Stupi u kontakt putem e-pošte ili putem <discourseLink>foruma za diskutiranje</discourseLink>,
+    pošalji povratne informacije putem <githubLink>GitHub</githubLink> sustava,
+    ili nam se pridruži na <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
@@ -433,6 +449,7 @@ localization-explanation = Ovo je naš postupak prevođenja i prilagođavanja na
 sentence-collection = Zbirka rečenica
 sentence-collection-explanation = Prikupljanje rečenica iz javne domene ili pisanje novih za javnu domenu.
 hours-recorded-explanation = Broj do sada prikupljenih sati snimljenog glasa.
+hours-validated-explanation = Broj sati snimanja glasa koje su 2 od 3 korisnika potvrdili glasom „Da”. Označavaju napredak u odnosu na ukupni 10-satni cilj.
 sst = Govor u tekst (Speech-to-text STT)
 sst-explanation = Govor u tekst (STT) tehnologije pretvaraju govor u tekst.
 de-identified = De-identificirani
@@ -464,6 +481,7 @@ terms-agree = slažem se
 terms-disagree = ne slažem se
 review-aborted = Prijenos je prekinut. Želite li izbrisati svoje snimke?
 review-submit-title = Pregledaj i pošalji
+review-submit-msg = Hvala ti na snimci!<lineBreak></lineBreak>Sad preslušaj i pošalji svoje isječke.
 review-recording = Pregledaj
 review-rerecord = Ponovo snimi
 review-cancel = Poništi slanje
@@ -472,6 +490,7 @@ review-delete-recordings = Izbriši moje snimke
 
 ## Datasets Page
 
+datasets-headline = Izgrađujemo otvoreni i javno dostupan skup glasova, koje svi mogu koristiti za podučavanje govornih aplikacija.
 language = Jezik
 # File size in gigabytes
 size = Veličina
@@ -497,8 +516,8 @@ get-started-speech = Započnite s prepoznavanjem govora
 other-datasets = Drugi skupovi glasovnih podataka
 feedback-q = Imate povratnu informaciju?
 deepspeech-info = Skup Common Voice podataka dopunjava Mozillin mehanizam za prepoznavanje govora otvorenog koda Deep Speech, koji možete koristiti za izradu aplikacija za prepoznavanje govora. Pročitajte naš <githubLink>pregled Github-a</githubLink> ili se pridružite <discourseLink>DeepSpeech forumu za diskutiranje</discourseLink>, da biste saznali kako započeti.
-common-voice-info-new = Imate pitanja o Common Voiceu? Imate ideje za poboljšanja ili povratne informacije o određenom jeziku? Pridružite nam se našem <discourseLink>forumu za diskutiranje</discourseLink> i javite nam se.
-your-feedback = Imate ideje kako poboljšati skup Common Voicea podataka? Javite nam se na forumu za diskutiranje
+common-voice-info-new = Imaš pitanja o Common Voiceu? Imaš ideje za poboljšanja ili povratne informacije o određenom jeziku? Pridruži nam se našem <discourseLink>forumu za diskutiranje</discourseLink> i javi nam se.
+your-feedback = Imaš ideje kako poboljšati Common Voice skup podataka? Javi nam se na forumu za diskutiranje
 go-discourse = Prijeđi na forum za diskutiranje
 missing-language = Ne vidite vaš jezik u skupu podataka? Da biste zatražili jezik, prijeđite na našu stranicu za jezike.
 go-languages-page = Idite na stranicu s jezicima
@@ -579,6 +598,7 @@ record-error-too-short = Snimka je bila prekratka.
 record-error-too-long = Snimka je bila preduga.
 record-error-too-quiet = Snimka je bila previše tiha.
 record-cancel = Poništavanje ponovnog snimanja
+record-instruction = { $actionType }<recordIcon></recordIcon> zatim pročitaj rečenicu naglas
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kada završite
 record-three-more-instruction = Još tri!
 record-again-instruction = Sjajno! <recordIcon> </recordIcon> Snimite svoj sljedeći isječak
@@ -593,11 +613,14 @@ record-abort-text = Ako napustite sada, izgubit ćete vaš tijek
 record-abort-submit = Pošaljite isječke
 record-abort-continue = Završite snimanje
 record-abort-delete = Izlaz i brisanje isječaka
+listen-instruction = { $actionType }<playIcon></playIcon> jesi li točno izgovorio/la rečenicu?
 listen-again-instruction = Sjajan posao!<playIcon></playIcon> Slušajte ponovo kada budete spremni
 listen-3rd-time-instruction = Još 2, ustrajte!<playIcon> </playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Posljednja!
 record-button-label = Snimite svoj glas
 share-title-new = <bold>Pomozite nam</bold> pronaći više glasova
+keep-track-profile = Prati svoj napredak pomoću profila
+login-to-get-started = Za početak se prijavi ili registriraj
 
 ## Reporting
 
@@ -648,6 +671,8 @@ your-languages = Vaši jezici
 toward-next-goal = Prema sljedećem cilju
 clips-you-recorded = Isječci koje ste snimili
 clips-you-validated = Isječci koje ste potvrdili
+todays-recorded-progress = Današnji napredak Common Voicea o snimljenim isječcima
+todays-validated-progress = Današnji napredak Common Voicea o potvrđenim isječcima
 stats = Statistike
 awards = Nagrade
 you = Vi
@@ -673,11 +698,18 @@ easy-difficulty = Laki
 average-difficulty = Prosječni
 difficult-difficulty = Teški
 pro-difficulty = Profesionalac
+lose-goal-progress-warning = Uređivanjem cilja, možda ćeš izgubiti svoj postojeći napredak.
+want-to-continue = Želiš li nastaviti?
+finish-editing = Najprije završiti s uređivanjem?
+lose-changes-warning = Ako sad prekineš, izgubit ćeš promjene
 build-custom-goal = Izgradi prilagođeni cilj
 help-reach-hours = Pomozi postići { NUMBER($hours) } sati za { $language } s osobnim ciljem
 help-reach-hours-general = Pomozi Common Voiceu dosegnuti { NUMBER($hours) } sati za jezik s osobnim ciljem
 set-a-goal = Postavi cilj
 cant-decide = Ne možete se odlučiti?
+how-many-per-day = Sjajno! Koliko isječaka dnevno?
+how-many-a-week = Sjajno! Koliko isječaka tjedno?
+which-goal-type = Želiš li govoriti, slušati ili oboje?
 receiving-emails-info =
     S tvojim trenutačnim postavkama ćeš primati poruke e-pošte kao što su podsjetnici za ciljeve,
     ažuriranja vlastitog napretka i novosti o Common Voice
@@ -685,8 +717,13 @@ not-receiving-emails-info =
     S tvojim trenutačnim postavkama <bold>NE PRIMAŠ</bold> poruke e-pošte kao što su podsjetnici za ciljeve,
     ažuriranja vlastitog napretka i novosti o Common Voice
 n-clips = Broj isječaka { NUMBER($count) }
+help-share-goal = Pomozi nam pronaći više glasova, podijeli svoj cilj
 confirm-goal = Potvrdi cilj
 goal-interval-weekly = Tjedno
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Podijeli svoj dnevni cilj od { $count } isječaka za { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Podijeli svoj tjedni cilj od { $count } isječaka za { $type }
 share-goal-type-speak = Govor
 share-goal-type-listen = Slušanje
 share-goal-type-both = Govor i slušanje
@@ -701,10 +738,17 @@ share-goal = Dijeli moj cilj s drugima
 delete-q = Želiš li zatražiti da se i tvoje glasovne snimke obrišu ili da se radije zadrže u skupu Common Voice podataka?
 keep = Zadrži
 remove = Ukloni
+keep-info = Tvoje anonimne glasovne snimke ostat će u skupu podataka Common Voice. Kad izbrišeš svoj profil, više nećeš moći podnijeti zahtjev za uklanjanje vlastitih snimaka iz skupa podataka
+remove-info = Razmotrit ćemo tvoj zahtjev za uklanjanje tvojih glasovnih snimaka iz skupa podataka. Ako tvoj zahtjev bude odobren, obratit ćemo se onima koji su preuzeli skup podataka i zatražiti da uklone i tvoje glasovne snimke.
+why-delete-recordings =
+    Common Voice snimke koriste akademici, mala poduzeća i entuzijasti za prepoznavanje glasa, kako bi se pomoglo osposobljavanju i rastu javno dostupnih resursa, poput glasovnih modela.
+    
+    Možeš li nam reći, zašto želiš da se tvoje snimke izbrišu?
 profile-form-delete = Obriši profil
 
 ## Landing
 
+welcome-staff = Dobrodošli { $company } suradnici!
 help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaranjem Common Voice profila i doprinošenjem vlastitog glasa.
 login-company = Prijavi se / registriraj se putem e-pošte { $company }
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.

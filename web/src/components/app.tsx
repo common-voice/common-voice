@@ -11,6 +11,7 @@ import {
 } from 'react-router';
 import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
+import * as Sentry from '@sentry/browser';
 import { UserClient } from 'common/user-clients';
 import store from '../stores/root';
 import URLS from '../urls';
@@ -329,6 +330,15 @@ class App extends React.Component {
     }
 
     this.userLocales = negotiateLocales(navigator.languages);
+
+    Sentry.init({
+      dsn:
+        'https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491',
+      environment: isProduction() ? 'prod' : 'stage',
+      release: process.env.GIT_COMMIT_SHA || null,
+    });
+
+    Sentry.captureException(new Error('Testing Sentry config'));
   }
 
   async componentDidMount() {
@@ -342,13 +352,8 @@ class App extends React.Component {
   async componentDidCatch(error: Error, errorInfo: any) {
     this.setState({ error });
 
-    if (!isProduction() && !isStaging()) {
-      return;
-    }
-    const Sentry = await import('@sentry/browser');
-    Sentry.init({
-      dsn: 'https://e0ca8e37ef77492eb3ff46caeca385e5@sentry.io/1352219',
-    });
+    if (!isProduction() && !isStaging()) return;
+
     Sentry.withScope(scope => {
       Object.keys(errorInfo).forEach(key => {
         scope.setExtra(key, errorInfo[key]);

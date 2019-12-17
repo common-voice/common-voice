@@ -1220,6 +1220,7 @@ Auf unsere Freundschaft!
 Auf verkürzte Links klickt Lasse grundsätzlich nicht.
 Auf vielen aufrollbaren Tastaturen schreibt es sich schlechter als auf einem Touchdisplay.
 Auf welche Zeitzone beziehen Sie sich?
+Auf welchem Konzert wart ihr?
 Auf wessen Mist ist das gewachsen?
 Auf wessen Seite stehen Sie eigentlich?
 Auf wie viel Minuten muss ich den Timer einstellen?
@@ -4126,6 +4127,7 @@ Der Wall sieht künstlich aufgeschüttet aus.
 Der Wankelmotor wird sich bei Personenkraftwagen wohl nicht mehr durchsetzen.
 Der Wasservogel scheint sich im Kampf verletzt zu haben.
 Der Webbrowser ist gewissermaßen das Betriebssystem im Betriebssystem.
+Der Wecker klingelt am Sonntag nicht.
 Der Weg dorthin ist lang und steinig.
 Der Weg führt einmal um den Weiher herum.
 Der Weg ist das Ziel.
@@ -8882,6 +8884,7 @@ Ich habe meinen Videorecorder erst kürzlich entsorgt.
 Ich habe mich an der Musterportion orientiert.
 Ich habe mich heute intensiv mit meiner Frau auseinandergesetzt.
 Ich habe mich schon wieder in den Finger geschnitten.
+Ich habe mich, glaube ich, überanstrengt.
 Ich habe mir ein neues Auto gekauft.
 Ich habe nachgedacht.
 Ich habe nicht damit gerechnet, dass er den Entschluss so übers Knie bricht.
@@ -9089,6 +9092,7 @@ Ich sehe rabenschwarz für euch.
 Ich sehe, du machst dir Gedanken.
 Ich selbst habe damit nichts zu tun.
 Ich setze dieses Mal den Trend.
+Ich sollte Grabräuber werden.
 Ich sollte nicht so viel plaudern.
 Ich spekuliere auf fallende Ölpreise.
 Ich spiele euch jetzt ein Lied vor.
@@ -9189,6 +9193,7 @@ Ich wollte euch bloß testen.
 Ich wollte mich bei dir entschuldigen.
 Ich wollte mich nur noch mal vergewissern.
 Ich wollte mir nur die Schuhe binden.
+Ich wollte morgen nochmal losgehen.
 Ich wollte nur ein wenig stänkern.
 Ich wollte nur nett sein.
 Ich wurde befördert.
@@ -11068,6 +11073,7 @@ Lass uns den Wegweiser umdrehen und dann die Leute beobachten!
 Lass uns eine Pause einlegen.
 Lass uns einen Spaziergang um die Südspitze der Insel machen!
 Lass uns einmal zur Boje und wieder zurück schwimmen.
+Lass uns erst später losgehen.
 Lass uns etwas mit Kleister machen!
 Lass uns lieber einmal richtig lüften, statt die ganze Zeit das Fenster zu kippen!
 Lass uns lieber gleich einen dedizierten Server aufsetzen.
@@ -14263,6 +14269,7 @@ Sie hält Michael Faraday für den bedeutendsten Experimentalphysiker.
 Sie hätte aber unumwunden, die Kuh am Wegesrand gefunden.
 Sie hätte den Mund nicht so voll nehmen sollen.
 Sie infiltrieren das Gebäude durch den Schacht des stillgelegten Fahrstuhls.
+Sie ist als erste aufgestanden.
 Sie ist dankbar für jede Story.
 Sie ist ein reines Fantasiekonstrukt.
 Sie ist für jeden Spaß zu haben.
@@ -15265,6 +15272,7 @@ Traust du dich etwa nicht alleine?
 Traut sich sonst noch jemand?
 Treffen sich der Papst, die Queen und ein arabischer Diplomat auf einem Gipfeltreffen.
 Treffen sich zwei Jäger im Wald - beide tot.
+Treffen wir uns wieder im selben Raum?
 Treibt Frau Bosbach regelmäßig Denksport?
 Treibt das Wahlvieh zu den Urnen!
 Treibt ihr die bösen Geister aus!
@@ -17633,6 +17641,7 @@ Wie können Sie diesen Traumtänzer auch noch willkommen heißen?
 Wie können Sie es wagen?
 Wie können die Fehler der Vergangenheit vermieden werden?
 Wie könnt ihr denn jetzt schon wieder Hunger haben?
+Wie könnt ihr es nur wagen?
 Wie könnt ihr es wagen?
 Wie könnten Dialektformen korrekt in Common Voice eingebracht werden?
 Wie lang ist die Aufmerksamkeitsspanne eines Goldfisches?
@@ -18163,6 +18172,7 @@ Wir vermuten mittlerweile, dass einfach alles kaputt ist.
 Wir versuchen, Leckströme zu unterbinden.
 Wir versuchen, Schlimmeres zu verhindern.
 Wir waren lange nicht skaten.
+Wir waren schon viel zu oft da.
 Wir warten ab, wie es ergeht Kramp-Karrenbauer Annegret.
 Wir warten jetzt einfach, bis es sich eingependelt hat.
 Wir warten lieber noch ein bisschen.

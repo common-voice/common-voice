@@ -3,7 +3,7 @@
 contribute = Doprinesite
 get-involved-button = Uključite se
 get-involved-title = Doprinesi jeziku { $lang }
-get-involved-text = Zahvaljujemo na interesu za doprinos lokalizacije na hrvatski jezik. Ulažemo puno truda da svi jezici postanu spremni za produkciju i da timove držimo informirane putem emaila. Ako želite sudjelovati, unesite svoj email u nastavku.
+get-involved-text = Zahvaljujemo na interesu za doprinos lokalizacije na { $lang }. Ulažemo puno truda da svi jezici postanu spremni za produkciju i da timove informiramo putem emaila. Ako želiš sudjelovati, dolje upiši svoj email.
 get-involved-form-title = Registrirajte se za obavijesti preko emaila za { $lang } jezik:
 get-involved-email =
     .label = Email

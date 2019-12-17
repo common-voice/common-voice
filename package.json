@@ -7,6 +7,7 @@
   "dependencies": {
     "concurrently": "^4.1.1",
     "fluent-syntax": "^0.14.0",
+    "http-status-codes": "^1.4.0",
     "prettier": "^1.18.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
@@ -22,7 +23,7 @@
     "web"
   ],
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=10.17.0"
   },
   "resolutions": {
     "cryptiles": "4.1.2",

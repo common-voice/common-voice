@@ -11,6 +11,7 @@
 "Mengapa kamu sangat tertarik dengan Negara Jerman?" "Aku tidak tahu."
 "Michael" adalah nama laki-laki, tetapi "Michelle" adalah nama perempuan.
 "Selamat pagi," kata Tom sambil tersenyum.
+"Siapa namamu?" "Mary." " Nama yang indah."
 "Tatoeba" dalam Bahasa Jepang berarti "contohnya".
 "Tolong ambilkan garam." "Ini, silahkan"
 Abbot membunuh Mary.
@@ -930,6 +931,7 @@ Boleh saya minta peta jalannya, tolong.
 Boleh saya pergi denganmu?
 Boleh tolong buka pintunya?
 Bolehkah Saya menggunakan mobilmu, yah?
+Bolehkah aku berbicara dengan Tn. Sato?
 Bolehkah kalau saya diskusikan dengan istri saya?
 Bolehkah saya memilih tempat duduk saya sendiri?
 Bolehkah saya meminjam itu?
@@ -1906,6 +1908,7 @@ Jam ini harganya seribu lima ratus yen.
 Jam ini pasti mahal.
 Jam tangan ini perlu diperbaiki.
 Jam tanganku lebih cepat lima menit.
+James Cameron membuat cara baru dalam membuat film.
 Jamnya terlambat sepuluh menit.
 Jane terlihat bahagia.
 Jangan benturkan kepalamu ke tembok batu.
@@ -2675,6 +2678,7 @@ Mary memutuskan untuk tidak akan menemuinya lagi.
 Mary menolak undangan ke konser.
 Mary sangat suka susu.
 Mary selalu membantu pacarnya mengerjakan tugas.
+Mary selalu membentak ketika dia marah.
 Mary tidak punya teman bicara, tapi dia tidak merasa kesepian.
 Mary, bisakah kamu lebih pelan?
 Masa kecilku menyenangkan.
@@ -4750,6 +4754,7 @@ Tom berniat untuk membersihkan garasinya yang sudah tidak dibersihkan selama ber
 Tom bersiap pergi ke sekolah.
 Tom bertanya padaku dimanakah aku mendapatkan ini.
 Tom bertanya-tanya apakah anaknya akan mengingat hari ini hari ayah?
+Tom bertemu Mary tiga tahun yang lalu.
 Tom bertindak seolah-olah acuh.
 Tom berusaha menahan senyum.
 Tom biasanya datang mengunjungi kami setiap musim panas.
@@ -4760,11 +4765,14 @@ Tom butuh mengikuti saran saya.
 Tom dan Marie menghabiskan bulan madu mereka di luar negeri.
 Tom dan Mary bermain tenis seharian.
 Tom dan Mary putus.
+Tom dapat mengatakan bahwa Mary cukup ketakutan.
+Tom dapat mengatakan bahwa Mary ingin pergi.
 Tom datang kemari sendirian.
 Tom datang kemari untuk meminta kami menolongnya.
 Tom datang lebih awal untuk berlatih hari ini.
 Tom dibesarkan di sebuah desa nelayan kecil.
 Tom dulunya sangat pemalu.
+Tom hadir pada pernikahan John dan Mary.
 Tom hampir dipecat dari pekerjaan.
 Tom hampir kena pukul.
 Tom hampir saja terbunuh.
@@ -4774,6 +4782,7 @@ Tom harus ditemukan secepatnya.
 Tom harus membaca petunjuk di pintu tiga kali untuk mengerti isi petunjuk itu.
 Tom harus membersihkan kamarnya.
 Tom harus pergi berbelanja dengan ibunya siang ini.
+Tom juga melihat nama Mary di daftar.
 Tom kadang-kadang telat pulang ke rumah.
 Tom kehilangan anak laki-lakinya akibat kecelakaan mobil.
 Tom kehilangan pekerjaannya.
@@ -4788,7 +4797,11 @@ Tom melakukannya.
 Tom melanggar hukum.
 Tom melanjutkan menyapu lantai.
 Tom meletakkan sendoknya.
+Tom melihat Mary bersiap untuk pergi.
+Tom melihat Mary memecahkan kaca jendela.
+Tom melihat Mary pergi ke hutan.
 Tom melihat indikator bahan bakar.
+Tom melihat kepada Mary.
 Tom melihat sekitar ruangan secara perlahan.
 Tom melihat seorang anak laki-laki menunggu di halte.
 Tom memakai jas hujan.
@@ -4820,6 +4833,7 @@ Tom mencoba untuk bunuh diri.
 Tom mencucukkan pensilnya kedalam lubang.
 Tom mencuri cincinnya.
 Tom mendorong kursi roda melewati lorong.
+Tom menembak Mary dengan senapan.
 Tom menemui pacarnya di kafe siang ini.
 Tom menerima surat dari Mary.
 Tom mengabaikanmu.
@@ -4840,6 +4854,7 @@ Tom menghargai kerja keras Mary.
 Tom mengira itu adalah solusi yang baik.
 Tom mengirimkan sebuah pesan pendek yang sangat menarik untukku.
 Tom mengisi gelas dengan air.
+Tom mengisyaratkan Mary untuk mengikutinya.
 Tom mengunci dirinya dalam kamar.
 Tom mengunjungi Australia musim panas kemarin.
 Tom menikahi perempuan yang lebih mudah dari dirinya.
@@ -4855,11 +4870,13 @@ Tom menunggu tepuk tangan mereda sebelum dia mengumumkan lagu selanjutnya.
 Tom menunjuk kursi disebelahnya.
 Tom menunjuk lantai.
 Tom menunjuk suatu tempat di peta.
+Tom menunjukkan Mary bagaimana cara mengasah pisau.
 Tom menutup kaca jendelanya.
 Tom menutup pintu kamar mandi secara keras.
 Tom menyadari Mary menunggu dirinya.
 Tom menyadari Mary tidak sedang bercanda.
 Tom menyadari dirinya sedang dihiraukan.
+Tom menyadari mobil Mary yang diparkir di depan perpustakaan.
 Tom menyadari sekarang adalah waktu untuk pergi.
 Tom menyesal telah meninggalkan pekerjaannya.
 Tom menyiapkan makan malan sendiri.
@@ -4897,6 +4914,7 @@ Tom pasti tahu jika aku pernah di sini.
 Tom pasti telah bekerja sangat keras.
 Tom pensiun dari dinas tentara tiga tahun yang lalu.
 Tom pergi beberapa menit yang lalu.
+Tom pergi ke Boston untuk menemui Mary.
 Tom pergi ke sekolah bersama dengan anak laki-laki saya.
 Tom pergi untuk menemuimu tiga jam yang lalu.
 Tom perlu mengubah gaya hidupnya.

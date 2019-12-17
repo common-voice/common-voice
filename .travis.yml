@@ -24,20 +24,20 @@ before_script:
     fi
   - echo "Branch $SAFE_BRANCH_NAME"
   - echo "Tag $TRAVIS_TAG"
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; fi
   - if [ "$TRAVIS_TAG" == "" ]; then docker pull "$IMAGE_NAME:$SYMBOLIC_TAG" || true
     ; fi
 after_script:
   - docker images
 script:
-  - yarn
-  - yarn check
-  - yarn check --integrity
-  - yarn check --verify-tree
-  - yarn test
   - docker build --build-arg=TAG=$TRAVIS_TAG --build-arg=REPO=$TRAVIS_REPO_SLUG --build-arg=COMMIT=$TRAVIS_COMMIT
     --build-arg=BRANCH=$TRAVIS_BRANCH --pull --cache-from "$IMAGE_NAME" --tag "$IMAGE_NAME"
     -f docker/Dockerfile .
+  - docker run "$IMAGE_NAME" yarn check
+  - docker run "$IMAGE_NAME" yarn check --integrity
+  - docker run "$IMAGE_NAME" yarn check --verify-tree
+  - yarn install --frozen-lockfile
+  - yarn test
 before_deploy:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker tag $IMAGE_NAME "$IMAGE_NAME:$REVISION_TAG"
@@ -47,7 +47,7 @@ deploy:
   provider: script
   on:
     all_branches: true
-    condition: $TRAVIS_TAG != "" || $TRAVIS_BRANCH =~ ^(master|prod)$
+    condition: $TRAVIS_TAG != "" || $TRAVIS_BRANCH =~ ^(master|production|staging)$
   script: docker push "$IMAGE_NAME:$REVISION_TAG" && docker push "$IMAGE_NAME:$SYMBOLIC_TAG"
 env:
   global:

@@ -304,6 +304,7 @@ thanks-for-account = 登録ありがとうございます。次はプロフィ�
 why-demographic = どうしてこれが問題なのですか？
 why-demographic-explanation = 年齢や性別、アクセントといった音声に関わるより詳細なユーザーデータは、匿名化した上で音声認識エンジンの精度向上に利用されます。あなたのユーザー名およびメールアドレスが送信したデータと関連付けられることは決してありません。また、ユーザー名を公開するか匿名にしておくかも選択できます。
 accept-privacy = Mozillaの<privacyLink>プライバシーポリシー</privacyLink>の下でこの情報が用いられることに同意します。
+accept-privacy-title = プライバシーポリシー
 login-identity = ログイン用アカウント
 login-signup = ログイン / アカウント登録
 edit = 編集

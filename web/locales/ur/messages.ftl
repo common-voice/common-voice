@@ -8,6 +8,10 @@ email-input =
     .label = ای میل
 submit-form-action = ‏‏جمع کریں
 loading = لوڈ ہو رہا ہے…
+email-opt-in-info = کامن وائس  کے بارے میں ای میل موصول کریں جیسے چیلنج اور گول یاددہانی ، پیشرفت کی تازہ ترین معلومات ، اور نیوز لیٹر۔
+email-opt-in-info-title = کامن وائس میلنگ لسٹ میں شامل ہوں
+email-opt-in-info-sub-with-challenge = کامن وائس  کے بارے میں ای میل موصول کریں جیسے چیلنج اور گول یاددہانی ، پیشرفت کی تازہ ترین معلومات ، اور نیوز لیٹر۔
+email-opt-in-privacy = ای میل  موصول کرنے کا انتخاب کرتے ہوئے آپ Mozilla کو یہ معلومات سنبھالنے کے لئے مناسب  ہیں۔جیسا Mozilla کی <privacyLink> پرائیوسی پالیسی <privacyLink> میں وضاحت کیا  گیا ہے
 indicates-required = * مطلوبہ فیلڈ کی طرف اشارہ کرتا ہے
 not-available-abbreviation = عدم دستیاب
 
@@ -18,12 +22,18 @@ not-available-abbreviation = عدم دستیاب
 ## Languages
 
 ab = ابخاز
+ace = Acehnese
+ady = Adyghe
 af = افریقانی
+am = امہارى
 an = ایراگونیز
 ar = عربى
+arn = میپودنگن
 as = آسامی
 ast = اسٹورین
 az = آذر بائیجان
+ba = باشکیرس
+be = بیلارسائی
 bg = بلغاریائی
 bn = بنگالی
 br = بریٹن
@@ -68,41 +78,59 @@ ka = جارجيائى
 kab = کیبل
 kk = کازخ
 ko = کوریائِی
+kpv = کومی زائرین
 ku = کرد
 kw = کورناش
 ky = کرغز
 lij = لیغورین
 lt = لیتھونیائی
 lv = لیٹویائی
+mdf = موکشا
+mg = مالاگاسی
+mhr = میڈوو ماری
 mk = مقدونیائی
 ml = ملیالم
 mn = منگولیائی
+mrj = ہل ماری
+mt = مالٹیائی
 myv = ایرزیا
+nb-NO = نارویجین بوکمل
 ne-NP = نیپالی
 nl = ڈچ
 nn-NO = نورویجیئن نینورسک
+oc = آكسيٹان
 or = اوڈیا
 pa-IN = پنجابی
 pl = پولش
 pt = پرتگالی
+rm-sursilv = رومانش سورسلوان
+rm-vallader = رومنش ویلڈر
 ro = پیش قدمی
 ru = روسی
+rw = كنیاروندا
 sah = سکھا
+sc = سارڈینی
+si = سنہالہ
 sk = سلافی
 sl = سلاوینائی
 sq = البانیائی
 sr = سرویائی
 sv-SE = ‏‏سویدیش
+sw = سواہلى
+syr = شامی
 ta = تامل
 te = تلگو
 tg = تاجک
 th = تھائى
 tr = ترک
 tt = ‏‏طاطاری
+uby = اوبیخ
+udm = اڈمورٹ
 uk = یوکرینی
 ur = اردو
 uz = ازبک
 vi = ویتنامی
+vot = ووٹک
 zh-CN = چینی (چین)
 zh-HK = چینی (ہانگ کانگ)
 zh-TW = چینی (تائیوان)
@@ -133,7 +161,11 @@ logout = لاگ آؤٹ
 
 ## Home Page
 
+home-title = کامن وائس موزیلا کا پہل ہے تاکہ مشینوں کو یہ سکھانے میں مدد ملے کہ حقیقی لوگ کیسے بولتے ہیں۔
 home-cta = بولیں، یہاں تعاون کریں!
+wall-of-text-start =
+    آواز فطری ہے ، آواز انسان ہے۔ اسی لئے ہم اپنی مشینو  کے لئے قابلے  استعمال 
+    وائس  ٹیکنالوجی  پیدا کرنے میں مگن ہیں، لیکن وائس  سسٹم  بنانے کے لئے  ایک بہت بڑی مقدار میں اعداد و شمار کی ضرورت ہے.
 show-wall-of-text = مزید پڑھیں
 help-us-title = جملوں کی توثیق کرنے میں ہماری مدد کریں
 help-us-explain = دبائیں چلائیں سن اور ہمیں بتائیں کہ: کیا انہوں نے درج ذیل بلکل درست ادا کیا ؟
@@ -142,8 +174,15 @@ vote-yes = ہاں
 vote-no = نہیں
 speak-subtitle = اپنی آواز کا عطیہ کریں
 speak-goal-text = رکارڈ شدہ تراشے
+listen-subtitle = آواروں کی توثیق کرنے میں ہماری مدد کریں
+listen-goal-text = کلپس کی توثیق
+hours-recorded = اوقات ریکارڈ
+hours-validated = اوقات کی توثیق
 voices-online = آوازیں جو ابھی آن لائن ہیں
 todays-progress = آج کی پیش رفت
+help-reach-goal = { $goal } حاصل کرنے میں ہماری مدد کریں
+read-terms-q = کیا آپ نے ہماری شرائط پڑھی ہیں؟
+ready-to-record = آپ کی آواز عطیہ کرنے کے لئے تیار ہیں؟
 all-locales = تمام
 today = آج
 x-weeks-short =
@@ -151,7 +190,20 @@ x-weeks-short =
         [one] ہفتہ
        *[other] { $count } ہفتہ
     }
+x-months-short =
+    { $count ->
+        [one] ماہ { $count }
+       *[other] ماہ { $count }
+    }
+x-years-short =
+    { $count ->
+        [one] سال { $count }
+       *[other] سال { $count }
+    }
+help-make-dataset = اعلٰی معیار کی ، عوامی طور پر کھلا ڈیٹاسیٹ بنانے میں ہماری مدد کریں
 sign-up-account = ایک اکاؤنٹ کے لئے سائن اپ کریں
+email-subscription-title = ای میل کی تازہ کاریوں کے لئے سائن اپ کریں
+email-subscription-title-new = کامن وائس نیوز لیٹرز ، گول یاد دہانیوں اور پیشرفت کی تازہ کاریوں کیلئے سائن اپ کریں
 
 ## Account Benefits
 
@@ -160,6 +212,7 @@ benefits = فوائد
 ## What's public
 
 whats-public = عوامی کیا ہے؟
+email-not-public = ہم آپ کے ای میل کو عوامی نہیں بنائیں گے۔
 
 ## Speak & Listen Shortcuts
 
@@ -218,6 +271,8 @@ profile-form-age =
     .label = عمر
 profile-form-gender =
     .label = جنس
+leaderboard-visibility =
+    .label = لیڈر بورڈ کی نمائش
 hidden = پوشیدہ
 visible = ‏‏مرئی
 native-language =
@@ -239,12 +294,16 @@ edit-profile = پروفائل کی تدوین کریں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
 profile-explanation = ایک پروفائل کے ساتھ اپنی پیش رفت پر سراغ رکھیں اور ہماری صوتی کوائف کی مزید درستگی  میں مدد کریں
+thanks-for-account = آپ کے اکاؤنٹ کی تصدیق کرنے کے لئے شکریہ ، اب آپ اپنا پروفائل بنائیں۔
 why-demographic = یہ اہم کیوں ہے؟
 accept-privacy-title = رازداری پالیسی
+login-identity = لوگن پہچان
 login-signup = لاگ ان کریں / سائن اپ کریں
 edit = تدوین
 email-subscriptions = ایمیل رکنیت
 download-profile = میرے کوائف ڈائونلوڈ کریں
+contribution-experience = شراکت کا تجربہ
+skip-submission-feedback = سب مشن فیڈبیک چھوڑ دیں
 off = بند
 on = چالو
 retry-voice-wave-recording = پھر کوشش کريں
@@ -262,8 +321,12 @@ add-language = زبان شامل کریں
 faq-title = اکثر پوچھے گئے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = یہ اہم کیوں ہے؟
+faq-how-get-q = میں کامن وائس کا ڈیٹا کیسے حاصل کرسکتا ہوں؟
+faq-when-release2-q = آپ کب  دوسری زبانوں میں کامن وائس کا ڈیٹا جاری کریں گے؟
+faq-why-mission-q = Mozilla کی مہم کا Common Voice حصۃ کیوں ہے؟
 faq-why-my-lang-q = میری زبان ابھی تک کیوں شامل نہیں ہے؟
 faq-where-src-from-2-q = ماخز متن کہاں سے آتا ہے؟
+faq-why-account-q = میں اکاؤنٹ میں سائن اپ کیوں کروں؟
 faq-is-account-public-q = کیا میرے اکاؤنٹ کی معلومات عوامی ہیں؟
 faq-what-is-cv = Common Voice کیا ہے؟
 faq-using-cv = Common Voice کا استعمال کرنا
@@ -276,6 +339,7 @@ about-title = Common Voice کیوں؟
 how-does-it-work-title = یہ کس طرح کام کرتا ہے
 about-speak = بولیں
 about-listen = سنیں
+about-is-it-valid = کیا یہ تراشہ درست ہے؟
 about-dataset-new = Common Voice ڈیٹاسیٹ
 about-partners = ساتھی
 about-become-a-partner = شراکت دار بنیں۔
@@ -327,6 +391,7 @@ cv-license = لائسنس
 email-to-download = ڈاؤن لوڈ کرنے کے لئے ای میل درج کریں
 size-gigabyte = GB
 size-megabyte = MB
+recorded-hours = ریکارڈ شدہ  گھنٹے
 subscribe = رکن بنیں
 data-other-ted-name = TED-LIUM Corpus
 go-languages-page = زبانوں کے صفحے پر جائیں
@@ -451,9 +516,12 @@ recordings =
 
 your-languages = آپ کی زبانیں
 toward-next-goal = اگلے مقصد کی طرف
+clips-you-recorded = آپ کے پاس ریکارڈ کردہ تراشے
+clips-you-validated = آپ کے توثیق شدہ تراشے
 awards = ایوارڈ
 you = آپ
 everyone = تمام
+recorded-clips = ریکارڈ شدہ تراشے
 
 ## Custom Goals
 
@@ -465,6 +533,7 @@ pro-difficulty = پرو
 want-to-continue = کیا آپ جاری رکھنا چاہتے ہیں؟
 set-a-goal = ایک مقصد طے کریں
 cant-decide = فیصلہ نہیں کر سکتے۔
+how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
 n-clips = { NUMBER($count) } تراشے
 goal-interval-weekly = ہفتہ وار
 share-goal-type-speak = بولنا
