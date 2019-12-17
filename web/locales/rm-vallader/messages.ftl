@@ -369,6 +369,7 @@ faq-how-get-a = La collecziun da datas da Common Voice sta a disposiziun per tel
 faq-when-release2-q = Cura publichaivat Common Voice in otras linguas?
 faq-when-release2-a = La versiun plurilinguala da l'unità da datas da Common Voice vain actualmaing repassada dalla comunità. Scha vus laivat güdar a nus ad agiundscher nouvas linguas a Common Voice, visitai il <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> per agiundscher nouvas construcziuns a l'unità da datas, o Mozilla <pontoonLink>Pontoon</pontoonLink> per tradüer la pagina-web stessa. Nouvas linguas vegnan agiuntas a Common Voice per la contribuziun vocala, subit chi dà 5000 construcziuns confermadas.
 faq-why-mission-q = Perche fa Common Voice part da la missiun da Mozilla?
+faq-why-mission-a = Mozilla less mantgnair il web avert ed accessibel per minchün. Perquai stuvaina sustgnair persunas chi creeschan cuntgnü da web cun progets sco Common Voice. Oramai cha tecnologias vocalas nu su plü be prodots da nischa, eschan nus da l'avis cha quistas ston nüzziar a tuot ils ütilisaders da listessa maniera. Quai voul dir chi'd es dad investir in daplü linguas e da resguardar differents accents e differentas demografias dürant la construcziun e la prova da tecnologias vocalas. Common Voice es üna resursa publica chi sta a disposiziun a minchün ed ils teams da Mozilla e sviluppaders sün tuot il muond tilla  douvran fingià per noss agens progets.
 faq-what-cv-and-deepspeech-q = Che es la differenza tanter Common Voice e Deep Speech?
 
 ## ABOUT US
