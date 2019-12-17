@@ -209,14 +209,15 @@ export default class Server {
     next: express.NextFunction
   ) {
     // Set by HTTPS load-balancers like ELBs
-    if (req.headers['x-forwarded-proto'] === 'https') {
+    if (req.headers['x-forwarded-proto'] === 'http') {
+      // Send to https please, always and forever
+      res.redirect(
+        HttpStatus.PERMANENT_REDIRECT,
+        'https://' + req.headers.host + req.url
+      );
+    } else {
       return next();
     }
-    // Send to https please, always and forever
-    res.redirect(
-      HttpStatus.PERMANENT_REDIRECT,
-      'https://' + req.headers.host + req.url
-    );
   }
 
   private setupCrossLocaleRoute() {
