@@ -377,6 +377,13 @@ faq-is-goal-assistant-a = Il böt da la collecziun da datas da Common Voice esa 
 faq-do-want-native-q = Eu nu sun da lingua materna e discuor cun accent. Eschat istess interessats vi da mia vusch?
 faq-do-want-native-a = Schi, vi da tia vusch eschan nus interessats specialmaing! Ün böt da Common Voice esa da ramassar uschè blers differents accents sco pussibel per cha'ls servezzans da recugnuschentscha vocala funcziunan per tuots istess bain. Quai voul dir cha contribuziuns da persuna chi nu sun da lingua materna sun specialmaing importantas.
 faq-why-different-speakers-q = Perche dovrais tants pledaders da mincha lingua?
+faq-why-different-speakers-a =
+    Las bleras bancas da datas vocalas vegnan trenadas d'üna surrapreschantanza da tschertas demografias. Quai chaschunescha üna favurisaziun <articleLink>dad homens e da la classa sociala media</articleLink>. Accents e dialects chi tendan ad esser suotrapreschantats in bancas da datas da trenamaint sun tipicamaing associadas cun gruppas da persunas chi vegnan insomma marginalisadas. Bleras maschinas han eir fadia dad incleger vuschs femininas.
+    Pervi da quai lain nus avair üna banca da datas bain variada.
+faq-why-my-lang-q = Perche nun es mia lingua amo inclusa?
+faq-what-quality-q = Che qualità dad audio es necessaria per cha üna registraziun da vusch possa gnir dovrada per la collecziun da datas?
+faq-why-10k-hours-q = Perchè es il böt da la registraziun 10.000 uras verifichadas per mincha lingua?
+faq-why-10k-hours-a = Quai es la quantità dad uras chi voul in circa per trenar ün sistem productiv da speech-to-text.
 
 ## ABOUT US
 
