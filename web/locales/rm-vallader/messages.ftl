@@ -376,6 +376,7 @@ faq-is-goal-assistant-q = Esa il böt da Common Voice da construir ün assistent
 faq-is-goal-assistant-a = Il böt da la collecziun da datas da Common Voice esa da render pussibel a minchün da construir applicaziuns per la recugnuschentscha vocala, l'identificaziun dal pledader o minch'otra sort dad applicaziun chi douvra datas vocalas. Ün assistent virtual es be üna da bleras differentas applicaziuns cha tü savessast construir culla collecziun da datas.
 faq-do-want-native-q = Eu nu sun da lingua materna e discuor cun accent. Eschat istess interessats vi da mia vusch?
 faq-do-want-native-a = Schi, vi da tia vusch eschan nus interessats specialmaing! Ün böt da Common Voice esa da ramassar uschè blers differents accents sco pussibel per cha'ls servezzans da recugnuschentscha vocala funcziunan per tuots istess bain. Quai voul dir cha contribuziuns da persuna chi nu sun da lingua materna sun specialmaing importantas.
+faq-why-different-speakers-q = Perche dovrais tants pledaders da mincha lingua?
 
 ## ABOUT US
 
