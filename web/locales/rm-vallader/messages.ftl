@@ -371,6 +371,8 @@ faq-when-release2-a = La versiun plurilinguala da l'unità da datas da Common Vo
 faq-why-mission-q = Perche fa Common Voice part da la missiun da Mozilla?
 faq-why-mission-a = Mozilla less mantgnair il web avert ed accessibel per minchün. Perquai stuvaina sustgnair persunas chi creeschan cuntgnü da web cun progets sco Common Voice. Oramai cha tecnologias vocalas nu su plü be prodots da nischa, eschan nus da l'avis cha quistas ston nüzziar a tuot ils ütilisaders da listessa maniera. Quai voul dir chi'd es dad investir in daplü linguas e da resguardar differents accents e differentas demografias dürant la construcziun e la prova da tecnologias vocalas. Common Voice es üna resursa publica chi sta a disposiziun a minchün ed ils teams da Mozilla e sviluppaders sün tuot il muond tilla  douvran fingià per noss agens progets.
 faq-what-cv-and-deepspeech-q = Che es la differenza tanter Common Voice e Deep Speech?
+faq-what-cv-and-deepspeech-a = La collecziun da datas  da Common Voice cumplettescha la maschina da recugnuschentscha vocala open source Deep Search da Mozilla. La prüma versiun da Deep Speech es statta publichada in november 2017 e vain sviluppada inavant cuntinuadamaing. Nus eschan da l'avis cha quista tecnologia da recugnuschentscha vocala, insembel culla collecziun da datas da Common Voice, sto star a disposiziun a minchün. Nus sperain cha quistas tecnologias laschan ils sviluppaders crear üna uonda da prodots e servezzans innovativs.
+faq-is-goal-assistant-q = Esa il böt da Common Voice da construir ün assistent vocal?
 
 ## ABOUT US
 
