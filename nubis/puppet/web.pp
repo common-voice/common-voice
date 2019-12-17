@@ -100,6 +100,8 @@ apache::vhost { $project_name:
     </Location>
 
     ProxyTimeout 30
+    ProxyPreserveHost On
+
     ProxyPass / http://localhost:9000/ retry=1
     ProxyPassReverse / http://localhost:9000/
 
