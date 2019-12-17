@@ -1,4 +1,4 @@
-dist: xenial
+dist: bionic
 sudo: enabled
 language: node_js
 node_js:
