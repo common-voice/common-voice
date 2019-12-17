@@ -383,8 +383,11 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Perche nun es mia lingua amo inclusa?
 faq-why-my-lang-new-a = Mozilla nu selecziunescha e nu favurisescha ingüna lingua. Anzi, Common Voice es ün'iniziativa chi vain elavurada exclusivamaing da la comunità. Mo i voul <multilangLink>plüs pass per integrar üna nouva lingua</multilangLink> e cumanzar a ramassar contribuziuns vocalas. Il prüm sto la pagina d'internet da Common Voice gnir tradütta per cha'ls commembers da la comunità hajan access a las experienzas dals partecipants in lur aigna lingua. Sco prossem vaina dabsögn dad üna gronda quantità da frasas (construcziuns) chi sun libras da drets d'autur per pudair gnir lettas avant da persunas. Subit cha quistas duos premissas sun accumplidas, vegn la lingua "lantschada" sün Common Voice, uschè cha la glieud po registrar lur vusch e verifichar las contribuziuns dad oters. Scha tü voust güdar a lantschar üna nouva lingua, va inavant pro nos <sentenceCollectorLink> instrumaint per ramassar construcziuns </sentenceCollectorLink>.
 faq-what-quality-q = Che qualità dad audio es necessaria per cha üna registraziun da vusch possa gnir dovrada per la collecziun da datas?
+faq-what-quality-a = Nus lain cha la collecziun da datas da Common Voice rapreschainta la qualità dad audio culla quala cha üna maschina da recugnuschentscha vocala gnis confruntada eir illa vita da minchadi. Quai voul dir cha nus tscherchain varietà. Sper üna comunità da pledaders variada güda eir üna collecziun da datas chi variescha davart la qualità dad audio a la maschina da recugnuschentscha vocala dad imprender a lavurar cun differentas situaziuns illa vita reala, quai va da rumurs casualas fin pro canera dad autos. Fintant cha tia registraziun da vusch es inclegiantaivla, stess'la esser buna avuonda per la collecziun da datas.
 faq-why-10k-hours-q = Perchè es il böt da la registraziun 10.000 uras verifichadas per mincha lingua?
 faq-why-10k-hours-a = Quai es la quantità dad uras chi voul in circa per trenar ün sistem productiv da speech-to-text.
+faq-how-calc-hours-q = Co calculescha Common Voice las uras?
+faq-how-calc-hours-a = Nus calculain las uras cun stimar la media da la lunghezza da mincha registraziun e multiplichain quist resultat culla quantità totala da las registraziuns in tuot las linguas.
 
 ## ABOUT US
 
