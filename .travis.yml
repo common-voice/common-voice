@@ -14,7 +14,7 @@ services:
 install: true
 before_install:
   - mysql -e "SET PASSWORD FOR 'root'@'localhost' =  PASSWORD('');"
-  - sudo add-apt-repository ppa:mc3man/trusty-media --yes
+  - sudo add-apt-repository ppa:mc3man/bionic-media --yes
   - sudo apt-get update
   - sudo apt-get install ffmpeg gstreamer0.10-ffmpeg
 before_script:
