@@ -413,6 +413,16 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perche Common Voice?
+about-subtitle = Common Voice fa part da l'iniziativa da Mozilla chi voul güdar a maschinas ad imprender co cha persunas realas discuorran. Sper la collecziun da datas da Common Voice eschan nus eir landervia da construir üna maschina da recugnuschentscha vocala open source chi ha nom Deep Speech.
+about-header-description =
+    Tuots duos progets fan part da nos ingaschamaint da survendscher ils cunfins davart la lingua digitala. Las tecnologias da recugnuschentscha vocala dan a noss aparats üna dimensiun umana, mo il sviluppaders douvran üna gronda quntità da datas vocalas per pudair construir quistas tecnologias.¶
+    Nus lain render las datas da vusch accessiblas in möd liber ed avert e garantir implü cha las datas rapreschaintan la diversità da persunas realas. Insembel pudaina amegldrar la recugnuschentscha vocala per tuots.
+how-does-it-work-title = Co funcziuna quai?
+how-does-it-work-text = Culla partecipaziun collectiva s-chaffin nu üna collecziun da datas da vusch open source. Contribuischa cun tia vusch, verifichescha las registraziuns dad otras persunas, renda la collecziun da datas megldra per tuots.
+about-speak = Discuorrer
+about-speak-text = Partecipants registreschan lur vusch cun leger avant construcziuns dunadas our dad üna collecziun da datas.
+about-listen-queue = Fila da las contribuziuns chi sun da tadlar
+about-listen-queue-text = Las registraziuns vegnan missas in üna fila dad inoltraziun, prontas per gnir tadlas.
 
 ## Glossary
 
