@@ -394,6 +394,12 @@ faq-where-src-from-2-a =
     
     Vus pudais verer nossas construcziuns da funtana aint in quist <githubLink>ordinatur</githubLink> da GitHub.
 faq-why-not-ask-read-q = Perche nu fais leger avant las persunas our da cudeschs o our dad artichels da Wikipedia in differentas linguas?
+faq-why-not-ask-read-a = Per render la collecziun da datas da Common Voice uschè nüzziaivla sco pussibel vaina decis da permetter be texts da funtanas chi sun da surgnir cun üna licenza tenor Creative Commons (CC0). Dovrar il standard  CC0 significha chi'd es plü cumplichà da chattar e ramassar ils texts da funtana, i permetta però eir da dovrar las datas da vusch elavuradas sainza restricziuns o autorisaziuns davart Mozilla. A la fin finala laina render la collecziun da datas plurilinguala plü nüzziaivla pussibel per tuots, inclus perscrutaders, universitats, start-ups, regenzas, organisaziuns socialas e paschiunats da computers.
+faq-why-account-q = Perche stess eu drizzar aint ün conto?
+faq-is-account-public-q = Sun mias datas da conto publicas?
+faq-how-privacy-q = Co pudaivat vus garantir anonimità e protecziun da datas a las persunas chi han contribui cun lur vusch?
+faq-how-privacy-a = Las infuormaziuns persunalas vegnan eliminadas da tuot las registraziuns aint illa collecziun da datas.
+faq-what-determine-identity-q = Che voul quai dir ch'eu nu poss  "eruir l'identità" dal pledader aint illa collecziun da datas da Common Voice?
 
 ## ABOUT US
 
