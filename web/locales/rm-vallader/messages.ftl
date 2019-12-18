@@ -423,6 +423,15 @@ about-speak = Discuorrer
 about-speak-text = Partecipants registreschan lur vusch cun leger avant construcziuns dunadas our dad üna collecziun da datas.
 about-listen-queue = Fila da las contribuziuns chi sun da tadlar
 about-listen-queue-text = Las registraziuns vegnan missas in üna fila dad inoltraziun, prontas per gnir tadlas.
+about-listen = Tadlar
+about-listen-text = Ils ütilisaders verficheschan la qualità da las registraziuns e controllan cha'l pledader legia avant la frasa correctamaing.
+about-is-it-valid = Es la registraziun verfichada?
+about-is-it-valid-text = Üna registraziun vocala vegn marchada sco "verifichada", sch'ün ütilisader tilla validescha cun ün Schi.
+about-yes-votes = ≥ 2 validaziuns Schi
+about-yes-votes-text = Per rivar aint illa collecziun da datas da Common Voice sto üna registraziun gnir verifichada da duos differents ütilisaders.
+about-no-votes = ≥ 2 validaziuns Na
+about-no-votes-text = Sch'üna registraziun vain refüsada dad ün ütilisader tuorn'la inavo aint illa fila. Scha quista registraziun vain refüsada üna seguonda jada, vain'la spostada sül sunteri da registraziuns.
+about-dataset-new = Collecziun da datas da Common Voice
 
 ## Glossary
 
