@@ -337,8 +337,6 @@ class App extends React.Component {
       environment: isProduction() ? 'prod' : 'stage',
       release: process.env.GIT_COMMIT_SHA || null,
     });
-
-    Sentry.captureException(new Error('Testing Sentry config'));
   }
 
   async componentDidMount() {
