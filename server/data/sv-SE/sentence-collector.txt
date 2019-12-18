@@ -44,6 +44,7 @@ Använd hushållssoporna!
 Använder du alltid så mycket salt?
 Använder du fortfarande marijuana?
 Arbetare blev skadade.
+Arbete?
 Arbetskraften är billig eftersom folk utnyttjas.
 Armén skickade hem honom eftersom han fungerade dåligt socialt.
 Att använda mitt bolag till att bygga bomber?
@@ -113,6 +114,7 @@ Beslut som kan förändra en.
 Beslut som leder oss från en dag till en annan.
 Betyder det att du förlåtit mig?
 Bevisa för mig!
+Bilden togs när mrs Reagan var presidenthustru.
 Blev du rädd?
 Bor du inte här?
 Borde jag stanna eller ska jag sticka nu?
@@ -236,7 +238,7 @@ Den enda makten vi har är att säga nej.
 Den finns inte i guideböckerna!
 Den förstärker människans fysiska förmåga med femhundra procent.
 Den gör bubblor.
-Den har en motor som driver kassetten.
+Den har en motor som driver kassetten.
 Den har något underligt oljud.
 Den här gamla saken?
 Den här hann åtminstone i tid.
@@ -744,6 +746,7 @@ Det är min replik.
 Det är min sista kväll!
 Det är mitt fel.
 Det är motsatsen.
+Det är mr Lebowskis barn...
 Det är mycket salt.
 Det är männen i gruvan det är synd om.
 Det är naturligt.
@@ -1293,6 +1296,7 @@ En väg in, en väg ut.
 Enligt henne finns ett stipendium till en skola.
 Er egen nivå av vad då?
 Er första skoldag, och regnet har kommit.
+Er hustru...
 Er lilla grej är en hit.
 Er mamma säger att det är frukost.
 Er revolution är över!
@@ -1821,6 +1825,7 @@ Har jag sagt hur mycket jag uppskattar dig?
 Har jag vunnit?
 Har man gymnasieexamen är man här.
 Har mänskligheten blivit utplånad?
+Har ni arbete, mr Lebowski?
 Har ni arbete?
 Har ni en fast linje?
 Har ni flyttat, eller något sånt?
@@ -2022,6 +2027,7 @@ Hur är det?
 Hur är läget?
 Hursomhelst ska vi fånga honom.
 Hyfsat mycket.
+Häftigt. Har han plats för en till?
 Hälsa din lekkamrat att jag inte skriver på.
 Häng med nu.
 Hänger er åt äktenskapet.
@@ -2959,6 +2965,7 @@ Jag älskar er så mycket.
 Jag älskar fan er.
 Jag älskar fikon!
 Jag ändrade mig.
+Jag är The Dude.
 Jag är Vincent.
 Jag är av en annan uppfattning.
 Jag är bara så otroligt nervös.
@@ -2996,6 +3003,7 @@ Jag är inte bombad.
 Jag är inte din polare, okej?
 Jag är inte intresserad.
 Jag är inte känd för att ge upp så lätt.
+Jag är inte mr Lebowski ni är mr Lebowski.
 Jag är inte redo för det här.
 Jag är inte säker på om de har några.
 Jag är inte säker.
@@ -3054,6 +3062,7 @@ Jaha, tillbaka från de döda.
 Jajamän, jag kommer till stan.
 Jaså, säger du det?
 Jeff Lebowski, den andre Jeffrey Lebowski. Miljonären.
+Jo då.
 Jo, det gör det, men det involverar inte mig.
 Jo, det måste jag.
 Jo, det ska ni.
@@ -3201,7 +3210,7 @@ Känner du igen honom?
 Känner ni varandra?
 Kärnreläet är hjärnan.
 Köket renoverades för två år sen.
-Köp spannmål, så mycket du kan.
+Köp spannmål, så mycket du kan.
 Kör hårt, mamma!
 Lade han på?
 Landningen var lite hård, men.
@@ -3473,6 +3482,8 @@ Mitt batteri är slut.
 Mitt hår är helt galet.
 Morgonkaffe där ute är kanske ingen dålig idé.
 Motion är bra för själen.
+Mr Lebowski med rikets första dam.
+Mr Lebowski är rörelsehindrad.
 Multiplicera det med en grupp om tio så drar vi in tjugo.
 Mycket att göra?
 Mycket mer än man kan kräva.
@@ -3497,6 +3508,7 @@ Namnet fick han av sina föräldrar, men det hade han ingen nytta av.
 Nancy duger bra.
 Nationalgardet tar in helikoptrarna.
 Nej då, det är ingen fara.
+Nej, Woo pissade på min matta.
 Nej, behåll dem.
 Nej, de träffas nog bara.
 Nej, det går inte.
@@ -3589,6 +3601,7 @@ Nej, vi vill bara att du ska ge cykeln till honom.
 Nej, vi är inte tillsammans längre.
 Ni andra, gå till era klassrum.
 Ni behöver inte säga något, men det ni säger kan användas som bevis.
+Ni berättade för Brandt och han berättade för mig.
 Ni bestämmer allt och säger till mig att slåss.
 Ni blir sjuka.
 Ni borde hålla er undan!
@@ -4099,6 +4112,7 @@ Skillnaden är stor i detta fallet.
 Skit i dem.
 Skit i kontraktet!
 Skit också!
+Skit samma...
 Skitsamma, jag tar livet av mig.
 Skjuta vad då?
 Skjuter du mig, släpper tummen greppet och pang.
@@ -4226,7 +4240,7 @@ Så det var inte planlagt?
 Så detta är den kända?
 Så du kommer hem?
 Så du kör taxi.
-Så du laddar batteriet med vindgeneratorn?
+Så du laddar batteriet med vindgeneratorn?
 Så du litar inte på min skådespelartalang?
 Så du tror inte att något händer efter döden?
 Så du tror mig verkligen, fader?
@@ -4270,6 +4284,7 @@ Så klart.
 Så lätt är det inte.
 Så med lite hängivenhet finns det inga skäl.
 Så mycket kärlek.
+Så ni heter Lebowski, och jag heter Lebowski.
 Så nu kan jag dö lycklig utan att känna mig lurad av Herren.
 Så okarakteristiskt ångerfullt.
 Så om du är ateist, varför vill du dö?
@@ -5213,6 +5228,7 @@ William, var är min radio?
 Yngre än din mamma.
 jag är upptagen ikväll.
 kan vi fortfarande plantera.
+och bowla.
 rappa på!
 Äckligt, jag vet.
 Älskling, vi tar sportbilen.

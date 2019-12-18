@@ -181,7 +181,7 @@ Abagore barashishikarizwa kuba umusemburo w’iterambere rirambye
 Abagore bari kurigisa bakanahohotera abagabo babashakaho amasohoro
 Abagore basanga uburere buke ari intandaro y’ihohoterwa
 Abagore bashishikarizwa kwitinyuka no gufasha leta mu bikorwa bitandukanye birimo ubuhinzi n’ubworozi.
-Abagore batabana n’abagabo bahuguriwe kumenya imyanya ndangagitsina                       Ibyapa byose byamamaza bigiye gusora
+Abagore batabana n’abagabo bahuguriwe kumenya imyanya ndangagitsina Ibyapa byose byamamaza bigiye gusora
 Abagore batangiye kwiga uburyo uburinganire butabangamira abagabo
 Abagore batwite bakeneye kwitabwaho
 Abagore batwite bakeneye kwitabwaho.
@@ -1726,7 +1726,7 @@ Ateranya amazi yo mu nyanja nk’ikirundo, Ashyingura imuhengeri mu bubiko.
 Atewe impungenge n’imvura imaze kugera kukigero kinini
 Atewe ishema n’ukuntu ibihangano bye ku muco bikunzwe
 Ati: kandi ndabizi wari waranze kubumvira biba amaburakindi.
-Ati: ndabibona nturamenya. Ati : ariko noneho itonde undebe.
+Ati: ndabibona nturamenya. Ati: ariko noneho itonde undebe.
 Ati Hari impinduka zizatuma.
 Ati Ibibazo abiga mu Rwanda bafite.
 Ati Iyo myanya badushyiriyeho.
@@ -1796,7 +1796,7 @@ Avuga ko ubusanzwe amagambo nk’aya yajyaga agaragara mu gihe cy’icyunamo.
 Awusimbutse arateba ntiyawuzimiza, akubita ikirenge ku rutsike rwo hakurya ikiguja cyawo kirarimbuka kimurundumuriramo!
 Aya mafaranga turayagura inyama
 Aya mafoto arasa.
-Aya majwi babara ni ya yandi asaguka igihe ugabanyije n’umubare fatizo                                	      Urugero niba
+Aya majwi babara ni ya yandi asaguka igihe ugabanyije n’umubare fatizo Urugero niba
 Aya makuru nayakuye mu ncamake z’ amakuru za Radiyo.
 Ayikinisha nk’inyana y’inka, Lebanoni n’i Siriyoni ahakinisha nk’inyana y’imbogo.
 Ayisoma yitonze Numva yiruhutsa.
@@ -2204,7 +2204,7 @@ Bibiliya ni igitabo kitasimbuzwa ikintu icyo ari cyo cyose.
 Bibutse ibihe byo hambere
 Bibye imodoka irimo imirambo
 Bidasaba imyaka agahumburi
-Bifashisha iyi ndirimbo mu bikorwa  byo Kwibuka.
+Bifashisha iyi ndirimbo mu bikorwa byo Kwibuka.
 Bifashishije uburyo bwo kugerageza gutsinda amanota atatu imbumbe
 Bifotoje ifoto y’urwibutso rw’ubukwe bwabo nyuma y’imyaka mirongo inani numunani babukoze
 Bifuza kugira ibyo bamenyekanisha yizeza umusanzu.
@@ -2270,13 +2270,13 @@ Bitugukwaha yo iragatsindwa
 Bituma batekereza gukora ifite icya kuko bazi neza.
 Bituma uwayigannye ayivuga neza
 Bitume utuvunagurira ahantu h’ingunzu, Udutwikirize igicucu cy’urupfu.
-Bitunguranye yaje kugwa i Bujumbura kuwa Nyakanga  apfa
+Bitunguranye yaje kugwa i Bujumbura kuwa Nyakanga apfa
 Bitwaye iki umuhungu gukundana n’umukobwa umuruta ubukuru
 Bivugwa ko aba bantu bafatiwe hafi y’urugo.
 Bivugwa ko nubwo iyi nyandiko yasinyweho n’abagera ku.
 Biyanditse ku myenda bishimira kurangiza ibizamini bya Leta
 Biyemeje gucika ku muco wo gusabiriza
-Bizabera Budage kuva ku itariki kugeza kuri.  Mutarama Bizerekeza mu Buholandi kuva  Mutarama.
+Bizabera Budage kuva ku itariki kugeza kuri. Mutarama Bizerekeza mu Buholandi kuva Mutarama.
 Bizihije isabukuru y’imyaka makumyabiri nitanu Umuryango efuperi Inkotanyi umaze ushinzwe
 Bizihije umunsi w’ababana bahuje ibitsina ku rwego rw’ igihugu
 Bizimana Patient agiye gutaramira Abanyakigali
@@ -2308,7 +2308,7 @@ Bugesera Yavuye mu rwasaya rw’ingona
 Bugesera ku mwanya wa mbere Kirehe ku wa nyuma mu rubyiruko rwesheje imihigo
 Bugesera yatsinze muhanga ibitego bitatu
 Bujumbura Isoko rikuru ryaragurumanye indege z’u Rwanda ziratabara
-Bujumbura Umukinnyi Kubi Banga  yishwe atemaguwe
+Bujumbura Umukinnyi Kubi Banga yishwe atemaguwe
 Bukavu haratutumba ubuhunzi
 Bukeye Bizirakwezi aramubaza ati: n’iminsi yose umaze aha, urareba ugansanga ntahandi wigeze umbona?
 Bukeye Gaheshyi yongera kudabagira bitambutse ibyo mu Rwanda.
@@ -2529,7 +2529,7 @@ Dukwiye kwanga ikintu cyose kitugwingiza
 Dusangire ibi biryo kuko njyewe nahaze.
 Dusengera mu itorero
 Dusezeranye ko tuzabana
-Dushyira imbere ibikorwa by’iterambere, aho gushakira indamu mu mahanga  Perezida Kagame
+Dushyira imbere ibikorwa by’iterambere, aho gushakira indamu mu mahanga Perezida Kagame
 Duteganya ko nko mu gihe cyo.
 Dutere ibiti mubishoboka.
 Duterimbere irishimira ko ifasha umugore udafite ingwate kubona inguzanyo
@@ -3009,7 +3009,7 @@ Hagati y’umuhanzi Dani Akamunani numukorera indirimbo hararangwa ubwumvikane b
 Hageze impunzi igihumbi z’Abanyekongo
 Hagiye gukorwa telefoni ngendanwa izajya ipima abarwaye Sida
 Hagiye gusiramurwa abanyeshuri maganatatu ba Kaminuza Nkuru y’u Rwanda
-Hagiye gutangizwa ishuri rikuru rizunganira iterambere ry’abaturage                    Imyiteguro ya Rwanda Day irarimbanyije
+Hagiye gutangizwa ishuri rikuru rizunganira iterambere ry’abaturage Imyiteguro ya Rwanda Day irarimbanyije
 Hagiye gutegurwa ibitaramo bine bikomeye
 Hagiye kongerwa imbaraga mu ishoramari mu buhinzi
 Hagiye kubakwa Umujyi uzajya ugerwamo n’abagore gusa
@@ -5059,7 +5059,7 @@ Iyo rushyizweho amaraso y’urwaye.
 Iyo tumaze kurya tugomba gukora cyane.
 Iyo ubukungu budasaranganyijwe abaturage havuka amakimbirane
 Iyo udagadwa uba ufitee icyo wakoze kibi
-Iyo ugize amahirwe Imana ikagutoranya mu bakozi uba ugomba kubikorana umurava nk’  uzabihemberwa.
+Iyo ugize amahirwe Imana ikagutoranya mu bakozi uba ugomba kubikorana umurava nk’ uzabihemberwa.
 Iyo ukeneye ubufasha urabuhabwa.
 Iyo umujyi ukura n’ibyaha biriyongera
 Iyo umuntu agukoreye nabi abakwigishije.
@@ -5165,7 +5165,7 @@ Kalisa yatangiye kuririmba ku giti cye, anasohora indirimbo ye ya mbere
 Kalisa Akunda amazi ya huye.
 Kalisa ahora aseka.
 Kalisa akunda amateke.
-Kalisa arasaba ko hashyirwaho amategeko mashya mu gucunga intwaro mu          baturage
+Kalisa arasaba ko hashyirwaho amategeko mashya mu gucunga intwaro mu baturage
 Kalisa bamujyanye ku kigo nderabuzima cya hafi aha.
 Kalisa ni umugabo mbwa!
 Kalisa ni umwana wakuriye m’ubuhungiro.
@@ -5583,7 +5583,7 @@ Kubera iki ukunda utagukunda.
 Kubera iki usetse?
 Kubera imbaraga za Yezu, natsinze.
 Kubera ko ababyeyi baba bagiye
-Kubera kwigisha abakuze gusoma no kwandik                                                                  Urwanda rwahawe igihembo Na Fifa
+Kubera kwigisha abakuze gusoma no kwandik Urwanda rwahawe igihembo Na Fifa
 Kubera ubugufi bwe yakuze aziko aramutse atwaye inda yaturika none afite umwana
 Kubera umubano mwiza dufitanye n’u
 Kubera urukundo nkunda Imana, nzayinamaho.
@@ -5884,7 +5884,7 @@ K’imyambaro yo mu muco w’iwabo Yabaye.
 Laboratwari ipima ibimenyetso yabaye inkuru nziza kuko ibi bizamini uwabikeneraga byamusabaga kubijyana mu mahanga.
 Laboratwari ipima ibimenyetso.
 Ledi gaga aragenda mu kagare
-Leta ya kongo yatangaje ko abarwanyi batwaye  Abatarenze Magana kenda
+Leta ya kongo yatangaje ko abarwanyi batwaye Abatarenze Magana kenda
 Leta Zunze Ubumwe za Amerika kubera.
 Leta Zunze Ubumwe za Amerika.
 Leta igiye gufasha kongera ikoreshwa rya Biyogaze mu magereza
@@ -6325,7 +6325,7 @@ Mu gihe yaje ku mwanya wa gatatu akoresheje.
 Mu gihugu cyacu ntibyoroshye kubona umupasiteri utarahuguwe nibijyanye numuhamagaro afite.
 Mu gihugu kiyobowe neza intambara ntishobora kuba
 Mu gikombe cy’Amahoro ruratangira kwambikana
-Mu gikorwa cyogutera impunga Abatishoboye hakusanyijwe Arenga Miliyoni Icumi  yo gufasha imfubyi
+Mu gikorwa cyogutera impunga Abatishoboye hakusanyijwe Arenga Miliyoni Icumi yo gufasha imfubyi
 Mu gitaramo cye kenisi wari waganjwe na manyinya yakoze udushya
 Mu gitaramo ubwiza n’imyambarire byarivugiraga
 Mu guhamya isezerano, usanzwe aba muri
@@ -6922,7 +6922,7 @@ Ndamwanga kubera ibintu yankoreye
 Ndananiwe uzanshake icyumweru kiza
 Ndangamuntu abatutsi babona urwaho rwo kwigwizaho ibyiza.
 Ndangije Kaminuza uyu mwaka.
-Ndangije umwaka wa  gatanu  w’amashuri  yisumbuye.
+Ndangije umwaka wa gatanu w’amashuri yisumbuye.
 Ndanyuzwe noneho.
 Ndari yafashe rutemikirere yerekeza muri Afurika y’Epfo
 Ndaryaye ndifuza ko abantu bazamfasha
@@ -7207,7 +7207,7 @@ Nibarorere byo ntibikwiye
 Nibasobanukirwe ko muntu
 Nibayajyane nzashaka andi
 Nibigukungahaze bikwiye
-Nibishaka uzwi cyane  mu bikorwa byo gufasha abana bafite ibibazo
+Nibishaka uzwi cyane mu bikorwa byo gufasha abana bafite ibibazo
 Nibo bavuye mubyabo bahunga
 Nibuka ko kuba naraje gukora aho byabaye guhunga abakobwa.
 Nibura buri munsi impunzi ijana z’abanyekongo zinjira mu Rwanda
@@ -7745,7 +7745,7 @@ Nyuma yo gukubitwa, yakuyemo inda
 Nyuma yo gusakara kwayo mashusho ntiyavuzweho rumwe
 Nyuma yo gusinya amasezerano na Universal Record, Jackson Kalimba agiye gutunganya album
 Nyuma yo gusubiramo ibizamini umuhanzi Kamichi yarimutse
-Nyuma yo gutandukana n’abagabo 	Umunani arashaka uwa Cyenda w’amasaziro
+Nyuma yo gutandukana n’abagabo Umunani arashaka uwa Cyenda w’amasaziro
 Nyuma yo gutandukana n’abakunzi babo, noresi, Misi Jojo n’abandi bakundana na bande?
 Nyuma yo gutemwa n’umugore we amaze gutangwaho asaga ibihumbi magana atanu ngo avuzwe
 Nyuma yo gutwara Ibihembo Bya Salagisi Itorero Indangamirwa rirateganya no kurenga u Rwanda
@@ -8026,7 +8026,7 @@ Petero na keza bazakora ubukwe vuba.
 Petero yakunze kwiyungura ubumenyi kuva mu bwana bwe.
 Pfundura iryo pfundo.
 Plate, Indepiendiente n’izindi.
-Police ku mwanya wa mbere, Isonga  ku mwanya wa nyuma muri shampiyona
+Police ku mwanya wa mbere, Isonga ku mwanya wa nyuma muri shampiyona
 Police ikomeje kuyobora urutonde rwa Shampiyona
 Polisi irasaba abashimuta inyamaswa gushaka ibindi bakora
 Polisi irashimangira ko nta nzu y’imbohe iri kwa Kabuga
@@ -8553,7 +8553,7 @@ Tumwe mu dukino tw’abana b’abakobwa
 Tumwe mu dushya twaranze igitaramo cyo muri kaminuza iKigali
 Tumwe mu tubyiniro twari tugenzweho muri Kigali twahindutse umuyonga
 Tumwe mu turere turimo Nyanza, Kayonza
-Tumwe mu turere twakajije umurego mu kurwanya ibiyobyabwenge        Abanyamuryango ba Efuperi basabwe kudashyuha imitwe
+Tumwe mu turere twakajije umurego mu kurwanya ibiyobyabwenge Abanyamuryango ba Efuperi basabwe kudashyuha imitwe
 Tunababwire uwo muco mwiza
 Tunasange bakora nabi
 Turabatakambira muduteze imbere
@@ -9219,7 +9219,7 @@ Umubirizi uvura inzoka.
 Umubyeyi akwiye kwita ku mwana we cyane cyane mu minsi igihumbi ya mbere.
 Umubyeyi avuga ko uburyo umwana we yatwise
 Umubyeyi ujyanye umwana we ku ishuri aba amuteganyirije.
-Umubyeyi ukwanga akuraga urubanza rwamunaniy                                         Impanuka y’imodoka yahitanye abantu Makumyabiri Nicyenda
+Umubyeyi ukwanga akuraga urubanza rwamunaniy Impanuka y’imodoka yahitanye abantu Makumyabiri Nicyenda
 Umubyeyi uvuza ingoma abarwayi bagakira
 Umubyeyi wa Rwirangira yari atewe amatsiko n’imitsindire y’umuhungu we mu ishuri
 Umubyeyi wa gasana yahembwe.
@@ -9977,7 +9977,7 @@ Umwuka mubi hagati ya Brusi merodi n’abaraperi bo mu Rwanda
 Umwuka si mwiza hagati yabahinzi
 Umwuka w’Imana niwo umukoresha
 Umwuzure watembanye abantu.
-Undi ati: mba nkuroga! Bizirakwezi ati : nta mwana ugira?
+Undi ati: mba nkuroga! Bizirakwezi ati: nta mwana ugira?
 Undi ati: yari umwana w’umukobwa, nyina aza gupfa.
 Undi mushinga ni uw’itsinda ry’abanyarwanda wateguye ikoranabuhanga ryitwa ‘Gerayo’.
 Undi wahembwe ni uyobora
@@ -10538,7 +10538,7 @@ Watumye ababisha bacu badukubita incuro, Abatwanga baratwinyagira.
 Wavutse muwuhe mwaka
 Wenda nasanga ari rwanjye!
 Wenda urenze umunsi
-Werurwe abo bahutu barimo  Kayibanda wari umwanditsi.
+Werurwe abo bahutu barimo Kayibanda wari umwanditsi.
 Werurwe ashyiraho Komisiyo iyari gizwe n’abahutu batandatu.
 Wibabara humura.
 Wicara uvuga nabi mwene so, Ubeshyera mwene nyoko
@@ -10554,7 +10554,7 @@ Wiringire Uwiteka ukore ibyiza, Guma mu gihugu ukurikize umurava.
 Wishyire wizane muri byose
 Witegereze uboneye rwose, urebe utunganye, Kuko umunyamahoro azagira urubyaro.
 Witwa nde?
-Wo ku wa nzeri  muri iki cyumweru
+Wo ku wa nzeri muri iki cyumweru
 Wo kwa rwoga rwogera inka
 Wogeze ururirimbo
 Wowe utubumbiye hamwe twese
@@ -14060,7 +14060,7 @@ uyu mwaka uyu mushinga we yawutangira.
 uyu mwana arwaye bwacyi
 uyu mwana kuva kera aritonda.
 uyu ni umwana muto
-uyu wa Mata  bongeye gutakamba.
+uyu wa Mata bongeye gutakamba.
 uyu wa Gatatu abaganga bafashe umwanzuro wo gukuraho uku kuboko
 uyu wa Werurwe nyuma yuko yo muri.
 uyumubyeyi nimunini
