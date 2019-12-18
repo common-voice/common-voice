@@ -95,28 +95,5 @@
   </head>
   <body>
     <div id="root"></div>
-    <div id="error" style="display: none;">
-      <h1>We’re sorry, but your platform is not currently supported.</h1>
-      <p>On desktop computers, you can download the latest:</p>
-      <ul>
-        <li>
-          <a target="_blank" href="https://www.firefox.com/"> Firefox </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://www.google.com/chrome"> Chrome </a>
-        </li>
-      </ul>
-    </div>
-    <script>
-      var errorContainer = document.getElementById('error');
-      if (document.querySelector('#root').children.length === 0) {
-        errorContainer.style.display = 'block';
-      }
-      window.onerror = function(e) {
-        if (e === 'Syntax error') {
-          errorContainer.style.display = 'block';
-        }
-      };
-    </script>
   </body>
 </html>

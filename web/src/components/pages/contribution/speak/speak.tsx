@@ -69,14 +69,6 @@ const UnsupportedInfo = () => (
         Chrome
       </a>
     </p>
-    <p key="ios">
-      <Localized id="record-platform-not-supported-ios" bold={<b />}>
-        <span />
-      </Localized>
-    </p>
-    <a target="_blank" href={getItunesURL()}>
-      <img src={require('./appstore.svg')} />
-    </a>
   </div>
 );
 
