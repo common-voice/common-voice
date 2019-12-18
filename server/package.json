@@ -52,13 +52,13 @@
     "universal-analytics": "^0.4.20"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.23",
+    "@types/jest": "^24.0.24",
     "@types/mkdirp": "^0.5.2",
     "jest-matcher-utils": "^24.9.0",
     "jest": "^24.9.0",
     "mkdirp": "^0.5.1",
     "newrelic": "^6.2.0",
-    "nodemon": "^2.0.1",
+    "nodemon": "^2.0.2",
     "source-map-support": "^0.5.16",
     "ts-jest": "24.2.0",
     "tsc-watch": "^4.0.0",
