@@ -388,6 +388,12 @@ faq-why-10k-hours-q = Perchè es il böt da la registraziun 10.000 uras verifich
 faq-why-10k-hours-a = Quai es la quantità dad uras chi voul in circa per trenar ün sistem productiv da speech-to-text.
 faq-how-calc-hours-q = Co calculescha Common Voice las uras?
 faq-how-calc-hours-a = Nus calculain las uras cun stimar la media da la lunghezza da mincha registraziun e multiplichain quist resultat culla quantità totala da las registraziuns in tuot las linguas.
+faq-where-src-from-2-q = Dingionder vegn il text da funtana?
+faq-where-src-from-2-a =
+    Nos text da funtana as cumpuona da donaziuns originalas da cooperaturs sco eir da dialogs da domenas publicas da scripts da film sco</italic></italic>.
+    
+    Vus pudais verer nossas construcziuns da funtana aint in quist <githubLink>ordinatur</githubLink> da GitHub.
+faq-why-not-ask-read-q = Perche nu fais leger avant las persunas our da cudeschs o our dad artichels da Wikipedia in differentas linguas?
 
 ## ABOUT US
 
