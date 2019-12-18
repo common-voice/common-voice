@@ -432,6 +432,27 @@ about-yes-votes-text = Per rivar aint illa collecziun da datas da Common Voice s
 about-no-votes = ≥ 2 validaziuns Na
 about-no-votes-text = Sch'üna registraziun vain refüsada dad ün ütilisader tuorn'la inavo aint illa fila. Scha quista registraziun vain refüsada üna seguonda jada, vain'la spostada sül sunteri da registraziuns.
 about-dataset-new = Collecziun da datas da Common Voice
+about-dataset-new-text = La collecziun da datas da Common Voice cuntegna tschientmillis dad exaimpels da vusch chi güdan als sviluppaders a construir untensils per la recugnuschentscha vocala.
+about-clip-graveyard = Sunteri da registraziuns
+about-clip-graveyard-text = Il sunteri da registraziuns cuntegna registraziuns chi nu sun rivadas aint illa collecziun da datas da Common Voice. Sco la collecziun svessa, as poja eir telechargiar las datas dal sunteri.
+about-partners = Partenaris
+about-become-a-partner = Dvantar ün partenari
+about-partnership =
+    Common Voice es ün proget collaborativ e nus eschan dependents da nossa comunità da partenaris e partecipants per construir la plü gronda collecziun da datas vocalas open source chi ha mai dat.¶
+    ¶
+    Nus lain ingrazchar a las seguaintas persunas ed organisaziuns per lur agüd in connex cun quist proget:
+about-get-involved = Partecipar
+about-get-involved-text =
+    Tü voust güdar ad amegldrar Common Voice?¶
+    Grondius! Contactescha a nus via e-mail o sün <discourseLink>Discurs </discourseLink>,¶
+    trametta ün resun a nus sur <githubLink> GitHub</githubLink>,¶
+    o associescha't cun nus <slackLink>Slack</slackLink>.
+about-nav-why-common-voice = Perche?
+about-nav-how-it-works = Co?
+about-nav-partners = Partenaris
+about-nav-get-involved = Partecipar
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelligenza artificiala
 
 ## Glossary
 
