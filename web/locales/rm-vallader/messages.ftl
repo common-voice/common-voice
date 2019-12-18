@@ -453,9 +453,21 @@ about-nav-partners = Partenaris
 about-nav-get-involved = Partecipar
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artificiala
+mycroft-description =
+    Mycroft es il prüm assistent digital open source dal muond.¶
+    Mycroft funcziuna dapertuot - sün ün computer, aint in ün auto o sün ün Rasperry Pi.
+mycroft-secondary-description = I's tratta dad ün program open source chi po gnir modifichà, schlargià ed amegldrà libramaing. Mycroft po gnir dovrà per tuot il pussibel, sia quai per ün proget scientific o per il program dad üna applicaziun per affars.
 
 ## Glossary
 
+glossary = Glossari
+localization = Localisaziun
+localization-explanation = Quist es nos process per tradüer ed adattar nos cuntgnü per blers contuorns (bleras linguas).
+sentence-collection = Collecziun da construcziuns
+sentence-collection-explanation = Ramassar construcziuns da la domena publica o scriver nouvas construcziuns per la domena publica.
+hours-recorded-explanation = La quantità dad uras registradas cha nus vain ramassà fin uossa.
+hours-validated-explanation = La quantità dad uras registradas cha 2 da 3 ütilisaders han validà cun ün “Schi”. Quai marcha il progress in via al böt final da 10'000 uras.
+sst = Da la vusch al text (Speech-to-text, STT)
 
 ## NotFound
 
