@@ -76,6 +76,7 @@ izh = Ižoršćina
 ja = Japanšćina
 ka = Georgišćina
 kab = Kabylšćina
+kbd = Kabardinšćina
 kk = Kazachšćina
 ko = Korejšćina
 kpv = Komi-syrjenšćina
