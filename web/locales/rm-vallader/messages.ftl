@@ -484,6 +484,7 @@ data-download-yes = Schi
 data-download-deny = Na
 data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
 data-download-modal = Il download giavüschà cuntegna <size>{ $size }GB</size>. Voust continuar?
+data-subtitle = Nus construin üna collecziun da datas vocalas chi'd es averta e publica, usché cha minchün po dovrar quista per trenar applicaziuns chi vegnan dirigidas culla vusch.
 
 ## Datasets Page
 
