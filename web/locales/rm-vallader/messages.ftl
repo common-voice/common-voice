@@ -468,12 +468,22 @@ sentence-collection-explanation = Ramassar construcziuns da la domena publica o 
 hours-recorded-explanation = La quantità dad uras registradas cha nus vain ramassà fin uossa.
 hours-validated-explanation = La quantità dad uras registradas cha 2 da 3 ütilisaders han validà cun ün “Schi”. Quai marcha il progress in via al böt final da 10'000 uras.
 sst = Da la vusch al text (Speech-to-text, STT)
+sst-explanation = Tecnologias da la vusch al text (STT) convertischan datas vocalas in text.
+de-identified = Anonimisà
+de-identified-explanation = Tras quist process vegnan las infuormaziuns dal profil dad ün partecipant separadas da sias registraziuns cur cha quistas vegnan fattas prontas per gnir telechargiadas sco part da la collecziun da datas.
 
 ## NotFound
 
+notfound-title = Na chattà
+notfound-content = Displaschaivelmaing nu saja che cha tü tscherchast.
 
 ## Data
 
+data-download-button = Telechargiar la collecziun da datas da Common Voice
+data-download-yes = Schi
+data-download-deny = Na
+data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
+data-download-modal = Il download giavüschà cuntegna <size>{ $size }GB</size>. Voust continuar?
 
 ## Datasets Page
 
