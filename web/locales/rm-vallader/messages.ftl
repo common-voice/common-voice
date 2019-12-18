@@ -485,6 +485,18 @@ data-download-deny = Na
 data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
 data-download-modal = Il download giavüschà cuntegna <size>{ $size }GB</size>. Voust continuar?
 data-subtitle = Nus construin üna collecziun da datas vocalas chi'd es averta e publica, usché cha minchün po dovrar quista per trenar applicaziuns chi vegnan dirigidas culla vusch.
+data-explanatory-text = Nus eschan persvas cha collecziuns da datas vocalas chi sun grondas e publicas sustegnan l'innovaziun ed eir üna sana concurrenza commerciala aint il chomp da la tecnologia vocala chi's basa sül imprender autonom da maschinas. Quist es ün'ambiziun globala e nus invidain a tuots da's partecipar. Nos böt esa da render la tecnologia vocala plü averta e plü rapreschantativa davart la diversità linguistica da tuot il muond.
+data-get-started = <speechBlogLink>Cumainza culla recugnuschentscha vocala</speechBlogLink>
+data-other-title = Otras collecziuns da datas vocalas
+data-other-goto = Va a { $name }
+data-other-download = Telechargiar datas
+data-bundle-button = Telechargiar üna collecziun da datas
+data-bundle-description = Datas da Common Voice e tuot las otras datas vocalas nomnadas sura.
+license = Licenza: <licenseLink>{ $license }</licenseLink>
+license-mixed = Masdà
+review-terms = Cun dovrar Common Voice acceptast nossas <termsLink>cundiziuns d'ütilisaziun</termsLink> e nossa<privacyLink>decleraziun davart la protecziun da datas</privacyLink>
+terms-agree = Eu sun perinclet
+terms-disagree = Eu nu sun perinclet
 
 ## Datasets Page
 
