@@ -60,7 +60,10 @@ function redisCache<T, S>(
     return new Promise(async resolve => {
       const lock = await redlock.lock(
         key + '-lock',
-        1000 * 60 * 3 /*3 minutes*/
+        1000 *
+          60 *
+          60 *
+          3 /* intended 3 minutes, actually 3 hours, to be adjusted  @TODO */
       );
       const result = await redis.get(key);
       if (result) {
