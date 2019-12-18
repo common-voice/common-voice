@@ -400,9 +400,19 @@ faq-is-account-public-q = Sun mias datas da conto publicas?
 faq-how-privacy-q = Co pudaivat vus garantir anonimità e protecziun da datas a las persunas chi han contribui cun lur vusch?
 faq-how-privacy-a = Las infuormaziuns persunalas vegnan eliminadas da tuot las registraziuns aint illa collecziun da datas.
 faq-what-determine-identity-q = Che voul quai dir ch'eu nu poss  "eruir l'identità" dal pledader aint illa collecziun da datas da Common Voice?
+faq-what-determine-identity-a =
+    La collecziun da datas da Common Voice es üna resursa averta e publica chi po gnir dovrada per trenar üna gronda varietà dad applicaziuns chi vegnan dirigidas culla vusch. Per proteger la sgürezza da nos partecipants pretendaina da tuots chi telechargian la collecziun da datas da Common Voice da respectar la protecziun da la sfera privata dals partecipants.¶
+    ¶
+    Las infuormaziuns persunalas vegnan eliminadas da tuot la registraziuns aint illa collecziun da datas. Cur cha la collecziun da datas vain telechargiada esa dad apporovar chi nu's prova dad eruir l'identità da qualunque partecipant. Quai voul dir chi nun es permiss da crear üna colliaziun tanter las infuormaziuns da la collecziun da datas e las datas persunalas dals partecipants. Cun colliar per exaimpel las datas da la collecziun cun otras datas chi sun fingià avantman aint illa collecziun as poja però dovrar la collecziun da datas per trenar la recugnuschentscha vocala, l'identificaziun dal pledader o otras applicaziuns.
+faq-what-is-cv = Che es Common Voice?
+faq-using-cv = Dovrar Common Voice
+faq-description = Common Voice fa part da l'iniziativa da Mozilla chi voul muossar a maschinas co cha persunas realas discuorran.
+faq-search-for-answers =
+    .label = Tscherchar respostas
 
 ## ABOUT US
 
+about-title = Perche Common Voice?
 
 ## Glossary
 
