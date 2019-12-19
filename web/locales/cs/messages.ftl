@@ -76,6 +76,7 @@ izh = Ižorština
 ja = Japonština
 ka = Gruzínština
 kab = Kabylština
+kbd = Kabardština
 kk = Kazaština
 ko = Korejština
 kpv = Komi-zyrjanština
