@@ -485,39 +485,303 @@ data-download-deny = Na
 data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
 data-download-modal = Il download giavüschà cuntegna <size>{ $size }GB</size>. Voust continuar?
 data-subtitle = Nus construin üna collecziun da datas vocalas chi'd es averta e publica, usché cha minchün po dovrar quista per trenar applicaziuns chi vegnan dirigidas culla vusch.
+data-explanatory-text = Nus eschan persvas cha collecziuns da datas vocalas chi sun grondas e publicas sustegnan l'innovaziun ed eir üna sana concurrenza commerciala aint il chomp da la tecnologia vocala chi's basa sül imprender autonom da maschinas. Quist es ün'ambiziun globala e nus invidain a tuots da's partecipar. Nos böt esa da render la tecnologia vocala plü averta e plü rapreschantativa davart la diversità linguistica da tuot il muond.
+data-get-started = <speechBlogLink>Cumainza culla recugnuschentscha vocala</speechBlogLink>
+data-other-title = Otras collecziuns da datas vocalas
+data-other-goto = Va a { $name }
+data-other-download = Telechargiar datas
+data-bundle-button = Telechargiar üna collecziun da datas
+data-bundle-description = Datas da Common Voice e tuot las otras datas vocalas nomnadas sura.
+license = Licenza: <licenseLink>{ $license }</licenseLink>
+license-mixed = Masdà
+review-terms = Cun dovrar Common Voice acceptast nossas <termsLink>cundiziuns d'ütilisaziun</termsLink> e nossa<privacyLink>decleraziun davart la protecziun da datas</privacyLink>
+terms-agree = Eu sun perinclet
+terms-disagree = Eu nu sun perinclet
+review-aborted = Upload interruot. Voust stüder tia registraziun?
+review-submit-title = Verifichar e trametter
+review-submit-msg = Grazcha fich per la registraziun!<lineBreak></lineBreak>Taidla tias registraziuns suotvart amo üna jada e tillas trametta davo.
+review-recording = Verifichar
+review-rerecord = Registrar da nouv
+review-cancel = Interrumper la transmissiun
+review-keep-recordings = Tegner la registraziun
+review-delete-recordings = Stüder mias registraziuns
 
 ## Datasets Page
 
+datasets-headline = Nus construin üna collecziun da datas vocalas open source e plurilinguala cha minchün po dovrar per trenar applicaziuns chi vegnan dirigidas culla vusch.
+datasets-positioning =
+    Nus eschan persvas cha collecziuns da datas vocalas chi sun grondas e publicas sustegnan l'innovaziun ed eir üna sana concurrenza commerciala aint il chomp da la tecnologia vocala chi's basa sül imprender autonom da maschinas.¶
+    ¶
+    La collecziun da datas plurilinguala da Common Voice es uossa fingià la plü gronda collecziun da datas vocalas da sia sort chi'd es disponibla al public, mo i nun es l'unica.¶
+    ¶
+    Tü poust verer quista pagina sco punct da referenza per otras collecziuns da datas vocalas open source. Tras quai cha Common Voice crescha inavant, publichaina quia implü nossas actualisaziuns.
+language = Lingua
+# File size in gigabytes
+size = Grondezza
+validated-hr-total = Total da las uras verifichadas
+overall-hr-total = Total da las uras
+cv-license = Licenza
+audio-format = Format audio
+number-of-voices = Quantità da vuschs
+splits = Trapartidas
+email-to-download = Dar aint l'adressa dad e-mail per cumanzar a telechargiar
+why-email = <b>Perche voul quai ün'adressa dad e-mail?</b> Probabelmaing stuvain nus infuormar a tai in futur davart müdadas aint illa collecziun da datas. Ün'adressa dad e-mail dà a nus la pussibiltà da contactar a tai.
+confirm-size = Tü est pront da telechargiar uossa <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Tü acceptast</b> da na provar dad eurir l'identità dals pledaders da la collecziun da datas da Common Voice.
+download-language = Telechargiar { $language }
+validated-hours = Uras verifichadas
+recorded-hours = Uras registradas
+whats-inside = Che cuntegna la collecziun da datas da Common Voice?
+dataset-description-hours =
+    Mincha indataziun aint illa collecziun da datas cuntegna ün singul MP3 ed üna datoteca da text correspundenta. Bleras da las <b>{ $total }</b> uras registradas aint illa collecziun da datas cuntegnan eir metadatas demograficas sco l'età, la schlatta e l'accent. Cun quistas datas as poja trenar la precisiun da las maschinas chi han dad identifichar vuschs.
+    La collecziun da datas cuntegna actualmaing <b>{ $valid }</b> uras verifichadas in <b>{ $languages }</b> linguas, mo nus agiundschain adüna daplü vuschs e linguas. Fa üna visita a nossa <languagesLink> pagina da linguas</languagesLink> per tscherchar üna lingua o per cumanzar a contribuir.
+want-dataset-update = Voust gnir infourmà cur cha üna nouva versiun da la collecziun da datas da Common Voice vain publichada? Abunescha nossa newsletter.
+subscribe = Abunar
+get-started-speech = Cumanzar culla recugnuschentscha vocala
+other-datasets = Otras collecziuns da datas
+feedback-q = Voust dar ün resun a nus?
+deepspeech-info = La collecziun da datas vocalas da Common Voice cumpletescha la maschina da recugnuschentscha vocala open source Deep Speech, cun la quala chi's po construir applicaziuns da recugnuschentscha vocala. Legia nossa <githubLink>survista sün Github</githubLink> o t'associescha al <discourseLink> discurs DeepSpeech </discourseLink> per cumanzar.
+common-voice-info-new = Hast dumondas davart Common Voice? Ideas per meglioraziuns o resuns davart üna lingua specifica? T'associescha al <discourseLink>forum Discourse</discourseLink> per ans far savair.
+data-other-librispeech-description = LibriSpeech es ün corpus da bundant 1000 uras registraziuns da prelecziuns in inglais (registradas en 16Khz) chi vegnan da cudeschs auditivs e dal proget LibriVox.
+data-other-ted-name = Corpus TED-LIUM
+data-other-ted-description = Il corpus TED-Lium es stat realisà cun discuors audio e lur transcripziuns chi sun disponibels sün la pagina d'internet da TED.
+data-other-voxforge-description = VoxForge es stat creà per ramassar transcripziuns da discuors per dovrar quistas cun maschinas da recugnuschentscha vocala open source.
+data-other-tatoeba-description = Tatoeba es üna gronda banca da datas chi cuntegna frasas, traducziuns ed audiodatotecas per imprender linguas. Quist download cuntegna inglais discurrü chi'd es stat registrà da lur comunità.
+your-feedback = Hast tü propostas co cha nus pudain amegldrar la collecziun da datas da Common Voice? Ans fa savair sül forum Discourse
+go-discourse = Fa üna visita al forum Discourse
+missing-language = Nu chattast tia lingua aint illa collecziun da datas? Va inavant sün nossa pagina da linguas per dumondar üna lingua implü.
+go-languages-page = Ir sülla pagina da linguas
+ready-to-validate = Est pront per güdar a verifichar construcziuns?
+more = Daplü
+close = Serrar
+download = Telechargiar
+dataset-version = Versiun
 
 ## Download Modal
 
+download-title = Tü hast cumanzà a telechargiar.
+download-helpus = Güda a nus a crear üna comunità chi s'interessa per tecnologias vocalas e resta in contact cun nus via e-mail.
+download-form-email =
+    .label = Indatescha tia adressa dad e-mail
+    .value = Grazcha, nus restain in contact.
+download-back = Tuornar pro la collecziun da datas.
+download-no = Na, grazcha.
 
 ## Contact Modal
 
+contact-title = Formular da contact
+contact-form-name =
+    .label = Nom
+contact-form-message =
+    .label = Notizcha
+contact-required = *necessari
 
 ## Request Language Modal
 
+request-language-title = Dumondar üna nouva lingua
+request-language-form-language =
+    .label = Lingua
+request-language-success-title = Tü hast tramiss tia dumonda per üna nouva lingua cun success, grazcha fich!
+request-language-success-content = Nus ans annunzchain bainbod cun daplü infuormaziuns co cha tü poust agiundscher tia lingua sün Common Voice.
+select-language = Tscherner üna lingua...
+other-language = Otra lingua
 
 ## Languages Overview
 
+language-section-in-progress = In elavuraziun
+language-section-in-progress-new-description = Quistas linguas vegnan actualmaing elavuradas da la comunità. Las tramas da progress indichan quant invant cha mincha lingua es aint il process da <localizationGlossaryLink>la traducziun da la pagina d'internet</localizationGlossaryLink> e <sentenceCollectionGlossaryLink>la collecziun da construcziuns</sentenceCollectionGlossaryLink>.
+language-section-launched = Lantschà
+language-section-launched-description =
+    Per quistas linguas es la pagina d'internet gnüda
+    <localizationGlossaryLink>tradütta</localizationGlossaryLink> cumplettamaing e la 
+    <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> es gronda avuonda per cuntinuar las contribuziuns cun <speakLink>discuorrer</speakLink> e <listenLink>tadlar</listenLink>.
+languages-show-more = Muossar daplü
+languages-show-less = Muossar damain
+language-meter-in-progress = Progress
+language-total-progress = Total
+language-search-input =
+    .placeholder = Tscherchar
+language-speakers = Pledaders
+localized = Tradüt
+sentences = Construcziuns
+total-hours = Uras verifichadas
 
 ## Contribution
 
+action-click = Cliccar
+action-tap = Tippar
+contribute = Contribuir
+listen = Tadlar
+skip = Sursaglir
+shortcuts = Cumbinaziuns da tastas
+clips-with-count = <bold>{ $count }</bold> Registraziuns
+goal-help-recording = Tü hast güdà a Common Voice da ragiundscher <goalPercentage></goalPercentage> da nos böt dal di da { $goalValue } davart registraziuns!
+goal-help-validation = Tü hast güdà a Common Voice da ragiundscher <goalPercentage></goalPercentage> da nos böt dal di da { $goalValue } davart verificaziuns!
+contribute-more =
+    { $count ->
+        [one] Pront per far { $count } daplü?
+       *[other] Pronts per far { $count } daplü?
+    }
+record-cta = Cumanzar a registrar
+record-platform-not-supported = I'ns displascha, mo tia plattafuorma nu vain actualmaing sustgnüda.
+record-platform-not-supported-ios = Ütilisaders dad <bold>iOS</bold> pon telechargiar nossa applicaziun gratuitamaing:
+record-must-allow-microphone = Tü stoust permetter access al microfon.
+record-no-mic-found = Tschattà ingün microfon.
+record-error-too-short = La registraziun es massa cuorta.
+record-error-too-long = La registraziun es massa lunga.
+record-error-too-quiet = La registraziun es massa da bass.
+record-cancel = Stüder la nouva registraziun.
+record-instruction = { $actionType }<recordIcon></recordIcon> lura leger avant la construcziun dad ot
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> cur cha tü hast fini
+record-three-more-instruction = Amo trais!
+record-again-instruction = Grondius!<recordIcon></recordIcon> Fa amo üna registraziun
+record-again-instruction2 = Sta landervia e fa amo üna registraziun <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> L'ultima!
+review-tooltip = Quia poust verifichar tias registraziuns e, schi fa dabsögn, tour sü ellas da nouv avant co proseguir.
+review-instruction = Verifichar las registraziuns e tour sü ellas da nouv, schi fa dabsögn
+record-submit-tooltip = { $actionType } trametter cur cha est pront
+clips-uploaded = Registraziuns telechargiadas
+record-abort-title = Nu voust il prüm finir la registraziun?
+record-abort-text = Scha tü vast uossa, va teis progress a perder
+record-abort-submit = Trametter registraziuns
+record-abort-continue = Finir la registraziun
+record-abort-delete = Sortir e stüder las registraziuns
+listen-instruction = { $actionType }<playIcon></playIcon> Es la construcziun gnüda letta avant correctamaing?
+listen-again-instruction = Buna lavur!<playIcon></playIcon>Taidla amo üna jada cur cha tü est pront.
+listen-3rd-time-instruction = 2 finidas, be inavant uschè! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>L'ultima!
+nothing-to-validate = Pel mumaint nu daja nüglia da verifichar in quista lingua, güda ad implir la fila cun nouvas registraziuns.
+record-button-label = Registrescha tia vusch
+share-title-new = <bold>Güda a nus</bold> a chattar daplü vuschs
+keep-track-profile = Tegna suot controlla teis progress cun ün profil
+login-to-get-started = T'annunzcha o registrescha't per cumanzar
 
 ## Reporting
 
+report = Rapportar
+report-title = Trametter ün rapport
+report-ask = Che problems hast gnü cun quista construcziun?
+report-offensive-language = Linguach offensiv
+report-offensive-language-detail = Il cuntgnü da la construcziun es sainza respet o offensiv.
+report-grammar-or-spelling = Sbagl grammatical / ortografic
+report-grammar-or-spelling-detail = La construcziun cuntegna ün sbagl grammatical o ortografic.
+report-different-language = Otra lingua
+report-different-language-detail = La construcziun es scritta in ün'otra lingua co ch'eu discuor
+report-difficult-pronounce = Difficila da pronunzchar
+report-difficult-pronounce-detail = Ella cuntegna pleds o frasas chi sun difficilas da leger o pronunzchar.
+report-offensive-speech = Linguach offensiv.
+report-offensive-speech-detail = Il cuntgnü da la registraziun es sainza respet o offensiv.
+report-other-comment =
+    .placeholder = Commentar
+success = Success
+continue = Cuntinuar
+report-success = Il rapport es gnü tramiss cun success
 
 ## Goals
 
+streaks = Serias
+days =
+    { $count ->
+        [one] Di
+       *[other] Dis
+    }
+recordings =
+    { $count ->
+        [one] Registraziun
+       *[other] Registraziuns
+    }
+validations =
+    { $count ->
+        [one] Verificaziun
+       *[other] Verificaziuns
+    }
 
 ## Dashboard
 
+your-languages = Tia lingua
+toward-next-goal = Inavant pro'l prossem böt
+clips-you-recorded = Tias registraziuns
+clips-you-validated = Tias verificaziuns
+todays-recorded-progress = Il progress dad hoz davart registraziuns sün Common Voice
+todays-validated-progress = Il progress dad hoz davart las registraziuns verfichadas sün Common Voic
+stats = Statisticas
+awards = Premis
+you = Tü
+everyone = Tuots
+contribution-activity = Activitats dals partecipants
+top-contributors = Ils partecipants ils plü activs
+recorded-clips = Registraziuns
+validated-clips = Registraziuns verifichadas
+total-approved = Total da las verificaziuns
+overall-accuracy = Precisiun cumplessiva
+set-visibility = Adattar mia visibilità
+visibility-explainer = Quist parameter definischa tia visibilità sülla glista da rangaziun. Scha'l es miss sün 'na muossar', es teis progress privat. Quai voul dir cha teis purtret, teis nom d'ütilisader e teis progress nun vegnan muossats sülla glista da rangaziun. Remarcha: müdamaints sülla glista da rangaziun douvran ~{ $minutes } fin chi sun visibels.
+visibility-overlay-note = Remarcha: scha quist parameter es miss sün 'muossar', poust müdar el sülla pagina da <profileLink>profil</profileLink>
+show-ranking = Muossar mia rangaziun
 
 ## Custom Goals
 
+get-started-goals = Cumanzar a definir böts
+create-custom-goal = Definischa ün böt persunal
+both-speak-and-listen = Tuots duos
+both-speak-and-listen-long = Tuots duos (discuorrer e tadlar)
+daily-goal = Böt dal di
+weekly-goal = Böt da l'eivna
+easy-difficulty = Simpel
+average-difficulty = Mediocar
+difficult-difficulty = Difficil
+pro-difficulty = Expert
+lose-goal-progress-warning = Cun modifichar teis böt perdast forsa teis progress actual.
+want-to-continue = Voust cuntinuar?
+finish-editing = Il prüm finir da modifichar?
+lose-changes-warning = Scha tü vast uossa, voul quai dir cha tias modificaziuns vegnan stüzzas.
+build-custom-goal = Definischa ün böt persunal
+help-reach-hours = Güda a ragiundscher { NUMBER($hours) } uras in { $language } cun ün böt persunal
+set-a-goal = Definir ün böt
+cant-decide = Nun sast decider?
+activity-needed-calculation = Nus pudain ragiundscher { NUMBER($totalHours) } uras in be { NUMBER($periodMonths) } mais, scha { NUMBER($people) } persunas fan { NUMBER($clipsPerDay) } registraziuns al di.
+how-many-per-day = Grondius! Quantas registraziuns al di?
+how-many-a-week = Grondius! Quantas registraziuns l'eivna?
+which-goal-type = Voust discuorrer, tadlar o far tuots duos?
+receiving-emails-info = Tü hast tschernü da tschüffer e-mails chi't regordan per exaimpel vi da teis böts, t'infuormeschan sur da teis progresss o at fan savair las novitats da Common Voice
+not-receiving-emails-info = Tü hast tschernü da <bold>NA</bold> tschüffer e-mails chi't regordan per exaimpel vi da teis böts, t'infuormeschan sur da teis progresss o at fan savair las novitats da Common Voice
+n-clips = { NUMBER($count) } registraziuns
+help-share-goal = Güda a nus a chattar daplü vuschs cun publichar teis böts
+confirm-goal = Confirmar il böt
+goal-interval-weekly = Minch'eivna
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Publichescha teis böt da { $count } registraziuns al di per { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Publichescha teis böt da { $count } registraziuns l'eivna per { $type }
+share-goal-type-speak = Discuorrer
+share-goal-type-listen = Tadlar
+share-goal-type-both = Discuorrer e tadlar
+# LINK will be replaced with the current URL
+goal-share-text = Eu n'ha güst defini ün böt persunal per contribuir cun mia vusch a #CommonVoice. Partecipescha't eir tü e muossa a maschinas co cha persunas realas discuorran { $link }
+weekly-goal-created = Tü hast defini teis böt per minch'eivna
+daily-goal-created = Tü hast defini teis böt quotidian
+track-progress = Controlla teis progress quia e sülla pagina cullas statisticas.
+return-to-edit-goal = Tuorna qua per modifichar teis böt cur cha tü voust.
+share-goal = Publichescha teis böt
 
 ## Profile Delete
 
+delete-q = Giavüschast cha las registraziuns da tia vusch vegnan eir stüzzas o voust cha quellas restan aint illa collecziun da datas da Common Voice?
+keep = Mantegner
+remove = Stüder
+keep-info = Tias registraziuns vocalas anonimas restan aint illa collecziun da datas da Common Voice. Scha tü at decidast plü tard üna jada da stüder teis profil nu poust plü pretender cha tias registraziuns gnian stüzzas da la collecziun da datas.
+remove-info = Nus controllain tia dumonda per stüder tias registraziuns vocalas da la collecziun da datas. Scha tia dumonda vain confermada, lura contactaina ils ütilisaders chi han telechargià la collecziun da datas e dumondain eir ad els da stüder tias registraziuns.
+why-delete-recordings =
+    Las registraziuns da Common Voice vegnan dovradas dad academikers, pitschens affars ed entusiasts da la recugnuschentscha vocala per trenar e render plü grondas las resursas publicas, sco per exaimpel models da vusch.¶
+    ¶
+    Voust far savair a nus perche cha tü vessast jent da stüder tias registraziuns?
+profile-form-delete = Stüder il profil
 
 ## Landing
 
+welcome-staff = Bainvgnü collavuratur/a da { $company } !
+help-contribute = Tü poust güdar a construir üna collecziun da datas open source chi'd es multifaria cun far ün profil pro Common Voice e contribuir tia vusch.
+login-company = S'annunzchar / As registrar cun l'adressa dad e-mail da { $company }
+profile-not-required = I nu fa dabsögn dad avair ün profil per contribuir, eir schi füss nüzziaivel. Suotvart vainst a savair perche.

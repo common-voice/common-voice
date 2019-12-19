@@ -76,6 +76,7 @@ izh = Ischorisch
 ja = Japanisch
 ka = Georgisch
 kab = Kabylisch
+kbd = Kabardinisch
 kk = Kasachisch
 ko = Koreanisch
 kpv = Komi-Syrjänisch

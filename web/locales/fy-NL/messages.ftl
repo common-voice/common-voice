@@ -76,6 +76,7 @@ izh = Izjorysk
 ja = Japansk
 ka = Georgysk
 kab = Kabylysk
+kbd = Kabardysk
 kk = Kazaksk
 ko = Koreaansk
 kpv = Kom-Zyrian
@@ -618,7 +619,7 @@ total-hours = Oeren totaal
 
 ## Contribution
 
-action-click = Klikke
+action-click = Klik op
 action-tap = Tikke
 contribute = Meiwurkje
 listen = Harkje

@@ -76,6 +76,7 @@ izh = Ingriska
 ja = Japanska
 ka = Georgiska
 kab = Kabyliska
+kbd = Kabardinska
 kk = Kazakstanska
 ko = Koreanska
 kpv = Komi-syrjänska
