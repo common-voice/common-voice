@@ -509,6 +509,31 @@ review-delete-recordings = Stüder mias registraziuns
 ## Datasets Page
 
 datasets-headline = Nus construin üna collecziun da datas vocalas open source e plurilinguala cha minchün po dovrar per trenar applicaziuns chi vegnan dirigidas culla vusch.
+datasets-positioning =
+    Nus eschan persvas cha collecziuns da datas vocalas chi sun grondas e publicas sustegnan l'innovaziun ed eir üna sana concurrenza commerciala aint il chomp da la tecnologia vocala chi's basa sül imprender autonom da maschinas.¶
+    ¶
+    La collecziun da datas plurilinguala da Common Voice es uossa fingià la plü gronda collecziun da datas vocalas da sia sort chi'd es disponibla al public, mo i nun es l'unica.¶
+    ¶
+    Tü poust verer quista pagina sco punct da referenza per otras collecziuns da datas vocalas open source. Tras quai cha Common Voice crescha inavant, publichaina quia implü nossas actualisaziuns.
+language = Lingua
+# File size in gigabytes
+size = Grondezza
+validated-hr-total = Total da las uras verifichadas
+overall-hr-total = Total da las uras
+cv-license = Licenza
+audio-format = Format audio
+number-of-voices = Quantità da vuschs
+splits = Trapartidas
+email-to-download = Dar aint l'adressa dad e-mail per cumanzar a telechargiar
+why-email = <b>Perche voul quai ün'adressa dad e-mail?</b> Probabelmaing stuvain nus infuormar a tai in futur davart müdadas aint illa collecziun da datas. Ün'adressa dad e-mail dà a nus la pussibiltà da contactar a tai.
+confirm-size = Tü est pront da telechargiar uossa <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Tü acceptast</b> da na provar dad eurir l'identità dals pledaders da la collecziun da datas da Common Voice.
+download-language = Telechargiar { $language }
+validated-hours = Uras verifichadas
+recorded-hours = Uras registradas
+whats-inside = Che cuntegna la collecziun da datas da Common Voice?
 
 ## Download Modal
 
