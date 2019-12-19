@@ -655,15 +655,67 @@ listen-last-time-instruction = <playIcon></playIcon>L'ultima!
 nothing-to-validate = Pel mumaint nu daja nüglia da verifichar in quista lingua, güda ad implir la fila cun nouvas registraziuns.
 record-button-label = Registrescha tia vusch
 share-title-new = <bold>Güda a nus</bold> a chattar daplü vuschs
+keep-track-profile = Tegna suot controlla teis progress cun ün profil
+login-to-get-started = T'annunzcha o registrescha't per cumanzar
 
 ## Reporting
 
+report = Rapportar
+report-title = Trametter ün rapport
+report-ask = Che problems hast gnü cun quista construcziun?
+report-offensive-language = Linguach offensiv
+report-offensive-language-detail = Il cuntgnü da la construcziun es sainza respet o offensiv.
+report-grammar-or-spelling = Sbagl grammatical / ortografic
+report-grammar-or-spelling-detail = La construcziun cuntegna ün sbagl grammatical o ortografic.
+report-different-language = Otra lingua
+report-different-language-detail = La construcziun es scritta in ün'otra lingua co ch'eu discuor
+report-difficult-pronounce = Difficila da pronunzchar
+report-difficult-pronounce-detail = Ella cuntegna pleds o frasas chi sun difficilas da leger o pronunzchar.
+report-offensive-speech = Linguach offensiv.
+report-offensive-speech-detail = Il cuntgnü da la registraziun es sainza respet o offensiv.
+report-other-comment =
+    .placeholder = Commentar
+success = Success
+continue = Cuntinuar
+report-success = Il rapport es gnü tramiss cun success
 
 ## Goals
 
+streaks = Serias
+days =
+    { $count ->
+        [one] Di
+       *[other] Dis
+    }
+recordings =
+    { $count ->
+        [one] Registraziun
+       *[other] Registraziuns
+    }
+validations =
+    { $count ->
+        [one] Verificaziun
+       *[other] Verificaziuns
+    }
 
 ## Dashboard
 
+your-languages = Tia lingua
+toward-next-goal = Inavant pro'l prossem böt
+clips-you-recorded = Tias registraziuns
+clips-you-validated = Tias verificaziuns
+todays-recorded-progress = Il progress dad hoz davart registraziuns sün Common Voice
+todays-validated-progress = Il progress dad hoz davart las registraziuns verfichadas sün Common Voic
+stats = Statisticas
+awards = Premis
+you = Tü
+everyone = Tuots
+contribution-activity = Activitats dals partecipants
+top-contributors = Ils partecipants ils plü activs
+recorded-clips = Registraziuns
+validated-clips = Registraziuns verifichadas
+total-approved = Total da las verificaziuns
+overall-accuracy = Precisiun cumplessiva
 
 ## Custom Goals
 
