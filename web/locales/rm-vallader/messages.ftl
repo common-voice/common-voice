@@ -763,9 +763,25 @@ goal-share-text = Eu n'ha güst defini ün böt persunal per contribuir cun mia 
 weekly-goal-created = Tü hast defini teis böt per minch'eivna
 daily-goal-created = Tü hast defini teis böt quotidian
 track-progress = Controlla teis progress quia e sülla pagina cullas statisticas.
+return-to-edit-goal = Tuorna qua per modifichar teis böt cur cha tü voust.
+share-goal = Publichescha teis böt
 
 ## Profile Delete
 
+delete-q = Giavüschast cha las registraziuns da tia vusch vegnan eir stüzzas o voust cha quellas restan aint illa collecziun da datas da Common Voice?
+keep = Mantegner
+remove = Stüder
+keep-info = Tias registraziuns vocalas anonimas restan aint illa collecziun da datas da Common Voice. Scha tü at decidast plü tard üna jada da stüder teis profil nu poust plü pretender cha tias registraziuns gnian stüzzas da la collecziun da datas.
+remove-info = Nus controllain tia dumonda per stüder tias registraziuns vocalas da la collecziun da datas. Scha tia dumonda vain confermada, lura contactaina ils ütilisaders chi han telechargià la collecziun da datas e dumondain eir ad els da stüder tias registraziuns.
+why-delete-recordings =
+    Las registraziuns da Common Voice vegnan dovradas dad academikers, pitschens affars ed entusiasts da la recugnuschentscha vocala per trenar e render plü grondas las resursas publicas, sco per exaimpel models da vusch.¶
+    ¶
+    Voust far savair a nus perche cha tü vessast jent da stüder tias registraziuns?
+profile-form-delete = Stüder il profil
 
 ## Landing
 
+welcome-staff = Bainvgnü collavuratur/a da { $company } !
+help-contribute = Tü poust güdar a construir üna collecziun da datas open source chi'd es multifaria cun far ün profil pro Common Voice e contribuir tia vusch.
+login-company = S'annunzchar / As registrar cun l'adressa dad e-mail da { $company }
+profile-not-required = I nu fa dabsögn dad avair ün profil per contribuir, eir schi füss nüzziaivel. Suotvart vainst a savair perche.
