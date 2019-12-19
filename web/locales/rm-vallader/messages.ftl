@@ -534,6 +534,16 @@ download-language = Telechargiar { $language }
 validated-hours = Uras verifichadas
 recorded-hours = Uras registradas
 whats-inside = Che cuntegna la collecziun da datas da Common Voice?
+dataset-description-hours =
+    Mincha indataziun aint illa collecziun da datas cuntegna ün singul MP3 ed üna datoteca da text correspundenta. Bleras da las <b>{ $total }</b> uras registradas aint illa collecziun da datas cuntegnan eir metadatas demograficas sco l'età, la schlatta e l'accent. Cun quistas datas as poja trenar la precisiun da las maschinas chi han dad identifichar vuschs.
+    La collecziun da datas cuntegna actualmaing <b>{ $valid }</b> uras verifichadas in <b>{ $languages }</b> linguas, mo nus agiundschain adüna daplü vuschs e linguas. Fa üna visita a nossa <languagesLink> pagina da linguas</languagesLink> per tscherchar üna lingua o per cumanzar a contribuir.
+want-dataset-update = Voust gnir infourmà cur cha üna nouva versiun da la collecziun da datas da Common Voice vain publichada? Abunescha nossa newsletter.
+subscribe = Abunar
+get-started-speech = Cumanzar culla recugnuschentscha vocala
+other-datasets = Otras collecziuns da datas
+feedback-q = Voust dar ün resun a nus?
+deepspeech-info = La collecziun da datas vocalas da Common Voice cumpletescha la maschina da recugnuschentscha vocala open source Deep Speech, cun la quala chi's po construir applicaziuns da recugnuschentscha vocala. Legia nossa <githubLink>survista sün Github</githubLink> o t'associescha al <discourseLink> discurs DeepSpeech </discourseLink> per cumanzar.
+common-voice-info-new = Hast dumondas davart Common Voice? Ideas per meglioraziuns o resuns davart üna lingua specifica? T'associescha al <discourseLink>forum Discourse</discourseLink> per ans far savair.
 
 ## Download Modal
 
