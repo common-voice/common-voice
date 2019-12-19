@@ -14,7 +14,7 @@ module.exports = {
   entry: './src/main.ts',
   output: {
     path: OUTPUT_PATH,
-    filename: 'bundle.js',
+    filename: 'bundle.[chunkhash].js',
     publicPath: '/dist/',
   },
   devtool: 'source-map',
