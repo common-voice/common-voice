@@ -548,18 +548,51 @@ data-other-librispeech-description = LibriSpeech es ün corpus da bundant 1000 u
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Il corpus TED-Lium es stat realisà cun discuors audio e lur transcripziuns chi sun disponibels sün la pagina d'internet da TED.
 data-other-voxforge-description = VoxForge es stat creà per ramassar transcripziuns da discuors per dovrar quistas cun maschinas da recugnuschentscha vocala open source.
+data-other-tatoeba-description = Tatoeba es üna gronda banca da datas chi cuntegna frasas, traducziuns ed audiodatotecas per imprender linguas. Quist download cuntegna inglais discurrü chi'd es stat registrà da lur comunità.
+your-feedback = Hast tü propostas co cha nus pudain amegldrar la collecziun da datas da Common Voice? Ans fa savair sül forum Discourse
+go-discourse = Fa üna visita al forum Discourse
+missing-language = Nu chattast tia lingua aint illa collecziun da datas? Va inavant sün nossa pagina da linguas per dumondar üna lingua implü.
+go-languages-page = Ir sülla pagina da linguas
+ready-to-validate = Est pront per güdar a verifichar construcziuns?
+more = Daplü
+close = Serrar
+download = Telechargiar
+dataset-version = Versiun
 
 ## Download Modal
 
+download-title = Tü hast cumanzà a telechargiar.
+download-helpus = Güda a nus a crear üna comunità chi s'interessa per tecnologias vocalas e resta in contact cun nus via e-mail.
+download-form-email =
+    .label = Indatescha tia adressa dad e-mail
+    .value = Grazcha, nus restain in contact.
+download-back = Tuornar pro la collecziun da datas.
+download-no = Na, grazcha.
 
 ## Contact Modal
 
+contact-title = Formular da contact
+contact-form-name =
+    .label = Nom
+contact-form-message =
+    .label = Notizcha
+contact-required = *necessari
 
 ## Request Language Modal
 
+request-language-title = Dumondar üna nouva lingua
+request-language-form-language =
+    .label = Lingua
+request-language-success-title = Tü hast tramiss tia dumonda per üna nouva lingua cun success, grazcha fich!
+request-language-success-content = Nus ans annunzchain bainbod cun daplü infuormaziuns co cha tü poust agiundscher tia lingua sün Common Voice.
+select-language = Tscherner üna lingua...
+other-language = Otra lingua
 
 ## Languages Overview
 
+language-section-in-progress = In elavuraziun
+language-section-in-progress-new-description = Quistas linguas vegnan actualmaing elavuradas da la comunità. Las tramas da progress indichan quant invant cha mincha lingua es aint il process da <localizationGlossaryLink>la traducziun da la pagina d'internet</localizationGlossaryLink> e <sentenceCollectionGlossaryLink>la collecziun da construcziuns</sentenceCollectionGlossaryLink>.
+language-section-launched = Lantschà
 
 ## Contribution
 
