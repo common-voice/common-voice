@@ -544,6 +544,10 @@ other-datasets = Otras collecziuns da datas
 feedback-q = Voust dar ün resun a nus?
 deepspeech-info = La collecziun da datas vocalas da Common Voice cumpletescha la maschina da recugnuschentscha vocala open source Deep Speech, cun la quala chi's po construir applicaziuns da recugnuschentscha vocala. Legia nossa <githubLink>survista sün Github</githubLink> o t'associescha al <discourseLink> discurs DeepSpeech </discourseLink> per cumanzar.
 common-voice-info-new = Hast dumondas davart Common Voice? Ideas per meglioraziuns o resuns davart üna lingua specifica? T'associescha al <discourseLink>forum Discourse</discourseLink> per ans far savair.
+data-other-librispeech-description = LibriSpeech es ün corpus da bundant 1000 uras registraziuns da prelecziuns in inglais (registradas en 16Khz) chi vegnan da cudeschs auditivs e dal proget LibriVox.
+data-other-ted-name = Corpus TED-LIUM
+data-other-ted-description = Il corpus TED-Lium es stat realisà cun discuors audio e lur transcripziuns chi sun disponibels sün la pagina d'internet da TED.
+data-other-voxforge-description = VoxForge es stat creà per ramassar transcripziuns da discuors per dovrar quistas cun maschinas da recugnuschentscha vocala open source.
 
 ## Download Modal
 
