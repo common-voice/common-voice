@@ -633,6 +633,28 @@ record-error-too-short = La registraziun es massa cuorta.
 record-error-too-long = La registraziun es massa lunga.
 record-error-too-quiet = La registraziun es massa da bass.
 record-cancel = Stüder la nouva registraziun.
+record-instruction = { $actionType }<recordIcon></recordIcon> lura leger avant la construcziun dad ot
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> cur cha tü hast fini
+record-three-more-instruction = Amo trais!
+record-again-instruction = Grondius!<recordIcon></recordIcon> Fa amo üna registraziun
+record-again-instruction2 = Sta landervia e fa amo üna registraziun <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> L'ultima!
+review-tooltip = Quia poust verifichar tias registraziuns e, schi fa dabsögn, tour sü ellas da nouv avant co proseguir.
+review-instruction = Verifichar las registraziuns e tour sü ellas da nouv, schi fa dabsögn
+record-submit-tooltip = { $actionType } trametter cur cha est pront
+clips-uploaded = Registraziuns telechargiadas
+record-abort-title = Nu voust il prüm finir la registraziun?
+record-abort-text = Scha tü vast uossa, va teis progress a perder
+record-abort-submit = Trametter registraziuns
+record-abort-continue = Finir la registraziun
+record-abort-delete = Sortir e stüder las registraziuns
+listen-instruction = { $actionType }<playIcon></playIcon> Es la construcziun gnüda letta avant correctamaing?
+listen-again-instruction = Buna lavur!<playIcon></playIcon>Taidla amo üna jada cur cha tü est pront.
+listen-3rd-time-instruction = 2 finidas, be inavant uschè! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>L'ultima!
+nothing-to-validate = Pel mumaint nu daja nüglia da verifichar in quista lingua, güda ad implir la fila cun nouvas registraziuns.
+record-button-label = Registrescha tia vusch
+share-title-new = <bold>Güda a nus</bold> a chattar daplü vuschs
 
 ## Reporting
 
