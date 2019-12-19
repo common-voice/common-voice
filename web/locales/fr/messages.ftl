@@ -76,6 +76,7 @@ izh = Ingrien
 ja = Japonais
 ka = Géorgien
 kab = Kabyle
+kbd = Kabarde
 kk = Kazakh
 ko = Coréen
 kpv = Komi-zyriène
