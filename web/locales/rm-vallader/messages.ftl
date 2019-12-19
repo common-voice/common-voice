@@ -736,6 +736,33 @@ pro-difficulty = Expert
 lose-goal-progress-warning = Cun modifichar teis böt perdast forsa teis progress actual.
 want-to-continue = Voust cuntinuar?
 finish-editing = Il prüm finir da modifichar?
+lose-changes-warning = Scha tü vast uossa, voul quai dir cha tias modificaziuns vegnan stüzzas.
+build-custom-goal = Definischa ün böt persunal
+help-reach-hours = Güda a ragiundscher { NUMBER($hours) } uras in { $language } cun ün böt persunal
+set-a-goal = Definir ün böt
+cant-decide = Nun sast decider?
+activity-needed-calculation = Nus pudain ragiundscher { NUMBER($totalHours) } uras in be { NUMBER($periodMonths) } mais, scha { NUMBER($people) } persunas fan { NUMBER($clipsPerDay) } registraziuns al di.
+how-many-per-day = Grondius! Quantas registraziuns al di?
+how-many-a-week = Grondius! Quantas registraziuns l'eivna?
+which-goal-type = Voust discuorrer, tadlar o far tuots duos?
+receiving-emails-info = Tü hast tschernü da tschüffer e-mails chi't regordan per exaimpel vi da teis böts, t'infuormeschan sur da teis progresss o at fan savair las novitats da Common Voice
+not-receiving-emails-info = Tü hast tschernü da <bold>NA</bold> tschüffer e-mails chi't regordan per exaimpel vi da teis böts, t'infuormeschan sur da teis progresss o at fan savair las novitats da Common Voice
+n-clips = { NUMBER($count) } registraziuns
+help-share-goal = Güda a nus a chattar daplü vuschs cun publichar teis böts
+confirm-goal = Confirmar il böt
+goal-interval-weekly = Minch'eivna
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Publichescha teis böt da { $count } registraziuns al di per { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Publichescha teis böt da { $count } registraziuns l'eivna per { $type }
+share-goal-type-speak = Discuorrer
+share-goal-type-listen = Tadlar
+share-goal-type-both = Discuorrer e tadlar
+# LINK will be replaced with the current URL
+goal-share-text = Eu n'ha güst defini ün böt persunal per contribuir cun mia vusch a #CommonVoice. Partecipescha't eir tü e muossa a maschinas co cha persunas realas discuorran { $link }
+weekly-goal-created = Tü hast defini teis böt per minch'eivna
+daily-goal-created = Tü hast defini teis böt quotidian
+track-progress = Controlla teis progress quia e sülla pagina cullas statisticas.
 
 ## Profile Delete
 
