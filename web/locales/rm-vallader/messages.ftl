@@ -497,9 +497,18 @@ license-mixed = Masdà
 review-terms = Cun dovrar Common Voice acceptast nossas <termsLink>cundiziuns d'ütilisaziun</termsLink> e nossa<privacyLink>decleraziun davart la protecziun da datas</privacyLink>
 terms-agree = Eu sun perinclet
 terms-disagree = Eu nu sun perinclet
+review-aborted = Upload interruot. Voust stüder tia registraziun?
+review-submit-title = Verifichar e trametter
+review-submit-msg = Grazcha fich per la registraziun!<lineBreak></lineBreak>Taidla tias registraziuns suotvart amo üna jada e tillas trametta davo.
+review-recording = Verifichar
+review-rerecord = Registrar da nouv
+review-cancel = Interrumper la transmissiun
+review-keep-recordings = Tegner la registraziun
+review-delete-recordings = Stüder mias registraziuns
 
 ## Datasets Page
 
+datasets-headline = Nus construin üna collecziun da datas vocalas open source e plurilinguala cha minchün po dovrar per trenar applicaziuns chi vegnan dirigidas culla vusch.
 
 ## Download Modal
 
