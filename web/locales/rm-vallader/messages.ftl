@@ -593,9 +593,46 @@ other-language = Otra lingua
 language-section-in-progress = In elavuraziun
 language-section-in-progress-new-description = Quistas linguas vegnan actualmaing elavuradas da la comunità. Las tramas da progress indichan quant invant cha mincha lingua es aint il process da <localizationGlossaryLink>la traducziun da la pagina d'internet</localizationGlossaryLink> e <sentenceCollectionGlossaryLink>la collecziun da construcziuns</sentenceCollectionGlossaryLink>.
 language-section-launched = Lantschà
+language-section-launched-description =
+    Per quistas linguas es la pagina d'internet gnüda
+    <localizationGlossaryLink>tradütta</localizationGlossaryLink> cumplettamaing e la 
+    <sentenceCollectionGlossaryLink>collecziun da construcziuns</sentenceCollectionGlossaryLink> es gronda avuonda per cuntinuar las contribuziuns cun <speakLink>discuorrer</speakLink> e <listenLink>tadlar</listenLink>.
+languages-show-more = Muossar daplü
+languages-show-less = Muossar damain
+language-meter-in-progress = Progress
+language-total-progress = Total
+language-search-input =
+    .placeholder = Tscherchar
+language-speakers = Pledaders
+localized = Tradüt
+sentences = Construcziuns
+total-hours = Uras verifichadas
 
 ## Contribution
 
+action-click = Cliccar
+action-tap = Tippar
+contribute = Contribuir
+listen = Tadlar
+skip = Sursaglir
+shortcuts = Cumbinaziuns da tastas
+clips-with-count = <bold>{ $count }</bold> Registraziuns
+goal-help-recording = Tü hast güdà a Common Voice da ragiundscher <goalPercentage></goalPercentage> da nos böt dal di da { $goalValue } davart registraziuns!
+goal-help-validation = Tü hast güdà a Common Voice da ragiundscher <goalPercentage></goalPercentage> da nos böt dal di da { $goalValue } davart verificaziuns!
+contribute-more =
+    { $count ->
+        [one] Pront per far { $count } daplü?
+       *[other] Pronts per far { $count } daplü?
+    }
+record-cta = Cumanzar a registrar
+record-platform-not-supported = I'ns displascha, mo tia plattafuorma nu vain actualmaing sustgnüda.
+record-platform-not-supported-ios = Ütilisaders dad <bold>iOS</bold> pon telechargiar nossa applicaziun gratuitamaing:
+record-must-allow-microphone = Tü stoust permetter access al microfon.
+record-no-mic-found = Tschattà ingün microfon.
+record-error-too-short = La registraziun es massa cuorta.
+record-error-too-long = La registraziun es massa lunga.
+record-error-too-quiet = La registraziun es massa da bass.
+record-cancel = Stüder la nouva registraziun.
 
 ## Reporting
 
