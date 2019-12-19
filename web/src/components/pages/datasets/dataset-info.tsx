@@ -144,6 +144,7 @@ class DatasetInfo extends React.Component<Props, State> {
   };
 
   saveHasDownloaded = async () => {
+    // @TODO - why are we awaiting??
     const { email, locale } = this.state;
     console.log(
       Object.keys(stats.locales)

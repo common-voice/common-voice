@@ -105,7 +105,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
       // Immediately scrolling up after page change has no effect.
       setTimeout(() => {
-        this.scroller.scrollTop = 0;
+        if (this.scroller) {
+          this.scroller.scrollTop = 0;
+        }
+
         if (location.hash) {
           this.visitHash();
         } else {

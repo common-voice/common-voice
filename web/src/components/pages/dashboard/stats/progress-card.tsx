@@ -30,7 +30,7 @@ export default function ProgressCard({
   type,
 }: Props) {
   const [globalLocale] = useLocale();
-  const { custom_goals: customGoals } = useAccount();
+  const { custom_goals: customGoals } = useAccount() || {};
   let api = useAPI();
   const [overallCurrent, setOverallCurrent] = useState(null);
 
