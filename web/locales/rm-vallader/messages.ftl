@@ -716,9 +716,26 @@ recorded-clips = Registraziuns
 validated-clips = Registraziuns verifichadas
 total-approved = Total da las verificaziuns
 overall-accuracy = Precisiun cumplessiva
+set-visibility = Adattar mia visibilità
+visibility-explainer = Quist parameter definischa tia visibilità sülla glista da rangaziun. Scha'l es miss sün 'na muossar', es teis progress privat. Quai voul dir cha teis purtret, teis nom d'ütilisader e teis progress nun vegnan muossats sülla glista da rangaziun. Remarcha: müdamaints sülla glista da rangaziun douvran ~{ $minutes } fin chi sun visibels.
+visibility-overlay-note = Remarcha: scha quist parameter es miss sün 'muossar', poust müdar el sülla pagina da <profileLink>profil</profileLink>
+show-ranking = Muossar mia rangaziun
 
 ## Custom Goals
 
+get-started-goals = Cumanzar a definir böts
+create-custom-goal = Definischa ün böt persunal
+both-speak-and-listen = Tuots duos
+both-speak-and-listen-long = Tuots duos (discuorrer e tadlar)
+daily-goal = Böt dal di
+weekly-goal = Böt da l'eivna
+easy-difficulty = Simpel
+average-difficulty = Mediocar
+difficult-difficulty = Difficil
+pro-difficulty = Expert
+lose-goal-progress-warning = Cun modifichar teis böt perdast forsa teis progress actual.
+want-to-continue = Voust cuntinuar?
+finish-editing = Il prüm finir da modifichar?
 
 ## Profile Delete
 
