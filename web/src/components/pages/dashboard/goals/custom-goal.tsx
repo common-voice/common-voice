@@ -241,13 +241,19 @@ export default function CustomGoal({
   const Step = steps[stepIndex];
 
   const states: any = {
-    daysInterval: [['daily-goal', 1], ['weekly-goal', 7]],
-    amount: [['easy', 15], ['average', 30], ['difficult', 45], ['pro', 60]].map(
-      ([labelId, value]) => [
-        labelId + '-difficulty',
-        (state.daysInterval || 0) * (value as number),
-      ]
-    ),
+    daysInterval: [
+      ['daily-goal', 1],
+      ['weekly-goal', 7],
+    ],
+    amount: [
+      ['easy', 15],
+      ['average', 30],
+      ['difficult', 45],
+      ['pro', 60],
+    ].map(([labelId, value]) => [
+      labelId + '-difficulty',
+      (state.daysInterval || 0) * (value as number),
+    ]),
     type: [
       ['speak', 'speak'],
       ['listen', 'listen'],

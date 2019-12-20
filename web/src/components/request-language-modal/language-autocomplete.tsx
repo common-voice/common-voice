@@ -34,9 +34,9 @@ export default function LanguageAutocomplete({
         selectedItem,
         highlightedIndex,
       }) => {
-        const options = Array.from(new Set(requestedLanguages || [])).filter(
-          name => name.toLowerCase().includes(inputValue.toLowerCase())
-        );
+        const options = Array.from(
+          new Set(requestedLanguages || [])
+        ).filter(name => name.toLowerCase().includes(inputValue.toLowerCase()));
         const exactMatch = options.find(
           name => name.toLowerCase() === inputValue.toLowerCase()
         );
