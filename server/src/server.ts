@@ -20,7 +20,9 @@ import { getConfig } from './config-helper';
 import authRouter, { authMiddleware } from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import * as proxy from 'http-proxy-middleware';
+var ms = require('ms');
 var HttpStatus = require('http-status-codes');
+var serveStatic = require('serve-static');
 
 require('source-map-support').install();
 const contributableLocales = require('locales/contributable.json');
@@ -30,7 +32,18 @@ const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
 const RELEASE_VERSION = getConfig().RELEASE_VERSION;
 const ENVIRONMENT = getConfig().ENVIRONMENT;
 const PROD = getConfig().PROD;
-const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
+const SECONDS_IN_A_YEAR = ms('1y') / ms('1s');
+
+// Max-Age of different content types in seconds
+// default is in milliseconds, hurgh
+const MAX_AGE: { [index: string]: number } = {
+  default_ms: ms('2h'), // Default is in ms
+  'text/css': ms('24h') / ms('1s'),
+  'application/javascript': ms('4h') / ms('1s'),
+  'font/ttf': ms('24h') / ms('1s'),
+  'image/svg+xml': ms('6h') / ms('1s'),
+  'image/jpeg': ms('6h') / ms('1s'),
+};
 
 const CSP_HEADER = [
   `default-src 'none'`,
@@ -135,10 +148,17 @@ export default class Server {
     app.use('/api/v1', this.api.getRouter());
 
     const staticOptions = {
-      setHeaders: (response: express.Response) => {
+      maxage: MAX_AGE['default_ms'],
+      setHeaders: (response: express.Response, path: string) => {
         // Basic Information
         response.set('X-Release-Version', RELEASE_VERSION);
         response.set('X-Environment', ENVIRONMENT);
+
+        // Type specific cache headers
+        var max_age;
+        if ((max_age = MAX_AGE[serveStatic.mime.lookup(path)])) {
+          response.setHeader('Cache-Control', 'public, max-age=' + max_age);
+        }
 
         // Production specific security-centric headers
         response.set('X-Production', PROD ? 'On' : 'Off');
@@ -175,6 +195,8 @@ export default class Server {
 
     this.setupPrivacyAndTermsRoutes();
 
+    // XXX: Reusing staticOptions here makes it annoying to manage cache expiry
+    // XXX: specially for our top-level document...
     app.use(
       /(.*)/,
       express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)

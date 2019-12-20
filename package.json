@@ -7,6 +7,7 @@
   "dependencies": {
     "fluent-syntax": "^0.14.0",
     "http-status-codes": "^1.4.0",
+    "ms": "^2.1.1",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
   },
