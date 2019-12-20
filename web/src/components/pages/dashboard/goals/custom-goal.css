@@ -422,6 +422,7 @@
         }
 
         & .goal-box {
+            align-items: center;
             border: 1.6px solid var(--grey);
             border-radius: 5px;
             margin-bottom: 70px;
@@ -442,11 +443,6 @@
 
             color: var(--color);
             --type-color: var(--color);
-
-            & .fraction {
-                position: relative;
-                top: 9px;
-            }
 
             & .relative {
                 display: flex;
