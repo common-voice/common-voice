@@ -620,7 +620,7 @@ total-hours = Oeren totaal
 ## Contribution
 
 action-click = Klik op
-action-tap = Tikke
+action-tap = Tik op
 contribute = Meiwurkje
 listen = Harkje
 skip = Oerslaan
