@@ -92,21 +92,22 @@ const TopBar = ({
               <h2>Challenge</h2>
             </LocaleNavLink>
           )}
-          {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(
-            ([label, path]) => (
-              <LocaleNavLink
-                key={path}
-                to={
-                  URLS.DASHBOARD +
-                  (dashboardLocale ? '/' + dashboardLocale : '') +
-                  path
-                }>
-                <Localized id={label}>
-                  <h2 />
-                </Localized>
-              </LocaleNavLink>
-            )
-          )}
+          {[
+            ['stats', URLS.STATS],
+            ['goals', URLS.GOALS],
+          ].map(([label, path]) => (
+            <LocaleNavLink
+              key={path}
+              to={
+                URLS.DASHBOARD +
+                (dashboardLocale ? '/' + dashboardLocale : '') +
+                path
+              }>
+              <Localized id={label}>
+                <h2 />
+              </Localized>
+            </LocaleNavLink>
+          ))}
           <LocaleNavLink
             to={
               URLS.DASHBOARD +

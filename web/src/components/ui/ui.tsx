@@ -166,7 +166,8 @@ export const StyledLink = ({
   ...props
 }: (
   | React.HTMLProps<HTMLAnchorElement>
-  | React.ComponentProps<typeof LocaleLink>) & { blank?: boolean }) => {
+  | React.ComponentProps<typeof LocaleLink>
+) & { blank?: boolean }) => {
   const Component = props.href ? 'a' : LocaleLink;
   return (
     <Component

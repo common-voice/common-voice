@@ -383,4 +383,4 @@ export default [
       </div>
     );
   }),
-] as (React.ComponentType<CustomGoalStepProps>)[];
+] as React.ComponentType<CustomGoalStepProps>[];

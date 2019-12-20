@@ -133,7 +133,9 @@ function ChallengePage(props: Props & RouteComponentProps<any>) {
           {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
           <div className="leader-board">
             <LeaderBoardCard
-              title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
+              title={`${
+                challengeTeams[account.enrollment.team].readableName
+              } Team Progress`}
               showVisibleIcon
               showOverlay={() => setShowOverlay(true)}
               service="team-progress"

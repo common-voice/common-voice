@@ -451,64 +451,61 @@ class AvatarSetup extends React.Component<Props, State> {
               )}
             </div>
             {/* ALL buttons, first page delete and re-record buttons */}
-            {clipStatus === 'notStarted' &&
-              (hasClip && (
-                <div>
-                  <div className="but">
-                    <div>
-                      <Button
-                        outline
-                        rounded
-                        className="primary-3 rerecord-but"
-                        onClick={this.updateAvatarClip}>
-                        <MicIcon />
-                        <Localized id="re-record">
-                          <span />
-                        </Localized>
-                      </Button>
-                    </div>
-                    <div>
-                      <Button
-                        outline
-                        rounded
-                        className="primary-2 delete-but"
-                        onClick={this.deleteAvatarClip.bind(this)}>
-                        <TrashIcon />
-                        <Localized id="delete-voice">
-                          <span />
-                        </Localized>
-                      </Button>
-                    </div>
+            {clipStatus === 'notStarted' && hasClip && (
+              <div>
+                <div className="but">
+                  <div>
+                    <Button
+                      outline
+                      rounded
+                      className="primary-3 rerecord-but"
+                      onClick={this.updateAvatarClip}>
+                      <MicIcon />
+                      <Localized id="re-record">
+                        <span />
+                      </Localized>
+                    </Button>
+                  </div>
+                  <div>
+                    <Button
+                      outline
+                      rounded
+                      className="primary-2 delete-but"
+                      onClick={this.deleteAvatarClip.bind(this)}>
+                      <TrashIcon />
+                      <Localized id="delete-voice">
+                        <span />
+                      </Localized>
+                    </Button>
                   </div>
                 </div>
-              ))}
+              </div>
+            )}
 
-            {clipStatus === 'notStarted' &&
-              (!hasClip && (
-                <Button
-                  outline
-                  rounded
-                  className="primary rerecord-but"
-                  onClick={this.counter}>
-                  <MicIcon />
-                  <Localized id="record-voice-wave">
-                    <span />
-                  </Localized>
-                </Button>
-              ))}
-            {clipStatus === 'starting' &&
-              (!hasClip && (
-                <Button
-                  outline
-                  rounded
-                  className="primary cancel-but"
-                  onClick={this.cancelRecording}>
-                  <CrossIcon />
-                  <Localized id="cancel-avatar-clip-recording">
-                    <span />
-                  </Localized>
-                </Button>
-              ))}
+            {clipStatus === 'notStarted' && !hasClip && (
+              <Button
+                outline
+                rounded
+                className="primary rerecord-but"
+                onClick={this.counter}>
+                <MicIcon />
+                <Localized id="record-voice-wave">
+                  <span />
+                </Localized>
+              </Button>
+            )}
+            {clipStatus === 'starting' && !hasClip && (
+              <Button
+                outline
+                rounded
+                className="primary cancel-but"
+                onClick={this.cancelRecording}>
+                <CrossIcon />
+                <Localized id="cancel-avatar-clip-recording">
+                  <span />
+                </Localized>
+              </Button>
+            )}
             {clipStatus === 'started' && (
               <Button
                 outline
