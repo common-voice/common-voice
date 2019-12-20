@@ -259,7 +259,19 @@ export default class DB {
 
     await this.mysql.query(
       `
+        /** Update the following:
+         *
+         *  updated_clips.is_valid:
+         *    TRUE if it's been decided that it's a good clip.
+         *    FALSE if it's been decided that it's a bad clip.
+         *    NULL if it hasn't received enough votes yet.
+         *
+         *  updated_clips.validated_at:
+         *    The last time is_valid changed, or NULL if is_valid is NULL.
+         */
         UPDATE clips updated_clips
+        /* This join allows us to determine a clip's is_valid status once, then
+           use it to set multiple column values later. */
         INNER JOIN (
           SELECT
             id,
@@ -281,9 +293,15 @@ export default class DB {
             GROUP BY clips.id
           ) counts
         ) t ON updated_clips.id = t.id
-        SET updated_clips.is_valid = t.is_valid,
-            updated_clips.validated_at = IF(ISNULL(t.is_valid), NULL, NOW())
-        WHERE updated_clips.id = ?  -- Redundant?
+        /* updated_clips.validated_at will only update when is_valid changes.
+           The comparison is messy since we can't use <> directly on NULL. */
+        SET updated_clips.validated_at = IF(
+              IFNULL(t.is_valid, 2) <> IFNULL(updated_clips.is_valid, 2),  -- Cast NULL to 2 for the comparison.
+              IF(ISNULL(t.is_valid), NULL, NOW()),  -- If is_valid has changed, update validated_at…
+              updated_clips.validated_at            -- …otherwise, leave it the same.
+            ),
+            updated_clips.is_valid = t.is_valid
+        WHERE updated_clips.id = ?  -- TODO: Redundant? Any perf gain?
       `,
       [id, id]
     );
@@ -389,7 +407,7 @@ export default class DB {
             `
               SELECT COUNT(*) as valid
               FROM clips
-              WHERE clips.is_valid IS NOT NULL AND (
+              WHERE clips.is_valid AND (
                 SELECT created_at
                 FROM votes
                 WHERE votes.clip_id = clips.id
