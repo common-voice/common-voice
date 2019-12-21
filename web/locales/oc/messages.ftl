@@ -310,6 +310,8 @@ total-hours = Oras validadas
 
 ## Contribution
 
+action-click = Clicatz
+action-tap = Tocatz
 contribute = Contribuir
 listen = Escotar
 skip = Passar
@@ -320,6 +322,12 @@ share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
 
 ## Reporting
 
+report-different-language = Autra lenga
+report-different-language-detail = La frasa es escricha en una lenga diferenta de la que parli
+report-difficult-pronounce = De mal prononciar
+report-other-comment =
+    .placeholder = Comentari
+continue = Contunhar
 
 ## Goals
 
@@ -341,6 +349,7 @@ validations =
 
 ## Dashboard
 
+awards = Premis
 
 ## Custom Goals
 
