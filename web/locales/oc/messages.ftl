@@ -350,6 +350,7 @@ validations =
 ## Dashboard
 
 awards = Premis
+you = Vos
 
 ## Custom Goals
 
