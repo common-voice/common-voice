@@ -76,6 +76,7 @@ izh = Izsór
 ja = Japán
 ka = Grúz
 kab = Kabil
+kbd = Kabardi
 kk = Kazak
 ko = Koreai
 kpv = Komi-zürjén
