@@ -76,6 +76,7 @@ izh = Izhorieg
 ja = Japanëeg
 ka = Georgeg
 kab = Kabyle
+kbd = Kabardieg
 kk = Casac
 ko = Corëeg
 kpv = Komi-Zyrian

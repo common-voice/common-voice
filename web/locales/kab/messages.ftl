@@ -76,6 +76,7 @@ izh = Tizhuryant
 ja = Tajapunit
 ka = Tajyuṛjit
 kab = Taqbaylit
+kbd = Takabardyant
 kk = Takazaxt
 ko = Takurit
 kpv = Takumt Zyrian

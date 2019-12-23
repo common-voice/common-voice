@@ -48,7 +48,7 @@ const RADIUS = 32;
 const STROKE = 2;
 
 export function CircleProgress({
-  className,
+  className = '',
   value,
   denominator,
   radius = RADIUS,

@@ -216,12 +216,16 @@ goals = Objectius
 settings = Paramètres
 edit-profile = Modificar lo perfil
 profile-close = Tampar
+login-signup = Se connectar / S’inscriure
 edit = Modificar
 download-profile = Telecargar mas donadas
 contribution-experience = Experiéncia de contribucion
+off = Desactivat
+on = Activat
 retry-voice-wave-recording = TORNAR FAR
 delete-voice = SUPRIMIR
 ready-to-upload = ENVIAR
+cancel-avatar-clip-recording = ANULLAR
 browse-file-title = Enviar un imatge
 connect-gravatar = Connectatz-vos amb Gravatar
 gravatar_not_found = Cap de gravatar pas trobat per vòstra adreça electronica
@@ -296,11 +300,18 @@ other-language = Autra lenga
 language-section-in-progress = En cors
 languages-show-more = Ne veire mai
 languages-show-less = Ne veire mens
+language-total-progress = Total
 language-search-input =
     .placeholder = Recercar
+language-speakers = Locutors
+localized = Traduccion
+sentences = Frasas
+total-hours = Oras validadas
 
 ## Contribution
 
+action-click = Clicatz
+action-tap = Tocatz
 contribute = Contribuir
 listen = Escotar
 skip = Passar
@@ -311,6 +322,12 @@ share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
 
 ## Reporting
 
+report-different-language = Autra lenga
+report-different-language-detail = La frasa es escricha en una lenga diferenta de la que parli
+report-difficult-pronounce = De mal prononciar
+report-other-comment =
+    .placeholder = Comentari
+continue = Contunhar
 
 ## Goals
 
@@ -332,6 +349,8 @@ validations =
 
 ## Dashboard
 
+awards = Premis
+you = Vos
 
 ## Custom Goals
 
@@ -344,3 +363,4 @@ profile-form-delete = Suprimir lo perfil
 
 ## Landing
 
+read-more-about = Per ne saber mai anatz a la pagina A prepaus

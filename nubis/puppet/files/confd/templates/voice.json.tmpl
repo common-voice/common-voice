@@ -4,6 +4,7 @@
   "port": 9000,
   "logfile": "/var/log/voice.log",
   "PROD": true,
+  "IMPORT_SENTENCES": true,
   "DB_ROOT_USER": "{{ if exists "/config/Database/User" }}{{ getv "/config/Database/User" }}{{ else }}voicecommons{{ end }}",
   "DB_ROOT_PASS": "{{ if exists "/config/Database/Password" }}{{ getv "/config/Database/Password" }}{{ else }}voicecommons{{ end }}",
   "MYSQLUSER": "{{ if exists "/config/Database/User" }}{{ getv "/config/Database/User" }}{{ else }}voicecommons{{ end }}",

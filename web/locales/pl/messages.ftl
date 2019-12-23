@@ -76,6 +76,7 @@ izh = iżorski
 ja = japoński
 ka = gruziński
 kab = kabylski
+kbd = kabardyjski
 kk = kazachski
 ko = koreański
 kpv = komi (zyriański)
