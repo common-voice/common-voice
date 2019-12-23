@@ -458,31 +458,49 @@ export default class DB {
     locale?: string,
     client_id?: string
   ): Promise<{ date: string; value: number }[]> {
-    const hours = Array.from({ length: 10 }).map((_, i) => i);
-
     const [rows] = await this.mysql.query(
       `
-        SELECT date,
-        (
-          SELECT COUNT(*)
-          FROM clips
-          WHERE clips.created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+    SELECT
+        date,
+        sum(value) AS value
+    FROM
+        ( SELECT
+            count(*) as value,
+            date_format( votes.created_at,
+            '%Y-%m-%d %H:00' ) AS date
+        FROM
+            votes
+        LEFT JOIN
+            clips
+                on clips.id = votes.clip_id
+        WHERE
+            votes.created_at > (
+                NOW() - INTERVAL 10 hour
+            )
+            ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+            ${client_id ? 'AND votes.client_id = :client_id' : ''}
+        GROUP BY
+            HOUR(votes.created_at)
+        UNION
+        SELECT
+            count(*) as value,
+            date_format( clips.created_at,
+            '%Y-%m-%d %H:00' ) as date
+        FROM
+            clips
+        WHERE
+            clips.created_at > (
+                NOW() - INTERVAL 10 hour
+            )
           ${locale ? 'AND clips.locale_id = :locale_id' : ''}
           ${client_id ? 'AND clips.client_id = :client_id' : ''}
-        ) + (
-          SELECT COUNT(*)
-          FROM votes
-          LEFT JOIN clips on clips.id = votes.clip_id
-          WHERE votes.created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
-          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
-          ${client_id ? 'AND votes.client_id = :client_id' : ''}
-        ) AS value
-        FROM (
-          SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
-          FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
-        ) date_alias
-        ORDER BY date ASC
-      `,
+        GROUP BY
+            HOUR(clips.created_at)
+    ) as summary
+      GROUP BY date
+      ORDER BY date desc
+      LIMIT 10
+    `,
       {
         locale_id: locale ? await getLocaleId(locale) : null,
         client_id,
