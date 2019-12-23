@@ -259,28 +259,49 @@ export default class DB {
 
     await this.mysql.query(
       `
+        /** Update the following:
+         *
+         *  updated_clips.is_valid:
+         *    TRUE if it's been decided that it's a good clip.
+         *    FALSE if it's been decided that it's a bad clip.
+         *    NULL if it hasn't received enough votes yet.
+         *
+         *  updated_clips.validated_at:
+         *    The last time is_valid changed, or NULL if is_valid is NULL.
+         */
         UPDATE clips updated_clips
-        SET is_valid = (
+        /* This join allows us to determine a clip's is_valid status once, then
+           use it to set multiple column values later. */
+        INNER JOIN (
           SELECT
+            id,
             CASE
-              WHEN upvotes_count >= 2 AND upvotes_count > downvotes_count
+              WHEN counts.upvotes >= 2 AND counts.upvotes > counts.downvotes
                 THEN TRUE
-              WHEN downvotes_count >= 2 AND downvotes_count > upvotes_count
+              WHEN counts.downvotes >= 2 AND counts.downvotes > counts.upvotes
                 THEN FALSE
               ELSE NULL
-              END
+            END as is_valid
           FROM (
-                 SELECT
-                   clips.id AS id,
-                   COALESCE(SUM(votes.is_valid), 0)     AS upvotes_count,
-                   COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
-                 FROM clips
-                 LEFT JOIN votes ON clips.id = votes.clip_id
-                 WHERE clips.id = ?
-                 GROUP BY clips.id
-               ) t
-        )
-        WHERE updated_clips.id = ?
+            SELECT
+              clips.id AS id,
+              COALESCE(SUM(votes.is_valid), 0)     AS upvotes,
+              COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes
+            FROM clips
+            LEFT JOIN votes ON clips.id = votes.clip_id
+            WHERE clips.id = ?
+            GROUP BY clips.id
+          ) counts
+        ) t ON updated_clips.id = t.id
+        /* updated_clips.validated_at will only update when is_valid changes.
+           The comparison is messy since we can't use <> directly on NULL. */
+        SET updated_clips.validated_at = IF(
+              IFNULL(t.is_valid, 2) <> IFNULL(updated_clips.is_valid, 2),  -- Cast NULL to 2 for the comparison.
+              IF(ISNULL(t.is_valid), NULL, NOW()),  -- If is_valid has changed, update validated_at…
+              updated_clips.validated_at            -- …otherwise, leave it the same.
+            ),
+            updated_clips.is_valid = t.is_valid
+        WHERE updated_clips.id = ?  -- TODO: Redundant? Any perf gain?
       `,
       [id, id]
     );
@@ -384,22 +405,15 @@ export default class DB {
           ),
           this.mysql.query(
             `
-              SELECT SUM(upvotes_count >= 2 AND upvotes_count > downvotes_count) AS valid
-              FROM (
-                SELECT
-                  SUM(votes.is_valid) AS upvotes_count,
-                  SUM(NOT votes.is_valid) AS downvotes_count
-                FROM clips
-                LEFT JOIN votes ON clips.id = votes.clip_id
-                WHERE NOT clips.is_valid IS NULL AND (
-                  SELECT created_at
-                  FROM votes
-                  WHERE votes.clip_id = clips.id
-                  ORDER BY created_at DESC
-                  LIMIT 1
-                ) BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''}
-                GROUP BY clips.id
-              ) t;
+              SELECT COUNT(*) as valid
+              FROM clips
+              WHERE clips.is_valid AND (
+                SELECT created_at
+                FROM votes
+                WHERE votes.clip_id = clips.id
+                ORDER BY created_at DESC
+                LIMIT 1
+              ) BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''}
             `,
             [localeId]
           ),
