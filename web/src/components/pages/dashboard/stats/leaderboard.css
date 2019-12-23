@@ -355,85 +355,35 @@
             min-width: 75px;
         }
 
-        & .total,
-        & .rate {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            font-weight: 600;
-            color: var(--near-black);
-
-            @media (--sm-up) {
-                min-width: 65px;
-            }
-
-            & svg {
-                flex-shrink: 0;
-                margin-inline-end: 5px;
-                height: 17px;
-
-                &.play {
-                    height: 12px;
-                }
-            }
-
-            & path {
-                fill: var(--warm-grey);
-            }
-        }
-
-        & .valid {
+        .total {
             padding: 0 20px;
             min-width: 45px;
             height: 44px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            color: var(--white);
-            background: var(--blue);
+            flex-direction: row;
+            font-weight: 600;
+            color: var(--near-black);
 
-            & svg {
+            svg {
                 flex-shrink: 0;
                 width: 17px;
+                &.play {
+                    height: 12px;
+                }
             }
 
-            & path {
-                fill: var(--white);
+            path {
+                fill: var(--warm-grey);
+            }
+
+            @media (--sm-up) {
+                min-width: 65px;
             }
 
             @media (--sm-down) {
                 padding: 0 10px;
-            }
-        }
-
-        & .rate {
-            padding: 0 10px;
-            min-width: 65px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-
-            & .exact,
-            & .rounded {
-                display: none;
-            }
-
-            & .percent {
-                color: var(--warm-grey);
-                font-weight: normal;
-                opacity: 0.5;
-            }
-
-            @media (--sm-down) {
-                & .rounded {
-                    display: block;
-                }
-            }
-
-            @media (--md-up) {
-                & .exact {
-                    display: block;
-                }
             }
         }
 

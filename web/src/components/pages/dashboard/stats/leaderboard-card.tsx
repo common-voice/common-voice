@@ -286,11 +286,6 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             )}
             {formatNumber(row.total)}
           </div>
-          <div className="valid" title={row.valid}>
-            <CheckIcon />
-            {formatNumber(row.valid)}
-          </div>
-          <RateColumn value={row.rate} />
         </li>,
         nextPosition &&
         nextPosition - 1 > row.position &&
@@ -388,8 +383,6 @@ export default function LeaderboardCard() {
                   {[
                     { Icon: MicIcon, label: 'speak-goal-text' },
                     { Icon: PlayOutlineIcon, label: 'listen-goal-text' },
-                    { Icon: FilledCheckIcon, label: 'total-approved' },
-                    { Icon: Percentage, label: 'overall-accuracy' },
                   ].map(({ Icon, label }) => (
                     <li key={label}>
                       <div className="icon">
