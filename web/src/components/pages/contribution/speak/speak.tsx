@@ -625,7 +625,10 @@ class SpeakPage extends React.Component<Props, State> {
               'difficult-pronounce',
             ],
             kind: 'sentence',
-            id: recordingIndex == -1 ? null : clips[recordingIndex].sentence.id,
+            id:
+              recordingIndex == -1 || !clips[recordingIndex].sentence
+                ? null
+                : clips[recordingIndex].sentence.id,
           }}
           sentences={clips.map(({ sentence }) => sentence && sentence.text)}
           shortcuts={[

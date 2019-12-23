@@ -205,7 +205,7 @@ export default function CustomGoal({
   const { history, location } = useRouter();
   const api = useAPI();
   const account = useAccount();
-  const { custom_goals, email } = account;
+  const { custom_goals, email } = account || {};
   const customGoal = custom_goals.find(g => g.locale == dashboardLocale);
   const refreshUser = useAction(User.actions.refresh);
   const saveAccount = useAction(User.actions.saveAccount);
