@@ -45,8 +45,6 @@ function renewRedisCache<T, S>(
 ): Fn<T, S> {
   return async (...args) => {
     return new Promise(async resolve => {
-      let renewCache = true;
-
       const lock = await redlock.lock(
         key + '-lock',
         1000 * 60 * 3 /*3 minutes*/
@@ -71,14 +69,12 @@ function redisCache<T, S>(
     const result = await redis.get(key);
 
     let value: any;
-    let renewCache = true;
+
     if (result) {
       const cached = JSON.parse(result);
-      value = cached.value;
-      renewCache = isExpired(cached.at, timeMs);
-
-      if (renewCache) renewRedisCache(key, f, timeMs)(...args);
-      return value;
+      if (isExpired(cached.at, timeMs))
+        renewRedisCache(key, f, timeMs)(...args);
+      return cached.value;
     }
 
     return new Promise(async resolve => {
