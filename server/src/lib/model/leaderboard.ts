@@ -17,27 +17,17 @@ const db = getMySQLInstance();
 
 async function getClipLeaderboard(locale?: string): Promise<any[]> {
   const [rows] = await db.query(
-    `
-      SELECT client_id,
-             avatar_url,
-             avatar_clip_url,
-             username,
-             total
-      FROM (
-        SELECT user_clients.*,
-               COUNT(clip_id) AS total
-        FROM (
-          SELECT user_clients.*,
-                 clips.id AS clip_id
-          FROM user_clients
-          LEFT JOIN clips ON user_clients.client_id = clips.client_id
+    `SELECT user_clients.client_id,
+            avatar_url,
+            avatar_clip_url,
+            username,
+            COUNT(clips.id) AS total
+      FROM user_clients
+      LEFT JOIN clips ON user_clients.client_id = clips.client_id
           WHERE visible = 1
           ${locale ? 'AND clips.locale_id = :locale_id' : ''}
-          GROUP BY user_clients.client_id, clips.id
-        ) user_clients
-        GROUP BY client_id
+      GROUP BY client_id
         HAVING total > 0
-      ) t
       ORDER BY total DESC
     `,
     { locale_id: locale ? await getLocaleId(locale) : null }
@@ -48,26 +38,18 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
 async function getVoteLeaderboard(locale?: string): Promise<any[]> {
   const [rows] = await db.query(
     `
-      SELECT client_id,
+      SELECT user_clients.client_id,
              avatar_url,
              avatar_clip_url,
              username,
-             total
-      FROM (
-        SELECT user_clients.*,
-               COUNT(vote_id) AS total
-        FROM (
-          SELECT user_clients.*,
-                 votes.id AS vote_id
-          FROM user_clients
-          LEFT JOIN votes ON user_clients.client_id = votes.client_id
-          WHERE visible
+             count(votes.id) as total
+      FROM user_clients
+      LEFT JOIN votes ON user_clients.client_id = votes.client_id
+      LEFT JOIN clips ON votes.clip_id = clips.id
+          WHERE visible = 1
           ${locale ? 'AND clips.locale_id = :locale_id' : ''}
-          GROUP BY user_clients.client_id, votes.id
-        ) user_clients
-        GROUP BY client_id
+      GROUP BY client_id
         HAVING total > 0
-      ) t
       ORDER BY total DESC
     `,
     { locale_id: locale ? await getLocaleId(locale) : null }
