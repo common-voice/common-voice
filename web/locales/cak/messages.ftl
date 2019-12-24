@@ -76,6 +76,7 @@ izh = Izhoriano
 ja = Japones
 ka = Georgiano
 kab = Cabilio
+kbd = Cabardiano
 kk = Kazajo
 ko = Coreano
 kpv = Komi-Zyrian
