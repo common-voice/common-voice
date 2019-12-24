@@ -729,12 +729,35 @@ want-to-continue = Хочете продовжити?
 finish-editing = Завершити спочатку редагування?
 lose-changes-warning = Якщо ви підете зараз, ваш прогрес буде втрачено
 build-custom-goal = Створити власну ціль
+help-reach-hours = Допоможіть досягти { NUMBER($hours) } годин { $language } як особисту ціль
+help-reach-hours-general = Допоможіть Common Voice досягти { NUMBER($hours) } годин мовою як особиста ціль
 set-a-goal = Поставити ціль
 cant-decide = Не можете вирішити?
+activity-needed-calculation =
+    { NUMBER($totalHours) } годин досягається за більше ніж { NUMBER($periodMonths) }
+    місяців, якщо { NUMBER($people) } людей записуватимуть { NUMBER($clipsPerDay) } кліпів на день.
+how-many-per-day = Чудово! Скільки кліпів на день?
+how-many-a-week = Чудово! Скільки кліпів на тиждень?
+which-goal-type = Ви хочете Говорити, Слухати або обидва?
+receiving-emails-info = Я хочу отримувати електронні листи з нагадуванням про цілі, повідомлення про досягнення та новини про Common Voice.
+not-receiving-emails-info =
+    Зараз ви налаштовані <bold>НЕ</bold> отримувати електронні листи, такі як нагадування про цілі, мої
+    оновлення та інформаційні розсилки про Common Voice
+n-clips = { NUMBER($count) } кліпів
+help-share-goal = Допоможіть нам знайти більше голосів, поділіться своєю ціллю
 confirm-goal = Підтвердити ціль
+goal-interval-weekly = Щотижня
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Поділіться вашою ціллю { $count } кліпу щодня з { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Поділіться своєю ціллю { $count } кліп щотижня з { $type }
 share-goal-type-speak = Запис
 share-goal-type-listen = Перевірка
 share-goal-type-both = Запис та перевірка
+# LINK will be replaced with the current URL
+goal-share-text = Я щойно задав особистою метою поділитись своїм голосом з #CommonVoice - приєднайтесь до мене та допоможіть навчити машині, говорити як люди { $link }
+track-progress = Відстежуйте прогрес на своїй сторінці статистики.
+return-to-edit-goal = Поверніться сюди, щоб змінити ціль у будь-який час.
 share-goal = Поділитися моєю ціллю
 
 ## Profile Delete
