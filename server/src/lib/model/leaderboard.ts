@@ -42,12 +42,12 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
              avatar_url,
              avatar_clip_url,
              username,
-             total
+             count(votes.id) as total
       FROM user_clients
-      LEFT JOIN votes ON user_clients.client_id = clips.client_id
+      LEFT JOIN votes ON user_clients.client_id = votes.client_id
       LEFT JOIN clips ON votes.clip_id = clips.id
           WHERE visible = 1
-          AND clips.locale = 3
+          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
       GROUP BY client_id
         HAVING total > 0
       ORDER BY total DESC
