@@ -23,6 +23,39 @@ not-available-abbreviation = Nun dispunìbbili
 
 ab = Abcasu
 ace = Aceh
+ady = Adighè
+af = Afrikaans
+am = Amàricu
+an = Aragunisi
+ar = Àrabbu
+arn = Mapucu
+as = Assamisi
+ast = Asturianu
+az = Azzeru
+ba = Baschiru
+be = Bilurrussu
+bg = Bùlgaru
+bn = Bingalisi
+br = Brètuni
+bxr = Buriatu
+ca = Catalanu
+cak = Kaqchikel
+cnh = Hakha Chin
+cs = Cecu
+cv = Ciuvasciu
+cy = Gallisi
+da = Danisi
+de = Tidiscu
+dsb = Vasciu surabbu
+dv = Maldivianu
+el = Gricu
+en = Ngrisi
+eo = Espirantu
+es = Spagnolu
+et = Èstuni
+eu = Bascu
+fa = Pirsianu
+ff = Fulah
 
 # [/]
 
