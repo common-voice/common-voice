@@ -379,14 +379,17 @@ faq-why-account-q = Kvifor skal eg registrere meg med ein konto?
 faq-is-account-public-q = Er kontoinformasjonen min offentleg?
 faq-what-is-cv = Kva er Common Voice?
 faq-using-cv = Bruke Common Voice
+faq-description = Projektet Common Voice er Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar.
 faq-search-for-answers =
     .label = Søk etter svar
 
 ## ABOUT US
 
 about-title = Kvifor Common Voice?
+about-subtitle = Common Voice er ein del av Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar. I tillegg til Common Voice-datamengda byggjer vi òg ein talegjenkjenningsmotor med open kjeldekode som heiter Deep Speech.
 how-does-it-work-title = Korleis fungerer det?
 about-speak = Tal
+about-speak-text = Bidragsytarar spelar inn stemmeklipp ved å lese inn frå ei samling bidregne setningar.
 about-listen-queue = Lyttekø
 about-listen = Lytt
 about-listen-text = Brukarar validerer kor nøyaktig bidragsklippet er, og kontrollerer at talaren les setninga korrekt.
@@ -680,10 +683,25 @@ pro-difficulty = Proff
 want-to-continue = Vil du fortsetje?
 set-a-goal = Sett deg eit mål
 cant-decide = greier du ikkje å bestemme deg+
+how-many-per-day = Flott! Kor mange klipp pr. dag?
+how-many-a-week = Flott! Kor mange klipp i veka?
+which-goal-type = Vil du snakke, lytte eller begge delar?
+receiving-emails-info =
+    Du er fortida sett opp til å få e-postmeldingar som målpåminningar, personlege
+    framdriftsoppdateringar og nyheitsbrev om Common Voice
+not-receiving-emails-info =
+    Du er for tida sett opp til å <bold>IKKE</bold> få e-postar som målpåminningar, personlege
+    framdriftsoppdateringar og nyheitsbrev om Common Voice
+n-clips = { NUMBER($count) } klipp
+help-share-goal = Hjelp oss med å finne fleire stemmer, del måla dine
 confirm-goal = Stadfest mål
 goal-interval-weekly = Kvar veke
 share-goal-type-speak = Snakke
 share-goal-type-listen = Lytte
+share-goal-type-both = Snakke og lytte
+weekly-goal-created = Målet ditt for ei veke er laga
+daily-goal-created = Målet ditt for ein dag er laga
+return-to-edit-goal = Gå tilbake hit for å redigere målet ditt når som helst.
 share-goal = Del målet mitt
 
 ## Profile Delete
@@ -695,6 +713,7 @@ profile-form-delete = Slett profilen
 ## Landing
 
 welcome-staff = Velkomne tilsette på { $company }!
+help-contribute = Du kan hjelpe til med å byggje ei mangfaldig, open datamengd ved å opprette ein Common Voice-profil og bidra med stemma di.
 login-company = Logg inn/Registrer deg med { $company } e-post
 profile-not-required = Du treng ikkje ein konto for å bidra, men det hjelper. Sjå kvifor nedanfor.
 read-more-about = Les meir på Om oss-sida vår
