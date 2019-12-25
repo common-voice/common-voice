@@ -427,9 +427,15 @@ mycroft-secondary-description = Dette er open kjeldekode som fritt kan endrast, 
 
 glossary = Ordliste
 localization = Lokalisering
+localization-explanation = Dette er prosessen vår for å omsette og tilpasse innhaldet vårt til mange språk.
 sentence-collection = Setningsinnsamling
+sentence-collection-explanation = Å samle setningar frå allemannseige («public domain»), eller å skrive nye setningar for allemannseige.
+hours-recorded-explanation = Talet på timar med innspelt tale vi har samla så langt.
+hours-validated-explanation = Talet på timar med stemmeopptak som er validerte av 2 av 3 brukarar med ei «ja»-stemme. Desse markerer vegen mot det totale målet på 10 000 timar.
 sst = Tale-til-tekst (STT)
+sst-explanation = Tale-til-tekst-teknologi konverterer taledata til tekst.
 de-identified = Anonymisering
+de-identified-explanation = Prosessen der profilinformasjonen til ein bidragsytar blir frikopla frå dei bidratte stemmeklippa når dei vert pakka for nedlasting som ein del av datamengda.
 
 ## NotFound
 
@@ -467,6 +473,7 @@ review-delete-recordings = Slett opptaka mine
 
 ## Datasets Page
 
+datasets-headline = Vi lagar fleirspråkleg taleinnspeling med open kjeldekode som alle kan bruke for å trene applikasjonar med talegjenkjenning.
 language = Språk
 # File size in gigabytes
 size = Storleik
@@ -477,9 +484,11 @@ audio-format = Lydformat
 number-of-voices = Tal på stemmer
 splits = Oppdeling
 email-to-download = Skriv inn ei e-postadresse for å laste ned
+why-email = <b> HKvifor ei e-postadresse? </b> Vi kan kome til å måtte kontakte deg i framtida om endringar i datamengda, ei e-postadresse gir oss eit kontaktpunkt.
 confirm-size = Du er klar for å starte ei nedlasting av <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b> Du seier deg samd i </b> å ikkje prøve å identifisere talarar i Common Voice-datamengda
 download-language = Last ned { $language }
 validated-hours = Validerte timar
 recorded-hours = Innspelte timar
