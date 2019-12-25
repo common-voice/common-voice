@@ -209,6 +209,7 @@ x-years-short =
 help-make-dataset = Hjelp oss å byggje eit offentleg, ope datasett med høg kvalitet
 sign-up-account = Be om konto
 email-subscription-title = registrer deg for oppdateringar via e-post
+email-subscription-title-new = Registrer deg for Common Voice-nyheitsbrevet, målpåminningar og framdriftsoppdateringar
 
 ## Account Benefits
 
@@ -312,6 +313,7 @@ profile-explanation = Hald auge med framdrifta di med ein profil som òg gjer st
 thanks-for-account = Takk for at du stadfesta kontoen din, no byggjer vi profilen din.
 why-demographic = Kvifor er dette viktig?
 why-demographic-explanation = Anonymiserte brukardata, som alder, kjønn og dialekt berikar stemmedataa som vert brukte for å trene talegjenkjenningsmotorane. Brukarnamnet ditt og e-postadressa di vil aldri bli assosierte med dine bidrag, og du kan velje om du vil at brukarnamnet ditt skal vere offentleg eller anonymt.
+accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
 login-identity = Innloggingsidentitet
 login-signup = Logg inn/Meld deg på
@@ -320,6 +322,8 @@ email-subscriptions = E-postabonnement
 download-profile = Last ned mine data
 contribution-experience = Bidragserfaring
 skip-submission-feedback = Hopp over tilbakemelding
+skip-submission-description = I løpet av bidragsinnsening vil tilbakemelding bli hoppa over etter å ha klikka «Send inn». Deretter fortset vi direkte med det neste settet med 5 innspelingar eller valideringar.
+skip-submission-note = Merk: Du må framleis velje mellom Tal eller Lytt for å endre bidragstype.
 off = Av
 on = På
 avatar-clip-title = Gje avataren din ei stemme
@@ -333,7 +337,10 @@ delete-voice = SLETT
 recording-voice-wave = Innspeling
 delete-voice-clip = eller Slett lydklipp
 ready-to-upload = Last opp
+avatar-clip-fact = Det er eit etablert faktum at ein lesar vil bli distrahert av sideinnhaldet når vedkomande studerer oppsettet til sida.
+recreate-voice = Bygg oppatt Lydklipp
 cancel-avatar-clip-recording = Avbryt
+about-avatar-clip-recording = Lag eit lydklipp som del av profilavataren din. Andre kan halde musa over avataren og høyre på lydklippet ditt.
 browse-file-title = Last opp ei bildefil
 browse-file = Dra og slepp, eller <browseWrap>bla</browseWrap>
 connect-gravatar = Kople til med Gravatar
@@ -351,10 +358,16 @@ faq-title = Vanlege spørsmål og svar
 faq-what-cv-q = Kva er Common Voice?
 faq-why-important-q = Kvifor er det viktig?
 faq-how-get-q = Korleis kan eg få tak i Common Voice-data?
+faq-how-get-a = Common Voice-datamengda er tilgjengeleg for nedlasting under <licenseLink>CC0</licenseLink> lisens på  <datasetLink>vår side med datamengder</datasetLink>.  Du kan også laste ned fleire andre offentleg tilgjengelege datamengder frå same side.
+faq-when-release2-q = Når vert Common Voice-data sleppt på andra språk?
 faq-why-mission-q = Kvifor er Common Voice ein del av Mozillas oppdrag?
 faq-what-cv-and-deepspeech-q = Kva er skilnaden mellom Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice å bygge ein stemmestyrt digital assistent?
+faq-do-want-native-q = Dette er ikkje morsmålet mitt, og eg snakkar med aksent, er de framleis interessert i stemma mi?
+faq-do-want-native-a = Ja! Vi vil særskilt ha stemma di! Eit delmål med Common Voice er å samle så mange ulike aksentar som muleg, slik at stemmegjenkjenningstenester verkar like godt for alle. Det tyder at bidrag frå ikkje-morsmålstalarar er spesielt viktige.
+faq-why-different-speakers-q = Kvifor treng de så mange ulike talarar pr. språk?
 faq-why-my-lang-q = Kvifor er ikkje språket mitt inkludert enno?
+faq-what-quality-q = Kva slags lydkvalitet er påkravd for at eit lydklipp kan brukast i datamengda?
 faq-how-calc-hours-q = Korleis bereknar Common Voice timar?
 faq-where-src-from-2-q = Kvar kjem denne kjeldeteksten frå?
 faq-why-account-q = Kvifor skal eg registrere meg med ein konto?
@@ -523,6 +536,8 @@ listen = Lytt
 skip = Hopp over
 shortcuts = Snarvegar
 clips-with-count = <bold>{ $count }</bold> klipp
+goal-help-recording = Du har hjelpt Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglege opptaksmål på { $goalValue }!
+goal-help-validation = Du har hjelpt Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige valideringsmål på { $goalValue }!
 contribute-more =
     { $count ->
         [one] Klar for { $count } til?
@@ -560,16 +575,22 @@ listen-last-time-instruction = <playIcon></playIcon>Det siste!
 nothing-to-validate = Vi har ikkje noko å validere på dette språket. Hjelp oss med å fylle opp køen.
 record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
+keep-track-profile = Hald oversikt over framgangen din med ein profil
 login-to-get-started = Logg inn eller registrer deg for å kome i gang
 
 ## Reporting
 
 report = Rapporter
 report-title = Send inn ein rapport
+report-ask = Kva for problem opplever du med denne setninga?
 report-offensive-language = Krenkande språk
+report-offensive-language-detail = Setninga inneheld respektlaust eller krenkande språk.
 report-grammar-or-spelling = Grammatisk/Stavefeil
+report-grammar-or-spelling-detail = Setninga har ein grammatisk feil eller ein stavefeil.
 report-different-language = Anna språk
+report-different-language-detail = Det er skrive på eit anna språk enn det eg snakkar.
 report-difficult-pronounce = Vanskeleg å uttale
+report-difficult-pronounce-detail = Den inneheld ord eller uttrykk som er vanskeleg å lese eller uttale.
 report-offensive-speech = Krenkande tale
 report-other-comment =
     .placeholder = Kommentar
