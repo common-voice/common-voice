@@ -726,8 +726,11 @@ share-goal = Del målet mitt
 
 ## Profile Delete
 
+delete-q = Vil du at lydklippa dine og skal slettast, eller vil du helst behalde dei i Common Voice-datamengda?
 keep = Behald
 remove = Fjern
+keep-info = Dei anonyme stemmeopptaka dine vil vere att i Common Voice-datamengda. Når du har sletta profilen din, vil du ikkje lenger kunne sende inn ein førespurnad om å fjerne opptaka dine frå datamengda
+remove-info = Vi vil gå gjennom førespurnaden din om å fjerne stemmeavspelinga frå datamengda. Dersom førespurnaden din blir godkjend, kontaktar vi dei som har lasta ned datamengda, og ber om at også dei fjernar lydklippa dine.
 profile-form-delete = Slett profilen
 
 ## Landing
