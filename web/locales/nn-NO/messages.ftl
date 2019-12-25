@@ -368,8 +368,13 @@ faq-do-want-native-a = Ja! Vi vil særskilt ha stemma di! Eit delmål med Common
 faq-why-different-speakers-q = Kvifor treng de så mange ulike talarar pr. språk?
 faq-why-my-lang-q = Kvifor er ikkje språket mitt inkludert enno?
 faq-what-quality-q = Kva slags lydkvalitet er påkravd for at eit lydklipp kan brukast i datamengda?
+faq-why-10k-hours-q = Kvifor er 10000 validerte timar pr. språk målet for innspelt lyd?
+faq-why-10k-hours-a = Dette er det omtrentlege talet på timar det krevst for å trene eit produksjonsklart tale-til-tekst-system.
 faq-how-calc-hours-q = Korleis bereknar Common Voice timar?
+faq-how-calc-hours-a = Vi reknar timar ved å vurdere den gjennomsnittlege lengda for kvart lydklipp, og multipliserer det talet med det totale talet innspelingar på alle språk.
 faq-where-src-from-2-q = Kvar kjem denne kjeldeteksten frå?
+faq-where-src-from-2-a = Kjeldeteksten vår er dels originalbidrag og dels dialog frå allment tilgjengelege filmmanus som <italic>It’s a Wonderful Life</italic>. Du finn kjeldeteksten vår i denne <githubLink>GitHub-mappa</githubLink>.
+faq-why-not-ask-read-q = Kvifor ber de ikkje folk om å lese frå bøker eller Wikipedia-artiklar i ulike språk?
 faq-why-account-q = Kvifor skal eg registrere meg med ein konto?
 faq-is-account-public-q = Er kontoinformasjonen min offentleg?
 faq-what-is-cv = Kva er Common Voice?
@@ -384,9 +389,13 @@ how-does-it-work-title = Korleis fungerer det?
 about-speak = Tal
 about-listen-queue = Lyttekø
 about-listen = Lytt
+about-listen-text = Brukarar validerer kor nøyaktig bidragsklippet er, og kontrollerer at talaren les setninga korrekt.
 about-is-it-valid = Er klippet gyldig?
+about-is-it-valid-text = Eit lydklipp er markert som «gyldig» når ein bruker gir det ei «Ja»-stemme.
 about-yes-votes = ≥ 2 Ja-røyster
+about-yes-votes-text = For å kome med i Common Voice-datamengda må eit lydklipp godkjennast av to ulike brukarar.
 about-no-votes = ≥ 2 Nej-røyster
+about-no-votes-text = Når ein brukar underkjenner eit lydklipp, blir det returnert til køen. Om det blir underkjent ein gong til blir lydklippet sendt på lydklippfyllinga.
 about-dataset-new = Common Voice.datamengde
 about-dataset-new-text = Common Voice-datamengda inneheld hundretusenvis av lydklipp som hjelper utviklarar med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Klippkyrkjegard
@@ -398,12 +407,21 @@ about-partnership =
     
     Vi vil gjerne få takke følgjande personar og organisasjonar for hjelpa deira med prosjektet:
 about-get-involved = Ver med
+about-get-involved-text =
+    Vil du hjelpe til med å gjere Common Voice endå betre?¶
+    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,¶
+     gi tilbakemelding via <githubLink>GitHub</githubLink>, ¶
+    eller ver med oss på <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
 about-nav-get-involved = Ver med
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunstig intelligens
+mycroft-description =
+    Mycroft er verdas første assistent med open kjeldekode. ¶
+    Mycroft køyrer på kva som helst - ein stasjonær PC, i ein bil, eller på ein Raspberry Pi.
+mycroft-secondary-description = Dette er open kjeldekode som fritt kan endrast, utvidast og forbetrast. Mycroft kan brukast i kva som helst frå vitskaplege prosjekt til bedriftsapplikasjonar.
 
 ## Glossary
 
@@ -592,10 +610,12 @@ report-different-language-detail = Det er skrive på eit anna språk enn det eg 
 report-difficult-pronounce = Vanskeleg å uttale
 report-difficult-pronounce-detail = Den inneheld ord eller uttrykk som er vanskeleg å lese eller uttale.
 report-offensive-speech = Krenkande tale
+report-offensive-speech-detail = Lydklippet har respektlaust eller krenkande språk.
 report-other-comment =
     .placeholder = Kommentar
 success = Vellykka
 continue = Fortset
+report-success = Rapporten er fullført
 
 ## Goals
 
