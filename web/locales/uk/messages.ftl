@@ -758,8 +758,8 @@ share-goal-type-speak = Запис
 share-goal-type-listen = Перевірка
 share-goal-type-both = Запис та перевірка
 # LINK will be replaced with the current URL
-goal-share-text = Я щойно задав особистою метою поділитись своїм голосом з #CommonVoice - приєднайтесь до мене та допоможіть навчити машині, говорити як люди { $link }
-track-progress = Відстежуйте прогрес на своїй сторінці статистики.
+goal-share-text = У мене вже є особиста ціль допомогти своїм голосом #CommonVoice -- приєднуйтесь до мене й допоможіть навчити машини розуміти людей { $link }
+track-progress = Відстежуйте свій прогрес тут і на сторінці статистики.
 return-to-edit-goal = Поверніться сюди, щоб змінити ціль у будь-який час.
 share-goal = Поділитися моєю ціллю
 
