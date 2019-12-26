@@ -163,6 +163,22 @@ logout = Nesci
 
 home-title = Common Voice è un pruggettu di Mozilla pi nzignàrici ê màchini comu pàrranu i genti nnâ vita vera.
 home-cta = Parra, cuntribbuisci!
+wall-of-text-start = A vuci è naturali, a vuci è umana. Pi chistu a pussibbilità di criari na tecnuluggìa vucali usàbbili di nostri màchini ni ncanta. Ma pi criari sistemi vucali, abbisugnamu di na granni quantità di dati di vuci diversi.
+wall-of-text-more-mobile = A majuranza dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazziuni. Pi stu mutivu abbiamu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru pi tutti.
+wall-of-text-more-desktop = Ora ni po' dunari a to vuci pi ajutàrini a criari un database vucali lìbbiru ca po èssiri usatu di cu' è-è pi criari app nnuvativi pâ riti e pî dispusitivi mòbbili. Liggi na frasi p'ajutàrini a nzignàrici ê màchini comu pàrranu i genti nnâ vita vera. Cuntrolla u travagghiu di l'autri cullabburatura p'ammigghiurari a qualità. È sìmplici!
+wall-of-text-first = A vuci è naturali, a vuci è umana. Pi chistu a pussibbilità di criari na tecnuluggìa vucali usàbbili di nostri màchini ni ncanta. Ma pi criari sistemi vucali, i diviluppatura ànnu bisognu di na granni quantità di dati di vuci diversi.
+wall-of-text-second = A majuranza dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazziuni. Pi stu mutivu abbiamu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru e accissìbbili pi tutti.
+show-wall-of-text = Cchiù nfurmazziuna
+help-us-title = Ajùtani a cuntrullari i frasi!
+help-us-explain = Ammacca u buttuni dâ ripruduzziuni, ascuta e vàluta: a frasi fu prununciata bonu?
+no-clips-to-validate = Parissi ca nun cci sunnu frasi riggistrati nna sta lingua. Ajùtani riggistrànnunni quarcuna ora.
+vote-yes = Se
+vote-no = No
+toggle-play-tooltip = Ammacca { shortcut-play-toggle } pi passari â mudalità di ripruduzziuni
+speak-subtitle = Dùnani a to voci
+speak-paragraph = Riggistrari i frasi è na parti ntigranti pâ custruzziuni dû nostru pruggettu: certi dicìssiru chi è puru a parti cchiù divirtenti.
+speak-goal-text = Riggistrazziuna
+listen-subtitle = Ajùtani a cuntrullari i vuci
 
 ## Account Benefits
 
