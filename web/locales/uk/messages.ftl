@@ -371,6 +371,7 @@ faq-why-important-q = Чому це важливо?
 faq-how-get-q = Як я можу одержати дані Common Voice?
 faq-how-get-a = Набір даних Common Voice доступний для завантаження за ліцензією <licenseLink>CC0</licenseLink> на <datasetLink>нашій сторінці Наборів даних</datasetLink>. Також можна завантажити кілька інших загальнодоступних наборів даних з цієї ж сторінки.
 faq-when-release2-q = Коли буде випущено дані Common Voice іншими мовами?
+faq-when-release2-a = Наразі багатомовна версія набору даних Common Voice підтримується та розвивається спільнотою. Якщо ви хочете допомогти нам додати нові мови до Common Voice, ознайомтеся з <sentenceCollectorLink>інструментом для додавання нових речень</sentenceCollectorLink> та Mozilla <pontoonLink>Pontoon</pontoonLink> для перекладу веб-сайту. Нова мова додається до Common Voice, коли зібрано принаймні 5000 затверджених речень для цієї мови.
 faq-why-mission-q = Чому Common Voice є частиною місії Mozilla?
 faq-why-mission-a = Mozilla віддана збереженню інтернету відкритим та доступним для кожного. Щоб досягти цього, ми повинні надихнути розробників через проекти на зразок Common Voice. Через те, що голосові технології виходять за межі нішевих програмних продуктів, ми переконані в тому, що вони повинні служити однаково всім користувачам. Це означає інвестувати в більше мов і враховувати різноманіття акцентів і демографію при побудові та тестуванні голосових технологій. Common Voice - це публічний ресурс, доступний кожному, і команди та розробники Mozilla в усьому світі вже використовують його у своїх власних проектах.
 faq-what-cv-and-deepspeech-q = У чому різниця між Common Voice та Deep Speech?
@@ -729,28 +730,30 @@ want-to-continue = Хочете продовжити?
 finish-editing = Завершити спочатку редагування?
 lose-changes-warning = Якщо ви підете зараз, ваш прогрес буде втрачено
 build-custom-goal = Створити власну ціль
-help-reach-hours = Допоможіть досягти { NUMBER($hours) } годин { $language } як особисту ціль
-help-reach-hours-general = Допоможіть Common Voice досягти { NUMBER($hours) } годин мовою як особиста ціль
+help-reach-hours = Допоможіть досягти { NUMBER($hours) } годин мовою { $language } за допомогою особистої цілі
+help-reach-hours-general = Допоможіть Common Voice досягти { NUMBER($hours) } годин цією мовою за допомогою особистої цілі
 set-a-goal = Поставити ціль
 cant-decide = Не можете вирішити?
 activity-needed-calculation =
-    { NUMBER($totalHours) } годин досягається за більше ніж { NUMBER($periodMonths) }
-    місяців, якщо { NUMBER($people) } людей записуватимуть { NUMBER($clipsPerDay) } кліпів на день.
-how-many-per-day = Чудово! Скільки кліпів на день?
-how-many-a-week = Чудово! Скільки кліпів на тиждень?
-which-goal-type = Ви хочете Говорити, Слухати або обидва?
-receiving-emails-info = Я хочу отримувати електронні листи з нагадуванням про цілі, повідомлення про досягнення та новини про Common Voice.
+    { NUMBER($totalHours) } годин можна досягти за { NUMBER($periodMonths) }
+    місяців, якщо { NUMBER($people) } людей робитимуть { NUMBER($clipsPerDay) } записів щодня.
+how-many-per-day = Чудово! Скільки записів на день?
+how-many-a-week = Чудово! Скільки записів на тиждень?
+which-goal-type = Ви хочете записувати, перевіряти, чи те й інше?
+receiving-emails-info =
+    Ви отримуватимете листи з нагадуванням про цілі, оновлення прогресу,
+    а також новини про Common Voice.
 not-receiving-emails-info =
-    Зараз ви налаштовані <bold>НЕ</bold> отримувати електронні листи, такі як нагадування про цілі, мої
-    оновлення та інформаційні розсилки про Common Voice
-n-clips = { NUMBER($count) } кліпів
+    Ви <bold>НЕ</bold> отримуватимете листи з нагадуванням про цілі, оновлення прогресу
+    та новини про Common Voice
+n-clips = { NUMBER($count) } записів
 help-share-goal = Допоможіть нам знайти більше голосів, поділіться своєю ціллю
 confirm-goal = Підтвердити ціль
 goal-interval-weekly = Щотижня
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Поділіться вашою ціллю { $count } кліпу щодня з { $type }
+share-n-daily-contribution-goal = Поділіться своєю ціллю { $count } записів щодня для { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Поділіться своєю ціллю { $count } кліп щотижня з { $type }
+share-n-weekly-contribution-goal = Поділіться своєю ціллю { $count } записів щотижня для { $type }
 share-goal-type-speak = Запис
 share-goal-type-listen = Перевірка
 share-goal-type-both = Запис та перевірка
