@@ -56,6 +56,8 @@ et = Èstuni
 eu = Bascu
 fa = Pirsianu
 ff = Fulah
+fi = Fillannisi
+fo = Faruisi
 fr = Francisi
 fy-NL = Frìsuni
 ga-IE = Irlannisi
@@ -151,9 +153,16 @@ terms = Cunnizziuna d'usu
 cookies = Cookie
 faq = FAQ
 content-license-text = Cuntinutu dispunìbbili cu na <licenseLink>licenza Creative Commons</licenseLink>
+share-title = Ajùtani ad attruvari cu' ni po dari a so vuci!
+share-text = Ajuta a nzignàrici ê màchini comu pàrranu i genti nnâ vita vera, dùnani â to vuci nne { $link }
+link-copied = Ligami cupiatu
+back-top = Torna supra
+logout = Nesci
 
 ## Home Page
 
+home-title = Common Voice è un pruggettu di Mozilla pi nzignàrici ê màchini comu pàrranu i genti nnâ vita vera.
+home-cta = Parra, cuntribbuisci!
 
 ## Account Benefits
 
