@@ -349,6 +349,12 @@ faq-title = Dumanni cchiù friquenti
 faq-what-cv-q = Soccu è Common Voice?
 faq-why-important-q = Picchì è mpurtanti?
 faq-how-get-q = Comu pozzu scarricari i dati di Common Voice?
+faq-when-release2-q = Quannu pubblicariti i dati di Common Voice nnall'autri lingui?
+faq-why-10k-hours-q = Picchì l'ubbittivu di riggistrazziuni p'ogni lingua è di 10.000 uri validati?
+faq-why-10k-hours-a = Chistu è, sicunnu un càrculu apprussimativu, u nùmmaru di uri nicissariu pi furmari un sistema di ricanuscimentu vucali.
+faq-how-calc-hours-q = Comu càrcula l'uri Common Voice?
+faq-how-calc-hours-a = Carcùlamu l'uri stimannu a lunghizza midiana d'ogni riggistrazziuni, e murtiplicannu stu nùmmaru pû nùmmaru tutali di riggistrazziuna 'n tutti i lingui.
+faq-where-src-from-2-q = D'unni veni u testu d'urìggini?
 
 ## ABOUT US
 
