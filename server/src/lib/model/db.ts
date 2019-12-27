@@ -131,16 +131,18 @@ export default class DB {
   async getSpeakerCount(
     locales: string[]
   ): Promise<{ locale: string; count: number }[]> {
-    return (await this.mysql.query(
-      `
+    return (
+      await this.mysql.query(
+        `
         SELECT locales.name AS locale, COUNT(DISTINCT clips.client_id) AS count
         FROM clips
         LEFT JOIN locales ON clips.locale_id = locales.id
         WHERE locales.name IN (?)
         GROUP BY locale
       `,
-      [locales]
-    ))[0];
+        [locales]
+      )
+    )[0];
   }
 
   /**
@@ -236,14 +238,16 @@ export default class DB {
     );
 
     return Boolean(
-      (await this.mysql.query(
-        `
+      (
+        await this.mysql.query(
+          `
           SELECT 1
           FROM user_clients
           WHERE client_id = ? AND (auth_token = ? OR auth_token IS NULL)
         `,
-        [id, auth_token || null]
-      ))[0][0]
+          [id, auth_token || null]
+        )
+      )[0][0]
     );
   }
 
@@ -301,7 +305,7 @@ export default class DB {
               updated_clips.validated_at            -- …otherwise, leave it the same.
             ),
             updated_clips.is_valid = t.is_valid
-        WHERE updated_clips.id = ?  -- TODO: Redundant? Any perf gain?
+        WHERE updated_clips.id = ?
       `,
       [id, id]
     );
@@ -523,9 +527,9 @@ export default class DB {
   }
 
   async findClip(id: string) {
-    return (await this.mysql.query('SELECT * FROM clips WHERE id = ? LIMIT 1', [
-      id,
-    ]))[0][0];
+    return (
+      await this.mysql.query('SELECT * FROM clips WHERE id = ? LIMIT 1', [id])
+    )[0][0];
   }
 
   async getRequestedLanguages(): Promise<string[]> {
@@ -536,7 +540,9 @@ export default class DB {
   }
 
   async findRequestedLanguageId(language: string): Promise<number | null> {
-    const [[row]] = await this.mysql.query(
+    const [
+      [row],
+    ] = await this.mysql.query(
       'SELECT * FROM requested_languages WHERE LOWER(language) = LOWER(?) LIMIT 1',
       [language]
     );
@@ -564,7 +570,9 @@ export default class DB {
   }
 
   async getUserClient(client_id: string) {
-    const [[row]] = await this.mysql.query(
+    const [
+      [row],
+    ] = await this.mysql.query(
       'SELECT * FROM user_clients WHERE client_id = ?',
       [client_id]
     );
@@ -572,28 +580,32 @@ export default class DB {
   }
 
   async getDailyClipsCount(locale?: string) {
-    return (await this.mysql.query(
-      `
+    return (
+      await this.mysql.query(
+        `
         SELECT COUNT(id) AS count
         FROM clips
         WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
         ${locale ? 'AND locale_id = ?' : ''}
       `,
-      locale ? [await getLocaleId(locale)] : []
-    ))[0][0].count;
+        locale ? [await getLocaleId(locale)] : []
+      )
+    )[0][0].count;
   }
 
   async getDailyVotesCount(locale?: string) {
-    return (await this.mysql.query(
-      `
+    return (
+      await this.mysql.query(
+        `
         SELECT COUNT(votes.id) AS count
         FROM votes
         LEFT JOIN clips on votes.clip_id = clips.id
         WHERE votes.created_at >= CURDATE() AND votes.created_at < CURDATE() + INTERVAL 1 DAY
         ${locale ? 'AND locale_id = ?' : ''}
       `,
-      locale ? [await getLocaleId(locale)] : []
-    ))[0][0].count;
+        locale ? [await getLocaleId(locale)] : []
+      )
+    )[0][0].count;
   }
 
   async saveAccents(client_id: string, accents: { [locale: string]: string }) {
