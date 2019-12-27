@@ -187,6 +187,7 @@ Che odore di acquavite!
 Che parlare è questo!
 Che per l'occasione serviva anche da stanza per pranzare.
 Che pianse un pochino senza svegliarsi.
+Che può fare se non battere la testa contro il muro?
 Che sapevi tu?
 Che sarebbe accaduto quella sera?
 Che sembrava un generale.
@@ -348,6 +349,7 @@ E andò a lavarsi in un catino d'acqua deposto sopra una sedia.
 E andò verso la casa bianca.
 E andò via a testa bassa, come un cane frustato.
 E aveva paura della morte.
+E aveva una grande stima di sé stesso perché stimava le persone oneste.
 E balzò in piedi.
 E cammina cammina.
 E cominciò a decifrarla.
@@ -402,6 +404,7 @@ E le nozze avrebbero portato ingenti spese.
 E le sollevò a forza la testa.
 E le sue parole cadevano nel vuoto.
 E lo depose sul letto, cullandolo con le mani finchè Laura si fu coricata.
+E lo guardò con sincera compassione.
 E mancava per due ragioni.
 E mentre lavorava taciturno, pensava continuamente alle vicende e alle persone del paesello lontano.
 E nel cortile s'udiva un grillo zirlare e la zampa d'un cavallo.
@@ -707,6 +710,7 @@ Il cuculo ripeteva sempre i suoi gridi sottili e metallici come lame d'acciaio.
 Il cuore gli battè violentemente.
 Il cuore gli si agitò un po' convulso.
 Il fatto andò così.
+Il francese si volse nuovamente verso il muro, e sputò ancora.
 Il fulmine cadeva a una distanza di circa tre chilometri.
 Il fumo svaniva, basso e chiaro, carico di odori come fumo d'incenso.
 Il giovane ascoltava con viso intento, beato, mostrando i bei denti di fanciullo.
@@ -716,6 +720,7 @@ Il letto di Laura era di legno.
 Il luogo era deserto, soleggiato.
 Il mare era mosso.
 Il mattino era un po' freddo e velato.
+Il milanese si credeva uomo superiore.
 Il mio bene, il mio bene, – si lamentò Clotilde.
 Il mio capo è un pazzo
 Il mio sudore conta niente?
@@ -844,6 +849,7 @@ L'avvocato mosse una mano accennandogli di calmarsi.
 L'avvocato ti aspetta là.
 L'avvocato, un piccolo giovane giallo-roseo, aveva cominciato a parlare con vocina stridula e femminile.
 L'eco ripeteva quella voce indescrivibile, che sembrava il pianto di un fantasma disperato.
+L'ex-maresciallo s'arrabbiò come un cane, e il suo amico lo udì mugolare.
 L'ho letto sul giornale.
 L'indomani a sera
 L'indomani il condannato ritornò alla carica.
@@ -895,6 +901,7 @@ La sua difesa era stata già abbastanza disgraziata.
 La sua figurina tredicenne era alta e angolosa.
 La sua fronte bassissima si corrugò.
 La sua sola presenza parve dare una calma rigida alla figliuola.
+La sua voce era calda e sincera.
 La sua voce sonora risuonava fra le bianche pareti polverose.
 La tempesta proseguì.
 La testa gli girava.
@@ -1019,6 +1026,7 @@ Ma poi i suoi pensieri ripresero il loro corso.
 Ma poi tacquero e tutto fu di nuovo silenzio.
 Ma possibile, figlia mia?
 Ma prima, ditemi, come vanno le vostre gambe?
+Ma quegli insetti velenosi e quei piccoli mostri incutevano terrore.
 Ma quell'immobilità aveva un non so che di dolce e di gradevole.
 Ma questa ritirò rapidamente il viso e chiuse la porta.
 Ma questi sono affari nostri.
@@ -1030,6 +1038,7 @@ Ma senza esitare penetrò sotto il portico.
 Ma subito dopo gli occhi abituati al buio videro la linea chiara dello stradale.
 Ma subito l'orribile uomo si allontanò, andò via, e volgendosi sulla porta agitò l'ombrello.
 Ma tosto le parve che un rombo di tuono fortissimo l'avvolgesse.
+Ma tu sei innocente!
 Ma tu sei pazza?
 Ma tu sembri un gatto selvatico, sai?
 Ma visto che il bambino dormiva.
@@ -1114,6 +1123,7 @@ Non beveva mai.
 Non bisogna poi disperarsi; che diavolo.
 Non c'era più alcuna speranza.
 Non c'è niente, disse, proprio niente.
+Non consegnò la lettera.
 Non destava e non lasciava destare in loro alcun affetto reciproco.
 Non disperare di Dio.
 Non disse parola.
@@ -1288,6 +1298,7 @@ Quando il sabato egli rientrava in paese.
 Quando il vecchio stava assente.
 Quando il vecchio stava lontano.
 Quando in casa c'era molto lavoro chiamava persone del vicinato.
+Quando io sarò fuori tu forse non avrai più bisogno di me.
 Quando l'avvocato tacque, Lorenzo balzò in piedi.
 Quando la ebbe finita ne provò una gioia profonda.
 Quando si volse aveva il viso mutato, ed un tremito gli agitava il mento.
@@ -1305,6 +1316,7 @@ Questa lo guardò con ira e fece per dargli uno schiaffo.
 Queste circostanze lo resero momentaneamente felice.
 Questo riso con gli asparagi era ottimo
 Questo è un sogno!
+Questo è vero!
 Qui i pesciolini entreranno ed usciranno a loro piacere.
 Restava ore ed ore immobile, seduto, con le gambe accavallate.
 Riaprì gli occhi e sputò davvero.
@@ -1341,6 +1353,7 @@ Sapete parlar bene, voi.
 Sapete quanto costa una zuppa così a Roma?
 Sarebbe andato dal re, e gli avrebbe raccontato come stavano le cose.
 Sarebbe tempo di finirla.
+Sarebbe un bene per tutti.
 Sarei diventato astronomo, istruito come un prete.
 Sarà un buon avvocato.
 Sbadigliava talmente che le sue mascelle scricchiolavano.
@@ -1433,6 +1446,7 @@ Si ubriaca, ed è bugiardo come il tempo.
 Si ubriacava anch'egli.
 Si vestì.
 Si volse adirata, e stava per insultarlo.
+Sia fatta la volontà di Dio, ma io sono innocente.
 Siccome molti usano far così, lo facemmo anche noi.
 Sicuro che ce n'è!
 Sollevò il capo.
@@ -1465,6 +1479,7 @@ Strinsero la bocca in atto dubbioso.
 Su quello sfondo brillava una piccola stella gialla lontana, lontana.
 Subito sentì il bisogno di far sapere a qualcuno che aveva composto una sinfonia.
 Subito si lamentò del caldo e della puzza di pece che ammorbava l'aria.
+Subito si pentì di quelle parole, ma vide Costantino scuotere il capo dubbioso.
 Sul principio gli parve di camminare in sogno.
 Sul selciato rozzo delle strade il passo dei cavalli risuonava come pioggia di pietre.
 Sulle prime non lo riconobbe.
