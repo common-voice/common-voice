@@ -21,6 +21,7 @@ not-available-abbreviation = ਲਾਗੂ ਨਹੀਂ
 ## Languages
 
 ab = ਅਬਖਜ਼
+ace = ਏਸੀਨੇਸ
 af = ਅਫ਼ਰੀਕੀ
 ar = ਅਰਬੀ
 ast = ਅਸਟੂਰੀਅਨ

@@ -372,6 +372,7 @@ faq-why-not-ask-read-q = 為什麼你們不讓人來念出書本的內容，或�
 faq-why-account-q = 我點解應該去註冊帳戶？
 faq-is-account-public-q = 我的帳戶資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音人士的隱私？
+faq-how-privacy-a = 數據集中所有的錄音片段都不會包含可識別出個人的資訊。若貢獻者提供個人相關資料，該資訊將在錄音片段被合併成數據集以供下載前去識別化，永遠不會在他們的個人檔案首頁中公開。
 faq-what-determine-identity-q = 在 Common Voice 數據集中無法「確認發言者身分」是什麼意思？
 faq-what-is-cv = Common Voice 是甚麼？
 faq-using-cv = 使用 Common Voice
@@ -402,6 +403,7 @@ about-no-votes-text = 若使用者投下不正確票，錄音片段就會回到�
 about-dataset-new = Common Voice 數據集
 about-dataset-new-text = Common Voice 數據集包含數十萬條語音樣本，可以幫助開發語音識別工具。
 about-clip-graveyard = 片段回收桶
+about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 數據集的語音片段。與數據集一樣，回收桶的內容也可被下載。
 about-partners = 合作夥伴
 about-become-a-partner = 成為合作夥伴
 about-partnership =
@@ -416,6 +418,7 @@ about-nav-get-involved = 參與我們
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一套的開放原始碼的語音助理，無論在電腦、汽車、Raspberry Pi 或任何地方都能運作。
+mycroft-secondary-description = 這是一套可以自由混搭、延伸、改進的開放原始碼軟件。Mycroft 可以用於各種情境，例如科學專案、企業應用程式等。
 
 ## Glossary
 

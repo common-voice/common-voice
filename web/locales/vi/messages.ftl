@@ -76,6 +76,7 @@ izh = Tiếng Izhorian
 ja = Tiếng Nhật
 ka = Tiếng Gruzia
 kab = Tiếng Kabyle
+kbd = Tiếng Kabardian
 kk = Tiếng Kazakh
 ko = Tiếng Hàn
 kpv = Tiếng Komi-Zyria

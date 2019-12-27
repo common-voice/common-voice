@@ -4681,6 +4681,7 @@ Eu não sei pegar o ônibus.
 Eu não sei porque vocês são tão bons para mim.
 Eu não sei porque.
 Eu não sei quem é mais ninguém!
+Eu não sei se começo um livro ou uma série.
 Eu não sei.
 Eu não sou a primeira mulher a morrer por pregar isso.
 Eu não sou muito bom nisso.
@@ -9453,6 +9454,7 @@ Quem mais sabe disso?
 Quem não quer fazer gentileza, marinheiro ou soldado.
 Quem não se permite, outros não.
 Quem não tem cão caça com gato.
+Quem não é bom para a pessoa casada, não engane a mulher.
 Quem paga, bem, eles o servem.
 Quem peca na juventude perde a saúde para sempre.
 Quem pode me dizer gentilmente?
@@ -9596,6 +9598,7 @@ Retire a sonda até saber exatamente onde o erro está localizado.
 Reutilizar subsídio
 Revelando expressão duvidosa
 Rever sentenças.
+Revise as declarações fiscais com vista à sua apresentação.
 Revise os resultados da reunião de revisão
 Revisão dos verões bascos de verão.
 Ria e o mundo ri com você. Chore e chore sozinho.
