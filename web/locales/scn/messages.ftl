@@ -213,18 +213,48 @@ email-subscription-title-new = Iscrìviti ê littri di nfurmazziuni di Common Vo
 ## Account Benefits
 
 benefits = Binifici
+rich-data = Fai cchiù ricchi pussìbbili i dati chi manni dànnuni quarchi nfurmazziuni dimugràfica anònima. Sti nfurmazziuna sarannu cancillati prima di pubblicari i dati.
+improve-audio = I nfurmazziuna dû prufilu fannu crìsciri a qualità dî dati usati e a pricisiuni dû ricanuscimentu vucali.
+keep-track = Teni trazza dî to prugressi e statìstichi nnê lingui unni cullàbburi.
+compare-progress = Vidi comu è u to prugressu 'n cunfruntu all'autri cullabburatura 'n tuttu u munnu.
+view-goals = Vidi u to prugressu cu l'ubbittivi pirsunali e dû pruggettu.
+join-newsletter = Si voi, ti po' iscrìviri â nostra lista e-mail pi ricìviri l'attualizzazziuna e l'ùrtimi nfurmazziuna supra u pruggettu.
 
 ## What's public
 
+whats-public = Quali dati su' pùbblici?
+email-not-public = Nun pubblicaremu u to nnirizzu e-mail.
+recordings-and-locale-public = U nùmmaru di riggistrazziuna e i lingui unni cullàbburi sarannu pùbblici.
+username-optin-public = Po' scègghiri si pùbblicari u to nomu utenti o arristari anònimu.
+demographic-deidentified = I dati facurtativi chi manni (p.a. età, gèniri, lingua e accentu) vennu slazzati dî to dati vucali e nun sarannu mai pùbblici nnô to prufilu.
+username-email-not-demographic = U to nomu utenti e u to nnirizzu e-mail nun sarannu assuciati chî dati pubblicati.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = u
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Ripruduci/Ferma
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = S
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = N
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = R
+shortcut-record-toggle-label = Riggistra/Ferma
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Riggistra arrè
 request-language-text = A to lingua nun cc'è ancora nne Common Voice?
 request-language-button = Addumanna na lingua
 
@@ -261,6 +291,16 @@ female = Fìmmina
 # Gender
 other = Autru
 why-profile-title = Picchì riggistrari un prufilu?
+why-profile-text = Dànnuni nfurmazziuni ncapu di tia, i dati vucali chi manni a Common Voice sunnu cchiù ùtili pî mutura di ricanuscimentu vucali, chi ùsanu sti dati pi èssiri cchiù pricisi.
+dashboard = Panneḍḍu
+build-profile = Crea prufilu
+avatar = Fotu prufilu
+goals = Ubbittivi
+settings = Mpustazziuna
+edit-profile = Cancia prufilu
+profile-create-success = Bonu, prufilu criatu!
+profile-close = Chiuji
+profile-explanation = C'un prufilu, po' tèniri trazza dî to prugressi e n'ajuti ad ammigghiurari a pricisiuni dî dati vucali.
 
 ## FAQ
 
@@ -297,6 +337,8 @@ terms-disagree = Nun sugnu d'accordu
 
 ## Contribution
 
+skip = Sauta
+shortcuts = Accurzi
 
 ## Reporting
 
