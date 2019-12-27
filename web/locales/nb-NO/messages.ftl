@@ -392,7 +392,7 @@ faq-why-10k-hours-a = Dette er det omtrentlige antallet timer som kreves for å 
 faq-how-calc-hours-q = Hvordan beregner Common Voice timer?
 faq-how-calc-hours-a = Vi beregner timer ved å anslå den gjennomsnittlige lengden for hvert lydklipp, og multipliserer det tallet med det totale antall innspillinger over alle språk.
 faq-where-src-from-2-q = Hvor kommer kildeteksten fra?
-faq-where-src-from-2-a = Kildeteksten vår er dels originalbidrag og dels dialog fra allment tilgjengelige filmscript som <italic>It’s a Wonderful Life</italic>. Du finner kildeteksten vår i denne <githubLink>GitHub mappen</githubLink>.
+faq-where-src-from-2-a = Kildeteksten vår er dels originalbidrag og dels dialog fra allment tilgjengelige filmmanus som <italic>It’s a Wonderful Life</italic>. Du finner kildeteksten vår i denne <githubLink>GitHub-mappen</githubLink>.
 faq-why-not-ask-read-q = Hvorfor ber dere ikke folk om å lese fra bøker eller Wikipediaartikler i forskjellige språk?
 faq-why-not-ask-read-a = For å gjøre Common Voice datasettet så anvendelig som mulig, har vi bestemt oss for å kun tillate kildetekst som er tilgjengelig under en Creative Commons (CC0) lisens. Ved å sette denne standarden blir det vanskeligere å finne og samle inn kildetekst, men det tillater hvem som helst å benytte lyddatasettet som blir resultat, uten bruksrestriksjoner eller autorisering fra Mozilla. Til syvende og sist ønsker vi jo at det flerspråklige datasettet skal være så anvendelig som mulig for alle, inklusive forskere, universiteter, startups, regjeringer, samfunnsnyttige organisasjoner og amatører.
 faq-why-account-q = Hvorfor bør jeg lage en brukerkonto?
@@ -547,7 +547,7 @@ data-other-voxforge-description = VoxForge ble satt opp for å samle transkriber
 data-other-tatoeba-description = Tatoeba er en stor database med setninger, oversettelser og tale for bruk i språkopplæring. Denne nedlastingen inneholder engelsk som er spilt inn av deres samfunn.
 your-feedback = Har du ideer til hvordan vi kan gjøre Common Voice datasettet bedre? Gi oss beskjed på Discourse
 go-discourse = Gå til Discourse
-missing-language = Ser du ikke språket ditt i datasettet? For å be om et språk, gå til språk-siden vår.
+missing-language = Ser du ikke språket ditt i datamengden? For å be om et språk, gå til språksiden vår.
 go-languages-page = Gå til Språk-siden
 ready-to-validate = Klar til å hjelpe til med å validere setninger?
 more = Mer
@@ -741,7 +741,7 @@ activity-needed-calculation =
     måneder hvis { NUMBER($people) } folk registrerer { NUMBER($clipsPerDay) } klipp om dagen.
 how-many-per-day = Flott! Hvor mange klipp per dag?
 how-many-a-week = Flott! Hvor mange klipp i uken?
-which-goal-type = Vil du Snakke, Lytte eller begge deler?
+which-goal-type = Vil du snakke, lytte eller begge deler?
 receiving-emails-info =
     Du er for øyeblikket satt opp til å motta e-postmeldinger som målpåminnelser, personlige
     fremdriftsoppdateringer og nyhetsbrev om Common Voice
@@ -760,7 +760,7 @@ share-goal-type-speak = Snakking
 share-goal-type-listen = Lytting
 share-goal-type-both = Snakking og Lytting
 # LINK will be replaced with the current URL
-goal-share-text = Jeg lagde nettop et personlig mål for stemmebidrag til #CommonVoice -- bli med og lær maskiner hvordan virkelige mennesker snakker { $link }
+goal-share-text = Jeg lagde nettop et personlig mål for stemmebidrag til #CommonVoice -- bli med og lær maskiner hvordan mennesker snakker { $link }
 weekly-goal-created = Det ukentlige målet ditt er opprettet
 daily-goal-created = Det daglige målet ditt er opprettet
 track-progress = Spor fremdriften din her og på statistikksiden din
