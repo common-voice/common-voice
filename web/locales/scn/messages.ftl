@@ -347,9 +347,12 @@ change-email-setings = Cancia a to e-mail di Mpustazziuna > Idintità d'accessu
 
 faq-title = Dumanni cchiù friquenti
 faq-what-cv-q = Soccu è Common Voice?
+faq-what-cv-a = A tecnuluggìa di ricanuscimentu vucali sta rivuluzziunannu comu ntiraggemu chî màchine, ma i sistemi dispunìbbili ora sunnu custusi e prupitari. Common Voice è na nizziativa di Mozilla p'ammigghiurari e pi rènniri cchiù accissibbili a tutti a tecnuluggìa dû ricanuscimentu vucali. Common Voice è un database glubbali di vuci chi duna a pussibbilità a tutti di criari app chi ricanùscinu a vuci umana putinziarmenti 'n tutti i lingui.
 faq-why-important-q = Picchì è mpurtanti?
 faq-how-get-q = Comu pozzu scarricari i dati di Common Voice?
+faq-how-get-a = I dati di Common Voice sunnu dispunìbbili p'èssiri scarricati sutta a licenza <licenseLink>CC0</licenseLink> nnâ <datasetLink>nostra pàggina dî dati</datasetLink>. Po' puru scarricari autri dati dispunìbbili pubblicamenti dâ stissa pàggina.
 faq-when-release2-q = Quannu pubblicariti i dati di Common Voice nnall'autri lingui?
+faq-why-mission-q = Picchì Common Voice fa parti dâ missiuni di Mozilla?
 faq-why-10k-hours-q = Picchì l'ubbittivu di riggistrazziuni p'ogni lingua è di 10.000 uri validati?
 faq-why-10k-hours-a = Chistu è, sicunnu un càrculu apprussimativu, u nùmmaru di uri nicissariu pi furmari un sistema di ricanuscimentu vucali.
 faq-how-calc-hours-q = Comu càrcula l'uri Common Voice?
