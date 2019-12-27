@@ -341,9 +341,14 @@ manage-subscriptions = Gistisci l'iscrizziuna
 manage-email-subscriptions = Gistisci l'iscrizziuna e-mail
 email-already-used = E-mail già usata pi n'autru cuntu
 add-language = Agghiunci lingua
+change-email-setings = Cancia a to e-mail di Mpustazziuna > Idintità d'accessu
 
 ## FAQ
 
+faq-title = Dumanni cchiù friquenti
+faq-what-cv-q = Soccu è Common Voice?
+faq-why-important-q = Picchì è mpurtanti?
+faq-how-get-q = Comu pozzu scarricari i dati di Common Voice?
 
 ## ABOUT US
 
