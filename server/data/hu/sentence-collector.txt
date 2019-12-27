@@ -89,6 +89,7 @@ Aki cselekvőképes, maga köthet szerződést vagy tehet más jognyilatkozatot.
 Akkor egy idióta.
 Akkor intézzük el, mielőtt még ő intéz el minket.
 Akkor majd mi felvisszük.
+Akkor mi megyünk is.
 Akkor miért cipelem magammal ezt az izét?
 Akkor miért próbálkozol?
 Akkor én nem vagyok ember, és szerintem ez jó dolog.
@@ -96,6 +97,7 @@ Amikor feltöltöttem a minihűtőt a cuccal, azt hittem sok lesz.
 Amúgy is, kizárt, hogy csökkentené az esélyeket.
 Annak érzem magam.
 Anya épp összerakja a menekülési tervet, míg mi itt beszélgetünk.
+Arkhimédész büszke lenne.
 Atyám, nincs elég gyertya a templomban az embereknek, akiket bántottam.
 Az Országgyűlés országgyűlési képviselőkből álló állandó bizottságokat alakít.
 Az Országgyűlés tagjai sorából elnököt, alelnököket és jegyzőket választ.
@@ -171,6 +173,7 @@ Büszkék vagyunk az országunk megmaradásáért, szabadságáért és függetl
 Bűnös nincs!
 Bűnösnek találtattál az emberség és az illendőség teljes hiányában.
 Csak akik már találkoztak veled.
+Csak azt akarom, hogy tudd, nem kell így élned.
 Csak azt gondoltam, mire úgy lesz, addigra már nem számít.
 Csak le kellett teríteni.
 Csak most jöttem rá, hogy az új célunkhoz pontosan ennyire van szükség.
@@ -245,6 +248,7 @@ Ha megtörténik, hogy egy sikamlós lejtőn találod magad, vigyázz hová lép
 Ha segíteni nem segítettem, attól még csodáltam őket.
 Ha valamire szükségetek van, az a magabiztosság.
 Hallgass, te emberi hulladék!
+Hallod magad?
 Hallottad a hölgyet, reggelit!
 Hazudtam. Utoljára azon a bulin voltam, amin Gézát letartóztatták.
 Hirtelen ötlettől indíttatva bal felé ment le.
@@ -267,6 +271,7 @@ Igen, tudom, az emberek nem tudnak repülni.
 Inkább hagyok neki egy cetlit.
 Ismerős volt, mint a régi életem.
 Istenem, az ujjam.
+Itt a tarcsi kulcsom.
 Itt az idő, hogy örök nyugalomra térjek.
 Itt is van.
 Itt vagyunk mi, két srác, dumálgatunk, az igazat akarom.
@@ -282,6 +287,8 @@ Kemény elveszteni a családot.
 Keresem a helyes utat.
 Keskeny penge, kissé hajlott.
 Ki akarna megenni egy komplett faszt?
+Ki vagyunk zárva.
+Kihívás elfogadva.
 Kiskorú az, aki a tizennyolcadik életévét nem töltötte be.
 Kivett a szekrényből egy kabátot, a kazettából a kitüntetéseket.
 Kivéve, ha a pilóta lekoktélozza a műszerfalat.
@@ -289,6 +296,8 @@ Komplikált lélektani magyarázatokat talált arra, hogy miért fél a tengert�
 Korlátlan eszközökkel rendelkezünk.
 Kormány tagjai a miniszterelnök és a miniszterek.
 Képmás vagy hangfelvétel elkészítéséhez és felhasználásához az érintett személy hozzájárulása szükséges.
+Képtelen nőkhöz beszélni.
+Kérdezd a szalvétáról.
 Kérje meg erre a szívességre valamelyik matrózt.
 Kérlek, csak mondd el, hogy hova rejtetted el.
 Késő van, nem vagyok túl jól attól a sok pillecukortól.
@@ -339,6 +348,7 @@ Milyen képzéseket kell nekik adnunk?
 Milyen kés volt?
 Milyen volt a meló?
 Mind hamuvá vált, senki sem olvashatja már őket.
+Minden a matematikában rejlik.
 Minden ember jogképes: jogai és kötelezettségei lehetnek.
 Minden tagnak egy törzsbetéte lehet.
 Mindenesetre továbbra is a közelben sepregetett.
@@ -376,12 +386,14 @@ Mármint a parancsmegtagadásért kapott hat hét felfüggesztés után.
 Másnapos vagyok, mert sokat ittam.
 Mások véleménye a legfontosabb.
 Még azt sem tudja, hogyan kell vizet venni egy fagyott tóból.
+Még mindig nem beszélsz hozzám, mi?
 Még nem válaszoltál a kérdésemre.
 Na én mentem mosogatni.
 Na, kezdődik.
 Nagyon helyes.
 Nagyon szeretlek mindannyiótokat.
 Ne féljen semmit, ha baj van, kést teszek a sebbe!
+Nehéz volt felhozni?
 Nekem úgy tűnik, jól sikerül a beilleszkedése.
 Nektek még sose tűnt fel, hogy a velünk történt dolgok olyan furcsák?
 Nem a hajadról beszélek, barom.
@@ -445,6 +457,7 @@ Semmi értelme a szabályok előtt erről beszélni.
 Senkit sem ütlegeltem még.
 Soha nem állítasz meg, ha ezt gügyögted.
 Sokat segítene, ha jobban elképzelhetném.
+Sokkal könyörületesebb halál lett volna.
 Szerelmétől kezdve, a jávai majomembertől a pofonig.
 Szerette volna ezt közölni Johnnal.
 Szerintem nem fogok.
@@ -452,6 +465,7 @@ Szinte kicsattanok az örömtől.
 Szinte lehetetlen megjósolni a rehabilitáció hosszúságát egy hallójárati implantátumnál.
 Számomra nem volt túl sikeres ez a temetés.
 Szép estét, kik maguk?
+Szóval amolyan szénhidrát kiszállító vagy?
 Szóval hajótöröttek vagyunk?
 Szóval leégette a családi vállalkozást a családjáért.
 Szóval ötszáz ilyet szeretnél rászabadítani Londonra?
@@ -464,6 +478,8 @@ Talán rossz kereszteződésben tértünk le.
 Te jó szagú Atya Úr Isten, nézz csak körül.
 Te meg mit keresel itt?
 Technikailag, ez csak egy fennsík.
+Tegyük fel, hogy tudnak.
+Tehát holnap hoznak néhány bútort?
 Tehát van egy lejtőnk.
 Thai kaja, mogyoró nélkül.
 Tiszteljük más népek szabadságát és kultúráját, együttműködésre törekszünk a világ minden nemzetével.
@@ -516,10 +532,13 @@ jön a kocsmáros, mondd, hogy elmentem járni egyet ide a közelbe.
 Én úgy tapasztaltam, hogy csak egy valaki tud több dolgot csinálni a keresztről.
 Épp ellenkezőleg, nagyon érzékeny ember vagyok.
 Érzitek ezt a hideget?
+És akkor hogy repül este?
 És az intézmény e hivatás tekintetében csúcsteljesítményeket produkál.
 És ezt nem egyszerű összehozni. Erről beszélni fognak az emberek.
 És lemaradok egy durván csöcsös buliról.
+És mi a képleted a fordulóra?
 És mi az, amit nem tesz meg egy szülő a gyermekéért?
+És milyen térben, uram?
 És ott fekszik a hajópincér.
 És pontosan mire is alapozod ezt a naiv optimizmust?
 Ömlenie kellett volna a víznek.

@@ -41,12 +41,16 @@ A ille place multissimo le musica.
 A ille place natar.
 A ille place parlar de se mesme.
 A iste puncto, on ja non sape plus lo que facer.
+A judicar per le aspecto del celo, nos pote haber nive deman.
 A lavar le capite al asino on perde aqua e sapon.
 A me non place multo mi labor.
 A mesura que le tempore passa, le dolor dispare poco a poco.
 A nos nos es consentite de exportar nostre benes a Afghanistan, per le embargo.
 A pedes nude!
 A plus tarde.
+A prime vista ille sapeva que le infante habeva fame.
+A prime vista, illes pare un familia felice.
+A proposito, es tu libere iste vespere?
 A pugno serrate, ille pulsava le tabula.
 A qualque personas place le laros, a alteres non.
 A quatro annos ille sapeva jam leger e scriber.
@@ -543,11 +547,14 @@ Date solo le clave public, il es multo dur computar illo private.
 Dava del vos e del avunculo anque al plus juvenes de ille.
 De accordo, io te attendera.
 De accordo?
+De facto, io etiam non lo sape.
+De facto, tu non esseva tanto mal.
 De jorno illo era claudite e fixate al jorno.
 De plus in plus studentes adhere al protestos.
 De quanto besonia illa?
 De que altero tu besonia?
 De que consiste illo?
+De que consiste le aspirina?
 De que es illos facite?
 De que ha tu pavor?
 De qui es ille telephono?
@@ -777,14 +784,17 @@ Esque il te place alimentos Japonese?
 Esque il te place estate?
 Esque il te place mangiar pisce?
 Esque il te place robotes?
+Esque ille ha dicite alcun cosa super isto?
 Esque ille sera ci tosto?
 Esque illes recerca nos?
 Esque illo implica que io non pote plus jocar a badminton?
 Esque io parla troppo rapide?
 Esque io te enoia?
+Esque le bebe plorava in ille momento?
 Esque le collecta universal de voces in interlingua comenciara tosto?
 Esque le film te placeva.
 Esque le kangurus mascule ha un marsupio?
+Esque le libro esseva interessante?
 Esque le supermercato es aperte iste vespere?
 Esque te manca Peter?
 Esque tote le passageros es jam a bordo?
@@ -850,6 +860,9 @@ Esseva difficile viver de su salario magre.
 Esseva su desiro de ir a Paris.
 Esseva tu un bon natator quando tu esseva in le schola secundari?
 Esseva tu un bon studente quando tu esseva in le schola secundari?
+Esseva un affaire estranie.
+Estranieros es amusante.
+Etiam io ha comprendite nihil.
 Etiam io.
 Europa es un continente multo variate.
 Evidentia lo.
@@ -887,6 +900,7 @@ Facebook collige datos re non-membros.
 Facer bon facie a mal jocos.
 Facer camino pro lancear se in un aventura.
 Facer lo que tu vole.
+Fadil prendeva le prime volo a Cairo.
 Faller a su examine esseva un amar disillusion pro ille.
 Fast-food es conveniente ma sovente malsan.
 Felice anniversario
@@ -1810,6 +1824,7 @@ Ille ha essite declarate culpate.
 Ille ha essite imprisionate pro nulle ration.
 Ille ha essite salvate per fortuna.
 Ille ha facite illo.
+Ille ha fixate tote su sperantia super le publication de iste libro.
 Ille ha jam exite.
 Ille ha le capite sur le spatula.
 Ille ha le etate sufficiente pro conducer un auto.
@@ -1865,6 +1880,7 @@ Ille musica rap, con su alte battimentos electronic, es appellate hip-hop.
 Ille nasceva si povre que ille ha a pena frequentate un schola.
 Ille non ama attender le ultime momento pro facer un cosa.
 Ille non bibe.
+Ille non cessava jammais de scriber.
 Ille non debe haber le vista curte.
 Ille non es malade.
 Ille non es non malade.
@@ -2010,6 +2026,7 @@ Illes forsan succedeva post cinque tentativas fallite.
 Illes ha alco in commun.
 Illes ha brachios longe.
 Illes ha habite bastante.
+Illes ha le mesme apparentia, con exception del color del capillos.
 Illes ha natate.
 Illes ha offerite assistentia.
 Illes ha prejudicios contra le estranieros.
@@ -2057,6 +2074,7 @@ Illes suffereva multo.
 Illes vive a proximitate.
 Illes vive presso.
 Illes vole que io les adjuta con lor problema.
+Illes vole solmente facer un exemplo de me e usar me como capro expiatori.
 Illes voleva facer se prestar le auto.
 Illo contine courgette.
 Illo contine cucurbitas.
@@ -2155,8 +2173,10 @@ In le dies calde e quando tu face sports, tu deberea biber plus.
 In le discotheca, le D J reproduceva musica progressive house e trance.
 In le dunas un ave marin cova.
 In le estate, con vinti-quatro horas de lumine, isto non se applica.
+In le initio del historia american, le negros viveva in sclavitude.
 In le investigation medic, un del problemas principal es isolar le causa del maladia.
 In le lingua anglese, multe parolas contine litteras que non es pronunciate.
+In le medio del cammino de nostre vita.
 In le silentio infinite e in le solitude immense que le circumstava.
 In le vicinitate un ceresiero flore.
 In medio del chaos, ille immediatemente comprendeva le inutilitate de tote isto.
@@ -2268,6 +2288,7 @@ Io cognosce tu fratre multo ben.
 Io cognosce tu patre.
 Io comenciava a pensar que io habeva agite stupidemente.
 Io comenciava con le ballet quando io era ancora in schola elementari.
+Io comprara un de illos nove.
 Io comprara uno de illos nove.
 Io comprava multe libros.
 Io comprava succo de ananas con nulle sucro addite.
@@ -2588,6 +2609,7 @@ Io lavava le auto.
 Io le debe alcun moneta.
 Io le debe mi vita.
 Io le lassava infra.
+Io le peteva de venir a octo horas, ma ille non arrivava ante novem.
 Io le videva de novo.
 Io le vocara iste vespere.
 Io le volerea vider.
@@ -2770,9 +2792,11 @@ Io pagara.
 Io parla svedo.
 Io parlara a Peter.
 Io parlava a Peter.
+Io passava tote le postmeridie conversante con mi amicos.
 Io pensa multo a illa.
 Io pensa que Maximo menti.
 Io pensa que Peter ha ite via.
+Io pensa que il essera bon parlar con le chef un altere vice.
 Io pensa que ille era in cholera.
 Io pensa que io habeva facite ben.
 Io pensa que le solution es obvie.
@@ -2978,6 +3002,7 @@ Io vole controlar alcunes de mi objectos de valor.
 Io vole dansar.
 Io vole dicer que io es multo honorate.
 Io vole dicer vos qualcosa.
+Io vole dicer: tal cosas non se dice, non mesmo como burla!
 Io vole esser con te.
 Io vole exir de ci!
 Io vole illo.
@@ -3329,6 +3354,7 @@ Le canto era un grande successo.
 Le capillos de Maria es longe.
 Le capitano esseva si irate que ille refusava al equipage le congedo sur terra.
 Le capro expiatori es non jammais culpabile.
+Le capro expiatori non es jammais culpabile.
 Le casa es a foco.
 Le casa es ubi es le corde.
 Le casa ha essite construite de beton.
@@ -3433,6 +3459,7 @@ Le estate ha passate.
 Le evolution del scientia del computator ha transformate le mundo.
 Le existentia del undas gravitational habeva essite predicite desde longe tempore.
 Le experientia in le cassa era literalmente immersive.
+Le experientia in le cassa era litteralmente immersive.
 Le experimento era plen de successo.
 Le experimento girava in un disastro.
 Le expression facial authentic del actor ha convincite le jury.
@@ -3451,6 +3478,7 @@ Le feminas es delicate.
 Le file habeva un dimension de plure gigabytes.
 Le film esseva interessante, como io habeva expectate.
 Le final es proxime.
+Le firewalles pote esser usate pro proteger un rete contra intrusos.
 Le firewalles pote ser usate pro proteger un rete contra intrusos.
 Le firma digital es le procedura pro cifrar le valor de hash del messages.
 Le fluvios flue a ubi illos semper flue.
@@ -3871,6 +3899,7 @@ Le ultime cosa que tu pote facer es appellar le nove-uno-uno.
 Le ultime gadget in le moda es un bracialetto.
 Le uluco crita al claro de le luna.
 Le ulucos in fabulas es sempre intellectuales.
+Le uniformes es differente de illos de nostre schola.
 Le union es le fortia.
 Le universitate de Jim offere le panorama le plus belle in le citate.
 Le urso es brun.
@@ -3941,6 +3970,7 @@ Lo plus importante non es haber conquirite, ma haber luctate ben.
 Lo que es facite es facite.
 Lo que es juste es juste.
 Lo que es licite a Jove, non es licite al bove.
+Lo que es passate es passate, e nunquam revenira.
 Lo que se move de movimento recte, muta loco e se allontana del partita.
 Local solutiones deberea ser preferite a solutiones in nube in multe casos.
 Longe tempore on ha proclamate que le linguas natural es troppo irregular.
@@ -4082,12 +4112,14 @@ Maximo teneva Maria stricte.
 Maximo usa un cappello cata die.
 Maximo veniva a adjutar.
 Maximo volveva su oculos.
+Me ama tu vermente del fundo de tu corde?
 Me ama tu?
 Me place facer mi jogging tote le matinos.
 Me place le baseball.
 Me place le rhythmo lente de iste cantion.
 Me place multo le secunde parte del video.
 Me place non solmente le musica classic, ma etiam le jazz.
+Me placerea parlar con un de vostre invitatos.
 Melio abortar lo ante que tu es imbroliate!
 Melio dunque esseva lassar iste imprecisiones.
 Melio prevenir que curar.
@@ -4499,9 +4531,11 @@ Nos ha facite illo.
 Nos ha facite rafting in Suissa e ski alpin in Austria iste primavera.
 Nos ha facite toto pro nostre parte.
 Nos ha finite de parlar.
+Nos ha mangiate pizza e pollo a mediedie.
 Nos ha mangiate ris speciate con coxas de pullo e fungos blanc.
 Nos ha nascite al mesme die.
 Nos ha parlate sovente.
+Nos ha passate nostre vacantias sur un plagia in Hawaii.
 Nos ha plure tempore.
 Nos ha promittite.
 Nos ha studiate italiano.
@@ -5976,9 +6010,11 @@ Tote le manicas es connectite al modiolo defectuose.
 Tote le mundo dice que ille es un typo effeminate.
 Tote le mundo sape de isto.
 Tote le mundo vole esser felice.
+Tote le obreros retornava a casa salvo un.
 Tote le organos es exponite in nostre sala de exposition.
 Tote le personas qui veniva ante me.
 Tote le prato es coperte de pomos cadite.
+Tote le scholas es claudite in iste die feriate.
 Tote lo de que on pote parlar es tediose.
 Tote lo que io ha facite hodie es tractar planctos.
 Totes deberea haber assecurantia de salute.
@@ -6113,6 +6149,7 @@ Tu face festa troppo.
 Tu face le cosa juste.
 Tu face un grande labor adhuc.
 Tu facerea melio a non ir foras.
+Tu facerea melio de partir immediatemente.
 Tu faceva simplemente lo que tu debeva facer.
 Tu facie es rubie.
 Tu ferruginose catena del bicyclo poterea usar alcun lubrificante.
@@ -6344,6 +6381,7 @@ Un del punctos de referentia del citate es le cinctura de muralias.
 Un del qualitates de aciero es duressa.
 Un description complete de ille ha essite circulate in omne jornal.
 Un die le judicio venira pesar tu karma in le balancia de maat.
+Un die, Natsume Soseki esseva perdite in London.
 Un drone chassator equipate con plure missiles de cruciera se levava.
 Un ericio colligeva folios brun.
 Un es rubie, un altere es blanc, e le resto es jalne.
@@ -6424,6 +6462,7 @@ Usa tu post-barba?
 Usar blocatores de script es generalmente bon, ma le usator debe apprender un poco.
 Usque a ora, ille ha essite extrememente felice.
 Usque al presente io ha legite tres obras de Shakespeare.
+Usque quando nos habera le patientia de attender.
 Va a attender in le auto.
 Va a casa. Reposa te un poco.
 Va a cercar Tom.
@@ -6499,6 +6538,7 @@ Vole tu que io te conta lo que ha realmente evenite?
 Vole tu un labor?
 Vole tu un passage?
 Volerea tu venir a mi festa de plagia iste vespere?
+Volerea tu, per favor, trainar nostre equipa?
 Volleyball es quasi equalmente popular in ambe generes.
 Vos ama spectar aves.
 Vos ambulava.
