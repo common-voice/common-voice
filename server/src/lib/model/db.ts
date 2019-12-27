@@ -293,7 +293,7 @@ export default class DB {
               COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes
             FROM clips
             LEFT JOIN votes ON clips.id = votes.clip_id
-            WHERE clips.id = ?
+            WHERE clips.id = ${id}
             GROUP BY clips.id
           ) counts
         ) t ON updated_clips.id = t.id
@@ -305,9 +305,8 @@ export default class DB {
               updated_clips.validated_at            -- …otherwise, leave it the same.
             ),
             updated_clips.is_valid = t.is_valid
-        WHERE updated_clips.id = ?
-      `,
-      [id, id]
+        WHERE updated_clips.id = ${id}
+      `
     );
   }
 
