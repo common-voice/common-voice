@@ -95,11 +95,7 @@ export default function ProgressCard({
           ) : (
             !customGoal && (
               <Localized id="create-custom-goal">
-                <LinkButton
-                  className="custom-goal-button"
-                  rounded
-                  to={goalsPath}
-                />
+                <LinkButton rounded to={goalsPath} />
               </Localized>
             )
           )}

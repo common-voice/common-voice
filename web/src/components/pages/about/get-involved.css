@@ -98,6 +98,9 @@
             justify-content: center;
             z-index: var(--middle-z-index);
             position: relative;
+            p {
+                max-width: 400px;
+            }
         }
 
         & .line {
