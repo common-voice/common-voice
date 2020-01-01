@@ -8,8 +8,11 @@ email-input =
     .label = 이메일
 submit-form-action = 보내기
 loading = 로딩중…
+email-opt-in-info = 개인 목표 리마인더, 진행상황 알림, Common Voice 뉴스레터와 같은 이메일을 받고 싶습니다.
+email-opt-in-info-title = Common Voice 메일링 리스트 가입
 email-opt-in-privacy = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
+not-available-abbreviation = 해당 없음
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -24,9 +27,12 @@ af = 아프리칸스어
 am = 암하라어
 an = 아라곤어
 ar = 아랍어
+arn = 마푸체어
 as = 아삼어
 ast = 아스투리아스어
 az = 아제르바이잔어
+ba = 바시키르어
+be = 벨로루시어
 bg = 불가리아어
 bn = 벵골어
 br = 브르타뉴어
@@ -48,13 +54,16 @@ es = 스페인어
 et = 에스토니아어
 eu = 바스크어
 fa = 페르시아어
+ff = 풀라어
 fi = 핀란드어
 fo = 페로어
 fr = 프랑스어
 fy-NL = 프리지아어
 ga-IE = 아일랜드어
 gl = 갈리시아어
+ha = 하우사어
 he = 히브리어
+hi-IN = 힌디어
 hr = 크로아티아어
 hsb = 고지 소르브어
 hu = 헝가리어
@@ -65,15 +74,20 @@ it = 이탈리아어
 ja = 일본어
 ka = 그루지아어
 kab = 커바일어
+kbd = 카바르다어
 kk = 카자흐스탄어
 ko = 한국어
 kpv = 코미지리안어
+ku = 쿠르드어
 kw = 콘월어
 ky = 키르기스스탄어
+lij = 리구리아어
 lt = 리투아니아어
 lv = 라트비아어
 mdf = 목샤어
+mg = 말라가시어
 mk = 마케도니아어
+ml = 말라얄람어
 mn = 몽골어
 myv = 에르자어
 nb-NO = 노르웨이어 보크몰
@@ -82,21 +96,26 @@ nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
 oc = 오크어
 or = 오리야어
+pa-IN = 펀자브어
 pl = 폴란드어
-pt-BR = 포르투갈어(브라질)
+pt = 포르투갈어
 rm-sursilv = 로만슈 수르실반어
 ro = 루마니아어
 ru = 러시아어
 rw = 키냐르완다어
 sah = 사하어
 sc = 사르데냐어
+si = 싱할라어
 sk = 슬로바키아어
 sl = 슬로베니아어
 sq = 알바니아어
 sr = 세르비아어
 sv-SE = 스웨덴어
+sw = 스와힐리어
+syr = 시리아어
 ta = 타밀어
 te = 텔루구어
+tg = 타지크어
 th = 태국어
 tr = 터키어
 tt = 타타르어
@@ -180,7 +199,6 @@ x-years-short =
        *[other] { $count }년
     }
 help-make-dataset = 고품질의 공개 데이터 세트를 만드는 일을 도와주세요.
-profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
 sign-up-account = 새 계정 생성
 email-subscription-title = 이메일 업데이트 수신 등록
 
@@ -282,6 +300,7 @@ thanks-for-account = 계정을 확인해 주셔서 감사 드리며 이제 프�
 why-demographic = 왜 이 문제가 중요합니까?
 why-demographic-explanation = 연령, 성별, 억양과 같은 익명 사용자 데이터는 음성 인식 엔진의 정확성을 교육하는 데 사용되는 오디오 데이터를 개선하는 데 도움이 됩니다. 사용자 이름과 이메일은 제출된 데이터와 연결되지 않으며 사용자 이름을 공개할지 익명으로 할지 선택할 수 있습니다.
 accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
+accept-privacy-title = 개인 정보 보호 정책
 login-identity = 로그인 정보
 login-signup = 로그인 / 회원가입
 edit = 수정
@@ -293,13 +312,22 @@ skip-submission-description = '제출'을 클릭하면 기여 제출 피드백�
 skip-submission-note = 참고: Speak(말하기) 또는 Listen(듣기) 중 하나를 선택해야 합니다.
 off = 꺼짐
 on = 켜짐
-add-avatar-title = 프로필에 아바타 추가
+change-your-avatar-clip = 음성 클립을 변경하시겠습니까?
+recording-in-progress = 음성 녹음 중
+retry-voice-wave-recording = 다시 시도
+re-record = 다시 녹음
+delete-voice = 삭제
+recording-voice-wave = 녹음 중
+delete-voice-clip = 또는  음성 클립 삭제
+ready-to-upload = 업로드
+cancel-avatar-clip-recording = 취소
 browse-file-title = 이미지 파일 업로드
 browse-file = 끌어 놓기 또는 <browseWrap>둘러보기</browseWrap>
 connect-gravatar = Gravatar에 연결하기
 gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
 file_too_large = 선택한 파일이 너무 큽니다.
 manage-subscriptions = 구독 관리
+manage-email-subscriptions = 이메일 구독 관리
 email-already-used = 다른 계정에 이미 이메일이 사용되었습니다.
 add-language = 언어 추가
 change-email-setings = 로그인 후 설정 페이지에서 이메일을 변경하십시오.
@@ -311,7 +339,6 @@ faq-what-cv-q = Common Voice 란 무엇인가요?
 faq-why-important-q = 이것이 왜 중요할까요?
 faq-how-get-q = Common Voice 데이터는 어떻게 얻을 수 있습니까?
 faq-how-get-a = Common Voice 데이터세트는 <licenseLink>CC0</licenseLink> 라이선스 하에 <datasetLink>데이터세트 페이지</datasetLink>에서 다운로드 하실 수 있습니다. 또한 공개된 다른 몇몇 데이터 세트도 같은 페이지에서 다운로드 가능합니다.
-faq-when-release-q = 다른 언어의 Common Voice 데이터세트는 언제 출시 되나요?
 faq-why-mission-q = Mozilla에서는 Common Voice를 왜 수행하게 되었나요?
 faq-what-cv-and-deepspeech-q = Common Voice와 Deep Speech의 차이는 무엇입니까?
 faq-is-goal-assistant-q = 보이스 어시스턴스를 만드는 것이 Common Voice의 목적인가요?
@@ -373,7 +400,7 @@ review-cancel = 제출 취소
 review-keep-recordings = 녹음 유지
 review-delete-recordings = 내 녹음 삭제
 
-## New Datasets Page
+## Datasets Page
 
 language = 언어
 # File size in gigabytes
@@ -384,6 +411,8 @@ number-of-voices = 음성 갯수
 splits = 분리
 email-to-download = 다운로드 하기 위한 이메일을 입력하십시오.
 confirm-size = <b>{ $size }</b>의 다운로드를 시작할 준비가 되었습니다.
+size-gigabyte = GB
+size-megabyte = MB
 confirm-no-identify = Common Voice 데이터세트의 녹음기부자의 신원을 밝히려는 시도를 하지 않는데에 <b>동의</b>합니다.
 download-language = { $language } 다운로드
 validated-hours = 검증된 분량
@@ -405,6 +434,7 @@ ready-to-validate = 문장 검증에 기여하실 준비가 되셨습니까?
 more = 더보기
 close = 닫기
 download = 다운로드
+dataset-version = 버전
 
 ## Download Modal
 
@@ -442,7 +472,6 @@ language-section-in-progress-new-description = 이 언어들은 현재 커뮤니
 language-section-launched = 출시됨
 languages-show-more = 더 보기
 languages-show-less = 접기
-language-speakers = 말한 사람
 language-meter-in-progress = 진행
 language-total-progress = 총
 language-search-input =
@@ -452,7 +481,7 @@ localized = 지역화된
 sentences = 문장
 total-hours = 전체 시간
 
-## New Contribution
+## Contribution
 
 action-click = 클릭
 action-tap = 탭
@@ -484,7 +513,6 @@ record-again-instruction = 잘하셨습니다! <recordIcon></recordIcon> 다음 
 record-again-instruction2 = 계속하세요, <recordIcon></recordIcon> 다시 녹음하세요
 record-last-instruction = <recordIcon></recordIcon> 마지막입니다!
 review-tooltip = 진행하면서 여기서 클립을 검토하고 재녹음 하세요
-unable-speak = 현재 말할 수 없습니까?
 review-instruction = 필요한 경우 클립을 검토하고 재녹음 하세요
 record-submit-tooltip = { $actionType } 준비가 되면 제출
 clips-uploaded = 클립 업로드됨
@@ -500,6 +528,9 @@ listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
 nothing-to-validate = 해당 언어에 더 이상 검증할 목소리가 없습니다. 새로운 목소리를 추가해 주세요.
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
+
+## Reporting
+
 
 ## Goals
 
@@ -534,8 +565,15 @@ validated-clips = 검증된 클립
 total-approved = 승인 전체
 overall-accuracy = 종합적 정확도
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = 유지
 keep-info = 당신의 익명화된 음성 녹음은 Common Voice 데이터세트에 남아있습니다. 프로필이 삭제되면 더이상 개인 레코딩 파일을 데이터 세트에서 삭제해달라는 요청을 하실수가 없습니다.
 profile-form-delete = 프로필 지우기
+
+## Landing
+
+profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
