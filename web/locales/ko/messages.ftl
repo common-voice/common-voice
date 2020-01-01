@@ -346,15 +346,25 @@ faq-do-want-native-q = 모국어가 아니고 억양이 있는데도 목소리 �
 faq-why-different-speakers-q = 언어별로 왜 수많고 다양한 목소리 기부자가 필요한가요?
 faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
 faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
-faq-why-10k-hours-q = 왜 언어별로 수집되어야 할 오디오의 유효한 길이가 10,000 시간인가요?
+faq-why-10k-hours-q = 왜 언어별로 수집되어야 할 오디오의 길이가 10,000 유효 시간인가요?
+faq-why-10k-hours-a = 이는 상용 음성 텍스트 시스템을 교육하는 데 필요한 대략적인 시간입니다.
 faq-how-calc-hours-q = Common Voice는 녹음된 시간을 어떻게 계산하나요?
+faq-how-calc-hours-a = 각 녹음의 평균 길이를 모든 언어의 녹음 총 수를 곱하여 시간을 계산합니다.
 faq-where-src-from-2-q = 원본 글의 출처는 어디인가요?
+faq-where-src-from-2-a =
+    원본 텍스트는 <italic>멋진 인생(It’s a Wonderful Life)</italic>과 같은 퍼블릭 도메인 영화 대본과 기여자가 기부한 창작 문장으로 구성됩니다.
+    
+    이 <githubLink>GitHub 폴더</githubLink>에서 원본 문장을 보실 수 있습니다.
+faq-why-not-ask-read-q = 사람들에게 다른 언어로 된 책이나 위키피디아 기사를 읽도록 요청하지 않는 이유는 무엇입니까?
 faq-why-account-q = 계정을 왜 만들어야 하나요?
 faq-is-account-public-q = 나의 계정 정보는 공개됩니까?
 faq-how-privacy-q = 기부된 음성의 익명성과 개인정보는 어떻게 보장되나요?
 
 ## ABOUT US
 
+about-listen = 듣기
+about-is-it-valid = 클립이 유효합니까?
+about-get-involved = 참여하기
 
 ## Glossary
 
