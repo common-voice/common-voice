@@ -567,10 +567,31 @@ overall-accuracy = 종합적 정확도
 
 ## Custom Goals
 
+want-to-continue = 계속 하시겠습니까?
+finish-editing = 먼저 편집을 완료 하시겠습니까?
+lose-changes-warning = 지금 떠나면 변경 사항을 잃게됩니다.
+build-custom-goal = 맞춤 목표를 만들기
+set-a-goal = 목표를 설정하기
+cant-decide = 결정할 수 없습니까?
+how-many-per-day = 좋습니다! 하루에 몇 개의 클립을 하시겠습니까?
+how-many-a-week = 좋습니다! 일주일에 몇 개의 클립을 하시겠습니까?
+which-goal-type = 말하기, 듣기 또는 둘 다를 원하십니까?
+n-clips = { NUMBER($count) }개의 클립
+confirm-goal = 목표 확인
+goal-interval-weekly = 주간
+share-goal-type-speak = 말하기
+share-goal-type-listen = 듣기
+share-goal-type-both = 말하기와 듣기
+weekly-goal-created = 주간 목표가 생성되었습니다
+daily-goal-created = 일일 목표가 생성되었습니다
+track-progress = 여기와 통계 페이지에서 진행 상황을 추적하세요.
+return-to-edit-goal = 언제든지 목표를 수정하려면 여기로 돌아 오십시오.
+share-goal = 내 목표 공유
 
 ## Profile Delete
 
 keep = 유지
+remove = 삭제
 keep-info = 당신의 익명화된 음성 녹음은 Common Voice 데이터세트에 남아있습니다. 프로필이 삭제되면 더이상 개인 레코딩 파일을 데이터 세트에서 삭제해달라는 요청을 하실수가 없습니다.
 profile-form-delete = 프로필 지우기
 
