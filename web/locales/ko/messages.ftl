@@ -359,9 +359,18 @@ faq-why-not-ask-read-q = 사람들에게 다른 언어로 된 책이나 위키�
 faq-why-account-q = 계정을 왜 만들어야 하나요?
 faq-is-account-public-q = 나의 계정 정보는 공개됩니까?
 faq-how-privacy-q = 기부된 음성의 익명성과 개인정보는 어떻게 보장되나요?
+faq-what-determine-identity-q = Common Voice 데이터 세트에서 목소리 기부자의 “신원을 확인” 할 수 없다는 것은 무엇을 의미합니까?
+faq-what-is-cv = Common Voice는 무엇입니까?
+faq-using-cv = Common Voice 사용법
+faq-description = Common Voice는 실제 사람들이 어떻게 말하는지를 기계들에게 가르치기 위한 Mozilla의 프로젝트 가운데 하나입니다.
+faq-search-for-answers =
+    .label = 답변 검색
 
 ## ABOUT US
 
+about-title = 왜 Common Voice 인가요?
+how-does-it-work-title = 어떻게 작동하나요?
+about-speak = 말하기
 about-listen = 듣기
 about-is-it-valid = 클립이 유효합니까?
 about-get-involved = 참여하기
