@@ -361,9 +361,14 @@ faq-what-cv-a =
     ¶
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
 faq-why-important-q = Kvifor er det viktig?
+faq-why-important-a =
+    Tale er ofte den mest naturlege måten vi kommuniserer med kvarandre, og taleteknologi gir oss den mulegheita på datamaskiner og portable einingar. Vi ønskjer å setje programvareutviklarar i stand til å byggje fantastiske talegjenkjenningsapplikasjonar, som sanntidsomsetting og stemmestyrte personlege assistentar. Men akkurat no er det meste av taledata som trengs for å byggje denne typen applikasjonar dyre og proprietære. Vi håper at Common Voice datamengda vil gi programvareutviklarar det dei treng for å lage nye ting og gjere taleteknologi tilgjengeleg på sitt eige språk.  ¶
+    ¶
+    For å gjere talegjenkjenning endå meir universelt tilgjengeleg, samlar vi taleklipp både i språk med stor utbreiing og også dei med færre brukarar som ofte ikkje er handtert av kommersielle talegjenkjenningsprodukt. Ved å publisere eit brei datamengd av stemmer sett vi utviklarar, gründarar og heile språksamfunn i stand til å sjølv fylle dette behovet.
 faq-how-get-q = Korleis kan eg få tak i Common Voice-data?
 faq-how-get-a = Common Voice-datamengda er tilgjengeleg for nedlasting under <licenseLink>CC0</licenseLink> lisens på  <datasetLink>vår side med datamengder</datasetLink>.  Du kan også laste ned fleire andre offentleg tilgjengelege datamengder frå same side.
 faq-when-release2-q = Når vert Common Voice-data sleppt på andra språk?
+faq-when-release2-a = Den fleirspråklege versjonen av datamengda Common Voice går for tida gjennom ei dugnadsbasert pakking og reingjering. Om du vil hjelpe oss med å bringe Common Voice til nye språk, kan du gå til <sentenceCollectorLink> Setningsinnsamlings-verktøy</sentenceCollectorLink> for å leggje til nye setningar i datamengda, og Mozilla <pontoonLink> Pontoon </pontoonLink> for å omsette sjølve nettstaden. Nye språk vert lagt til Common Voice for stemmebidrag når 5000 godkjende setningar er samla.
 faq-why-mission-q = Kvifor er Common Voice ein del av Mozillas oppdrag?
 faq-what-cv-and-deepspeech-q = Kva er skilnaden mellom Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice å bygge ein stemmestyrt digital assistent?
