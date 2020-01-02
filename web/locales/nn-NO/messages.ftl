@@ -406,6 +406,7 @@ faq-search-for-answers =
 about-title = Kvifor Common Voice?
 about-subtitle = Common Voice er ein del av Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar. I tillegg til Common Voice-datamengda byggjer vi òg ein talegjenkjenningsmotor med open kjeldekode som heiter Deep Speech.
 how-does-it-work-title = Korleis fungerer det?
+how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) ei open datamengd av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datamengda betre for alle.
 about-speak = Tal
 about-speak-text = Bidragsytarar spelar inn stemmeklipp ved å lese inn frå ei samling bidregne setningar.
 about-listen-queue = Lyttekø
@@ -691,6 +692,7 @@ total-approved = Godkjende i alt
 overall-accuracy = Nøyaktigheit jamt over
 set-visibility = Still inn kor synleg eg er
 visibility-explainer = Denne innstillinga kontrollerer kor synleg du er på topplista. Når du er gøymt, vil progresjonen din vere privat. Dette tyder at bildet, brukarnamnet og progresjonen ikkje vert vist på topplista. Legg merke til at oppdatering av topplista tar ~ { $minutes } minutt.
+visibility-overlay-note = Merk: Når den er innstilt på «Synleg», kan denne innstillinga endrast frå <profileLink>Profilsida</profileLink>
 show-ranking = Vis rangeringa mi
 
 ## Custom Goals
@@ -732,6 +734,8 @@ confirm-goal = Stadfest mål
 goal-interval-weekly = Kvar veke
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Del det daglege målet ditt med { $count } klipp for { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Del vekemålet med { $count } klipp for { $type }
 share-goal-type-speak = Snakke
 share-goal-type-listen = Lytte
 share-goal-type-both = Snakke og lytte
