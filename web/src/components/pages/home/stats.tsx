@@ -74,11 +74,12 @@ export namespace ClipsStats {
   const TICK_COUNT = 7;
   const CIRCLE_RADIUS = 8;
 
-  function formatSeconds(totalSeconds: number) {
+  function formatSeconds(totalSeconds: number, precise: boolean = false) {
     const seconds = totalSeconds % 60;
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const hours = Math.floor(totalSeconds / 3600);
 
+    if (precise) return `${hours.toLocaleString()}h`;
     if (hours >= 1000) {
       return (hours / 1000).toPrecision(2) + 'k';
     }
@@ -100,8 +101,8 @@ export namespace ClipsStats {
     return timeParts.join(' ') || '0';
   }
 
-  const MetricValue = ({ attribute, children }: any) => (
-    <div className={'metric-value ' + attribute}>
+  const MetricValue = ({ attribute, title, children }: any) => (
+    <div className={'metric-value ' + attribute} title={title}>
       <div className="point">●</div>
       {children}
     </div>
@@ -120,7 +121,13 @@ export namespace ClipsStats {
       <Localized id={labelId}>
         <div className="label" />
       </Localized>
-      <MetricValue attribute={attribute}>
+      <MetricValue
+        attribute={attribute}
+        title={
+          data.length > 0
+            ? formatSeconds(data[data.length - 1][attribute], true)
+            : ''
+        }>
         {data.length > 0
           ? formatSeconds(data[data.length - 1][attribute])
           : '?'}

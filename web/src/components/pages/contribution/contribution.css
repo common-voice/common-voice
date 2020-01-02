@@ -203,14 +203,9 @@
         }
 
         & svg {
-            display: none;
             margin: 0 10px 0 16px;
             width: 23px;
             height: 23px;
-
-            @media (--md-up) {
-                display: initial;
-            }
         }
     }
 
