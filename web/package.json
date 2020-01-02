@@ -7,7 +7,6 @@
     "@types/lodash.memoize": "^4.1.6",
     "@types/lodash.pick": "^4.4.6",
     "@types/lodash.throttle": "^4.1.6",
-    "@types/react-content-loader": "^3.1.4",
     "@types/react-dom": "^16.8.5",
     "@types/react-lottie": "^1.2.2",
     "@types/react-modal": "^3.8.2",
