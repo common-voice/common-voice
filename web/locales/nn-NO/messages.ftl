@@ -378,6 +378,7 @@ faq-is-goal-assistant-a = Formålet med Common Voice datamengda er å gjere det 
 faq-do-want-native-q = Dette er ikkje morsmålet mitt, og eg snakkar med aksent, er de framleis interessert i stemma mi?
 faq-do-want-native-a = Ja! Vi vil særskilt ha stemma di! Eit delmål med Common Voice er å samle så mange ulike aksentar som muleg, slik at stemmegjenkjenningstenester verkar like godt for alle. Det tyder at bidrag frå ikkje-morsmålstalarar er spesielt viktige.
 faq-why-different-speakers-q = Kvifor treng de så mange ulike talarar pr. språk?
+faq-why-different-speakers-a = Dei fleste stemmedatabasar vert trena med ei overvekt av visse demografiar, noko som inneber vekting mot <articleLink> menn og middelklasse</articleLink>.  Aksentar og dialektar som tenderer til å vere underrepresentert i datamengda som vert brukt til trening er typisk assosiert med grupper av menneske som allereie er underrepresenterte ellers i samfunnet. Mange talegjenkjenningsmotorar slit også med å forstå kvinnelege stemmer. Derfor treng vi stor variasjon i datamengda!
 faq-why-my-lang-q = Kvifor er ikkje språket mitt inkludert enno?
 faq-what-quality-q = Kva slags lydkvalitet er påkravd for at eit lydklipp kan brukast i datamengda?
 faq-why-10k-hours-q = Kvifor er 10000 validerte timar pr. språk målet for innspelt lyd?
