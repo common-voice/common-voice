@@ -28,6 +28,7 @@ export type CommonVoiceConfig = {
   IMPORT_SENTENCES: boolean;
   REDIS_URL: string;
   KIBANA_URL: string;
+  KIBANA_PREFIX: string;
   KIBANA_ADMINS: string;
   LAST_DATASET: string;
 };
@@ -61,6 +62,7 @@ const DEFAULTS: CommonVoiceConfig = {
   IMPORT_SENTENCES: true,
   REDIS_URL: null,
   KIBANA_URL: null,
+  KIBANA_PREFIX: '/_plugin/kibana',
   KIBANA_ADMINS: null,
   LAST_DATASET: '2019-06-12',
 };

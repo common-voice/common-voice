@@ -30,6 +30,7 @@ const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
 const RELEASE_VERSION = getConfig().RELEASE_VERSION;
 const ENVIRONMENT = getConfig().ENVIRONMENT;
 const PROD = getConfig().PROD;
+const KIBANA_PREFIX = getConfig().KIBANA_PREFIX;
 const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
 
 const CSP_HEADER = [
@@ -89,7 +90,7 @@ export default class Server {
     });
 
     app.use(authRouter);
-    app.use('/_plugin/kibana', authMiddleware, (request, response, next) => {
+    app.use(KIBANA_PREFIX, authMiddleware, (request, response, next) => {
       const { KIBANA_URL: target, KIBANA_ADMINS } = getConfig();
       if (!target) {
         response
