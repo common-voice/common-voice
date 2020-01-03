@@ -100,7 +100,7 @@ let LocalizedPage: any = class extends React.Component<
     this.props.refreshUser();
   }
 
-  async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
+  async UNSAFE_componentWillReceiveProps(nextProps: LocalizedPagesProps) {
     const { account, addNotification, api, uploads, userLocales } = nextProps;
 
     this.runUploads(uploads).catch(e => console.error(e));
