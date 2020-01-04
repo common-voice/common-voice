@@ -15,6 +15,7 @@ indicates-required = * indica un camp obligatòri
 
 ## Languages
 
+ab = Abcaz
 af = Afrikaans
 an = Aragonés
 ar = Arabi
@@ -65,6 +66,7 @@ kk = Cazac
 ko = Corean
 ku = Curd
 kw = Cornic
+lij = Ligur
 lv = Leton
 mg = Malgach
 mk = Macedonian
@@ -76,8 +78,10 @@ nn-NO = Norvegian Nynorsk
 oc = Occitan
 or = Odia
 pl = Polonés
+pt = Portugués
 ro = Romanés
 ru = Rus
+sc = Sarde
 sk = Eslovac
 sl = Eslovèn
 sq = Albanés
@@ -93,6 +97,7 @@ uk = Ucraïnian
 ur = Ordo
 uz = Uzbec
 vi = Vietnamian
+vot = Vòt
 zh-CN = Mandarin (China)
 zh-HK = Mandarin (Hong Kong)
 zh-TW = Mandarin (Taiwan)
@@ -123,6 +128,7 @@ logout = Desconnexion
 
 ## Home Page
 
+home-title = Lo projècte Common Voice es l'iniciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas de vertat.
 home-cta = Parlatz fòrt, contribuissètz aquí !
 show-wall-of-text = Legir la seguida
 help-us-title = Ajudatz-nos a validar las frasas !
@@ -238,14 +244,19 @@ add-language = Ajustar una lenga
 
 ## FAQ
 
+faq-title = Fèira de las questions
 faq-what-cv-q = Qué es lo Common Voice ?
 faq-how-get-q = Cossí pòdi obténer las donadas de Common Voice ?
 
 ## ABOUT US
 
+how-does-it-work-title = Cossí fonciona ?
+about-speak = Parlar
+about-listen = Escotar
 
 ## Glossary
 
+glossary = Glossari
 
 ## NotFound
 
