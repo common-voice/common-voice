@@ -247,6 +247,7 @@ class ContributionPage extends React.Component<Props, State> {
       event.ctrlKey ||
       event.altKey ||
       event.shiftKey ||
+      event.metaKey ||
       this.state.showReportModal
     ) {
       return;
