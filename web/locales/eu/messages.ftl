@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Bidali
 loading = Kargatzen…
 email-opt-in-info = Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren eguneraketak eta buletinak jaso nahi ditut posta elektroniko bidez.
+email-opt-in-info-title = Batu Common Voice posta-zerrendara
 email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
 email-opt-in-privacy = E-postak jaso nahi dituzula adieraziz, Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
@@ -331,6 +332,7 @@ avatar-clip-recorded = Zure abatarrak orain ahots-klipa du!
 retry-voice-wave-recording = SAIATU BERRIRO
 re-record = GRABATU BERRIRO
 delete-voice = EZABATU
+recording-voice-wave = Grabazioa
 ready-to-upload = IGO
 cancel-avatar-clip-recording = Utzi
 browse-file-title = Igo irudi-fitxategi bat
@@ -614,6 +616,7 @@ listen-last-time-instruction = <playIcon></playIcon> Azkena!
 nothing-to-validate = Ez daukagu ezer balioztatzeko hizkuntza honetan, lagun gaitzazu ilara betetzen.
 record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
+login-to-get-started = Hasteko, hasi saioa edo eman izena
 
 ## Reporting
 
