@@ -185,11 +185,8 @@
     }
 
     & .instruction {
-        display: flex;
         margin-top: 23px;
         min-height: 23px;
-        justify-content: center;
-        align-items: center;
         font-style: italic;
         color: var(--near-black);
 
