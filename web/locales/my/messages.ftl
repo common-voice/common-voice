@@ -79,15 +79,48 @@ sv-SE = ဆွီဒင်
 sw = ဆွာဟီလီ
 ta = တမီးလ်
 te = တယ်လုဂု
+th = ထိုင်း
+tr = တူရကီ
+uk = ယူကရိန်း
+ur = အူရဒူ
+vi = ဗီယက်နမ်
+zh-CN = တရုတ် (တရုတ်)
+zh-HK = တရုတ် (ဟောင်ကောင်)
+zh-TW = တရုတ် (တိုင်ဝမ်)
 
 # [/]
 
 
 ## Layout
 
+speak = ပြောပါ
+speak-now = ယခု ပြောပါ
+datasets = ဒေတာအစုများ
+languages = ဘာသာစကားများ
+about = အကြောင်း
+profile = ကိုယ်ရေးအကျဉ်း
+help = အကူအညီ
+contact = ဆက်သွယ်ရန်
+privacy = ကိုယ်ရေးလုံခြုံမှု
+terms = စည်းမျဉ်းများ
+cookies = ကွတ်ကီးများ
+faq = အမေးအဖြေ
+content-license-text = ယခုအချက်အလက်များကို <licenseLink>Creative Commons လိုင်စင်</licenseLink>အောက်တွင် အသုံးပြုနိုင်ပါသည်။
+share-title = အခြားသူများ၏ အသံကို လှူဒါန်းစေရန် ကျွန်ုပ်တို့ကို ကူညီပါ။
+share-text = လူတွေ မည်သို့အသံထွက်သည် ပြောသည်ဆိုတာ စက်များကို သင်ပေးပါ၊ သင့်အသံကို { $link } တွင် လှူဒါန်းကူညီပါ
+link-copied = လင့်ခ်ကို ကူယူပြီး
+back-top = အပေါ်သို့ ပြန်သွားရန်
+logout = ထွက်ရန်
 
 ## Home Page
 
+home-title = Common Voice သည် လူအများ မည်သို့ ပြောဆိုသည်ဆိုတာ စက်များကို သင်ပေးရာတွင် ကူညီရန် Mozilla ၏ စတင်ဆောင်ရွက်မှုတစ်ခု ဖြစ်သည်။
+home-cta = စကားပြောပါ၊ ဒီမှာ ပါဝင်ကူညီပါ။
+show-wall-of-text = ပိုမိုဖတ်ရှုရန်
+vote-yes = ဟုတ်ကဲ့
+vote-no = မဟုတ်ပါ
+toggle-play-tooltip = ဖွင့်/ရပ် ပြုလုပ်ရန် { shortcut-play-toggle } ကို နှိပ်ပါ။
+speak-subtitle = သင့်အသံကို လှူဒါန်းပါ
 
 ## Account Benefits
 
