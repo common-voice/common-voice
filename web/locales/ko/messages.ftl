@@ -386,7 +386,22 @@ how-does-it-work-title = 어떻게 작동하나요?
 about-speak = 말하기
 about-listen = 듣기
 about-is-it-valid = 클립이 유효합니까?
+about-yes-votes = ≥ 2 찬성표
+about-no-votes = ≥ 2 반대표
+about-dataset-new = Common Voice 데이터 세트
+about-partners = 파트너
+about-become-a-partner = 파트너 되기
 about-get-involved = 참여하기
+about-nav-why-common-voice = 왜?
+about-nav-how-it-works = 어떻게?
+about-nav-partners = 파트너
+about-nav-get-involved = 참여하기
+mycroft-title = Mycroft Ai
+mycroft-subtitle = 인공 지능
+mycroft-description =
+    Mycroft는 세계 최초의 오픈 소스 도우미입니다.
+    Mycroft는 데스크탑 컴퓨터, 자동차 내부 또는 라스베리 파이 - 어디서나 작동합니다.
+mycroft-secondary-description = 이것은 오픈소스 소프트웨어이기 때문에 자유롭게 개작하거나 확장, 개선해도 됩니다. Mycroft는 엔터프라이즈 소프트웨이어에서 과학 프로젝트까지 모든 용도로 사용될 수 있습니다.
 
 ## Glossary
 
@@ -394,6 +409,8 @@ glossary = 용어
 localization = 지역화
 localization-explanation = 이것은 여러 지역(언어)의 컨텐츠를 번역하고 적용하기 위한 프로세스입니다.
 sentence-collection = 문장 모음
+sentence-collection-explanation = 공개 도메인에서 문장을 모으거나 공개 도메인으로 새 문장을 작성합니다.
+hours-recorded-explanation = 지금까지 모은 음성 녹음 시간입니다.
 sst = 음성 문자 변환(STT)
 sst-explanation = 음성 문자 변환(STT) 기술은 음성 데이터를 문자로 변환합니다.
 de-identified = 개인정보가 제거된
@@ -437,6 +454,8 @@ review-delete-recordings = 내 녹음 삭제
 language = 언어
 # File size in gigabytes
 size = 크기
+validated-hr-total = 검증된 시간 합계
+overall-hr-total = 전체 시간 합계
 cv-license = 라이선스
 audio-format = 오디오 포멧
 number-of-voices = 음성 갯수
@@ -629,4 +648,6 @@ profile-form-delete = 프로필 지우기
 
 ## Landing
 
+login-company = { $company } 이메일로 로그인/가입
 profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
+read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
