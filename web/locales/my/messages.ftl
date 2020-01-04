@@ -8,7 +8,10 @@ email-input =
     .label = အီးမေးလ်
 submit-form-action = တင်သွင်းရန်
 loading = ဆောင်ရွက်နေသည်…
+email-opt-in-info = ရည်မှန်းချက်ဆိုင်ရာ အသိပေးချက်များ၊ တိုးတက်မှုအခြေအနေများနှင့် Common Voice နှင့် ပတ်သက်သည့် သတင်းလွှာများ စသည့် အီးမေးလ်များ ရယူလိုပါသည်။
 email-opt-in-info-title = Common Voice mailing list တွင် ပါဝင်ပါ
+email-opt-in-info-sub-with-challenge = စိန်ခေါ်မှုနှင့် ရည်မှန်းချက်ဆိုင်ရာ အသိပေးချက်များ၊ နောက်ဆုံးရ တိုးတက်မှုအခြေအနေနှင့် Common Voice နှင့်ပတ်သက်သည့် သတင်းလွှာများ ရယူရန်။
+email-opt-in-privacy = အီးမေးလ်များကို လက်ခံရရှိရန် ရွေးချယ်ခြင်းအားဖြင့် Mozilla ၏ <privacyLink>ကိုယ်ရေးကာကွယ်မှု မူဝါဒ<privacyLink> တွင် ရှင်းပြထားသည့်အတိုင်း Mozilla က ဤအချက်အလက်ကို ကိုင်တွယ်ခြင်းနှင့်ပတ်သက်၍ သင်သည် အဆင်ပြေလက်ခံသည်ဟု ဖော်ပြသည်။
 indicates-required = * သင်္ကေတသည် ရေးဖြည့်ပေးရန် လိုအပ်ကြောင်း ဖော်ပြချက်
 not-available-abbreviation = မရနိုင်သေးပါ
 
@@ -19,6 +22,9 @@ not-available-abbreviation = မရနိုင်သေးပါ
 ## Languages
 
 ab = Abkhaz
+el = ဂရိ
+en = အင်္ဂလိပ်
+es = စပိန်
 
 # [/]
 
