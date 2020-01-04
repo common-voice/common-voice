@@ -6,6 +6,7 @@ email-input =
     .label = Adreça electronica
 submit-form-action = Mandar
 loading = Cargament…
+email-opt-in-info-title = Rejonhètz l'infoletra Common Voice
 indicates-required = * indica un camp obligatòri
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -62,6 +63,7 @@ ka = Georgian
 kab = Cabil
 kk = Cazac
 ko = Corean
+ku = Curd
 kw = Cornic
 lv = Leton
 mg = Malgach
@@ -236,6 +238,8 @@ add-language = Ajustar una lenga
 
 ## FAQ
 
+faq-what-cv-q = Qué es lo Common Voice ?
+faq-how-get-q = Cossí pòdi obténer las donadas de Common Voice ?
 
 ## ABOUT US
 
