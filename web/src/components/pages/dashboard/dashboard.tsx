@@ -262,7 +262,9 @@ export default function Dashboard() {
   if (isChallengeEnrolled) {
     // @ts-ignore
     pages.unshift({ subPath: URLS.CHALLENGE, Page: ChallengePage });
-    defaultPage = URLS.CHALLENGE;
+    if (isChallengeLive(pilotDates)) {
+      defaultPage = URLS.CHALLENGE;
+    }
   }
 
   useEffect(() => {
