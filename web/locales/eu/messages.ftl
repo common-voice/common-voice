@@ -8,6 +8,8 @@ email-input =
     .label = E-posta
 submit-form-action = Bidali
 loading = Kargatzen…
+email-opt-in-info = Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren eguneraketak eta buletinak jaso nahi ditut posta elektroniko bidez.
+email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
 email-opt-in-privacy = E-postak jaso nahi dituzula adieraziz, Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
@@ -25,10 +27,12 @@ af = Afrikaansa
 am = Amharera
 an = Aragoiera
 ar = Arabiera
+arn = Maputxea
 as = Assamera
 ast = Asturiera
 az = Azerbaijanera
 ba = Baxkirera
+be = Bielorrusiera
 bg = Bulgariera
 bn = Bengaliera
 br = Bretoiera
@@ -81,6 +85,7 @@ lij = Liguriera
 lt = Lituaniera
 lv = Letoniera
 mdf = Moksha
+mg = Malgaxera
 mhr = Larreetako mariera
 mk = Mazedoniera
 ml = Malabarera
@@ -94,9 +99,11 @@ nl = Nederlandera
 nn-NO = Nynorsk norvegiera
 oc = Okzitaniera
 or = Oriya
+pa-IN = Punjabera
 pl = Poloniera
 pt = Portugesa
 rm-sursilv = Sursilvana
+rm-vallader = Valladera (erromantxea)
 ro = Errumaniera
 ru = Errusiera
 rw = Kinyaruanda
@@ -200,6 +207,7 @@ x-years-short =
 help-make-dataset = Lagun gaitzazu kalitatezko datu-sorta ireki bat sortzen
 sign-up-account = Sortu kontu bat
 email-subscription-title = harpidetu newletterrera
+email-subscription-title-new = Eman izena Common Voice-ren buletin, helburuen abisu eta aurrerapenen eguneraketetara
 
 ## Account Benefits
 
@@ -302,7 +310,7 @@ profile-close = Itxi
 profile-explanation = Egin zure aurrerapenen jarraipena profil batekin eta lagundu ahots-datu zehatzagoak lortzen.
 thanks-for-account = Eskerrik asko zure kontua baieztatzeagatik, orain osatu zure profila.
 why-demographic = Zergatik da garrantzitsua hau?
-why-demographic-explanation = Adina, sexua eta azentua bezalako anonimizatutako datuek, hizketaren ezagutza motorren zehaztasuna hobetzen laguntzen dute hauek entrenatzeko audioen ezaugarriak osatzen dituztelako. Zure erabiltzaile-izena eta e-posta ez dira inoiz lotzen zuk bidalitako datuekin eta zure erabiltzaile-izena publikoa ala anonimoa izatea aukera dezakezu.
+why-demographic-explanation = Adina, sexua eta azentua bezalako datu anonimizatuek, hizketaren ezagutza-motorren zehaztasuna hobetzen laguntzen dute hauek entrenatzeko audioen ezaugarriak osatzen dituztelako. Zure erabiltzaile-izena eta helbide elektronikoa ez dira inoiz zuk bidalitako datuekin lotuko eta zure erabiltzaile-izena publikoa ala anonimoa izatea aukera dezakezu.
 accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan</privacyLink> azaltzen den bezala kudeatzea.
 accept-privacy-title = Pribatutasun-politika
 login-identity = Saioa hasteko identitatea
@@ -316,6 +324,10 @@ skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
+avatar-clip-title = Eman ahotsa zure abatarrari
+change-your-avatar-clip = Zure ahots-klipa aldatu nahi duzu?
+recording-in-progress = Ahotsa grabatzen ari da
+avatar-clip-recorded = Zure abatarrak orain ahots-klipa du!
 retry-voice-wave-recording = SAIATU BERRIRO
 re-record = GRABATU BERRIRO
 delete-voice = EZABATU
@@ -442,7 +454,7 @@ data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
-review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun oharpena</privacyLink> onartzen dituzu
+review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun-oharra</privacyLink> onartzen dituzu
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
 review-aborted = Igotzea bertan behera geratu da. Zure grabaketak ezabatu nahi al dituzu?
@@ -486,7 +498,7 @@ dataset-description-hours =
     Datu-sortako sarrera bakoitza MP3 bat eta dagokion testu fitxategi bat da. Datu-sortak dituen <b>{ $total }</b> orduetatik, askok datu demografikoak ere badituzte. Hizketaren ezagutza motorren zehaztasuna hobea izan daiteke trebatzeko garaian erabilitako ahotsen adina, sexua eta azentua jakinez gero.
     
     Datu-sortak orain baliozkotutako <b>{ $valid }</b> ordu ditu <b>{ $languages }</b> hizkuntzatan, baina beti gaude hizketaldi eta hizkuntza gehiago gehitzen. Bota begirada bat gure <languagesLink>Hizkuntzak orriari</languagesLink> berri bat eskatzeko edo laguntzen hasteko.
-want-dataset-update = Abisua jaso nahi duzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Harpidetu zaitez gure newsletterrera.
+want-dataset-update = Abisua jaso nahi duzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Harpide zaitez gure buletinera.
 subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
@@ -658,6 +670,12 @@ pro-difficulty = Profesionala
 want-to-continue = Jarraitu egin nahi duzu?
 finish-editing = Editatzea amaitu lehenengo?
 lose-changes-warning = Orain utziz gero zure aldaketak galduko dituzu
+receiving-emails-info =
+    Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren
+    eguneraketak eta buletinak posta elektroniko bidez jasotzeko aukera ezarrita duzu
+not-receiving-emails-info =
+    Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren
+    eguneraketak eta buletinak posta elektroniko bidez jasotzeko aukera <bold>EZ</bold> duzu ezarrita
 confirm-goal = Berretsi helburua
 share-goal = Partekatu nire helburua
 
