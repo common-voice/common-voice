@@ -355,12 +355,22 @@ validated-hours = Oras validadas
 recorded-hours = Oras enregistradas
 whats-inside = Qu’es dins lo jòc de donadas de Common Voice ?
 subscribe = S’abonar
+data-other-ted-name = Corpus TED-LIUM
 go-discourse = Anar al Discourse
+go-languages-page = Anar a la pagina de las lengas
+ready-to-validate = Prèst a nos ajudar a validar de frasas ?
+more = Mai
+close = Tampar
+download = Telecargar
 dataset-version = Version
 
 ## Download Modal
 
 download-title = Lo telecargament a començat
+download-form-email =
+    .label = Picatz vòstra adreça electronica
+    .value = Mercés, vos tenem al fial.
+download-back = Tornar als jòcs de donadas Common Voice
 download-no = Non mercés
 
 ## Contact Modal
@@ -377,14 +387,17 @@ contact-required = *requesit
 request-language-title = Demanda de lenga
 request-language-form-language =
     .label = Lenga
+request-language-success-title = Proposicion de lenga enviada, mercés.
 select-language = Seleccionatz una lenga...
 other-language = Autra lenga
 
 ## Languages Overview
 
 language-section-in-progress = En cors
+language-section-launched = Lançadas
 languages-show-more = Ne veire mai
 languages-show-less = Ne veire mens
+language-meter-in-progress = En cors
 language-total-progress = Total
 language-search-input =
     .placeholder = Recercar
@@ -401,12 +414,28 @@ contribute = Contribuir
 listen = Escotar
 skip = Passar
 shortcuts = Acorchis
+clips-with-count = <bold>{ $count }</bold> mòstras
+record-cta = Començar l’enregistrament
+record-platform-not-supported-ios = Los utilizaires <bold>iOS</bold> pòdon telecargar nòstra aplicacion gratuita :
+record-must-allow-microphone = Devètz permetre l’accès al microfòn.
 record-no-mic-found = Cap de microfòn pas trobat.
+record-error-too-short = L’enregistrament es tròp cort.
+record-error-too-long = L’enregistrament es tròp long.
+record-error-too-quiet = L’enregistrament es tròp feble.
+record-cancel = Anullar lo reeregistrament
+record-three-more-instruction = Ne demòran pas que 3 !
+record-abort-delete = Quitar e suprimir mos enregistraments
+listen-3rd-time-instruction = Encara 2, gardatz lo ritme !<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Lo darrièr !
+nothing-to-validate = Avèm pas res a validar dins aquesta lenga, ajudatz-nos a ajustar d’enregistraments dins la fila.
 record-button-label = Enregistrar vòstra votz
 share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
+keep-track-profile = Seguissètz vòstra progression en crear un perfil
+login-to-get-started = Connectatz-vos o marcatz-vos per començar
 
 ## Reporting
 
+report = Senhalar
 report-different-language = Autra lenga
 report-different-language-detail = La frasa es escricha en una lenga diferenta de la que parli
 report-difficult-pronounce = De mal prononciar
@@ -439,6 +468,22 @@ you = Vos
 
 ## Custom Goals
 
+get-started-goals = Creatz vòstres objectius
+create-custom-goal = Crear un objectiu personalizat
+both-speak-and-listen = Far los dos
+both-speak-and-listen-long = Los dos (parlar e escotar)
+daily-goal = Objectiu quotidian
+weekly-goal = Objectiu setmaniè
+easy-difficulty = Facil
+average-difficulty = Normal
+difficult-difficulty = Dificil
+pro-difficulty = Professional
+want-to-continue = Volètz contunhar ?
+build-custom-goal = Crear un objectiu personalizat
+set-a-goal = Definir un objectiu
+n-clips = { NUMBER($count) } mòstras
+confirm-goal = Confirmar l’objectiu
+goal-interval-weekly = Setmanièr
 
 ## Profile Delete
 
@@ -448,4 +493,6 @@ profile-form-delete = Suprimir lo perfil
 
 ## Landing
 
+login-company = Connexion / Inscripcion amb l’adreça electronica de { $company }
+profile-not-required = Es pas necessari de crear un perfil per contribuir, mas es util.
 read-more-about = Per ne saber mai anatz a la pagina A prepaus
