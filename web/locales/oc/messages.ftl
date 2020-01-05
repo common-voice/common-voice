@@ -249,33 +249,72 @@ skip-submission-feedback = Passar lo mandadís de comentaris
 off = Desactivat
 on = Activat
 avatar-clip-title = Donatz una votz a vòstre avatar
+change-your-avatar-clip = Volètz cambiar vòstra mòstra de votz ?
+recording-in-progress = Enregistrament de votz en cors
+avatar-clip-recorded = Vòstre avatar inclutz ara una mòstra de votz !
+record-voice-wave = ENREGISTRAR VÒSTRA PRESENTACION
 retry-voice-wave-recording = TORNAR FAR
+re-record = TORNAR ENREGISTRAR
 delete-voice = SUPRIMIR
+recording-voice-wave = Enregistrament
+delete-voice-clip = o Suprimir vòstra mòstra de votz
 ready-to-upload = ENVIAR
+recreate-voice = Tornar crear vòstra mòstra de votz
 cancel-avatar-clip-recording = ANULLAR
 browse-file-title = Enviar un imatge
 connect-gravatar = Connectatz-vos amb Gravatar
 gravatar_not_found = Cap de gravatar pas trobat per vòstra adreça electronica
 file_too_large = Lo fichièr seleccionat es tròp pesuc
 manage-subscriptions = Gerir las abonaments
+manage-email-subscriptions = Gerir los abonaments als corrièls
 email-already-used = Aquesta adreça electronica es ja utilizada per un autre compte
 add-language = Ajustar una lenga
+change-email-setings = Modificatz vòstra adreça de corrièl dins las Preferéncias, seccion « Identitat de connexion »
 
 ## FAQ
 
 faq-title = Fèira de las questions
 faq-what-cv-q = Qué es lo Common Voice ?
+faq-why-important-q = Perqué es important ?
 faq-how-get-q = Cossí pòdi obténer las donadas de Common Voice ?
+faq-when-release2-q = Quand publicaretz las donadas de Common Voince d’autras lengas ?
+faq-why-mission-q = Perque Common Voice es part de la mission de Mozilla ?
+faq-what-cv-and-deepspeech-q = Quina es la diferéncia entre Common Voice e Deep Speech ?
+faq-why-my-lang-q = Perque i a pas encara ma lenga ?
+faq-where-src-from-2-q = D’ont venon los tèxtes ?
+faq-why-account-q = Perque me cal crear un compte ?
+faq-is-account-public-q = Son publicas las informacions de mon compte ?
+faq-what-is-cv = Qu'es aquò Common Voice ?
+faq-using-cv = Utilizar Common Voice
+faq-description = Common Voice es part de l’inciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas en realitat.
+faq-search-for-answers =
+    .label = Cercar de responsas
 
 ## ABOUT US
 
+about-title = Perqué Common Voice ?
 how-does-it-work-title = Cossí fonciona ?
 about-speak = Parlar
+about-listen-queue = Fila d’escotat
 about-listen = Escotar
+about-dataset-new = Jòc de donadas de Common Voice
+about-partners = Sòcis
+about-become-a-partner = Venir sòci
+about-get-involved = Participar
+about-nav-why-common-voice = Perque ?
+about-nav-how-it-works = Cossí ?
+about-nav-get-involved = Participar
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelligéncia artificiala
 
 ## Glossary
 
 glossary = Glossari
+localization = Localizacion
+localization-explanation = Aquò s’agís de nòstre processús de traduccion e adaptacion del contengut en mantunas localas (lengas).
+sentence-collection = Collècta de frasas
+sentence-collection-explanation = Collectar de frasas del domeni public, o n’escriure de novèlas pel domeni public.
+hours-recorded-explanation = La quantitat d’oras d’enregistraments vocals qu’avèm collectats fins ara.
 
 ## NotFound
 
@@ -294,16 +333,27 @@ license = Licéncia : <licenseLink>{ $license }</licenseLink>
 terms-agree = Accepti
 terms-disagree = Accepti pas
 review-submit-title = Repassar e enviar
+review-submit-msg = Mercés pels vòstres enregistraments !<lineBreak></lineBreak>Podètz ara repassar vòstras mòstras de votz çai-jos.
 review-recording = Verificacion
+review-rerecord = Tornar enregistrar
+review-cancel = Anullar lo mandadís
+review-keep-recordings = Servar los enregistraments
+review-delete-recordings = Suprimir mos enregistraments
 
 ## Datasets Page
 
+language = Lenga
+# File size in gigabytes
+size = Talha
 cv-license = Licéncia
 audio-format = Format àudio
 number-of-voices = Nombre de voses
+size-gigabyte = Go
+size-megabyte = Mo
 download-language = Telecargar { $language }
 validated-hours = Oras validadas
 recorded-hours = Oras enregistradas
+whats-inside = Qu’es dins lo jòc de donadas de Common Voice ?
 subscribe = S’abonar
 go-discourse = Anar al Discourse
 dataset-version = Version
@@ -311,6 +361,7 @@ dataset-version = Version
 ## Download Modal
 
 download-title = Lo telecargament a començat
+download-no = Non mercés
 
 ## Contact Modal
 
