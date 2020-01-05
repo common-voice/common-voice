@@ -579,9 +579,28 @@ listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
 nothing-to-validate = 해당 언어에 더 이상 검증할 목소리가 없습니다. 새로운 목소리를 추가해 주세요.
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
+keep-track-profile = 프로필로 진행 상황을 추적
+login-to-get-started = 시작하려면 로그인 또는 가입을 하세요.
 
 ## Reporting
 
+report = 보고서
+report-title = 보고서 제출
+report-ask = 이 문장에 어떤 문제가 있습니까?
+report-offensive-language = 공격적인 언어
+report-grammar-or-spelling = 문법 / 철자 오류
+report-grammar-or-spelling-detail = 문장에 문법 또는 철자 오류가 있습니다.
+report-different-language = 다른 언어
+report-different-language-detail = 내가 사용하는 언어와 다른 언어로 작성되었습니다.
+report-difficult-pronounce = 발음 어려움
+report-difficult-pronounce-detail = 읽거나 발음이 어려운 단어나 문구가 포함되어 있습니다.
+report-offensive-speech = 공격적인 말
+report-offensive-speech-detail = 클립에 무례하거나 모욕적인 말이 있습니다.
+report-other-comment =
+    .placeholder = 코멘트
+success = 성공
+continue = 계속
+report-success = 보고서가 성공적으로 전달되었습니다.
 
 ## Goals
 
@@ -601,12 +620,14 @@ validations =
 
 ## Dashboard
 
+your-languages = 나의 언어
 toward-next-goal = 다음 목표를 향해
 clips-you-recorded = 녹음한 레코드 클립
 clips-you-validated = 검증한 레코드 클립
 todays-recorded-progress = 오늘의 Common Voice 레코드 클립 녹음 진행 현황
 todays-validated-progress = 오늘의 Common Voice 레코드 클립 검증 진행 현황
 stats = 통계
+awards = 상
 you = 나
 everyone = 모두
 contribution-activity = 기여 활동
@@ -615,9 +636,22 @@ recorded-clips = 녹음된 클립
 validated-clips = 검증된 클립
 total-approved = 승인 전체
 overall-accuracy = 종합적 정확도
+set-visibility = 공개 설정
+show-ranking = 내 순위 표시
 
 ## Custom Goals
 
+get-started-goals = 목표로 시작하기
+create-custom-goal = 맞춤 목표 만들기
+both-speak-and-listen = 둘 다
+both-speak-and-listen-long = 둘 다(말하기와 듣기)
+daily-goal = 일일 목표
+weekly-goal = 주간 목표
+easy-difficulty = 쉬운
+average-difficulty = 보통
+difficult-difficulty = 어려운
+pro-difficulty = 전문가 수준
+lose-goal-progress-warning = 목표를 편집하면 현재 진행 상황이 없어지게 됩니다.
 want-to-continue = 계속 하시겠습니까?
 finish-editing = 먼저 편집을 완료 하시겠습니까?
 lose-changes-warning = 지금 떠나면 변경 사항을 잃게됩니다.
@@ -628,6 +662,7 @@ how-many-per-day = 좋습니다! 하루에 몇 개의 클립을 하시겠습니�
 how-many-a-week = 좋습니다! 일주일에 몇 개의 클립을 하시겠습니까?
 which-goal-type = 말하기, 듣기 또는 둘 다를 원하십니까?
 n-clips = { NUMBER($count) }개의 클립
+help-share-goal = 더 많은 목소리를 찾게 도와 주세요. 목표를 공유하세요.
 confirm-goal = 목표 확인
 goal-interval-weekly = 주간
 share-goal-type-speak = 말하기
@@ -648,6 +683,8 @@ profile-form-delete = 프로필 지우기
 
 ## Landing
 
+welcome-staff = { $company } 임직원 분들을 환영합니다!
+help-contribute = Common Voice 프로필을 만들고 본인의 목소리로 참여하여 다양하고 오픈소스인 데이터 세트를 만드는 데 도움을 주실 수 있습니다.
 login-company = { $company } 이메일로 로그인/가입
 profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
 read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
