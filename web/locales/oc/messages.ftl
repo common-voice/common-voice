@@ -1,13 +1,18 @@
 ## General
 
 yes-receive-emails = Òc, mandatz-me de corrièls. Vòli èsser avisat de l’actualitat del projècte Common Voice Project.
+stayintouch = En çò de Mozilla sèm a bastir una comunitat a l’entorn de las tecnologias de la votz. Volriam èsser al fial de las actualizacions, las nòvas fonts de donadas e saber cossí utilizatz aquestas donadas.
 return-to-cv = Tornar a Common Voice
 email-input =
     .label = Adreça electronica
 submit-form-action = Mandar
 loading = Cargament…
+email-opt-in-info = M’agradariá de recebre de messatges electronics coma de recòrds, ma progression e d’infoletras tocant Common Voice.
 email-opt-in-info-title = Rejonhètz l'infoletra Common Voice
+email-opt-in-info-sub-with-challenge = Recebètz de corrièls coma de desfisses e recòrds d’objectius, rapòrts d’avançament e infoletras tocant Common Voice.
+email-opt-in-privacy = En acceptar de recebre los corrièls, indicatz acceptar que Mozilla gerisca aquestas informacions segon la <privacyLink>politica de confidencialitat<privacyLink> de Mozilla.
 indicates-required = * indica un camp obligatòri
+not-available-abbreviation = Non disponible
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,7 +21,9 @@ indicates-required = * indica un camp obligatòri
 ## Languages
 
 ab = Abcaz
+ace = Acehnese
 af = Afrikaans
+am = Amaric
 an = Aragonés
 ar = Arabi
 as = Assamés
@@ -72,6 +79,7 @@ mg = Malgach
 mk = Macedonian
 ml = Malayalam
 mn = Mongòl
+nb-NO = Bokmål
 ne-NP = Nepali
 nl = Neerlandés
 nn-NO = Norvegian Nynorsk
@@ -200,12 +208,18 @@ english = Anglés
 
 profile-form-username =
     .label = Nom d’utilizaire
+profile-form-native-language =
+    .label = Lenga mairala
+profile-form-additional-language =
+    .label = Lenga suplementària
 profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Atge
 profile-form-gender =
     .label = Sèxe
+leaderboard-visibility =
+    .label = Visibilitat
 hidden = Amagat
 visible = Visible
 native-language =
@@ -224,12 +238,17 @@ goals = Objectius
 settings = Paramètres
 edit-profile = Modificar lo perfil
 profile-close = Tampar
+accept-privacy-title = Politica de confidencialitat
+login-identity = Identitat de connexion
 login-signup = Se connectar / S’inscriure
 edit = Modificar
+email-subscriptions = Abonament per corrièl
 download-profile = Telecargar mas donadas
 contribution-experience = Experiéncia de contribucion
+skip-submission-feedback = Passar lo mandadís de comentaris
 off = Desactivat
 on = Activat
+avatar-clip-title = Donatz una votz a vòstre avatar
 retry-voice-wave-recording = TORNAR FAR
 delete-voice = SUPRIMIR
 ready-to-upload = ENVIAR
