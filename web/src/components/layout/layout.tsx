@@ -13,7 +13,7 @@ import {
   isIOS,
   isNativeIOS,
   isSafari,
-  isStaging,
+  isProduction,
   replacePathLocale,
 } from '../../utility';
 import { LocaleLink, LocaleNavLink } from '../locale-helpers';
@@ -80,7 +80,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     isMenuVisible: false,
     hasScrolled: false,
     hasScrolledDown: false,
-    showStagingBanner: isStaging(),
+    showStagingBanner: !isProduction(),
     showWelcomeModal: false,
   };
 
