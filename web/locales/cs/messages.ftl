@@ -620,8 +620,8 @@ listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
 clips-with-count = <bold>{ $count }</bold> nahrávek
-goal-help-recording = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> našeho denního { $goalValue } cíle nahrávání!
-goal-help-validation = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> našeho denního { $goalValue } cíle ověřování!
+goal-help-recording = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> denního cíle { $goalValue } nahrávek!
+goal-help-validation = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> denního cíle { $goalValue } ověřených nahrávek!
 contribute-more =
     { $count ->
         [one] Jste připraveni udělat ještě { $count }?
