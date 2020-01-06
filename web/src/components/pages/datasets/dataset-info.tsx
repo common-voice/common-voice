@@ -202,9 +202,7 @@ class DatasetInfo extends React.Component<Props, State> {
                   size,
                   'dataset-version': (
                     <div className="version">
-                      {[locale, localeStats.totalHrs + 'h', stats.date].join(
-                        '_'
-                      )}
+                      {[locale, totalHours + 'h', stats.date].join('_')}
                     </div>
                   ),
                   'validated-hr-total': Math.floor(

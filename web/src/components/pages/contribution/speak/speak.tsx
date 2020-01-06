@@ -341,7 +341,7 @@ class SpeakPage extends React.Component<Props, State> {
     const { clips } = this.state;
     await this.discardRecording();
     const current = this.getRecordingIndex();
-    const { id } = clips[current].sentence;
+    const { id } = clips[current]?.sentence || {};
     removeSentences([id]);
     this.setState({
       clips: clips.map((clip, i) =>
