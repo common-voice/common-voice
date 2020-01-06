@@ -10,7 +10,7 @@
         padding: 30px 20px;
         flex-direction: column;
         background: url('images/email-bg-md.svg');
-        background-size: 100% 100%;
+        background-size: cover;
     }
 
     @media (--lg-up) {
