@@ -107,6 +107,10 @@
             border-radius: 2px;
         }
 
+        & .checkbox-container input {
+            background-color: var(--near-black);
+        }
+
         & .checkmark path {
             fill: #f9f9f8;
         }
