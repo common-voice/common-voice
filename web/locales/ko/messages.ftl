@@ -348,6 +348,10 @@ change-email-setings = 로그인 후 설정 페이지에서 이메일을 변경�
 
 faq-title = 자주 묻는 질문
 faq-what-cv-q = Common Voice 란 무엇인가요?
+faq-what-cv-a =
+    음성 인식 기술은 기계와 상호작용하는 방법을 혁신적으로 바꾸고 있습니다. 하지만 현재 사용가능한 시스템들은 비싸고 사유화 되어 있습니다. Common Voice는 음성인식 기술을 더 발전 시키고 모든 사람이 접근할 수 있게 만든 Mozilla 시작점입니다. Common Voice는 누구나 쉽고 빠르게 음성지원 앱을 학습 할 수 있게 하는 잠재적으로 모든 언어를 대상으로 하는 기부로 이루어진 대용량의 세계적인 음성 데이터 베이스 입니다.
+    
+    우리는 많이 사용되는 언어의 음성 샘플만 수집하지 않고 사용하는 인구가 적은 언어도 수집합니다. 다양한 음성 데이터 세트를 배포하여 개발자와 기업가, 커뮤니티가 이러한 차이를 극복할 수 있는 힘을 부여합니다. 또한 Common Voice 데이터 세트와 함께 Deep Speech라는 음성인식 오픈소스 엔진을 만들고 있습니다.
 faq-why-important-q = 이것이 왜 중요할까요?
 faq-how-get-q = Common Voice 데이터는 어떻게 얻을 수 있습니까?
 faq-how-get-a = Common Voice 데이터세트는 <licenseLink>CC0</licenseLink> 라이선스 하에 <datasetLink>데이터세트 페이지</datasetLink>에서 다운로드 하실 수 있습니다. 또한 공개된 다른 몇몇 데이터 세트도 같은 페이지에서 다운로드 가능합니다.
