@@ -208,7 +208,7 @@ class DatasetInfo extends React.Component<Props, State> {
                   'validated-hr-total': Math.floor(
                     localeStats.validHrs
                   ).toLocaleString(),
-                  'overall-hr-total': totalHours.toLocaleString,
+                  'overall-hr-total': totalHours.toLocaleString(),
                   'cv-license': 'CC-0',
                   'number-of-voices': localeStats.users.toLocaleString(),
                   'audio-format': 'MP3',
