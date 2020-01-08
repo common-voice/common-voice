@@ -353,13 +353,20 @@ faq-what-cv-a =
     
     우리는 많이 사용되는 언어의 음성 샘플만 수집하지 않고 사용하는 인구가 적은 언어도 수집합니다. 다양한 음성 데이터 세트를 배포하여 개발자와 기업가, 커뮤니티가 이러한 차이를 극복할 수 있는 힘을 부여합니다. 또한 Common Voice 데이터 세트와 함께 Deep Speech라는 음성인식 오픈소스 엔진을 만들고 있습니다.
 faq-why-important-q = 이것이 왜 중요할까요?
+faq-why-important-a =
+    말하기는 우리가 다른 사람과 커뮤니케이션 하는 가장 자연스러운 방법입니다. 음성 기술은 그 편리한 방법을 컴퓨터와 모바일 환경에서 사용할 수 있게 합니다. 우리는 실시간 번역기나 음성지원이 가능한 디지털 비서와 같은 놀라운 음성 인식 앱을 개발자들이 만들어 낼 수 있는 환경을 만들고자 합니다. 그러나 지금, 이러한 종류의 앱들은 비싸고 사유화되어 있고 이 같은 앱을 만들려면 많은 양의 음성 데이터를 필요로 합니다. 우리는 개발자들이 그들의 언어로 된 혁신적인 말하기 기술을 만드는데 필요한 것을 Common Voice 데이터 세트가 제공해 주기를 원합니다.
+    
+    음성인식기술이 더욱 더 보편화되어 사용될 수 있도록 우리는 널리 사용 되는 언어들 뿐만 아니라 상용화된 음성 인식 서비스에서 자주 소외되고 있는 소수민이 사용하는 음성 샘플도 수집하고 있습니다. 다양한 음성 데이터세트를 배포하여 개발자와 기업가 그리고 모든 음성 커뮤니티에게 이러한 차이를 줄일 수 있는 환경을 제공할 것입니다.
 faq-how-get-q = Common Voice 데이터는 어떻게 얻을 수 있습니까?
 faq-how-get-a = Common Voice 데이터세트는 <licenseLink>CC0</licenseLink> 라이선스 하에 <datasetLink>데이터세트 페이지</datasetLink>에서 다운로드 하실 수 있습니다. 또한 공개된 다른 몇몇 데이터 세트도 같은 페이지에서 다운로드 가능합니다.
 faq-when-release2-q = 다른 언어의 Common Voice 데이터 세트는 언제 출시 되나요?
 faq-why-mission-q = Mozilla에서는 Common Voice를 왜 수행하게 되었나요?
 faq-what-cv-and-deepspeech-q = Common Voice와 Deep Speech의 차이는 무엇입니까?
+faq-what-cv-and-deepspeech-a = Common Voice 데이터 세트는 Mozilla의 오픈 소스 음성 인식 엔진 Deep Speech를 보완합니다. Deep Speech의 첫 번째 버전은 2017 년 11 월에 출시되었으며 그 이후로 계속 발전해 왔습니다. Common Voice 데이터 세트와 함께 이 오픈 소스 음성 인식 기술을 모든 사람이 이용할 수 있어야 한다고 생각합니다. 이러한 기술을 통해 개발자가 혁신적인 제품 및 서비스를 구축 할 수 있기를 바랍니다.
 faq-is-goal-assistant-q = 보이스 어시스턴스를 만드는 것이 Common Voice의 목적인가요?
+faq-is-goal-assistant-a = Common Voice 데이터 세트의 목표는 음성 인식이나 화자 인식, 음성 데이터가 필요한 애플리케이션을 전세계 누구나 만들 수 있게 하는 것입니다. 음성 지원은 데이터 세트를 사용하여 만들 수 있는 어플리케이션 중 하나일 뿐입니다.
 faq-do-want-native-q = 모국어가 아니고 억양이 있는데도 목소리 기부가 가능한가요?
+faq-do-want-native-a = 네, 우리는 특히 당신의 목소리를 원합니다! Common Voice의 목표 중 하나는 음성 인식 서비스가 모든 사람에게 똑같이 잘 작동 할 수 있도록 가능한 많은 억양를 모으는 것입니다. 이것은 비원어민의 기부가 특히 중요하다는 것을 의미합니다.
 faq-why-different-speakers-q = 언어별로 왜 수많고 다양한 목소리 기부자가 필요한가요?
 faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
 faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
@@ -388,6 +395,7 @@ faq-search-for-answers =
 about-title = 왜 Common Voice 인가요?
 how-does-it-work-title = 어떻게 작동하나요?
 about-speak = 말하기
+about-speak-text = 참가가 미리 기여된 문장의 저장고에서 글을 읽고 음성 클립을 녹음합니다.
 about-listen = 듣기
 about-is-it-valid = 클립이 유효합니까?
 about-yes-votes = ≥ 2 찬성표
