@@ -2226,6 +2226,7 @@ Am reuşit să construim legături cu întreaga regiune.
 Am reușit foarte bine în această privință.
 Am reușit să avansăm într-o serie de probleme.
 Am reușit să cumpăr volumul pictori.
+Am revenit în studio.
 Am reţinut cu mare atenţie dorinţele tuturor.
 Am ridicat această problemă de mai multe ori.
 Am salutat această decizie şi am sprijinit raportul.
@@ -3932,6 +3933,7 @@ Cele două state au multe chestiuni de rezolvat.
 Cele două victime au fost implicate în accidente rutiere diferite.
 Cele mai afectate categorii sunt tinerii şi migranţii.
 Cele mai afectate dintre acestea sunt Ialomița și Dâmbovița.
+Cele mai frumoase târguri de Crăciun și-au deschis azi porțile.
 Cele mai multe polemici şi-au atins scopul când au creat zăpăceală şi neîncredere.
 Cele trei rapoarte au multe puncte în comun.
 Cele trei rapoarte fac referire la acest document.
@@ -3945,6 +3947,7 @@ Cercetările vizează, de asemenea, rețete eliberate pentru bolnavi de cancer.
 Cererea a fost depusă împreună cu rezoluţia.
 Cererea de cărbune și prețul cărbunelui cresc.
 Cererea nu poate face faţă ofertei.
+Cereți sfatul medicului sau farmacistului.
 Cert e că în noiembrie voi ceda clubul.
 Cert este că nu există voinţă politică.
 Cetăţenii albanezi s-au săturat de aceste dispute.
@@ -6909,6 +6912,7 @@ Este restrictiv, însă nu avem de ales.
 Este ridicol să o interzicem intern.
 Este răspunsul nostru la deficitul democratic.
 Este rău că nu sunt aici.
+Este scandalos şi nu putem accepta această situaţie.
 Este singura modalitate de a acţiona.
 Este singurul mod de a reda demnitatea tuturor.
 Este surprinzător că nu s-au efectuat până acum.
@@ -8219,6 +8223,7 @@ Mâine, dacă aș primi o ofertă de a lucra în străinătate, aș accepta-o.
 Mâine, ne vom exprima votul asupra rapoartelor.
 Mâine, poate fi alt stat membru.
 Mâna pictorului face o magie și transformă culoarea.
+Mânca pula matale
 Míle buíochas do mhuintir na hÉireann.
 München este una dintre aceste zone.
 Mă abţin de la votul asupra acestui raport.
@@ -9140,6 +9145,7 @@ Nu s-au efectuat evaluări reale în acest domeniu.
 Nu s-au realizat progrese de atunci încoace.
 Nu s-au schimbat prea multe de atunci.
 Nu s-au înregistrat fraude sau violențe.
+Nu schimbați canalul.
 Nu se aplică în acest caz.
 Nu se cheltuiesc prea mulți bani pe administrație?
 Nu se economisesc bani în primul an.
@@ -10781,6 +10787,9 @@ Returul este programat la doi decembrie, la Timișoara.
 Reuniunea la nivel înalt ne arată doar direcţia.
 Reuniunile hleg se desfășoară fără un calendar prestabilit.
 Reuşita acordului va depinde de bani.
+Revenim după câteva momente de publicitate.
+Revenim la finalul momentului publicitar.
+Revenim în studio.
 Revenirea la metoda interguvernamentală este fatală.
 Revenirea președintelui ales al Hondurasului, Manuel Zalaya provoacă reacții internaționale.
 Revin acum la biroul de sprijin.
@@ -12619,6 +12628,7 @@ Un lucru imperios necesar este eficienţa energetică.
 Un lucru ne este clar nouă tuturor.
 Un minut pentru fiecare şi asta este tot.
 Un motor bun ajunge și la șapte sute de euro.
+Un nou scandal politic zguduie Parlamentul.
 Un număr de vorbitori au invocat rolul regiunilor.
 Un om care scrie nu e niciodată singur.
 Un om făţarnic are două feţe şi nici un obraz.
@@ -12734,6 +12744,8 @@ Unul se referă la brevetul european.
 Unul se referă la protecţia împotriva hărţuirii.
 Unul se referă la sfera de aplicare.
 Uriașe evenimente, ample transformări, crize atinse de metastază ne sucesc mințile.
+Urmează câteva clipe de publicitate.
+Urmează câteva momente de publicitate.
 Urmează să fie aplicată tuturor statelor membre?
 Urmărim, de asemenea, să redistribuim fonduri.
 Următoarele întrebări sunt câteva dintre acestea.
@@ -12854,6 +12866,7 @@ Vina este pasată de la unii la alţii.
 Vina le revine în acest caz statelor membre.
 Vinovat este consumul prea mare de alcool și fumatul.
 Vinovat principal a fost găsit șeful direcției de urbanism, arhitectul șef Sorin Ciurariu.
+Vinul rosé este un produs artificial.
 Vinul spumant se produce pe baza acelorași tehnologii folosite și la șampanie.
 Violenţa de acest fel este în creştere.
 Violenţa este ultimul refugiu al incompetenţilor.
@@ -13118,6 +13131,7 @@ Vrem să depășim greșelile din trecut.
 Vrem să fim lideri ai schimbării.
 Vrem să fim un jucător global major?
 Vrem să izolăm religia într-un spațiu privat.
+Vremea se anunță în general însorită.
 Vreţi de fapt să se respingă întreaga propunere.
 Vreți să amenințați cu sancțiuni sau nu?
 Vreți să le supuneți controalelor la frontieră?
@@ -13128,6 +13142,8 @@ Vânzătorii au găsit oameni așteptând cuminți ca tarabele să fie deschise.
 Vă admir pentru rezistență, doamnă comisar.
 Vă aduceți aminte cazul Popoviciu.
 Vă aflați pe o cale greșită.
+Vă așteptăm la jurnalul de seară.
+Vă așteptăm și mâine pentru mai multe știri.
 Vă cerem tuturor să faceţi acest lucru.
 Vă cerem, dle comisar, să ne oferiţi explicaţii.
 Vă dați seama ce a ieșit, își amintește Alin Trică.
@@ -13257,6 +13273,7 @@ Vă pot garanta că aşa vor sta lucrurile.
 Vă pot oferi o mulţime de exemple.
 Vă pot oferi un alt exemplu.
 Vă pot promite că aşa vom face.
+Vă prezentăm informații la zi.
 Vă prezentăm un produs pe bază de extracte din plante.
 Vă promit că veţi putea lua cuvântul.
 Vă promit transparență în acest sens.
