@@ -2,6 +2,7 @@
 
 yes-receive-emails = Òc, mandatz-me de corrièls. Vòli èsser avisat de l’actualitat del projècte Common Voice Project.
 stayintouch = En çò de Mozilla sèm a bastir una comunitat a l’entorn de las tecnologias de la votz. Volriam èsser al fial de las actualizacions, las nòvas fonts de donadas e saber cossí utilizatz aquestas donadas.
+privacy-info = Vos prometèm de prendre cura de vòstras donadas. Per ne saber mai podètz legir nòstra <privacyLink>Politica de confidencialitat</privacyLink>.
 return-to-cv = Tornar a Common Voice
 email-input =
     .label = Adreça electronica
@@ -183,6 +184,7 @@ keep-track = Gardatz traça de vòstres progrèsses per las lengas que participa
 
 whats-public = Quina informacion es publica ?
 email-not-public = Farem pas venir vòstra adreça electronica publica.
+recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
 username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
