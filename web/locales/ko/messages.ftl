@@ -397,6 +397,7 @@ how-does-it-work-title = 어떻게 작동하나요?
 about-speak = 말하기
 about-speak-text = 참가가 미리 기여된 문장의 저장고에서 글을 읽고 음성 클립을 녹음합니다.
 about-listen = 듣기
+about-listen-text = 사용자는 기부된  클립의 정확성을 검증하여 화자가 문장을 올바르게 읽었는지 확인합니다.
 about-is-it-valid = 클립이 유효합니까?
 about-yes-votes = ≥ 2 찬성표
 about-no-votes = ≥ 2 반대표
