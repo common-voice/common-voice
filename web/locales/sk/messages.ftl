@@ -8,8 +8,11 @@ email-input =
     .label = E-mailová adresa
 submit-form-action = Odoslať
 loading = Načítava sa…
+email-opt-in-info = Chcem dostávať e-maily, ako sú upozornenia na ciele, môj pokrok a novinky o službe Common Voice.
+email-opt-in-info-title = Pripojte so do emailovej skupiny Common Voice
 email-opt-in-privacy = Rozhodnutím prijímať e-maily potvrdzujete svoj súhlas so spracovaním vašich údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia<privacyLink>.
 indicates-required = * označuje povinné pole
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -24,10 +27,12 @@ af = afrikánčina
 am = amharčina
 an = aragónčina
 ar = arabčina
+arn = mapudungunčina
 as = asámčina
 ast = astúrčina
 az = azerbajdžančina
 ba = baškirčina
+be = bieloruština
 bg = bulharčina
 bn = bengálčina
 br = bretónčina
@@ -49,6 +54,7 @@ es = španielčina
 et = estónčina
 eu = baskičtina
 fa = perzština
+ff = fulbčina
 fi = fínčina
 fo = faerčina
 fr = francúzština
@@ -68,6 +74,7 @@ it = taliančina
 ja = japončina
 ka = gruzínčina
 kab = kabylčina
+kbd = kabardčina
 kk = kazaština
 ko = kórejčina
 kpv = komi-zyriančina
@@ -78,6 +85,7 @@ lij = ligúrčina
 lt = litovčina
 lv = lotyština
 mdf = mokša
+mg = malagaština
 mhr = lúčnovýchodná marijčina
 mk = macedónčina
 ml = malajálamčina
@@ -91,6 +99,7 @@ nl = holandčina
 nn-NO = nórčina (nynorsk)
 oc = okcitánčina
 or = urijčina
+pa-IN = pandžábčina
 pl = poľština
 pt = portugalčina
 rm-sursilv = rétorománčina (sursilvan)
@@ -208,6 +217,8 @@ x-years-short =
        *[other] { $count } rokov
     }
 help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú databázu
+sign-up-account = Vytvorte si účet
+email-subscription-title = prihláste sa k odberu noviniek
 
 ## Account Benefits
 
@@ -580,6 +591,7 @@ overall-accuracy = Celková presnosť
 
 ## Custom Goals
 
+confirm-goal = Potvrdiť cieľ
 share-goal = Zdieľať môj cieľ
 
 ## Profile Delete

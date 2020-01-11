@@ -2,6 +2,7 @@
 
 yes-receive-emails = Òc, mandatz-me de corrièls. Vòli èsser avisat de l’actualitat del projècte Common Voice Project.
 stayintouch = En çò de Mozilla sèm a bastir una comunitat a l’entorn de las tecnologias de la votz. Volriam èsser al fial de las actualizacions, las nòvas fonts de donadas e saber cossí utilizatz aquestas donadas.
+privacy-info = Vos prometèm de prendre cura de vòstras donadas. Per ne saber mai podètz legir nòstra <privacyLink>Politica de confidencialitat</privacyLink>.
 return-to-cv = Tornar a Common Voice
 email-input =
     .label = Adreça electronica
@@ -143,9 +144,13 @@ help-us-title = Ajudatz-nos a validar las frasas !
 vote-yes = Òc
 vote-no = Non
 speak-subtitle = Donatz vòstra votz
+speak-goal-text = Mòstras enregistradas
 listen-subtitle = Nos ajudar a validar las voses
+listen-goal-text = Mòstras validadas
 hours-recorded = Oras enregistradas
 hours-validated = Oras validadas
+voices-online = Mòstras de voses ara en linha
+todays-progress = Progression del jorn
 help-reach-goal = Ajudatz-nos a arribar a { $goal }
 read-terms-q = Avètz legit las condicions d’utilizacion ?
 ready-to-record = Prèst a donar vòstra votz ?
@@ -166,16 +171,20 @@ x-years-short =
         [one] 1 an
        *[other] { $count } ans
     }
+help-make-dataset = Ajudatz-nos a crear una basa de donadas liura e publica de nauta qualitat
 sign-up-account = Crear un compte
+email-subscription-title = marcatz-vos per recebre las novetats per corrièl
 
 ## Account Benefits
 
 benefits = Avantatges
+keep-track = Gardatz traça de vòstres progrèsses per las lengas que participatz.
 
 ## What's public
 
 whats-public = Quina informacion es publica ?
 email-not-public = Farem pas venir vòstra adreça electronica publica.
+recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
 username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts

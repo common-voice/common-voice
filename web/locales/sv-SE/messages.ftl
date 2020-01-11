@@ -619,7 +619,7 @@ listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
 clips-with-count = <bold>{ $count }</bold> klipp
-goal-help-recording = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
+goal-help-recording = Du har hjälpt Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
 goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =
     { $count ->
