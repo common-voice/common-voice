@@ -5,6 +5,7 @@
     background: var(--lighter-grey);
 
     @media (--md-down) {
+        align-items: center;
         flex-direction: column;
         padding: 60px 20px 0;
     }
