@@ -152,7 +152,7 @@ button.card-action:focus.focus-visible path {
         }
     }
 
-    & input {
+    input {
         position: absolute;
         top: 0;
         left: 0;
@@ -174,7 +174,11 @@ button.card-action:focus.focus-visible path {
         pointer-events: none;
     }
 
-    & input:checked ~ .checkmark {
+    input:checked {
+        background: --var(near-black);
+    }
+
+    input:checked ~ .checkmark {
         display: block;
     }
 }

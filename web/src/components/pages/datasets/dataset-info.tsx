@@ -150,12 +150,23 @@ class DatasetInfo extends React.Component<Props, State> {
       confirmNoIdentify,
     } = this.state;
     const localeStats = stats.locales[locale as keyof typeof stats.locales];
-    const megabytes = Math.floor(localeStats.size / 1024 / 1024);
+    const megabytes = localeStats.size / 1024 / 1024;
     const size =
-      megabytes > 1024
+      megabytes < 1
+        ? Math.floor(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
+        : megabytes > 1024
         ? Math.floor(megabytes / 1024) + ' ' + getString('size-gigabyte')
-        : megabytes + ' ' + getString('size-megabyte');
-    const totalHours = Math.floor(localeStats.totalHrs);
+        : Math.floor(megabytes) + ' ' + getString('size-megabyte');
+
+    const totalHours =
+      localeStats.totalHrs < 1
+        ? Math.floor(localeStats.totalHrs * 100) / 100
+        : Math.floor(localeStats.totalHrs);
+
+    const validHours =
+      localeStats.validHrs < 1
+        ? Math.floor(localeStats.validHrs * 100) / 100
+        : Math.floor(localeStats.validHrs);
 
     return (
       <div className="dataset-info">
@@ -205,9 +216,7 @@ class DatasetInfo extends React.Component<Props, State> {
                       {[locale, totalHours + 'h', stats.date].join('_')}
                     </div>
                   ),
-                  'validated-hr-total': Math.floor(
-                    localeStats.validHrs
-                  ).toLocaleString(),
+                  'validated-hr-total': validHours.toLocaleString(),
                   'overall-hr-total': totalHours.toLocaleString(),
                   'cv-license': 'CC-0',
                   'number-of-voices': localeStats.users.toLocaleString(),

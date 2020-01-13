@@ -576,7 +576,7 @@
         input {
             border-radius: 50%;
             &:checked {
-                background-color: #59cbb7;
+                background-color: var(--near-black);
                 ~ .checkmark {
                     width: 14px;
                     height: 14px;
