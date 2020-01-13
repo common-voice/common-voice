@@ -360,6 +360,7 @@ faq-why-important-a =
 faq-how-get-q = Common Voice 데이터는 어떻게 얻을 수 있습니까?
 faq-how-get-a = Common Voice 데이터세트는 <licenseLink>CC0</licenseLink> 라이선스 하에 <datasetLink>데이터세트 페이지</datasetLink>에서 다운로드 하실 수 있습니다. 또한 공개된 다른 몇몇 데이터 세트도 같은 페이지에서 다운로드 가능합니다.
 faq-when-release2-q = 다른 언어의 Common Voice 데이터 세트는 언제 출시 되나요?
+faq-when-release2-a = 다국어 버전의 Common Voice 데이터 세트는 현재 커뮤니티 지원하에 번들링, 정리되고 있습니다. Common Voice 프로젝트에 새로운 언어를 넣고싶다면 <sentenceCollectorLink>문장 수집 도구</sentenceCollectorLink>를 이용해서 새로운 문장들을 데이터 세트에 추가하시거나, Mozilla <pontoonLink>Pontoon</pontoonLink>을 이용하여 웹 사이트를 번역을 해주십시오. 새로운 언어는 5000 개의 승인된 문장이 수집되었을 때 Common Voice에 추가됩니다.
 faq-why-mission-q = Mozilla에서는 Common Voice를 왜 수행하게 되었나요?
 faq-what-cv-and-deepspeech-q = Common Voice와 Deep Speech의 차이는 무엇입니까?
 faq-what-cv-and-deepspeech-a = Common Voice 데이터 세트는 Mozilla의 오픈 소스 음성 인식 엔진 Deep Speech를 보완합니다. Deep Speech의 첫 번째 버전은 2017 년 11 월에 출시되었으며 그 이후로 계속 발전해 왔습니다. Common Voice 데이터 세트와 함께 이 오픈 소스 음성 인식 기술을 모든 사람이 이용할 수 있어야 한다고 생각합니다. 이러한 기술을 통해 개발자가 혁신적인 제품 및 서비스를 구축 할 수 있기를 바랍니다.
@@ -368,6 +369,9 @@ faq-is-goal-assistant-a = Common Voice 데이터 세트의 목표는 음성 인�
 faq-do-want-native-q = 모국어가 아니고 억양이 있는데도 목소리 기부가 가능한가요?
 faq-do-want-native-a = 네, 우리는 특히 당신의 목소리를 원합니다! Common Voice의 목표 중 하나는 음성 인식 서비스가 모든 사람에게 똑같이 잘 작동 할 수 있도록 가능한 많은 억양를 모으는 것입니다. 이것은 비원어민의 기부가 특히 중요하다는 것을 의미합니다.
 faq-why-different-speakers-q = 언어별로 왜 수많고 다양한 목소리 기부자가 필요한가요?
+faq-why-different-speakers-a =
+    대부분의 음성 데이터베이스는 특정 인구의 데이터가 과도하게 훈련되어 <articleLink>남성과 중산층</articleLink>에 편중되어 있습니다. 훈련 데이터에서 억양과 방언이 충분히 반영되지 못하는 것은 해당 그룹이 이미 소외되어 있기 때문입니다. 많은 기계들이 여성의 목소리를 이해하는데 어려움을 겪고 있습니다.
+    이것이 우리의 음성 데이터베이스가 다양성을 원하는 이유입니다!
 faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
 faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
 faq-why-10k-hours-q = 왜 언어별로 수집되어야 할 오디오의 길이가 10,000 유효 시간인가요?
