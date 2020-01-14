@@ -569,6 +569,7 @@ other-language = Anna språk
 ## Languages Overview
 
 language-section-in-progress = Under arbeid
+language-section-in-progress-new-description = Desse språka er for tida under utvikling. Framdriftsindikatorane viser kor langt kvart språk har komme med <localizationGlossaryLink> nettstadlokalisering </localizationGlossaryLink> og <sentenceCollectionGlossaryLink> setningsinnsamling </sentenceCollectionGlossaryLink>.
 language-section-launched = Lansert
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
