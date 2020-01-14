@@ -141,8 +141,11 @@ home-title = Lo projècte Common Voice es l'iniciativa de Mozilla per ajudar las
 home-cta = Parlatz fòrt, contribuissètz aquí !
 show-wall-of-text = Legir la seguida
 help-us-title = Ajudatz-nos a validar las frasas !
+help-us-explain = Quichatz lectura, escotatz e digatz-nos : la frasa çai-jos es estada corrèctament prononciada ?
+no-clips-to-validate = Sembla que i a pas cap de mòstra de votz a escotar per aquesta lenga. Ajudatz-nos a ne crear unas !
 vote-yes = Òc
 vote-no = Non
+toggle-play-tooltip = Quichatz { shortcut-play-toggle } per aviar o arrestar la lectura
 speak-subtitle = Donatz vòstra votz
 speak-goal-text = Mòstras enregistradas
 listen-subtitle = Nos ajudar a validar las voses
@@ -179,16 +182,20 @@ email-subscription-title = marcatz-vos per recebre las novetats per corrièl
 
 benefits = Avantatges
 keep-track = Gardatz traça de vòstres progrèsses per las lengas que participatz.
+view-goals = Comparatz vòstres progrèsses par rapòrt a vòstres objectius personals e als del projècte.
 
 ## What's public
 
 whats-public = Quina informacion es publica ?
 email-not-public = Farem pas venir vòstra adreça electronica publica.
 recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
+username-optin-public = Podètz cuasir se volètz que vòstre nom d’utilizaire siá public o anonim.
 username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
