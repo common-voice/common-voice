@@ -435,6 +435,7 @@ localization-explanation = 이것은 여러 지역(언어)의 컨텐츠를 번�
 sentence-collection = 문장 모음
 sentence-collection-explanation = 공개 도메인에서 문장을 모으거나 공개 도메인으로 새 문장을 작성합니다.
 hours-recorded-explanation = 지금까지 모은 음성 녹음 시간입니다.
+hours-validated-explanation = 3 명의 사용자 중 2 명이 “찬성”에 투표하여 검증한 음성 녹음 시간 수입니다. 이 투표는 전체 프로젝트 1만 시간 목표를 향한 진전입니다.
 sst = 음성 문자 변환(STT)
 sst-explanation = 음성 문자 변환(STT) 기술은 음성 데이터를 문자로 변환합니다.
 de-identified = 개인정보가 제거된
@@ -485,6 +486,7 @@ audio-format = 오디오 포멧
 number-of-voices = 음성 갯수
 splits = 분리
 email-to-download = 다운로드 하기 위한 이메일을 입력하십시오.
+why-email = <b>왜 이메일이 필요한가요?</b>앞으로 데이터 세트 변경 사항에 대해 연락을 해야 할 때 이메일을 사용합니다.
 confirm-size = <b>{ $size }</b>의 다운로드를 시작할 준비가 되었습니다.
 size-gigabyte = GB
 size-megabyte = MB
@@ -503,7 +505,9 @@ data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
 data-other-voxforge-description = VoxForge는 무료 및 오픈 소스 음성 인식 엔진에서 사용하기 위한 변환된 음성을 수집하도록 설립 되었습니다.
 data-other-tatoeba-description = Tatoeba는 언어 학습에 사용하기 위한 문장, 번역, 음성 오디오의 대규모 데이터베이스입니다. 이 다운로드에는 커뮤니티에서 녹음한 구어체 영어가 포함되어 있습니다.
+your-feedback = Common Voice를 개선할 아이디어가 있으신가요? Discourse에서 알려주세요.
 go-discourse = Discourse로 이동
+missing-language = 사용하는 언어가 데이터 세트에 없나요? 언어 페이지에서 새 언어를 요청하세요.
 go-languages-page = 언어 페이지로 이동
 ready-to-validate = 문장 검증에 기여하실 준비가 되셨습니까?
 more = 더보기
@@ -545,6 +549,7 @@ other-language = 다른 언어
 language-section-in-progress = 진행중
 language-section-in-progress-new-description = 이 언어들은 현재 커뮤니티에서 개발중에 있습니다. 진행 상태 바는 각 언어의 <localizationGlossaryLink>웹사이트 지역화</localizationGlossaryLink>와  <sentenceCollectionGlossaryLink>문장 수집</sentenceCollectionGlossaryLink>이 어떻게 되고 있는지를 보여줍니다.
 language-section-launched = 출시됨
+language-section-launched-description = 출시된 언어들은 웹 사이트가 성공적으로 <localizationGlossaryLink>지역화</localizationGlossaryLink>되고, 충분한 <sentenceCollectionGlossaryLink>문장이 수집</sentenceCollectionGlossaryLink> 되어 <speakLink>말하기</speaklink>와 <listenLink>듣기</listenLink>에 기여할 수 있는 언어들입니다.
 languages-show-more = 더 보기
 languages-show-less = 접기
 language-meter-in-progress = 진행
@@ -612,6 +617,7 @@ report = 보고서
 report-title = 보고서 제출
 report-ask = 이 문장에 어떤 문제가 있습니까?
 report-offensive-language = 공격적인 언어
+report-offensive-language-detail = 이 문장에 무례하거나 모욕적인 글이 있습니다.
 report-grammar-or-spelling = 문법 / 철자 오류
 report-grammar-or-spelling-detail = 문장에 문법 또는 철자 오류가 있습니다.
 report-different-language = 다른 언어
@@ -685,10 +691,20 @@ cant-decide = 결정할 수 없습니까?
 how-many-per-day = 좋습니다! 하루에 몇 개의 클립을 하시겠습니까?
 how-many-a-week = 좋습니다! 일주일에 몇 개의 클립을 하시겠습니까?
 which-goal-type = 말하기, 듣기 또는 둘 다를 원하십니까?
+receiving-emails-info =
+    목표 알림이나 내 진행 업데이트, Common Voice 뉴스레터와 같은
+    이메일을 수신하도록 설정되어 있습니다.
+not-receiving-emails-info =
+    목표 알림이나 내 진행 업데이트, Common Voice 뉴스레터와 같은
+    이메일을 수신하지 <bold>않도록</bold> 설정되어 있습니다.
 n-clips = { NUMBER($count) }개의 클립
 help-share-goal = 더 많은 목소리를 찾게 도와 주세요. 목표를 공유하세요.
 confirm-goal = 목표 확인
 goal-interval-weekly = 주간
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type }에 { $count } 개의 클립을 완료하는 일일목표를 공유하기
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type }에 { $count } 개의 클립을 완료하는 주간목표를 공유하기
 share-goal-type-speak = 말하기
 share-goal-type-listen = 듣기
 share-goal-type-both = 말하기와 듣기
@@ -700,9 +716,15 @@ share-goal = 내 목표 공유
 
 ## Profile Delete
 
+delete-q = Common Voice 데이터 세트에 있는 음성 녹음들도 지우도록 요청하시겠습니까 아니면 그대로 두도록 하시겠습니까?
 keep = 유지
 remove = 삭제
 keep-info = 당신의 익명화된 음성 녹음은 Common Voice 데이터세트에 남아있습니다. 프로필이 삭제되면 더이상 개인 레코딩 파일을 데이터 세트에서 삭제해달라는 요청을 하실수가 없습니다.
+remove-info = 데이터 세트에서 음성 녹음을 삭제하도록 하는 요청을 검토할 것입니다. 요청이 승인되면 데이터 세트를 다운로드 한 사용자에게 음성 녹음을 제거하도록 연락할 것입니다.
+why-delete-recordings =
+    Common Voice 프로젝트의 녹음은 학계나 소규모 비즈니스, 음성 인식을 좋아하는 사람들에게 음성 모델과 같은 공개된 리소스를 학습시키고 키우는데 도음을 줍니다.
+    
+    녹음된 내용을 삭제하려는 이유를 알려주시겠습니까?
 profile-form-delete = 프로필 지우기
 
 ## Landing
