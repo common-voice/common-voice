@@ -21,8 +21,8 @@ const Dataset = React.memo(
     const [collapsed, setCollapsed] = useState(true);
     return (
       <div className="other-dataset box">
+        <img src={require(`./images/${nick}.jpg`)} alt="" />
         <div className="banner" style={{ backgroundColor: color }} />
-        <img src={require(`./images/${nick}.png`)} alt="" />
         <div className="dots-and-content">
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
           <div className="content">
