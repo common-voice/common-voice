@@ -405,6 +405,7 @@ faq-search-for-answers =
 
 about-title = Kvifor Common Voice?
 about-subtitle = Common Voice er ein del av Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar. I tillegg til Common Voice-datamengda byggjer vi òg ein talegjenkjenningsmotor med open kjeldekode som heiter Deep Speech.
+about-header-description = Begge desse prosjekta er delar av strevet vårt for å byggje bru over det digitale skiljet. Talegjenkjenning bidreg med ein menneskeleg dimensjon til dei digitale einingane våre, men utviklarar treng ei enorm mengde med data for å byggje dei. Det meste av slike data er dyre og proprietære. Vi ønskjer å gjere stemmedata gratis og offentleg tilgjengeleg, og forsikre om at dataa representerer variasjonen mellom verkelege menneske. Saman kan vi gjere talegjenkjenning betre for alle.
 how-does-it-work-title = Korleis fungerer det?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) ei open datamengd av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datamengda betre for alle.
 about-speak = Tal
@@ -497,6 +498,12 @@ review-delete-recordings = Slett opptaka mine
 ## Datasets Page
 
 datasets-headline = Vi lagar fleirspråkleg taleinnspeling med open kjeldekode som alle kan bruke for å trene applikasjonar med talegjenkjenning.
+datasets-positioning =
+    Vi trur at store, offentleg tilgjengelege stemmedamengda vil fremje innovasjon og sunn kommersiell konkurranse innan maskinlæringsbasert taleteknologi.
+    
+    Common Voices fleirspråklege datasett er allereie den største offentleg tilgjengelege stemmedatamengda av sitt slag, men det er ikkje det einaste.
+    
+    Sjå på denne sida som eit referansemidtpunkt for andre datamengder med open kjeldekode, og etterkvart som Common Voice fortset å vekse, ein heim for oppdateringane våre.
 language = Språk
 # File size in gigabytes
 size = Storleik
@@ -516,11 +523,16 @@ download-language = Last ned { $language }
 validated-hours = Validerte timar
 recorded-hours = Innspelte timar
 whats-inside = Kva finst i Common Voice-datamengda?
+dataset-description-hours =
+    Kvar oppføring i datamengda består av ei unik mp3-fil og ei tilhøyrande tekstfil. Mange av dei <b> { $total } </b> timane som er spelt inn i datamengda inkluderer òg demografiske metadata som alder, kjønn og aksent som kan bidra til å trene nøyaktigheita til talegjenkjenningsmotorar.
+    
+    Datamengda består for tida av <b> { $valid } </b> validerte timar på <b> { $languages } </b> språk, men vi legg heile tida til fleire stemmer og språk. Ta ein titt på <languagesLink> språksida </languagesLink> vår for å be om eit språk eller begynne å bidra.
 want-dataset-update = Vil du ha ei oppdatering når vi slepper ein ny versjon av Common Voice-datamengda? Abonner på nyheitsbrevet vårt.
 subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatamengder
 feedback-q = Har du ei tilbakemelding?
+deepspeech-info = Common Voice-datasettet komplementerer Mozillas opne kjeldekode-stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å byggje talegjenkjenningsapplikasjonar. Les <githubLink> Github-oversikta </githubLink> vår, eller bli med på <discourseLink> DeepSpeech Discourse </discourseLink> for å lære korleis du kjem i gang.
 common-voice-info-new = Har du spørsmål om Common Voice? Idear til forbetringar eller tilbakemeldinger om eit bestemt språk? Bli med i <discourseLink> Discourse forum </discourseLink> og gi oss beskjed.
 data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 timar med engelsk tale (16Khz-opptak) henta frå lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM korpus
@@ -571,6 +583,7 @@ other-language = Anna språk
 language-section-in-progress = Under arbeid
 language-section-in-progress-new-description = Desse språka er for tida under utvikling. Framdriftsindikatorane viser kor langt kvart språk har komme med <localizationGlossaryLink> nettstadlokalisering </localizationGlossaryLink> og <sentenceCollectionGlossaryLink> setningsinnsamling </sentenceCollectionGlossaryLink>.
 language-section-launched = Lansert
+language-section-launched-description = For desse lanserte språka har nettstaden blitt <localizationGlossaryLink> lokalisert </localizationGlossaryLink>, og har nok <sentenceCollectionGlossaryLink> setningar innsamla </sentenceCollectionGlossaryLink> for å tillate bidrag for kontinuerleg <speakLink> tale- </speakLink> og <listenLink> lytte-</ listenLink > bidrag.
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
 language-meter-in-progress = Framdrift
@@ -755,6 +768,10 @@ keep = Behald
 remove = Fjern
 keep-info = Dei anonyme stemmeopptaka dine vil vere att i Common Voice-datamengda. Når du har sletta profilen din, vil du ikkje lenger kunne sende inn ein førespurnad om å fjerne opptaka dine frå datamengda
 remove-info = Vi vil gå gjennom førespurnaden din om å fjerne stemmeavspelinga frå datamengda. Dersom førespurnaden din blir godkjend, kontaktar vi dei som har lasta ned datamengda, og ber om at også dei fjernar lydklippa dine.
+why-delete-recordings =
+    Common Voice lydklipp vert brukt av akademikarar, små bedrifter og talegjenkjenningsentusiastar for å hjelpe til med å trene og auke offentleg tilgjengelege ressurser som stemmemodellar.
+    
+    Kan du fortelje oss om kvifor du vil at lydklippa dine skal slettast?
 profile-form-delete = Slett profilen
 
 ## Landing
