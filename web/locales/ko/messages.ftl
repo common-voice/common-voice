@@ -373,6 +373,7 @@ faq-why-different-speakers-a =
     대부분의 음성 데이터베이스는 특정 인구의 데이터가 과도하게 훈련되어 <articleLink>남성과 중산층</articleLink>에 편중되어 있습니다. 훈련 데이터에서 억양과 방언이 충분히 반영되지 못하는 것은 해당 그룹이 이미 소외되어 있기 때문입니다. 많은 기계들이 여성의 목소리를 이해하는데 어려움을 겪고 있습니다.
     이것이 우리의 음성 데이터베이스가 다양성을 원하는 이유입니다!
 faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
+faq-why-my-lang-new-a = Mozilla는 특정 언어를 우선적으로 다루지 않습니다. Common Voice는 커뮤니티 중심으로 주도되지만 새로운 언어의 음성을 추가하기 위해서는 <multilangLink>새로운 언어를 등록하기 위한 몇 가지 단계</multilangLink>를 거쳐야합니다. 첫번째로, 커뮤니티의 사람들이 사용하는 언어로 기여할 수 있도록 Common Voice 웹 사이트가 번역되어야 합니다. 다음으로는 사람들이 소리내어 읽을 수 있는 저작권이 위배되지 않은 많은 문장이 수집되어야 합니다. 이 2가지 조건이 만족된 언어는 Common Voice에 “출시됨”으로 표시되고 사람들이 자신의 음성을 기부하거나 다른 사람의 음성을 검증할 수 있게 됩니다. 새로운 언어의 출시를 도우려면 <sentenceCollectorLink>문장 수집 도구</sentenceCollectorLink>를 이용하십시오.
 faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
 faq-why-10k-hours-q = 왜 언어별로 수집되어야 할 오디오의 길이가 10,000 유효 시간인가요?
 faq-why-10k-hours-a = 이는 상용 음성 텍스트 시스템을 교육하는 데 필요한 대략적인 시간입니다.
@@ -409,6 +410,9 @@ about-yes-votes-text = 음성 클립은 서로 다른 두 사람이 승인해야
 about-no-votes = ≥ 2 반대표
 about-no-votes-text = 사용자가 음성 클립을 거부하면 다시 대기열로 돌아갑니다. 재차 거부되면 음성 클립은 클립 무덤으로 이동됩니다.
 about-dataset-new = Common Voice 데이터 세트
+about-dataset-new-text = Common Voice 데이터 세트에는 개발자가 음성 인식 도구를 작성하는 데 도움이되는 수십 만 개의 음성 샘플이 들어 있습니다.
+about-clip-graveyard = 클립 무덤
+about-clip-graveyard-text = 클립 무덤은 Common Voice 데이터 세트에 포함되지 못 한 음성 클립으로 구성됩니다. 데이터 세트와 마찬가지로 클립 무덤도 다운로드할 수 있습니다.
 about-partners = 파트너
 about-become-a-partner = 파트너 되기
 about-get-involved = 참여하기
