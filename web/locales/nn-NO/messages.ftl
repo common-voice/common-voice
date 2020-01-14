@@ -394,7 +394,12 @@ faq-why-not-ask-read-a = For å gjere Common Voice-datamengda så nyttig som mul
 faq-why-account-q = Kvifor skal eg registrere meg med ein konto?
 faq-is-account-public-q = Er kontoinformasjonen min offentleg?
 faq-how-privacy-q = Korleis sikrar de anonymitet og personvern for dei som har bidrege med stemmene sine?
+faq-how-privacy-a = Alle stemmeklip i datamengda har fått fjerna personidentifiserande informasjon. når ein bidragsytar gir opp demografiska data via profilen sin, vert den informasjonen anonymisert frå stemmeklippa før dei vert bunta for nedlasting i datamengda og vert aldri publiserte på profilsida til brukaren.
 faq-what-determine-identity-q = Kva tyder det at eg ikkje kan «fastslå identiteten» til talarar i Common Voice-datamengda?
+faq-what-determine-identity-a =
+    Common Voice datamengda er ein open og allmen tilgjengeleg ressurs som kan brukast til å trene eit breidt spekter av taleaktiverte applikasjonar. For å beskytte sikkerheita til bidragsytarane våre, ber vi alle som lastar ned  Common Voice datasettet om å respektere personvernet til bidragsytaren.
+    
+    Alle lydklipp i datasettet vert «skrubba» for personidentifiserande informasjon. Når du lastar ned datamengda, godtek du  å ikkje prøve å identifisere bidragsytarar. Det betyr at du ikkje skal prøve å kople informasjon i datamengda til ein bidragsytar sine personlege opplysningar. Du kan likevel bruke datamengda til å trene tale-gjenkjenning, talar-gjenkjenning eller andre typar program. Til dømes ved å kople informasjon i datamengda til annan informasjon som allereie finst i datamengda.
 faq-what-is-cv = Kva er Common Voice?
 faq-using-cv = Bruke Common Voice
 faq-description = Projektet Common Voice er Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar.
