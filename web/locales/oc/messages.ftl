@@ -141,8 +141,11 @@ home-title = Lo projècte Common Voice es l'iniciativa de Mozilla per ajudar las
 home-cta = Parlatz fòrt, contribuissètz aquí !
 show-wall-of-text = Legir la seguida
 help-us-title = Ajudatz-nos a validar las frasas !
+help-us-explain = Quichatz lectura, escotatz e digatz-nos : la frasa çai-jos es estada corrèctament prononciada ?
+no-clips-to-validate = Sembla que i a pas cap de mòstra de votz a escotar per aquesta lenga. Ajudatz-nos a ne crear unas !
 vote-yes = Òc
 vote-no = Non
+toggle-play-tooltip = Quichatz { shortcut-play-toggle } per aviar o arrestar la lectura
 speak-subtitle = Donatz vòstra votz
 speak-goal-text = Mòstras enregistradas
 listen-subtitle = Nos ajudar a validar las voses
@@ -179,29 +182,45 @@ email-subscription-title = marcatz-vos per recebre las novetats per corrièl
 
 benefits = Avantatges
 keep-track = Gardatz traça de vòstres progrèsses per las lengas que participatz.
+view-goals = Comparatz vòstres progrèsses par rapòrt a vòstres objectius personals e als del projècte.
 
 ## What's public
 
 whats-public = Quina informacion es publica ?
 email-not-public = Farem pas venir vòstra adreça electronica publica.
 recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
+username-optin-public = Podètz cuasir se volètz que vòstre nom d’utilizaire siá public o anonim.
 username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
 shortcut-play-toggle-label = Lectura/Arrèst
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = o
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Enregistrar/Arrestar
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Tornar enregistrar la mòstra
 request-language-text = Trobatz pas encara vòstra lenga sus Common Voice ?
 request-language-button = Demandar una lenga
 
 ## ProjectStatus
 
+status-title = Estat general del projècte : vejatz ont sèm arribat !
 status-contribute = Donatz vòstra votz
 status-hours =
     { $hours ->
@@ -246,7 +265,12 @@ avatar = Avatar
 goals = Objectius
 settings = Paramètres
 edit-profile = Modificar lo perfil
+profile-create-success = Fach. Lo perfil es creat !
 profile-close = Tampar
+profile-explanation = Un perfil permet de seguir los progrèsses e ajuda a far venir nòstras donadas de votz mai precisas.
+thanks-for-account = Mercés d’aver confirmat lo compte. Ara creem vòstre perfil.
+why-demographic = Perqué es important ?
+accept-privacy = Accepti qu’utilizetz aquestas informacions segon los tèrmes de la <privacyLink>Politica de confidencialitat</privacyLink> de Mozilla.
 accept-privacy-title = Politica de confidencialitat
 login-identity = Identitat de connexion
 login-signup = Se connectar / S’inscriure
@@ -271,6 +295,7 @@ ready-to-upload = ENVIAR
 recreate-voice = Tornar crear vòstra mòstra de votz
 cancel-avatar-clip-recording = ANULLAR
 browse-file-title = Enviar un imatge
+browse-file = Lissatz-depausatz o <browseWrap>Percorrètz</browseWrap>
 connect-gravatar = Connectatz-vos amb Gravatar
 gravatar_not_found = Cap de gravatar pas trobat per vòstra adreça electronica
 file_too_large = Lo fichièr seleccionat es tròp pesuc
@@ -289,6 +314,8 @@ faq-how-get-q = Cossí pòdi obténer las donadas de Common Voice ?
 faq-when-release2-q = Quand publicaretz las donadas de Common Voince d’autras lengas ?
 faq-why-mission-q = Perque Common Voice es part de la mission de Mozilla ?
 faq-what-cv-and-deepspeech-q = Quina es la diferéncia entre Common Voice e Deep Speech ?
+faq-is-goal-assistant-q = L’objectiu de Common Voice es de construire un assistent vocal ?
+faq-do-want-native-q = Soi pas un locutor natiu e parli amb un accent. Volètz totjorn ma votz ?
 faq-why-my-lang-q = Perque i a pas encara ma lenga ?
 faq-where-src-from-2-q = D’ont venon los tèxtes ?
 faq-why-account-q = Perque me cal crear un compte ?
@@ -336,8 +363,10 @@ data-download-yes = Òc
 data-download-deny = Non
 data-download-license = Licéncia : <licenseLink>CC-0</licenseLink>
 data-download-modal = Sètz a man de telecargar un fichièr de <size>{ $size } Go</size>, volètz contunhar ?
+data-other-title = Autres jòcs de donadas…
 data-other-goto = Veire { $name }
 data-other-download = Telecargar las donadas
+data-bundle-button = Telecargar lo paquet del jòc de donadas
 license = Licéncia : <licenseLink>{ $license }</licenseLink>
 terms-agree = Accepti
 terms-disagree = Accepti pas
@@ -364,6 +393,7 @@ validated-hours = Oras validadas
 recorded-hours = Oras enregistradas
 whats-inside = Qu’es dins lo jòc de donadas de Common Voice ?
 subscribe = S’abonar
+feedback-q = Avètz de suggestions ?
 data-other-ted-name = Corpus TED-LIUM
 go-discourse = Anar al Discourse
 go-languages-page = Anar a la pagina de las lengas
@@ -445,6 +475,7 @@ login-to-get-started = Connectatz-vos o marcatz-vos per començar
 ## Reporting
 
 report = Senhalar
+report-title = Enviar un rapòrt
 report-different-language = Autra lenga
 report-different-language-detail = La frasa es escricha en una lenga diferenta de la que parli
 report-difficult-pronounce = De mal prononciar
@@ -472,6 +503,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Vòstras lengas
 awards = Premis
 you = Vos
 
