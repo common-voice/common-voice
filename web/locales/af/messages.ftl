@@ -17,12 +17,26 @@ indicates-required = * Dui verpligte veld aan
 
 ## Languages
 
+fo = Faroëes
+fr = Frans
+ga-IE = Iers
+he = Hebreeus
+it = Italiaans
+ja = Japannees
 
 # [/]
 
 
 ## Layout
 
+speak = Praat
+languages = Tale
+profile = Profiel
+help = Hulp
+contact = Kontak
+cookies = Koekies
+link-copied = Skakel Gekopieer
+back-top = Terug Boontoe
 
 ## Home Page
 
@@ -60,6 +74,9 @@ today = Vandag
 ## FAQ
 
 
+## ABOUT US
+
+
 ## Glossary
 
 
@@ -69,7 +86,7 @@ today = Vandag
 ## Data
 
 
-## New Datasets Page
+## Datasets Page
 
 
 ## Download Modal
@@ -84,7 +101,10 @@ today = Vandag
 ## Languages Overview
 
 
-## New Contribution
+## Contribution
+
+
+## Reporting
 
 
 ## Goals
@@ -93,5 +113,11 @@ today = Vandag
 ## Dashboard
 
 
+## Custom Goals
+
+
 ## Profile Delete
+
+
+## Landing
 
