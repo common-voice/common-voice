@@ -258,7 +258,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 녹음/멈추기
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 레코드클립 재녹음
-request-language-text = 아직도 Common Voice에서 사용하는 언어가 보이지 않나요?
+request-language-text = 아직도 사용하는 언어가 Common Voice에서 보이지 않나요?
 request-language-button = 언어 요청하기
 
 ## ProjectStatus
@@ -446,7 +446,7 @@ mycroft-secondary-description = 이것은 오픈소스 소프트웨어이기 때
 
 glossary = 용어
 localization = 지역화
-localization-explanation = 이것은 여러 지역(언어)의 컨텐츠를 번역하고 적용하기 위한 프로세스입니다.
+localization-explanation = 여러 지역(언어)의 컨텐츠를 번역하고 적용하기 위한 프로세스입니다.
 sentence-collection = 문장 모음
 sentence-collection-explanation = 공개 도메인에서 문장을 모으거나 공개 도메인으로 새 문장을 작성합니다.
 hours-recorded-explanation = 지금까지 모은 음성 녹음 시간입니다.
