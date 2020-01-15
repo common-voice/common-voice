@@ -385,6 +385,7 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = 왜 나의 언어가 아직 포함되지 않았나요?
 faq-why-my-lang-new-a = Mozilla는 특정 언어를 우선적으로 다루지 않습니다. Common Voice는 커뮤니티 중심으로 주도되지만 새로운 언어의 음성을 추가하기 위해서는 <multilangLink>새로운 언어를 등록하기 위한 몇 가지 단계</multilangLink>를 거쳐야합니다. 첫번째로, 커뮤니티의 사람들이 사용하는 언어로 기여할 수 있도록 Common Voice 웹 사이트가 번역되어야 합니다. 다음으로는 사람들이 소리내어 읽을 수 있는 저작권이 위배되지 않은 많은 문장이 수집되어야 합니다. 이 2가지 조건이 만족된 언어는 Common Voice에 “출시됨”으로 표시되고 사람들이 자신의 음성을 기부하거나 다른 사람의 음성을 검증할 수 있게 됩니다. 새로운 언어의 출시를 도우려면 <sentenceCollectorLink>문장 수집 도구</sentenceCollectorLink>를 이용하십시오.
 faq-what-quality-q = 데이터세트에 사용되기 위한 보이스 클립의 음질은 어느정도여야 하나요?
+faq-what-quality-a = 우리는 Common Voice 데이터 세트에 음성-텍스트 엔진이 실생활에서 듣는 음성 품질이 반영되기를 원하기 때문에 다양성을 원합니다. 다양한 말하는 사람들의 커뮤니티와 함께 넓은 오디오 품질의 데이터 세트는 음성-텍스트 엔진에 배경 대화에서 자동차 소음에 이르기까지 다양한 실제 상황을 다룰 수 있도록 가르칩니다. 음성 클립을 이해할 수 있는 한, 데이터 세트로 충분합니다.
 faq-why-10k-hours-q = 왜 언어별로 수집되어야 할 오디오의 길이가 10,000 유효 시간인가요?
 faq-why-10k-hours-a = 이는 상용 음성 텍스트 시스템을 교육하는 데 필요한 대략적인 시간입니다.
 faq-how-calc-hours-q = Common Voice는 녹음된 시간을 어떻게 계산하나요?
@@ -395,9 +396,11 @@ faq-where-src-from-2-a =
     
     이 <githubLink>GitHub 폴더</githubLink>에서 원본 문장을 보실 수 있습니다.
 faq-why-not-ask-read-q = 사람들에게 다른 언어로 된 책이나 위키피디아 기사를 읽도록 요청하지 않는 이유는 무엇입니까?
+faq-why-not-ask-read-a = Common Voice 데이터 세트를 최대한 유용하게 만들기 위해서 우리는 크리에이티브 커먼즈 CC0 라이센스를 사용하는 원본 텍스트만을 허용하기로 결정했습니다. CC0 표준을 이용한다는 말은 원본 텍스트를 찾고 수집하기는 힘들지만 결과 음성 데이터를 사용 제한이나 Mozilla의 허가 없이 사용할 수 있는 것을 의미합니다. 궁극적으로 우리는 다국어 데이터 세트를 연구자나 대학교, 스타트업, 정부, 사회적 기업, 취미를 위한 사람들까지 포함하는 모든 사람들에게 최대한 유용하게 만들고자 합니다.
 faq-why-account-q = 계정을 왜 만들어야 하나요?
 faq-is-account-public-q = 나의 계정 정보는 공개됩니까?
 faq-how-privacy-q = 기부된 음성의 익명성과 개인정보는 어떻게 보장되나요?
+faq-how-privacy-a = 데이터 세트의 모든 음성 클립에서 개인 식별 정보는 제거됩니다. 기여자가 프로필을 통해 인구 통계학 정보를 제공할 때에도 음성 클립의 모든 정보는 데이터 세트에서 다운로드를 위해서 묶이기 전에 삭제되고 프로필 페이지에서 절대로 공개되지 않습니다.
 faq-what-determine-identity-q = Common Voice 데이터 세트에서 목소리 기부자의 “신원을 확인” 할 수 없다는 것은 무엇을 의미합니까?
 faq-what-is-cv = Common Voice는 무엇입니까?
 faq-using-cv = Common Voice 사용법
