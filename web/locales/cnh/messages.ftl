@@ -27,6 +27,7 @@ af = Afrikaans holh
 am = Amharic holh
 an = Aragon holh (Spain)
 ar = Arabic holh
+arn = Mapudungun holh
 as = Assam holh
 ast = Asturia holh (Spain)
 az = Azerbaijan holh
