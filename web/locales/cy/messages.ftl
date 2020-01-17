@@ -752,7 +752,7 @@ show-ranking = Dangoswch fy safle
 ## Custom Goals
 
 get-started-goals = Cychwyn gyda thargedau
-create-custom-goal = Creu Targed Cyfaddas
+create-custom-goal = Creu Targed Personol
 both-speak-and-listen = Y Ddau
 both-speak-and-listen-long = Y Ddau (Siarad a Gwrando)
 daily-goal = Targed Dyddiol
@@ -765,7 +765,7 @@ lose-goal-progress-warning = Drwy olygu eich targed, efallai byddwch yn colli ei
 want-to-continue = Hoffech chi barhau?
 finish-editing = Gorffen golygu yn gyntaf?
 lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidiadau
-build-custom-goal = Creu targed cyfaddas
+build-custom-goal = Adeiladu targed personol
 help-reach-hours = Helpwch i gyrraedd { NUMBER($hours) } awr { $language } gyda tharged personol
 help-reach-hours-general = Helpwch  Common Voice i gyrraedd { NUMBER($hours) } awr mewn iaith gyda tharged personol
 set-a-goal = Gosod targed
