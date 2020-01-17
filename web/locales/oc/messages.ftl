@@ -467,6 +467,9 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> un còp acabat
 record-three-more-instruction = Ne demòran pas que 3 !
 record-again-instruction = Crane !<recordIcon></recordIcon> Enregistratz una mòstra de mai
 record-last-instruction = <recordIcon></recordIcon>La darrièra !
+clips-uploaded = Mòstra enviada
+record-abort-submit = Enviar las mòstras
+record-abort-continue = Terminar l’enregistrament
 record-abort-delete = Quitar e suprimir mos enregistraments
 listen-3rd-time-instruction = Encara 2, gardatz lo ritme !<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Lo darrièr !
@@ -510,6 +513,11 @@ validations =
 your-languages = Vòstras lengas
 awards = Premis
 you = Vos
+recorded-clips = Mòstras enregistradas
+validated-clips = Mòstras validadas
+total-approved = Total aprovat
+set-visibility = Definir ma visibilitat
+show-ranking = Veire mon classament
 
 ## Custom Goals
 
@@ -529,6 +537,7 @@ set-a-goal = Definir un objectiu
 n-clips = { NUMBER($count) } mòstras
 confirm-goal = Confirmar l’objectiu
 goal-interval-weekly = Setmanièr
+share-goal = Partejar mos objectius
 
 ## Profile Delete
 
