@@ -21,6 +21,8 @@ export type CommonVoiceConfig = {
   MYSQLDBNAME: string;
   MYSQLHOST: string;
   MYSQLPORT: number;
+  MYSQLREPLICAHOST: string;
+  MYSQLREPLICAPORT: number;
   BUCKET_NAME: string;
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
@@ -61,6 +63,8 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MYSQLDBNAME: configEntry('CV_MYSQLDBNAME', 'voiceweb'),
   MYSQLHOST: configEntry('CV_MYSQLHOST', 'localhost'),
   MYSQLPORT: configEntry('CV_MYSQLPORT', 3306, castInt),
+  MYSQLREPLICAHOST: configEntry('CV_MYSQLREPLICAHOST', ''),
+  MYSQLREPLICAPORT: configEntry('CV_MYSQLREPLICAPORT', 3306, castInt),
   BUCKET_NAME: configEntry('CV_BUCKET_NAME', 'common-voice-corpus'),
   BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', ''),
   ENVIRONMENT: configEntry('ENVIRONMENT', 'default'),
