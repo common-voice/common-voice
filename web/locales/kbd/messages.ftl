@@ -146,9 +146,26 @@ zh-TW = Чынт (Тэйуэн)
 
 speak = Псалъэ
 speak-now = Иджы псалъэ
+datasets = Датэщэт
+languages = Бзэ
+about = ЩIыс
+profile = Напэ
+help = Пыкъу
+contact = Кэнтакт
+privacy = Щэху
+terms = ЩытыкIэ
+cookies = Кукий
+faq = УпщIэ
+share-title = ФыкъыддэIэпыкъу, адрехэр къэтгъуэтыну, зи макъ къыддэгуэшэн.
+share-text = ФыкъыддэIэпыкъу, мэшынэм цIыху псэлъэкIэ йаджыну, { $link }-м фи макъ хэвгъахъуэ
+link-copied = Линк копи
+back-top = Щхьэм
+logout = ИкI
 
 ## Home Page
 
+home-title = Common Voice-р Mozilla-м и гукъэкIщ, цIыху псэлъэкIэр мэшынэм иджыну доIэпыкъу.
+home-cta = Къэпсэлъ, мыдеж хэгъахъуэ!
 
 ## Account Benefits
 
