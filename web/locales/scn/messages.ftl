@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Sì, mànnami posta elittrònica. Vulissi arristari nfurmatu supra u pruggettu Common Voice.
+yes-receive-emails = Se, mànnami posta elittrònica. Vulissi arristari nfurmatu supra u pruggettu Common Voice.
 stayintouch = Mozilla sta ricugghiennu na cumunità di genti ntirissati ê tecnuluggìi vucali. Ni piacissi arristari 'n cuntattu cu tia pi nfurmàriti dî nuvità e dî novi funti di dati, ma macari pi sapiri comu usi i dati di Common Voice.
 privacy-info = Prumittemu di stari accura ê to dati. Leggi cchiù nfurmazziuna nnâ nostra <privacyLink>nfurmativa supra â privatizza</privacyLink>.
 return-to-cv = Torna a Common Voice
@@ -357,6 +357,7 @@ faq-how-get-a = I dati di Common Voice sunnu dispunìbbili p'èssiri scarricati 
 faq-when-release2-q = Quannu pubblicariti i dati di Common Voice nnall'autri lingui?
 faq-why-mission-q = Picchì Common Voice fa parti dâ missiuni di Mozilla?
 faq-what-cv-and-deepspeech-q = Qual'è a diffirenza ntra Common Voice e Deep Speech?
+faq-do-want-native-a = Se, circamu vuci comu chiḍḍa to! Unu di l'ubbittivi di Common Voice è chiḍḍu d'arricògghiri cchiù accenti pussìbbili, pi fari funziunari megghiu i sirbizza di ricanuscimentu vucali. Chistu veni a diri chi macari i cuntribbuti dî parranti ca nun su' matrilingua sunnu mpurtanti.
 faq-why-my-lang-q = Picchì a me lingua nun cc'è ancora?
 faq-why-10k-hours-q = Picchì l'ubbittivu di riggistrazziuni p'ogni lingua è di 10.000 uri validati?
 faq-why-10k-hours-a = Chistu è, sicunnu un càrculu apprussimativu, u nùmmaru di uri nicissariu pi furmari un sistema di ricanuscimentu vucali.
@@ -366,15 +367,20 @@ faq-where-src-from-2-q = D'unni veni u testu d'urìggini?
 
 ## ABOUT US
 
+about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita” quannu n'utenti l'appruva dànnuci un Se.
+about-yes-votes = ≥ 2 voti Se
+about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazziuni vucali àvi a èssiri appruvata di du' utenti diversi.
 
 ## Glossary
 
+hours-validated-explanation = U cuntu di l'uri dî riggistrazziuna vucali ca foru appruvati di 2 utenti supra a 3 c'un “Se”. Sti prugressi n'ajùtanu ad agghicari ô nostru ubbittivu di 10.000 uri.
 
 ## NotFound
 
 
 ## Data
 
+data-download-yes = Se
 review-terms = Usannu Common Voice, sì d'accordu chî nostri <termsLink>cunnizziuna d'usu</termsLink> e u nostru <privacyLink>abbisu di privatizza</privacyLink>
 terms-agree = Sugnu d'accordu
 terms-disagree = Nun sugnu d'accordu
