@@ -578,12 +578,45 @@ report-offensive-language-detail = A frasi cunteni un linguaggiu nun rispittusu 
 report-grammar-or-spelling = Erruri grammaticali o di ortugrafìa
 report-grammar-or-spelling-detail = A frasi àvi n'erruri grammaticali o d'ortugrafìa.
 report-different-language = Lingua diversa
+report-different-language-detail = È scritta nna na lingua diversa di chiḍḍa chi parru.
+report-difficult-pronounce = Diffìcili di prununciari
+report-difficult-pronounce-detail = Cunteni palori o frasi chi sunnu diffìcili di lèggiri o prununciari.
+report-offensive-speech = Linguaggiu uffinzivu
+report-offensive-speech-detail = A riggistrazziuni cuntenti un linguaggiu nun rispittusu o uffinzivu.
+report-other-comment =
+    .placeholder = Cummentu
+success = Fattu
+continue = Cuntinua
+report-success = A signalazziuni fu mmiata.
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Jornu
+       *[other] Jorna
+    }
+recordings =
+    { $count ->
+        [one] Riggistrazziuni
+       *[other] Riggistrazziuna
+    }
 
 ## Dashboard
 
+your-languages = I to lingui
+toward-next-goal = Ammeri u pròssimu ubbittivu
+clips-you-recorded = Riggistrazziuna fatti
+stats = Statìstichi
+awards = Premi
+you = Tu
+everyone = Tutti
+contribution-activity = Cuntribbuti
+top-contributors = Cullabburatura cchiù attivi
+recorded-clips = Riggistrazziuna fatti
+total-approved = Tutali appruvati
+overall-accuracy = Pricisiuni glubbali
+set-visibility = Mposta a me visibbilità
 
 ## Custom Goals
 
