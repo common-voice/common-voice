@@ -471,26 +471,113 @@ feedback-q = Ài suggirimenti?
 data-other-librispeech-description = LibriSpeech è un corpus cu circa 1000 uri di riggistrazziuna 'n ingrisi a 16kHz di audiulibbra dû pruggettu LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM fu crijatu dî cunfirenzi dispunìbbili dû situ TED, e dî so trascrizziuna.
+your-feedback = Ài suggirimenti supra a comu ammigghiurari i dati di Common Voice? Fannillu sapiri nne Discourse
+go-discourse = Vai nne Discourse
+missing-language = Nun vidi a to lingua? P'addumannari na lingua nova, vai nnâ pàggina dî Lingui.
+go-languages-page = Vai â pàggina dî Lingui
+ready-to-validate = Sì prontu ad appruvari quarchi frasi?
+more = Autru
+close = Chiuji
+download = Scàrrica
+dataset-version = Virsiuni
 
 ## Download Modal
 
+download-title = Accuminciasti u scarricamentu.
+download-form-email =
+    .label = Metti u to nnirizzu e-mail
+    .value = Grazzi, ni mittiremu 'n cuntattu
+download-back = Torna ê dati Common Voice
+download-no = No, grazzi
 
 ## Contact Modal
 
+contact-title = Mòdulu di cuntattu
+contact-form-name =
+    .label = Nomu
+contact-form-message =
+    .label = Missaggiu
+contact-required = *ubbligatoriu
 
 ## Request Language Modal
 
+request-language-title = Richiesta lingua
+request-language-form-language =
+    .label = Lingua
+request-language-success-title = Mannasti na richiesta pi na lingua, grazzi.
+select-language = Scegghi na lingua…
+other-language = Autra lingua
 
 ## Languages Overview
 
+language-section-launched = Partuti
+languages-show-more = Vidi cchiù assai
+languages-show-less = Vidi cchiù picca
+language-meter-in-progress = Prugressu
+language-total-progress = Tutali
+language-search-input =
+    .placeholder = Cerca
+language-speakers = Parratu di
+localized = Traduciuti
+sentences = Frasi
+total-hours = Uri appruvati
 
 ## Contribution
 
+action-click = Ammacca
+action-tap = Tocca
+contribute = Cuntribbuisci
+listen = Ascuta
 skip = Sauta
 shortcuts = Accurzi
+clips-with-count = <bold>{ $count }</bold> riggistrazziuna
+contribute-more =
+    { $count ->
+        [one] Sì prontu pi n'autra?
+       *[other] Sì prontu pi n'autri { $count }?
+    }
+record-cta = Accumincia a riggistrari
+record-platform-not-supported = Ni dispiaci, ma accamora a to chiattafurma nun è suppurtata.
+record-platform-not-supported-ios = L'utenti <bold>iOS</bold> ponnu scàrricari a nostra app a gratis:
+record-must-allow-microphone = Hâ pirmèttiri l'usu dû micròfunu.
+record-no-mic-found = Nun attruvai nuḍḍu micròfunu.
+record-error-too-short = A riggistrazziuni è troppu curta.
+record-error-too-long = A riggistrazziuni è troppu longa.
+record-error-too-quiet = U vulumi dâ riggistrazziuni è troppu vasciu.
+record-cancel = Sfai a nova riggistrazziuni
+record-instruction = { $actionType }<recordIcon></recordIcon> e leggi a frasi a vuci auta
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> quannu finisci
+record-three-more-instruction = Autri tri!
+record-again-instruction = Bonu!<recordIcon></recordIcon> Riggìstrani n'autra
+record-again-instruction2 = Vai accussì! Riggìstrani ancora n'autra <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> L'ùrtima!
+record-submit-tooltip = { $actionType } mmìa quannu sì prontu
+clips-uploaded = Riggistrazziuna carricati
+record-abort-title = Vo' allèstiri sta riggistrazziuni prima?
+record-abort-text = Si nesci ora, pirdirai chiḍḍu c'à' fattu
+record-abort-submit = Mmìa i riggistrazziuna
+record-abort-continue = Allesti a riggistrazziuni
+record-abort-delete = Nesci e cancella i riggistrazziuna
+listen-instruction = { $actionType }<playIcon></playIcon> liggeru bonu a frasi?
+listen-again-instruction = Bonu!<playIcon></playIcon> Ascùtani n'autra quannu sì prontu
+listen-3rd-time-instruction = Ni facisti dui, cuntinua accussì!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>L'ùrtima!
+nothing-to-validate = Nun cci sunnu riggistrazziuna d'appruvari nna sta lingua, ajùtani a jìnchiri sta lista.
+record-button-label = Riggistra a to vuci
+share-title-new = <bold>Ajùtani</bold> a 'ttruvari autri vuci
+keep-track-profile = Vidi soccu facisti c'un prufilu
+login-to-get-started = Trasi o riggìstrati p'accuminciari
 
 ## Reporting
 
+report = Signala
+report-title = Mmìa na signalazziuni
+report-ask = Chi prubblemi ài cu sta frasi?
+report-offensive-language = Linguaggiu uffinzivu
+report-offensive-language-detail = A frasi cunteni un linguaggiu nun rispittusu o uffinzivu.
+report-grammar-or-spelling = Erruri grammaticali o di ortugrafìa
+report-grammar-or-spelling-detail = A frasi àvi n'erruri grammaticali o d'ortugrafìa.
+report-different-language = Lingua diversa
 
 ## Goals
 
