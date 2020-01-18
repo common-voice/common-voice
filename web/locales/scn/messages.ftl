@@ -352,35 +352,86 @@ faq-what-cv-a =
     
     Nun stamu sulu ricugghiennu campiuna vucali nnê lingui cchiù parrati, ma macari nna chiḍḍi cu na pupulazziuni di parranti cchiù nica. Pubblicari nu nzemi di vuci diversi cci darà a pussibbilità ê diviluppatura, ê mprinnitura ed ê cumunità di pinzàricci iḍḍi stissi ad affruntari sta quistiuni. Sparti dû nzemi di dati di Common Voice, stamu diviluppannu macari un muturi lìbbiru di ricanuscimentu vucali chiamatu Deep Speech.
 faq-why-important-q = Picchì è mpurtanti?
+faq-why-important-a =
+    Parrari è spissu a manera cchiù naturali pi cumunicari, e i tecnuluggìi vucali stannu purtannu sta cummidità ê nostri cmoputer e dispusitivi mòbbili. Ci vulemu dari a pussibbilità ê diviluppatura di custrujiri appricazziuna ncridìbbili di ricanuscimentu vucali, a tipu traduttura 'n tempu riali o assistenti diggitali ca capìscinu soccu dici. Ora comu ora, a majuranza dî dati vucali nicissari pi custrujiri st'appricazziuna è custusa e prupitaria. Spiramu ca u puggettu Common Voice ci putissi dari ê diviluppatura chiḍḍu c'abbisògnanu pi fari nnuvazziuni e rènniri dispunìbbili a tecnuluggìa dû ricanuscimentu vucali pâ so lingua.
+    
+    Pi falla ancora cchiù univirsali, stamu aaricugghiennu campiuna vucali nnê lingui cchiù parrati e macari chiḍḍi cu na pupulazziuni di parranti cchiù nica, ca troppu spissu nun sunnu cunzidirati dî sirbizza cummirciali di ricanuscimentu vucali. Pubblicannu stu nzemi di dati dî voci, ci vulemu dari a pussibbilità ê diviluppatura, ê mprinnitura e macari ê cumunità di parranti d'arrisòrbiri sta mancanza iḍḍi stissi.
 faq-how-get-q = Comu pozzu scarricari i dati di Common Voice?
 faq-how-get-a = I dati di Common Voice sunnu dispunìbbili p'èssiri scarricati sutta a licenza <licenseLink>CC0</licenseLink> nnâ <datasetLink>nostra pàggina dî dati</datasetLink>. Po' puru scarricari autri dati dispunìbbili pubblicamenti dâ stissa pàggina.
 faq-when-release2-q = Quannu pubblicariti i dati di Common Voice nnall'autri lingui?
 faq-why-mission-q = Picchì Common Voice fa parti dâ missiuni di Mozilla?
 faq-what-cv-and-deepspeech-q = Qual'è a diffirenza ntra Common Voice e Deep Speech?
+faq-is-goal-assistant-q = L'ubbittivu di Common Voice è chiḍḍu di custrujiri n'assistenti vucali?
+faq-do-want-native-q = Parru a lingua ma 'un sugnu matrilingua, vuliti macari a me vuci?
 faq-do-want-native-a = Se, circamu vuci comu chiḍḍa to! Unu di l'ubbittivi di Common Voice è chiḍḍu d'arricògghiri cchiù accenti pussìbbili, pi fari funziunari megghiu i sirbizza di ricanuscimentu vucali. Chistu veni a diri chi macari i cuntribbuti dî parranti ca nun su' matrilingua sunnu mpurtanti.
+faq-why-different-speakers-q = Picchì abbisugnati di tutti sti parranti p'ogni lingua?
 faq-why-my-lang-q = Picchì a me lingua nun cc'è ancora?
+faq-what-quality-q = Chi liveḍḍu di qualità audiu abbisugnati pi fari appruvari na riggistrazziuni vucali?
 faq-why-10k-hours-q = Picchì l'ubbittivu di riggistrazziuni p'ogni lingua è di 10.000 uri validati?
 faq-why-10k-hours-a = Chistu è, sicunnu un càrculu apprussimativu, u nùmmaru di uri nicissariu pi furmari un sistema di ricanuscimentu vucali.
 faq-how-calc-hours-q = Comu càrcula l'uri Common Voice?
 faq-how-calc-hours-a = Carcùlamu l'uri stimannu a lunghizza midiana d'ogni riggistrazziuni, e murtiplicannu stu nùmmaru pû nùmmaru tutali di riggistrazziuna 'n tutti i lingui.
 faq-where-src-from-2-q = D'unni veni u testu d'urìggini?
+faq-why-not-ask-read-q = Picchì nun addumannati ê genti di lèggiri libbra o l'artìculi di Wikipedia nnê diversi lingui?
+faq-why-account-q = PIcchì avissi a riggistrari un cuntu?
+faq-is-account-public-q = I nfurmazziuna supra u me cuntu sunnu pùbblichi?
+faq-how-privacy-q = Comu garantiti l'anonimatu e a privatizza di chiḍḍi ca dònanu a so vuci?
+faq-what-determine-identity-q = Chi veni a diri chi nun pozzu “stabbiliri l'idintità” dî parranti dî dati Common Voice?
+faq-what-is-cv = Soccu è Common Voice?
+faq-using-cv = Usari Common Voice
+faq-description = Common Voice è un pruggettu di Mozilla pi nzignàrici ê màchini comu pàrranu i genti nnâ vita vera.
+faq-search-for-answers =
+    .label = Cerca risposti
 
 ## ABOUT US
 
+about-title = Picchì Common Voice?
+about-subtitle = Common Voice è un pruggettu di Mozilla pi nzignàrici ê màchini comu pàrranu i genti nnâ vita vera. Sparti chistu, stamu macari custrujennu un muturi di ricanuscimentu vucali lìbbiru chiamatu Deep Speech.
+how-does-it-work-title = Comu funziona?
+how-does-it-work-text = Stamu arricugghiennu nu nzemi lìbbiru di vuci. Dùnani a to vuci, cuntrolla l'accuratizza dî riggistrazziuna vucali di l'autri, ammigghiura i dati pi tutti.
+about-speak = Parra
+about-listen = Ascuta
+about-is-it-valid = A riggistrazziuni è vàlita?
 about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita” quannu n'utenti l'appruva dànnuci un Se.
 about-yes-votes = ≥ 2 voti Se
 about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazziuni vucali àvi a èssiri appruvata di du' utenti diversi.
+about-no-votes = ≥ 2 voti No
+about-nav-why-common-voice = Picchì?
+about-nav-how-it-works = Comu?
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Ntiliggenza artificiali
 
 ## Glossary
 
+glossary = Glussariu
+localization = Lucalizzazziuni
+localization-explanation = Chistu è u nostru prucessu pi tradurri e adattari i nostri cuntinuti pî diversi lingui.
+sentence-collection = Ricota di frasi
+sentence-collection-explanation = Ricògghiri frasi dû duminiu pùbblicu, o scrivìrini novi pû duminiu pùbblicu.
+hours-recorded-explanation = U cuntu di l'uri di riggistrazziuni c'âmu ricugghiutu nzinu a ora.
 hours-validated-explanation = U cuntu di l'uri dî riggistrazziuna vucali ca foru appruvati di 2 utenti supra a 3 c'un “Se”. Sti prugressi n'ajùtanu ad agghicari ô nostru ubbittivu di 10.000 uri.
+sst = Ricanuscimentu vucali (Speech-to-text, STT)
+sst-explanation = I tecnuluggìi di ricanuscimentu vucali (STT) càncianu a vuci 'n testu.
+de-identified = Anunimizzazziuni
 
 ## NotFound
 
 
 ## Data
 
+data-download-button = Scàrrica i dati di Common Voice
 data-download-yes = Se
+data-download-deny = No
+data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
+data-download-modal = Stai accuminciannu nu scarricamentu di <size>{ $size }GB</size>, vo' cuntinuari?
+data-get-started = <speechBlogLink>Accumincia cû ricanuscimentu vucali</speechBlogLink>
+data-other-title = Autri dati vucali…
+data-other-goto = Vai nne { $name }
+data-other-download = Scàrrica i dati
+data-bundle-button = Scàrrica u pacchetti dî dati
+data-bundle-description = I dati di Common Voice cu tutti l'autri dati cca supra.
+license = Licenza: <licenseLink>{ $license }</licenseLink>
+license-mixed = Ammiscata
 review-terms = Usannu Common Voice, sì d'accordu chî nostri <termsLink>cunnizziuna d'usu</termsLink> e u nostru <privacyLink>abbisu di privatizza</privacyLink>
 terms-agree = Sugnu d'accordu
 terms-disagree = Nun sugnu d'accordu
