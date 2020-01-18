@@ -400,19 +400,30 @@ faq-search-for-answers =
 
 about-title = Zergatik Common Voice?
 how-does-it-work-title = Nola dabilen
+how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabaketen egokitasuna, egin datu-sorta hobea guztiontzat.
 about-speak = Hitz egin
+about-speak-text = Parte hartzaileek beraien grabaketak egiten dituzte aurretik lagatako esaldi biltegi batetik esaldiak irakurriz.
 about-listen-queue = Entzuketa ilara
+about-listen-queue-text = Ahots grabaketak ilara batean sartzen dira eta parte hartzaileek entzuteko prest geratzen dira.
 about-listen = Entzun
+about-listen-text = Erabiltzaileek jasotako grabaketak egokiak diren erabakitzen dute, hizlariak esaldia ondo ahoskatu duen egiaztatuz.
 about-is-it-valid = Grabaketa baliozkoa da?
 about-is-it-valid-text = Ahots grabaketa bat "baliozkoa" bezala markatzen da erabiltzaile batek Bai bozkatzen duenean.
-about-yes-votes = ≥ 2 Bai bozka
-about-no-votes = ≥ 2 Ez bozka
+about-yes-votes = Baiezko 2 bozka edo gehiago
+about-yes-votes-text = Common Voice datu-sortan sartua izan dadin, ahots grabaketa bi balioztatzaile desberdinen oniritzia jaso behar du.
+about-no-votes = Ezezko 2 bozka edo gehiago
+about-no-votes-text = Erabiltzaile batek ahots grabaketa bat errefusatzen duenean ilarara itzultzen da. Bigarrenez errefusatua izaten bada, Grabaketen hilerrian gordetzen da.
 about-dataset-new = Common Voice datu-sorta
+about-dataset-new-text = Common Voice datu-sortak ehunka mila ahots laginez osatuta dago, garatzaileei ahotsaren ezagutzarako tresnak sortzen laguntzen diena.
 about-clip-graveyard = Grabaketen hilerria
 about-clip-graveyard-text = Grabaketen hilerria Common Voice datu-sortan sartu ez diren ahots grabaketez osatuta dago. Datu-sorta bezala, Grabaketen hilerria ere deskargagarri dago.
 about-partners = Babesleak
 about-become-a-partner = Babesle bihurtu
 about-get-involved = Parte hartu
+about-get-involved-text =
+    Common Voice hobeto lagundu nahi duzu?
+    Bikain! Kontaktatu gurekin epostaz edo <discourseLink>Discourse</discourseLink> bidez,
+    <githubLink>GitHub</githubLink>-en feedback bat bidaliz, edo batu zaitez gure <slackLink>Slack</slackLink>-era.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
@@ -556,7 +567,7 @@ other-language = Bestelako hizkuntza
 language-section-in-progress = Prestatzen
 language-section-in-progress-new-description = Komunitatea oraintxe bertan hizkuntza hauek lantzen ari da. Aurrerapen barrak adierazten du hizkuntza bakoitzak zenbat aurreratu duen <localizationGlossaryLink>webgunea lokalitzatzen</localizationGlossaryLink> eta <sentenceCollectionGlossaryLink>esaldiak biltzen</sentenceCollectionGlossaryLink>.
 language-section-launched = Martxan
-language-section-launched-description = Hizkuntza hauetan webgunea behar beste <localizationGlossaryLink>lokalizatu</localizationGlossaryLink>  eta <sentenceCollectionGlossaryLink>esaldiak bildu</sentenceCollectionGlossaryLink> dira eta ondorioz laguntzaileak <speakLink>Hiz egin</speakLink> eta <listenLink>Entzun</listenLink> ekarpenak ari dira egiten.
+language-section-launched-description = Hizkuntza hauetan webgunea behar beste <localizationGlossaryLink>lokalizatu</localizationGlossaryLink>  eta <sentenceCollectionGlossaryLink>esaldiak bildu</sentenceCollectionGlossaryLink> dira eta ondorioz laguntzaileak <speakLink>Hitz egin</speakLink> eta <listenLink>Entzun</listenLink> ekarpenak ari dira egiten.
 languages-show-more = Ikusi gehiago
 languages-show-less = Ikusi gutxiago
 language-meter-in-progress = Aurrerapena
