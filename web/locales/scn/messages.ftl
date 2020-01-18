@@ -435,9 +435,42 @@ license-mixed = Ammiscata
 review-terms = Usannu Common Voice, sì d'accordu chî nostri <termsLink>cunnizziuna d'usu</termsLink> e u nostru <privacyLink>abbisu di privatizza</privacyLink>
 terms-agree = Sugnu d'accordu
 terms-disagree = Nun sugnu d'accordu
+review-aborted = U carricamentu sfallìu. Vo' cancillari i to riggistrazziuna?
+review-submit-title = Senti arrè e manna
+review-submit-msg = Grazzi pâ riggistrazziuni!<lineBreak></lineBreak>Ora senti arrè i to riggistrazziuna, e mànnali.
+review-recording = Senti arrè
+review-rerecord = Riggistra arrè
+review-cancel = Sfai mmìu
+review-keep-recordings = Sarba i riggistrazziuna
+review-delete-recordings = Cancella i me riggistrazziuna
 
 ## Datasets Page
 
+language = Lingua
+# File size in gigabytes
+size = Grannizza
+validated-hr-total = Tutali uri appruvati
+overall-hr-total = Tutali uri
+cv-license = Licenza
+audio-format = Furmatu audiu
+number-of-voices = Nùmmaru dî vuci
+splits = Spartuti
+email-to-download = Metti nu nnirizzu e-mail pi scarricari
+why-email = <b>Picchì serbi nu nnirizzu e-mail?</b> Putìssimu aviri bisognu di cuntattàriti 'n futuru pi canciamenti nnî dati.
+confirm-size = Sì prontu p'accuminciari nu scarricamentu di <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Accetti</b> di nun pruvari a stabbiliri l'idintità dî parranti prisenti nnî dati di Common Voice
+download-language = Scàrrica { $language }
+validated-hours = Uri appruvati
+recorded-hours = Uri riggistrati
+whats-inside = Soccu cc'è nnî dati Common Voice?
+get-started-speech = Accumincia cû ricanuscimentu vucali
+other-datasets = Autri dati vucali
+feedback-q = Ài suggirimenti?
+data-other-librispeech-description = LibriSpeech è un corpus cu circa 1000 uri di riggistrazziuna 'n ingrisi a 16kHz di audiulibbra dû pruggettu LibriVox.
+data-other-ted-name = Corpus TED-LIUM
+data-other-ted-description = U corpus TED-LIUM fu crijatu dî cunfirenzi dispunìbbili dû situ TED, e dî so trascrizziuna.
 
 ## Download Modal
 
