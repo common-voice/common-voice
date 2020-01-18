@@ -620,7 +620,18 @@ login-to-get-started = Hasteko, hasi saioa edo eman izena
 
 ## Reporting
 
+report = Salatu
+report-title = Bidali salaketa bat
+report-offensive-language = Hizkuntza iraingarria
+report-grammar-or-spelling = Akats gramatikala / ortografikoa
+report-different-language = Beste hizkuntza bat
+report-difficult-pronounce = Ahoskatzeko zaila
+report-offensive-speech = Hizkuntza iraingarria
+report-other-comment =
+    .placeholder = Iruzkina
+success = Ondo burutu da
 continue = Jarraitu
+report-success = Salaketa ondo bidali da
 
 ## Goals
 
@@ -658,6 +669,7 @@ recorded-clips = Egindako grabaketak
 validated-clips = Balioztatutako grabaketak
 total-approved = Onartuak guztira
 overall-accuracy = Zehaztasun orokorra
+set-visibility = Ezarri nire ikusgarritasuna
 
 ## Custom Goals
 
@@ -680,6 +692,9 @@ not-receiving-emails-info =
     Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren
     eguneraketak eta buletinak posta elektroniko bidez jasotzeko aukera <bold>EZ</bold> duzu ezarrita
 confirm-goal = Berretsi helburua
+share-goal-type-speak = Hitz egiten
+share-goal-type-listen = Entzuten
+share-goal-type-both = Hitz egiten eta entzuten
 share-goal = Partekatu nire helburua
 
 ## Profile Delete
@@ -697,5 +712,6 @@ profile-form-delete = Ezabatu profila
 
 ## Landing
 
+login-company = Hasi saioa / Eman izena { $company }-ko epostarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 read-more-about = Irakurri gehiago guri buruzko orrian
