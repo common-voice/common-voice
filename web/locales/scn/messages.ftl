@@ -396,6 +396,7 @@ about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita�
 about-yes-votes = ≥ 2 voti Se
 about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazziuni vucali àvi a èssiri appruvata di du' utenti diversi.
 about-no-votes = ≥ 2 voti No
+about-get-involved = Cullàbbura
 about-nav-why-common-voice = Picchì?
 about-nav-how-it-works = Comu?
 mycroft-title = Mycroft Ai
@@ -416,6 +417,8 @@ de-identified = Anunimizzazziuni
 
 ## NotFound
 
+notfound-title = Nun u truvai
+notfound-content = Nun potti attruvari chiḍḍu ca stai circannu.
 
 ## Data
 
@@ -623,6 +626,9 @@ set-visibility = Mposta a me visibbilità
 
 ## Profile Delete
 
+profile-form-delete = Cancella prufilu
 
 ## Landing
 
+welcome-staff = Bimminutu, mèmmiru di { $company }.
+login-company = Trasi / Riggìstrati cu nu nnirizzu e-mail di { $company }
