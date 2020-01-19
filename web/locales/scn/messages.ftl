@@ -623,12 +623,31 @@ set-visibility = Mposta a me visibbilità
 
 ## Custom Goals
 
+easy-difficulty = Fàcili
+average-difficulty = Nurmali
+difficult-difficulty = Diffìcili
+pro-difficulty = Mastru
+want-to-continue = Vo' cuntinuari?
+how-many-per-day = Granni! Quanti riggistrazziuna ô jornu?
+how-many-a-week = Granni! Quanti riggistrazziuna â simana?
+which-goal-type = Vo' parrari, ascutari o tutti du'?
+n-clips = { NUMBER($count) } riggistrazziuna
+help-share-goal = Ajùtani ad attruvari cchiù vuci, sparti u to ubbittivu
+share-goal-type-speak = Parrari
+share-goal-type-listen = Ascutari
+share-goal-type-both = Parrari ed ascutari
+share-goal = Sparti u me ubbittivu
 
 ## Profile Delete
 
+delete-q = Vo' cancillari macari i to riggistrazziuna, o i vo' tèniri nnî dati Common Voice?
+keep = Teni
+remove = Cancella
 profile-form-delete = Cancella prufilu
 
 ## Landing
 
 welcome-staff = Bimminutu, mèmmiru di { $company }.
 login-company = Trasi / Riggìstrati cu nu nnirizzu e-mail di { $company }
+profile-not-required = Aviri un prufilu nun è ubbligatoriu pi cuntribbuiri, ma po èssiri ùtili: vidi picchì cchiù sutta.
+read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
