@@ -1651,6 +1651,7 @@ Iba muy contenta con su traje nuevo.
 Iba todo ciego porque se pilló una buena cogorza
 Iba todo tan bien...
 Iba viento en popa pero al final le salió rana
+Igualmente pido por favor
 Inclusive hay quienes perezosos, y por ende sin afanes
 Incluso el silencio es propiedad de alguien
 Incluso tuvieron que llamar a la policía.
@@ -1895,6 +1896,7 @@ La serie ya se acaba.
 La sesión se hará a puerta cerrada.
 La sierra de Pàndols fue testigo de batallas sangrientas.
 La similitud era evidente
+La situación actual del Cambio Climático en un ámbito general
 La sopa de ajos con jamón no deja de ser una pijada
 La subida a la ermita se hacía de rodillas.
 La suerte está echada y ya solo nos queda esperar
@@ -2178,6 +2180,7 @@ Los siguientes capítulos harán pensar en ansias de poder.
 Los socialistas llevaban ordenador los plenos.
 Los soldados destruyeron el puente, la guerra ha terminado
 Los superventas no necesitan de las redes de intercambio
+Los superventas con los que habitualmente se reúne
 Los tacos que salen de tu boquita de piñón son deliciosos, Marc.
 Los taxistas han cortado los accesos al aeropuerto de El Prat.
 Los taxistas mantienen la huelga indefinida.
@@ -3271,6 +3274,7 @@ Si el trabajo es salud, qué viva la enfermedad
 Si es así, no se puede confiar en la seguridad del servicio
 Si es robado, sabe mejor
 Si este año llueve, será un milagro.
+Si este cantante va a tu ciudad
 Si esto lo hiciera uno de cada cien fanáticos
 Si estás ejecutando Debian en una máquina virtual
 Si fuera en invierno aún. Pero ahora no importa.
@@ -3995,6 +3999,7 @@ acurrucadas al borde del camino, como si tiritasen bajo aquel sol ardiente
 adaptado por nosotros a manera de modelo
 adelantaban trabajosamente enterrando los cascos en la arena negra y movediza.
 además de generar un kit de herramientas para cada una
+además de su neutralidad e imparcialidad que facilitaría su trabajo
 además de un santo, era mi abuelo.
 adoptaba una actitud lúgubre de poeta sepulturero y doliente.
 adquiere atributo cuando en conjunción con la cinta magnetofónica crea el silencio
@@ -4335,6 +4340,7 @@ como San Francisco de Sena!
 como a todo el que tiene el bicho dentro.
 como a un ternero. si ser tuya significa eso...
 como afecta el cambio específicamente a Andalucía
+como afecta este específicamente a Andalucía
 como cabos, bombillas.
 como dejar de fumar. uno no lo deja
 como el fenómeno triunfal ya no puede pretender explicar la realidad
@@ -4502,6 +4508,7 @@ cuando estuvimos cerca, los cocodrilos entraron perezosamente en el agua.
 cuando estás a punto de caer
 cuando estás en un ambiente “muy de hombres”
 cuando habla de su caso resume bien el de otros muchos
+cuando hace estas declaraciones
 cuando la Niña Chole asomó en la puerta, ya parecía serena.
 cuando la Niña Chole reapareció en el patio.
 cuando la Tierra recupere su magnetismo
@@ -5054,6 +5061,7 @@ en realidad no es más que una muestra
 en seguida volvióse a mí con gentil escorzo de todo el busto:
 en señal de protesta
 en señal de que todo está correcto
+en sus aspectos ecofeministas, agrícolas y ganaderos
 en sus labios aún vagaba dormido un rezo.
 en treinta segundos estaremos fuera.
 en tu estado no es buena idea ponerse a hacer bricolaje.
@@ -5683,10 +5691,12 @@ instintivamente volví la cabeza, y mis ojos descubrieron a la Niña Chole.
 intenta relajarte. respira profundamente.
 intenta solucionar el problema o deshabilitar el repositorio.
 intentando cogerles el punto a las redes punto a punto
+intentaran que los autores al menos pudieran picar algo
 intento evitarlo y no puedo.
 internet
 interrumpiéndose y tornando a empezar, siempre zongueando cuitas de paria y de celoso:
 interrumpióse volviendo la cabeza con gracioso movimiento
+interviniendo en el mismo sus compañeros mas cercanos
 intervinieron sus compañeros mas cercanos y su familia
 ir despertando el deseo
 iremos a escondernos en mi Hacienda de Tixul.
@@ -6016,6 +6026,7 @@ lo primero que se debe hacer es asegurarse
 lo primero que ves al despertarte es el mar.
 lo que deberías hacer
 lo que indica que hay algo en su tracto gastrointestinal
+lo que los superventas ya tienen: publicidad.
 lo que me faltaba ya, ectoplasmas en el dormitorio.
 lo que me molestaba enormemente
 lo que no entiendo, Vilma, es que si no me quieres
@@ -6077,6 +6088,7 @@ los dos respondimos a un tiempo:
 los dos ríen envueltos en un salsero que les moja la cara.
 los dotados de poderes telepáticos tienen la capacidad de tararear
 los ecologistas hacen público un extenso informe
+los efectos que las descargas tienen sobre ellos
 los empresarios que fabrican cantantes en sus despachos
 los encontramos ayer. los avistamos a seis millas.
 los esclavos eran tan numerosos como ellos mismos
@@ -6566,6 +6578,7 @@ no siga, Palomares.
 no sirve de nada cerrar los ojos a los problemas
 no solo a una, mira.
 no solo con el panoli ese al que abrazabas en el camarote.
+no solo no son representativos
 no solo no tienen por qué estar de acuerdo con los artículos ajenos
 no solo tenía ochenta y tres años sino que además estaba muerta
 no solo tienen grandes posibilidades de negociación
@@ -7060,6 +7073,7 @@ pregonando con femeniles voces abanicos de sándalo y bastones de carey.
 pregunte y le dirán quién es el general Diego Bermúdez.
 premura por hacerlo desaparecer
 presto tuvo corro de jugadores.
+pretende referirse al proletariado de la música
 pretendía dar inmunidad a las empresas propietarias
 previamente tuvimos que comunicar al “cuartelillo” que nos íbamos a juntar a beber vino
 primero, ¿ ha habido besos, magreos o solo coqueteos tontos?
@@ -7196,6 +7210,7 @@ que igual ya no hace falta.
 que impensadamente la toma al vuelo y se lanza con ella a la escala.
 que incluyen el tramo de El Fargue-Saleres
 que la persona receptora del mensaje podía ser
+que la proponga públicamente
 que las copias realizadas para uso privado
 que las multinacionales buscan un mercado predecible no es una suposición
 que le den por saco a todo
@@ -7329,6 +7344,7 @@ reina mora. hola.
 reina y señora, velar tu sueño.
 rejuvenecido y feliz, con cierta felicidad melancólica
 relación de foros nacionales e internacionales donde se habían discutido
+rendimos homenaje al fallecido activista
 repartid eso y dejadnos.
 repito, que nadie suba a cubierta.
 repito. que nadie salga hasta nueva orden.
@@ -7338,7 +7354,9 @@ requiere que los fabricantes de dispositivos verifiquen
 respondí con una vaga sonrisa.
 resulta costosa de romper
 retirarme a descansar, hermana.
+retire temporalmente las competencias en materia de cultura
 retorciéndose las manos, pálida, casi trágica, se adelantaba exclamando:
+revertir la destrucción del patrimonio
 revisa el barco de arriba a abajo, hay que encontrarlo antes
 revisarnos a nosotras mismas de manera constante en cada acto
 revoloteaba en mi memoria, surgía entre la niebla de mis pensamientos, ingrávido, funambulesco, torturador.
@@ -7400,6 +7418,7 @@ se ha movido. mira.
 se ha parado.
 se habló de aspectos relacionados con la despoblación
 se habló de aspectos relacionados con la despoblación de las zonas rurales
+se habló específicamente de la situación del mundo rural
 se han desarrollado diveras actividades en cuatro jornadas
 se han intentado casi todos los caminos
 se humedecen los labios.
@@ -7460,6 +7479,7 @@ señor, el ruano que montaba la Niña tiene desenclavada una herradura...
 señor, mal se verá para seguirme, porque parto en el mero instante.
 señoreaba en los caminos y en las ventas:
 si Valeria desea un hermanito, tendremos que darle un hermanito
+si alguien tiene una mejor solución
 si bajan las pulsaciones del feto, me llama urgentemente.
 si cambiamos el rumbo, volaremos por los aires.
 si crees en ellos y en la Navidad, vienen.
@@ -7489,6 +7509,7 @@ si los músicos tuvieran que vivir de la venta de sus discos
 si los músicos vivieran de la venta de sus discos
 si me permite, le ayudo.
 si me ponía a jugar con amigos online y me soltaban burradas
+si merece la pena asistir o no
 si necesitas un microscopio para ver la cosita, mal vamos.
 si no, no creo que el pato pueda sobrevivir
 si no, nos comen vivos. Roberto.
@@ -7672,6 +7693,7 @@ suban a la planta superior.
 sube un pie y otro pie.
 subirse a una apisonadora y aplastar compactos
 sumergíase en la niebla del pasado y saboreaba el placer de los recuerdos
+supone el vivir en estas zonas rurales.
 supongo que eso es parte del trato de ser amigos.
 supongo que hubiera preferido mil veces que me abofeteara
 supongo que tenemos que hablar, ¿ no?
@@ -7877,6 +7899,7 @@ transmitir material protegido
 tras el zumbido, se entra en la renglonadura de la púrpura teologal y ascética
 tras ella salieron los criados, y la Niña Chole quedó sola conmigo.
 tras la publicación de estos contenidos
+traspase dichas competencias culturales temporalmente
 tratando de que estas compañías tomaran alguna acción
 trataron de hacer tragar las cubiteras
 tratóse en tropel de izar al negro:
@@ -7897,6 +7920,7 @@ um, colonia, ¿ eh?
 un acceso no autorizado y que se depuren responsabilidades
 un asunto de vida o muerte
 un cerebro provinciano... eh, con cuidado, chicas.
+un contexto desesperado de perdida y destrucción del patrimonio
 un empujoncito, y se lo vamos a dar.
 un entendimiento apasionado por la asimilación de semejanzas
 un grupo que terminó gustándonos

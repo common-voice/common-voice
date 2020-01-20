@@ -2177,6 +2177,7 @@ Illes stava erecte in riga.
 Illes suffereva multo.
 Illes vive a proximitate.
 Illes vive presso.
+Illes vive super le nive e glacie del Polos e in junglas tropic.
 Illes vole que io les adjuta con lor problema.
 Illes vole solmente facer un exemplo de me e usar me como capro expiatori.
 Illes voleva facer se prestar le auto.
@@ -3105,6 +3106,8 @@ Io sera in mi officio.
 Io simplemente non comprende tote iste nonsenso.
 Io sojorna presso mi oncle in Tokio.
 Io soleva facer un promenada in le matino.
+Io soleva jocar al tennis como juvene studente.
+Io solmente non vole maritar me con te.
 Io solo aperiva illo.
 Io solo destrueva mi digito de pede.
 Io solo me prestava illo.
@@ -3113,8 +3116,10 @@ Io sona le violin.
 Io sovente le vide.
 Io sovente viagia.
 Io spectava le concerto vive.
+Io spera que le joco de balla de hodie non essera annullate.
 Io spera que parte del lineas te face surrider.
 Io spera que tu habera successo.
+Io spera que vostre plano va functionar.
 Io sta ben, gratias.
 Io sta ben.
 Io stara ben.
@@ -3122,6 +3127,8 @@ Io sternutava tote le tempore.
 Io studia espaniol.
 Io studia interlingua le lingua musical e belle que, que facilemente tu comprende.
 Io studia italiano.
+Io studiava nulle de iste duo linguas.
+Io succedeva a finir le labor.
 Io succedeva de arrivar illac in tempore.
 Io suffre de arthritis.
 Io suffre de syndrome de tunnel carpal.
@@ -3132,12 +3139,19 @@ Io te adjutara.
 Io te ama
 Io te ama comocunque.
 Io te ama plus profundemente que io pote dicer.
+Io te ama plus que quicunque altere.
+Io te ama plus que tu ama me.
+Io te ama precisemente como tu es.
+Io te ama tanto plus pro tu faltas.
 Io te ama troppo.
+Io te ama, cara mie.
 Io te ama.
 Io te appoiara non importa lo que alteres pote dicer.
 Io te crede sempre.
 Io te crede.
 Io te da mi parola.
+Io te dara un altere par de dies pro reflecter.
+Io te dara un poco plus tempore pro reflecter.
 Io te debe un lunch.
 Io te demanda de remaner.
 Io te detesta.
@@ -3219,7 +3233,12 @@ Io vive in un appartamento.
 Io vocara mi marito.
 Io vole alcun moneta.
 Io vole ancora ir.
+Io vole apprender francese.
+Io vole aqua.
 Io vole ascoltar tu historia.
+Io vole cantar un cantion.
+Io vole clarificar que io non cambiara de opinion.
+Io vole comprar un nove computator.
 Io vole comprar un parve presente pro Ben e visitar le in le hospital.
 Io vole controlar alcunes de mi objectos de valor.
 Io vole dansar.
@@ -3229,8 +3248,13 @@ Io vole dicer: tal cosas non se dice, non mesmo como burla!
 Io vole esser con te.
 Io vole exir de ci!
 Io vole illo.
+Io vole inseniar francese.
+Io vole inviar iste littera a Japon.
+Io vole ir al paradiso, ma io non vole morir pro arrivar la!
 Io vole justo reposar.
 Io vole justo saper.
+Io vole morir con Getter Jaani.
+Io vole nettar le casa ante que mi parentes veni.
 Io vole passar le natal con te.
 Io vole solo adjutar te.
 Io vole solo adjutar.
@@ -3252,13 +3276,20 @@ Io volerea facer plus.
 Io volerea indicar alcun problemas a proposito de tu suggestion.
 Io volerea ir a casa ora.
 Io volerea levar me.
+Io volerea poter ir con te.
+Io volerea que tu me assiste con mi jardinage.
 Io volerea star plus longe tempore.
+Io volerea succo de fructos.
+Io volerea un bottilia de sirop antitussive.
+Io volerea un tassa de caffe.
 Io voleva solo moneta moneta contante.
 Io voleva solo te parlar.
 Io voleva un vita melior.
+Iste accenditor non functiona.
 Iste alimento es sin glutine.
 Iste appartamento ha securmente plure aspectos positive respecto al altere.
 Iste aqua sapora bon.
+Iste arbores esseva plantate per illes.
 Iste arboretto devenira un vice un gigantesc arbore de querco.
 Iste area de parco es solo pro le clientes.
 Iste ballada es assi facile a retener, io ama illo!
@@ -3267,7 +3298,10 @@ Iste bibliotheca contine plus de cinquanta milles volumines.
 Iste bira ha essite preparate in Germania, plus specificamente in Bavaria.
 Iste caffe es bastante forte.
 Iste camera es grande bastante.
+Iste camisa debe esser lavate.
+Iste can curre multo rapidemente.
 Iste can es mie.
+Iste cappello rubie corresponde ben a su veste.
 Iste cavallo ha plus que un cavallo-vapor de potentia.
 Iste cisorios pote secar metallo.
 Iste comportamento de retes neural es aliquando appellate sonio.
@@ -3288,14 +3322,20 @@ Iste film es dur a reguardar ora.
 Iste film es dur reguardar in iste dies.
 Iste hirundine pipa, twitta, sin connexion a Internet e ha un essame de sequaces.
 Iste historia es sufficientemente curte pro esser legite in un hora.
+Iste information es confidential.
 Iste invention esseva le resultato de annos de experimentos patiente.
+Iste labor es impossibile a facer pro me.
+Iste labor pote esser finite in un medie hora.
 Iste libro es multo bon.
 Iste libro es multo micre.
 Iste libro es nove.
 Iste libro es pesante.
 Iste libro es pro studentes de qui le lingua materne non es japonese.
 Iste libro es si facile que mesmo un infante pote leger lo.
+Iste libro es troppo difficile a comprender.
+Iste libro es un del melior obras del poeta.
 Iste libro facera successo.
+Iste libro non tracta de linguistica.
 Iste littera es pro te.
 Iste loco es assatis grande.
 Iste machina produce electricitate.
@@ -3303,37 +3343,49 @@ Iste matino il se clarava.
 Iste matino io non sta multo ben, io me senti estranie.
 Iste melodias ha un sono dulce.
 Iste mercato ha un grande varietate de productos.
+Iste molecula ha un structura crystallin.
 Iste non es justo.
+Iste nove cantator es vermente superbe.
 Iste novella es plus interessante que illo que io legeva le septimana passate.
 Iste ovo es fresc.
 Iste pais ha multe vegetation e un fauna variate.
+Iste parola non se traduce ben.
 Iste parolas non figura in le lista.
 Iste parte del citate ha essite medietate residential, medietate industrial.
 Iste particula converte un substantivo in un verbo.
 Iste passage es reservate exclusivemente pro brossas a dentes.
 Iste pictura es conspicue per su colores discordante.
 Iste pictura es pur arte.
+Iste pisce ole mal.
 Iste platto es un delicia.
 Iste presto portara un interesse multo alte.
 Iste problema sembla facile a prime vista, ma es vermente difficile.
 Iste producto es costose.
 Iste projecto sera troppo costose.
 Iste puero es pigre.
+Iste puero resimila a su patre.
 Iste question ethic es referite como le problema del trolley.
 Iste region del pais es particularmente frigide.
 Iste responsa non es correcte, ma me sona interessante.
+Iste resultato lassa multo a desirar.
+Iste riviera flue rapidemente.
 Iste roba se sente morbide.
+Iste scriptorio es mie.
 Iste scriptorio esseva troppo pesante pro levar.
 Iste sedia es fede.
 Iste senior pagara toto
 Iste seniora vole pagar toto
+Iste stagno non se desicca, mesmo in le etate.
 Iste station balneari non es plus tanto popular como antea.
+Iste tappo non va sur le bottilia.
 Iste texto mira a includer un serie differente de vocabulos.
 Iste thema ja ha essite abbordate.
 Iste tracto de strata es destinate al vehiculos agricole.
 Iste vaso rupte es de mi granpatre.
+Iste vision me horripilava.
 Istes es le electos del assemblea, le principes de lor
 Istes es le electos del assemblea, le principes de lor tribos ancestral.
+Isto destrueva tote su sonios.
 Isto deveni difficile.
 Isto dicite, io debe adder que io mesme etiam non es toto secur.
 Isto e nihil plus.
@@ -3353,6 +3405,7 @@ Isto es le cosa le plus stupide que io ha jammais dicite.
 Isto es le die del Senior: que nos exulta e nos allegra!
 Isto es le le pejor de toto.
 Isto es le linea de Aharon e Moses al tempore ubi le Senior
+Isto es le loco ubi le incidente occurreva.
 Isto es le plus forte candidato pro le rolo.
 Isto es le prime petra.
 Isto es le prime vice que illo occurre.
@@ -3379,6 +3432,7 @@ Isto es un absurdo!
 Isto es un amico mie.
 Isto es un facto.
 Isto es un lection de vita.
+Isto es un linguage fede.
 Isto es un mal que Deo da al filios de Adam pro les tormentar.
 Isto es un opportunitate de auro que nos esserea stupide de lassar passar.
 Isto es un pagoda.
@@ -3494,10 +3548,13 @@ Le aere fresc sentiva meraviliose super mi facie.
 Le aeroplano se ha justo levate.
 Le affluentia de nutrimento face bassar le precios.
 Le agente entrava secretemente in le ambassada ab le tecto.
+Le agitation durava tres dies.
 Le agricultura es definite como le cultura del solo pro elevar recoltas.
+Le alarma sonava a cinque horas e medie.
 Le alte humiditate me rende sudate.
 Le altere equipa tentava impedir le de transversar le linea.
 Le altere propositiones relative es le objecto del proclamation.
+Le amicitate vale plus que auro.
 Le amor del moneta es le radice de tote le mal.
 Le amor es cec.
 Le ancian pictura al oleo italian nunquam esseva exhibite in publico.
@@ -3515,6 +3572,7 @@ Le aqua bullira post circa cinque minutas.
 Le aqua salate es plus flottabile que le aqua dulce.
 Le arbitro decideva pro un tiro libere in vice de un tiro de penalty.
 Le arbores de limon non es jalne, illo es simplemente le fructo.
+Le arbores ha comenciate a gemmar.
 Le archeologos ha trovate uno skeleto de dinosauro.
 Le archero occideva le cervo.
 Le architecto se vantava de haber recipite un premio prestigiose.
@@ -3535,19 +3593,24 @@ Le auto costava cinque milles dollares e, ultra illo, non functionava ben.
 Le autobuses in Montgomery esseva segregate.
 Le autostrata non es le connexion plus veloce inter Hamburg e Munich.
 Le autumno fini e veni le hiberno.
+Le avaritia es le radice de tote le mal.
 Le aves canta.
 Le aves migratores comencia arrivar.
 Le aves vola.
 Le avion a jecto atterrava sequente le instructiones del turre de controlo.
 Le avion a jecto attingeva Narita un hora in retardo.
 Le avion a jecto habeva cinque centos passageros a bordo.
+Le avion a jecto volava via in un instante.
+Le avion volava super le montania.
 Le aviones a jecto vola multo plus velocemente que le aviones a helice.
+Le aviones non ha ancora partite.
 Le avisos publicitari es rarmente hospitate per le identic servitor de web actual.
 Le axe del stationes del anno remane.
 Le ballon descendeva gradualmente a mesura que le aere sortiva.
 Le ballon resaltava sur su escudo de titanium.
 Le bandas sonor del films epic usa classic elementos miscite con partes de rock.
 Le barra de recerca de Google es pro recercar, non pro inserer adresses!
+Le bebe reptava sur manos e genus.
 Le bellessa nutri le anima.
 Le bibliotheca contine vaste amontas de cognoscentia.
 Le bibliotheca es aperte a totes.
@@ -3556,12 +3619,16 @@ Le bon conscientia es un cossino morbide.
 Le bootloader monstra un fenestra de dialogo prompte pro inserer le phrase contrasigno.
 Le bootloader monstra un fenestra de dialogo que quere pro inserer le phrase contrasigno.
 Le bosco tace.
+Le bottilia es plen de aqua.
 Le bruma era dense e impenetrabile al luce.
 Le bucca parla lo que disborda ab le corde.
 Le budget federal esseva a pena approbate per le Congresso.
 Le bufon sputava un limo caustic al apes.
 Le bulletin meteorologic pro iste septimana non pareva bon del toto.
+Le burla amusava le audientia.
 Le caffe es amar, ma le sucro es dulce.
+Le caffe me mantene eveliate.
+Le caffe veni post le mangiar.
 Le calcettas odora mal.
 Le caldiera bulli.
 Le calor es insupportabile.
@@ -3573,8 +3640,10 @@ Le camerera portava un impressive quantitate de olleria.
 Le campiones del mores nota le faltas de alteros, ma non vide le lores.
 Le campo es revestite de blanco; spectava le aquila in su nido.
 Le campos ha herba verde e animales.
+Le can chassava le catto.
 Le can es intelligente.
 Le can es sur le sedia
+Le can espaventava via le infantes.
 Le can mori.
 Le can salta.
 Le can sanguina.
@@ -3693,6 +3762,8 @@ Le espanioles ha duo nomines de familia.
 Le esseres human ha essite create pro crear cosas.
 Le estate es finite.
 Le estate ha passate.
+Le eurozona es attrappate in un circulo vitiose.
+Le evento de natation esseva cancellate.
 Le evolution del scientia del computator ha transformate le mundo.
 Le exercitio moderate refrescara mente e corpore.
 Le existentia del undas gravitational habeva essite predicite desde longe tempore.
@@ -3713,6 +3784,7 @@ Le femina ha un scintillation: le sperantia.
 Le femina lege.
 Le feminas american non habeva le derecto de votar.
 Le feminas es delicate.
+Le festa esseva mortalmente enoiose.
 Le file habeva un dimension de plure gigabytes.
 Le film esseva interessante, como io habeva expectate.
 Le final es proxime.
@@ -3738,6 +3810,8 @@ Le gala ha essite amusante.
 Le gallina ha deponite un ovo.
 Le gemines es plus que similante, illes es identic.
 Le genio es immensurabile, le angelo indefinibile.
+Le gente le considerava un grande erudito.
+Le gerente ora dimitte alcuno quasi cata mense.
 Le gestor del pacchetto non pote resolver dependentias circular.
 Le glacie es multo spisse.
 Le glacie funde.
@@ -3795,10 +3869,14 @@ Le impostos es un robo.
 Le incertitude es pro le anima lo que le tortura es pro le corpore.
 Le incontro durava usque cinque horas.
 Le incredule, tamen, non recipe le cosas, proque illos le pare insensate.
+Le indicator de combustibile es rupte.
 Le infante cessava de critar.
 Le infante plora.
 Le infante surrideva a me.
+Le infantes faceva sculpturas de filo.
+Le inflation deveni incontrolabile.
 Le ingenieros se enthusiasma super le energia solar.
+Le inimico occupava le citate.
 Le inseniante interrogava le studentes.
 Le inseniante interrogava.
 Le intellectuales in fabulas es sempre ulucos.
@@ -3807,6 +3885,7 @@ Le intolerantia al lactosa es causate per un carentia de enzyma lactase.
 Le inveloppe habeva jam essite aperite.
 Le invio mentionate hic supra ha essite debitemente livrate.
 Le irides es un phenomeno basate sur le dispersion chromatic.
+Le japoneses ama viagiar in gruppo.
 Le jardin esseva plen de belle flores jalne.
 Le jardin zoologic le plus grande del mundo es in Berlin, Germania.
 Le jardineria ha essite popular durante un tempore.
@@ -3864,14 +3943,19 @@ Le medico poneva un stethoscopio super le pectore del patiente.
 Le medico vetule prestava attention individual a cata patiente.
 Le medicos te dice que tu fratre nunquam se eveliara plus.
 Le melior tiro de datos es non jocar.
+Le mercato esseva inundate per importationes.
 Le mesme cosa es ver pro le animales.
 Le mesme cosa poterea esser dicite de multe altere personas.
 Le mesme eruption del vulcano era un catastrophe.
 Le messe cresce.
 Le militares adherera a leges e standardos international.
 Le milites es morite.
+Le mission continua a esser illo de servir alteres.
 Le molinos historic era usualmente alimentate per aqua, vento o energia animal.
+Le moneta non cresce in le arbores, sape tu.
+Le montanias non es necessarimente verde.
 Le monte Fuji es extraordinari.
+Le morte de su sposo esseva su renascentia.
 Le motor arrivava sur un pallet.
 Le motorcyclo faceva un alte rumor.
 Le mundo es plen de bellessas.
@@ -3907,6 +3991,8 @@ Le pan es cocite in un furno.
 Le paneteria era proxime al macello.
 Le parallaxe de movimento es un indication de profunditate monocular.
 Le paramedicos extraheva le defibrillator pro reanimar le motorcyclista.
+Le parasol blanc es de illa.
+Le parco se trova in le centro del citate.
 Le parentes non succedeva a comprender lo que lor filia voleva.
 Le parte superior del montania es coperte de nive.
 Le partita comencia a duo horas deman postmeridie.
@@ -3921,16 +4007,19 @@ Le passato es le passato.
 Le pasta italian es deliciose.
 Le patata es plen de carbohydratos.
 Le patientia es un virtute rar in iste dies.
+Le patientia es un virtute.
 Le patines in linea es como le patines de glacie, ma con rotas.
 Le paupertate le impediva de frequentar le schola.
 Le pavor es sovente le causa del violentia.
 Le peccator habeva manos rugose.
+Le pectore me dole.
 Le pejor de tote le mésalliances es illo del corde.
 Le percentage dioxydo de carbon in le area attingeva un nivello extraordinari.
 Le percurso tra le foresta era obscur e horripilante.
 Le periodo de prova es expirate, nos lo regretta.
 Le phosphoro non es un semiconductor.
 Le photographia non es solmente un arte ma etiam un scientia.
+Le phrases pote inseniar nos multo.
 Le physico ingeniose se fricava su naso e grattava su mento.
 Le pictura mural mantene le muros in bon condition.
 Le piratas era armate al dentes.
@@ -4042,6 +4131,8 @@ Le rendimento es essentialmente zero.
 Le reparation de mi bicycletta me costava mille yen.
 Le reparation del central nuclear de Fukushima Daichi poterea durar annos, possibilemente decennios.
 Le restaurant ha essite bastante costose.
+Le resultato falsificava le prediction.
+Le resultatos era negative.
 Le retes neural artificial pote facer alco multo simile.
 Le retes peer-to-peer es plus robuste que architecturas client-server.
 Le ricchessas mal acquisite va in fumo.
@@ -4050,7 +4141,9 @@ Le riso abunda sur le bucca del stultos.
 Le riso es le melior medicina.
 Le rocchetta es in orbita circa le luna.
 Le saccos de plastica ha cessate de ser un problema pro le ambiente.
+Le sala de assemblea es justo occupate.
 Le salario non es adequate pro un familia de sex.
+Le sanguilente conflicto europee esseva finite.
 Le sanguine non es aqua.
 Le sapientia de iste etate o governantes de iste etate va disparer.
 Le scala sur le camion de pumperos non esseva longe bastante.
@@ -4132,6 +4225,7 @@ Le the pote esser preparate pro cinquanta personas.
 Le thema de vostre discurso me interessa multo.
 Le throno exalta e le altar sanctifica.
 Le thunno es costose.
+Le tomate es subjecte a plure maladias.
 Le torta era coperite de crema battite.
 Le torta es un mentita.
 Le traino lassava le station a tempore.

@@ -1352,6 +1352,7 @@ Alors je tente le coup, naine.
 Alors je vais embarquer. . .
 Alors je vais fumer ma pipe sur la terrasse.
 Alors je vais tout vous avouer. . .
+Alors je vais téléphoner chez moi.
 Alors je veux que tu l’entendes.
 Alors j’ai arrêté et je me suis dit que ça viendrait.
 Alors j’ai caché l’évidence avec de l’évidence.
@@ -1472,10 +1473,12 @@ Alors tout ce que disait Odette lui paraissait suspect.
 Alors toutes les horreurs sont possibles.
 Alors toutes nos souffrances passées étaient oubliées.
 Alors tu apprends à te protéger.
+Alors tu crois qu'il vaut mieux ne rien dire à Maurice ?
 Alors tu es ruiné ? Complètement ruiné ?
 Alors tu me fais plus chier, tu retournes dans ta campagne pourrie
 Alors tu ne veux pas le faire seul.
 Alors tu seras pendu.
+Alors tu vas à l'usine ?
 Alors t’es pas obligé d’en parler mais. . . je te vois.
 Alors un soir, je suis allée les voir.
 Alors une dame a mis Polichinelle en prison.
@@ -1517,6 +1520,7 @@ Alors, c’est la nuit que les taupes sortent ?
 Alors, c’est un cercle vicieux.
 Alors, c’est une autre ? . . .
 Alors, c’était vrai dans le fond.
+Alors, dans ce cas, je reviendrai en taxi.
 Alors, dans un salon illuminé, une femme en deuil fit la révérence.
 Alors, demanda Michel, la Lune serait donc un monde plus vieux que la Terre ?
 Alors, des couverts de fer.
@@ -1633,6 +1637,7 @@ Alors, toute tremblante, j’appelle le guet.
 Alors, tremblant, sentant chanceler mes genoux
 Alors, tu as honte de moi ?
 Alors, tu attendais qu'ils veuillent bien passer à gauche.
+Alors, tu crois qu'il viendra moins ?
 Alors, tu me donneras les vingt francs la semaine prochaine. . .
 Alors, tu me gardes, c’est le bon coup, cette fois ?
 Alors, tu ne l’aimes pas, ton cousin Florent ?
@@ -2236,6 +2241,7 @@ Au fond, cet amour, flamme pour eux, chaleur pour lui, le ravissait.
 Au fond, cette race d’hommes est la pire de toutes.
 Au fond, elle se croyait beaucoup plus forte que ces messieurs.
 Au fond, il faudra bien toujours aimer les femmes.
+Au fond, il n'y a rien de tel que la santé.
 Au fond, il ne savait trop que penser de toute l’affaire.
 Au fond, j’admettais l’existence du « monstre ».
 Au fond, le Canadien devait être enchanté de ne pas l’avoir contre lui.
@@ -4306,6 +4312,7 @@ C'est bientôt la saison du Pims, dit-il.
 C'est ce moment que Vérandà choisit pour se réveiller.
 C'est ce moment qui aurait dû être ma première intuition.
 C'est ce qu'Aglaé a dû croire.
+C'est ce qu'il y a de mieux à faire.
 C'est ce qu'on appelle l'apostrophe de Mirabeau.
 C'est ce que j'aurais dû rétorquer.
 C'est ce que je veux devenir.
@@ -4323,6 +4330,7 @@ C'est comme ça qu'ils ont résolu leurs paradoxes moraux.
 C'est comme ça qu'on la forme.
 C'est comme ça que Fulbert m'a décrit la maison des Jaunes.
 C'est comme ça, vous n'avez pas à vous en défendre.
+C'est curieux, ce que ce garçon a pu changer depuis quelques jours.
 C'est d'une de ces réunions que sortent Aglaé et Victor.
 C'est dangereux un oiseau qui cogne un avion ?
 C'est dans ces réunions que Fulbert Non.
@@ -4482,6 +4490,7 @@ C'est toi qui as un problème.
 C'est toi qui m'a appris que si.
 C'est toi qui m'as glissé cette bague au doigt.
 C'est toi-même qu'il faut vaincre
+C'est ton caractère, que veux-tu ?
 C'est toujours bon à savoir.
 C'est toujours lui qui est là.
 C'est toujours lui qui parle.
@@ -4506,6 +4515,8 @@ C'est un de tes amis qui habite cette chambre ?
 C'est un des avantages de Paris.
 C'est un défi en soi.
 C'est un grand métallurgiste.
+C'est un homme prétentieux et creux.
+C'est un homme qui ne croit que ce qu'il voit.
 C'est un homme tout à fait étonnant.
 C'est un hussard de l'Empereur qui régale !
 C'est un jeu bien dangereux que celui-là !
@@ -5168,6 +5179,7 @@ Ce n'est plus de la jalousie, c'est du désespoir.
 Ce n'est plus des vocalises.
 Ce n'est rien, en vérité, moins que rien !
 Ce n'est rien.
+Ce n'était pas la même chose.
 Ce n'était pas le mien.
 Ce nain est un groom.
 Ce navire avait-il été abandonné par son équipage ?
@@ -11129,6 +11141,7 @@ C’était la barrière qui lui cachait toujours l’horizon oriental.
 C’était la dernière apocalypse avant renouvellement des stocks.
 C’était la première fois qu’il se trouvait « démantelé ».
 C’était le cadavre du garde, déjà froid.
+C’était le cinq mars, te dis-je.
 C’était le genre de type qui inspire confiance.
 C’était le quatre janvier deux mille dix-huit.
 C’était le seul moyen de conjurer Dora.
@@ -15992,6 +16005,7 @@ Elles vinrent brusquement lui donner leur coup de coude.
 Elles vinrent s’asseoir au coin du feu.
 Elles vivent cellules ouvertes.
 Elles vont au chapitre.
+Elles vont comme ci, comme ça.
 Elles y sont présents, entourées d’une légère culpabilité.
 Elles étaient convaincues que ces amendes ne décourageraient jamais les téléchargements illégaux.
 Elvire a joué avec toi, pendant les vacances.
@@ -16903,6 +16917,7 @@ Enfin, elle sortit par la place Dauphine.
 Enfin, entre la rue Saint-Denis et la rue Montorgueil, les Filles-Dieu.
 Enfin, il fallait agir au plus vite.
 Enfin, il faut absolument que nous leur fassions une politesse.
+Enfin, il faut toujours, toujours, que tu aies raison.
 Enfin, il fit un appel à « toutes les forces vives » de la nation !
 Enfin, il la souleva doucement, et elle eut un grand frisson.
 Enfin, il n’est plus, et moi je suis !
@@ -17359,6 +17374,7 @@ Est-ce qu'il est très solide ?
 Est-ce qu'il se serait trop avancé ?
 Est-ce qu'il vous devait quelque chose ?
 Est-ce qu'ils doivent revenir ?
+Est-ce que Clément ne va rien lui raconter ?
 Est-ce que Cyrus n’est pas là ? répondit le reporter
 Est-ce que Florent lui parlait de la charcuterie ?
 Est-ce que Ghislain a fait le même lien ?
@@ -18379,6 +18395,7 @@ Et il ne put se tenir.
 Et il ne se trompait pas.
 Et il ne se vengerait pas !
 Et il ne sera pas possible de contester votre dire ?
+Et il ne t'a pas fait de reproches ?
 Et il ne vous a donné aucun détail sur. . .
 Et il n’aboie pas
 Et il n’aboie pas ?
@@ -18465,6 +18482,7 @@ Et ils les entraînent à voir le monde des idées.
 Et ils l’ouvraient démesurément.
 Et ils n'ont pas encore trouvé de vendeur !
 Et ils ne risqueraient pas cent francs pour amender un hectare !
+Et ils nous ont dit de venir un peu après trois heures.
 Et ils ont arrêté quand ?
 Et ils refermaient leur porte, disant amicalement : — Bonsoir, mademoiselle Lisa.
 Et ils regarderont mes pensées, comme si elles pouvaient détenir la moindre réponse.
@@ -19790,6 +19808,7 @@ Et ça m’a paru une bonne idée, sur le moment.
 Et ça m’amuse.
 Et ça ne vous effraie pas ?
 Et ça raconte ma rencontre avec Ael.
+Et ça t'est arrivé souvent ?
 Et ça tourne en boucle.
 Et ça vous gêne toujours ?
 Et ça, c’est mal.
@@ -21687,6 +21706,7 @@ Il a décliné un poste de responsable pour privilégier sa vie personnelle.
 Il a déménagé sur Toulouse.
 Il a dû rentrer précipitamment à Paris.
 Il a dû venir trainer par ici.
+Il a en lui-même une confiance énorme.
 Il a encore le lait qui lui sort des narines, le pitchounet.
 Il a eu ses vapeurs.
 Il a eu une longue vie et une magnifique mort !
@@ -22655,6 +22675,7 @@ Il est impossible que vous passiez ainsi la nuit.
 Il est impossible, n’est-ce pas ?
 Il est impressionnant ce pont-levis.
 Il est instruit, grave et sagace.
+Il est intelligent dans les affaires ?
 Il est intervenu comme l’archange.
 Il est inutile de parler du service.
 Il est ivre, et toi aussi.
@@ -23139,6 +23160,7 @@ Il faudrait l’effrayer ?
 Il faudrait l’enlever, il salit le plat.
 Il faudrait peut-être décider de la tuer.
 Il faudrait peut-être faire fermer ce magasin.
+Il faudrait peut-être ouvrir.
 Il faudrait pour faire la France deux mille sept cents Jersey.
 Il faudrait que tes lecteurs captent direct que les NoéNautes se sont entredéchirés.
 Il faudrait un acte d’extradition.
@@ -23945,6 +23967,7 @@ Il me semble avoir compris.
 Il me semble entendre parler ce vieux Robert Macaire de Nucingen ! dit Finot.
 Il me semble par moments que tu es un songe.
 Il me semble qu'elle donne ce qu'aucune autre fille ne saurait offrir.
+Il me semble qu'il n'y a qu'une solution.
 Il me semble que j’en grignoterais les petits os avec plaisir !
 Il me semble que j’entends au dehors. . .
 Il me semble que la messe y est meilleure.
@@ -25418,6 +25441,7 @@ Il s'est mis debout sur mes cuisses.
 Il s'est retourné et dirigé vers la table où trône une théière.
 Il s'inscrivit en tête de la liste avec le comte Dubourg, affairé.
 Il s'obligea d'aller à la grille leur rendre hommage.
+Il s'occupe toujours d'assurances ?
 Il s'éloigna de la fenêtre.
 Il s'étendit sur ce thème, en achevant sa bière.
 Il s'étonna d'être triste.
@@ -26409,6 +26433,7 @@ Il y a que ce n’est pas moi qui ai fait ce nœud
 Il y a que ce n’est pas moi qui ai fait ce nœud !
 Il y a que je viens de la maison du docteur Ox !
 Il y a quelqu'un derrière moi.
+Il y a quelqu'un pour ouvrir ?
 Il y a quelque chose ?
 Il y a quelque chose de plus grave.
 Il y a quelque chose de rassurant dans l’inéluctable.
@@ -27027,6 +27052,7 @@ Ils m’ont l’air bien trop énervés.
 Ils m’ont mené dans son antichambre.
 Ils m’ont même privée d’assister à mon enterrement, peuchère !
 Ils m’ont posé sur un large banc.
+Ils n'ont pas l'air d’être pressés de nous voir.
 Ils n'ont pas voulu négocier quoi que ce soit avec moi.
 Ils narguent l’homme.
 Ils ne comprenaient pas toujours, cela redoublait leur malaise.
@@ -27113,6 +27139,7 @@ Ils ne veulent rien négocier avec moi.
 Ils ne virent aucun vestige de Ben Joyce ni de sa bande.
 Ils ne visent pas les Noétiens : comment le pourraient-ils ?
 Ils ne visent pas les Noétiens.
+Ils ne vont pas tarder à rentrer ?
 Ils ne voulaient ni l’un ni l’autre quitter la place.
 Ils notaient les habitudes de la bignole aussi.
 Ils nous avaient retrouvés.
@@ -27847,6 +27874,7 @@ J'ai vu cela.
 J'ai vu l'argument fatal qui démontre que le blog va continuer.
 J'ai vu l'énergie tournante se libérer.
 J'ai vu tout ce qui m'entourait.
+J'ai à voir un client par là.
 J'ai élevé mon fils très sévèrement, je crois vous l'avoir dit.
 J'ai été la quintessence de la marche.
 J'ai été le premier à m'offusquer de l'amnésie de mon père.
@@ -28267,6 +28295,7 @@ Je crois qu'il file un mauvais coton.
 Je crois qu'il revient.
 Je crois qu'il va falloir accélérer ou nous serons en retard.
 Je crois qu'ils allaient visiter une maison de campagne.
+Je crois qu'on a sonné.
 Je crois que Basque avait besoin des fauteuils pour le salon.
 Je crois que Julie apprécierait une omelette aux cèpes pour son dîner.
 Je crois que c'était une bande de touristes anglais.
@@ -29430,6 +29459,7 @@ Je ne l’oublierai jamais
 Je ne l’oublierai jamais !
 Je ne l’oublierai jamais. . .
 Je ne l’oublierai pas, monsieur.
+Je ne m'en serais jamais douté.
 Je ne m'en suis jamais aperçu.
 Je ne manque de rien.
 Je ne marierai jamais Augustine avant Virginie.
@@ -29628,6 +29658,7 @@ Je ne sais pas encore, je verrai cela.
 Je ne sais pas les usages de France, dit l’Anglaise.
 Je ne sais pas pourquoi vous l’avez fait venir, mais. . .
 Je ne sais pas quoi faire.
+Je ne sais pas si c'est flatteur, mais c'est vrai.
 Je ne sais pas si j'ai tout bien retenu la conversation.
 Je ne sais pas si je dois dire oui ou non.
 Je ne sais pas si je peux faire confiance à Hugo.
@@ -29747,6 +29778,7 @@ Je ne te crois pas.
 Je ne te crois point.
 Je ne te dirai pas où je suis.
 Je ne te dirai pas où on se trouve.
+Je ne te dis pas le contraire.
 Je ne te gênerai pas, du moins ?
 Je ne te le demande pas.
 Je ne te l’ai pas dit ! je l’ai appris.
@@ -29835,6 +29867,7 @@ Je ne vois pas Weber comme un courageux de la godasse.
 Je ne vois pas ce que vous voulez dire.
 Je ne vois pas comment cela pourrait se justifier.
 Je ne vois pas de poissons !
+Je ne vois pas du tout Clément allant le dire à Maurice.
 Je ne vois pas en quoi je suis dans le coup.
 Je ne vois pas pourquoi je vous le dirais.
 Je ne vois pas un point sur lequel on puisse prendre pied
@@ -31352,6 +31385,7 @@ Je veux dire, c’est un de vos amis, quand même. . .
 Je veux dire, on se fait la bise régulièrement.
 Je veux dire, répondit sérieusement le docteur
 Je veux dire. . . je savais bien que c’était une maison spéciale.
+Je veux en avoir le coeur net.
 Je veux en avoir le cœur net.
 Je veux essayer des sauvages.
 Je veux faire les choses bien, sans me tromper.
@@ -37550,6 +37584,7 @@ Le patron ne travaille que pendant la nuit.
 Le patron nous a offert l'apéro.
 Le patron n’aime pas l’artillerie.
 Le patron salua, mais le vieillard ne le vit point.
+Le patron, lui, peut encore faire illusion.
 Le patron, sûrement, est sorti.
 Le pauvre Ned, désespéré, s’isola comme le capitaine Nemo.
 Le pauvre Robert, le brave Paganel n’avaient pas reparu.
@@ -43196,6 +43231,7 @@ Mais enfin, culotte, vareuse, chemise de laine, finiraient par s’user.
 Mais enfin, je suis de la Guadeloupe, et c’est tout dire ! . . .
 Mais enfin, pourquoi ?
 Mais enfin, qu'est-ce que c'est que ce magasin ?
+Mais enfin, qu'est-ce qui va se passer ?
 Mais enfin, que supposez-vous ?
 Mais enfin, reprit Kennedy, il y aurait quelque indice !
 Mais enfin, si je refuse ?
@@ -43923,6 +43959,7 @@ Mais non, reprenait Frantz.
 Mais non, rien que le silence et la mort sur ce champ des catastrophes !
 Mais non, rigola Maxime, je leur ai montré ça.
 Mais non, sans lui, que serait la vie ?
+Mais non, tout cela me paraît logique.
 Mais non, tout dort.
 Mais non, tu t’appelles Cosette.
 Mais non, vous savez très bien parler français.
@@ -44280,6 +44317,7 @@ Mais savez-vous. . . savez-vous qui je suis
 Mais savez-vous. . . savez-vous qui je suis ?
 Mais se ferme-t-il bien ?
 Mais se plaignaient-ils, ces aventuriers de l’espace ?
+Mais ses affaires vont tout de même ?
 Mais ses guerriers y consentiront-ils ?
 Mais ses interrogatoires ? dit-elle.
 Mais ses pieds glissent sur la pierre mouillée, et peinent à trouver prise.
@@ -44454,6 +44492,7 @@ Mais voulez-vous mes gages, mes économies ?
 Mais vous aviez quoi dans le cabestou ?
 Mais vous croyez vraiment qu’ils ont existé ?
 Mais vous disiez que le diamant est cher parce qu’il est rare. . .
+Mais vous dînez avec nous ?
 Mais vous faites donc, vous aussi, le tour du monde ?
 Mais vous le connaissez maintenant, cet oiseau !
 Mais vous le savez bien.
@@ -45158,6 +45197,7 @@ Mes décors n’ont pas la même texture que les tiens.
 Mes employés disent que j'ai mieux à faire.
 Mes enfants sont incontrôlables.
 Mes enfants, disait madame Grandet, je ne regrette point la vie.
+Mes enfants, je vais téléphoner par là.
 Mes enfants, ma femme avaient faim !
 Mes envies à moi ?
 Mes espaules seules valent ung royaulme ! dit-elle.
@@ -47334,9 +47374,11 @@ Non, heureuse avec moi !
 Non, ici, à bord.
 Non, ie suis ta servante, ta meschine, ung rien que tu peux dissouldre !
 Non, il a dit qu'il rentrerait bientôt.
+Non, il a très bien pris la chose.
 Non, il doit des heures à sa boîte.
 Non, il est maigre, mais il n’est pas vilain homme, murmura la Sarriette.
 Non, il est sur l’île
+Non, il fait encore un peu de vent.
 Non, il faut mettre toutes les chances de notre côté et agir autrement.
 Non, il n'était pas mauvais.
 Non, il ne dit rien.
@@ -47477,6 +47519,7 @@ Non, non, rira bien qui rira le dernier.
 Non, non, tout cela se tient.
 Non, non. . . pas possible, pas possible. . .
 Non, notre steam-ship.
+Non, nous allons plutôt faire un tour dans le jardin.
 Non, n’est-ce pas
 Non, n’est-ce pas ?
 Non, n’est-ce pas ? . . .
@@ -51486,6 +51529,7 @@ Oui, il utilisait un jargon technique, il se gargarisait avec ses mots.
 Oui, il y a eu un cumul d’indices, un faisceau de preuves.
 Oui, il y a prescription.
 Oui, ils l’auraient pendue.
+Oui, j'ai besoin d'avoir avec vous une explication.
 Oui, j'ai compris.
 Oui, j'ai des explications à lui demander.
 Oui, j'ai essayé de te joindre la semaine dernière, mais tu étais absent.
@@ -51682,6 +51726,7 @@ Oui, pour les enfants. . .
 Oui, pour l’instant.
 Oui, pour un autre que Jean Valjean.
 Oui, puisqu’elle le touchait.
+Oui, qu'est-ce qui va se passer ?
 Oui, que viens-tu nous dire ?
 Oui, quelquefois, répondit le capitaine.
 Oui, qu’elle l’ignore.
@@ -51863,6 +51908,7 @@ Où ai-je bien pu ranger ce tournevis ?
 Où allez-vous ?
 Où allez-vous, les filles ?
 Où c’est que tu veux trimbaler des flingues ?
+Où dînez-vous, ce soir ?
 Où en étais-je ?
 Où en êtes-vous ? cria-t-il à l’ingénieur.
 Où est donc cet interprète ?
@@ -54232,6 +54278,7 @@ Pourquoi m’appelez-vous encore ?
 Pourquoi m’insultez-vous ?
 Pourquoi n'en parlons-nous pas ?
 Pourquoi n'étais-tu pas à table avec nous ?
+Pourquoi n'était-ce pas la même chose ?
 Pourquoi ne causerait-il pas avec ce soldat ?
 Pourquoi ne cherchez-vous pas une place ailleurs ?
 Pourquoi ne citons-nous pas de cas pratiques pour illustrer nos théories ?
@@ -55234,6 +55281,8 @@ Qu'est-ce que ça fait ?
 Qu'est-ce qui est arrivé en premier ? L'oeuf ou la poule ?
 Qu'est-ce qui lui manque ?
 Qu'est-ce qui lui prend maintenant ?
+Qu'est-ce qui te prend ?
+Qu'est-ce qui va se passer, maintenant ?
 Qu'est-ce qui vous arrive ?
 Qu'est-ce qui vous est donc arrivé ?
 Qu'est-ce qui vous fait dire ça ?
@@ -55713,6 +55762,7 @@ Que ce soit pour les détails, les scènes, ou même pour étoffer les personnag
 Que ce soit pour regarder tes mains, un ami ou des souvenirs. . .
 Que ce soit un souverain qui les respecte, ou une République qui les défende !
 Que ceci vous soit un exemple !
+Que cet avertissement nous serve de leçon !
 Que cette aventure paraissait lointaine, invraisemblable.
 Que cette gamine est devenue assez grande pour le prendre par derrière.
 Que cette nuit fut longue !
@@ -59957,6 +60007,7 @@ Si vous parlez sérieusement, demandai-je, pourquoi vous êtes-vous embarqué
 Si vous restiez chez monsieur Grandet, que deviendriez-vous, bon Dieu !
 Si vous sauviez votre nom, car c’est votre nom, vous seriez un homme. . .
 Si vous saviez ! je vous adore, moi !
+Si vous saviez ce que je viens de voir. . .
 Si vous saviez ce que j’ai vu !
 Si vous saviez ce qui se passe en moi.
 Si vous saviez combien je vous aime ! quel cœur c’est que mon cœur !
@@ -60441,6 +60492,7 @@ Sont-elles toujours ainsi ? demanda la vieille femme.
 Sont-ils aussi des cœurs, des cerveaux, des entrailles ?
 Sont-ils braillards, ces moines !
 Sont-ils serins donc !
+Sont-ils si heureux que ça ?
 Sont-ils toujours un peu les mêmes ?
 Sont-ils un effet de mode ?
 Sont-ils une gêne à la lecture ?
@@ -62990,6 +63042,7 @@ Tu n'as pas besoin de ta mère, je suis là.
 Tu n'as pas de température.
 Tu n'as pas du tout saisir de mon dernier message.
 Tu n'as pas déjà oublié que parmi vous je suis Laly.
+Tu n'as pas l'air de le regretter.
 Tu n'as pas lu Facebook, récemment ?
 Tu n'as pas totalement tort.
 Tu n'es pas noble et généreux comme ton père, comme moi.
@@ -65550,6 +65603,7 @@ Veux-tu me laisser, voyons !
 Veux-tu me rendre ça ?
 Veux-tu partager avec moi ?
 Veux-tu que ie t’accompaigne ?
+Veux-tu que je sois franche ?
 Veux-tu que je te dise ? murmura la Mouquette en larmes, quand elle partit.
 Veux-tu que je te dise, Gennaro ?
 Veux-tu que je t’accompagne jusque chez toi ?
@@ -66171,6 +66225,7 @@ Vous allez encore me trouver bien timide, Jeppo.
 Vous allez entendre notre architecte qui vous fera peut-être changer d'avis.
 Vous allez faire quoi, demain ?
 Vous allez mourir, j’y compte bien.
+Vous allez nous faire le plaisir de venir dîner avec votre femme.
 Vous allez nous ficher la paix, n’est-ce pas ?
 Vous allez perdre toutes vos écolières
 Vous allez tomber dans la nuit !
@@ -66739,6 +66794,7 @@ Vous ne vous blaserez pas facilement sur le spectacle incessamment offert à vo
 Vous ne vous connaissez pas, mon cher.
 Vous ne vous en rendez pas compte, mais c'est comme ça.
 Vous ne vous figurez pas, vous, comme cela vous tient, les enfants !
+Vous ne vous installez pas dans le bureau ?
 Vous ne vous promenez jamais ?
 Vous ne vous quittiez guère pendant les vacances.
 Vous ne vous souvenez pas, c’est tout simple.
@@ -66915,6 +66971,7 @@ Vous savez le reste.
 Vous savez l’excellente influence que vous avez sur elle.
 Vous savez mon plan.
 Vous savez nos petites conventions, mon ange ?
+Vous savez par où on passe ?
 Vous savez pourtant ce que l’on dit : qui veut voyager loin. . .
 Vous savez que ce train-là est express.
 Vous savez que je ne suis pas du tout pour votre politique.
@@ -66955,6 +67012,7 @@ Vous serez une seconde Ginevra.
 Vous serez, d’ailleurs, toujours le bienvenu à Granite-house
 Vous seriez duc et pair d’Angleterre, que vous ne pourriez pas me convenir !
 Vous seriez en vostre tort, feit le Roy.
+Vous seriez peut-être mieux là, dans le petit bureau.
 Vous sortez de votre lit, bonnes gens.
 Vous souffrez, vous avant tout.
 Vous souffrez, vous avez faim et soif ; soyez le bienvenu.
@@ -72145,6 +72203,7 @@ y'en a un qui se dégage du lot.
 À toi, Martin : action ou vérité ?
 À toi, action ou vérité ?
 À toi, on ne la fait pas.
+À tout à l'heure, mes enfants.
 À tout à l'heure.
 À tout à l’heure, dit Godefroy.
 À tout à l’heure, les filles. . .
@@ -72443,6 +72502,7 @@ y'en a un qui se dégage du lot.
 Évidemment, des critères variables peuvent s’appliquer ici.
 Évidemment, elle restait loin de cet état de piété.
 Évidemment, il fuyait ce tumulte et recherchait l’isolement.
+Évidemment, je ne l'approuve pas.
 Évidemment, le commerçant avait entendu cliqueter les pièces dans l’imper de Weber.
 Évidemment, le marché de la bonneterie s’effondra rapidement.
 Évidemment, les marchés culturels existants échouent toujours à se conformer à ce critère.
