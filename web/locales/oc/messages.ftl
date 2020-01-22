@@ -317,7 +317,9 @@ faq-what-cv-and-deepspeech-q = Quina es la diferéncia entre Common Voice e Deep
 faq-is-goal-assistant-q = L’objectiu de Common Voice es de construire un assistent vocal ?
 faq-do-want-native-q = Soi pas un locutor natiu e parli amb un accent. Volètz totjorn ma votz ?
 faq-why-my-lang-q = Perque i a pas encara ma lenga ?
+faq-how-calc-hours-q = Cossí Common Voice calcula las oras ?
 faq-where-src-from-2-q = D’ont venon los tèxtes ?
+faq-why-not-ask-read-q = Perqué demandatz pas al monde de legir de libres o d’articles de Wikipèdia dins diferentas lengas ?
 faq-why-account-q = Perque me cal crear un compte ?
 faq-is-account-public-q = Son publicas las informacions de mon compte ?
 faq-what-is-cv = Qu'es aquò Common Voice ?
@@ -355,6 +357,7 @@ hours-recorded-explanation = La quantitat d’oras d’enregistraments vocals qu
 ## NotFound
 
 notfound-title = Pas trobat
+notfound-content = Impossible de trobar çò que cercatz.
 
 ## Data
 
@@ -363,6 +366,7 @@ data-download-yes = Òc
 data-download-deny = Non
 data-download-license = Licéncia : <licenseLink>CC-0</licenseLink>
 data-download-modal = Sètz a man de telecargar un fichièr de <size>{ $size } Go</size>, volètz contunhar ?
+data-subtitle = Cream un jòc de donadas de voses dubert e public accessible, que tot lo monde pòt utilizar per entrenar d’aplicacions qu’utilizen la votz.
 data-other-title = Autres jòcs de donadas…
 data-other-goto = Veire { $name }
 data-other-download = Telecargar las donadas
@@ -391,6 +395,7 @@ audio-format = Format àudio
 number-of-voices = Nombre de voses
 size-gigabyte = Go
 size-megabyte = Mo
+confirm-no-identify = <b>Acceptatz</b> d’ensajar pas de determinar l’identitat dels locutors del jòc de donadas de Common Voice
 download-language = Telecargar { $language }
 validated-hours = Oras validadas
 recorded-hours = Oras enregistradas
