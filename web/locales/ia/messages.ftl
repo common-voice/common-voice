@@ -217,7 +217,7 @@ email-subscription-title-new = Inscribe te al bulletines de novas, rememoratione
 ## Account Benefits
 
 benefits = Beneficios
-rich-data = Rende plus ric possibile tu datos inviate, per qualque informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que render illos public.
+rich-data = Que tu rende plus ric possibile tu datos inviate, per informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que nos rende public los.
 improve-audio = Le informationes del profilo meliora le precision del datos audio usate pro le exercitation del recognition de voce.
 keep-track = Tracia tu progresso e metricas inter plure linguas.
 compare-progress = Compara tu progresso a illo de altere contributores in tote le mundo.
