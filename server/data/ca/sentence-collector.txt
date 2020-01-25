@@ -1,6 +1,7 @@
 A la sarsuela no hi poden faltar ni el rap ni les cloïsses.
 A mi i al Tano no ens agrada el formatge.
 A mig aire de la serra veig un ametller florit.
+A veure si al maleït coix li trenco jo l'altra cama!
 Abaixa el volum de la ràdio.
 Abaixa la il·luminació de la cuina.
 Activa el volum automàtic.
@@ -1597,6 +1598,7 @@ Augmenta el volum de la ràdio.
 Augmenta la il·luminació de l'habituació.
 Beu poc, sens gaire set.
 Bulliu els peus amb la farigola, el llorer i un pessic de sal.
+Bé, però què en traurà?
 Cada dia sembla que arribis del poble.
 Cada u es rasca allà on li pica.
 Cada u pensa a la seva manera.
@@ -1660,6 +1662,7 @@ El vicari compareix amb un vas de llet glaçada.
 Ell, els dies que plou, emblanquina, adoba les gàbies i s’enllustra les sabates.
 Ell, els dies que plou, emblanquina, adoba les gàbies is’enllustra les sabates.
 Ella digué son nom.
+Ella em coneix de tota la vida; a ell, de fa deu dies.
 Ella mateixa li obrí la porta.
 Ella és el cant, si canta.
 Ella és el sol del seu propi jorn i de sa nit l’estrella.
@@ -1743,12 +1746,14 @@ Hola, bona tarda!
 Hola, bona vesprada!
 Hui la boira no deixa veure les Illes.
 I Déu li ha fet la gràcia de llançar llum entorn.
+I ja saps, Felons, que jo sóc generós.
 Il·lumina l'estança.
 Il·lumina l'habitació.
 Incrementa la il·luminació del menjador.
 Indiqueu quin nivell de temperatura voleu.
 Indiqueu quina temperatura voleu.
 Ja he vist que no t'ha interessat gaire.
+Ja ho veig venir, però jo em vull venjar.
 Ja t'ho faré saber amb una mica d'antelació.
 Ja vàrem sentir el terrabastall.
 Jaume Primer, t'ho dic, torna a sortir vestit de blanc!
@@ -1767,6 +1772,7 @@ L'altre dia el van veure disfressat amb uns bolquers i un xumet.
 L'any vinent faré un viatge a Tel Aviv.
 L'arròs queda més bé sense tomàquet al sofregit.
 L'espera es va fer inacabable i se'n va anar.
+L'hereu Bosch me l'està birlant: la Celina es casarà amb ell.
 L'hotel, doncs, serien unes cent lliures per dues nits.
 L'opció predeterminada s'ha activat.
 La Carmeta caigué en terra, de boca terrosa damunt la catifa.
@@ -1830,6 +1836,7 @@ Mira el gat!
 Mira què fa el gos!
 Mirar sèries és perdre el temps.
 Molt bé, fem-ho com dius.
+Ningú no em pot ajudar com tu, que tens bons acudits i vèrbola sobrera.
 Ningú no està casat amb el seu secretari personal.
 No activis el volum automàtic.
 No comprenc el que em demanes.
@@ -1895,6 +1902,7 @@ On és la Laura?
 On és la discoteca més propera?
 On és la farmàcia més propera?
 On és l’altre ou?
+Parem-los un llaç.
 Parla i digues alguna cosa.
 Parlo en la llengua que m’ha donat la terra aspra.
 Parlàvem amb les boques inflamades.
@@ -2040,6 +2048,7 @@ T'agrada el jazz?
 T'agrada la música?
 T'han parlat massa dels saguntins i dels qui per la pàtria moren.
 T'ho confirmaré exactament més endavant, quan et faci la reserva.
+Tal com van aqueixes morisquetes, ells no s'acontentaran amb quedar així.
 Tanca el llum.
 Tanca els llums.
 Tanca la bombeta.
@@ -2108,6 +2117,7 @@ Vull trobar una sabateria.
 Vull un lloc de menjar ràpid.
 Vés cap amunt i agafa una cadira
 Vés cap avall i puja la compra.
+¿Et sembla si puc mirar-m'ho fredament?
 És bo menjar fruita cada dia.
 És el rumor que corre per tot el poble.
 És veritat que Xavi, de la Marina, es casarà aquest mes d'agost?
