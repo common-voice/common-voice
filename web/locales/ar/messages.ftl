@@ -754,4 +754,5 @@ profile-form-delete = احذف الملف الشخصي
 
 ## Landing
 
+login-company = لِج أو سجّل حسابًا ببريد { $company }
 profile-not-required = امتلاكك لملف شخصي ليس مطلوبا لتشارك معنا، إلا أن وجوده مفيد
