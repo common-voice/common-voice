@@ -355,6 +355,7 @@ faq-what-cv-a =
     Collectam mai que de mòstras de voses dins las lengas mai parladas mas tanben dins las lengas de populacion de locutors mai pichonas. La publicacion de divèrses jòcs de donadas permetrà als desvolopaires, entreprenaires, e a las comunitats d’emplenar aqueste deficit. En mai del jòc de donadas de Common Voice, sèm a bastir un motor de reconeissença de paraulas apelat Deep Speech.
 faq-why-important-q = Perqué es important ?
 faq-how-get-q = Cossí pòdi obténer las donadas de Common Voice ?
+faq-how-get-a = Lo jòc de donadas de Common Voice es disponible al telecargament jos la licéncia <licenseLink>CC0</licenseLink> sus la <datasetLink>pagina de nòstres jòcs de donadas</datasetLink>. Podètz tanben telecargar mantun autres jòcs de donadas disponibles d’un biais public de la meteissa pagina estant.
 faq-when-release2-q = Quand publicaretz las donadas de Common Voince d’autras lengas ?
 faq-why-mission-q = Perque Common Voice es part de la mission de Mozilla ?
 faq-why-mission-a = La tòca de Mozilla es de gardar lo web dubèrt e accessible a totes. Per aquò far nos cal equipar los creators web amb de projèctes coma Common Voice. Las tecnologia vocalas son mai e mai presentas en defòra de las aplicacions, creem que devon servir a totes los utilizaires de la meteissa manièra. Vòl dire inclure mai de lengas, d’accents quand serem a construire e provar las tecnologias. Common Voice es una ressorça publica disponibla per tot lo monde e la còla de Mozilla e de desvolopaires del monde entièr l’utilizam ja per nòstres projèctes.
@@ -369,15 +370,21 @@ faq-why-different-speakers-a =
     La majoria de las basas de donadas s’entrenan amb una sobrerepresentacion d’unas caracteristicas demograficas que generan un biais en favor dels  <articleLink>òmes de la classa mejana</articleLink>. Los accents e los dialèctes que son generalament josrepresentats dins los jòcs de donadas son associats amb de grops de de personas que son ja marganalizadas. Mantunas maquinas an de problèmas per comprendre las voses femeninas.
     Aquò explica perque volèm de diversitat dins nòstre jòc de donadas !
 faq-why-my-lang-q = Perque i a pas encara ma lenga ?
+faq-what-quality-q = Quin nivèl de qualitat àudio deu aver una mòstra de votz per èsser utilizada dins la basa de donadas ?
 faq-why-10k-hours-q = Perqué l’objectiu es de 10 000 oras validadas per lenga ?
 faq-why-10k-hours-a = Es lo nombre aproximatiu d’ora requesit per entrenar un sistèma de produccion de Paraula-al-tèxt.
 faq-how-calc-hours-q = Cossí Common Voice calcula las oras ?
 faq-where-src-from-2-q = D’ont venon los tèxtes ?
+faq-where-src-from-2-a =
+    Nòstre tèxt font es un mescladís de las donacions de contributors, tanben d’òbras del domeni public.
+    
+    Podètz veire las frasas font dins<githubLink>aqueste dorsièr GitHub</githubLink>.
 faq-why-not-ask-read-q = Perqué demandatz pas al monde de legir de libres o d’articles de Wikipèdia dins diferentas lengas ?
 faq-why-account-q = Perque me cal crear un compte ?
 faq-is-account-public-q = Son publicas las informacions de mon compte ?
 faq-how-privacy-q = Cossí asseguratz l'anonimat e la vida privada de los qu'an donada lor votz ?
 faq-how-privacy-a = Totas las mòstras son expurgadas d'informacions que permeton d'identificar las personas. Quand un contributor porgís d'informacions demograficas via son perfil, aquestas son dissociadas de las mòstras abans d'èsser prepausadas al telecargament, e son pas jamai rendudas publicas sus lor pagina de perfil.
+faq-what-determine-identity-q = Qué vòl dire que pòdi pas « determinar l’identitat » dels locutors dins un jòc de donadas de Common Voice ?
 faq-what-is-cv = Qu'es aquò Common Voice ?
 faq-using-cv = Utilizar Common Voice
 faq-description = Common Voice es part de l’inciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas en realitat.
@@ -389,9 +396,14 @@ faq-search-for-answers =
 about-title = Perqué Common Voice ?
 how-does-it-work-title = Cossí fonciona ?
 about-speak = Parlar
+about-speak-text = Los contributors enregistran de mòstras de votz en legir de frasas d’una basa de frasas donadas.
 about-listen-queue = Fila d’escotat
 about-listen = Escotar
+about-is-it-valid = La mòstra es valida ?
+about-is-it-valid-text = Una mòstra a la marca « valida » quand un utilizaire l’apròva amb Òc.
+about-yes-votes = ≥ 2 vòtes Òc
 about-yes-votes-text = Per far partida del jòc de donadas Common Voice, una mòstra vocala deu èsser validada per doas personas distintas.
+about-no-votes = ≥ 2 vòtes NON
 about-dataset-new = Jòc de donadas de Common Voice
 about-partners = Sòcis
 about-become-a-partner = Venir sòci
