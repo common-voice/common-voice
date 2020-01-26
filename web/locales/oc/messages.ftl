@@ -141,6 +141,10 @@ logout = Desconnexion
 
 home-title = Lo projècte Common Voice es l'iniciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas de vertat.
 home-cta = Parlatz fòrt, contribuissètz aquí !
+wall-of-text-start =
+    La votz es naturala, la votz es umana. Es per aquò que volèm crear de tecnologias vocala de qualitat
+    per nòstras maquinas. Mas realizar de tales sistèma demanda un volum de donadas vocalas gigantèsc.
+wall-of-text-more-mobile = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
 show-wall-of-text = Legir la seguida
 help-us-title = Ajudatz-nos a validar las frasas !
 help-us-explain = Quichatz lectura, escotatz e digatz-nos : la frasa çai-jos es estada corrèctament prononciada ?
