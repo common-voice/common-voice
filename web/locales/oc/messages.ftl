@@ -145,6 +145,14 @@ wall-of-text-start =
     La votz es naturala, la votz es umana. Es per aquò que volèm crear de tecnologias vocala de qualitat
     per nòstras maquinas. Mas realizar de tales sistèma demanda un volum de donadas vocalas gigantèsc.
 wall-of-text-more-mobile = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
+wall-of-text-more-desktop =
+    Ara podètz donar vòstra votz per nos ajudar a construire una basa de donas que tot lo monde pòt utilizar
+    per crear d’aplicacions innovantas pels periferics e lo web. Legissètz de frasas per ajudar las maquinas a aprendre cossí lo vertadièr monde parlan. Agachatz lo trabalh dels autres
+    contributors per melhorar la qualitat. Es pas mai complicat !
+wall-of-text-first =
+    La votz es naturala, la votz es umana. Es per aquò que volèm crear de tecnologias vocala de qualitat
+    per nòstras maquinas. Mas realizar de tales sistèma demanda un volum de donadas vocalas gigantèsc.
+wall-of-text-second = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
 show-wall-of-text = Legir la seguida
 help-us-title = Ajudatz-nos a validar las frasas !
 help-us-explain = Quichatz lectura, escotatz e digatz-nos : la frasa çai-jos es estada corrèctament prononciada ?
@@ -153,8 +161,10 @@ vote-yes = Òc
 vote-no = Non
 toggle-play-tooltip = Quichatz { shortcut-play-toggle } per aviar o arrestar la lectura
 speak-subtitle = Donatz vòstra votz
+speak-paragraph = L’enregistrament de mòstras de votz fa part de nòstre jòc de donadas dubèrtas ; per unes es divertissent.
 speak-goal-text = Mòstras enregistradas
 listen-subtitle = Nos ajudar a validar las voses
+listen-paragraph = La validacion de las mòstras vocalas es important per la mission de Common Voice. Escotatz de mòstras e ajudatz-nos a crear una font de donadas de votz liura.
 listen-goal-text = Mòstras validadas
 hours-recorded = Oras enregistradas
 hours-validated = Oras validadas
