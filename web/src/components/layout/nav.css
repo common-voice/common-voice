@@ -334,6 +334,7 @@ header {
     transform: translateY(-100vh);
     transition: all var(--transition-duration-slow) var(--easing);
     visibility: hidden;
+    overflow: auto;
 
     &.active {
         display: block;
