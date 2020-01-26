@@ -376,6 +376,7 @@ faq-where-src-from-2-q = D’ont venon los tèxtes ?
 faq-why-not-ask-read-q = Perqué demandatz pas al monde de legir de libres o d’articles de Wikipèdia dins diferentas lengas ?
 faq-why-account-q = Perque me cal crear un compte ?
 faq-is-account-public-q = Son publicas las informacions de mon compte ?
+faq-how-privacy-q = Cossí asseguratz l'anonimat e la vida privada de los qu'an donada lor votz ?
 faq-how-privacy-a = Totas las mòstras son expurgadas d'informacions que permeton d'identificar las personas. Quand un contributor porgís d'informacions demograficas via son perfil, aquestas son dissociadas de las mòstras abans d'èsser prepausadas al telecargament, e son pas jamai rendudas publicas sus lor pagina de perfil.
 faq-what-is-cv = Qu'es aquò Common Voice ?
 faq-using-cv = Utilizar Common Voice
@@ -390,6 +391,7 @@ how-does-it-work-title = Cossí fonciona ?
 about-speak = Parlar
 about-listen-queue = Fila d’escotat
 about-listen = Escotar
+about-yes-votes-text = Per far partida del jòc de donadas Common Voice, una mòstra vocala deu èsser validada per doas personas distintas.
 about-dataset-new = Jòc de donadas de Common Voice
 about-partners = Sòcis
 about-become-a-partner = Venir sòci
@@ -612,6 +614,7 @@ n-clips = { NUMBER($count) } mòstras
 confirm-goal = Confirmar l’objectiu
 goal-interval-weekly = Setmanièr
 weekly-goal-created = Vòstre objectiu setmanièr es estat creat
+daily-goal-created = Vòstre objectiu quotidian es estat creat
 share-goal = Partejar mos objectius
 
 ## Profile Delete
