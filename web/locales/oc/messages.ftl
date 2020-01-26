@@ -27,6 +27,7 @@ af = Afrikaans
 am = Amaric
 an = Aragonés
 ar = Arabi
+arn = Mapudungun
 as = Assamés
 ast = Asturian
 az = Azèri
@@ -69,6 +70,7 @@ ia = Interlingua
 id = Indonesian
 is = Islandés
 it = Italian
+izh = Ingrian
 ja = Japonés
 ka = Georgian
 kab = Cabil
@@ -76,12 +78,15 @@ kk = Cazac
 ko = Corean
 ku = Curd
 kw = Cornic
+ky = Quirguiz
 lij = Ligur
+lt = Lituanian
 lv = Leton
 mg = Malgach
 mk = Macedonian
 ml = Malayalam
 mn = Mongòl
+mt = Maltés
 nb-NO = Bokmål
 ne-NP = Nepali
 nl = Neerlandés
@@ -93,12 +98,14 @@ pt = Portugués
 ro = Romanés
 ru = Rus
 sc = Sarde
+scn = Sicilian
 sk = Eslovac
 sl = Eslovèn
 sq = Albanés
 sr = Sèrbe
 sv-SE = Suedés
 sw = Swahili
+syr = Sirian
 ta = Tamil
 te = Telugu
 th = Tai
@@ -199,8 +206,11 @@ email-subscription-title-new = Inscrivètz-vos a l‘infoletra per aver de recò
 
 benefits = Avantatges
 rich-data = Enriquissètz las donadas qu’enviatz tan que podètz en provesir de donadas anonimas demograficas. Las fasèm venir anonimas totas las donadas demograficas abans de las rendre publicas.
+improve-audio = Las informacions del perfil permeton de melhorar la qualitat de las donadas àudio e la precision de la reconeissença vocala.
 keep-track = Gardatz traça de vòstres progrèsses per las lengas que participatz.
+compare-progress = Comparatz vòstres progrèsses amb los dels contributors del monde entièr.
 view-goals = Comparatz vòstres progrèsses par rapòrt a vòstres objectius personals e als del projècte.
+join-newsletter = Inscrivètz-vos a nòstra lista de difusion per recebre actualizacions e informacions novèlas sul projècte.
 
 ## What's public
 
@@ -208,6 +218,7 @@ whats-public = Quina informacion es publica ?
 email-not-public = Farem pas venir vòstra adreça electronica publica.
 recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
 username-optin-public = Podètz cuasir se volètz que vòstre nom d’utilizaire siá public o anonim.
+demographic-deidentified = Las informacions demograficas opcionalas (per exemple l'atge, lo sèxe, la lenga, e l'accent) son dissociadas de vòstres enregistraments àudio e seràn pas jamai afichadas publicament sul vòstre perfil.
 username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
@@ -230,6 +241,9 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = a
 shortcut-record-toggle-label = Enregistrar/Arrestar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Tornar enregistrar la mòstra
@@ -277,6 +291,9 @@ female = Femna
 # Gender
 other = Autre
 why-profile-title = Perqué un perfil ?
+why-profile-text =
+    Las informacions que donatz vos tocant, las donadas àudios que mandatz a Common Voices faràn que Common Voice siá mai util
+    Los motors de reconeissença utilizan aquestas donadas per melhorar lor precision.
 dashboard = Tablèu de bòrd
 build-profile = Crear un perfil
 avatar = Avatar
@@ -288,6 +305,7 @@ profile-close = Tampar
 profile-explanation = Un perfil permet de seguir los progrèsses e ajuda a far venir nòstras donadas de votz mai precisas.
 thanks-for-account = Mercés d’aver confirmat lo compte. Ara creem vòstre perfil.
 why-demographic = Perqué es important ?
+why-demographic-explanation = Las donadas dels utilizaires coma l’atge, lo sexe e l’accent ajudan a melhorar las donadas àudios utilizadas per entrenar e va venir pertinent los motors de reconeissença vocalas. Vòstre nom d’utilizaire e corrièl seràn pas jamai associats amb las donadas enviadas, e podètz causir de far venir o anonim vòstre nom d’utilizaire.
 accept-privacy = Accepti qu’utilizetz aquestas informacions segon los tèrmes de la <privacyLink>Politica de confidencialitat</privacyLink> de Mozilla.
 accept-privacy-title = Politica de confidencialitat
 login-identity = Identitat de connexion
@@ -297,6 +315,8 @@ email-subscriptions = Abonament per corrièl
 download-profile = Telecargar mas donadas
 contribution-experience = Experiéncia de contribucion
 skip-submission-feedback = Passar lo mandadís de comentaris
+skip-submission-description = Lo mandadís de comentaris serà desactivat aprèp aver causit « Enviar ». La contribucion tornarà prendre directament amb lo jòc seguent de 5 enregistraments o validacions.
+skip-submission-note = Nòta : vos cal encara causir entre Parlar o Escotar per modificar vòstre tipe de contribucion.
 off = Desactivat
 on = Activat
 avatar-clip-title = Donatz una votz a vòstre avatar
@@ -310,8 +330,10 @@ delete-voice = SUPRIMIR
 recording-voice-wave = Enregistrament
 delete-voice-clip = o Suprimir vòstra mòstra de votz
 ready-to-upload = ENVIAR
+avatar-clip-fact = Es un fach ben conegut qu'un lector serà distrach pel contengut legible d'una pagina quand examinarà sa mesa en pagina.
 recreate-voice = Tornar crear vòstra mòstra de votz
 cancel-avatar-clip-recording = ANULLAR
+about-avatar-clip-recording = Creatz una mòstra per vòstra avatar. Las autras personas poiràn escotar vòstra mòstra en passant lor cursor dessús.
 browse-file-title = Enviar un imatge
 browse-file = Lissatz-depausatz o <browseWrap>Percorrètz</browseWrap>
 connect-gravatar = Connectatz-vos amb Gravatar
@@ -338,13 +360,19 @@ faq-is-goal-assistant-q = L’objectiu de Common Voice es de construire un assis
 faq-is-goal-assistant-a = L’objectiu del jòc de donadas es de permetre a qual que siá dins lo monde de crear d’aplicacions de reconeissença de votz, d’identificacion de locutor o tot autre tipe d’aplicacions qu’utiliza la votz. Un assistent vocal es pas una aplicacion que se pòt crear amb aqueste jòc de donadas.
 faq-do-want-native-q = Soi pas un locutor natiu e parli amb un accent. Volètz totjorn ma votz ?
 faq-do-want-native-a = Òc, volèm ta votz en particular ! Una de las tòcas de Common Voice es quitament d’amassar la diversitat mai granda d’accents possibla, per pas que degun siá pas exclús. Valent a dire que los dons de votz dels non locutors son particularament importants.
-faq-why-different-speakers-q = Perque cal tantes de locutors diferents per lenga ?
+faq-why-different-speakers-q = Perqué cal tantes locutors diferents per lenga ?
+faq-why-different-speakers-a =
+    La majoria de las basas de donadas s’entrenan amb una sobrerepresentacion d’unas caracteristicas demograficas que generan un biais en favor dels  <articleLink>òmes de la classa mejana</articleLink>. Los accents e los dialèctes que son generalament josrepresentats dins los jòcs de donadas son associats amb de grops de de personas que son ja marganalizadas. Mantunas maquinas an de problèmas per comprendre las voses femeninas.
+    Aquò explica perque volèm de diversitat dins nòstre jòc de donadas !
 faq-why-my-lang-q = Perque i a pas encara ma lenga ?
+faq-why-10k-hours-q = Perqué l’objectiu es de 10 000 oras validadas per lenga ?
+faq-why-10k-hours-a = Es lo nombre aproximatiu d’ora requesit per entrenar un sistèma de produccion de Paraula-al-tèxt.
 faq-how-calc-hours-q = Cossí Common Voice calcula las oras ?
 faq-where-src-from-2-q = D’ont venon los tèxtes ?
 faq-why-not-ask-read-q = Perqué demandatz pas al monde de legir de libres o d’articles de Wikipèdia dins diferentas lengas ?
 faq-why-account-q = Perque me cal crear un compte ?
 faq-is-account-public-q = Son publicas las informacions de mon compte ?
+faq-how-privacy-a = Totas las mòstras son expurgadas d'informacions que permeton d'identificar las personas. Quand un contributor porgís d'informacions demograficas via son perfil, aquestas son dissociadas de las mòstras abans d'èsser prepausadas al telecargament, e son pas jamai rendudas publicas sus lor pagina de perfil.
 faq-what-is-cv = Qu'es aquò Common Voice ?
 faq-using-cv = Utilizar Common Voice
 faq-description = Common Voice es part de l’inciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas en realitat.
@@ -364,6 +392,7 @@ about-become-a-partner = Venir sòci
 about-get-involved = Participar
 about-nav-why-common-voice = Perque ?
 about-nav-how-it-works = Cossí ?
+about-nav-partners = Sòcis
 about-nav-get-involved = Participar
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligéncia artificiala
@@ -376,6 +405,7 @@ localization-explanation = Aquò s’agís de nòstre processús de traduccion e
 sentence-collection = Collècta de frasas
 sentence-collection-explanation = Collectar de frasas del domeni public, o n’escriure de novèlas pel domeni public.
 hours-recorded-explanation = La quantitat d’oras d’enregistraments vocals qu’avèm collectats fins ara.
+de-identified = Anonimizar
 
 ## NotFound
 
@@ -390,6 +420,7 @@ data-download-deny = Non
 data-download-license = Licéncia : <licenseLink>CC-0</licenseLink>
 data-download-modal = Sètz a man de telecargar un fichièr de <size>{ $size } Go</size>, volètz contunhar ?
 data-subtitle = Cream un jòc de donadas de voses dubert e public accessible, que tot lo monde pòt utilizar per entrenar d’aplicacions qu’utilizen la votz.
+data-explanatory-text = Pensam que d'importants jòcs de donadas publicament accessibles favorizan l'innovacion e participan a la mesa en plaça d'una concurréncia sana per las tecnologias vocalas qu'utilizan l'aprendissatge automatic. Es un esfòrç mondial e convidam tot lo monde a i prendre part. Nòstre objectiu es de far que la tecnologia de la votz siá mai inclusiva e que pòsca rebatre la diversitat de las voses del monde entièr.
 data-other-title = Autres jòcs de donadas…
 data-other-goto = Veire { $name }
 data-other-download = Telecargar las donadas
@@ -514,12 +545,18 @@ login-to-get-started = Connectatz-vos o marcatz-vos per començar
 
 report = Senhalar
 report-title = Enviar un rapòrt
+report-offensive-language = Lengatge grossièr
+report-offensive-language-detail = La frasa compòrta de prepauses irrespectuoses o grossièrs.
+report-grammar-or-spelling = Error gramaticala / ortografica
+report-grammar-or-spelling-detail = La frasa a una error gramaticala o una deca.
 report-different-language = Autra lenga
 report-different-language-detail = La frasa es escricha en una lenga diferenta de la que parli
 report-difficult-pronounce = De mal prononciar
 report-other-comment =
     .placeholder = Comentari
+success = Succès !
 continue = Contunhar
+report-success = Lo rapòrt es estat mandat amb succès !
 
 ## Goals
 
@@ -544,6 +581,7 @@ validations =
 your-languages = Vòstras lengas
 awards = Premis
 you = Vos
+top-contributors = Los contributors mai gròsses
 recorded-clips = Mòstras enregistradas
 validated-clips = Mòstras validadas
 total-approved = Total aprovat
@@ -565,19 +603,25 @@ pro-difficulty = Professional
 want-to-continue = Volètz contunhar ?
 build-custom-goal = Crear un objectiu personalizat
 set-a-goal = Definir un objectiu
+cant-decide = Podètz pas decidir ?
 n-clips = { NUMBER($count) } mòstras
 confirm-goal = Confirmar l’objectiu
 goal-interval-weekly = Setmanièr
+weekly-goal-created = Vòstre objectiu setmanièr es estat creat
 share-goal = Partejar mos objectius
 
 ## Profile Delete
 
 keep = Gardar
 remove = Levar
+keep-info = Vòstres enregistraments vocals anonims demoraràn dins lo jòc de donadas Common Voice. Un còp qu'avètz suprimit vòstre perfil, poiretz pas mai enviar de requèsta per suprimir vòstres enregistraments del jòc de donadas.
+remove-info = Anam estudiar vòstra requèsta per tirar vòstres enregistraments vocals del jòc de donadas. Se vòstra demanda es acceptada, contactarem los qu'an telecargat lo jòc de donadas e lor demandarem d'o far tanben.
 profile-form-delete = Suprimir lo perfil
 
 ## Landing
 
+welcome-staff = Benvenguda al personal de { $company } !
+help-contribute = Podètz ajudar a crear un jòc de donadas liure e diversificat en creant un perfil Common Voice e en fasent don de vòstra votz.
 login-company = Connexion / Inscripcion amb l’adreça electronica de { $company }
 profile-not-required = Es pas necessari de crear un perfil per contribuir, mas es util.
 read-more-about = Per ne saber mai anatz a la pagina A prepaus
