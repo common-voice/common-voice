@@ -349,6 +349,10 @@ change-email-setings = Modificatz vòstra adreça de corrièl dins las Preferén
 
 faq-title = Fèira de las questions
 faq-what-cv-q = Qué es lo Common Voice ?
+faq-what-cv-a =
+    La tecnologia de reconeissença de votz es a cambiar lo biais qu’interagissèm amb las maquinas, pel moment los sistèmas disponible son cars e proprietaris. Common Voice fa part de l‘iniciativa de far venir las tecnologias de reconeissença melhorars e mai accessiblas a totes. Common Voice es un jòc de donadas global de voses donadas que permet a qual qu siá d’entrenar rapidament e facilament d’aplicacions de votz dins potencialament totas las lengas.
+    
+    Collectam mai que de mòstras de voses dins las lengas mai parladas mas tanben dins las lengas de populacion de locutors mai pichonas. La publicacion de divèrses jòcs de donadas permetrà als desvolopaires, entreprenaires, e a las comunitats d’emplenar aqueste deficit. En mai del jòc de donadas de Common Voice, sèm a bastir un motor de reconeissença de paraulas apelat Deep Speech.
 faq-why-important-q = Perqué es important ?
 faq-how-get-q = Cossí pòdi obténer las donadas de Common Voice ?
 faq-when-release2-q = Quand publicaretz las donadas de Common Voince d’autras lengas ?
