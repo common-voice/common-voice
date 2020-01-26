@@ -193,10 +193,12 @@ x-years-short =
 help-make-dataset = Ajudatz-nos a crear una basa de donadas liura e publica de nauta qualitat
 sign-up-account = Crear un compte
 email-subscription-title = marcatz-vos per recebre las novetats per corrièl
+email-subscription-title-new = Inscrivètz-vos a l‘infoletra per aver de recòrds d’objectius e de bilances de progrèsses
 
 ## Account Benefits
 
 benefits = Avantatges
+rich-data = Enriquissètz las donadas qu’enviatz tan que podètz en provesir de donadas anonimas demograficas. Las fasèm venir anonimas totas las donadas demograficas abans de las rendre publicas.
 keep-track = Gardatz traça de vòstres progrèsses per las lengas que participatz.
 view-goals = Comparatz vòstres progrèsses par rapòrt a vòstres objectius personals e als del projècte.
 
@@ -329,6 +331,7 @@ faq-why-important-q = Perqué es important ?
 faq-how-get-q = Cossí pòdi obténer las donadas de Common Voice ?
 faq-when-release2-q = Quand publicaretz las donadas de Common Voince d’autras lengas ?
 faq-why-mission-q = Perque Common Voice es part de la mission de Mozilla ?
+faq-why-mission-a = La tòca de Mozilla es de gardar lo web dubèrt e accessible a totes. Per aquò far nos cal equipar los creators web amb de projèctes coma Common Voice. Las tecnologia vocalas son mai e mai presentas en defòra de las aplicacions, creem que devon servir a totes los utilizaires de la meteissa manièra. Vòl dire inclure mai de lengas, d’accents quand serem a construire e provar las tecnologias. Common Voice es una ressorça publica disponibla per tot lo monde e la còla de Mozilla e de desvolopaires del monde entièr l’utilizam ja per nòstres projèctes.
 faq-what-cv-and-deepspeech-q = Quina es la diferéncia entre Common Voice e Deep Speech ?
 faq-is-goal-assistant-q = L’objectiu de Common Voice es de construire un assistent vocal ?
 faq-do-want-native-q = Soi pas un locutor natiu e parli amb un accent. Volètz totjorn ma votz ?
