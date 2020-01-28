@@ -464,6 +464,8 @@ review-delete-recordings = Suprimir mos enregistraments
 language = Lenga
 # File size in gigabytes
 size = Talha
+validated-hr-total = Total d'oras validadas
+overall-hr-total = Total d'oras
 cv-license = Licéncia
 audio-format = Format àudio
 number-of-voices = Nombre de voses
@@ -601,6 +603,7 @@ validations =
 ## Dashboard
 
 your-languages = Vòstras lengas
+stats = Estatisticas
 awards = Premis
 you = Vos
 everyone = Tot lo monde
@@ -609,6 +612,7 @@ top-contributors = Los contributors mai gròsses
 recorded-clips = Mòstras enregistradas
 validated-clips = Mòstras validadas
 total-approved = Total aprovat
+overall-accuracy = Precision globala
 set-visibility = Definir ma visibilitat
 show-ranking = Veire mon classament
 
