@@ -409,12 +409,20 @@ about-clip-graveyard = Cimentèri de mòstras
 about-partners = Sòcis
 about-become-a-partner = Venir sòci
 about-get-involved = Participar
+about-get-involved-text =
+    Volètz ajudar a melhorar Common Voice ?
+    Crane ! Contactatz-nos per mail o sus <discourseLink>Discourse</discourseLink>,
+    enviatz un comentari via <githubLink>GitHub</githubLink>,
+    o rejonhètz-nos sus <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Perque ?
 about-nav-how-it-works = Cossí ?
 about-nav-partners = Sòcis
 about-nav-get-involved = Participar
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligéncia artificiala
+mycroft-description =
+    Mycroft es lo primièr assistent liure del monde.
+    Mycroft fonciona pertot : sus un ordenador, dins una veitura o sus un Raspberry Pi.
 
 ## Glossary
 
@@ -464,6 +472,7 @@ review-delete-recordings = Suprimir mos enregistraments
 
 ## Datasets Page
 
+datasets-headline = Sèm a crear un jòc de donadas vocalas liure que tot lo monde pòt utilizar per entrenar d’aplicacions utilizan la reconeissença vocala.
 language = Lenga
 # File size in gigabytes
 size = Talha
