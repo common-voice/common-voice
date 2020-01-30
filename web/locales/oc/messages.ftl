@@ -661,6 +661,7 @@ goal-interval-weekly = Setmanièr
 weekly-goal-created = Vòstre objectiu setmanièr es estat creat
 daily-goal-created = Vòstre objectiu quotidian es estat creat
 track-progress = Seguissètz vòstre progrès aquí e sus la pagina d’estatisticas.
+return-to-edit-goal = Tornatz aquí per modificar vòstre objectiu quand volgatz.
 share-goal = Partejar mos objectius
 
 ## Profile Delete
