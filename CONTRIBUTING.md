@@ -54,6 +54,22 @@ This is going to:
 
 You can visit the website at [http://localhost:9000](http://localhost:9000).
 
+If you get an error like the following when running native docker (not docker for desktop),
+```
+ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+```
+You may need to build a new docker. You can do that by issuing the following commands:
+```
+> cd docker/
+> docker build .
+```
+Then after this you can:
+```
+> cd ..
+> docker-compose up
+```
+You may have to run these commands as root/superuser.
+
 #### Local setup
 
 ###### Requirements
