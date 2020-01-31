@@ -407,9 +407,10 @@ about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita�
 about-yes-votes = ≥ 2 voti Se
 about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazziuni vucali àvi a èssiri appruvata di du' utenti diversi.
 about-no-votes = ≥ 2 voti No
-about-get-involved = Cullàbbura
+about-get-involved = Cullàbbura cu nuiautri
 about-nav-why-common-voice = Picchì?
 about-nav-how-it-works = Comu?
+about-nav-get-involved = Cullàbbura cu nuiautri
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ntiliggenza artificiali
 
