@@ -265,6 +265,14 @@ request-language-button = Addumanna na lingua
 
 status-title = Statu ginirali dû pruggettu: vidi unni semu junti!
 status-contribute = Cuntribbuisci câ to vuci
+status-hours =
+    { $hours ->
+        [one] N'ura sula validata nzinu a ora!
+       *[other] { $hours } uri validati nzinu a ora!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Pròssimu ubbittivu: { $goal }
 english = Ngrisi
 
 ## ProfileForm
