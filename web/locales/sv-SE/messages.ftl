@@ -521,7 +521,7 @@ datasets-positioning =
     
     Common Voices flerspråkiga datamängd är redan den största offentligt tillgängliga röstdatamängden av sitt slag, men den är inte den enda.
     
-    Titta på den här sidan som referensnav för andra datakällor med öppen källkod och, eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
+    Titta på den här sidan som referensnav för andra datakällor med öppen källkod och eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
 language = Språk
 # File size in gigabytes
 size = Storlek
