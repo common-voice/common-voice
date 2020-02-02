@@ -96,6 +96,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            width: 100%;
             z-index: var(--middle-z-index);
             position: relative;
             p {
