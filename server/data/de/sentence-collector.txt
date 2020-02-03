@@ -470,6 +470,7 @@ Allergiker sollten einen Staubsauger mit Filter nehmen.
 Alles Gute zum Geburtstag!
 Alles Humbug, widersprach Lina.
 Alles Lügen!
+Alles Verderbliche muss raus aus dem Kühlschrank.
 Alles frisch?
 Alles für einen guten Zweck.
 Alles gut?
@@ -981,6 +982,7 @@ Arabische Schrift müsste für Linkshänder besser geeignet sein als die lateini
 Arbeit hat mit Nichtstun überhaupt nichts zu tun.
 Arbeiten wir, um zu leben oder leben wir, um zu arbeiten?
 Arbeitszeugnisse müssen stets wohlwollend formuliert sein.
+Arm ist das neue Reich.
 Armut dürfte nicht der Grund für diese ungewöhnliche Behausung sein.
 Armut ist kein Verbrechen.
 Arterien führen sauerstoffreiches Blut.
@@ -2805,6 +2807,7 @@ Das Hinterfragen der eigenen Überzeugungen sollte ebenfalls ein Ziel sein.
 Das Hotel konnte keine Rechnung ausstellen.
 Das Immunsystem eines gesunden, jungen Erwachsenen steckt einiges weg.
 Das Internet darf kein rechtsfreier Raum sein!
+Das Internet hätte die Chance geboten, dies zu ändern.
 Das Internet ist eine der größten Errungenschaften der Menschheit.
 Das Internet vergisst nicht.
 Das Jugendwort des Jahres ist eine Vergewaltigung unserer Sprache.
@@ -3697,6 +3700,7 @@ Den Webbrowser Internet zu nennen, ist irreführend und trägt zur Desinformatio
 Den Wehrdienst der D-D-R leistete man bei der nationalen Volksarmee.
 Den Wehrdienst der Deutschen Demokratischen Republik leistete man bei der nationalen Volksarmee.
 Den Wickeltisch kann man hochklappen, wenn man ihn nicht braucht.
+Den Witz hat er geklaut!
 Den Wochentag zu einem gegebenen Datum zu berechnen, ist nicht so schwierig.
 Den akzeptiere ich nicht!
 Den anderen ist es verboten.
@@ -5948,6 +5952,7 @@ Eigenen Angaben zufolge achten sie auf Qualität, sind aber zugleich sehr preisb
 Eigentlich auf den sozialen Status, aber der wird oft mit dem Geldbeutel gleichgesetzt.
 Eigentlich braucht man dazu nicht einmal eine grafische Oberfläche.
 Eigentlich geht es mich nichts an.
+Eigentlich guckt man diese Filme nur wegen der Prügelszenen.
 Eigentlich hätte das Überdruckventil öffnen müssen.
 Eigentlich hätte man ihn als Notausgang nutzen können.
 Eigentlich interessiere ich mich nicht für Motorräder, aber meine beste Freundin erzählt so begeistert.
@@ -6444,6 +6449,7 @@ Einen wunderschönen guten Tag!
 Einer Bekannten ist einer davon schon vors Auto gerannt.
 Einer Bekannten ist einer davon schon vors Auto gerannt. Sie konnte aber noch bremsen.
 Einer Frau, die Freitags nicht kann, würde ich als Mann nicht trauen.
+Einer Gesellschaft tut es nicht gut, wenn wenige Konzerne die gesamte Kommunikation kontrollieren.
 Einer fehlt hier noch.
 Einer für alle, alle für einen!
 Einer geht noch.
@@ -7770,6 +7776,7 @@ Für schwer zugängliche Unfallstellen bleibt nur der Bergungshelikopter.
 Für sechs Euro bekommt man bereits eine ganze Spindel.
 Für seine Macht macht es keinen Unterschied.
 Für sich alleine ist der Skinhead ein bisschen schüchtern.
+Für sich persönlich hätte niemand so eine Entscheidung getroffen.
 Für sichere Kryptographie braucht man echte Zufallszahlen.
 Für so einen kurzen Zeitraum lohnt sich die Reparatur nicht.
 Für so manchen Teenie unvorstellbar.
@@ -8015,6 +8022,7 @@ Gewebe, das nicht mit Sauerstoff versorgt wird, stirbt nach wenigen Minuten ab.
 Gewisse Charakterzüge, die man als Kind schon hatte, legt man nie ab.
 Gewisse Entscheidungen kann man nicht rückgängig machen.
 Gewissenhaft arbeitet sie ihre Packliste ab.
+Gewohnheiten von Menschen ändert man nicht so einfach.
 Gewusst wie: So werden Sie vom Bürohengst zum gefeierten Star!
 Geöffnete Litschis sehen aus wie Augen, schmecken aber lecker.
 Geübte Nutzer verwenden die Tastaturkürzel.
@@ -8755,6 +8763,7 @@ Hirschhornsalz zerfällt beim Backen zu Ammoniak und Kohlenstoffdioxid.
 Hm, was machen wir denn da?
 Hmmm, schwierig.
 Hochmut kommt vor dem Fall.
+Hoffen Sie nicht auf Einsicht.
 Hoffentlich bessert sich das zukünftig!
 Hoffentlich fällt keiner aus dem Bett.
 Hoffentlich geht es ihm gut.
@@ -9166,6 +9175,7 @@ Ich kann Leute nicht ausstehen, die sich ständig selbst bemitleiden.
 Ich kann Prozentrechnung!
 Ich kann alles hören, was Sie sagen.
 Ich kann damit aufhören, wenn ich will, aber ich will halt nicht.
+Ich kann das Schnattern der Enten förmlich hören.
 Ich kann das gar nicht gewesen sein.
 Ich kann den Fehler nicht finden.
 Ich kann den ganzen Film am Stück zitieren.
@@ -9389,6 +9399,7 @@ Ich werde schnell wie ein Pfeil nach Washington reiten.
 Ich wette mit dir um zehn Riesen, dass er ihn entthronen wird!
 Ich wette, der Typ hat Leichen im Keller.
 Ich wette, die haben alle Dreck am Stecken.
+Ich wette, ihm ist es nicht mal aufgefallen.
 Ich wette, selbst für die beiden Nachfolger sind die Filmrechte schon verkauft.
 Ich wiederhole!
 Ich will aber nicht arbeiten.
@@ -9409,6 +9420,7 @@ Ich will mich aber nicht überreden lassen.
 Ich will mich kurz fassen.
 Ich will mich kurzfassen.
 Ich will mich nicht beeilen müssen.
+Ich will nicht ständig nacharbeiten müssen.
 Ich will noch nicht ins Bett!
 Ich will nur kurz Pfandflaschen wegbringen.
 Ich will nur mal gucken!
@@ -9427,6 +9439,7 @@ Ich wollte nur nett sein.
 Ich wurde befördert.
 Ich wusste gar nicht, dass Marek aus Tschechien kommt.
 Ich wusste gar nicht, dass das überhaupt geht.
+Ich wusste gar nicht, dass man ein Copyright auf Witze haben kann.
 Ich wusste gar nicht, was ich sagen sollte.
 Ich wusste, dass sie das sagen würde!
 Ich wäre auch ziemlich verblüfft.
@@ -9697,6 +9710,7 @@ Im Sturm sind die Bäume abgeknickt wie Streichhölzer.
 Im Städtischen Anzeiger findet man auch nichts dazu.
 Im Süden nimmt sie ihren Lauf.
 Im Tal besteht natürlich keine Schneegarantie.
+Im Tal der Ahnungslosen konnte man kein Westradio empfangen.
 Im Taucheranzug kam mir Verena Schlemmer entgegen.
 Im Torraum darf der Torwart nicht behindert werden.
 Im Uni-Klinikum werden Studenten als Streikbrecher eingesetzt.
@@ -11223,6 +11237,7 @@ Können wir bitte fortfahren?
 Können wir da nicht noch was am Preis machen?
 Können wir das Amphibienfahrzeug mal in Aktion sehen?
 Können wir das Kabel nicht in der Fußbodenleiste verlegen?
+Können wir das bitte gleich ordentlich machen?
 Können wir dazu Krokant oder Nougat nehmen?
 Können wir etwas Süße rausnehmen?
 Können wir im Keller die Eisenbahn aufbauen?
@@ -12644,6 +12659,7 @@ Na bitte, wer sagt's denn?
 Na da haben wir ja ein putziges Exemplar.
 Na dann, Hals- und Beinbruch!
 Na dann, guten Hunger!
+Na dann, herzlichen Glückwunsch!
 Na endlich!
 Na endlich, das Ordnungsamt ist da!
 Na gut, dann eben nicht.
@@ -12923,6 +12939,7 @@ Nein, ich bin kein Sandwich-Kind. Du etwa?
 Nein, ich bin nicht einverstanden!
 Nein, ich bügle nicht, das finde ich gänzlich unnötig.
 Nein, ich gehe hier nicht weg!
+Nein, ich glaube, das ist eine andere Lampenfassung.
 Nein, ich habe Hunger.
 Nein, ich kann nicht noch ein zusätzliches Amt annehmen.
 Nein, ich möchte nicht Chorleiter werden, ich singe nur.
@@ -13260,6 +13277,7 @@ Nun haben auch in Nordrhein-Westfalen die Ferien begonnen.
 Nun hat er zur Hochzeit extra seine beste Jogginghose angezogen.
 Nun hat man Gesteinsarten entdeckt, die in keinem anderen Winkel der Welt gefunden wurden.
 Nun hängt sie vor ihrer Wohnung und kriegt die Haustür nicht auf.
+Nun hörst du aber auf mit dem Unsinn!
 Nun ist der Ex-Knasti wieder auf freiem Fuß.
 Nun ist es ganz schön still, ausgenommen der Sturm, der draußen tobt.
 Nun ja, das sieht mir doch sehr nach Machtwechsel aus.
@@ -14871,6 +14889,7 @@ Sind Smartwatches erlaubt, erkundigt sich Leonie.
 Sind Sommersprossen hübsch oder nicht?
 Sind alle elektrischen Geräte ausgeschaltet?
 Sind das Kaustiken von der Wasseroberfläche oder sehen wir hier einen Grafikfehler?
+Sind das Lampen speziell für diese Fassung?
 Sind das alles freiwillige Helfer an ihrer Seite?
 Sind die Blumen echt oder aus Plastik?
 Sind die Herztöne noch da?
@@ -15289,6 +15308,7 @@ Sorry, aber ist so.
 Sorry, aber so sieht es nun mal aus.
 Sorry, mir fallen auf Anhieb keine Chuck-Norris-Witze ein.
 Sowas aber auch!
+Sowas geht wirklich gar nicht.
 Sowas ist schade.
 Sowas kommt von sowas.
 Sowas kriegst du notfalls auch beim Kaffeeröster um die Ecke.
@@ -15404,6 +15424,7 @@ Statt über angeblich brisante Enthüllungen zu schwadronieren, sollte sie sich 
 Stattdessen drehen sich die Amateurfotografen um ihre eigene Achse.
 Stattdessen dümpelt er die ganze Zeit bei fünf bis zehn Prozent herum.
 Stattdessen gab es eine Badewanne.
+Stattdessen haben wir schon wieder den gleichen Fehler gemacht.
 Stattdessen hat ihm die Ärztin einen Katheter ans Herz gelegt.
 Stattdessen hängt er den ganzen Abend am Tresen herum.
 Stattdessen legt Fräulein Dörfler die Hände in den Schoß.
@@ -15901,6 +15922,7 @@ Und die sprechen eine andere Sprache.
 Und diese Gleichung sollte Ihnen bekannt vorkommen.
 Und dieser Fund, da bin ich mir sicher, wird in die Annalen eingehen.
 Und doch bietet schon diese kleine Teilmenge eine enorme Vielfalt.
+Und doch ist es das Ergebnis vieler kleiner persönlicher Entscheidungen.
 Und drittens darf es in dem Gespräch nicht um Männer gehen.
 Und du hörst dich doch wie Herr Rehfeld an! Lach mal!
 Und du studierst Astrophysik?
@@ -17721,6 +17743,7 @@ Wer Sarkasmus findet, darf ihn gerne behalten.
 Wer Schreibmaschinenbefestigung gelernt hat, weiß sich gegen Polizisten zur Wehr zu setzen.
 Wer Zeit und Lust hat, ist nachher eingeladen.
 Wer alles auf Dummheit schiebt, macht es sich viel zu leicht.
+Wer alles besitzt, ist eigentlich arm, weil er sich über nichts Neues freuen kann.
 Wer als erstes beim Monument ist!
 Wer andere für sich denken lässt, ist selber schuld.
 Wer anderen eine Grube gräbt fällt selbst hinein.
@@ -18009,6 +18032,7 @@ Wie die herumlaufen, sieht ja unmöglich aus.
 Wie dringen die Informationen immer nach außen?
 Wie du ja weißt, hat er bereits sein Veto ausgesprochen.
 Wie du mir so ich dir.
+Wie dumm muss man eigentlich sein, sich so abhängig zu machen?
 Wie entfernt man ein Wespennest?
 Wie entkommt man dem Schweinezyklus?
 Wie entsetzlich!
@@ -19344,6 +19368,7 @@ Zweiundsiebzig Prozent aller Bürger sind nicht in der Lage, Statistiken kritisc
 Zwergen werden häufig unterschätzt.
 Zwickau hatte einmal vierzig Prozent mehr Einwohner als heute.
 Zwiebeln, Knoblauch und anderes Wurzelgemüse sind der Hit der Saison.
+Zwischen Altona, Dammtor und Hauptbahnhof verkehren die Fernverkehrszüge nicht schneller als die S-Bahn.
 Zwischen Eisenach und Fulda sollte man eine neue Hochgeschwindigkeitsstrecke errichten.
 Zwischen Kufstein und Kiefersfelden verläuft die Bundesgrenze.
 Zwischen beiden Gipfeln ist es die niedrigste Stelle des Gebirgskamms.

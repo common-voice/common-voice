@@ -148,6 +148,7 @@ Aranyosak vagytok, de táncolni megyek a barátnőmmel!
 Arcra, szájra, nyelves?
 Arkhimédész büszke lenne.
 Attól függ.
+Atyaég, nem tud veszíteni, igaz?
 Atyám, ez durva lesz.
 Atyám, nincs elég gyertya a templomban az embereknek, akiket bántottam.
 Az Országgyűlés országgyűlési képviselőkből álló állandó bizottságokat alakít.
@@ -339,6 +340,7 @@ El kell mennem Jancsi nagyapjának temetésére, és nem vagyok oda érte.
 El tudod ezt hinni?
 Eldöntenénk végre?
 Elfogadom a feltevésed.
+Elköszönhetett volna!
 Elment az eszed?
 Elnézést!
 Elnézést, mi még nem ismerjük egymást.
@@ -349,6 +351,7 @@ Elárultál minket pénzért?
 Elég idegesnek tűnt.
 Elég régen.
 Elég sok számot ismerek innen, azokból az időkből, amikor bezárt a világítótorony.
+Elég volt!
 Először nagy csönd támadt.
 Emlékszel, hány seggberúgást kaptál a szomszéd gyerektől?
 Ennyit nem ér.
@@ -395,6 +398,7 @@ Ezek nem menyétek voltak.
 Ezek valóban szokatlan események.
 Ezt a mesterséget érteni kell.
 Ezt meg ki csinálja?
+Ezt most hogy értette?
 Ezt nem beszélem meg veled.
 Ezt randinak gondoltad?
 Ezzel kéne kezdened.
@@ -414,6 +418,7 @@ Fizetést nem kapok, de szeretek bejönni.
 Fiúk, akinél van dohány, az szíjjon nyugodtan.
 Fiúk, ez pofon egyszerű.
 Fiúk, megvan.
+Fiúk, van egy kis gondom!
 Folytasd csak.
 Fontos, hogy kipihent legyek a gyújtogatás előtt.
 Fordítsd el a medencéd.
@@ -517,6 +522,7 @@ Igazi áttörésnek hangzik!
 Igazából nem vagy koszos.
 Igen, azt hiszem.
 Igen, csak hozzám jött a postád.
+Igen, de akkor is elég kellemetlen, amikor nyer.
 Igen, de annak, aki a párja lesz, hátrányt jelent majd
 Igen, de az három hete volt.
 Igen, de csak takarítani.
@@ -806,6 +812,7 @@ Na jó, tényleg jól fest a lakás.
 Na mindegy.
 Na most mi van?
 Na én mentem mosogatni.
+Na, ez jó volt.
 Na, hogy ment?
 Na, kezdődik.
 Na, én indulok a konferenciára!
@@ -829,6 +836,7 @@ Ne légy nevetséges.
 Ne olyan gyorsan!
 Nehéz időket élek mostanában.
 Nehéz volt felhozni?
+Neked ez is egy lehetőség.
 Neked is.
 Nekem inkább reggelinek tűnik.
 Nekem nincsenek kortársaim.
@@ -1098,6 +1106,7 @@ Ugye tudod, hogy az a jelenet tudományosan pontatlan?
 Unom a munkám.
 Utálom, hogy ezt kell mondanom, de a fickó okos.
 Vagy azért örül, mert azt hiszi, én is örülök?
+Vagy lehetne magánéletünk.
 Vagy levelezőlap, vagy vérfürdő, ez túlzás.
 Valaki babrált az egyenleteimmel.
 Valaki hozzányúlt a táblámhoz.
@@ -1140,6 +1149,7 @@ Voltál már lék-horgászni?
 Vágjátok félbe a külföldit, még van sok ott, ahonnan jött.
 Várj csak!
 Várj még, édes.
+Várj, elfelejtettél valamit!
 Várj, hol is tartottam?
 Várj, hova mész?
 Várj, édes.
