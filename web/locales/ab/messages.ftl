@@ -10,6 +10,7 @@ submit-form-action = Ашьҭра
 loading = Аҭагалара
 email-opt-in-info = Сара исҭахуп Common Voice ахықәкқәеи аҽыцрақәеи ртәы зҳәо ашәҟәқәа соуларц.
 email-opt-in-info-title = Common Voice ашьҭымҭақәа уҽрыларархәы
+email-opt-in-info-sub-with-challenge = Common Voice иуадаҩу ахықәкқәеи аҩаӡарақәеи ирыдҳәалоу ажәабжьқәеи ртәы зҳәо ашәҟәқәа риура.
 email-opt-in-privacy = Асалам шәҟәқәа риура уанақәшаҳаҭха, уи ианагоит, Mozilla уинформациа аус шаднауло уақәшаҳаҭуп ҳәа. <privacyLink>Ҷыдалатәи Аполитика</privacyLink> Mozilla.
 indicates-required = *Хымԥада ихарҭәаатәуп аҭыԥ
 not-available-abbreviation = Анеишьа Амам
