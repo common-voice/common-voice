@@ -31,6 +31,7 @@ export type CommonVoiceConfig = {
   KIBANA_PREFIX: string;
   KIBANA_ADMINS: string;
   LAST_DATASET: string;
+  SENTRY_DSN: string;
 };
 
 const DEFAULTS: CommonVoiceConfig = {
@@ -65,6 +66,7 @@ const DEFAULTS: CommonVoiceConfig = {
   KIBANA_PREFIX: '/_plugin/kibana',
   KIBANA_ADMINS: null,
   LAST_DATASET: '2019-06-12',
+  SENTRY_DSN: '',
 };
 
 let injectedConfig: CommonVoiceConfig;
