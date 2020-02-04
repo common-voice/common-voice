@@ -742,11 +742,13 @@ activity-needed-calculation =
     { NUMBER($periodMonths) } мза рыла { NUMBER($totalHours) } сааҭ ҟалар алшоит.
 how-many-per-day = Ибзиоуп! Ҽнак заҟа нҵамҭа?
 how-many-a-week = Абзаиӡа! Шаҟа анҵамҭақәа мчыбжьык ала?
+which-goal-type = Уара иҭауҩҩыр уҭаху, игәоуҭарц акәу, мамзаргьы аҩускгьы ҟауҵарц угәы иҭоу?
 receiving-emails-info = Уара иуоулоит ухықәкы угәалазыршәа, аус ахьынӡа пеихьоуи, Common Voice иадҳәалоу ажәабыжьқәа ртәы зҳәо асалам шәыҟәқәа.
 not-receiving-emails-info =
     Уара <bold>МАП</bold> аҟны иуоулоит ухықәкы угәалазыршәои, уусқәа ахьынӡанеихьоуи Common Voice 
     иадҳәалоу ажәабжьқәа ртәы зҳәо асалам шәыҟәқәа
 n-clips = { NUMBER($count) } анҵамҭақәа
+help-share-goal = Ухықәкы ҳаҳәа, абжьы рацәа рыԥшаараҟны уҳацхраа.
 goal-interval-weekly = Есымчыб­жьатәи
 share-goal-type-speak = Абжьы ҭаҩра
 share-goal-type-listen = Азыӡырҩра
