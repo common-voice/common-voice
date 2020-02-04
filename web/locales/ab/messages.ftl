@@ -749,12 +749,20 @@ not-receiving-emails-info =
     иадҳәалоу ажәабжьқәа ртәы зҳәо асалам шәыҟәқәа
 n-clips = { NUMBER($count) } анҵамҭақәа
 help-share-goal = Ухықәкы ҳаҳәа, абжьы рацәа рыԥшаараҟны уҳацхраа.
+confirm-goal = Ухықәкы шьақәырӷәӷәа
 goal-interval-weekly = Есымчыб­жьатәи
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Ухықәкы - { $count } нҵамҭак есыҽны { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Ухықәкы - { $count } нҵамҭа есымчыбжьа { $type }
 share-goal-type-speak = Абжьы ҭаҩра
 share-goal-type-listen = Азыӡырҩра
 share-goal-type-both = Абжьы ҭаҩреи Азыӡырҩреи
 # LINK will be replaced with the current URL
 goal-share-text = Сара абыржәы #CommonVoice сыбжьы аҭаразы ахықәкы сымоуп. Шәсыцхраа амашьынақәа хаҭала ауаа еилыркаауа рыҟаҵара аус аҟны { $link }
+weekly-goal-created = Мчыбжьыктәи ухықәкы нагӡоуп
+daily-goal-created = Ҽнактәи ухықәкы нагӡоуп
+track-progress = Абреи астатистикатә даҟьаҟны уеизҳашьа уашьклаԥшла.
 
 ## Profile Delete
 
