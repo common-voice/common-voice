@@ -415,6 +415,7 @@ about-no-votes-text = Quand un utilizaire regeta una mòstra aquela tòrna dins 
 about-dataset-new = Jòc de donadas de Common Voice
 about-dataset-new-text = Lo jòc de donadas Common Voice conten centenas de mòstras vocalas per ajudar als desvolopaires a crear d’aplicacions vocalas.
 about-clip-graveyard = Cimentèri de mòstras
+about-clip-graveyard-text = Lo cementeri de mòstra inclutz de mòstras vocalas que son pas dintradas al jòc de donadas de Common Voice. Coma aqueste, òm pòt lo telecargar.
 about-partners = Sòcis
 about-become-a-partner = Venir sòci
 about-get-involved = Participar
@@ -508,6 +509,7 @@ other-datasets = Autres jòcs de donadas
 feedback-q = Avètz de suggestions ?
 data-other-ted-name = Corpus TED-LIUM
 data-other-voxforge-description = VoxForge foguèt bastit per reculhir de transcripcions vocala per las utilizar dins de motors de reconeissença vocala.
+your-feedback = Avètz d’idèas per melhorar lo jòc de donadas Common Voice ? Digatz-nos sus Discourse
 go-discourse = Anar al Discourse
 missing-language = Vòstra lenga es pas dins lo jòc de donadas ? Per demandar son apondon, anatz a la pagina de lengas.
 go-languages-page = Anar a la pagina de las lengas
@@ -520,6 +522,7 @@ dataset-version = Version
 ## Download Modal
 
 download-title = Lo telecargament a començat
+download-helpus = Ajudatz-nos a construir una comunautat a l’entorn de las tecnologias de votz, demoratz al fial per corrièl.
 download-form-email =
     .label = Picatz vòstra adreça electronica
     .value = Mercés, vos tenem al fial.
