@@ -26,6 +26,7 @@ A co má být ten nejlepší výsledek?
 A co má být?
 A co náhodní lidé na ulici?
 A co po práci?
+A co rakovina konečníku?
 A co se ten Janek tak omámil?
 A co to máte na hlavě?
 A co vaše opice?
@@ -37,10 +38,12 @@ A do žaludku nic, každý se klepal zimou.
 A dobré filmy!
 A dokonce mě dneska vůbec nebolí nohy.
 A dokonce nebyla ani zamčená.
+A dokonce, je-li to do ciziny.
 A doma my nemůžeme, doma je nám to protivný...!
 A domluvit se se mnou na nějakém způsobu obhajoby.
 A dost!
 A druhé pravidlo je...
+A dále různá témata z počítačového vidění
 A díky tomu najít i rotované obličeje - to ale není nutné.
 A hlavně, okamžitý postih je mnohem účinnější.
 A hledět spolu s tebou do kraje jako právě teď.
@@ -66,10 +69,12 @@ A jinak text?
 A jsem si plně vědom závažnosti takového tvrzení.
 A jsem už aspoň někde blízko dna?
 A jsem zvědav, jak to dopadne.
+A jsou i celkem pohodlné.
 A já jako mladičký student vydržel jsem se celou dobu na ně dívat.
 A já můžu sedět v dlani perfektnosti, kterou jsem sám stvořil.
 A já se ti tímto s menší úklonou poroučím.
 A já se to pokusím vysvětlit.
+A já!
 A k němu také okamžitě zamířil.
 A každý si může přidat vlastní planetu.
 A kdo má rád čivavy s černobílou hlavou...
@@ -141,12 +146,14 @@ A pak se mi, víte, nesnesitelně stýská.
 A pak se různě navzájem prokombinují.
 A pak se to všechno totálně podělá.
 A pak se zavolá destruktor.
+A pak teprv rozepisuju postup pro spolužáky.
 A pak to všechno táhlo k trafice.
 A pod ním nic nemám.
 A pokladní ke mě!
 A pokud ho druhý neudělí, neudělí ho ani oni.
 A pokud si něco nezkusíte, nic nevíte!
 A pokud to nevíte, z toho nápisu si to nevyvodíte.
+A popis tenkrát použitého řešení, nebude nic moc.
 A poprvé po dlouhé době tam jedu bez psů.
 A poslední dobou si chodíval spát dřív a dřív!
 A postupu pletení.
@@ -162,6 +169,7 @@ A první krok k věčnému životu?
 A právě rok třístý dvaadvacátý byl oním rokem Veleriona.
 A právě z tohoto mají energetici strach.
 A písničkami!
+A přece jsem mnohou hrudu svalil.
 A především - aniž by to bylo předvídatelné!
 A přemýšlím.
 A přesně takhle to tehdy bylo!
@@ -187,6 +195,7 @@ A tak dále, a tak podobně, desítky a stovky detailů...
 A tak jsem tady.
 A tak jsem vyrazil na Melanomy, vrátil jsem se domů, spal jsem.
 A tak jsem šel.
+A tak jsme se s Marlou potkali.
 A tak podobně.
 A tak tam stál opřený o zeď s nejistým výrazem v obličeji.
 A tak to dopadlo jako v té pohádce o pejskovi a kočičce.
@@ -209,6 +218,7 @@ A teda kurevsky mi ničíš život, ale nech si prosimtě pomoct.
 A ten hovoří jasně.
 A ten jsem viděl a radši bych to nedělal.
 A ten miluje krásnou židovku Táňu Pauhofovou.
+A teplé.
 A teď jdou po poušti hledajíce přítomnost.
 A teď musíme v bahně, v smutku dlíti.
 A teď pohled běžného cestujícího.
@@ -239,6 +249,7 @@ A triky jsou vynikající.
 A tu se počíná naše historie.
 A ty furt chodíš do skupiny?
 A ty jdi do prdele!
+A ty ponožky vypadají úžasně.
 A ty záběry jsou navíc osídleny špičkovými herci.
 A tím naskakujeme do spirály šetření elektřinou.
 A ukázalo se, že taková účast skutečně má smysl.
@@ -265,6 +276,7 @@ A většinu z toho i vidíme na starých autentických záběrech.
 A všechno velmi explicitně a velmi nevhodně pro mládež.
 A všechny při tom doprovází kamera...
 A všichni mi říkali to samé.
+A všichni ti staromódní hajzlové!
 A z toho mají radost obchodníci.
 A za třetí, můžeš v benzínu rozpouštět podrcený kočičí trus, dokud směs nezhoustne.
 A zajímavost výstupů je daná zajímavostí a počtem vstupů.
@@ -315,6 +327,7 @@ Aha, tak to bude problém.
 Ahoj Martino, já jsem dělal rozpoznávání výrazu obličeje jen okrajově.
 Ahoj všem.
 Ahoj, jmenuji se Petr Fuk a jsem autorem této věty.
+Ahoj, já jsem Markéta a mám rakovinu.
 Ahoj, právě kupuju dárky na vánoce.
 Ahoj, právě teď tady mluvím s počítačem, abych pomohl s trénováním hlasového modelu.
 Ahoj, tady konečně napadlo trochu sněhu.
@@ -336,12 +349,14 @@ Ale asi půjdu na nádraží a sednu na první, který pojede.
 Ale ať!
 Ale babičko, kam přece tolik vojáků jde?
 Ale bude, všechno tomu zatím nasvědčuje.
+Ale bývá to u nás, že těžko loučit se s domovem.
 Ale co za špatného počasí?
 Ale co řekl, splnilo se.
 Ale dobře, budík zní nepravděpodobně.
 Ale doporučuji, abyste to rozšířili i nějak jinak.
 Ale dost suchého lamentování, pojďme na to!!!
 Ale dělá to to, co je napsané v zadání.
+Ale furt víc jak některý slohovky.
 Ale jak s ním bylo předtím!
 Ale jako produkt dvacetiletých dabovaných úst znějí hrozně.
 Ale jde především o vědecký zájem, ne?
@@ -355,6 +370,7 @@ Ale ještě asi budu muset počkat na víc sněhu.
 Ale já nechci, proboha!
 Ale kam to dáme?
 Ale když kufr vibruje... no to pak musí házeči zavolat policii.
+Ale když se musí loučit, to přichází krušno.
 Ale klidně vám to vykreslím sám.
 Ale miláčku.
 Ale mne strojové učení tolik nebaví.
@@ -373,6 +389,7 @@ Ale ne špatné.
 Ale ne, že by byli nějak nenávistní.
 Ale ne, že to špatně pochopíš!
 Ale nemohla kamenem hodit kilometr daleko.
+Ale nemusíte skládat jenom plochu.
 Ale nemám přesnou představu, jak to testujete.
 Ale nemějte zbytečná očekávání...
 Ale nemůžeme počítat s tím, co se ztratí, když předěláváme svět od Adama.
@@ -383,6 +400,7 @@ Ale nesmím zapomenouti na krystaly, formy, zákony a barvy.
 Ale netrapte se temnými představami.
 Ale netvoří těžiště příběhu.
 Ale nečekal jsem, že se projeví tolik.
+Ale nic jiného.
 Ale nic se neozvalo.
 Ale někomu to třeba bude vyhovovat.
 Ale něčeho z tohoto spektra se brzy určitě dočkáme.
@@ -391,6 +409,7 @@ Ale o tom ani tušení neměli.
 Ale o tom až za chvíli...
 Ale o tom jsem mluvit nechtěl.
 Ale o tom třeba někdy příště.
+Ale obávám se, že jednoduchá simulace vozidla je na diplomku trochu "jednoduchá".
 Ale odkud by ti noční návštěvníci vlastně měli připlout?
 Ale odpusť, že musíš jíti pěšky sám.
 Ale okolnosti byly neúprosné.
@@ -444,6 +463,7 @@ Ale za pět let, no tak, vsaďte se!
 Ale zatím jsem se nerozhodl.
 Ale zdálo se, že vše je na dobré cestě.
 Ale zítra určitě pošlu výsledky.
+Ale, Markytko, vždyť se všecka unavíte.
 Ale, ale ale.
 Ale, pane, to už umím lítat!
 Alergie na bavlnu bývá minimální.
@@ -514,6 +534,7 @@ Asi věří, že je již daleko z jeho dosahu.
 Asi všechno může zůstat při starém.
 Asi za dvě hodiny nastal na dvoře čilý ruch.
 Aspoň ne po delší dobu.
+Aspoň ne ve třech dimenzích.
 Aspoň o jednu starost míň.
 Aspoň se vidí, jací jsou ke mně, a já si to budu pamatovat.
 Aspoň že v pondělí nemusím učit.
@@ -526,7 +547,9 @@ Auto se zvolna dalo do pohybu.
 Avšak dvouhlavý orlíček nad krámem není, koukejme se.
 Avšak jindy... jindy to bývá robertek!
 Avšak kolem panovalo hluboké ticho a z počátku i čirá tma.
+Avšak černé oči na pohled trochu pošmournou ji činily.
 Ať bolí!
+Ať dodržujeme nějakou terminologii.
 Ať je to jakkoli, kolize je tu zjevná a musí být řešena.
 Ať mám nějaké srovnání.
 Ať máme trochu časovou rezervu.
@@ -553,6 +576,7 @@ Až nad námi pak zavřelo se moře.
 Až někde budou, dám vědět.
 Až potkaly sele uvázlé ve stodole.
 Až potud se nejedná o nic objevného.
+Až příliš snadno se adaptuje.
 Až se dopočítá, tak ti ty obrázky pošlu.
 Babička ji táhla a Eva vztekle plivala kolem sebe.
 Babička měla syna a dvě dcery.
@@ -582,6 +606,10 @@ Bledý tanečník s maskou.
 Bloumal jsem městem a všude jsem potkával lidi s monokly a odřeninami a obvazy.
 Blázním, v sanitce určitě bude dýchací přístroj.
 Blíže brány košatá lípa, pod ní sedátko.
+Bob má kozy, protože má příliš vysoké procento testosteronu.
+Bob má kozy.
+Bob mě miluje, protože si myslí, že mi taky odstranili varlata.
+Bob pláče, protože mu před šesti měsíci odebrali varlata.
 Bob zabíhá za scénu, ozývá se výstřel.
 Bohužel asi beztrestně.
 Bohužel jsem příští týden mimo Brno.
@@ -676,6 +704,7 @@ Byl to drahý experiment, ale než skončil, přinesl nám mnoho cenných zkuše
 Byl to překvapující objev, že Anglie je opravdu anglická.
 Byl to převážně abstrakcionistický malíř.
 Byl vysoký, s hlavou vzpřímenou.
+Byl z normální.
 Byl čas si vzít dovolenou.
 Byla by možná nějaká konzultace?
 Byla by to jen loutka na dálkové ovládání.
@@ -686,6 +715,7 @@ Byla sama, když jsem přijel.
 Byla to docela obyčejná papírová krabička.
 Byla to emočně poměrně rozbouřená diskuse.
 Byla to krásná dovolená.
+Byla ustrojena v selský šat.
 Byla zpola zahalena kouřem.
 Byli jsme rozděleni na čtyři výbory.
 Byli jsme veselé mysli.
@@ -727,10 +757,13 @@ Běda duši mojí!
 Během jednoho vyhodnocení klasifikátoru najde objekt kdekoliv v obraze.
 Bělocerkevská.
 Bětko!
+Běžely pak matkám povídat, že je u lesa dav lidu.
 Běžte tam!
+Bůhvíjak to mám klasifikovat.
 Cedule se vzpírala fičícímu severáku.
 Celkem dlouho jsem se s vámi neviděl.
 Celkem jich bylo nejméně deset.
+Celkem k ničemu na střední škole.
 Celkem rád bych znal důvody, proč jste nedorazili.
 Celkem si v poslední době koresponduji kvůli projektu.
 Celkem žiju a všechno zvládám.
@@ -889,6 +922,7 @@ Cokoliv, co sem napíšete, se vykonává v kontextu objektu.
 Common Voice je v současné době dostupný pouze v angličtině.
 Copak děláš?
 Copak je?
+Cosinus je sudá funkce.
 Což ale musím vysvětlit.
 Což byla ode mne trestuhodná nedbalost!
 Což je bohužel případ tohoto filmu.
@@ -925,6 +959,7 @@ Další trend je mít koně bez podkov.
 Další věc jsou rozměry.
 Dalším faktorem je způsob, jakým studenti interagují se zbytkem komunity.
 Dalším zdravotním důvodem je u chlapečků teplota.
+Dana Kuchtová asi společnému sprchování neholduje.
 Daně a poplatky lze ukládat jen na základě zákona.
 Datem uskutečnění plnění je tedy poslední den v měsíci.
 Davem to zavlnilo.
@@ -937,12 +972,17 @@ Dej mu masku a poví pravdu.
 Dej mu prostor a zabavíš ho, dokud v něm nevytvoří svět.
 Dej sem ruku.
 Dej ten talíř do myčky.
+Dejte mi alespoň to děvče na vůz.
 Delší komentář už si to ani nezaslouží.
 Deset se píše jedna nula.
 Deset vteřin, půl minuty, minutu, pět minut...
+Design plakátu navrhl ministr osobně.
 Destička se do držáku vsune a zajistí pomocí dvou šroubů.
+Destruktor musí být virtulální, jinak se nebude volat.
+Detekce prasklin
 Detektiv odchází
 Devatenáctka přede mnou.
+Devět je víc než nula.
 Digitální zrcadlovky jsou každým rokem levnější a výkonnější.
 Dinosaurus nořící se z temného tunelu.
 Dinosauří stín na zdi.
@@ -964,6 +1004,7 @@ Dneska je hezký den, ale zítra bude pršet.
 Dneska je hezký den.
 Dneska jsem už odpoledne neusínal.
 Dneska si lidi moc dovolují a žádné právo na ně neplatí.
+Dneska už je zítra.
 Dneska v noci jsem vůbec nespal, akorát trochu ve vlaku.
 Dnešek odpovídá již na tyto otázky díly umělců nejmladších.
 Do budoucna budou kombinézy zlepšovat, co už mají.
@@ -1001,6 +1042,7 @@ Dokdy to má být hotové?
 Dokládají ho rekordní prodeje.
 Dokonce jsem dostal takový kus dřeva za třetí místo ve své věkové kategorii.
 Doktor odchází, všichni pacienti si sedají na židle.
+Doktorka: Samozřejmě, co Vás trápí?
 Dokážete si to vůbec představit?
 Dokážeš vyřešit Rubikovu kostku?
 Dole na palouku byla vysoká tráva a rosa na ní jako granáty.
@@ -1010,6 +1052,7 @@ Doma vyrobené mýdlo je totiž přírodní produkt.
 Domluvte si se mnou na nějaký termín.
 Domluvíme se podle toho, kolik vás dohromady na opakované obhajoby bude.
 Domácnost ho pořád těšila, ba snad čím dále tím více.
+Domácí nemoc člověka zchvátí.
 Domén s diakritikou se v Česku jen tak nedočkáme.
 Domů jsem dorazil úplně v pohodě a teď se chystám na hory.
 Donutil mě se víc socializovat.
@@ -1046,6 +1089,7 @@ Dočkáte se všeho.
 Došli k oknu a vyhlédli na dvůr.
 Došlo k tomu asi za dva měsíce s výsledkem nade vše očekávání.
 Došlo mi docela dost mailů od studentů, kteří nestihli odevzdat domácí úkol.
+Došlo u něj k acidóze.
 Dražší typy zářivek mají dobré barevné podání.
 Drbu vrbu.
 Druhotným cílem aktivity je vyzkoušení si zapalování ohně.
@@ -1075,6 +1119,7 @@ Dá na mě.
 Dá se na něj zapsat pouze jednou a pak už jen číst.
 Dá si někdo dezert?
 Dál se to chce postarat o čistě fyzické propriety.
+Dále byla oblečena v modrou zástěru, vyšívanou šněrovačku.
 Dále jsem udělal i několik velkých vedlejších projektů.
 Dále pak omezíme dobu používání spotřebičů.
 Dále předpokládáme, že hráči mají dokonalé informace
@@ -1127,6 +1172,7 @@ Dělá to dojem horečného násobení.
 Dělá to dojem.
 Dělám si poznámky a používám vzorec.
 Děláš to v ledové lázni.
+Děláš tu svoji drobnou práci, ke které si vycvičený.
 Děrné pásky či štítky.
 Děsné.
 Děti mají právo na rodičovskou výchovu a péči.
@@ -1142,6 +1188,7 @@ E-shopy se ještě zapotí v lednu.
 Editor nabízí jejich vyhledávač.
 Ehm, teda, řidič.
 Ehmm.
+Ekonomky a elektrikáři to mají už zítra.
 Elektřina se vyrábí v elektrárnách, teplo v teplárnách.
 Elektřina v každém stanu.
 Elektřina však také napájí.
@@ -1167,6 +1214,8 @@ Existují však i zdroje obnovitelné.
 Exkurze do sídla společnosti Google proběhla ve dvou termínech.
 Experiment připravený mám a je tam i něco jako uživatelská příručka.
 Experiment se zdárně dopočítal.
+Experimenty
+Extrakce příznaků
 Fakulta informatiky Masarykovy univerzity je nejlepší a nejskvělejší školou v celém známém vesmíru.
 Fantazii se meze nekladly.
 Fantazii se meze nekladou.
@@ -1187,6 +1236,7 @@ Forma na mýdlo.
 Formy zábavy jsou v Pchjongjangu docela omezené.
 Fosilní paliva jsou neobnovitelné zdroje energie.
 Fotky nějaké mám a někdy je snad pošlu.
+Fotografové, filmaři...
 Foukal silný protivítr.
 Francouzská armáda vstoupila do Toleda.
 Frodo se Samem pokračovali ve své cestě.
@@ -1198,6 +1248,7 @@ Furt tam stojí a čumí.
 Fáráte někdy?
 Gero umírá a Eragon utíká s Bromem a Safírou.
 Grafické rozhraní.
+Grafické zobrazení a Umělá inteligence ve hře.
 Grafy potřebují doladit.
 Gratuluji, jsi o krok blíže ke dnu.
 Haha, to se rozumí!
@@ -1213,6 +1264,7 @@ Hele, tohle není opravdová sebevražda.
 Heleno, snad jim neuděláte takový zármutek, že byste je odmítla?
 Heleně je robotů líto.
 Historie polovičního naplnění a poloprázdnoty.
+Hladce je plést snazší.
 Hladký doktorský ručičky.
 Hlas je nejjednoduší a nejpřirozenější způsob komunikace.
 Hlas je přirozený a lidský.
@@ -1250,6 +1302,8 @@ Honza zase hraje tanky.
 Honzíčku milý, nech mě chvíli.
 Horuji pro to, aby ti bylo dobře všemi směry.
 Hospodář jako by se na okamžik rozmýšlel nebo čekal.
+Hospodáři na polích pracující nechali díla.
+Hospodáři vycházeli tu ze stodol, tu ze zahrad.
 Hospůdka byla úplně prázdná.
 Hostitelce krvácejí ruce.
 Hotel ležící na hranici Nevady a Kalifornie.
@@ -1279,6 +1333,10 @@ Hymnus tvůj je věčný!
 Házel to všechno na jednu hromadu a řval jako bejk.
 Házela na vojáky všemi posledními babiččinými brambory.
 Háčkování je něco jiného.
+I acyklické grafy ale mají svá úskalí.
+I důstojník zvolal, když byl na paseku vešel.
+I hospodáři mladí, staří vycházeli ze stodol.
+I jděte mi s vaší domácí nemocí.
 I jen v porovnání se svými kolegy není příliš významný.
 I k tomu wiki používám.
 I když...
@@ -1286,6 +1344,7 @@ I když bůh ví, má-li to smysl.
 I když je otázka, do jaké míry by to nějak významně vadilo.
 I když jsem optimista, někdy propadnu panice.
 I když se cestuje časem.
+I když.
 I matce koze zželelo se jich.
 I na začátku velkého požáru může být docela malá jiskra.
 I nepatrná síla vytvoří měřitelný zkrut.
@@ -1296,6 +1355,7 @@ I tak to stálo za to.
 I to je možnost.
 I v zimě jej musíte projít.
 I vzplanula má zvědavost tím silněji.
+I výpočetní kapacitu.
 I za cenu toho, že se tam bude jezdit rychleji.
 I zde má spotřebitel právo odstoupit.
 I zde se pořádají výstavy krátkodobého charakteru.
@@ -1347,6 +1407,7 @@ Jak se chová?
 Jak se cítíte?
 Jak se jen před těmi lidmi mohu objevit, když nevím, kdo to udělal?
 Jak se jmenuju?
+Jak se liší od normální příze?
 Jak se provádí tepelně technické posouzení střešního pláště šikmé střechy.
 Jak se rozdělují dlouhé metody?
 Jak se tedy podívat sám na sebe?
@@ -1386,6 +1447,7 @@ Jak že takový tuctový web vypadá?
 Jak? – to je na Vás a na Vašem žaludku.
 Jakej ta malá může mít příklad?
 Jako by něco hledal.
+Jako by se stalo, vzácná paní kmotřinko.
 Jako by to sama nevěděla nejlíp.
 Jako by vůbec nic neslyšel.
 Jako druhý vedoucí jela Anda.
@@ -1422,6 +1484,7 @@ Jaký má program?
 Jakým jazykem tam mluvíš?
 Jakživ jsem nebyl v tak gigantickém jarmarku.
 Jakživ jsem neviděl něco podobného.
+Jali se hned dívat se na vrch.
 Jana ohromeně vzhlédla.
 Jasné a všeobecně známé.
 Jasný hele, buď v klidu.
@@ -1448,6 +1511,7 @@ Je dobré mít tento faktor jako parametr spolu s velikostí posunutí okna.
 Je dobré se to trochu naučit předem.
 Je dobré si uvědomit, že kritika není útokem na vás.
 Je dobré, pokud může ještě dlouho zůstat stát v teple.
+Je docela přirozené, že vstupem pro integrální obraz má být šedotónový obraz.
 Je hlavním kationem plazmy a extracelulární tekutiny.
 Je jasné, že tento problém je v zásadní míře dočasný.
 Je jasné, že za to částečně můžou fotovoltaické elektrárny a jim podobné.
@@ -1467,6 +1531,7 @@ Je možné mnoho postupů - já navrhnu dva.
 Je možné to i nějak zvládnou ve středu.
 Je možné v takovém světě mít svobodnou vůli?
 Je možné, že jde jen o dočasný pokles.
+Je možné, že vás plochy nebaví.
 Je na to funkce.
 Je otázkou, jak se tam chyba dostala.
 Je polní cesta za lesem.
@@ -1519,8 +1584,10 @@ Je to nejjednoduší a nejpřirozenější
 Je to nejjednoduší a nejpřirozenější způsob komunikace.
 Je to nejjednodušší a nejpřirozenější způsob komunikace.
 Je to nudlová polévka, která se podává studená.
+Je to nějak definované?
 Je to někdo ještě slavnější!
 Je to ohromný, fakt.
+Je to otravné tam furt hledat oka.
 Je to paměť na nápady a databáze na konkrétní tvrdá data.
 Je to patrně vaše tajemství.
 Je to periferní zařízení pro ukládání dat na optické disky.
@@ -1529,6 +1596,8 @@ Je to postapokalyptické drama.
 Je to pravda.
 Je to pro nás v podstatě už jen neuchopitelné abstraktum.
 Je to pro něj jen práce, nebo i koníček?
+Je to prostě adhezní prostředek.
+Je to prostě nuda.
 Je to pár řádků kódu.
 Je to přece jen organizace drobnější.
 Je to především reklamní trik.
@@ -1570,6 +1639,8 @@ Je, při průletu sklem se mi asi rozepnula halenka.
 Je, srdce tvé to cítí.
 Jeden jí šlehl bičem do obličeje.
 Jeden okamžik.
+Jeden pak z hospodářů zavolal na ženu.
+Jeden pár už jsem upletl.
 Jeden za druhým zvedají ruce a představují se.
 Jeden člověk je mrtvý!
 Jediná skutečně nezávislá media jsou ta veřejnoprávní, česká televize a rozhlas.
@@ -1601,6 +1672,7 @@ Jedu autem, pojedu kudy?
 Jedu na motorce, pojedu tamtéž.
 Jedu na návštěvu k příbuzným.
 Jedu.
+Jeho adaptabilita je věru úctyhodná.
 Jeho cena se podle něj pohybuje kolem půl miliónu korun.
 Jeho energie způsobuje, že atom vyzařuje fotony.
 Jeho krystalická mřížka se podobá diamantové.
@@ -1614,6 +1686,7 @@ Jeho známá světlá fasáda ve mně vyvolávala pocit bezpečí.
 Jeho účel je prostý; k smrti mě děsit.
 Jej vidět můžeš celého až k pasu.
 Jejich chování a motivace jsou pro vás zvláštní.
+Jejich divadelní adaptace se mi moc líbila.
 Jejich nestrannost nesmí nikdo ohrožovat.
 Jejich otáčení je způsobeno vanutím větru.
 Jejich přední tlapky, to ti je samá dobrota.
@@ -1623,6 +1696,7 @@ Její lež se odráží v mé lži, a pak je lež všechno!
 Její manžel zemřel jako hrdina ve válce v Africe.
 Její naleziště se nacházejí na souši, na dně moří i oceánů.
 Její oči dnes na ta veliká písmena dobře neviděly.
+Její roztroušená stavení ohražená byla ovocnými sady.
 Její syn se jmenoval Venda a chodil se mnou do školy.
 Její úsměv mě dokáže zahřát, když je mi zima.
 Její ředitel je okamžitě odvolán.
@@ -1635,6 +1709,7 @@ Jen bych ráda řekla, že látkové plenky v ničem neomezují.
 Jen dotaz - konzultoval jsi ty časy?
 Jen doufám, že přežije cestu letadlem v kufru.
 Jen jsem na jevišti zatahoval svaly, a pak tohle!
+Jen kolibřík by mohl Tylera přistihnout při činu.
 Jen na chvilku, abych je vyzkoušel.
 Jen někdy - ale jen někdy, rozumíš?
 Jen se tak toulám.
@@ -1659,6 +1734,7 @@ Jenže Dášeňka si vezme dohlavy, že už nebude a nebude žrát.
 Jenže celé se to nějak zadrhlo.
 Jenže existují i radary, o kterých si to nemyslím.
 Jenže jak to zařídit?
+Jenže jsme v Česku, že...
 Jenže když se vyvrátí, tak se nemůže dokázat.
 Jenže na mě si nepřijdou!
 Jenže obecně to může být přesně naopak.
@@ -1667,6 +1743,7 @@ Jenže pak se objevil další policejní vůz.
 Jenže se tak nestalo, stát již o prodloužení neměl zájem.
 Jenže už na první pohled bylo vidět, že tu něco nehraje...
 Jenže ze mě žádný peníze nedostane.
+Jenže...
 Jest čas, ať dále přijdu.
 Jestli bude čas, přidat nepřátele.
 Jestli by o něco takového byl zájem větší než malý.
@@ -1719,6 +1796,7 @@ Jinak mi ještě napište.
 Jinak můžu poslat soubory se seznamy detekcí.
 Jinak přeji hodně úspěchu u zkoušek.
 Jinak přestane platit jeho manželství.
+Jinak si je vždy jen hladíval.
 Jinak si nějak zkontroluj, jestli to nemáš moc dlouhé.
 Jinak tady je příjemně a není si moc na co stěžovat.
 Jinak to nejde.
@@ -1731,6 +1809,7 @@ Jinou metodou by mohlo být losování.
 Jiná země a jiní lidé.
 Jiné možnosti mi připadají krajně nepravděpodobné.
 Jiné rozumné spojité příznaky teď nejsou.
+Jirka si bere pistoli od Lenky a strká si ji do úst.
 Jirka si sedá na židli.
 Jirka vyškubne papír, zmuchlá ho do kuličky a zahodí ho.
 Jistota pevné výše nákladů je ošidná věc.
@@ -1804,6 +1883,7 @@ Já jdu dnes večer na basket a o víkendu zatím nemáme nic v plánu.
 Já je splnil napoprvé a nechtěl bych je hrát znovu.
 Já jsem byl zařazen do termínu druhého.
 Já jsem hrozně sypal, víš?
+Já jsem je totiž ještě neměl na sobě.
 Já jsem ještě nikdy nikoho neudeřil.
 Já jsem nenašel protiargument.
 Já jsem pak zůstal po celý život jako pitomý.
@@ -1834,11 +1914,13 @@ Já se velice rád zapojím do diskuze.
 Já si asi budu muset zadřepovat.
 Já si hlavu lámu a pořád nejsem doma.
 Já snad nejsem na dně?
+Já stejně na tabuli napíšu napřed výsledek.
 Já tebe mám asi taky rád.
 Já tedy opravdu velmi doufám, že tohle není vaše!
 Já to mam všechno vyznačené v diáři.
 Já to nezahodím.
 Já to potřebuju!
+Já to vím.
 Já to zkusil před třinácti lety.
 Já to zásadně odmítám.
 Já tě počůrám.
@@ -1896,6 +1978,7 @@ Karolína odchází, přichází Rakvar.
 Karolína si bere pistoli od Jirky a prohlíží si ji.
 Karolína si sedá na židli.
 Karolína vytahuje mobil a volá
+Karolína vytahuje slueční brýle a nasazuje si je.
 Karolínka zatím rozvinula v dlaních jeho výkres.
 Každá drobnost může být pro diváka důležitá.
 Každá liška si svůj ocas chválí.
@@ -1904,6 +1987,7 @@ Každá stránka téhle knihy je jinak vysázená.
 Každá série obsahuje jeden rok.
 Každé dva roky se volí třetina senátorů.
 Každé rvačky se účastní pouze dva lidi!
+Každý dle své povahy radost najevo dával.
 Každý druhý literární umělec měl problémy s otcem.
 Každý druhý monitér by ho zařadil do třetího stupně.
 Každý je způsobilý mít práva.
@@ -1967,6 +2051,7 @@ Kdyby s tím byl nějaký problém, dejte mi vědět.
 Kdyby sis to rozmyslel, dej mi vědět.
 Kdyby věděla, že je poctím návštěvou, byla by podřezala husu.
 Kdybych přestala dýchat, dal by mi umělé dýchání?
+Kdybych se nebyl styděl, byl bych si opravdu zaplakal.
 Kdybych směl povídat!
 Kdybych to byl věděl, tak bych sem byl nechodil.
 Kdybys měl pocit, že nějaká myšlenka může někoho posílit.
@@ -1977,6 +2062,7 @@ Když bdíš, já spím!
 Když bude potřebovat, půjčím mu zase.
 Když budou olověné koule přesně zváženy.
 Když chci a mám sílu, tak je většinou dokážu spravit.
+Když do kin přišlo porno, spousta promítačů si udělala z těch nejlepších okének diapozitivy.
 Když dvě děvčata přiběhla, zmizela s nimi v srubu.
 Když je kandidát moc mladej, řekneme mu, že je moc mladej.
 Když je mokro, je čas jít dovnitř.
@@ -2007,10 +2093,12 @@ Když to tak vezmu, lepší než autobus.
 Když to vyšlo s Do naha!
 Když ty spíš, já bdím.
 Když vojáci na paseku vyběhli, nastal zmatek.
+Když vrchu dostupovali, stával se les světlejší.
 Kdyžtak ještě napiš.
 Kdyžtak napiš jak Ti to vyhovuje!
 Ke konci doby ochutnejte, sůl a pepř budou nezbytností.
 Ke konci jsem ještě sesbíral a zpracoval materiály od ostatních.
+Kecám tady o úplných blbostech.
 Klam, v národech že láska vře!
 Klasická papírová média ztrácejí na významu.
 Klasifikátor i s krátkým popisem, jak funguje, dodám zítra.
@@ -2070,6 +2158,7 @@ Komunikuji s výše postavenými.
 Koncert pro klavír a orchestr.
 Kondom je skleněný střevíček naší generace.
 Koneckonců, už jsem s nimi měl nějaké zkušenosti.
+Konečník si rozdělíme.
 Konečně je konec směny.
 Konečně jsme dojeli na naši stanici.
 Konečně někdo, kdo se nechová nesmyslně.
@@ -2108,6 +2197,8 @@ Krvácím?
 Kryje ho rozmarýna.
 Královna Klára na klavír hrála.
 Krásné věci kolem, čarovné.
+Krásný je to kraj.
+Která protíná svislou přímku procházející středem obrazu nejblíže od středu směrem nahoru?
 Které mají uplatnění v bezpečnostních aplikacích a získávání znalostí z fotek a videa.
 Které?
 Kterému mužstvu fandíš?
@@ -2133,6 +2224,7 @@ Kůň je citlivý na elektřinu.
 Lampa zde nevisela.
 Leda snad jen jako koncový zákazník?
 Ledová kra se vynořila z černa noci.
+Lenka se odděluje z dvojce a Bob medvědím objetím drtí Jirku.
 Lenka si sedá na židli.
 Lenka střídá Jirku v medvědím objetí.
 Les mezi Lovčičkami a Dambořicemi.
@@ -2206,11 +2298,13 @@ Mandát poslance nebo senátora vzniká zvolením.
 Marcela sledovala nekonečný televizní seriál.
 Marek si sedá na židli.
 Marie se tři roky nekoupe, pouze sprchuje.
+Markéta minulé úterý ve dvě ráno zemřela.
 Markéta usrkla čaje a náhle zvedla ruku před ústa.
 Marla chvíli nechápavě hledí, pak nasraně odchází
 Marla nevidí rozdíl!
 Marla se alespoň snaží dostat na dno.
 Marle?
+Marlo!
 Marlo, co tady děláš?
 Marlo?
 Marné jí domlouvat.
@@ -2356,6 +2450,7 @@ Musíš to tisknout s podporou.
 Musíš to vypnout, abys mě slyšel.
 Muž má být trochu surovec.
 Muž podává Filipovi malou zbraň, která je nabita.
+Muži chodí za nimi a zasouvají do nich zezadu své nástroje.
 My jsme jim říkali katové, těm, co přímo zabíjeli.
 My jsme spolubydlící.
 My přijdem!
@@ -2390,6 +2485,7 @@ Má máma má mísu.
 Má přes dvě a půl hodiny a asi dvacet hlavních postav.
 Má to dva důvody.
 Má to nějaké vedlejší účinky?
+Má to totiž adhezivní účinky.
 Má velkou váhu, zlomenina jej neunese.
 Má velké tepny – malý elektrický odpor.
 Má zdravotnický kurz, vede dvě družiny vlčat.
@@ -2403,6 +2499,7 @@ Mám na krajíčku, tyhle scenérie mě vždycky dojímají.
 Mám peněženku naditou penězi.
 Mám rád rozkvetlé zahrady.
 Mám ráda tebe!
+Mám s tím své zkušenosti.
 Mám se dobře.
 Mám spoustu poznámek a nápadů, co konkrétně tam chci mít.
 Mám to tam dát?
@@ -2471,6 +2568,7 @@ Měli jsem spoustu času tohle všechno naplánovat!
 Měli jsme nějaké technické problémy, ale vše se vyřešilo.
 Měli jsme někdy pohlavní styk?
 Mělo se to ale brzo změnit.
+Měly pod paždí i vřetánko i kužel.
 Mění se velikost klasifikátoru.
 Mění se velikost obrazu.
 Městem projížděla auta, která měla ve vleku děla.
@@ -2506,6 +2604,7 @@ Můžete si donést i notebook a demo spustit na něm.
 Můžete si dělat, co chcete.
 Můžete si připravit i videa - jejich úspěšné přehrání snad zajistíme.
 Můžeš asi dorazit i o chvíli později.
+Můžeš ho mít první a třetí neděli v měsící.
 Můžeš je volně fotit, nebo kontrolují, co postuješ?
 Můžeš je zaslat na dobírku na adresu.
 Můžeš na to kouknout a taky nemusíš.
@@ -2534,6 +2633,7 @@ Na dodržování těchto pravidel dohlíží nezávislý orgán.
 Na druhou stranu ale reálné nasazení tak dlouhé nebylo.
 Na dva se potom zmenšil spolek šesti.
 Na emaily odpovím určitě.
+Na hlavě měla červený šátek na pokos vázaný.
 Na hrušni hruška.
 Na internetové nákupy už neslyší jen mladá generace.
 Na jabloni roste jablko.
@@ -2549,6 +2649,7 @@ Na konci století byl přestavěn do vrcholně barokní podoby.
 Na lodi je velká zábava a jsou na ní jen samé ženy.
 Na mapě tohle místo není.
 Na noc je hlášena mlha.
+Na nohou červené punčochy, střevíce na špalíčkách.
 Na nástěnce je vyvěšený rozvrh.
 Na ní seděl s rukama překříženýma přes prsa.
 Na obhajobu se domluvíme.
@@ -2718,7 +2819,9 @@ Neber to tak vážně.
 Neberte si to osobně.
 Nebo chuť?
 Nebo dokonce neurální implantát?
+Nebo jak to spočítat pomocí inegrálního obrazu?
 Nebo jak to časově přijde vhodné tobě?
+Nebo je dneska snad včera?
 Nebo je vůbec jisto, kam vedou tyto nesčíslné černé ulice?
 Nebo jeden.
 Nebo jen novinářská kachna.
@@ -2729,6 +2832,7 @@ Nebo mi sem nemusíš nosit každej kousek bordelu, co najdeš.
 Nebo možná jo, ale to jsou záležitosti opice.
 Nebo na sádle, záleží na vás.
 Nebo napiš, kdy bys chtěl přijít.
+Nebo například intenzita budoucího pixelu se liší o více než x.
 Nebo ne: to asi dělají trávníky.
 Nebo nepřítele, který má přístup k dynamitu?
 Nebo po zaznění zvukového signálu.
@@ -2811,6 +2915,7 @@ Nejlépe dnes nebo v pondělí.
 Nejnovější poznatky lingvistiky praví, že bychom měli používat slovo klepnout namísto kliknout.
 Nejprve byl v dáli slyšet zvuk motorky.
 Nejprve padla sankce stopadesát tisíc korun za červencový blok.
+Nejprvnější na pasece byla žena s děckem.
 Nejraději si vzpomínám na Rudlu Hlavatého, šikovatele.
 Nejradši bych tě zabila!
 Nejsem ani za mák aristokrat, ale nevěřím v hodnotu mas.
@@ -2829,6 +2934,7 @@ Největší kapacity naší školy se spojily a přišly s šokujícím zjiště
 Největší nápor pak obchodníky čeká druhého ledna.
 Největší rozdíl je v tom, jak tam všechno vypadá jinak.
 Nejzajímavější je přímo samotné psaní kódu.
+Nejžhavější adept na post.
 Nekontroloval jsem vše, takže to možná nepomůže, ale za pokus to stojí.
 Nelekejme se mluvit pravdu.
 Nemají třeba děti problémy s mokrou pokožkou?
@@ -2888,6 +2994,7 @@ Není nikterak rozjuchaný, ale spíše zadumaný.
 Není nápadný, že už čtvrt minuty nedýchám?
 Není pomoci.
 Není se ani příliš čemu divit.
+Není tak adaptabilní jako ten před ním.
 Není ti špatně?
 Není to doopravdy nic složitého.
 Není to lež!
@@ -3133,6 +3240,7 @@ Něco jsem vynechal?
 Něco jí nabídnout a uplatit jí.
 Něco mám, ale stále píšu.
 Něco mě napadne?
+Něco podobného už zavádí Raúl Castro na Kubě.
 Něco se děje a všechny cesty jasně vedou do sklepa.
 Něco se rýsuje, ale zatím není nic jisté.
 Něco takového by mělo být za Brnem.
@@ -3150,6 +3258,7 @@ Nějaké jídlo?
 Nějaké vysvětlení, co k tomu lidi vede.
 Nějaké výsledky mám.
 Nějaký delší pobyt by připadal v úvahu později.
+Nějaký mazánek matiččin.
 Někam se ale zářivky nehodí.
 Někde doopravdy bude chyba, detekce větších objektů opravdu chybí.
 Někde něco hoří!
@@ -3161,6 +3270,7 @@ Někdo se to nenaučí asi nikdy.
 Někdo víc, někdo míň, ale dospějí k tomu všichni.
 Někdo zabušil na okno.
 Někdo zazvonil.
+Někdo? Ne?
 Někdy bychom měli zajít s Honzou na pivo.
 Někdy se probudíš a musíš se zeptat, kde vlastně jsi.
 Někdy se také na chvilenku odmlčela.
@@ -3170,9 +3280,11 @@ Někdy to jde, jindy ne.
 Několik okamžiků panovalo mrtvé ticho.
 Někomu ale vadí horší barevné podání.
 Někomu se podařilo překonat přihlašovací obrazovku.
+Některou chvíli pak začala kráčeti rychle kupředu.
 Některé mají pět řádek, další sto kilobajtů.
 Některé memy se prostě neustále opakují.
 Některé tyhle sbírky se staly legendou.
+Někteří používají parafín smíchaný s nitrákem.
 Někteří prodejci nicméně už omezují investice a začínají šetřit.
 Někteří také hučení vnímají skrze své tělo.
 Někteří ze spolupacientů se vyléčí nebo uchlastají.
@@ -3189,6 +3301,7 @@ O ničem z toho se Majer nikdy nedozvěděl.
 O námitkách probíhá zvláštní řízení.
 O něco později jsem byl velice rád, že jsem tak učinil.
 O něčem podobném už jsem tu psal před skoro pěti lety.
+O pár let složil Pepu infarkt.
 O ruku Boží jde, jež přešla do rákosek.
 O tom jsem ale až tak mluvit nechtěl.
 O tom jsem ale mluvit nechtěl.
@@ -3217,6 +3330,7 @@ Objednej acetát.
 Objevil se i Lokloki a i Tilion zvědavě nahlížel.
 Obklop se bolestí!
 Obklopíš se krámama, a věci, které si vlastníval, teď vlastní tebe.
+Obrace mě nebaví.
 Obraťte se prosím na něj.
 Obsahují práva a povinnosti týkající se všech služeb.
 Obvaz, něco jako obvaz.
@@ -3236,6 +3350,7 @@ Obě rodiny mají dvě děti.
 Obří smajlík namalován na kancelářské budově!
 Ochrana v případě vystěhování, vyhoštění nebo vydání.
 Ochutnali jsme plody několika odrůd a rozdíl nebyl velký.
+Od Mnichova k českým hranicím blížila se tlupa vojáků.
 Od autorů příspěvku.
 Od božího rána až do slunce západu most nestačí se zvedati.
 Od mých patnácti let chci být kouzelníkem.
@@ -3276,6 +3391,7 @@ Okolí jest však na omylu.
 Ola!
 Omezena může být jen v případech stanovených zákonem.
 Omezení se netýká volání na čísla tísňového volání.
+Omlouvám se za vyrušení, ale je tohle skupina pro rakovinu varlat?
 Omlouvám se, měl jsem napsat úterý.
 Omlouvám se, že jsem se neozval dřív, ale byl jsem nemocnej.
 Omlouvám se, že píšu až teď, ale udělal jsem si trochu pauzu.
@@ -3287,7 +3403,9 @@ On nedbá.
 On se pod nimi prohýbal, a lidé se mu potom smáli.
 On se takovýchto programů často účastní.
 On sám si o vraždě utvořil zcela konkrétní teorii.
+On vám rád poskládá i krychli.
 On čte, nevšímá si jí.
+Ona byla na dotyk tak příjemná.
 Ona je jako čert se svatozáří, jako anděl s vidlemi.
 Ona to asi není obyčejná nit.
 Ona to ví!
@@ -3319,6 +3437,7 @@ Orgány kolektivního správce jsou alespoň statutární orgán, nejvyšší or
 Originál je v tomto článku.
 Originálně je v nějakém nepodporovaném maticovém formátu.
 Oslavy letošních abiturientů si v ničem nezadaly s loňskými.
+Osm je dva na třetí.
 Osmnáct set sedmdesát.
 Osobní konzultaci je možné domluvit.
 Osobní svoboda je zaručena.
@@ -3346,6 +3465,7 @@ Ostatně také soudím, že Kartágo musí být zničeno.
 Ostatně, proč ne.
 Osvaldovy příznaky vracejí reálné číslo.
 Osvoboditel, který zničí můj majetek, bojuje, aby zachránil mého ducha!
+Otestuj to na aciditu.
 Otevře skříň, vysypou se kartóny cigaret.
 Otevřel jsem dveře a šel rovnou ke svému autu.
 Otevřel okno a zhluboka se nadechl.
@@ -3367,18 +3487,22 @@ Ovšem zůstávat jen u peněz by bylo velmi přízemní.
 Označte prosím do konce týdne termín, který vám vyhovuje.
 Oznámení trochu méně důležité, než to včerejší.
 Ozvěte se znovu příští týden třeba v pondělí a domluvíme konkrétní datum a čas.
+Očekával jsem to teda.
+Pacient: No jo, ale tam neberou tyhle kartičky.
 Padal déšť.
 Pak bude rok a pak by se jistě pozdravil!
 Pak by mohl být člověk opravdu spokojený.
 Pak byl mrtev.
 Pak ho teprve můžeme nějak nazvat a vylepšovat kvalitu.
 Pak je tu otázka násilí.
+Pak je čas na objímaní.
 Pak klepněte sem.
 Pak máš určitě i na pořádnou pokutu.
 Pak nasedli do vlaku a zmizeli.
 Pak nastalo ticho.
 Pak nás na chodbě spočítali a vyhnali ven.
 Pak ovšem člověku paměť neslouží.
+Pak přidáváš glycerin, kapku po kapce očním kapátkem. Máš nitroglycerin.
 Pak přišla bělohorská bitva.
 Pak se můžeš vrátit a hrát si dál se svým vláčkem.
 Pak se zeptal, která z nich dopadne na zem dřív.
@@ -3401,6 +3525,7 @@ Panebože, ve dne a za střízliva je to tady mnohem horší!
 Panečku, já poznal hezký kousek světa.
 Panovala tam dobrá nálada.
 Panoši a zbrojnoši.
+Paní ji tudíž více již nenutila.
 Paní četla označené místo francouzské knihy.
 Parafín mi absolutně nikdy nefungoval.
 Paragrafy zrušeny
@@ -3427,8 +3552,10 @@ Petr je totiž kromě toho také panic.
 Petr nedal samozřejmě na sobě nic znát.
 Petr tak ten se asi učí.
 Petra říkala, že už se dokonce i lyžuje.
+Petrolejky, olejové lampy, svíčky, louče...
 Petrovi spadla na zem karta.
 Pečení vánočního cukroví je zažitá tradice.
+Pij hodně acidofilního mléka.
 Pirát zůstal nehybně stát.
 Pistoli jsem si nenápadně schoval pod polštář.
 Pistolí míří do publika.
@@ -3439,6 +3566,8 @@ Plač.
 Plen mám v základní sadě devadesát.
 Plenky používám od narození obou svých dětí.
 Plete se dobře ve škole.
+Pletu hlavně hladce.
+Pletu ponožky.
 Pletu to na pěti jehlicích.
 Plivala na koně i na vojáky a než ji mohli udeřit, odešla.
 Plně soucítím s Michalem.
@@ -3475,9 +3604,11 @@ Po uzavření smlouvy zajistíme podrobné technické šetření.
 Po vykalení se ocel zpravidla ještě normalizačně žíhá.
 Po zkontrolování odevzdané úlohy může opět nahlížet ostatní zadání.
 Po čele mu tekly pramínky potu.
+Pochovali jsme ho v Rechci.
 Pocházím z malé moravské vesnice.
 Pocity jsem měl ale smíšené.
 Pod nohama mi křupal sníh.
+Pod pasekou po vrchu dolů zelenala se pole.
 Podal byste mi prosím pár informací?
 Podařilo se mi nakreslit také párek Skotů, muže se ženou.
 Poddej se tomu!
@@ -3529,6 +3660,7 @@ Pohlédla jsem na hodinky, bylo skoro půl šesté.
 Pohodička.
 Pohřbívání ohněm jest dovoleno.
 Pohříchu ani tato podmínečná spása není textově zaručena.
+Pojd si ke mně hajnout broučku.
 Pojedli polívky a jedli hovězinu.
 Pojednejte o krovech pultových střech.
 Pojednejte o ležatých stolicích bez vazného trámu.
@@ -3536,6 +3668,7 @@ Pojednejte o novodobých krovech.
 Pojednejte o vaznicových soustavách obecně.
 Pojednejte o vzpěradlech.
 Pojednejte o věšadlech.
+Pojednou byli z lesa ven.
 Pojednou se vzpřímil a naslouchal.
 Pojeď s náma někdy!
 Pojď sem, malá, tady máš misku s mlíčkem.
@@ -3561,6 +3694,7 @@ Pokud chcete nějaké další info, tak můžete zkusit hledat.
 Pokud chcete osobní konzultaci, domluvte se.
 Pokud chcete spolupracovat, musíte si najít rozdílná témata, která se budou doplňovat.
 Pokud jich budete zkoušet více, protože něco nebude fungovat, tak je nemažte.
+Pokud jste například zadával nějakou domácí práci
 Pokud jste pracovali v týmu, měl by se přihlásit jen vedoucí.
 Pokud máte štěstí, dohodí vám ji kamarád nebo známý.
 Pokud na tom pracujete sám, snažte se postupovat co nejjednodušším způsobem.
@@ -3587,6 +3721,7 @@ Pokud tedy můžeme vybrat jiný, dejte nám, prosím, vědět.
 Pokud to bude možné, rád bych se domluvil na podrobnostech.
 Pokud to má být hudební dokument.
 Pokud to nevyprskne, jste v suchu.
+Pokud to takhle půjde dál, tak chcípnu!
 Pokud to utíká víc, tak je něco divně.
 Pokud v dosahu není, využije klasické volání.
 Pokud vám to nebude jasné ani poté, napište mi.
@@ -3597,6 +3732,7 @@ Pokusím se!
 Pokynul hlavou jakoby na souhlas a vykročil.
 Policie se ptá, jak se to stalo.
 Polituj svého ubohého přítele...
+Polkni ten acylpyrin.
 Položil ruku na srdce a s úžasem zjistil, že nebije.
 Polykrystalický diamat je samozřejmě mnohem levnější.
 Pomalu se rozednívá.
@@ -3631,6 +3767,7 @@ Pospěš si, než někdo přijde!
 Postaral jsem se.
 Postarej se o naše hosty.
 Postav se k tomu čelem.
+Postava ženy té byla vysoká, kostnatá.
 Postaví své hodinky na stůl.
 Postoj uživatelů a internetových firem se totiž nemění.
 Postup je stejný.
@@ -3646,6 +3783,7 @@ Posílám pozdrav z letiště v Atlantě.
 Posílám ty slíbené obrázky a text.
 Posílám vám aspoň obrázek, jak takový anglický park vypadá.
 Posílám výsledky.
+Potkal jsem cestou adamity.
 Potkali by se v půli cestě.
 Potom absolvoval podpůrnou hormonální léčbu.
 Potom na pláč.
@@ -3742,14 +3880,17 @@ Pro jistotu si to zkontrolujte, ale mělo by to být správně.
 Pro který odznáček jste?
 Pro kulturu a tak dále.
 Pro maticové hry platí důležitá věta.
+Pro mne ja vaše dneska nedohlédnutelnou budoucností.
 Pro mě osobně je to vysněná práce.
 Pro mě osobně je tohle vysoce pozoruhodné.
 Pro nás jako spotřebitele to má jeden jasný důsledek.
 Pro opětovnou účast jsem již nesplňoval věkovou hranici.
+Pro projekt, který sám asi ani nevyužiju?
 Pro slovo nakvašen!
 Pro své oči nosila brýle tří dioptrií.
 Pro tebe to všechno všichni děláme.
 Pro telefonování z nich je potřeba telefonní karta.
+Pro vás je mé dneska už dávnou minulostí.
 Pro všechny ostatní je takový tarif zbytečný luxus.
 Problém je v tom, že jsem nevěděl, jak se počítá intenzita.
 Problém je v tom, že ten konstruktor nemusí proběhnout celý.
@@ -3854,6 +3995,7 @@ Protože z mé strany je i cílem takto připravit studenta na doktorské studiu
 Protože čtu.
 Provedení změny se má za schválení.
 Provést se prostě nesmí.
+Proč Austrálie nepřistoupila ke Kjótskému protokolu?
 Proč by mezi tím měly být rozdíly?
 Proč bych si ho brala?
 Proč jdou všichni pryč?
@@ -3940,6 +4082,7 @@ Pěkně jsem tě mátl.
 Pěstujte duchovní sílu, aby vás chránila v náhlém neštěstí.
 Pět let!
 Pět minut času.
+Pětiúhelník je ale jiný.
 Přebytečné vzniklé plyny zachytíme v absorbéru.
 Přec cítil jsem, zde trochu vítr věje.
 Přece jen se znám.
@@ -3947,6 +4090,7 @@ Přeci jenom, nebojíš se trochu v téhle zemi?
 Před ložem, na němž spí, je položena dýka.
 Před mnoha sty a tisíci lety nežil ještě pes s člověkem.
 Před městem zastavila povoz vojenská hlídka pruská.
+Před nimi rozprostíral se výhled do českého kraje.
 Před padesáti lety.
 Před podáváním pečenou zeleninu dresinkem pokapeme.
 Před pár lety jako demonstrační aplikaci detekce obličeje.
@@ -3988,20 +4132,24 @@ Přeji úspěšné psaní a obhajobu.
 Přeju ti, ať tě ta hlava moc nebolí.
 Překvapivě dobrá kniha.
 Překážek v podnikání úvěrových společností přibude řada.
+Přemýšlet o částicových systémech
 Přemýšlím nad tím.
 Přemýšlím, že bych jel zase do Chorvatska na dovolenou.
 Přepošlu ti, co jsem lidem poslal.
 Přes Sedlo se potom nedá projet a ani přes Hanušovice to není žádná sláva.
+Přes prsa pak červenou podušku.
 Přes tucet luxusních vozů pokáleno holuby!
 Přes šedesát let trval nerovný zápas.
 Přesto obchodní centra a supermarkety na svou chvíli slávy zatím čekají.
 Přesto se toho dokázal vzdát jen málokdo.
 Přesto to stovky tisíc lidí takhle dělají.
+Převzali jsem si svá zavazadla.
 Při dělání jíšky pracujte na malý stupeň ohřevu plotýnky.
 Při každém vzlétnutí a přistání se modlím, aby se zřítilo.
 Při malování je nutností umět používat abstrakci.
 Při nich mi došlo, že vlastní opici jen málokdy potlačuji.
 Při odevzdání k likvidaci se odešle další záznam.
+Při posledním hlasování nebyly žádné abstence.
 Při převzetí v prodejně vám prodejce kartu rovnou aktivuje.
 Při rozpouštění sodného louhu se voda silně zahřeje.
 Při svých posledních dvou návštěvách jsem měl těstoviny a guláš.
@@ -4016,6 +4164,7 @@ Přichází Jirka.
 Přichází Karolína.
 Přichází Lenka.
 Přichází Marla s telefonem.
+Přichází Marla.
 Přichází Michal.
 Přichází Rakvar.
 Přichází Tomáš a Michal a spolu s Karolínou se vrhají na rváče.
@@ -4027,6 +4176,7 @@ Přijde mi ale, že chybí popis motivace.
 Přijde vám to padlé na hlavu?
 Přijdeš dnes večer?
 Přijdeš tedy?
+Přijdu dýl.
 Přijdu nebo místo mě přijde Honza Kratochvíl.
 Přijdu.
 Přijede až v sobotu ráno.
@@ -4038,6 +4188,7 @@ Přilož mi pistoli k hlavě a vymaluj stěnu mým mozkem.
 Přináším pár fotek pořízených během tohoto srazu.
 Přináším pár fotek.
 Připevnění je možno provést pomocí šroubů nebo nastřelením.
+Připoj to na stejnosměrný adaptér.
 Připojím se u vozovny.
 Připomíná ti to něco?
 Připomínám se ostatním.
@@ -4061,6 +4212,7 @@ Příjdou na Vánoce k nám?
 Příkladem může být brousek.
 Příkladem může být model.
 Příkladem za všechny mohou být koně.
+Příliš mnoho estrogenu a máš kozy.
 Příliš se nepodařilo provést rituál s dostatečnou vážností.
 Příliš žluťoučký kůň úpěl ďábelské ódy.
 Případně kombinaci obou možností.
@@ -4076,6 +4228,7 @@ Příští týden tady mají volno, protože je Díkuvzdání.
 Příště bych uvítal nějakou omluvu předem nebo něco podobného.
 Příště dones na konzultaci.
 Příště doporučuji chvíli počkat.
+Příště se ukecat nenechám.
 Příště si na tebe udělám čas.
 Příště zkuste takovéto problémy řešit dřív a ne až na poslední chvíli.
 Půjde tak zkontrolovat, kdo kolik zářivek odevzdal.
@@ -4085,6 +4238,7 @@ Působnost a organizaci soudů stanoví zákon.
 Působnost zastupitelstev může být stanovena jen zákonem.
 Původ obrazových dat je z nějakého webového dema.
 Původní stav byl zkrátka nepřijatelný.
+Původně jsem je chtěl plíst z křiklavě zelené.
 Původně jsem myslel, že před tím ještě něco bude.
 Raději bych žil na Marsu.
 Rakoviny i parazity, leukémie a melanomy.
@@ -4142,6 +4296,8 @@ Rozumíš tomu?
 Rozzuřený na nejvyšší míru, honí zajíce.
 Rty se tiše chvěly.
 Rubikova kostka je jen jeden příklad zajímavého hlavolamu.
+Ruce to zachycovat.
+Rudla je roztrhl a pravil: Ale, ale.
 Ručička hodin stála již u desáté.
 Ruční pumpa je asi nejlepší, ale málokdo ji vlastní.
 Rval ses někdy?
@@ -4151,15 +4307,19 @@ Rád bych to probral se všemi.
 Rád bych vám něco prozradil.
 Rád chodím do lesa a sbírám houby.
 Rád tě vidím.
+Rádio se tu blbě chytá.
 Rána, kouř.
 Ráno moudřejší večera.
 Ráz, dva, ráz, dva.
 Rázem umlkl a rázem sklesl zpět do křesla.
 Ráčejí podarovat chudáka, budu moc děkovat.
 Růst svalů v relativně krátké době je divný pocit.
+Různé věci jsou vědecky definované.
 Růže je květina a roste na keři.
 S Vaškem jsem se už pěkně dlouho neviděl.
 S desíti ďábly — hrozná společnosti!
+S dovolením, pane nadporučíku, byl to statný hoch.
+S dovolením, pane nadporučíku.
 S lidmi popíjejí a hrají karty.
 S největší pravděpodobností ano.
 S pár bagry rozjedou během pár týdnů primitivní důl a těží.
@@ -4195,8 +4355,10 @@ Se svým šéfem!
 Sebemenší hluk ho dokázal rozzuřit.
 Sedla si na zem a usnula znovu, oči ale měla plny slz.
 Sedlák seděl opodál s očima upřenýma na čtenářku.
+Sedm je liché číslo.
 Sedmé pravidlo!
 Sedí doma tedy v klidu.
+Sedí se zkříženýma nohama a saje nargilé.
 Sedí to?
 Sedím na židli.
 Seděli jsme za dlouhým stolem uprostřed prostranného sálu.
@@ -4220,6 +4382,8 @@ Sice nutná k přežití, ale nudná.
 Signál je registrován a vyhodnocen.
 Silnice se, jak známo, solí.
 Silnice vedla příkře do vrchu.
+Silně to zvyšuje adhezi.
+Sinus je lichá funkce.
 Sklapla pixla.
 Skoro bych otevřela oči, abych viděla, jak vypadáš.
 Skoro jako by jí na tu historii nestačil dech.
@@ -4256,6 +4420,7 @@ Smrt plave po vodě, nové léto k nám jede.
 Smrt, v níž byl samoten, usmířen, a přece ne zcela sám.
 Smrtka je jen dalším příkladem personifikace nadpřirozena.
 Smáli se mu, že se s těmi knihami namohl.
+Smáli se, výskali a mnohý stál v němém pohnutí.
 Smíchal si nitrák s parafínem, že jo?
 Smíchej nitrák s pilinami a máš pěknou plastickou výbušninu.
 Smíchávám ji ale s červenou nití.
@@ -4306,6 +4471,7 @@ Spis jsem nečetl.
 Spolehněte se na nás.
 Společnost by bez broušení nemohla prosperovat.
 Společná výroba elektřiny a tepla se pak nazývá kogenerace.
+Spolu s náma ho mají i strojaři.
 Spolu se základními čtyřmi druhy příznaků se dvěmi a třemi oblastmi.
 Spolupracovat se mi nakonec s nikým nepodařilo.
 Spotify v tomhle pomáhá.
@@ -4329,7 +4495,9 @@ Standardně chodíme do práce.
 Stane se to i vám.
 Staneme se legendou!
 Stany čisté, nabízející veškerý komfort.
+Staré babičky klapkaly za nimi.
 Staré myšlenky se mu vrátily.
+Starý voják se ozval, hladě si dlouhé kníry.
 Stav se za mnou na začátku příštího týdne a koukneme na to.
 Stav se za mnou.
 Stavit se můžeš, jestli chceš.
@@ -4344,10 +4512,13 @@ Stačí číst každou volnou prázdnou chvíli.
 Stačí, aby nafasovali diktafon.
 Stačí, když do mě lehce strčíš špičkou.
 Stařec jen pokývl hlavou.
+Stejnak ještě ani nemám pořadně hotovou přípravu.
+Stejnak píšu dost nečitelně.
 Stejná chuť, nějaký charakteristický rys.
 Stejný text se objevil i v diskusi.
 Stejným způsobem je ve světě kolem vás připojené všechno.
 Stejně jako opice tvoříme společenství a vazby přátel.
+Stejně je to všechno o Marle!
 Stejně tak je důležitá i struktura povrchu fasety.
 Stejně tak novinářské kachny.
 Stejně tak s druhým hráčem.
@@ -4356,7 +4527,9 @@ Stejně tak to platí pro cyklisty, chodce atd.
 Stejně tak třeba na kole.
 Stejně tak vy vidíte jejich probíhající editace.
 Stejně tak závodní mise v autech.
+Stesk padne na srdce a není rady ani pomoci.
 Sto dvacet dolarů ošacený kus, a před patnácti lety stál deset tisíc!
+Sto dvacet jedna.
 Stojí mě to soustředění a koncentrovanou snahu, ale jde to.
 Stojí v pokoji bez obrazů.
 Stojíte na semaforu a spěcháte?
@@ -4459,12 +4632,14 @@ Tak co, máš všechny tlapky pohromadě?
 Tak co?
 Tak do toho, plač.
 Tak dobrá, ale ne tady.
+Tak dobrá, ačkoliv si nejsem jist.
 Tak dost.
 Tak dál vař a sbírej.
 Tak díky a ahoj....
 Tak jednou byl jeden pejsek, Jarek se jmenoval.
 Tak jsem ho zabila, hajzla jednoho!
 Tak jsem je přesměroval na tebe.
+Tak jsem ji musel použít.
 Tak jsem se do toho pustil.
 Tak jsem si tu naši svobodu nepředstavoval.
 Tak jsem to konečně dopsal.
@@ -4477,6 +4652,7 @@ Tak já už nevím.
 Tak já zítra na tu zkoušku můžu, takže nemusíš chodit.
 Tak kdyby měl někdo zájem...
 Tak kdyby sis kolem toho třeba vzpomněl na něco.
+Tak krásný, že se nemůže člověk na něj ani vynadívat.
 Tak lepila se na ně však smůla.
 Tak milenec zaleze pod postel.
 Tak mocně hlasy mojí touhy znějí.
@@ -4544,15 +4720,18 @@ Taková změna se mi ale nelíbí.
 Takové dílo nesmíte používat ke komerčním účelům.
 Takové klidné zvonění.
 Takové nejdete kupříkladu v Praze.
+Takové sny se zdají...
 Takové věci se stávají.
 Takové, co se berou do večerní společnosti.
 Takový byl ten Jarek hrdina.
 Takový projekt mě docela zajímá.
+Takový, jaký se nosí v okolí domažlickém.
 Takových radarů potkávám na silnicích spousty.
 Takovýchhle popisů četli jste již dozajista mnoho.
 Takovýto výskyt hub je skutečně abnormální.
 Takto budou mít body blíž optimu větší váhu.
 Takto jsou postupně přijati všichni nováčci.
+Takto nějak
 Takto se jeviště zaplní všemi rváči.
 Takto velký objekt je nutno rozdělit na dílčí části, které poté lze spojit dohromady.
 Taky je to docela práce a námaha.
@@ -4601,6 +4780,7 @@ Takže zatím ahoj, já padám!
 Takže zatím super.
 Takže, co je noční můrou počítačových uživatelů?
 Tam bych rozhodně chtěl být.
+Tam je ale zase možnost bonzovat...
 Tam je teplo.
 Tam jsem opravdu nikdy nezavítal.
 Tam jsou háčky.
@@ -4625,13 +4805,18 @@ Tatínek už také nespal.
 Technické zázemí, ubytování, doprava, vybavení.
 Teda až na pár technických problémů.
 Teda máte v tom pěkný zmatek.
+Teda vlastně píšu.
 Teda, kterou jsem na první pohled uviděl.
 Teda, někteří si přišli pro nášup.
 Teda.
 Tedy dokumentace jednotlivých metod.
 Tedy jsem se ho přece dočkal.
 Tedy to máte nejspíš správně.
+Tedy to se pustí na výstup klasifikátoru
+Tedy vlastně chlív pana Julínka.
 Tedy vlastně na jedno významné zlepšení jsem narazil.
+Tedy vlastně příze.
+Tedy, ještě nevím, jak dlouho vydrží.
 Tedy, nastoupili jsme, ale špatně.
 Tedy, pokud na Osmičku bude chodit dost diváků.
 Tedy: Máte zapotřebí dělat si starosti ještě i s licencemi?
@@ -4642,10 +4827,12 @@ Temnou pustinou uháněl za jinou.
 Ten absces ti musím vyříznout.
 Ten chlap od letištní bezpečností služby mi to všechno vysvětlil.
 Ten den jsem na to ale měl náladu.
+Ten je taky takhle strakatej.
 Ten je v Brně a s tímto projektem určitě také poradí.
 Ten jednou přijde, ale nesmí se to příliš popohánět.
 Ten klasifikátor, který jsem posílal nebyl nic moc.
 Ten koberec je fajn na dotek.
+Ten nebyl z ponožkové příze.
 Ten nejenom frustruje, ale hlavně znemožňuje hraní.
 Ten novej kšeft bylo místo obsluhy na snobskejch večírcích.
 Ten pejsek Jarek byl veliký hrdina a nikoho se nebál.
@@ -4686,6 +4873,7 @@ Teplo je jednou ze základních potřeb člověka.
 Termín máš celkem brzy po Novém roce.
 Termín si domluvte předem emailem.
 Testované klasifikátory jsou nejlepší, které v současnosti umím vyrobit.
+Text „Pravděpodobnost a matematická statistika“ již mám.
 Text, který čtete?
 Textově orientované terminály.
 Teče mu krev z hlavy!
@@ -4693,6 +4881,7 @@ Teď abych to začal celé promýšlet znovu.
 Teď dávejte všichni pozor!
 Teď hodně uvažuji, že si koupím tablet na kreslení.
 Teď jde ještě o to, co s tím.
+Teď jde o to, jak moc ti ty hodnoty "utíkají".
 Teď je načase začít náš věčný život!
 Teď je tady devět ráno.
 Teď jsem to pustil.
@@ -4702,6 +4891,7 @@ Teď nemám na tebe kdy.
 Teď nemám čas, koukám na seriál, možná příští měsíc.
 Teď o víkendu jsem si vesměs programoval, protože bylo dost hnusně - foukalo, pršelo, zima.
 Teď ovšem nastal zásadní zvrat.
+Teď podřadil a zrychluje...
 Teď se už jen dohadujeme na ceně...
 Teď si nějak nemohu vzpomenout.
 Teď si pamatuj, žes to slíbil třikrát.
@@ -4729,6 +4919,7 @@ Tmy se nebojím.
 To abys věděl, že o nic nepřicházíš.
 To ale asi víš?
 To ale pravděpodobně většinu diváků vůbec nezajímá.
+To ale u čtverce nevadí.
 To ale vůbec není správné.
 To asi nikoho nepřekvapí.
 To bude bezva.
@@ -4761,6 +4952,7 @@ To bys nečekal.
 To chování normální není.
 To dokazuje potřebu miminka po čistotě.
 To dělá to, že se tady chodí po lukách místo po cestičkách.
+To dělával jen tenkráte, když ho něco dopálilo.
 To je ale daleko; děda už byl poslední.
 To je ale hloupá situace.
 To je ale pouze prvotní problém.
@@ -4769,6 +4961,7 @@ To je dobrá otázka.
 To je dobrá poznámka.
 To je dobrý.
 To je jedna z nejpomalejších vecí, které můžete dělat.
+To je jedno z platónských těles.
 To je kvalitní, čistej lůj.
 To je kámen na prameni.
 To je láska.
@@ -4804,6 +4997,7 @@ To jsem teda zvědavej, na co ta malá holka přišla.
 To jsem zvědavej, jak to bude vypadat, až se vrátím.
 To jsou děti, a těch se drž.
 To jsou fakta, která nikdo nerozporuje.
+To jsou naši vojáci, jdou z Němec.
 To kasino je taky moje.
 To lékařské je úderné dost, ale něco tomu chybí.
 To mi ale rozmluvili.
@@ -4848,6 +5042,7 @@ To si musím poznamenat.
 To si myslíš ty, chlapče.
 To si nemyslím.
 To spojování se dá udělat asi i jinak.
+To strojaři už mají i přespočetné.
 To tam naproti, přes dvůr, kde stála chalupa.
 To tehdy už něco znamenalo.
 To to nikdo nepovažuje za důležité?
@@ -4870,6 +5065,7 @@ To zadání je zajímavé a rád se takové diplomky ujmu.
 To znamená klidně třeba i zítra, jestli chceš.
 To způsobí, že najdete doopravdy to nejlepší řešení.
 To zvládnu.
+To čtvercem vyskládáte plochu taky.
 To řekl kdysi jeden muž.
 To řekla docela klidně, lhostejně.
 To, co říkáte, vypadá příliš jako ráj.
@@ -4894,6 +5090,7 @@ Tohle je samozřejmě velmi nepříjemné.
 Tohle je svoboda!
 Tohle je svoboda.
 Tohle je takovej projekt, u kterého já osobně nevím, jak ho rozdělit.
+Tohle je ten okamžik! Všechno, čeho kdy můžeš dosáhnout, je stejně k ničemu!
 Tohle je utrpení!
 Tohle ještě nikdy neudělal.
 Tohle jsou exkluzivní informace.
@@ -4925,6 +5122,7 @@ Tomu se tedy říká láska k šachům.
 Tomu všemu se musí Dášeňka učit.
 Tomáš jde za Marlou
 Tomáš pokládá, Marla mizí.
+Tomáš si bere pistoli od Lucie a strká si ji do úst.
 Totiž tam dole, v Andalusii.
 Totiž, chtěl jsem ti poděkovat.
 Toto hučení nejsou všichni lidé schopni slyšet.
@@ -4978,8 +5176,10 @@ Tužky se často lámou, a proto u sebe mám vždy ořezávátko.
 Tvarohovou bábovku já můžu.
 Tvoří jednu z hlavních konstrukcí budovy.
 Tvrdíš, že sis přiskřípl prsty mezi dvířka skříně.
+Tvář měla hrubých tahů, ale příjemnou.
 Ty blázne.
 Ty budeš orat a já sít, budeme se spolu dobře mít.
+Ty byly ponejvíce jehličiny.
 Ty epizody druhé série nemají hluchou ani minutu.
 Ty informace, kam a kolik mám poslat jsem nedostal.
 Ty jsem nevytvářel, takže bych musel znovu spustit testy.
@@ -5011,9 +5211,11 @@ Ty už nekopeš uhlí a ty nestojíš u cizího stroje.
 Ty velikosti konvolucí a jejich počet jde podle těch grafů celkem slušně omezit.
 Ty vysvětlují některé části kódu.
 Ty zasraná píčo!
+Ty zasraná turistko!
 Ty, jo?
 Ty, kterej máš sám máslo na hlavě!
 Ty, které potřebujete, jsem nenašel.
+Tydle nové asi budou slabší.
 Typ licence lze snadno identifikovat podle její zkratky.
 Tys jí nachcal do parfému?
 Tyto dva příklady jsou velmi časté.
@@ -5029,8 +5231,10 @@ Ták, čistej kapesníček bude nejlepší.
 Téma jsem vám změnil.
 Téměř vše, co používáme, je broušené.
 Téměř všechno.
+Tím se dostávám k tématu dnešních Automýtů.
 Tím se z nich udělal chrt.
 Tímto bych vás chtěl požádat o aktuální informace k předmětu.
+Tímto kohoutem uzavřete přívod acetylenu.
 Tímto testem jsem chtěl porovnat schopnost vylučovaní a velikost nevratné chyby.
 Tímto získáte nějaký nepravidelný divný tvar.
 Týdny ubíhají a papoušek je senzační.
@@ -5054,6 +5258,7 @@ Třemi pilíři skautingu jsou povinnost k sobě, povinnost k Bohu a povinnost k
 Třetí pravidlo!
 Třetí vrstva je intelekt, kterého máme veskrze pomálu.
 Tři manželky, dvě děti.
+Tři plus čtyři je sedm.
 Tři týdny beze spánku!
 Tři týdny po uvedení hry na trh a pořád nic?
 Tři týdny!
@@ -5130,9 +5335,11 @@ Uvažujete ještě o nějakém dalším takovém zákazu?
 Uvedu jen pár těch nejzajímavějších.
 Uveďte, jaké jsou možnosti řešení skladeb střešního pláště.
 Uvidí se.
+Uvidíme dál...
 Uvnitř najdeš test, který pouští tři testy.
 Uvádím ho zde v plném znění.
 Uvítám jakékoliv komentáře k těmto výsledkům a jakékoliv vaše výsledky.
+Učitelé se mě už naučili ignorovat.
 Už asi nic moc.
 Už by měla být při vědomí.
 Už chybí opravdu jen ty čipy do těla.
@@ -5141,6 +5348,7 @@ Už dávno ne!
 Už je načase, aby to děvče šlo někam do služby.
 Už je to jasné.
 Už je to každému jasné?
+Už jsem něco málo napletl.
 Už jsem s ní dříve pracoval, tak jsem pro vás připravil balíček.
 Už jsem se k tomu někde vyjadřoval.
 Už jsem se na to chystal letos na jaře, ale nějak jsem se neodhodlal.
@@ -5276,6 +5484,7 @@ Vař a sbírej.
 Vaření mýdla není pro děti.
 Vaše informace jsou v tuto chvíli zcela irelevantní.
 Vaše smlouva skončí a službu bude užívat nový účastník.
+Vaše řešení není adekvátní problému.
 Ve Velké Británii stávkují horníci.
 Ve formě mýdlo brzy ztvrdne.
 Ve statku bylo tma a ticho.
@@ -5298,6 +5507,7 @@ Ve škole zatím nejsem, ale určitě dneska dojdu.
 Vede se mi celkem dobře.
 Vedení se rozhodlo celou akci zhodnotit.
 Vedení školy následně uplatnilo své nejnovější poznatky.
+Vedle vozu kráčela žena, nesouc na hřbetě malé děvče.
 Vedle zdravé disciplíny, buďte k sobě vlídní.
 Vedli jsme spoustu různých diskuzí na téma proč to tak je.
 Velikost tři.
@@ -5371,6 +5581,9 @@ Voda se bez soli v organismu neudrží.
 Vojenské manévry byly pozastaveny v červnu...
 Vojta je pěkný darebák.
 Vojtěch Nosal, farář v Nechanicích.
+Vojáci házeli čapkami do povětří, smáli se.
+Vojáci, ač do vrchu bylo, rychle kupředu kráčeli.
+Voják mluvil, otáčeje kníry okolo prstu.
 Voní zem.
 Vpravila jsem určité množství moči nejméně do jedné z vašich mnoha elegantních vůní.
 Vracel jsem se nočním busem.
@@ -5421,6 +5634,7 @@ Vypni počítač.
 Vypnout wifi bohužel nejde.
 Vypravěč je odsouzen inkvizitory k smrti.
 Vyrážím do jedné firmy na jednání.
+Vyskládáte s ním perfektně plochu.
 Vystrčil hlavu z okna.
 Vystudoval jsem plzeňskou univerzitu.
 Vysvoboď mě od švédskýho nábytku!
@@ -5544,6 +5758,7 @@ Věděl dobře, co ho čeká.
 Věděl jsem tedy, co čekat.
 Věděla jsem, že to takhle dopadne!
 Věděla jste, že tam jsou ty jisté dopisy.
+Věnoval jsem tomuhle projektu dost práce.
 Věnováno Veverkám.
 Větrnou energii používají lidé od dávnověku.
 Většina filmu je jen nudná.
@@ -5560,6 +5775,7 @@ Však běda mi!
 Však co to, byl to snad jen sen?
 Však co to?
 Však musím státi na svém.
+Však nám tenkráte jeden mladý rekruta na cestě zemřel.
 Však oni si poradí.
 Však ono se to jednou hodí.
 Však oči naše viděly zde dosti!
@@ -5581,6 +5797,7 @@ Všechno potřebné je celkem blízko, takže si nemám na co stěžovat.
 Všechno to vede jeden člověk, ale o tom se taky nesmí mluvit.
 Všechno tohle prý chce jakési peníze.
 Všechno udělají živé stroje.
+Všechno, na co jsi byl pyšný, stejně půjde do hajzlu!
 Všechny moje blogy, včetně tohohle, jsou tím ovlivněné.
 Všechny příznaky se dvěmi a se třemi oblastmi.
 Všechny si získal svou bezelstností.
@@ -5605,6 +5822,7 @@ Všichni námezdní lovci ovšem chtějí moji hlavu.
 Všichni se rozdělují do dvojic a objímají se.
 Všichni sedí v půlkruhu na židlích.
 Všichni sledují bitku.
+Všichni ti staromódní hajzlové jsou mrtví!
 Všichni tihle lidé přišli do země, ve které porušili zákon.
 Všichni tleskají
 Všichni z cesty!
@@ -5626,6 +5844,7 @@ Vždycky jsi to vlastně věděl, jen sis to nechtěl přiznat.
 Vždycky zůstanou nějaké otázky, které nebudou zodpovězeny.
 Vždyť Robot i s krmením stojí za hodinu tři čtvrtě centíku!
 Vždyť Vánoce jsou jen jednou za rok, mami.
+Vždyť je to děvče lehké jako chmýřko.
 Vždyť jsem byl tak potichu.
 Vždyť mne rozmačkáte!
 Vždyť má těch lahviček tisíce!
@@ -5646,6 +5865,10 @@ Z jejich výpovědí zjistí co se stalo a odcházejí.
 Z kontextu nedokážu odhadnout, jakou hodnotu máte na mysli.
 Z kódu, z nápadu, z myšlenky, kterou zaujmete ostatní.
 Z nepříjemných úvah ho vyrušilo až jemné zaklepání.
+Z něj plochu nevyskládáte.
+Z něj uděláte jen dvanáctistěn.
+Z obou stran táhly se tmavé lesy.
+Z ponožkové vlny.
 Z počátku z toho bylo mnoho zlé krve.
 Z protějšího domu se už jen kouřilo.
 Z příčné ulice se objevil lehký tank, dav se rozprchl.
@@ -5810,6 +6033,7 @@ Zkuste napsat ohledně těch dat.
 Zkuste se na to podívat z mého úhlu pohledu!
 Zkuste to a pak mi přijdete říct.
 Zkuste tohle opravit a třeba to zázračně začne fungovat.
+Zkuste více cvičit a žvýkejte baldrián.
 Zkusím ji najít.
 Zkusím se na to trochu ještě kouknout.
 Zkusím to po obědě všechno shrnout.
@@ -5844,6 +6068,7 @@ Znázorněte principy ukončení hydroizolace u prostupů potrubí.
 Zní to zajímavě, že?
 Zněl tu libý souzvuk rodinného štěstí.
 Zoufat.
+Zplodil jsem tohle
 Zpočátku jen lehce, každým dnem však víc a víc.
 Zpočátku mě to mátlo.
 Zpravidla jsou do něj zahrnovány faktory jako kvalita odevzdané práce.
@@ -5907,9 +6132,11 @@ Zítra nevím, kdy budu ve škole.
 Zítra pošlu nějaké fotky
 Zítra se za vámi zastavím osobně, abych podepsal potřebné dokumenty.
 Zítra zkusím někoho ve škole a snad to vyjde.
+Zřeď to acetonem.
 Zůstal sedět, a tu najednou vidí, že se jim počíná z komína kouřit.
 Zůstaňte na telefonu, abychom jej mohli zaměřit.
 hlavní, co má Dášeňka na práci, je běhat.
+Á plus bé je menší než cé.
 Áá, tady má někdo písek.
 Ó Kozino, špatný proroku!
 Ó nad vši míru mám tě ráda!
@@ -5974,10 +6201,12 @@ hlavní, co má Dášeňka na práci, je běhat.
 Čtení je přímá metoda stahování informací do vašeho mozku.
 Čtení nemusíte věnovat spoustu dedikovaného času.
 Čti dál.
+Čtrnáct nedělí patnáct.
 Čtvrtina nám jich ještě chybí.
 Čtvrtky nebo neděle.
 Čtvrtky nebo neděle?
 Čtvrté pravidlo!
+Čtyřbarevné.
 Čtyři body nikdy nebudou ležet přesně na kružnici!
 Čtyři krát pět je dvacet.
 Čtyři věci takřka bez souvislosti.
@@ -5991,6 +6220,7 @@ hlavní, co má Dášeňka na práci, je běhat.
 Čím víc plakali ostatní, tím víc jsem plakal já!
 Čím více zdraží, tím více šetříme.
 Čísla účtů.
+Číňan si objedná prostitutku.
 Číšník byl velmi pomalý.
 Číšníky, úředníky, sekuriťáky, barmany, prodavače.
 Ředitel školy komentuje celou akci školnímu tisku.
@@ -6014,20 +6244,25 @@ hlavní, co má Dášeňka na práci, je běhat.
 Říkáte, že domácnosti na zákazu vydělají?
 Řízení před komisí upraví zákon.
 Řízni dřív dřevo z bříz.
+Šedesát dva.
 Šedé tyčinky jsou brusné a bíle honovací.
 Šel bych nejraději spát.
 Šel dědeček do Chuchle, nožičky měl opuchlé. Cesta byla nerovná, dědeček šláp do houští.
 Šel pro Evu.
+Šest je sudé číslo.
+Šestiúhelníku se říká hexagon.
 Šesté pravidlo!
 Šine si to ke mně s nevlídným výrazem v obličeji.
 Škoda to nebude.
 Škoda že nevidím co psal ten robot.
+Škodí to zdraví...
 Škola podnikla jistá opatření ohledně provozu studovny.
 Škole by to nevadilo.
 Školní docházka je povinná po dobu, kterou stanoví zákon.
 Šla tam beze mě.
 Šla.
 Šli cestou, necestou, skrz louky, lesy, pole.
+Šli.
 Šplhali opatrně ale rychle vzhůru.
 Šroub je s kleštinami spojený skrze čepy se závitem.
 Štípe to!
@@ -6059,6 +6294,8 @@ hlavní, co má Dášeňka na práci, je běhat.
 Že za pět let budou ceny všeho na žádná celá deset.
 Žebrák se dotkl klobouku a pohnul šedozeleným knírem.
 Žena mu vzala všechno srdce.
+Žena stále nepokojně, s nedočkavostí hleděla před sebe.
+Žena: Vždyť tam máš sekretářku...
 Žert a šprým opanovaly zanedlouho pole hovoru úplně.
 Žhářství, Útok, Nehody a Dezinformace.
 Žiju jenom jednou.
@@ -6068,6 +6305,7 @@ hlavní, co má Dášeňka na práci, je běhat.
 Žádny vděk, pane.
 Žádná poztrácená zavazadla?
 Žádná ruční práce za takový prachy nestojí!
+Žádné intimnosti, jenom sex.
 Žádné okno nemůžete rozstřelit ani kulometem.
 Žádné vyhodnocení úspěšnosti přístupu, který jsem tenkrát použil nemám.
 Žádné špatné zkušenosti s tím nemám.

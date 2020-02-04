@@ -8,13 +8,17 @@ Activa el volum automàtic.
 Activa l'operació cinquanta-u.
 Adéu, bona nit!
 Afegeix les galetes a la llista de la compra.
+Afileraven a dreta i esquerra algunes cadires.
 Això ho han fet amb els peus.
+Això no podia ésser! ¡Quina aberració més gran!
 Això no té ni cap ni peus.
 Això rai, tant se val, la santa és ella.
 Això és més vell que l'anar a peu.
 Això és una frase inventada.
 Altres anys ha fet molta més calor que enguany.
+Amb el cor net, el cap ben dret.
 Amb qui la compararíeu de les dones mortals?
+Ambdues amigues venien bo i tremolant de fred.
 Anem a Abella de la Conca.
 Anem a Abrera.
 Anem a Ademús.
@@ -1565,6 +1569,7 @@ Anem als Plans de Sió.
 Anem als Poblets.
 Anem als Prats de Rei.
 Anem als Torms.
+Anem, maca, anem, que el meu Genís diu que la cosa du pressa.
 Aniol vol imprimir un dibuix a la impressora per a pintar-lo.
 Aniràs a l'espatlla d'una amiga.
 Anit la tempestat fou tan horrenda que m'ha llevat el son.
@@ -1587,6 +1592,7 @@ Aquesta cançó no és gaire coneguda.
 Aquesta cançó és la canya.
 Aquesta novel·la no val res.
 Aquesta setmana vindrà el meu amic del Brasil.
+Aquesta sí que fóra bona!
 Aquestes vacances m'han semblat molt curtes, com totes.
 Aquests són els contes que tinc.
 Aquests són els llibres de la biblioteca.
@@ -1596,6 +1602,7 @@ Ara n'hi ha quatre.
 Ara no sé si m'aixeques la camisa.
 Augmenta el volum de la ràdio.
 Augmenta la il·luminació de l'habituació.
+Avui ni se'n recordava.
 Beu poc, sens gaire set.
 Bulliu els peus amb la farigola, el llorer i un pessic de sal.
 Bé, però què en traurà?
@@ -1613,7 +1620,10 @@ Contra el matí que la volta no troba l'aire, no gosa, la rosa.
 D'acord, fem-ho així.
 D'acord, s'han afegit les tasques a la llista de coses per fer.
 D'alzines n'hem vist ben poques.
+D'aquella porta eixien remors sordes com d'església en dia de neteja general.
+D'esma només, se'n tornà per on havia vingut.
 Damunt del mateix atzur es retallen les meves muntanyes.
+De primer un criat carregat de saquets de mà, rotllos d'abrics, i paraigües.
 De sa seva pell faran cordons.
 De trascantó no és lícit.
 Defineix el volum automàtic.
@@ -1622,7 +1632,12 @@ Deixa el volum automàtic.
 Deixa el volum en automàtic.
 Deixa'm mirar si aquesta me la sé.
 Deixeu-los refredar i quan siguin tebis els desosseu.
+Desesperava de trobar-lo.
 Després aixeca al cel, enorme, l'embanyada testa.
+Després un noi d'uns deu anys, magret i esblanqueït.
+Després una altra de més alta i feta, casada pel que semblava.
+Després una cambrereta vistosa, amb un gran munt de capses rodones.
+Després una senyoreta casadora, un xic anglesada
 Digue'm la lectura actual.
 Digue'm la llista de tasques pendents.
 Digue-li a la Ramona que el dinar és a taula.
@@ -1639,6 +1654,7 @@ Dèiem que eres formosa com Diana.
 Dóna més llum.
 El Pare Vidal, endolat, s'ho mira des de la Riba.
 El cabell se m'ha esbullat i tinc l'ombra capgirada.
+El conductor retirava la placa d'un reservat de senyores
 El despit i la ràbia la impulsaven; obrava frenèticament i com hipnotitzada.
 El foc allargarà ombres esvalotades.
 El gat li havia enxampat un canari que semblava un mussol.
@@ -1649,13 +1665,16 @@ El nombre ara és cent.
 El nuvi cau desmaiat, més blanc que la porcellana.
 El pidolaire estenguè suaument els braços.
 El problema amb els préssecs és que els cullen verds.
+El que tot gelós faria.
 El rap sol anar més car que el gat.
 El regle és llarg.
+El ressò de sos guanys arribava allí engruixit i multiplicat
 El servidor no respon.
 El sol brilla pertot, els ocells canten.
 El sol desig em torna al temps ingenu d'abans d'aquest silenci.
 El sol s'encén i s'apaga.
 El sucre de l'aire em fa pessigolles a la cara.
+El tren anava farcit de passatgers.
 El trimestre vinent no hi haurà exàmens.
 El valor de la variable és vint-i-tres ara mateix.
 El vicari compareix amb un vas de llet glaçada.
@@ -1673,6 +1692,7 @@ Els clavells s'incendien, per imitar-te, quan tu passes per davant.
 Els fanals de les placetes ens encalcen.
 Els mangos, no sé quan deuen ser més bons.
 Els meus ulls van seguint-la mentres dansa.
+Els mossos regaven i escombraven, aixecant boires de pols.
 Els nespres són fruita de primavera.
 Els pagesos moltes vegades tenen feina a cobrar.
 Els peixos és mengen el Jaume Primer davant la Farola.
@@ -1681,8 +1701,15 @@ Els prendré tots dos.
 Els seus deures no eren particularment onerosos.
 Els seus ulls adorables vessaven llàgrimes calentes.
 Em sap greu dir que no.
+Em sembla una temeritat, senyor Rossich.
 Em té les parets plenes de gàbies.
 Em va prometre que no em duria cap més ocellot.
+Emprenent-les pel passatge de la Indústria, en dos minuts hi eren.
+En Deberga es preguntava si devia estar-se enamorant de la Pilar.
+En Deberga no havia sabut instal·lar-se sinó en un pis magnífic.
+En Deberga, doncs, va córrer a aprofitar-se de la sort.
+En Josep Rodon arribà al portal de Llotja
+En Rodon es parà al peu de la porta un moment
 En aquesta llengua pocs t'han parlat, en l'altra, massa.
 En l'altre ull se li ha posat un tel: la vaca és cega.
 En prendré un, que no tindria prous diners.
@@ -1696,11 +1723,15 @@ Endevino la llum i la tonada del cel i el bosc que novament retrobo.
 Engega el llum.
 Engega els llums.
 Entre u i cent, quin nivell de temperatura voleu?
+Era a mig juliol, al bo de l'escampada estiuenca dels barcelonins.
 Era allí on el pidolaire s'esperava.
+Era el cantó més fresc.
 Era un científic brillant, però no va aconseguir els resultats esperats.
 Era, doncs, un estat deplorable
+Eren dos quarts de dues: s'havia anticipat un xic
 Es va alçar una mica adolorit i molt profundament ofès.
 Es va comprar unes ulleres a la pastisseria de sota casa.
+Es van quedar enraonant amb una colla de senyors i de criats.
 Es veia que tenia el seu cap en altra cosa.
 Es veia tota la comarca, des del Montgó fins a Bèrnia.
 Escolto la secreta harmonia de l'aire.
@@ -1708,6 +1739,7 @@ Esperava que trauries el nas per la festa major.
 Estableix el volum automàtic.
 Estableix el volum en automàtic.
 Estic cansat de tu, domini fosc i tempestat de flama.
+Estic resolt.
 Et prometo que faré que al General li cogui el seu comportament.
 Explica'm la Ventafocs.
 Explica'm un conte de cavallers.
@@ -1725,6 +1757,7 @@ Gruaven l'hora d'allò que ells anomenaven «fer-se la justícia».
 Ha sigut una excursió molt bonica.
 Habilita el volum automàtic.
 Han fet una cosa molt curiosa i inesperada.
+Has anat a consultar un advocat maco.
 Has d'anar a comprar i posar la rentadora.
 Has de dur la nena al cau.
 Has de fer la declaració de renda.
@@ -1733,12 +1766,14 @@ Has de portar el nen al cau.
 Has de recollir el Roger d'anglès.
 Has de recollir els nens i després tens hora al dentista.
 Has de recollir la Laia de l'esplai.
+Havia ja posat casa a Barcelona
 Hem begut tres litres d'aigua durant l'excursió.
 Hem ben ficat el peu a la galleda.
 Hem estat tres hores caminant i hem arribat esgotats.
 Hem passat mig estiu dins la piscina i l'altre mig a la muntanya.
 Hem pujat al Tossal del Moro i després hem anat a la Mallada Verda.
 Hi ha dues esquerdes a la paret.
+Hi havia entrat per la banda dels Encants
 Hola, bon capvespre!
 Hola, bon dia!
 Hola, bon vespre!
@@ -1746,6 +1781,7 @@ Hola, bona tarda!
 Hola, bona vesprada!
 Hui la boira no deixa veure les Illes.
 I Déu li ha fet la gràcia de llançar llum entorn.
+I aquest avantatge irrisori pesà més que altra cosa en la decisió.
 I ja saps, Felons, que jo sóc generós.
 Il·lumina l'estança.
 Il·lumina l'habitació.
@@ -1763,6 +1799,7 @@ Jo no els puc sofrir, els ocellots.
 Jo no m’hi sabria estar, sense fer res.
 Jo no vinc: estic cansada i vull reposar un xic damunt l'herba.
 Jo sé quina libació ens aclarirà les tenebres.
+Jo també sóc agraït
 Jo vull parlar-te molt altrament.
 Jo, a la teva edat, ja anava a repartir la llet.
 L'aigua es va acabar de seguida.
@@ -1771,9 +1808,12 @@ L'aire fresc l'ajudà a calmar-li els nervis.
 L'altre dia el van veure disfressat amb uns bolquers i un xumet.
 L'any vinent faré un viatge a Tel Aviv.
 L'arròs queda més bé sense tomàquet al sofregit.
+L'enlluernava fins a fer-li apartar la vista.
 L'espera es va fer inacabable i se'n va anar.
 L'hereu Bosch me l'està birlant: la Celina es casarà amb ell.
+L'hora de la fonda l'havia enganyat.
 L'hotel, doncs, serien unes cent lliures per dues nits.
+L'imaginaven folrat d'or, i corrien darrera seu.
 L'opció predeterminada s'ha activat.
 La Carmeta caigué en terra, de boca terrosa damunt la catifa.
 La Carmeta caminava ben assossegada.
@@ -1811,7 +1851,9 @@ Les vacacions dels mestres són llargues però merescudes.
 Les vistes des del cim de la muntanya eren espectaculars.
 Li era una murga d’entintar-se els dits.
 Li ho van explicar amb tots els ets i uts.
+Li semblaven ja una criaturada que no podia recordar sense un amarg somrís.
 Li van picar la cresta.
+Llavors avançà tres passes sala endins.
 Llegeix l'estat de la bombeta.
 Llegeix-me el llistat de coses pendents.
 Llegeix-me l'Aneguet Lleig.
@@ -1826,18 +1868,22 @@ Mai he vist una persona més ximple, més inoportuna, més impertinent.
 Mai l'autoritat no podia descobrir el matador.
 Mai no has fet, ni per casualitat, res del que el general et deia.
 Mandarines a l'hivern i cireres a l'estiu.
+Mani: què vol fer?
 Massa pensaves en el teu honor i massa poc en el teu viure.
 Menjar verdura també és molt important.
 Mentres la dida va contant rondalles, s'atura de filar de tan atenta.
+Mentrestant, en Rodon, animat per l'Eladi, s'engrescava cada dia més.
 Mes no amb el posat ferm d'altres vegades ni amb ses companyes.
 Mes sols com tu podem imaginar-la.
 Minyones, és mitjanit i la cambra és buida.
 Mira el gat!
 Mira què fa el gos!
 Mirar sèries és perdre el temps.
+Mirà altre cop el rellotge, sentí que l'aire del carrer era humit
 Molt bé, fem-ho com dius.
 Ningú no em pot ajudar com tu, que tens bons acudits i vèrbola sobrera.
 Ningú no està casat amb el seu secretari personal.
+Ningú no s'adonava d'ell, i en Rodon seguí internant-se.
 No activis el volum automàtic.
 No comprenc el que em demanes.
 No defineixis el volum automàtic.
@@ -1845,6 +1891,7 @@ No defineixis el volum en automàtic.
 No deixis el volum automàtic.
 No deixis el volum en automàtic.
 No em tregui gens de crosta, que serà pels gatets.
+No em vinguis amb perons ni amb peres.
 No estableixis el volum automàtic.
 No estableixis el volum en automàtic.
 No et cansis: massa a prop és la mar brava.
@@ -1885,6 +1932,8 @@ Només recordo la muntanya i els pins i el vent.
 N’hi ha quatre unces.
 Obre el llum.
 Obre els llums.
+Obrí un diari per fer-se millor la non-non.
+Oh goig sense alegria!
 On hi ha un caixer automàtic?
 On hi ha un caixer?
 On puc trobar el Joan?
@@ -1913,11 +1962,15 @@ Pensa bé de tothom i no et fiis de ningú.
 Pensa en la vida que tens entorn: aixeca el front.
 Pensa mal i obra bé.
 Per brodar-te la gràcia, no trobo diamant.
+Per la mateixa banda anava a eixir
 Per què vessar la sang inútil?
 Però les temperatures no han batut cap rècord particular.
+Però tot d'una... rac!... obren la portella.
+Però, ja en el llindar de l'alta portalada, es recolzà en el pedestal.
 Piqueu la mantega, els alls i el julivert amb el cava i el brou.
 Plegueu la roba.
 Plou, però no plou gaire.
+Podien anar-hi a peu, sense que així ni el cotxer se n'assabentés.
 Pomes a la tardor i albercocs a la primavera.
 Porta raïms i magranes.
 Posa el volum automàtic.
@@ -1939,6 +1992,7 @@ Prengui’n dos, que se’n farà un ral.
 Procura de menjar fruita.
 Proveu d'apagar-lo abans.
 Proveu d'engegar-lo abans.
+Qualsevol diria que anem a fer-ne una de grossa!
 Quan el setí es torna gel, sembla que es faci flama.
 Quan hagué enllestit, la Carmeta s'aixecà i s'arreglà els cabells.
 Quan jo era petit, al meu poble regnava el salvatgisme.
@@ -1949,6 +2003,7 @@ Quants contes saps?
 Que no l'has vista quan dansa, que tota ella sembla un ritme?
 Que no té ocupació?
 Que parlàveu de mi?
+Quedà sorprès de la quietud que regnava en aquell gran palau.
 Qui ha fet el pecat, que faci la penitència.
 Qui l'ha aplegada?
 Qui li piqui, que s'ho rasqui.
@@ -2003,13 +2058,17 @@ Què hi ha pendent per al mes vinent?
 Què hi ha pendent?
 Què hi ha per fer?
 Què sabeu de Diana? Mai l'heu vista.
+Què vols que et digui! fan tanta por les males llengües!
+Recorda't de l'anònim: ¿les ha fetes callar, la teva prudència?
 Redueix la il·luminació de l'habituació.
 Regula el volum automàticament.
 Repeteix això que has dit.
 Repeteix-me això últim.
 Restava així una estona, mentres l'aigua li lliscava entre els dits.
 Retorno a les festes llunyanes.
+S'endossà el guardapols, encengué una cigarreta.
 S'estava allà sentada tota sola, mirant al mar sense dir res.
+S'estengué al divan d'utrecht vermell.
 S'ha activat el microones.
 S'ha activat el volum automàtic.
 S'ha activat l'opció predeterminada.
@@ -2021,6 +2080,7 @@ S'ha rebaixat el nivell d'il·luminació.
 S'ha rebaixat la il·luminació.
 S'han abaixat els llums.
 S'han atenuat els llums.
+S'havia establert ja al carrer de Trafalgar.
 Salutacions!
 Se sentia la mar desespaerada rebolcar-se en son llit.
 Se'n feia creus, de tot el que li explicaven.
@@ -2041,7 +2101,10 @@ Si no t'espaviles, no hi serem a temps.
 Si tens gana, menja't una cama.
 Si tinguera forces, hui tornaria a pujar a la muntanya.
 Si tingués forces, avui tornaria a sortir d'excursió.
+Sis o vuit mossos arrambaven a les parets gran munió de taules-escriptoris
 Somriu als set colors que hi ha en els núvols.
+Son afany era enriquir-se; son somni, fer-se una potència financera.
+Son pati era desert; totes les finestres que hi donen, tancades.
 Sóc avar de la llum que em resta dins els ulls.
 T'agrada ballar?
 T'agrada el jazz?
@@ -2056,6 +2119,7 @@ Tanca les bombetes.
 Tancarem la finestra i voltarem la flama.
 Tant de pentinar fa perdre els cabells.
 Tant per tant, sabates grosses.
+Tant va mirar pels teus interessos al tractar-se del dot?
 Tenia aversió a tota mena de de treball continuat.
 Tens cita a reumatologia.
 Tens cita amb el dentista.
@@ -2067,25 +2131,37 @@ Tens quatre tasques pendents.
 Tens un partit de basquetbol.
 Tens una reunió a les onze.
 Tens una reunió a les set de la tarda.
+Tinc de fer-lo patir, de fregir-li la sang.
 Tinc pensat de venir a Barna uns quants dies, no sé exactament quan.
 Tingui aquest ou, sembla d’oca.
+Tirà cap a la dreta, encaminant-s'hi tot consultant el rellotge.
 Torna el carro.
 Torna i abaixa el cap a l'aigua, i beu calmosa.
+Tornà a ficar-se a dins.
 Tot el que penja pot caure.
 Tot ho perderes, no tens ningú.
+Tot satisfet de la troballa, posà al filat el sac de mà que duia.
 Tota l'aigua del cel venia a sobre.
 Tota la meva vida es lliga a tu.
 Tothom s'ho ha passat d'allò més bé.
 Tots els batecs del vent són en desmai.
 Trieu un nivell entre u i cent.
+Trobar un compartiment buit on poder-se ajeure era treure la rifa.
 Tu no véns?
 Té el cap ple de pardals.
 Un cop tot emplatat hi afegiu el pa ratllat i el formatge.
 Un ou per mi per fer-me un caldo de la reina.
+Una cabellera que se'l menjava de viu en viu
+Una gran pallola a mig cap
+Una porta que sols havia traspassat un cop a la vida, molts anys enrere.
 Una veu més melodiosa i persuasiva que el refilar del rossinyol digué aquestes paraules.
+Una veu secreta li deia que l'allunyament l'havia fet créixer.
+Uns grans baixos, als quals s'arribava pujant només cinc esglaons.
 Us ho coneixia amb el posat i els ulls.
+Va córrer a ficar-s'hi.
 Ve a abeurar-se a la font com ans solia.
 Ve tota sola.
+Veié de reüll oberta de bat a bat la porta que cercava.
 Vejam si conec aquesta història.
 Venim de Iàtova.
 Venim de Madrid.
@@ -2117,7 +2193,12 @@ Vull trobar una sabateria.
 Vull un lloc de menjar ràpid.
 Vés cap amunt i agafa una cadira
 Vés cap avall i puja la compra.
+¡Quin capgirell més estrany! Ni ell mateix no s'ho explicaria.
+¡Quin ridícul, quina brometa no en farien, els seus companys!
 ¿Et sembla si puc mirar-m'ho fredament?
+¿Però vostè es creu que en traurem res?
+¿S'enamoraria ara de la mare? Quin absurd!
+¿Tornaries, per ventura, a casa l'advocat dels Dou?
 És bo menjar fruita cada dia.
 És el rumor que corre per tot el poble.
 És veritat que Xavi, de la Marina, es casarà aquest mes d'agost?

@@ -365,6 +365,7 @@ Caminos hacen amigos.
 Caracol, saca los cuernos al sol
 Caridad y amor, sin tambor.
 Casa con dos puertas, mala es de guardar.
+Casi todos los años caen lluvias con similar intensidad
 Caía la tarde. De Huelva llegaba un olor a marisma, a brea.
 Celebremos con un chocolate caliente.
 Cesar es un muchacho saudí.
@@ -737,6 +738,7 @@ El desayuno está listo, tostadas con mantequilla y un zumito
 El descifrado toma el texto cifrado y la clave correcta
 El descuento solo es aplicable los martes
 El desván estaba oscuro, un fino rayo de luz lo cruzaba
+El director del programa pertenece al comité de crisis de Irán
 El diseño de los sistemas de encriptación y cifrado ha ser público
 El divorcio le dejó en bragas
 El dominio privado se convierte en dominio público
@@ -820,6 +822,7 @@ El patinete no baja bien de la acera.
 El pavimento del paseo resbala y la abuela ha tomado mal.
 El peine del lavabo de la entrada está llena de piojos.
 El periodista Jordi Evole vive cerca de casa.
+El periódico es gratuito los miércoles por la mañana
 El perro de los vecinos ha bordado toda la noche.
 El perro del hortelano ni come, ni deja comer a su amo.
 El perro está ladrando.
@@ -1417,6 +1420,7 @@ Evitando acusar a los autores de estas violaciones
 Evite decir
 Exactamente quién soy y para qué estoy aquí
 Existen lugares donde acceder a páginas desaparecidas
+Existen plantas de diversos tipos
 Existen varios mitos sobre el mundo de la música
 Existen varios servidores de bases de datos en Internet
 Existen, no obstante, otros medios alternativos
@@ -2042,6 +2046,7 @@ Llevaba unos pantalones más apretados que los tornillos de un submarino
 Llevan juntos desde los dieciséis años.
 Lllamaron a la policía porque hacían mucho ruido.
 Llover sobre mojado mil veces ha pasado.
+Llueve en esta tarde de abril
 Llueve sobre mojado
 Lo... Lo siento.
 Lo acabo en un pispás
@@ -2174,6 +2179,7 @@ Los proyectos me maravillan.
 Los pájaros migratorios revoloteaban en el cielo azul
 Los ranchos de tejas por el sol doradas.
 Los recortes empiezan a tocar la pera de verdad.
+Los republicanos tienen opciones en la carrera presidencial
 Los sables de San Pablo son dulces y tienen aroma de anís.
 Los sectores revolucionarios estaban cada día más motivados.
 Los siguientes capítulos harán pensar en ansias de poder.
@@ -3029,19 +3035,35 @@ Quería hacer mucho trabajo y entre una cosa y otra no hice nada bueno.
 Quería revisar el plan estratégico esta tarde, pero aún no me he podido poner.
 Quien a buen árbol se arrima buena sombra le cobija.
 Quien bien te quiere te hará llorar
+Quien bien te quiere, te hará llorar
+Quien con niños se acuesta, cagado se levanta
+Quien con niños se acuesta, meado se levanta
+Quien da primero, da dos veces
 Quien de miel se hace, moscas le comen.
 Quien el puchero del vecino quiere probar, deje el suyo sin tapar.
+Quien esté libre de culpa que tire la primera piedra
+Quien hace lo que puede, hace lo que debe
 Quien hambre tiene, en pan piensa.
+Quien juega con fuego se quema los dedos
 Quien mal anda mal acaba.
+Quien mal anda, mal acaba
 Quien mucho abarca, poco aprieta.
 Quien mucho habla, mucho yerra.
+Quien mucho te quiere, te hará llorar
 Quien más tira, se lleva el gato al agua.
+Quien nace lechón, muere cochino
+Quien nace lechón, muere gorrino
 Quien no comprende una mirada tampoco comprenderá una larga explicación
+Quien no te conozca, que te compre
+Quien paga, descansa
+Quien presta dinero a un amigo, pierde el dinero y pierde el amigo
+Quien se alaba no necesita abuela
 Quien se pica ajos come.
 Quien siembra vientos recoge tempestades
 Quien tarde se levanta, todo el día trota.
 Quien te entienda, que te compre
 Quien tiene boca se equivoca.
+Quien tiene un amigo tiene un tesoro
 Quieres demostrar que eres gracioso y todo el mundo te tiene por un cerdo.
 Quiero acceder a su número de cuenta.
 Quiero cantar un madrigal.
@@ -3092,6 +3114,7 @@ Recibi tu correo esta semana, espero impaciente tu respuesta
 Recibí un mensaje de mi tía por whatsapp
 Reconocer nuestros errores es de sabios
 Recorría el bulevar pensativo y taciturno
+Rectificar es de sabios
 Recuerda, sólo estoy a unos bloques de aquí.
 Recuerda lo que tu viejo amigo te dijo
 Recuerde que en el planeta existen extrañas criaturas
@@ -3138,10 +3161,13 @@ Saldremos en barca, Eduardo.
 Saldrás a la calle cuando las ranas críen pelo
 Sale de la galería, ¡burro!
 Salgo a las cinco.
+Salir de Guatemala y entrar en Guatepeor
+Salir de Málaga y entrar en Malagón
 Salió echo un pincel y volvió echo un Cristo
 Salió escopeteado como alma que lleva el diablo
 Salta, Gerardo, ¡salta!
 Salta, salta, al final te darás una hostia.
+Saltar de la sartén para caer en las brasas
 Salud y alegría, belleza cría.
 Salvador, ¡sube a la azotea y bájame las sábanas extra!
 San Juan trae el infierno, y San Andrés el invierno.
@@ -3150,6 +3176,7 @@ Sana, sana, culito de rana. Si no te curas hoy, te curarás mañana
 Sandra, ¿bajas a la playa?
 Santa Rita, Rita, lo que se da ya no se quita
 Sargento, establezca un puesto de reconocimiento abajo. ¡ Código rojo!
+Sarna con gusto, no pica
 Sarna con gusto, no pica.
 Se acabó la función.
 Se arrancó la costra tres veces.
@@ -3159,6 +3186,7 @@ Se casó con un vejestorio por su dinero
 Se casó de penalti, embarazada de tres meses
 Se comieron a esos juguetes.
 Se crean direcciones de duración ilimitada
+Se cree el ladrón que todos son de su condición
 Se cree que es la reina de los mares
 Se creía muy listo pero le dieron gato por liebre
 Se da la circunstancia
@@ -3166,6 +3194,7 @@ Se daba muchos aires pero solo era una cantante de pacotilla
 Se defendió diciendo que estaba preocupado por los derechos de autor
 Se despatarró en el suelo todo lo largo que era
 Se detiene bruscamente y mira durante un instante con expresión de estupor.
+Se dice el pecado pero no el pecador
 Se dice el pecado, pero no el pecador.
 Se durmió en los laureles y perdió el primer puesto
 Se elimina las relación directa entre Granada y Algeciras
@@ -3191,6 +3220,7 @@ Se hace público un extenso informe
 Se hace tarde, se acaba el día.
 Se hacen llamar raperos, los primos de Torrelavit.
 Se han analizado más depuradoras que en el año anterior
+Se incrementa el riesgo de que se produzcan desastres de este tipo
 Se le consideraba el rey de los piratas.
 Se le cruzaron los cables y le destrozó toda la casa
 Se le hizo tarde y tuvo que salir cagando leches
@@ -3223,6 +3253,7 @@ Se pensaba que era necesario un incentivo para que los
 Se pensaba que las naranjas eran una fruta de verano.
 Se perdió por la montaña y tuvieron que llamar a los Mossos.
 Se pide que se abra un debate en torno al modelo ferroviario
+Se pilla antes a un mentiroso que a un cojo
 Se podía contar con él a las duras y a las maduras
 Se propuso por la comunidad internauta la destrucción del ordenador del senador
 Se publica una noticia que alerta de una vulnerabilidad en la red
@@ -3244,7 +3275,9 @@ Se ve que se conocieron en el instituto.
 Sea arduo y estés muy, muy lejos de tu dulce hogar...
 Sea conciliador.
 Seamos realistas y hagamos lo imposible.
+Secreto bien guardado, el que a nadie se ha contado
 Seguid sin mí. Marchaos.
+Segundas partes nunca fueron buenas
 Seguro es el posible retraso de la puesta en servicio de los mismos
 Seguro que él lo sabe porque está metido en el ajo
 Según las nuevas informaciones dadas a la prensa
@@ -3271,6 +3304,7 @@ Si dirige usted una empresa que cree afectada
 Si el ocio te causa tedio, el trabajo es buen remedio.
 Si el perro muerde a un ciclista, te pondrán una multa muy merecida.
 Si el pimentonero se acerca a tu casa, la nieve baja.
+Si el software de cifrado se implementa correctamente
 Si el trabajo es salud, qué viva la enfermedad
 Si es así, no se puede confiar en la seguridad del servicio
 Si es robado, sabe mejor
@@ -3281,6 +3315,7 @@ Si estás ejecutando Debian en una máquina virtual
 Si fuera en invierno aún. Pero ahora no importa.
 Si hay algún mensaje de error o advertencia relacionado con un repositorio de terceros
 Si la envidia fuera sarna, cuantos sarnosos habría.
+Si la envidia fuera tiña, ¡cuántos tiñosos habría!
 Si la montaña no va a Mahoma, Mahoma va a la montaña
 Si la montaña no viene a Mahoma, Mahoma irá a la montaña
 Si la vida te da limones, haz limonada
@@ -3296,6 +3331,7 @@ Si nace mudo, revienta. Menudo loro
 Si no conseguimos un trato habrá que entrar por la fuerza.
 Si no hablas, revientas
 Si no nos damos prisa, haremos salado.
+Si no puedes con tu enemigo, únete a él
 Si no se peleara con Uli, tendría compañía
 Si no te entusiasma, puedo pensar en otra cosa.
 Si no te gusta planchar, no te compres ropa de hilo.
@@ -3337,6 +3373,7 @@ Siempre está de viaje, es culo de mal asiento
 Siempre estás con la misma canción. Eres un cansino
 Siempre estás en medio, como el jueves
 Siempre has tenido la gracia en el culo
+Siempre hay un roto para un descosido
 Siempre hay un roto para un descosido.
 Siempre he querido hacerlo pero nunca me he atrevido.
 Siempre he querido poner a un hombre del espacio en órbita.
@@ -3345,6 +3382,7 @@ Siempre le ha gustado mucho la cultura popular.
 Siempre llegamos tarde a todas partes por su culpa.
 Siempre me han fascinado las historias de marcianos.
 Siempre nos quedará París
+Siempre pagan justos por pecadores
 Siempre pagan justos por pecadores.
 Siempre pidiéndome dinero, ¿te crees que soy el Banco de España?
 Siempre quiere tener razón.
@@ -3378,6 +3416,7 @@ Sin un navegador así, cada vez que te conectas envías mensajes
 Sino porque eres un juguete.
 Situó la barca paralela a la dársena del puerto y atracó
 Sobre estas palabras, aunque con variaciones
+Sobre gustos no hay nada escrito
 Sobre gustos no hay nada escrito.
 Sol que pica, lluvia indica.
 Solicito permiso para el lanzamiento.
@@ -3400,10 +3439,12 @@ Son unas zapatillas de fútbol sala.
 Son y han sido formas resilientes de gestionar, de forma sostenible y democrática
 Sonia siempre quiere mandar.
 Sonríes, escapando entre mis dedos, como el viento
+Soplar y sorber, no puede ser
 Soplar y sorber, no puede ser.
 Soy el único que tiene información que revela la única debilidad de esta arma.
 Soy sólo un juguete. Un estúpido insignificante y pequeño juguete.
 Soy yo el que debería estar en ese cohete.
+Soñar no cuesta nada
 Su abuelo no se aclara nada con los medicamentos.
 Su abuelo siempre decía que era demasiado pobre para comprar barato.
 Su brújula no señalaba el norte.
@@ -3449,6 +3490,7 @@ Sólo puede quedar uno
 Sólo quería decirte eso.
 Sólo quiero hablar contigo un minuto.
 Sólo recuerda lo que tu viejo amigo dijo.
+Sólo se vive una vez
 Sólo tenemos una semana antes de la mudanza.
 Tails lleva gran cantidad de aplicaciones libres para la privacidad
 Tails recomienda descargar el fichero desde Firefox
@@ -3461,8 +3503,10 @@ Tantas cosas por hacer que no le llega la camisa al cuello
 Tantas mentiras acaban pasando factura.
 Tanto monta, monta tanto
 Tanto monta, monta tanto, Isabel como Fernando
+Tanto tienes, tanto vales
 Tanto tienes, tanto vales.
 Tanto va el cántaro a la fuente que al fin se rompe.
+Tanto va el cántaro a la fuente que al final se rompe
 Tarragona y Girona no son nada provincianas.
 Te aseguro que me dolerá más a mí que a ti
 Te ayudé con aquello pero esto es otro cantar
@@ -3574,18 +3618,23 @@ Todas somos creadoras
 Todo depende de la decisión del juez.
 Todo el mundo habla de dignidad, estos días.
 Todo era silencio, no se sentía ni un alma.
+Todo es según el color del cristal con que se mira
 Todo ese campo está lleno de pinos.
 Todo eso de que el derecho penal se basa en el principio de proporcionalidad
 Todo hace indicar
 Todo lo de esa tienda es de mírame y no me toques
+Todo lo que sube, baja
 Todo queda en casa
 Todo queda en familia
+Todo se pega menos la hermosura
 Todo sea por no reconocerlo
+Todo tiene arreglo menos la muerte
 Todos al salón. Es la hora de dar los regalos.
 Todos esos momentos se perderán en el tiempo como lágrimas en la lluvia
 Todos los ahorcados mueren empalmados
 Todos los cambios se han guardado
 Todos los caminos llevan Roma.
+Todos los caminos llevan a Roma
 Todos los demás ya estaban escogidos.
 Todos los días contigo y ahora todos sin ti.
 Todos los días me dejo el pellejo en el curro
@@ -3616,6 +3665,7 @@ Traen ecos perdidos de músicas de arroyos.
 Tranquilo. Todo está bajo control.
 Tranquilos, saben hacer su trabajo.
 Tras el lema “protejamos a los creadores” hay realmente un ansia privatizadora
+Trata a los demás como querrías que te trataran a ti
 Tronada lejana, lluvia cercana.
 Tu amigo me cae como el culo. No lo puedo ni ver
 Tu escafandra hace eso... Eso tan espectacular.
@@ -3649,6 +3699,7 @@ Un bitrate alto produce mayor calidad de sonido
 Un buen cartel incluiría los Gansos Grasas.
 Un buen soldado jamás abandona a sus hombres.
 Un candidato demasiado joven no nos conviene.
+Un clavo saca otro clavo
 Un concurso literario es, siempre, una esperanza.
 Un dedo no hace mano, pero sí con sus hermanos.
 Un dibujo autografiado por Dalí puede valer muchos euros.
@@ -3658,6 +3709,7 @@ Un entorno limpio y ordenado favorece la salud mental.
 Un favor de ese tipejo es como recibir el beso de Judas
 Un fracaso tan grande poco que nos lo imaginábamos.
 Un gran cuadro con un retrato al óleo de un capitán del ejército.
+Un grano no hace granero, pero ayuda al compañero
 Un grano no hace granero, pero ayuda al compañero.
 Un homenaje a Cabré era más que necesario.
 Un informe de Women, Action & Media visibiliza el acoso contra las mujeres
@@ -3677,6 +3729,7 @@ Un río entre verdores se pierde a mis espaldas.
 Un servicio impuesto poco ágil, propio de épocas pasadas
 Un superventa, por definición, es estéril
 Un sátiro, me pareció.
+Un tropezón cualquiera lo tiene en la vida
 Un técnico se pondrá en contacto con usted para solucionar el problema
 Un vaso de agua no se le niega a nadie
 Un vidrio roto, pisó.
@@ -3688,6 +3741,7 @@ Una copia tan perfecta que a duras penas se distingue del original
 Una cosa es predicar y otra dar trigo.
 Una declaración de principios es exigible, en este caso.
 Una figura emergente nos eclipsará enseguida.
+Una imagen vale más que mil palabras
 Una imagen vale más que mil palabras.
 Una industria se desmorona
 Una manzana cada día, el médico te ahorraría.
@@ -3698,6 +3752,7 @@ Una opción asequible para no comprometer nuestra ciberseguridad
 Una palabra deja caer una casa.
 Una pantalla de marca buena nunca falla.
 Una retirada a tiempo es mejor que una derrota
+Una retirada a tiempo es una victoria
 Una retirada a tiempo es una victoria.
 Una segunda visita te da la oportunidad de redención
 Una vez al año, no hace daño
@@ -3705,10 +3760,15 @@ Una vez aprendida es una herramienta bastante sencilla en su uso diario:
 Una vez aprendida resulta una herramienta bastante sencilla en su uso diario
 Una vez más comencé por cagarme en la Introducción
 Uno de enero, dos de febrero, tres de marzo, cuatro de abril.
+Uno es de donde pace y no de donde nace
+Uno es dueño de lo que calla y esclavo de lo que habla
 Uno levanta la caza, y otro la mata.
 Unos decían nabos y los otros decían coles.
+Unos nacen con estrella y otros nacen estrellados
 Unos nacen con estrella y otros nacen estrellados.
 Unos resultados totalmente distintos
+Unos tanto y otros tan poco
+Unos tienen la fama y otros cardan la lana
 Unos tienen la fama y otros cardan la lana.
 Unos vienen y otros van
 Usa el vaso y no bebas a morro
@@ -3722,6 +3782,7 @@ Va, que nos zampa un bocadillo de salchichas.
 Va, reíd un poco, muy bien, ¡así!
 Vaciar la papelera de reciclaje.
 Vale más caer en gracia, que ser gracioso.
+Vale más tener que desear
 Valeria. Valeria.
 Valeria quiere un hermanito. un hermanito.
 Vamos, arreemos al ganado.
@@ -3737,6 +3798,7 @@ Vamos a ir a visitar el parque zoológico
 Vamos a morir. Yo me largo.
 Vamos a morir. ¡ Me voy de aquí!
 Vamos a reunir el ganado.
+Vamos a ver un Hong Kong diferente
 Vamos al bar a hacer unas birras
 Vamos, en marcha. Arreando, que es gerundio
 Vase la piedra de la honda y la palabra de la boca.
@@ -3754,6 +3816,7 @@ Vengo en son de paz. Dígame como es el exterior.
 Venía linternas de leds.
 Veo menos que Pepe Leches
 Veo menos que un gato de escayola
+Ver la paja en el ojo ajeno y no la viga en el propio
 Veraneando, se va el tiempo volando.
 Verás, no ha sido nada.
 Verás que es nuestro destino.
@@ -3796,6 +3859,7 @@ Voy a sacarte de aquí.
 Vuelvan a sus vidas, ciudadanos. El show terminó.
 Vuelve la costumbre de hacerse fotos con los difuntos.
 Vámonos de aquí. Volved a vuestras vidas.
+Vísteme despacio, que tengo prisa
 Vísteme despacio, que tengo prisa.
 Walter y Skyler White deberían tener una estatua humana en la Rambla.
 Y ahora, de pronto, cosas extrañas me suceden
@@ -3877,6 +3941,7 @@ Yo también te quiero.
 Yucatán es una de las treinta y dos entidades federativas
 Zamora no se ganó en una hora
 Zapatero a tus zapatos.
+Zapatero, a tus zapatos
 Zapatero, haz tus zapatos, y déjate de otros tratos.
 Zapatitos de charol, ni para el agua ni para el sol.
 Zapato que aprieta, otro se lo meta.
@@ -4325,6 +4390,7 @@ ciegos y tullidos, enanos y lacerados nos acosaban, nos perseguían
 cientos de personas salieron despedidas por las cristaleras.
 cierra la puerta. ¿ te ha visto alguien?
 cierto que sentirá grande fatiga la pobrecita.
+cifra que se incrementa año tras año
 cinco, seis, siete
 cinco, seis, siete, ocho.
 claro, claro. es que lo vuestro es
@@ -4387,6 +4453,7 @@ con Julia, te empieza a gustar la nueva?
 con Leonor. ¿ y Julia? ¿ ya no hay nada?
 con alas o sin alas, como vengan.
 con el cabello destrenzándose sobre los hombros desnudos
+con el cambio climático estos episodios serán cada vez más intensos y frecuentes
 con el desfibrilador.
 con el encanto de un sueño que se recuerda siempre y nunca se precisa.
 con el fin de adquirir aquella desagradable y tétrica cajita
@@ -5407,6 +5474,7 @@ esto son cosas para hacer cine.
 esto va a comenzar.
 estos beneficios generales obtenidos por el público
 estos dibujos cuentan la historia de este barco.
+estos no son hechos excepcionales
 estos últimos pasan olímpicamente del supuesto problema
 estoy bien. estoy muy bien, estoy de_puta_madre.
 estoy completamente sola.
@@ -5490,11 +5558,13 @@ guiándonos por las hogueras, llegamos a un gran raso de yerba donde cabeceaban
 guióme hasta el refectorio, y saludando más gangosa que nunca, se alejó.
 guío al Señor Marqués al refectorio, y torno a servirla luego, luego.
 ha dejado de...
+ha denunciado que incumplen de manera reiterada la normativa vigente
 ha dignificado la posición del autor frente a los poderes públicos
 ha estado con Ulises, luego con Gamboa y ahora contigo.
 ha estado trabajando para crear conciencia entre el público
 ha funcionado. funciona.
 ha ido comiendo el terreno que pertenecía a los ciudadanos
+ha instado a tomar las medidas pertinentes para prevenir dichos desastres
 ha llegado la hora. vale, vamos.
 ha sido emotivo la participación de vecinos y vecinas de avanzada edad
 ha sido por ayudarte.
@@ -7562,6 +7632,8 @@ siento mucho lo de la bronca, pero ese no es el problema ahora.
 siento tanto quedarme en el camino, que no he podido dejar de llorar
 siete metros. se oyen pasos.
 significa algo para usted, ¿ verdad?
+sigue en aumento el riesgo de que se produzcan desastres de este tipo
+sigue en aumento el riesgo de que siga habiendo víctimas mortales
 sigue los tres pasos para una cita perfecta.
 sigue siendo posible tener privacidad en Internet
 siguiendo al poder han decidido arrancarse el ojo izquierdo
@@ -8809,6 +8881,7 @@ yo ya no puedo estar contigo.
 ¡Antonio, ven, corre!
 ¡Apaga la televisión!
 ¡Apaga y vámonos!
+¡Apártate que me tiznas!, le dijo la sartén al cazo
 ¡Baja del escenario, Elda!
 ¡Chitón! No hables más que hay ropa tendida
 ¡Come, que estás muy flacucho!
@@ -9283,6 +9356,7 @@ yo ya no puedo estar contigo.
 ¿Dónde hacen cursos de catalán?
 ¿Dónde has guardado el peine?
 ¿Dónde tiene mi niño lo feo?, ¡que no lo veo!
+¿Dónde va Vicente? Adonde va la gente
 ¿Dónde vas Vicente?, donde va la gente.
 ¿El cerebro de la derecha es el del señor Ambrosio?
 ¿Encargamos una pizza?
@@ -9334,6 +9408,7 @@ yo ya no puedo estar contigo.
 ¿Quieres decir que el aire acondicionado funciona?
 ¿Quieres decir que no sería mejor ir a otra playa?
 ¿Quieres dejar eso y hacerme caso, por favor?
+¿Quién le pone el cascabel al gato?
 ¿Quién te pagó los estudios?
 ¿Qué canciones te gustan más?
 ¿Qué comerás para merendar?
