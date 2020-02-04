@@ -611,7 +611,7 @@ listen = Азыӡырҩра
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
 clips-with-count = <bold>{ $count }</bold> анҵамҭақәа
-goal-help-recording = Ҳара есымшатәи ҳхықәкы { $goalValue } аҩаӡара Common Voice аҟынӡа ашьҭыхраҿы уара <goalPercentage></goalPercentage> ацхыраара ҳауҭеит.
+goal-help-recording = Ҳара есымшатәи ҳанҵамҭақәа аҩаӡара { $goalValue }! Common Voice ахықәкы аҟынӡа ашьҭыхраҿы, уара <goalPercentage></goalPercentage> ацхыраара ҳауҭеит.
 goal-help-validation = Ҳара есымшатәи ҳхықәкы { $goalValue } <goalPercentage></goalPercentage> аҩаӡара Common Voice аҟынӡа агәаҭараҿы уара ацхыраара ҳауҭеит.
 contribute-more =
     { $count ->
