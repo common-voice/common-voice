@@ -376,6 +376,7 @@ faq-what-quality-q = Quin nivèl de qualitat àudio deu aver una mòstra de votz
 faq-why-10k-hours-q = Perqué l’objectiu es de 10 000 oras validadas per lenga ?
 faq-why-10k-hours-a = Es lo nombre aproximatiu d’ora requesit per entrenar un sistèma de produccion de Paraula-al-tèxt.
 faq-how-calc-hours-q = Cossí Common Voice calcula las oras ?
+faq-how-calc-hours-a = Calculam las oras en estimant la durada mejana de cada enregistrament, puèi multiplicam aqueste nombre pel nombre total d’enregistraments de totas las lengas.
 faq-where-src-from-2-q = D’ont venon los tèxtes ?
 faq-where-src-from-2-a =
     Nòstre tèxt font es un mescladís de las donacions de contributors, tanben d’òbras del domeni public.
@@ -396,10 +397,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perqué Common Voice ?
+about-subtitle = Common Voice fa part de l’initiativa de Mozilla per ajudar a aprendre a las maquinas cossí lo monde parla. En mai del jòc de donadas de Common Voice, construissèm un motor de reconeissença vocal liure apelat Deep Speech.
 how-does-it-work-title = Cossí fonciona ?
+how-does-it-work-text = Cridam a la participacion collectiva per constituir un jòc de donadas liure. Donatz vòstra votz, validatz la precision de las mòstras d’autras personas, melhoratz lo jòc de donadas per tot lo monde.
 about-speak = Parlar
 about-speak-text = Los contributors enregistran de mòstras de votz en legir de frasas d’una basa de frasas donadas.
 about-listen-queue = Fila d’escotat
+about-listen-queue-text = Las mòstras vocalas son enregistradas dins una fila d’espèra de mòstras preparadas a l’escota.
 about-listen = Escotar
 about-listen-text = Los utilizaires validan l’exactitud de las mòstras en verificant que los locutors legiscan corrèctament las frasas.
 about-is-it-valid = La mòstra es valida ?
@@ -409,6 +413,7 @@ about-yes-votes-text = Per far partida del jòc de donadas Common Voice, una mò
 about-no-votes = ≥ 2 vòtes NON
 about-no-votes-text = Quand un utilizaire regeta una mòstra aquela tòrna dins la fila. S’es regetada dos còps, la mòstra es desplaçada al cementèri de las mòstras.
 about-dataset-new = Jòc de donadas de Common Voice
+about-dataset-new-text = Lo jòc de donadas Common Voice conten centenas de mòstras vocalas per ajudar als desvolopaires a crear d’aplicacions vocalas.
 about-clip-graveyard = Cimentèri de mòstras
 about-partners = Sòcis
 about-become-a-partner = Venir sòci
