@@ -763,6 +763,8 @@ goal-share-text = Сара абыржәы #CommonVoice сыбжьы аҭараз
 weekly-goal-created = Мчыбжьыктәи ухықәкы нагӡоуп
 daily-goal-created = Ҽнактәи ухықәкы нагӡоуп
 track-progress = Абреи астатистикатә даҟьаҟны уеизҳашьа уашьклаԥшла.
+return-to-edit-goal = Ианакәзаалак ухықәкы аԥсахразы абрахь ухынҳәы.
+share-goal = Схықәкы сыцеҩша
 
 ## Profile Delete
 
