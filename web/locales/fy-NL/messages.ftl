@@ -176,7 +176,7 @@ wall-of-text-more-mobile =
     dat dat ynnovaasje behinderet. Dêrom hawwe wy it projekt Common Voice lansearre, in projekt om
     spraakwerkenning foar elkenien tagonklik te meitsjen.
 wall-of-text-more-desktop =
-    No kinne jo jo stim donearje om ús te helpen in iepen-boarne stimdatabase te meitsjen dy't elkenien brûke kin
+    No kinne jo jo stim donearje om ús te helpen in iepen boarne stimdatabase te meitsjen dy't elkenien brûke kin
     om ynnovative apps te meitsjen foar apparaten en it web.<lineBreak></lineBreak>
     Lês in sin om masinen te learen hoe't echte minsken sprekke. Kontrolearje it wurk fan oare
     dielnimmers om de kwaliteit te ferbetterjen. Sa ienfâldich is it!
@@ -427,7 +427,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Wêrom Common Voice?
-about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke. Yn oanfolling op de Common Voice-gegevensset bouwe wy ek in iepen-boarne spraakwerkenningsmasine mei de namme Deep Speech.
+about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke. Yn oanfolling op de Common Voice-gegevensset bouwe wy ek in iepen boarne spraakwerkenningsmasine mei de namme Deep Speech.
 about-header-description =
     Beide projekten meitsje diel út fan ús ynspanningen om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe us apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
     Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
@@ -558,13 +558,13 @@ get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
 deepspeech-info = De Common Voice-gegevensset is in oanfolling op Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, dy't jo brûke kinne om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
-common-voice-info-new = Hawwe jo fragen oer Common Voice? Ideeën foar ferbetteringen of kommentaar oer in spesifike taal? Praat mei op 'us <discourseLink>Discourse-foarum</discourseLink> en lit it 'us witte.
+common-voice-info-new = Hawwe jo fragen oer Common Voice? Ideeën foar ferbetteringen of kommentaar oer in spesifike taal? Praat mei op ús <discourseLink>Discourse-foarum</discourseLink> en lit it ús witte.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
 data-other-voxforge-description = VoxForge is opset om ûndertitele spraak te sammeljen foar gebrûk mei Free en Open Source Speech Recognition Engines.
 data-other-tatoeba-description = Tatoeba is in grutte database mei sinnen, oersettingen, en sprutsen audio foar gebrûk yn it oanlearen fan taal. Dizze download befettet al it sprutsen Ingelsk opnommen troch harren mienskip.
-your-feedback = Hawwe jo ideeën oer hoe't wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse
+your-feedback = Hawwe jo ideeën oer hoe't wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse.
 go-discourse = Gean nei Discourse
 missing-language = Sjogge jo jo taal net yn de gegevensset reflektearre? Gean nei ús talenside om in taal oan te freegjen.
 go-languages-page = Gean nei talenside
@@ -796,7 +796,7 @@ profile-form-delete = Profyl fuortsmite
 ## Landing
 
 welcome-staff = Wolkom meiwurkers fan { $company }!
-help-contribute = Jo kinne in ferskate, iepen-boarne gegevensset helpe bouwe troch on Common Voice-profyl te meitsjen en jo stim te donearjen.
+help-contribute = Jo kinne in ferskate, iepen boarne gegevensset helpe bouwe troch on Common Voice-profyl te meitsjen en jo stim te donearjen.
 login-company = Oanmelde / ynskriuwe mei { $company }-e-mailadres
 profile-not-required = In profyl is net nedich om by te dragen, mar it kin wol nuttich wêze
 read-more-about = Mear ynfo op ús side Oer
