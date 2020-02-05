@@ -507,6 +507,7 @@ subscribe = S’abonar
 get-started-speech = Introduccion a la reconeissença vocala
 other-datasets = Autres jòcs de donadas
 feedback-q = Avètz de suggestions ?
+data-other-librispeech-description = LibriSpeech es un còpus de quicòm coma 1000 oras de lectura en anglés ( 16 Khz ) derivat de la lectura d’audiolibres del projècte LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Lo còrpus TED-LIUM es bastit amb de dialogues e lor transcripcions disponiblas sul site TED.
 data-other-voxforge-description = VoxForge foguèt bastit per reculhir de transcripcions vocala per las utilizar dins de motors de reconeissença vocala.
