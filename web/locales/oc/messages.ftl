@@ -674,6 +674,7 @@ validated-clips = Mòstras validadas
 total-approved = Total aprovat
 overall-accuracy = Precision globala
 set-visibility = Definir ma visibilitat
+visibility-overlay-note = Nòta : quand es definit sus « Visible », aqueste paramètre pòt èsser cambiat de la pagina <profileLink>Perfil</profileLink> estant.
 show-ranking = Veire mon classament
 
 ## Custom Goals
@@ -690,6 +691,7 @@ difficult-difficulty = Dificil
 pro-difficulty = Professional
 lose-goal-progress-warning = En modificar l’objectiu, podètz pèrdre lo progrès actual.
 want-to-continue = Volètz contunhar ?
+finish-editing = Volètz terminar las modificacions ?
 lose-changes-warning = Se sortissètz ara, perdretz vòstres cambiaments
 build-custom-goal = Crear un objectiu personalizat
 help-reach-hours = Ajudatz a arribar a { NUMBER($hours) } oras en { $language } amb un objectiu personal
