@@ -186,6 +186,7 @@ Aperi tu bucca!
 Aperi tu mente!
 Aperi un conto Firefox con tote su avantages.
 Aperi un terminal e exeque un programma.
+Aperi vostre sacco, per favor.
 Aperir tu bucca!
 Aperir tu bucca! Le primavera veniva.
 Apparentemente, le major parte del phrases ha essite scribite per nerds e scientistas.
@@ -196,6 +197,7 @@ Appella los iste vespere.
 Appella me plus tarde.
 Appende tu cappello al croc.
 Appende tu paletot, per favor.
+Apporta me lo ora, per favor.
 Apprende a ambular ante que tu curre.
 Apprende interlingua, belle e musical! Illo es le lingua ponte que te rende polyglotta.
 Apprender a facer un verticale require multe practica.
@@ -340,6 +342,7 @@ Cata libro ha su destino.
 Cata minuta es importante.
 Cata regula ha su exception.
 Cata uno de illes recipeva un dono.
+Cata uno es temptate per su proprie concupiscentia que le esca e le seduce.
 Cata uno esseva vestite de un belle kimono al festa.
 Cata uno le chef de su domo ancestral.
 Cata uno qui le cognosceva le admirava.
@@ -414,6 +417,7 @@ Como es isto pertinente?
 Como es le nove leader?
 Como es le temperie?
 Como es tu finite ci?
+Como esseva tu qua infante?
 Como eveniva le accidente de traffico?
 Como functiona illo?
 Como gerera Mozilla le ambiguitates como queue e cue?
@@ -472,6 +476,7 @@ Como sta tu ora?
 Como sta tu patiente?
 Como sta tu patre?
 Como sta tu sposa?
+Como sta tu, Mike?
 Como sta tu?
 Como sta tu? Io non te ha vidite durante un eternitate!
 Como sta tu? Multo ben, gratias.
@@ -488,6 +493,7 @@ Como trovava tu Peter?
 Como trovava tu nos?
 Como tu arrivava ci?
 Como tu ha crescite!
+Como tu me ha mancate!
 Como tu me manca.
 Como tu sue?
 Como un approximation, nos usa un distribution gaussian multivariate.
@@ -586,6 +592,7 @@ De que consiste illo?
 De que consiste le aspirina?
 De que es illos facite?
 De que ha tu pavor?
+De que parla tu?
 De que te occupava tu?
 De que vole tu parlar?
 De qui es ille telephono?
@@ -594,7 +601,10 @@ De qui es iste auto?
 De sorta que nos pote comprehender le cosas que Ille nos dava gratuitemente.
 De su gesto unic il era clar que le rhinocerote era hostil.
 De ubi veni vos?
+Debe io cambiar de linea?
+Debe io facer venir un taxi pro vos?
 Debe io pagar te?
+Debe io portar te al altere latere?
 Debe io scriber illo?
 Debe vos entrar?
 Deberea ille esser expellite del presidentia?
@@ -637,9 +647,11 @@ Dice lo clarmente!
 Dice lo clarmente.
 Dice me francamente, qui era ille senioretta?
 Dice me francamente.
+Dice me lo que io debe facer postea.
 Dice me que tu burla!
 Dice me.
 Dice sempre le veritate.
+Dicer tal cosa non es digne de illa.
 Did you miss me?
 Die.
 Diesel es le solo plus incostose, per le taxas inferior.
@@ -677,6 +689,7 @@ Durante que illa pensava: io sape perque illes vole ir via.
 Durante que ille era in hospital, le infirmera prendeva un radiographia de su brachio.
 Durante que nos gustava le dessert, nostre desiro de visitar iste pais cresceva.
 Durante que nos tornava de Nuoro?
+Durante que vostre communitate es reunite, entra un homine vestite luxuosemente.
 E Johannes reguardava con indifferentia avante a se.
 E alora?
 E circa Jack?
@@ -743,6 +756,7 @@ Es alcuno in casa?
 Es alicuno a casa?
 Es amusante facer un homine de nive in le hiberno.
 Es aperte le supermercato iste vespere?
+Es bon mercato, ma non es bon.
 Es clar que on non pote contar sur ille!
 Es dece mille yen bastante?
 Es difficile de justificar.
@@ -831,6 +845,7 @@ Es un problema pro le qual nos non ha responsa.
 Es un tradition american desirar se qualcosa a su anniversario.
 Escappa!
 Espania produce quantitates de lactuca, paprika e tomates.
+Espaniol es su lingua materne.
 Esque alco es de torto?
 Esque alicuno de vos ha reguardate ex le fenestra?
 Esque es il ite ben hodie?
@@ -841,6 +856,7 @@ Esque il te place alimentos Japonese?
 Esque il te place estate?
 Esque il te place mangiar pisce?
 Esque il te place robotes?
+Esque ille faceva le labor sol?
 Esque ille ha dicite alcun cosa super isto?
 Esque ille sera ci tosto?
 Esque ille te ha demandate in maritage?
@@ -889,6 +905,7 @@ Esque tu ha ulle moneta contante?
 Esque tu ha un telephono?
 Esque tu habe pavor de me?
 Esque tu la videva heri per hasardo?
+Esque tu le crede?
 Esque tu le recognosce?
 Esque tu lo portara?
 Esque tu me comprende?
@@ -912,6 +929,7 @@ Esque tu usa drogas?
 Esque tu veni con nos?
 Esque tu veni o non?
 Esque tu videva le film.
+Esque tu vole un bibita?
 Esque vos accepta iste carta?
 Esque vos ha jam mangiate? Vole vos facer nos compania?
 Esque vos pote vider me?
@@ -921,6 +939,7 @@ Esser realista es necessari.
 Esseva confirmate inter vos, tanto que nunc vos non manca de ulle charisma.
 Esseva difficile viver de su salario magre.
 Esseva facile pro te solver le problema, nonne?
+Esseva ille in Hokkaido le anno passate?
 Esseva le silentio de ille que la rendeva irate.
 Esseva su desiro de ir a Paris.
 Esseva tu un bon natator quando tu esseva in le schola secundari?
@@ -944,12 +963,14 @@ Extingue le lumines.
 Extingue lo.
 Extrahe le datos pertinente e vide si illos concorda con nostre statistica.
 Fabricate in China.
+Face attention a non glissar.
 Face avantiar le tribo de Levi e face les attender Aharon le sacerdote
 Face como a tu casa.
 Face como io te dice.
 Face como io te quere, per favor.
 Face como on te ha dicite.
 Face illo te triste?
+Face lo ancora un vice!
 Face lo que te place.
 Face lo rapidemente.
 Face me rider.
@@ -996,9 +1017,11 @@ Forsan iste fin de septimana nos poterea ir al plagia insimul.
 Forsan nostre emotiones determina nostre identitate.
 Forsan on debe haber sentite le amor pro ben recognoscer le amicitate.
 Forsan que tu non sapeva illo desde plure e plure menses?
+Forsan tu e io poterea ir a piscar insimul alcun vice.
 Forsan tu lo videra scripte alicubi.
 Forsan un altere vice
 Fortunatemente il habeva un passage a pedones.
+Francia es un republica.
 Francisco dictava iste parolas in un microphono.
 Franco adjuta.
 Franco bluffa.
@@ -1064,6 +1087,7 @@ Franco sonia.
 Franco suffreva un syncope.
 Franklin Roosevelt deveniva presidente in mille novem centos trenta tres.
 Frena.
+Fuma vos?
 Fumar es nocive pro le sanitate.
 Fumar es perniciose pro le sanitate.
 Galileo Galilei ha essite le primo homine qui observava Neptuno per su telescopio.
@@ -2489,6 +2513,7 @@ Io debe magrir, dunque io ha le intention de mitter me a dieta.
 Io debe partir deman matino.
 Io debe partir malgrado le pluvia intense.
 Io debe prestar me alcun moneta.
+Io debe retornar a casa.
 Io debe sempre sternutar post que mangia uva.
 Io debe star per un momento.
 Io debe vader via ora.
@@ -2959,6 +2984,7 @@ Io non pote esser in disaccordo con te sur isto.
 Io non pote esser secur.
 Io non pote excluder isto.
 Io non pote facer isto.
+Io non pote facer lo ora.
 Io non pote facer lo.
 Io non pote facer ulle plus.
 Io non pote finger.
@@ -3006,6 +3032,7 @@ Io non te crede plus! Per favor, va via!
 Io non te vole ci.
 Io non toccava Peter.
 Io non toccava alco.
+Io non toccava jammais Peter.
 Io non trovava le essugacapillos, assi io usava simplemente le aspirator.
 Io non vadeva al schola le mense passate.
 Io non veni.
@@ -3320,6 +3347,7 @@ Io volerea ben saper ubi ille se trova!
 Io volerea cambiar al canal de filmes...
 Io volerea creder te.
 Io volerea esser morite.
+Io volerea esser morte.
 Io volerea esser plus intelligente.
 Io volerea facer plus.
 Io volerea indicar alcun problemas a proposito de tu suggestion.
@@ -3364,6 +3392,7 @@ Iste decision es tue.
 Iste diagramma monstra le plus importante terminos usate in Wikidata
 Iste dictionario contine non plus de vinti milles parolas.
 Iste digital es hardite con vanadium.
+Iste dogma es plus tosto un paradoxo.
 Iste duo cattas es blanc, ma ni le un ni le altere es belle.
 Iste duo parolas sempre va insimul, sin exception.
 Iste edificio ha un elevator qual es necessari pro chaises rolante.
@@ -3376,6 +3405,7 @@ Iste film es dur a reguardar ora.
 Iste film es dur reguardar in iste dies.
 Iste hirundine pipa, twitta, sin connexion a Internet e ha un essame de sequaces.
 Iste historia es sufficientemente curte pro esser legite in un hora.
+Iste horologio es multo melior que ille.
 Iste individuo es lunatic!
 Iste information es confidential.
 Iste invention esseva le resultato de annos de experimentos patiente.
@@ -3406,6 +3436,7 @@ Iste novella es plus interessante que illo que io legeva le septimana passate.
 Iste ovo es fresc.
 Iste pais es secur de attaccos.
 Iste pais ha multe vegetation e un fauna variate.
+Iste parola non es ben traducibile.
 Iste parola non se traduce ben.
 Iste parolas non figura in le lista.
 Iste parte del citate ha essite medietate residential, medietate industrial.
@@ -3420,8 +3451,10 @@ Iste presto portara un interesse multo alte.
 Iste problema sembla facile a prime vista, ma es vermente difficile.
 Iste producto es costose.
 Iste projecto sera troppo costose.
+Iste provisiones deveniva extrememente preciose.
 Iste puero es pigre.
 Iste puero resimila a su patre.
+Iste question es troppo difficile pro me responder.
 Iste question ethic es referite como le problema del trolley.
 Iste region del pais es particularmente frigide.
 Iste responsa non es correcte, ma me sona interessante.
@@ -3434,13 +3467,17 @@ Iste sedia es de plastico.
 Iste sedia es fede.
 Iste senior pagara toto
 Iste seniora vole pagar toto
+Iste septimana esseva un experientia meraviliose.
 Iste stagno non se desicca, mesmo in le etate.
 Iste station balneari non es plus tanto popular como antea.
 Iste tappo non va sur le bottilia.
 Iste texto mira a includer un serie differente de vocabulos.
 Iste thema ja ha essite abbordate.
+Iste torta es multo dulce.
 Iste tracto de strata es destinate al vehiculos agricole.
+Iste typo es totalmente folle!
 Iste vaso rupte es de mi granpatre.
+Iste vice illes controla.
 Iste vision me horripilava.
 Istes es le electos del assemblea, le principes de lor
 Istes es le electos del assemblea, le principes de lor tribos ancestral.
@@ -3498,6 +3535,7 @@ Isto es un pagoda.
 Isto es un rememoration amical de un factura arretrate.
 Isto es un vetere nova.
 Isto esseva le tertie massacro scholar in sex menses.
+Isto ha sempre essite assi.
 Isto ha vermente succedite, non es un fiction!
 Isto non es correcte.
 Isto non es exactemente lo que io voleva.
@@ -3559,6 +3597,7 @@ Lassa Maximo foras de isto.
 Lassa entrar alcun area fresc.
 Lassa le can ir.
 Lassa le.
+Lassa me adjutar te.
 Lassa me entrar.
 Lassa me in pace!
 Lassa me ir a cercar Franco.
@@ -3649,6 +3688,7 @@ Le auditorio pareva enoiate.
 Le auto comocunque non era damnificate.
 Le auto comocunque non esseva damnificate.
 Le auto costava cinque milles dollares e, ultra illo, non functionava ben.
+Le autobus esseva totalmente plen.
 Le autobuses in Montgomery esseva segregate.
 Le autostrata non es le connexion plus veloce inter Hamburg e Munich.
 Le autumno fini e veni le hiberno.
@@ -3704,17 +3744,21 @@ Le can es intelligente.
 Le can es sur le sedia
 Le can espaventava via le infantes.
 Le can mori.
+Le can pare haber fame.
 Le can salta.
 Le can sanguina.
 Le can vole exir.
 Le canal alpha es usate pro le codification del opacitate de un structura.
 Le cancer pote esser sanate facilemente si illo es discoperite in le prime phase.
+Le candidato republican ganiava le election.
+Le canes ha un senso acute de olfaction.
 Le canes le ha devorate.
 Le canto era un grande successo.
 Le capillos de Maria es longe.
 Le capitano esseva si irate que ille refusava al equipage le congedo sur terra.
 Le capro expiatori es non jammais culpabile.
 Le capro expiatori non es jammais culpabile.
+Le casa de illa se trova trans le ponte.
 Le casa es a foco.
 Le casa es ubi es le corde.
 Le casa ha essite construite de beton.
@@ -3790,6 +3834,7 @@ Le dentista te recipera solmente per appunctamento.
 Le dentistas face radiographias pro examinar vostre dentes.
 Le derectos human vale pro totes.
 Le destino trovara le via.
+Le detalios sur le veste include un cinctura brillante.
 Le diamantes es eterne.
 Le dica hydroelectric genera incostose electricitate pro le communitate.
 Le dictator era radical in su ideologia.
@@ -3797,6 +3842,7 @@ Le die esseva pluviose, e mesmo pejor, tonitruante.
 Le differentia que es inter le homines e le altere animales.
 Le dinar es preste, dunque nos pote mangiar quandocunque nos vole.
 Le director ha un affection sur le actrice, io pensa.
+Le disponibilitate de iste articulo es insecur.
 Le distantia del sol al terra es circa novanta-tres milliones de millias.
 Le disveloppatores porta le jocos a un altere nivello.
 Le division del poteres.
@@ -4147,6 +4193,7 @@ Le projecto que rendera disponibile a omnes le grande potentialitates de servici
 Le prolific disveloppator contribueva per plus de mille invios usque hodie.
 Le prophetas ha disparite e nos non sape quanto iste situation potera durar.
 Le proprietario del habitation non era amusate.
+Le prostituta es un altere exemplo de isto.
 Le proxime septimana, un familia se installara in iste casa.
 Le psychopathes sovente ha hallucinationes.
 Le publico applaudeva enthusiasticamente post un performance eminente.
@@ -4189,6 +4236,7 @@ Le ren e le antilopes es carente in tu taxonomia del animales.
 Le rendimento es essentialmente zero.
 Le reparation de mi bicycletta me costava mille yen.
 Le reparation del central nuclear de Fukushima Daichi poterea durar annos, possibilemente decennios.
+Le repasto non es ancora preste.
 Le restaurant ha essite bastante costose.
 Le resultato falsificava le prediction.
 Le resultatos era negative.
@@ -4241,6 +4289,7 @@ Le squalos es assi sensibile al impulsos electric como al sono.
 Le stadio appareva como un campo de battalia.
 Le stagno ha siccate.
 Le standard es completemente obsolete, ma illo ha ancora grande successo.
+Le station es al west del hotel.
 Le station ferroviari ha essite blocate per le policia.
 Le stato es io.
 Le stato quo.
@@ -4304,6 +4353,7 @@ Le trinitrotoluol face exploder le granito, formante un tunnel pro mineral de fe
 Le tropico de Capricorno es in le hemispherio sud.
 Le truppas britannic luctava durmente, ma non poteva parar le germanos.
 Le truppas protegerea le trainos portante posta.
+Le tue es illac.
 Le typhon se approximara al districto de Kanto a circa duo horas del postmeridie.
 Le ultime cosa que tu pote facer es appellar le nove-uno-uno.
 Le ultime gadget in le moda es un bracialetto.
@@ -4414,13 +4464,16 @@ Ma iste lista non es exhaustive.
 Ma la bastona, ille?
 Ma le cinere es un excellente fertilisante.
 Ma le senso emanate per le rationamento.
+Ma nemo les pagara.
 Ma non dubitar jammais de mi amor.
 Ma perque tu non te move?
 Ma pois un seismo occurreva e illa deponeva toto.
 Ma que dice tu?
+Ma que es isto?
 Ma que face tu?
 Ma que merda io facera de mi vita?
 Ma que occurre si tote le nostre lectores susurrava?
+Ma un homine non es facite pro disfacta.
 Machina celestial: ama le proximo e le distante.
 Mais biber alcohol a stomacho vacue!
 Mal administration es paupertate.
@@ -4435,6 +4488,7 @@ Mangiar un ovo a oculo de bove.
 Mantellos de pellicia es in vendita.
 Mantene te in contacto!
 Mantener tu voce basse.
+Marca tu maxime effortios.
 Marcar le area de aqua con un boa.
 Marchar sur folios autumnal cadite face un ruito de craccamento satisfaciente.
 Marcus Scriptor es un grande poeta de interlingua.
@@ -4535,6 +4589,7 @@ Maximo veniva a adjutar.
 Maximo volveva su oculos.
 Me ama tu vermente del fundo de tu corde?
 Me ama tu?
+Me disobedi tu?
 Me place facer mi jogging tote le matinos.
 Me place le baseball.
 Me place le rhythmo lente de iste cantion.
@@ -4585,12 +4640,16 @@ Mi camera a dormir es troppo micre.
 Mi camera es multo micre.
 Mi camera ha facie a est.
 Mi can mordeva Peter.
+Mi can, tu es multo fidel.
 Mi cappello sufflava via.
+Mi casa es como le vostre.
 Mi casa es tu casa.
+Mi catto ha occidite iste mus.
 Mi catto occideva un sciuro.
 Mi chef es un folle.
 Mi chef esseva obligate a dimitter se.
 Mi corde ha vidite multe sapientia e scientia.
+Mi eveliator non sonava.
 Mi ex-sposa vole ruinar mi nove relation.
 Mi favorite inter le caseos es Camembert.
 Mi febre persiste.
@@ -4605,9 +4664,11 @@ Mi gamba dextre esseva vulnerate in le accidente.
 Mi geniculo sanguina.
 Mi granmatre ha habite chirurgia de cataractas e ora pote vider clarmente de novo.
 Mi granmatre habita al campania.
+Mi granpatre esseva vulnerate in le guerra.
 Mi initial assumption re le pulso displaciate de phase era incorrecte.
 Mi inseniante jecta sempre gypso a su scholares, ecce perque io porta un casco.
 Mi installation stereo es inferior al tue in qualitate sonor.
+Mi lingua materne es japonese.
 Mi locatario causa sempre chaos.
 Mi marito es in le processo de scriber le libro.
 Mi matre cocina pro me.
@@ -4619,6 +4680,7 @@ Mi oculos es blau.
 Mi oculos es dolente.
 Mi oncle es un magnific inseniante de musica.
 Mi oncle viveva usque al etate de novanta annos.
+Mi opinion es contrari al tue.
 Mi optime desiros pro le recuperation rapide de tu patre.
 Mi parve Paulo.
 Mi patientia es exhaurite!
@@ -4706,6 +4768,7 @@ Nemo intende crear un muro.
 Nemo me ha dicite alco.
 Nemo me parla.
 Nemo nasce poeta.
+Nemo pensava que ille succederea.
 Nemo pote facer un omelette sin rumper ovos.
 Nemo pote lo dicer.
 Nemo pote servir duo dominos.
@@ -4713,6 +4776,7 @@ Nemo pote vider.
 Nemo sape e quante munitiones ha le militares in su postos de controlo.
 Nemo sape lo que es detra iste porta.
 Nemo sape lor nomine.
+Nemo sape proque ille refusa mi adjuta.
 Nemo sape quante munitiones ha le militares in su postos de controlo.
 Nemo sape su nomine.
 Nemo sape.
@@ -4729,12 +4793,17 @@ Ni minus nostre filia es tam belle como iste puera.
 Ni satisfaciente le oculo del vider, ni occupante le aure del audir.
 Nihil es tanto elastic como le seta de un aranea.
 Nihil ha evenite.
+Nihil manca.
+Nihil vale plus que le amor.
 Nissan manufactura autos.
 No!
 No! Diceva alteres, e lo diceva pro tu bon.
 No, ille es sincer.
+No, io es fatigate.
 No, io non vole ir a prender le aqua! Proque io sempre?
 No, io tenta de ir pro un promenada.
+No, isto non es le station.
+No, isto non es normal.
 Non ager como surprendite.
 Non aperir ancora le presente.
 Non aperir le cassa ancora.
@@ -4745,12 +4814,15 @@ Non blandir te mesme.
 Non cantar.
 Non ceder al mediate del strata.
 Non ceder!
+Non cerca faltas in altere personas.
 Non committer actos impur.
 Non committer adulterio.
+Non compra me alcun cosa.
 Non con parolas inseniate per le sapientia human.
 Non confunde piras con pyras!
 Non confunder piras con pyras!
 Non contar immunditia.
+Non costa multo, ma le qualitate lo monstra.
 Non crede alcun cosa que illes dice.
 Non critar.
 Non currer!
@@ -4761,13 +4833,17 @@ Non desira tu natar hodie?
 Non devenir paranoide.
 Non dicer lo a alcuno.
 Non dicer lo.
+Non distrahe te del labor.
 Non dupar me!
 Non es appropriate portar un minigonnella quando on assiste a un interramento.
+Non es bon rumper un promissa.
 Non es characteristic de te dicer un tal cosa a illa.
 Non es como si ille non pote currer rapidemente.
 Non es culpa mie si le pueras vole flirtar con me.
 Non es del toto facile comprender lo.
 Non es illo le plan?
+Non es juste mancar a un promissa.
+Non es necessari brillar pro haber valor.
 Non es necessari pagar un appartamento in avantia.
 Non es necessari scriber plus de quatro centos parolas.
 Non es nos divin?
@@ -4798,6 +4874,7 @@ Non ha tu frigido?
 Non importa lo que eveni, io non cambiara de idea.
 Non importa lo que eveni, io non cambiara de opinon.
 Non importa lo que eveni, tu non debe abandonar.
+Non importa lo que eveni, tu non debe desister.
 Non importa lo que eveni, tu non debe render te.
 Non importa lo que ille dice, non confide in ille.
 Non importa lo que ille face, ille lo face ben.
@@ -4998,8 +5075,10 @@ Nos ha promittite.
 Nos ha studiate italiano.
 Nos ha tres aeroplanos.
 Nos ha un micre problema.
+Nos ha un sol chance.
 Nos ha vidite alco.
 Nos ha visitate un concerto in le famose theatro del opera in Sydney.
+Nos habera un examine hodie.
 Nos habera un infante.
 Nos habeva ration a non fider nos a illes.
 Nos habeva ration.
@@ -5008,6 +5087,7 @@ Nos jocava a baseball.
 Nos justo alimentava le infante.
 Nos la eligeva pro parlar a nostre inseniante sur le question.
 Nos la ha vidite.
+Nos le considera honeste.
 Nos lo ha facite heri.
 Nos lo pote facer.
 Nos luncha.
@@ -5039,6 +5119,7 @@ Nos nos ha basiate.
 Nos nos mantenera in contacto.
 Nos nos planger sempre.
 Nos nunquam lo considerava impossibile de exequer.
+Nos omnes face multe errores.
 Nos parla de sapientia, ma solmente inter illes que es matur.
 Nos parla del pluvia e del belle tempore.
 Nos partira inter vinti minutas.
@@ -5047,8 +5128,10 @@ Nos perdeva.
 Nos plange nos sempre.
 Nos pote describe le movimento del objecto con un equation differential de secunde ordine.
 Nos pote facer multo melio.
+Nos pote reparar le calefactor.
 Nos pote solo perciper un parte del ample spectro de luce emittite del sol.
 Nos pote vider multe stellas in le nocte estive.
+Nos presume que ille es honeste.
 Nos prova.
 Nos sape lo que attende nos.
 Nos sedeva insimul in silentio durante alcun tempore.
@@ -5225,7 +5308,9 @@ Parentheses crispe es difficile a scriber.
 Parerea que illa ha pudor: reguarda terra, ma conta stellas.
 Pareva tanto real, ma io suppone que era solmente un sonio folle.
 Parla clarmente, per favor!
+Parla clarmente.
 Parla con me, per favor.
+Parla de lo que tu vole.
 Parla ille ora anglese, francese o germano?
 Parla me in interlingua
 Parla me!
@@ -5245,6 +5330,7 @@ Parve interprisas es sovente inglutite per grande companias.
 Parve problemas non besonia stratagemas.
 Passa me ille libro, per favor.
 Passa me le sal.
+Passa tu supra illo o sub illo?
 Passa un bon tempore.
 Passar sur un cosa como un catto sur le brasa.
 Passar tempore uno con le alteres pote ser plus preciose que ulle donos material.
@@ -5303,6 +5389,7 @@ Per favor senti te libere de corriger mi errores.
 Per favor specifica le fornitor de servicio.
 Per favor trova attachate le numero de consignation de tu ordine.
 Per favor va via.
+Per favor, attende foras del casa.
 Per favor, evita mal companias.
 Per favor, manda a lecto vostre filia.
 Per favor, non tocca le latere de registration.
@@ -5570,8 +5657,10 @@ Phrases es construite de substantivos, verbos e aliquando adjectivos.
 Pina es de accordo.
 Placera a Peter illo?
 Placia lo ubi te place.
+Planifica vostre labor ante de comenciar.
 Plato fundava su Academia alcun annos post le morte de Socrates.
 Plena le bottilia con aqua.
+Plenar con benzina normal, per favor.
 Plora tu?
 Plora, e tu plora sol.
 Plure linguas separa le humanos, interlingua reuni le humanitate
@@ -5579,22 +5668,26 @@ Plure succussas legier sequeva le seismo.
 Plus rapide, plus alte, plus forte.
 Plus tosto que render se al evidentia, ille pretendeva de haber ration.
 Plus tu lege, melio tu sera comprendite.
+Poc personas es capace de comprender su theorias.
 Pois illa se curvava.
 Ponderation del poteres.
 Pone foras tu bicyclo.
 Porta Peter al station.
 Porta isto pro me.
 Porta lo que tu desira.
+Porta me un sedia, per favor.
 Porta via Franco de ci.
 Portar sur le humeros le fato pesante.
 Portugal ha decriminalisate le possession personal de drogas.
 Possession es nove decimes del lege.
 Post arrivar al aeroporto ille telephonava immediatemente a su marita.
+Post biber the, nos comenciava le discussion.
 Post finite le prime lot de documentos, io entrava in le fluxo de labor.
 Post ille falta, tote le stadio critava cosas irate.
 Post le accidente, su bicyclo debeva ser reparate.
 Post le divulgation del scandalo del doping le vincitor era private del medalia auree.
 Post le frigido.
+Post le huracan, lor casa esseva un ruina.
 Post le periculo de inundation, le nivello del fluvio comencia a bassar.
 Post le signalation de un defecto, on deberea regularmente controlar si alcuno responde.
 Post multo reflexion, io ha prendite un decision.
@@ -5746,6 +5839,7 @@ Proque io sempre?
 Proque multe catholicos mangia pisce le venerdi?
 Proque non mangiar foras con me pro variar?
 Proque non?
+Proque nos non la face un visita?
 Proque oblidava io de scriber le numero de fax?
 Proque porta tu un pullover?
 Proque tu dice isto?
@@ -5779,6 +5873,7 @@ Qual es le platto del die.
 Qual es le problema de Franco?
 Qual es le problema?
 Qual es le stato de vostre cassa?
+Qual es le temperatura?
 Qual es le tempore?
 Qual es lor historia?
 Qual es los pro e los contra?
@@ -5792,6 +5887,8 @@ Qual es vostre color favorite?
 Qual es vostre nomine?
 Qual esseva le evento successive?
 Qual esseva tu programma de television favorite quando tu esseva infante?
+Qual gonna te place?
+Qual jornal lege tu in general?
 Qual marca de fabrica prefere tu?
 Qual meravilia!
 Qual patre, tal filio.
@@ -5821,6 +5918,7 @@ Quando illa entrava in le pista de ballo totes la reguardava.
 Quando illa ha appellate su amico pro adjutar la con su computator
 Quando illa probava a retirar qualque pecunia ex su conto bancari
 Quando illa videva su matre, le puera comenciava a plorar.
+Quando ille es triste, ille se retira.
 Quando illes offereva foco estranie ante le Senior in
 Quando io arrivava al schola, io trovava toto destruite e abandonate.
 Quando io audi iste cantion, io pensa a te, e tu me manca.
@@ -6015,6 +6113,7 @@ Que nos postpone le viage inaugural.
 Que nos prende le medicamentos.
 Que nos rememora brevemente un resultato importante del theoria de gruppos.
 Que nos succute le tapete.
+Que nos synchronisa nostre horologios.
 Que nos va al campo pro jocar al cometa, que dice tu?
 Que nos vide que evenira.
 Que occideva Peter?
@@ -6025,6 +6124,7 @@ Que on ascolta le cantion.
 Que on fini iste subjecto.
 Que optiones ha nos?
 Que osava lo reguardar in ille modo: pois se mitteva a rider.
+Que parla tu melio, francese o anglese?
 Que pensa tu de iste melodia?
 Que pensa tu del Japon?
 Que pensa tu que nos debe facer?
@@ -6043,9 +6143,11 @@ Que sape tu re ille?
 Que sape tu?
 Que scribe tu?
 Que significa illo?
+Que significa iste signo?
 Que significa pta?
 Que te debe io?
 Que te ha espaventate?
+Que te inspira le plus?
 Que traino tu va a prender?
 Que trovava Maximo?
 Que tu besonia de saper?
@@ -6737,10 +6839,14 @@ Tu justo menti.
 Tu la vocava? Illa es hic!
 Tu le affollava.
 Tu les ha conducite per le naso.
+Tu lo ha facite multo ben.
+Tu lo regrettara!
 Tu lo vole, nonne?
 Tu matre se plange jammais de lavar le plattos?
+Tu me debera un favor post isto.
 Tu me espaventa.
 Tu me ha disappunctate.
+Tu me manca constantemente.
 Tu me manca tote le tempore.
 Tu me manca, Maximo.
 Tu me manca, Peter.
@@ -6997,6 +7103,7 @@ Un tempesta de tonitro rabiava foras e illos tote recipeva frigido.
 Un umbra tremulante era projectate in le muros e in le tecto.
 Un ver amico es un como un preciose tresor, que on non debe dissipar
 Un ver amico es un como un preciose tresor, que on non debe dissipar.
+Un ver tresor de sapientia e de cognoscentia.
 Un verde vetulessa.
 Un vice a septimana.
 Un vice abbate, sempre abbate.
