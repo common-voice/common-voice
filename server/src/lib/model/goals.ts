@@ -26,7 +26,9 @@ const formatDate = (date: Date) =>
     .replace('T', ' ');
 
 async function hasComputedGoals(client_id: string) {
-  const [[client]] = await db.query(
+  const [
+    [client],
+  ] = await db.query(
     'SELECT has_computed_goals FROM user_clients WHERE client_id = ?',
     [client_id]
   );

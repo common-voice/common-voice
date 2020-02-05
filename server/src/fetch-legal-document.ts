@@ -28,12 +28,14 @@ export default async function fetchLegalDocument(
     .catch(response => [response.statusCode, null]);
 
   if (status >= 400 && status < 500) {
-    return (await Promise.all(
-      // Fallback Languages
-      ['en', 'es-CL', 'fr', 'pt-BR', 'zh-TW'].map(locale =>
-        fetchLegalDocument(name, locale)
+    return (
+      await Promise.all(
+        // Fallback Languages
+        ['en', 'es-CL', 'fr', 'pt-BR', 'zh-TW'].map(locale =>
+          fetchLegalDocument(name, locale)
+        )
       )
-    )).join('<br>');
+    ).join('<br>');
   } else if (status < 300) {
     textHTML = new commonmark.HtmlRenderer().render(
       new commonmark.Parser().parse(

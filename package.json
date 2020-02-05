@@ -33,7 +33,7 @@
   "scripts": {
     "build": "concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",
     "import-locales": "node scripts/import-locales",
-    "lint": "prettier **/*.ts **/*.tsx",
+    "lint": "prettier \"**/*.{ts,tsx}\"",
     "prettier": "yarn lint --write",
     "start": "concurrently -p \"[{name}]\" -n \"BE,FE\" -c \"bgBlue.bold,bgMagenta.bold\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "node server/js/server.js",

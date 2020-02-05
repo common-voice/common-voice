@@ -8,7 +8,8 @@ export namespace Notifications {
         type: NotificationType;
         score?: number;
       }
-    | { kind: 'banner'; actionProps: any });
+    | { kind: 'banner'; actionProps: any }
+  );
 
   type NotificationType = 'success' | 'error' | 'achievement';
 
