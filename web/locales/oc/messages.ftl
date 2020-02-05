@@ -698,6 +698,10 @@ n-clips = { NUMBER($count) } mòstras
 help-share-goal = Ajudatz-nos a trobar mai de voses, partejatz vòstre objectiu
 confirm-goal = Confirmar l’objectiu
 goal-interval-weekly = Setmanièr
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Partejatz vòstre objectiu quotidian de { $count } mòstras { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Partejatz vòstre objectiu setmanal de { $count } mòstras { $type }
 share-goal-type-speak = parlant
 share-goal-type-listen = escotant
 share-goal-type-both = parlant e escotant
