@@ -81,6 +81,7 @@ const store = createStore(
 
     return { api: new API(newState.locale, newState.user), ...newState };
   },
+  // @ts-ignore
   preloadedState,
   composeEnhancers(applyMiddleware(thunk))
 );

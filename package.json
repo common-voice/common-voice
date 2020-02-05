@@ -28,7 +28,7 @@
   "resolutions": {
     "cryptiles": "4.1.2",
     "event-stream": "3.3.4",
-    "@types/react": "16.8.19"
+    "@types/react": "16.9.19"
   },
   "scripts": {
     "build": "concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",
