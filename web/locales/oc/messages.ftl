@@ -585,7 +585,12 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> un còp acabat
 record-three-more-instruction = Ne demòran pas que 3 !
 record-again-instruction = Crane !<recordIcon></recordIcon> Enregistratz una mòstra de mai
 record-last-instruction = <recordIcon></recordIcon>La darrièra !
+review-tooltip = Verificatz e tornatz enregistrar aquí se cal
+review-instruction = Verificatz e tornatz enregistrar se cal
+record-submit-tooltip = { $actionType } enviar quand siatz prèst
 clips-uploaded = Mòstra enviada
+record-abort-title = Volètz acabar l’enregistrament d’en primièr ?
+record-abort-text = Se sortissètz ara, perdretz vòstra progression
 record-abort-submit = Enviar las mòstras
 record-abort-continue = Terminar l’enregistrament
 record-abort-delete = Quitar e suprimir mos enregistraments
@@ -601,6 +606,7 @@ login-to-get-started = Connectatz-vos o marcatz-vos per començar
 
 report = Senhalar
 report-title = Enviar un rapòrt
+report-ask = Qual problèma avètz amb aquesta frasa ?
 report-offensive-language = Lengatge grossièr
 report-offensive-language-detail = La frasa compòrta de prepauses irrespectuoses o grossièrs.
 report-grammar-or-spelling = Error gramaticala / ortografica
@@ -608,7 +614,9 @@ report-grammar-or-spelling-detail = La frasa a una error gramaticala o una deca.
 report-different-language = Autra lenga
 report-different-language-detail = La frasa es escricha en una lenga diferenta de la que parli
 report-difficult-pronounce = De mal prononciar
+report-difficult-pronounce-detail = Content de paraulas o frasas que son de mal legir o prononciar.
 report-offensive-speech = Lengatge grossièr
+report-offensive-speech-detail = La mòstra conten de contengut irrespectuós o ofensiu.
 report-other-comment =
     .placeholder = Comentari
 success = Succès !
@@ -617,6 +625,7 @@ report-success = Lo rapòrt es estat mandat amb succès !
 
 ## Goals
 
+streaks = Serias
 days =
     { $count ->
         [one] Jorn
@@ -636,6 +645,11 @@ validations =
 ## Dashboard
 
 your-languages = Vòstras lengas
+toward-next-goal = Cap al seguent objectiu
+clips-you-recorded = Mòstras qu’enregistrèretz
+clips-you-validated = Mòstras que validèretz
+todays-recorded-progress = Progression d’uèi de Common Voice tocant las mòstras enregistradas
+todays-validated-progress = Progression d’uèi de Common Voice tocant las mòstras validadas
 stats = Estatisticas
 awards = Premis
 you = Vos
