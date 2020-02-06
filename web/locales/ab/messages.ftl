@@ -625,7 +625,7 @@ record-platform-not-supported-ios = <bold>iOS</bold> ахархәаҩцәа ир
 record-must-allow-microphone = Уара азин ҟауҵароуп амикрафон ахархәара.
 record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Абжьы ҭаҩра кьаҿуп
-record-error-too-long = Абжьы ҭаҩра азуп
+record-error-too-long = Абжьы ҭаҩра аууп
 record-error-too-quiet = Абжьы ҭаҩра мыцхәы илаҟәуп
 record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
 record-instruction = { $actionType }<recordIcon></recordIcon> нас убжьы рдуны аҳәоу уаԥхьа
@@ -672,7 +672,7 @@ report-other-comment =
     .placeholder = Аҿыхәҿаа
 success = Қәҿиа­рала
 continue = Ацҵатәуп
-report-success = Уцҳамҭа қәҿиа­рала дәықәҵоуп
+report-success = Уцҳамҭа қәҿиа­рала идәықәҵоуп
 
 ## Goals
 
