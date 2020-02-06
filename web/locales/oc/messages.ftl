@@ -445,6 +445,7 @@ hours-recorded-explanation = La quantitat d’oras d’enregistraments vocals qu
 sst = Reconeissença vocala (Speech-to-text, STT)
 sst-explanation = La reconeissença vocala (STT) convertís la votz en tèxt.
 de-identified = Anonimizar
+de-identified-explanation = Procès que permet que las informacions del perfil dels contributors sián pas ligadas a las mòstras de votz per la preparacion del jòc de donadas.
 
 ## NotFound
 
@@ -507,6 +508,7 @@ subscribe = S’abonar
 get-started-speech = Introduccion a la reconeissença vocala
 other-datasets = Autres jòcs de donadas
 feedback-q = Avètz de suggestions ?
+common-voice-info-new = Avètz de questions tocant Common Voice ? D’idèas de melhoraments o comentaris sus una lenga en particular ? Trapatz-nos sus nòstre <discourseLink>forum Discourse</discourseLink> e avisatz-nos.
 data-other-librispeech-description = LibriSpeech es un còpus de quicòm coma 1000 oras de lectura en anglés ( 16 Khz ) derivat de la lectura d’audiolibres del projècte LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Lo còrpus TED-LIUM es bastit amb de dialogues e lor transcripcions disponiblas sul site TED.
@@ -698,9 +700,12 @@ help-reach-hours = Ajudatz a arribar a { NUMBER($hours) } oras en { $language } 
 help-reach-hours-general = Ajudatz a arribar a { NUMBER($hours) } oras en una lenga amb un objectiu personal
 set-a-goal = Definir un objectiu
 cant-decide = Podètz pas decidir ?
+activity-needed-calculation = Se { NUMBER($people) } personas enregistran { NUMBER($clipsPerDay) } mòstras per jorn, se pòt arribar a { NUMBER($totalHours) } oras en un pauc mai de { NUMBER($periodMonths) } meses.
 how-many-per-day = Crane ! Quantas de mòstras per jorn ?
 how-many-a-week = Crane ! Quantas de mòstras per setmana ?
 which-goal-type = Volètz parlar, escotar, o los dos ?
+receiving-emails-info = Actualament avètz configurat per recebre de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
+not-receiving-emails-info = Actualament recebètz <bold>PAS</bold> de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
 n-clips = { NUMBER($count) } mòstras
 help-share-goal = Ajudatz-nos a trobar mai de voses, partejatz vòstre objectiu
 confirm-goal = Confirmar l’objectiu
@@ -727,6 +732,10 @@ keep = Gardar
 remove = Levar
 keep-info = Vòstres enregistraments vocals anonims demoraràn dins lo jòc de donadas Common Voice. Un còp qu'avètz suprimit vòstre perfil, poiretz pas mai enviar de requèsta per suprimir vòstres enregistraments del jòc de donadas.
 remove-info = Anam estudiar vòstra requèsta per tirar vòstres enregistraments vocals del jòc de donadas. Se vòstra demanda es acceptada, contactarem los qu'an telecargat lo jòc de donadas e lor demandarem d'o far tanben.
+why-delete-recordings =
+    Los universitaris, las entrepresas pichonas e los afogats de reconeissença vocala utilizan los enregistraments Common Voice per entrainar e desvolopar de ressorças accessiblas al public, coma de modèls vocals.
+    
+    Poiriatz-nos indicar per qué volètz suprimir vòstres enregistraments ?
 profile-form-delete = Suprimir lo perfil
 
 ## Landing
