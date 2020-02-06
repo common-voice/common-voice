@@ -712,6 +712,8 @@ share-n-weekly-contribution-goal = Partejatz vòstre objectiu setmanal de { $cou
 share-goal-type-speak = parlant
 share-goal-type-listen = escotant
 share-goal-type-both = parlant e escotant
+# LINK will be replaced with the current URL
+goal-share-text = Veni de crear un objectiu personal pel don de votz a #CommonVoice - rejonhètz-me e ajudatz-me a aprendre a las maquinas a parlar coma de vertadièras personas { $link }
 weekly-goal-created = Vòstre objectiu setmanièr es estat creat
 daily-goal-created = Vòstre objectiu quotidian es estat creat
 track-progress = Seguissètz vòstre progrès aquí e sus la pagina d’estatisticas.
@@ -720,6 +722,7 @@ share-goal = Partejar mos objectius
 
 ## Profile Delete
 
+delete-q = Volètz tanben demandar la supression de vòstres enregistraments vocals o volètz los daissar al jòc de donadas de Common Voice ?
 keep = Gardar
 remove = Levar
 keep-info = Vòstres enregistraments vocals anonims demoraràn dins lo jòc de donadas Common Voice. Un còp qu'avètz suprimit vòstre perfil, poiretz pas mai enviar de requèsta per suprimir vòstres enregistraments del jòc de donadas.
