@@ -8,6 +8,9 @@ email-input =
     .label = Ríomhphost
 submit-form-action = Seol
 loading = Á lódáil...
+email-opt-in-info = Ba mhaith liom ríomhphoist a fháil ar nós meabhrúcháin sprioc, nuashonruithe ar mo dhul chun cinn, agus nuachtlitreacha faoi Common Voice.
+indicates-required = Léiríonn * réimse atá riachtanach
+not-available-abbreviation = Neamhbhainteach
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -45,6 +48,8 @@ fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
 he = Eabhrais
+hi-IN = Hiondúis
+hr = Cróitis
 hsb = Sorbais Uachtarach
 hu = Ungáiris
 ia = Interlingua
@@ -57,8 +62,11 @@ kab = Ceabáilis
 kk = Casaicis
 ko = Cóiréis
 kpv = Coimis
+ku = Coirdis
 kw = Coirnis
 ky = Cirgisis
+lt = Liotuáinis
+lv = Laitvis
 mk = Macadóinis
 mn = Mongóilis
 myv = Éarsais
@@ -69,7 +77,7 @@ nn-NO = Ioruais Nynorsk
 oc = Ocsatáinis
 or = Oirísis
 pl = Polainnis
-pt-BR = Portaingéilis (An Bhrasaíl)
+pt = Portaingéilis
 ro = Rómáinis
 ru = Rúisis
 sah = Sachais
@@ -101,6 +109,7 @@ speak = Abair
 speak-now = Abair leat anois
 datasets = Tacair sonraí
 languages = Teangacha
+about = Maidir Leis
 profile = Próifíl
 help = Cabhair
 contact = Teagmháil
@@ -169,15 +178,22 @@ x-years-short =
        *[other] { $count } bl
     }
 help-make-dataset = Cabhraigh linn tacar sonraí oscailte den chéad scoth a thógáil
-profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 sign-up-account = Cláraigh
+email-subscription-title = cláraigh le haghaidh nuashonruithe ríomhphoist
+email-subscription-title-new = Cláraigh le haghaidh nuachtlitreacha Common Voice, meabhrúcháin spriocanna, agus nuashonruithe ar dhul chun cinn
 
 ## Account Benefits
 
 benefits = Buntáistí
+keep-track = Coinnigh súil ar an dul chun cinn agus na méadrachtaí atá agat i dteangacha éagsúla.
+compare-progress = Féach cén chaoi a bhfuil do dhul chun cinn féin i gcomórtas leis an méid atá déanta ag daoine eile ar fud an domhain.
 
 ## What's public
 
+whats-public = Cad Atá Poiblí?
+email-not-public = Ní thaispeánfar do sheoladh ríomhphoist go poiblí.
+username-optin-public = Is í do rogha í d'ainm úsáideora a fhoilsiú go poiblí nó é a choinneáil rúnda.
+username-email-not-demographic = Ní bheidh d'ainm úsáideora ná do sheoladh ríomhphoist bainteach leis na sonraí foilsithe.
 
 ## Speak & Listen Shortcuts
 
@@ -203,6 +219,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = f
 shortcut-record-toggle-label = Taifead/Stop
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Déan an ghearrthóg a thaifeadadh arís
 request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
@@ -227,8 +245,10 @@ english = Béarla
 
 profile-form-username =
     .label = Ainm Úsáideora
-profile-form-language =
-    .label = Teanga
+profile-form-native-language =
+    .label = Teanga Dhúchais
+profile-form-additional-language =
+    .label = Teanga Bhreise
 profile-form-accent =
     .label = Blas
 profile-form-age =
@@ -260,13 +280,15 @@ profile-close = Dún
 profile-explanation = Cruthaigh próifíl chun do chuid oibre a leanúint agus chun cabhrú linn cruinneas na sonraí gutha a fheabhsú.
 thanks-for-account = Go raibh maith agat as do chuntas a dheimhniú. Tógaimis do phróifíl anois.
 why-demographic = Cén fáth?
+accept-privacy-title = An Beartas Príobháideachais
 login-identity = Aitheantas
 login-signup = Logáil Isteach / Clárú
 edit = Eagar
+email-subscriptions = Síntiúis Ríomhphoist
 download-profile = Íoslódáil mo chuid sonraí
 off = As
 on = Ann
-add-avatar-title = Cuir abhatár le do phróifíl
+change-your-avatar-clip = An bhfuil fonn ort do ghearrthóg ghutha a athrú?
 browse-file-title = Uaslódáil pictiúr
 connect-gravatar = Ceangail le Gravatar
 gravatar_not_found = Níl aon gravatar ceangailte le do sheoladh r-phoist
@@ -278,6 +300,9 @@ add-language = Teanga Nua
 
 faq-title = Ceisteanna Coitianta
 faq-what-cv-q = Cad é Common Voice?
+
+## ABOUT US
+
 
 ## Glossary
 
@@ -303,11 +328,6 @@ data-get-started = <speechBlogLink>Tosú le hAithint Cainte</speechBlogLink>
 data-other-title = Tacair shonraí eile...
 data-other-goto = Téigh go { $name }
 data-other-download = Íoslódáil sonraí
-data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
-data-other-ted-name = Corpas TED-LIUM
-data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
-data-other-voxforge-description = Bunaíodh VoxForge chun ábhar cainte tras-scríofa a bhailiú agus a úsáid in innill aitheanta cainte FLOSS.
-data-other-tatoeba-description = Is éard atá in Tatoeba ná bunachar sonraí abairtí, aistriúchán, agus taifeadtaí fuaime a úsáidtear chun teangacha a fhoghlaim. Gheobhaidh tú mórán Béarla labhartha, taifeadta ag comhphobal Tatoeba, san íoslódáil seo.
 data-bundle-button = Íoslódáil na Tacair Shonraí go léir
 data-bundle-description = Sonraí Common Voice chomh maith leis na tacair shonraí thuasluaite
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
@@ -323,6 +343,14 @@ review-rerecord = Ataifead
 review-cancel = Cealaigh
 review-keep-recordings = Coinnigh na taifeadtaí
 review-delete-recordings = Scrios na taifeadtaí
+
+## Datasets Page
+
+data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
+data-other-ted-name = Corpas TED-LIUM
+data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
+data-other-voxforge-description = Bunaíodh VoxForge chun ábhar cainte tras-scríofa a bhailiú agus a úsáid in innill aitheanta cainte FLOSS.
+data-other-tatoeba-description = Is éard atá in Tatoeba ná bunachar sonraí abairtí, aistriúchán, agus taifeadtaí fuaime a úsáidtear chun teangacha a fhoghlaim. Gheobhaidh tú mórán Béarla labhartha, taifeadta ag comhphobal Tatoeba, san íoslódáil seo.
 
 ## Download Modal
 
@@ -357,7 +385,6 @@ language-section-in-progress = Idir lámha
 language-section-launched = Seolta
 languages-show-more = Níos Mó
 languages-show-less = Níos Lú
-language-speakers = Cainteoirí
 language-meter-in-progress = Dul Chun Cinn
 language-total-progress = Iomlán
 language-search-input =
@@ -367,7 +394,7 @@ localized = Aistrithe
 sentences = Abairtí
 total-hours = Uaireanta Deimhnithe
 
-## New Contribution
+## Contribution
 
 action-click = Cliceáil
 action-tap = Tapáil
@@ -403,7 +430,6 @@ record-again-instruction = Iontach! <recordIcon></recordIcon> Taifead abairt eil
 record-again-instruction2 = Lean ort, déan taifead eile <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An ceann deireanach!
 review-tooltip = Athbhreithnigh agus ataifead gearrthóga anseo
-unable-speak = Níl tú in ann labhairt anois?
 review-instruction = Athbhreithnigh agus ataifead más gá
 record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
 clips-uploaded = Gearrthóga Uaslódáilte
@@ -419,6 +445,9 @@ listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
 nothing-to-validate = Níl aon ábhar le deimhniú sa teanga seo; cabhraigh linn an ciú a líonadh!
 record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
+
+## Reporting
+
 
 ## Goals
 
@@ -464,8 +493,15 @@ validated-clips = Gearrthóga Deimhnithe
 total-approved = Líon Iomlán Deimhnithe
 overall-accuracy = Cruinneas Iomlán
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = Coinnigh
 remove = Scrios
 profile-form-delete = Scrios mo Phróifíl
+
+## Landing
+
+profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
