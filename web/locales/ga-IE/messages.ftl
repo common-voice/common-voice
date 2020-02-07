@@ -18,17 +18,25 @@ not-available-abbreviation = Neamhbhainteach
 
 ## Languages
 
+ab = Abcáisis
+ace = Aicinéis
+ady = Adaigéis
 af = Afracáinis
+am = Amáiris
 an = Aragóinis
 ar = Araibis
+arn = Mapúitsis
 as = Asaimis
 ast = Astúiris
 az = Asarbaiseáinis
+ba = Baiscíris
+be = Bealarúisis
 bg = Bulgáiris
 bn = Beangáilis
 br = Briotáinis
 bxr = Buiriáitis
 ca = Catalóinis
+cnh = Haicéis
 cs = Seicis
 cv = Suvaisis
 cy = Breatnais
@@ -42,11 +50,13 @@ es = Spáinnis
 et = Eastóinis
 eu = Bascais
 fa = Fairsis
+ff = Fuláinis
 fi = Fionlainnis
 fo = Faróis
 fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
+gl = Gailísis
 he = Eabhrais
 hi-IN = Hiondúis
 hr = Cróitis
@@ -218,7 +228,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = f
-shortcut-record-toggle-label = Taifead/Stop
+shortcut-record-toggle-label = Taifead/Stad
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Déan an ghearrthóg a thaifeadadh arís
 request-language-text = Cá bhfuil mo theangasa?
@@ -289,7 +299,17 @@ download-profile = Íoslódáil mo chuid sonraí
 off = As
 on = Ann
 change-your-avatar-clip = An bhfuil fonn ort do ghearrthóg ghutha a athrú?
+recording-in-progress = Taifeadadh gutha ar siúl
+record-voice-wave = TAIFEAD TONN GHUTHA
+retry-voice-wave-recording = DÉAN ARÍS É
+re-record = ATAIFEAD
+delete-voice = SCRIOS
+delete-voice-clip = nó Scrios gearrthóg
+ready-to-upload = UASLÓDÁIL
+recreate-voice = Athchruthaigh an Tonn Ghutha
+cancel-avatar-clip-recording = CEALAIGH
 browse-file-title = Uaslódáil pictiúr
+browse-file = Tarraing agus scaoil nó <browseWrap>Brabhsáil</browseWrap>
 connect-gravatar = Ceangail le Gravatar
 gravatar_not_found = Níl aon gravatar ceangailte le do sheoladh r-phoist
 file_too_large = Tá an comhad seo rómhór
@@ -300,14 +320,39 @@ add-language = Teanga Nua
 
 faq-title = Ceisteanna Coitianta
 faq-what-cv-q = Cad é Common Voice?
+faq-why-important-q = Cén fáth a bhfuil sé tábhachtach?
+faq-how-get-q = Conas is féidir liom sonraí Common Voice a fháil?
+faq-when-release2-q = Cathain a fhoilseofar sonraí Common Voice i dteangacha eile?
+faq-what-cv-and-deepspeech-q = Cad é an difríocht idir Common Voice agus Deep Speech?
+faq-why-my-lang-q = Cén fáth nach bhfuil mo theanga san áireamh go fóill?
+faq-why-account-q = Cén fáth ar chóir dom cuntas a chlárú?
+faq-is-account-public-q = An faisnéis phoiblí é mo chuntas?
+faq-what-is-cv = Cad é Common Voice?
+faq-search-for-answers =
+    .label = Cuardaigh freagraí
 
 ## ABOUT US
 
+about-title = Cén fáth a bhfuil Common Voice ann?
+how-does-it-work-title = Conas a oibríonn sé?
+about-speak = Labhair
+about-listen = Éist
+about-is-it-valid = An bhfuil an ghearrthóg bailí?
+about-yes-votes = ≥ 2 Ghuth ar a shon
+about-no-votes = ≥ 2 Ghuth ina choinne
+about-get-involved = Glac páirt
+about-nav-why-common-voice = Cén fáth?
+about-nav-how-it-works = Conas?
+about-nav-partners = Comhpháirtithe
+about-nav-get-involved = Glac páirt
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intleacht shaorga
 
 ## Glossary
 
 glossary = Gluais
 localization = Logánú
+sentence-collection = Bailiúchán Abairtí
 sst = Cainte-go-téacs (STT)
 
 ## NotFound
@@ -346,6 +391,15 @@ review-delete-recordings = Scrios na taifeadtaí
 
 ## Datasets Page
 
+language = Teanga
+# File size in gigabytes
+size = Méid
+cv-license = Ceadúnas
+splits = Scoilteanna
+email-to-download = Cuir isteach Seoladh Ríomhphoist chun é a Íoslódáil
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Íoslódáil { $language }
 data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
 data-other-ted-name = Corpas TED-LIUM
 data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
