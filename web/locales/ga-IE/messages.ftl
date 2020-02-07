@@ -353,6 +353,7 @@ faq-why-not-ask-read-q = Cén fáth nach n-iarrann tú ar dhaoine léamh ó leab
 faq-why-account-q = Cén fáth ar chóir dom cuntas a chlárú?
 faq-is-account-public-q = An faisnéis phoiblí é mo chuntas?
 faq-what-is-cv = Cad é Common Voice?
+faq-description = Seo é Common Voice – tionscadal de chuid Mozilla a mhúineann do ríomhairí an chaoi a labhraíonn daoine.
 faq-search-for-answers =
     .label = Cuardaigh freagraí
 
@@ -361,10 +362,15 @@ faq-search-for-answers =
 about-title = Cén fáth a bhfuil Common Voice ann?
 how-does-it-work-title = Conas a oibríonn sé?
 about-speak = Labhair
+about-listen-queue = Ciú Éisteachta
 about-listen = Éist
 about-is-it-valid = An bhfuil an ghearrthóg bailí?
 about-yes-votes = ≥ 2 Ghuth ar a shon
 about-no-votes = ≥ 2 Ghuth ina choinne
+about-dataset-new = Tacar Sonraí Common Voice
+about-clip-graveyard = Reilig na nGearrthóg
+about-partners = Comhpháirtithe
+about-become-a-partner = Bí i do chomhpháirtí
 about-get-involved = Glac páirt
 about-nav-why-common-voice = Cén fáth?
 about-nav-how-it-works = Conas?
@@ -419,17 +425,30 @@ review-delete-recordings = Scrios na taifeadtaí
 language = Teanga
 # File size in gigabytes
 size = Méid
+validated-hr-total = Líon uaireanta an chloig deimhnithe
+overall-hr-total = Líon uaireanta an chloig iomlán
 cv-license = Ceadúnas
+audio-format = Formáid Fuaime
+number-of-voices = Líon Guthanna
 splits = Scoilteanna
 email-to-download = Cuir isteach Seoladh Ríomhphoist chun é a Íoslódáil
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Íoslódáil { $language }
+validated-hours = Líon uaireanta an chloig deimhnithe
+recorded-hours = Líon uaireanta an chloig taifeadta
+subscribe = Liostáil
+feedback-q = An bhfuil aiseolas agat?
 data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
 data-other-ted-name = Corpas TED-LIUM
 data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
 data-other-voxforge-description = Bunaíodh VoxForge chun ábhar cainte tras-scríofa a bhailiú agus a úsáid in innill aitheanta cainte FLOSS.
 data-other-tatoeba-description = Is éard atá in Tatoeba ná bunachar sonraí abairtí, aistriúchán, agus taifeadtaí fuaime a úsáidtear chun teangacha a fhoghlaim. Gheobhaidh tú mórán Béarla labhartha, taifeadta ag comhphobal Tatoeba, san íoslódáil seo.
+ready-to-validate = An bhfuil tú réidh abairtí a dheimhniú?
+more = Tuilleadh
+close = Dún
+download = Íoslódáil
+dataset-version = Leagan
 
 ## Download Modal
 
@@ -457,6 +476,8 @@ request-language-form-language =
     .label = Teanga
 request-language-success-title = Fuaireamar an t-iarratas, go raibh maith agat.
 request-language-success-content = Beimid i dteagmháil leat go luath le tuilleadh eolais maidir le teangacha nua ar Common Voice.
+select-language = Roghnaigh Teanga...
+other-language = Teanga Eile
 
 ## Languages Overview
 
@@ -527,6 +548,17 @@ share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
 
 ## Reporting
 
+report = Tuairisc
+report-title = Seol tuairisc
+report-offensive-language = Teanga ghránna
+report-grammar-or-spelling = Botún gramadaí / litrithe
+report-grammar-or-spelling-detail = Tá botún gramadaí nó litrithe san abairt.
+report-different-language = Teanga mhícheart
+report-difficult-pronounce = Tá sé deacair é a fhuaimniú
+report-other-comment =
+    .placeholder = Nóta tráchta
+continue = Ar Aghaidh
+report-success = Seoladh an tuairisc gan fadhb
 
 ## Goals
 
@@ -563,6 +595,7 @@ toward-next-goal = I dtreo an chéad sprice eile
 clips-you-recorded = Gearrthóga a thaifead tú
 clips-you-validated = Gearrthóga a dheimhnigh tú
 stats = Staitisticí
+awards = Duaiseanna
 you = Tusa
 everyone = Gach Duine
 contribution-activity = Gníomhaíocht
@@ -574,6 +607,15 @@ overall-accuracy = Cruinneas Iomlán
 
 ## Custom Goals
 
+daily-goal = Sprioc Laethúil
+weekly-goal = Sprioc Sheachtainiúil
+easy-difficulty = Éasca
+average-difficulty = Gnáthleibhéal
+difficult-difficulty = Deacair
+pro-difficulty = Proifisiúnta
+want-to-continue = An bhfuil fonn ort dul ar aghaidh?
+build-custom-goal = Socraigh do sprioc féin
+set-a-goal = Cuir sprioc romhat féin
 
 ## Profile Delete
 
