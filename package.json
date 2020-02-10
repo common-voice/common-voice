@@ -8,14 +8,14 @@
     "fluent-syntax": "^0.14.0",
     "http-status-codes": "^1.4.0",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7"
+    "request-promise-native": "^1.0.8"
   },
   "devDependencies": {
-    "concurrently": "^5.0.2",
+    "concurrently": "^5.1.0",
     "husky": "^4.2.1",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
-    "typescript": "3.7.4"
+    "typescript": "3.7.5"
   },
   "workspaces": [
     "common",
