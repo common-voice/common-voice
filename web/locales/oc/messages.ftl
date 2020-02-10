@@ -437,6 +437,10 @@ about-clip-graveyard = Cimentèri de mòstras
 about-clip-graveyard-text = Lo cementeri de mòstra inclutz de mòstras vocalas que son pas dintradas al jòc de donadas de Common Voice. Coma aqueste, òm pòt lo telecargar.
 about-partners = Sòcis
 about-become-a-partner = Venir sòci
+about-partnership =
+    Common Voice es un projècte collabaratiu e dependem de nòstra communitat de sòcis e collaborators per crear lo jòc de donadas de votz liure mai grand pas jamai fach.
+    
+    Volriam mercejar las personas e organizacions seguenta per lor ajuda sul projècte :
 about-get-involved = Participar
 about-get-involved-text =
     Volètz ajudar a melhorar Common Voice ?
@@ -452,6 +456,7 @@ mycroft-subtitle = Intelligéncia artificiala
 mycroft-description =
     Mycroft es lo primièr assistent liure del monde.
     Mycroft fonciona pertot : sus un ordenador, dins una veitura o sus un Raspberry Pi.
+mycroft-secondary-description = Aquò es un logicial liure que se pòt remesclar, desvelopar e melhorar. Mycroft pòt èsser utilizat dins totes los domenis, del projècte scientific al logicial d’entreprisa.
 
 ## Glossary
 
@@ -461,6 +466,7 @@ localization-explanation = Aquò s’agís de nòstre processús de traduccion e
 sentence-collection = Collècta de frasas
 sentence-collection-explanation = Collectar de frasas del domeni public, o n’escriure de novèlas pel domeni public.
 hours-recorded-explanation = La quantitat d’oras d’enregistraments vocals qu’avèm collectats fins ara.
+hours-validated-explanation = La quantitat d’ora d’enregistraments vocals que foguèron validats per almens dos o tres utilizaires en votar « Òc ». Aquestas oras comptan per l’objectiu general del projècte de 10 000 oras.
 sst = Reconeissença vocala (Speech-to-text, STT)
 sst-explanation = La reconeissença vocala (STT) convertís la votz en tèxt.
 de-identified = Anonimizar
