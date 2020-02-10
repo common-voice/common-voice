@@ -1,7 +1,7 @@
-import { AllGoals, CustomGoalParams } from 'common/goals';
-import { LanguageStats } from 'common/language-stats';
-import { UserClient } from 'common/user-clients';
-import { WeeklyChallenge, Challenge, TeamChallenge } from 'common/challenge';
+import { AllGoals, CustomGoalParams } from 'common';
+import { LanguageStats } from 'common';
+import { UserClient } from 'common';
+import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';

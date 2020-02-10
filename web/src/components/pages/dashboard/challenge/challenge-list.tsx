@@ -8,7 +8,7 @@ import { Avatar } from '../../../ui/ui';
 import TeamAvatar from './team-avatar';
 import { CheckIcon } from '../../../ui/icons';
 import { connect } from 'react-redux';
-import { challengeTeams } from 'common/challenge';
+import { challengeTeams } from 'common';
 
 const PointsIcon = ({ className }: { className: string }) => (
   <div className={`star-points ${className}`} />

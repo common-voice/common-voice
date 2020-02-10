@@ -1,4 +1,4 @@
-import { AllGoals } from 'common/goals';
+import { AllGoals } from 'common';
 
 export default interface Props {
   allGoals?: AllGoals;

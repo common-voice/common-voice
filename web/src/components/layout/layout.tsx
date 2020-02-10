@@ -38,7 +38,7 @@ import {
   challengeTeamTokens,
   ChallengeToken,
   challengeTokens,
-} from 'common/challenge';
+} from 'common';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,

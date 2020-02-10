@@ -51,6 +51,7 @@
     "request": "^2.85.0",
     "request-promise-native": "^1.0.7",
     "stream-transcoder": "0.0.5",
+    "ts-node": "^8.6.2",
     "universal-analytics": "^0.4.20"
   },
   "devDependencies": {
@@ -59,7 +60,7 @@
     "jest": "^24.9.0",
     "jest-matcher-utils": "^24.9.0",
     "mkdirp": "^0.5.1",
-    "newrelic": "^6.2.0",
+    "newrelic": "^6.4.0",
     "nodemon": "^2.0.2",
     "source-map-support": "^0.5.16",
     "ts-jest": "24.2.0",

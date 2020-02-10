@@ -1,5 +1,15 @@
 {
   "name": "common",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "main": "js/index.js",
+  "types": "js/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "cti . -e js node_modules && tsc",
+    "dev": "tsc-watch"
+  },
+  "devDependencies": {
+    "create-ts-index": "^1.12.0"
+  }
 }
