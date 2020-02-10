@@ -1,8 +1,8 @@
 import { Localized, withLocalization } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
-import { CustomGoal, CustomGoalParams } from 'common/goals';
-import { UserClient } from 'common/user-clients';
+import { CustomGoal, CustomGoalParams } from 'common';
+import { UserClient } from 'common';
 import URLS from '../../../../urls';
 import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks';
 import { useRouter } from '../../../../hooks/use-router';

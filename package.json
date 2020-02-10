@@ -31,11 +31,12 @@
     "@types/react": "16.9.19"
   },
   "scripts": {
-    "build": "concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",
+    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",
+    "build-common": "cd common && yarn build && cd ..",
     "import-locales": "node scripts/import-locales",
     "lint": "prettier \"**/*.{ts,tsx}\"",
     "prettier": "yarn lint --write",
-    "start": "concurrently -p \"[{name}]\" -n \"BE,FE\" -c \"bgBlue.bold,bgMagenta.bold\" \"cd server && yarn start\" \"cd web && yarn dev\"",
+    "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgBlue.bold,bgMagenta.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "node server/js/server.js",
     "test": "concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && yarn test\""
   },

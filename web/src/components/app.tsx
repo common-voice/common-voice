@@ -12,7 +12,7 @@ import {
 import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import * as Sentry from '@sentry/browser';
-import { UserClient } from 'common/user-clients';
+import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
 import {

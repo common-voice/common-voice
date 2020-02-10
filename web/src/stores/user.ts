@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux';
-import { UserClient } from 'common/user-clients';
+import { UserClient } from 'common';
 import { generateGUID, generateToken } from '../utility';
 import StateTree from './tree';
 

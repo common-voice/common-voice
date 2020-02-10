@@ -1,4 +1,4 @@
-import { UserClient } from 'common/user-clients';
+import { UserClient } from 'common';
 
 const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
 

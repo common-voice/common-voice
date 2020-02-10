@@ -5,11 +5,7 @@ import {
 } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import {
-  BaseLanguage,
-  InProgressLanguage,
-  LaunchedLanguage,
-} from 'common/language-stats';
+import { BaseLanguage, InProgressLanguage, LaunchedLanguage } from 'common';
 import API from '../../../services/api';
 import { NATIVE_NAMES } from '../../../services/localization';
 import { trackLanguages } from '../../../services/tracker';

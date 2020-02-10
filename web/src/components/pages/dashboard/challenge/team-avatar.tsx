@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Avatar } from '../../../ui/ui';
-import { ChallengeTeamToken } from 'common/challenge';
+import { ChallengeTeamToken } from 'common';
 import { challengeLogos } from './constants';
 
 export default ({ team }: { team: ChallengeTeamToken }) => {

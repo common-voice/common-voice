@@ -1,6 +1,6 @@
 import * as React from 'react';
 import WeeklyChallengeBoard from './weekly-challenge-board';
-import { WeeklyChallenge } from 'common/challenge';
+import { WeeklyChallenge } from 'common';
 import { useAccount, useNotifications } from '../../../../hooks/store-hooks';
 import NotificationPill from '../../../notification-pill/notification-pill';
 import { FINAL_CHALLENGE_WEEK, weeklyChallengeCopy } from './constants';
