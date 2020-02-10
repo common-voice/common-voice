@@ -19,7 +19,7 @@ module "worker" {
   elb           = "${module.load_balancer.name}"
   min_instances = "${var.environment == "prod" ? 5 : 3}"
   max_instances = 30
-  instance_type = "t2.large"
+  instance_type = "t3.large"
 
   # Wait up to 10 minutes for warming up (in seconds)
   health_check_grace_period = "600"
