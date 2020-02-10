@@ -1,8 +1,8 @@
 ## Languages
 
-contribute = Contriboìsci
+contribute = Contribuisci
 get-involved-button = Parteçipa
-get-involved-title = Contriboìsci in { $lang }
+get-involved-title = Contribuisci in { $lang }
 get-involved-text = Gràçie pe-o teu interèsse a contriboî into { $lang }. Noiâtri travagémmo dûo pe preparâ tùtte e léngoe pe-o slànso e mantegnî e vàrie squàddre agiornæ vîa pòsta eletrònica. Se ti veu contriboî, inserìsci o teu indirìsso de pòsta eletrònica chi de sótta.
 get-involved-form-title = Scrivite pe reçeive e misse à giorno in sciâ lengua { $lang }:
 get-involved-email =
