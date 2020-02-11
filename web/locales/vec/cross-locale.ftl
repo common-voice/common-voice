@@ -10,4 +10,7 @@ get-involved-email =
 get-involved-opt-in = Sì, inviame ƚe email. Me piaserìa restare informà su i progresi de Common Voice en sta ƚengua.
 get-involved-submit = Manda
 get-involved-stayintouch = Mozilla el xe drio radunare na comunità de persone interesà a ƚe tecnologie vocaƚi. Ne piaserìa restare en contato co ti co axornamenti e nove fonti de dati, ma anca par conosere cofà te uxi i dati de Common Voice.
+get-involved-privacy-info = Ƚe to informasioni personaƚi le xe a el seguro co noialtri. Par i detaji lèxii ƚ’<privacyLink>informativa su ƚa privacy</privacyLink>.
+get-involved-success-title = Te te si notà cofà coƚaboratore par ƚa ƚengua { $language }. Grasie.
+get-involved-success-text = Te ciameremo na volta sarà disponibiƚi novi axornamenti.
 get-involved-return-to-languages = Torna indrio a ƚa sesione Ƚengue
