@@ -180,6 +180,33 @@ speak-subtitle = Regaƚane ƚa to vose
 speak-paragraph = Ƚa registrasion vocaƚe de ƚe fraxi ƚa xe na parte fondamentaƚe ne ƚa costrusion de el nòstro dataset publico (secondo cualcheduni anca ƚa pì divertente).
 speak-goal-text = Registrasioni
 listen-subtitle = Jùtane a convaƚidare ƚe registrasion!
+listen-paragraph = Convaƚidare ƚe registrasion efetuà da altri la xe ƚo steso inportante par ƚa mision de Common Voice. Scoltaƚe e jutane a creare on dataset publico e de cualità.
+listen-goal-text = Registrasion convalidà
+hours-recorded = Ore registrà
+hours-validated = Ore convalidà
+voices-online = Vosi atualmente online
+todays-progress = Progresi de oncò
+help-reach-goal = Jutane a rivare { $goal }
+read-terms-q = Gheto leto ƚe condisioni de utilixo de el servisio?
+ready-to-record = Sito pronto per donare la to vose?
+all-locales = Tuto
+today = Oncò
+x-weeks-short =
+    { $count ->
+        [one] Set.
+       *[other] { $count } set.
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } mexi
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } ano
+       *[other] { $count } ani
+    }
+help-make-dataset = Jutane a reaƚixare on dataset de bona cualità e publico
+sign-up-account = Nòtate
 
 ## Account Benefits
 
