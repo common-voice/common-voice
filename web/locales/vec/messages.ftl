@@ -170,9 +170,16 @@ home-cta = Dixi qualche roba, fà clic chive par inisiare!
 wall-of-text-start = Ƚa vose ƚa xe naturaƚe, ƚa voce la xe umanità. Par sto cua ƚ’idea de creare na tecnologia vocaƚe utiƚixabiƚe da ƚe nòstre machine ne affasina on saco. Par creare sistemi baxà so ƚa tecnologìa vocaƚe, però, xe necesario on saco de campioni.
 wall-of-text-more-mobile = Bona parte de i dati uxà da Ƚe grandi axiende no ƚa xe acesibilƚe a ƚa magioransa de ƚe persone. Secondo noialtri sto cua sofoca l’inovasion. Par sta raxon gavemo svilupà Common Voice, on progeto de riconosimento vocaƚe vèrto a tuti cuanti.
 show-wall-of-text = Altre informasioni
+help-us-title = Jùtane a convaƚidare ƚe fraxi!
+help-us-explain = Struca Scomisìa, scolta e dine se l’audio corisponde a la fraxe cua soto.
+no-clips-to-validate = Senbra no ghe sìa registrasion en sta ƚengua. Contribuisi registrando un poco.
 vote-yes = Sì
 vote-no = No
+toggle-play-tooltip = Strucare { shortcut-play-toggle } par pasare a ƚa modaƚità de riprodusion
 speak-subtitle = Regaƚane ƚa to vose
+speak-paragraph = Ƚa registrasion vocaƚe de ƚe fraxi ƚa xe na parte fondamentaƚe ne ƚa costrusion de el nòstro dataset publico (secondo cualcheduni anca ƚa pì divertente).
+speak-goal-text = Registrasioni
+listen-subtitle = Jùtane a convaƚidare ƚe registrasion!
 
 ## Account Benefits
 
