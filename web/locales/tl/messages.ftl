@@ -17,6 +17,26 @@ ab = Abkhaz
 ace = Acehnese
 ady = Adyghe
 af = Afrikaans
+am = Amharic
+an = Aragonese
+ar = Arabic
+arn = Mapudungun
+as = Assamese
+ast = Asturian
+az = Azerbaijani
+ba = Bashkirs
+be = Belarusian
+bg = Bulgarian
+bn = Bengali
+br = Breton
+bxr = Buryat
+ca = Catalan
+cak = Kaqchikel
+cnh = Hakha Chin
+cs = Czech
+cv = Chuvash
+cy = Welsh
+da = Danish
 
 # [/]
 
