@@ -279,6 +279,7 @@ female = Fèmena
 # Gender
 other = Altro
 why-profile-title = Parché creare on profiƚo?
+dashboard = Paneƚo
 build-profile = Crea el to profiƚo
 settings = Inpostasioni
 edit-profile = Modìfega profiƚo
@@ -295,9 +296,16 @@ recording-voice-wave = In registrasion
 ready-to-upload = CARGA
 cancel-avatar-clip-recording = ANUȽA
 browse-file-title = Carga n’imagine
+browse-file = Strascina e mola opure <browseWrap>sfoja</ browseWrap>
+add-language = Xonta na Ƚengua
 
 ## FAQ
 
+faq-why-important-q = Parché xe inportante?
+faq-how-get-q = In che modo poso otegnere i dati de Common Voice?
+faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
+faq-why-my-lang-q = Parché ƚa me ƚengua no ƚa ghe xe gnancora?
+faq-how-calc-hours-q = En che modo Common Voice calcoƚa ƚe ore?
 
 ## ABOUT US
 
