@@ -89,15 +89,66 @@ lt = Lituano
 lv = Letone
 mdf = Moksha
 mg = Malgascio
+mhr = Mari orientaƚe
+mk = Macedone
+ml = Malayalam
+mn = Móngoƚo
+mrj = Mari osidentaƚe
+mt = Maltexe
+my = Birman
+myv = Erxa
+nb-NO = Bokmål (Norvegia)
+ne-NP = Nepaƚexe
+nl = Oƚandexe
+nn-NO = Norvegexe Nynorsk
+oc = Ocitano
+or = Oriya
+pa-IN = Punjabi
+pl = Polaco
+pt = Portoghexe
+rm-sursilv = Romancio sotosilvan
+rm-vallader = Romancio Vallader
+ro = Rumeno
+ru = Ruso
+rw = Kinyarwanda
+sah = Sacha
+sc = Sardo
+scn = Sicilian
+si = Singalexe
+sk = Slovaco
+sl = Xloveno
+sq = Albanexe
+sr = Serbo
+sv-SE = Svedexe
+sw = Swahili
+syr = Siriaco
+ta = Tamil
+te = Telugu
+tg = Tagico
+th = Tailandexe
+tr = Turco
+tt = Tàtaro
+uby = Ubykh
+udm = Udmurto
+uk = Ucraino
+ur = Urdu
+uz = Uzbeco
+vi = Vietnamita
+vot = Votico
+zh-CN = Cinexe (Cina)
+zh-HK = Cinexe (Hong Kong)
+zh-TW = Cinexe (Taiwan)
 
 # [/]
 
 
 ## Layout
 
-speak = Parƚa
-speak-now = Parƚa deso
+speak = Parla
+speak-now = Parla deso
 datasets = Dataset
+languages = Ƚengue
+about = Informasion
 
 ## Home Page
 
