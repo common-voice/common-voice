@@ -207,21 +207,44 @@ x-years-short =
     }
 help-make-dataset = Jutane a reaƚixare on dataset de bona cualità e publico
 sign-up-account = Nòtate
+email-subscription-title = Nòtate a i axornamenti via email
+email-subscription-title-new = Nòtate a óe newsletter de Common Voice, a i promemoria de i obietivi e a i axornamenti de i progresi
 
 ## Account Benefits
 
+benefits = Vantaji
 
 ## What's public
 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Riproduxi/Interonpi
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Registra/Interonpi
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Ripeti ƚa registrasion
+request-language-text = No te trovi ƚa to ƚengua so Common Voice?
+request-language-button = Dimanda na ƚengua
 
 ## ProjectStatus
 
