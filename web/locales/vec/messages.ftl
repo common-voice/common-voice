@@ -149,6 +149,19 @@ speak-now = Parla deso
 datasets = Dataset
 languages = Ƚengue
 about = Informasion
+profile = Profiƚo
+help = Ajudo
+contact = Contati
+privacy = Privacy
+terms = Condisioni
+cookies = Cookie
+faq = FAQ
+content-license-text = Contenudo a dispoxision soto <licenseLink>licensa Creative Commons</licenseLink>
+share-title = Jutane a catare altri donatori de vose!
+share-text = Jutane a insegnare a ƚe machine cofà ƚe persone le parla ne la vita reaƚe, regƚane ƚa to vose so { $link }
+link-copied = Link copià
+back-top = Torna de sora
+logout = Va fora
 
 ## Home Page
 
