@@ -248,9 +248,35 @@ request-language-button = Dimanda na ƚengua
 
 ## ProjectStatus
 
+status-title = Stato generaƚe de el progetto: vàrda cuanta strada gavemo xà fato!
+status-contribute = Dona ƚa to vose
+english = Inglexe
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nòme utente
+profile-form-native-language =
+    .label = Ƚengua nativa
+profile-form-additional-language =
+    .label = Altra ƚengua
+profile-form-accent =
+    .label = Asento
+profile-form-age =
+    .label = Età
+profile-form-gender =
+    .label = Seso
+hidden = Sconto
+visible = Visibiƚe
+native-language =
+    .label = Ƚengua nativa
+profile-form-submit-save = Salva
+profile-form-submit-saved = Salvà
+male = Mas-cio
+female = Fèmena
+# Gender
+other = Altro
+settings = Inpostasioni
 
 ## FAQ
 
