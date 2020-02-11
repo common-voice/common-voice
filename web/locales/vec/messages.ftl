@@ -165,6 +165,14 @@ logout = Va fora
 
 ## Home Page
 
+home-title = El progeto Common Voice ƚa xe n'inisiativa de Mozilla psr insegnare a ƚe machine cofà ƚe parla ƚe persone ne ƚa vita reaƚe.
+home-cta = Dixi qualche roba, fà clic chive par inisiare!
+wall-of-text-start = Ƚa vose ƚa xe naturaƚe, ƚa voce la xe umanità. Par sto cua ƚ’idea de creare na tecnologia vocaƚe utiƚixabiƚe da ƚe nòstre machine ne affasina on saco. Par creare sistemi baxà so ƚa tecnologìa vocaƚe, però, xe necesario on saco de campioni.
+wall-of-text-more-mobile = Bona parte de i dati uxà da Ƚe grandi axiende no ƚa xe acesibilƚe a ƚa magioransa de ƚe persone. Secondo noialtri sto cua sofoca l’inovasion. Par sta raxon gavemo svilupà Common Voice, on progeto de riconosimento vocaƚe vèrto a tuti cuanti.
+show-wall-of-text = Altre informasioni
+vote-yes = Sì
+vote-no = No
+speak-subtitle = Regaƚane ƚa to vose
 
 ## Account Benefits
 
