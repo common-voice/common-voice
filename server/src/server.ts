@@ -3,6 +3,7 @@ import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
+import * as Sentry from '@sentry/node';
 import { NextFunction, Request, Response } from 'express';
 import { importLocales } from './lib/model/db/import-locales';
 import Model from './lib/model';
@@ -45,6 +46,8 @@ const CSP_HEADER = [
   `frame-src https://optimize.google.com`,
 ].join(';');
 
+Sentry.init({ dsn: getConfig().SENTRY_DSN });
+
 export default class Server {
   app: express.Application;
   server: http.Server;
@@ -71,6 +74,9 @@ export default class Server {
     }
 
     const app = (this.app = express());
+
+    // Enable Sentry request handler
+    app.use(Sentry.Handlers.requestHandler());
 
     if (PROD) {
       app.use(this.ensureSSL);
@@ -180,6 +186,9 @@ export default class Server {
       /(.*)/,
       express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)
     );
+
+    // Enable Sentry error handling
+    app.use(Sentry.Handlers.errorHandler());
 
     app.use(
       (
