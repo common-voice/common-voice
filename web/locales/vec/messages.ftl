@@ -216,6 +216,8 @@ benefits = Vantaji
 
 ## What's public
 
+whats-public = Che dati xeƚi publici?
+email-not-public = No renderemo el to indiriso email publico.
 
 ## Speak & Listen Shortcuts
 
@@ -276,7 +278,23 @@ male = Mas-cio
 female = Fèmena
 # Gender
 other = Altro
+why-profile-title = Parché creare on profiƚo?
+build-profile = Crea el to profiƚo
 settings = Inpostasioni
+edit-profile = Modìfega profiƚo
+profile-close = Sara
+why-demographic = Parché el xe inportante?
+accept-privacy-title = Informativa so ƚa privacy
+edit = Modìfega
+email-subscriptions = Sotoscrision email
+off = Dixativa
+on = Ativa
+retry-voice-wave-recording = RIPROVA
+delete-voice = SCANSEȽA
+recording-voice-wave = In registrasion
+ready-to-upload = CARGA
+cancel-avatar-clip-recording = ANUȽA
+browse-file-title = Carga n’imagine
 
 ## FAQ
 
