@@ -701,6 +701,7 @@ validated-clips = Mòstras validadas
 total-approved = Total aprovat
 overall-accuracy = Precision globala
 set-visibility = Definir ma visibilitat
+visibility-explainer = Aqueste paramètre contròla vòstra visibilitat dins la classificacion. Quand es resconduda, vòstra progression serà privada. Aquò significa que vòstre imatge, nom d’utilizaire e vòstra progression apreissaràn pas dins la classificacion. Notatz l’actualizacion de la classificacion triga { $minutes } minutas a mostrar los cambiaments.
 visibility-overlay-note = Nòta : quand es definit sus « Visible », aqueste paramètre pòt èsser cambiat de la pagina <profileLink>Perfil</profileLink> estant.
 show-ranking = Veire mon classament
 
