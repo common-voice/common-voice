@@ -39,11 +39,9 @@ export const RecordButton = ({
   trackClass?: string;
 } & React.ButtonHTMLAttributes<any>) => (
   <PrimaryButton
-    className={[
-      status === null ? 'stop' : 'record',
-      trackClass ? getTrackClass('fs', trackClass) : '',
-    ].join(' ')}
+    className={[status === null ? 'stop' : 'record'].join(' ')}
     {...props}
+    trackClass={trackClass}
     disabled={status === 'waiting'}>
     {status === null && <MicIcon />}
     {status === 'recording' && <StopIcon />}
@@ -67,7 +65,10 @@ export const PlayButton = ({
 }: { isPlaying: boolean; trackClass?: string } & React.ButtonHTMLAttributes<
   any
 >) => (
-  <PrimaryButton className={isPlaying ? 'stop' : 'play'} {...props}>
+  <PrimaryButton
+    className={isPlaying ? 'stop' : 'play'}
+    trackClass={trackClass}
+    {...props}>
     {isPlaying ? <StopIcon /> : <OldPlayIcon />}
   </PrimaryButton>
 );

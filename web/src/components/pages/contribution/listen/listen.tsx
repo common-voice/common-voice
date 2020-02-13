@@ -34,7 +34,12 @@ const VoteButton = ({
   kind,
   ...props
 }: { kind: 'yes' | 'no' } & React.ButtonHTMLAttributes<any>) => (
-  <button type="button" className={['vote-button', kind].join(' ')} {...props}>
+  <button
+    type="button"
+    className={['vote-button', kind, getTrackClass('fs', `vote-${kind}`)].join(
+      ' '
+    )}
+    {...props}>
     {kind === 'yes' && <ThumbsUpIcon />}
     {kind === 'no' && <ThumbsDownIcon />}
     <Localized id={'vote-' + kind}>
@@ -300,7 +305,6 @@ class ListenPage extends React.Component<Props, State> {
                 kind="yes"
                 onClick={this.voteYes}
                 disabled={!hasPlayed}
-                className={getTrackClass('fs', 'vote-yes')}
               />
               <PlayButton
                 isPlaying={isPlaying}
@@ -311,7 +315,6 @@ class ListenPage extends React.Component<Props, State> {
                 kind="no"
                 onClick={this.voteNo}
                 disabled={!hasPlayed && !hasPlayedSome}
-                className={getTrackClass('fs', 'vote-no')}
               />
             </React.Fragment>
           }
