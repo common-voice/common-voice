@@ -28,7 +28,7 @@ services:
     volumes:
       - .:/code
     environment:
-      - SERVER_CONFIG_PATH=/code/docker/local-docker-config.json
+      - SERVER_CONFIG_PATH=/code/.env-local-docker
     networks:
       - voice-web
     ports:
