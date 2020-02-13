@@ -533,6 +533,7 @@ subscribe = S’abonar
 get-started-speech = Introduccion a la reconeissença vocala
 other-datasets = Autres jòcs de donadas
 feedback-q = Avètz de suggestions ?
+deepspeech-info = Lo jòc de donadas de Common Voice de Mozilla es un complementari al motor de reconeissença vocala Deep Speech, que podètz utilizar per crear d’aplicacions de reconeissença vocala. Consultatz nòstre <githubLink>apercebut sus GitHub</githubLink> o visitatz nòstre <discourseLink>Discourse DeepSpeech</discourseLink> per obténer d’informacions per ben començar.
 common-voice-info-new = Avètz de questions tocant Common Voice ? D’idèas de melhoraments o comentaris sus una lenga en particular ? Trapatz-nos sus nòstre <discourseLink>forum Discourse</discourseLink> e avisatz-nos.
 data-other-librispeech-description = LibriSpeech es un còpus de quicòm coma 1000 oras de lectura en anglés ( 16 Khz ) derivat de la lectura d’audiolibres del projècte LibriVox.
 data-other-ted-name = Corpus TED-LIUM
