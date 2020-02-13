@@ -14,6 +14,7 @@ import {
   trackListening,
   trackProfile,
   trackRecording,
+  getTrackClass,
 } from '../../../services/tracker';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink, useLocale } from '../../locale-helpers';
@@ -345,10 +346,16 @@ class ContributionPage extends React.Component<Props, State> {
 
             <div className="links">
               <Localized id="speak">
-                <LocaleNavLink to={URLS.SPEAK} />
+                <LocaleNavLink
+                  className={getTrackClass('fs', `toggle-speak`)}
+                  to={URLS.SPEAK}
+                />
               </Localized>
               <Localized id="listen">
-                <LocaleNavLink to={URLS.LISTEN} />
+                <LocaleNavLink
+                  className={getTrackClass('fs', `toggle-listen`)}
+                  to={URLS.LISTEN}
+                />
               </Localized>
             </div>
 
@@ -522,7 +529,9 @@ class ContributionPage extends React.Component<Props, State> {
                 <Button
                   rounded
                   outline
-                  className="skip"
+                  className={['skip', getTrackClass('fs', `skip-${type}`)].join(
+                    ' '
+                  )}
                   disabled={!this.isLoaded}
                   onClick={onSkip}>
                   <Localized id="skip">
@@ -540,7 +549,10 @@ class ContributionPage extends React.Component<Props, State> {
                     })}>
                     <Localized id="submit-form-action">
                       <PrimaryButton
-                        className="submit"
+                        className={[
+                          'submit',
+                          getTrackClass('fs', `submit-${type}`),
+                        ].join(' ')}
                         disabled={!this.isDone}
                         onClick={onSubmit}
                         type="submit"

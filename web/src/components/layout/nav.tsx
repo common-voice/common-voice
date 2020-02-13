@@ -1,6 +1,6 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
-import { trackNav } from '../../services/tracker';
+import { trackNav, getTrackClass } from '../../services/tracker';
 import URLS from '../../urls';
 import {
   ContributableLocaleLock,
@@ -14,7 +14,12 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale();
   return (
     <Localized id={id}>
-      <LocaleNavLink to={to} exact onClick={() => trackNav(id, locale)} />
+      <LocaleNavLink
+        className={getTrackClass('fs', id)}
+        to={to}
+        exact
+        onClick={() => trackNav(id, locale)}
+      />
     </Localized>
   );
 };

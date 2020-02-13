@@ -594,6 +594,7 @@ class SpeakPage extends React.Component<Props, State> {
           onSubmit={() => this.upload()}
           primaryButtons={
             <RecordButton
+              trackClass="speak-record"
               status={recordingStatus}
               onClick={this.handleRecordClick}
             />

@@ -3,7 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
 import { LOCALES, NATIVE_NAMES } from '../../services/localization';
-import { trackGlobal } from '../../services/tracker';
+import { trackGlobal, getTrackClass } from '../../services/tracker';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
@@ -350,7 +350,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const { user } = this.props;
     return (
       <LocaleLink
-        className="tallies"
+        className={[
+          'tallies',
+          getTrackClass('fs', 'menubar-cta'),
+          user.account ? getTrackClass('fs', 'logged-in') : '',
+        ].join(' ')}
         to={user.account ? URLS.DASHBOARD : URLS.SPEAK}>
         <div className="record-tally">
           <MicIcon />

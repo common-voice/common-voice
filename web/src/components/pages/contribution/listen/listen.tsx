@@ -1,7 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { trackListening } from '../../../../services/tracker';
+import { trackListening, getTrackClass } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
@@ -300,12 +300,18 @@ class ListenPage extends React.Component<Props, State> {
                 kind="yes"
                 onClick={this.voteYes}
                 disabled={!hasPlayed}
+                className={getTrackClass('fs', 'vote-yes')}
               />
-              <PlayButton isPlaying={isPlaying} onClick={this.play} />
+              <PlayButton
+                isPlaying={isPlaying}
+                onClick={this.play}
+                trackClass={'play-recording'}
+              />
               <VoteButton
                 kind="no"
                 onClick={this.voteNo}
                 disabled={!hasPlayed && !hasPlayedSome}
+                className={getTrackClass('fs', 'vote-no')}
               />
             </React.Fragment>
           }
