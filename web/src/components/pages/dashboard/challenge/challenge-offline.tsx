@@ -13,7 +13,7 @@ import './challenge-offline.css';
 function ChallengeOffline({
   duration,
   location,
-}: { duration: ChallengeDuration } & RouteComponentProps<any>) {
+}: { duration: ChallengeDuration } & RouteComponentProps<any, any, any>) {
   const addAchievement = useAction(Notifications.actions.addAchievement);
   const dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
 
