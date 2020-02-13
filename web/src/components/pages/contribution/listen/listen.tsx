@@ -309,7 +309,7 @@ class ListenPage extends React.Component<Props, State> {
               <PlayButton
                 isPlaying={isPlaying}
                 onClick={this.play}
-                trackClass={'play-recording'}
+                trackClass="play-clip"
               />
               <VoteButton
                 kind="no"

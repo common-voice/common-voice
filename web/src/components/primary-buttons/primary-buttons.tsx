@@ -39,7 +39,7 @@ export const RecordButton = ({
   trackClass?: string;
 } & React.ButtonHTMLAttributes<any>) => (
   <PrimaryButton
-    className={[status === null ? 'stop' : 'record'].join(' ')}
+    className={status === null ? 'stop' : 'record'}
     {...props}
     trackClass={trackClass}
     disabled={status === 'waiting'}>
