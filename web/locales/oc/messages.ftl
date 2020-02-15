@@ -417,6 +417,7 @@ faq-search-for-answers =
 
 about-title = Perqué Common Voice ?
 about-subtitle = Common Voice fa part de l’initiativa de Mozilla per ajudar a aprendre a las maquinas cossí lo monde parla. En mai del jòc de donadas de Common Voice, construissèm un motor de reconeissença vocal liure apelat Deep Speech.
+about-header-description = Aquestes dos projèctes fan partida de nòstres esfòrces per reduire las inegalitats dins lo mond de la votz digitala. Las tecnologias de reconeissença vocala porgisson una dimension umana a nòstres aparelhs, mas los desvolopaires an besonh d'una quantitat importanta de donadas vocalas per las concebre. Actualament, la màger part d'aquelas donadas son costosas e proprietàrias.¶
 how-does-it-work-title = Cossí fonciona ?
 how-does-it-work-text = Cridam a la participacion collectiva per constituir un jòc de donadas liure. Donatz vòstra votz, validatz la precision de las mòstras d’autras personas, melhoratz lo jòc de donadas per tot lo monde.
 about-speak = Parlar
