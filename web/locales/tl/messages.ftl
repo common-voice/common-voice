@@ -224,12 +224,18 @@ other = Ibang Kasarian
 profile-explanation = Subaybayan ang iyong pag-unlad gamit ang iyong profile at tulungan ang aming data ng mga boses na mas maging tama.
 thanks-for-account = Salamat sa pagkumpirma ng iyong account, ngayon gawin natin ang iyong profile.
 why-demographic = Bakit ito nararapat?
+off = Off
+on = On
 
 ## FAQ
 
+faq-what-is-cv = Ano ang Common Voice?
+faq-search-for-answers =
+    .label = Maghanap ng mga kasagutan
 
 ## ABOUT US
 
+how-does-it-work-title = Paano ito gumagana?
 
 ## Glossary
 
@@ -239,24 +245,45 @@ why-demographic = Bakit ito nararapat?
 
 ## Data
 
+data-download-yes = Oo
+data-download-deny = Hindi
+data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-other-goto = Pumunta sa { $name }
 
 ## Datasets Page
 
+size-gigabyte = GB
+size-megabyte = MB
+data-other-ted-name = TED-LIUM Corpus
+close = Isara
+download = i-Download
+dataset-version = Bersyon
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Pangalan
+contact-form-message =
+    .label = Mensahe
+contact-required = *required
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Wika
+select-language = Pumili ng Wika...
 
 ## Languages Overview
 
 
 ## Contribution
 
+action-click = Click
+action-tap = Tap
+listen = Pakinggan
 
 ## Reporting
 
@@ -272,6 +299,7 @@ why-demographic = Bakit ito nararapat?
 
 ## Profile Delete
 
+profile-form-delete = Burahin ang Profile
 
 ## Landing
 
