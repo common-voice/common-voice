@@ -392,6 +392,7 @@ faq-why-different-speakers-a =
     Aquò explica perque volèm de diversitat dins nòstre jòc de donadas !
 faq-why-my-lang-q = Perque i a pas encara ma lenga ?
 faq-what-quality-q = Quin nivèl de qualitat àudio deu aver una mòstra de votz per èsser utilizada dins la basa de donadas ?
+faq-what-quality-a = Volèm que lo jòc de donadas Common Voice rebata la qualitat audio qu'un sistèm de reconeissença vocala rescontrarà dins la realitat, nos cal donc de diversitat. En mai d'una comunautat que representa una larga diversitat de locutors, un jòc de donadas amb una qualitat sonora variabla permetrà d'aprene al motor de reconeissença vocala cossí s'adaptar dins diferentas situacions de la vida reala, que siá amb de conversacions en rèire-plan o amb lo bruch d'una veitura. Del moment que vòstre voice clip es intelligible, deuriá èsser convenable pel jòc de donadas.
 faq-why-10k-hours-q = Perqué l’objectiu es de 10 000 oras validadas per lenga ?
 faq-why-10k-hours-a = Es lo nombre aproximatiu d’ora requesit per entrenar un sistèma de produccion de Paraula-al-tèxt.
 faq-how-calc-hours-q = Cossí Common Voice calcula las oras ?
