@@ -220,6 +220,7 @@ benefits = Vantaji
 
 whats-public = Che dati xeƚi publici?
 email-not-public = No renderemo el to indiriso email publico.
+username-email-not-demographic = El to nome utente e email no la vegnerà asocià co i dati publicà.
 
 ## Speak & Listen Shortcuts
 
@@ -254,6 +255,9 @@ request-language-button = Dimanda na ƚengua
 
 status-title = Stato generaƚe de el progetto: vàrda cuanta strada gavemo xà fato!
 status-contribute = Dona ƚa to vose
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Prosimo obietivo: { $goal }
 english = Inglexe
 
 ## ProfileForm
@@ -283,6 +287,7 @@ other = Altro
 why-profile-title = Parché creare on profiƚo?
 dashboard = Paneƚo
 build-profile = Crea el to profiƚo
+goals = Obietivi
 settings = Inpostasioni
 edit-profile = Modìfega profiƚo
 profile-close = Sara
