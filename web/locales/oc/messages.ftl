@@ -510,6 +510,7 @@ review-delete-recordings = Suprimir mos enregistraments
 ## Datasets Page
 
 datasets-headline = Sèm a crear un jòc de donadas vocalas liure que tot lo monde pòt utilizar per entrenar d’aplicacions utilizan la reconeissença vocala.
+datasets-positioning = Pensam que metre de grands jòcs de donadas a la disposicion de totòm favoriza l'innovacion e una concurréncia sana per las tecnologias qu'utilizan la votz e que son basadas sus l'aprendissatge automatic.¶¶ Lo jòc de donadas multilingüe de Common Voice es ja lo mai grand jòc de donadas disponible d'aquesta mena, mas es pas lo sol. ¶ Aquesta pagina de referéncia lista d'autras referéncias open source e, a flor e a mesura de l'evolucion de Common Voice, prepausarà tanben nòstras mesas a jorn a venir.
 language = Lenga
 # File size in gigabytes
 size = Talha
