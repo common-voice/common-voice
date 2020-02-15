@@ -215,6 +215,7 @@ email-subscription-title-new = Nòtate a óe newsletter de Common Voice, a i pro
 ## Account Benefits
 
 benefits = Vantaji
+improve-audio = Le informasion de el profiƚo le mijora i dati audio utilixa ne el adestramento de precixion de el riconosimento vocaƚe.
 
 ## What's public
 
