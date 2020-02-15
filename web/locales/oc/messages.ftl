@@ -531,6 +531,10 @@ download-language = Telecargar { $language }
 validated-hours = Oras validadas
 recorded-hours = Oras enregistradas
 whats-inside = Qu’es dins lo jòc de donadas de Common Voice ?
+dataset-description-hours =
+    Cada entrada del jòc de donadas es compausat d’un sol fichièr MP3 acompanhat del fichièr tèxt correspondent. Fòrças de las <b>{ $total }</b> oras enregistradas dins lo jòc de donadas inclutz tanben de donadas demograficas, coma l’atge, lo sèxe e l’accent, que pòdon ajudar a melhorar la precision dels motors de reconeissença vocala.
+    
+    Actualament, lo joc de donadas inclutz <b>{ $valid }</b> oras validadas dins <b>{ $languages }</b> lengas, mas sèm a ajustar mai de voses e lengas. Fasètz una ulhada a nòstra <languagesLink>pagina de lengas</languagesLink> per demandar una lenga o començar de contribuir.
 want-dataset-update = Volètz recebre las actualitats de las nòvas versions de Common Voice ? Marcatz-vos a nòstra infoletra.
 subscribe = S’abonar
 get-started-speech = Introduccion a la reconeissença vocala
