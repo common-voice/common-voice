@@ -487,12 +487,35 @@ contact-required = *obligatorio
 request-language-title = Dimanda de na nova ƚengua
 request-language-form-language =
     .label = Ƚengua
+request-language-success-title = Dimanda par na nuova ƚengua inviaà. Grasie par el to interesamento.
+select-language = Selesiona na ƚengua…
+other-language = Altra ƚengua
 
 ## Languages Overview
 
+language-section-in-progress = En corso
+language-section-launched = Operative
+languages-show-more = Vixualixa pì eƚementi
+languages-show-less = Visualixa meno eƚementi
+language-meter-in-progress = Progreso
+language-total-progress = Totaƚe
+language-search-input =
+    .placeholder = Serca
+language-speakers = Parlà da
+localized = Localixà
+sentences = Fraxi
+total-hours = Ore convalidà
 
 ## Contribution
 
+action-click = Fa clic so
+action-tap = Toca
+contribute = Contribuisi
+listen = Scolta
+skip = Salta
+shortcuts = Scorciatoie
+clips-with-count = <bold>{ $count }</bold> registrasion
+goal-help-recording = Te ghe jutà Common Voice a rivare a <goalPercentage></goalPercentage> de el traguardo xornaƚiero { $goalValue } par ƚe registrasion.
 
 ## Reporting
 
