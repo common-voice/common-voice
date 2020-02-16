@@ -550,12 +550,40 @@ report-title = Manda na segnalasion
 report-offensive-language = Ƚenguagio ofensivo
 report-grammar-or-spelling = Erore gramaticaȽe o de ortografia
 report-grammar-or-spelling-detail = Ƚa fraxe la ga on erore gramaticaƚe o de ortografìa.
+report-different-language = Ƚengua diversa
+report-difficult-pronounce = Difisile da pronunciare
+report-difficult-pronounce-detail = Contien paròle o fraxi dificii da ƚèxere o pronunciare.
+report-offensive-speech = Discorso ofensivo
+report-other-comment =
+    .placeholder = Comento
+success = Conpletà
+continue = Continua
+report-success = Ƚa segnalasion la xe stà mandà coretamente.
 
 ## Goals
 
+streaks = Trace
+days =
+    { $count ->
+        [one] Dì
+       *[other] Dì
+    }
+recordings =
+    { $count ->
+        [one] Registrasion
+       *[other] Registrasion
+    }
+validations =
+    { $count ->
+        [one] Convaƚida
+       *[other] Convaƚide
+    }
 
 ## Dashboard
 
+your-languages = Ƚe to ƚengue
+toward-next-goal = Verso el prosimo obietivo
+clips-you-recorded = Registrasion che te ghe inserìo
 
 ## Custom Goals
 
