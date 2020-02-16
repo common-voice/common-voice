@@ -528,9 +528,28 @@ record-cancel = Anuƚa ƚa nova registrasion
 record-instruction = { $actionType }<recordIcon></recordIcon>, e dopo lèxi ƚa fraƚe a vose alta
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cò te ghe finìo
 record-three-more-instruction = Ancora tre!
+record-again-instruction = Otimo! <recordIcon></recordIcon> Registra ƚa sucesiva
+record-again-instruction2 = Continua coxì, registra de novo <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Ƚ’ùltema!
+review-tooltip = Scolta de novo e, se necesario, ripeti ƚe registrasion vanti de proseguire
+review-instruction = Scolta ƚe registrazioni e, se necesario, ripetiƚe
+record-submit-tooltip = { $actionType } Manda cò te si pronto
+clips-uploaded = Registrasion caricà
+record-abort-title = No vuto prima finire ƚa registrasion?
+record-abort-text = Se te esi deso te perderè i progresi fati
+record-abort-submit = Manda registrasion
+record-abort-continue = Porta a termine ƚa registrasion
+record-abort-delete = Esi e scanseƚa ƚe registrasion
+listen-instruction = { $actionType } <playIcon></playIcon> Ƚa fraxe xeƚa stà leta coretamente?
+record-button-label = Registra ƚa to vose
 
 ## Reporting
 
+report = Segnaƚa
+report-title = Manda na segnalasion
+report-offensive-language = Ƚenguagio ofensivo
+report-grammar-or-spelling = Erore gramaticaȽe o de ortografia
+report-grammar-or-spelling-detail = Ƚa fraxe la ga on erore gramaticaƚe o de ortografìa.
 
 ## Goals
 
