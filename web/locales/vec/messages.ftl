@@ -363,14 +363,41 @@ faq-why-my-lang-q = Parché ƚa me ƚengua no ƚa ghe xe gnancora?
 faq-what-quality-q = Cuaƚe liveƚo de cualità audio xe necesarìa da na registrasion vocale par esare utilixà ne el dataset?
 faq-how-calc-hours-q = En che modo Common Voice calcoƚa ƚe ore?
 faq-where-src-from-2-q = Da dove vien el testo de origine?
+faq-why-not-ask-read-q = Parché no dimandè a ƚe parsone de lèxere brani da ƚibri o articoƚi de Wikipedia en diverse ƚengue?
 faq-why-account-q = Parché gavarìa registrare on account?
 faq-is-account-public-q = Le informasion so el mìo account xeƚe publiche?
+faq-how-privacy-q = En che modo asicurè el anonimato e ƚa privacy de ƚe parsone che ƚe ga donà ƚe so vosi?
+faq-what-determine-identity-q = Che roba vol dire che xe proibìo “determinare ƚ’identità” de ƚe voci ne i dataset de Common Voice?
+faq-what-is-cv = Che roba xeƚa Common Voice?
+faq-using-cv = Uxo de Common Voice
+faq-search-for-answers =
+    .label = Serca par risposte
 
 ## ABOUT US
 
+about-title = Parché Common Voice?
+how-does-it-work-title = En che modo funsiona
+about-speak = Parla
+about-listen-queue = Coa de le robe da scoltare
+about-listen = Scolta
+about-yes-votes = ≥ 2 voti Sì
+about-no-votes = ≥ 2 voti No
+about-dataset-new = Dataset de Common Voice
+about-clip-graveyard = Cimitero de ƚe registrasion
+about-partners = Partner
+about-get-involved = Coƚabora
+about-nav-why-common-voice = Parché?
+about-nav-how-it-works = En che modo?
+about-nav-partners = Partner
+about-nav-get-involved = Coƚabora
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Inteƚigensa artifisaƚe
 
 ## Glossary
 
+glossary = Glosario
+localization = Localixasion
+sentence-collection = Racolta de fraxi
 
 ## NotFound
 
