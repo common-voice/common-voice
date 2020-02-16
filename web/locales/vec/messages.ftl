@@ -216,6 +216,10 @@ email-subscription-title-new = Nòtate a óe newsletter de Common Voice, a i pro
 
 benefits = Vantaji
 improve-audio = Le informasion de el profiƚo le mijora i dati audio utilixa ne el adestramento de precixion de el riconosimento vocaƚe.
+keep-track = Tien tracia de tuti i progresi e metriche in pì ƚengue.
+compare-progress = Confronta i tuoi progresi co cueƚi de altri colaboratori de tuto el mondo.
+view-goals = Confronta i to progresi co i obietivi personaƚi e de el progeto.
+join-newsletter = Se te lo voi, iscrivite a ƚa mailing list par risevere axornamenti e novità so el progeto.
 
 ## What's public
 
