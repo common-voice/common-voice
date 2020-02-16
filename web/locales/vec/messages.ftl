@@ -416,10 +416,30 @@ data-download-yes = Sì
 data-download-deny = No
 data-download-license = Licensa: <licenseLink>CC-0</licenseLink>
 data-download-modal = Vegnerà scaricà <size>{ $size }GB</size> de dati. Prosedere co el download?
+data-get-started = <speechBlogLink>Istrusioni par el riconosimento vocaƚe</speechBlogLink>
 data-other-title = Altri dataset vocali…
+data-other-goto = Và a { $name }
+data-other-download = Descarga i dati
+data-bundle-button = Descarga bundle de dataset
+data-bundle-description = Dati de Common Voice e en pì tuti cuanti i dataset presedenti.
+license = Licensa: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mista
+review-terms = Utiƚixando Common Voice, te aseti ƚe nostre <termsLink>condisioni</termsLink> e l’<privacyLink>informativa so ƚa privacy</privacyLink>
+terms-agree = Aseto
+terms-disagree = No aseto
+review-submit-title = Riscolta e manda
+review-recording = Riscolta
+review-rerecord = Registra de novo
+review-cancel = Scanseƚa el invio
+review-keep-recordings = Conserva ƚe registrasion
+review-delete-recordings = Scaanseƚa ƚe me registrasion
 
 ## Datasets Page
 
+language = Ƚengua
+# File size in gigabytes
+size = Dimension
+validated-hr-total = TotaȽe ore convalidà
 
 ## Download Modal
 
