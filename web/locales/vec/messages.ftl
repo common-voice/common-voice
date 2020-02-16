@@ -516,6 +516,18 @@ skip = Salta
 shortcuts = Scorciatoie
 clips-with-count = <bold>{ $count }</bold> registrasion
 goal-help-recording = Te ghe jutà Common Voice a rivare a <goalPercentage></goalPercentage> de el traguardo xornaƚiero { $goalValue } par ƚe registrasion.
+contribute-more = Sito pronto a farne ancora { $count }?
+record-cta = Invìa la registrasion
+record-platform-not-supported-desktop = So computer desktop te poi descargare ƚ’ultima version:
+record-platform-not-supported-ios = I utenti <bold>iOS</bold> i pole descargare ƚa nostra aplicasione gratuita:
+record-must-allow-microphone = Xe necesario consentire l’aceso a el microfono de el dispoxitivo.
+record-no-mic-found = Inpossibiƚe catare el microfono.
+record-error-too-short = Ƚa registrasion la xe masa breve.
+record-error-too-long = Ƚa registrasion la xe masa longa.
+record-cancel = Anuƚa ƚa nova registrasion
+record-instruction = { $actionType }<recordIcon></recordIcon>, e dopo lèxi ƚa fraƚe a vose alta
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> cò te ghe finìo
+record-three-more-instruction = Ancora tre!
 
 ## Reporting
 
