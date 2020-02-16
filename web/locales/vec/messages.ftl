@@ -361,6 +361,8 @@ faq-do-want-native-q = No son on madreƚengua ma parƚo co asento straniero. Gav
 faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
 faq-why-my-lang-q = Parché ƚa me ƚengua no ƚa ghe xe gnancora?
 faq-what-quality-q = Cuaƚe liveƚo de cualità audio xe necesarìa da na registrasion vocale par esare utilixà ne el dataset?
+faq-why-10k-hours-q = Parché 'l obietivo de registrasion el xe  proprio 10.000 ore convalidà par ogni ƚengua?
+faq-why-10k-hours-a = El xe pì o meno el nùmaro de ore necesarie par adestrare on software de riconosimento vocaƚe.
 faq-how-calc-hours-q = En che modo Common Voice calcoƚa ƚe ore?
 faq-where-src-from-2-q = Da dove vien el testo de origine?
 faq-why-not-ask-read-q = Parché no dimandè a ƚe parsone de lèxere brani da ƚibri o articoƚi de Wikipedia en diverse ƚengue?
@@ -383,6 +385,7 @@ about-speak-text = I coƚaboratori i lexe e i registra on breve testo catà fora
 about-listen-queue = Coa de le robe da scoltare
 about-listen = Scolta
 about-is-it-valid = La registrasion xeƚa vaƚida?
+about-is-it-valid-text = Na registrasion vocaƚe la xe contrassegnà cofà “vaƚida” cò on utente ƚa valuta con on Sì.
 about-yes-votes = ≥ 2 voti Sì
 about-no-votes = ≥ 2 voti No
 about-dataset-new = Dataset de Common Voice
@@ -615,9 +618,22 @@ lose-changes-warning = Se te ve fora deso, te perderè ƚe to modifeghe
 help-reach-hours = Juta a rivare a { NUMBER($hours) } ore en { $language } co on obiettivo personaƚe
 set-a-goal = Inposta on obietivo
 cant-decide = Sito indeciso?
+confirm-goal = Conferma obietivo
+goal-interval-weekly = Setimanaƚe
+share-goal-type-speak = Registrare
+share-goal-type-listen = Convaƚidare
+share-goal-type-both = Registrare e convaƚidare
+weekly-goal-created = Obietivo settimanaƚe creà
+daily-goal-created = Obietivo quotidian creà
+share-goal = Condividi el mìo obietivo
 
 ## Profile Delete
 
+keep = Mantien
+remove = Rimovi
+profile-form-delete = Scanseƚa profiƚo
 
 ## Landing
 
+welcome-staff = Benvenùo, menbro de { $company }.
+read-more-about = Scopri de pì so ƚa pàgina Informasion
