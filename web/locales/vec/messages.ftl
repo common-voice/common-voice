@@ -584,9 +584,37 @@ validations =
 your-languages = Ƚe to ƚengue
 toward-next-goal = Verso el prosimo obietivo
 clips-you-recorded = Registrasion che te ghe inserìo
+stats = Statisteghe
+awards = Riconosimenti
+you = Tu
+everyone = Tuti cuanti
+contribution-activity = Contributi
+top-contributors = Coƚaboratori principaƚi
+recorded-clips = Registrasion inserìe
+validated-clips = Registrasion convalidà
+total-approved = Totaƚe aprovà
+overall-accuracy = Precixion conplesiva
+set-visibility = Inposta ƚa me visibiƚità
+show-ranking = Mostra ƚa me poxision
 
 ## Custom Goals
 
+get-started-goals = Comisìa a utilixare i obietivi
+create-custom-goal = Crea on obietivo personaƚe
+both-speak-and-listen = Tuti e do
+both-speak-and-listen-long = Tute e do (registrare e convaƚidare)
+daily-goal = Obietivo giornaliero
+weekly-goal = Obietivo setimanaƚe
+easy-difficulty = Fasiƚe
+average-difficulty = Medio
+difficult-difficulty = Difisiƚe
+pro-difficulty = Esperto
+want-to-continue = Vuto continuare?
+finish-editing = Vuto finire par prima ƚe modìfeghe?
+lose-changes-warning = Se te ve fora deso, te perderè ƚe to modifeghe
+help-reach-hours = Juta a rivare a { NUMBER($hours) } ore en { $language } co on obiettivo personaƚe
+set-a-goal = Inposta on obietivo
+cant-decide = Sito indeciso?
 
 ## Profile Delete
 
