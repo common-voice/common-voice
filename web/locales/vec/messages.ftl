@@ -405,12 +405,15 @@ mycroft-subtitle = Inteƚigensa artifisaƚe
 glossary = Glosario
 localization = Localixasion
 sentence-collection = Racolta de fraxi
+hours-recorded-explanation = El contegio de ƚe ore de registrasion vocaƚe che gavemo racolto fin deso.
 sst = Riconosimento vocaƚe (STT acronimo de Speech-to-text)
+sst-explanation = Le tecnologie de riconosimento vocaƚe (STT) ƚe converte el parlato en testo.
 de-identified = Anonimixasion
 
 ## NotFound
 
 notfound-title = No trovà
+notfound-content = Inpossibile trovare i contenuti cercà.
 
 ## Data
 
@@ -430,7 +433,9 @@ license-mixed = Mista
 review-terms = Utiƚixando Common Voice, te aseti ƚe nostre <termsLink>condisioni</termsLink> e l’<privacyLink>informativa so ƚa privacy</privacyLink>
 terms-agree = Aseto
 terms-disagree = No aseto
+review-aborted = Cargamento anuƚà. Vuto scanseƚare le to registrasioni?
 review-submit-title = Riscolta e manda
+review-submit-msg = Grasie par el to contributo!<lineBreak></lineBreak>Deso scolta ƚe registrasion di seguito e sèji se salvarƚe.
 review-recording = Riscolta
 review-rerecord = Registra de novo
 review-cancel = Scanseƚa el invio
@@ -457,11 +462,13 @@ validated-hours = Ore convaƚidà
 recorded-hours = Ore registrà
 whats-inside = Che roba ghe xe a l’interno de el dataset de Common Voice?
 subscribe = Iscrivite
+get-started-speech = Inisìa co el riconosimento vocaƚe
 other-datasets = Altri dataset vocaƚi
 feedback-q = Gheto sugerimenti?
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Va so Discourse
 go-languages-page = Va a ƚa pàgina Ƚengue
+ready-to-validate = Sito pronto a convalidare on poche de fraxi?
 more = Altro
 close = Sara su
 download = Descarga
