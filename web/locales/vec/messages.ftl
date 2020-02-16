@@ -440,15 +440,53 @@ language = Ƚengua
 # File size in gigabytes
 size = Dimension
 validated-hr-total = TotaȽe ore convalidà
+overall-hr-total = TotaȽe ore conplesive
+cv-license = Licensa
+audio-format = Formato audio
+number-of-voices = Nùmaro de vosi
+splits = Divixioni
+email-to-download = Inserisi ƚa to email par inisiare el download
+confirm-size = Sito pronto par inisiare on download de <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Descarga { $language }
+validated-hours = Ore convaƚidà
+recorded-hours = Ore registrà
+whats-inside = Che roba ghe xe a l’interno de el dataset de Common Voice?
+subscribe = Iscrivite
+other-datasets = Altri dataset vocaƚi
+feedback-q = Gheto sugerimenti?
+data-other-ted-name = TED-LIUM Corpus
+go-discourse = Va so Discourse
+go-languages-page = Va a ƚa pàgina Ƚengue
+more = Altro
+close = Sara su
+download = Descarga
+dataset-version = Version
 
 ## Download Modal
 
+download-title = Download inisià.
+download-form-email =
+    .label = Inserisi ƚa to email
+    .value = Grasie, te contateremo a el pì presto.
+download-back = Torna a i dataset de Common Voice
+download-no = No, grasie
 
 ## Contact Modal
 
+contact-title = Moduƚo de contato
+contact-form-name =
+    .label = Nòme
+contact-form-message =
+    .label = Mesajo
+contact-required = *obligatorio
 
 ## Request Language Modal
 
+request-language-title = Dimanda de na nova ƚengua
+request-language-form-language =
+    .label = Ƚengua
 
 ## Languages Overview
 
