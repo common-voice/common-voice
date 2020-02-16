@@ -343,7 +343,9 @@ gravatar_not_found = Nisun profiƚo Gravatar asocià a ƚa to email
 file_too_large = El file selesionà el xe masa grande
 manage-subscriptions = Gestisi ƚe sotoscrisioni
 manage-email-subscriptions = Gestisi ƚe icrision email
+email-already-used = Sta email la xe xà en uxo par on altro account
 add-language = Xonta na Ƚengua
+change-email-setings = Canbia ƚa to email da ƚe inpostasioni al de soto  de ƚa voce Identità de aceso
 
 ## FAQ
 
@@ -353,9 +355,16 @@ faq-why-important-q = Parché xe inportante?
 faq-how-get-q = In che modo poso otegnere i dati de Common Voice?
 faq-when-release2-q = Cuando vegnerà rilascià i dati de Common Voice en altre ƚengue?
 faq-why-mission-q = In che modo Common Voice rientra ne ƚa mision de Mozilla?
+faq-what-cv-and-deepspeech-q = Che difarensa che xe intra Common Voice e Deep Speech?
+faq-is-goal-assistant-q = L’obietivo de Common Voice xeƚo cueƚo de produre on asistente vocaƚe?
+faq-do-want-native-q = No son on madreƚengua ma parƚo co asento straniero. Gavìo lo steso bisogno de ƚa me vose?
 faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
 faq-why-my-lang-q = Parché ƚa me ƚengua no ƚa ghe xe gnancora?
+faq-what-quality-q = Cuaƚe liveƚo de cualità audio xe necesarìa da na registrasion vocale par esare utilixà ne el dataset?
 faq-how-calc-hours-q = En che modo Common Voice calcoƚa ƚe ore?
+faq-where-src-from-2-q = Da dove vien el testo de origine?
+faq-why-account-q = Parché gavarìa registrare on account?
+faq-is-account-public-q = Le informasion so el mìo account xeƚe publiche?
 
 ## ABOUT US
 
