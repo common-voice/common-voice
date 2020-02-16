@@ -225,6 +225,9 @@ join-newsletter = Se te lo voi, iscrivite a ƚa mailing list par risevere axorna
 
 whats-public = Che dati xeƚi publici?
 email-not-public = No renderemo el to indiriso email publico.
+recordings-and-locale-public = El nùmaro de registrasioni e ƚe ƚengue indove te ghe contribuìo ƚe sarà publiche.
+username-optin-public = Te poi sejere de rendare el to nome utente publico o anonimo.
+demographic-deidentified = Le informasion personaƚi fornìe facoltativamente (a exempio età, seso, ƚengua e asento) le xe sotoposte a on proceso de anonimixasion e no ƚe sarà mai visibiƚi so el to profiƚo publico.
 username-email-not-demographic = El to nome utente e email no la vegnerà asocià co i dati publicà.
 
 ## Speak & Listen Shortcuts
@@ -260,6 +263,11 @@ request-language-button = Dimanda na ƚengua
 
 status-title = Stato generaƚe de el progetto: vàrda cuanta strada gavemo xà fato!
 status-contribute = Dona ƚa to vose
+status-hours =
+    { $hours ->
+        [one] Fin deso una ora convaƚidà!
+       *[other] Fin deso { $hours } ore convaƚidà!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Prosimo obietivo: { $goal }
@@ -279,6 +287,8 @@ profile-form-age =
     .label = Età
 profile-form-gender =
     .label = Seso
+leaderboard-visibility =
+    .label = Visibiƚità ne ƚa clasifica
 hidden = Sconto
 visible = Visibiƚe
 native-language =
@@ -290,11 +300,14 @@ female = Fèmena
 # Gender
 other = Altro
 why-profile-title = Parché creare on profiƚo?
+why-profile-text = Se te fornisi ste informasioni insieme a ƚe to registrasion vocaƚi, ƚe vegnerà uxa par mijorare ƚa precixion de i motori de riconosimento vocaƚe.
 dashboard = Paneƚo
 build-profile = Crea el to profiƚo
+avatar = Avatar
 goals = Obietivi
 settings = Inpostasioni
 edit-profile = Modìfega profiƚo
+profile-create-success = Profiƚo creà co suceso
 profile-close = Sara
 why-demographic = Parché el xe inportante?
 accept-privacy-title = Informativa so ƚa privacy
