@@ -370,6 +370,7 @@ faq-how-privacy-q = En che modo asicurè el anonimato e ƚa privacy de ƚe parso
 faq-what-determine-identity-q = Che roba vol dire che xe proibìo “determinare ƚ’identità” de ƚe voci ne i dataset de Common Voice?
 faq-what-is-cv = Che roba xeƚa Common Voice?
 faq-using-cv = Uxo de Common Voice
+faq-description = Common Voice el xe parte de n’iniziativa Mozilla par insegnare a ƚe machine en che modo ƚe persone ƚe parla ne ƚa vita reale.
 faq-search-for-answers =
     .label = Serca par risposte
 
@@ -378,13 +379,16 @@ faq-search-for-answers =
 about-title = Parché Common Voice?
 how-does-it-work-title = En che modo funsiona
 about-speak = Parla
+about-speak-text = I coƚaboratori i lexe e i registra on breve testo catà fora da na banca dati de fraxi donà.
 about-listen-queue = Coa de le robe da scoltare
 about-listen = Scolta
+about-is-it-valid = La registrasion xeƚa vaƚida?
 about-yes-votes = ≥ 2 voti Sì
 about-no-votes = ≥ 2 voti No
 about-dataset-new = Dataset de Common Voice
 about-clip-graveyard = Cimitero de ƚe registrasion
 about-partners = Partner
+about-become-a-partner = Diventa partner
 about-get-involved = Coƚabora
 about-nav-why-common-voice = Parché?
 about-nav-how-it-works = En che modo?
@@ -398,12 +402,21 @@ mycroft-subtitle = Inteƚigensa artifisaƚe
 glossary = Glosario
 localization = Localixasion
 sentence-collection = Racolta de fraxi
+sst = Riconosimento vocaƚe (STT acronimo de Speech-to-text)
+de-identified = Anonimixasion
 
 ## NotFound
 
+notfound-title = No trovà
 
 ## Data
 
+data-download-button = Descarga i dati de Common Voice
+data-download-yes = Sì
+data-download-deny = No
+data-download-license = Licensa: <licenseLink>CC-0</licenseLink>
+data-download-modal = Vegnerà scaricà <size>{ $size }GB</size> de dati. Prosedere co el download?
+data-other-title = Altri dataset vocali…
 
 ## Datasets Page
 
