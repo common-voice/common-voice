@@ -260,6 +260,7 @@ Azon gondolkodtam, mi okozta a tüzet.
 Azon nincsenek rossz egyenletek.
 Azonban ő lassan eldobálta legjobb kártyáit.
 Azonos mértékű üzletrészhez azonos tagsági jogok fűződnek.
+Azt akarom, hogy tudd.
 Azt hiszed kellemes meleg sátorban töltöttem az első éjszakámat?
 Azt hiszem lehetnek olyan problémák, amiknek nincs közük az implantátumhoz.
 Azt hiszem, a laptopjáért ment vissza.
@@ -276,6 +277,7 @@ Azt mondtuk, nincs tank!
 Azt most parkolópályára tettem.
 Azt nem kell bizonyítani.
 Azt szinte lehetetlen elpusztítani.
+Azt viszont bizonyosan állíthatjuk, hogy itt nem vicces.
 Aztán a fickó megszökött a börtönből.
 Azután John lassan elmondott mindent.
 Azért teszem, hogy jó szomszéd legyek.
@@ -297,6 +299,7 @@ Bicskázásért vállalom a felelősséget, de műtétért nem!
 Bizonyos volt benne, hogy törlik a nyilvántartott tengerészek névsorából.
 Bizonytalan ujjai révetegen kapirgálnak némi maradék dohány után a bádogdobozában.
 Biztos egy meghibásodott hajó, talán van használható üzemanyagcellája.
+Biztos megalázó lehet minden szinten elvérezni.
 Biztos nem akarsz orvoshoz menni?
 Biztos vagy benne?
 Biztos vagyok benne, hogy halottak!
@@ -316,6 +319,7 @@ Büszkék vagyunk a magyar emberek nagyszerű szellemi alkotásaira.
 Büszkék vagyunk az országunk megmaradásáért, szabadságáért és függetlenségéért küzdő őseinkre.
 Bűnös nincs!
 Bűnösnek találtattál az emberség és az illendőség teljes hiányában.
+Citromos zselatinnal?
 Csak akik már találkoztak veled.
 Csak azt akarom, hogy tudd, nem kell így élned.
 Csak azt gondoltam, mire úgy lesz, addigra már nem számít.
@@ -381,9 +385,11 @@ De, igazad van.
 Dehogy muszáj.
 Dehogy, alhatsz a kanapén, vagy az ágyamban, most vettem új párnát.
 Dehogy.
+Délelőtt vagy délután?
 E törvény rendelkezéseit Magyarország alkotmányos rendjével összhangban kell értelmezni.
 Ebben látszik, hogy fizikus vagyok, de attól még jó fej.
 Ebből a sértésből már csak az anyád hiányzott.
+Ebből az adathalmazból nem vonhatod le ezt a következtetést.
 Egy barát nem izzadja össze a macidat.
 Egy boldog részvényesed már van.
 Egy csapat bank rabló túszokat ejtett a munkájuk során.
@@ -544,6 +550,7 @@ Főisten a szanszkrit mondavilágból.
 Gazdasági társaság más gazdasági társasággal, valamint szövetkezettel és egyesüléssel egyesülhet.
 Gondolj csak bele.
 Gondolja, hogy Katalin a megfelelő ember erre a munkára?
+Gondolkodj, asszony!
 Gondolod?
 Gondolom azt, hogy ti ketten egy olyan párt alkotnátok, amit mások aranyosnak mondanának.
 Gondolom most gratulálnom kéne.
@@ -612,6 +619,7 @@ Hogy ne robbantsd fel a fejemet!
 Hogy nézek ki?
 Hogy ráhibáztál.
 Hogy tervezhetném meg a szükségleteimet?
+Hogy van a családod?
 Hogy velünk?
 Hogy venné fel, ha túl ideges vagy, hogy beszélj hozzá?
 Hogy végre elüldözte a fiát?
@@ -683,6 +691,7 @@ Igen, készen állok.
 Igen, minden, nyolcadik óta.
 Igen, nem.
 Igen, tegnap hosszan megbeszéltük.
+Igen, tessék.
 Igen, tudom, az emberek nem tudnak repülni.
 Igen, tökre felszabadít a tudat.
 Igen, vagyis nem, te nem vagy normális!
@@ -696,6 +705,7 @@ Ismerős volt, mint a régi életem.
 Istenem, a táblám!
 Istenem, az ujjam.
 Istenem, milyen rengeteg sok manó!
+Istenkém, de jó újra itthon.
 Itt a tarcsi kulcsom.
 Itt az idő, hogy örök nyugalomra térjek.
 Itt is lesz valahol.
@@ -713,6 +723,7 @@ Jaj, ismerem ezt a nézést.
 Jaj, vigyázz!
 Javaslom, vegyél nadrágot!
 Jobb egy lúdnyak tíz tyúknyaknál.
+Jobb ha mész, mielőtt még lefúj fertőtlenítővel.
 Jobb, ha veled megyek.
 John most már úgy érezte, hogy érti a nagyanyját.
 Jártam már így.
@@ -760,6 +771,7 @@ Ki akarna megenni egy komplett faszt?
 Ki mondta, hogy hozzányúlhatsz a táblámhoz?
 Ki vagy te?
 Ki vagyunk zárva.
+Ki és mikor fújt orrot?
 Kiakaszt ez a sok rohadt kutya itt a környéken!
 Kicsit rendetlen?
 Kiegyezem egy agyvérzésben.
@@ -800,9 +812,11 @@ Könyörögtél, hogy menjek el, elmentem.
 Körülbelül harmincan voltak.
 Kösz az érdeklődést, de nem arattam sikert.
 Kösz, hogy bevettél.
+Köszi a leveleket.
 Köszi a remek éjszakát.
 Köszi, anyu.
 Köszi, én is.
+Köszönöm a megértést.
 Köszönöm, hogy ilyen gyorsan jött.
 Köszönöm, hétköznapi személy.
 Követelésének részét képezik az alábbi érzelmi zavarok.
@@ -908,6 +922,7 @@ Mi a baj?
 Mi a baja?
 Mi a fene van veletek?
 Mi a fene volt ez?
+Mi a fenét művelsz?
 Mi az ábra?
 Mi az, talán nő a baj?
 Mi csapatban játszunk, nem egymás ellen.
@@ -923,13 +938,16 @@ Mi van?!
 Micsoda, randira hívsz?
 Micsoda?
 Mikor elvette anyádat, hároméves sem voltál.
+Mikor jelentkeztek az első tünetek?
 Mikor mozdultál ki utoljára a házból?
 Mikor van a randid?
 Milyen beteg már ez?
+Milyen beteg?
 Milyen csók volt?
 Milyen képzéseket kell nekik adnunk?
 Milyen kés volt?
 Milyen praktikus!
+Milyen volt Nebraska?
 Milyen volt a meló?
 Milyen volt a randi?
 Milyen érdekes, ez egy újabb közös pont!
@@ -946,6 +964,7 @@ Minden tagnak egy törzsbetéte lehet.
 Mindenesetre továbbra is a közelben sepregetett.
 Mindenki azt hitte, hogy én loptam el, és én soha nem helyesbítettem.
 Mindenki befelé a hálózsákokba.
+Mindenki beteg volt.
 Mindenki kifelé!
 Mindenki megbánja a tetkóit.
 Mindenkinek joga van a szabadsághoz és a személyi biztonsághoz.
@@ -1009,6 +1028,7 @@ Most mindent tudtok, hát menjetek a fenébe.
 Most már csak az különös, ha ébren van valaki.
 Most még nevetsz, de várj csak, ha majd meg kell szerelni a gépedet!
 Most pedig lódulj!
+Most pedig távozz, kérlek.
 Most viszont menjünk.
 Most, hogy a kávédobáló ringyó és a törpe rasszista kiléte tisztázódott.
 Mostanában?
@@ -1168,6 +1188,7 @@ Nem volt ez ám mindig így.
 Nem volt más választásom.
 Nem voltam ilyen kiélezett és koncentrált az első kerozin szippantásom óta.
 Nem én.
+Nem érdekel, hogy mit hiszel.
 Nem érdekes, tartsd meg!
 Nem érdeklem azt a nőt.
 Nem értek egyet veled.
@@ -1211,6 +1232,7 @@ Nyolckor kellett volna kezdenünk, nyolc óra hat van.
 Nyugi, kezdd egy viccel, és nem lesz baj!
 Nyílik az ajtó, és belép egy főhadnagy.
 Nyújtózkodva egy kis kiáltás szaladt ki belőle.
+Nálad van a postám?
 Négy tucat elég lesz.
 Négy évesen már összeolvasta a nyomtatott nagybetűket.
 Néha a súlytól eltörik a nyakuk, vagy megfulladnak, mielőtt segíthetnénk.
@@ -1253,6 +1275,7 @@ Pontosítanád a kérdést?
 Probléma megoldva.
 Próbálkozz ezzel a rövidebb mondattal!
 Például?
+Pénteken talán.
 Rajta, kicsim, lemegy a Nap.
 Realista leszek, és a saját kategóriámban keresgélek.
 Remek!
@@ -1371,6 +1394,7 @@ Tojás lesz reggelire?
 Tojások kellenek.
 Toljuk.
 Tomi meg egy nadrágtól válik képernyőképessé.
+Torokban található váladéktenyészetet hozok létre.
 Tudja mit, adok magának egy kis pénzt.
 Tudja, hogy mi vár egy potyautasra, ha karanténba kerülünk?
 Tudja, mit?
@@ -1403,6 +1427,7 @@ Túléltem a tüzet, ami elpusztította az otthonomat.
 Tüzesen süt le a nyárni nap sugára az ég tetejéről a juhászbojtárra.
 Tőlem is.
 Tőlem mehet.
+Ugyan, kérlek.
 Ugyanaz, mint a kínai étteremben!
 Ugyanez a címer látszott a pecsétgyűrűn és a cigarettaszelencén.
 Ugye csak viccelsz?
