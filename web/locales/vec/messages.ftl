@@ -309,6 +309,8 @@ settings = Inpostasioni
 edit-profile = Modìfega profiƚo
 profile-create-success = Profiƚo creà co suceso
 profile-close = Sara
+profile-explanation = Registra on profiƚo par tener tracia de i to progresi e jutarte a mijorare ƚa precixion de i dati vocaƚi.
+thanks-for-account = Grasie par aver confermà el to account, ora inisiemo a conpletare el to profiƚo.
 why-demographic = Parché el xe inportante?
 accept-privacy-title = Informativa so ƚa privacy
 login-identity = Identità de aceso
@@ -340,6 +342,7 @@ connect-gravatar = Coneti Gravatar
 gravatar_not_found = Nisun profiƚo Gravatar asocià a ƚa to email
 file_too_large = El file selesionà el xe masa grande
 manage-subscriptions = Gestisi ƚe sotoscrisioni
+manage-email-subscriptions = Gestisi ƚe icrision email
 add-language = Xonta na Ƚengua
 
 ## FAQ
