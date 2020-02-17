@@ -534,6 +534,7 @@ your-languages = آپ کی زبانیں
 toward-next-goal = اگلے مقصد کی طرف
 clips-you-recorded = آپ کے پاس ریکارڈ کردہ تراشے
 clips-you-validated = آپ کے توثیق شدہ تراشے
+stats = اعداد و شمار
 awards = ایوارڈ
 you = آپ
 everyone = تمام
