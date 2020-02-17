@@ -149,10 +149,14 @@ help = Tulong
 privacy = Pribasiya
 cookies = Cookies
 faq = FAQ
+link-copied = Kinopya ang Link
+back-top = Bumalik sa Itaas
 logout = Log Out
 
 ## Home Page
 
+home-cta = Magsalita, mag-ambag dito!
+show-wall-of-text = Magbasa nang Higit Pa
 vote-yes = Oo
 vote-no = Hindi
 all-locales = Lahat
@@ -173,6 +177,7 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = Benepisyo
 
 ## What's public
 
@@ -217,10 +222,14 @@ profile-form-age =
 profile-form-gender =
     .label = Kasarian
 hidden = Nakatago
+visible = Makikita
+profile-form-submit-save = i-Save
+profile-form-submit-saved = Naka-Save
 male = Lalaki
 female = Babae
 # Gender
 other = Ibang Kasarian
+why-profile-title = Bakit isang profile?
 profile-explanation = Subaybayan ang iyong pag-unlad gamit ang iyong profile at tulungan ang aming data ng mga boses na mas maging tama.
 thanks-for-account = Salamat sa pagkumpirma ng iyong account, ngayon gawin natin ang iyong profile.
 why-demographic = Bakit ito nararapat?
