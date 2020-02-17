@@ -3,6 +3,9 @@
 contribute = Makibahagi
 get-involved-button = Makilahok
 get-involved-title = Makibahagi sa { $lang }
+get-involved-text =
+    Maraming salamat sa iyong interes na makibahagi sa { $lang }. Puspusan ang aming pagtatrabaho upang ang lahat ng mga wika ay maging handa sa paglunsad at para
+    ma-update ang lahat sa pamamagitan ng email. Kung nais mong tumulong, pakiiwan ang iyong email.
 get-involved-form-title = Mag-sign up para sa mga { $lang } update:
 get-involved-email =
     .label = Email
